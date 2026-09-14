@@ -4,7 +4,9 @@ Read only the inline editorial input and output schema. The completed ayah
 editorials are the sole semantic evidence. Do not read other files, consult
 external sources, use remembered interpretations, or recover material from
 discovery, scope prose, invitations, translations, Quran datasets, networks,
-or previous surah readings. Paths are provenance only. Write JSON, not prose.
+or previous surah readings. Do not spawn, launch, or delegate to subagents;
+perform this outline task yourself in this same agent session. Paths are
+provenance only. Write JSON, not prose.
 
 Read every supplied ayah editorial. Identify the main movements through which
 their already-present readings illuminate one another across the surah. This

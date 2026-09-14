@@ -95,27 +95,23 @@ def validate_packet(packet: dict) -> None:
             "run ID mismatch")
 
 
-def build_packet(*, editorial_root: Path, analysis_id: str, surah: int,
-                 ayah_count: int, language: str, completed_by: str) -> dict:
-    require(bool(re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._-]*", analysis_id)), "invalid analysis ID")
-    require(type(surah) is int and 1 <= surah <= 114 and ayah_count > 0, "invalid surah/ayah count")
-    language = normalize_language(language)
-    nonempty(completed_by, "explicit completed-by attestation")
-    directory = editorial_root / analysis_id / f"s{surah:03d}"
-    require(directory.is_dir(), f"editorial directory missing: {directory}")
-    numbered = {int(path.name.split("_")[1]) for path in directory.iterdir()
-                if path.is_dir() and re.fullmatch(rf"{surah}_[1-9][0-9]*", path.name)}
-    require(numbered == set(range(1, ayah_count + 1)),
-            "editorial ayah directories do not match the declared complete surah")
-    rows, paths = [], []
-    for ayah in range(1, ayah_count + 1):
-        key = f"{surah}_{ayah}"
-        path = directory / key / f"{key}.prose.editorial.{language}.md"
-        require(path.is_file(), f"completed editorial missing: {path}")
-        text = path.read_bytes().decode("utf-8")
-        rows.append({"ayahRef": f"{surah}:{ayah}", "sourcePath": portable_path(path),
-                     "sha256": sha256_text(text), "text": text})
-        paths.append(path)
+def valid_analysis_id(analysis_id: str) -> bool:
+    return bool(re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9._-]*", analysis_id))
+
+
+def editorial_row(*, editorial_root: Path, analysis_id: str, surah: int,
+                  ayah: int, language: str) -> tuple[dict[str, str], Path]:
+    key = f"{surah}_{ayah}"
+    path = editorial_root / analysis_id / f"s{surah:03d}" / key / f"{key}.prose.editorial.{language}.md"
+    require(path.is_file(), f"completed editorial missing: {path}")
+    text = path.read_bytes().decode("utf-8")
+    return ({"ayahRef": f"{surah}:{ayah}", "sourcePath": portable_path(path),
+             "sha256": sha256_text(text), "text": text}, path)
+
+
+def complete_packet(*, surah: int, ayah_count: int, language: str,
+                    analysis_id: str, completed_by: str,
+                    rows: list[dict[str, str]], paths: list[Path]) -> dict:
     packet = {"schemaVersion": PACKET_SCHEMA, "surah": surah, "ayahCount": ayah_count,
               "language": language, "analysisId": analysis_id, "completedBy": completed_by,
               "editorials": rows}
@@ -126,6 +122,79 @@ def build_packet(*, editorial_root: Path, analysis_id: str, surah: int,
                 for path, row in zip(paths, rows)),
             "editorial changed during snapshot; wait for completion and rebuild")
     return packet
+
+
+def build_packet(*, editorial_root: Path, analysis_id: str, surah: int,
+                 ayah_count: int, language: str, completed_by: str) -> dict:
+    require(valid_analysis_id(analysis_id), "invalid analysis ID")
+    require(type(surah) is int and 1 <= surah <= 114 and ayah_count > 0, "invalid surah/ayah count")
+    language = normalize_language(language)
+    nonempty(completed_by, "explicit completed-by attestation")
+    directory = editorial_root / analysis_id / f"s{surah:03d}"
+    require(directory.is_dir(), f"editorial directory missing: {directory}")
+    numbered = {int(path.name.split("_")[1]) for path in directory.iterdir()
+                if path.is_dir() and re.fullmatch(rf"{surah}_[1-9][0-9]*", path.name)}
+    require(numbered == set(range(1, ayah_count + 1)),
+            "editorial ayah directories do not match the declared complete surah")
+    rows: list[dict[str, str]] = []
+    paths: list[Path] = []
+    for ayah in range(1, ayah_count + 1):
+        row, path = editorial_row(editorial_root=editorial_root, analysis_id=analysis_id,
+                                  surah=surah, ayah=ayah, language=language)
+        rows.append(row)
+        paths.append(path)
+    return complete_packet(surah=surah, ayah_count=ayah_count, language=language,
+                           analysis_id=analysis_id, completed_by=completed_by,
+                           rows=rows, paths=paths)
+
+
+def parse_analysis_part(value: str) -> tuple[str, int, int]:
+    match = re.fullmatch(r"([^:]+):([1-9][0-9]*)-([1-9][0-9]*)", value)
+    require(match is not None,
+            "--analysis-part must have shape ANALYSIS_ID:START-END, e.g. s005-p01-with-fatiha:1-11")
+    analysis_id, start_text, end_text = match.groups()
+    require(valid_analysis_id(analysis_id), f"invalid analysis ID in --analysis-part: {analysis_id}")
+    start, end = int(start_text), int(end_text)
+    require(start <= end, f"invalid ayah range in --analysis-part: {value}")
+    return analysis_id, start, end
+
+
+def build_packet_from_parts(*, editorial_root: Path, parts: list[str], surah: int,
+                            ayah_count: int, language: str, completed_by: str) -> dict:
+    require(type(surah) is int and 1 <= surah <= 114 and ayah_count > 0, "invalid surah/ayah count")
+    language = normalize_language(language)
+    nonempty(completed_by, "explicit completed-by attestation")
+    parsed = [parse_analysis_part(part) for part in parts]
+    require(bool(parsed), "at least one --analysis-part is required")
+    coverage: dict[int, str] = {}
+    rows_by_ayah: dict[int, dict[str, str]] = {}
+    paths_by_ayah: dict[int, Path] = {}
+    for analysis_id, start, end in parsed:
+        require(end <= ayah_count,
+                f"--analysis-part range exceeds declared ayah count: {analysis_id}:{start}-{end}")
+        directory = editorial_root / analysis_id / f"s{surah:03d}"
+        require(directory.is_dir(), f"editorial directory missing: {directory}")
+        numbered = {int(path.name.split("_")[1]) for path in directory.iterdir()
+                    if path.is_dir() and re.fullmatch(rf"{surah}_[1-9][0-9]*", path.name)}
+        require(numbered == set(range(start, end + 1)),
+                f"{analysis_id}: editorial ayah directories do not match declared range {start}-{end}")
+        for ayah in range(start, end + 1):
+            require(ayah not in coverage,
+                    f"ayah {surah}:{ayah} covered by both {coverage.get(ayah)} and {analysis_id}")
+            row, path = editorial_row(editorial_root=editorial_root, analysis_id=analysis_id,
+                                      surah=surah, ayah=ayah, language=language)
+            coverage[ayah] = analysis_id
+            rows_by_ayah[ayah] = row
+            paths_by_ayah[ayah] = path
+    expected = set(range(1, ayah_count + 1))
+    require(set(coverage) == expected,
+            f"--analysis-part coverage must cover every ayah 1-{ayah_count} exactly once")
+    rows = [rows_by_ayah[ayah] for ayah in range(1, ayah_count + 1)]
+    paths = [paths_by_ayah[ayah] for ayah in range(1, ayah_count + 1)]
+    combined_id = "+".join(f"{analysis_id}:{start}-{end}" for analysis_id, start, end in parsed)
+    return complete_packet(surah=surah, ayah_count=ayah_count, language=language,
+                           analysis_id=combined_id, completed_by=completed_by,
+                           rows=rows, paths=paths)
 
 
 def run_dir(packet: dict) -> Path:
@@ -272,7 +341,10 @@ def main() -> int:
     commands = parser.add_subparsers(dest="command", required=True)
     build = commands.add_parser("build")
     build.add_argument("--editorial-root", type=Path, default=REPO_ROOT / "_commentary/v5/editorial")
-    build.add_argument("--analysis-id", required=True)
+    build.add_argument("--analysis-id")
+    build.add_argument("--analysis-part", action="append", default=[],
+                       help=("repeatable ANALYSIS_ID:START-END for pericope-based editorial sources; "
+                             "cannot be combined with --analysis-id"))
     build.add_argument("--surah", required=True, type=int)
     build.add_argument("--ayah-count", required=True, type=int)
     build.add_argument("--language", default="tr")
@@ -288,9 +360,17 @@ def main() -> int:
             sub.add_argument("--phase", choices=("draft", "editorial"))
     args = parser.parse_args()
     if args.command == "build":
-        packet = build_packet(editorial_root=args.editorial_root.resolve(), analysis_id=args.analysis_id,
-                              surah=args.surah, ayah_count=args.ayah_count, language=args.language,
-                              completed_by=args.completed_by)
+        require(bool(args.analysis_id) != bool(args.analysis_part),
+                "provide exactly one of --analysis-id or one or more --analysis-part")
+        if args.analysis_part:
+            packet = build_packet_from_parts(editorial_root=args.editorial_root.resolve(),
+                                             parts=args.analysis_part, surah=args.surah,
+                                             ayah_count=args.ayah_count, language=args.language,
+                                             completed_by=args.completed_by)
+        else:
+            packet = build_packet(editorial_root=args.editorial_root.resolve(), analysis_id=args.analysis_id,
+                                  surah=args.surah, ayah_count=args.ayah_count, language=args.language,
+                                  completed_by=args.completed_by)
         path = run_dir(packet) / "source-packet.json"
         immutable_write_json(path, packet)
         print(path)

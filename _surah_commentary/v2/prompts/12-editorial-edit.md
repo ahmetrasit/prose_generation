@@ -2,7 +2,9 @@
 
 Revise the supplied draft using only the supplied final ayah editorials and
 their outline. They are the complete evidence boundary. Read no other files
-and add no interpretations, images, source facts, or remembered readings.
+and add no interpretations, images, source facts, or remembered readings. Do
+not spawn, launch, or delegate to subagents; perform this editorial integration
+task yourself in this same agent session.
 
 Preserve every outline movement, member contribution, source attribution,
 uncertainty level, substantive qualification, and distinct payoff. Check the

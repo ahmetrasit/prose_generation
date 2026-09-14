@@ -1,0 +1,187 @@
+# V5 reading invitation — 12:82
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p05-with-fatiha/s012/12_82/12_82.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p05-with-fatiha/s012/12_82/12_82.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyet, kardeşlerin babalarına sunduğu savunmayı kendi içlerinde kapanan bir güvence olmaktan çıkarıp sınanabilir bir iddiaya dönüştürür. Bulundukları şehre ve birlikte geldikleri kervana sorulmasını ister, ardından kendilerini kesinlikle doğru söyleyenler olarak tanıtırlar. Önceki âyette bilinen ve şahit olunanla gaybı koruma arasındaki sınır çizildiği için (12:81), burada hareket iç savunmadan dışarıdan araştırılabilecek bir tanıklık düzenine doğrudur.
+
+Bu geçişi baştaki {ar:وَ, tr:wa, gloss:ve} taşır: bağlaç, önceki sözün içinden çıkar ve yeni bir sahne açmadan soru emrini getirir. {ar:سْـَٔلِ, tr:is'eli, gloss:sor} ikinci tekil eril emir olarak muhatabı araştıran ve bilgi isteyen kişi konumuna yerleştirir. Buradaki soru maddi bir şey istemek değil, olay hakkında tanıklık aramaktır. {ar:وَ, tr:wa, gloss:ve} ile {ar:سْـَٔلِ, tr:is'eli, gloss:sor} okunuşta birbirine sıkıca bağlanır; savunma çizgisi böylece araştırma hareketine dönüşür. Tartışmalı iddiaların dışarıdan sorulmasıyla kurulan daha geniş yankı (7:163, 10:94, 12:7, 12:50, 16:43, 43:45), bu emrin doğrudan anlamını değiştirmeden tanıklık çerçevesini genişletir. Doğrudan nesneler şehir ve kervan olduğu için emir, bir lütuf istemekten çok sözün dışarıdan sınanmasını ister. Kaydedilmiş yumuşatılmış okuyuş olan {ar:وَسَلِ, tr:wa-seli, gloss:sor} ses akışını hafifletir; yine de aynı fiilin iki tanığı yönetmesiyle oluşan tek doğrulama çerçevesi korunur.
+
+İlk nesne {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:şehri} belirli artikel ve belirtme hâliyle gelir. Soru herhangi bir şehre değil, kimliği bilinen belirli bir yerleşime yöneltilir. Kelime yerleşimin kendisini söylerken orada toplanan insanları da düşündürür; böylece emir, taşlara ve duvarlara değil, o yerde yaşayanların ortak hafızasına başvurur. 7:163'te topluluğa soru yöneltilmesi ve 12:109'da şehirler arasında yürüyüp önceki toplulukların akıbetine bakılması, yer adının insan ve tarih taşıyan bir başvuru alanına açılmasını destekler. Yerleşimlerin bir güzergâh içinde birlikte görünmesi de (34:18) şehri yol üzerinde başvurulabilecek bir toplumsal düğüm gibi duyurur. Bu ad aktarması şehri halkıyla birlikte görünür kılar; bağlantının sınırı, şehri tek başına konuşan bir varlığa veya her sakini aynı olayı görmüş tek bir sese çevirmemektir.
+
+İlk {ar:ٱلَّتِى, tr:allatī, gloss:ki}, bu belirli şehri kardeşlerin içinde bulunduklarını söyledikleri yer olarak tanımlar. {ar:كُنَّا, tr:kunnā, gloss:bulunduk} birinci çoğul kişiyle konuşan grubun kardeşler olduğunu cümle tamamlanmadan kurar; tamamlanmış geçmiş biçimi, şehirdeki bulunmayı raporun somut dayanağı yapar. {ar:فِيهَا, tr:fīhā, gloss:onda} içindeki dişil zamir şehre döner ve {ar:كُنَّا, tr:kunnā, gloss:bulunduk} fiilinin yer bildiren tamamlayıcısı olur. Böylece ilk tanık, kardeşlerin gerçekten içinde bulunduğunu ileri sürdükleri sabit yerdir. Bu bulunma fiili, önceki güvenilirlik sorununun ve anlatının doğruluk alanının yankısını taşıyabilir (12:17, 12:111); yine de burada ön plandaki anlam şehirde tamamlanmış bulunmadır. Durağan bu cümle, biraz sonra gelecek hareket cümlesinin zeminini hazırlar.
+
+İkinci nesne {ar:وَ, tr:wa, gloss:ve} bağlacıyla aynı emir altında şehrin yanına eklenir: {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı}. Belirli artikel ve belirtme hâli, onu şehirle biçimsel olarak eşleşen ikinci tanık alanı yapar. {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı}, yük taşıyan insan ve hayvanlardan oluşan hareketli bir topluluğu öne çıkarır. Kervan sahneleri (12:70, 12:94) bu kelimenin sûre içindeki hareket ve tanıklık yoğunluğunu besler. Burada kervan yolculuğa eklenmiş gevşek bir ayrıntı değil, içindeki arkadaşların cevap verebileceği hareketli bir topluluktur. Aynı emir altında şehirden kervana geçiş, sabit tanık ile yol alan tanığı yan yana getirir.
+
+İkinci {ar:ٱلَّتِى, tr:allatī, gloss:ki} kervanı ardından gelen ortak yolculuk cümlesine bağlar. {ar:أَقْبَلْنَا, tr:aqbalnā, gloss:gelip yaklaştık} birinci çoğul ekiyle şehirde bulunanlarla kervanın içinde ilerleyenlerin aynı “biz” olduğunu taşır; tamamlanmış geçmiş biçimi hareketi bitmiş, yönü belirli ve kervandakilerce denetlenebilir bir geliş olarak kurar. İkinci {ar:فِيهَا, tr:fīhā, gloss:onun içinde}, kervanın yanında bulunmayı değil onun içinde yol almayı belirginleştirir: “yanından geçtik” yerine “onun içinde geldik” duygusu oluşur. İlk {ar:فِيهَا, tr:fīhā, gloss:onda} şehri bir bulunma yeri, ikinci {ar:فِيهَا, tr:fīhā, gloss:onun içinde} kervanı bir üyelik çevresi gösterir; aynı yüzey, anlamı yerden topluluğa taşır. Böylece sabit şehir, içinden geçilen kervanla birlikte hareketli bir tanıklık sahnesine dönüşür.
+
+{ar:أَقْبَلْنَا, tr:aqbalnā, gloss:gelip yaklaştık} kelimesinin olağan geliş ve yaklaşma anlamı bu yapının içinde korunur. Öncelik yankısı (12:77) ile karşılıklı yönelme sahneleri (37:27, 52:25), fiilin kervan mazeretinde bir hareket ve soruşturma istikameti duyurmasına yardım eder. Kervanın içinde gerçekleşen hareket, şehirdeki sabit bulunmanın karşılığıdır: biri nerede olduklarını, diğeri hangi toplulukla ve hangi yönde geldiklerini bildirir. Bu temas fiilin burada kervan içinde gerçekleşen geliş anlamını öne çıkarır; kabul edilme ve bir şeyi karşılama yönleri bu özel bağlantının kapsamına girmez. Aynı hareket alanı, “önce” anlamının geriye taşıdığı zaman çizgisiyle buluştuğunda (12:77, 12:80), geçmişteki sıralamadan bugünkü rapora gelen yaklaşma görünür olur.
+
+Kervan cümlesinden kardeşlerin kendi hükümlerine geçişi üçüncü {ar:وَ, tr:wa, gloss:ve} kurar. Hemen ardından gelen {ar:إِنَّا, tr:innā, gloss:şüphesiz biz}, dışarıdaki iki tanıktan odağı birlikte konuşan kardeşlere çeker. İsim cümlesi yeni bir olay anlatmaz; bu topluluğun kendisi hakkında süreklilik taşıyan bir tanımlama ileri sürer. {ar:إِنَّا, tr:innā, gloss:şüphesiz biz} içindeki genizden gelen ses ile son yüklemdeki çoğul kapanış arasındaki yakınlık, grameri değiştirmeden özne ile yüklemi aynı kesinlik akışında duyurur.
+
+Son yükleme bitişen {ar:لَ, tr:la, gloss:elbette} bu güvenceyi ikinci kez vurgular ve {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} cümlenin sonunda belirir. Bu kelime bir defalık doğru söz söylemeyi anlatan fiil değil, konuşan erkekler topluluğunu doğru konuşan kişiler olarak sunan eril çoğul ism-i fâildir. Yüklem, {ar:إِنَّا, tr:innā, gloss:şüphesiz biz} ile kurulan özneye uyarak doğruluk iddiasını grubun tamamına yükler. Yusuf'un doğrulanmış doğruluk alanı (12:46, 12:51), vurgulu formül (27:49) ve sonraki karşılık (12:83) bu kelimenin çevresinde bir güvenilirlik gerilimi kurar. Böylece kardeşlerin sözü, Yusuf için görülen daha yoğun doğruluk unvanına otomatik olarak yükselmeden, onların kendilerini doğru gösterme iddiası olarak kalır. Son kelime önceki çoğul kapanışı sesçe karşılar ve 12:83'teki düzeltmeye doğru gerilim bırakır; bu gerilim iddiayı peşinen hükme bağlamaz, yalnızca öz-savunmanın kesinliğini duyurur.
+
+## İki tanık alanı
+
+Şehir ile kervanın aynı emir altında buluşması, olağan soru ve doğruluk anlamını koruyarak kardeşlerin öz-savunmasını dışarıya açan bir görüntü kurar. {ar:سْـَٔلِ, tr:is'eli, gloss:sor} bilgi edinme hareketini, {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:şehri} yerleşimle halkını, {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} ise yol alan topluluğu taşır. Böylece doğruluk tek bir sesin kendi kendine verdiği güvence olmaktan çıkıp farklı yerlerde ve farklı hareket biçimleri içinde sınanabilir bir iddia olarak görünür. Haberlerin başka yerlerden ve yolculardan araştırılması (49:6), aynı {ar:سْـَٔلِ, tr:is'eli, gloss:sor} emrinin dış doğrulama arayışıyla temas ettiğini gösterir. Yerleşimler ile güzergâhın birlikte görünmesi (34:18) sabit halkı hareketli kervanla aynı başvuru düzenine bağlar; şahit ve ayırıcı işaret ilişkisi de (12:26) {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} sözünü kalabalık bir destekten çok sınanabilir bir tanıklık alanına taşır.
+
+Bu tanıklık düzeninde yer adı, yerleşik halkın ortak hafızasına; kervan adı ise yol alan arkadaşların ve yüklerin taşıdığı gözlemlere katkı verir. Soru, binalara değil, bu iki toplumsal bedene yönelen bir kamu denetimi kurar. Şehir sabit hafızayı, kervan hareketli gözlemi sağladığı için doğrulama tek bir noktadan dağıtılmış olur. Bu bağlantı her üyenin aynı olayı gördüğünü veya dış doğrulamanın babanın kuşkusunu kendiliğinden çözdüğünü iddia etmeden, tanıklığı dağılmış fakat başvurulabilir bir ortak alana dönüştürür.
+
+Bu dış tanıklığın sınırı, 12:81'deki bilgi ayrımıyla birlikte okunur. {ar:شَهِدْنَا بِمَا عَلِمْنَا, tr:şehidnā bimā ʿalimnā, gloss:bildiğimize dayanarak şahit olduk} tanıklığı bilinen alana bağlar; {ar:حَٰفِظِينَ, tr:hāfizīn, gloss:koruyup gözetenler} ve {ar:لِلْغَيْبِ حَٰفِظِينَ, tr:li-l-ghaybi hāfizīn, gloss:gaybı koruyanlar} saklı olanı bütünüyle elde tutma sınırını açık bırakır. Bu çerçevede {ar:سْـَٔلِ, tr:is'eli, gloss:sor} denetlenebilen bilgiyi başka insanlara açar; {ar:كُنَّا, tr:kunnā, gloss:bulunduk} şehirde bulunmayı raporun somut dayanağı yapar; {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} da güzergâhı bilen hareketli tanıklığı ekler. Dönüş sözünün bir yükümlülükle bağlanması (12:80), doğru raporu verilmiş söz karşısında hesap verebilir kılar. Böylece {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} sözü bilinen olaya ilişkin doğruluğu kurar ve gayb alanının sınırını korur.
+
+Bu dışarı açılmanın ilk katkısı, 12:77'deki anlatı denetimidir. Yusuf'un bilgiyi içinde tutmasını anlatan {ar:فَأَسَرَّهَا, tr:fe-eserrehā, gloss:onu içinde sakladı} ile açığa çıkarma çevresindeki {ar:يُبْدِهَا, tr:yubdīhā, gloss:açığa çıkarır} imgesi, içte saklı kalan bilgiyi dışarıya sorulan soruyla karşı karşıya getirir (12:77). Tekrarlanan {ar:يَسْرِقْ... سَرَقَ, tr:yesrik... seraka, gloss:çalmak isnadı}, bütün delil alanı kurulmadan verilmiş bir toplumsal betimlemeyi gösterir; sonundaki {ar:تَصِفُونَ, tr:tasifūna, gloss:anlattığınız ve nitelediğiniz şey} ise bu tasviri sorgulanabilir bir nesneye dönüştürür (12:77). Bu temas içinde {ar:سْـَٔلِ, tr:is'eli, gloss:sor} anlatıyı onu kuranların dışındaki tanıklara açar, {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} sözü de gerçekle uyuşması sınanacak bir iddia olarak belirir. Kamusal karşılaştırma alanı böylece kurulur; hangi ayrıntının kesinleşeceği ise bu âyetin içinde ayrıca belirlenmez.
+
+Dışarıdan araştırmanın ikinci katkısı, içeride kurulmuş bir anlatı ile kamusal temas noktaları arasındaki farkı görünür kılmasıdır. {ar:سَوَّلَتْ لَكُمْ أَنفُسُكُمْ, tr:sawwalat lakum anfusukum, gloss:nefisleriniz size hoş gösterdi}, olaydan önce onu arzuya uygun biçimde kuran iç alana işaret eder (12:83). Buna karşılık {ar:سْـَٔلِ, tr:is'eli, gloss:sor} dışarıya yönelen bilgi arayışıdır. {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:şehri} kamusal insan topluluğunu, {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} hareket halindeki ikinci topluluğu devreye sokarak kardeşlerin sözünü aile içindeki tek bakıştan çıkarır. {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} bu karşılaşmada doğruluk iddiasını korur, fakat onu dış gerçeklikle buluşmaya açık bir iddia olarak çerçeveler. Böylece 12:83'teki iç kurma ihtimali ile 12:82'deki dış soruşturma aynı sahnede tutulur; soru, anlatıyı kendi kendini doğrulayan kapalı bir bütün olmaktan çıkarıp kamusal temasla sınanabilir hale getirir.
+
+Bu soru, kapanmış görünen bir dosyada yeniden işleyen araştırmanın başlangıcını da kurar. Umutların kesildiği durum {ar:ٱسْتَيْـَٔسُوا۟, tr:istay'esū, gloss:umutlarını kestiler} ile gösterilir (12:80); mekânda yürütülen iz sürme ise {ar:ٱذْهَبُوا۟ فَتَحَسَّسُوا۟, tr:ezhebū fetaḥassesū, gloss:gidin ve haber araştırın} emriyle açılır (12:87). Bu iki uç arasında {ar:سْـَٔلِ, tr:is'eli, gloss:sor} tek seferlik onay isteminden çok yeni bilgi arama usulü gibi görünür. {ar:رَّوْحِ ٱللَّهِ, tr:rawḥillāh, gloss:Allah'ın ferahlığı} araştırmayı mümkün bir ferahlığa açık tutar (12:87); bu âyet ise aramanın sonucunu ayrıca belirlemeden onun yolunu açar. {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} hareketli izlerin taşıyıcısı, {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:yerleşim ve halkı} izlenen güzergâh üzerindeki araştırma düğümüdür. Kervanın dolaşıma ve denetimden çıkmaya açık çağrışımı bu arama hareketini büyütür; bu bağda kervan başıboş bir hayvan olarak değil, iz taşıyan hareketli topluluk olarak görünür.
+
+## Yolun ve ölçünün izi
+
+Şehir ile kervanın yan yana gelişi, başka bir yerel okumada doğruluğu tek bir cümleden çok bütün güzergâhın birbirini tutması olarak görünür. {ar:كُنَّا, tr:kunnā, gloss:bulunduk} şehri zincirin sabit ucu yapar; {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:şehri} hareketin geçtiği yer düğümüdür. {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} yolu taşıyan topluluğu getirir; {ar:أَقْبَلْنَا, tr:aqbalnā, gloss:gelip yaklaştık} rotayı taşıyıcılarıyla birlikte izlenebilir kılar. {ar:سْـَٔلِ, tr:is'eli, gloss:sor} bu hareketi geriye doğru denetlenebilir bir diziye çevirir: yolun herhangi bir halkasına sorulabilir. “Önce” anlamı (12:77, 12:80) zamanı geriye taşırken, 12:82'deki {ar:أَقْبَلْنَا, tr:aqbalnā, gloss:gelip yaklaştık} önceki kırılmalardan bugünkü rapora yönelen yaklaşmayı duyurur. Bu çizginin kapsamı güzergâhın bütün ayrıntılarını değil, sabit yer ile hareketli taşıyıcı arasındaki kontrol edilebilir sürekliliği taşır. Kervan geçmişi bugüne getirir; {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} sözü de şehrin bulunmasıyla kervanın gelişinin birbirini tuttuğu bütün yol üzerine yayılır.
+
+Aynı tanık düzeni, gözlemleri toplayan ve iddiayı ölçüte vuran bir denetim sahnesi olarak da okunabilir. {ar:سْـَٔلِ, tr:is'eli, gloss:sor} şehirden ve kervandan gelen cevapları birbirini sınayan bir soru alışverişine dönüştürür. {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:şehri} kervanın getirdiği dağınık gözlemleri tutan sabit bir hazne, {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} ise ölçü ve tartıların karşılaştırıldığı ticari çevredir. {ar:أَقْبَلْنَا, tr:aqbalnā, gloss:gelip yaklaştık} içindeki karşılaşmaya açık yön, kervanın taşıdığı dış kanıtı kardeşlerin iddiasının karşısına getirir. Son {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} kelimesinin sağlamlık ve düzgünlük alanı, bu sınamayla birleşerek ölçümden sonra ayakta kalan taşıyıcı bir yapı imgesi verir. Böylece soru, cevap, taşınan kanıt ve ölçü aynı denetim görüntüsünde birleşir; yerel emrin işi ise bu görüntü içinde doğrulama hareketi olarak kalır.
+
+Bu ölçü baskısı maddi verme ve karşılık diliyle de temas eder (12:88). {ar:بِضَٰعَةٍ مُّزْجَىٰةٍ, tr:bidā'atin muzjātin, gloss:az ve değersiz görünen mal} sunulan değerin kıtlığını ve küçüklüğünü görünür kılar; {ar:يَجْزِى, tr:yajzī, gloss:karşılığını verir} iş ile sonuç arasındaki eşleşmeyi kurar (12:88). {ar:مُّزْجَىٰةٍ, tr:muzjātin, gloss:az ve sürüklenerek sunulan} kelimesindeki yetersizlik, doğru sözün yalnızca ilan değil, karşılığı ölçülebilen bir sunum olması yönünde gerilim yaratır (12:88). {ar:تَصَدَّقْ عَلَيْنَا... مُتَصَدِّقِينَ, tr:tasaddak aleynā... mutasaddıkīn, gloss:bize ver ve verenler} ile {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} arasında aynı doğruluk alanının maddi verme yönü açılır: bir pay sunmak, bir hakkı teslim etmek ve karşılığın ölçülebilir olması (12:88). {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} ticari çevreyi, {ar:كَيْلَ, tr:keyl, gloss:ölçü} yiyeceğin yeterli ve görünür kılınmasını, {ar:أَوْفِ لَنَا, tr:evfi lenā, gloss:bize tam ver} ise eksiltmeden karşılamanın normunu taşır (12:88). Bu temas doğruluğu ticaret emrine indirgemez; sözün gerçekle uyuşmasını, karşılığı ölçülebilen bir yeterlik sorusuyla birlikte duyurur.
+
+Biçim bakımından daha temkinli bir temas, soru emrini sahnenin içindeki kanıtı nazikçe çekip çıkaran maddi bir mecaz gibi duyurur. {ar:سْـَٔلِ, tr:is'eli, gloss:sor} cevap isteme anlamını korurken, şehir ve kervana yönelen sorunun tuhaflığı gizli izi dışarı alma görüntüsünü ekler. {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:şehri} dağınık gözlemleri tutan bir kap, {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} maddi ve toplumsal izleri yol boyunca taşıyan topluluk, {ar:أَقْبَلْنَا, tr:aqbalnā, gloss:gelip yaklaştık} ise bu izleri yaklaşan bir karşılaşmaya getiren hareket olur. {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} içindeki sağlamlık ayrıntısı, çıkarılan kanıtın ağırlık taşıyabilecek bir dayanak gibi duyulmasını sağlar. Bu imge, biçimsel sınırı içinde tanık anlamına eklenen bir maddeleşme olarak kalır.
+
+## Doğruluğun kapsamı
+
+{ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} kelimesinin kapsamı, 12:90'daki daha dar tanıklık alanıyla belirginleşir. Görünen hırsızlık isnadı yanlış bir değerlendirme olarak açığa çıkabilse de tanıklığın samimiyeti ayrı bir mesele olarak kalabilir (12:90). Böylece okur hem söylenen şeyin görülen olaya sadık olmasını hem de olay hakkında yapılan geniş yorumun yanlış çıkabilmesini aynı anda kavrar. Şahit sözünün bilgi sınırını belirleyen ilişki (12:51), doğruluğu tanığın bildirdiği alana geri bağlar; doğruluk ve şahitlik dilinin yanıltıcı bir düzen içinde de kurulabilmesi karşı ihtimalini de açık tutar (27:49). 12:82'deki doğruluk bu yüzden yakın olaya ilişkin raporun gerçekle uyuşması niteliğini taşır; geniş yorumun ve konuşanların bütün hesabının kapsamını ayrıca belirlemez. Dışarıdan soru sorulması, bu yerel raporu kanıtla temas eden ve hangi alanda sınanacağı görülebilen bir iddia haline getirir.
+
+Bu kapsam, 12:89'da sorunun yön değiştirmesiyle ahlaki ve tarihsel bir sınır da kazanır. {ar:هَلْ عَلِمْتُم مَّا فَعَلْتُمْ, tr:hal ʿalimtum mā faʿaltum, gloss:ne yaptığınızı biliyor muydunuz} diye soran Yusuf, önce başkalarına başvurulmasını isteyenleri kendi yaptıkları hakkında sorgular. {ar:جَٰهِلُونَ, tr:jāhilūn, gloss:bilgisizken} geniş tarihe ilişkin bilgisizliği, {ar:لَخَٰطِـِٔينَ, tr:la-khāṭiʾīn, gloss:yanılmış olanlar} ise ahlaki ve tarihsel yanılgıyı açığa çıkarır (12:89, 12:91). {ar:فَعَلْتُمْ, tr:faʿaltum, gloss:yaptığınız şey} sözü eylem ile bildirilen sözü ayrı hesap yüzeylerine koyar; ne söyledikleri ile ne yaptıkları aynı şey değildir (12:89). Bu ayrım, belirli bir olay hakkındaki doğru raporu konuşanların geçmiş eylemleri hakkındaki hesaptan ayırır. Böylece {ar:سْـَٔلِ, tr:is'eli, gloss:sor} ileride soru soranların kendilerinin cevap vereceği hesap yönünü de taşır; {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} yakın olaya ilişkin doğruluğu kurarken bu geçmiş hesabı açık bırakır.
+
+Doğru sözün alanı, insanın gördüğü ve bildirdiği şey ile kuşatamadığı görünmeyen alan arasındaki sınırda da belirir. Görünenle görünmeyenin ayrılması (32:6), {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} ifadesine görünmeyen üzerinde sahiplik kurmadan tanıklık etme hassasiyeti verir. “Doğru söylüyoruz” sözü karşılaşılan olaya dair kesin bir tanıklık olarak duyulur; doğruluk iddiası bilinen ve tanıklık edilebilen alanı doldurur, gaybın tamamını kaplamaz. Bu kapsam 12:81'deki “bildiğimize dayanarak şahit olduk” sınırıyla birlikte dış soruşturmanın neden gerekli olduğunu açıklar ve kardeşlerin sözünü kendi bilgi alanına yerleştirir.
+
+Son doğruluk sözü, dışarıdan bir şahit veya ayırıcı işaretle sınanabilecek bir iddia olarak da duyulur. Şahit ve ayırıcı ölçüt ilişkisi (12:26), söz ile olay arasındaki uygunluğu görünür kılar; şahit bulunmadan ileri sürülen iddianın karşısındaki itiraz ise bu uygunluğun dış kanıt istediğini gösterir (24:13). Bu temaslar {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler} ifadesini konuşanların kendilerine verdikleri bir etiket olmaktan çıkarıp doğrulanmaya veya sorgulanmaya açık bir iddia haline getirir. Şehre ve kervana yönelen {ar:سْـَٔلِ, tr:is'eli, gloss:sor} emrinin ağırlığı burada yeniden görünür: doğruluk ilanı kanıtla temas etmeye hazırdır. Âyetin kendi içinde ayırıcı işaret sunulmaması, bu bağlantıyı sonuç hükmü olmaktan çıkarır; bağlantının somut katkısı, iddianın sınanabilir biçimini açığa çıkarmasıdır.
+
+Yerleşim kelimesi, 12:109'da yakın sahnenin dışına doğru tarihî bir kanıt alanı açar. Önceki şehirler arasında yolculuk edilmesi ve onların akıbetlerine bakılması, {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:yerleşim ve halkı} kelimesinin yer ile halkı birlikte taşıyan yönünü genişletir. Şehre başvurma böylece o anda orada bulunanların hafızasını, yerlerin ve sonuçların biriktirdiği tarihî gözlemle aynı çizgiye getirir (12:109). Bu temas tarihî alanı genişletir; 12:82'deki kervanın somut olayına doğrudan ispat yükü yüklemez ve kardeşlerin sözünü tek başına çözme iddiası taşımaz. Yerel tanık düzeni, bu geniş tarihî alanda da korunur.
+
+Kamusal doğrulamanın katkısı, gerçeği açığa çıkarırken ilişkiyi onarıma açık bırakmasıdır. Belirlenmiş hatanın durmadan yeniden suçlama konusu yapılmasını kesen söz (12:92) {ar:لَا تَثْرِيبَ عَلَيْكُمُ, tr:lā tathrība ʿalaykum, gloss:bugün size kınama yok} ifadesinde duyulur. {ar:يَغْفِرُ ٱللَّهُ, tr:yaghfiru llāh, gloss:Allah örter ve bağışlar} kusuru örterken kişiyi koruyan bir yön taşır; {ar:أَرْحَمُ ٱلرَّٰحِمِينَ, tr:arḥam al-rāḥimīn, gloss:merhametlilerin en merhametlisi} doğrulanmış gerçeğin ilişkiyi onarıcı bir sona ilerleyebileceği alanı açar (12:92). Bu nedenle {ar:سْـَٔلِ, tr:is'eli, gloss:sor} ve {ar:صَٰدِقُونَ, tr:sâdıkûn, gloss:doğru söyleyenler}, gerçeği açığa çıkarıp yeniden kurulabilecek bir ilişkinin zeminini hazırlama hareketi olarak da okunabilir. Bu bağlantının kaynağı 12:92'deki kınamasızlık, örtme ve merhamet dizisidir; 12:82'nin kendi kapsamı sorumluluğu kaldırmadan doğrulamayı onarıma açık bırakır.
+
+Tanıklığın nasıl taşındığı, 12:93'teki maddi taşıyıcı örneğiyle somutlaşır. {ar:سْـَٔلِ, tr:is'eli, gloss:sor} bilgiye erişimi bir başvuru alanı üzerinden isterken, {ar:قَمِيصِي, tr:kamīṣī, gloss:gömleğim} ve {ar:فَأَلْقُوهُ, tr:fa-elqūhu, gloss:onu bırakın ve ulaştırın} maddi bir işareti başka bir kişiye götürür (12:93). {ar:بَصِيرًا, tr:basīran, gloss:görür halde} taşınan nesnenin babanın gerçekliğe erişimini değiştirmesini, {ar:أَجْمَعِينَ, tr:ajmaʿīn, gloss:hepsini bir araya getiren} ise dağılmış ailenin yeniden toplanmasını gösterir (12:93). {ar:ٱلْعِيرَ, tr:el-ʿīra, gloss:kervanı} insanları ve yükleri taşıyan hareketli bir topluluk olarak delilin kaynağında kalmayıp yol almasına ilişkin bir karşılık kurar; {ar:ٱلْقَرْيَةَ, tr:el-karyete, gloss:toplanmış yerleşim ve halkı} ise insanların ve izlerin soru ulaşana kadar bir arada tutulduğu bir yer gibi duyulur. Buradaki madde imgesi şehir ile kervanı konuşan varlıklara çevirmekten çok, bilginin bir taşıyıcı üzerinden muhataba ulaşmasını görünür kılar. Gömlek görmeyi geri getirir; şehir ve kervan bilgiyi tanıklık alanına taşır. Böylece 12:82'nin kamusal başvurusu ile 12:93'ün ulaştırılan maddi işareti arasında, delilin yol alarak muhataba ulaşması ve ardından dağılmış olanların yeniden bir araya gelmesiyle tamamlanan keşifsel bir temas belirir.
+
+</editorial_prose>

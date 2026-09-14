@@ -1,0 +1,187 @@
+# V5 reading invitation — 12:65
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p04-with-fatiha/s012/12_65/12_65.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p04-with-fatiha/s012/12_65/12_65.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Onlar eşyalarını açtıklarında, daha önce verdikleri ticaret malının kendilerine geri verildiğini görürler. Bu buluntu hemen babalarına yöneltilen bir sözün dayanağına dönüşür: ev halkına yiyecek götüreceklerini, yanlarındaki kardeşi koruyacaklarını, bir deve yükü daha alacaklarını ve bunun kolay bir ölçü olduğunu söylerler. Âyet baştan sona geri dönmüş sermaye ile bu sermayenin açtığı yeni yolculuk teklifini birlikte taşır.
+
+## Açılan yük ve geri dönen pay
+
+Başlangıçtaki {ar:وَ, tr:wa, gloss:anlatıyı bağlayan edat} sözü önceki izin ve güven alışverişine ekler (12:64); sahne boşlukta başlamaz. Ardından gelen {ar:لَمَّا, tr:lammā, gloss:ne zaman ve hemen ardından anlamı veren parçacık} zamanı ve sonucu aynı menteşede birleştirir: eşyaların açılması, bulma ve hemen ardından konuşma birbirinden kopuk üç haber gibi değil, şimdi gerçekleşen bir zincir gibi görünür. Bu parçacığın başka anlam alanlarında taşıdığı toplanma gölgesi burada yalnızca ihtiyatlı bir yankı olarak kalır; etkin olan şey, açma ile sözü birbirine bağlayan yerel zaman ilişkisidir. {ar:فَتَحُوا۟, tr:fataḥū, gloss:kapalı olanı açtılar} tamamlanmış çoğul bir eylemle kapalı yükün engelini kaldırır. Açılan şey {ar:مَتَٰعَهُمْ, tr:matāʿahum, gloss:onların yol eşyası ve yararlı malları}dır: kelime yolculukta taşınan maddi eşyayı gösterirken, işe yarayan mal ve azık niteliğini de duyurur. Böylece geçici bir bavul değil, içinde kullanıma hazır değerin bulunduğu somut bir taşıyıcı göz önüne gelir. {ar:وَجَدُوا۟, tr:wajadū, gloss:buldular ve karşılaştılar} açmanın ardından gelir; gizli kalmış iadenin fark edilmesini, mevcut bir nesneye erişilip onun tanınması olarak kurar.
+
+Bulunan nesne sıradan bir eşya değildir: {ar:بِضَٰعَتَهُمْ, tr:biḍāʿatahum, gloss:onların ticarete ayrılmış sermayesi} alışveriş için ayrılmış bir payı adlandırır. {ar:رُدَّتْ, tr:ruddat, gloss:geri verildi} bu payın önceki sahiplerine çevrilmiş olduğunu bildirir. Dişil edilgen geçmiş biçimi malı ve tamamlanmış sonucu öne çıkarır; geri veren kişiyi cümlenin dışına bırakır. Ardından doğrudan söz içinde {ar:بِضَٰعَتُنَا, tr:biḍāʿatunā, gloss:bizim ticari payımız} denmesi, anlatıcının “onların” diye sunduğu nesneyi kardeşlerin kendi ağızlarında “bizim” diye yeniden sahiplenilen bir kanıta çevirir. İkinci {ar:رُدَّتْ, tr:ruddat, gloss:geri verildi} aynı edilgen dönüşü tekrarlar; ilk anlatıdaki buluntu, kardeşlerin babaya sunduğu tanıklığın nakaratı olur. {ar:إِلَيْهِمْ, tr:ilayhim, gloss:onlara doğru} anlatıdaki dönüşün kardeşlere yöneldiği ucu, alıntıdaki {ar:إِلَيْنَا, tr:ilaynā, gloss:bize doğru} ise aynı dönüşün konuşanların birinci çoğul ucuna vardığını gösterir. Bu kişi değişimi olayın onların başına geldiğini ve kanıtın onların önünde bulunduğunu belirginleştirir; söyleyişin odağı payın geri dönüşüdür, hukuki sahiplik ve iadenin faili ise bu bağlantının kapsamı dışında kalır.
+
+Açma, bulma, geri dönmüş mal ve onu bildiren söz birlikte okunduğunda, maddi olgu başvuruyu taşıyan görünür bir kanıta dönüşür. {ar:فَتَحُوا۟, tr:fataḥū, gloss:açtılar} erişimi mümkün kılar, {ar:وَجَدُوا۟, tr:wajadū, gloss:buldular} erişilen şeyi karşılar, {ar:بِضَٰعَتَهُمْ, tr:biḍāʿatahum, gloss:tanınan ticari sermaye} somut işareti verir, {ar:رُدَّتْ, tr:ruddat, gloss:geri verildi} onun iade edilmiş durumunu açıklar. Sonra {ar:هَٰذِهِۦ, tr:hādhihi, gloss:işte bu} görünen payı babanın önüne işaret eder. Bu sıralama malı, vaatler söylenmeden önce talebi taşıyan dayanak haline getirir; kanıt işlevi malın görünür oluşundan doğar. Düzenlemenin niyeti ve iadenin faili bu bağlantının kapsamı dışında kalırken, açılan yararlı eşya aileye yiyecek ve yeni bir yük olarak yeniden kullanılabilir hale gelir.
+
+{ar:قَالُوا۟, tr:qālū, gloss:söylediler} tamamlanmış bulmayı kardeşlerin sesine geçirir. {ar:يَٰٓ, tr:yā, gloss:doğrudan seslenme edatı} bu sesi karar verecek muhataba yöneltir; {ar:أَبَانَا, tr:abānā, gloss:babamız} ise birinci çoğul ekiyle oğulların yakınlık hitabını ve babanın otoritesini aynı çağrıda buluşturur. Ardından {ar:مَا, tr:mā, gloss:soru ve olumsuzluk açıklığı taşıyan parçacık} ile nesnesiz {ar:نَبْغِي, tr:nabghī, gloss:ararız ve isteriz} gelir. Bu ikisi, “daha ne arayalım?” ile “ne isteyebiliriz?” aralığını açık tutarken, göz önündeki sermayeyi yeterlilik iddiasının bağımsız dayanağı yapar. Kardeşlerin ortak birinci çoğul sesi, belirli bir malı gizlice istemekten çok şartları tartan bir arayış tutumu kurar. Söyleyiş böylece babanın kararını isteyen pratik bir ikna hesabına dönüşür: cümle talebin sunuluş biçimini açar; akdin kurulması ve kardeşlerin niyetinin kesinleşmesi bu bağlantının dışında kalır.
+
+## Teklifin kurduğu hareket
+
+Görünen kanıtın ardından art arda gelen bağlaçlar, teklifin parçalarını yan yana dizer. İlk {ar:وَ, tr:wa, gloss:sonuç ekleyen bağlaç} geri dönmüş malı {ar:نَمِيرُ, tr:namīru, gloss:yiyecek edinip getiririz} vaadine bağlar. Bu seyrek fiil yalnızca “beslemek” değil, yiyeceği edinip eve getirmeye uzanan tedarik hareketini tek bir gelecek sözünde toplar. {ar:أَهْلَنَا, tr:ahlanā, gloss:ailemize ve ev halkımıza} bu hareketin doğrudan yararlanıcısını gösterir; söz önce evin geçimine yönelir. İkinci {ar:وَ, tr:wa, gloss:ayrı bir unsuru ekleyen bağlaç} iaşeden sonra {ar:نَحْفَظُ, tr:naḥfaẓu, gloss:korur ve gözetiriz} fiilini getirir. Bu birinci çoğul gelecek biçimi kardeşi insanî bir emanet olarak gözetme vaadini kurar. Onun nesnesi {ar:أَخَانَا, tr:akhānā, gloss:kardeşimizi ve bizim kardeşimizi}dır; koruma sözü böylece adı konmuş bir yakına bağlanır. Üçüncü {ar:وَ, tr:wa, gloss:son vaadi ekleyen bağlaç} ise artışı ayrı bir unsur olarak sona taşır. {ar:نَزْدَادُ, tr:nazdādu, gloss:kendimize artırır ve çoğaltırız} etkin tarafın kardeşler olduğunu duyurur; artış soyut bir bolluk değil, ölçüye bağlanacak somut bir kazanımdır. Bu sıralama amaçları düzenler, aralarında bir değer derecesi kurmaz.
+
+Bu artışın ölçüsünü {ar:كَيْلَ, tr:kayla, gloss:ölçülmüş yiyecek payı} ile {ar:بَعِيرٍۢ, tr:baʿīrin, gloss:deve ve yük taşıyıcısı} birlikte kurar. Tamlamadaki ölçü, ek payı belirli ve sayılabilir kılar; deve ise miktarın taşıma kapasitesini görünürleştirir, tam ağırlığı ya da çağdaş bir birimi bildirmez. {ar:ذَٰلِكَ, tr:dhālika, gloss:şu ve az önce söyleneni gösteren işaret} bu deve yükü teklifini geriye dönüp değerlendirilecek bir nesne yapar. Ardından bağımsız ve belirsiz {ar:كَيْلٌ, tr:kaylun, gloss:bir ölçü ve ölçülmüş pay} aynı ölçüyü yeniden adlandırır; ölçme eylemiyle ölçülmüş miktarı birlikte açık tutar. Son kelime {ar:يَسِيرٌ, tr:yasīrun, gloss:kolay ve yönetilebilir} bu payı hafif, yapılabilir ve yönetilebilir diye niteler. Cümle böylece ek miktarın kolay ölçülebilen bir yük olduğunu söyler; kolaylık burada payın uygulanabilirliğini çerçeveler, yolculuğun taşıdığı bütün riski açıklama iddiası taşımaz.
+
+Bu üç gelecek fiili, tek bir niyet cümlesinden çok aile için kurulmuş bir tedarik hesabı kurar. 12:47'deki depolama ve tüketim düzeniyle 12:48'deki tükenme, {ar:نَمِيرُ, tr:namīru, gloss:erzak edinip getirmek} sözünü kıtlık içinde yapılacak somut bir sefer olarak duyurur. 12:11'deki önceki koruma güvencesi ile 12:78'de yaşlı babanın yükünün hatırlanması, {ar:نَحْفَظُ, tr:naḥfaẓu, gloss:koruyup gözetmek} vaadine aile sorumluluğu ekler. 13:8'de artışın ölçüyle birlikte görünmesi, {ar:نَزْدَادُ, tr:nazdādu, gloss:artırmak} fiilinin burada hesapsız bolluk değil belirlenmiş bir ek olarak duyulmasını destekler. 12:88'deki azalan ve zorlayıcı ticari pay, küçük ek miktarın neden yeniden istendiğini görünür kılar; 65:7'de darlık sonrasındaki kolaylıkla geçim imkânının buluşması ise bunu gerçekleşebilir, yönetilebilir bir yük olarak sınırlar. 3:90'daki farklı artış örneği ve 74:10'daki karşıt kolaylık kenarı bu ayetteki tedarik hesabının sınırını belirler: burada artış belirlenmiş bir pay, kolaylık ise uygulanabilirliktir.
+
+Geri dönmüş sermayenin açtığı hareket bu yüzden yalnızca geçmişte tamamlanmış bir iade değildir. {ar:فَتَحُوا۟, tr:fataḥū, gloss:kapalı olanı açtılar} kapalı yükü erişilebilir kılar; {ar:مَتَٰعَهُمْ, tr:matāʿahum, gloss:geçim ve yolculuk eşyaları} pratik malzemeyi taşır; {ar:بِضَٰعَتَهُمْ, tr:biḍāʿatahum, gloss:değişim için ayrılmış ticari pay} ile {ar:رُدَّتْ, tr:ruddat, gloss:geri verildi} önceki değişimin geri dönen payını, {ar:نَمِيرُ, tr:namīru, gloss:yiyecek edinip getiririz} aileye yönelen iaşeyi, {ar:نَزْدَادُ, tr:nazdādu, gloss:mevcut düzeyin üstüne çıkarız} ile {ar:كَيْلَ, tr:kayla, gloss:standart ölçüyle belirlenen yiyecek payı} yeni miktarı, {ar:بَعِيرٍۢ, tr:baʿīrin, gloss:yük taşıyan deve} de hareket kapasitesini verir. 12:48'deki tükenme dizisi bu açılmayı yeni yolculuk öncesinde kaynaklara erişim sağlayan bir rahatlama gibi duyurur; 12:88'deki sonraki mal ve ölçü sıkışması bulunan dönüşün geçici teselli değil aileyi yeniden erzak istemeye taşıyan ticari dayanak olduğunu belirginleştirir. 65:7 aynı açılmayı darlık ardından gelen maddi kolaylıkla sınırlar. 12:96'daki bedensel görmenin yenilenmesi ayrı bir geri dönüş çizgisidir; 12:65'te açılan dönüş ticari sermayenin hareketine aittir. Böylece geri verilmiş pay hem babaya sunulan göz önündeki kanıt hem de yeni bir iaşe dönüşünü mümkün kılan kullanılabilir kapasite olur.
+
+Bu hesapta geri dönmüş pay ile gelecek kazanç arasındaki bağ daha ihtiyatlı bir risk görüntüsü de açar. {ar:بِضَٰعَتَهُمْ, tr:biḍāʿatahum, gloss:ayrılmış ticari parça} bölünebilir bir payı, {ar:كَيْلَ, tr:kayla, gloss:ölçülerek ayrılan pay} ile {ar:كَيْلٌ, tr:kaylun, gloss:sınıflanan ölçü} tahsis edilebilir karşılığı, {ar:أَخَانَا, tr:akhānā, gloss:bağ olarak görülen kardeş} ile {ar:نَحْفَظُ, tr:naḥfaẓu, gloss:koruma sözü} ise korunması beklenen ilişkiyi görünür kılar. {ar:نَزْدَادُ, tr:nazdādu, gloss:ek kazanç} karşılık tarafını, {ar:يَسِيرٌ, tr:yasīrun, gloss:kolaylık} da bu karşılığın zihinde hafifletilmesini getirir. Bu temas, babanın onayını küçük gösterilen bir risk ile somut bir kazancın hesabı gibi yeniden duyurabilir; kardeşlik bağı açıkta kalan paya, ölçülü artış da sunulan karşılığa benzer. Bahis benzetmesi burada riskin küçültülme biçimini görünür kılar; kelimeler gerçek bir kumar düzeni, oran veya kazanan bildirmez. Kolaylık sıfatı ek deve ölçüsünü yerinden etmeden, teklif edilen bedelin nasıl yönetilebilir gösterildiğini açıklar.
+
+İade ile koruma sözünün buluşması, alışveriş ilişkisinin yeniden bağlanması gibi bir başka ihtiyatlı görüntü de üretir. {ar:بِضَٰعَتُنَا, tr:biḍāʿatunā, gloss:ortak işe katılan ticari payımız} yeniden katılımı mümkün kılan payı, {ar:رُدَّتْ, tr:ruddat, gloss:el değiştirmiş şeyi geri alma} değişimin tersine dönmüş sonucunu, {ar:نَحْفَظُ, tr:naḥfaẓu, gloss:verilen sözü ve bağlılığı sürdürmek} ile {ar:أَخَانَا, tr:akhānā, gloss:birlikte taşınan kardeş bağı} da bu dönüşte korunacak ilişkiyi taşır. {ar:نَزْدَادُ, tr:nazdādu, gloss:daha çoğunu istemek} başlangıç miktarının üstüne yeniden açılan bir alışveriş yönü verir. Böylece iade yalnızca kapanmış bir işlem değil, kardeşleri yeni bir katılıma çeken ve ek kazanca yönelen bir dönüş gibi duyulur. Bu bağlantı payın iade ile yeniden ilişkiye bağlanmasını gösterir; resmî ortaklık, teminat, hukuki fesih ya da fiilî yeniden pazarlık düzeyine geçmez.
+
+## Ölçünün ve korumanın eşiği
+
+{ar:كَيْلٌ, tr:kaylun, gloss:bir ölçü} kelimesinin âyetin sonunda yeniden duyulması, sayısal hesabın etrafında daha geniş bir hak basıncı da açar. 7:85, 11:84 ve 11:85'te ölçünün tamamlanması ve eksiltmeme; 6:152 ile 17:35'te denge; 83:2 ve 83:3'te kendi payını tam alırken başkasının payını azaltma düzeni aynı kelimenin çevresinde görünür. Bu bağlantı, 12:65'teki iki ölçü biçiminin yalnızca bir rakam değil, payların nasıl belirleneceğini düşündüren bir standart gibi duyulmasını sağlar. Kıtlık içindeki tedarik hesabı ile başkasının payını eksiltmeme sorusu aynı kelimeye yaklaşır. Ölçü burada nicelik ile hak basıncını birlikte taşır; bu ahlaki yankı, kardeşlerin adaletini karara bağlamadan pazarlık sahnesinin sınırını belirler.
+
+Ölçüye bağlanan koruma sözü de aynı şekilde bir erişim eşiği kurar. 12:60'ta verilen koruma vaadiyle birlikte ölçünün kesilmesi, 12:63'te aynı ölçünün yeniden istenmesi ve 12:64'te güven ile koruma sorusunun yinelenmesi, evin ihtiyacı ile yeni erzağa erişim arasındaki menteşenin kardeşi gözetme sözü olduğunu gösterir. Odak fiili {ar:نَحْفَظُ, tr:naḥfaẓu, gloss:koruyup gözetmek} olağan olarak birini koruma görevini taşır; 12:60'taki {ar:حَافِظُونَ, tr:ḥāfiẓūn, gloss:koruyup gözetenler} ve 12:64'teki {ar:حَافِظًا, tr:ḥāfiẓan, gloss:koruyup gözeten} biçimleri onu aynı kelime ailesindeki bağımsız koruma bağlamlarına bağlar. 12:64'teki {ar:آمَنُكُمْ عَلَيْهِ, tr:āmanukum ʿalayhi, gloss:onu size emanet etmek} ifadesi, babanın “onu size emanet edebilir miyim?” sorusunu açık tutar. 12:64'teki {ar:أَرْحَمُ الرَّاحِمِينَ, tr:arḥam al-rāḥimīn, gloss:merhametlilerin en merhametlisi} ise üstün korumayı aile becerisinden daha geniş bir merhamet ufkuna yerleştirir. 12:63'teki {ar:مُنِعَ, tr:muniʿa, gloss:engel konuldu ve erişim kesildi} edilgeni, istenen ölçü ile aile arasına konan maddi engeli adlandırır. Bu temas, kardeşi koruma vaadini tedarik erişiminin şartına çevirirken onun olağan ailevi anlamını korur; güven ve merhamet, emanetin yeniden verilebilmesi için sınırlandırılmış bir koşul içinde görünür.
+
+Bu sınama, önceki aile sahneleriyle birlikte daha ağır bir zaman basıncı taşır. 12:11'deki eski güvence, 12:13'te babanın korkusu, 12:17'de kardeşlerin verdiği hesap ve 12:18'deki uydurulmuş delil, koruma dilinin daha önce bir güven sınavına girdiğini hatırlatır. 12:77'deki kardeş karşılaştırması aile içindeki koruma sözünü tek bir olumlu sonuca kapatmaz. 12:78'de yaşlı babanın aile bedeli, 12:79'da başka birini tutmayı reddetmeleri, 12:82'de babaya dönüşte verilen hesap ve 12:83'te yenilenen kayba verilen cevap, bu vaadi ileride sınanacak bir sorumluluk olarak çerçeveler. Fiilin sürekli gözetme hareketi bu sahneleri birbirine bağlar; kardeşi koruma vaadi böylece yalnızca erzak planının bir maddesi değil, önceki güven borcu altında yeniden kurulmaya çalışan bir söz olur.
+
+12:63 ve 12:64'te açılan güven sorusu 12:66'da sınırları belirtilmiş bir ahde dönüşür. {ar:يُحَاطَ بِكُمْ, tr:yuḥāṭa bikum, gloss:şartlar sizi kuşatırsa ve çaresizlik gelirse} istisnası, sözün her sonucu mutlak biçimde garanti etmediğini ve dış koşullar için bir sınır bulunduğunu belirtir. {ar:مَوْثِقًا, tr:mawthiqan, gloss:sağlam bir taahhüt} ile {ar:مَوْثِقَهُمْ, tr:mawthiqahum, gloss:onların sağlam taahhüdü} koruma vaadini doğrulanabilir bir bağa, teslim şartına çevirir. Sonra {ar:وَكِيلٌ, tr:wakīl, gloss:işi üstlenen güvenilir kefil} sözü bu bağın üstünde duran gözetim ve kefalet ufkunu açar. Koruma niyetinin samimiyeti bu yapı içinde yerini korur; kardeşlerin bile bile yalan söylediği sonucu bu bağlantının kapsamına girmez. Güvence, istisna, ahit ve kefil sırası sözün nasıl daraltılıp somutlaştırıldığını gösterirken, odak âyetindeki tedarik teklifini de önceki güven borcunun içinde okunabilir kılar.
+
+Geri verilen malın eve ulaşması da bu eşiğin gecikmiş bir bildirimi gibi çalışır. 12:62'deki {ar:ٱجْعَلُوا, tr:ijʿalū, gloss:yerleştirin ve koyun} emri ticaret malını yolculuk sırasında fark edilmesi beklenen gizli bir duruma sokar. Malın konduğu {ar:رِحَالِهِمْ, tr:riḥālihim, gloss:yolculuk yükleri ve eşyaları}, onu taşıyan hareketli kabı ve eve kadar süren yolu gösterir. 12:65'te payın bulunması ve tanınması, malın uzakta gerçekleşmiş sessiz hareketini hanede okunabilen bir işarete çevirir. {ar:يَعْرِفُونَهَا, tr:yaʿrifūnahā, gloss:onu tanırlar ve bilirler} gizli nesnenin bıraktığı iz üzerinden fark edilmesini, {ar:ٱنقَلَبُوا, tr:inqalabū, gloss:geri döndüler} ile {ar:يَرْجِعُونَ, tr:yarjiʿūn, gloss:dönecekler} ise bu fark edişin yeni bir yolculuk beklentisine bağlanmasını taşır. Bu mal, uzaktaki pazarlığın bitişi yerine haneyi yeniden yola çıkaran etkili bir maddi bildirim olur. Buradaki bildirim malın yolculuk boyunca taşıdığı maddi izden doğar; şifreli mesaj, gizli niyet veya satış feshi anlamına genişlemez.
+
+Bu gecikmenin bir yüzü de tanımanın zamanlamasında belirir. 12:58'de {ar:فَعَرَفَهُمْ, tr:fa-ʿarafahum, gloss:onları tanıdı} Yusuf'un kardeşlerini daha önce ayırt ettiğini, {ar:مُنكِرُونَ, tr:munkirūn, gloss:tanımayanlar} ise kardeşlerin karşılarındaki kişiyi teşhis edemediğini söyler. Yusuf'un erken tanıması ile kardeşlerin 12:65'te malı ancak eve döndükten sonra bulup tanıması aynı zaman düzenini ters yönlerden görünür kılar. Odak fiili {ar:وَجَدُوا۟, tr:wajadū, gloss:buldular ve eriştiler} nesne düzeyinde bu asimetrik tanımaya bağlanır: kardeşler paya erişir, fakat erişim eve varıncaya kadar ertelenmiştir. Bu zaman farkı cömertlik okumasını korur ve ikinci katkıyı gizli bir niyete değil, açıklanmanın kime ne zaman ulaştığına yerleştirir.
+
+12:59, 12:60, 12:61 ve 12:62 arasındaki dönüş döngüsü bu gecikmiş işareti hareket üreten bir düzeneğe yerleştirir. 12:59'daki {ar:أُوفِي الْكَيْلَ, tr:ūfī al-kayl, gloss:ölçüyü eksiksiz veriyorum} ifadesi başlangıçta tam bir erzak payı sunar; aynı ayetteki {ar:الْكَيْلَ, tr:al-kayl, gloss:ölçüyle verilen erzak} bunun soyut cömertlik değil ölçülebilir gıda olduğunu belirler. 12:60'taki {ar:فَلَا كَيْلَ لَكُمْ, tr:fa-lā kayla lakum, gloss:size ölçü yok} kardeş gelmezse kesilecek payı, {ar:فَلَا تَقْرَبُونِ, tr:fa-lā taqrabūn, gloss:yanıma yaklaşmayın} ise bu kesintiyi tedarikçiye fiziksel yaklaşmanın reddine kadar genişletir. Tam ölçü vaadi ve koşullu kesinti, 12:62'de malın {ar:ٱجْعَلُوا, tr:ijʿalū, gloss:yerleştirin ve koyun} emriyle {ar:رِحَالِهِمْ, tr:riḥālihim, gloss:yolculuk yükleri ve eşyaları} içine konmasıyla yeniden bağlanır. Evde {ar:يَعْرِفُونَهَا, tr:yaʿrifūnahā, gloss:onu tanırlar} denmesi ve ardından {ar:يَرْجِعُونَ, tr:yarjiʿūn, gloss:dönecekler} denmesi, dönüşü hem gerçekleşmiş sonuç hem de yeni davet haline getirir. İyilik ile teşvik aynı düzeneğin içinde birlikte okunabilir: malın geri konması hem geri dönüşe imkân veren bir yardım hem de yeni yolculuğu harekete geçiren şart olarak görünür. Bu yapı sahneyi tek bir gizli niyet açıklamasına kapatmaz.
+
+## Açılmanın sınırları
+
+12:65'te yükü açmak, sonraki sahnelerde erişimi düzenleyen eşiklerin ilk halkası gibi de duyulur. {ar:فَتَحُوا۟, tr:fataḥū, gloss:açtılar} burada önce fiziksel yükü açar. 12:67'de yinelenen {ar:أَبْوَابٍ, tr:abwāb, gloss:kapılar} erişim noktalarını, {ar:مُتَفَرِّقَةٍ, tr:mutafarriqa, gloss:dağınık ve ayrı ayrı} ise bu girişlerin farklı güzergâhlara bölünmesini gösterir. Açılmış yük ile kapılar arasındaki temas, riski azaltan ve girişleri denetleyen pratik bir tedbir görüntüsü kurar. 12:67'deki {ar:إِنِ الْحُكْمُ إِلَّا لِلَّهِ, tr:ini al-ḥukmu illā lillāh, gloss:hüküm yalnızca Allah'ındır} ifadesi, düzenlenmiş girişlerin ötesinde kesin sonucun ayrı bir düzlemde kaldığını söyler: açılan yol meseleyi görünür kılar, hüküm ise kendi yerinde durur. 12:68'deki {ar:حَاجَةً, tr:ḥājatan, gloss:içteki ihtiyaç} tedbirin arkasındaki gerçek zorunluluğu, {ar:قَضَاهَا, tr:qaḍāhā, gloss:onu yerine getirdi ve tamamladı} ise ihtiyacın giderilmesini taşır. Böylece {ar:فَتَحُوا۟, tr:fataḥū, gloss:açtılar} burada hem fiziksel açmayı hem erişimi düzenleyen tedbirin katkısını taşır; 12:67 ve 12:68'deki hüküm ve tamamlanma alanı, bu açılmanın nihai sonucu üstlenmediğini belirler.
+
+Korumanın fiilî taşıyıcısı 12:69'da başka bir elde görünür. Kardeşler Yusuf'u götüren taraf olarak kalırken, Yusuf kardeşini kendi yanına alan kişi olur. {ar:آوَى إِلَيْهِ, tr:āwā ilayhi, gloss:yanına alıp barındırdı} koruyucu tarafa toplama ve sığınakta karşılama eylemini taşır. {ar:أَخَاهُ, tr:akhāhu, gloss:kardeşini} ile {ar:أَنَا أَخُوكَ, tr:anā akhūka, gloss:ben senin kardeşinim} sığınağın soyut bir barınak değil, açıkça kardeşlik ilişkisi içinde kurulduğunu gösterir. {ar:فَلَا تَبْتَئِسْ, tr:fa-lā tabtaʾis, gloss:üzülme ve sıkıntıya düşme} bu alanda kederin giderilmesini ekler; güvenlik bedensel kabul ile duygusal rahatlamayı birlikte taşır. Böylece odaktaki {ar:نَحْفَظُ, tr:naḥfaẓu, gloss:koruyup gözetmek} sözü korunurken, korumanın etkili sonucu kardeşlerin yolculuk vaadinden Yusuf'un kurduğu sığınak alanına taşınır. Refakat ile sığınak aynı hareketin iki görünümü olarak kalır; önceki sözün samimiyeti bu sahnede karara bağlanmadan korunur.
+
+## Kabın tekrar eden hikâyesi
+
+12:65'in düşük zorlamalı bulma düzeni, 12:70, 12:72, 12:75 ve 12:76'da daha sert bir sonuçla yeniden belirir. 12:70'te {ar:جَعَلَ السِّقَايَةَ, tr:jaʿala al-siqāya, gloss:su kabını yerleştirdi} kabın kardeşin yükünde tasarlanmış bir konuma sokulduğunu, {ar:رَحْلِ أَخِيهِ, tr:raḥli akhīhi, gloss:kardeşinin yol yükü} ise gizli nesnenin hareketli taşıyıcı içinde ilerlediğini gösterir. 12:72'de {ar:نَفْقِدُ, tr:nafqidu, gloss:eksikliğini arıyoruz ve kaybetmiş bulunuyoruz} denmesi kayıp nesnenin aranmasını başlatır; {ar:صُوَاعَ الْمَلِكِ, tr:ṣuwāʿ al-malik, gloss:kralın ölçü kabı} onu hem bir kap hem de ölçme düzenine bağlı bir nesne yapar. 12:75'te {ar:وُجِدَ فِي رَحْلِهِ, tr:wujida fī raḥlihi, gloss:onun yükünde bulundu} biçimi, yükte bulunmayı kişi için sonuç doğuran ölçüte çevirir. 12:76'daki {ar:أَوْعِيَتِهِمْ ... وَعَاءِ أَخِيهِ, tr:awʿiyatihim ... wiʿāʾi akhīhi, gloss:onların kapları ... kardeşinin kabı} dizisinde arama kaplardan kaba doğru aşamalı ilerler; {ar:اسْتَخْرَجَهَا, tr:istakhrajahā, gloss:onu dışarı çıkardı} saklı nesneyi görünür delile çevirir. Ardından {ar:كَذَٰلِكَ كِدْنَا لِيُوسُفَ, tr:kadhālika kidnā li-Yūsuf, gloss:böylece Yusuf için bir düzen kurduk} ifadesi sonraki buluntunun arkasındaki kasıtlı tertibi adlandırır. Bu tekrar, 12:65'teki açma-bulma-kap içi hareketini maddi bir yapı olarak görünür kılar ve aynı yapının iki farklı sonuçta çalıştığını gösterir: odak âyette buluntu fayda, geri dönüş ve yeni tedarik üretirken, sonraki sahnede buluntu suçlama ve alıkoyma sürecini taşır. Ortaklık kap, yük, arama ve çıkarma işlemlerindedir; bu temas 12:65'i zorunlu bir ilk örnek veya iki olayı ahlaken eşdeğer kılan bir hükme dönüştürmez.
+
+Bu tekrar ölçüye de yeni bir hareket değeri verir. 12:72'de kayıp kabı getiren kişiye {ar:جَاءَ بِهِ, tr:jāʾa bihi, gloss:onu getirirse} karşılık vaat edilir; {ar:حِمْلُ بَعِيرٍ, tr:ḥimlu baʿīr, gloss:bir deve yükü} ödülü taşınabilir ve hesaplanabilir birim olarak adlandırır; {ar:بَعِيرٍ, tr:baʿīr, gloss:deve} burada gerçek yük ölçeğini sağlayan hayvandır. {ar:زَعِيمٌ, tr:zaʿīm, gloss:güvence veren ve kefil} bu miktarı eylem doğurması beklenen güvenceye bağlar. Odaktaki {ar:كَيْلَ بَعِيرٍۢ, tr:kayla baʿīr, gloss:bir deve yükü ölçüsü} ile 12:72'deki deve yükünün buluşması, ek payın yiyecek miktarından hareketi fiyatlayan pratik bir teşvik birimine dönüşmesini sağlar. Buradaki tekrar, gerçek taşıma ve gıda muhasebesi zemininde bu hareket işlevini öne çıkarır.
+
+Konuşma da aynı süreçte kendi sonuçlarını üretmeye başlayan bir biçime dönüşür (12:73, 12:74, 12:75). 12:73'teki {ar:إِنَّكُمْ لَسَارِقُونَ, tr:innakum la-sāriqūn, gloss:siz hırsızsınız} suçlaması kervana ağır bir kimlik yükler. 12:74'teki {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:onun karşılığı ve cezası} sorusu bu yüklenen fiil için bağlayıcı bir karşılık arar; {ar:كَاذِبِينَ, tr:kādhibīn, gloss:yalancılar} şartı konuşanların güvenilirliğini sınar. 12:75'te tekrarlanan {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:onun karşılığı ve cezası} ile {ar:وُجِدَ فِي رَحْلِهِ, tr:wujida fī raḥlihi, gloss:onun yükünde bulundu} formülü, bulunan kişiyi uygulanacak sonuçla eşleştiren bir kural kurar; {ar:فَهُوَ جَزَاؤُهُ, tr:fa-huwa jazāʾuhu, gloss:karşılığı onun kendisidir} sözü kişiyi kuralın içinde tutar. Böylece odaktaki {ar:قَالُوا۟, tr:qālū, gloss:dediler} ile babanın kararını isteyen müzakere, sonraki sahnelerde kimin ne kadar süreyle tutulacağını etkileyebilen kendi kendini bağlayıcı bir konuşma zincirinin ilk aşaması gibi görünür. Bu bağ odaktaki koruma vaadini geçersizleştiren bir hüküm kurmak yerine, sözün sonuç üretme kapasitesini ve ahlaki sınıflandırmanın açıkta kalan yönünü görünür kılar.
+
+Son olarak “kolay ölçü” ifadesi kendi niceliğinde kolay kalırken, onun eşlik ettiği yolculuğun bütün sonucunu kavramaya yetmez. 12:76'daki {ar:كَدْنَا, tr:kidnā, gloss:tertiplendik ve plan kurduk} önce görünmeyen tertibi açar; {ar:لِيَأْخُذَ أَخَاهُ, tr:li-yaʾkhudha akhāhu, gloss:kardeşini alıkoyması} bu tertibin beklenmedik muhafaza sonucunu gösterir; {ar:دِينِ الْمَلِكِ, tr:dīn al-malik, gloss:kralın hukuki düzeni} ise planın içinden geçtiği hukuki sınırı belirler. Bu üç ayrıntı, odaktaki kolay ölçünün miktar bakımından açık, sonuç bakımından sınırlı bir değerlendirme olduğunu kurar. {ar:نَرْفَعُ دَرَجَاتٍ, tr:narfaʿu darajāt, gloss:basamakları ve dereceleri yükseltiriz} yatay yük hesabını aşan dikey bir ölçek açar; {ar:ذِي عِلْمٍ عَلِيمٌ, tr:dhī ʿilm ʿalīm, gloss:bilgi sahibi üzerinde bilen} bilgiyi konuşanların tahminini aşan bir hiyerarşi içinde gösterir. Böylece {ar:يَسِيرٌ, tr:yasīrun, gloss:kolay ve zor olmayan} sıfatı doğrudan ölçü anlamını korur: miktarın hesaplanması kolaydır, fakat bu küçük ve yapılabilir payın yolculukta doğuracağı sonuç daha geniş tertip, alıkoyma ve üstün bilgi içinde açılır. Ölçü kendi niceliğinde kolay kalır; onun eşlik ettiği bütün sonuç daha geniş bir düzlemde belirir.
+
+</editorial_prose>

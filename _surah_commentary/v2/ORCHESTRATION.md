@@ -63,8 +63,24 @@ python3 -B _surah_commentary/v2/scripts/workflow.py build \
   --language tr --completed-by {OPERATOR_ID}
 ```
 
-The only content files read are:
-`_commentary/v5/editorial/{ANALYSIS_ID}/sNNN/S_A/S_A.prose.editorial.tr.md`.
+For a long surah whose completed v5 editorials are intentionally split across
+pericope analysis IDs, use explicit non-overlapping ayah ranges instead of
+`--analysis-id`:
+
+```sh
+python3 -B _surah_commentary/v2/scripts/workflow.py build \
+  --analysis-part {ANALYSIS_ID_1}:{START_1}-{END_1} \
+  --analysis-part {ANALYSIS_ID_2}:{START_2}-{END_2} \
+  --surah {N} --ayah-count {COUNT} --language tr \
+  --completed-by {OPERATOR_ID}
+```
+
+The ranges must cover every numbered ayah exactly once, and each selected
+analysis directory must contain exactly the declared range.
+
+The only content files read are the selected editorial prose files:
+`_commentary/v5/editorial/{ANALYSIS_ID}/sNNN/S_A/S_A.prose.editorial.tr.md`
+for the single analysis ID or for each declared analysis-part range.
 Record the emitted path as `{PACKET}`. It contains the exact editorial texts,
 source paths and hashes. Subsequent stages read this immutable snapshot, not
 live editorial files. Source revisions require a new build, outline, and run.
@@ -86,6 +102,7 @@ Use a fresh native semantic-agent conversation. Send only:
 ```text
 Read the generated prompt at {PROMPT}.
 Use only its inline evidence and instructions.
+Do not spawn, launch, or delegate to subagents; do the task yourself in this same agent session.
 Write the requested JSON to its designated output path.
 ```
 
@@ -115,7 +132,8 @@ python3 -B _surah_commentary/v2/scripts/workflow.py instantiate compose \
 ```
 
 Give the emitted prompt to a fresh native composition agent using the same
-three-line handoff. Record its Markdown prose output as `{DRAFT}` and validate:
+handoff, changing only the requested output kind from JSON to Markdown prose.
+Record its Markdown prose output as `{DRAFT}` and validate:
 
 ```sh
 python3 -B _surah_commentary/v2/scripts/workflow.py validate \

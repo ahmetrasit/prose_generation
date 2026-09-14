@@ -1,0 +1,169 @@
+You are a Quranic inter-ayah discovery analyst and Turkish prose writer. Complete the task from source inspection
+  through exhaustive ledger creation and Turkish synthesis.
+
+  FOCUS
+
+  Focus ayah: 18:86.
+
+  Hermetic global bundle:
+  _commentary/v5/input/s018-regular-20260912/s018/18_86/global.discovery.prompt.md
+
+  The bundle contains an embedded <lane_packet_json>. Use its connection_registry as the authoritative inter-ayah list.
+  It contains 155 registry rows. Preserve the original row order and row-level provenance, including reciprocal and
+  duplicate-target records.
+
+  Arabic source:
+   /Users/ahmetrasit/projects/quran/_shared/quran/complete-quran.txt
+
+It uses:
+
+  surah:ayah|Arabic text
+
+  you'll write your findings into:
+
+  _commentary/v5/raw/s018-regular-20260912/s018/18_86/global.inter-ayah.ledger.json
+  _commentary/v5/raw/s018-regular-20260912/s018/18_86/global.inter-ayah.discovery.tr.md
+
+  Do not read any existing V5 discovery, scope, editorial, or prompt files other then the hermetic global bundle given to you. Preserve unrelated workspace changes.
+
+  OBJECTIVE
+
+  For every one of the 155 connection_registry rows:
+
+  1. Retrieve and verify the target ayah’s exact Arabic text.
+  2. Read the target ayah in its immediate surrounding passage.
+  3. Identify triggers that may activate branches of the focus ayah.
+  4. Record the activation mechanism.
+  5. Record the activated focus branch or branches.
+  6. Explain the relationship between the target ayah’s context and each focus branch.
+  7. Grade how strongly the connection contributes to a surprising reading of 18:86.
+  8. Preserve bold, speculative, and unexpected activations because this is discovery, not final adjudication.
+  9. Synthesize the findings into coherent Turkish discovery prose grouped under thematic titles.
+
+  WORKING UNIT
+
+  Treat each connection_registry row as a separate analytical record, even if several rows point to the same ayah.
+  Deduplicate only the Arabic-text lookup. Preserve every connection_ref, relation_scope, prior label, reciprocal
+  direction, and source-row role.
+
+  Work in batches of ten rows in original registry order:
+
+  - rows 0–9
+  - rows 10–19
+  - rows 20–29
+  - continue until rows 0–154 are complete
+
+  If an existing ledger already contains completed rows, resume from the next missing row. Do not erase completed work
+  except to correct a verified error.
+
+  FOCUS BRANCH ANALYSIS
+
+  Use the focus ayah’s branch_registry and focus word occurrences. Do not limit activation to exact root overlap.
+  Consider:
+
+  - direct root or lemma recurrence;
+  - related morphology or grammatical construction;
+  - repeated phrase or syntactic architecture;
+  - shared scene structure;
+  - parallel acts, roles, thresholds, or consequences;
+  - contrastive contexts;
+  - surrounding-context activations;
+  - semantic or symbolic bridges;
+  - surprising secondary branches of focus words.
+
+  For every branch, distinguish the basis of activation, such as:
+
+  - direct_lexical;
+  - morphological;
+  - structural;
+  - contextual;
+  - semantic_scene;
+  - contrastive;
+  - sound_or_formal;
+  - context_only_candidate.
+
+  Do not invent unsupported Arabic forms or morphology. When a connection is an inference rather than explicit source
+  evidence, retain it but label it exploratory.
+
+  PER-ROW LEDGER RECORD
+
+  Every entry must contain at least:
+
+  {
+    "row_index": 0,
+    "connection_ref": "...",
+    "relation_scope": "...",
+    "target_ref": "...",
+    "prior_label": "...",
+    "source_row_role": "...",
+    "target_arabic": "...",
+
+    "target_ayah_context": {
+      "context_refs": ["..."],
+      "context_summary": "...",
+      "ayah_role_in_context": "...",
+      "relationship_to_focus_branches": [
+        {
+          "branch_ref": "...",
+          "relationship": "Explain how the target ayah’s contextual role carries, redirects, or intensifies this focus
+          branch."
+        }
+      ],
+      "context_only_candidates": [
+        {
+          "branch_ref": "...",
+          "relationship": "Optional surrounding-context activation not yet treated as a primary activation."
+        }
+      ],
+      "contextual_extension": "..."
+    },
+
+    "trigger": [
+      {
+        "target_surface": "...",
+        "focus_surface": "...",
+        "trigger_type": "...",
+        "description": "..."
+      }
+    ],
+
+    "activation_mechanism": "...",
+
+    "activated_branches": [
+      {
+        "branch_ref": "...",
+        "root_ar": "...",
+        "focus_gloss": "...",
+        "activation_basis": "...",
+        "activation_role": "..."
+      }
+    ],
+
+    "surprise_strength": "strong | medium | weak | none",
+    "surprise_reading": "...",
+    "what_it_adds": "...",
+    "discovery_payoff": "...",
+    "uncertainty": "...",
+    "source_row_note": "...",
+    "selected_for_prose": true
+  }
+
+  The surprise_strength field measures contribution to a surprising expansion or shift of 18:86, not certainty,
+  authority, or doctrinal truth.
+
+  DISCOVERY POSTURE
+
+  Use high recall. Do not reject a connection merely because the original registry label says “weak” or “no value.”
+  Reopen it if the Arabic, context, or branch system produces a live activation.
+
+  Retain surprising possibilities such as:
+
+  - a landscape word activating human-origin or human-status meanings;
+  - a seeing/finding sequence becoming a responsibility or no-evasion sequence;
+  - reaching a destination becoming an ethical or knowledge threshold;
+  - an either-or construction becoming a role, initiative, negotiation, or authority test;
+  - goodness becoming concrete protection, access, repair, compensation, or institution;
+  - punishment becoming a conduct-bound consequence rather than arbitrary force.
+
+  Do not flatten all connections into “thematically similar.” Every retained finding must state what changes in the
+  reading of 18:86 and why.

@@ -1,0 +1,199 @@
+# V5 reading invitation — 12:78
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p05-with-fatiha/s012/12_78/12_78.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p05-with-fatiha/s012/12_78/12_78.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Bu âyette kardeşler, tutulan kardeşlerinin yerine kendilerinden birinin alınmasını isteyen doğrudan bir ricayı Aziz'e yöneltir. {ar:قَالُوا۟, tr:qālū, gloss:dediler} ile açılan söz, yalnızca bir konuşmayı haber vermekle kalmaz; ardından gelen hitap, gerekçe, emir ve övgüyle birlikte kardeşlerin ağızlarından çıkan tam bir başvuruya dönüşür. Babalarının ileri yaşını gerekçe gösterir, içlerinden birinin onun yerine alınmasını ister ve muhatabı iyilik yapanlardan gördüklerini söylerler. Ayetin görünen hareketi, aile yükünü öne süren gerekçeden ikame talebine, oradan da bu talebi kabul edebilecek ahlaki bir muhataba yönelen ricanın tamamlanmasına ilerler.
+
+## Bir Rica Olarak Konuşma
+
+{ar:قَالُوا۟, tr:qālū, gloss:dediler} fiilinin tamamlanmış çoğul biçimi, kardeşleri tek bir ses halinde toplar. Sözü tek bir kardeşin kişisel isteği olarak değil, grubun birlikte üstlendiği bir başvuru olarak kurar; 12:77'deki saklı tepki ve 12:79'daki açık cevapla çevrelenen konuşma zincirinde kriz sözler aracılığıyla ilerler. Fiilin bildirme anlamı korunurken, tam alıntının kendisi bir talepte bulunma eylemi kazanır. Geniş sesli açılışın ardından gelen hitap, ayetin ritmini yüz yüze bir dilekçeye çevirir; ses ve edim katkısı kardeşler topluluğunun sınırları içinde kalır.
+
+Bu yüz yüze dönüşü {ar:يَا, tr:yā, gloss:ey} başlatır. Önceki anlatımdan karşıdaki kişiye çevrilen çağrı, {ar:أَيُّهَا, tr:ayyuhā, gloss:ey hitap kalıbı} ile resmî bir çerçeve kazanır ve belirli bir makamı bekler. {ar:ٱلْعَزِيزُ, tr:el-ʿazīzu, gloss:güçlü ve saygın makam sahibi} bu çerçeveyi doldurunca sesleniş belirli bir karar makamına yönelir. Yâ'nın uzayan sesi açılışın akışını yumuşatır, ayyuhâ çağrının resmî vuruşunu tamamlar, el-ʿazīzu içindeki ağır sesler makamın ciddiyetini duyurur. Bu ses baskısı yeni bir kök anlamı kurmaz; unvan burada insanî bir görev ve otorite makamı olarak kalır. Aynı unvanın ev içindeki geçmiş çevresinde anılması (12:30), şimdiki ricanın karar verebilecek bir makama yöneldiğini açıklar; kullanım ilâhî bir adlandırma alanına taşınmaz.
+
+Bu makamın önünde açılan söz, kardeşlerin daha önce yürüttüğü pazarlık zincirinin de devamıdır. {ar:قَالُوا۟, tr:qālū, gloss:dediler} ile başlayan ortak başvuru, 12:61'de babanın rızasını arama sözüne ve 12:65'te geri verilen mallara, vaat edilen ölçüye ve kardeşi koruma güvencesine bağlanır. Aile gerekçesi bu geçmiş sözlerin üzerine sunulur; konuşma böylece duygusal seslenişle birlikte yetkili muhatabın kararını değiştirmeye çalışan iki taraflı bir müzakere biçimi alır. Bu bağlantı, ricanın ailevi yönüyle pazarlık işlevini yan yana getirir ve niyet sorusunu açık bırakır.
+
+Hitabın ardından gelen ilk kesinlik, gerekçeyi sıkılaştırır: {ar:إِنَّ, tr:inna, gloss:şüphesiz} ile kurulan çerçeve, {ar:لَهُۥ, tr:lahū, gloss:onun için ve ona ait} ve {ar:أَبًا, tr:aban, gloss:baba} üzerinden babaya bağlanır. Lahū'nun öne alınmış aitlik biçimi, baba adı söylenmeden kimin için kaygı kurulduğunu duyurur. Böylece cümle parçalı bir duyguyu değil, emrin dayanağı olarak ileri sürülen kurulmuş bir gerekçeyi taşır. Sonda gelecek {ar:إِنَّا, tr:innā, gloss:gerçekten biz} ile birlikte iki kesinlik çerçevesi oluşur: ilki baba olgusunu, ikincisi kardeşlerin kendi tanıklığını taşır. Lahū'nun sonundaki hû sesi, ilerideki {ar:مَكَانَهُۥ, tr:makānahu, gloss:onun yerine} içindeki aynı zamirle bağ kurar; baba gerekçesi ile yerine geçme teklifinin aynı kardeş etrafında toplandığı duyulur.
+
+{ar:أَبًا, tr:aban, gloss:baba} belirsiz ve mansup biçimiyle kesinlik çerçevesinin gecikmiş nesnesi olur. İnna onu bekleyip açığa çıkardığında baba adı talebin taşıyıcı merkezi haline gelir; belirsizlik kişinin kimliğini değil, sahnedeki gerekçenin nasıl açılacağını açık bırakır. Bu baba yalnızca biyolojik bağı bildiren bir ad değildir. Yaşlılık ve büyüklük nitelemeleriyle birlikte, bakım isteyen ve aile içinde korunması gereken bir ilişkiyi taşır. Aynı kelime, 12:4, 12:8, 12:17, 12:59 ve 12:80'de duyulan baba hattını yeniden toplar; burada bu hat somut bir mazeret ve aile yükümlülüğü olarak geri gelir.
+
+{ar:شَيْخًا, tr:shaykhan, gloss:yaşlı kişi} ile {ar:كَبِيرًا, tr:kabīran, gloss:büyük ve ağır} bu babayı iki ayrı vuruşla belirginleştirir. Shaykhan önce yaşı, bedensel kırılganlığı ve yaşlı bir erkek oluşunu duyurur; kabīran ise büyüklük, önem, ağırlık ve taşınan yük alanını bindirir. İkisinin de aban ile aynı mansup niteleme zincirine bağlanması, yaşlılığın babadan ayrılan yeni bir kişiye değil aynı baba portresine ait olduğunu kesinleştirir. Art arda gelen -an sesleri tasviri ritim bakımından biriktirir; shaykhanın boğazdan ve sürtünmeli sesleri uzun betimlemeye pürüzlü bir beden dokusu verir, kabīran ise zinciri kapatıp sözü eyleme taşır. Shaykhanın bakım ve yaş bağı, yaşlı babanın hizmet ve korunma düzeni içinde göründüğü sahnelerle (28:23, 28:25) ve ileri yaş çerçevesiyle (11:72) desteklenir; kabīranın ağırlık yankısı da büyüklüğün öne çıktığı sahnelerle (12:31, 12:80, 28:23) temas eder.
+
+Bu yaş ve ağırlık, aile ricasına maddi bir zemin verir. Yaşlı ebeveyne gösterilen özen (17:23), baba adındaki bakım ilişkisini aile yükümlülüğüyle yan yana getirir; yaşlı babanın hizmet, karşılık ve korunma düzeni içinde görünmesi (28:23, 28:25) de bu bağı somutlaştırır. İleri yaşın teklifin dayandığı gerçek şart olarak belirginleştiği çerçeve (19:8), yaşın süsleyici bir ayrıntı değil mazeretin maddi temeli olduğunu güçlendirir. Shaykhanın saygı çağrışımı bu bakım ve yaş zeminine daha ihtiyatlı bir ton ekler. Böylece bu kelimelerin yerel katkısı yaş, bakım ve kişisel sorumlulukta toplanır; teklifin kabulü, babanın bilgisi ve kardeşlerin merhametinin içtenliği soruları bu bağlantının kapsamı içinde açık kalır.
+
+Bu baba tasviri ilerleyen sahnelerle bedensel bir geçmiş de kazanır. {ar:شَيْخًا, tr:shaykhan, gloss:yaşlı kişi} 12:84, 12:85 ve 12:86'daki yoğun kederle birlikte düşünüldüğünde, kırılganlığı yaşayan bir bedene bağlanır. 12:84'teki {ar:كَظِيمٌ, tr:kezîm, gloss:acısını içine atan} baba figürü içe kapanmış bir yük taşır; 12:86'daki {ar:بَثِّي, tr:bessî, gloss:içimde yayılmış derdim} bu yükün dile gelen biçimini açar. Böylece 12:78'de ileri sürülen yaş, babanın yaşayacağı acının bedensel zeminini kurarak ricanın duygusal ağırlığını artırır; yaşlı baba hâlâ ikame talebinin somut gerekçesi olarak önde kalır.
+
+Yaşlı baba aynı zamanda yalnızca korunacak edilgen bir beden olarak kalmaz. {ar:صَبْرٌ جَمِيلٌ, tr:sabrun cemîl, gloss:güzel sabır} (12:83) kendini tutarak yön veren bir dayanmayı, {ar:فَتَحَسَّسُوا, tr:fetahassesû, gloss:araştırın ve iz sürün} (12:87) ise kaygının karar ve arama hareketine dönüşmesini gösterir. Aynı ayetteki {ar:رَوْحِ, tr:ravh, gloss:ferahlık ve rahatlama} (12:87), yükün ardından yeniden hareket imkânı açar. {ar:أَعْلَمُ, tr:aʿlemu, gloss:daha iyi bilirim} ve {ar:تَعْلَمُونَ, tr:taʿlemûn, gloss:bilirsiniz} (12:86) sözleri, babanın bilen ve yönlendiren bir konuşmacı oluşunu taşır. Dolayısıyla 12:78'deki yaş vurgusu, fiziksel kırılganlığı korurken babanın cevap verebilen, umut eden ve arama emri verebilen etkin ebeveyn oluşuna da yer bırakır.
+
+İçeride tutulan bessî yükün içte yayılmasını, 12:86'daki açıklama ise bu yükün dışarıya yönelmesini görünür kılar; ravh, aynı basıncın arama ve ferahlama hareketine açılan yönünü ekler. Kezîmin çıkışı kapanmış kederiyle sabır ve arama dilinin açtığı yol (12:83, 12:84, 12:86, 12:87) böylece birbirine bağlanır. Bu basınç dili, kederin tutulup açılma hareketini açıklayan bir benzetme olarak işler; baba ve yaşlılık anlamlarını kendi bağlamlarında bırakır, 12:78'deki doğrudan aile ricasını da bu hareketin zemininde görünür tutar.
+
+Kabīranın taşıdığı ağırlık, aile içinde bir sorumluluk zincirine de bağlanır. 12:80'deki {ar:كَبِيرُهُمْ, tr:kabīruhum, gloss:büyükleri ve ileri gelenleri} olan kardeşin kalma kararı, {ar:أَبْرَحَ, tr:abraḥa, gloss:ayrılmam ve bulunduğum yerden çıkmam} sözüyle bedensel olarak kalmayı pasif bekleyişten yükü kendi üzerinde tutan bir karara çevirir. Aynı âyetteki {ar:مَوْثِقًا, tr:mawthiqan, gloss:sağlam söz ve ant}, 12:78'deki yerine geçme teklifini sırf değiş tokuş olmaktan çıkarıp verilmiş söze bağlı bir sorumluluk meselesine taşır. Böylece babanın ileri yaşı, aile içinde kimin yükü taşıyacağı sorusunun başlangıcı gibi duyulur. Kalmanın protesto ya da kefaret olarak anlaşılabilmesi açık kalır; yaşlılık mecaza eritilmez ve bu bağlam her yerde aynı sonucu doğuran bir kurala dönüştürülmez.
+
+## Yerine Geçme Teklifi
+
+Uzun baba tasvirinden sonra kısa bir menteşe gelir: {ar:فَ, tr:fa, gloss:böylece} hem gerekçeyi hem de hemen ardından gelen adımı birbirine bağlar. Yaşlı ve büyük baba hakkındaki tamamlanmış iddia, tek harflik fa ile emrin dayanağına dönüşür; kısa yüzey, uzun tasvirden keskin eylem noktasına hızlandırır. Nedensellik ve ardışıklık aynı anda duyulur: kardeşler merhamet gerekçesini bekleyen bir dilek olarak bırakmaz, şimdi uygulanmasını istedikleri bir sonuç biçiminde sunar.
+
+Bu sonucu söyleyen emir {ar:خُذْ, tr:khudh, gloss:al}dır. İkinci tekil erkek emir biçimi kararı Aziz'e verir; kardeşler gerekçeyi kurar, birini alıp kendi yetki alanına katma kararını muhatabın önüne koyar. Khudh burada bir şeyi kabul etmekten çok, bir kişiyi ele alıp yanında tutma ve gözetim altına alma eylemini öne çıkarır. Doğrudan nesne ve yer tamamlayıcısı henüz duyulmadan, merhamet anlatısının somut bir alma hareketine çevrildiği anlaşılır. Kısa emir, talebin sıkı temposunu ve somut alma yönünü birlikte taşır.
+
+Bu alma hareketi, kişinin sorumluluğa ve gözetim alanına bağlandığı çerçevelerle (12:75, 12:76) temas ettiğinde daha belirginleşir. 12:75'te bulunan kişiyi ceza ve sorumlulukla ilişkilendiren bağ, khudh fiilini sıradan bir kabulden daha belirli bir tutma hareketine taşır; 12:76'daki arama, bulma ve kardeşin tanımlanmış gözetim altına girmesi, teklif edilen kişinin boş bir yere değil mevcut bir konuma yerleştirildiğini gösterir. 12:65'teki koruma ve ölçü sözü ile 12:66'daki dönüş güvencesi de konumun yükümlülük taşıdığını açıklar. Böylece kardeşlerin şefkatli önerisi, kişiye bağlı bir sorumluluğu kişiler arasında taşımaya çalışan somut bir çözüm olarak görünür.
+
+Bu çözüm, sorumluluğun kişiye bağlı kaldığı bir sınır içinde duyulur. {ar:مَكَانَهُۥ, tr:makānahu, gloss:onun yeri ve konumu} yalnızca boş bir fiziksel mevkiyi değil, kişinin başka bir kişi ve olay içindeki ilişkisel konumunu açar. Kişisel yükün yakınlıkla kendiliğinden başkasına geçmediğini hatırlatan çerçeveler (6:164, 35:18, 57:15), aile bağının sorumluluğu silmediğini ve fidyeyle başka birine devretmediğini görünür kılar. Böylece ayet, aileyi korumaya çalışan insani ricanın yanına, kişisel yükün devredilemezliği sınırını yerleştirir; nihai hukuk hükmünü bu karşılaşmanın içinde açık bırakır.
+
+{ar:أَحَدَنَا, tr:aḥadanā, gloss:bizden birini} emrin nesnesi olarak kardeşler topluluğunun içinden tek bir adayı ayırır. Sonundaki nā sesi bu adayı gruptan koparmadan grubun içinde tutar; birinci çoğul iyelik, alınması istenen kişinin onların kendi topluluğundan geldiğini gösterir. Hiçbir kardeşin adı verilmediği için teklif açık uçlu kalır: herhangi biri seçilebilir, belirli bir kardeş tayin edilmez. Gruptan birini ayırma örneği (18:19) ve 12:79'da belirecek adalet baskısı bu seçilebilirlik temasını destekler; burada doğrudan nesne oluşu belirleyicidir.
+
+Ardından {ar:مَكَانَهُۥ, tr:makānahu, gloss:onun yerine} gelir. Mansup yer ifadesi khudh emrini tamamlar; önce kişi, sonra onun kaplayacağı yer söylenerek ikame formülü açıkça kurulur. Lahū ile makānahu içindeki hû, baba gerekçesini ve yerine konacak konumu aynı kardeşe bağlar. Mekân sözü bulunma yerinden kişinin başkası yanındaki konumuna genişler; böylece fiziksel yer, ilişkisel ve gözetim altında tutulan bir mevki olarak duyulur. Konum ve durum çağrışımı (12:77) ile daha geniş değiştirme yankısı (16:101) bu açılımı destekleyebilir; yerel anlam, belirli bir konuma ve talebin kurduğu imgeye odaklanır. Emir, nesne ve yer yuvasının üçlü kapanışı ricanın ne istediğini netleştirir.
+
+Aḥadanā ile makānahu yan yana geldiğinde iki katkı birbirine eklenir. İlkinde yaşlı babaya bağlı kırılganlık, tutulan kardeşin gözetiminden isteyerek öne çıkacak bir kardeşe yönelen şefkatli ikame mekanizmasına dönüşür: shaykhan ve kabīran bakım gerekçesini, khudh, aḥadanā ve makānahu ise bu yükün gönüllü bir kardeşe aktarılmasını görünür kılar. Ayetin olağan talebi, yaşlı babanın hatırı için birinin onun yerine alınması olarak bütün açıklığıyla durur. İkinci katkıda el-ʿazīzu makamının takdirindeki gözetim konumu belirginleşir; güçlü yetkili khudh emriyle birini alacak ve makānahu ile o kişinin yerini dolduracaktır. Bu iki yön aynı talebin içinde birlikte taşınır; belirli bir kardeş seçilmediği sınır da korunur.
+
+12:79'daki cevap, 12:78'de kurulan yer değiştirme talebinin sorumluluk bakımından neyi değiştirmeye çalıştığını gösterir. Oradaki bulma fiili, insanı ve malı belirli bir olay yerine bağlar; {ar:مَتَاعَنَا, tr:matāʿanā, gloss:malımız} sözü bulunan nesneyi ve ona bağlı hakkı görünür kılar, {ar:ظَالِمُونَ, tr:ẓālimūn, gloss:zulmedenler} ise bu bağı bozacak yer değiştirmenin haksızlık alanına taşınabileceğini adlandırır. Bu karşılaşma, teklif edilen kişiyi eşdeğer bir taşıyıcı gibi sunan görüntüyü açar: makānahu, bulunduğu kişiyle anlam kazanan ilişkisel bir yerdir ve sorumluluk o yerden ayrıştırılamaz. Yanlış yere yerleştirme bu bağlamda asıl kişiyi olayın dışına sürme tehlikesini taşır. Sınır esirlik, bulma ve haksız alıkoyma karşılaşmasına bağlı tutulurken, ricanın ailevi ve merhametli yüzü de aynı pasajda görünür kalır.
+
+İkame emrinden sonra ikinci kesinlik çerçevesi açılır: {ar:إِنَّا, tr:innā, gloss:gerçekten biz} kesinlik parçacığını konuşanların çoğul zamiriyle birleştirir. Grup artık yalnızca birini sunmaz, kendi değerlendirmesini de bu teklifin arkasına koyar. İlk inna babanın varlığını, ikinci innā kardeşlerin ortak tanıklığını çerçeveler; böylece söz, eylem talebinden muhatabın karakterine yönelen bir basınç kazanır. İnnâ içindeki ikiz n ve uzun ses, emirden sonra tanıklık cümlesini yavaşlatır; kısa khudh vuruşundan daha ağır bir güvenceye geçiş duyulur.
+
+## Görülen İyilik
+
+Bu tanıklığın fiili {ar:نَرَىٰكَ, tr:narāka, gloss:seni görüyoruz}dır. Narāka şimdiki zamanlı çoğul fiille kardeşleri ve doğrudan “seni” aynı anda sahneye alır; görmeyi görüntü almaktan kişi hakkında değerlendirme oluşturmaya doğru genişletir. Aynı görme ve iyilik yapanlar formülü (12:36), kardeşlerin bugünkü sözünü önceki bir tanıma çizgisine bağlar. İyilik yapanların ahlaki karşılıkla anılması (37:121), başkasına yarar sağlayan muhsinlerin görünmesi (51:16) ve sonradan açılan tanıma çizgisi (12:90), görmenin sosyal değerlendirme yönünü destekler. Yusuf'un iyilik kategorisiyle anıldığı sahneler (12:22, 12:56, 12:90, 12:100) de bu sınıf adının anlatı boyunca taşıdığı ağırlığı korur. Narāka burada gözlenen davranıştan çıkan sosyal değerlendirme olarak işler; 12:36'daki rüya bağlamı bu yerel bağlantıya taşınmaz.
+
+Bu değerlendirmeyi sınıfa bağlayan küçük edat {ar:مِنَ, tr:mina, gloss:arasında ve -den}dır. Mina, Yusuf'u bütün iyilik yapanlar sınıfıyla özdeşleştirmek yerine o sınıfın arasına yerleştirir; “o sınıftandır” değeri, “sınıfın tamamıdır” iddiasından ayrılır. Nazal sesiyle narāka fiilinden {ar:ٱلْمُحْسِنِينَ, tr:el-muḥsinīn, gloss:iyilik yapanlar} tamlamasına geçişi sıkılaştırır. El-muḥsinīn sözü belirli eril çoğul biçimi ve etkin ortaç yapısıyla yalnızca iyi olmayı değil, başkasına dışarıya doğru iyilik yapan bir eylem sınıfını taşır. Ayetin son sözü olarak bu ahlaki sınıfı bırakması, baştaki makam unvanı ile sondaki iyilik ölçüsünü karşı karşıya getirir: karar gücü taşıyan muhatabın önüne nasıl bir davranış yakışacağı sezdirilir. Sonundaki nazal ve īn akışı tanıklığı yerleşmiş bir kadansla kapatır; bu kadans Yusuf'un nasıl karşılık vereceğini önceden belirlemez.
+
+Bu son övgü iki işi aynı anda görür. {ar:قَالُوا۟, tr:qālū, gloss:dediler} ile açılan konuşma, {ar:نَرَىٰكَ, tr:narāka, gloss:seni görüyoruz} üzerinden bir değerlendirmeyi muhatabın önüne koyar ve el-muḥsinīn sınıfını onun beklenen davranışıyla temas ettirir. Kardeşler, Yusuf'a iyilik yapan kimliğini yükleyerek bu kimliği doğrulayan bir karar beklediklerini de sezdirir; söz böylece meselenin üzerine pazarlık yapan bir hamleye dönüşür. Aynı anda “seni iyilik yapanlardan görüyoruz” cümlesinin olağan övgüsü korunur. Kimliğin nasıl karşılık bulacağı ve kardeşlerin hesabıyla içtenliğinin nasıl ilişkileneceği açık bırakılır.
+
+Narāka'nın kamusal övgüye dönüşmesi, 12:77'deki içe saklanan değerlendirmeyle yan yana geldiğinde daha belirgin olur. Orada {ar:أَسَرَّهَا, tr:esarrahā, gloss:onu içinde sakladı} ile {ar:يُبْدِهَا, tr:yubdihā, gloss:onu açığa vurdu} arasında tutulan hüküm, burada dışarıya söylenen bir iyilik nitelemesiyle karşılaşır. 12:77'deki {ar:تَصِفُونَ, tr:taṣifūn, gloss:anlattığınız ve nitelediğiniz} tartışmalı tasvirin üzerine el-muḥsinīn olumlu bir kimlik bindirir. Bu birleşim, görülen davranışa dayanan övgüyü ve karar önünde işe yarayacak bir kimlik önerisini aynı anda görünür kılar; sözün gözlemden gelen yönü ile karar üzerinde etkili olan yönü birlikte kalır.
+
+Bu tanıklık görülen davranışla sınırlı bir savunma olarak işler. 12:81'deki {ar:حَافِظِينَ, tr:ḥāfiẓīn, gloss:koruyanlar ve gözetenler} sözü, narākanın gördüğü şeyi ne kadar koruyup teminat altına alabileceğine bir eşik çizer. Narāka ile 12:81'deki {ar:شَهِدْنَا, tr:shahidnā, gloss:şahit olduk} ve {ar:عَلِمْنَا, tr:ʿalimnā, gloss:bildik} yan yana geldiğinde, görme basit bir beğeniden gözlemlenmiş davranış hakkında sorumluluk üstlenen tanıklığa yükselir. Aynı ayetteki {ar:ٱلْغَيْبِ, tr:el-gayb, gloss:gizli ve görünmeyen} sözü, görünmeyeni bu iddianın dış sınırı olarak tutar. 12:82'deki {ar:صَادِقُونَ, tr:ṣādiqūn, gloss:doğru söyleyenler} çağrısı da övgünün gücünü dışarıdan doğrulanabilir bir doğruluk iddiasına bağlar. Böylece söz, görülen davranış adına sınırlı bir savunma üstlenir ve tanıklığın kapsamını görünmeyen alanın ötesine genişletmez.
+
+12:88'deki ölçü ve eksiklik dili, 12:78'deki ikame teklifinin karşılık fikrini maddi bir alanda yeniden açar. {ar:أَوْفِ, tr:awfī, gloss:tam ölç} ve {ar:ٱلْكَيْلَ, tr:el-kayl, gloss:ölçü} tamamlanması gereken elle tutulur bir miktarı gösterir; {ar:يَجْزِي, tr:yajzī, gloss:karşılık vermek ve telafi etmek} karşılık fikrini geri çağırır. {ar:مُزْجَاة, tr:muzjāt, gloss:değeri düşük ve yetersiz} mallar somut eksikliği görünür kılar, {ar:تَصَدَّقْ, tr:taṣaddaq, gloss:bağışta bulun} ise cevabın zorunlu bir bedel yerine eşitliği aşan bir cömertlik yönü taşıyabileceğini açar. Aḥadanā ile makānahu bir kişinin ve ilişkisel bir yerin ikamesini, awfī ile el-kayl ise tamamlanacak miktarı kurar. İyilik, böylece katı değiş tokuşun açamadığı eksiklik alanına girer; 12:78'deki aile yakarışı ile 12:88'deki erzak talebi kendi somut ihtiyaçları içinde kalır.
+
+Narākanın ölçü alanında ihtiyatlı bir maddi yankısı da duyulabilir. Eksik olanın bir iyilik eliyle tamamlanmasını bekleyen bakış, 12:88'de ölçülen yiyeceğin eksikliği görünür kılmasıyla somutlaşır; awfī de algılanan ihtiyacı dolduran harekete bağlanır. Bu dolma çağrışımı 12:88'deki ölçü ve ihtiyaç temasına aittir; narākanın sözlükteki ve yerel yüzeyi görme ve değerlendirme olarak kalır. Böylece el-muḥsinīnün ahlaki övgüsü, bire bir bedel hesabından daha geniş bir iyilik hareketine açılırken, 12:78'deki odak âyetin görme anlamı korunur.
+
+İyilik yapan kimliği daha sonra kişinin yüzünü tanıma ile davranışın iyiliğini görme arasındaki ayrımda sınanır. 12:89'daki {ar:جَاهِلُونَ, tr:jāhilūn, gloss:bilmeyenler} sözü, kardeşlerin iyi niteliği sezmiş olsalar bile kişiyi ve geçmişi tanımamış olabileceklerini görünür kılar. 12:91'deki {ar:خَاطِئِينَ, tr:khāṭiʾīn, gloss:hata edenler} itirafı, birinin iyiliğini görmekle kendi hatasını baştan görmek arasına mesafe koyar. Buna karşılık 12:92'deki {ar:تَثْرِيبَ, tr:taṯrīb, gloss:azarlama ve kınama} yokluğu, daha önce söylenen iyilik anlayışına somut ahlaki içerik verir; {ar:أَرْحَمُ, tr:arḥam, gloss:en merhametli} ve {ar:يَغْفِرُ, tr:yaġfiru, gloss:bağışlar ve örter} sözleri, hatanın sorumluluğunu koruyarak ilişkiyi onaran merhameti gösterir. Böylece 12:78'deki narāka, kişinin yüzünü ve geçmişini bütünüyle tanımadan davranışın iyiliğini değerlendirebilen bir görme olarak kalır. Övgünün ikna edici işlevi ile ahlaki sezgiyi yakalaması birlikte taşınır; bu okuma niyet hakkında hüküm vermez ve hatayı sorumluluk alanından çıkarmaz.
+
+## İzle Gelen Karşılık
+
+İnsanlardan birini başka birinin yerine koyma isteği, ileride maddi bir iz üzerinden başka bir karşılık biçimine dönüşür. 12:93'teki {ar:قَمِيصِي, tr:qamīṣī, gloss:gömleğim} insanın yerine geçecek başka bir kişi değil, yokluğu taşıyan ve ilişkiye geri dönen maddi bir aracı olarak iş görür. {ar:فَأَلْقُوهُ, tr:fa-alqūhu, gloss:onu bırakın ve atın} fiili 12:78'deki {ar:خُذْ, tr:khudh, gloss:al} emrinden farklı bir operasyon açar: bir nesneyi uzağa taşır ve temas kurar. Böylece 12:78'de kişinin makānahu içindeki yerini başka biriyle doldurma talebi, 12:93'te nesnenin babaya ulaştırdığı iz ve temasla başka bir doğrultuya açılır.
+
+Bu karşılığın hedefi 12:93'teki {ar:وَجْهِ أَبِي, tr:wajhi abī, gloss:babamın yüzü}dir. Gömlek doğrudan babanın yüzüne ulaşarak önceki narāka sözünden farklı bir görme değişimi meydana getirir; aynı âyetteki {ar:بَصِيرًا, tr:baṣīran, gloss:gören ve görür hale gelen} ifadesi, nesnenin babanın görüşünü geri getirmesiyle açılan sonucu taşır. {ar:أَجْمَعِينَ, tr:ajmaʿīn, gloss:hepiniz ve hep birlikte} ise bir kişinin yerine başka bir kişiyi koymayı değil, kopmuş olanların yeniden bir araya gelmesini gösterir. Bu yüzden 12:93'te gömleğin babaya ulaştırılması, 12:78'deki makānahu ile doğrudan hukuki eşdeğerlik kurmaz: biri tutulan kişinin konumunu değiştirmeye, diğeri bir iz üzerinden yokluğu kapatıp aileyi yeniden toplamaya yönelir. Âyetin başındaki yer değiştirme talebi anlatı içinde silinmeden, sonunda bedenden bedene aktarım değil iz, temas ve yeniden kavuşma hareketiyle karşılık bulur.
+
+</editorial_prose>

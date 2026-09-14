@@ -1,0 +1,336 @@
+{
+  "schema_version": "commentary-v5-scope-landing-ledger-v1",
+  "ayah_ref": "12:72",
+  "lane": "macro",
+  "findings": [
+    {
+      "finding_ref": "macro:cup-secured-transport",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 2,
+          "anchor": "Bu ayrı taşıyıcılar ve tetikleyiciler buluştuğunda, 12:72'deki kayıp ilanı yalnızca soyut bir mülkiyet kaybının haberi olarak kalmaz: aranan kap, yol yükünün içine bilinçli biçimde yerleştirilmiş, sonra geri bulunabilecek bir eşya olarak görünür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Buradaki bağlantı, kabın sözlük anlamını eyer takımına çevirmeyen ve her kaybı tertiplenmiş saymayan, aynı bölüm içindeki bağlamsal bir güçlendirmedir."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3"
+          ],
+          "paragraph": 2,
+          "anchor": "Aynı sahnedeki `{ar:ٱلسِّقَايَةَ, tr:siqāya, gloss:içme kabı}` kabın içme işlevini, `{ar:رَحْلِ, tr:raḥli, gloss:eyer ve yol donanımı}` ise deve üzerindeki hareketli yükü gösterir; böylece yerleştirme fiili kabı seçilmiş bir konuma sokar, eyer takımının kurulması da bu konumu sabitler."
+        },
+        {
+          "movement_refs": ["activation:4"],
+          "paragraph": 2,
+          "anchor": "Bu bağlamda `{ar:صُوَاعَ, tr:ṣuwāʿa, gloss:içme ve ölçme kabı}` kelimesi, içme ve ölçme işlevlerini birlikte taşıyan belirli kaptır"
+        },
+        {
+          "movement_refs": [
+            "connection:conn_c997e14db6d4fbd1a6f0",
+            "context:12:70"
+          ],
+          "paragraph": 2,
+          "anchor": "12:70'teki `{ar:جَعَلَ, tr:caʿala, gloss:yerleştirdi}` bu nesneyi kardeşin `{ar:رَحْلِ, tr:raḥli, gloss:eyer ve yol donanımı}` içine yerleştirir"
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:conditional-measure-replay",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 3,
+          "anchor": "Böylece odaktaki ödül, kardeşin yerine kabın getirildiği, yönü çevrilmiş ama ölçü ve teslim alışverişini koruyan bir tekrar gibi duyulur; yine de cümle, kayıp kral kabını getirene verilecek olağan ödül anlamını korur."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 3,
+          "anchor": "Bu, bağlamın taşıdığı nitelikli bir tekrardır: aynı ölçü dilinin her kullanımının bilinçli bir tersine çevirme olarak tasarlandığı sonucunu zorunlu kılmaz."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3"
+          ],
+          "paragraph": 3,
+          "anchor": "12:59'da kardeşi getirme şartı ile ölçünün verilmesi, 12:60'ta getirmeyene ölçünün kesilmesi, 12:65'te ise ölçünün ve deve biriminin yeniden anılması, getirme ile ölçü arasındaki alışverişi art arda kurar."
+        },
+        {
+          "movement_refs": ["activation:4", "activation:5"],
+          "paragraph": 3,
+          "anchor": "12:65'teki ölçü ifadeleri yanındaki deve, miktarın aynı maddi birimle belirginleşmesini sağlar; `{ar:جَآءَ, tr:cāʾe, gloss:getirmek}` bu eski düzenin getirme yerini, `{ar:حِمْلُ, tr:ḥimlu, gloss:taşınan yük}` ile `{ar:بَعِيرٍ, tr:baʿīr, gloss:deve}` ise karşılığın taşınan ve deveyle ölçülen biçimini taşır."
+        },
+        {
+          "movement_refs": ["activation:6", "activation:7"],
+          "paragraph": 3,
+          "anchor": "Burada `{ar:جَآءَ, tr:cāʾe, gloss:getirene}` ile getirilecek şeyin kardeşten kaba çevrilmesi, `{ar:حِمْلُ, tr:ḥimlu, gloss:taşınan yük}` ile de ödülün taşınan yük olarak kalması, eski alışverişin nesnesini değiştirir ama teslim mantığını korur."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_12d1c471c0ee55637ae9",
+            "connection:conn_f3ea168758eb185e59de",
+            "connection:conn_28f3b278e641181f664b",
+            "context:12:59",
+            "context:12:60",
+            "context:12:65"
+          ],
+          "paragraph": 3,
+          "anchor": "Bu kap aynı zamanda bölümün ölçü ekonomisine bağlanır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:surety-chain",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "Bu temas, ödülün hâlâ ödül olmasını korurken, tekil konuşmacıyı bölümdeki geri getirme ve koruma vaatleri zincirine bağlayan bağlamsal bir kuvvetlendirmedir; insan kefil önceki güvenceyle aynı yetkiye sahipmiş gibi okunmaz ve cümlenin onu bilinçli biçimde tekrarladığı ileri sürülmez."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 4,
+          "anchor": "12:66'da kardeşin geri getirileceği `{ar:مَوْثِق, tr:mūthiq, gloss:bağlayıcı güvence}` ile güvence altına alınır ve `{ar:وَكِيلٌ, tr:wakīl, gloss:üstlenen gözetici}` sözü, verilen sözün korunmasını üstlenen bir makamı çağrıştırır."
+        },
+        {
+          "movement_refs": ["activation:2", "activation:3"],
+          "paragraph": 4,
+          "anchor": "Odaktaki `{ar:حِمْلُ, tr:ḥimlu, gloss:yük}` burada yalnız taşınan bir miktar değil, yerine getirilmesi üstlenilen bir yük olarak; `{ar:زَعِيمٌ, tr:zaʿīm, gloss:kefil}` ise bunu kendi sözüyle güvenceye alan kişi olarak iş görür."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_de0d4fb3711629ef3767",
+            "context:12:66"
+          ],
+          "paragraph": 4,
+          "anchor": "Son cümledeki kefalet, bu alışverişe ayrı bir sorumluluk katmanı ekler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:managed-loss",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "Böylece söz, konuşanların düzeyinde doğru bir kayıp bildirimi olarak kalırken, sebebi onların bilgisi dışında hazırlanmış bir arama düzeni içinde etkili olur; bu okuma konuşanların bilinçli bir aldatmaya katıldığını söylemez."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 5,
+          "anchor": "12:58'de Yusuf'un `{ar:عَرَفَ, tr:ʿarafa, gloss:tanıdı}` taşıdığı tanıma ile kardeşlerin `{ar:مُنكِرُونَ, tr:munkirūn, gloss:tanımayanlar}` konumu yan yana gelir; bir taraf sahneyi okurken öteki taraf onu okuyamaz."
+        },
+        {
+          "movement_refs": [
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5"
+          ],
+          "paragraph": 5,
+          "anchor": "12:70'te `{ar:جَعَلَ, tr:caʿala, gloss:yerleştirdi}` ile içme kabı yerleştirilir, `{ar:أَذَّنَ, tr:aḏḏana, gloss:duyurdu}` ile gizli yerleştirme kamusal bir ilana çevrilir ve `{ar:سَارِقُونَ, tr:sāriqūn, gloss:hırsızsınız}` sözü kayıp anlatısına suçlama çerçevesi verir."
+        },
+        {
+          "movement_refs": ["activation:6", "activation:7"],
+          "paragraph": 5,
+          "anchor": "Bu hazırlığın ardından odaktaki `{ar:قَالُوا۟, tr:kālû, gloss:dediler}` sözü grup içinde dolaşan resmî anlatıyı taşır; `{ar:نَفْقِدُ, tr:nefkidu, gloss:aranan yokluğu bildiriyoruz}` ise hem gerçek bir yokluğu söyler hem de aramayı başlatan işlem olur."
+        },
+        {
+          "movement_refs": ["activation:8"],
+          "paragraph": 5,
+          "anchor": "`{ar:صُوَاعَ, tr:ṣuwāʿa, gloss:ölçü ve içme kabı}` ile `{ar:ٱلْمَلِكِ, tr:el-maliki, gloss:kralın}` bu işlemi belirli, kamusal değeri olan bir nesneye bağlar."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_c90f4d5d93b5b59f8aae",
+            "connection:conn_c997e14db6d4fbd1a6f0",
+            "context:12:58",
+            "context:12:70"
+          ],
+          "paragraph": 5,
+          "anchor": "Kayıp bildiriminin nasıl işlediği, bölümün bilgi dağılımıyla birlikte değişir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:controlled-cargo-recirculation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 6,
+          "anchor": "aynı bölümde daha önce gösterilmiş gizli yük aktarımının ikinci ve toplumsal sonucu olarak okunabilir"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 6,
+          "anchor": "iki aktarım ayrı eylemler olarak kalır ve bu tekrar yalnızca bu bölümdeki somut paralelliğe dayanır"
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2"],
+          "paragraph": 6,
+          "anchor": "12:62'de `{ar:ٱجْعَلُوا۟, tr:icʿalū, gloss:yerleştirin}` emri, `{ar:بِضَاعَتَهُمْ, tr:biḍāʿatahum, gloss:ticaret malları}`nı `{ar:رِحَالِهِمْ, tr:riḥālihim, gloss:yük takımları}` içine koyar: değerli malzeme, yolcuların taşıma düzenine gizlice geri döner."
+        },
+        {
+          "movement_refs": ["activation:3", "activation:4", "activation:5"],
+          "paragraph": 6,
+          "anchor": "12:70'te aynı yerleştirme işlemi bu kez içme kabına uygulanır; içme işlevi taşıyan nesne ikinci değerli eşya olur ve aynı tür eyer-yük takımı onu seçilmiş bir yolcunun yüküne bağlar."
+        },
+        {
+          "movement_refs": ["activation:6", "activation:7"],
+          "paragraph": 6,
+          "anchor": "Odaktaki kayıp fiili bu iki yerleştirme arasında ortaya çıkan kamusal yokluğu, `{ar:صُوَاعَ, tr:ṣuwāʿa, gloss:ölçü kabı}` ise ikinci kez dolaşıma sokulan kabı taşır."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_fbd2b971379f96466c68",
+            "connection:conn_c997e14db6d4fbd1a6f0",
+            "context:12:62",
+            "context:12:70"
+          ],
+          "paragraph": 6,
+          "anchor": "Bu düzenekte eşyanın yol kaplarına girip çıkması da tekil bir olay değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:procedural-capture",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 7,
+          "anchor": "Bu nedenle ödül, sırf mülkü geri getirme vaadi olarak kalırken aynı zamanda kişiyi gözetim altına götüren zincirin başlangıcı olur"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 7,
+          "anchor": "anlatıcıların zincirin tamamını bildiği veya ödülün tek başına hukuken el koyma doğurduğu ileri sürülmez"
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 7,
+          "anchor": "12:74'teki `{ar:جَزَاءُ, tr:jazāʾ, gloss:karşılık veya sonuç}` sorusu ödülün ardından hangi karşılığın uygulanacağını açar; 12:75'te aynı alan, kabında bulunan kişinin nesnenin karşılığı sayılacağı bir insanî bedel düzenine dönüşür."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 7,
+          "anchor": "`{ar:وُجِدَ, tr:wuǧida, gloss:bulundu}` ile nesnenin bir kap içinde bulunması, odaktaki kayıp nesneyi daha sonra kişiye bağlanacak delil hâline getirir."
+        },
+        {
+          "movement_refs": ["activation:3", "activation:4"],
+          "paragraph": 7,
+          "anchor": "12:76'daki `{ar:كِدْنَا, tr:kidnā, gloss:düzen kurduk}` aramanın stratejik tertibini, kapların sırayla incelenmesi ve `{ar:ٱسْتَخْرَجَهَا, tr:istaxraǧahā, gloss:onun içinden çıkardı}` nesnenin seçilmiş kaptan çıkarılmasını taşır; ardından `{ar:يَأْخُذَ, tr:yaʾxuḏa, gloss:almak veya yanında tutmak}` insanî sonucu görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:5", "activation:6"],
+          "paragraph": 7,
+          "anchor": "Odaktaki `{ar:ٱلْمَلِكِ, tr:el-maliki, gloss:kralın}` mülkiyeti, 12:76'daki `{ar:دِينِ ٱلْمَلِكِ, tr:dīni al-maliki, gloss:kralın hukuk düzeni}` ile birleşerek"
+        },
+        {
+          "movement_refs": ["activation:7"],
+          "paragraph": 7,
+          "anchor": "Odaktaki `{ar:جَآءَ, tr:cāʾe, gloss:getirene}` teslim koşulunu, `{ar:حِمْلُ, tr:ḥimlu, gloss:yük}` bulunana verilecek maddi karşılığı"
+        },
+        {
+          "movement_refs": ["activation:8"],
+          "paragraph": 7,
+          "anchor": "nesneye erişimin doğrudan değil, başka bir hüküm yolu üzerinden kişisel tutmaya çevrildiğini gösterir"
+        },
+        {
+          "movement_refs": ["activation:9"],
+          "paragraph": 7,
+          "anchor": "`{ar:زَعِيمٌ, tr:zaʿīm, gloss:kefilim}` ise bu karşılığı üstlenen kişiyi kurar"
+        },
+        {
+          "movement_refs": [
+            "connection:conn_246dae3ce8cbe429a756",
+            "connection:conn_cea35d8723546c06e9b0",
+            "connection:conn_8520cdcd3a5e4d4988c1",
+            "context:12:74",
+            "context:12:75",
+            "context:12:76"
+          ],
+          "paragraph": 7,
+          "anchor": "Ödül cümlesinin ileride açtığı yol daha da belirgindir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:measure-separation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff"
+          ],
+          "paragraph": 8,
+          "anchor": "Böyle bakıldığında ölçü kabı, yalnızca aranan nesne değil, dağılmış bir topluluğu kaplara ve sonunda tek bir kişiye kadar bölen sahnenin yapısal menteşesi olarak da duyulur."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 8,
+          "anchor": "Bu, ölçü kabının doğrudan anlamını tuzak diye değiştiren kesin bir sözlük hükmü değil"
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 8,
+          "anchor": "Son olarak, daha ihtiyatlı ve keşif düzeyinde bir yapı belirir: `{ar:صُوَاعَ, tr:ṣuwāʿa, gloss:ölçü kabı}` kelimesinin çevresinde, ölçünün kendisi topluluğu bölen bir işlemin merkezinde görünür."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 8,
+          "anchor": "Bu kelimenin sözlük alanındaki ayrılma ve yanlardan yönlendirerek dağıtma imgesi, 12:67'deki `{ar:مُّتَفَرِّقَةٍ, tr:müteferrika, gloss:ayrı ayrı}` giriş yolları tarafından tetiklenir; grup tek bir kapı yerine bölünmüş yollara dağıtılır."
+        },
+        {
+          "movement_refs": ["activation:3", "activation:4"],
+          "paragraph": 8,
+          "anchor": "12:76'da `{ar:أَوْعِيَتِهِمْ, tr:awʿiyatihim, gloss:kapları}`nın sırayla aranması yükü ayrı birimlere böler, `{ar:ٱسْتَخْرَجَهَا, tr:istaxraǧahā, gloss:çıkardı}` ise gizli nesneyi bir kaptan çıkararak tek bir kardeşi sonuç noktasında ayırır."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_8520cdcd3a5e4d4988c1",
+            "context:12:67",
+            "context:12:76"
+          ],
+          "paragraph": 8,
+          "anchor": "odak kelimesi ile ayrılmış girişler, bölünmüş kaplar ve çıkarma eylemi arasındaki sınırlı, keşif niteliğindeki bağlamsal çağrışımdır."
+        }
+      ]
+    }
+  ]
+}

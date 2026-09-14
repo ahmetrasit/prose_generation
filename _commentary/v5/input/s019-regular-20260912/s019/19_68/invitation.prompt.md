@@ -1,0 +1,189 @@
+# V5 reading invitation — 19:68
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_68/19_68.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_68/19_68.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Yeminli Cevap
+
+Önceki iki ayette insanın öldükten sonra yeniden çıkarılıp çıkarılmayacağı sorusuna ve bu sorudaki inkâr baskısına burada doğrudan cevap gelir. {ar:فَوَرَبِّكَ, tr:fe-rabbike, gloss:Rabbine yemin olsun ki} sözü, başındaki fa ile hemen önceki akışa bağlanır; okur yeni bir konuya değil, soruyu yeminle kesinleştiren bir cevaba geçer. Böylece soru hâlinde duran endişe, ayetin içinde adlî kesinlik taşıyan bir bildiriye dönüşür; önceki sorunun içeriği korunur, konuşmanın yönü değişir. Bu birleşimdeki {ar:وَ, tr:ve, gloss:yemin edatı}, ardından gelen {ar:رَبِّكَ, tr:rabbike, gloss:senin Rabbin} adını yeminin dayanağı yapar. İki unsurun birbirine sıkışmış duyuluşu bütün cümleyi güvence altına alır. Yemin yalnızca Rab adında durmaz, biraz sonra gelecek iki kesinlik vurgusunu da birlikte yönetir. Başlangıçtaki çift ses, fiillerin ağır sonları ve son kelimenin kapanışıyla birleşerek cümle boyunca hissedilen bir basınç kurar; ses bu kesinliği taşır, gramerin yerini almaz.
+
+Yemin edilen Rab unvanı, gelecek hükmünü yalnızca bir güç gösterisi olarak değil, sahiplik ve düzenleme yetkisinden doğan bir karar olarak çerçeveler. {ar:رَبِّكَ, tr:rabbike, gloss:senin Rabbin} burada hitabı taşıyan bir ad olmanın yanında yemin edilen Rab oluşunu bildirir; toplama ve hükme koyma, sahip olan ve düzenleyen Rabbin tasarrufunda görünür. Önce yaratmayı başlatan ve varlığı tamamlayan Rab tasavvuru ile son hüküm arasındaki yetki sürekliliği, ilk yaratılışın hatırlatıldığı bağlamla birlikte duyulur (19:67); bu süreklilik ayetin anlatmadığı bir ara mekanizma kurmadan yeniden var ediliş sorusuna zemin verir. Kelimenin sonundaki ikinci tekil iyelik de yemin sözünü muhataba doğrudan bağlar: güvence uzak bir ilke olarak değil, “senin Rabbin” diye canlı bir hitap içinde duyulur; hüküm böylece yalnız tek bir kişiye kapatılmadan muhatabın önünde belirir.
+
+İlk {ar:لَ, tr:le-, gloss:kesinlik vurgusu} doğrudan {ar:لَنَحْشُرَنَّهُمْ, tr:lenehşurennehum, gloss:onları mutlaka toplayacağız} fiiline eklenir. Bu küçük vurgu, toplamayı sıradan bir gelecek tahmini olmaktan çıkarıp yeminin ilk güvence altındaki icrası yapar. Fiilin birinci çoğul etken kuruluşu “biz toplayacağız” diyerek eylemi ilahî failin bizzat üstlendiğini duyurur; sahne edilgen bir tesadüfe bırakılmaz. Sonundaki ağır nûn kararın ağırlığını fiilin kapanışına taşır. İçindeki -hum, tek bir kişiyi değil, aynı hüküm karşısında görülecek bir topluluğu gösterir. Fiilin seçtiği toplama, dağınık olanları bulundukları yerlerden çekip belirlenmiş bir hedefe yöneltir. Bu hareket, biraz sonra gelecek hazır etme eyleminin bulunduğu yere doğru ilerleyen ilk aşamadır; iki fiil birlikte duyulur, fakat aynı işi tek bir belirsiz “getirme”ye indirmez.
+
+Bu topluluğa {ar:وَ, tr:ve, gloss:birlikte} ile {ar:وَالشَّيَاطِينَ, tr:ve'ş-şeyâtîne, gloss:ve şeytanları} eklenir. Şeytanlar için ayrıca bir fiil söylenmemesi önemlidir: bağlı ad öbeği ilk fiilin çekim alanına girer ve kapsam insanlarla sınırlı kalmaz. Belirli çoğul ifade tek bir örneği değil bilinen bir sınıfı, azgın ve başkaldıran kötü varlıkları sahneye getirir. Bu adın taşıdığı uzaklaşma ve uzaklaştırılma basıncı, onları kalabalığa eklenmiş bir isim olmaktan çıkarır; hakikatten ve rahmetten kopuk bir sınıfın da ilahî huzura sevk edildiği hissini verir. Cümledeki şîn ve uzun sesler, toplama fiilinin ağır kapanışıyla yan yana gelerek insanlarla şeytanları aynı sahneye bağlayan sürtünmeli bir ağırlık oluşturur. Bu ses, söz konusu sınıfın uzaklığını duyuran bir katkı sağlar; sonraki mekânın ayrıntıları bu ses bağlantısının kapsamı dışında kalır. Birlikte anılmaları da bu okumada iki grubun aynı türden olduğu veya sonraki aşamada nasıl ayrılacağı sonucunu taşımaz. Metnin açık akışı şudur: insanlar ve şeytanlar toplanır, ardından aynı “onları” zamiriyle hazır edilir.
+
+{ar:ثُمَّ, tr:summe, gloss:sonra} ilk toplama ile ikinci hareket arasına belirgin bir durak koyar. İkinci işin ilk işle aynı anda olmadığını bildirir, fakat araya ölçüsü verilmiş bir takvim yerleştirmez. Ardından ikinci {ar:لَ, tr:le-, gloss:kesinlik vurgusu}, {ar:لَنُحْضِرَنَّهُمْ, tr:lenuhdirennehum, gloss:onları mutlaka hazır edeceğiz} fiilinin önünde yeniden görünür. Aynı yemin iki ayrı eylemi birlikte güvenceye alırken, ikinci eylem ilk toplamanın belirsiz bir sonucu olarak bırakılmaz. Fiilin ettirgen yapısı, toplanmış kişileri görünür ve hazır bir konuma çıkarır; dağınık topluluğu karşılaşılabilir bir huzur sahnesine dönüştürür. İkinci fiildeki -hum, ilk fiilde toplanan insan ve şeytan topluluğuna geri döner; kapsam daralmaz, aynı nesneler bir sonraki aşamaya taşınır. Fa, iki vurgu, çoğul zamir ve summe birlikte okunduğunda gramer ile ses aynı yöne ilerler: iki hareket tekleşmeden, tek bir yemin altında ardışık iki icra olarak duyulur.
+
+## Çevredeki Eşik
+
+Hareketin son konumu {ar:حَوْلَ, tr:havle, gloss:çevresinde} ile, son bedensel hâli de {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} ile verilir. {ar:حَوْلَ, tr:havle, gloss:çevresinde} yer bildiren isim kökenli bir zarf görevindedir; Cehennem'i merkez alır ve getirilenleri onun çevresindeki konuma yerleştirir. Bu ifade içeri girilmiş bir merkezden çok çevre hattını gösterir; hazırlanan kalabalık ceza alanının eşiğinde görünür olur. “Etrafında” anlamı, bu bağlamda yalnızca yakınlık değil, çevrelenmiş ve bekletilmiş bir düzen hissi de kazanır. Merkezde düşünülen ilahî hâkimiyet düzeninin karşısına Cehennem çevresinde toplanmış kullar yerleştirilir; insanın hüküm karşısındaki konumu bu merkez-çevre ilişkisi içinde küçülür. Toplama ve hazır etme yetkisinin Rabbe ait kalması, Cehennem'in ise ilahî hükmün düzenlediği bir merkez olarak görünmesiyle sahnenin sahibi ve varış yeri birlikte belirir.
+
+{ar:جَهَنَّمَ, tr:cehennem, gloss:Cehennem} genel bir ceza fikrinden daha belirli, adı tanınan bir varış alanıdır; Arapça cümlede yabancı kökenli fakat ortakça bilinen bir özel ad gibi durur. Bu adla çevresindeki yerleşik ifade, sonraki cezalandırmanın tanınabilir ön sahnesini kurar. {ar:حَوْلَ, tr:havle, gloss:çevresinde} ile bu yoğun adın yan yana gelişi cümlenin ortasında ağır bir merkez etkisi yaratır. Böylece ceza alanının eşiği girişten önce görünür hâle gelir; bu anda içeri alınma veya azabın ayrıntılı icrası anlatılmaz. Özel ad sahnenin varış alanını sabitler, sonraki işlemlerin bütün ayrıntılarını kendiliğinden yüklenmez.
+
+Sonuçta {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} gelir. Bu kelime son fiile eklenen hâl bildirimiyle, kişilerin hazır edilirken hangi bedensel durumda bulunduğunu açıklar. Önce yer, sonra duruş gelir: çevrede bulunan topluluk dizleri üzerine çökmüş hâlde görülür. Bu durum rahatça oturmayı değil, hüküm altında tutulmuş ve hareketi kısıtlanmış bir bedensel konumu öne çıkarır; çoğul hâl tek tek bedenlerin ayrıntısını değil ortak bir duruşu gösterir. Kelimenin seçkin hüküm pozu günlük “oturmak” ya da belirsiz “eğilmek” ifadelerinin yumuşatamayacağı bir yoğunluk taşır. Son hecedeki düşüş, baştaki yemin ve fiillerin ağır vurgusunu bedensel bir kapanışta toplar. Böylece önceki “yeniden çıkarılacak mıyım?” itirazı, toplanmış ve hazır edilmiş bedenlerin Cehennem çevresindeki görünür karşılaşmasına dönüşür; yakın akışta benzer dizilişin sürmesi bu dönüşü sonraki hüküm çizgisine bağlar (19:72). Bu beden hâli, ibadet emri veya gönüllü dua anlamı yüklenmiş ayrı bir eylem değil, ilahî hüküm önünde zorunlu ve toplu hazır bulunuştur.
+
+Bu kelimeler birlikte okunduğunda yerel bir yüzleşme düzeni belirir. Rabbe ait yemin dağınık topluluğun toplanmasını ve ardından aynı topluluğun görünür huzura çıkarılmasını yönetir; {ar:وَالشَّيَاطِينَ, tr:ve'ş-şeyâtîne, gloss:ve şeytanları} bu sevke başkaldıran bir sınıfı da katar. {ar:لَنُحْضِرَنَّهُمْ, tr:lenuhdirennehum, gloss:onları mutlaka hazır edeceğiz} ile {ar:جَهَنَّمَ, tr:cehennem, gloss:Cehennem} yan yana geldiğinde hazır bulunma, iddiaların sürdürüldüğü açık uçlu bir karşılaşmadan çok yetki önünde görünür kılınan bir düzen gibi duyulur. {ar:حَوْلَ, tr:havle, gloss:çevresinde} ile {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} buluştuğunda topluluk Cehennem'in çevresinde diz çökmüş olarak sabitlenir. Ayetin açık görüntüsü budur; iki grubun orada nasıl ayrılacağı ve sevkin fiziksel güzergâhı ise açık bırakılmıştır.
+
+## Hedefe Doğru Sevk
+
+Bu tamamlanmış sahne, daha geniş yargı görüntüleriyle temas ettiğinde kamusal ve sıralı huzura çıkarılma düzenini dört ayrı katkıyla açar. {ar:نَحْشُرَنَّهُمْ, tr:nehşurennehum, gloss:onları toplarız} 15:25'teki herkesin bir araya getirilmesiyle buluştuğunda dağınık olanların ortak bir son hedefe sevk edilmesi belirginleşir. 36:51'de insanların kabirlerden Rablerine doğru yönelmesi hareketin yönünü, 19:85'te Allah'a karşı duyarlı olanların Rahman'a onurlu konuklar olarak toplanması ise toplama fiilinin tek başına cezayla sınırlanmadığını gösteren genişliği ekler. 19:68'de tehdidi sertleştiren unsur toplama fiilinin kendisinden çok, hemen ardından gelen şeytanlar, Cehennem çevresi ve zorunlu hazır ediliştir. {ar:لَنُحْضِرَنَّهُمْ, tr:lenuhdirennehum, gloss:onları mutlaka hazır ederiz} 37:127'deki zorunlu hazır edilme ile zorunlu sunulma katkısını, 18:48'de insanların Rablerinin önünde saf hâlinde sunulması ise hüküm önünde göz önüne çıkarılma katkısını verir. 39:75'teki merkez çevresinde kuşatılmış yargı düzeni, {ar:حَوْلَ, tr:havle, gloss:çevresinde} için uzamsal teması; 45:28'de kayıtları önünde diz çökmüş topluluk da {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} için bedensel teması sağlar. Bu karşılaştırmalı görüntüler hedef sahnelerin bütün dil bilgisel ayrıntılarını özdeşleştirmez; 19:68'in kendi toplama, hazır etme, çevre ve duruş sırası korunur.
+
+Yakın akıştaki varış ve grup ifadeleri bu hareketi düzenlenmiş bir sevk olarak görünür kılan iki ayrı katkı sunar. {ar:وَارِدُهَا, tr:variduhâ, gloss:ona varanlar} belirlenmiş bir hedefe ulaşmayı, {ar:شِيعَةٍ, tr:şîatin, gloss:bir topluluk} ise gruplanmış ve ardışık ilerleyen birimi taşır (19:69, 19:71). {ar:وَارِدُهَا, tr:variduhâ, gloss:ona varanlar} ile {ar:نَحْشُرَنَّهُمْ, tr:nehşurennehum, gloss:onları toplarız} buluştuğunda dağınık olanların belirlenmiş yere doğru sürüklendiği; {ar:شِيعَةٍ, tr:şîatin, gloss:bir topluluk} ile {ar:لَنُحْضِرَنَّهُمْ, tr:lenuhdirennehum, gloss:onları mutlaka hazır ederiz} buluştuğunda ise gruplar hâlinde varışın tayin edilmiş bir hazır ediliş olduğu hissi doğar. Gruplar aynı işlemin ardışık birimleri gibi ilerler; çevrede toplanma da daha sonra yapılacak seçimin eşiğine dönüşür. Varış sözü su başına ulaşanların diline değen bir kaynak ve sulama çağrışımı açar, gruplanmış takipçiler sözü ise sürü hâlinde yönlendirilme görüntüsüne yaklaştırır. Bu çağrışımlar burada Cehennem'i gerçek bir su kaynağı, topluluğu gerçek bir sürü veya sahneyi çobanlık düzeni olarak tanımlamak için değil, odaktaki zorunlu toplama ve hazır etmenin kontrollü işlem niteliğini belirginleştirmek için iş görür.
+
+Bu kamusal düzen, {ar:وَالشَّيَاطِينَ, tr:ve'ş-şeyâtîne, gloss:ve şeytanları} ifadesine insanlarla yalnızca yan yana durmaktan daha yoğun bir ilişkisel anlam kazandırabilir. İnsan ve cin şeytanlarının peygamberlere karşı ortak düşman olarak anılması (6:112), bu iki tarafı ortak bir başkaldırı sahasında görünür kılan katkıyı verir. Cinlerle insanların birlikte toplanıp karşılıklı ilişkilerinin ateş hükmü önünde açığa çıkması (6:128) ise aynı bağa sorumluluk ve yargı önündeki karşılaşma boyutunu ekler. Böylece odaktaki bağlacın birleştirdiği insanlar ile onları saptıran azgın güçler, aynı yere konmuş iki addan ibaret kalmaz; toplama önünde aralarındaki bağ da teşhir edilir. Bu bağlantı bütün insanları şeytan adıyla yeniden adlandırmayı veya ilişkinin nedensel işbirliği ile yargı önündeki ortak bulunmadan hangisi olduğunu belirlemeyi gerektirmez. Hedef ayetin morfolojik ayrıntıları bu karşılaştırmalı sahnelerde yeniden kurulmadığı için ortaklık görüntüsü nitelikli bir bağlamsal genişleme olarak kalır; ayetin açık birlikte toplama anlamı yerinde durur.
+
+{ar:حَوْلَ, tr:havle, gloss:çevresinde} kelimesi, çevre anlamını koruyarak işlevsel bir sınır gibi de duyulabilir. 8:24'teki {ar:يَحُولُ بَيْنَ الْمَرْءِ وَقَلْبِهِ, tr:yehûlü beyne'l-mer'i ve kalbihi, gloss:kişinin kalbiyle arasına girer} ifadesi iki tarafın arasına giren ve onları ayıran ilişkiyi, ardından Allah'a toplanmayla birlikte gösterir (8:24). Bu temas, Cehennem çevresine topluluğu belirli bir merkeze göre yerleştiren ve merkezden ayırarak orada tutan işlevsel eşik katkısını verir. Böylece çevredeki bedenler yalnızca yakında duran bir kalabalık değil, hüküm sahnesinin mekânsal ve işlevsel sınırında tutulmuş bir topluluk olarak görünür. 9:101'de aynı çevre ilişkisi dünyevî bir yakınlık bildirerek karşı-kenar oluşturur ve {ar:حَوْلَ, tr:havle, gloss:çevresinde} kelimesinin bu bağlantıya özgü işlevini sınırlar. Buradaki Cehennem bağlantısı fiziksel duvarı, kaçışın ayrıca engellenmesini veya mutlak kapanmayı değil, çevre konumunun daha işlevsel biçimde duyulmasını kurar.
+
+## Huzurda Ayırma
+
+Ortak varışın ardından sahne, bilen bir otoritenin önünde ayırt etme ve bağlayıcı karar için hazır bekleyen kamusal bir topluluk gibi de okunabilir. {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} bedensel duruşu, sonraki hüküm sahnesinde kalan {ar:ٱلظَّٰلِمِينَ, tr:ez-zâlimîn, gloss:zulmedenler} tarafıyla temas ettiğinde karar önündeki görünür yerleşimi duyurur (19:69). {ar:لَنُحْضِرَنَّهُمْ, tr:lenuhdirennehum, gloss:onları mutlaka hazır ederiz} otoritenin önünde zorunlu hazır bulunma katkısını taşırken, {ar:أَعْلَمُ, tr:a'lemu, gloss:daha iyi bilirim} tarafları ve sorumluluk derecelerini bilen, sonraki işleme uygun olanları ayırt eden yetkiyi açar (19:70). {ar:حَتْمًا, tr:hatmen, gloss:kesinleşmiş olarak} bağlayıcı hükmün kesinliğini, {ar:مَّقْضِيًّا, tr:makdiyyen, gloss:karara bağlanmış} ise karara bağlanmış sonucu taşır (19:71). Sonraki {ar:نَنزِعَنَّ, tr:nanzi'anne, gloss:mutlaka çekip çıkaracağız} fiili, ortak diz çökmüş topluluğun içinden belirli bir kesimin seçilerek ayrılabileceği hareketi verir (19:69). Bu katkılar huzura getirilmeyi hükmün ilanı için kurulmuş bir arka plandan çok, seçen ve karar veren bir işlemin eşiği olarak birleştirir. Bu bağ, insan mahkemesi, sözlü tanıklık veya insan hâkimi kurmadan ayetin ilahî hüküm sahnesini görünürleştirir.
+
+Bu ayırma ihtimali çevreyi durağan bir yakınlık olmaktan çıkarıp işlemlerin yürüdüğü sınırlı bir alan olarak açar. {ar:وَارِدُهَا, tr:variduhâ, gloss:ona varanlar} ortak alana girişi, {ar:شِيعَةٍ, tr:şîatin, gloss:bir topluluk} işlenen grup birimini, {ar:نَنزِعَنَّ, tr:nanzi'anne, gloss:mutlaka çekip çıkaracağız} ise toplulukların içinden seçici çekmeyi taşır (19:69, 19:71). {ar:نُنَجِّي, tr:nüneccî, gloss:kurtarırız} güvenliğe ayrılarak kurtarılma yönünü, {ar:نَذَرُ, tr:nezeru, gloss:bırakırız} çekme ve kurtarmadan sonra geride tutulan kalanı bildirir (19:72, 19:76). Bu katkılar aynı ortak alanda giriş ve çıkış yönlerini birlikte görünür kılar: getirilenler ortaya çıkar, bir kesim ayrılır, bir kesim kurtarılır ve diz çökmüş kalanlar açıkta kalır. {ar:حَوْلَ, tr:havle, gloss:çevresinde} bu işlemlerin uygulandığı çevreyi, {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} ise işlemler sonrasında görünen kalanı bedensel olarak sabitler. Bu okumanın merkezi Cehennem, getirilenleri de ayetin insanları ve şeytanlarıdır; ayıklama sınırı yakın bağlamdan doğan bir sentez olarak kalır.
+
+Diz çökmüş ve hazır edilmiş topluluk, önceki üstünlük iddialarının sonunda herkesin görebileceği bir rütbe dönüşümü olarak da belirir. İbadetten kaçınan ve büyüklük taslayanların sonunda Allah'a topluca getirilmesi (4:172) toplu getiriliş katkısını, her topluluğun kendi kaydı önünde diz çökmüş hâlde çağrılması (45:28) ise görünür bedensel yerleşim katkısını verir. Zorunlu hazır edilme (37:127) ile Rabbin önünde saf hâlinde sunulma (18:48), {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} kelimesindeki kamusal ve paylaşılan alçalışı daha da belirginleştirir. Yakın ifadelerdeki statü dili bu dönüşümün hangi üstünlüklerin tersine çevrildiğini gösterir: {ar:مَكَانًا, tr:mekânen, gloss:yer/makam} ve {ar:مَقَامًا, tr:makâmen, gloss:makam/konak} üstün yer iddiasını, {ar:نَدِيًّا, tr:nediyyen, gloss:toplantı/meclis} kamusal meclisi, {ar:أَثَاثًا, tr:esâsen, gloss:eşya ve maddi donanım} maddi güvenliği, {ar:رِءْيًا, tr:ri'yen, gloss:görünüş ve gösteriş} dış itibarı taşır (19:73, 19:74 ve 19:75). {ar:أَضْعَفُ, tr:ed'af, gloss:daha zayıf} ile {ar:جُندًا, tr:cünden, gloss:ordu/destek gücü} de iddia edilen destek ve gücün zayıflığını açığa çıkarır. Bunların karşısında {ar:لَنُحْضِرَنَّهُمْ, tr:lenuhdirennehum, gloss:onları mutlaka hazır ederiz} ile herkesçe görünür kılınan, {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} ile bedensel olarak düşürülmüş bir topluluk bulunur. Önceki itibar, meclis, eşya ve destek dili böylece kamusal olarak görülen beden hâliyle tersine çevrilir. Bu tersine dönüş, temel Cehennem çevresi sahnesini koruyan bağlamsal bir okumadır; metin burada tören, küçük bir savaş birliği veya literal bir insan meclisi kurmaz.
+
+Yemin edilen Rab unvanı, emir ve unutulmama vurgusuyla her yere ve her özneye ulaşan kapsamlı bir yürütme güvencesi gibi de duyulur. Emredilmiş yürütmeyi bildiren {ar:بِأَمْرِ رَبِّكَ, tr:bi-emri rabbik, gloss:Rabbinin emriyle} ifadesi, odaktaki {ar:رَبِّكَ, tr:rabbike, gloss:senin Rabbin} yemin nesnesine emir ve yürütme boyutu ekler (19:64). Aynı bağlamda önü, arkası ve arasıyla bütünlenen uzam ile unutmanın kaldırılması, {ar:نَسِيًّا, tr:nesiyyen, gloss:unutulmuş} kelimesinin olumsuzlanması üzerinden hiçbir konumun ve hiçbir öznenin işlem dışında bırakılmadığı hissini verir (19:64). Böylece iki vurgulu gelecek fiili tek tek kişileri unutulmuş artıklar hâlinde bırakmayan kapsamlı bir icra düzeni gibi algılanabilir. Bu okuma, ayetin açık insan ve şeytan öznelerini, Rabbe ait yeminli toplama anlamını ve iki aşamalı hareketi korur; 19:64 bağlantısı bunlara yeni bir nesne listesi eklemez.
+
+## Yeniden Kurulan Topluluk
+
+Toplama ve hazır etme eylemleri, önceki ölüm ve yeniden çıkarılma sorusuyla birlikte okunduğunda, görünür huzura gelmeden önce bir yeniden kuruluş aşaması da düşündürür. “Öleceğim de çıkarılacak mıyım?” sorusu ölüm durumunu ve içeriden dışarı çıkarılma beklentisini taşır (19:66). {ar:مِتُّ, tr:mittü, gloss:öldüm} yaşamın sona ermesini, {ar:أُخْرَجُ, tr:uhracu, gloss:çıkarılıyorum} içeriden dışarı çıkarılmayı, {ar:خَلَقْنَاهُ, tr:halaknâhu, gloss:onu yarattık} önceki var edilişi, {ar:شَيْئًا, tr:şey'en, gloss:bir şey} ise henüz bir şey olmama noktasını gösterir (19:66, 19:67). Bu sözler {ar:لَنَحْشُرَنَّهُمْ, tr:lenehşurennehum, gloss:onları mutlaka toplayacağız} ve {ar:لَنُحْضِرَنَّهُمْ, tr:lenuhdirennehum, gloss:onları mutlaka hazır edeceğiz} ile temas ettiğinde önce yeniden toplanabilir hâle gelme, sonra görünür huzura çıkarılma sırası hissedilir. Bu ilişki toplama fiilinin anlamını yaratma fiiline taşımadan, önceki sorunun açtığı imkân alanına bağlamsal bir süreç görüntüsü ekler; yeminli toplama ve hazır etme vaadi yerinde kalır.
+
+İnsanların şeytanlarla birlikte toplanması, daha önceki bir yönelimin görünür hizalanması olarak da düşünülebilir. Takip ilişkisi, yön verici arzular ve sapmaya doğru birleşen yön (19:59), {ar:وَالشَّيَاطِينَ, tr:ve'ş-şeyâtîne, gloss:ve şeytanları} ile temas ettiğinde odaktaki iki grubun, insanın önceki takibinin ve onu saptıran failin aynı hüküm alanında görünür olduğu bir karşılaşma gibi hissedilmesini sağlar. Bu bağlamı taşıyan kelimeler {ar:ٱتَّبَعُوا۟, tr:ittebeû, gloss:uydular/takip ettiler}, {ar:ٱلشَّهَوَاتِ, tr:eş-şehavât, gloss:arzular} ve {ar:غَيًّا, tr:ğayyen, gloss:sapma}dır (19:59). {ar:لَنَحْشُرَنَّهُمْ, tr:lenehşurennehum, gloss:onları mutlaka toplayacağız} bu önceki yönü sonradan kamusal kılar. Bu temas, ayetin açık birlikte bulunma anlamına nitelikli bir bağlamsal hizalanma görüntüsü ekler; tam bir nedensel tarih kurmaz ve bütün insanları şeytan sınıfına katmaz.
+
+## Gerilim ve Ayrılma
+
+Seçme noktasına yaklaşan sahne, iki ayrı ve deneysel maddi görüntü açar: biri ayrılma anındaki gerilimi, diğeri bağlı mesafe geometrisini taşır. İlki, ayrılma anında gerilmiş bir yaydır. {ar:وَالشَّيَاطِينَ, tr:ve'ş-şeyâtîne, gloss:ve şeytanları} için açılan uzun ve sıkı bükülmüş ip imgesi, aralıkları adlandıran {ar:بَيْنَ, tr:beyne, gloss:arasında} tekrarlarıyla ve ağaç-kabuk malzemesine değen {ar:سَلَامًا, tr:selâmen, gloss:barış ve esenlik} ile temas eder (19:62, 19:65). {ar:نَنزِعَنَّ, tr:nanzi'anne, gloss:mutlaka çekip çıkaracağız} seçilen unsurun çekilmesine, {ar:نُنَجِّي, tr:nüneccî, gloss:kurtarırız} sıyırıp ayırarak kurtarılmasına katkı verir (19:69, 19:72). {ar:نُورِثُ, tr:nûrisu, gloss:miras bırakırız} olağan miras anlamını korurken ateş çevresinde kuvvetin tutulup yoğunlaşması gibi bir malzeme hazırlığına dokunur (19:63). Bu katkılar birlikte, çevrede tutulan toplulukta gerilimin birikmesini ve sonraki çekip çıkarma ile gerilimin boşaldığı ayrılma noktasını görünür kılar. Yay, Cehennem çevresindeki insan ve şeytan topluluğunun yerini alan bir sahne değil, bu bağlantıda bağlamın açtığı sınırlı bir süreç imgesidir.
+
+Yay görüntüsünün ayrılma çizgisini belirginleştiren ayrıntılar da ayrı katkılar sunar. {ar:بَيْنَ, tr:beyne, gloss:arasında} tekrarları kalanla giden arasına görünür bir çizgi çeker, {ar:بَيِّنَاتٍ, tr:beyyinâtin, gloss:açık ve belirgin işaretler} ayrımı belirginleştirir (19:62, 19:73). {ar:نَنزِعَنَّ, tr:nanzi'anne, gloss:mutlaka çekip çıkaracağız} gerilmiş çizgiden seçilen unsuru çeker; {ar:نُنَجِّي, tr:nüneccî, gloss:kurtarırız} hazırlanmış unsurun çevrelenmiş alandan sıyrılıp ayrılmasını mümkün kılar (19:69, 19:72). {ar:سَلَامًا, tr:selâmen, gloss:barış ve esenlik} kendi barış ve esenlik anlamını koruyarak malzeme hazırlığına değen ikincil teması açar. {ar:نُورِثُ, tr:nûrisu, gloss:miras bırakırız} da miras bırakma anlamını koruyarak ateş merkezi çevresinde kuvvetin tutulup yoğunlaşması hissini destekler (19:63). Emir ve uzamsal bütünlük duygusu, bu kuvvetin dağınık değil düzenlenmiş bir alanda tutulmasına katkı verir (19:64). Bu özel yay bağlantısında fiziksel bir silah, etimolojik bir zorunluluk veya bütün kelimeleri tek bir nesneye dönüştüren bir sahne kurulmaz; odaktaki toplama, çevrede tutma ve seçerek ayırma anlamları önde kalır.
+
+Yay görüntüsünden bağımsız ikinci deneysel görüntü, bağlı bir mesafe geometrisidir. {ar:لَنَحْشُرَنَّهُمْ, tr:lenehşurennehum, gloss:onları mutlaka toplayacağız} dağınık uzaklığı tek sahneye doğru sıkıştırır; {ar:حَوْلَ, tr:havle, gloss:çevresinde} bu sıkıştırılmış alanın sınırını verir; {ar:وَالشَّيَاطِينَ, tr:ve'ş-şeyâtîne, gloss:ve şeytanları} ise uzun ip ve bağlanma imgesini bu geometriye taşır. Ardından {ar:نَنزِعَنَّ, tr:nanzi'anne, gloss:mutlaka çekip çıkaracağız} çevrelenmiş alanın içinden seçici bir çekiş ekler (19:69). Bu katkılar, uzak veya ayrı olanın seçilmeden önce gerilim altında tutulmuş gibi görünmesini sağlar; çevre dili de durağan bir konumdan denetlenen bir mesafeye doğru genişler. Bu özel görüntü şeytanların olağan sınıf gönderimini, toplamanın olağan anlamını ve Cehennem çevresindeki temel sahneyi korur; uzun ip ve bağlılık burada bağlamsal bir uzamsal görüntü olarak iş görür.
+
+Seçme ve geride bırakma hareketi, bu iki gerilim görüntüsünden ayrı olarak, işlemden sonra kalan bir tarla izlenimi de doğurabilir. {ar:ٱلْبَاقِيَاتُ, tr:el-bâḳiyât, gloss:geride kalanlar} son bağlamda kalan şeyi adlandırır; {ar:نَنزِعَنَّ, tr:nanzi'anne, gloss:mutlaka çekip çıkaracağız} içinden seçerek çekmeyi, {ar:نَذَرُ, tr:nezeru, gloss:bırakırız} ise işlemden sonra kalanı bırakmayı taşır (19:76). Bu üç katkı {ar:نَحْشُرَنَّهُمْ, tr:nehşurennehum, gloss:onları toplarız} ile birleştiğinde, toplanmış alanın içinden unsurların çekildiği ve ardında sıkı bir artık görünür kaldığı hissini verir; {ar:جِثِيًّا, tr:cissiyyen, gloss:diz çökmüş hâlde} bu art-görüntünün bedenleşmiş yüzü olur. Topluluktan çekme (19:69), kurtarılanlarla kalanların ayrılması (19:72) ve geride kalanların adlandırılması (19:76) bu sürecin sırasıyla çekme, ayırma ve artık görüntüsünü besler. Bu açıkça deneysel ve geçici bir imgedir. Bu bağlantıda insanlar bitkiye, diz çökmüş topluluk tarımsal maddeye dönüşmez; hukukî ve toplumsal sahne ile ayetin asli toplama, hazır etme ve diz çökme anlamı korunur.
+
+Bağlı mesafe geometrisinin son hareketi, uzaklığı bağlı tutan bu düzeni dinamik kılar: {ar:نَنزِعَنَّ, tr:nanzi'anne, gloss:mutlaka çekip çıkaracağız} çevrelenmiş alanın içinden seçici bir çekiş getirir (19:69). Böylece uzak veya ayrılmış olan, seçilmeden önce sınırlı bir çekim içinde tutulmuş gibi görünür; Cehennem çevresindeki diz çökmüş topluluk durağan bir dekor olmaktan çıkar ve içinden bir unsurun çekildiği gerilimli bir alana dönüşür. Bu son düzende {ar:وَالشَّيَاطِينَ, tr:ve'ş-şeyâtîne, gloss:ve şeytanları} uzun ip ve bağlanma imgesini, {ar:نَحْشُرَنَّهُمْ, tr:nehşurennehum, gloss:onları toplarız} dağınık mesafeyi tek sahneye sıkıştırmayı, {ar:حَوْلَ, tr:havle, gloss:çevresinde} ise sınırlandırıcı kenarı taşır. Olağan şeytan gönderimi, zorunlu toplama ve Cehennem çevresindeki temel sahne korunur; sonraki çekip çıkarma, bu bağlı alanın içinden hareket kazanan noktayı görünür kılar. Bu son bağ, uzun ipi ve bağlılığı bu uzamsal görüntüyle sınırlı tutar.
+
+</editorial_prose>

@@ -6,7 +6,9 @@ scope prose, invitations, networks, previous surah outputs, or remembered
 interpretations may supply content. The editorials remain the authority when
 checking the outline. If an outline claim exceeds them, report the conflict
 in friction; do not silently strengthen it or invent support. Do not read
-other files or change the outline's admitted movements.
+other files or change the outline's admitted movements. Do not spawn, launch,
+or delegate to subagents; perform this composition task yourself in this same
+agent session.
 
 Write one reader-facing Markdown prose file in the requested language. It
 contains the prelude and postlude as prose surfaces, not a JSON envelope and

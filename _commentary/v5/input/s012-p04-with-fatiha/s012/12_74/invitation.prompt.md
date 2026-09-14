@@ -1,0 +1,167 @@
+# V5 reading invitation — 12:74
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p04-with-fatiha/s012/12_74/12_74.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p04-with-fatiha/s012/12_74/12_74.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sorunun Kurduğu Eşik
+
+Âyet, görevlilerin konuşmasını aktarır: {ar:قَالُوا۟, tr:qālū, gloss:dediler} ile açılan söz, çoğul bir topluluğun tamamlanmış ve karşı tarafa yönelmiş cevabını taşır. Ardından gelen ifade bu grubun herkesin önünde kurduğu tek bir söz olarak duyulur: “Yalan söylüyorsanız bunun karşılığı nedir?” Qālū böylece yalnızca bir anlatıcı fiili olarak kalmaz; konuşmayı, karşı tarafın cevap vermesini gerektiren bir karşılık talebinin içine alır. Sorunun şartı da alıntının dışında duran bir açıklama değil, aynı meydan okumanın kapanışıdır.
+
+Bu sözün hareketi önceki savunmadan doğar. {ar:فَ, tr:fa, gloss:bunun üzerine} 12:73'teki hırsızlık inkârını 12:74'teki sorunun nedeni hâline getirir; qālūnun bir mesele üzerinde iki tarafın sözle karşılık verdiği müzakere yönü, 12:73'teki savunma ile 12:75'teki cevap arasındaki dönüşte belirginleşir. Fa'nın {ar:مَا, tr:mā, gloss:ne} kelimesine bitişmesi geçişi hızlandırır: ağır karşılığın adı söylenmeden cümle yeniden soruya döner. Öne alınan mā burada olumsuzluk değil, doğrudan “ne?” sorusudur; cümle önce bilinmeyeni açar, ardından {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:onun karşılığı veya cezası} ile onun hukukî adını sorunun nesnesi hâline getirir. Başlangıçtaki qālūnun açılan sesi, sonradan gelen {ar:كَٰذِبِينَ, tr:kādhibīna, gloss:yalancılar} kelimesinin sert kapanışına doğru ilerler; söz böylece doğruluk sınavıyla çevrelenmiş canlı bir alışverişe dönüşür.
+
+Sorunun yükünü taşıyan {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:onun karşılığı veya cezası} iki katkıyı aynı anda görünür kılar: yapılan eyleme niteliğine uygun bir iyilik veya kötülükle karşılık verilmesi ve bir borcun yerini tutarak yükümlülüğü karşılayacak şey. {ar:إِنْ, tr:in, gloss:eğer} ile {ar:كَٰذِبِينَ, tr:kādhibīna, gloss:yalancılar} şartı devreye girdiğinde geniş karşılık alanı yerel olarak cezaya yönelir; ölçülülük ve denk düşme basıncı da bu ceza sorusunun içinde kalır. Kelimenin eylemin adını taşıyan biçimi, karşılık verme işini sorulabilir bir hukukî nesneye dönüştürür. Sonundaki ḥu zamiri daha önce kurulmuş hırsızlık suçlamasına döner; ayet suçu yeniden adlandırmadan onun karşılığını sorar. Jazāʾuhu'nun uzun sesi ve hemzesi kısa soruyu bu hukukî ad üzerinde yoğunlaştırır; 12:75'te aynı karşılık sözünün yinelenmesi, burada açık bırakılan soruyu sonraki cevaba bağlar.
+
+Şart cümlesi bu açık sonucun hangi durumda işletileceğini belirler. {ar:إِنْ, tr:in, gloss:eğer} mantıksal bir koşulu konuşma içinde pratik bir meydan okumaya dönüştürür. {ar:كُنتُمْ, tr:kuntum, gloss:iseniz veya bulunuyorsanız} muhatapların belirli bir durumda bulunup bulunmadığını sınar; sonundaki -tum eki sınamayı tek bir kişiye değil, karşıdaki grubun tamamına yöneltir. Geçmiş biçimin şart içindeki kullanımı, tek bir gelecekteki yalan eyleminden çok, şart gerçekleştiğinde sabitlenmiş bir hâli sınar. Kuntum'un sonlu fiil oluşu, {ar:كَٰذِبِينَ, tr:kādhibīna, gloss:yalancılar} kelimesini kurulmuş bir yüklem yapar. Eril çoğul ve mansup biçim doğrudan çoğul muhataplara uyar; etkin ortaç oluşu, tek bir yalan olayını bildirmek yerine koşul gerçekleştiğinde onları “yalancılar” sınıfına yerleştirir. Kādhibīna'nın uzun son hecesi qālūnun açtığı sözle ses bakımından buluşur ve doğruluk hükmünü cümlenin sonuna bırakır.
+
+Bu birleşim, belirli bir cezayı önceden adlandırmadan inkâr doğru çıkmazsa doldurulacak bir sonuç yeri açar. {ar:قَالُوا۟, tr:qālū, gloss:dediler} gerçek olmayan bir sözü söyleme veya başkasına isnat etme yönünü de duyurduğunda, bağımsız temas noktası olan kādhibīna konuşmayı bir yalancılık sınıflandırması yapan söz eylemine çevirir. Jazāʾuhu bu sınıflandırmayı uygulanacak sonuca bağlar; soru karşı tarafa hem cevap verme hem de kendi sözlerinin doğruluk statüsüyle yüzleşme baskısı yöneltir. Buradaki ortak kuruculuk okuması bu konuşma usulünün kapsamındadır: tarafların aynı gizli niyeti ve evrensel bir hukuk kodu bu bağlantının konusu değildir. Görünür hâle gelen şey, hangi karşılığın yürürlüğe gireceğini muhatapların ağzından duyma biçimidir.
+
+Jazāʾuhu'nun ikinci katkısı, bir şeyin ya da kişinin başkasının yerine geçip bir yükümlülüğü karşılaması ihtimalini açmasıdır. {ar:مَا, tr:mā, gloss:ne} sorusunun bıraktığı açıklık bu ihtimali konuşmaya sokar; qālūnun müzakere yönü, ikameyi veya tatmini iki tarafın üzerinde görüşeceği bir nesne gibi kurar. Bu okuma, ceza sorusunun içinde bir genişleme olarak kalır ve belirli bir ikame, feragat ya da anlaşma biçimine dönüşmez. Yalancılık şartı, ihtimali tartışmalı bir isnadın karşılığı olarak sınırlar. Böylece ayetin olağan “yalan söylüyorsanız bunun cezası nedir?” anlamı elde kalırken, kimin bir sözü yanlış diye adlandırdığı ve bu adlandırmanın hangi sonucu talep ettiği soruları da aynı kısa cümlede canlı kalır.
+
+## Karşılığın Cevaba Açılması
+
+Sorunun açık bıraktığı yer 12:75'teki cevapla birlikte somut bir taşıyıcıya doğru genişler. Bu cevapta her ayrıntı karşılığın başka bir yönünü görünür kılar: {ar:وُجِدَ, tr:vücide, gloss:bulundu} fiili bulunan şeyi sorumluluğun seçildiği noktaya getirir; {ar:رَحْلِهِ, tr:raḥlihi, gloss:devesinin eyeri veya taşıma yükü} eşya ile onu taşıyan kişiyi aynı yük düzeninde buluşturur; {ar:ظَّٰلِمِينَ, tr:zâlimîn, gloss:haksızlık edenler} ise bu bulunuşun alıkoyma ve hakkı tutma sonucunu öne çıkarır. Bu hareketin taşıyıcısı olan {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:onun karşılığı veya cezası} yapılan eyleme verilecek karşılık anlamını korur. 12:70'te kabın kardeşin yüküne yerleştirilmesi sahneyi kurar, 12:71'de kayıp nesnenin aranması hareketi başlatır, 12:72'de kayıp kapla deve yükü ve kefalet maddi karşılık alanını oluşturur, 12:73'teki hırsızlık inkârı soruyu gerer, 12:75'te bulunan kişi karşılık konumuna gelir. 12:76'da aramanın bulunmayla sona ermesi ve kardeşin alınması, bu karşılığın uygulanmış görünümünü verir.
+
+Bu cevaba giden yol, kuralın nasıl kurulduğunu da açar. {ar:قَالُوا۟, tr:qālū, gloss:dediler} ile başlayan müzakere, uygulanabilir karşılığın muhatapların kendi sözlerinde biçimlenmesini sağlar. Jazāʾuhu 12:75'te tekrarlanan karşılık söyleyişiyle hukukî bir yuva kazanır. 12:66'daki {ar:مَوْثِقًا, tr:mawthiqan, gloss:bağlayıcı güvence} önceki sözün tutulabilir bir yükümlülük olduğunu hatırlatır; 12:67'deki {ar:حُكْمُ, tr:ḥukm, gloss:hüküm veya karar} kararın ve hükmün kime ait olduğu sorusunu açar. 12:69'daki yakın karşılaşma, 12:70'teki yerleştirme ve ilan, 12:73'teki inkâr, 12:75'te cevabın söylenmesi ve 12:76'da sonucun uygulanması, konuşmanın bu kuralı nasıl taşıdığını gösterir. 12:76'daki {ar:كِدْنَا, tr:keydnâ, gloss:bir düzenek kurduk} olayın düzenlenmiş yolunu açığa çıkarır; {ar:يَأْخُذَ, tr:ye'huzu, gloss:almak veya yakalamak} fiili kuralın bir kişiyi alıkoyan sonuca vardığını, {ar:دِينِ, tr:dîn, gloss:uygulanan düzen veya hukuk} ise bu almanın hangi hüküm üzerinden mümkün kılındığını sınırlar. Babanın 12:67'de giriş yollarını ayırması, bu okumanın kapsamını insan tedbiriyle sınırlı tutar; burada belirginleşen şey belirli olayın usulüdür.
+
+Bu usul, daha önce kurulmuş bir değişim ve güvence alanının içinde işler. {ar:مَوْثِقَهُمْ, tr:mevsika'hum, gloss:onların güvencesi} 12:66'da verilen sözün bağlayıcı bir borca dönüşmesini taşır; {ar:حِمْلُ بَعِيرٍ, tr:himlu baîr, gloss:bir deve yükü} 12:72'de geri getirme karşılığını ölçülebilir bir yükle donatır, {ar:زَعِيمٌ, tr:zaîm, gloss:güvence veren} ise bu yükü kişisel teminatla destekler. 12:72'deki teklif 12:73'teki yeminli inkârla karşılaşınca, 12:74'teki soru bu alışverişin öteki tarafına yönelen yükümlülüğü sorar. 12:75'te cevabı verenlerin kendi sözleriyle karşılık kuralını kurmaları, teklif, güvence ve cevap zincirinin bağlayıcı sonucunu görünür kılar.
+
+Kuralın ardından kanıtın nasıl görünür hâle getirildiği sorusu belirir ve her hareket bu görüntüye ayrı bir katkı yapar. 12:62'de yolculuk için yüklenen eşya, nesnenin taşıma düzenine yerleştiği başlangıcı verir; 12:65'teki {ar:رُدَّتْ, tr:rudded, gloss:geri verildi} ilk yerleştirme-bulma döngüsünü kapatır. 12:70'te {ar:جَعَلَ, tr:ceale, gloss:bir şeyi bir duruma getirmek} taşıyıcısının düzenlediği yerleştirme ve ilan, nesneyi toplumsal bir isnadın içine sokar. {ar:رِحَالِهِمْ, tr:rihâlihim, gloss:yol yükleri} ile {ar:رَحْلِ أَخِيهِ, tr:raḥli ehîhi, gloss:kardeşinin semeri} aynı taşıma düzenini önce genel, sonra belirli bir kardeşin yükü üzerinde tekrarlar; böylece sorumluluk genel bir grubun yükünden belirli bir kişiye doğru daralır. 12:75'te {ar:وُجِدَ, tr:vücide, gloss:bulundu} bu diziyi bulunan kişiyle sonuçlandırır. 12:76'da {ar:أَوْعِيَتِهِمْ, tr:ev'iyetihim, gloss:kapları} içinden {ar:ٱسْتَخْرَجَ, tr:istehrace, gloss:çıkarıp ortaya getirdi} hareketi kapalı olanı dışarı alır ve gizlenmiş yerleştirmeyi kamuya açık kanıta çevirir. Bu ardışıklık, nesnenin yükte bulunması ile kişinin eylemini görünüşte aynı hatta bindirerek sorumluluğu kontrollü bir bulunuş hâline bağlar.
+
+Bu düzenek, son kelimedeki yalancılık hükmüne iki ayrı katkı ekler: bilgi farkı, etiketin kimin bilgisiyle kurulduğunu; yerleştirme ve ilan ise kanıtın nasıl kamusal hâle geldiğini gösterir. {ar:كَٰذِبِينَ, tr:kādhibīna, gloss:yalancılar} 12:74'te olağan anlamıyla sözün yanlış çıkması hâlinde uygulanacak karşılığı sorar. 12:58'de {ar:عَرَفَ, tr:arafe, gloss:tanıdı} ile {ar:مُنكِرُونَ, tr:munkirûn, gloss:tanımayanlar} arasındaki asimetri, konuşmanın eşit bilgi içinden çıkmadığını gösterir. 12:70'te {ar:أَذَّنَ, tr:ezzene, gloss:ilan etti} ve {ar:مُؤَذِّنٌ, tr:mü'ezzin, gloss:ilan eden} kamusal duyuruyu kurar; özel olarak yerleştirilen kap, ilan yoluyla herkesin önünde suç delili gibi dolaşıma sokulur. {ar:سَٰرِقُونَ, tr:sârikûn, gloss:hırsızlar} ve ardından {ar:سَٰرِقِينَ, tr:sârikîn, gloss:hırsızlar} aynı gruba yönelen isnadı iki kez sabitler. 12:73'teki inkâr bu etiketin hemen önündeki karşı sestir; {ar:عَلِمْتُم, tr:alimtum, gloss:bildiğinizi} sözü, suçlamanın karşı tarafın bildiği bir şey üzerine kurulduğunu geri çağırır. 12:76'daki {ar:كِدْنَا, tr:keydnâ, gloss:bir düzenek kurduk} ifadesi, buluşun asimetrik biçimde yönetilmiş bir süreç olarak da okunabileceğini açar. Bu bağlantı olağan usul sorusunu taşımaya devam eder; ek katkısı “yalancılar” hükmünün üretildiği bilgi ve isnat düzenini görünür kılmasıdır, kimin haklı olduğunu sonuçlandırmak değil.
+
+Bu noktada karşılık, soyut bir bedelden bir insana geçer ve her kelime bu geçişin bir adımını taşır. Jazāʾuhu'nun yerini tutma yönü 12:75'teki “kim bulunursa” yapısıyla buluşarak “hangi ceza?” sorusunu “hangi insan bu karşılığın taşıyıcısı olacak?” sorusuna genişletir. {ar:وُجِدَ, tr:vücide, gloss:bulundu} kişiyi seçer; {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:karşılığı} seçilen kişiyi karşılık konumuna yerleştirir. 12:76'daki {ar:أَخِي, tr:ahî, gloss:kardeşim} ve {ar:أَخَاهُ, tr:ahâhu, gloss:kardeşini} bu taşıyıcının soyut bir bedel değil, kardeşlik bağı içindeki bir insan olduğunu belirginleştirir. {ar:يَأْخُذَ, tr:ye'huzu, gloss:almak veya yakalamak} onun gerçekten alınmasını, {ar:دِينِ, tr:dîn, gloss:uygulanan düzen veya hukuk} ise bu almanın bir kural içinde gerçekleşmesini taşır. Böylece ceza ve karşılık anlamı korunurken kaybın yerine bir insanın konması ve o insanın alıkonulması aynı sonuç sahnesinde birleşir.
+
+İnsan taşıyıcı görüntüsü 12:76'daki maddi hareketlerle bir ayırma görüntüsüne dönüşür. {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:karşılığı} burada doğrudan “kesmek” diye çevrilmez; kesme görüntüsü, 12:76'nın çıkarma, kardeşlik ve alma sahnesine özgü bir benzetme olarak karşılık anlamına eklenir. {ar:ٱسْتَخْرَجَ, tr:istehrace, gloss:çıkarıp ortaya getirdi} gizli olanı dışarı alarak ayrılmanın ilk hareketini verir. {ar:أَخِي, tr:ahî, gloss:kardeşim} ve {ar:أَخَاهُ, tr:ahâhu, gloss:kardeşini} kişinin içinden seçildiği kardeşlik topluluğunu kurar; {ar:يَأْخُذَ, tr:ye'huzu, gloss:almak veya yakalamak} bu ayrılmayı tamamlar. Cezanın uygulanışı böylece yol alan kardeşler topluluğundan bir kişinin çıkarılıp alınması olarak somutlaşır; görüntünün katkısı, karşılık sorusunun nasıl uygulanabileceğini göstermesidir.
+
+Karşılığın maddi ölçüsü de aynı sahnede belirir ve her nesne değişim alanını biraz daha belirginleştirir. {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:karşılığı veya cezası} kelimesinin yerini tutup yükümlülüğü karşılama yönü, 12:59'daki {ar:كَيْلَ, tr:keyl, gloss:ölçü} ile iki ölçülen şeyi karşılaştıran ölçeği kurar. 12:72'deki {ar:صُوَاعَ, tr:suvâ, gloss:kralın ölçü kabı} kaybın somut nesnesini, {ar:حِمْلُ بَعِيرٍ, tr:himlu baîr, gloss:bir deve yükü} ise karşılığın ikinci maddi birimini verir. 12:75'te bulunan insan bu sıraya eklendiğinde kayıp kap, ölçü, deve yükü ve insan taşıyıcı art arda görünen duraklar hâline gelir. Bu bağlantı insanı bir ticaret birimi olarak tanımlamaz; ölçülebilir kaybın karşısına konan karşılığın maddeden kişiye nasıl somutlaştığını gösterir.
+
+Arama çizgisi, {ar:كَٰذِبِينَ, tr:kādhibīna, gloss:yalancılar} kelimesinin taşıdığı doğruluk sınavını hareket hâline getirir. Kādhibīna olağan anlamıyla yanlış çıkan sözün karşılığını sorar; bu yüzeyde koşup sonra duran, beklenenden önce kesilen bir hareket görüntüsü de duyulabilir. Görüntünün katkısı 12:71'deki {ar:تَفْقِدُونَ, tr:tefkidûn, gloss:aradığınız eksik şeyi soruyorsunuz} ile belirginleşir: kayıp nesne sorusu aramayı başlatır. {ar:كُنتُمْ, tr:kuntum, gloss:iseniz veya bulunuyorsanız} bu süreç boyunca isnat edilen durumda gerçekten bulunulup bulunulmadığını sınar; {ar:وُجِدَ, tr:vücide, gloss:bulundu} aramanın son noktasını verir. Arama bulmada durduğunda, inkârın aynı biçimde sürüp sürmediği geriye dönük olarak sınanır; bu bağlantı “yalancılar” hükmüne, olağan doğruluk anlamını koruyarak, iddianın delil karşısında ayakta kalması gereken eşiği ekler.
+
+Bu soru 12:75'te karşılık kuralının söylenmesine, 12:76'da ise bulunan kişi üzerinde uygulanmasına açılır. {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:karşılığı veya cezası} önce ithamın sonucunu sorar, sonra cevapta dile getirilen ölçüye ve eylemde yürürlüğe giren sonuca bağlanır. Bu menteşe, sorunun arama tamamlanmadan önce neden sorulduğunu görünür kılar: istenen karşılık, sonraki cevabın kuracağı ve sonraki işlemin uygulayacağı sonucu hazırlar. Bağlantı 12:75 ve 12:76'daki iki adımın kapsamındadır; katılımcıların bütün gizli bilgilerini veya her durum için geçerli bir ceza yasasını açıklama iddiası taşımaz.
+
+12:92'deki buluş, önceki azarın sürdürülmek yerine kesilmesiyle karşılık çizgisine başka bir sonuç biçimi ekler. {ar:جَزَاؤُهُ, tr:jazāʾuhu, gloss:karşılığı veya cezası} kelimesinin denk karşılık gücü burada korunur; fakat bu ayrı bağlam, yaptırımın bütün anlatıya yayılan tek sonuç olmadığını görünür kılar. 12:74'te soru yaptırımın ağırlığını kurarken, 12:92'deki bağışlayıcı buluş dönüşü karşılıklı acının tekrarıyla ölçmez. Bu karşıtlık 12:74 ile 12:92 arasındaki sahnelerle sınırlıdır; 12:92'yi bütün anlaşmazlıklar için genel bir salıverme kuralına çevirmeden, önceki suçlamayı sürdürmek yerine birleşmeye açılan belirli bir dönüş olarak bırakır.
+
+</editorial_prose>
