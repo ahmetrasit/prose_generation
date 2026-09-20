@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare the three hermetic scope prompts for commentary v5."""
+"""Prepare hermetic scope and post-editorial prompts for commentary v5."""
 
 from __future__ import annotations
 
@@ -26,6 +26,7 @@ GUIDANCE_ROOT = V5_ROOT / "guidance"
 INPUT_ROOT = V5_ROOT / "input"
 RAW_ROOT = V5_ROOT / "raw"
 EDITORIAL_ROOT = V5_ROOT / "editorial"
+MIDDLE_ROOT = V5_ROOT / "middle"
 DEFAULT_CONTEXT_BUNDLES_DIR = REPO_ROOT / "bundles"
 LANES = ("micro", "macro", "global")
 LANE_RANK = {lane: index for index, lane in enumerate(LANES)}
@@ -33,6 +34,7 @@ MAX_BATCH_UNITS = 512
 MAX_JSON_BYTES = 128_000_000
 MAX_SCOPE_PROMPT_BYTES = 16_000_000
 MAX_EDITORIAL_PROSE_BYTES = 900_000
+MAX_MIDDLE_PROMPT_BYTES = 1_200_000
 SCOPE_DISCOVERY_SCHEMA_VERSION = "commentary-v5-scope-discovery-v1"
 MARKER_RE = re.compile(r"@@[A-Z0-9_]+@@")
 QURAN_REF_IN_TEXT_RE = re.compile(
@@ -155,6 +157,7 @@ class Layout:
     input: Path
     raw: Path
     editorial: Path
+    middle: Path
 
     def scope_prompt(self, lane: str) -> Path:
         return self.input / f"{lane}.discovery.prompt.md"
@@ -170,6 +173,15 @@ class Layout:
 
     def editorial_prose(self) -> Path:
         return self.editorial / f"{self.stem}.prose.editorial.tr.md"
+
+    def middle_prompt(self) -> Path:
+        return self.input / "middle-layer.prompt.md"
+
+    def middle_prose(self) -> Path:
+        return self.middle / f"{self.stem}.prose.middle.tr.md"
+
+    def middle_ledger(self) -> Path:
+        return self.middle / f"{self.stem}.middle.claims.json"
 
     def invitation_prompt(self) -> Path:
         return self.input / "invitation.prompt.md"
@@ -199,6 +211,7 @@ def layout_for(ayah_ref: str, analysis_id: str = "native") -> Layout:
         input=INPUT_ROOT / analysis_id / folder / stem,
         raw=RAW_ROOT / analysis_id / folder / stem,
         editorial=EDITORIAL_ROOT / analysis_id / folder / stem,
+        middle=MIDDLE_ROOT / analysis_id / folder / stem,
     )
 
 
@@ -2105,6 +2118,69 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
     return prompt
 
 
+def prepare_middle_layer(args: argparse.Namespace) -> dict[str, Any]:
+    """Render the post-editorial middle-layer prompt from final prose alone."""
+    layout = layout_for(args.ayah, _analysis_id(args))
+    editorial_path = layout.editorial_prose()
+    try:
+        editorial_payload = editorial_path.read_bytes()
+    except OSError as exc:
+        raise WorkflowError(
+            f"Cannot read final editorial prose {editorial_path}: {exc}"
+        ) from exc
+    if not editorial_payload:
+        raise WorkflowError(f"Final editorial prose is empty: {editorial_path}")
+    if len(editorial_payload) > MAX_EDITORIAL_PROSE_BYTES:
+        raise WorkflowError(
+            f"Final editorial prose exceeds {MAX_EDITORIAL_PROSE_BYTES} bytes: "
+            f"{editorial_path}"
+        )
+    try:
+        editorial_prose = editorial_payload.decode("utf-8")
+        template = (PROMPTS_ROOT / "middle-layer.md").read_text(encoding="utf-8")
+    except (OSError, UnicodeDecodeError) as exc:
+        raise WorkflowError(f"Cannot prepare middle-layer prompt: {exc}") from exc
+    prompt = _render(
+        template,
+        {
+            "@@AYAH_REF@@": layout.ayah_ref,
+            "@@SOURCE_PROSE_PATH@@": _repo_path(editorial_path),
+            "@@MIDDLE_PROSE_OUTPUT_PATH@@": _repo_path(layout.middle_prose()),
+            "@@MIDDLE_LEDGER_OUTPUT_PATH@@": _repo_path(layout.middle_ledger()),
+            "@@SOURCE_PROSE@@": editorial_prose,
+        },
+        label="middle-layer prompt",
+    )
+    if len(prompt.encode("utf-8")) > MAX_MIDDLE_PROMPT_BYTES:
+        raise WorkflowError(
+            f"Middle-layer prompt exceeds {MAX_MIDDLE_PROMPT_BYTES} bytes"
+        )
+    _assert_confined(layout.middle, MIDDLE_ROOT)
+    layout.middle.mkdir(parents=True, exist_ok=True)
+    _atomic_write(layout.middle_prompt(), prompt.encode("utf-8"), root=INPUT_ROOT)
+    return {
+        "schema_version": "commentary-v5-middle-prepared-v1",
+        "status": "prepared",
+        "analysis_id": layout.analysis_id,
+        "ayah_ref": layout.ayah_ref,
+        "handoff": {
+            "role": "middle_layer",
+            "prompt": str(layout.middle_prompt().resolve(strict=False)),
+            "prose_output": str(layout.middle_prose().resolve(strict=False)),
+            "ledger_output": str(layout.middle_ledger().resolve(strict=False)),
+            "launch": "fresh_agent",
+            "model": "gpt-5.6-luna",
+            "reasoning_effort": "max",
+            "follow_up": (
+                "send _commentary/v5/prompts/"
+                "middle-layer-audit-followup.md verbatim"
+            ),
+            "orchestrator_output_inspection": False,
+        },
+        "generated_files": [str(layout.middle_prompt().resolve(strict=False))],
+    }
+
+
 def prepare_invitation(args: argparse.Namespace) -> dict[str, Any]:
     """Render the post-editorial invitation prompt from the final prose alone."""
     layout = layout_for(args.ayah, _analysis_id(args))
@@ -2323,9 +2399,14 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             "editorial": (
                 "ask that same consolidator for the editorial rewrite, then close"
             ),
+            "middle_layer": (
+                "after editorial completion, run prepare-middle; launch its fresh "
+                "Luna max handoff, then send the fixed middle-layer audit follow-up "
+                "verbatim without inspecting either output"
+            ),
             "invitation": (
-                "after editorial completion, run prepare-invitation and launch its "
-                "fresh Luna max handoff as a monitored invitation stage"
+                "after middle-layer completion, run prepare-invitation and launch "
+                "its fresh Luna max handoff as a monitored invitation stage"
             ),
             "post_launch_gates": [],
         },
@@ -2381,7 +2462,7 @@ def _source_options(parser: argparse.ArgumentParser) -> None:
 
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Prepare three hermetic scope prompts for commentary v5."
+        description="Prepare hermetic scope and post-editorial prompts for commentary v5."
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
     prepare_parser = subparsers.add_parser(
@@ -2424,6 +2505,19 @@ def _parser() -> argparse.ArgumentParser:
         help="Explicit comma-separated external ayat; ranges are not accepted.",
     )
     _source_options(prepare_parser)
+    middle_parser = subparsers.add_parser(
+        "prepare-middle",
+        help="Render fresh-agent middle-layer prompts from completed editorial prose.",
+    )
+    middle_parser.add_argument(
+        "--ayah",
+        action="extend",
+        nargs="+",
+        required=True,
+        metavar="REF_OR_RANGE",
+        help="One or more refs or same-surah ranges; may be repeated.",
+    )
+    middle_parser.add_argument("--analysis-id", default="native")
     invitation_parser = subparsers.add_parser(
         "prepare-invitation",
         help="Render fresh-agent invitation prompts from completed editorial prose.",
@@ -2571,6 +2665,31 @@ def _preflight_qac(args: argparse.Namespace) -> None:
 def main() -> int:
     args = _parser().parse_args()
     try:
+        if args.command == "prepare-middle":
+            refs = _expand_ayah_selectors(args.ayah)
+            units: list[dict[str, Any]] = []
+            errors = 0
+            for ref in refs:
+                try:
+                    units.append(
+                        prepare_middle_layer(
+                            argparse.Namespace(ayah=ref, analysis_id=args.analysis_id)
+                        )
+                    )
+                except (WorkflowError, OSError) as exc:
+                    errors += 1
+                    units.append({"ayah_ref": ref, "status": "error", "error": str(exc)})
+            result = units[0] if len(units) == 1 else {
+                "schema_version": "commentary-v5-middle-prepared-batch-v1",
+                "status": "prepared" if not errors else "error",
+                "units": units,
+                "parallel_handoffs": [
+                    unit["handoff"] | {"ayah_ref": unit["ayah_ref"]}
+                    for unit in units if unit.get("status") == "prepared"
+                ] if not errors else [],
+            }
+            print(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True))
+            return 1 if errors else 0
         if args.command == "prepare-invitation":
             refs = _expand_ayah_selectors(args.ayah)
             units: list[dict[str, Any]] = []

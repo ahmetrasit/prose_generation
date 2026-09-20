@@ -11,6 +11,10 @@ prepare
   -> one consolidator merges the three prose drafts without dropping findings
   -> same consolidator writes the editorial version without reducing coverage
   -> same consolidator validates only editorial prose and repairs up to 2 times
+  -> one fresh Luna max agent writes middle prose plus an atomic claim ledger
+  -> same agent receives the fixed generic audit follow-up verbatim
+  -> orchestrator closes it without inspecting either middle-layer output
+  -> one fresh invitation agent writes the separate reading invitation
 ```
 
 The default agent input contract is the compact early V5 workflow from
@@ -30,9 +34,11 @@ context-morphology registry are not part of newly prepared agent inputs. Source
 data and historical expanded packets remain available in the repository.
 
 There is no V5 state machine after `prepare`: no `advance`, no `verify`, no
-manifest audit, and no hidden session registry. After the three prompts exist,
-orchestration is normal agent management and Git-visible files. Launch V5
-agents with the multiagent spawn tool, not `codex exec`.
+manifest audit, and no hidden session registry. The post-editorial middle-layer
+claim ledger is a required reader-artifact companion, not workflow state. After
+the three prompts exist, orchestration is normal agent management and
+Git-visible files. Launch V5 agents with the multiagent spawn tool, not
+`codex exec`.
 
 ## Basic Command
 
@@ -222,6 +228,27 @@ editorial-prose issue and reruns the validator, with at most two repair/rerun
 cycles. After that, the editorial prose is accepted as-is and any remaining
 validator findings are reported. It does not reopen evidence selection or launch
 another agent.
+
+After the final editorial follow-up, render the required middle-layer prompt:
+
+```bash
+python3 _commentary/v5/workflow.py prepare-middle \
+  --ayah <S:A> \
+  --analysis-id <analysis-id>
+```
+
+Spawn one fresh `gpt-5.6-luna` max agent with only the generated prompt. After
+its first turn, send `_commentary/v5/prompts/middle-layer-audit-followup.md`
+byte for byte as its second and final turn. The orchestrator does not inspect,
+diff, validate, summarize, or customize either middle-layer output. The agent
+runs both validators itself and writes:
+
+```text
+_commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.prose.middle.tr.md
+_commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.middle.claims.json
+```
+
+The invitation remains derived from final editorial prose, not middle prose.
 
 Reader-facing section subtitles are allowed in consolidated and editorial
 prose when they improve readability. They must be marked as level-2 Markdown

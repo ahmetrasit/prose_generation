@@ -118,7 +118,8 @@ class CliSurfaceTests(unittest.TestCase):
             if isinstance(action, argparse._SubParsersAction)
         )
         self.assertEqual(
-            set(subparsers.choices), {"prepare", "prepare-invitation"}
+            set(subparsers.choices),
+            {"prepare", "prepare-middle", "prepare-invitation"},
         )
 
     def test_removed_post_launch_commands_are_rejected(self) -> None:
@@ -230,6 +231,75 @@ class CliSurfaceTests(unittest.TestCase):
         self.assertIn("reference from the editorial prose", template)
         self.assertNotIn("@@MICRO_SCOPE_LEDGER@@", template)
         self.assertNotIn("@@CANONICAL_PROMPT_V2@@", template)
+
+    def test_prepare_middle_embeds_only_final_editorial_prose(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            input_root = root / "input"
+            editorial_root = root / "editorial"
+            middle_root = root / "middle"
+            source = (
+                editorial_root
+                / "trial"
+                / "s001"
+                / "1_5"
+                / "1_5.prose.editorial.tr.md"
+            )
+            source.parent.mkdir(parents=True)
+            source.write_text(
+                "Yolun nasıl işlendiğini açıklayan nihai metin.", encoding="utf-8"
+            )
+            with (
+                patch.object(workflow, "INPUT_ROOT", input_root),
+                patch.object(workflow, "EDITORIAL_ROOT", editorial_root),
+                patch.object(workflow, "MIDDLE_ROOT", middle_root),
+            ):
+                result = workflow.prepare_middle_layer(
+                    argparse.Namespace(ayah="1:5", analysis_id="trial")
+                )
+                prompt = Path(result["handoff"]["prompt"]).read_text(
+                    encoding="utf-8"
+                )
+
+        self.assertIn("Yolun nasıl işlendiğini açıklayan nihai metin.", prompt)
+        self.assertNotRegex(prompt, workflow.MARKER_RE)
+        self.assertEqual(result["handoff"]["role"], "middle_layer")
+        self.assertEqual(result["handoff"]["model"], "gpt-5.6-luna")
+        self.assertEqual(result["handoff"]["reasoning_effort"], "max")
+        self.assertFalse(result["handoff"]["orchestrator_output_inspection"])
+        self.assertTrue(result["handoff"]["prose_output"].endswith(
+            "middle/trial/s001/1_5/1_5.prose.middle.tr.md"
+        ))
+        self.assertTrue(result["handoff"]["ledger_output"].endswith(
+            "middle/trial/s001/1_5/1_5.middle.claims.json"
+        ))
+
+    def test_prepare_middle_requires_completed_editorial_prose(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            with (
+                patch.object(workflow, "INPUT_ROOT", root / "input"),
+                patch.object(workflow, "EDITORIAL_ROOT", root / "editorial"),
+                patch.object(workflow, "MIDDLE_ROOT", root / "middle"),
+            ):
+                with self.assertRaisesRegex(
+                    workflow.WorkflowError, "Cannot read final editorial prose"
+                ):
+                    workflow.prepare_middle_layer(
+                        argparse.Namespace(ayah="1:5", analysis_id="trial")
+                    )
+
+    def test_middle_audit_followup_is_fixed_and_placeholder_free(self) -> None:
+        followup = (
+            workflow.PROMPTS_ROOT / "middle-layer-audit-followup.md"
+        ).read_text(encoding="utf-8")
+        normalized = " ".join(followup.split())
+
+        self.assertNotRegex(followup, workflow.MARKER_RE)
+        self.assertIn("Do not cap a source paragraph at one unit", normalized)
+        self.assertIn(
+            "Repair only the same reader-prose and claim-ledger outputs", normalized
+        )
 
     def test_prepare_invitation_embeds_only_final_editorial_prose(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:

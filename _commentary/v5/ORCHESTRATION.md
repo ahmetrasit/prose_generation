@@ -20,16 +20,23 @@ prepare
   -> same consolidator validates the editorial prose again
   -> same consolidator repairs mechanical validator failures, up to 2 cycles
   -> close consolidator
+  -> render the middle-layer prompt from final editorial prose
+  -> 1 fresh Luna max agent writes and validates middle prose plus claim ledger
+  -> same middle-layer agent receives the fixed audit follow-up verbatim
+  -> same middle-layer agent repairs and validates both outputs again
+  -> close middle-layer agent without orchestrator output inspection
   -> render the invitation prompt from final editorial prose
   -> 1 fresh invitation agent writes and validates the reading invitation
   -> close invitation agent
 ```
 
-V5 has no post-launch analytical gates. After `prepare`, do not run `advance`
-or `verify`; they are not V5 commands. Do not create ledgers, manifests, hidden
-state directories, or audit files for V5 orchestration. The only exception is
-`_commentary/v5/operations/runtime/`, which is monitor-owned operational state,
-ignored by Git, and never commentary evidence.
+V5 has no orchestrator-run post-launch analytical gates. After `prepare`, do
+not run `advance` or `verify`; they are not V5 commands. Do not create
+manifests, hidden state directories, or ad hoc audit files for V5 orchestration.
+The required post-editorial middle-layer claim ledger under
+`_commentary/v5/middle/` is a reader-artifact companion, not orchestrator state.
+The other exception is `_commentary/v5/operations/runtime/`, which is
+monitor-owned operational state, ignored by Git, and never commentary evidence.
 
 All agent launches in this runbook must use the multiagent spawn tool. Do not
 launch V5 agents with `codex exec`, shell scripts, or ad hoc terminal sessions.
@@ -37,8 +44,9 @@ launch V5 agents with `codex exec`, shell scripts, or ad hoc terminal sessions.
 ## Run-Scoped Model Overrides
 
 The standing V5 model assignments are `gpt-5.6-luna` at `max` reasoning effort
-for scope and invitation agents, and `gpt-5.6-sol` at `max` reasoning effort
-for the CE consolidator/editorial session.
+for scope, post-editorial middle-layer, and invitation agents, and `gpt-5.6-sol`
+at `max` reasoning effort for the CE consolidator/editorial session. Every
+middle-layer run uses a fresh Luna max agent with no inherited conversation.
 
 An operator may explicitly supply a model override for a particular run. Treat
 that override as scoped to the named run only; do not rewrite the standing model
@@ -46,6 +54,11 @@ defaults for later V5 work. For the next fresh S1 run requested after
 2026-09-11, use `gpt-6-astra` at `high` reasoning effort for every agent stage:
 scope discovery/composition, CE consolidation/editorial/qualification follow-up,
 and invitation.
+
+The post-editorial middle-layer stage is fixed to a fresh `gpt-5.6-luna` agent
+at `max` and is not changed by the historical S1 Astra override above. Change
+that assignment only when an operator explicitly overrides the middle-layer
+stage itself.
 
 ## Operations Monitor
 
@@ -611,13 +624,84 @@ cycles. Use `failed` when required output could not be produced and
 `interrupted` when the lifecycle was interrupted. Report the final validator
 result and lifecycle status in this conversation.
 
-## 7. Reading Invitation
+## 7. Post-Editorial Middle-Layer Consolidation
 
-After CE has written, revised, and validated the final editorial prose, generate the
-separate reading invitation as the final required stage for that ayah. This
-derivative follows one or two main channels of resonance in two to four
-Turkish paragraphs. A channel is a connected background of meanings, images,
-actions, or relations that the editorial develops through several details.
+After the CE consolidator completes the qualification/image presentation
+follow-up and final editorial validation, close it and create the required
+middle-layer derivative. This stage makes the complete editorial commentary
+materially easier to read while preserving every distinct finding in an atomic
+claim ledger. It does not replace or modify the editorial source and is not a
+new evidence-selection stage.
+
+Render the hermetic prompt from the final editorial prose:
+
+```bash
+python3 _commentary/v5/workflow.py prepare-middle \
+  --ayah <S:A> \
+  --analysis-id <analysis-id>
+```
+
+The command writes:
+
+```text
+_commentary/v5/input/<analysis-id>/sNNN/S_A/middle-layer.prompt.md
+```
+
+Its two target outputs are:
+
+```text
+_commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.prose.middle.tr.md
+_commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.middle.claims.json
+```
+
+Start one fresh `gpt-5.6-luna` agent at `max` reasoning effort with no inherited
+conversation history. Its first message must be only the complete contents of
+the generated `middle-layer.prompt.md`. Do not prepend a launch explanation,
+append extra instructions, supply upstream scope or discovery material, reuse
+the CE session, or provide any ayah-specific advice. The filled prompt contains
+the complete editorial source, exact output paths, four audit passes, and both
+validator commands.
+
+When the first turn completes, do not open, read, search, summarize, diff,
+count, validate, or otherwise inspect either output. Do not use the agent's
+report to compose a correction. Regardless of the reported metrics or apparent
+quality, send the complete contents of this file to the same agent byte for
+byte, with no prefix or suffix:
+
+```text
+_commentary/v5/prompts/middle-layer-audit-followup.md
+```
+
+This fixed second turn is mandatory. It makes the agent re-read the complete
+prompt, editorial source, prose, and ledger; repeat the atomic-coverage,
+synthesis, truth-condition, reader-clue, and Turkish-flow audits; repair only
+the same two outputs; and rerun both validators. The follow-up is identical for
+every ayah and must never be customized from output inspection.
+
+After the second turn, close the middle-layer agent. There is no third message,
+bespoke repair turn, separate reviewer, or orchestrator-run validator. The
+orchestrator may record only whether the agent reports both validators as `ok`
+and whether its turn completed; it does not independently verify those claims
+or inspect prose, ledger, metrics, citations, anchors, or diffs. If the agent
+reports an unresolved failure, report the stage as needing attention. A future
+retry starts a fresh Luna max agent from the same filled prompt and repeats the
+same fixed two-turn protocol; it does not receive a failure-specific hint.
+
+This stage has no separate monitor lifecycle role. Existing canonical and
+invitation events remain operational status only and do not certify
+middle-layer semantic quality. Invitation generation continues to use the
+final editorial prose as its sole semantic source; changing that source is a
+separate workflow decision.
+
+## 8. Reading Invitation
+
+After CE has written, revised, and validated the final editorial prose and the
+required two-turn middle-layer stage has closed, generate the separate reading
+invitation as the final required stage for that ayah. The invitation still uses
+the final editorial prose, not the middle-layer derivative. It follows one or
+two main channels of resonance in two to four Turkish paragraphs. A channel is
+a connected background of meanings, images, actions, or relations that the
+editorial develops through several details.
 Select across the complete editorial prose for interpretive consequence and
 clear grounding. Start with the expression that opens a channel, unfold its
 connected background, and show how the ayah sounds or reads against it, making
@@ -685,20 +769,24 @@ expression through its connected background to an expanded or shifted reading
 of the ayah. Check fidelity of the connections and qualifications, not coverage
 of omitted findings or channels. Mechanical validation does not establish this
 semantic quality. Regenerate it whenever its editorial source changes.
-The monitor considers a
-newly registered ayah complete only after both CE validation and invitation
-validation have completed.
+The monitor considers a newly registered ayah operationally complete only after
+both CE validation and invitation validation have completed. Because the
+monitor has no middle-layer role, the orchestrator must also have completed the
+fixed two-turn middle-layer protocol before treating the runbook sequence as
+complete; it does so without inspecting the outputs.
 
 ## Completed Surah Continuation
 
 Once every numbered ayah in one analysis has completed its final editorial
-follow-ups, the surah reading can run under
+follow-ups and fixed middle-layer protocol, the surah reading can run under
 `_surah_commentary/v2/ORCHESTRATION.md`. It consumes only those final editorial
 texts. Discovery, scope prose/ledgers, invitations, separate translations, and
-network evidence are not surah inputs. Invitations may finish independently.
-The responsible orchestrator must confirm editorial completion and the full
-numbered ayah count before creating the immutable surah snapshot. This optional
-continuation does not change any ayah discovery or editorial-generation step.
+middle-layer prose/ledgers, and network evidence are not surah inputs.
+Invitations may finish independently. The responsible orchestrator must confirm
+editorial completion, completion of the no-inspection middle-layer protocol,
+and the full numbered ayah count before creating the immutable surah snapshot.
+This optional continuation does not change any ayah discovery or
+editorial-generation step.
 
 ## Context Rules
 
@@ -740,10 +828,12 @@ three `gpt-5.6-luna` max scope agents for each ayah as soon as its prompts
 exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
 `gpt-5.6-sol` max consolidator and carry that same consolidator through the
 editorial follow-up and qualification/image presentation follow-up. Each ayah
-remains an independent workflow with its own scope agents, consolidator,
-invitation agent, paths, and Git-visible outputs. As soon as an ayah's CE stage
-completes, render and launch its invitation; do not wait for CE to finish on the
-other ayat.
+remains an independent workflow with its own scope agents, consolidator, fresh
+middle-layer agent, invitation agent, paths, and Git-visible outputs. As soon as
+an ayah's CE stage completes, render and launch its middle-layer prompt, wait
+for that agent's first turn, and send the fixed audit follow-up verbatim without
+inspecting either output. After its second turn closes, render and launch the
+invitation. Do not wait for CE or middle-layer work to finish on the other ayat.
 
 Different ayat and analysis IDs have disjoint paths and may run concurrently.
 Do not run two orchestrators for the same analysis ID and ayah at once.
@@ -768,11 +858,19 @@ indefinitely.
 ## Operational Rules
 
 - Preflight checks happen before agent orchestration starts.
-- After scope agents are launched, do not introduce validation gates outside the
-  consolidator's editorial-only mechanical validator.
+- After scope agents are launched, do not introduce orchestrator-run validation
+  gates. The CE consolidator runs its editorial prose validator, and the
+  post-editorial Luna agent runs the two validators embedded in its filled
+  middle-layer prompt.
 - Do not modify agent outputs yourself.
 - Treat partial work as ordinary Git-visible state.
-- Inspect the final prose before committing the unit.
+- Inspect canonical and invitation prose under their existing rules before
+  committing the unit. The middle-layer exception is strict: do not inspect its
+  prose, ledger, metrics, citations, anchors, validator output, or diff. Stage
+  only its two exact target paths and rely on the fixed two-turn protocol and
+  agent-reported completion status.
+- Never send a middle-layer agent an ayah-specific hint, output-derived
+  correction, third turn, or non-verbatim audit follow-up.
 - If a launched agent terminates before appending its final lifecycle event,
   leave its start event incomplete. That is how the dashboard identifies a
   possible stall.
