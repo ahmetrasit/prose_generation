@@ -90,6 +90,12 @@ attributed, conditional, or presented as a live alternative. Use `null` or an
 empty list where a field genuinely does not apply; do not invent missing
 components.
 
+An exact source anchor is a contiguous verbatim substring of its numbered
+source paragraph. Copy its Unicode characters and complete display tags
+exactly. Do not paraphrase it, remove a tag, normalize punctuation, or insert an
+ellipsis. Prefer the shortest substring that still identifies the assertion
+and preserves its controlling polarity or modality.
+
 If a source paragraph is wholly transitional or wholly repeats earlier
 content, record that disposition explicitly and identify the exact unit or
 units it restates. Do not use “transition” or “duplicate” as a loophole for a
@@ -161,6 +167,12 @@ Several source paragraphs may therefore become one output paragraph, and one
 complex source paragraph may contribute to several output paragraphs. A
 single-source output paragraph is permitted when its movement is genuinely
 standalone, not merely because it appeared separately in the source.
+
+A synthesis cluster is not required to equal one output paragraph. When a
+cluster contains several steps, give it two or more connected paragraphs and
+list all of them in the cluster ledger. Preserve the shared setup by stating it
+once, then let the following paragraph carry forward a named object or question
+instead of repeating that setup.
 
 Arrange clusters in a reader-facing order rather than source paragraph order,
 while preserving a supported sequence where order itself carries meaning.
@@ -260,6 +272,12 @@ Prefer a small number of well-shaped sentences over one overloaded sentence.
 When several sources contribute parallel examples, state their common work
 once and name the discriminating detail of each. When they contribute different
 steps, let the paragraph show what the next step adds or changes.
+
+Treat 180 whitespace-delimited words as a mechanical upper bound for one
+reader-prose paragraph. This is a readability boundary, not a compression
+target: split an overlong paragraph into connected paragraphs without deleting
+units or repeating their shared setup. Also split a shorter paragraph when it
+contains too many independent operations to follow comfortably.
 
 ## Source-paragraph citation contract
 
@@ -405,6 +423,7 @@ Write the reader prose first, then write one valid UTF-8 JSON object to
     "source_mirroring_findings": [],
     "polarity_or_modality_mismatches": [],
     "reader_paragraphs_without_detail_clues": [],
+    "overdense_output_paragraphs": [],
     "notes": []
   }
 }
@@ -434,7 +453,9 @@ Use these ledger rules:
   `canonical_unit_ref` to the canonical occurrence.
 - `source_anchor` is a short exact phrase from the numbered source paragraph.
   It must contain the word or suffix that controls negation, modality,
-  attribution, conditionality, or restriction when one is present.
+  attribution, conditionality, or restriction when one is present. It must be
+  a contiguous verbatim substring; ellipses, stripped display tags,
+  punctuation normalization, and paraphrase are invalid.
 - `truth_status` is a short controlled description such as `asserted`,
   `negated`, `possible`, `conditional`, `attributed`, or `live_alternative`;
   combine labels only when the source genuinely combines them.
@@ -530,11 +551,18 @@ After writing both outputs, run:
 
 ```bash
 python3 _commentary/v5/validate_prose.py @@MIDDLE_PROSE_OUTPUT_PATH@@
+python3 -B _commentary/v5/validate_middle_layer.py \
+  --source @@SOURCE_PROSE_PATH@@ \
+  --prose @@MIDDLE_PROSE_OUTPUT_PATH@@ \
+  --ledger @@MIDDLE_LEDGER_OUTPUT_PATH@@ \
+  --ayah-ref @@AYAH_REF@@
 ```
 
-Repair only mechanical prose-format findings without changing the semantic
-inventory. Confirm separately that the ledger is valid JSON. Mechanical
-validation does not establish semantic completeness.
+Repair every reported prose, ledger, mapping, anchor, metric, or density
+finding without changing the semantic inventory, then rerun both commands
+until they report `ok`. The middle-layer validator also confirms that the
+ledger is valid JSON. Mechanical validation does not establish semantic
+completeness; the three semantic audit passes remain required.
 
 ## Input
 
