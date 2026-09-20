@@ -239,6 +239,13 @@ unexplained conclusion. If a sentence becomes too dense for the separate
 operations to remain intelligible, distribute it across connected sentences or
 paragraphs.
 
+Do not let citation placement turn the prose back into a claim ledger. Avoid a
+serial rhythm of tiny assertion, citation, tiny assertion, citation when the
+assertions belong to one movement. Join them with explicit logical or
+grammatical relations, using clause-local citations where their sources differ.
+Every sentence must read as part of a continuous Turkish explanation even when
+all citations are temporarily hidden.
+
 Each paragraph must advance the reading. Avoid restarting an established
 point, re-explaining the same ordinary meaning, announcing what the next
 paragraph will say, or adding a closing recap. End by completing the last
@@ -278,6 +285,9 @@ reader-prose paragraph. This is a readability boundary, not a compression
 target: split an overlong paragraph into connected paragraphs without deleting
 units or repeating their shared setup. Also split a shorter paragraph when it
 contains too many independent operations to follow comfortably.
+Never write toward the 180-word ceiling. During the final reader pass, inspect
+paragraphs near it and retain them only when their movement remains easy to
+follow without rereading.
 
 ## Source-paragraph citation contract
 
@@ -292,6 +302,9 @@ Apply these rules:
 - Place a citation immediately after the smallest sentence or clause supported
   by those paragraphs. Do not use one blanket citation for a paragraph whose
   sentences draw on different sources.
+- Citation locality does not require sentence fragments or one sentence per
+  source paragraph. When several clauses form one movement, keep the syntax
+  continuous and place each citation after the clause it supports.
 - A citation may contain several paragraph numbers only when the immediately
   preceding assertion genuinely synthesizes all of them.
 - When one sentence contains separately sourced clauses, cite the clauses
@@ -313,7 +326,11 @@ explanation and do not count as semantic landings.
 
 - Write in fluent Turkish Markdown.
 - Use short level-2 headings (`##`) only for substantial developments; headings
-  do not carry source citations.
+  do not carry source citations. When an output has more than roughly twelve
+  prose paragraphs or clearly contains at least three major movements, use a
+  small set of headings—normally three to seven—to expose those transitions.
+  Do not leave a long multi-movement commentary as an undifferentiated stream,
+  and do not create a heading for every paragraph.
 - Preserve the ordinary foreground reading while explaining any secondary
   resonance.
 - Preserve truth conditions, agency, referents, sequence, negation, modality,
@@ -327,6 +344,12 @@ explanation and do not count as semantic landings.
   them unless the source does so.
 - Retain every concrete detail that distinguishes one unit from another.
 - Preserve each non-focus ayah reference beside the contextual role it performs.
+- When one movement depends on several ayat, write every reference explicitly,
+  for example `(1:1, 1:2, 1:3)`. Never use Quran interval shorthand such as
+  `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or `(1:1-1:3)`, whether parenthesized or
+  embedded in a sentence. Do not replace a concrete reference with a vague
+  location such as “önceki âyetlerde” unless the explicit references remain
+  visible there.
 - Do not expose ledger IDs, lane names, branch IDs, QAC coordinates, workflow
   language, or this consolidation process in reader prose.
 - Do not add information from memory or external sources.
@@ -507,7 +530,7 @@ unit or is demonstrably an exact duplicate. For every semantic unit, locate the
 exact prose anchor and verify that the anchor retains its carrier, mechanism,
 effect, details, and limit rather than only its general topic.
 
-Then perform three separate passes:
+Then perform four separate passes:
 
 1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
    repeated setup is said once, complementary contributions interact, and each
@@ -523,6 +546,13 @@ Then perform three separate passes:
    image under discussion, why the cited sources are relevant, what changes in
    the ayah reading, and where the claim stops. Record and repair any paragraph
    that requires the ledger to answer those questions.
+4. **Turkish prose pass:** hide the citations temporarily and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Confirm that
+   each paragraph has one dominant movement and that adjacent sentences state
+   how their ideas relate. Restore and recheck every citation afterward; if an
+   edit changes a landing, update its exact ledger anchor and all metrics.
 
 Specifically reject the draft if any of the following is true:
 
@@ -538,6 +568,10 @@ Specifically reject the draft if any of the following is true:
   merely because they were separate in the source;
 - an output paragraph lacks enough discriminating clues to guide the reader
   into its cited source paragraphs;
+- Quran references use interval shorthand instead of naming every ayah;
+- the prose reads as a citation-separated inventory when citations are hidden,
+  or a Turkish sentence has broken coordination or an unclear grammatical
+  subject;
 - shortening depends on removing content rather than repeated expression.
 
 Revise until the prose is both materially easier to read and semantically
@@ -561,8 +595,9 @@ python3 -B _commentary/v5/validate_middle_layer.py \
 Repair every reported prose, ledger, mapping, anchor, metric, or density
 finding without changing the semantic inventory, then rerun both commands
 until they report `ok`. The middle-layer validator also confirms that the
-ledger is valid JSON. Mechanical validation does not establish semantic
-completeness; the three semantic audit passes remain required.
+ledger is valid JSON and that reader prose contains no Quran interval
+shorthand. Mechanical validation does not establish semantic completeness or
+Turkish fluency; all four audit passes remain required.
 
 ## Input
 

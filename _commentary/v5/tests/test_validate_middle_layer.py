@@ -170,6 +170,17 @@ class ValidateMiddleLayerTests(unittest.TestCase):
 
         self.assertIn("overdense_output_paragraph", codes)
 
+    def test_rejects_quran_interval_shorthand(self) -> None:
+        prose = PROSE + " Fâtiha'nın 1:1–3 bağlamı da anılır."
+        codes = {
+            finding.code
+            for finding in validate_middle_layer.validate(
+                SOURCE, prose, valid_ledger(), ayah_ref="1:5"
+            )
+        }
+
+        self.assertIn("quran_interval_shorthand", codes)
+
 
 if __name__ == "__main__":
     unittest.main()

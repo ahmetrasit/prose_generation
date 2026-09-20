@@ -8,6 +8,7 @@ from collections import Counter
 from dataclasses import asdict, dataclass
 import json
 from pathlib import Path
+import re
 import sys
 from typing import Any
 
@@ -25,6 +26,9 @@ RELATION_CLASSES = {
     "related_distinct",
 }
 CLUSTER_KINDS = {"synthesis", "standalone"}
+QURAN_INTERVAL_RE = re.compile(
+    r"(?<![\w])\d{1,3}:\d{1,3}\s*[-‐‑‒–—−]\s*(?:\d{1,3}:)?\d{1,3}(?!\w)"
+)
 PROBLEM_AUDIT_KEYS = (
     "unassessed_source_paragraphs",
     "uncited_source_paragraphs",
@@ -436,6 +440,13 @@ def validate(
     single_source = 0
     same_position_singleton = 0
     for output_number, paragraph_text in enumerate(prose, start=1):
+        for match in QURAN_INTERVAL_RE.finditer(paragraph_text):
+            _finding(
+                findings,
+                "quran_interval_shorthand",
+                f"List every ayah explicitly instead of using {match.group(0)!r}.",
+                paragraph=output_number,
+            )
         cited_refs = {
             number
             for cited_ayah, numbers in validate_concise.citation_groups(paragraph_text)
