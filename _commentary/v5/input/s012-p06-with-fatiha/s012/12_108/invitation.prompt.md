@@ -1,0 +1,199 @@
+# V5 reading invitation — 12:108
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p06-with-fatiha/s012/12_108/12_108.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p06-with-fatiha/s012/12_108/12_108.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sözün açtığı yön
+
+Ayetin {ar:قُلْ, tr:qul, gloss:söyle} kesik, tekil emri konuşmayı ilk görev kılar: ardından gelen birinci tekil kişi beyanları özel bir iç ses değil, duyurulması istenen sözdür. Bu emir, yolun gösterilmesini, daveti, basireti, izleyenlerin anılmasını, tenzihi ve son ayrışmayı aynı görevlendirilmiş söylemin art arda gelen vuruşları hâline getirir; kısa sesi bildiriyi birden açar. Yerel anlam söz söylemektir; köke uzaktan eşlik edebilen kıtlık çağrışımı bu kullanımda etkin değildir.
+
+Bu sözün kamusal yönü, hemen önceki sahneyle belirginleşir. 12:102, anlatılanları {ar:أَنۢبَآءِ ٱلْغَيْبِ, tr:anbāʾi al-ghaybi, gloss:gayb haberleri} diye niteler ve kardeşler plan kurarken muhatabın onların yanında olmadığını belirtir (12:102). Odaktaki {ar:قُلْ, tr:qul, gloss:söyle} emri, görünmeyen sahneye tanık olmayanlara alınmış bir tanıklığı sesle taşıyan söyleyişin kamusal işlevini öne çıkarır. Yol ve davet yine ayetin kendi beyanıdır; bu yakınlık onları önceki haberin tekrarına indirgemez ve ayetin her bölümünün nasıl alındığını belirlemez.
+
+Ardından gelen {ar:هَٰذِهِۦ, tr:hādhihi, gloss:bu}, uzak bir ilkeyi değil, konuşanın önündeki belirli yönü gösterir. Okunuş ayrıntıları bu yakın gösterme işlevini korur. Zamir, fiilsiz isim cümlesinde {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} sözüyle doğrudan bağ kurar: zamir dişil, yol adı eril biçimdedir; cümle bunları cinsiyet uyumuyla değil, gösterme ile isim yüklemi ilişkisiyle birleştirir. “Bu”nun sesi yol adından önce gelir; eylem başlamadan hangi yolun söz konusu olduğu duyulur.
+
+{ar:سَبِيلِي, tr:sabīlī, gloss:yolum} tekil iyelik biçimiyle konuşana ait bir güzergâhı bildirir; isim cümlesinde konuşanın kimliğini açıklar ve sonraki “beni” biçimini de önceden duyurur. Sözcüğün olağan alanı hem üzerinde yürünülen yolu hem de hedefe ulaştıran bağlantı, yöntem, olanak ya da çıkış yolunu kapsar. Biraz sonra gelen {ar:أَدْعُوٓا۟, tr:adʿū, gloss:çağırıyorum} çağrısı ile {ar:إِلَى ٱللَّهِ, tr:ilā Allāhi, gloss:Allah'a} yönü bu iki kullanımı buluşturur: adlandırılmış güzergâh, Allah'a yönelten bir erişim yolu olarak da belirir. Bu bağlantıda söz, yürünen güzergâh ile erişim yolu arasında çalışır; yolcu, bölüşme ve sarkıtma kolları etkinleşmez.
+
+## Davet ve dayanak
+
+{ar:أَدْعُوٓا۟, tr:adʿū, gloss:çağırıyorum} birinci tekil kişi muzari biçimiyle konuşanın sürmekte olan eylemini bildirir. Çağırma kökünün olağan alanında seslenme, davet ve yakarma vardır; burada {ar:إِلَى, tr:ilā, gloss:-e doğru} edatı yönü {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah} adına bağladığı için söz, Allah'a doğrudan yakarış değil, muhatapları Allah'a yönelten bir davettir. Edatla yönettiği adın sesçe tek bir “Allah'a doğru” birimi gibi duyulması, açık ve uzayan fiille birlikte, daha önce adlandırılmış yolu işleyen bir davete dönüştürür. Bu özel adın çevresinde ilahlık, tapınma ve sığınma çağrışımları yaklaşır; çağrının hedefi yine belirli Allah adıdır. Aynı adın daha sonra tenzihte yinelenmesi bu yönelişe bir çerçeve açar.
+
+Çağrının söz ve sesle yöneltilmesi, kökle uzaktan ilişkilendirilebilen fiziksel itme imgesinin karşısında belirginleşir. {ar:قُلْ, tr:qul, gloss:söyle} emriyle duyurulan ve {ar:إِلَى ٱللَّهِ, tr:ilā Allāhi, gloss:Allah'a} yönü belirtilen söz, muhatabı sesle davet eder; karşıtlık hareketten çok bu sesli yönelişi öne çıkarır. Fiziksel itme bu bağlantıda fiilin anlamına geçmez ve ayet zorlama iddiası kurmaz.
+
+Çağrının karşılanışı da onun yönünü anlamaya katılır. 12:103'te elçinin isteğine rağmen insanların çoğunun inanmadığı, 12:104'te ise onlardan ücret istenmediği ve mesajın âlemler için bir hatırlatma olduğu bildirilir (12:103, 12:104). Bu eşleşme çağrıyı ücret karşılığı yürütülen bir iş olmaktan çıkarır; hatırlatma, dinleyicinin cevabını satın almadan sürdürülen olumlu eylemdir. Buradaki sınır ücret istememek ve alımlanmayı denetleyememektir; bu komşuluk tek başına her tür zorlamayı dışlamaz ya da dönüşümü önemsiz saymaz.
+
+Çağrının hedefindeki ad, sure başındaki besmeleyle de çerçevelenir: besmele aynı Allah adını Rahmân ve Rahîm adlarıyla birlikte anar (S:0). Bu eşlik Allah'a yönelişi merhameti adlandıran bir başlangıcın yanında duyurur; uyarı yürürlükte kalır ve çağrının sonucu vaat edilmez.
+
+Hedef açıklandıktan sonra {ar:عَلَىٰ, tr:ʿalā, gloss:üzerinde} ile {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} davetin dayanağını kurar. Mekânsal “üzerinde” anlamı burada çağrının durduğu bilgi zeminine taşınır. Basiret belirsiz, dişil ve soyut bir isimdir; kalbe nüfuz eden iç kavrayışı ya da kanıta dayalı niteliği anlatır, cümlenin nesnesi olan bir görme eylemini değil. Edat onu doğrudan davetin dayanağı yapar; yerleşim, daha önce söylenen yolu da nitelemesine açık kalır. Kısa ibare çağrının akışını bir ritim vuruşuyla durultur. Sonundaki “-in” sesi kapanıştaki “-īna”yı hafifçe önceden duyurur; basiret, açık “ben”den ve izleyici sınıfından önce gelir.
+
+Basiretin olağan anlamı kalbe nüfuz eden, doğrulanmış iç kavrayıştır. “Bana uyan kimse” sınıfının eklenmesi bu zemini delil, kanıt, ibret ve açıklayıcı bildirim yönünde genişletir; çağrı hem iç bilgiye hem izlenebilir kanıta dayanır. 29:12'de başka bir grup kendi yolunu izleyenlerin günahlarını üstleneceğini söyler, fakat ayet bu vaadi yalanlar (29:12). Bu karşı örnek, basiretin kanıt ve açıklama boyutunu öne çıkararak Allah'a çağrının dayanağını görünür kılar. Bu bağlantıda edat, basireti davetin bilgi zemini yapar; çıplak görme ile kan, silah, taş ve dikiş kolları burada etkin değildir.
+
+Yakub'un haberi basirete uzlaşmadan önce taşınabilen bir kavrayış boyutu ekler. Yakub Yusuf'un kokusunu aldığını söyler; oğulları bunu eski bir yanılgı sayar. Müjdeci geldikten ve Yusuf'un gömleği Yakub'un yüzüne konduktan sonra görmesi geri döner; Yakub da Allah'tan onların bilmediği bir şeyi bildiğini söyler (12:94, 12:95, 12:96). Odaktaki soyut {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} ile kıssadaki {ar:بَصِيرًا, tr:baṣīran, gloss:görür hâlde} ayrı biçimlerdir: ikincisi duyusal görme sonucunu bildirir. Koku haberi, reddediliş, haberci ve sonradan gelen görme bu tekil sahnede farklı katkılar sunar; ilk haber uzlaşma öncesi kavrayışı, sonraki belirtiler ise onun ardından gelen doğrulanışı görünür kılar. Bu bağlantı her reddedilen sezgiyi doğrulayan genel bir kurala dönüşmez.
+
+Uzak bir sözcük imgesi bu kez yolun görünürlüğüne bir örtü ve açılma boyutu katar. {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} sözcüğünün bir kullanımı, göz hastalığında gözü örten kırmızı damarlı bir ağ ya da perdeyi adlandırabilir. Bu ayrı görüntü {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} ile buluştuğunda güzergâhın üstündeki perde belirir; iç kavrayış, zaten var olan yolu görünür ve yürünebilir kılar. Bu bağlantı keşif niteliğinde bir sözcük imgesi olarak kalır; göz hastalığı, odaktaki “yolum”un anlamına dönüşmez.
+
+## İzleyici ve ortak yol
+
+Dayanak ibaresinden sonra gelen açık {ar:أَنَا۠, tr:anā, gloss:ben}, çağırma fiilinde zaten bulunan konuşanı yeniden görünür kılar ve sorumluluğu onda tutar; yeni bir özne getirmez. İlk “ben”, basiret üzere durduğunu söyleyen kişinin beyanıdır. Son bölümde yinelenecek “ben” bu duruşa karşılık vererek çağrının sorumluluğunu ortak koşanlardan ayrılma sınırıyla çerçeveleyecektir.
+
+Ardından gelen {ar:وَمَنِ, tr:wa-man, gloss:ve kim}, bağlaçla konuşanın yanına açık bir izleyici yeri ekler. {ar:وَ, tr:wa, gloss:ve} tekil duruşu genişletirken {ar:مَنِ, tr:man, gloss:kim} önceden belirlenmiş bir topluluk değil, ardından gelen eylemle tanınacak kimseleri açar. Burunsu “m” sesi bu öbeği birbirine bağlar; “kim”in kısa son ünlüsü de {ar:ٱتَّبَعَنِى, tr:ittabaʿanī, gloss:bana uyan} fiiline akar. Böylece söz dizimi konuşanın “ben”inden “kim bana uyarsa” sınıfına döner. Bu kuruluş izleyicileri konuşanın yanındaki beyana katar; basiretin her birine ne ölçüde dağıldığını ise belirlemez.
+
+{ar:ٱتَّبَعَنِى, tr:ittabaʿanī, gloss:bana uyan} VIII. kalıpta kasıtlı olarak birinin ardından gitmeyi bildirir; “beni” eki izlenen kişiyi konuşan yapar, yani bağlılık önce bir kişiye yönelir. Sözcüğün olağan anlamı birinin yanında ya da arkasında ilerlemeyi, ayrıca bir iz, örnek, buyruk veya öğreti doğrultusunda davranmayı kapsar. {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} ile {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} bu iki katkıyı buluşturur: izleyici hem yolda ilerler hem de görünen yön ve kavrayışla uyumlu davranır; kişisel yol böylece başkalarının da katılabileceği güzergâha açılır. Fiilin çift ünsüzlü başlangıcı bu bağlılığı ses akışında duyurur. Bu bağlantı olağan kişi-izleme anlamını korur; geride kalana yetişme, adım adım araştırma ya da hak isteme anlamları fiilin burada açtığı okuma değildir. Ayet ayrıca belirli uygulamalar saymaz veya bütün izleyicilere aynı iç tecrübeyi yüklemez.
+
+Bu açık izleyici sınıfı, Fâtiha'daki toplu istekle ayrı bir temas kurar. 1:5'te topluluk Allah'a kulluk edip O'ndan yardım ister, 1:6'da dosdoğru yola hidayet diler, 1:7'de bu yolun insanî ve ahlaki sınırını anar: nimet verilenlerin yolu, gazaba uğrayanlarla sapmışlarınki değil (1:5, 1:6, 1:7). Bu isteğin yanında odaktaki {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} ve {ar:أَدْعُوٓا۟ إِلَى ٱللَّهِ, tr:adʿū ilā Allāhi, gloss:Allah'a çağırıyorum}, topluluğa sunulan bir yön ve davet cevabı gibi duyulabilir (1:5, 1:6, 1:7). Eşleşme iki yol sözünü özdeşleştirmez: Fâtiha'daki {ar:ٱلصِّرَٰطَ, tr:al-ṣirāṭa, gloss:yol} ile odaktaki yol farklı sözcüklerdir; topluluğun duası da konuşanın çağrısıyla farklı söz edimleridir (1:6, 1:7). Bu, yalnızca Fâtiha 1:5, 1:6 ve 1:7 ile sınırlı bir bağlam yankısıdır; odak ayet kendi içinde tamamlanır ve bu eşleşme Fâtiha'nın tamamına yayılmaz (1:5, 1:6, 1:7).
+
+Bu bağlamlar fiziksel güzergâhın hedefe eriştirme yönünü geliştirir. Fâtiha 1:6'da doğru yola erişme isteği, 40:38'de ise bir konuşanın kavmini kendisini izleyip doğru yola ulaşmaya çağırması, yolun hedefe götüren yöntem boyutunu ayrı ayrı etkinleştirir (1:6, 40:38). 29:12'de başka bir topluluk kendi yolunu izlemeyi önerir; günahları üstlenme vaadinin yalanlanması bu yolu odaktaki davetten ayrı, karşıt bir yön olarak gösterir (29:12). Allah'ın hedef oluşu ve basiretin eşliği, odaktaki yolu belirli dinî söz öbeklerinde doğruluğa, iyiliğe ya da kurtuluşa yönelen bir yöntem gibi duyurur; insanın ilan ettiği davet ilahî hidayetin bütünü değil, ona yönelen bir yoldur. 7:193'te hidayete çağrılanların izlemediği bildirilince takip, davetin otomatik sonucu değil, ona verilen bir cevap olarak belirir (7:193). Bu ayetlerdeki topluluklar odaktaki izleyici sınıfına taşınmaz; izlemeyişin nedeni de açıklanmaz (29:12, 40:38, 7:193).
+
+Takip sözüyle çağrı arasında daha da uzak, organik bir benzetme açılır. Sağım sırasında memede bilerek bırakılan sütün bir bölümü, ardından gelecek akışı uyarmaya yarayabilir; art arda geliş imgesi bu kalanı sonraki akışa bağlar. {ar:أَدْعُوٓا۟, tr:adʿū, gloss:çağırıyorum} ile ardından gelen izleyiciler burada buluşur: ilk çağrı, toplulukta yeni çağrı ve eylemleri çekebilecek üretken bir iz bırakmış gibi duyulur. Bu keşif imgesi yalnız izleyicilerle kurulan bağlantıda işler; çağırma fiiline süt anlamı katmaz.
+
+## İşaretlerden tarihe
+
+İzleyicilerin yolu, karşılaşılan işaretlere nasıl karşılık verildiği sorusunu açar. 12:105 göklerde ve yerde nice {ar:ءَايَةٍ, tr:āyatin, gloss:işaret} bulunduğunu, insanların onların yanından geçip yüz çevirdiğini anlatır (12:105). Geçiş, işaretlerle karşılaşmayı; yüz çevirme ise bu karşılaşmaya cevap vermemeyi gösterir. Bu iki ayrıntı odaktaki {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} güzergâhını salt hareket olmaktan çıkarıp karşılaşılanı okuma ve yanıtlama yönünde genişletir; {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} de bu geçişi dikkatli kılan anlayış olarak belirir. Bu bağlam, odak ayetin yolunu tek başına tanımlamaz; okuma, güzergâh ile basiretin odakta buluşmasından doğar (12:105).
+
+Aynı işaret sahnesi gökleri okunabilir bir yüzey gibi düşündüren ayrı bir imge açar. 12:105'teki {ar:ٱلسَّمَٰوَٰتِ, tr:al-samāwāti, gloss:gökler} alışılmış anlamıyla göklerdir; yükselme anlamındaki kökün ses ipucu, harfleri başka sırada dizilmiş ayrı iz ya da damga kökünü çağrıştırır. Ayetin açık işaretleri ve insanların onların yanından geçmesi bu ayrı kökleşmiş imgeyi odaktaki {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} ile buluşturur; gökler böylece basiretin okuyabileceği izler taşıyan bir yüzey gibi tasavvur edilir (12:105). Bu bağlantı keşfî bir katman olarak göklerin olağan anlamını korur; her gök cisminde yazılı işaret bulunduğu iddiasını içermez.
+
+İşaretlerden tarihî sonuçlara geçiş, 12:109'da yeryüzünde dolaşma, önceki toplulukların sonunu görme ve akletme çağrısıyla somutlaşır; önceki elçilerin insanlardan ve yerleşim halkından olduğu da belirtilir (12:109). Bu bağımsız seyahat sahnesi {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} sözünün bedensel güzergâh anlamını canlı tutar. Aynı sözcüğün ayrı bir kullanımda yol kullanıcılarını adlandırabilmesi, {ar:وَمَنِ ٱتَّبَعَنِى, tr:wa-man ittabaʿanī, gloss:ve bana uyan kimse} ile kurulan insan topluluğuna temas eder; çevredeki yolcular bu bağlantının insanî yüzünü verir. Böylece 12:109'un seyahat ve gözlem emri izlemeye tarihî inceleme boyutu ekler. Bu temas, odaktaki {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} sözünü yolcu adına dönüştürmez; araştırma da VIII. kalıptaki takip fiilinin kendi anlamı değildir. 12:109'daki yolcular kendi sahnelerinde kalır, odaktaki izleyicilerle özdeşleşmez (12:109).
+
+12:110'un kriz ve ardından gelen yardım dizisi, izlemeyi hissedilen kesinlik zayıflasa da sürdürülebilen bir bağlılık olarak düşündürür. Ayette elçiler ümitlerini keser ve kendilerinin yalancı sayıldığını sanır; sözün kuruluşu kimin kime yalancı dediğini açık bırakır. Ardından yardım gelir ve diledikleri kurtarılır (12:110). Odaktaki {ar:ٱتَّبَعَنِى, tr:ittabaʿanī, gloss:bana uyan} olağan kişi-izleme anlamını korur; bu bağlam ona kriz içinden geçen bir süreklilik katar. {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} bu nedenle duygusal sarsılmazlık anlamına gelmez; sahnedeki yardım da her durumda hemen gelecek genel bir vaat değildir (12:110).
+
+Bakış şimdi toplulukların tarihî sonundan tek bir hayatın geriye dönük okunuşuna geçer. Yusuf'un eski rüyası gerçekleşince anlam kazanır; hapisten çıkarılması ve ailesinin çölden gelişi ayrı duraklar, aradaki ince işleyiş ise bunları yaşanmış bir güzergâhta birbirine bağlar. Yusuf'un Rabbini {ar:لَطِيفٌ, tr:laṭīfun, gloss:ince lütuf sahibi} diye anması bu örtük bağın niteliğini söyler (12:100). Odaktaki {ar:سَبِيلِي, tr:sabīlī, gloss:yolum} olağan yol ve hedefe eriştiren yöntem anlamını korurken, bu kıssa güzergâhın yaşanırken ve geriye bakıldığında okunabileceği uzak bir benzetme sunar. 12:101'de Yusuf dünyadaki varışın ardından teslim olmuş hâlde ölmek ve salihlere katılmak için dua eder; duası kendi hikâyesindeki yolu dünya varışının ötesine açık bırakır (12:101). Bu, odak konuşanının Yusuf olduğu ya da Yusuf'un duasının odak ayete yeni bir olay eklediği anlamına gelmez; benzetme bu kıssa güzergâhıyla sınırlıdır (12:100, 12:101).
+
+12:111 kıssaların ibret taşıdığını, uydurulmuş söz olmadığını, ayrıntıların açıklandığını ve hidayet sunduğunu belirtir (12:111). Odaktaki {ar:ٱتَّبَعَنِى, tr:ittabaʿanī, gloss:bana uyan} kişiyi ve onun yolunu izlemeyi taşır; anlatıdaki izleri sırayla takip etmek bu olağan bağlılığa eklenir. {ar:بَصِيرَةٍ, tr:baṣīratin, gloss:basiret} içten bilme ve delil anlamını korurken, ayrıntıların peşinden giden okur olaylardan ibrete ve yöne ilerler. Kıssa böylece yolu örneklemekle kalmayıp olaylardan anlayışa geçişi gerçekleştirir; 12:111 bu anlatı yolunu hidayetin tek yolu olarak sunmaz (12:111). Hatırlatma, görmezden gelinen işaretler, tarihî inceleme ve kıssadan ibret odaktaki yol ile basirete ayrı katkılar verir; birlikte, Allah'a yönelen cevabın işaretleri ve geçmişi okuyarak kurulabileceği zemini açarlar (12:104, 12:105, 12:109, 12:111).
+
+## Tenzih ve aidiyet
+
+Yol ve izleme beyanının sınırı, Allah'a inanmayla ortak koşmayı aynı çoğunluk öznesinde yan yana getiren 12:106'nın yanında duyulur (12:106). Odaktaki {ar:ٱلْمُشْرِكِينَ, tr:al-mushrikīna, gloss:Allah'a ortak koşanlar} sınıfından ayrılma, yalnız dışarıdaki bir grupla sınır çizmez; inanç içindeki rakip payı yoklayan öz-denetimi de açar. Buradaki ortaklık, başka bir varlığı yalnız Allah'a ait yetki ya da nitelikte O'na ortak saymaktır. 12:106 bu tutumu kendi çoğunluk öznesi hakkında söyler; böylece öz-denetim genelleşmeden ve dış grup sınırı silinmeden korunur (12:106).
+
+Bir önceki uyarı çağrıya zaman boyutu ekler: 12:107 ya Allah'ın azabından kaplayıcı bir gelişten ya da Saat'in insanlar farkında değilken ansızın gelişinden söz eder (12:107). Bu komşuluk, {ar:أَدْعُوٓا۟ إِلَى ٱللَّهِ, tr:adʿū ilā Allāhi, gloss:Allah'a çağırıyorum} çağrısını olay ufku belirginleşmeden önce ulaşan bir yöneliş gibi duyurur. Uyarıdaki farkında olmama, basiretin sözlük anlamı değil; bu bağlantıda çağrının zamanlamasına aciliyet verir. Uyarı olayın önleneceğini ya da her dinleyenin karşılık vereceğini bildirmez (12:107).
+
+İzleyicilerden sonra gelen ikinci {ar:وَ, tr:wa, gloss:ve}, önceki görevi sürdürürken yeni bir söz edimi açar: davet beyanı, Allah'ı yüceltme beyanına geçer. Yinelenen bağlaçların işitsel vuruşları içinde bu “ve” teolojik dönüşün menteşesidir. {ar:سُبْحَٰنَ, tr:subḥāna, gloss:noksanlıktan uzak oluş}, Allah adıyla kurulan yapıda mansup masdar, yani eylem adı biçiminde doğrudan tenzih ve ululama bildirir. Bu nedenle söz bir yüceltme buyruğu değil, aşkınlık beyanıdır. Kökün yüzme ve hızlı hareket çağrışımları, Allah adı ile ardından reddedilen ortak koşanlar sınıfının temasında yerleşik yüceltme anlamına yönelir: Allah'ı kötülük ve eksiklikten uzak tutup yüceltmek. Bu beyan, kulluğun tümünü karşılamadan, ortaklık reddinden önce teolojik dayanağı kurar; sesinde de yankılı bir iniş bırakır.
+
+Bu iki son beyanın ilişkisi, başka ayetlerdeki paralel kapanışlarla belirginleşir. 6:79'da yaratana yönelen konuşan kendisini ortak koşanlardan ayırır; 10:18'de Allah'ı yüceltme, insanların O'na ortak koştuklarından uzak tutma beyanıyla yan yana gelir (6:79, 10:18). Bu paralel çift odaktaki tenzih ile ayrışmanın Allah'a çağrının yönünü ve teolojik sınırını nasıl birlikte kurduğunu gösterir. Bağlantı, benzer kapanışların okunuşuyla sınırlıdır; ayetlerin tarihsel olarak birbirinden alıntılandığı sonucunu vermez ve şirk anlamını insanlar arasındaki genel ortaklığa genişletmez.
+
+Çağrıda hedef olan {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah}, tenzih yapısında ikinci kez belirir ve burada masdarı tamamlayan özel ad olur. İlahlık, ibadet ve sığınma çağrışımları bu adın çevresinde yakınlaşır; ilk geçiş çağrının hedefini, ikincisi yüceltmenin muhatabını belirler. Böylece tenzih, çağrının yöneldiği Allah'ın benzersizliğini duyurur; son aidiyet beyanı da yalnız O'na ait yetkiyi başkalarıyla ortaklaştırma iddiasını sınırlar. Çağrı, tenzih ve aidiyet reddi ayrı söz edimleridir; yan yana gelişleri Allah'a giden yolun yönünü ve teolojik sınırını belirginleştirir.
+
+Üçüncü ve son {ar:وَ, tr:wa, gloss:ve}, tenzihin yanına nihai olumsuzlamayı bağlar; tekrarlanan bağlaçtan sonra işitilen kısa durak son söz edimini açar. {ar:مَآ, tr:mā, gloss:değil} isim cümlesindeki kimlik hükmünü olumsuzlar; açık {ar:أَنَا۠, tr:anā, gloss:ben} bu hükmün öznesini konuşana bağlar. Böylece ilk “ben”in taşıdığı çağrı sorumluluğu, konuşanın kimliği hakkında kişisel bir sınırla tamamlanır. {ar:مِنَ, tr:mina, gloss:-den biri} burada sınıfa parça üyeliğiyle bağlanır: konuşan “onlardan biri” olmadığını söyler. {ar:ٱلْمُشْرِكِينَ, tr:al-mushrikīna, gloss:Allah'a ortak koşanlar} belirli çoğul, IV. bâb etken ortacıyla bu eylemi yapan topluluğu adlandırır. Allah adı, tenzih, olumsuzluk ve üyelik yapısı geniş ortaklık alanını teolojik şirke daraltır: başka bir varlığı yalnız Allah'a ait yetki ya da nitelikte O'na ortak saymak. Bu, insanlar arasındaki ortaklık veya aynı kökün nesne adları değildir. Uzayan “-īna” sesi reddedilen kolektif kimliğe basarak bildiriyi kapatır.
+
+</editorial_prose>

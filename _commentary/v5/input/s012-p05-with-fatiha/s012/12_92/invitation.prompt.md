@@ -1,0 +1,191 @@
+# V5 reading invitation — 12:92
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s012-p05-with-fatiha/s012/12_92/12_92.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s012-p05-with-fatiha/s012/12_92/12_92.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Yusuf'un {ar:قَالَ, tr:qāla, gloss:dedi} sözü, tamamlanmış tekil bir konuşma eylemi olarak açılır ve üç hareketle ilerler. Önce {ar:لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ, tr:lā tathrība ʿalaykumu l-yawma, gloss:bugün size kınama yok} diyerek kınamayı keser; ardından {ar:يَغْفِرُ ٱللَّهُ لَكُمْ, tr:yaghfiru Allāhu lakum, gloss:Allah sizi bağışlasın} sözüyle bağışlanmayı Allah'a yöneltir; son olarak {ar:وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ, tr:wa-huwa arḥamu r-rāḥimīn, gloss:O merhamet edenlerin en merhametlisidir} diyerek aynı ilahî özneyi merhamet niteliğiyle anar. Söz, insanlar arasındaki kınamadan ilahî bağışlanma dileğine ve merhametin niteliğine geçer. Son isim cümlesi Yusuf'un sözünün devamı olarak da yeni bir cümle olarak da okunabilir: ilk okumada merhamet bağışlanmaya eşlik eder, ikincisinde onun dayanağını belirtir.
+
+## Bugünün Sözü
+
+İlk hareketteki {ar:لَا تَثْرِيبَ, tr:lā tathrība, gloss:kınama yok} kınama eylemini, onu yapan kişiden bağımsız olarak adlandırır. Kategorik olumsuzluk lā'nın ardından gelen akuzatif Form II masdar, muhataplara yöneltilebilecek kınama sınıfını kaldırır; {ar:تَثْرِيبَ, tr:tathrība, gloss:kusur yüzünden kınama} ise kusur için paylama, ayıplama ve suçu yüze vurmayı kapsar. Böylece geçmişteki yanlış yerinde kalırken, onu tekrar tekrar kınama vesilesi yapmak durur. Sözcüğün sıkı ünsüz dizisi tilavette kısa ve sert bir tını verebilir. Bu tını olumsuzlanan sözün içindeki ses etkisidir; kasıtlı ses simgeciliği olduğu ayrıca ileri sürülmez.
+
+Kınamanın yönü, {ar:عَلَى, tr:ʿalā, gloss:üzerine} edatının mekânsal ilişkisiyle muhatapların üzerine konan bir yük gibi duyulur; bu, sözün ilişkisel imgesidir. {ar:عَلَيْكُمُ, tr:ʿalaykumu, gloss:üzerinize} içindeki ikinci çoğul ek de aynı gruba seslenir. Bu çoğulluk hitabın alıcılarını gösterir; tek başına kardeşlik bağını ya da önceden itiraf edilmiş bir suçu belirlemez.
+
+{ar:ٱلْيَوْمَ, tr:al-yawma, gloss:bugün} kınamasızlığı mevcut günün ve karşılaşmanın içine yerleştirir. {ar:عَلَيْكُمُ, tr:ʿalaykumu, gloss:üzerinize} ifadesinden sonra, {ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} fiilinden önce gelişi kınamadan bağışlanma dileğine geçiş sağlar; yazıdaki sınır bunu duyurur, zorunlu bir sesli durak belirlemez. “Bugün” öncelikle kınama yokluğunu sınırlar, bağışlanma duasına da uzanabilir; kapsam açık kalır. Yawm'ın büyük ya da çetin olayların yaşandığı günler için kullanılması, bu karşılaşmaya dönüşüm eşiği tınısı ekleyebilir. Bu yerel yankı mevcut buluşmanın ağırlığını anlatır; onu ahiret zamanı olarak tanımlamaz ve günün nesnel olarak çetin olduğunu ileri sürmez.
+
+{ar:ٱلْيَوْمَ, tr:al-yawma, gloss:bugün} karşılaşmanın zamanını belirler; {ar:لَا تَثْرِيبَ, tr:lā tathrība, gloss:kınama yok} sözlü kınamayı keser; {ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} örtüp koruma yankısı ekler; son merhamet cümlesi bu hareketi şefkatli yakınlıkla kapatır. Her ayrıntı ayrı bir katkı sunar ve birlikte bugünü ilişkideki yerel bir dönemeç gibi duyurur. Bu bağlantı cümlenin kurduğu karşılaşmaya aittir; anlatının daha geniş akışında bir neden-sonuç zinciri kurmaz.
+
+## Bağışlanma ve Merhamet
+
+İkinci harekette {ar:يَغْفِرُ ٱللَّهُ لَكُمْ, tr:yaghfiru Allāhu lakum, gloss:Allah sizi bağışlasın} önce etken muzari fiili, ardından nominatif özneyi getirir. Fiilin önünde erteleme ya da olumsuzlama edatı bulunmadığından bağışlanma etkin bir eylem ve güvence olarak duyulur; biçim tek başına şimdiki zamanla gelecek arasında kesin seçim yaptırmaz. Açıkça belirtilen {ar:ٱللَّهُ, tr:Allāhu, gloss:Allah} özel adı failin kimliğini sabitler. Fiilin addan önce gelişi cümleyi eylemle açar, ilahî failliği azaltmaz; özel ad burada başka bir kök anlamına açılmaz. {ar:لَكُمْ, tr:lakum, gloss:sizin için} ise aynı çoğul muhatapları bağışlanmanın alıcısı yapar.
+
+Bu son ek, önceki ifadeyle birlikte okununca ilişkinin yönünü değiştirir: {ar:عَلَيْكُمُ, tr:ʿalaykumu, gloss:üzerinize} kınamanın yöneldiği grubu, {ar:لَكُمْ, tr:lakum, gloss:sizin için} bağışlanmadan yararlananları gösterir. Birinde mekânsal {ar:عَلَى, tr:ʿalā, gloss:üzerine} ilişkisi, ötekinde yarar bildiren lām vardır; aynı kişiler kınama yükünün altından bağışlanmanın muhataplığına geçer. Yusuf'un insanlar arasındaki kınamayı bırakması ile Allah'a nispet edilen bağışlanma ayrı faillerin ayrı eylemleri olarak kalır, fakat aynı buluşmada yan yana gelir. Bu yerel sıra önceden itiraf edilmiş bir suçu gerektirmez.
+
+{ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} fiilinde açık bir suç nesnesi yoktur. Böylece tek bir kusur bağışlanmanın sınırı olarak adlandırılmaz; yine de önceki {ar:لَا تَثْرِيبَ, tr:lā tathrība, gloss:kınama yok} sözünün açtığı kusur alanı, yaghfiru kökünün bir şeyi örtme, dış etkiden koruma ya da görünmez kılma yönündeki ayrı kullanımını duyurur. Bu yan anlam bağışlamaya koruyucu bir tını katarken olağan bağışlanma anlamı başta kalır. Kusur alanı belirli bir cezaya ya da sınırsız bir bağışlanma iddiasına dönüşmez; ayet dünyevî bir sonucun ortadan kalktığını da söylemez.
+
+Üçüncü hareketteki {ar:وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ, tr:wa-huwa arḥamu r-rāḥimīn, gloss:O merhamet edenlerin en merhametlisidir} aynı ilahî özneyi yeniden gösterir. Açık {ar:هُوَ, tr:huwa, gloss:o} zamiri Allah'ı merhamet yüklemine bağlar ve özneyi belirginleştirebilir; daha güçlü bir teknik ayırma işlevini zorunlu kılmaz. {ar:وَ, tr:wa, gloss:ve} bağlacı isim cümlesini önceki sözle birleştirir: koordineli okumada merhamet bağışlanmanın yanında ikinci bir bildirimdir, cümleyi yeni başlatan okumada ise bağışlanmanın dayanağını açar. Her iki bağlantıda da merhamet, az önceki duadan kopmaz.
+
+{ar:أَرْحَمُ ٱلرَّٰحِمِينَ, tr:arḥamu r-rāḥimīn, gloss:merhamet edenlerin en merhametlisi} terkibinde arḥam, izafetin üstünlük derecesi başıdır; belirli etken ortaç çoğulu al-rāḥimīn karşılaştırma sınıfını tamamlar. Merhamet adı konmuş bu sınıf içindeki üstünlük olarak duyulur, üyeleri tek tek sayılmaz. Aynı rahm kökünün iki ayrı biçimde art arda gelişi yerel bir ses ve formül kapanışı kurar; bu gözlem terkibin kendi yankısıyla sınırlıdır. Kökün yumuşama, acıma ve içten yakınlık anlamları bağışlanma eylemini şefkatle niteler; etkin koruma ve iyilik yönü de merhameti bakım olarak duyurur. Ana rahmi anlamıysa koruyup taşıyan iç mekânı çağrıştıran ayrı bir imge koludur; bu bağlantıda merhamet sözcüklerinin sözlük anlamı yerine geçmez.
+
+## Geçmişin Söz İçindeki Yeri
+
+Bu söz, kardeşlerin 12:91'de Allah'ın Yusuf'u kendilerinden üstün tuttuğunu söylemeleri ve kusurlarını kabul etmelerinin ardından gelir (12:91). {ar:ءَاثَرَكَ ٱللَّهُ عَلَيْنَا, tr:ātharaka Allāhu ʿalaynā, gloss:Allah seni bize tercih etti} tercih edilen konumu, {ar:لَخَٰطِـِٔينَ, tr:lakhāṭiʾīn, gloss:hatalı olanlar} itiraf edilen yanlışı belirtir. Yusuf'un {ar:لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ, tr:lā tathrība ʿalaykumu l-yawma, gloss:bugün size kınama yok} sözü geçmişi geri almaz; ardından gelen {ar:يَغْفِرُ ٱللَّهُ لَكُمْ, tr:yaghfiru Allāhu lakum, gloss:Allah sizi bağışlasın} duası bilinen yanlışa dönük kınamanın kullanımını değiştirir. Allah adı iki ayette de sürer, ancak yüklem ve alıcı değişir: 12:91'de Yusuf'un tercih edilmesi, burada kardeşler için bağışlanma dilenmesi söz konusudur (12:91). Bu karşılaştırma önceki tercihi geri almaz ya da tarafları eşitlemez; Allah'ın bağışlamasına Yusuf'u neden de yapmaz.
+
+Daha önceki gerilim bu yanıtın bağlamını verir. Kardeşlerden biri hırsızlıkla suçlanır ve Yusuf karşılığını içinde saklar (12:77); onun yerine başka bir kardeşin alınması önerilir (12:78), Yusuf ise böyle davranmayı haksızlık sayar (12:79). {ar:يَسْرِقْ, tr:yasriq, gloss:çalmak} isnadı, {ar:سَرَقَ, tr:saraqa, gloss:çalmıştı} önceki hırsızlık iddiasını, {ar:أَسَرَّهَا يُوسُفُ فِي نَفْسِهِ, tr:asarra-hā Yūsufu fī nafsihi, gloss:Yusuf bunu içinde sakladı} gizlenen karşılığı, {ar:خُذْ, tr:khudh, gloss:al} ikame önerisini, {ar:ظَٰلِمُونَ, tr:ẓālimūn, gloss:haksızlık edenler} ise haksız duruma düşme tehlikesini taşır (12:77, 12:78, 12:79). Bu diziye odaktaki {ar:لَا تَثْرِيبَ, tr:lā tathrība, gloss:kınama yok} ve {ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} ile bakmak, bilinen zararın yeni bir suçlamaya ve ikame cezaya çevrilmesini durduran prosedürel bir okuma sunar. Bu bağlantı isnadın doğruluğu hakkında karar vermez; sözlü kınamanın kesilmesini de her tür hesap verebilirliğin sonu saymaz.
+
+Sûrede söz, içte tutulan karşılıktan açık beyana doğru farklı biçimlerde dolaşır. Kardeşlerin {ar:قَالُوا, tr:qālū, gloss:dediler} sözü suçlamayı aktarır (12:77); Yakub'un {ar:تَصِفُونَ, tr:taṣifūna, gloss:anlatıp nitelendiriyorsunuz} sözü tartışmalı anlatıyı işaret eder (12:18). Kardeşlerin {ar:شَهِدْنَا, tr:shahidnā, gloss:bildiğimize dayanarak tanıklık ettik} demesi tanıklığın bilgi sınırını taşır (12:81); Yakub hakkında konuşulması ve {ar:بَثِّي, tr:baththī, gloss:içimdeki acıyı açığa vurma} sözü içteki kederi dile getirir (12:85, 12:86). Kardeşlerin itirafı da sonunda açık söze dönüşür (12:91). Bu sesler içinde Yusuf'un {ar:قَالَ, tr:qāla, gloss:dedi} sözü, suçlayıcı dolaşımı kesen kamusal bir karşı-söz olarak okunabilir; yinelenen qāla anlatının olağan akışını da kurabilir (12:77, 12:81, 12:85, 12:86, 12:91). Buradaki qāla sıradan “demek” anlamıyla anlatıyı ilerletir; yönetici ya da hükümdar unvanı ve dolaşan söylem için aktarılan kök kolları yalnızca benzetme düzeyinde katkı verir. Böylece {ar:تَثْرِيبَ, tr:tathrība, gloss:kusur yüzünden paylama} suçlamanın doğruluğunu karara bağlamadan, bilinen yanlışın aşağılayıcı söz olarak yeniden dolaşıma sokulmasını keser.
+
+Kardeşlerin verdikleri söz ve tanıklık sorumluluk ile bilginin ayrı alanlarını gösterir. Bir yükümlülüğü belirten {ar:مَّوْثِقًا, tr:mīthāqan, gloss:bağlayıcı ant} ve başarısızlığı adlandıran {ar:فَرَّطتُّمْ, tr:farraṭtum, gloss:ihmal ettiniz}, hüküm alanından ayrı biçimde önceki sorumluluğu görünür kılar (12:80). {ar:يَحْكُمَ, tr:yaḥkuma, gloss:hükmetmek} ve {ar:حَٰكِمِينَ, tr:ḥākimīn, gloss:hükmedenler} ayrıca bir yargılama alanı açar (12:80). {ar:شَهِدْنَا, tr:shahidnā, gloss:bildiğimize dayanarak tanıklık ettik} tanıklığın bilgi sınırını, {ar:حَٰفِظِينَ, tr:ḥāfiẓīn, gloss:gözetenler} görünmeyen karşısındaki sınırı taşır (12:81); {ar:صَٰدِقُونَ, tr:ṣādiqūn, gloss:doğru söyleyenler} ise alenî doğrulama iddiasını kendini aklamaktan ayırır (12:82). Odaktaki bağışlanma bu kaydı silmek yerine bilinen gerçeğin toplumsal kullanımını değiştirir: geçmiş ve sorumluluk korunurken aşağılayıcı tekrarın gücü azalır. Bu okuma kayıtların tümünü tarafsız ya da eksiksiz ilan etmez ve tanıklık hakkında daha geniş hüküm vermez; sahnelerin kronolojik akışı da geçerli kalır (12:80, 12:81, 12:82).
+
+Yusuf'un sorusu, itiraf ve bağışlanma arasındaki sırayı daha da açık kılar. Yusuf kardeşlerine ne yaptıklarını sorar; {ar:عَلِمْتُم مَّا فَعَلْتُم, tr:ʿalimtum mā faʿaltum, gloss:ne yaptığınızı biliyor musunuz} eylemi bilenlerin önüne koyar (12:89). {ar:إِذْ أَنتُمْ جَٰهِلُونَ, tr:idh antum jāhilūn, gloss:cahillik içindeyken} o sıradaki hâli açıklar, suçu mazur göstermez (12:89). Kardeşler ardından tercihi ve kusurlarını açıkça kabul eder; kınamama ve bağışlanma dileği bilinen eylem ile itirafın ardından duyulur (12:91). Böylece {ar:تَثْرِيبَ, tr:tathrība, gloss:kınama} ile durdurulan geçmişin bilinmesi değil, geçmişin utanç aracı olarak yeniden kullanılmasıdır. {ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} için duyulan örtme-koruma yankısı bu farkı belirginleştirir.
+
+Tercih bildiren {ar:ءَاثَرَكَ, tr:ātharaka, gloss:seni tercih etti} biçiminin kökündeki ayrı “iz” kolu, 12:84'teki {ar:ٱلْحُزْنِ, tr:al-ḥuzn, gloss:keder} ile yan yana geldiğinde geride kalmış bir yara izi imgesi sunabilir (12:84, 12:91). Bu okumada keder yaranın yerini, iz kolu geride kalan izi, kınamamanın kesilmesi yeniden yaralamamayı, yaghfiru'nun örtüsü ise izi dış etkiden korumayı sağlar. Bu yerel yankıda {ar:ٱلْحُزْنِ, tr:al-ḥuzn, gloss:keder} keder, ātharaka tercih anlamında kalır; yara izi imgesi bunların çevirisi değil, toplumsal kapanışı düşündüren yan görüntüdür. Bu bağlantı özel bir bellek iddiası kurmaz.
+
+## Ailedeki Gün ve Karşılık
+
+Kardeşler buluşmadan önce aileyi yeniden bir arada görme ümidi doğar (12:83). {ar:جَمِيعًا, tr:jamīʿan, gloss:hep birlikte} toplanma arzusunu taşır; {ar:تَوَلَّىٰ, tr:tawallā, gloss:yüz çevirdi} ayrılığı, {ar:ٱلْحُزْنِ, tr:al-ḥuzn, gloss:keder} içteki acıyı, {ar:كَظِيمٌ, tr:kaẓīm, gloss:içine dolmuş ve tutulmuş} dışarı çıkışı kapanan basıncı duyurur (12:84). {ar:بَثِّي, tr:baththī, gloss:içimdeki acıyı açığa vurma} bu sıkışmanın dile gelişini, {ar:تَحَسَّسُوا, tr:taḥassasū, gloss:izleri araştırın} suçlama yerine aramayı, {ar:رَّوْحِ, tr:rawḥ, gloss:ferahlık} ise tıkanıklığa karşı genişlemeyi taşır (12:86, 12:87). Böylece 12:83'teki umut, 12:84'teki ayrılık ve keder, 12:86'daki dışavurum ile 12:87'deki arama bir aile hareketi kurar; bugünkü kınamama bu akışla duygusal bir karşıtlık oluşturur (12:83, 12:84, 12:86, 12:87). Son merhamet cümlesindeki rahm kökünün ortak soydan gelen yakınlık kolu bu harekete akrabalık bağı katar; ana rahmi kolu ayrı kalır. Bu bağlantı duygusal bir yankıdır, aşamalar arasında neden-sonuç ilişkisi kurmaz.
+
+Kınama kökünün ayrı “bozma, karıştırma” kolu ilişki için bir düzen imgesi ekler: eski çatışmanın buluşmayı yeniden karıştırmaması. 7:151'deki kardeş için bağışlanma duası ve 12:93'teki onarıcı devam bu yan okumaya bağlam sağlar (7:151, 12:93). Odaktaki sözcüğün olağan anlamı kusur yüzünden paylamadır; burada “karıştırma” formül çevresinde beliren ayrı bir yankıdır. İtiraf ile sonraki onarımın anlatı sırası da bağlantıyı destekleyen bağlamdır, fakat bu okuma tek başına kınamanın kalkmasını onarımın nedeni yapmaz (12:91, 12:93).
+
+{ar:ٱلْيَوْمَ, tr:al-yawma, gloss:bugün} olağan zaman anlamını korurken bu itiraf ve bağışlanma sahnesinde ilişkisel bir dönemeç ağırlığı kazanabilir (12:91). Baskı altındaki büyücülerin yanlışlarını anıp Allah'tan bağışlanma dilemesi, günün bu okumasına ayrı bir bağışlanma karşılaştırması ekler (20:73); benzerlik iki sahneyi özdeşleştirmez, yanlışın anılması ve af dileğiyle sınırlıdır. Olay ağırlıklı gün kullanımı ayrıca bir karşılaştırma sağlar (34:30). Fâtiha'daki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:māliki yawmi d-dīn, gloss:karşılık gününün sahibi} daha geniş hesap ve karşılık ufkunu açar (1:4). Bu dış yankılar odaktaki günü şimdiki karşılaşma olarak bırakır: bu bağlantı onu ahiret günüyle özdeşleştirmez, kardeşler için gelecek hüküm bildirmez ya da özel bir bayram ve sabit anma günü kurmaz.
+
+Bu aile buluşmasının yanında karşılık ile borç arasındaki fark da belirir. Kardeşlerin yetersiz sunusu ve tam ölçü isteği denetlenebilir bir alışveriş alanı kurar; {ar:تَصَدَّقْ, tr:taṣaddaq, gloss:sadaka ver} eşdeğerliğin dışındaki cömertliği, {ar:يَجْزِى, tr:yajzī, gloss:karşılığını vermek} karşılıklılık mantığını gösterir (12:88, 12:89, 12:90). Bu zeminde {ar:تَثْرِيبَ, tr:tathrība, gloss:kınama} kusurun yeniden sayılmasını keser; {ar:أَرْحَمُ ٱلرَّٰحِمِينَ, tr:arḥamu r-rāḥimīn, gloss:merhamet edenlerin en merhametlisi} içindeki etken ortaç çoğulu ise iyilikte bulunan merhamet edenler sınıfını öne çıkarır. Birlikte, ölçülebilir karşılık ile etkin iyilik arasındaki farkı ve bağışlanmanın denkliğin ötesine geçip alıcıya yeni bir utanç borcu yüklemeyen cömertlik gibi duyulmasını açıklar. Bu benzetme yiyecek yardımı, ilahî ihsan ve kişilerarası bağışlamayı aynı eyleme dönüştürmez. 12:90'daki {ar:مَنَّ, tr:manna, gloss:iyilikte bulunmak ya da nimeti başa kakmak} hem lütufta bulunmayı hem iyiliği hatırlatıp alıcıyı borçlu kılmayı taşıyabilir (12:90). Kınamama ilk anlamla yakınlık kurar; bu bağlantı manna'nın bağlamdaki anlamlarından birini kesinleştirmez (12:88, 12:89, 12:90).
+
+## Örtü, Görüş ve Yeniden Buluşma
+
+Odaktan sonra gömlek babanın yüzüne yöneltilir, görmesi geri gelir ve aile bir araya çağrılır (12:93). {ar:بِقَمِيصِي, tr:bi-qamīṣī, gloss:gömleğimle} somut örtüyü, {ar:فَأَلْقُوهُ, tr:fa-alqūhu, gloss:onu atın} örtünün yüz yönündeki hareketini, {ar:وَجْهِ أَبِي, tr:wajhi abī, gloss:babamın yüzü} yüz yüze gelişi, {ar:بَصِيرًا, tr:baṣīran, gloss:görür hale gelmiş} görüşün onarılmasını taşır. {ar:أَهْلِ, tr:ahli, gloss:aile ve yakınlar} aileyi, {ar:أَجْمَعِينَ, tr:ajmaʿīn, gloss:hepsini bir arada} dağılmış yakınların bütün olarak kavuşmasını tamamlar (12:93). Bu sahneyle kurulan bağlantıda tathrība kökünün ince yağ tabakası kolu maddi örtüyü, {ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} için duyulan örtüp koruma kullanımı örtünün işleyişini, rahm kökünün ortak soy yakınlığı kolu ise yeniden buluşmanın ailevi bağını verir. Böylece gömlek-yüz-görüş ve ailece toplanma ayrıntıları, bağışlanmanın koruyucu örtüsünü yüz yüze gelme ve buluşma imkânını gözeten bir imgeye dönüştürür. Gömlek bağımsız bir iyileştirici adım olarak da okunabilir; bu bağlantı iyileşmenin nedenini 12:92'ye taşımaz ve odak sözcükleri giysi anlamına çevirmez (12:93).
+
+İnce yağ tabakası, {ar:تَثْرِيبَ, tr:tathrība, gloss:kınama} kökünün işkembe ve bağırsakları çevreleyen ayrı maddi koludur. Bu dalı saklanan karşılığı anlatan {ar:أَسَرَّهَا, tr:asarra-hā, gloss:bunu içinde gizledi} ve görünmeyen alanı belirten {ar:غَيْبِ, tr:ghayb, gloss:görünmeyen} çağrıştırır (12:77, 12:81). Bu imgeye her unsur ayrı katkı verir: ince tabaka kırılgan iç yüzeyi saran maddi örtüyü, {ar:يَغْفِرُ, tr:yaghfiru, gloss:bağışlar} için aktarılan kullanım dış etkiden koruma işlevini, rahm kökünün ana rahmi anlamı ise korunaklı iç mekânı sağlar. Birlikte, itiraf edilmiş kırılganlığın teşhir yerine korunmasını düşündürür. Bu bağlantıda odaktaki tathrība'nın olağan kınama anlamı sürer; görünmeyen alan anatomi ya da yağ tabakası sayılmaz.
+
+Koruyucu iç örtü imgesinden ayrı olarak, başka bir kök kolu yeniden ortaya çıkma benzetmesine katkı verir. {ar:لَا تَثْرِيبَ, tr:lā tathrība, gloss:kınama yok} sözlü kınamayı kaldırır; tathrība kökünün “bozma, karıştırma” kolu ilişkinin yeniden düzensizliğe sürüklenmemesi koşulunu sağlar. {ar:أَرْحَمُ ٱلرَّٰحِمِينَ, tr:arḥamu r-rāḥimīn, gloss:merhamet edenlerin en merhametlisi} terkibindeki rahm kökünün ana rahmi anlamı bu kez doğum imgesini, 12:77'deki {ar:نَفْسِ, tr:nafs, gloss:kişi ya da kendilik} çevresinde açılan çıkış çağrışımı ise ortaya çıkışı verir (12:77). 12:83'teki {ar:جَمِيعًا, tr:jamīʿan, gloss:hep birlikte} yeniden bir araya gelme ümidi, 12:93'teki {ar:أَهْلِ, tr:ahli, gloss:aile ve yakınlar} ile {ar:أَجْمَعِينَ, tr:ajmaʿīn, gloss:hepsini bir arada} dağılmış ailenin kavuşmasını tamamlar (12:83, 12:93). Birlikte bu ayrıntılar, ailenin yakınlık içinde yeniden ortaya çıkmasını düşündüren bir benzetme kurar. Bu özel benzetme koruyucu iç örtü okumasından ayrıdır; gerçek doğum, yeni çocuk ya da biyolojik soy ileri sürmez ve odak sözcüklerin sözlük anlamını değiştirmez.
+
+## Kardeşliği Gözeten Merhamet
+
+Yusuf sûresinin başındaki 12:0 besmelesi {ar:ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:al-raḥmāni al-raḥīm, gloss:Rahmân ve Rahîm} hitabını taşır (12:0); açılış Fâtiha 1:1'deki besmeleyle de aynıdır (1:1). Odaktaki {ar:أَرْحَمُ ٱلرَّٰحِمِينَ, tr:arḥamu r-rāḥimīn, gloss:merhamet edenlerin en merhametlisi} aynı rahm kökünü karşılaşmanın içinde yeniden duyurur; kınamayı bırakma ve kardeşler için bağışlanma dileği merhameti eylem halinde gösterir. Bu sûre içi yankı 12:0 ile odak arasındadır; ayrıca Fâtiha 1:3'teki {ar:ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:al-raḥmāni al-raḥīm, gloss:Rahmân ve Rahîm} adları dışarıdan bir karşılaştırma sağlar (1:3). Kardeş için bağışlanma duasındaki {ar:وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ, tr:wa-anta arḥamu r-rāḥimīn, gloss:Sen merhamet edenlerin en merhametlisisin} terkibi, yanındaki {ar:وَلِأَخِى, tr:wa-li-akhī, gloss:ve kardeşim için} sözüyle birlikte rahm kökünün ortak soydan gelen yakınlık kolunu etkinleştirir (7:151). Böylece dua ilahî merhameti kardeşlik bağını gözeten iyilik olarak duyurur. Bu bağlantı akrabalık anlamını odak sözcüğün çevirisi yapmaz ve barışmayı garanti etmez; ana rahmi kolundan da ayrıdır (7:151).
+
+Bağışlanma duası, kalbe yeniden yerleşmemesi istenen kine karşı ilişkiyi koruma talebiyle birleşir. {ar:ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ, tr:ighfir lanā wa-li-ikhwāninā alladhīna sabaqūnā bi-l-īmān, gloss:bizi ve bizden önce iman etmiş kardeşlerimizi bağışla} duasını {ar:وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّا, tr:wa-lā tajʿal fī qulūbinā ghillan, gloss:kalplerimizde kin bırakma} isteği izler; dua {ar:رَءُوفٌ رَّحِيمٌ, tr:raʾūfun raḥīm, gloss:şefkatli ve merhametli} sözleriyle kapanır (59:10). Bu bağlamdaki kardeşler imanda önce gelen topluluktur, Yusuf'un biyolojik ailesi değil (59:10). Bağışlanma, kin taşımama isteği ve ilahî merhamet adları birlikte merhametin inanç topluluğundaki ilişkiyi koruyan katkısını gösterir. Bu karşılaştırma odağa yeni bir morfoloji eklemez ya da kesin barışma sonucu çıkarmaz (59:10).
+
+</editorial_prose>
