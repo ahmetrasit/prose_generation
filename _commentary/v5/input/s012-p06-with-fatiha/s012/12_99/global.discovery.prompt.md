@@ -10,6 +10,10 @@ orchestrator. Remain available for a follow-up composition turn, but make this
 artifact self-contained so a replacement agent can continue if the session is
 lost.
 
+Do not run the terminal lifecycle command during this discovery turn. Retain it
+for the composition turn and emit it only after scope prose and ledger
+validation are complete.
+
 ## Evidence And Discovery
 
 - The inline lane packet is the complete evidence boundary. Paths and pointers

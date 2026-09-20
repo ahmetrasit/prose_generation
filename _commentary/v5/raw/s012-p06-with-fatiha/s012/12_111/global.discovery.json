@@ -1,0 +1,962 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:111",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_fec01ef98da38e472049",
+      "decision": "accept",
+      "reason": "Beş aday dalın odak QAC taşıyıcıları eşleşiyor. 6:154 ayrıntı/bütünlük/hidayet/rahmeti; 7:52 ayrıntılı kitapla hidayet ve rahmeti inananlara; 16:64 açıklamayı ihtilaf edilen hususa bağlar. Bu dış yüzeyler, ayrıntının yön veren ve ilişkileri açan işlevini destekler.",
+      "finding_refs": [
+        "global:detailed-exposition-as-guidance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d2e924e5b20f6d761903",
+      "decision": "narrow",
+      "reason": "Qasas ve ʿibra taşıyıcılarıyla 11:120'nin elçi haberlerini kalbi sağlamlaştıran öğüt ve hatırlatma olarak sunması, izlenen anlatıdan davranış dersi çıkarma çekirdeğini global bağlama taşır. Desteğin ل ب ب için andığı arıtılmış akıl dalları branch_registry'de bulunmadığından o özel dal iddiası çıkarıldı.",
+      "finding_refs": [
+        "global:traces-cross-into-lesson"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c5d69b70a889dab5021",
+      "decision": "narrow",
+      "reason": "Hadith ve tasdiq dalları 10:37 ile yankılanır; 6:25 ve 21:5 dışarıdaki küçümseme/uydurma suçlamalarını verir. Adayın uydurma kökünü dikme-onarma dalı olarak okuyan maddi imgesi için bağımsız dikiş tetikleyicisi yoktur.",
+      "finding_refs": [
+        "global:report-under-accusation"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001150/B001",
+          "reason": "Odak ve dış bağlantılar uydurma isnadını taşır; onarma, dikme veya eşya yapma anlamına ayrı bir imge ya da eylem yoktur."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_195a2b5f2bd890de2be1",
+      "decision": "narrow",
+      "reason": "Docket dalı بَيْنَ için 10:37'deki بَيْنَ يَدَيْهِ ile aynı önce/önünde ilişkisi ve tasdiq bağlantısı bulunur. Bulgu bu global geri-bağı korur; aday desteğindeki diğer ayrıntı/hidayet/rahmet sentezini bu tek dala yüklemez.",
+      "finding_refs": [
+        "global:before-it-confirmation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4501b74a1c50313719ab",
+      "decision": "reject",
+      "reason": "Retrospektif yalnızca önceki etkinleştirmelerin ötesinde sürpriz bulunmadığını söylüyor; bağımsız focus taşıyıcısı, wider trigger veya pozitif global ilişki sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a6789aa7deb7122cdc1c",
+      "decision": "narrow",
+      "reason": "Qasas B002 ve ʿibra B004 odaktaki öykü-içinde-ders ilişkisini; 11:120 anlatılan elçi haberlerinin hatırlatma işlevini destekliyor. Tüm surenin okurdan istediği bilişsel işle ilgili sav, bu pakette focus dışı sure metni bulunmadığından daraltıldı; ل ب ب dalı da branch_registry'de yok.",
+      "finding_refs": [
+        "global:ordered-story-as-reminder"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b21e08c9c70b3e3d08f",
+      "decision": "accept",
+      "reason": "Üç docket dalı odakta mevcut: uydurmayı reddetme, doğruluğu kabul eden muhatap ve rahmet. 10:37 uydurulmama/doğrulama/ayrıntı dizisini; 6:154, 7:52 ve 16:64 ayrıntı, hidayet/rahmet ve inanan muhatap bağlarını dışarıda kuruyor. Desteğin ayrıca andığı tasdiq, tafsil ve hidaya dalları da bu temaslarla doğrulanıyor.",
+      "finding_refs": [
+        "global:verified-account-for-believing-community"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_47e83024644767162c68",
+      "decision": "reject",
+      "reason": "Retrospektif kapanış focus dışı yeni bir ayah, taşıyıcı veya bağımsız trigger göstermiyor; önceki okumaları özetleyen bir değerlendirme olarak kalıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_88af08e6b106ca21f60e",
+      "decision": "reject",
+      "reason": "Gömlek/görme benzetmesinin yalnız anlatılan olaya ait olabileceği HFT özetinde anchor_evidence, focus kelime indisi, kök, atfedilmiş rol ve focus dönüşü yok; global anlatı taşıyıcısı olarak sınanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_494174915e5b1f410f17",
+      "decision": "reject",
+      "reason": "Önünde duran şeyin önceki vahiy, yakın kanıt veya ikisi olabileceği HFT kaydında kelime-kök-rol-focus trace'i yok. 10:37 bağımsız paralel verse de bu HFT kaydının eksik izini tamamlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_09bea48d3ccf2bc37b4b",
+      "decision": "reject",
+      "reason": "Her şey ifadesinin evrensel ya da anlatının işlevsel alanıyla sınırlı olabileceği sorusunda anchor, kelime indisi, kök ve focus dönüş koordinatı yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_029192fa95be284e7114",
+      "decision": "reject",
+      "reason": "Rahmin ana, iftiranın dikme ve h-d-d gölge okumalarının korunması önerisinde anchor_evidence ve ilgili kelime/kök/rol/focus trace'i bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_853f11d79dd6641e3e14",
+      "decision": "reject",
+      "reason": "12:110'daki kriz inkârına dair HFT özetinde 12:111'e dönen kelime/kök/rol izi yok; host-surah içi kriz bağlamı tek başına global trigger değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4b1a466e92caf8e3c61e",
+      "decision": "reject",
+      "reason": "Qasas/ibra iz-sürme okuması odakta ayrıca incelenebilir; ancak bu HFT kaydının kendi ayah/kelime/kök/rol/focus dönüş trace'i boş.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_14b8604c637fce12991d",
+      "decision": "reject",
+      "reason": "Koku, işaret ve görmenin geri dönmesiyle ilgili latent algı iddiasında anchor_evidence, focus occurrence, kök ve atfedilmiş rol yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e377673525b261b20c24",
+      "decision": "reject",
+      "reason": "Rüya, tevil, gizli haber ve vahiy bileşiminde exact HFT anchor veya focus-return trace'i yok; iddia izlenebilir global role indirgenemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4b987cd072924e839957",
+      "decision": "reject",
+      "reason": "İşaretleri aşma ve adli yolculuk iddiasında anchor, kelime indisi, kök ve focus dönüşü olmadan bağımsız taşıyıcı-temas mekanizması kurulamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_858a5ce8196ef6b5e189",
+      "decision": "reject",
+      "reason": "Rahmetin akrabalıkla birleşmesi ve imanın tasdik/güven/güvenlik ayrımı için exact anchor_evidence, kelime-kök-rol koordinatları veya focus-return trace'i yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5cb91ddd3cb600e05152",
+      "decision": "reject",
+      "reason": "Eşik ve yanlış sonlanış dizisinin aktarılabilir örüntü olduğu HFT kaydında focus'a dönen ayah/kelime/kök/rol gösterilmemiş.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9da1faf1484f642bb8ee",
+      "decision": "reject",
+      "reason": "Kanıt protokolü, algı, tevil, hidayet, ilişkisel kuşatma ve kriz eşiğini birleştiren HFT özeti için anchor_evidence ve focus-return trace'i yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:detailed-exposition-as-guidance",
+      "origin_candidate_id": "cand_fec01ef98da38e472049",
+      "represented_candidate_ids": [],
+      "title": "Ayrıntı, yön ve rahmetle birlikte işler",
+      "claim": "Odağın tafsil taşıyıcısı, 6:154'te her şeyin ayrıntılı açıklanmasıyla hidayet ve rahmetin; 7:52'de ayrıntılandırılmış kitabın hidayet/rahmet ve inanan toplulukla; 16:64'te ihtilaf edilenin açıklanmasının hidayet ve rahmetle yan yana gelişiyle daha geniş bir işlev kazanır. Ayrıntı böylece yığılmış bilgi değil, farkları görünür kılıp yön ve iyilik sağlayan açıklama olarak da okunur.",
+      "mechanism": "Odağın تَفْصِيلَ taşıyıcısı parçaları ayırarak açıklamayı taşır. 6:154 ve 7:52 ayrıntılı kitabı hidayet/rahmetle; 16:64 açıklamayı ihtilaf edilen noktaya ve aynı yönlendirici işleve bağlar. Bu dış kullanımlar focus'taki ayrıntının ilişkileri açıp yön verdiğini gösterir.",
+      "reader_payoff": "Okur, kapsamlı ayrıntıyı bilgi miktarının yanında farkları belirginleştirip yol gösteren bir işlev olarak da görür.",
+      "containment": "Paraleller odağın kapsamlı ifadesini korur; bütün maddelerin aynı ayetlerde aynı sınırla yer aldığını ileri sürmez. Hedef morfolojisi sağlanmadığından hedef kök/biçim iddiası yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Focus dalları ve QAC taşıyıcıları tam; üç hedefin Arapçası ve bağlantı notları pakette. Hedef morfolojisi yok ve bağlantı satırları tek başına hüküm değil; yorum açık yüzey ilişkileriyle sınırlı."
+      },
+      "support_ids": [
+        "sup_7484bc057605d966c24c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001159/B013",
+          "facet_id": "F001",
+          "branch_gloss": "parçaları ve anlamları ayırarak ayrıntılı biçimde açıklama",
+          "facet_statement": "Konu, parçaları ve anlamları birbirinden ayırt edilerek açıkça anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:17:2"
+          ],
+          "trigger_refs": [
+            "6:154",
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:17:2"
+          ],
+          "carrier": "Odağın تَفْصِيلَ sözü ayrıntıları ayırıp anlamlı biçimde açıklar.",
+          "independent_trigger": "6:154 ayrıntıyı her şeyle, 7:52 ayrıntılandırılmış kitabı, 16:64 ihtilaf edilenin açıklanmasını hidayet ve rahmetle bağlar.",
+          "activation": "Geniş açıklama örnekleri, odaktaki tafsil taşıyıcısıyla bağımsız temas kurar.",
+          "resulting_reading": "Ayrıntı farkları açıp yön veren bir işlev kazanır.",
+          "boundary": "Hedef kök ve morfolojisi çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001315/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bütün, tüm",
+          "facet_statement": "Bir şeyin parçalarının veya bir kümedeki bireylerin hiçbirini dışarıda bırakmadan kapsanması çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:18:1"
+          ],
+          "trigger_refs": [
+            "6:154"
+          ],
+          "focus_return_refs": [
+            "12:111:18:1"
+          ],
+          "carrier": "Odağın كُلِّ sözü kapsamı bütün parçalara yöneltir.",
+          "independent_trigger": "6:154 ayrıntılı açıklamayı her şey kapsamına bağlar.",
+          "activation": "Dış kullanım totality ile ayrıntıyı aynı ilişkide buluşturur.",
+          "resulting_reading": "Odaktaki geniş kapsam ayrıntılı açıklamayla birlikte okunur.",
+          "boundary": "Kapsam sınırlarının özdeşliği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yolu gösterme ve doğruya yönelme",
+          "facet_statement": "Doğru yönü, yolu veya gerçeği incelikle göstermek, açıklamak ve tanıtmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:20:2"
+          ],
+          "trigger_refs": [
+            "6:154",
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:20:2"
+          ],
+          "carrier": "Odağın hidayet sözü doğru yönü gösterir.",
+          "independent_trigger": "Üç dış bağlam açıklama ile hidayeti yan yana verir.",
+          "activation": "Tekrarlanan işlev bağı, tafsili yön bulmanın öncülü olarak okutur.",
+          "resulting_reading": "Ayrıntı yön ve hakikati tanıtmaya hizmet eder.",
+          "boundary": "Odaktaki hidayeti başka işleve dönüştürmez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:21:2"
+          ],
+          "trigger_refs": [
+            "6:154",
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:21:2"
+          ],
+          "carrier": "Odağın rahmet sözü esirgeme ve iyilik sonucunu taşır.",
+          "independent_trigger": "Dış bağlamlar açıklama/hidayet işlevini rahmetle birleştirir.",
+          "activation": "Rahmet, yönlendirici açıklamanın alıcıya dönük iyilik boyutuna dönüşür.",
+          "resulting_reading": "Rahmet bağımsız bir etiket değil, işlev kümesinin yarar yönüdür.",
+          "boundary": "Hedef özneye dair morfoloji iddiası yoktur."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:23:1"
+          ],
+          "trigger_refs": [
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:23:1"
+          ],
+          "carrier": "Odağın يُؤْمِنُونَ sözü doğru sayıp kabul eden topluluğu niteler.",
+          "independent_trigger": "7:52 ve 16:64 hidayet/rahmeti inanan muhatapla bağlar.",
+          "activation": "Dış muhatap formülü focus'taki alıcı koşuluna geri döner.",
+          "resulting_reading": "İnanan topluluk hidayet ve rahmetin yöneldiği alıcı olarak belirginleşir.",
+          "boundary": "İman dalları tek tanıma indirgenmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_db98ce1b419c6ce049eb",
+        "conn_723486717e56ce676f9d",
+        "conn_42ef4a6d7323726a91bd"
+      ],
+      "context_refs": [
+        "6:154",
+        "7:52",
+        "16:64"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:traces-cross-into-lesson",
+      "origin_candidate_id": "cand_d2e924e5b20f6d761903",
+      "represented_candidate_ids": [],
+      "title": "İzlenen anlatıdan taşınabilir ders",
+      "claim": "Odağın hikâye ve ibret bağı, izlerin sürülüp geçmiş durumların karşılaştırılmasıyla davranışa taşınan bir ders olarak da okunur. 11:120'de elçi haberlerinin anlatılması kalbi sağlamlaştıran hakikat, öğüt ve müminler için hatırlatmayla birlikte anılır; bu dış temas olayları yalnızca hatırlanan vakalar olmaktan çıkarıp okurda ders üreten bir anlatı pratiğine bağlar.",
+      "mechanism": "Qasas taşıyıcısı anlatı izini sürer; aynı ayetteki ʿibra geçmiş durumdan karşılaştırmalı ders çıkarma trigger'ıdır. 11:120 elçi haberlerini kalbi sağlamlaştırma ve hatırlatmayla bağlar; bu işlev odağın öyküden ders çıkarma ilişkisine geri döner.",
+      "reader_payoff": "Okur, olayları yeniden hatırlamanın yanında izleyip karşılaştırarak başka durumlara taşıyabileceği dersi fark eder.",
+      "containment": "Her olayın tek bir alegori olduğu veya her ayrıntının aynı sonucu verdiği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk desteği legacy_unbound; focus branch'leri ve 11:120'nin tam Arapçası sağlanıyor. Hedef morfolojisi yok; dış işlev paralel olarak sınırlandırıldı."
+      },
+      "support_ids": [
+        "sup_06a2a7d372d8221185b8"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001232/B001",
+          "facet_id": "F001",
+          "branch_gloss": "izi adım adım sürme",
+          "facet_statement": "Bırakılmış bir izi, önceki işaretten sonrakine geçerek takip etme eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:4:1"
+          ],
+          "trigger_refs": [
+            "12:111:5:1",
+            "11:120"
+          ],
+          "focus_return_refs": [
+            "12:111:4:1",
+            "12:111:5:1"
+          ],
+          "carrier": "Odağın قَصَصِهِمْ sözü anlatı izlerini sürme basıncını taşır.",
+          "independent_trigger": "Odaktaki ʿibra karşılaştırmalı dersi; 11:120 haber anlatımının kalbi sağlamlaştırma ve hatırlatma işlevini verir.",
+          "activation": "İzlenen anlatı, odaktaki ders ve dış hatırlatma işleviyle temas eder.",
+          "resulting_reading": "Öykü başka durumlara taşınabilecek bir dersin izlenerek çıkarıldığı anlatı olur.",
+          "boundary": "Her ayrıntı tek sonuca bağlanmaz."
+        },
+        {
+          "branch_ref": "root_000974/B004",
+          "facet_id": "F002",
+          "branch_gloss": "gözlenen durumdan karşılaştırmayla sonuç ve ders çıkarma",
+          "facet_statement": "Bu karşılaştırmayla doğrudan görülmeyen bir sonuca ulaşılır ve davranış için ders çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:5:1"
+          ],
+          "trigger_refs": [
+            "12:111:4:1",
+            "11:120"
+          ],
+          "focus_return_refs": [
+            "12:111:4:1",
+            "12:111:5:1"
+          ],
+          "carrier": "Odağın ʿibra sözü karşılaştırmadan davranış dersi çıkarma alanını taşır.",
+          "independent_trigger": "11:120 anlatılan haberleri öğüt ve hatırlatma olarak sunar.",
+          "activation": "Dış anlatımın öğüt işlevi focus'taki dersin davranışa yönelen sonucuna temas eder.",
+          "resulting_reading": "Geçmiş olaydan başka davranışlara taşınabilen kavrayış çıkar.",
+          "boundary": "Tek ve zorunlu bir sonuç tayin edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_7506075ece4066a8f9b9"
+      ],
+      "context_refs": [
+        "11:120"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:report-under-accusation",
+      "origin_candidate_id": "cand_3c5d69b70a889dab5021",
+      "represented_candidate_ids": [],
+      "title": "Uydurma isnadına karşı anlatı",
+      "claim": "Odak, aktarılan sözü uydurma diye nitelemeyi reddeder ve onu öncesini doğrulayan bir söz olarak kurar. 6:25'te anlatının eskilerin masalları diye küçümsenmesi, 21:5'te peygamberlik anlatısına uydurma suçlaması ve 10:37'de uydurulmama-doğrulama-ayrıntı dizisi görülür. Bu temaslar odağın doğruluk cümlesini daha geniş bir alımlanma tartışmasına yerleştirirken doğrulamayı olumlu karşılık olarak tutar.",
+      "mechanism": "Odaktaki hadith bildirilen söz; yuftara uydurma isnadını reddeder; tasdiq önceki bildiriyi doğrular. 6:25/21:5 dış alımlanma çerçevesi, 10:37 ise aynı reddi doğrulama ve tafsil ile bağlayan dış trigger'dır. Bu ilişkiler odağa dönerek cümlenin tek başına niteleme olmasının yanında daha geniş tartışmaya cevap vermesini sağlar.",
+      "reader_payoff": "Okur, uydurma reddinin daha geniş bir itiraz alanında durduğunu ve doğrulamanın anlatının olumlu işlevi olduğunu görür.",
+      "containment": "6:25 veya 21:5'in doğrudan Yusuf kıssasına yöneltildiği ileri sürülmez; 10:37 ile odak özdeşleştirilmez. Hedef morfolojisi ve maddi dikiş imgesi iddiası yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Focus dalları ve hedef Arapça metinleri pakette, fakat hedef morfolojileri yok ve reader-walk kaydı legacy_unbound; yorum görünür paralelliklerle sınırlı."
+      },
+      "support_ids": [
+        "sup_14889569843e8f8f31b1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000299/B003",
+          "facet_id": "F001",
+          "branch_gloss": "söz, anlatım ve karşılıklı konuşma",
+          "facet_statement": "Bir kişiye işitme veya bildirim yoluyla ulaşan söz ve aktarılan içeriktir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:10:1"
+          ],
+          "trigger_refs": [
+            "6:25",
+            "21:5",
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:10:1"
+          ],
+          "carrier": "Odağın حَدِيثًا sözü aktarılan haber/söz kategorisini taşır.",
+          "independent_trigger": "6:25 anlatının kadim masal diye küçümsenmesini, 21:5 uydurma suçlamasını, 10:37 uydurulmama iddiasını verir.",
+          "activation": "Dış alımlanma örnekleri focus'taki rapor kategorisine döner.",
+          "resulting_reading": "Hadith doğruluğu tartışılan aktarılan söz olarak duyulur.",
+          "boundary": "Hedef kelimeler hadith'in morfolojik karşılığı ilan edilmez."
+        },
+        {
+          "branch_ref": "root_001150/B003",
+          "facet_id": "F001",
+          "branch_gloss": "asılsız söz veya suçlama uydurmak",
+          "facet_statement": "Gerçek olmayan bir söz veya iddia bilinçli biçimde üretilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:11:1"
+          ],
+          "trigger_refs": [
+            "6:25",
+            "21:5",
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:11:1"
+          ],
+          "carrier": "Odağın يُفْتَرَىٰ sözü uydurma isnadını reddeder.",
+          "independent_trigger": "21:5 uydurma suçlamasını, 6:25 anlatının küçümsenmesini, 10:37 uydurulmama ifadesini sağlar.",
+          "activation": "Dış suçlamalar odağın reddine bağlam verir; 10:37 reddi doğrulama ve tafsille eşler.",
+          "resulting_reading": "Uydurma reddi daha geniş anlatı tartışmasının içine girer.",
+          "boundary": "Bu ayetlerin odağa tarihsel olarak yöneldiği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir söz, beklenti veya iddia gerçekleşme, eylem ya da onayla doğru çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:13:1"
+          ],
+          "trigger_refs": [
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:13:1"
+          ],
+          "carrier": "Odağın تَصْدِيقَ sözü bir bildiriyi doğrular.",
+          "independent_trigger": "10:37 uydurulmama, doğrulama ve tafsili aynı dizide verir.",
+          "activation": "Dış dizinin tekrarı doğrulamayı daha geniş öz-tanımlama ilişkisine bağlar.",
+          "resulting_reading": "Odak yalnız yalanlamaz, öncesini doğrular.",
+          "boundary": "Hedef kök/morfoloji çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F004",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir sözün doğruluğunu kabul etmek veya önceki bir bildiriyi desteklemek onay yoluyla doğrulamadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:13:1"
+          ],
+          "trigger_refs": [
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:13:1",
+            "12:111:15:1"
+          ],
+          "carrier": "Odak doğrulamayı öncesindeki bildiriyi destekleme olarak kurar.",
+          "independent_trigger": "10:37 doğrulamayı uydurulmama ve tafsil dizisine yerleştirir.",
+          "activation": "Tekrar önceki bildiriyi doğrulama yönünü belirginleştirir.",
+          "resulting_reading": "Doğrulama önceki bildiriyi destekleyen ilişki olur.",
+          "boundary": "Hangi önceki bildirinin kastedildiği seçilmez."
+        },
+        {
+          "branch_ref": "root_001159/B013",
+          "facet_id": "F001",
+          "branch_gloss": "parçaları ve anlamları ayırarak ayrıntılı biçimde açıklama",
+          "facet_statement": "Konu, parçaları ve anlamları birbirinden ayırt edilerek açıkça anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:17:2"
+          ],
+          "trigger_refs": [
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:17:2"
+          ],
+          "carrier": "Odağın tafsil taşıyıcısı parçaları ayırıp açıklar.",
+          "independent_trigger": "10:37 doğrulama dizisinde kitabın tafsilini de anar.",
+          "activation": "Dış formüldeki tafsil odağın doğrulama cümlesine geri döner.",
+          "resulting_reading": "Doğruluk iddiası ayrıntılı açıklamadan kopuk kalmaz.",
+          "boundary": "Hedef kitap odakla özdeşleştirilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_8997adb935a6213ef6cb",
+        "conn_9b4755231cf65be271c3",
+        "conn_ef6c6de2aab3108f10c3"
+      ],
+      "context_refs": [
+        "6:25",
+        "10:37",
+        "21:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:before-it-confirmation",
+      "origin_candidate_id": "cand_195a2b5f2bd890de2be1",
+      "represented_candidate_ids": [],
+      "title": "Önünde olanla kurulan doğrulama",
+      "claim": "Odak doğrulamayı önünde duran şeyle kurar. 10:37'de aynı bayna yadayhi ilişkisi uydurulmama, doğrulama ve tafsil dizisinin içinde yinelenir; bu tekrar odağın önceye dönük doğrulamasını daha geniş bir vahiyler arası süreklilik ilişkisine bağlar.",
+      "mechanism": "Odağın bayna taşıyıcısı yadayhi ile kurulan ifadede önünde duran şeye yönelir; tasdiq bu öncekini doğrular. 10:37 aynı önce/önünde ifadesini doğrulama bağlamında tekrarlar ve focus'a geri dönen dış trigger olur.",
+      "reader_payoff": "Okur, doğrulamayı genel bir olumlu niteleme yanında önceki bildiriyi destekleyen yönlü ilişki olarak da fark eder.",
+      "containment": "Bu temas belirli bir önceki metni seçmez veya yadayhi için fiziksel/zamansal tek yorum dayatmaz. Hedef morfolojisi sağlanmadığı için hedef kök çözümlemesi yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Focus branch'i ve 10:37'nin tam Arapça metni var; hedef morfolojisi yok ve kaynak legacy_unbound. Yorum önce/ doğrulama ilişkisine sınırlı."
+      },
+      "support_ids": [
+        "sup_5f44d5510d5a7f049572"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000170/B002",
+          "facet_id": "F001",
+          "branch_gloss": "arada olma",
+          "facet_statement": "Çekirdek anlam iki veya daha çok taraf arasındaki orta, aralık ve iç konumdur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:15:1"
+          ],
+          "trigger_refs": [
+            "12:111:13:1",
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:15:1",
+            "12:111:16:1",
+            "12:111:16:2"
+          ],
+          "carrier": "Odağın بَيْنَ sözü iki taraf arasındaki ilişkiyi kurar.",
+          "independent_trigger": "Odağın tasdiqi önceki bildiriyi doğrular; 10:37 aynı bayna yadayhi ifadesini bu bağlamda verir.",
+          "activation": "İlişki sözü önceki bildiriye dönen doğrulamayla dış formül arasında temas kurar.",
+          "resulting_reading": "Önceki ile sonraki arasındaki bağ doğrulamanın parçası olur.",
+          "boundary": "Belirli bir tarihsel metin saptanmaz."
+        },
+        {
+          "branch_ref": "root_000170/B002",
+          "facet_id": "F002",
+          "branch_gloss": "arada olma",
+          "facet_statement": "Belirli kalıplarda birinin önünde, yanında veya yakınında bulunma anlamı doğar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:15:1"
+          ],
+          "trigger_refs": [
+            "12:111:13:1",
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:15:1",
+            "12:111:16:1",
+            "12:111:16:2"
+          ],
+          "carrier": "Bayna yadayhi kalıbında focus taşıyıcısı önünde duran şeye yönelir.",
+          "independent_trigger": "10:37 aynı kalıbı doğrulama/tafsil dizisinde tekrarlar.",
+          "activation": "Kalıptaki önce/önünde ilişkisi dış tekrar üzerinden focus'un geriye dönük bağını genişletir.",
+          "resulting_reading": "İfade önceki içeriğe dönük bir ilişki olarak da okunur.",
+          "boundary": "Hedef morfolojisi veya belirli antecedent çıkarılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_ef6c6de2aab3108f10c3"
+      ],
+      "context_refs": [
+        "10:37"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ordered-story-as-reminder",
+      "origin_candidate_id": "cand_a6789aa7deb7122cdc1c",
+      "represented_candidate_ids": [],
+      "title": "Öykülerin içinde bulunan ders",
+      "claim": "Odak dersi öykülerin içine yerleştirir; sıralı anlatı akıl sahiplerinin inceleyip başka durumlara taşıyacağı bir alan olur. 11:120'de elçi haberlerinin aktarılması kalbi sağlamlaştıran hakikat, öğüt ve müminler için hatırlatmayla birlikte sunulur. Bu dış örnek, odaktaki anlatıyı kopuk özdeyiş değil, okurun düşünmesini ve hatırlamasını sağlayan biçim olarak görünür kılar.",
+      "mechanism": "Odağın qasas taşıyıcısı olayları sırayla aktarır; ʿibra dersin öykülerin içinde oluşmasını sağlar. 11:120 elçi haberlerini kalbi güçlendirme ve hatırlatmayla eşler; dış bağ focus'taki öykü-ders ilişkisine döner.",
+      "reader_payoff": "Okur, dersi anlatıdan kopuk bir özdeyiş olarak değil, olayların içinden çıkarılıp başka durumlara taşınan kavrayış olarak görür.",
+      "containment": "Bu bulgu önceki sure ayetlerinin tamamını veya tüm Yusuf anlatısının etkisini kapsamaz; 11:120 paralel işlev sunar, aynı olayları değil.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Focus yüzeyi ve 11:120 Arapçası mevcut; reader-walk kaydı legacy_unbound ve hedef morfolojisi yok. Tüm-sure iddiası daraltıldı."
+      },
+      "support_ids": [
+        "sup_4a5c3c2c1686dda5b3a6"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001232/B002",
+          "facet_id": "F001",
+          "branch_gloss": "olayları sırasıyla anlatma",
+          "facet_statement": "Olay veya haber parçalarını birbirini izleyen bir düzen içinde aktarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:4:1"
+          ],
+          "trigger_refs": [
+            "12:111:5:1",
+            "11:120"
+          ],
+          "focus_return_refs": [
+            "12:111:4:1",
+            "12:111:5:1"
+          ],
+          "carrier": "Odağın qasas sözü olay ve haberleri sıralı düzende aktarır.",
+          "independent_trigger": "Odaktaki ibra dersi öykülerin içine koyar; 11:120 elçi haberlerini kalbi sağlamlaştıran ve hatırlatan anlatım olarak verir.",
+          "activation": "Sıralı anlatı, focus'taki ders ve dış hatırlatma işleviyle birleşir.",
+          "resulting_reading": "Öykü, okurun anlam çıkaracağı ve başka durumlara taşıyacağı alan olur.",
+          "boundary": "Tüm surenin aynı bilişsel işlemi talep ettiği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000974/B004",
+          "facet_id": "F002",
+          "branch_gloss": "gözlenen durumdan karşılaştırmayla sonuç ve ders çıkarma",
+          "facet_statement": "Bu karşılaştırmayla doğrudan görülmeyen bir sonuca ulaşılır ve davranış için ders çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:5:1"
+          ],
+          "trigger_refs": [
+            "12:111:4:1",
+            "11:120"
+          ],
+          "focus_return_refs": [
+            "12:111:4:1",
+            "12:111:5:1"
+          ],
+          "carrier": "Odağın ʿibra sözü karşılaştırmadan ders çıkarma alanını taşır.",
+          "independent_trigger": "11:120 anlatılan haberleri öğüt ve hatırlatma diye çerçeveler.",
+          "activation": "Dış anlatımın öğüt işlevi odaktaki davranış dersine temas eder.",
+          "resulting_reading": "Geçmiş olay başka durumlara taşınan bir kavrayış üretir.",
+          "boundary": "Tek zorunlu sonuç tayin edilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_7506075ece4066a8f9b9"
+      ],
+      "context_refs": [
+        "11:120"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:verified-account-for-believing-community",
+      "origin_candidate_id": "cand_1b21e08c9c70b3e3d08f",
+      "represented_candidate_ids": [],
+      "title": "Doğrulama, ayrıntı ve inanan muhatap",
+      "claim": "Odak anlatının uydurma olmadığını, öncesini doğruladığını ve ayrıntılı açıkladığını söyler; ardından hidayet ve rahmeti inanan topluluğa bağlar. 10:37 uydurulmama/doğrulama/tafsil dizisini, 6:154 ayrıntı-hidayet-rahmet kümesini, 7:52 ayrıntılı kitabı inananlar için hidayet ve rahmetle, 16:64 açıklamayı ihtilaf edilen konu ve inanan muhatapla bağlar. Bu tekrar doğruluk iddiasını yön ve iyiliğe erişimle ilişkilendirir.",
+      "mechanism": "Odaktaki uydurma reddi, tasdiq, tafsil, huda, rahma ve iman taşıyıcıları sıralı ilişki kurar. 10:37 ilk doğruluk/ayrıntı kümesini; 6:154, 7:52 ve 16:64 açıklama, hidayet/rahmet ve muhatap bağını dışarıda tekrarlar.",
+      "reader_payoff": "Okur, doğruluk iddiasının savunmada kalmadığını; ayrıntı, yön bulma ve rahmetin inanan muhatapla kurduğu bağı görür.",
+      "containment": "Paraleller odaktaki nitelemeleri korur; aynı kitap, aynı hedef kitle veya her şeyi kapsayan tek bir sınır iddiası kurmaz. Hedef morfolojisi çıkarılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk kaydı legacy_unbound; focus occurrence'ları ve dört hedefin tam Arapçası pakette. Hedef morfolojileri olmadığından ilişki görünür işlev kümeleriyle sınırlı."
+      },
+      "support_ids": [
+        "sup_42af043553987f2ec356"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001150/B003",
+          "facet_id": "F001",
+          "branch_gloss": "asılsız söz veya suçlama uydurmak",
+          "facet_statement": "Gerçek olmayan bir söz veya iddia bilinçli biçimde üretilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:11:1"
+          ],
+          "trigger_refs": [
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:11:1"
+          ],
+          "carrier": "Odağın يُفْتَرَىٰ sözü uydurma isnadını reddeder.",
+          "independent_trigger": "10:37 uydurulmama ile doğrulama ve tafsili birlikte verir.",
+          "activation": "Dış formül odağın reddine döner ve olumlu işlevle eşler.",
+          "resulting_reading": "Uydurma reddi daha geniş öz-tanımlama kümesine katılır.",
+          "boundary": "Hedef biçimbilimi çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F001",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir söz, beklenti veya iddia gerçekleşme, eylem ya da onayla doğru çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:13:1"
+          ],
+          "trigger_refs": [
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:13:1"
+          ],
+          "carrier": "Odağın تَصْدِيقَ sözü bildiriyi doğrular.",
+          "independent_trigger": "10:37 aynı reddi doğrulamayla eşler.",
+          "activation": "Tekrar focus doğrulamasını geniş metinsel işleve bağlar.",
+          "resulting_reading": "Anlatı öncesini doğrulayan söz olarak görünür.",
+          "boundary": "Hedef morfolojisi kurulmaz."
+        },
+        {
+          "branch_ref": "root_000852/B004",
+          "facet_id": "F004",
+          "branch_gloss": "sözü veya beklentiyi doğrulayıp gerçekleştirme",
+          "facet_statement": "Bir sözün doğruluğunu kabul etmek veya önceki bir bildiriyi desteklemek onay yoluyla doğrulamadır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:13:1"
+          ],
+          "trigger_refs": [
+            "10:37"
+          ],
+          "focus_return_refs": [
+            "12:111:13:1",
+            "12:111:15:1"
+          ],
+          "carrier": "Odağın tasdiqi öncesindeki bildiriyi destekler.",
+          "independent_trigger": "10:37 doğrulamayı uydurulmama/tafsil dizisine koyar.",
+          "activation": "Önceki bildiriyi destekleme yönü dış tekrar ile belirginleşir.",
+          "resulting_reading": "Doğrulama etkin ve geçmişe dönük bir ilişki olur.",
+          "boundary": "Hangi bildirim olduğu seçilmez."
+        },
+        {
+          "branch_ref": "root_001159/B013",
+          "facet_id": "F001",
+          "branch_gloss": "parçaları ve anlamları ayırarak ayrıntılı biçimde açıklama",
+          "facet_statement": "Konu, parçaları ve anlamları birbirinden ayırt edilerek açıkça anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:17:2"
+          ],
+          "trigger_refs": [
+            "6:154",
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:17:2"
+          ],
+          "carrier": "Odağın tafsil taşıyıcısı parçaları ve anlamları ayırır.",
+          "independent_trigger": "Üç dış ayet ayrıntılı açıklama veya anlaşmazlıkları beyan etme işlevi verir.",
+          "activation": "Dış açıklama örnekleri tafsilin hidayete hizmet eden yanını açar.",
+          "resulting_reading": "Ayrıntı anlamlı farklılaştırma olarak görünür.",
+          "boundary": "Hedef morfolojisi çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yolu gösterme ve doğruya yönelme",
+          "facet_statement": "Doğru yönü, yolu veya gerçeği incelikle göstermek, açıklamak ve tanıtmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:20:2"
+          ],
+          "trigger_refs": [
+            "6:154",
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:20:2"
+          ],
+          "carrier": "Odağın huda sözü doğru yönü gösterir.",
+          "independent_trigger": "Dış formüller açıklamayla hidayeti birlikte verir.",
+          "activation": "Ayrıntıdan yön göstermeye geçiş wider uses içinde görünür.",
+          "resulting_reading": "Hidayet, açıklamanın yön veren sonucu olur.",
+          "boundary": "Odaktaki işlev değiştirilmez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:21:2"
+          ],
+          "trigger_refs": [
+            "6:154",
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:21:2"
+          ],
+          "carrier": "Odağın rahma sözü esirgeme ve iyilik ilişkisini taşır.",
+          "independent_trigger": "Dış ayetler rahmeti hidayet/açıklama işleviyle birleştirir.",
+          "activation": "Rahmet, aynı alıcıya dönük işlev kümesinin parçası olur.",
+          "resulting_reading": "Rahmet, anlatının yön ve yarar sağlayan yanını tamamlar.",
+          "boundary": "Hedef özne hakkında ek iddia yok."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:21:2"
+          ],
+          "trigger_refs": [
+            "6:154",
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:21:2"
+          ],
+          "carrier": "Odağın rahma sözü etkin esirgeme ve iyiliği taşır.",
+          "independent_trigger": "Dış bağlamlar rahmeti hidayet ve açıklamayla yan yana verir.",
+          "activation": "Dış işlev kümesi odağın rahmetini okura ulaşan iyilik olarak etkinleştirir.",
+          "resulting_reading": "Rahmet, anlatının alıcıya dönük yarar yönüdür.",
+          "boundary": "Her alıcının aynı sonucu yaşadığı söylenmez."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:111:23:1"
+          ],
+          "trigger_refs": [
+            "7:52",
+            "16:64"
+          ],
+          "focus_return_refs": [
+            "12:111:23:1"
+          ],
+          "carrier": "Odağın iman taşıyıcısı sözü veya hakikati doğru kabul eden muhatabı niteler.",
+          "independent_trigger": "7:52 ve 16:64 hidayet/rahmeti inananlar için çerçeveler.",
+          "activation": "Wider recipient formula focus'taki inanan topluluğa geri döner.",
+          "resulting_reading": "Hidayet ve rahmet alıcı koşuluyla birlikte görünür.",
+          "boundary": "İman güvenlik dalıyla karıştırılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_ef6c6de2aab3108f10c3",
+        "conn_db98ce1b419c6ce049eb",
+        "conn_723486717e56ce676f9d",
+        "conn_42ef4a6d7323726a91bd"
+      ],
+      "context_refs": [
+        "6:154",
+        "7:52",
+        "10:37",
+        "16:64"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Bağlantı hedeflerinin Arapça metni sağlanıyor, hedef morfolojileri sağlanmıyor; hedef tarafta kök/biçim iddiası kurulmadan yüzey paralellikleri kullanıldı.",
+    "Fātiha 1:3 yalnız geniş bir rahmet paraleli; paket notu anlatı, doğrulama veya açıklama bağı olmadığını belirtiyor ve bu ilişki focus okumasını maddi biçimde değiştirmiyor.",
+    "On iki HFT reader-summary kaydının tümünde anchor_evidence ve focus'a dönüş trace'i boş; kayıtların her biri ayrı değerlendirildi ve global bulgu olarak kullanılmadı.",
+    "Tüm sure için ileri sürülen bilişsel sonuç daraltıldı; bu pakette focus dışı sure metni seçilmemiş.",
+    "Legacy reader-walk desteğindeki ل ب ب B003/B004 atıfları için inline branch_registry'de eşleşen focus branch kaydı yok; yalnız primary-floor'daki akıl sahipleri ifadesi korundu."
+  ]
+}

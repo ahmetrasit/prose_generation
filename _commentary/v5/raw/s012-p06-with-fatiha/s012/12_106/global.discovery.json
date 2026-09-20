@@ -1,0 +1,556 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:106",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_8dc3d8a2d321d743386f",
+      "decision": "accept",
+      "reason": "Adayın üç dalı da korunuyor: doğru sayıp kabul etme odağın inanma fiiline, Tanrı'ya ortak koşma odaktaki müşrik durumuna, yalın ortaklık dalı ise 6:136'daki pay bölüşümüne sınırlı analojiyle bağlanıyor. Eşzamanlılık odağın kendi yapısında, daha geniş tetikleyici ise supplied 6:136 metninde bulunuyor.",
+      "finding_refs": [
+        "global:shared-allocation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e764c85c908e44d45448",
+      "decision": "represented",
+      "reason": "İnanma ile ortak koşmanın aynı özne ve zamanda bulunması bu bulguda aynen taşınıyor; adayın tek dalı root_000054/B002 bulgudaki F001 etkinleştirmesiyle korunuyor.",
+      "finding_refs": [
+        "global:shared-allocation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e52052f36acfb96001b0",
+      "decision": "reject",
+      "reason": "Adayın tek geniş bağlam iddiası 12:108'in karma ortak koşmaya açık bir yol ve reddiye ile cevap verdiği yönünde. Destek legacy_unbound ve citable=false; packet 12:108'in ayet yüzeyini ya da bunu odağa döndüren bağımsız bir bağlantıyı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "12:108",
+          "reason": "Ayet packetin ordered context listesinde bulunsa da global packet içinde yüzeyi veya doğrulanabilir bağlantısı yok; tek dayanak unanchored reader-walk özeti."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ffd8be3b4df12ec7d100",
+      "decision": "represented",
+      "reason": "Geniş reader-walk sürümünün inanma ve ortak koşmanın bir arada oluştuğu çekirdeği, global:shared-allocation bulgusunda aynen yer alıyor; adayın root_000054/B002 dalı ve 12:106 odak bağlantısı korunuyor.",
+      "finding_refs": [
+        "global:shared-allocation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5b335cb21d7397571d1e",
+      "decision": "reject",
+      "reason": "Bu retrospektif öneri de 12:108'i karma ortak koşmanın cevabı olarak gösteriyor, ancak aynı ayetin metni veya focus-return ilişkisi lane packetinde yok. Kaynak legacy_unbound ve doğrudan kanıt olarak citable değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "12:108",
+          "reason": "Context yüzeyi ve bağımsız focus-return bağlantısı packet içinde bulunmuyor; yalnızca aday desteğinde anılıyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3cd8b6ced9b9644a65e2",
+      "decision": "reject",
+      "reason": "HFT özeti emniyet/koruma duyusunun yinelenmeyle etkinleştiğini, garantörler portföyüne uzanan çıkarımın ise abdüktif kaldığını söylüyor. Kayıtta anchor_evidence boş, cited/supplied anchor sayısı sıfır; bağlam ayeti, kelime, kök, atfedilen rol ve odağa dönüş gösterilmediği için global etkinleşme kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d04aaabf336fb3353268",
+      "decision": "reject",
+      "reason": "Çoğunluğu eş-yetki ve yönlendirme tuzağı olarak okuma HFT tarafından sözlük karşılığı değil benzetme diye nitelenmiş; buna rağmen exact HFT trace, context occurrence, word index, root ve focus return yok. Packetteki tarihsel çoğunluk bağlantıları bu ayrı co-authority iddiasını kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_947c61618195c8d7135b",
+      "decision": "reject",
+      "reason": "Destek 12:110'daki zamir ve edilgen ilişkilerin çözümsüz kaldığını açıkça bildiriyor. Bu HFT kaydında anchor_evidence yok; 12:110'un yalnız context listesinde bulunması, yüzey/kelime bağı ve focus return yerine geçmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "12:110",
+          "reason": "İddia bu bağlam refini adlandırıyor, fakat global packet bu ayetin yüzeyini veya HFT trace içindeki focus-return temasını sağlamıyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6363b302b32cc7594217",
+      "decision": "reject",
+      "reason": "Yakındaki eğilme hareketi ile tahsis ayrımı öneriliyor, fakat exact ayah/word anchorı ve odakla temas yok; desteğin kendisi de ritüel sınıflandırmasını çözümsüz bırakıyor. Bu belirsizlik global bir bulguya dönüştürülemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b90be63540170e56d643",
+      "decision": "reject",
+      "reason": "İşaretlerin görülmesi ve kişinin başka yöne dönmesi iddiası için HFT kaydında anchor_evidence ve anchor_refs yok. Hangi wider ayetin/kelimenin taşıyıcı olduğu ve bunun 12:106'ya nasıl döndüğü belirtilmediğinden global trigger eksik.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_33813509f7c0670dbe08",
+      "decision": "reject",
+      "reason": "Güven-inanma kök zinciri, koruyucu yedekler ve ani kırılganlık yalnız HFT özetinde ileri sürülüyor; exact context occurrence, root/role trace ve focus-return bulunmuyor. Bu nedenle adayın mekanizması bağımsız biçimde sınanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_077d4392eaf9dc31d522",
+      "decision": "reject",
+      "reason": "İdrak, çağrı ve iz sürmeyi tek yol sayan okuma için supplied HFT trace içinde belirli bir wider ayah, word index, root veya focus return yok. Bağlamı ve taşıyıcıyı aday özetinden çıkarsamak evidence boundary'yi aşar.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_293a60c66cd68ccf716a",
+      "decision": "reject",
+      "reason": "Bölünmüş otorite ile baskı altındaki geçici iman iddiası kapanış bağlamına dayanıyor, ancak adayın anchor_refs ve anchor_evidence alanları boş; exact context carrier ve 12:106'ya dönen temas packette gösterilmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_58da12efff34f45aaece",
+      "decision": "reject",
+      "reason": "Bu tek HFT öğesi eşzamanlılığı, yön/path, güvenlik, çoğunluk ve güven sınamalarını bir arada ileri sürüyor. Anchor kanıtı sıfır olduğu için bu ayrı mekanizmaların hiçbiri belirli bir wider occurrence, kök/rol ve focus-return ile test edilemiyor; öğe bağımsız bir bütün olarak kabul edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:shared-allocation",
+      "origin_candidate_id": "cand_8dc3d8a2d321d743386f",
+      "represented_candidate_ids": [
+        "cand_e764c85c908e44d45448",
+        "cand_ffd8be3b4df12ec7d100"
+      ],
+      "title": "İmanla ortak koşmanın paylaştırma olarak görünmesi",
+      "claim": "12:106 Allah'a inanmayı ve ortak koşmayı aynı toplulukta birlikte bildirir; 6:136'da Allah için ayrılan payın ortaklara da ulaşması, bu birlikte oluşu pay bölüştüren somut bir ortaklık ilişkisi olarak görünür kılar.",
+      "mechanism": "Odaktaki يُؤْمِنُ (yu'minu) doğru sayıp kabul etme anlamını taşırken istisna ve eşzamanlı hâl yapısı aynı topluluğu مُشْرِكُونَ diye niteler. 6:136'da ürün ve hayvanlardan Allah'a ayrılan payın ortaklara yönelmesi bu iki durumu maddi tahsiste buluşturur; böylece inanma silinmeden kalırken ortak koşma pay ve bağlılığın bölüşülmesi olarak okunur.",
+      "reader_payoff": "İnanma ifadesi korunurken, ortaklığın yalnız bir inanç etiketi değil, Allah ile ortaklar arasında pay ve yöneliş dağıtan bir ilişki olarak da düşünülebileceği belirir.",
+      "containment": "6:136 yalnızca ürün ve hayvan paylarının bölüştürüldüğü somut bir örnektir; 12:106'daki herkesin aynı uygulamayı yaptığı veya aynı gerekçeyi taşıdığı ileri sürülmez. Yalın ortaklık anlamı teolojik ortak koşmanın yerine geçirilmez, yalnız analoji kurar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted cross-run desteği ve odak yüzeyi birlikte oluşu temellendiriyor; temsil edilen reader-walk kaynakları legacy_unbound ve citable=false olduğu için bağımsız kanıt ağırlığı taşımıyor. 6:136'nın Arapça yüzeyi verilmiş, fakat hedef morfolojisi verilmediğinden bağlam ayet/eylem düzeyinde tutuluyor."
+      },
+      "support_ids": [
+        "sup_fad7df2448631f5736ff",
+        "sup_6f336bd6480c3bdc4c33",
+        "sup_854403bf0178c85e9e2e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:2:1"
+          ],
+          "trigger_refs": [
+            "12:106:5:1",
+            "12:106:6:1",
+            "12:106:7:1",
+            "6:136"
+          ],
+          "focus_return_refs": [
+            "12:106:2:1"
+          ],
+          "carrier": "يُؤْمِنُ Allah'a yönelmiş gerçek bir inanma/tasdik eylemini taşır.",
+          "independent_trigger": "İstisna ve eşzamanlı hâl yapısı aynı özneyi ortak koşan durumda tutar; 6:136'da ürün ve hayvanlardan Allah için ayrılan pay ortaklara da ulaşır.",
+          "activation": "Odağın tasdik eylemi ortak koşan aynı topluluğa yüklenir; 6:136'daki pay aktarımı bu eşzamanlı ilişkiyi somut bir bölüştürmeye bağlar.",
+          "resulting_reading": "Allah'a dönük inanma korunur, fakat bu inanma ortaklara pay ve bağlılık aktaran bir pratikle birlikte durabilir.",
+          "boundary": "6:136 tek bir tahsis örneği verir; her inanandaki güdüyü veya bütün ortak koşma biçimlerini belirlemez."
+        },
+        {
+          "branch_ref": "root_000791/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ortaklık ve ortak olma",
+          "facet_statement": "Bir şey, hak veya iş en az iki taraf arasında ortaktır ve taraflardan yalnız birine ait değildir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "12:106:7:1"
+          ],
+          "trigger_refs": [
+            "12:106:2:1",
+            "6:136"
+          ],
+          "focus_return_refs": [
+            "12:106:7:1"
+          ],
+          "carrier": "مُّشْرِكُونَ odakta Tanrı'ya ortak koşanları adlandırır; bu teolojik kullanım B001'in insani ortaklık anlamıyla özdeş değildir.",
+          "independent_trigger": "6:136, Allah ve ortaklar için ayrı payların belirlenip Allah için ayrılanın ortaklara yöneldiği bir ilişkiyi gösterir.",
+          "activation": "Dış bağlamdaki gerçek pay bölüşümü, odaktaki ortak-koşma ilişkisine B001'in ortak katılım çekirdeği üzerinden analoji kurar.",
+          "resulting_reading": "Ortak koşma, ortaklığa katma/paylaşma ilişkisi olarak somutlaşır, fakat B001 yalnız analojik bir renk sağlar.",
+          "boundary": "B001 doğrudan teolojik gloss değildir; bu bağlantı kelimenin odak anlamını insan ortaklığına indirgemez."
+        },
+        {
+          "branch_ref": "root_000791/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'ya ortak koşma",
+          "facet_statement": "Başka bir varlık, yalnız Tanrı'ya ait kabul edilen yetki veya nitelikte ona ortak sayılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:7:1"
+          ],
+          "trigger_refs": [
+            "12:106:2:1",
+            "6:136"
+          ],
+          "focus_return_refs": [
+            "12:106:7:1"
+          ],
+          "carrier": "مُّشْرِكُونَ başka varlıkları Tanrı'ya ortak sayan teolojik ilişkiyi taşır.",
+          "independent_trigger": "6:136'da Allah'ın payının ortaklara da ulaşması ortakların Allah'a bağlanan bir paya dahil edildiği somut bir örnek sunar.",
+          "activation": "Focus predicate'inin belirttiği ortak koşma, wider pay aktarımıyla maddi bir ortaklık ilişkisi kazanır.",
+          "resulting_reading": "Odaktaki ortak koşma, Allah ile ortaklar arasında payın dağıtıldığı bir ilişki olarak daha somut okunur.",
+          "boundary": "6:136 yalnız sağlanan pay örneğini açıklar; odak grubunun tüm uygulamalarını veya ortakların yetkilerini ayrıntılandırmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_bd10bf5dfc8eff94487f"
+      ],
+      "context_refs": [
+        "6:136"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:reversed-association",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İnanma ile ortak koşmanın ters eşleşmesi",
+      "claim": "12:106'da çoğunluk Allah'a inanırken ortak koşar; 40:12 ise Allah tek başına anıldığında inkârı, O'na ortak koşulduğunda inanmayı karşı karşıya getirir. Birlikte okunduğunda inanma ve ortaklık sabit karşıt sınıflar değil, yöneliş biçimine göre birbirine eşlik edebilen durumlar olarak görünür.",
+      "mechanism": "Odaktaki inanma fiili ve ortak koşan hâl aynı topluluğa bağlanır. 40:12'de Allah'ın tek başına anılması inkârla, O'na ortak koşulması inanmayla eşleştirilir; bu wider ters eşleşme odağa dönerek eşzamanlı iki hâli yalın bir çelişki olmaktan çıkarıp yöneliş düzeni olarak görünür kılar.",
+      "reader_payoff": "Odaktaki birliktelik imkânsız bir karşıtlık gibi durmaz; daha geniş metin içindeki ters örüntü, inanma ile ortaklığın farklı yönelişlerde nasıl yan yana gelebildiğini gösterir.",
+      "containment": "40:12 bir karşılaştırmadır; iki ayetteki toplulukların aynı olduğu veya aynı güdüyle davrandığı ileri sürülmez. Bağlantı ayet metnini sağlar, hedef morfolojisini sağlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Bağlantıdaki exact Arabic, Allah'ın tek anılması ile ortak koşulması arasındaki karşıt inanma düzenini gösteriyor; hedef morfolojisi verilmediği için okuma ayet düzeyinde ve karşılaştırmalı tutuluyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:2:1"
+          ],
+          "trigger_refs": [
+            "40:12"
+          ],
+          "focus_return_refs": [
+            "12:106:2:1"
+          ],
+          "carrier": "Odaktaki يُؤْمِنُ Allah'a yönelmiş inanma/tasdik eylemini taşır.",
+          "independent_trigger": "40:12, Allah tek başına çağrıldığında inkâr, O'na ortak koşulduğunda inanma durumunu açıkça karşı karşıya koyar.",
+          "activation": "Bu ters dış örüntü odaktaki inanma fiiline döner ve tasdikin ortak koşma ile tek yönlü olarak dışlanmadığını gösterir.",
+          "resulting_reading": "İnanma, ortak koşmanın karşıtı olmak zorunda olmayan; yöneliş ilişkisi içinde konumlanan bir durum olarak belirir.",
+          "boundary": "40:12'deki topluluğun odak grubuyla aynı olduğu veya odaktaki kişilerin aynı koşullu güdüyle inandığı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000791/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'ya ortak koşma",
+          "facet_statement": "Başka bir varlık, yalnız Tanrı'ya ait kabul edilen yetki veya nitelikte ona ortak sayılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:7:1"
+          ],
+          "trigger_refs": [
+            "40:12"
+          ],
+          "focus_return_refs": [
+            "12:106:7:1"
+          ],
+          "carrier": "Odaktaki مُشْرِكُونَ Tanrı'ya ortak koşanların durumunu adlandırır.",
+          "independent_trigger": "40:12, Allah'la birlikte başkalarının ortak edilmesini inanma koşuluyla eşler.",
+          "activation": "Wider bağlamdaki ortak koşulma koşulu odaktaki aynı teolojik ortaklık dalına geri döner ve odağın eşzamanlı halini daha geniş bir karşıtlık içinde konumlandırır.",
+          "resulting_reading": "Ortak koşma ve inanma ilişkisi tek bir sabit karşıtlık değil, bağlama göre yönü değişebilen bir beraberlik olarak okunur.",
+          "boundary": "Bağlantı ortak koşmanın her kişide aynı inanç biçimine yol açtığını kanıtlamaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_6083899ce4d6d1284351"
+      ],
+      "context_refs": [
+        "40:12"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:majority-scale",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Çoğunluğun sayısı tamamlığın ölçüsü değil",
+      "claim": "12:106'daki çoğunluk, daha önceki toplulukların çoğunun müşrik oluşuyla (30:42) ve bir işaret karşısında çoğunluğun inanmamasıyla (26:8) yan yana gelir. Bu wider örüntü, sayıyı inancın doğruluğu veya tamamlığı için bir ölçü olmaktan çıkarır.",
+      "mechanism": "Odaktaki أَكْثَرُهُمْ bir grubun çoğunluğunu sayısal olarak belirler. 30:42 çoğunluğu ortak koşan önceki toplulukları, 26:8 ise bir işaret mevcutken inanmayan çoğunluğu gösterir; bu iki farklı durum odaktaki inanma-ortak koşma birlikteliğinin tek tip ya da tamamlanmış iman diye okunmasını engeller.",
+      "reader_payoff": "Çoğunluk bilgisi, inanmanın ne kadar eksiksiz veya doğru olduğuna dair hüküm vermez; yalnızca ne kadar yaygın olduğunu söyler.",
+      "containment": "26:8 ve 30:42 başka toplulukları ve durumları anlatır; bu topluluklar odaktaki grupla özdeşleştirilmez. Karşılaştırma çoğunlukların daima yanıldığı gibi evrensel bir kural kurmaz. Hedef morfolojisi packet içinde yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Her iki connection da exact Arabic ve odakla ilgili bir çoğunluk notu sağlar; karşılaştırılan ayetlerin hedef morfolojisi/lexical analysis verilmediği ve tarihsel gruplar farklı olduğu için sonuç sınırlı tutuluyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001286/B001",
+          "facet_id": "F001",
+          "branch_gloss": "çokluk ve sayıca artma",
+          "facet_statement": "Çokluk, azlığın karşıtıdır ve özellikle sayılabilen varlıklarda sayının yüksekliğini ya da artışını bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:3:1"
+          ],
+          "trigger_refs": [
+            "30:42",
+            "26:8"
+          ],
+          "focus_return_refs": [
+            "12:106:3:1"
+          ],
+          "carrier": "أَكْثَرُهُمْ odaktaki grubun sayıca büyük bölümünü bildirir.",
+          "independent_trigger": "30:42'de önceki toplulukların çoğu ortak koşanlar olarak, 26:8'de ise bir işaretin varlığında çoğunluk inanmayanlar olarak sunulur.",
+          "activation": "İki farklı wider karşılık odaktaki sayı ifadesine dönerek çoğunluk oranı ile inanmanın niteliğini birbirinden ayırır.",
+          "resulting_reading": "Çoğunluk, inancın tamamlığını değil yalnız yaygınlığını ölçer.",
+          "boundary": "Bağlamlar farklı topluluklara aittir; hedef metinlerdeki sayı kelimelerinin morfolojisi veya focus dalıyla birebir sözlük bağı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000791/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'ya ortak koşma",
+          "facet_statement": "Başka bir varlık, yalnız Tanrı'ya ait kabul edilen yetki veya nitelikte ona ortak sayılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:7:1"
+          ],
+          "trigger_refs": [
+            "30:42"
+          ],
+          "focus_return_refs": [
+            "12:106:7:1"
+          ],
+          "carrier": "Odaktaki مُشْرِكُونَ Tanrı'ya ortak koşma durumunu adlandırır.",
+          "independent_trigger": "30:42 önceki toplulukların çoğunun ortak koştuğunu bildirerek bu odağın ortaklık durumuna tarihsel bir karşılık verir.",
+          "activation": "Yaygın ortak koşma örneği odaktaki müşrik durumuna döner; 12:106'daki sayısal çoğunluğun doğru ya da tamamlanmış iman anlamına gelmediğini belirginleştirir.",
+          "resulting_reading": "İnanma ve ortak koşma birlikteliği çoğunluk niteliğiyle doğrulanmış sayılmaz.",
+          "boundary": "30:42'deki toplulukların odak grubu olduğu ileri sürülmez; connection hedef morfolojisini sağlamaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_11b05ea6009641341468",
+        "conn_7109c31f4bed85068ab9"
+      ],
+      "context_refs": [
+        "26:8",
+        "30:42"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:divided-mastery",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Ortaklıkta bölünmüş hâkimiyet",
+      "claim": "Odaktaki ortak koşma, 12:39'un dağınık rableri ile Bir ve Kahhâr Allah karşıtlığını ve 39:29'un çekişen ortaklara bağlı bir adam ile tek kişiye bağlı bir adam karşılaştırmasını hatırlatır. Bu iki wider imge ortak koşmayı rakip bağlılık talepleri arasındaki bölünme olarak somutlaştırır.",
+      "mechanism": "Odaktaki مُشْرِكُونَ Tanrı'ya ortak sayma ilişkisini taşır. 12:39 çok sayıda dağınık rabbi Bir Allah'la, 39:29 birden çok çekişen ortağa bağlı kişiyi tek kişiye bağlı olanla karşılaştırır; bu dış imgeler teolojik ortaklık dalına geri dönerek bölünmüş bağlılığın yapısını görünür kılar.",
+      "reader_payoff": "Ortak koşma soyut bir ek inanç gibi değil, birden fazla talep arasında bölünen bağlılık ve hizmet ilişkisi olarak görülebilir.",
+      "containment": "Bunlar wider karşılaştırma ve temsilî imgelerdir; 12:106'daki kişilerin 39:29'daki adamla aynı durumda olduğu veya her ortak koşma ilişkisinin aynı tür çatışma ürettiği ileri sürülmez. Hedef ayetlerin kelime morfolojisi verilmemiştir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "12:39 ve 39:29'un exact Arabic yüzeyleri ile connection notları mevcut; hedef morfolojisi olmadığından aktarım ayet düzeyinde analoji ve bağlamsal resonance olarak sınırlandırılıyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000791/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ortaklık ve ortak olma",
+          "facet_statement": "Bir şey, hak veya iş en az iki taraf arasında ortaktır ve taraflardan yalnız birine ait değildir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "12:106:7:1"
+          ],
+          "trigger_refs": [
+            "12:39",
+            "39:29"
+          ],
+          "focus_return_refs": [
+            "12:106:7:1"
+          ],
+          "carrier": "Odaktaki مُشْرِكُونَ teolojik ortak koşmayı adlandırır; bununla aynı kökün yalın ortaklık ilişkisi analojik olarak temas eder.",
+          "independent_trigger": "12:39 dağınık rableri, 39:29 ise çekişen ortaklara bağlı bir adamı tasvir eder.",
+          "activation": "Bu iki ayrı ortaklık imgesi, odaktaki teolojik ortak koşma carrier'ına paylaşılan ilişki ve rakip talepler yapısını analojik olarak bağlar.",
+          "resulting_reading": "Ortak koşma, bağlılığın birden fazla tarafa açılmasıyla bölünmüş hâkimiyet görüntüsü kazanır.",
+          "boundary": "Yalın ortaklık dalı teolojik ortak koşmanın sözlük karşılığı yapılmaz; bağlam yalnız analoji sağlar."
+        },
+        {
+          "branch_ref": "root_000791/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'ya ortak koşma",
+          "facet_statement": "Başka bir varlık, yalnız Tanrı'ya ait kabul edilen yetki veya nitelikte ona ortak sayılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:7:1"
+          ],
+          "trigger_refs": [
+            "12:39",
+            "39:29"
+          ],
+          "focus_return_refs": [
+            "12:106:7:1"
+          ],
+          "carrier": "Odaktaki مُشْرِكُونَ başka varlıkları Tanrı'ya ortak sayma ilişkisini taşır.",
+          "independent_trigger": "12:39 birden fazla rabbi, 39:29 çekişen ortakları tek otoriteyle karşılaştırır.",
+          "activation": "Wider metinlerdeki dağınık ve çekişen ortak talepleri odaktaki teolojik ortaklık ilişkisini bölünmüş bağlılık olarak yeniden görünür kılar.",
+          "resulting_reading": "Odaktaki ortak koşma, rakip bağlılık ve hâkimiyet talepleriyle birlikte okunabilir.",
+          "boundary": "Bu imgeler odaktaki grubun fiil ve güdülerini teşhis etmez; yalnız partner ilişkisinin olası yapısını aydınlatır."
+        }
+      ],
+      "connection_refs": [
+        "conn_0fefe68de1cc9865917f",
+        "conn_71166b1185705c152ab5"
+      ],
+      "context_refs": [
+        "12:39",
+        "39:29"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:comparative-love",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Ortaklığın sevgi yönü",
+      "claim": "2:165, Allah'tan başka eşler edinenlerin onları Allah'ı sever gibi sevdiğini, inananların ise Allah'a sevgisinin daha güçlü olduğunu söyler. Bu wider karşılaştırma, 12:106'daki inanma ile ortak koşma birlikteliğini yalnız bir önerme değil, sevginin ve bağlılığın bölünebilmesi olarak da düşündürür.",
+      "mechanism": "Odaktaki inanma fiili ve Tanrı'ya ortak koşanlar ifadesi iki carrier sağlar. 2:165'te Allah'ın eşleriyle Allah'a yönelen sevgi karşılaştırılır; bu bağımsız sevgi örüntüsü odağın ortaklık dalına döner ve inanma iddiasının yanında bağlılığın nasıl dağıldığı sorusunu görünür kılar.",
+      "reader_payoff": "Okur, ortaklığın bir tanrı kabulü düzeyinde kalmayıp Allah'a ve eşlere yöneltilen sevginin karşılaştırılmasıyla da yaşanabileceğini görür.",
+      "containment": "2:165 odaktaki kişilerin aynı duygusal güdüyü taşıdığını kanıtlamaz ve 12:106'da açıkça söylenmeyen bir sevgiyi odak ayete yüklemez. Hedef morfolojisi sağlanmamıştır; bağlantı tematik/ilişkisel düzeyde tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Connection target Arabic, eşler ve sevgi karşılaştırmasını doğrudan içeriyor; hedef morfolojisi verilmediğinden focus return sözlük eşleştirmesi değil, ilişkisel resonance düzeyinde tutuluyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:2:1"
+          ],
+          "trigger_refs": [
+            "12:106:7:1",
+            "2:165"
+          ],
+          "focus_return_refs": [
+            "12:106:2:1"
+          ],
+          "carrier": "Odaktaki يُؤْمِنُ Allah'a yönelmiş inanma ve kabulü taşır.",
+          "independent_trigger": "2:165, Allah'ın eşlerini Allah'a yönelen sevgiyle eşleyip inananların Allah'a sevgisini daha güçlü olarak niteler.",
+          "activation": "Sevgi karşılaştırması odaktaki inanma carrier'ına döner ve inanmanın yalnızca zihinsel kabul değil, yöneliş ve bağlılıkla ilişkili okunmasını sağlar.",
+          "resulting_reading": "İnanma gerçek kalırken bağlılığın eşit veya bölünmüş olup olmadığı ayrı bir boyut kazanır.",
+          "boundary": "2:165'in sevgi ölçüsü 12:106'daki kişilerin duygusal durumunu belirlemez."
+        },
+        {
+          "branch_ref": "root_000791/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'ya ortak koşma",
+          "facet_statement": "Başka bir varlık, yalnız Tanrı'ya ait kabul edilen yetki veya nitelikte ona ortak sayılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "12:106:7:1"
+          ],
+          "trigger_refs": [
+            "12:106:2:1",
+            "2:165"
+          ],
+          "focus_return_refs": [
+            "12:106:7:1"
+          ],
+          "carrier": "Odaktaki مُشْرِكُونَ Tanrı'ya ortak sayma ilişkisini adlandırır.",
+          "independent_trigger": "2:165 Allah dışında eşler edinmeyi ve onlara Allah'ı sever gibi bağlanmayı anlatır.",
+          "activation": "Eşleri Allah'la sevgi bakımından denk tutan wider örüntü, odaktaki ortaklık dalını duygusal bağlılık dağılımına bağlar.",
+          "resulting_reading": "Ortak koşma, Allah'la birlikte başka eşlere de yönelen sevgi/bağlılık ilişkisi olarak görünür.",
+          "boundary": "2:165'teki sevgi ve eşler odağın açıkça bildirdiği güdüler olarak sunulmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_14bc054f25088d042770"
+      ],
+      "context_refs": [
+        "2:165"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus word-analysis/QAC alignment resolves all 10 analysis units; no unresolved joins remain. All nine global HFT summary candidates have empty anchor_evidence with cited_anchor_count=0 and supplied_anchor_count=0, so their contextual claims cannot be reconstructed as attributed activation traces.",
+    "The connection rows supply exact target Arabic but explicitly omit target morphology and lexical analysis. Retained global activations therefore use whole-context-ayah trigger refs and return through exact focus QAC occurrences, without assigning target-side word branches.",
+    "selected_context_units is empty. Context claims about 12:108 and 12:110 appear only in nominations or ordered-context metadata, so their textual surface and focus-return relation are unavailable in this lane packet."
+  ]
+}

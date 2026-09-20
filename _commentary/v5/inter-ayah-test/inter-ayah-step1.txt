@@ -28,7 +28,7 @@ It uses:
 
   OBJECTIVE
 
-  For every one of the 155 connection_registry rows:
+  For every one of the connection_registry rows:
 
   1. Retrieve and verify the target ayah’s exact Arabic text.
   2. Read the target ayah in its immediate surrounding passage.
@@ -51,7 +51,7 @@ It uses:
   - rows 0–9
   - rows 10–19
   - rows 20–29
-  - continue until rows 0–154 are complete
+  - continue until rows are complete
 
   If an existing ledger already contains completed rows, resume from the next missing row. Do not erase completed work
   except to correct a verified error.

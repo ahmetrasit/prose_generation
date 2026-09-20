@@ -1,0 +1,463 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "12:95",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_e85f1b176af3c9c1ef49",
+      "decision": "accept",
+      "reason": "B001 sapma ve B003 eskilik kolları odak sözcüklerine tam olarak bağlanıyor. 12:8'deki önceki suçlama, 12:94'te destek kaydının aktardığı yeni koku haberi ve 12:96'daki doğrulama, eski yargının yeni işareti önceden sınıflandırması okumasını daha geniş bir aile örüntüsüne bağlıyor.",
+      "finding_refs": ["global:diagnostic-inertia"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_056b5d6619505ccc0b75",
+      "decision": "accept",
+      "reason": "Gizlenme kolu 12:58'de Yusuf'un kardeşlerini tanıması, onların ise onu tanımamasıyla; eskilik kolu da 12:8'deki önceki suçlamayla bağımsız biçimde tetikleniyor. İki aday dalı da ayrı bir fasetle bulguya taşındı.",
+      "finding_refs": ["global:hiddenness-burden"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3569ce1732c5169fe633",
+      "decision": "accept",
+      "reason": "Legacy reader-walk desteği tek başına belirleyici sayılmadı. 12:8'deki önceki aynı suçlama, 12:85'te Yusuf'u anmayı sürdürme şikâyeti ve 12:58'deki tanımama ilişkisi, odak B001 ve B003 kollarını daha geniş aile anlatısı içinde sınanabilir kılıyor.",
+      "finding_refs": ["global:persistent-judgment-under-limited-access"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_528537ee9ba6ea4a8a2a",
+      "decision": "reject",
+      "reason": "Adayın tek katkısı 12:96'daki yakın tersine dönüş. 12:96 ilan edilmiş perikop bağlamındadır ve bu nedenle global değil macro malzemesidir; verilen legacy özet daha geniş, bağımsız bir tetik sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "12:96", "reason": "Yakın perikop bağlamı bu global bulgunun dışına alındı; ayrı bir wider trigger sunulmadı."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7f2780d02ff60d8b79b7",
+      "decision": "represented",
+      "reason": "Eski kategorinin yeni kanıtı peşinen bastırması, cand_e85f1b176af3c9c1ef49 ile aynı tanı ataleti ilişkisini ve aynı B001/B003 odak dallarını taşır. 12:94 ve 12:96 ayrıntıları ortak bulguda korunmuştur.",
+      "finding_refs": ["global:diagnostic-inertia"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cd7d7c23b5babafa7b1c",
+      "decision": "reject",
+      "reason": "Wide-reader-walk desteği de yalnızca 12:96'daki hemen gelen tersine dönüşü anlatıyor. Bu, perikopun macro bağlamıdır; global lane için bağımsız geniş tetik yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "12:96", "reason": "Yalnızca ilan edilmiş perikop içindeki tersine dönüşe dayanıyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b2c52cd028a3fd29bbee",
+      "decision": "accept",
+      "reason": "HFT özeti bağlanmamış bir aday olarak kaldı; bulgu onun iz sürümüne dayanmıyor. Gizlenme ve yitirme kolları, 12:58'deki tanımama ile 32:10'daki yeryüzünde kaybolma yüzeyleri ve odak morfeminden bağımsız olarak yeniden sınandı.",
+      "finding_refs": ["global:concealment-and-loss"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2be12ae7785ce0b5649d",
+      "decision": "accept",
+      "reason": "HFT'nin biçimden uzak öncelik önerisi 12:8'deki daha eski aynı suçlama ve 12:85'teki sürmekte olan Yusuf anmasıyla bağımsız olarak sınanabilir. Odak 12:95:6:2 ve root_001207/B004 F001, biçimden uzaklığı açıkça korunarak bu ilişkiyi taşır.",
+      "finding_refs": ["global:temporal-precedence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_95fe399cbc1bb4fe3885",
+      "decision": "reject",
+      "reason": "12:97 itirafının özellikle 12:95'i geri alıp almadığına dair kayıt, ayet metni veya odakla temas eden iz sağlamıyor. Adayın kendi belirsizliği bu global pakette çözülemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "12:97", "reason": "Yalnızca atıf olarak geçiyor; bağlam yüzeyi ve odağa dönen iz yok."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c0cce9fadbdf10d2972c",
+      "decision": "reject",
+      "reason": "İşaret, yol, tarih ve kıssa çerçevelerinin aynı dinleyiciye ait olduğu gösterilmiyor. Adayda ayet koordinatı, dal veya odağa dönen bağımsız tetik bulunmadığından analojik çerçeve bu lane'de etkinleşmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9760dc7fa79824f041d5",
+      "decision": "reject",
+      "reason": "Koku, ayrılık ve geri dönüş dizisi 12:94-12:96 perikop bağlamına aittir. Bu legacy HFT satırında ayrıca bir ayet, kelime, kök veya odağa dönen iz yoktur; global aktivasyon kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "12:94", "reason": "Perikop içindeki koku bağlamı global tetik değildir."},
+        {"context_ref": "12:96", "reason": "Perikop içindeki dönüş/doğrulama bağlamı global tetik değildir."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_277de5b1dab95699b1bc",
+      "decision": "reject",
+      "reason": "Görmenin geri gelmesi ve bilginin açığa çıkması 12:96'ya bağlı macro bir tersine dönüştür. HFT satırında bu ilişkiyi global kılacak ayrı bir wider trigger veya exact trace bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "12:96", "reason": "Bu iddia yalnızca ilan edilmiş perikop bağlamına dayanıyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_662a4a5438d3dd894579",
+      "decision": "reject",
+      "reason": "Önceden görülen şeyin doğrulanması ve eskiliğin uzun bekleyişe dönüşmesi 12:96'daki yerel olayla sınırlı. HFT kaydında bunu 12:95'in kelimesine döndüren exact iz yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "12:96", "reason": "Uzun bekleyiş/doğrulama ilişkisi perikop içi macro bağlamdır."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b90fc04a4c00a0cc955",
+      "decision": "represented",
+      "reason": "Yardımın gelişinden hemen önce eski bir hükmün kanıtı bastırması, global:diagnostic-inertia bulgusunun aynı semantik ilişkisi ve payoff'udur; adayda ayrıca korunması gereken bir dal, bağlam koordinatı veya semantic obligation yoktur.",
+      "finding_refs": ["global:diagnostic-inertia"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_553df2adcbf1658d5f95",
+      "decision": "reject",
+      "reason": "Yol, idrak, tarihsel sonuç ve kapanış dersi tek bir geniş HFT özeti olarak sunuluyor; ayet koordinatı, kök/dal bağı veya focus'a dönen tetik yok. Bileşenleri tek bir global anlam ilişkisi olarak doğrulamaya yetecek packet kanıtı bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a26df4347652da5f87b8",
+      "decision": "reject",
+      "reason": "Bu satır sosyal sapma, gizlilik/yitiklik ve önceliği tek bir geniş sentezde birleştiriyor, ancak kendisi hiçbir koordinat, dal veya HFT iz sunmuyor. Bileşenler yalnızca bağımsız focus-returning kaynaklarla ayrı ayrı sınandıkları yerde korunmuştur; bütünlüklü HFT sentezi kanıtlanmış sayılmadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:diagnostic-inertia",
+      "origin_candidate_id": "cand_e85f1b176af3c9c1ef49",
+      "represented_candidate_ids": ["cand_7f2780d02ff60d8b79b7", "cand_1b90fc04a4c00a0cc955"],
+      "title": "Eski hükmün yeni işareti öncelemesi",
+      "claim": "12:95'teki sapma suçlaması ve eskilik nitelemesi, 12:8'de aynı kardeşlerin babalarını daha önce de sapmış saymasıyla; destek kaydının 12:94 için aktardığı yeni koku haberiyle birlikte okunduğunda, geçmiş hükmün güncel işareti kendi kategorisine önceden yerleştirdiği bir tanı ataleti görünür kılar.",
+      "mechanism": "12:95:5:1'deki ضَلَٰلِكَ kardeşlerin sapma suçlamasını taşır; 12:95:6:2'deki الْقَدِيمِ onu eski ve önceden var olan diye niteler. 12:8'de Yusuf yüzünden yöneltilmiş aynı suçlama bu eskiliğe somut bir geçmiş verir. Destek kaydının 12:94'teki yeni koku haberi ve 12:96'daki doğrulama anlatımıyla temas edince odak, yeni işareti incelemek yerine hazır eski hükme yerleştirme hareketine dönüşür.",
+      "reader_payoff": "Okur, eski nitelemesinin yalnız süre bildirmediğini; yeni bir algı işaretinin hangi kategoriye sokulacağını önceden belirleyen bir hüküm geçmişi kurduğunu görür.",
+      "containment": "Bu, kardeşlerin konuşma ve değerlendirme biçimine dair bir okumadır; tek başına Yakup'un bilgisinin doğruluğunu kanıtlamaz. Sapma suçlamasının sıradan anlamı korunur. 12:94 ve 12:96 ayrıntıları seçilmiş bağlam yüzeyinden değil, güvenilir çapraz-çalışma kaydı ile legacy destekten gelir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak taşıyıcıları QAC yüzeyine bağlı, 12:8'in exact Arabic yüzeyi ve önceki suçlama packet'te mevcut. Yeni koku ve 12:96 doğrulaması destek kayıtlarıyla aktarılıyor; bu yerel ayrıntılar seçilmiş bağlam yüzeyi olarak sunulmadığından bulgu nitelikli tutuldu."
+      },
+      "support_ids": ["sup_d1f59e1830d0dc5c892c", "sup_4eb60991f8c303e02535", "sup_b296b0525258329e1c62"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000913/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yoldan ve amaçtan sapma ya da başkasını saptırma",
+          "facet_statement": "Amaçtan, doğru yoldan veya doğruluktan ayrılma ve uygun yönü bulamama anlamın temelidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:5:1"],
+          "trigger_refs": ["12:8", "12:94", "12:96"],
+          "focus_return_refs": ["12:95:5:1"],
+          "carrier": "12:95:5:1'deki ضَلَٰلِكَ, kardeşlerin babaya yönelttiği olağan sapma suçlamasını taşır.",
+          "independent_trigger": "12:8'de aynı kardeşler Yusuf nedeniyle babalarını sapmış sayar; destek kaydı 12:94'te yeni koku haberini, 12:96'da doğrulama ve görmenin dönüşünü bildirir.",
+          "activation": "Daha önce kurulmuş aile hükmü, yeni koku işaretiyle karşılaşınca odak sözcüğündeki sapma anlamını yeni kanıtı tartan sonuçtan hazır sınıflandırmaya çevirir.",
+          "resulting_reading": "Kardeşlerin sapma sözü, yeni işaretin eski bir teşhisin içine yerleştirilmesi ve bu teşhisin kanıtı peşinen daraltması olarak duyulur.",
+          "boundary": "Bu temas kardeşlerin tanı biçimini gösterir; focus tek başına onların yanıldığını veya Yakup'un haklı olduğunu ispatlamaz. 12:94 ve 12:96 içerikleri destek kayıtlarının aktarımıyla sınırlıdır."
+        },
+        {
+          "branch_ref": "root_001207/B003",
+          "facet_id": "F001",
+          "branch_gloss": "eskilik ve önceden var olma",
+          "facet_statement": "Bir şeyin zamanının geçmişte kalmasını, eski oluşunu ve sonradan meydana gelmenin karşıtını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:6:2"],
+          "trigger_refs": ["12:8", "12:94", "12:96"],
+          "focus_return_refs": ["12:95:6:2"],
+          "carrier": "12:95:6:2'deki الْقَدِيمِ, suçlamayı eski ve önceden var olan bir durum diye niteler.",
+          "independent_trigger": "12:8'de aynı baba hakkında daha önce söylenmiş sapma hükmü vardır; destek kayıtları bu eski yargının 12:94'te yeni koku haberiyle, 12:96'da doğrulamayla karşılaşmasını aktarır.",
+          "activation": "Eskilik taşıyan sıfat önceki suçlama ile güncel işareti aynı ilişkiye alır; böylece geçmiş hüküm yalnızca süre değil, yeniyi yorumlayan hazır çerçeve olur.",
+          "resulting_reading": "الْقَدِيمِ, kardeşlerin yeni iddiayı geçmişten gelen yargı içinde okumasını görünür kılar.",
+          "boundary": "Sıfatın odak biçimindeki eski olma anlamı korunur; desteklenen sonuç bir tarihsel yargı çerçevesidir, sözcüğün tek başına kanıt bastırdığı iddiası değildir."
+        }
+      ],
+      "connection_refs": ["conn_6f9a80857c18e2f277ff"],
+      "context_refs": ["12:8", "12:94", "12:96"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:hiddenness-burden",
+      "origin_candidate_id": "cand_056b5d6619505ccc0b75",
+      "represented_candidate_ids": [],
+      "title": "Görünmeyenin yükünün yanlış kişiye verilmesi",
+      "claim": "Kardeşler Yakup'un Yusuf'a bağlılığını eski sapma diye adlandırır; daha geniş aile anlatısında Yusuf'u kendilerinin tanımamış olması, görünmeyene erişememe yükünü Yakup'a yönelttikleri suçlamada ikinci bir okuma olarak açar.",
+      "mechanism": "Odak isim 12:95:5:1'de sıradan suçlama olarak sapmayı taşırken B002'nin gizlenme/gözden yitme çekirdeği, 12:58'de Yusuf'un kardeşlerini tanıdığı halde onların onu tanımamasıyla tetiklenir. 12:8'deki önceki suçlama الْقَدِيمِ nitelemesine zaman içinde kurulmuş bir hüküm karşılığı verir. Bu temas, görünmeyen Yusuf'la ilgili bilgi sınırını Yakup'un bağlılığını açıklama biçimine taşır.",
+      "reader_payoff": "Okur, suçlamanın yalnızca Yakup'un yönünü değil, kardeşlerin erişemediği Yusuf karşısındaki kendi bilgi sınırlarını da açığa çıkardığını fark eder.",
+      "containment": "Odak ifade sıradan sapma suçlamasını korur; 12:95 sözcüğünün sözlük anlamı fiziksel gizlenmeye çevrilmez. 12:58 yalnızca karşılaşmadaki tanıma/tanımama ilişkisini verir ve kardeşlerin 12:95 anındaki tüm bilgilerini kanıtlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Çapraz-çalışma desteği güvenilir; 12:58 ve 12:8'in tam Arapça yüzeyleri de packet'te var. Hedef ayetler için bağımsız morfoloji/lexical analysis verilmediğinden gizlenme teması bağlamsal ve sınırlı tutuldu."
+      },
+      "support_ids": ["sup_2ba83962016dd02dce1a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000913/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gizlenerek, karışıp eriyerek veya gömülerek gözden yitme",
+          "facet_statement": "Bir şeyin gizlenmesi ve algılanamaz biçimde gözden yitmesi temel anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:5:1"],
+          "trigger_refs": ["12:58"],
+          "focus_return_refs": ["12:95:5:1"],
+          "carrier": "12:95:5:1'deki ضَلَٰلِكَ kardeşlerin Yakup'a yönelttiği sapma suçlamasını taşır; gizlenme kolu odak biçimin olağan çevirisinin yerine geçirilmez.",
+          "independent_trigger": "12:58'in Arapça yüzeyi Yusuf'un kardeşlerini tanıdığını, onların ise onu tanımadığını bildirir.",
+          "activation": "Kardeşlerin Yusuf'a erişemediği bu karşılaşma, odaktaki sapma sözcüğünün gizlenme çekirdeğiyle temas eder ve suçlanan bağlılığın arkasındaki görünmeyen kişiyi belirginleştirir.",
+          "resulting_reading": "Görünmeyen Yusuf'un yükü, Yakup'un bağlılığına yöneltilen suçlamada kardeşlerin kendi erişim sınırı olarak da hissedilir.",
+          "boundary": "Bu, Yusuf'un kimliğinin o karşılaşmada tanınmamasına dayalı bağlamsal yankıdır; odak isim cümlesinin fiziksel kaybolma anlamına geldiği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001207/B003",
+          "facet_id": "F001",
+          "branch_gloss": "eskilik ve önceden var olma",
+          "facet_statement": "Bir şeyin zamanının geçmişte kalmasını, eski oluşunu ve sonradan meydana gelmenin karşıtını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:6:2"],
+          "trigger_refs": ["12:8"],
+          "focus_return_refs": ["12:95:6:2"],
+          "carrier": "12:95:6:2'deki الْقَدِيمِ, sapma suçlamasını eski diye niteler.",
+          "independent_trigger": "12:8'de kardeşlerin aynı babaya Yusuf yüzünden daha önce de sapma suçlaması yönelttiği tam yüzeyle verilir.",
+          "activation": "Önceki suçlama, eskilik sıfatının soyut zaman değerini aynı aile içindeki yargı geçmişine bağlar.",
+          "resulting_reading": "Kardeşlerin Yakup hakkındaki hükmü yeni bir gözlemden doğmuş tekil söz değil, daha önce kurulmuş bir yargının sürmesi olarak okunabilir.",
+          "boundary": "Bu dal geçmiş zaman ve eskilikle sınırlıdır; önceki olma, suçlamanın doğruluğunu kanıtlamaz."
+        }
+      ],
+      "connection_refs": ["conn_6f9a80857c18e2f277ff", "conn_9ad34f2d850fa5cf771f"],
+      "context_refs": ["12:8", "12:58"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:persistent-judgment-under-limited-access",
+      "origin_candidate_id": "cand_3569ce1732c5169fe633",
+      "represented_candidate_ids": [],
+      "title": "Erişim sınırı içinde sürüp giden hüküm",
+      "claim": "12:95'teki olağan sapma suçlaması, kardeşlerin 12:8'de aynı hükmü daha önce kurmuş, 12:85'te Yakup'un Yusuf'u anmayı sürdürmesinden yakınmış ve 12:58'de Yusuf'u tanımamış olmasıyla birlikte, kendi bilgi sınırları içinde süreklilik kazanan bir aile teşhisi gibi duyulur.",
+      "mechanism": "12:95:5:1'deki ضَلَٰلِكَ doğru yoldan sapma suçlamasını taşır; bu sözcük 12:58'deki kardeşlerin Yusuf'u tanımama eylemiyle karşılaşınca teşhisin konuşanların erişim sınırı içinden kurulduğu görünür. 12:95:6:2'deki الْقَدِيمِ eskilik bildirir; 12:8'deki önceki aynı suçlama ve 12:85'te babanın Yusuf'u anmayı sürdürdüğüne ilişkin çıkış bu eskiliği aile geçmişine bağlar.",
+      "reader_payoff": "Okur, Yakup'a yöneltilen hükmün sürekliliğini ve bu hükmü kuranların Yusuf'u tanıyamadığı daha geniş sahneyi aynı anda görür; bu, yeni bir işaretin reddedilmesi iddiasından ayrı bir bilgi-asimetrisi okumasıdır.",
+      "containment": "Odak sözcüğünün olağan sapma anlamı ve kardeşlerin suçlaması yerinde kalır. 12:58'deki tanımama, kardeşlerin 12:95 anındaki bütün bilgilerini veya suçlamanın yanlışlığını kanıtlamaz. Kaynak reader-walk legacy_unbound olduğundan sentez nitelikli tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Reader-walk önerisi legacy_unbound; focus taşıyıcıları ise 12:95 yüzeyine bağlı ve 12:8, 12:58, 12:85 hedef yüzeyleri packet'te açıkça mevcut. Bağlamlardan yapılan bilgi-asimetrisi çıkarımı bu nedenle nitelikli kalır."
+      },
+      "support_ids": ["sup_e52d492bcc8de1a55030"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000913/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yoldan ve amaçtan sapma ya da başkasını saptırma",
+          "facet_statement": "Amaçtan, doğru yoldan veya doğruluktan ayrılma ve uygun yönü bulamama anlamın temelidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:5:1"],
+          "trigger_refs": ["12:58", "12:85"],
+          "focus_return_refs": ["12:95:5:1"],
+          "carrier": "12:95:5:1'de kardeşlerin Yakup'u sapmış sayan doğrudan suçlaması.",
+          "independent_trigger": "12:58'de kardeşler Yusuf'u tanımaz; 12:85'te ise Yakup'un Yusuf'u anmayı sürdürdüğünü söyleyerek bu bağlılığa karşı çıkarlar.",
+          "activation": "Sapma teşhisi, onu kuranların Yusuf'u tanıyamaması ve babanın ona bağlılığını sürdürmesini eleştirmesiyle temas eder; böylece teşhisin kendi bilgi konumları içindeki niteliği açığa çıkar.",
+          "resulting_reading": "Suçlama, yalnız Yakup'a ilişkin bir yön hükmü değil, Yusuf hakkındaki sınırlı erişim içinden kurulmuş bir aile değerlendirmesi olarak da duyulur.",
+          "boundary": "Bu temas kardeşleri kendi başlarına sapmış ilan etmez ve onların bütün bilgi durumunu belirlemez; odaktaki suçlama olağan anlamını korur."
+        },
+        {
+          "branch_ref": "root_001207/B003",
+          "facet_id": "F001",
+          "branch_gloss": "eskilik ve önceden var olma",
+          "facet_statement": "Bir şeyin zamanının geçmişte kalmasını, eski oluşunu ve sonradan meydana gelmenin karşıtını belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:6:2"],
+          "trigger_refs": ["12:8", "12:85"],
+          "focus_return_refs": ["12:95:6:2"],
+          "carrier": "12:95:6:2'deki الْقَدِيمِ, suçlanan sapmayı eski ve önceden var diye çerçeveler.",
+          "independent_trigger": "12:8 aynı babaya yöneltilen önceki sapma suçlamasını, 12:85 Yusuf'u anmayı sürdürme konusundaki sonraki çıkışı verir.",
+          "activation": "Bu önceki ve süren aile sözleri, eskilik kolunu tek başına süre bildiriminden çıkarıp tekrar eden yargı tarihine bağlar.",
+          "resulting_reading": "Odak nitelemesi, kardeşlerin Yakup hakkındaki teşhisinin aile içinde önceden kurulmuş ve sürdürülmüş olduğunu görünür kılar.",
+          "boundary": "Eskilik burada tarihsel tekrar için dayanak olur; tekrar, hükmün doğruluğuna kanıt değildir."
+        }
+      ],
+      "connection_refs": ["conn_6f9a80857c18e2f277ff", "conn_9ad34f2d850fa5cf771f", "conn_c42d962a877bc7477011"],
+      "context_refs": ["12:8", "12:58", "12:85"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:concealment-and-loss",
+      "origin_candidate_id": "cand_b2c52cd028a3fd29bbee",
+      "represented_candidate_ids": [],
+      "title": "Gizlenme ile yitiklik aynı erişim sınırını aydınlatır",
+      "claim": "Yakup'a yöneltilen olağan sapma suçlaması korunurken, geniş aile anlatısındaki tanımama ve başka bir ayetteki yeryüzünde kaybolma kullanımı, Yusuf'a erişemeyen kardeşlerin kendi bilgi sınırını odak sözcüğünün gizlenme ve yitme kollarıyla görünür kılar.",
+      "mechanism": "12:95:5:1'deki ضَلَٰلِكَ odakta sapma suçlamasını taşır. Root_000913/B002'nin gizlenme çekirdeği, 12:58'de kardeşlerin Yusuf'u tanımamasıyla; B003'ün yitirme/yerini bulamama çekirdeği ise 32:10'da ضَلَلْنَا فِى الْأَرْضِ ifadesinin sağladığı kök kullanımıyla temas eder. 12:58'deki tanımama, bu yitiklik benzetmesini Yusuf'a erişememe çerçevesine döndürür.",
+      "reader_payoff": "Okur, odaktaki sapma sözünün yanında gizlenmiş kimlik ve yitiklik imgelerini de duyabilir; böylece suçlayanların Yusuf karşısındaki erişim sınırı yeni bir anlam kazanır.",
+      "containment": "Gizlenme ve yitiklik, odak sözcüğünün cümledeki olağan anlamının yerine konmaz. 32:10'daki konuşanlar kardeşlerle özdeşleştirilmez ve oradaki kaybolma Yusuf'a bağlanmaz; bu, farklı biçim ve sahneler arasında sınırlı bir bağlamsal analojidir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT özeti anchorsız bir nomination olarak kaldı. İki kol, kabul edilmiş focus branch kayıtları ve 12:58/32:10'un tam Arapça yüzeyleriyle bağımsız olarak sınandı; hedef morfolojileri verilmediği ve B003 teması biçimce uzak olduğu için bulgu niteliklidir."
+      },
+      "support_ids": ["sup_74afd32d4609ccf2b6d1"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000913/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gizlenerek, karışıp eriyerek veya gömülerek gözden yitme",
+          "facet_statement": "Bir şeyin gizlenmesi ve algılanamaz biçimde gözden yitmesi temel anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:5:1"],
+          "trigger_refs": ["12:58"],
+          "focus_return_refs": ["12:95:5:1"],
+          "carrier": "Odak isim 12:95:5:1 kardeşlerin Yakup'a yönelttiği olağan sapma suçlamasını taşır; B002 bunun yerine geçen çeviri değil, kök düzeyindeki gizlenme koludur.",
+          "independent_trigger": "12:58'de Yusuf kardeşlerini tanırken kardeşlerin onu tanımadığı tam Arapça yüzeyle verilir.",
+          "activation": "Kardeşlerin Yusuf'un kimliğine erişememesi, odak taşıyıcısındaki gözden yitme çekirdeğiyle temas eder ve suçlamanın çevresinde onların kendi bilgi sınırını açar.",
+          "resulting_reading": "Yakup'un bağlılığını sapma diye adlandıran söz, kardeşlerin tanımadığı Yusuf'un gizli kalışıyla birlikte duyulur.",
+          "boundary": "Bu, 12:58'deki tanımama ilişkisinden doğan bağlamsal yankıdır; odak sözcüğünün yerel sözdiziminde gizlenme anlamı taşıdığı söylenmez."
+        },
+        {
+          "branch_ref": "root_000913/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması",
+          "facet_statement": "Bir şeyin sahibinden gitmesi ve nerede olduğunun bilinememesi temel yitirme ilişkisidir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["12:95:5:1"],
+          "trigger_refs": ["32:10", "12:58"],
+          "focus_return_refs": ["12:95:5:1"],
+          "carrier": "12:95:5:1'deki ضَلَٰلِكَ, odakta sapma anlamıyla kullanılır; B003'ün yitirme çekirdeği bu biçimin doğrudan sözlük karşılığı olarak ileri sürülmez.",
+          "independent_trigger": "32:10'un tam yüzeyi ضَلَلْنَا فِى الْأَرْضِ ifadesini verir; 12:58 ise kardeşlerin Yusuf'u tanımadığı ilişkiyi sağlar.",
+          "activation": "32:10'daki aynı kökün yeryüzünde kaybolma kullanımı ile 12:58'deki tanımama bir araya gelince, odak suçlamasının çevresindeki yitiklik imgesi Yusuf'a erişememe yönüne döner.",
+          "resulting_reading": "Sapma suçlaması korunurken, suçlayanların kendi sahnesinde kayıp ve erişilemeyen kişi imgesi belirir.",
+          "boundary": "32:10'un kişileri veya kaybolma sahnesi Yusuf'la özdeşleştirilmez. Hedef morfolojisi verilmediğinden temas kök düzeyinde analojiktir."
+        }
+      ],
+      "connection_refs": ["conn_9ad34f2d850fa5cf771f", "conn_46b64ce7cb2809d014ab"],
+      "context_refs": ["12:58", "32:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:temporal-precedence",
+      "origin_candidate_id": "cand_2be12ae7785ce0b5649d",
+      "represented_candidate_ids": [],
+      "title": "Eskiliğin içindeki önce gelme",
+      "claim": "Odaktaki الْقَدِيمِ doğrudan eskilik bildirir; kardeşlerin 12:8'de daha önce kurduğu suçlama ve 12:85'te sürdürdüğü yakınma, bu eskiliğin yanında hükmün zaman sırasındaki önce konumunu da duyurur.",
+      "mechanism": "12:95:6:2'deki sıfat odak düzeyinde eski olma anlamını taşır. Root_001207/B004'ün önde bulunma/öne geçme çekirdeği, 12:8'de aynı aile hükmünün daha önce söylenmesi ve 12:85'te Yusuf'u anmayı sürdürme yakınmasının yer almasıyla tetiklenir. Önceki hüküm, الْقَدِيمِ ile temas ederek mevcut algıdan önce duran bir yargı konumuna dönüşür.",
+      "reader_payoff": "Okur, eskiliği yalnızca uzun süre değil, yeni işaretten önce kurulmuş bir hükmün konumu olarak da düşünebilir.",
+      "containment": "Odak biçimin yerel seçimi eskilik olarak kalır. Öncelik okuması biçimden uzak ve bağlamsaldır; الْقَدِيمِ sözcüğünün burada doğrudan önde/ilk anlamına geldiği iddia edilmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT yalnızca kök düzeyinde, biçimden uzak bir nomination verir. 12:8 ve 12:85'in exact yüzeyleri daha önceki suçlama ilişkisini sağladığı için öncelik okuması sınanabilir, ancak form yerel olarak eskilik seçtiğinden keşifsel kalır."
+      },
+      "support_ids": ["sup_579c35033cca8a238165"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001207/B004",
+          "facet_id": "F001",
+          "branch_gloss": "öne geçme, önde ilerleme veya erken davranma",
+          "facet_statement": "Bir kişi veya şeyin başkasına göre önde bulunmasını ya da öne geçmesini belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:6:2"],
+          "trigger_refs": ["12:8", "12:85"],
+          "focus_return_refs": ["12:95:6:2"],
+          "carrier": "12:95:6:2'deki الْقَدِيمِ doğrudan eski olma niteliğini taşır; B004'ün önce/önde olma yönü biçimden uzak bir kök yankısıdır.",
+          "independent_trigger": "12:8 aynı baba hakkındaki sapma suçlamasını daha erken verir; 12:85 kardeşlerin Yusuf'u anmayı sürdürme yakınmasını daha sonra yeniden kurar.",
+          "activation": "Bu önceki sözler, odaktaki eski olma sıfatına somut bir zaman dizisi sağlar; B004'ün önde/önce konumu yeni işaretten önce kurulmuş yargı olarak belirir.",
+          "resulting_reading": "Eskilik, geçmişten beri sürme yanında, güncel gözlemden önce gelen bir hüküm pozisyonunu da taşıyabilir.",
+          "boundary": "Bu, context ile tetiklenen form-distant bir yankıdır; odak sıfatının yerel anlamı eskilik olarak korunur ve öndelik dalı zorunlu çeviri sayılmaz."
+        }
+      ],
+      "connection_refs": ["conn_6f9a80857c18e2f277ff", "conn_c42d962a877bc7477011"],
+      "context_refs": ["12:8", "12:85"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:speaker-position-of-straying",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Sapma adlandırmasının konuşmacısı değişir",
+      "claim": "12:95'te kardeşler Yakup'u sapmış diye adlandırır; 26:97'de aynı belirgin sapma sözü bir grubun kendine dönük itirafında, 36:24'te koşullu öz-değerlendirmede, 53:2'de açık bir reddedişte, 83:32'de ise bir grubun başkalarına verdiği etikette görünür. Bu geniş yankı, odaktaki sözü kendi başına hüküm değil, kardeşlerin gerçekleştirdiği bir teşhis olarak duyurur.",
+      "mechanism": "12:95:5:1'deki ضَلَٰلِكَ doğru yoldan sapma kolunu taşır. 26:97 ve 36:24'ün tam yüzeylerinde sapma sözü konuşanın kendisine döner; 53:2 aynı isnadı reddeder; 83:32 başkalarını sapmış diye adlandırır. Bu farklı konuşma konumları odak sözcüğüne döndüğünde, kelimenin tek başına hükmü doğrulamadığı ve değerlendirme sorumluluğunun konuşan kardeşlerde kaldığı görünür.",
+      "reader_payoff": "Okur, sapma sözünün bir kişinin niteliğini kaydeden nötr etiket olmadığını; itiraf, ihtimal, ret veya başkasına yöneltilen suçlama olarak kimin söylediğiyle biçimlendiğini görür.",
+      "containment": "Diğer ayetlerin konuşanları kardeşlerle özdeşleştirilmez; bu örnekler Yakup hakkındaki hükmü çözmez. Bağ, tam hedef Arapça yüzeylerdeki söz ve konuşma konumu benzerliğiyle sınırlıdır; hedef morfolojileri sunulmamıştır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak kök dalı ve focus morfemi açıkça eşleşir; dış ayetlerin tam Arapça yüzeyleri packet'te bulunur. Bağlantı kayıtları aday ilişki sağlar, fakat hedef morfolojisi/lexical analysis verilmediğinden okuma konuşma eylemi benzerliğiyle sınırlı tutulur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000913/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yoldan ve amaçtan sapma ya da başkasını saptırma",
+          "facet_statement": "Amaçtan, doğru yoldan veya doğruluktan ayrılma ve uygun yönü bulamama anlamın temelidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["12:95:5:1"],
+          "trigger_refs": ["26:97", "36:24", "53:2", "83:32"],
+          "focus_return_refs": ["12:95:5:1"],
+          "carrier": "12:95:5:1'deki sapma ismi, kardeşlerin Yakup'a yönelttiği isnadın semantik taşıyıcısıdır.",
+          "independent_trigger": "26:97'de sapma sözü itiraf içinde, 36:24'te koşullu öz-değerlendirmede, 53:2'de reddedilen isnatta ve 83:32'de başkalarına yöneltilen etikette geçer.",
+          "activation": "Aynı sapma alanının farklı konuşma rollerinde kullanılması, odaktaki ikinci şahıs suçlamasını da kardeşlerin yaptığı bir adlandırma eylemi olarak çerçeveler; kelime kendi konuşmacısının hükmünü tek başına kanıtlamaz.",
+          "resulting_reading": "Yakup'a yöneltilen sapma sözü, doğruluk değeri bu ayetlerce karara bağlanmadan, konuşanların konumuna bağlı bir teşhis olarak duyulur.",
+          "boundary": "Örnek ayetlerin öznesi ve sahnesi 12:95'le aynı sayılmaz. Hedef morfolojisi çıkarılmaz; temas, sunulan tam yüzeylerdeki görünür ifade ve konuşma rolüne dayanır."
+        }
+      ],
+      "connection_refs": ["conn_9b817401e713020b072d", "conn_704d67bfc4fd52429252", "conn_0a3bf4e80339adf0d92c", "conn_7481cd8d7dcf9663e125"],
+      "context_refs": ["26:97", "36:24", "53:2", "83:32"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "selected_context_units boş. Dış Fatiha ayetleri 1:2-1:7 diye sıralanmış olsa da connection_registry'de yalnızca 1:7'nin tam yüzeyi bulunuyor; bağlantı kaydı yalnız genel hidayet/sapma karşıtlığını verip yeni katkı sağlamadığını belirtiyor. Bu nedenle ayrı bir Fatiha-global bulgusu etkinleştirilmedi; 1:2-1:6 için yüzey kanıtı yok.",
+    "On HFT adayının hiçbirinde anchor_evidence yok; exact word/root/context trace ve semantic_obligations alanı da sunulmamış. Kaynak güveni tek başına ret nedeni sayılmadı: yalnız odak ve wider context kayıtlarıyla bağımsızca kurulabilen içerik korundu. 12:96'ya bağlı tersine dönüşler macro, 12:97 itirafının 12:95'e özel olup olmadığı ise çözümsüz kaldı."
+  ]
+}
