@@ -1,0 +1,195 @@
+# V5 reading invitation — 17:16
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p01-with-fatiha/s017/17_16/17_16.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p01-with-fatiha/s017/17_16/17_16.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## İradenin Kapsamı
+
+17:16'da yok edilmesi istenen hedef, adı verilmeyen tekil bir yerleşimdir: {ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşim}. Buyruk {ar:أَمَرْنَا, tr:amarnā, gloss:buyurduk} bu yerleşimin {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:onun bolluk içindeki sınıfı}na yönelir; onlar {ar:فَفَسَقُوا۟ فِيهَا, tr:fa-fasaqū fīhā, gloss:yerleşmenin içinde itaat sınırını aştılar}. Ardından {ar:فَحَقَّ عَلَيْهَا ٱلْقَوْلُ, tr:fa-ḥaqqa ʿalayhā al-qawlu, gloss:söz yerleşme aleyhine bağlayıcı oldu} ve {ar:فَدَمَّرْنَٰهَا تَدْمِيرًۭا, tr:fa-dammarnāhā tadmīran, gloss:yerleşimi büsbütün yıktık} gelir. {ar:وَإِذَآ, tr:wa-idhā, gloss:ne zaman ki} açılışı bu diziyi bir zaman koşuluna bağlar: koşul sonraki dönüşleri de kapsadığında buyruk, ihlal, hüküm ve yıkım, böyle bir irade ortaya çıktığında işleyen bir örüntü gibi okunabilir. Koşulun yalnızca ilk irade cümlesini çerçevelemesi de mümkündür; bu kapsamda zincir tek bir gerçekleşme olarak kalır.
+
+Koşul içindeki ilk çekimli fiil {ar:أَرَدْنَآ, tr:aradnā, gloss:diledik}, tamamlanmış bir irade bildirimidir; neyin istendiğini ardından gelen {ar:أَن, tr:an, gloss:-meyi} ile {ar:نُّهْلِكَ, tr:nuhlika, gloss:yok etmeyi} üzerinden açıklar. {ar:أَن, tr:an, gloss:-meyi}, doğrudan {ar:نُّهْلِكَ, tr:nuhlika, gloss:yok etmeyi} biçimini yönetir; IV. bâbın ettirgen ve mansub muzari yapısı {ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşimi} helâke götürmeyi iradenin içeriği, yerleşimi de fiilin doğrudan nesnesi yapar. Bu sözdizimi istenen içeriği belirler; iradenin zamanı ve mahiyeti ayrıca belirlenmez. Sonraki {ar:أَمَرْنَا, tr:amarnā, gloss:buyurduk} yeni çekimli cümleyi başlatır; dolayısıyla helâk, eşgüdümlü başka bir olay değil, dilemenin tamamlayıcısıdır. Kapanıştaki {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} aynı yerleşimi ayrı bir yıkım fiiliyle hedef alır: tasarlanan helâk icrada karşılığını bulur, iki kök eşanlamlılaşmaz ve aradaki süre ölçülmez.
+
+Tamamlayıcısı açık olan bu irade, boşta kalan bir özlemden çok belirli bir sonuca yönelir; burada verilen yerleşim hedefi, kök alanında anılan hayvanı ehlileştirme çağrışımını bu bağlantıda etkinleştirmez. {ar:أَرَدْنَآ, tr:aradnā, gloss:diledik} sonundaki uzun â açılışta sesi tutarken, {ar:أَن نُّهْلِكَ, tr:an nuhlika, gloss:yok etmeyi} ve ardından gelen {ar:فَفَسَقُوا۟, tr:fa-fasaqū, gloss:sınırı aşıp karşı geldiler}, {ar:فَحَقَّ, tr:fa-ḥaqqa, gloss:bağlayıcı hâle geldi}, {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} dönüşleri akışı hızlandırır. Bu ses hareketi, açılıştaki tutulmuş iradeden yanıt ve yıkıma geçişi işittirir; bu, ayetin yerel işitme izlenimidir, vezin kuralı ya da her okuyuşa genellenen etki değildir.
+
+Bu belirli hedef, çevresindeki insan istemeleriyle birlikte daha geniş bir seçim ufkunda duyulur. 17:11 insanın aceleciliğini anar; 17:18'de hemen elde edileni isteyenlerle 17:19'da sonraki hayatı isteyen ve onun için çaba gösterenler yan yana gelir. Bu iki insan hedefindeki {ar:يُرِيدُ, tr:yurīdu, gloss:istiyor} ve {ar:أَرَادَ, tr:arāda, gloss:istedi}, odaktaki {ar:أَرَدْنَآ, tr:aradnā, gloss:diledik} ile aynı isteme ailesindendir. Yakın ve uzak hedeflerle amaçlı çaba, ilahi iradeyi insanın tercih ufku içinde okunur kılar; bu yan yana geliş odak yerleşiminin yıkımını açıklayan zorunlu bir neden bağı kurmaz.
+
+## Yerleşim ve Muhatapları
+
+İstenen helâkin hedefi olan {ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşim}, mansub ve belirsiz tekil bir nesnedir: adı verilmeyen bir kent örnek olayın yeri olur. Sözcüğün olağan anlamı insanların toplandığı yerleşimdir; burada eylem değil yer bildirir. Belirsiz tekil biçim, koşullu anlatı içinde örnek bir hedef açar; kapsamı bütün kentlere zorunlu bir yasa olarak yaymaz. Ona bağlanan {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:onun bolluk içindeki sınıfı} ve eylemi içine yerleştiren {ar:فِيهَا, tr:fīhā, gloss:onun içinde}, haritadaki yeri toplumsal hayatı olan bir mekân hâline getirir. Aynı dişil gönderim, sınıfı yerleşime bağlayan -hā'da, eylemin içini kuran {ar:فِيهَا, tr:fīhā, gloss:onun içinde}da, hükmü yerleşime yönelten {ar:عَلَيْهَا, tr:ʿalayhā, gloss:onun aleyhine}da ve yıkım fiilindeki -hā'da sürer. Dilbilgisi aynı kenti farklı ilişkiler boyunca izletir; bu süreklilik dilbilgiseldir, yerleşimin her ilişkide aynı fiziksel sınırla kavrandığını göstermez.
+
+Buyruk fiili {ar:أَمَرْنَا, tr:amarnā, gloss:buyurduk} tamamlanmıştır; açık alıcısı {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:onun bolluk içindeki sınıfı}dır ve bu isim fiilin nesne konumundaki muhatabını bildirir. Alıcı böylece belirgindir; emredilen eylemi söyleyen bir tümleç verilmediğinden buyruk içeriği açık kalır. Ardından gelen tamamlanmış çoğul {ar:فَفَسَقُوا۟, tr:fa-fasaqū, gloss:sınırı aşıp karşı geldiler}, dizideki tek açık insan eylemidir: geçişsiz fiil itaat sınırından çıkışı bildirir, ayrı bir suç nesnesi adlandırmaz. Bu bağ, ihlali buyruğa yanıt olarak okutur; ilahi buyruk bağlamı karşı gelme yönünü de açar. Bitişik {ar:فَ, tr:fa, gloss:ardından} buyruğu yanıta yaklaştırır; bu yakınlık söyleyiş içindeki sıralamayı sıkılaştırır, aradaki sürenin yokluğunu belirlemez. Böyle bir düzen bir sınama sahnesi açar; eylem sıralaması bir insan aracısı belirtmez.
+
+Bu buyruğun çevresindeki kıraat aktarımları buyruk, çoğaltma, yetki ve danışma yönlerini anar; böylece aynı sahne çevresinde farklı nedensellik yolları açılır. Varyantların tam metinleri verilmediği için bu yönler görünen {ar:أَمَرْنَا, tr:amarnā, gloss:buyurduk} biçiminin yerini almaz ve birbirine üstünlük kurmaz.
+
+Buyruğun alıcısı olan {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:onun bolluk içindeki sınıfı}, edilgen ortaçlı çoğul bir sınıf adıdır; sonundaki -hā grubu onu yerleşime bağlar. Sözcük bolluk, geniş imkân ve rahat yaşayış içindeki kişileri anlatır. Aynı kelime ailesindeki kullanımlar, bolluğun kişiyi küstahlaştırıp elindekinin değerini unutturabileceğini ve sınır aşmaya sürükleyebileceğini; şımartılan kişinin de dilediğini yapmasına engel olunmadan bırakılabildiğini taşır. Odakta bu yan anlamları, buyruğun ardından gelen bağımsız {ar:فَفَسَقُوا۟, tr:fa-fasaqū, gloss:sınırı aşıp karşı geldiler} eylemi ve onu buyruğa bağlayan {ar:فَ, tr:fa, gloss:ardından} etkinleştirir: bolluk içindeki konum ihlalin toplumsal zeminini ve geniş hareket alanını görünür kılar. Sınıfı durumuyla adlandıran ortaç ile tamamlanmış ihlal eyleminin ayrılığı, davranışı kişilerin bütün kimliğiyle özdeşleştirmez. 34:34'te başka bir kentin varlıklıları uyarıcıyı reddeder; 29:34'te başka bir kent halkı itaatsizliği yüzünden cezalanır. Bu ayrı sahneler benzer bir tepkinin farklı yerleşimlerde yinelenmesini düşündürür; bu bağlantıda bolluk tek neden, kanıtlanmış saik, mazeret ya da resmî izin değildir ve örüntü her varlıklı gruba genellenmez.
+
+Bu sınıfın konumu, eldeki malın yanı sıra nimet ve derece dağılımı içinde de belirir. 17:6'da mallar ve oğullarla desteklenme, 17:20'de iki gruba da ulaşan nimet, 17:21'de insanlar arasındaki derece farkları anılır. Bu bağlamlar {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:onun bolluk içindeki sınıfı}nı imkân ve etkileri farklılaşan bir konuma yerleştirir; risk servetin kendisinden çok bu konumun eyleme kazandırabildiği geniş etkide belirir. 43:32'de geçimliklerin dağıtılması ve bazı insanların derece bakımından yükseltilmesi aynı toplumsal zemine ayrı bir bağlamdan ışık tutar.
+
+Olağan emir anlamının yanında, aynı sözlük alanındaki {ar:أَمْر, tr:amr, gloss:emir} yetkiyi, makamı, yetki taşıyan kişiyi ya da birini o makama getirmeyi de anlatabilir. 17:21'deki derece farkları ve 43:32'deki geçim ile rütbe dili, bu yetki yankısını kentin işleyişini etkileyebilecek ayrıcalıklı sınıfa taşır. Odaktaki {ar:أَمَرْنَا, tr:amarnā, gloss:buyurduk} buyruğunun bu sınıfa yönelmesi ve sonucun {ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşime} dönmesi, muhatapla hedef arasında sınırlı bir yönetişim boyutu hissettirir; bu temas içinde sınıf, yalnız emri alan değil, buyurma gücüne yakın duran kişiler gibi de algılanabilir. Bu, 43:32'nin odak kentini betimlemesi ya da ayetin sınıfa resmî makam vermesi değildir; olağan buyruk anlamı korunurken bağlamsal bir yetki yankısı eklenir.
+
+Dilbilgisi önce eyleyenlerle sonucu taşıyan kentin ölçeklerini ayırır: {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:onun bolluk içindeki sınıfı} buyruğu alır, {ar:فَفَسَقُوا۟, tr:fa-fasaqū, gloss:sınırı aşıp karşı geldiler} çoğul eylemi bu gruba verir; {ar:عَلَيْهَا, tr:ʿalayhā, gloss:onun aleyhine} ve {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} ise sonucu tekil yerleşime döndürür. Yerleşim adı sakinlerini topluca kapsayabilir; aynı metonimik kullanım yalnız ihlalde bulunan nüfusu da gösterebilir. Böylece açık fail çoğul zümre olarak kalırken sonuç, daha geniş bir toplumsal gövdeye ulaşır; dilbilgisi her sakini eyleyen ilan etmez. 17:2'de Musa'ya verilen rehberlik, 17:7'de iyilik ve kötülüğün kişinin kendisine dönmesi, 17:15'te kimsenin başkasının yükünü taşımaması ve elçi gönderilmeden azap edilmemesi, bireysel sorumluluğu bu toplumsal sonuçla birlikte görünür kılar.
+
+## İç Mekânın İmgeleri
+
+{ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşim}in olağan anlamı, insanların bir araya geldiği yerdir; kök alanındaki kap ya da oyuk kullanımı ise suyu veya yiyeceği içinde toplama imgesini sağlar. {ar:فِيهَا, tr:fīhā, gloss:onun içinde} yerleşimin içini belirler, {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:onun bolluk içindeki sınıfı} oraya bağlı topluluğu gösterir, {ar:فَفَسَقُوا۟, tr:fa-fasaqū, gloss:sınırı aşıp karşı geldiler} bu iç mekânda gerçekleşen ihlali bildirir. İçlik, sakinler ve içerideki eylem bir araya gelince yerleşim, ortak hayatı tutan bir hazne gibi görünür: kök yankısı kentin toplumsal mekânını genişletir, sözün olağan yerleşim anlamını devralmaz. İhlal ise anlatılan sınıfın eylemidir; hazne imgesi onu bütün sakinlere yaymaz.
+
+Hazne imgesinin çizdiği toplumsal mekândan ayrı olarak, {ar:فَفَسَقُوا۟ فِيهَا, tr:fa-fasaqū fīhā, gloss:yerleşmenin içinde itaat sınırını aştılar} fiildeki sınır aşımını somutlaştırır. Olağan ahlaki anlam itaatten çıkıştır; aynı kök alanındaki taze hurma tanesinin kendi kabuğundan çıkışı, bu eyleme içeriden dışarı doğru bir hareket biçimi verir. Buyruğun ardından gelen ihlal, yerleşmenin içini bildiren {ar:فِيهَا, tr:fīhā, gloss:onun içinde} ve bitişik {ar:فَ, tr:fa, gloss:ardından} ile temas eder; 29:34'teki kent, itaatsizlik ve ceza bağı da bu kabuk imgesini tetikler. Böylece hazne kentin toplumsal ortamını, kabuğundan çıkan tane ise ihlalin sınırını aşan hareketini görünür kılar. Bu bağlantıda hurma fiilin sözlük anlamı değil, itaatten çıkışı biçimlendiren bir imgedir.
+
+17:4'te yeryüzündeki bozulmanın iki kez yaşanacağı söylenir; 17:5 ise gönderilenlerin evlerin içinden ve aralarından geçtiği somut güzergâhı verir. Odaktaki {ar:فَفَسَقُوا۟ فِيهَا, tr:fa-fasaqū fīhā, gloss:yerleşmenin içinde itaat sınırını aştılar} ihlali yerleşmenin içine koyar, {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} yıkımın hedefini kentte tutar. Bu iki ayrıntı 17:5'teki ev arası geçişle yan yana gelince, içeriden açılan toplumsal sınırdan yerleşimin içine uzanan bir erişim yolu olarak duyulabilir. 17:5'te hareket edenler odaktaki varlıklı sınıftan bağımsız olabilir; ortak mekânsal imge, aynı fail ya da zorunlu neden bağı kurmaz.
+
+Odaktaki {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} olağan anlamıyla yıkımı bildirir; kök ailesindeki ayrı bir dal ise bir evin ya da topluluğun bulunduğu yere girmeyi anlatır. {ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşimi} yıkımın hedefini, {ar:فِيهَا, tr:fīhā, gloss:onun içinde} iç mekânı, fiildeki dişil nesne eki de aynı kenti gösterir; bu ilişkiler giriş dalına yerleşimin içine doğru bir yön verir. 17:5'te evlerin arasından geçen hareket güzergâhı, 27:52'de kötülükleri yüzünden boş kalan evler ise görünür sonucu ekler. Birlikte, iç düzeni açılmış toplumsal gövdeye girip kentin bütününe yayılan bir yıkım tasavvuru oluşturabilirler. Dışarıdan gelen darbe, olağan yıkım okuması olarak açık kalır; içeri girme bu fiilin çevirisi ya da yıkımın fiziksel mekanizması değil, bu bağlantıya özgü mekânsal yankıdır.
+
+Bu iç mekân anlatısı, 17:4, 17:5, 17:6, 17:7 ve 17:8'deki dönüş çizgisi içinde zamansal bir karşılık bulur. 17:4'teki iki bozulmanın ardından 17:6'da geri verilen güç ve {ar:الْكَرَّةَ, tr:al-karrata, gloss:yeniden dönüş}, 17:7'de üstün gelinen şeylerin yeniden yıkılması, 17:8'de ise dönülürse karşılık olarak dönüleceği bildirilir. Bu ayrıntılar tekrarlanan bozulma, yenilenen kapasite, yıkım ve karşılıklı dönüşü aynı tarih içinde birbirine bağlar. Odaktaki {ar:وَإِذَآ أَرَدْنَآ, tr:wa-idhā aradnā, gloss:dilediğimizde} koşulu ile eklenen sonuçlar, 17:16'yı yenilenebilir toplumsal tarihin bir yıkım evresi gibi duyurabilir. 17:6'daki dönüş adı odak iradesiyle farklı köktendir; bu nedenle geri gelme yönü sözcüğün anlamı değil, bağlamın eklediği yankıdır. Bu çevrim okuması İsrail anlatısının tarihsel çerçevesinde kalır; bütün kentlere yönelik bir yasa kurmaz.
+
+## Sözün Bağlanması
+
+Dönüşlerin geniş tarih içindeki yankısından ayetin cümle hareketine gelince, üç fâ buyruk, yanıt, hüküm ve icra basamaklarını birbirine bağlar. {ar:أَمَرْنَا, tr:amarnā, gloss:buyurduk} sonrasındaki {ar:فَفَسَقُوا۟, tr:fa-fasaqū, gloss:sınırı aşıp karşı geldiler} yanıtı başlatır; sonraki {ar:فَحَقَّ, tr:fa-ḥaqqa, gloss:bağlayıcı hâle geldi} hükmü getirir, onun ardından {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} icraya geçer. Böylece hüküm, yanıt ile yıkım arasında ayrı bir orta aşama olarak belirir. Fâlar sıralama ve sonuç bağını taşır; her geçişin nedensel payı, aradaki sürenin miktarı ve yıkımın fiziksel yolu ayrıca belirtilmez.
+
+Bu orta aşamanın öznesi belirli biçimiyle {ar:ٱلْقَوْلُ, tr:al-qawlu, gloss:söz ve hüküm}dur: {ar:فَحَقَّ عَلَيْهَا ٱلْقَوْلُ, tr:fa-ḥaqqa ʿalayhā al-qawlu, gloss:söz yerleşme aleyhine bağlayıcı oldu} cümlesinde {ar:عَلَيْهَا, tr:ʿalayhā, gloss:onun aleyhine} hükmün yöneldiği yerleşimi gösterir. {ar:فَحَقَّ, tr:fa-ḥaqqa, gloss:bağlayıcı hâle geldi} zorunluluk ve bağlayıcılık taşır; önceki çoğul ihlalin ardından sözü tekil kentin aleyhine hüküm hâline getirir. Böylece hedef ayrıcalıklı sınıftan yerleşimin bütününe kayar. Bu cümledeki bağlayıcılık, kişisel mülkiyet ya da hak sahipliği değil, kente yönelen hükmün zorunlu oluşudur; fiilin doğruluk ve sabitlik yönü ise ayrı bir yankı olarak kalır. Sözün belirli biçimi cümledeki özneyi tanımlar; odak dışında daha önce söylendiğini, içeriğini ya da konuşanını belirlemez.
+
+Bağlayıcılık anlamını koruyan {ar:فَحَقَّ, tr:fa-ḥaqqa, gloss:bağlayıcı hâle geldi}, doğru, sabit ve yerleşik olanı bildiren kullanımıyla da işitilebilir. Önceki {ar:فَفَسَقُوا۟, tr:fa-fasaqū, gloss:sınırı aşıp karşı geldiler} eylemi kentin hâlini açığa çıkarır; belirli {ar:ٱلْقَوْلُ, tr:al-qawlu, gloss:söz ve hüküm} bu hâli adlandırınca karar doğruluğu sabitlenmiş gibi görünür. Geçişsiz fiil bu okuma içinde kanıtlayan ayrı bir fail kurmaz. Böylece doğru ve sabit olma yankısı, bağlayıcı hükmü kaldırmadan kentin görünen hâlini kararın okunabilir dayanağına dönüştürür.
+
+{ar:ٱلْقَوْلُ, tr:al-qawlu, gloss:söz ve hüküm} olağan anlamıyla söylenmiş sözdür. Buyruktan çoğul yanıta, bağlayıcı sözden yıkımın icrasına uzanan yerel zincirde bu söz, yalnız bilgi aktarmakla kalmayıp hükmü yürürlüğe koyan bir söz edimi gibi de duyulur. Bu işlev cümlenin kendi sıralamasından doğar; konuşanı ve sözün içeriği verilmez.
+
+{ar:ٱلْقَوْلُ, tr:al-qawlu, gloss:söz ve hüküm}un başka bir kullanımı, konuşma olmadan bir durumu belli etmektir. Bu yankı, önceki ihlalin yerleşimin hâlini göstermesi, {ar:فَحَقَّ, tr:fa-ḥaqqa, gloss:bağlayıcı hâle geldi}nın bu hâli sabit ve hükme değer kılması, yıkımın da sonucu görünür kılmasıyla işler: olayların kendisi sözsüz bildirim gibi duyulur. Bu, söylenmiş söz anlamına eklenen bir olasılıktır; qawl'u mutlaka sessiz işarete dönüştürmez.
+
+17:5'te ilk İsrail olayı için {ar:وَكَانَ وَعْدًا مَفْعُولًا, tr:wa-kāna waʿdan mafʿūlan, gloss:yerine getirilmiş bir vaat idi} denmesi, odaktaki {ar:فَحَقَّ عَلَيْهَا ٱلْقَوْلُ, tr:fa-ḥaqqa ʿalayhā al-qawlu, gloss:söz yerleşme aleyhine bağlayıcı oldu} ve yıkımın ardından gerçekleşmesiyle ayrı bir tarihsel paralellik kurar. Bu temas, bağlayıcı sözün olayda gerçekleşip doğrulanması yönünü belirginleştirir; iki sahnenin sözü ya da yerleşimi özdeş değildir ve paralellik belirli bir önceki tehdidi adlandırmaz.
+
+17:13'te her insanın payının kendi boynuna bağlanması ve açılmış kitabın karşısına gelmesi, 17:14'te kişinin kendi kitabını okumasıyla sürer. Payın bağlanması, kaydın açılması ve okunması, odaktaki {ar:فَحَقَّ عَلَيْهَا ٱلْقَوْلُ, tr:fa-ḥaqqa ʿalayhā al-qawlu, gloss:söz yerleşme aleyhine bağlayıcı oldu} hükmünün yanına bireysel eylemlerin geçmişini koyar; böylece kentin görünen hâli birikmiş eylemler karşısında okunabilir olur. Kişisel kayıt kent aleyhine bağlanan sözden ayrı kalır; daha önce söylenmiş bir tehdidin gerçekleşmesini doğrulaması da olasıdır.
+
+Kişisel kayıttan yerleşimlerin sonuna geçince iki ölçek yan yana gelir: 17:58'de her yerleşim için yıkım ya da ağır azap ufku yazılıdır; 27:85'te yanlış yapanların işlerinden ötürü üzerlerine söz düşer. İlki kentlerin yazılı son ufkunu, ikincisi eylem sonrasında gelen hükmü verir; odaktaki {ar:فَحَقَّ عَلَيْهَا ٱلْقَوْلُ, tr:fa-ḥaqqa ʿalayhā al-qawlu, gloss:söz yerleşme aleyhine bağlayıcı oldu} bu ikisi arasında ihlalden hükme giden sırayı korur. Bu bağlantı sözün önceden yazıldığını ya da söylendiğini ve hükmün tam zamanını belirlemez; 17:58 de kişisel sicili değil yerleşimlerin sonunu konu eder.
+
+## Yıkımın Kapsamı
+
+İradenin başındaki {ar:أَرَدْنَآ, tr:aradnā, gloss:diledik} ile kapanıştaki {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} aynı birinci çoğul özneyi ve baştaki {ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşimi} hedefinde kalan dişil nesne ekini taşır; bu dilbilgisel halka iradeyi aynı kente yönelen icraya bağlar. Kişi ekleri anlatıdaki özne ve hedef sürekliliğini gösterir; failin mahiyeti hakkında ayrıca hüküm kurmaz. İrade içindeki {ar:نُّهْلِكَ, tr:nuhlika, gloss:yok etmeyi} IV. bâbın ettirgen biçimiyken, {ar:فَدَمَّرْنَٰهَا, tr:fa-dammarnāhā, gloss:onu yıktık} ikinci bâbın geçişli yıkım fiilidir; iki ayrı kök niyet ile icrayı birbirinden ayırır. Ardındaki {ar:تَدْمِيرًۭا, tr:tadmīran, gloss:yıkım}, aynı kökten mansub mastar ve mef'ul mutlak olarak yıkım eylemini yeniden adlandırıp pekiştirir: tek tamamlanmış eylemin ağırlığını artırır, sayısını ya da ölçüsüz miktarını değil. İkiz mîm ve mastarın uzayan sonu bu kapanışa yerel bir işitsel mühür verebilir; izlenim ses akışına aittir, vezin kuralı veya seyrek kullanım iddiası taşımaz.
+
+Bu yerel niyet-icra halkası 17:17'de Nuh'tan sonra nice kuşakların helâk edildiğinin bildirilmesiyle daha uzun bir tarihsel ölçeğe açılır: odaktaki {ar:أَن نُّهْلِكَ قَرْيَةً, tr:an nuhlika qaryatan, gloss:bir yerleşimi helâk etmeyi} ile 17:17'deki {ar:أَهْلَكْنَا مِنَ الْقُرُونِ مِنْ بَعْدِ نُوحٍ, tr:ahlaknā mina l-qurūni min baʿdi Nūḥ, gloss:Nuh'tan sonra nice kuşakları helâk ettik} aynı helâk kökünü farklı yapılarda taşır. Bu yankı tek yerleşim sahnesini kuşaklar boyu uzanan kayıtla birlikte duyurur; hedef kentin o önceki topluluklardan biri olduğunu söylemez ve bu tarihsel ilişkiyi bütün sureye yaymaz.
+
+Farklı kent sahneleri ortak bir hüküm örüntüsüne ayrı katkılar verir: 34:34'te varlıklı kesimin uyarıcıyı reddi ve 29:34'te kent halkının itaatsizlik yüzünden cezalanması, ihlal ile sonucu yan yana getirir; 27:51'de topluluk ve halkının birlikte yok edilmesi yıkımın kapsamını, 27:52'de yanlışlar yüzünden boş kalan evler sonucun görünür izini, 46:27'de çevre kentlerin yıkılması ise ölçeğin başka yerleşimlere uzanışını gösterir. Odaktaki {ar:فَدَمَّرْنَٰهَا تَدْمِيرًۭا, tr:fa-dammarnāhā tadmīran, gloss:yerleşimi büsbütün yıktık} bu ayrı sahnelerle birlikte tam yıkım ve toplumsal sonuç temasını güçlendirir. Bağlantı yinelenen bir uyarı örüntüsüdür, ortak olay ya da mekanizma değildir; varlığı tek suç nedeni yapmaz ve her sakinin aynı eylemi üstlendiğini söylemez.
+
+Odaktaki {ar:قَرْيَةً, tr:qaryatan, gloss:bir yerleşim} ve {ar:فَدَمَّرْنَٰهَا تَدْمِيرًۭا, tr:fa-dammarnāhā tadmīran, gloss:yerleşimi büsbütün yıktık} taşıyıcılarının yanında 17:103 başka bir mekânsal tersine dönüş sunar: Firavun halkı ülkeden çıkarmayı tasarlarken kendisi ve yanındakiler boğulur. Bu ayrı fail ve olay, toprak üzerindeki denetimin geçiciliğini duyurur; odak kentinin yıkımını açıklamaz. 17:58'de yazılı yerleşim sonu, 46:27'de çevre kentlerin yıkılması ve belki dönsünler diye verilen işaretlerle yan yana gelir; yazılı son ufku içinde geri dönüş ihtimalini açan bu işaretlerin kapsamı açık kalır. 46:27'deki dönüş fiziksel yeniden kurulma mı, yoksa toplumsal onarım mı demektir?
+
+</editorial_prose>

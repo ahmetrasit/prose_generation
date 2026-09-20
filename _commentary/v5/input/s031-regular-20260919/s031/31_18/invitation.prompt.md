@@ -1,0 +1,201 @@
+# V5 reading invitation — 31:18
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_18/31_18.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_18/31_18.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Yanağın yönü
+
+31:18, insanlara yönelen yüz hareketini ve ortak yerdeki yürüyüşü iki ayrı yasak olarak kurar: {ar:تُصَعِّرْ خَدَّكَ لِلنَّاسِ, tr:tuṣaʿʿir khaddaka li-n-nās, gloss:insanlara yanağını çevirme} ve {ar:وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا, tr:wa-lā tamshi fī al-arḍ maraḥan, gloss:yeryüzünde taşkınlıkla yürüme}. Ardından bu davranışları {ar:إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ, tr:inna Allāha lā yuḥibbu kulla mukhtālin fakhūrin, gloss:Allah kendini üstün görüp övünen herkesi sevmez} hükmüyle bir karakter tipine bağlar. Böylece bakış önce başkalarıyla karşılaşan bedene, sonra o bedenin bastığı ortak zemine, en sonunda da hareketlerde beliren üstünlük iddiasına yönelir.
+
+İlk yasağın hedefi, yüzün yana çevrilmesidir. {ar:لَا, tr:lā, gloss:yapma} parçacığı {ar:تُصَعِّرْ, tr:tuṣaʿʿir, gloss:yanağını yana çevir} fiilini cezm ederek bu hareketi durdurur; kibir yorumu ayrı bir sıfattan değil, yüzün insanlara yönelen bu hareketinden doğar. Fiilin orta ünsüzündeki şedde, Form II muzari biçimini belirginleştirirken yana eğilen beden hareketini sıkıştırılmış biçimde duyurur. Yakın biçimlerden ayrılan bu yüzey, ayetteki yanak dönüşünü belirginleştirir; fiilin seyrek kullanımı da yanak nesnesi ve insanlara yönelen tamamlayıcıyla daha özgül bir toplumsal jesti öne çıkarırken kelime ailesinin diğer kullanımlarına yer bırakır. Şedde dönüşü hem anlamda hem seste sıkıştırır. Yüzün, yanağın ya da boynun düz konumdan yana eğilmesini anlatan kullanım bedende görünür; eğriliği patolojiye benzeten dal da bu jesti resmeder, klinik bir tanı koymaz.
+
+Jestin yerini {ar:خَدَّكَ, tr:khaddaka, gloss:yanağını} gösterir: yanak, göz çukuru ile çene arasındaki yüz yanıdır ve fiilin doğrudan nesnesidir; iyelik eki muhatabın kendi görünen yüzeyini öne çıkarır. {ar:لِلنَّاسِ, tr:li-n-nās, gloss:insanlara} hareketin toplumsal yönünü insanlarla kurulan ilişkiye sabitler; saik ile tekil mağdur açık bırakılır. Belirli çoğul biçimdeki {ar:النَّاسِ, tr:al-nās, gloss:insanlar}, topluluğu ve gerektiğinde üyelerini kapsar; böylece uyarı tek bir özel hakaret sahnesinden daha geniş, kamusal karşılaşma alanına yönelir. Yanak bedensel parça olarak kalırken, insanlara çevrilen yüz karşılaşmanın kamusal yüzünü taşır.
+
+Yüzün bu küçük yüzeyi, yürüyüşle birlikte ortak zemindeki daha geniş bir çizgiye açılır. {ar:خَدَّكَ, tr:khaddaka, gloss:yanağını} taşıyan kelime ailesinde toprakta açılan uzun oluk anlamı da vardır; ayrı bir tetikleyici olan {ar:تَمْشِ فِى ٱلْأَرْضِ, tr:tamshi fī al-arḍ, gloss:yeryüzünde yürümen} bu ince beden çizgisini üzerinde yürünülen geniş geçişe yankılatır. Yanak bedensel anlamını korurken yüz çizgisi ortak rota üzerinde bir iz düşüncesi kazanır. Aynı ailenin yalın bir kullanımı yolu, başka belirli bir biçimi ise yol yüzeyindeki izi ve oluğu adlandırır. Gerçek yürüme güzergâhı bu iki dalı harekete geçirince, yüz çevirme karşılaşmadan uzaklaşan bir sosyal çizgi gibi duyulabilir; beden yüzeyi ortak rotada iz bırakır. Bu bağlantı, yanağı “yol”a çevirmek yerine yanak ile güzergâh arasında bir yüzey yankısı kurar.
+
+Yanağın dönüşü ile yürüyüş rotası, aynı kelime ailesindeki başka hareketleri de ayrı ayrı görünür kılar. {ar:تُصَعِّرْ, tr:tuṣaʿʿir, gloss:yanağını yana çevir} sözcüğünün bir kullanımı ilerleyen devenin yana yön vermesini anlatır. Yeryüzünde yürüme güzergâhı bu imgeye temas edince üst bedenin açısı yolu yana yönlendiriyor gibi görünür; bu dal bedensel jestin yön verici etkisini belirginleştirir, ayetin sahnesinde bir deve bulunmaz. Ailenin develerin ayrılıp dağılmasını anlatan başka bir kullanımı, insan topluluğu ve ortak yürüyüş alanı içinde geri çekilen yüzü sürüden kopuşa benzetir; bu karşılaştırma toplumsal ayrılığı düşündürür, deve sürüsünü ayete taşımaz. Kesme ve bütünlüğü bozma kullanımıysa geri çekilen ilişkinin ortak çizgide bıraktığı kopmayı duyurur; bedensel eylem yanağı çevirmek olarak kalır.
+
+Bu çizgi, toplumsal konum imgesini de açar. {ar:خَدَّكَ, tr:khaddaka, gloss:yanağını} taşıyan ailenin bir başka kullanımı insan topluluğunu ya da katmanları adlandırır. {ar:النَّاسِ, tr:al-nās, gloss:insanlar} topluluğu ile {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} kişinin statü iddiası bu dalı harekete geçirince, jest sınıflar arasındaki konumu işaretler gibi okunabilir; bu bağlantı belirli bir sınıf düzeni tayin etmez. İnsanları adlandıran sözün sınırlı bir kullanımındaki “yakın yan” anlamı yüzün yönünü bir ilişki eksenine yerleştirir. Göz bebeğinde görünen küçük insan yansımasını anlatan ayrı bir dal ise başkasının bakışını yansıtıcı yüzey kılar: yanağın dönüşü ile üstünlük iddiasını taşıyan suret karşılaşınca yüzünü kaçırmak karşılıklı bakıştan uzaklaşma gibi duyulur. Bu aynasal çağrışım kelime ile jestin keşifsel birleşimidir; göz ve göz bebeği ayette ayrıca anlatılmaz.
+
+## Yürüyüşün ölçüsü
+
+İlk yüz hareketinin ardından gelen kısa {ar:وَ, tr:wa, gloss:ve} yanına yürüyüşü ikinci bir davranış alanı olarak ekler: {ar:وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا, tr:wa-lā tamshi fī al-arḍ maraḥan, gloss:yeryüzünde taşkınlıkla yürüme}. İlk iki {ar:لَا, tr:lā, gloss:yapma} eylemleri cezm ederek durdurur; yüzü çevirme ile yürüme ayrı buyruklardır ve ardından gelen karakter hükmü onları aynı profile bağlar. Bu iki hareket ortak sahnede buluşur: {ar:خَدَّكَ, tr:khaddaka, gloss:yanağını} ve {ar:تُصَعِّرْ, tr:tuṣaʿʿir, gloss:yanağını yana eğme} üst bedenin açısını, {ar:تَمْشِ فِى ٱلْأَرْضِ, tr:tamshi fī al-arḍ, gloss:yeryüzünde yürüme} gerçek güzergâhı sağlar. {ar:مَرَحًا, tr:maraḥan, gloss:taşkın sevinçle} ile {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} ise adımın ölçüsünü büker; beden açısı ile güzergâh böylece ortak zeminde tek bir mekânsal bozulma imgesine katkıda bulunur, iki buyruk yine ayrı kalır.
+
+Bu ikinci eylemin olağan anlamı {ar:تَمْشِ, tr:tamshi, gloss:yürümen} ile duyulur: Form I’deki fiil geçişsiz ve sıradan bir yürüme hareketidir; yasak parçacığı onu cezmli yapar. Ardından gelen {ar:فِى ٱلْأَرْضِ, tr:fī al-arḍ, gloss:yeryüzünde} yürüyüşün yerini, belirli tekil {ar:ٱلْأَرْضِ, tr:al-arḍ, gloss:yeryüzü} ise bilinen, birlikte yaşanan fiziksel zemini gösterir. “Alan” yankısı bu ortak zemin içinde duyulur; söz belirli bir parseli değil üzerinde birlikte yaşanan yeryüzünü öne çıkarır. Cümle önce nerede, sonra nasıl yüründüğünü bildirir.
+
+Nasıl sorusunun cevabı {ar:مَرَحًا, tr:maraḥan, gloss:taşkın sevinçle} sözünde belirir. Kelime sıradan neşeden daha güçlü, ölçüyü aşan ve kişiyi yerinde duramayacak kadar harekete çağıran bir canlılık taşır. Mansup hâl sözü yürüyüşün tarzını niteler; yasak yürüyüşü ve sevinci genelleştirmek yerine taşkınlığın yürüyüşte sergilenme biçimini sınırlar. Hâl kuruluşu hafif bir saik gölgesi de taşır, ancak cümlede önde olan yürüyüşün tarzıdır ve belirli bir niyeti açık bırakır. Yeryüzü ise göğün karşısında aşağıda bulunan, üzerinde yaşanan fiziksel yerdir; bu ikinci buyruğun sahnesini ortak zemin olarak belirler.
+
+Yürüyüşün biçimi hemen sonraki buyrukta yeniden ele alınır: {ar:وَٱقْصِدْ فِى مَشْيِكَ, tr:wa-qṣid fī mashyika, gloss:yürüyüşünü ölçülü kıl} (31:19). Bu kez hareket sürer, ölçüsü değişir. Buyrukla ilişkilendirilen doğrultu ve iki uç arasındaki orta yol imgeleri, taşkın sevincin ve ağır gösterişli adımın karşısına yön ile oran koyar; bu bağlamsal imgeler sözcüğü tek bir zorunlu sözlük karşılığına kapatmadan yürüyüşe ölçü boyutu ekler. Ardından {ar:وَٱغْضُضْ مِن صَوْتِكَ, tr:wa-ghḍuḍ min ṣawtika, gloss:sesini alçalt} (31:19) ölçüyü yürüyüşten işitilen sese taşır. Adım sürerken dışavurumun şiddeti de ayarlanır; yüz, gösterişli yürüyüş ve övünmeyle kurulan kamusal tavır böylece ortak bir dışavurum düzleminde buluşur.
+
+Bu ölçü, önceki buyrukların bulunduğu bağlamla da konuşur. Namazı kılma, iyiliği emretme ve kötülükten sakındırma görevlerinin ardından (31:17) {ar:وَٱصْبِرْ, tr:wa-ṣbir, gloss:sebat et} çağrısı ve {ar:عَزْمِ ٱلْأُمُورِ, tr:ʿazmi l-umūr, gloss:kararlılık isteyen işler} ifadesi gelir. Sabır ve kararlılık, ardından gelen ölçülü adım ve alçak sesle birlikte okunduğunda enerjiyi söndürmeden yönünü ve gösterişini düzenleyen bir çizgi kurabilir (31:17, 31:19). Bu okumada tevazu, kamusal görevi ve hareketi sürdürürken ölçüyü korur; edilgenlik değildir. Buyrukların ayrı öğütler olarak okunması da yerini korur. Ortak düzenleme çizgisi bu bağlamlar arasındaki yorumlayıcı bağlantıdır ve 31:18’in kibirli gösterişe koyduğu yerel sınırı aşmadan ona ek bir yön verir.
+
+{ar:تَمْشِ, tr:tamshi, gloss:yürüme} eylemi, yeryüzünün yürüyene koyduğu bedensel sınırla da duyulur. Yeryüzünü yarıp geçememeyi ve dağların boyuna erişememeyi hatırlatan uyarı (17:37), aynı yürümeyi böbürlenerek yapmayı da yasaklar. İnsan bedeni bastığı yeri delemez, dağların yüksekliğine erişemez; ortak zemin böylece yürüyenin fiziksel ölçeğini belirler. {ar:مَرَحًا, tr:maraḥan, gloss:ölçüyü aşan taşkınlık} bu ölçüye karşı duyulan canlılığı taşır; yürüyüşteki taşkınlık bedensel erişimi büyüten bir kudret olarak değil, sınır içindeki bir tavır olarak kalır.
+
+## Üstünlük iddiasının görünüşü
+
+İki eylem yasağından sonra {ar:إِنَّ, tr:inna, gloss:şüphesiz} vurgulu bir bildirim açar; {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} adı bu edatın yönettiği mansup biçimdedir ve {ar:لَا يُحِبُّ, tr:lā yuḥibbu, gloss:sevmez} yüklemi hükmü tamamlar. Bakış, ilk hareketin toplumsal hedefi olan {ar:النَّاسِ, tr:al-nās, gloss:insanlar} topluluğundan ikinci eylemin ortak yerini belirten {ar:فِى ٱلْأَرْضِ, tr:fī al-arḍ, gloss:yeryüzünde} sözüne, oradan da {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} adına uzanır. İnsan adabı böylece çevrenin beğenisinin ötesinde Allah adına kurulan bir değerlendirmeye bağlanır. Burada Allah adı, köken türetiminden çok hükmün öznesi olarak işlev görür. Son {ar:لَا, tr:lā, gloss:olumsuzluk parçacığı}, ilk iki yerdeki yasaklayıcı parçacığın aynısı olsa da bu kez bildirim biçimindeki merfu fiili ve nesne öbeğini olumsuzlar; karakter tipi hakkında hüküm verir, üçüncü bir davranış buyruğu kurmaz.
+
+Olumlu bağlılık ve sevgi bildiren {ar:يُحِبُّ, tr:yuḥibbu, gloss:sever} fiilinin olumsuzlanması, bu tipe yönelen süreğen tutumu anlatır; hüküm bir anlık tepkinin ölçüsünü değil ilişki yönünü belirler ve ayrı bir nefret eylemi kurmaz. Buradaki sevgi fiili Form IV’tür; son {ar:لَا, tr:lā, gloss:olumsuzluk parçacığı} olumlu bağlılığı geri çeker. Fiilin tek nesnesi {ar:كُلَّ مُخْتَالٍ فَخُورٍ, tr:kulla mukhtālin fakhūrin, gloss:her kendini üstün görüp övünen kişi} öbeğidir. {ar:كُلَّ, tr:kulla, gloss:her} hükmü bu nitelikleri taşıyan herkes için kurar; kapsamı bütün insanlara yaymaz. Aynı kendini üstün gören ve övüngen tipin başka bir yerde anılması bu karakter alanını pekiştirir (57:23). Yeryüzünde haksız taşkın sevinci anan bağlam da {ar:مَرَحًا, tr:maraḥan, gloss:taşkın sevinçle} sözünün ölçüsünü belirginleştirerek sıradan mutluluktan ayırır (40:75).
+
+Öbeğin iki niteliği aynı karakter profilinin ayrı boyutlarını kurar: {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} içteki üstünlük duygusunu, {ar:فَخُورٍ, tr:fakhūr, gloss:övüngen} ona eklenen dışa vurulan övünmeyi bildirir. Faʿūl kalıbındaki ikinci nitelik yoğun ve yerleşik bir karakter özelliğidir; tek bir övünme anından çok alışkanlık hâlindeki tutumu anlatır, belirli bir rakibi ise açık bırakır. Verilmiş nimetle övünmeme uyarısı bu karakter alanını açarken (57:23), mal ve çocuklar üzerine karşılıklı övünme toplumsal karşılaştırma yüzünü belirginleştirir (57:20). Hâl sözü olan {ar:مَرَحًا, tr:maraḥan, gloss:taşkın sevinçle} ile iki karakter niteliğinin tenvinli sonlanışları davranıştan kişilik tasvirine ses bağı kurar; son {ar:فَخُورٍ, tr:fakhūr, gloss:övüngen} biçimindeki uzun ses bu yankıyı tamamlar, anlamları birleştirmez.
+
+Kişiyi üstün gören {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} söz ailesinde görünür ya da zihinde kurulmuş benzerlik ve suret anlamı da vardır. Yürüme ve övünme gibi ayrı, görünür davranışlar bu kullanımı tetikleyince üstünlük iddiası kamusal bir benlik sunumu olarak sahnelenir: gerçek yüz ve adımlar, sergilenmek istenen imgeyi taşır. Benzerlik alanı gölgeye, yansımaya, düşe ya da zihinde canlanan bir biçime kadar uzanabilir. İnsanlara yönelen yüz ve övünme bu sureti başkasının bakışıyla karşı karşıya getirir; bakış, gösterilen benlik için yansıtıcı yüzey olur. Bu aynasal okuma gerçek bir ayna sahnesi kurmaz ve kişinin üstünlük iddiasının yanlışlığını kanıtlamaz. Aynı ailenin kesin bilgiden yoksun tasarım ya da sanı kullanımı da insan hedefi ve açık övünmeyle birleşince, üstünlüğün kurulmuş bir iddia olarak sunulmasını düşündürür; bu dal iddianın doğruluğunu hükme bağlamaz.
+
+Bu görünür benlik adımda da belirir. {ar:تَمْشِ, tr:tamshi, gloss:yürümen} ve taşkın hâli belirten {ar:مَرَحًا, tr:maraḥan, gloss:taşkın sevinçle} ile yan yana gelen {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} ailesinin ağır ve gösterişli yürüme kullanımı, içteki üstünlük duygusunu bedende sergilenen statüye taşır; bu çağrışım sıfatın kendisini yürüme fiiline dönüştürmez. İnsanlara dönük yürüyüş izleyici ihtimalini açar; metin izleyici tepkisini ya da rakibin yenilgisini anlatmaz. {ar:فَخُورٍ, tr:fakhūr, gloss:övüngen} kişinin geçmiş başarılarını veya sahip olduklarını sıralayarak böbürlenmesini de düşündürür; ayet bu övünmenin içeriğini belirtmez. Ailenin ayrı bir kullanımı üstünlük iddiasına karşılaştırmalı bir boyut ekler. İnsanlara yöneliş ve kendini üstün görme bu kıyasa zemin sağlar; belirli rakip ve yarış bağlamın dışında kalır.
+
+Dışa dönük bu benlik sunumu, başka kamusal sahnelerle yan yana geldiğinde statü gösterisi olarak daha belirginleşir. İnsanların gösteriş için evlerinden çıkması (8:47), yapmadıkları işle övülüp övgü bekleyenlerle gerçekte yaptıkları arasındaki açıklık (3:188) ve süs, karşılıklı övünme, mal ve çocuklar üzerine ölçüşme (57:20), kamusal karşılaştırmanın ayrı yüzlerini gösterir. Bu bağlamda yanağı çevirme {ar:تُصَعِّرْ خَدَّكَ, tr:tuṣaʿʿir khaddaka, gloss:yanağını çevirme}, yürüme {ar:تَمْشِ, tr:tamshi, gloss:yürüme} ve suret yankısı taşıyan {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} ile {ar:فَخُورٍ, tr:fakhūr, gloss:övüngen} nitelikleri başkalarının önünde rütbe sergileme ihtimalini birlikte kurar; bu okuma gösteriyi görünür kılar, sonucunu ya da bir kazananı belirlemez. {ar:مَرَحًا, tr:maraḥan, gloss:taşkın sevinçle} ailesindeki ayrı bir kullanım başarı karşısındaki şaşma ve beğeniyi birleştiren ünlemi ekler. İnsanlara dönük hareket ve övünmeyle temas edince davranış hayranlık bekleyen bir gösteri gibi duyulabilir; ayette sözel bir övgü karşılığı anlatılmaz.
+
+Kişinin kendine biçtiği yüksek yer, yücelik ve büyüklüğün Allah’a nispet edildiği bağlamla karşılaşır (31:30); dünya hayatının aldatıcılığına ilişkin uyarı da üstünlük iddiasının dayanağını sorgulatır (31:33). {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} üzerinden taşınan böbürlenme, {ar:ٱلْعَلِيُّ ٱلْكَبِيرُ, tr:al-ʿAliyy al-Kabīr, gloss:en yüce ve en büyük} niteliği karşısında insanın kendi kurduğu suretle yücelik kazanamayacağını düşündürür. Bu bağlamlar yanağın ve yürüyüşün bedensel yüzeyini korurken, üstünlük iddiasının temelini ve görünüşün güvenilirliğini sorgular. Karşılıklı övünme ve biriktirme sahnesi de iddianın toplumsal statü yarışına katılabileceğini düşündürür (57:20); bu, kelimenin sözlük karşılığı değil, bağlamın açtığı genişlemedir.
+
+{ar:مَرَحًا, tr:maraḥan, gloss:taşkın yürüyüş hâli} için aktarılan sınırlı kullanım, yeni bir tulumun suyla doldurulup dikişlerinin ıslatılarak hazırlanmasını anlatır; bu dal kaba biçim verme ve dolum işlemlerini birleştirir. Sevgi fiilinin bağlı olduğu ailedeki başka biçimler bir kabın dolmasını ve içip ilk kez doygunluğa ulaşan hayvanı, ayrı bir kullanım ise büyük saklama küpünü anlatır. Bu dalların her biri iç hacmin dolması veya doyuma ulaşma ilişkisine katkı verir; birlikte taşkınlığı içeride biriken basınç gibi duyururlar. Ardından {ar:فَخُورٍ, tr:fakhūr, gloss:övüngen} ailesindeki pişmiş toprak kap, {ar:ٱلْأَرْضِ, tr:al-arḍ, gloss:yeryüzü} ile malzeme bağını kurup bu iç basınca sert bir dış kabuk ekler. Böylece dolan iç hacim ile pişmiş kabın dış yüzeyi, iç basınç ve dış gösteriş benzetmesinde ayrı katkılar sunar. Bu söz bağlantısı gerçek su, susuzluk ya da kaplardan oluşan bir olay anlatmaz; kapların kırılganlığı hakkında da sonuç vermez. Sevgi, taşkın hâl ve övüngen kişi olağan anlamlarında kalır.
+
+## Yüzün ilişki içindeki yeri
+
+İnsanlara çevrilen yanağın toplumsal anlamı, yanlış buyruğa uymadan da iyi ilişkiyi sürdürmenin mümkün olduğunu gösteren bağlamla genişler. Ebeveynlerin yanlış çağrısına uymama buyruğunun ardından onlarla dünyada iyi biçimde yoldaşlık etme ve Allah’a yönelen kişinin yolunu izleme emri gelir (31:15): {ar:وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًا, tr:wa-ṣāḥibhumā fī al-dunyā maʿrūfan, gloss:dünyada onlarla iyi biçimde yoldaşlık et} ve {ar:وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ, tr:wa-ttabiʿ sabīla man anāba ilayya, gloss:Bana yönelen kişinin yolunu izle}. Yanlış buyruğa hayır demek beraberliği bitirmez; yönü ilkeli bir seçim belirler, iyi davranış ise sürer (31:15). {ar:خَدَّكَ, tr:khaddaka, gloss:yanağını} fiziksel yanak anlamını korurken bu komşu buyrukla okunduğunda anlaşmazlık karşısında geri çekilmeyen bir mevcudiyeti de düşündürür. Allah’a yönelen kişinin yolu {ar:تَمْشِ, tr:tamshi, gloss:yürüme} imgesiyle buluşunca kişi edilgen uyum yerine seçtiği ahlaki yönde ilerler. İnsanları adlandıran {ar:النَّاسِ, tr:al-nās, gloss:insanlar} söz ailesindeki bir kullanım yabancılığın kalkıp aşinalık ve rahatlığın doğmasını, bir başkası ise yanında bulunup yabancılığı gideren yoldaşı anlatır. Bu yakınlık 31:15’te ebeveynlerle etkin beraberlik olarak görünür; bütün insan ilişkilerine yayılması benzetmeli bir genişletmedir. Böylece yorum genişlese de 31:18’in yanağı küçümseyerek çevirme sınırı yerinde kalır.
+
+İlişkide yüz çevirmek ile sevgi hükmü arasındaki bağ, başka ayetlerin toplumsal çevresiyle de belirginleşir. Aynı kendini üstün gören ve övüngen tipin sevilmediği söylenirken anne-babaya ve komşuya iyilikten söz edilmesi (4:36), yanağın çevrilişini toplumsal davranış alanına yerleştirir. Barışçı insanlara adaletle davrananların Allah’ın sevgisiyle anılması da olumlu bağlılığın adaletle ilişkisini gösterir (60:8). Böylece {ar:لَا يُحِبُّ, tr:lā yuḥibbu, gloss:sevgi göstermez} ile {ar:تُصَعِّرْ خَدَّكَ, tr:tuṣaʿʿir khaddaka, gloss:yanağını çevirme} yan yana okunduğunda yüz hareketi seçilmiş bir toplumsal mesafe gibi duyulur. Bu bağlamlar jestin ilişki boyutunu aydınlatır; ilişkinin tüm sahnesini tek başına belirlemez.
+
+Yön değişimi bu kez bütün yüz üzerinden görünür olur. Allah’a yüzünü yöneltmekten söz eden {ar:وَجْهَهُۥٓ إِلَى ٱللَّهِ, tr:wajhahu ilā Allāh, gloss:yüzünü Allah’a yöneltmesi}, 31:18’de insanlardan çevrilen {ar:خَدَّكَ, tr:khaddaka, gloss:yanağın} karşısına başka bir ilişkiye yönelmiş yüzü koyar (31:22). Aynı bağlamdaki {ar:بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ, tr:bi-l-ʿurwati l-wuthqā, gloss:en sağlam bağa} imgesi istikrarı gösterişli üstünlükten sağlam bir ilişkiye taşır (31:22). Yüzünü Allah’a yöneltmek, denetimi bırakıp bir yön seçmek ve iyilikle birlikte teslim olmak anlamı taşır; insanlara açık yanağın onay ya da rütbe aramak yerine Allah’a yöneliş içinde okunmasını da mümkün kılar. Yatay toplumsal yüz ile Allah’a yönelmiş bütün yüz arasındaki ilişki, iki ayet arasında dilbilgisel bağ değil yorumlayıcı bir genişletmedir; 31:22’nin genel iman ve iyilik çerçevesi de kendi başına yerini korur. Bu karşı-imge, somut yanak yasağını korurken ona başka bir ilişki yönü ekler.
+
+Yüzün yönelmesi, algı ve kabulün kapanmasıyla da yankılanır. Başka bir yerde kişi böbürlenerek arkasını döner, sanki sözü işitmemiş gibi davranır; kulaklarında ağırlık varmış gibi gösterilir (31:7): {ar:وَلَّىٰ مُسْتَكْبِرًا كَأَن لَّمْ يَسْمَعْهَا, tr:wallā mustakbiran ka-an lam yasmaʿhā, gloss:böbürlenerek dönüp sanki onu işitmemiş gibi}. Bu dizide işitmek söyleneni duymayı, dinlemek ise alıcı ve kabul edici duruşu da taşır; görme, duyma ve fark etme kanallarının kapanması bedensel bir engel gibi kurulur (31:7). 31:18’de insanlara çevrilen yanak, bu sahneyle birlikte seçilmiş bir tanımama tavrı olarak okunabilir; bu kesişim yüz jestine algısal kapanma boyutu ekler, “işitmek” anlamını yüklemez. 31:7’nin açık çerçevesi vahyin reddidir; insanlara dönük tanımama ise yüz hareketi ve toplumsal hedef üzerinden kurulan ihtiyatlı bir genişletmedir.
+
+## Alınmış zemin ve bilinmeyen yol
+
+Övünmenin karşısına alınmış iyilik fikrini koyan bağlamlar, yeryüzünü de kişinin kendi başarısından ayırır. Şükretme buyruğu nimeti vereni tanımayı, şükredenin yararının ise kendisine döndüğünü söyler (31:12): {ar:أَنِ ٱشْكُرْ لِلَّهِ, tr:ani ushkuri lillāhi, gloss:Allah’a şükret}. Bu tanıma, {ar:فَخُورٍ, tr:fakhūr, gloss:övüngen} kişinin başarı ya da sahipliğini kendi üstünlüğüne yazan yönüyle karşı karşıya gelir. Görünür ve gizli nimetlerin birlikte anılması, sergilenen sahipliği rütbe kanıtı yapan hesabı görünmeyen iyilikle sınırlar (31:20). Göklerde ve yerde bulunanların insanlara sunulan yararlarla anılması da (31:20), {ar:فِى ٱلْأَرْضِ, tr:fī al-arḍ, gloss:yeryüzünde} yürümeyi kişinin kendi başarısı değil, üzerinde yaşadığı alınmış zemin olarak düşündürür. Bu bağlantı, nimetleri kendine mal eden bir övünme biçimini aydınlatır; her övüngenin bunu bilerek yaptığı ya da gizli iyiliği reddettiği iddiasında bulunmaz.
+
+Bu ölçekte küçücük ve gizli olan da görünürlükten kaçmaz. Hardal tanesi kadar bir şey kaya içinde, göklerde ya da yerde bulunsa Allah’ın onu ortaya çıkaracağı söylenir (31:16); küçük ve saklı olan da bilgi ve karşılığın dışına düşmez. Böylece insanların önündeki büyük gösteri tek ölçü olmaktan çıkar: {ar:تَمْشِ, tr:tamshi, gloss:yürüme} içindeki küçük bir hareket bile ahlaki ölçekte sıfır değildir. Hardal tanesi, görünmeyenin de kuşatıcı bilgi içinde bulunduğunu pekiştirir (31:16); nimeti kişisel başarıya dönüştürme biçimini tek başına açıklamaz. Sevgi bildiren {ar:يُحِبُّ, tr:yuḥibbu, gloss:sever} fiilinin bağlı olduğu söz ailesinde tane, yenebilir tohum ya da ekilebilir çekirdek anlamları da bulunur. Ayrı bir tetikleyici olan {ar:ٱلْأَرْضِ, tr:al-arḍ, gloss:yeryüzü} ile karşılaşınca sevgi çevresinde hafif bir ekim imgesi belirir; yeryüzünün yumuşak, verimli toprak anlamındaki sınırlı kullanımı da bu tane çağrışımına dokunur. Ortak fiziksel zemin ile sevgi anlamı önde kalır; ekim ve büyüme ayette anlatılan süreçler değil, bu bağlantının eklediği hafif yankıdır. Hardal tanesinin küçük ama bilinen ölçüsü tohum çağrışımını destekler (31:16); iki dal ayrı sözlük anlamları olarak kalır.
+
+Yeryüzünün ortak zemini, taşkın yürüyüşü alınmış gelişmeyle karşılaştıran bir tarımsal yankı da açar. {ar:مَرَحًا, tr:maraḥan, gloss:taşkın yürüyüş hâli} için sınırlı kullanımlardan biri yağmurdan sonra hızla yeşeren toprağı, bir diğeri ilk başağını çıkaran ekini anlatır. Yere sağlamlık verilmesi, onun insanlarla sarsılmasının önlenmesi ve orada bitkinin büyütülmesi bu görüntülere zemin sağlar (31:10). Sabit zemin büyümeyi taşır, filiz ise gelişmenin zeminden geldiğini görünür kılar; bunun karşısında {ar:تَمْشِ, tr:tamshi, gloss:yürüyüş} içindeki böbürlenme, alınmış gelişmenin kendiliğinden üretilmiş taklidi gibi okunabilir. Bu bağlantı, {ar:مَرَحًا, tr:maraḥan, gloss:taşkın sevinçle} sözünü tarım anlamına çevirmez; taşkın yürüyüş ile büyüme imgesini karşılaştırır. Hardal tanesi küçük ve saklı olanın da ölçüde bulunduğunu ekler (31:16), böylece görünür gösterinin karşısında küçük eylemlerin önemini açar. 31:10 ve 31:16’nın yaratılış gücü ile Allah’ın bilgisi hakkındaki daha genel okuması da yerini korur; kendiliğinden büyüme taklidi, bu bağlamlarla kurulan keşifsel bir genişletmedir.
+
+Yürümenin zemine bağımlılığı, daha geniş bir yolculuk imgesiyle de ölçülür. Gök cisimlerinin, güneş ve ay dâhil, akışlarını sürdürürken her birinin belirlenmiş bir vakte doğru gittiği anlatılır (31:29). Bu bütün ve süreli hareket alanı odağın {ar:كُلَّ, tr:kulla, gloss:her} sözüne temas edince karakter tipinin her taşıyıcısını sınırlı bir seyir içinde düşündürür (31:29). Böylece göksel akışın kapsayıcılığı “her”in kapsamını bütün insanlara yaymak yerine, bu sıfatları taşıyan herkesi zamanla çevrili bir hareket alanına yerleştirir. Göksel akış sürer ve belirlenmiş vadesine yönelir; üstünlük iddiası da bu karşılaştırmada zamanı aşan bir mevki değil, sınırları olan bir seyir olarak görünür.
+
+Yeryüzünde ilerleyen gemi, yürümenin zemine bağımlılığını başka bir hareketle somutlaştırır. Deniz yolculuğu Allah’ın nimetiyle gerçekleşir (31:31); gölge gibi üzerlerine gelen dalgalar geçişin denetim dışına çıkışını, kurtarılıp karaya çıkarılmaları ise hareketin yeniden yeryüzüne bağlanışını gösterir (31:32). Gemi, dalga ve karaya dönüş yürüyüşe destek ve sınır içinde ilerleyen ayrı bir yolculuk örneği sunar (31:31, 31:32). Karaya çıkanlar arasında anılan {ar:مُّقْتَصِدٌ, tr:muqtaṣid, gloss:ölçülü davranan kişi}, aşırılıkla eksiklik arasındaki ölçüyü taşıyan kişiyi niteler. Bu bağlantı, yürüyüşü sözlük anlamı bakımından deniz yolculuğuyla bir tutmadan, onu desteği ve sınırı olan küçük bir yolculuk gibi görmeye imkân verir.
+
+Benlik imgesi, geleceği güvenceye alan bir vekil gibi sunulamaz; bu karşılaştırma onun sınırını görünür kılar. Dünya hayatının aldatıcılığı ve yarının bilinmezliği içinde {ar:مُخْتَالٍ, tr:mukhtāl, gloss:kendini üstün gören} için açılan görünür benzerlik ve zihinde kurulan suret, kişinin yerine geçecek sağlam bir dayanak değil, sınanabilir bir tasarı olarak kalır (31:33, 31:34). Ebeveyn-çocuk ilişkisinde ebeveyn çocuğu adına karşılık veremez (31:33); bir kişinin yerine başkasının sonuç üstlenememesi, çekici ama oynak görünüşün kimlik yerine geçemeyeceği düşüncesini besler. Dünya hayatını adlandıran ifade yanağın adıyla ses düzeyinde uzak bir yankı kurabilir; bu bağlantı yanakla insanlara gösterilen sureti ses bakımından yakınlaştırır, iki sözü eşanlamlı kılmaz. Aynı ailenin kesin bilgi olmadan kurulan tasarım anlamı da yarın hakkında bir güvence sunmayan benlik anlatısını düşündürür (31:33, 31:34); ayetlerin hesap ve aldanışa ilişkin daha genel çerçevesi bu özel çağrışımla birlikte yerini korur.
+
+Geçmiş başarı ve sahiplikleri kişisel liyakat hesabına çeviren {ar:فَخُورٍ, tr:fakhūr, gloss:övüngen}, alınmış nimet için övünmeme uyarısı ve yapılmamış işler için övgü bekleme sahnesiyle karşılaştırılır (57:23, 3:188). Yarın ne kazanılacağının ve nerede ölüneceğinin bilinmemesi bu hesabın geleceğe uzanmasını sınırlar (31:34). Ölüm yerine ilişkin uzak yol-yönü yankısı, {ar:تَمْشِ فِى ٱلْأَرْضِ, tr:tamshi fī al-arḍ, gloss:yeryüzünde yürüme} ile buluşunca sonu önceden bilinmeyen bir güzergâh imgesi verir. Aynı suret ailesinin sınırlı bir başka kullanımı kişi, dişi deve ya da toprağı iyi bir sonucun işareti sayabilir; benlik imgesiyle kurulan bu bağlantı olumlu işaretin yarın için güvence olamayacağını düşündürür. 31:33 ve 31:34’ün ahiret aldanışı ve hesap hakkındaki genel okuması da yerini korur; suret ile gelecek bağı, bu çerçeveye 31:18’deki böbürlenme açısından eklenen ihtiyatlı bir çağrışımdır.
+
+</editorial_prose>

@@ -1,0 +1,940 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "31:30",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_dce1e1baacc00890f266",
+      "decision": "narrow",
+      "reason": "The explicit al-Haqq/al-Batil contrast activates the candidate's truth and invalidity core, and the call wording supports its bounded speech image. The attached B005 worklessness sense of batil is excluded: the focus uses al-Batil against al-Haqq, while that branch is specifically absence of work or beneficial occupation and explicitly excludes batil against truth.",
+      "finding_refs": [
+        "macro:stable-truth-vs-falsehood"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000127/B005",
+          "reason": "Its focus is idleness or being away from useful work, and its own boundary excludes falsehood against truth. Here al-Batil is the predicate opposed to al-Haqq; neither the focus call nor the pericope ownership context changes that carrier into a worklessness reading."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cf43eba4188421325646",
+      "decision": "accept",
+      "reason": "All five supplied branch refs land through focus occurrences and distinct facets: the directed-call branch, both other-than and below facets of dun, the upper-side branch, and greatness. The creator, ownership, and knowledge contexts return through the focus's call and high/great words; no nominated branch is omitted.",
+      "finding_refs": [
+        "macro:other-calls-beneath-authority"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_823ad7d69275b8296938",
+      "decision": "accept",
+      "reason": "Every explicit HFT anchor (31:27-30) falls inside the declared pericope. Each trace supplies a context coordinate, word index, root, and role that contacts a supplied focus title; registered focus branches use their packet facets, while unresolved context branches are retained only as attributed HFT evidence. Legacy and broader-scope qualifications affect epistemic status, not visibility.",
+      "finding_refs": [
+        "macro:scale-independent-governance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:stable-truth-vs-falsehood",
+      "origin_candidate_id": "cand_dce1e1baacc00890f266",
+      "represented_candidate_ids": [],
+      "title": "Reality that holds against falsehood",
+      "claim": "The focus names Allah as al-Haqq and the invoked alternatives as al-Batil: reality with a basis stands against what lacks one. The pericope's later promise is also called haqq, extending that contrast to what can be relied on.",
+      "mechanism": "Al-Haqq and al-Batil are explicit opposing carriers in the focus. The call verb makes the contrast audible as speech, letting the restricted well-constructed-speech facet color the truth claim; 31:33 then repeats haqq for Allah's promise. Together these contacts make the contrast about what holds under scrutiny, not only two labels.",
+      "reader_payoff": "Truth becomes perceptible as a coherent, durable reality that can be trusted, while the calls to alternatives lack that footing.",
+      "containment": "The ordinary reading that Allah is true and calls to others are false stays intact. The weave and well-formed-speech image is an analogical, form-limited resonance: no textile is named, and the verse does not assert that every invocation has no effect. The 31:33 link is pericope context, not a new morphology claim.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The focus opposition, branch records, and channel supports are supplied and trusted. The structural and speech facets of the collocational branch are contextual images, and the 31:33 connection has exact Arabic but no target morphology."
+      },
+      "support_ids": [
+        "sup_421085a70e776907c506",
+        "sup_46f3583ad4dbb0a7279e",
+        "sup_ae8b0c5efe6ddc5cd4e4",
+        "sup_fb17bf8f0be633a87c85"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:5:2"
+          ],
+          "trigger_refs": [
+            "31:30:11:2",
+            "31:33"
+          ],
+          "focus_return_refs": [
+            "31:30:5:2"
+          ],
+          "carrier": "The focus's al-Haqq carries what is real and true.",
+          "independent_trigger": "Al-Batil is its explicit contrast, and 31:33 calls Allah's promise haqq.",
+          "activation": "The truth predicate meets both the focus's falsehood contrast and the pericope's truthful-promise statement, giving reality a continuing footing.",
+          "resulting_reading": "Allah is presented as reliable reality, with the promise at 31:33 reinforcing the focus's claim.",
+          "boundary": "This retains the ordinary truth sense; the promise link is contextual and its target morphology is not supplied."
+        },
+        {
+          "branch_ref": "root_000127/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru ve gerçek temelden yoksun olup geçerliliğini koruyamama",
+          "facet_statement": "Bir şey doğruya aykırıdır ve gerçek bir temele dayanmaz.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "31:30:11:2"
+          ],
+          "trigger_refs": [
+            "31:30:5:2",
+            "31:33"
+          ],
+          "focus_return_refs": [
+            "31:30:11:2"
+          ],
+          "carrier": "Al-Batil names the called alternatives as false or without a real basis.",
+          "independent_trigger": "Al-Haqq in the same clause supplies the opposing truth pole; 31:33 supplies a later truthful promise.",
+          "activation": "The focus's opposition makes the alternatives' lack of a real basis legible, while the later promise repeats what stands as haqq.",
+          "resulting_reading": "The alternatives are false in relation to an established truth, not simply unfamiliar or different.",
+          "boundary": "The focus calls the alternatives al-Batil; no claim is made that all non-divine things are false."
+        },
+        {
+          "branch_ref": "root_000127/B001",
+          "facet_id": "F002",
+          "branch_gloss": "doğru ve gerçek temelden yoksun olup geçerliliğini koruyamama",
+          "facet_statement": "İncelendiğinde o şeyin kalıcı bir geçerliliği veya sağlamlığı bulunmaz.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:11:2"
+          ],
+          "trigger_refs": [
+            "31:30:5:2",
+            "31:33"
+          ],
+          "focus_return_refs": [
+            "31:30:11:2"
+          ],
+          "carrier": "The focus assigns al-Batil to the alternatives being called.",
+          "independent_trigger": "Al-Haqq and the promise called haqq in 31:33 independently provide the durable-validity pole.",
+          "activation": "The contrast with continuing haqq makes the alternatives' lack of lasting validity perceptible.",
+          "resulting_reading": "Falsehood is not only without a basis; in this pericope relation it cannot serve as the durable ground that the promise supplies.",
+          "boundary": "This is a contextual durability reading, not a prediction about the worldly outcome of every call."
+        },
+        {
+          "branch_ref": "root_000347/B010",
+          "facet_id": "F001",
+          "branch_gloss": "sıkı dokunmuş veya sağlam kurulmuş",
+          "facet_statement": "Kumaş söz öbeğinde ipliklerin sıkı ve düzgün biçimde dokunmuş olması anlatılır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "31:30:5:2"
+          ],
+          "trigger_refs": [
+            "31:30:11:2"
+          ],
+          "focus_return_refs": [
+            "31:30:5:2"
+          ],
+          "carrier": "Al-Haqq carries the focus's reality/truth predicate; the branch contributes its tightly joined weave image by analogy.",
+          "independent_trigger": "Al-Batil provides the separate unstable and baseless counter-pole.",
+          "activation": "The tight-weave core contacts the explicit truth/falsehood opposition and colors al-Haqq as a reality whose parts hold together.",
+          "resulting_reading": "Truth can be pictured as tightly joined rather than loose or baseless.",
+          "boundary": "No fabric occurs in the verse; this is an analogical image, not a literal textile sense or a general gloss for al-Haqq."
+        },
+        {
+          "branch_ref": "root_000347/B010",
+          "facet_id": "F002",
+          "branch_gloss": "sıkı dokunmuş veya sağlam kurulmuş",
+          "facet_statement": "Söz nitelemesinde düşüncenin sağlam, tutarlı ve iyi kurulmuş olması anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:5:2"
+          ],
+          "trigger_refs": [
+            "31:30:8:1",
+            "31:33"
+          ],
+          "focus_return_refs": [
+            "31:30:5:2"
+          ],
+          "carrier": "Al-Haqq carries the focus's truth predicate.",
+          "independent_trigger": "The focus's yadu'una is a speech act, and 31:33 supplies Allah's promise as another verbal commitment.",
+          "activation": "The speech facet meets the focus's directed calls and the pericope's promise, so the truth claim gains the image of a well-founded utterance.",
+          "resulting_reading": "The reader can hear the truth claim as a soundly formed word against calls attached to falsehood.",
+          "boundary": "The branch remains restricted to speech descriptions; this is contextual coloring, not a claim that al-Haqq literally means a well-built sentence."
+        }
+      ],
+      "connection_refs": [
+        "conn_c639b52f1d88a9c62404"
+      ],
+      "context_refs": [
+        "31:33"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:other-calls-beneath-authority",
+      "origin_candidate_id": "cand_cf43eba4188421325646",
+      "represented_candidate_ids": [],
+      "title": "Other calls beneath the High",
+      "claim": "The phrase min dunihi can retain its ordinary sense of calling on others while also placing those targets beneath the High. In the pericope, Allah is acknowledged as creator and owner, so al-Haqq, al-Ali, and al-Kabir give the call's destination a measure of rightful authority and rank.",
+      "mechanism": "Yadu'una carries a directed call; min dunihi marks the addressees as other-than and, alongside al-Ali, below. The focus's high and great titles independently answer that relation. The creator admission in 31:25, universal ownership in 31:26, and exclusive knowledge at 31:34 make the contact about who has authority, not merely physical height.",
+      "reader_payoff": "The reader sees why the target of the call matters: the invoked alternatives are outside and below the one named as High and Great, whose ownership and knowledge extend beyond them.",
+      "containment": "Besides-Him remains the ordinary reading, with below and rank as concurrent macro resonances. No physical distance, failed response to every invocation, or legal ruling is asserted. The ownership and knowledge links are contextual readings from exact Arabic whose target morphology is not supplied.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The candidate's trusted supports nominate the distinct call, other, lower, high, and greatness branches; exact pericope Arabic supplies creator, ownership, and knowledge triggers. The vertical and entitlement relations remain contextual rather than morphological claims."
+      },
+      "support_ids": [
+        "sup_4ee3fc7b7df3822bdca3",
+        "sup_523fb6d469d4803a3431",
+        "sup_cf9fc2a6348534108198",
+        "sup_e89fa039a1821c1c1228",
+        "sup_f7d477b067f777de20ce"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000478/B001",
+          "facet_id": "F001",
+          "branch_gloss": "seslenerek kendine yöneltme",
+          "facet_statement": "Ses ve söz, yöneltilen kişiyi ya da şeyi konuşana doğru çekmenin aracıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:8:1"
+          ],
+          "trigger_refs": [
+            "31:30:10:1",
+            "31:25",
+            "31:26"
+          ],
+          "focus_return_refs": [
+            "31:30:8:1"
+          ],
+          "carrier": "Yadu'una is the focus's call directed toward an addressee.",
+          "independent_trigger": "The phrase min dunihi and the pericope's creator and ownership statements specify the call's separate destination.",
+          "activation": "The call's direction contacts a context that identifies Allah as creator and owner, changing a neutral summons into an appeal aimed at alternatives to that authority.",
+          "resulting_reading": "The destination of the appeal becomes part of the focus's argument.",
+          "boundary": "The packet does not establish whether every such call receives an answer."
+        },
+        {
+          "branch_ref": "root_000502/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yakın, aşağı ya da hedefin gerisinde olma",
+          "facet_statement": "Bir varlığın başka bir varlığa göre daha yakın olması ya da ona yaklaşması temel ilişkidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:10:1"
+          ],
+          "trigger_refs": [
+            "31:30:8:1",
+            "31:30:15:2"
+          ],
+          "focus_return_refs": [
+            "31:30:10:1"
+          ],
+          "carrier": "Dunihi sets a relation between the called alternatives and Him.",
+          "independent_trigger": "The verb yadu'una gives that relation a directed addressee, while al-Ali supplies the separate upper pole.",
+          "activation": "The call's addressees are placed in relation to Allah rather than left as an unlocated list of alternatives.",
+          "resulting_reading": "The call is now perceived as movement toward a target whose relation to Allah matters.",
+          "boundary": "The branch's proximity facet is retained only as a relational frame; no physical closeness is asserted."
+        },
+        {
+          "branch_ref": "root_000502/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yakın, aşağı ya da hedefin gerisinde olma",
+          "facet_statement": "İlişki, yukarının karşıtı olarak aşağıda kalmayı veya hedeflenen sona erişememeyi gösterebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:10:1"
+          ],
+          "trigger_refs": [
+            "31:30:15:2",
+            "31:30:16:2",
+            "31:26"
+          ],
+          "focus_return_refs": [
+            "31:30:10:1"
+          ],
+          "carrier": "Dunihi carries the lower or short-of relation in the focus's God-referenced phrase.",
+          "independent_trigger": "Al-Ali and al-Kabir provide the independent high and great poles; 31:26 states that all in the heavens and earth belongs to Allah.",
+          "activation": "The lower relation meets the focus's high and great titles and the ownership context, so the alternatives are read as short of the authority they invoke.",
+          "resulting_reading": "The phrase besides Him also carries a below-the-High resonance.",
+          "boundary": "No physical elevation or claim that an invocation fails in every sense is made."
+        },
+        {
+          "branch_ref": "root_000502/B003",
+          "facet_id": "F001",
+          "branch_gloss": "başkası ya da daha aşağıda olan",
+          "facet_statement": "Belirli bir yapıda anılan kişi veya varlığın dışında kalan başkası gösterilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:10:1"
+          ],
+          "trigger_refs": [
+            "31:30:15:2",
+            "31:26"
+          ],
+          "focus_return_refs": [
+            "31:30:10:1"
+          ],
+          "carrier": "Min dunihi is the supplied besides-Him construction and carries the branch's other-than facet.",
+          "independent_trigger": "Al-Ali and the ownership statement in 31:26 independently mark the reference point from which those alternatives differ.",
+          "activation": "The exact focus construction for other-than meets the title of the High and the owner-only context.",
+          "resulting_reading": "The called targets are heard as outside the one who owns all, as well as as lower in the focus's vertical image.",
+          "boundary": "This branch is limited to the supplied construction; it is not generalized to every use of dun."
+        },
+        {
+          "branch_ref": "root_001042/B005",
+          "facet_id": "F001",
+          "branch_gloss": "üst yan ve yukarıdanlık",
+          "facet_statement": "Çekirdek anlam, bir şeyin üst tarafı ve aşağı karşıtı yukarı yönüdür.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "31:30:15:2"
+          ],
+          "trigger_refs": [
+            "31:30:10:1",
+            "31:30:16:2",
+            "31:26"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2"
+          ],
+          "carrier": "Al-Ali carries the focus's high predicate.",
+          "independent_trigger": "Dunihi supplies the independent lower pole; al-Kabir and 31:26's ownership statement ground the contrast in authority.",
+          "activation": "The upper-side branch meets the below relation and the owner context, turning the paired titles into a vertical image of authority.",
+          "resulting_reading": "The High is perceived as the upper pole in relation to the called alternatives.",
+          "boundary": "The branch's upper-direction image is analogical here; no location in physical space is claimed."
+        },
+        {
+          "branch_ref": "root_001042/B002",
+          "facet_id": "F001",
+          "branch_gloss": "saygınlıkta yüksek mevki",
+          "facet_statement": "Çekirdek anlam, değer ve saygınlık bakımından yüksek konumdur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:15:2"
+          ],
+          "trigger_refs": [
+            "31:30:10:1",
+            "31:26",
+            "31:34"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2"
+          ],
+          "carrier": "Al-Ali carries the focus's height and supremacy predicate.",
+          "independent_trigger": "Dunihi positions the called alternatives below; 31:26 assigns universal ownership to Allah, and 31:34 places knowledge of the Hour and human horizons with Him.",
+          "activation": "The high-status facet meets the lower-call relation, ownership, and exclusive knowledge context.",
+          "resulting_reading": "Al-Ali can be read as rank and authority over the called alternatives, not only a vertical image.",
+          "boundary": "This is a pericope-level status reading, not a claim about physical place or a human social office."
+        },
+        {
+          "branch_ref": "root_001281/B001",
+          "facet_id": "F001",
+          "branch_gloss": "küçüğün karşıtı olan büyüklük",
+          "facet_statement": "Bir varlık veya değerin küçüğe göre daha büyük ölçü ya da derece taşıması temel anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:16:2"
+          ],
+          "trigger_refs": [
+            "31:30:10:1",
+            "31:30:15:2",
+            "31:26"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "Al-Kabir carries the focus's greatness predicate.",
+          "independent_trigger": "Dunihi provides the smaller/lower comparison, al-Ali the upper pole, and 31:26 the ownership relation.",
+          "activation": "General greatness meets a distinct lower target and owner, making its degree relational in this context.",
+          "resulting_reading": "Al-Kabir's greatness is perceived against the lower alternatives, not as a free-standing size word alone.",
+          "boundary": "No bodily size or measurable magnitude is asserted."
+        },
+        {
+          "branch_ref": "root_001281/B001",
+          "facet_id": "F002",
+          "branch_gloss": "küçüğün karşıtı olan büyüklük",
+          "facet_statement": "Büyüklük somut hacim yanında miktar, sayı ve genel konum bakımından da kurulabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:16:2"
+          ],
+          "trigger_refs": [
+            "31:30:10:1",
+            "31:30:15:2",
+            "31:26"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "Al-Kabir carries general greatness that can extend across measure or rank.",
+          "independent_trigger": "The lower relation in dunihi, al-Ali's high predicate, and universal ownership in 31:26 independently supply a rank scale.",
+          "activation": "The extension to general position contacts these focus relations, shifting greatness from isolated size to relative authority.",
+          "resulting_reading": "Greatness can be perceived as rank in the same vertical relation as the lower calls.",
+          "boundary": "The extension does not turn the title into a human rank or a physical quantity."
+        },
+        {
+          "branch_ref": "root_000347/B003",
+          "facet_id": "F001",
+          "branch_gloss": "sahibine bağlı pay ve istem yetkisi",
+          "facet_statement": "Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:5:2"
+          ],
+          "trigger_refs": [
+            "31:26",
+            "31:30:10:1"
+          ],
+          "focus_return_refs": [
+            "31:30:5:2"
+          ],
+          "carrier": "Al-Haqq carries the focus's true/reality predicate.",
+          "independent_trigger": "31:26 explicitly assigns everything in the heavens and earth to Allah; min dunihi contrasts that owner with the call targets.",
+          "activation": "The owner-specific-right facet contacts universal ownership and calls to others, coloring al-Haqq as rightful authority as well as reality.",
+          "resulting_reading": "The alternatives are not only other and lower; their calls stand outside the authority of the owner named as al-Haqq.",
+          "boundary": "The text supplies universal ownership, not a legal dispute or transfer of a specific share; entitlement is a contextual resonance."
+        }
+      ],
+      "connection_refs": [
+        "conn_c2666f2acfa453ff38d8",
+        "conn_92446be182f99309373f",
+        "conn_f38c58f13d03c628703d"
+      ],
+      "context_refs": [
+        "31:25",
+        "31:26",
+        "31:34"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:scale-independent-governance",
+      "origin_candidate_id": "cand_823ad7d69275b8296938",
+      "represented_candidate_ids": [],
+      "title": "Sovereignty across scale and motion",
+      "claim": "The titles al-Ali and al-Kabir remain high and great, while 31:27-29 lets them name authority that is not measured by the scale of words, the number of created beings, or the height and duration of celestial cycles. The ending's hidden horizons in 31:34 extends that authority beyond what people can know.",
+      "mechanism": "The HFT trace contacts al-Haqq with the ordered structure of 31:27-29, al-Ali with subjection and motion in 31:29, and al-Kabir with words that do not exhaust, many made and raised as one, and cycles bounded by a term. The scale comparison changes greatness from one largest item in a fixed hierarchy to majesty over changing processes. The supplied 31:34 connection adds the Hour, tomorrow, and death-place as knowledge beyond human reach.",
+      "reader_payoff": "The closing titles become the source of an order that changes and moves under limits, while remaining beyond measurement by number, duration, or celestial height.",
+      "containment": "The ordinary high and great titles remain recoverable; the trace does not deny physical or quantitative senses. The alternative recorded by the HFT source also remains: the signs may evidence the titles while ordinary magnitude and height stay primary. Context roots, word indices, and roles from the legacy_unbound HFT are attributed; unresolved branch glosses and facets are not supplied and are left null.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "All explicit HFT anchors 31:27-30 lie in the declared pericope and exact Arabic is supplied. The source identity is legacy_unbound, the broader packet scope is disclosed, and context word indices, roots, and roles remain attributed rather than verified morphology; the 31:34 target also has no supplied morphology."
+      },
+      "support_ids": [
+        "sup_863840012932d9ab5be2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000347/B010",
+          "facet_id": "F001",
+          "branch_gloss": "sıkı dokunmuş veya sağlam kurulmuş",
+          "facet_statement": "Kumaş söz öbeğinde ipliklerin sıkı ve düzgün biçimde dokunmuş olması anlatılır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:30:5:2"
+          ],
+          "trigger_refs": [
+            "31:27",
+            "31:27:16",
+            "31:28",
+            "31:28:2",
+            "31:28:7",
+            "31:29",
+            "31:29:5",
+            "31:29:9"
+          ],
+          "focus_return_refs": [
+            "31:30:5:2"
+          ],
+          "carrier": "The focus's al-Haqq is the registered carrier to which this HFT trace attributes firmly ordered structure.",
+          "independent_trigger": "31:27-29 supply nonexhaustion, one-for-many creation, and nested, subjected cycles.",
+          "activation": "The attributed tight-structure role contacts the changing processes in the pericope and returns through al-Haqq.",
+          "resulting_reading": "Truth is colored as a coherent order that can contain changing processes.",
+          "boundary": "The HFT trace is attributed and the textile facet is analogical; no actual cloth is named."
+        },
+        {
+          "branch_ref": "root_000347/B010",
+          "facet_id": "F002",
+          "branch_gloss": "sıkı dokunmuş veya sağlam kurulmuş",
+          "facet_statement": "Söz nitelemesinde düşüncenin sağlam, tutarlı ve iyi kurulmuş olması anlatılır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:30:5:2"
+          ],
+          "trigger_refs": [
+            "31:27",
+            "31:27:16",
+            "31:28",
+            "31:28:2",
+            "31:29"
+          ],
+          "focus_return_refs": [
+            "31:30:5:2"
+          ],
+          "carrier": "Al-Haqq carries the focus's truth predicate.",
+          "independent_trigger": "The HFT trace names meaningful verbal units in 31:27 and a coherent order across 31:28-29.",
+          "activation": "The supplied words and the HFT's ordered-structure role contact the speech facet with al-Haqq.",
+          "resulting_reading": "Al-Haqq gains an attributed image of well-formed speech that holds together the changing order.",
+          "boundary": "This speech facet is not a literal translation of al-Haqq; its activation is contextual and attributed."
+        },
+        {
+          "branch_ref": "root_001042/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yapı içinde üstün gelip bastırma",
+          "facet_statement": "Çekirdek anlam, bir şeyin üzerine üstün konuma geçip onu yenme veya bastırmadır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:30:15:2"
+          ],
+          "trigger_refs": [
+            "31:29",
+            "31:29:13",
+            "31:29:17",
+            "31:29:19"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2"
+          ],
+          "carrier": "Al-Ali carries the focus's high predicate.",
+          "independent_trigger": "The HFT trace attributes mastery to the word at 31:29 indexed 13 and links it to flowing motion and a fixed term.",
+          "activation": "The subjected celestial agents provide the independent relation over which al-Ali's high position operates.",
+          "resulting_reading": "The height title can also be read as prevailing authority over the cycles.",
+          "boundary": "This registered collocation is applied through an attributed governance relation, not a physical-height gloss."
+        },
+        {
+          "branch_ref": "root_001042/B004",
+          "facet_id": "F003",
+          "branch_gloss": "yapı içinde üstün gelip bastırma",
+          "facet_statement": "Üzerine alma ve denetim kurma değeri, aynı yapı içi üstün konumdan gelişir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:30:15:2"
+          ],
+          "trigger_refs": [
+            "31:29",
+            "31:29:13",
+            "31:29:17",
+            "31:29:19"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2"
+          ],
+          "carrier": "Al-Ali carries the focus's height and supremacy predicate.",
+          "independent_trigger": "The exact focus return meets the HFT-attributed subjection of sun and moon and their motion toward a term.",
+          "activation": "The extension from superiority to control contacts the context's explicit subjection and governed horizon.",
+          "resulting_reading": "Al-Ali can name mastery over a dynamic system, not only high position.",
+          "boundary": "The trace does not establish a lexical gloss of governance for the focus word; the extension is attributed."
+        },
+        {
+          "branch_ref": "root_001281/B001",
+          "facet_id": "F001",
+          "branch_gloss": "küçüğün karşıtı olan büyüklük",
+          "facet_statement": "Bir varlık veya değerin küçüğe göre daha büyük ölçü ya da derece taşıması temel anlamdır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:30:16:2"
+          ],
+          "trigger_refs": [
+            "31:27",
+            "31:27:15",
+            "31:27:16",
+            "31:28",
+            "31:28:2",
+            "31:28:4",
+            "31:28:7",
+            "31:29",
+            "31:29:5",
+            "31:29:9",
+            "31:29:13",
+            "31:29:17",
+            "31:29:19"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "Al-Kabir carries the focus's ordinary greatness or magnitude.",
+          "independent_trigger": "The trace supplies an unexhausted verbal scale, many created and raised as one, and changing celestial cycles under a term.",
+          "activation": "Those separate scale tests contact greatness and revise its reference from the largest measurable item to authority beyond the comparison.",
+          "resulting_reading": "The title remains great, but its greatness is no longer contained by one count or measure.",
+          "boundary": "This preserves the ordinary size/degree floor and does not claim the word lacks quantitative meaning."
+        },
+        {
+          "branch_ref": "root_001281/B001",
+          "facet_id": "F002",
+          "branch_gloss": "küçüğün karşıtı olan büyüklük",
+          "facet_statement": "Büyüklük somut hacim yanında miktar, sayı ve genel konum bakımından da kurulabilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:30:16:2"
+          ],
+          "trigger_refs": [
+            "31:27",
+            "31:27:15",
+            "31:27:16",
+            "31:28",
+            "31:28:2",
+            "31:28:4",
+            "31:28:7",
+            "31:29",
+            "31:29:5",
+            "31:29:9",
+            "31:29:13",
+            "31:29:17",
+            "31:29:19"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "Al-Kabir carries the focus's general greatness, which can be measured in amount, number, or position.",
+          "independent_trigger": "31:27-29 independently put words, many-to-one creation, and bounded cycles on those scales.",
+          "activation": "The extension of greatness to number and general position meets those scale examples and is then revised by the HFT's changing-process contact.",
+          "resulting_reading": "The measure-based title opens into greatness across processes, rather than one position among them.",
+          "boundary": "The revised nonquantitative reading is an attributed inference and does not cancel the quantitative sense."
+        },
+        {
+          "branch_ref": "root_001281/B006",
+          "facet_id": "F001",
+          "branch_gloss": "ululuk ve kendini üstün görme",
+          "facet_statement": "Ululuk, üstünlük ve başkalarından yukarıda olma düşüncesi anlamın temel eksenidir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:30:16:2"
+          ],
+          "trigger_refs": [
+            "31:27",
+            "31:27:15",
+            "31:27:16",
+            "31:28",
+            "31:28:2",
+            "31:28:4",
+            "31:28:7",
+            "31:29",
+            "31:29:13",
+            "31:29:17",
+            "31:29:19",
+            "31:34"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "Al-Kabir carries the focus's greatness title; the registered facet includes majesty as well as superiority.",
+          "independent_trigger": "The scale collapses in 31:27-28, cycles run under a term in 31:29, and 31:34 reserves knowledge of the Hour and human horizons to Allah.",
+          "activation": "These independent limits contact the majesty facet and the focus title, making greatness exceed a measurable hierarchy.",
+          "resulting_reading": "The title can carry rightful majesty across cosmic and human scales.",
+          "boundary": "Only the positive majesty facet is used; human self-aggrandizement is not attributed to the verse."
+        },
+        {
+          "branch_ref": "root_001530/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27:15"
+          ],
+          "trigger_refs": [
+            "31:27:16",
+            "31:28",
+            "31:28:2",
+            "31:28:7"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:27 word 15 (root ن ف د) to exhaustion and ending under negation.",
+          "independent_trigger": "The adjacent HFT trace at 31:27 word 16 supplies the indefinitely multiplied words that do not exhaust; 31:28 compares many with one.",
+          "activation": "The exhausted-or-not-exhausted measure contacts al-Kabir as the focus return, making greatness exceed accumulation.",
+          "resulting_reading": "Divine discourse is presented as beyond accumulated writing and measure.",
+          "boundary": "The branch registry is unresolved; no independent gloss or facet is asserted, and the root/word role remains HFT-attributed."
+        },
+        {
+          "branch_ref": "root_001316/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27:16"
+          ],
+          "trigger_refs": [
+            "31:27:15",
+            "31:28",
+            "31:28:2",
+            "31:28:7"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:27 word 16 (root ك ل م) to meaningful verbal units.",
+          "independent_trigger": "The same verse states that these words do not exhaust; 31:28 supplies the many-to-one comparison.",
+          "activation": "The nonexhausting verbal domain contacts al-Kabir and turns greatness away from countable accumulation.",
+          "resulting_reading": "The title names greatness that is not measured by the amount of words or writing media.",
+          "boundary": "The branch is unresolved and this role is attributed; no lexicon gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000434/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:28:2"
+          ],
+          "trigger_refs": [
+            "31:28:4",
+            "31:28:7",
+            "31:27",
+            "31:27:15"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:28 word 2 (root خ ل ق) to the origination of the many.",
+          "independent_trigger": "The same passage pairs creating the many with raising them as one; 31:27 supplies an independent unexhausted scale.",
+          "activation": "The explicit many-to-one comparison contacts al-Kabir as the focus return.",
+          "resulting_reading": "The creation of many beings does not set a greater task than the single self in the HFT reading.",
+          "boundary": "The branch is unresolved and the supplied role is attributed; no facet or branch gloss is invented."
+        },
+        {
+          "branch_ref": "root_000129/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:28:4"
+          ],
+          "trigger_refs": [
+            "31:28:2",
+            "31:28:7",
+            "31:27",
+            "31:27:15"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:28 word 4 (root ب ع ث) to raising what is still.",
+          "independent_trigger": "The same passage compares this raising of many with one self, while 31:27 supplies the separate nonexhaustion scale.",
+          "activation": "The many-to-one comparison contacts al-Kabir and extends the scale collapse from origination to re-creation.",
+          "resulting_reading": "Raising many is presented as no harder than raising one.",
+          "boundary": "The branch is unresolved and this role is attributed; no independent gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_001631/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:28:7"
+          ],
+          "trigger_refs": [
+            "31:28:2",
+            "31:28:4"
+          ],
+          "focus_return_refs": [
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:28 word 7 (root و ح د) to numerical oneness.",
+          "independent_trigger": "The separate creation and raising phrases in 31:28 supply the many that the oneness is compared with.",
+          "activation": "Numerical oneness contacts al-Kabir through the explicit many-to-one scale comparison.",
+          "resulting_reading": "The multitude is no harder to create or raise than one self.",
+          "boundary": "The branch is unresolved and this role is attributed; no lexical descriptor is asserted."
+        },
+        {
+          "branch_ref": "root_001682/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:29:5",
+            "31:29:9"
+          ],
+          "trigger_refs": [
+            "31:29:13",
+            "31:29:17",
+            "31:29:19",
+            "31:28"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2",
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:29 words 5 and 9 (root و ل ج) to one thing entering another.",
+          "independent_trigger": "Subjection, flowing motion, and a fixed term in 31:29 supply independent signs around those nested day-and-night transitions.",
+          "activation": "Nested entry contacts the al-Ali and al-Kabir focus titles through a cosmic order that is interleaved and bounded.",
+          "resulting_reading": "The celestial order reads as nested process rather than a static height hierarchy.",
+          "boundary": "The branch is unresolved; word indices and process role are attributed to the HFT trace."
+        },
+        {
+          "branch_ref": "root_000685/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:29:13"
+          ],
+          "trigger_refs": [
+            "31:29:5",
+            "31:29:9",
+            "31:29:17",
+            "31:29:19"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2"
+          ],
+          "carrier": "HFT attributes 31:29 word 13 (root س خ ر) to directed subjection toward a purpose.",
+          "independent_trigger": "The separate night/day transitions, motion, and appointed term in 31:29 show what is subjected and how it moves.",
+          "activation": "Subjection supplies the authority relation that returns through al-Ali.",
+          "resulting_reading": "The high title can name sovereignty over the celestial agents' motion.",
+          "boundary": "The branch is unresolved and its subjection role is attributed; no registered gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000240/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:29:17"
+          ],
+          "trigger_refs": [
+            "31:29:13",
+            "31:29:19",
+            "31:29:5",
+            "31:29:9"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2",
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:29 word 17 (root ج ر ي) to flowing motion.",
+          "independent_trigger": "Subjection and the named term at 31:29 independently frame the motion.",
+          "activation": "Flowing motion contacts the high and great titles through a system that is dynamic but governed.",
+          "resulting_reading": "The order is active and changing, not a static hierarchy.",
+          "boundary": "The branch is unresolved; the motion role remains an HFT attribution."
+        },
+        {
+          "branch_ref": "root_000016/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:29:19"
+          ],
+          "trigger_refs": [
+            "31:29:13",
+            "31:29:17",
+            "31:29:5",
+            "31:29:9",
+            "31:28"
+          ],
+          "focus_return_refs": [
+            "31:30:15:2",
+            "31:30:16:2"
+          ],
+          "carrier": "HFT attributes 31:29 word 19 (root ء ج ل) to a fixed temporal limit.",
+          "independent_trigger": "The separate motion and subjection cues in 31:29 show a changing process moving toward that term.",
+          "activation": "A named horizon contacts al-Ali and al-Kabir through the governed cycle.",
+          "resulting_reading": "The motion is bounded by a term, making sovereignty visible across duration as well as height.",
+          "boundary": "The branch is unresolved and the temporal-limit role is attributed; no branch gloss or facet is claimed."
+        }
+      ],
+      "connection_refs": [
+        "conn_6b39a5c0428b433056b4",
+        "conn_f38c58f13d03c628703d"
+      ],
+      "context_refs": [
+        "31:27",
+        "31:28",
+        "31:29",
+        "31:34"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:recognized-truth-in-practice",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "The creator they already name",
+      "claim": "The pericope lets al-Haqq echo the audience's own answer that Allah created the heavens and earth; the calls directed elsewhere then read as a contradiction in practice, not simply a failure to know who created.",
+      "mechanism": "The focus word al-Haqq carries a truth-affirming facet. In 31:25 the supplied Arabic says that, when asked who created the heavens and earth, they will surely say Allah; the connection note links that admission with turning elsewhere. This separate act of affirmation contacts al-Haqq and changes the title from an abstract predicate to a truth they already voice.",
+      "reader_payoff": "The rebuke becomes a mismatch between what the audience can say about the Creator and where it directs its appeal.",
+      "containment": "The focus does not quote 31:25 or say that every person named there uses the same theological wording. This is a pericope-level reading from supplied Arabic and a connection note, not a claim that al-Haqq lexically means proof or affirmation.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The exact Arabic for 31:25 is supplied and the trusted channel evidence connects creator recognition with calls elsewhere. The audience-level identity and branch activation are contextual inferences; target morphology is not supplied."
+      },
+      "support_ids": [
+        "sup_4ee3fc7b7df3822bdca3",
+        "sup_cf9fc2a6348534108198"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000347/B005",
+          "facet_id": "F001",
+          "branch_gloss": "doğruluğunu belirleme ve gösterme",
+          "facet_statement": "Bir şeyin doğru olduğunu belirleyip onu doğru diye onaylama işlemi çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:30:5:2"
+          ],
+          "trigger_refs": [
+            "31:25",
+            "31:30:8:1"
+          ],
+          "focus_return_refs": [
+            "31:30:5:2"
+          ],
+          "carrier": "Al-Haqq carries the focus's truth predicate and can be colored by an act of affirming truth.",
+          "independent_trigger": "In 31:25 the audience is asked who created the heavens and earth and is said to answer Allah; the focus separately names calls to others.",
+          "activation": "The admission of Allah as creator contacts al-Haqq while the call to alternatives supplies the contrasting act.",
+          "resulting_reading": "Al-Haqq becomes the truth they already voice, which makes the other-directed call a practical contradiction.",
+          "boundary": "31:25 states creator recognition, not the exact phrase al-Haqq; this remains a contextual affirmation reading, not a new lexical gloss."
+        }
+      ],
+      "connection_refs": [
+        "conn_c2666f2acfa453ff38d8"
+      ],
+      "context_refs": [
+        "31:25"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The reciprocal seed conn_3a29399844946469dca5 names 31:31 as the verse immediately before the focus, although 31:31 follows 31:30. Its supplied Arabic was treated only as later pericope context; no activation here depends on the seed's temporal claim.",
+    "The HFT reader is legacy_unbound: exact Arabic anchors verify surface contact, while the context word indices, roots, and roles remain attributed. The unresolved context branches therefore have null glosses and facets."
+  ]
+}

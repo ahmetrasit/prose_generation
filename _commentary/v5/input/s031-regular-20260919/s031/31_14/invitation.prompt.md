@@ -1,0 +1,203 @@
+# V5 reading invitation — 31:14
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_14/31_14.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_14/31_14.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sözün Bağı ve Muhatabı
+
+31:14'te insan, Allah'a ve {ar:وَٰلِدَيْكَ, tr:wālidayka, gloss:anne babana} şükretmeye çağrılır; bu emrin içeriği açıklanmadan önce annenin {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} eylemi, {ar:وَهْنًا عَلَىٰ وَهْنٍ, tr:wahnan ʿalā wahnin, gloss:güçsüzlük üstüne güçsüzlük} ve {ar:فِصَالُهُۥ, tr:fiṣāluhu, gloss:sütten kesilmesi} anlatılır. Sütten kesilme {ar:عَامَيْنِ, tr:ʿāmayni, gloss:iki yıl} içindedir; ancak bu uzun kanıttan sonra {ar:أَنِ, tr:ani, gloss:şunu} ile buyruk yeniden açılıp {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} denir. Sonda {ar:إِلَىَّ, tr:ilayya, gloss:bana doğru} yönüyle {ar:ٱلْمَصِيرُ, tr:al-maṣīru, gloss:dönüş} son varışı adlandırır. Böylece anneye ait bakım, emrin arasına sıkıştırılmış bir yan bilgi değil, muhatabın neye karşılık vereceğini görünür kılan cümlenin parçası olur.
+
+Ayetin başındaki {ar:وَ, tr:wa, gloss:ve}, yazıda hemen ardından gelen {ar:وَصَّيْنَا, tr:waṣṣaynā, gloss:yükümlü kıldık} fiiline bitişir. Bu eklemleniş, Luqman'ın öğüdünden (31:13) ebeveyn sorumluluğunu bildiren ilahî söze geçerken hem sürekliliği hem yeni bir beyanın açılışını taşır. Bağlacın ve fiilin başındaki iki /w/ ile fiildeki şeddeli ṣ, bu başlangıca işitsel bir vurgu verebilir; bu, yazılı biçimden çıkarılan bir izlenimdir, ölçülmüş bir tilavet etkisi değildir.
+
+Fiildeki şeddeli kalıp ve içine aldığı ilahî özne, yükümlülüğün kaynağını baştan belirginleştirir. {ar:وَصَّيْنَا, tr:waṣṣaynā, gloss:yükümlü kıldık} önce {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insanı} yükümlü kılar; anneye ait kanıt araya girdikten sonra gelen {ar:أَنِ, tr:ani, gloss:şunu} ise yükümlülüğün içeriğini şükür emrine bağlar. Böylece buyruğu veren, yükümlülüğü alan ve emrin içeriği cümlede ayrı ayrı seçilir. Öğütleme ya da yükümlü kılma alanındaki fiil burada ciddi bir ilahî yönergeyi bildirir. Aynı kelime ailesindeki bağlama ve bitiştirme kullanımı, bağımsız {ar:بِ, tr:bi, gloss:hakkında} edatı ve ebeveyn çiftiyle temas ederek insanı ebeveynlerine karşı bir yükümlülüğe bağlanmış gibi duyurur; bu bağ imgesi olağan buyruk anlamını taşımayı sürdürür. Fiilin başkasına talimat bırakma, vasiyet etme kullanımı da {ar:أَنِ, tr:ani, gloss:şunu} ve emirle etkinleşir: burada talimat şükürdür; bu okuma, ölümle ilgili bir vasiyet değil, başkasına bırakılan bir yönerge imgesidir. Anneye ait bedenî kanıt gelmeden kurulan yükümlülük ebeveyn hakkını baştan bağlayıcı bir çerçeveye alır; şeddeli ṣ'nin sıkı vurgusu da biçimden duyulabilecek ihtiyatlı bir sestir.
+
+Yükümlülüğü alan {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insanı}, belirli tekil biçimiyle yalnız Luqman'ın oğlunu değil insan türünü genel bir sınıf olarak öne çıkarır. Ebeveynler yükümlülüğün konusudur; onu yerine getirmesi istenen ise insandır. İnsan sözcüğünün yakınlık, tanışıklık ve algıyla ilişkili çağrışımları, ebeveyn bağı içindeki borcu fark etme düşüncesini açar; burada odak bir unutma olayı değil, ilişkinin ve sorumluluğun tanınmasıdır. Yükümlülüğe bitişen {ar:بِ, tr:bi, gloss:hakkında} de ebeveynleri doğrudan nesne değil, insanın hangi konuda yükümlü kılındığını belirten unsur yapar ve söz diziminde hemen {ar:وَٰلِدَيْهِ, tr:wālidayhi, gloss:iki ebeveyni}ni yönetir. Bu ikil biçim doğumla bağlı iki biyolojik ebeveyni birlikte adlandırır; ebeveyn adının tekil kullanımı erkek ebeveyni, yani babayı da belirtebildiğinden çift ve gebelik kanıtı babayı da bu doğum bağı içinde tutar. Edatın geniş alanında nedensel bir tını duyulabilse de buradaki temel işi ebeveynleri yükümlülüğün konusu yapmaktır. Açıkça anılacak anne, bu ikil adı tüketmez; çift babayı da kapsarken taşıma eylemi özellikle anneye verilir.
+
+## Taşınan Beden ve Ölçülen Süre
+
+Taşıma cümleye bir eylem ve onu yapanı birlikte getirir: dişil tekil {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} biçimi insanı taşınan kişi olarak gösterir, ardından {ar:أُمُّهُۥ, tr:ummuhu, gloss:annesi} taşıyanı açıkça adlandırır. Taşıma fiilinin yük altında dayanmayı anlatan başka kullanımları da vardır; anne ve arkasından gelen {ar:وَهْنًا, tr:wahnan, gloss:zayıflıkla} bu sahnedeki anlamı gebeliğin bedenî taşımasına sınırlar. Meyve ya da emanet yükü imgeleri burada taşımanın ana okuması değildir; başka bağlamlar onları benzetme olarak çağırabilir. “Anne” adının bağlı olduğu sözlük alanındaki başlangıç ve varlık kaynağı çağrışımı, {ar:وَٰلِدَيْهِ, tr:wālidayhi, gloss:iki ebeveyni}nin doğum bağıyla birleşince anneyi insanî başlangıç çizgisinde yakın bir kaynak gibi gösterir; bu yakınlık onu nihai kaynak yapmaz. Taşıma ile güçsüzlüğün yazıdaki yakınlığı da bir ses çizgisi kurabilir; bu, ölçülmüş akustik sonuç değil metin yüzeyinden edinilen bir izlenimdir.
+
+İlk {ar:وَهْنًا, tr:wahnan, gloss:zayıflıkla} belirsiz biçimiyle taşıma eylemini bir güçsüzlük hâli içinde niteler. Hemen arkasındaki {ar:عَلَىٰ, tr:ʿalā, gloss:üzerine} ve ikinci {ar:وَهْنٍۢ, tr:wahnin, gloss:zayıflık}, bu hâlin üzerine bir katman daha koyar: edatın mekânsal yönü, bir güçsüzlüğün ötekinin üstüne binmesi imgesini taşır. İkinci adın edatın altına bağlanan biçimi katmanları kurar, ama miktarını belirlemez; iki ayrı tanıdan çok birbirine eklenen bedensel yükler duyulur. Az kullanılan sözcüğün kısa öbekte yinelenmesi annenin kırılganlığını yoğunlaştırabilir; yinelenen ünsüzler de bu çizgiyi sesçe örebilir. Uzun ā'lı edat iki katman arasında eşik gibi hissedilebilir. Bu biçim izlenimleri ne ölçülmüş bir okuyuşu ne de tıbbî bir teşhisi bildirir.
+
+Önceki dizinin başına eklenen ikinci {ar:وَ, tr:wa, gloss:ve}, {ar:فِصَالُهُۥ, tr:fiṣāluhu, gloss:sütten kesilmesi}ni taşıma ve güçsüzlüğe bağlayarak anneye ilişkin kanıta ikinci biyolojik olguyu ekler. Kelime, anneden ve emme ilişkisinden ayrılma sürecini adlandırır; kesme, ayırma ve ayırt etme alanındaki başka kullanımları da bu bakım aşamasının sınırını belirginleştirir. Okuma varyantları ayrılma vurgusunu keskinleştirirken temel okuma sütten kesilme sürecini korur. Bu geçiş emme ilişkisinden ayrılmayı anlatır; akrabalık ve sevgi bağı sürer. Bağlaçtan isim öbeğine uzanan yazılı akış, sütten kesilmeyi önceki kanıtın devamı gibi duyurur; iki yıllık ölçüyle uzayan sesler de süreç ile süre arasında ihtiyatlı bir ritim yankısı kurabilir.
+
+Kısa {ar:فِى, tr:fī, gloss:içinde} öbeği sütten kesilmeyi zaman çerçevesine yerleştirir: fiilsiz ama tamamlanmış ad cümlesi, “onun sütten kesilmesi iki yıl içindedir” der. Edatın geniş kullanımları arasından burada süreyi kapsayan zamansal değer öne çıkar. {ar:عَامَيْنِ, tr:ʿāmayni, gloss:iki yıl} belirsiz bir dönem değil, ikil biçimiyle tam iki yıllık ölçüdür; bir kışla bir yazı içine alan yıl çevrimi böylece iki tam döngü halinde hissedilir. Bu ölçü anneye ilişkin sahnenin süresini belirler ve bütün çocuklar için evrensel gelişim kuralı ya da hukukî hüküm kurmaz. Sürenin kapanışı, biraz sonra açıklanacak emir için uzun bir ara oluşturur.
+
+Uzun anne anlatısının ardından {ar:أَنِ, tr:ani, gloss:şunu} baştaki yükümlülüğe döner ve onun ne istediğini açıklar: {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret}. Parçacık, taşıma, katman katman gelen güçsüzlük ve iki yıllık sütten kesilme boyunca ertelenmiş emir içeriğini açar. Varyant okumalardaki seslendirme farkları emirden hemen önce bir kıraat basıncı yaratabilir; parçacığın açıklayıcı bağı ise yerinde kalır. Tekil emir muhataba yönelir. Şükür yalnızca duygu değil, alınan iyiliği ve onun kaynağını tanıyan bir yanıttır; bakım dizisi bu tanımanın neye yöneldiğini somutlaştırır.
+
+## Şükürden Son Varışa
+
+Emrin ilk alıcısı {ar:لِى, tr:lī, gloss:bana} ile, birinci tekil kişi eki sayesinde ilahî konuşana yöneltilir; bu yön, cümlenin sonundaki {ar:إِلَىَّ, tr:ilayya, gloss:bana doğru} ile de yankılanır. Ardından gelen {ar:وَ, tr:wa, gloss:ve}, ayrı bir {ar:لِ, tr:li, gloss:için} edatının yönettiği {ar:وَٰلِدَيْكَ, tr:wālidayka, gloss:anne babana} öbeğini ekler. Tekrarlanan edatlar iki alıcıyı dengeli ama ayrı biçimde işaretler: ebeveynlere şükür de buyruğun içindedir, Allah ile ebeveynler ise ayrı kaynak ve rollerde kalır. Başlangıçtaki genel insan böylece doğrudan “senin anne baban” diye hitap edilen kişiye yaklaşır; ilk ebeveyn adı {ar:وَٰلِدَيْهِ, tr:wālidayhi, gloss:iki ebeveyni} iken buradaki {ar:وَٰلِدَيْكَ, tr:wālidayka, gloss:anne babana} biçiminde -hi'den -ka'ya geçiş aynı çifti yakına getirir. Bu biçimsel yankı yazılı-sesli dizilişten çıkarılır, belirli bir okuyuş kaydı değildir. İki ebeveyn birlikte anılırken taşıma eylemi yalnız anneye ait kalır. Bir zamanlar annesinin taşıdığı kişinin şimdi buyruğu alması, taşıma fiilini ahlaki sorumluluğu üstlenme benzetmesine açar; bu, sözcüğün anlamını değiştirmeyen bağlamsal bir imgedir. Taşıma ve sütten kesme, bakımın iki ayrı kanıtı olarak şükrü alınan iyiliği ve kaynağını tanımaya derinlik katar; böylece şükür geri ödeme zorunluluğuna indirgenmez ve yalnız ebeveynlere yönelmez.
+
+Kapanışta öne alınan {ar:إِلَىَّ, tr:ilayya, gloss:bana doğru}, sonda gelen {ar:ٱلْمَصِيرُ, tr:al-maṣīru, gloss:dönüş} ile tamamlanır. Fiilsiz cümlede yön öne alınmış yüklem, sonda gelen belirli ve merfû isim ise gecikmiş özne olarak son varışı adlandırır; dönüş tahmin edilen bir hareket değil, sabit bir sonuç olarak bildirilir. {ar:ٱلْمَصِيرُ, tr:al-maṣīru, gloss:dönüş} olağan dönüş ya da varış anlamını korurken hâle gelme ve sonuca ulaşma kullanımlarının ufkunu da taşır. Anne ve ebeveyn adlarının açtığı insanî başlangıç çizgisi böylece ilahî konuşana yönelir; bakım cümlenin merkezinde kalır, insanî kaynak ile son varış da ayrı düzlemlerde anlaşılır. Kelimenin ayrı bir varış yeri ya da konak anlamı, {ar:إِلَىَّ, tr:ilayya, gloss:bana doğru} ve önceki anne-kaynak sahnesiyle birleşince eve doğru yerleşme benzetmesini de açabilir. Bu benzetme, ilahî konuşana fiziksel mekân niteliği yüklemeden dönüşün yerleşme hissini duyurur. Cümle sonundaki belirli isim, hareketli dizinin ardından yerleşik bir kapanış hissi verebilir; bu, ölçülmüş ses değil biçimden çıkan bir izlenimdir.
+
+## Merhametin Beden Ölçeği
+
+Sûrenin başındaki {ar:الرَّحْمَٰنِ الرَّحِيمِ, tr:ar-Raḥmān ar-Raḥīm, gloss:Rahmân ve Rahîm} ifadesi (31:0) genel bir merhamet çerçevesi açar; annenin {ar:أُمُّهُۥ, tr:ummuhu, gloss:annesi} diye adlandırılması ve taşıma eylemi ise bu çerçeveyi insan ölçeğinde bedenî bakıma yaklaştırır (31:14). Böylece gebeliğin görünmeyen emeği somutlaşır. Allah'a şükür çağrısı {ar:أَنِ ٱشْكُرْ لِلَّهِ, tr:ani ushkur lillāh, gloss:Allah'a şükret} (31:12) da {ar:وَهْنًا عَلَىٰ وَهْنٍ, tr:wahnan ʿalā wahnin, gloss:güçsüzlük üstüne güçsüzlük}i bakımın bedensel bedeli, şükrü ise yaşanmış bir iyiliğe yönelen yanıt olarak görmeye imkân verir. Bu, 31:0'ın anne bakımını doğrudan saydığı anlamına gelmez; merhamet çerçevesi genel kalırken 31:14'teki bedenî sahne ona somut bir insanî ölçek kazandırır.
+
+Nimetler hem {ar:ظَٰهِرَةًۭ وَبَاطِنَةًۭ, tr:ẓāhiratan wa-bāṭinah, gloss:açık ve gizli} yönleriyle anılır hem de {ar:نِعَمَهُۥ, tr:niʿamahu, gloss:O'nun nimetleri} diye adlandırılır (31:20). Oradaki {ar:وَبَاطِنَةًۭ, tr:wa-bāṭinatan, gloss:gizli ve içte olan}, {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} ile anlatılan gebeliği gizli bir bakım evresi gibi düşündürebilir; ardından gelen {ar:فِصَالُهُۥ, tr:fiṣāluhu, gloss:sütten kesilmesi} bu gizliliğin arkasından görünürleşen başka bir bakım aşamasıdır (31:14, 31:20). Nimetlerin kuşatıcı biçimde verilişini çağrıştıran {ar:وَأَسْبَغَ, tr:wa-asbagha, gloss:ve bolca verdi} de bu iki evreyi genel nimetin somut bir örneği olarak duyurur (31:20). Allah'a ve ebeveynlere ayrı ayrı yönelen şükür, böylece her iki bakım evresine de yanıt olur. Bu eşleme anne bakımını 31:20'nin doğrudan konusu yapmaz; oradaki nimetler geneldir ve gebelikle sütten kesme nimetlerin tümünü tüketmez.
+
+Hidayet ve {ar:رَحْمَةً, tr:raḥmatan, gloss:rahmet}ten söz edilen bağlamın yanına konduğunda (31:3), {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} fiilinin gebe bir kadının gelişen çocuğu rahminde taşımasını anlatan ayrı kullanımı, rahmeti insan hayatına ulaşan somut bakım gibi duyurabilir. Bu okuma 31:3'ün ebeveyn bakımını ayrıca açıkladığını ileri sürmez; rahim, 31:14'te doğrulanmış yeni bir anlam değil, fiilin ayrı gebelik kullanımının çağrışımıdır. Aynı bedenî sahnede {ar:وَهْنًا عَلَىٰ وَهْنٍ, tr:wahnan ʿalā wahnin, gloss:güçsüzlük üstüne güçsüzlük} için doğum sonrası rahim ağrısı da olası bir yankıdır; temel anlam yine bedensel güçsüzlüktür. Sözcüğün boynun iki yanı, üst kol ya da omuz başı çevresindeki bir ağrı veya hastalığı anlatan daha özel bir kullanımı da, tekrarlanan güçsüzlük ve çevresindeki bedenî bağlamla çağrışabilir. Bu ayrı dal ek bir ağrı imgesi sunar; 31:14 bölgeyi belirtmediğinden yeri teşhis etmez.
+
+## Bakımın Büyüme Yankısı
+
+Bakım, 31:14'te şükür buyruğundan önce gelir. Şükredenin yararının kendisine döndüğünü bildiren {ar:يَشْكُرْ, tr:yashkur, gloss:şükreder} ile yağmurdan sonra bitkilerin yetişmesini anlatan {ar:فَأَنۢبَتْنَا, tr:fa-anbatnā, gloss:yetiştirdik} ayrı bağlamlarda yer alır (31:12, 31:10). Birincisi şükrün yararını kişiye döndürür, ikincisi yağmurla gelen büyümeyi gösterir; bu iki çizgi yan yana bakımın gelişime katkısını ve şükredenin kendisinin de biçimlenmesini düşündürür. {ar:أُمُّهُۥ, tr:ummuhu, gloss:annesi} olağan anlamıyla anne adıdır; besleyip büyütme kullanımı da {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} ve {ar:فِصَالُهُۥ, tr:fiṣāluhu, gloss:sütten kesilmesi}nin kurduğu sahnede bakımın gelişen çocuk için maddi kaynak oluşunu görünür kılar. {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} alınan iyiliği ve kimden geldiğini tanımayı sürdürür; şükredenin yararının kendisine dönmesi de bu yanıtın insanı biçimlendiren yönünü ekler (31:12).
+
+Şükretme sözcüğünün az bir girdiyi yeterli bulup onunla gelişmeyi anlatan ayrı kullanımı, şükredenin yararının kendisine dönmesiyle (31:12) ve 31:14'teki beslenme-sütten kesilme ilişkisiyle benzetmeli bir beslenme çizgisi açar. Ayet belirli bir az miktar vermez. Aynı sözlük alanındaki doluluk ve ürünün bollaşması kullanımı memenin sütle dolmasını da düşündürür; anne, taşıma ve sütten kesilme bu bedensel sağlama imgesini birbirinden bağımsız biçimde çağırır. Bu kollar şükrü alınan besinin gelişime dönüşmesiyle genişletir; süt ayette açıkça adlandırılmaz ve çocuğun şükrü gerçek süt üretimi olarak anlatılmaz. Böylece beslenme yankısı, iyiliği ve kaynağını tanıma anlamını zenginleştirir.
+
+Şükür sözcüğüne bağlanan bir başka kullanım gövde ya da dipten çıkan körpe sürgündür. {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} ile taşınan çocuk ve {ar:فِصَالُهُۥ, tr:fiṣāluhu, gloss:sütten kesilmesi} ile belirginleşen gelişim geçişi bu dalı ayrı ayrı tetikleyerek bakım içinden yeni büyümenin filizlenmesi görüntüsünü kurar. Sözcük alanındaki taze saç, ince tüy ve küçük çocuk benzetmeleri bu filizlenme imgesini genişletir; şükür, böylece bakım içinden büyüyen bir yanıt gibi duyulur. Çocuk bitkiyle özdeşleşmez ve bu görüntü ölçülmüş bir gelişim sonucu bildirmez; 31:14'te bitkiden söz edilmediğinden bitki imgesi ayrı bir yankı olarak kalır. Bitkilerin yağmurdan sonra yetişmesi bu dala bağımsız bağlam sağlar (31:10). Sütten kesmenin hemen ardından gelen şükür, buyruğu somut bakım ve gelişim geçişinin içine yerleştirir; şükrün tamamı yalnızca bu ayrılıktan kaynaklanmaz.
+
+## Sütten Kesmenin Sınırı
+
+Sütten kesmeyi adlandıran {ar:فِصَٰلُهُۥ, tr:fiṣāluhu, gloss:sütten kesilmesi}nin ayırma ve sınır açma çağrışımı, anne babayla ilişkinin sürdüğü sırada belirli bir aile gerilimini aydınlatabilir (31:15). Anne babanın {ar:جَٰهَدَاكَ, tr:jāhadāka, gloss:sana baskı kurmak için çabalarlarsa} diye anlatılan çabası, hakkında bilgi bulunmayan bir şeyi Allah'a ortak koşma talebi üzerindedir: {ar:تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ, tr:tushrika bī mā laysa laka bihi ʿilm, gloss:hakkında bilgin olmayanı bana ortak koşman}. Buna {ar:فَلَا تُطِعْهُمَا, tr:falā tuṭiʿhumā, gloss:ikisine itaat etme} buyruğu karşılık verir; aynı yerde {ar:وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا, tr:wa-ṣāḥibhumā fī d-dunyā maʿrūfan, gloss:dünyada onlarla iyi geçin} denerek beraberlik sürdürülür. {ar:مَعْرُوفًۭا, tr:maʿrūfan, gloss:uygun ve iyi sayılan}, ilişki içinde tanınan ve doğru kabul edilen iyiliğe uygun davranışın ölçüsünü verir. Ardından {ar:وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ, tr:wa-ttabiʿ sabīla man anāba ilayya, gloss:bana yönelen kişinin yolunu izle} çağrısı baskıdan ayrı bir rehberlik yolu açar. Bu sahnede sütten kesilmenin ayrılık imgesi, şükür ve iyi beraberlik korunurken dinî baskıya karşı sınırı belirginleştirir. Sınır özellikle 31:15'teki şirk talebine ilişkindir: bedenî ayrılık itaatsizlik ya da yetişkinliğe geçişin nedeni diye sunulmaz ve bu özel reddi her ebeveyn isteğine yaymaz. Merhamet ve Allah'a şükür ebeveyne minneti hazırlar (31:0, 31:12); 31:15 ise minnetin şirk baskısına boyun eğmek olmadığını aynı ilişki içinde gösterir.
+
+## Kişisel Hesap ve Açık Gelecek
+
+Ebeveyn ile evladın rolleri ters yönlerde yeniden adlandırılırken, {ar:يَجْزِي, tr:yajzī, gloss:karşılığını verir} fiili birinin ötekinin yerine karşılık veremeyeceğini bildirir (31:33). 31:14'teki {ar:وَٰلِدَيْكَ, tr:wālidayka, gloss:anne babana}, öz anneyle öz babayı tek aile bağı içinde iki kişi olarak tutar; iki ebeveyn terimini eşanlamlı yapmaz. {ar:أُمُّهُۥ, tr:ummuhu, gloss:annesi} ve taşıma sahnesi annenin bakımını özellikle görünür kılar, babaya ise annesinin taşıma eylemini yüklemez. Böylece gerçek bakım ve ona yönelen şükür korunurken, 31:33 her kişinin kendi hesabını başkasının yerine üstlenilemeyecek biçimde ayırır. Sütten kesilme ayrılığı bu kişisel sorumluluk eşiğini düşündürebilir; burada belirli bir gelişim takvimi kurulmaz.
+
+Karşılık verme fiiline kesme ve olgunlaşma imgeleriyle bağlanan ayrı kullanım, sütten kesilme ile iki yıllık ölçünün yanında kesme-hesap arasında olası bir yankı açar (31:14, 31:33). Özellikle kesme yönündeki biçim bağlantısı uzak ve tartışmalıdır; bu bağlantıda kesme ve olgunlaşma, fiilin “karşılığını verir” sözlük anlamını değiştirmeden bağlılık ve sorumluluk sınırına ihtiyatlı bir çağrışım ekler.
+
+Rahimlerde olan, yarının kazancı ve ölüm insanların bilmedikleri arasında sayılır (31:34). {ar:مَا فِي ٱلْأَرْحَامِ, tr:mā fī l-arḥāmi, gloss:rahimlerde olan} sözü, 31:14'te annenin taşımasıyla başlayan bakımın başlangıcını, insan denetiminin bütünüyle kuşatmadığı gizli bir bedensel sürece açar. Bu okuma, rahimlerde olana ilişkin ifadeyle {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} arasında bağlamsal bir yankı kurar; fiilin sözlük anlamını değiştirmez ve ebeveynlerin her gebelikte ne bildiğine ilişkin iddia taşımaz (31:34). Aynı bilinmeyen ufuk iki yıllık bakım ölçüsünün ötesindeki yarına ve son varışa uzanır (31:34). Tam iki yıllık süre, {ar:ٱلْمَصِيرُ, tr:al-maṣīru, gloss:dönüş} ile bildirilen son varışla yan yana geldiğinde, yaşamın tamamı değil geleceği açık bir hayat içindeki sınırlı emanet gibi görünür (31:34). Bakım önemini korur, fakat ebeveyne çocuğun geleceği üzerinde sahiplik vermez; bu ilişki hukukî sonuç ya da belirli bir gelecek tahmini kurmaz.
+
+Sağlam kulpa tutunan kişi ve işlerin sonu ufku birlikte belirir (31:22): {ar:ٱسْتَمْسَكَ, tr:istamsaka, gloss:sıkıca tutundu}, {ar:ٱلْعُرْوَةِ ٱلْوُثْقَىٰ, tr:al-ʿurwati l-wuthqā, gloss:sağlam kulpa}ya tutunmayı; {ar:عَٰقِبَةُ ٱلْأُمُورِ, tr:ʿāqibatu l-umūr, gloss:işlerin sonu} ise sonuca yönelmeyi adlandırır. Bu etkin tutunmanın yanında, bir zamanlar {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı} ile taşınan çocuk sonradan tutunan özne gibi düşünülebilir. {ar:فِصَٰلُهُۥ, tr:fiṣāluhu, gloss:sütten kesilmesi}nin ayrı bir kullanımı beden üyelerinin ya da kemiklerin birleştiği anatomik eklem noktasıdır. 31:22'deki sağlam bağ, bu eklem görüntüsünü bedensel ayrılık ile seçilmiş bağlılık arasında benzetmeli bir buluşma noktası yapar. Bu anatomik dal, sütten kesilme anlamını değiştirmez; taşıma ile tutunma arasındaki ilişki de sözlük açıklaması değil, iki sahne arasında bağlamsal bir benzetmedir. Görüntü bakım sonrasında bağın etkin biçimde seçilebileceğini düşündürür; bu yankı çocuğu 31:22'deki kişiyle özdeşleştirmez ve açık bir kronoloji kurmaz.
+
+Seçilmiş sağlam bağ ile bilinmeyen yarın, kazanç ve ölüm ufku yan yana geldiğinde, sütten kesilme bedenî bakımdan hesap verebilir bir seçime olası geçiş gibi duyulabilir (31:22, 31:34). Bir sahne seçilen ilişkiyi, öteki sonucu açık kalan geleceği taşır; bu bağımsız görüntüler bakım sonrasındaki yönelişi düşündürür. Bu bağlantı olasılık düzeyindedir: çocuğun geleceğini ya da 31:22'deki aktörün kimliğini belirlemez, açık bir zaman çizelgesi de kurmaz.
+
+## Bakımın Geçidi
+
+Aynı kelime ailesinin yüzme ve suda ilerleme için kullanılan ayrı dalı, denizde yol alan {ar:الْفُلْكَ, tr:al-fulka, gloss:gemi} ile buluşunca iki yıllık {ar:عَامَيْنِ, tr:ʿāmayni, gloss:iki yıl} takvimini içinden geçilen bir ortam gibi duyurabilir (31:31). Bu dal geminin yanı sıra deve ve yıldızların yüzmeye benzer akıcı ilerleyişini de kapsar; yılın takvim anlamı korunurken bakım süresi hareketli bir geçit imgesine açılır.
+
+Gebelikte çocuğu taşıyan {ar:حَمَلَتْهُ, tr:ḥamalat-hu, gloss:onu taşıdı}, başka bir kullanımında yükü kaldırıp bir taşıt üzerinde götürmeyi anlatır. Denizde ilerleyen gemi bu ikinci taşıma dalını tetikler; selin bir şeyi sürüklemesi ve bir taşıtın içindekileri götürmesi gibi başka kullanımlar da taşıyıp ilerletme görüntüsünü genişletir (31:31). Böylece annenin bedenî taşımasıyla yolcuları taşıyan gemi arasında ortak bir taşıma işlemi görünür, fakat benzetme çocuğu gerçek bir gemi yolcusu yapmaz. Gemi sözcüğünün olağan anlamı geçit sahnesini kurar; gebelik, iki yıl ve sütten kesilmeyle bağı anlam özdeşliği değil, bu sahneler arasındaki bağlamsal benzetmedir. Aynı sahnedeki {ar:تَجْرِي, tr:tajrī, gloss:akar ve ilerler}, geminin denizde akıp gidişini bildirir (31:31); bu hareket bakım aralığını sabit bir kap yerine içinden geçilen güzergâh gibi duyurabilir. Bu güzergâh okuması biçim bakımından ihtiyatlıdır.
+
+İnsanları örtüler gibi yükselerek kuşatan {ar:مَوْجٌ, tr:mawjun, gloss:dalga}, ardından gelen {ar:نَجَّىٰهُمْ, tr:najjāhum, gloss:onları kurtardı} ile kurtulma ve karaya çıkma hareketi kazanır (31:32). {ar:وَهْنًا عَلَىٰ وَهْنٍ, tr:wahnan ʿalā wahnin, gloss:güçsüzlük üstüne güçsüzlük} bedensel güçsüzlük anlamını korurken dalgalar bu katmanlı yükün taşınan bedenin üstündeki çalkantı gibi duyulmasına izin verir. Sütten kesmenin emme ilişkisinden ayrılma çizgisi ile dalgaların ardından zemine varış çizgisi yan yana düşünülebilir; bu yan yanalık birini ötekinin nedeni yapmaz, iki imge arasında benzetme kurar. {ar:الْبَرِّ, tr:al-barri, gloss:kara} (31:32) olağan anlamıyla kıyıdaki karadır. Evlatlık-iyilik kullanımı ayrı bir sözlük dalı olarak kendi bağlamlarında geçerliliğini korur; kıyı anlamıyla bu bağlantısı kesin olmadığından burada yalnızca varışta ebeveyn bağını hatırlatan ihtiyatlı bir yankı kurar.
+
+Yolcu sabırlı ve {ar:شَكُورٍ, tr:shakūrin, gloss:çokça şükreden} diye nitelenir (31:31); kurtuluştan sonra nankörlük de görülebilir (31:32). Şükredenle nankörün bu farklı sonuçları, kıyıya varışın şükrü kendiliğinden güvence altına almadığını gösterir. Taşıyan gemi bakımın yükünü, akıp giden hareket sürenin güzergâhını, dalgalar bedenin üstündeki çalkantıyı, kurtuluş ve kara ise kuşatılmadan çıkış yönünü verir. Bu işlemler birleşince bakım süresi aşılmış bir yol, sütten kesilme de kıyıya eriş gibi duyulur. Bu ilişki benzetme düzeyindedir: 31:14'teki bakım sahnesi deniz yolculuğuna ya da gerçek bir gelişim anlatısına dönüşmez.
+
+## Gecenin Ritmi
+
+Son zamansal yankıda {ar:وَهْنًا عَلَىٰ وَهْنٍ, tr:wahnan ʿalā wahnin, gloss:güçsüzlük üstüne güçsüzlük} bedenî güçsüzlük olarak kalır; iki yıllık {ar:عَامَيْنِ, tr:ʿāmayni, gloss:iki yıl} sürenin içine {ar:ٱلَّيْلَ, tr:al-layla, gloss:gece} ile {ar:ٱلنَّهَارَ, tr:an-nahāra, gloss:gündüz} döngüsü yerleştiğinde bakımın yinelenen geceleri de düşünülebilir (31:29). Her biri bir kışla bir yazı kapsayan yıl çevrimi, gece-gündüz tekrarını uzun bakım süresine taşır; katman katman gelen güçsüzlükle buluşması bakımın ritmini duyurur. Güçsüzlük sözcüğünün biçimce uzak bir başka kullanımı gecenin ortasına ya da çekilmeye başladığı vakte denk gelen belirli bir saati anlatır; gece-gündüz döngüsüyle temas eden bu kullanım zaman yankısını genişletirken bedenî güçsüzlük anlamını korur (31:29). Göksel düzen böylece bakım gecelerinin yinelenen ritmini düşündürür; annenin gecelerine ilişkin kesin bir anlatı kurmaz.
+
+</editorial_prose>

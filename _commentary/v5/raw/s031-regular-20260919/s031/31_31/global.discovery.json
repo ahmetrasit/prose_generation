@@ -1,0 +1,481 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "31:31",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1d99135dfd2243b47942",
+      "decision": "narrow",
+      "reason": "The 10:22 sea-voyage connection activates the bounded ship, movement, sea, and favor core. The encounter branch has no encounter construction, coordinated motion requires a second moving participant, and circularity is not selected by the ship carrier.",
+      "finding_refs": ["global:enabled_voyage"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000086/B005", "reason": "Its packet boundary requires an encounter expression; the focus uses the sea as a traversed medium."},
+        {"branch_ref": "root_000240/B007", "reason": "Its boundary requires two participants moving together; the sea is a locative medium in the focus, not a second participant keeping pace."},
+        {"branch_ref": "root_001177/B001", "reason": "The focus selects a ship, and neither its form nor the 10:22 trigger supplies circular shape or rotation as an activated reading."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e6f3c1d0b698d1f10b2b",
+      "decision": "accept",
+      "reason": "The registered sign, movement, and causative-showing branches all land through the focus's movement-to-showing relation and wider sign-display connections at 20:23 and 45:12.",
+      "finding_refs": ["global:voyage_as_viewing_path"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e69006b4a8b800913f98",
+      "decision": "narrow",
+      "reason": "The sign, ordinary gratitude, and self-restraint core survives through the 10:22 sea-crisis counterpart and the 31:17 patience context. The repletion branch explicitly excludes gratitude for favor, and the guarantor branch has no undertaking-of-debt carrier or trigger.",
+      "finding_refs": ["global:patient_grateful_across_voyage"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000810/B002", "reason": "The exact branch boundary says this small-input sufficiency sense is not gratitude for favor; the focus attaches shakur to divine favor and supplies no small-food, small-water, or visible-growth trigger."},
+        {"branch_ref": "root_000840/B003", "reason": "This branch requires a person guaranteeing another's obligation; neither the focus adjective nor the supplied sea-voyage context supplies that role."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ddea828583938f5fefd7",
+      "decision": "represented",
+      "reason": "Its bounded ship, physical movement, sea, and bestowed-favor reading is an exact semantic duplicate of the retained core in global:enabled_voyage; every candidate branch lands there.",
+      "finding_refs": ["global:enabled_voyage"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_441c6a45370570ae1e72",
+      "decision": "represented",
+      "reason": "Its movement-to-showing and visible-sign reading is an exact semantic duplicate of global:voyage_as_viewing_path; both supplied branches land in that finding.",
+      "finding_refs": ["global:voyage_as_viewing_path"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_782fcc522f9fd4fe9e45",
+      "decision": "represented",
+      "reason": "Its pairing of patience and gratitude as dispositions through which signs are received is an exact semantic duplicate of the retained core in global:patient_grateful_across_voyage.",
+      "finding_refs": ["global:patient_grateful_across_voyage"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_be14076744dbe8f78f6b",
+      "decision": "reject",
+      "reason": "The retrospective claim depends on 31:32, a same-pericope context rather than a wider global trigger, and this packet supplies no exact 31:32 surface or trace. Its support is non-citable and carries no branch or occurrence anchor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "31:32", "reason": "The support names this same-pericope ayah without its exact surface or a structured trace; it cannot ground a global activation here."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4190ff77fcdd20b17840",
+      "decision": "narrow",
+      "reason": "The focus ship and running branches are retained through the exact 42:32 ship-as-sign connection. The support's sea-as-writing and wave-danger expansions depend on 31:27 and 31:32, whose surfaces are not supplied as global evidence in this packet.",
+      "finding_refs": ["global:ship_itself_sign"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "31:27", "reason": "The support only names this same-pericope writing-medium reading; its exact surface and branch trigger are not supplied in this packet."},
+        {"context_ref": "31:32", "reason": "The support only names this same-pericope wave-danger reading; its exact surface and branch trigger are not supplied in this packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9a248591f977e7c3ea08",
+      "decision": "narrow",
+      "reason": "The visible-sign branch survives through 42:33, where the exact Arabic associates stalled sea-going vessels with the same signs-for-the-patient-and-grateful formula. The claimed 31:32 danger-and-rescue scene is excluded as an unsupplied same-pericope context.",
+      "finding_refs": ["global:signs_when_motion_stops"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "31:32", "reason": "This cited same-pericope crisis is present only in the retrospective support text, without exact surface or structured evidence in this packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_99a6306a8779c04e3a32",
+      "decision": "reject",
+      "reason": "Its retrospective requires 31:32 and 31:34, both inside the declared 31:22–34 pericope and absent here as exact surface evidence. It therefore cannot establish a wider global activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "31:32", "reason": "Same-pericope crisis context, named only in non-citable retrospective support and without exact surface here."},
+        {"context_ref": "31:34", "reason": "Same-pericope rain/provision context, named only in non-citable retrospective support and without exact surface here."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_75c2523bbb4da71392b4",
+      "decision": "reject",
+      "reason": "The unresolved instrumental-versus-accompanying force of bi-ni'mat is a local construction question. The unanchored summary supplies no wider trigger, carrier branch, or changed global reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_82939cec05600eaec2ff",
+      "decision": "reject",
+      "reason": "The proposed sea-as-writing carryover depends on 31:27, which is within the declared pericope and is not supplied here with exact surface or an activation trace; no wider global trigger is present.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "31:27", "reason": "Same-pericope reference appears only in an unanchored summary and cannot serve as a global trigger in this packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0af12ea163f8c6068834",
+      "decision": "reject",
+      "reason": "This unanchored summary groups several branch-distant analogies and recommends a surface preference, but supplies no occurrence, branch activation, independent trigger, or single bounded semantic claim to evaluate globally.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9409756a92835e9315ba",
+      "decision": "represented",
+      "reason": "Its summary of enacted disclosure whose uptake depends on durable attention is an exact semantic duplicate of global:attention_can_be_refused.",
+      "finding_refs": ["global:attention_can_be_refused"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c8ce41791379221b6389",
+      "decision": "represented",
+      "reason": "Its summary of stability as governed movement within bounds is an exact semantic duplicate of global:stability_within_motion.",
+      "finding_refs": ["global:stability_within_motion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_89ba2a8b43743789c47d",
+      "decision": "represented",
+      "reason": "Its temporal-fidelity reading across danger, rescue, and remembered benefit is an exact semantic duplicate of global:patient_grateful_across_voyage.",
+      "finding_refs": ["global:patient_grateful_across_voyage"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2965037fe122f8be2a3f",
+      "decision": "reject",
+      "reason": "The closing claim about distinguishing sign-reading from predictive mastery is an unanchored summary with no supplied focus carrier, wider context surface, branch, or contact returning to 31:31.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1e5f0538daa54dc44e2c",
+      "decision": "reject",
+      "reason": "This unanchored summary aggregates separate sight, repletion, ship-wave, and other readings. It does not identify one independently triggered global relation, and its aggregation cannot be represented by one exact finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_48106285a73c34325954",
+      "decision": "narrow",
+      "reason": "The show, patience, distraction, turning-away, failed-hearing, and blocked-reception roles have exact 31:31, 31:6, and 31:7 trace contacts and survive as attributed contextual evidence. The shukr repletion branch is explicitly outside the gratitude-for-favor sense used by the focus.",
+      "finding_refs": ["global:attention_can_be_refused"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000810/B002", "reason": "Its exact boundary excludes gratitude for favor, and the focus uses shakur in a favor-and-sign context; no small-input or visible-growth trigger supports this branch."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8d132577679095f0266d",
+      "decision": "accept",
+      "reason": "The exact HFT traces at 31:10 and 31:29 name the contextual roots, word indices, and roles, and return through the focus ship and its ongoing movement. Registered focus branches and attributed unresolved context branches are all retained.",
+      "finding_refs": ["global:stability_within_motion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_84f68635e67c87dfec91",
+      "decision": "narrow",
+      "reason": "The focus patience and ordinary gratitude branches remain connected to the exact 31:12 self-benefit and 31:17 affliction/action traces. The HFT feedback reading survives without its incompatible shukr repletion branch.",
+      "finding_refs": ["global:active_virtue_feedback"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000810/B002", "reason": "The lexicon record explicitly excludes gratitude for favor from this small-input sufficiency branch; the focus and its contexts support gratitude B001 instead."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_65c7f9be04dbc587fdd0",
+      "decision": "accept",
+      "reason": "The focus showing and favor carriers contact the exact 31:20 trace of subjection, full measure, repeated favor, outward provision, and hidden interiority. Unresolved context branch records remain attributed rather than supplying invented glosses.",
+      "finding_refs": ["global:layered_enablement"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6aa62693956647f8226e",
+      "decision": "accept",
+      "reason": "The exact 31:14 carrier, layered-weakness, and gratitude trace returns through the focus ship and shakur. The cross-domain relation survives only as the bounded dependence analogy stated by the support, with unresolved context roots attributed.",
+      "finding_refs": ["global:remembered_bearing"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:enabled_voyage",
+      "origin_candidate_id": "cand_1d99135dfd2243b47942",
+      "represented_candidate_ids": ["cand_ddea828583938f5fefd7"],
+      "title": "A favor-enabled voyage through exposed water",
+      "claim": "The focus ship advances through a broad sea by divine favor; the wider 10:22 voyage, where fair wind gives way to storm and surrounding waves, makes that passage read as dependent movement through changing conditions rather than mastery of the sea.",
+      "mechanism": "The focus's ship, ongoing movement, sea, and bestowed-favor branches are carriers. The exact 10:22 sea-voyage connection supplies the independent wind-and-wave reversal; its contact with each focus carrier changes the ship's advance from a self-sufficient success into a passage enabled amid conditions it cannot control.",
+      "reader_payoff": "The reader sees the boat's movement as a received possibility within an exposed medium, not proof that the medium has been mastered.",
+      "containment": "The focus does not say that its own voyage meets a storm or that the sea is always threatening. The 10:22 event is a wider counterpart, while the ordinary ship, sea, and favor reading remains intact.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound", "trusted"], "reason": "A trusted cross-run claim and a legacy V12 trace agree on the focus carriers; the external connection supplies exact Arabic but no target morphology, so the wider event is used only as a surface-level parallel."},
+      "support_ids": ["sup_3e5542c889e7e34d3dd5", "sup_76209d0e296f923cefb0"],
+      "branch_activations": [
+        {"branch_ref": "root_000086/B001", "facet_id": "F001", "branch_gloss": "genis büyük su kütlesi", "facet_statement": "Cok ve genis suyun yayilmasi, büyük su kütlesi ve büyük irimak anlamlarini birlestiren cekirdektir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:7:2"], "trigger_refs": ["10:22"], "focus_return_refs": ["31:31:7:2"], "carrier": "The focus noun al-baḥri carries the ordinary large navigable water body.", "independent_trigger": "The exact 10:22 Arabic describes a good wind followed by a storm wind and waves surrounding those aboard.", "activation": "The focus's traversed sea meets a wider sea-voyage in which passage becomes exposed to reversal; the broad-water carrier is read as a real medium of risk as well as navigation.", "resulting_reading": "The sea is the extensive medium through which favor-enabled travel proceeds under conditions the vessel does not command.", "boundary": "This does not claim that 31:31 narrates the storm of 10:22 or that every sea passage is perilous."},
+        {"branch_ref": "root_000240/B001", "facet_id": "F001", "branch_gloss": "bir yol boyunca akıp, koşup ya da ilerleyerek gitme", "facet_statement": "Bir varlık kendi yolu boyunca akar, koşar ya da kesintisiz biçimde ilerler.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:5:1"], "trigger_refs": ["10:22"], "focus_return_refs": ["31:31:5:1"], "carrier": "The focus verb tajrī presents the ship's ongoing movement along its course.", "independent_trigger": "The 10:22 sea voyage moves under favorable wind before storm and waves expose the limits of that movement.", "activation": "The contrast between ongoing travel and a wider voyage's abrupt change of conditions makes the focus movement a course sustained by enablement, not control.", "resulting_reading": "The ship's running is real and continuous, yet dependent on conditions beyond the ship.", "boundary": "The external event does not replace the focus's present movement or claim that this ship stops."},
+        {"branch_ref": "root_001177/B003", "facet_id": "F001", "branch_gloss": "gemi; gemiler topluluğu", "facet_statement": "Suda yol alan bir geminin adlandırılması anlamın nesne çekirdeğidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:4:2"], "trigger_refs": ["10:22"], "focus_return_refs": ["31:31:4:2"], "carrier": "The focus noun al-fulk names the ship or collective vessels.", "independent_trigger": "The 10:22 connection supplies a separate shipboard passage exposed to changing wind and waves.", "activation": "The focus vessel and the independently supplied endangered passage meet as carriers that can travel without governing their medium.", "resulting_reading": "The ship becomes a bounded carrier whose safe passage depends on what sustains it.", "boundary": "No storm is imported into 31:31; the comparison marks dependence, not an event identity."},
+        {"branch_ref": "root_001525/B001", "facet_id": "F002", "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik", "facet_statement": "Birine verilen bağış, yapılan iyilik veya yararın o kişiye ulaştırılması.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:8:2"], "trigger_refs": ["10:22"], "focus_return_refs": ["31:31:8:2"], "carrier": "The focus phrase bi-niʿmatillāh carries favor as a benefit delivered to the voyager.", "independent_trigger": "The 10:22 connection places a favorable sea passage beside rescue from danger and a pledge of gratitude.", "activation": "The favorable passage and its threatened reversal meet at the focus's favor phrase, making the gift an enabling condition of passage rather than an object carried aboard.", "resulting_reading": "Divine favor is the support by which travel remains possible through changing sea conditions.", "boundary": "The focus does not specify that the favor is wind or rescue; the external episode illustrates dependence without identifying the events."}
+      ],
+      "connection_refs": ["conn_11bd4fbf7ed44422389d"],
+      "context_refs": ["10:22"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:voyage_as_viewing_path",
+      "origin_candidate_id": "cand_e6f3c1d0b698d1f10b2b",
+      "represented_candidate_ids": ["cand_441c6a45370570ae1e72"],
+      "title": "Movement becomes a way of seeing",
+      "claim": "The ship's movement becomes a change of vantage through which signs are shown; wider accounts of showing signs and of sea-going ships seeking bounty and ending in gratitude make the voyage a lived disclosure as well as transport.",
+      "mechanism": "The focus's running ship, causative showing, and visible-sign branches are carriers. The 20:23 connection supplies a separate showing-of-signs scene, while 45:12 joins sea-running ships to sought bounty and gratitude. These triggers return through the focus's movement and purpose clause, changing travel from location alone into a path through which provision and signs are encountered.",
+      "reader_payoff": "The reader can see why the ship is an epistemic instrument: movement alters what can be seen, and the journey places that seeing within an active relation of provision and gratitude.",
+      "containment": "Neither wider verse says that all signs are recognized or that every voyage changes sight. The focus's plain account of ships moving by favor and showing signs remains the ground of the reading.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound", "trusted"], "reason": "The retained movement-to-sign claim has a trusted cross-run record and an exact legacy reader-walk duplicate; the connections provide exact Arabic surfaces but no target morphology, so their contribution is limited to the supplied event and wording."},
+      "support_ids": ["sup_45bfde7d7daf1060206c", "sup_39c4a03a07028bb17024"],
+      "branch_activations": [
+        {"branch_ref": "root_000074/B003", "facet_id": "F001", "branch_gloss": "gorunen belirti", "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:12:1", "31:31:16:2"], "trigger_refs": ["20:23"], "focus_return_refs": ["31:31:12:1", "31:31:16:2"], "carrier": "The focus names signs first as the object of showing and then emphatically in the conclusion.", "independent_trigger": "The exact 20:23 connection presents a separate act of showing Moses great signs.", "activation": "The wider showing-of-signs event meets the focus's repeated visible-sign noun and makes the ship passage one form of a broader disclosure relation.", "resulting_reading": "The sea passage exposes signs as part of an act of showing, rather than serving only as transportation.", "boundary": "The two scenes are not identified, and the focus does not claim that the signs are exhausted by what the ship reveals."},
+        {"branch_ref": "root_000531/B012", "facet_id": "F001", "branch_gloss": "gösterip görmesini sağlama", "facet_statement": "Bir şeyi başkasına gösterip onun görmesini sağlama.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:10:2"], "trigger_refs": ["20:23"], "focus_return_refs": ["31:31:10:2", "31:31:12:1"], "carrier": "The focus verb yuriyakum names causing the audience to see.", "independent_trigger": "The 20:23 Arabic repeats a showing action directed toward signs in another setting.", "activation": "The wider act of showing contacts the focus's purpose clause, making the ship's movement a means of purposeful disclosure rather than a coincidental view.", "resulting_reading": "The voyage is read as movement organized toward seeing signs.", "boundary": "This does not equate Moses's sign scene with the ship or guarantee recognition by every viewer."},
+        {"branch_ref": "root_000240/B001", "facet_id": "F002", "branch_gloss": "bir yol boyunca akıp, koşup ya da ilerleyerek gitme", "facet_statement": "Su ve rüzgar akarak, at koşarak, güneş ile gemi ise izledikleri yol boyunca ilerleyerek çekirdeği gerçekleştirir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:5:1"], "trigger_refs": ["45:12"], "focus_return_refs": ["31:31:5:1", "31:31:10:2"], "carrier": "The focus verb tajrī selects the ship's sustained physical movement along a course.", "independent_trigger": "The 45:12 connection also places ships running in the sea within a route toward sought bounty and gratitude.", "activation": "The separate ship-run and provision relation contacts the focus's movement-to-showing construction, giving the journey a purpose beyond getting across water.", "resulting_reading": "The ship's movement carries the audience into a setting of provision and signs.", "boundary": "The focus does not state the exact economic purpose of the other voyage; this is a wider resonance, not a substituted translation."}
+      ],
+      "connection_refs": ["conn_27534f1101b312bf6ca0", "conn_3c62dff09042783335c9"],
+      "context_refs": ["20:23", "45:12"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:patient_grateful_across_voyage",
+      "origin_candidate_id": "cand_e69006b4a8b800913f98",
+      "represented_candidate_ids": ["cand_782fcc522f9fd4fe9e45", "cand_89ba2a8b43743789c47d"],
+      "title": "Patience and gratitude span changing passage",
+      "claim": "The signs of a sea voyage can be read across exposure and relief: patience holds a person through what befalls, while gratitude recognizes the favor that makes safe passage possible.",
+      "mechanism": "The focus's visible-sign, self-restraint, and gratitude branches are carriers. The wider 10:22 voyage supplies a move from fair wind to storm, surrounding waves, rescue, and promised gratitude; the 31:17 context explicitly joins patience to what befalls. These triggers contact the focus signs and paired response terms, changing the pair from static praise into capacities that remain relevant as conditions change.",
+      "reader_payoff": "The reader sees why patience and gratitude close a sea-voyage sign: they sustain recognition through both danger and returned benefit.",
+      "containment": "The 10:22 crisis is another episode, not an event asserted in 31:31. The two-phase relation is interpretive; the ordinary virtues of patience and gratitude remain present without being ranked against it.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound", "trusted"], "reason": "The focus pairing has a trusted publication and matching legacy reader-walk support; the wider episode is exact surface evidence, while the timing relation remains an inference."},
+      "support_ids": ["sup_214e48fce2750f3cac55", "sup_d36bd6e57d6a017ebc39", "sup_784919ad8416836a191d"],
+      "branch_activations": [
+        {"branch_ref": "root_000074/B003", "facet_id": "F001", "branch_gloss": "gorunen belirti", "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:16:2"], "trigger_refs": ["10:22"], "focus_return_refs": ["31:31:12:1", "31:31:16:2"], "carrier": "The focus emphatically names signs in the whole sea-going event.", "independent_trigger": "The 10:22 connection puts sea travel under changing wind and waves and then describes rescue and pledged gratitude.", "activation": "The changing voyage supplies an independent condition against which the focus's signs and recipient pair are read, making the signs relevant across exposure and relief.", "resulting_reading": "The signs remain perceptible across danger and benefit, not only during an uninterrupted successful passage.", "boundary": "The focus does not narrate 10:22's storm or rescue."},
+        {"branch_ref": "root_000840/B001", "facet_id": "F001", "branch_gloss": "kendini tutarak dayanma", "facet_statement": "Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:18:1"], "trigger_refs": ["31:17", "10:22"], "focus_return_refs": ["31:31:18:1"], "carrier": "The focus's intensive sabbār carries practiced self-restraint and endurance.", "independent_trigger": "The 31:17 connection commands patience over what befalls, and 10:22 supplies a separate sea-passage crisis.", "activation": "The explicit hardship instruction and the sea-crisis counterpart meet the focus's patient carrier, giving endurance a concrete place in the voyage reading.", "resulting_reading": "Patience holds response through exposure rather than functioning only as a static commendation.", "boundary": "The focus does not say that the voyager experiences the specific 10:22 event."},
+        {"branch_ref": "root_000810/B001", "facet_id": "F001", "branch_gloss": "İyiliği tanıyıp söz ve davranışla karşılık verme", "facet_statement": "Görülen iyiliği ve bu iyiliğin kimden geldiğini bilip kabul etme anlamın temelidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:19:1"], "trigger_refs": ["10:22"], "focus_return_refs": ["31:31:19:1"], "carrier": "The focus's intensive shakūr carries recognition and response to received benefit.", "independent_trigger": "The 10:22 episode ends its threatened passage with a pledge of gratitude if rescue comes.", "activation": "The pledge after rescue contacts the focus's grateful recipient term, making gratitude legible as remembered enablement after danger.", "resulting_reading": "Gratitude recognizes the support that returns a traveler to safety.", "boundary": "The focus does not state that its ship has been rescued or that gratitude occurs only after danger."}
+      ],
+      "connection_refs": ["conn_11bd4fbf7ed44422389d", "conn_f0281fc63e29fe1ff06c"],
+      "context_refs": ["10:22", "31:17"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:ship_itself_sign",
+      "origin_candidate_id": "cand_4190ff77fcdd20b17840",
+      "represented_candidate_ids": [],
+      "title": "The vessel itself enters the sign-field",
+      "claim": "The focus's moving vessel can be read as more than a means for seeing: a wider verse explicitly places sea-going ships among God's signs, so the carrier itself participates in the disclosure.",
+      "mechanism": "The focus ship and running branches are carriers. The exact 42:32 Arabic names sea-going vessels as signs; that independent ship-in-sea image returns through the focus vessel, its motion, and the focus's purpose of showing signs, changing transport from a viewing platform into part of what is viewed.",
+      "reader_payoff": "The reader can notice the ship both as the means by which a view opens and as an object that can itself signify.",
+      "containment": "The focus does not grammatically equate the ship with its signs. The relation is a wider resonance across two verses, and the ordinary vessel sense remains intact.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The candidate is a legacy wide-context reading; the independent connection supplies exact Arabic but no target morphology, so the ship-as-sign relation is stated as a bounded contextual resonance."},
+      "support_ids": ["sup_5abebb936484ab543dcc"],
+      "branch_activations": [
+        {"branch_ref": "root_001177/B003", "facet_id": "F001", "branch_gloss": "gemi; gemiler topluluğu", "facet_statement": "Suda yol alan bir geminin adlandırılması anlamın nesne çekirdeğidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:4:2"], "trigger_refs": ["42:32"], "focus_return_refs": ["31:31:4:2", "31:31:12:1"], "carrier": "The focus al-fulk names the sea-going ship as the object carrier.", "independent_trigger": "The exact 42:32 connection identifies sea-going vessels themselves among divine signs.", "activation": "The wider ship-as-sign image contacts the focus vessel and its surrounding purpose of showing signs, making the ship more than an instrument of transport.", "resulting_reading": "The vessel itself participates in the focus's sign-bearing scene.", "boundary": "The two verses remain distinct; this does not turn the focus noun into a grammatical apposition to signs."},
+        {"branch_ref": "root_000240/B001", "facet_id": "F002", "branch_gloss": "bir yol boyunca akıp, koşup ya da ilerleyerek gitme", "facet_statement": "Su ve rüzgar akarak, at koşarak, güneş ile gemi ise izledikleri yol boyunca ilerleyerek çekirdeği gerçekleştirir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:5:1"], "trigger_refs": ["42:32"], "focus_return_refs": ["31:31:5:1", "31:31:10:2"], "carrier": "The focus tajrī presents a ship moving along its route.", "independent_trigger": "The wider connection presents ships in the sea as signs, contacting the focus's movement-to-showing relation.", "activation": "The external sign-bearing ship scene meets the focus's ongoing movement and purpose clause, so the movement itself belongs to the evidence-bearing image.", "resulting_reading": "The ship's course is both travel and part of the sign displayed.", "boundary": "The connection supplies a separate ship image, not a claim that all motion is a sign."}
+      ],
+      "connection_refs": ["conn_eaa2906a2de0e3e3178c"],
+      "context_refs": ["42:32"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:signs_when_motion_stops",
+      "origin_candidate_id": "cand_9a248591f977e7c3ea08",
+      "represented_candidate_ids": [],
+      "title": "Signs remain when the ships are still",
+      "claim": "The focus closes by assigning signs to every sabbār-shakūr; a wider verse repeats that formula for ships held still when God stills the wind, so the sign-bearing scene does not depend on successful motion alone.",
+      "mechanism": "The focus's visible-sign branch is the carrier. The exact 42:33 connection supplies stalled ships and repeats the signs-for-the-patient-and-grateful formula; this independent stillness contacts the focus sign noun, changing the scene from motion as the only evidence to motion as one contingent state of a sign-bearing sea.",
+      "reader_payoff": "The reader can see signs in both passage and interruption, while the focus's patient and grateful recipients remain attached to the wider sea image.",
+      "containment": "42:33 is a separate verse, not a prediction about the focus ship. The focus still describes motion by favor; the resonance adds a possible contrast without replacing that scene.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The legacy wide-context support is narrowed to the registered sign branch; the connection supplies exact Arabic for the stalled-vessel counterpart but no target morphology."},
+      "support_ids": ["sup_fe79de9f37de41c98211"],
+      "branch_activations": [
+        {"branch_ref": "root_000074/B003", "facet_id": "F001", "branch_gloss": "gorunen belirti", "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:12:1", "31:31:16:2"], "trigger_refs": ["42:33"], "focus_return_refs": ["31:31:12:1", "31:31:16:2"], "carrier": "The focus names signs first as what is shown and then emphatically in its conclusion.", "independent_trigger": "The 42:33 connection describes vessels motionless on the sea's surface and repeats the same signs-for-sabbār-shakūr conclusion.", "activation": "The stalled-vessel setting contacts the focus's sign carrier and recipient phrase, showing that the sign relation can persist when a ship's movement is checked.", "resulting_reading": "A ship's being still does not erase its place in a sea-going sign scene.", "boundary": "This does not assert that 31:31's ships are stalled or equate the two events."}
+      ],
+      "connection_refs": ["conn_77d1341189180a570000"],
+      "context_refs": ["42:33"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:attention_can_be_refused",
+      "origin_candidate_id": "cand_48106285a73c34325954",
+      "represented_candidate_ids": ["cand_9409756a92835e9315ba"],
+      "title": "Seeing does not compel reception",
+      "claim": "The earlier sequence of diverting discourse, turning away, and blocked hearing gives the focus's act of showing a boundary: signs can be made visible and still go unread; sabbār's self-restraint marks a response that can hold attention open.",
+      "mechanism": "The focus showing and self-restraint branches are carriers. The exact HFT traces at 31:6 and 31:7 name distraction, turning away, hearing as understanding, and sensory weight; their contact with the focus's showing and sign words changes visibility from automatic recognition into an offered disclosure whose uptake remains a human response.",
+      "reader_payoff": "The reader sees why showing signs and recognizing them are distinct moments, without losing the focus's ordinary sign and gratitude language.",
+      "containment": "The passage does not say every viewer refuses or that the ship's signs are ineffective. The HFT root and word assignments remain attributed contextual evidence; ordinary shukr is preserved, while the incompatible repletion branch is not carried.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The HFT provides exact Arabic anchors and word indices but no context QAC morphology, and its reader identity is legacy_unbound; context-root roles therefore remain attributed."},
+      "support_ids": ["sup_e5c66956ba0c76f02269", "sup_86148f1d969280cb7689"],
+      "branch_activations": [
+        {"branch_ref": "root_000531/B012", "facet_id": "F001", "branch_gloss": "gösterip görmesini sağlama", "facet_statement": "Bir şeyi başkasına gösterip onun görmesini sağlama.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:10:2"], "trigger_refs": ["31:6", "31:7"], "focus_return_refs": ["31:31:10:2", "31:31:12:1"], "carrier": "The focus yuriyakum is the causative act of making the audience see.", "independent_trigger": "HFT traces at 31:6 word 5 and 31:7 words 5, 9, and 13 describe diversion, turning away, failed understanding, and blocked reception.", "activation": "Those prior attention failures contact the focus's act of showing, demonstrating that a visible offer can meet an unwilling or obstructed receiver.", "resulting_reading": "Showing signs is disclosure offered to the audience, not forced recognition.", "boundary": "The HFT context mappings are attributed; this does not claim that every audience member refuses."},
+        {"branch_ref": "root_000840/B001", "facet_id": "F001", "branch_gloss": "kendini tutarak dayanma", "facet_statement": "Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:18:1"], "trigger_refs": ["31:6", "31:7"], "focus_return_refs": ["31:31:18:1"], "carrier": "The focus sabbār names intensive self-restraint and endurance.", "independent_trigger": "The earlier HFT trace records distraction, withdrawal, and non-reception despite signs being recited.", "activation": "Held attention contacts the prior pattern of diversion and withdrawal as a response capable of resisting it.", "resulting_reading": "Patience can preserve attention through conditions that would otherwise divert it.", "boundary": "The focus does not define patience only as attention; its ordinary endurance sense remains."},
+        {"branch_ref": "root_001382/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:6"], "trigger_refs": ["31:31:10:2", "31:31:12:1"], "focus_return_refs": ["31:31:10:2", "31:31:12:1"], "carrier": "The exact 31:6 Arabic at HFT word index 5 is the attributed distraction carrier.", "independent_trigger": "The focus supplies a distinct act of showing and names visible signs.", "activation": "The attributed distraction competes with the focus disclosure, making attention a condition of whether shown evidence is received.", "resulting_reading": "The focus's display may be encountered alongside an available diversion.", "boundary": "No independent lexicon branch record or context morphology is supplied; the HFT role is retained only as attributed evidence."},
+        {"branch_ref": "root_001684/B007", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:7"], "trigger_refs": ["31:31:10:2"], "focus_return_refs": ["31:31:10:2"], "carrier": "The exact 31:7 Arabic at HFT word index 5 is the attributed turning-away carrier.", "independent_trigger": "The focus's yuriyakum is a separate act of making the audience see.", "activation": "Turning away is a directional response that can meet the focus's offer of visibility without becoming identical to it.", "resulting_reading": "The act of showing leaves room for refusal of its direction.", "boundary": "The role and root mapping are attributed; no independent lexical facet is supplied."},
+        {"branch_ref": "root_000741/B003", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:7"], "trigger_refs": ["31:31:10:2", "31:31:12:1"], "focus_return_refs": ["31:31:10:2", "31:31:12:1"], "carrier": "The exact 31:7 Arabic at HFT word index 9 is attributed hearing understood as compliance.", "independent_trigger": "The focus distinguishes an act of showing from the named signs shown.", "activation": "The HFT role makes hearing-as-comprehension an independent receiver-side contact for the visual disclosure.", "resulting_reading": "Seeing a sign and comprehending or accepting it remain distinct operations.", "boundary": "This context branch has no independent registry record or QAC mapping in the packet."},
+        {"branch_ref": "root_001674/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:7"], "trigger_refs": ["31:31:10:2"], "focus_return_refs": ["31:31:10:2"], "carrier": "The exact 31:7 Arabic at HFT word index 13 is attributed sensory weight that blocks reception.", "independent_trigger": "The focus supplies the separate act of showing to an audience.", "activation": "The attributed blocked-reception image contacts the focus display and limits any inference from visibility to uptake.", "resulting_reading": "A sign may be visible while reception remains obstructed.", "boundary": "The HFT root and role remain attributed because no independent branch record or target morphology is supplied."}
+      ],
+      "connection_refs": [],
+      "context_refs": ["31:6", "31:7"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:stability_within_motion",
+      "origin_candidate_id": "cand_8d132577679095f0266d",
+      "represented_candidate_ids": ["cand_c8ce41791379221b6389"],
+      "title": "Stability within wider motion",
+      "claim": "The focus ship's steady running belongs to a wider picture of ordered motion: 31:10 contrasts firm establishment with harmful sway, and 31:29 places running inside reciprocal day-night movement and bounded celestial courses.",
+      "mechanism": "The focus ship and its registered ship-course specialization are carriers. Exact HFT traces at 31:10 and 31:29 supply attributed establishment, sway, interpenetrating temporal phases, directed subjection, repeated running, and an appointed limit; these independent motion patterns return through the focus vessel's ongoing course and change it from an isolated object into one bounded movement within ordered change.",
+      "reader_payoff": "The reader can see steadiness as something held within movement rather than as immobility or human command over the sea.",
+      "containment": "The contexts do not state that the ship is anchored or that marine and celestial motion are identical. The relationship is a wider analogy, and the focus still describes an actual moving vessel.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The HFT gives exact Arabic anchors, indices, and roles, but no context QAC morphology and a legacy-unbound reader identity; unresolved context branches are therefore attributed."},
+      "support_ids": ["sup_d7937d1b7aa5c6cdcb47", "sup_5c9f732f48ece6257c27"],
+      "branch_activations": [
+        {"branch_ref": "root_001177/B003", "facet_id": "F001", "branch_gloss": "gemi; gemiler topluluğu", "facet_statement": "Suda yol alan bir geminin adlandırılması anlamın nesne çekirdeğidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:4:2"], "trigger_refs": ["31:10", "31:29"], "focus_return_refs": ["31:31:5:1"], "carrier": "The focus names a ship as a moving carrier.", "independent_trigger": "31:10 and 31:29 supply wider established, swaying, cyclic, and bounded-motion scenes.", "activation": "The wider scenes contact the focus vessel as one carrier within conditions of motion and stability.", "resulting_reading": "The ship is a bounded instance of stability held inside movement.", "boundary": "No claim is made that the ship is itself anchored or celestial."},
+        {"branch_ref": "root_000240/B001", "facet_id": "F002", "branch_gloss": "bir yol boyunca akıp, koşup ya da ilerleyerek gitme", "facet_statement": "Su ve rüzgar akarak, at koşarak, güneş ile gemi ise izledikleri yol boyunca ilerleyerek çekirdeği gerçekleştirir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:5:1"], "trigger_refs": ["31:29"], "focus_return_refs": ["31:31:5:1"], "carrier": "The focus verb tajrī presents the ship's ongoing route movement.", "independent_trigger": "The exact HFT trace at 31:29 word index 17 repeats the running verb for celestial motion and places it under an appointed limit.", "activation": "The repeated running contact and term-bound celestial course meet the focus ship's movement, making its course an instance of governed motion rather than isolated transit.", "resulting_reading": "The ship runs within a wider pattern of motion that has limits and conditions.", "boundary": "The focus and celestial bodies are not identified as the same moving object."},
+        {"branch_ref": "root_000564/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:10"], "trigger_refs": ["31:31:5:1"], "focus_return_refs": ["31:31:4:2", "31:31:5:1"], "carrier": "HFT maps word index 9 of 31:10 to firm establishment.", "independent_trigger": "The focus supplies a ship moving on a course.", "activation": "Attributed firmness contacts the moving vessel as a stabilizing pole within motion.", "resulting_reading": "Motion can be held within a wider stable order.", "boundary": "No branch gloss or lexical facet is supplied for this context root."},
+        {"branch_ref": "root_001459/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:10"], "trigger_refs": ["31:31:5:1"], "focus_return_refs": ["31:31:4:2", "31:31:5:1"], "carrier": "HFT maps word index 11 of 31:10 to destructive sway or inclination.", "independent_trigger": "The focus supplies the distinct ship and its ongoing run.", "activation": "The attributed harmful sway contrasts with the focus's course movement and explains why stable motion is not the same as uncontrolled motion.", "resulting_reading": "The ship's passage can be perceived against a wider distinction between movement and destructive sway.", "boundary": "The focus is not said to sway; this contextual contrast remains attributed."},
+        {"branch_ref": "root_001682/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:29"], "trigger_refs": ["31:31:5:1"], "focus_return_refs": ["31:31:5:1"], "carrier": "HFT maps word indices 5 and 9 of 31:29 to reciprocal entry of temporal phases.", "independent_trigger": "The focus supplies a single ship moving continuously through the sea.", "activation": "The attributed day-night transition contacts the focus run as a marine instance of movement situated within cycles.", "resulting_reading": "The ship's motion sits within recurring change rather than a static setting.", "boundary": "The focus does not claim to depict day and night."},
+        {"branch_ref": "root_000685/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:29"], "trigger_refs": ["31:31:4:2", "31:31:5:1"], "focus_return_refs": ["31:31:5:1"], "carrier": "HFT maps word index 13 of 31:29 to directed subjection of moving bodies.", "independent_trigger": "The focus ship runs through the sea by a named favor.", "activation": "The attributed directed ordering contacts the focus vessel's movement and changes it from an isolated act into movement within a governed field.", "resulting_reading": "The voyage can be read as one movement held within wider order.", "boundary": "The context role remains attributed and does not identify a specific celestial subjection with the ship."},
+        {"branch_ref": "root_000016/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:29"], "trigger_refs": ["31:31:5:1"], "focus_return_refs": ["31:31:5:1"], "carrier": "HFT maps word index 19 of 31:29 to a named appointed limit.", "independent_trigger": "The focus verb tajrī carries ongoing movement along a course.", "activation": "The attributed appointed limit contacts the focus's continuing run and makes motion readable as bounded rather than premature or unending.", "resulting_reading": "Movement can continue within a stated horizon.", "boundary": "The focus supplies no specific endpoint for its ship; the wider limit is not transferred literally."}
+      ],
+      "connection_refs": [],
+      "context_refs": ["31:10", "31:29"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:active_virtue_feedback",
+      "origin_candidate_id": "cand_84f68635e67c87dfec91",
+      "represented_candidate_ids": [],
+      "title": "Endurance and gratitude as an active response",
+      "claim": "The focus's paired sabbār and shakūr can read as active operations during passage: patience holds a person through what befalls, and gratitude turns received favor toward benefit for the self.",
+      "mechanism": "The registered focus patience and ordinary gratitude branches are carriers. The exact 31:12 trace says the grateful person benefits themself; the 31:17 trace places patience among commanded action and what befalls. These independent self-benefit and affliction contacts return through the focus pair, changing the terms from two static virtues into linked responses to impact and received good.",
+      "reader_payoff": "The reader can see the closing pair as a way of staying responsive: bearing what happens and letting recognized benefit change the self.",
+      "containment": "The feedback-loop language is an inference, not a prescribed sequence; gratitude as praise and patience as restraint remain valid readings. The separate small-input repletion branch is excluded, while ordinary gratitude is preserved.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The exact contextual Arabic and HFT indices are present, but its root roles are legacy-unbound nominations without context morphology; the loop is explicitly an inference."},
+      "support_ids": ["sup_7a0f89a5904880b7f425"],
+      "branch_activations": [
+        {"branch_ref": "root_000840/B001", "facet_id": "F001", "branch_gloss": "kendini tutarak dayanma", "facet_statement": "Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:18:1"], "trigger_refs": ["31:17"], "focus_return_refs": ["31:31:18:1"], "carrier": "The focus sabbār carries self-restraint and endurance.", "independent_trigger": "HFT maps 31:17 word index 12 to what befalls a person and word index 16 to resolute action.", "activation": "The focus endurance branch meets a context of commanded action under impact, so patience is read as an active way through what happens.", "resulting_reading": "Patience sustains conduct under pressure rather than collapsing into passivity.", "boundary": "This does not limit patience to the exact 31:17 command or claim that the focus narrates its event."},
+        {"branch_ref": "root_000810/B001", "facet_id": "F001", "branch_gloss": "İyiliği tanıyıp söz ve davranışla karşılık verme", "facet_statement": "Görülen iyiliği ve bu iyiliğin kimden geldiğini bilip kabul etme anlamın temelidir.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:19:1"], "trigger_refs": ["31:12"], "focus_return_refs": ["31:31:19:1"], "carrier": "The focus shakūr carries recognition and response to received good.", "independent_trigger": "At 31:12 the HFT trace places repeated gratitude beside the explicit statement that the grateful person benefits themself.", "activation": "The self-benefit statement contacts the focus's grateful carrier and gives its response an inward return.", "resulting_reading": "Gratitude can transform the recipient as well as acknowledge the giver.", "boundary": "The focus does not define gratitude only by self-benefit; the wider contact adds a consequence."},
+        {"branch_ref": "root_000348/B003", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:12"], "trigger_refs": ["31:31:19:1"], "focus_return_refs": ["31:31:19:1"], "carrier": "HFT maps word index 4 of 31:12 to sound discerning wisdom.", "independent_trigger": "The focus ends with an intensive grateful recipient term.", "activation": "The attributed wisdom role contacts focus gratitude as a knowing response rather than an unconsidered label.", "resulting_reading": "Gratitude can be read as informed practice.", "boundary": "No independent lexicon branch or context morphology is supplied."},
+        {"branch_ref": "root_001533/B012", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:12"], "trigger_refs": ["31:31:19:1"], "focus_return_refs": ["31:31:19:1"], "carrier": "HFT maps word index 12 of 31:12 to the self as beneficiary.", "independent_trigger": "The focus supplies the separate shukr carrier.", "activation": "The attributed beneficiary contact returns through focus gratitude and makes the response inwardly consequential.", "resulting_reading": "The grateful self is changed by the act of recognition.", "boundary": "This remains an attributed contextual relation, not an independently verified lexical facet."},
+        {"branch_ref": "root_001307/B004", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:12"], "trigger_refs": ["31:31:19:1"], "focus_return_refs": ["31:31:19:1"], "carrier": "HFT maps word index 14 of 31:12 to covering or concealing benefit.", "independent_trigger": "The focus's grateful response supplies the opposed recognition contact.", "activation": "The attributed covering role contrasts with focus gratitude's acknowledgment, clarifying that response can be withheld as well as enacted.", "resulting_reading": "Gratitude carries a relation of recognition that can be refused or covered over.", "boundary": "The context branch remains attributed and does not assign disbelief to the focus recipient."},
+        {"branch_ref": "root_000889/B004", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:17"], "trigger_refs": ["31:31:18:1"], "focus_return_refs": ["31:31:18:1"], "carrier": "HFT maps word index 12 of 31:17 to an affliction landing on a person.", "independent_trigger": "The focus sabbār supplies endurance as the separate response carrier.", "activation": "The attributed impact context gives focus patience an event to absorb.", "resulting_reading": "Endurance is active in relation to what strikes or befalls.", "boundary": "The focus does not assert this particular affliction."},
+        {"branch_ref": "root_001010/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:17"], "trigger_refs": ["31:31:18:1"], "focus_return_refs": ["31:31:18:1"], "carrier": "HFT maps word index 16 of 31:17 to a heart decisively set on action.", "independent_trigger": "The focus sabbār is the separate self-restraint carrier.", "activation": "The attributed resolve role contacts patience amid action and impact, preventing the reading from becoming passivity.", "resulting_reading": "Patience can hold a course while action continues.", "boundary": "The focus does not mention the specific command or event of 31:17."}
+      ],
+      "connection_refs": [],
+      "context_refs": ["31:12", "31:17"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:layered_enablement",
+      "origin_candidate_id": "cand_65c7f9be04dbc587fdd0",
+      "represented_candidate_ids": [],
+      "title": "Visible passage, hidden support",
+      "claim": "The focus ship is a visible scene of favor whose passage depends on conditions that are not all visible; 31:20's account of subjection and outward and inward gifts makes the vessel an interface to layered support.",
+      "mechanism": "The focus showing and favor branches are carriers. Exact HFT traces at 31:20 name subjection, full measure, repeated favor, outward provision, and inward concealment; the same seeing formula and favor root return through the focus ship. This contact changes the visible vessel from a complete sign in itself into a surface through which hidden enabling conditions become perceptible.",
+      "reader_payoff": "The reader can distinguish the visible ship and motion from the less visible conditions that make passage possible.",
+      "containment": "The focus does not claim that every hidden condition is shown or enumerate the support system. The 31:20 context adds a layered reading while the ship remains a real ship and the favor a real favor.",
+      "epistemic": {"status": "qualified", "source_trust": ["legacy_unbound"], "reason": "The HFT context Arabic and trace coordinates are supplied, but the contextual roots are legacy-unbound and no target morphology is available; the hidden-support relation remains qualified."},
+      "support_ids": ["sup_0aa6234eed4661feb423"],
+      "branch_activations": [
+        {"branch_ref": "root_000531/B012", "facet_id": "F001", "branch_gloss": "gösterip görmesini sağlama", "facet_statement": "Bir şeyi başkasına gösterip onun görmesini sağlama.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:10:2"], "trigger_refs": ["31:20"], "focus_return_refs": ["31:31:10:2", "31:31:12:1"], "carrier": "The focus yuriyakum is the registered causative showing carrier.", "independent_trigger": "31:20 repeats the seeing challenge and describes outward and inward favors under divine subjection.", "activation": "The separate outward/inward provision scene contacts the focus showing act, making the ship a visible event through which more than its surface can be read.", "resulting_reading": "The focus's visible passage can disclose conditions that remain partly hidden.", "boundary": "Showing does not make every hidden condition directly observable."},
+        {"branch_ref": "root_001525/B001", "facet_id": "F002", "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik", "facet_statement": "Birine verilen bağış, yapılan iyilik veya yararın o kişiye ulaştırılması.", "application_mode": "contextual_resonance", "carrier_refs": ["31:31:8:2"], "trigger_refs": ["31:20"], "focus_return_refs": ["31:31:8:2", "31:31:10:2"], "carrier": "The focus niʿmatillāh names a benefit delivered to the voyagers.", "independent_trigger": "HFT maps 31:20 word 15 to repeated favor explicitly coordinated with outward and inward provision.", "activation": "The wider layered-gift description contacts the focus's favor phrase and changes it from a bare label into operative support beneath passage.", "resulting_reading": "Favor can be received through both visible and hidden enabling conditions.", "boundary": "The focus does not specify each condition or reduce favor to provision alone."},
+        {"branch_ref": "root_000685/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:20"], "trigger_refs": ["31:31:8:2", "31:31:10:2"], "focus_return_refs": ["31:31:8:2", "31:31:10:2"], "carrier": "HFT maps word index 5 of 31:20 to directed subjection.", "independent_trigger": "The focus names favor and a ship made to move through the sea.", "activation": "The attributed ordering role contacts the focus's enabled passage and situates movement within conditions arranged for use.", "resulting_reading": "The voyage is read within a wider order of enabling conditions.", "boundary": "No independently registered branch facet or target morphology is supplied."},
+        {"branch_ref": "root_000670/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:20"], "trigger_refs": ["31:31:8:2"], "focus_return_refs": ["31:31:8:2", "31:31:10:2"], "carrier": "HFT maps word index 13 of 31:20 to completion and full measure.", "independent_trigger": "The focus repeats the favor root in its account of ship passage.", "activation": "The attributed completeness role meets the focus favor carrier and makes the gift systemic rather than isolated.", "resulting_reading": "The passage can be read as depending on more than an occasional visible benefit.", "boundary": "The role remains attributed; the focus does not enumerate the wider system."},
+        {"branch_ref": "root_000970/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:20"], "trigger_refs": ["31:31:10:2", "31:31:12:1"], "focus_return_refs": ["31:31:10:2", "31:31:12:1"], "carrier": "HFT maps word index 16 of 31:20 to outward emergence.", "independent_trigger": "The focus's showing verb and named signs supply a separate visible disclosure relation.", "activation": "The attributed outward layer contacts the focus sign scene as its observable side.", "resulting_reading": "The ship's visible motion can present an outward face of wider provision.", "boundary": "The focus does not identify the exact outward goods described in 31:20."},
+        {"branch_ref": "root_000128/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:20"], "trigger_refs": ["31:31:10:2", "31:31:8:2"], "focus_return_refs": ["31:31:10:2", "31:31:8:2"], "carrier": "HFT maps word index 17 of 31:20 to hidden interiority.", "independent_trigger": "The focus's visible showing and favor phrase are distinct carriers of passage.", "activation": "The attributed inward layer contacts the visible ship scene and marks its normally concealed enabling side.", "resulting_reading": "What enables travel may exceed what the traveling eye directly sees.", "boundary": "The context mapping is attributed and does not claim that the focus reveals every hidden cause."}
+      ],
+      "connection_refs": ["conn_11254685902c8a96c95f"],
+      "context_refs": ["31:20"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:remembered_bearing",
+      "origin_candidate_id": "cand_6aa62693956647f8226e",
+      "represented_candidate_ids": [],
+      "title": "Gratitude remembers the carrier",
+      "claim": "The focus ship and its closing gratitude can carry a bounded analogy of dependent bearing: 31:14 describes a child carried through layered weakness and commands gratitude toward the carriers, making safe passage newly legible as something received from another.",
+      "mechanism": "The focus ship and gratitude branches are carriers. The exact 31:14 trace supplies bearing, repeated weakness, and an explicit gratitude command; these independent relations contact the ship's protected transit and the focus's shukr, changing gratitude from a response only to arrival into remembrance of the support beneath passage.",
+      "reader_payoff": "The reader notices the cost and dependence concealed beneath safe travel, and why gratitude can remember a carrier as well as a destination.",
+      "containment": "This is the bounded analogy stated by the HFT support: the focus does not call the ship a mother. The familiar vessel and gratitude readings remain intact; no identity between maternal bearing and sea travel is claimed.",
+      "epistemic": {"status": "exploratory", "source_trust": ["legacy_unbound"], "reason": "The exact HFT Arabic, coordinates, focus return, and containment are supplied, but context morphology and independent records for its two carrying/weakness branches are absent; the cross-domain inference remains exploratory."},
+      "support_ids": ["sup_5290356885595bfa743f"],
+      "branch_activations": [
+        {"branch_ref": "root_001177/B003", "facet_id": "F001", "branch_gloss": "gemi; gemiler topluluğu", "facet_statement": "Suda yol alan bir geminin adlandırılması anlamın nesne çekirdeğidir.", "application_mode": "attributed", "carrier_refs": ["31:31:4:2"], "trigger_refs": ["31:14"], "focus_return_refs": ["31:31:4:2", "31:31:19:1"], "carrier": "The focus fulk is a vessel that carries passage through the sea.", "independent_trigger": "The HFT trace at 31:14 word 4 names bearing, followed by layered weakness and an explicit gratitude command.", "activation": "The separate bearing relation contacts the focus's ship carrier, making dependence beneath travel newly visible without equating the two carriers.", "resulting_reading": "The ship may evoke a received carrying that its passengers could not provide for themselves.", "boundary": "The focus ship is not identified as a mother or as the child of 31:14."},
+        {"branch_ref": "root_000810/B001", "facet_id": "F001", "branch_gloss": "İyiliği tanıyıp söz ve davranışla karşılık verme", "facet_statement": "Görülen iyiliği ve bu iyiliğin kimden geldiğini bilip kabul etme anlamın temelidir.", "application_mode": "attributed", "carrier_refs": ["31:31:19:1"], "trigger_refs": ["31:14"], "focus_return_refs": ["31:31:19:1"], "carrier": "The focus shukr carrier closes the ship scene; HFT places the explicit ushkur command at word index 13 of 31:14 after bearing and weakness.", "independent_trigger": "The exact 31:14 context connects carrying cost with a command to express gratitude to God and parents.", "activation": "The explicit response to carried dependence contacts the focus's grateful recipient term, making gratitude remembrance of support as well as arrival.", "resulting_reading": "The focus gratitude can recognize what carried the traveler through a passage.", "boundary": "This analogy does not make gratitude exclusively familial or maternal."},
+        {"branch_ref": "root_000357/B002", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:14"], "trigger_refs": ["31:31:4:2", "31:31:19:1"], "focus_return_refs": ["31:31:4:2", "31:31:19:1"], "carrier": "HFT maps word index 4 of 31:14 to interior bearing.", "independent_trigger": "The focus has a ship carrier and a separate gratitude close.", "activation": "Attributed interior bearing contacts the focus vessel as a cross-domain image of protected conveyance.", "resulting_reading": "The ship may be read through the dependence of being carried by another.", "boundary": "No independent branch gloss or target morphology is supplied; the analogy stops at dependence and carrying."},
+        {"branch_ref": "root_001687/B001", "facet_id": null, "branch_gloss": null, "facet_statement": null, "application_mode": "attributed", "carrier_refs": ["31:14"], "trigger_refs": ["31:31:4:2", "31:31:19:1"], "focus_return_refs": ["31:31:4:2", "31:31:19:1"], "carrier": "HFT maps word indices 6 and 8 of 31:14 to layered weakness borne by the carrier.", "independent_trigger": "The focus ship conveys travelers through a medium they do not cross unaided and closes with gratitude.", "activation": "The attributed cost of bearing contacts the focus ship-and-gratitude relation, making dependence and remembered carrying newly legible.", "resulting_reading": "Safe passage can carry an unspoken cost borne by what carries the traveler.", "boundary": "The focus does not name passenger weakness or a maternal identity; this remains an analogy about dependence."}
+      ],
+      "connection_refs": [],
+      "context_refs": ["31:14"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The inline packet exposes commentary_obligation flags but no semantic_obligations array or named obligation references. Accordingly, semantic_obligation_refs and semantic_obligation_exclusions are empty; every supplied HFT trace role and changed-reading claim was reviewed directly in the finding or decision.",
+    "HFT context anchors provide exact Arabic and source word indices but no context QAC morphology. Context-root carriers are therefore kept at their supplied ayah ref and word index in the activation description, with unresolved branch records retained only as attributed evidence.",
+    "Retrospective supports name 31:27, 31:32, and 31:34 without exact Arabic or structured activation traces. These ayat fall within the declared 31:22–34 pericope, so they cannot serve as global triggers in this packet and are excluded or rejected explicitly."
+  ]
+}

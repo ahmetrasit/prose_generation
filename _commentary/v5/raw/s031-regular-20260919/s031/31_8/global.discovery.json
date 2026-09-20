@@ -1,0 +1,2381 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "31:8",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_50d2f901307b60fd7c7f",
+      "decision": "reject",
+      "reason": "The trusted publication supplies a focus-internal trust, action, and soundness relation, but no independent wider trigger. It may describe a local reading; it does not meet this lane's global activation boundary.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000054/B001",
+          "reason": "The focus trust branch has no independent wider trigger in this candidate's evidence."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "reason": "The assent branch is nominated only by focus-internal wording; no wider trigger returns through it."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "reason": "The soundness/repair branch is tied to focus wording alone in this candidate."
+        },
+        {
+          "branch_ref": "root_000876/B002",
+          "reason": "The reconciliation branch has no supplied wider relation that activates it here."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "reason": "The intentional-action branch is carried by the focus phrase, with no independent global trigger in the candidate."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_488f35eba08af86a63bc",
+      "decision": "reject",
+      "reason": "The publication joins garden-cover, plant-growth, and bliss branches in the focus itself. Its support provides no independent wider trigger, so the ecology/shelter reading belongs outside this global lane.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000266/B001",
+          "reason": "Focus concealment is not independently activated by a wider context in this candidate."
+        },
+        {
+          "branch_ref": "root_000266/B003",
+          "reason": "The focus garden branch is supplied, but no wider tree/growth trigger is attached to this publication."
+        },
+        {
+          "branch_ref": "root_000266/B011",
+          "reason": "The focus growth branch has no independent wider trigger in the candidate."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "reason": "The focus beneficence branch is not returned to by a wider trigger here."
+        },
+        {
+          "branch_ref": "root_001525/B002",
+          "reason": "The softness/ease branch is focus-only in this candidate."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cf9cfe2aefdc58220907",
+      "decision": "reject",
+      "reason": "This reader-walk activation uses 31:4 and 31:6–7, which are inside the declared 31:1–11 pericope. It offers no wider global trigger.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000054/B001",
+          "reason": "Trust is paired with focus-internal action; the cited pericope context does not meet the global boundary."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "reason": "The repair/soundness branch is activated only by the pericope-local contrast."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "reason": "The intentional-work branch has no global trigger in this candidate."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "31:4",
+          "reason": "The practical-action context is inside the declared pericope and is not a global trigger."
+        },
+        {
+          "context_ref": "31:6",
+          "reason": "The speech contrast is inside the declared pericope and is not a global trigger."
+        },
+        {
+          "context_ref": "31:7",
+          "reason": "The hearing contrast is inside the declared pericope and is not a global trigger."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fa6af717da4ed40ecb20",
+      "decision": "reject",
+      "reason": "The candidate's garden-growth support is pericope-local and does not identify an independent wider trigger that returns to the focus. The supported material is therefore macro/local rather than global.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000266/B003",
+          "reason": "The garden ecology is tied to a later rain-growth scene without a supplied global trigger in this candidate."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "reason": "The bliss/benefit branch is not returned to by a wider context in this candidate."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a756046ad0d485861d0e",
+      "decision": "narrow",
+      "reason": "Retain the wider rescue-to-fidelity relation from 31:32: the focus trust word meets devotion under danger and conduct after rescue. Exclude the separate 31:10 rain-growth image, which is pericope-local and does not support this retained global relation.",
+      "finding_refs": [
+        "global:rescue-fidelity"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "31:10",
+          "reason": "The rain-growth image is pericope-local and is not part of the retained rescue-to-fidelity relation."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4b7dbfbfb75bac38b3b6",
+      "decision": "reject",
+      "reason": "The wide reader walk's assent reading is tied to 31:4 and 31:6–7 within the declared pericope. No independent wider trigger activates it globally.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000054/B002",
+          "reason": "The truth-acceptance branch is focus-internal and the cited contexts remain pericope-local."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "31:4",
+          "reason": "The action context is inside the declared pericope."
+        },
+        {
+          "context_ref": "31:6",
+          "reason": "The speech context is inside the declared pericope."
+        },
+        {
+          "context_ref": "31:7",
+          "reason": "The hearing context is inside the declared pericope."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_63d29ef96a14da0d3f92",
+      "decision": "accept",
+      "reason": "The wider reader-walk support names 31:10's rain-fed growth and 31:12's gratitude-to-self relation. Both context refs land in the finding: growth meets the garden carrier, and gratitude's self-benefit meets the focus bliss/benefit term.",
+      "finding_refs": [
+        "global:grateful-ecology"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_34971e4388c678a69ba2",
+      "decision": "represented",
+      "reason": "Its retrospective wording is an exact duplicate of the ecology-and-grateful-benefit relation in global:grateful-ecology. Both named context refs, 31:10 and 31:12, land there; no candidate branch, context, or obligation is excluded.",
+      "finding_refs": [
+        "global:grateful-ecology"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5bb340e9f2a45341d9fb",
+      "decision": "reject",
+      "reason": "This unanchored remaining-uncertainty summary is a qualification about an inferred causal arrow, not a separate carrier-trigger activation. Its caution is preserved in the containment of the supported growth finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_76b171a0a4420bbda044",
+      "decision": "reject",
+      "reason": "This unanchored summary describes limits on a remuneration model but supplies no focus or context occurrence. The anchored self-benefit and non-transfer readings are assessed separately.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_83369213309154ff3edc",
+      "decision": "reject",
+      "reason": "This unanchored summary aggregates assent, gestational, and inscription echoes and supplies no independent carrier or trigger. The structured outlier records are assessed separately.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b421f4076cfffce2d8bd",
+      "decision": "reject",
+      "reason": "This unanchored strongest-change summary supplies no focus/context coordinate and does not nominate one independently testable reading. Its faith/action wording is reviewed through the anchored candidates.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c8bed4c9f6b792bd74fe",
+      "decision": "reject",
+      "reason": "This unanchored summary combines cultivation, seed-growth, relational, and bodily readings with different mechanisms. It is not one separately activatable finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c850e9b513df2178b42a",
+      "decision": "reject",
+      "reason": "This unanchored summary combines durable bliss, visible/hidden beneficence, and protective cover. Each structured context delta is reviewed on its own evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_622f9a9c381514a1265a",
+      "decision": "reject",
+      "reason": "This unanchored summary combines self-benefit with non-transfer and unknown timing. The two anchored context relations remain separate findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e0ad1827c10add5d5536",
+      "decision": "reject",
+      "reason": "This unanchored 'what was special' item aggregates several mechanisms and explicitly groups distinct outliers. It supplies no single carrier-trigger relation of its own.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_efbcfa8a178024cd5300",
+      "decision": "accept",
+      "reason": "The focus ease/bliss branch is independently contrasted by the supplied 31:9 permanence-and-promise scene and 31:24 brief-enjoyment-to-hardship scene. Every nominated branch is traced, with the HFT context mappings kept attributed.",
+      "finding_refs": [
+        "global:durable-bliss"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d22e2ac22cb8fbc4ab1f",
+      "decision": "accept",
+      "reason": "The focus action, soundness, concealment, and garden-growth carriers meet the supplied growth scene and the grain hidden in rock and brought forth in 31:16. Each HFT trace has a supplied ayah, word index, attributed root/role, and return to the focus.",
+      "finding_refs": [
+        "global:hidden-seed-emergence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c2edcda6d57d83ffa040",
+      "decision": "narrow",
+      "reason": "Retain the focus beneficence branch and the 31:12 gratitude/self/sufficiency relation. Exclude the wage branch because the actual focus carrier is the finite verb عَمِلُوا۟, while the supplied branch denotes a noun-like work wage; the focus's 'for them' reward relation remains available without that lexical claim.",
+      "finding_refs": [
+        "global:reflexive-return"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001046/B004",
+          "reason": "The supplied gloss is 'work wage'; focus عَمِلُوا۟ is a finite Form I doing/work verb, with no wage/pay noun or wage collocation. The form is incompatible with carrying this branch lexically."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_935868f66154d030962b",
+      "decision": "narrow",
+      "reason": "Retain the action, reconciliation, pressure, withheld obedience, continued companionship, recognized-good, and following traces. Exclude the person-directed suitability branch: the focus has the plural active-participle phrase الصالحات, not the required 'this suits you' collocation or a person-directed complement.",
+      "finding_refs": [
+        "global:relational-fitness"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000876/B003",
+          "reason": "The branch is restricted to a thing fitting a named person in a supplied collocation; the focus's الصالحات has no such person-directed frame."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a78c411b2adad1d68014",
+      "decision": "narrow",
+      "reason": "Retain the softness/ease carrier with the supplied face, gait, and voice conduct. Exclude two focus branches whose forms do not fit the actual carriers: the person-directed suitability collocation and the body-part noun branch applied to the finite verb عَمِلُوا۟.",
+      "finding_refs": [
+        "global:embodied-tuning"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000876/B003",
+          "reason": "The 'fits you' branch requires a person-directed collocation that is absent from the focus form الصالحات."
+        },
+        {
+          "branch_ref": "root_001046/B010",
+          "reason": "This branch names a working body part in a fixed nominal use; the focus carrier عَمِلُوا۟ is a finite verb, not a body-part noun."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_00e889fb26f2586cdc62",
+      "decision": "accept",
+      "reason": "The supplied 31:20 context explicitly divides bestowed favors into outward and inward forms and returns through the focus garden/bliss carriers. HFT root/word mappings remain attributed because context morphology is not supplied.",
+      "finding_refs": [
+        "global:visible-hidden-beneficence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_895ee09ca4f1f6948ffa",
+      "decision": "accept",
+      "reason": "The supplied 31:32 scene places a wave canopy, rescue, and land beside the focus garden's cover/protection branches. The shared-cover mechanism is retained as an attributed host-surah resonance with its independent-scene alternative visible.",
+      "finding_refs": [
+        "global:counter-cover-shelter"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bb0650129db547683138",
+      "decision": "narrow",
+      "reason": "Retain the focus's work-to-benefit relation as personal and unscheduled under 31:33–34. Exclude the wage branch because عَمِلُوا۟ is a finite verb rather than a wage/pay noun; the surrounding context still limits transfer and prediction without lexicalizing a wage.",
+      "finding_refs": [
+        "global:personal-return"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001046/B004",
+          "reason": "The actual focus carrier is the finite verb عَمِلُوا۟; the branch gloss 'work wage' is incompatible as a lexical reading without a wage noun or collocation."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_12b811d481798c2c8f17",
+      "decision": "accept",
+      "reason": "The focus garden/fetus branch and intentional-act carrier meet supplied womb, pregnancy, weaning, grain, and final-womb contexts. The reading remains an exploratory analogy, with the garden sense intact.",
+      "finding_refs": [
+        "global:gestational-enclosure"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_01d21e7808263e3bbeeb",
+      "decision": "accept",
+      "reason": "The focus tree-covered garden and vigorous-growth branches meet the exact 31:27 trees-as-pens, replenished-sea, and unexhausted-words scene. Each context root/word alignment remains attributed, and the image is bounded as an analogy.",
+      "finding_refs": [
+        "global:tree-pens"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:rescue-fidelity",
+      "origin_candidate_id": "cand_a756046ad0d485861d0e",
+      "represented_candidate_ids": [],
+      "title": "Fidelity after rescue",
+      "claim": "The focus's promised good for those who believe and do sound deeds can also be heard against the rescue scene as a relation that continues after danger passes: devotion under engulfing waves is followed by a measured response on land, so faith appears as fidelity across crisis and safety.",
+      "mechanism": "The focus verb ءَامَنُوا۟ carries the supplied trust/reliability facet; 31:32 independently places sincere devotion before rescue and a measured post-rescue response beside the opposite possibility of treacherous ingratitude. That contrast returns through the focus faith word and changes it from bare assent into an ongoing relation.",
+      "reader_payoff": "The reader can see how the focus's believing doers remain connected to fidelity after immediate danger has passed.",
+      "containment": "This is a bounded contextual echo. The exact connection note says the rescue scene does not develop the reward formula; the finding therefore does not make 31:32 a new condition for the gardens or claim that it defines the focus.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The focus branch record supplies an exact facet, but the retrospective reading is legacy_unbound and the connection supplies target Arabic without morphology; the relation is therefore qualified."
+      },
+      "support_ids": [
+        "sup_618a9e6b5dc673d66a4d"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": "F003",
+          "branch_gloss": "guven ve guvenilirlik",
+          "facet_statement": "Guvenilirlik, ihanete karsi sadakat, emanet edilen sey ve kendisine guvenilen kisi anlamlarini dogurur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:3:1"
+          ],
+          "trigger_refs": [
+            "31:32"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1"
+          ],
+          "carrier": "The focus Form IV verb ءَامَنُوا۟, read through the supplied trust/reliability facet.",
+          "independent_trigger": "31:32 supplies sincere devotion in danger, rescue to land, measured conduct afterward, and treacherous ingratitude as its contrasting boundary.",
+          "activation": "The crisis-to-safety sequence meets the focus's trust carrier as a relation tested across changed conditions.",
+          "resulting_reading": "The focus faith term can also be heard as fidelity that persists after rescue.",
+          "boundary": "The garden promise remains the focus's ordinary outcome; the rescue scene is not a new reward formula."
+        }
+      ],
+      "connection_refs": [
+        "conn_a3f2218c2a16a5e9c33f"
+      ],
+      "context_refs": [
+        "31:32"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:grateful-ecology",
+      "origin_candidate_id": "cand_63d29ef96a14da0d3f92",
+      "represented_candidate_ids": [
+        "cand_34971e4388c678a69ba2"
+      ],
+      "title": "Flourishing and grateful benefit",
+      "claim": "The promised gardens can be read as an ecology of soundness: the tree-covered garden meets the later rain-fed growth scene, while the bliss/benefit term meets the statement that gratitude benefits the grateful person, so flourishing appears as a good that reaches and returns to its receiver.",
+      "mechanism": "The focus garden and sound-deed carriers meet 31:10's rain-to-growth sequence as a material image of flourishing; 31:12 then connects gratitude with benefit to the self. Together they make the promised good perceptible as a lived, received condition rather than an arbitrary label.",
+      "reader_payoff": "A reader can picture the promised gardens as a flourishing habitat and see the focus's benefit relation echoed in gratitude's return to the grateful person.",
+      "containment": "The garden-growth relation is an analogy, and 31:12 describes gratitude and self-benefit rather than defining نعيم. The focus still promises gardens of bliss; neither context supplies a biological or causal doctrine of reward.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The wide reader-walk and retrospective sources are legacy_unbound; 31:10 has exact Arabic with attributed HFT word/root mapping, and the 31:12 connection has exact Arabic but no target morphology. The synthesis remains an inference."
+      },
+      "support_ids": [
+        "sup_47228d3bc5d56fd152ad",
+        "sup_9ba2a90b8f3bb0f3f6e6",
+        "sup_cf8d63ff5e4c66663da2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000266/B003",
+          "facet_id": "F001",
+          "branch_gloss": "zemini ağaçlarla örtülü bahçe",
+          "facet_statement": "Ağaçlı bahçenin zemini ağaçların oluşturduğu örtü altında kalır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:10"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus noun جَنَّٰتُ as a tree-covered garden.",
+          "independent_trigger": "31:10 supplies the rain-fed sprouting and varied growth scene; its exact Arabic is supplied and the HFT word/root alignment is attributed.",
+          "activation": "The material garden image meets the independent later growth scene and becomes an ecology of flourishing.",
+          "resulting_reading": "The promised garden is newly perceptible as a flourishing habitat.",
+          "boundary": "This is an ecological analogy; the garden noun retains its ordinary promised-destination sense."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi ve düzgün olma; düzeltme",
+          "facet_statement": "Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:5:2"
+          ],
+          "trigger_refs": [
+            "31:10"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "The focus adjective الصَّٰلِحَٰتِ as deeds characterized by soundness and good order.",
+          "independent_trigger": "31:10's visible growth supplies a distinct flourishing image, while the focus form supplies the sound/good carrier.",
+          "activation": "The soundness of the deeds and the growth of a garden meet as parallel forms of flourishing.",
+          "resulting_reading": "The focus's sound deeds and promised garden can be seen in one flourishing relation.",
+          "boundary": "The context does not prove that deeds literally cause rain or plant growth; the comparison stays analogical."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "F002",
+          "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik",
+          "facet_statement": "Birine verilen bağış, yapılan iyilik veya yararın o kişiye ulaştırılması.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:8:2"
+          ],
+          "trigger_refs": [
+            "31:12"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The focus noun ٱلنَّعِيمِ as a favorable condition and benefit reaching its recipients.",
+          "independent_trigger": "31:12 says that whoever gives thanks benefits their own self and that God is self-sufficient.",
+          "activation": "Gratitude's self-directed benefit meets the focus's bliss/benefit carrier, making the recipient-side return explicit.",
+          "resulting_reading": "The promised good appears as benefit received by the doers, with gratitude itself also benefiting its doer.",
+          "boundary": "This does not make gratitude a new lexical gloss of نعيم or alter the focus's stated condition."
+        }
+      ],
+      "connection_refs": [
+        "conn_75f2ca5ef20e554eb36e"
+      ],
+      "context_refs": [
+        "31:10",
+        "31:12"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:durable-bliss",
+      "origin_candidate_id": "cand_efbcfa8a178024cd5300",
+      "represented_candidate_ids": [],
+      "title": "Enduring good beside brief enjoyment",
+      "claim": "The focus's bliss can carry lasting ease: 31:9 pairs the garden promise with permanence and a true promise, while 31:24 sets brief enjoyment beside compulsion and rough punishment, so the good condition is durable rather than merely intensified pleasure.",
+      "mechanism": "The focus ease branch meets permanence, promise, and truth in 31:9, then meets the contrasting short enjoyment and harsh reversal in 31:24. The contact changes bliss from a maximum of sensation into settled, reality-grounded good while leaving immediate delight available.",
+      "reader_payoff": "The reader can feel the difference between a lasting good condition and a brief enjoyment whose scene turns toward hardship.",
+      "containment": "The focus still promises gardens of bliss, and brief pleasure remains pleasure. The 31:24 connection is described as limited in explanatory value; the HFT contrast supports only this qualified temporal/tactile echo.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The candidate is legacy_unbound and its HFT context roots/word indices are attributed; the focus branch is independently registered, while 31:9 and 31:24 Arabic is supplied."
+      },
+      "support_ids": [
+        "sup_c76e8534bb18e3479dfc"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001525/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yumuşamak, rahat yaşamak veya rahat yaşatmak",
+          "facet_statement": "Bir kişinin rahatlık, bolluk ve incelik içinde yaşaması.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:8:2"
+          ],
+          "trigger_refs": [
+            "31:9",
+            "31:24"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The focus noun ٱلنَّعِيمِ through the comfort/lived-ease facet.",
+          "independent_trigger": "31:9 supplies permanence and a true promise; 31:24 supplies brief enjoyment followed by compulsion and harsh treatment.",
+          "activation": "The temporal and tactile contrasts meet the focus's ease carrier and distinguish enduring good from brief consumption.",
+          "resulting_reading": "Bliss remains ease and delight while also reading as a lasting good condition.",
+          "boundary": "Neither context removes pleasure from the focus term or proves that it has only one sense."
+        },
+        {
+          "branch_ref": "root_000429/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "enduring permanence",
+          "facet_statement": "enduring permanence",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:9"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The 31:9 permanence image at the HFT-attributed context word index 1.",
+          "independent_trigger": "The focus bliss term and garden promise.",
+          "activation": "Enduring permanence meets the focus's ease/bliss carrier and gives it a temporal horizon.",
+          "resulting_reading": "The focus good is heard as lasting rather than quickly exhausted.",
+          "boundary": "The context root and word index are attributed; no independent target morphology is supplied."
+        },
+        {
+          "branch_ref": "root_001662/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:9"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The 31:9 spoken promise at the HFT-attributed context word index 3.",
+          "independent_trigger": "The focus garden/bliss promise.",
+          "activation": "The promise in context secures the focus outcome beyond present sensation.",
+          "resulting_reading": "The promised good is heard as reliable and lasting.",
+          "boundary": "The context root branch is unresolved in the independent lexicon; its HFT gloss is not promoted."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:9"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The 31:9 truth/reality term at the HFT-attributed context word index 5.",
+          "independent_trigger": "The focus's garden and bliss promise.",
+          "activation": "Truth/reality contact bounds the outcome against illusion.",
+          "resulting_reading": "The good condition is heard as reality-grounded.",
+          "boundary": "The context root branch remains attributed, without an invented lexicon gloss."
+        },
+        {
+          "branch_ref": "root_001395/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:24"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The short enjoyment term in 31:24 at HFT-attributed word index 1.",
+          "independent_trigger": "The focus bliss/ease term.",
+          "activation": "The context enjoyment is placed beside the focus's ease and then temporally limited.",
+          "resulting_reading": "The focus can carry lasting ease alongside an available near-rival of brief enjoyment.",
+          "boundary": "The context branch mapping is attributed and does not make the two terms lexical synonyms."
+        },
+        {
+          "branch_ref": "root_001251/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:24"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The scarcity/shortness term in 31:24 at HFT-attributed word index 2.",
+          "independent_trigger": "The focus bliss term.",
+          "activation": "The short duration supplies an independent temporal boundary for the context's enjoyment.",
+          "resulting_reading": "The contrast makes permanence in the focus promise newly perceptible.",
+          "boundary": "The context branch is attributed; no lexicon gloss is inferred."
+        },
+        {
+          "branch_ref": "root_000907/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:24"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The 31:24 compulsion/reversal term at HFT-attributed word index 4.",
+          "independent_trigger": "The focus's good condition.",
+          "activation": "Compulsion marks the turn from brief enjoyment toward a constrained outcome.",
+          "resulting_reading": "The focus good remains distinct from the short enjoyment that turns toward hardship.",
+          "boundary": "This is an attributed contextual contrast, not a lexical gloss of bliss."
+        },
+        {
+          "branch_ref": "root_001099/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:24"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The harsh-treatment term in 31:24 at HFT-attributed word index 7.",
+          "independent_trigger": "The focus ease/bliss carrier.",
+          "activation": "Rough severity supplies the tactile opposite that makes ease newly legible.",
+          "resulting_reading": "The focus ease reads as settled good beside a harsh reversal.",
+          "boundary": "The context root/word mapping remains attributed."
+        }
+      ],
+      "connection_refs": [
+        "conn_2cc7f0f01d7d9a5a30b7"
+      ],
+      "context_refs": [
+        "31:9",
+        "31:24"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:hidden-seed-emergence",
+      "origin_candidate_id": "cand_d22e2ac22cb8fbc4ab1f",
+      "represented_candidate_ids": [],
+      "title": "Hidden acts brought to growth",
+      "claim": "The focus's purposeful sound deeds and gardens can also be seen through a seed's hidden growth: 31:10 gives growth a visible form, and 31:16 places a tiny grain in rock, sky, or earth before saying that God brings it forth.",
+      "mechanism": "The action and soundness words carry deliberate, good work; the garden carries concealment and mature vegetation. Rain-fed growth, the minute grain, its hard enclosure, and its being brought forth meet those focus carriers and make the garden a picture of latent good reaching visible maturity.",
+      "reader_payoff": "The reader can see a process inside the promised garden image: something small and hidden can remain held within an enclosure and still be brought into view.",
+      "containment": "This is a contained ecological analogy. The garden remains the promised outcome, while the causal arrow from human deeds to plant growth is an inference rather than a statement that the context supplies.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT source is legacy_unbound; its 31:10 and 31:16 Arabic anchors are supplied, while their word/root coordinates are attributed. The focus branches and facets are exact."
+      },
+      "support_ids": [
+        "sup_cf8d63ff5e4c66663da2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:4:2"
+          ],
+          "trigger_refs": [
+            "31:10",
+            "31:16"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2"
+          ],
+          "carrier": "The focus verb عَمِلُوا۟ as deliberate action.",
+          "independent_trigger": "The growth and hidden-grain scenes supply independent processes that begin small and become manifest.",
+          "activation": "Purposeful action meets the context's latent-to-visible movement.",
+          "resulting_reading": "The focus's good work can be heard as action with an unfolding result.",
+          "boundary": "The context does not state a literal causal law between deeds and vegetation."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi ve düzgün olma; düzeltme",
+          "facet_statement": "Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:5:2"
+          ],
+          "trigger_refs": [
+            "31:10",
+            "31:16"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "The focus adjective الصَّٰلِحَٰتِ as sound, beneficial deeds.",
+          "independent_trigger": "A tiny grain is brought through a hard enclosure and growth becomes visible in 31:10.",
+          "activation": "Soundness meets latent growth as a parallel form of potential becoming manifest.",
+          "resulting_reading": "The focus's good deeds and the garden's growth can be perceived through a shared maturation image.",
+          "boundary": "The context does not prove that ṣāliḥāt lexically means seed or growth."
+        },
+        {
+          "branch_ref": "root_000266/B001",
+          "facet_id": "F001",
+          "branch_gloss": "örtme ve duyulardan gizleme",
+          "facet_statement": "Bir şey örtülerek ya da gizlenerek duyuların erişiminden çıkarılır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:16"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus garden word through its concealment facet.",
+          "independent_trigger": "31:16 encloses a minute grain in rock, the heavens, or the earth before it is brought forth.",
+          "activation": "The hidden grain image meets the focus's concealment carrier.",
+          "resulting_reading": "The garden can evoke a hidden phase that precedes visible growth.",
+          "boundary": "This adds a contained image to the garden; it does not replace its ordinary destination sense."
+        },
+        {
+          "branch_ref": "root_000266/B011",
+          "facet_id": "F001",
+          "branch_gloss": "bitkinin güçlenip boylanması ve sıklaşması",
+          "facet_statement": "Bitki güçlenir, boy atar, sıklaşıp dolaşır veya çiçek açarak gelişimini belirginleştirir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:10",
+            "31:16"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus garden through the supplied plant-growth branch.",
+          "independent_trigger": "31:10 names rain-fed sprouting and varied growth; 31:16 names a grain that remains capable of being brought forth.",
+          "activation": "The growth trigger turns the focus garden into the visible mature form of a hidden potential.",
+          "resulting_reading": "The garden can be perceived as growth brought to visibility.",
+          "boundary": "The focus still names gardens; the growth image is an attributed resonance."
+        },
+        {
+          "branch_ref": "root_001465/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:10"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The 31:10 growth occurrence at the HFT-attributed context word index 22.",
+          "independent_trigger": "The focus's garden and plant-growth carriers.",
+          "activation": "The growth occurrence meets the garden's vegetation image and returns it as a material process.",
+          "resulting_reading": "The promised garden also evokes mature plant growth.",
+          "boundary": "The root/word mapping is attributed; the context Arabic is supplied."
+        },
+        {
+          "branch_ref": "root_000286/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:16"
+          ],
+          "trigger_refs": [
+            "31:8:7:1",
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1",
+            "31:8:5:2"
+          ],
+          "carrier": "The sprouting-grain occurrence at HFT-attributed context word index 6.",
+          "independent_trigger": "The focus garden and sound-deed carriers.",
+          "activation": "The minute grain links hidden potential to garden growth and purposeful sound action.",
+          "resulting_reading": "The focus outcome can be seen as a growth image for a small act.",
+          "boundary": "This is an attributed contextual role, not an independent lexicon gloss."
+        },
+        {
+          "branch_ref": "root_000401/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:16"
+          ],
+          "trigger_refs": [
+            "31:8:7:1",
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1",
+            "31:8:5:2"
+          ],
+          "carrier": "The mustard-grain occurrence at HFT-attributed context word index 8.",
+          "independent_trigger": "The focus garden and sound-deed carriers.",
+          "activation": "Its minuteness intensifies the contrast between hidden scale and eventual visible outcome.",
+          "resulting_reading": "A very small act can still be pictured within the focus's mature garden image.",
+          "boundary": "The branch/root mapping is attributed and remains a contained metaphor."
+        },
+        {
+          "branch_ref": "root_000847/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:16"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The hard-rock enclosure at HFT-attributed context word index 11.",
+          "independent_trigger": "The focus garden's concealment carrier.",
+          "activation": "Hard enclosure supplies resistance against which being brought forth becomes perceptible.",
+          "resulting_reading": "The garden image can hold growth that was hidden even in an apparently sealed place.",
+          "boundary": "The source role is attributed; this does not imply that the garden itself is rock."
+        },
+        {
+          "branch_ref": "root_000009/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:16"
+          ],
+          "trigger_refs": [
+            "31:8:4:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The bringing occurrence at HFT-attributed context word index 18.",
+          "independent_trigger": "The focus act and garden carriers.",
+          "activation": "The context's bringing action meets the focus's purposeful work and garden outcome.",
+          "resulting_reading": "The focus reward can be heard beside a movement from hiddenness to emergence.",
+          "boundary": "The context root/word mapping is attributed; no extra causal claim is made."
+        },
+        {
+          "branch_ref": "root_001356/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:16"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The subtle/hidden occurrence at HFT-attributed context word index 23.",
+          "independent_trigger": "The focus garden's concealment carrier.",
+          "activation": "The context's subtle access to the hidden grain keeps enclosure from making it unreachable.",
+          "resulting_reading": "The garden image can include hidden good that remains accessible to bringing forth.",
+          "boundary": "This is an attributed analogy, not a lexical definition of the garden."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "31:10",
+        "31:16"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:reflexive-return",
+      "origin_candidate_id": "cand_c2edcda6d57d83ffa040",
+      "represented_candidate_ids": [],
+      "title": "Benefit returning to its recipient",
+      "claim": "The focus's gardens remain a good outcome for the doers, while 31:12 makes the benefit relation reflexive: the grateful person benefits their own self, and God is described as free of need.",
+      "mechanism": "The focus phrase لَهُمْ جَنَّٰتُ ٱلنَّعِيمِ gives the good condition to its recipients. The gratitude/self and divine-sufficiency clauses in 31:12 meet that recipient relation and change it from a giver-serving exchange into benefit received by the person.",
+      "reader_payoff": "The reader can see the focus's 'for them' as recipient-directed good that does not answer a need in the giver.",
+      "containment": "The ordinary reward relation remains. The wage branch is excluded because the focus has a doing verb rather than a wage noun; the self-benefit is a contextual inference, not a definition of the focus phrase.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT support is legacy_unbound and its context roots/word indices are attributed; the exact focus branch is registered and 31:12 Arabic is supplied without target morphology."
+      },
+      "support_ids": [
+        "sup_ce3755057d30ede807bf"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "F002",
+          "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik",
+          "facet_statement": "Birine verilen bağış, yapılan iyilik veya yararın o kişiye ulaştırılması.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:8:2"
+          ],
+          "trigger_refs": [
+            "31:12"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:8:2"
+          ],
+          "carrier": "The focus bliss/benefit noun, with the gardens predicated as being for the group.",
+          "independent_trigger": "31:12 says a grateful person benefits their own self and that God is self-sufficient.",
+          "activation": "Self-benefit meets the recipient-directed focus outcome; the benefit accrues to the receiver.",
+          "resulting_reading": "The good remains for the doers and is newly heard as recipient-benefit rather than a benefit needed by the giver.",
+          "boundary": "No wage is lexically asserted; this is a bounded relation between outcome and recipient."
+        },
+        {
+          "branch_ref": "root_000810/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:12"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:8:2"
+          ],
+          "carrier": "The gratitude occurrences at HFT-attributed context word indices 6, 9, and 11.",
+          "independent_trigger": "The focus's 'for them' recipient relation and bliss outcome.",
+          "activation": "The context directs gratitude toward God while locating its benefit in the grateful person.",
+          "resulting_reading": "The focus outcome can be read as a good received by its recipients.",
+          "boundary": "The root and word mapping are attributed; the Arabic surface is supplied."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:12"
+          ],
+          "trigger_refs": [
+            "31:8:6:2"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:8:2"
+          ],
+          "carrier": "The self occurrence at HFT-attributed context word index 12.",
+          "independent_trigger": "The focus pronoun 'for them' and the named gardens.",
+          "activation": "The explicit self-reference in context meets the focus's recipient phrase.",
+          "resulting_reading": "The return is attached to the acting person.",
+          "boundary": "The HFT context root/word mapping remains attributed."
+        },
+        {
+          "branch_ref": "root_001110/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:12"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The divine-independence term at HFT-attributed context word index 17.",
+          "independent_trigger": "The focus's recipient-directed benefit.",
+          "activation": "Divine self-sufficiency limits the exchange model by locating benefit with the human recipient.",
+          "resulting_reading": "The focus benefit need not answer a lack in the giver.",
+          "boundary": "This is a contextual limit, not a claim that reward is unreal."
+        }
+      ],
+      "connection_refs": [
+        "conn_75f2ca5ef20e554eb36e"
+      ],
+      "context_refs": [
+        "31:12"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:relational-fitness",
+      "origin_candidate_id": "cand_935868f66154d030962b",
+      "represented_candidate_ids": [],
+      "title": "Sound conduct across competing relations",
+      "claim": "The focus's sound deeds can also be heard as conduct calibrated across a difficult relation: 31:15 refuses a parent's coercive demand while preserving kind companionship and following a sound way.",
+      "mechanism": "The focus action and soundness carriers meet the supplied sequence of pressure, refused obedience, continued companionship in good, and following. Reconciliation here means that refusing the demand does not require relational abandonment; the changed reading is sound conduct that keeps distinct obligations in view.",
+      "reader_payoff": "The reader sees good action as able to hold a boundary and preserve humane companionship at once.",
+      "containment": "The family scene is a contextual application, not a lexical requirement that every sound deed be reconciliation. The suitability collocation is excluded because its person-directed form is absent.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT identity and word coordinates are legacy_unbound, while the exact 31:15 Arabic surface and focus branch facets are available."
+      },
+      "support_ids": [
+        "sup_439d72ea0da37dcf744e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:4:2"
+          ],
+          "trigger_refs": [
+            "31:15"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:5:2"
+          ],
+          "carrier": "The focus verb عَمِلُوا۟ as purposeful action.",
+          "independent_trigger": "31:15 supplies the separate acts of resisting pressure, continuing companionship, and following.",
+          "activation": "The concrete relational sequence gives the focus action carrier an enacted rather than abstract form.",
+          "resulting_reading": "The focus's good deeds can be heard as actions that navigate competing demands.",
+          "boundary": "The context does not say that all deeds have this family-boundary form."
+        },
+        {
+          "branch_ref": "root_000876/B002",
+          "facet_id": "F001",
+          "branch_gloss": "barışma ve uzlaşma",
+          "facet_statement": "Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:5:2"
+          ],
+          "trigger_refs": [
+            "31:15"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "The focus adjective الصَّٰلِحَٰتِ through the supplied reconciliation facet.",
+          "independent_trigger": "31:15 refuses obedience to a coercive demand but commands companionship with the parents in recognized good.",
+          "activation": "The refusal and continued companionship meet sound deeds as a relation held without surrendering the boundary.",
+          "resulting_reading": "The focus's soundness can include maintaining relation while refusing a wrongful demand.",
+          "boundary": "This is contextual reconciliation pressure, not a claim that the focus adjective is a reconciliation noun."
+        },
+        {
+          "branch_ref": "root_000268/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:15"
+          ],
+          "trigger_refs": [
+            "31:8:4:2",
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:5:2"
+          ],
+          "carrier": "The pressure/exertion occurrence at HFT-attributed context word index 2.",
+          "independent_trigger": "The focus's purposeful action and soundness carriers.",
+          "activation": "The parental pressure sets the independent demand against which calibrated conduct appears.",
+          "resulting_reading": "Good action is seen responding to pressure with a boundary.",
+          "boundary": "The context root and word index remain attributed."
+        },
+        {
+          "branch_ref": "root_000956/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:15"
+          ],
+          "trigger_refs": [
+            "31:8:4:2",
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:5:2"
+          ],
+          "carrier": "The obedience occurrence at HFT-attributed context word index 13.",
+          "independent_trigger": "The focus's sound-deed carrier.",
+          "activation": "The explicit refusal of obedience supplies the boundary side of the relation.",
+          "resulting_reading": "Sound conduct is distinguished from uniform compliance.",
+          "boundary": "This contextual role is attributed, not a lexicon definition of righteous deeds."
+        },
+        {
+          "branch_ref": "root_000844/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:15"
+          ],
+          "trigger_refs": [
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "The close-companionship occurrence at HFT-attributed context word index 14.",
+          "independent_trigger": "The focus soundness/reconciliation carrier.",
+          "activation": "Companionship after refusal supplies the preserved-relation side of the contrast.",
+          "resulting_reading": "The focus reading can hold refusal and continuing care together.",
+          "boundary": "The branch/root assignment is attributed."
+        },
+        {
+          "branch_ref": "root_001002/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:15"
+          ],
+          "trigger_refs": [
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "The recognized-good manner occurrence at HFT-attributed context word index 17.",
+          "independent_trigger": "The focus soundness carrier.",
+          "activation": "The good manner of companionship supplies the positive form of the continuing relation.",
+          "resulting_reading": "The relation is preserved through good conduct.",
+          "boundary": "The context root and coordinate remain attributed."
+        },
+        {
+          "branch_ref": "root_000175/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:15"
+          ],
+          "trigger_refs": [
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "The following/way occurrence at HFT-attributed context word index 18.",
+          "independent_trigger": "The focus sound-deed carrier.",
+          "activation": "Following the way of those turning to God supplies a positive allegiance alongside the refused demand.",
+          "resulting_reading": "The focus's sound conduct can preserve relation while following a different way.",
+          "boundary": "The HFT root and coordinate are attributed."
+        }
+      ],
+      "connection_refs": [
+        "conn_b7c66bc5c1d237b2ac46"
+      ],
+      "context_refs": [
+        "31:15"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:embodied-tuning",
+      "origin_candidate_id": "cand_a78c411b2adad1d68014",
+      "represented_candidate_ids": [],
+      "title": "Ease in measured bodily conduct",
+      "claim": "The focus's bliss/ease can also be heard as the social texture of measured conduct: the later instructions about face, gait, and voice make bodily restraint a visible companion to sound deeds and ease.",
+      "mechanism": "The focus ease branch meets the independent controls on posture, walking, and voice in 31:18–19. Their shared movement from excess toward measure turns bliss from an abstract comfort into a lived social texture.",
+      "reader_payoff": "The reader can see the body's manner as part of the environment of ease named by the focus.",
+      "containment": "The focus retains its promised garden and bliss sense. The candidate's body-part and person-directed branches are excluded because their required forms are absent; the social-texture relation remains attributed.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT context text is exact Arabic, but the context roots, word indices, and mapping to focus are legacy_unbound; two candidate branches fail their form restrictions."
+      },
+      "support_ids": [
+        "sup_14935672448e0e3ebb1b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001525/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yumuşamak, rahat yaşamak veya rahat yaşatmak",
+          "facet_statement": "Bir kişinin rahatlık, bolluk ve incelik içinde yaşaması.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:8:2"
+          ],
+          "trigger_refs": [
+            "31:18",
+            "31:19"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The focus bliss term through its comfort/ease facet.",
+          "independent_trigger": "31:18–19 supplies bodily manner: a face turned away in pride, measured walking, and lowered voice.",
+          "activation": "The focus ease carrier meets posture, gait, and voice brought under restraint and measure.",
+          "resulting_reading": "Bliss can carry a social texture of practiced ease and non-roughness.",
+          "boundary": "This is a contained echo; it does not make the context's bodily commands a lexical gloss of bliss."
+        },
+        {
+          "branch_ref": "root_000863/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:18"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The face/neck turned away in pride at HFT-attributed context word index 2.",
+          "independent_trigger": "The focus's ease carrier.",
+          "activation": "The posture image supplies bodily misalignment that the context's conduct commands regulate.",
+          "resulting_reading": "Ease is read beside a body whose manner can be calibrated.",
+          "boundary": "The source root and coordinate remain attributed."
+        },
+        {
+          "branch_ref": "root_001427/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:19"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The walking occurrence at HFT-attributed context word index 3.",
+          "independent_trigger": "The focus ease carrier.",
+          "activation": "Walking supplies a repeated bodily field for visible conduct.",
+          "resulting_reading": "Ease meets a measured way of moving.",
+          "boundary": "The HFT word/root mapping is attributed."
+        },
+        {
+          "branch_ref": "root_001230/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:19"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The moderation/measure occurrence at HFT-attributed context word index 1.",
+          "independent_trigger": "The focus comfort/ease carrier.",
+          "activation": "Measure between extremes supplies the independent tuning criterion for the gait.",
+          "resulting_reading": "Ease is heard alongside measured movement.",
+          "boundary": "The context root and index are attributed."
+        },
+        {
+          "branch_ref": "root_001093/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:19"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The voice-lowering occurrence at HFT-attributed context word index 4.",
+          "independent_trigger": "The focus ease carrier.",
+          "activation": "Reducing vocal force supplies control of another bodily output.",
+          "resulting_reading": "The focus's social ease meets measured speech.",
+          "boundary": "This is an attributed context relation."
+        },
+        {
+          "branch_ref": "root_000890/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:19"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The voice/sound occurrences at HFT-attributed context word indices 6, 9, and 10.",
+          "independent_trigger": "The focus ease carrier.",
+          "activation": "The voice image supplies the final bodily output brought under measure.",
+          "resulting_reading": "Ease is read beside calibrated voice.",
+          "boundary": "The context root/word mapping is attributed."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "31:18",
+        "31:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:visible-hidden-beneficence",
+      "origin_candidate_id": "cand_00e889fb26f2586cdc62",
+      "represented_candidate_ids": [],
+      "title": "Visible and hidden benefit",
+      "claim": "The focus garden and bliss can carry an image of benefit with visible and hidden sides: 31:20 applies both predicates to the favors reaching people, and its repeated benefit term returns through the focus bliss word.",
+      "mechanism": "The focus garden's concealment and bliss/benefit carriers meet the 31:20 division between manifest and inward favor. The repeated benefit term, the outward/inward pair, and the focus garden's covered form make the promised good perceptible as more than what is immediately seen.",
+      "reader_payoff": "The reader can perceive the focus's bliss as a condition whose good reaches beyond what is visible.",
+      "containment": "The focus still promises gardens of bliss. The relation does not claim that the gardens lexically mean inward favors, and the HFT context root/word indices remain attributed.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The exact 31:20 Arabic is supplied, but HFT root/word assignments are attributed and target morphology is absent; the focus garden and bliss branches have exact registered facets."
+      },
+      "support_ids": [
+        "sup_bceb74ae32dd5a79a125"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000266/B001",
+          "facet_id": "F001",
+          "branch_gloss": "örtme ve duyulardan gizleme",
+          "facet_statement": "Bir şey örtülerek ya da gizlenerek duyuların erişiminden çıkarılır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:20"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1",
+            "31:8:8:2"
+          ],
+          "carrier": "The focus garden word through its covering/concealment facet.",
+          "independent_trigger": "31:20 pairs favors available to inspection with favors described as inward/hidden.",
+          "activation": "The independent visible/hidden division meets the focus's covered garden image.",
+          "resulting_reading": "The garden can hold a good whose full extent is not immediately visible.",
+          "boundary": "This is a contextual echo, not a replacement of the garden sense."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "F002",
+          "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik",
+          "facet_statement": "Birine verilen bağış, yapılan iyilik veya yararın o kişiye ulaştırılması.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:8:2"
+          ],
+          "trigger_refs": [
+            "31:20"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The focus bliss term through its delivered-benefit facet.",
+          "independent_trigger": "31:20 repeats the benefit term and explicitly divides favor into manifest and inward forms.",
+          "activation": "The context benefit and visible/hidden distinction return through the focus's beneficence carrier.",
+          "resulting_reading": "The promised bliss can be heard as comprehensive benefit, including what remains inward.",
+          "boundary": "The target root mapping is attributed; the claim stays at the supplied surface pairing."
+        },
+        {
+          "branch_ref": "root_000670/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:20"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The complete-measure favor occurrence at HFT-attributed context word index 13.",
+          "independent_trigger": "The focus bliss/benefit carrier.",
+          "activation": "Full measure expands the context's favor beyond a decorative token.",
+          "resulting_reading": "The focus good is heard as comprehensive beneficence.",
+          "boundary": "The root branch is unresolved in the supplied independent lexicon."
+        },
+        {
+          "branch_ref": "root_000970/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:20"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "The manifest/outward occurrence at HFT-attributed context word index 16.",
+          "independent_trigger": "The focus bliss carrier.",
+          "activation": "Manifest favor supplies the visible side of the context's distinction.",
+          "resulting_reading": "The focus good is heard alongside an available outward layer.",
+          "boundary": "The context root and coordinate remain attributed."
+        },
+        {
+          "branch_ref": "root_000128/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:20"
+          ],
+          "trigger_refs": [
+            "31:8:7:1",
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1",
+            "31:8:8:2"
+          ],
+          "carrier": "The inward/hidden occurrence at HFT-attributed context word index 17.",
+          "independent_trigger": "The focus's covered garden and bliss carriers.",
+          "activation": "Hidden interiority supplies the independent inward side that meets garden-cover and bliss.",
+          "resulting_reading": "The focus good includes an inward layer alongside what can be seen.",
+          "boundary": "This context root/word mapping is attributed."
+        }
+      ],
+      "connection_refs": [
+        "conn_2cbd807f2dc12a862e43"
+      ],
+      "context_refs": [
+        "31:20"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:counter-cover-shelter",
+      "origin_candidate_id": "cand_895ee09ca4f1f6948ffa",
+      "represented_candidate_ids": [],
+      "title": "Cover that can shelter",
+      "claim": "The focus garden's covering can also read as protection beside 31:32's wave-canopy: there, covering and enclosure engulf people before rescue to land; here, the garden's cover can suggest a stable shelter.",
+      "mechanism": "The focus garden carries concealment and protective-cover facets. The independent wave scene supplies engulfing cover, turbulence, overhead canopy, rescue, and land; their contact changes cover from a single geometry into one that can threaten or protect.",
+      "reader_payoff": "A reader can see why enclosure in the garden image can feel sheltered while the same spatial form can feel dangerous in the rescue scene.",
+      "containment": "The HFT reader explicitly allows that the maritime scene may remain independent. The connection evidence also says 31:32 does not develop the reward formula, so this stays an attributed image of cover, not a claim that the scenes are identical or that the sea scene describes the gardens.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The 31:32 Arabic is supplied, but context root/word assignments and their return are legacy_unbound; the focus cover/protection branches have exact facets."
+      },
+      "support_ids": [
+        "sup_27fc143df5dfc1bfb8e3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000266/B001",
+          "facet_id": "F001",
+          "branch_gloss": "örtme ve duyulardan gizleme",
+          "facet_statement": "Bir şey örtülerek ya da gizlenerek duyuların erişiminden çıkarılır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:32"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus garden word through its concealment/covering facet.",
+          "independent_trigger": "31:32 supplies a wave canopy that engulfs people.",
+          "activation": "The same covering geometry returns through the focus garden word.",
+          "resulting_reading": "The garden's cover can be read beside an engulfing cover.",
+          "boundary": "The scenes are not equated; only the shared covering image is claimed."
+        },
+        {
+          "branch_ref": "root_000266/B008",
+          "facet_id": "F001",
+          "branch_gloss": "koruyucu siper veya savaş donanımı",
+          "facet_statement": "Bir örtü veya savaş donanımı kişiyi tehlikeden koruyan siper işlevi görür.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:32"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus garden word through the supplied protective-shield facet.",
+          "independent_trigger": "31:32 moves from engulfment through rescue to land.",
+          "activation": "The danger-to-land sequence independently makes protective shelter salient beside the focus's garden cover.",
+          "resulting_reading": "Garden cover can suggest a protected habitat after the threatening cover.",
+          "boundary": "This is a bounded spatial analogy, not a literal shield or a new garden definition."
+        },
+        {
+          "branch_ref": "root_001088/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:32"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The overlaying-cover occurrence at HFT-attributed context word index 2.",
+          "independent_trigger": "The focus garden's covering carrier.",
+          "activation": "The context's engulfing action supplies the threatening side of the shared cover image.",
+          "resulting_reading": "The garden's cover becomes legible against engulfing cover.",
+          "boundary": "The split-root assignment is attributed."
+        },
+        {
+          "branch_ref": "root_001089/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:32"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The second HFT mapping of the covering occurrence at context word index 2.",
+          "independent_trigger": "The focus garden-cover carrier.",
+          "activation": "The split mapping reinforces the same supplied covering image at the context occurrence.",
+          "resulting_reading": "Cover in the focus meets cover in the rescue scene.",
+          "boundary": "This remains a separately attributed source mapping, not a new lexical gloss."
+        },
+        {
+          "branch_ref": "root_001455/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:32"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The turbulent-wave occurrence at HFT-attributed context word index 3.",
+          "independent_trigger": "The focus covering/protection carrier.",
+          "activation": "Interwoven turbulence makes the context cover unstable and threatening.",
+          "resulting_reading": "The focus's protective cover is newly contrasted with unstable engulfment.",
+          "boundary": "The source root and word coordinate remain attributed."
+        },
+        {
+          "branch_ref": "root_000966/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:32"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The overhead-canopy occurrence at HFT-attributed context word index 4.",
+          "independent_trigger": "The focus garden-cover carrier.",
+          "activation": "The canopy image supplies a spatial profile that resembles a garden's overhead cover.",
+          "resulting_reading": "The focus garden becomes newly perceptible as an enclosure with a covering surface.",
+          "boundary": "The context branch is attributed and the imagery stays analogical."
+        },
+        {
+          "branch_ref": "root_001476/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:32"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The rescue/separation occurrence at HFT-attributed context word index 11.",
+          "independent_trigger": "The focus protective-cover carrier.",
+          "activation": "Rescue marks the transition out of dangerous engulfment.",
+          "resulting_reading": "The focus shelter image is read beside a movement from danger to safety.",
+          "boundary": "The HFT root/word mapping remains attributed."
+        },
+        {
+          "branch_ref": "root_000104/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:32"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The dry-land occurrence at HFT-attributed context word index 13.",
+          "independent_trigger": "The focus garden's protective-cover carrier.",
+          "activation": "Land supplies the stable counter-site after the wave canopy.",
+          "resulting_reading": "The garden can be pictured as stable cover by contrast with the rescued-to-land scene.",
+          "boundary": "The context root and role are attributed."
+        }
+      ],
+      "connection_refs": [
+        "conn_a3f2218c2a16a5e9c33f"
+      ],
+      "context_refs": [
+        "31:32"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:personal-return",
+      "origin_candidate_id": "cand_bb0650129db547683138",
+      "represented_candidate_ids": [],
+      "title": "A personal return with limits",
+      "claim": "The focus leaves the gardens with the people who believe and do sound deeds; 31:33–34 make that return personal and unscheduled, as parent and child cannot stand in for one another and no self knows tomorrow's gain or place of death.",
+      "mechanism": "The focus relation between deeds, 'for them,' and gardens meets the later non-substitution warning and the limits on knowing tomorrow and death. This changes a general reward relation into a personally attached outcome that kinship cannot transfer or calculation schedule.",
+      "reader_payoff": "The reader can see the focus's promised good as individually attached without turning it into a predictable exchange.",
+      "containment": "The reward remains stated. The work-wage branch is excluded because the focus has a finite doing verb, not a wage noun; the context limits transfer and prediction without denying the outcome.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT source is legacy_unbound and its context root/word mappings are attributed; exact 31:33–34 Arabic is supplied. The wage branch is incompatible with the focus verb form."
+      },
+      "support_ids": [
+        "sup_fa89c3f38d3b3afbe1ee"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000244/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:33"
+          ],
+          "trigger_refs": [
+            "31:8:6:1",
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:1",
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The recompense occurrences at HFT-attributed context word indices 8 and 15.",
+          "independent_trigger": "The focus relation that gardens are for the group who did sound deeds.",
+          "activation": "Recompense in the later warning returns to the focus's outcome relation.",
+          "resulting_reading": "The focus garden remains a personal outcome attached to its recipients.",
+          "boundary": "The context root mapping is attributed; no recompense branch gloss is supplied."
+        },
+        {
+          "branch_ref": "root_000244/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:33"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The substitution/standing-in occurrence at HFT-attributed context word indices 8 and 15.",
+          "independent_trigger": "The focus's 'for them' garden relation.",
+          "activation": "The prohibition of one person's recompense for another makes transfer the independent issue.",
+          "resulting_reading": "The focus outcome is not transferable through a parent-child relation.",
+          "boundary": "The root branch is unresolved and remains attributed."
+        },
+        {
+          "branch_ref": "root_000473/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:34"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The knowledge occurrences at HFT-attributed context word indices 13 and 19.",
+          "independent_trigger": "The focus's recipient-linked gardens.",
+          "activation": "Repeated limits on what a self knows bound predictive entitlement.",
+          "resulting_reading": "The focus return cannot be scheduled by a person's knowledge.",
+          "boundary": "The HFT root and word coordinates remain attributed."
+        },
+        {
+          "branch_ref": "root_001076/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:34"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The tomorrow occurrence at HFT-attributed context word index 17.",
+          "independent_trigger": "The focus's gardens-for-them relation.",
+          "activation": "Tomorrow fixes a near horizon that no self can calculate.",
+          "resulting_reading": "The outcome is not a scheduled next-day entitlement.",
+          "boundary": "This is an attributed contextual limit."
+        },
+        {
+          "branch_ref": "root_001296/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:34"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The acquiring/gaining occurrence at HFT-attributed context word index 16.",
+          "independent_trigger": "The focus work-to-benefit relation.",
+          "activation": "Unforeknown acquisition meets the focus outcome and limits calculation.",
+          "resulting_reading": "The focus good remains personally received without being forecast as a gain.",
+          "boundary": "The source root mapping is attributed."
+        },
+        {
+          "branch_ref": "root_001454/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:34"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The death occurrence at HFT-attributed context word index 23.",
+          "independent_trigger": "The focus recipient-linked garden outcome.",
+          "activation": "Unknown place of death extends the limit from tomorrow's gain to life's endpoint.",
+          "resulting_reading": "The focus return remains unscheduled by the person.",
+          "boundary": "The context role and root mapping are attributed."
+        },
+        {
+          "branch_ref": "root_001683/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:33"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The offspring occurrences at HFT-attributed context word indices 9, 11, 13, and 17.",
+          "independent_trigger": "The focus's outcome for its own believing/doer group.",
+          "activation": "The child relation supplies one side of the non-transfer rule.",
+          "resulting_reading": "The outcome remains attached to each recipient rather than inherited by kin.",
+          "boundary": "The context root/word mapping is attributed."
+        },
+        {
+          "branch_ref": "root_001683/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:33"
+          ],
+          "trigger_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:6:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The parent occurrences at HFT-attributed context word indices 9, 11, 13, and 17.",
+          "independent_trigger": "The focus's recipient-linked gardens.",
+          "activation": "The parent relation supplies the reciprocal side of non-substitution.",
+          "resulting_reading": "The focus outcome cannot be transferred between parent and child.",
+          "boundary": "The branch mapping remains attributed."
+        }
+      ],
+      "connection_refs": [
+        "conn_fc083ad2338c1be076eb"
+      ],
+      "context_refs": [
+        "31:33",
+        "31:34"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:gestational-enclosure",
+      "origin_candidate_id": "cand_12b811d481798c2c8f17",
+      "represented_candidate_ids": [],
+      "title": "A protected maturation image",
+      "claim": "The focus garden word can carry a contained image of protected gestation: deeds described as sound meet the surah's womb, pregnancy, weaning, tiny-grain, and final-womb references, so the promised garden can also be pictured as a sheltered maturation that brings hidden growth into view.",
+      "mechanism": "The focus root's supplied fetus-in-womb facet is activated by the distinct pregnancy and womb surfaces in 31:3, 31:14, and 31:34, while the tiny grain in 31:16 reinforces hidden development. The relation returns through the focus garden word and the acts it is paired with, changing the image from destination alone to protected unfolding.",
+      "reader_payoff": "The reader can perceive an unfolding process within the promised garden image: small, hidden good may be carried toward emergence.",
+      "containment": "This remains an exploratory analogy, not a claim that gardens lexically mean wombs or that reward is biological. The focus's garden promise stays intact.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT outlier is explicitly exploratory and legacy_unbound. Focus branch F001 is supplied, but context branch roots and indices are attributed and the cross-domain step remains an inference."
+      },
+      "support_ids": [
+        "sup_87fd075d08d0be3144ec"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:4:2"
+          ],
+          "trigger_refs": [
+            "31:14",
+            "31:16"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:7:1"
+          ],
+          "carrier": "The focus purposeful-act verb عَمِلُوا۟.",
+          "independent_trigger": "Pregnancy/carrying and the hidden grain provide distinct images of development before emergence.",
+          "activation": "The focus act carrier meets a process that carries hidden potential toward maturity.",
+          "resulting_reading": "The focus's good acts can be heard within a contained maturation image.",
+          "boundary": "The context does not assert a literal biological process for deeds."
+        },
+        {
+          "branch_ref": "root_000266/B007",
+          "facet_id": "F001",
+          "branch_gloss": "ana rahmindeki doğmamış çocuk",
+          "facet_statement": "Çocuk, annesinin karnında veya rahminde bulunduğu süre boyunca doğmamış durumdadır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:3",
+            "31:14",
+            "31:16",
+            "31:34"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus garden noun through the supplied fetus-hidden-in-the-womb branch.",
+          "independent_trigger": "The wider surfaces of womb, pregnancy/carrying, weaning, and hidden grain independently evoke protected development.",
+          "activation": "The focus's concealed garden carrier meets gestation imagery through shared protected enclosure and maturation.",
+          "resulting_reading": "The garden can also evoke a protected chamber where hidden growth reaches emergence.",
+          "boundary": "This is an analogical root-family echo; جَنَّٰتُ does not lexically mean fetus or womb."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:3",
+            "31:34"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The HFT-attributed womb occurrences at 31:3 word index 2 and 31:34 word index 11.",
+          "independent_trigger": "The focus garden's hidden-enclosure carrier.",
+          "activation": "The womb image independently activates protected interior development beside the focus.",
+          "resulting_reading": "The garden can be perceived as an enclosure for hidden development.",
+          "boundary": "Both context root/word mappings remain attributed."
+        },
+        {
+          "branch_ref": "root_000357/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:14"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The pregnancy/carrying occurrence at HFT-attributed 31:14 word index 4.",
+          "independent_trigger": "The focus's protected garden image.",
+          "activation": "Carrying supplies the duration and shelter component of the maturation analogy.",
+          "resulting_reading": "The garden image can include a carried, not-yet-visible phase.",
+          "boundary": "The context branch is unresolved and attributed."
+        },
+        {
+          "branch_ref": "root_001159/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:14"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The weaning/separation occurrence at HFT-attributed 31:14 word index 9.",
+          "independent_trigger": "The focus hidden-enclosure carrier.",
+          "activation": "Weaning supplies a boundary after the carrying phase.",
+          "resulting_reading": "The maturation image includes a transition from protected dependence toward emergence.",
+          "boundary": "This context root/word mapping remains attributed."
+        },
+        {
+          "branch_ref": "root_000286/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:16"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The sprouting-grain occurrence at HFT-attributed 31:16 word index 6.",
+          "independent_trigger": "The focus garden's hidden-development carrier.",
+          "activation": "The grain links minute hidden potential to visible growth.",
+          "resulting_reading": "The garden can be pictured as a maturation image.",
+          "boundary": "This is attributed support shared with, but not identical to, the seed-emergence finding."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "31:3",
+        "31:14",
+        "31:16",
+        "31:34"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:tree-pens",
+      "origin_candidate_id": "cand_01d21e7808263e3bbeeb",
+      "represented_candidate_ids": [],
+      "title": "The garden as an image of inexhaustible disclosure",
+      "claim": "The focus's tree-covered garden can also be heard beside 31:27, where trees become pens and the replenished sea still cannot exhaust God's words; the garden landscape then evokes a medium of disclosure as well as a habitat.",
+      "mechanism": "The focus garden's tree-cover and vigorous-growth branches supply the carrier. The independent trees-as-pens, replenished-sea, and unexhausted-words image meets those branches and changes the garden's material from vegetation alone into a contained image of disclosure.",
+      "reader_payoff": "The reader can see a surprising relation between the garden's trees and a writing image whose words cannot be exhausted.",
+      "containment": "This is an exploratory, attributed image, not a claim that جَنَّٰتُ lexically means text or that the garden literally supplies writing materials. A reciprocal connection nomination says the garden promise does not clarify 31:27's finite-media comparison; that counter-reading remains live and limits the claim.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT outlier is exploratory and legacy_unbound. Exact 31:27 Arabic is supplied, while the context roots and word indices are attributed; the reciprocal connection supplies a counter-reading."
+      },
+      "support_ids": [
+        "sup_3ab58527e3857fe9502b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000266/B003",
+          "facet_id": "F001",
+          "branch_gloss": "zemini ağaçlarla örtülü bahçe",
+          "facet_statement": "Ağaçlı bahçenin zemini ağaçların oluşturduğu örtü altında kalır.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:27"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus garden through its tree-covered-ground facet.",
+          "independent_trigger": "31:27 explicitly places trees in a writing-instrument image.",
+          "activation": "The tree material of the focus garden meets the independent tree-as-pen scene.",
+          "resulting_reading": "The garden can evoke a material landscape that also points toward inscription.",
+          "boundary": "This is only an image relation, not a literal equation of garden and text."
+        },
+        {
+          "branch_ref": "root_000266/B011",
+          "facet_id": "F001",
+          "branch_gloss": "bitkinin güçlenip boylanması ve sıklaşması",
+          "facet_statement": "Bitki güçlenir, boy atar, sıklaşıp dolaşır veya çiçek açarak gelişimini belirginleştirir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:27"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The focus garden through the supplied vigorous-growth facet.",
+          "independent_trigger": "The tree/pen and replenished-sea image provides a medium that expands beyond one tree.",
+          "activation": "Abundant growth meets the context's tree material and enlarges the habitat into a contained writing image.",
+          "resulting_reading": "The garden can remain habitat while also evoking a medium for disclosure.",
+          "boundary": "The context does not define the focus word as writing."
+        },
+        {
+          "branch_ref": "root_000777/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The tree occurrence at HFT-attributed context word index 6.",
+          "independent_trigger": "The focus tree-covered garden carrier.",
+          "activation": "The tree is the shared material between garden and pen imagery.",
+          "resulting_reading": "The focus garden's trees can evoke a writing medium.",
+          "boundary": "The context root and coordinate remain attributed."
+        },
+        {
+          "branch_ref": "root_001252/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The pen occurrence at HFT-attributed context word index 7.",
+          "independent_trigger": "The focus tree-covered garden carrier.",
+          "activation": "The pen converts arboreal material into inscription.",
+          "resulting_reading": "The garden's tree image can meet the scene of written disclosure.",
+          "boundary": "The context branch is unresolved; its HFT role is retained as attribution."
+        },
+        {
+          "branch_ref": "root_000086/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The sea occurrences at HFT-attributed context word indices 8 and 13.",
+          "independent_trigger": "The focus's abundant garden-material image.",
+          "activation": "The sea supplies the vast replenishing medium paired with pens.",
+          "resulting_reading": "The writing image expands from one tree to an inexhaustible medium.",
+          "boundary": "The context root/word mapping remains attributed."
+        },
+        {
+          "branch_ref": "root_001407/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The replenishment/ink occurrence at HFT-attributed context word index 9.",
+          "independent_trigger": "The focus garden-tree carrier.",
+          "activation": "Replenishment makes the writing medium continue beyond its initial supply.",
+          "resulting_reading": "The focus garden can evoke material abundance oriented toward disclosure.",
+          "boundary": "This HFT branch role is attributed, not an independent gloss."
+        },
+        {
+          "branch_ref": "root_001530/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The non-exhaustion occurrence at HFT-attributed context word index 15.",
+          "independent_trigger": "The focus garden-tree carrier.",
+          "activation": "The text says the words do not run out, making inexhaustibility the image's limit.",
+          "resulting_reading": "The garden image can join abundance with inexhaustible disclosure.",
+          "boundary": "The context mapping is attributed."
+        },
+        {
+          "branch_ref": "root_001316/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:27"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "The meaningful-words occurrence at HFT-attributed context word index 16.",
+          "independent_trigger": "The focus garden-tree carrier.",
+          "activation": "The words supply what the writing medium discloses.",
+          "resulting_reading": "The garden's tree material can evoke a medium bearing disclosure.",
+          "boundary": "This is a contained, attributed analogy."
+        }
+      ],
+      "connection_refs": [
+        "conn_322bad29a9470fa7297c"
+      ],
+      "context_refs": [
+        "31:27"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The focus-word bridge resolves all 10 of 10 analysis units; no candidate is omitted because of an unresolved focus join.",
+    "The packet supplies exact Arabic for 16 unique HFT context anchors, but context morphology is not supplied. HFT word indices, roots, branch roles, and contacts are therefore preserved as attributed evidence, not upgraded to independent lexical analysis.",
+    "Connection rows supply exact target Arabic but no target morphology. The 31:12, 31:24, 31:27, 31:32, and 31:33 connections are used as surface/context evidence and their counter-notes remain visible.",
+    "Candidate records contain no semantic_obligations array although the response contract asks that such obligations be accounted for when present. All obligation-ref arrays are empty; HFT changed readings, activation roles, and the outlier containment statements are carried in the findings."
+  ]
+}

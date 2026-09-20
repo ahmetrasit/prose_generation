@@ -11,8 +11,9 @@ prepare
   -> one consolidator merges the three prose drafts without dropping findings
   -> same consolidator writes the editorial version without reducing coverage
   -> same consolidator validates only editorial prose and repairs up to 2 times
+  -> script writes one complete hermetic middle-layer prompt per ayah
   -> one fresh Luna max agent writes middle prose plus an atomic claim ledger
-  -> same agent receives the fixed generic audit follow-up verbatim
+  -> same agent receives the fixed generic audit through its workspace path
   -> orchestrator closes it without inspecting either middle-layer output
   -> one fresh invitation agent writes the separate reading invitation
 ```
@@ -237,11 +238,18 @@ python3 _commentary/v5/workflow.py prepare-middle \
   --analysis-id <analysis-id>
 ```
 
-Spawn one fresh `gpt-5.6-luna` max agent with only the generated prompt. After
-its first turn, send `_commentary/v5/prompts/middle-layer-audit-followup.md`
-byte for byte as its second and final turn. The orchestrator does not inspect,
-diff, validate, summarize, or customize either middle-layer output. The agent
-runs both validators itself and writes:
+The command atomically writes the complete hermetic prompt and returns two
+short messages. Spawn one fresh `gpt-5.6-luna` max agent and send exactly
+`handoff.launch_message`; it directs the agent to read the generated prompt at
+its workspace path. Never inline, copy, quote, or load that prompt into the
+orchestrator conversation. After the first turn, send exactly
+`handoff.follow_up_message`; it directs the same agent to read the canonical
+`_commentary/v5/prompts/middle-layer-audit-followup.md` from the workspace.
+Never inline that file either.
+
+The orchestrator does not inspect, diff, validate, summarize, or customize
+either middle-layer output. It does not retry, rerun, relaunch, or replace the
+agent if the stage fails. The agent runs both validators itself and writes:
 
 ```text
 _commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.prose.middle.tr.md

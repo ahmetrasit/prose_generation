@@ -1,0 +1,177 @@
+# V5 reading invitation — 32:21
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s032-regular-20260919/s032/32_21/32_21.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s032-regular-20260919/s032/32_21/32_21.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Kesin tattırma ve ölçülen pay
+
+Âyetin başlangıcındaki {ar:وَ, tr:wa, gloss:ve} önceki akışa bağlanırken, hemen ardından gelen birinci çoğul fiil yeni ve kesin bir bildirim başlatır. Bağlantı sürer; önceki sahnenin içeriği bu âyete taşınmaz. Kısa vavın vurgulu fiile kesintisiz akışı, yerel bir işitme izlenimi olarak acele hissi uyandırır; bu ölçülmüş bir ses sonucu değildir. {ar:لَ, tr:la-, gloss:kesinlik lâmı} ile {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} fiilinin sonundaki tekit nûnu aynı eylemi iki uçtan çerçeveler. Çekimli fiile yayılan güvence, tattırma eylemini, onu yaşayacak grubu ve {ar:مِّنَ, tr:min, gloss:-den, içinden} ile açılan ceza payını kapsar. Ardından gelen dönüş cümlesi ise kesin eylemden ayrı olarak sonucu açık bir amaç hâlinde bırakır.
+
+Fiilin içine “biz” diyen fail ile “onlar” diye işaretlenen etkilenen grup birlikte yerleşir. IV. bâbın ettirgen biçimi, tatmayı grubun başlattığı bir eylem değil, onlara yaşatılan bir deneyim olarak kurar. {ar:مِّنَ, tr:min, gloss:-den, içinden} edatı ceza adı henüz söylenmeden tadılan payı açar; hemen ardından gelen {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap} bu deneyimin içeriğini adlandırır. Bu edatla kurulan öbek ikinci bir doğrudan nesne değil, cezanın kaynağı ya da payıdır; nesne ekiyle işaretlenen grup ile bu içerik ayrı rollerdir ve payın sayısal miktarı verilmez. {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} ilk düzeyi sınıflandırır; ilk payın kapsamı bu öbeğin ardından gelen akuzatif zarf/lokatif {ar:دُونَ, tr:dūna, gloss:altında, aşağısında} ile ikinci ilişki açılınca tamamlanır. İkinci {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap}, bu edatın yöneldiği genitif göndergedir ve {ar:ٱلْأَكْبَرِ, tr:al-akbari, gloss:daha büyük olan} ona bağlı sıfattır; bu üst öbek ilk kaynaktan ayrı kalır.
+
+Odaktaki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} tattırma fiilinin tanıdık duyusal işi ağızla tatmak, sağlanan sözlükteki başka bir kullanımı ise bir durumu doğrudan sınayıp yaşayarak bilmektir. Fiil {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap} ile buluştuğunda ceza yalnız haber verilen bir sonuç olmaktan çıkar, bizzat hissedilip öğrenilen bir yaşantıya dönüşür. Ettirgen biçim bu hâlin dışarıdan yaşatıldığını duyurur; ceza adı hangi deneyimin söz konusu olduğunu belirler, duyusal yöntemiyse burada tayin etmez. Azap adının sözlük ailesinde damağa hoş gelen, tatlı ve kolay tüketilen yiyecek ya da içeceğe ilişkin ayrı bir kullanım da vardır. Tatma fiili başka bir kökten geldiğinden, bu hoş tat çerçevesi karşıtlık yoluyla çalışır: yaşanan ceza olağan haz tadının ters yönünde duyulur. Yiyecek, su ya da gerçek bir tatlılık sahneye girmez; bu sözlük yankısı cezanın adını değiştirmeden tatma imgesini tersine çevirir.
+
+Ceza adının iki kez yinelenmesi, iki ilgisiz sonuçtan çok ortak cezalandırıcı zemin üzerinde iki düzey kurar. İlk {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap}, {ar:مِّنَ, tr:min, gloss:-den, içinden} edatıyla açılan paydır; belirli karşılaştırma {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} bu payı ilk ve yakın ya da aşağı düzey diye sınıflandırır. İlk öbekten sonra gelen akuzatif zarf/lokatif {ar:دُونَ, tr:dūna, gloss:altında, aşağısında} iki belirli ceza öbeği arasında menteşe olur; ardından gelen ikinci {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap} bu edatın yöneldiği genitif göndergedir. Ona bağlı {ar:ٱلْأَكْبَرِ, tr:al-akbari, gloss:daha büyük olan} sıfatı büyüklüğü üstteki cezanın niteliği hâline getirir. İlk ceza bu üst düzeye göre aşağıda ya da ondan kısa kalan bir eşik oluşturur. Bu edatın mekânsal dili bağı gerçek bir konuma ya da ölçülmüş aralığa çevirmeden iki öbeği ilişkilendirir; üstteki belirli mastar da ikinci bir şimdiki eylem ve zaman yerine büyük cezayı nominal tavan olarak tutar. Yinelenen ad iki düzeyi cezalandırıcı ortak zeminde tutar, özdeşliklerini her yönden belirlemez. Üstteki karşılaştırmalı sıfat büyüklük ve ağırlığı ikinci cezaya bağlar; ilk payı partitif edat, düzeyler arasındaki ilişkiyi de bu zarf taşır. Bu sözdiziminde ana pay, başlıca yük ya da bütün-parça ilişkisi kurulmaz; kibir, yaş ve toplumsal rütbe için de bağımsız bir tetikleyici yoktur.
+
+Bu ölçek yakınlığı, sırayı ve ağırlığı birlikte taşır. {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} yakın, aşağı, daha az ve ilk düzey yönlerini; {ar:دُونَ, tr:dūna, gloss:altında, ötesinde} düzeyler arasındaki konumu; {ar:ٱلْأَكْبَرِ, tr:al-akbari, gloss:daha büyük olan} ise üst cezanın ağırlığını öne çıkarır. Bu yönler aynı ilk düzeyde birleşir, aradaki sayısal fark yine de verilmez. Sağlanan sözlükte bu sıfatın içinde bulunulan ilk hayatı sonraki hayata göre yakın sayan bir kullanımı da vardır. Bu yankı, ilk düzeyi şimdiki deneyime daha erişilir duyurur; okuma karşılaştırmalı yakınlıkta kalır ve dünyevî/uhrevî zamanlar tayin etmez.
+
+Derece ilişkisine, {ar:دُونَ, tr:dūna, gloss:altında, başka olarak} için “başka/öteki” kullanımının açtığı ayrı bir olasılık da eklenir. 32:4'teki {ar:مِن دُونِهِۦ مِن وَلِىٍّۢ وَلَا شَفِيعٍ, tr:min dūnihi min waliyyin wa-lā shafīʿ, gloss:O'ndan başka hiçbir dost ya da şefaatçi} ifadesi bu ayrı ilişkiyi gösterir; ikinci {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap} adının öbeği ve {ar:ٱلْأَكْبَرِ, tr:al-akbari, gloss:daha büyük olan} sıfatı ile buluştuğunda iki cezanın türce de ayrılabilmesi olasılığını açar. Aynı anda odaktaki {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} ile üst sıfatın büyüklük ilişkisi derece okumasını sürdürür. 32:4'ün sözdizimi odaktaki yapıyla aynı olmadığından, tür farkı bu ölçeğe eklenen ikincil ve biçim bakımından kesinleşmemiş bir olasılıktır.
+
+Başka ayetler bu sıralamanın nasıl duyulabileceğini genişletir. 39:26'da {ar:فَأَذَاقَهُمُ ٱللَّهُ ٱلْخِزْىَ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا, tr:fa-adhāqahumu Allāhu al-khizya fī al-ḥayāti al-dunyā, gloss:Allah onlara dünya hayatında zilleti tattırdı} denmesinin ardından {ar:وَلَعَذَابُ ٱلْءَاخِرَةِ أَكْبَرُ, tr:wa-la-ʿadhābu al-ākhirati akbaru, gloss:ahiret azabı daha büyüktür} ifadesi gelir. Bu sıra, {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} ilk düzeyini {ar:ٱلْأَكْبَرِ, tr:al-akbari, gloss:daha büyük olan} üst kutbuyla karşılaştırınca daha büyük ve sonraki sonucun önünde duran bir aşama gibi duyurur; 39:26'daki zillet ayrıca 32:21'in aşağı kutbuna toplumsal itibar kaybı ya da küçük düşürülme niteliği katabilir. Bu örneğin katkısı odaktaki cezayı adlandırmak değil, alt düzeyin niteliğini bu toplumsal yankıyla genişletmektir; iki ayetin olayları özdeşleştirilmez. 52:47'deki {ar:عَذَابًا دُونَ ذَٰلِكَ, tr:ʿadhāban dūna dhālika, gloss:bunun altında ya da gerisinde bir azap} da bu edatın hedef altı/geride kalma yönüyle daha erken ya da ayrı bir katmanı düşündürür. Bu biçimbilimsel bağ kesinleşmediğinden, 52:47 bir karşılaştırma olanağı sunar; 32:21'deki cezayı tanımlamaz.
+
+## Yaşantı ve açık dönüş
+
+Kesin tattırma bildiriminden sonra {ar:لَعَلَّهُمْ يَرْجِعُونَ, tr:laʿallahum yarjiʿūna, gloss:belki dönerler} amacı gelir. Bu amaç bağlacı aynı grubu, {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} tattırma fiilinin nesne ekiyle işaretlenen topluluğu yeniden hedef alır; cezanın yaşatılacağı grup ile dönmesi umulan grup değişmez. Amaç dönüşü ufukta tutar, gerçekleşmiş bir sonuç bildirmez. Böylece kesin eylem ile mümkün cevap arasındaki değişim başka bir benzerlikten değil, âyetin kendi çekiminden ve cümle sırasından doğar.
+
+Odaktaki {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler} fiili etken, geçişsiz ve çoğuldur: mümkün yön değişikliğinin faili yine gruptur, dışarıdan geri döndürülen kişiler diye anlatılmaz. Muzâri biçim dönüşü tamamlanmış bir olay olarak kapatmaz; nesnesi ve varacağı yer de söylenmediğinden, önceki hâle ya da yola dönme açık kalır. Sağlanan kullanım, sıradan geri gelmenin yanında bağlı olunan bir tutumdan vazgeçmeyi de kapsar; yanlış davranış bağlamında bu, içsel pişmanlıktan öte eylemi bırakıp yönü düzeltmeye uzanabilir. Hangi davranışın bırakılacağı ve hangi hedefe dönüleceği belirlenmez. Çoğul biçim topluluğu birlikte işaret eder ama her üyenin aynı cevabı vereceğini söylemez. Son sözcüğün dönüş fiili olması cümleyi grubun mümkün eylemine bırakır; zamir sonundaki burunsu sesin çoğul fiil bitişine akması da bu grubu amaçtan dönüşe kadar işitilir kılar. Bu yerel ve nitel bir ses izlenimidir, ölçülmüş bir akustik sonuç değil.
+
+Odaktaki dönüş amacı, tattırılan cezayı cevap bekleyen bir uyarı olarak da duyurur. 30:41'de karadaki ve denizdeki bozulma insanların yaptıklarına bağlanır; yaptıklarının bir bölümü tattırılırken dönüş umudu da anılır. Bu bağımsız sahnenin katkısı, yaşanan sonucu olası yön değişikliğiyle aynı bağlamda göstermesidir. 32:21'de bu ilişki daha belirgin bir ölçü kazanır: {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} ile doğrudan yaşanan ceza, {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan}ın ilk ve yakın düzeyinde başlar; {ar:دُونَ, tr:dūna, gloss:altında, aşağısında} onu {ar:ٱلْأَكْبَرِ, tr:al-akbari, gloss:daha büyük olan} üst cezasına göre sınırlar. Bu deneyimin ardından gelen {ar:لَعَلَّهُمْ يَرْجِعُونَ, tr:laʿallahum yarjiʿūna, gloss:belki dönerler} amacı, ilk yaşantıyı ağır üst sonuçtan önce yön değiştirme imkânı sunan bir erken uyarı gibi duyurur. Bu okuma cezanın ağırlığını korur; suçun türünü ve grubun cevabını belirlemez.
+
+32:20'de ateşten çıkmaya girişenler yeniden ateşe döndürülür ve {ar:ذُوقُوا۟ عَذَابَ ٱلنَّارِ, tr:dhūqū ʿadhāba al-nār, gloss:ateş azabını tadın} buyruğunu işitir. Daha önce yalanlanan ateş cezasının şimdi tattırılması, 32:21'deki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} yaşantısını ve {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} ilk düzeyini reddedilmiş geleceğe önceden dokunan sınırlı bir kanıt gibi duyurabilir. Bu temas ateş cezasını 32:21'in adı hâline getirmez: odak cezasını açıkça “örnek” diye sunmaz, 32:20 ise ateşi kendi bağlamında adlandırır. İki sahne böylece birbirini aydınlatırken ayrı kalır. 32:20'de çıkış girişimlerinin zorla aynı ateşe döndürülmesi kapalı bir tekrar kurar; odaktaki {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler} ise grubun kendisine ait, hâlâ mümkün bir yön değişikliğini taşır. Bu karşıtlık iki sahnenin aynı yeri ya da süreyi paylaştığını değil, zorunlu döngü ile umulan cevabın farklılığını gösterir.
+
+Yaşanan uyarının rehberlik umuduyla ilişkisi de ayrı bir bağlamda belirginleşir. 32:3'te {ar:لِتُنذِرَ, tr:li-tundhira, gloss:uyarman için} sözlü uyarıyı, {ar:لَعَلَّهُمْ يَهْتَدُونَ, tr:laʿallahum yahtadūna, gloss:belki doğru yolu bulurlar} ise ardından gelen hidayet umudunu kurar. Bu işlevsel sıra, 32:21'deki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} yaşantısını uyarının bedende hissedilen devamı, {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler} dönüşünü de rehberliğe cevap verme ihtimali olarak duyurur; iki ifade ayrı görevlerini korurken gerçekleşecek cevap açık kalır. 32:22'de Rabbinin âyetleriyle hatırlatılan kişinin yüz çevirmesi ve ardından gelen karşılık, hatırlatmanın reddedilebilir olduğunu gösterir; bu sahne böylece odaktaki umudun karşısına gelebilecek bir cevabı da görünür kılar. 32:22'deki muhatapların 32:21'dekilerle aynı topluluk olduğu kurulmadığından, bu reddediş odaktaki grubun gerçekleşmiş tutumu sayılmaz.
+
+Tatma fiilinin kendisi deneyimin süresini belirlemez. 32:14'te {ar:فَذُوقُوا۟ بِمَا نَسِيتُمْ لِقَآءَ يَوْمِكُمْ, tr:fa-dhūqū bimā nasītum liqāʾa yawmikum, gloss:buluşma gününü unuttuğunuz için tadın} denir; hemen ardından aynı deneyim fiili {ar:وَذُوقُوا۟ عَذَابَ ٱلْخُلْدِ, tr:wa-dhūqū ʿadhāba al-khuld, gloss:kalıcılık azabını tadın} ifadesinde kalıcılık azabıyla birlikte kullanılır. Odaktaki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} da doğrudan yaşantıyı bildirir; burada süreyi veren, deneyim fiili değil, kalıcılığı adlandıran ceza niteliğidir. 32:21'de {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} ile kurulan yakınlık ve {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler} amacı düzeltmeye açık bir aralık hissi verir. Bu bağlamda aralığın süresi açık kalır: 32:14'ün kalıcılığı odaktaki cezaya geçmez, tattırma da kendi başına geçicilik ölçmez.
+
+Amaç cümlesi gerçek, sonucu ise açık bir umuttur. 9:126'da yinelenen sınamalara rağmen tövbe ve öğüt gelmez; 44:15'te azap kısa süreli kaldırıldıktan sonra insanların geri döneceği bildirilir. İlk örnek umulan cevabın gelmeyişini, ikincisi kısa rahatlamadan sonra eski yola dönüşü gösterir. Bu iki başka topluluğun karşılığı, 32:21'deki grubun ne yapacağını belirlemez. {ar:لَعَلَّهُمْ يَرْجِعُونَ, tr:laʿallahum yarjiʿūna, gloss:belki dönerler} bu nedenle gerçekleşme olasılığı açık kalan bir amaçtır.
+
+Bu dönüşü yakın bağlamdaki iki başka geri dönme hareketiyle yan yana okumak, değişebilir eylem aralığını netleştirir. 32:11'de Rab'be kaçınılmaz geri varış, 32:12'de ise “gördük ve işittik” diyenlerin iyi işler yapabilmek için yeniden gönderilme isteği anlatılır. Bu sırada 32:21'deki {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler}, sonuç kesinleşmeden önce yanlış tutumdan dönüp yönü düzeltme olasılığını gösterir: son varıştan önceki etkin bir değişimdir; fiziksel olarak geri gönderilme isteğiyle de ayrı bir yöndedir. 32:12'de görme açık bir algı eşiği kurar; işitmeyi anlama ya da itaate genişletmek daha yorumlu bir olasılık olarak kalır. Böylece yakın bağlam, odaktaki dönüşün ne zaman ve nasıl bir eylem olduğunu belirginleştirirken iki komşu dönüşün farklı işlevini korur.
+
+Açılışın sorulduğu (32:28) ve yanıtlandığı (32:29) ayetler, bu imkânın zaman sınırını ihtiyatla düşünmeye el verir. {ar:دُونَ, tr:dūna, gloss:yakınında, altında ya da gerisinde}nin yakınlık ve sınırın gerisinde kalma yönleri, yanlış tutumdan dönüşü anlatan {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler} ile buluşunca daha yakın cezayı, dönüşün hâlâ sonuç verebildiği bir eşik öncesi zaman gibi duyurabilir. 32:28'de açılışın zamanı sorulur; 32:29'da açılış gününde inkâr edenlere imanlarının yarar sağlamayacağı ve mühlet verilmeyeceği söylenir. Bu yorum umulan dönüşü kapanıştan önceki pencereye yerleştirir; ilişkinin gevşekliği de korunur, çünkü soru ile odak yalnızca kısmen örtüşür. Büyük azap, açılış günüyle özdeşleştirilmez.
+
+## Yakın izler ve bedensel yankılar
+
+Daha yakın uyarı, geçmişten kalan izler arasında bedensel olarak kat edilen bir manzaraya dönüşür. 32:26, önceki nice kuşağın helak edildiğini hatırlatır: {ar:كَمْ أَهْلَكْنَا مِنْ قَبْلِهِمْ مِنَ ٱلْقُرُونِ, tr:kam ahlaknā min qablihim mina al-qurūni, gloss:onlardan önce nice kuşakları helak ettik}. Odaktaki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} fiilinin yaşantı anlamı ile {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan}ın yakınlık yönü buluşunca, yıkım uzaktan duyulan bilgi olmaktan çıkar: eski yurtların arasında yürüyenler onun izleriyle şimdiki manzarada karşılaşır. {ar:يَمْشُونَ فِي مَسَاكِنِهِمْ, tr:yamshūna fī masākinihim, gloss:yurtlarının arasında yürürler} yerleşimi bedenle kat edilen mekân yapar; {ar:أَفَلَا يَسْمَعُونَ, tr:afalā yasmaʿūna, gloss:öyleyse işitmezler mi?} sorusu bu kalıntıları son yargıdan önce işitilebilecek bir uyarı olarak da sunar. Kalıntılar geçmiş yıkımın izleri ve dönüşe cevap verebilecek işaretlerdir; ayet bunları 32:21'deki cezanın kendisiyle özdeşleştirmez ve muhatapların nasıl karşılık verdiğini bildirmez.
+
+Yakınlık ve yaşantıdan bedensel alıma geçişi 32:27'deki tedarik sahnesi sağlar. Su çorak araziye taşınır, ekin çıkar, ardından hayvanlarla insanlar ondan yer: {ar:نَسُوقُ ٱلْمَاءَ, tr:nasūqu al-māʾa, gloss:suyu sürüp ulaştırırız}, {ar:ٱلْأَرْضِ ٱلْجُرُزِ, tr:al-arḍi al-juruz, gloss:çorak arazi}, {ar:زَرْعًا, tr:zarʿan, gloss:ekin} ve {ar:تَأْكُلُ مِنْهُ, tr:taʾkulu minhu, gloss:ondan yerler}. Bu tamamlanan tedarik zinciri, odaktaki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} fiilinin ettirgen yaşantısını ağızla alım ve yeme sahnesine bağımsız olarak bağlar. Böylece zincirin kesilmesi karşıolgusal düşünüldüğünde, mahrumiyet ceza deneyiminin bedensel alım noktasında hissedildiği bir ters imgeye dönüşür. 32:27 suyun ve ekinin ulaşıp yaşattığını anlatır; bu yaşam belirtisi uyarının sonucundan önce görünür, yoksunluk ise odak cezanın tek anlamı değil, zincirin kesilmesiyle açılan olasılıktır.
+
+Bu ters imgenin yanında biçim farkı ayrı bir sözlük dalı açar. Odaktaki {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap} ceza anlamını taşırken, sözlükteki ayrı biçim {ar:عَذُوب, tr:ʿadhūb, gloss:yiyip içmeden duran} insan ya da hayvanın tüketmeden kalmasını, çoğu kez susuzluğu anlatır. 32:27'deki su ve yiyecek bolluğu bu farkı karşılaştırmalı bir yoksunluk olasılığına çevirir; ayrı biçim odak isminin karşılığı olmaz. Aynı sözlük ailesindeki {ar:أَعْذَبَ عَنِ الشَّيْءِ, tr:aʿdhaba ʿani al-shayʾi, gloss:bir şeyden geri durmak} kişinin bir şeyden vazgeçmesini, {ar:أَعْذَبْتُهُ عَنِ الْأَمْرِ, tr:aʿdhabtuhu ʿani al-amri, gloss:onu bu işten alıkoymak} ise başkasını ondan alıkoymayı anlatır. İkinci kullanımın {ar:فَطَمْتُهُ عَنْ هَٰذَا الْأَمْرِ, tr:faṭamtuhu ʿan hādhā al-amri, gloss:onu bu işten sütten keser gibi kestim} benzetmesi, {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} deneyimi ile {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler} dönüşünü buluşturunca bağlılığı kesip başka yöne dönme imgesi verir. Bu dalın katkısı, olası yoksunlukla amaçlanan tutum değişikliğini ilişkilendirmesidir; gerçekten emzirme anlatılmaz, esirgenen şey ve bırakılan yol da adlandırılmaz.
+
+Bu bedensel tersine dönüş için 16:112 ayrı bir sahne sunar. Her yönden bol rızık alan güvenli bir kent nimeti inkâr ettikten sonra {ar:فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ, tr:fa-adhāqahā Allāhu libāsa al-jūʿi wa-l-khawf, gloss:Allah ona açlık ve korku giysisini tattırdı} diye anlatılır. Bu sahnede bolluk ve güvenin yerini açlık ve korku alır; odaktaki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} ile kurulan doğrudan yaşantı, bu tersine dönüşü bedensel bir sonuç olarak duyurur. 16:112 böylece güvenlik ve rızkın elden çıkmasına dair somut bir maddi yankı sunar. 32:21 ise açlık, korku, su, yiyecek ya da rızkın kesilmesini adlandırmaz; bu nedenle 16:112'deki kent sahnesi cezanın sözlük anlamı değil, maddi karşılaştırmasıdır.
+
+Daha uzak, deneysel bir sözlük benzetmesi ise bu kez bedensel alımı değil basınca verilen karşılığı öne çıkarır. Sağlanan sözlükte tatma fiiliyle aynı kökün ayrı bir kullanımı, yayın telini çekerek sertliğini, esnekliğini ve çekişe verdiği karşılığı sınamaktır. Bu kullanım, odaktaki {ar:وَلَنُذِيقَنَّهُمْ, tr:wa-la-nuḏīqannahum, gloss:onlara mutlaka tattıracağız} fiiline deneyimin sınanma yönü üzerinden temas eder. {ar:ٱلْأَدْنَىٰ, tr:al-adnā, gloss:daha yakın olan} ilk düzeyi ile {ar:دُونَ, tr:dūna, gloss:altında} eşiği bu deneyimi {ar:ٱلْأَكْبَرِ, tr:al-akbari, gloss:daha büyük olan} üst ucundan önceki sınırlı bir basınç sınaması gibi kurar. Bu edatın yakınlık ve aşağıda ya da hedefin gerisinde kalma yönleri eşiğin sınırını çizer; {ar:يَرْجِعُونَ, tr:yarjiʿūna, gloss:dönerler} ise önceki hâle ya da yola geri gelme anlamıyla bu basınca verilebilecek olası karşılığı düşündürür. Üst sıfatın bir işi kişiye ağır yük ve güçlük olarak getirme kullanımı üst ucu daha ağır hissettirir. Bu benzetme bir imkânı kurar: sınırlı ilk deneyim, daha ağır uca varmadan bir karşılık doğurabilir; odakta belirli bir görev, gerçek tel, hedef ya da ölçülmüş mesafe yer almaz.
+
+</editorial_prose>

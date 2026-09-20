@@ -1,0 +1,1372 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:14",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_70335a8bcf536d8b70bf",
+      "decision": "accept",
+      "reason": "The opening-position and hamza-edge sound observation is a bounded local payoff and is directly supported by the focus sound note.",
+      "finding_refs": ["micro:opening-command-sound"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f7ec1170df17bd8a382d",
+      "decision": "accept",
+      "reason": "The supplied QAC morphology identifies a bare second-person masculine singular imperative, which makes the narrated person the addressee.",
+      "finding_refs": ["micro:imperative-direct-address"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f9a353450c90d54c5951",
+      "decision": "accept",
+      "reason": "The trusted word analysis bounds gathering pressure by the explicit record object and gives it a distinct effect on how the reading act is understood.",
+      "finding_refs": ["micro:reading-assembles-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dd6a873bb85b0897748b",
+      "decision": "narrow",
+      "reason": "Retain the focus-local effect of the explicit object on the command; the comparative readings at 96:1 and 96:3 are not supplied as context units for this lane.",
+      "finding_refs": ["micro:object-bounded-reading"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "96:1", "reason": "The comparison is named in support text but no occurrence surface or context unit is supplied in this packet."},
+        {"context_ref": "96:3", "reason": "The comparison is named in support text but no occurrence surface or context unit is supplied in this packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bd3bddb38220545e0012",
+      "decision": "accept",
+      "reason": "The accepted word alignment maps the possessed accusative record to the direct-object morpheme, and its suffix identifies the addressee as owner.",
+      "finding_refs": ["micro:personal-record-object"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6de47c09135a2073acb7",
+      "decision": "accept",
+      "reason": "The supplied attachment analysis shows that the imperative and its record object complete the first unit before the sufficiency clause begins.",
+      "finding_refs": ["micro:read-record-unit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_420b689ee6319e4d4e6b",
+      "decision": "accept",
+      "reason": "The focus record, reading command, and liability ending independently support joined-account and binding-ruling textures; the supplied HFT traces corroborate both contacts with attributed status.",
+      "finding_refs": ["micro:joined-binding-record"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_72143800f6b2936f39e9",
+      "decision": "reject",
+      "reason": "The proposed book-thread change depends on comparison with 17:13, 17:71, and 17:93; the micro packet supplies no selected context units for that pericope reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:13", "reason": "The ayah is listed in ordered context but has no supplied context-unit text in this packet."},
+        {"context_ref": "17:71", "reason": "The ayah is named only as a cross-ayah pointer in candidate support and is outside the selected context units."},
+        {"context_ref": "17:93", "reason": "The ayah is named only as a cross-ayah pointer in candidate support and is outside the selected context units."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_504619d51b678714c7db",
+      "decision": "narrow",
+      "reason": "Retain the local shift that places sufficiency on the addressee's self and connects it to the closing reckoner role; omit the comparison with other ayat because their occurrence surfaces are not supplied here.",
+      "finding_refs": ["micro:sufficiency-on-self"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "4:6", "reason": "The formula comparison is named in support text but no occurrence surface or context unit is supplied in this packet."},
+        {"context_ref": "33:39", "reason": "The formula comparison is named in support text but no occurrence surface or context unit is supplied in this packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8f911bd432813c200137",
+      "decision": "accept",
+      "reason": "QAC and attachment evidence directly identify the marked bā sufficiency construction and its self complement.",
+      "finding_refs": ["micro:marked-sufficiency-frame"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_567a3659f69d286a40c8",
+      "decision": "accept",
+      "reason": "The perfect sufficiency verb presents the sufficing relation as established in the local clause; the support itself keeps protection and averting outside the selected sense.",
+      "finding_refs": ["micro:perfect-sufficiency"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_49c4c9662f0ae4b120a8",
+      "decision": "represented",
+      "reason": "Its marked-bā relation and agent-like self complement are fully carried by the same dedicated finding as the sufficiency-frame candidate.",
+      "finding_refs": ["micro:marked-sufficiency-frame"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8972efdb3c1c01aaa389",
+      "decision": "accept",
+      "reason": "The supplied morphology and attachment evidence support the immediate proclitic link and the uncoordinated transition into the sufficiency clause.",
+      "finding_refs": ["micro:proclitic-clause-attachment"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_17536ed81d46dba287c7",
+      "decision": "accept",
+      "reason": "The genitive self under the sufficiency preposition is locally assigned the agent-like role, while the repeated suffix identifies the same addressee.",
+      "finding_refs": ["micro:self-as-sufficient-party"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e336fd0609e09a6b1e08",
+      "decision": "accept",
+      "reason": "The same second-person suffix marks possession of the record and self, then returns in the liability phrase with a changed role.",
+      "finding_refs": ["micro:repeated-addressee-suffix"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9270a0b63b595c858c78",
+      "decision": "accept",
+      "reason": "The possessed self-person reading is supported locally; the supplied analysis keeps breath or embodied-life pressure qualified rather than making it a separate lexical sense.",
+      "finding_refs": ["micro:self-person-carrier"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_051fe8864bab5d316f8c",
+      "decision": "reject",
+      "reason": "The proposed self-thread depends on a comparison across 17:7, 17:15, and 17:25; those pericope relations are outside the local micro evidence supplied here.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:7", "reason": "The ayah is named in candidate support but has no selected context-unit text in this packet."},
+        {"context_ref": "17:15", "reason": "The ayah is named in candidate support but has no selected context-unit text in this packet."},
+        {"context_ref": "17:25", "reason": "The ayah is named in candidate support but has no selected context-unit text in this packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3f755c37bc082d9ef569",
+      "decision": "narrow",
+      "reason": "Retain the focus-local event-day reading from the reckoning scene and the final role; do not depend on the unprovided 17:13 context unit.",
+      "finding_refs": ["micro:decisive-day"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:13", "reason": "The preceding ayah is named in support but no context-unit text is supplied; the retained event-day trigger comes from the focus clause."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6a38a72262324308d668",
+      "decision": "accept",
+      "reason": "The definite article and accusative temporal use are supplied in the accepted word alignment and make the day identifiable in the scene.",
+      "finding_refs": ["micro:definite-day"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d70d684eb4c846748dd7",
+      "decision": "reject",
+      "reason": "The proposed accountability-day network depends on several other ayat, none of which has supplied context-unit text; the reading belongs to pericope-level synthesis rather than this micro lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:13", "reason": "The ayah is named in candidate support but has no selected context-unit text."},
+        {"context_ref": "17:52", "reason": "The ayah is named only as a cross-ayah pointer in candidate support."},
+        {"context_ref": "17:58", "reason": "The ayah is named only as a cross-ayah pointer in candidate support."},
+        {"context_ref": "17:62", "reason": "The ayah is named only as a cross-ayah pointer in candidate support."},
+        {"context_ref": "17:71", "reason": "The ayah is named only as a cross-ayah pointer in candidate support."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c2b8120d2e366fe8b4fd",
+      "decision": "accept",
+      "reason": "The focus word order places the temporal adverb between the self-sufficiency phrase and the final liability construction, giving it a local bridging role.",
+      "finding_refs": ["micro:temporal-hinge"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_50bcd980baa42ccb5de8",
+      "decision": "accept",
+      "reason": "The supplied QAC gloss and attachment evidence give alayka a responsibility or adversarial direction toward the addressee.",
+      "finding_refs": ["micro:liability-preposition"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1784c477f9945cbd3f35",
+      "decision": "represented",
+      "reason": "The returning suffix and its shift into liability are fully carried by the finding for the same suffix across record, self, and alayka.",
+      "finding_refs": ["micro:repeated-addressee-suffix"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8994acd64bc3ed79adb3",
+      "decision": "accept",
+      "reason": "The attachment analysis resolves alayka as the complement of the final reckoner role, while its preceding position creates the stated exposure-before-role effect.",
+      "finding_refs": ["micro:target-before-role"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bf7eb97136c93d07a936",
+      "decision": "accept",
+      "reason": "The personal record and alayka liability frame locally ground counting and accounting for hasib; the supplied support explicitly preserves supposition as an unselected counter-reading.",
+      "finding_refs": ["micro:reckoning-selection"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0f7bac942264d8703f21",
+      "decision": "accept",
+      "reason": "The support ties the opening command, repeated second-person pressure, and final indefinite role to a bounded local cadence observation.",
+      "finding_refs": ["micro:closing-cadence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_62ab8c4cdb9eb3737c89",
+      "decision": "accept",
+      "reason": "The supplied form analysis distinguishes the final faʿīl role-quality from an abstract accounting event.",
+      "finding_refs": ["micro:reckoner-quality"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_542d3eff47ec75ebca6b",
+      "decision": "reject",
+      "reason": "The distinctive divine-title reassignment depends on comparisons at 4:6, 4:86, and 33:39, which are outside this focus-only micro evidence; the local self-as-reckoner relation is retained through other candidates.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "4:6", "reason": "The cited parallel is present only as a pointer in candidate support and has no supplied context-unit surface."},
+        {"context_ref": "4:86", "reason": "The cited parallel is present only as a pointer in candidate support and has no supplied context-unit surface."},
+        {"context_ref": "33:39", "reason": "The cited parallel is present only as a pointer in candidate support and has no supplied context-unit surface."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f85a1289d5b086f2f4d9",
+      "decision": "accept",
+      "reason": "The accepted QAC alignment and attachment analysis place the final accusative as the specification of what the self suffices as, with alayka supplying the reckoning target.",
+      "finding_refs": ["micro:final-capacity-specification"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_25b8bb8e8974de0b3287",
+      "decision": "reject",
+      "reason": "This QAC root-occurrence row establishes a possible focus carrier only; it supplies no independent semantic trigger or reading beyond the surface evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_95d9f87486dce991d205",
+      "decision": "reject",
+      "reason": "This QAC root-occurrence row establishes a possible focus carrier only; it supplies no independent semantic trigger or reading beyond the surface evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1331942f982bb3a80708",
+      "decision": "reject",
+      "reason": "This QAC root-occurrence row normalizes the split source roots only; it does not nominate either root's branches or activate a reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d31f1ce3af784edb7272",
+      "decision": "reject",
+      "reason": "This QAC root-occurrence row establishes a possible focus carrier only; it supplies no independent semantic trigger or reading beyond the surface evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_658636d05d206c3a6c10",
+      "decision": "reject",
+      "reason": "This QAC root-occurrence row establishes a possible focus carrier only; it supplies no independent semantic trigger or reading beyond the surface evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_98f7e6661b6d4f96e0dc",
+      "decision": "reject",
+      "reason": "This QAC root-occurrence row establishes a possible focus carrier only; its counting and sufficiency branches require independent triggers, which are evaluated in the semantic findings instead.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4aae6d6deb22d71451c9",
+      "decision": "accept",
+      "reason": "All four HFT trace coordinates and roots agree with the supplied focus surface, and the separate record, self, liability, and reckoning words activate the attributed self-audit relation.",
+      "finding_refs": ["micro:enacted-self-audit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_983c5bab26ab46aca518",
+      "decision": "accept",
+      "reason": "Each traced root and word index matches the focus; the explicit sufficiency verb, personal record, self, event-day, and final reckoner jointly support the attributed closed-evidence reading.",
+      "finding_refs": ["micro:closed-evidentiary-circuit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3213f4d5fb566de12b73",
+      "decision": "accept",
+      "reason": "The joined-record, self-identity, and counting contacts return to verified focus coordinates; the gathering branch has no independent descriptor and is retained only as the attributed HFT trace.",
+      "finding_refs": ["micro:reassembled-life-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_248784b54d2de9c6cfbe",
+      "decision": "accept",
+      "reason": "The focus coordinates and roots agree, and the scale-pan and faceoff roles are retained as attributed material imagery with the packet's form-distance restriction explicit.",
+      "finding_refs": ["micro:scale-pan-faceoff"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:opening-command-sound",
+      "origin_candidate_id": "cand_70335a8bcf536d8b70bf",
+      "represented_candidate_ids": [],
+      "title": "Opening command sound",
+      "claim": "The opening imperative has a clipped onset before the personal-record noun arrives.",
+      "mechanism": "The supplied sound analysis links the hamza edge and initial position of iqra to an audible break; its immediate transition into kitabaka makes the command boundary perceptible.",
+      "reader_payoff": "The reader hears the move from narrated scene to direct command as a sharp opening.",
+      "containment": "This is a small sound observation about the focus onset, not a claim about an unprovided recitation performance.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The packet supplies a trusted text-based sound note, while no audio or independent prosodic measurement accompanies it."
+      },
+      "support_ids": ["sup_24968c063cb10bcdc067", "sup_d811d36a12e591395c96"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:imperative-direct-address",
+      "origin_candidate_id": "cand_f7ec1170df17bd8a382d",
+      "represented_candidate_ids": [],
+      "title": "Imperative direct address",
+      "claim": "The bare second-person imperative makes the narrated person the immediate addressee.",
+      "mechanism": "The imperative supplies an implicit you at the opening; the possessed record object keeps that address attached to the same person as the judgment act unfolds.",
+      "reader_payoff": "The ayah is heard as something done to and required of the person, rather than only a report about judgment.",
+      "containment": "The imperative establishes direct address without specifying a speaker identity beyond the supplied scene.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The QAC imperative features and the local possessed object are directly supplied and accepted."
+      },
+      "support_ids": ["sup_20bf01c9a630bc202b97", "sup_d811d36a12e591395c96"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:reading-assembles-account",
+      "origin_candidate_id": "cand_f9a353450c90d54c5951",
+      "represented_candidate_ids": [],
+      "title": "Reading gathers an account",
+      "claim": "With the personal record as its object, the command to read can carry a gathering pressure: scattered deeds become an account the addressee must voice or understand.",
+      "mechanism": "The reading command meets kitabaka as a specific written object, while the closing reckoner role supplies the destination for the act; together they make reading an assembling of account rather than bare vocalization.",
+      "reader_payoff": "The record is encountered as an active account brought together in reading.",
+      "containment": "The local object keeps the primary act as reading or reciting the record; this does not assign a separate dictionary gloss of gathering to the imperative.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The word analysis explicitly marks gathering as root pressure bounded by the local object, rather than as the selected standalone verb sense."
+      },
+      "support_ids": ["sup_8d97f4f860b4349c5b00", "sup_d811d36a12e591395c96"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:object-bounded-reading",
+      "origin_candidate_id": "cand_dd6a873bb85b0897748b",
+      "represented_candidate_ids": [],
+      "title": "The object bounds the reading",
+      "claim": "The explicit object makes this a command to read the addressee's record, with the verb's wider reciting range held to that particular task.",
+      "mechanism": "The imperative iqra meets the accusative possessed kitabaka; the noun supplies what must be read and narrows the act to the person's own record.",
+      "reader_payoff": "The reader can distinguish a specified act of record-reading from an open-ended command to recite.",
+      "containment": "The focus object grounds this local distinction; the comparisons with 96:1 and 96:3 are excluded from this finding because their context surfaces are absent.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The retained claim follows from the accepted focus verb-object relation and does not depend on the excluded external comparisons."
+      },
+      "support_ids": ["sup_105fb866821e5fe71b30", "sup_d811d36a12e591395c96"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:personal-record-object",
+      "origin_candidate_id": "cand_bd3bddb38220545e0012",
+      "represented_candidate_ids": [],
+      "title": "The personal record as object",
+      "claim": "The possessed accusative kitabaka completes the command as one individualized record belonging to the addressee.",
+      "mechanism": "The accusative attaches the noun as iqra's direct object, and the second-person suffix identifies whose record is to be read.",
+      "reader_payoff": "The command concerns this person's own record rather than an unspecified book.",
+      "containment": "The claim identifies the local object and possession relation without expanding kitab into every possible written-text use.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied QAC morphology and attachment evidence directly support the object and possessive relations."
+      },
+      "support_ids": ["sup_a4a6de5a35725dc0a80c", "sup_63b2d9167f59bef0e87d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:read-record-unit",
+      "origin_candidate_id": "cand_6de47c09135a2073acb7",
+      "represented_candidate_ids": [],
+      "title": "Read and record form the opening unit",
+      "claim": "The command and its written object make a complete opening unit before the sufficiency clause follows.",
+      "mechanism": "Iqra plus kitabaka already supplies a verb and its required direct object; the ensuing kafa clause therefore adds a second assertion about the reader and record instead of completing the first object.",
+      "reader_payoff": "The reader feels the record-reading act settle before the ayah turns to sufficiency.",
+      "containment": "The two-word unit is a local syntactic effect; the following clause remains connected by the ayah's sequence and shared addressee.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied attachment analysis states that the first clause is syntactically complete at the record object."
+      },
+      "support_ids": ["sup_5aad52352f4743b82bda", "sup_63b2d9167f59bef0e87d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:joined-binding-record",
+      "origin_candidate_id": "cand_420b689ee6319e4d4e6b",
+      "represented_candidate_ids": [],
+      "title": "A joined and binding record",
+      "claim": "The written record can carry a joined-account texture and, through the liability construction, the force of a settled ruling.",
+      "mechanism": "The reading command meets kitabaka as an assembled object, activating the root's joining facet; alayka hasiban then makes the record consequential for the addressee and activates the root's ruling facet. The account's joined entries and its binding effect explain one another.",
+      "reader_payoff": "The record becomes both a composite account and something the addressee must answer for.",
+      "containment": "The plain written-record sense remains primary. The joining and ruling readings are attributed local extensions, not a claim that the noun literally denotes a physical joining or every kind of decree.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Trusted word analysis and the focus branch records support the local contacts; the specific integrated activation is also present in legacy-unbound HFT traces."
+      },
+      "support_ids": ["sup_06967ae630dc0e84538e", "sup_63b2d9167f59bef0e87d", "sup_3cd61247d5d00f6189f2", "sup_dabc0890efde980ee99b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "facet_statement": "Temel işlem, bir şeyi başka bir şeye katarak ikisini bir bütün veya bağlı bir düzen içinde birleştirmektir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:14:2:1"],
+          "trigger_refs": ["17:14:1:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:2:1"],
+          "carrier": "The possessed written record named by kitabaka.",
+          "independent_trigger": "The separate command to read and the closing counting role orient the record toward an account assembled from entries.",
+          "activation": "The written object meets reading and reckoning, so the joining facet contributes a composite-account texture to the record.",
+          "resulting_reading": "The record is heard as an ordered whole assembled for reckoning.",
+          "boundary": "The branch's physical or collective joining gloss is an attributed root pressure here; the noun remains a written record."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir konuda geçerli ve kesinleşmiş hüküm vermek aynı belirleme çekirdeğinin yargısal yönüdür.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:14:2:1"],
+          "trigger_refs": ["17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:2:1"],
+          "carrier": "The personal written record named by kitabaka.",
+          "independent_trigger": "The later alayka liability marker and hasiban reckoner role make the record answerable in a judgment-like relation.",
+          "activation": "The record meets a clause that directs reckoning against its addressee, giving the written object a binding adjudicative texture.",
+          "resulting_reading": "The record is not only read; it functions locally as an established account with consequences for its owner.",
+          "boundary": "This is a contextual ruling resonance. The supplied focus does not make kitabaka a literal legal decree."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:sufficiency-on-self",
+      "origin_candidate_id": "cand_504619d51b678714c7db",
+      "represented_candidate_ids": [],
+      "title": "Sufficiency lands on the self",
+      "claim": "The local sufficiency construction places the sufficient party in the addressee's own self and lets the final reckoner role specify what that sufficiency does.",
+      "mechanism": "Kafa governs the bi-nafsika complement; the self phrase meets the final hasiban role and alayka liability marker, shifting the clause from an abstract statement of enoughness to self-sufficiency in reckoning.",
+      "reader_payoff": "The addressee moves from owner of the record to the party whose own self can reckon it.",
+      "containment": "The local sufficiency reading remains intact. The cited formula comparisons at 4:6 and 33:39 are excluded here, and no theological identity claim follows from the local role assignment.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus construction and root facet are supplied, while its integration with the closing role is corroborated by a legacy-unbound HFT trace and the external formula comparisons were excluded."
+      },
+      "support_ids": ["sup_057cbb45d56f9acb8b40", "sup_a5b10c503af814badb5a", "sup_dabc0890efde980ee99b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001310/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sana yeter demek; kendi türünde yeterli saymak",
+          "facet_statement": "Bir şeyin muhatabın gereksinimini karşılamaya yeteceğini bildiren kuruluş dalın temel kullanımıdır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:14:3:1"],
+          "trigger_refs": ["17:14:4:2", "17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:3:1"],
+          "carrier": "The perfect sufficiency verb kafa.",
+          "independent_trigger": "The separate self complement and final reckoner role identify the party and capacity in which the sufficiency is asserted.",
+          "activation": "The branch's sufficiency statement meets the possessed self and the final accounting role, so enoughness lands on the addressee's own reckoning.",
+          "resulting_reading": "The addressee's self is sufficient in the local reckoning scene.",
+          "boundary": "The focus assigns a role in this clause; it does not turn the sufficiency phrase into a universal or theological equivalence."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:marked-sufficiency-frame",
+      "origin_candidate_id": "cand_8f911bd432813c200137",
+      "represented_candidate_ids": ["cand_49c4c9662f0ae4b120a8"],
+      "title": "The marked sufficiency frame",
+      "claim": "The bā construction makes the self a marked complement of sufficiency, with agent-like force rather than an ordinary direct object.",
+      "mechanism": "Kafa is followed by bā governing nafsika; that grammatical contact makes the addressee's own self the sufficient party, while the local construction keeps an instrumental reading subordinate.",
+      "reader_payoff": "The short preposition is seen doing the work that connects sufficiency directly to the self.",
+      "containment": "The claim describes the supplied kafa bi construction and its complement relation; it does not treat the self as a plain transitive object or a mere tool.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Both candidate records are supported by the same accepted attachment and QAC evidence for the marked bā frame."
+      },
+      "support_ids": ["sup_057cbb45d56f9acb8b40", "sup_1381572a6429a59ff424", "sup_30a1de7d58d40b0cc575", "sup_4ff6b21d74a5c20581f9"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:perfect-sufficiency",
+      "origin_candidate_id": "cand_567a3659f69d286a40c8",
+      "represented_candidate_ids": [],
+      "title": "Sufficiency already settled",
+      "claim": "The perfect form presents sufficiency as established in the clause: the self already suffices for the reckoning at hand.",
+      "mechanism": "The perfect sufficiency verb precedes its marked self complement and the closing reckoner role, so the reader receives sufficiency as a settled relation rather than a future possibility.",
+      "reader_payoff": "The sufficiency is felt as an accomplished condition in the scene.",
+      "containment": "The local reading is sufficing. Protection or averting remains a secondary root possibility in the support and is not added as a separate reading here.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied morphology and candidate evidence directly support the perfect form and locally selected sufficiency."
+      },
+      "support_ids": ["sup_1381572a6429a59ff424", "sup_19e0ea2f20322168477e"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:proclitic-clause-attachment",
+      "origin_candidate_id": "cand_8972efdb3c1c01aaa389",
+      "represented_candidate_ids": [],
+      "title": "The clause attaches directly",
+      "claim": "The self enters the sufficiency clause through a bound bā, and that clause follows the command-object unit without an intervening conjunction.",
+      "mechanism": "The proclitic is attached to nafsika while kafa begins immediately after the completed iqra kitabaka unit; this sequence draws the self into the explanation at once.",
+      "reader_payoff": "The reader feels the turn from reading the record to the self's sufficiency as a direct continuation of the same scene.",
+      "containment": "The claim concerns local attachment and order; it does not erase the clause boundary or assert a conjunction that is absent.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The proclitic attachment and clause sequence are directly stated in the supplied word analysis."
+      },
+      "support_ids": ["sup_f142d7d44ff463a26b8c", "sup_4ff6b21d74a5c20581f9"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:self-as-sufficient-party",
+      "origin_candidate_id": "cand_17536ed81d46dba287c7",
+      "represented_candidate_ids": [],
+      "title": "The self bears the sufficiency role",
+      "claim": "The person whose record is to be read is also the self presented as sufficient for the reckoning.",
+      "mechanism": "Nafsika is genitive under the sufficiency bā and repeats the addressee's possessive marking from kitabaka; the same person moves from owner of the record to sufficient party.",
+      "reader_payoff": "The reader sees the reckoning turn inward to the person already named by the record.",
+      "containment": "The local phrase assigns the self an agent-like role in this sufficiency construction without making it an outside witness.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied attachment, possession, and role analysis directly support the local relation."
+      },
+      "support_ids": ["sup_d7c300f4a6d86b7d6d97", "sup_f034527b1e5deb5afb37"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:repeated-addressee-suffix",
+      "origin_candidate_id": "cand_e336fd0609e09a6b1e08",
+      "represented_candidate_ids": ["cand_1784c477f9945cbd3f35"],
+      "title": "One addressee, changing roles",
+      "claim": "The same second-person suffix marks the owner of the record, the possessor of the self, and finally the person against whom reckoning is directed.",
+      "mechanism": "The suffix returns in kitabaka, nafsika, and alayka; its referent stays constant while the surrounding nouns and preposition shift the addressee from owner to sufficient party to liable target.",
+      "reader_payoff": "One person remains in view as the record, self, and reckoning change their relation.",
+      "containment": "The grammatical repetition identifies the same addressee; it does not itself determine the moral outcome of the reckoning.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The repeated second-person morphology and all three focus forms are supplied directly."
+      },
+      "support_ids": ["sup_87ae66c1d59bef4dbe13", "sup_f034527b1e5deb5afb37", "sup_ae6163df98e49073b5b6", "sup_8509053e06ab77653ab0"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:self-person-carrier",
+      "origin_candidate_id": "cand_9270a0b63b595c858c78",
+      "represented_candidate_ids": [],
+      "title": "The self as person",
+      "claim": "In the sufficiency phrase, the possessed self names the addressee as a whole person who can be held to the record.",
+      "mechanism": "The record belongs to the addressee and the closing reckoner role applies to that same self; this accounting contact lets nafs carry the person in the scene, while breath or embodied-life pressure remains a qualified undertone.",
+      "reader_payoff": "The reckoner is encountered as the living person implicated by the record, rather than as a detached faculty alone.",
+      "containment": "The packet does not activate blood, evil-eye, or the other available root branches here; breath and embodied-life language stays pressure within the self-person reading, not a separate sense.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The local self-person sense is supported, while the embodied pressure is explicitly not selected as an independent lexical reading."
+      },
+      "support_ids": ["sup_430950e929f635404085", "sup_f034527b1e5deb5afb37"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:decisive-day",
+      "origin_candidate_id": "cand_3f755c37bc082d9ef569",
+      "represented_candidate_ids": [],
+      "title": "The day as decisive occasion",
+      "claim": "Al-yawm names the critical occasion of the reckoning, while preserving the immediacy of today in the address.",
+      "mechanism": "The day word meets the opening read-command, personal record, and final reckoner role; those independent focus words activate the event-day facet and make sufficiency immediate in a decisive scene.",
+      "reader_payoff": "The temporal word is heard as the time of an event, not only as a span of daylight.",
+      "containment": "The event-day reading is bounded to this local reckoning scene; it does not depend on the unprovided 17:13 context or claim that every use of yawm denotes a critical event.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus scene and event-day facet are supplied; the HFT trace corroborates the contact but remains attributed, and the preceding context unit is absent."
+      },
+      "support_ids": ["sup_3b782d5193093039da59", "sup_afa42ccb231892813062", "sup_dabc0890efde980ee99b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F001",
+          "branch_gloss": "büyük olayın yaşandığı çetin gün veya olay",
+          "facet_statement": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:14:5:2"],
+          "trigger_refs": ["17:14:1:1", "17:14:2:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:5:2"],
+          "carrier": "The definite temporal noun al-yawm.",
+          "independent_trigger": "The separate command to read a personal record and the final reckoner role establish the local event as a reckoning scene.",
+          "activation": "The event-valued reckoning scene meets the day noun and gives its time reference critical-event force.",
+          "resulting_reading": "Today is the decisive occasion on which the self's sufficiency and reckoning meet.",
+          "boundary": "Only the core critical-time facet is active; no severe-day specialization or wider historical event is asserted."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:definite-day",
+      "origin_candidate_id": "cand_6a38a72262324308d668",
+      "represented_candidate_ids": [],
+      "title": "The identifiable day",
+      "claim": "The definite temporal adverb places the reckoning at an identifiable day within the scene.",
+      "mechanism": "The article al- marks yawm as definite, and its temporal-adverb role sets the time for the preceding self-sufficiency and following liability phrase.",
+      "reader_payoff": "The reckoning is situated at a known moment of address rather than an unspecified time.",
+      "containment": "This is the focus clause's definiteness and temporal function; no separate deictic compound construction is inferred.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus QAC record supplies the definite article, noun, and accusative temporal use."
+      },
+      "support_ids": ["sup_b32ef14b44cac5b52358", "sup_afa42ccb231892813062"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:temporal-hinge",
+      "origin_candidate_id": "cand_c2b8120d2e366fe8b4fd",
+      "represented_candidate_ids": [],
+      "title": "Time holds both clauses",
+      "claim": "Al-yawm holds the self-sufficiency phrase and the against-you reckoning under one time frame.",
+      "mechanism": "The temporal adverb stands between bi-nafsika and alayka hasiban; its position joins the two relations as aspects of the same occasion and delays the final role name.",
+      "reader_payoff": "The reader sees sufficiency and liability meeting at one moment.",
+      "containment": "This is a local sequencing effect and does not establish a surah-wide time network.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "All three phrases and their order are present in the supplied focus surface and word analysis."
+      },
+      "support_ids": ["sup_448f191c31539ed687af", "sup_afa42ccb231892813062"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:liability-preposition",
+      "origin_candidate_id": "cand_50bcd980baa42ccb5de8",
+      "represented_candidate_ids": [],
+      "title": "Reckoning directed against the addressee",
+      "claim": "Alayka directs the reckoning against the addressee, placing that person in the liable position.",
+      "mechanism": "The preposition alā with its second-person suffix attaches to the final reckoner role; this direction makes the reckoning concern the addressee as its target.",
+      "reader_payoff": "The person is seen as the one under account, not only the subject being described.",
+      "containment": "The preposition marks the relation of liability; it does not by itself pronounce an outcome.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus attachment evidence supplies the adversative direction and relation to the final role."
+      },
+      "support_ids": ["sup_f0e7f3e4c314f2544f96", "sup_8509053e06ab77653ab0"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:target-before-role",
+      "origin_candidate_id": "cand_8994acd64bc3ed79adb3",
+      "represented_candidate_ids": [],
+      "title": "The target precedes the title",
+      "claim": "The addressee is placed under reckoning before the final word names the reckoner role.",
+      "mechanism": "Alayka appears before hasiban even though the attachment analysis links them; the target is exposed first and the capacity is named at the close.",
+      "reader_payoff": "The reader meets liability before learning the exact role in which the self suffices.",
+      "containment": "The attachment is resolved in the packet, so the effect is word order rather than syntactic ambiguity.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus word order and supplied attachment evidence directly support the delayed role naming."
+      },
+      "support_ids": ["sup_f1d0626adbe521927a78", "sup_8509053e06ab77653ab0"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:reckoning-selection",
+      "origin_candidate_id": "cand_bf7eb97136c93d07a936",
+      "represented_candidate_ids": [],
+      "title": "The final role as accounting",
+      "claim": "The closing hasib is heard as a reckoner: the record and liability frame direct its root pressure toward counting and account.",
+      "mechanism": "Hasib is the carrier; kitabaka supplies a record to be read and alayka supplies a target for reckoning, so the counting facet meets an explicit account and its liable addressee.",
+      "reader_payoff": "The final word gives the self a precise accounting role instead of a vague inward awareness.",
+      "containment": "The packet also preserves supposition as a root possibility, but the record and liability triggers support accounting here; other root branches remain unactivated.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The word analysis selects accounting from the supplied root range, and the focus record and liability words provide its independent triggers."
+      },
+      "support_ids": ["sup_363585c012fc098622c3", "sup_52efa415a23e8f3a889e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000318/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayarak nicelik belirleme",
+          "facet_statement": "Nesneler tek tek sayılır ve nicelikleri sayı kullanılarak belirlenir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:14:7:1"],
+          "trigger_refs": ["17:14:2:1", "17:14:6:1"],
+          "focus_return_refs": ["17:14:7:1"],
+          "carrier": "The final hasib role.",
+          "independent_trigger": "The personal written record supplies countable material, and alayka directs the accounting toward the addressee.",
+          "activation": "The reckoner form meets both a record to assess and a named liable target, activating counting and accounting rather than conjecture.",
+          "resulting_reading": "The self is the one who counts and reckons the record against its addressee.",
+          "boundary": "The focus supports the counting core; it does not activate supposition, sufficiency, nobility, or other branches of the root."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:closing-cadence",
+      "origin_candidate_id": "cand_0f7bac942264d8703f21",
+      "represented_candidate_ids": [],
+      "title": "The closing cadence answers the command",
+      "claim": "The ayah's sound moves from a clipped opening command to a closing indefinite reckoner role after repeated second-person marking.",
+      "mechanism": "Iqra opens with the supplied clipped edge; the repeated suffixes maintain direct address, and the final hasiban cadence resolves the sequence by naming the self's capacity.",
+      "reader_payoff": "The ending sounds like a role named in answer to the opening command.",
+      "containment": "This is a bounded cadence observation from the supplied text analysis, not a claim about an unprovided audio realization.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The packet records the cadence and suffix pattern, but supplies no independent recitation audio."
+      },
+      "support_ids": ["sup_5c31462b4c25136e65dc", "sup_52efa415a23e8f3a889e"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:reckoner-quality",
+      "origin_candidate_id": "cand_62ab8c4cdb9eb3737c89",
+      "represented_candidate_ids": [],
+      "title": "A durable reckoner capacity",
+      "claim": "Hasiban characterizes the self in a reckoner capacity rather than naming only one isolated act of counting.",
+      "mechanism": "The supplied faʿīl form and indefinite accusative role-quality attach a capacity to the self that has just been declared sufficient.",
+      "reader_payoff": "The reader hears what the self is for in the scene, not only what it does once.",
+      "containment": "The quality remains accounting and reckoning in this construction; the form alone does not activate the other meanings in the root range.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The form, case, and local role analysis are directly supplied in the word support."
+      },
+      "support_ids": ["sup_faf1f31ab8046c057e44", "sup_52efa415a23e8f3a889e"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:final-capacity-specification",
+      "origin_candidate_id": "cand_f85a1289d5b086f2f4d9",
+      "represented_candidate_ids": [],
+      "title": "The last word names the capacity",
+      "claim": "Hasiban specifies at the close what the self suffices as: a reckoner directed against the addressee.",
+      "mechanism": "The final accusative specifies the sufficiency verb, while alayka supplies the reckoning target; the word order withholds the capacity until the last position.",
+      "reader_payoff": "The reader reaches the exact role of the self only at the ayah's final word.",
+      "containment": "The clause remains a sufficiency statement whose final word clarifies the capacity; no separate abstract accounting noun is substituted.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The accepted QAC mapping and supplied attachment analysis identify the final accusative specification and its complement."
+      },
+      "support_ids": ["sup_62032819be3edc0074ea", "sup_52efa415a23e8f3a889e"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:enacted-self-audit",
+      "origin_candidate_id": "cand_4aae6d6deb22d71451c9",
+      "represented_candidate_ids": [],
+      "title": "Reading becomes self-audit",
+      "claim": "The command stages a self-audit: the addressee reads a written record and encounters the same self as recorded person and reckoner.",
+      "mechanism": "Reading meets the personal written object; the self phrase identifies the person in the record, and the closing count-and-liability relation returns the act to that same addressee.",
+      "reader_payoff": "The record is experienced as evidence the person must read and answer for, rather than information delivered by an outside narrator.",
+      "containment": "The plain command remains read your record and the plain sufficiency relation remains in view; self-audit is the attributed scene formed by their contact, not a literal new dictionary gloss for reading.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The traced focus coordinates and roots agree with QAC, while the HFT role integration remains legacy-unbound and is retained as attributed."
+      },
+      "support_ids": ["sup_8a71f6208d17e7a3892f"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000318/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayarak nicelik belirleme",
+          "facet_statement": "Nesneler tek tek sayılır ve nicelikleri sayı kullanılarak belirlenir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:7:1"],
+          "trigger_refs": ["17:14:1:1", "17:14:2:1", "17:14:6:1"],
+          "focus_return_refs": ["17:14:7:1"],
+          "carrier": "The closing hasib role.",
+          "independent_trigger": "The read command and personal record provide an account to enumerate, while alayka identifies the person against whom it is reckoned.",
+          "activation": "The counting role meets the read-back record and liability relation, turning the command into an enacted accounting act.",
+          "resulting_reading": "The addressee reads and reckons the particulars of the personal record.",
+          "boundary": "This is the attributed HFT accounting role anchored at the focus; it does not assign every available h-s-b branch to the word."
+        },
+        {
+          "branch_ref": "root_001210/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "reading, reciting, and teaching recitation",
+          "facet_statement": "reading, reciting, and teaching recitation",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:1:1"],
+          "trigger_refs": ["17:14:2:1", "17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:1:1"],
+          "carrier": "The opening read or recite imperative.",
+          "independent_trigger": "The possessed written record and the later liability-and-reckoner phrase make this reading an accountable act.",
+          "activation": "The command to read a specific record meets the final accounting relation, so reading is enacted as an audit rather than passive viewing.",
+          "resulting_reading": "The addressee's reading activates the record as evidence in the reckoning scene.",
+          "boundary": "The reading branch remains reading or recitation; audit is the attributed local relation, not its literal gloss."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:2:1"],
+          "trigger_refs": ["17:14:1:1", "17:14:4:2", "17:14:7:1"],
+          "focus_return_refs": ["17:14:2:1"],
+          "carrier": "The possessed written record in kitabaka.",
+          "independent_trigger": "The imperative to read, the self who owns the record, and the final reckoner role supply the audit relation.",
+          "activation": "The written-text facet meets the read command and same-person reckoning, making the record stable evidence for the self to inspect.",
+          "resulting_reading": "The book functions as a readable record in the addressee's own audit.",
+          "boundary": "The written-text branch stays within its supplied meaning; the audit function is the attributed focus relation."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "İşlemin ürünü, yazılmış metin veya üzerinde bu metnin bulunduğu sayfa ya da kitaptır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:2:1"],
+          "trigger_refs": ["17:14:1:1", "17:14:4:2", "17:14:7:1"],
+          "focus_return_refs": ["17:14:2:1"],
+          "carrier": "The possessed written record in kitabaka.",
+          "independent_trigger": "The read imperative and the self's reckoning role return the written product to its owner.",
+          "activation": "The written product is not inert in the clause: the addressee is ordered to read it and then appears as its own reckoner.",
+          "resulting_reading": "The written book becomes the inspectable object in a self-audit.",
+          "boundary": "This product facet is retained with its F001 core; the audit relation remains attributed, not a lexical definition of book."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": "F001",
+          "branch_gloss": "şeyin kendisi ve bütün öz varlığı",
+          "facet_statement": "Bir şeyin bütün gerçeği ve öz varlığıyla kendisini pekiştirerek gösterir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:4:2"],
+          "trigger_refs": ["17:14:2:1", "17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:4:2"],
+          "carrier": "The possessed self in bi-nafsika.",
+          "independent_trigger": "The same addressee owns the written record and is named as the target of reckoning.",
+          "activation": "The self's identity meets the written account and liability relation, collapsing recorded subject and witness into one person.",
+          "resulting_reading": "The person who reads the record is the very person whose account is being reckoned.",
+          "boundary": "The identity reading is attributed to the local collocation and does not make every inner, bodily, or soul-related branch active."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": "F002",
+          "branch_gloss": "şeyin kendisi ve bütün öz varlığı",
+          "facet_statement": "Kişinin başkası aracılığıyla değil, bizzat kendisinin bulunmasını belirtir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:4:2"],
+          "trigger_refs": ["17:14:2:1", "17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:4:2"],
+          "carrier": "The possessed self in bi-nafsika.",
+          "independent_trigger": "The personal record and alayka reckoning keep the same individual in the roles of reader, recorded person, and target.",
+          "activation": "The self-as-person facet meets the repeated addressee and accounting role, making an outside human intermediary unnecessary to the local scene.",
+          "resulting_reading": "The addressee is both the person represented by the record and the one who reckons it.",
+          "boundary": "This is an attributed role relation in the focus clause, not a claim that the self replaces divine judgment."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:closed-evidentiary-circuit",
+      "origin_candidate_id": "cand_983c5bab26ab46aca518",
+      "represented_candidate_ids": [],
+      "title": "The evidence forms a closed circuit",
+      "claim": "The record, self, and reckoning form a closed evidentiary circuit: the self is itself sufficient evidence at the decisive occasion.",
+      "mechanism": "The record carries a binding-ruling texture; kafa declares sufficiency; nafs identifies the person whose whole self is present; yawm gives the critical occasion; and the final hasib role echoes sufficiency through reckoning.",
+      "reader_payoff": "The reader sees the self's sufficiency as the closure of a record-and-reckoning relation, not only as competence to count.",
+      "containment": "The before-reading of a self competent to perform arithmetic remains intact as the plain counting sense. The closed-case image is an attributed integration and makes no claim that the record eliminates divine judgment.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The five HFT coordinates agree with supplied focus roots and words; their integrated evidentiary reading remains attributed because the HFT source is legacy-unbound."
+      },
+      "support_ids": ["sup_dabc0890efde980ee99b"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000318/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gereksinimi karşılayacak kadar yetmek",
+          "facet_statement": "Bir şey, kişinin gereksinimini karşılar ve başka bir şeye yönelme ihtiyacını kaldırır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:7:1"],
+          "trigger_refs": ["17:14:3:1", "17:14:2:1", "17:14:4:2"],
+          "focus_return_refs": ["17:14:7:1"],
+          "carrier": "The closing hasib role.",
+          "independent_trigger": "The separate kafa verb states sufficiency, and the record and self identify what is sufficient evidence.",
+          "activation": "The sufficiency branch of reckoning meets the explicit sufficiency verb and the personal account, echoing enoughness at the close.",
+          "resulting_reading": "The self's reckoning is itself sufficient to complete the local evidentiary circuit.",
+          "boundary": "This is an attributed branch contact, not a claim that hasib ordinarily means only sufficient or that every need is removed."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir konuda geçerli ve kesinleşmiş hüküm vermek aynı belirleme çekirdeğinin yargısal yönüdür.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:2:1"],
+          "trigger_refs": ["17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:2:1"],
+          "carrier": "The personal written record in kitabaka.",
+          "independent_trigger": "The later against-you reckoner phrase makes the record adjudicative for its addressee.",
+          "activation": "A written account meets an explicit liability relation, allowing the binding-ruling facet to contribute force to the record.",
+          "resulting_reading": "The record is part of a settled case whose subject and evidence meet in the same clause.",
+          "boundary": "The judgment facet is an attributed local texture; the written noun remains a record."
+        },
+        {
+          "branch_ref": "root_001310/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sana yeter demek; kendi türünde yeterli saymak",
+          "facet_statement": "Bir şeyin muhatabın gereksinimini karşılamaya yeteceğini bildiren kuruluş dalın temel kullanımıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:3:1"],
+          "trigger_refs": ["17:14:2:1", "17:14:4:2", "17:14:7:1"],
+          "focus_return_refs": ["17:14:3:1"],
+          "carrier": "The kafa sufficiency construction.",
+          "independent_trigger": "The written record, self, and final reckoner role specify the need and party addressed by the sufficiency statement.",
+          "activation": "The sufficiency declaration meets the record and same-person reckoning, making the self sufficient within this evidentiary scene.",
+          "resulting_reading": "The record and self together complete the local case without another human intermediary.",
+          "boundary": "This remains a local sufficiency relation and does not assert universal self-sufficiency."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": "F001",
+          "branch_gloss": "şeyin kendisi ve bütün öz varlığı",
+          "facet_statement": "Bir şeyin bütün gerçeği ve öz varlığıyla kendisini pekiştirerek gösterir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:4:2"],
+          "trigger_refs": ["17:14:2:1", "17:14:3:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:4:2"],
+          "carrier": "The self phrase bi-nafsika.",
+          "independent_trigger": "The personal record and both sufficiency and reckoner predicates identify the evidence and the person assessed.",
+          "activation": "The self's whole identity meets the record and final reckoning role, making the person the sufficient evidentiary object.",
+          "resulting_reading": "The self itself stands as the evidence whose account is being reckoned.",
+          "boundary": "Only the identity facet is carried; no interior-thought or bodily branch is inferred."
+        },
+        {
+          "branch_ref": "root_001700/B003",
+          "facet_id": "F001",
+          "branch_gloss": "büyük olayın yaşandığı çetin gün veya olay",
+          "facet_statement": "Gün sözü, büyük bir olay gerçekleştiğinde o kritik zamanı veya gerçekleşen olayı anlatmak üzere aktarılır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:5:2"],
+          "trigger_refs": ["17:14:1:1", "17:14:2:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:5:2"],
+          "carrier": "The definite day noun al-yawm.",
+          "independent_trigger": "The read record and final reckoner role establish a critical event in the focus clause.",
+          "activation": "The event-valued reckoning scene meets the day and makes sufficiency immediate rather than abstract.",
+          "resulting_reading": "The self's sufficiency is situated at the decisive occasion of reckoning.",
+          "boundary": "Only the core critical-time facet is used; the ayah does not supply the separate severe-day specialization."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:reassembled-life-account",
+      "origin_candidate_id": "cand_3213f4d5fb566de12b73",
+      "represented_candidate_ids": [],
+      "title": "A life gathered into a record",
+      "claim": "Reading gathers dispersed life into a joined and countable whole, so the book can be heard as a reconstruction of the self as well as a report about it.",
+      "mechanism": "The read command meets the joined-record facet; the self's identity is the whole reconstructed from those entries, and the final counting role orders the collected material into an account.",
+      "reader_payoff": "The reader can see the record as assembling the person it describes, rather than only listing deeds that already stand apart from the self.",
+      "containment": "The plain written record remains intact. The gathering branch has no independent descriptor and the full reconstruction is retained as an exploratory, attributed relation rather than a lexical definition of book or reading.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT trace coordinates and mapped roots match the supplied focus, but its gathering branch is unresolved and the before-after model is explicitly exploratory."
+      },
+      "support_ids": ["sup_3cd61247d5d00f6189f2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000318/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayarak nicelik belirleme",
+          "facet_statement": "Nesneler tek tek sayılır ve nicelikleri sayı kullanılarak belirlenir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:7:1"],
+          "trigger_refs": ["17:14:1:1", "17:14:2:1", "17:14:4:2"],
+          "focus_return_refs": ["17:14:7:1"],
+          "carrier": "The final hasib reckoner role.",
+          "independent_trigger": "The reading command, written record, and self provide the dispersed material to be gathered and counted.",
+          "activation": "Enumeration meets the reading and joined-record contacts, supplying an ordering operation for the collected entries.",
+          "resulting_reading": "The account becomes a countable whole through which the self is reconstructed.",
+          "boundary": "The counting core is attributed from HFT; this does not claim the ayah lists every deed explicitly."
+        },
+        {
+          "branch_ref": "root_001210/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:1:1"],
+          "trigger_refs": ["17:14:2:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:1:1"],
+          "carrier": "The ordinary read or recite imperative iqra.",
+          "independent_trigger": "The record object and final counting role meet the command as dispersed material awaiting an account.",
+          "activation": "The HFT gathering role contacts the written object and enumeration, allowing the reading act to collect material into a whole.",
+          "resulting_reading": "Reading is experienced as gathering life into the account.",
+          "boundary": "No independent lexicon descriptor, gloss, or facet is supplied for this branch; the gathering interpretation remains attributed to the exact HFT trace."
+        },
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "facet_statement": "Temel işlem, bir şeyi başka bir şeye katarak ikisini bir bütün veya bağlı bir düzen içinde birleştirmektir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:2:1"],
+          "trigger_refs": ["17:14:1:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:2:1"],
+          "carrier": "The personal record in kitabaka.",
+          "independent_trigger": "The read command gathers material and the closing reckoner orders it.",
+          "activation": "The written record meets reading and enumeration, activating the joined-whole facet as a way to understand its contents.",
+          "resulting_reading": "The record is an ordered composite of entries rather than only a pre-existing list.",
+          "boundary": "The joining facet is an attributed root image; the noun's direct focus sense remains written record."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": "F001",
+          "branch_gloss": "şeyin kendisi ve bütün öz varlığı",
+          "facet_statement": "Bir şeyin bütün gerçeği ve öz varlığıyla kendisini pekiştirerek gösterir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:4:2"],
+          "trigger_refs": ["17:14:2:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:4:2"],
+          "carrier": "The self phrase bi-nafsika.",
+          "independent_trigger": "The joined record and countable entries provide the components from which the account reconstructs a whole person.",
+          "activation": "The identity facet meets the assembled record, making the self the whole reconstructed from its joined entries.",
+          "resulting_reading": "The record reads as a reconstruction of the addressee, not only a list about that person.",
+          "boundary": "This is the attributed identity facet in the local record relation; other nafs branches are not implied."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:scale-pan-faceoff",
+      "origin_candidate_id": "cand_248784b54d2de9c6cfbe",
+      "represented_candidate_ids": [],
+      "title": "The self weighed and confronted",
+      "claim": "Exploratorily, the sufficiency scene takes on a scale-pan image: the account is held, weighed, and brought face to face with the self that answers for it.",
+      "mechanism": "The attributed containing-pan image at the sufficiency construction meets the independent counting role and personal record; the self and alayka liability relation then turn weighing into a confrontation between the person and their own evidence.",
+      "reader_payoff": "Sufficiency becomes materially imaginable as an account held in a balance and faced by the person it concerns.",
+      "containment": "The ordinary sufficiency statement remains primary. These are form-distant HFT images, never direct lexical meanings of kafa; the branch registry restricts the pan and faceoff uses, so both remain explicitly attributed and exploratory.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The HFT roots and coordinates agree with the focus surface and numerical reckoning provides a separate trigger, but the source itself marks these mapped images exploratory and form-distant."
+      },
+      "support_ids": ["sup_6f0f12cb9ed54ff337df"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000318/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayarak nicelik belirleme",
+          "facet_statement": "Nesneler tek tek sayılır ve nicelikleri sayı kullanılarak belirlenir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:7:1"],
+          "trigger_refs": ["17:14:3:1", "17:14:2:1"],
+          "focus_return_refs": ["17:14:7:1"],
+          "carrier": "The final hasib counting and reckoning role.",
+          "independent_trigger": "The separate sufficiency construction and personal record supply the weighing image and its contents.",
+          "activation": "Counting meets the mapped balance image and record, making numerical reckoning the operation that gives weighing coherence.",
+          "resulting_reading": "The account is evaluated as something countable and weighable.",
+          "boundary": "The counting facet is attributed; no physical scale is asserted in the literal wording."
+        },
+        {
+          "branch_ref": "root_001308/B005",
+          "facet_id": "F001",
+          "branch_gloss": "taşıyan veya çevreleyen yuvarlak araç bölümü",
+          "facet_statement": "Yuvarlak veya çanak biçimli bir araç bölümü içindekini taşır ya da çevreleyerek tutar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:3:1"],
+          "trigger_refs": ["17:14:2:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:3:1"],
+          "carrier": "The focus sufficiency construction at kafa, to which the HFT maps a containing-pan image.",
+          "independent_trigger": "The personal written account and final counting role supply something held and weighed.",
+          "activation": "The containing-pan image meets the record and reckoning operation, materializing sufficiency as a vessel for the account.",
+          "resulting_reading": "The account is imagined as held in a containing pan for evaluation.",
+          "boundary": "This is the core carrying image as attributed by HFT; the focus verb is not a tool noun or literal pan."
+        },
+        {
+          "branch_ref": "root_001308/B005",
+          "facet_id": "F002",
+          "branch_gloss": "taşıyan veya çevreleyen yuvarlak araç bölümü",
+          "facet_statement": "Terazide tartılan nesnenin konduğu taşıyıcı gözü belirtir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:3:1"],
+          "trigger_refs": ["17:14:2:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:3:1"],
+          "carrier": "The focus sufficiency construction at kafa, to which the HFT maps a balance-pan specialization.",
+          "independent_trigger": "The written record and numerical reckoner meet as an object and operation of weighing.",
+          "activation": "The scale-pan specialization meets the countable record, specifying the container as the carrier of what is evaluated.",
+          "resulting_reading": "The record is pictured in the balance pan as the self's account is weighed.",
+          "boundary": "The specialization is retained with core facet F001 and remains an attributed, form-distant image rather than a lexical use of kafa."
+        },
+        {
+          "branch_ref": "root_001308/B011",
+          "facet_id": "F001",
+          "branch_gloss": "yüz yüze karşılaşma",
+          "facet_statement": "İki kişi birbirini doğrudan karşılayacak biçimde yüz yüze gelir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:3:1"],
+          "trigger_refs": ["17:14:4:2", "17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:3:1"],
+          "carrier": "The sufficiency construction at kafa as the HFT's mapped carrier for a faceoff image.",
+          "independent_trigger": "The self phrase, alayka liability marker, and reckoner role place the person and their own evidence in opposed positions.",
+          "activation": "The focus relation between self and account meets the attributed face-to-face image, turning weighing into a confrontation with one's own evidence.",
+          "resulting_reading": "The addressee is pictured as facing the account that is measured against them.",
+          "boundary": "The registry restricts this branch to specified paired expressions; the focus form is not one of them, so this survives only as the attributed HFT image."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": "F001",
+          "branch_gloss": "şeyin kendisi ve bütün öz varlığı",
+          "facet_statement": "Bir şeyin bütün gerçeği ve öz varlığıyla kendisini pekiştirerek gösterir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:4:2"],
+          "trigger_refs": ["17:14:3:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:4:2"],
+          "carrier": "The self phrase bi-nafsika.",
+          "independent_trigger": "The mapped pan image and final counting role make the self both the material weighed and the party evaluated.",
+          "activation": "The identity facet meets the weighing and reckoning relations, placing the whole self within the account.",
+          "resulting_reading": "The self is both what the account weighs and the person confronted by it.",
+          "boundary": "This is an attributed identity reading; it does not activate other nafs branches."
+        },
+        {
+          "branch_ref": "root_001533/B012",
+          "facet_id": "F002",
+          "branch_gloss": "şeyin kendisi ve bütün öz varlığı",
+          "facet_statement": "Kişinin başkası aracılığıyla değil, bizzat kendisinin bulunmasını belirtir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["17:14:4:2"],
+          "trigger_refs": ["17:14:3:1", "17:14:6:1", "17:14:7:1"],
+          "focus_return_refs": ["17:14:4:2"],
+          "carrier": "The self phrase bi-nafsika.",
+          "independent_trigger": "The sufficiency construction and against-you reckoning put the same person directly before the account.",
+          "activation": "The person-self facet meets the confrontation image, keeping the encounter centered on the addressee themself.",
+          "resulting_reading": "The person faces their own account without an intermediary in the attributed image.",
+          "boundary": "This specialization survives with its F001 core and remains a form-distant HFT image, not a literal lexical substitution."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The packet marks readiness as blocked with docket_ready=false. The discovery covers all 39 supplied candidates and all supplied focus-root branches, but the readiness flag remains an upstream limitation.",
+    "selected_context_units and lane_context_refs are empty, and connection_registry has no rows. Cross-ayah pointers in candidate support do not provide occurrence surfaces here; context-dependent readings were narrowed or excluded, and no non-focus carrier or trigger is claimed.",
+    "All four HFT records are legacy_unbound and their anchor evidence verifies exact Arabic surface contact only; target_morphology_supplied is false. Their stated focus indices and roots agree with the separately supplied QAC surface, so retained roles remain attributed.",
+    "root_001210/B001 has no independent branch descriptor. Its gathering role is retained only through the matching HFT trace, with null gloss and facet.",
+    "No semantic_obligations or required_branch_facets fields are supplied on candidate records. The findings cite each retained candidate's support, preserve every HFT trace role and before-after change, and leave semantic_obligation_refs empty; no discrete obligation references were available to exclude.",
+    "The inline packet supplies no v12_reader_responses, v12_focus_trace_hermetic, v12_reader_walks, or anchored-channel records, so those source families provide no independent corroboration in this discovery."
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:13",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_50e5af58d11be9dbf4d1",
+      "decision": "narrow",
+      "reason": "Odak yüzey, uçuş imgesi, kişiye bağlama, boyun ve açılmış kişisel kayıt arasında destekli bir hareket sunuyor; 20:100 ve 81:10 bu hareketi daha geniş bir hesap ve açığa çıkma bağlamına yerleştiriyor. Dağılma, öfkeli taşkınlık, boyun biçimli yükselti ve mühürsüz belge dalları gerçek taşıyıcı ya da bağımsız tetikleyiciyle uyuşmadığı için daraltıldı.",
+      "finding_refs": ["global:bound-open-record"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000962/B002",
+          "reason": "Dal, bir bütünün parçalarının ayrılıp yayılmasını anlatır. Odak biçimindeki طائر uçuşla ilişkili bir isim-fiildir; odakta parçalanma veya yayılma eylemi yoktur ve dış bağlam bu dalı ayrıca tetiklemez. Uçuş çekirdeği B001 korunur."
+        },
+        {
+          "branch_ref": "root_000962/B005",
+          "reason": "Öfke ve kendini tutamadan atılma dalı bir davranış taşıyıcısı gerektirir. طائر burada iyelikli isimdir; öfkeli davranışı gösteren bir yüklem veya bağımsız bağlam tetikleyicisi yoktur."
+        },
+        {
+          "branch_ref": "root_001053/B002",
+          "reason": "Boyun biçimli yükselti anlamı kaynakta belirli benzetmeli söz öbekleriyle sınırlıdır. Odaktaki عُنُقِهِۦ, yer bildiren yapıda gerçek beden uzvu olan boyundur."
+        },
+        {
+          "branch_ref": "root_001503/B009",
+          "reason": "Bu dal çocuk yazısı, açılmış çok sayıdaki sayfa ve mühürsüz buyruk gibi ayrı özel kullanımları bir arada tutar. Odaktaki tekil kişisel kitap için açıp yayma çekirdeği B001 yeterlidir; B009'un açılmış sayfalar uzantısı, kendi temel çocuk yazısı yüzü uyuşmadığı için tek başına taşınamaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5c0ceae87e604d018ea4",
+      "decision": "represented",
+      "reason": "Bu okuyucu-yürüyüşü kaydı, odaktaki uçuş imgesinin boyna bağlanıp açık kişisel kayıtla karşılaşmaya dönüşmesi bakımından global:bound-open-record bulgusuyla aynı okumadır. Adayın dört kayıtlı dalı bulguda karşılık gelen çekirdek yüzleriyle yer alır; ayrı bir bağlamı veya anlamsal yükümlülüğü yoktur.",
+      "finding_refs": ["global:bound-open-record"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_487b63f4000a94c3e9f8",
+      "decision": "reject",
+      "reason": "Geriye dönük sürpriz 17:71'e dayanıyor: bu, odak perikopunun dışındaki aynı-sûre bağlamıdır ve bu global şeritte evrensel bir tetikleyici sayılmaz. Tarih taşı ve mikroskobik kayıt ayrıntısı bu nedenle global bulguya taşınmadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:71",
+          "reason": "Aynı sûrenin daha sonraki ayeti; bu okuma makro bağlamına aittir, global tetikleyici değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9d3043b32c8ad2bc29b4",
+      "decision": "reject",
+      "reason": "Okuyucu kaydının verdiği 17:12, 17:14 ve 17:15 tetikleyicilerinin tümü odak perikopundadır; bunlar makro katkıdır ve global kapsamı karşılamaz. Ayrıca adayın tek dalı olan B002, odaktaki طائر biçimine parçaların dağılması anlamını bağımsız biçimde bağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000962/B002",
+          "reason": "Dal parçaların ayrılıp yayılmasını anlatır; odakta isim-fiil biçimindeki uçuş/kişisel sonuç taşıyıcısı dışında bu dağılmayı kuran bir tetikleyici yoktur."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:12",
+          "reason": "Odak perikopundaki komşu ayet; global tetikleyici değil, makro bağlamdır."
+        },
+        {
+          "context_ref": "17:14",
+          "reason": "Odak perikopundaki komşu ayet; global tetikleyici değil, makro bağlamdır."
+        },
+        {
+          "context_ref": "17:15",
+          "reason": "Odak perikopundaki komşu ayet; global tetikleyici değil, makro bağlamdır."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9da91fdfccb6ce6326b6",
+      "decision": "reject",
+      "reason": "Geriye dönük sürpriz yalnız 17:14-15'teki okuma ve başkasına yüklenemeyen sorumluluk hareketine dayanıyor. Bu içerik odak perikopunun makro bağlamıdır; ayrı bir global tetikleyici yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:14",
+          "reason": "Odak perikopundaki komşu ayet; bu şeritte global tetikleyici değildir."
+        },
+        {
+          "context_ref": "17:15",
+          "reason": "Odak perikopundaki komşu ayet; bu şeritte global tetikleyici değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fd78b120a005a92799b7",
+      "decision": "reject",
+      "reason": "HFT kaydı طائر için uğur, eylem, sonuç ve yön duygusu arasında ne kadar pay bulunduğunun çözülmediğini söylüyor; ancak destek kaydında ayet, sözcük indisi, kök, atfedilmiş rol veya odağa dönüş izi yok. Bu nedenle HFT iddiası global etkinleşme kanıtı olamaz; belirsizlik sürtünme notunda korunuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8fdd1e22ff71f206b368",
+      "decision": "reject",
+      "reason": "Uprightness-calibration önerisinin HFT kaydında odak sözcüğü, bağlam ayeti, kök ve rol eşlemesi veya odağa dönüş izi yoktur. Pakette Fatiha'dan yalnız 1:4'ün Arapça yüzeyi bağlantı kaydıyla görünür; bu yüzey q-w-m'nin farklı dallarını kurmaz ve hedef morfolojisi de verilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_aa8ef2cc9a846a6f82de",
+      "decision": "reject",
+      "reason": "HFT desteğinde göz yansıması ve özgürleşme sözleşmesi için gerekli tam iz ve odağa dönüş bulunmuyor. Bağımsız yüzey denetiminde إِنْسَانٍ tüm insanı belirtir; göz bebeğindeki küçük görüntü dalı bu sözdizimsel taşıyıcıyla uyuşmaz. كِتَابًا ise açılmış kişisel yazılı kayıttır; özgürleşme sözleşmesinin bedel, taraf ve özgürlük sonucu gibi temel unsurları odakta veya dış tetikleyicide yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_531d248f01f4256fdbcf",
+      "decision": "reject",
+      "reason": "Toplu tarihsel tekrar ile kişiye bağlanan sonuç arasındaki benzetme HFT özetinde ayet koordinatı, odak sözcüğü, kök/rol veya odağa dönen temas olmadan sunuluyor. Bağımsız ve sınanabilir global mekanizma verilmediğinden bu ihtimal etkinleşmiş bulgu sayılmadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0c3b33e01bf87f66d2f5",
+      "decision": "reject",
+      "reason": "Hareketli kişisel seyirden bağlanmış ve açılmış kayda geçiş, başka odak kanıtıyla desteklenebilir; ancak bu HFT özetinin kendi anchor_evidence alanı boştur ve bir sözcük/bağlam izinden odağa dönüş göstermez. HFT'nin kendisine atfedilmiş global okuma olarak taşınamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6756bff3639ec160f169",
+      "decision": "reject",
+      "reason": "Dönüş döngüsü ve yükün devredilmemesi iddiası belirli bir bağlam ayeti, sözcük indisi, kök, atfedilmiş rol veya odağa dönüş iziyle eşleştirilmemiştir. HFT kaydının global bağlam kanıtı olarak kullanılması mümkün değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a5e2c4f5ab02004cbced",
+      "decision": "reject",
+      "reason": "Hız, sayım, ayrıntı, kendi kendini okuma ve yöneliş HFT özetinde ayet/sözcük koordinatı, kök/rol ve odağa dönüşle bağlanmıyor. Tek tek bu temalar için bağımsız global mekanizma sunulmadığından özet bulgu olarak korunmadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_70c0935f0b83229b1bef",
+      "decision": "reject",
+      "reason": "Bilgi ve görmenin kitabı dönüştürdüğü iddiası HFT özetinde exact context ayeti, word index, root, attributed role ya da odak dönüş izi taşımıyor. Bu nedenle global okuma bu kayda dayandırılamaz; 3:30 bağlantısı ayrı ve yüzeyi verilmiş bir bağlam okuması olarak değerlendirildi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_658f64e93fa18458b47a",
+      "decision": "reject",
+      "reason": "Dağılma, bağlanma, çıkarılma, yazılma ve açık karşılaşma dizisinin yanına dönüş, kalibrasyon, tempo, açıklık ve yön mekanizmaları ekleyen HFT sentezinde hiçbir ayet/sözcük/kök/rol koordinatı veya odağa dönüş izi yoktur. Ayrı mekanizmalar bu yüzden atfedilmiş global bulgu olarak kabul edilmedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:bound-open-record",
+      "origin_candidate_id": "cand_50e5af58d11be9dbf4d1",
+      "represented_candidate_ids": ["cand_5c0ceae87e604d018ea4"],
+      "title": "Uçuş imgesi bağlanır, kayıt açılır",
+      "claim": "17:13'te uçuşla ilişkili kişisel sonuç kişinin boynuna bağlanır; ardından onun için bir kitap çıkarılır ve açık halde bulunur. 20:100'de kıyamet gününde taşınan yük bu bağlılığı kaçınılmaz sonuç yönünde derinleştirirken, 81:10'daki açılan yazılı sayfalar kitabın açılma anını daha geniş bir ifşa sahnesine taşır.",
+      "mechanism": "Taşıyıcılar odaktaki طائر, ألزم ve عنق sözcükleridir: alzam fiili uçuş imgesini kişinin boynunda sabitler. 20:100'deki kıyamet günü yükü, aynı kökün kaçınılmaz sonuç dalını bağımsız bağlam tetikleyicisi olarak açar. 17:13'te manshur olan kayıt da 81:10'da açılan yazılı sayfalarla temas ederek kişisel kaydın okunabilirliğini kamusal açığa çıkma yönünde genişletir.",
+      "reader_payoff": "Sonuç uçup kaybolan bir pay gibi değil, kişiye bağlanan, hesap gününe taşınan ve açılmış bir kayıtta görünür olan bir şey gibi kavranır.",
+      "containment": "Odak ayetin yalın kişisel sorumluluk ve açık kitap okuması korunur. Uçuş imgesi literal bir kuş iddiası değildir; 20:100 odaktaki kitabın ceza işlevini belirlemez, 81:10 da odak için ayrıca bir hüküm sonucu bildirmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Odak yüzey ve sözcük-kök eşleşmeleri paket içinde verilmiş, aday desteği trusted olarak etiketlenmiştir. 20:100 ve 81:10 için tam Arapça yüzey bulunsa da hedef morfolojisi ve sözlüksel çözümleme verilmediğinden dış bağlam katkısı nitelikli tutulmuştur."
+      },
+      "support_ids": ["sup_0c8a42b155fb587aeedf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000962/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kanatlı canlı ve uçuş",
+          "facet_statement": "Kanatlı canlı ve onun havada ilerleme hareketi dalın ortak çekirdeğidir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:13:4:1"],
+          "trigger_refs": ["17:13:3:1"],
+          "focus_return_refs": ["17:13:4:1"],
+          "carrier": "ṭāʾir, her kişiye ait sonuç olarak taşınan odak nesnesidir; dal uçuş imgesini verir.",
+          "independent_trigger": "17:13:3:1'deki Form IV bağlama fiili, bu nesneyi kişiye bağlayıcı kılar.",
+          "activation": "Uçuşla hareket edebilen bir şeyin bağlama fiiliyle boyna yerleştirilmesi, hareket imgesini kişide sabitlenen bir sonuca çevirir.",
+          "resulting_reading": "Kişisel sonuç, uçup gidebilecek bir şey gibi duyulurken aynı cümlede taşıyıcısına bağlanır.",
+          "boundary": "Bu ek uçuş imgesidir; ayetin eylem ve kişisel sorumluluk okumasını ya da gerçek bir kuşu ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001053/B001",
+          "facet_id": "F001",
+          "branch_gloss": "baş ile gövde arasındaki boyun ve boyuna bağlı nitelikler",
+          "facet_statement": "Baş ile gövde arasında bağlantı kuran beden uzvudur.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:13:6:1"],
+          "trigger_refs": ["17:13:3:1"],
+          "focus_return_refs": ["17:13:6:1"],
+          "carrier": "Odaktaki boyun, kişinin kendi bedenindeki somut yerdir.",
+          "independent_trigger": "Alzam fiilinin kişiye bir şeyi bağlaması, boyun sözcüğünü soyut yükümlülükten ayrı bir yer taşıyıcısı olarak etkinleştirir.",
+          "activation": "Bağlama eylemi boyunla buluşunca sorumluluk, kişiye ait bir beden noktasında düşünülür.",
+          "resulting_reading": "Sonuç yalnızca soyut bir ilişki değil, kişinin bedenine yerleştirilmiş bir yük olarak görünür.",
+          "boundary": "Odak boyun imgesini verir; bu bulgu zincir veya fiziksel ceza ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001354/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sürekli bağlı kalma ve ayrılmama",
+          "facet_statement": "Birliktelik veya bağlılık süreklidir; bağlı olan şey yerini ya da durumunu korur ve eşlik ettiği şeyden ayrılmaz.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:13:3:1"],
+          "trigger_refs": ["17:13:4:1", "17:13:6:1"],
+          "focus_return_refs": ["17:13:3:1"],
+          "carrier": "Alzam fiili bir şeyi kişiye bağlar; ṭāʾir ve boyun bu bağlılığın nesnesini ve yerini belirler.",
+          "independent_trigger": "Odaktaki kişiye ait sonuç ve onun boyunda bulunması, bağlama eyleminin doğurduğu kalıcı eşlik durumunu kurar.",
+          "activation": "Fiilin ettirgen bağlaması, nesne ve yer bildiren iki ayrı sözcükle buluşunca bağlı kalma, cümle içindeki geçici bir temas değil süreklilik kazanır.",
+          "resulting_reading": "Kişinin sonucu, kendisinden ayrılmayan bir eşlikçi gibi okunabilir.",
+          "boundary": "Form IV fiil bağlama eylemini kurar; burada dal, bu eylemin sonuç durumudur ve ayrı bir çekim anlamı iddia edilmez."
+        },
+        {
+          "branch_ref": "root_001354/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi bağlayıcı kılma",
+          "facet_statement": "Bir kişi, kendisine dışarıdan yöneltilen bir işlemle belirli bir şeyden sorumlu veya ona uymakla yükümlü hale getirilir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["17:13:3:1"],
+          "trigger_refs": ["17:13:4:1", "17:13:6:1"],
+          "focus_return_refs": ["17:13:3:1"],
+          "carrier": "أَلْزَمْنَٰهُ, kişinin kendi sonuç payını ona bağlayan odak fiilidir.",
+          "independent_trigger": "Ṭāʾir'in kişiye ait oluşu ve boyun yerinin açıkça belirtilmesi, bağlama işleminin neyi ve kimi sabitlediğini gösterir.",
+          "activation": "Bir kişiye ait nesne ile beden yeri, bağlama fiilinin yükümlü kılma anlamını somutlaştırır.",
+          "resulting_reading": "Her kişi kendi payıyla yükümlü kılınmış olarak görünür.",
+          "boundary": "Bu dal kişiye yükümlülük bağlamayı anlatır; sorumluluğun ceza türünü veya kapsamını tek başına belirlemez."
+        },
+        {
+          "branch_ref": "root_001354/B003",
+          "facet_id": "F001",
+          "branch_gloss": "kaçınılmaz ve ayrılmaz sonuç",
+          "facet_statement": "Sonuç kişiye bağlanır, ondan ayrılmaz ve kaçınılmaz biçimde gerçekleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:13:3:1"],
+          "trigger_refs": ["conn_ev_34cdaf65469fd914d34f"],
+          "focus_return_refs": ["17:13:3:1"],
+          "carrier": "Odaktaki Form IV fiil kişiye bağlayıcı bir ilişki kurar.",
+          "independent_trigger": "20:100, kıyamet gününde taşınan yükü anarak bağın sonucuna dış bir hesap-günü sahnesi ekler.",
+          "activation": "Kişiye bağlanan sonuç, daha geniş bağlamdaki hesap gününde taşınan yükle buluşunca, bağlılık kaçınılmaz bir sonuca doğru duyulur.",
+          "resulting_reading": "Kişiye bağlanan pay yalnızca süren bir durum değil, hesabın gününde karşılaşılan bir sonuç olarak da okunabilir.",
+          "boundary": "Yalnız dalın çekirdek kaçınılmazlık yüzü kullanılır; odak fiilinin sözlük karşılığının ceza olduğu veya 20:100'deki koşulun herkese genellendiği ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001503/B001",
+          "facet_id": "F001",
+          "branch_gloss": "açıp yayma, dallandırıp dağıtma",
+          "facet_statement": "Kumaş, kitap, sayfa, eşya veya bulut gibi bir şeyi açmak, sermek ve yüzeye yaymak temel işlemdir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:13:13:1"],
+          "trigger_refs": ["conn_ev_a287bde1a512805b5157"],
+          "focus_return_refs": ["17:13:13:1"],
+          "carrier": "Manshur, kişiye çıkarılacak kitabın açık ve yayılmış durumunu niteler.",
+          "independent_trigger": "81:10'da yazılı sayfaların açılması, başka bir bağlamda sayfa yayılmasını ve kamusal görünürlüğü verir.",
+          "activation": "Odaktaki açık kişisel kitap, dış bağlamdaki açılmış yazılı sayfalarla temas ederek kişisel karşılaşmanın daha geniş bir ifşa sahnesi içinde duyulmasını sağlar.",
+          "resulting_reading": "Kitap yalnız okunmaya hazır bir nesne değil, açığa çıkarılmış kayıt olarak da görünür.",
+          "boundary": "81:10 açılmayı destekler; odak kitabının hüküm işlevini, dinleyicisini veya karar sonucunu belirlemez."
+        }
+      ],
+      "connection_refs": ["conn_9b30a4a9418c72167683", "conn_404d577fc1ef28943e26"],
+      "context_refs": ["20:100", "81:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:record-traces",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kişisel kayıt eylemin izini de saklar",
+      "claim": "Daha geniş yazılı-hesap sahneleri, 17:13'teki kişisel kitabın yapılanların yanında geride kalan izler ve kişinin unuttuğu eylemlerle de ilişkili okunmasına imkân verir.",
+      "mechanism": "Taşıyıcı 17:13'teki kişisel yazılı kayıttır. 36:12 eylemlerle onların izlerinin yazılmasını, 58:6 ise insanların unuttuğu eylemlerin sayılmasını tetikleyici olarak getirir. Bu yazma ve sayma sahneleri odaktaki kitapla buluşunca kayıt, anlık belleğin sınırını aşan bir içerik kazanır.",
+      "reader_payoff": "Açık kitap, yalnız kişinin o anda hatırladığı eylemleri değil, eylemlerin izlerini ve unutulmuş olanları da geri getirebilen bir hesap imgesi olur.",
+      "containment": "36:12 ve 58:6, kitap sözcüğünün sözlük karşılığı yapılmıyor; odak ayeti içeriği tek tek saymıyor. Bu dış sahneler, her kaydın aynı usulle tutulduğunu kanıtlamadan daha geniş bir kayıt okuması açıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "İki bağlantı hedefinin tam Arapça yüzeyi ve discovery notları verilmiş, ancak hedef morfolojisi ve sözlüksel çözümlemesi yoktur. Bu nedenle eylem/iz genişlemesi nitelikli bağlamsal okumadır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:13:11:1"],
+          "trigger_refs": ["conn_ev_7bdd45830df4e0471878", "conn_ev_6b851784be25b84f01ea"],
+          "focus_return_refs": ["17:13:11:1"],
+          "carrier": "17:13:11'deki kitab, yazılı ürün olarak kişinin önüne çıkarılır.",
+          "independent_trigger": "36:12 eylemler ile izlerinin yazılmasını, 58:6 ise unutulan eylemlerin sayılmasını bildirir.",
+          "activation": "Odaktaki yazılı ürün, dış bağlamlarda eylem ve izlerin yazılıp sayılmasıyla buluşur; kitap, yalnız mevcut hatırlama değil kayıt altına alınmış izler için de bir yüzey olur.",
+          "resulting_reading": "Kişisel kayıt, eylemlerin yanında onların bıraktığı izleri ve insanın unuttuğu eylemleri de içerebilen bir hesap olarak duyulur.",
+          "boundary": "Bu bağlamlar odaktaki kitabın tüm içeriğini belirlemez ve 17:13'e ayrıca belirtilmemiş ayrıntıların kesin kaydı iddiasını eklemez."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "İşlemin ürünü, yazılmış metin veya üzerinde bu metnin bulunduğu sayfa ya da kitaptır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:13:11:1"],
+          "trigger_refs": ["conn_ev_7bdd45830df4e0471878", "conn_ev_6b851784be25b84f01ea"],
+          "focus_return_refs": ["17:13:11:1"],
+          "carrier": "Odaktaki kitāb, yazma işleminin kişiye çıkarılan ürünüdür.",
+          "independent_trigger": "36:12'deki yazma ve izler, 58:6'daki unutulan eylemlerin sayılması.",
+          "activation": "Yazılı ürün anlamı, dış bağlamların eylem ve izleri kayda alma işlemiyle birleşir; açılmış kitap okunabilir kayıt olur.",
+          "resulting_reading": "Kitap, eylem ve izlerin kişiye dönen yazılı ürünü olarak okunabilir.",
+          "boundary": "Bu, dış ayetlerin bağlamsal katkısıdır; kitap kökünün bağımsız bir leksik anlamı veya odak ayetin ayrıntılı envanteri değildir."
+        }
+      ],
+      "connection_refs": ["conn_0913c98337edc662de28", "conn_e774c455571de960e48b"],
+      "context_refs": ["36:12", "58:6"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:self-encounter",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Açık kitap, kişinin kendi eylemleriyle karşılaşmasıdır",
+      "claim": "17:13'te kişinin kitabı karşılaması, 3:30'da her nefsin yaptığı iyiliği ve kötülüğü hazır bulmasıyla yan yana gelince, kitapla karşılaşma kendi eylemleriyle yüz yüze gelme anlamı da kazanır.",
+      "mechanism": "Taşıyıcı odaktaki yalqāhu karşılaşma fiilidir ve nesnesi kişiye çıkarılan kitaptır. 3:30 her kişinin yaptığı iyilik ve kötülüğü hazır bulmasını, kötülükten uzak olmayı dilemesini bağımsız tetikleyici olarak sunar. Kitapla karşılaşma, bu dış sahnedeki kişinin kendi eylemleriyle karşılaşmasıyla temas eder; yazılı nesne kişisel yüzleşmenin aracına dönüşür.",
+      "reader_payoff": "Okur, kitabın bulunmasını yalnızca bir belgeye erişmek olarak değil, kendi yaptığı şeylerin karşısına çıkması olarak da görebilir.",
+      "containment": "Uzak durma dileği 3:30'un sahnesine aittir; 17:13 kişinin duygu durumunu veya kitabın iyi-kötü eylem listesini ayrıca belirtmez. Kitapla karşılaşma biçimi odakta kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak fiilinin morfolojisi ve 3:30'un tam Arapça yüzeyi pakette bulunur; bağlantı notu yalnız discovery nomination niteliğindedir ve hedef morfolojisi verilmemiştir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001372/B007",
+          "facet_id": "F001",
+          "branch_gloss": "iyilik ya da kötülükle karşılaşma",
+          "facet_statement": "Kişi hayatında iyilikle ya da kötülükle karşılaşır ve ondan pay alır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:13:12:1"],
+          "trigger_refs": ["conn_ev_d175a9b1d6fbfd052405"],
+          "focus_return_refs": ["17:13:12:1"],
+          "carrier": "Yalqāhu, kişinin kitabı karşılamasını anlatan odak fiilidir.",
+          "independent_trigger": "3:30, kişinin yaptığı iyiliği ve kötülüğü hazır bulduğunu, kötülükten uzaklığı dilediğini söyler.",
+          "activation": "Odaktaki kitapla karşılaşma, dış bağlamın hazır bulunan iyi ve kötü eylemleriyle buluşur; karşılaşılan şey kişiye kendi eylemlerini de getirir.",
+          "resulting_reading": "Kitapla karşılaşma, kişinin yaptığı iyilik ve kötülükle karşılaşma olarak duyulur.",
+          "boundary": "İyi-kötü eylemlerin hazır bulunması ve uzaklık dileği 3:30'dan gelir; odak ayetin kendi başına duygusal bir tepki veya ayrıntılı liste bildirdiği söylenmez."
+        }
+      ],
+      "connection_refs": ["conn_5671de2b16c1b389d3b5"],
+      "context_refs": ["3:30"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:omen-attribution",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Uğursuzluk yüklemesi kişiye geri döner",
+      "claim": "7:131, 36:18 ve 27:47'de toplulukların kötü sonucu peygamberlere uğursuzluk diye yüklemesi, ṭāʾir sözcüğünün belirtiyi uğurlu ya da uğursuz sayma dalını etkinleştirir. Bu temas 17:13'teki kişinin kendi ṭāʾirinin boynunda oluşuna dönünce, dışarıya yöneltilen uğursuzluk atfı kişinin kendi payı olarak geri okunabilir.",
+      "mechanism": "Odak taşıyıcısı her kişiye ait ṭāʾir sözcüğüdür. 7:131 ve 27:47'de gelenlerin cevabı bu uğurun Allah katında olduğunu, 27:47 ayrıca topluluğun sınandığını söyler; 36:18 ise topluluğun peygamberleri uğursuz saymasını gösterir. Bu bağımsız sahneler, odaktaki iyelik ve boyun yerleşimiyle buluşarak talih/sonuç anlamına toplumsal suçlama ve kişiye geri dönüş ilişkisini ekler.",
+      "reader_payoff": "Uğursuzluk sözü yalnız başkasına yöneltilen bir etiket değil, onu yöneltenlerin kendi paylarına geri dönen bir atıf olarak da duyulur.",
+      "containment": "Bu, uçuş ve kişisel sonuç okumalarının yanında kalan bir bağlamsal daldır; 17:13'ün bütün anlamını batıl inanca indirmez ve eylem/sorumluluk okumasını seçip dışlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak dalı ve yüzeyi pakette kayıtlıdır; üç hedef ayetin Arapçası tam verilmiş olsa da hedef morfolojisi yoktur ve bağlantı kayıtları karar değil discovery nomination'dır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000962/B003",
+          "facet_id": "F001",
+          "branch_gloss": "belirtiyi uğur ya da uğursuzluk sayma",
+          "facet_statement": "Bir işaret gelecek için iyi veya kötü belirti sayılarak ondan sonuç çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:13:4:1"],
+          "trigger_refs": ["conn_ev_b88b0170dc2ea34249cd", "conn_ev_3cf1d7d5c743c59cdbaf", "conn_ev_3b5a0940e1d995341c3f"],
+          "focus_return_refs": ["17:13:4:1"],
+          "carrier": "Odaktaki iyelikli ṭāʾir, her kişiye ait bir sonuç/pay olarak boyunda yer alır.",
+          "independent_trigger": "7:131 ve 27:47 kötü sonucu peygambere yükleyenlerin uğur dilini ve bu yüklemenin Allah'a/sınanma durumuna döndürülmesini; 36:18 ise düşmanca uğursuzluk atfını gösterir.",
+          "activation": "Dış ayetlerdeki işaret yorumlama kullanımı, odaktaki aynı taşıyıcının kişiye ait oluşu ve boyunda bulunmasıyla buluşur; başkasına yüklenen uğursuzluk, kişisel payın geri dönüşü olarak duyulur.",
+          "resulting_reading": "Ṭāʾir, kişiye bağlanan sonuç anlamını korurken, başkasını uğursuz sayma ve bu atfın geri dönmesi imgesini de taşır.",
+          "boundary": "Odak sözcüğün tek anlamını uğur yorumu yapmaz; bağlamlardaki topluluk suçlaması her kişinin durumuna genellenmez."
+        }
+      ],
+      "connection_refs": ["conn_352af671aae7b6957985", "conn_ace2dfe041615e666f83", "conn_9a67f141f9c1080f039d"],
+      "context_refs": ["7:131", "36:18", "27:47"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:embodied-witness",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Yazılı kayıt, beden tanıklığının yanında durur",
+      "claim": "17:13'te kişiye çıkarılan açık yazılı kayıt, 24:24'te dilin, ellerin ve ayakların yapılanlara tanıklığıyla birlikte okunduğunda, daha geniş hesap sahnesinde yazılı ve bedensel iki ayrı kanıt biçimi görünür.",
+      "mechanism": "Odaktaki taşıyıcı kişisel kitaptır; 24:24'ün tetikleyicisi kişinin beden uzuvlarının yaptıklarına tanıklık etmesidir. İkisi aynı kişisel eylem alanına döndüğünde kitap, daha geniş sahnedeki tek kanıt gibi değil, bedensel tanıklığın yanında duran yazılı bir biçim olarak okunur.",
+      "reader_payoff": "Hesap imgesi yalnızca sayfada yazılı olanı değil, kişinin kendi bedeninde beliren tanıklığı da kapsayan daha geniş bir açıklığa kavuşur.",
+      "containment": "24:24 bedeni odaktaki kitapla özdeşleştirmez. 17:13 kitabın tek kanıt biçimi olduğunu söylemediğinden bu bulgu onu dışlamaz; yalnızca yazılı kayıtla birlikte duran başka bir tanıklık biçimi ekler.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "24:24'ün tam Arapça yüzeyi ve bağlantı notu verilmiştir, fakat hedef morfolojisi yoktur. Bedensel tanıklık ilişkisi bağlamsal ve niteliklidir."
+      },
+      "support_ids": [],
+      "branch_activations": [],
+      "connection_refs": ["conn_815294ac099208cc602f"],
+      "context_refs": ["24:24"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:layered-burden",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Kişisel yük, ek yüklerle birlikte taşınabilir",
+      "claim": "17:13'te her kişiye kendi sonucunun bağlanması, 29:13'te kişinin kendi yüklerinin yanında ek yükler taşımasıyla birlikte okunabilir. Kişisel sorumluluk korunurken, daha geniş hesap imgesi onun başkalarıyla ilişkili sonuçlar da içerebileceğini gösterir.",
+      "mechanism": "Taşıyıcı odaktaki Form IV bağlama fiilidir: kişiye kendi payı bağlanır. 29:13'te kendi yükleriyle beraber başka yüklerin de taşınması bağımsız tetikleyicidir. Bu iki sahne buluşunca kişiye ait hesap, yalnızca yalıtılmış bir sonuç olarak değil, ek sorumlulukların da kişinin üzerinde birikebildiği bir ilişki olarak okunur.",
+      "reader_payoff": "Kişisel hesabın başkasına devredilmemesi, kişinin eylemlerinin başkalarıyla kurduğu ilişkilerden ayrı olduğu anlamına gelmez.",
+      "containment": "Yalnızca 29:13'ün kendi yükleriyle birlikte ek yük taşıma motifi eklenir. Bu, başka birinin kaydının kişiye aktarılması veya her ek yükün nedeninin belirlenmesi iddiası değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak fiili ve 29:13'ün tam Arapça yüzeyi vardır; bağlantı kaydı bu yük motifini discovery nomination olarak sunar ve hedef morfolojisi verilmemiştir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001354/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi bağlayıcı kılma",
+          "facet_statement": "Bir kişi, kendisine dışarıdan yöneltilen bir işlemle belirli bir şeyden sorumlu veya ona uymakla yükümlü hale getirilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:13:3:1"],
+          "trigger_refs": ["conn_ev_0c079d7c4c206fcfd338"],
+          "focus_return_refs": ["17:13:3:1"],
+          "carrier": "Odaktaki fiil, her kişiye kendi payını bağlayıcı kılar.",
+          "independent_trigger": "29:13 kişinin kendi yükleriyle birlikte ek yükler de taşıdığını bildirir.",
+          "activation": "Odaktaki kişisel yükümlülük, dış bağlamdaki ek yüklerle buluşunca kişiye ait sorumluluğun ilişkisel sonuçlar da taşıyabileceği görünür olur.",
+          "resulting_reading": "Kişinin kendi hesabı korunur; daha geniş yük imgesi bu hesabın yanında ek yüklerin de bulunabileceğini açar.",
+          "boundary": "Bu ilişki başkasının kaydının devri değildir ve odak fiilinin sözlük anlamını ek yük olarak değiştirmez."
+        }
+      ],
+      "connection_refs": ["conn_5e224a078f2049535ed6"],
+      "context_refs": ["29:13"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Dokuz global HFT özetinin tümünde anchor_evidence ve branch_refs boştur; hiçbiri bağlam ayeti, odak sözcüğü/kökü, atfedilmiş rol ve odağa dönüş izini birlikte sağlamaz. Bu nedenle HFT adayları dışlandı; özellikle ṭāʾir için uğur, eylem, sonuç ve yön çağrışımlarının göreli ağırlığı çözülmemiş kalır.",
+    "selected_context_units boştur. Fatiha'dan pakette tam yüzeyi görünen tek bağlantı 1:4'tür; 1:6 için hedef yüzey veya morfoloji yoktur. Bu yüzden q-w-m dalları üzerinden dosdoğru yol/kalibrasyon okuması kurulmadı.",
+    "Bağlantı kayıtları hedef ayetlerin Arapçasını verir, hedef morfolojisi ve sözlüksel çözümlemesini vermez. Bu bağlantılardan türetilen global ilişkiler qualified tutuldu; strong/medium/weak prior etiketleri karar veya sıralama olarak kullanılmadı."
+  ]
+}

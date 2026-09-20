@@ -1,0 +1,195 @@
+# V5 reading invitation — 17:8
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p01-with-fatiha/s017/17_8/17_8.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p01-with-fatiha/s017/17_8/17_8.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+17:8, {ar:عَسَىٰ رَبُّكُمْ أَنْ يَرْحَمَكُمْ, tr:ʿasā rabbukum an yarḥamakum, gloss:umulur ki Rabbiniz size merhamet eder} sözüyle merhameti gerçekleşmiş bir sonuç olarak değil, açık bir umut olarak sunar. Hemen ardından {ar:وَإِنْ عُدتُّمْ عُدْنَا, tr:wa-in ʿudtum ʿudnā, gloss:eğer dönerseniz biz de döneriz} şartı gelir; son bağ ise {ar:وَجَعَلْنَا جَهَنَّمَ لِلْكَٰفِرِينَ حَصِيرًا, tr:wa-jaʿalnā Jahannam li-l-kāfirīna ḥaṣīran, gloss:Cehennem'i inkâr edenler için hapseden bir yer kıldık} diye tamamlanır. Böylece umut, mümkün bir insan dönüşü ve ona verilen ilahî yanıtın ardından, kime yöneldiği ayrıca belirtilen tamamlanmış bir atama duyulur.
+
+Başlangıçtaki {ar:عَسَىٰ, tr:ʿasā, gloss:umulur ki} umut ve beklenti fiilidir; ardından gelen {ar:أَنْ, tr:an, gloss:-mesi} maṣdariyye parçacığı bu umudun içeriğini {ar:يَرْحَمَكُمْ, tr:yarḥamakum, gloss:size merhamet etmesi} eylemiyle tamamlar ve muzari fiili mansub kılar. Bu yapı merhameti amaç ya da sonuç olarak değil, umudun içerik tamamlayıcısı olan eylem olarak sunar. İlâhî hitabın bu umuda verdiği kesinlik değeri ayrıca belirlenmez; merhamet açık ihtimal olarak kalır. I. bâbdaki yarḥamakum doğrudan merhamet eylemini muhataplara yöneltir; merhamet ailesinin yakınlık, esirgeme ve koruyucu iyilik tonları bu yönelişte duyulur.
+
+Umudun açık öznesi {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} unvanıdır. Rabbukum içindeki -kum aynı toplulukla ilişkiyi kurarken, yarḥamakum sonundaki -kum onları eylemin nesnesi, yani merhametin alıcısı yapar; biraz sonra {ar:عُدتُّمْ, tr:ʿudtum, gloss:dönerseniz} içindeki -tum ise aynı topluluğu şartlı dönüşün faili kılar. Böylece dilbilgisel ilişki, Rab ile muhataplar arasında bakım ve yönelişten onların eyleyiciliğine doğru değişir. Rabb bir isimdir; kelime ailesindeki eksik olanı gözetip düzeltme, aşama aşama tamamlanmaya götürme kullanımı, umut ile merhametin yanında bu unvana bakım ve onarım tonu verir. Bu bakım tonu unvanın isim niteliği içinde kalır; merhametin gerçekleşme derecesi ise açık bırakılır.
+
+Merhametten dönüş şartına geçen tek harflik {ar:وَ, tr:wa, gloss:ve} bağlayıcısı, açık {ar:إِنْ, tr:in, gloss:eğer} koşuluyla önceki umudu aynı söyleyiş içinde tutar. In, “ne zaman” diyerek zaman belirlemek yerine mümkün bir durumu açar; tek koşul hem muhatapların dönüşünü hem de karşılık olan ilahî dönüşü yönetir. Uzun ā taşıyan {ar:عَسَىٰ, tr:ʿasā, gloss:umut fiili}, kısa ve birbirine sesçe yaklaşan {ar:عُدتُّمْ, tr:ʿudtum, gloss:dönerseniz} ile {ar:عُدْنَا, tr:ʿudnā, gloss:biz de döneriz} biçimlerinden önce işitsel bir alan açar. Bu süre farkı ayetin kendi ritmine katkı verir; önceki ayetlerde bağımsız bir tekrar örüntüsü iddiası taşımaz.
+
+{ar:عُدتُّمْ, tr:ʿudtum, gloss:dönerseniz} biçimi mâzî görünüşlüdür; açık in koşulunda ise geçmişte tamamlanmış olay değil, mümkün bir gelecek dönüşü bildirir. İkinci çoğul eki muhatapları bu hareketin faili yapar. Nesne ve hedef verilmediğinden dönüşün konusu açık kalır; cümle bu boşluğu belirli bir günah, terk edilmiş yol, söylenmemiş söz ya da fiziksel yolculukla doldurmaz. Karşılık olan {ar:عُدْنَا, tr:ʿudnā, gloss:biz de döneriz} aynı dönme eylemini başka bir özneyle yineler; ilahî birinci çoğul fail, ayrı bir adla değil -nā ekiyle fiilin içindedir. İki biçim birlikte koşullu, karşılıklı bir yanıt kurar. Bu bağlamda çiftin taşıdığı eylem karşılıklı dönüştür; sayma ya da hazırlama ayrı sözlük anlamları bu okumayı yönetmez.
+
+İkinci {ar:وَ, tr:wa, gloss:ve} bağlayıcısı, {ar:جَعَلْنَا, tr:jaʿalnā, gloss:kıldık, atadık} ile gelen son bildirimin dönüş yanıtına eklenmesine de kısa koşuldan sonra yeni bir cümle olarak başlamasına da izin verir. Her iki çözümlemede jaʿalnā birinci çoğul fail ekli mâzî biçimiyle tamamlanmış ilahî atamayı bildirir: mevcut bir nesneye rol verir, yani yaratılıştan çok konumlandırma ve atama ilişkisini öne çıkarır. Ayetin üç vuruşu böylece umut edilen merhamet, koşullu insan ve ilahî dönüş çifti, tamamlanmış atama olarak duyulur.
+
+Atamanın ilk nesnesi {ar:جَهَنَّمَ, tr:Jahannam, gloss:Cehennem} özel adıdır. Yabancı kökenli ve gayr-i munsarif bu adın olağan tenvin almaması da özel ad yapısıyla uyumludur: belirsiz bir ceza türünü değil, fiilin ilk nesnesi olan Cehennem'i gösterir. {ar:حَصِيرًا, tr:ḥaṣīran, gloss:hapseden nitelik} bu adın ikinci tamamlayıcısıdır; yakın bir hâl çözümlemesi de açık kalır. Belirsiz mansub biçim ayeti yeni bir nesneyle değil, atanan yerin niteliğiyle kapatır. Jahannam adında duyulabilecek derinlik ya da uçurum çağrışımı, yanındaki ḥaṣīran'ın mekânsal katkısıyla sınırlı bir yankı kazanır; özel adın yerini alan bir çeviri olmaz. Jaʿalnā ile Jahannam başındaki “ja” sesi eylemle nesneyi işitmede birbirine bağlar; bu yakınlık ses düzeyindeki katkıdır, tek başına etimolojik ya da dilbilgisel kanıt oluşturmaz.
+
+Son tamlamadaki {ar:لِلْكَٰفِرِينَ, tr:li-l-kāfirīn, gloss:inkâr edenler için} başındaki tahsis lâmıyla atamanın alıcı sınıfını belirtir; fiilin doğrudan nesnesi olmaz. Belirli eril çoğul etkin ortaç olan {ar:كَٰفِرِينَ, tr:kāfirīn, gloss:inkâr edenler} olağan anlamıyla inkâr edenleri adlandırır ve ikinci çoğul hitaptan belirli bir insan sınıfına geçişi sağlar. Ortaç biçiminin örtme anlamı kuşatma ve örülme imgeleriyle karşılaştığında, alıcıları ayrıca “örtücüler” olarak duyurur; böylece bu imge atanan kapalı sonuca örtme ilişkisini eklerken olağan sınıf adını korur.
+
+## Tekrarın Açtığı Zaman
+
+Bu dönüş çiftinin arkasındaki tarihsel örüntü, önceki ayetlerde ayrı aşamalarla kurulmuştur: iki bozulma ve büyüklenme haberi (17:4), ilk saldırı ve cezanın uygulanması (17:5), ardından güç, mal, çocuk ve sayıca artışın geri verilmesi (17:6), son olarak yapılan iyilik ya da kötülüğün yapanlara dönmesi ve mescide ikinci giriş (17:7). Bu sıra, {ar:عُدتُّمْ, tr:ʿudtum, gloss:dönüşünüz} ile {ar:عُدْنَا, tr:ʿudnā, gloss:bizim dönüşümüz} biçimlerini tek bir geri dönüşten ibaret bırakmaz: tekrarlanan davranış, sonucu, aradaki imkânların iadesi ve eylemin yapanlara dönüşü aynı tarihin farklı basamakları olur. Böylece bu tarihsel örüntü 17:8'deki Cehennem atamasını yinelenen gidişin sonuçlu ucuna bağlar; bağlantı önceki grubu son alıcı sınıfla özdeşleştirmez.
+
+Karşılıklı dönüşün başka kullanımlardaki yankıları da ayrı sahnelerden gelir. Azabın kısa süre kaldırılmasından sonra “yeniden döneceksiniz” denmesi bu hareketi süreli bir kesintinin ardından açar (44:15); vazgeçme seçeneğinden sonra “dönerseniz biz de döneriz” yanıtı koşullu karşılıklılığı öne çıkarır (8:19). Yasaklandıkları şeye geri dönme, dönüşün nüks olasılığını belirginleştirir (6:28). Bu sahneler 17:8'deki koşullu yanıta kendi bağlamlarından yankı verir; ilişki doğrudan alıntı ya da zorunlu kaynak değil, ortak bir tekrar biçimidir. Nüks bu nedenle mümkün okumalardan biridir; dönüşün kaçınılmaz sonucu olarak sunulmaz.
+
+Dönüş kökünün ayrı bir kullanımında eylemi yinelemek onu kolay ve yerleşik bir davranışa çevirebilir; bir başka süreç kullanımıysa tekrarla alışma, alıştırma ve yeterlik kazanmayı anlatır. Açık {ar:إِنْ, tr:in, gloss:eğer} koşulu, merhamet umudu ve ʿudtum-ʿudnā çiftiyle karşılaşınca bu uzantılar kesilip yeniden başlayabilen bir pratiği düşündürür: dönüş alışkanlığa yaklaşabilir ya da yeniden başlayan bir yeterlik sürecine açılabilir. Bu pratik imgesi sabit bir yatkınlık yüklemez ve her dönüşü nüks saymaz. Dönüş çiftinin bağımsız biçimde tetiklediği Rabb ailesindeki “bir yerde kalma, ayrılmama” kullanımı da gözetimin yinelenen insan dönemleri boyunca sürmesi yankısını verir; bu sözlük yankısı bir yerleşim iddiası değil, kesintiler boyunca gözetim sürekliliğidir.
+
+İnsan davranışı ile {ar:عُدْنَا, tr:ʿudnā, gloss:biz de döneriz} biçimindeki ilahî yanıtın yan yana gelişi, sürmekte olan gidişe karşılık veren bir ilişki olarak okunabilir. Fiilin ilahî faili, bu karşılığı insanın kendi kendine ürettiği geri bildirimle sınırlamaz; insan davranışından bağımsız egemen bir yeniden ceza ihtimali de bu ilişkinin yanında açık kalır. Böylece bağlantı hem insan dönüşüyle ilişkili karşılığı hem ilahî eyleyiciliği taşır, fakat dönüşün hedefiyle yanıtın nasıl bağlandığını tayin etmez.
+
+## Kuşatan Yer
+
+{ar:حَصِيرًا, tr:ḥaṣīran, gloss:hapseden nitelik} önce dışarıdan uygulanan bir gücün kişiyi tutup serbest hareketini engellemesini, ayrıca mekânın çevreyi sararak alanı daraltmasını anlatan kullanımlara açılır. Odakta bu işlemler {ar:جَعَلْنَا, tr:jaʿalnā, gloss:atama fiili} ile adlandırılan {ar:جَهَنَّمَ, tr:Jahannam, gloss:Cehennem} ve {ar:كَٰفِرِينَ, tr:kāfirīn, gloss:inkâr edenler} arasında kurulur: atanan yer alıcıları tutar, çevrelerini sarar ve hareket alanlarını sınırlar. Cehennem'in inkâr edenleri kuşattığının söylenmesi bu mekânsal işlemin açık bir karşılığıdır (29:54). Bu bağlantıda kuşatma, yer ile alıcı sınıfın temasından doğan hareketi daraltan kapalı alan imgesidir; askerî kuşatma sahnesi olarak değil, çevreyi daraltan mekânsal işleviyle okunur.
+
+Aynı kelimenin ayrı isim kullanımı, kamış ya da benzeri bitki parçalarının sıkıca örülmesiyle yapılan düz yaygıdır. Bu dalda ayrı parçaların birbirine geçirilmesi, tek ve sıkı bir yüzey oluşturur. Örtme çağrışımı taşıyan {ar:كَٰفِرِينَ, tr:kāfirīn, gloss:örtücüler} bu yüzeye kapalılık verir; {ar:جَعَلْنَا, tr:jaʿalnā, gloss:bir nitelik olarak atadık} ise niteliğin atama içindeki yerini kurar. Önceki dizide yinelenen eylemler, bu ayrı örülme imgesinde yüzeye katılan parçalar gibi düşünülebilir (17:4, 17:7). Cehennem'in döşek, üzerindekilerin örtüler diye anılması bu görüntüye yataklık ve örtülme yakınlığı ekler (7:41). Bu yakınlık sözcükleri ḥaṣīran ile eş anlamlı yapmaz; saz ya da hasır malzemesi de 17:8'de atanan yerin gerçek maddesi olarak ileri sürülmez.
+
+Örülmüş yüzeyden ayrı olarak, ḥaṣīran'ın bir başka kullanımı içeridekini tutan ve çıkışına izin vermeyen kapalı yerdir. Cehennem'in bu niteliğin atandığı yer olması, alıcı sınıfla birlikte onu cezalandırıcı bir meskene dönüştürür. Ateşi görünce suçluların oraya düşeceklerini sezmesi ve ondan kaçacak yol bulamaması çıkışsızlığı somutlaştırır (18:53); Cehennem'in onların barınağı sayılması ve ateş her yatıştığında alevin artırılması, aynı kapalı yerde yinelenen cezayı duyurur (17:97). Burada ateşin yeniden alevlenmesi içeride kalmayı yinelenen bir deneyim olarak biçimlendirir; 17:8'in kendi ifadesi bu deneyimin süresini belirtmez.
+
+Bu mesken imgesinin etkisi başka ayetlerde bedensel ve toplumsal ölçeğe de taşınır: Cehennem'in hemen elde edileni isteyen kişi için hazırlanması, ateşin yakması, kınanma ve uzaklaştırılma ile birlikte verilir (17:18). Kınanmış ve desteksiz biçimde oturmak ise ayrı bir sahnede hareketsizlik ve ilişkisizliği öne çıkarır (17:22). Bu tasvirler 17:8'deki atamaya bedensel maruz kalma ve ilişkisel dışlanma boyutları ekler; 17:8 bu ayrı görüntüleri tek bir kronolojik ceza dizisi olarak sıralamaz.
+
+Kapalı yerde tutulan sakinler, ḥaṣīran ailesinin konuşmaya ilişkin ayrı fiil biçimine geçişi anlaşılır kılar: {ar:حَصَرَ الرَّجُلُ فِي كَلَامِهِ, tr:ḥaṣara r-rajulu fī kalāmihi, gloss:adam konuşurken dili tutuldu} kişi konuşurken, hitap ederken ya da okurken söz üretemez hâle gelmesini anlatır. Fiil, sözün kullanımı sırasında beliren bir engeli gösterir ve ayetteki ḥaṣīran isim biçiminden ayrılır; bu özel bağlantıda konuşma engeli imgesi doğuştan dilsizlikten ya da isteyerek susmaktan farklıdır. Cehennem sakinlerinin kör, dilsiz ve sağır diye nitelenmesi ile aynı yerin onların barınağı olması, konuşma engelini mekândan sakinlerine taşıyan sınırlı bir benzetme kurar (17:97). Bu aktarım çıkışsızlığa iletişimin kesilmesini ekler; isim ile fiilin sözlük anlamları yine ayrı kalır.
+
+## Merhamet ve Yeniden Bağ
+
+Sakinleri içeride tutan yerden bakış, ayetin başındaki merhamet eyleminin açtığı başka bir iç ve bağ ufkuna geçer. {ar:يَرْحَمَكُمْ, tr:yarḥamakum, gloss:size merhamet etmesi} muhataplara yönelen esirgeme ve iyilik eylemi olarak kalırken, aynı kelime ailesinin ayrı isim kullanımı {ar:رَحِم, tr:raḥim, gloss:akrabalık bağı} ortak soydan gelenler arasındaki kalıcı yakınlığı adlandırır. Nuh'la taşınan soy anlatısı ve Rabb unvanının gözeten ilişkisi bu akrabalık dalını harekete geçirir (17:3). Kapalı mekânın karşısında bu bağ, kesintiye uğrayan ilişkilerin yeniden kurulabileceği bir ufuk açar; yüz çevirme, yeryüzünde bozgunculuk ve akrabalık bağlarını kesmenin aynı uyarıda buluşması bu ilişkisel ufku genişletir (47:22). Bu bağlantı akrabalığı merhamet eyleminin şartı değil, onun yanında açılan ayrı bir ilişki çağrışımı olarak tutar.
+
+Aynı {ar:رَحِم, tr:raḥim, gloss:döl yatağı} adının ayrı anlamı, yavrunun oluşup geliştiği ve doğuma dek taşındığı iç mekândır. Bu anlamı çağıran taşıyıcı, isim değil merhamet eylemini bildiren {ar:يَرْحَمَكُمْ, tr:yarḥamakum, gloss:size merhamet etmesi} fiilidir; Rabb'in gözetip yetiştirmesi ve ḥaṣīran'ın kapalı içi bu çağrışımı besler. Böylece merhamet hayatı içeride taşıyıp geliştiren bakım gibi duyulur; kapanıştaki yer ise hareketi durdurup çıkışı keser. İki iç mekânın katkıları karşıt kalır: biri oluş ve taşımayı, diğeri hapsi ve hareket kısıtını öne çıkarır.
+
+Bu bakım ufku önceki ayetlerdeki tarihsel ayrıntılarla zaman içinde genişler. Çevresi bereketlendirilen yer, merhamet ve gözetimle birlikte süreklilik taşıyan bir iyilik ortamı düşündürür (17:1). Nuh'la taşınan soy ve şükreden niteliği bakımın kuşaklar arası ufkunu açar (17:3). Yenilgi sonrasında imkânların, malın ve çocukların geri verilmesi ve topluluğun sayıca artması somut bir ara onarımı gösterir (17:6). {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} ailesinin eksikten gelişmeye ve artışa uzanan ayrı kullanımı 17:6'daki açık çoğalma ile tetiklenir; unvan isim olarak kalırken merhamet ve dönüş, yeniden gelişebilecek bir çizgi içinde işitilir. Bu bağlantı kalıcı onarımı mümkün bir ufuk olarak taşır. Ufkun sınırı da belirgindir: 17:1'in gece yolculuğu ve çevrelenmiş mekânları dönüş döngüsünü açıklamaz, 17:3'teki şükür kendi niteliği olarak kalır, 17:6'daki artış ise kuşaklar arası nedensellik ya da önceki alıcılarla 17:8'deki sınıf arasında özdeşlik kurmaz.
+
+Umut bildiren {ar:عَسَىٰ, tr:ʿasā, gloss:umulur ki} biçimine ses ve yazılışça yaklaşan, fakat ayrı sözlük biçimleri olan {ar:المعسية, tr:al-maʿsiyya, gloss:sütü belirsiz dişi deve} ile {ar:المعسيات, tr:al-maʿsiyāt, gloss:sütü belirsiz dişi develer} adları başka bir yenilenme imgesi açar. Bu adlar sütü kesilmiş ya da süt durumu belirsiz dişi develeri anlatır; sözlük açıklaması, sütü durmuş develerde sütün yeniden gelebileceği umudunu da kaydeder. Ayrı deve adları ʿasā fiilinin anlamını değiştirmez; ses ve biçim yakınlığı yalnız bu bağlantının taşıyıcısıdır. ʿudtum-ʿudnā dönüş çifti ise kesintiden sonra yeniden süt gelmesini merhametin onarıcı ve besleyici ihtimaline benzetmeye imkân verir. Bereketlenen çevre yerleşik bir deveden sağlanan sütü çağrıştırabilir (17:1); Nuh soyunun taşınmasını bildiren {ar:حَمَلْنَا, tr:ḥamalnā, gloss:taşıdık} içte taşıma ve meyve verme yankısı, {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} ise uzaktan doluluk ve süt bolluğu yakınlığı ekler (17:3). Bu unsurlar keşifsel bir beslenme benzetmesi kurar: 17:1 ve 17:3 imgeye renk verir, tarihsel dönüş döngüsünü açıklamaz; 17:8 de gerçek bir deve ya da anatomi sahnesi ileri sürmez.
+
+Merhamet ihtimali için uygulanabilir bir yön, içten tövbe çağrısının ardından aynı {ar:عَسَىٰ رَبُّكُمْ أَنْ, tr:ʿasā rabbukum an, gloss:umulur ki Rabbiniz} kuruluşuyla bağışlanma ve cennet umudunun açıldığı başka bir ayette belirir (66:8). Bu komşu kullanım 17:8'deki dönüşe onarıma yönelen pratik bir istikamet kazandırır. Bu bağlantı tövbe çağrısını 17:8'in belirtilmiş şartı hâline getirmez; merhamet de açık umut olarak kalır.
+
+Onarım yönünün nasıl bir hareket olabileceği, hemen sonraki ayette daha açık bir yol hâline gelir: Kur'an en doğru olana yöneltir, inananlar iyi işler yapar ve büyük ödül alır (17:9). Bu güzergâh dönüşü eski davranışa nüks yanında daha doğru olana yönelen değişmiş bir hareket olarak da duyurur. Ahirete inanmayanlar için hazırlanmış acı azap bu yönelimin karşı kutbunu kurar (17:10). Bu komşu çerçeve 17:8'in merhamet ve dönüşünü onarıcı bir yol içinde okumaya yardım eder; belirli muhatapların seçimini ya da sonunu tayin etmez.
+
+Dönüşün yönü kadar zamanı da önem kazanır. İnsan kötülüğü, iyiliği ister gibi ister ve acele eder; gece işaretinin silinip gündüzün görünür kılınması yılları sayılabilir hâle getirir ve her şeyin ayrıntılandırılmasını sağlar (17:11, 17:12). Bu zaman karşıtlığı, 17:8'deki dönüş çiftine aralıkları ve sonuçları ayırt eden ölçülü bir karşılık ufku katar. Bu, ayete bir takvim ya da süre ekleyen bir okuma değil, bağlamsal zaman benzetmesidir: 17:8 gecikmeyi belirtmez ve ʿudtum ile ʿudnā olağan dönüş anlamını korur.
+
+Gruba yönelen tarihsel dönüş, her kişinin kendi hesabını taşıdığı bir ölçeğe de açılır. Kişinin kaydının boynuna bağlanması ve kitabının açılması, hesabı doğrudan sahibine iliştirir (17:13); kişiye kitabını okuyup kendi hesabını görmesi söylenir (17:14). Bu çerçevede yenilenen gidişin taşıyanına görünür olması ve {ar:حَصِيرًا, tr:ḥaṣīran, gloss:kuşatan kapalı hâl} imgesinin sahibini saran bir duruma yaklaşması mümkün bir kişisel okuma olur. Hiç kimsenin başkasının yükünü taşımaması ve elçi gönderilmeden azap edilmemesi de sorumluluğu bildirim ve hesap çerçevesine yerleştirir (17:15). Bu kişisel çerçeve tarihsel topluluk okumasının yerini almaz; ona devredilemeyen hesap ve kişinin kendi kaydıyla karşılaşması boyutunu ekler.
+
+## Kapanıştaki Sınıf
+
+Kişisel kayıt çerçevesi, ayetin ikinci çoğul muhataplarından kapanıştaki belirli alıcı sınıfına geçişi görünür kılar: {ar:لِلْكَٰفِرِينَ, tr:li-l-kāfirīn, gloss:inkâr edenler için}. Aynı kelime ailesinin fiziksel örtme kullanımı {ar:كَفَرَ الشَّيْءَ, tr:kafara al-shayʾa, gloss:bir şeyi örtmek} bu sınıf adına ayrı bir görüntü ekler. Işık içinde yürüyen kişinin karşısında karanlıklarda kalıp çıkamayan kişinin bulunması ve ayetin sonunda inkâr edenlerden söz edilmesi, örtme ile çıkışsızlığı kuşatan yer imgesinde buluşturur (6:122). Bu sahne alıcı sınıfın olağan “inkâr edenler” anlamını korur; karanlık ve örtülme çağrışımı ise kapalı sonucun nasıl duyulduğunu derinleştirir.
+
+Örtme imgesinden ayrı bir kol, nimeti yadsıma ve şükrü yerine getirmeme anlamındaki {ar:كَفْرُ النِّعْمَةِ, tr:kufru n-niʿmah, gloss:nimeti yadsıma} kullanımıdır. Bir insana merhametin tattırılması, ardından geri alınması ve kişinin nankör diye nitelenmesi bu anlamı somutlaştırır (11:9). Bu sahne kapanıştaki sınıf adına alınan iyiliği tanımama olasılığını katar; bu yankı 11:9'daki geri çekilmeyi 17:8'de yaşanmış bir merhamet kaybı olarak kurmaz.
+
+Bu çağrışım önceki tarih dizisindeki iade ve geri dönüşle temas eder: mal, çocuk ve sayı artışının geri verilmesi (17:6), ardından iyilik ve kötülüğün yapanlara dönmesi (17:7), alınan nimeti örtme ya da şükrünü esirgeme olasılığını görünür kılar. Bu bağlantı önceki imkânları alanlarla 17:8'in sonundaki alıcı sınıfı özdeşleştirmez; inkârın olağan anlamı nankörlük ihtimalinden daha geniş kalır.
+
+Genel bağışın iki gruba da ulaşıp engellenmemesi, 17:8'deki belirli atamayla farklı bir kapsam taşır: Rab her iki gruba desteğini sürdürür ve armağanı yasaklanmış değildir (17:20). {ar:نُّمِدُّ, tr:numiddu, gloss:desteğimizi sürdürürüz} uzanan yardımı, {ar:عَطَآءِ, tr:ʿaṭāʾ, gloss:armağan} verilen nimeti, {ar:مَحْظُورًا, tr:maḥẓūran, gloss:engellenmiş} ise olumsuz yapı içinde bu bağışın esirgenmediğini taşır. Bu karşılaştırmanın sınırı şudur: ḥaṣīran her türlü nimetin kesilmesi anlamına gelmez, genel bağış da cezayı bütünüyle insanın kendi kendine ürettiği bir sonuca indirgemez.
+
+</editorial_prose>

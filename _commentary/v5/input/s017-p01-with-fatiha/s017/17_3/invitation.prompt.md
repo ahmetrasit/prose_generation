@@ -1,0 +1,203 @@
+# V5 reading invitation — 17:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p01-with-fatiha/s017/17_3/17_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p01-with-fatiha/s017/17_3/17_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Soydan Tanıklığa
+
+17:3'teki {ar:ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ, tr:dhurriyyata man ḥamalnā maʿa Nūḥin, gloss:Nuh'la birlikte taşıdıklarımızın soyu} sözü, Nuh'la birlikte taşınanların soyuna seslenir. Ardından {ar:إِنَّهُ كَانَ عَبْدًا شَكُورًا, tr:innahu kāna ʿabdan shakūran, gloss:şüphesiz o çok şükreden bir kuldu} gelir; zamir en doğal biçimde Nuh'a döner. Böylece ayet, önce taşınmış bir topluluğun ortak geçmişini, sonra bu ilişki içinde adı anılan kişinin kulluk ve şükür niteliğini duyurur. Yakın ad ve ardından gelen insanî nitelemeler Nuh okumasını öne çıkarırken, zamirin başka bir göndergeye bağlanma olasılığı dilbilgisi bakımından tümüyle kapanmaz.
+
+Açılıştaki {ar:ذُرِّيَّةَ, tr:dhurriyyata, gloss:soyundan gelenler} mansup biçimiyle önceki hitaba bağlı bir devam gibi durur; tek başına tamamlanmış yeni bir cümle açmaz. Nahiv açıklamaları bu bağı farklı biçimlerde çözdüğünden, açılışta bir eşik hissedilir ama tek bir çözümleme dayatılmaz. Hafs okuyuşu mansup ve şeddeli biçimi korur; bildirilen başka kıraatler öznelik ve tamlayanlık ilişkilerini, hareke, şedde ve hemze biçimlerini değiştirerek sözün sesini ve sentaksını farklı duyurur. Bunlar Hafs biçiminin yerine geçirilmez. Sözcüğün olağan anlamı soyundan gelenlerdir; türeyiş tartışması ise taşınmış topluluğun yanında saçılmış tohum ve yaratılmış devam yankılarını hafifçe duyurabilir, temel anlamı değiştirmez.
+
+Bu soy adını izleyen {ar:مَنْ, tr:man, gloss:kimseler}, hem soy tamlamasına bağlanır hem {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} fiilinin nesnesi olur. Sayı ya da cinsiyet bildirmeyen bu ilgi biçimi, bütün topluluğu tek bir bağ içinde tutar; Arapçadaki biçim tek bir yolcuyu değil, bağlamın verdiği kişileri kapsar. İlgi bağı ancak taşıma eylemi, {ar:مَعَ, tr:maʿa, gloss:ile} refakat edatı ve {ar:نُوحٍ, tr:Nūḥin, gloss:Nuh} adıyla tamamlanır. {ar:مَنْ, tr:man, gloss:kimseler}, {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık}, {ar:مَعَ, tr:maʿa, gloss:ile} ve {ar:نُوحٍ, tr:Nūḥin, gloss:Nuh} boyunca işitilen nazal sesler de bu yerel akışı birbirine bağlar: ilgi ilişkisinden eyleme, oradan eşliğe ve ada geçilir.
+
+{ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık}, birinci çoğul failin yaptığı tamamlanmış, etkin Form I taşıma eylemidir; {ar:مَنْ, tr:man, gloss:kimseler} taşınanları gösterir. Sözcüğün somut alanı bir şeyi kaldırıp taşıyıcının üzerinde tutarak başka yere götürmektir. Fiil doğrudan fiziksel taşımayı bildirir; ettirgen ya da dönüşlü bir kalıba geçmez, aracını ve koşullarını açık bırakır. {ar:مَعَ, tr:maʿa, gloss:ile} Nuh'la eşliği kuran bağımsız bir edattır; bu söz öbeği korunmuş topluluğu görünür kılar, belirli bir taşıt adlandırmadığından geniş kurtuluş anlatısının ayrıntılarını açık bırakır.
+
+Kısa {ar:مَعَ, tr:maʿa, gloss:ile}, taşıma haberinin ardından {ar:نُوحٍ, tr:Nūḥin, gloss:Nuh ile} adını yeni bir cümle açmadan getirir. Ad, edatın yönettiği mecrur biçimiyle ilk söz öbeğini tamamlar; soy, taşıma ve eşlik kurulduktan sonra gelmesi okura önce kurtuluş ilişkisini duyurur. Nuh adı ardından tanıklığın odağına yeniden yaklaşır. Çevresindeki ağıt ve dinlenme yankıları sahneye keder ve ferahlık rengi katar; bu yankılar özel adın olağan karşılığını değiştirmeden kurtuluş ilişkisinin duyuluşunu renklendirir.
+
+Bu gecikmiş addan sonra {ar:إِنَّهُ, tr:innahu, gloss:şüphesiz o} yeni ve vurgulu bir bildirim açar. Vurgu edatı ile üçüncü kişi zamiri tek sözcükte birleşir; zamir, Nuh'un adını izleyen tanıklığı başlatır. Önceki ilgi cümlesi burada sürmez: ardından gelen {ar:كَانَ, tr:kāna, gloss:idi}, {ar:عَبْدًا, tr:ʿabdan, gloss:kul} ve {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} sözleri yeni bildirimin içeriğidir. En doğal gönderge Nuh olsa da zamir başka bir göndergeye dönme olasılığı bütünüyle kapanmış değildir.
+
+Buradaki {ar:كَانَ, tr:kāna, gloss:idi}, olma ve bulunma çerçevesini açan, ardından gelen yüklemlerle tamamlanan eksik fiildir. Tamamlanmış geçmiş çekimi Nuh'u gelişmekte olan bir eylemle değil, hatırlanan bir karakterle tanıtır; kendi başına bu niteliğin ne kadar sürdüğünü ölçmez. Kul oluşu ve şükür bu çerçevenin içeriğini ayrı ayrı verir. Fiilden sonra gelen {ar:عَبْدًا, tr:ʿabdan, gloss:kul} ile {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} sözcüklerinin uyumlu belirsiz mansup sonları da dengeli bir ikili ritim kurar, anlamlarını birbirine eşitlemeden.
+
+Belirsiz mansup biçimdeki {ar:عَبْدًا, tr:ʿabdan, gloss:kul}, hem bir nitelik hem de kul olma ilişkisini bildirir; yüklem yerinde bulunduğu için unvan gibi duyulabilse de yalnızca sabit bir unvanla sınırlı değildir. Kul sözü bağımlı hizmeti, boyun eğişi ve Allah'a yönelen ibadeti birlikte taşır. Aynı biçimdeki {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} ona sıfat gibi sıkıca bağlanır; mansup ve belirsiz uyum bunu destekler. Sözdizimi hâl ya da ikinci yüklem çözümlemesine de açık kaldığından bu seçeneklerden biri kesinleştirilmez. Buradaki ad belirli bir ritüeli veya hukuki mülkiyet ilişkisini anlatmaz.
+
+Uzun ünlülü faʿūl kalıbındaki {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden}, arızi bir teşekkürü değil yoğun bir niteliği bildirir; belirli bir eylem sayısı ya da sıklık vermez. Şükür, iyiliği ve kaynağını tanımayı; bu kabulü içten kavrayışla, sözle veya iyiliğe uygun davranışla görünür kılmayı kapsar. Böylece {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} somut korunma zeminini, {ar:عَبْدًا, tr:ʿabdan, gloss:kul} bağımlı hizmet ilişkisini, {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} ise bu ilişki içindeki karşılığı sağlar. Ayet şükrü korunmanın ardından duyulan karakter cevabı olarak verir; bu cümlede belirli bir övgü sözü, kurtuluşla nedensellik ilişkisi ya da maddi çoğalma belirtilmez. Sondaki yoğun niteleme kulağı şükürde bırakırken, onu kul oluşunun ve soy haberinin içinde duyurur.
+
+## Sûrenin Yakın Akışı
+
+İsrâ 17:1'de {ar:أَسْرَىٰ بِعَبْدِهِۦ لَيْلًا, tr:asrā bi-ʿabdihi laylan, gloss:geceleyin kulunu yola çıkardı} sözü bir hareketi, {ar:لِنُرِيَهُ مِنْ آيَاتِنَا, tr:linuriyahu min āyātinā, gloss:ona ayetlerimizden göstermek için} ifadesi de onun amacını bildirir (17:1). Aynı kul ailesindeki {ar:عَبْدًا, tr:ʿabdan, gloss:kul}, 17:3'te Nuh'un niteliğidir; 17:1'de ise işaretleri görecek alıcı gece yolculuğunun içindedir. Bu yakınlık, 17:3'te taşınmış soyun kurtuluş hatırasını Nuh'un kulluk ve şükrüyle birleştirirken 17:1'in ilahî hareketindeki alıcılığı kendi sahnesinde tutar. Yankı, aynı yolculuk değil; kul adının ilahî hareket içindeki alıcılık ile korunmaya verilen karşılığı yan yana getirmesidir.
+
+Bir önceki ayette Musa'ya verilen kitabın İsrailoğulları için hidayet olduğu ve Allah'tan başka vekil edinilmemesi buyurulur (17:2). Hemen önce anılan topluluk, 17:3'teki {ar:ذُرِّيَّةَ, tr:dhurriyyata, gloss:soy} hitabına yerel bağlam sağlar; 17:2'de soy terimi doğrudan geçmediğinden bu yakınlık İsrailoğullarının tümünü Nuh'la taşınanların soyuyla özdeşleştirmez. Vekil yasağı, kurtarılmış ataların hatırasını devredilmiş güven karşısında düşünmeye ve Nuh'un {ar:عَبْدًا, tr:ʿabdan, gloss:kul} oluşundaki boyun eğiş ile ibadet yönünü duymaya açar. Sûrenin ilerleyen yasağı, Allah'ın yanında başka ilah edinmemeyi söyleyerek bu kulluk yönünü tek-yönlü ibadet olarak çerçeveler (17:22). Bu iki emirle soy hitabı arasındaki bağ yakın bağlamın sunduğu bir ihtimaldir; metin emirleri Nuh'un sözü ya da soy cümlesinin nedeni olarak vermez.
+
+Kulluk sözcüğü yakındaki tarih anlatısında başka bir topluluğun görevlendirilmesine de katılır. İsrâ 17:4, İsrailoğullarının yeryüzünde iki kez bozgunculuk edeceğini ve kendilerini büyük ölçüde yükselteceklerini bildirir; ardından 17:5'te {ar:بَعَثْنَا عَلَيْكُمْ عِبَادًا لَنَا, tr:baʿathnā ʿalaykum ʿibādan lanā, gloss:üzerinize bize ait kullar gönderdik} denir. Bu gönderilmiş kişiler {ar:أُولِي بَأْسٍ شَدِيدٍ, tr:ulī baʾsin shadīdin, gloss:çetin bir güce sahip} diye nitelenir ve evlerin arasına dalarlar (17:4, 17:5). Odaktaki tekil {ar:عَبْدًا, tr:ʿabdan, gloss:kul} ile buradaki çoğul kullar aynı hizmet ve kulluk ailesindedir; “bize ait” sözü görevlilerin aidiyetini, gönderilmeleri üstlendikleri işi belirtir. Nuh ise {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} niteliğiyle şahsen anılır. Ortak kul adı burada farklı rolleri bağlar: Nuh şükreden birey, 17:5'teki kullar gönderilmiş görevlilerdir. Bu bağlantı hizmet ve aidiyet alanını açar; ahlaki denkliği ya da metnin kurmadığı kesin bir karşıtlığı gerektirmez.
+
+Bu bozulma ve gönderilme anlatısının ardından 17:6'da üstünlüğün geri verilmesi, mal ve oğullarla desteklenme gelir; 17:8'de “yeniden dönerseniz biz de döneriz” sözü dönüşün ardından karşılığı ekler (17:4, 17:5, 17:6, 17:7, 17:8). Bu tarihsel çevrede alınan nimetin ve ona verilen davranışsal cevabın yinelenmesi, Nuh'un {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} oluşunu iyiliği tanıyıp karşılayan bir pratik olarak duyurur. Buradaki bağ, İsrailoğullarının Nuh'u unuttuğuna ya da şükrün sonraki davranışları durdurduğuna ilişkin bir neden-sonuç iddiası değil, ayrı özneler arasındaki yerel bir karşılaştırmadır.
+
+Yakın bağlam bu kez toplumsal tarihten insanın zamana verdiği cevaba döner. 17:11'de {ar:كَانَ, tr:kāna, gloss:idi} insanın durumunu kurar: kişi {ar:يَدْعُ الْإِنسَانُ بِالشَّرِّ دُعَاءَهُ بِالْخَيْرِ, tr:yadʿu al-insānu bi-sh-sharri duʿāʾahu bi-l-khayr, gloss:hayrı ister gibi kötülüğü çağırır}, sonra {ar:عَجُولًا, tr:ʿajūlan, gloss:aceleci} diye nitelenir (17:11). Aynı olma çerçevesinde Nuh'un {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} niteliği, anlık sonucu hayır sanan acelecilik karşısında iyiliği zaman içinde tanıyan bir yöneliş açar. Bu yan yana geliş zaman yönünü karşılaştırır; iki sıfatı sözlükte karşıtlaştırmaz ve 17:11 Nuh'u ayrıca “acele karşıtı” diye nitelemez.
+
+Topluca taşınmış ataların geçmişinden tek tek insanların hesabına geçişi, İsrâ 17:12'de her şeyin ayrıntısıyla açıklanması ve 17:13'te her kişinin kendi kaydının kendisine bağlanıp kitabının önüne çıkarılmasıyla belirginleşir (17:12, 17:13). Odaktaki {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} fiziksel olarak taşınmış topluluğu anlatmayı sürdürürken, bu kayıt herkesin kendi eylemleriyle karşılaşacağı başka bir ölçek açar. Ayrıntılı açıklama 17:12'de, kişisel hesabı açan adım 17:13'te belirir.
+
+Bu kişisel sınır, 17:15'te ahlaki yükün devredilmediği açık ilkeyle belirginleşir: {ar:وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ, tr:wa-lā taziru wāziratun wizra ukhrā, gloss:hiçbir yük taşıyan başkasının yükünü yüklenmez} (17:15). Buradaki {ar:وِزْرَ أُخْرَىٰ, tr:wizra ukhrā, gloss:başkasının günah yükü} başka bir sözcük ailesindendir; 17:3'teki {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} ile kök ortaklığı değil, yük imgesi paylaşılır. Taşıma ailesinin güvenilmiş sorumluluğu ya da mesajı üstlenme gibi ayrı kullanımları da bu bağlamda duyulabilir: aynı ayette ceza için {ar:حَتَّىٰ نَبْعَثَ رَسُولًا, tr:ḥattā nabʿatha rasūlan, gloss:bir elçi gönderinceye kadar} denir. Elçinin görevi ayrı bir gönderilme ve mesaj ilişkisini açar; odaktaki fiil insanları fiziksel olarak taşıma anlamını korur. Bu karşılaşma ortak kurtuluş geçmişini kişisel sorumluluğun yanında düşündürür; bağlantı yük imgesine dayanır, 17:3'e günah taşıma ya da yargı kuralı anlamı, iki ayete de zorunlu bir karşıtlık yüklemez.
+
+Nuh'tan sonraki soyun tarihi, taşınmış olmanın kalıcı korunma güvencesi olmadığını gösterir. İsrâ 17:17, Nuh'tan sonra nice kuşağın helak edildiğini ve Rabbin kullarının günahlarını bildiğini söyler; oradaki {ar:عِبَادِهِ, tr:ʿibādihi, gloss:O'nun kulları} adı Nuh'a verilen kul adlandırmasını başka insanlara taşır (17:17). Soy geçmişi korunmuş bir başlangıç sağlar, fakat Nuh'un {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} oluşu gibi iyiliği tanıyıp karşılık verme niteliği kişisel kalır. 17:17'nin genel tarih uyarısı oluşu bu soy yankısını olası bir bağ olarak tutar; ayetin soy hitabını doğrudan yeniden tanımladığı sonucunu vermez.
+
+## Korunmadan Süren Hayat
+
+Bu sonraki kuşakların kırılgan tarihi, taşıma imgesine bedenden bakmak için yeni bir açı açar. Lokman 31:14'te {ar:حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَىٰ وَهْنٍ وَفِصَالُهُ فِي عَامَيْنِ, tr:ḥamalat-hu ummuhu wahnan ʿalā wahnin wa-fiṣāluhu fī ʿāmayn, gloss:annesi onu güçlük üstüne güçlük içinde taşıdı; sütten ayrılması iki yıl sürdü} denir. 17:3'teki {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} ile aynı fiil ailesindeki bu taşımanın faili burada annedir; güçlük üstüne güçlükle sürdüğü ve çocuğun iki yılda sütten ayrılmasına uzandığı açıkça anlatılır (31:14). Bu temas fiziksel kurtuluş okumasını genişletir: soy çizgisi, güçlük içinde bedenle taşınan ve sütten ayrılmaya uzanan bir hayat gibi duyulur. Bu bağlantıda gebelik imgesi anne bedenine aittir; 17:3'te taşınanlar Nuh'la birlikte kurtarılan insanlardır.
+
+İbrahim'in 14:37'deki duasında soy {ar:بِوَادٍ غَيْرِ ذِى زَرْعٍ, tr:bi-wādin ghayri dhī zarʿ, gloss:ekinsiz bir vadide} yerleştirilir; ona meyvelerden rızık dilenir ve {ar:لَعَلَّهُمْ يَشْكُرُونَ, tr:laʿallahum yashkurūn, gloss:umulur ki şükretsinler} diye umut edilir (14:37). Buradaki {ar:يَشْكُرُونَ, tr:yashkurūn, gloss:şükretsinler}, odaktaki {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} ile aynı aileden ama farklı biçim ve işlevdedir: biri dua içindeki çoğul eylem, öteki Nuh'u niteleyen yoğun sıfattır. Ailenin ayrı bir sözlük dalı az girdiyi yeterli bulma veya sınırlı girdiden belirgin gelişme nüansı da taşır; bu doğrudan odak sıfatının anlamı değildir. Ekinsiz vadi, istenen meyve ve şükür umudu kıtlık, umulan rızık ve minnet cevabını bir araya getirir. Meyve burada gerçekleşmiş hasat değil, duada istenen nimettir; bu bağlantının katkısı, soyun ihtiyaç içindeki devamını şükür umuduyla birlikte düşündürmesidir.
+
+Bu manzaradaki meyve isteği, taşıma ailesinin iki somut dalını hatırlatır: rahimde yavru taşıyan beden hayatı içeriden sürdürür; kendi meyvesini taşıyan ağaç ise aynı taşıma alanını üretken bir devamla buluşturur. Bu çağrışımlar, 17:3'teki {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} ile {ar:ذُرِّيَّةَ, tr:dhurriyyata, gloss:soy} arasındaki fiziksel taşıma ve nesiller bağına organik bir devam imgesi ekler. Şükür ailesindeki ayrı bir sözlük yankısı gövde ya da dipten çıkan körpe sürgünü ve ince dalı çağrıştırır; taze saç, yavru kuşun ince tüyü ve küçük çocuk da bu genç oluşumlara benzetilir. Böylece gebelik ve meyve taşıma hayatın nasıl sürdüğünü, sürgün ile genç beden örnekleri ise yeni büyümenin nasıl görünür olduğunu katkılandırır; 14:37'deki istenen meyve de bu ilişkiyi ihtiyaç ve umut sahnesinde tutar.
+
+Tohum yatağı imgesi bu katkıları bir araya getirir: bedensel taşıma hayatı kopuş içinden sürdürür, ekinsiz vadide dilenen meyve nimetin umudunu, sürgün ve yavru imgeleri yeni büyümeyi görünür kılar. Bu organik sahne 17:3'ün literal olayı değil, bu bağlantıların kurduğu yorumlayıcı benzetmedir; odaktaki sözler Nuh'la taşınan insanları ve onların soyunu anlatır. Doğuş ya da ışıkla ilgili bağımsız bir işaret bu imgeyi başlatmaz. Sûrenin girişindeki rahmet vurgusu (S:0) bu çizgiye rahmet tonu, yıkım sonrası dönüş ve toparlanma ise kopuştan sonra yeniden kurulan hayat boyutunu katar (17:4, 17:5, 17:6, 17:7, 17:8); bu ayetler benzetmeye yorumlayıcı destek verir. Birlikte, taşıma, meyve umudu ve körpe büyüme kurtarılmış topluluktan sonra da yaşamı sürdüren, nimete şükürle cevap veren bir soy çizgisini duyurur.
+
+## Taşımanın Başka Ölçekleri
+
+Bu soy çizgisinin daha geniş insanlık içindeki yeri, İsrâ 17:70'te aynı fiziksel taşıma ailesiyle açılır: {ar:وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ, tr:wa-ḥamalnāhum fī al-barri wa-al-baḥr, gloss:onları karada ve denizde taşıdık} denerek Âdem oğullarının karada ve denizde taşınması, ardından {ar:وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ, tr:wa-razaqnāhum mina al-ṭayyibāt, gloss:onlara güzel nimetlerden rızık verdik} denerek iyi nimetlerle rızıklanması anlatılır (17:70). Odaktaki {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} gibi buradaki eylem de insanları taşır; ölçek Nuh'la kurtarılan belirli topluluktan bütün insanlığa genişler ve taşıma ile rızıklandırmayı yan yana getirir. Bu yankı ortak ilahî desteği açar; 17:3'teki özel kurtuluşu herkesin ortak geçmişi saymaz.
+
+İnsanlık ölçeğindeki bu genişlik, soyun geleceğini de açık uçlu bırakır. Şeytan, soy üzerinde ileride kurmayı tasarladığı tasallutu azı dışında herkesi kapsayacak bir niyetle dile getirir (17:62). Oradaki {ar:لَأَحْتَنِكَنَّ ذُرِّيَّتَهُ إِلَّا قَلِيلًا, tr:la-aḥtanikanna dhurriyyatahu illā qalīlan, gloss:azı dışında soyunu mutlaka ele geçireceğim} tehdidi, Nuh'la taşınmış soyun devam eden fakat tehlikeye açık bir çizgi olduğunu düşündürür. Ayetin sunduğu kapsam bir gelecek niyetidir; gerçekleşmiş sonucu veya her torun için aynı kaderi belirlemez. Böylece 17:70'in insanlığa açtığı genel destekle 17:62'nin soy üzerindeki tehdidi farklı ufuklarda kalır; Nuh'un soyu tek ayrıcalıklı hat olmaz.
+
+Taşıma ailesi fiziksel insan taşımaktan emanet edilmiş sorumluluğa da uzanır. Ahzâb 33:72'de {ar:الْأَمَانَةَ, tr:al-amānah, gloss:emanet} göklere, yere ve dağlara sunulur; onlar yüklenmekten kaçınırken {ar:وَحَمَلَهَا الْإِنْسَانُ, tr:wa-ḥamalahā al-insān, gloss:insan onu yüklendi} denir (33:72). Bu, odaktaki {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} ile aynı Form I ailesinin başka bir anlamıdır: burada taşınan insan topluluğu değil emanet ve sorumluluktur. Bu bağlantı fiziksel kurtuluşun yanına üstlenilmiş görev yankısını ekler; emanetin sorumluluğu Nuh'un soyuna aktarılmaz.
+
+Soy bağı ile kişisel sorumluluk yan yana durur. Tûr 52:21'de imanla izleyen soyların ailelerine katılmasından söz edilir; hemen ardından {ar:كُلُّ ٱمْرِئٍ بِمَا كَسَبَ رَهِينٌۭ, tr:kullu imriʾin bimā kasaba rahīn, gloss:her kişi kendi kazandığına bağlıdır} denir (52:21). Bu birliktelik aileye katılma ile bireysel kazanç sorumluluğunu birlikte tutar: Nuh'un torunları onun örneğine kendi cevaplarını verebilir, fakat onun suçunu ya da faziletini devralmaz; ayet torunları yargılamaz. Meryem 19:58'de {ar:وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍۢ, tr:wa-mimman ḥamalnā maʿa Nūḥin, gloss:Nuh'la birlikte taşıdıklarımızdan} ifadesi Âdem, İbrahim ve İsrail soylarının, peygamberlerin ve hidayete erdirilmiş seçkinlerin anıldığı diziye katılır (19:58). Böylece taşınanlardan bir hat peygamberlik tarihine yerleşir; bu dizi her yolcuyu veya her torunu peygamber olarak tanımlamaz.
+
+## Şükrün Eylemi ve Karşılığı
+
+Kişisel cevabın nasıl görüldüğü, İsrâ 17:19'da çabanın takdir edilmesiyle başka bir biçim alır. Ahireti dileyip ona yaraşır çaba gösterenler {ar:سَعَىٰ لَهَا سَعْيَهَا, tr:saʿā lahā saʿyahā, gloss:ona yaraşır çabayla çalışmak} diye anlatılır; ardından {ar:كَانَ سَعْيُهُم مَّشْكُورًا, tr:kāna saʿyuhum mashkūran, gloss:çabaları takdir edilmişti} denir (17:19). Odaktaki etkin ve yoğun {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} ile burada çabayı niteleyen edilgen {ar:مَّشْكُورًا, tr:mashkūran, gloss:takdir edilmiş} aynı kelime ailesindendir ama dilbilgisel olarak aynı biçim değildir. Her iki yerdeki {ar:كَانَ, tr:kāna, gloss:idi} ayrı kişilerin yerleşik durumlarını yan yana getirir; böylece nimeti tanıyan cevap, gösterilen çaba ve bu çabanın görülmesi karşılıklılık kazanır. Bu yan yanalık ayrı kişilerin paylaştığı bir soy bağı kurmaz; edilgen takdirin kabul veya ödül anlamı da açık kaldığından temas olası bir yankı olarak kalır.
+
+Bu karşılıklılık, şükredenin ödüllendirilmesiyle ve emeğin görülmesiyle başka iki ayette belirginleşir. Kamer 54:35'te {ar:نِّعْمَةًۭ مِّنْ عِندِنَا ۚ كَذَٰلِكَ نَجْزِى مَن شَكَرَ, tr:niʿmatan min ʿindinā kadhālika najzī man shakara, gloss:bizden bir nimet; şükredeni böyle ödüllendiririz} denir; buradaki {ar:شَكَرَ, tr:shakara, gloss:şükretti} bir eylemi anlatır, odaktaki {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} ise kişiyi niteleyen yoğun sıfattır (54:35). İnsân 76:22'de {ar:سَعْيُكُم مَّشْكُورًا, tr:saʿyukum mashkūran, gloss:çabanız takdir edilmiştir} sözü {ar:جَزَآءًۭ, tr:jazāʾan, gloss:karşılık} ile yan yana gelir (76:22). Bu ayetler nimete cevap, emeğin görülmesi ve karşılık düşüncesini genişletir; eylem, yoğun sıfat ve edilgen takdir biçimlerini ayrı tutarken kendi bağlamlarını korur, Nuh'un hayatına yeni olaylar eklemez.
+
+Karşılık ilişkisinde verenin teşekkür beklemesi gerekmez. İnsân 76:9'da Allah rızası için insanları doyuranlar {ar:لَا نُرِيدُ مِنكُمْ جَزَاءً وَلَا شُكُورًا, tr:lā nurīdu minkum jazāʾan wa-lā shukūran, gloss:sizden ne karşılık ne de teşekkür istiyoruz} der (76:9). Buradaki {ar:شُكُورًا, tr:shukūran, gloss:teşekkür}, odaktaki {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} ile aynı ailedendir ama bu bağış sahnesinde istenmeyen bir karşılık adıdır. Bu ayrı örnek, Nuh'un niteliğindeki şükrü bir ücret olmaktan çıkarıp serbestçe verilen cevaba yerleştirir; iyilik, teşekkür talebine bağlı olmadan sunulur.
+
+İsrâ 17:20'de bağış iki gruba da ulaşır: {ar:كُلًّا نُّمِدُّ هَٰؤُلَاءِ وَهَٰؤُلَاءِ, tr:kullan numiddu hāʾulāʾi wa-hāʾulāʾi, gloss:bu iki kesimin ikisine de veririz} denir ve {ar:وَمَا كَانَ عَطَاءُ رَبِّكَ مَحْظُورًا, tr:wa-mā kāna ʿaṭāʾu rabbika maḥẓūrā, gloss:Rabbinin bağışı esirgenmiş değildir} sözü bağışın esirgenmediğini ekler; 17:21 ise {ar:فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ, tr:faḍḍalnā baʿḍahum ʿalā baʿḍ, gloss:onları birbirlerine göre üstün kıldık} diyerek dereceleri ayırır (17:20, 17:21). Bu geniş destek içinde Nuh'la taşınan belirli topluluğun kurtuluşu özel bir olay olarak yer alır; taşıma herkese ortak bir olay olmaz. {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} nimet karşısındaki kişisel cevaptır; bağışa erişme koşulu veya Nuh soyuna ayrılmış ayrıcalık değildir. 17:20 gündelik dünya rızkını da anlatabilir; bu olasılık 17:21'deki derece farklarını yerinde bırakır.
+
+Şükür, yalnızca niteliği bildiren bir söz değil, ibadet ve iş olarak da görünür. Sebe 34:13'te Dâvûd ailesine {ar:ٱعْمَلُوا۟ ءَالَ دَاوُۥدَ شُكْرًا, tr:iʿmalū āla dāwūda shukran, gloss:Ey Dâvûd ailesi, şükürle çalışın} buyurulur; buradaki {ar:شُكْرًا, tr:shukran, gloss:şükürle} isim biçimi, şükürle yapılacak işi bildirir. Ardından {ar:وَقَلِيلٌۭ مِّنْ عِبَادِيَ ٱلشَّكُورُ, tr:wa-qalīlun min ʿibādī al-shakūr, gloss:şükreden kullarım azdır} denir (34:13). Odaktaki {ar:عَبْدًا, tr:ʿabdan, gloss:kul} ile duyulan kulluğun Allah'a yönelen ibadet tarafı burada eyleme, şükürle çalışmaya döner.
+
+Eyleme açık bu şükür, zaman içinde yinelenen bir imkânla da buluşur. Furkân 25:62'de geceyle gündüzün birbirini izlemesi, hatırlamak ya da şükretmek isteyenlere yenilenen bir fırsat verir: {ar:جَعَلَ ٱلَّيْلَ وَٱلنَّهَارَ خِلْفَةًۭ لِّمَنْ أَرَادَ أَن يَذَّكَّرَ أَوْ أَرَادَ شُكُورًا, tr:jaʿala al-layla wa-al-nahāra khilfatan li-man arāda an yadhakkara aw arāda shukūran, gloss:geceyle gündüzü hatırlamak veya şükretmek isteyenler için birbirinin ardı sıra kıldı} (25:62). Buradaki {ar:شُكُورًا, tr:shukūran, gloss:şükretme}, odaktaki {ar:شَكُورًا, tr:shakūran, gloss:çok şükreden} sıfatından farklı biçim ve işlevde, şükretme isteğini anlatır. 34:13'ün iş buyruğu şükrü eylemde, 25:62'nin gece-gündüz dönüşü ise bu cevaba yeniden açılan fırsatta gösterir; bu fırsat Nuh'un her gün yaptığına dair biyografik bir kayıt değil, şükür imkânının sürekliliğidir.
+
+Bu yenilenen yöneliş, Fâtiha'da bugünkü ortak dua biçimini alır. Fâtiha'nın 1:5'teki {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāka naʿbudu wa-iyyāka nastaʿīnu, gloss:Yalnız Sana kulluk eder ve yalnız Senden yardım dileriz} sözü, geçmişte alınmış desteğin yanına ortak kulluk ve yardım isteğini koyar (1:5). 17:3'teki {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} fiziksel taşıma, {ar:عَبْدًا, tr:ʿabdan, gloss:kul} kulluk ilişkisi, Fâtiha'daki {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} ise etkin tapınma fiilidir. Bu karşılaştırma 1:5'in dua hareketiyle sınırlıdır: Fâtiha Nuh'u veya taşınmış topluluğu adlandırmaz; {ar:حَمَلْنَا, tr:ḥamalnā, gloss:biz taşıdık} fiziksel taşımadır, yardım dileği değildir. Bu fark, geçmiş nimeti tanımayı bugünkü ortak kulluk ve Allah'tan yardım dilemenin yanına koyar; şükür ortak duada Allah'a yönelen ses olarak sürer.
+
+</editorial_prose>

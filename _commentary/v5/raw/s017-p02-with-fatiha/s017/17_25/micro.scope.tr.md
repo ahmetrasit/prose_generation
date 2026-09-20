@@ -1,0 +1,121 @@
+Ayetin olağan okuması önce yerinde dursun: Rabbiniz içinizdekini en iyi bilir; iyi durumda olursanız O, kendisine dönenleri çok bağışlayandır.
+{ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} Tanrı'ya seslenen tekil Rab unvanıdır; kökün sahiplik ve yönetme alanı, Tanrı'ya özgü mutlak adlandırma, gözetileni adım adım düzeltip tamamlamak, besleyip büyütmek ve büyümenin çocukta ya da üründe tamamlanması çağrışımları bu unvana bakım ve düzen tonu katar, fakat burada ne insan mülkiyeti ne de II. bâb fiili okunur; {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen}, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ve {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} bu kök alanını ayetin içinde bakım ve yönetim olarak hissettiren bağımsız temaslardır.
+Sözcük, ardından gelen {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} ile nominal cümlenin öznesini kurar; önceki dua çerçevesinden sonra bu kuruluş ayeti yerleşik bir ilahî bilgi bildirimi olarak yeniden açar.
+İlk sözcükteki şedde unvanı sesçe sıkılaştırıp iç dünya ifadesinden önce ağırlık verir.
+Tekil unvana eklenen ikinci çoğul iyelik eki ise topluluğa birlikte seslenirken hesap verecek kişileri adsız bir bütüne indirgemez.
+Böylece Rab oluş, içinizdekini bilme ve sonda bağışlama tek bir ilahî ilişki içinde görünür.
+{ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} başındaki hemze ve ef'al kalıbı üstünlük bildiren sıfat biçimini duyurur.
+Cümlenin haberi oluşu ve yanında karşılaştırma yapısı bulunmayışı bilgiyi rakip göstermeden mutlak biçimde üstün kılar.
+Bilme ve gerçeği kavrama kökünün işaret-seçme çağrışımı, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ve {ar:فِى, tr:fi, gloss:içinde} ile karşılaşınca bilgiyi salt malumat değil, içeriği ayırt eden tanıma gibi duyurur.
+Bu tanıma imgesi, {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen}in bilme sıfatı oluşunu korur: {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ve {ar:فِى, tr:fi, gloss:içinde} işaret-seçme çağrışımını içerik tanımaya taşır, sözcüğü işaret adına dönüştürmez.
+Kur'an'daki ilahî bilgi söyleyişleriyle, 2:235'teki ve İsrâ'daki benzer bildirimlerle kurulan yankı burada iç-benlik tümleci ve ayetin sonundaki bağışlama güvencesiyle özelleşir.
+{ar:بِ, tr:bi, gloss:hakkında} ile başlayan ilgi tümcesi bu üstün bilme sıfatını tamamlar.
+Böylece bilgi soyut kalmayıp belirli bir içeriğe yönelir.
+Rab unvanını bakım ve yönetimle okutan yerel temaslar, {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen}, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ve {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler}dir; bu ilişki bilen Rabbi nötr bir gözlemci değil, gözeten ve düzeltendir diye duyurur.
+
+Bu içerik geçişinde {ar:بِ, tr:bi, gloss:hakkında} malzemeyi bilme iddiasına sıkıca bağlar; kendisinden sonra gelen {ar:مَا, tr:ma, gloss:ne varsa} ile birleşince yazıda ve tilavette tek, kısa bir giriş kapısı gibi duyulur.
+Bu küçük birleşmede mîm'in nazal sesi, daha sonra gelecek iç-benlik sözüne hafif bir ses köprüsü kurar; işitsel yakınlık, edatın kurduğu bağı gevşetmez.
+Buradaki ma soru sormaz: bi'nin yönettiği ilgi zamiridir ve ardından gelen {ar:فِى, tr:fi, gloss:içinde} öbeğiyle tamamlanarak bilinen içeriği adlandırır.
+Bununla birlikte açık içerik yuvası erkenden düşünce, dürtü ya da hâl diye parçalara ayrılmaz; önce yalnızca ne varsa onun bilindiği söylenir.
+Böylece ma hem önündeki edattan yönetim alır hem arkasındaki yer bildiren öbekle tamamlanır; soru değil, bilginin kapsamını açık bırakan bir bağlayıcıdır.
+
+{ar:فِى, tr:fi, gloss:içinde} kendisinden sonraki {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} adını cer konumuna alıp içeriği muhatapların dışında, yalnızca onlarla ilgili bir bilgi olmaktan çıkarır: uzamsal içerilme, soyut ve ahlaki bir içe taşınır, salt fiziksel yer anlamı olarak kalmaz.
+İlgi zamirinden sonra gelen bu öbek açık “ne”yi belirli bir “iç”e dönüştürür; daha geniş İsrâ mekân örüntüsü burada yalnızca arka plan basıncıdır, belirleyici olan ayetin kendi sıralamasıdır.
+Nufus sözü ilk bilgi birimini muhatapların kendilerine ait iç dünyayla kapatır; sondaki çoğul iyelik eki duyulur ve koşullu cümleye geçmeden önce bir ses-kapanışı sağlar.
+Kırık çoğul ad ile ikinci çoğul iyelik eki her bir kişinin kendi iç alanını çoğul topluluk içinde korur; hesap ortak sesleniştedir ama tek bir kolektif benlikte erimez.
+Nefs ailesinin iç düşünce, niyet ve ayırt etme gücü alanı ile canlı soluk alıp verme çağrışımı ahlaki iç dünyanın imgesini genişletir; ayetteki yer bildiren tamlama yine “iç benlikler”dir, her kök alanı ayrı ayrı sözlük karşılığı olmaz.
+Bu iç anlamları {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen}, {ar:فِى, tr:fi, gloss:içinde}, {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ve {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} bağımsız biçimde etkinleştirir: düşünce bilmeye, nefes imgesi tekrarlı dönüş ve korumaya bağlanır, ama nufusikumun çevirisi nefes olmaz.
+Adın {ar:فِى, tr:fi, gloss:içinde} edatı altında cerli oluşu ve ikinci çoğul iyelik eki, bilinen iç alanın özellikle muhataplara ait olduğunu da gösterir.
+
+Ardından gelen {ar:إِنْ, tr:in, gloss:eğer} önceki “içinizde ne varsa” ifadesine geri bakar: koşul, Tanrı'nın bilgisine sunulmuş içeriğin üzerine kurulur ve sonraki fiille birlikte gerçek bir şart cümlesi açar.
+Edat {ar:تَكُونُوا, tr:takunu, gloss:olursanız} fiilini cezm ederek yönetir; böylece cümle bir olayı anlatmaktan çok şart ile sonucunu kurar.
+Şartın “iyi olma” hâlini peşinen varsaymaması önemlidir: in biçimi ihtimali açık tutar, kesinleşmiş bir kimlik ilan etmez.
+İç bilgiden başlayan hat bu koşulla bir yola döner; ilerideki cevap, yalnız bir durum adı değil, bağışlamanın yöneldiği dönüşenler sınıfını da belirleyecektir.
+
+{ar:تَكُونُوا, tr:takunu, gloss:olursanız} burada yalın bir olay fiili değil, koşul altında yüklemini alan bir olma-fiilidir; cezmli oluşu ve ardından gelen {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} niteliği önceki davranışı dışsal uyumdan ibaret bırakmayıp bir hâl sınamasına taşır.
+Muzari ve koşul çerçevesi insanın düzgünlüğünü tamamlanmış bir etiket olmaktan çıkarıp değerlendirmeye açık, süren bir durum olarak bırakır.
+Fiilin ikinci çoğul kişi biçimi özneyi ayrıca zamir koymadan muhatapların içinde taşır; şart, bu topluluğa iyi olma yüklemini bağlar.
+Koşul böylece cevap gelmeden önce insanın nasıl bir durumda bulunduğu sorusunu öne çıkarır.
+Fiil ile yüklemin ses akışı İsrâ'nın ahlaki hâl söz varlığına, 17:44'teki yankıya da temas eder; bu, yerel koşul ifadesinin sınırlı ritim ve tekrar değeridir.
+
+{ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} koşulun sonuna bozulma ve kötülüğün karşıtı olan ahlaki sağlamlık niteliğini koyar; bu karşıtlık nötr yeterlilikten daha belirgindir.
+Ayetin kendi {ar:إِنْ, tr:in, gloss:eğer} koşulu ve {ar:تَكُونُوا, tr:takunu, gloss:olursanız} biçimiyle birlikte, sonradaki {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} de bu olumlu yönü bağımsız biçimde etkinleştirir; salihin böylece bozulmanın karşı kutbu olur.
+Çoğul etken ortaç biçimi niteliği gruba dağıtır ve tek seferlik bir onarım olayından çok süren bir vasıf gibi duyurur.
+Koşulun yüklemi olarak bu nitelik muhatapların taşıdığı bir hâli belirtir; adlandırılmış bir kast ya da ayrıcalıklı zümre değil, şart içinde sınanan bir özelliktir.
+İç dünyanın bilgisi burada düzgünlükte daralır; {ar:تَكُونُوا, tr:takunu, gloss:olursanız} yüklemiyle kurulan bu şart, sonra cevapta {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ile tekrarlı dönüşe ve {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} ile bağışlanmaya doğru rafine olur.
+{ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} taşıdığı iyi ve sağlam olma niteliğini, {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ile {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} bağımsız biçimde yeniden açar; bunlar tekrarlı dönüş ve koruyucu bağışlanmayı getirince şartın sonundaki sağlamlık bir onarım çizgisine yönelir.
+Salihin kökünün iyi ve düzgün olma, bozukluğu giderme ve kişiler arası uzlaşma alanları vardır; buradaki I. bâb etken ortaç onaranı değil, sağlam olanı niteler.
+Bu sağlamlık dalını ayetin {ar:تَكُونُوا, tr:takunu, gloss:olursanız} şartı ve cevapta gelen {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ile {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} bağımsız biçimde harekete geçirir; salihin kökündeki iyi olma ve yeniden düzgün duruma gelme böylece dönüş ve bağışlayıcı korumayla bir onarım çizgisi gibi duyulur, ancak biçim ettirgen değildir.
+Aynı kökün kişiler arasındaki kullanımında uzaklık ya da çatışma giderilir ve iki taraf karşılıklı barışır; {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} taşıdığı sağlamlık, cevapta {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ile {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan}ın açtığı uzlaşma imgesiyle buluşur, ama sözcüğün yerel anlamını “barışanlar” yapmaz.
+Koşulun son sözü olan salihina'nın dokulu sesi de cevaba geçmeden önce bu ahlaki niteliği işittirir.
+
+Koşulun cevabındaki {ar:فَ, tr:fa, gloss:bunun üzerine} sonucun işaretini verir; önceki şartı sonradan eklenmiş bağımsız bir söz olmaktan çıkarıp cevap cümlesine bağlar.
+Hemen ardından gelen {ar:إِنَّ, tr:inna, gloss:şüphesiz} bu bağı duyulur bir ara vermeden kesin bildirime taşır: şart ile ilahî nitelik aynı cevap hareketi içinde kalır ve sonuç koşuldan kopuklaşmaz.
+İnnanın cevabın başındaki vurgusu fânın ardışıklık değerini güçlendirir.
+Böylece cevap hem şartın sonucu hem de güvence olarak okunur.
+{ar:هُۥ, tr:hu, gloss:O} zamiri açılıştaki Rabbe döner, ilahî özneyi koşul aralığından geçirip cevapta sürdürür.
+İnna haberi geçici bir ihtimal gibi değil, koşulun ardından gelen kesin bildirim olarak kurar.
+Parçacık kendi adını yönetir ve devamındaki yüklem ilişkisini çerçeveler.
+İnna üzerindeki şedde bu açılışı sıkıştırıp sesçe ağırlaştırır.
+Bu vurgu gerçek koşulu silmez: olağan okuma hâlâ bir şart ve ona bağlanan cevaptır; kesin olan, cevabın bildirdiği bağışlayıcı niteliktir.
+
+{ar:كَانَ, tr:kana, gloss:yerleşik olarak ...dır} biçimindeki uzun ünlüler cümlenin son niteliğe doğru yavaşlamasını sağlar; aynı olma kökünün biraz önceki {ar:تَكُونُوا, tr:takunu, gloss:olursanız} ile yankısı da insan şartı ile ilahî niteliğin zaman farkını belirginleştirir.
+Kana'nın öznesi ayrıca söylenmeyen çoğul dönüşenler değil, inna'ya ekli tekil {ar:هُۥ, tr:hu, gloss:O} zamiridir; açılıştaki Rab unvanına dönüş ve tekil eril fiil uyumu bunu doğrular.
+Buradaki mâzi biçim basit bir geçmiş olay anlatmaz: dilbilgisel çözümlemede zamanla sınırlı olmayan nitelik yüklemi olarak işler, bu yüzden bağışlama gelecekte verilecek bir tepki değil, yerleşik ilahî vasıf olarak duyulur.
+Aynı kökün insan için koşullu muzari, Tanrı için {ar:كَانَ, tr:kana, gloss:yerleşik olarak ...dır} ile kurulan yerleşik mâzi yüklem oluşu, insanın hâlini açık bırakırken ilahî bağışlayıcılığı tek bir insan deneyiminden önce ve daha kalıcı gösterir; {ar:كَانَ, tr:kana, gloss:yerleşik olarak ...dır} yerleşik olma yüklemini, {ar:إِنْ, tr:in, gloss:eğer} altında {ar:تَكُونُوا, tr:takunu, gloss:olursanız} ise koşullu insan hâlini taşır, böylece iki görünüm aynı olma çekirdeğinde birleşir.
+{ar:كَانَ, tr:kana, gloss:yerleşik olarak ...dır} kök ailesindeki bulunma yeri ve konum—bir başkasının yanındaki değer dâhil—çağrışımını burada niteliğin yerleşikliğine yalnızca imge basıncı olarak katar; bu yer ve konum dallarını {ar:إِنْ, tr:in, gloss:eğer} ve {ar:تَكُونُوا, tr:takunu, gloss:olursanız} ile kurulan yerel yüklem çerçevesi etkinleştirir, fakat kelime yer adı olmaz.
+
+{ar:كَانَ, tr:kana, gloss:yerleşik olarak ...dır} sonrasında gelen {ar:لِ, tr:li, gloss:için} edatı hemen ardından gelen dönüşenler adına sesçe ve yazıda bağlanır; yan yana duran iki lâm ilişkiyi gevşek bir eklenti gibi değil, bitişik bir alıcı öbeği gibi duyurur.
+Li, ardından gelen mecrur insan grubunu yöneterek bağışlayıcılığı bir alıcıya yöneltir; “için” ilişkisi hem yarar hem özel tahsis etkisi taşır.
+{ar:لِ, tr:li, gloss:için} öbeği, {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} alıcı sınıfını son bağışlayıcı yüklemden önce adlandırır.
+{ar:كَانَ, tr:kana, gloss:yerleşik olarak ...dır} ile açılan nitelik, araya giren {ar:لِ, tr:li, gloss:için} alıcı öbeğinden sonra son {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} ile kapanır; böylece yüklem gecikmeli gelir ve dönüş cümle kapanışına açılan kapı olur.
+Li'nin kurduğu ilişki hem “onlar için” hem de özellikle onlara yönelmiş bir bağışlama olarak anlaşılır; bu yöneliş, kelimenin olağan alıcı ilişkisini korur.
+
+{ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} {ar:لِ, tr:li, gloss:için} edatının yönettiği akıl sahibi eril çoğul mecrur biçimdedir; bağışlayıcılığı alanlar soyut bir dönüş eylemi değil, dönüşle nitelenen kişilerdir.
+Sözcüğün içindeki yinelenen ses ve belirgin yoğunluk kalıbı gözle görülür ve işitilir; biçim de bunu tekrarlı dönüş niteliğine taşır.
+Başındaki belirlilik, gelişigüzel bir gruptan değil, dönüşle tanımlanmış tanınabilir bir insan sınıfından söz edildiğini düşündürür; sınıf son yüklemden önce gelir.
+Yoğun dönüş formu bir defalık geri dönüşten ziyade tekrar eden yönelişi karakterin parçası yapar.
+Cümlenin içinde bu alıcı sınıfı {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} ile kurulan koşullu düzgünlük ile {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} ilahî niteliği arasında durur; düzgünlük statik kusursuzlukta bitmez, cevapta yinelenen dönüşle yeniden tarif edilir.
+{ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} sözünün olağan geri dönme anlamı, burada {ar:لِ, tr:li, gloss:için} edatının alıcı ilişkisi ve son {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} yüklemiyle Tanrı'ya yanlış davranıştan dönme ve doğru kulluk yönüne yeniden yönelme çağrışımı kazanır; bu Tanrı'ya dönme dalı için yanlış davranışı bırakıp doğru kulluk yönüne yönelme anlamı taşır, {ar:لِ, tr:li, gloss:için} alıcı ilişkisi ile {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} bu dinî özelleşmeyi etkinleştirir, fakat sıradan dönüş anlamı silinmez ve yorum bütünüyle tanımlı bir ibadet programına genişlemez.
+Aynı alıcı ilişkisiyle son bağışlayıcı niteleme, dönüşü kaynağa ya da dönüş noktasına tekrar yönelme imgesi olarak da hissettirir; bu imgeyi {ar:لِ, tr:li, gloss:için} alıcı ilişkisi ile {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} yüklemi tetikler, dönüş zamanı ve yeri kök alanında bulunsa bile {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} burada yer adı değil insanları niteleyen yoğun çoğul sıfattır ve belirli bir yer adı genelleştirilmez.
+Böylece cevap cümlesi, koşuldaki düzgünlükten dönüşenler sınıfına, oradan bağışlama yüklemine doğru ilerler.
+
+{ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} yalın etken ortaç değil, fe'ûl kalıbındaki yoğun sıfattır; {ar:لِ, tr:li, gloss:için} ile belirlenen {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} alıcıları, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ve onları bilen {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} bu bağışlayıcılığı arada bir yapılan eylemden çok bol ve yerleşik nitelik gibi çerçeveler.
+Açılıştaki {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} ve {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ile sondaki {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} bir halka kurar: bilinen iç kusur, {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} için koruyucu bağışlanmayla karşılanır.
+Örtme kökünün giyim ve başlığı koruma imgesi maruz kalmaya karşı siper hissi verir; bu imgeyi {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} ile {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} bağımsız olarak açar, ama {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan}ın yerel biçimi yoğun ilahî bağışlayıcılık niteliği olarak kalır.
+Kana'nın yüklemi olarak mansub biçimde gelir ve ayetin son kelimesi olur; böylece bütün hareket ilahî niteliğe mühürlenir.
+Örtme kökünün fiziksel çekirdeği, {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan}ın olağan bağışlayıcılık anlamına eşitlenmeden, maruz kalmayı önleyen korumadır; {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ve {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} bu örtme dalını bağımsız tetikleyerek kusurlara karşı bir siper imgesi açar.
+Bu koruyucu kök dalını {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} taşıyıcısıyla birlikte ayetin başındaki {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} ile {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} de etkinleştirir; bilinen iç açıklığa karşı fiziksel örtünün koruyucu çekirdeği belirir.
+Örtme kökünün {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} üzerinden duyulan somut dalları, {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} ile {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler}in açtığı açıklığa karşı başı koruyan miğferi, yağı uzak tutan başörtüsü bezini, yay çentiğindeki yamayı ve başka bir bulutu örten bulutu içerir; bunlar ayette anılan eşyalar değil, fiziksel örtme kullanımının özel örnekleridir.
+Bu imge, {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan}ın yerel bağışlama anlamının yerine geçmez: bilinen ve dönüşen kişinin kusurunu, fiziksel örtüye çevirmeden koruyucu bir siper gibi düşündürür.
+Fiziksel örtüden ayrı olarak, {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan}ın suçu bağışlama ve bundan doğan cezaya karşı koruma dallarını da {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:içinizdeki benlikler} ile {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} etkinleştirir; koruma belirli kusurun sonucuna ilişkindir, her sorumluluğu ya da sonucu ortadan kaldırmaz.
+Bu iki tetikleyici, {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan}ın kusur için bağışlanma ve sonuçtan korunma yönünü de öne çıkarır; böylece siper imgesi belirli kusura bağlı kalır, bütün sonuçların silineceği anlamına gelmez.
+{ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ile {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} yan yana gelişi dönüş ve bağışlamayı birlikte adlandıran ender bir eşleşmeyi 38:25'teki paralelle de hatırlatır.
+Son kelimenin belirsiz mansub bitişi hem işitilen kapanışa açıklık hem nitelemeye büyüklük katar.
+Ses ve yapı güvencede birleşir, yeni bir sözlük anlamı eklemeden kapanışı genişletir.
+
+Olağan koşul-cevap okumasına eklenebilecek atfedilmiş bir yorum, affı önceden kusursuz bir iç hâle ulaşmış kişilere ayrılan ödül saymak yerine, eksik iç dünyada onarılma ve yeniden dönüş yolunu görür; bu, ayetin zorunlu düz anlamı değil, yerel kelimelerin birlikte okunmasından doğan bir yorumdur.
+{ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} bilinen içeriği tahmin değil gerçek bilgi olarak sunar; {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:iç benlikler} bu bilginin iç düşünceye, niyete ve kişinin kendi farkındalığına yöneldiğini bağımsız biçimde belirtir.
+Böylece bilme sözü ve {ar:فِى, tr:fi, gloss:içinde} öbeği, iç dünyanın açıklığını birlikte taşır; nefs burada bu düşünce alanına yer verir, başka anlamlarının hepsini üstlenmez.
+{ar:إِنْ, tr:in, gloss:eğer} ile {ar:تَكُونُوا, tr:takunu, gloss:olursanız} şartı, {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} bozulmaya karşı düzelme ihtimali olarak düşündürür; sonraki {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ve {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} bu onarımı tekrar ve korumayla açar, dolayısıyla nitelik önceden kusursuz bir sınıf kimliğine sabitlenmez.
+{ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ile {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} ve {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} bu hareketi tekrarlı yöneliş ve kusuru bağışlayıp sonucundan koruma ile tamamlar: awb kökünün dönüş zamanı ve yeri de kapsayan alanı burada bir kaynağa ya da dönüş noktasına yeniden yönelme imgesi verir; bağışlama ise kusurun cezasından korumayı düşündürür, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:iç benlikler} ve al-awwabina ile kurulan bağ da bu korumayı kişiye bağlar.
+Bu okuma sıradan çeviriyi yerinden etmez; kelimelerin yüzey biçimleri açıktır, fakat bütünlüklü onarılma çizgisi gramerin tek zorunlu hükmü değildir ve herkese aynı sonucu vaat etmez.
+
+Bir başka atfedilmiş okuma, Rab unvanındaki bakım ve yönetme alanını, bilme ve iç dünya ifadeleriyle birleştirip ilahî bilgiyi biçimlendirici bir bakım olarak düşünür: bütün benlik tanınır, uygun olana doğru yetiştirilir ve onarımı korunur.
+{ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} kök ailesindeki eksikten tamama doğru adım adım geliştirme ve besleyip büyütme çağrışımını taşır; {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen}, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:iç benlikler} ve {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} bu bakımı bilgili, içe dönük ve onarıcı kılan bağımsız temaslardır.
+A'lamu'nun bilme anlamı bu tasvirin tahmin değil tanıma oluşunu, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:iç benlikler} ve {ar:فِى, tr:fi, gloss:içinde} ile kurulan iç alan ise bakımın neye yöneldiğini gösterir.
+Nufusikum'un çoğulu burada “içinizdeki benlikler” anlamındadır; {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} ve {ar:فِى, tr:fi, gloss:içinde} ile kurulan bu tamlamadan kişinin bütün öz varlığına genişleyen okuma doğar, kelime bir özdeşlik ya da pekiştirme yapısı değildir.
+Salihin niteliği yetiştirmenin hedefi olan düzgünlük ve uygunluğu çağrıştırabilir; {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz}, {ar:أَعْلَمُ, tr:a'lamu, gloss:en iyi bilen} ve {ar:تَكُونُوا, tr:takunu, gloss:olursanız} bu hedefi destekler, ancak yerel sıfat bir kişiye “uygun olan” yapısı kurmaz.
+Son yüklemdeki {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} koruyucu örtme imgesi, {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} ve {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ile temas ederek onarımın sürmesine sığınak sağlar; bu, yerel bağışlama anlamına eklenen bir koruma görüntüsüdür.
+
+Zaman farkına dayanan atfedilmiş okumada, ayet iki sabit insan sınıfı saymak yerine insanın düzgün hâle gelebilme imkânı ile ilahî bağışlayıcılığın zaten yerleşik oluşunu yan yana getirir.
+{ar:إِنْ, tr:in, gloss:eğer} altındaki {ar:تَكُونُوا, tr:takunu, gloss:olursanız} insan için koşullu ve açık bir olma hâli kurarken {ar:كَانَ, tr:kana, gloss:yerleşik olarak ...dır} zamirsiz bırakılmış tekil özne {ar:هُۥ, tr:hu, gloss:O} ve son {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} yüklemiyle ilahî bağışlayıcılığı yerleşik nitelik olarak bildirir.
+Bu aynı olma kökünün iki yerel biçimi insanın özünü değişmez bir etiket yapmaz; {ar:صَٰلِحِينَ, tr:salihina, gloss:iyi ve düzgün kimseler} düzgün hâle gelme ve bu hâli sürdürme alanını koşula taşır.
+{ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ise tekrar dönenleri alıcı olarak adlandırır; ghafuranın bağışlama ve kusurun etkisinden koruma alanı bu alıcıyla belirir.
+Bu karşıtlık olağan cümlenin yanında bir zaman yorumu olarak kalır; kusursuz insan sınıfı ya da herkese evrensel sonuç iddiası üretmez.
+
+Daha deneysel bir süreç imgesi, olağan anlamları değiştirmeden iç onarımı soluk ve yürüyüş gibi ritmik düşünür: ortaya çıkış, sapma, dönüş ve yeniden korunma.
+{ar:نُفُوسِكُمْ, tr:nufusikum, gloss:iç benlikler} ayette iç benlikleri adlandırır; nefs kökünün soluk alıp verme anlamı, {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} ve {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} ile karşılaşınca içeriden tekrar çıkan nefes imgesine dönüşür, fakat nufusikumun sözlük karşılığı nefes olmaz.
+Awb biçimi yerel olarak insanları niteleyen tekrarlı dönüşü bildirir; kökün yürüyüşte uzvun gidip gelmesi ve el-ayakların hızlı salınımı kullanımı, {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:iç benlikler} ve {ar:غَفُورًا, tr:ghafuran, gloss:çok bağışlayan} ile kurulan temasta bu dizede tekrar eden bedensel hareket görüntüsü sağlar, genel eve dönüş anlamına genişletilmez.
+Ghafuranın olağan anlamı bağışlayıcılıktır; onun koruyucu örtme kök alanını {ar:نُفُوسِكُمْ, tr:nufusikum, gloss:iç benlikler} ve {ar:ٱلْأَوَّٰبِينَ, tr:al-awwabina, gloss:sürekli dönenler} tetikler ve kırılgan iç süreçle yinelenen dönüşü dış etkiden sakınan bir örtü gibi düşündürür, fiziksel örtüyü ayetin çevirisi yapmaz.
+Bu yüzden nefes-yürüyüş-örtü dizisi, anlamı şaşırtıcı biçimde genişleten ama yalnızca süreç imgesi olarak tutulan bir okuma denemesidir.

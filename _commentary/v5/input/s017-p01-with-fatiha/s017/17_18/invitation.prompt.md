@@ -1,0 +1,193 @@
+# V5 reading invitation — 17:18
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p01-with-fatiha/s017/17_18/17_18.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p01-with-fatiha/s017/17_18/17_18.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Koşulun Ufku
+
+17:18, {ar:مَّن, tr:man, gloss:her kim} diyerek kimliği açıklanmayan tekil bir insanın koşulunu açar. Bu kişi {ar:ٱلْعَاجِلَةَ, tr:al-ʿājilah, gloss:ivedi olan}ı isterse, Allah onun için bu hayat içinde dilediği şeyi {ar:عَجَّلْنَا, tr:ʿajjalnā, gloss:öne aldık} fiiliyle erkene alır; {ar:لِمَن, tr:liman, gloss:kime} kaydı tahsisin yöneldiği alıcıyı da ilahî dilemeye bağlar. Ardından {ar:ثُمَّ, tr:thumma, gloss:sonra} aynı kişiye döner: {ar:جَعَلْنَا, tr:jaʿalnā, gloss:bir duruma getirdik} fiilinin nesnesi özel ad olan {ar:جَهَنَّمَ, tr:Jahannam, gloss:cehennem}dır; kişi orada {ar:يَصْلَىٰهَا, tr:yaṣlāhā, gloss:orada yanar}, {ar:مَذْمُومًا, tr:madhmūman, gloss:kınanmış} ve {ar:مَّدْحُورًا, tr:madḥūran, gloss:kovulmuş} halde bulunur. İlk yönelişten bu sonuca kadar özne aynı adsız kişidir; ayet onun tarihsel kimliğini vermez.
+
+Koşuldaki {ar:كَانَ, tr:kāna, gloss:olmak} ile ardından gelen {ar:يُرِيدُ, tr:yurīdu, gloss:ister}, isteği tek bir anlık heves değil, sürmekte olan ya da yerleşmiş bir yöneliş olarak kurar. Belirli biçimdeki {ar:ٱلْعَاجِلَةَ, tr:al-ʿājilah, gloss:ivedi olan}, dişil isimleşmiş etken ortacıyla hemen erişilen dünya hayatını ve yakın vakti adlandırır; burada zaman ufku öne çıkar, soyut bir hız niteliği değil. İfade istenen ufku belirler; bedensel arayış ya da yolculuk imgesi açmaz ve tek başına âhiret karşıtlığı kurmaz. Kāna yönelişin sürmesini taşır; kişinin mekânda yerleşikliği, güvencesi ya da teslimiyeti hakkında hüküm vermez.
+
+İnsan öznesindeki {ar:يُرِيدُ, tr:yurīdu, gloss:ister} ile ilahî birinci çoğul öznenin {ar:نُرِيدُ, tr:nurīdu, gloss:dileriz} fiili aynı kök ve Form IV yapısındadır; gramatik özne tekil insandan ilahî sese geçer. Bu biçimsel dönüş insan yönelişi ile ilahî tahsisi birbirine yankılatır; failleri ve eylemleri birleştirmez. Kökün eylemi yineleyerek yapma anlamındaki ayrı kullanımı, tekrar eden sesle burada yalnız biçimsel bir yankı kurar; odaktaki fiil telaşsız tercihi de kapsayan dileme olarak kalır. Bu yankı gidip gelme, arayış ya da kararsızlık sahnesi çizmez; kestirme yol bağı ilerideki bağımsız yolculuk temasından gelir.
+
+Yakın zamanı adlandıran isim ile cevapta gelen {ar:عَجَّلْنَا, tr:ʿajjalnā, gloss:öne aldık} arasında aynı kökün isimden Form II fiile uzanan bağı vardır. {ar:ٱلْعَاجِلَةَ, tr:al-ʿājilah, gloss:ivedi olan} yakın vakti gösterirken ʿajjalnā seçilmiş bir şeyi ya da payı bekletmeden öne alır; böylece isimdeki zaman niteliği ilahî eylemde yeniden duyulur. Bu yerel bağ hızın zaman ekseninde işlediğini gösterir; mesafeyi azaltan yol okuması ayrı bir yolculuk temasına dayanır. Koşuldan sonra gelen ilahî geçmiş zaman fiili de odağı insanın yönelişinden cevabın tahsisine çevirir.
+
+## İçerik ve Alıcı
+
+İlk {ar:لَهُۥ, tr:lahu, gloss:onun için} açılıştaki adsız kişiye döner ve payın alıcısını gösterir; seçim yetkisini değil. {ar:فِيهَا, tr:fīhā, gloss:onun içinde} zamiri {ar:ٱلْعَاجِلَةَ, tr:al-ʿājilah, gloss:ivedi olan}a bağlanarak hızlandırmanın gerçekleştiği zaman alanını belirler. Ardından gelen {ar:مَا, tr:mā, gloss:ne ise} içerik yuvasını açık bırakır; birinci çoğul öznenin süreklilik taşıyan {ar:نَشَاءُ, tr:nashāʾu, gloss:dileriz} biçimi bu yuvayı ilahî iradeye bağlar, belirli bir dünyevî ödül adı vermeden.
+
+Alıcı yuvası {ar:لِمَن, tr:liman, gloss:kime} ve onu izleyen {ar:نُرِيدُ, tr:nurīdu, gloss:dileriz} ile seçilir; böylece “ne” ile “kime” ayrı işlevler görür. Liman cümlede hızlandırma eylemine de açık bırakılan içeriğe de bağlanabilir; her iki kuruluşta da nurīdu alıcıyı ilahî dilemeye bırakır. Liman içindeki man sesi açılıştaki bağımsız koşul öznesi {ar:مَّن, tr:man, gloss:her kim} ile farklı bir dilbilgisel görev taşır. Seçilen kişinin kimliği açıklanmaz. Aktarılan tekil özne varyantı nashāʾu'nun ilahî faili sunuşunu değiştirebilir; tam yüzeyi verilmediği için buradaki açıklama görünür birinci çoğul biçime dayanır ve “ne” ile “kime” ayrımını korur.
+
+Bu açık payın değerini, 17:11'de insanın şerri hayrı ister gibi istemesi ve {ar:عَجُولًا, tr:ʿajūlan, gloss:aceleci} diye nitelenmesi başka bir yönden aydınlatır. Odaktaki yurīdu, al-ʿājilah ve ʿajjalnā ile birlikte okunduğunda bu uyarı hızlı tahsisin yarar kanıtı sayılamayacağını gösterir. Sınır, aceleyi yararla özdeşleştirmemektir: kısa vadeli isteklerin tümü kötü sayılmaz ve isteyen kişiye iyiyi bilerek zararla karıştırma niyeti yüklenmez. (17:11)
+
+İsteğin karşılığının tahsisi 42:20 ve 11:15'te iki ayrı düzenle görünür. 42:20'de âhiret hasadını isteyenin hasadı artırılır; dünya hasadını isteyene ise ondan bir pay verilir ve âhirette pay bırakılmaz. 11:15'te dünya hayatını ve süsünü isteyenlere işlerinin karşılığının dünya içinde eksiksiz verilmesi anlatılır. İlki hasada göre ayrılan payı, ikincisi dünyevî karşılığın eksiksizliğini öne çıkarır; böylece iki ayrı tahsis biçimi görünür. 17:30'da rızkın dilediğine genişletilip dilediğine kısılması miktar boyutunu ekler. Bu ayetler ʿajjalnā ile birlikte, miktar, zaman ve alıcının ayrı eksenlerini belirginleştirir; yurīdu da olağan dileme anlamını korur. (42:20, 11:15, 17:30)
+
+## Aynı Alıcıdan Sonuca
+
+İlk {ar:لَهُۥ, tr:lahu, gloss:onun için} hızlandırılan payın alıcısını gösterirken, daha sonra gelen {ar:لَهُ, tr:lahu, gloss:onun için} aynı kişiyi Cehennem atamasına bağlar. Bu tekrar, ilk pay ile son hükmü aynı alıcı etrafında buluşturarak ironik bir benefaktif yankı kurar. 17:7'de iyilik ya da kötülüğün kişinin kendisine dönmesi bu özneye geri dönüşü destekler; odaktaki datif dağıtıcı okunduğunda da alıcı aynı kalır. Bu yankı ilk tahsisin Cehennem'e sebep olduğunu kurmaz. 42:20'deki hasat paylaşımı ayrı bir tahsis paralelidir; oradaki dünya ve âhiret hasadını isteyenler farklı özneler olduğundan, bu karşılaştırma odaktaki kişinin kimliğini belirlemez. (17:7, 42:20)
+
+{ar:عَجَّلْنَا, tr:ʿajjalnā, gloss:öne aldık} ile {ar:جَعَلْنَا, tr:jaʿalnā, gloss:bir duruma getirdik} yakın sesleri ve birinci çoğul ilahî özneleriyle birbirine bağlanır, ama ayrı işler görür: ilki payı erkene alır, ikincisi aynı alıcıya belirlenmiş bir durum atar. {ar:ثُمَّ, tr:thumma, gloss:sonra} bu işleri sıraya koyar ve aradaki sürenin uzunluğunu açık bırakır. {ar:كَانَ, tr:kāna, gloss:olmak} ile {ar:يُرِيدُ, tr:yurīdu, gloss:ister} içinde sürmüş yöneliş, aynı kişinin aldığı sonraki durumla böylece karşı karşıya gelir. Thumma'nın açtığı birim jaʿalnā ile başlayıp Cehennem ataması, yanma, kınanma ve kovulmayı birlikte kapsar. Belirli nesne {ar:جَهَنَّمَ, tr:Jahannam, gloss:cehennem} olduğundan jaʿalnā burada atamayı bildirir; Cehennem arka plan değil, atanan sonuçtur ve fiil yaratma eylemini anlatmaz.
+
+Hesap imgeleri kişisel hükmü elle tutulur kılar: 17:13'te herkesin payı boynuna bağlanır ve kitap önüne açılır; 17:14'te kişiye kitabını okuması söylenir; 17:14 ve 17:15'te kişinin kendi hesabını görmeye kendisinin yeteceği ve hiçbir yük taşıyanın başkasının yükünü üstlenmeyeceği bildirilir. Boyna bağlanan kayıt, okunan kitap ve devredilmeyen sorumluluk, odaktaki {ar:مَذْمُومًا, tr:madhmūman, gloss:kınanmış} ile {ar:مَّدْحُورًا, tr:madḥūran, gloss:kovulmuş} sonunu kişisel, dayanağı görülebilir bir hüküm gibi duyurur. Bu temas açıklayıcıdır: odaktaki adsız kişi kitap taşıyıcısı diye açıkça tanımlanmaz ve kınamanın gerekçesi bu kayıtla sınırlı tutulmaz. (17:13, 17:14, 17:15)
+
+## Ateşte ve Yakınlığın Dışında
+
+Atamanın ilk somut açılımı adın sesinden ve bedensel yanmadan gelir. {ar:جَهَنَّمَ, tr:Jahannam, gloss:cehennem} adındaki ikiz n sese ağırlık verir; ad için aktarılan yer kökenli derinlik çağrışımı da hemen ardından gelen ateşle birleşip kapalı mekân basıncını artırır. Bu ses ve derinlik, özel adın olağan anlamını yoğunlaştıran bir yankıdır; etimoloji kanıtı ya da başka bir sözlük anlamı değildir.
+
+Kişinin bu yerdeki hali {ar:يَصْلَىٰهَا, tr:yaṣlāhā, gloss:orada yanar} ile bedensel olarak açılır; sondaki dişil zamir Jahannam'a dönerek yanmayı belirli yere bağlar. Fiilin ateşe girme, orada kalma ve yakıcı sıcağı çekme alanı, ikinci aktarılan ateş kullanımında da ateş içinde kalma ve sıcaklığı duyumsama yönünü öne çıkarır. Odaktaki Form I insanı yanma halinde gösterir; bildirilen Form II seçeneği ettirici bir fail okuması sunar, ancak tam yüzeyi verilmediğinden bu alternatif odak biçimin yerini almaz. Uzayan ses yanma sıfatlarından sonraki hükme geçişte işitsel bir köprü kurar; bu ses etkisi yanmanın süresini dilbilgisel bildirimin ötesine taşımaz.
+
+Odaktaki yanmanın çevresini 17:8'de Jahannam'ı niteleyen {ar:حَصِيرًا, tr:ḥaṣīran, gloss:hapishane} sözü kapalı bir mekân olarak belirler. Yaṣlāhā çevresindeki biçimce uzak iki sözlük kullanımı bu kapanmaya ayrı katkılar sunar: ilkinde av için kurulan kapan, düzeneğin hazırlanmasını; ikincisinde hedefin içine düşüp yakalandığı tuzak, hedefin tutulmasını öne çıkarır. 17:8'in hapishane imgesi mekânsal sınırı verir; bu iki tuzak işlemi yanmaya, çevrili ve yakalanmış olma baskısını ekler. Ateş sahnenin gerçek zemini olarak kalır; kapan ve tuzak, fiilin çevirisi değil, bu belirli mekânsal bağlantının ikincil yankılarıdır. (17:8)
+
+Yanmanın ardından gelen {ar:مَذْمُومًا, tr:madhmūman, gloss:kınanmış} aynı tekil insan üzerindeki ahlakî yargıyı bildirir; eril tekil özneyle uyuşan mansup edilgen ortaç, bedensel maruziyete bu yargıyı ekler. {ar:مَّدْحُورًا, tr:madḥūran, gloss:kovulmuş} yakınlıktan fiilen uzaklaştırılma boyutunu getirir. İki paralel mansup edilgen ortaç aynı kişiye bağlanıp yanma sırasında birlikte geçerli durumları kurar; yeni bir fail ya da ikinci bir olay başlatmaz. Böylece ayetin yerel kapanışı bedensel yanma, ahlakî kınama ve ilişkisel-mekânsal çıkarılmayı üst üste getirir.
+
+Kınanma ile uzaklaştırılma, korunaklı konumun yitirilmesi ihtimalini de duyurabilir. Aynı kelime ailesinin ayrı kullanımları güvence, korunmuş hak, dokunulmazlık ve başkası için üstlenilmiş sorumluluk alanına uzanır; korunmuş söz ya da hakkın ihlali üzerine yükümlünün kınanması bu alanın bir parçasıdır. Odaktaki {ar:مَذْمُومًا, tr:madhmūman, gloss:kınanmış} olağan anlamıyla yargıyı verirken, {ar:جَعَلْنَا, tr:jaʿalnā, gloss:bir duruma getirdik} ile önceki {ar:لَهُ, tr:lahu, gloss:onun için} atama ilişkisini, {ar:مَّدْحُورًا, tr:madḥūran, gloss:kovulmuş} ise gerçek uzaklaştırılmayı taşır. Bu birleşim korunaklı bir konum kaybını olası kılar; belirli bir ahit, ihlal ya da hukukî statü ileri sürmez ve odaktaki madhmūman yine “kınanmış” demektir.
+
+Güvence ve dayanma sorusu 17:2'de Allah'tan başka vekil edinmeme, 17:22'de Allah'la birlikte başka ilah edinmeme uyarılarıyla belirir. 17:22'nin ardından {ar:فَتَقْعُدَ مَذْمُومًا مَخْذُولًا, tr:fa-taqʿuda madhmūman makhdhūlan, gloss:kınanmış ve yardımsız kalırsın} denir: dayanağını yitiren kişi kınanmış, yardımsız halde oturup kalır, ayağa kalkamaz. Bu sahne odaktaki kınama ve uzaklaştırılmaya başarısız dayanak ile terk edilmişlik boyutunu ekler. Makhdhūlan yardımsız bırakılmayı, madḥūran ise zorla uzaklaştırılmayı bildirir; 17:22'nin yasak-sonuç kuruluşu da 17:18'deki Cehennem atamasından ayrıdır. Bu bağlantı odaktaki kişiyi müşrik diye tanımlamaz ve iki yerdeki sebebi eşitlemez. (17:2, 17:22)
+
+## İstek, Eylem ve Emek
+
+Güvenilecek dayanak sorusundan ayrı olarak 17:16, tek kişinin payından bir kasabanın eylem ve hüküm dizisine geçer. Önce {ar:أَرَدْنَا, tr:aradnā, gloss:diledik} ile ilahî irade bildirilir; sonra varlıklı sakinlere buyruk gelir ve onların {ar:فَفَسَقُوا فِيهَا, tr:fa-fasaqū fīhā, gloss:orada yoldan çıktılar} davranışı olağan anlamıyla fıskı, yoldan çıkmayı anlatır. Aynı kelime ailesinin olgun hurmanın kabuğundan sıyrılıp dışarı çıkmasını anlatan ayrı kullanımı, bolluk içindeki bu davranış ve hüküm öncesindeki sıralamayla buluşunca örtünün açılıp içindekinin görünmesi imgesini ekler. Böylece imge yoldan çıkma anlamını koruyarak davranışın açığa çıkışını duyurur. (17:16)
+
+17:16'da hüküm kesinleşip kasaba bütünüyle yıkılır; 17:17 Rabbin kullarının günahlarından haberdar ve onları gören olduğunu ekler. Bu eylem-hüküm-görülme dizisi, odaktaki {ar:عَجَّلْنَا, tr:ʿajjalnā, gloss:öne aldık} payını onay işaretinden ziyade davranışın ve sonucun görünür olabileceği bir bağlamda duyurur. Bağlantı bu sahneye özgüdür: hızlandırılan pay fıskın sebebi ilan edilmez, her nimet sınav sayılmaz ve kasaba sakinleri odaktaki adsız kişiyle özdeşleştirilmez. (17:16, 17:17)
+
+Odaktaki {ar:يُرِيدُ, tr:yurīdu, gloss:ister} yakın dünya hayatına yönelirken, 17:19'da âhireti isteyen kişinin {ar:وَسَعَىٰ لَهَا سَعْيَهَا, tr:wa-saʿā lahā saʿyahā, gloss:ona yaraşır biçimde çabaladı} oluşu hedefe yönelik hareketi, işe koyulmayı ve emeği öne çıkarır. Bu kişi {ar:مُؤْمِنٌ, tr:muʾmin, gloss:inanan}dır; kelimenin olağan anlamı “inanan”dır, çabayla birlikte gelişi hedefe dönük güvene sınırlı bir nüans ekleyebilir, başarı güvencesi vermez. Emeğin {ar:مَشْكُورًا, tr:mashkūran, gloss:takdir edilen} diye karşılanması, 17:3'teki {ar:عَبْدًا شَكُورًا, tr:ʿabdan shakūran, gloss:şükreden bir kul} ile şükür alanında yankılanır; bu dilsel örüntü kişileri özdeşleştirmez. Böylece erkene alınan pay ile sonraki hedef için gösterilen emek karşılaştırılır, hızın kendisi değil yöneliş ve çaba öne çıkar. (17:19, 17:3)
+
+17:20'de hem bu gruba hem ötekine Rabbin bağışından verilir ve bu bağış kısıtlanmaz; 17:21 kişilerin birbirinden üstün kılınmasını, âhiretin ise derece bakımından daha büyük oluşunu ekler. Böylece odaktaki ʿajjalnā ile erkene alınan pay, daha geniş dağıtımın yalnızca bir parçası olarak görünür. Bu çerçeve tam ölçeği ya da onayı tek başına belirlemez; grupların payları ve kişilerin dereceleri açıklanmadan kalır, çaba da sonucu satın almaz. (17:20, 17:21)
+
+Başka ayetler dileme, emek ve varış arasındaki ilişkiye bağımsız bir pencere açar: 92:4 çabaların çeşitliliğini söyler; 79:40 Rabbin huzurunda durmaktan korkup isteğini dizginleyeni, 79:41 ise Cennet'i yurt edinmesini anlatır. Bu temaslar odaktaki {ar:يُرِيدُ, tr:yurīdu, gloss:ister} ve {ar:ٱلْعَاجِلَةَ, tr:al-ʿājilah, gloss:ivedi olan} yönelişi farklı gayretler ve menziller arasındaki tercih içinde duyurur; böylece dileme ile emek ve varışın birden fazla düzeni görünür. Bu paraleller kendi aralarında üstünlük sırası kurmaz ve 17:18'e emek ya da derece koşulu taşımaz. (92:4, 79:40, 79:41)
+
+## Yakın Yol ve Sonuç
+
+Emek ve derece temasından ayrı olarak, yakınlık bu kez yolculuk imgeleriyle duyulur. {ar:ٱلْعَاجِلَةَ, tr:al-ʿājilah, gloss:ivedi olan} ile {ar:عَجَّلْنَا, tr:ʿajjalnā, gloss:öne aldık}ın aynı kelime ailesindeki yolculukla sınırlı kullanımlarından biri hızlı gidişi, diğeri varış uzaklığını azaltan yakın ya da kestirme yolu anlatır. 17:1'in gerçek gece yolculuğu {ar:أَسْرَىٰ بِعَبْدِهِۦ لَيْلًا, tr:asrā bi-ʿabdihi laylan, gloss:kulunu geceleyin yürüttü} ile {ar:الْمَسْجِدِ الْأَقْصَى, tr:al-masjidi al-aqṣā, gloss:en uzak mescit} yönüne uzanır ve {ar:لِنُرِيَهُ مِنْ آيَاتِنَا, tr:li-nuriyahu min āyātinā, gloss:ayetlerimizden göstermek için} amacını taşır. Bu bağımsız sahne gerçek yolculuğu, uzak varışı ve gösterilecek işaretleri sağlar; yolculuğun kendisi hızlı diye nitelenmez. Birlikte, iki sözlük dalı odağın hemenliğine zaman bakımından hızlı gidiş ve mekân bakımından kısalan mesafe çağrışımlarını ekler. Bu bağlantı 17:18'i gerçek seyahat anlatısına dönüştürmez; oradaki hızlandırma payın zamanına ilişkindir. (17:1)
+
+Rota benzetmesine zaman ufkunu 87:16'da dünya hayatının tercih edilmesi, 87:17'de âhiretin daha hayırlı ve kalıcı oluşu kazandırır. Böylece seçilen hedef kadar ona varışın hangi ömür ufkuna ait olduğu da duyulur. Bu zaman karşıtlığı al-ʿājilah'a kendi başına yol anlamı yüklemez; yol imgesi yalnızca bu bağlamın bağımsız katkısıyla genişler. Hesap-kayıt dizisi (17:13, 17:14, 17:15) ile emek-derece ilişkisi (17:19, 17:21) bu rota bağlantısının kaynağı değil, ayrı yorum çizgileridir. (87:16, 87:17)
+
+79:38 dünya hayatını tercih edeni, 79:39 yakıcı ateşi yurt edinen sonu anlatır; bu çift, rota benzetmesine seçimin varış noktasını ekler ve odaktaki {ar:يَصْلَىٰهَا, tr:yaṣlāhā, gloss:orada yanar} ateşini yönelişin muhtemel sonu olarak duyurur. 7:18'de çıkış buyruğunu kovulma ve Cehennem uyarısının izlemesi, {ar:مَّدْحُورًا, tr:madḥūran, gloss:kovulmuş} sıfatındaki fiilî uzaklaştırılmaya ayrı bir temas sağlar. Birlikte bu imgeler, hızlı ya da kısa bir varışın kabul edilmiş bir son demek olmadığını düşündürür. Bağlantı bu paralelliklerle sınırlıdır: odaktaki kişi 7:18'de anlatılanla özdeşleştirilmez ve her dünyevî istek için aynı sonuç ileri sürülmez. (79:38, 79:39, 7:18)
+
+20:83, Musa'ya halkından ayrılışını neyin acele ettirdiğini sorarak hız ile topluluktan uzaklaşmayı aynı soruda buluşturur. Odaktaki {ar:عَجَّلْنَا, tr:ʿajjalnā, gloss:öne aldık} payı erkene alırken, sonundaki {ar:مَّدْحُورًا, tr:madḥūran, gloss:kovulmuş} yakınlıktan uzaklaştırılmayı taşır. Bu temas odaktaki zaman hareketine ilişkisel mesafe yankısı ekler; hızlı bağış ile son uzaklaştırma farklı işlerdir. Soru Musa'nın ayrı ayrılışına aittir: ortak olay ya da biçimbilgisel yapı kurmaz, onu kınamaz ve odaktaki adsız kişiyle özdeşleştirmez. (20:83)
+
+</editorial_prose>

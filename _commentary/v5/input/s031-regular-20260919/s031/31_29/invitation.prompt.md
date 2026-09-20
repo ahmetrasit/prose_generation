@@ -1,0 +1,211 @@
+# V5 reading invitation — 31:29
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_29/31_29.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_29/31_29.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+31:29 muhatabına “Görmez misin?” diye seslenir: Allah geceyi gündüze, gündüzü geceye geçirir; güneşle ayı yönetir ve her birini belirlenmiş bir süreye doğru akıtır. Ardından aynı hitap insanın yaptığı işi de önüne getirir. Göklerde görünen düzen ile insan eylemi, farklı içerikleri korunarak tek tanıma çağrısında buluşur.
+
+## Görme çağrısı ve iki bildirim
+
+{ar:أَلَمْ تَرَ, tr:a-lam tara, gloss:Görmez misin?} tekil muhataba yönelen bir sorudur. Başındaki {ar:لَمْ, tr:lam, gloss:-medi mi?} olumsuzluğu, sonu zayıf olan ikinci tekil {ar:تَرَ, tr:tara, gloss:görmek} fiilini cezm eder ve zayıf son harfi düşürür. Bu kesik biçim soyut bir gözlemden çok doğrudan bir çağrı kurar: muhataptan önündeki düzene bakması ve onu tanıması istenir. {ar:تَرَ, tr:tara, gloss:görmek} gözle algılamayı korurken görülenler üzerinde düşünüp bir yargıya varmayı da taşıyabilir; gece-gündüz çevrimiyle gök cisimlerinin hareketi bu tefekkürlü bakışın görünür malzemesidir. Buradaki görme çağrısı gözlem ve kavrayışı birlikte taşır; rüya anlamını gerektiren bir uyku bağlamı yoktur.
+
+Bu çağrının hemen öncesindeki 31:25’te gökleri ve yeri kimin yarattığı sorulur, “Allah” cevabı verilir ve insanların çoğunun bilmediği söylenir. Bu cevapla bilmezlik arasındaki açıklık, 31:29’daki {ar:تَرَ, tr:tara, gloss:görmek} sorusunu bilinen cevabı yinelemekten çıkarıp gece-gündüzün ve gök cisimlerinin göz önündeki akışına dikkat kesilme çağrısına dönüştürür. 31:25’in bilmezliği bu döngülere özgü bir bilgisizlik olarak sınırlandırmaz ve konuşanları Yaratıcı’yı inkâr edenler diye tanımlamaz. Böylece doğrudan görme anlamı korunurken bakış, görülen düzenden sonuç çıkarmaya doğru genişler.
+
+İlk {ar:أَنَّ, tr:anna, gloss:ki} görme çağrısının ardından kozmik eylemleri bildiren önermeyi açar; {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} bu yapıda edatın mansub ismidir ve gece-gündüzü geçiren, güneşle ayı yönelten eylemlerin açıkça adlandırılan failidir. Ardından gelen {ar:وَأَنَّ, tr:wa-anna, gloss:ve ki} aynı hitaba insan fiilleri hakkında ikinci bir bildirim ekler. Burada da {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} edatın ismidir; bu kez {ar:خَبِيرٌ, tr:khabīrun, gloss:haberdar} yüklemi insan işlerini uzmanlıkla bildiğini söyler. İki önerme aynı görme çağrısı altında eşit yapısal ağırlık taşır; göksel işleyiş ile insanın yaptığı işler tek bakışta tutulurken kendi ayrı içeriklerini korur.
+
+## Zamanın birbirine girişi ve gök cisimlerinin seyri
+
+İlk önerme iki eşleşmiş Form IV fiille açılır: {ar:يُولِجُ, tr:yūliju, gloss:içeri sokar} önce geceyi gündüze geçirir; ilk kullanımda {ar:ٱلَّيْلَ, tr:al-layla, gloss:geceyi} nesne, {ar:فِي, tr:fī, gloss:içine} sonrasındaki {ar:ٱلنَّهَارِ, tr:al-nahāri, gloss:gündüzün} ise hedef alandır. Aynı fiilin {ar:وَيُولِجُ, tr:wa-yūliju, gloss:ve içeri sokar} diye yinelenmesi rolleri tersine çevirir: bu kez {ar:ٱلنَّهَارَ, tr:al-nahāra, gloss:gündüzü} nesne, {ar:فِي ٱلَّيْلِ, tr:fī al-layli, gloss:gecenin içine} alıcı alandır. İsimlerin nesne ve hedef görevlerini değiş tokuş etmesi, iki dönemin yalnızca sırayla yer değiştirmesinden daha belirgin bir iç-alan ilişkisi kurar. Ettirgen fiil, içeri girme ile Allah’ın bir evreyi ötekinin içine sokmasını aynı örüntüde buluşturur; tekrarlanan şimdiki-geniş zaman biçimi bu geçişi süren bir düzen olarak duyurur. İkinci cümle başındaki {ar:وَ, tr:wa, gloss:ve} ilkini açıklamaz, ters yönü ona dengeli biçimde bağlar. Bu nedenle iç-alan ilişkisi zaman evreleri düzeyinde işler: gece ve gündüz olağan zaman dilimleri olarak kalır, fiil fiziksel bir kap anlatmaz.
+
+Bu geçişte {ar:ٱلَّيْلَ, tr:al-layla, gloss:gece} gündüzün karşıtı olan karanlık dönemi anlatır; sağlanan kullanımın örtülülük dokusu da gündüzün ışığı ve karşılıklı girişle belirginleşir. Gece adının kök çağrışımına ilişkin belirsizlik açık kalır. {ar:ٱلنَّهَارِ, tr:al-nahāri, gloss:gündüz} şafaktan gün batımına uzanan aydınlık süredir. Gündüz adının bağlı olduğu kelime ailesindeki “açma, açıklığı genişletme” kullanımı, karşılıklı roller ve Hac 22:61’deki yinelenişle etkinleşir; sınırın ötekine açıldığı imgesini eklerken gündüzün olağan zaman anlamını korur. Bu kök çağrışımı gündüzü fiziksel bir kapı ya da açıklık gibi kurmaz.
+
+Hac 22:61’deki karşılıklı giriş ile Zümer 39:5’in geceyi ve gündüzü birbirinin üzerine sarar gibi anlatması, bu iki dönemin sürelerinin de ötekine doğru uzandığını farklı uzamsal ilişkilerle düşündürür. Her biri bir cümlede giren, ötekinde içine girilen evredir; böylece geçiş, yalnızca iki kapalı zaman aralığının sırayla değişmesi değil, karşılıklı iç içe uzamadır. Hac 22:61 ve Zümer 39:5 bu uzamanın hızını ya da ölçüsünü vermez. Zümer 39:5’te güneşle ayın {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre}ye doğru akması, bu açılıp uzanan döngüyü ayrıca belirlenmiş bir sınır içinde tutar; sınır giriş fiilinin yerini almaz ve bir takvim ya da fiziksel mekanizma kurmaz.
+
+İki giriş fiilinden sonra {ar:وَسَخَّرَ, tr:wa-sakhkhara, gloss:ve boyun eğdirdi} anlatımın yönünü değiştirir. Şimdiki-geniş zamanlı biçimler süren geçişi anlatırken mâzî biçimindeki Form II {ar:سَخَّرَ, tr:sakhkhara, gloss:boyun eğdirip yöneltti} gök cisimleri üzerinde kurulan yönetimi bildirir. Belirtili ve mansub {ar:ٱلشَّمْسَ, tr:al-shamsa, gloss:güneşi} ile bağlaçla aynı fiile eklenen {ar:ٱلْقَمَرَ, tr:al-qamara, gloss:ayı} iki ayrı nesnedir; tek yöneltme ikisini de kapsar. Allah adı tekrar yazılmasa da eylemlerin faili olarak sürer, araya yeni bir fail girmez. Bu gök çiftinde fiilin amaçlı yöneltme ve hizmete bağlama anlamı öne çıkar; daha sert kullanım kolundaki zorla belirli işe sevk çağrışımı da bu yöneltilmiş hizmetin niteliğini duyurabilir. Alay etme anlamıysa bu nesne ve fiil yapısına uymaz.
+
+Güneş, görünen diski, ışığı ve ısısıyla bu yönetilen düzenin parlak öğesidir. Ay ise ayrı bir gök cismi olarak kalır; güneşle karşıtlığı ay ışığını ve onun aydınlattığı geceyi de çağırabilir. Böylece ortak yönetim, güneşin ışık ve ısısını ayın ayrı ışık taşıyan varlığıyla yan yana getirir. Kumara ya da kar körlüğüne ilişkin kullanımlar bu bağlamda etkin değildir; ifade yerel gök çiftini kurar ve benzer söyleyiş kalıpları tek başına daha geniş bir dağılım göstermez.
+
+Yaratıcıyı başkalarından ayıran {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} özel adı, güneşle ay üzerindeki yönetim eylemiyle yerel bir egemenlik çağrışımı kazanır; bu anlam adın kökeninden değil, izleyen fiille kurduğu ilişkiden doğar. Hemen ardından 31:30 göksel düzeni Allah’ın hak oluşu ve O’ndan başka çağrılanların bâtıllığıyla yan yana getirerek görünen nizamın işaret değerini genişletir. Bu bağlam, işaret okumasını Allah’a yöneltir; 31:30 güneşle ayı özellikle bâtıl çağrıların nesnesi diye adlandırmaz, dolayısıyla odaktaki gönderimleri gök cisimleri olarak sürer.
+
+Yönetilen bu çiftin ardından gelen {ar:كُلٌّ, tr:kullun, gloss:her biri} merfû tekil ismi yeni bir isim cümlesi açar; tekil {ar:يَجْرِي, tr:yajrī, gloss:akar veya ilerler} yüklemi güneşle ayın her birine ayrı ayrı dağılır. Böylece boyun eğdirme ile hareket birlikte görünür: her cisim kendi yolunu sürdürür, ikisi tek bir varlıkta erimez. Geçişsiz fiilin anlattığı seyir, önceki yönetim altında sürer ve bağımsız iradeye değil yöneltilmiş harekete karşılık gelir. {ar:كُلٌّ, tr:kullun, gloss:her biri}nin bu cümledeki kapsamı hemen önceki güneş-ay çiftiyle sınırlıdır; her iki cismi ayrı ayrı rotaya bağlar.
+
+Râ‘d 13:2 aynı güneş-ay çiftini, onların yönetilmesini ve her birinin {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre}ye kadar akmasını birlikte anarak buyruğa bağlı hareketin sürekliliğini gösterir. {ar:يَجْرِي, tr:yajrī, gloss:akar veya ilerler} yol boyunca sürme anlamını korur; su ve rüzgâr akabilir, at koşabilir, gök cismi ya da gemi izlediği yolda ilerleyebilir. Bu kullanımların ortak noktası belirli güzergâhta devam eden harekettir. Râ‘d 13:2’de yinelenen seyir, kök ailesindeki “alışılmış davranış yolu” çağrışımını sınırlı biçimde devreye sokar: tekrar düzenlilik hissi kazandırır. Bu düzenlilik benzetmesi insan alışkanlığı, niyeti ya da seçimini gök cisimlerine yüklemez; Râ‘d 13:2 de hareketin fiziksel işleyişini açıklamaz.
+
+Bu seyrin yönünü {ar:إِلَىٰ, tr:ilā, gloss:…e doğru} öbeği belirler: her biri {ar:أَجَلٍ مُسَمًّى, tr:ajalin musammā, gloss:belirlenmiş bir süreye} doğru ilerler. {ar:أَجَلٍ, tr:ajalin, gloss:süre ve son sınır}, edattan sonra mecrur gelerek yönelinen bitişi adlandırır; {ar:مُّسَمًّى, tr:musammā, gloss:adlandırılmış ve belirlenmiş} edilgen ortaç bu hedefin tayin edilmiş olduğunu bildirir. Böylece her rota belirli bir sınıra sahiptir, takvimdeki kesin tarih ise söylenmez. Ortaç adlandıranı dilbilgisel olarak belirtmez; yakın cümlede Allah’ın kozmik fiillerin faili oluşu ilahî belirleyeni mümkün kılar, fakat bu fail ortaçta açıkça kurulmaz.
+
+{ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre ve son sınır}ın farklı kullanımları bu terimin göksel, kişisel ve sözleşmesel bağlamlarda sabit bir sonu nasıl taşıdığını gösterir. Zümer 39:5 ve Rûm 30:8 süreyi kozmik ve yaratılmış düzen içinde anar; Münâfikûn 63:11 vade geldiğinde hiçbir canın ertelenmeyeceğini bildirir. Bakara 2:282’de borç vadesinin yazılıp tanıklanması, belirlenmiş bir sürenin bilinebildiği ve kayda geçirilebildiği bir örnektir. Bu çeşitlilik, her ecelin insanlarca bilinemez olduğu biçimindeki genellemeyi dışarıda bırakır; 31:29’un güneşle ay için bildirdiği belirlenmiş sona karşılık kesin gün yine açıklanmaz.
+
+“Adı konmuş” okuması korunurken, {ar:مُّسَمًّى, tr:musammā, gloss:adlandırılmış} için sağlanan daha uzak fiziksel iz koyma kullanımı da bir işaret çağrışımı açar. {ar:أَلَمْ تَرَ, tr:a-lam tara, gloss:Görmez misin?} görme çağrısı, görünür gök düzeni ve {ar:أَجَلٍ, tr:ajalin, gloss:süre} sınırı birlikte düşünüldüğünde, belirlenmiş son okunabilir bir işaret gibi duyulur. Bu imge tayin edilmiş sınırın seçilebilirliğini güçlendirir; fiziksel bir iz ya da takvim tarihi iddiası taşımaz. Nitelemenin temel karşılığı yine adlandırılmış süredir.
+
+31:27 ve 31:28’in genişlik tasvirleri, her gök cisminin sonlu kursunu daha büyük bir kudret ufku içinde görünür kılar. 31:27’de yeryüzündeki ağaçlar kalem, deniz mürekkep olsa ve ardından yedi deniz daha eklense bile {ar:كَلِمَاتُ اللَّهِ, tr:kalimātu llāh, gloss:Allah’ın sözleri} tükenmez; denizlerin çoğalması, yazı araçlarının sınırsızlaşması ve anlamlı içeriğin eksilmemesi aynı imgeyi kurar. 31:28’de insanları yaratmak ve diriltmek {ar:كَنَفْسٍ وَاحِدَةٍ, tr:ka-nafsin wāḥidah, gloss:tek bir can gibi}dir. Bu iki bağlam, 31:29’daki göksel kursların sınırını korurken ilahî sözleri ve yeniden yaratma kudretini ölçülemez bırakır; genişlik süre sözcüğünü sonsuzlaştırmaz.
+
+Gök cisminin rotası, 31:31 ve 31:32’deki deniz yolculuğuyla varış fikri bakımından buluşur. 31:31’de Allah’ın lütfuyla gemi kıyıdan uzak, engin ve derin denizde ilerler; 31:32’de yükselen dalgalar yolcuları gölgelikler gibi örter, onlar Allah’a yönelir ve kurtarıldıklarında karaya ulaşırlar. Açık denizdeki yolun kuşatılma, sığınma, kurtuluş ve kıyıya varışa dönüşmesi, {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre}ye yönelen göksel seyri bir varış rotası gibi düşündürür. Câsiye 45:12’de aynı hareket kökünün başka bir çekimi, Allah’ın buyruğuyla denizde ilerleyen ve insanların O’nun nimetini aradığı gemileri anlatır; iki metni bağlayan yöneltilmiş güzergâhtır. Bu bağlantı 31:29’a deniz, dalga, kıyı ya da yolcu kırılganlığını taşımaz; gemi hareketi {ar:سَخَّرَ, tr:sakhkhara, gloss:boyun eğdirip yöneltti} ile biçimbilimsel olarak da eşleşmez.
+
+{ar:تَرَ, tr:tara, gloss:görmek} çağrısı ile {ar:ٱلشَّمْسَ, tr:al-shamsa, gloss:güneş} ve {ar:ٱلْقَمَرَ, tr:al-qamara, gloss:ay}ın görünür seyri, En‘âm 6:76, 6:77 ve 6:78’de İbrahim’in yıldızı, ayı ve güneşi görüp batışlarına tanık olduğu sahneyle yankılanır. En‘âm 6:78’de güneş batınca İbrahim ortak koşmayı reddeder; bu sahne parlak görünmenin kalıcı egemenlik anlamına gelmediğini açar. Benzerlik, 31:29’un muhataplarını İbrahim diye tanımlamaz ve onun öyküsünü odak ayete taşımaz. Odaktaki güneş ve ay yönetilen gök cisimleri olarak kalır; karşılaştırma ay ışığı, ay evreleri ya da yeni bir astronomi bilgisi eklemez. En‘âm’daki batış da {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş son sınır} ile özdeş değildir; iki sahne yalnızca görünen hareketin sınırsız olmadığını düşündürür.
+
+## Geçişin başka imgeleri
+
+Deniz yolculuğundan ayrı bu su imgesi, gece-gündüz arasındaki giriş ile gök cisimlerinin yolunu bir araya getirir. Gündüz adının bağlı olduğu kelime ailesindeki taşkın suyu taşıyan, toprağı yararak belirginleşen doğal yatak ya da kanal imgeye bir taşıyıcı hat sağlar. Karşılıklı {ar:يُولِجُ وَيُولِجُ, tr:yūliju wa-yūliju, gloss:içeri sokar ve geçirir} evreleri birbirine alınan akışlar gibi gösterir; {ar:يَجْرِي, tr:yajrī, gloss:akar veya ilerler} bu hatta hareketi verir; {ar:ٱلنَّهَارِ, tr:al-nahāri, gloss:gündüz} kanal, gök cisimleri hat boyunca akanlar, {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre} de akışı toplayan havuz gibi düşünülebilir. Böylece giriş, kanal, akış ve son sınır tek bir hidrolik tasvirde birbirini tamamlar. Tasvir gündüzün aydınlık zaman anlamını ya da gök cisimlerinin gönderimini değiştirmez; zaman dilimleri zaman, cisimler gök cismi olarak kalır.
+
+Lokmân 31:10’daki suyun gökten inişi, yeryüzüne dökülüp taşınması, bitkilerin çıkışı ve eşlenmiş ürünler, kanal imgesine ayrı bir yeryüzü karşılığı verir. Yağan ve taşınan su, karşılıklı girişle kurulan dolaşımın maddesini; yerden çıkan bitkiler ise bu aktarımın dönüşmüş sonucunu gösterir. Bu sahne gündüz adının taşkın su yatağı çağrışımını canlı tutar, fakat 31:10 ile 31:29 iki ayrı işaret dizisi olarak kalır: yağış ve büyüme güneş-ay döngüsünün sonucu diye kurulmaz. Eşlenmiş ürünler de 31:29’daki {ar:كُلٌّ, tr:kullun, gloss:her biri} kapsamına katılmaz; odakta bu kelime yalnızca güneşle ayı ayrı ayrı kapsar.
+
+{ar:مُّسَمًّى, tr:musammā, gloss:adlandırılmış} için verilen daha uzak “dar delik, geçit ya da sığınak” kullanımı süreyi bir eşik imgesine açar. {ar:أَجَلٍ مُسَمًّى, tr:ajalin musammā, gloss:belirlenmiş süre} varışın zaman sınırını, karşılıklı {ar:يُولِجُ, tr:yūliju, gloss:içeri sokar} geçide giriş ve {ar:يَجْرِي, tr:yajrī, gloss:ilerler} güzergâh boyunca geçişi sağlar; bu işlemler birlikte her hareketin içinden geçtiği dar bir boğaz resmi kurabilir. Lokmân 31:31 ve 31:32’deki deniz sahnesinde ise yolcular kurtuluşun ardından kıyıya varır; burada imge bir varış sahilinden çok rotanın içinden geçilen dar noktaya odaklanır. Her iki benzetme de süreyi mekânsal olarak düşündürürken, odaktaki ifade belirlenmiş zaman sınırını korur.
+
+Lokmân 31:14’te annenin çocuğu taşıması ve güçsüzlüklerin üst üste gelmesi, içeride olgunlaşan bir süreci kurar; iki yıl bu gelişime ölçü verir, sütten ayırma bir aşamadan ötekine geçişi, Allah’a dönüşe yöneliş ise sonucu belirginleştirir. 31:29’daki {ar:يُولِجُ, tr:yūliju, gloss:içeri sokar} ile içeri giriş, {ar:يَجْرِي, tr:yajrī, gloss:ilerler} ile süren hareket ve {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre} ile konan sınır, bu ölçülü dönüşüme benzetilebilir; 31:14’ün yönelişi imgeye yalnızca süre değil, varış da katar. Bu paralellik biyolojik süreci gece-gündüz çevrimine bağlamaz: iki yıl o çevrimin süresi, güneşle ay da anne ve çocuk değildir. Olgunlaşma odağa ayrı bir sözlük anlamı eklemez.
+
+## İnsan işi ve iç yüzü bilen
+
+İkinci önermede öne alınan {ar:بِمَا, tr:bi-mā, gloss:yaptıklarınız hakkında} öbeği, Allah’ın bilgisinin konusu olan insan işini yüklemden önce görünür kılar. Buradaki {ar:بِ, tr:bi, gloss:hakkında} uzman bilginin alanını açar; bilgiyi edinmenin aracı değildir. {ar:مَا, tr:mā, gloss:ne veya şey} yapılan işler anlamında ilgi zamiri ya da yapma faaliyeti anlamında mastar olarak okunabilir. Her iki çözümleme de aynı alanda kalır: biri yapılanları, öteki yapma eylemini öne çıkarır; ayet bu ikisinden birini seçmez.
+
+Kozmik eylemler üçüncü kişiyle anlatıldıktan sonra {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yapıyorsunuz} ikinci çoğul kişiye döner ve muhatapları doğrudan hitaba alır. Form I’de bu fiil yapmak ve işlemek demektir; biçim ettirme ya da karşılıklı işlem anlamı taşımaz. Kök ailesindeki amaçlı iş ve bilinçli eylem tonu, yapılanların muhataba isnat edilebilir oluşunu duyurur; ayet tek bir eylemi seçip değer biçmez. Sağlanan {ar:يَعْمَلُونَ, tr:yaʿmalūna, gloss:yapıyorlar} kıraati ise üçüncü kişiyi bildirir ve işleri muhataplar hakkında anlatır. Böylece iki şahıs biçimi aynı eylem alanını farklı muhatap ilişkileriyle taşır; biri ötekine üstün tutulmaz.
+
+Yapma fiilinin bağlı olduğu kelime ailesindeki ağır el işi yapan kişi kullanımı, eylem ile onu yapan emekçi arasında bir karşılaştırma açar. 31:29’daki {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yapıyorsunuz} ise çekimli bir fiildir; insanları “işçiler” diye adlandıran isim değildir. Bu form farkı benzetmenin sınırını da belirler: gök cisimlerine yöneltilmiş hizmet ile insanın yaptığı işler karşılaştırılır, insanlara belirli bir meslek ya da çalışma koşulu yüklenmez.
+
+İkinci önermenin merfu yüklemi olan {ar:خَبِيرٌ, tr:khabīrun, gloss:haberdar}, Allah’ı insan işlerinin faili değil, o işleri bilen olarak sunar ve görme çağrısı altındaki bildirimi tamamlar. Sağlanan kullanımlar bu sıfatın bir işin dış görünüşünün ardındaki niteliği tanımaya, edinilmiş ya da aktarılan bilgiyle derinleşen haberdarlığa uzanabildiğini gösterir. {ar:بِمَا تَعْمَلُونَ, tr:bi-mā taʿmalūna, gloss:yaptıklarınız hakkında} insan işini bu uzmanlığın konusu yapınca bilgi görünen işle birlikte işin iç yüzüne de uzanır. Bu iç bilgi insan gözlemiyle aynı kapsamda değildir; gelecekteki bir raporun zamanı ya da kendisi ise bu sıfatta belirtilmez.
+
+Lokmân 31:16’daki hardal tanesi örneği, uzman bilginin çok küçük ve saklı olana nasıl uzandığını görünür kılar. Bir şey kaya, gökler ya da yer içinde gizli bulunsa bile Allah onu ortaya çıkarır; ayet bunu Allah’ın Latîf ve {ar:خَبِيرٌ, tr:khabīrun, gloss:her şeyden haberdar} oluşuyla ilişkilendirir. Tane küçüktür, kaya büyük ve sert bir direnç oluşturur; gizlilik ile ortaya çıkarılma aynı sahnede karşılaşır. Filizlenmeye hazır tohum da henüz görünür sonuca dönüşmemiş olanı bu imgeye ekler. Bu küçük ve kapalı örnek, 31:29’daki {ar:يُولِجُ, tr:yūliju, gloss:içeri sokar} girişiyle {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yapıyorsunuz} ve {ar:خَبِيرٌ, tr:khabīrun, gloss:iç yüzünü bilen} kapanışını, gizli eylemin de bilgi ve sorumluluk alanında kalması yönünden aydınlatır. Tohum 31:16’nın örneğinde kalır; güneşle ay onu bulup çıkaran fail olarak gösterilmez.
+
+Lokmân 31:20’de nimetlerin zahir ve bâtın, yani dışarıdan görünen ve içte kalan yönleri anılır; aynı görme kökü orada çoğul çekimle yinelenir. 31:29’daki tekil {ar:تَرَ, tr:tara, gloss:görüp kavra} ile 31:20’deki çoğul biçim aynı hitap değildir; ortaklık, görünen düzenden daha içteki bir boyuta uzanan görme alanındadır. Bu temas görmeyi içtekinin kendiliğinden açığa çıkması gibi değil, görünenin ötesine yönelen bir eşik gibi duyurur. {ar:خَبِيرٌ, tr:khabīrun, gloss:işin iç yüzünü bilen} kapanışı bu eşiği tamamlar: dışarıdan seçilemeyen yön de ilahî bilgi içindedir. 31:20’nin belirli nimetleri odak ayete aktarılmaz; katkısı görünen döngüyü daha geniş düzenin dışa açılan yüzü gibi düşündürmesidir.
+
+Lokmân 31:20, boyun eğdirme ilişkisini güneşle aydan göklerde ve yerde bulunanlara genişletir ve insan için nimet ile fayda çerçevesi kurar. Bu geniş bağlam, 31:29’daki {ar:سَخَّرَ, tr:sakhkhara, gloss:boyun eğdirip yöneltti} fiilini fiziksel yöneltmenin yanında yarar sağlayan bir düzen içinde duyurur. 31:20’deki nimetlerin tam ve kuşatıcı oluşu bu hizmeti bütünlüklü görmeye katkı verir; bu bütünlük sözcüğün 31:29’daki ayrı bir sözlük anlamı değildir. Gök hizmetiyle insan işi aynı hitapta buluşunca bu düzende yaşayanın eylemi de gözetim ufkuna girer.
+
+İnsan işi ikinci önermede belirdiğinde, {ar:سَخَّرَ, tr:sakhkhara, gloss:boyun eğdirip yöneltti} fiilinin daha sert kullanım kolu da yeni bir karşılaştırma açar: amaçlı yöneltmenin yanında, kimi kullanımlarda bir şeyin zorlanarak ya da karşılık almadan hizmete koşulması bulunur. {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yapıyorsunuz} insanın yaptığı işi adlandırırken bu kullanım kolu, hizmet alanla işi yapan arasındaki farkı düşündürür. Ağır el işi yapan kişi anlamındaki kök dalı da benzetmeye emekçi yüzü katar. Lokmân 31:20’nin nimet ve yarar çerçevesi gök hizmetini iyilik sağlayan düzen içinde tutar; böylece analoji sorgulayıcı kalırken ilahî sömürü ya da belirli bir çalışma düzeni hakkında hükme dönüşmez. Odak ayetin fiili insanları “işçiler” diye adlandırmaz; {ar:خَبِيرٌ, tr:khabīrun, gloss:işin iç yüzünü bilen} ise insan emeğini bilgi ve sorumluluk ufkunda tutar.
+
+31:29’daki yönetilen gök cisimleri ile insan işi hakkındaki ikinci bildirim aynı görme çağrısı altında buluştuğundan, Nahl 16:12’nin geceyi, gündüzü, güneşi, ayı ve yıldızları buyruğa bağlı işaretler olarak anması kozmik düzenin anlamını genişletir. Bu bağlam, 31:29’daki {ar:سَخَّرَ, tr:sakhkhara, gloss:boyun eğdirip yöneltti} düzenini işaret değeri olan bir hizmet olarak duymaya katkı verir; yöneltmenin fiziksel aracını açıklamaz. Hadîd 57:4’te yere giren ve ondan çıkan, gökten inen ve ona yükselenlerin ardından insanların yaptıklarının görülmesi, insan eylemini bu geniş kozmik bilgi alanına katar; eylemler gök hareketine indirgenmez.
+
+Hadîd 57:6’da geceyle gündüzün {ar:يُولِجُ, tr:yūliju, gloss:içeri sokar} fiiliyle birbirine sokulması, göğüslerde saklı olanın bilinmesi sözüne komşudur. Aynı giriş örüntüsü görünen zaman düzenini gizli insan içiyle karşılaştırır; gece-gündüz çevrimi kalbin mecazı yapılmaz. Mücâdele 58:7 gizli konuşmaları ve daha sonra bildirilecek işleri ekleyerek bu karşılaştırmayı davranışın etik boyutuna taşır. Nahl 16:12, Hadîd 57:4, Hadîd 57:6 ve Mücâdele 58:7 birlikte, kozmik hizmetin insan davranışını da kuşatan bir işaret gibi okunmasına imkân verir; gök cisimleri insan gibi işçi olmaz ve odak ayete ayrıca hesap bildiren bir fiil eklenmez.
+
+Lokmân 31:15 ve 31:23’te insanın Allah’a dönüşü, yapılanların bildirilmesi ve işlerin içeriği iki ayrı dizide yinelenir; 31:23 göğüslerin içindekini de anar. En‘âm 6:60’ta gece, gündüz yapılan işler, belirlenmiş süre, dönüş ve amellerin bildirimi art arda gelir; Mücâdele 58:7 de gizli konuşma ile ilahî bilgiyi işlerin daha sonra bildirilmesine bağlar. Bu diziler, odaktaki bilinen işten dönüş ve açıklanmaya uzanan bir güzergâhı düşündürür: {ar:يَجْرِي, tr:yajrī, gloss:ilerler} yol imgesi, {ar:تَعْمَلُونَ, tr:taʿmalūna, gloss:yaptıklarınız} eylemi, {ar:خَبِيرٌ, tr:khabīrun, gloss:işin iç yüzünü bilen} ise içeriğin bilinmesini taşır. Bu gelecek bildirim ve dönüş, 31:29’un kendi cümlesinde kurulmaz; odakta sıfat insan eylemine uzman bilgiyi bildirir, “rapor vermek” anlamını taşımaz. Paralellik mümkün bir okuma olarak kalır.
+
+Giriş fiilinin toplumsal yankısı, bir örüntünün ilişkilerin içine alınıp orada yer tutmasıdır. Lokmân 31:20’de güvenilen aile dışı sırdaşların kabulü özel bir iç alan açar; 31:21’de ataların izini sürme bu bağlılığı kuşaklar boyunca yinelenen bir yola çevirir; 31:32’de kurtuluştan sonra beliren vefasızlık ise içeride taşınan bağlılığın davranışta nasıl göründüğünü açığa çıkarır. Bu üç katkı, dışarıdan gelen bir örüntünün toplumsal ilişkilere yerleşmesi imgesini kurar. 31:29’daki {ar:يُولِجُ, tr:yūliju, gloss:içeri sokar} ise gerçek gece-gündüz geçişini anlatmayı sürdürür; insan ilişkileri bu fiilin göndergesi değil, benzetmenin alanıdır. {ar:خَبِيرٌ, tr:khabīrun, gloss:işin iç yüzünü bilen} gizli bağlılık ile görünür davranış arasındaki farkın da bilgi içinde olduğunu düşündürür.
+
+Güneşle ayı ayrı ayrı bir sona bağlayan {ar:كُلٌّ, tr:kullun, gloss:her biri} ve {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre ve son sınır}, Lokmân 31:33’ün kişisel sorumluluk tasviriyle bir benzetme kurar. 31:33’te hiçbir ebeveyn çocuğunun yerine karşılık veremez, çocuk da ebeveyninin yerine geçemez; Allah’ın vaadi gerçektir. Dünya hayatı ile aldatıcı da insanı Allah hakkında yanıltmasın diye uyarılır. Bu karşılaştırma göksel kursun sonluluğuna, en yakın bağın bile başkasının sorumluluğunu üstlenemediği bir hesap ufku ekler. 31:29’un grameri güneşle ayı özne yapmayı sürdürür; insanlara eşit bir süre ya da gemi biçiminde bir yargı yolu atamaz.
+
+Lokmân 31:34 kişisel ufkun sınırını somutlaştırır: hiçbir can yarın ne kazanacağını ya da hangi yerde öleceğini bilmez; Allah ise {ar:خَبِيرٌ, tr:khabīrun, gloss:her şeyden haberdar}dır. 31:29’un görünür döngü içindeki {ar:أَجَلٍ, tr:ajalin, gloss:belirlenmiş süre}si kozmik hareket için bir son tayin ederken, 31:34 insanın kendi geleceğinin tarihi ve yerini kapalı bırakır. Lokmân 31:23’te dönüş, yapılanların bildirimi ve göğüslerin içindekiler bu kişisel bilinmezliğe ayrı bir bağlamdan katılır. Böylece ilahî bilgi görünen işi ve iç yüzünü kuşatırken, insan kendi yarınını ve ölüm yerini öngöremez; göksel süre insanın ölüm vaktiyle özdeşleşmez.
+
+Âyetin sonundaki {ar:خَبِيرٌ بِمَا تَعْمَلُونَ, tr:khabīrun bi-mā taʿmalūna, gloss:yaptıklarınızdan haberdar} ifadesi, görünür kozmik işaretlerden muhatabın yaptığı işin iç yüzüne uzanan bakışı tamamlar. {ar:خَبِيرٌ, tr:khabīrun, gloss:işin iç yüzünü bilen} sözcüğünün başındaki boğazdan gelen hırıltılı ses, uzun ī’si ve ayet sonundaki durak dinleyişe ağırlık verir; bu işitsel katkı sözlük anlamını değiştirmez. Son vurgu, muhatabın işinin hem görünen biçiminin hem iç niteliğinin bilinmesidir.
+
+</editorial_prose>

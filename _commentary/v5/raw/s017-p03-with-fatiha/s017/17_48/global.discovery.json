@@ -1,0 +1,384 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:48",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_e74f05c323424f2c7ecb",
+      "decision": "narrow",
+      "reason": "Güvenilir yayımlı bulgu, 17:48'de örnek kurma, sapma ve yol bulamama arasındaki ilişkiyi kuruyor. 25:33 örnek karşısına hak ve açıklama getirilmesini, 2:26 örneğin alımlanışının hidayet veya sapmayla sonuçlanabilmesini, 42:46 ise sapma ile yol yokluğunu birlikte gösteriyor. Bu geniş temas, yanlış benzetmenin algıyı ve pratik yol bulma kapasitesini bozduğu çekirdeği destekliyor. root_000906/B009'un yerleşik huy anlamı için bağımsız bir tetikleyici yok; bu dal dışarıda bırakıldı.",
+      "finding_refs": ["global:misframed-analogy"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000906/B009",
+          "reason": "Dal yerleşik yaradılış ve davranış eğilimlerini bildirir. Focus ve sağlanan geniş bağlantılar örneklerin algı ve yön üzerindeki etkisini gösteriyor, fakat belirli veya kalıcı bir huyu adlandırmıyor; tip belirleme özeti ise izlenebilir bir focus dönüşü sağlamayan legacy_unbound HFT özetidir."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000906/B009",
+          "facet_id": "F001",
+          "reason": "Kişide yerleşmiş huy anlamını focus taşıyıcısına bağlayan bağımsız bir bağlam veya ilişki yok."
+        },
+        {
+          "branch_ref": "root_000906/B009",
+          "facet_id": "F002",
+          "reason": "İyi veya kötü niteliği değerlendirilen yerleşik yapı bu ayette ya da geçerli geniş tetikleyicilerde belirtilmiyor."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_831a1f27085eaa952fe4",
+      "decision": "represented",
+      "reason": "Legacy_unbound okuyuşun yanlış benzetmelerin algıyı yeniden düzenleyip yol bulmayı kapattığı yönündeki anlamı, aynı B003 taşıyıcısı ve açıkça nitelenmiş kaynak güveniyle global:misframed-analogy içinde yer alıyor. Bu adayın tek branch_ref'i orada etkin; ayrı context veya semantik yükümlülüğü yok.",
+      "finding_refs": ["global:misframed-analogy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4a120c96fc558d77a852",
+      "decision": "reject",
+      "reason": "17:90–93 yalnızca reader-walk metninde bir aralık olarak anılıyor; packet bu ayetleri ayrı context birimleri veya içerikleriyle vermiyor. Aralığın sonraki talepleri 17:48'deki bir focus kelimesine ya da ilişkiye geri bağlayan izlenebilir bir taşıyıcı-tetikleyici yolu yok. Bu nedenle 'analojinin yol kapatan talep üreticisine dönüşmesi' global aktivasyon eşiğini geçmiyor. Adayın yapılandırılmış branch veya semantik obligation kaydı da yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b1e1039292c86c81ca1",
+      "decision": "represented",
+      "reason": "Adayın yanlış temsilin yön duygusunu ve yol bulma gücünü bozduğu çekirdek, global:misframed-analogy ile aynı semantik ilişkidir. B003 ve güç-yetme B003 dalları bulguda etkinleştirildi. sup_c24... içindeki 17:47 ve 17:49–51 bağlamları bulguda trigger_refs ve context_refs olarak taşınıyor; bu ayrıntılar legacy_unbound ve atfedilmiş bağlam olarak niteleniyor.",
+      "finding_refs": ["global:misframed-analogy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1585e06feab943127209",
+      "decision": "reject",
+      "reason": "Destek metni 17:49–51 ve 17:52'yi anıyor; bunlar bildirilen perikope içindeki macro bağlamıdır. Tek bir çağrının dönüş yolu açması yorumu bu global lane için daha geniş, somut bir tetikleyici ve focus yüzeyine dönen ayrı bir ilişki sağlamıyor. Bu yüzden bağlam atıfları mevcut olsa da önerilen global okuma reddedildi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:49", "reason": "Adayın tek çağrıyla dönüş yolu açılması okuması bu perikope içi ayeti macro tetikleyici olarak kullanıyor; global lane için daha geniş dönüş bağı yok."},
+        {"context_ref": "17:50", "reason": "Adayın tek çağrıyla dönüş yolu açılması okuması bu perikope içi ayeti macro tetikleyici olarak kullanıyor; global lane için daha geniş dönüş bağı yok."},
+        {"context_ref": "17:51", "reason": "Adayın tek çağrıyla dönüş yolu açılması okuması bu perikope içi ayeti macro tetikleyici olarak kullanıyor; global lane için daha geniş dönüş bağı yok."},
+        {"context_ref": "17:52", "reason": "Çağrı ve dönüş yolu ilişkisi aynı perikope bağlamında kalıyor; focus'a dönen global tetikleyici olarak kurulmamış."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b033e954493b2a6aa4c3",
+      "decision": "reject",
+      "reason": "Reader summary, önceki 'büyülenmiş adam' ithamı ile sonraki diriliş benzetmeleri arasında seçim yapılamadığını bildiriyor; ancak assigned HFT kaydında anchor_refs ve branch_refs boş, support anchor_evidence da yok. Belirli bir context ayeti, kelime indisi, kök, atfedilmiş rol ve focus'a dönüş sağlanmadığından iki mekanizma da bu aday üzerinden etkinleşmiyor. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_34c2556392f14b9877c3",
+      "decision": "reject",
+      "reason": "Alımlama engellerinin reddin nedeni mi sonucu mu olduğu sorusu HFT reader summary'de kalıyor. Assigned record ve support'ta exact anchor, branch veya focus dönüşü bulunmadığı için bu belirsizlik 17:48'in global bir okuması olarak temellendirilemiyor. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_04b3119e1b2f5a4a13cb",
+      "decision": "reject",
+      "reason": "Capacity root'undaki obedience renklendirmesi için assigned HFT kaydı context ayeti, word index, root veya focus'a dönen temas vermiyor. Branch registry'de zorlamasız uyma seçeneğinin bulunması kendi başına aktivasyon değil; focus biçimi doğrudan yapabilme anlamında ve bu summary onu aşan atfedilmiş bir iz sağlamıyor. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b8ab78b0cc16dd3ac4b4",
+      "decision": "reject",
+      "reason": "Eye-film route overlay için adayda branch_ref veya focus anchor yok; HFT support'ta da anchor_evidence bulunmuyor. Bu yüzden ne taşıyıcı ne bağımsız tetikleyici ne de focus dönüşü kurulabiliyor. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0e41e37b9610e19977b1",
+      "decision": "reject",
+      "reason": "Önceki ithamın bir benzetmeyi tip belirlemeye çevirdiği iddiasında assigned HFT trace için anchor_refs, branch_refs ve anchor_evidence boş. Belirli context kelimesi veya focus dönüşü olmadan yerleşik huy branch'i etkinleştirilemiyor; bu candidate'ın HFT rolü atıf olarak saklanabilecek koordinatları da vermiyor. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_86703bf7aafe1ddb9a98",
+      "decision": "reject",
+      "reason": "Maddi imkânsızlıktan gönüllü itaatsizliğe ve gelecekteki çağrıyla dönüşe geçiş, HFT summary dışında exact context occurrence veya focus bağlantısı taşımıyor. Adı geçen 17:49–52 içeriği perikope içi macro bağlamdır ve bu aday için ayrıca izlenebilir bir global dönüş bağı yok. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_14b0701e7ce9fd88c30a",
+      "decision": "reject",
+      "reason": "Bağımlı aracılarla yol arama ve teolojik topolojinin çökmesi iddiasında packet'e bağlı exact taşıyıcı, bağımsız tetikleyici veya focus dönüşü yok. Reader summary, kendi başına global bir sistem tezi kuruyor; supplied focus evidence bu çıkarımın sınırını belirlemiyor. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_54a0304fee083b4df4a4",
+      "decision": "reject",
+      "reason": "Görülen işaretlerin sapmayı artırabileceği HFT iddiasında assigned trace'in anchor_refs, branch_refs ve anchor_evidence alanları boş; HFT rolü için gereken exact focus dönüşü yok. 54:2 bağlantısı ile unẓur yüzeyinden bağımsız, daha dar bir inceleme okuması global:inspection-as-critique içinde ayrıca kuruluyor; bu, eksik HFT izini kabul etmek anlamına gelmiyor. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4c342c889d01c7cfc966",
+      "decision": "reject",
+      "reason": "Focus'un temsillerin nasıl kurulduğuna dair öz-düşünümsel olduğu yönündeki summary, rival temsil türleri ve bunların nesneyi gizleyip yolu kapattığı hakkında geniş bir sentez sunuyor. Assigned HFT kaydında exact carrier, context ayeti, root veya focus'a dönen trace bulunmadığından bu sentez global bulgu olarak taşınmıyor. Bulgulardaki daha dar bağlantılar yalnızca kendi packet refs'leriyle kurulmuştur. Yapılandırılmış semantik obligation ref'i sunulmamış.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:misframed-analogy",
+      "origin_candidate_id": "cand_e74f05c323424f2c7ecb",
+      "represented_candidate_ids": [
+        "cand_831a1f27085eaa952fe4",
+        "cand_1b1e1039292c86c81ca1"
+      ],
+      "title": "Yanlış benzetmeden yön kaybına",
+      "claim": "17:48'de muhatap hakkında kurulan benzetmeler, sonrasındaki sapma ve yol bulamama ile birlikte algıyı yeniden düzenleyip pratik yön tayinini kapatan bir çerçeve gibi okunur. Daha geniş temaslarda örnek hem açıklayıcı hakka cevap alabilir (25:33), hem alımlanışına göre hidayet veya sapmaya eşlik edebilir (2:26); sapma ile yolun yokluğu da birlikte görünür (42:46). Bu temas, ayetteki benzetme-sapma-yol bulamama dizisini salt yanlış sözden pratik yön kaybına taşır.",
+      "mechanism": "Carrier ḍarabū, nesnesi al-amthāl ile birlikte, örnek aracılığıyla açıklama ve benzerlik kurma eylemini taşır. 25:33'te bir örneğin ardından hak ve açıklamanın gelmesi bu eylemin açıklayıcı etkisini; 2:26'da örnek karşısındaki farklı alımlanışın hidayet veya sapmayı üretmesi yön üzerindeki etkisini görünür kılar. 17:48'deki fa- bağları benzetmeleri sapmanın, sapmayı da yeteneksiz kalıp bir yol bulamamanın önüne koyar; 42:46 bu son teması daha geniş bir ayet bağlantısında yineler. Böylece yanlış model, yalnızca hatalı içerik değil, yolun tanınmasını ve ona erişme kapasitesini bozan bir temas haline gelir. Legacy_unbound okuyuşun 17:47 ve 17:49–51 için verdiği çerçeve ayrıntıları yalnızca atfedilmiş bağlam olarak eklenmiştir.",
+      "reader_payoff": "Okur, sapmayı yalnız bilgi eksikliği olarak değil, yanlış benzetmenin algıyı ve işe yarar bir yol bulma gücünü daraltması olarak görebilir. Aynı geniş temas örneği baştan kötü ilan etmez: bir örnek açıklama da doğurabilir, alımlanışa göre yön de kaybettirebilir.",
+      "containment": "Ayette açıkça söylenen zemin korunur: muhatap hakkında örnekler kurmuşlar, bunun ardından sapmışlar ve artık bir yol bulamıyorlar. Geniş bağlantılar aynı tarihsel kişileri veya her örneğin aynı etkisini ileri sürmez; 25:33'teki açıklayıcı karşılık ile 2:26'daki farklı alımlanışlar birlikte açık bırakılır. 17:47 ve 17:49–51 ayrıntıları yalnız legacy_unbound destek metninde bulunduğundan bağımsız ayet metni gibi kullanılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Odak dalları ve güvenilir yayımlı bulgu focus yüzeyine açıkça bağlanmıştır. Temsil edilen iki reader-walk aynı çekirdeği destekler, ancak legacy_unbound olarak kalır; bağlantı kayıtlarında hedef Arabic bulunurken hedef morfolojisi yoktur. Bu nedenle geniş ilişki nitelikli tutulur ve context ayrıntıları atıflı sınırla kullanılır."
+      },
+      "support_ids": [
+        "sup_36e2e3e078f2707ae033",
+        "sup_9aa00718f2726e0e2729",
+        "sup_c24d6b17573a3953f447"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000906/B003",
+          "facet_id": "F001",
+          "branch_gloss": "örnek vererek açıklamak",
+          "facet_statement": "Anlatılmak istenen şey bir örnek aracılığıyla açıklanır ve görünür kılınır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:3:1"],
+          "trigger_refs": ["17:48:5:2", "25:33", "17:47", "17:49", "17:50", "17:51"],
+          "focus_return_refs": ["17:48:3:1"],
+          "carrier": "ضَرَبُوا۟ biçimi, al-amthāl nesnesiyle örnek kurup açıklama eylemini taşır.",
+          "independent_trigger": "Al-amthāl odak içindeki ayrı nesnedir; 25:33 bağlantısı örnek getirildiğinde hak ve açıklamanın karşılık geldiğini bildirir. 17:47 ve 17:49–51 ise yalnız sup_c24... legacy_unbound okuyuşunda temsil ve imkânsızlık örnekleri olarak nitelenmiştir.",
+          "activation": "Nesne, daraba eylemini fiziksel vuruş değil açıklayıcı örnek kurma olarak seçer. 25:33 bu örnek eyleminin başka bir durumda hak ve açıklama doğurabildiğini gösterirken, atfedilmiş perikope bağlamı yanlış çerçevenin algıyı değiştirdiği aday mekanizmasını destekler.",
+          "resulting_reading": "Örnek kurma, içeriği yanlış bir söz söylemenin ötesinde, hangi yönün görülebileceğini etkileyen bir açıklama çerçevesi olur.",
+          "boundary": "25:33 hedef morfolojisi packet'te yoktur; ilişki bağlantı kaydı ve supplied Arabic yüzeyinde tutulur. 17:47 ve 17:49–51 ayrıntıları atfedilmiştir ve tek başlarına global tetikleyici sayılmaz."
+        },
+        {
+          "branch_ref": "root_000906/B003",
+          "facet_id": "F002",
+          "branch_gloss": "örnek vererek açıklamak",
+          "facet_statement": "Örnek yalnızca söylenmez; başka bir duruma uygulanabilen açıklayıcı bir etki taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:3:1"],
+          "trigger_refs": ["17:48:5:2", "25:33"],
+          "focus_return_refs": ["17:48:3:1", "17:48:5:2"],
+          "carrier": "Örnek kurma collocation'ı olarak ضَرَبُوا۟.",
+          "independent_trigger": "25:33 bağlantısındaki karşılık, getirilen örneği hak ve daha iyi açıklamayla ele alır.",
+          "activation": "Odaktaki örnekler benzetme nesnesi olarak başka bir duruma uygulanır; 25:33'te örnek benzer biçimde açıklama bekleyen bir iddia olarak karşılanır. İki metin teması, örneğin yalnız adlandırma değil sonuç doğuran bir açıklama aracı olmasını belirginleştirir.",
+          "resulting_reading": "Yanlış benzetmenin etkisi, yalnız kurulmuş olması değil, muhatabın gerçekliği okuma biçimini değiştirmesidir.",
+          "boundary": "Bu, her örneğin yanlış veya yanıltıcı olduğu iddiası değildir; 25:33'teki doğru açıklama karşılığı da canlı kalır."
+        },
+        {
+          "branch_ref": "root_001397/B001",
+          "facet_id": "F001",
+          "branch_gloss": "benzerlik ve denklik",
+          "facet_statement": "İki şey arasında benzerlik, denklik veya eşitlik ilişkisi kurulur; eylem kullanımında bu ilişki konuşan tarafından açıkça kurulabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:5:2"],
+          "trigger_refs": ["2:26", "25:33"],
+          "focus_return_refs": ["17:48:5:2"],
+          "carrier": "ٱلْأَمْثَالَ, muhatap hakkında kurulan benzerlik ve denklikleri taşır.",
+          "independent_trigger": "2:26 bağlantısı bir örnek karşısında hidayet ve sapma yönlerinin ayrılmasını; 25:33 bağlantısı ise örneğe hak ve açıklama ile karşılık verilmesini gösterir.",
+          "activation": "Odaktaki benzerlik kurma, geniş bağlamdaki örneğin alıcıyı farklı yönlere götürebildiği temasla birleşir. Böylece örnekler kendiliğinden tek sonuç üreten şeyler değil, burada yanlış kurulduklarında sapmaya eşlik eden yön modelleri olarak okunur.",
+          "resulting_reading": "Benzetme, muhatabın neyi nasıl göreceğini etkileyen bir ilişki haline gelir; 17:48 bu etkinin yol bulamama sonucuna bağlandığı durumu verir.",
+          "boundary": "2:26 ve 25:33'ün hedef morfolojisi sağlanmamıştır; bağlantılar aynı olay veya dinleyici iddiası olarak değil, benzer örnek ilişkileri olarak tutulur."
+        },
+        {
+          "branch_ref": "root_001397/B004",
+          "facet_id": "F001",
+          "branch_gloss": "nitelik veya hakkında verilen bilgi",
+          "facet_statement": "Bir varlığın niteliği dile getirilir ya da o varlık hakkında açıklayıcı bilgi verilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:5:2"],
+          "trigger_refs": ["17:48:4:2", "25:33"],
+          "focus_return_refs": ["17:48:5:2", "17:48:4:2"],
+          "carrier": "ٱلْأَمْثَالَ, sözlerin muhatap hakkında bilgi veya nitelik olarak işlev görebileceği alanı taşır.",
+          "independent_trigger": "لَكَ muhatabı ayrı bir öğe olarak belirler; 25:33 bağlantısı da ona getirilen örneklerin hak ve açıklamayla karşılanmasını kaydeder.",
+          "activation": "Örneklerin bir kişi hakkında kurulması, benzerlik iddiasını o kişi hakkında bir nitelemeye dönüştürür; 25:33'teki karşılık bu tür sözün açıklama ve hakla sınanabildiğini gösterir.",
+          "resulting_reading": "Odaktaki benzetmeler, yalnız benzerlik önermeleri değil, muhatap hakkında kurulan ve gerçekliği nasıl okuyacağını etkileyen iddialar olarak da duyulur.",
+          "boundary": "Packet, 17:47'deki belirli etiketi ayet metni olarak sağlamıyor; burada herhangi bir özel niteliğin ne olduğu ileri sürülmüyor. 25:33 yalnız genel karşılık ilişkisini destekliyor."
+        },
+        {
+          "branch_ref": "root_000913/B001",
+          "facet_id": "F001",
+          "branch_gloss": "doğru yoldan ve amaçtan sapma ya da başkasını saptırma",
+          "facet_statement": "Amaçtan, doğru yoldan veya doğruluktan ayrılma ve uygun yönü bulamama anlamın temelidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:6:2"],
+          "trigger_refs": ["17:48:5:2", "2:26"],
+          "focus_return_refs": ["17:48:6:2"],
+          "carrier": "فَضَلُّوا۟, örnekler kurulduktan sonraki tamamlanmış sapmayı taşır.",
+          "independent_trigger": "Al-amthāl odak içinde sapmadan önce gelir; 2:26 bağlantısı da örnek karşısındaki alımlanışı doğrudan hidayet veya sapma yönüyle birleştirir.",
+          "activation": "Fa- bağının kurduğu sıra, örnek kurmayı sapmanın önüne yerleştirir; 2:26'da örnekle alımlanış arasındaki yön ilişkisi daha geniş bir temas sağlar. Burada doğru doğrultudan ayrılma, benzetmelerin ardından gelen sonuç olarak belirginleşir.",
+          "resulting_reading": "Sapma, örneklerden bağımsız genel bir durum değil, yanlış benzetmenin ardından gelen yön kaybıdır.",
+          "boundary": "2:26'daki alımlayıcılar odaktaki grupla özdeşleştirilmez; bağlantı örnek ve yön ilişkisiyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000913/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması",
+          "facet_statement": "Bir şeyin sahibinden gitmesi ve nerede olduğunun bilinememesi temel yitirme ilişkisidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:6:2"],
+          "trigger_refs": ["17:48:9:1", "42:46"],
+          "focus_return_refs": ["17:48:6:2", "17:48:9:1"],
+          "carrier": "فَضَلُّوا۟, yolun kaybolması/yitirilmesi yönündeki dalı taşıyabilecek sapma fiilidir.",
+          "independent_trigger": "سَبِيلًا hangi şeyin erişilemez olduğunu yol olarak belirler; 42:46 bağlantısı sapmayla birlikte yol bulunmamasını ayrıca gösterir.",
+          "activation": "Sapma fiili ile açık yol nesnesi birleşince yitirme ilişkisi soyut bir yanlış yön seçimi olarak kalmaz; bulunamayan şey, erişim sağlayacak yol olur. Geniş bağlantı bu yol yokluğunu sapma temasına geri bağlar.",
+          "resulting_reading": "Yanlış benzetmelerden sonra yol, yalnız seçilmeyen değil, artık bulunup erişilemeyen bir şey gibi görünür.",
+          "boundary": "Ayet bir nesnenin belirli bir sahibinden fiziksel olarak alındığını söylemez; dalın yalnızca yitirme ve konumu bulamama yüzü taşınır."
+        },
+        {
+          "branch_ref": "root_000913/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması",
+          "facet_statement": "Ev, ibadet yeri veya başka sabit bir yerin konumuna ulaşamamak, nesneyi değil yolu bulamama biçimidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:6:2"],
+          "trigger_refs": ["17:48:9:1", "42:46"],
+          "focus_return_refs": ["17:48:6:2", "17:48:9:1"],
+          "carrier": "فَضَلُّوا۟ ile onu izleyen sabilan, sapma ve yolu bulamama bağını kurar.",
+          "independent_trigger": "42:46 bağlantısı sapmış olma ile bir yolun kalmamasını yan yana getirir.",
+          "activation": "Odaktaki sabīlan, hedefe veya doğrultuya erişimin yokluğunu açıkça adlandırır; 42:46 bu yön kaybını daha geniş bir bağlamda tekrarlar. Bu temas dalın yol bulamama uzmanlaşmasını etkinleştirir.",
+          "resulting_reading": "Sapma, varılacak yönü bulamama ve ona erişememe olarak da okunur.",
+          "boundary": "Odak belirli bir ev veya fiziksel hedef belirtmediği için bu, sabit bir yere ilişkin sahne iddiası değil, dalın yol bulamama yüzüdür."
+        },
+        {
+          "branch_ref": "root_000956/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir işi yapabilecek güç ve elverişlilik",
+          "facet_statement": "Bir fiili yapabilecek güç ve elverişli koşul bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:8:1"],
+          "trigger_refs": ["17:48:9:1", "42:46", "17:49", "17:50", "17:51"],
+          "focus_return_refs": ["17:48:8:1", "17:48:9:1"],
+          "carrier": "لَا يَسْتَطِيعُونَ olumsuzluğu altındaki yastaṭīʿūna, bir işi yapabilme gücü ve koşulunu bildirir.",
+          "independent_trigger": "Sabīlan yeteneğin yöneldiği erişim yolunu belirtir; 42:46 sapmanın yol yokluğuna varabildiğini gösterir. 17:49–51'deki maddi imkânsızlık örnekleri yalnız legacy_unbound okuyuşun atfedilmiş bağlam notudur.",
+          "activation": "Yetebilme fiili, yol nesnesiyle tamamlanır; 42:46'daki daha geniş no-way teması, olumsuzluğu salt bilgi yokluğundan pratik erişim ve eyleyebilme kaybına taşır. Atfedilmiş perikope notu bu kapasite okumasını destekler ama tek başına kurmaz.",
+          "resulting_reading": "Yanlış benzetmelerin ardından kaybolan yalnız doğru açıklama değil, bir yola erişebilecek pratik imkândır.",
+          "boundary": "Boyun eğme veya gönüllü uyma anlamı etkinleştirilmiyor; 17:49–51 bağlamı doğrulanmış bağımsız ayet metni gibi sunulmuyor."
+        },
+        {
+          "branch_ref": "root_000956/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bir işi yapabilecek güç ve elverişlilik",
+          "facet_statement": "Bu güç, fiilin gerçekleşebilir hale gelmesini sağlayan yeterlik olarak açıklanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:8:1"],
+          "trigger_refs": ["17:48:9:1", "42:46"],
+          "focus_return_refs": ["17:48:8:1", "17:48:9:1"],
+          "carrier": "Negated yastaṭīʿūna, fiilin gerçekleşebilir olup olmadığını taşıyan kapasite biçimidir.",
+          "independent_trigger": "Sabīlan yeteneğin tamamlayıcısıdır; 42:46'da sapmış olana yol kalmaması aynı yapılabilirlik sınırına geniş bağlam sağlar.",
+          "activation": "Yolun bulunmaması, olumsuz kapasiteyi soyut güçten erişim koşuluna bağlar: fiil, kullanılabilir bir yol olmadığında gerçekleştirilebilir olmaktan çıkar.",
+          "resulting_reading": "Cümledeki güç yetirememe, yol bulma işinin artık yapılabilir olmamasıdır.",
+          "boundary": "Bu bağlantı ayetin açık no-way ifadesini genişletir; grupta fiziksel imkânsızlık bulunduğunu veya tüm yetersizliğin istemli olduğunu ileri sürmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_6c569066079b68392c5c",
+        "conn_5c47f3723a9c14beffd8",
+        "conn_6df9f2e5e04d8658c055"
+      ],
+      "context_refs": ["2:26", "17:47", "17:49", "17:50", "17:51", "25:33", "42:46"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:inspection-as-critique",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Görmek ile anlamak arasındaki açıklık",
+      "claim": "ٱنظُرْ كَيْفَ buyruğu, benzetmeleri yalnız fark etmeyi değil nasıl kurulduğunu incelemeyi ister. Daha geniş bağlantılarda benzer bir inceleme uydurulan sözlere yöneltilir (4:50); görülen bir işaretin yüz çevrilip yeniden adlandırılabildiği de gösterilir (54:2). Böylece bakma, yüzeydeki görüntüyü kabul etmekten çok onun nasıl yorumlandığını yoklayan bir dikkat haline gelir.",
+      "mechanism": "Carrier unẓur, görsel veya zihinsel dikkati yöneltir; hemen ardından gelen kayfa bu dikkatin nesnesini yapma biçimi olarak belirler. 4:50 bağlantısındaki unẓur kayfa yapısı uydurulan sözün nasıl kurulduğuna bakmayı çağırır; 54:2 bağlantısı ise görülen bir işaretin ardından yüz çevirme ve onu başka adla sınıflandırma temasını verir. Bu temaslar, focus'taki bakma buyruğunu fiziksel görmenin ötesinde temsillerin algıyı nasıl yönettiğini incelemeye taşır.",
+      "reader_payoff": "Okur, görme ile doğru kavrayışın aynı şey olmadığını ve ayetin dikkatini örneklerin yalnız içeriğine değil, kurulma ve alımlanma biçimine çevirdiğini fark eder.",
+      "containment": "ٱنظُرْ yine açıkça bakma ve dikkati yöneltme buyruğudur; geniş bağlantılar aynı muhatapları veya olayları özdeşleştirmez ve her görülen işaretin yanlış anlaşılacağını söylemez. Hedef morfolojisi packet'te bulunmadığından 4:50 ve 54:2 teması bağlantı düzeyinde, nitelikli tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Focus occurrence ve bakıp inceleme dalı packet'te mevcut; 4:50 ile 54:2'nin Arabic yüzeyi ve bağlantı notları da mevcut, ancak hedef morfolojisi yok ve connection kayıtları tek başına kabul kararı değildir. Bu nedenle okuma, bağımsız olarak sınırlandırılmış bir çıkarım olarak nitelikli tutulur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001520/B001",
+          "facet_id": "F003",
+          "branch_gloss": "bakıp inceleme",
+          "facet_statement": "Bir konu üzerinde düşünme, onu araştırma ve sonuçlarını tartma biçiminde zihinsel olarak gerçekleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:48:1:1"],
+          "trigger_refs": ["17:48:2:1", "4:50", "54:2"],
+          "focus_return_refs": ["17:48:1:1", "17:48:2:1"],
+          "carrier": "ٱنظُرْ, dikkati bir duruma yönelterek bakma ve inceleme buyruğudur.",
+          "independent_trigger": "كَيفَ incelemenin nesnesini 'nasıl' diye ayrı olarak sorar. 4:50 bağlantısı uydurulan sözün nasıl ortaya konduğuna bakmayı, 54:2 bağlantısı ise görülen işaretin yüz çevrilerek yeniden adlandırılmasını gösterir.",
+          "activation": "Manner question and the wider contacts turn the imperative into an inquiry into how representation is handled: one context inspects fabrication, another shows sight followed by dismissal. The focus's command therefore exposes the process by which an image redirects judgment.",
+          "resulting_reading": "Bakma buyruğu, benzetmelerin etkisini teşhis eden düşünsel inceleme olarak duyulur; görülen şeyin doğru tanınması ayrıca gerçekleşmesi gereken bir iştir.",
+          "boundary": "Bağlantılar aynı tarihsel kişileri birleştirmez; 54:2'de gözle görmeme branch'i odak kelimeye yüklenmiyor. Hedef morfolojisi sağlanmadığından temas connection düzeyini aşmıyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_60e17c7d6830adf0899a",
+        "conn_5e5a6ee3fb5fa62cf64e"
+      ],
+      "context_refs": ["4:50", "54:2"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 11/11 çözülmüş; unresolved analiz birimi veya shared morpheme yok.",
+    "selected_context_units boş. 17:47 ve 17:49–51 ayrıntıları yalnız legacy_unbound reader-walk desteğinde bulunuyor; bulguda atfedilmiş context olarak tutuldu. Bağlantı hedeflerinde Arabic yüzey var, hedef morfolojisi yok; bu dış temaslar nitelikli.",
+    "HFT dokuz reader_summary_claim sağlıyor; her birinin anchor_refs ve branch_refs alanları boş, anchor_evidence sayımı sıfır. Context ayeti, word index, root, atfedilmiş rol ve focus dönüşünü birleştiren exact HFT trace bulunmadığından dokuz kayıt da ayrı ayrı reddedildi. Staged before/after okuması veya ona bağlı semantik obligation ref'i packet'te yok.",
+    "candidate_inventory içinde semantic_obligations veya required_branch_facets alanı yok; yalnız commentary_obligation etiketleri var ve 14 adayın her biri karara bağlandı. Bu nedenle semantic_obligation_exclusions dizileri boş; packet'te bulunmayan obligation kimlikleri uydurulmadı.",
+    "Packet root_branch_options indeksi değil branch_registry sağlıyor. İlgili focus köklerindeki seçenekler, iki ط و ع kök kaydı dahil, tarandı; aday dışı yalnız bir somut global aktivasyon ayrıca kaydedildi."
+  ]
+}

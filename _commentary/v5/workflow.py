@@ -2119,7 +2119,7 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
 
 
 def prepare_middle_layer(args: argparse.Namespace) -> dict[str, Any]:
-    """Render the post-editorial middle-layer prompt from final prose alone."""
+    """Render the hermetic post-editorial prompt and path-only handoff."""
     layout = layout_for(args.ayah, _analysis_id(args))
     editorial_path = layout.editorial_prose()
     try:
@@ -2151,31 +2151,46 @@ def prepare_middle_layer(args: argparse.Namespace) -> dict[str, Any]:
         },
         label="middle-layer prompt",
     )
-    if len(prompt.encode("utf-8")) > MAX_MIDDLE_PROMPT_BYTES:
+    prompt_payload = prompt.encode("utf-8")
+    if len(prompt_payload) > MAX_MIDDLE_PROMPT_BYTES:
         raise WorkflowError(
             f"Middle-layer prompt exceeds {MAX_MIDDLE_PROMPT_BYTES} bytes"
         )
     _assert_confined(layout.middle, MIDDLE_ROOT)
     layout.middle.mkdir(parents=True, exist_ok=True)
-    _atomic_write(layout.middle_prompt(), prompt.encode("utf-8"), root=INPUT_ROOT)
+    _atomic_write(layout.middle_prompt(), prompt_payload, root=INPUT_ROOT)
+    prompt_path = _repo_path(layout.middle_prompt())
+    follow_up_path = _repo_path(PROMPTS_ROOT / "middle-layer-audit-followup.md")
     return {
-        "schema_version": "commentary-v5-middle-prepared-v1",
+        "schema_version": "commentary-v5-middle-prepared-v2",
         "status": "prepared",
         "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
         "handoff": {
             "role": "middle_layer",
             "prompt": str(layout.middle_prompt().resolve(strict=False)),
+            "prompt_delivery": "workspace_path",
+            "launch_message": (
+                "Read and execute the complete hermetic prompt at workspace path "
+                f"`{prompt_path}`."
+            ),
             "prose_output": str(layout.middle_prose().resolve(strict=False)),
             "ledger_output": str(layout.middle_ledger().resolve(strict=False)),
             "launch": "fresh_agent",
             "model": "gpt-5.6-luna",
             "reasoning_effort": "max",
-            "follow_up": (
-                "send _commentary/v5/prompts/"
-                "middle-layer-audit-followup.md verbatim"
+            "follow_up": str(
+                (PROMPTS_ROOT / "middle-layer-audit-followup.md").resolve(
+                    strict=False
+                )
+            ),
+            "follow_up_delivery": "workspace_path",
+            "follow_up_message": (
+                "Read and execute the complete fixed audit follow-up at workspace "
+                f"path `{follow_up_path}`."
             ),
             "orchestrator_output_inspection": False,
+            "retry": False,
         },
         "generated_files": [str(layout.middle_prompt().resolve(strict=False))],
     }
@@ -2400,9 +2415,10 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
                 "ask that same consolidator for the editorial rewrite, then close"
             ),
             "middle_layer": (
-                "after editorial completion, run prepare-middle; launch its fresh "
-                "Luna max handoff, then send the fixed middle-layer audit follow-up "
-                "verbatim without inspecting either output"
+                "after editorial completion, run prepare-middle; send only its "
+                "workspace-path launch_message to a fresh Luna max agent, then "
+                "send only its fixed workspace-path follow_up_message without "
+                "inspecting either output or retrying the stage"
             ),
             "invitation": (
                 "after middle-layer completion, run prepare-invitation and launch "
@@ -2680,7 +2696,7 @@ def main() -> int:
                     errors += 1
                     units.append({"ayah_ref": ref, "status": "error", "error": str(exc)})
             result = units[0] if len(units) == 1 else {
-                "schema_version": "commentary-v5-middle-prepared-batch-v1",
+                "schema_version": "commentary-v5-middle-prepared-batch-v2",
                 "status": "prepared" if not errors else "error",
                 "units": units,
                 "parallel_handoffs": [

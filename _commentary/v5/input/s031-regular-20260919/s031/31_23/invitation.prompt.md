@@ -1,0 +1,195 @@
+# V5 reading invitation — 31:23
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_23/31_23.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_23/31_23.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Kederin Sebebi ve Sınırı
+
+31:23’ün düz cümlesi, inkâr edenlerin Allah’a dönüşünü, yaptıklarının kendilerine bildirileceğini ve Allah’ın göğüslerde olanı bildiğini kurar: {ar:وَمَن كَفَرَ, tr:wa-man kafara, gloss:kim inkâr ederse} için {ar:إِلَيْنَا, tr:ilaynā, gloss:bize} {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} gelir; ardından {ar:فَنُنَبِّئُهُمْ, tr:fa-nunabbiʾuhum, gloss:onlara bildiririz} ile {ar:بِمَا عَمِلُوا, tr:bi-mā ʿamilū, gloss:yaptıklarını} bildirilir ve kapanışta {ar:عَلِيمٌۢ, tr:ʿalīmun, gloss:bilen} niteliği {ar:بِذَاتِ ٱلصُّدُورِ, tr:bi-dhāti ṣ-ṣudūr, gloss:göğüslerde olanı} kapsar. Ortadaki {ar:فَلَا يَحْزُنْكَ كُفْرُهُۥٓ, tr:fa-lā yaḥzunka kufruhu, gloss:onun inkârı seni üzmesin} öğüdü, başkasının reddinin muhataba gerçekten ağır gelebileceğini kabul ederken sonucun yükünü ona vermez; keder silinmez, hesabın kime ait olduğu belirginleşir.
+
+Başındaki {ar:وَ, tr:wa, gloss:ve}, önceki söyleyişle bağı sürdürür; tek başına bu örneğe özel bir karşıtlık kurmaz. Ardından gelen {ar:مَنْ, tr:man, gloss:kim}, faili açık bir koşul olarak bırakırken tamamlanmış {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} bu koşulun gerçekleştiğini bildirir. Böylece ifade, gerçekleşmiş bir eylemle nitelenen ama bütün insanlara yayılmayan ve failin tüm hayatını tek başına tanımlamayan bir sınıf açar.
+
+Koşulun ilk karşılığı {ar:فَ, tr:fa, gloss:öyleyse} ile başlar: {ar:لَا, tr:lā, gloss:yapma} olumsuzluğu, “seni üzmesin” anlamındaki {ar:يَحْزُنْكَ, tr:yaḥzunka, gloss:seni üzsün} fiilini yönetir. İkinci tekil nesne eki muhatabı adı anılmadan doğrudan kişiselleştirir; kederin sebebi muhatabın kendisi değil, sahibine iyelik ekiyle bağlanan {ar:كُفْرُهُۥٓ, tr:kufruhu, gloss:onun inkârı}dır. Koşuldaki fiil sonra bu sahiplik eki taşıyan ad biçiminde yinelenince, eylem sahibine ait bir hâl olarak kalır ve sorumluluk dilbilgisel düzeyde ona bağlanır. Hitabın sonundaki k ile hemen arkasındaki inkâr adının başındaki k’nin teması, kederin muhatabını ve sebebini işitmede birbirine yaklaştırır; ses yakınlığı bu iki sözü birleştirmese de ilk karşılığın kişiye yönelmiş öğüt olduğunu duyurur. Ceza ya da bütün sonucun dökümü bu öğüdün konusu değildir; ilk karşılık, kederin sebebi ile muhatabını birbirinden ayırır.
+
+Buradaki {ar:يَحْزُنْكَ, tr:yaḥzunka, gloss:seni üzsün}, Arapça I. kalıptaki keder fiilidir ve olağan anlamıyla “onun inkârı seni üzmesin” öğüdünü taşır; kabul edilen IV. kalıp okuyuşu kedere yol açma ilişkisini daha açık kurar. Aynı sözlük alanındaki ayrı bir kullanım, öfke ve kederin gönülde kemirici bir acı bırakmasını anlatır; bu aşınma burada duygusal bir imgedir, bedensel yaralanma tarifi değildir. Bu iç rahatsızlık imgesini, inkârı sebep yapan {ar:كُفْرُهُۥٓ, tr:kufruhu, gloss:onun inkârı} ile engellenen etkiyi belirleyen {ar:لَا, tr:lā, gloss:yapma} birlikte etkinleştirir. Olağan keder öğüdü böylece korunurken, başkasının reddinin muhatabın içinde tırmalayıcı bir üzüntüye dönüşmesi de duyulur; yasak, duygunun varlığını silmekten çok bu aktarımın muhatabın içine yerleşip onu kemirmesini durduran bir sınır çizer.
+
+İnkârın bu açık anlamı, yakın ayetlerdeki dikkat ve işitme imgeleriyle bir başka basınç kazanır. Oyalayıcı sözü satın alma (31:6) ve ayetler okununca büyüklük taslayarak yüz çevirme (31:7), reddi rehberi almamaya dönük sürdürülmüş bir tutum olarak da gösterebilir: {ar:يَشْتَرِي لَهْوَ الْحَدِيثِ, tr:yaštarī lahwa al-ḥadīth, gloss:oyalayıcı sözü satın alır}, ardından {ar:وَلَّىٰ مُسْتَكْبِرًا, tr:wallā mustakbiran, gloss:büyüklük taslayarak döndü} gelir. Buradaki {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} için “örtmek, kapatmak” kullanımı bu yöneliş ve yüz çevirme ile temas eder; {ar:يَحْزُنْكَ, tr:yaḥzunka, gloss:seni üzsün} fiilinin taşıdığı ağır keder de dikkatin saptırılmasına verilen karşılık olarak duyulabilir. “Sanki hiç işitmemiş gibi” sözüyle iki kulakta ağırlık imgesi (31:7), uzaklaşmayı ve anlayıp uymayı reddetmeyi maddi bir işitme imgesiyle yan yana getirir: {ar:كَأَن لَّمْ يَسْمَعْهَا, tr:ka-an lam yasmaʿhā, gloss:sanki onları işitmemiş gibi} ve {ar:فِي أُذُنَيْهِ وَقْرًا, tr:fī udhunayhi waqran, gloss:iki kulağında ağırlık}. Bu işaretler kibir çevresinde yan yana duran göstergeler olabilir; tek bir neden zinciri kurmaları gerekmez, 31:23’teki inkâr da gerçek işitme engeli değildir. Yine de birlikte okunduklarında, reddi rehberi almama yönünde süren bir tutum olarak görmeye ve kederi bunun muhataptaki bedeli saymaya imkân verir.
+
+Benzer keder hitabı 36:76’da {ar:فَلَا يَحْزُنْكَ قَوْلُهُمْ, tr:fa-lā yaḥzunka qawluhum, gloss:onların sözü seni üzmesin} biçiminde yer alır; çevresindeki {ar:مَا يُسِرُّونَ وَمَا يُعْلِنُونَ, tr:mā yusirrūna wa-mā yuʿlinūn, gloss:gizledikleri ve açıkladıkları}, saklı olanla açığa çıkan arasındaki ayrımı görünür kılar (36:76). 31:23’teki bu yankı, {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} için örtme imgesini olağan reddin yanına ekler; açık söz de gizlenen de Allah’ın {ar:إِلَيْنَا, tr:ilaynā, gloss:bize} dönüşü ve {ar:فَنُنَبِّئُهُمْ بِمَا عَمِلُوا, tr:fa-nunabbiʾuhum bi-mā ʿamilū, gloss:yaptıklarını onlara bildiririz} bildirimi ufkunda kalır. Bu bağlantı her kederi yasaklayan bir kurala genişlemez, her reddedişe aynı gizli güdüyü yüklemez ve saklananı çözme yetkisini muhataba vermez. Böylece 36:76’daki saklı-açık ayrımı, 31:23’teki inkârın görünen ve gizli yanlarını ilahî hesap ufkunda birlikte düşündürür.
+
+Şükürle inkârın yan yana gelişi bu örtme imgesine nimet boyutunu ekler. 31:12’de {ar:أَنِ اشْكُرْ لِلَّهِ, tr:ani ushkur li-llāh, gloss:Allah’a şükret} buyruğunu, şükredenin kendisi için şükrettiğini belirten {ar:وَمَن يَشْكُرُ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ, tr:wa-man yashkuru fa-innamā yashkuru li-nafsihi, gloss:kim şükrederse kendisi için şükreder} izler; karşısında {ar:وَمَن كَفَرَ, tr:wa-man kafara, gloss:kim inkâr ederse} vardır ve Allah {ar:غَنِيٌّ حَمِيدٌ, tr:ghaniyyun ḥamīd, gloss:muhtaç olmayan ve övülen} diye nitelenir (31:12). Bu ayrı nimet bağlamı her inkârı nankörlük diye adlandırmadan, 31:23’teki {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} için nimeti örtme ve şükrü esirgeme çağrışımı açar. Kayıp onu örten kişide kalır; bu, muhatabın kaygısını telafi borcuna dönüştürmeden nimet kaynağının eksilmediğini duyurur.
+
+31:23’te {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} fiiliyle {ar:كُفْرُهُۥٓ, tr:kufruhu, gloss:onun inkârı} ismi olağan reddedişi taşır; sözlükteki örtme kullanımı bu anlama bir içeriği kapatma imgesi ekler. Örtme kullanımına {ar:ذَاتِ ٱلصُّدُورِ, tr:dhāti ṣ-ṣudūr, gloss:göğüslere ait olan} iç alanı, tamamlanmış {ar:عَمِلُوا, tr:ʿamilū, gloss:yaptılar} işler ve {ar:نُنَبِّئُهُمْ, tr:nunabbiʾuhum, gloss:onlara bildiririz} bildirme eylemi ayrı ayrı temas eder; inkâr böylece {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} sırasında açığa çıkacak gizli içeriğin üstündeki örtü gibi duyulur. Bu örtü fiziksel değildir; 31:12’deki nimet çağrışımı ayrı bir bağlamsal uzanım, kefaret anlamları ise ayrı bir türetimdir. Böylece sözlükteki örtme imgesi olağan inkârı değiştirmeden, dönüşte açığa çıkacak içeriğe bağlar.
+
+## Dönüş ve Bildirim
+
+Keder öğüdünden sonra varışın yönü ve eyleyen değişir. Öne alınan {ar:إِلَيْنَا, tr:ilaynā, gloss:bize}, önce varış yerini duyurur; ardından {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ile topluluk gelir. Tekil {ar:كُفْرُهُۥٓ, tr:kufruhu, gloss:onun inkârı} biçiminden çoğul dönüşe ve {ar:نُنَبِّئُهُمْ, tr:nunabbiʾuhum, gloss:onlara bildiririz} biçimine geçiş, alanı tekil inkâr eyleminden dönüşü ve işleri bildirilecek topluluğa genişletir; bu geçiş sahibini silmez ya da topluluktaki herkese aynı işi yüklemez. İkinci tekil muhatabın ardından birinci çoğul yönelme ve bildirme biçimleri gelince, yerel fail ve varış odağı ilahî tarafa geçer; muhatabın kendi eylem alanı ve hissedebileceği keder sürerken cümle topluluğun dönüşü ile bildirimine açılır.
+
+{ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} dönüş eylemini, varış yerini ya da vaktini adlandırabilen bir isimdir; çoğul biçim dönüşün öznesini korur, ifadeyi edilgen bir “döndürülme” fiiline çevirmez. Ölümden sonraki son varışın Tanrı huzuruna dönüş diye anıldığı kullanım da burada bir ufuk açar: öne alınmış ilahî varışla hemen ardından gelen bildirim, dönüşü son-varış ve hesap bağlamında duyurur. Âyet belirli bir ölüm-sonrası olay, yol ya da diriliş takvimi vermez. Önce yönün, sonra dönenlerin duyulması, hesabın kime varacağını cümlenin başında görünür kılar.
+
+Dönüşten sonraki ikinci {ar:فَ, tr:fa, gloss:ardından}, bildirmeyi içeriğiyle sıraya koyar: {ar:فَنُنَبِّئُهُمْ, tr:fa-nunabbiʾuhum, gloss:sonra bildiririz} ve {ar:بِمَا عَمِلُوا, tr:bi-mā ʿamilū, gloss:yaptıklarını}. İlk {ar:فَ, tr:fa, gloss:öyleyse} koşuldan keder öğüdüne geçerken bu ikinci fa dönüşten eylemlerin bildirilmesine geçirir; okur iki karşılığı tek olay saymadan izler. Keder yasağıyla dönüşün art arda gelişi, çözümlenmemiş sonucu muhatabın iç yükünden Allah’a varan hesaba bırakır. Bu bir duygusal emanet benzetmesidir: dönüş sözcüğü yeni bir sözlük anlamı kazanmaz, ama art arda gelen yön ve bildirim kedere zamansal bir ufuk verir.
+
+{ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} sözlükte bir söze ya da iletiye dönen yanıtla ilişkilendirilen kullanımlara da temas eder; burada ad yine dönüşü bildirir. Ardından gelen {ar:نُنَبِّئُهُمْ, tr:nunabbiʾuhum, gloss:onlara bildiririz} ile {ar:بِمَا عَمِلُوا, tr:bi-mā ʿamilū, gloss:yaptıklarını} bağımsız olarak bir haber ve içeriğini sağladığı için dönüş, reddin ertelenmiş cevabı gibi duyulabilir. Bildirme fiilinin sözlük alanındaki yerden yere geçme kullanımı bu çekimli II. kalıp fiilin olağan anlamı değildir; burada II. kalıp sonuç taşıyan bir haber vermeyi anlatır, aynı kökten peygamberlik mertebesi bildiren türetimler bu kullanımı yeniden adlandırmaz. Dönen topluluk ve önceden verilen varış yeri, haberin dönüşle birlikte varışa ulaşması için sınırlı bir imge kurar; bilginin kendisi yolculuk etmez. Bu, insanlarla gerçek bir konuşma, belirli bir bekleme süresi ya da gelecekte bütün kederin silinmesi vaadi değildir; bildirimin konusu âyetin söylediği işlerdir. Bu bağlantı, dönüşe bağlanan bildirimi gündelik bir nottan daha ağır ve bilgi verici duyurur.
+
+{ar:فَنُنَبِّئُهُمْ, tr:fa-nunabbiʾuhum, gloss:sonra bildiririz} bildirim fiili birinci çoğul kişiyle ilahî özneyi, üçüncü çoğul nesne ekiyle daha önce anılan topluluğu gösterir; dönenler bildirimin doğrudan alıcısıdır. İlk {ar:بِمَا, tr:bi-mā, gloss:yaptıklarıyla}, bildirimi {ar:مَا عَمِلُوا, tr:mā ʿamilū, gloss:yaptıkları} içeriğine bağlar. {ar:مَا, tr:mā, gloss:ne} daha dar bir eylem türü seçmeden alanı açar; tamamlanmış çoğul {ar:عَمِلُوا, tr:ʿamilū, gloss:yaptılar} bu alanı bitmiş işlerle doldurur. Sözlükteki iş, emek ve bilinçli icra yönü bu biçime amaçlı yapma basıncı ekler; âyet eylemleri başka bir sınıfa ayırmaz, gramer kapsamı da her eylemin tek tek sayıldığını göstermez. Böylece hesap ayrı bir fiziksel defter ya da ek bir hüküm sonucu değil, yapılan işlerin kişilere bildirim yoluyla bağlanması olarak belirir.
+
+İki “kim” kalıbı, 31:22 ile 31:23’ün bugünkü yönelişlerini yan yana getirir: {ar:وَمَن يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ, tr:wa-man yuslim wajhahu ilā Allāh, gloss:yüzünü Allah’a yönelterek teslim olan} ile {ar:وَمَن كَفَرَ, tr:wa-man kafara, gloss:kim inkâr ederse}. 31:22’de teslim olan kişi {ar:فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ, tr:fa-qadi-stamsaka bi-l-ʿurwati l-wuthqā, gloss:sağlam kulpa tutundu} diye anlatılır ve {ar:وَإِلَى ٱللَّهِ عَٰقِبَةُ ٱلْأُمُورِ, tr:wa-ilā Allāhi ʿāqibatu l-umūr, gloss:işlerin sonu Allah’a varır} sözüyle tamamlanır (31:22). Şimdiki teslimiyet ile inkâr yönelişleri ayrıdır; 31:22 yalnızca teslim olanların yolunu anlatıyor olabilir ve 31:23’teki örtme çağrışımı inkâr uyarısının yerini almaz. Bununla birlikte {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ortak son varış ufkunu Allah’a yöneltir; ayetlerin yakınlığı, farklı şimdiki yönelişlerden aynı ilahî varışa uzanan çizgiyi görünür kılar.
+
+Dönüşün sonucu yokmuş gibi duyulmasını 31:24’teki sıra önler: önce {ar:مَتَٰعٌ قَلِيلٌ, tr:matāʿun qalīl, gloss:az bir yararlanma}, ardından {ar:ثُمَّ نَضْطَرُّهُمْ إِلَىٰ عَذَابٍ غَلِيظٍ, tr:thumma naḍṭarruhum ilā ʿadhābin ghalīẓ, gloss:sonra onları ağır azaba zorlarız} gelir (31:24). 31:24 dönüşün tam zamanını ya da mekanizmasını değil, dönüşten sonrasını anlatıyor da olabilir. Bu dizi, 31:23’teki {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} yanına konduğunda kısa bir mühletin ağır bir sonuca açılabileceğini düşündürür; keder yasağı bugünkü gecikmenin sonsuz olmadığını duyurur.
+
+Bu bildirim ufkunda söylenen söz ile içteki tanıma da ayrışabilir. Gökleri ve yeri kimin yarattığı sorulunca “Allah” diyeceklerini belirten {ar:وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ, tr:wa-la-in saʾaltahum man khalaqa as-samāwāti wa-l-arḍ, gloss:gökleri ve yeri kimin yarattığını sorarsan} ve {ar:لَيَقُولُنَّ ٱللَّهُ, tr:la-yaqūlunna Allāh, gloss:Allah diyecekler} sözlerinin ardından {ar:قُلِ ٱلْحَمْدُ لِلَّهِ, tr:quli l-ḥamdu li-llāh, gloss:de ki övgü Allah’a} denir; yine de “çoğu bilmez” ifadesi eklenir (31:25): {ar:بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ, tr:bal aktharuhum lā yaʿlamūn, gloss:çoğu bilmez}. Konuşanların niyeti ya da çoğunluğun tam olarak neyi bilmediği bu yan yanalıktan belirlenemez. Yine de 31:23’teki {ar:كُفْرُهُۥٓ, tr:kufruhu, gloss:onun inkârı} ve Allah’ın {ar:عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ, tr:ʿalīmun bi-dhāti ṣ-ṣudūr, gloss:göğüslerde olanı bilen} oluşuyla birlikte düşünüldüğünde, söylenen doğru cevabın içten tanıma ve boyun eğişle her zaman örtüşmediği görünür.
+
+Sahiplik ekiyle belirlenen inkâr ve çoğul dönüş, keder öğüdünü başka bir sorumluluk benzetmesine açar. Keder alanındaki ayrı bir isim kullanımı, durumu için kaygı duyulan aileyi ve yükümlülük doğuran yakınları adlandırabilir; âyetin taşıyıcısı ise bu isim değil, olağan anlamıyla muhatabı üzen {ar:يَحْزُنْكَ, tr:yaḥzunka, gloss:seni üzsün} fiilidir. Aile ve bağımlı yükü bu fiilin düz karşılığı değil, benzetmenin kaynağıdır. İkinci tekil hitap, sahibine bağlanan {ar:كُفْرُهُۥٓ, tr:kufruhu, gloss:onun inkârı} ve çoğul {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ile temas ederek muhatabın başkasının hesabını bir yakınının yükü gibi taşımasından serbest kalabileceğini duyurur. Muhatapla reddeden grup dilbilgisel olarak ayrıdır; bu benzetme aile bağı ya da hukuk kuralı ileri sürmez ve kederi yükümlülük saymaz. Bu sınır içinde hitap, muhatabın başkasına duyduğu kaygı ile o kişinin hesabını taşıma yükünü birbirinden ayırır.
+
+Bu sınırın yanında 31:15, şimdiki ilişkinin nasıl sürebileceğine dair özel bir ebeveyn-evlat örneği verir. Allah’a ortak koşmaya çağıran anne babaya {ar:فَلَا تُطِعْهُمَا, tr:fa-lā tuṭiʿhumā, gloss:ikisine itaat etme} denirken hemen ardından {ar:وَصَاحِبْهُمَا فِي الدُّنْيَا مَعْرُوفًا, tr:wa-ṣāḥibhumā fī d-dunyā maʿrūfan, gloss:dünyada onlarla iyilikle yoldaşlık et} buyurulur; aynı ayette {ar:ثُمَّ إِلَيَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ, tr:thumma ilayya marjiʿukum fa-unabbiʾukum bi-mā kuntum taʿmalūn, gloss:sonra dönüşünüz bana, yaptıklarınızı size bildiririm} dizisi gelir (31:15). 31:23’te de {ar:إِلَيْنَا, tr:ilaynā, gloss:bize} {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ve ardından {ar:فَنُنَبِّئُهُمْ بِمَا عَمِلُوا, tr:fa-nunabbiʾuhum bi-mā ʿamilū, gloss:yaptıklarını onlara bildiririz} gelir. Bu çıkarım ebeveyn-evlat örneğiyle sınırlıdır; her anlaşmazlığa yayılmaz. Yine de son hesabı Allah’a bırakmak bu özel ilişkide iyi beraberliği terk etmek değildir: yoldaşlık istenen inanca onay vermez, iyilikle davranışın sınırını korur ve bildirimi şimdi zorla kapanışa çevirmeden nihai hesabı erteler.
+
+Yakınlığın hesap yerine geçmediği sınır 31:33’te daha kesin çizilir: ağır günde ne ebeveyn çocuğu adına ne çocuk ebeveyni adına bir şey ödeyebilir; ayrıca dünya hayatı ve aldatıcının Allah hakkında aldatmasına karşı uyarı gelir (31:33). Aynı kişisel sorumluluk, hiçbir yük taşıyanın başkasının yükünü taşımadığını söyleyen ilkeyle de belirginleşir (39:7): {ar:وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ, tr:wa-lā taziru wāziratun wizra uḫrā, gloss:hiçbir yük taşıyan başkasının yükünü taşımaz}. 31:23’teki {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ve {ar:نُنَبِّئُهُمْ, tr:nunabbiʾuhum, gloss:onlara bildiririz} dizisi, 39:7’deki {ar:مَرْجِعُكُمْ, tr:marjiʿukum, gloss:dönüşünüz} ile {ar:فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ, tr:fa-yunabbiʾukum bi-mā kuntum taʿmalūn, gloss:yaptıklarınızı size bildirir} biçiminde kişisel bağı görünür kılar: kişinin kendi bilerek yaptığı iş kendisine döner. Bildirim Allah’ın bilinmeyen bir soruya cevap vermesi ya da yeni bilgi edinmesi değildir; muhatabın kederi de suç veya vekâleten taşınan bir yük sayılmaz. Bu yan yanalık, yakınlığı başkasının hesabını üstlenmekten ayırır: herkes kendi dönüş ve hesabını taşırken başkası için keder duyabilir.
+
+{ar:فَنُنَبِّئُهُمْ, tr:fa-nunabbiʾuhum, gloss:sonra bildiririz} bildirme fiilinin bilinen içeriği aktarması, önceden bilmeyi bildiren {ar:عَلِيمٌۢ, tr:ʿalīmun, gloss:bilen} niteliğinden ayrılır; Allah’ın bildirmesi yeni bilgi edinmesi değildir. Bu ayrım, yakın ayetlerdeki iki büyük görüntüyle başka ölçekte duyulur. Ağaçların kalem, denizin ardından yedi denizin daha mürekkep olduğu imgesi (31:27), Allah’ın sözlerinin tükenmediği hükmüne varır: {ar:مِن شَجَرَةٍ أَقْلَٰمٌۭ, tr:min shajaratin aqlām, gloss:ağaçtan kalemler}, {ar:وَالْبَحْرُ يَمُدُّهُۥ مِنۢ بَعْدِهِۦ سَبْعَةُ أَبْحُرٍۢ, tr:wa-l-baḥru yamudduhu min baʿdihi sabʿatu abḥur, gloss:denizin ardından yedi deniz daha}, {ar:مَا نَفِدَتْ كَلِمَاتُ ٱللَّهِ, tr:mā nafidat kalimātu Allāh, gloss:Allah’ın sözleri tükenmez}. 31:28’de yaratma ve diriltme tek bir canla benzetilir: {ar:مَا خَلْقُكُمْ وَلَا بَعْثُكُمْ إِلَّا كَنَفْسٍۢ وَٰحِدَةٍ, tr:mā khalqukum wa-lā baʿthukum illā ka-nafsin wāḥidah, gloss:yaratılışınız ve diriltilmeniz tek bir can gibi}. Bu iki benzetme kişisel bildirimin gerekçesi olarak değil, ayrı iddialar olarak durur: 31:27 Allah’ın sözlerinin tükenmezliğini, 31:28 yaratma ve diriltme kudretini bildirir; tek can benzetmesi kolaylığı da vurguluyor olabilir. Yine de kalem-mürekkep çokluğu ile tek can ölçüsünün yan yana gelişi, çokluğun kişiye ait bildirim önünde engel olmadığını düşündürür.
+
+Bu genişlikten ayrı bir zaman görüntüsü 31:29’da geceyle gündüzün birbirine girişi, güneş ve ayın belirlenmiş bir vadeye doğru akışı ve insanların yaptıklarıyla tamamlanır: {ar:يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ, tr:yūliju al-layla fī an-nahāri wa-yūliju an-nahāra fī al-layli, gloss:geceyi gündüze, gündüzü geceye sokar}, {ar:وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ, tr:wa-sakhkhara ash-shamsa wa-l-qamar, gloss:güneşi ve ayı buyruğa verdi}, {ar:كُلٌّۭ يَجْرِىٓ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى, tr:kullun yajrī ilā ajalin musamman, gloss:her biri belirlenmiş bir süreye akar}, {ar:بِمَا تَعْمَلُونَ, tr:bi-mā taʿmalūn, gloss:yaptıklarınızla} (31:29). Gizlenme-görünme evreleri, {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} için “örtücü karanlık ya da enginlik” kullanımını da harekete geçirir; gece, deniz, büyük akarsu, gün batımı veya bulut bu örtücülük alanına girebilir. Bu keşifsel zaman benzetmesi, {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} fiilinin sözlük anlamını “gece”ye çevirmez; 31:29 gök cisimlerinin seyrini ayrıca anlatıyor olabilir, odağın muhatabını belirlemez ve hesap için takvim vermez. Bu sınırlar içinde inkâr ve {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri}, tek bir uzak kesintiden çok sınırlı bir gidişin gizlenme-görünme evreleri gibi okunabilir.
+
+31:32 ise bu gök döngüsünden ayrı olarak denizdeki krizle karaya çıkış arasındaki hareketi gösterir. İnsanları gölgelikler gibi örten dalgaların baskısı altında Allah’a dini yalnız O’na has kılarak yakarırlar (31:32): {ar:غَشِيَهُم مَّوْجٌ, tr:ghashiyahum mawjun, gloss:bir dalga onları bürüdü}, {ar:كَٱلظُّلَلِ, tr:ka-ẓ-ẓulal, gloss:gölgelikler gibi}, {ar:دَعَوُا ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ, tr:daʿaw Allāha mukhliṣīna lahu d-dīn, gloss:dini yalnız O’na has kılarak Allah’a yakardılar}. Fiziksel örtü, {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} için örtme çağrışımını somutlaştırırken kriz de açığa çıkan bağımlılığı gösterir; dalga sözcüğün kendisinin anlamı değildir. Kurtuluşla karaya çıkarılmaları anlık, {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ise son hesaba ilişkin varıştır (31:32). Karaya çıkanların bir bölümü ölçülü davranır; buna rağmen ayet, yadsımayı hainlik ve nankörlükle niteler (31:32): {ar:نَجَّىٰهُمْ إِلَى ٱلْبَرِّ, tr:najjāhum ilā al-barr, gloss:onları karaya çıkardı}, {ar:فَمِنْهُم مُّقْتَصِدٌۭ, tr:fa-minhum muqtaṣid, gloss:aralarından ölçülü olanlar}, {ar:وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍۢ كَفُورٍۢ, tr:wa-mā yajḥadu bi-āyātinā illā kullu khattārin kafūr, gloss:ayetlerimizi ancak hain ve nankör olanlar yadsır}. Kurtuluştan sonra bilinçle yapılan bu davranışlar, 31:23’te {ar:بِمَا عَمِلُوا, tr:bi-mā ʿamilū, gloss:yaptıklarıyla} bildirilecek işlere somut içerik olabilir; herkesin niyetini tüketmez. Kriz duası geçici olabilir ve tek başına ihanet kanıtı değildir; bu kişiler de 31:23’teki muhataplarla özdeş ilan edilmez. Dalga ile sonraki davranış arasındaki değişim, örtülme ve açığa çıkmayı silinme yerine aynı hesap ufkunda izlenebilir kılar.
+
+## Göğüslerde Olan ve İlahi Bilgi
+
+Son cümledeki {ar:إِنَّ, tr:inna, gloss:şüphesiz}, vurgulu isim cümlesini açar; {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} adı, dönüş ve bildirimde zaten görünen ilahî özneyi {ar:عَلِيمٌۢ, tr:ʿalīmun, gloss:bilen} niteliğine bağlayarak önceki akışı çerçeveler. Bu bilme dönüşün ya da bildirimin sebebi diye sunulmaz. Özel ad, bilgiyi soyut bir ilah etiketine değil, daha önce {ar:إِلَيْنَا, tr:ilaynā, gloss:bize} varışla, {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ve {ar:فَنُنَبِّئُهُمْ, tr:fa-nunabbiʾuhum, gloss:onlara bildiririz} eylemiyle görünen aynı özneye bağlar. Adın tapılmaya layık olma, sığınak olma ya da şaşma gibi köken açıklamaları ihtimal olarak kalır; hiçbiri özel adın yerine geçmez. {ar:عَلِيمٌۢ, tr:ʿalīmun, gloss:bilen} sözcüğünün faʿīl kalıbı yeni edinilmiş bir öğrenme olayından çok süreklilik taşıyan yoğun bilme niteliği verir; bu nitelik bilgi derecesini ölçmeden ve önceden bilgisizlik varsaymadan, dönüş ve bildirimde görünen öznenin bilgisini pekiştirir.
+
+İlk {ar:بِمَا, tr:bi-mā, gloss:yaptıklarıyla} bildirilecek işleri içeriğe bağlarken kapanıştaki {ar:بِذَاتِ ٱلصُّدُورِ, tr:bi-dhāti ṣ-ṣudūr, gloss:göğüslerde olana} bilmenin alanını belirtir. Dışa vurulan eylem kaydıyla içte kalan alan yan yana durur; ikincisi {ar:عَلِيمٌۢ, tr:ʿalīmun, gloss:bilen} niteliğini yalnız o alana indirgemez. {ar:ذَاتِ ٱلصُّدُورِ, tr:dhāti ṣ-ṣudūr, gloss:göğüslere ait olan} tamlaması serbest bir nesne listesi değil, göğüslere ait olanı bir arada kuran yapıdır; ilk öğe aidiyet ve öz çağrışımlarını aynı alan içinde taşır, bağımsız bir benlik öğretisi kurmaz. Belirli çoğul göğüs sözü, dönüşü ve işleri bildirilen topluluğun iç alanını kapsar; çoğul kapsamı genişletir, herkesin iç dünyasını tek bir şey ilan etmez. Tamlamanın başındaki vurgulu ṣ sesi, saklı iç alanın işitilişine yerel bir ağırlık katar; bu vurgu burada ses imgesini derinleştirir, sözcüğün anlamını ya da genel bir ses yasasını değiştirmez.
+
+{ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler}, olağan anlamıyla boynun altındaki gövdenin ön bölgesini adlandırır. Göğüslere ait olanı bildiren tamlama ve onları bilen {ar:عَلِيمٌۢ, tr:ʿalīmun, gloss:bilen} yüklemi bu bedensel sözü gizli iç hayatın taşıyıcısı olarak duyurur; göğüs sözü bedensel adını korur, içinde fiziksel nesneler sayılmaz. Aynı çoğul adın bir şeyin ortaya çıktığı yer ya da zamanı bildiren ayrı bir sözlük kullanımı da vardır. Bu kaynak çağrışımına burada üç ayrı unsur temas eder: {ar:عَمِلُوا, tr:ʿamilū, gloss:yaptılar} ile eylemler, {ar:نُنَبِّئُهُمْ, tr:nunabbiʾuhum, gloss:onlara bildiririz} ile bildirim, {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ile varış. Bu çağrışım kesin bir organı ya da niyeti tarif etmez ve insana saklı niyeti görme imkânı vermez. Böylece göğüslerin iç alanı, eylemlerin dışa çıkan gizli kaynağı gibi de duyulur; bedensel sözcüğün iç hayatı anlatması sürer, kaynak anlamı ise eylemlerin hesabına içten bir katman ekler.
+
+Bu iç kaynak çağrışımını 29:10’daki baskı altındaki söz belirginleştirir: eziyet görenler {ar:ءَامَنَّا بِاللَّهِ, tr:āmannā bi-llāh, gloss:Allah’a inandık} der, sonra {ar:إِنَّا كُنَّا مَعَكُمْ, tr:innā kunnā maʿakum, gloss:biz de sizinleydik} diye kamusal söz söyler; hemen ardından Allah’ın insanların göğüslerindekini en iyi bilip bilmediği sorulur (29:10): {ar:أَوَلَيْسَ اللَّهُ بِأَعْلَمَ بِمَا فِي صُدُورِ الْعَالَمِينَ, tr:a-wa-laysa llāhu bi-aʿlama bimā fī ṣudūri l-ʿālamīn, gloss:Allah insanların göğüslerindekini en iyi bilen değil mi}. 31:20’de nimetlerin hem görünür hem gizli diye çiftlenmesi, dışarı söylenenle içte kalan arasındaki farkı başka bir yönden açar: Allah nimetlerini üzerlerine yaymış, onları {ar:ظَاهِرَةً وَبَاطِنَةً, tr:ẓāhiratan wa-bāṭinatan, gloss:görünen ve gizli} kılmıştır (31:20): {ar:أَسْبَغَ عَلَيْكُمْ نِعَمَهُ, tr:asbagha ʿalaykum niʿamahu, gloss:nimetlerini üzerinize yaydı}. Bu iki ayrı temas, 31:23’teki {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} sözünün bedenî anlamını ve {ar:عَمِلُوا, tr:ʿamilū, gloss:yaptıkları} işlerin {ar:فَنُنَبِّئُهُمْ, tr:fa-nunabbiʾuhum, gloss:onlara bildiririz} ile Allah tarafından bildirilmesini yan yana tutar. Bu nimet alanı {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} ile silinmez; görünenle gizli olan, göğüsleri bilen ilahî hesabın iki yanında kalır. Bu bağlamlar insana saklı niyete erişim vermez; eylemin yalnız dış sonucunu değil, iç kaynağından oluşumunu da Allah’ın bilip bildirdiği okumasını güçlendirir.
+
+Bu görünür nimet alanından sonra bilgisizce tartışma ve ataların izine uyma sözü gelir (31:20, 31:21). {ar:مَن يُجَادِلُ فِي اللَّهِ بِغَيْرِ عِلْمٍ, tr:man yujādilu fī llāhi bi-ghayri ʿilm, gloss:Allah hakkında bilgisizce tartışan} kişiye karşı {ar:بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا, tr:bal nattabiʿu mā wajadnā ʿalayhi ābāʾanā, gloss:atalarımızı üzerinde bulduğumuz şeye uyarız} denir. {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} için örtme, {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} için iç kaynak çağrışımı bu sözlerle birlikte duyulur. Tartışma, iç kaynağın üzerini örten bir dış söz olabilir; ataların izinden gitmek önceden alınmış toplumsal yolu taşır, atalara gönderme de bu yolun taşıyıcısını gösterir. Bu sözler kişinin {ar:عَمِلُوا, tr:ʿamilū, gloss:yaptıkları} amelinin tümü ya da başkasının üstlendiği bir iş değildir. Bu okuma her tartışmayı örtü saymaz; atalara başvuru da tek başına gizli niyeti kanıtlamaz veya eyleyeni sorumluluktan çıkarmaz. Böylece olağan inkâr ve bedensel göğüs anlamları yerinde kalırken, kamusal ya da miras alınmış sözün altındaki iç kaynak hesapla ilişkilendirilir.
+
+Küçük ve saklı bir işin bu hesaba erişmesi 31:16’daki hardal tanesiyle elle tutulur hâle gelir. Ağırlığı hardal tanesi kadar olan filiz taşıyan tane bir kayanın, göklerin ya da yerin içinde gizli kalsa da Allah onu getirir (31:16): {ar:مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ, tr:miṯqāla ḥabbatin min ḫardal, gloss:hardal tanesi ağırlığınca}, {ar:فِي صَخْرَةٍ أَوْ فِي السَّمَاوَاتِ أَوْ فِي الْأَرْضِ, tr:fī ṣaḫratin aw fī s-samāwāti aw fī l-arḍ, gloss:kayada, göklerde ya da yerde}, {ar:يَأْتِ بِهَا اللَّهُ, tr:yaʾti bihā llāhu, gloss:Allah onu getirir}. Bu gerçek tohum, 31:23’teki {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} örtme çağrışımıyla, {ar:عَمِلُوا, tr:ʿamilū, gloss:yaptıkları} ile anlatılan amellerin {ar:فَنُنَبِّئُهُمْ, tr:fa-nunabbiʾuhum, gloss:onlara bildiririz} ile haber verilmesi ve {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} ile buluşunca, kaya gibi kapalı yerde kalan küçük bir işin dönüş ve bildirim hesabından silinmediğini gösterir; bilme pasif farkındalıkta kalmaz, gizli yerdekine erişir. 31:16’daki {ar:لَطِيفٌ, tr:laṭīf, gloss:ince ve gizliye erişen} niteliği ölçek ve örtünün altına ulaşma imgesini besler. Bu bağlantı bağlamsal kalır; 31:16 Allah’ın kudretini daha genel olarak da anlatır. Hardal tanesi imgesi böylece küçük ve gizli bir işin dönüşte bildirim hesabına erişmesini elle tutulur kılar.
+
+Aynı küçük tane, örtme çağrışımının biçim sınırını da gösterir. Sözlük ailesindeki ayrı bir fail adı, tohumu toprağa yerleştirip üstünü örten çiftçiyi anlatabilir; bu anlam yalnız o fail adına aittir. 31:23’teki çekimli {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} fiili ve sahiplik eki almış {ar:كُفْرُهُۥٓ, tr:kufruhu, gloss:onun inkârı} biçimi çiftçi diye çevrilmez, olağan reddediş anlamını taşır. Bildirme fiili filizlenmek anlamına dönüşmez; bu benzetme 31:16’daki genel kudret okumasını da kaldırmaz. Yine de 31:16’da yerde ya da kayada saklı kalan tohumun Allah tarafından ortaya çıkarılmasıyla 31:23’te {ar:عَمِلُوا, tr:ʿamilū, gloss:yaptıkları} amellerin {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri} sırasında {ar:نُنَبِّئُهُمْ, tr:nunabbiʾuhum, gloss:onlara bildiririz} diye bildirilmesi arasında sınırlı bir gömülme ve görünür hâle gelme benzetmesi kurulur: örtülmüş iş hesapta belirir.
+
+Son olarak 31:34, insanın kendi geleceği hakkındaki sınırını ilahî bilginin yanına koyar. {ar:وَمَا تَدْرِى نَفْسٌ, tr:wa-mā tadrī nafsun, gloss:hiçbir özne bilemez} sözü iki kez yinelenir: kişi {ar:مَاذَا تَكْسِبُ غَدًا, tr:mādhā taksibu ghadan, gloss:yarın ne kazanacağını} ve {ar:بِأَىِّ أَرْضٍ تَمُوتُ, tr:bi-ayyi arḍin tamūtu, gloss:hangi yerde öleceğini} bilmez (31:34). Bu sınır, 31:23’teki {ar:مَرْجِعُهُمْ, tr:marjiʿuhum, gloss:dönüşleri}, {ar:فَنُنَبِّئُهُمْ بِمَا عَمِلُوا, tr:fa-nunabbiʾuhum bi-mā ʿamilū, gloss:yaptıklarını onlara bildireceğiz} ve {ar:عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ, tr:ʿalīmun bi-dhāti ṣ-ṣudūr, gloss:göğüslerde olanı bilen} vaadiyle karşılaşınca, hesabın kişinin kendi gelecek öngörüsünü aştığını ve yalnızca hatırladığı geçmişin tekrarı olmadığını düşündürür. 31:34’te sayılan bilinmezler bildirilecek eylemler hâline gelmez; 31:23’te göğüslerde olana ilişkin açık anlam sürer, iç kaynak çağrışımı ise nitelikli kalır. 31:34’ün başındaki ilahî bilgi ve kapanıştaki {ar:إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ, tr:inna Allāha ʿalīmun khabīr, gloss:Allah bilendir, haberdardır} bu farkı çerçeveler: kişinin kendi yarınına dair öngörüsünün ötesinde, ona ait ameller Allah’ın bildirimine konu olur.
+
+</editorial_prose>

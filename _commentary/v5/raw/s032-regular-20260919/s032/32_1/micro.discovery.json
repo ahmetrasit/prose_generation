@@ -1,0 +1,314 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:1",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_555ff32eaace0e29ac77",
+      "decision": "accept",
+      "reason": "The supplied word-analysis support gives a bounded discourse relation: the complete ALM opener precedes the Book-sending statement in 32:2, with the same opener-to-Book sequence named in the listed ALM parallels. It explicitly treats this as expectation, not syntactic governance.",
+      "finding_refs": ["micro:alm-book-bridge"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_52d5f9dbee2dd2d61ad3",
+      "decision": "accept",
+      "reason": "The supplied support bounds the claim to recurrence and list position: 32:1 is the last of the six listed ALM openings. It expressly leaves any larger compositional theory unclaimed.",
+      "finding_refs": ["micro:alm-family-endpoint"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6d6e1d3e4a3828dbcd88",
+      "decision": "accept",
+      "reason": "The focus is aligned to one rootless INL morpheme, and trusted support identifies the surface as the names of Arabic letters. This grounds alphabetic self-reference before ordinary root-bearing morphology.",
+      "finding_refs": ["micro:alphabetic-self-reference"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3022872cb65ba723bf13",
+      "decision": "accept",
+      "reason": "The supplied phonetic support traces the recited sequence from an open onset through lateral articulation to the sealed lips of mīm. The reading is retained as a qualified sound effect, not as a lexical explanation of the letters.",
+      "finding_refs": ["micro:articulation-path"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ceb66491116008c1fb86",
+      "decision": "accept",
+      "reason": "The QAC alignment presents one written INL item, while the trusted support identifies three separately recited letter-names and their cadence. The compact-script/audible-expansion contrast is directly supported and distinct from the articulatory path.",
+      "finding_refs": ["micro:compact-recited-expansion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bbf49a39a2aaf23aed9f",
+      "decision": "accept",
+      "reason": "The focus has no ordinary lexical proposition, and the support preserves debated decipherment while identifying the reader effect as sustained attention. It does not assert a particular hidden decoding or purpose.",
+      "finding_refs": ["micro:controlled-opacity-attention"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_51186403122c25ccadf2",
+      "decision": "accept",
+      "reason": "The supplied synthesis connects separately supported form, sound, opacity, recurrence, and the following Book statement into a cumulative threshold reading. Its payoff is that these mechanisms jointly orient the opener toward named revelation; it does not claim a complete compositional theory.",
+      "finding_refs": ["micro:converging-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a87b0d51d9680a36989",
+      "decision": "accept",
+      "reason": "Trusted support identifies this surah-initial disconnected-letter sequence as part of the restricted opener distribution. The retained claim is recognition of the form class, not an inference about a uniform hidden meaning.",
+      "finding_refs": ["micro:restricted-opener-system"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1e206c1673a917a16a05",
+      "decision": "accept",
+      "reason": "The aligned QAC item has no lexical root or predicative relation, and the supplied support treats the disconnected-letter opener as complete by sign-status. This distinguishes a complete opening form from an unfinished clause needing hidden syntax.",
+      "finding_refs": ["micro:pre-syntactic-completeness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b1e3f5485cd983bb878",
+      "decision": "accept",
+      "reason": "The whole focus ayah consists of one disconnected-letter item with no clause attachments. Its unit boundary supports a pre-clausal, mode-setting threshold distinct from the narrower claim that the opener is grammatically complete.",
+      "finding_refs": ["micro:one-token-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:alm-book-bridge",
+      "origin_candidate_id": "cand_555ff32eaace0e29ac77",
+      "represented_candidate_ids": [],
+      "title": "Letters cue the Book declaration",
+      "claim": "The recited ALM opener forms a complete, pre-syntactic carrier; its position before the supplied Book-sending statement in 32:2, echoed by the listed ALM opener-to-Book parallels, frames the next discourse as the first explicit revelation claim after a sign-like threshold.",
+      "mechanism": "The focus surface is a standalone sequence of letter-names. The supplied support identifies tanzīlu al-kitāb at 32:2 and parallel ALM-to-Book sequences; their order lets the opener prepare an expectation of revelation discourse without syntactically governing the next ayah.",
+      "reader_payoff": "The reader can feel the movement from a complete letter-sign opening to the following explicit Book claim.",
+      "containment": "This is a discourse-level expectation carried by the supplied sequence; ALM does not itself state the Book claim or determine a larger compositional theory.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The word-analysis support explicitly supplies the adjacency and parallel pattern, but this packet has no projected non-focus context units for independent inspection of those verses."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_7de796cfc4057d07bade"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:alm-family-endpoint",
+      "origin_candidate_id": "cand_52d5f9dbee2dd2d61ad3",
+      "represented_candidate_ids": [],
+      "title": "ALM family endpoint",
+      "claim": "The focus opener occupies the final position in the six-item ALM sequence named by the supplied support, so its recurrence has a concrete endpoint here without requiring a theory of why the family is grouped.",
+      "mechanism": "The support lists ALM openings at 2:1, 3:1, 29:1, 30:1, 31:1, and 32:1; matching form and opening position make 32:1 the last listed member and let the reader notice recurrence at this ayah.",
+      "reader_payoff": "The reader sees 32:1 as a recurrence with a defined place in the supplied ALM list, rather than as an isolated letter cluster.",
+      "containment": "The evidence supports recurrence and list position only; it does not establish a full compositional design or the meaning of the letters.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The recurrence and endpoint are stated in trusted candidate support, while the comparison ayat are not projected as context units in this packet."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_8c8cbeaaf66039a4392c"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:alphabetic-self-reference",
+      "origin_candidate_id": "cand_6d6e1d3e4a3828dbcd88",
+      "represented_candidate_ids": [],
+      "title": "Letters before morphology",
+      "claim": "Because the recitation presents Arabic letter-names before any root-bearing word or lexical proposition, the opening makes the language's own alphabetic material visible as its first content.",
+      "mechanism": "The aligned focus is one rootless INL morpheme, and the supplied support identifies alif, lām, and mīm as names of letters themselves; letter identity therefore precedes derivational morphology and ordinary predication in the reader's encounter with the surah.",
+      "reader_payoff": "The reader hears the opening as language showing its own letter-units before it begins to state something with words.",
+      "containment": "Alphabetic self-reference describes what the recitation presents; it does not decode the letters or assign them a lexical root.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus alignment and trusted support directly identify a rootless disconnected-letter item and its letter-name status."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_a3a58425b95d07a123c1"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:articulation-path",
+      "origin_candidate_id": "cand_3022872cb65ba723bf13",
+      "represented_candidate_ids": [],
+      "title": "Open onset to sealed lips",
+      "claim": "In recitation, the sequence moves from alif's open onset through lām's lateral articulation to mīm's lip closure, giving the letter-opener a bodily opening-to-sealing cadence.",
+      "mechanism": "The distinct articulations of the three recited names meet in sequence: the open beginning gives way to lateral movement and then bilabial closure. That audible progression lets the mouth enact a threshold even though the ayah has no lexical clause.",
+      "reader_payoff": "The reader can hear and feel a small physical arc in the recitation, rather than meeting the opener only as a visual cluster.",
+      "containment": "This is a qualified phonetic and recitational effect; it does not supply semantic content for the letters or prove that the sound was designed as a symbolic code.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The supplied phonetic support grounds the articulation sequence, while its threshold effect is an interpretive sound reading rather than lexical meaning."
+      },
+      "support_ids": ["sup_046f85a1e6b2e2bd40de", "sup_3abc95429de7fc91822f"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:compact-recited-expansion",
+      "origin_candidate_id": "cand_ceb66491116008c1fb86",
+      "represented_candidate_ids": [],
+      "title": "One cluster, three recited names",
+      "claim": "One compact written item opens into three distinct letter-names in recitation, so the script's compression meets the voice's measured expansion.",
+      "mechanism": "The QAC alignment records one INL surface, while the supplied support identifies alif, lām, and mīm as separately recited names with weighted beats; the one cluster is therefore heard as an expanded sequence rather than an ordinary lexical word.",
+      "reader_payoff": "The reader notices a tension between what the eye gathers at once and what recitation unfolds in time.",
+      "containment": "The contrast concerns written grouping and recited segmentation; it does not turn the sequence into a grammatical word or a hidden proposition.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus alignment supplies one item and trusted support identifies the three letter-names and their recited cadence."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_c1685d01c0b369ea4b61"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:controlled-opacity-attention",
+      "origin_candidate_id": "cand_bbf49a39a2aaf23aed9f",
+      "represented_candidate_ids": [],
+      "title": "Opacity holds attention",
+      "claim": "Because the letter-opener yields no ordinary lexical proposition, its unresolved surface leaves the reader waiting for the first explicit statement and makes attention part of its local effect.",
+      "mechanism": "The rootless, non-clausal form gives the reader letter-names without a proposition to decode; the supplied support preserves debated decipherments, so the pause remains open and the following revelation statement can arrive as the first ordinary claim.",
+      "reader_payoff": "The reader experiences the opener's opacity as an active pause that holds interpretation open, rather than as a failed attempt to read a normal word.",
+      "containment": "This describes a reader effect, not a settled purpose or a claim that the letters have no significance beyond ordinary lexical meaning.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The non-clausal surface is direct evidence; the attention effect and its relation to the following statement are interpretive and are kept open."
+      },
+      "support_ids": ["sup_10c35c776e9873a29907", "sup_3abc95429de7fc91822f"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:converging-threshold",
+      "origin_candidate_id": "cand_51186403122c25ccadf2",
+      "represented_candidate_ids": [],
+      "title": "Layers converge before revelation",
+      "claim": "The opener's non-clausal form, alphabetic self-reference, compact script and expanded recitation, sound movement, opacity, and supplied recurrence pattern converge with the following Book statement to stage a passage from raw letters toward named revelation.",
+      "mechanism": "The lack of a proposition delays ordinary discourse; letter-names expose the material signs, recitation gives them duration and an opening-to-closure movement, and the supplied ALM/Book pattern supplies a direction toward revelation. Together those contacts make the sequence function as a threshold rather than as a lexical assertion.",
+      "reader_payoff": "The reader sees the opener's formal, audible, and discourse effects working cumulatively on the transition into the named revelation claim.",
+      "containment": "This is a local synthesis of the supplied mechanisms, not proof of a hidden letter code, a full surah-wide compositional theory, or syntactic dependence on the following ayah.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Each component is present in trusted support, but their convergence is an interpretive synthesis and the contextual parallels are not projected as independent context units."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_d11239003ce2d7a309b6"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:restricted-opener-system",
+      "origin_candidate_id": "cand_5a87b0d51d9680a36989",
+      "represented_candidate_ids": [],
+      "title": "A restricted opener form",
+      "claim": "The surah-initial letter-name sequence belongs to the supplied restricted distribution of Quranic disconnected-letter openings, letting the reader recognize a marked opener form before ordinary vocabulary begins.",
+      "mechanism": "The focus surface is a disconnected-letter item in opening position, and the supplied support places such combinations across 29 surahs; that repeated distribution makes this instance legible as part of an opener class rather than a local oddity.",
+      "reader_payoff": "The reader can recognize a recurring Quranic opening form instead of treating the letters as an ordinary Arabic word.",
+      "containment": "The distribution establishes a form class and recurrence only; it does not establish what every combination means or imply one uniform function beyond opening position.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The focus form is aligned directly, while the wider distribution is supplied in trusted word-analysis support rather than as projected context records."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_96bce9fa0e9a6c8c39c5"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:pre-syntactic-completeness",
+      "origin_candidate_id": "cand_1e206c1673a917a16a05",
+      "represented_candidate_ids": [],
+      "title": "Complete before clause grammar",
+      "claim": "The lone disconnected-letter opener is complete by its sign-status before clause grammar; its lack of predication therefore reads as a complete opening form rather than an unfinished sentence missing hidden syntax.",
+      "mechanism": "The aligned QAC item is an INL stem without a lexical root, case government, or predicative relation. Its letter-opener status supplies the positive function that closes the ayah before ordinary clause grammar begins.",
+      "reader_payoff": "The reader can stop looking for an omitted subject or predicate and see the opening sign itself as the complete first unit.",
+      "containment": "This concerns the grammatical completeness of 32:1; it does not deny that the next ayah continues the discourse with a separate statement.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The accepted focus alignment and trusted support directly state the rootless, non-predicative, disconnected-letter analysis."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_63c1c9f8e15314631528"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:one-token-threshold",
+      "origin_candidate_id": "cand_1b1e3f5485cd983bb878",
+      "represented_candidate_ids": [],
+      "title": "One-token ayah as threshold",
+      "claim": "Because the single disconnected-letter item fills and closes 32:1, the ayah makes a sealed pre-clausal threshold whose first work is to set the mode of reading before ordinary assertion begins.",
+      "mechanism": "The full ayah is one standalone INL item without clause attachments; that one-token boundary lets the letter-opener complete a first unit before the following Book-revelation statement, making a later assertion pragmatically expected rather than syntactically governed.",
+      "reader_payoff": "The reader feels the first unit as a deliberate threshold and can anticipate that an explicit statement will follow it.",
+      "containment": "The boundary creates an expectation, not a syntactic dependency; the threshold reading leaves the separate letter-opener meaning intact.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The one-item focus alignment and trusted support directly establish a complete ayah with no clause attachments; the threshold effect follows from that boundary."
+      },
+      "support_ids": ["sup_3abc95429de7fc91822f", "sup_4be7ed9f78a13100d3c5"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The focus alignment is complete, but the micro packet has no branch registry, connection registry, selected context units, or assigned micro HFT records. No branch activation, connection, or staged before/after reading can be added from this lane.",
+    "The ALM recurrence and 32:2 Book-framing are present only in trusted word-analysis support summaries; selected_context_units is empty, so those claims remain qualified as supplied discourse and distributional observations rather than independent readings of the cited ayat."
+  ]
+}

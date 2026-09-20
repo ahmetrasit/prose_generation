@@ -1,0 +1,199 @@
+# V5 reading invitation — 31:24
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_24/31_24.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_24/31_24.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Yararlanmanın gerçekliği ve ölçüsü
+
+31:24, aynı çoğul muhataplara önce gerçek bir yarar sunar, fakat bu yararı {ar:قَلِيلًا, tr:qalīlan, gloss:az bir ölçüde} ile sınırlar; {ar:ثُمَّ, tr:thumma, gloss:sonra} ile açılan sonraki evrede onları {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} ve {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} yöneltilmiş {ar:عَذَابٍ غَلِيظٍ, tr:ʿadhābin ghalīẓin, gloss:ağır bir azap} hedefine götürür. Ayetin hareketi, {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} arasındaki değişimde belirginleşir: yarar gerçektir, ama ceza yönelişinin yerini almaz.
+
+Her iki fiildeki birinci çoğul özne eylemi muhataplara yöneltir. Form II biçimindeki {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ve ekli -hum, yararın onların kendi çabasıyla üretilmesinden çok onlara sunulduğunu gösterir; fiil ayrıca bir mülk devri anlatmaz. İkizlenen ünsüz bu sunuluşu dışarıdan gelen bir edim gibi işittirir, ancak bu ses izlenimi tek başına bir niyet kanıtı değildir. {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} içinde aynı kişi ve sayı özelliğiyle -hum yeniden görünür: yararı alanlarla zorlamanın muhatapları aynı gruptur; değişen kişiler değil, onlara yapılan eylemdir. Kişi ve sayı bu ortak muhataplığı belirler; grubun ayet dışındaki kimliği ise açık kalır.
+
+Fiilden sonra gelen mansup ve belirsiz ölçü sözü {ar:قَلِيلًا, tr:qalīlan, gloss:az bir ölçüde}, ilk yararlandırma evresini sınırlar; sonraki cezanın derecesini ölçmez. Küçüklük miktarda, sürede ya da yararın değerinde hissedilebilir; bunlar kesinleşmiş ayrı ölçüler değil, sınırlı oluşun birbiriyle uyumlu yönleridir. Bu ölçü yararın kısılmış veya pay edilmiş gibi duyulmasına izin verir, fakat belirli bir tahsisat anlatmaz. Belirsiz biçim miktarı ve süreyi sayıyla sabitlemez; yararın sınırlı olduğunu yine de açıkça bildirir.
+
+İki eylem arasındaki {ar:ثُمَّ, tr:thumma, gloss:sonra}, ilk evreden sonra ikinci eylemi getirir ve anlık bir dönüşten ziyade araya zaman giren bir geçiş duyurur; bekleyişin ne kadar sürdüğü belirtilmez. Şeddeli mîm, hafif ölçü sözünden {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} bitişik sesleriyle basınç taşıyan {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} fiiline geçerken işitilir bir eşik kurar. Böylece yararlandırma ve zorlama ayetin iki vuruşu olur; ses geçişi bu eşiği belirginleştirir.
+
+Form II biçimindeki {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} aynı kelime ailesinde birini yaşatıp belli bir süre o yaşamdan yararlandırma kullanımını da taşır. Olağan yarar anlamı, bu süreli kullanım, {ar:قَلِيلًا, tr:qalīlan, gloss:kısa ölçü} sınırı ve ardından gelen zorlama birlikte düşünüldüğünde ilk evre gerçek, fakat geçici bir kullanım aralığı gibi duyulur. Fiilin yararı zamana yayma ve yükseltme yönleri, bu sınırlı aralığı açık uçlu sahiplikten çok sonraki bildirime dek tanınmış bir pay gibi işittirir. Yararlanmanın sürmesi, sonun ya da ölümün bir vakte ertelenmesine benzetilebilir; bu benzetme kesin beraat, fiilî ömür uzatma veya belirlenmiş bir ölüm tarihi anlamına gelmez. Süre sayıyla belirlenmez; {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} yine de mühletin kısa hissedilmesini destekler.
+
+## Aralığın ufku
+
+Yararlandırma, azlık ve ardından gelen mecburi azap sırası 2:126’da da aynı düzen içinde karşılaşır (2:126). Bu metin düzeyindeki tekrar, şimdiki payı gerçek bir yarar olarak korurken onu tek başına son durak olmaktan çıkarır (2:126). Tekrar böylece sıralamayı güçlendirir; {ar:قَلِيلًا, tr:qalīlan, gloss:azca}’nın miktarı mı, süreyi mi sınırladığı ve yararlanıcıların bu aralığı içeriden nasıl hissettiği açık kalır (2:126).
+
+Hesap ufku 31:23’te belirginleşir: inkâr edenler Allah’a döner, yaptıkları kendilerine bildirilir ve Allah göğüslerin içindekini bilir (31:23). Bu dönüş ve bildirim, 31:24’teki gerçek yararın hesap öncesinde yaşanan bir aralık gibi duyulmasını sağlar; {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} fiilinin zamana yayılan ve yükselten yönü de {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} ile buluşarak açık uçlu sahiplikten ziyade sonrasındaki bildirime dek tanınmış sınırlı bir izin hissi verir (31:23). Aralığın takvimle ölçülen süresi belirtilmez; 31:23’ün ifadesi de her alıcıya bilinçli gizleme yüklemez (31:23). Sure başındaki {ar:الرَّحْمَٰنِ الرَّحِيمِ, tr:ar-Raḥmāni r-Raḥīm, gloss:Rahmân ve Rahîm} adları bu bağışı merhamet tonuyla çerçeveler (31:0): merhamet tonu yararın gerçekliğini korurken cezaya ilişkin hükmü hafifletmez.
+
+31:29’da gece gündüze, gündüz geceye katılır; güneş ve ay belirlenmiş bir vadeye doğru akarken Allah insanların yaptıklarından haberdar olduğunu da bildirir (31:29). Bu döngü, {ar:ثُمَّ, tr:thumma, gloss:sonra} ile sıralanan yarar ve zorlamayı kopuk olaylardan çok birbirini izleyen evreler gibi duyurur (31:29). Göksel akışın {ar:أَجَلٍۢ مُّسَمًّۭى, tr:ajalin musamman, gloss:belirlenmiş bir vade} ufku, kısa yararı sonu uzaktan görünen bir dönem gibi düşünmeye elverir; 31:24’ün süresini bu göksel vadeyle özdeşleştirmeden, sonu olan bir dönem hissi verir (31:29).
+
+Bu aralığın içeriden nasıl göründüğü 31:34’te açık kalır: hiçbir can yarın ne kazanacağını ya da hangi yerde öleceğini bilmez (31:34). {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} dışarıdan sınırlı bir dönem gösterirken, yaşayan kişi için en yakın gelecek ve hayatın nerede kesileceği örtük olabilir (31:34). Azlık sözü kendi başına bilgisizlik anlamına gelmez; elde edilen yarar da yarınki kazancı açığa çıkarmaz (31:34). Aralığın sayısal olarak ölçülebilmesi mümkündür, ancak 31:24 süreyi, tarihi, ölüm yerini veya ölüm sebebini bildirmez.
+
+## Payın ölçüsü ve zamanın karşılığı
+
+31:20’de nimetlerin görünür ve görünmez yönlerden tamamlanıp yayılması bolluğu ortaya koyar (31:20). 31:26’da Allah’ın kendine yeterli oluşu, verenin bu bolluğa muhtaç olmadığını belirtir (31:26). 31:27’de deniz başka denizlerle artırılsa bile Allah’ın sözlerinin tükenmemesi, bu bolluk ufkunu tükenmezlik yönünde genişletir (31:27). Bu ayrıntılar birlikte düşünüldüğünde, {ar:قَلِيلًا, tr:qalīlan, gloss:azca} ile verilen sınırlı pay kaynağın darlığını değil, alıcıya ayrılan ölçüyü gösterir (31:20, 31:26, 31:27). {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} fiilinin yaşam boyunca yararı sürdürme yönü de kaynağın eksilmesinden çok, alıcıya tanınan aralığı öne çıkarır (31:20, 31:26, 31:27). Bu bağlam, neden bu gruba bu payın verildiğini veya azlığın miktar mı süre mi olduğunu belirlemez (31:20, 31:26, 31:27).
+
+Kaynağın bolluğu ile alıcıya ayrılan pay arasındaki fark, 31:8 ve 31:9’daki başka bir zaman ölçüsünün yanında daha belirginleşir (31:8, 31:9). 31:8’in nimet bahçeleri ve sevinçli iyi hâli, 31:9’daki kalıcılık ve gerçek vaatle birlikte uzun bir kalış açar (31:8, 31:9). Bunun yanında {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile verilen iyilik hakiki, {ar:قَلِيلًا, tr:qalīlan, gloss:azca} ile sınırlı bir pay olarak kalır; 31:8’deki nimet ile 31:24’teki yarar ayrı iyilik alanlarıdır (31:8, 31:9, 31:24). 31:9’un kalıcılığı bu ikisini eşitlemeden bir beklenti ufku ekler; 31:24’ün alıcıları 31:9’daki vaadin muhatabı olarak belirlenmez (31:9).
+
+31:30’daki hak-batıl ayrımı, batıllığı Allah dışındaki yanlış yönelişe bağlar ve böylece odaktaki gerçek yararın niteliğinden ayırır (31:30). 31:31’deki nimet ve şükür sahnesi, dünya içindeki iyiliğe karşılık vermenin bir görünümünü sunar; oradaki sabırlı ve şükreden kişiler 31:24’ün alıcılarıyla özdeşleşmez (31:31). 31:33’ün dünya hayatının aldatıcılığına karşı uyarısı ise bu iki ayrımı bir beklenti sınırına taşır: gerçek yarar vardır, fakat onu tamamlanmış ve kalıcı güvence saymak tehlikelidir (31:33). Böylece {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile verilen iyilik batıl bir yönelişe indirgenmeden geçici kalır; {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} bu görünümü tamamlanmamış bir zaman aralığı gibi genişletir, fakat belirli bir eksik miktar göstermez (31:30, 31:31, 31:33). Uyarı genel kalır; her alıcıya aldanmışlık yüklemez (31:33).
+
+## Mecburi varışın niteliği
+
+{ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız}, {ar:ثُمَّ, tr:thumma, gloss:sonra} ile açılan ikinci yan cümlenin ilk fiilidir; yeni bir yarar değil, zorlayıcı eylem getirir. Form VIII biçiminde birinci çoğul özne ve aynı -hum nesnesiyle kurulur. Çekirdek anlamı zorlanmadır: fiil muhatapları mecbur bırakır, doğrudan yaralama veya karşılıklı zarar verme eylemi kurmaz. Peş peşe gelen ikizlenmiş sesleri bu zorlamayı işitilir bir basınçla taşır; bu, sözlü yüzeyin izlenimidir, bir ses yasası değildir. Aynı kelime ailesindeki zarar ve eksilme yönü, fiilin zorlanma anlamıyla ve {ar:إِلَىٰ عَذَابٍ, tr:ilā ʿadhābin, gloss:bir azaba doğru} sözlerinin bağımsızca adlandırdığı olumsuz hedefle birleşir; bu temas hareketi sıkıntı ve kayıp yönünde ağırlaştırır. Bu çağrışım fiile körlük ya da bedensel yaralanma anlamı eklemez. İlk yararın ardından gelen gecikmeli sonuç, sırayı uyarı yüklü bir taviz gibi duyurur: yararın gerçekliği korunurken cezalandırıcı devamı da yürürlükte kalır.
+
+Küçük {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} edatı, zorlayıcı fiilden cezalandırıcı hedefe yönelişi tamamlar. Fiilden sonra gelip mecrur ismi yönettiği için burada zamansal “-e kadar” değil, hedef bildirir; kurduğu bağ dilbilgisel bir varış ilişkisidir, fiziksel bir yolculuk değil. Okunuşta edatın son ünlüsünün ardından hedef ismin gelmesi kulağı bu varışa taşır; ses akışı dilbilgisinin kurduğu yönü belirginleştirir, yeni bir hedef eklemez. Edatın yönettiği {ar:عَذَابٍ غَلِيظٍ, tr:ʿadhābin ghalīẓin, gloss:ağır bir azap} öbeğinin tamamı varış noktasıdır.
+
+Edatın yönettiği konumu dolduran {ar:عَذَابٍ, tr:ʿadhābin, gloss:azap/ceza}, mecrur, tekil ve belirsiz bir isimdir; zorlanmış hareketi ayrı bir eyleme değil, cezalandırıcı bir sonuca bağlar. Belirsiz biçim cezanın türünü ve miktarını açık bırakırken, olağan ceza anlamı varışı genel bir rahatsızlıktan daha belirgin kılar. Böylece cümle tek bir cezalandırıcı hedef kurar; özel bir hukukî usul tarif etmez, başka duyusal çağrışımlara da alan bırakır.
+
+Ardından gelen {ar:غَلِيظٍ, tr:ghalīẓin, gloss:ağır} sıfatı isimle aynı belirsiz ve genitif uyumu taşır; azap ile niteliğini iki ayrı varış değil, tek bir nitelikli hedef yapar. Sıfat ayrı bir olay başlatmaz. Sondaki niteleme cümle kapanırken hedefin ağırlığını sabitler: azap yalnızca bir ceza adı olarak değil, ağır niteliğiyle tamamlanır. Belirsizlik ağırlığın derecesini sayıya bağlamaz, fakat niteliği ortadan kaldırmaz.
+
+Olağan ağır ve çetin anlamı korunurken, {ar:غَلِيظٍ, tr:ghalīẓin, gloss:ağır} aynı kelime ailesindeki inceliğin karşıtı olan fiziksel kalınlık ve yoğunluk kullanımını da hedefe taşır; azap böylece dokunulur, kaba ve dirençli bir ağırlık kazanır. Açılıştaki {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} ile {ar:عَذَابٍ غَلِيظٍ, tr:ʿadhābin ghalīẓin, gloss:yoğun ve ağır bir azap} karşılaşınca hareket kısa ve hafif ilk evreden yoğun, ağır bir sona geçer; bu maddi kütle iddiası değil, ağırlık imgesidir. Bundan ayrı olarak, aynı kelime ailesinin insanın huyu, sözü veya davranışında sertlik ve kabalık bildiren kullanımı 31:22’deki iyi davranışla yan yana geldiğinde cezayı alıcıya yönelen sert muamele gibi duyurabilir (31:22). Bu ahlaki çağrışım cezayı niteleyen sıfata aittir, faili bir huyla tanımlamaz. İşin ya da cezanın olağanın üstünde güçlü ve çetin olması yönü de sertlik izlenimini artırır; cezanın nedeni ise açık kalır.
+
+Azap ismiyle onu izleyen sıfatın belirsiz genitif sonlanışları birlikte işitilince tek nitelikli hedef gibi kapanır; ayette sıfattan sonra durulması da ağırlığı son vuruşa taşır. Boğazdan gelen ġaynın tınısı ve kalın ẓâ vurgusu, sıfatın anlamına bağlı bir kapanış izlenimi verir; bu işitsel etki tek başına sesbilimsel anlam kanıtı değildir. Daha önceki belirsiz mansup {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} sonlanışı genitif kapanışlarla yankılanır: iki ayrı evrenin uçları sesçe bağlanır, ölçüden ağıra geçiş belirginleşir. Bu ses yankısı sözlük anlamını değiştirmeden iki evrenin arasındaki geçişi duyurur.
+
+## Yön, seçim ve hesap
+
+Hedefe yönelme, komşu ayetlerdeki irade farkıyla da keskinleşir (31:22). 31:22’de kişi yüzünü Allah’a yöneltir: {ar:يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ, tr:yuslim wajhahu ilā llāh, gloss:yüzünü Allah’a teslim eder}. {ar:وَهُوَ مُحْسِنٌۭ, tr:wa-huwa muḥsin, gloss:iyilik ederken} bu yönelişin iyi davranışla birlikte olduğunu belirtir; {ar:فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ, tr:faqadi stamsaka bil-ʿurwati l-wuthqā, gloss:sağlam kulpa tutunmuştur} ise sağlam tutamağa bağlanmayı görünür kılar (31:22). Yüzün yönü, iyi davranış ve tutunma böylece seçilmiş, güvenli bir hareket oluşturur (31:22). Bunun yanında {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile sunulan gerçek yarar erişilebilir bir iyiliktir, fakat kendi başına sağlam kulpa tutunmaya dönüşmez (31:22). {ar:نَضْطَرُّهُمْ إِلَىٰ عَذَابٍ, tr:naḍṭarruhum ilā ʿadhābin, gloss:azaba doğru mecbur bırakırız} ise yönü dayatır; son hareket seçimsizdir (31:24). {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} biçiminin başka bir kullanımındaki sıkıştıracak kadar yaklaşma, sağlam tutamak karşısındaki {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} yönelişi daralan bir eşiğe ilerleme gibi duyurabilir (31:22, 31:24). Bu karşılaştırma seçilmiş tutunma ile dayatılmış yönelişi yan yana getirir; neden-sonuç ilişkisi veya kişilerin özdeşliği ileri sürmez (31:22, 31:24).
+
+31:23’te dönüş, yapılanların bildirimi ve Allah’ın göğüslerin içindekini bilmesi hesap ufkunu kurar; 31:25’te sorulan yaratma sorusuna “Allah” denmesiyle birlikte çoğunun bilmediğinin vurgulanması bu çevreye bilgi ve bilinç sınırını ekler (31:23, 31:25). Bu iki yakınlık, {ar:نَضْطَرُّهُمْ إِلَىٰ, tr:naḍṭarruhum ilā, gloss:onları bir yöne mecbur bırakırız} hareketini nötr değil, istenmeyen ve zararlı bir sona yöneliş gibi çerçeveler (31:23, 31:25). Bu hesap ufkunda {ar:عَذَابٍ, tr:ʿadhābin, gloss:azap}, cezalandırıcı sonuç olarak belirir; türü açıklanmaz (31:23). Dönüş hesabın ufkunu açar, 31:24’teki zorunlu yöneliş ise ayrı bir varış kurar; ikisi aynı hedef değildir (31:23).
+
+31:21’de şeytan insanları ateş azabına çağırır; bunu 31:22’nin gönüllü ve sağlam tutunması, 31:23’ün dönüşü ve 31:24’ün {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} ile kurduğu zorunlu hareket izler (31:21, 31:22, 31:23). Bu dizide 31:24’ün mecburi varışı, 31:21’de adı konmuş yıkıcı rotanın olası kapanışı gibi duyulabilir; ateş azabı ile odaktaki ceza hedefi aynı türden bir sonu işaret eder (31:21). Bağlantı varış türündeki yakınlıktır; çağrının kabulü ya da tek bir nedensel zincir bu sıradan çıkarılamaz (31:21).
+
+31:15’te ebeveynin Allah’a ortak koşmaya yönelik şiddetli ve ısrarlı baskısı anlatılır; aynı ayet bu baskıya uyulmamasını buyurur ve Allah’a dönüşü anar (31:15). Bu insan zorlaması reddedilebilir; 31:24’teki {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} ise varış yönünü seçimsiz kılar (31:15). Karşılaştırma zorlamanın iki ayrı durumunu gösterir; olaylar nedensel olarak bağlanmaz, kişiler de özdeşleştirilmez; insan zorlaması, kaçınılmaz son ve doğrudan zarar arasındaki ağırlık dağılımı açık kalır (31:15). 31:15’teki dönüş ve hesap ufku, {ar:عَذَابٍ, tr:ʿadhābin, gloss:azap/ceza} hedefinin cezalandırıcı tonunu bu ayrı yöneliş içinde keskinleştirir (31:15).
+
+İrade karşılaştırmalarından ayrı olarak, 31:32 tehlike sonrasındaki yaşamı gösteren başka bir sahne açar (31:32). Üzerlerine gölgeler gibi kapanan dalgalar içinde insanlar dini yalnız Allah’a özgü kılarak O’na yakarır; karaya çıkarılmaları yaşamın yeniden sürmesini sağlarken içlerinden bazıları ölçülü davranır, bazılarıysa nankörleşip ayetleri inkâr eder (31:32). Bu kurtuluştan sonra süren yaşam, {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile verilen gerçek yararı kullanılabilir bir mühlet gibi düşündürür; kurtuluş son hesabı kapatmaz (31:32). Bu, 31:24’ten önce aynı kurtuluşun yaşandığı veya iki ayetteki insanların aynı olduğu iddiası değildir (31:32). Dalga örtüsünün yoğunluğu, {ar:غَلِيظٍ, tr:ghalīẓin, gloss:yoğun ve ağır} sıfatının kalınlık ve yoğunluk yönüne duyusal bir karşılık verir; böylece cezanın sert ve olağanın üstünde ağır oluşunu hissettirir, maddi biçimini ya da ölçüsünü belirlemez (31:32).
+
+## Yararın somut çağrışımları
+
+İhtiyaç anında işe yarayan somut bir şey düşüncesi, 31:22’deki sağlam kulpa tutunma imgesinden doğar (31:22). Bu imge, Form II biçimindeki {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} fiilinin kullanıma açık yarar yönünü bir süre işe yarayan pay gibi düşünmeye zemin verir (31:22). Bu yön {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} ve {ar:نَضْطَرُّهُمْ إِلَىٰ عَذَابٍ, tr:naḍṭarruhum ilā ʿadhābin, gloss:onları bir azaba doğru mecbur bırakırız} ile kurulan hedefle buluşunca güvence altındaki bir mülkten çok, zorunlu geçişte işe yarayan sınırlı bir pay gibi görünür (31:22). Aynı kelime ailesindeki azık kullanımı bu payı, geçimi veya yolculuğu bir süre sürdüren yetersiz bir yol azığı gibi duyurur. Buradaki yol azığı, gerçek bir sefer ya da eşya dökümü değil, yararın sınırlı süre kullanılabilir oluşuna dair bir benzetmedir.
+
+Yararlandırma ayrıca haz alma ve hoşnutluk yönü taşır. Form II biçimindeki {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile açılan erişilebilir ve hoş evreyi {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü}, ardından {ar:ثُمَّ, tr:thumma, gloss:sonra} ile gelen zorlama ve {ar:عَذَابٍ, tr:ʿadhābin, gloss:azap} hedefi sınırlar; böylece son, önceki erişimin karşı kutbu olur. Aynı kelime ailesindeki tatlı ve kolay tüketilen yiyecek içecek kullanımı bu hoşluğu duyusal olarak açar. Karşıtlık, cezalandırıcı {ar:عَذَابٍ, tr:ʿadhābin, gloss:ceza} ismini önceki haz veren yararın karşısına koyar; ayet bir yiyecek ya da tat adı vermediğinden azap olağan ceza anlamında kalır.
+
+Bu kelime ailesinin başka bir kullanımında birini bir işten alıkoyma vardır; sütten keser gibi uzaklaştırma da bu kullanımla ilişkilidir. Önce yararlandırıp ardından zorlamaya geçen ayet akışı, bu ailevi çağrışımı erişimin kesilmesi ve önceki nimetten uzak düşme yönünde etkinleştirir. Böylece alıkoyma veya sütten kesilme, yarardan kopuşu duyurur; odaktaki {ar:عَذَابٍ, tr:ʿadhābin, gloss:azap} ise isim olarak cezayı bildirir, bir alıkoyma fiili değildir.
+
+Başka bir bağlamda, 31:6’da oyalayıcı sözün satın alınması, Allah’ın yolundan saptırma ve ceza birlikte bulunur (31:6). {ar:لَهْوَ الْحَدِيثِ, tr:lahwa al-ḥadīth, gloss:oyalayıcı söz} dikkati başka bir yola çeker; 31:24’teki {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile verilen gerçek ama az pay da ardından gelen ceza ile birlikte kısa bir getiri-maliyet çizgisi düşündürür (31:6). 31:6’daki satın alma bilerek edinilmiş bir dikkat dağıtıcıdır; bu karşılaştırma odaktaki yarar ve cezanın da maliyetli bir kısa getiri gibi duyulmasını sağlar (31:6). 31:6’nın cezası ile 31:24’ün hedefi sonuç çizgisinde yan yana gelir, ancak odaktaki kişiler 31:6’daki alıcılarla bir tutulmaz ve odaktaki yarar o satın alımın karşılığı değildir (31:6).
+
+Dikkat dağıtan sözden bu kez yeryüzünün hareketine geçilir. 31:10’da köklü dağlar yeryüzünün sallanmasını önler; böylece sarsılan yer ile dağların sabitliği yan yana durur (31:10). Bu bağımsız görüntü, {ar:قَلِيلًا, tr:qalīlan, gloss:az ölçü} ile belirtilen aralığı sallantı ile sabitlik arasındaki geçici bir evre gibi düşündürür; azlık sözü bu sahnede sallanma anlamı kazanmaz (31:10). {ar:نَضْطَرُّهُمْ إِلَىٰ, tr:naḍṭarruhum ilā, gloss:onları bir yöne mecbur bırakırız} fiilinin başka bir kullanımındaki sıkıştıracak kadar yaklaşma, bu kez sallanan zemin içinde daralan bir yaklaşma gibi canlanır (31:10). Hedefteki {ar:غَلِيظٍ, tr:ghalīẓin, gloss:yoğun ve ağır} sıfatının fiziksel yoğunluğu da zorunlu yönelişe dirençli bir kuşatılma duyusu ekler. Bu, 31:10’la kurulan keşifsel bir duyusal benzetmedir; kasıtlı yankı iddiası veya cezanın maddi biçimi hakkında hüküm değildir (31:10).
+
+Yeryüzünün hareketinden farklı bir ölçeğe, yakın bir bakım ilişkisine geçildiğinde, 31:14’te emzirmenin ardından çocuğun sütten kesilmesini anlatan sahne aynı kelime ailesindeki kesilme çağrışımına somut bir tetik sağlar (31:14). Bu beslenme sahnesi {ar:نُمَتِّعُهُمْ, tr:numattiʿuhum, gloss:onlara yararlandırırız} ile açılan gerçek ve erişilebilir yararın ardından {ar:ثُمَّ, tr:thumma, gloss:sonra} ile gelen {ar:نَضْطَرُّهُمْ, tr:naḍṭarruhum, gloss:onları mecbur bırakırız} geçişini seçilmemiş bir ayrılığa yaklaştırır (31:14). Böylece önceki besleyici nimete erişimin zorla sona ermesi, cezaya doğru geçişteki kopuş duyusunu belirginleştirir (31:14). Odaktaki {ar:عَذَابٍ, tr:ʿadhābin, gloss:azap/ceza} cezayı bildirir; 31:14 ile 31:24 ayrı sahnelerdir ve 31:14’ün bunu önceden haber verdiği söylenmez (31:14). Sütten kesilme imgesi cezanın anlamını değiştirmeden, önceki besleyici iyiliğe erişimin kesilmesini görünür kılar (31:14).
+
+</editorial_prose>

@@ -20,9 +20,10 @@ prepare
   -> same consolidator validates the editorial prose again
   -> same consolidator repairs mechanical validator failures, up to 2 cycles
   -> close consolidator
-  -> render the middle-layer prompt from final editorial prose
+  -> script renders the hermetic middle-layer prompt from final editorial prose
+  -> send only the script-produced workspace-path launch message
   -> 1 fresh Luna max agent writes and validates middle prose plus claim ledger
-  -> same middle-layer agent receives the fixed audit follow-up verbatim
+  -> same agent receives only the fixed workspace-path follow-up message
   -> same middle-layer agent repairs and validates both outputs again
   -> close middle-layer agent without orchestrator output inspection
   -> render the invitation prompt from final editorial prose
@@ -641,7 +642,7 @@ python3 _commentary/v5/workflow.py prepare-middle \
   --analysis-id <analysis-id>
 ```
 
-The command writes:
+The command atomically writes the complete hermetic task prompt:
 
 ```text
 _commentary/v5/input/<analysis-id>/sNNN/S_A/middle-layer.prompt.md
@@ -655,37 +656,45 @@ _commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.middle.claims.json
 ```
 
 Start one fresh `gpt-5.6-luna` agent at `max` reasoning effort with no inherited
-conversation history. Its first message must be only the complete contents of
-the generated `middle-layer.prompt.md`. Do not prepend a launch explanation,
-append extra instructions, supply upstream scope or discovery material, reuse
-the CE session, or provide any ayah-specific advice. The filled prompt contains
-the complete editorial source, exact output paths, four audit passes, and both
-validator commands.
+conversation history. Its first message must be exactly the short
+`handoff.launch_message` emitted by `prepare-middle`. That message tells the
+agent to read and execute the generated `middle-layer.prompt.md` at its
+workspace path. Never open, copy, paste, quote, embed, summarize, or otherwise
+inject the prompt contents into the orchestrator conversation or the agent
+message. Do not prepend a launch explanation, append extra instructions,
+supply upstream scope or discovery material, reuse the CE session, or provide
+any ayah-specific advice. The file itself is the complete hermetic task: it
+contains the editorial source, exact output paths, four audit passes, and both
+validator commands. The agent must read that file completely before acting.
 
 When the first turn completes, do not open, read, search, summarize, diff,
 count, validate, or otherwise inspect either output. Do not use the agent's
 report to compose a correction. Regardless of the reported metrics or apparent
-quality, send the complete contents of this file to the same agent byte for
-byte, with no prefix or suffix:
+quality, send exactly the short `handoff.follow_up_message` emitted by
+`prepare-middle`, with no prefix or suffix. That fixed message tells the same
+agent to read and execute this canonical follow-up file directly from the
+workspace:
 
 ```text
 _commentary/v5/prompts/middle-layer-audit-followup.md
 ```
 
-This fixed second turn is mandatory. It makes the agent re-read the complete
+Do not paste the follow-up file into either conversation. This fixed second
+turn is mandatory. The canonical file makes the agent re-read the complete
 prompt, editorial source, prose, and ledger; repeat the atomic-coverage,
 synthesis, truth-condition, reader-clue, and Turkish-flow audits; repair only
-the same two outputs; and rerun both validators. The follow-up is identical for
-every ayah and must never be customized from output inspection.
+the same two outputs; and rerun both validators. The path message is identical
+for every ayah and must never be customized from output inspection.
 
 After the second turn, close the middle-layer agent. There is no third message,
 bespoke repair turn, separate reviewer, or orchestrator-run validator. The
 orchestrator may record only whether the agent reports both validators as `ok`
 and whether its turn completed; it does not independently verify those claims
 or inspect prose, ledger, metrics, citations, anchors, or diffs. If the agent
-reports an unresolved failure, report the stage as needing attention. A future
-retry starts a fresh Luna max agent from the same filled prompt and repeats the
-same fixed two-turn protocol; it does not receive a failure-specific hint.
+reports an unresolved failure, report the stage as needing attention and stop.
+There is no retry, rerun, relaunch, resend, or failure-specific repair path in
+this protocol. A launch failure likewise ends the stage without an agent
+replacement.
 
 This stage has no separate monitor lifecycle role. Existing canonical and
 invitation events remain operational status only and do not certify
@@ -830,8 +839,9 @@ exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
 editorial follow-up and qualification/image presentation follow-up. Each ayah
 remains an independent workflow with its own scope agents, consolidator, fresh
 middle-layer agent, invitation agent, paths, and Git-visible outputs. As soon as
-an ayah's CE stage completes, render and launch its middle-layer prompt, wait
-for that agent's first turn, and send the fixed audit follow-up verbatim without
+an ayah's CE stage completes, render its hermetic middle-layer prompt and send
+only the returned workspace-path launch message. Wait for that agent's first
+turn, then send only the fixed workspace-path follow-up message without
 inspecting either output. After its second turn closes, render and launch the
 invitation. Do not wait for CE or middle-layer work to finish on the other ayat.
 
@@ -870,7 +880,10 @@ indefinitely.
   only its two exact target paths and rely on the fixed two-turn protocol and
   agent-reported completion status.
 - Never send a middle-layer agent an ayah-specific hint, output-derived
-  correction, third turn, or non-verbatim audit follow-up.
+  correction, third turn, inlined prompt, inlined follow-up, or message other
+  than the two exact path messages returned by `prepare-middle`.
+- Never retry, rerun, relaunch, or replace a failed middle-layer agent. Report
+  the stage as needing attention and stop its sequence.
 - If a launched agent terminates before appending its final lifecycle event,
   leave its start event incomplete. That is how the dashboard identifies a
   possible stall.
@@ -884,6 +897,7 @@ indefinitely.
 - Never fabricate `completed` from the presence of a response alone.
 - Event messages must be short operational descriptions. Never put prose,
   evidence, prompts, or model reasoning in event logs.
-- A rerun starts a new lifecycle with a new `started` event and receives the
-  next attempt number automatically. Do not close or overwrite the earlier
-  attempt to make the dashboard look successful.
+- For stages where this runbook explicitly permits a rerun, it starts a new
+  lifecycle with a new `started` event and receives the next attempt number
+  automatically. This rule never authorizes a middle-layer rerun. Do not close
+  or overwrite the earlier attempt to make the dashboard look successful.

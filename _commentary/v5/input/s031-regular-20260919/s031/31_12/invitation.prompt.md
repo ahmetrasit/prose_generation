@@ -1,0 +1,213 @@
+# V5 reading invitation — 31:12
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_12/31_12.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_12/31_12.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Armağanın Alıcısı
+
+Âyet önce gerçekleşmiş bir bağışı bildirir. Açılıştaki {ar:وَلَقَدْ, tr:wa-laqad, gloss:vurgulu başlangıç} içindeki wa anlatım akışını sürdürür; önceki âyetin ne anlattığını tek başına belirlemez. Vurgu lâmı {ar:لَ, tr:la, gloss:vurgu lâmı} ile {ar:قَدْ, tr:qad, gloss:gerçekleşmişliği pekiştiren edat}, geçmiş biçimli {ar:ءَاتَيْنَا, tr:ātaynā, gloss:verdik} fiilini birlikte kuvvetlendirir; bu birleşim yeni bir nesne ya da katılımcı eklemez. Luqman’a verilen armağan, insanın sonraki karşılığından önce tamamlanmıştır. Ne miktarı ne de daha sonra nasıl kullanılacağı bu cümlede belirlenir. Açılıştaki lâm ile ileride göreceğimiz {ar:لِ, tr:li, gloss:yönelme ya da yarar edatı} aynı harftir ama aynı işi yapmaz: ilki qad ile bildirimi vurgular, ötekiler isimlerle yönelme veya yarar ilişkisi kurar.
+
+{ar:ءَاتَيْنَا, tr:ātaynā, gloss:verdik} IV. bâbın tamamlanmış biçimidir ve iki aktarım ilişkisi kurar: Allah verendir, {ar:لُقْمَٰنَ, tr:Luqmān, gloss:Luqman} alıcıdır, {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik} ise verilen içeriktir. Belirli tanımlık, bu olayda verilen içeriği hikmet olarak belirler; hikmetin bütün kapsamı açık kalır. Luqman adı, belirsiz ve önceden var olan bir payeden çok armağanın gerçek alıcısını gösterir. Fiilin olağan anlamı “vermek” olarak kalır. Aynı söz ailesindeki ayrı geliş ve ulaşma alanı, alıcının Luqman ve taşınan şeyin hikmet oluşuyla birleşerek armağanın alıcıya eriştiğini duyurur; yankı yalnız bu erişimi belirginleştirir, ayrı bir yolculuk ya da kolaylık anlatısına dönüşmez. Adın kulağa dayalı lokma ve yutma çağrışımı, hikmeti içe alınan bir içerik gibi hissettirir; bu ses oyunu adı “lokma” diye çevirmeden ve hikmeti gerçek yiyecek saymadan çalışır. Âyet Luqman’ı burada armağanın alıcısı olarak tanıtır; ötesinde bir yaşamöyküsü vermez.
+
+Odaktaki {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik} sözü olağan anlamıyla bilgeliktir; arkasındaki {ar:أَنِ, tr:ani, gloss:açıklama ya da mastar bağlacı}, bu bağışı birinci bâbın {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} emir biçimine bağlar. Bağlacın açıklayıcı veya mastar biçiminde okunması, hikmetten emre geçişi korur; kıraatteki sesli bağlanma değişikliği iki okumada da cümle yapısını ve hedefi korur, fark ilişkinin duyuluşundadır. Böylece verilmiş hikmet, adlandırılmış bir paye olarak kalmayıp Allah’a yöneltilen şükürle uygulanır. Bu yakınlık, emrin hikmetin yaşama geçen yönünü gösterir ama hikmetin bütün anlamını tüketmez; metin burada önceden yaşanmış tartışmayı değil, armağanın yöneldiği buyruğu öne çıkarır.
+
+## Hikmetin Yönü
+
+{ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik} bilgi ve usla doğruyu yanlıştan ayırıp doğru olana ulaşma anlamıyla, hemen arkasındaki bağımsız emirle birlikte eylemi yöneten bir ayırt etme yetisi gibi belirir. {ar:ح ك م, tr:ḥ-k-m, gloss:hüküm ve yönetme alanı} alanındaki ayrı bir kullanım zararlı yönelişi alıkoyup geri çevirerek ıslah etmeyi anlatır; bu temas, {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} emriyle karşısına çıkan {ar:كَفَرَ, tr:kafara, gloss:nankörlük etti} arasında seçme ve yanlış yönü tutma işini görünür kılar. Aynı alandaki gem, hayvanın çenesini kuşatıp koşmasını ve denetimsiz ilerlemesini sınırlar; bu bedensel tutuş özdenetimi duyulur kılar. Gem imgesi hikmetin sözlük anlamını değiştirmez: odaktaki katkısı hayvan ya da yargı sahnesi kurmak değil, ayırt etmenin taşıdığı sınırı bedende hissettirmektir.
+
+Bu ayırt etme 31:13’te aile içindeki öğütte somutlaşır. {ar:يَٰبُنَىَّ, tr:yā bunayya, gloss:ey oğulcuğum} hitabı baba-oğul bağını kurar; Luqman oğluna {ar:لَا تُشْرِكْ بِٱللَّهِ, tr:lā tushrik bi-llāh, gloss:Allah’a ortak koşma} der. {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik}nin doğru yönü seçen yanı, bağlılığın bölünmesine karşı sınır çizer. {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah’a} ile yasağın bağlandığı Allah adı aynı özel addır; bu yankı bağlılığı ibadete yöneltir, sözcüğün kökenini açıklamaz ya da onu genel “ilah” karşılığına çevirmez. Hitap öğüdü ve baba-oğul bağını kurar; oğlun sonraki düşüncesi ve cevabı açık bırakılır.
+
+Oğula seslenen {ar:يَٰبُنَىَّ, tr:yā bunayya, gloss:ey oğulcuğum} hitabı, aynı kökle ilişkili parçaları birleştirip bina etmeyi anlatan ayrı bir kullanımı çağrıştırarak öğüdün biçim verici yönünü duyurur; oğul sözcüğünün olağan anlamı bu çağrışımla değişmez. 31:13’teki {ar:لَظُلْمٌ عَظِيمٌ, tr:la-ẓulmun ʿaẓīm, gloss:büyük bir haksızlık} büyük bir haksızlığı adlandırır; zulmün başka bir kaynak kullanımındaki “yanlış yere ya da zamana koyma” imgesi, ortak öğüt yapısına yönün bozulduğunu düşündüren bir benzetme ekler, âyetin sözlük anlamı olmaz. {ar:وَهُوَ يَعِظُهُۥ, tr:wa-huwa yaʿiẓuhu, gloss:ona öğüt verirken} olağan anlamıyla Luqman’ın oğluna öğüdünü verir; bu uyarı içindeki hatırlatma ve kalbi yumuşatma yönü, sözü daha içten işittirir. Bu bağlam için söz konusu yankının ötesinde doğrulanmış bir kök ve biçim çözümlemesi yoktur.
+
+{ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik} yön verme imgesiyle 31:18 ve 31:19’da yüz, yürüyüş ve sesin düzenlenişine uzanır. {ar:وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ, tr:wa-lā tuṣaʿʿir khaddaka li-l-nās, gloss:insanlara yanağını çevirip yüzünü ekşitme} ile {ar:وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا, tr:wa-lā tamshi fī al-arḍi maraḥā, gloss:yeryüzünde böbürlenerek yürüme} önce yüzün ve boynun yönelişini, sonra böbürlenen yürüyüşü düzenler. {ar:وَٱقْصِدْ فِى مَشْيِكَ, tr:wa-qṣid fī mashyik, gloss:yürüyüşünde ölçülü ol} adımı durdurmak yerine aşırılıklar arasında ölçer; {ar:وَٱغْضُضْ مِن صَوْتِكَ, tr:wa-ghḍuḍ min ṣawtik, gloss:sesini alçalt} ise sesi kısmayı ister ve {ar:إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ, tr:inna ankara al-aṣwāti la-ṣawtu al-ḥamīr, gloss:seslerin en çirkini eşeklerin sesidir} sözü bu ölçünün duyulur sonucunu verir. Yüzün yönü, adımın dengesi ve sesin alçaltılması, gem imgesindeki sınırlandırmayı üç gündelik kanala taşır: bedenin duruşu, hareketi ve işitilen etkisi. Bu aktarım hikmetin soyut yönünü gündelik ölçüye çevirir; gemle beden arasında ayrıntılı kök-konum eşleştirmesi kurmaz ve bu buyruklar hikmetin tek, tam mekanizması değildir.
+
+## Şükrün Adresi ve Karşılığı
+
+Az önce gündelik davranışta yönünü gördüğümüz hikmetin ilk açık karşılığı, {ar:أَنِ ٱشْكُرْ لِلَّهِ, tr:ani ushkur li-llāhi, gloss:Allah’a şükret} buyruğunda Allah’a yönelir. Buyruktaki {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah’a} içindeki li, Allah adını mecrur biçimde şükrün açık hedefi yapar. Böylece şükür adsız bir iç hâl değil, yöneltilmiş karşılıktır; edat tek başına ibadetin bütün boyutlarını anlatmaz. Allah, Yaratıcı’yı başkalarından ayıran özel addır. Bu adın şükür emriyle ve 31:13’teki ortak koşma yasağıyla buluşması, aynı hedefteki bağlılığı bölünmez kılar; bu yerel yankı adı türetmez.
+
+Odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğunun kaynağı tanıma yönü başka alıcılara ve karşılıklara bakınca belirginleşir. Davut ile Süleyman’a bilgi verildikten sonra 27:15’te {ar:ٱلْحَمْدُ لِلَّهِ, tr:al-ḥamdu li-llāh, gloss:hamd Allah’adır} denir. Süleyman 27:19’da kendisine ve anne babasına verilen nimeti anarak {ar:أَنْ أَشْكُرَ نِعْمَتَكَ, tr:an ashkura niʿmataka, gloss:nimetine şükretmem} ve {ar:أَنْ أَعْمَلَ صَٰلِحًا, tr:an aʿmala ṣāliḥan, gloss:salih iş yapmam} diye dua eder. 27:40’ta {ar:أَشْكُرُ أَمْ أَكْفُرُ, tr:ashkuru am akfuru, gloss:şükredeyim mi nankörlük mü edeyim} sorusu alınan nimeti sınav olarak kurar; yarar şükredene döner, veren ihtiyaçsız kalır. Karşıt örnekte 2:258’de Allah’ın hükümranlık verdiği hükümdar kudreti kendine mal edip {ar:أَنَا۠ أُحْىِۦ وَأُمِيتُ, tr:anā uḥyī wa-umītu, gloss:ben yaşatır ve öldürürüm} der. {ar:ح ك م, tr:ḥ-k-m, gloss:hüküm ve yönetme alanı} içindeki zararlı yönelişi alıkoyup geri çevirme kullanımıyla, şükrün verilmiş gücü kendine mal etmeyi frenleyişi arasındaki bağ benzetme düzeyindedir; bu, sözcüğün doğrudan anlamı değildir. Bu örnekler doğru kaynağı tanıyıp uygun karşılık verme yönünü açar; 2:258’deki hükümdar, verilen kudreti kendine mal etmenin karşı örneği olarak kalır. Karşılaştırma Luqman hakkında hüküm vermez: başka alıcılara verilen bilgi Luqman’ın hikmeti değildir ve Luqman Süleyman’la özdeşleşmez.
+
+Odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğu iyiliği ve iyilik yapanı tanımayla başlar; bu tanıma sözle duyurulabilir, övgüde görünür olabilir veya alınan nimete uygun bir işe dönüşebilir. Süleyman’ın 27:19’daki duası tanımayı salih iş dileğiyle yan yana getirir; 34:13’te Davut ailesine {ar:ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا, tr:iʿmalū āla dāwūda shukrā, gloss:ey Davut ailesi, şükür olarak çalışın} buyurulur. Böylece şükür etkin karşılık olarak da okunur. 31:12’deki yalın emir bu örneklerle çalışmaya daralmaz: içten tanıma ve sözle şükür de karşılık olarak kalır; emir doğrudan şükür çağrısıdır, sebep bildiren bir fiil ya da kendiliğinden büyüme vaadi değildir.
+
+Odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğu etkin bir karşılık taşır; aynı söz ailesindeki körpe sürgün kullanımı ise gövdenin ya da ağacın dibinden yeni oluşun belirmesini anlatır. Verilmiş hikmet ve yararın şükredene dönmesiyle bu sürgün imgesi buluştuğunda, alınan iyiliğin alıcıda görünür gelişmesini duyurur; ağaç ve ürün odağın sahnesine değil, yankıya aittir. Başka bir kullanım az girdiden belirgin gelişmeyi—az yemle gelişen hayvanı ya da az yağmurla yeşeren filizi—gösterir. Ayrı bir dal da ürünün veya içeriğin bollaşmasını öne çıkarır. İlki az girdiyle gelişmeyi, ikincisi çıkan ürünün çokluğunu anlatır; böylece yararın iki ayrı yönü duyulur, tek ve genel bir büyüme anlamına kapanmaz.
+
+31:10 bu gelişme imgesinin işlemlerini görünür kılar: {ar:أَنزَلْنَا, tr:anzalnā, gloss:indirdik} suyu aşağıya gönderir, {ar:مَاءً, tr:māʾan, gloss:su} bitkinin gelişeceği ortamı sağlar ve {ar:فَأَنۢبَتْنَا, tr:fa-anbatnā, gloss:bitkileri yeşerttik} gözle görülen yeşermeyi başlatır. Bu iniş, su ve bitki sırası az girdiden belirgin gelişme kolunu somutlaştırırken, 14:7’deki {ar:لَأَزِيدَنَّكُمْ, tr:la-azīdannakum, gloss:sizi elbette artıracağım} vaadi artış kolunu açar. Odaktaki {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} yararın alıcısını bildirir; nefsin yaşayan bireyi de adlandırabilmesi, verimin kendisine ulaştığı kişiyi belirginleştirir. “Az girdi” buradaki gelişme imgesinin karşılaştırma eksenidir, yağış miktarına ilişkin bir ölçü değildir; 31:10 yağmurun miktarını vermez. Bitki, su ve artış sahneleri yaşayan alıcıya ulaşan etkiyi görünür kılar; biyolojik bir açıklama sunmaz.
+
+## Yararın Kendine Dönüşü
+
+Yararın hangi alıcıya döndüğü, koşul cümlelerinde genel bir kurala bağlanır. Luqman belirli armağanın alıcısıdır; ardından gelen {ar:وَمَن يَشْكُرْ, tr:wa-man yashkur, gloss:kim şükrederse} içindeki man, karşılık kuralını herkese açar. İkinci dalı başlatan wa ile {ar:وَمَن كَفَرَ, tr:wa-man kafara, gloss:kim nankörlük ederse} aynı çerçeveye eklenir: şükür ve nankörlük birbirine karşıt iki seçimdir, biri ötekinin ardından gelen aşama değildir. Şükür fiili {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} emrinden {ar:يَشْكُرْ, tr:yashkur, gloss:şükrederse} koşul biçimine, oradan {ar:يَشْكُرُ, tr:yashkuru, gloss:şükreder} yanıtının bildirici, merfû biçimine ilerler. Man’dan sonra ilk fiil cezm alarak seçilebilir eylemi gösterir; yanıt biçimi onu sonuç diye bildirir. Bu basamaklar aynı köke ait olsa da dilbilgisel görevleri ayrıdır ve sonuç şükrün miktarını ölçmez.
+
+İlk koşulun yanıtını başlatan {ar:فَ, tr:fa, gloss:sonuç bağlacı}, “şükreden olursa ne olur?” sorusunu kendi sonucuna bağlar. {ar:إِنَّمَا يَشْكُرُ لِنَفْسِهِۦ, tr:innamā yashkuru li-nafsihi, gloss:ancak kendi nefsi için şükreder} şükrün yararını aynı eyleyene sınırlar: “kim şükrederse” diye açılan kişi yanıtta da eyleyen kalır, nefse eklenen iyelik eki de bu dönüşün yerini onun kendi benliği yapar. Odaktaki {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah’a} içindeki ilk li şükrü Allah’a yöneltirken ikinci li, nefsin önünde yararın vardığı yeri gösterir. Aynı edatın bu iki işlevi dışa yönelen karşılık ile içe dönen yarar arasında bir ayna kurar; böylece yarar şükreden kişide kalır, Allah’a geri ödeme ilişkisi kurulmaz. İlk olumlu koşulun son içerik sözcüğü olan nefsihi, ardından gelen {ar:وَمَن كَفَرَ, tr:wa-man kafara, gloss:kim nankörlük ederse} yeni genel koşulu açmadan önce bu yerel düşünceyi kapatır. Bu gözlem ilk koşuldaki nefsihi'nin yerel işleviyle sınırlıdır; tek başına daha geniş bir Kur’anî benlik örüntüsünü kanıtlamaz.
+
+Buradaki {ar:نَفْسِهِۦ, tr:nafsihi, gloss:kendi nefsi} için öne çıkan anlam kişinin kendisi, benliği veya iç yaşamıdır. Aynı söz ailesindeki nefes alıp verme ve sıkıntıyı hafifletme kullanımları, {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğuyla alınmış iyiliği tanımanın ve yararın benliğe dönmesinin yanına gelince içeri girip çıkan nefes ve yükü hafifleten ferahlık imgesi verir. Böylece yararın kendine dönüşü bedensel bir açılma gibi hissedilebilir. Bu yankı odakta somut bir solunum, içecek ya da klinik durum sahnesi kurmaz; nefsin ve şükrün olağan anlamını koruyarak bedensel ferahlık hissiyle sınırlı kalır.
+
+{ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} ile ifade edilen kendine dönüş, özel çıkar yerine kendi eyleminin karşılığını üstlenme olarak da genişleyebilir. 29:6’da çabanın kişinin kendi nefsi için olduğu ve Allah’ın âlemlerden müstağni kaldığı belirtilir; 41:46 ve 45:15’te iyi işin yapanına, kötülüğün de kendi failine döndüğü söylenir. Bu paraleller, 31:12’deki öz-yarar ilkesini sorumluluk içinde konumlandırır; şükür çabayla özdeşleşmez, her eylem için de tek tip sonuç çıkarılmaz. Nefsin daha içsel ahlaki boyutu keşifsel bir genişlemedir: odakta ifade önce eyleyen kişinin kendisini gösterirken, 59:19’daki Allah’ı unutup kendilerini unutanlar ve 75:2’deki kendini kınayan nefis, bu yararı vicdan ve öz-farkındalıkla düşünmeye açar. Bu temas nefsin odakta doğrudan “düşünce” olduğu anlamına gelmez; düşünce, niyet veya kişiye özgü bilgi, kişinin kendine dönen karşılığının iç boyutları olarak olasılık düzeyinde ilişkiye eklenir.
+
+Odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} çağrısının {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} yararı kişiye dönerken onu ilişkilerinden koparmaz. 31:14 annesinin çocuğu {ar:حَمَلَتْهُ أُمُّهُ وَهْنًا عَلَىٰ وَهْنٍۢ, tr:ḥamalathu ummuhu wahnan ʿalā wahn, gloss:annesi onu güçlük üstüne güçlükle taşıdı} diye taşımasını, ardından {ar:وَفِصَالُهُۥ فِى عَامَيْنِ, tr:wa-fiṣāluhu fī ʿāmayn, gloss:iki yılda sütten kesilmesini} anlatır. Taşımaya eşlik eden yinelenen zayıflık ve güçlük bakımın bedensel yükünü, sütten kesilme ise taşınmadan ayrılmaya geçişi gösterir. Ardından gelen {ar:أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ, tr:ani ushkur lī wa-li-wālidayk, gloss:bana ve anne-babana şükret} buyruğundaki li, Allah’ı ve anne-babayı ayrı hedefler olarak şükrün kapsamına katar. Bu yakın sahne, odaktaki şükrü alınmış bakımın ve bakım verenin tanınmasına genişletir; ebeveynler 31:12’nin kendi sahnesinde değil, 31:14’ün bağlamındadır. Allah’ın {ar:غَنِىٌّ, tr:ghaniyyun, gloss:hiçbir şeye muhtaç olmayan} oluşu şükrün O’ndaki bir eksiği kapatmadığını, yararın ise alıcıya döndüğünü açıklar; Allah ile anne-baba ayrı muhataplardır.
+
+31:14’teki bakım anlatısı, odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğunun ailede yöneldiği karşılığı gösterir; şükür burada gerçekleşmiş sonuç değil, istenen eylemdir. Odaktaki {ar:حَمِيدٌ, tr:ḥamīdun, gloss:övülmeye layık} Allah’ı övgüye layık niteler. Hamdın yermenin karşıtı olma yönü Allah hakkındaki bu olumlu niteliği, iyilik için teşekkür etme yönü ise 31:14’te bakımın ardından gelen emri aydınlatır; sıfat, insanın şükür eylemiyle aynı şey değildir. Odaktaki {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} ile kişinin kendisine dönen yarar, bağımlılığını hatırlayan, ilkesini koruyan ve bakım ilişkisini sürdüren bir benlik olarak duyulur. Taşıma, güçlük, sütten kesilme ve şükür buyruğu birlikte bağımlılığın biçim değiştirişini gösterir; bu anlatı dizisi ayrıca kök eşleştirmesi kurmaz.
+
+31:15 bu yakınlığın içindeki sınırı belirginleştirir. {ar:فَلَا تُطِعْهُمَا أَن تُشْرِكَ بِى, tr:fa-lā tuṭiʿhumā an tushrika bī, gloss:bana ortak koşma çağrısında ikisine itaat etme} zararlı isteğe uymamayı söyler; ardından {ar:وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًا, tr:wa-ṣāḥibhumā fī al-dunyā maʿrūfan, gloss:dünyada onlarla uygun ve güzel biçimde geçin} iyi muameleyi ve refakati sürdürür. Bu iki buyruk ilişkiyi birlikte düzenler: şirk çağrısına sınır konurken iyi arkadaşlık korunur. {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik}deki geri çevirme yönüyle bu örnek arasında ölçülü sadakat bağı kurulabilir; ebeveynin yasağı odaktaki hikmetin bir uygulaması da, daha genel bir ilkenin örneği de olabilir. 31:14’ün bakım anlatısı ile 31:15’in sınır ve refakat buyruğu iki ayrı yakın bağlamdır; aralarındaki ilişki bağlamsaldır, bu yüzey ayrıntıları için ayrıca kök eşleştirmesi ileri sürülmez.
+
+Odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} çağrısının {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} yararı aile içinde yaşansa da kişinin karşılığı başkasına devredilemez. 31:33’te ne ebeveyn çocuğun yerine ne çocuk ebeveynin yerine karşılık verebilir; {ar:يَجْزِى, tr:yajzī, gloss:karşılık verir} ile {ar:جَازٍ, tr:jāzin, gloss:karşılık veren} aynı kökün ayrı biçimleridir. Yanlarındaki daha keşifsel “kesme” kullanımı, gerçek bir kesme eyleminden çok, vekâletin aktarım kanalını kapatan bir imge sağlar. {ar:وَالِدٌ, tr:wālidun, gloss:ebeveyn} ile {ar:وَلَدٌ, tr:waladun, gloss:çocuk} doğum ve soy bağının iki yönünü gösterir; yakınlık vekâlet yerine geçmez. 46:15’teki dua Allah’a nimeti için şükretmeyi, ebeveynlere iyiliği, salih işi ve sonraki kuşak için iyilik dilemeyi bir araya getirir; kişisel sorumluluk böylece ilişki içinde kalır. 31:33 genel bir yargı günü uyarısı da olabilir; 46:15 burada ayrı bir dua olarak yankılanır, doğrudan bir bağ kurulmuş değildir.
+
+## Örtülen ve Gizli Kalan
+
+Aile bağındaki vekâletsizlikten sonra, 31:12’deki ikinci koşulun birinci bâbdaki geçmiş biçimi {ar:كَفَرَ, tr:kafara, gloss:nankörlük etti} alınmış nimeti yadsıma ve değerini örtme yönünde işler; karşısındaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} ayrı bir eylemdir. Bu ahlaki zıtlık 31:12’nin kendi koşullarında kurulur; 14:7’deki artış vaadi onun kaynağı değildir. Kafara’nın başka bir kullanımında çiftçi tohumu toprağa koyup üzerini örter; bu örtme, görünür gelişmenin gömülü yanını düşündürerek nimetin değerini örtme imgesine katkı verir. Odak âyetin sahnesi tarım değil, karşıt iki tutumdur. 31:14’te alınan anne bakımını reddetme bu yankıyla düşünülebilir; benzetme her itaatsizliği bakımın reddi saymaz.
+
+{ar:كَفَرَ, tr:kafara, gloss:nankörlük etti} ile açılan örtülme imgesi, 31:16’daki hardal tanesiyle gizli nesnenin küçücük ölçeğine taşınır. {ar:حَبَّةٍۢ مِّنْ خَرْدَلٍۢ فِى صَخْرَةٍ, tr:ḥabbatin min khardalin fī ṣakhratin, gloss:kayanın içindeki hardal tanesi} sert kayanın içindeki küçücük taneyi gösterir; {ar:يَأْتِ بِهَا ٱللَّهُ, tr:yaʾti bihā Allāhu, gloss:Allah onu getirir} gizli kalanın silinmediğini ve Allah’ın onu ortaya getirdiğini söyler. Bu görüntü, {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} ile anlatılan yararın hemen görünmeyip çok küçük ölçekte saklı kalabilmesini düşündürür. 31:16 genel hesap verebilirliği de anlatıyor olabilir; hardal tanesi doğrudan şükür ya da nankörlük diye adlandırılmaz. {ar:لَطِيفٌ خَبِيرٌ, tr:laṭīfun khabīr, gloss:Latif ve her şeyden haberdar} nitelemesi, kayanın içindeki küçücük şeyin de bilinebilirliğini vurgular. 31:14’te bakım alanın şükre çağrılması ile Allah’ın {ar:غَنِىٌّ, tr:ghaniyyun, gloss:hiçbir şeye muhtaç olmayan} oluşu, alan ile karşılığa muhtaç olmayan vereni ayırır; 31:16’da gizli taneyi bilip ortaya çıkarma bu asimetriyi başka ölçekte duyurur, taneyi bakımın gizli karşılığına dönüştürmeden. Tanenin canlı oluşu küçük ama canlı bir potansiyeli de taşır; bu ayrıntı ayrıca bir kök yorumu getirmez.
+
+31:16’daki gizli tane ile 31:10’daki gelişme iki ayrı işlemi görünür kılar: ilkinde Allah kayanın içindeki şeyi ortaya getirir, ikincisinde su inişi ve bitki yeşermesi büyümeyi kurar. Hardal tanesi kendi sahnesinde gizli kalan nesnedir; bu görüntü odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğunun ya da yağmurun yerine geçmez. Bunun yanında odağın verme fiiliyle bir varış yankısı oluşur: 31:12’deki {ar:ءَاتَيْنَا, tr:ātaynā, gloss:verdik} IV. bâb biçimi {ar:لُقْمَٰنَ, tr:Luqmān, gloss:Luqman} alıcısına {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik} armağanını aktarırken, 31:16’daki {ar:يَأْتِ بِهَا, tr:yaʾti bihā, gloss:onu getirir} aynı kökün ayrı biçimiyle gizli olanı ulaştırır. Ortak kök armağan ile ortaya çıkarma arasında bu erişim temasını kurar; odaktaki fiilin olağan “vermek” anlamı yerinde kalır.
+
+Veriş yönünü tersine çeviren deneysel bir ekonomik karşı-imge de belirir. {ar:ءَاتَيْنَا, tr:ātaynā, gloss:verdik} olağan anlamıyla Allah’tan Luqman’a hikmet aktarır; aynı söz ailesindeki vergi veya haraç kullanımı ise kişi ya da topluluğun yönetime para ödemesiyle akışı tersine çevirir. Bu imgeyi bağımsız olarak {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğu, {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} yararın kişiye dönmesi ve Allah’ın {ar:غَنِىٌّ, tr:ghaniyyun, gloss:hiçbir şeye muhtaç olmayan} oluşu tetikler: ödeme otoriteye geri dönecekmiş gibi görünürken âyet kazancı alıcıda bırakır ve vereni karşılığa muhtaç kılmaz. Böylece şükür bedel değil, alınmış iyiliğin tanınması olarak duyulur. Karşı-imge yalnız akış yönünü karşılaştırır; 31:12’de gerçek vergi, rüşvet, hukukî ödeme ya da Allah’a sunulan bir karşılık ilişkisi kurulmaz.
+
+## İhtiyaçsız Kaynak
+
+İki koşulun yanıtı fa ile başlar, fakat farklı sonuçları öne çıkarır. Şükür kolundaki {ar:فَإِنَّمَا, tr:fa-innamā, gloss:öyleyse ancak} yararın şükredene dönüşünü sınırlar; nankörlük kolundaki {ar:فَإِنَّ, tr:fa-inna, gloss:öyleyse gerçekten} ise Allah’ın niteliğini bildiren vurgulu cümleyi açar. Böylece ilk yanıt insanın karşılığını, ikincisi veren hakkındaki beyanı taşır. Allah adı önce {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah’a} içinde şükrün hedefi olarak mecrur, sonra {ar:إِنَّ ٱللَّهَ, tr:inna Allāha, gloss:şüphesiz Allah} içinde inna’dan sonra mansub ve iki kapanış yükleminin açık öznesi olur. Görev ve çekim konumu değişirken merci aynı kalır. İnna’nın vurgusu cümlenin iki yüklemine yönelir; koşuldaki kişinin eylemi bu vurgunun nedeni değildir. Koşul insanı olası eyleyen olarak kurarken, ardından gelen ad cümlesi Allah’ın süreğen niteliğini bildirir; bu sıfatlar tek bir koşul öznesine bağlı kalmaz. Allah, hem {ar:غَنِىٌّ, tr:ghaniyyun, gloss:hiçbir şeye muhtaç olmayan} hem {ar:حَمِيدٌ, tr:ḥamīdun, gloss:övülmeye layık} sıfatının açık öznesidir.
+
+İlk sıfat, Allah’ın insan şükründen önce de var olan ihtiyaçsızlığını bildirir ve nankörlük karşısında da aynı kalır; insanın seçimi ise kendisi için sonuç taşımayı sürdürür: şükreden yarar görür, nankörlük eden kendi seçiminin sonucunu üstlenir. {ar:غَنِىٌّ, tr:ghaniyyun, gloss:hiçbir şeye muhtaç olmayan} söz ailesi bolluk ile ihtiyaçtan uzaklığı kapsayabilir; burada nefsin yararı ve nankörlük koşuluna verilen cevap, maddî zenginlikten çok hiçbir karşılığa muhtaç olmama yönünü öne çıkarır. Cümle bu ihtiyaçsızlığı vurgular; ne maddî bolluk ne de armağanın niceliği hakkında hüküm verir.
+
+Odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğu ile {ar:غَنِىٌّ, tr:ghaniyyun, gloss:hiçbir şeye muhtaç olmayan} niteliği arasındaki ödeme ayrımı, verişin yönüyle belirginleşir: Allah hikmeti Luqman’a verir, {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} ile bildirilen yarar şükredenin nefsine döner; ihtiyaçsız verene geri ödeme gerekmez. Şükür söz ailesindeki ayrı “yeterli olma, yarar sağlama” kullanımı hediyenin alıcı için faydasını öne çıkarır; burada anlatılan, zenginleştirme ya da başka bir şeyin yerini tutma değil, alınan nimetin yararıdır. Önceki haraç karşı-imgesinde para otoriteye giderken, odaktaki akış Allah’tan Luqman’a, yararı da alıcıya yöneltir; bu nedenle karşı-imge gerçek ödeme değil, yön farkını görünür kılan benzetmedir.
+
+Son sıfat {ar:حَمِيدٌ, tr:ḥamīdun, gloss:övülmeye layık}, {ar:غَنِىٌّ حَمِيدٌ, tr:ghaniyyun ḥamīdun, gloss:muhtaç olmayan ve övülmeye layık} çiftinde ikinci yüklem olarak gelir. Kapanış hem nankörlüğün Allah’ı eksiltmediğini hem O’nun övgüye layık niteliğini bildirir. İki belirsiz, merfû sıfatın benzer sonluğu ses ve sözdizimi bakımından cümleyi birlikte mühürler; bu ses düzeni ayrı bir kıraat varyantı değildir. Şükür alınan iyiliği ve vereni tanır; hamd ise Allah’ta karşılaşılan övgüye değer niteliği adlandırır, insanın sunduğu bir bedel değildir. Başlangıçta {ar:لِلَّهِ, tr:li-llāhi, gloss:Allah’a} içinde şükrün hedefi olan ad, burada {ar:حَمِيدٌ, tr:ḥamīdun, gloss:övülmeye layık} ile yeniden buluşur; bu yankı özel ada köken açıklaması getirmez. İnsan şükretsin ya da nankörlük etsin, Allah hamid kalır.
+
+{ar:حَمِيدٌ, tr:ḥamīdun, gloss:övülmeye layık} ile ilişkili hamdın ayrı “deneyim veya sınamadan sonra övülesi bulunma” kullanımı, iki insan karşılığının ardından gelen sıfatla ihtiyatlı bir temas kurar; bu temas odağa tarihsel bir sınama sahnesi eklemez. “Övülmüş kişi” kullanımı, birine övgü yöneltildiğinde onun övülmüş diye nitelenmesini açıklar. Cümlede nicelik işareti bulunmadığından bu kullanımlar sıfatı çok sayıda övülesi niteliğin sayımına dönüştürmez. Allah’ın övgüye layıklığı insanın seçtiği karşılıklardan bağımsız kalır.
+
+Odaktaki {ar:ءَاتَيْنَا, tr:ātaynā, gloss:verdik} ile {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik} armağanının ve {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} karşılığının düşündürdüğü bağımsızlık, 31:26 ve 31:27’deki tükenmeme görüntüsüyle genişler. Tek alıcıya verilen hikmet ilk bakışta sınırlı aktarım gibi duyulabilir; 31:26’da her şeyin Allah’a ait oluşu {ar:ٱلْغَنِىُّ, tr:al-ghaniyy, gloss:ihtiyaçtan bağımsız} niteliğini maddî bolluktan çok ihtiyaçsızlık olarak öne çıkarır, {ar:ٱلْحَمِيدُ, tr:al-ḥamīd, gloss:övülmeye layık} da övgüye değer oluşu bildirir. 31:27’de denizi uzatan {ar:يَمُدُّهُ, tr:yamudduhu, gloss:onu uzatır} imgesi yedi denizi mürekkep kaynağına ekler; {ar:مَا نَفِدَتْ كَلِمَاتُ ٱللَّهِ, tr:mā nafidat kalimātu Allāh, gloss:Allah’ın sözleri tükenmez} sözü bu sözlerin tükenmediğini belirtir. Aynı âyetin sonundaki {ar:حَكِيمٌ, tr:ḥakīm, gloss:hikmet sahibi}, sağlam ve kusursuz kılma yönündeki ayrı kök kullanımıyla odaktaki hikmete yeniden temas eder. Bu bağ tükenmeyen kaynak karşısındaki alıcıyı düşünmeye açar; sonlu alıcıya verilen hikmet ilahî sözlerle özdeşleşmez ve 31:27 özellikle Allah’ın sözlerinin tükenmezliğini anlatıyor olabilir. Böylece şükür kaynağı yenileyen bir ödeme değil, o kaynağa yönelen karşılık olarak kalır.
+
+## Değişen Geçişler
+
+Tükenmeyen kaynağın karşısındaki alıcıya dönünce, odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğunun açtığı şükür, geçmişte alınmış tek bir nimeti kaydetmekten, zaten kuşatan desteğe bağlı kalmayı sürdüren bir yönelişe genişleyebilir. 31:20’deki {ar:أَسْبَغَ عَلَيْكُمْ, tr:asbagha ʿalaykum, gloss:üzerinize bolca yaydı} ifadesi nimetlerin üzerinize bolca yayılmasını, {ar:نِعَمَهُ, tr:niʿamahu, gloss:nimetlerini} ifadesi ise bu iyiliklerin O’na ait oluşunu bildirir. 31:22’de {ar:ٱسْتَمْسَكَ, tr:istamsaka, gloss:sımsıkı tutundu} tutup bırakmamayı, {ar:بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ, tr:bil-ʿurwati al-wuthqā, gloss:en sağlam kulpa} ise dayanağın sağlamlığını gösterir. Kuşatan nimet ile tutulan sağlam kulp, şükrü mevcut desteğe bağlanan bir tutuş gibi düşündürür; bu tutunma genel teslimiyet ve iyi davranış için de geçerli olabilir.
+
+31:31’deki gemi, odaktaki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} buyruğunun yönelişini değişen koşullardaki tanımaya taşır. {ar:ٱلْفُلْكُ, tr:al-fulk, gloss:gemi} denizde {ar:تَجْرِى, tr:tajrī, gloss:akar} ve {ar:بِنِعْمَتِ ٱللَّهِ, tr:bi-niʿmati Allāh, gloss:Allah’ın nimetiyle} geçişi mümkün kılarak işaretleri görünür eder. Sabır, paniğe kapılmamak için nefsi tutar; {ar:صَبَّارٍ شَكُورٍ, tr:ṣabbārin shakūr, gloss:çok sabreden ve çok şükreden} bu işaretleri seçebilen tanığı niteler. Böylece odaktaki şükür bir nimetten hemen sonra verilen anlık teşekkürden, hareket sürerken nimeti tanımayı sürdüren bir yöne genişler. 31:31 bu nitelikleri aynı gözlemcide birleştirebilir; farklı gözlemciler arasında da dağıtabilir, dolayısıyla tek kişilik bir zaman dizisi zorunlu değildir.
+
+Denizdeki hareket 31:32’de tehlikeye dönüşür: {ar:غَشِيَهُم مَّوْجٌۭ كَٱلظُّلَلِ, tr:ghashiyahum mawjun kaẓ-ẓulal, gloss:üstlerini gölgelikler gibi dalga kaplar} dışarıdan örten tehlikeyi, {ar:دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ, tr:daʿaw Allāha mukhliṣīn, gloss:Allah’a içtenlikle yalvardılar} sıkışma içindeki samimi çağrıyı verir. Dalganın dıştan örtmesi, nankörlüğün bilinen nimeti örtmesinden ayrı bir harekettir. {ar:نَجَّىٰهُمْ, tr:najjāhum, gloss:onları kurtardı} koşulları değiştirince, ardından gelen {ar:يَجْحَدُ, tr:yajḥadu, gloss:bildiğini inkâr eder} bilerek reddetmeyi, {ar:خَتَّارٍ, tr:khattār, gloss:ahdini bozan} sadakati bozmayı, {ar:كَفُورٍ, tr:kafūr, gloss:çok nankör} nimeti örtmeyi adlandırır. Böylece 31:12’deki {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret}–{ar:كَفَرَ, tr:kafara, gloss:nankörlük etti} karşıtlığı, kurtuluştan sonra bilinen iyiliğin yeniden örtülebilme ihtimaline açılır; ayet bu davranışı aynı dua eden kişilere tek tek bağlamaz. 64:6’da elçilerin reddedilmesinin ardından Allah’ın ihtiyaçsız ve övgüye layık olduğunun söylenmesi de bu karşıtlığı açar: değişen veren değil, alıcının nimete ilişkisidir.
+
+Gemi ve kurtuluş bağlamlarından ayrı bir soru açılır: odaktaki {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:bilgelik} belirsizlik içinde yön gösterebilir; katkısı yarının bilgisini vermek değil, eldeki yönelişe rehberlik etmektir. 31:34’te hiçbir nefsin yarın ne kazanacağını ve hangi yerde öleceğini bilmediği söylenir: {ar:نَفْسٌ مَّاذَا تَكْسِبُ غَدًا, tr:nafsun mādhā taksibu ghadan, gloss:hiçbir nefis yarın ne kazanacağını bilmez} yakın kazancı, {ar:بِأَىِّ أَرْضٍ تَمُوتُ, tr:bi-ayyi arḍin tamūtu, gloss:hangi yerde öleceğini bilmez} ise yaşamın son yerini bilinmez bırakır. Buradaki {ar:تَدْرِى, tr:tadrī, gloss:bilirsin} olağan anlamıyla “bilmek”tir. Aynı biçimle ilgili daha keşifsel kök yankısı yol ve rüzgârla hizalanma imgesi taşır; bu temas bilme anlamını koruyup yöneliş ile tahmini ayırır. Bu okuma hikmetin belirsizlikte yön bulma işlevini genişletebilir; 31:34 yalnızca ilahî bilgiyi anlatıyor da olabilir, bu durumda 31:12’deki {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi nefsi için} yararın pratik anlamı olduğu gibi kalır.
+
+Burada bakış ölçeği değişir: insanın bilemediği yarından, insanı da aşan övgü ufkuna geçilir. 17:44’te gökler, yer ve içindekiler Allah’ı tesbih eder; {ar:يُسَبِّحُ بِحَمْدِهِۦ, tr:yusabbiḥu bi-ḥamdihi, gloss:O’nu hamdiyle tesbih eder} ifadesi 31:12’deki {ar:حَمِيدٌ, tr:ḥamīdun, gloss:övülmeye layık} niteliğini bütün varlığa yayılan bir övgü ufkuna açar. İnsanların bu tesbihi kavrayamadığının söylenmesi, yaratılmışların tesbihini odaktaki insanî {ar:ٱشْكُرْ, tr:ushkur, gloss:şükret} ile özdeşleştirmeden, Allah’ın övgüye değer oluşunun insan karşılığından bağımsız genişliğini duyurur.
+
+</editorial_prose>

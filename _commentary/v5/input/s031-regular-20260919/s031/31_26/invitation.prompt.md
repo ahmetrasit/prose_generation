@@ -1,0 +1,185 @@
+# V5 reading invitation — 31:26
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_26/31_26.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_26/31_26.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Önce sahibi
+
+31:26 önce sahipliği, sonra sahibin niteliğini bildirir: {ar:لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ, tr:lillāhi mā fī es-semāwāti wa-l-arḍi, gloss:göklerde ve yerde ne varsa Allah’ındır}; ardından {ar:إِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:inna Allāha huwa el-Ghaniyy el-Hamīd, gloss:Allah hiçbir şeye muhtaç olmayan ve övülmeye layık olandır} der. İlk cümle Allah’a ait olan alanı, ikincisi O’nun ihtiyaçsız ve övülmeye layık oluşunu öne çıkarır. İkisi de bir olay dizisi değil, kalıcı bir ilişki ve nitelik kurar.
+
+{ar:لِلَّهِ, tr:lillāhi, gloss:Allah’a ait} sözü, neyin ait olduğunu söyleyen {ar:مَا, tr:mā, gloss:ne varsa} içeriğinden önce gelir; okur önce sahibini, sonra sahip olunanı duyar. Aitlik edatı {ar:لِ, tr:li, gloss:aitlik edatı}, özel ad {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah} ile bitişerek okunuşta tek bir söz birimi oluşturur; bu, kök anlamı değil yüzeydeki morfolojik birleşmedir. Allah adı burada belirli ilahî göndergiyi gösterir, genel bir ilah sınıfı açmaz. Sahiplik ilişkisi, edatın cer yönetimiyle ve sahibin içerikten önce gelmesiyle kurulur; adın etimolojisine ya da ayrı bir ibadet eylemine uzanmaz.
+
+Geniş ilgi zamiri {ar:مَا, tr:mā, gloss:ne varsa}, gökler ile yerde bulunan akıllı ve akılsız varlıkları sınıflara ayırmadan kapsar. {ar:فِى, tr:fī, gloss:içinde} bunları iki alanın içinde konumlandırır; kaynak ya da yüzey ilişkisi kurmaz. {ar:وَٱلْأَرْضِ, tr:wa-l-arḍi, gloss:ve yeryüzü} aynı “içinde” öbeğini tamamlayıp sahip olunan alana katılır, ikinci bir yer yargısı açmaz. Böylece kapsam, belirtilen gök ve yer alanlarının içindekileri bir araya getirir.
+
+Belirli çoğul {ar:ٱلسَّمَٰوَٰتِ, tr:es-semāwāti, gloss:gökler} üst kozmik alanı taşır; yükseklik çağrışımı bu alanı katmanlı duyurabilir, fakat kat sayısı belirlemez. Tekil ve belirli {ar:ٱلْأَرْضِ, tr:el-arḍi, gloss:yeryüzü} ise karşı kutup olarak yeryüzünü tek bir geniş kütle halinde toplar; yayılım ve sağlamlık çağrışımı alt zemini duyulur kılar. Her iki ad da {ar:فِى, tr:fī, gloss:içinde} edatına bağlandığı için aynı sesli sonu alır; belirli biçimleri ve {ar:وَ, tr:wa, gloss:ve} bağlacıyla eşgüdümlenmeleri, onları tek bir işitilir üst-alt çiftine dönüştürür. Bu merizm bütün kozmik alanı kapsar: burada gökler buluta, yağmura, bitkiye ya da sayısı verilmiş katlara; yeryüzü siyasi bir ülkeye veya bir nesnenin altı, hayvan ayağı gibi başka bir tamlamaya dönüşmez.
+
+Baştaki {ar:لِلَّهِ, tr:lillāhi, gloss:Allah’a ait} içindeki cerli {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah} adı, ikinci cümlede {ar:إِنَّ, tr:inna, gloss:şüphesiz} tarafından yönetilen mansub {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} öznesi olarak aynı göndergiyi koruyarak döner; hâl ve cümle rolündeki bu değişim sahiplik bildirimini kimlik hükmüne bağlar. Eril tekil {ar:هُوَ, tr:huwa, gloss:O} zamiri de bu ada döner; ardından gelen {ar:ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:el-Ghaniyy el-Hamīd, gloss:ihtiyaçsız ve övülmeye layık} çiftini göklerde ve yerde bulunanlara değil Allah’a bağlar. İsim ile yüklemler arasındaki bu kısa zamir, bir ayırma ve ritmik duraklama işlevi görür; geciken iki nitelik odaklı bir kimlik hükmü olarak iner. Tek bir “şüphesiz” iki yüklemi de kapsar; fiilsiz cümle onları olay değil, aynı özneye bağlı kalıcı vasıflar olarak sunar.
+
+Sahiplik bildiriminden hemen önce aynı {ar:ٱلسَّمَٰوَٰتِ, tr:es-semāwāti, gloss:gökler} ve {ar:ٱلْأَرْضِ, tr:el-arḍi, gloss:yeryüzü} çifti 31:25’te {ar:مَنۡ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ, tr:man khalaqa es-semāwāti wa-l-arḍa, gloss:gökleri ve yeri kim yarattı?} sorusuna konu olur; cevap da {ar:لَيَقُولُنَّ ٱللَّهُ, tr:la-yaqūlunna Allāh, gloss:elbette Allah derler} diye sesle verilir (31:25). Bu çiftteki yeryüzü, yaşadığımız alt alanı Allah’a ait olanların içinde tutar (31:25). Ardından {ar:قُلِ ٱلْحَمْدُ لِلَّهِ, tr:quli l-ḥamdu li-llāh, gloss:de ki, hamd Allah’a mahsustur} buyruğu gelir (31:25). Sesle verilen yaratıcı cevabı, 31:26’da varlığın kime ait olduğu ve sahibin neden övgüye layık bulunduğu bildirimine bağlanır: {ar:لِلَّهِ مَا فِى, tr:lillāhi mā fī, gloss:içinde olanlar Allah’a aittir} sahipliği söylerken, {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık} övgüyü Allah’ın kalıcı niteliği yapar. Cevabın ve hamd buyruğunun sesle dile getirilişi, övgüyü 31:25’teki talimattan odaktaki son nitelik olan {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık} sıfata taşır; hamd buyruğundaki eylem bu sıfatın kendisi değildir (31:25). Çoğunluğun {ar:لَا يَعْلَمُونَ, tr:lā yaʿlamūn, gloss:bilmiyorlar} diye anılması, doğru cevabı dillendirmekle onu tam kavramak arasında mesafe bırakır (31:25); bu sahnede {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} niteliği de insanın söyleyişine veya kavrayışına bağlı olmayan bir özellik olarak belirir (31:25). Yaratma, söyleme ve bilmeme çevresindeki daha ince kelime temasları, 31:25’in soru-cevap ve övgü bağlamından gelen ihtiyatlı yankılardır; bağımsız sözlük anlamları olarak doğrulanmış değildir. 31:26 ise kendi başına sahiplik ve nitelik bildirir (31:25).
+
+## İhtiyaçsızlık ve övgü
+
+İlk belirli merfû yüklem {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız}, Allah’ın hiçbir şeye muhtaç olmadığını bildirir; sözcük maddi bolluk alanına da değse de buradaki anlamı sıradan servet sahibi olmaktan çok içkin yeterliliktir. Göklerin ve yerin O’na ait oluşu, sahibin bu toplam sayesinde zenginleştiği bir edinim değildir: sahiplik zaten ihtiyaçsız olanın sahipliği olarak kurulur. Arapçadaki faʿīl sıfat kuruluşu bu niteliği geçici değil kalıcı kılar; kullanılan biçimin kendisi başkasını yeterli yapan ettirgen bir eylem anlatmaz. Hemen gelen {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık}, bağımsız bir tetikleyici olarak, ihtiyaçsızlığa başkalarının ihtiyacını gideren ve beklenen işlevi yerine getirip yarar sağlayan yeterlik yönünü de açabilir; bu, Allah’a ihtiyaç yüklemeden yerel yüklem çiftinden çıkan mümkün bir ilişkisel okumadır. İkinci nitelik, sağlanan yararın deneyim ya da sınamadan sonra övülesi bulunmasını da duyurabilir; ayet yararlanıcıyı, övgüde bulunanı veya açık bir sınamayı adlandırmadığından bu bağlantılar ihtimal sınırında kalır.
+
+İkinci belirli merfû yüklem {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık}, Allah’ı övgüye layık diye niteler; bir övme eylemi veya yalnızca övgü almış edilgen bir durum anlatmaz. İki kelime de aynı faʿīl sıfat kuruluşunda, aynı özneye bağlı kalıcı niteliklerdir; bu ikinci yüklem son işitilen niteliğe dönüşür ve cümleyi tamamlar, sonradan eklenmiş bir süs değildir. Övülmeye layıklık elindeki varlıklardan doğmaz; fiilen övgü söylenmesine ya da sağlanan yararın karşılık olarak geri dönmesine de bağlı değildir. Sözcük, övgüye layık çok sayıda niteliğe sahip olma yönünü de açar; ayet bunların listesini vermez. Ayetin başındaki {ar:لِلَّهِ, tr:lillāhi, gloss:Allah’a ait} ile sonundaki {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık}, 31:26’yı sahiplikten övgüye layıklığa çerçeveler; bu bağ sözcük sırasıyla sınırlıdır.
+
+Bu çiftin sesi de kapanışta iş görür: {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} sonundaki çift ses, daha uzun {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık} biçimini hazırlar ve bitişi sıkılaştırır; bu tını ilişkisi iki sözcüğün yerel ses düzeniyle sınırlıdır. Aynı kök ailesinde insan sesiyle ezgi söyleme ve dinleme kullanımı da bulunur; buradaki belirli sıfat biçimi ise ihtiyaçsızlık niteliğidir. Yanındaki {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık} ve eşleşen tını, o ayrı kullanımı ancak hafif, keşifsel bir ses yankısı olarak duyurur; cümle bir şarkı söyleme olayı anlatmaz.
+
+İhtiyaçsızlık ve övgü, insanın verdiği karşılıktan bağımsız kalır. 31:12’de {ar:يَشْكُرُ, tr:yashkuru, gloss:şükreder} iyiliği tanıyıp sahibine teşekkür etmeyi, {ar:لِنَفْسِهِۦ, tr:li-nafsihi, gloss:kendi lehine} ise şükrün yararının özneye dönmesini gösterir; {ar:كَفَرَ, tr:kafara, gloss:nankörlük eder ve iyiliği örter} iyiliğin örtülmesini verende bir azalma değil, alan kişinin tanımasının kapanması olarak duyurur. Ardından gelen {ar:غَنِيٌّ حَمِيدٌۭ, tr:ghaniyyun ḥamīdun, gloss:ihtiyaçsız ve övülmeye layık} çifti iki yanıt boyunca da yerinde kalır (31:12). Aynı çift bütün yeryüzünün inkârı sonrasında da sürer (14:8); şükür sınamasında yararın yine şükredene dönmesi ve Rabbin ihtiyaçsız oluşu da bu yönü tamamlar (27:40). Bu ayetlerdeki bağ, şükür sözcüğünün ayrı bir sözlük tanımından değil yararın kime döndüğünden kurulur; 31:12’de kapanış çifti uyarı işlevini de korur (31:12, 14:8, 27:40). Böylece insanın şükrü insanın kendi lehine işlerken Allah’ın niteliği insan karşılığına bağlı kalmaz (31:12, 14:8, 27:40): {ar:ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:el-Ghaniyy el-Hamīd, gloss:ihtiyaçsız ve övülmeye layık}.
+
+Bu bağımlılık farkı 35:15’te açıkça kurulur: {ar:أَنتُمُ ٱلْفُقَرَآءُ إِلَى ٱللَّهِ, tr:antumu al-fuqarāʾu ilā Allāh, gloss:Allah’a muhtaçsınız} denir, ardından {ar:وَٱللَّهُ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:wa-Allāhu huwa el-Ghaniyy el-Hamīd, gloss:Allah ihtiyaçsız ve övülmeye layıktır} gelir (35:15). Bu açık karşıtlıkta insanlar O’na muhtaç, O ise onlara muhtaç değildir; {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} niteliği bağımlı insanlarla ilişki içinde derinleşir (35:15). Bu, 31:26’daki her varlığın ayrıca muhtaç olduğu sonucunu taşımaz (35:15). 22:64’teki {ar:لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ, tr:lahu mā fī s-samāwāti wa-mā fī l-arḍi, gloss:göklerde ve yerde olanlar O’nundur} ifadesi, odaktaki {ar:ٱلسَّمَٰوَٰتِ, tr:es-semāwāti, gloss:gökler} ile {ar:ٱلْأَرْضِ, tr:el-arḍi, gloss:yeryüzü} üst-alt sahipliğini yineler ve hemen {ar:ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:el-Ghaniyy el-Hamīd, gloss:ihtiyaçsız ve övülmeye layık} çiftine geçer (22:64). Bu yüzey tekrarı ihtiyaçsızlık ve övgüyü kozmik sahipliğin yorumlayıcı kapanışı yapar; tek bir paralel türeme ya da kapsamlı bir sistem iddiası kurmaz (22:64).
+
+## Gizli olan ve sağlanan yarar
+
+Gökler ve yeryüzü kapsamı, küçük ve saklı bir nesnenin nerede bulunabileceğiyle somutlaşır (31:16). {ar:مِثْقَالَ حَبَّةٍۢ مِّنْ خَرْدَلٍۢ, tr:mithqāla ḥabbatin min khardalin, gloss:bir hardal tanesi ağırlığınca} ölçüsü belirsiz küçüklüğü belirli bir ölçüye indirir; söz konusu {ar:حَبَّةٍ, tr:ḥabbatin, gloss:tohum}, sert bir örtü gibi duran {ar:فِى صَخْرَةٍ, tr:fī ṣakhratin, gloss:bir kayanın içinde}, göklerde veya yeryüzünde bulunabilir (31:16). Böylece kayanın sertliğiyle üst ve alt kozmik kutuplar, küçücük nesnenin saklanabildiği ayrı somut yerler olur (31:16). {ar:يَأْتِ بِهَا ٱللَّهُ, tr:yaʾti bihā Allāh, gloss:Allah onu getirir} gizli olanın geri çıkışına yön ve son nokta verir; {ar:لَطِيفٌ, tr:laṭīfun, gloss:ince ve gizli olana nüfuz eden} neredeyse algılanmayan inceliği, {ar:خَبِيرٌۭ, tr:khabīr, gloss:her şeyin içyüzünden haberdar} ise içten bilgiyi bu erişim imgesine katar (31:16). Bu sahne, sahip olunan alanın içindeki gizliyi bulup geri getirebilme imkânını da duyurur; “geri getirmek” sahiplik sözünün anlamına dönüşmez ve 31:16’nın yalnız kuşatıcı bilgiyi anlatan okuması da açık kalır (31:16).
+
+Gizlinin erişilebilir oluşundan ayrı bir bağlamda, gökler ve yeryüzü insan kullanımına açılır (31:20). {ar:سَخَّرَ لَكُم, tr:sakhkhara lakum, gloss:sizin kullanımınıza sundu} üst alanı ve yeryüzünü amaca yöneltilmiş kullanıma verir; odaktaki {ar:ٱلسَّمَٰوَٰتِ, tr:es-semāwāti, gloss:gökler} ile {ar:ٱلْأَرْضِ, tr:el-arḍi, gloss:yeryüzü} bu hizmet ilişkisinin iki kutbudur (31:20). Ardından nimetlerin bolca tamamlanması ({ar:أَسْبَغَ عَلَيْكُمْ نِعَمَهُۥ, tr:asbagha ʿalaykum niʿamahu, gloss:nimetlerini üzerinize bolca tamamladı}) ve görünürle içte kalanın birlikte anılması ({ar:ظَاهِرَةًۭ وَبَاطِنَةًۭ, tr:ẓāhiratan wa-bāṭinatan, gloss:açık ve gizli}) yararın tamamlandığını ve görünene indirgenmediğini gösterir (31:20). Bu kullanım ve nimet sahnesi sahipliği alıcıya dönük kapsamlı bir yarar olarak da duyurur; {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} niteliğinin ihtiyacı karşılayan, yeterli olma yönüyle teması, 31:20’de egemenliğin öne çıktığı okumayla birlikte durur (31:20).
+
+Sınırlı kaynakların karşısındaki tükenmeyen kelimeler başka bir ölçeğe taşır (31:27). Yeryüzündeki ağaçlar {ar:أَقْلَٰمٌۭ, tr:aqlām, gloss:kalemler} olur; odaktaki {ar:ٱلْأَرْضِ, tr:el-arḍi, gloss:yeryüzü} bu sahnede yaşadığımız alt alan ve yazı araçlarının maddi zemini olarak belirir (31:27). Kalem, hazırlanmış bir yazı aracını, hatta sazdan yapılmış kalemi çağrıştırabilir (31:27). Deniz ve arkasından gelen yedi deniz, bu kez çok büyük ama yine maddi bir yazı ortamı sağlar ({ar:وَٱلْبَحْرُ يَمُدُّهُۥ مِنۢ بَعْدِهِۦ سَبْعَةُ أَبْحُرٍۢ, tr:wa-l-baḥru yamudduhu min baʿdihi sabʿatu abḥur, gloss:denizi ardından yedi deniz daha beslese}) (31:27). Ağaçların kalemleriyle denizin çoğalan mürekkebi karşısında Allah’ın {ar:كَلِمَٰتُ ٱللَّهِ, tr:kalimātu-llāh, gloss:Allah’ın kelimeleri} benzetmenin maddi olmayan çıktısıdır; bunlar tükenmez ({ar:مَّا نَفِدَتْ, tr:mā nafidat, gloss:tükenmez}) (31:27). Araçlar çoğalıp deniz yeniden beslense bile yaratılmış yazı düzeninin bir sınırı vardır; bu karşıtlık {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} niteliğini sonlu bir ifade kaynağına bağımlı olmama yönünde genişletir (31:27). Bu yazı imgesi, Allah’ın kelimelerinin ölçüsünü özellikle görünür kılıyor olabilir; {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} ile bu ölçü arasında kurulan imgesel bağ sıfatın olağan anlamını değiştirmez (31:27). Kalem, su ve tükeniş çevresindeki daha ince kelime temasları bağımsız sözlük karşılıkları değil, aynı yazı imgesinin uzantılarıdır (31:27).
+
+## Görünür iz ve büyüme
+
+Büyüme sahnesi yazı araçlarının maddi sınırından ayrı bir imge açar: gökten gelen su yerde bitki yetiştirir ve yaratılıştaki yararı görünür kılar (31:10). Yağmurun bitkiyi yerde görünür kılması, odaktaki {ar:ٱلسَّمَٰوَٰتِ, tr:es-semāwāti, gloss:gökler} için biçimce uzak ve araştırıcı “başka nesnelerden ayıran görünür fiziksel iz” çağrışımını tetikleyebilir; gökler olağan üst âlemler anlamını korur (31:10). Bu su ve büyüme bağlamı, {ar:ٱلْأَرْضِ, tr:el-arḍi, gloss:yeryüzü} sözcüğünü yumuşak, verimli ve bitki yetiştiren alıcı toprak olarak belirginleştirir; olağan yeryüzü anlamı sürer ve bu özellik genel bir sözlük anlamına dönüşmez (31:10). Gökten su ve ardından bitki yetişmesi dizisi ({ar:ٱلسَّمَآءِ, tr:es-samāʾi, gloss:gökten}; {ar:مَاءًۭ فَأَنبَتْنَا فِيهَا, tr:māʾan fa-anbatnā fīhā, gloss:su ve ardından orada bitki yetiştirdik}) bu biçimce uzak okumada toprağı bitkilendiren yılın ilk yağmurunu ve yerde bıraktığı görünür izi düşündürür; bu ilk-yağmur çağrışımı da her bağlam için sözlük anlamı değil, bağlama özgü bir imgedir (31:10). Büyüme deneyiminin ardından {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık} niteliğinin övülesi bulunma yönü de duyulur; bu yankı bir sınama fiiline dönüşmez (31:10). Gök ve yeryüzü olağan anlamlarını korur; biçimlerinden ayrıca bir eşleştirme çıkarılmaz ve 31:10 ek imge olmaksızın da yaratılış işaretlerini anlatır (31:10).
+
+## Göklerin çevrimi ve hakikat
+
+Büyüme sahnesinden ayrı bir ölçekte, odaktaki {ar:ٱلسَّمَٰوَٰتِ, tr:es-semāwāti, gloss:gökler} 31:29’da gece, gündüz, güneş ve ayın hareket ettiği üst alanı bildirir (31:29). Güneş ile ayın belirlenmiş bir süreye kadar akıp gitmesi ({ar:كُلٌّۭ يَجْرِىٓ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى, tr:kullun yajrī ilā ajalin musammā, gloss:her biri belirlenmiş bir süreye kadar akıp gider}) gökleri durağan bir liste olmaktan çıkarır ve devreleri belirli bir sona bağlar (31:29). Gök sözcüğünün olağan üst-âlem anlamı sürerken, sözlük alanındaki ad ve adlandırma yüzü de yalnız dil düzeyinde duyulabilir; “adı konmuş, belirlenmiş süre” ifadesi bu yüzü tetikleyerek çevrimi adsız değil belirlenmiş kılar (31:29). Bu, göğün olağan ya da fiziksel yükselme anlamını değiştirmeyen ihtiyatlı bir dilsel yankıdır (31:29). Gece karanlık, gündüz ışığın açıldığı karşılıklı fazdır; gecenin gündüzün, gündüzün gecenin içine sokulması ({ar:يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ, tr:yūliju al-layla fī an-nahār wa-yūliju an-nahāra fī al-layl, gloss:geceyi gündüzün içine, gündüzü gecenin içine sokar}) iki fazı süren bir sürece dönüştürür (31:29). Böylece odaktaki üst alan sonlu çevrimler içinde canlılaşır; 31:29 Allah’ın kozmik yönetimini de bağımsız olarak anlatırken, gökler ile belirlenmiş süre arasındaki adlandırma bağı ihtiyatlı bir yankı olarak kalır (31:29).
+
+Hareketli göklerden başka bir soruya geçilir: ne gerçektir, kime yönelinir? Allah {ar:ٱلْحَقُّ, tr:el-Haqq, gloss:gerçek ve sabit olan}, O’ndan başka çağrılanlar ise {ar:ٱلْبَٰطِلُ, tr:el-bāṭil, gloss:boş ve geçersiz olan} diye karşılaştırılır (31:30). {ar:مَا يَدْعُونَ مِن دُونِهِ, tr:mā yadʿūna min dūnihi, gloss:O’ndan başka çağırdıkları} hem çağrılma eylemini hem de Allah’tan ayrı tutulmayı gösterir; böylece karşılaştırma rakip iddianın hem çağrılışını hem Allah’tan ayrılışını görünür kılar (31:30). Kapanıştaki {ar:ٱلْعَلِىُّ ٱلْكَبِيرُ, tr:el-ʿAliyy el-Kabīr, gloss:yüce ve büyük olan} aşkın üstünlüğü vurgular. Odaktaki sahiplik ve {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} niteliği bu Hak-bâtıl karşıtlığında mülkiyet bildiriminden Allah’ın bağımsız gerçeklikte rakipsiz oluşuna doğru genişler; O tek bağımsız malik olarak duyulur (31:30). Bu, açık Hak-bâtıl ve aşkınlık karşıtlığından doğan ihtiyatlı bir ilişkisel yankıdır; 31:30’un putlara yöneltilen çağrıyı ele alan açık anlamı da sürer (31:30).
+
+## Nimetten krize
+
+Gerçeklik karşıtlığından sonra dikkat denizde ilerleyen gemilere döner: Allah’ın nimetiyle yol alırlar ve işaretleri çok sabreden, şükreden kişiler görür ({ar:بِنِعْمَتِ ٱللَّهِ, tr:bi-niʿmati-llāh, gloss:Allah’ın nimetiyle}; {ar:صَبَّارٍۢ شَكُورٍۢ, tr:ṣabbārin shakūr, gloss:çok sabreden ve şükreden}, 31:31). Bu sahne, odaktaki {ar:ٱلْحَمِيدُ, tr:el-Hamīd, gloss:övülmeye layık} için somut bir şükür zemini sunar (31:31). Hamd, yerginin karşıtı olan övgüdür ve iyilik karşısında teşekkürü de kapsayabilir. Gemi sahnesi minneti somutlaştırır; bu bağlamda sıfat “teşekkür edilen” anlamına daralmaz ve her övgü de teşekkür değildir (31:31).
+
+Deniz imgesi bu kez yolcuları üstten kuşatan dalgaya dönüşür: örtüler gibi yükselen {ar:مَوْجٌۭ كَٱلظُّلَلِ, tr:mawjun ka-ẓ-ẓulal, gloss:örtüler gibi dalgalar} bir tavan hissi verir, birbirine karışan hareketi alışılmış denetimi dağıtır (31:32). Bu tehlike, odaktaki {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} niteliğini korurken yaratılmışların kendi başlarına yetemeyişini karşısına koyar (31:32). Yolcular ortaklık ihtimallerini bırakıp yalnız Allah’a yönelirler ({ar:دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ, tr:daʿaw Allāha mukhliṣīna lahu d-dīn, gloss:dini yalnız O’na özgü kılarak Allah’a yalvardılar}); ardından kurtarılıp karaya çıkarılmaları ({ar:نَجَّىٰهُمْ إِلَى ٱلْبَرِّ, tr:najjāhum ilā al-barr, gloss:onları karaya çıkararak kurtardı}) ihtiyacın karşılanmasının olumlu yüzünü gösterir (31:32). Bu yeterlik ilişkisi, kendi başına yetemeyen yolcuların kriz ve kurtuluş sahnesinden doğan bağlamsal bir karşıtlıktır; {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} için doğrudan sözlük karşılığı değildir (31:32). Güvenliğe çıkanların bir kısmı sonradan işareti inkâr edebilir; kriz anındaki yönelişin sonradan örtülmesi, herkesin daima samimi kaldığı anlamına gelmediğini de gösterir (31:32).
+
+## Kişinin sınırı
+
+Krizde açığa çıkan bağımlılığın yanına, bir başkasının en yakın bağda bile kişinin yerini alamaması gelir (31:33). Ayet, bir babanın evladı adına, bir evladın da babası adına {ar:شَيْـًٔا, tr:shayʾan, gloss:hiçbir şeyi} karşılayamayacağını iki yönde bildirir; en yakın ebeveyn-çocuk bağı bile birinin ötekine yetmesine veya onun yükünü devralmasına imkân vermez (31:33). Bu en yakın ebeveyn-çocuk bağı, {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} ile başkası için yeterli olma ya da onun yerini tutma arasında ilişkisel bir yankı kurabilir; Arapçada bu anlamlar ilişki kuran kullanımlarda görünür. {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} 31:26’da olağan anlamıyla ihtiyaçsızlığı bildirir ve böyle bir tamamlayıcı almaz; bu nedenle yeterlik yönü 31:33’ün bağlamından duyulur (31:33). Başkası için yeterli olma yankısı en yakın bağda sınırını gösterir; 31:33 aynı zamanda hesap sorumluluğuna dair bir uyarı olarak okunabilir ve bağlamsal ilişki bu anlamın yerini almaz (31:33).
+
+Ardından soru, bir başkasının senin yerine ne yapabileceğinden insanın kendi yarınını bilip bilemeyeceğine kayar (31:34). Her kişi yarın ne kazanacağını ve hangi yerde öleceğini bilmez ({ar:مَاذَا تَكْسِبُ غَدًۭا, tr:mādhā taksibu ghadan, gloss:yarın ne kazanacağı}; {ar:بِأَىِّ أَرْضٍۢ تَمُوتُ, tr:bi-ayyi arḍin tamūt, gloss:hangi yerde öleceğini}) (31:34). Buradaki yeryüzü, odaktaki {ar:ٱلْأَرْضِ, tr:el-arḍi, gloss:yeryüzü} gibi Allah’a ait kozmik alanın içindedir; burada ise insanın bilmediği belirli ölüm yerini, ölüm de son olayı gösterir (31:34). Her bir {ar:نَفْسٌۭ, tr:nafs, gloss:her bir benlik} öznesinin iki paralel cümlede yinelenmesi, yarınki kazanç ve ölüm yeri sınırını topluluğa değil tek tek kişilere bağlar (31:34). Saatin bilgisi Allah’ın katındadır ({ar:عِندَهُۥ عِلْمُ ٱلسَّاعَةِ, tr:ʿindahu ʿilmu s-sāʿa, gloss:saatin bilgisi O’nun katındadır}); insan kendi yararını önceden bilemezken odaktaki {ar:ٱلْغَنِىُّ, tr:el-Ghaniyy, gloss:ihtiyaçsız} niteliğiyle bu sınır arasında bir karşıtlık kurulur (31:34). Odaktaki yeryüzü, Allah’a ait kozmik alan anlamını koruyarak 31:34’te insanın bilmediği yarınki kazanç ve ölümün son mekânıyla temas eder; bu zamansal ve bilgisel genişleme ihtiyatlı bir bağlamsal okumadır, ayetin bilinen ve bilinmeyenleri ayrı ayrı sayan uyarısı da sürer (31:34).
+
+</editorial_prose>

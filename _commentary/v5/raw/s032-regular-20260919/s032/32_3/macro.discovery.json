@@ -1,0 +1,301 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:3",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_7b5ff5874b7632d5d09b",
+      "decision": "narrow",
+      "reason": "The registered saying and truth branches support the pericope relation between the prior descending Book and the focus's spoken fabrication charge and reply. The candidate's two additional citations have no registered branch descriptors, so their lexical branch claims are excluded while the explicit wording of 32:2 remains usable context.",
+      "finding_refs": ["macro:written-book-dispute"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001283/B002",
+          "reason": "No registered branch record is supplied. The finding keeps the explicit Book wording in 32:2 but does not treat the candidate's written-artifact citation as an independently established lexical branch."
+        },
+        {
+          "branch_ref": "root_001492/B002",
+          "reason": "No registered branch record is supplied. The surface statement of descent remains context, but this citation receives no independent branch gloss or facet."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fd86ac08b98141aeedf8",
+      "decision": "narrow",
+      "reason": "All four listed focus branches survive through their supported facets: the fabrication claim, its bounded craft echo, the speech-specific well-formedness image, and warning. The additional doubt citation is unresolved and is excluded as a lexical branch; its separate HFT trace is retained with attribution. The warning is linked to the later pericope objection only as a qualified contextual relation, without identifying the audiences or claiming the warning failed.",
+      "finding_refs": ["macro:counterfeit-and-warning"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000616/B001",
+          "reason": "The candidate supplies no registered descriptor for this citation. Its surface context says there is no doubt in the Book, so an oscillation-of-doubt branch is not asserted here; the matching HFT trace is assessed separately as attributed evidence."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bc80600c3ac0875a88c1",
+      "decision": "accept",
+      "reason": "The exact supplied anchors, word indices, roots, attributed roles, and focus returns agree for all five trace entries. The before/after change is retained as a contextual contrast between attributed human patching and the preceding Book's attributed composition and descent. The legacy_unbound provenance qualifies the trace but does not erase it.",
+      "finding_refs": ["macro:delivered-composition-delta"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:written-book-dispute",
+      "origin_candidate_id": "cand_7b5ff5874b7632d5d09b",
+      "represented_candidate_ids": [],
+      "title": "A descending Book enters a spoken dispute",
+      "claim": "The descending Book named immediately before this ayah becomes the object of a voiced authorship dispute: the focus's saying that it was fabricated is answered by the assertion that it is truth from the messenger's Lord, so the truth claim is heard as a reply to a human claim about the Book's source.",
+      "mechanism": "The focus carrier يقولون bears collective reported speech. The independent 32:2 context names the Book as descending and says there is no doubt in it. Their contact gives the focus's الحق من ربك a specific target—the spoken fabrication charge—and changes a standalone provenance statement into a rebuttal within the sequence.",
+      "reader_payoff": "The movement becomes stated descent, voiced challenge, and answer; the claim of truth has a concrete role in the exchange.",
+      "containment": "This preserves the direct reading that the Book is truth from the messenger's Lord. The delivery relation comes from the adjacent surface wording; it does not establish a physical manuscript form, identify the speakers beyond the text, or verify either unresolved branch citation as a lexical sense.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The exact 32:2 and 32:3 surfaces, the two registered focus branches, and the supplied contextual relation directly support this sequence."
+      },
+      "support_ids": [
+        "sup_117739117b1350f13be8",
+        "sup_615fac38b39cd556f962",
+        "sup_8bdae5d8e102b487be68",
+        "sup_8cfc23e2e9f5fced74bd",
+        "sup_f65eebc6d1266096ba40"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001272/B001",
+          "facet_id": "F001",
+          "branch_gloss": "söze dökme",
+          "facet_statement": "Çekirdek işlem, sözü sesli olarak dışa çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:3:2:1"],
+          "trigger_refs": ["32:2:1", "32:2:2"],
+          "focus_return_refs": ["32:3:2:1"],
+          "carrier": "The focus's يقولون carries collective reported speech, not merely an abstract statement.",
+          "independent_trigger": "The preceding context says that the Book descends and names it as the subject of that statement.",
+          "activation": "The spoken charge follows the Book's stated descent and takes that Book as its object, bringing the prior source claim into a live human dispute.",
+          "resulting_reading": "The later reply is heard as answering a voiced authorship charge about the just-mentioned Book.",
+          "boundary": "The sequence grounds a speech event and its object; it does not establish the speakers' identity or the charge's truth."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:3:6:2"],
+          "trigger_refs": ["32:2:4"],
+          "focus_return_refs": ["32:3:6:2"],
+          "carrier": "The focus predicate الحق identifies the Book as truth from the messenger's Lord.",
+          "independent_trigger": "The preceding ayah states that there is no doubt in the descending Book.",
+          "activation": "The focus's truth predicate meets the context's no-doubt assertion, and its placement after the fabrication charge makes that truth claim the answer to the dispute.",
+          "resulting_reading": "The truth predicate functions as a direct rebuttal to the accusation rather than a detached description.",
+          "boundary": "The relation supports the stated reply; it does not adjudicate the human accusation through evidence outside this packet."
+        }
+      ],
+      "connection_refs": ["conn_5673b524e1d63313f449"],
+      "context_refs": ["32:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:counterfeit-and-warning",
+      "origin_candidate_id": "cand_fd86ac08b98141aeedf8",
+      "represented_candidate_ids": [],
+      "title": "The craft charge and the warning ahead",
+      "claim": "Within the pericope, the accusation that the Book was fabricated can carry a bounded craft echo because the preceding ayah supplies a Book as an independent text-making trigger; الحق can then bear the candidate's speech-specific image of well-formedness. The warning to a people without a prior warner stands within a sequence that later voices an objection to new creation and meeting their Lord, placing the hope of guidance against a visible form of resistance.",
+      "mechanism": "The preceding Book and descent trigger the focus word's separate cutting-and-making branch as an analogy, while the fabrication accusation independently meets the speech-specialized facet of الحق. The warning carrier then meets the later 32:10 objection: that contact turns the warning's hope of guidance from a generic purpose into a pericope-level response placed beside a concrete challenge, without asserting that both passages name the same people.",
+      "reader_payoff": "The source dispute can be heard as a charge about how a message was made, while its warning reaches beyond the immediate exchange toward a later objection in the same pericope.",
+      "containment": "The ordinary fabrication and truth readings remain intact. Cutting and well-formed speech are bounded images, not literal stitching or a claim that الحق lexically means textile. The no-doubt phrase concerns the Book; the packet does not prove that 32:10's objectors are the warned group, that warning failed, or that the later objection exhausts the warning's subject.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The registered branch facets and focus/context wording support the craft and warning relations; the craft images are analogical, and the link to 32:10 is contextual rather than an established identity between audiences."
+      },
+      "support_ids": [
+        "sup_0e750aa84b3dce0ef0c8",
+        "sup_48039e53146a363a56e7",
+        "sup_e3cb412c677e9824ec31",
+        "sup_fa339cbc081e2529ce34",
+        "sup_fae7e658d1937741e258"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001150/B001",
+          "facet_id": "F001",
+          "branch_gloss": "onarmak veya yapmak için kesip biçmek",
+          "facet_statement": "Kesme işlemi bozmak için değil, onarım, dikiş veya yapım için gerçekleştirilir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["32:3:3:1"],
+          "trigger_refs": ["32:2:1", "32:2:2"],
+          "focus_return_refs": ["32:3:3:1"],
+          "carrier": "The focus's fabrication allegation ordinarily says that the Book was made up; the supplied branch adds a bounded making-by-cutting image to that carrier.",
+          "independent_trigger": "The preceding ayah names the Book and describes its descent.",
+          "activation": "Because the fabrication charge takes the just-mentioned Book as its object, the context's text object meets the separate making branch and lets the accusation be heard as an allegation about assembly.",
+          "resulting_reading": "The charge can suggest human piecing-together alongside its ordinary false-invention sense.",
+          "boundary": "This is a metaphorical pressure on the fabrication word, not a claim that it literally means repair, sewing, or physical cutting here."
+        },
+        {
+          "branch_ref": "root_001150/B003",
+          "facet_id": "F001",
+          "branch_gloss": "asılsız söz veya suçlama uydurmak",
+          "facet_statement": "Gerçek olmayan bir söz veya iddia bilinçli biçimde üretilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:3:3:1"],
+          "trigger_refs": ["32:2:1", "32:2:4"],
+          "focus_return_refs": ["32:3:3:1"],
+          "carrier": "The focus word states a claim that the Book was fabricated.",
+          "independent_trigger": "The prior ayah presents the Book as descending from the Lord and says there is no doubt in it.",
+          "activation": "The accusation meets the preceding assertion of descent and no doubt, turning it into a counterclaim about the Book's origin rather than a neutral report of its content.",
+          "resulting_reading": "The passage stages a human fabrication charge against an already asserted Book provenance.",
+          "boundary": "This preserves the accusation as reported speech; it does not treat the accusation as established fact."
+        },
+        {
+          "branch_ref": "root_000347/B010",
+          "facet_id": "F002",
+          "branch_gloss": "sıkı dokunmuş veya sağlam kurulmuş",
+          "facet_statement": "Söz nitelemesinde düşüncenin sağlam, tutarlı ve iyi kurulmuş olması anlatılır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["32:3:6:2"],
+          "trigger_refs": ["32:2:2", "32:3:3:1"],
+          "focus_return_refs": ["32:3:6:2"],
+          "carrier": "The focus predicate الحق names the text as truth; the candidate applies the supplied speech-specialized facet to that text.",
+          "independent_trigger": "The preceding Book wording supplies a text object, and the focus's separate fabrication accusation supplies the proposed counter-image.",
+          "activation": "The accusation's making image meets the truth predicate about the same text, allowing the speech facet to portray the reply as soundly constructed rather than merely opposed.",
+          "resulting_reading": "The rebuttal may be heard as answering patchwork with a well-formed statement while retaining الحق's ordinary truth meaning.",
+          "boundary": "The speech specialization is an image for a soundly formed statement, not a literal textile claim or a replacement for the truth reading."
+        },
+        {
+          "branch_ref": "root_001488/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tehlikeyi bildirerek sakındırma",
+          "facet_statement": "Bir kişi ya da topluluğa korkulacak bir durumu haber vererek onları sakınmaya yöneltir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:3:9:2", "32:3:14:1"],
+          "trigger_refs": ["32:10"],
+          "focus_return_refs": ["32:3:9:2", "32:3:14:1"],
+          "carrier": "The focus says the messenger is to warn and describes the people as having had no prior warner.",
+          "independent_trigger": "The later pericope ayah voices an objection to being created anew and states disbelief in meeting their Lord.",
+          "activation": "The later objection gives the earlier warning a nearby scene of resistance to guidance; the contact makes the warning's purpose consequential within the pericope.",
+          "resulting_reading": "The hope that the warned people may be guided stands beside a later articulated objection, making the warning readable as address to a real challenge.",
+          "boundary": "The sequence does not establish that the later speakers are the same people, that warning failed, or that this objection is the warning's only subject."
+        }
+      ],
+      "connection_refs": [
+        "conn_5673b524e1d63313f449",
+        "conn_92f609a34ba442fdb79e"
+      ],
+      "context_refs": ["32:2", "32:10"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:delivered-composition-delta",
+      "origin_candidate_id": "cand_bc80600c3ac0875a88c1",
+      "represented_candidate_ids": [],
+      "title": "Delivered composition beside human patching",
+      "claim": "The preceding ayah calls the Book a descent from the Lord of the worlds and says there is no doubt in it; the focus then voices a fabrication accusation and answers that the Book is truth from the messenger's Lord. The HFT trace reads this as a contrast between attributed human patching and a Book joined and delivered from above, making the rebuttal concern provenance and composition as well as falsity.",
+      "mechanism": "The trace assigns context occurrences in 32:2 to descent, joining, and doubt, then returns through the focus's fabrication word and truth predicate. Their contact changes the simpler before-reading of a bare divine-source reply into an attributed contrast between human assembly and prior delivery, while the ordinary truth reply remains in place.",
+      "reader_payoff": "The preceding Book claim matters to the rebuttal: what is accused as human making is set beside a delivery already presented as coming from the Lord.",
+      "containment": "The fabrication accusation and the assertion of truth from the Lord remain recoverable as stated. The contextual branch roles are attributed because the HFT source is legacy_unbound; three context branch records have no independent descriptor, and the trace does not prove authorship or identify the speakers beyond the supplied text.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "All five HFT roles match the supplied anchor ayat, source word indices, and roots, but the record's legacy_unbound identity and unresolved context branch descriptors require attributed treatment."
+      },
+      "support_ids": ["sup_d60b6ee11f986a0064dd"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001150/B001",
+          "facet_id": "F001",
+          "branch_gloss": "onarmak veya yapmak için kesip biçmek",
+          "facet_statement": "Kesme işlemi bozmak için değil, onarım, dikiş veya yapım için gerçekleştirilir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:3:3:1"],
+          "trigger_refs": ["32:2:1", "32:2:2"],
+          "focus_return_refs": ["32:3:3:1"],
+          "carrier": "The focus reports a fabrication accusation; the HFT trace additionally assigns the root's cutting-and-stitching role as a model of human assembly.",
+          "independent_trigger": "The preceding context names the Book and its descent.",
+          "activation": "The human fabrication charge is set against a Book already described as descending; the trace reads these as rival accounts of how the text came to be.",
+          "resulting_reading": "The rebuttal can answer an attributed idea of human patching as well as an ordinary accusation of falsehood.",
+          "boundary": "The HFT role is attributed; the ordinary focus reading is not replaced by literal cutting or stitching."
+        },
+        {
+          "branch_ref": "root_000347/B010",
+          "facet_id": "F002",
+          "branch_gloss": "sıkı dokunmuş veya sağlam kurulmuş",
+          "facet_statement": "Söz nitelemesinde düşüncenin sağlam, tutarlı ve iyi kurulmuş olması anlatılır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:3:6:2"],
+          "trigger_refs": ["32:2:2", "32:3:3:1"],
+          "focus_return_refs": ["32:3:6:2"],
+          "carrier": "The ordinary focus predicate الحق identifies the Book as truth; the HFT trace attributes a speech-specific well-formedness image to this text.",
+          "independent_trigger": "The preceding context names the Book, and the focus separately voices the fabrication charge.",
+          "activation": "The truth predicate meets the accusation about the Book's making, allowing the attributed speech facet to frame the reply as soundly formed as well as true.",
+          "resulting_reading": "The response may carry an attributed compositional-integrity image without losing the ordinary truth claim.",
+          "boundary": "The supplied facet is speech-specific; it does not establish a literal textile meaning or displace the primary predicate."
+        },
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:1"],
+          "trigger_refs": ["32:3:3:1", "32:3:6:2"],
+          "focus_return_refs": ["32:3:3:1", "32:3:6:2"],
+          "carrier": "The HFT trace maps context word 1 of 32:2, تنزيل, to root ن ز ل and assigns it a descent-and-delivery role; no independent branch descriptor is supplied.",
+          "independent_trigger": "The focus's fabrication accusation and truth-from-the-Lord reply challenge the Book's origin.",
+          "activation": "The trace places the context's attributed descent beside the focus's disputed authorship and reply, supplying delivery as an alternative production path.",
+          "resulting_reading": "The rebuttal can be heard as contrasting an attributed prior delivery with human fabrication.",
+          "boundary": "The branch role remains attributed, with no invented gloss or facet and no independent context morphology claim."
+        },
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:2"],
+          "trigger_refs": ["32:3:3:1", "32:3:6:2"],
+          "focus_return_refs": ["32:3:3:1", "32:3:6:2"],
+          "carrier": "The HFT trace maps context word 2 of 32:2, الكتاب, to root ك ت ب and assigns it a joining/composition role; no independent branch descriptor is supplied.",
+          "independent_trigger": "The focus's fabrication accusation and truth predicate return to the preceding Book.",
+          "activation": "The attributed joined-text role meets the accusation about fabrication and the answer of truth, creating a contrast between human patching and joined composition.",
+          "resulting_reading": "The reply can be read as answering how the Book is composed as well as whether it is true.",
+          "boundary": "This is the HFT's attributed role, not an independently verified lexical branch gloss or facet."
+        },
+        {
+          "branch_ref": "root_000616/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:4"],
+          "trigger_refs": ["32:3:3:1", "32:3:6:2"],
+          "focus_return_refs": ["32:3:3:1", "32:3:6:2"],
+          "carrier": "The HFT trace maps context word 4 of 32:2, ريب, to root ر ي ب and assigns an oscillation-of-doubt role; the surface phrase itself says there is no doubt in the Book.",
+          "independent_trigger": "The focus places a fabrication accusation beside the assertion that the Book is truth from the Lord.",
+          "activation": "The attributed doubt image meets the focus's opposing accusation and truth reply, preserving a textual contrast between no-doubt context and voiced challenge.",
+          "resulting_reading": "The prior no-doubt assertion becomes part of what the rebuttal answers, without making the Book itself doubtful.",
+          "boundary": "No branch gloss or facet is supplied; the oscillation role remains HFT-attributed and does not describe an established psychological state."
+        }
+      ],
+      "connection_refs": ["conn_5673b524e1d63313f449"],
+      "context_refs": ["32:2"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The HFT source packet is marked broader than the declared pericope and legacy_unbound. Its exact 32:2 and 32:3 anchors and word indices match the supplied Arabic, so the trace is retained as attributed contextual evidence; three context branch records remain unresolved and receive no invented glosses or facets.",
+    "The connection to 32:10 supplies its Arabic surface but no target morphology. The warning-to-later-objection relation is therefore limited to the supplied pericope sequence and does not identify the two audiences."
+  ]
+}

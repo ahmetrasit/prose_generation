@@ -1,0 +1,191 @@
+# V5 reading invitation — 32:3
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s032-regular-20260919/s032/32_3/32_3.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s032-regular-20260919/s032/32_3/32_3.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Âyet, vahyin uydurulduğu iddiasını aktarır ve ardından onu düzeltir: Vahiy, elçinin Rabbinden gelen gerçektir. Bu kaynak bildirisi, elçiye bir topluluğu uyarması için verilen göreve bağlanır. O topluluğa daha önce hiçbir uyarıcı ulaşmamıştır; şimdi yönelen uyarının umulan karşılığı, doğru yolu bulmalarıdır.
+
+## İtham ve karşılık
+
+Başlangıçtaki {ar:أَمْ, tr:ʾam, gloss:itirazı açan soru parçacığı}, {ar:يَقُولُونَ, tr:yaqūlūna, gloss:söylüyorlar} fiilini meydan okuma içinde sunar ve isnadı âyetin kendi hükmü yerine cevap bekleyen bir iddia olarak konumlandırır. Fiilin çoğul ve sürmekte olan biçimi tek kişinin anlık tereddüdünden çok toplu söyleyişi öne çıkarır; süresini ise belirtmez. İçerdiği suçlama {ar:ٱفْتَرَىٰهُ, tr:iftarāhu, gloss:onu uydurdu} ile tek sözcükte kurulur: Form VIII’in tamamlanmış fiili vahyi nesne alıp uydurma isnadını elçiye yükler. Sürmekte olan söz raporunun içine bu tamamlanmış eylem yerleşir; kip karşıtlığı, iddianın nasıl sunulduğunu belirginleştirirken doğruluk ve tarih sorularını açık bırakır. Fiilin nesne eki eylemi ve hedefi sıkıştırır. Söyleyişten suçlamaya geçişteki kısa yükseliş, iddianın gelişini kulağa getirir.
+
+Ardından {ar:بَلْ, tr:bal, gloss:düzeltme parçacığı} gelir; çevresindeki ses sınırı suçlamadan cevaba dönüşü işittirir. Bu dönüş, isnadın karşısına olumlu bir kimlik cümlesi kurar: {ar:هُوَ, tr:huwa, gloss:o} zamiri vahyi yeniden özne yapar ve {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:hakikat ve gerçek} yüklemi onun ne olduğunu bildirir. Suçlamadaki nesne ekiyle bağımsız zamirin aynı vahye dönmesi, cevabın hedefini sabit tutar. Ayrı duran zamir ve belirli, yalın hâldeki ad yüklemi kısa bir tanımlama kurar; vahyin kendisi hakikat olarak nitelenir. Bu yüklem tek bir cümlenin doğruluğunu değil, vahyin niteliğini bildirir. Buradaki belirlilik vahyin niteliğine ilişkindir: hukukî hak, mülkiyet payı ya da alacak-borç kalemi bu bağlamda seçili anlam değildir. {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:hakikat} sözcüğünün çift ünsüzlü orta sesi düzeltme anında işitsel bir sağlamlık verir; bu ağırlık gerçeklik anlamına eşlik eder. Böylece itham yanıtın görünür hedefi kalırken, olumlu cümle vahyin kimliğini kurar.
+
+Bu karşılaşmada {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçeğe uygun hakikat} gerçekte olana uyan doğruyu ve sağlamı, {ar:ٱفْتَرَىٰهُ, tr:iftarāhu, gloss:onu uydurdu} ise gerçek olmayan bir iddianın bilerek üretilmesini taşır. {ar:بَلْ, tr:bal, gloss:düzeltme parçacığı} iki sözü tek dönüşte karşı karşıya getirince isnat, gerçeklikle uyumu bakımından sınanır. Söyleme fiili {ar:يَقُولُونَ, tr:yaqūlūna, gloss:söylüyorlar} da birine söylemediği sözü yükleme yönündeki sınırlı kullanımıyla keskinleşir: elçiye yöneltilen uydurma isnadı, sözü kimin kime yüklediğini görünür kılar. Böylece söyleme fiili isnadın sahibini, hakikat yüklemi ise sınama ölçütünü belirleyerek doğruluk karşıtlığını kurar.
+
+Bu sözlü itham, hemen önceki 32:2’deki {ar:تَنزِيلُ ٱلْكِتَٰبِ لَا رَيْبَ فِيهِ مِن رَّبِّ ٱلْعَٰلَمِينَ, tr:tanzīlu al-kitābi lā rayba fīhi min rabbi al-ʿālamīn, gloss:Âlemlerin Rabbinden indirilen Kitapta kuşku yok} bildiriminin ardından gelir. 32:3’teki {ar:يَقُولُونَ, tr:yaqūlūna, gloss:söylüyorlar} ve {ar:ٱفْتَرَىٰهُ, tr:iftarāhu, gloss:onu uydurdu} ithamına verilen {ar:بَلْ هُوَ ٱلْحَقُّ مِن رَّبِّكَ, tr:bal huwa al-ḥaqqu min rabbika, gloss:hayır, o Rabbinden gelen gerçektir} cevap, indirilişin kaynağını tartışılan söze iliştirir. Daha ihtiyatlı bir bağlamsal okumada 32:2’deki {ar:تَنزِيلُ, tr:tanzīlu, gloss:indiriliş} alıcısına varan bir iniş, {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} ise bir araya getirilmiş bir metin olarak duyulabilir. Bu imgeler burada ihtiyatlı bağlamsal okumalar olarak kalır; sözlük tanımı iddiasına dönüşmez. 32:2’deki {ar:لَا رَيْبَ فِيهِ, tr:lā rayba fīhi, gloss:onda kuşku yok} açıkça Kitapta kuşku bulunmadığını bildirir. Dalgalanan kuşku imgesi, bu açık bildirimi 32:3’teki ithamın yarattığı gerilim içinde daha duyulur kılar; dalgalanma, Kitabın niteliğini değil, ithamla cevap arasındaki karşılaşmayı resmeder.
+
+## Sözün kuruluşu
+
+Uydurma suçlamasının yanında bu Form VIII fiilinin sınırlı bir kullanımı duyulabilir: {ar:قَطْعُهُ لِلْإِصْلَاحِ, tr:qaṭʿuhu lil-iṣlāḥ, gloss:onarmak için kesip biçmek}, kesip biçme eylemini yıkımdan çok onarma, dikme ya da yapma amacıyla anlatır. 32:2’deki {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} ve {ar:لَا رَيْبَ فِيهِ, tr:lā rayba fīhi, gloss:onda kuşku yok} metin ve kuşkusuzluk bağlamıyla bu özel kullanıma temas eder; odaktaki {ar:ٱفْتَرَىٰهُ, tr:iftarāhu, gloss:onu uydurdu} ise yanlış sözü bilerek üretme anlamını taşır. Hakikatin karşısındaki kuruluş imgesi de {ar:ثَوْبٌ مُحَقَّقٌ, tr:thawb muḥaqqaq, gloss:sıkı dokunmuş kumaş} kumaşını ve {ar:كَلَامٌ مُحَقَّقٌ, tr:kalāmun muḥaqqaq, gloss:sağlam ve tutarlı kurulmuş söz} ifadesindeki sözü aynı niteleme kalıbında buluşturur. İpliklerin sıkıca bağlı dokusu sözde tutarlı kuruluş niteliğine dönüşür; aktarılan, kumaşın maddesi değil bu örgülü sağlamlıktır, bu sağlamlık da tek başına doğruluğu kanıtlamaz. Kesip dikme imgesi metnin insan eliyle kurulması ihtimalini öne çıkarırken, dokuma imgesi karşıdaki sözün iç tutarlılığını duyurur. Birlikte, iddia edilen kuruluşu karşıt sözün sağlam örülüşüyle ölçer; ilişki sözün kuruluş biçimini anlatır, telif tarihini ya da güzellik hükmünü değil.
+
+Bu kuruluş sorusu, daha keşifsel bir ses-malzeme çağrışımına da açılır. {ar:يَقُولُونَ, tr:yaqūlūna, gloss:söylüyorlar} sabit kalmayıp oynama ya da sallanma yönünde duyulabilir; karşısındaki {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek ve doğru olan} gerçeğe uygun ve sağlam olanı bildirir. Böylece suçlama hareketli bir söz, hakikat ise sarsıntıya karşı duran nokta gibi işitilir. Sallanma, söyleme fiilinin sözlük anlamı değil, iki söz arasındaki ses temelli benzetmedir; bu duyum tarihsel bir açıklama sunmaz, isnatla cevabın gerilimini işitsel olarak belirginleştirir.
+
+## Kaynak, zaman ve cevap
+
+İlk {ar:مِن, tr:min, gloss:kaynak bildiren edat}, hakikati {ar:رَّبِّكَ, tr:rabbika, gloss:senin Rabbin} ile kaynağa bağlar; ikinci kişi eki bu kaynağı belirli muhataba iliştirir ve kamusal ithamın odağını elçinin kendi görevine çevirir. Ardından amaç bildiren {ar:لِ, tr:li-, gloss:amaç edatı}, mansup {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} fiilini bu kaynak bildirisine bağlar. Hakikat sözü, tehlikeyi önceden haber verip sakınmaya yönelten uyarma görevi içinde işler. Bu görev {ar:قَوْمًا, tr:qawman, gloss:bir topluluk} diye belirsiz adlandırılmış bir halka yönelir: ifade soy belirtmeden bir topluluğu gösterir; belirsizliği bütün insanlara yaymak yerine bu halkın kimliğini açık bırakır.
+
+Üç kez yinelenen {ar:مِن, tr:min, gloss:edat}, uyarının kaynağını, geçmişteki boşluğu ve bu boşluğun zamanını ayrı ayrı kurar. İlkinde hakikat Rabbinden gelir. Olumsuzluk altındaki ikinci kullanım {ar:نَّذِيرٍ, tr:nadhīrin, gloss:uyarıcı} rolünden önce durur ve belirtilen aralıkta o rolden tek bir kişinin bile ulaşmadığını kapsar. Sonuncusu {ar:قَبْلِكَ, tr:qablika, gloss:senden önce} zaman ifadesini yönetir. {ar:مَا, tr:mā, gloss:geçmişi olumsuzlayan edat} tamamlanmış geliş fiilini olumsuzlar; alıcı eki taşıyan Form I mâzisi {ar:أَتَىٰهُم, tr:atāhum, gloss:onlara geldi ve ulaştı} görevden önce onlara uyarıcının ulaşmadığı geçmişi bildirir. Bu yapıda fiil geliş ve varışı anlatır; kökün verme anlamı ayrı bir kullanıma aittir. {ar:مِن نَّذِيرٍ, tr:min nadhīrin, gloss:bir uyarıcı} eksik olanı uyarma rolü olarak adlandırır; olumsuzluğun kapsamı bu role uzanır, bütün öğretmenleri ya da bilgi türlerini kapsamaz.
+
+{ar:قَبْلِكَ, tr:qablika, gloss:senden önce} sonundaki ikinci kişi eki, zaman boşluğunu şimdi uyarma görevi verilen muhatabın öncesine göre ölçer. Bu, belirtilen uyarma rolünün aralığıdır; başka tür rehberliğin bütün geçmişi bu sınırın dışında kalır. Bu aralıkta {ar:أَتَىٰهُم, tr:atāhum, gloss:onlara ulaştı} ile geçmişte uyarıcının ulaşmamış olması, şimdiki {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} görevi ve {ar:لَعَلَّهُمْ يَهْتَدُونَ, tr:laʿallahum yahtadūna, gloss:umulur ki doğru yolu bulurlar} umudu sırayla belirir. Buradaki {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yol bulurlar} cevabın topluluğa ait ve henüz umut edilen bir yöneliş olduğunu gösterir. Ayet bu yerel diziyi —önce ulaşmayan uyarıcı, şimdi uyarma görevi, ardından umulan yol bulma— kurar; bütün vahiy tarihine ilişkin bir süre ya da takvim tarihi vermez.
+
+Bu görevin umulan cevabı {ar:لَعَلَّهُمْ, tr:laʿallahum, gloss:belki onlar} ile açık tutulur. Zamir daha önce uyarılan topluluğu yanıtın öznesi olarak yeniden görünür kılar; {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yol bulurlar} fiilinin Form VIII muzari biçimi ve çoğul uyumu, insanların mümkün cevabı kendilerinin vereceğini gösterir. Amaç bildiren {ar:لِ, tr:li-, gloss:amaç için} edatı elçinin uyarma görevini, {ar:لَعَلَّهُمْ, tr:laʿallahum, gloss:belki onlar} ise topluluğun umut edilen karşılığını kurar; cevap böylece gerçekleşmiş sonuç değil, yönelme imkânı olarak kalır. {ar:ٱفْتَرَىٰهُ, tr:iftarāhu, gloss:onu uydurdu} ile {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yol bulurlar} aynı Form VIII kalıbındadır: ilki vahye yöneltilen uydurma isnadını, ikincisi insanların umulan öz-yönelimini taşır. Son fiil cümleyi hakikat bildiriminden görev ve karşılık umuduna ulaştırır; okurun dikkati suçlamadan uyarının açtığı cevaba geçer.
+
+Kaynak bildirisi {ar:رَّبِّكَ, tr:rabbika, gloss:senin Rabbin} içinde yetiştirip geliştirme yönünü de duyurabilir. Eksikten tamamlanana doğru adım adım bakım anlamı, {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} uyarısı ile {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yön bulurlar} umudunun temasında belirir: tehlike alarmı, yön bulma imkânını taşıyan görevin sarsıcı aşaması olur. Böylece Rabb’in yetiştirici çağrışımı uyarıyı, kaynak bildirisinden koparmadan, rehberliğe uzanan bakım sürecinin içine yerleştirir.
+
+Bu yöneliş umudu, {ar:قَوْمًا, tr:qawman, gloss:bir topluluk} için iki ayrı görüntü açar. Sözcüğün ayakta duran topluluk, düzgün çizgi, denge ve sapmama yönündeki kullanımları {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yön bulurlar} ile buluşunca, bu halk doğrultusu ayarlanabilecek bir beden gibi canlanır. Aynı kökün bir işe kararlılıkla girişme yönü topluluğu edilgin beden olmaktan çıkarır; üyeler uyarıya bilinçli karşılık verebilecek bir özne olarak belirir. Hidayetin hedef ve izlenen doğrultu anlamlarıyla yolu incelikle gösterme yönü bu görüntülere katılınca, bedenin önünde mümkün bir güzergâh açılır. Düzgün duruş ve iradeli yönelme, umulan cevabın iki ayrı katkısıdır; birlikte gerçekleşmiş sonuç değil, yön bulmaya açık bir topluluğu kurarlar.
+
+## Uyarının çevresindeki sahneler
+
+Metnin nasıl kurulduğu sorusu, 10:38 ve 11:13’teki {ar:فَأْتُوا بِسُورَةٍ مِثْلِهِ, tr:faʾtū bisūrati mithlihi, gloss:öyleyse onun benzeri bir sure getirin} meydan okumalarıyla kamusal bir sınamaya genişler. Odaktaki {ar:ٱفْتَرَىٰهُ, tr:iftarāhu, gloss:onu uydurdu} isnadının sınırlı {ar:قَطْعُهُ لِلْإِصْلَاحِ, tr:qaṭʿuhu lil-iṣlāḥ, gloss:onarmak için kesip biçmek} kullanımı, 10:38 ve 11:13’teki benzer sûre isteğinin metnin kuruluşuna yönelen sınamasıyla temas eder: kesip dikme ya da onarma imgesi insan eliyle metin kurma ihtimalini duyururken, sûre meydan okuması bu iddiayı karşılaştırılabilir bir ürün ölçüsüne çıkarır. 16:105’te aynı söz ailesinin karşı yönü görünür: {ar:يَفْتَرِي الْكَذِبَ, tr:yaftarī al-kadhiba, gloss:yalan uydurur} ifadesi Allah’ın ayetlerine inanmayanlara yöneltilir. Böylece 32:3’te elçiye, 16:105’te ise ayetlere inanmayanlara yönelen ithamlar karşılıklı bir doğruluk-uydurma alışverişi kurar; konuşan taraflar ayrı kalır ve bu söz ailesi tek başına taraflardan birine hükmetmez. 10:38 ve 11:13’teki benzer sûre isteği, {ar:ثَوْبٌ مُحَقَّقٌ, tr:thawb muḥaqqaq, gloss:sıkı dokunmuş kumaş} için verilen sıkı dokuma niteliğini {ar:كَلَامٌ مُحَقَّقٌ, tr:kalāmun muḥaqqaq, gloss:sağlam ve tutarlı kurulmuş söz} ifadesindeki sözün kuruluşuna taşır. Kumaş imgesi sözde örgülü tutarlılığı duyurur; bu yapısal sağlamlık {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek ve doğru olan} hakikatinin eş anlamı değil, onunla karşılaştırılan ayrı bir niteliktir.
+
+Sözün kaynağı üzerine açılan tartışma, 28:46’da uyarının yöneldiği topluluk ve onun taşıdığı rahmetle yeni bir görünüm kazanır. Orada {ar:مَا أَتَاهُم مِنْ نَذِيرٍ مِنْ قَبْلِكَ, tr:mā atāhum min nadhīrin min qablika, gloss:daha önce onlara hiçbir uyarıcı ulaşmamıştı} yapısı uyarıyı bir müdahale olarak duyurur; ardından {ar:لَعَلَّهُمْ يَتَذَكَّرُونَ, tr:laʿallahum yatadhakkarūna, gloss:umulur ki öğüt alırlar} kabulü açık bir umut olarak tutar. Bu 28:46 sahnesinde {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} işi {ar:رَحْمَةً مِّن رَّبِّكَ, tr:raḥmatan min rabbika, gloss:Rabbinden bir rahmet} ile birlikte anılır ve {ar:لِتُنذِرَ قَوْمًا, tr:litundhira qawman, gloss:bir topluluğu uyarman için} diye sürer. Bu bağ, 32:3’teki {ar:ٱلْحَقُّ مِن رَّبِّكَ, tr:al-ḥaqqu min rabbika, gloss:Rabbinden gelen hakikat} ve {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} arasında paylaşılan kaynak bağına ışık tutar; odaktaki {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yol bulurlar} umuduyla 28:46’daki öğüt alma ümidi, ayrı toplulukların açık bırakılmış tepkileri olarak yan yana durur.
+
+Uyarı imkânı, 32:10’da direnişle karşılaşır. Oradaki {ar:خَلْقٍۢ جَدِيدٍۭ, tr:khalqin jadīdin, gloss:yeni bir yaratılış} itirazı ve {ar:بِلِقَآءِ رَبِّهِمْ, tr:bi-liqāʾi rabbihim, gloss:Rableriyle karşılaşma}yı reddeden söz, 32:3’teki {ar:لَعَلَّهُمْ يَهْتَدُونَ, tr:laʿallahum yahtadūna, gloss:umulur ki doğru yolu bulurlar} umudunun karşısında somut bir direnç oluşturur. Böylece 32:10, kabulün neden sonuç olarak değil umut olarak sunulduğunu açık eder; iki sahnenin toplulukları ayrı kalır ve 32:3’teki uyarının alımlanışı bu karşılaşmayla belirlenmiş olmaz.
+
+32:13’te {ar:وَلَوْ شِئْنَا لَءَاتَيْنَا كُلَّ نَفْسٍ هُدَاهَا, tr:walaw shiʾnā la-ātaynā kulla nafsin hudāhā, gloss:dileseydik her nefse hidayetini verirdik} her nefse hidayetin verilebileceği şartlı imkânı, ardından gelen {ar:حَقَّ الْقَوْلُ مِنِّي, tr:ḥaqqa l-qawlu minnī, gloss:benim sözüm bağlayıcı oldu} ise bağlayıcı hükmü kurar. Bu iki hareket 32:3’teki {ar:لَعَلَّهُمْ يَهْتَدُونَ, tr:laʿallahum yahtadūna, gloss:umulur ki doğru yolu bulurlar} umudunu zorlanmayan ama gerçekten açık bir yol olarak duyurur; 32:13’ün hükmü kendi sahnesinde kalır. Geliş ve verme temaları da ayrı işler: 32:3’te {ar:أَتَىٰهُم, tr:atāhum, gloss:onlara ulaştı} belirli bir topluluğa uyarıcının varışını, 32:13’teki verme ifadesi her nefse hidayet sunulabilmesini anlatır. 32:13’ün bağlayıcı {ar:الْقَوْلُ, tr:al-qawlu, gloss:söz} ifadesi 32:3’teki {ar:يَقُولُونَ, tr:yaqūlūna, gloss:söylüyorlar} bildirimi ve {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek} yüklemiyle yan yana gelince, bildirilen söz, hakikat niteliği ve bağlayıcı hüküm ayrı katkılar olarak belirir.
+
+32:20’de ateşi yalanlayanlara {ar:ذُوقُوا عَذَابَ النَّارِ, tr:dhūqū ʿadhāba n-nār, gloss:ateş azabını tadın} denir ve {ar:كُنتُم بِهِ تُكَذِّبُونَ, tr:kuntum bihi tukadhdhibūna, gloss:onu yalan sayıyordunuz} diye hatırlatılır. Bu sahne, 32:3’teki {ar:يَقُولُونَ, tr:yaqūlūna, gloss:söylüyorlar} bildirimi ve {ar:ٱفْتَرَىٰهُ, tr:iftarāhu, gloss:onu uydurdu} isnadına yaşanmış bir karşılık ufku ekler: kamusal isnat ile deneyim yan yana gelir. 32:20’de konuşanların kimliği ve sonucu 32:3’teki ithama bağlayan bir nedensellik kurulmaz.
+
+Bu karşılık ufku 32:21’de zaman bakımından açılır: {ar:الْعَذَابِ الْأَدْنَىٰ دُونَ الْعَذَابِ الْأَكْبَرِ, tr:al-ʿadhābi l-adnā dūna l-ʿadhābi l-akbari, gloss:daha büyük azaptan önceki daha hafif azap} sıralamasını {ar:لَعَلَّهُمْ يَرْجِعُونَ, tr:laʿallahum yarjiʿūna, gloss:umulur ki dönerler} umudu izler. Odaktaki {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} fiilinin sakındırıcı yönü, bu erken ceza ve dönüş umuduyla birleşerek sonucun kesinleşmesinden önce işleyen bir düzeltme aralığı kurar. Bağlantı zaman ve uyarı işlevi üzerindendir: 32:21’deki dönüş kendi sahnesinde umut olarak kalır ve 32:3’teki hidayet fiilinin sözlük anlamını değiştirmez.
+
+“Senden önce” sınırının gösterdiği boşluk, 32:23’te başka bir topluluk için Musa’ya verilen kitabın {ar:هُدًى لِبَنِي إِسْرَائِيلَ, tr:hudan li-banī isrāʾīla, gloss:İsrailoğulları için rehberlik} oluşuyla karşılanır. Ardından 32:24’te {ar:أَئِمَّةً يَهْدُونَ بِأَمْرِنَا, tr:aʾimmatan yahdūna bi-amrinā, gloss:buyruğumuzla yol gösteren önderler} insan aracılığıyla süren rehberliği görünür kılar; {ar:صَبَرُوا, tr:ṣabarū, gloss:sabrettiler} ve {ar:يُوقِنُونَ, tr:yūqinūna, gloss:kesin inanıyorlardı} bu işi sabır ve ayetlere kesin inançla sürdürme koşullarını belirtir. Aynı kelime ailesinin {ar:الْهَادِي, tr:al-hādī, gloss:önden giden kılavuz} gibi sınırlı kullanımı önde ya da ilk sırada bulunmayı, kimi örneklerde taşıyanın önünde ilerleyen değnek veya kılavuzu anlatır. 32:24’teki önderler bu önde olma imgesini insan aracılığıyla yönlendirmeye bağlar. Odaktaki {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yol bulurlar} fiili yol bulma anlamını taşırken, değnek imgesi aynı kökün {ar:الْهَادِي, tr:al-hādī, gloss:önden giden kılavuz} biçimine bağlı ayrı bir kullanımdan gelir. 32:23 ve 32:24, başka bir topluluk için önceki rehberliği görünür kılar; bu bağlantı 32:3’teki gruba kurumsal bir devamlılık atfetmez. Böylece {ar:قَبْلِكَ, tr:qablika, gloss:senden önce} bu topluluğa uyarıcının ulaşmadığı süreyi sınırlarken, başka bir topluluğun daha önce aldığı rehberliği de sahnede tutar.
+
+İnsanî rehberlik sahnesinden 32:25 daha geniş bir yargı ölçeğine geçer. 32:3’teki {ar:قَوْمًا, tr:qawman, gloss:bir topluluk} sözüyle aynı kelime ailesinin diriliş ve hükümle ilgili sonraki kullanımı, 32:25’te {ar:يَوْمَ الْقِيَامَةِ, tr:yawma l-qiyāmati, gloss:diriliş günü} ve {ar:يَفْصِلُ بَيْنَهُمْ, tr:yafṣilu baynahum, gloss:aralarında hüküm verir} yan yana gelince odaktaki topluluğa evrensel bir hesaplaşma ufku ekler. Bu kök bağı odağı diriliş gününün adından çok, uyarılan toplumdan bütün insanların yargılandığı ölçeğe genişletir; 32:25’teki topluluk kendi sahnesinde kalır ve 32:3’teki toplulukla özdeşleşmez.
+
+32:3’te {ar:أَتَىٰهُم, tr:atāhum, gloss:onlara ulaştı} belirli aralıkta bir uyarıcının topluluğa ulaşmadığını bildirir. 32:26 ise çevrede başka izler bulunduğunu gösterir: insanlar yok olmuş kuşakların {ar:يَمْشُونَ فِي مَسَاكِنِهِمْ, tr:yamshūna fī masākinihim, gloss:evlerinin arasında dolaşıyorlar} diye anlatılır; yürüyen bedenler tarihî izi evlerin arasında karşılaşılan somut bir şeye dönüştürür. 32:26’nın {ar:أَوَلَمْ يَهْدِ لَهُمْ, tr:awalam yahdi lahum, gloss:onlara yol göstermedi mi} sorusu, 32:3’teki {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yön bulurlar} umuduyla yan yana gelince harap kuşaklar, dolaşılan meskenler ve görülen işaretler yeni bir rehberlik sorusu doğurur; maddi izlerin anlamı, 32:26’nın işitmeye çağıran sözüyle belirginleşir. Yok olmuşların meskenleri tarihî sonucu görünür kılarken, orada yürüyenlerin hareketi bu izlerle karşılaşmayı bedensel kılar. Sahnenin sonundaki {ar:أَفَلَا يَسْمَعُونَ, tr:afalā yasmaʿūna, gloss:öyleyse işitmiyorlar mı} çağrısı sessiz kalıntıları işitilebilir, eyleme yönelten bir uyarıya çevirir. Böylece 32:26’daki yürüyüş ve işitme sahnesi, 32:3’teki uyarıcının ulaşmadığı gruptan ayrı kalırken işaretlerin yönelttiği cevabı açık bırakır.
+
+Bu harabeler, 32:3’teki uyarının önleyebileceği zararı karşı uçtan görünür kılar. Odaktaki {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} tehlikeyi bildirip sakınmaya çağırır; {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:doğru yola yönelirler} olumlu yön bulmayı taşır. 32:26’daki yıkılmış kuşaklar bu önleyici uyarının karşısındaki zararı somutlaştırır. Ayrıca keşifsel bir kelime ailesi çağrışımı, {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:doğru yola yönelirler} yanında ağır kırıp yıkma imgesini duyurur; 32:26’nın yok oluş sahnesi bu dalı yerel bir gölgeyle besler. Bu kırılma imgesi, hidayet fiilinin sözlük anlamını değil, umulan yönelişin önleyebileceği zararı belirginleştirir.
+
+32:26’daki yürüyüş ve kalıntı sahnesinden sonra 32:27 başka bir maddi görüntü açar. Odaktaki {ar:أَتَىٰهُم, tr:atāhum, gloss:onlara ulaştı} olağan anlamıyla gelmek ve ulaşmaktır. Aynı Form I fiilin ayrı kullanımı, yalnızca yağmur almış bir yerden yağmur almamış yere gelen seli anlatan özel kalıpta görünür: {ar:السَّيْلُ الَّذِي يَأْتِي مِنْ بَلَدٍ أَصَابَهُ الْمَطَرُ إِلَى بَلَدٍ لَمْ يُصِبْهُ, tr:as-saylu alladhī yaʾtī min baladin aṣābahu l-maṭaru ilā baladin lam yuṣibhu, gloss:yağmur alan bir yerden yağmur almamış yere gelen sel}. Bu sel kalıbı dışarıdan gelen hayat taşıyıcı varış için sınırlı bir benzetme sağlar; 32:27’nin kendi sahnesi ise çıplak ve bitkisiz toprağa sürülen sudur.
+
+32:27’de {ar:نَسُوقُ الْمَاءَ, tr:nasūqu l-māʾa, gloss:suyu sürüp getiririz} suyu ihtiyaç duyulan yere taşıyan hareketi, {ar:الْأَرْضِ الْجُرُزِ, tr:al-arḍi l-juruzi, gloss:çıplak ve bitkisiz toprak} ise su varmadan önceki alıcı hâli kurar. Ardından {ar:زَرْعًا, tr:zarʿan, gloss:ekin} suyun temasından sonra yetişeni adlandırır ve bu bitkiden hem insanlar hem hayvanlar beslenir. Bu sıra, 32:3’teki {ar:أَتَىٰهُم, tr:atāhum, gloss:onlara ulaştı} uyarıcı gelişini bilgi ileten bir varıştan hayat doğurabilecek temasa genişletir. {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} tehlikeyi haber verip sakındırma görevini korurken, 32:27’deki su imgesi bu göreve hayat taşıyan bir yön katar. Toprak alıcı, ekin ise olası karşılığın imgesidir: uyarılan topluluğun kendisi bitki olmaz; {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yön bulurlar} umudu kabul edilip izlenebilecek bir cevaba açılır, garanti edilmiş ürüne dönüşmez. 32:27 böylece kendi kudret ve diriliş delilini de sürdürür.
+
+32:27’de sulama ve beslenme sahnesi görme, ardından da fark edişe uzanır. {ar:أَفَلَا يُبْصِرُونَ, tr:afalā yubṣirūna, gloss:öyleyse görmüyorlar mı} sorusu suyun taşınmasını, ekinin yetişmesini ve ondan yararlanmayı algının önüne getirir. Böylece 32:3’teki {ar:يَهْتَدُونَ, tr:yahtadūna, gloss:yol bulurlar} umudunun açık bıraktığı yöneliş, 32:27’de hayat taşıyan varışın görülebilir işaretiyle yeniden düşünülür.
+
+Bu görme sorusundan sonra 32:28 başka bir soruyla eşiği açar: {ar:مَتَىٰ هَٰذَا الْفَتْحُ إِن كُنتُمْ صَادِقِينَ, tr:matā hādhā l-fatḥu in kuntum ṣādiqīna, gloss:eğer doğru söylüyorsanız bu açılış ne zaman}. 32:28’deki açılış talebi, 32:3’te {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek ve doğru olan} diye bildirilen iddiayı muhatapların kendi doğruluk ölçütüyle sınar; kapanmış olanı açma imgesi yanıt bekleyen bir eşik kurar. Bu soru, 32:28’in ayrı bir zafer sahnesi olarak okunmasına da yer bırakır. 32:29 bu eşiği {ar:يَوْمَ الْفَتْحِ, tr:yawma l-fatḥi, gloss:açılış günü} diye adlandırır; {ar:لَا يَنفَعُ الَّذِينَ كَفَرُوا إِيمَانُهُمْ, tr:lā yanfaʿu alladhīna kafarū īmānuhum, gloss:inkâr edenlere imanları yarar sağlamaz} ve {ar:وَلَا هُمْ يُنظَرُونَ, tr:wa-lā hum yunẓarūna, gloss:onlara süre tanınmaz} ifadeleri son eşikte geç gelen imanın yarar sağlamadığını ve mühlet kalmadığını belirtir. 32:3’teki {ar:قَبْلِكَ, tr:qablika, gloss:senden önce} sınırı ile {ar:تُنذِرَ, tr:tundhira, gloss:uyarasın} görevi, cevabın hâlâ mümkün olduğu aralığı belirler. 32:3’teki bu uyarı cevaba önceden yer açar; 32:28’in olası zafer sahnesini takvimde tarihlendirmeden açık bırakır.
+
+</editorial_prose>

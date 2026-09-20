@@ -1,0 +1,152 @@
+{
+  "schema_version": "commentary-v5-scope-landing-ledger-v1",
+  "ayah_ref": "32:30",
+  "lane": "global",
+  "findings": [
+    {
+      "finding_ref": "global:withdrawal_after_refusal",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 1,
+          "anchor": "Emir {ar:أَعْرِضْ, tr:aʿriḍ, gloss:yüz çevir} olağan anlamıyla muhataptan ilgiyi çekip yüz çevirmeyi bildirir; 15:81’de işaretler verildikten sonra onlardan yüz çeviren topluluk, 53:29’da ise hatırlatmadan yüz çevirene karşı elçiye yönelişi kesme emri, bu hareketi reddedilmiş rehberliğe verilmiş bir karşılık ve aynı hatırlatmayı zorlamaktan vazgeçme sınırı olarak duyurur; ilişki düzeyindeki bu paralellik ayrı kitleleri özdeşleştirmez ve emri sonraki her sözü ya da eylemi yasaklayan bir buyruğa dönüştürmez."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1",
+            "connection:conn_19ff1cb84b1ff6d5accc",
+            "connection:conn_68b16973bf01b8764dd0",
+            "context:15:81",
+            "context:53:29"
+          ],
+          "paragraph": 1,
+          "anchor": "İki sahnede yüz çevirme eylemleri birbirine karşılık gelir, ancak fail ve sebep aynı değildir: odaktaki emir muhatabın gruptan ilgisini çekmesini isterken 15:81’de topluluk işaretlerden yüz çevirir, 53:29’da da elçiye hatırlatmayı reddedenden yüz çevirme buyurulur; bu karşılaşma geri çekilmeyi reddedilmiş hatırlatmaya verilmiş yanıt olarak açıklar, fakat aynı sorumluluk ya da sözcüksel anlam kurmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:paired_withdrawal_wait",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "connection:conn_4d6b934dbddfd5753e99",
+            "connection:conn_a217b78ff5b9e8484548",
+            "context:6:68",
+            "context:11:122"
+          ],
+          "paragraph": 2,
+          "anchor": "Emir {ar:أَعْرِضْ, tr:aʿriḍ, gloss:yüz çevir} ile onu izleyen {ar:ٱنتَظِرْ, tr:intazir, gloss:bekle} ve karşı tarafı bildiren {ar:مُّنتَظِرُونَ, tr:muntaẓirūn, gloss:bekleyenler}, konuşmadan çekilmeyi kayıtsızlığa değil, ufku açık bir bekleyişe bağlar: 6:68’de konu değişinceye dek geri durma ilişkisi, 11:122’de ise bekleme emrinin öteki tarafın bekleyişiyle eşleşmesi vardır; böylece şimdiki konuşma durabilirken geleceğe yöneliş sürer, fakat paraleller 32:30 için ne kesin süre ne de beklenen nesneyi belirler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:shared_wait_unequal_forecasts",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "connection:conn_60cbb5bd66ef40e918e4",
+            "connection:conn_bd6527560bb587878fbd",
+            "connection:conn_a217b78ff5b9e8484548",
+            "context:9:52",
+            "context:10:20",
+            "context:11:122"
+          ],
+          "paragraph": 2,
+          "anchor": "32:30’da {ar:ٱنتَظِرْ, tr:intazir, gloss:bekle} ile {ar:مُّنتَظِرُونَ, tr:muntaẓirūn, gloss:bekleyenler} ortak bir bekleme aralığı kurar; 11:122’nin eşleşen bekleyişi, 9:52’de tarafların beklediği sonuçların ayrılığı ve 10:20’de görülmeyen zamanlamanın Tanrı’ya bırakılmasıyla birlikte düşünüldüğünde, aynı duruşun eşit beklenti, zaman üzerindeki eşit denetim ya da ortak sonuç anlamına gelmediğini gösterir: Form VIII’deki {ar:مُّنتَظِرُونَ, tr:muntaẓirūn, gloss:bekleyenler} “bekleyenler” demektir, eşitlik değil; topluluğun kesin güveni, alayı, beklediği olay ve sonucu açık bırakılmıştır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:waiting_inside_measured_time",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "connection:conn_e509968f89c9e9232c86",
+            "context:32:5"
+          ],
+          "paragraph": 3,
+          "anchor": "Buradaki bekleyiş, {ar:ٱنتَظِرْ, tr:intazir, gloss:bekle} emri ve {ar:مُّنتَظِرُونَ, tr:muntaẓirūn, gloss:bekleyenler} biçimindeki karşı taraf tasviriyle geleceğe yönelir; 32:5’te {ar:يُدَبِّرُ, tr:yudabbiru, gloss:yönetir} ile işlerin yürütülmesi, {ar:يَوْمٍ, tr:yawmin, gloss:gün} ve {ar:مِقْدَارُهُ, tr:miqdāruhu, gloss:ölçüsü} ile de ölçülü bir süre anılır, böylece bekleyiş tarafların belirlediği boş zaman değil, etkin biçimde yönetilen ve ölçülen bir aralık gibi duyulur; bu kozmik düzen bağlantısı sınırlı bir çıkarımdır, 32:5’in 32:30’da beklenen belirli olaya takvim ya da kesin tarih verdiği sonucu değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:waiting_to_apprehension",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5",
+            "context:32:6",
+            "context:32:12"
+          ],
+          "paragraph": 3,
+          "anchor": "Aynı n-ẓ-r kökünün “bakıp inceleme, dikkati yöneltme” kullanımı burada beklemenin yerine geçmez: Form VIII emir {ar:ٱنتَظِرْ, tr:intazir, gloss:bekle} ve ism-i fâil {ar:مُّنتَظِرُونَ, tr:muntaẓirūn, gloss:bekleyenler} olağan bekleyiş anlamını korur; 32:6’daki {ar:الْغَيْبِ, tr:al-ghaybi, gloss:gizli} ile {ar:ٱلشَّهَٰدَةِ, tr:ash-shahādati, gloss:görülen} karşıtlığı ve 32:12’de grubun {ar:أَبْصَرْنَا, tr:abṣarnā, gloss:gördük} ve {ar:وَسَمِعْنَا, tr:wa-samiʿnā, gloss:işittik} deyişi, bu aralığa gizliden algıya doğru yönelen bir dikkat katmanı ekler; bağlantı tematik olabilir, 32:12’deki sahnenin beklenen olayla aynı olduğu ileri sürülmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:embodied_release_while_waiting",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "32:16’daki bedensel çekilme sahnesi, {ar:أَعْرِضْ, tr:aʿriḍ, gloss:yüz çevir} emrinin olağan “yüz çevir” anlamını koruyarak ʿ-r-ḍ kökünün uzunluğun karşısındaki en boyutu ve yan/taraf kullanımlarını uzamsal bir benzetme olarak duyurur; yakın bir bağlılıktan salıverilme imgesi, {ar:ٱنتَظِرْ, tr:intazir, gloss:bekle} ile {ar:مُّنتَظِرُونَ, tr:muntaẓirūn, gloss:bekleyenler} biçimlerinin sürdürdüğü geleceğe dönük yönelişle birlikte kalır, ancak 32:16’daki ibadet edenlerin eylem ve amacı 32:30’daki buyrulan toplulukla özdeş değildir ve bu kök imgesi Form IV emrinin gerçek anlamı değildir."
+        },
+        {
+          "movement_refs": [
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5",
+            "activation:6",
+            "activation:7",
+            "context:32:16"
+          ],
+          "paragraph": 4,
+          "anchor": "32:16’da {ar:تَتَجَافَىٰ, tr:tatajāfā, gloss:uzaklaşır} ile {ar:جُنُوبُهُمْ, tr:junūbuhum, gloss:yanları} yataklardan, {ar:الْمَضَاجِعِ, tr:al-maḍājiʿ, gloss:yataklar}dan ayrılır; bu bağımsız beden sahnesi, yakın dinlenme yerine bağlılıktan ayrılmayı ve yanların en/yan boyutunu somutlaştırarak yüz çevirmeyi etkin bir yeniden yöneliş, hatta yanını göstererek dönmenin görünür bedensel resmi olarak düşündürür, aynı ayetteki {ar:يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا, tr:yadʿūna rabbahum khawfan wa-ṭamaʿan, gloss:Rablerine korku ve umutla yakarırlar} dua yönelimi de bu salıverilmenin {ar:ٱنتَظِرْ, tr:intazir, gloss:bekle} ve {ar:مُّنتَظِرُونَ, tr:muntaẓirūn, gloss:bekleyenler} ile taşınan bekleyişteki geleceğe dönük tutumla yan yana sürebileceğini gösterir."
+        }
+      ]
+    }
+  ]
+}

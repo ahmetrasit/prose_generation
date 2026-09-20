@@ -1,0 +1,667 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:42",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_0ff32b2fadeaf659aa1a",
+      "decision": "accept",
+      "reason": "Güvenilir çapraz-yayın bulgusu odaktaki dört taşıyıcıya bağlanıyor. Altı aday dalın tümü bir veya daha fazla kesin odak fasetiyle korunuyor; B003 sınır-aşımı basıncı ayrı, analojik bir bulguda tutuluyor.",
+      "finding_refs": [
+        "global:route-dependence",
+        "global:path-distortion"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_63647fa2d241469a4b89",
+      "decision": "represented",
+      "reason": "Yol arayan varsayılan ilahların yetkinin kaynağı değil ona yönelen özneler olduğu iddiası global:route-dependence bulgusunda aynen taşınıyor; adayın B001 dalı odak fasetleriyle iniyor.",
+      "finding_refs": [
+        "global:route-dependence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d74ba998a07bd37a2968",
+      "decision": "accept",
+      "reason": "17:57'de anılan varlıkların Rablerine yönelişini 17:42'deki varsayımsal arayışla ilişkilendiren retrospektif okuma, yol-bağımlılığı çekirdeğinden ayrı bir gerçekleşme etkisi taşıyor. Okuma, bağlam sözcük eşlemesi sunmadığı için atfedilmiş ve keşifsel statüde korunuyor; Fâtiha 1:5 dış tetikleyicisi global sınırı sağlıyor.",
+      "finding_refs": [
+        "global:actual-seekers"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2314e9525d575af1c495",
+      "decision": "represented",
+      "reason": "Yolun bir güç merkezine bağımlılık doğurduğu iddiası global:route-dependence bulgusuyla aynıdır. Adayın tek dalı B001 olarak iniyor; 17:39, 17:40, 17:43 ve 17:44 bağlam işaretlerinin her biri bulgunun etkinleştirme tetikleyicilerinde yer alıyor.",
+      "finding_refs": [
+        "global:route-dependence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d734504ce253983f2b21",
+      "decision": "represented",
+      "reason": "17:44'te bütün varlıkların övgüsü içinde varsayılan ilahların bağımsız güç merkezleri değil bağımlı özneler oluşu, global:route-dependence içinde aynı sonuç olarak taşınıyor; 17:44 etkinleştirme tetikleyicisi olarak iniş yaptı.",
+      "finding_refs": [
+        "global:route-dependence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3b17d24c9d021836a8ce",
+      "decision": "reject",
+      "reason": "sup_cf30edcb17e4cf3d07d8 yalnızca 17:56-57'deki varlıkların odakla özdeşliğini özetliyor. HFT kaydında bağlam sözcük indisi, kök, atfedilmiş rol ve odağa dönüş yok; böylece HFT için belirtilen kesin iz koşulu sağlanmıyor. 17:57'nin ayrı okuyucu-yürüyüşü adayı cand_d74ba998a07bd37a2968 altında atfedilmiş olarak değerlendirildi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:56",
+          "reason": "HFT özeti bu same-surah/pericope bağlamını sözcük indisi, kök ve odağa dönüş izi olmadan anıyor."
+        },
+        {
+          "context_ref": "17:57",
+          "reason": "HFT özeti bu same-surah/pericope bağlamını sözcük indisi, kök ve odağa dönüş izi olmadan anıyor; ayrı okuyucu-yürüyüşü kanıtı bu HFT kaydını tamamlamıyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_add3625a4d035e1f598d",
+      "decision": "reject",
+      "reason": "sup_d16e969c9ab194d32383 yalnızca BGY dalının olası aktörlerini sıralayan bir HFT özetidir; odak/bağlam koordinatı, kök izi, atfedilmiş rol veya odağa dönüş sağlamaz. B003 dalı ayrı olarak 7:45 bağlantısının metni üzerinden değerlendirildi; bu HFT özeti ona kanıt yapılmadı.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_febfcc2e93bf7c879fbb",
+      "decision": "reject",
+      "reason": "sup_ad84c71e01e05c410b81 yol için araç, erişim, yöneliş ve rütbe seçeneklerini bağlam koordinatı vermeden listeliyor. HFT kaydında belirli bir bağlam, kök, atfedilmiş rol veya odağa dönüş bulunmadığından bu olasılık dökümü global bir etkinleşme kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a4c51d621a9d741c9f54",
+      "decision": "reject",
+      "reason": "sup_b42432d915758cd5e481 17:48'deki yol tekrarını ve fail değişimini bildiriyor; HFT anchor_refs/branch_refs boş, sözcük indisi-kök-rol-odağa dönüş izi yok. 17:48 odak sûrenin aynı pericope bağlamında kaldığından bu aday ayrıca global tetikleyici sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:48",
+          "reason": "Aynı host-surah/pericope bağlamı global dış tetikleyici değildir; HFT kaydında gerekli sözcük izi de yoktur."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b8be1fa927c6172f5844",
+      "decision": "reject",
+      "reason": "sup_c059718eb97f6f17eb12 bağımlı aracılar fikrini 17:56-57'ye bağlayan bir HFT özeti sunuyor, fakat tam izde anchor_refs, branch_refs, sözcük indisi, kök, atfedilmiş rol ve odağa dönüş yok. Benzer 17:57 okuyucu-yürüyüşü ayrı bir kaynak olarak korunuyor; bu HFT kaydı onun yerine geçirilmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:56",
+          "reason": "Pericope içi tetikleyici HFT kaydında tam sözcük/kök/odak dönüş iziyle sağlanmamış."
+        },
+        {
+          "context_ref": "17:57",
+          "reason": "Pericope içi tetikleyici HFT kaydında tam sözcük/kök/odak dönüş iziyle sağlanmamış; okuyucu-yürüyüşü ayrı değerlendirilmiştir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3ec73b96fe5b4e457ebe",
+      "decision": "reject",
+      "reason": "sup_6b94b4e90ce2b11ef5e5 odağın sonlarına doğru konuşanların doktrinine taşınan sınır-aşımı yorumunu ileri sürüyor, fakat kayıtta bunu belirli bir bağlam ayeti, sözcük indisi, kök, atfedilmiş rol veya odak dönüşüne bağlayan iz yok. Aktörleri konuşanlara taşımak sağlanan HFT rolünü aşıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f19d4f21ff31d45025fd",
+      "decision": "reject",
+      "reason": "sup_62d6bd79550880442c0d herhangi bir odak/bağlam koordinatı, dal veya odağa dönüş içermiyor; ayrıca sonuçları 'strongest/weaker' diye sıralıyor. Eksik HFT izi ve sıralama, iki ayrı sonucu bu global keşif kaydında taşımaya izin vermiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:route-dependence",
+      "origin_candidate_id": "cand_0ff32b2fadeaf659aa1a",
+      "represented_candidate_ids": [
+        "cand_63647fa2d241469a4b89",
+        "cand_2314e9525d575af1c495",
+        "cand_d734504ce253983f2b21"
+      ],
+      "title": "Yol arayışı ve yetkinin yönü",
+      "claim": "17:42'nin varsayılan ilahları Arş sahibine erişecek bir yol arayan özneler olarak kurması, onları yetkinin kaynağı değil ona yönelen varlıklar hâline getirir. Fâtiha 1:5'te ibadet ve yardım talebinin Allah'a yönelmesi, 5:35 ve 25:57'de O'na giden vasıta/yolun olumlu bir yöneliş olarak görünmesi, yol aramayı başlı başına kusur değil bağımlılık ilişkisi kılar; odaktaki sorun, ilah sayılanların kendilerinin de daha üstün bir makama yönelmek zorunda oluşudur. 23:116'da gerçek Hükümdar'ın Arş rabbiyle yan yana anılması bu yönelişin makamını belirginleştirir; 17:39-44'e ilişkin sağlanan okuyucu izleri de bunu ortak iktidar iddiası ve bütün varlıkların övgüsü içinde konumlandırır.",
+      "mechanism": "Odak taşıyıcıları 17:42:9:2'deki ibtaghaw (bir şeyi arayıp istemek), 17:42:13:1'deki sabilan (yol/ulaşma yolu) ve yönelinen Dhi al-Arsh ifadesidir. 1:5'in bağlantı notu ibadeti ve yardım talebini Allah'a yöneltir; 5:35 ve 25:57'nin sağlanan Arapça yüzeyi ile bağlantı kayıtları Allah'a yönelen vasıta/yol ilişkisini verir; 23:116 gerçek hükümdarlığı ve Arş rabliğini birlikte adlandırır. Bu bağımsız ilişkiler, odaktaki sözde ilahları aynı otoriteye doğru yol arayanlar olarak yeniden konumlandırır. 17:39-40, 17:43 ve 17:44'ün okuyucu-yürüyüşü içindeki uyarı, dikey iddia ve evrensel övgü işaretleri bu bağımlılığı aynı-sûre bağlamında destekler.",
+      "reader_payoff": "Arş'a giden yol dekoratif bir mekân imgesi olmaktan çıkar ve kimin kime yöneldiğini gösterir. Fâtiha ile diğer yol bağlantıları, Allah'a yönelmenin ibadet edenler için de anlaşılır bir bağımlılık biçimi olduğunu gösterir; odaktaki kırılma, yol aramanın kendisinde değil ilah sayılanların da daha üstün bir makama muhtaç özneler oluşundadır.",
+      "containment": "Odak koşullu yapısını korur: varsayılan ilahların fiilen var olduğu söylenmez. 1:5, 5:35, 25:57 ve 23:116 odaktaki kişileri tanımlamaz; ilişki çapraz-âyet yankısıdır. Bağlantı hedeflerinin morfolojisi bu pakette yoktur. root_001000/B001'in ilahî kullanıma ilişkin F003 sınırı uyarınca Arş'ın mahiyeti hakkında iddia kurulmaz; yalnızca sağlanan unvan ve yetki ilişkisi taşınır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Odak sözcük yüzeyi ve güvenilir çapraz-yayın kaydı mevcut; 17:39-44'e ilişkin ek bağlam okuyucu-yürüyüşlerinden legacy_unbound statüsünde geliyor. Dış bağlantılar tam Arapça yüzey sunsa da morfoloji vermiyor ve Arş dalı ilahî kullanımda nitelik sınırını açıkça koruyor."
+      },
+      "support_ids": [
+        "sup_2efd834c306a7b279d3a",
+        "sup_4ef25050645867257275",
+        "sup_cbc58e8403be37d66a35",
+        "sup_e6e693441979530c51be"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:5:1"
+          ],
+          "trigger_refs": [
+            "1:5"
+          ],
+          "focus_return_refs": [
+            "17:42:5:1"
+          ],
+          "carrier": "Odaktaki alihah adı tapınmanın yöneldiği varlıkları adlandırır; dalın eylem çekirdeği bu nesne ilişkisi içinde taşınır.",
+          "independent_trigger": "Fâtiha 1:5 bağlantısı ibadeti ve yardım talebini Allah'a yönelten bağımsız bir ibadet ilişkisi sunar.",
+          "activation": "Odaktaki varsayılan ibadet nesneleri, dış bağlamdaki yalnız Allah'a yöneltilen ibadet eylemiyle karşılaşır; odak adı tapınma ilişkisinin içinde okunur.",
+          "resulting_reading": "Çokluk, yalnızca güçlü varlıkların sayısı değil, ibadetin kime yöneltileceğine ilişkin bir iddia hâline gelir.",
+          "boundary": "Odak sözcüğü belirsiz çoğul addır; bu temas 1:5'in doğrudan alıntılandığını veya konuşanların Fâtiha'daki toplulukla aynı olduğunu ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:5:1"
+          ],
+          "trigger_refs": [
+            "1:5",
+            "17:39",
+            "17:40"
+          ],
+          "focus_return_refs": [
+            "17:42:5:1"
+          ],
+          "carrier": "17:42:5:1'deki alihah, varsayılan tapınılan varlıkları gösterir.",
+          "independent_trigger": "1:5'in ibadeti Allah'a yöneltmesi ve sup_2efd834c306a7b279d3a okuyucu izinin 17:39-40'taki ortak ilah uyarısını belirtmesi.",
+          "activation": "Odaktaki çoğul tapınılan varlıklar, hem tekil ibadet yönelişiyle hem de ortaklık uyarısıyla karşılaşır; bu temas onları yetki iddiası taşıyan tapınma hedefleri olarak görünür kılar.",
+          "resulting_reading": "Varsayılan ilahlar, kendilerine yöneltilen ibadet ve otorite iddiası üzerinden sınanan varlıklar olur.",
+          "boundary": "17:39-40 bağlamı okuyucu izinde özetlenmiştir; bu ayetlerin sözcük morfolojisi bu pakette ayrıca sağlanmamıştır."
+        },
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:9:2"
+          ],
+          "trigger_refs": [
+            "1:5",
+            "5:35",
+            "25:57"
+          ],
+          "focus_return_refs": [
+            "17:42:9:2"
+          ],
+          "carrier": "Odaktaki ibtaghaw, bir hedefe yönelen arama ve isteme fiilidir.",
+          "independent_trigger": "1:5 yardım talebini, 5:35'in sağlanan bağlantısı Allah'a yönelen vasıta arayışını, 25:57'nin bağlantı notu Rabbe giden yolu bağımlı yöneliş olarak sunar.",
+          "activation": "Odaktaki arayış fiili, Allah'a yönelmenin ibadet edenler için de bir arama/yöneliş olabildiğini gösteren dış ilişkilerle buluşur; odakta arayanlar bu kez ilah sayılan varlıklardır.",
+          "resulting_reading": "Arş sahibine yönelme, varsayılan ilahları kendi başlarına son merci değil hedefe erişmek isteyen özneler olarak kurar.",
+          "boundary": "Dış bağlantılar odaktaki fiilin aynı morfolojiye sahip olduğunu kanıtlamaz; burada taşınan şey arama-yöneliş ilişkisidir."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "İnsanların üzerinde yürüyüp ilerlediği uzanmış yol veya yolları belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:13:1"
+          ],
+          "trigger_refs": [
+            "5:35",
+            "25:57"
+          ],
+          "focus_return_refs": [
+            "17:42:13:1"
+          ],
+          "carrier": "Odaktaki sabilan, Arş sahibine yöneltilen bir yol nesnesidir.",
+          "independent_trigger": "5:35'in sağlanan Arapça yüzeyi yol ve Allah'a yönelme ilişkisini, 25:57 bağlantı notu Rabbe giden yolu verir.",
+          "activation": "Yol sözcüğü, daha geniş bağlamdaki Allah'a yönelen yol ilişkisiyle karşılaşınca yalnız mekânsal güzergâh değil, yönelinen hedefe erişme yolu olarak belirginleşir.",
+          "resulting_reading": "Aranan şey, odaktaki ilahların kendilerinden üstün bir makama doğru izlemeleri gereken yoldur.",
+          "boundary": "Bu dal çıplak yol anlamını taşır; odaktaki sözcükten yolcu anlamı çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "Bir sonuca erişmeyi mümkün kılan bağlantı, yöntem, olanak veya çıkış yolunu belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:13:1"
+          ],
+          "trigger_refs": [
+            "5:35",
+            "25:57"
+          ],
+          "focus_return_refs": [
+            "17:42:13:1"
+          ],
+          "carrier": "Odaktaki sabilan, arayış fiilinin nesnesi ve Dhi al-Arsh'a erişme yolu olarak durur.",
+          "independent_trigger": "25:57 bağlantı notu Rabbe giden sabil'i geçerli bir bağımlı yöneliş olarak, 5:35 bağlantısı O'na yönelen vasıta arayışını gösterir.",
+          "activation": "Odaktaki yol, dış bağlamlardaki hedefe erişme yolu ile buluşur; arayanın hedefe ulaşmak için bir vasıtaya ihtiyaç duyması, yetkinin kendisinde olmadığını görünür kılar.",
+          "resulting_reading": "Sabilan hem yol hem daha üstün makama erişmeyi sağlayan araç olarak çalışır; bağımlılık ilişkisi yolun işlevine yerleşir.",
+          "boundary": "Bu faset F001 yol anlamıyla birlikte taşınır; odak için sabit bir ahlaki 'doğru yol' karşılığı ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001000/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hükümdar tahtı ve yönetim makamı",
+          "facet_statement": "Hükümdarın oturduğu yüksek ve yönetici konumunu gösteren tahttır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:12:2"
+          ],
+          "trigger_refs": [
+            "17:43",
+            "23:116"
+          ],
+          "focus_return_refs": [
+            "17:42:12:2"
+          ],
+          "carrier": "Odaktaki Arş, yol arayışının yöneltildiği Dhi al-Arsh unvanının parçasıdır.",
+          "independent_trigger": "23:116'nın bağlantı notu gerçek hükümdarlığı, tek ilahlığı ve Arş rabliğini bir araya getirir; sup_2efd834c306a7b279d3a 17:43'teki dikey iddia işaretini belirtir.",
+          "activation": "Odaktaki Arş unvanı, dış bağlantıdaki hükümdarlık ve Arş rabliğiyle karşılaşınca varsayılan ilahların aradığı hedefi yönetici otorite olarak belirginleştirir.",
+          "resulting_reading": "Yolun varış noktası, odaktaki iddia sahiplerinden ayrı ve onlara yön veren bir makamdır.",
+          "boundary": "Dal qualified durumdadır; ilahî kullanımda Arş'ın gerçek niteliği bu paketle belirlenemez."
+        },
+        {
+          "branch_ref": "root_001000/B001",
+          "facet_id": "F002",
+          "branch_gloss": "hükümdar tahtı ve yönetim makamı",
+          "facet_statement": "Tahttan hareketle hükümdarın yönetim makamını da belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:12:2"
+          ],
+          "trigger_refs": [
+            "17:43",
+            "17:44",
+            "23:116"
+          ],
+          "focus_return_refs": [
+            "17:42:12:2"
+          ],
+          "carrier": "Odaktaki Arş, Dhi al-Arsh terkibinde varış noktasının makamını adlandırır.",
+          "independent_trigger": "23:116 gerçek hükümdarlık ile Arş rabliğini yan yana koyar; okuyucu-yürüyüşü 17:43'teki dikey iddia işaretini ve 17:44'teki evrensel övgüyü bu odakla ilişkilendirir.",
+          "activation": "Tahttan yönetim makamına uzanan faset, dıştaki hükümdarlık unvanı ve sağlanan same-surah bağlam notlarıyla buluşur; yol arayanların yöneldiği tekil yönetim ilişkisi görünür olur.",
+          "resulting_reading": "Arş sahibi yalnız bir mekânın sahibi değil, varsayılan ilahların ulaşmaya çalıştığı yönetici makamın sahibidir.",
+          "boundary": "Bu faset hükümdarlık benzetmesini ontolojik özdeşliğe çevirmiyor; Arş'ın mahiyeti hakkında hüküm vermiyor."
+        },
+        {
+          "branch_ref": "root_001000/B006",
+          "facet_id": "F001",
+          "branch_gloss": "işin, iktidarın ve saygınlığın dayanağı",
+          "facet_statement": "Kişinin işini ve düzenini ayakta tutan temel dayanak anlamıdır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:42:12:2"
+          ],
+          "trigger_refs": [
+            "17:43",
+            "17:44",
+            "23:116"
+          ],
+          "focus_return_refs": [
+            "17:42:12:2"
+          ],
+          "carrier": "Odaktaki Arş sözcüğü dalın soyut dayanak anlamını taşıyabilecek odak taşıyıcısıdır.",
+          "independent_trigger": "23:116'nın gerçek Hükümdar ve Arş rabbi birlikteliği ile 17:43-44'e ilişkin sağlanan dikey iddia/evrensel övgü işaretleri.",
+          "activation": "Arş'ın makam ve dayanak çağrışımı, hükümdarlık ve bütün varlıkların övgüsü ilişkileriyle analojik olarak buluşur; yol arayanların yetkinin dayanağı olmadığı görünür hâle gelir.",
+          "resulting_reading": "Varsayılan ilahlar, iktidarı ayakta tutan temel değil o temele yönelen bağımlı unsurlar olarak okunabilir.",
+          "boundary": "Bu soyut dayanak okuması analojiktir ve Arş'ın ilahî mahiyetini tanımlamaz; 17:43-44 desteği legacy_unbound okuyucu izinden gelir."
+        },
+        {
+          "branch_ref": "root_001000/B006",
+          "facet_id": "F002",
+          "branch_gloss": "işin, iktidarın ve saygınlığın dayanağı",
+          "facet_statement": "Bu dayanak yönetme gücü, iktidar ve saygınlık alanlarını da kapsar.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:42:12:2"
+          ],
+          "trigger_refs": [
+            "17:43",
+            "17:44",
+            "23:116"
+          ],
+          "focus_return_refs": [
+            "17:42:12:2"
+          ],
+          "carrier": "Odaktaki Arş sözcüğü, iktidar ve saygınlığın dayanağı anlamına açılabilecek aynı taşıyıcıdır.",
+          "independent_trigger": "23:116'nın gerçek Hükümdar unvanı ve 17:44'ün bütün yaratılmışların övgüsüne ilişkin sağlanan bağlam okuması.",
+          "activation": "Dıştaki hükümdarlık ve evrensel övgü ilişkileri, Arş'ı güç ve yönetimin dayanağı olarak analojik biçimde belirginleştirir; varsayılan ilahların yola ihtiyaç duyması bu dayanağa bağımlılıklarını açığa çıkarır.",
+          "resulting_reading": "Yol arayışı, ortak iktidar değil tek bir yetki dayanağına yöneliş görüntüsü üretir.",
+          "boundary": "Bu uzantı F001 temel dayanak fasetiyle birlikte taşınır; gerçek iktidarın veya Arş'ın mahiyeti hakkında ontolojik iddia yoktur."
+        }
+      ],
+      "connection_refs": [
+        "conn_2f181f1a01cba516069e",
+        "conn_5bfb060c473e3f749a88",
+        "conn_a1c124f63de212034e13",
+        "conn_4b22ed4d0eeaf712262c",
+        "conn_b97bf7e672a68119c608"
+      ],
+      "context_refs": [
+        "1:5",
+        "5:35",
+        "17:39",
+        "17:40",
+        "17:43",
+        "17:44",
+        "23:116",
+        "25:57"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:plurality-consequences",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Çoklu ilah iddiasının sınanması",
+      "claim": "17:42'deki 'onların söylediği gibi' sözü, çoklu ilah varsayımını kendisine isnat edilen bir iddia olarak kurar. 21:22 ve 23:91 bağlantıları aynı tür varsayımı sonuçlarıyla sınar: biri kozmik bozulmayı, diğeri yaratılmış alanın ayrışmasını ve ilahların birbirine üstün gelmesini öne çıkarır. Fâtiha 1:5'in ibadeti ve yardım talebini Allah'a yöneltmesiyle birlikte bu çapraz-âyet alanı, odağın düz bir inkârdan çok bölünmüş ibadet ve yetki iddiasını sonuçlarıyla sınayan bir karşılık olduğunu görünür kılar.",
+      "mechanism": "Odak taşıyıcıları 17:42:5:1'deki alihah ve 17:42:7:1'deki yaquluna ile bunları bağlayan koşul-sonuç ilişkisidir. 1:5'in bağımsız ibadet ilişkisi, alihah dalının eylem ve tapınılan varlık fasetlerine temas eder. 21:22 ve 23:91'in tam Arapça hedef yüzeyleri ve bağlantı notları başka ilah varsayımını farklı sonuçlarla sınar; bu temas yaquluna'yı nötr konuşmadan çok sınanan bir isnat, alihah'ı da tapınma hedefleri olarak belirginleştirir.",
+      "reader_payoff": "Okur, odağın koşul cümlesini yalın bir reddiye değil, çoklu ilah iddiasının nasıl bir düzen doğuracağını soran bir sınama olarak görür. Kozmik bozulma, ayrışma ve karşılıklı üstünlük birbirinin yerine geçmez; her biri aynı varsayımın farklı sonucunu aydınlatır.",
+      "containment": "Odak varsayımı koşullu tutar ve konuşanları kasıtlı yalancılıkla suçlamaz. root_001272/B005 yalnızca bağlamda gerçek olmayan söz veya isnat faseti olarak açılır; her 'söyleme' biçimine genellenmez. Bağlantı hedeflerinde morfoloji ve ayrı sözcük çözümlemesi sağlanmadığından ilişki, tam Arapça yüzey ve verilen bağlantı açıklamaları düzeyinde kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak yüzeyi ve bağlantı hedeflerinin tam Arapça metinleri mevcut; bağlantı kayıtları doğrudan paralellik adaylarıdır, fakat trust etiketi veya hedef morfolojisi sağlamaz. Bu nedenle bağlantı semantiği kesinleştirilmeden taşınıyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:5:1"
+          ],
+          "trigger_refs": [
+            "1:5"
+          ],
+          "focus_return_refs": [
+            "17:42:5:1"
+          ],
+          "carrier": "Odaktaki alihah, kendisine ibadet yöneltilebilecek varlıkları adlandırır.",
+          "independent_trigger": "Fâtiha 1:5 bağlantı notu ibadeti ve yardım talebini yalnız Allah'a yönelen bir ilişki olarak tanımlar.",
+          "activation": "Odaktaki çoğul ibadet hedefleri, bağımsız bağlamdaki tekil ibadet eylemiyle karşılaşır; tapınma eylemi ve onun hedefi aynı tartışmada belirginleşir.",
+          "resulting_reading": "Çoklu ilah varsayımı, ibadetin yöneltileceği varlıklar üzerindeki bir iddia olarak görünür.",
+          "boundary": "1:5'in konuşanı veya doğrudan dilbilgisi odakla özdeşleştirilmez."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:5:1"
+          ],
+          "trigger_refs": [
+            "21:22",
+            "23:91"
+          ],
+          "focus_return_refs": [
+            "17:42:5:1"
+          ],
+          "carrier": "Odaktaki belirsiz çoğul alihah, varsayılan tapınılan varlıkları gösterir.",
+          "independent_trigger": "21:22 ve 23:91 bağlantı kayıtları diğer ilah varsayımını kozmik bozulma ve karşılıklı egemenlik sonuçlarıyla ilişkilendirir.",
+          "activation": "Aynı çoğul ilah önermesi daha geniş ayetlerde farklı sonuçlarla sınanınca odaktaki varlık adı salt sayı değil, ortak ibadet ve egemenlik iddiasının taşıyıcısı olur.",
+          "resulting_reading": "İlah sayılanların çoğulluğu, düzenin nasıl bölüneceği sorusunu açar.",
+          "boundary": "Bağlantı ayetlerinin hedef morfolojisi sağlanmadığından sözcük düzeyinde özdeşlik değil, ayet düzeyinde paralel varsayım ve sonuç ilişkisi taşınır."
+        },
+        {
+          "branch_ref": "root_001272/B005",
+          "facet_id": "F001",
+          "branch_gloss": "yalan söyleme veya isnat etme",
+          "facet_statement": "Çekirdek anlam, gerçek olmayan sözü söyleme veya yükleme işlemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:42:7:1"
+          ],
+          "trigger_refs": [
+            "21:22",
+            "23:91"
+          ],
+          "focus_return_refs": [
+            "17:42:7:1"
+          ],
+          "carrier": "Odaktaki yaquluna, çoklu ilah önermesini onlara atfedilen bir söz olarak çerçeveler.",
+          "independent_trigger": "21:22 ve 23:91'in bağlantı notları bu ilah varsayımını sonuçlarıyla doğrudan sınar; sağlanan Arapça yüzeyler de ilah çoğulluğu önermesini taşır.",
+          "activation": "Odaktaki isnat edilen önerme, dıştaki karşı-sonuçlarla temas ederek sıradan bir söz olmaktan çıkar ve doğruluğu sınanan bir atıf hâline gelir.",
+          "resulting_reading": "Yaquluna, kasıtlı yalan hükmü vermeden, yanlış olabilecek bir ilah tasvirini muhatapların sözü olarak taşır.",
+          "boundary": "Dalın paketteki sınırı gerçek olmayan söz/isnattır; odak konuşanlarının bilerek yalan söylediği veya tüm sözlerin bu dala girdiği ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_5bfb060c473e3f749a88",
+        "conn_2b474a695c4aa575ee67",
+        "conn_7ee4f7be2d5bcfbc9b30"
+      ],
+      "context_refs": [
+        "1:5",
+        "21:22",
+        "23:91"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:path-distortion",
+      "origin_candidate_id": "cand_0ff32b2fadeaf659aa1a",
+      "represented_candidate_ids": [],
+      "title": "Yol arayışına eşlik eden sınır-aşımı yankısı",
+      "claim": "7:45'teki Allah yolunu eğri kılma imgesi, 17:42'de arayış ile yolun buluştuğu ifadeye sınırlı bir sınır-aşımı yankısı açar. Bu analoji, odaktaki bağımlı yol arayışının yanında arayışın yönünü bozma ihtimalini de canlı tutar.",
+      "mechanism": "Odak taşıyıcısı 17:42:9:2'deki ibtaghaw; odakta bu arayışın nesnesi 17:42:13:1'deki sabilan'dır. 7:45'in sağlanan Arapça yüzeyi ve bağlantı notu Allah'ın yolu ile onu eğri kılma imgesini bağımsız tetikleyici olarak getirir. Arayış fiili ile yol nesnesinin odaktaki teması, dıştaki yol-bozma görüntüsüyle analojik olarak kesişir ve B003 sınır-aşımı fasetini etkinleştirir.",
+      "reader_payoff": "Yol aramak kendi başına iyi veya kötü sayılmaz; dıştaki yol-bozma görüntüsü, odaktaki yönelişin anlamında yönün ve sınırın da önem taşıyabileceğini gösterir.",
+      "containment": "Bu, sözlük anlamını değiştiren kesin bir karşılık değil analojik ve keşifsel bir yankıdır. 7:45'in hedef morfolojisi pakette yoktur; oradaki özneler odaktaki varsayılan ilahlarla veya onları ileri sürenlerle özdeşleştirilmez. Odaktaki temel arama anlamı korunur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Adayın güvenilir çapraz-yayın kaydı B003'ü içeriyor ve bağlantı 7:45 için tam Arapça yüzey ile yol-bozma notu sağlıyor; hedef morfolojisi verilmediğinden odakla temas analojik düzeyde kalıyor."
+      },
+      "support_ids": [
+        "sup_4ef25050645867257275",
+        "sup_cbc58e8403be37d66a35"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B003",
+          "facet_id": "F001",
+          "branch_gloss": "haddi aşarak haksızlık etmek",
+          "facet_statement": "Hak veya ölçü sınırını aşarak haksızlık ve baskı uygulamak.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:42:9:2"
+          ],
+          "trigger_refs": [
+            "17:42:13:1",
+            "7:45"
+          ],
+          "focus_return_refs": [
+            "17:42:9:2",
+            "17:42:13:1"
+          ],
+          "carrier": "Odaktaki ibtaghaw, yerel olarak hedefe yönelen aramadır; aynı odak cümlesinde sabilan bu arayışın yol nesnesidir.",
+          "independent_trigger": "7:45 bağlantısı Allah'ın yolunu eğri kılma imgesini verir; odak sözcük indisi değil ayet yüzeyi ve bağlantı notu sağlanmıştır.",
+          "activation": "Odaktaki arayan-fiil/yol ilişkisi, dıştaki yol-bozma görüntüsüyle analojik temas kurar; B003'ün sınır aşımı çekirdeği temel arama anlamını yerinden etmeden açılır.",
+          "resulting_reading": "Odak arayışı bağımlılık imgesini korurken, yol yönünü bozma veya sınırı aşma çağrışımı da olası bir ikinci basınç olarak kalır.",
+          "boundary": "Bu temas failin kim olduğunu belirlemez ve odaktaki kişilere haksızlık isnat etmez; yalnızca B003 çekirdeğini analojik biçimde canlı tutar."
+        },
+        {
+          "branch_ref": "root_000138/B003",
+          "facet_id": "F004",
+          "branch_gloss": "haddi aşarak haksızlık etmek",
+          "facet_statement": "Sınır aşımını doğru olandan yanlış olana yönelme veya kibirlenme olarak açıklamak.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:42:9:2"
+          ],
+          "trigger_refs": [
+            "17:42:13:1",
+            "7:45"
+          ],
+          "focus_return_refs": [
+            "17:42:9:2",
+            "17:42:13:1"
+          ],
+          "carrier": "Odaktaki arama fiili, yolu nesne alan yöneliş olarak kullanılır.",
+          "independent_trigger": "7:45 bağlantısının Allah yolunu eğri kılma imgesi, doğru yönelişten sapma için dış tetikleyicidir.",
+          "activation": "Sabilan ile ibtaghaw arasındaki odak ilişkisi, dıştaki eğri yol görüntüsüyle temas ederek doğru yön ile bozulan yön arasındaki faseti açar.",
+          "resulting_reading": "Odaktaki yol arayışı, yolun yönünü bozma olasılığına karşı da okunabilir.",
+          "boundary": "F004 yalnız analojik basınçtır; 7:45'teki kalıp odaktaki fiilin eş anlamlısı veya aynı dilbilgisel biçimi olarak sunulmaz."
+        },
+        {
+          "branch_ref": "root_000672/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yol ve bir amaca ulaştıran yol",
+          "facet_statement": "İnsanların üzerinde yürüyüp ilerlediği uzanmış yol veya yolları belirtir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:42:13:1"
+          ],
+          "trigger_refs": [
+            "17:42:9:2",
+            "7:45"
+          ],
+          "focus_return_refs": [
+            "17:42:13:1",
+            "17:42:9:2"
+          ],
+          "carrier": "Odaktaki sabilan, arayışın yol nesnesidir.",
+          "independent_trigger": "7:45'in bağlantı notu Allah'ın yolunu eğri kılma imgesini bildirir.",
+          "activation": "Odaktaki yol, dıştaki eğriltilen yol görüntüsüyle karşılaşır; aynı tür nesne iki farklı yönelişin ayrılmasını sağlar.",
+          "resulting_reading": "Yol imgesi, yalnız varış hedefini değil hangi yönde arandığını da düşündürür.",
+          "boundary": "7:45'in sözcük morfolojisi bu pakette yoktur; paralellik ayet düzeyi analoji olarak kalır."
+        }
+      ],
+      "connection_refs": [
+        "conn_1b38bad21f7d00ff70d2"
+      ],
+      "context_refs": [
+        "7:45"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:actual-seekers",
+      "origin_candidate_id": "cand_d74ba998a07bd37a2968",
+      "represented_candidate_ids": [],
+      "title": "Varsayımdan fiilî yönelişe",
+      "claim": "17:57'nin 17:42'deki varsayılan ilahlarla ilişkilendirdiği varlıkların kendilerinin de Rablerine yol aradığı okuması, odaktaki koşullu arayışı gerçek bir bağımlılık ilişkisine yaklaştırır. Fâtiha 1:5'te insanın ibadet ve yardım yönelişi de açıkça ifade edilince, yol aramak hem bu varlıkların hem ibadet edenlerin Allah'a bağımlı konumunu görünür kılar.",
+      "mechanism": "Odak taşıyıcısı 17:42:9:2'deki ibtaghaw'dur. sup_16a75b69a0a9718ac0dd, 17:57'de çağrılan varlıkların Rablerine bir yol aradığını ve bu bağımlılığın odağın varsayımına döndüğünü söyleyen retrospektif bir okuyucu-yürüyüşü sunar. 1:5'in bağlantı notu ibadet ve yardım talebini Allah'a yöneltir. Bu iki bağımsız bağlam, odaktaki arama eylemini yalnız varsayımsal bir davranış olmaktan çıkarıp daha geniş bir bağımlılık ilişkisine bağlar.",
+      "reader_payoff": "Odaktaki arayış, çağrılan varlıkların da yöneliş içinde olabileceği bir ilişkiye açılır. Fâtiha bu bağımlı duruşu ibadet eden insan için de anlaşılır kılar; arayışın kendisi kınanmaz, iddia edilen ilahların da arayan özneler oluşu önem kazanır.",
+      "containment": "17:57'de anılan varlıkların odaktaki varsayılan ilahlarla özdeşliği okuyucu-yürüyüşünün çıkarımıdır; bu pakette 17:57'nin tam Arapça yüzeyi, hedef sözcük indisi ve kök eşlemesi yoktur. Aynı fiilin veya aynı grubun bulunduğu ileri sürülmez. Fâtiha bağlantısı karşılaştırma sağlar, özdeşlik kanıtı değil.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Tek doğrudan 17:57 dayanağı legacy_unbound ve citable:false okuyucu-yürüyüşü özetidir; Fâtiha bağlantısı ek bir dış tetikleyici verse de 17:57 için tam sözcük/kök izi sağlamaz. Bu nedenle ilişki atfedilmiş tutulur."
+      },
+      "support_ids": [
+        "sup_16a75b69a0a9718ac0dd"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000138/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek",
+          "facet_statement": "Bir şeyi, ihtiyacı veya amacı istemek, aramak ve ona yönelmek.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "17:42:9:2"
+          ],
+          "trigger_refs": [
+            "17:57",
+            "1:5"
+          ],
+          "focus_return_refs": [
+            "17:42:9:2"
+          ],
+          "carrier": "Odaktaki ibtaghaw, başka bir varlığın yol arayışını varsayımsal sonuç olarak kurar.",
+          "independent_trigger": "sup_16a75b69a0a9718ac0dd 17:57 için çağrılan varlıkların Rablerine yol aradığı okumasını sunar; 1:5 yardım talebini Allah'a yönelen bağımlı bir ibadet ilişkisi olarak belirtir.",
+          "activation": "Atfedilmiş 17:57 okuması, odaktaki arama fiiline fiilî bir karşılık verir; Fâtiha'daki yardım yönelişi bu arama konumunun insan için de anlaşılır bir bağımlılık biçimi olduğunu gösterir.",
+          "resulting_reading": "Varsayılan ilahların yol araması, daha geniş bir düzende çağrılan varlıkların da Rablerine yönelen özneler olabileceği okumasına açılır.",
+          "boundary": "17:57 tetikleyicisi ayet düzeyinde ve legacy_unbound kaynaktan gelir; hedef sözcük, kök ve odakla özdeşlik doğrulanmış değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_5bfb060c473e3f749a88"
+      ],
+      "context_refs": [
+        "1:5",
+        "17:57"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT kaynağı görünür ve yedi adayının her biri tek tek değerlendirildi; assigned_records içindeki yedi özetin anchor_refs/branch_refs'i boş, HFT anchor_evidence_coverage sayımı 0/0. Bu nedenle HFT'ye özgü koordinat-kök-atfedilmiş rol-odak dönüşü koşulunu karşılayan HFT etkinleşmesi yok.",
+    "selected_context_units boş. 17:39-44 ve 17:57 bağlamları için tam hedef yüzeyi/sözcük eşlemesi yerine okuyucu-yürüyüşü özetleri bulunduğundan bunlar ilgili bulgularda atfedilmiş ve trust statülerine göre nitelendirildi; bağlantı hedeflerinde ise tam Arapça metin var fakat hedef morfolojisi sağlanmıyor.",
+    "root_001000/B001 dalının ilahî kullanımı nitelikli statüdedir; Arş'ın gerçek niteliği belirlenemediği için yalnız unvan ve yetki ilişkisi taşındı.",
+    "root_000672/B002 yolcu faseti incelendi ancak etkinleştirilmedi: faset sınırı çıplak güzergâhı dışlar; odaktaki sabilan yol adıdır, yolcu adı değildir. Yolcu görüntüsü varsa özne-fiil ilişkisinden doğan anlatısal benzetmedir, ayrı bir SBL dalı değildir.",
+    "7:45 yol-bozma yankısı keşifseldir; hedef morfolojisi yok ve odakla eşdeğer bir sözlük kullanımı ileri sürülmüyor."
+  ]
+}

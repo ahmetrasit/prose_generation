@@ -1,0 +1,199 @@
+# V5 reading invitation — 31:6
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_6/31_6.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_6/31_6.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Söylemin Alımı
+
+Âyet, insanlar arasından davranışıyla tanınan bir tipi gösterir: kişi oyalayıcı bir söylem satın alır; bilgisizce başkalarını Allah’ın yolundan saptırmaya ve gönderimi açık bırakılan bir şeyi alay konusu edinmeye yönelir. Son hüküm bu topluluğa aşağılayıcı bir azap bulunduğunu bildirir. Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} önceki söz akışını sürdürür; hemen ardından gelen {ar:مِنَ, tr:mina, gloss:-den}, belirli çoğul {ar:ٱلنَّاسِ, tr:al-nāsi, gloss:insanlar} içinden bir kesit seçer. Böylece uyarı bütün insanları aynı davranışla tanımlamaz: önce insan topluluğu anılır, açık tekil {ar:مَن, tr:man, gloss:kim} ise bu alan içinden davranışıyla tanınacak kişiyi gösterir; aynı açık zamir bu davranışı sürdüren herkese de yayılabilir. Kısa bağlaç ve edatın ardışık sesi de toplumsal çerçeveye kesintisiz bir giriş duyurur; eylemler sıralanmadan önce hangi tür insan davranışının anlatılacağı belirir. {ar:ٱلنَّاسِ, tr:al-nāsi, gloss:insanlar} sözcüğünün temel karşılığı “insanlar”dır; sözlük ailesindeki “görerek fark etme” kullanımı satın alma ve dikkati yöneltme sahnesine ihtiyatlı bir algı çağrışımı ekler. Türetim çözümlemesi tartışmalı olduğu için bu temas temel anlamın yerini almaz.
+
+{ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır} fiilinin sekizinci kalıptaki geniş zamanlı biçimi alışverişi yinelenebilir bir edinim, faili de bu eylemin içine giren biri olarak sunar. Satın alınanın ne olduğu açıkça söylenir: fiilin nesnesi olan {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}. Âyet geniş oyun ve eğlence alanının tamamını değil, konuşmayı da içeren belirli bir oyalamayı öne çıkar. Fiil, ödenecek bedeli ya da elden çıkarılan değeri adlandırmaz; yine de satın alma çerçevesi bir karşılık verildiğini düşündürür. Bu okumada karşılığın miktarı belirlenmez. Aynı {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}, hem satın alınan nesne hem de tamlamanın ilk parçasıdır; belirli biçimdeki {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem} bu oyalamanın içeriği olarak bağlanır, bağımsız herhangi bir konuşma diye bırakılmaz. {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem} için olağan anlatı ve aktarılan söz anlamlarının yanında “yeni, taze, başlangıcına yakın” bir kullanım da vardır. Oyalama sözcüğünün yönettiği bu bağlamda yenilik, dikkat dağıtan içeriğe dönüşebilir; fiilin tekrarlanabilir alışverişiyle birleşince art arda edinilen taze söz birimleri de akla gelir. Bu yan çağrışım, söylemin taze içeriğini öne çıkarırken olağan “söylem” anlamını korur; nitelik bütün konuşmalara yayılmaz. İşitilişte açık heceli {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}dan daha ağır ritimli {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem}e geçiş bir ağırlık artışı duyurur; bu ritim söylemi oyalama başlığı altında işittirir, anlam bağını ise tamlama düzeni taşır.
+
+Alışverişin bu çağrışımı iki ayrı sahnede yankılanır: sapmanın bedelle edinilmesi (4:44) ve Allah’ın ayetlerinin az bir karşılıkla değiştirilmesi (9:9). Bu paraleller {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır} fiilinin edinme kadar elden çıkarma yönünü de açar; böylece bedelli alışveriş yankısı olağan satın alma anlamını genişletir. Bu yakın okuma (31:6)’daki alıcıyı dış sahnelerin aktörleriyle özdeşleştirmez ve ne verdiğini ya da hangi bedeli ödediğini belirlemez; somut fiyat veya gerçek pazar kurulmaz. {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}nun bir başka yüzü, ilgiyi başka yere çekip kişiyi belirli bir şeyden alıkoymasıdır; satın alınan söylemin Allah’ın yolundan uzaklaştırma amacı bu dikkat işlevini harekete geçirir. Bu, dikkatin yönü üzerine bir temastır; belirli bir modern araç ya da mecra iddiası değildir. Böylece satın alma yalnızca eğlence edinmek değil, dikkati ve bağlılığı yönlendiren bir rekabete katılmak olarak da duyulur.
+
+Satın alınan söz, bu kez dikkatin başka uğraşlarla yarıştığı alana girer. (21:2)’de yenilenen bir hatırlatma {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem}nin tazelik anlamına bağımsız bir temas açar; aynı sahnede oyunla meşgul olanlar {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}nun eğlenme ve zevk veren uğraş anlamını tetikler. (63:9)’da mal ve çocukların anmadan alıkoyması, aynı {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} kelimesinin dikkati başka yöne verip kişiyi bir şeyden uzaklaştıran işlevini ayrı bir bağlamda gösterir. Bu katkılar birlikte satın alınmış söylemi hatırlamadan uzaklaştırabilecek uğraşlar arasına yerleştirir. Taze birimler taşıyabilen {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem}, bilinçli edinmeyi taşıyan {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır}, meşguliyeti taşıyan {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}, başkasını yönünden ayıran {ar:يُضِلَّ, tr:yudilla, gloss:saptırır} ve yürünebilir rota olan {ar:سَبِيلِ, tr:sebîl, gloss:yol} birlikte düşünüldüğünde söylem, Allah’ın yolundan başkalarını saptırmak üzere tekrar tekrar edinilen bir araca dönüşebilir. Bu, olağan söz ve oyalama anlamlarını koruyan ihtiyatlı bir sözcüksel bütünleştirmedir; (21:2) ile (63:9)’daki kişiler (31:6)’daki alıcıyla özdeşleştirilmez, satın alınan söz de vahiy diye yeniden adlandırılmaz. Kök temasları kesin biçim çözümlemesi iddiası taşımaz.
+
+Sözün çekiciliğinin bir başka yönünü, insan ile konuşma arasındaki ilişki açar: {ar:ٱلنَّاسِ, tr:al-nāsi, gloss:insanlar} yakınlık, arkadaşlık ve yabancılığı gideren eşliği; {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem} işitilen ve aktarılan sözü; {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır} edinmeyi; {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} dikkati başka yöne çekmeyi hatırlatır. Böylece söz, önermesi tartılmadan önce tanıdık bir beraberlik ya da aidiyet sunarak da çekebilir. Bu bağ, yakınlık ve aidiyetin söze ekleyebileceği çekimi gösterir; özel sözlük temasından doğduğu için temel anlamı veya biçim çözümlemesini değiştirmez.
+
+Söylemin yakınlık ve aidiyet yoluyla çekebilmesi, alışverişin yöneldiği amacı gölgelemez: amaç bildiren lâm {ar:لِ, tr:li, gloss:için}, doğrudan {ar:يُضِلَّ, tr:yudilla, gloss:saptırır} fiiline eklenir ve satın almayı saptırmanın amacı ya da sonucu olarak kurar. Bu bağ, sorumluluğu hem tasarlanmış yanıltmaya hem de öngörülebilir saptırıcı sonuca uzatır. Dördüncü kalıbın ettirgen biçimi, bir failin başkasını yoldan ayırmasını öne çıkarır; etkilenen kişiler belirtilmediğinden kimlerin saptırıldığı açık kalır. Aktarılan {ar:يَضِلَّ, tr:yaḍilla, gloss:sapsın} okuyuşu ise failin kendisinin sapması olasılığını da canlı tutar; iki okuma birbirini silmez. Fiilin ikizleşen ünsüzü işitsel bir basınç yaratır, fakat anlamı tek başına ses değil, ettirgen biçimle yol ilişkisidir. Ayrıca bu fiilin sözlük ailesindeki kaybolma, gizlenme ve gözden yitme kullanımı, bağımsız {ar:عَن, tr:ʿan, gloss:-dan uzak} edatıyla ve adı konan yolla buluşunca güzergâhın görünmezleşmesi imgesini açar. Kaybolma ve gözden yitme dalı, burada ettirgen “saptırma”ya yerel bir imge ekler; fiilin olağan anlamı sürer, fiziksel gizlenme ya da belirli bir etkilenen kişi tanımlanmaz.
+
+{ar:عَن, tr:ʿan, gloss:-dan uzak} ile onu izleyen {ar:سَبِيلِ, tr:sebîl, gloss:yol}, uzaklaşılan noktayı insanların üzerinde yürüyebildiği uzanmış bir güzergâha dönüştürür; kayıp belirsiz bir nesneye göre değil, Allah’ın adıyla belirtilen yola göre ölçülür. Tekil ve belirli tamlama herhangi bir hedefi değil, belli bir yolu gösterir; {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah} tamlayan olarak bu yolu O’na nispet eder. Bu tamlama hem yürünüp ilerlenen belirli bir güzergâhı hem doğruluk, iyilik ya da kurtuluşa yönelten dinî yolu açık tutar. Saptırmanın ölçüsü böylece belirsiz bir kayıp değil, Allah’a nispet edilen yoldan uzaklaşmadır. Güzergâhın sıradan, yürünebilir anlamı sürerken rehberlik de rota gibi kavranır; bu mekânsal temas söz konusu sözdizimsel kesitle sınırlıdır. (31:5)’te hidayet ve başarıyla gösterilen yol, bu güzergâhın rehberlik yüzünü açar; tilavet karşısında yüz çeviren dinleyici (31:7)’de satın alınan söylemin bu rehberlikle işitme düzeyinde nasıl yarışabildiğini gösterir. Bu bağlantıda {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır} ile alınan söz, {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}nun dikkati çekmesi ve {ar:يُضِلَّ, tr:yudilla, gloss:saptırır}nin başkasını yönünden ayırması üzerinden {ar:سَبِيلِ ٱللَّهِ, tr:sebîlullāh, gloss:Allah’ın yolu}ndan başka yöne çeken bir araca dönüşebilir. Alay da terk edilen güzergâhı değersiz gösterme etkisi kazanır. Bu komşuluk (31:7)’de ayrı bir alay eylemi ya da zorunlu neden-sonuç çizgisi kurmaz, her satın alınmış eğlenceye de genellenmez; bu sınırlar içinde alay, yolun değersiz görülmesiyle yerel bir yankı kurar.
+
+Bu yol değişiminin işitmeyle ilişkisi, (31:7)’nin kendi sahnesinde belirginleşir. Âyetteki {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem}, okunan ayetlerle aynı işitme alanına girebilen bir söylemdir; {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} ise dikkati tilavet işitilmeden önce başka yöne çekebilir. Böylece söz, ikna edici düşünce tartılmadan önce alımlamayla yarışan bir uğraş olarak düşünülebilir. (31:7)’de ayetler peş peşe okunur, dinleyen etkin biçimde yüz çevirir ve onları işitmemiş gibi olur; kulaklardaki ağırlık, anlamaya ve uymaya açılan alımlayamamanın bedensel bir modeli olarak belirir. (31:7)’de dinleyenin kibirli yüz çevirmesi satın alınmış sözden bağımsız bir ret nedeni olarak kalır; kulaklardaki ağırlık ise anlamaya ve uymaya açılan alımlayamamanın bedensel modelidir. Konuşma ve anlatma tilavetle aynı söylem türü değildir; bu bağlantı söylemlerin özdeşliğini değil, değerlendirmeden önceki işitme rekabetini gösterir.
+
+İşitmenin nasıl yöneldiği sorusunun ardından, (31:2)’de hikmetli Kitabın ayetlerinin önce anılması satın alınan söyleme başka bir ölçü getirir. Bu sırayla bakıldığında kuşku yalnızca sözün yeni ya da eğlenceli olmasından değil, yön veren ve düzeltici söyleme karşı kullanılmasından doğabilir. Kitabın ayetleri görünür ve incelenebilir işaretler, Kitabın bütünlüğü parçaları birbirine bağlayan bir yapı, hikmet de düzeltici bir yön sunar; âyetteki {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} ilgiyi bu yönelimden başka yere çeker. Bu sıralama, (31:2)’deki ayet, bütünlük ve hikmetin oyalayıcı söylem karşısında ölçü sunmasını sağlar. (31:2) ile (31:6) arasındaki bu yakınlık başka konuşmaları kusurlu saydırmaz ya da odak âyetin anlamını tek başına belirlemez.
+
+## Yol, İşitme ve Bilgi
+
+(31:10)’da göklerin görünür direkler olmadan yaratılması, yere sağlam dağların yerleştirilmesi ve yeryüzünün sallanmasının önlenmesi anlatılır. Bu maddi sahnede dayanak ayakta tutar, dağlar yerinden oynamaya direnir, salınımın önlenmesi istikrar sağlar. {ar:سَبِيلِ ٱللَّهِ, tr:sebîlullāh, gloss:Allah’ın yolu} ile birlikte düşünüldüğünde saptırma, yanlış hedefe yönelmenin yanında güzergâhta yönünü koruma istikrarını sarsma olarak da okunabilir. Bu benzetme (31:10)’daki yaratılış sahnesini söylemin kozmik dayanakları ortadan kaldırdığı iddiasına dönüştürmez; burada yalnızca yol imgesine dayanak ve sarsılmaya direnç boyutu ekler.
+
+Söylemin işitilmesi bu kez oyalama sözcüğünün maddi biçimde alınıp verilmesine açılan iki bağımsız kullanımı görünür kılar: {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}. Bunlardan biri öğütülecek tahıl payıdır: öğütmelik, değirmenin ağzına ya da üst deliğine elle bırakılır. {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem} işitene ulaşan söz içeriği anlamıyla ve (31:7)’nin kulağa gelen tilavetiyle buluştuğunda alınan oyalama, işlenen ve duyulur biçimde sunulan bir içerik gibi canlanır. Başka bir kullanım ağız tavanının gerisinde boğaza doğru sarkan küçük dil dokusunu adlandırır; konuşma ve anlatma eylemiyle, ardından gelen tilavetin bağımsız ses akışıyla birleşince odağı soyut içerikten ağızdan kurulup işitilen söze taşır. Tahılın değirmene verilmesi, içeri alınan ve işlenen girdi boyutunu; küçük dilin söz üretimindeki yeri ise ağızdan çıkıp işitilen ses boyutunu sağlar. Bunlar ayrı işlemlerdir, ama birlikte alınan, işlenen ve duyulan içerik akışını kurarlar. Bu iki özel sözlük kullanımı âyetin sahne unsuru ya da her oyalama sözcüğüne yayılan bir anlam değildir.
+
+Bu girdi imgesi, (31:27)’deki kalemler ve yenilenen mürekkeple başka bir yöne açılır: denizler mürekkep olsa bile Allah’ın sözleri tükenmez. Âyetteki {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır} ile alınan {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem}, yazı araçları, yeniden dolan mürekkep ve anlamlı sözlerin tükenmezliği yan yana gelince maddi olarak sağlanan bir söylem türüyle kıtlığın ötesinde kalan bir söz kaynağı karşılaşır. Okuyucu yalnızca söylemin ne dediğini değil, nasıl sağlandığını da görür: biri alınan ve yenilenen bir ürün, diğeri tüketilemeyen bir kaynak gibi belirir. Bu karşılaştırma (31:27)’nin asıl odağı olan ilahî büyüklüğü korur: (31:6)’daki alıcıya Allah’ın sözlerini değiştirme amacı yüklemez, kalem ve mürekkep sahnesini de günümüz iletişim endüstrisiyle özdeşleştirmez. 
+
+{ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} için verilen tahıl kullanımı, öğütülecek payın değirmen ağzına elle bırakılmasını anlatır; bu somut giriş, alınan içeriğin beslenmesi imgesine malzeme olur. {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem}nin yeni ya da taze anlamı art arda ortaya çıkan birimleri, {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır}nin bilinçli edinimi, (31:27)’de yenilenen mürekkep ise süren tedariki ekler. Bu katkılar birlikte oyalamayı tek mesajdan çok yeni içeriklerle beslenen bir dikkat süreci olarak düşündürür. Bağlantı özel ve uzaktır: mürekkep dışarıdan gelen girdi olarak kalır; bu okuma {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}nın olağan karşılığını değiştirmez ve gerçek bir iletişim mecrası ya da fiyat belirlemez.
+
+Sözün nasıl beslendiği anlatıldıktan sonra, “bilgisizce” koşulu yol ile bilgiyi yeniden aynı soruda buluşturur. {ar:بِ, tr:bi, gloss:ile} davranışa sıkıca bağlanan bu koşulu açar; {ar:غَيْرِ, tr:ghayri, gloss:olmadan} başı {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} adını yöneterek yokluğu bağımsız bir olumsuzluk sözcüğünden çok isim tamlaması içinde kurar. Belirsiz {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} belirli bir öğretiyi değil, bilgi dayanağının yokluğunu anlatır; “bilgi olmaksızın” kaydı saptırma ile alay konusu edinme eylemlerinin ikisine de yayılır. Bilgi adının sonundaki tenvin bu kısa öbeği {ar:وَ, tr:wa, gloss:ve} ile gelen ikinci eylemden önce işitsel olarak kapatır. Sözlük ailesinde olağan bilme ve gerçeği kavrama anlamının yanı sıra bir şeyi ayırt ettiren, tanıtan ve yol gösteren belirgin iz anlamı da vardır. {ar:سَبِيلِ, tr:sebîl, gloss:yol} sözcüğü ve {ar:بِغَيْرِ عِلْمٍ, tr:bi-ghayri ʿilmin, gloss:bilgi olmaksızın} yapısı bu sınırlı işaret kullanımını yön bulma alanına taşır: bayrak, belirgin bir dağ, yol belirtisi ya da kumaş kenarındaki desen gibi bir iz, güzergâhı tanımaya yardım eder. Böylece yön gösteren iz anlamı, olağan bilme ve gerçeği kavrama anlamının yerine geçmeden eksik bilgiyle yol bulma arasında ihtiyatlı bir çağrışım kurar.
+
+Bu işaret imgesi, kaybolmayla ve başka bir şeyin yerini almayla iki ayrı şekilde ilerler. Bir okumada {ar:سَبِيلِ, tr:sebîl, gloss:yol} gerçek güzergâhı ve {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} sözcüğünün tanıtan işaret anlamını, (31:34)’ün bilinmeyen ufkuyla birlikte düşünür; orada yarın ne kazanılacağı ve insanın hangi yerde öleceği bilinmez. Âyetteki {ar:يُضِلَّ, tr:yudilla, gloss:saptırır}nin gizlenme ve algılanamaz biçimde gözden yitme anlamı, yol ve işaretin yokluğuyla temas edince güzergâhı pratikte görünmez kılar. Burada “işaretleri silmek” yeni bir fiil anlamı değildir; bu işaret kullanımının bayrak, belirgin dağ, yol belirtisi veya kumaş kenarındaki desen gibi ayırt edici izleri yön bulma ihtiyacını somutlaştırır. Yol ve işaretin görünmezleşmesi okumasına (31:34)’ün bilinmeyen ufku eklenir; bu, işaretlerin yön bulmadaki katkısını belirginleştirir. Bağlantı iki sahnenin aktörlerini özdeşleştirmez ve geleceği bilmeden yol izleyememe koşulu kurmaz.
+
+İşaret imgesi iki ayrı mekanizmayla genişler: bol söylem güzergâhı tanıtan izleri örtebilir; {ar:غَيْرِ, tr:ghayri, gloss:olmadan}nin başka bir şeyin yerine koyma kullanımı ise yeni işaretlerin yerleştirilmesini düşündürebilir. Örtülme görünürlüğün kaybıdır; yer değiştirme dalı yalnızca araştırıcı bir olasılıktır, gerçekten sahte işaretler kurulduğu ileri sürülmez. Olağan “bilgisizce” anlamı korunurken bu özel kelime temasları yön bulma okumasını genişletir; gizlenme ve değiştirme sözcüklerin çevirisi olmaz.
+
+Bilgi yokluğu bu kez (31:20)’de Allah hakkında bilgisizce konuşan tartışmacıyla karşılaştırılır; onun sahnesinde yol gösterici ve aydınlatıcı bir Kitap da yoktur. Âyetteki {ar:بِغَيْرِ عِلْمٍ, tr:bi-ghayri ʿilmin, gloss:bilgi olmaksızın} ve {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem} ile dış sahnedeki tartışma; “insanlardan biri” ve “bilgisizce” çerçevelerinin tekrarıyla yaklaşır. Hidayetin ve incelenebilir bir kitabın ayrıca eksikliği, yön ve metin ışığı için iki denetim ölçütü ekler. Böylece söz yalnızca zeminsiz bilgi parçası değil, yönsüz ve aydınlatıcı kitaptan yoksun, yine de ikna gücü taşıyabilen bir tartışma düzeni olarak görülebilir. Bu karşılaştırma bilgisiz sözde yön ve doğrulanabilir metin ışığının birlikte eksik oluşunu gösterir; (31:20)’deki tartışmacı, bu yorumda (31:6)’daki alıcıya dönüştürülmez.
+
+Bilgi yokluğu kanıtsız yönlendirmeyi kanıtsız bir talebi reddetmekle karıştırmamayı da sağlar. (31:15)’te bilgiden yoksun, zorlayıcı bir buyruğa karşı çıkılır; buna rağmen aileye iyilikle davranma sorumluluğu sürer. Buradaki {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} ile {ar:سَبِيلِ, tr:sebîl, gloss:yol}, baskı, ret, iyi arkadaşlık ve seçerek izleme dizisiyle temas eder: kişi şirk çağrısına uymaz, ailesine iyi davranır ve Allah’a dönenlerin yolunu izler. Böylece başkasını bilgisizce yönlendirmekle bilgisiz bir buyruğu reddetmek ayrılır; bir talepten uzaklaşmak tek başına yoldan sapma değildir. Bu bağlamda sahne, başkasını bilgisizce yönlendirmekle bilgisiz buyruğu reddetmeyi ayırır; bu karşılaştırma (31:6)’daki kişi ya da aile düzenini tanımlamaz.
+
+Bu ayrımın bir başka sınırını (31:34)’te yarınki kazanç ve ölüm yerinin bilinemez oluşu çizer. Burada da {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} ve {ar:سَبِيلِ, tr:sebîl, gloss:yol} düşüncesi, kanıta dayanarak yön tutmanın geleceğin her durağını sahiplenmek anlamına gelmediğini gösterir.
+
+Yönlendirme ve bilgiden doğan sorumluluk, bu ayrımın ardından (17:36)’da daha açık bir hesap verme ufkuna kavuşur. Bilgisi olmayan şeyin peşinden gitmeme uyarısına işitme, görme ve gönlün sorumluluğu eklenir. Âyetteki {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} bilme ve gerçeğe uygun kavramayı, {ar:سَبِيلِ, tr:sebîl, gloss:yol} izlenen güzergâhı taşır; bunlar (17:36)’daki takip eylemiyle yan yana gelince sorun yalnızca eksik bilgi değil, kanıtsız bir yönlendirmeyi işitme, görme, kavrama ve ardından izleme sorumluluğudur. Bu paralellik (17:36), (31:6)’daki yön ve bilgi ilişkisini daha geniş bir hesap verebilirlik alanına taşır. Bağlantı, iki ayetin aktörlerini birleştirmez ya da her bilgisizlik biçimini aynı ölçüde suç saymaz.
+
+Hesap verme ufku, sözün kendisinin her zaman oyalayıcı olmadığını da belirginleştirir: (31:13)’te Luqmân’ın oğluna verdiği öğüt dinleyeni doğru yöne çevirmeyi amaçlayan ayrı bir konuşma örneğidir. Âyetteki {ar:ٱلْحَدِيثِ, tr:el-hadîs, gloss:söylem} konuşmayı, {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} dikkati başka yöne çeken işlevi taşır; bu yüzden belirleyici olan sözün varlığı değil, dinleyenin dikkatini nereden alıp nereye götürdüğüdür. Bu karşılaştırma kişileri değil sözün işlevini karşı karşıya getirir; tür ya da konuşmacının otoritesi de iki sahne arasındaki farkı açıklayabilir.
+
+Dikkatin hangi yöne çevrildiği sorusu, yolun toplumsal olarak başka bağlılıklarla değiştirildiği iki ayrı sahneye uzanır: (31:21) ve (31:32). (31:21)’de vahye uyma çağrısı karşısında ataların izlediği yol seçilir; (31:32)’de kurtuluştan sonra işaretler bilerek inkâr edilir. Âyetteki {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} dikkati başka bir kaygıya çeken uğraştır; satın alma ve saptırma amacıyla birlikte, yürünebilir {ar:سَبِيلِ, tr:sebîl, gloss:yol}nin yerini alabilecek bir bağlılık gibi okunabilir. Ettirgen {ar:يُضِلَّ, tr:yudilla, gloss:saptırır} bu sahnelerle buluşunca yön kaybının toplumsal ve bilerek sürdürülen biçimleri de görünür olur. Bu iki bağlam okurun ilk yön değişimini sonradan gelen bilinçli inkârdan ayırmasını sağlar; bu karşılaştırma onları tek kişinin yaşam öyküsüne ya da (31:6)’daki alıcının davranışlarına dönüştürmez.
+
+Bu toplumsal yöneliş örneklerinden (31:32)’ye yeniden, bu kez dikkatin kriz sırasında nasıl değiştiğini izlemek için bakabiliriz. Büyük tehlike ve kabaran dalgalar geldiğinde sıkıntı içindekiler yalnız Allah’a yönelir; kurtuluşun ardından ise işaretleri bilerek inkâr ederler. {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş}nun tuttuğu yer, bu öncesi ve sonrası içinde sınanır: tehlikede dikkat dağınıklığı geçici olarak düşebilir, güvenlikte yeniden kurulabilir. Bu zaman dizisinde tehlike, oyalamanın örtebildiği bağlılığı yeniden görünür kılar; korku da dikkatin daralmasını açıklayabilir. Bu, dikkatin kriz karşısındaki değişimine dair bir imgedir; gerçek bir medya katmanı varsaymaz ve iki ayetin kişilerini özdeşleştirmez.
+
+Kriz sahnesinden ayrı bir bağlılık ölçüsü (31:22)’de belirir; âyetteki {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır} ve {ar:يَتَّخِذَهَا, tr:yattakhidhahā, gloss:onu edinir} fiilleri Allah’a teslimiyet, sağlam bir kulpa tutunmak ve güvenilir olana güvenmekle betimlenir. Sağlam kulp, neye bağlanılacağı ve seçilen bağlılığın ne kadar taşıyıcı olduğu konusunda bağımsız bir güven ölçüsü getirir; soru hangi söylemin seçildiğinden, hangi bağlılığın gerçekten ağırlık taşıdığına kayar. Bu retorik karşıtlık nedensel açıklama kurmaz; dişil zamirin gönderimi bu bağlantıda açık kalır.
+
+Bağlılığın neye dayandığı sorusunun yanında, geleceğe ilişkin bilginin sınırı da belirir: (31:34)’te hiçbir canın yarın ne kazanacağını ya da hangi yerde öleceğini bilmediği söylenir. Âyetteki {ar:يَشْتَرِى, tr:yaşterî, gloss:satın alır}, {ar:سَبِيلِ, tr:sebîl, gloss:yol} ve {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} birlikte düşünüldüğünde, edinme iddiası izlenecek yönle ve bilginin sınırıyla karşılaşır: insan gelecekteki dönüşünü ve son noktasını güvence altına alamaz. Bu yüzden mesele yalnızca bir bilgi eksiği değil, kimsenin sahiplenemeyeceği bir gelecek yönünü kesinmiş gibi satma ya da satın alma iddiası olabilir. (31:34) burada genel bir bilgi sınırı sunar; odaktaki alıcıyı tanımlamaz. Satın alımı geleceğin sahibi olma diye yorumlamak, yalnızca bu iki bağlamı buluşturan bir çıkarımdır. Aynı ayetteki {ar:تَدْرِى, tr:tadrī, gloss:bilir} olağan olarak bilme fiilidir; yaygın olmayan bir eşleştirme bu fiilin çevresinde yolun gidişi ve hizalanması çağrışımı kurar. Bu yol-kursu benzetmesi ihtiyatlı bir yan okumadır; {ar:عِلْمٍ, tr:ʿilm, gloss:bilgi} sözcüğünün çevirisi ya da dilbilgisi değildir ve fiilin olağan “bilme” anlamını korur. Yarınki kazanç ve ölüm yeri hakkındaki bilinmezlik âyetteki gerçek yol ve onu tanıtan işaretler için bağımsız bir ufuk sunar; rota imgesi yalnızca bu sınırlı benzerlik içinde geçerlidir.
+
+## Alay ve Sonuç
+
+{ar:وَ, tr:wa, gloss:ve} burada önceki amaç zincirine ikinci bir eylem ekler; yoldan uzaklaştırmaya küçümsemeyi katar ve davranışı ağırlaştırır. Yolun ya da söylemin alay konusu yapılması, edinmenin geçici bir sahiplikten daha fazlasına dönüşmesiyle belirir. {ar:يَتَّخِذَهَا, tr:yattakhidhahā, gloss:onu edinir} sekizinci kalıpta “kendisi için edinme”yi, dişil nesne zamiriyle birlikte taşır; iki nesne alan yapı, gönderimi açık bir unsuru {ar:هُزُوًا, tr:huzuwan, gloss:alay konusu} konumuna sokar. Mastarın nesne görevindeki biçimi burada gülme olayını değil, nesneye yüklenen statüyü adlandırır. Böylece alay, bir anlık gülme olayından çok bir şeye verilmiş statü, benimsenmiş bir küçümseme tutumu olur. İkiz ünsüzlü fiil edinme eylemini işitsel olarak ağırlaştırır, hemzeli alay sözü keskin bir kontur çizer; bu ses özellikleri ifadeleri belirginleştirir, zamirin gönderimi ise açık kalır. (45:9)’da alay kalıbının Allah’ın ayetlerinden sonra gelmesi ve (5:57)’de dinin alay ile oyun konusu yapılması, ayet ya da dinin gösteri ve küçümseme nesnesine çevrilebildiğini gösterir. Bu dış paralellik alayın yön ve vahiy çevresindeki hedeflerini aydınlatır; dişil zamirin göndergesi bu bağlantıda yine açık kalır. Bir başka ihtiyatlı temas, yol ya da söylemin gelip geçici bir şaka değil, süreğen bir alay aracı olarak benimsenmesidir. Kancalı aracın sapı tutma, denetleme ve doğrultmaya yarar; bu işlev bir yön nesnesini alay için edinme fikrine benzetme yoluyla yaklaşır. Bu sözlük çağrışımı seçilen yön nesnesinin nasıl kavrandığını düşündürür; âyette gerçek bir araç sahnesi kurulmaz.
+
+Ardından uzak çoğul {ar:أُو۟لَٰٓئِكَ, tr:ulāʾika, gloss:işte onlar} tekil davranış tipini yargılanan bir topluluk olarak yeniden gösterir; {ar:هُمْ, tr:hum, gloss:onlar} zamiri de “kim”den bu gruba uzanan gönderim zincirini tamamlar. Eylemin betimlenişinden hükme böylece geçilir. Satın alma imgesinin sonucu {ar:لَهُمْ, tr:lahum, gloss:onlara} ile alıcılara döner: cümlenin başına alınan lâm, “onlara” ile “onların payı” yankılarını birlikte taşır. Bu sözcüksel karşılık hükmü alışverişle ilişkilendirir, gerçek bir ödeme anlatmaz. Ceza dilbilgisel olarak gruba bağlanır; grup alıcı olarak gösterildikten sonra belirsiz biçimdeki ve cümlede özne görevini alan {ar:عَذَابٌ, tr:ʿadhābun, gloss:azap} gecikmiş özne olarak gelir ve cezanın türünü belirtmeden varlığını bildirir.
+
+Olağan acı ve ağır cezalandırma anlamındaki {ar:عَذَابٌ, tr:ʿadhābun, gloss:azap}, etkin ortaç biçimindeki {ar:مُّهِينٌ, tr:muhīnun, gloss:aşağılayıcı} ile birlikte hem acı veren hem küçük düşüren bir yaptırımı düşündürür. Dördüncü kalıptaki sıfat cezayı yalnızca aşağılanmış durumda değil, aşağılayıcı etkiyi gerçekleştiren nitelikte sunar. İkili tenvinin işitilişi hükmü sıkı bir kapanışa toplar, fakat yeni bir ceza türü eklemez; ceza ile aşağılayıcılığı aynı kısa son seste birleştirir. Başta satın alınan oyalama, hükümde onur düşüren bir sonuçla karşılanır. Ceza olağan acı ve ağır yaptırım anlamında kalır; ayrı sözlük kullanımları burada özel bir ceza biçimi belirlemez, tam biçim açık bırakılır. Allah’ın yolundan söz edildikten sonra gönderimi açık bir unsurun alay konusu yapılması, {ar:مُّهِينٌ, tr:muhīnun, gloss:aşağılayıcı} sıfatındaki onur kaybı ve değersizleştirme anlamıyla bir ayna okuması kurabilir: başkasını küçümseyen tutum, failin kendi itibarının düşmesiyle karşılık bulur. (45:9)’da alay ile aşağılayıcı cezanın yeniden yan yana gelişi bu okumayı destekler; kapsamı her cezanın suçu aynen yansıttığı bir kurala dönüşmez. Burada metindeki etkin, aşağılayıcı sıfat öne çıkar; başka bir kök çözümlemesindeki sakinlik anlamının âyette bağımsız bir taşıyıcısı yoktur. Bu alay-aşağılama yankısı söz konusu çözümleme farkı nedeniyle ihtiyatlı kalır, başka okumaları geçersiz kılmaz.
+
+Bir başka ihtiyatlı aynalama, {ar:عَذَابٌ, tr:ʿadhābun, gloss:azap} ve {ar:مُّهِينٌ, tr:muhīnun, gloss:aşağılayıcı} ile alınan değeri ya da gücü kullanıma koşup yıpratma alanını küçümsemeden doğan onur kaybıyla buluşturur: yönlendirmeyi araçsallaştıran kişinin kendi konumu aşağı çekilebilir. Özel sözlük eşleştirmelerinden doğan bu tersine dönüş benzetmesi, olağan ceza anlamı ile aşağılayıcı niteliği birlikte duyurur; gerçek anlamda bir yıpratma eylemi değil, aşağı çekilen fail konumunu belirginleştiren ikincil bir imgedir.
+
+Alaydan önce seçilen uğraş, ceza sözcüğünün başka bir yanını açar. {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} oyun oynayarak ya da zevkli bir işle meşgul olarak eğlenmeyi anlatabilir; (31:24)’te kısa bir yararın ardından zorla cezaya sürüklenme gelir. {ar:عَذَابٌ, tr:ʿadhābun, gloss:azap} için verilen “kişiyi bir işten uzak tutma, o işi ona bıraktırma” kullanımı bu geçişle temas eder: kişi seçtiği uğraştan koparılır gibi düşünülebilir. Aynı dalın “sütten keser gibi ayırma” özelleşmesi, bu kopuşu yerine koyduğu hazdan mecazen kesilme imgesiyle somutlaştırır.
+
+{ar:مُّهِينٌ, tr:muhīnun, gloss:aşağılayıcı} sıfatındaki küçük düşürülme, onur kaybı ve güçsüzlük bu ayrılığa aşağılayıcı bir nitelik katar. Bu uzak ve ikincil çağrışım seçilmiş hazdan mecazi kopuşu somutlaştırır; (31:24)’teki kişiler odaktaki grupla özdeşleşmez ve ceza olağan acı-yaptırım anlamında kalır. Bu bağlantı gerçek bir sütten kesme ya da özel bir ceza biçimi bildirmez; sözlük çözümlemeleri arasındaki ayrım korunur.
+
+Âyetteki {ar:لَهْوَ, tr:lehve, gloss:oyalayıcı uğraş} ile {ar:عَذَابٌ, tr:ʿadhābun, gloss:azap} arasındaki geçiş (31:24)’te kısa yararın ardından zorla cezaya sürüklenme ve (31:33)’te dünya hayatı ile aldatıcının aldatmasına karşı uyarı üzerinden zamana yayılır. Bu iki sahne ayrı bağlamlar olarak kalır; (31:6)’daki alıcıyı tanımlamaz ve onun gelecekteki bedeli bilerek gizlediğini ileri sürmez. Yan yana okuma ise satın alınan zevkin görünen yararıyla sonradan karşılaşılan maliyeti aynı karar ufkunda buluşturur; böylece âyetin sıkıştırdığı süre açılır.
+
+</editorial_prose>

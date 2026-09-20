@@ -1,0 +1,189 @@
+# V5 reading invitation — 17:5
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p01-with-fatiha/s017/17_5/17_5.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p01-with-fatiha/s017/17_5/17_5.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+İkisinden ilkinin vaadi vakti geldiğinde ({ar:وَعْدُ أُولَىٰهُمَا, tr:waʿdu ūlāhumā, gloss:ikisinin ilkinin vaadi}), üzerinize bize ait kullardan çetin kuvvet sahibi bir topluluk gönderdik ({ar:بَعَثْنَا عَلَيْكُمْ عِبَادًا لَنَا, tr:baʿathnā ʿalaykum ʿibādan lanā, gloss:üzerinize bize ait kullar gönderdik}); onlar evlerin arasına girip dolaştılar ({ar:فَجَاسُوا۟ خِلَٰلَ ٱلدِّيَارِ, tr:fa-jāsū khilāla ad-diyāri, gloss:evlerin arasından geçip dolaştılar}). Son cümlecik, yaşananı yerine getirilmiş bir vaat diye niteler ({ar:وَكَانَ وَعْدًۭا مَّفْعُولًۭا, tr:wa-kāna waʿdan mafʿūlan, gloss:ve bu yerine getirilmiş bir vaat oldu}).
+
+## Sözün Vakti
+
+Açılıştaki {ar:فَإِذَا, tr:fa-idhā, gloss:ardından, vakti geldiğinde} önceki söyleyişe bağlanır; {ar:إِذَا, tr:idhā, gloss:ne zaman} koşulun zaman eşiğini açar, bu bağlantı önceki sözün içeriğini yeniden kurmaz. Ardından gelen geçmiş biçimli {ar:جَآءَ, tr:jāʾa, gloss:geldi}, bu eşiği sevkten önce beklenen ve sonuç doğuracak bir ana çevirir. Nominatif {ar:وَعْدُ, tr:waʿdu, gloss:vaat} ise birinci bâbın geçişsiz {ar:جَاءَ, tr:jāʾa, gloss:geldi} fiilinin öznesidir; bu cümlede geliş eylemini taşıyan başka bir fail değil, vaat edilen olayın kendisidir. Böylece soyut bildirim sahneye girecek bir olaya dönüşür, koşul da belirli bir tarih ya da dış olayların takvimini vermez.
+
+{ar:أُولَىٰهُمَا, tr:ūlāhumā, gloss:ikisinin ilki} biçimindeki dişil sıra gövdesi ilkliği, ekli ikil zamir iki üyeli göndergeyi taşır. Yakın bağlam bu ilkliği ayrı dönüşlerle çevreler: ilk olayın ardından verilen karşı hamle (17:6), sonraki vaat (17:7) ve davranışa bağlanan dönüş koşulu (17:8). Bu yan yanalık vaadi bir karşılıklar dizisinin açılışı gibi duyurur; dönüş ilişkisini çevredeki olaylar kurarken {ar:أُولَىٰهُمَا, tr:ūlāhumā, gloss:ikisinin ilki} ilk olayı sıra içinde adlandırır. İkil yapı iki üyeli göndergeyi kurar; sonraki vaadin zamanı ve içeriğiyle iki olay arasındaki süre, kesintisiz bir tarih çizgisi olarak belirlenmez.
+
+Bu beklenen olayın tehdit tonu, önceki uyarıyla birlikte belirginleşir. Hüküm diliyle iki bozulmayı ve büyük taşkınlığı bildiren sözler (17:4), yeryüzünde bozgunculuk çıkarılacağını açıkça söyler ({ar:وَقَضَيْنَآ, tr:wa-qaḍaynā, gloss:hükme bağladık}; {ar:عُلُوًّا كَبِيرًا, tr:ʿuluwwan kabīran, gloss:büyük bir taşkınlık}; {ar:لَتُفْسِدُنَّ فِي الْأَرْضِ, tr:la-tufsidunna fī l-arḍ, gloss:yeryüzünde bozgunculuk çıkaracaksınız}). Ardından gelen {ar:وَعْدُ, tr:waʿdu, gloss:vaat} ile {ar:بَعَثْنَا, tr:baʿathnā, gloss:gönderdik}, hedefe yönelen kuvvetle birleşince önceden bildirilen sonucun gerçekleşmesini duyurur. Geleceğe bakan vaat anlamı korunur; {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} yönelimi, çetin kuvvet ve hemen sonraki içeri giriş de söze bu bağlamda tehdit tonu verir. Bu yakınlık, önceki uyarının hedefe yöneltilen sevk içinde nasıl işitildiğini açıklar; topluluğun kimliği ve olayın tüm tarihsel açıklaması bu bağlantının kapsamına girmez.
+
+Vaat için açılan bu zaman eşiği, insanın zamanı kullanışıyla da karşıtlık kurar. İnsan kötülüğü bile aceleyle isteyebilir (17:11; {ar:عَجُولًا, tr:ʿajūlan, gloss:aceleci}); geceyle gündüz, yılların sayısı ve hesap ise zamanın ölçülebilir yanını öne çıkarır (17:12; {ar:ٱلَّيْلَ وَالنَّهَارَ, tr:al-layla wa-n-nahāra, gloss:gece ile gündüz}; {ar:عَدَدَ السِّنِينَ, tr:ʿadada s-sinīna, gloss:yılların sayısı}; {ar:وَالْحِسَابَ, tr:wa-l-ḥisāba, gloss:ve hesap}). {ar:وَعْدُ, tr:waʿdu, gloss:vaat} sözcüğünün anlam ailesinde belli aralıklarla yinelenen gelişler de bulunduğundan, sayım ve hesap vaadi ölçülebilir zaman içinde düşünmeye açar; acele ise buna daha gevşek bir karşıtlık ekler. İlk ve sonraki vaat, dönüş koşulu ve sayılı yıllar yinelenebilir bir ritim sezdirir (17:6, 17:7, 17:8, 17:12); bu ritim belirli tarih, süre ya da sayılı kök tekrarları düzeni kurmaz. Aynı anlam ailesindeki bir yıl meyve verip ötekinde vermeyen ağaç kullanımı ürün bağlamına aittir; burada taşıyıcı vaat olduğundan ve ürün söz konusu olmadığından, bu ağaç imgesiyle kurulan bağlantı etkinleşmez.
+
+## Gönderilenler
+
+Vaat vakte bağlandıktan sonra cümle önce hedefi, ardından gönderilenleri gösterir. Geçmiş zamanlı birinci çoğul {ar:بَعَثْنَا, tr:baʿathnā, gloss:gönderdik} sevk eylemini kurar; hemen ardından gelen {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} edatla ikinci çoğul zamirini birleştirip yönelinen tarafı, {ar:عِبَادًا, tr:ʿibādan, gloss:kullar} grubu tanıtılmadan önce görünür kılar. Bu sıra kuvvetle birleşince önce hedefte hissedilen bir baskı yönü kurar; fiilin kendisi güzergâhı değil, yer bildiren sonraki tamlama hareketin yolunu gösterir. Belirsiz çoğul kullar önce sevkin nesnesi, sonra {ar:جَاسُوا, tr:jāsū, gloss:içeride dolaştılar} fiilinin anlaşılan öznesi olur: gönderilen topluluk aynı olayda eyleyene dönüşür. Böylece toplu fail belirginleşirken kişilerin tek tek kimliği açık kalır; hareketin nesnesi de söylenmez.
+
+Gönderilen topluluğun kimle bağı, kapasitesinden önce açıklanır. {ar:لَنَا, tr:lanā, gloss:bize ait} önündeki kullara eklenerek konuşanla aidiyet ilişkisi kurar; başka bağlamlarda amaç da bildirebilen lām burada önceki isimle yakın bağından ötürü aidiyet okumasını öne çıkarır, amaç anlamının dilbilgisel imkânını tümden kapatmadan. Kulluk adı yaratılmışlık ve Tanrı'ya bağlılığı taşır; hizmet ve boyun eğme yönü de bu ilişkiye eşlik eder. Bu ilahî bağlılık insan hukukundaki mülkiyet kategorisine çevrilmez. Böylece kişiler topluca ve belirsiz kalırken, konuşanla aralarındaki ilişki belirginleşir.
+
+“Kul” adının taşıdığı bağlılık, başka ayetlerde farklı vasıflarla yan yana gelince daha seçikleşir. İbrahim, İshak ve Yakub “kullarımız” diye anılır, ardından ayrıca kuvvet ve basiret sahipleri olarak nitelenir (38:45; {ar:عِبَٰدَنَآ إِبْرَٰهِيمَ وَإِسْحَٰقَ وَيَعْقُوبَ, tr:ʿibādanā Ibrāhīm wa-Isḥāq wa-Yaʿqūb, gloss:kullarımız İbrahim, İshak ve Yakub}; {ar:أُو۟لِى ٱلْأَيْدِى وَٱلْأَبْصَٰرِ, tr:ulī l-aydī wa-l-abṣār, gloss:kuvvet ve basiret sahipleri}). Nuh “şükreden bir kul” diye anılır (17:3; {ar:عَبْدًا شَكُورًا, tr:ʿabdan shakūran, gloss:şükreden bir kul}); kulların günahlarından da söz edilir (17:17; {ar:بِذُنُوبِ عِبَادِهِ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahlarıyla}). 17:1'de başka bir kişiye “kulu” denir ({ar:بِعَبْدِهِ, tr:bi-ʿabdihi, gloss:kulu}). Bu karşılaştırmalar, “kul” adının bağlılık ilişkisini, ona eşlik eden nitelemelerin ise profili kurduğunu gösterir. Bu yankı gönderilenleri anılan kişilerle özdeşleştirmez; 17:5'teki topluluğun ahlaki portresini de tek başına tamamlamaz.
+
+Bu aidiyet sözü okurun kendi kulluk diliyle de temas eder. Fâtiha'da dua eden kişi “yalnız sana kulluk ederiz” der (1:5; {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız sana kulluk ederiz}). Oradaki {ar:نَعْبُدُ, tr:naʿbudu, gloss:kulluk ederiz} fiili, burada topluluğu adlandıran {ar:عِبَادًا لَنَا, tr:ʿibādan lanā, gloss:bize ait kullar} ismiyle aynı kulluk anlam ailesine başka bir biçimde katılır. Bu yankı okurun dua dilini gönderilenlerin ilahî aidiyetiyle yan yana getirir; dua edenlerin zamiriyle ayetteki tarihsel topluluk ayrı özneler olarak kalır.
+
+Görevlendirilmekle ahlaki onay arasındaki ayrım, yakındaki dünya ve ahiret yönelişlerinde de görünür olur. Yakın dünyayı isteyen ile ahireti isteyen ayrı ayrı anılır (17:18, 17:19; {ar:يُرِيدُ الْعَاجِلَةَ, tr:yurīdu l-ʿājilata, gloss:yakın dünyayı isteyen}; {ar:أَرَادَ الْءَاخِرَةَ, tr:arāda l-ākhirata, gloss:ahireti isteyen}); ardından her iki tarafa da Rabbin bağışından verildiği belirtilir (17:20; {ar:نُّمِدُّ كُلًّا هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ, tr:numiddu kullan hāʾulāʾi wa-hāʾulāʾi min ʿaṭāʾi rabbika, gloss:şunlara da bunlara da Rabbinin bağışından veririz}). Bu karşılaştırma görevin işlevini nihai ahlaki yargıdan ayırır: dünya imkânının iki tarafa da verilmesi onayla özdeş değildir. Gönderilen kuvvetin bu iki yönelişten hangisiyle ilişkili olduğu açık bırakılır; kulluk adı ve görev tek başına nihai hükmü kurmaz.
+
+Bu bağı kurduktan sonra topluluğun niteliği üç basamakta yoğunlaşır: {ar:عِبَادًا لَنَا, tr:ʿibādan lanā, gloss:bize ait kullar} aidiyeti, {ar:أُو۟لِى بَأْسٍ, tr:ulī baʾsin, gloss:güç sahipleri} taşınan kapasiteyi, {ar:شَدِيدٍ, tr:shadīdin, gloss:çetin} ise bu kapasitenin yoğunluğunu verir. Çoğul {ar:أُو۟لِى, tr:ulī, gloss:sahipleri} ile ardından gelen mecrur {ar:بَأْسٍ, tr:baʾsin, gloss:kuvvet} izafet kurar; {ar:شَدِيدٍ, tr:shadīdin, gloss:çetin} doğrudan kuvveti niteler. Sertlik ve direnç böylece ajanların taşıdığı çetin güçte toplanır. Sıfat bu kuvvete yerleşik bir yoğunluk verir; terkibin içinde rakip ölçüsü veya zaman süresi kurulmaz. Şeddeli d'nin sıkı tınısı yoğunluğu işitsel olarak yankılayabilir; {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} yönelimi ve ardından gelen dolaşma bu niteliği hedefe dönük cezalandırıcı basınç olarak duyurur. Buradaki basınç imgesi kuvvetin etkisini belirginleştirir, belirli bir keder ya da geçim kaybı sahnesi kurmaz.
+
+Sevk eyleminin hareket tonu, aynı grubun hemen sonraki fiilde etkin görünmesiyle belirginleşir. {ar:بَعَثْنَا, tr:baʿathnā, gloss:gönderdik} bir topluluğu gönderir; ardından {ar:جَاسُوا, tr:jāsū, gloss:dolaşıp ilerlediler} onu hareket halinde gösterir. Bu temas, “göndermek” anlamına durgun olanı etkinleştirme, harekete geçirme yankısı ekleyebilir; topluluğun bundan önceki hali cümlede belirtilmez. Daha uzaktaki bir kullanımda aynı kök ailesinin başka çekimli biçimi uyanma ve dirilme bağlamında geçer, hemen ardından vaadin doğruluğu anılır (36:52; {ar:مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا, tr:man baʿathanā min marqadinā, gloss:bizi yattığımız yerden kim kaldırdı}). Bu yankı gönderme fiiline bir kaldırılış ufku katar; 17:5'teki topluluğun durumunu uykuya ya da ölüme taşımaz, çünkü iki ayetteki biçim ve sahne ayrıdır.
+
+Gönderme fiilinin görevlendirme yönünü başka bir ayet, gönderilişi izleyen tepki ve sonuçla birlikte görünür kılar. Musa'nın Firavun'a ayetlerle gönderilmesi, ardından ayetlere haksızlık edilmesi ve bozguncuların akıbeti anılır (7:103; {ar:ثُمَّ بَعَثْنَا مِنۢ بَعْدِهِم مُّوسَىٰ بِـَٔايَٰتِنَآ إِلَىٰ فِرْعَوْنَ, tr:thumma baʿathnā min baʿdihim Mūsā bi-āyātinā ilā Firʿawn, gloss:sonra Musa'yı ayetlerimizle Firavun'a gönderdik}; {ar:فَظَلَمُوا۟ بِهَا, tr:fa-ẓalamū bihā, gloss:ayetlere haksızlık ettiler}; {ar:عَٰقِبَةُ ٱلْمُفْسِدِينَ, tr:ʿāqibatu l-mufsidīn, gloss:bozguncuların akıbeti}). Odaktaki {ar:بَعَثْنَا عَلَيْكُمْ, tr:baʿathnā ʿalaykum, gloss:üzerinize gönderdik} ile bu gönderme böylece görev-haksızlık-sonuç örüntüsünü uzaktan yankılar. Bu yankı görevlendirme boyutunu ekler; kişiler ve tarihsel olaylar kendi bağlamlarında kalır, 17:4'e özel bir yanıt ilişkisi kurulmaz.
+
+Toplu sevkin yanında bölüm, her kişinin kendi sorumluluğunun sınırını da çizer. Kişinin kaydı kendisine bağlanır ve açılmış halde karşısına çıkar (17:13; {ar:أَلْزَمْنَٰهُ, tr:alzamnahu, gloss:ona bağladık}; {ar:كِتَٰبًا يَلْقَىٰهُ مَنشُورًا, tr:kitāban yalqāhu manshūran, gloss:açılmış halde karşısına çıkan kitap}); kimse başkasının yükünü taşımaz (17:15; {ar:وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ, tr:wa-lā taziru wāziratun wizra ukhrā, gloss:hiçbir yük taşıyan başkasının yükünü taşımaz}). Cezanın başlaması da bir elçinin gönderilmesine kadar ertelenir (17:15; {ar:حَتَّىٰ نَبْعَثَ رَسُولًا, tr:ḥattā nabʿatha rasūlan, gloss:bir elçi gönderinceye kadar}). Elçi eşiği gönderme motifini sürdürürken bu bildirimin görevini ayırır: odaktaki silahlı toplulukla elçilik aynı görev değildir. Böylece kişisel sorumlulukla kamusal kuvvet yan yana görünür; bu karşılaştırma baskının özel tarihini veya işleyişini açıklayan bir bağ kurmaz.
+
+## Evlerin İçinden
+
+Hedef ve eyleyen belirlendikten sonra ikinci {ar:فَ, tr:fa, gloss:ardından ve bunun sonucu olarak}, geçmiş zamanlı çoğul {ar:جَاسُوا, tr:jāsū, gloss:evlerin içinde dolaştılar} fiilini sevke bağlar. Grup gönderildikten sonra harekete geçer; bu yerel bağ sıra ile sonucu birlikte duyurur, anlatıdaki dış zaman aralığını ya da tüm tarihsel nedeni değil. Açılıştaki {ar:فَإِذَا, tr:fa-idhā, gloss:ardından, vakti geldiğinde} ile {ar:فَجَاسُوا۟, tr:fa-jāsū, gloss:ardından dolaştılar} içindeki yinelenen ses de koşuldan sonuca geçişi işittirir; katkısı bu cümle hareketini pekiştirmektir, genel bir ses yasası kurmak değil. Fiilin çoğul öznesi gönderilen kullardan anlaşılır; nesne belirtilmediğinden hareketin neyi arama amacı taşıdığı bu cümlede açık kalır.
+
+Buradaki {ar:جَاسُوا, tr:jāsū, gloss:içeride ilerlediler}, evlerin arasında dolaşmayı doğrudan bildirir; Kur'an'daki tek kullanımı geçmiş zamanlı çoğul I. bâb biçimidir. Yanındaki yer tamlaması anlam alanını daraltır: mansup {ar:خِلَٰلَ, tr:khilāla, gloss:aralarından} “nereden?” sorusuna cevap veren yer zarfıdır, eksik bir nesne değildir; belirli, çoğul ve tamlayan biçimdeki {ar:ٱلدِّيَارِ, tr:ad-diyāri, gloss:evler ve meskenler} güzergâhı yaşanan yerlere taşır. Böylece hareketin alanı açık arazi değil, evlerin arasındaki geçitlerdir; buradaki açıklık mekânsal geçişi anlatır. Her meskenin dolu olup olmadığı ve yerleşimin dış sınırı ise belirtilmez.
+
+İç güzergâh bedensel bir giriş hissi de taşır. {ar:جَاسُوا, tr:jāsū, gloss:içeride ilerlediler} burada ayak basıp çiğnemeye açılan bir görüntü verebilir; evlerin arasıyla ve daha sonraki giriş-yıkım sahnesiyle temas bu çağrışımı güçlendirir (17:7). Bu çağrışım hareketin sertliğini artırır; 17:5'te ayrıca bir çiğneme veya yıkım eylemi bildirilmez. Fiilin sert başlangıcı da içeri yönelen rotayla birleşince pürüzlü giriş hissi verir; sesin katkısı duyusal tondadır, niyeti ya da belirli bir zararı saptamaz. {ar:ٱلدِّيَارِ, tr:ad-diyāri, gloss:meskenler} sözcük ailesindeki dönme ve çevreleme imgesi, geçişe çevrili bir yerleşimin içinden dolaşma yankısı ekler. Bu analojide odak sözcük yine meskenleri adlandırır; çevrenin gerçek sınırları ayette çizilmez.
+
+İçeri giriş, sonraki ayette açıkça karşılaştırılan girişe doğru bir mekânsal öncül gibi duyulur. Mescide ilk kez girdikleri gibi girme çağrısı ve ardından üzerinde yükseldiklerini bütünüyle yıkma ifadesi birlikte verilir (17:7; {ar:وَلِيَدْخُلُوا الْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ, tr:wa-li-yadkhulū l-masjida kamā dakhalūhu awwala marratin, gloss:mescide ilk kez girdikleri gibi girmeleri}; {ar:وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا, tr:wa-li-yutabbirū mā ʿalaw tatbīran, gloss:üzerinde yükseldiklerini bütünüyle yıkmaları}). Böylece evlerin aralarından geçen güzergâh, sonraki mescit girişinin mekânsal öncülü olur; hareket, yıkım temasının da yer aldığı bir giriş örüntüsü içinde duyulur. Bu yankı iki sahnenin faillerini, hedeflerini ve tarihlerini kendi bağlamlarında bırakır; 17:7'deki yıkımı 17:5'te ayrıca gerçekleşmiş bir eylem olarak aktarmaz.
+
+Güzergâhın “aralıklar” boyunca uzanması, aynı anlam ailesindeki düzenin sağlamlığını yitirme çağrışımını da açabilir. Bozulma ve büyük taşkınlık sözleri bu yankıyı tetikler (17:4): {ar:خِلَٰلَ ٱلدِّيَارِ, tr:khilāla ad-diyāri, gloss:evlerin aralarından} fizikî geçitleri anlatmayı sürdürürken, zayıflamış düzenin içinden geçilebilen açıklıklarını da düşündürür. Bu benzerlik, siyasal bozulmanın içeri sızma imgesiyle duyulmasını sağlar; kelimenin cümledeki yer işlevi yine aralıklardan geçen güzergâhtır. İlişki anlamsal bir yankıdır, belirli sokakların fiziksel olarak açıldığına dair bir olay anlatımı değildir.
+
+Meskenlerden kamusal yerleşime uzanan ölçek, daha geniş bir eşikle karşılaşır. Bir taşkınlığın ardından yerleşim yeri üzerine hükmün gerçekleşmesi ve onun bütünüyle yıkılması anlatılır (17:16; {ar:قَرْيَةً, tr:qaryatan, gloss:yerleşim yeri}; {ar:فَحَقَّ عَلَيْهَا الْقَوْلُ, tr:fa-ḥaqqa ʿalayhā l-qawlu, gloss:hüküm onun üzerine gerçekleşti}; {ar:فَدَمَّرْنَٰهَا تَدْمِيرًا, tr:fa-dammarnāhā tadmīran, gloss:onu bütünüyle yıktık}). Bu bağlam, evler arasındaki hareketin ölçeğini yerleşim çapındaki kamusal sonuca doğru genişletir; tek tek meskenlerle bir yerleşimin bütünü arasındaki farkı görünür kılar. Odaktaki çoğul mesken adı evleri ve yaşanan alanı adlandırmaya devam eder; 17:16 ile kurulan bu ölçek benzerliği tek başına iki anlatının tarihsel özdeşliğini kurmaz.
+
+Meskenlerin anlamı, yurtlarından edilme bağlamında konuttan topluluğun yaşadığı alana doğru genişler. Odaktaki {ar:ٱلدِّيَارِ, tr:ad-diyāri, gloss:meskenler} evleri ve yerleşim alanını belirtirken, bir topluluğun yurtlarından çıkarılması bu konut çekirdeğini ortak yurda taşır (59:2; {ar:مِن دِيَٰرِهِمْ, tr:min diyārihim, gloss:yurtlarından}). Başka bir yerde ülkeden çıkarılma girişimi toprak kaybı tehdidini açık eder (17:76; {ar:لَيَسْتَفِزُّونَكَ مِنَ ٱلْأَرْضِ لِيُخْرِجُوكَ مِنْهَا, tr:la-yastafizzūnaka mina l-arḍi li-yukhrijūka minhā, gloss:seni ülkeden çıkarıp sürmek istiyorlar}). Bu iki bağlam, evlerin arasındaki güzergâha yurt ve toprak kaybı yönünde toplumsal bir ölçek ekler. Bu genişleme diyār'ı doğrudan “ülke” diye çevirmeyi ya da önceki bozulmayı sürgünün nedeni saymayı gerektirmez; bağlantı, konuttan ortak yurda uzanan anlam yankısıyla sınırlıdır.
+
+Yerleşim içindeki erişim, yapılı çevrenin kırılganlığına dair iki ayrı sahneyle genişler. Bir topluluk kalelerinin kendilerini koruyacağını sanır; ummadıkları yönden gelen saldırı bu güveni boşa çıkarır ve evleri kendi elleriyle, ayrıca müminlerin elleriyle yıkılır (59:2; {ar:وَظَنُّوٓا أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُمْ, tr:wa-ẓannū annahum māniʿatuhum ḥuṣūnuhum, gloss:kalelerinin onları koruyacağını sandılar}; {ar:فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟, tr:fa-atāhumu llāhu min ḥaythu lam yaḥtasibū, gloss:Allah onlara ummadıkları yönden geldi}; {ar:يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ, tr:yukhribūna buyūtahum bi-aydīhim wa-aydī l-muʾminīn, gloss:evlerini kendi elleriyle ve müminlerin elleriyle yıkıyorlar}). Bu sahne vaadin tehdit tonuna, korunaklı sayılan yerleşimin aşılması ve evlerin somut zarara uğraması üzerinden yankı verir. Ayrı bir yapısal imge, yıkımın temellerden başlayıp çatının üzerlerine düşmesine kadar uzanışını gösterir (16:26; {ar:فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ, tr:fa-atā llāhu bun'yānahum mina l-qawāʿidi fa-kharra ʿalayhimu s-saqfu min fawqihim, gloss:yapılarına temellerinden gelindi ve çatı üzerlerine çöktü}). İlki kale korumasının bozulmasıyla ev zararını, ikincisi temelden çatıya yayılan çöküşü taşır; iki sahne birlikte iç güzergâhın yanına yapılı çevrenin kırılganlığını ekler, ortak bir tarihsel ya da nedensel dizi kurmaz.
+
+İç güzergâh, fiilin dikkatle arama ve bir alanı kapsamlıca tarama yönünü de mümkün kılar. Yinelenen giriş ve yıkım hareketi (17:7), ayrıca kentlerin kıyamet öncesi yıkım ya da ağır ceza ufkuna alınması (17:58), ev içinden kent ölçeğine uzanan tarama imgesini besler. Kentler için bu akıbetin Kitap'ta yazılmış olduğu da belirtilir (17:58; {ar:كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًا, tr:kāna dhālika fī l-kitābi masṭūran, gloss:bu Kitap'ta yazılmıştı}). {ar:جَاسُوا, tr:jāsū, gloss:içeride ilerlediler} fiili evlerin arasında dolaşma anlamını korurken, {ar:خِلَٰلَ ٱلدِّيَارِ, tr:khilāla ad-diyāri, gloss:evlerin aralarından} bu olası aramaya yerleşimin içine yayılan bir rota verir. Tarama böylece hareketin kapsamını genişletir; aranan nesne ve askerlerin araştırma niyeti ise bu bağlantıda açık kalır.
+
+Bu olası tarama, kişilerle ilgili kayıt çevresinden de bir açığa çıkış yankısı alır. Her kişinin önüne açılmış halde çıkan kayıt (17:13; {ar:كِتَٰبًا يَلْقَىٰهُ مَنشُورًا, tr:kitāban yalqāhu manshūran, gloss:açılmış halde karşısına çıkan kitap}) ile kulların günahları hakkındaki bilgi (17:17; {ar:بِذُنُوبِ عِبَادِهِ خَبِيرًا بَصِيرًا, tr:bi-dhunūbi ʿibādihi khabīran baṣīran, gloss:kullarının günahlarından haberdar ve gören}) içeride olanın görünür hale gelmesi fikrini ayrı ayrı besler. Bu çağrışım fizikî dolaşımın yanına saklı davranışın açığa çıkacağı bir ufuk ekler; denetleme bilgisi veya amacı askerlerin kendilerine yüklemez. Kent akıbetinin Kitap'ta yazılı oluşu ise topluluk ölçeğinde kalır (17:58); kişi başına açılan kayıtla karışmaz ve bireysel sorumluluğu başkasına aktarmayı gerektirmez.
+
+## Yerine Gelmiş Vaat
+
+Evlerin içinden geçen güzergâhın ardından kapanış, dikkati yeniden vaadin nasıl adlandırıldığına çevirir. Başta nominatif {ar:وَعْدُ, tr:waʿdu, gloss:vaat} geçişsiz fiilin öznesiyken, sonda mansup {ar:وَعْدًا, tr:waʿdan, gloss:vaat} geçmiş biçimdeki kopula {ar:كَانَ, tr:kāna, gloss:oldu} altında yaşananı adlandıran yüklem olur. Böylece ayetin başındaki geliş, aradaki sevk ve girişin ardından yerine gelmiş vaat olarak kapanır. Edilgen ortaç {ar:مَّفْعُولًۭا, tr:mafʿūlan, gloss:gerçekleştirilmiş} tamamlanmış eylem niteliğini verir; bu cümlede faili açıkça adlandırmaz. Bağlayıcı {ar:وَ, tr:wa, gloss:ve} ile kopula kapanışı önceki eyleme bağlayıp onun gerçekleşmiş durumunu bildirir, yeni bir gönderme eylemi başlatmaz. {ar:كَانَ, tr:kāna, gloss:oldu} önceki eylemi geriye dönük mühürleyebilir ya da eylemle birlikte onun gerçekleşmiş durumunu bildirebilir; iki bağlanış da tamamlanmışlığı öne çıkarır. Doğrudan hitap {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} boyunca sürer; bu kapanışta önceki uyarı ayrıca yeni bir suçlamaya dönüşmez (17:4).
+
+“Vaat” sözcüğünün kendisi bir gerçekleşme garantisi taşımaz: başka bir ayette şeytanın vaadi aldatma diye nitelenir (17:64; {ar:وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا, tr:wa-mā yaʿiduhumu sh-shayṭānu illā ghurūrā, gloss:şeytanın vaadi aldatmadan başka değildir}). Bu karşılaştırma, yalnızca “vaat” adından doğruluk sonucu çıkarılamayacağını gösterir; 17:5'teki gerçekleşme ise vakit koşulunu izleyen sevk, içeri giriş ve kapanış hükmünden anlaşılır. Sonraki vaadin vakti anlatının zaman ufkunu genişletir, kendi olayını bu ilk vaatle birleştirmez (17:104; {ar:فَإِذَا جَآءَ وَعْدُ ٱلْءَاخِرَةِ, tr:fa-idhā jāʾa waʿdu l-ākhirati, gloss:sonraki vaadin vakti gelince}); Rabbin vaadinin yerine getirilmiş olduğunu bildiren formül ise kapanışla yankılanır (17:108; {ar:وَعْدُ رَبِّنَا لَمَفْعُولًا, tr:waʿdu rabbinā la-mafʿūlan, gloss:Rabbimizin vaadi yerine getirilmiştir}). Sondaki {ar:مَّفْعُولًۭا, tr:mafʿūlan, gloss:gerçekleştirilmiş} üzerindeki tanvin yüklemi sesçe kapatır ve tamamlanmış olayın durumunu son vurguya taşır.
+
+</editorial_prose>

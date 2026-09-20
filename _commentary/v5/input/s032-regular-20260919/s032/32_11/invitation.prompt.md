@@ -1,0 +1,199 @@
+# V5 reading invitation — 32:11
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s032-regular-20260919/s032/32_11/32_11.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s032-regular-20260919/s032/32_11/32_11.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Alınmanın Bildirilişi
+
+32:11, tekil eril bir buyrukla açılır: {ar:قُلْ, tr:qul, gloss:de}. Bu söz, ardından gelen ölüm ve dönüş bilgisini aktarılacak bir bildirim olarak çerçeveler: canınızı ölüm meleği alır, sonra Rabbinize döndürülürsünüz. Buyruk tek bir kişiye yönelirken {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} içindeki ek ve sonraki çoğul biçimler bir topluluğa seslenir; böylece tek konuşmacıdan çok sayıda muhataba geçilir. Cümle konuşmacıyı önceki söylemdeki üçüncü şahıslarla özdeşleştirmez ve sözü dinleyecek kişileri adlandırmaz.
+
+Kısa {ar:قُلْ, tr:qul, gloss:de} emrinden uzun {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} fiiline geçiş, bağlı çoğul nesne ekiyle eyleme doğru bir atılış duyurur. Bu, iki sözcüğe yeni anlam yükleyen bir yorum değil, cümlenin ritmine ilişkin bir gözlemdir.
+
+Fiildeki ilk {ar:كُمْ, tr:-kum, gloss:siz} eki, kimin alındığını ölüm meleği fail olarak görünmeden önce bildirir: topluluk önce eylemin nesnesi, ardından onu alan fail olarak işitilir. Ekli nesne özneye dönüşmez. {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} burada olağan ölüm anlamını taşır; kişinin canı alınır ve yaşamı sona erer. V. bâbdaki fiilin kök ailesinde sözü, şartı, ölçüyü ya da hakkı bütün gerekleriyle yerine getirip tamamlama kullanımı da vardır. Bu kol, çoğul nesne ve ardından gelen {ar:ثُمَّ تُرْجَعُونَ, tr:thumma turjaʿūna, gloss:sonra döndürüleceksiniz} sırasıyla temas ettiğinde “tam alma” hissi açılır: daha dar kullanımdaki hiçbir parçayı geride bırakmadan alma vurgusu, bütün topluluğun alınmasını ve dönüşün bundan sonra gelmesini belirginleştirir. Ölümün olağan anlamı önde kalırken bu yankı, sonraki dönüşten önce bütün kişinin teslim alınmasını duyurur; aradaki ruhsal ya da fiziksel hâli, canın nasıl korunduğunu veya ölümün işleyişini açıklamaz.
+
+Alma fiilinin öznesi, tekil ve yalın durumdaki {ar:مَّلَكُ ٱلْمَوْتِ, tr:malaku l-mawti, gloss:ölüm meleği} tamlamasıdır; baştaki ad meleği, belirli durumdaki {ar:ٱلْمَوْتِ, tr:al-mawti, gloss:ölüm} ise unvanın tanımlı görev alanını gösterir. Ölüm burada öldürmek bildiren bir fiil değil, tamlamanın içindeki isimdir; canlıdaki yaşam ve gücün sona erişini adlandırır. Belirli ölüm adı belirsiz bir benzetmeye değil, tanımlı bir alana işaret eder. Bu dilbilgisel ayrım alınan kişilerin gerçekten öldüğü olağan okumayla uyumludur; tamlama ölümün türünü ya da nedensel işleyişini açıklamaz. Ayetin bu unvanı tekil bir fail olarak kurması da başka yerlerde yalnızca bir kez geçtiği iddiasını taşımaz.
+
+{ar:ٱلْمَوْتِ, tr:al-mawti, gloss:ölüm} tamlamasının sonundaki t ünsüzü ölüm adlandırmasına küçük bir işitsel kapanış verir. Ayrıca {ar:يَتَوَفَّىٰكُمْ مَّلَكُ, tr:yatawaffākum malaku, gloss:sizi alır ve melek} geçişinde -kum sonundaki m ile meleğin adının başındaki m burun sesini sürdürür. Ses bağı alınan grup ile onu alan fail arasında işitilir, fakat dilbilgisel rollerini değiştirmez.
+
+## Görevli Fail ve Görev Alanı
+
+Unvandan sonra gelen tekil eril {ar:ٱلَّذِى, tr:alladhī, gloss:ki} zamiri yeniden ölüm meleğine bağlanır; {ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:sizin üzerinize görevlendirildi} cümlesi de meleğin atanmış görevini açıklayıcı bir niteleme gibi ona bağlar. Buradaki vâv bağımsız bir bağlaç değil, görevlendirme fiilinin başlangıcıdır; böylece unvanla görev cümlesi kesintisiz kalır.
+
+{ar:وُكِّلَ, tr:wukkila, gloss:görevlendirildi} II. bâbın geçmiş zaman edilgen biçimidir: melek işi kendi kendine üstlenen değil, atanmış görevin alıcısı olarak sunulur. Görevlendirme kökünün bir kullanımı sorumluluğu yürütmesi için başkasına bırakmak, genişleyen bir kullanımı da işi alan kişinin devreden adına yetkili temsilci olarak hareket etmesidir. Edilgen biçim atananı öne çıkarır; işi devreden otoritenin kimliği ise söylenmez.
+
+Bu cümledeki {ar:بِكُمْ, tr:bikum, gloss:sizin üzerinize} ögesi atanmış görevin alanını tamamlar: muhataplar atamayı yapanlar değil, görevin üzerinde yürütüldüğü topluluktur. Bâ harfi bu yerel bağda araç ya da sebep bildirmez; atanmış görevin alanını gösterir ve fiilin ilişkisini sözdizimsel olarak tamamlar. Atayanın adı verilmemesi bu görevlendirme ilişkisini belirsiz bırakmaz. Edilgen geçmiş {ar:وُكِّلَ, tr:wukkila, gloss:görevlendirildi} ile etken şimdiki/geniş {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} biçiminin yan yana gelişi, atamayı alma işlevinin dayanağı olan yerleşik bir görev gibi duyurur, ancak atamanın ne zaman yapıldığını tarihlemez. Güven ve dayanma alanındaki yankı da meleğin insanlara güvenmesini değil, sorumluluğun devredilip görev alıcısının yetkilendirilmesini öne çıkarır.
+
+Görev alanı ile dönüşün yönü aynı ilişkiyi anlatmaz: topluluk önce {ar:بِكُمْ, tr:bikum, gloss:sizin üzerinize} ile üstlenilmiş işin konusu olur, sonra {ar:إِلَىٰ رَبِّكُمْ, tr:ilā rabbikum, gloss:Rabbinize doğru} ile Rabbe yöneltilir. Bu ayrım, {ar:مَلَك, tr:malak, gloss:melek} unvanındaki sahip olma, tasarruf ve yönetme yankısını bağımsız egemenlikten devredilmiş işleve taşır. Unvanın bir başka sözlük kullanımı ilahi haber ya da buyruk ileten bir elçiyi adlandırır; burada ölüm meleği, aldığı insanlarla ve kendisine bırakılan işle tanınan gerçek bir faildir. İnsanların döndürüldüğü Rab makamı ise onun görevinin son hedefidir, meleğin elinde tuttuğu bir yetki değildir.
+
+## Sıra ve Varış
+
+Önce alma, sonra dönüş: {ar:ثُمَّ, tr:thumma, gloss:sonra} bu iki hareketi birbirinden ayırarak bir sıra kurar. Arada bir zaman ya da mertebe sezilebilir, fakat bağlaç aralığın süresini ve içinde yaşananları açıklamaz. Sözcüğün çift mîmi sıralamanın eşiğine işitsel ağırlık verir; olayların ayrıldığı yer kulakta da belirginleşir, ancak ses süreyi ölçmez ve “sonra”ya yeni bir sözlük anlamı eklemez.
+
+Dönüşün hedefi fiilden önce duyurulur: {ar:إِلَىٰ رَبِّكُمْ, tr:ilā rabbikum, gloss:Rabbinize doğru} öne alınca dinleyici önce nereye varılacağını, ardından edilgen {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} biçimiyle dönüşün nasıl kurulduğunu işitir. Öne alış hedefi belirginleştirir ama varış sonrasının ayrıntılarını vermez. {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} edatının uzun ā sesi yönelişi varış adı söylenmeden taşır; açık son ünlüsü {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} içindeki r ve ikiz b seslerine bağlanınca hareketin Rab unvanında sonlandığı duyulur. Bu bir kıraat etkisidir; ses uyumu tek başına simgesel bir hüküm kurmaz.
+
+Edilgen {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} muhatapları dönüşün etkilenen tarafı yapar; etken {ar:تَرْجِعُونَ, tr:tarjiʿūna, gloss:dönersiniz} biçiminde ise dönüşün öznesi onlar olurdu. Bu karşılaştırma ayetteki kuruluşu değiştiren başka bir okuyuş önermek için değil, edilgen yapının kurduğu ilişkiyi görünür kılmak içindir. {ar:وُكِّلَ, tr:wukkila, gloss:görevlendirildi} ile {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} iki edilgen eylemdir; ikisinin faili söylenmez, Rab ise dönüşün adı konmuş hedefidir, bu fiillerin dilbilgisel faili değil. Dönüş fiilinin olağan kullanımı birini başladığı yere, önceki durumuna ya da ilgililerine geri göndermeyi anlatır; öne alınmış {ar:إِلَىٰ رَبِّكُمْ, tr:ilā rabbikum, gloss:Rabbinize doğru} hedef varışı Rab ile ilişki içinde belirler, önceki yerin fiziksel konumunu değil. {ar:ٱلْمَوْتِ, tr:al-mawti, gloss:ölüm} adıyla {ar:ثُمَّ, tr:thumma, gloss:sonra} sırası birleşince, fiilin ölümden sonra insanın Tanrı huzurundaki son varışını anlatan kullanımı da duyulur. {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} ile gerçekleşen alınma, bu sıra ve Rab hedefi birlikte bir dönüş yayı kurar; ayet bir önceki yaşam öyküsünü veya aşamalı zaman çizelgesini vermeden bu son noktayı belirginleştirir. Böylece yerel cümle Rabbe dönüşte kapanır: hedef bellidir, aradaki sahne ve mekanizma açık bırakılır.
+
+Aynı topluluk eklerde farklı dilbilgisel rollerle izlenir: {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:sizi alır} içindeki -kum alınan nesneyi, {ar:بِكُمْ, tr:bikum, gloss:sizin üzerinize} görev yüklenen grubu, {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} Rabbe bağlı olanları, son {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} ise dönüşten etkilenen çoğul muhatapları gösterir. Gönderim aynı grupta kalırken eklerin işi değişir. Rab adı tekil, ona bağlanan “siz” çoğuldur: birçok kişi tek bir Rab ilişkisi altında toplanır, fakat bu dilbilgisel birlik dönüşteki kişisel ayrımları anlatmaz. {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} soyut bir “başka yer” değil, muhatapların Rabbe bağlılığını belirten iyelikli hedeftir; sahiplik, buyruk yetkisi ve yönetme alanındaki Rab yankısı burada bu hedefi son otorite olarak duyurur, mutlak ve bağımsız bir ada dönüştürmez.
+
+{ar:رَبّ, tr:rabb, gloss:Rab} unvanının başka bir kullanımı, gözetileni eksik durumdan tamamlanmış duruma adım adım geliştirmek; bir diğeri besleyip büyütmektir. Ölümle alınma ve ardından {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} dönüş sırası, varışı gelişme ve yetişme kaynağı olarak da duyurur; bu yankı sözlükteki “Rabbiniz” karşılığının yerini almaz. Belirli bir besleme eylemi, insan ebeveynliği, muhatapların hayat öyküsü veya bu gelişimin aşamaları anlatılmaz.
+
+## Karşılaşmaya Açılan Dönüş
+
+32:10’daki üç ayrı söz, 32:11’deki alma ve dönüşe farklı katkılar sunar. Yeryüzünde kaybolup gitme ve korunmadan kalma korkusu (32:10), {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} fiilinin tam alma yankısını hiçbir muhatabın geride kalmadığı bir teslim alış olarak duyurur; {ar:مَّلَكُ ٱلْمَوْتِ, tr:malaku l-mawti, gloss:ölüm meleği} yaşamı sona erdiren fail olarak belirince soru, öldürülmenin yanı sıra bütün kişinin alınıp alınmadığına da yönelir. 32:10’daki yeniden yaratılış sorusu almayı, kesintiden sonra {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} ile anlatılan dönüşe giden ilk hareket gibi düşündürür. Rabbe kavuşmayı reddeden söz (32:10) ise bu dönüşü reddedilmiş karşılaşmanın cevabı yapar. Böylece tetikleyiciler ayrı ayrı işler: kaybolma korkusu eksiksiz almayı emanet sorunu olarak, yeniden yaratılış sorusu kesintiden sonraki dönüşü, reddedilen kavuşma ise varışı karşılaşma olarak duyurur. {ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:sizin üzerinize görevli kılındı} ile verilen görev, tam alma ve {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} hedefine dönüşle birleşince sorumlu bir emanet aktarımı imgesi kurar. Bu imgedeki koruma, yeterlilik ve güvence görevin nasıl taşındığını anlatır; bunlar ayetteki teknik koruma terimleri değildir. Böylece 32:10’daki kaybolma korkusu karşısında hiçbir muhatabın vaat edilen dönüşün dışında kalmadığı hissi güçlenir. Bu bağlam ölümün olağan anlamını terk ettirmez: ölüm okuması, dağılmaya karşı özel bir polemiğe dayanmadan da yerindedir.
+
+Rabbe yönelen {ar:إِلَىٰ رَبِّكُمْ تُرْجَعُونَ, tr:ilā rabbikum turjaʿūna, gloss:Rabbinize döndürüleceksiniz} dönüş, 32:12’de karşılaşmanın bedensel ve sözlü sahnesine ulaşır. Suçlular {ar:عِندَ رَبِّهِمْ, tr:ʿinda rabbihim, gloss:Rablerinin huzurunda} {ar:نَاكِسُوا۟ رُءُوسِهِمْ, tr:nākisū ruʾūsihim, gloss:başları öne eğik} durur ve {ar:أَبْصَرْنَا وَسَمِعْنَا, tr:abṣarnā wa-samiʿnā, gloss:gördük ve işittik} diye ikrar ederler (32:12). Aynı sahnede {ar:فَٱرْجِعْنَا, tr:fa-irjiʿnā, gloss:bizi geri döndür} diye yalvarıp dünyaya dönerek {ar:نَعْمَلْ صَٰلِحًا, tr:naʿmal ṣāliḥan, gloss:iyi işler yapalım} isterler (32:12). 32:12’deki bu istek, 32:11’de üzerlerine gelen edilgen Rabbe dönüşün ters yönünü arar: birinde varış dışarıdan belirlenir, ötekinde önceki tutumu bırakıp yanlış davranışı düzeltme ve yeniden eyleme geçme arzusu vardır.
+
+32:14’te {ar:لِقَآءَ يَوْمِكُمْ هَٰذَا, tr:liqāʾa yawmikum hādhā, gloss:bugünkü karşılaşmanız} buluşmayı açıkça adlandırır. {ar:نَسِيتُمْ, tr:nasītum, gloss:unuttunuz} ile {ar:إِنَّا نَسِينَٰكُمْ, tr:innā nasīnākum, gloss:biz de sizi unuttuk} arasındaki karşılık da ihmal edilmiş bu karşılaşmayı belirginleştirir (32:14); rica, önceki fırsatı geri getirmez. Böylece 32:11’deki vaat edilen Rabbe dönüş, 32:12’de istenen dünyaya geri gönderilmeden ayrılır ve 32:14’te adı konan buluşmaya zorunlu varış gibi duyulur. 32:12 ve 32:14’teki pişmanlık ve unutulmuş buluşma bu karşıtlığı sahneleyebilir; bu ayetler 32:11’de dönüşün tam olarak nasıl gerçekleştiğini belirlemez.
+
+Bu açık buluşma adı (32:14), {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} fiilinin olağan ölüm anlamının yanına kök ailesinden ayrı bir yankı ekler: aynı ailede bir yere ya da kişinin yanına gelip ulaşmak, belirlenmiş vakitte sözleşilen buluşmaya varmak da vardır. 32:14’teki buluşma sözü bu nüansı bağımsızca tetikler; böylece ölüm alma fiili buluşma fiiline dönüşmeden, ölümden sonraki Rabbe dönüş tayin edilmiş bir karşılaşmaya varış diye renklenir. 32:11’deki {ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:sizin üzerinize görevlendirildi} görevi, {ar:ثُمَّ, tr:thumma, gloss:sonra} sırası ve öne alınan {ar:إِلَىٰ رَبِّكُمْ, tr:ilā rabbikum, gloss:Rabbinize doğru} hedef de tam alımı bu buluşmaya giden atanmış yolun başlangıcı gibi duyurabilir. Bu okuma 32:11’de açık bir buluşma sözcüğü veya belirlenmiş saat bulunduğu anlamına gelmez; buluşma tonu 32:14’teki ayrı ifadeden gelir.
+
+{ar:ٱلْمَوْتِ, tr:al-mawti, gloss:ölüm} olağan anlamıyla beden hayatının sona ermesidir; kök ailesindeki gerçeğe boyun eğip direnci bırakma kullanımı ise dönüş sahnesine bir teslimiyet katmanı ekler. Bu yankı, 32:12’de başları öne eğik suçluların Rablerinin huzurunda duruşuyla ve gördüklerini, işittiklerini ikrar etmeleriyle; 32:13’te ise hükmün kesinleşmesiyle tetiklenir: {ar:حَقَّ ٱلْقَوْلُ مِنِّي, tr:ḥaqqa al-qawlu minnī, gloss:benden gelen hüküm kesinleşti}. Bu iki ayrı sahne (32:12, 32:13), Rabbe dönüşü hakikat karşısında tanınmanın ve direncin çözülmesinin içinden gösterir. Bu duygusal-hukukî okuma bedensel ölümün yerine geçmez; baş eğiş pişmanlık ve ikrarı canlandırırken 32:11’de aktarımın nasıl işlediğini açıklamaz.
+
+## Oluş, Görev ve Hesap
+
+32:7–9, başlangıçtan canlı kişiye uzanan bir oluş dizisi verir: 32:7 insanın çamurdan yaratılışını başlatır; 32:8 neslin değersiz bir sıvının özünden gelişini, 32:9 ise biçim verilmesini, ruh üflenmesini ve işitme ile görmenin verilmesini anlatır. Bu sıra (32:7, 32:8, 32:9), 32:11’de {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} ile tam alınan ve {ar:إِلَىٰ رَبِّكُمْ تُرْجَعُونَ, tr:ilā rabbikum turjaʿūna, gloss:Rabbinize döndürüleceksiniz} ile Rabbe yönelen kişiyle birleşince, ölümü önceden biçimlenip canlandırılmış kişinin sonraki aktarımı gibi duyurur; oluş, canlanma, alınma ve dönüş böylece birbirine bağlanır. Bu ölüm-dönüş bağında 32:8’deki özüt ve nesil ayrıntısı en zayıf halkadır; ters oluş çizgisi çıkarım olarak kalır. Yaratılış diriltme gücünü düşündürür, ancak sürecin katı biçimde geriye sarıldığını veya görünmeyen bütün aşamaları bildirdiğini göstermez. 32:7 bu çizgiye başlangıç verir, 32:10’daki Rabbe kavuşmayı reddeden söz ise varışın önemini açar. Oluş çizgisi gerçek bir coğrafi güzergâh ya da dönüş mekanizması belirlemez. {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} olağan karşılığıyla kalırken, unvanın besleyip büyütme ve adım adım yetiştirme kullanımları oluş dizisine bağımsızca temas eder; Rabbe varış böylece gözetileni eksikten tamamlanmışa geliştiren ve besleyen kaynağa dönüş gibi de duyulur. Bu yankı, belirli bir önceki beslenme eylemi, insan ebeveynliği, kişisel hayat öyküsü veya gelişim aşamaları kurmadan, Rabbe dönüşü canlandırılmış hayatın kaynağa varması olarak oluş anlatısının karşı ucuna yerleştirir.
+
+Ölüm meleğinin görevi, daha geniş yön işaretlerinin arasında da okunabilir. 32:2 aşağıya inişi, 32:5 ise işlerin yönetilmesini ve yeniden O’na yükselişi verir; bu aşağı-yönetim-yukarı çizgisi, 32:11’deki {ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:sizin üzerinize görevli kılındı} sorumlu görevli ve {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} biçimindeki insan dönüşüyle temas edince ölümü daha geniş bir ilahi düzenin içinden geçen insan ayağı gibi düşündürür. Bu devre bir çıkarımdır: 32:2’deki iniş ve 32:5’teki yükseliş tek bir idari devrenin aşamaları değil, retorik ya da mekânsal paralellikler de olabilir; 32:5 kendi başına kişisel ölüm aktarımını anlatmaz.
+
+32:4’te bağımsız koruyucu ve şefaatçinin reddedilmesi, 32:11’deki görevlendirmeye başka bir karşıtlık kazandırır. Yönetme ve halk üzerinde buyruk kurma imgesi (32:4) bir otorite yankısıdır, melek adının sözlük anlamı değil. 32:11’deki {ar:مَّلَكُ ٱلْمَوْتِ, tr:malaku l-mawti, gloss:ölüm meleği} gerçek bir meleği, {ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:sizin üzerinize görevli kılındı} ise açıkça verilmiş görevi gösterir: reddedilen özerk himayenin karşısında bu melek işi üstlenip yürütür; yeterlilik, koruma ve güvence imgesi görevin nasıl taşındığını açıklar, ayrı bir unvanı değil. {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} iyelikli son hedefte sahiplik ve hüküm yetkisini toplar; 32:5’teki O’na yükseliş yankısı da meleğin kendisinin olmayan bir son otoriteye bağlı kaldığını düşündürür. 32:4 ve 32:5’le kurulan bu okuma meleğin eylemini gerçek ve gerekli tutar, onu son yetkinin rakibi yapmaz. 32:4’teki ret kurtarıcı patronlar ve şefaatçilerle sınırlı olabilir; 32:5’teki yükseliş de tek başına kişisel ölüm aktarımını anlatmaz.
+
+{ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:sizin üzerinize görevlendirildi} görevi ile {ar:يَتَوَفَّىٰكُمْ, tr:yatawaffākum, gloss:canınızı alır} fiilinin tam alma yankısı, varışta hesapla ilgili daha geniş bir imge kurar; bu çıkarımsal bağ 32:13, 32:17 ve 32:25’ten beslenir. 32:13’te vadesi gelmiş söz ve yükümlülük, 32:17’de yapılan işe göre karşılık, 32:25’te ise ayırıcı hüküm görünür. Bu bağlamlar (32:13, 32:17, 32:25), sahiplik ve yönetme yetkisini taşıyan {ar:رَبِّكُمْ, tr:rabbikum, gloss:Rabbiniz} hedefiyle birleşince, alınan bütün kişinin vadesi gelen hakkın ayırt edilip karşılandığı otoriteye ulaşmasını düşündürür. 32:17’de eyleme uygun karşılık kişinin yaptıklarına cevap veren hesabı açar; borcun eksiksiz tahsili benzetmesi tam almada açıkta parça kalmadığı hissini taşır. 32:25’teki ayrıştıran hüküm de varışı, karşılığın ayrılıp karara bağlandığı yer olarak duyurur. Böylece 32:4’te kimin iş görebileceği sorusu, 32:11’deki sınırlı görevlendirme ve eksiksiz alma üzerinden 32:13, 32:17 ve 32:25’te bütün kişi son merciye ulaştığında ne olacağı sorusuna bağlanır. Sorumlu emanet, vadesi gelmiş yükümlülük, eyleme uygun karşılık ve ayırıcı hüküm bu yüzden bütünlüklü, ama çıkarımsal bir el değiştirme imgesi kurar. Bu imge gerçek bir idari defter ya da ölümün işleyiş açıklaması değildir; 32:25 daha geniş yargı temasının parçasıdır ve aktarım mekanizmasına özgül olarak az şey ekliyor olabilir.
+
+## Ayrı Dönüşler ve Yanıt
+
+32:11’deki edilgen {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} Rabbe zorunlu dönüşü anlatırken, {ar:ٱلْمَوْتِ, tr:al-mawti, gloss:ölüm} adı tek bir ölüm olayıyla onu izleyen durumlar arasında eşik kurar. 32:20’de ateşten çıkmaya çalışanların yeniden içine zorla gönderilmesi, bu dönüşü izleyen cezalı bir geri giriş olabilir; bu sahne ölümden sonra aynı dönüşün zorunlu olarak yinelendiğini göstermez. Geri girişin aynı ölümden sonra döngüsel biçimde tekrarlanıp tekrarlanmadığı açık kalır; bu bağlantı yeniden ölüm ya da tenasüh iddiası taşımaz. Buna karşılık 32:21’de umulan dönüş, yanlış davranışı bırakıp yönünü düzeltmektir: 32:20’deki zorlamadan farklı olarak ahlaki bir dönüştür ve son varış noktası değil, daha yakın bir cezanın amaçladığı düzeltme imkânıdır. Böylece 32:11’deki Rabbe zorunlu dönüş, 32:20’deki geri sokulma ve 32:21’deki istenen ahlaki dönüşü tek bir harekete indirmeden, sonuçların ayrılabildiği dış çerçeveyi verir.
+
+{ar:قُلْ, tr:qul, gloss:de} buyruğunun konuşma içindeki işlevi komşu sözlerle genişler. 32:3’teki uydurma isnadından sonra gelen emir, 32:10’daki ölümden sonra yeni yaratılış sorusuna ölüm ve dönüş bildirimini cevap olarak hazırlar; 32:28’deki “bu karar ne zaman?” sorusu ise 32:29’da yinelenen söyleme buyruğu, son günün belirtilmesi ve erteleme tanınmamasıyla daha geniş bir meydan okuma-cevap zincirine girer. 32:29’da inancın artık yarar sağlamayacağı ve mühlet verilmeyeceği belirtilince, 32:11’deki emir geciktirme talebini kapatan, sonucuna bağlanmış bir yanıt gibi duyulur. 32:3, 32:10, 32:28 ve 32:29’daki bu bağlamlar söyleme emrinin konuşmadaki yerini değiştirir; 32:28’in zaman sorusu tek başına 32:11’deki hareketi kanıtlamaz ve bu buyruğun olağan “söyle” anlamını dönüştürmez.
+
+Söyleme buyruğu ile cümlenin sonundaki {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} arasında başka bir cevap yankısı da vardır. {ar:قُلْ, tr:qul, gloss:de} sözü sesle dışarı çıkarmayı ister; dönüş kökünün bir kullanımı da yazılı mektup veya iletinin gönderene geri dönmesini, daha dar bir kolu ise sözlü karşılığın sözü söyleyene dönmesini anlatır. Konuşma buyruğu ile Rabbe yönelen hedef birleşince alınan insanların dönüşü kaynağa dönmüş bir cevap gibi yankılanabilir; ölüm ve dönüş olayı da ses çıkarmadan anlam bildirir gibi düşünülebilir. Ayet ayrı bir mektup, sözlü yanıt, ses veya cevabın alıcısını tanımlamaz.
+
+Kök ailesindeki ayrı bir sözlük imgesi, bir nesneyi kaldıracak gücü bulmayı, onu taşımayı veya yük olarak üstlenmeyi anlatır. Bu imge {ar:قُلْ, tr:qul, gloss:de} emrinin olağan “söyle” anlamından ayrıdır; 32:29’da söyleme buyruğunun yinelenmesi, yargı gününün açılması ve erteleme tanınmamasıyla son cevabın ağırlığını taşıyan bir söz gibi duyulur. Bağımsız tetikleyici 32:29’daki tekrar ve gecikmesizliktir; bu, emir biçiminin çevirisi ya da kökünü parçalayan bir çözümleme değildir ve imgeye yükselme veya yolculuk çağrışımı eklemez.
+
+## Çorak Toprakta Canlanma
+
+32:27’de su çorak toprağa yöneltilir ve ardından bitki görünür; bu, ölüm-alınma ve dönüşün yanına konan ayrı bir maddi yeniden oluşum imgesidir. {ar:ٱلْمَوْتِ, tr:al-mawti, gloss:ölüm} olağan anlamıyla ölüm adıdır; sözlük ailesindeki başka kullanımlar canlı olmayan varlığı ve ekilip iyileştirilmemiş araziyi de anlatır. 32:27’deki çorak toprak bu ayrı imgeyi tetikleyince, ölüm sözcüğü toprağa eşitlenmeden cansızlık ile sonradan beliren gelişme yan yana gelir. {ar:تُرْجَعُونَ, tr:turjaʿūna, gloss:döndürüleceksiniz} “geri döndürülmek” anlamını korur; dönüş ailesindeki yağmurun yeniden gelişi veya suyun yeryüzüne tekrar dökülmesi kullanımı, 32:27’de yönlendirilen su ve bitki örtüsüyle temas ederek geri dönüşe yaşam taşıyan bir su çevrimi benzetmesi ekler. {ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:sizin üzerinize görevli kılındı} ile taşınan üstlenilmiş iş ve yeterlilik imgesi de bu suyun çorak toprağa yönetilerek ulaşıp ürün vermesiyle birleşir. Benzetmenin sınırı 32:27’deki su, çorak arazi ve ürün veren bitkidir: bu çevresel işaret ölümün işleyişini açıklamaz, insanı toprak yapmaz ve dönüşü yeniden doğum döngüsüne çevirmez. Bu sınır içinde, suyun varıp bitkiyi görünür kılması canlanmayı kendiliğinden dönen değil, yön verilen ve gözetilen bir aktarım olarak duyurur.
+
+</editorial_prose>

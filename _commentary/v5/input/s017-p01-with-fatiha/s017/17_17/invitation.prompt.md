@@ -1,0 +1,199 @@
+# V5 reading invitation — 17:17
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p01-with-fatiha/s017/17_17/17_17.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p01-with-fatiha/s017/17_17/17_17.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Âyet önce Nuh’tan sonra nice kuşağı yok ettiğimizi bildirir. Ardından muhatabına döner: Rabbin, kullarının günahlarını bilip görmede yeterlidir. İlk hareket tarihteki toplulukları ve onları yok eden eylemi, ikincisi bu kulları bilen ve gören Rabbin yeterliliğini öne çıkarır. {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik} ile kurulan yıkım ve {ar:كَفَىٰ, tr:kafā, gloss:yeter} ile kurulan yeterlilik kendi olağan anlamlarını korur; âyet tarihî bildirimden doğrudan hitaba geçer.
+
+## Kuşakları Saymak
+
+Başlangıçtaki {ar:وَ, tr:wa, gloss:ve}, öne alınan {ar:كَمْ, tr:kam, gloss:nice} ve ardından gelen {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik}, eylemden önce sayıyı kurar. Fiilin nesnesi olarak öne çıkan {ar:كَمْ, tr:kam, gloss:nice}, tek bir yıkımdan geniş ve kesin rakama kapanmayan bir tarih ölçeğine geçirir. İlk {ar:وَ, tr:wa, gloss:ve} yerel bağlaç öneki olarak bu nicelikli taramayı açar; tek başına önceki âyetin içeriğini taşımaz. Yıkım cümlesinden sonraki ikinci {ar:وَ, tr:wa, gloss:ve}, {ar:كَفَىٰ, tr:kafā, gloss:yeter} hükmüne hem bağlanır hem yeni bir bildirim hareketi başlatır; bu iki ilişki birlikte duyulur. Aynı bağlacın iki açılışta tekrarı da yazılı ses akışında onları eşler.
+
+İlk {ar:مِنَ, tr:mina, gloss:-den; arasından}, {ar:ٱلْقُرُونِ, tr:al-qurūni, gloss:kuşaklar} adını sayılan sınıf olarak belirler. Belirli çoğul isim olan {ar:ٱلْقُرُونِ, tr:al-qurūni, gloss:kuşaklar}, bu edattan sonra onun yönettiği mecrur biçimde gelir. {ar:قَرْن, tr:qarn, gloss:kuşak} aynı dönemde yaşayan topluluğu da o topluluğun yaşadığı zaman dilimini de anlatabilir; {ar:كَمْ, tr:kam, gloss:nice} ve Nuh sonrasına yerleştiren zaman öbeği iki anlamı da duyurur. İlk {ar:مِنَ, tr:mina, gloss:-den; arasından} miktarla sınıf arasındaki ilişkiyi kurar ve sınıftan bir payı akla getirir: nice kuşak, bu sınıfın içinden sayılır. Böylece {ar:قَرْن, tr:qarn, gloss:kuşak} ortak çağdaki toplulukla onun yaşadığı dönemi birlikte taşıyan bir tarih birimi olur; bu birim için sabit bir yıl ölçüsü verilmez.
+
+İkinci {ar:مِنۢ, tr:min, gloss:-den başlayarak}, ilk edat gibi bir sayım sınıfı kurmaz; ayrı bir zaman öbeği açar. {ar:بَعْدِ, tr:baʿdi, gloss:sonra} tek başına tamamlanmayan bir zaman adıdır; {ar:نُوحٍۢ, tr:Nūḥin, gloss:Nuh} onun tamlayıcısı olarak mecrur gelir ve sonralığı adlandırılmış bir kronolojik noktaya bağlar. Böylece {ar:مِنۢ بَعْدِ نُوحٍۢ, tr:min baʿdi Nūḥin, gloss:Nuh’tan sonra} kuşakları sıraya dizer, aradaki süreyi ölçmez. İlk {ar:مِنَ, tr:mina, gloss:-den; arasından} ile onu izleyen isim kısa bir ses birimi kurar; bu yazılı ritim belirli bir tilavet biçimini varsaymaz. {ar:مِنۢ بَعْدِ نُوحٍۢ, tr:min baʿdi Nūḥin, gloss:Nuh’tan sonra} ise kesintisiz bir zaman öbeğidir; kısa {ar:بَعْدِ, tr:baʿdi, gloss:sonra}, kuşaklarla Nuh adı arasında bir menteşe gibi işitilir.
+
+Kuşak anlamının yanında, {ar:قَرْن, tr:qarn, gloss:kuşak} aynı kelime ailesindeki birleştirme ve bağlama kullanımını da yankılayabilir. {ar:كَمْ, tr:kam, gloss:nice} ile açılan çokluk, {ar:بَعْدِ, tr:baʿdi, gloss:sonra} ile kurulan tarih sırası ve {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik} ile bildirilen yıkım, toplulukları kopuk olaylar yerine birbirini izleyen bir geçmiş içinde duyurur. 6:6’da bir kuşağın yok edilmesinin ardından başka birinin gelişi bu ardışıklığı görünür kılar ({ar:قَرْنًا آخَرِينَ, tr:qarnan ākharīn, gloss:başka bir kuşak}). Bu olası bağlama yankısı olağan “kuşak” anlamını genişletir: tarihî çizgide toplulukları birbirini izleyen ve birbirine bağlanan bir geçmiş içinde duyurur. Bu bağlantı her kuşağın aynı biçimde kurulduğunu ileri sürmez.
+
+17:3’te Nuh’la birlikte taşınanların soyundan gelenler ve Nuh’un çok şükreden bir kul oluşu anılır ({ar:ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ, tr:dhurriyyata man ḥamalnā maʿa Nūḥ, gloss:Nuh’la taşınanların soyu}; {ar:عَبْدًا شَكُورًا, tr:ʿabdan shakūrā, gloss:çok şükreden bir kul}). Bu korunmuş başlangıç, Nuh’u yalnızca sonralığın takvimsel eşiği değil, sonraki kuşaklarda davranışın yeniden mümkün olduğu tarihî bir eşik olarak da duyurabilir. 17:3 muhatapların kimliğini belirtiyor da olabilir; bu bağlantı kesintisiz biyolojik soy, belirli bir kuşak süresi, lanet ya da ahlaki miras tayin etmez.
+
+Bu tarih çizgisinin yanında 17:4, 17:6, 17:7 ve 17:8’de İsrailoğullarına özgü bir tekrar ve dönüş dizisi açılır. 17:4’te bozgunculuğun iki kez yapılacağının söylenmesi, kuşakların sayımına belirli bir tarihî tekrar ekler ({ar:لَتُفْسِدُنَّ, tr:latufsidunna, gloss:bozgunculuk edeceksiniz}; {ar:مَرَّتَيْنِ, tr:marratayn, gloss:iki kez}). 17:6’daki geri çevirme ve yeniden dönüş, diziyi karşılıkla ilerletir ({ar:رَدَدْنَا, tr:radadnā, gloss:geri çevirdik}; {ar:الْكَرَّةَ, tr:al-karrata, gloss:yeniden dönüş}); 17:7’de ikinci vaat ve yıkıp etkisizleştirme, belirlenmiş ikinci vakti ve sonucunu yan yana getirir ({ar:وَعْدُ الْآخِرَةِ, tr:waʿdu l-ākhirati, gloss:ikinci vaat}; {ar:لِيُتَبِّرُوا, tr:li-yutabbirū, gloss:yıkıp ortadan kaldırmaları}; {ar:تَتْبِيرًا, tr:tatbīran, gloss:bütünüyle yıkım}). 17:8 ise dönüş halinde merhamet ve karşılık ihtimalini açık tutar ({ar:يَرْحَمَكُمْ, tr:yarḥamakum, gloss:size merhamet etmesi}; {ar:وَإِنْ عُدتُّمْ عُدْنَا, tr:wa-in ʿudtum ʿudnā, gloss:dönerseniz biz de döneriz}). Bu İsrailoğullarına özgü tarihî sıra bozulma, dönüş, yıkım ve şartlı merhamet hareketlerini birbirine bağlar; bu bağlantı bütün kuşaklar için değişmez bir çevrim ya da her dönüşte merhamet güvencesi kurmaz.
+
+## Yıkımın ve Hesabın Ölçeği
+
+Sayımın ardından gelen {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik}, IV. bâbın etkin ettirgen perfect biçimidir; sonundaki {ar:نَا, tr:nā, gloss:biz} birinci çoğul özneyi taşır. Böylece kuşakların başına gelen, faili belirsiz edilgen bir kayboluş değil, belirli bir öznenin onları yok oluşa ya da ağır bozulmaya sürüklediği tamamlanmış bir eylem olarak kurulur. Fiilin çekirdeği yok etmedir; ölüm, dağılma ve işlev kaybı bu yıkımın eşlik eden alanlarıdır. Kısa gövdenin ses etkisi yazılı yüzeyle sınırlıdır, özel bir okuyuş biçimini varsaymaz; nicelikten sonra inişi yıkım eyleminin kuvvetini duyurur.
+
+17:12’de geceyle gündüz işaret, yıllar sayım ve hesap konusu olur; ayrıntılı açıklama da bu ölçüye eklenir ({ar:عَدَدَ السِّنِينَ وَالْحِسَابَ, tr:ʿadada as-sinīna wa-l-ḥisāb, gloss:yılların sayısı ve hesap}; {ar:فَصَّلْنَاهُ تَفْصِيلًا, tr:faṣṣalnāhu tafṣīlan, gloss:ayrıntısıyla açıkladık}). 17:13’te her insanın kendi yaptığının karşılığı boynuna bağlanır ve önüne açık bir kayıt konur ({ar:أَلْزَمْنَاهُ طَائِرَهُ فِي عُنُقِهِ, tr:alzamnāhu ṭāʾirahu fī ʿunuqihi, gloss:kendi payını boynuna bağladık}; {ar:كِتَابًا يَلْقَاهُ مَنْشُورًا, tr:kitāban yalqāhu manshūran, gloss:açık bulacağı bir kitap}). 17:14’te kişiye kendi kitabını okuması söylenir ({ar:اقْرَأْ كِتَابَكَ, tr:iqraʾ kitābaka, gloss:kitabını oku}). Böylece kuşakların toplu yıkımının yanında, her kişinin kendi eylemini okuyacağı ayrı bir hesap ölçeği belirir.
+
+17:14’teki “hesap sorucu olarak bugün kendin yeterlisin” sözü, odaktaki {ar:كَفَىٰ بِرَبِّكَ, tr:kafā bi-rabbika, gloss:Rabbin yeter} kuruluşundaki yeterlilik fiilini kişisel hesaba taşır ({ar:كَفَىٰ بِنَفْسِكَ الْيَوْمَ عَلَيْكَ حَسِيبًا, tr:kafā binafsika al-yawma ʿalayka ḥasīban, gloss:hesap sorucu olarak kendin yeterlisin}). Öz-hesap ile Rabbin kulların günahları hakkında yeterli oluşu yan yana gelir, fakat iki kayıt aynı deftere dönüşmez. 17:15’te kimsenin başkasının yükünü taşımaması ve elçi gönderilmeden azap edilmemesi, sorumluluğun ve yargının sınırını koyar ({ar:وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ, tr:wa-lā taziru wāziratun wizra ukhrā, gloss:hiçbir yük taşıyan başkasının yükünü taşımaz}); bu karşılaştırma her kuşak için aynı elçinin bulunduğunu ileri sürmez. Bu sınırlar toplu tarih anlatısının bireysel hesabı silmesini önler ve kişiyi kendi eyleminin muhatabı olarak bırakır.
+
+Bu kişisel kayıt ölçeğinin ardından 17:16’da şehir ihtimaliyle toplumsal sahne genişler ({ar:نُهْلِكَ قَرْيَةً, tr:nuhlika qaryatan, gloss:bir şehri helak etmek}). Emir fiili refah içindeki ileri gelenlere bağlanır ({ar:أَمَرْنَا مُتْرَفِيهَا, tr:amarnā mutrafīhā, gloss:varlıklılara ilişkin emir}; {ar:مُتْرَفِيهَا, tr:mutrafīhā, gloss:refah içindeki ileri gelenleri}); bolluk ve lüks anlamı, insanın salıverilmesi ya da gevşemesi yönünü de taşır. Bu yapıda emrin gücü ve nasıl anlaşılacağı açık kalır. Ardından gelen bozgunculuk sınır aşımını bildirir ({ar:فَفَسَقُوا, tr:fafasaqū, gloss:sınırı aştılar}); aynı kökün hurmanın kabuğundan dışarı çıkma imgesi bu eşiğin maddi yankısını verir ve ayrıcalık sonrasındaki sınır aşımını görünür bir çıkış olarak düşündürür. Bu, gerçek bir meyve olayı değil, sınır aşımına ilişkin bir imgedir.
+
+17:16’daki sınır aşımından sonra hak edilmiş talep ya da yükümlülüğün bağlayıcı hale gelişi, ardından da işaret eden bir bildirim duyulur ({ar:حَقَّ, tr:ḥaqqa, gloss:hak oldu}; {ar:الْقَوْلُ, tr:al-qawlu, gloss:söz veya bildirim}). Bildirimin içeriği verilmez ve şehir konuşturulmaz; sonucu, şehrin bütünüyle yıkımında görünür ({ar:فَدَمَّرْنَاهَا تَدْمِيرًا, tr:fadammarnāhā tadmīran, gloss:şehri bütünüyle yıktık}). Aynı ayetteki {ar:نُهْلِكَ, tr:nuhlika, gloss:helak etmek} odaktaki {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik} ile aynı helak etme ailesindedir; şehrin sonunu bildiren {ar:فَدَمَّرْنَاهَا تَدْمِيرًا, tr:fadammarnāhā tadmīran, gloss:şehri bütünüyle yıktık} ise başka bir fiille tam yıkımı tamamlar. Böylece kent sahnesi, güçlü ve varlıklı bir kesimin toplumsal çöküşe aracılık edebildiği somut bir örnek sunar. Bu özel bağlantı odak âyetin bütün kullarını ileri gelenlerle özdeşleştirmez, suçu yalnız onlara yüklemez ya da her kuşak için aynı nedeni vermez.
+
+## Günah, Kul ve Geride Kalan İz
+
+Odaktaki {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları} yeterlilik bildiriminin hangi alanla ilgili olduğunu belirtir. {ar:بِذُنُوبِ, tr:bi-dhunūbi, gloss:günahlar hakkında}, bi edatının mecrur kıldığı çoğul isimdir; {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:kulları} ile kurduğu tamlayan bağı günahları kullara nispet eder. Olağan anlam ahlaken yanlış işler ve kusurlardır. 6:6’da günahlar bir topluluğun yok edilişiyle yan yana gelir; 47:19’da ise günah için bağışlanma istenir ve aynı âyette inananlar için de bağışlanma dileği yer alır ({ar:وَاسْتَغْفِرْ لِذَنْبِكَ, tr:wa-staghfir li-dhanbika, gloss:günahın için bağışlanma dile}). Bu iki ayrı sonuç günahın olağan ahlaki anlamını ve bağışlanma yönelişini yıkım anlatısının yanında tutar; bu karşılaştırma her yanlışın kaçınılmaz biçimde ve hemen yıkımla biteceği bir kural kurmaz.
+
+Günah adının yanında, aynı kelime ailesinin sonuçtan alınan payı düşündüren bir yankısı da vardır. 51:59’da haksızlık edenlerin payı yoldaşlarınınkine benzetilir ({ar:ذَنُوبًا مِثْلَ ذَنُوبِ أَصْحَابِهِمْ, tr:dhunūban mithla dhunūbi aṣḥābihim, gloss:yoldaşlarının payı gibi bir pay}); burada özellikle azap payı düşünülebilir. Bu temas, odaktaki {ar:ذُنُوبِ, tr:dhunūbi, gloss:günahlar} çoğul adının eylem anlamını koruyarak onu önceki topluluklarla örüntülenen olası bir sonuç payı yankısına yaklaştırır. 51:59’daki biçimin sözcüksel çözümlemesi kesinleşmediğinden, bu yalnızca bağlamsal bir yankıdır: “pay” odaktaki günahın çevirisi değildir; bu bağlantı miras alınmış suç ya da herkes için kaçınılmaz ceza da ileri sürmez.
+
+Odaktaki {ar:ذُنُوبِ, tr:dhunūbi, gloss:günahlar} biçimi günah adıdır, hayvan kuyruğunun doğrudan adı değildir; aynı kelime ailesindeki {ar:ذَنَب, tr:dhanab, gloss:kuyruk} kuyruğu anlatır, genişletilmiş kullanımda arka ucu ya da son bölümü de belirtir. Ailenin bir başka kullanımı “ardından gidenler”i ve birinin izini sürenleri anlatır. Biçimler ayrı kalır: {ar:ٱلْقُرُونِ, tr:al-qurūni, gloss:kuşaklar} ve {ar:بَعْدِ, tr:baʿdi, gloss:sonra} tarihî ardışıklığı kurarken, {ar:قَرْن, tr:qarn, gloss:kuşak} için duyulan bağlama yankısı eylemleri, kulları ve dönemleri aynı tarih çizgisinde bir araya getirir. Bu kelime ailesi odağın olağan günah anlamını değiştirmeden, eylemi işleyenler geçtikten sonra da okunabilen bir arka-iz imgesi ekler.
+
+Bu {ar:ذَنَب, tr:dhanab, gloss:kuyruk} arka-iz imgesi odaktaki {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları} ile farklı ölçekleri bir araya getirir. 17:3’teki taşınmış soy çizgisi ve Nuh’tan sonraki kuşaklar tarihî gövdeyi kurar. 17:13’te kişinin boynuna bağlanan ve önüne açık konan kayıt ile 17:14’teki okuma buyruğu bireysel izi görünür kılar; 17:15’te başkasının yükünü taşımama ilkesi bu izi sahibine bağlı tutar. 17:16’daki kent yıkımı toplumsal sonucu, 17:18’de hemen istenen dünya hayatına yönelişe verilecek karşılık arzu ile sonucu arasındaki bağı ekler; 6:6’da yıkılmış kuşağın ardından yenisinin gelmesi ardışıklığı sürdürür. Bir arada düşünüldüğünde, kişi ve topluluklar geçtikten sonra da sonuçların okunabilirliği kalır. Bu bağlantı kuşaklar arası suç aktarımını ya da kanıtlanmış tek bir nedensellik zincirini ileri sürmez; kişisel sorumluluk ile toplulukların ardışık akıbetini aynı geçmişte farklı ölçekler olarak duyurur.
+
+## Rab ve Kullar
+
+{ar:بِرَبِّكَ, tr:bi-rabbika, gloss:senin Rabbin} tek bir yazı biriminde bi edatını, Rab adını ve muhataba yönelen {ar:كَ, tr:ka, gloss:senin} hitap ekini buluşturur. Biçimce edattan dolayı mecrur olsa da Rab, {ar:كَفَىٰ, tr:kafā, gloss:yeter} fiilinin yeterli öznesidir; hitap eki de yeterlilik sözünün içinde kalır. {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:kulları} içindeki iyelik eki aynı Rabbe döner; {ar:بِذُنُوبِ, tr:bi-dhunūbi, gloss:günahlar hakkında} ise bu kullara bağlanan tamlamayı kurar. Bu ses gözlemi yazılı biçimle sınırlıdır, belirli bir tilavet icrası varsaymaz; hitap ve iyelik ekleri aynı Rab-kul ilişkisini metnin içinde tutar.
+
+{ar:رَبّ, tr:rabb, gloss:Rab} adı sahiplik, buyruk yetkisi ve yönetip düzenleme anlamlarını taşır; gözetileni adım adım yetiştirip geliştirme kullanımı da bu adın yanında duyulabilir. Bu yetiştirme yankısı yönetimin gelişim yönünü ekler. {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik} ile {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:kulları} aynı âyette karşılaşınca, yıkım süreklilik taşıyan Rab-kul ilişkisi içinde okunur; bu yankı yok etmeyi onarım, merhamet ya da açıklanmış bir adalet hükmü olarak yeniden adlandırmaz. {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:kulları} üçüncü şahıs iyelik eki taşıyan çoğul bir isimdir, fiil değildir; buradaki kulluk hukuki kölelik iddiası kurmaz. Kulların tâbiyet ve alçalma yönü sözcüğü yalnız biçimsel ibadet eyleminden daha geniş bir Rabbe bağlılık ilişkisi olarak duyurur.
+
+17:1’de gece yolculuğuna çıkarılan tekil kul, işaretlerin kendisine gösterilmesiyle anılır ve âyet gören sıfatıyla kapanır ({ar:عَبْدِهِ, tr:ʿabdihi, gloss:O’nun kulu}; {ar:لِنُرِيَهُ آيَاتِنَا, tr:linuriyahu āyātinā, gloss:ayetlerimizden ona göstermemiz}; {ar:الْبَصِيرُ, tr:al-baṣīr, gloss:gören}). 17:3’te ise Nuh şükreden kuldur ({ar:عَبْدًا شَكُورًا, tr:ʿabdan shakūrā, gloss:çok şükreden bir kul}); odaktaki {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:O’nun kulları} çoğuldur. Nuh’un şükrüyle kulların günahları ayrı davranışlardır ve kişiler aynı değildir; ortak Rabbe aidiyet bu farklı insanları aynı ilişki içinde buluşturur.
+
+Fâtiha’nın 1:5’teki “Yalnız Sana kulluk ederiz” çoğul ikrarı da aynı kulluk ailesine katılır ({ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:Yalnız Sana kulluk ederiz}). Paylaşılan kulluk dili, dua eden “biz”in odaktaki {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:O’nun kulları} sınıfına dahil olabileceği ihtimalini açar; böylece tarihî uyarı okurun kendi ikrarına da değebilir. Bu olası bağ dua edenleri belirli bir günahla ya da helak edilmiş kuşaklarla özdeşleştirmez.
+
+## Yeterlilik, Bilgi ve Görme
+
+İkinci bağlaçtan sonra gelen {ar:كَفَىٰ, tr:kafā, gloss:yeter}, geçmişte tamamlanmış fiil biçimiyle yeterlilik hükmünü kurar; kendinden önceki ettirgen yok etme fiilinden ayrılır. Ardından gelen {ar:بِرَبِّكَ, tr:bi-rabbika, gloss:senin Rabbin} yeter özneyi, ikinci edatlı öbek {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları hakkında} bu yeterliliğin alanını belirtir. Olağan anlam, bir ihtiyacı karşılayacak kadar yeterli olmaktır. {ar:كَفَىٰ, tr:kafā, gloss:yeter} aynı zamanda bir işi, yükü ya da sorumluluğu üstlenip yerine getirme; bir açığı kapatarak ihtiyacı karşılayıp sonuca erişme yönlerinde yankılanabilir. Bu yan yankılar, {ar:رَبّ, tr:rabb, gloss:Rab} adının yönetim anlamı ve önceki {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik} fiiliyle temas ederek yeterlilik hükmünü Rabbin yönetim ve hesap ilişkisi içinde duyurur. Bu özel temas her felaketin nedenini açıklamaz; yıkımı adil ya da zorunlu da kılmaz.
+
+Rabbin yeterliliğinin nasıl gerçekleştiğini iki niteleme açar: {ar:خَبِيرًا, tr:khabīran, gloss:iç yüzünü bilen} ve {ar:بَصِيرًا, tr:baṣīran, gloss:gören}. İkisi de belirsiz mansub biçimdedir; ilk niteleme iç yüzü bilme ve uzmanlığı, bir olay hakkındaki bilgiyi ve görünüşün gerisindeki gerçek niteliği öne çıkarır, ikincisi doğrudan görmeyi ekleyerek hükmü tamamlar. Odaktaki {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları}nın açıkça adlandırılması, dışarıdan algılanan eylemle iç niteliği aynı bilgi alanına getirir. {ar:خَبِير, tr:khabīr, gloss:iç yüzünü bilen} için sınama ya da tecrübe ederek bilme kullanımı, burada Allah’ın olaylardan bilgi edinmesini değil, okurun 6:6’daki tarihî örüntüyü tanımasını çağrıştırır. Bu yazılı ses gözlemi özel bir okuyuş biçimi ileri sürmez. İki nitelemenin benzer sonlanışı eşleşir; ilk niteleme bir çift açar, {ar:بَصِيرًا, tr:baṣīran, gloss:gören} ise ayetin son sıfatı ve son kelimesi olarak hem çifti hem yeterlilik bildirimini kapatır.
+
+6:6’da bir topluluğun yeryüzünde güçlendirilmesi, bol yağmur ve altlarından akan ırmaklarla desteklenmesi, ardından günahları yüzünden yok edilip yerine başka kuşağın getirilmesi anlatılır ({ar:مَكَّنَّاهُمْ فِي الْأَرْضِ, tr:makkannāhum fī l-arḍ, gloss:onları yeryüzünde güçlendirmiştik}; {ar:فَأَهْلَكْنَاهُمْ بِذُنُوبِهِمْ, tr:fa-ahlaknāhum bi-dhunūbihim, gloss:günahları yüzünden onları yok ettik}). Bu sahne odaktaki {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları} ile {ar:خَبِيرًا, tr:khabīran, gloss:iç yüzünü bilen} birlikteliğini aydınlatır: dışarıdan görülen kudret ve bolluk topluluğun iç ahlaki hâlinden ayrıdır. Bu özel örnekte bolluk aldatıcı sayılmaz ve her güçlü topluluğun helak olacağı ileri sürülmez. 25:58’deki yakın kapanış, yeterlilik, kulların günahları ve derin bilgiyi aynı yapıda buluşturur ({ar:وَكَفَىٰ بِهِۦ بِذُنُوبِ عِبَادِهِۦ خَبِيرًا, tr:wa-kafā bihi bi-dhunūbi ʿibādihi khabīran, gloss:kullarının günahlarını bilen olarak O yeter}); bu lafız yankısı odaktaki {ar:خَبِيرًا, tr:khabīran, gloss:iç yüzünü bilen} hükmünü tarihî örüntüyü tanıma imkânıyla ilişkilendirir.
+
+{ar:بَصِير, tr:baṣīr, gloss:gören} olağan kullanımda gözle görmeyi ve görünür olanı algılamayı öne çıkarır; {ar:خَبِيرًا, tr:khabīran, gloss:iç yüzünü bilen} ile yan yana geldiğinde bu görme içe nüfuz eden ve doğrulanmış bir anlayış yankısı da kazanır. Böylece odaktaki {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları}nın dışarıya yansıyan yanı ile iç niteliği iki ayrı bilgi kanalı gibi belirir. Burada tek tek gözlemlenmiş sahneler sunulmaz.
+
+17:1’deki gören sıfatının tekrarı, odaktaki görme hükmünü gece yolculuğunda işaretlerin gösterildiği daha geniş sahneye taşır ({ar:الْبَصِيرُ, tr:al-baṣīr, gloss:gören}; {ar:لِنُرِيَهُ آيَاتِنَا, tr:linuriyahu āyātinā, gloss:ayetlerimizi ona göstermemiz}). Sıfatın kalıplaşmış bir ifade olması da mümkündür; bu özel yankı açılıştaki tekil kulu odaktaki çoğul kullarla özdeşleştirmez ve görmeyi vahiy diye yeniden tanımlamaz. Böylece görme yalnızca cezalandırıcı bir teftiş gibi daralmaz; kulların günahlarına ilişkin doğrudan hüküm işaretlerin gösterildiği daha geniş sahnede duyulur.
+
+27:52’de haksızlıkları yüzünden boş kalan evler, bilen bir topluluk için işaret sayılır ({ar:فَتِلْكَ بُيُوتُهُمْ خَاوِيَةً بِمَا ظَلَمُوا, tr:fa-tilka buyūtuhum khāwiyatan bimā ẓalamū, gloss:haksızlıkları yüzünden boş kalan evleri}; {ar:إِنَّ فِي ذَٰلِكَ لَآيَةً لِقَوْمٍ يَعْلَمُونَ, tr:inna fī dhālika la-āyatan li-qawmin yaʿlamūn, gloss:bilen bir topluluk için bunda ibret vardır}). Yıkım sonrasındaki bu görünür boşluk, insan okurun tarihî sonucu okunabilir bir işaret olarak kavramasına izin verir. 17:16’daki kent yıkımından ayrı bu sahne, odaktaki {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları} sonrasında kalabilen izi başka bir açıdan görünür kılar ve {ar:بَصِيرًا, tr:baṣīran, gloss:gören} kapanışına tarihî sonuçları okuma imkânı ekler. Bu bağlantı 27:52’deki özel sahneyle sınırlıdır; her günahın görünür olduğunu ya da her harabenin tek başına suç kanıtı sayılacağını ileri sürmez.
+
+Bu bilgi ve görme çizgisinin yanında 17:18’de hemen istenen dünya hayatına, 17:19’da sonraki hayata yönelen çaba ayrılır ({ar:الْعَاجِلَةَ, tr:al-ʿājilah, gloss:hemen istenen dünya}; {ar:الْآخِرَةَ, tr:al-ākhirah, gloss:sonraki hayat}). 17:20’de iki gruba da uzatılan bağışın kaynağı Rabbin armağanıdır ve bu armağan engellenmiş değildir ({ar:نُمِدُّ, tr:numiddu, gloss:uzatıp veririz}; {ar:عَطَاءِ رَبِّكَ, tr:ʿaṭāʾi rabbika, gloss:Rabbinin bağışı}; {ar:وَمَا كَانَ عَطَاءُ رَبِّكَ مَحْظُورًا, tr:wa-mā kāna ʿaṭāʾu rabbika maḥẓūrā, gloss:Rabbinin bağışı engellenmiş değildir}). Bu ortak sunuş, odağın {ar:بِرَبِّكَ, tr:bi-rabbika, gloss:senin Rabbin} adıyla duyulan yetiştirip geliştirme yankısını yeniden taşır: iki grup da engellenmemiş armağan alır. {ar:أَهْلَكْنَا, tr:ahlaknā, gloss:yok ettik} yıkımı bu bağıştan ayrı kalır; bu bağlantı daha önce yok edilen kuşakların nedenini açıklamaz ya da hepsinin aynı payı aldığını ileri sürmez. Böylece helak genel bir rızık yoksunluğuna indirgenmeden iki gruba da verilen armağan görünür olur.
+
+Yeterlilik tanıklık yönünde de yankılanabilir. 17:96’da “Allah şahit olarak yeter” denerek tanık açıkça adlandırılır ({ar:كَفَىٰ بِاللَّهِ شَهِيدًا, tr:kafā bi-llāhi shahīdan, gloss:Allah şahit olarak yeter}); bu kullanım odaktaki {ar:كَفَىٰ, tr:kafā, gloss:yeter} hükmüne yargı için yeterli tanıklık yankısı ekleyebilir. Odak âyette şahit sözü yer almaz ve bağlamlar aynı değildir; bu bağlantı lafız ve bağlamın sınırlı paralelliğidir. 17:30’da aynı bilen-gören kapanışı rızkı genişletme ifadesinin yanında yer alır ({ar:يَبْسُطُ الرِّزْقَ, tr:yabsuṭu r-rizq, gloss:rızkı genişletir}; {ar:خَبِيرًا بَصِيرًا, tr:khabīran baṣīran, gloss:iç yüzünü bilen ve gören}). Böylece bu bilgi yalnız cezalandırma sahnesinde kalmaz; tanıklık yankısı da Rabbin bilen-gören niteliğiyle birlikte duyulur.
+
+25:58’in yakın kuruluşu {ar:كَفَىٰ, tr:kafā, gloss:yeter} fiilini kulların günahları ve derin bilgiyle yeniden buluşturur ({ar:وَكَفَىٰ بِهِۦ بِذُنُوبِ عِبَادِهِۦ خَبِيرًا, tr:wa-kafā bihi bi-dhunūbi ʿibādihi khabīran, gloss:kullarının günahlarını bilen olarak O yeter}). Bu benzer yapı, odaktaki {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları} çoğul alanını adı geçen kulların günahlarının yeterli bilginin dışında kalmadığı yönünde keşifsel bir erişim yankısına bağlar. Bu yankı keşifseldir; sözlük dalının buradaki biçime geçişi kesinleşmediğinden odak “kuşatır” diye çevrilmez ve evrensel niceleyici ya da mümkün bütün fiillerin sayımı eklenmez. Olağan yeterlilik anlamı yerinde kalır.
+
+Uzak bir sözlük dalında {ar:كَفَىٰ, tr:kafā, gloss:yeter} yuvarlak ya da çanak biçimli, içindekini taşıyan bir araç bölümünü de akla getirebilir. Bu imge içinde {ar:خَبِيرًا, tr:khabīran, gloss:iç yüzünü bilen} önce iç niteliği, ardından {ar:بَصِيرًا, tr:baṣīran, gloss:gören} dışarıdan algılananı belirler; {ar:بِذُنُوبِ عِبَادِهِۦ, tr:bi-dhunūbi ʿibādihi, gloss:kullarının günahları} ise kabın değil, bilginin ve görmenin konusu olan alanı adlandırır. Böylece yeterlilik, adı geçen kulların günahları için artakalan bırakmayan tek bir kanıt alanı gibi düşünülebilir. Bu, gerçek bir kap betimi değil, belirlenmiş hesabı iç bilgi ve dış görmeyle aynı kapanışta buluşturan bir imgedir; evrensel önerme kurmaz.
+
+</editorial_prose>

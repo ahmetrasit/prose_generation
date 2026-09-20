@@ -1,0 +1,1058 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:30",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_c55ed05a8f665f985d8f",
+      "decision": "accept",
+      "reason": "The focus occurrence of root_001001/B005 is anchored, and the supplied wider scenes at 15:81 and 53:29 independently connect turning from reminder with a commanded withdrawal. Together they support the candidate's relational reversal; its branch and semantic claim are retained.",
+      "finding_refs": [
+        "global:withdrawal_after_refusal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_33f87a5389b3a811d8e9",
+      "decision": "accept",
+      "reason": "Both focus waiting forms carry root_001520/B002; 9:52 supplies opposed forecasts and 10:20 places the unseen timetable with God. The shared interval and non-equivalence of expectations, timing control, and outcomes are retained.",
+      "finding_refs": [
+        "global:shared_wait_unequal_forecasts"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9e768d3a9e3be1af5010",
+      "decision": "reject",
+      "reason": "The candidate's B003 reading needs a place-and-direction construction. The focus supplies temporal waiting, and none of the supplied wider triggers establishes two parties facing one another spatially.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001520/B003",
+          "reason": "Its exact boundary excludes mere temporal waiting or similarity; no spatial carrier/trigger is supplied."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cdf0b327c0a4c08b1046",
+      "decision": "narrow",
+      "reason": "Retain the global relation between turning away and continued waiting, grounded by 6:68's bounded disengagement and 11:122's reciprocal waiting. The walk's specific 32:22 reversal and 32:29 deadline are not supplied as exact context surfaces in this lane.",
+      "finding_refs": [
+        "global:paired_withdrawal_wait"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "32:22",
+          "reason": "The walk names this internal trigger, but this global packet supplies no exact 32:22 surface or occurrence."
+        },
+        {
+          "context_ref": "32:29",
+          "reason": "The walk's deadline reading is an internal-pericope claim; this packet supplies no exact 32:29 surface, so the global finding uses 6:68 as its bounded-disengagement trigger."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a333ada1d53a783ba733",
+      "decision": "reject",
+      "reason": "The candidate carries the same unsupported B003 face-to-face reading: the two focus forms express waiting, and the packet supplies no spatial relation that would activate this collocation.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001520/B003",
+          "reason": "The branch is restricted to a concrete place/direction relation; temporal mutual waiting does not meet that boundary."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c7d2847c0a548382488f",
+      "decision": "reject",
+      "reason": "The retrospective note explicitly locates its change in 32:29, within the declared pericope; it supplies no wider trigger for this global lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "32:29",
+          "reason": "This is an internal-pericope context pointer, not a supplied wider trigger for the global lane."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f2c5b1cede40ec198602",
+      "decision": "represented",
+      "reason": "Its B005 reading of withdrawal as a response to prior refusal is the same bounded semantic relation carried by global:withdrawal_after_refusal; the finding preserves the candidate's focus branch and adds exact wider support.",
+      "finding_refs": [
+        "global:withdrawal_after_refusal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f9f575d6c3e6b222195f",
+      "decision": "represented",
+      "reason": "Its B002 reading of a shared waiting interval with unequal expectations and outcomes is carried exactly by global:shared_wait_unequal_forecasts.",
+      "finding_refs": [
+        "global:shared_wait_unequal_forecasts"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0320a17eeb9b6c03b391",
+      "decision": "represented",
+      "reason": "Its reading that withdrawal remains paired with vigilance is carried by global:paired_withdrawal_wait, including both the turn-away and waiting branches.",
+      "finding_refs": [
+        "global:paired_withdrawal_wait"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_da488d6525b1fd28e9d5",
+      "decision": "reject",
+      "reason": "The support says no later ayah is available and asserts no activated reading; there is no global semantic relation to retain.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4c419bdf2748279abd3a",
+      "decision": "reject",
+      "reason": "This is an unanchored list of possible adjudication/victory/disclosure framings, with no focus-returning trigger or bounded global semantic relation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_db6d05a22e58baf13913",
+      "decision": "represented",
+      "reason": "Its unresolved alternatives about the group's posture—counter-forecast, taunting impatience, or shared exposure to one interval—are preserved verbatim as possibilities in global:shared_wait_unequal_forecasts.",
+      "finding_refs": [
+        "global:shared_wait_unequal_forecasts"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_802b8e1254d55de13692",
+      "decision": "reject",
+      "reason": "The corrective-versus-terminal contrast is an unanchored synthesis about the internal pericope, with no concrete wider trigger or focus branch return.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3d963b9b668d73edbec4",
+      "decision": "reject",
+      "reason": "This is an unanchored instruction to qualify several outliers, not one bounded semantic reading; the actual anchored bodily and perceptive traces are reviewed separately.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fc631d793d36bc85b50c",
+      "decision": "represented",
+      "reason": "Its turning-away agency reversal is the exact semantic reading carried by global:withdrawal_after_refusal.",
+      "finding_refs": [
+        "global:withdrawal_after_refusal"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_70d90123fa4c6ceb612b",
+      "decision": "reject",
+      "reason": "The candidate locates patient non-preemption and assigned separation in 32:24–25, inside the declared pericope, and provides no global activation trace.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "32:24",
+          "reason": "The cited sequence is within the declared pericope and has no supplied wider anchor in this record."
+        },
+        {
+          "context_ref": "32:25",
+          "reason": "The cited sequence is within the declared pericope and has no supplied wider anchor in this record."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2db45200ff526be76d88",
+      "decision": "reject",
+      "reason": "The hard-deadline reading is attached to 32:28–29 inside the declared pericope; the unanchored summary provides no global trigger.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "32:28",
+          "reason": "This internal-pericope context is not supplied as an exact wider carrier or trigger in this record."
+        },
+        {
+          "context_ref": "32:29",
+          "reason": "This internal-pericope context is not supplied as an exact wider carrier or trigger in this record."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d3d33de7b702f47ccecf",
+      "decision": "reject",
+      "reason": "The lesser-before-greater corrective reading is located at 32:21 in the declared pericope and has no supplied wider trigger in this record.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "32:21",
+          "reason": "This is an internal-pericope pointer, not a concrete global trigger supplied by the record."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b7c438f8776eaaf18be9",
+      "decision": "represented",
+      "reason": "Its claim that mirrored waiting permits opposed forecasts without equal confidence or outcome is carried by global:shared_wait_unequal_forecasts.",
+      "finding_refs": [
+        "global:shared_wait_unequal_forecasts"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_09a5130783cfc9178417",
+      "decision": "reject",
+      "reason": "This unanchored summary bundles several materially different mechanisms without exact context carriers; its anchored components receive separate decisions in this lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6838d6d87fa02462bd0f",
+      "decision": "accept",
+      "reason": "The exact HFT trace supplies 32:5 word positions, roots, attributed roles, and a return through the focus waiting forms. Retain the whole measured-governance reading with its stated alternative about whether 32:5 schedules this particular event.",
+      "finding_refs": [
+        "global:waiting_inside_measured_time"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c5556d799aca3863303f",
+      "decision": "accept",
+      "reason": "The exact trace anchors concealed/witnessed states at 32:6 and later seeing/hearing at 32:12, then returns through both focus waiting forms. All focus and attributed context branches remain live with the thematic-versus-temporal alternative explicit.",
+      "finding_refs": [
+        "global:waiting_to_apprehension"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_253f513e33af23e711a7",
+      "decision": "accept",
+      "reason": "The supplied 32:16 Arabic and exact HFT word positions activate a bounded bodily-side analogy through the focus turn-away and waiting forms. Keep the root-side facets analogical, with their form restriction explicit, and retain all attributed contextual roles.",
+      "finding_refs": [
+        "global:embodied_release_while_waiting"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:withdrawal_after_refusal",
+      "origin_candidate_id": "cand_c55ed05a8f665f985d8f",
+      "represented_candidate_ids": [
+        "cand_f2c5b1cede40ec198602",
+        "cand_fc631d793d36bc85b50c"
+      ],
+      "title": "Withdrawal answers an earlier refusal",
+      "claim": "The focus command to turn away meets a wider pattern in which people turn from signs and the messenger is told to turn away from one who has turned from the reminder; withdrawal therefore reads as a response to refusal, with agency and cause distinct.",
+      "mechanism": "The focus imperative أَعْرِضْ carries the ordinary act of withdrawing attention from the addressed group. In 15:81, signs are given and the people turn away from them; in 53:29, the supplied surface commands turning away from one who has turned from the reminder. Their contact makes the focus withdrawal a relational answer to refusal rather than an unexplained social cutoff.",
+      "reader_payoff": "The turn-away command becomes newly legible as a boundary after rejected guidance: the messenger is released from pressing the same argument, while the group's refusal and his response remain distinct.",
+      "containment": "These are wider parallels, not an assertion that 32:30 shares their audience or full setting. The focus names only the group addressed, and the parallels do not establish that the command forbids every later word or act.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The cross-run support is trusted and the exact supplied Arabic in 15:81 and 53:29 gives concrete relation-level triggers; target morphology is not projected, so the comparison remains bounded."
+      },
+      "support_ids": [
+        "sup_e2f3c3d5b991e5c4bb3e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001001/B005",
+          "facet_id": "F001",
+          "branch_gloss": "yüz çevirip ilgiyi kesme",
+          "facet_statement": "Kişi, birinden veya bir konudan yönelişini geri çekip yüz çevirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:1:2"
+          ],
+          "trigger_refs": [
+            "15:81",
+            "53:29"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The Form IV imperative أَعْرِضْ directs the addressee to withdraw attention from the group.",
+          "independent_trigger": "15:81 joins the giving of signs with turning away from them; 53:29 commands turning away from one who has turned from the reminder.",
+          "activation": "The focus turn-away carrier meets two exact wider refusal scenes; the resulting contact makes withdrawal a response to prior refusal.",
+          "resulting_reading": "The messenger's withdrawal is a relational consequence of rejected guidance, while its agency and cause differ from the group's refusal.",
+          "boundary": "The parallels do not identify the focus group with either wider audience or turn the imperative into a claim about every subsequent act."
+        },
+        {
+          "branch_ref": "root_001001/B006",
+          "facet_id": "F001",
+          "branch_gloss": "denk karşılık verme, karşılaştırma veya değişme",
+          "facet_statement": "İki taraf hareket veya eylem bakımından birbirinin hizasında ya da dengi olur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:1:2"
+          ],
+          "trigger_refs": [
+            "15:81",
+            "53:29"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The focus turn-away act is the carrier; its Form IV imperative retains the ordinary withdrawal sense.",
+          "independent_trigger": "The wider scenes place refusal of signs beside a command to turn away from one who refused the reminder.",
+          "activation": "The relation between the two acts is a counterpart response: their action aligns, while the agents and motives differ. This branch is active at the relation level, not as a second translation of the Form IV verb.",
+          "resulting_reading": "The two turnings correspond without becoming equivalent in cause or responsibility.",
+          "boundary": "The packet's mixed-form branch is used as a contextual comparison only; no lexical equivalence or justification of either act is claimed."
+        }
+      ],
+      "connection_refs": [
+        "conn_19ff1cb84b1ff6d5accc",
+        "conn_68b16973bf01b8764dd0"
+      ],
+      "context_refs": [
+        "15:81",
+        "53:29"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:paired_withdrawal_wait",
+      "origin_candidate_id": "cand_cdf0b327c0a4c08b1046",
+      "represented_candidate_ids": [
+        "cand_0320a17eeb9b6c03b391"
+      ],
+      "title": "Withdrawal with the horizon still open",
+      "claim": "The focus pairs turning away with waiting, so disengagement can suspend the immediate exchange while keeping attention on an outcome; wider examples of bounded withdrawal and reciprocal waiting make the pause, rather than indifference, newly visible.",
+      "mechanism": "أَعْرِضْ carries withdrawal from the group and ٱنتَظِرْ keeps the addressee oriented toward a future event. The command in 6:68 bounds withdrawal from a disputatious setting until the discourse changes, while 11:122 pairs a command to wait with the other side's waiting. These independent relations meet the focus's two coordinated imperatives and frame withdrawal as a pause with an open horizon.",
+      "reader_payoff": "The reader can see the turn-away and wait commands working together: the immediate exchange recedes while attention remains on what will come.",
+      "containment": "The wider parallels illustrate bounded disengagement and mutual waiting; they do not set the precise duration of 32:30 or identify the awaited object. The focus's ordinary commands remain intact.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The originating walk is legacy-unbound, while exact target Arabic and connection notes support the two bounded comparisons; no 32:29 timetable is asserted."
+      },
+      "support_ids": [
+        "sup_74f7bcf2fe22c1c85711"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001001/B005",
+          "facet_id": "F001",
+          "branch_gloss": "yüz çevirip ilgiyi kesme",
+          "facet_statement": "Kişi, birinden veya bir konudan yönelişini geri çekip yüz çevirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:1:2"
+          ],
+          "trigger_refs": [
+            "6:68"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "أَعْرِضْ commands the addressee to turn away from the group.",
+          "independent_trigger": "6:68 supplies the exact relation of turning away from a discourse until its subject changes.",
+          "activation": "The bounded external case meets the focus act and lets withdrawal mark a limited suspension of engagement.",
+          "resulting_reading": "Turning away can stop the present exchange while leaving the wider matter open.",
+          "boundary": "This parallel does not assign its exact condition or duration to the focus."
+        },
+        {
+          "branch_ref": "root_001520/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bekleme veya süre tanıma",
+          "facet_statement": "Beklenen olayın gerçekleşmesi için gelecek bir zamana yönelinir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "trigger_refs": [
+            "11:122"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The imperative ٱنتَظِرْ and the participle مُّنتَظِرُونَ both carry waiting toward an event.",
+          "independent_trigger": "11:122 supplies an exact reciprocal-waiting formula pairing an imperative with the other side's waiting.",
+          "activation": "The external formula meets the focus pair and makes waiting the continued orientation after withdrawal.",
+          "resulting_reading": "Disengagement leaves an open, future-facing interval rather than a resolved exchange.",
+          "boundary": "The parallel does not identify the expected event or import its precise audience into the focus."
+        }
+      ],
+      "connection_refs": [
+        "conn_4d6b934dbddfd5753e99",
+        "conn_a217b78ff5b9e8484548"
+      ],
+      "context_refs": [
+        "6:68",
+        "11:122"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:shared_wait_unequal_forecasts",
+      "origin_candidate_id": "cand_33f87a5389b3a811d8e9",
+      "represented_candidate_ids": [
+        "cand_f9f575d6c3e6b222195f",
+        "cand_db6d05a22e58baf13913",
+        "cand_b7c438f8776eaaf18be9"
+      ],
+      "title": "One waiting interval, unequal forecasts",
+      "claim": "The paired focus forms place both sides in a shared future-facing interval; 9:52 shows that reciprocal waiting can hold opposed forecasts, while 10:20 places the unseen timetable with God. Their matching posture therefore does not establish equal expectations, control of timing, or outcomes.",
+      "mechanism": "ٱنتَظِرْ is an imperative to wait and مُّنتَظِرُونَ names the group as waiting, so both sides are held in one waiting frame. In 9:52, each side waits for a different outcome from the other; 10:20 assigns the unseen timetable to God rather than either party. These independent triggers meet the focus's matched forms and distinguish shared waiting from equal forecasts or control.",
+      "reader_payoff": "The reader can feel the shared suspense while leaving the sides' expectations and eventual results distinct.",
+      "containment": "The parallels demonstrate that reciprocal waiting can accompany opposed forecasts and a timetable outside either party's control; they do not assign exact confidence, taunting, or outcomes to the group in 32:30. The group may share only the interval, and the focus leaves its awaited object unstated.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "The trusted publication is supported by exact focus forms and the supplied 9:52 and 10:20 surfaces; unbound HFT alternatives remain possibilities about posture, not adjudicated motives."
+      },
+      "support_ids": [
+        "sup_c3c9874b3fe919024965",
+        "sup_fae656dd0413b2680a04",
+        "sup_e374c9e564aeb929ffc3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001520/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bekleme veya süre tanıma",
+          "facet_statement": "Beklenen olayın gerçekleşmesi için gelecek bir zamana yönelinir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "trigger_refs": [
+            "9:52",
+            "10:20",
+            "11:122"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The focus imperative and active participle place the addressee and the group in the ordinary relation of waiting.",
+          "independent_trigger": "11:122 repeats reciprocal waiting, 9:52 gives the two sides different expected outcomes, and 10:20 assigns the unseen timetable to God.",
+          "activation": "The waiting branch supplies a shared interval; the wider counter-forecast and divine timetable show that shared waiting does not establish equal expectations or control.",
+          "resulting_reading": "Both sides wait within a common future horizon while their forecasts and control of timing remain unestablished as equal.",
+          "boundary": "The focus does not specify the expected event, confidence, exact forecast, or an individual timetable."
+        },
+        {
+          "branch_ref": "root_001520/B006",
+          "facet_id": "F001",
+          "branch_gloss": "eş veya denk karşılık",
+          "facet_statement": "İki şey karşılaştırıldığında benzerlik, eşlik veya denklik bakımından birbirine karşılık gelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "trigger_refs": [
+            "9:52"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The imperative and participle are corresponding focus forms that place two parties in related waiting positions.",
+          "independent_trigger": "9:52 explicitly pairs reciprocal waiting with different expected outcomes.",
+          "activation": "That contrast activates counterpart relation at the level of the paired expression: the stances correspond, but the prospects do not.",
+          "resulting_reading": "The focus's symmetry can be read as relational correspondence without equivalence of expectation or result.",
+          "boundary": "This branch describes the relation between the paired forms; Form VIII still means waiting and does not lexically mean equal or equivalent."
+        }
+      ],
+      "connection_refs": [
+        "conn_60cbb5bd66ef40e918e4",
+        "conn_bd6527560bb587878fbd",
+        "conn_a217b78ff5b9e8484548"
+      ],
+      "context_refs": [
+        "9:52",
+        "10:20",
+        "11:122"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:waiting_inside_measured_time",
+      "origin_candidate_id": "cand_6838d6d87fa02462bd0f",
+      "represented_candidate_ids": [],
+      "title": "Waiting within measured governance",
+      "claim": "The closing wait can be heard within an already administered and measured order: 32:5 describes affairs being directed and a day measured beyond the audience's counting, so the interval need not be inactive or set by the disputants.",
+      "mechanism": "The focus forms ٱنتَظِرْ and مُّنتَظِرُونَ carry B002 waiting toward a future event. The supplied 32:5 sequence assigns affairs to an active ordering process, a bounded day, and a measured span. These context occurrences meet the focus interval and shift waiting from unscheduled inactivity to restraint within an administered timescale.",
+      "reader_payoff": "Delay becomes an interval inside a measured process, rather than empty time controlled by either disputing side.",
+      "containment": "The HFT itself leaves open whether 32:5 describes cosmic order generally rather than the schedule of this exact wait. No precise date or guaranteed event-time is inferred.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The HFT trace supplies exact ayah/word/root coordinates and a focus return, but the contextual root mappings remain attributed and the link from cosmic measure to this wait is an inference."
+      },
+      "support_ids": [
+        "sup_b01636eab2a3df7cf079"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001520/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bekleme veya süre tanıma",
+          "facet_statement": "Beklenen olayın gerçekleşmesi için gelecek bir zamana yönelinir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "trigger_refs": [
+            "32:5:1",
+            "32:5:11",
+            "32:5:13"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The focus imperative and participle carry waiting toward a future event.",
+          "independent_trigger": "The attributed 32:5 trace names outcome-aware administration, a bounded day, and measured planning.",
+          "activation": "A measured, actively administered temporal frame meets the focus wait and re-reads its interval as governed.",
+          "resulting_reading": "The addressee waits within a measured process whose timing the disputants do not set.",
+          "boundary": "This does not prove that 32:5 schedules the exact event awaited in 32:30."
+        },
+        {
+          "branch_ref": "root_000458/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:5:1"
+          ],
+          "trigger_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The HFT trace locates يُدَبِّرُ at source word 1 and attributes outcome-aware administration; no independent branch gloss is supplied.",
+          "independent_trigger": "The focus forms command and describe waiting.",
+          "activation": "The attributed administration role meets the focus waiting interval as a separate process operating behind apparent delay.",
+          "resulting_reading": "Waiting can occur while an ordering process is already active.",
+          "boundary": "This remains an HFT-attributed contextual role, not a verified dictionary gloss or facet."
+        },
+        {
+          "branch_ref": "root_001700/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:5:11"
+          ],
+          "trigger_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The HFT trace locates يَوْمٍ at source word 11 and attributes a bounded span of time.",
+          "independent_trigger": "The focus forms command and describe waiting.",
+          "activation": "The attributed bounded day supplies duration against which the focus's waiting interval can be read.",
+          "resulting_reading": "Waiting takes place inside a measured span rather than an unlimited human scale.",
+          "boundary": "The context branch is unresolved in the packet; this role is attributed and supplies no independent gloss or facet."
+        },
+        {
+          "branch_ref": "root_001205/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:5:13"
+          ],
+          "trigger_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The HFT trace locates مِقْدَارُهُ at source word 13 and attributes measured planning and ordering.",
+          "independent_trigger": "The focus forms command and describe waiting.",
+          "activation": "The attributed measure supplies the limit and ordering assigned to the duration that meets the focus wait.",
+          "resulting_reading": "The interval can be perceived as measured under a scale the disputants do not set.",
+          "boundary": "The context branch is unresolved in the packet; no gloss or facet is invented."
+        }
+      ],
+      "connection_refs": [
+        "conn_e509968f89c9e9232c86"
+      ],
+      "context_refs": [
+        "32:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:waiting_to_apprehension",
+      "origin_candidate_id": "cand_c5556d799aca3863303f",
+      "represented_candidate_ids": [],
+      "title": "Waiting as an interval before apprehension",
+      "claim": "The focus's waiting can carry watchful perception as well as elapsed time: after the surah names the unseen and the witnessed, it depicts opponents saying they have seen and heard, so the closing wait can open an interval toward apprehension.",
+      "mechanism": "The focus imperative and participle carry the wait branch while the same root also carries directed looking and attention. The independent context at 32:6 contrasts hidden and witnessed knowledge; 32:12 voices belated seeing and hearing. These states meet the focus's waiting and make its interval perceptive as well as temporal.",
+      "reader_payoff": "Waiting becomes an attentive span in which what is unavailable may become perceptible, not only the time before an event.",
+      "containment": "The packet does not identify the scene at 32:12 as the exact event awaited in 32:30. The relation can be thematic rather than chronological, and ordinary waiting remains fully present.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Exact focus morphology and supplied context Arabic anchor the contact, while HFT context word/root roles are legacy-unbound and the thematic link is explicitly qualified."
+      },
+      "support_ids": [
+        "sup_61e3e7ce5494b312b755"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001520/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bakıp inceleme",
+          "facet_statement": "Görme ya da anlama amacıyla göz veya zihinsel dikkat bir nesneye yöneltilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "trigger_refs": [
+            "32:6:3",
+            "32:6:4",
+            "32:12:10",
+            "32:12:11"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The focus waiting forms can also carry directed visual or mental attention under this exact focus branch.",
+          "independent_trigger": "32:6 supplies unseen and witnessed states; 32:12 depicts the group later saying they saw and heard.",
+          "activation": "The external epistemic sequence gives the focus's watchful branch an independent object and endpoint.",
+          "resulting_reading": "Waiting can include attention directed toward a later apprehension.",
+          "boundary": "The target scenes may be thematic rather than the specific event awaited by the focus."
+        },
+        {
+          "branch_ref": "root_001520/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bekleme veya süre tanıma",
+          "facet_statement": "Beklenen olayın gerçekleşmesi için gelecek bir zamana yönelinir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "trigger_refs": [
+            "32:6:3",
+            "32:6:4",
+            "32:12:10",
+            "32:12:11"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The focus imperative and participle carry the ordinary interval of waiting.",
+          "independent_trigger": "The unseen/witnessed contrast and later confession of seeing and hearing supply a possible endpoint.",
+          "activation": "The context meets waiting's interval with an unavailable-to-apprehended movement.",
+          "resulting_reading": "The wait may span concealment toward apprehension as well as elapsed time.",
+          "boundary": "No exact chronological identity between these scenes and the focus's awaited event is asserted."
+        },
+        {
+          "branch_ref": "root_001117/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:6:3"
+          ],
+          "trigger_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The HFT trace locates الْغَيْبِ at 32:6 source word 3 and attributes concealment from eyes.",
+          "independent_trigger": "The focus waiting forms carry an interval that can remain open before apprehension.",
+          "activation": "The attributed hidden-state role meets the focus interval as its unavailable beginning.",
+          "resulting_reading": "Waiting can span what is hidden before it is apprehended.",
+          "boundary": "No independent lexicon branch record is supplied; role, root and position remain attributed."
+        },
+        {
+          "branch_ref": "root_000822/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:6:4"
+          ],
+          "trigger_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The HFT trace locates ٱلشَّهَٰدَةِ at 32:6 source word 4 and attributes presence with witnessing.",
+          "independent_trigger": "The focus waiting forms carry the interval toward a possible disclosed state.",
+          "activation": "The attributed witnessed-state role contrasts with concealment and gives waiting a disclosed endpoint.",
+          "resulting_reading": "The wait can face a movement from unavailable to witnessed.",
+          "boundary": "No independent lexicon branch record is supplied; role, root and position remain attributed."
+        },
+        {
+          "branch_ref": "root_000121/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:12:10"
+          ],
+          "trigger_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The HFT trace locates أَبْصَرْنَا at 32:12 source word 10 and attributes direct seeing.",
+          "independent_trigger": "The focus waiting forms preserve watchful temporal orientation.",
+          "activation": "The attributed seeing role supplies a concrete form of later apprehension that meets waiting.",
+          "resulting_reading": "The interval can culminate in direct seeing.",
+          "boundary": "No independent lexicon branch record is supplied; role, root and position remain attributed."
+        },
+        {
+          "branch_ref": "root_000741/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:12:11"
+          ],
+          "trigger_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The HFT trace locates وَسَمِعْنَا at 32:12 source word 11 and attributes auditory perception.",
+          "independent_trigger": "The focus waiting forms preserve watchful temporal orientation.",
+          "activation": "The attributed hearing role joins seeing as a second channel of belated recognition.",
+          "resulting_reading": "Apprehension may arrive through hearing as well as sight.",
+          "boundary": "No independent lexicon branch record is supplied; role, root and position remain attributed."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "32:6",
+        "32:12"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:embodied_release_while_waiting",
+      "origin_candidate_id": "cand_253f513e33af23e711a7",
+      "represented_candidate_ids": [],
+      "title": "Bodily release with attention still oriented",
+      "claim": "An embodied analogy lets the focus turn-away image be felt as releasing one's side from a place of attachment, while its waiting command keeps orientation toward what is still to come.",
+      "mechanism": "The focus root offers an image of side and side-turning, and the focus waiting branch preserves expectation. In 32:16, bodily sides draw away from beds; the attributed HFT roles make that bodily release the independent trigger. Their contact turns the focus's withdrawal into spatial reorientation rather than only social refusal.",
+      "reader_payoff": "A reader can picture turning away as a bodily release from immediate attachment while remaining oriented toward an awaited outcome.",
+      "containment": "This is explicitly analogical: the worshippers' night-prayer scene is not equated with the focus's polemical command. The width/side branch is a root image, not a literal translation of the Form IV imperative, and the focus's ordinary withdrawal remains intact.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "The surprising HFT trace gives exact 32:16 word positions and a focus return, but its root mappings are attributed and it explicitly limits the transfer to a spatial analogy."
+      },
+      "support_ids": [
+        "sup_936f9eaddbfb9c70e4ba"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001001/B001",
+          "facet_id": "F001",
+          "branch_gloss": "en, yan ve enli kılma",
+          "facet_statement": "Bir nesnenin uzunluğuna karşıt en boyutunu belirtir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "32:30:1:2"
+          ],
+          "trigger_refs": [
+            "32:16:2"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The focus word أَعْرِضْ carries the root's lateral width image only as an analogy; its local imperative still means turning away.",
+          "independent_trigger": "The attributed HFT trace locates the bodily flank at 32:16 word 2.",
+          "activation": "The flank supplies a bodily lateral dimension that meets the focus root's width image and makes side-orientation perceptible.",
+          "resulting_reading": "Turning away can be pictured as lateral bodily reorientation.",
+          "boundary": "This facet is an analogical root image, not the lexical meaning of the Form IV imperative."
+        },
+        {
+          "branch_ref": "root_001001/B001",
+          "facet_id": "F002",
+          "branch_gloss": "en, yan ve enli kılma",
+          "facet_statement": "En boyutunun belirlediği yan veya taraf için de kullanılır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "32:30:1:2"
+          ],
+          "trigger_refs": [
+            "32:16:2"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The focus root's side image is carried by أَعْرِضْ only as a spatial analogy.",
+          "independent_trigger": "The bodily flank named at 32:16 word 2 gives the independent side image.",
+          "activation": "The extension's side facet contacts the bodily flank; the branch's core width facet is also retained in this finding.",
+          "resulting_reading": "The side-turning image gains an embodied counterpart.",
+          "boundary": "The side facet does not replace the imperative's ordinary turning-away sense."
+        },
+        {
+          "branch_ref": "root_001001/B005",
+          "facet_id": "F001",
+          "branch_gloss": "yüz çevirip ilgiyi kesme",
+          "facet_statement": "Kişi, birinden veya bir konudan yönelişini geri çekip yüz çevirir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "32:30:1:2"
+          ],
+          "trigger_refs": [
+            "32:16:1",
+            "32:16:2",
+            "32:16:4"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The focus imperative carries the ordinary act of turning away from the group.",
+          "independent_trigger": "The context scene depicts bodily sides drawing away from resting places.",
+          "activation": "The focus withdrawal action meets the bodily detachment and becomes spatially imaginable as release.",
+          "resulting_reading": "Turning away can be felt as active reorientation from an immediate attachment.",
+          "boundary": "The worshippers' action and the addressee's command remain distinct."
+        },
+        {
+          "branch_ref": "root_001001/B005",
+          "facet_id": "F002",
+          "branch_gloss": "yüz çevirip ilgiyi kesme",
+          "facet_statement": "Bedensel olarak yanını gösterip dönme, ilgiyi kesmenin görünür gerçekleşmesidir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "32:30:1:2"
+          ],
+          "trigger_refs": [
+            "32:16:1",
+            "32:16:2",
+            "32:16:4"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The focus B005 turn-away carrier can evoke the visible bodily turn as a secondary realization.",
+          "independent_trigger": "32:16 supplies bodily sides withdrawing from beds.",
+          "activation": "The external body scene activates B005's side-showing extension while its core act of withdrawal also remains active.",
+          "resulting_reading": "The social turn-away can carry a bodily image of presenting one's side while reorienting.",
+          "boundary": "This is a spatial analogy, not an assertion that 32:30 literally describes the same bodily posture."
+        },
+        {
+          "branch_ref": "root_001520/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bekleme veya süre tanıma",
+          "facet_statement": "Beklenen olayın gerçekleşmesi için gelecek bir zamana yönelinir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "trigger_refs": [
+            "32:16:1",
+            "32:16:2",
+            "32:16:4"
+          ],
+          "focus_return_refs": [
+            "32:30:3:2",
+            "32:30:5:1"
+          ],
+          "carrier": "The focus imperative and participle keep expectation active after the turn-away command.",
+          "independent_trigger": "The context depicts bodily detachment from beds and continued devotional orientation in the supplied ayah.",
+          "activation": "The body's release from its resting attachment meets the focus's future-oriented wait, preserving orientation after disengagement.",
+          "resulting_reading": "Release from one immediate attachment can coexist with attention toward what is awaited.",
+          "boundary": "The analogy does not equate the actors, motives, or devotional and polemical settings."
+        },
+        {
+          "branch_ref": "root_000251/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:16:1"
+          ],
+          "trigger_refs": [
+            "32:30:1:2"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The HFT trace locates the detaching motion at 32:16 word 1 and attributes springing away from close adherence.",
+          "independent_trigger": "The focus imperative carries the turn-away action.",
+          "activation": "The attributed release motion meets the focus turn-away as the movement aspect of the bodily analogy.",
+          "resulting_reading": "Withdrawal can be imagined as release from attachment.",
+          "boundary": "The contextual root/branch mapping remains attributed; no gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000262/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:16:2"
+          ],
+          "trigger_refs": [
+            "32:30:1:2"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The HFT trace locates the bodily flank at 32:16 word 2 and attributes an embodied counterpart to the focus's lateral image.",
+          "independent_trigger": "The focus imperative carries the root-side image by analogy.",
+          "activation": "The attributed flank supplies the body-space through which the focus side image is felt.",
+          "resulting_reading": "Turning away gains an embodied side-orientation.",
+          "boundary": "The contextual root/branch mapping remains attributed; no gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000902/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "32:16:4"
+          ],
+          "trigger_refs": [
+            "32:30:1:2"
+          ],
+          "focus_return_refs": [
+            "32:30:1:2"
+          ],
+          "carrier": "The HFT trace locates the resting-place word at 32:16 word 4 and attributes attachment to a ground from which the body withdraws.",
+          "independent_trigger": "The focus imperative carries the turn-away action and its bodily analogy.",
+          "activation": "The attributed resting-place attachment gives the release movement a specific point of departure.",
+          "resulting_reading": "The turn-away image can be felt as detachment from an immediate resting attachment.",
+          "boundary": "The contextual root/branch mapping remains attributed; no gloss or facet is supplied."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "32:16"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The focus-word bridge resolves all seven analysis units; no unresolved focus carrier affected this lane.",
+    "HFT supplies exact context ayah and word positions for 32:5, 32:6, 32:12, and 32:16, but no target QAC morphology or independent context lexicon records. Those context branches remain attributed with null glosses and facets.",
+    "Several walk/HFT summaries cite 32:22, 32:24–25, or 32:28–29 without exact context surfaces in this global packet; those specific internal-pericope readings were excluded or narrowed, and the retained global relations use supplied connection surfaces.",
+    "Connection targets include exact Arabic but no target morphology; their use here is limited to relation-level parallels and does not assert target root joins."
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "31:8",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_81864714ac2f8f3131b7",
+      "decision": "accept",
+      "reason": "Kanal adayının yedi dal başvurusu da ayrı etkinleştirmelerle korunuyor: 31:8’deki güven/inanç, örtülü bahçe, siper, nimet ve 31:9’daki kalıcılık birbirine bağlanıyor. 31:9’daki kök ve taşıyıcı, bağlam morfolojisi verilmediği için atfedilmiş tutuluyor; bu sınırlama adayın ana ilişkisini düşürmüyor.",
+      "finding_refs": [
+        "macro:garden-covered-refuge"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_93baef026675f9f47b70",
+      "decision": "accept",
+      "reason": "Altı dal başvurusunun tamamı, odak kelimelerine dönen ve 31:3–5’teki tam Arapça bağlamla eşleşen iz üzerinden ele alınıyor. Bilinmeyen bağlam dalları sözlük anlamı uydurulmadan atfedilmiş tutuluyor; önce/sonra değişimi ve nedensel olmayan ödül okuması bulguda açık.",
+      "finding_refs": [
+        "macro:guided-cultivation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f3fc91dcd8d25552c04a",
+      "decision": "accept",
+      "reason": "Altı dal başvurusunun tamamı, 31:6–7’deki dikkat dağıtma, yüz çevirme, işitmeme ve kulak ağırlığı sahnesiyle; 31:8’deki inanç ve eylem kelimelerine geri dönen iz üzerinden korunuyor. Bilinmeyen bağlam dalları ve bunların rolleri atfedilmiş; yalın tasdik ihtimali de açık bırakılmış.",
+      "finding_refs": [
+        "macro:receptive-faith"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:garden-covered-refuge",
+      "origin_candidate_id": "cand_81864714ac2f8f3131b7",
+      "represented_candidate_ids": [],
+      "title": "Örtülü ve kalıcı bir sığınak",
+      "claim": "31:8’de inanç ve eylemle tanımlanan topluluk, “onlar için” kurulan nimet bahçelerine bağlanır. Güven, örtü ve siper imgeleriyle birleşince bahçe korunaklı bir yaşam alanı olarak belirir; 31:9’daki orada kalma vurgusu bu sığınağı kalıcılaştırır.",
+      "mechanism": "Taşıyıcı, 31:8’deki ءَامَنُوا۟ kelimesinin tasdik ve güven alanlarıdır. Bağımsız tetikleyici, لَهُمْ bağının bu topluluğu جَنَّٰتُ ٱلنَّعِيمِ ifadesine bağlamasıdır: bahçe ağaç örtüsü ve siper anlamlarını, nimet ise oradaki elverişli yaşamı getirir. 31:9’daki خَٰلِدِينَ ve vaat cümlesi, bahçe imgesini geçici bir karşılıktan kalınan bir yurda doğru genişletir.",
+      "reader_payoff": "Ödül sözü, içinde iyi yaşam bulunan, örtülü ve güvenli bir yer olarak duyulur; 31:9 bu yerin sürekliliğini ekler.",
+      "containment": "Bu okuma bahçe ve nimet vaadini korur; inancı yalnızca korkusuzluk anlamına daraltmaz ve bahçeyi gerçek bir savaş donanımı saymaz. 31:9’daki kalıcılık taşıyıcısı verilen kanal/context bağlantısına dayanır; o ayetin morfolojisi bu pakette yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Kanalın odak dal başvuruları ve 31:8 yüzeyi güvenilir desteklerle eşleşiyor. 31:9’un Arapçası ve kalıcılık kökü bağlam desteğinde verilmiş, ancak bağlam morfolojisi yok; bu taşıyıcı atfedilmiş düzeyde tutuluyor."
+      },
+      "support_ids": [
+        "sup_44fc0359f5c198a71fbf",
+        "sup_5b534f3e0cc89ceadcc1",
+        "sup_602e5047e95b540b6b36",
+        "sup_b90630e9e201c4e4da80",
+        "sup_fe85e250966e0a94216d"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": "F001",
+          "branch_gloss": "guven ve guvenilirlik",
+          "facet_statement": "Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:3:1"
+          ],
+          "trigger_refs": [
+            "31:8:7:1",
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1"
+          ],
+          "carrier": "31:8:3:1’deki ءَامَنُوا۟, yerel olarak bağlı ve kararlı inancı taşır; bu kelime aynı zamanda güven ve iç yatışma dalının taşıyıcısı olur.",
+          "independent_trigger": "31:8:7:1’deki جَنَّٰتُ örtülü bahçeyi, 31:8:8:2’deki ٱلنَّعِيمِ ise oradaki iyi yaşamı bildirir.",
+          "activation": "İnanç kelimesinin güven alanı, bahçe ve iyi yaşam imgesiyle karşılaşınca vaadin korunmuş yaşam tarafı belirginleşir.",
+          "resulting_reading": "İnanma sözü, güvenli bir yaşam alanına yönelen ve orada karşılık bulan bağlılık olarak da duyulur.",
+          "boundary": "Güven anlamı, yerel tasdik okumasının yanına eklenir; onun yerine geçmez."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:3:1"
+          ],
+          "trigger_refs": [
+            "31:8:6:1",
+            "31:8:7:1",
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1"
+          ],
+          "carrier": "31:8:3:1’deki ءَامَنُوا۟, bir sözü veya hakikati doğru kabul eden bağlılığı taşır.",
+          "independent_trigger": "لَهُمْ için/yararına ilişkisi ile ardından gelen جَنَّٰتُ ٱلنَّعِيمِ, inançla bahçe vaadi arasında ayrı bir gramatik ve imgesel bağ kurar.",
+          "activation": "Tasdik taşıyıcısı, bahçelerin bu topluluğa ayrılan yarar olarak sunulmasıyla karşılaşır; kabul, kendisine güvenli ve iyi bir yaşam vaat edilen grubun yönelişi olarak belirginleşir.",
+          "resulting_reading": "İman, bahçe vaadine bağlanan bir tasdik ve kabul olarak okunur.",
+          "boundary": "Burada tasdik alanı korunur; kanalın güven/sığınak ilişkisi bu alanı tek başına tüketmez."
+        },
+        {
+          "branch_ref": "root_000266/B001",
+          "facet_id": "F001",
+          "branch_gloss": "örtme ve duyulardan gizleme",
+          "facet_statement": "Bir şey örtülerek ya da gizlenerek duyuların erişiminden çıkarılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:8:3:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "31:8:7:1’deki جَنَّٰتُ, bahçe adını taşırken kökün örtme ve gizleme alanına da açılır.",
+          "independent_trigger": "31:8:3:1’deki ءَامَنُوا۟ güven ve korkudan emin olma alanını kurar.",
+          "activation": "Bahçenin örtüsü, inanç kelimesindeki güvenle temas ederek örtülmeyi korunaklılık yönünde duyurur.",
+          "resulting_reading": "Bahçe, güven içinde yaşanan örtülü bir yer olarak belirir.",
+          "boundary": "Örtü imgesi bu bahçe ilişkisiyle sınırlıdır; başka gizlenme kullanımları buraya taşınmaz."
+        },
+        {
+          "branch_ref": "root_000266/B003",
+          "facet_id": "F001",
+          "branch_gloss": "zemini ağaçlarla örtülü bahçe",
+          "facet_statement": "Ağaçlı bahçenin zemini ağaçların oluşturduğu örtü altında kalır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:8:8:2"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "31:8:7:1’deki جَنَّٰتُ, ağaçlı ve zemini örtülü bahçe imgesini taşır.",
+          "independent_trigger": "31:8:8:2’deki ٱلنَّعِيمِ, bahçeyi yalnızca yer adı olarak bırakmayıp oradaki rahat ve iyi yaşamı belirtir.",
+          "activation": "Bahçe taşıyıcısı ile içindeki iyi yaşamı adlandıran nimet ifadesi birleşince örtülü bitkisel alan, içinde yaşanan bir yer halini alır.",
+          "resulting_reading": "Nimet bahçeleri, örtü sağlayan ve iyi yaşanan bir bahçe olarak somutlaşır.",
+          "boundary": "Bu dal ağaçlı bahçe ve örtülü zeminle sınırlı kalır."
+        },
+        {
+          "branch_ref": "root_000266/B008",
+          "facet_id": "F001",
+          "branch_gloss": "koruyucu siper veya savaş donanımı",
+          "facet_statement": "Bir örtü veya savaş donanımı kişiyi tehlikeden koruyan siper işlevi görür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:8:3:1",
+            "31:9"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "31:8:7:1’deki جَنَّٰتُ bahçe anlamını taşır ve kökün koruyucu siper imgesine açılır.",
+          "independent_trigger": "31:8:3:1’deki güven alanı ile 31:9’daki aynı bahçelerde kalma vurgusu, korunma ve süreklilik temasını ayrı ayrı verir.",
+          "activation": "Bahçenin örtü imgesi, güven kelimesi ve orada kalma bağlamıyla temas ederek siper işlevi kazanır.",
+          "resulting_reading": "Bahçe vaadi, güven veren ve içinde kalınan bir korunak olarak duyulur.",
+          "boundary": "Siper burada bir imgedir; savaş donanımına dair gerçek bir nesne ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000429/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "enduring permanence",
+          "facet_statement": "enduring permanence",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:9"
+          ],
+          "trigger_refs": [
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "31:9’daki خَٰلِدِينَ, verilen kanal desteğinin خ ل د kök başvurusu altında kalıcılık taşıyıcısıdır; bağlam çözümlemesi burada yalnızca atfedilebilir.",
+          "independent_trigger": "31:8:7:1’deki جَنَّٰتُ, 31:9’un içinde kalmayı bildirdiği bahçeyi sağlar.",
+          "activation": "31:9’daki kalıcılık, 31:8’de sunulan bahçeye döner ve onu geçici bir yerden içinde kalınan yurda taşır.",
+          "resulting_reading": "Bahçe, kalıcılıkla nitelenen bir yaşam yeri olarak okunur.",
+          "boundary": "31:9’un hedef morfolojisi bu pakette yoktur; kanalın kök ve taşıyıcı atfı aşılmaz."
+        },
+        {
+          "branch_ref": "root_001525/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi yaşam durumu ve başkasına ulaştırılan iyilik",
+          "facet_statement": "Rahatlık, geçim genişliği ve iyi oluşla belirlenen elverişli yaşam durumu.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:8:2"
+          ],
+          "trigger_refs": [
+            "31:8:7:1",
+            "31:9"
+          ],
+          "focus_return_refs": [
+            "31:8:8:2"
+          ],
+          "carrier": "31:8:8:2’deki ٱلنَّعِيمِ, rahatlık ve iyi oluşla nitelenen yaşam durumunu taşır.",
+          "independent_trigger": "31:8:7:1’deki bahçe örtüsü ve 31:9’daki orada kalma, bu iyi yaşamın yerini ve süresini belirginleştirir.",
+          "activation": "İyi yaşam taşıyıcısı, korunaklı bahçe ve devam eden ikamet imgesiyle birleşerek nimeti bir yerde sürdürülen yaşama bağlar.",
+          "resulting_reading": "Nimet, örtülü ve kalıcı bir bahçede yaşanan elverişli hal olarak belirir.",
+          "boundary": "İyi yaşam okuması başka nimet, övgü veya cevap kullanımlarına genişletilmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_9e1a9031faee0e40096c"
+      ],
+      "context_refs": [
+        "31:9"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:guided-cultivation",
+      "origin_candidate_id": "cand_93baef026675f9f47b70",
+      "represented_candidate_ids": [],
+      "title": "Yönlendirilmiş işin yetişmesi",
+      "claim": "İlk okuma “iyi işler ardından bir bahçe ödülü gelir” der. 31:3–5’teki yönlendirme, artış ve çiftçilik/yarma imgeleri 31:8’deki amaçlı ve onarıcı işleri bir ekim gibi duyurur: bahçe, bu işin yetişip sıklaşan olgun biçimi olarak da okunabilir.",
+      "mechanism": "31:8’deki bilerek yapılan iş, iyi ve düzgün duruma getiren amel ve bahçe kelimeleri taşıyıcıdır. Bağımsız bağlam tetikleyicileri 31:3’teki hidayet, 31:4’teki zekât ve 31:5’teki felah izidir. Bu üç öğe yön, artış ve toprağı işleyen çiftçi imgesini sağlayarak odak cümledeki işi, onarımı ve bahçe gelişimini bir yetiştirme sürecine bağlar; bu ok yönü kaynak okurun çıkarımıdır.",
+      "reader_payoff": "Önceki yönlendirme ve sürdürülmüş pratik, bahçeye yalnızca ardından verilen bir karşılık olarak değil, olgunlaşan bir yetişme imgesi olarak da bağlanır.",
+      "containment": "Ödül vaadi ve “iyi işlerin ardından bahçe” okuması yaşamaya devam eder. İşlerden bahçeye uzanan tarımsal nedensellik âyette açıkça kurulmaz; bu okuma HFT izinin sınırlı çıkarımıdır. 31:3–5’in kök, kelime bölümlenmesi ve bağlam dalları bağımsız çözümleme değil, legacy_unbound kaynağa atfedilmiş kanıttır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT izi dört supplied anchor için tam Arapça, kelime koordinatı, kök, rol ve odak dönüşü sağlıyor; 31:3–5 morfolojisi verilmediği ve HFT kimliği legacy_unbound olduğu için bu bağlam katkıları atfedilmiş. Üç odak dalı ise focus registry'de kayıtlı."
+      },
+      "support_ids": [
+        "sup_5f9db0fa921760338b74"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:4:2"
+          ],
+          "trigger_refs": [
+            "31:3",
+            "31:4",
+            "31:5"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2"
+          ],
+          "carrier": "31:8:4:2’deki عَمِلُوا۟, yapanın bilerek ortaya koyduğu işi taşır.",
+          "independent_trigger": "31:3’te yönlendirme, 31:4’te artış ve 31:5’te toprağı işleyen çiftçi imgesi olarak atfedilmiş felah, işin nasıl yönelip sürdüğünü gösterir.",
+          "activation": "HFT rolü, amaçlı işi yetiştiricinin sürdürdüğü faaliyet olarak tanımlar; bağlamdaki yön, artış ve çiftçi imgeleri bu odak işine yetiştirme sürecindeki etkinliği kazandırır.",
+          "resulting_reading": "Amel, ödüle eşlik eden bir eylem olmanın yanında yönlendirilip sürdürülen yetiştirme işi olarak da duyulur.",
+          "boundary": "Dal bilinçli iş ve eylem alanında kalır; tarımsal görüntü bağlam izinin ilişkilendirmesidir."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi ve düzgün olma; düzeltme",
+          "facet_statement": "Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:5:2"
+          ],
+          "trigger_refs": [
+            "31:3",
+            "31:4",
+            "31:5"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "31:8:5:2’deki ٱلصَّٰلِحَٰتِ, iyi, düzgün ve yararlı işlerin niteliğini taşır.",
+          "independent_trigger": "31:3’te yönlendirme, 31:4’te artış ve 31:5’te toprağı işleyen çiftçi imgesi olarak sunulan bağlam zinciri.",
+          "activation": "HFT rolü, onarımı yetiştirmenin hayat alanına yaptığı iş olarak kurar; bu onarımın çekirdeği odak kelimedeki düzgün ve yararlı hale getirme niteliğiyle birleşir.",
+          "resulting_reading": "İyi işler, yaşanan alanı düzgün ve yararlı hale getiren yetiştirme emeği olarak da okunur.",
+          "boundary": "Bu çekirdek iyi durum ve yararlılıktır; bozulanı giderme yönü ayrıca bir etkenin bunu sağladığı ölçüde açılır."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": "F002",
+          "branch_gloss": "iyi ve düzgün olma; düzeltme",
+          "facet_statement": "Bir şey kendiliğinden iyi ve düzgün duruma gelebilir ya da bir etken bozukluğu gidererek onu bu duruma getirebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:5:2"
+          ],
+          "trigger_refs": [
+            "31:3",
+            "31:4",
+            "31:5"
+          ],
+          "focus_return_refs": [
+            "31:8:5:2"
+          ],
+          "carrier": "31:8:5:2’deki ٱلصَّٰلِحَٰتِ, iyi ve düzgün hale getirme yönünü taşır.",
+          "independent_trigger": "31:3’te yönlendirme, 31:4’te artış ve 31:5’te çiftçi/toprak işleme rolü olarak atfedilen bağlam imgeleri.",
+          "activation": "HFT rolü onarımı, yetiştiricinin alanında yaptığı iş olarak verir; bu temas salih işleri bozukluğu giderip iyi duruma getirme anlamında, bir yetiştirme alanını onarmaya açar.",
+          "resulting_reading": "Salih işler, alanı onarıp verimli kılan bakım emeği gibi duyulur.",
+          "boundary": "Bu, belirli bir tarımsal ayetin varlığını veya âyetin açık bir nedensel iddiasını ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000266/B011",
+          "facet_id": "F001",
+          "branch_gloss": "bitkinin güçlenip boylanması ve sıklaşması",
+          "facet_statement": "Bitki güçlenir, boy atar, sıklaşıp dolaşır veya çiçek açarak gelişimini belirginleştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:7:1"
+          ],
+          "trigger_refs": [
+            "31:3",
+            "31:4",
+            "31:5",
+            "31:8:4:2",
+            "31:8:5:2"
+          ],
+          "focus_return_refs": [
+            "31:8:7:1"
+          ],
+          "carrier": "31:8:7:1’deki جَنَّٰتُ, bahçe adını taşır; bu kökün bitkinin güçlenip sıklaşması dalı burada taşıyıcı olur.",
+          "independent_trigger": "31:3’teki yönlendirme, 31:4’teki büyüme/artış ve 31:5’teki çiftçi/toprak işleme izleri, 31:8’deki iş ve onarım kelimeleriyle birleşir.",
+          "activation": "HFT rolü, sıklaşan bitki gelişiminin bahçeyi olgunlaşan bir süreç olarak gösterdiğini söyler; önceki yön, artış ve toprak işleme imgeleri bu büyümeyi pratikle temas ettirir.",
+          "resulting_reading": "Bahçe, yalnızca varılan ödül değil, yönlendirilmiş ve onarılmış işin olgunlaşmış bitkisel biçimi olarak da duyulur.",
+          "boundary": "Bitki gelişimi imgesi kök dalının verdiği temasla sınırlıdır; tüm bahçe anlamı sürece indirgenmez."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:3"
+          ],
+          "trigger_refs": [
+            "31:8:4:2",
+            "31:8:5:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:5:2",
+            "31:8:7:1"
+          ],
+          "carrier": "31:3’te 1. kelime olarak verilen هُدًى; kökü, bölümlemesi ve rolü bu HFT izine göre yönlendirme diye atfediliyor.",
+          "independent_trigger": "31:8’deki amaçlı amel, salih işler ve bahçe kelimeleri yönün temas ettiği odak dizisini sağlar.",
+          "activation": "Atfedilen rol, yol boyunca yumuşak yön vermenin yetiştirmeyi rastgele faaliyetten ayırdığını söyler; bu iz 31:8’deki yönlendirilmiş işe ve bahçeye geri döner.",
+          "resulting_reading": "Odadaki eylemler yönsüz bir faaliyet değil, yön verilen yetiştirme olarak okunur.",
+          "boundary": "Bağımsız dal kaydı ve bağlam morfolojisi sunulmadığından gloss veya facet ileri sürülmez; yalnızca HFT rolü korunur."
+        },
+        {
+          "branch_ref": "root_000637/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:4"
+          ],
+          "trigger_refs": [
+            "31:8:4:2",
+            "31:8:5:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:5:2",
+            "31:8:7:1"
+          ],
+          "carrier": "31:4’te 5. kelime olarak verilen ٱلزَّكَوٰةُ; büyüme ve artış rolü yalnızca sağlanan HFT izine göre atfediliyor.",
+          "independent_trigger": "31:8’deki amaçlı iş, onarım niteliği ve bahçe, üretken pratiğin odak taşıyıcılarıdır.",
+          "activation": "Atfedilen artış/büyüme rolü, sürdürülen pratiğin üretken olmasını açıklar; bu temas focus işlerini yetiştirme ve sonuçta bahçeyle birleştirir.",
+          "resulting_reading": "Odak işi, üretkenlik ve büyümeye yönelen bakım olarak da belirir.",
+          "boundary": "Bu dal için bağımsız sözlük glossu veya facet verilmemiştir; büyüme rolü ve bağlam kelime koordinatı atfedilmiş kalır."
+        },
+        {
+          "branch_ref": "root_001175/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:5"
+          ],
+          "trigger_refs": [
+            "31:8:4:2",
+            "31:8:5:2",
+            "31:8:7:1"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2",
+            "31:8:5:2",
+            "31:8:7:1"
+          ],
+          "carrier": "31:5’te 8. kelime olarak verilen ٱلْمُفْلِحُونَ; çiftçi ve toprağı yarıp işleme rolü sağlanan HFT izine göre atfediliyor.",
+          "independent_trigger": "31:8’deki bilinçli amel, düzeltici/salih işler ve bahçe, atfedilen çiftçi imgesinin döndüğü odak dizisidir.",
+          "activation": "HFT rolü, toprağı yaran ve işleyen çiftçi imgesini gelişen bahçenin maddi arka planı sayar; bu imge odaktaki iş ve onarımla temas eder.",
+          "resulting_reading": "Bahçe vaadi, çiftçilikle bağlantılı bir gelişme ve ürün imgesiyle de duyulur.",
+          "boundary": "Çiftçi imgesi, bağımsız bir lexicon glossu değil, açıkça HFT'ye atfedilen bağlam rolüdür."
+        }
+      ],
+      "connection_refs": [
+        "conn_93cd1b66792bb3e951e6",
+        "conn_4b1b26e60da009d65d0a",
+        "conn_af4160d254f018e49e2b"
+      ],
+      "context_refs": [
+        "31:3",
+        "31:4",
+        "31:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:receptive-faith",
+      "origin_candidate_id": "cand_f3fc91dcd8d25552c04a",
+      "represented_candidate_ids": [],
+      "title": "İşitmeye açılan iman",
+      "claim": "İlk okuma imanı amellerle eşlenmiş bir iç nitelik olarak bırakabilir. 31:6–7’deki dikkat dağıtma, yüz çevirme ve işitmeme sahnesiyle karşılaşınca 31:8’deki iman, önü kapanmamış bir alımlayışa; amel ise bu alımlayışın amaçlı davranışa geçmesine açılır. Böylece iman, karşıt işitme ve eylem sahnesine yanıt veren bir kabul olarak da okunur.",
+      "mechanism": "Odak taşıyıcıları 31:8’deki ءَامَنُوا۟ ve عَمِلُوا۟ kelimeleridir. Bağımsız bağlam tetikleyicileri 31:6’daki dikkat dağıtıcı söylem ile 31:7’deki yüz çevirme, işitmeme ve kulaktaki ağırlık sahnesidir. Bu sahneler alımlamayı kapatırken odak kelimeleri tasdik ve amaçlı eylemle dönüş yapar; HFT'nin önce/sonra hareketi bu teması iç nitelikten açık ve davranışa geçen alımlayışa taşır.",
+      "reader_payoff": "İman, yalnızca içte taşınan bir nitelik olarak kalmaz; işitme, kabul ve davranış arasındaki geçiş daha görünür olur.",
+      "containment": "Dikkat dağıtma ve işitmeme karşıtlığı imanı açık alımlayış olarak derinleştirir; yalın önermesel tasdik ihtimali yaşamaya devam eder. Bağlam kelime çözümlemesi ve bilinmeyen dalların gloss/facetleri verilmediği için bu rolleri atfedilmiş kanıtın ötesine taşımıyorum.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "31:6–7 Arapçası, HFT'nin verdiği kelime indeksleri ve kök rolleriyle yüzeyde eşleşiyor; 31:8 odak kelimelerinin köprü hizalaması tam. HFT kimliği legacy_unbound ve bağlam morfolojisi yok, bu yüzden çözümleyiciler atfedilmiş tutuluyor."
+      },
+      "support_ids": [
+        "sup_1efb5120dbccfe438fe3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:3:1"
+          ],
+          "trigger_refs": [
+            "31:6",
+            "31:7"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1"
+          ],
+          "carrier": "31:8:3:1’deki ءَامَنُوا۟, bir haber, söz veya hakikati doğru kabul etme çekirdeğini taşır.",
+          "independent_trigger": "31:6’da söylemin insanı yoldan saptırması; 31:7’de ayetlerin okunmasına yüz çevrilip sanki işitilmemesi ve kulakta ağırlık bulunması.",
+          "activation": "Kabul taşıyıcısı, önündeki dikkat dağıtma ve kapalı işitme sahnesine zıt bir alımlayış olarak temas eder; HFT'nin rolü bunu kalbi yatıştıran tasdik diye tarif eder.",
+          "resulting_reading": "İman, kapalı işitmeye karşılık gelen açık tasdik ve kabul olarak görünür.",
+          "boundary": "Bu bağlam tasdiki keskinleştirir; onun yalnız işitme anlamına geldiğini ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "31:8:4:2"
+          ],
+          "trigger_refs": [
+            "31:6",
+            "31:7",
+            "31:8:3:1"
+          ],
+          "focus_return_refs": [
+            "31:8:4:2"
+          ],
+          "carrier": "31:8:4:2’deki عَمِلُوا۟, yapanın bilerek ortaya koyduğu eylemi taşır.",
+          "independent_trigger": "31:6–7’deki yön değiştirme, yüz çevirme ve işitmeme karşısında odak cümlede imanla birlikte amel fiilinin de bulunması.",
+          "activation": "HFT rolü, amaçlı eylemi alımlamanın davranışa geçtiği yer olarak konumlandırır; kapanmış dinleme sahnesi ile odak fiilinin birlikteliği kabulü etkin yanıta taşır.",
+          "resulting_reading": "Amel, imanın yanındaki ikinci bir işaret olmanın yanında kabulün davranışta görünmesi olarak da duyulur.",
+          "boundary": "Bilerek yapılan iş anlamı korunur; odak cümle, yalnızca dinlemenin bütün içeriği olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_001382/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:6"
+          ],
+          "trigger_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "carrier": "31:6’da 5. kelime olarak verilen لَهْوَ; kök ve dal kimliği, HFT izinde dikkat dağıtan söylem rolüyle atfediliyor.",
+          "independent_trigger": "31:8’de iman ve bilerek yapılan iş kelimeleri, dikkatin başka yöne çekilmesinin karşısında duran odak taşıyıcılarıdır.",
+          "activation": "HFT rolü, bu söylemle dikkatin yön değiştirmesini alımlamanın ilk engeli sayar; odaktaki kabul ve eylem bu engelin karşısına döner.",
+          "resulting_reading": "İmanlı yanıt, dikkat dağıtma karşısında yönünü koruyan alımlayış olarak belirir.",
+          "boundary": "Bağımsız dal glossu verilmedi; dikkat dağıtma rolü HFT'ye atfedilmiş kalır."
+        },
+        {
+          "branch_ref": "root_001684/B007",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:7"
+          ],
+          "trigger_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "carrier": "31:7’de 5. kelime olarak verilen وَلَّىٰ; HFT izi bunu iradeli yüz çevirme rolüyle ilişkilendiriyor.",
+          "independent_trigger": "31:8’deki iman ve amaçlı eylem, yüz çevirmenin ters yönünde duran odak kelimeleridir.",
+          "activation": "Atfedilen yüz çevirme, odaktaki inançla karşılaşınca yönelimin iradi tarafını görünür kılar; kabul, sırt çevirmeye karşılık gelen bir yön tutma olur.",
+          "resulting_reading": "İman, yalnız bir iç durum değil, dikkatini verilen bildirime açık tutan bir yöneliş olarak okunur.",
+          "boundary": "İrade ve dal tanımı HFT rolünün sınırında kalır; bağımsız lexicon glossu yoktur."
+        },
+        {
+          "branch_ref": "root_000741/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:7"
+          ],
+          "trigger_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "carrier": "31:7’de 9. kelime olarak verilen يَسْمَعُهَا; HFT rolü bunu anlamaya ve uyuma ulaşan işitme diye atfediyor.",
+          "independent_trigger": "Odak iman ve amel kelimeleri, HFT izinin işitmenin uyuma varan işlevi dediği noktaya döner.",
+          "activation": "İşitme rolünün reddedildiği sahne, odak iman ve eylemle buluşunca alımlamanın kabulden davranışa uzanan biçimi belirginleşir.",
+          "resulting_reading": "Açık işitme, kabulün uyuma ve amele ulaşması olarak da okunur.",
+          "boundary": "İşitmenin uyum anlamı bağımsız bir lexicon kaydı değil, HFT'ye atfedilen roldür."
+        },
+        {
+          "branch_ref": "root_001674/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "31:7"
+          ],
+          "trigger_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "focus_return_refs": [
+            "31:8:3:1",
+            "31:8:4:2"
+          ],
+          "carrier": "31:7’de 13. kelime olarak verilen وَقْرٌ; HFT izi kulaktaki ağırlığı işitmenin önündeki engel rolünde sunuyor.",
+          "independent_trigger": "31:8’deki iman ve eylem kelimeleri, blokajın kalktığı alımlama yönüne döner.",
+          "activation": "Kulak ağırlığı imgesi, odak kelimelerin karşısında alımlamanın nasıl tıkandığını maddileştirir; iman ve amel bu tıkanmanın açıldığı yanıta dönüşür.",
+          "resulting_reading": "İman, engellenmemiş alımlamanın amaçlı eyleme varması olarak görünür.",
+          "boundary": "Bu engel okuması HFT rolüyle sınırlıdır; bağımsız dal glossu veya morfoloji ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_327fb231c67389eac075",
+        "conn_8d24e260071612c92c05"
+      ],
+      "context_refs": [
+        "31:6",
+        "31:7"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Odak kelime hizalaması tamdır (10/10); makro bağlamdaki 31:3–7 ve 31:9 ayetleri ise Arapça/ayet düzeyinde sağlanmış, hedef morfolojileri verilmemiştir. HFT'nin 31:3–7 kök, kelime indeksi ve rolleri ile 31:9 kalıcılık taşıyıcısı bu nedenle atfedilmiş tutuldu. Pakette ayrı semantic_obligations nesneleri veya obligation kimlikleri bulunmadığından ilgili ref dizileri boş; HFT rolleri ile her kaynağın önce/sonra değişimi bulguların içinde tek tek korundu."
+  ]
+}

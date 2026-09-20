@@ -1,0 +1,767 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:5",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_b2879eb7bf2bb734c6e6",
+      "decision": "narrow",
+      "reason": "Tutulacak okuma, evlerin arasina ve yerlesimin ic baglantilarina ulasan nufuzdur. 59:2 ve 16:26 bu iceriye ulasma/korunan yapinin aciga cikmasi bagini genisletir; onceki bozulmayla dogrudan nedensellik kurulmaz. Ayakla basip ezme ve cevreleme dallari icin bagimsiz tetikleyici yoktur.",
+      "finding_refs": ["global:interior-structure"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000277/B003", "reason": "Bu dal fiziksel olarak ayakla basip ezmeyi gerektirir; verilen odak ve baglamlar ayak basma degil evlere girme ve yapiya nufuz etmeyi gosterir."},
+        {"branch_ref": "root_000499/B001", "reason": "Diyār burada yerlesim/ev anlamindadir; fiziksel donme veya cevreleme tetikleyicisi yoktur."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9b3b09b82ecdc78e2b52",
+      "decision": "narrow",
+      "reason": "Vaadin zamaninin gelmesi ve sozun fiilen yerine gelmesi korunur. Gelecek belirti/semptom dalini odak, gelecege dair belirtilerle degil acik vaad ve gerceklesmis eylemle kuruyor.",
+      "finding_refs": ["global:promise-enacted"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001662/B006", "reason": "Bu dal simdiki belirtilerden gelecekteki durumu cikarsamayi gerektirir; odakta vaadin ve gerceklesen eylemin acik ifadesi vardir."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c5c78d4aa9769d55d240",
+      "decision": "narrow",
+      "reason": "Odaktaki iceriye giris ve araliklar uzerinden gecis, daha sonraki yurdundan etme baglamiyla sinirli bicimde baglanabilir. 17:73-75 yuzeyleri pakette sunulmadigi ve 17:4'e dayali nedensel halka odak kanitiyla kurulmadigi icin bu kisimlar alinmiyor; d-w-r donme/cevreleme dali da konut bicimiyle uyusmuyor.",
+      "finding_refs": ["global:territorial-displacement"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000499/B001", "reason": "Odaktaki diyār yerlesim adidir; donme ya da cevreleme eylemi yoktur."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:73", "reason": "Ayetin metni ve odakla bagini kuracak somut tetikleyici bu pakette verilmemistir."},
+        {"context_ref": "17:74", "reason": "Ayetin metni ve odakla bagini kuracak somut tetikleyici bu pakette verilmemistir."},
+        {"context_ref": "17:75", "reason": "Ayetin metni ve odakla bagini kuracak somut tetikleyici bu pakette verilmemistir."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6e751b47afab86e35b22",
+      "decision": "represented",
+      "reason": "Bu aday, odaktaki tehdidin belirlenmis vakitte gerceklesmis olaya donusmesi acisindan global:promise-enacted bulgusundaki ayni okumanin tekraridir.",
+      "finding_refs": ["global:promise-enacted"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c66aff7f300217201690",
+      "decision": "reject",
+      "reason": "Arkadaslik/yakinlik dali icin sosyal iliskiyi gosteren bagimsiz bir tetikleyici gerekir. Odak khilāla sozu yerel aralik/icisinden gecis baglamindadir; atif yapilan 17:73 metni de bu pakette yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000435/B003", "reason": "Odakta sosyal yakinlik veya dostluk iliskisi kurulmamaktadir."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:73", "reason": "Yakinlik okumasini bagimsiz olarak destekleyecek ayet metni pakette sunulmamistir."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_787adbb6e8d1f360ae1f",
+      "decision": "accept",
+      "reason": "Focus jāsū icin inceden inceye arama dali, 17:7'de yinelenen giris/yikim ve 17:58'de kentler hakkindaki genis kayitla birlikte, askeri eylemi baska bir eyleme cevirmeden kapsamli iceriye ulasma cikarimini destekler. Kayit/audit iddiasi bu bulguda ileri surulmez.",
+      "finding_refs": ["global:penetrating-search"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0ff03025ab304c370ed9",
+      "decision": "represented",
+      "reason": "17:7'de yinelenen giris ve yikimdan kapsamli iceriye ulasma cikarimi, global:penetrating-search bulgusundaki ayni okumanin tekraridir.",
+      "finding_refs": ["global:penetrating-search"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9d82d9fcc7a56e7d00e0",
+      "decision": "represented",
+      "reason": "'Bizim kullarimiz' ifadesinin ilahi aidiyet/komisyonu gosterip tam ahlaki profili tek basina belirlememesi, global:servitude-and-profile bulgusundaki ayni sinirli okumadir.",
+      "finding_refs": ["global:servitude-and-profile"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ee190b4d24b709ddb11f",
+      "decision": "accept",
+      "reason": "Kapsamli arama okumasina iliskin audit sorusu, 17:58'deki kent capinda yazili kaydin sagladigi sinirli baglanti olarak korunur; odaktaki askeri eylemin adli sorusturma oldugu ileri surulmez.",
+      "finding_refs": ["global:bounded-audit"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1bd81208af5ef2ae5ef9",
+      "decision": "reject",
+      "reason": "Pakette split_root_mappings bos ve odak icin bu sayim/alternasyon iddiasini tasiyan bir iz ya da dal eslemesi yoktur; formal tekrar iddiasi bagimsiz olarak kurulamiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5139ac348a9a517eb7e8",
+      "decision": "reject",
+      "reason": "17:16 baglam listesinde bulunsa da ayet metni, odakla iliskisi veya aday iddiasini tasiyan iz pakette yoktur; kent yikimini ilk vaadin dogrudan aciklamasi saymak temelsiz kalir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:16", "reason": "Metin ve baglanti kaniti sunulmadigi icin ilk vaadin aciklayici baglami olarak kullanilmiyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e71bd704bb8e668e9bf3",
+      "decision": "narrow",
+      "reason": "17:5'te ilahi gonderme ile 7:103'te Musa'nin Firavun'a gonderilmesi, zalimlik ve bozguncularin akibeti arasinda sinirli bir komisyon/hesap verme motifi kurar. Bu, odagin onceki belirli bir hukme karsi yanit oldugunu kanitlamaz.",
+      "finding_refs": ["global:commissioned-response"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:4", "reason": "Onceki hukmun tam yuzeyi ve bu olayla nedensel baglantisi pakette sunulmadigindan ozel 'karsi kuvvet' iddiasi disarida birakildi."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0fb132131bb42766cf2f",
+      "decision": "reject",
+      "reason": "Karsilikli dongunun ilk mekansal safhasi ve daha sonraki mabet girisi arasinda odaga baglanan iz, dal ya da tam metin kaniti yoktur; unbound ozet bu global aktivasyonu tek basina kuramaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:7", "reason": "17:7'nin odaktaki bir eylemi sonraki mabet girisine baglayan tam yuzeyi veya rolu verilmemistir."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_03b82dc8bf6334258e54",
+      "decision": "accept",
+      "reason": "Odaktaki 'bizim kullarimiz' aidiyet/komisyonu gosterir, fakat 38:45'te ayni ilahi aidiyet ifadesine ek niteleyiciler eslik eder. Bu, odak grubunun tam ahlaki profilinin yalniz isimden cikarilamayacagini destekler; ilahi onay reddedilmez.",
+      "finding_refs": ["global:servitude-and-profile"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a18a2321edaa9a647b24",
+      "decision": "reject",
+      "reason": "Odak icin ankraj veya iz yoktur. 17:58 kent capinda yikim/ceza kaydi sunar; bireysel sicil veya kisiler arasi devredilemez yukumluluk iddiasini desteklemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:58", "reason": "Kent capindaki toplu kayit, bu adayin bireysel dosya ve devredilemez sorumluluk sonucunu tasimaz."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2903f1b56ad84e11577e",
+      "decision": "narrow",
+      "reason": "Zamanlanmis vaadin gonderilmis guc araciligiyla evlerin aralarina kadar gerceklesmesi bir butun okuma olarak korunur. Sayimli/alternatif kok eslesmesi yoktur; audit ve yapisal yarilma da bu butun okumanin zorunlu anlami degildir ve ayri, daha sinirli bulgularda degerlendirilir.",
+      "finding_refs": ["global:promise-through-space"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:7", "reason": "Sayimli dongu veya odaga geri besleme kuracak tam metin/iz kaniti yoktur."},
+        {"context_ref": "17:58", "reason": "Bu baglam yalniz sinirli kent kaydi rezonansini destekler; butunlesik vaat-mekanizma bulgusunun zorunlu parcasi degildir."}
+      ],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:interior-structure",
+      "origin_candidate_id": "cand_b2879eb7bf2bb734c6e6",
+      "represented_candidate_ids": [],
+      "title": "Evlere kadar nufuz ve yapisal aciga cikis",
+      "claim": "17:5'teki giris, yalniz yerlesimin dis sinirini asmayip evlerin aralarina kadar ulasir. 59:2'de korundugu sanilan kaleler ve yerlesim, beklenmedik giris ve yikimla; 16:26'da ise temel ve cati imgeleriyle yapinin icten aciga cikmasi baglamini genisletir.",
+      "mechanism": "jāsū'nun iceri ilerleme anlami khilāla'nin aralik/ara bolge ifadesiyle birlikte okunur. Sonraki yerlesim ve yapi ornekleri, yerel mekansal eyleme yapisal maruziyet rezonansi ekler.",
+      "reader_payoff": "Sahne, salt disariya ulasan bir saldiri degil, yerlesimin ic baglantilarina kadar varan bir nufuz olarak kavranir.",
+      "containment": "Bu okuma 17:4'teki bozulmayla dogrudan nedensellik kurmaz; jāsū'yu yikimla esitlemez ve khilāla'yi sozluk anlamiyla yapisal kusur ilan etmez. Ayrintili arama, korunan yapilara giris baglaminda ikincil ve sinirli bir cikarimdir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Odak ve yayinlanmis destek ic mekansal nufuzu tasir; daha genis yapisal sonuc, baglantili ayetlerle sinirli baglamsal cikarim olarak tutulmustur."
+      },
+      "support_ids": ["sup_26fd417a0f8ae8120ed0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000277/B001",
+          "facet_id": "F001",
+          "branch_gloss": "aralara girip içeride dolaşma",
+          "facet_statement": "Bir şeyin aralıklarına girip onun içinde ilerleme ve dolaşma hareketidir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:12:2"],
+          "trigger_refs": ["59:2", "16:26"],
+          "focus_return_refs": ["17:5:12:2"],
+          "carrier": "Odaktaki jāsū eylemi savasci gucun evlerin arasina girisini tasir.",
+          "independent_trigger": "59:2'de koruyucu sanilan kale ve yerlesimin beklenmedik giris sonrasi dusmesi; 16:26'da temeller ve cati uzerinden yapi butunlugunun aciga cikmasi, iceri ulasma bagini bagimsiz olarak genisletir.",
+          "activation": "Odak eylemi, savunulan/kurulu yerlesimin ic bolumlerine kadar ilerleme olarak okunur.",
+          "resulting_reading": "Cezalandirici giris, evlerin arasina ve yerlesimin ic baglantilarina kadar nufuz eder.",
+          "boundary": "Baglamlar yapisal maruziyet rezonansi saglar; odak fiili tek basina kale yikimi veya onceki toplumun bozulmasina dair nedensel aciklama anlamina gelmez."
+        },
+        {
+          "branch_ref": "root_000277/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi inceden inceye arama",
+          "facet_statement": "Bir şeyi bulmak amacıyla kapsamlı ve dikkatli biçimde arama eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:12:2"],
+          "trigger_refs": ["59:2"],
+          "focus_return_refs": ["17:5:12:2"],
+          "carrier": "jāsū kokunun arama/dolasma dalina elverisli odak eylemidir.",
+          "independent_trigger": "59:2'de korunma sagladigi sanilan kalelerin beklenmedik girisle asilip yerlesimin icinin aciga cikmasi, kapsamli iceriye ulasma cikarimina baglamsal tetikleyici olur.",
+          "activation": "Iceri girisin korunan bolumlere kadar uzanmasi, dikkatli ve kapsamli bir iceri arama gibi ikincil bir cikarima izin verir.",
+          "resulting_reading": "Eylem, yerlesimin sakli/korunmus kisimlarina kadar uzanan bir ic nufuz olarak belirginlesir.",
+          "boundary": "Bu, baglamsal ve ikincil bir arama rezonansidir; ayri bir adli sorusturma, audit amaci veya focus fiilinin tek zorunlu anlami degildir."
+        },
+        {
+          "branch_ref": "root_000435/B001",
+          "facet_id": "F001",
+          "branch_gloss": "aralık ve aradan geçen açıklık",
+          "facet_statement": "İki nesne veya bölüm arasında bir açıklık ya da ara bölge bulunur.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:13:1"],
+          "trigger_refs": ["17:5:12:2", "59:2"],
+          "focus_return_refs": ["17:5:13:1"],
+          "carrier": "khilāla, odakta evlerin arasindaki gecis/aralik iliskisini belirtir.",
+          "independent_trigger": "Ayni odaktaki giris eylemi ve 59:2'deki tahkim edilmis yerlesimin icine ulasma, aralik/ara bolge okumasini somutlar.",
+          "activation": "Aralik sozu, savasci gucun evler arasindaki gecis yolunu ifade eder.",
+          "resulting_reading": "Nufuz, yerlesimin icindeki ara bolgeler boyunca ilerler.",
+          "boundary": "Bu, mekansal aralik anlamidir; sosyal yakinlik veya soyut bozukluk iddiasi degildir."
+        },
+        {
+          "branch_ref": "root_000435/B010",
+          "facet_id": "F001",
+          "branch_gloss": "işleyişi aksatan zayıflık ve bozukluk",
+          "facet_statement": "Bir iş, düzen veya görüş sağlamlığını kaybederek zayıflar ya da bozulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:13:1"],
+          "trigger_refs": ["16:26", "59:2"],
+          "focus_return_refs": ["17:5:13:1"],
+          "carrier": "Odaktaki khilāla aralik ifadesi, yapi ici gecis ve baglanti iliskisini saglar.",
+          "independent_trigger": "16:26'da temellerin ve catinin cokus imgeleri, 59:2'de ise kale/yerlesim guvenliginin dagilmasi yapisal zayiflik rezonansini verir.",
+          "activation": "Mekansal araliklar, baglamda saglam sanilan duzenin aciga cikan zayifligiyla yan yana okunur.",
+          "resulting_reading": "Ic nufuz, yerlesimin yapisal savunmasizliginin gorunur hale gelmesiyle sonuclanir.",
+          "boundary": "Odaktaki khilāla sozu 'bozukluk' anlamina indirgenmez; yapisal kusur baglamsal bir benzetimdir."
+        }
+      ],
+      "connection_refs": ["conn_29403cdff3c14734d7d6", "conn_d7af30e3acd87c687b11"],
+      "context_refs": ["16:26", "59:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:promise-enacted",
+      "origin_candidate_id": "cand_9b3b09b82ecdc78e2b52",
+      "represented_candidate_ids": ["cand_6e751b47afab86e35b22"],
+      "title": "Vaat, vakit ve fiile donusme",
+      "claim": "17:5 vaadi gelecege dair belirti olarak degil, vakti geldiginde gerceklesen ve acikca yerine getirilmis sayilan bir soz olarak kurar. 17:104 ayni anlatidaki daha sonraki vaadin vaktine, 17:108 ise vaadin yerine getirilmis olmasina doner.",
+      "mechanism": "Odaktaki waʿd/waʿdan, zaman belirten idhā-jaʾa yapisi ve mafʿūlan 'yapilmis' sonucu bir araya gelir. 17:64'te seytanin vaadinin aldatma olmasi, sozun kendisinin otomatik dogruluk garantisi olmadigini sinirlar.",
+      "reader_payoff": "Okur, tehdidin soyut bir gelecek alameti degil, belirlenmis vakitte olaya donusen bir soz oldugunu izler.",
+      "containment": "17:64'teki seytani vaat ile ilahi vaat ayni konusana veya guvenilirlik duzeyine indirgenmez. Odaktaki vaat dalgasi belirti/semptom dali degildir.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Odak sozcuk hizalamasi ile 17:104 ve 17:108'deki acik tekrar/gerceklesme formulu birbirini dogrudan destekler."
+      },
+      "support_ids": ["sup_6ff63b8c4d6f812337c8"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001662/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iyi ya da kötü bir şeyi yapacağını sözle bildirme",
+          "facet_statement": "Gelecekte iyi ya da kötü bir şey yapılacağı bir kişiye sözle bildirilir ve onda gerçekleşme beklentisi doğar.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:3:1"],
+          "trigger_refs": ["17:64", "17:108"],
+          "focus_return_refs": ["17:5:3:1"],
+          "carrier": "Odaktaki waʿd, gerceklesmesi beklenen bir soz/vaat adidir.",
+          "independent_trigger": "17:64 seytanin vaadini aldatma diye nitelerken 17:108 Rabbin vaadini gerceklesmis diye adlandirir; iki baglam sozun konusana gore niteligini bagimsiz bicimde sinirlar.",
+          "activation": "Vaat anlami korunur, fakat gerceklesme guvencesi yalnizca 'vaat' sozcugunden degil anlatidaki konusan ve sonuc iliskisinden gelir.",
+          "resulting_reading": "17:5'teki vaat, sonucu olayla dogrulanan ilahi sozdur.",
+          "boundary": "Seytanin aldatma vaadi ilahi vaatle bir tutulmaz; genel vaat dali tek basina gerceklesme garantisi vermez."
+        },
+        {
+          "branch_ref": "root_001662/B002",
+          "facet_id": "F001",
+          "branch_gloss": "kötülük yapacağını söyleyerek gözdağı verme",
+          "facet_statement": "Muhataba gelecekte kötülük veya zarar yapılacağı bildirilerek gözdağı verilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:3:1"],
+          "trigger_refs": ["17:5:12:2", "59:2"],
+          "focus_return_refs": ["17:5:3:1"],
+          "carrier": "Waʿd sozu, hemen ardindan gelen gonderilme ve evlere giris eylemleriyle odakta tasinir.",
+          "independent_trigger": "59:2'de yerlesimden cikarma, korku ve yikim sonucu, zararin gerceklesen tehdit boyutunu bagimsiz bicimde belirginlestirir.",
+          "activation": "Soz, sonraki askeri giris ve yerlesim zarariyla tehdit/gözdagi niteliginde okunabilir.",
+          "resulting_reading": "Vaat, vakti geldiginde zararli bir eylemle yerine getirilen tehdit olarak belirir.",
+          "boundary": "59:2 ayni olay dizisinin kaniti degil, sinirli karsilastirmali tetikleyicidir; odak fiilleri salt tehdit sozune indirgenmez."
+        },
+        {
+          "branch_ref": "root_001662/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir söz için belirlenmiş zaman ya da yer",
+          "facet_statement": "Bir sözün veya karşılıklı anlaşmanın gerçekleşmesi için belirli bir zaman gösterilir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:3:1", "17:5:1:2", "17:5:2:1"],
+          "trigger_refs": ["17:104"],
+          "focus_return_refs": ["17:5:3:1"],
+          "carrier": "Waʿd, idhā-jaʾa zaman yapisiyla belirli bir gelis anina baglanir.",
+          "independent_trigger": "17:104 daha sonraki vaadin gelis vaktini ayni Israel anlatisi icinde yeniden adlandirir.",
+          "activation": "Vaadin gerceklesmesi soyut bir gelecek degil, vakti geldiginde olusan bir olay olarak verilir.",
+          "resulting_reading": "Ilk vaat belirlenmis bir zaman ufkunda gerceklesir; sonraki vaat de ayni anlatida zamanlanir.",
+          "boundary": "Daha sonraki vaat ilk olayla aynilastirilmaz; tekrar, anlatidaki zaman motifini destekler."
+        },
+        {
+          "branch_ref": "root_001167/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi yapıp etkileme",
+          "facet_statement": "Çekirdek, iş veya başka bir şey türünden bir olayı ortaya çıkarma ve gerçekleştirmedir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:16:1", "17:5:17:1"],
+          "trigger_refs": ["17:108"],
+          "focus_return_refs": ["17:5:17:1"],
+          "carrier": "Waʿdan ile mafʿūlan bir arada, vaadin yapilmis/gerceklestirilmis oldugunu soyler.",
+          "independent_trigger": "17:108 ayni 'Rabbimizin vaadi mutlaka yerine getirilmis' formuluyle gerceklesme okumasini bagimsiz olarak yineler.",
+          "activation": "Vaat, sozel bildirim olmaktan cikarak meydana gelmis eyleme donusur.",
+          "resulting_reading": "Odaktaki olay, acikca yerine getirilmis vaat olarak sunulur.",
+          "boundary": "Gerceklesme formulu, olaylarin tum ayrintilarini veya 17:5'in tarihsel kimligini tek basina belirlemez."
+        }
+      ],
+      "connection_refs": ["conn_29403cdff3c14734d7d6", "conn_6f5f4d0e3681abbe3a64", "conn_6fc905d82c0c0fe9134e", "conn_bbac0574a0f7aa599da8"],
+      "context_refs": ["17:64", "17:104", "17:108", "59:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:territorial-displacement",
+      "origin_candidate_id": "cand_c5c78d4aa9769d55d240",
+      "represented_candidate_ids": [],
+      "title": "Evlerin arasindan yurda uzanan nufuz",
+      "claim": "17:5'teki evler arasina giris, yurtlarindan cikarma tehdidinin acikca gectigi 17:76 ve 59:2'deki diyār/yerlesim kaybiyla sinirli bir mekansal cizgide okunabilir. Odaktaki diyār konut/yerlesimdir; sonraki baglamda yer ve yurt anlamina genisleme baglamsaldir.",
+      "mechanism": "jāsū ve khilāla odakta ic gecis yolunu kurar; diyār'in konut anlami, daha sonraki yurt/ulke kaybi baglamiyla mekansal olarak genisler.",
+      "reader_payoff": "Evlerin arasina ulasan sahne, daha sonraki yerinden etme tehdidiyle mekansal bir yankiya kavusur.",
+      "containment": "Bu, iki baglam arasinda sinirli bir mekansal rezonanstir; onceki bozulmanin bu tahliyeye dogrudan neden oldugu veya 17:73-75'in aday anlatimini dogruladigi ileri surulmez. Odaktaki diyār donme/cevreleme anlaminda degildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Legacy destek yeniden focus sozcuklerine ve 17:76/59:2'deki acik yerlesim kaybi ifadelerine baglanmistir; nedensel ve tarihsel ayrintilar kapsam disidir."
+      },
+      "support_ids": ["sup_c3ab45f41b9edcbac747"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000277/B001",
+          "facet_id": "F001",
+          "branch_gloss": "aralara girip içeride dolaşma",
+          "facet_statement": "Bir şeyin aralıklarına girip onun içinde ilerleme ve dolaşma hareketidir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:12:2"],
+          "trigger_refs": ["17:76", "59:2"],
+          "focus_return_refs": ["17:5:12:2"],
+          "carrier": "jāsū savasci gucun evlerin arasina girip ilerlemesini belirtir.",
+          "independent_trigger": "17:76'da muhatabi yerinden/ulkesinden cikarma girisimi, 59:2'de ise halkin diyārindan cikarilmasi acik mekansal yer kaybi tetikleyicisidir.",
+          "activation": "Odaktaki iceriye giris, daha sonraki yerlesimden cikarma motifine mekansal bir on-hazirlik olarak baglanir.",
+          "resulting_reading": "Evler arasindaki nufuz, daha sonra ulke/yurt kaybiyla yankilanan bir yerlesim cizgisine oturur.",
+          "boundary": "Sonraki ayetler odaktaki eylemin dogrudan nedeni veya ayni olay oldugunu kanitlamaz."
+        },
+        {
+          "branch_ref": "root_000435/B001",
+          "facet_id": "F001",
+          "branch_gloss": "aralık ve aradan geçen açıklık",
+          "facet_statement": "İki nesne veya bölüm arasında bir açıklık ya da ara bölge bulunur.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:13:1"],
+          "trigger_refs": ["17:5:12:2", "17:76"],
+          "focus_return_refs": ["17:5:13:1"],
+          "carrier": "khilāla odakta evlerin arasindaki gecis/ara bolgeyi tasir.",
+          "independent_trigger": "jāsū'nun bu araliklardan gecisi ve 17:76'daki yurdundan cikarma tehdidi, mekansal gecis ile yer kaybi arasinda bagimsiz bag kurar.",
+          "activation": "Evler arasindaki ara bolgeler, daha genis yer degistirme sahnesinin mekansal baglanti noktalaridir.",
+          "resulting_reading": "Nufuz yerlesimin ic gecislerinde ilerler; sonraki yer kaybi bu mekansal hareketi genisletir.",
+          "boundary": "Aralik sozu sosyal yakinlik veya yapisal bozukluk anlamina cekilmez."
+        },
+        {
+          "branch_ref": "root_000499/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yerleşilen yer ve yurt",
+          "facet_statement": "İnsanların içinde yaşadığı yapı, arsa ve yakın çevresinden oluşan yerleşim birimidir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:14:2"],
+          "trigger_refs": ["59:2", "17:76"],
+          "focus_return_refs": ["17:5:14:2"],
+          "carrier": "Odaktaki diyār, icinde yasanan evleri/yerlesimi adlandirir.",
+          "independent_trigger": "59:2'de halkin diyārindan cikarilmasi ve 17:76'da ulkeden uzaklastirma girisimi, yerlesim ve yurt alanini bagimsiz olarak acar.",
+          "activation": "Konut/yerlesim anlami, sonraki yerinden etme baglamiyla somutlanir.",
+          "resulting_reading": "Diyār, odakta evler ve yerlesim; daha genis baglamda toplulugun yurdu olarak yankilanir.",
+          "boundary": "Odak bicimi dogrudan ulke veya siyasi sinir demek degildir; genisleme sonraki baglamdan gelir."
+        },
+        {
+          "branch_ref": "root_000499/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yerleşilen yer ve yurt",
+          "facet_statement": "Konut anlamı, beldeye, bölgeye ve bir topluluğun yurduna kadar genişler.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:14:2"],
+          "trigger_refs": ["59:2", "17:76"],
+          "focus_return_refs": ["17:5:14:2"],
+          "carrier": "Odaktaki diyār konut/yerlesim cekirdegini tasir.",
+          "independent_trigger": "Diyārdan cikarma ve ulkeden uzaklastirma ifadeleri, konut anlaminin topluluk yurduna genislemesi icin bagimsiz baglam saglar.",
+          "activation": "Yerlesim cekirdegi, yurdundan edilme baglaminda daha genis bolge/yurt anlamina ulasir.",
+          "resulting_reading": "Evler arasina girisle acilan mekansal alan, toplulugun yurdundan cikarma tehdidine kadar yankilanir.",
+          "boundary": "Bu genisleme F001 konut/yerlesim cekirdegi uzerine kurulur; odaktaki sozcuk tek basina ulke siniri veya siyasi egemenlik bildirmez."
+        }
+      ],
+      "connection_refs": ["conn_29403cdff3c14734d7d6", "conn_3c0e39f6a03c40153875"],
+      "context_refs": ["17:76", "59:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:penetrating-search",
+      "origin_candidate_id": "cand_787adbb6e8d1f360ae1f",
+      "represented_candidate_ids": ["cand_0ff03025ab304c370ed9"],
+      "title": "Kapsamli ic arama cikarimi",
+      "claim": "jāsū icin kapsamli ve dikkatli arama dali, odaktaki girisle iliskili olarak ikincil bir okuma kazanir. 17:7'de giris/yikim eyleminin yinelenmesi ve 17:58'de kentlerin yikim veya agir cezayla anilip Kitap'ta kayda baglanmasi, tek bir eve degil genis kapsama ulasan iceri nufuz cikarimini destekler.",
+      "mechanism": "Odak fiilinin arama dali, sonraki tekrar ve kent capindaki yikim kaydiyla birlikte kapsamlilik cikarimina baglanir; khilāla yerlesim ici gecis yolunu verir.",
+      "reader_payoff": "Sahne, yalnizca bir noktaya giris degil, yerlesim icinde genis alana erisen bir tarama/nufuz olarak algilanir.",
+      "containment": "Bu cikarim odaktaki askeri eylemi ortadan kaldirmaz veya adli sorusturmaya cevirmez. 17:7'nin yinelenisi kapsami destekler; 17:58'in kaydi ayri ve sinirli bir audit rezonansidir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy"],
+        "reason": "Odak kok dali ve 17:58 baglantisi gorunur olsa da arama amacinin kapsamli tarama oldugu baglamsal/abduktif bir cikarimdir; legacy ozet tek basina kanit sayilmamistir."
+      },
+      "support_ids": ["sup_4234c16b24d282cc42c3", "sup_47c3196e0f570f7bb7b5"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000277/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi inceden inceye arama",
+          "facet_statement": "Bir şeyi bulmak amacıyla kapsamlı ve dikkatli biçimde arama eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:12:2"],
+          "trigger_refs": ["17:7", "17:58"],
+          "focus_return_refs": ["17:5:12:2"],
+          "carrier": "jāsū odakta yerlesim icine girip ilerleyen gucu tasir; kok dali kapsamli aramaya aciktir.",
+          "independent_trigger": "17:7'de giris/yikim eyleminin tekrari ve 17:58'de kentlerin toplu yikim/ceza kaydina baglanmasi, kapsamin tek bir konutla sinirli olmadigini destekler.",
+          "activation": "Tekrarlanan giris ve daha genis kent kapsami, arama dalini kapsamli ic nufuz cikarimi olarak etkinlestirir.",
+          "resulting_reading": "Savasci gucun hareketi, yerlesimin ic kisimlarina kadar ulasan kapsamli bir tarama gibi okunabilir.",
+          "boundary": "17:7 burada legacy ozetin bildirdigi tekrar olarak kullanilir; odak fiili bir denetim/hesap araci haline gelmez ve arama amaci kesin tarihsel olgu sayilmaz."
+        },
+        {
+          "branch_ref": "root_000435/B001",
+          "facet_id": "F001",
+          "branch_gloss": "aralık ve aradan geçen açıklık",
+          "facet_statement": "İki nesne veya bölüm arasında bir açıklık ya da ara bölge bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:13:1"],
+          "trigger_refs": ["17:7", "17:58"],
+          "focus_return_refs": ["17:5:13:1"],
+          "carrier": "khilāla odakta evlerin arasindaki kanal/ara bolgeyi belirtir.",
+          "independent_trigger": "Yinelenen giris ve kent capindaki yikim kaydi, yerlesim ici gecislerin genis bir alanla iliskisini guclendirir.",
+          "activation": "Araliklar, kapsamli iceri nufuzun gectigi mekansal kanallar olarak okunur.",
+          "resulting_reading": "Evler arasindaki kanallar genis yerlesim ici hareketin parcalari olur.",
+          "boundary": "Bu mekansal baglanti sosyal yakinlik veya fiziksel yikim anlamini khilāla sozcugune yuklemez."
+        }
+      ],
+      "connection_refs": ["conn_4ff42eb20b79311a4e4a"],
+      "context_refs": ["17:7", "17:58"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:bounded-audit",
+      "origin_candidate_id": "cand_ee190b4d24b709ddb11f",
+      "represented_candidate_ids": [],
+      "title": "Kayit baglaminin siniri",
+      "claim": "17:58'de kentlerin yikim veya agir cezaya ugramasinin Kitap'ta yazili oldugu belirtilir. Bu, odaktaki kapsamli ic nufuz okumasina sinirli bir kayit/hesap gorunumu ekler; askeri eylemin kendisinin audit veya adli arama oldugunu gostermez.",
+      "mechanism": "Odaktaki jāsū'nun kapsamli arama dali ile bagimsiz kent-capli yazili kayit baglami arasinda kontrollu rezonans kurulur.",
+      "reader_payoff": "Okur, olayin kapsamli etkilerinin daha genis bir kayit ufkunda anildigini fark ederken eylem turlerini karistirmaz.",
+      "containment": "17:58 bireysel dosya, sorusturma yontemi veya devredilemez kisi yuku sunmaz. Audit etkisi yalniz baglamsal, kent-capli ve odak eyleminden ayri tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "17:58'in kayit ifadesi aciktir, fakat bunu odaktaki arama dalina baglamak yorumlayici rezonanstir; HFT adayinin unbound durumu guvenilirlik kaniti olarak kullanilmamistir."
+      },
+      "support_ids": ["sup_bc7b82967a783a23c709"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000277/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi inceden inceye arama",
+          "facet_statement": "Bir şeyi bulmak amacıyla kapsamlı ve dikkatli biçimde arama eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:12:2"],
+          "trigger_refs": ["17:58"],
+          "focus_return_refs": ["17:5:12:2"],
+          "carrier": "jāsū arama/kapsamli dolasma dalina acik odak eylemidir.",
+          "independent_trigger": "17:58 kentleri yikim veya agir ceza ile birlikte Kitap'ta yazili kayda baglar.",
+          "activation": "Genis hareket alani ve daha sonraki kayit ufku, odak eylemine yalnizca sonuclarin kayda gecmesi duzeyinde bir audit rezonansi verir.",
+          "resulting_reading": "Odak sozcugun askeri ic nufuz anlami korunur; kayit boyutu yalnizca daha genis sonuclar baglaminda eklenir.",
+          "boundary": "Bu baglanti kapsamli aramanin adli arastirma oldugunu, bireysel sicil tutuldugunu veya odak eyleminin kayit amaciyla yapildigini kanitlamaz."
+        }
+      ],
+      "connection_refs": ["conn_4ff42eb20b79311a4e4a"],
+      "context_refs": ["17:58"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:servitude-and-profile",
+      "origin_candidate_id": "cand_03b82dc8bf6334258e54",
+      "represented_candidate_ids": ["cand_9d82d9fcc7a56e7d00e0"],
+      "title": "Aidiyet, gorev ve ahlaki profil",
+      "claim": "17:5'teki 'bizim kullarimiz' ilahi aidiyet/komisyonu kurar; fakat adlandirma tek basina grubun tam ahlaki profilini belirlemez. 38:45'te ayni aidiyet kalibi baska isimlerle birlikte ek niteleyiciler alir; profil bu nitelemelerle acilir.",
+      "mechanism": "Focus ʿibādan ifadesi ile 38:45'teki 'bizim kullarimiz' kullanimi karsilastirilir; aidiyet cekirdegi korunurken ahlaki niteleyicilerin ayri sozcuklerle verildigi gorulur.",
+      "reader_payoff": "Okur, ilahi baglilik/komisyon ile tum ahlaki ozelliklerin tek bir isimden cikarsanmasini birbirinden ayirir.",
+      "containment": "Bu sinirlama ilahi onayi veya odak grubunun olumlu profilini reddetmez; 'kullarimiz' ifadesinden onay yoklugu da cikarilmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Focus ve 38:45 baglantisi ifadeyi yeniden temellendirir; unbound HFT kayitlari yalnizca incelenmis aday ozetleridir, dogrudan ankraj yerine gecmez."
+      },
+      "support_ids": ["sup_683dbe64653cb77d676d", "sup_9c363b632b3a0a7a5bc0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000973/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrı'ya ait sayılan insan veya topluluk",
+          "facet_statement": "Her insan yaratılmışlık ve aitlik bakımından Tanrı'nın kulu sayılabilir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:7:1"],
+          "trigger_refs": ["38:45"],
+          "focus_return_refs": ["17:5:7:1"],
+          "carrier": "ʿibādan, odakta Tanri'ya ait/komisyon edilmis kullari adlandirir.",
+          "independent_trigger": "38:45 Ibrahim, Ishak ve Yakub'u 'bizim kullarimiz' diye adlandirip ardindan ayri niteleyiciler verir.",
+          "activation": "Ayni aidiyet cekirdeginin baska isimlere ve ek sifatlara eslik etmesi, adlandirmanin tek basina butun ahlaki profili kodlamadigini gosterir.",
+          "resulting_reading": "Odak terimi ilahi aidiyet ve gorev bagini tasir; grubun diger nitelikleri baglamdan belirlenir.",
+          "boundary": "Bu, odak kullarinin ahlaki profili hakkinda olumlu ya da olumsuz hukum degildir."
+        },
+        {
+          "branch_ref": "root_000973/B002",
+          "facet_id": "F002",
+          "branch_gloss": "Tanrı'ya ait sayılan insan veya topluluk",
+          "facet_statement": "Çoğul adlandırma, Tanrı'ya bağlı topluluğu veya onun tarafında bulunanları gösterebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:7:1"],
+          "trigger_refs": ["38:45"],
+          "focus_return_refs": ["17:5:7:1"],
+          "carrier": "Odaktaki cogul 'kullarimiz' ifadesi bir toplulugu ilahi aidiyetle adlandirir.",
+          "independent_trigger": "38:45'te ayni cogul aidiyet formulu birden fazla peygamber ismini kapsar ve ayrica el/gorme nitelemeleriyle tamamlanir.",
+          "activation": "Cogul adlandirma, ilahi tarafa ait bir topluluk anlamina acilir; tam profil ek nitelemelerden gelir.",
+          "resulting_reading": "Odak, gorevlendirilmis toplulugun aidiyetini belirtir ama her ozelligini tek basina listelemez.",
+          "boundary": "F002 genislemesi F001 aidiyet cekirdegine dayanir; olumlu profilin bulunmadigi veya reddedildigi sonucu cikmaz."
+        }
+      ],
+      "connection_refs": ["conn_87bd22883090aa947bc8"],
+      "context_refs": ["38:45"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:commissioned-response",
+      "origin_candidate_id": "cand_e71bd704bb8e668e9bf3",
+      "represented_candidate_ids": [],
+      "title": "Gonderilmis gorev ve bozguncularin akibeti",
+      "claim": "17:5'teki ilahi gonderme, 7:103'te Musa'nin Firavun'a gonderilmesi ve bozguncularin akibetinin anilmasiyla sinirli bir motif ortakligi kurar: ilahi gorevlendirme, haksizliga karsi eylem ve sonuc.",
+      "mechanism": "Focus baʿathna gonderme/yöneltme dalina dayanir; 7:103'teki gonderme ve bozgunculuk sonucu bagimsiz baglamsal tetikleyicidir.",
+      "reader_payoff": "Odaktaki gonderilmis gucun yalniz askeri hareket degil, daha genis bir ilahi gorev anlatiminda yer aldigi gorulebilir.",
+      "containment": "Bu benzerlik odagin 17:4'teki belirli hukme karsi kurulmus bir 'karsi kuvvet' oldugunu veya ayni aktor/tarih oldugunu kanitlamaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Her iki gonderme baglaminin yuzeyi mevcut olsa da aralarindaki motif ortakligi analogik/yorumlayicidir; HFT ozetindeki ozel nedensellik yeniden temellendirilmemistir."
+      },
+      "support_ids": ["sup_fb71cfc9dc1775535234"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000129/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gönderme veya yöneltme",
+          "facet_statement": "Bir gönderici, başka bir katılımcıyı belirli bir ihtiyaç, görev, yön veya hedef doğrultusunda yollar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:5:1"],
+          "trigger_refs": ["7:103"],
+          "focus_return_refs": ["17:5:5:1"],
+          "carrier": "baʿathna, odakta gonderilmis gucu belirli bir goreve sevk etmeyi ifade eder.",
+          "independent_trigger": "7:103'te Musa'nin Firavun'a gonderilmesi, zulmedenlerin ve bozguncularin akibetiyle ayni anlatimda baglanir.",
+          "activation": "Iki ayette ilahi gonderme, haksizliga yonelik eylem/sonuc motifiyle birlikte belirir.",
+          "resulting_reading": "Odaktaki gonderme, ilahi komisyon ve daha genis hesap verme motifine baglanabilir.",
+          "boundary": "Bu motif ortakligi ayni tarihsel olay, fail veya odagin onceki bir hukme karsi kasitli yanit oldugunu gostermez."
+        }
+      ],
+      "connection_refs": ["conn_f459a6c2616d37956774"],
+      "context_refs": ["7:103"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:dispatch-as-rousing",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Gonderme kokunde uyandirma yankisi",
+      "claim": "Odaktaki baʿathna gonderme eylemi, 36:52'de ayni kok ailesinin 'bizi kim kaldirdi/diriltti?' sorusuyla kullanimina uzak bir uyandirma yankisi kazanir. Bu, odaktaki savascilari dirilis aktorlerine donusturmez.",
+      "mechanism": "Kok ve etkin hale getirme fikri uzerinden iki farkli baglam arasinda sinirli analogik rezonans kurulur.",
+      "reader_payoff": "Okur, gonderme kokunun baska yerde uyandirma/diriltme baglamina acilabildigini fark ederken odaktaki askeri gondermeyi korur.",
+      "containment": "36:52 odaktaki eylemin anlami degildir; gonderilenler uyuyan/olmus sayilmaz ve 17:5 dirilis sahnesi olarak okunmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "Baglanti kaydi guven etiketi tasimaz ve kok yankisi analogiktir; odak morfolojisi ve baglam siniri acik tutulmustur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000129/B001",
+          "facet_id": "F001",
+          "branch_gloss": "durgun olanı harekete geçirme",
+          "facet_statement": "Dışarıdaki bir etken, durgun durumdaki varlığı uyararak etkin duruma geçirir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["17:5:5:1"],
+          "trigger_refs": ["36:52"],
+          "focus_return_refs": ["17:5:5:1"],
+          "carrier": "Odaktaki baʿathna, dissal gonderme ile varliklari harekete sevk eder.",
+          "independent_trigger": "36:52 ayni kok ailesini mezar/uyku yerinden kaldirilma sorusuyla kullanir ve ardindan vaadin gercekligini anar.",
+          "activation": "Kokun gonderme ile uyandirma arasindaki genisligi, yalnizca uzak bir cagrisim olarak etkinlesir.",
+          "resulting_reading": "Odaktaki askeri gonderme korunur; daha sonraki uyandirma kullanimi kok ailesine ek yankidir.",
+          "boundary": "Odak ayet dirilis veya mezardan kalkis anlatmaz; iki kullanim ayni olay ya da fail degildir."
+        }
+      ],
+      "connection_refs": ["conn_ba59230ad9c83087b364"],
+      "context_refs": ["36:52"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:promise-through-space",
+      "origin_candidate_id": "cand_2903f1b56ad84e11577e",
+      "represented_candidate_ids": [],
+      "title": "Vakitten mekansal gerceklesmeye",
+      "claim": "17:5, belirlenmis vakti gelen vaadi gonderilmis bir gucun evlerin arasina kadar ulasmasiyla somutlastirir. 17:104/108 vaadin daha sonraki gelis ve yerine gelme formullerini; 59:2 ve 16:26 ise ev, yerlesim ve yapi butunlugu etrafindaki mekansal savunmasizlik baglamlarini genisletir.",
+      "mechanism": "Vaat-zaman, ilahi gonderme, ic mekansal ilerleme ve yerine getirilmis eylem odakta birlestirilir; daha genis baglamlar bu dizinin zaman ve yapi boyutlarini ayri ayri yankilar.",
+      "reader_payoff": "Okur, vaat ile olay arasindaki gecisi soyut bir kehanetten ziyade zamanlanmis ve belirli bir mekanda gerceklesen eylem olarak izler.",
+      "containment": "Bu, sayimli/alternatif kok geri beslemesi degildir; split_root_mappings yoktur. 59:2 ve 16:26 ayni olay oldugunu kanitlamaz. Audit boyutu ayri ve sinirli tutulur; 17:4'e dayali ozel nedensellik kurulmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "HFT butunluk iddiasi focus QAC ve belirtilen baglantilarla yeniden temellendirilmis, unbound ozetin sayim/geri besleme iddialari disarida birakilmistir."
+      },
+      "support_ids": ["sup_1c54f447081dbc485e7e"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001662/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bir söz için belirlenmiş zaman ya da yer",
+          "facet_statement": "Bir sözün veya karşılıklı anlaşmanın gerçekleşmesi için belirli bir zaman gösterilir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:3:1", "17:5:1:2", "17:5:2:1"],
+          "trigger_refs": ["17:104"],
+          "focus_return_refs": ["17:5:3:1"],
+          "carrier": "Odaktaki waʿd, idhā-jaʾa yapisiyla bir gelis vaktine baglanir.",
+          "independent_trigger": "17:104 ayni Israilogullari anlatiminda daha sonraki vaadin gelis zamanini acikca anar.",
+          "activation": "Vaat ve belirlenmis vakit tek bir gerceklesme dizisi kurar.",
+          "resulting_reading": "Zamanlanan vaat, gonderme ve giris olayinin anlatidaki ufkunu belirler.",
+          "boundary": "Daha sonraki vaat ilk vaatle ayni olay sayilmaz; yalniz zaman motifini genisletir."
+        },
+        {
+          "branch_ref": "root_000129/B002",
+          "facet_id": "F001",
+          "branch_gloss": "gönderme veya yöneltme",
+          "facet_statement": "Bir gönderici, başka bir katılımcıyı belirli bir ihtiyaç, görev, yön veya hedef doğrultusunda yollar.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:5:1"],
+          "trigger_refs": ["7:103"],
+          "focus_return_refs": ["17:5:5:1"],
+          "carrier": "baʿathna ilahi gonderilmis gucu odaktaki olay dizisine sokar.",
+          "independent_trigger": "7:103'te Musa'nin Firavun'a gonderilmesi, haksizlik ve bozguncularin akibetiyle birlikte verilir.",
+          "activation": "Gonderme, vaat edilen sonucun olay haline gelmesini tasiyan gorevli eylem olarak okunur.",
+          "resulting_reading": "Vaat yalniz sozde kalmaz; gonderilmis aktorler araciligiyla mekanda gerceklesen eyleme baglanir.",
+          "boundary": "7:103 motif ortakligi verir, ayni aktor veya tarihsel olay oldugunu kanitlamaz."
+        },
+        {
+          "branch_ref": "root_000277/B001",
+          "facet_id": "F001",
+          "branch_gloss": "aralara girip içeride dolaşma",
+          "facet_statement": "Bir şeyin aralıklarına girip onun içinde ilerleme ve dolaşma hareketidir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:12:2"],
+          "trigger_refs": ["59:2", "16:26"],
+          "focus_return_refs": ["17:5:12:2"],
+          "carrier": "jāsū gonderilmis gucun evler arasinda ilerlemesini belirtir.",
+          "independent_trigger": "59:2'de yerlesim ve kalelerin icine ulasilmasi; 16:26'da temel/cati yapisinin aciga cikmasi mekansal nufuzla bagimsiz rezonans kurar.",
+          "activation": "Gonderme eyleminin mekansal sonucu, yerlesimin icine kadar ilerleyen bir giristir.",
+          "resulting_reading": "Vaat, evler arasinda gerceklesen somut nufuzla yerine gelir.",
+          "boundary": "Baglantili yapi ornekleri ayni tarihsel olayin tasviri veya focus fiilinin sozluk anlami degildir."
+        },
+        {
+          "branch_ref": "root_000435/B001",
+          "facet_id": "F001",
+          "branch_gloss": "aralık ve aradan geçen açıklık",
+          "facet_statement": "İki nesne veya bölüm arasında bir açıklık ya da ara bölge bulunur.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:13:1"],
+          "trigger_refs": ["17:5:12:2", "59:2"],
+          "focus_return_refs": ["17:5:13:1"],
+          "carrier": "khilāla evlerin arasindaki aralik/kanal iliskisini tasir.",
+          "independent_trigger": "jāsū'nun giris hareketi ve 59:2'de yerlesimin icine ulasilmasi, araliktan gecis bagini bagimsiz olarak somutlar.",
+          "activation": "Gonderilmis guc, yerlesim ici araliklardan gecerek ilerler.",
+          "resulting_reading": "Vaadin mekansal gerceklesmesi evler arasindaki ara bolgelerde cereyan eder.",
+          "boundary": "Khilāla sosyal yakinlik veya soyut kusur degil, odakta mekansal araliktir."
+        },
+        {
+          "branch_ref": "root_000435/B010",
+          "facet_id": "F001",
+          "branch_gloss": "işleyişi aksatan zayıflık ve bozukluk",
+          "facet_statement": "Bir iş, düzen veya görüş sağlamlığını kaybederek zayıflar ya da bozulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:5:13:1"],
+          "trigger_refs": ["16:26"],
+          "focus_return_refs": ["17:5:13:1"],
+          "carrier": "Focus khilāla'nin mekansal gecis/ara bolge anlami, yapisal okunusa yalnizca baglamsal bir tasiyicidir.",
+          "independent_trigger": "16:26'da temeller ve cati uzerinden yapinin cokus imgeleri acik yapisal zayiflik tetikleyicisidir.",
+          "activation": "Daha genis yapi anlatimi, vaadin gerceklesmesini savunmasiz yapisal duzen baglaminda yankilar.",
+          "resulting_reading": "Mekansal giris, baska baglamlardaki yapisal kirilganlikla birlikte okunabilir.",
+          "boundary": "Bu bir rezonanstir; odaktaki khilāla'nin anlami 'bozukluk' veya 'yapisal zayiflik' degildir."
+        },
+        {
+          "branch_ref": "root_001167/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi yapıp etkileme",
+          "facet_statement": "Çekirdek, iş veya başka bir şey türünden bir olayı ortaya çıkarma ve gerçekleştirmedir.",
+          "application_mode": "lexical",
+          "carrier_refs": ["17:5:16:1", "17:5:17:1"],
+          "trigger_refs": ["17:108"],
+          "focus_return_refs": ["17:5:17:1"],
+          "carrier": "Odaktaki waʿdan-mafʿūlan ikilisi vaadin yapilmis/gerceklestirilmis olmasini adlandirir.",
+          "independent_trigger": "17:108 Rabbin vaadinin mutlaka yerine getirildigini benzer acik ifadeyle tekrarlar.",
+          "activation": "Vaat, gonderilmis gucun mekansal eylemiyle fiilen yerine getirilir.",
+          "resulting_reading": "Zamanlanan soz, somut mekansal olayla tamamlanir.",
+          "boundary": "Tekrar gerceklesme temasini destekler; sayimli kok alternasyonu ya da ayni tarihsel olayin yeniden oynanisi anlamina gelmez."
+        }
+      ],
+      "connection_refs": ["conn_29403cdff3c14734d7d6", "conn_6f5f4d0e3681abbe3a64", "conn_6fc905d82c0c0fe9134e", "conn_d7af30e3acd87c687b11", "conn_f459a6c2616d37956774"],
+      "context_refs": ["16:26", "17:104", "17:108", "59:2", "7:103"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Disi baglam listesinde bulunan 1:2-1:7 icin bu pakette ayet metni veya connection kaydi yoktur; al-Fatiha referanslari kullanilmamistir.",
+    "Dokuz HFT ozet kaydinda anchor_refs, branch_refs ve anchor_evidence bos; hedef morfolojisi de saglanmamistir. HFT destekleri yalnizca focus hizalamasi ve acik connection kanitiyla yeniden temellendirildiginde kullanildi.",
+    "Scope docket blocked/not-ready durumundadir; gorunur HFT adaylari yalnizca tek tek incelendi, hazirlik etiketi kanit yerine alinmadi.",
+    "Global connection kayitlarinda hedef tarafin morfolojisi yoktur; bu nedenle hedef bicimi hakkinda kaynak morfolojisinden sonuc cikarilmamistir.",
+    "Focus word alignment 20/20 analiz birimini cozer ve unresolved/shared_morphemes listeleri bostur; buna ragmen aday ozetlerindeki split-root sayim iddiasi icin paket eslesmesi bulunmaz."
+  ]
+}

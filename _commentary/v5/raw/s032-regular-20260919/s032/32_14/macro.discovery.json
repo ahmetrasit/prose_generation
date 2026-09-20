@@ -1,0 +1,422 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:14",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3120e806e1e21e40de7f",
+      "decision": "accept",
+      "reason": "All five nominated branches land through focus carriers and distinct pericope contacts. The focus's two uses of forgetting remain distinct: the first recalls what left the addressees' attention, while the divine first-person use applies deliberate abandonment; the meeting is also faced as a concrete encounter and as harm undergone. The discarded-object branch is retained only as an analogy through the verb's object relation, not as a literal noun sense in the focus.",
+      "finding_refs": ["macro:discarded_encounter_reckoning"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4ea7a7749322a4b48361",
+      "decision": "narrow",
+      "reason": "The focus supports bodily tasting, directly undergone punishment, and persistence through al-khuld; the pericope's repeated taste command and return from attempted escape sharpen those readings. Three candidate branches do not fit their actual carriers: the al-khuld noun is not one of the specified clinging constructions, and the punishment noun عذاب is explicitly outside the abstention and withholding branches.",
+      "finding_refs": ["macro:forced_tasting_endurance"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000429/B002",
+          "reason": "This branch is limited to specified constructions such as أخلد إلى الأرض, أخلد بالمكان, and أخلد بصاحبه; its source explicitly excludes الخلود as bare permanence. The focus carrier is the genitive abstract noun ٱلْخُلْدِ, with no required complement or attached construction to carry clinging or adhesion."
+        },
+        {
+          "branch_ref": "root_000994/B002",
+          "reason": "The branch denotes a person or animal abstaining from food and drink, and its source explicitly excludes العذاب بمعنى العقوبة. The focus carrier is the punishment noun عَذَابَ; ذُوقُوا can trigger the contrast but cannot supply this branch's carrier."
+        },
+        {
+          "branch_ref": "root_000994/B003",
+          "reason": "The branch requires the withholding or abstention constructions represented by أعذب عن الشيء / أعذبته عن الأمر, and its source explicitly excludes punishment and painfulness. The focus has the noun عَذَابَ, not a matching branch form or complement."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_38594bff07568285e655",
+      "decision": "accept",
+      "reason": "Every HFT trace role has a supplied anchor, exact Arabic surface contact, and a focus return through the focus's work or tasting occurrences. The unresolved context branches remain attributed, without invented glosses or facets; the reception symmetry is kept qualified because the reader identity is legacy_unbound and target morphology is absent.",
+      "finding_refs": ["macro:deeds_prepare_reception"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:discarded_encounter_reckoning",
+      "origin_candidate_id": "cand_3120e806e1e21e40de7f",
+      "represented_candidate_ids": [],
+      "title": "The forgotten encounter returns as abandonment and harm",
+      "claim": "The pericope makes the focus's forgotten meeting present: the wrongdoers acknowledge seeing and hearing at their Lord and ask to be returned in 32:12, while the focus answers their prior neglect with the declaration that they have been left. The encounter they set aside thus becomes a face-to-face reckoning and a harmful outcome they must undergo.",
+      "mechanism": "The focus noun لِقَآءَ carries encounter senses that meet the scene at 32:12 and the punishment reiterated at 32:20. The two نَسِيَ occurrences preserve memory-loss and deliberate-abandonment facets: the first governs the named meeting, and the divine first-person form answers the addressees' plea by leaving them without aid. The discarded-object branch enters through an analogy in which the verb's meeting-object is treated as something set aside; the later punishment makes that encounter arrive as harm.",
+      "reader_payoff": "The repeated language of forgetting now carries a return: what the addressees neglected is the very encounter before which they plead, and the divine reply makes their former abandonment answerable as an experience of harm.",
+      "containment": "The appointed accountability encounter remains intact. The discarded-item facet is an analogy for how the meeting is treated, since the focus uses a verb rather than a noun meaning discarded baggage; the memory-loss facet also remains within the focus's accountable-neglect setting.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Trusted channel support nominates the distinctions, and the focus carriers align with the supplied branches. The contextual contacts come from exact pericope text; the discarded-object relation is explicitly analogical, and two branch identities are marked qualified in the packet."
+      },
+      "support_ids": [
+        "sup_518230cdae13f363fde6",
+        "sup_928613dfde81b23e34f3",
+        "sup_b5fcf286dab7a02191e5",
+        "sup_bb9ddc31c6ca98cdd543",
+        "sup_de1d61270cfad368ad7f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001372/B004",
+          "facet_id": "F001",
+          "branch_gloss": "karşılaşma, karşılama veya karşısında bulunma",
+          "facet_statement": "İki kişi veya şey karşı karşıya gelir ya da biri ötekiyle rastlaşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:4:1"],
+          "trigger_refs": ["32:12"],
+          "focus_return_refs": ["32:14:4:1"],
+          "carrier": "The focus noun لِقَآءَ carries the meeting or encounter sense in the phrase about the addressees' day.",
+          "independent_trigger": "In 32:12 the wrongdoers are at their Lord, acknowledge seeing and hearing, and ask to be returned.",
+          "activation": "That supplied scene gives the focus's meeting a face-to-face setting: the day they had neglected is the encounter now before them.",
+          "resulting_reading": "The meeting reads as a concrete confrontation with the reckoning event, while remaining the appointed encounter named in the focus.",
+          "boundary": "The context adds the face-to-face texture; it does not replace the focus's accountability-day reading."
+        },
+        {
+          "branch_ref": "root_001372/B007",
+          "facet_id": "F001",
+          "branch_gloss": "iyilik ya da kötülükle karşılaşma",
+          "facet_statement": "Kişi hayatında iyilikle ya da kötülükle karşılaşır ve ondan pay alır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:4:1"],
+          "trigger_refs": ["32:20"],
+          "focus_return_refs": ["32:14:4:1"],
+          "carrier": "The focus's لِقَآءَ names the meeting or reckoning encounter.",
+          "independent_trigger": "The supplied 32:20 connection repeats the command to taste punishment and names it what the people of the Fire had denied.",
+          "activation": "The repeated punishment scene meets the focus's encounter noun and activates the branch's result-one-encounters sense as a harmful outcome.",
+          "resulting_reading": "The reckoning encounter is also what they experience as harm.",
+          "boundary": "This is the negative outcome made visible in the pericope, not a claim that the branch excludes other kinds of encounter."
+        },
+        {
+          "branch_ref": "root_001501/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hatırdan çıkma veya akılda tutmayı bırakma",
+          "facet_statement": "Daha önce hatırda bulunan şey zihinde hazır olmaktan çıkar ve kişi onu anamaz.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:3:1"],
+          "trigger_refs": ["32:12"],
+          "focus_return_refs": ["32:14:3:1"],
+          "carrier": "The first focus occurrence نَسِيتُمْ carries the forgetting or neglecting of the named meeting.",
+          "independent_trigger": "In 32:12 the same addressees now say they see and hear at their Lord, showing the encounter as present to them after its earlier neglect.",
+          "activation": "The contrast between the earlier forgetting in the focus and present recognition in 32:12 makes the meeting's arrival legible as what has returned to attention.",
+          "resulting_reading": "The meeting once absent from their awareness is now the encounter before which they plead.",
+          "boundary": "The memory facet remains a coloring of the focus's accountable neglect; it does not make that neglect an innocent lapse."
+        },
+        {
+          "branch_ref": "root_001501/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek bırakma ve yerine getirmeme",
+          "facet_statement": "Bir şey unutma sözüyle anlatılsa da asıl işlem onu bilerek bırakmak ve sürdürmemektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:8:1"],
+          "trigger_refs": ["32:14:3:1", "32:12"],
+          "focus_return_refs": ["32:14:8:1", "32:14:8:3"],
+          "carrier": "The divine first-person occurrence نَسِينَٰكُمْ carries the sense of leaving the addressees aside.",
+          "independent_trigger": "The first occurrence says that the addressees left the meeting aside, and the people in 32:12 ask to be returned after acknowledging what they now see and hear.",
+          "activation": "The repeated verb reverses the agent and object: their abandonment of the meeting is answered by the divine speaker's abandonment of them.",
+          "resulting_reading": "The reply is a deliberate, reciprocal leaving rather than a cognitive failure attributed to the divine speaker.",
+          "boundary": "The focus retains its wording of forgetting while the contextual use adds the packet's stated abandonment sense."
+        },
+        {
+          "branch_ref": "root_001501/B002",
+          "facet_id": "F003",
+          "branch_gloss": "bilerek bırakma ve yerine getirmeme",
+          "facet_statement": "Tanrı'ya bağlanan kullanım, insanların bırakmasına karşılık onları değersiz görerek yardımsız bırakmayı bildirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:8:1", "32:14:8:3"],
+          "trigger_refs": ["32:14:3:1", "32:12"],
+          "focus_return_refs": ["32:14:8:1", "32:14:8:3"],
+          "carrier": "The focus's divine subject and second-person object provide the exact attributed construction described by this facet.",
+          "independent_trigger": "The prior human forgetting of the meeting and the plea to be returned in 32:12 supply the reciprocal relation.",
+          "activation": "The divine use meets the earlier human abandonment and the plea for return, making the response one of leaving the people without the requested aid.",
+          "resulting_reading": "The focus's reciprocal declaration now includes the packet's associated-use sense of being left unsupported.",
+          "boundary": "This is the supplied associated use of the divine form, not a claim about cognitive forgetting by God."
+        },
+        {
+          "branch_ref": "root_001501/B003",
+          "facet_id": "F001",
+          "branch_gloss": "unutulup atılmış değersiz şey",
+          "facet_statement": "Adlandırılan şey unutulmuş, atılmış ya da geride kalmış ve bu nedenle önemsenmez durumdadır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["32:14:3:1"],
+          "trigger_refs": ["32:14:4:1", "32:12"],
+          "focus_return_refs": ["32:14:3:1", "32:14:4:1"],
+          "carrier": "The verb نَسِيتُمْ acts on لِقَآءَ as its object; the branch's discarded-thing image is carried by that verb-object relation, not by a focus noun of that sense.",
+          "independent_trigger": "The meeting is named as the object set aside, and 32:12 supplies the later plea that returns the scene to the encounter before their Lord.",
+          "activation": "The verb's lexical tail meets its named meeting-object and the later return scene, so the appointment can be pictured as something neglected and left behind.",
+          "resulting_reading": "The meeting is treated like an unvalued thing set aside, and then comes back as an encounter they must face.",
+          "boundary": "This is a qualified analogy for the treatment of the meeting; the focus does not use the noun meaning discarded baggage."
+        }
+      ],
+      "connection_refs": [
+        "conn_fab26f8bac0ab486965b",
+        "conn_7a6e29e96c5204815ad9"
+      ],
+      "context_refs": ["32:12", "32:20"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:forced_tasting_endurance",
+      "origin_candidate_id": "cand_4ea7a7749322a4b48361",
+      "represented_candidate_ids": [],
+      "title": "Punishment is tasted as a continuing ordeal",
+      "claim": "The pericope turns the focus's punishment into a bodily and enduring experience: the two commands to taste meet the punishment named as their object, and 32:20 repeats that command after describing every attempted exit ending in return to the Fire.",
+      "mechanism": "The focus's ذُوقُوا carries the mouth's tasting image and the broader sense of direct experience; عَذَابَ gives that experience its punitive object, while ٱلْخُلْدِ marks its persistence. The supplied 32:20 scene independently repeats tasting punishment and shows return after attempted escape, so the tasting is read as an ordeal that continues rather than a brief contact.",
+      "reader_payoff": "The command is heard as something the addressees must undergo in their bodies and meet repeatedly, with the permanence word keeping the punishment from sounding momentary.",
+      "containment": "The tasting image remains metaphorical because the focus's object is punishment rather than food. The retained reading is direct bodily experience and duration; the candidate's abstention, weaning, and clinging senses are outside the actual noun and construction forms.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The trusted channel supports the sensory and duration relations, and the exact 32:20 context supplies a repeated taste-and-return scene. The bodily image is stated as metaphorical pressure, not literal eating."
+      },
+      "support_ids": [
+        "sup_174b019c320d7b613d63",
+        "sup_1d44824cbc26849dd564",
+        "sup_407dd2b9895453fc0637",
+        "sup_7458c2b3de0bc19fa1b7",
+        "sup_f83e91376c52e76874f2"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000526/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ağızla tadını algılamak",
+          "facet_statement": "Yenebilir bir şeyi ağızla yoklayarak tadını algılama eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:1:2", "32:14:9:2"],
+          "trigger_refs": ["32:14:10:1", "32:20"],
+          "focus_return_refs": ["32:14:1:2", "32:14:9:2"],
+          "carrier": "Both focus imperatives ذُوقُوا carry the sensory verb of tasting.",
+          "independent_trigger": "Their focus object is عَذَابَ, and the supplied 32:20 context again commands tasting the punishment of the Fire.",
+          "activation": "The punishment object meets the verb's oral-taste carrier, preserving the mouth's contact image even though the object is not food.",
+          "resulting_reading": "Punishment is framed through an immediate bodily tasting image.",
+          "boundary": "The image is metaphorical; the packet does not support literal eating of punishment."
+        },
+        {
+          "branch_ref": "root_000526/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bizzat yaşayarak veya sınayarak tanımak",
+          "facet_statement": "Bir kişi, şey veya durum hakkında doğrudan sınama ya da yaşantı yoluyla bilgi edinilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:1:2", "32:14:9:2"],
+          "trigger_refs": ["32:14:10:1", "32:20"],
+          "focus_return_refs": ["32:14:1:2", "32:14:9:2"],
+          "carrier": "The repeated focus command ذُوقُوا can mean to experience directly as well as to taste.",
+          "independent_trigger": "The object عَذَابَ and the repeated punishment scene in 32:20 identify the condition personally undergone.",
+          "activation": "The command's direct-experience sense meets punishment as its object, and the return scene in 32:20 makes that experience recur.",
+          "resulting_reading": "The addressees personally undergo the punishment as an ordeal rather than only receiving an abstract sentence.",
+          "boundary": "This facet adds direct experience to the sensory command; it does not replace the punishment's ordinary meaning."
+        },
+        {
+          "branch_ref": "root_000526/B002",
+          "facet_id": "F003",
+          "branch_gloss": "bizzat yaşayarak veya sınayarak tanımak",
+          "facet_statement": "İnsanın başına gelen kötülük, ceza veya kötü sonuç doğrudan maruz kalınarak deneyimlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:9:2"],
+          "trigger_refs": ["32:14:10:1", "32:20"],
+          "focus_return_refs": ["32:14:9:2", "32:14:10:1"],
+          "carrier": "The second imperative ذُوقُوا carries direct experience into the explicitly named punishment.",
+          "independent_trigger": "The focus names punishment through عَذَابَ, and 32:20 identifies the repeated experience as punishment of the Fire they denied.",
+          "activation": "The punishment noun supplies the adverse result that the direct-experience facet says is personally undergone.",
+          "resulting_reading": "The command specifies that the punishment is lived through by the addressees themselves.",
+          "boundary": "The focus supports punishment and direct exposure; it does not specify every sensory detail of that experience."
+        },
+        {
+          "branch_ref": "root_000429/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kalıcı olma ve durumunu koruma",
+          "facet_statement": "Bir varlık uzun süre ya da kesintisiz biçimde varlığını sürdürür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:11:2"],
+          "trigger_refs": ["32:14:9:2", "32:20"],
+          "focus_return_refs": ["32:14:11:2"],
+          "carrier": "The focus noun ٱلْخُلْدِ carries persistence and continuing duration as the specification of punishment.",
+          "independent_trigger": "The second tasting command and the pericope's 32:20 return from each attempted exit supply a continuing ordeal scene.",
+          "activation": "The persistence named by al-khuld meets a punishment that the context shows the addressees repeatedly returning to.",
+          "resulting_reading": "The tasted punishment is read as continuing rather than as a single, passing contact.",
+          "boundary": "The branch supports persistence; the excluded clinging branch's special attachment constructions are not inferred."
+        },
+        {
+          "branch_ref": "root_000994/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ağır acı çektirme ve cezalandırma",
+          "facet_statement": "Bir kişiye ağır acı verilir veya ağır bir ceza uygulanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:14:10:1"],
+          "trigger_refs": ["32:14:9:2", "32:20"],
+          "focus_return_refs": ["32:14:10:1"],
+          "carrier": "The focus noun عَذَابَ names punishment and severe pain.",
+          "independent_trigger": "The taste command directs the addressees to undergo it, and 32:20 repeats the order in connection with the Fire and their denial.",
+          "activation": "The command to taste makes the punishment noun the object of direct bodily experience, while 32:20 confirms its continuing consequence.",
+          "resulting_reading": "The punishment is not merely named; the focus addresses them as those made to undergo it.",
+          "boundary": "The qualified lexicon record supports severe punishment here; it does not make every kind of hardship this branch."
+        }
+      ],
+      "connection_refs": ["conn_7a6e29e96c5204815ad9"],
+      "context_refs": ["32:20"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:deeds_prepare_reception",
+      "origin_candidate_id": "cand_38594bff07568285e655",
+      "represented_candidate_ids": [],
+      "title": "Deeds frame different modes of reception",
+      "claim": "The focus keeps its plain relation between punishment and what the addressees used to do. Across the supplied pericope, the same work formula also accompanies hidden recompense and a provisioned shelter for the righteous, so the focus's tasted punishment can be read as a contrasting mode of reception prepared in relation to prior work.",
+      "mechanism": "The focus's causal work clause contacts the matching work formula in 32:17 and 32:19. In those contexts it stands beside recompense, a sheltering destination, and provisions prepared for arrival; in the focus it stands beside punishment and the repeated command to taste. The HFT trace infers that the common work-to-outcome relation frames outcomes as modes of reception, while the tasting carrier makes the focus side personally inhabited.",
+      "reader_payoff": "The repeated work formula links action to the way an outcome is received: the positive contexts show hidden reward and provisioned lodging, while the focus makes punishment something personally tasted.",
+      "containment": "The focus remains a punishment tied to habitual deeds. The reception symmetry is an attributed contextual inference; the packet's simpler legal-equivalence reading remains live, and unresolved branches have no supplied lexical gloss or facet.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact Arabic anchors and HFT word coordinates are supplied and each trace returns to focus words, but the reader identity is legacy_unbound, target morphology is absent, and the reception symmetry is explicitly an inference."
+      },
+      "support_ids": ["sup_07856fad5cfe661d3328"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:14:14:1"],
+          "trigger_refs": ["32:17:13", "32:19:4", "32:19:12"],
+          "focus_return_refs": ["32:14:14:1"],
+          "carrier": "The focus verb تَعْمَلُونَ carries intentional work as the basis of the punishment clause.",
+          "independent_trigger": "The supplied context traces identify the matching work-root occurrence in 32:17 and doubled work occurrences in 32:19.",
+          "activation": "The repeated work formula contacts the focus's punishment-by-deeds clause with the positive work-to-reward and work-to-lodging clauses in the pericope.",
+          "resulting_reading": "The focus's causal relation participates in a pericope-wide contrast between outcomes prepared in relation to deeds.",
+          "boundary": "The contextual word indices, roots, and roles remain attributed by the legacy-unbound HFT trace; the focus branch itself has a supplied lexical record."
+        },
+        {
+          "branch_ref": "root_000526/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bizzat yaşayarak veya sınayarak tanımak",
+          "facet_statement": "Bir kişi, şey veya durum hakkında doğrudan sınama ya da yaşantı yoluyla bilgi edinilir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:14:1:2", "32:14:9:2"],
+          "trigger_refs": ["32:17:10", "32:19:8", "32:19:9"],
+          "focus_return_refs": ["32:14:1:2", "32:14:9:2"],
+          "carrier": "The two focus commands ذُوقُوا carry direct personal experience as well as the tasting image.",
+          "independent_trigger": "The HFT trace points to recompense in 32:17 and a sheltering destination with prepared provisions in 32:19.",
+          "activation": "Direct experience in the focus meets the prepared positive reception described by the contexts, making the negative counterpart personally undergone rather than abstractly assigned.",
+          "resulting_reading": "The focus's punishment is personally inhabited through the repeated command to taste, in contrast with the provisioned reception for the righteous.",
+          "boundary": "The positive-to-negative reception symmetry is attributed to HFT; no hospitality gloss is added to the focus word."
+        },
+        {
+          "branch_ref": "root_000428/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:17:5"],
+          "trigger_refs": ["32:14:9:2", "32:14:14:1"],
+          "focus_return_refs": ["32:14:9:2", "32:14:14:1"],
+          "carrier": "At the HFT-attributed word-5 occurrence in supplied 32:17 Arabic, the trace assigns the role of concealment; no independent branch gloss is registered.",
+          "independent_trigger": "The focus makes punishment personally tasted and ties it to the addressees' work.",
+          "activation": "The concealed positive outcome in 32:17 contacts the focus's visible, tasted punishment through the shared work-to-outcome relation.",
+          "resulting_reading": "The pericope juxtaposes an outcome concealed from present perception with a consequence personally experienced in the focus.",
+          "boundary": "The root, segmentation, and role remain attributed to HFT; no branch gloss or facet is inferred."
+        },
+        {
+          "branch_ref": "root_000244/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:17:10"],
+          "trigger_refs": ["32:14:12:2", "32:14:14:1"],
+          "focus_return_refs": ["32:14:14:1"],
+          "carrier": "At the HFT-attributed word-10 occurrence in supplied 32:17 Arabic, the trace assigns a corresponding recompense role; no independent branch gloss is registered.",
+          "independent_trigger": "The focus's second causal clause says the punishment is tied to what the addressees used to do.",
+          "activation": "The recompense-to-work relation in 32:17 contacts the same causal work relation that frames punishment in 32:14.",
+          "resulting_reading": "The pericope's work formula links prior action with a corresponding outcome on both sides of the focus contrast.",
+          "boundary": "The context root and recompense role remain HFT-attributed; no lexical gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:17:13"],
+          "trigger_refs": ["32:14:14:1"],
+          "focus_return_refs": ["32:14:14:1"],
+          "carrier": "At the HFT-attributed word-13 occurrence in supplied 32:17 Arabic, the trace assigns the matching intentional-work root.",
+          "independent_trigger": "The focus's word for work occurs in the same causal formula linking deeds to punishment.",
+          "activation": "The positive work occurrence in 32:17 meets the focus's work carrier through the repeated causal construction.",
+          "resulting_reading": "The hidden recompense is framed by the same work-to-outcome relation that governs the focus's punishment.",
+          "boundary": "The 32:17 word index and root remain HFT-attributed because target morphology is not supplied."
+        },
+        {
+          "branch_ref": "root_000070/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:19:8"],
+          "trigger_refs": ["32:14:10:1", "32:14:14:1"],
+          "focus_return_refs": ["32:14:14:1"],
+          "carrier": "At the HFT-attributed word-8 occurrence in supplied 32:19 Arabic, the trace assigns a sheltering-destination role; no independent branch gloss is registered.",
+          "independent_trigger": "The focus pairs work with punishment, while the context pairs the work formula with its stated destination.",
+          "activation": "The sheltering outcome contacts the focus's punishment-by-deeds clause as the positive counterpart in the HFT reception reading.",
+          "resulting_reading": "The pericope juxtaposes provisioned shelter with the focus's tasted punishment as two modes of reception.",
+          "boundary": "The destination's lexical identity and branch meaning remain unresolved and HFT-attributed."
+        },
+        {
+          "branch_ref": "root_001492/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:19:9"],
+          "trigger_refs": ["32:14:9:2", "32:14:14:1"],
+          "focus_return_refs": ["32:14:9:2", "32:14:14:1"],
+          "carrier": "At the HFT-attributed word-9 occurrence in supplied 32:19 Arabic, the trace assigns provisions prepared for an arriving guest; no independent branch gloss is registered.",
+          "independent_trigger": "The focus's work clause and repeated taste command connect prior deeds to an outcome personally experienced.",
+          "activation": "Prepared provision in 32:19 meets the focus's tasted punishment through the shared work-to-outcome relation, yielding the HFT's contrast of prepared receptions.",
+          "resulting_reading": "The positive side appears provisioned for arrival while the focus's negative side is personally tasted.",
+          "boundary": "The guest-provision role is attributed to HFT; it does not establish a lexical branch gloss or make the focus hospitality language."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilerek yapılan iş veya eylem",
+          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:19:4", "32:19:12"],
+          "trigger_refs": ["32:19:8", "32:19:9", "32:14:14:1"],
+          "focus_return_refs": ["32:14:14:1"],
+          "carrier": "At the HFT-attributed word-4 and word-12 occurrences in supplied 32:19 Arabic, the trace assigns the repeated intentional-work root.",
+          "independent_trigger": "The same context names a sheltering destination and provisions, while the focus supplies the contrasting work-to-punishment clause.",
+          "activation": "The two work occurrences tie righteous action to its lodging in 32:19; the repeated focus work formula brings that relation back to the punishment addressed in 32:14.",
+          "resulting_reading": "The pericope's positive lodging is presented in relation to the same agency's work, alongside the focus's punishment by prior work.",
+          "boundary": "The context word indices and their roles remain attributed to HFT; the focus return is the supplied focus work morpheme."
+        }
+      ],
+      "connection_refs": [
+        "conn_50439fd1fb75f4231d09",
+        "conn_025ae1965595b19c5113"
+      ],
+      "context_refs": ["32:17", "32:19"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The HFT candidate is legacy_unbound and the packet reports its source scope as broader than the declared pericope. Exact Arabic anchors and indexed roles for 32:17 and 32:19 are supplied, but target morphology is absent; the positive-to-negative reception symmetry therefore remains attributed inference, with the simpler legal-equivalence reading live."
+  ]
+}

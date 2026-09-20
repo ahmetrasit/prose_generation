@@ -1,0 +1,615 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:31",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_7cdff99510832698ef7d",
+      "decision": "narrow",
+      "reason": "Korunan çekirdek, korkulan yoksulluğun geleceğini şimdide kesinleştirme ve bu nedenle geri döndürülemez bir kayıp yaratma okumasıdır. خَشْيَة, إِمْلَاق, رِزْق ve خِطْـٔ taşıyıcıları 1:5, 2:268 ve 6:140 ile somut küresel temas kuruyor; kuruluk, izsiz yüzey ve yağmurun atladığı arazi dalları bu küresel bağlamlarda bağımsız bir tetikleyici bulmuyor.",
+      "finding_refs": [
+        "global:scarcity-forecast"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000413/B004",
+          "reason": "Kuruma ve buruşma dalını etkinleştiren bağımsız bir kuraklık veya kuruluk imgesi yok; küresel tetikleyiciler yardım isteme, yoksulluk vaadi ve verilen rızkı yasaklama üzerinedir."
+        },
+        {
+          "branch_ref": "root_000420/B003",
+          "reason": "Bu dal yağmurun belirli bir araziyi atlamasını gerektirir. Odak veya kullanılan küresel bağlamlarda yağmur ya da arazi taşıyıcısı bulunmadığından kök seçeneği tek başına etkinleşme sayılmaz."
+        },
+        {
+          "branch_ref": "root_001443/B003",
+          "reason": "Pürüzsüz ve iz tutmayan yüzey dalını destekleyen bağımsız bir yüzey veya silinme imgesi yok; destek metnindeki çıplak yüzey çağrışımı küresel bağlamda geri dönmüyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b464da20d5da823d2e69",
+      "decision": "represented",
+      "reason": "Kıtlık korkusunun gelecekteki yokluğu şimdi gerçekleştirmesi ve öldürmeyi bir zaman/ölçü yanılgısı olarak görme iddiası cand_7cdff99510832698ef7d bulgusuyla aynı semantik çekirdektir. Bu adayın tek branch_ref'i root_000413/B001, ortak bulguda aynı F001 taşıyıcı etkinleşmesiyle karşılanıyor; adayda ayrıca bağlam, zorunlu facet veya yapılandırılmış semantic_obligations listesi yok.",
+      "finding_refs": [
+        "global:scarcity-forecast"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2073db2e882c49b4000f",
+      "decision": "accept",
+      "reason": "Destek metninin belirttiği 17:100, odak perikopunun dışındaki aynı sure bağlamıdır ve pakette tam Arapça yüzeyi ile sağlanmıştır. Oradaki harcama korkusu ve tutma eylemi, 17:31'deki yoksulluk korkusu ve öldürme eylemiyle bağımsız ve sınırlı bir kıtlık bağlantısı kuruyor.",
+      "finding_refs": [
+        "global:scarcity-fear-recurs"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0d04bdb2d6c98dcbf098",
+      "decision": "narrow",
+      "reason": "root_001443/B002'nin yoksulluğa düşme çekirdeği, 17:100'ün hayali bolluk içinde bile harcama korkusuyla tutma anlatımına karşı sınanabiliyor; bu küresel çekirdek bulguda korunuyor. Kaynak desteğin 17:26–30, 17:33 ve 17:35 dayanakları odak için tanımlı 17:23–39 perikopunun içindedir ve bu bulguda kullanılmıyor.",
+      "finding_refs": [
+        "global:depletion-under-abundance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:26",
+          "reason": "Kaynak desteğin harcama ve rızık değişimi dayanağının parçasıdır; 17:23–39 perikopunda kaldığı için global bulguda kullanılmadı."
+        },
+        {
+          "context_ref": "17:27",
+          "reason": "Kaynak desteğin harcama ve rızık değişimi dayanağının parçasıdır; 17:23–39 perikopunda kaldığı için global bulguda kullanılmadı."
+        },
+        {
+          "context_ref": "17:28",
+          "reason": "Kaynak desteğin harcama ve rızık değişimi dayanağının parçasıdır; 17:23–39 perikopunda kaldığı için global bulguda kullanılmadı."
+        },
+        {
+          "context_ref": "17:29",
+          "reason": "Kaynak desteğin harcama ve rızık değişimi dayanağının parçasıdır; 17:23–39 perikopunda kaldığı için global bulguda kullanılmadı."
+        },
+        {
+          "context_ref": "17:30",
+          "reason": "Kaynak desteğin harcama ve rızık değişimi dayanağının parçasıdır; 17:23–39 perikopunda kaldığı için global bulguda kullanılmadı."
+        },
+        {
+          "context_ref": "17:33",
+          "reason": "Kaynak desteğin hayatı koruma dayanağıdır; 17:23–39 perikopunda kaldığı için global bulguda kullanılmadı."
+        },
+        {
+          "context_ref": "17:35",
+          "reason": "Kaynak desteğin ölçü dayanağıdır; 17:23–39 perikopunda kaldığı için global bulguda kullanılmadı."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b884bba4a54eedb8f20b",
+      "decision": "reject",
+      "reason": "Bu adayın yanlış ölçüm iddiası yalnızca 17:35'in geriye dönük açıklamasıyla kuruluyor. 17:35, bu analizdeki 17:23–39 perikopunun içindedir ve macro bağlamına aittir; adayı taşıyacak daha geniş, odağa geri dönen ayrı bir tetikleyici sunulmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:35",
+          "reason": "Adayın tek bağlamsal dayanağıdır; tanımlı 17:23–39 perikopunun içindeki macro bağlamdır, global tetikleyici değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_850c5c335ef985cd1200",
+      "decision": "reject",
+      "reason": "sup_3713eeaa8b09dc37e8f2'nin karşılıklı bakımın gelecek maddi destekten daha güvenli bir okuma olabileceği iddiası için HFT kaydında anchor_evidence boş ve toplam anchor kapsamı 0/0'dır. Bağlam ayeti, odak sözcüğü, kök, atfedilmiş rol ve odağa dönen temas verilmediğinden bu legacy_unbound iddia global etkinleşme olarak korunamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_09afc2673d28b472a4ec",
+      "decision": "reject",
+      "reason": "sup_0a4db9f294e671ae31e7'nin korkudan bilgiye geçiş okuması belirli bir metaforik خ ش ي dalına dayanıyor, ancak adayda branch_ref yok ve HFT anchor_evidence boş. Bu focus yüzeyinde ve sağlanan daha geniş bağlamlarda bilgi facet'ini bağımsız olarak etkinleştiren, odağa dönen bir trace bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_802b9392144f8a9b255a",
+      "decision": "reject",
+      "reason": "sup_b6933fc1d5374d906c55 ekolojik ve karşı-egemenlik çağrışımlarını keşifsel olarak adlandırıyor, fakat HFT kaydında bu iki iddiayı ayıran taşıyıcı, tetikleyici, kök/rol koordinatı veya focus dönüşü yok; anchor_evidence boş ve kapsam 0/0. Etiketlenen keşifsellik tek başına etkinleşme kanıtı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a71ed4a8f1cac67da52b",
+      "decision": "reject",
+      "reason": "sup_ba18408ff100bcdd73fc çocuğun şimdiki tüketiciden kuşaklar arası bakım döngüsünün katılımcısına dönüşmesini ileri sürüyor; HFT anchor_evidence boş olduğundan bu dönüşü sağlayan bağlam ayeti, sözcük indeksi, kök ve atfedilmiş rol yok. 4:9 benzeri bağımsız yüzey temasları ayrıca incelendi, ancak eksik HFT trace bu adaya mal edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b483f3ed82c7f2c36b60",
+      "decision": "reject",
+      "reason": "sup_34d8e70e07c609d49f7b'de rızkın dolaşımı ve öldürmenin hane bütçesi sayılmaması iddiasını taşıyan HFT koordinatları veya rol-temas zinciri verilmemiştir; anchor_evidence boş, kapsam 0/0'dır. Bu nedenle önerilen mekanizma legacy_unbound HFT atfıyla odağa bağlanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8a564548ca3abfae55b5",
+      "decision": "reject",
+      "reason": "sup_452473c56ab96629234f'nin yaşam üzerindeki özel hane egemenliğinin kalktığı ve misilleme yetkisinin sınırlandığı iddiası için HFT kaydı hiçbir exact ayah/word/root/role anchor sağlamıyor; focus'a dönen bir temas yok ve anchor kapsamı 0/0.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a6028a49b3cb91d2af83",
+      "decision": "reject",
+      "reason": "sup_905406e6107fd840e543 kıtlık korkusunun temelsiz bir tahmini ölümcül bilgiye yükseltemeyeceğini ileri sürüyor; ancak HFT kaydında bunu 17:31'e bağlayan koordinat veya focus-return trace yok ve anchor_evidence kapsamı 0/0. Benzer zaman/ölçü çekirdeği başka, bağlanmış kanıtla değerlendirildi; bu atfedilmiş HFT iddiası bu nedenle ayrı olarak reddedildi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cc399a955e0301f2d2ee",
+      "decision": "reject",
+      "reason": "sup_e3780ae1291a6a5da32d'de çocuğun gelecekteki mülkiyet, olgunluk ve ölçü talep eden kişi olduğu savı için HFT izi, güven ilişkileri rolü veya odak sözcüğe dönüş sağlayan bağlam yok; anchor_evidence boş ve kapsam 0/0. Bu savı 17:31'in yanında başlı başına bir hukuk modeli olarak kuracak kanıt pakette bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_57b51edf2cdf705caa29",
+      "decision": "reject",
+      "reason": "sup_f21b56eac99a88767317 ekonomik nedeni zaman, güven ilişkileri hukuku, sınırlı yetki ve epistemik hesap verebilirlik boyunca birleştiriyor; fakat bu bütünleştirici savı odak sözcüklerine ve bağımsız bağlam tetiklerine bağlayan HFT koordinatları, roller veya okuma değişimi kaydı yok. Anchor kapsamı 0/0 olduğundan kayıt bir sure tezi gibi kabul edilemez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:scarcity-forecast",
+      "origin_candidate_id": "cand_7cdff99510832698ef7d",
+      "represented_candidate_ids": [
+        "cand_b464da20d5da823d2e69"
+      ],
+      "title": "Kıtlık beklentisinin bugünde kesinleşmesi",
+      "claim": "17:31'in yoksulluk korkusu, çocuklara ve ebeveynlere verilen rızık güvencesi ve öldürmeyi büyük suç sayması; 1:5'teki yardım isteme, 2:268'deki yoksulluk vaadi ile ilahi lütuf karşıtlığı ve 6:140'taki çocuk öldürme ile verilen rızkı yasaklama birlikteliğiyle temas eder. Bu daha geniş temas, korkulan geleceği şimdide kesinleştirip geri döndürülemez kayıp yaratma eğilimini görünür kılar.",
+      "mechanism": "Odaktaki خَشْيَةَ إِمْلَاقٍ korkuyu öldürmenin gerekçesi olarak taşır ve نَرْزُقُهُمْ وَإِيَّاكُمْ her iki alıcı grubuna rızık verir. 1:5'in açık yardım isteği bağımlılık için ayrı bir eylem sunar; 2:268 yoksulluğu kötülüğe çağıran bir vaat olarak ilahi lütufla karşı karşıya getirir; 6:140 çocuk öldürmeyi ve Allah'ın verdiği rızkı haram kılmayı aynı hüküm alanına koyar. Bu temas, korunma niyetinin gelecekteki yoksulluğu olmuş bitmiş sayarak bugünde kayıp üretmesine bağlanır; odak eylemi yine büyük bir suç olarak tutar.",
+      "reader_payoff": "Korkulan gelecek, tarafsız bir tahmin gibi görünmekten çıkar: çocukları geçim kaygısıyla ortadan kaldırma eylemi, hem rızık güvencesi hem de kıtlık korkusuna karşı yardım isteme ve ilahi lütuf dili yanında okunur.",
+      "containment": "Bu bağlantı 1:5'in maddi yardım istediğini veya 2:268 ile 6:140'ın aynı aile olayını anlattığını ileri sürmez. 6:140 ve 2:268 paralel bağlamlardır. root_000420/B001'in istemeden hedefi kaçırma facet'i öldürme niyetine değil, yoksulluk tahmininin şaşmasına uygulanır; odaktaki kasıtlı ve büyük suç yargısı korunur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi ve 15/15 kelime hizalaması çözülüdür; yayımlanmış çekirdek trusted destekle gelir, temsil edilen yardımcı okuma legacy_unbound'dur. 1:5, 2:268 ve 6:140'ın tam Arapça yüzeyi pakette bulunsa da hedef morfolojileri yoktur; ilişkiler sınırlı ve qualified tutulmuştur."
+      },
+      "support_ids": [
+        "sup_ce0b2c85994557994fbf",
+        "sup_84ce2e5a98086f4586b3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000413/B001",
+          "facet_id": "F001",
+          "branch_gloss": "korku duyma",
+          "facet_statement": "Temel anlam, kişinin sakındığı bir şey karşısında korku duyması ve ürpermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:4:1"
+          ],
+          "trigger_refs": [
+            "1:5"
+          ],
+          "focus_return_refs": [
+            "17:31:4:1"
+          ],
+          "carrier": "خَشْيَةَ إِمْلَاقٍ, focus'ta çocukları öldürme yasağının korku gerekçesini taşır.",
+          "independent_trigger": "1:5'te إِيَّاكَ نَسْتَعِينُ ifadesi açık bir yardım isteme eylemidir.",
+          "activation": "Yardım isteme eylemi, odağın yoksulluk korkusuyla karşılaştığında korkuyu Tanrı'ya bağımlılık bağlamına yerleştirir; bu, focus'taki açık gerekçeyi değiştirmeden ayrı bir karşılık görünür kılar.",
+          "resulting_reading": "Gelecek kıtlığı önlemek için öldürmeye yönelen eylem, yardım istemeyi açıkça dile getiren daha geniş okuma yanında yeniden görünür.",
+          "boundary": "1:5 genel yardım ister; özellikle maddi rızık talep ettiğini veya 17:31'in doğrudan bu duaya cevap olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_001443/B002",
+          "facet_id": "F002",
+          "branch_gloss": "malı tüketip yoksulluğa düşme",
+          "facet_statement": "Eldeki malın tükenmesi sonucunda gereksinim içinde kalma ve yoksullaşma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:5:1"
+          ],
+          "trigger_refs": [
+            "2:268"
+          ],
+          "focus_return_refs": [
+            "17:31:5:1"
+          ],
+          "carrier": "Odaktaki إِمْلَاقٍ korkulan yoksulluğu ve gereksinim halini adlandırır.",
+          "independent_trigger": "2:268 yoksulluğu kötülüğe çağıran bir vaat olarak anar ve Allah'ın bağışlama ile lütuf vaadiyle karşı karşıya getirir.",
+          "activation": "Ayrı ayetteki yoksulluk vaadi, odaktaki yoksulluk korkusu ve öldürmeme buyruğuyla temas ederek korkuyu kaçınılmaz bir durumdan ahlaki eylemi zorlayabilen bir tahmine dönüştürür.",
+          "resulting_reading": "Kıtlık beklentisi, odaktaki iki alıcı gruba verilen rızık güvencesi karşısında ahlaki baskı olarak okunur.",
+          "boundary": "2:268 genel yoksulluk korkusu ve kötülükten söz eder; çocuk öldürmeyi doğrudan anlatmaz."
+        },
+        {
+          "branch_ref": "root_000560/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yararlanılmak üzere verilen pay",
+          "facet_statement": "Alıcıya yararlanacağı bir şey verilir veya onun için bir pay ayrılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:7:1"
+          ],
+          "trigger_refs": [
+            "1:5",
+            "6:140"
+          ],
+          "focus_return_refs": [
+            "17:31:7:1"
+          ],
+          "carrier": "نَرْزُقُهُمْ وَإِيَّاكُمْ focus'ta çocukları ve muhatapları birlikte rızık alıcısı kılar.",
+          "independent_trigger": "1:5'te yardım istenir; 6:140 çocuk öldürmeyle Allah'ın verdiği rızkı haram kılmayı yan yana getirir.",
+          "activation": "Yardım talebi ve verilen rızkı yasaklamanın ayrı bağlamları, odağın sağlayıcı ve iki alıcı grubunu açıkça adlandıran hükmüne döner; hane kıtlık korkusu içinde tek başına sağlayıcı olarak kurulmaz.",
+          "resulting_reading": "Çocuklar ve ebeveynler aynı ilahi rızık ilişkisinde görünür, bu da korkulan kıtlığı hane içi sıfır toplamlı bir varsayım olmaktan çıkarır.",
+          "boundary": "Bu bağlamlar rızkın maddi biçimini, miktarını veya geliş zamanını belirlemez."
+        },
+        {
+          "branch_ref": "root_000420/B001",
+          "facet_id": "F001",
+          "branch_gloss": "istemeden doğruyu tutturamama",
+          "facet_statement": "Kişi doğruyu veya belirli bir sonucu amaçlar, fakat istemeden başka bir yöne ya da sonuca varır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:12:1"
+          ],
+          "trigger_refs": [
+            "6:140"
+          ],
+          "focus_return_refs": [
+            "17:31:12:1"
+          ],
+          "carrier": "Odaktaki خِطْـًٔا öldürmeyi büyük bir yanlış olarak yargılar; B001'in kaçırılan hedef imgesi bu hükme sınırlı bir sonuç boyutu ekler.",
+          "independent_trigger": "6:140 çocukların öldürülmesini سفهًا بغير علم diye niteler ve Allah'ın verdiği rızkı yasaklamayla eşler.",
+          "activation": "Bu ayrı tarif, kaçırılan doğru sonuç imgesini yoksulluk tahminine bağlar: aileyi koruma niyeti geleceği yanlış ölçüp bugünde kayıp yaratır; istemedenlik facet'i eylemin niyetine aktarılmaz.",
+          "resulting_reading": "Zaman ve ölçü yanılgısı, yoksulluk korkusunu kesin gelecek saymaktadır; kasıtlı öldürme odakta yine büyük suç olarak kalır.",
+          "boundary": "F001'in istemeden hedefi kaçırma niteliği tahminin şaşmasına uygulanır; öldürmeyi kazara veya mazur gösterilmiş bir eyleme dönüştürmez. 6:140 paralel kanıttır, tarihsel neden değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_f809cd4af8c2e65f804f",
+        "conn_e043507b6b626944298f",
+        "conn_aab2d7087b6ae1a2e3e9"
+      ],
+      "context_refs": [
+        "1:5",
+        "2:268",
+        "6:140"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:scarcity-fear-recurs",
+      "origin_candidate_id": "cand_2073db2e882c49b4000f",
+      "represented_candidate_ids": [],
+      "title": "Kıtlık korkusunun iki görünümü",
+      "claim": "17:100'de Rabbin rahmet hazinelerine sahip olma varsayımı bile harcama korkusuyla tutmaya yol açar; 17:31'de yoksulluk korkusu çocuk öldürme yasağının gerekçesi olarak adlandırılır. İki ayet korkuyu farklı eylemlere bağlar ve 17:31'deki öldürmeyi kıtlık kaygısının geri döndürülemez bir görünümü olarak belirginleştirir.",
+      "mechanism": "Odak taşıyıcısı خَشْيَةَ yoksulluk korkusudur; 17:100 tetikleyicisi خَشْيَةَ الْإِنفَاقِ ile harcama korkusunu ve elde tutmayı açıklar. Aynı korku sözcüğünün farklı nesnelerle ve eylemlerle kullanılması odağın korkusunu daha geniş bir tutma/kıtlık ilişkisine döndürür; 17:31'in rızık güvencesi bu ilişkinin içinde yer alır.",
+      "reader_payoff": "Okur 17:31'deki korkuyu tekil bir aile kaygısı olarak bırakmaz; aynı surede korku harcamayı tutmaya, burada ise çocukların hayatını sona erdirmeye bağlanır.",
+      "containment": "17:100 hayali bir rahmet hazinesi ve harcama korkusuyla tutmayı anlatır; 17:31'in yoksulluk korkusuyla aynı olay veya aynı fail olduğunu söylemez. Tam hedef Arapçası vardır, hedef morfolojisi ve sözlük çözümlemesi yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "legacy_unbound okuma izi bu karşılaştırmayı öneriyor; 17:100'ün tam hedef Arapçası ve odak yüzeyi temasın bağımsızca değerlendirilmesine izin veriyor, ancak hedef morfolojisi sağlanmamış."
+      },
+      "support_ids": [
+        "sup_eafa0922b2423d0c4123"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000413/B001",
+          "facet_id": "F001",
+          "branch_gloss": "korku duyma",
+          "facet_statement": "Temel anlam, kişinin sakındığı bir şey karşısında korku duyması ve ürpermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:4:1"
+          ],
+          "trigger_refs": [
+            "17:100"
+          ],
+          "focus_return_refs": [
+            "17:31:4:1"
+          ],
+          "carrier": "Odaktaki خَشْيَةَ yoksulluk korkusunu eylemin gerekçesi yapar.",
+          "independent_trigger": "17:100'de harcama korkusu, hayali rahmet hazinelerine sahip olma varsayımıyla birlikte gelir ve tutma davranışına bağlanır.",
+          "activation": "Farklı nesneler ve eylemlerle yinelenen korku, odaktaki yoksulluk korkusunu sure içindeki daha geniş kıtlık ve elde tutma biçimine bağlar.",
+          "resulting_reading": "Odaktaki öldürme eylemi, harcamayı tutma örneğinin yanında kıtlık korkusunun çok daha geri döndürülemez bir eyleme bağlanan görünümü olur.",
+          "boundary": "17:100 varsayımsal bollukta harcamayı anlatır; iki ayetin nedenini veya olayını özdeşleştirmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_6fa691cd717530e95f9a"
+      ],
+      "context_refs": [
+        "17:100"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:depletion-under-abundance",
+      "origin_candidate_id": "cand_0d04bdb2d6c98dcbf098",
+      "represented_candidate_ids": [],
+      "title": "Hayali bollukta bile yoksunluk korkusu",
+      "claim": "17:100'de rahmet hazinelerine sahip olma varsayımı harcama korkusunu ortadan kaldırmaz; bu tetikleyici, 17:31'deki إِمْلَاقٍ taşıyıcısını beklenen kaynak tükenmesi olarak yeniden görünür kılar. Odaktaki yoksulluk korkusu böylece kesinleşmiş bir durumdan çok, geleceği kapatan bir kıtlık tahmini olarak okunur.",
+      "mechanism": "Odak sözcüğü ve root_001443/B002 facet'i varlık tükenmesiyle gereksinime düşmeyi taşır. 17:100, hayali bolluk halinde bile harcamaktan korkup elde tutmayı gösteren ayrı bağlamdır. Bu temas yoksulluk taşıyıcısını korkunun varsaydığı kapanmış geleceğe bağlar; 17:31'in çocukları öldürmeme buyruğu ve rızık güvencesi bu öngörüye karşı durur.",
+      "reader_payoff": "Yoksulluk korkusunun var olan bir yoklukla aynı şey olmadığı, korkunun geleceği önceden kapatıp bugünde geri döndürülemez bir karar doğurabildiği görünür olur.",
+      "containment": "Bu, aynı suredeki iki farklı korku eylemi arasında bir karşılaştırmadır; 17:100 harcama ve elde tutmayla, 17:31 ise çocuklar ve yoksulluk korkusuyla ilgilidir. Kaynak desteğin 17:26–30, 17:33 ve 17:35 perikop dayanakları bu global bulguya taşınmamıştır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "legacy_unbound geniş okuma B002 yoksulluk facet'ini odağa bağlayarak öneriyor; 17:100'ün sağlanan tam Arapça yüzeyi ile odak yüzeyi sınırlı karşılaştırmayı destekliyor, hedef morfolojisi ise yok."
+      },
+      "support_ids": [
+        "sup_eedb3c89cbdcd0a1a464"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001443/B002",
+          "facet_id": "F002",
+          "branch_gloss": "malı tüketip yoksulluğa düşme",
+          "facet_statement": "Eldeki malın tükenmesi sonucunda gereksinim içinde kalma ve yoksullaşma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:5:1"
+          ],
+          "trigger_refs": [
+            "17:100"
+          ],
+          "focus_return_refs": [
+            "17:31:5:1"
+          ],
+          "carrier": "Odaktaki إِمْلَاقٍ, korkulan mal tükenmesini ve gereksinim içinde kalmayı taşır.",
+          "independent_trigger": "17:100 hayali rahmet hazinelerine rağmen harcama korkusuyla tutmayı anlatır.",
+          "activation": "Yoksulluğa düşme facet'i ile bolluk varsayımı altında süren harcama korkusu, kaynakların fiilen bittiği iddiası olmadan kıtlık beklentisini birbirine bağlar.",
+          "resulting_reading": "Odaktaki yoksulluk, çocukların hayatı hakkında bugünde karar vermeye yol açan geleceğe dönük bir tahmin olarak görünür.",
+          "boundary": "17:100 hayali bolluk ve harcamayı tutma hakkındadır; odaktaki yoksulluğun gerçekten yaşandığını veya aynı failin bulunduğunu söylemez."
+        }
+      ],
+      "connection_refs": [
+        "conn_6fa691cd717530e95f9a"
+      ],
+      "context_refs": [
+        "17:100"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:poverty-under-fear-and-lack",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Korkulan yoksulluk ile yoksulluk içindeki yasak",
+      "claim": "6:151 çocukları إِمْلَاقٍ ile ilişkilendirerek öldürmeme buyruğunu ve ardından ilahi rızık güvencesini verir; 17:31 aynı çocuk-koruma ve rızık hareketini خَشْيَةَ إِمْلَاقٍ ile kurar. Yan yana okunduklarında yoksulluk korkusu, yoksullukla kurulan daha doğrudan bir çerçeve içinde de korunur.",
+      "mechanism": "Odakta إِمْلَاقٍ, خَشْيَةَ ile bağlanıp öldürmenin korku gerekçesini taşır; 6:151'in görünür yüzeyinde aynı yoksulluk teriminin önüne مِنْ gelir. Her iki yüzey de çocukları öldürmeme ve Allah'ın rızık vermesi ifadelerini bir araya getirir; bu temas odağın koruma buyruğunu yalnız korkulan geleceğe değil, yoksullukla karşılaşan bağlama da uzatır.",
+      "reader_payoff": "Çocukları koruma ve rızık güvencesi birlikte kalırken, okur odaktaki buyruğun yoksulluk korkusu çerçevesini başka bir yoksulluk ifadesiyle karşılaştırabilir.",
+      "containment": "6:151'in tam Arapçası verilmiş, hedef morfolojisi ve sözlük çözümlemesi verilmemiştir; korku ile مِنْ yüzeyleri arasındaki fark sınırlı bir karşılaştırma olarak tutulur. İki ayetin aynı olayı anlattığı veya maddi koşulların özdeş olduğu ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak ve bağlantı hedefinin tam Arapça yüzeyleri ile doğrudan paralellik sağlanmıştır; hedef morfolojisi yoktur, bu nedenle mevcut/öngörülen yoksulluk ayrımı yüzeyden çıkarılan sınırlı bir okumadır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001443/B002",
+          "facet_id": "F002",
+          "branch_gloss": "malı tüketip yoksulluğa düşme",
+          "facet_statement": "Eldeki malın tükenmesi sonucunda gereksinim içinde kalma ve yoksullaşma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:5:1"
+          ],
+          "trigger_refs": [
+            "6:151"
+          ],
+          "focus_return_refs": [
+            "17:31:5:1"
+          ],
+          "carrier": "Odaktaki إِمْلَاقٍ korkulan gereksinim ve yoksulluk halini adlandırır.",
+          "independent_trigger": "6:151 aynı إِمْلَاقٍ terimini çocuğu öldürmeme buyruğunun içinde, مِنْ ile kullanır.",
+          "activation": "Aynı yoksulluk taşıyıcısının farklı görünür bağları ve aynı hayatı koruma/rızık ifadesi, korkulan durum ile yoksullukla karşılaşma arasında sınırlı bir karşılaştırma kurar.",
+          "resulting_reading": "Odaktaki koruma buyruğu, aynı sure dışı paralelde yoksullukla ilgili başka bir çerçevede de görünür.",
+          "boundary": "Hedef morfolojisi verilmediğinden karşılaştırma hedef sözcüğün ayrıntılı çözümlemesine dayanmaz."
+        },
+        {
+          "branch_ref": "root_000560/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yararlanılmak üzere verilen pay",
+          "facet_statement": "Alıcıya yararlanacağı bir şey verilir veya onun için bir pay ayrılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:7:1"
+          ],
+          "trigger_refs": [
+            "6:151"
+          ],
+          "focus_return_refs": [
+            "17:31:7:1"
+          ],
+          "carrier": "نَرْزُقُهُمْ وَإِيَّاكُمْ odakta çocuklara ve muhataplara rızık verilmesini birlikte söyler.",
+          "independent_trigger": "6:151'deki aynı koruma dizisi نَحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ifadesiyle devam eder.",
+          "activation": "İki ayrı ayetteki rızık taşıyıcıları, odaktaki ilahi pay verme çekirdeğini bağımsız paralel bağlamda yeniden görünür kılar.",
+          "resulting_reading": "Çocukların korunması ile ilahi rızık ilişkisi, yoksulluk çerçevesi değişirken birlikte sürer.",
+          "boundary": "Hedef morfolojisi verilmediğinden alıcı dizilişindeki farktan ek bir dilbilgisel sonuç çıkarılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_b860cb8220c8d9dd856a"
+      ],
+      "context_refs": [
+        "6:151"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:fear-for-vulnerable-descendants",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Korkunun çocukları korumaya yönelmesi",
+      "claim": "4:9 zayıf soyun geride kalması ihtimalinden duyulan korkuyu Allah'a karşı sorumluluk ve doğru sözle yan yana getirir; 17:31'de yoksulluk korkusu ve çocukları öldürmeme buyruğuyla buluştuğunda, çocukların geleceğine ilişkin kaygının koruyucu bir yöne de çevrilebildiği görünür olur.",
+      "mechanism": "Odaktaki خَشْيَةَ korkuyu, أَوْلَٰدَكُمْ ise ana babadan doğan çocukları taşır. 4:9 zayıf torun/soy ihtimalini ve onlar için korkmayı, ardından doğru söz ve sorumluluğu açıkça anar. Bu ayrı tetikleyici odağın korku sözcüğüne ve korunan çocuklara geri dönerek kaygının nasıl bir eyleme yöneldiğini değiştirir.",
+      "reader_payoff": "Odaktaki korku artık yalnız ekonomik gerekçe değildir; başka bir küresel ayette çocukların kırılgan geleceği için sorumlu davranmayı da harekete geçiren bir kaygıyla karşılaştırılır.",
+      "containment": "4:9 yoksulluk veya çocuk öldürmeyi anlatmaz; zayıf soy için korku ve doğru sözden söz eder. Hedef morfolojisi sağlanmadığından ortak kök iddiası kurulmaz; bağlantı iki ayrı bağlamın eylem yönelimini karşılaştırır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "4:9'un tam hedef Arapçası ve odak yüzeyi vardır; bağlantı belirgin bir anlam teması taşır, ancak hedef morfolojisi ve sözlük analizi sağlanmamıştır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000413/B001",
+          "facet_id": "F001",
+          "branch_gloss": "korku duyma",
+          "facet_statement": "Temel anlam, kişinin sakındığı bir şey karşısında korku duyması ve ürpermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:4:1"
+          ],
+          "trigger_refs": [
+            "4:9"
+          ],
+          "focus_return_refs": [
+            "17:31:4:1"
+          ],
+          "carrier": "Odaktaki خَشْيَةَ çocuk öldürme yasağının korku gerekçesini taşır.",
+          "independent_trigger": "4:9 zayıf soy geride kalırsa onlar için duyulacak korkuyu, ardından sorumluluk ve doğru sözü anar.",
+          "activation": "Çocukların geleceğine ilişkin korku ve kırılgan soy tetikleyicisi, odaktaki korku taşıyıcısına dönerek kaygının koruyucu veya yıkıcı eyleme yönelişini görünür kılar.",
+          "resulting_reading": "Odaktaki korku, çocukları öldürmeye dönüşen kaygının yanında çocukların geleceğine karşı sorumlu davranmaya yönelen korkuyla da karşılaştırılır.",
+          "boundary": "4:9'un odak morfolojisi yoktur; bu bağlantı hedefteki sözcüklerin aynı kökten geldiğini ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001683/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ana babadan doğan kişi veya kişiler",
+          "facet_statement": "Temel gönderim, bir ana babadan doğmuş kişidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:3:1"
+          ],
+          "trigger_refs": [
+            "4:9"
+          ],
+          "focus_return_refs": [
+            "17:31:3:1"
+          ],
+          "carrier": "أَوْلَٰدَكُمْ odakta muhatapların çocuklarını doğrudan korunan nesne yapar.",
+          "independent_trigger": "4:9 geride kalabilecek zayıf ذرِّيَّةً hakkında konuşur.",
+          "activation": "Odaktaki çocuk taşıyıcısı, kırılgan soyun geleceğine ilişkin ayrı bağlamla buluşunca korumanın kuşaklar boyunca uzanan sonucunu görünür kılar.",
+          "resulting_reading": "Çocuklar yalnız mevcut bir yük veya tüketici değil, gelecekte korunması gereken kırılgan kişiler olarak okunur.",
+          "boundary": "4:9'daki ذرِّيَّة hedefinin ayrıntılı kapsamı veya odağın çocuklarıyla özdeşliği hakkında ek iddia kurulmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_5f5f720db745b8c96fec"
+      ],
+      "context_refs": [
+        "4:9"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:victim-side-accountability",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Öldürülen çocuğun hesabı",
+      "claim": "81:8–9'da diri gömülen kızın hangi suçtan ötürü öldürüldüğü sorulur; 17:31'in çocukları öldürmeme yasağı ve büyük suç yargısıyla birlikte, odaktaki eylem çocuğun kendi ölümü hakkında hesap sorulan kişi olduğu bir ahlaki ufka da açılır.",
+      "mechanism": "Odaktaki تَقْتُلُوا çocukların yaşamını sona erdiren eylemi yasaklar. 81:8 öldürülen kızın getirileceğini, 81:9 ise hangi suçtan öldürüldüğünü sorar. Bu bağımsız kurban-merkezli tetikleyici odağın öldürme sözcüğüne döner ve ebeveynin kıtlık gerekçesinin yanına öldürülen çocuğun sorusunu getirir.",
+      "reader_payoff": "Okur odağı yalnızca ebeveyne yöneltilen bir buyruk olarak değil, hayatı sona erdirilen çocuğun hesabının sorulduğu bir ahlaki ilişki içinde de görür.",
+      "containment": "81:8–9 kız çocuğunun diri gömülmesi bağlamındadır; 17:31 çocuğun cinsiyetini veya aynı tarihi olayı belirtmez. Bağlantı kurban açısından bir yankıdır, olay özdeşliği değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "81:8 ve 81:9'un sağlanan Arapça parçaları ile odak yüzeyi doğrudan öldürme temasını kuruyor; hedef morfolojisi bulunmadığından bağlam ilişkisi sınırlı tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001200/B001",
+          "facet_id": "F001",
+          "branch_gloss": "canını alarak öldürme",
+          "facet_statement": "Bir canlının yaşamını sona erdirip canını bedeninden ayırma eylemidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:31:2:1"
+          ],
+          "trigger_refs": [
+            "81:8",
+            "81:9"
+          ],
+          "focus_return_refs": [
+            "17:31:2:1"
+          ],
+          "carrier": "تَقْتُلُوا odakta çocukların hayatını sona erdiren eylemi yasaklar.",
+          "independent_trigger": "81:8 diri gömülen kızdan söz eder; 81:9 onun hangi suçtan öldürüldüğünü sorar.",
+          "activation": "Kurbanı adlandırıp öldürmenin hesabını soran ayrı bağlam, odağın öldürme taşıyıcısına dönerek ebeveyn gerekçesinin yanına kurbanın ahlaki konumunu ekler.",
+          "resulting_reading": "Çocuk öldürmeme buyruğu, hayatı sona erdirilen çocuğun kendi ölümüyle ilgili sorgulanışı içinde daha geniş bir sorumluluk taşır.",
+          "boundary": "Bu bağlantı odaktaki çocukları kızlarla sınırlandırmaz ve iki metnin aynı olayı anlattığını ileri sürmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_deb387f4cd8146109317",
+        "conn_5a530fa26c77aec40df5"
+      ],
+      "context_refs": [
+        "81:8",
+        "81:9"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Dokuz legacy_unbound HFT adayının her birine bağlı destek kaydında anchor_evidence boştur; HFT anchor kapsamı 0/0'dır. Exact bağlam ayeti, sözcük/kök koordinatı, atfedilmiş rol ve odağa dönen temas bulunmadığından bu payload'lar ayrı ayrı reddedildi.",
+    "Candidate kayıtlarında semantic_obligations dizisi yok; bu yüzden semantic_obligation_refs ve exclusion dizileri boş bırakıldı. Her HFT payload iddiası karar gerekçesinde kendi support_id'siyle ayrı ayrı ele alındı.",
+    "Dış Fâtiha bağlamı 1:2–1:7 olarak listelenmiş, ancak seçilmiş bağlam birimleri boş; tam Arapça yalnızca 1:5 bağlantı hedefinde mevcut. Küresel Fâtiha teması 1:5 ile sınırlandırıldı. Bağlantı hedeflerinde tam Arapça bulunmasına rağmen hedef morfolojisi ve sözlük analizi verilmediğinden çapraz-ayet okumaları qualified tutuldu."
+  ]
+}

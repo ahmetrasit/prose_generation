@@ -1,0 +1,460 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:8",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_88ad6e3e77f46e03cb4b",
+      "decision": "narrow",
+      "reason": "The pericope context and focus wording support an extracted, weak source yielding continuing descendants. The state-change branch on jaʿala lacks a result-state complement; the infertile-animal and fluid-deposition branches do not fit the actual adjective and noun carriers.",
+      "finding_refs": ["macro:extracted_lineage"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000248/B002",
+          "reason": "Jaʿala governs progeny and a min-source phrase here; the supplied context orders creation stages but does not supply a pre-existing participant being brought to a result state."
+        },
+        {
+          "branch_ref": "root_001453/B006",
+          "reason": "This branch specifically names an infertile male camel or sheep because of weak reproductive fluid. Mahīn modifies the fluid itself, and the focus does not name that animal or assert inability to fertilize."
+        },
+        {
+          "branch_ref": "root_001458/B004",
+          "reason": "The branch is an action of a male animal depositing fluid in a female womb; the focus carrier is the noun māʾ and supplies neither that action nor its participants."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_880cf6c5289f9cc48d13",
+      "decision": "narrow",
+      "reason": "The attributed delivery link from 32:2 meets the focus lineage and extract and yields a bounded transmission analogy. Its cited māʾ branch is an action-specific deposit reading, incompatible with the focus noun, so that branch role is excluded while the ordinary reproductive-fluid carrier remains.",
+      "finding_refs": ["macro:delivered_transmission"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001458/B004",
+          "reason": "The registry restricts this non-bare branch to the act of a male animal depositing fluid in a female womb. The focus has the noun māʾ, with no depositor or womb-directed act."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1e1f77f2626cc474b199",
+      "decision": "accept",
+      "reason": "The exact supplied Arabic for 32:7–9 supports the ordered clay-origin, reproductive-extraction, and later formation sequence. Each context trace names a surface-consistent word index and root and returns through the focus; unresolved context branch meanings remain attributed rather than glossed.",
+      "finding_refs": ["macro:staged_human_formation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:extracted_lineage",
+      "origin_candidate_id": "cand_88ad6e3e77f46e03cb4b",
+      "represented_candidate_ids": [],
+      "title": "Extracted continuity",
+      "claim": "Across the pericope's clay origin, reproductive stage, and later formation, 32:8 presents continuing descendants as an outcome drawn from a low-potency source: nasl carries succession, while sulaala places an extract between the descendants and its fluid origin.",
+      "mechanism": "At 32:8:3:1, nasl names offspring that continue; at 32:8:5:1, sulaala carries both the extracted substance and its source relation, repeated through min at 32:8:4:1 and 32:8:6:1. The earlier clay-origin account at 32:7 and later formation at 32:9 make this reproductive fluid one material stage in an ordered account. Their contact changes a flat transfer from fluid into a source-to-lineage process whose small beginning yields continuing descent.",
+      "reader_payoff": "The reader can perceive continuity as something drawn from a slight material source, while the surrounding sequence keeps that source distinct from the whole account of human formation.",
+      "containment": "The ordinary claim remains intact: progeny is made from an extract of reproductive fluid. The added image concerns extraction and continuity; the wording does not establish a detailed biological mechanism, an independently marked secrecy, or the total worth of a human being.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus surface, its accepted root branches, the trusted channel evidence, and the supplied adjacent ayah texts support the source-to-descendant relation. The narrower boundaries follow the actual carriers and sequence."
+      },
+      "support_ids": [
+        "sup_1667cfdcf959f9f4910b",
+        "sup_1a99109551fb2db07d7d",
+        "sup_779be1803767ff65fa3f",
+        "sup_baa3e36b34a7de49e264",
+        "sup_c283f8442af4769abd15"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000736/B001",
+          "facet_id": "F001",
+          "branch_gloss": "nazikçe ve fark ettirmeden çekip çıkarma",
+          "facet_statement": "Bir nesneyi bağlı veya kapalı bulunduğu yerden çekerek ayırıp çıkarma işlemi vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:5:1"],
+          "trigger_refs": ["32:8:3:1", "32:8:4:1", "32:8:6:1"],
+          "focus_return_refs": ["32:8:5:1"],
+          "carrier": "Sulaala names the extracted substance as the middle element between progeny and its source.",
+          "independent_trigger": "Nasl supplies continuing offspring, and the two min phrases separately mark the extract's source and the fluid beneath it.",
+          "activation": "The progeny and the doubled source relation meet the extraction carrier, making the lineage read as drawn from material rather than as an undifferentiated transfer.",
+          "resulting_reading": "An extract mediates the passage from reproductive fluid to continuing descendants.",
+          "boundary": "The noun and source phrases support extraction; they do not independently specify a hidden agent or a physical technique."
+        },
+        {
+          "branch_ref": "root_000736/B003",
+          "facet_id": "F001",
+          "branch_gloss": "kökenden çıkan yavru veya öz",
+          "facet_statement": "Bir varlığın kendi kökeninden çıkması veya ondan türemesi temel ilişkidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:5:1"],
+          "trigger_refs": ["32:8:3:1", "32:8:4:1", "32:8:6:1"],
+          "focus_return_refs": ["32:8:5:1"],
+          "carrier": "Sulaala can name an essence that comes out of a source.",
+          "independent_trigger": "Nasl identifies the resulting offspring, while the two min phrases locate its material source in an extract and then in fluid.",
+          "activation": "The extract's origin meaning meets the named descendants and explicit source chain, so the relation between source and offspring becomes part of the image.",
+          "resulting_reading": "The progeny is heard as emerging from an intermediate essence rooted in the fluid source.",
+          "boundary": "This is a source-to-result image in the supplied wording, not a claim that the verse supplies a complete account of conception."
+        },
+        {
+          "branch_ref": "root_000736/B003",
+          "facet_id": "F003",
+          "branch_gloss": "kökenden çıkan yavru veya öz",
+          "facet_statement": "Bir şeyden çekilip alınan öz ve insanın üreme maddesi aynı köken ilişkisine dayalı maddi kullanımlardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:5:1"],
+          "trigger_refs": ["32:8:3:1", "32:8:4:1", "32:8:6:1"],
+          "focus_return_refs": ["32:8:5:1"],
+          "carrier": "Sulaala names a drawn-out essence or reproductive material.",
+          "independent_trigger": "Nasl supplies the offspring outcome and the repeated min phrases identify the source chain.",
+          "activation": "The material-essence facet meets the focus's explicit progeny and source phrases, making the extract a generative middle term.",
+          "resulting_reading": "The reproductive material is an essence drawn from a source and carried into lineage.",
+          "boundary": "The extension is carried with its core origin relation; no further substance or process is added."
+        },
+        {
+          "branch_ref": "root_001453/B001",
+          "facet_id": "F001",
+          "branch_gloss": "değersizlik, güçsüzlük ve azlık",
+          "facet_statement": "Bir varlıkta hor görülmeye yol açan değersizlik ve aşağı düzey bulunmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:8:1"],
+          "trigger_refs": ["32:8:3:1", "32:8:5:1", "32:7", "32:9"],
+          "focus_return_refs": ["32:8:8:1"],
+          "carrier": "Mahīn qualifies the reproductive fluid as low and weak.",
+          "independent_trigger": "Nasl's continuing offspring and sulaala's extract meet the weak source; 32:7 and 32:9 place it between clay-origin and later formation.",
+          "activation": "The lowly material is shown yielding continuity and occupying only one stage in the surrounding sequence, so its description does not spread to the whole human.",
+          "resulting_reading": "A slight source gives rise to continuing lineage within a larger account of formation.",
+          "boundary": "The phrase evaluates the fluid, not the total worth of the resulting human."
+        },
+        {
+          "branch_ref": "root_001453/B001",
+          "facet_id": "F003",
+          "branch_gloss": "değersizlik, güçsüzlük ve azlık",
+          "facet_statement": "Aynı niteleme, bir nitelik veya kapasitedeki azlık ve yetersizliğe uzanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:8:1"],
+          "trigger_refs": ["32:8:3:1", "32:8:5:1", "32:7", "32:9"],
+          "focus_return_refs": ["32:8:8:1"],
+          "carrier": "Mahīn carries low capacity or weakness in its qualification of the fluid.",
+          "independent_trigger": "The extract and offspring phrases show what this weak medium produces, and the surrounding clay-to-formation sequence limits the adjective to this phase.",
+          "activation": "The capacity reading contacts the reproductive source and its continuing result, giving the contrast between weak material and durable succession a concrete role.",
+          "resulting_reading": "Low-potency material is presented as the source of a continuing lineage.",
+          "boundary": "The sequence supports a contrast in stages, not a measurement of reproductive capacity."
+        },
+        {
+          "branch_ref": "root_001499/B001",
+          "facet_id": "F001",
+          "branch_gloss": "birbirinden üreyen çocuklar ve yavrular",
+          "facet_statement": "Bir canlıdan doğan çocuklar ya da yavrular, birbirini izleyen kuşaklar halinde onun soy devamını oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:3:1"],
+          "trigger_refs": ["32:8:5:1", "32:8:4:1", "32:8:6:1"],
+          "focus_return_refs": ["32:8:3:1"],
+          "carrier": "Nasl is the progeny that continues from a prior human referent.",
+          "independent_trigger": "Sulaala and the doubled min relation specify the source from which that progeny is made.",
+          "activation": "Continuing descendants meet an explicit extracted source, making the generational result legible as lineage emerging from material.",
+          "resulting_reading": "The source phrase describes how a succession of descendants begins.",
+          "boundary": "The focus names progeny; it does not enumerate generations or supply a genealogy."
+        },
+        {
+          "branch_ref": "root_001499/B003",
+          "facet_id": "F001",
+          "branch_gloss": "ayrılıp çıkma ve düşme",
+          "facet_statement": "Bir parça, bağlı ya da içinde bulunduğu bütünden çözülerek ayrılır, dışarı çıkar veya düşer.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:3:1"],
+          "trigger_refs": ["32:8:5:1", "32:8:4:1", "32:8:6:1"],
+          "focus_return_refs": ["32:8:3:1"],
+          "carrier": "Nasl carries the progeny term, whose related separation facet is nominated for this occurrence.",
+          "independent_trigger": "Sulaala names an extract and the repeated min phrases explicitly mark source and material.",
+          "activation": "The separation facet meets the focus's extracted-source relation, so the descendants can be perceived as issued from a material origin.",
+          "resulting_reading": "Lineage appears as emergence from a source as well as succession from a prior human.",
+          "boundary": "The reading adds source-separation imagery to progeny; it does not replace the ordinary sense of descendants."
+        }
+      ],
+      "connection_refs": ["conn_7bbfa8b41a37f5113d86", "conn_42b8026acbe30169db44"],
+      "context_refs": ["32:7", "32:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:delivered_transmission",
+      "origin_candidate_id": "cand_880cf6c5289f9cc48d13",
+      "represented_candidate_ids": [],
+      "title": "A delivered source",
+      "claim": "The focus still says that progeny is made from reproductive fluid. In an attributed contextual resonance, the descent-and-delivery cue at 32:2 meets the focus's nasl, sulaala, and doubled min source relation, making that fluid also legible as a deposit issued from a source and carried into succession.",
+      "mechanism": "The HFT trace locates word 1 of 32:2 in the descent root and attributes both a delivery facet and an emitted-fluid branch there. Those context readings contact nasl at 32:8:3:1, the extracted essence at 32:8:5:1, and the two source markers at 32:8:4:1 and 32:8:6:1. Their contact shifts the focus from fluid only as substance to a directional transmission image; the connection remains the HFT author's analogy.",
+      "reader_payoff": "The reproductive medium can be seen as moving from source to successor, adding direction to the focus's ordinary material account.",
+      "containment": "The focus's plain statement remains recoverable. The supplied 32:2 text concerns the Book's descent, and no claim is made that it describes reproduction or that the two passages have the same subject.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact Arabic anchors and focus carriers are supplied, but the 32:2 branch meanings and the reader's contextual analogy are legacy_unbound nominations; the live alternative is that 32:2 describes only the Book's descent."
+      },
+      "support_ids": ["sup_8fb5f0e8692e72e2c3dc"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001499/B001",
+          "facet_id": "F001",
+          "branch_gloss": "birbirinden üreyen çocuklar ve yavrular",
+          "facet_statement": "Bir canlıdan doğan çocuklar ya da yavrular, birbirini izleyen kuşaklar halinde onun soy devamını oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:3:1"],
+          "trigger_refs": ["32:2"],
+          "focus_return_refs": ["32:8:3:1"],
+          "carrier": "Nasl names continuing progeny at the focus.",
+          "independent_trigger": "The legacy_unbound trace locates a descent-and-delivery cue at word 1 of the supplied 32:2 Arabic.",
+          "activation": "The context's attributed directional delivery meets the focus's descendant term, making succession read as something carried onward from a source.",
+          "resulting_reading": "The offspring remain descendants while also participating in a directional transmission image.",
+          "boundary": "The contact is analogical and does not make revelation and biological descent the same event."
+        },
+        {
+          "branch_ref": "root_000736/B003",
+          "facet_id": "F001",
+          "branch_gloss": "kökenden çıkan yavru veya öz",
+          "facet_statement": "Bir varlığın kendi kökeninden çıkması veya ondan türemesi temel ilişkidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:5:1"],
+          "trigger_refs": ["32:2"],
+          "focus_return_refs": ["32:8:5:1"],
+          "carrier": "Sulaala is an extract or essence emerging from a source.",
+          "independent_trigger": "The attributed 32:2 descent cue supplies direction from an origin toward a recipient.",
+          "activation": "The directional cue contacts the focus's source-derived essence, adding onward movement to its extracted-material reading.",
+          "resulting_reading": "The extract can be read as a source-derived portion in a chain of transmission.",
+          "boundary": "The analogy is contextual; the verse still states the ordinary reproductive source."
+        },
+        {
+          "branch_ref": "root_000736/B003",
+          "facet_id": "F003",
+          "branch_gloss": "kökenden çıkan yavru veya öz",
+          "facet_statement": "Bir şeyden çekilip alınan öz ve insanın üreme maddesi aynı köken ilişkisine dayalı maddi kullanımlardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:5:1"],
+          "trigger_refs": ["32:2"],
+          "focus_return_refs": ["32:8:5:1"],
+          "carrier": "Sulaala names the reproductive essence drawn from a material source.",
+          "independent_trigger": "The supplied 32:2 anchor carries the HFT-attributed direction of descent and delivery.",
+          "activation": "The source-derived essence meets the separate descent cue, making the fluid's role feel directional rather than merely present.",
+          "resulting_reading": "The reproductive essence becomes a delivered portion within a source-to-successor image.",
+          "boundary": "This remains an attributed analogy and adds no independent account of the body's process."
+        },
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2"],
+          "trigger_refs": ["32:8:3:1", "32:8:5:1", "32:8:4:1", "32:8:6:1"],
+          "focus_return_refs": ["32:8:3:1", "32:8:5:1"],
+          "carrier": "The exact 32:2 Arabic supplies تنزيل at word index 1; the HFT trace attributes this context occurrence to a caused-descent and delivery role, while no independent branch record is supplied.",
+          "independent_trigger": "The focus names progeny and an extract, with two min phrases tracing the reproductive material to its source.",
+          "activation": "The attributed delivery cue at 32:2 contacts the focus's source-to-descendant relation and gives it a directional transmission reading.",
+          "resulting_reading": "The reproductive portion is also perceived as issued and carried onward.",
+          "boundary": "No branch gloss or facet is inferred; the attributed cue may remain about the Book's descent alone."
+        },
+        {
+          "branch_ref": "root_001492/B009",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2"],
+          "trigger_refs": ["32:8:7:1", "32:8:5:1", "32:8:3:1"],
+          "focus_return_refs": ["32:8:7:1", "32:8:5:1"],
+          "carrier": "At word index 1 of the supplied 32:2 Arabic, the HFT trace attributes an emitted-fluid branch to تنزيل; the registry marks this branch unresolved.",
+          "independent_trigger": "The focus explicitly supplies reproductive fluid, an extract, and descendants.",
+          "activation": "The attributed emitted-fluid role meets the focus's reproductive medium, allowing the contextual descent cue to return to the focus as a bodily transmission analogy.",
+          "resulting_reading": "The separate descent cue is read as carrying an emission resonance into the focus's source-to-successor image.",
+          "boundary": "This is only the HFT-attributed role; no lexical gloss, facet, or biological event is asserted for 32:2."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["32:2"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:staged_human_formation",
+      "origin_candidate_id": "cand_1e1f77f2626cc474b199",
+      "represented_candidate_ids": [],
+      "title": "A middle phase of formation",
+      "claim": "The pericope places 32:8 between an initial human origin from clay in 32:7 and later fashioning, breath, spirit, and faculties in 32:9. In that ordered account, sulaala marks an intermediate material transition and mahīn qualifies the reproductive fluid at this stage, not the completed human as a whole.",
+      "mechanism": "The focus opens with thumma and names an extract from weak fluid; 32:7 supplies the beginning and clay material, while 32:9 continues to shaping, breath, spirit, hearing, sight, and hearts. The earlier goodness statement and later formation meet the focus's weak-material adjective, shifting it from a reductive definition of humanity to one bounded phase in the supplied sequence. The six context-root roles remain attributed because their branch records are unresolved.",
+      "reader_payoff": "The reader can hold the weak reproductive material within a larger sequence of human formation and see why its description does not exhaust the human being.",
+      "containment": "The plain reproductive statement remains intact. This preserves the HFT's phase-relative inference without claiming a complete biological chronology or resolving every referent across 32:7–9.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The exact Arabic for all three ayat and the focus word alignment are supplied, but the context segmentation, roots, and branch roles come from a legacy_unbound HFT trace with unresolved registry branches."
+      },
+      "support_ids": ["sup_923a52e594a4ed0eee44"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000736/B003",
+          "facet_id": "F001",
+          "branch_gloss": "kökenden çıkan yavru veya öz",
+          "facet_statement": "Bir varlığın kendi kökeninden çıkması veya ondan türemesi temel ilişkidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:5:1"],
+          "trigger_refs": ["32:8:1:1", "32:7", "32:9"],
+          "focus_return_refs": ["32:8:5:1"],
+          "carrier": "Sulaala is the focus's extract or essence, carrying an origin relation.",
+          "independent_trigger": "Thumma at the focus and the supplied clay-origin and later-formation contexts order this extract between earlier and later stages.",
+          "activation": "The focus's origin-bearing extract meets the context sequence, making it the intermediate material phase rather than an exhaustive account of the person.",
+          "resulting_reading": "The extract is one transition in the staged account of human formation.",
+          "boundary": "The sequence is attributed contextual evidence and does not prove a detailed biological timeline."
+        },
+        {
+          "branch_ref": "root_000736/B003",
+          "facet_id": "F003",
+          "branch_gloss": "kökenden çıkan yavru veya öz",
+          "facet_statement": "Bir şeyden çekilip alınan öz ve insanın üreme maddesi aynı köken ilişkisine dayalı maddi kullanımlardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:5:1"],
+          "trigger_refs": ["32:8:1:1", "32:7", "32:9"],
+          "focus_return_refs": ["32:8:5:1"],
+          "carrier": "Sulaala carries the material-essence use of an extract.",
+          "independent_trigger": "The clay origin precedes it and the shaped, breathed, faculty-bearing figure follows it in the supplied context.",
+          "activation": "The sequence places reproductive essence between a first material origin and a later embodied completion.",
+          "resulting_reading": "The reproductive extract functions as a middle material stage in the account.",
+          "boundary": "The extension is retained with its core origin relation; the context does not supply a full causal model."
+        },
+        {
+          "branch_ref": "root_001453/B001",
+          "facet_id": "F001",
+          "branch_gloss": "değersizlik, güçsüzlük ve azlık",
+          "facet_statement": "Bir varlıkta hor görülmeye yol açan değersizlik ve aşağı düzey bulunmasıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:8:1"],
+          "trigger_refs": ["32:8:5:1", "32:7", "32:9"],
+          "focus_return_refs": ["32:8:8:1"],
+          "carrier": "Mahīn qualifies the reproductive fluid as weak or low.",
+          "independent_trigger": "The focus's extract supplies the material phase; the supplied goodness of creation in 32:7 and later formation in 32:9 give independent context.",
+          "activation": "The weak adjective is bounded by the sequence and by the goodness statement, so it describes the phase's material rather than marking the created human as defective.",
+          "resulting_reading": "Weakness belongs to the reproductive medium within a larger process of formation.",
+          "boundary": "This contextual reading does not assign low worth to the human being."
+        },
+        {
+          "branch_ref": "root_001453/B001",
+          "facet_id": "F003",
+          "branch_gloss": "değersizlik, güçsüzlük ve azlık",
+          "facet_statement": "Aynı niteleme, bir nitelik veya kapasitedeki azlık ve yetersizliğe uzanır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:8:8:1"],
+          "trigger_refs": ["32:8:5:1", "32:7", "32:9"],
+          "focus_return_refs": ["32:8:8:1"],
+          "carrier": "Mahīn carries a low-capacity or weakness reading on the fluid.",
+          "independent_trigger": "The earlier good creation and the later fashioned, breathed, faculty-bearing figure are supplied outside the focus.",
+          "activation": "Those contexts keep the low-capacity reading local to the material phase while the sequence continues into formed life.",
+          "resulting_reading": "The fluid's weakness is phase-relative within the ordered account.",
+          "boundary": "The contexts qualify the adjective's scope; they do not measure the fluid or establish a technical account of fertility."
+        },
+        {
+          "branch_ref": "root_000323/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:7"],
+          "trigger_refs": ["32:8:8:1", "32:8:5:1"],
+          "focus_return_refs": ["32:8:8:1"],
+          "carrier": "The supplied 32:7 Arabic at word index 2 contains ahsana; the HFT attributes a goodness-against-defect role to this unresolved context branch.",
+          "independent_trigger": "Mahīn qualifies the focus's reproductive fluid as weak, while sulaala locates it as a material stage.",
+          "activation": "The goodness role from 32:7 meets the focus's weak-material description and limits it to the fluid rather than creation's total quality.",
+          "resulting_reading": "The weak material does not make the whole created human defective.",
+          "boundary": "The branch role is attributed; no independent gloss or facet is supplied."
+        },
+        {
+          "branch_ref": "root_000090/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:7"],
+          "trigger_refs": ["32:8:1:1", "32:8:5:1"],
+          "focus_return_refs": ["32:8:1:1", "32:8:5:1"],
+          "carrier": "The supplied 32:7 Arabic at word index 6 contains badaʾa; the HFT attributes an opening-or-beginning role to this unresolved context branch.",
+          "independent_trigger": "Thumma opens the focus's next stage and sulaala names its extracted material.",
+          "activation": "The context's beginning marker meets the focus's delayed transition and extract, distinguishing the clay origin from reproductive continuation.",
+          "resulting_reading": "The focus is read as a later reproductive phase after the initial clay-origin account.",
+          "boundary": "This is an attributed sequence relation, not a claim that the ayat detail one continuous biological chronology."
+        },
+        {
+          "branch_ref": "root_000963/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:7"],
+          "trigger_refs": ["32:8:1:1", "32:8:5:1", "32:8:4:1"],
+          "focus_return_refs": ["32:8:1:1", "32:8:5:1"],
+          "carrier": "The supplied 32:7 Arabic at word index 10 contains tin; the HFT attributes a mixed-clay first-material role to this unresolved branch.",
+          "independent_trigger": "The focus's thumma and extracted-fluid phrase mark a subsequent reproductive-material stage.",
+          "activation": "The clay carrier meets the focus's ordered transition and extract, making the two material descriptions distinct stages in the supplied sequence.",
+          "resulting_reading": "Clay origin and reproductive fluid occupy different positions in the account.",
+          "boundary": "The HFT branch and word segmentation remain attributed; no additional clay gloss is inferred."
+        },
+        {
+          "branch_ref": "root_000766/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:9"],
+          "trigger_refs": ["32:8:5:1", "32:8:8:1"],
+          "focus_return_refs": ["32:8:5:1", "32:8:8:1"],
+          "carrier": "The supplied 32:9 Arabic at word index 2 contains sawwāhu; the HFT attributes an integration-and-completion role to this unresolved context branch.",
+          "independent_trigger": "The focus's extracted essence and weak-fluid adjective describe the material stage immediately before this supplied context.",
+          "activation": "The later completion role meets the focus's material input and clarifies that the weak extract is followed by formation into a whole.",
+          "resulting_reading": "The fluid is an input in an account that proceeds to later formation.",
+          "boundary": "The completion relation is attributed and does not establish a comprehensive causal sequence."
+        },
+        {
+          "branch_ref": "root_001529/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:9"],
+          "trigger_refs": ["32:8:1:1", "32:8:5:1"],
+          "focus_return_refs": ["32:8:1:1", "32:8:5:1"],
+          "carrier": "The supplied 32:9 Arabic at word index 3 contains nafakha; the HFT attributes a sending-breath role to this unresolved context branch.",
+          "independent_trigger": "Thumma orders the focus as a prior stage, and sulaala identifies its extracted material.",
+          "activation": "The later breath role meets the focus's material stage and marks a transition beyond extraction.",
+          "resulting_reading": "The supplied sequence continues from material extraction into a later breath act.",
+          "boundary": "This is the HFT's attributed stage relation; no branch gloss or facet is independently supplied."
+        },
+        {
+          "branch_ref": "root_000609/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": ["32:9"],
+          "trigger_refs": ["32:8:5:1", "32:8:8:1"],
+          "focus_return_refs": ["32:8:5:1", "32:8:8:1"],
+          "carrier": "The supplied 32:9 Arabic at word index 6 contains rūḥihi; the HFT attributes a life-bearing-spirit role to this unresolved context branch.",
+          "independent_trigger": "The focus names a weak reproductive medium and an extract as its material stage.",
+          "activation": "The later spirit role meets the weak material description and marks what the HFT treats as a living completion beyond that material.",
+          "resulting_reading": "The material phase does not exhaust the later account of embodied life.",
+          "boundary": "The attributed role supports containment only; it does not establish a complete metaphysical or biological model."
+        }
+      ],
+      "connection_refs": ["conn_7bbfa8b41a37f5113d86", "conn_42b8026acbe30169db44"],
+      "context_refs": ["32:7", "32:9"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Both HFT records are legacy_unbound and their packet scope is broader than the declared pericope. Exact Arabic anchors are supplied, but the context word indices, roots, branch roles, and reader interpretations remain attributed; unresolved context branches are therefore carried without invented glosses or facets."
+  ]
+}

@@ -1,0 +1,189 @@
+# V5 reading invitation — 31:9
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s031-regular-20260919/s031/31_9/31_9.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s031-regular-20260919/s031/31_9/31_9.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Bahçede kalış
+
+Bu âyet, Allah’ın iman edip iyi işler yapanlara nimet bahçelerini vaat ettiğini ve onların orada kalacağını bildirir. (31:8)’de açılan bahçe sahnesi sürerken {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar} akuzatifte duran etkin ortaç biçimiyle sakinleri yeni bir olaya girenler olarak değil, kalıcı hâlde bulunanlar olarak gösterir. Ardından gelen {ar:فِيهَا, tr:fīhā, gloss:onların içinde} ifadesinin dişil tekil -hā eki, bahçe adını yinelemeden o bahçelere döner; en yakın karşılık burasıdır, ancak zamir daha geniş nimet hâline de uzanabilir. Böylece süre, soyut bir zaman ölçüsü olmaktan çıkıp içinde yaşanan ikamete bağlanır. {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar} ile {ar:فِيهَا, tr:fīhā, gloss:onların içinde} kelimelerindeki uzun ī sesleri bu yer bağını işitilir kılar. Sözlükte âhiret yurdunda kesintisiz kalış için verilen örnek de bu yakın bahçe ve ses birlikteliğinde yankılanır.
+
+Bu yerleşik ikametin niteliğini (31:8)’deki iman, salih işler ve nimet bahçeleri birlikte boyar. {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} olağan iman anlamını korurken güven ve emniyet yönü de açılır; salih işler ve bahçe vaadiyle buluşunca güven, kalıcı bir sonuca yönelen esenlik gibi duyulur. Güvenin bu bağlamda esenlik gibi duyulması, kelimeyi tek başına fiziksel koruma bildiren bir anlama dönüştürmez. {ar:جَنَّٰتُ ٱلنَّعِيمِ, tr:jannāt al-naʿīm, gloss:nimet bahçeleri} gerçek bahçeleri adlandırır; örtme ve gizleme kullanımı, {ar:فِيهَا, tr:fīhā, gloss:onların içinde} ile kurulan iç mekâna ve {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar} ile süren kalışa bir çevre verir. Aynı kelimenin ağaçlarla örtülü bahçe kullanımı bu çevreyi yaşanan bir yere dönüştürür. Örtü ve içeride kalışın birleşmesi bahçeyi sığınak gibi duyurur; bu benzetim belirli bir tehdidi ya da gerçek bir kalkanı varsaymaz, bitkiler de metinde ayrıca sayılmaz. Nimet ve hoşluk anlamındaki naʿīm’in esenlik ve ihsan yönü, bu kalışı uygun ve huzurlu bir konaklama gibi niteler; yeni duyusal ayrıntılar eklemez.
+
+## Sözün kaynağı ve doğruluğu
+
+Bahçede sürüp giden hâlin ardından {ar:وَعْدَ, tr:waʿda, gloss:vaat} bu kalışı güvenceye alan sözü getirir. Buradaki akuzatif maṣdar, yani fiilden türemiş ad, hem söz verme eylemini hem vaat edilen içeriği adlandırır. Waʿda’nın anlam alanı gelecekte iyi ya da kötü bir şeyin sözle bildirilmesini kapsar; olumlu yönü kelime tek başına seçmez. (31:8)’deki nimet bahçeleri vaadin neyi içerdiğini açıklar; {ar:وَعْدَ ٱللَّهِ, tr:waʿda Allāhi, gloss:Allah’ın vaadi} tamlamasında genitif {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah’ın} ise sözün sahibini ve kaynağını gösterir. Böylece 31:9’un vaadi adsız bir gelecek beklentisi değil, bu bahçelerde kalışa ilişkin Allah’ın sözü olur.
+
+Vaadin ardından gelen {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} ikinci maṣdar, doğruluk durumunu sözün yanına koyar. Kelimenin bir şeyi doğru diye belirleyip onaylama kullanımı da burada duyulur: ikamet yalnızca umut edilen değil, vaadin kendi söylenişinde doğrulanan sonuçtur. Hakk kelime ailesinin bağlayıcı gereklilik ya da birine düşen pay anlamı, sözün yerine getirilmesi gerektiği yönünde bir bağlılık tonu ekler; bu çağrışım yararlanıcının ödülü hak ettiğini veya belirli bir hukukî alacağının doğduğunu saptamaz. {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} sonundaki tenvin, {ar:وَهُوَ, tr:wa-huwa, gloss:ve O}ya geçerken doğrulama vuruşunu sesçe kapatır.
+
+Bu ses kapanışının ardından {ar:وَ, tr:wa, gloss:ve} ya güvence cümlesini sürdürür ya da bir hâl ilişkisi kurar; her iki okumada da {ar:هُوَ, tr:huwa, gloss:O} ile ilahî nitelemelere geçilir. Yazıda bitişik duran wa-huwa, tek akışta işitilse de bağlaç ile bağımsız zamiri birleştirmez: huwa özne olarak kalır ve iki yüklemi kendisine bağlar. Buradaki {ar:فِيهَا, tr:fīhā, gloss:onların içinde} içindeki dişil tekil zamir bahçelere, huwa’daki eril tekil zamir ise {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah’ın} adına döner; bu ayrım son sıfatların kime ait olduğunu gösterir. Allah adının vaad ile doğruluk arasında, sonra da huwa’nın önünde yer alması, doğrulanmış sözü onu verenin kimliğine bağlar. Burada Allah, Yaratıcıya özgü özel addır. “Tapınılan varlık” yönündeki ayrı kullanım, vaadin sahibi oluşu ve ardından gelen kudret-hikmet nitelemeleriyle birleşince otoriteyi de duyurur; bu çağrışım özel adı genel bir tür adına dönüştürmez ve kelimeye korku ya da dehşet anlamı yüklemez.
+
+Bu kaynak adı, okumanın başındaki (31:0) besmeleyle de aynı ilahî göndergeye yönelir: {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismi llāhi al-Raḥmāni al-Raḥīm, gloss:Rahmân ve Rahîm olan Allah’ın adıyla}. Besmeledeki {ar:ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:al-Raḥmān al-Raḥīm, gloss:Rahmân ve Rahîm} adları ile (31:8)’de hemen sunulan bahçeler, (31:9)’daki {ar:وَعْدَ ٱللَّهِ, tr:waʿda Allāhi, gloss:Allah’ın vaadi}ni rahmetle çerçevelenmiş bir güvence gibi duyurabilir; bu yakınlığın katkısı vaat ile bahçe ödülünü rahmet bağlamında yan yana getirmektir. Besmele sıfatları vaadin dilbilgisel niteleyicisi olmaz; rahmet ile bahçe ödülü arasındaki bağ burada bağlamsal bir çağrışım olarak kalır.
+
+Vaadi verenin kimliği açık zamirden sonra iki yerleşik nitelemeyle tamamlanır: {ar:ٱلْعَزِيزُ, tr:al-ʿazīzu, gloss:yenilmez kudret sahibi} ilk, {ar:ٱلْحَكِيمُ, tr:al-ḥakīmu, gloss:hikmetle hükmeden} ikinci nominatif yüklemdir. Belirlilik takısı ve faʿīl biçimi ikisini de geçici bir olay değil, Allah’a ait övülen nitelikler olarak kurar. İlk sıradaki ʿazīz kudreti, yenilmezliği ve izzeti verir; vaadin yanında bu, sözün yerine gelmesini taşıyacak kapasiteyi duyurur. Kelime ailesindeki birine ya da şeye güç kazandıran geçişli kullanım bu kapasiteyi pekiştiren bir yankı verir; burada ʿazīz ayrı bir güçlendirme eylemini değil, yenilmez bir unvanı niteler. Ardından gelen ḥakīm bilgiyi ve usla doğru sonuca ulaşmayı, ayrıca düzeni sağlamlaştırıp kusursuz tamamlamayı taşır. Ḥakīm’in zarardan koruma ve bu koruma altında durumu düzeltme yönündeki ayrı kullanımı sağlam tertip fikrine koruyucu bir ton ekler; bu çağrışım burada bir hekim ya da onarım sahnesi kurmaz. Kudret önce imkânı, hikmet sonra doğru tertibi verir; bu sıra nitelikler arasında üstünlük kurmaz. İki adın uzun ī sesleri ve aynı nominatif u sonları da kapanışta dengeli bir ses çifti oluşturur. Böylece bahçede kalıcı kalış vaat edilen içerik, ḥaqqan onun doğruluğu, ʿazīz onu gerçekleştirme gücü, ḥakīm ise yerinde ve sağlam düzeni olarak birbirini tamamlar.
+
+## Vaadin yeri ve bugünkü izi
+
+Vaadin içeriği bahçede kalış olarak belirince, {ar:وَعْدَ, tr:waʿda, gloss:vaat} için başka ve sınırlı bir sözlük kullanımı da sözün ya da anlaşmanın gerçekleşeceği yeri düşündürür. Burada {ar:فِيهَا, tr:fīhā, gloss:onların içinde} bahçeyi varış yeri yapar. {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} kelimesinin başka ve sınırlı kullanımı, iki kemiğin birleştiği eklemdir; eklem parçaların uyumsuzluk ya da sızıntı olmadan buluşmasını, böylece vaat, alıcı ve varış yerinin uygun biçimde birleşmesini düşündürür. {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} için sert ve sıkı zemin anlamı da taş olmayı gerektirmeden varış yerinin tutunmasını duyurur; {ar:ٱلْعَزِيزُ, tr:al-ʿazīzu, gloss:yenilmez kudret sahibi}nin tutan gücü ve {ar:ٱلْحَكِيمُ, tr:al-ḥakīmu, gloss:hikmetle hükmeden}in düzeni bu sağlamlık benzetimini taşır. Uygun kap ya da eklem ilişkisi anlamındaki başka kullanım içerik ile yerin uyuşmasını tamamlar. Böylece eklem parçaların sızıntısız birleşmesine, zemin varış yerinin sağlamlığına, kap da uygunluğa katkı verir; bu imgeler vaadin gerçek çevirisine dönüşmez ve burada belirli bir gerçekleşme tarihi verilmez.
+
+Vaadin yeri belirli olabilse de (31:34)’te saatin bilgisi Allah’ın yanında tutulur; insan yarın ne kazanacağını ve nerede öleceğini bilmez. Bu karşılaşma, waʿda için belirli bir vakit ya da yer taşıyabilen ayrı kullanımı açar: söz doğru kalırken vakti ve takvimi insana kapalı olabilir. {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} doğruluğu zaman açıklığına bağlamaz. (31:34)’ün vaadin tali ayrıntılarını sınırlıyor olma ihtimali açıktır; bu karşılaşma kesinliği takvim bilgisine dönüştürmez.
+
+Takvimi bilinemeyen gelecek, vaadin bugünkü etkisini ortadan kaldırmaz. Waʿda’nın ayrı bir kullanımı mevcut belirtilerin gelecekteki durum hakkında beklenti doğurmasını anlatır; hemen ardından gelen {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} bu beklentiyi doğrulanmış bir işaret gibi duyurur. {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar}ın düşüncenin yerleştiği alanı ya da orada kalan düşünceyi anlatan ayrı kullanımları, işaretin zihinde yer tutması yönünü ekler. Bu iki yankı gelecek vaadini şimdi güvenilir bir beklenti gibi düşündürür; bağlantı bilişsel düzeyde kalır, fiziksel kehanet kurmaz ve khālidīna burada “zihin” ya da “kalp” diye çevrilmez.
+
+Bu zihinde yer eden işaretten ayrı bir sözlük resmi, waʿda’yı doğal biçimde toplanmış suya ya da o suyun bulunduğu yere bağlar; daha dar kullanımda, su çekildikçe tükenmeyen bir kaynağı anlatır. Bu su imgesinde kaynağın tükenmemesi süre boyunca beslenmeyi, {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar}ın sürekliliği kalıcı ikameti, {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak}ın eklem ya da uygun kap çağrışımı ise parçaların sızıntısız uyuşmasını verir. Birlikte bu ayrıntılar vaadi bahçe ikametini süre boyunca besleyen bir kaynak gibi duyurur. Maddi imge sözü genişletir; vaadi doğrudan suya çevirmeden ikametin nasıl beslendiğini düşündürür.
+
+## Kalıcılığın ilişkisi ve ölçüsü
+
+Bu kalışın ilişki yönü (31:22)’deki teslimiyet sahnesiyle belirginleşir. {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar} kelime ailesinin yalnız belirli kalıplarda görülen “bir şeye yönelip bağlanma, ayrılmadan kalma” kullanımı, Allah’a güvenle teslim olma ve O’na yönelme ile temas eder. (31:22)’de tutulan güvenilir kulp bağı sürdürür, tutuşun sağlamlığı kopmayı önler, son hedef ise yönelişe varış verir. Önceki bahçeyi gösteren {ar:فِيهَا, tr:fīhā, gloss:onların içinde} ve tek taraflı {ar:وَعْدَ, tr:waʿda, gloss:vaat} ile {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak}ın bağlayıcılık tonu bu bağlılığın hedefini belirginleştirir. Bu bağlantının katkısı kalıcılığı sonuca kadar sürdürülen ilişki gibi genişletmektir; (31:22)’deki tutuşun yalnız bugünkü imanı anlatıyor olması da mümkündür, bu olasılık ilişki yankısını sınırlar ve olağan “orada kalma” anlamının yerini almaz.
+
+Bağın ilahî iradeyle ilişkisi (11:107)’de başka bir kalış üzerinden görünür. {ar:إِلَّا مَا شَاءَ رَبُّكَ, tr:illā mā shāʾa rabbuka, gloss:Rabbinin dilemesi dışında} kaydı o başka son ve bağlamda kalışın Rabbin dilemesine bağlı olduğunu gösterir. Bu karşılaştırmanın katkısı, {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar} kalışını kendi kendine uzayan süre değil, ilahî iradeyle tutulan hâl gibi duyurmaktır; (11:107)’deki istisna kendi bağlamında kalır ve 31:9’un bahçe vaadine aktarılmaz.
+
+Kalıcılığın yeri ile güvenlik arasındaki farkı (31:32)’deki fırtına sahnesi açar. Gölge gibi üzerlerine kapanan dalgalar insanları çalkantıyla tehdit eder; kurtarılmaları onları örtünün içinden ayırıp kuru, açık karaya çıkarır. Bu sahnenin katkısı tehlikeli kuşatma ile kurtuluşun açık yerini karşı karşıya getirmektir. Odaktaki {ar:خَٰلِدِينَ فِيهَا, tr:khālidīna fīhā, gloss:orada kalıcı olanlar} için “içinde kalma” bahçeye ait bir ikametken, fırtınanın içinde kalma tehlikeli kuşatmadır. Bu ters görüntü, içeride bulunmayı kendiliğinden güvenlik saymayan mekânsal bir benzetim sunar; bu bağlantı iki “içinde” kullanımını dilbilgisel olarak özdeşleştirmez.
+
+Mekânın ardından sürenin sınırına bakınca (31:24)’te haz için ayrılan kısa dönem belirir; ardından zorunlu geçiş ve sıkıntının şiddetlenmesi gelir. Az miktar ve kısa aralık hazzın sınırlı payını, kaçınılmaz dönüş ve sonradan ağırlaşma ise bu sürenin sonunu görünür kılar; bunlar {ar:خَٰلِدِينَ, tr:khālidīna, gloss:kalıcı kalanlar} sözünün uzun ya da kesintisiz sürme anlamı karşısında zaman sınırını kurar. Böylece kalıcılık biten hazdan ayrılır; bu karşılaştırma iki ayrı zaman türünü tanımlamaz.
+
+Bu kısa aralığın aksine, geceyle gündüzün birbirine girişi ve gökcisimlerinin belirlenmiş sona akışı (31:29)’da ölçülü çevrimleri kurar. {ar:يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ, tr:yūliju al-layla fī al-nahār, gloss:geceyi gündüzün içine sokar} karşılıklı devri, {ar:كُلٌّ يَجْرِىٓ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى, tr:kullun yajrī ilā ajalin musamman, gloss:her biri belirlenmiş bir sona kadar akar} ise akışı ve bitişi gösterir. Bu çevrimler khālidīna’daki sürekliliği sayılmış döngülerin ötesinde düşündürürken olağan uzun ya da kesintisiz kalma anlamını korur. Waʿda’nın bir kışla bir yazı kapsayan yılı adlandıran ayrı kullanımı bu çevrime uzaktan bir yıllık ölçü katar; 31:9 yılı adlandırmadığı için bu kullanım vaadin anlamına dönüşmez.
+
+## Hikmetin görünür ölçekleri
+
+Zamanın ölçülmesinden başka bir ölçeğe, yaratılışın ayakta duruşuna geçince (31:10)’da gökler gözle görülen sütunlar olmadan yaratılır; yeryüzüne sabit dağlar yerleştirilip sallanması önlenir. {ar:عَمَدٍۢ, tr:ʿamadin, gloss:sütunlar/dayanaklar} için “göremediğiniz sütunlar olmadan” sözü yalnız ihtiyatlı bir yük taşıma ya da dayanak benzetimine izin verir; {ar:رَوَٰسِىَ, tr:rawāsī, gloss:sabitlenmiş dağlar} sabitlemeyi, {ar:تَمِيدَ, tr:tamīda, gloss:sallanıp yalpalaması} engellenen yana salınımı verir. Bu ayrıntılar taşıma, sabitleme ve yalpalamayı önleme yönleriyle yapısal duruşu kurar. Odaktaki {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} için sıkı dokunmuş kumaş ve iyi kurulmuş söz kullanımları bu dayanaklarla buluşunca doğruluğu tutarlı, ayakta duran bütünlük gibi duyurur. Mansup doğrulama biçimi “dokunmuş” sıfatı değildir; kumaş ve söz imgesi biçimden değil, bu ayrı kullanımlardan gelir. {ar:ٱلْحَكِيمُ, tr:al-ḥakīmu, gloss:hikmetle hükmeden}in olağan hikmeti sağlam tertip ve bozulmaya direnç imgesiyle genişler; {ar:ٱلْعَزِيزُ, tr:al-ʿazīzu, gloss:yenilmez kudret sahibi}nin korunmuşluk ve yenilmezlik anlamı da dünyayı istikrarsızlığa karşı ayakta tutabilme kapasitesi olarak belirir. Bu sahne vaadin anlamına düzen benzetimi ekler; sallanması önlenen yeryüzüdür, vaat edilen cennet değil. Bu bağlantı vaadi güvenceye alan özel bir sebep-sonuç mekanizması kurmaz; (31:10)’un genel kudret gösterisi olarak okunması da mümkündür.
+
+Yapı imgesinin yanına (31:12)’de başka bir hikmet ilişkisi gelir: Lokman’a {ar:ٱلْحِكْمَةَ, tr:al-ḥikmata, gloss:hikmet} verilir, ardından şükretmesi istenir ve şükredenin yararının kendisine döneceği söylenir. Odaktaki {ar:ٱلْحَكِيمُ, tr:al-ḥakīmu, gloss:hikmetle hükmeden}in doğruyu bilgi ve usla bulup sonuca ulaştırma yönü burada şükürle etik bir bağ kurar; bu sahnenin katkısı hikmeti şükürle ilişkilendirmektir, 31:9’daki vaade yeni bir emir yüklemek değil.
+
+Hikmetin ulaştığı ölçü bu kez küçülür: (31:16)’da hardal tanesi ağırlığınca şey alt sınırı, hardal tanesi en küçük öğeyi verir. {ar:مِثْقَالَ حَبَّةٍۢ مِّنْ خَرْدَلٍۢ, tr:miṯqāla ḥabbatin min ḫardalin, gloss:bir hardal tanesi ağırlığınca} ölçüsü, {ar:فِى صَخْرَةٍ, tr:fī ṣakhrah, gloss:bir kayanın içinde} saklı oluşuyla birleşince küçüklük, engel ve gizlilik görünmezliği artırır. Bilginin bu gizli içe ulaşması, odaktaki {ar:ٱلْحَكِيمُ, tr:al-ḥakīmu, gloss:hikmetle hükmeden} için doğru sonuca erişmeyi en küçük ölçekte duyurur. Bu görüntünün katkısı gizli en küçük ölçüye erişimi düşündürmektir; (31:16)’nın ahlaki gözetimi anlatıyor olması da açık kalır ve bu bağlantı vaat mekanizmasını açıklamaz.
+
+Ölçü ters yönde büyüdüğünde (31:28) tek bir canı bütün yaratılış ve diriltmeyle karşılaştırır. {ar:ٱلْعَزِيزُ, tr:al-ʿazīzu, gloss:üstün gelen} için üstün gelip boyun eğdirme kullanımı kudreti, {ar:ٱلْحَكِيمُ, tr:al-ḥakīmu, gloss:düzeni sağlamlaştırıp tamamlayan} için yapıyı kusursuz tamamlama kullanımı ise bütün içindeki tertibi gösterir. Birlikte bu iki yön, tekten bütüne geçerken kudretin azalmadığını ve çoğunluk içinde tekil hayatın ayrıntısının da düzen içinde kaldığını düşündürür. Bu karşılaştırma dirilişin mümkünlüğünü düşündürür; (31:28)’in katkısı dirilişin imkânını göstermeyle sınırlı olabilir.
+
+İnsan ve yaratılış ölçeğinden sözün kapsamına geçince (31:27)’de ağaçlar kalem, denizler ve ardından gelen denizler mürekkep olsa da Allah’ın sözleri tükenmez ve anlamını yitirmez. Bu yazı imgesi sözlerin büyüklüğünü sınar; odaktaki {ar:وَعْدَ, tr:waʿda, gloss:gerçekleşmesi beklenen söz} eksilmeyen söz kaynağının yanında duyulur. Bu yakınlık tek vaadin maddi işleyişini anlatmaz; katkısı vaadi tükenmeyen sözlerin kaynağıyla yan yana düşündürmektir. (31:27)’nin sonunda {ar:ٱللَّهُ عَزِيزٌ حَكِيمٌ, tr:Allāhu ʿazīzun ḥakīmun, gloss:Allah üstün ve hikmet sahibidir} kapanışı 31:9’daki kapanışı yineler; tükenmeyen sözlerin ardından kudretin düzenle birlikte anılması, odağın vaadini yeniden verenin kimliğine bağlar.
+
+## Gerçeklik ve hesap
+
+Vaadi verenin kimliği kadar doğruluğun kaynağı da (31:30)’da görünür: 31:9’daki {ar:حَقًّا, tr:ḥaqqan, gloss:gerçeğe uygun ve kesin olarak} sözün doğru olduğunu bildirirken, bu başka âyette Allah {ar:ٱلْحَقُّ, tr:al-ḥaqqu, gloss:gerçek olan}, başka çağrılanlar {ar:ٱلْبَٰطِلُ, tr:al-bāṭilu, gloss:gerçeklikten uzak olan} diye karşılaştırılır. Bu karşılaştırma vaadin doğruluğunu Allah’ın gerçek oluşuyla kaynağına bağlama imkânı sunar; iki kullanım aynı gramer anlamına gelmez ve 31:9’daki ifade doğru bir vaat olarak kalır.
+
+(9:68)’de benzer vaat ve kalış ifadelerinin başka muhataplar için {ar:نَارَ جَهَنَّمَ, tr:nāra jahannama, gloss:cehennem ateşi} ile birlikte kullanılması, olumlu yönü bağlamın belirlediğini gösterir; {ar:خَٰلِدِينَ فِيهَا, tr:khālidīna fīhā, gloss:orada kalıcı olanlar} orada başka kişilere bağlanır. Bu karşılaştırmanın katkısı, vaat ve kalış kelimelerinin kendi başlarına sonucu seçmediğini göstermektir; 31:9’un olumlu içeriğini (31:8)’deki nimet bahçeleri verir. İki karşı-söz de kalıcılığın tek başına güvence olmadığını görünür kılar: (4:120)’de şeytanın vaadi {ar:غُرُورًا, tr:ghurūran, gloss:aldanış} diye nitelenerek aldatıcı yönü açığa çıkar; (20:120)’de {ar:شَجَرَةِ ٱلْخُلْدِ, tr:shajarati l-khuldi, gloss:ölümsüzlük ağacı} ve {ar:مُلْكٍ لَّا يَبْلَىٰ, tr:mulkin lā yablā, gloss:yok olmayacak hükümranlık} bir teklif olarak sunularak uzun kalış arzusunu görünür kılar. Bu örnekler 31:9’daki vaadin içeriğini değiştirmez, onunla karşıt bağlamları gösterir; güven, sürenin uzunluğundan çok kimin neyi vaat ettiğine bağlanır.
+
+(31:33)’te {ar:إِنَّ وَعْدَ ٱللَّهِ حَقٌّ, tr:inna waʿda llāhi ḥaqqun, gloss:Allah’ın vaadi gerçektir} formülü, ebeveynin çocuğunun ya da çocuğun ebeveyninin hesabını üstlenemediği uyarıda yinelenir; insanı aldatan dünya hayatına karşı sakındırma da aynı sahneyi çevreler. Hakkın bağlayıcı gereklilik ve kişiye düşen sonuç anlamı burada kişisel hesapla buluşur: güvence devredilmez, ancak bu bağlantı belirli bir borç ya da hukukî yükümlülük saptamaz. Bu tekrarın yalnız yargı sahnesini yönetiyor olması da mümkündür. (31:30)’daki gerçeklik-kaynak teması vaadin doğruluğunu kaynağına bağlarken, (31:33)’teki devredilemeyen hesap kişinin sonucunu başkasına aktaramayacağını gösterir; iki katkı ayrı kalır. (31:27)’de yinelenen kudret-hikmet kapanışıyla birlikte okunduklarında odağın mühründe sözü taşıyan düzenli kudreti ve sonuçları başkasına bırakılamayan sorumluluğu bir araya getirirler. Akrabalık bağı hesabı üstlenmez; vaat edilmiş kalışın güveni kişisel sorumluluğu da ortadan kaldırmaz.
+
+</editorial_prose>

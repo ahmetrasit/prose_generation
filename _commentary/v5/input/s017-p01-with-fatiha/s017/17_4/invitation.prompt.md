@@ -1,0 +1,197 @@
+# V5 reading invitation — 17:4
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p01-with-fatiha/s017/17_4/17_4.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p01-with-fatiha/s017/17_4/17_4.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Âyet, İsrailoğullarına Kitap'ta şu hükmü bildirir: yeryüzünde iki kez bozgunculuk yapacak ve büyük bir yükselişle yükseleceklerdir. Başındaki {ar:وَ, tr:wa, gloss:ve}, tamamlanmış {ar:قَضَيْنَآ, tr:qaḍaynā, gloss:hükme bağladık} fiiline eklenip önceki söz akışını sürdürürken yeni hükmü de açar; 17:3'teki soy anışı bu yakın bağlamı verir, 17:4'ün yerel bildirimi ise kendi başına anlaşılır. Fiil bir belirleme ve yargılama eylemini tamamlanmış olarak sunar. {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} ile kurduğu özel yönelme kalıbı, hükmü adı verilen alıcıya kesin bir bildirim, ahit ya da talimat olarak ulaştırır. Bu kalıpta yön, hükmün fiziksel varış yerini değil, alıcısını belirler: {ar:بَنِىٓ إِسْرَٰٓءِيلَ, tr:banī isrāʾīla, gloss:İsrailoğulları}. Alıcının {ar:فِى ٱلْكِتَٰبِ, tr:fī al-kitābi, gloss:Kitap'ta} çerçevesinden önce gelmesi, söylemde önce kime seslenildiğini, sonra hükmün nerede kayıtlı olduğunu öne alır; bu sıra topluluğun önem derecesini belirlemez. {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} tarafından yönetilen tamlamadaki çoğul-genitif {ar:بَنِىٓ, tr:banī, gloss:soyundan gelenler}, gerçek çocukluk ve soy bağını taşır; ardından gelen yabancı özel ad İsrail bu soyun kime ait olduğunu belirler. Özel adın bu işlevi, adın kökeninden ayrıca bir sözlük anlamı çıkarmayı gerektirmez.
+
+## Soy Çizgisinde Rehberlik
+
+Soy adı, bu topluluğun daha önce aldığı yönlendirmeyi de duyurur. 17:2'de Musa'ya verilen {ar:ٱلْكِتَٰبَ, tr:al-kitāba, gloss:Kitap}, aynı topluluk için {ar:هُدًى لِّبَنِىٓ إِسْرَٰٓءِيلَ, tr:hudan li-banī isrāʾīla, gloss:İsrailoğullarına yol gösterici} diye nitelenir ve {ar:أَلَّا تَتَّخِذُوا۟ مِن دُونِى وَكِيلًا, tr:allā tattakhidhū min dūnī wakīlan, gloss:benden başka bir koruyucu edinmeyin} buyruğuyla bir sınır çizer (17:2). 17:3'te aynı topluluk {ar:ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ, tr:dhurriyyata man ḥamalnā maʿa nūḥin, gloss:Nuh'la birlikte taşıdıklarımızın soyu} diye anılır (17:3). Rehberlik, koruyucuya ilişkin buyruk ve taşınmış soy çizgisi aynı muhatapta buluşunca, 17:4'teki bozgunculuk öngörüsü alınmış yönlendirme içindeki bir ihlâl olarak ağırlaşır; komşu ayetlerin bu basıncı, {ar:قَضَيْنَآ, tr:qaḍaynā, gloss:hükme bağladık} bildirimine sorumluluk yükleyen bağlayıcı bir buyruk yönü de kazandırır. Nuh'la birlikte taşınmış olmayı anmak nimeti hatırlatır; sorumluluğu atadan toruna aktararak soya kalıtsal suç yüklemez.
+
+## Yazılı Çerçeve ve Yeryüzü
+
+17:4'teki {ar:فِى ٱلْكِتَٰبِ, tr:fī al-kitābi, gloss:Kitap'ta} öbeğinde {ar:فِى, tr:fī, gloss:içinde} doğrudan Kitap sözcüğünü yönetir. Öngörü cümlelerinden önce durması, yazılı çerçevenin Kitap'la sınırlı mı kaldığını, yoksa ardından gelen iki yükleme de mi uzandığını açık bırakır. Vasl okuyuşunda {ar:فِى, tr:fī, gloss:içinde} ile {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} tek bir ses akışı gibi bağlanır; Kitap hükmü taşıyan bitişik bir öbek olarak işitilir. Belirlilik takısı yazılı metni tanınır bir kayıt hâline getirir; bu kayıt belirli bir tarihî nüshayla sınırlandırılmaz. Temel okuyuşta ad tekildir; bildirilen {ar:ٱلْكُتُبِ, tr:al-kutubi, gloss:Kitaplar} çoğul biçimi yazılı tanıklığın kapsamını genişletirken iki öngörünün içeriğini korur. Böylece tekil ve çoğul kapsam birlikte açık kalır.
+
+Kitap burada yazılmış metin ve kayıt anlamını korur; aynı sözcük ailesinin ayrı bir kullanımı ise yazıyla geçerli kılınan bağlayıcı hükmü, yükümlülüğü ya da önceden belirlenmiş sonucu anlatır. Bu anlam, yazılı kararın bir hükmü bağlayıcı kıldığı durumda işler; yazdırma ve yazmayı öğretme başka yapılara bağlıdır. Tamamlanmış {ar:قَضَيْنَآ, tr:qaḍaynā, gloss:hükme bağladık} fiiliyle ardından gelen iki vurgulu gelecek bildirimi, kaydın hükmü saptayıp yürürlüğe koyan yönünü de duyurur. Böylece bağlayıcılık yazılı kaydın üzerine eklenir: Kitap kayıt olarak kalır, hüküm fiilinin yerini almaz ve ikinci bir kutsal metin kurmaz.
+
+Tekrarlanan {ar:فِى, tr:fī, gloss:içinde} önce hükmü Kitap'a, sonra eylemi {ar:فِى ٱلْأَرْضِ, tr:fī al-arḍi, gloss:yeryüzünde} yazar. İki öbek kayıtla yaşanan yeri ayrı alanlarda tutarken birbirine de cevap verir. {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü}ndeki belirlilik yaşanan geniş zemini tanınır kılar; yerel bir ülke çağrışımı bu geniş anlam içinde kalır ve belirli bir coğrafya adı vermez. Aynı sözcük ailesindeki bir şeyin alt bölümünü ya da ayağın yere değen kısmını anlatan kullanımlar belirli tamlamalara bağlıdır; burada yalın yeryüzü anlamı taşınır. Cümle önce eylemi, sonra alanını, ardından {ar:مَرَّتَيْنِ, tr:marratayni, gloss:iki kez} sayısını verir. Yeryüzü böylece yükselişin yukarı yönüne karşı yaşanan zemin ve aşağı alan katkısını sunar; bu mekânsal karşıtlık, tek başına baskıcı bir hedef belirlemez.
+
+Bu alanda {ar:لَتُفْسِدُنَّ, tr:la-tufsidunna, gloss:mutlaka bozarsınız} ikinci çoğul muhatabı IV. bâbın ettirgen fiiliyle bozulmanın faili yapar: düzgün ve elverişli durumdaki bir şeyi bozup o durumdan çıkarırlar. {ar:فِى ٱلْأَرْضِ, tr:fī al-arḍi, gloss:yeryüzünde} bu eylemi soyut bir ahlak etiketinden yaşanan düzene taşır; fiil burada yeryüzündeki düzenin elverişliliğini yitirmesini anlatır. İkinci çoğul eki az önce adlandırılan topluluğu özne olarak geri çağırır. Kitap çerçevesinin hemen ardından gelen {ar:لَ, tr:la-, gloss:vurgulama lâmı} ilk suçlamanın fiiline vurgu taşır; lâm ile sonundaki ağır nûn bozmayı ihtimal değil, kesin ve güçlü bir gelecek öngörüsü yapar. “Yemin gibi” nitelemesi bu gramatik kuvveti belirtir, ayrı bir yemin formülü kurmaz. Aktarılan edilgen ya da bozulmayı öznenin kendi durumuna çeken biçimler eyleyenliği başka türlü kurar; temel ettirgen biçimin dışa dönük sorumluluğu korunur ve okuyuşlar arasında üstünlük sırası kurulmaz.
+
+Yeryüzünün bu geniş alanı, 17:5'te yerleşim içindeki bir güzergâha yaklaşır. Oradaki ayrı sevk eylemi {ar:بَعَثْنَا, tr:baʿathnā, gloss:gönderdik} ile açılır; gönderilen kuvvetin {ar:فَجَاسُوا۟ خِلَٰلَ ٱلدِّيَارِ, tr:fa-jāsū khilāla al-diyār, gloss:meskenlerin arasından dolaştılar} geçişi hareketi evlerin ve aralıkların içinden geçirir (17:5). {ar:خِلَٰلَ, tr:khilāla, gloss:aralarından} boşluk ve geçitlerden ilerleyişi, {ar:ٱلدِّيَارِ, tr:al-diyār, gloss:meskenler} evleri ve sakinlerin ortak toplumsal alanını verir. Bu mekânsal geçirgenlik, odaktaki bozgunculuğu hane ve kent dokusuna yayılan bir düzen kaybı olarak duyurabilir. 17:5'teki sevk ve geçiş daha sonraki bir girişin faili olabilir; bu özel temas odaktaki bozulmanın kesin nedenini belirlemez. Yerleşim içindeki güzergâh yeryüzünün genişliğinden dardır; istilayı olası bir bağlam olarak açar, her bozgunculuğu istilayla özdeşleştirmez ya da belirli bir tarihî olayı saptamaz.
+
+Yeryüzü zeminiyle görünen yükselişin karşılaşması, malzemeye ilişkin iki ayrı benzetme dalını açar. Yeryüzünü anlatan sözcük ailesinin dar bir kullanımında odunla beslenen küçük bir canlı, buna bağlı başka bir kullanımda da onun yemesiyle aşınmış odun anılır. Ettirgen bozulmayla yukarıda görünen yükseliş bu dalı etkinleştirince zemin, sağlamlığını içeriden yitiren bir malzeme gibi duyulur; bu canlı ve odun, yeryüzü sözcüğünün buradaki temel anlamı değil, onun ayrı kullanım yankılarıdır. Yara ile kurulan tamlamaya bağlı başka bir kullanım, irin biriktirip kabararak bozulan yarayı anlatır. Bu dal, aynı bozulmayı içeriden yayılan ve irinlenir gibi kabaran bir hasar olarak somutlaştırır; katkısı odun imgesinden ayrıdır ve tıbbi bir olgu bildirmez. Her iki imgenin yanında {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} yaşanan, göğe karşı aşağıdaki zemini; {ar:وَلَتَعْلُنَّ, tr:wa-la-taʿlunna, gloss:ve mutlaka yükseleceksiniz} ile {ar:عُلُوًّا, tr:ʿuluwwan, gloss:yükseliş} olağan yukarı çıkışı taşır. “Alt bölüm” anlamı yine belirli tamlamalara bağlıdır; bu karşıtlık hasarlı zeminle görünen yükseklik arasındadır, gerçek bir bina ya da fiziksel çöküş tasviri değildir.
+
+## İki Sayım, İki Vuruş
+
+İlk suçlamadaki {ar:مَرَّتَيْنِ, tr:marratayni, gloss:iki kez}, bozulma eyleminin iki tam gerçekleşmesini sayan ikil biçimdir; neyin sayıldığını {ar:لَتُفْسِدُنَّ, tr:la-tufsidunna, gloss:mutlaka bozarsınız} yüklemi verir. İkil, olayların tarihini, süresini ya da rotasını değil, tekrar adedini belirler. İçindeki ikizleşmiş r sesi iki sayısını kulağa da duyuran bir yankı kurar. Aynı sözcük ailesindeki ayrı duyusal kullanım yalnız yiyecek ve içecek gibi tadılabilen şeylerde acı tadı ya da acılaşmayı anlatır. Bozucu eylemin yıkıcı niteliği bu dar dalı benzetmeli olarak etkinleştirir: iki gerçekleşme acı bir ton kazanır; tat, sayı sözcüğünün temel anlamına dönüşmez.
+
+İkil, çevredeki dönüş anlatısıyla birlikte hem tam iki gerçekleşmeyi sayar hem yinelenmenin mümkün olduğu bir ritme açılır. 17:5'te {ar:فَإِذَا جَآءَ وَعْدُ أُولَىٰهُمَا, tr:fa-idhā jāʾa waʿdu ūlāhumā, gloss:ikisinin ilkinin vaadi geldiğinde} ilk eşik kurulur (17:5). 17:6'da {ar:ثُمَّ رَدَدْنَا لَكُمُ ٱلْكَرَّةَ عَلَيْهِمْ, tr:thumma radadnā lakumu al-karrata ʿalayhim, gloss:sonra üstünlüğü size onlara karşı geri verdik} sözü önceki konumu geri getirir; {ar:ٱلْكَرَّةَ, tr:al-karrata, gloss:geri dönüş} dönüşü iki gerçekleşme arasındaki ritme taşır (17:6). Aynı ayette {ar:وَأَمْدَدْنَٰكُم بِأَمْوَٰلٍۢ وَبَنِينَ, tr:wa-amdadnākum bi-amwālin wa-banīna, gloss:mallar ve oğullarla destekledik} yenilenen konuma kaynak ve kuvvet ekler; {ar:وَجَعَلْنَٰكُمْ أَكْثَرَ نَفِيرًا, tr:wa-jaʿalnākum akthara nafīran, gloss:sizi daha kalabalık kıldık} topluluğun sayısal gücünü belirtir (17:6). 17:8'deki {ar:إِنْ عُدْتُمْ عُدْنَا, tr:in ʿudtum ʿudnā, gloss:siz dönerseniz biz de döneriz} koşulu da eylemle karşılığı karşılıklı dönüş içinde buluşturur (17:8). Bu dizilim tam iki sayımını korurken yinelenme olasılığını açar; sabit iki olayı dışlamaz, fakat bunlara tarih ya da fail vermez ve yenilenen kaynakları sonraki bozgunculuğun nedeni yapmaz.
+
+Sayıyla yazılı hükmün buluşması, iki eylemi önceden belirlenmiş kaydın içeriği gibi duyurur. {ar:قَضَيْنَآ إِلَىٰ, tr:qaḍaynā ilā, gloss:alıcısına hüküm bildirdik} kalıbının ulaştırdığı karar {ar:فِى ٱلْكِتَٰبِ, tr:fī al-kitābi, gloss:Kitap'ta} yer alır; tamamlanmış hüküm, iki vurgulu gelecek bildirimi ve kesin {ar:مَرَّتَيْنِ, tr:marratayni, gloss:iki kez} sayısı kaydı gelecekte bildirilenle birleştirir. Ettirgen fiil iki tam eylemi bu sayıya bağlar. Bu yankı Kitap'ı hüküm fiiliyle özdeşleştirmez; kayıt sabitliğini duyururken olayların tarihini ya da kimliğini belirtmez.
+
+İki öngörü yan yana iki ayrı yüklem kurar. {ar:لَتُفْسِدُنَّ فِى ٱلْأَرْضِ, tr:la-tufsidunna fī al-arḍi, gloss:yeryüzünde mutlaka bozgunculuk yapacaksınız} eylemi, alanı ve iki sayısını verir; eşgüdümle gelen {ar:وَلَتَعْلُنَّ عُلُوًّا كَبِيرًا, tr:wa-la-taʿlunna ʿuluwwan kabīran, gloss:büyük bir yükselişle mutlaka yükseleceksiniz} yükselişin kendisine ve büyüklüğüne ayrı bir içerik ekler. Her iki fiildeki vurgulama lâmı ve ağır nûn öngörüleri aynı kesinlikte kurar; ikinci suçlama ilkinin eşanlamlı tekrarı değildir. {ar:وَلَ, tr:wa-la, gloss:ve vurgulama lâmı} başlangıcı, bağlaçtan hemen sonra lâmı yeniden duyurarak ikinci bir işitsel vuruş açar; ikinci fiilin ağır sonluğu ilkinin kapanışına denk bir mühür koyar. Bu ses düzeni iki öngörünün eşit vurgusunu ayette tamamlar; sonraki bir anlatının sonucunu yüklemlere taşımaz.
+
+İkinci yüklemin hareketi önce olağan yukarı çıkmadır. {ar:وَلَتَعْلُنَّ, tr:wa-la-taʿlunna, gloss:ve mutlaka yükseleceksiniz} yalın I. bâb fiilidir: adı verilen topluluk kendisi yükselir. Fiil hedefini dışarıda adlandırmaz; bu sözdizim toplumsal etki olasılığına açık kalır. Ardındaki {ar:عُلُوًّا, tr:ʿuluwwan, gloss:yükseliş}, fiille aynı kökten gelen belirsiz mansup mastardır ve yükselme eylemini süreç olarak adlandırır. Mastarın nesne benzeri görevi süreci belirginleştirir; fiili ettirgen yapmaz, bir kurban da tayin etmez. Temel biçim yükselme anlamını korur, bildirilen biçim farkları da bu alanı sürdürür.
+
+{ar:كَبِيرًا, tr:kabīran, gloss:büyük}, {ar:عُلُوًّا, tr:ʿuluwwan, gloss:yükseliş}ı doğrudan niteler; ölçü ve derece bakımından genel büyüklüğü yükselişin kendisine yükler. İki belirsiz mansup sözcüğün ortak -an kadansı onları tek bir son öbekte birleştirip hareketin ağırlığını duyurur. Sıfat yükselişin ölçeğini belirler; yaş bildirmez, karşılaştırmalı bir rakip ya da sınırsız bir ölçü kurmaz.
+
+## Yükselişin İnsanî Yüzü
+
+İnsan muhataplara yönelen olağan yükselme dili, aynı sözcük ailesindeki kınanan kendini üstün görme ve taşkınlık kullanımını da etkinleştirir. {ar:وَلَتَعْلُنَّ عُلُوًّا كَبِيرًا, tr:wa-la-taʿlunna ʿuluwwan kabīran, gloss:büyük bir yükselişle yükseleceksiniz} ifadesindeki {ar:كَبِيرًا, tr:kabīran, gloss:büyük} öz-yüceltmenin ölçeğini yoğunlaştırır. Kınama yükselme sözcüğüne değil, insanın kendini üstün görmesine yönelir. {ar:لَتُفْسِدُنَّ فِى ٱلْأَرْضِ, tr:la-tufsidunna fī al-arḍi, gloss:yeryüzünde mutlaka bozgunculuk yapacaksınız} suçlamasının zararıyla yükselme suçlaması birbirini ahlaken aydınlatır; iki yüklem ayrı kalır ve aralarında neden-sonuç kurulmaz. Ayet bu bağlantıda rakip, kurban ya da fetih hedefi belirlemez; okuma muhatapların öz-yüceltmesiyle yeryüzündeki zararı yan yana tutar.
+
+Yeryüzündeki bozulma bu insanî üstünlük yorumunu toplumsal baskı yönünde koyulaştırır. {ar:لَتُفْسِدُنَّ, tr:la-tufsidunna, gloss:bozgunculuk yapacaksınız}ın zararı ve {ar:فِى ٱلْأَرْضِ, tr:fī al-arḍi, gloss:yeryüzünde}nin açık alanı, yükseliş ailesindeki yeryüzü üzerinde üstünlük taslama ve başkalarını bastırma kullanımını bağımsız olarak tetikler; {ar:وَلَتَعْلُنَّ عُلُوًّا كَبِيرًا, tr:wa-la-taʿlunna ʿuluwwan kabīran, gloss:büyük bir yükselişle yükseleceksiniz} büyüklüğü bu tonu yoğunlaştırır. Bu okuma kolektif zararı baskıcı güç tavrıyla yan yana getirir; belirli bir yönetici, karşı taraf ya da hedef atamaz.
+
+17:43'te önce {ar:سُبْحَٰنَهُۥ, tr:subḥānahu, gloss:O münezzehtir}, ardından {ar:وَتَعَٰلَىٰ, tr:wa-taʿālā, gloss:ve yücedir} gelir; aynı {ar:عُلُوًّا كَبِيرًا, tr:ʿuluwwan kabīran, gloss:büyük bir yücelikle} öbeği burada başka bir göndergeyi anlatır (17:43). Bu yankı, 17:4'teki {ar:تَعْلُنَّ عُلُوًّا كَبِيرًا, tr:taʿlunna ʿuluwwan kabīran, gloss:büyük bir yükselişle yükseleceksiniz} kınamasını kökün kendisinden insanın kendini üstün görmesine taşır: 17:43 aynı söz öbeğini farklı ilişkide kınama olmadan kullanır. Karşılaştırma öbek düzeyindedir; iki ayetin dilbilgisel kuruluşunu birleştirmez ve ayrı bir inanç önermesi ileri sürmez.
+
+Bağımsız bağlamlar bu ahlaki okumaya kamusal bir zemin sağlar. 28:4'te Firavun'un {ar:عَلَا فِي الْأَرْضِ, tr:ʿalā fī al-arḍi, gloss:yeryüzünde yükseldi} diye anılması, bir topluluğu ezip güçsüz bırakması ve {ar:مِنَ الْمُفْسِدِينَ, tr:minal-mufsidīn, gloss:bozgunculardan biri} sayılmasıyla yan yana gelir (28:4). 28:83'te ise {ar:لَا يُرِيدُونَ عُلُوًّا فِي الْأَرْضِ وَلَا فَسَادًا, tr:lā yurīdūna ʿuluwwan fī al-arḍi wa-lā fasādan, gloss:yeryüzünde üstünlük kurmayı ve bozgunculuğu istemezler} iki eğilimi birlikte reddeder (28:83). Bu iki anlam paraleli 17:4'teki ettirgen bozulmayı kolektif zarara, büyük yükselişi de bir düzen içinde başkalarını bastıran üstünlüğe bağlamaya zemin verir (28:4, 28:83). Bağ, anlam düzeyinde kalır: 28:4'ün ayrı fiil biçimi 17:4'ün dilbilgisini çözümlemez; Firavun odaktaki muhatapların yerine geçmez ve bu siyasal baskı örneği her bozgunculuğun tanımı olmaz.
+
+Kamusal güç çağrışımı kutsal mekânın ayrı çerçevesiyle de temas eder. 17:1'deki yolculuk {ar:مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَى, tr:mina al-masjidi al-ḥarāmi ilā al-masjidi al-aqṣā, gloss:Mescid-i Haram'dan Mescid-i Aksa'ya} uzanarak kutsal mekân eksenini kurar; 17:7'de {ar:لِيَدْخُلُوا۟ ٱلْمَسْجِدَ, tr:li-yadkhulū al-masjida, gloss:mescide girmeleri için} denmesi bu eksene mescide girişi ekler (17:1, 17:7). {ar:كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ, tr:kamā dakhalūhu awwala marratin, gloss:ona ilk kez girdikleri gibi} ifadesindeki ilk giriş, 17:4'teki {ar:مَرَّتَيْنِ, tr:marratayni, gloss:iki kez} sayımıyla temas edip giriş dizisini iki gerçekleşmeden birine bağlar; bu temas olayları tek tek teşhis etmez (17:7). Aynı ayetteki {ar:مَا عَلَوْا۟, tr:mā ʿalaw, gloss:üzerine üstün geldikleri şey} kökü bir nesneyle ilişkilendirir, {ar:تَتْبِيرًا, tr:tatbīran, gloss:bütünüyle yıkım} ise o şeyin dağıtılmasını belirginleştirir (17:7). Bu iki ayrıntı yükselişe görülebilir, maddi ve kurumsal bir iz kazandırır; mescit kutsal mekân çerçevesini sağlar, ama üstün gelinen şeyin kimliği açık kalır ve yalnız mescide indirgenmez.
+
+## Dünyevî Konum ve Derece
+
+Odaktaki {ar:وَلَتَعْلُنَّ عُلُوًّا كَبِيرًا, tr:wa-la-taʿlunna ʿuluwwan kabīran, gloss:büyük bir yükselişle yükseleceksiniz} çevresindeki konum ve dağılım anlatılarıyla başka bir ölçek kazanır. 17:6'da {ar:ثُمَّ رَدَدْنَا لَكُمُ ٱلْكَرَّةَ عَلَيْهِمْ, tr:thumma radadnā lakumu al-karrata ʿalayhim, gloss:üstünlüğü size geri verdik} denmesinin ardından mal ve oğullarla desteklenme ve daha kalabalık kılınma gelir (17:6). Geri verilen konum, maddi destek ve artan sayı yükselişi kaynaklarla güçlenen bir kapasite gibi duyurur; bu bağ, sonraki bozgunculuğu kaynakların sonucu ya da nedeni olarak kurmaz.
+
+17:20'de {ar:نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ, tr:numiddu hāʾulāʾi wa-hāʾulāʾi, gloss:iki gruba da veririz} denmesi ve {ar:مِنْ عَطَآءِ رَبِّكَ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُورًا, tr:min ʿaṭāʾi rabbika wa-mā kāna ʿaṭāʾu rabbika maḥẓūrā, gloss:Rabbinin bağışından ve engellenmemiş bağışından} sözü desteğin Rabbinin bağışından geldiğini ve iki gruba da uzandığını gösterir (17:20). Bu geniş dağılım konumun yalnız muhatapların kendi ürettiği bir statü olmadığını duyurur; iki gruba da verilmesi eşit sonuç ya da odaktaki muhataplarla birebir özdeşlik anlamına gelmez. 17:21'de kimilerinin kimilerinin üstünde kılınması ve {ar:أَكْبَرُ دَرَجَٰتٍ وَأَكْبَرُ تَفْضِيلًا, tr:akbaru darajātin wa-akbaru tafḍīlan, gloss:derece ve üstünlük bakımından daha büyük} denmesi karşılaştırmalı bir mertebe ölçeği kurar (17:21). Bu ölçek büyük yükselişi saygınlık ya da kamusal önderlik gibi konumlara da açabilir; odaktaki kınama ise sürer. Böylece dünyevî güç daha geniş bağış ve dereceler içindeki geçici bir mevki olarak duyulur, hak edilmiş bir rütbe ya da 17:21'deki ahiret derecelerinin önceden bildirimi olarak değil; iki öngörüyle dereceler arasında bire bir eşleşme kurulmaz.
+
+## Toplu Hitap, Kişisel Hesap
+
+Kitap'ta topluluğa yöneltilen tarihî uyarı, kişinin kendi hesabıyla birlikte işler. 17:7'de iyilik veya kötülüğün sonucu kişiye döner; 17:13'te her insanın amel kaydı kendisine bağlanıp açılmış olarak karşısına çıkar; 17:14'te kişi kendi kitabını okur; 17:15'te hiçbir yük taşıyan başkasının yükünü üstlenmez (17:7, 17:13, 17:14, 17:15). Bu kişisel sonuç, kayıt, okuma ve devredilemez yük, kolektif hitapla aynı sorumluluk çerçevesinde buluşur. Soyla anılan topluluğun tarihî sorumluluğu ferdin kişisel hesabını yutmaz; soy bağı suçu başka kişiye veya sonraki kuşağa taşımaz.
+
+Bu kişisel kayıtlar, 17:4'teki {ar:فِى ٱلْكِتَٰبِ, tr:fī al-kitābi, gloss:Kitap'ta} öbeğine ayrı bir yakınlıkla döner. 17:12'de yılların sayısı ve hesap anılır, ardından her şeyin ayrıntısıyla açıklandığı söylenir; 17:13'te kişinin kitabı kendisine bağlanıp açılır, 17:14'te okunur (17:12, 17:13, 17:14). Bu sayım, ayrıntı, açılma ve okuma sırası kaydı denetlenebilir kılar. 17:12'deki yıl sayımı, odaktaki {ar:مَرَّتَيْنِ, tr:marratayni, gloss:iki kez} ile sayısal yankı kurar; bu yakınlık iki bozulmanın tarihini vermez. Odaktaki Kitap ile kişisel kitaplar yazılı kayıt düzeyinde buluşur, fakat aynı metin ya da nesne sayılmaz.
+
+Bu kayıt yakınlığında {ar:بَنِىٓ, tr:banī, gloss:soyundan gelenler} gerçek soy anlamını korur. Banī ailesinin ayrı kurma kullanımı parçaları birleştirerek bir bütünü, sonuç kullanımıysa ev, duvar, saray ya da gök gibi kurulmuş yapıları anlatır; bu dallar soy adının kendi sözlük anlamı değil, gerçek kurma eylemi ve ürünüdür. Soy topluluğu, yazılı Kitap ve bozulma tehdidi bir araya gelince, nesiller boyunca taşınan ve yazıyla bir arada tutulan bir düzen imgesi kurar; ahitle ilişkisi sınırlı bir benzetme olarak kalır, ayette açık bir ahit formülü kurulmaz. Ettirgen bozulma bu düzenin elverişliliğini tehdit eder. Böylece yapısal imge kolektifin taşıdığı sürekliliği görünür kılar; Banī'nin soy anlamı yerinde kalır.
+
+Aynı unsurlar daha sıkı, fakat ayrı bir bağ imgesi de kurar. Banī ailesinin parçaları bir araya getirerek bütün kurma kullanımı yapıyı sağlar; Kitap ailesinin yazılı kayıttan ayrı olan dikme, bağlama ya da atlarla askerleri düzenli bir birlik hâline getirme kullanımları bu bütünü bir arada tutar. {ar:مَرَّتَيْنِ, tr:marratayni, gloss:iki kez} iki gerçekleşmeyi sayarken, aynı sözcük ailesindeki kordon kullanımı ipin kollarını burarak sağlam ip oluşturmayı verir. Böylece yapı kurma bütünü, bağlama onu tutan işlemi, burma ise iki kolu birbirine geçiren hareketi sağlar. Soy, kayıt, sayım ve {ar:وَلَتَعْلُنَّ عُلُوًّا, tr:wa-la-taʿlunna ʿuluwwan, gloss:yükselişle yükseleceksiniz} bir araya geldiğinde iki eylem yalıtılmış noktalar değil, yükseltilmiş bir bütünü taşıyan ve birbirini güçlendiren iki burulmuş tel gibi görünür. Bu benzetme boyunca {ar:بَنِىٓ, tr:banī, gloss:soyundan gelenler} soy topluluğunu, Kitap yazılı kaydı, {ar:مَرَّتَيْنِ, tr:marratayni, gloss:iki kez} iki gerçekleşmeyi, yükseliş de yukarı hareketi taşır. Ailenin üste konmuş parça ya da ek yük anlamı başka bir şeyin üstündeki parçaya bağlıdır; odaktaki fiil {ar:عَلَىٰ, tr:ʿalā, gloss:üzerine} tümleci almadığı için yükseliş gerçek bir yük ya da ip değildir, benzetmenin taşıyıcı biçimidir.
+
+## Hüküm ve Geri Dönüş
+
+Yazılı hükmün bağlayıcılığı ile bozgunculuk öngörüsü, 17:16'daki ayrı kasaba anlatısının uygulama sırasıyla temas eder. Orada {ar:أَمَرْنَا مُتْرَفِيهَا, tr:amarnā mutrafīhā, gloss:varlıklı ve bolluk içindeki sakinlerine buyurduk} sözünü {ar:فَفَسَقُوا۟ فِيهَا, tr:fa-fasaqū fīhā, gloss:orada sınırı aştılar} izler; buyruk karşısındaki taşkınlık norm çizgisinin aşılmasını gösterir (17:16). Ardından {ar:فَحَقَّ عَلَيْهَا ٱلْقَوْلُ, tr:fa-ḥaqqa ʿalayhā al-qawl, gloss:üzerine hüküm kesinleşti} gelir ve {ar:فَدَمَّرْنَٰهَا تَدْمِيرًا, tr:fa-dammarnāhā tadmīran, gloss:onu bütünüyle yıktık} yoğun yıkımla diziyi tamamlar (17:16). Varlıklı sakinlerin konumu dizide yer alır, ancak servet taşkınlığın nedeni yapılmaz. Buyruk, ihlâl, kesinleşen söz ve yıkım sırası odaktaki {ar:قَضَيْنَآ, tr:qaḍaynā, gloss:hükme bağladık} fiilinin bağlayıcı yönünü ve bozgunculuk öngörüsünün sonuçla temasını aydınlatır. Bu paralellik iki anlatıyı aynı tarihî olaya ya da her bozulmanın kaçınılmaz sonucuna eşitlemez.
+
+17:5'te ilk eşik, 17:6'da geri verilen konum ve destek, 17:7'de ise üstün gelinen şeyin yıkımı görünür olur. Özellikle 17:7'deki {ar:مَا عَلَوْا۟, tr:mā ʿalaw, gloss:üzerine üstün geldikleri şey} ile {ar:تَتْبِيرًا, tr:tatbīran, gloss:bütünüyle yıkım} aynı kök çevresinde yükseliş ile onun nesnesinin dağıtılmasını buluşturur (17:7). Bu sıra ve kök yankısı yükselişi kalıcı mertebeden çok izi görülebilen, tersine çevrilebilecek toplumsal güç olarak duyurur; yıkım da bu hareketin olası karşılığına katılır. Bağlantı mümkün bir karşılık düzeyindedir: ayetler tarihî olayları birebir eşleştirmez, neden-sonuç mekanizması ya da yıkılan yerin kimliğini belirlemez. Böylece büyük yükseliş, kınaması korunarak, yeryüzünde görünür ve geri çevrilebilir bir kudret olarak duyulur.
+
+</editorial_prose>

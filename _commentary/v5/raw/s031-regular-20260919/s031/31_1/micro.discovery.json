@@ -1,0 +1,440 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "31:1",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_0c1cc97640a60a25e1c4",
+      "decision": "narrow",
+      "reason": "Retain only the structural possibility that discrete letter names could receive an acrostic expansion. The focus morphology selects no expansion, so no proposed phrase is treated as the ayah's lexical meaning.",
+      "finding_refs": ["micro:acrostic-expansion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_00a470f69f24b36f16b3",
+      "decision": "reject",
+      "reason": "The guidance cluster depends on references outside the focus, including cross-surah recurrence and 31:2-3 pericope context. No context units are supplied to this micro lane, and the evidence explicitly does not make guidance a lexical meaning or preview in the letters. The candidate's topic-level must_integrate label has no separately enumerated semantic-obligation ref; the scope failure is recorded here.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:2", "reason": "Guidance is supplied as an external cross-ayah comparison, outside this focus-local lane."},
+        {"context_ref": "31:2", "reason": "The guidance reference belongs to adjacent pericope context, not the supplied focus surface."},
+        {"context_ref": "31:3", "reason": "The guidance reference belongs to adjacent pericope context, not the supplied focus surface."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ac99a57854e9e7e7fb91",
+      "decision": "reject",
+      "reason": "The proposed family identity is established by repeated appearances across other ayat, so its evidence is a wider recurrence rather than a focus-local micro reading. The supplied support does not show that recurrence materially changes 31:1 on its own. The topic-level must_integrate label has no separately enumerated semantic-obligation ref; the scope failure is recorded here.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:1", "reason": "This occurrence is part of the cross-ayah opener-family evidence, outside the micro focus."},
+        {"context_ref": "3:1", "reason": "This occurrence is part of the cross-ayah opener-family evidence, outside the micro focus."},
+        {"context_ref": "29:1", "reason": "This occurrence is part of the cross-ayah opener-family evidence, outside the micro focus."},
+        {"context_ref": "30:1", "reason": "This occurrence is part of the cross-ayah opener-family evidence, outside the micro focus."},
+        {"context_ref": "32:1", "reason": "This occurrence is part of the cross-ayah opener-family evidence, outside the micro focus."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_771fb39eb4aad3a1cbfa",
+      "decision": "accept",
+      "reason": "The phonetic and recitational evidence is local to the three supplied letter names and supports the paced articulation claim without requiring a root gloss or external context.",
+      "finding_refs": ["micro:articulation-path"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c0fc9ade9ceb69d0c58c",
+      "decision": "accept",
+      "reason": "The focus is recited as disconnected letter names rather than a lexical sentence, supporting a local pause in ordinary meaning-retrieval while leaving the letter names intact.",
+      "finding_refs": ["micro:attention-reset"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_55710f54572a634c402f",
+      "decision": "reject",
+      "reason": "The candidate's distinctive challenge-material reading is tied to Quranic challenge references 11:13 and 2:23. Those wider triggers are outside this micro packet, and the local letter-name form alone does not establish that challenge relation. The topic-level candidate obligation has no separately enumerated semantic-obligation ref; the scope failure is recorded here.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:23", "reason": "The challenge comparison requires this wider Quranic context, not supplied as a micro context unit."},
+        {"context_ref": "11:13", "reason": "The challenge comparison requires this wider Quranic context, not supplied as a micro context unit."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_52db264930c2d29e97bf",
+      "decision": "accept",
+      "reason": "The supplied focus form is a rootless, disconnected sequence with no ordinary lexical or clausal completion; the unresolved semantic threshold is therefore supported by the local surface itself.",
+      "finding_refs": ["micro:semantic-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ec1cd1a0cd4362bcc3e6",
+      "decision": "narrow",
+      "reason": "Retain the local convergence of disconnected form, separated recitation, opacity, and opening position as a threshold before ordinary predication. Exclude the supplied opener-family, guidance, and following-book context, which belongs outside micro.",
+      "finding_refs": ["micro:local-threshold-convergence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:1", "reason": "Cross-ayah opener-family recurrence is excluded from the local convergence claim."},
+        {"context_ref": "2:2", "reason": "Guidance-cluster context is excluded from the local convergence claim."},
+        {"context_ref": "3:1", "reason": "Cross-ayah opener-family recurrence is excluded from the local convergence claim."},
+        {"context_ref": "29:1", "reason": "Cross-ayah opener-family recurrence is excluded from the local convergence claim."},
+        {"context_ref": "30:1", "reason": "Cross-ayah opener-family recurrence is excluded from the local convergence claim."},
+        {"context_ref": "31:2", "reason": "The following-book and guidance material is adjacent pericope context, excluded from the local convergence claim."},
+        {"context_ref": "31:3", "reason": "The guidance material is adjacent pericope context, excluded from the local convergence claim."},
+        {"context_ref": "32:1", "reason": "Cross-ayah opener-family recurrence is excluded from the local convergence claim."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8bc2a4b85b134b3f01e0",
+      "decision": "accept",
+      "reason": "The supplied disconnected-letter label and separate letter-name recitation support treating the gap between the compact written token and its unjoined spoken components as a local formal effect.",
+      "finding_refs": ["micro:separation-as-act"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0e6ca5c57e3b7a28349b",
+      "decision": "reject",
+      "reason": "The claimed bridge depends on the wise-book phrase in 31:2. That is declared pericope context rather than focus-local micro evidence, and no 31:2 context unit is supplied in this lane. The topic-level must_integrate label has no separately enumerated semantic-obligation ref; the scope failure is recorded here.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "31:2", "reason": "The book phrase and its relation to the opener are in adjacent pericope context, outside micro."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fff3aeb4e88c5796071f",
+      "decision": "narrow",
+      "reason": "Retain only the possibility that the named letters can serve as sworn language-material. The packet supplies no governed oath construction, so no oath scope or ordinary syntactic role is assigned.",
+      "finding_refs": ["micro:possible-oath-material"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_abcf73842375977b6f42",
+      "decision": "accept",
+      "reason": "The supplied QAC surface and recitational evidence support one compact written token delivered as three separated letter names, with length and pauses keeping their boundaries audible.",
+      "finding_refs": ["micro:pausal-letter-names"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1328a6133d52d47be8ed",
+      "decision": "narrow",
+      "reason": "Retain the bounded meta-reading that several classical function proposals can remain possible without syntax selecting one. Exclude the challenge-material proposal because its specific support needs wider Quranic context outside this lane.",
+      "finding_refs": ["micro:open-function-space"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:23", "reason": "The challenge-function proposal depends on wider Quranic context excluded from this micro finding."},
+        {"context_ref": "11:13", "reason": "The challenge-function proposal depends on wider Quranic context excluded from this micro finding."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_352cbe01a8b9c04665dd",
+      "decision": "accept",
+      "reason": "The sole focus item is a disconnected letter-name sequence with no supplied predicate, verb, case, mood, or syntactic governance, so its recited sign-status completes the ayah without a hidden clause.",
+      "finding_refs": ["micro:preclausal-completeness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_83277e2f79c6e813059c",
+      "decision": "accept",
+      "reason": "The letter-name sequence is the sole item of the opening ayah, allowing position and nonlexical form to give the entry a header-like function without making it a literal code or sentence.",
+      "finding_refs": ["micro:protocol-header-position"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e4be7df7b5f0f109f3e6",
+      "decision": "accept",
+      "reason": "The focus record has no lexical root, lemma, stem, or inflection and marks the surface as disconnected letter names, supporting a non-root-derived, nonlexical parse.",
+      "finding_refs": ["micro:rootless-surface"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:acrostic-expansion",
+      "origin_candidate_id": "cand_0c1cc97640a60a25e1c4",
+      "represented_candidate_ids": [],
+      "title": "Acrostic expansion remains possible",
+      "claim": "The separate letter names can permit an acrostic expansion, while the focus leaves every particular expansion unselected.",
+      "mechanism": "The disconnected sequence preserves three discrete initials to which an expansion could be assigned; the focus supplies no lexical morphology choosing any expanded phrase, so this remains a possible function rather than a gloss.",
+      "reader_payoff": "The reader can register abbreviation proposals as possible uses of the signs without mistaking one proposed phrase for the ayah's translation.",
+      "containment": "The recited letter names remain the recoverable surface; no expansion is asserted as their meaning.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["trusted"],
+        "reason": "The source supports structural possibility but explicitly says the local form selects no acrostic expansion."
+      },
+      "support_ids": ["sup_678b2ceede4d234fd282", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:articulation-path",
+      "origin_candidate_id": "cand_771fb39eb4aad3a1cbfa",
+      "represented_candidate_ids": [],
+      "title": "A paced path through the mouth",
+      "claim": "In recitation, the sequence moves from the initial vocal onset through lām's lateral articulation to mīm's bilabial nasal closure.",
+      "mechanism": "The three letter names occur in an ordered phonetic progression, so sound carries the listener through a bodily movement before ordinary propositional content is available.",
+      "reader_payoff": "The opener can be heard as a timed vocal act as well as seen as a written sign.",
+      "containment": "This describes the supplied sound pattern; it does not turn the letters into lexical words or assign them a hidden root meaning.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Phonetic and recitational evidence is supplied for the sequence; the bodily-path description is an interpretive rendering of that evidence."
+      },
+      "support_ids": ["sup_8193bf9846edebe62ef3", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:attention-reset",
+      "origin_candidate_id": "cand_c0fc9ade9ceb69d0c58c",
+      "represented_candidate_ids": [],
+      "title": "Nonlexical sound pauses ordinary retrieval",
+      "claim": "Because the opening is heard as letter names rather than a lexical sentence, ordinary meaning-retrieval pauses and the listener receives a beat before propositional discourse.",
+      "mechanism": "The nonlexical recital offers no immediately accessible sentence meaning, interrupting the usual path from word recognition to proposition and creating a receptive pause.",
+      "reader_payoff": "The opener's pause becomes part of how it takes hold, rather than an empty gap to be filled with an invented translation.",
+      "containment": "This is a plausible local effect of the supplied form, not a claim that all listeners respond identically or that the letters have a hidden translation.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The local nonlexical form supports the attention-reset mechanism, while the response itself is an interpretation rather than a measured reader result."
+      },
+      "support_ids": ["sup_d71b3f868b21695cef39", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:semantic-threshold",
+      "origin_candidate_id": "cand_52db264930c2d29e97bf",
+      "represented_candidate_ids": [],
+      "title": "Opacity as an opening threshold",
+      "claim": "The rootless, disconnected letter sequence leaves ordinary word interpretation suspended, making unresolvedness part of the ayah's opening form.",
+      "mechanism": "The recited signs provide letter identity without a lexical root or clause that would determine a proposition, so interpretation pauses at the threshold of ordinary meaning.",
+      "reader_payoff": "The reader can experience the opacity as a feature of the entry rather than as a missing dictionary gloss.",
+      "containment": "The form's unresolvedness is retained without assigning one hidden interpretation; the names of the letters remain available throughout.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The disconnected, rootless surface is directly supplied; describing its opacity as a threshold is a bounded interpretation of that form."
+      },
+      "support_ids": ["sup_38291c3340311bdc3872", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:local-threshold-convergence",
+      "origin_candidate_id": "cand_ec1cd1a0cd4362bcc3e6",
+      "represented_candidate_ids": [],
+      "title": "Local features converge at the threshold",
+      "claim": "The disconnected form, separated recitation, lexical opacity, and opening position converge on a threshold where named letters stand before ordinary predication.",
+      "mechanism": "The same focus surface is compact in writing, spaced in recitation, and unavailable as a root-derived word; its position as the opening ayah places that suspension at the reader's point of entry, so formal, acoustic, and positional cues reinforce one another.",
+      "reader_payoff": "The reader can see why this short ayah carries density: several local features make the move into meaning itself perceptible.",
+      "containment": "This synthesis uses only the focus-local form, sound, opacity, and position. It does not depend on opener-family recurrence, guidance references, or the following book phrase.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The source explicitly synthesizes the listed local features; cross-ayah components were removed to keep the finding within micro scope."
+      },
+      "support_ids": ["sup_fc2bfff44f8e93c4aab2", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:separation-as-act",
+      "origin_candidate_id": "cand_8bc2a4b85b134b3f01e0",
+      "represented_candidate_ids": [],
+      "title": "Separation becomes part of the opener's act",
+      "claim": "The compact written token is delivered as separate letter names, so keeping its components apart becomes a local formal effect.",
+      "mechanism": "The disconnected-letter form and unjoined recitation prevent the three names from fusing into an ordinary lexical word; the gap between them is therefore experienced as part of the opening act.",
+      "reader_payoff": "The reader notices a sequence of distinct signs instead of automatically treating the written token as a single word.",
+      "containment": "Separation describes the supplied form and delivery; it does not prove a particular concealed expansion or intention.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The disconnected-letter designation and separate letter-name recitation directly support the formal relation."
+      },
+      "support_ids": ["sup_3092f37d7bb4a620ce61", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:possible-oath-material",
+      "origin_candidate_id": "cand_fff3aeb4e88c5796071f",
+      "represented_candidate_ids": [],
+      "title": "A possible oath-like pointing to the letters",
+      "claim": "The named letters can remain possible sworn language-material, while the ayah supplies no governed construction that fixes an oath reading.",
+      "mechanism": "The disconnected signs can be pointed to as the material being invoked; because no ordinary qasam governance or scope is present, this remains a possible function rather than an assigned syntactic role.",
+      "reader_payoff": "An oath-like possibility can be retained without presenting it as the ayah's settled grammar or translation.",
+      "containment": "The letter names remain intact, and no oath formula, scope, or exclusive interpretation is asserted.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["trusted"],
+        "reason": "The supplied source records debated oath pressure but also states that local morphology and governance do not select it."
+      },
+      "support_ids": ["sup_1391e1cf44d8354eab9c", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:pausal-letter-names",
+      "origin_candidate_id": "cand_abcf73842375977b6f42",
+      "represented_candidate_ids": [],
+      "title": "One written token, three paced names",
+      "claim": "The compact written token is recited as three separate letter names, with length and pausal delivery keeping their boundaries audible.",
+      "mechanism": "Writing gathers the sequence into one visible token while recitation stretches and pauses across alif, lām, and mīm; the delivery restores separations that the written compactness hides.",
+      "reader_payoff": "The reader can hold written compactness and spoken separation at once, instead of assuming the token functions as one ordinary lexical word.",
+      "containment": "This is a claim about recitational form; it does not make the three names independent verse words or supply separate lexical translations.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied QAC surface and recitational evidence directly describe one token and separately performed letter names."
+      },
+      "support_ids": ["sup_0447c9003adaca77ab3f", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:open-function-space",
+      "origin_candidate_id": "cand_1328a6133d52d47be8ed",
+      "represented_candidate_ids": [],
+      "title": "Possible functions remain unselected",
+      "claim": "Abbreviation, oath-like pointing, and attention marking can remain possible functions of the signs because no local syntax selects one as their lexical meaning.",
+      "mechanism": "The focus has no governed particle relation, so these proposals describe possible ways the sign sequence may function rather than root-derived senses or clause roles; several can remain available without one becoming the local parse.",
+      "reader_payoff": "The reader can distinguish a proposed function from a selected translation and keep the possibilities visible without ranking them.",
+      "containment": "The recited letter names remain the surface reading; the challenge-material proposal is excluded from this micro finding because its trigger lies in wider context.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The supplied evidence preserves several function proposals while the focus morphology selects no governed construction."
+      },
+      "support_ids": ["sup_946bae6e869147e32a59", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:preclausal-completeness",
+      "origin_candidate_id": "cand_352cbe01a8b9c04665dd",
+      "represented_candidate_ids": [],
+      "title": "Complete as a recited sign sequence",
+      "claim": "The ayah completes as a sequence of recited letter signs, without requiring a hidden nominal or verbal clause to finish it.",
+      "mechanism": "The focus has one disconnected-letter item and no supplied predicate, verb, case, mood, or syntactic governance, so sign-status itself carries the ayah's completion.",
+      "reader_payoff": "The reader can stop searching for a missing clause and recognize the utterance as complete in its recited form.",
+      "containment": "This establishes grammatical completeness without resolving the letters' broader function or semantic value.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied QAC and attachment evidence directly identify a disconnected, non-clausal letter-name sequence."
+      },
+      "support_ids": ["sup_139995f6f2484d03a2e1", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:protocol-header-position",
+      "origin_candidate_id": "cand_83277e2f79c6e813059c",
+      "represented_candidate_ids": [],
+      "title": "Position gives the opener an entry function",
+      "claim": "As the sole item in the opening ayah, the letter-name sequence can mark a mode of entry before ordinary propositional discourse.",
+      "mechanism": "The focus places a nonlexical sign sequence at the reader's first point of entry; that position lets the opener orient the reading before a proposition is stated, giving it a header-like force without lexical content.",
+      "reader_payoff": "The opening position itself becomes meaningful even while the letters remain untranslated.",
+      "containment": "Header-like force is an analogy for local placement, not a claim that the ayah is a literal code or instruction.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The first-and-only position is supplied; the header analogy is a bounded interpretation of its placement and form."
+      },
+      "support_ids": ["sup_515ea0e14ccafc74afaf", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:rootless-surface",
+      "origin_candidate_id": "cand_e4be7df7b5f0f109f3e6",
+      "represented_candidate_ids": [],
+      "title": "No root-derived lexical parse",
+      "claim": "The supplied surface is an unrooted sequence of letter names, not an ordinary word derived from an Arabic lexical root.",
+      "mechanism": "The focus record supplies no lemma, root, stem, or inflection and marks the form as disconnected letters, so the sequence carries letter identity rather than a root-family word meaning.",
+      "reader_payoff": "The reader can retain alif lām mīm as the ayah's surface without forcing a contiguous lexical gloss onto it.",
+      "containment": "This excludes only a root-derived lexical parse; broader functions and resonances remain open for evidence in their proper lane.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The local QAC row and word-analysis bridge directly supply an empty root and disconnected-letter status."
+      },
+      "support_ids": ["sup_a07156de648d1230e163", "sup_8eb896fd88051f2b1a63"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The focus has one QAC item marked INL, no lexical root, and no additional focus branch or connection records. The packet assigns zero HFT records to micro (four to macro and twenty to global); its legacy reader identity is unbound and the HFT packet is broader than the declared pericope, so no micro before/after trace or HFT activation role can be reviewed here. Selected context units are empty. Cross-ayah candidates were therefore rejected or narrowed where their supplied trigger belonged to macro/global scope; no absent context or HFT content was inferred."
+  ]
+}

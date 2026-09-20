@@ -1,0 +1,1503 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:2",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_7ef07e6175a6dd16d283",
+      "decision": "reject",
+      "reason": "The claimed recurring Book-descent formula depends on the listed parallels at 39:1, 40:2, 41:2, 45:2, and 46:2. Those ayat are not selected context units and the recurrence claim is outside micro; the local subject and source relations are handled by focus-only findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "39:1", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "40:2", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "41:2", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "45:2", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "46:2", "reason": "Non-focus formula parallel is outside the selected micro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_efabf763c1b448b21def",
+      "decision": "accept",
+      "reason": "The accepted word alignment and attachment support establish تَنزِيلُ as a nominative verbal-noun subject in construct with the definite Book, with the source phrase delayed until the end.",
+      "finding_refs": ["micro:construct_subject"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_51155d3769b642990ed7",
+      "decision": "accept",
+      "reason": "The focus morphology identifies a Form II verbal noun; its processual, caused descent is independently colored by the named Book and delayed source relation.",
+      "finding_refs": ["micro:staged_descent"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6d5c7eb037d2585dc928",
+      "decision": "reject",
+      "reason": "The distinctive threshold reading requires 32:1's isolated letters, which are not a selected context unit; that cross-ayah transition belongs to macro rather than the focus-local syntax lane.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:1", "reason": "The letter-threshold trigger is outside the focus-only micro packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_076a9ec1fc1722e723d0",
+      "decision": "narrow",
+      "reason": "Retain the focus-local delivery and provision pressure carried by تَنزِيلُ in relation to the Book and its Lord-source. Omit the same-root recurrence at 32:19 because that ayah is not supplied as micro context.",
+      "finding_refs": ["micro:arrival_provision"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:19", "reason": "The same-surah provision return is not a selected context unit; the retained trigger comes from the Book and source phrase in 32:2."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8d2221246226f51a11a4",
+      "decision": "reject",
+      "reason": "The candidate's distinct payoff is Quranic recurrence and a same-surah scripture thread, which require non-focus ayat absent from the micro context. The local Book and no-doubt relation is retained through the focus syntax findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:2", "reason": "Non-focus certainty-formula parallel is outside the selected micro context."},
+        {"context_ref": "10:37", "reason": "Non-focus certainty-formula parallel is outside the selected micro context."},
+        {"context_ref": "32:3", "reason": "Adjacent-ayah fabrication challenge is outside the selected micro context."},
+        {"context_ref": "32:23", "reason": "Same-surah scripture return is outside the selected micro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_18e1e7fd91f9d577bebb",
+      "decision": "accept",
+      "reason": "The definite article and genitive case on ٱلْكِتَٰبِ attach an identifiable Book to the construct verbal noun and anchor the opening phrase.",
+      "finding_refs": ["micro:definite_book"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_10eda65dc84d75d17785",
+      "decision": "accept",
+      "reason": "The suffix in فِيهِ is masculine singular and the supplied attachment evidence directly resolves it to the masculine singular Book.",
+      "finding_refs": ["micro:pronoun_antecedent"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c98b5fdaf295ff1af2e2",
+      "decision": "accept",
+      "reason": "The supplied lexical range keeps record and prescription pressure available, while the local form remains the concrete Book; the categorical assurance and source-title independently support a bounded binding-force reading.",
+      "finding_refs": ["micro:record_prescription"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ebfe8a7233e9e3a43acc",
+      "decision": "accept",
+      "reason": "The focus construction places indefinite accusative رَيْبَ under categorical لَا and then locates that negation with فِيهِ, supporting a genus-level exclusion in the Book's domain.",
+      "finding_refs": ["micro:genus_negation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6a29e813b6eba92dd76f",
+      "decision": "accept",
+      "reason": "The unjoined clause لَا رَيْبَ فِيهِ stands between the opening subject and delayed source predicate, creating the supplied middle-beat pause.",
+      "finding_refs": ["micro:middle_beat"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_312ead39b887f3c87b25",
+      "decision": "accept",
+      "reason": "After لَا the focus has an accusative noun, not a jussive verb, so the particle makes a certainty assertion rather than a command.",
+      "finding_refs": ["micro:assertion_not_command"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a1da496e035ea2f3cee4",
+      "decision": "reject",
+      "reason": "The formula claim depends on the parallels at 2:2, 2:23, and 10:37, none of which is selected as context. The local categorical doubt construction is already preserved without claiming recurrence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:2", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "2:23", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "10:37", "reason": "Non-focus formula parallel is outside the selected micro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ec734609f5dedba00207",
+      "decision": "accept",
+      "reason": "The trusted lexical support preserves disquiet and inner disturbance within رَيْبَ, and categorical negation in relation to the Book supplies an independent local trigger; the positive calamity-event sense remains outside this construction.",
+      "finding_refs": ["micro:rayb_disturbance"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e57267689a916371a186",
+      "decision": "accept",
+      "reason": "QAC and attachment evidence mark رَيْبَ as an indefinite accusative noun governed by categorical لَا, so its singular form can stand for the whole doubt category.",
+      "finding_refs": ["micro:accusative_genus"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_aa09ff4b150126615a6e",
+      "decision": "accept",
+      "reason": "The supplied attachment parse makes رَيْبَ the semantic payload of the inserted clause, with لَا introducing it and فِيهِ supplying its domain.",
+      "finding_refs": ["micro:middle_payload"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b3195277a31a5dca692e",
+      "decision": "accept",
+      "reason": "The focus reading retains the standard non-nunated accusative parse, while the supplied case, tanwīn, and assimilation variants expose how grammatical form and the word boundary affect the hearing.",
+      "finding_refs": ["micro:qiraat_pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_264ee1b6ff5ff8ee25f1",
+      "decision": "accept",
+      "reason": "The suffix comes at the end of فِيهِ and refers back to the Book, so the inserted clause resolves at its final word.",
+      "finding_refs": ["micro:clause_closure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_05031d4103d138ba73ea",
+      "decision": "accept",
+      "reason": "The preposition-plus-suffix form compresses domain and referent into one word, and the supplied assimilation evidence makes the preceding doubt consonant audible at its boundary without changing the suffix's target.",
+      "finding_refs": ["micro:compressed_sound"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9de0fb94888f1c0edd67",
+      "decision": "accept",
+      "reason": "The attachment evidence makes فِيهِ the prepositional domain completing the negated noun, so the exclusion is localized to or concerning the Book.",
+      "finding_refs": ["micro:domain_of_exclusion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1ff7fcff6f4b7a0095e4",
+      "decision": "accept",
+      "reason": "The suffix most directly resumes the Book while the opening construct keeps the sending-down process in view, allowing the certainty clause to reach the process by extension.",
+      "finding_refs": ["micro:pronoun_scope"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_406b1b4387f89a3cef98",
+      "decision": "accept",
+      "reason": "Because the inserted certainty clause precedes مِنْ, the source preposition starts the final movement that resolves the opening subject.",
+      "finding_refs": ["micro:source_pivot"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8e667f4753dcdc9b0b8a",
+      "decision": "accept",
+      "reason": "مِنْ governs the Lord-title as complement, so its local relation is source rather than a part taken from a larger quantity.",
+      "finding_refs": ["micro:source_not_partitive"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_93aed3971d7d80e98f8b",
+      "decision": "narrow",
+      "reason": "Keep the local recitational contact from the final nūn of مِنْ into the initial rāʾ of رَبِّ. Omit the forward fabrication dispute at 32:3, which is not selected micro context.",
+      "finding_refs": ["micro:source_assimilation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:3", "reason": "The next-ayah dispute is outside the focus-only micro packet."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c197fc622bd613d3c73a",
+      "decision": "accept",
+      "reason": "The supplied attachment parse identifies the phrase headed by مِنْ as the delayed source predicate for the opening subject phrase.",
+      "finding_refs": ["micro:source_predicate"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a046a2e6045fafd2aa97",
+      "decision": "accept",
+      "reason": "رَبِّ is genitive under مِنْ and governs the final genitive complement, making the source a relational Lord-title.",
+      "finding_refs": ["micro:source_title"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e155c205389f6b28d086",
+      "decision": "reject",
+      "reason": "The distinctive payoff is that رَبِّ ٱلْعَٰلَمِينَ is a recurring formula, which depends on the cited non-focus ayat. The local genitive title and plural scope remain represented in focus-only findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "1:2", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "26:192", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "56:80", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "69:43", "reason": "Non-focus formula parallel is outside the selected micro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b4315a0bc5d83cb88980",
+      "decision": "accept",
+      "reason": "The focus Lord-title is locally contacted by the staged Book-descent and its worlds complement, activating the supplied nurture/completion branch as title pressure while preserving nominal form.",
+      "finding_refs": ["micro:nurturing_lordship"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2a2c395beb0daf3d6c76",
+      "decision": "narrow",
+      "reason": "Retain the local doubled-bāʾ sound in رَبِّ and its weight before the final plural. Omit the same-surah recurrence at 32:3, 32:15, and 32:16 because those ayat are not selected micro context.",
+      "finding_refs": ["micro:rabb_sound"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:3", "reason": "Same-surah recurrence is outside the selected focus context."},
+        {"context_ref": "32:15", "reason": "Same-surah recurrence is outside the selected focus context."},
+        {"context_ref": "32:16", "reason": "Same-surah recurrence is outside the selected focus context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ea978ea70f0fc68f6acf",
+      "decision": "accept",
+      "reason": "The concrete singular construct form رَبِّ, governed by مِنْ and completed by ٱلْعَٰلَمِينَ, supports the supplied relational-title contrast with an abstract lordship noun or a bare sovereignty label.",
+      "finding_refs": ["micro:title_choice"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f4126f3659a5522b1a30",
+      "decision": "accept",
+      "reason": "The genitive plural ٱلْعَٰلَمِينَ is grammatically governed by رَبِّ, completing the Lord-of relation rather than functioning as a free object.",
+      "finding_refs": ["micro:construct_complement"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ff5ea97a18bc54e0198d",
+      "decision": "accept",
+      "reason": "The definite plural form and final position expand the source title across the full class of worlds rather than an indefinite subset.",
+      "finding_refs": ["micro:plural_scope"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_29dd7c4fa0d054f1dc96",
+      "decision": "narrow",
+      "reason": "Retain the local closing effect of definite ٱلْعَٰلَمِينَ, its final position, and nasal closure. Omit the 32:1 boundary contrast and unspecified same-surah knowledge returns, which are not supplied as focus triggers here.",
+      "finding_refs": ["micro:final_seal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:1", "reason": "The prior-letter boundary contrast is outside the selected micro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_208221ef1b0ce99b3e92",
+      "decision": "reject",
+      "reason": "A dominant formula and its distribution require the cited Quran-wide parallels; they are not selected context units. The local Lord-of-worlds relation and cosmic scope are retained through focus grammar findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "1:2", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "56:80", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "69:43", "reason": "Non-focus formula parallel is outside the selected micro context."},
+        {"context_ref": "81:27", "reason": "Non-focus formula parallel is outside the selected micro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92e9d674989577af0856",
+      "decision": "accept",
+      "reason": "The supported knowledge range for ٱلْعَٰلَمِينَ meets the Book and the certainty clause as independent focus triggers, so the worlds can be read as domains where knowledge and truth are intelligible while the ordinary plural remains intact.",
+      "finding_refs": ["micro:knowledge_domains"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ab6f322d99cee0ad3ada",
+      "decision": "accept",
+      "reason": "The supplied morphology marks the final form as an oblique masculine sound plural and contrasts it with the near-form active participle for knowers.",
+      "finding_refs": ["micro:masculine_plural_form"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ea72ccb4284f39e194c2",
+      "decision": "reject",
+      "reason": "This is a ledger_only focus-root occurrence, not an independently activated semantic reading; the exact QAC occurrence remains provenance evidence in the packet.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6b5990216dff6e089b32",
+      "decision": "reject",
+      "reason": "This is a ledger_only focus-root occurrence for the Book stem, not a semantic finding; its QAC identity remains available as carrier provenance.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2cabf0a05035de0ef4c0",
+      "decision": "reject",
+      "reason": "This is a ledger_only focus-root occurrence for رَيْبَ, not an independently activated reading; its QAC identity remains available as carrier provenance.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_93ff2fa63485b414ed95",
+      "decision": "reject",
+      "reason": "This is a ledger_only focus-root occurrence for رَبِّ, not an independently activated reading; its QAC identity remains available as carrier provenance.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d67bcd9059c5230d8c86",
+      "decision": "reject",
+      "reason": "This is a ledger_only focus-root occurrence for ٱلْعَٰلَمِينَ, not an independently activated reading; its QAC identity remains available as carrier provenance.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cc9259362584080fe3b9",
+      "decision": "accept",
+      "reason": "All three legacy_unbound trace coordinates and root labels match the supplied focus words. The delivery, joining, and inscription roles form one distinct reading of a composed text arriving into reach, so they are retained as attributed.",
+      "finding_refs": ["micro:delivered_assembly"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_03950d73877aa621fb51",
+      "decision": "accept",
+      "reason": "The four legacy_unbound trace coordinates match تَنزِيلُ, ٱلْكِتَٰبِ, رَيْبَ, and رَبِّ. Their placement, binding judgment, denied instability, and sovereign-source roles form a focus-local reading; each remains attributed and bounded.",
+      "finding_refs": ["micro:binding_placement"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2339416e1e8e317d303e",
+      "decision": "accept",
+      "reason": "The focus trace maps the mark, fitting placement, and nurture roles to ٱلْعَٰلَمِينَ, تَنزِيلُ, and رَبِّ. Their contact yields a local waymark reading that keeps the source-title and ordinary worlds sense recoverable.",
+      "finding_refs": ["micro:nurturing_waymark"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8e634e380ee1c80d196c",
+      "decision": "accept",
+      "reason": "The supplied focus trace links the hospitality-share branch at تَنزِيلُ to the composed Book and sustaining source; as an attributed, exploratory relation it changes transmission into prepared textual provision without adding a literal meal.",
+      "finding_refs": ["micro:prepared_provision"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1c4f4e0dc9511bf41c30",
+      "decision": "represented",
+      "reason": "The waymark outlier has the exact same three-branch interaction and changed reading as the nurturing-source finding. Its marked-worlds emphasis and explicit containment are carried in that finding, and every cited branch remains activated.",
+      "finding_refs": ["micro:nurturing_waymark"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:construct_subject",
+      "origin_candidate_id": "cand_efabf763c1b448b21def",
+      "represented_candidate_ids": [],
+      "title": "construct verbal noun becomes the sentence subject",
+      "claim": "تَنزِيلُ names the sending-down of ٱلْكِتَٰبِ as the sentence's subject, so the ayah first gives the reader the matter at hand before its source arrives.",
+      "mechanism": "The nominative verbal noun is bound to the definite Book in a construct phrase, while مِن رَّبِّ ٱلْعَٰلَمِينَ comes later as its source predicate; that delay makes origin the sentence's closing identification.",
+      "reader_payoff": "The reader sees the revelation-process named first and its provenance supplied after the intervening certainty clause.",
+      "containment": "The ordinary claim remains that the Book's sending-down is from the Lord of the worlds; the nominal order adds emphasis without changing that claim.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The accepted word alignment, nominative morphology, and attachment parse directly support the subject and delayed predicate relation."
+      },
+      "support_ids": ["sup_170f6618489ed4870baa", "sup_6a285f621c0da138cefd"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:staged_descent",
+      "origin_candidate_id": "cand_51155d3769b642990ed7",
+      "represented_candidate_ids": [],
+      "title": "Form II frames controlled staged descent",
+      "claim": "تَنزِيلُ gives the Book's sending-down a caused, processual frame; with ٱلْكِتَٰبِ as its complement, revelation is heard as a delivered process.",
+      "mechanism": "The Form II verbal-noun morphology carries the descent as an initiated act and the construct attaches that act to the named Book, changing bare downward motion into a sourced delivery.",
+      "reader_payoff": "The reader can hear the wording as the Book being delivered through revelation, with staged or repeated force remaining a form pressure.",
+      "containment": "The focus still names the sending-down of one Book; the verbal-noun form does not itself count installments or specify their timing.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The Form II verbal noun and caused descent are supplied directly; the staged or repeated shade is preserved as pressure rather than a counted event."
+      },
+      "support_ids": ["sup_56b9a51ae4e2ae014538", "sup_6a285f621c0da138cefd"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:arrival_provision",
+      "origin_candidate_id": "cand_076a9ec1fc1722e723d0",
+      "represented_candidate_ids": [],
+      "title": "arrival and provision color the revealed product",
+      "claim": "تَنزِيلُ carries the Book toward the reader as a delivered text, and its pairing with ٱلْكِتَٰبِ and a Lord-source lets the descent bear a contained provision shade.",
+      "mechanism": "The descent carrier meets the named Book and مِن رَّبِّ ٱلْعَٰلَمِينَ: the message is identified as what arrives from a sustaining source, activating both divine delivery and a received-benefit image.",
+      "reader_payoff": "The reader can feel the sending-down as an arrival of meaningful provision as well as a revelation-process.",
+      "containment": "The local sense remains the sending-down of the Book; the hospitality branch is a root-level shade, not literal food or a guest in the verse. The cited 32:19 return is not used.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["trusted"],
+        "reason": "The focus relation grounds divine delivery, while the hospitality extension is a bounded root-level resonance."
+      },
+      "support_ids": ["sup_6a285f621c0da138cefd", "sup_8f8e84bb89c5f3be5ea0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrısal iyilik, ceza veya bildiriyi insanlara ulaştırma",
+          "facet_statement": "Tanrı iyilikleri veya cezaları insanlara verir ve ulaştırır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["32:2:1:1"],
+          "trigger_refs": ["32:2:2:2", "32:2:7:1"],
+          "focus_return_refs": ["32:2:1:1"],
+          "carrier": "تَنزِيلُ carries the sending-down of the Book.",
+          "independent_trigger": "ٱلْكِتَٰبِ names the delivered content and رَبِّ ٱلْعَٰلَمِينَ names its source.",
+          "activation": "The text and its source make the descent a divine conveyance of a message into reach, beyond an unspecified downward motion.",
+          "resulting_reading": "The Book's descent carries the sense of a divine message delivered from its source.",
+          "boundary": "This keeps the local revelation reading; it does not add a separate physical object or claim an unstated audience event."
+        },
+        {
+          "branch_ref": "root_001492/B005",
+          "facet_id": "F001",
+          "branch_gloss": "konuk için hazırlanan yiyecek ve ağırlama payı",
+          "facet_statement": "Konuğun yararlanması için yiyecek, yol azığı ve ağırlama payı hazırlanır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["32:2:1:1"],
+          "trigger_refs": ["32:2:2:2", "32:2:7:1"],
+          "focus_return_refs": ["32:2:1:1"],
+          "carrier": "تَنزِيلُ carries a delivered descent.",
+          "independent_trigger": "ٱلْكِتَٰبِ is the provision's ordered textual content and رَبِّ names a sustaining source.",
+          "activation": "The Book as received content and the nurturing source meet the descent's provision branch, so arrival can be felt as a supplied textual benefit.",
+          "resulting_reading": "The revealed Book arrives with the shade of a prepared provision for reception.",
+          "boundary": "This is an exploratory reception image only; the verse does not describe a literal meal, host, or named guest."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:definite_book",
+      "origin_candidate_id": "cand_18e1e7fd91f9d577bebb",
+      "represented_candidate_ids": [],
+      "title": "definite genitive Book anchors the subject phrase",
+      "claim": "ٱلْكِتَٰبِ is the definite genitive partner of تَنزِيلُ, so the opening identifies a particular Book within the sending-down phrase.",
+      "mechanism": "The article marks the Book as definite and its genitive case attaches it to the verbal noun; this relation turns a general descent into the sending-down of an identifiable text.",
+      "reader_payoff": "The Book is present from the first phrase as the named content of revelation.",
+      "containment": "The grammatical emphasis keeps the ordinary Book reading intact and does not introduce another document.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied QAC and attachment evidence directly establish definiteness, genitive case, and construct attachment."
+      },
+      "support_ids": ["sup_29aa8471fc079ca19ba3", "sup_73931e589cf4672ddb43"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:pronoun_antecedent",
+      "origin_candidate_id": "cand_10eda65dc84d75d17785",
+      "represented_candidate_ids": [],
+      "title": "masculine singular form routes the pronoun",
+      "claim": "The suffix in فِيهِ most directly returns to the masculine singular Book, keeping the no-doubt statement attached to its named antecedent.",
+      "mechanism": "The singular masculine form of ٱلْكِتَٰبِ matches the suffix, and the supplied attachment parse points فِيهِ back to that noun; the certainty clause therefore concerns this Book.",
+      "reader_payoff": "The short suffix carries a clear return path to the text introduced at the start.",
+      "containment": "The direct antecedent is the Book; the wider process-scope extension is recorded separately and does not replace that reference.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The support identifies the Book as the most direct antecedent from form and attachment."
+      },
+      "support_ids": ["sup_29aa8471fc079ca19ba3", "sup_9b3a15ea6797a44fdb7e"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:record_prescription",
+      "origin_candidate_id": "cand_c98b5fdaf295ff1af2e2",
+      "represented_candidate_ids": [],
+      "title": "record and prescription remain in the Book range",
+      "claim": "ٱلْكِتَٰبِ can carry a binding-prescription shade alongside its written-text sense because the clause declares it doubt-free and names a Lord-source.",
+      "mechanism": "The Book stem carries the candidate branch of binding determination; the categorical assurance and مِن رَّبِّ ٱلْعَٰلَمِينَ independently contact it, allowing written discourse to register with prescriptive force.",
+      "reader_payoff": "The text can be received as something that bears an obligation or settled determination as well as something readable.",
+      "containment": "The focus still names the concrete Book, not a passive decree-form; binding force remains a contained lexical pressure rather than the only meaning.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The V4 lexical range supplies record and prescription, while the local form restricts the reading to pressure carried by the concrete Book."
+      },
+      "support_ids": ["sup_29aa8471fc079ca19ba3", "sup_a6062fce75a84c61fe15"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir işi yapılması gereken bağlayıcı bir yükümlülük olarak belirlemek temel değerlerden biridir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["32:2:2:2"],
+          "trigger_refs": ["32:2:3:1", "32:2:4:1", "32:2:7:1", "32:2:8:2"],
+          "focus_return_refs": ["32:2:2:2"],
+          "carrier": "ٱلْكِتَٰبِ names the written Book.",
+          "independent_trigger": "The categorical no-doubt clause and the source-title مِن رَّبِّ ٱلْعَٰلَمِينَ frame the text as settled and authoritative.",
+          "activation": "The Book's written-text carrier meets the assurance and sovereign-source relation, bringing the branch's binding-obligation pressure into the phrase.",
+          "resulting_reading": "The named Book remains readable discourse while also bearing a bounded sense of binding prescription.",
+          "boundary": "The verse does not change كِتَٰب into a passive fate-form or assert a specific legal ruling."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:genus_negation",
+      "origin_candidate_id": "cand_ebfe8a7233e9e3a43acc",
+      "represented_candidate_ids": [],
+      "title": "categorical negation excludes the genus",
+      "claim": "لَا رَيْبَ فِيهِ excludes doubt as a category in relation to the Book, with فِيهِ supplying the domain of the negation.",
+      "mechanism": "لَا governs the following indefinite accusative noun رَيْبَ, and the preposition-plus-suffix completes that phrase by returning to the Book; their contact changes a one-case denial into categorical assurance.",
+      "reader_payoff": "The reader sees both the scope of what is excluded and the text to which that exclusion is attached.",
+      "containment": "The statement is about doubt in relation to this Book; it does not rank or settle every form of human uncertainty.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus morphology and attachment evidence directly support categorical negation and its domain."
+      },
+      "support_ids": ["sup_33f3709ecdda6f41d65e", "sup_8f594907a6aeac64fd6e"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:middle_beat",
+      "origin_candidate_id": "cand_6a29e813b6eba92dd76f",
+      "represented_candidate_ids": [],
+      "title": "negation opens the parenthetical middle beat",
+      "claim": "لَا رَيْبَ فِيهِ interrupts the opening subject before مِن رَّبِّ supplies its source, making the listener pass through certainty before origin is named.",
+      "mechanism": "The unjoined nominal clause stands between the subject phrase and its delayed prepositional predicate; its placement changes the sentence into an opening, a certainty pause, and a source closure.",
+      "reader_payoff": "The reader hears the no-doubt statement as a middle beat that holds the sentence open.",
+      "containment": "The phrase remains an assertion about the Book inside the same source sentence; the pause does not create a second claim unrelated to it.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied local syntax and attachment parse identify the inserted nominal clause and its position."
+      },
+      "support_ids": ["sup_33f3709ecdda6f41d65e", "sup_ee9cfbf3eda07bcb024b"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:assertion_not_command",
+      "origin_candidate_id": "cand_312ead39b887f3c87b25",
+      "represented_candidate_ids": [],
+      "title": "following noun blocks a command reading",
+      "claim": "لَا makes an assertion about the Book's state because the next form is the accusative noun رَيْبَ, leaving the clause as categorical negation.",
+      "mechanism": "The focus supplies a noun after لَا where a prohibitive command would require a jussive verb; that form contact makes the speech act a statement of certainty.",
+      "reader_payoff": "The reader can hear the phrase as what the Book is like rather than an instruction to the reader.",
+      "containment": "The correction is limited to the grammatical form of this clause and does not add a separate command.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied QAC form of the following noun directly excludes a prohibitive parse."
+      },
+      "support_ids": ["sup_33f3709ecdda6f41d65e", "sup_6bce1c5512822cb8d42f"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:rayb_disturbance",
+      "origin_candidate_id": "cand_ec734609f5dedba00207",
+      "represented_candidate_ids": [],
+      "title": "doubt includes disquiet and disturbance",
+      "claim": "رَيْبَ can carry inner disquiet and disturbance as well as doubt, so the categorical clause removes instability in relation to the Book.",
+      "mechanism": "The carrier رَيْبَ meets لَا and the domain marker فِيهِ: negation acts on the branch of broken certainty and inner unease, changing a purely intellectual gloss into an assurance against disquiet around the text.",
+      "reader_payoff": "The reader can feel that what the clause excludes includes unsettled unease, not only a stated proposition of uncertainty.",
+      "containment": "This uses the accepted kuşku-and-inner-unease core; it does not activate the separate time-event, need, or positive calamity readings.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The local negated noun supports doubt and disquiet; the extension is bounded to the supplied core branch."
+      },
+      "support_ids": ["sup_9c997cc54cac9538a180", "sup_ed69f3ed723c7ef3b065"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000616/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kuşku ve güvensizlik",
+          "facet_statement": "Bir şey hakkında kesinliğin bozulması, zihinde kararsızlık ve iç tedirginliği doğurur.",
+          "application_mode": "lexical",
+          "carrier_refs": ["32:2:4:1"],
+          "trigger_refs": ["32:2:3:1", "32:2:5:1", "32:2:5:2"],
+          "focus_return_refs": ["32:2:4:1"],
+          "carrier": "رَيْبَ is the focus noun for doubt.",
+          "independent_trigger": "لَا categorically negates the noun and فِيهِ ties that negation back to the Book.",
+          "activation": "The categorical negation and Book-domain contact make the branch's inner unease part of what the clause removes.",
+          "resulting_reading": "The Book is presented as free from doubt that unsettles the reader's certainty.",
+          "boundary": "The clause contains this doubt/disquiet sense; it does not narrate a calamity or a time-borne event."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:accusative_genus",
+      "origin_candidate_id": "cand_e57267689a916371a186",
+      "represented_candidate_ids": [],
+      "title": "accusative indefinite names the whole doubt category",
+      "claim": "رَيْبَ is an indefinite singular accusative under لَا, so the noun form stands for the genus of doubt rather than one instance.",
+      "mechanism": "The accusative case is governed by categorical لَا while indefiniteness leaves the category unbounded; together they make the singular noun represent doubt as a class.",
+      "reader_payoff": "The reader sees how the grammar gives the negation its broad categorical reach.",
+      "containment": "The category is doubt in the domain marked by فِيهِ; this finding does not extend the clause beyond that phrase.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Both QAC morphology and the supplied attachment evidence mark the noun and governing particle."
+      },
+      "support_ids": ["sup_964b9b6026d8984dc607", "sup_9c997cc54cac9538a180"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:middle_payload",
+      "origin_candidate_id": "cand_aa09ff4b150126615a6e",
+      "represented_candidate_ids": [],
+      "title": "doubt is the payload of the inserted clause",
+      "claim": "رَيْبَ supplies the semantic payload of the inserted clause: لَا introduces the excluded category and فِيهِ localizes it.",
+      "mechanism": "The noun sits between the governing negator and its completing domain phrase, so the middle clause's focus falls on what is excluded before its location is closed.",
+      "reader_payoff": "The listener first meets the doubt category and only then hears the Book named as its domain.",
+      "containment": "The noun remains the object of the clause's negation; the sequence adds focus without changing its basic certainty claim.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied attachment relation explicitly makes فِيهِ complete the expression built around رَيْبَ."
+      },
+      "support_ids": ["sup_7632e416ca8eb74bbd62", "sup_9c997cc54cac9538a180"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:qiraat_pressure",
+      "origin_candidate_id": "cand_b3195277a31a5dca692e",
+      "represented_candidate_ids": [],
+      "title": "variant forms expose grammar and sound pressure",
+      "claim": "The supplied case, tanwīn, and assimilation variants make the form of رَيْبَ audible as a pressure point in the no-doubt construction.",
+      "mechanism": "The standard focus parse keeps the non-nunated accusative noun under لَا, while the reported variants change the case or sound at the boundary with فِيهِ; hearing those contrasts shows how form affects the categorical clause.",
+      "reader_payoff": "The reader can notice grammatical and acoustic choices that a smooth translation flattens.",
+      "containment": "The focus retains its supplied local parse; the variants are contrastive evidence and do not replace the Book-certainty reading.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Variant pressure is supplied through trusted evidence, while the exact local parse remains the stated standard construction."
+      },
+      "support_ids": ["sup_9c997cc54cac9538a180", "sup_eb0d5c0c1a2da1c753cf"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:clause_closure",
+      "origin_candidate_id": "cand_264ee1b6ff5ff8ee25f1",
+      "represented_candidate_ids": [],
+      "title": "clause-final pronoun closes the middle beat",
+      "claim": "The suffix at the end of فِيهِ returns to the Book and closes the middle clause only after the doubt-free domain is named.",
+      "mechanism": "The focus places the pronoun suffix last in the inserted phrase and attachment routes it back to ٱلْكِتَٰبِ, making the clause resolve at its final sound.",
+      "reader_payoff": "The reader experiences the return to the Book as the closure of the interruption.",
+      "containment": "This clause closure stays inside the subject-and-source sentence and does not create another antecedent.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied parse and suffix position directly support the closure."
+      },
+      "support_ids": ["sup_7bb9ca4344a87e84a0f5", "sup_a5d022b112db61b8dcb3"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:compressed_sound",
+      "origin_candidate_id": "cand_05031d4103d138ba73ea",
+      "represented_candidate_ids": [],
+      "title": "compact pronoun phrase carries boundary pressure",
+      "claim": "فِيهِ compresses the domain relation and its Book-reference into one word, while assimilation lets the preceding doubt consonant press into its opening sound.",
+      "mechanism": "The preposition plus suffix fuses relation and referent, and the supplied recitational variant changes the sound at the رَيْبَ-to-فِيهِ seam without changing the suffix's antecedent.",
+      "reader_payoff": "The certainty clause sounds and reads as a tight return to the Book.",
+      "containment": "The audible contact intensifies the boundary only; the suffix continues to refer most directly to the Book.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The compact morphology and boundary sound are supplied, with the sound variant kept distinct from the syntactic referent."
+      },
+      "support_ids": ["sup_5fd58da619101fa7ebd9", "sup_7bb9ca4344a87e84a0f5"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:domain_of_exclusion",
+      "origin_candidate_id": "cand_9de0fb94888f1c0edd67",
+      "represented_candidate_ids": [],
+      "title": "fīhi supplies the doubt-free domain",
+      "claim": "فِيهِ localizes the excluded doubt within or concerning the Book, so the negation has a named domain rather than floating as an abstract claim.",
+      "mechanism": "The preposition فِي takes a suffix that resumes the Book, completing the phrase governed by the negated noun and changing categorical denial into a Book-directed assurance.",
+      "reader_payoff": "The reader can locate exactly what the certainty statement concerns.",
+      "containment": "The scope remains the Book and its sending-down by extension; it is not a free claim about all possible doubt.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The attachment evidence supplies the domain function and the suffix reference."
+      },
+      "support_ids": ["sup_06bf621640944920d8c8", "sup_7bb9ca4344a87e84a0f5"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:pronoun_scope",
+      "origin_candidate_id": "cand_1ff7fcff6f4b7a0095e4",
+      "represented_candidate_ids": [],
+      "title": "suffix points back while preserving process and product",
+      "claim": "The suffix in فِيهِ points most directly to the Book while the opening construct keeps its sending-down in view, allowing the certainty clause to touch product and process.",
+      "mechanism": "Masculine singular ٱلْكِتَٰبِ supplies the direct antecedent, and its construct relation with تَنزِيلُ leaves the revelation-process available as an extension; their contact broadens the clause without changing the pronoun's primary route.",
+      "reader_payoff": "The reader can hold the Book directly in view while hearing the no-doubt clause reach its sending-down by extension.",
+      "containment": "The Book remains the direct referent; process-scope is an extension carried by the phrase, not a replacement antecedent.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The direct antecedent is supported, while process-scope is explicitly an extension rather than the primary attachment."
+      },
+      "support_ids": ["sup_1f7a5496dceb0ff27ddf", "sup_7bb9ca4344a87e84a0f5"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:source_pivot",
+      "origin_candidate_id": "cand_406b1b4387f89a3cef98",
+      "represented_candidate_ids": [],
+      "title": "source preposition pivots into closure",
+      "claim": "After لَا رَيْبَ فِيهِ, مِنْ begins the sentence's closing movement from the Book's certainty to its origin.",
+      "mechanism": "The preposition introduces the Lord-title as the delayed predicate, so the clause's shift from certainty to source is carried by the first word after the inserted middle phrase.",
+      "reader_payoff": "The reader hears the final source phrase as a resolution of the sentence's open subject.",
+      "containment": "The pivot does not change the Book-certainty clause; it completes the same nominal assertion by naming its source.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The local attachment parse identifies the inserted clause and the delayed source predicate."
+      },
+      "support_ids": ["sup_81addbae7cf40db4e532", "sup_b859107ef55f1ae827db"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:source_not_partitive",
+      "origin_candidate_id": "cand_8e667f4753dcdc9b0b8a",
+      "represented_candidate_ids": [],
+      "title": "min selects source rather than partition",
+      "claim": "مِنْ identifies the Lord-title as the Book's source, so the phrase marks where the revelation comes from rather than a portion drawn from a larger whole.",
+      "mechanism": "The complement is مِنْ رَبِّ ٱلْعَٰلَمِينَ, a source-title relation; this contact directs the preposition toward origin and changes a possible partitive reading into provenance.",
+      "reader_payoff": "The reader sees that the final phrase names the origin of the Book.",
+      "containment": "The source relation can frame the revelation-process and the whole preceding assertion while remaining an origin claim.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied local complement and attachment evidence establish the source relation."
+      },
+      "support_ids": ["sup_a63888f1d47b57d5d4ee", "sup_b859107ef55f1ae827db"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:source_assimilation",
+      "origin_candidate_id": "cand_93aed3971d7d80e98f8b",
+      "represented_candidate_ids": [],
+      "title": "source closure is heard at the nūn-to-rāʾ seam",
+      "claim": "The final nūn of مِنْ is recitationally bound toward the rāʾ of رَبِّ, tightening the source phrase into one audible unit.",
+      "mechanism": "The adjacent focus sounds contact across the preposition and its complement; this local assimilation gives the delayed source phrase an audible closure after the certainty clause.",
+      "reader_payoff": "The reader hears the origin phrase close as a connected sound rather than as separate lexical pieces.",
+      "containment": "Only the local sound relation is retained; the forward challenge at 32:3 is outside this finding.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The recitational sound observation is supplied directly; the forward context is excluded."
+      },
+      "support_ids": ["sup_7c44f2d4bdcc515878e6", "sup_b859107ef55f1ae827db"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:source_predicate",
+      "origin_candidate_id": "cand_c197fc622bd613d3c73a",
+      "represented_candidate_ids": [],
+      "title": "source phrase supplies the delayed predicate",
+      "claim": "مِن رَّبِّ ٱلْعَٰلَمِينَ is the delayed predicate that identifies the source of تَنزِيلُ ٱلْكِتَٰبِ.",
+      "mechanism": "The opening verbal noun and its Book complement establish the nominal subject, لَا رَيْبَ فِيهِ interrupts it, and the final prepositional phrase supplies the subject's source relation.",
+      "reader_payoff": "The reader can follow how the sentence waits until its end to say from whom the Book comes.",
+      "containment": "The predicate completes the initial assertion and keeps the intervening certainty clause within it.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied attachment parse directly identifies the phrase as the delayed predicate."
+      },
+      "support_ids": ["sup_4c28b249c36a791778eb", "sup_b859107ef55f1ae827db"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:source_title",
+      "origin_candidate_id": "cand_a046a2e6045fafd2aa97",
+      "represented_candidate_ids": [],
+      "title": "genitive construct title names the source endpoint",
+      "claim": "رَبِّ is governed by مِنْ and heads a construct with ٱلْعَٰلَمِينَ, so the Book's source is expressed as a relational Lord-title.",
+      "mechanism": "The genitive title is the complement of the source preposition and governs the final genitive plural; this grammatical contact makes the source relation land on Lord-of-worlds.",
+      "reader_payoff": "The source arrives as a title defined through its relation to the worlds.",
+      "containment": "The reading remains the Lord of the worlds as source; the grammatical relation adds how that title is formed.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "QAC and attachment evidence establish the genitive and construct relations."
+      },
+      "support_ids": ["sup_18d92dc8188162c7f509", "sup_a05b451afeb6a47ee565"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:nurturing_lordship",
+      "origin_candidate_id": "cand_b4315a0bc5d83cb88980",
+      "represented_candidate_ids": [],
+      "title": "lordship carries nurture and completion",
+      "claim": "رَبِّ remains a stable source-title while its nurture-and-completion branch meets the staged descent of the Book and the plural worlds it governs.",
+      "mechanism": "The Lord-title at 32:2:7:1 is independently contacted by تَنزِيلُ as a process of delivery and ٱلْعَٰلَمِينَ as the domains under its relation; together they color the source as sustaining and developing what receives the Book.",
+      "reader_payoff": "The source can be heard as sustaining and cultivating lordship within the same phrase that names the world's scope.",
+      "containment": "The focus keeps رَبِّ as a relational noun title under مِنْ; the cultivation image colors that title without turning it into a narrated verb of nurturing.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The word-analysis record explicitly retains nurture and completion as title pressure, and the local descent/worlds relation supplies independent triggers."
+      },
+      "support_ids": ["sup_63b0aeff77532aefb0d2", "sup_a05b451afeb6a47ee565"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["32:2:7:1"],
+          "trigger_refs": ["32:2:1:1", "32:2:8:2"],
+          "focus_return_refs": ["32:2:7:1"],
+          "carrier": "رَبِّ is the relational Lord-title naming the Book's source.",
+          "independent_trigger": "تَنزِيلُ names a descent-process and ٱلْعَٰلَمِينَ names the worlds in relation to that source.",
+          "activation": "A process of delivered revelation and the stated worlds meet the title's nurture/completion sense, coloring what the Lord-source does for those domains.",
+          "resulting_reading": "The source-title carries a bounded sense of sustaining and completing the worlds to which the Book comes.",
+          "boundary": "The phrase does not become a verb clause or specify a narrated act of cultivation."
+        },
+        {
+          "branch_ref": "root_000537/B005",
+          "facet_id": "F001",
+          "branch_gloss": "besleyip büyütmek ve yetişmek",
+          "facet_statement": "Büyüyen varlık beslenir ve gelişmesi sağlanır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["32:2:7:1"],
+          "trigger_refs": ["32:2:1:1", "32:2:8:2"],
+          "focus_return_refs": ["32:2:7:1"],
+          "carrier": "رَبِّ is a source-title, not a finite growth verb.",
+          "independent_trigger": "The Book's caused descent and the worlds named in the construct provide a local setting for nourishment and development.",
+          "activation": "Those focus relations let the related nourishment branch press on the title as a lexical shade while the grammatical form remains nominal.",
+          "resulting_reading": "Lordship can carry a contained shade of feeding and developing the worlds in relation to the delivered Book.",
+          "boundary": "This is title pressure from the related root record, not an assertion that رَبِّ itself narrates a feeding action."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:rabb_sound",
+      "origin_candidate_id": "cand_2a2c395beb0daf3d6c76",
+      "represented_candidate_ids": [],
+      "title": "rabb anchors closure through local sound",
+      "claim": "The doubled bāʾ of رَبِّ gives the short source-title audible weight before ٱلْعَٰلَمِينَ lengthens the phrase into its final plural.",
+      "mechanism": "The consonant doubling in the focus form is followed by the genitive plural complement; their sound contact makes the source-title stand out locally as the sentence closes.",
+      "reader_payoff": "The listener can hear a firm source-title carried into a longer cosmic ending.",
+      "containment": "Only the focus sound and closure are retained; the supplied later Lord-language recurrences at 32:3, 32:15, and 32:16 are not used.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The local gemination observation is supplied; cross-ayah recurrence is excluded from this lane."
+      },
+      "support_ids": ["sup_8d4e414697b7acca8ed4", "sup_a05b451afeb6a47ee565"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:title_choice",
+      "origin_candidate_id": "cand_ea978ea70f0fc68f6acf",
+      "represented_candidate_ids": [],
+      "title": "stable singular title differs from abstract or alternate titles",
+      "claim": "The ayah uses the concrete singular construct title رَبِّ for the source, so the relation is voiced through a Lord-title connected to the worlds rather than an abstract lordship noun.",
+      "mechanism": "The form is a singular genitive noun under مِنْ and is completed by ٱلْعَٰلَمِينَ; this grammatical choice makes sourcehood relational and specific.",
+      "reader_payoff": "The reader can notice that the verse chooses a title tied to what it governs rather than an abstract label.",
+      "containment": "The claim stays with the selected title and its construct; it does not deny the Lord's sovereignty or introduce an alternate divine name.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied local form and contrast support the relational title reading."
+      },
+      "support_ids": ["sup_9b7ea2c3f2d1e9cb8029", "sup_a05b451afeb6a47ee565"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:construct_complement",
+      "origin_candidate_id": "cand_f4126f3659a5522b1a30",
+      "represented_candidate_ids": [],
+      "title": "genitive plural completes the Lord-of relation",
+      "claim": "ٱلْعَٰلَمِينَ is the genitive plural complement governed by رَبِّ, grammatically locking the final word into the Lord-of relation.",
+      "mechanism": "The construct head governs the final plural, so that word completes the source-title instead of floating as a separate object.",
+      "reader_payoff": "The reader sees why the final word belongs to the title that names the Book's source.",
+      "containment": "The relation remains the Lord of the worlds; the grammatical form clarifies its construction.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "QAC and attachment evidence directly establish the genitive construct relation."
+      },
+      "support_ids": ["sup_0c0b25b755de53aa232c", "sup_9a9cc6033aa0cde1fec5"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:plural_scope",
+      "origin_candidate_id": "cand_ff5ea97a18bc54e0198d",
+      "represented_candidate_ids": [],
+      "title": "definite plural expands source to all worlds",
+      "claim": "The definite plural ٱلْعَٰلَمِينَ carries the Lord-title across the full plurality of worlds, extending the named source beyond a local domain.",
+      "mechanism": "The article marks the plural as definite and its final position completes the construct; this contact gives the source relation expansive scope rather than an indefinite subset.",
+      "reader_payoff": "The reader feels the sentence open from one Book to the full range of worlds under its source.",
+      "containment": "The plural remains the construct complement naming worlds and does not turn the word into a set of active knowers.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The definite plural morphology and final construct position directly support the broad scope."
+      },
+      "support_ids": ["sup_9a9cc6033aa0cde1fec5", "sup_ebe263f3b1fca4e58d0e"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:final_seal",
+      "origin_candidate_id": "cand_29dd7c4fa0d054f1dc96",
+      "represented_candidate_ids": [],
+      "title": "last word seals the ayah at cosmic scope",
+      "claim": "The ayah lands on definite ٱلْعَٰلَمِينَ, whose final position and nasal closure let the source phrase end across a plural cosmic scope.",
+      "mechanism": "The genitive complement is both the last word and a definite plural; its long vowel and final n carry the Lord-of relation into the ayah's closing sound.",
+      "reader_payoff": "The reader hears the source claim settle on the full plurality named by the final word.",
+      "containment": "This local ending retains the worlds reading; the 32:1 contrast and unspecified same-surah knowledge returns are not used.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Final position and nasal closure are local; the candidate's cross-ayah supports are excluded."
+      },
+      "support_ids": ["sup_9a9cc6033aa0cde1fec5", "sup_d515adc86877ab202892"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:knowledge_domains",
+      "origin_candidate_id": "cand_92e9d674989577af0856",
+      "represented_candidate_ids": [],
+      "title": "knowledge root makes worlds intelligible domains",
+      "claim": "ٱلْعَٰلَمِينَ remains the worlds, while the knowledge sense can make them intelligible domains in which the named Book and its certainty are received.",
+      "mechanism": "The worlds word carries the supplied knowing-and-comprehension branch; ٱلْكِتَٰبِ and لَا رَيْبَ فِيهِ independently trigger a knowledge frame, bringing revelation into contact with the world's intelligibility.",
+      "reader_payoff": "The final plural can suggest domains that are not only vast but legible to knowledge and signs.",
+      "containment": "The local lexeme remains worlds or domains, not active knowers; this is a bounded knowledge-pressure reading.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The focus Book and certainty clause provide a local trigger, while the word-analysis support explicitly keeps the selected sense as worlds."
+      },
+      "support_ids": ["sup_11175d90db072b711182", "sup_9a9cc6033aa0cde1fec5"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "intrinsic_cross_root",
+          "carrier_refs": ["32:2:8:2"],
+          "trigger_refs": ["32:2:2:2", "32:2:4:1"],
+          "focus_return_refs": ["32:2:8:2"],
+          "carrier": "ٱلْعَٰلَمِينَ remains the focus word for worlds or domains.",
+          "independent_trigger": "The ayah names a Book and declares the doubt-free domain in فِيهِ.",
+          "activation": "The named text and certainty clause meet the final word's knowledge branch, making the worlds available as domains where the message is intelligible.",
+          "resulting_reading": "The Lord's worlds can be heard as domains of knowledge and comprehension as well as cosmic scope.",
+          "boundary": "This does not turn ٱلْعَٰلَمِينَ into active knowers or replace its local worlds sense."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:masculine_plural_form",
+      "origin_candidate_id": "cand_ab6f322d99cee0ad3ada",
+      "represented_candidate_ids": [],
+      "title": "sound masculine plural treats worlds as ordered domains",
+      "claim": "The oblique masculine sound plural gathers ٱلْعَٰلَمِينَ as a structured class of worlds or domains under the Lord-title.",
+      "mechanism": "The supplied plural inflection and genitive ending attach the final word to رَبِّ as a member of an ordered set; its near-form contrast with active-participle knowers keeps the local word in the worlds/domain reading.",
+      "reader_payoff": "The reader can hear the plural as a shaped collection of domains rather than an undifferentiated expanse.",
+      "containment": "The morphology preserves worlds/domains as the local sense and does not activate the nearby form's meaning of knowers.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The sound plural and its contrast are supplied, while the interpretive effect remains a bounded morphological pressure."
+      },
+      "support_ids": ["sup_2c0f64b478cd80fa6ffd", "sup_9a9cc6033aa0cde1fec5"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:delivered_assembly",
+      "origin_candidate_id": "cand_cc9259362584080fe3b9",
+      "represented_candidate_ids": [],
+      "title": "delivered assembly",
+      "claim": "The focus can present the Book as a joined, inscribed discourse delivered into reach: تَنزِيلُ gives the arrival axis and ٱلْكِتَٰبِ the composed whole.",
+      "mechanism": "The HFT trace's descent/delivery role on تَنزِيلُ meets the Book's joining and inscription branches; their contact changes an object sent down into the arrival of an assembled textual whole.",
+      "reader_payoff": "The reader can picture revelation as a composed message entering reach rather than as an isolated object moving downward.",
+      "containment": "The ordinary reading remains that a Book is sent down; the joining and inscription roles add a textual-whole emphasis and do not claim a physical codex or a specific human recipient.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The supplied HFT trace coordinates match the focus forms, but its reader identity remains legacy_unbound, so the integrated reading is attributed."
+      },
+      "support_ids": ["sup_94831b3f8ee8894f8fc5"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrısal iyilik, ceza veya bildiriyi insanlara ulaştırma",
+          "facet_statement": "Tanrı iyilikleri veya cezaları insanlara verir ve ulaştırır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:1:1"],
+          "trigger_refs": ["32:2:2:2", "32:2:6:1", "32:2:7:1"],
+          "focus_return_refs": ["32:2:1:1"],
+          "carrier": "تَنزِيلُ carries the sending-down process.",
+          "independent_trigger": "ٱلْكِتَٰبِ names what is delivered and مِن رَّبِّ identifies its source.",
+          "activation": "The Book and source phrase meet the trace's delivery role, so descent reads as a message reaching its intended field.",
+          "resulting_reading": "The Book's descent is heard as divine delivery of a message into reach.",
+          "boundary": "The trace does not establish a named human recipient or replace the ordinary sending-down sense."
+        },
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "facet_statement": "Temel işlem, bir şeyi başka bir şeye katarak ikisini bir bütün veya bağlı bir düzen içinde birleştirmektir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:2:2"],
+          "trigger_refs": ["32:2:1:1"],
+          "focus_return_refs": ["32:2:2:2"],
+          "carrier": "ٱلْكِتَٰبِ is the named textual whole.",
+          "independent_trigger": "تَنزِيلُ supplies the separate act of delivering that whole.",
+          "activation": "The joining branch meets the descent process, making the delivered Book available as a composed unity.",
+          "resulting_reading": "The Book is received as joined discourse rather than an unstructured object.",
+          "boundary": "The focus does not specify its component units; the joining image remains attributed and general."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:2:2"],
+          "trigger_refs": ["32:2:1:1", "32:2:6:1"],
+          "focus_return_refs": ["32:2:2:2"],
+          "carrier": "ٱلْكِتَٰبِ is the text-bearing Book.",
+          "independent_trigger": "تَنزِيلُ presents a conveyed process and مِنْ رَبِّ marks its source.",
+          "activation": "The writing branch meets the distinct delivery and source relation, yielding a transmissible written discourse.",
+          "resulting_reading": "The Book arrives as inscribed discourse delivered from its source.",
+          "boundary": "The focus supports written discourse as an attributed reading, not a claim about a specific manuscript form."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:binding_placement",
+      "origin_candidate_id": "cand_03950d73877aa621fb51",
+      "represented_candidate_ids": [],
+      "title": "Book as binding placement",
+      "claim": "The Book can be heard as a fitting, binding determination whose provenance is not destabilized by doubt: تَنزِيلُ places the named ٱلْكِتَٰبِ in relation to رَبِّ ٱلْعَٰلَمِينَ.",
+      "mechanism": "The attributed placement branch at تَنزِيلُ meets the Book's binding-judgment branch; لَا رَيْبَ فِيهِ supplies the stabilizing negation, while مِن رَّبِّ grounds its authority in the source-title.",
+      "reader_payoff": "The reader can perceive a juridical-spatial reading in which the Book is situated and binding, with its authority attached to its source.",
+      "containment": "The ordinary Book and no-doubt assertion stay intact. This attributed model does not name a particular ruling or make the sentence a legal decree.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Each trace coordinate matches a supplied focus form, but the integrated HFT model remains a legacy_unbound attribution."
+      },
+      "support_ids": ["sup_bd79b01326a12879d265"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001492/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi uygun yerine veya sırasına koyma",
+          "facet_statement": "Bir şey düzenlenir ve kendisine uygun yere, sıraya veya dereceye konur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:1:1"],
+          "trigger_refs": ["32:2:2:2", "32:2:8:2"],
+          "focus_return_refs": ["32:2:1:1"],
+          "carrier": "تَنزِيلُ carries the placement trace on the descent form.",
+          "independent_trigger": "ٱلْكِتَٰبِ is the item placed and ٱلْعَٰلَمِينَ supplies the domain of its relation.",
+          "activation": "The named Book and its worlds complement contact the placement branch, yielding a sense of the text set into a fitting role.",
+          "resulting_reading": "The descended Book is understood as a determination placed in an appointed relation to the worlds.",
+          "boundary": "The verse does not name a physical station; placement remains an attributed root reading."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir konuda geçerli ve kesinleşmiş hüküm vermek aynı belirleme çekirdeğinin yargısal yönüdür.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:2:2"],
+          "trigger_refs": ["32:2:3:1", "32:2:4:1", "32:2:5:1", "32:2:7:1"],
+          "focus_return_refs": ["32:2:2:2"],
+          "carrier": "ٱلْكِتَٰبِ carries the binding-judgment branch.",
+          "independent_trigger": "The categorical no-doubt clause and the source مِن رَّبِّ supply stability and authority.",
+          "activation": "The Book's determination branch meets a certainty assertion and sovereign source, bringing settled judgment into the delivered text.",
+          "resulting_reading": "The Book reads as a binding determination whose source is named.",
+          "boundary": "No specific decree or legal provision is identified in this ayah."
+        },
+        {
+          "branch_ref": "root_000616/B001",
+          "facet_id": "F001",
+          "branch_gloss": "kuşku ve güvensizlik",
+          "facet_statement": "Bir şey hakkında kesinliğin bozulması, zihinde kararsızlık ve iç tedirginliği doğurur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:4:1"],
+          "trigger_refs": ["32:2:3:1", "32:2:5:1", "32:2:2:2"],
+          "focus_return_refs": ["32:2:4:1"],
+          "carrier": "رَيْبَ carries suspicion and instability.",
+          "independent_trigger": "لَا denies that category in فِيهِ, whose suffix refers to the Book.",
+          "activation": "The denial and Book domain meet the instability branch, making the determination's certainty part of the wider placement model.",
+          "resulting_reading": "The placed Book's authority is presented as undisturbed by suspicion.",
+          "boundary": "This is a reading of the focus clause, not a claim that human readers never experience doubt."
+        },
+        {
+          "branch_ref": "root_000532/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sahip olup yönetme",
+          "facet_statement": "Sahiplik, buyruk yetkisi ve yönetip düzenleme aynı çekirdekte birleşir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:7:1"],
+          "trigger_refs": ["32:2:8:2", "32:2:6:1"],
+          "focus_return_refs": ["32:2:7:1"],
+          "carrier": "رَبِّ names the source through a relational title.",
+          "independent_trigger": "مِنْ marks provenance and ٱلْعَٰلَمِينَ supplies the domain governed by the title.",
+          "activation": "The source preposition and worlds complement meet the ownership/governance branch, grounding the Book's determination in a sovereign source.",
+          "resulting_reading": "The determination comes from a source whose title carries ownership and governance over the worlds.",
+          "boundary": "The construct use is not a bare absolute divine naming and does not add a separate sovereignty claim beyond this relation."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:nurturing_waymark",
+      "origin_candidate_id": "cand_2339416e1e8e317d303e",
+      "represented_candidate_ids": ["cand_1c4f4e0dc9511bf41c30"],
+      "title": "worlds as marked domains and the Book as waymark",
+      "claim": "ٱلْعَٰلَمِينَ keeps its ordinary worlds scope while a mark-and-wayfinding echo lets the Book's descent appear as a situated sign within domains sustained by رَبِّ.",
+      "mechanism": "The worlds word carries the focus trace's sign branch; تَنزِيلُ supplies fitting placement and رَبِّ supplies nurture, so the independent descent and source relations turn a universal plural into a field where a received Book can function as a waymark.",
+      "reader_payoff": "The reader can see a local scene of a Book placed as a guide-sign within marked worlds under a nurturing source.",
+      "containment": "The ordinary reading remains the Lord of all worlds and the sending-down of the Book. This is a contained root echo: worlds are not translated as signs, and the Book is not literally renamed a waymark.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Both HFT records trace the same three focus roots and changed reading; the unusual sign-world contact remains explicitly attributed and exploratory."
+      },
+      "support_ids": ["sup_c75172404e65b1b6d514", "sup_6122a9bab72e57f686e6"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ayırt edici ve yol gösterici işaret",
+          "facet_statement": "Bir nesneyi veya kişiyi başkalarından ayırıp tanınır kılan belirgin iz ya da işaret çekirdeği oluşturur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:8:2"],
+          "trigger_refs": ["32:2:1:1", "32:2:7:1"],
+          "focus_return_refs": ["32:2:8:2"],
+          "carrier": "ٱلْعَٰلَمِينَ is the ordinary worlds/domain word.",
+          "independent_trigger": "تَنزِيلُ places the Book within a relation to those worlds, and رَبِّ supplies a nurturing source.",
+          "activation": "The placement and nurture roles contact the word's distinguishing-sign branch, allowing the worlds to be heard as marked domains for a situated guide-sign.",
+          "resulting_reading": "The worlds remain domains while also carrying a contained mark/wayfinding echo.",
+          "boundary": "The ordinary translation remains worlds; the word is not replaced with signs or landmarks."
+        },
+        {
+          "branch_ref": "root_001492/B004",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi uygun yerine veya sırasına koyma",
+          "facet_statement": "Bir şey düzenlenir ve kendisine uygun yere, sıraya veya dereceye konur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:1:1"],
+          "trigger_refs": ["32:2:2:2", "32:2:8:2"],
+          "focus_return_refs": ["32:2:1:1"],
+          "carrier": "تَنزِيلُ carries the local descent process.",
+          "independent_trigger": "ٱلْكِتَٰبِ names what is delivered and ٱلْعَٰلَمِينَ supplies the domain in which it is placed.",
+          "activation": "The Book and worlds make the placement branch a situated relation rather than a bare universal scope.",
+          "resulting_reading": "The Book's arrival gains a placed role within the worlds named at the end.",
+          "boundary": "The text does not name a physical location; the fitted placement remains an attributed reading."
+        },
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:7:1"],
+          "trigger_refs": ["32:2:1:1", "32:2:8:2"],
+          "focus_return_refs": ["32:2:7:1"],
+          "carrier": "رَبِّ is the Lord-title naming the Book's source.",
+          "independent_trigger": "The descent of the Book and the final worlds complement supply a process and a domain for nurture.",
+          "activation": "Those focus relations meet the source-title's development branch, so the placed sign is related to care and completion rather than simple classification.",
+          "resulting_reading": "The source is heard as a nurturer whose Book is situated among marked worlds.",
+          "boundary": "The title remains nominal and the reading does not narrate a separate act of cultivation."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:prepared_provision",
+      "origin_candidate_id": "cand_8e634e380ee1c80d196c",
+      "represented_candidate_ids": [],
+      "title": "the Book as prepared textual provision",
+      "claim": "تَنزِيلُ can carry the shade of provision prepared for reception when its descent meets ٱلْكِتَٰبِ as an ordered text and رَبِّ as a nurturing source.",
+      "mechanism": "The focus trace's hospitality-share branch on descent contacts the Book's joining branch and the Lord-title's nurture branch; together they change a downward-transmitted object into textual sustenance fitted to receive.",
+      "reader_payoff": "The reader can perceive the Book's arrival as an offered benefit whose ordered content answers the act of receiving.",
+      "containment": "The ordinary reading remains the Book's sending-down. Hospitality is exploratory: the verse does not name a meal, a literal guest, or a specific human recipient.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The trace coordinates match the focus words, but the hospitality image and its cross-root synthesis remain legacy_unbound attribution."
+      },
+      "support_ids": ["sup_17f2c8716b4db5ebeddb"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001492/B005",
+          "facet_id": "F001",
+          "branch_gloss": "konuk için hazırlanan yiyecek ve ağırlama payı",
+          "facet_statement": "Konuğun yararlanması için yiyecek, yol azığı ve ağırlama payı hazırlanır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:1:1"],
+          "trigger_refs": ["32:2:2:2", "32:2:7:1"],
+          "focus_return_refs": ["32:2:1:1"],
+          "carrier": "تَنزِيلُ carries the descent branch at the focus word.",
+          "independent_trigger": "ٱلْكِتَٰبِ supplies ordered textual content and رَبِّ supplies the nurturing source.",
+          "activation": "The Book and source relations contact the prepared-provision branch, making the descent resemble something received as sustaining benefit.",
+          "resulting_reading": "The delivered Book is heard as prepared textual provision for reception.",
+          "boundary": "The focus does not supply literal food, a named guest, or a specific recipient."
+        },
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "facet_statement": "Temel işlem, bir şeyi başka bir şeye katarak ikisini bir bütün veya bağlı bir düzen içinde birleştirmektir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:2:2"],
+          "trigger_refs": ["32:2:1:1"],
+          "focus_return_refs": ["32:2:2:2"],
+          "carrier": "ٱلْكِتَٰبِ is the named textual whole.",
+          "independent_trigger": "تَنزِيلُ is the separate act that brings the whole into reach.",
+          "activation": "The joined-text branch meets the delivery process, making the provision an ordered textual assemblage rather than undifferentiated bounty.",
+          "resulting_reading": "The received benefit is an ordered Book, not an unspecified gift.",
+          "boundary": "No component list or physical assembly is asserted."
+        },
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:2:7:1"],
+          "trigger_refs": ["32:2:1:1", "32:2:2:2"],
+          "focus_return_refs": ["32:2:7:1"],
+          "carrier": "رَبِّ names the Book's source through a relational Lord-title.",
+          "independent_trigger": "The delivered Book is the distinct recipient/content whose reception gives the nurture branch a concrete relation.",
+          "activation": "The source-title's nurture branch meets the delivered text, making the provision an expression of purposive sustaining care.",
+          "resulting_reading": "The Book's descent can be heard as nurture fitted to what is received.",
+          "boundary": "This is a contained source-image; it does not state a separate narrated act of growth."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment resolves all 8 word-analysis units with no unresolved or shared-morpheme joins; each cited analysis word uses its supplied accepted QAC alignment.",
+    "The packet contains no selected_context_units and an empty connection_registry. Cross-ayah recurrence and boundary candidates were therefore excluded or narrowed, and no non-focus occurrence was used as a carrier or trigger.",
+    "All five HFT traces name focus words and roots that match the supplied QAC surface. Their reader identity is legacy_unbound, so retained HFT activations remain attributed; no external context trace is present.",
+    "The candidate objects contain no semantic_obligations or required_branch_facets fields. No obligation refs were invented; candidate support IDs carry the word evidence, and the HFT findings preserve each supplied trace role, before/after movement, and containment.",
+    "The branch registry supplies exact facets for every retained HFT branch ref; each retained activation lands through a core facet. No connection refs or separately nominated required facets were supplied."
+  ]
+}

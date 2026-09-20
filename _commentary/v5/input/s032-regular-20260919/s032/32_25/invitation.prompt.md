@@ -1,0 +1,187 @@
+# V5 reading invitation — 32:25
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s032-regular-20260919/s032/32_25/32_25.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s032-regular-20260919/s032/32_25/32_25.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+Şüphesiz Rabbin, Kıyamet Günü’nde, insanların ayrılığa düştükleri konu hakkında aralarında hüküm verecektir. Cümlenin başındaki {ar:إِنَّ, tr:inna, gloss:şüphesiz} bütün yargıyı kesinlik içinde kurar; bildirilen karar bir koşula bağlanmaz. Eylemin faili {ar:رَبَّكَ, tr:rabbaka, gloss:Rabbin} diye adlandırılır; hemen ardından gelen bağımsız {ar:هُوَ, tr:huwa, gloss:o} zamiri özneyi öne çıkarır, {ar:يَفْصِلُ بَيْنَهُمْ, tr:yafṣilu baynahum, gloss:aralarında hükme bağlar} ise kararın eylemini ve taraflarını gösterir. {ar:يَوْمَ الْقِيَامَةِ, tr:yawm al-qiyāmah, gloss:Kıyamet Günü} hükmün zamanını, {ar:فِيمَا كَانُوا فِيهِ يَخْتَلِفُونَ, tr:fīmā kānū fīhi yakhtalifūna, gloss:ayrılığa düştükleri konu} konusunu belirler. Sondaki uyuşmazlık cümleciği ana yargıya dönerek hükmün konusunu sabitler: Rab o meselede aralarında karar verecektir; ayet taraflardan kimin üstün çıkacağını ve kararın içeriğini açık bırakır.
+
+{ar:رَبَّكَ, tr:rabbaka, gloss:Rabbin} ile {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} yan yana duyulduğunda karar, adı verilmiş Rabbin eylemi olarak belirir. Rab adının sözlüksel çevresindeki sahiplik, buyruk ve yönetim yönleri yargı yetkisini belirginleştirir. {ar:هُوَ, tr:huwa, gloss:o} okura önce kimin hükmettiğini, sonra ne yaptığını işittiren biçimsel bir eşik kurar; bu vurgu cümle içindeki faili öne çıkarır, başka olası failler hakkında genel bir dışlama hükmü kurmaz. Aynı zamirin isim cümlesinin iki parçası arasındaki bağımsız özne kullanımı, fiilden hemen önceki huwa’da küçük bir dilbilgisel yankı uyandırır; odaktaki yafṣilu ise kendi cümlesinde yüklem fiil olarak kalır. I. biçimdeki yafṣilu kısa ve doğrudan bir yargı eylemidir. Sözcük ailesinin doğruyla yanlışı ayırıp uyuşmazlığı kesin karara bağlayan kullanımı, {ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:ayrılığa düşüyorlar} ile temas edince sıradan ayırmayı taraflar arasında hükme dönüştürür. Muzari fiil ile Kıyamet Günü zaman öbeğinin birlikteliği hükmü geleceğe dönük bir vaat olarak duyurur; cümlede bu yönelimi ayrıca kuran bir gelecek edatı yoktur.
+
+## Hükmün konusu ve taraflar arasındaki alan
+
+{ar:فِيمَا, tr:fīmā, gloss:hangi konuda} içindeki fī ile mā nispi öğesi “neyde, hangi konuda” sorusunu cümleye taşır; böylece dikkat kimin ve ne zaman hükme bağlanacağından, neyin hükme konu olduğuna döner. Gömülü anlaşmazlık cümleciğinden sonra gelen {ar:فِيهِ, tr:fīhi, gloss:onun hakkında}, baştaki konuyu yeniden yakalayıp son fiile bağlar. {ar:بَيْنَهُمْ, tr:baynahum, gloss:onların arasında} içindeki çoğul -hum tarafları, fīhi içindeki tekil -hi ise tartışılan içeriği gösterir: çoğul katılımcılar dilbilgisel olarak tekil bir konuya bağlanır, ancak bu sayı uyumu tartışmayı tek bir sava ya da tek bir uyuşmazlığa indirgemez. Yinelenen fī, belirlenmemiş içeriği düşünsel bir konu alanında tutar; mekânsal kullanıma benzeyen bu çerçeve, tartışmanın gerçek bir yerde geçtiğini ileri sürmez. Cümle böylece belirli bir meseleye yönelirken onun içeriğini açık bırakır.
+
+{ar:كَانُوا يَخْتَلِفُونَ, tr:kānū yakhtalifūna, gloss:ayrılığa düşüyorlardı} kuruluşunda kānū geçmiş çerçeveyi, ardından gelen VIII. biçimdeki fiil ise tarafların karşılıklı farklılaşmasını taşır. Geçmiş yardımcı fiille kurulan muzari, tek seferlik bir anlaşmazlıktan çok yinelenen bir geçmiş örüntüsü verir. Kānū üzerindeki çoğul özne ile yakhtalifūna üzerindeki çoğul uyum, {ar:بَيْنَهُمْ, tr:baynahum, gloss:onların arasında} ile anılan tarafları gömülü cümlenin öznesi olarak sürdürür; cümle içindeki bu gönderim, daha eski bir söylemdeki kimliklerini belirtmez. Kānū’nun sözlüksel çevresindeki “bir durumda bulunma” çağrışımı, ihtilafı yaşanmış bir geçmiş hâli gibi duyurur; kānū yine geçmiş zaman çerçevesini kurar ve yankı ayrı bir varlık iddiası getirmez. Böylece cümlenin zamanı geçmişte yinelenen insan örüntüsüyle {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} fiilinin {ar:يَوْمَ الْقِيَامَةِ, tr:yawm al-qiyāmah, gloss:Kıyamet Günü}’ndeki hükmünü karşı karşıya getirir. Bu örgü ihtilafı geçmişte konumlandırıp hükmü vaat edilen geleceğe yerleştirir; bugünkü devamlılık ve anlaşmazlığın nedeni açık bırakılır.
+
+{ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:farklılaşıyorlar} olağan anlamıyla görüş ayrılığını korurken, bağlı olduğu sözlüksel alan ayrı yol ve tutumlar izlemeyi de çağrıştırır. Ortak içeriği açan {ar:فِيمَا, tr:fīmā, gloss:hangi konuda} ile ayrılığı hükme götüren {ar:يَفْصِلُ, tr:yafṣilu, gloss:ayırıp hükme bağlar} birlikte duyulduğunda, aynı konu karşısındaki taraflar ayrı güzergâhlara yönelmiş gibi görünür; güzergâhlar düşünce ve tutum farklarını taşıyan mecazdır. Aynı sözcük ailesindeki başka bir kullanım sonradan gelenin öncekinin ardından gelmesini anlatabilir. Geçmiş-habitüel kānū ile karşılıklı VIII. biçim bu yankıyı tekil bir ayrışmadan yinelenen gidip gelmeye genişletir; bu tekrarın ritmi, takvimi ya da makam devrine dönüşüp dönüşmediği belirtilmez.
+
+{ar:بَيْنَهُمْ, tr:baynahum, gloss:aralarında} taraflar arasındaki ilişkiyi ve aralığı taşır. Sözcük ailesindeki ayrılıp kopma kullanımı, ortak konuya ve onu hükümle bölen yafṣilu eylemine değince bu aralığı sınır imgesine dönüştürür: karar, zaten ayrışmış konumları aynı mesele çevresinde görünür kılar. Sınır burada bu ilişkiyi resmeder; tarafların önceden birleşik, fiziksel olarak yakın ya da toplumsal olarak tek grup olduklarına dair tarihsel bir iddia taşımaz. Bilgi geldikten sonraki rekabet, 45:17’de ayrılığın belirli bir nedenini ve yine Rabbin hükmüne gelmesini gösteren ayrı bir örnektir (45:17). Bu örnek ortak konu çevresinde görüş ayrılığının çekişme ve rekabete uzanabileceğini açar; 32:25’in kendi konusu ve ayrılığın nedeni ise belirtilmeden kalır.
+
+11:118’de insanların tek bir topluluk olabilmesi ihtimaliyle birlikte ayrılığın sürdüğü belirtilir. Oradaki {ar:وَلَا يَزَالُونَ مُخْتَلِفِينَ, tr:wa-lā yazālūna mukhtalifīn, gloss:ayrılığı sürdürürler} ile odaktaki {ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:farklılaşıyorlar} arasındaki temas, ayrı yönelişlerin kalıcı uyuşmazlığa, çekişmeye ve tartışmaya uzanabileceği toplumsal bir örüntüyü gösterir (11:118). Bu karşılaştırma, uzayabilen ihtilafın Rabbin hükmüyle sonuca bağlanmasını düşündürür; 11:118 tek topluluk olma olasılığını koruduğundan ayrılığı kaçınılmaz bir yazgı saymaz, 32:25 de tartışılan meseleyi adlandırmaz.
+
+{ar:يَوْمَ, tr:yawma, gloss:gün} fiile bağlı mansup zaman adı olarak hükmün vaktini kurar; {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} ile ilişkisi cümlenin yapısında açıktır. {ar:ٱلْقِيَامَةِ, tr:al-qiyāmah, gloss:Kıyamet} tamlayanı bu vaktin Kıyamet Günü olduğunu belirler. “Gün” günlük anlamını korur; aynı ad daha geniş bir zaman dilimini ya da bir varlığın yaşadığı dönemi de adlandırabildiğinden, hükmün gerçekleştiği bir evreyi çağrıştırabilir. Bu genişleme adı konmuş günü ortadan kaldırmaz; süre ve kronoloji ölçülmeden kalır. Kıyamet adındaki ayağa kalkma imgesi ise hükmün zamanını bir duruş sahnesine çevirir: taraflar karar için ayağa kalkmış görünür, bu beden imgesi günün uzunluğunu belirtmez.
+
+{ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:farklılaşıyorlar} ile duyulan ayrı güzergâhlar tarafların farklı konumlarını, {ar:بَيْنَهُمْ, tr:baynahum, gloss:aralarında} bu konumlar arasındaki ilişki ve aralığı verir; {ar:يَوْمَ الْقِيَامَةِ, tr:yawm al-qiyāmah, gloss:Kıyamet Günü} tarafları ortak bir hüküm vaktine yerleştirir, {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} da aralarındaki ayrılığı bağlayıcı karara taşır. Bu katkılar birleşince gün, farklı yönlere gitmiş tarafların hâlâ çekişirken birlikte bulundukları bir yargı forumu gibi duyulur. Forum imgesi tarafların aynı kişiler ya da sonuçlarının özdeş olduğunu varsaymaz; Rabbin kararı onları farklı sonuçlara götürebilir. 39:31’de çekişenler Kıyamet Günü Rablerinin huzurunda yer alır, 34:26’da ise Rab önce tarafları toplar ve ardından aralarında hak ile hükmeder. {ar:يَوْمَ الْقِيَامَةِ عِندَ رَبِّكُمْ تَخْتَصِمُونَ, tr:yawma al-qiyāmah ʿinda rabbikum takhtaṣimūn, gloss:Kıyamet Günü Rabbinizin huzurunda çekişirsiniz} ortak gün ve huzur sahnesini verir (39:31); {ar:يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِالْحَقِّ, tr:yajmaʿu baynanā rabbunā thumma yaftaḥu baynanā bil-ḥaqq, gloss:Rabbimiz bizi toplar, sonra aramızda hak ile hükmeder} ise birlikte toplanmanın ardından gelen ayırıcı kararın sırasını açık eder (34:26).
+
+Odaktaki {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} anlaşmazlığı karara bağlayan I. biçimdir. Aynı kökün II. biçimi bir şeyi ayrıntılarıyla açıklayabilir: 7:32’de {ar:نُفَصِّلُ الْآيَاتِ, tr:nufaṣṣilu al-āyāt, gloss:ayetleri açıklarız} denirken açıklanan şey ayetlerdir (7:32). Bu açıklama kullanımı, içeriği belirtilmeyen {ar:فِيمَا, tr:fīmā, gloss:hangi konuda} ile farklı yönleri taşıyan {ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:farklılaşıyorlar} sözcüğüne temas ederek uyuşmazlığın yapısını daha görünür kılan bir yankı açar; {ar:بَيْنَهُمْ, tr:baynahum, gloss:aralarında} ile taşınan belirginleşme yönü de tarafların konumlarını aydınlatır. Böylece geçmişte yaşanıp farklı güzergâhlara ayrılan uyuşmazlık soyut bir etiket olmaktan çıkar. Bu açıklayıcı yankı odaktaki I. biçimin “hükme bağlama” anlamını değiştirmez; 7:32’de ihtilaf savları sıralanmaz ve baynahum taraflar arasındaki ilişkiyi anlatır, delil ya da sözün kendisini değil.
+
+## Yönelişler ve zamanın ölçeği
+
+Hükümden önceki 32:22, 32:23 ve 32:24 ayetleri işaretler ve rehberlik karşısında üç ayrı yöneliş açar. 32:22’deki {ar:أَعْرَضَ عَنْهَآ, tr:aʿraḍa ʿanhā, gloss:işaretlerden yüz çevirdi} işaretlerden yüz çevirmeyi bildirir (32:22). 32:23’teki {ar:مِرْيَةٍۢ, tr:miryatin, gloss:kuşku} belirsizliği taşır; sözcüğün yanındaki daha sınırlı gidip gelme imgesi kuşkuyu konumlar arasında hareket eder gibi duyurabilir (32:23). 32:24’te emirle yol gösteren {ar:أَئِمَّةً, tr:aʾimmatan, gloss:önderler} başka bir yön sunar; {ar:صَبَرُوا۟, tr:ṣabarū, gloss:sabrettiler} diye nitelenmeleri, panik karşısında kendini tutan dayanıklılığın rehberliği sürdürmesini sağlar gibi okunabilir. {ar:يُوقِنُونَ, tr:yūqinūna, gloss:kesin olarak inanıyorlardı} ise işaretler karşısında kararlı bilgiyi taşır (32:24). Bu yüz çevirme, hareketli kuşku ve rehberliğe eşlik eden kesinlik yan yana gelince, odaktaki ihtilaf farklı görüşlerin yanı sıra işaretlere ve rehberliğe verilen cevapları da kapsayabilecek bir genişlik kazanır.
+
+Önderlerin ardından onları izleyenlerin bulunması, {ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:ayrılığa düşüyorlar} sözcük ailesindeki sonradan gelenin öncekinin yerini ya da işlevini üstlenmesi kullanımına temas eder (32:24). Bu yankı, insanların ve zamanın ardından gelenlerin bir yönelişi taşıyabildiği toplumsal bir imge açar; odaktaki VIII. biçim ise karşılıklı ayrışmayı anlatır, makam devrini değil. Sabır kendini tutan dayanıklılıkla rehberliği sürdürür, sınırlı gidip gelme kuşkunun hareketini, kesinlik de işaretlere verilen kararlı cevabı görünür kılar. Bu üç işleyiş 32:22, 32:23 ve 32:24’te ayrı portreler olarak yan yana durur; 32:25’e bir bağ kurulabilir, fakat kesintisiz tarihsel aktarım bu dizide kurulmaz.
+
+Bu yönelişlerden daha geniş bir zaman ve mekân ölçeğine geçince, göklerin, yerin ve {ar:مَا بَيْنَهُمَا, tr:mā baynahumā, gloss:ikisi arasındaki} alanın altı günde yaratılışı karşımıza çıkar (32:4). Odaktaki {ar:بَيْنَهُمْ, tr:baynahum, gloss:aralarında} insan tarafları arasındaki ilişkiyi taşırken, yaratılmış “ikisi arasındaki” alan fiziksel bir aralığı gösterir; ortak olan aralık imgesi, iki kullanımın ilişkisini kurar, anlamlarını özdeşleştirmez (32:4, 32:25). Altı gün anlatımını 32:5’teki {ar:فِي يَوْمٍ كَانَ مِقْدَارُهُ, tr:fī yawmin kāna miqdāruhu, gloss:ölçüsü belirlenmiş bir günde} ifadesi izler; süre böylece ölçü içinde görünür (32:4, 32:5). Aynı ayette {ar:يُدَبِّرُ الْأَمْرَ, tr:yudabbiru al-amra, gloss:işi düzenleyip yönetir} yönetimi, {ar:يَعْرُجُ إِلَيْهِ, tr:yaʿruju ilayhi, gloss:O’na yükselir} aşağı inişten sonraki yükselişi, {ar:مِقْدَارُهُ, tr:miqdāruhu, gloss:onun ölçüsü} ise sürenin ölçüsünü verir (32:5). Yaratılmış mekân, düzenlenen iş ve ölçülü iniş-yükseliş bir araya gelince, 32:25’teki hüküm önceden kurulmuş bir düzenin son sınırı gibi duyulabilir (32:4, 32:5, 32:25). Bu, 32:4 ve 32:5’in yaratma ve yönetme anlatısından 32:25’in hükmüne uzanan bir çıkarımdır; aynı anlatı diriltme kudretine delil olarak da okunur ve Kıyamet Günü’nün süresini ölçmez.
+
+Kozmik düzenden insanın oluşumuna yakınlaşan 32:7, 32:8 ve 32:9, hükmün karşısındaki hayatın biçimlenme basamaklarını açar. 32:7 her şeyin güzel biçimde yaratılmasını ve insan yaratılışının çamurdan başlamasını ilk basamak olarak verir (32:7). 32:8’de soyun {ar:سُلَالَةٍ مِّن مَاءٍ مَّهِينٍ, tr:sulālatin min māʾin mahīn, gloss:değersiz sudan süzülmüş öz} içinden gelişi ayrı bir başlangıç ve farklılaşmış kaynak sunar (32:8). 32:9’daki {ar:سَوَّىٰهُ, tr:sawwāhu, gloss:biçimini tamamladı} oluşmuş varlığa biçim verir; {ar:وَنَفَخَ فِيهِ مِن رُّوحِهِ, tr:wa-nafakha fīhi min rūḥihi, gloss:ona ruhundan üfledi} maddi oluşumdan canlanmaya geçişi, {ar:السَّمْعَ وَالْأَبْصَارَ وَالْأَفْئِدَةَ, tr:as-samʿa wa-l-abṣāra wa-l-afʾidata, gloss:işitme, görme ve kalpler} ise bu gelişmiş varlığın yetilerini bildirir (32:9). Canlandırıcı ruhla birlikte işitme, görme ve kalpler, son hükümde kullanımları ayırt edilebilecek insan kapasiteleri olarak görünür (32:9). Bu biçimlenme dizisi, hükmü hayatın sonucunu açığa çıkaran son bir eklemlenme gibi düşündürebilir; aynı yaratılış anlatısı diriltme kudretine delil olarak da okunur (32:7, 32:8, 32:9).
+
+{ar:رَبَّكَ, tr:rabbaka, gloss:Rabbin} adı yargılayan Rabbi gösterir; aynı sözlüksel çevrede büyüyen varlığı besleyip geliştirme yönü de bulunur. Bu yetiştirme çağrışımı 32:7, 32:8 ve 32:9’daki biçimlenme dizisine değdiğinde, geçmişte farklılaşmış insanların gelişimine eşlik eden Rab tasvirini kurar; {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} eylemi de bu gelişmiş hayatın ardından gelen hüküm olur (32:7, 32:8, 32:9, 32:25). Rab adı unvan olarak kalır: bu yankı ihtilafın nasıl yaratıldığı ya da onaylandığı hakkında hüküm vermez. {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} sözcük ailesindeki {ar:مَفْصِل, tr:mafsil, gloss:eklem yeri} ad biçimi beden bölümlerinin birleştiği noktayı adlandırır. Oluşmuş insan bedeniyle taraflar arasındaki {ar:بَيْنَهُمْ, tr:baynahum, gloss:aralarındaki ilişki} yan yana gelince, hüküm temas eden parçaları eklemleyip ayıran son düzenleme gibi duyulur (32:7, 32:8, 32:9). Eklem resmi ad biçiminden gelir; odaktaki I. biçimin yargı anlamını karşılar diye sunulmaz ve bu beden imgesi belirli bir organ ya da parçaya bağlanmaz.
+
+Kıyamet adındaki ayağa dik durma, denge ve sapmama çağrışımları, {ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:farklı yönler izliyorlar} ile belirtilen ayrılık ve {ar:يَفْصِلُ, tr:yafṣilu, gloss:hükme bağlar} eylemiyle buluşunca, farklı yönlerin ölçüye alınıp doğrultulması imgesini açar. Yargı diriliş günündeki karar olarak kalır; ayağa kalkma ve denge yankısı ise ayrışan yönlerin nasıl hizalandığını duyurur. Bu yöneliş imgesi ihtilafı bozulma diye nitelemez ve hükmün işleyişine dair somut bir mekanizma ileri sürmez.
+
+## Dönüş, davranış ve hükmün ufku
+
+İnsanın oluşumundan karşılaşma sahnesine geçişte, 32:10, 32:11 ve 32:12 yeryüzünde kaybolup gitme korkusunu Rab ile karşılaşma ve geri dönüşle yan yana getirir. 32:10’daki {ar:ضَلَلْنَا فِي الْأَرْضِ, tr:ḍalalnā fī al-arḍ, gloss:yeryüzünde kaybolup gittiğimizde} sorusu dağılma ve yitme korkusunu, {ar:بِلِقَاءِ رَبِّهِمْ, tr:bi-liqāʾi rabbihim, gloss:Rableriyle karşılaşma} varılacak buluşmayı adlandırır (32:10). 32:11’de {ar:يَتَوَفَّاكُم مَلَكُ الْمَوْتِ, tr:yatawaffākum malaku al-mawt, gloss:ölüm meleği canınızı eksiksiz alır} canın eksiksiz alınışını, {ar:تُرْجَعُونَ, tr:turjaʿūn, gloss:döndürülürsünüz} ise geri dönüşü bildirir (32:11). 32:12’deki {ar:نَاكِسُوا رُءُوسِهِمْ, tr:nākisū ruʾūsahum, gloss:başlarını öne eğmiş halde} başların eğilmesi önceki duruşun tersine çevrilişini gösterir (32:12). Bu kayboluş, alınış, dönüş ve baş eğiş dizisi 32:25’teki hükmü Rab ile karşılaşmanın ardından gelen karar olarak duyurmaya elverir (32:10, 32:11, 32:12, 32:25). Ayetler dönüşü yargının nedeni olarak kurmaz; bu sahneler aynı zamanda art arda gelen hesap manzaraları olarak okunabilir.
+
+32:15, 32:16, 32:17 ve 32:18, farklı yönelişleri beden, alışkanlık ve sonuç üzerinden görünür kılar. 32:15’te {ar:خَرُّوا سُجَّدًا, tr:kharū sujjadan, gloss:secdeye kapandılar} düşüşü secdeyle birleştirerek teslimiyeti bedenselleştirir (32:15). 32:16’da {ar:تَتَجَافَىٰ جُنُوبُهُمْ عَنِ الْمَضَاجِعِ, tr:tatajāfā junūbuhum ʿani al-maḍājiʿ, gloss:yanları yataklardan uzaklaşır} bedenin yataktan uzaklaşmasını bir alışkanlığa çevirir; 32:17’de {ar:جَزَاءً بِمَا كَانُوا يَعْمَلُونَ, tr:jazāʾan bimā kānū yaʿmalūn, gloss:yaptıklarının karşılığı} yapılanla karşılık arasındaki bağı kurar (32:16, 32:17). Ardından 32:18’deki {ar:لَا يَسْتَوُونَ, tr:lā yastawūn, gloss:eşit değildirler} farklı sonuçları açık bir eşitsizlik olarak bildirir (32:18). Bu dizide görüş ve tutum ayrılığı bedensel yönelimlere ve farklı sonuçlara kadar uzanır; davranışların 32:25’teki hükmün nedeni mi yoksa delili mi olduğu ise belirtilmez (32:15, 32:16, 32:17, 32:18, 32:25).
+
+32:20 ve 32:21 dönüş sözcüğünü iki ayrı sahnede kullanır. 32:20’de {ar:كُلَّمَا أَرَادُوا أَن يَخْرُجُوا مِنْهَا أُعِيدُوا فِيهَا, tr:kullamā arādū an yakhrujū minhā uʿīdū fīhā, gloss:çıkmak istedikçe geri döndürülürler} bulundukları yerden çıkma isteğinin her seferinde engellendiği kapalı çevrimi kurar (32:20). 32:21’deki {ar:الْعَذَابِ الْأَدْنَىٰ دُونَ الْعَذَابِ الْأَكْبَرِ لَعَلَّهُمْ يَرْجِعُونَ, tr:al-ʿadhābi al-adnā dūna al-ʿadhābi al-akbari laʿallahum yarjiʿūn, gloss:daha yakın ya da hafif azap, belki dönmeleri için daha büyük azaptan önce} ise daha yakın ya da hafif azabı daha büyük azapla karşılaştırır ve belki geri dönmeleri için bir fırsat açar (32:21). Böylece 32:20’deki zorunlu geri çevrilme ile 32:21’deki daha büyük azaptan önce düşünülen olası dönüş ayrı kalır. Bu fırsatlardan sonra Kıyamet Günü’nü son hüküm sınırı olarak düşünmek mümkündür; ancak bu sınır bir çıkarımdır, dönüş imkânının o gün sona erdiği açıkça bildirilmez (32:20, 32:21, 32:25). “Daha yakın” ifadesi zaman yakınlığını, “daha büyük” ise azap derecesini öne çıkarabilir; böylece sıralamanın zaman ve şiddet boyutları açık kalır.
+
+## Geçmişin izi ve suyun açtığı görüntü
+
+32:25’in ardından gelen 32:26, yok edilmiş önceki {ar:ٱلْقُرُونِ, tr:al-qurūni, gloss:kuşaklar} ile onların yurtlarında yürüyen sonraki insanları aynı manzarada buluşturur (32:26). {ar:يَمْشُونَ, tr:yamshūna, gloss:yürüyorlar} eylemi bugünkü yürüyenleri geçmiş kuşakların yaşadığı yerlere taşır; {ar:فِى مَسَٰكِنِهِمْ, tr:fī masākinihim, gloss:onların yurtlarında} bu karşılaşmayı maddi iz üzerinde sürdürür (32:26). {ar:يَخْتَلِفُونَ, tr:yakhtalifūna, gloss:ayrılığa düşüyorlar} sözcük ailesindeki sonradan gelenin öncekinin yerini ya da işlevini üstlenmesi kullanımı, {ar:بَيْنَهُمْ, tr:baynahum, gloss:aralarındaki ilişki} alanını kuşaklar arasına taşıyabilecek bir yankı verir: öncekilerin sonucu, sonrakilerin yürüdüğü yerde iz bırakır. Böylece yurtlar uzak dönemleri bağlayan bir arşiv gibi görünür; {ar:أَفَلَا يَسْمَعُونَ, tr:a-fa-lā yasmaʿūna, gloss:işitmiyorlar mı?} sorusu da bu izlerden geçenleri geçmişten ders almaya çağırır (32:26). Bu tarihsel yankı olası bir genişlemedir; 32:25’in hükmü kendi önündeki taraflar arasında kalır, 32:26 da önceki kuşakların hangi konuda ayrıldığını ya da ortak görüş taşıdığını belirtmez.
+
+32:26’daki yerleşimlerden sonra sahne çorak araziye ve suya döner (32:27). Suyun yöneltilmesi, hüküm fiilinin sözcük ailesindeki seyrek arazi imgesini bağımsız olarak canlandırır: bazı sözlük kaynaklarında bu sınırlı kullanım dağlık ya da kumlu arazideki ayırıcı kesiti, daha dar bir varyant ise taşlı kum sırtları arasında suyun durduğu yeri veya dağlarda suyun aktığı çatlağı adlandırır. 32:27’de {ar:نَسُوقُ ٱلْمَآءَ, tr:nasūqu l-māʾa, gloss:suyu sürüp götürürüz} suyu {ar:ٱلْأَرْضِ ٱلْجُرُزِ, tr:al-arḍi l-juruz, gloss:çorak arazi} üzerine taşır; {ar:فَنُخْرِجُ بِهِۦ زَرْعًا, tr:fa-nukhriju bihi zarʿan, gloss:onunla ürün çıkarırız} ise suyun kuru alanda görünür bir ürün doğurduğunu söyler (32:27). Çorak araziden çıkan ürün, gizli kalmış bir sonucun açığa çıkışını somutlaştırır; bu yüzden yargısal ayırma da kısır görünen yollar arasından sonucu belirginleştiren bir kanal gibi düşünülebilir. Coğrafi kanal imgesi aynı kökün seyrek kullanımından, sonuçtaki büyüme ise 32:27’deki su ve ürün sahnesinden gelir; ikisi birlikte odaktaki hükmün nasıl duyulabileceğini zenginleştirir, I. biçimdeki {ar:يَفْصِلُ, tr:yafṣilu, gloss:ayırıp hükme bağlar} fiilinin çevirisini coğrafi bir kanal ya da su yolu yapmaz.
+
+{ar:رَبَّكَ, tr:rabbaka, gloss:Rabbin} yargılayan Rabbi adlandırır; Rab adının eksikten tamamlanmaya taşıyan yetiştirme çağrışımı, suyun çorak toprağa ulaşıp ürün vermesiyle buluşunca aynı unvan yaşamı sürdüren Rabbi de duyurur (32:27). Böylece tarımsal sahne hüküm yetkisini bakım ve hayatı besleme yönüyle çevreler; bu çağrışım Rab adını tarım terimine dönüştürmez. Kıyamet Günü diriliş ve hüküm günüdür; kuru zeminden yükselen hayat da o güne eşlik eden bir diriliş benzetmesi açar (32:25, 32:27). Mahsul bu benzetmenin işaretidir, dirilişin kendisi değil.
+
+## Beklenen günün açtığı sonuç
+
+Çorak arazide görünür hâle gelen üründen sonra, 32:28, 32:29 ve 32:30 dikkatleri yeniden hükmün vaktine, “ne zaman?” sorusuna ve bekleyişin sonuna çevirir (32:28, 32:29, 32:30). 32:28’de meydan okuyanlar “doğru söylüyorsanız” diyerek beklenen günün vaktini sorar; koşulun sözcüğü {ar:صَٰدِقِينَ, tr:ṣādiqīna, gloss:doğru söyleyenler}dir (32:28). Beklenen gün {ar:هَٰذَا ٱلْفَتْحُ, tr:hādhā l-fatḥ, gloss:bu açılış veya fetih} diye adlandırılır. Yanıt, hüküm gününü ve sonucunu görünür bir olay olarak işaret eder ama takvimsel bir tarih vermez (32:28, 32:29). Fatḥ’ın kapalı olanı açma ve zafer nüansları birlikte duyulur; yakın dizideki yargı bunlardan birini seçmez.
+
+32:29’da o gün inancın artık yarar sağlamaması ve mühlet verilmemesi, beklenen hükmün sonuç doğurduğu anı belirler (32:29). {ar:يَفْصِلُ, tr:yafṣilu, gloss:ayırıp hükme bağlar} taraflar arasındaki uyuşmazlığı karara bağlarken fatḥ’ın açılış imgesi, bu kararın ayrılığın sonucunu görünür kılan yanını öne çıkarır; buradan bağlılığın hükümden sonra sonucu değiştiremeyeceği çıkarımı da yapılabilir. 32:30’da Resule {ar:فَأَعْرِضْ عَنْهُمْ, tr:fa-aʿriḍ ʿanhum, gloss:onlardan yüz çevir} denip beklemesi buyurulur ve karşı tarafın da beklediği söylenir (32:30). Böylece Resulün ve karşı tarafın bekleyişi, hüküm vaadinin önündeki zaman aralığını somutlaştırır; fatḥ’ın açma ve zafer nüansları bu yargı bağlamında birlikte açık kalır.
+
+</editorial_prose>

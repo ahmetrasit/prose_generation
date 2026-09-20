@@ -257,16 +257,41 @@ class CliSurfaceTests(unittest.TestCase):
                 result = workflow.prepare_middle_layer(
                     argparse.Namespace(ayah="1:5", analysis_id="trial")
                 )
-                prompt = Path(result["handoff"]["prompt"]).read_text(
-                    encoding="utf-8"
-                )
+                prompt_path = Path(result["handoff"]["prompt"])
+                prompt = prompt_path.read_text(encoding="utf-8")
 
         self.assertIn("Yolun nasıl işlendiğini açıklayan nihai metin.", prompt)
+        self.assertNotIn(
+            "Yolun nasıl işlendiğini açıklayan nihai metin.",
+            result["handoff"]["launch_message"],
+        )
         self.assertNotRegex(prompt, workflow.MARKER_RE)
+        self.assertEqual(
+            result["schema_version"], "commentary-v5-middle-prepared-v2"
+        )
         self.assertEqual(result["handoff"]["role"], "middle_layer")
         self.assertEqual(result["handoff"]["model"], "gpt-5.6-luna")
         self.assertEqual(result["handoff"]["reasoning_effort"], "max")
         self.assertFalse(result["handoff"]["orchestrator_output_inspection"])
+        self.assertFalse(result["handoff"]["retry"])
+        self.assertEqual(result["handoff"]["prompt_delivery"], "workspace_path")
+        self.assertEqual(
+            result["handoff"]["follow_up_delivery"], "workspace_path"
+        )
+        self.assertIn(
+            str(prompt_path.resolve(strict=False)),
+            result["handoff"]["launch_message"],
+        )
+        self.assertNotIn("<source_prose>", result["handoff"]["launch_message"])
+        self.assertLess(len(result["handoff"]["launch_message"]), 500)
+        self.assertIn(
+            "middle-layer-audit-followup.md",
+            result["handoff"]["follow_up_message"],
+        )
+        self.assertEqual(len(result["generated_files"]), 1)
+        self.assertTrue(result["handoff"]["prompt"].endswith(
+            "input/trial/s001/1_5/middle-layer.prompt.md"
+        ))
         self.assertTrue(result["handoff"]["prose_output"].endswith(
             "middle/trial/s001/1_5/1_5.prose.middle.tr.md"
         ))
@@ -299,6 +324,22 @@ class CliSurfaceTests(unittest.TestCase):
         self.assertIn("Do not cap a source paragraph at one unit", normalized)
         self.assertIn(
             "Repair only the same reader-prose and claim-ledger outputs", normalized
+        )
+
+    def test_middle_orchestration_is_path_only_and_has_no_retry(self) -> None:
+        runbook = (workflow.V5_ROOT / "ORCHESTRATION.md").read_text(
+            encoding="utf-8"
+        )
+        section = runbook.split(
+            "## 7. Post-Editorial Middle-Layer Consolidation", 1
+        )[1].split("## 8. Reading Invitation", 1)[0]
+
+        self.assertIn("handoff.launch_message", section)
+        self.assertIn("handoff.follow_up_message", section)
+        self.assertIn("Never open, copy, paste, quote, embed", section)
+        self.assertIn("There is no retry, rerun, relaunch, resend", section)
+        self.assertNotIn(
+            "first message must be only the complete contents", section
         )
 
     def test_prepare_invitation_embeds_only_final_editorial_prose(self) -> None:

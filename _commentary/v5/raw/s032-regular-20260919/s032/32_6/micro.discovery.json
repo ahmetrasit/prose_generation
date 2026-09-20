@@ -1,0 +1,1714 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:6",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_9a32b40af76be89e24c7",
+      "decision": "narrow",
+      "reason": "Keep the local move from a distal pointer into an identifying assertion. The specific address-to-declaration contrast depends on the preceding frame in 32:5, outside this micro lane.",
+      "finding_refs": ["micro:deictic-declaration"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:5", "reason": "The preceding address and reckoning frame are macro context; the retained claim uses only the focus-local demonstrative-to-predicate movement."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_52aaac973caefbaaa7fc",
+      "decision": "accept",
+      "reason": "The nominal-clause parse supports one demonstrative subject with three stable predicates, giving an enduring description rather than a sequence of new acts.",
+      "finding_refs": ["micro:predicate-stack"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ea69ae4f162e712f81b1",
+      "decision": "narrow",
+      "reason": "Retain the anaphoric work of the definite distal demonstrative: it resumes an earlier masculine singular referent rather than introducing an unspecified noun. The details of the creation and governance scene are not established in this micro packet.",
+      "finding_refs": ["micro:resumptive-demonstrative"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:4", "reason": "The earlier scene is not available as a micro context unit."},
+        {"context_ref": "32:5", "reason": "The earlier scene is not available as a micro context unit."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6e0aa892ca910e8d0fcc",
+      "decision": "accept",
+      "reason": "The supplied active-participle form carries a knower as subject; the two governed domains provide an independent local trigger for the ordinary knowing branch.",
+      "finding_refs": ["micro:intrinsic-knowing"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bd09bf02c5c7b0566b66",
+      "decision": "accept",
+      "reason": "The active participle is both a predicate of the demonstrative and the construct head governing the following definite genitives.",
+      "finding_refs": ["micro:construct-head"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b4e9e9ab0f6ff242f27f",
+      "decision": "reject",
+      "reason": "The claimed contribution is a repeated formula across other surahs plus the 32:2 root return. Those wider echoes belong to another lane, and the focus-local active-participle contribution is already established without them.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "6:73", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "9:94", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "13:9", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "23:92", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "39:46", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "59:22", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "62:8", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "64:18", "reason": "Wider formula recurrence is outside the micro lane."},
+        {"context_ref": "32:2", "reason": "The surah-level root return is macro context, not a focus-local trigger."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b35145337146e2278602",
+      "decision": "narrow",
+      "reason": "Retain the attributed sign-to-knowing association: the witnessed/evidentiary pole can make knowing trace-based. The worlds branch has no separate local world or creation carrier and is not activated by root identity alone.",
+      "finding_refs": ["micro:trace-based-knowing"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001040/B003", "reason": "The focus names unseen and witnessed domains, but supplies no independent world or created-being carrier for this branch."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_35ba0e3ca3282bb12ac7",
+      "decision": "accept",
+      "reason": "The supplied nominative analysis gives the knower predicate direct force; the alternative case remains a contrastive possibility rather than a reason to select between readings.",
+      "finding_refs": ["micro:nominative-knower"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_36615b51fa06cf6cac0e",
+      "decision": "accept",
+      "reason": "The construct and coordination attach both definite domains to the same active participle, materially extending one predicate across the pair.",
+      "finding_refs": ["micro:one-predicate-two-domains"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6b0a033010309aa831e4",
+      "decision": "accept",
+      "reason": "The local noun is singular and definite, so the unseen is named as one domain under the knowing predicate rather than as a collection of hidden items.",
+      "finding_refs": ["micro:singular-unseen"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b7ef37701448a7b28c1e",
+      "decision": "narrow",
+      "reason": "Keep the local hidden-witnessed pairing as a two-pole scope for one knowing predicate. The cross-ayah formula recurrence is not needed for this micro reading and is excluded.",
+      "finding_refs": ["micro:local-merism"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "39:46", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "23:92", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "13:9", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "59:22", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "62:8", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "64:18", "reason": "The recurring formula example is outside the focus-local micro reading."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_38239493b69a8432cfa0",
+      "decision": "reject",
+      "reason": "The proposed answer to faith in 2:3 and the later hidden-life reference in 32:9 depend on non-focus context; the focus-local domain reading is handled by other findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:3", "reason": "The faith comparison is outside this focus-local lane."},
+        {"context_ref": "32:9", "reason": "The later surah echo is outside this focus-local lane."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3f36134cadcb8f27fe29",
+      "decision": "accept",
+      "reason": "The genitive form is attached under the construct head, making the unseen the content governed by knowing rather than a loose neighboring theme.",
+      "finding_refs": ["micro:governed-unseen"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6f5b633e6d72ed8cc1fc",
+      "decision": "narrow",
+      "reason": "Retain the broad pressure of being beyond perception, with the witnessed pole as its local contrast. Exclude the specific pit, woodland, absent-person, and solar-disappearance readings because the focus supplies none of their independent carriers.",
+      "finding_refs": ["micro:hidden-depth"],
+      "branch_exclusions": [
+        {"branch_ref": "root_001117/B002", "reason": "No pit, well, valley, or other sunken-place carrier appears in the focus."},
+        {"branch_ref": "root_001117/B003", "reason": "No grove or dense-woodland carrier appears in the focus."},
+        {"branch_ref": "root_001117/B004", "reason": "No absent-person conversation or backbiting act appears in the focus."}
+      ],
+      "facet_exclusions": [
+        {"branch_ref": "root_001117/B001", "facet_id": "F003", "reason": "The focus contains no sun or horizon image to activate the solar-disappearance example."}
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c3a9c2950407698dcaf",
+      "decision": "accept",
+      "reason": "The supplied sound observation aligns with the local hidden-witnessed opposition and gives the semantic contrast an audible surface; its acoustic force remains impressionistic.",
+      "finding_refs": ["micro:sound-hidden-witnessed"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7d83e88f3a0f38f3a349",
+      "decision": "accept",
+      "reason": "The conjunction coordinates the second definite genitive with the first under the same construct head.",
+      "finding_refs": ["micro:co-governed-coordination"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_97d58eca269ea1be0000",
+      "decision": "accept",
+      "reason": "The one-letter proclitic wa is attached to the second noun, giving the coordination a compact visual and audible form while keeping both poles distinct.",
+      "finding_refs": ["micro:compact-waw"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ba02a1246de7709e6cf6",
+      "decision": "narrow",
+      "reason": "Retain the positive coordination relation supported by the conjoined genitives. Do not rank it against a circumstantial nuance; that alternative remains open.",
+      "finding_refs": ["micro:coordination"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_572b56e69ddd278c8ed9",
+      "decision": "narrow",
+      "reason": "Keep the local conjunction's meristic effect: two opposed domains remain distinct while together spanning the scope of knowing. Broader recurrence is not needed for the micro claim.",
+      "finding_refs": ["micro:two-pole-field"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6b19cc3c0b77bd94e983",
+      "decision": "accept",
+      "reason": "The witnessed domain is the second genitive coordinated under the same head, so it completes the content governed by the knowing predicate.",
+      "finding_refs": ["micro:witnessed-domain-syntax"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_856413c37f73e133612f",
+      "decision": "accept",
+      "reason": "The definite abstract noun functions as a domain parallel to the definite unseen noun, naming what is manifest or witnessed rather than an individual witness or isolated act.",
+      "finding_refs": ["micro:manifest-domain"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_82a2833942b7e5f39766",
+      "decision": "narrow",
+      "reason": "Retain the local completion of the hidden domain by its witnessed counterpart. Exclude the cited recurring formula examples, which are wider than this lane.",
+      "finding_refs": ["micro:witnessed-pole-completes"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "6:73", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "9:94", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "13:9", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "23:92", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "59:22", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "62:8", "reason": "The recurring formula example is outside the focus-local micro reading."},
+        {"context_ref": "64:18", "reason": "The recurring formula example is outside the focus-local micro reading."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c30c0a7e0eeba3bf6891",
+      "decision": "reject",
+      "reason": "The legal-to-cosmic step depends on the external legal example at 2:282. The local witnessed-domain and evidence pressure are reviewed separately without that wider trigger.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "2:282", "reason": "The legal testimony scene is a wider trigger, outside the micro lane."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d1be88fc6efd8a4eaa09",
+      "decision": "narrow",
+      "reason": "Keep the local image of a manifest scene or field under the knowing predicate. The abstract noun does not make this a human observer's act or a concrete gathering place.",
+      "finding_refs": ["micro:scene-manifestness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cef3dcd0d58adf05dbc2",
+      "decision": "accept",
+      "reason": "The witnessed domain directly carries presence, and the knowing predicate gives its testimony/evidence shade a local trigger. The evidence remains a domain reading, not a legal scene.",
+      "finding_refs": ["micro:witness-evidence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3090bc73352b6ee82634",
+      "decision": "narrow",
+      "reason": "Retain the local closure in which the final two predicates pair power with mercy. Exclude the claim that this closes the preceding governance unit, which depends on 32:4-5 context.",
+      "finding_refs": ["micro:closing-seal"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:4", "reason": "The prior governance scene is macro context."},
+        {"context_ref": "32:5", "reason": "The prior governance scene is macro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b899d49e18cde58901ab",
+      "decision": "narrow",
+      "reason": "Keep the local modulation: mercy immediately follows the power title and colors how its force is heard. Exclude the wider comparison with frequent wisdom pairings and the unsupported claim that this alone proves non-tyrannical governance.",
+      "finding_refs": ["micro:power-mercy-modulation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0cc4dfbcba69a615fb17",
+      "decision": "accept",
+      "reason": "The supplied definite nominative analysis makes the power epithet a direct predicate of the demonstrative subject.",
+      "finding_refs": ["micro:power-predicate"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2d0b6fd341b652ea7043",
+      "decision": "accept",
+      "reason": "The adjectival surface supports stable, unassailable power. The local mercy predicate is an independent partner that frames this as a standing attribute, while eventive strengthening remains contrastive.",
+      "finding_refs": ["micro:durable-power"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0fdd1ad4a7abd1412e9b",
+      "decision": "narrow",
+      "reason": "Keep the local ordered pair of nominative, definite power and mercy predicates. Exclude recurrence as a wider Qur'anic formula; local adjacency and matching morphology already support the pair.",
+      "finding_refs": ["micro:power-mercy-pair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "26:9", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "26:68", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "26:104", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "26:122", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "26:140", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "26:159", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "26:175", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "26:191", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "30:5", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "36:5", "reason": "The wider formula recurrence is excluded from micro."},
+        {"context_ref": "44:42", "reason": "The wider formula recurrence is excluded from micro."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f59e0d461105438e4f1d",
+      "decision": "reject",
+      "reason": "The preciousness/rarity extension has no separate local carrier or trigger. The focus and its adjective form support unassailable power, which is retained in the durable-power finding.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_001008/B003", "reason": "The focus supplies no scarcity, unavailability, or irreplaceability image to activate this branch."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b12f24f9baf66bcf57c2",
+      "decision": "accept",
+      "reason": "The supplied nominative reading gives the power title an independent predicate role; the genitive alternative remains a visible contrast rather than being ruled out.",
+      "finding_refs": ["micro:variant-predicate"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2cbaada5b687dfe481da",
+      "decision": "accept",
+      "reason": "The local adjectival epithet directly names the subject as merciful; it does not depict someone requesting mercy or introduce mercy as an abstract object.",
+      "finding_refs": ["micro:mercy-attribute"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dd0b02de9e444d290ad5",
+      "decision": "narrow",
+      "reason": "Retain the local fact that the familiar mercy epithet is paired here with the immediately preceding power title. Exclude the contrast with 1:1, which is wider context.",
+      "finding_refs": ["micro:mercy-repartnered"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "1:1", "reason": "The basmala comparison belongs to a wider inter-ayah lane."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3715e3cfb18e06e0decd",
+      "decision": "reject",
+      "reason": "The proposed bridge from governance in 32:5 to the creation goodness of 32:7 is a pericope-level reading, not a micro contribution. The focus-local mercy close is retained in other findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "32:5", "reason": "The preceding governance unit is macro context."},
+        {"context_ref": "32:7", "reason": "The following creation statement is macro context."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d67b42de5f128fd4f5e3",
+      "decision": "accept",
+      "reason": "The definite adjective presents mercy as a durable attribute in the predicate stack; other forms remain contrastive and do not replace the local form.",
+      "finding_refs": ["micro:enduring-mercy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9b2780e7a5a7fd563c70",
+      "decision": "accept",
+      "reason": "The supplied nominative analysis attaches the mercy epithet as another direct predicate of the same demonstrative, at the clause's close.",
+      "finding_refs": ["micro:mercy-predicate"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_70c57bb9d8f00772f145",
+      "decision": "represented",
+      "reason": "This is the same focus-local ordered power-mercy pair as the finding for cand_0fdd1ad4a7abd1412e9b; both perspectives preserve the same two predicates and use no additional branch, facet, context, or semantic obligation.",
+      "finding_refs": ["micro:power-mercy-pair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_00dd7383803bb32b5bc6",
+      "decision": "accept",
+      "reason": "The supplied cadence observation aligns with the final placement of mercy after the stronger power epithet, giving the semantic landing an audible contour.",
+      "finding_refs": ["micro:mercy-cadence"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d3d6f29a0317c841e578",
+      "decision": "accept",
+      "reason": "The mercy epithet is clause-final, so the statement's last structural landing is mercy after knowing and power.",
+      "finding_refs": ["micro:terminal-mercy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_804a9fb407f34b8ad30f",
+      "decision": "accept",
+      "reason": "The local mercy epithet remains a divine attribute while the supplied root and focus-level pairings support attributed kinship and nurturing-enclosure resonances; neither is asserted as its lexical translation.",
+      "finding_refs": ["micro:nurturing-mercy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fb7e851ec4d885dd2f5a",
+      "decision": "reject",
+      "reason": "This QAC-morpheme record verifies the surface/root occurrence only. By itself it adds no semantic relation and cannot activate a branch; it remains usable as occurrence evidence in findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_af068e652ec68fcf376a",
+      "decision": "reject",
+      "reason": "This QAC-morpheme record verifies the surface/root occurrence only. By itself it adds no semantic relation and cannot activate a branch; it remains usable as occurrence evidence in findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6cf38212cc37e8742e78",
+      "decision": "reject",
+      "reason": "This QAC-morpheme record verifies the surface/root occurrence only. By itself it adds no semantic relation and cannot activate a branch; it remains usable as occurrence evidence in findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2247f320538e1f9888ad",
+      "decision": "reject",
+      "reason": "This QAC-morpheme record verifies the surface/root occurrence only. By itself it adds no semantic relation and cannot activate a branch; it remains usable as occurrence evidence in findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e6a71729d3bb06c3e91d",
+      "decision": "reject",
+      "reason": "This QAC-morpheme record verifies the surface/root occurrence only. By itself it adds no semantic relation and cannot activate a branch; it remains usable as occurrence evidence in findings.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ff8d838db424a15b50d6",
+      "decision": "accept",
+      "reason": "The HFT trace names exact 32:6 focus positions and matching roots, and the paired domains provide independent local triggers. Preserve the model with attributed status because its reader identity is legacy_unbound.",
+      "finding_refs": ["micro:visibility-continuum"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_339ce454584b755b6adf",
+      "decision": "accept",
+      "reason": "Each HFT role returns through the supplied 32:6 surface and matching root. The sequence is retained as an attributed contextual reading, with the active-participle and noun forms kept explicit and the legacy_unbound provenance qualifying its status.",
+      "finding_refs": ["micro:evidence-to-action"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2c791605203f3e0fc65b",
+      "decision": "accept",
+      "reason": "The closing pair supplies a focus-local trigger for power, reinforcement, mercy, and relational-care roles. The full coupled-capacity reading is retained as attributed, with no literal verb or genealogy imposed on the adjectival carriers.",
+      "finding_refs": ["micro:effectual-mercy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f8f8077b8397dcd21578",
+      "decision": "accept",
+      "reason": "All three HFT traces name supplied 32:6 word coordinates and roots, and their hidden, witnessed, and mercy carriers contact each other in the focus. Retain the complete sequence as exploratory attributed evidence; keep every local lexical form intact.",
+      "finding_refs": ["micro:gestational-threshold"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:deictic-declaration",
+      "origin_candidate_id": "cand_9a32b40af76be89e24c7",
+      "represented_candidate_ids": [],
+      "title": "A pointer opens a declaration",
+      "claim": "The distal demonstrative begins the clause by identifying one subject for the predicates that follow.",
+      "mechanism": "The carrier is dhālika at the focus opening; its deictic force moves directly into the predicate stack, changing the start from a bare reference into an assertion about the identified subject.",
+      "reader_payoff": "The reader hears the opening word gather attention before the clause names what the subject is.",
+      "containment": "This keeps the focus-local reference-to-assertion movement. The particular prior address frame from 32:5 is not part of this finding.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The focus demonstrative and its attached analysis support the local movement; the broader address frame was excluded."
+      },
+      "support_ids": ["sup_83cb9295f281a4015f7d", "sup_e4a15b9d9ca35eed3b70"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:predicate-stack",
+      "origin_candidate_id": "cand_52aaac973caefbaaa7fc",
+      "represented_candidate_ids": [],
+      "title": "One subject, three predicates",
+      "claim": "The clause presents the same subject through three stable predicates: knowing the two domains, power, and mercy.",
+      "mechanism": "The demonstrative is the nominal subject and each following nominative description attaches as its predicate; the stacked form turns the line into one enduring portrait rather than a sequence of events.",
+      "reader_payoff": "The reader can hear all three descriptions as properties of one identified subject.",
+      "containment": "The predicates remain distinct and retain their ordinary meanings; the structure does not collapse them into one abstract quality.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The nominal-clause parse and attachment evidence are supplied directly for the focus."
+      },
+      "support_ids": ["sup_39231e4c1aff62bd7fee", "sup_83cb9295f281a4015f7d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:resumptive-demonstrative",
+      "origin_candidate_id": "cand_ea69ae4f162e712f81b1",
+      "represented_candidate_ids": [],
+      "title": "The demonstrative resumes a referent",
+      "claim": "The definite distal demonstrative points back to an already identified masculine singular divine referent, giving the new clause a resumptive opening.",
+      "mechanism": "The carrier is dhālika; its definite distal form and the supplied attachment analysis identify an earlier referent rather than an unspecified new noun, changing the clause from introduction to resumption.",
+      "reader_payoff": "The reader meets the predicates as a continuation about one referent, not as the start of a newly introduced subject.",
+      "containment": "The anaphoric link is retained without importing the content of the earlier creation and governance scene.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The focus form and attachment summary support the link; the earlier scene itself is not present as a context unit."
+      },
+      "support_ids": ["sup_3d14d1930a5c20fe1994", "sup_83cb9295f281a4015f7d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:intrinsic-knowing",
+      "origin_candidate_id": "cand_6e0aa892ca910e8d0fcc",
+      "represented_candidate_ids": [],
+      "title": "Knowing is named as an attribute",
+      "claim": "The active participle names the subject as one who knows, and its governed domains specify the reach of that knowing.",
+      "mechanism": "The carrier is the active participle ʿālimu; the definite genitives al-ghayb and al-shahādah independently fill its construct, so the word reads as an acting knower rather than an abstract knowledge label or a teacher.",
+      "reader_payoff": "The reader sees knowing attached to the subject and extended across the hidden and witnessed domains.",
+      "containment": "The local form supports knowing; it does not select the separate teaching, informing, or learning uses in the root field.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The active-participle morphology and construct relation are supplied for the focus."
+      },
+      "support_ids": ["sup_6f12fecdabaec8c04371", "sup_78e5f18e4d2846d5435c"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "lexical",
+          "carrier_refs": ["32:6:2:1"],
+          "trigger_refs": ["32:6:3:2", "32:6:4:3"],
+          "focus_return_refs": ["32:6:2:1"],
+          "carrier": "The active participle ʿālimu carries the ordinary sense of a knower.",
+          "independent_trigger": "The separate definite genitives al-ghayb and al-shahādah supply two contents governed by the participle.",
+          "activation": "The construct contact makes the root's ordinary knowing sense active over both named domains.",
+          "resulting_reading": "The subject is directly presented as knowing what is concealed and what is witnessed.",
+          "boundary": "This activates knowing, not the separate branches for teaching, informing, or learning."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:construct-head",
+      "origin_candidate_id": "cand_bd09bf02c5c7b0566b66",
+      "represented_candidate_ids": [],
+      "title": "The first predicate also governs a construct",
+      "claim": "The knower predicate leads the description and at the same time governs the two genitive domains that follow.",
+      "mechanism": "The carrier is the nominative active participle ʿālimu; its construct relation reaches al-ghayb and, through wa, al-shahādah, changing the line from a simple list of titles into a linked predicate-plus-domain structure.",
+      "reader_payoff": "The knowledge title is heard both as a description of the subject and as the grammatical head of its scope.",
+      "containment": "The construct relation applies to the two knowledge domains; it does not subordinate the later power and mercy predicates.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied morphology and attachment analysis identify both functions of the word."
+      },
+      "support_ids": ["sup_78e5f18e4d2846d5435c", "sup_83d3bc315c55e3e901bb"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:trace-based-knowing",
+      "origin_candidate_id": "cand_b35145337146e2278602",
+      "represented_candidate_ids": [],
+      "title": "Knowing can be heard through a guiding mark",
+      "claim": "The knowing predicate can carry an attributed trace-based shade: a distinguishing mark leads to what can be witnessed and affirmed.",
+      "mechanism": "The carrier is ʿālimu, whose local form still means knower; the separate al-shahādah domain supplies the evidence trigger. Their contact makes knowing feel traceable through a sign toward an object, adding an evidentiary path to the ordinary predicate.",
+      "reader_payoff": "Knowing becomes perceptible as a relation between a guiding sign and what can be made present or affirmed.",
+      "containment": "This is an attributed root resonance, not a lexical translation of ʿālimu as a mark. The worlds/created-beings branch is excluded because the focus supplies no separate carrier for it.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus coordinates and roots match the HFT trace, but the sign-to-knowing relation is attributed and reader provenance is legacy_unbound."
+      },
+      "support_ids": ["sup_4bfcaffbf063dd99675c", "sup_78e5f18e4d2846d5435c", "sup_09cd2b8f2a512408f632"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ayırt edici ve yol gösterici işaret",
+          "facet_statement": "Bir nesneyi veya kişiyi başkalarından ayırıp tanınır kılan belirgin iz ya da işaret çekirdeği oluşturur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:2:1"],
+          "trigger_refs": ["32:6:4:3"],
+          "focus_return_refs": ["32:6:2:1"],
+          "carrier": "The active participle ʿālimu carries knowing, with the supplied mark branch applied as an attributed root image.",
+          "independent_trigger": "Al-shahādah is a separate witnessed/evidentiary domain under the same knowing predicate.",
+          "activation": "The witnessed domain provides the trace-like evidence through which the mark branch can color the act of knowing.",
+          "resulting_reading": "Knowing is framed as trace-based, following a distinguishing mark toward what it identifies.",
+          "boundary": "The adjective remains a knower form; no physical sign or separate world domain is asserted in the focus."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:nominative-knower",
+      "origin_candidate_id": "cand_35ba0e3ca3282bb12ac7",
+      "represented_candidate_ids": [],
+      "title": "Nominative case gives knowing predicate force",
+      "claim": "The supplied nominative form lets the knower stand as an independent predicate of the demonstrative.",
+      "mechanism": "The carrier ʿālimu bears the standard nominative analysis; that case attaches the word directly to dhālika as a predicate, while a genitive alternative would pull it toward qualification.",
+      "reader_payoff": "The knowledge title leads the descriptions instead of being buried as a subordinate label.",
+      "containment": "The alternative case remains a contrastive reading and is not adjudicated away by this local analysis.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The standard local parse is supplied; the variant is retained only as a contrastive possibility."
+      },
+      "support_ids": ["sup_78e5f18e4d2846d5435c", "sup_7e532228419eabf75262"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:one-predicate-two-domains",
+      "origin_candidate_id": "cand_36615b51fa06cf6cac0e",
+      "represented_candidate_ids": [],
+      "title": "One knowing reaches both domains",
+      "claim": "A single knowing predicate governs both the unseen and the witnessed, making the two domains parts of one stated scope.",
+      "mechanism": "The carrier is ʿālimu; its construct with al-ghayb and coordinated genitive al-shahādah connects both nouns to one head. The paired domains change the line from two separate knowledge claims into one reach across both.",
+      "reader_payoff": "The reader can hold hidden and manifest reality together under one predicate.",
+      "containment": "The domains remain distinct poles; the finding does not claim that hiddenness and witnessing become identical.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The construct, coordination, and local pair are directly supported by the supplied analysis."
+      },
+      "support_ids": ["sup_78e5f18e4d2846d5435c", "sup_99ff9a5f88c28e59ed9f"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:singular-unseen",
+      "origin_candidate_id": "cand_6b0a033010309aa831e4",
+      "represented_candidate_ids": [],
+      "title": "The unseen is one named domain",
+      "claim": "The definite singular al-ghayb names the unseen as a comprehensive domain rather than a count of hidden things.",
+      "mechanism": "The carrier is the singular definite verbal noun al-ghayb; its genitive relation to ʿālimu makes that one domain the first content of knowing, changing a collection of absences into a named scope.",
+      "reader_payoff": "The reader sees the hidden side as a domain that can be known, not merely as scattered unknown objects.",
+      "containment": "The form does not specify a particular hidden place, event, or individual.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Definiteness, number, and genitive attachment are supplied for the focus form."
+      },
+      "support_ids": ["sup_12a25b0b1b6edd825e92", "sup_d748f99279e9cd7fad71"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:local-merism",
+      "origin_candidate_id": "cand_b7ef37701448a7b28c1e",
+      "represented_candidate_ids": [],
+      "title": "The hidden and witnessed form a local scope",
+      "claim": "The unseen and witnessed stand as opposed poles whose pairing covers the scope of one knowing predicate.",
+      "mechanism": "The carrier al-ghayb is followed by the coordinated al-shahādah under ʿālimu; the local opposition and shared governance join two distinct domains into a two-pole scope.",
+      "reader_payoff": "The reader can take the pair together as the extent of knowing without needing the wider formula examples.",
+      "containment": "The local merism adds breadth while leaving the two domains distinct; no recurrence elsewhere is asserted here.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus itself supplies the opposed pair, conjunction, and common predicate; external recurrence was excluded."
+      },
+      "support_ids": ["sup_12a25b0b1b6edd825e92", "sup_93e54a110abb9fc28357"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:governed-unseen",
+      "origin_candidate_id": "cand_3f36134cadcb8f27fe29",
+      "represented_candidate_ids": [],
+      "title": "The unseen is governed content",
+      "claim": "The genitive unseen is the content known by the predicate, not a loose theme beside it.",
+      "mechanism": "The carrier al-ghayb is genitive under the construct head ʿālimu; the attachment relation makes the hidden domain an object of knowing and changes its role from topic to governed content.",
+      "reader_payoff": "The reader hears what the subject knows, not a new sentence about a separate unseen.",
+      "containment": "This syntactic relation does not reduce the unseen to a particular object or experience.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The genitive morphology and attachment are supplied as syntactically forced."
+      },
+      "support_ids": ["sup_0dd6b5caff9084ee73f4", "sup_12a25b0b1b6edd825e92"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:hidden-depth",
+      "origin_candidate_id": "cand_6f5b633e6d72ed8cc1fc",
+      "represented_candidate_ids": [],
+      "title": "The unseen carries distance from perception",
+      "claim": "The unseen domain carries a bounded pressure of being beyond sight or sense, with the witnessed pole making that distance perceptible.",
+      "mechanism": "The carrier is al-ghayb; the independent al-shahādah domain under the same knowing predicate supplies the local contrast. Their contact lets hiddenness feel withdrawn beyond perception while keeping the noun a comprehensive domain.",
+      "reader_payoff": "The reader senses the unseen as a real boundary of access, not as a specific hidden object or place.",
+      "containment": "The reading keeps the broad imperceptible-domain sense. It does not identify a pit, grove, absent person, or sunset.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The root supports absence and distance imagery, while local coordination bounds the result to a general unseen domain."
+      },
+      "support_ids": ["sup_12a25b0b1b6edd825e92", "sup_eb9852e3f86c9fc21af9"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001117/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözden, duyudan ya da bilgiden uzak kalma",
+          "facet_statement": "Bir şey gözle görülmez, duyuyla algılanmaz veya insan tarafından bilinmez durumda kalır.",
+          "application_mode": "lexical",
+          "carrier_refs": ["32:6:3:2"],
+          "trigger_refs": ["32:6:4:3"],
+          "focus_return_refs": ["32:6:3:2"],
+          "carrier": "The definite noun al-ghayb carries what is unseen, unperceived, or unknown.",
+          "independent_trigger": "The separate coordinated noun al-shahādah names the witnessed pole.",
+          "activation": "The local contrast with witnessing activates the general absence-from-perception facet rather than a specific location or social absence.",
+          "resulting_reading": "The unseen is felt as a broad domain beyond perceptual access.",
+          "boundary": "No pit, grove, absent person, or solar event is asserted."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:sound-hidden-witnessed",
+      "origin_candidate_id": "cand_3c3a9c2950407698dcaf",
+      "represented_candidate_ids": [],
+      "title": "The hidden-witnessed contrast has an audible edge",
+      "claim": "The opening sound of al-ghayb can be heard as deep and veiled against the clearer witnessed domain that follows.",
+      "mechanism": "The carrier is the opening al-ghayb; the independent trigger is its immediate continuation into wa al-shahādah. The supplied phonetic observation aligns the sound change with the semantic move from concealment to witnessing, making the opposition audible.",
+      "reader_payoff": "The reader hears the contrast as it unfolds instead of meeting it only as an abstract pair.",
+      "containment": "This is an impressionistic sound reading of the supplied words, not a phonetic rule or a claim that sound determines their meaning.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["trusted"],
+        "reason": "A supplied phonetic summary anchors the observation, but the felt depth and clarity are interpretive."
+      },
+      "support_ids": ["sup_12a25b0b1b6edd825e92", "sup_ca7a8db1a0426a86f854"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:co-governed-coordination",
+      "origin_candidate_id": "cand_7d83e88f3a0f38f3a349",
+      "represented_candidate_ids": [],
+      "title": "The conjunction keeps one head over both nouns",
+      "claim": "The witnessed noun is coordinated with the unseen noun and remains governed by the same knowing head.",
+      "mechanism": "The carrier is the conjunction wa attached to al-shahādah; the independent preceding genitive al-ghayb supplies the first coordinated domain, so the witnessed noun joins rather than begins a separate statement.",
+      "reader_payoff": "The reader sees both nouns in one grammatical reach.",
+      "containment": "Coordination links the domains without making them interchangeable or erasing either pole.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus morphology and attachment evidence directly identify this relation."
+      },
+      "support_ids": ["sup_0353e039ddc7cd9ee920", "sup_9f8e25feed6dfae71722"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:compact-waw",
+      "origin_candidate_id": "cand_97d58eca269ea1be0000",
+      "represented_candidate_ids": [],
+      "title": "A single prefix binds the second pole",
+      "claim": "The one-letter conjunction attached to al-shahādah binds the witnessed domain to the unseen in a compact form.",
+      "mechanism": "The carrier is the proclitic wa on the second definite noun; its independent trigger is the preceding al-ghayb genitive, and the attached conjunction makes their relation visible in one word without fusing their meanings.",
+      "reader_payoff": "A small surface element carries the link between the two domains.",
+      "containment": "The conjunction connects two distinguishable nouns; compactness does not turn them into one undifferentiated object.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied surface and particle analysis establish the attached form."
+      },
+      "support_ids": ["sup_81274a5272aad5bf90c4", "sup_9f8e25feed6dfae71722"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:coordination",
+      "origin_candidate_id": "cand_ba02a1246de7709e6cf6",
+      "represented_candidate_ids": [],
+      "title": "The witnessed domain stands alongside the unseen",
+      "claim": "The conjunction places the witnessed domain alongside the unseen as a coordinated content of knowing.",
+      "mechanism": "The carrier is wa before al-shahādah; the unseen genitive and shared construct head independently trigger the coordination, changing the second noun from a possible aside into an attached pole of the same phrase.",
+      "reader_payoff": "The witnessed domain has equal coordinated standing in the local phrase.",
+      "containment": "The supported relation is coordination; a circumstantial nuance remains possible and is not adjudicated away.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The supplied attachment evidence supports coordination, while the source also leaves a secondary nuance open."
+      },
+      "support_ids": ["sup_64104f3bab06f80ac443", "sup_9f8e25feed6dfae71722"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:two-pole-field",
+      "origin_candidate_id": "cand_572b56e69ddd278c8ed9",
+      "represented_candidate_ids": [],
+      "title": "The conjunction spans two opposed poles",
+      "claim": "The conjunction lets the unseen and witnessed remain distinct while together spanning the field governed by knowing.",
+      "mechanism": "The carrier wa joins al-shahādah to al-ghayb under one predicate; the local opposition independently triggers a meristic relation, changing a loose addition into a two-pole scope.",
+      "reader_payoff": "The reader can hear the phrase as broad coverage without losing the difference between its poles.",
+      "containment": "This claim uses the focus-local opposition and conjunction only; no wider recurrence is asserted.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The local pair is explicit, while the broader recurring-partner evidence was not carried into this lane."
+      },
+      "support_ids": ["sup_9f8e25feed6dfae71722", "sup_c8dee3552747d2865b32"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:witnessed-domain-syntax",
+      "origin_candidate_id": "cand_6b19cc3c0b77bd94e983",
+      "represented_candidate_ids": [],
+      "title": "The witnessed noun completes the governed pair",
+      "claim": "Al-shahādah is the second genitive domain governed by the knower predicate, completing the stated scope.",
+      "mechanism": "The carrier is the definite abstract noun al-shahādah; its genitive ending and wa coordination independently connect it to the same construct head as al-ghayb, changing it from a separate comment into governed content.",
+      "reader_payoff": "The witnessed realm is directly included in what the subject knows.",
+      "containment": "The local syntax does not turn the noun into a separate human testimony event.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied morphology and attachment evidence directly support the second-genitive relation."
+      },
+      "support_ids": ["sup_363f7304cdd881d5b633", "sup_3e4d8047dc26976dc129"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:manifest-domain",
+      "origin_candidate_id": "cand_856413c37f73e133612f",
+      "represented_candidate_ids": [],
+      "title": "Witnessing names a manifest domain",
+      "claim": "The definite abstract noun presents witnessing as a domain of manifest reality, parallel to the unseen domain.",
+      "mechanism": "The carrier is the abstract singular al-shahādah; its definite form and coordination with al-ghayb under alima make it a domain of what is witnessed rather than an individual witness or a finite act.",
+      "reader_payoff": "The reader encounters the witnessed side as a whole field within the subject's knowledge.",
+      "containment": "The domain can retain a witnessing shade without becoming a legal testimony scene or a human observer action.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The definite abstract form and its balance with the unseen noun are supplied directly."
+      },
+      "support_ids": ["sup_363f7304cdd881d5b633", "sup_403345ad37476adfc3da"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:witnessed-pole-completes",
+      "origin_candidate_id": "cand_82a2833942b7e5f39766",
+      "represented_candidate_ids": [],
+      "title": "The second pole completes the local pair",
+      "claim": "The witnessed pole completes the unseen as the other domain covered by the knowing predicate.",
+      "mechanism": "The carrier al-shahādah follows the unseen in a coordinated genitive relation under alima; that local pairing changes the unseen from a standalone topic into one pole of a completed domain pair.",
+      "reader_payoff": "The phrase feels complete at the witnessed pole without requiring another formula example.",
+      "containment": "Only the focus-local completion is retained; recurrence in other ayat is left outside this finding.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The focus supports the two-pole completion; the cited recurring examples were excluded."
+      },
+      "support_ids": ["sup_363f7304cdd881d5b633", "sup_a5b914526b05a3e8a325"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:scene-manifestness",
+      "origin_candidate_id": "cand_d1be88fc6efd8a4eaa09",
+      "represented_candidate_ids": [],
+      "title": "The manifest domain can be pictured as a scene",
+      "claim": "The witnessed domain can carry a bounded scene-like image of what stands manifest under the knowing predicate.",
+      "mechanism": "The carrier is the abstract al-shahādah; its pairing with al-ghayb supplies the hidden-to-manifest trigger, while the definite form keeps the resulting scene image at the level of a domain rather than a person performing an act.",
+      "reader_payoff": "The witnessed side can be pictured as the field in which realities are present to view.",
+      "containment": "The scene image does not identify a concrete place, assembly, or human observer; the ordinary domain reading remains intact.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The supplied derivative image is interpretive, and the local abstract form bounds it to manifestness."
+      },
+      "support_ids": ["sup_363f7304cdd881d5b633", "sup_a947906175bf20745e82"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:witness-evidence",
+      "origin_candidate_id": "cand_cef3dcd0d58adf05dbc2",
+      "represented_candidate_ids": [],
+      "title": "The witnessed domain carries presence and evidence",
+      "claim": "The manifest pole carries both presence and a restrained evidence shade within the domain known by the subject.",
+      "mechanism": "The carrier al-shahādah names what is witnessed; al-ghayb supplies the independent opposite pole, and ʿālimu supplies a knowledge predicate. Together they make presence and knowledge-based testimony meet without turning the phrase into a legal event.",
+      "reader_payoff": "The witnessed domain feels both present and capable of being affirmed.",
+      "containment": "Evidence remains a background resonance inside a manifest domain; no courtroom, martyrdom, or separate testimony act is asserted.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Presence is directly selected by the local domain form; the evidence shade is a bounded root resonance."
+      },
+      "support_ids": ["sup_363f7304cdd881d5b633", "sup_d6d20b283166c594eaca"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hazır bulunup görme",
+          "facet_statement": "Bir olayın ya da yerin yanında hazır bulunma ve onu doğrudan görme çekirdeği vardır.",
+          "application_mode": "lexical",
+          "carrier_refs": ["32:6:4:3"],
+          "trigger_refs": ["32:6:3:2"],
+          "focus_return_refs": ["32:6:4:3"],
+          "carrier": "The abstract al-shahādah carries presence in the witnessed domain.",
+          "independent_trigger": "The coordinated al-ghayb domain supplies the separate concealed pole.",
+          "activation": "The contrast makes being present to sight the locally fitting core of the witnessed side.",
+          "resulting_reading": "The second domain reads as manifest presence in balance with what is unseen.",
+          "boundary": "This does not mean an individual witness, gathering place, or pilgrimage site."
+        },
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilgiye dayalı tanıklık",
+          "facet_statement": "Merkezde bilinen bir şeyi kesin haber veya açıklama olarak bildirme vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["32:6:4:3"],
+          "trigger_refs": ["32:6:2:1"],
+          "focus_return_refs": ["32:6:4:3"],
+          "carrier": "The abstract noun al-shahādah carries the root's testimony/evidence shade.",
+          "independent_trigger": "The separate ʿālimu predicate makes knowledge the frame governing this noun.",
+          "activation": "Knowing and witnessed testimony meet in one local construct, giving the manifest domain an evidence-bearing edge.",
+          "resulting_reading": "The witnessed pole can be heard as present reality that is also available to affirmation.",
+          "boundary": "No legal testimony scene or named witness is imported."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:closing-seal",
+      "origin_candidate_id": "cand_3090bc73352b6ee82634",
+      "represented_candidate_ids": [],
+      "title": "Power and mercy seal the local predicate stack",
+      "claim": "The final two predicates pair power with mercy as the local close of the description.",
+      "mechanism": "The carriers al-ʿazīzu and al-raḥīmu follow the knowledge predicate in the same nominative stack; their adjacent placement makes the paired attributes land as a closing seal rather than a detached list.",
+      "reader_payoff": "The line closes by holding force and care together after the knowledge domains.",
+      "containment": "The local close is retained without importing the governance action from 32:4-5.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The predicate order and local pair are supplied; the broader governance context was excluded."
+      },
+      "support_ids": ["sup_1f720260bccf4ddd6961", "sup_97465170131e9ae8f38a", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:power-mercy-modulation",
+      "origin_candidate_id": "cand_b899d49e18cde58901ab",
+      "represented_candidate_ids": [],
+      "title": "Mercy colors the power title beside it",
+      "claim": "The immediate mercy partner gives the power predicate a locally caring direction.",
+      "mechanism": "The carrier is al-ʿazīz; the independent adjacent predicate al-raḥīm supplies the care trigger. Their contact changes the power title from an isolated capacity into force heard together with mercy.",
+      "reader_payoff": "Power and mercy are encountered in one breath, so the force is heard with its companion's caring quality.",
+      "containment": "This keeps the local pairing only; it does not claim that no other divine pairing is possible or that the verse alone proves a governance theory.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Local adjacency supports the modulation; broader pairing comparisons and the stronger governance inference were excluded."
+      },
+      "support_ids": ["sup_1f720260bccf4ddd6961", "sup_b148f0a12f78e62e89d8"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:power-predicate",
+      "origin_candidate_id": "cand_0cc4dfbcba69a615fb17",
+      "represented_candidate_ids": [],
+      "title": "Power is directly predicated",
+      "claim": "The definite nominative power epithet is a direct predicate of the identified subject.",
+      "mechanism": "The carrier al-ʿazīzu is definite and nominative; the supplied attachment to dhālika makes power an explicit predicate rather than a subordinate quality, adding a second direct description after knowing.",
+      "reader_payoff": "Power stands as a named attribute in its own right.",
+      "containment": "The predicate relation does not turn the adjective into an event of overpowering.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied QAC case and attachment evidence support direct predication."
+      },
+      "support_ids": ["sup_04ea800ff46688782495", "sup_1f720260bccf4ddd6961"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:durable-power",
+      "origin_candidate_id": "cand_2d0b6fd341b652ea7043",
+      "represented_candidate_ids": [],
+      "title": "Power is a standing quality",
+      "claim": "The adjectival form presents power as stable and unassailable authority in the subject.",
+      "mechanism": "The carrier is al-ʿazīzu in adjective form; the following al-raḥīmu supplies a separate paired predicate, and their contact presents power as a standing attribute joined to mercy rather than an event of strengthening.",
+      "reader_payoff": "The reader meets power as a lasting quality of the subject before the line settles on mercy.",
+      "containment": "The focus does not select the separate eventive strengthening branch or reduce the adjective to rarity.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The local adjective form supports stable power; other root forms are kept contrastive."
+      },
+      "support_ids": ["sup_1f720260bccf4ddd6961", "sup_300c5986f4fe9cdb99f6"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001008/B001",
+          "facet_id": "F001",
+          "branch_gloss": "güçlü, yenilmez ve saygın olma",
+          "facet_statement": "Güç, korunmuşluk ve saygınlık kişiyi yenilmekten ve aşağılanmaktan uzak tutar.",
+          "application_mode": "lexical",
+          "carrier_refs": ["32:6:5:2"],
+          "trigger_refs": ["32:6:6:2"],
+          "focus_return_refs": ["32:6:5:2"],
+          "carrier": "The definite adjective al-ʿazīzu carries standing strength and inviolability.",
+          "independent_trigger": "The distinct following predicate al-raḥīmu forms an ordered closing pair.",
+          "activation": "The adjective form and its paired predicate let the branch's stable strength shade the subject's standing quality.",
+          "resulting_reading": "Power is heard as enduring authority joined to the mercy that follows.",
+          "boundary": "This is not the eventive act of strengthening or the separate rarity branch."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:power-mercy-pair",
+      "origin_candidate_id": "cand_0fdd1ad4a7abd1412e9b",
+      "represented_candidate_ids": ["cand_70c57bb9d8f00772f145"],
+      "title": "Power and mercy form the local ordered pair",
+      "claim": "The final power and mercy epithets form an ordered pair of direct predicates, holding capacity and care together.",
+      "mechanism": "The carriers al-ʿazīzu and al-raḥīmu share definiteness and nominative case and stand adjacent at the close; that independent grammatical pairing changes the ending from isolated power to power named alongside mercy.",
+      "reader_payoff": "The reader reaches the close with both force and care present in one paired landing.",
+      "containment": "Only the local ordered pair is retained; no recurrence in other ayat is asserted, and each epithet keeps its own meaning.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "Local case, definiteness, order, and adjacency establish the pair; wider recurrence examples were excluded."
+      },
+      "support_ids": ["sup_1f720260bccf4ddd6961", "sup_8f71d0aa8dd4d87629cb", "sup_28f4628aaaf08d6eb35f", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:variant-predicate",
+      "origin_candidate_id": "cand_b12f24f9baf66bcf57c2",
+      "represented_candidate_ids": [],
+      "title": "The case contrast exposes predication",
+      "claim": "On the supplied nominative analysis, al-ʿazīzu stands as its own predicate; a genitive alternative would draw it closer to qualification.",
+      "mechanism": "The nominative carrier is attached directly to dhālika, while the distinct genitive possibility changes the syntactic relation toward al-raḥīm; the contrast makes the predicate force visible without selecting between source readings.",
+      "reader_payoff": "The reader notices how case changes whether power sounds directly asserted or more tightly qualifying.",
+      "containment": "The focus finding keeps the supplied nominative analysis and leaves the alternative variant visible.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The supplied analysis reports the standard parse and a contrastive variant, but this packet does not adjudicate between them."
+      },
+      "support_ids": ["sup_1f720260bccf4ddd6961", "sup_53a27aa4b54381bd18f4"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-attribute",
+      "origin_candidate_id": "cand_2cbaada5b687dfe481da",
+      "represented_candidate_ids": [],
+      "title": "Mercy names the subject as an attribute",
+      "claim": "The adjectival al-raḥīmu predicates mercy of the subject rather than presenting a request for mercy.",
+      "mechanism": "The carrier is the definite adjective al-raḥīmu; its predicate attachment to dhālika independently triggers an attribute reading, changing an imagined act of seeking mercy into a direct description of the subject.",
+      "reader_payoff": "Mercy is heard as something the subject is named by, not something another person asks to receive.",
+      "containment": "The finding preserves the ordinary mercy epithet and does not turn it into an abstract noun or a request formula.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The adjectival surface and predicate attachment are supplied locally."
+      },
+      "support_ids": ["sup_82b497c182106c7303cd", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-repartnered",
+      "origin_candidate_id": "cand_dd0b02de9e444d290ad5",
+      "represented_candidate_ids": [],
+      "title": "Mercy is locally paired with power",
+      "claim": "Here the familiar mercy epithet is paired with power, so the close gives mercy a place inside the same description as strength.",
+      "mechanism": "The carrier al-raḥīmu follows al-ʿazīzu as a direct predicate; their immediate adjacency changes the ending from mercy alone to mercy partnered with power.",
+      "reader_payoff": "The reader meets mercy in the local relation established by these two epithets.",
+      "containment": "The local partner is retained; the comparison with the basmala at 1:1 is outside this finding.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The focus directly supports the power-mercy pairing, while the wider basmala contrast was excluded."
+      },
+      "support_ids": ["sup_98ea294dd2c154d758d1", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:enduring-mercy",
+      "origin_candidate_id": "cand_d67b42de5f128fd4f5e3",
+      "represented_candidate_ids": [],
+      "title": "Mercy appears as enduring",
+      "claim": "The definite adjective presents mercy as an enduring attribute at the end of the predicate stack.",
+      "mechanism": "The carrier al-raḥīmu is an adjective rather than an abstract mercy noun or a one-time act; its final predicate position lets that quality remain as the clause's last description.",
+      "reader_payoff": "The reader is left with continuing mercy as a quality of the subject.",
+      "containment": "Other mercy forms stay contrastive; the local adjective is not replaced by an intensity or event reading.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The supplied form supports durability, while the distinction from other forms remains interpretive."
+      },
+      "support_ids": ["sup_2bc5681766ad3ad6fe62", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-predicate",
+      "origin_candidate_id": "cand_9b2780e7a5a7fd563c70",
+      "represented_candidate_ids": [],
+      "title": "Mercy is a direct final predicate",
+      "claim": "Mercy is directly asserted of the demonstrative's subject as the final predicate.",
+      "mechanism": "The carrier al-raḥīmu is nominative and attached to dhālika; its position after al-ʿazīzu changes the ending into a third direct predicate rather than a subordinate qualification.",
+      "reader_payoff": "The same subject remains in view until the final mercy description.",
+      "containment": "The genitive alternative is retained as a contrastive possibility and is not ruled out here.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied nominative morphology and attachment directly support predicate force."
+      },
+      "support_ids": ["sup_ae65467d068e86d400f7", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-cadence",
+      "origin_candidate_id": "cand_00dd7383803bb32b5bc6",
+      "represented_candidate_ids": [],
+      "title": "The final cadence softens toward mercy",
+      "claim": "The cadence falls on the mercy epithet after the firmer power title, giving the close a softer audible landing.",
+      "mechanism": "The carrier al-raḥīmu is clause-final; its supplied cadence follows the stronger-sounding al-ʿazīzu, so the final sound and final meaning arrive together on mercy.",
+      "reader_payoff": "The last audible beat lingers on mercy rather than stopping at power.",
+      "containment": "The sound impression supports the semantic landing but does not determine the meaning or impose a universal phonetic rule.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The supplied phonetic observation and terminal position support the reading; softness remains an interpretive impression."
+      },
+      "support_ids": ["sup_10aa516676f62376e119", "sup_fcd3f150980e0abd620d", "sup_1f720260bccf4ddd6961"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:terminal-mercy",
+      "origin_candidate_id": "cand_d3d6f29a0317c841e578",
+      "represented_candidate_ids": [],
+      "title": "The ayah ends on mercy",
+      "claim": "After the knowing predicate and power title, the final word places mercy at the ayah's structural landing.",
+      "mechanism": "The carrier al-raḥīmu is clause-final and follows the other predicate al-ʿazīzu; this terminal position changes the last impression from power alone to mercy.",
+      "reader_payoff": "The reader leaves the line with mercy as its last named quality.",
+      "containment": "The ending adds a final emphasis without displacing the earlier knowing and power predicates.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied word order and terminal placement establish the close."
+      },
+      "support_ids": ["sup_db901ac2ee9ee930724d", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:nurturing-mercy",
+      "origin_candidate_id": "cand_804a9fb407f34b8ad30f",
+      "represented_candidate_ids": [],
+      "title": "Mercy carries relational and nurturing pressure",
+      "claim": "The mercy epithet can carry both a binding relational shade and a protected-nurturing image while remaining a direct divine attribute.",
+      "mechanism": "The carrier is al-raḥīmu. Its paired relation with al-ʿazīzu independently activates a kinship image; the separate hidden-witnessed span supplies a trigger for the root's womb enclosure image. Their contact lets care feel relational and sheltering without changing the local adjective into a biological noun.",
+      "reader_payoff": "Mercy feels like care that relates and holds, not only a quality named in isolation.",
+      "containment": "Both images are attributed root resonances. The focus does not assert literal genealogy, a physical womb, or that al-raḥīmu lexically means either one.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The word-analysis support and exact HFT root/word traces fit the focus, but the kinship and womb applications remain attributed and the reader source is legacy_unbound."
+      },
+      "support_ids": ["sup_6b275553aaa99a42bca6", "sup_fcd3f150980e0abd620d", "sup_b1290eca50decfdee5b8", "sup_45f4e1faa028ff2686aa"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:6:2"],
+          "trigger_refs": ["32:6:5:2"],
+          "focus_return_refs": ["32:6:6:2"],
+          "carrier": "The adjective al-raḥīmu carries the ordinary mercy attribute, with the supplied kinship branch used as an attributed root image.",
+          "independent_trigger": "The separate al-ʿazīzu predicate stands in an immediate paired relation with mercy.",
+          "activation": "The paired predicates let the kinship role color mercy as binding relation rather than a passing emotion.",
+          "resulting_reading": "Mercy can be heard as relational and enduring care.",
+          "boundary": "The pairing does not assert literal shared lineage or genealogy."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:6:2"],
+          "trigger_refs": ["32:6:3:2", "32:6:4:3"],
+          "focus_return_refs": ["32:6:6:2"],
+          "carrier": "The mercy epithet al-raḥīmu is the supplied carrier of the rahm root image.",
+          "independent_trigger": "The separate unseen and witnessed domains create a local hidden-to-manifest relation that can activate a protected-enclosure image.",
+          "activation": "The hidden/witnessed contact lets the root's womb branch color mercy as sheltering care for what forms unseen.",
+          "resulting_reading": "Mercy carries a nurturing enclosure shade alongside its ordinary attribute sense.",
+          "boundary": "The adjective remains mercy; this is not a biological claim or a lexical translation as womb."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:visibility-continuum",
+      "origin_candidate_id": "cand_ff8d838db424a15b50d6",
+      "represented_candidate_ids": [],
+      "title": "One knowing crosses the visibility boundary",
+      "claim": "The one knower is presented across screened and present reality, so the unseen and witnessed become two poles within one knowing.",
+      "mechanism": "Before, the sequence can be read as a title naming knowledge of two separate categories; after, al-ghayb and al-shahādah sit under one ʿālimu predicate, and their contact makes the knowing cross the boundary between what is screened from sight and what is present to observation.",
+      "reader_payoff": "The reader perceives one reach of knowing across both what is concealed and what can be witnessed.",
+      "containment": "The two domains remain distinct. This attributed continuum reading adds breadth to the ordinary assertion that both are known and does not collapse all differences between them.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The exact word/root coordinates and local construct are supported, but the HFT role is attributed and its reader identity is legacy_unbound."
+      },
+      "support_ids": ["sup_349025fd2ae7fb2e047e", "sup_78e5f18e4d2846d5435c", "sup_12a25b0b1b6edd825e92", "sup_363f7304cdd881d5b633", "sup_0353e039ddc7cd9ee920"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bilme ve gerçeğini kavrama",
+          "facet_statement": "Bir şeyi bilme, tanıma ve gerçeğine uygun biçimde kavrama durumu bilgisizliğin karşıtıdır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:2:1"],
+          "trigger_refs": ["32:6:3:2", "32:6:4:3"],
+          "focus_return_refs": ["32:6:2:1"],
+          "carrier": "The active participle ʿālimu carries knowing.",
+          "independent_trigger": "The separate unseen and witnessed nouns give the predicate two poles of access.",
+          "activation": "One knowing predicate governs the opposed domains and makes its reach cross their visibility boundary.",
+          "resulting_reading": "Knowing is framed as spanning screened and present reality.",
+          "boundary": "The domains remain distinct; the trace does not claim that every hidden thing becomes witnessed."
+        },
+        {
+          "branch_ref": "root_001117/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gözden, duyudan ya da bilgiden uzak kalma",
+          "facet_statement": "Bir şey gözle görülmez, duyuyla algılanmaz veya insan tarafından bilinmez durumda kalır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:3:2"],
+          "trigger_refs": ["32:6:2:1", "32:6:4:3"],
+          "focus_return_refs": ["32:6:3:2"],
+          "carrier": "The definite noun al-ghayb carries what is screened from sight or knowledge.",
+          "independent_trigger": "The witnessed pole al-shahādah and the shared knowing head frame it as one side of a continuum.",
+          "activation": "The witnessed counterpart makes hiddenness the screened pole of the predicate's full reach.",
+          "resulting_reading": "The unseen is one side of a visibility boundary crossed by knowing.",
+          "boundary": "The branch remains broad hiddenness, not a specific absent person or hidden place."
+        },
+        {
+          "branch_ref": "root_000822/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hazır bulunup görme",
+          "facet_statement": "Bir olayın ya da yerin yanında hazır bulunma ve onu doğrudan görme çekirdeği vardır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:4:3"],
+          "trigger_refs": ["32:6:2:1", "32:6:3:2"],
+          "focus_return_refs": ["32:6:4:3"],
+          "carrier": "The definite noun al-shahādah carries the witnessed and present pole.",
+          "independent_trigger": "The separate al-ghayb domain supplies the screened counterpart under the same knower.",
+          "activation": "The paired domains make presence with observation the manifest pole across which knowing reaches.",
+          "resulting_reading": "The witnessed is presented as the present side of the same visibility continuum.",
+          "boundary": "This does not select a human observer, gathering place, or legal testimony event."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:evidence-to-action",
+      "origin_candidate_id": "cand_339ce454584b755b6adf",
+      "represented_candidate_ids": [],
+      "title": "A trace moves through testimony to beneficent force",
+      "claim": "The sequence can be read as a process in which a guiding mark makes knowing trace-based, witnessed testimony states what is known, power gives it practical consequence, and mercy directs that efficacy toward care.",
+      "mechanism": "Before, the line can sound like four adjacent descriptions of knowledge, visibility, power, and mercy; after, al-ʿālimu, al-shahādah, al-ʿazīzu, and al-raḥīmu form an attributed evidence-to-action chain. Each focus word supplies a carrier, and the next distinct predicate or domain supplies the trigger that moves the reading forward.",
+      "reader_payoff": "The reader can perceive knowledge as something traceable, stated, made effective, and directed toward beneficence.",
+      "containment": "This is an attributed sequence, not a claim that al-ʿālimu lexically means a mark, al-ʿazīzu is a verb of conquest, or mercy is reduced to an action. Each surface title keeps its ordinary meaning.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The HFT trace matches the focus word indices and roots, and the local forms support the sequence's participants, but the multi-step interpretation is attributed and the reader identity is legacy_unbound."
+      },
+      "support_ids": ["sup_09cd2b8f2a512408f632", "sup_78e5f18e4d2846d5435c", "sup_363f7304cdd881d5b633", "sup_1f720260bccf4ddd6961", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001040/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ayırt edici ve yol gösterici işaret",
+          "facet_statement": "Bir nesneyi veya kişiyi başkalarından ayırıp tanınır kılan belirgin iz ya da işaret çekirdeği oluşturur.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:2:1"],
+          "trigger_refs": ["32:6:4:3"],
+          "focus_return_refs": ["32:6:2:1"],
+          "carrier": "The active participle al-ʿālimu carries the ordinary knower sense, with the mark branch attributed through its root.",
+          "independent_trigger": "Al-shahādah is a separate witnessed domain that can function as evidence for what is known.",
+          "activation": "The evidence-bearing pole meets the knowing predicate and supplies a trace from which its object can be reached.",
+          "resulting_reading": "Knowing acquires a trace-based path from distinguishing mark to its object.",
+          "boundary": "The local active participle does not lexically mean a mark."
+        },
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilgiye dayalı tanıklık",
+          "facet_statement": "Merkezde bilinen bir şeyi kesin haber veya açıklama olarak bildirme vardır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:4:3"],
+          "trigger_refs": ["32:6:2:1"],
+          "focus_return_refs": ["32:6:4:3"],
+          "carrier": "The abstract al-shahādah carries testimony grounded in what is known.",
+          "independent_trigger": "The preceding al-ʿālimu predicate supplies the knowledge that makes the testimony informed.",
+          "activation": "The testimony branch meets the knowing head and converts witnessed presence into an evidentiary statement.",
+          "resulting_reading": "The witnessed pole can be read as knowledge made declarable.",
+          "boundary": "No named human witness or legal proceeding is asserted."
+        },
+        {
+          "branch_ref": "root_001008/B002",
+          "facet_id": "F001",
+          "branch_gloss": "üstün gelip boyun eğdirme",
+          "facet_statement": "Bir taraf karşısındakini yenerek onun üzerinde üstünlük kurar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:5:2"],
+          "trigger_refs": ["32:6:4:3"],
+          "focus_return_refs": ["32:6:5:2"],
+          "carrier": "The adjective al-ʿazīzu carries power as the focus carrier, with the prevailing-force branch attributed to its root.",
+          "independent_trigger": "The preceding witnessed testimony supplies something whose practical consequence can be made effective.",
+          "activation": "The power title meets the testimony role and gives the stated evidence force in the sequence.",
+          "resulting_reading": "Power becomes the effective stage of the evidence-to-action chain.",
+          "boundary": "The adjective remains a stable power title, not a finite act of subduing."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:6:2"],
+          "trigger_refs": ["32:6:5:2"],
+          "focus_return_refs": ["32:6:6:2"],
+          "carrier": "The mercy adjective al-raḥīmu carries the ordinary mercy and beneficence sense.",
+          "independent_trigger": "The separate power title al-ʿazīzu supplies effective capacity in the closing pair.",
+          "activation": "The mercy branch meets effective power and gives its consequence a humane direction.",
+          "resulting_reading": "The sequence ends with force directed toward protective beneficence.",
+          "boundary": "This does not claim human emotion or erase mercy's direct attribute sense."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:effectual-mercy",
+      "origin_candidate_id": "cand_2c791605203f3e0fc65b",
+      "represented_candidate_ids": [],
+      "title": "Power and mercy form a coupled capacity",
+      "claim": "The closing pair presents mercy as able to accomplish its end through strength, while strength is relationally directed toward care.",
+      "mechanism": "Before, might and mercy could be heard as contrasting traits held side by side; after, al-ʿazīzu and al-raḥīmu meet as a paired relation. Strength supplies efficacy, the mercy predicate supplies active beneficence, and the attributed reinforcement and kinship facets explain how the pair works together.",
+      "reader_payoff": "The reader can hear power as capacity made effective for mercy, with mercy giving that capacity a relational end.",
+      "containment": "The reading does not turn al-ʿazīzu into a strengthening verb or claim literal kinship for the divine subject. It adds a relational account while retaining the ordinary power and mercy predicates.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The paired focus adjectives and exact HFT root/word traces support the contact, but the reinforcement and kinship links are attributed and the reader identity is legacy_unbound."
+      },
+      "support_ids": ["sup_b1290eca50decfdee5b8", "sup_1f720260bccf4ddd6961", "sup_28f4628aaaf08d6eb35f", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001008/B001",
+          "facet_id": "F001",
+          "branch_gloss": "güçlü, yenilmez ve saygın olma",
+          "facet_statement": "Güç, korunmuşluk ve saygınlık kişiyi yenilmekten ve aşağılanmaktan uzak tutar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:5:2"],
+          "trigger_refs": ["32:6:6:2"],
+          "focus_return_refs": ["32:6:5:2"],
+          "carrier": "The adjective al-ʿazīzu carries standing strength and inviolability.",
+          "independent_trigger": "The separate al-raḥīmu predicate is its immediate partner.",
+          "activation": "The pairing makes the strength title the efficacy side of a coupled closing capacity.",
+          "resulting_reading": "Strength is present as the capacity through which the paired mercy can act.",
+          "boundary": "The quality remains a stable adjective and is not a conquest event."
+        },
+        {
+          "branch_ref": "root_001008/B004",
+          "facet_id": "F001",
+          "branch_gloss": "güçlendirip pekiştirme",
+          "facet_statement": "Etkileyen taraf kişi veya şeye güç, sağlamlık ya da saygınlık kazandırır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:5:2"],
+          "trigger_refs": ["32:6:6:2"],
+          "focus_return_refs": ["32:6:5:2"],
+          "carrier": "The power adjective al-ʿazīzu is the focus carrier for an attributed strengthening relation.",
+          "independent_trigger": "The distinct mercy predicate supplies the partner whose action can be enabled.",
+          "activation": "The paired relation lets power operate as capacity that strengthens the effectiveness of care.",
+          "resulting_reading": "Power is heard as enabling mercy rather than merely standing beside it.",
+          "boundary": "This is an attributed relation, not a claim that the adjective itself is a transitive verb."
+        },
+        {
+          "branch_ref": "root_001008/B004",
+          "facet_id": "F002",
+          "branch_gloss": "güçlendirip pekiştirme",
+          "facet_statement": "Bir unsur, yanına başka bir unsur eklenerek desteklenir ve daha güçlü kılınır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:5:2"],
+          "trigger_refs": ["32:6:6:2"],
+          "focus_return_refs": ["32:6:5:2"],
+          "carrier": "The power adjective al-ʿazīzu carries the strength side of the pair.",
+          "independent_trigger": "The adjacent mercy predicate is the added partner in the local relation.",
+          "activation": "The paired attributes support a reading in which one capacity is reinforced by the other, while retaining their separate meanings.",
+          "resulting_reading": "Power and mercy work as a coupled, mutually directed capacity.",
+          "boundary": "The focus shows paired predicates, not a literal addition of substances or an explicit transitive strengthening act."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:6:2"],
+          "trigger_refs": ["32:6:5:2"],
+          "focus_return_refs": ["32:6:6:2"],
+          "carrier": "The adjective al-raḥīmu carries mercy with its beneficent result.",
+          "independent_trigger": "The separate al-ʿazīzu predicate supplies the efficacy named in the paired reading.",
+          "activation": "Mercy meets effective strength and directs it toward protecting and doing good.",
+          "resulting_reading": "Mercy is presented as care with capacity to accomplish its end.",
+          "boundary": "The reading does not attribute human emotion or replace the ordinary mercy title."
+        },
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:6:2"],
+          "trigger_refs": ["32:6:5:2"],
+          "focus_return_refs": ["32:6:6:2"],
+          "carrier": "The mercy adjective al-raḥīmu is the carrier of the attributed kinship branch.",
+          "independent_trigger": "The paired al-ʿazīzu predicate supplies an immediate relation between two closing attributes.",
+          "activation": "The kinship branch colors the mercy-power pairing as a binding relation rather than a passing emotion.",
+          "resulting_reading": "Mercy is heard as relationally directed care within a coupled capacity.",
+          "boundary": "The focus does not claim literal shared lineage or genealogy."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:gestational-threshold",
+      "origin_candidate_id": "cand_f8f8077b8397dcd21578",
+      "represented_candidate_ids": [],
+      "title": "The domains can be heard as protected formation and emergence",
+      "claim": "Exploratorily, the hidden and witnessed poles can name successive states in a protected process of formation: what is concealed is held, then an emergence enters witness.",
+      "mechanism": "Before, unseen and witnessed can be read as static epistemic regions; after, the HFT trace links hidden roots to the witnessed threshold of birth and the mercy root to a protected womb image. The three focus carriers contact one another across the local hidden-to-manifest relation, producing a developmental sequence.",
+      "reader_payoff": "The reader can glimpse time and protection inside the otherwise static contrast between unseen and witnessed.",
+      "containment": "This remains an exploratory attributed image. Al-ghayb still names the unseen domain, al-shahādah still names the witnessed domain, and al-raḥīmu remains the mercy epithet; no word is lexically replaced by tree roots, birth signs, or a womb.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The exact focus coordinates and roots match the HFT trace, but the multi-root developmental sequence is exploratory and comes from a legacy_unbound reader."
+      },
+      "support_ids": ["sup_45f4e1faa028ff2686aa", "sup_12a25b0b1b6edd825e92", "sup_363f7304cdd881d5b633", "sup_fcd3f150980e0abd620d"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001117/B008",
+          "facet_id": "F001",
+          "branch_gloss": "toprağa saklanmış ağaç kökleri",
+          "facet_statement": "Referans ağacın toprağın içine uzanmış ve başlangıçta görünmeyen kökleridir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:3:2"],
+          "trigger_refs": ["32:6:4:3", "32:6:6:2"],
+          "focus_return_refs": ["32:6:3:2"],
+          "carrier": "The noun al-ghayb carries hiddenness and screens what is not yet seen.",
+          "independent_trigger": "Al-shahādah supplies the witnessed pole, while al-raḥīmu supplies the separate protected-enclosure image.",
+          "activation": "The focus relation lets the root-branch image of hidden roots color what is concealed before appearance.",
+          "resulting_reading": "The unseen can be pictured as latent formation held below visibility.",
+          "boundary": "No literal tree, soil, or underground location is asserted."
+        },
+        {
+          "branch_ref": "root_000822/B006",
+          "facet_id": "F001",
+          "branch_gloss": "doğum ve erginlik belirtisi",
+          "facet_statement": "Doğum veya erginlik sırasında beliren bedensel madde, akıntı ya da iz dalın çekirdeğidir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:4:3"],
+          "trigger_refs": ["32:6:3:2", "32:6:6:2"],
+          "focus_return_refs": ["32:6:4:3"],
+          "carrier": "The abstract noun al-shahādah carries the witnessed or manifest pole.",
+          "independent_trigger": "The separate unseen domain and the mercy-root womb image supply hidden formation before emergence.",
+          "activation": "The branch's birth-threshold role contacts the witnessed pole and changes it into an emergence point in the attributed sequence.",
+          "resulting_reading": "The witnessed domain can be heard as the threshold where hidden formation becomes perceptible.",
+          "boundary": "Al-shahādah remains the witnessed domain; it is not lexically a birth sign or bodily discharge."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "attributed",
+          "carrier_refs": ["32:6:6:2"],
+          "trigger_refs": ["32:6:3:2", "32:6:4:3"],
+          "focus_return_refs": ["32:6:6:2"],
+          "carrier": "The adjective al-raḥīmu carries the supplied rahm root as the mercy epithet.",
+          "independent_trigger": "The hidden and witnessed poles form a separate concealment-to-emergence relation.",
+          "activation": "The womb branch supplies a protected container image for what forms unseen before it enters the witnessed pole.",
+          "resulting_reading": "Mercy can be heard as an enclosing protection within the exploratory developmental sequence.",
+          "boundary": "The adjective remains a mercy attribute; the womb image is attributed and not a biological or lexical claim."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The inline packet supplies no selected context units or connection rows. Wider formula, basmala, legal, faith, and pericope echoes were excluded or narrowed in this micro discovery.",
+    "All four HFT traces match the supplied focus word coordinates and roots, but their provenance is legacy_unbound. Retained HFT readings are attributed; the developmental sequence remains exploratory."
+  ]
+}

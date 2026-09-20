@@ -1,0 +1,2610 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "13:1",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3e3891a699c45c7914a3",
+      "decision": "represented",
+      "reason": "Yayımlanmış kitap-bütünlüğü iddiası, global:book-as-connected-whole bulgusundaki aynı birleşme ve delil değeri ilişkisini, iki odak dalını da koruyarak tekrar ediyor.",
+      "finding_refs": [
+        "global:book-as-connected-whole"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_903f9d15d97b6c492094",
+      "decision": "narrow",
+      "reason": "Gerçeklik ve sınama sırasında yararlı biçimde kalma çekirdeği root_000347/B001 ve 13:17 ile taşınıyor. root_000347/B010, yalnız sıkı dokunmuş kumaş veya sağlam kurulmuş söz niteleme yapılarında tanıklanmış; odak taşıyıcısı ٱلْحَقُّ isim yüklemidir ve 13:17'deki kalıcılık bu kısıtlı söz/kumaş taşıyıcısını sağlamaz.",
+      "finding_refs": [
+        "global:truth-under-testing"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000347/B010",
+          "reason": "B010'un F002 söz nitelemesi için bu odak taşıyıcısında gerekli sağlam kurulmuş söz yapısı bulunmuyor; eşlik eden F001 çekirdek de kumaş söz öbeğine özgü ve burada etkinleşmiyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_85c3bce9cfd751ac6c51",
+      "decision": "accept",
+      "reason": "Bağlı Kitap okuması ile sınama altında kalıcılık ayrı mekanizma ve getiriler taşır; iki bulguda tutuldu. Her docket dalı ilgili bulguda, odak Kitap dalının birleşme yönü ve Hakikat ile güven yönleri ayrı ayrı etkinleşiyor.",
+      "finding_refs": [
+        "global:book-as-connected-whole",
+        "global:belief-as-trust-that-endures"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f135184474f332023554",
+      "decision": "accept",
+      "reason": "13:43'teki bilinen Kitap ile 13:17'deki maddi hak-batıl sınaması, metinsel bütünlük ve kalıcı yararın birlikte delil üretmesi yönünde ayrı bir üst-bağ kuruyor; bu kombinasyon tekil kitap veya hakikat bulgularına indirgenmiyor.",
+      "finding_refs": [
+        "global:book-and-material-test"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_47a534001d3c3d3f3a62",
+      "decision": "reject",
+      "reason": "Yayımlanmış kaynak kök birleşmesi ve kanıt değerini öneriyor; ancak adlandırdığı tek bağlam 13:2-6, ilan edilen 13:1-18 perikopunun içinde. Bu nedenle global için gereken daha geniş tetikleyici yok.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001283/B001",
+          "reason": "Birleşme dalı odakta mevcut; adayın tek bağımsız tetikleyici kümesi ilan edilen perikopun içinde kaldığından global kapsamda etkinleşmiyor."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "13:2",
+          "reason": "Yalnız ilan edilen perikop içinde kalan sıralı kozmik işaretler."
+        },
+        {
+          "context_ref": "13:3",
+          "reason": "Yalnız ilan edilen perikop içinde kalan yeryüzü ve bitki işaretleri."
+        },
+        {
+          "context_ref": "13:4",
+          "reason": "Yalnız ilan edilen perikop içinde kalan tarım ve çeşitlilik işaretleri."
+        },
+        {
+          "context_ref": "13:5",
+          "reason": "Yalnız ilan edilen perikop içinde kalan inkâr ve sonuç çerçevesi."
+        },
+        {
+          "context_ref": "13:6",
+          "reason": "Yalnız ilan edilen perikop içinde kalan sonuç ve ceza çerçevesi."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a2c21639d3ba70a5725a",
+      "decision": "reject",
+      "reason": "Retrospektif notun tek tetikleyicileri 13:2-4'teki ayrıntılandırma ve işaret sırasıdır; hepsi ilan edilen perikop içindedir, bu nedenle global bulgu oluşturmaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "13:2",
+          "reason": "Perikop içi ayrıntılandırma; global tetikleyici değil."
+        },
+        {
+          "context_ref": "13:3",
+          "reason": "Perikop içi sıralı işaretler; global tetikleyici değil."
+        },
+        {
+          "context_ref": "13:4",
+          "reason": "Perikop içi işaret içeriği; global tetikleyici değil."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4d56177a27f3e41000ec",
+      "decision": "reject",
+      "reason": "Kayıt yalnızca farklı sistemleri okuyan sıralı bir karşılaştırma düzeni özetliyor. Anchor, odak dalı, bağımsız tetikleyici ve focusa dönen somut ilişki vermediğinden değişmiş bir global anlamı kurmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1acaf9b858942cac1c4d",
+      "decision": "represented",
+      "reason": "Akış ve maddi ayrışma sırasında yararlı kalanın hakikati belirginleştirmesi, global:truth-under-testing bulgusunun aynı anlamsal çekirdeğidir.",
+      "finding_refs": [
+        "global:truth-under-testing"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f1755aa723f6923b55fd",
+      "decision": "reject",
+      "reason": "Yerleşik güven, ahit ağı ve onarıcı eylemi tek bir HFT özeti altında topluyor; docketteki izler bunları ayrı mekanizmalarla kuruyor. Bu özetin kendi anchor, dal veya kelime izi yok ve tek bir bulguda tam karşılığı bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3c94e8bceba6779ea2a7",
+      "decision": "reject",
+      "reason": "Yazılı metin, bağlayıcı hüküm, zaman kaydı ve tanıklanan bilgi ayrı global adaylarda farklı tetikleyicilerle açılıyor. Bu anchorsız özet tek bir bulgunun tam tekrarı değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3bdce642f90fc8e8c0ab",
+      "decision": "reject",
+      "reason": "Kayıt 13:7, 13:19, 13:17 ve 13:39'dan farklı okumaları tek bir sentezde birleştiriyor; 13:7 için bu pakette yüzey taşıyıcısı yok ve diğer okumaların mekanizmaları ayrıdır. Her bir geçerli parça kendi destekli bulgusunda korunuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "13:7",
+          "reason": "Özet içinde anılıyor, ancak bu pakette tam yüzey/taşıyıcı desteği yok."
+        },
+        {
+          "context_ref": "13:17",
+          "reason": "Bu adayda farklı okuma parçalarından biri; birleşik özet tek bir global iddia değil."
+        },
+        {
+          "context_ref": "13:19",
+          "reason": "Bilme-körlük okuması ayrı adayda korunuyor; burada bağımsız özetleme onu yeniden birleştiriyor."
+        },
+        {
+          "context_ref": "13:39",
+          "reason": "Silme-sabitleme kaydı zaman-kayıt bulgusunda ayrı korunuyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dba4af45f59f90f53cad",
+      "decision": "represented",
+      "reason": "13:17'nin genel hak-batıl meselini açılıştaki Kitap ve Hakikat'e uygulamanın abduktif olduğu uyarısı, global:truth-under-testing bulgusunun containment alanında aynı açıklıkla korunuyor.",
+      "finding_refs": [
+        "global:truth-under-testing"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0414fa32c71a56a1d087",
+      "decision": "represented",
+      "reason": "Odak Kitap ile 13:38-39'daki süreye bağlı ve kaynak Kitap kullanımlarının ilişkisi varsayıma bağlıdır; kullanımlar ayrı katmanlar da olabilir. Bu tam alternatif global:book-as-timed-register bulgusunun sınırıdır.",
+      "finding_refs": [
+        "global:book-as-timed-register"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ba3fadfbc4635ecf8dd7",
+      "decision": "reject",
+      "reason": "Bu kayıt bekleme, köpük, gölge-yazı ve adlandırma için genel bir uyarı veriyor; kendisi bir taşıyıcı, değişmiş anlam veya tekil tetikleyici sunmuyor. Sağlanan iki outlierın benzetim sınırları kendi bulgularında korunuyor; adsız diğer okumalar bu kayıttan etkinleşmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_58467dd22af05152f699",
+      "decision": "accept",
+      "reason": "13:19, odaktaki gönderilme-Rab-Hakikat önermesini tekrar edip bileni körle karşılaştırıyor ve hatırlamayı sona yerleştiriyor. Tekrarlanan focus yüzeyi üzerinden inanç salt kabulün yanında tanıma ve içgörü olarak da okunuyor.",
+      "finding_refs": [
+        "global:knowing-the-descended-truth"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6b268db0d8dfafcbf4a3",
+      "decision": "accept",
+      "reason": "13:20-25'te ahdi tamamlama, bağı koruma ve bağlantıyı kesme karşıtlığı focus Kitap, hakikat ve güven dallarına geri dönüyor. HFT'nin downstream-ethics alternatifi ve iki karşı bağlantı bulgunun sınırında tutuluyor.",
+      "finding_refs": [
+        "global:belief-as-covenantal-practice"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_19cb3b847cd13a8ba4ee",
+      "decision": "accept",
+      "reason": "13:28-29'daki tekrarlanan kalbin yatışması, hatırlama, güven ve salih eylem focusun iman fiiline geri dönüyor; cause/consequence alternatifi korunuyor.",
+      "finding_refs": [
+        "global:belief-as-settled-remembrance"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f53cff11e61062871018",
+      "decision": "accept",
+      "reason": "13:31'in dağları yürütme, yeri yarma ve ölülere söz söyleme karşıolguları, bütün insanlara hidayet ile inancı ayrı sıraya koyuyor. Bu, focus reddini gösteriyle zorlamanın sınırında yeniden okur; gösterinin delil gücüne ilişkin alternatif açık kalır.",
+      "finding_refs": [
+        "global:address-without-mechanical-compulsion"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_37e94590cb6ed75670c9",
+      "decision": "accept",
+      "reason": "13:36-39'daki alınan metin, Arapça hüküm, her ecel için Kitap, silme-sabitleme ve Ümmü'l-Kitap sırası focus Kitap'ta yazı ile bağlayıcı belirlemeyi katmanlı bir zaman kaydında buluşturuyor; katmanların ayrı kalabileceği alternatifi korunuyor.",
+      "finding_refs": [
+        "global:book-as-timed-register"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_74614257b492790a4d34",
+      "decision": "accept",
+      "reason": "13:43'teki yeterli şahitlik ve Kitap bilgisi, focus Kitap ve Hakikat'i tanıklık ilişkisine açıyor. HFT'nin alternatifine uygun olarak bilen kişi açık tanık kalıyor; metin özneleştirilmiyor.",
+      "finding_refs": [
+        "global:book-as-witnessed-knowledge"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2f3fd5c5358209a5086e",
+      "decision": "accept",
+      "reason": "Focus ayet/delil ile iniş/durak dalları, 13:2 ve 13:38'in süre kayıtları ve 13:17'nin köpükten sonra kalan yararıyla birleşince işaret karşısında bekleme pratiğini kuruyor. Uzak bekleme dalı leksik tanım değil, açıkça exploratory bir okuma olarak kalıyor.",
+      "finding_refs": [
+        "global:sign-as-waiting-station"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_42b26c2d5e21c36482b8",
+      "decision": "accept",
+      "reason": "Odaktaki görünen işaret ve gerçekliğe uygun Hakikat, 13:33'teki adlandırma talebi, bilgi yokluğu, yüzey söz ve süsleme ile karşılaşıyor. Bu karşılaşma gösterge ile dayanağı olmayan ad arasında şaşırtıcı bir bağ kuruyor; çıkarımın sınırı belirtiliyor.",
+      "finding_refs": [
+        "global:grounded-signs-and-unsupported-names"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:book-as-connected-whole",
+      "origin_candidate_id": "cand_85c3bce9cfd751ac6c51",
+      "represented_candidate_ids": [
+        "cand_3e3891a699c45c7914a3"
+      ],
+      "title": "Birbirine eklenen Kitap ayetleri",
+      "claim": "Kitap, açılıştaki ayetleri birbirine eklenen ve birlikte delil gücü kazanan bir bütün olarak da duyurur.",
+      "mechanism": "Focus taşıyıcısı olan كِتَابِ, ekleyip birleştirme dalını taşır; çoğul ayetler bu bağlantının odak içindeki üyelerini verir. Sonraki ahdin tutulup çözülmesi ve kapanışta Kitap bilgisinin anılması, bu yapıyı gevşek bir söz dizisi yerine ilişkili bir metin olarak yeniden düşündürür.",
+      "reader_payoff": "Okur, ayetlerin Kitap'a ait sayılmasının yanında, birbirini taşıyan delil birimleri olarak nasıl iş görebileceğini görür.",
+      "containment": "Bu, yazılı Kitap ve onun ayetleri ana anlamını koruyan global bir çıkarımdır. 13:20 ve 13:25 bağlantı kayıtları odakla belirgin ilişki görmez; 13:43'te Kitap bilenin tanıklığı ilişkiyi desteklese de metinsel bütünlüğü kanıtlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Yayımlanmış odak iddiası trusted; onu geniş bağlama bağlayan okuyucu izi legacy_unbound olduğu için sonuç nitelikli kalıyor."
+      },
+      "support_ids": [
+        "sup_3effbb7ed736a7134d4f",
+        "sup_722226a7bdb0238fa176"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "facet_statement": "Temel işlem, bir şeyi başka bir şeye katarak ikisini bir bütün veya bağlı bir düzen içinde birleştirmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:20:3",
+            "13:25:8",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Odaktaki كِتَابِ taşıyıcısı, birleştirme çekirdeğini taşır.",
+          "independent_trigger": "Ayetler dizisi ile sonraki ahit tutma/çözme ve Kitap bilgisi, birbiriyle bağlı üyeler fikrini tetikler.",
+          "activation": "Kitap taşıyıcısı, ayetleri bir araya getiren yazılı metin olarak okunur; bağlamdaki koruma ve koparma ilişkileri bu bağlantıyı görünür kılar.",
+          "resulting_reading": "Ayetlerin birbirini taşıdığı bağlı Kitap okuması.",
+          "boundary": "Bu, Kitab'ın olağan yazılı metin anlamına eklenen ilişkisel okumadır; ayrı ayetlerin varlığını ortadan kaldırmaz."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Odaktaki كِتَابِ, yazılı metin ürününü taşıyan isimdir.",
+          "independent_trigger": "Ayetlerin Kitap'a bağlanması ve 13:43'te Kitap bilgisinin şahitlikle birlikte anılması bağımsız tetikleyicidir.",
+          "activation": "Yazılı metin olarak Kitap, ayetleri bir arada tutan yapı olarak kavranır.",
+          "resulting_reading": "Kitap, birlikte okunan ve delil değeri kazanan bir metin olur.",
+          "boundary": "Yazılı metin anlamı sürer; metnin kendi başına tanık olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "İşlemin ürünü, yazılmış metin veya üzerinde bu metnin bulunduğu sayfa ya da kitaptır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Odaktaki كِتَابِ, yazılmış ürün veya metin anlamını taşır.",
+          "independent_trigger": "Ayetlerin bu ürünün içeriği olması ve son ayette Kitap bilgisinin tanıklıkla buluşması bağımsız tetikleyicidir.",
+          "activation": "Yazılı ürün facet'i, birleşme okumasını gerçekleşmiş bir Kitap nesnesine bağlar.",
+          "resulting_reading": "Ayetler yazılı Kitap içinde bir arada duran deliller olarak okunabilir.",
+          "boundary": "Bu extension, aynı dalın F001 yazı çekirdeğiyle birlikte tutulur; literal kitap anlamı korunur."
+        }
+      ],
+      "connection_refs": [
+        "conn_6ca55bcfb682070ee03e",
+        "conn_5c531d4caeb45235728a",
+        "conn_7eba20c56a816611fce4"
+      ],
+      "context_refs": [
+        "13:20",
+        "13:25",
+        "13:43"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:truth-under-testing",
+      "origin_candidate_id": "cand_903f9d15d97b6c492094",
+      "represented_candidate_ids": [
+        "cand_1acaf9b858942cac1c4d",
+        "cand_dba4af45f59f90f53cad"
+      ],
+      "title": "Sınamada kalan Hakikat",
+      "claim": "Focus'taki ٱلْحَقُّ, 13:17'de köpükten ayrılıp yararlı kalan gerçeklik olarak maddi bir sınamaya; 13:19'da yinelenen iniş-Rab-Hakikat önermesinin bilen/kör karşıtlığındaki konusu olarak da açılır.",
+      "mechanism": "13:17'deki taşkın ve ateş meselinde köpük gider, yararlı olan kalır. Perikop dışındaki 13:19, odağın iniş-Rab-Hakikat önermesini yineler; bu kez Hakikat'in alıcısı bilen ile kör karşıtlığında görünür. İki temas focus ٱلْحَقُّ'ya dönerek maddi dayanıklılık ile bilişsel tanınmayı bir araya getirir.",
+      "reader_payoff": "Doğruluk iddiası, yalnız köpükten sağ çıkma benzetmesi değil, daha sonraki ayette bilinebilen ve körlükle karşılaştırılan bir Hakikat olarak da okunur.",
+      "containment": "13:17 genel hak-batıl meselidir; onu özellikle indirilen Kitap'a uygulamak abduktif bir aktarım. 13:19'daki bilme de imanın sonucu olabilir, tanımı değil. Bu birleşim focus taşıyıcısı ٱلْحَقُّ için karşılaştırmalı bir okumadır; sözlük tanımı, tek referans ya da nedensel açıklama değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Yayımlanmış odak iddiası trusted; 13:17 sınamasını 13:19'daki dış bağlam ve tanınma modeliyle birleştiren HFT izleri legacy_unbound olduğu için sonuç nitelikli kalıyor."
+      },
+      "support_ids": [
+        "sup_4edfa9af7f255af6ba3e",
+        "sup_3effbb7ed736a7134d4f",
+        "sup_7df0c59dfbc5cbbeed02",
+        "sup_4812baccc6fca508e8d1",
+        "sup_5dbc2c4980919cbcb32e"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:17:26",
+            "13:17:30",
+            "13:17:36",
+            "13:19:2",
+            "13:19:8"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2"
+          ],
+          "carrier": "Focus'taki ٱلْحَقُّ, gerçekten var olana uygun düşen doğruluk anlamını taşır.",
+          "independent_trigger": "13:17'de ٱلْحَقَّ ve ٱلْبَاطِلَ anılır; köpüğün gitmesi ve yararlı olanın kalması bu ayrımı somutlaştırır. Perikop dışındaki 13:19 ise focus önermesini ve ٱلْحَقُّ'yu yineler; bilen/kör karşıtlığı bu Hakikat'in tanınmasını açar.",
+          "activation": "Maddi meselin focus Hakikatiyle kurduğu temas, 13:19'da aynı odağa dönen iniş-Rab-Hakikat önermesiyle genişler; sınanmış kalıcılık, tanınabilir gerçeklikle birlikte okunur.",
+          "resulting_reading": "Hakikat, hem sınama sonrasında yararlı biçimde kalan gerçeklik hem de sonraki ayette bilme/körlük karşıtlığının konusu olarak belirginleşir.",
+          "boundary": "Mesel genel hak-batıl ilişkisini anlatır; focus Kitap'ı açıkça adlandırmaz. 13:19'daki bilme imanın sonucu olabilir. B010'un kumaş/söz niteleme biçimi focus taşıyıcısıyla eşleşmediği için dışarıda bırakıldı."
+        }
+      ],
+      "connection_refs": [
+        "conn_e7079d58978a3fa72660"
+      ],
+      "context_refs": [
+        "13:17",
+        "13:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:belief-as-trust-that-endures",
+      "origin_candidate_id": "cand_85c3bce9cfd751ac6c51",
+      "represented_candidate_ids": [],
+      "title": "İnanmanın kalıcı olana güveni",
+      "claim": "Focus'taki يُؤْمِنُونَ doğru sayıp kabul etmenin yanında güven yönüyle duyulduğunda, 13:17'deki kalıcı yarara tutunmayı ve 13:20–25'te ahdi sürdürme ya da koparma karşıtlığını devamlılık okumasında buluşturur.",
+      "mechanism": "Focus iman kelimesinin güven facet'i 13:17'de köpükten ayrılıp yararlı kalan Hakikat'e tutunur. Perikop dışındaki 13:20–25'te ahdi tamamlama, bağları birleştirme ve karşı kutupta bozma/kesme eylemleri bu güveni süreklilik içinde gösterir: maddi sınamada tutunma, ilişkiyi sürdürme pratiğine de döner. Yerel kabul okuması canlı kalır.",
+      "reader_payoff": "Okur, inanmayı yalnız ilk kabul değil, sınama karşısında tutunup daha sonra bağlılığı sürdüren bir güven olarak da görebilir.",
+      "containment": "Bu bağlamlı güven okuması yerel inanma anlamını silmez ve kişilerin psikolojik nedenini açıklamaz. 13:17 genel bir meseldir; sonraki ahit eylemleri imanın anlam genişlemesi değil sonucu olabilir. Bağlantı kayıtları focus'a ayrı bir katkı göstermediğinden okuma exploratory ve attributed kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için bu perikop dışı süreklilik okuması exploratory kalıyor."
+      },
+      "support_ids": [
+        "sup_3effbb7ed736a7134d4f",
+        "sup_d425d4de3380def80fd3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": "F001",
+          "branch_gloss": "guven ve guvenilirlik",
+          "facet_statement": "Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:15:1"
+          ],
+          "trigger_refs": [
+            "13:17:26",
+            "13:17:30",
+            "13:17:36",
+            "13:20:2",
+            "13:20:3",
+            "13:21:2",
+            "13:25:8",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1",
+            "13:1:10:2"
+          ],
+          "carrier": "يُؤْمِنُونَ fiili, güven ve emniyet yönünü taşıyan focus formudur.",
+          "independent_trigger": "Hak-batıl meselinde yararlı olanın kalması güvenin neye tutunduğunu sınar; perikop dışındaki 13:20–25 ahdi tamamlama/koruma ile bozma ve bağ kesmeyi karşı karşıya getirir.",
+          "activation": "Focus güven taşıyıcısı önce kalıcı Hakikat meseliyle, sonra sadakat ve ihlal eylemlerinin geniş surah bağlamıyla karşılaşır.",
+          "resulting_reading": "İnanma, doğru saymanın yanında kalıcı olana güvenle tutunma ve bu bağlılığı sürdürme olarak da görünür.",
+          "boundary": "Bu, B002 tasdik facet'ini yerinden etmez; ahit eylemleri güvenin anlamı değil sonucu olabilir ve 13:17 çoğunluğun nedenini bildiren doğrudan açıklama değildir."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:15:1"
+          ],
+          "trigger_refs": [
+            "13:17:26",
+            "13:17:30",
+            "13:17:36",
+            "13:20:2",
+            "13:20:3",
+            "13:21:2",
+            "13:25:8"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1",
+            "13:1:10:2"
+          ],
+          "carrier": "يُؤْمِنُونَ fiilinin yerel kabul ve doğru sayma anlamı focus taşıyıcısıdır.",
+          "independent_trigger": "13:17, Hak ile batılı köpüğün gitmesi ve yararlı olanın kalmasıyla karşılaştırır; 13:20–25'teki ahit ve bağları sürdürme/bozma eylemleri kabulün devamını görünür kılar.",
+          "activation": "Yerel tasdik, önce kalıcı olanı seçtiren meselle, sonra kabulün ilişki içinde sürdürülüp sürdürülemeyeceğini gösteren dış sahnelerle karşılaşır.",
+          "resulting_reading": "Tasdik ve güven, focus iman kelimesinde birlikte okunabilir; kabul daha sonra sadakat eylemlerinde de sınanır.",
+          "boundary": "Bu reading focus fiilinin kabul anlamını korur; ahit eylemleri psikolojik veya semantik nedeni değil sonucu olabilir."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:17:26",
+            "13:17:30",
+            "13:17:36",
+            "13:20:3",
+            "13:25:8"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2",
+            "13:1:15:1"
+          ],
+          "carrier": "Focus Hakikat taşıyıcısı, inanmanın yöneldiği gerçekliği verir.",
+          "independent_trigger": "13:17'de hak-batıl ayrımı köpüğün kaybolması ve yararlı olanın kalmasıyla görünür; 13:20–25'te ahdin tamamlanması veya çözülmesi bu bağın daha sonraki ilişkisel sonucunu gösterir.",
+          "activation": "Focus Hakikat'i maddi kalıcılık meselinden, inanma taşıyıcısı ise sadakat/ihlal karşıtlığından döner; birlikte bunlar güvenin sürdürülmesini görünür kılar.",
+          "resulting_reading": "İman ile Hakikat, yalnız maddi kalıcılıkta değil, sonraki sadakat ilişkisinde de birbirine bağlanır.",
+          "boundary": "Bu bağ, iki focus kelimesi ile perikop dışı eylemler arasındaki yorumdur; mesel ya da ahitler onların açık sözlük karşılığı değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_6ca55bcfb682070ee03e",
+        "conn_5c531d4caeb45235728a"
+      ],
+      "context_refs": [
+        "13:17",
+        "13:20",
+        "13:21",
+        "13:25"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:book-and-material-test",
+      "origin_candidate_id": "cand_f135184474f332023554",
+      "represented_candidate_ids": [],
+      "title": "Metinsel bütünlük ve maddi sınama",
+      "claim": "Kitab'ın bağlı bir delil bütünü oluşu ile ٱلْحَقُّ'nun maddi bir sınamada kalıcılığının görülmesi, focus'un iki ayrı delil yüzünü birlikte açar.",
+      "mechanism": "13:43'te Kitap bilgisi tanıklıkla yan yana gelirken, 13:17'de Hakikat aynı adla çağrılır ve köpük ile yararlı kalan karşılaştırılır. Bu iki dış tetikleyici, Kitab'ın ilişkili ayetlerini metinsel kanıt; Hakikat'i de maddi sonuçta kalan değer olarak okuma olanağı verir.",
+      "reader_payoff": "Okur, açılıştaki Kitap ve Hakikat ilanının metin içi bağlar ve gözlenebilir kalıcılık üzerinden birlikte nasıl desteklendiğini görür.",
+      "containment": "Bu pairing legacy_unbound retrospektif bir sentezdir. 13:17 meseli açıkça bu Kitap'ı sınadığını söylemez; 13:43'teki tanıklık da her bir ayetin yorumunu tek başına kanıtlamaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_134852e94bd5b2745ea9",
+        "sup_3effbb7ed736a7134d4f",
+        "sup_4cfdffee5252db7b0fdc",
+        "sup_7df0c59dfbc5cbbeed02"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "facet_statement": "Temel işlem, bir şeyi başka bir şeye katarak ikisini bir bütün veya bağlı bir düzen içinde birleştirmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:43:9",
+            "13:43:14",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitab taşıyıcısı birleştirme facet'ini taşır.",
+          "independent_trigger": "Kapanışta şahitlik ve Kitap bilgisinin bir arada anılması, ayetlerin bağlı bir metin oluşturduğu okumasına tetikleyicidir.",
+          "activation": "Birleştirme facet'i, tanıklıkta bilinen Kitap ile opening signs arasında temas kurar.",
+          "resulting_reading": "Kitap, tanıklık ilişkisinde bilinebilen bağlı bir delil bütünü olur.",
+          "boundary": "Bu, 13:43 ile kurulan yorumdur; metnin kendi kendine şahit olduğu iddiası değildir."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:43:14",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitab taşıyıcısı yazılı metin çekirdeğini taşır.",
+          "independent_trigger": "13:43'te Kitap'ın bilgi nesnesi olması ve şahitlikle yan yana gelmesi metnin delil rolünü açar.",
+          "activation": "Yazılı metin, ilişkili ayetlerin bilinebildiği ve tanıklıkla bağlantı kurduğu bir yüzey olur.",
+          "resulting_reading": "Kitap'ın metinsel bütünlüğü delil ilişkisine girer.",
+          "boundary": "Yazı anlamı korunur; tanıklık metnin fail olduğu anlamına gelmez."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "İşlemin ürünü, yazılmış metin veya üzerinde bu metnin bulunduğu sayfa ya da kitaptır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:43:14",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitab, yazılmış metin ürünü olarak taşınır.",
+          "independent_trigger": "Kapanıştaki Kitap bilgisi ve şahitlik, yazılı ürünün bilinen delil olarak iş görmesini tetikler.",
+          "activation": "Metin ürünü facet'i birleşme okumasını eldeki Kitab'a bağlar.",
+          "resulting_reading": "Kitap, bilinebilir ve ilişkili bir delil bütünü olarak okunur.",
+          "boundary": "Bu extension, F001 yazı çekirdeğiyle birlikte tutulur; Kitap yine yazılı üründür."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:17:26",
+            "13:17:30",
+            "13:17:36"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2"
+          ],
+          "carrier": "Focus ٱلْحَقُّ gerçekliğe uygun doğruluk taşıyıcısıdır.",
+          "independent_trigger": "13:17'de aynı hakikat adı, geçici köpük ve yerde kalan yararlı içerikle birlikte anılır.",
+          "activation": "Maddi mesel, focus Hakikat'i kalıcı sonuçta sınanabilen değer olarak karşılar.",
+          "resulting_reading": "Kitap'ın metinsel düzeni ile Hakikat'in kalıcılığı iki ayrı delil yüzü oluşturur.",
+          "boundary": "Bu, iki ayeti birleştiren çıkarımdır; mesel vahyi açıkça adlandırmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_7eba20c56a816611fce4"
+      ],
+      "context_refs": [
+        "13:17",
+        "13:43"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:knowing-the-descended-truth",
+      "origin_candidate_id": "cand_58467dd22af05152f699",
+      "represented_candidate_ids": [],
+      "title": "İman, bilme ve içgörü",
+      "claim": "13:19'da aynen yinelenen iniş-Rab-Hakikat önermesi, focus'taki inanmama karşıtlığını bilme ve içgörü ilişkisi olarak da açar.",
+      "mechanism": "Focus'taki أُنزِلَ, رَبِّكَ ve ٱلْحَقُّ 13:19'da yeniden kurulur; bu kez onu bilen kişi, kör olanla karşılaştırılır ve hatırlama cümleyi tamamlar. Böylece focus iman fiili doğru saymanın yanı sıra tanıyarak görme ve hatırda tutma şeklinde okunur.",
+      "reader_payoff": "Okur, reddi yalnız bilgi cümlesine hayır demek olarak değil, doğruyu tanıma ve hatırlama yolundan kopuş olarak da görebilir.",
+      "containment": "HFT'nin kendi alternatifi canlıdır: bilme ve hatırlama, imanın tanımı değil, önceden inanmanın sonucu olabilir. Bu yüzden okuma focus kabul anlamına eklenir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_4812baccc6fca508e8d1"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001492/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Tanrısal iyilik, ceza veya bildiriyi insanlara ulaştırma",
+          "facet_statement": "Tanrı iyilikleri veya cezaları insanlara verir ve ulaştırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:6:1"
+          ],
+          "trigger_refs": [
+            "13:19:2",
+            "13:19:4",
+            "13:19:8",
+            "13:19:11"
+          ],
+          "focus_return_refs": [
+            "13:1:6:1",
+            "13:1:10:2"
+          ],
+          "carrier": "Focus أُنزِلَ, gönderilme ve ulaştırma taşıyıcısıdır.",
+          "independent_trigger": "13:19 aynı indirilmeyi bilen/kör karşıtlığı içine yerleştirir.",
+          "activation": "Tekrarlanan iniş taşıyıcısı, bilişsel karşıtlığı doğrudan focus vahyine bağlar.",
+          "resulting_reading": "İndirilen Hakikat, tanınabilen bir içerik olarak açılır.",
+          "boundary": "Bu, inanmanın tanımı hakkında contextual bir çıkarımdır; bilme onun sonucu da olabilir."
+        },
+        {
+          "branch_ref": "root_000532/B002",
+          "facet_id": "F001",
+          "branch_gloss": "adım adım yetiştirip tamamlama",
+          "facet_statement": "Süreç, gözetilen şeyi eksik durumdan tamamlanmış duruma doğru geliştirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:9:1"
+          ],
+          "trigger_refs": [
+            "13:19:7",
+            "13:19:2",
+            "13:19:8"
+          ],
+          "focus_return_refs": [
+            "13:1:9:1",
+            "13:1:10:2"
+          ],
+          "carrier": "Focus رَبِّكَ, gözeterek yetiştirme ve tamamlama taşıyıcısıdır.",
+          "independent_trigger": "13:19 aynı Rab kaynağını bilen kişinin aldığı Hakikat ile yan yana tutar.",
+          "activation": "Kaynağın yetiştirici ilişkisi, bilgiyi yalnızca çıplak bilgi değil ilişki içindeki tanıma olarak okutur.",
+          "resulting_reading": "Rab'den gelen Hakikat, tanınma ve yetişme ilişkisi içinde duyulur.",
+          "boundary": "Bu facet, focus Rabb anlamını koruyarak eklenir."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:19:2",
+            "13:19:8",
+            "13:19:11",
+            "13:19:13"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2"
+          ],
+          "carrier": "Focus ٱلْحَقُّ gerçekliğe uygun doğruluk taşıyıcısıdır.",
+          "independent_trigger": "13:19 onu bilen kişi ile iç görüsü körleşen kişiyi karşılaştırır.",
+          "activation": "Aynı Hakikat'in bilgi ve körlük karşıtlığında yinelenmesi focus'un doğruluk önermesini alan kişiye bağlar.",
+          "resulting_reading": "Hakikat, bilinebilen ve içgörüyle tanınan gerçeklik olur.",
+          "boundary": "Bu ilişki, körlüğü bir insan grubuna teşhis etmez; metindeki karşılaştırmayı taşır."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:19:2"
+          ],
+          "trigger_refs": [
+            "13:19:8",
+            "13:19:11",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2",
+            "13:1:15:1"
+          ],
+          "carrier": "13:19:2'deki bilen fiili, supplied Arabic içinde HFT'nin disclosure-to-knowledge rolüne taşıyıcıdır.",
+          "independent_trigger": "Aynı sözün focus Hakikat olarak tekrarı ve körlük karşıtı bağımsız tetikleyicidir.",
+          "activation": "Bilme eylemi, focus Hakikat'in alınma biçimine döner.",
+          "resulting_reading": "İman, tanıma ve bilgi boyutuyla okunabilir.",
+          "boundary": "Kök/dal eşlemesi ve rol HFT'ye atfedilidir; ayrı bir lexicon facet'i üretilmiyor."
+        },
+        {
+          "branch_ref": "root_001049/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:19:11"
+          ],
+          "trigger_refs": [
+            "13:19:2",
+            "13:19:8",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1",
+            "13:1:10:2"
+          ],
+          "carrier": "13:19:11'deki körlük ifadesi, iç algı kaybı rolüyle bağlamsal taşıyıcıdır.",
+          "independent_trigger": "Bilen kişi ve tekrar edilen Hakikat, körlük karşılaştırmasının focus inanç sözüne dönmesini sağlar.",
+          "activation": "Körlük, focus'un Hakikat'e verilen kabul yanıtının karşıt alım biçimi olarak ilişki kurar.",
+          "resulting_reading": "Focus inanmama, içgörüden yoksun kalma olarak da okunur.",
+          "boundary": "Bu, HFT'nin atfedilmiş rolüdür; 13:1'deki muhataplara klinik veya ahlaki teşhis değildir."
+        },
+        {
+          "branch_ref": "root_000516/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:19:13"
+          ],
+          "trigger_refs": [
+            "13:19:2",
+            "13:19:11",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1",
+            "13:1:10:2"
+          ],
+          "carrier": "13:19:13'teki hatırlama eylemi, elde tutulmuş olanı geri getirme rolünü taşıyıcıya verir.",
+          "independent_trigger": "Bilme/körlük karşıtlığı ve focus'un Hakikat'e yanıt fiili bağımsız tetikleyicidir.",
+          "activation": "Hatırlama, anlamayı yalnızca yeni bilgi almak değil geri çağırıp tanımak olarak kurar.",
+          "resulting_reading": "İman, hatırlama ile gerçekleşen tanıma biçimi olarak da anlaşılabilir.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir; hatırlama focus'ta açıkça söylenmiş değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_e7079d58978a3fa72660"
+      ],
+      "context_refs": [
+        "13:19"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:belief-as-covenantal-practice",
+      "origin_candidate_id": "cand_6b268db0d8dfafcbf4a3",
+      "represented_candidate_ids": [],
+      "title": "İmanın ahit ağı olarak yaşanması",
+      "claim": "Focus'taki Kitap, Hakikat ve güven ilişkisi, 13:20-25'te tamamlanan ahit ve bağları sürdürme pratikleriyle birlikte, yaşanan bir bağlılık ağı olarak da okunabilir.",
+      "mechanism": "Focus Kitap'ın katıp birleştirme ve bağlayıcı belirleme facet'leri, focus Hakikat'in hak ediş yönü ve iman fiilinin güven yönü; ahdi tamamlama, sağlamlaştırma, bağ kurma ve karşı kutupta çözme/kesme/yoldan çıkarma eylemleriyle temas eder. Bu bağlam Kitap'ı kabul edilen cümleden yürütülen ilişkiye taşır.",
+      "reader_payoff": "Okur, iman ve inkâr karşıtlığının sonraki ayetlerde bağ kurma, sürdürme ve bozma biçiminde eyleme dönüştüğünü görebilir.",
+      "containment": "HFT kendisi bunun anlamsal genişleme değil, imanın sonraki ahlaki sonucu olabileceğini söyler. 13:20 ve 13:25 bağlantı kayıtları da focus'a ayrı bir kitap/hakikat/iman katkısı bulmaz; bu yüzden okuma attributed contextual resonance olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_d425d4de3380def80fd3"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi başka bir şeye katıp birleştirme",
+          "facet_statement": "Temel işlem, bir şeyi başka bir şeye katarak ikisini bir bütün veya bağlı bir düzen içinde birleştirmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:20:3",
+            "13:21:2",
+            "13:21:8",
+            "13:25:8"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap taşıyıcısı birleşme ve bağlı düzen facet'ini taşır.",
+          "independent_trigger": "13:20'de korunan ahit, 13:21'de bağlanan ilişkiler ve 13:25'teki kesme birbirine zıt ilişki biçimleri sunar.",
+          "activation": "Bağlama/ayırma ilişkileri, focus Kitap'ı sürdürülen bir ağ olarak okutur.",
+          "resulting_reading": "Kitap'ın kabulü, bağlantıları devam ettiren bağlılıkla birlikte görünür.",
+          "boundary": "Bu global uygulama focus Kitap'ı örgütsel bir ağa dönüştüren yorumdur; tek sözlük anlamı değildir."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir işi yapılması gereken bağlayıcı bir yükümlülük olarak belirlemek temel değerlerden biridir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:20:3",
+            "13:20:7",
+            "13:25:3",
+            "13:25:7"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap taşıyıcısı bağlayıcı belirleme facet'ini taşır.",
+          "independent_trigger": "Ahit ve misakın tutulması veya çözülmesi, bağlayıcı yükümlülüğün bağımsız tetikleyicisidir.",
+          "activation": "Focus Kitap anlamı, sonradan yerine getirilen veya bozulan bir yükümlülükle temas eder.",
+          "resulting_reading": "Kitap'ın bağlayıcılığı ilişki ve eylem içinde görünür.",
+          "boundary": "Bu, focus kelimesinin bütün sözlük kullanımlarını bu ayette etkinleştirdiği iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000347/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı gereklilik ve hak ediş",
+          "facet_statement": "Bir şeyin gerekli hale gelmesi, artık kaçınılamayan bir bağlayıcılık doğurur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:20:3",
+            "13:20:7",
+            "13:25:8"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2"
+          ],
+          "carrier": "Focus ٱلْحَقُّ, gerekli ve hak edilen şey yönüne açık taşıyıcıdır.",
+          "independent_trigger": "Ahit, misak ve kesilen bağ, hak/ödev ilişkisini bağımsız biçimde somutlaştırır.",
+          "activation": "Hakikat'in hak ediş yönü, sonraki sözleşme ve yükümlülük diliyle temas eder.",
+          "resulting_reading": "Hakikat, ilişkileri bağlayan bir hak ve yükümlülük olarak da duyulur.",
+          "boundary": "Bu, HFT'nin odak dalına geri dönüş çıkarımıdır; ana doğruluk anlamını değiştirmez."
+        },
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": "F001",
+          "branch_gloss": "guven ve guvenilirlik",
+          "facet_statement": "Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:15:1"
+          ],
+          "trigger_refs": [
+            "13:20:2",
+            "13:20:3",
+            "13:21:2",
+            "13:25:8"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "Focus يُؤْمِنُونَ güven facet'ini taşıyabilecek odak formudur.",
+          "independent_trigger": "Ahdin tamamlanması ve koparılan bağlar, güvenin sürdürülmesini ya da bozulmasını gösteren bağımsız eylemlerdir.",
+          "activation": "Güven taşıyıcısı, sonraki sadakat ve ihlal sahneleriyle ilişki kurar.",
+          "resulting_reading": "İman, ilişkiyi koruyup sürdürme yönüyle de okunabilir.",
+          "boundary": "Bu facet tasdik dalının yerini almaz; güven okuması bağlamdan gelir."
+        },
+        {
+          "branch_ref": "root_001669/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:20:2"
+          ],
+          "trigger_refs": [
+            "13:20:3",
+            "13:21:2",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1",
+            "13:1:4:2"
+          ],
+          "carrier": "13:20:2'deki tamamlama fiili, HFT'nin eksiksiz yerine getirme rolünün taşıyıcısıdır.",
+          "independent_trigger": "Ardından gelen korunan ahit ve focus güven/Kitap dalları tamamlanan yükümlülüğün bağımsız bağlamını verir.",
+          "activation": "Tamamlama, focus güvenini davranışta tutulan sadakate çeviren zincirin ilk eylemidir.",
+          "resulting_reading": "İman, sözün tam yerine getirilmesiyle görünür hale gelir.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir; focus ile bağlantı çıkarımsaldır."
+        },
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:20:3"
+          ],
+          "trigger_refs": [
+            "13:20:2",
+            "13:20:7",
+            "13:25:3",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2",
+            "13:1:15:1"
+          ],
+          "carrier": "13:20:3'teki ahit taşıyıcısı, korunan ve sahibine güvenilen kompakt rolündedir.",
+          "independent_trigger": "Focus Kitap/güven ve sonraki misakın sağlamlığı bağımsız tetikleyicilerdir.",
+          "activation": "Korunan ahit, Kitap'ın bağlayıcı ve ilişki kurucu okumasıyla temas eder.",
+          "resulting_reading": "Kitap'a bağlılık, güvenilen bir ahdi sürdürme olarak da görünür.",
+          "boundary": "Bu, metin içinde kurulmuş bir bağdır; focus sözcüğünün yalın eşanlamı değildir."
+        },
+        {
+          "branch_ref": "root_001543/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:20:6"
+          ],
+          "trigger_refs": [
+            "13:20:7",
+            "13:25:8",
+            "13:1:4:2",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2",
+            "13:1:15:1"
+          ],
+          "carrier": "13:20:6'daki çözme fiili, sağlam kılınmış bağın tersine çevrilmesi rolünü taşır.",
+          "independent_trigger": "Ardından gelen misak ve 13:25'teki kesme eylemi, çözülmenin neyi bozduğunu gösterir.",
+          "activation": "Çözme taşıyıcısı, focus bağlılık ağına karşı kutup oluşturur.",
+          "resulting_reading": "İnkâr, kurulu ilişkiyi çözme eylemiyle de temsil edilir.",
+          "boundary": "Kök/dal kaydı yoktur; bu okuma yalnız HFT'nin atfedilmiş rolü ve konumuna dayanır."
+        },
+        {
+          "branch_ref": "root_001623/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:20:7"
+          ],
+          "trigger_refs": [
+            "13:20:6",
+            "13:21:2",
+            "13:25:8",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:20:7'deki misak, doğrulanmış ve sağlam ahit rolünün taşıyıcısıdır.",
+          "independent_trigger": "Onu çözme ve karşı tarafta bağ kesme eylemleri bağımsız karşıt tetikleyicilerdir.",
+          "activation": "Misakın sağlamlığı, focus Kitap'ın bağlayıcı ilişki okumasına temel olur.",
+          "resulting_reading": "Bağlılık, doğrulanmış bir sözün korunması şeklinde belirginleşir.",
+          "boundary": "HFT root ve role atfedilidir; tarihsel/kurumsal ayrıntı eklenmiyor."
+        },
+        {
+          "branch_ref": "root_001655/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:21:2",
+            "13:21:8"
+          ],
+          "trigger_refs": [
+            "13:20:3",
+            "13:25:8",
+            "13:1:4:2",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2",
+            "13:1:15:1"
+          ],
+          "carrier": "13:21:2 ve 13:21:8'deki bağlantı fiilleri, kesintisiz ardıllık ve ilişki kurma rolünü taşıyıcıdır.",
+          "independent_trigger": "13:20'de ahdi koruma ve 13:25'te bağ kesme, bağlantının yönünü görünür kılar.",
+          "activation": "Bağlantı eylemi, focus güvenini anlık kabulden devam eden ilişkiye taşır.",
+          "resulting_reading": "İman, sürdürülen bağlantılarla yaşanan bir ilişki olabilir.",
+          "boundary": "Kök/dal ve rol HFT'ye atfedilidir; bunun focus kelimesinin tek anlamı olduğu söylenmiyor."
+        },
+        {
+          "branch_ref": "root_001240/B007",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:25:8"
+          ],
+          "trigger_refs": [
+            "13:21:2",
+            "13:21:8",
+            "13:25:15",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2",
+            "13:1:15:1"
+          ],
+          "carrier": "13:25:8'deki kesme fiili, bir bağı koparma rolünün taşıyıcısıdır.",
+          "independent_trigger": "13:21'de kurulan bağlantı ve 13:25'teki bozulma sonucu bağımsız karşılaştırma sağlar.",
+          "activation": "Kesme, focus bağlantılı Kitap/güven okumasının ters yüzünü gösterir.",
+          "resulting_reading": "İnkâr, bağı kesme ile toplumsal ve yapısal kopuş olarak da görünür.",
+          "boundary": "Atfedilmiş HFT rolü focus'a geri bağlanır; ek bağlam veya hüküm ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001154/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:25:15"
+          ],
+          "trigger_refs": [
+            "13:25:8",
+            "13:21:2",
+            "13:1:4:2",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2",
+            "13:1:10:2"
+          ],
+          "carrier": "13:25:15'teki bozulma fiili, sağlam düzenden çıkış rolünü taşır.",
+          "independent_trigger": "Aynı ayette bağ kesme ve 13:21'de bağlantı kurma, bu sonucun bağımsız tetikleyicileridir.",
+          "activation": "Bozulma, focus hak ve Kitap bağlantılarının kesilmesinin sistem sonucu olarak bağlanır.",
+          "resulting_reading": "İnkâr, ilişki ağında dağılma ve bozulma olarak okunabilir.",
+          "boundary": "Bu, HFT'nin atfedilmiş contextual çıkarımıdır; her ahlaki eylem focus iman kelimesinin anlamına yüklenmiyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_6ca55bcfb682070ee03e",
+        "conn_5c531d4caeb45235728a"
+      ],
+      "context_refs": [
+        "13:20",
+        "13:21",
+        "13:25"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:belief-as-settled-remembrance",
+      "origin_candidate_id": "cand_19cb3b847cd13a8ba4ee",
+      "represented_candidate_ids": [],
+      "title": "Hatırlama ile yerleşen güven",
+      "claim": "Focus'taki iman fiili, güvenin hatırlama ile kalpte yerleştiği ve sağlam eyleme dönüştüğü bir süreç olarak da okunabilir.",
+      "mechanism": "13:28'de iman edenler, kalbin tekrarlı biçimde yatışması ve hatırlamayla yan yana getirilir; 13:29 bu güveni iş ve salah ile sürdürür. Böylece focus'taki inanma, yalnız bir kez verilen yanıt değil, hatırlamayla beslenen bir istikrar ve davranış dizisi olur.",
+      "reader_payoff": "Okur, inancı içte sakinleşen ve dışta onarıcı işe yönelen devamlı bir oluş olarak görebilir.",
+      "containment": "HFT, kalp huzurunun imanın sonucu olabileceğini kabul eder. Bu süreç okuması focus'un yerel inanma anlamına eklenir; psikolojik kesinlik veya tek yönlü nedensellik iddiası değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_af9a506ef957548059bf"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B001",
+          "facet_id": "F001",
+          "branch_gloss": "guven ve guvenilirlik",
+          "facet_statement": "Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:15:1"
+          ],
+          "trigger_refs": [
+            "13:28:2",
+            "13:28:3",
+            "13:28:4",
+            "13:28:5",
+            "13:28:8",
+            "13:29:3",
+            "13:29:4"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "Focus يُؤْمِنُونَ güven facet'ini taşıyan formdur.",
+          "independent_trigger": "13:28-29'da aynı iman ifadesi kalp yatışması, hatırlama, iş ve salahla birlikte gelir.",
+          "activation": "Güven taşıyıcısı, kalpte yinelenen istikrar ve ardından gelen eylemle karşılaşır.",
+          "resulting_reading": "İman, hatırlamayla yerleşen ve eylem üreten güven olarak da duyulur.",
+          "boundary": "Yatışma imanın sonucu da olabilir; bu okuma yerel kabul anlamını değiştirmez."
+        },
+        {
+          "branch_ref": "root_000516/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:28:5",
+            "13:28:8"
+          ],
+          "trigger_refs": [
+            "13:28:2",
+            "13:28:3",
+            "13:28:4",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "13:28'deki yinelenen hatırlama ifadeleri, geri çağırıp elde tutma rolünün taşıyıcısıdır.",
+          "independent_trigger": "Aynı cümlede iman ve kalp yatışması, hatırlamanın focus yanıtına nasıl bağlandığını gösterir.",
+          "activation": "Hatırlama, güveni tekrar kuran süreç olarak focus iman fiiline geri döner.",
+          "resulting_reading": "İman, hatırlanan ve yeniden yerleşen bir yöneliş şeklinde okunabilir.",
+          "boundary": "Kök ve bu süreç rolü HFT'ye atfedilidir; focus'ta hatırlama sözcüğü yer almaz."
+        },
+        {
+          "branch_ref": "root_000948/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:28:3",
+            "13:28:10"
+          ],
+          "trigger_refs": [
+            "13:28:2",
+            "13:28:4",
+            "13:28:5",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "13:28'de iki kez geçen kalp yatışması ifadeleri, tekrarlı sükûnet rolünün taşıyıcısıdır.",
+          "independent_trigger": "İman ve hatırlamanın aynı cümle çevresinde yinelenmesi bağımsız tetikleyicidir.",
+          "activation": "Yinelenen yatışma, focus güven facet'ini gerçekleşen iç istikrar olarak açar.",
+          "resulting_reading": "İman, kalpte süreklilik kazanan güveni de barındırır.",
+          "boundary": "HFT'nin root ve rol eşlemesi atfedilidir; sonuç/definition yönü açık tutulur."
+        },
+        {
+          "branch_ref": "root_001248/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:28:4",
+            "13:28:11"
+          ],
+          "trigger_refs": [
+            "13:28:3",
+            "13:28:5",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "13:28'deki iki kalp ifadesi, güvenin yerleştiği iç alan rolünü taşır.",
+          "independent_trigger": "Hatırlama ile kalp yatışmasının tekrar düzeni focus iman fiiline döner.",
+          "activation": "Kalp taşıyıcısı, güveni sözde değil içte yerleşen durum olarak görünür kılar.",
+          "resulting_reading": "İman, iç istikrarı olan güven olarak da okunabilir.",
+          "boundary": "Bu, HFT'nin atfedilmiş contextual rolüdür; kalbe ilişkin ek psikolojik iddia yoktur."
+        },
+        {
+          "branch_ref": "root_001046/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:29:3"
+          ],
+          "trigger_refs": [
+            "13:28:2",
+            "13:28:3",
+            "13:29:4",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "13:29:3'teki çalışma fiili, yerleşen güvenin amaçlı davranışa taşınması rolünü üstlenir.",
+          "independent_trigger": "Önceki iman/kalp dizisi ve hemen ardından gelen salah, çalışma fiilinin yönünü verir.",
+          "activation": "Eylem, focus güvenini sonuç üreten davranışa bağlar.",
+          "resulting_reading": "İman, iç güvenin yanında davranışa geçen bir süreç olur.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir; her eylem focus kelimesinin sözlük anlamı yapılmıyor."
+        },
+        {
+          "branch_ref": "root_000876/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:29:4"
+          ],
+          "trigger_refs": [
+            "13:29:3",
+            "13:28:2",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "13:29:4'teki salah ifadesi, eylemin düzgünlük/onarıcılık yönünün taşıyıcısıdır.",
+          "independent_trigger": "Hemen öncesindeki çalışma fiili ve focus iman formu bağımsız bağ kurar.",
+          "activation": "Salah, yerleşmiş güvenin bozulmayı onaran yönünü belirginleştirir.",
+          "resulting_reading": "İman, onarıcı ve sağlam eyleme yönelir.",
+          "boundary": "Bu, HFT'nin contextual rolüdür; farklı okuma veya psikolojik sonuç elenmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "13:28",
+        "13:29"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:address-without-mechanical-compulsion",
+      "origin_candidate_id": "cand_f53cff11e61062871018",
+      "represented_candidate_ids": [],
+      "title": "Vahiy hitabı ve zorlayıcı gösteri",
+      "claim": "13:31'de dağları yürüten, yeri yaran ve ölülere söz söyleten karşıolgular, focus'taki iman cevabını fiziksel gösteriden otomatik olarak türetmeyen bir hidayet çerçevesi kurabilir.",
+      "mechanism": "Focus iman/inkâr taşıyıcısı, 13:31'deki Kur'an tilaveti ve olağanüstü fiziksel etkiler karşısında, bütün insanları hidayete yöneltmenin Allah'ın dilemesine bağlanmasıyla temas eder. Böylece indirilen söz, işleyen bir fiziksel düzenek değil, muhataba ulaşan hitap olarak da okunur.",
+      "reader_payoff": "Focus'taki çoğunluğun inanmaması, gösterinin yokluğu kadar, hidayetin zorlayıcı bir mekanizma olmamasıyla da birlikte görülebilir.",
+      "containment": "HFT'nin canlı alternatifi, karşıolguların Kur'an'ın gösteri gücünü sınırlamak yerine büyütmesi olabilir. Bu bulgu iletişim ile fiziksel zorlama arasında bir ayrım önerir; işaretlerin delil gücünü reddetmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_4ed6d08deff7c4998047"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:15:1"
+          ],
+          "trigger_refs": [
+            "13:31:3",
+            "13:31:4",
+            "13:31:6",
+            "13:31:8",
+            "13:31:12",
+            "13:31:14",
+            "13:31:27"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "يُؤْمِنُونَ, haber veya hakikati doğru sayıp kabul etme facet'ini taşır.",
+          "independent_trigger": "13:31'de Kur'an'la dağların hareketi, yerin yarılması ve ölülere söz söyletilmesi karşıolgusal biçimde sıralanır; ardından bütün insanlara hidayet ilahi dilemeye bağlanır.",
+          "activation": "Kabul taşıyıcısı, olağanüstü gösteri ile evrensel hidayetin aynı şey olmadığı bir sıraya yerleşir.",
+          "resulting_reading": "İman, gösteriyle mekanik olarak üretilmeyen bir kabul cevabı olarak da okunabilir.",
+          "boundary": "Bu, focus kabul anlamını bırakmaz; karşıolgusal dizinin delil gücünü büyütme alternatifi sürer."
+        },
+        {
+          "branch_ref": "root_000059/B001",
+          "facet_id": "F001",
+          "branch_gloss": "insan türü ve bu türden bir kişi",
+          "facet_statement": "İnsan türünü, insanların oluşturduğu topluluğu veya bu türün tek bir üyesini görünmeyen varlıklar sınıfının karşısında adlandırır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:13:2"
+          ],
+          "trigger_refs": [
+            "13:1:12:1",
+            "13:31:27",
+            "13:31:28"
+          ],
+          "focus_return_refs": [
+            "13:1:13:2",
+            "13:1:15:1"
+          ],
+          "carrier": "Focus ٱلنَّاسِ insan topluluğu taşıyıcısıdır.",
+          "independent_trigger": "13:31'de bütün insanların hidayeti ile focus'ta çoğunluğun inanmaması yan yana gelir.",
+          "activation": "Aynı insan topluluğu, çoğunluk ve evrensel hidayet ufkunda karşılaştırılır.",
+          "resulting_reading": "Focus çoğunluk bildirimi, hidayetin evrensel kapsamı içinde yeniden duyulur.",
+          "boundary": "İnsan topluluğu anlamı korunur; ayetler arasında sayısal bir kimlik iddia edilmiyor."
+        },
+        {
+          "branch_ref": "root_001210/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:31:3"
+          ],
+          "trigger_refs": [
+            "13:31:4",
+            "13:31:6",
+            "13:31:8",
+            "13:31:12",
+            "13:31:14",
+            "13:1:3:1",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:15:1"
+          ],
+          "carrier": "13:31:3'teki Kur'an adı, HFT'nin okunup seslendirilen söylem rolünün taşıyıcısıdır.",
+          "independent_trigger": "Focus'un Kitap ayetleri ve iman cevabı, bu söylemin etkisinin nasıl karşılandığını bağımsız biçimde verir.",
+          "activation": "Söylem, fiziksel sonuçları varsayılan bir hitap olarak focus ayet ve imanla birleşir.",
+          "resulting_reading": "İndirilen söz, etkisi tartışılan hitap olarak da okunur.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir; fiziksel mucize hakkında ek iddia kurulmuyor."
+        },
+        {
+          "branch_ref": "root_000769/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:31:4"
+          ],
+          "trigger_refs": [
+            "13:31:6",
+            "13:31:8",
+            "13:31:14",
+            "13:31:3",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "13:31:4'teki yürütülme, HFT'nin dağları harekete getiren etki rolünü taşır.",
+          "independent_trigger": "Dağ, yer ve ölüler üzerindeki ardışık karşıolgular bağımsız tetikleyicilerdir.",
+          "activation": "Hareket ettirme imgesi, focus işaretlerinin karşıolgusal etki ufkunu büyütür.",
+          "resulting_reading": "İşaret, olağanüstü fiziksel etki düşüncesiyle de karşılaşır.",
+          "boundary": "Bu atfedilmiş bağ, focus işaretlerinin fiziksel dünyayı gerçekten hareket ettirdiği iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000217/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:31:6"
+          ],
+          "trigger_refs": [
+            "13:31:4",
+            "13:31:8",
+            "13:31:14",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "13:31:6'daki dağlar, HFT'nin yüksek ve katı kütle rolünün taşıyıcısıdır.",
+          "independent_trigger": "Yürütülme, yeri kesme ve ölülere söz söyleme ardışıklığı bu kütleyi gösterinin dirençli ucu yapar.",
+          "activation": "Dağ imgesi, focus işaretlerine atfedilen etkinin görünür ve dirençli boyutunu kurar.",
+          "resulting_reading": "Karşıolgusal gösterinin ölçeği büyür.",
+          "boundary": "Dağlar gerçek taşıyıcıdır; focus'taki ayetlerin anlamı dağlara indirgenmiyor."
+        },
+        {
+          "branch_ref": "root_001240/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:31:8"
+          ],
+          "trigger_refs": [
+            "13:31:4",
+            "13:31:6",
+            "13:31:12",
+            "13:31:14",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "13:31:8'deki yeri kesme eylemi, fiziksel bölünme rolünün taşıyıcısıdır.",
+          "independent_trigger": "Dağ hareketi ve ölülerin konuşmasıyla kurulan üçlü sıra bağımsızdır.",
+          "activation": "Yerin yarılması, focus ayetlerinin karşıolgusal gösteri dizisindeki ikinci etki olarak temas eder.",
+          "resulting_reading": "İşaret düşüncesi fiziksel sınırları değiştiren bir imgeye açılır.",
+          "boundary": "HFT'nin atfedilmiş rolüdür; focus için jeolojik bir iddia kurmaz."
+        },
+        {
+          "branch_ref": "root_001316/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:31:12"
+          ],
+          "trigger_refs": [
+            "13:31:4",
+            "13:31:6",
+            "13:31:8",
+            "13:31:14",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "13:31:12'de ölülere söyletilen söz, anlamlı söyleyiş rolünün taşıyıcısıdır.",
+          "independent_trigger": "Yerin kesilmesi ve dağların yürümesiyle aynı karşıolgusal dizide bulunması bağımsız tetikleyicidir.",
+          "activation": "Söz, fiziksel sınır aşıldığında bile hitabın iş görmesi imgesini tamamlar.",
+          "resulting_reading": "Kur'an hitabı, etkisi düşünülen söz olarak görünür.",
+          "boundary": "Bu rol atfedilidir; ölülerin gerçekten konuştuğuna dair ek bir tarihsel sav yoktur."
+        },
+        {
+          "branch_ref": "root_001454/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:31:14"
+          ],
+          "trigger_refs": [
+            "13:31:12",
+            "13:31:8",
+            "13:31:3",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "13:31:14'teki ölüler, yaşam sınırının aşılması rolünü taşıyıcıdır.",
+          "independent_trigger": "Ölülerin konuşması, diğer iki fiziksel dönüşümle beraber gösterinin en uç noktasını kurar.",
+          "activation": "Yaşam sınırını aşan etki, focus iman cevabına bağlanan karşıolgusal gösteriyi tamamlar.",
+          "resulting_reading": "İşaretin etkisi hayal edilebilecek en ileri sınıra kadar götürülür.",
+          "boundary": "HFT'nin atfedilmiş rolüdür; focus inancının mekanik sonucu olarak sunulmaz."
+        },
+        {
+          "branch_ref": "root_001583/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:31:27"
+          ],
+          "trigger_refs": [
+            "13:31:22",
+            "13:31:28",
+            "13:31:3",
+            "13:1:15:1"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1"
+          ],
+          "carrier": "13:31:27'deki hidayet, fiziksel zorlama dışındaki nazik yönlendirme rolünün taşıyıcısıdır.",
+          "independent_trigger": "İman, dileme ve bütün insanların hidayeti aynı son dizide yer alır.",
+          "activation": "Yönlendirme, karşıolgusal fiziksel gösteriden ayrı bir alım biçimi olarak focus iman fiiline döner.",
+          "resulting_reading": "İman, hitabın muhataba ulaşması ve yönelmesiyle de okunabilir.",
+          "boundary": "HFT'nin atfedilmiş rolüdür; ilahi irade hakkında daha geniş bir doktrin eklenmiyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_5e156cea5138f346ea0a"
+      ],
+      "context_refs": [
+        "13:31"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:book-as-timed-register",
+      "origin_candidate_id": "cand_37e94590cb6ed75670c9",
+      "represented_candidate_ids": [
+        "cand_0414fa32c71a56a1d087"
+      ],
+      "title": "Kitap'ın yazı ve zaman kaydı katmanları",
+      "claim": "Focus'taki Kitap, sure ilerledikçe alınan yazı, her ecel için belirlenen kayıt ve silinip sabitlenen kaynak arasında katmanlı bir ilişki olarak da okunabilir.",
+      "mechanism": "Focus Kitap taşıyıcısı yazı ve bağlayıcı belirleme dallarına açıktır. 13:36'da alınan Kitap ve kısmi inkâr, 13:37'de Arapça hüküm, 13:38'de her ecel için bir Kitap, 13:39'da silme, sabitleme ve Ümmü'l-Kitap aynı odağı alım, uygulama, zaman ve kaynak katmanlarına doğru genişletir.",
+      "reader_payoff": "Okur, yazılı metin ile zamanda yürürlüğe giren belirleme arasında bağlantı kuran bir okuma kazanır.",
+      "containment": "Odaktaki definite Kitap ile ecel başına Kitaplar ve kaynak Kitap'ın aynı referent olduğu kanıtlanmıyor; HFT'nin kendisi bu katmanların ayrı kalabileceğini not eder. İlişki global ve çıkarımsaldır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_8358d722a49db0462a75",
+        "sup_ce56a29b374ead9e3c5a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:36:3",
+            "13:37:4",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap, yazı oluşturma çekirdeğinin taşıyıcısıdır.",
+          "independent_trigger": "13:36'da alınan Kitap ve 13:37'deki açık Arapça hüküm yazı/metin katmanını belirginleştirir.",
+          "activation": "Yazı taşıyıcısı, sonraki alım ve artikülasyon biçimleriyle temas eder.",
+          "resulting_reading": "Focus Kitap, alınan ve dile getirilen metin katmanı olarak açılır.",
+          "boundary": "Yazı anlamı sürer; bağlayıcı hüküm ayrı facet'te tutulur."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "İşlemin ürünü, yazılmış metin veya üzerinde bu metnin bulunduğu sayfa ya da kitaptır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:36:3",
+            "13:38:21",
+            "13:39:8"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap, yazılı ürün olarak taşınır.",
+          "independent_trigger": "13:36'daki alınmış Kitap, 13:38'deki her ecel için Kitap ve 13:39'daki Ümmü'l-Kitap yazılı nesne kullanımlarını bağlar.",
+          "activation": "Yazılı ürün facet'i, zaman kaydı ve kaynak metinleriyle aynı formda karşılaşır.",
+          "resulting_reading": "Kitap, metinsel ürün ve zaman kayıtlarının ortak adı olarak da okunabilir.",
+          "boundary": "F002 extension F001 yazı çekirdeğiyle birlikte tutulur; bu kullanım farklı katmanları tek kitap saymaz."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F003",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir olayın payını, ölçüsünü veya gelecekte gerçekleşecek sonucunu önceden belirlemek yazgı yönünü oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:38:20",
+            "13:38:21"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap, bağlayıcı belirleme dalının olası taşıyıcısıdır.",
+          "independent_trigger": "13:38'de her ecel için bir Kitap belirlenmesi, zaman/pay tahsisini açıkça verir.",
+          "activation": "Bağlayıcı belirleme facet'i, focus Kitap'ı zamana bağlı kayda bağlar.",
+          "resulting_reading": "Kitap, belirlenmiş zaman karşılıklarını tutan kayıt olarak genişler.",
+          "boundary": "Bu dal focus'ta sözlükçe seçilmiş tek anlam değildir; belirleme facet'i bağlamla etkinleşir."
+        },
+        {
+          "branch_ref": "root_001283/B003",
+          "facet_id": "F003",
+          "branch_gloss": "bağlayıcı olarak hükme bağlama ve belirleme",
+          "facet_statement": "Bir olayın payını, ölçüsünü veya gelecekte gerçekleşecek sonucunu önceden belirlemek yazgı yönünü oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:39:1",
+            "13:39:5",
+            "13:39:7",
+            "13:39:8"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap, bağlayıcı belirleme dalının taşıyıcısıdır.",
+          "independent_trigger": "13:39'da silme, sabitleme ve Ümmü'l-Kitap aynı kaydın farklı işlemlerini verir.",
+          "activation": "Kaynağın ve alt izlerin işlemleri, focus Kitap'ı zaman içinde yönetilen belirleme olarak okumayı tetikler.",
+          "resulting_reading": "Kitap, değişebilir izler ve yetkili kaynak arasında bir kayıt düzenine bağlanır.",
+          "boundary": "HFT kaynak Kitap ile focus Kitap ilişkisini çıkarım sayar; bunların aynı referent olduğu ileri sürülmüyor."
+        },
+        {
+          "branch_ref": "root_001550/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:36:11"
+          ],
+          "trigger_refs": [
+            "13:36:3",
+            "13:36:12",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:36:11'deki tanımama fiili, HFT'nin kabul etmeme/ayırt edememe rolünün taşıyıcısıdır.",
+          "independent_trigger": "Aynı cümlede Kitap'ı sevinçle alanlar ve onun bir kısmını inkâr edenler karşılaştırılır.",
+          "activation": "Kısmi reddediş, focus Kitap'ın metinsel alımlanma katmanına döner.",
+          "resulting_reading": "Kitap'ın alımlanması farklılaşmış ve parçalı bir süreç olarak görünür.",
+          "boundary": "Bu kök/rol HFT'ye atfedilidir; kaynak ayette morfoloji sağlanmıyor."
+        },
+        {
+          "branch_ref": "root_000133/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:36:12"
+          ],
+          "trigger_refs": [
+            "13:36:11",
+            "13:36:3",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:36:12'deki bir parça ifadesi, inkârın seçici oluşu rolünü taşır.",
+          "independent_trigger": "Kitap'ın alınması ve tanımama aynı bağlamda birbirini sınırlar.",
+          "activation": "Parçalı inkâr, Kitap'ın focus'taki bütününe yönelik alımı ayrıştırır.",
+          "resulting_reading": "Kitap'a verilen yanıt bütün veya parça düzeyinde farklılaşabilir.",
+          "boundary": "Bu, HFT'nin atfedilmiş rolüdür; focus'taki Kitap'ın parçalı olduğu iddia edilmiyor."
+        },
+        {
+          "branch_ref": "root_000348/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:37:3"
+          ],
+          "trigger_refs": [
+            "13:37:4",
+            "13:36:3",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:37:3'teki hüküm, indirilen söylemin uygulanabilir normatif katman rolünü taşır.",
+          "independent_trigger": "Arapça olarak nitelenen hüküm ve focus Kitap'ın yazılı ürünü bağımsız tetikleyicilerdir.",
+          "activation": "Hüküm, focus Kitap'ı yalnız metin değil uygulanabilir düzen olarak yeniden okutur.",
+          "resulting_reading": "Kitap, normatif uygulamaya açılan söylem katmanını da taşır.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir; geniş hukuk sistemi eklenmiyor."
+        },
+        {
+          "branch_ref": "root_000996/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:37:4"
+          ],
+          "trigger_refs": [
+            "13:37:3",
+            "13:36:3",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:37:4'teki Arapça nitelemesi, hükmün dilsel olarak adreslenebilir oluşu rolünü taşır.",
+          "independent_trigger": "Hüküm ifadesi ile focus Kitap'ın alınmış metin yüzeyi bağımsız tetikleyicidir.",
+          "activation": "Artikülasyon, normatif hükmü soyut değil okunur ve adreslenebilir kılar.",
+          "resulting_reading": "Focus Kitap, dil içinde erişilebilir bir düzen olarak da okunur.",
+          "boundary": "HFT rolü bağlama atfedilidir; burada Arapça niteliğine ilişkin ek sav kurulmaz."
+        },
+        {
+          "branch_ref": "root_000016/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:38:20"
+          ],
+          "trigger_refs": [
+            "13:38:21",
+            "13:39:1",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:38:20'deki ecel sözü, belirli zaman sınırı rolünün taşıyıcısıdır.",
+          "independent_trigger": "Hemen ardından her ecel için Kitap denmesi, focus Kitap ile süre tahsisi arasında bağımsız bağ kurar.",
+          "activation": "Zaman sınırı, focus Kitap'ın her bir süreye tahsis edilen kayıt olarak okunmasını tetikler.",
+          "resulting_reading": "Kitap, zamana göre düzenlenen belirlemeye açılır.",
+          "boundary": "Root ve facet kaydı bulunmadığı için rol attributed kalır."
+        },
+        {
+          "branch_ref": "root_001404/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:39:1"
+          ],
+          "trigger_refs": [
+            "13:39:5",
+            "13:39:7",
+            "13:39:8",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:39:1'deki silme fiili, yazılı izin izini kaldırma rolünü taşır.",
+          "independent_trigger": "Sabitleme ve kaynak Kitap'ın aynı ayette yer alması kontrollü değişimi gösterir.",
+          "activation": "Silme, focus Kitap'ı değişebilir kayıt izleriyle temas ettirir.",
+          "resulting_reading": "Kitap'ın ilişkili kayıtları silme ve sürdürme işlemlerine açılır.",
+          "boundary": "Bu, HFT'nin atfedilmiş bir yorumudur; ayetteki silme işleminin nesnesi dışarıdan belirlenmiyor."
+        },
+        {
+          "branch_ref": "root_000192/B006",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:39:5"
+          ],
+          "trigger_refs": [
+            "13:39:1",
+            "13:39:7",
+            "13:39:8",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:39:5'teki sabitleme fiili, doğrulama ve onay rolünün taşıyıcısıdır.",
+          "independent_trigger": "Silme, kaynak Kitap ve her süreye ait yazı kaydı aynı düzen içinde görünür.",
+          "activation": "Sabitleme, focus Kitap'ı kalan izin yetkili biçimde onaylanmasına bağlar.",
+          "resulting_reading": "Kayıt düzeni, silme ile sabitlemeyi eşlik eden işlemler olarak taşır.",
+          "boundary": "Root ve role ilişkin okuma HFT'ye atfedilidir."
+        },
+        {
+          "branch_ref": "root_000053/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:39:7"
+          ],
+          "trigger_refs": [
+            "13:39:1",
+            "13:39:5",
+            "13:39:8",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:39:7'deki kaynak/ana merkez sözü, alt kayıtların referans noktası rolünü taşır.",
+          "independent_trigger": "Silme-sabitleme işlemleri ve hemen ardından gelen Ümmü'l-Kitap, kaynak fikrini bağımsızlaştırır.",
+          "activation": "Kaynak katmanı, focus Kitap'ın diğer belirlemelerle ilişkisini yeniden kurar.",
+          "resulting_reading": "Kitap, türeyen kayıtlara temel olan bir kaynakla birlikte düşünülebilir.",
+          "boundary": "Bu root/rol HFT'ye atfedilidir; Ümmü'l-Kitap'ın teolojik kimliği burada belirlenmiyor."
+        }
+      ],
+      "connection_refs": [
+        "conn_c4247f0003379fa137d6",
+        "conn_347dac910f450d3f3a0c",
+        "conn_2d8b0c3735f5039d46f3",
+        "conn_f6bf482d9704cfdf4b88"
+      ],
+      "context_refs": [
+        "13:36",
+        "13:37",
+        "13:38",
+        "13:39"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:book-as-witnessed-knowledge",
+      "origin_candidate_id": "cand_74614257b492790a4d34",
+      "represented_candidate_ids": [],
+      "title": "Kitap bilgisinin tanıklıkla buluşması",
+      "claim": "Odaktaki Kitap ve Hakikat, 13:43'te elçi hakkındaki inkârı karşılayan yeterli şahitlik ve Kitap bilgisi içinde tanıklık ilişkisine girer.",
+      "mechanism": "Focus Kitap taşıyıcısı, kapanıştaki Kitap bilgisiyle buluşur; şahitlik ve bilen kişi araya girerek Hakikat'i kamusal bir kanıt ilişkisine açar. Açılıştaki işaretler de kapanışta şahitlik imgesiyle yeniden okunabilir.",
+      "reader_payoff": "Okur, Kitap'ı kendi kendini ilan eden kapalı bir nesne olarak değil, bilgisi ve tanıklığı üzerinden erişilen bir delil ilişkisi içinde görür.",
+      "containment": "HFT'nin açık alternatifi, tanıklığın yalnızca Kitap bilen kişiye ait olmasıdır; bu bulgu metni fail veya tanık olarak kişileştirmez. Focus'taki vahiy-Hakikat iddiası yerinde kalır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_4cfdffee5252db7b0fdc"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:43:9"
+          ],
+          "trigger_refs": [
+            "13:43:7",
+            "13:43:14",
+            "13:43:15",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2",
+            "13:1:4:2"
+          ],
+          "carrier": "13:43:9'daki şahitlik, HFT'nin bilgiye dayalı tanıklık rolünün taşıyıcısıdır.",
+          "independent_trigger": "Yeterlilik, bilen kişi ve Kitap aynı kapanışta birleşerek şahitliğin nesnesini belirler.",
+          "activation": "Tanıklık taşıyıcısı focus Hakikat'i kamusal kanıt ilişkisinde görünür kılar.",
+          "resulting_reading": "Hakikat, tanıklık ve bilgi içinde erişilir hale gelir.",
+          "boundary": "HFT root ve rolü atfedilidir; bağımsız lexicon facet'i yoktur."
+        },
+        {
+          "branch_ref": "root_000822/B008",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:43:9"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:43:14",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:4:2"
+          ],
+          "carrier": "13:43:9'daki şahitlik, focus işaretlerine geri bağlanan tanıklık rolünün taşıyıcısıdır.",
+          "independent_trigger": "Focus'taki ayetler ve 13:43'teki Kitap bilgisi tanıklık imgesine ayrı temas noktaları verir.",
+          "activation": "Şahitlik köprüsü kapanış ile açılıştaki ayet/Kitap arasında geri dönüş kurar.",
+          "resulting_reading": "Açılış işaretleri tanıklık imgesi içinde yeniden görünür.",
+          "boundary": "Bu, HFT'nin attributed göstergeli tanıklık rolüdür; ayetlerin literal şahit olduğu söylenmiyor."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:43:14"
+          ],
+          "trigger_refs": [
+            "13:43:9",
+            "13:43:15",
+            "13:1:4:2"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "13:43:14'teki bilgi sözü, HFT'nin bilen kişiye açıklık rolünün taşıyıcısıdır.",
+          "independent_trigger": "Şahitlik ve bilginin nesnesi olan Kitap aynı ifade çevresindedir.",
+          "activation": "Bilme, focus Kitap'ın erişilen bilgi nesnesi olduğunu açıklar.",
+          "resulting_reading": "Kitap bilgisi tanıklığın insan tarafını oluşturur.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir."
+        },
+        {
+          "branch_ref": "root_001310/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:43:7"
+          ],
+          "trigger_refs": [
+            "13:43:3",
+            "13:43:9",
+            "13:1:15:1",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1",
+            "13:1:10:2"
+          ],
+          "carrier": "13:43:7'deki yeterlilik fiili, inkâra yanıtın yetip durması rolünü taşır.",
+          "independent_trigger": "Elçi hakkındaki inkârı şahitliğin karşılaması focus'taki inanmama karşıtlığına bağımsız bağ kurar.",
+          "activation": "Yeterlilik, tanıklığın reddi cevaplayan yönünü focus Hakikat ve iman/inkâr ilişkisine döndürür.",
+          "resulting_reading": "Focus'un karşıt kabulü, yeterli tanıklık ilişkisi içinde yeniden düşünülür.",
+          "boundary": "HFT'nin root/rol eşlemesi attributed; bu bir galibiyet veya teolojik kesinlik iddiası değil."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "Temel işlem, harfleri yazıyla düzenleyip bir metin oluşturmak veya var olan metni kopyalamaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:43:15",
+            "13:43:14"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap, yazı oluşturma ve metin çekirdeğini taşır.",
+          "independent_trigger": "Kapanışta Kitap bilginin açıkça nesnesi olur.",
+          "activation": "Yazılı metin facet'i, focus taşıyıcısını kapanıştaki bilgi ilişkisine bağlar.",
+          "resulting_reading": "Kitap, bilinebilen yazılı metin olarak tanıklık düzenine girer.",
+          "boundary": "Yazı çekirdeği korunur; tanıklığı bilen kişi verir."
+        },
+        {
+          "branch_ref": "root_001283/B002",
+          "facet_id": "F002",
+          "branch_gloss": "yazma ve yazılı metin",
+          "facet_statement": "İşlemin ürünü, yazılmış metin veya üzerinde bu metnin bulunduğu sayfa ya da kitaptır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:4:2"
+          ],
+          "trigger_refs": [
+            "13:43:15",
+            "13:43:14"
+          ],
+          "focus_return_refs": [
+            "13:1:4:2"
+          ],
+          "carrier": "Focus Kitap, yazılı ürün olarak taşınır.",
+          "independent_trigger": "13:43'te Kitap, bilen kişinin bilgisinin nesnesi olarak anılır.",
+          "activation": "Yazılı ürün, bilgi ve tanıklığın referans aldığı nesne olur.",
+          "resulting_reading": "Kitap'ın yazılı ürün anlamı tanıklık ilişkisine katılır.",
+          "boundary": "F002 extension, aynı dalın F001 yazı çekirdeğiyle birlikte korunur."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:43:3",
+            "13:43:7",
+            "13:43:9",
+            "13:43:14",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2"
+          ],
+          "carrier": "Focus ٱلْحَقُّ, gerçekliğe uygun doğruluk taşıyıcısıdır.",
+          "independent_trigger": "Elçi hakkındaki inkâr ve onu cevaplayan şahitlik, Hakikat'in kamusal sınamasını kurar.",
+          "activation": "Hakikat, yalnız dile getirilmiş iddia değil, tanıklık ilişkisine açılan içerik olur.",
+          "resulting_reading": "Focus Hakikat, bilen ve şahit olanlar üzerinden görünür olur.",
+          "boundary": "Bilen kişi tanıktır; Hakikat'in kendisi kişi gibi konuşmaz."
+        },
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:3:1"
+          ],
+          "trigger_refs": [
+            "13:43:9",
+            "13:43:15"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:4:2"
+          ],
+          "carrier": "Focus آيَاتُ, bir şeyi tanıtan görünen belirtiler taşıyıcısıdır.",
+          "independent_trigger": "Kapanıştaki şahitlik imgesi ve Kitap bilgisi, açılış işaretlerine bağımsız geri dönüş sağlar.",
+          "activation": "Görünen işaret, tanıklık ve bilgi ilişkisiyle yeniden temas eder.",
+          "resulting_reading": "Açılıştaki ayetler tanıklık imgesinde de okunur.",
+          "boundary": "Bu, HFT'nin atfedilmiş bağlantısıyla uyumlu bir focus dalıdır; işaretlerin literal şahit olduğu iddia edilmiyor."
+        },
+        {
+          "branch_ref": "root_000054/B002",
+          "facet_id": "F001",
+          "branch_gloss": "dogru sayip kabul etme",
+          "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:15:1"
+          ],
+          "trigger_refs": [
+            "13:43:3",
+            "13:43:7",
+            "13:43:9",
+            "13:43:14"
+          ],
+          "focus_return_refs": [
+            "13:1:15:1",
+            "13:1:10:2"
+          ],
+          "carrier": "Focus يُؤْمِنُونَ, doğru sayıp kabul etme facet'ini taşır.",
+          "independent_trigger": "Kapanışta elçi inkâr edilir ve yeterli şahitlik ile Kitap bilen kişinin bilgisi bu inkârı karşılar.",
+          "activation": "Kabul/ret taşıyıcısı, focus'ta açıklanan Hakikat'in tanıklıkla karşılanmasıyla temas eder.",
+          "resulting_reading": "İnanç karşıtlığı tanıklık ve bilginin nasıl alındığına bağlanır.",
+          "boundary": "Bu, HFT'nin contextual okumasıdır; reddedenlerin nedenini açıklayan tek okuma değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_7eba20c56a816611fce4"
+      ],
+      "context_refs": [
+        "13:43"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:sign-as-waiting-station",
+      "origin_candidate_id": "cand_2f3fd5c5358209a5086e",
+      "represented_candidate_ids": [],
+      "title": "İşaret önünde bekleme",
+      "claim": "Ayet ve iniş kelimeleri, bekleme ve konaklama dallarıyla karşılaştığında, işaretleri karşısında durulup sonuçları beklenen bir istasyon olarak da düşündürür.",
+      "mechanism": "Focus ayet taşıyıcısı için bekleyip durma dalı, iniş taşıyıcısı için konak yeri dalı, focus içindeki işaret ile gönderilmeyi aynı bekleme sahnesine getirir. 13:2 ve 13:38'deki süre sınırları, 13:17'deki köpükten sonra kalan yarar, bu sahneye zaman ve sabır ölçüsü verir.",
+      "reader_payoff": "Okur, işaretleri anında çözülen kanıtlar olarak değil, kalıcı olan belirene dek dikkatle kalınan duraklar olarak da duyabilir.",
+      "containment": "Bekleme dalı olağan isim anlamından biçimce uzaktır; HFT bunu sözlük tanımı değil, focus kelimelerinin açtığı zamansal bir okuma pratiği olarak sınırlar. 13:17 genel bir hak-batıl meselidir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_7df0c59dfbc5cbbeed02"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bekleyerek oyalanma",
+          "facet_statement": "Kisi veya sey hareketi erteleyip durur, oyalanir ya da bekler.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "13:1:3:1"
+          ],
+          "trigger_refs": [
+            "13:1:6:1",
+            "13:17:36",
+            "13:2:17"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "Focus آيَاتُ, root'un bekleyip durma dalına bağlanan taşıyıcıdır.",
+          "independent_trigger": "Aynı açılışta inişin bir konak yeri olarak duyulması ve 13:17'de kalıcılığın bekleme sonrası görünmesi bağımsız tetikleyicidir.",
+          "activation": "İşaret ve durak temas edince, ayetler karşısında bekleyip kalma pratiği ortaya çıkar.",
+          "resulting_reading": "İşaret, dikkat gerektiren bir bekleme yeri gibi de duyulur.",
+          "boundary": "Bu benzetimsel bağ, ayah adının sözlük anlamını bekleme yapmaz."
+        },
+        {
+          "branch_ref": "root_001492/B003",
+          "facet_id": "F001",
+          "branch_gloss": "konaklama yeri veya bulunulan derece",
+          "facet_statement": "İnilen ve kalınan yer, ev, durak veya su başı olarak adlandırılır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "13:1:6:1"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:17:36",
+            "13:38:20"
+          ],
+          "focus_return_refs": [
+            "13:1:6:1",
+            "13:1:3:1"
+          ],
+          "carrier": "Focus أُنزِلَ, kökün konaklama/durak facet'ine dönen taşıyıcıdır.",
+          "independent_trigger": "Focus ayetlerinin bekleyerek durma okuması ve bağlamdaki süre kayıtları inişe kalınan yer boyutu ekler.",
+          "activation": "İniş taşıyıcısı, işaret önünde kalınan bir durakla karşılaşır.",
+          "resulting_reading": "İndirilen, okurun durup kalabildiği bir istasyon imgesi açar.",
+          "boundary": "Bu, fiilin yer anlamına döndüğünü ileri sürmez; facet analogical olarak uygulanır."
+        },
+        {
+          "branch_ref": "root_000016/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:2:17"
+          ],
+          "trigger_refs": [
+            "13:1:3:1",
+            "13:1:6:1",
+            "13:17:36"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:6:1"
+          ],
+          "carrier": "13:2:17'deki ecel, süreyi belirleyen sabit sınır rolünü taşır.",
+          "independent_trigger": "Focus işaret/durak taşıyıcıları ve 13:17'de kalıcılığın bekleme sonrası görünmesi bağımsız tetikleyicidir.",
+          "activation": "Süre sınırı, focus işaretlerinin anlık değil zamana yayılan okunmasını destekler.",
+          "resulting_reading": "İşaretler süre içinde beklenen duraklar olarak okunabilir.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir; bağımsız lexicon dalı yoktur."
+        },
+        {
+          "branch_ref": "root_001437/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:17:36"
+          ],
+          "trigger_refs": [
+            "13:17:26",
+            "13:17:30",
+            "13:1:3:1",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:10:2"
+          ],
+          "carrier": "13:17:36'da yerde kalan yarar, HFT'nin türbülans sonrası kalma/sabır rolünün taşıyıcısıdır.",
+          "independent_trigger": "Aynı ayette köpüğün gidişi ve Hakikat adı, kalıcılık için bağımsız karşılaştırma sağlar.",
+          "activation": "Kalma eylemi, focus işaret ve Hakikat'ini sabırla okuyup kalıcı sonucu görme pratiğine bağlanır.",
+          "resulting_reading": "İşaretin anlamı, geçici köpükten sonra kalan yararla görülebilir.",
+          "boundary": "HFT rolü attributed ve HFT'nin kendi containment'ı gibi sözlük tanımı değildir."
+        },
+        {
+          "branch_ref": "root_000016/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:38:20"
+          ],
+          "trigger_refs": [
+            "13:38:21",
+            "13:1:3:1",
+            "13:1:6:1",
+            "13:17:36"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:6:1"
+          ],
+          "carrier": "13:38:20'deki ecel, süre sınırı rolünü taşır.",
+          "independent_trigger": "Her ecel için Kitap ve focus işaret/durak taşıyıcıları, zamansal aşamalandırmayı bağımsız biçimde destekler.",
+          "activation": "Tekrar edilen süre sınırı, işaret ve inişin anlık değil zaman içinde okunduğu pratiği güçlendirir.",
+          "resulting_reading": "Focus işaretleri belirlenmiş zaman içinde beklenerek okunabilir.",
+          "boundary": "Kök ve HFT rolü attributed; focus ayahın sözlük anlamı değildir."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:17:26",
+            "13:17:30",
+            "13:17:36",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2",
+            "13:1:3:1"
+          ],
+          "carrier": "Focus ٱلْحَقُّ, gerçekliğe uygun doğruluk taşıyıcısıdır.",
+          "independent_trigger": "13:17'de Hakikat adı, köpükten sonra kalan yararlı içerikle aynı meselde görünür.",
+          "activation": "Focus Hakikat, bekleyiş sonrasında kalan şeyle temasa girer.",
+          "resulting_reading": "İşaret önünde bekleme, kalıcı hakikati seçilebilir kılar.",
+          "boundary": "Mesel genel hak-batıl ayrımıdır; focus'a uygulanışı exploratory'dir."
+        }
+      ],
+      "connection_refs": [
+        "conn_2d8b0c3735f5039d46f3"
+      ],
+      "context_refs": [
+        "13:2",
+        "13:17",
+        "13:38"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:grounded-signs-and-unsupported-names",
+      "origin_candidate_id": "cand_42b26c2d5e21c36482b8",
+      "represented_candidate_ids": [],
+      "title": "Dayanağı olan işaret ve adsız iddia",
+      "claim": "Focus'taki görünen ayetler ve gerçekliğe uygun Hakikat, 13:33'teki adlandırma, bilgi ve yüzey sözleriyle karşılaşınca, dayanağı olan gösterge ile süslenmiş fakat bilinmeyen referent arasındaki farkı görünür kılar.",
+      "mechanism": "Focus'un ayet taşıyıcısı bir şeyi gösteren belirtiyi, ٱلْحَقُّ taşıyıcısı gerçekliğe uygunluğu verir. 13:33'te ortak koşulanları adlandırma çağrısı, onlar hakkında bilgi sorusu, yüzey söz ve süslenmiş düzen aynı ilişkiyi yoklar: ad, bildirdiği şeyle nasıl bağ kuruyor?",
+      "reader_payoff": "Okur, işaretin gücünü yalnız bir ad taşımasında değil, gösterdiği şeyin bilinir ve gerçeklikle bağlı olmasında görür.",
+      "containment": "İşaret-ad karşıtlığı HFT'nin şaşırtıcı çıkarımıdır; focus'taki her yanlış adın dilbilgisel olarak inkârla özdeş olduğunu söylemez. 13:33 yüzey söz ve süsleme için ayrı açıklamalar da sunabilir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Bağlam ayetlerinin Arapçası ve HFT kelime konumları sağlanıyor; kök ve rol eşlemesi legacy_unbound kaldığı için okuma bağlama dayalı ve nitelikli tutuluyor."
+      },
+      "support_ids": [
+        "sup_3819972b7233824c51bd"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000074/B003",
+          "facet_id": "F001",
+          "branch_gloss": "gorunen belirti",
+          "facet_statement": "Temel anlam, bir seyi tanitan veya ona delalet eden gorunen belirtidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:3:1"
+          ],
+          "trigger_refs": [
+            "13:33:13",
+            "13:33:15",
+            "13:33:18",
+            "13:33:22",
+            "13:33:24",
+            "13:33:26"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "Focus آيَاتُ, tanıtan ve gösteren belirti taşıyıcısıdır.",
+          "independent_trigger": "13:33'te ortakların adını söyleme, onları bildirip bilme ve yalnız görünür/yüzey söz olup olmadığı sorgulanır.",
+          "activation": "Gösterge taşıyıcısı, adın referentle bağını sorgulayan bağlamla temas eder.",
+          "resulting_reading": "Focus işaretleri dayanağı ve bilinirliği olan gösterge olarak da duyulur.",
+          "boundary": "Bu, bütün adlandırmaların hatalı olduğunu söylemez; focus dalının görünür belirti facet'i korunur."
+        },
+        {
+          "branch_ref": "root_000347/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gerçekliğe uygun, kesin doğruluk",
+          "facet_statement": "Gerçekte var olana uygun düşen şey doğru ve sağlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "13:1:10:2"
+          ],
+          "trigger_refs": [
+            "13:33:13",
+            "13:33:18",
+            "13:33:22",
+            "13:33:24",
+            "13:33:26"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2",
+            "13:1:3:1"
+          ],
+          "carrier": "Focus ٱلْحَقُّ, gerçekte var olana uygun doğruluk taşıyıcısıdır.",
+          "independent_trigger": "13:33, adlandırılan varlıkların bilinip bilinmediğini ve sözün yalnız görünüşte olup olmadığını sorar.",
+          "activation": "Gerçekliğe uygunluk, odak Hakikat ile isimlerin dayanağını sorgulayan bağlam arasında temas kurar.",
+          "resulting_reading": "Hakikat, referentle karşılığı olan gösterge olarak okunabilir.",
+          "boundary": "Bu bağ, her yanlış adın focus'taki inkârla aynı dilsel olgu olduğu iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:33:13"
+          ],
+          "trigger_refs": [
+            "13:33:15",
+            "13:33:18",
+            "13:1:3:1",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:10:2"
+          ],
+          "carrier": "13:33:13'teki adlandırma buyruğu, HFT'nin designation rolünün taşıyıcısıdır.",
+          "independent_trigger": "Ardından bilgi ve görünür söz sorgulanır; focus ayet/Hakikat referent taşıyıcısı sağlar.",
+          "activation": "Adlandırma, focus işaretlerin gösterme işlevine karşılaştırmalı bir soru yöneltir.",
+          "resulting_reading": "Bir adın referentini taşıyıp taşımadığı okunur hale gelir.",
+          "boundary": "Bu, adı geçen varlıkların kimliği hakkında dış bilgi eklemez."
+        },
+        {
+          "branch_ref": "root_001464/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:33:15"
+          ],
+          "trigger_refs": [
+            "13:33:13",
+            "13:33:18",
+            "13:33:22",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1",
+            "13:1:10:2"
+          ],
+          "carrier": "13:33:15'teki haber verme fiili, HFT'nin yalnız label değil bilgi taşıma rolünün taşıyıcısıdır.",
+          "independent_trigger": "Adlandırma, bilme ve görünüş sözleri aynı soruda karşı karşıya gelir.",
+          "activation": "Haber taşıyıcısı, focus'un delil işaretini bilgi getiren gösterge olarak düşündürür.",
+          "resulting_reading": "İşaretin bildirdiği şeyin bilgiyle bağlanması önem kazanır.",
+          "boundary": "HFT root ve rolü attributed; ek haber içeriği belirlenmiyor."
+        },
+        {
+          "branch_ref": "root_001040/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:33:18"
+          ],
+          "trigger_refs": [
+            "13:33:13",
+            "13:33:15",
+            "13:33:22",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2",
+            "13:1:3:1"
+          ],
+          "carrier": "13:33:18'deki bilme fiili, HFT'nin açıklık/bilgi rolünün taşıyıcısıdır.",
+          "independent_trigger": "Adlandırılan ortaklar için bilgi bulunup bulunmadığının sorulması bağımsız tetikleyicidir.",
+          "activation": "Bilgi, focus Hakikat'in gerçekliğe uygunluk facet'ine geri bağlanır.",
+          "resulting_reading": "Gösterge ile onun hakkında bilinebilen gerçeklik birlikte düşünülür.",
+          "boundary": "Kök ve rol HFT'ye atfedilidir; muhatabın ne bildiği eklenmiyor."
+        },
+        {
+          "branch_ref": "root_000970/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:33:22"
+          ],
+          "trigger_refs": [
+            "13:33:13",
+            "13:33:18",
+            "13:33:24",
+            "13:33:26",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "13:33:22'deki görünüş sözü, HFT'nin yalnız dış/yüzeyde kalan anlatım rolünü taşır.",
+          "independent_trigger": "Adlandırma, bilgi ve süsleme aynı bağlamda yüzey ifadesine karşı konur.",
+          "activation": "Yüzey taşıyıcısı, focus işaretlerinin gösterdiği gerçeklikle karşıtlaşır.",
+          "resulting_reading": "Dayanaksız görünüş sözleri ile anlamlı göstergeler ayrışır.",
+          "boundary": "Bu, HFT'nin attributed karşılaştırmasıdır; bütün sözleri değersiz saymaz."
+        },
+        {
+          "branch_ref": "root_001272/B014",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:33:12",
+            "13:33:24"
+          ],
+          "trigger_refs": [
+            "13:33:13",
+            "13:33:18",
+            "13:33:22",
+            "13:1:3:1"
+          ],
+          "focus_return_refs": [
+            "13:1:3:1"
+          ],
+          "carrier": "13:33:12 ve 13:33:24'teki söyleyiş biçimleri, HFT'nin bir şeyin kendi işareti ile sözü karşılaştırma rolünü taşır.",
+          "independent_trigger": "Ad verme buyruğu ve yüzey söz sorgusu, bu söyleyişlerin ayrı işlevini görünür kılar.",
+          "activation": "Söz/işaret karşıtlığı focus ayetinin gösterge facet'ine geri döner.",
+          "resulting_reading": "Bir gösterge ile yalnız söylenen ad arasındaki fark belirginleşir.",
+          "boundary": "Root/dal ve rol HFT'ye atfedilidir; başka sözlük kullanımları eklenmiyor."
+        },
+        {
+          "branch_ref": "root_000660/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "13:33:26"
+          ],
+          "trigger_refs": [
+            "13:33:13",
+            "13:33:18",
+            "13:33:22",
+            "13:1:10:2"
+          ],
+          "focus_return_refs": [
+            "13:1:10:2"
+          ],
+          "carrier": "13:33:26'daki süsleme fiili, HFT'nin temelsiz kuruluşu görünüşte ikna edici kılma rolünü taşır.",
+          "independent_trigger": "Bilgi eksikliği, yüzey söz ve Hakikat'in gerçekliğe uygunluğu bağımsız tetikleyicilerdir.",
+          "activation": "Süsleme, adlandırmanın referent yerine görünüşe dayanabilme biçimini açıklar.",
+          "resulting_reading": "Dayanağı olmayan ad, süslenmiş yüzey olarak da okunabilir.",
+          "boundary": "HFT'nin attributed inference'ı; her yanlış inanç için genel psikolojik açıklama değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "13:33"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment 17/17 birimi çözüyor; bu packet içinde unresolved analiz birimi yok.",
+    "HFT context kayıtları exact Arabic ve word index sağlıyor, ancak context morphology vermiyor. Unresolved context root/role eşleşmeleri bu nedenle attributed tutuldu; bağımsız lexicon gloss/facet icat edilmedi.",
+    "candidate_inventory içinde semantic_obligations alanı veya kararlı obligation_ref bulunmuyor. Yeni obligation ID uydurulmadı; retained HFT trace rolleri, before/after değişimleri ve containment metin içinde doğrudan korundu.",
+    "Legacy HFT ve reader-walk kimliği güvenilmez provenance düzeyinde; 13:19 ve sonraki ayetlerle kurulan okumalarda alternatifler açık bırakıldı ve epistemic durum qualified/exploratory olarak işaretlendi."
+  ]
+}

@@ -1,0 +1,189 @@
+# V5 reading invitation — 32:18
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s032-regular-20260919/s032/32_18/32_18.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s032-regular-20260919/s032/32_18/32_18.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Karşılaştırmanın kuruluşu
+
+32:18, {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan} diye nitelenen kişiyle {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} diye niteleneni karşılaştırır; ardından {ar:لَّا يَسْتَوُۥنَ, tr:lā yastawūna, gloss:denk değiller} hükmünü verir. Böylece soru iki kişi türünün denk olup olmadığını ortaya koyar; ayetin bildirme kipindeki cevabı karşılaştırmayı kapatır.
+
+Karşılaştırma, önceki söyleme bağlanan sonuç fâsıyla başlar: {ar:أَفَمَن, tr:a-fa-man, gloss:öyleyse kim}. Soru başındaki hemze bu bağı eşitlik hakkında bir meydan okumaya çevirir. Önceki sözün içeriği burada verilmediği için fâ belirli bir önermeyi tamamlamaz; soruyu sürmekte olan söylemin devamı gibi duyurur. Hemze ile fânın {ar:مَن, tr:man, gloss:kim}den önce tek kısa vuruşa sıkışması bu devamı ani kılar. Bildirme kipindeki {ar:لَّا يَسْتَوُۥنَ, tr:lā yastawūna, gloss:denk değiller} yerel soru-cevap hareketini tamamlar; benzer soru kalıplarıyla kurduğu ilişki biçimsel düzeyde kalır.
+
+İlk {ar:مَن, tr:man, gloss:kim} belirli bir kişiyi değil, bu nitelemeye açık bir kişi sınıfını kurar; ardından gelen belirsiz mansub etken ortaç {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan}, {ar:كَانَ, tr:kāna, gloss:olmak} sonrasında bu sınıfı doldurur. İkinci {ar:مَن, tr:man, gloss:kim} aynı açık çerçeveyi yineler. {ar:كَمَن, tr:ka-man, gloss:bir kimse gibi} yüzeyinde kâf ile man bitişir; man'ın sonundaki geniz sesi ikinci karşılaştırma tarafını tek, sıkı bir giriş gibi duyurur. Ses sıkılığı, ikinci man'ın kâf tarafından yönetilmesini değiştirmez: bu taraf bağımsız bir sıralama değil, ilk kola bağlı karşılaştırmadır. Kendi {ar:كَانَ, tr:kāna, gloss:olmak} cümlesinin öznesi olarak kalır; {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} ise onun yüklemini tamamlar. İki açık kişi sınıfı benzer dilbilgisel biçimde yan yana gelir, fakat içerik farkı yüklemlerinde kalır.
+
+İki {ar:كَانَ, tr:kāna, gloss:olmak} da geçmiş biçimli aynı bağ fiilidir: her biri ardından gelen sıfatı bir durum olarak kurar ve iki kolu aynı dilbilgisel çerçevede tutar. Durumları somutlaştıran, IV. bâbdaki {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan} ile I. bâbdaki {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} ortaçlarıdır; ikisi de belirsiz mansub etken ortaç olarak kendi kolunu doldurur. Bu nedenle karşılaştırma soyut eylemlerden çok kişi durumları üzerindedir. İtaat sınırından çıkma adı ahlaki yönü belirler; niyet ve sonraki eylem ayrıca belirtilmez, bağ fiili de tek başına bir akıbet kurmaz. İlk ortaçtaki hemzenin kısa gırtlak kesintisi o sıfatı karşılaştırma kalıbına geçmeden ayrı bir vuruş gibi belirginleştirir; bu işitsel vurgu odağı toplar, anlam farkını ise yüklemler taşır.
+
+Bu karşıtlığın tabanı iki sıfatın olağan anlamıdır; aynı zamanda her biri başka bir anlam yönünü duyurabilir. IV. bâbın {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan} biçimi, sözlükte korkunun karşıtı olan güven, iç yatışıklık ve eminlik alanına da uzanır. Ayrı {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} sıfatıyla kurulan karşılaştırmada bu güven, başkasına verilen güvenceden ziyade kişinin içinde taşıdığı eminlik olarak belirginleşir. Öteki tarafsa buyruk ve itaate bağlı sınırdan uzaklaşmanın ahlaki basıncını taşır. Böylece olağan kişi karşıtlığı korunurken, içeriden tutulan güven ile itaate bağlılıktan uzaklaşma aynı karşılaştırmada duyulur.
+
+Kâfın kurduğu benzerlikten hükme geçişi {ar:لَّا, tr:lā, gloss:değil} başlatır: uzun ünlüsü fiilden önce ayrı bir işitsel iniş verir ve dinleyen önce olumsuzluğu duyar. {ar:يَسْتَوُۥنَ, tr:yastawūna, gloss:eşit olurlar} çoğul özneye bağlı, bildirme kipindeki şimdiki ya da geniş zaman fiilidir; geçişsiz VIII. bâb biçimi iki tarafı ortak bir ölçüde tartar. Bu yüzden kapanış bir yasak değil bildiridir; yadsıma eşitlikle sınırlıdır. Tekil kişi başlıklarından çoğul fiile geçiş, iki örneği sınıf düzeyinde ortak hükmün öznesi yapar; kapanışın işitilen ritmi de bu geçişi tamamlar. {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi}deki ıslıklı s sesinin ardından qāfın sert kapanışı, uzun lā'dan önce pürüzlü bir kenar duyurup karşıtlığı işitsel olarak keskinleştirir; sözcüklerin olağan anlamı yorumun dayanağı olarak kalır.
+
+Olağan yargı iki durumu eşitlik ölçüsünde karşılaştırır. Daha ihtiyatlı bir imgeyse, ayrı {ar:كَانَ, tr:kāna, gloss:olmak} cümlelerinde kurulan bu durumların aynı ölçekte işlemeyebileceğini düşündürür: {ar:كَمَن, tr:ka-man, gloss:bir kimse gibi} onları karşılaştırmaya alır, son olumsuzluksa ortak bir düzlemde denk durmadıklarını duyurabilir. Bu ek imge {ar:يَسْتَوُۥنَ, tr:yastawūna, gloss:eşit olurlar} fiilinin geçişsiz eşitlik anlamını ve yön bildirmeyen hüküm niteliğini koruyarak karşılaştırmayı aynı düzlemde yer almama fikrine genişletir.
+
+Bu ortak ölçü imgesi, aynı söz ailesinin 32:4 ve 32:9'daki iki ayrı kullanımından mevki ve oluşmuş bütünlük çağrışımı kazanır. 32:4'te {ar:ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ, tr:istawā ʿalā l-ʿarsh, gloss:arşın üzerinde yerleşti} arş üzerinde olmayı bildiren yer tamlayıcısıyla kurulur; 32:9'da {ar:سَوَّىٰهُ, tr:sawwāhu, gloss:onu düzgün ve tam hâle getirdi} nesnesini düzgün ve tam hâle getiren ayrı bir biçimdir. Bunlar aynı fiilin tekrarı değil, aynı söz ailesinin yerleşme ve oluşturma yönlerini taşıyan farklı biçimleridir. Bu biçim ayrılığı korunarak, bir okur {ar:يَسْتَوُۥنَ, tr:yastawūna, gloss:eşit olurlar} hükmünü iki ayrı mevkiyi ya da oluşmuş bütünlüğü paylaşmayan durumlar gibi duyabilir: iki {ar:كَانَ, tr:kāna, gloss:olmak} cümlesi her durumu bir duruş noktası gibi kurar; {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan}ın inanma ve kabul yönü içeriden tutulan bütünlük çağrışımı ekler; eşitliğin reddi de ortak biçimin bulunmadığını duyurur. Böylece söz ailesi yankısı olağan eşitlik yargısını mevki ve bütünlük imgesiyle genişletir; {ar:يَسْتَوُۥنَ, tr:yastawūna, gloss:eşit olurlar}ın geçişsiz eşitlik anlamı okunur kalır. Bu bağlantı 32:4'ün yer tamlayıcısını ya da 32:9'da biçim verilen nesneyi iki kişi sınıfına yüklemez; onları gerçek bir mekân, meyve kabuğu veya bedensel kusur olarak tanımlamaz ve tek başına hukukî hüküm ya da herkesin değeri hakkında yargı kurmaz.
+
+## Hareket ve varış
+
+Bu soyut karşılaştırmanın yanında 32:15 başka bir ölçek açar: ayetler hatırlatıldığında {ar:خَرُّوا۟ سُجَّدًا, tr:kharrū sujjadan, gloss:secdeye kapanıp yere yöneldiler}. İnanç burada aşağı doğru yönelen beden ve teslimiyetle görünür olur. Bu bedensel yanıt, {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan} adının doğru sayıp kabul etme yönünü yaşanan bir teslimiyet hareketine genişletebilir. Secde 32:15'in açık sahnesidir; onu 32:18'deki sıfata bağlayan yorum, “inanan”ın sözlük anlamını değiştirmek yerine bu ayetler arasında eylem yönünde bir yankı kurar.
+
+32:16'da iki ayrı dışa yöneliş vardır: {ar:تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ, tr:tatajāfā junūbuhum ʿani l-maḍājiʿ, gloss:yanları yataklardan uzaklaşır} bedenin yataktan ayrılmasını, {ar:وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ, tr:wa mimmā razaqnāhum yunfiqūn, gloss:kendilerine verilen rızıktan harcarlar} ise alınmış kaynağın dışarı verilmesini anlatır. Bu iki hareket, aynı kökün dar bir başka kullanımına temas eder: I. bâbın farklı çekimli biçimi {ar:فَسَقَتِ الرُّطْبَةُ عَنْ قِشْرِهَا, tr:fasaqat ar-ruṭabatu ʿan qishrihā, gloss:taze hurma kabuğundan çıktı}, yalnızca taze hurmanın kendi kabuğundan çıkışını anlatır. Burada fiziksel çıkışın öznesi hurmadır; 32:18'deki {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} ise ahlaki kişi türünü adlandırır. Bu kök yankısı hareketin kendisini değil, hareketin bağlılık ve varış yönünü öne çıkarır: 32:16'da inananların yanları ve harcadıkları rızık dışarı yönelirken güven ilişkisi sürer, 32:19'daki sığınak da bedenle malın ulaştığı yeri gösterir. Bu bağlantı, yataktan kalkmayı ya da infakı itaati terk etmekle özdeşleştirmez; iki sahne arasındaki katkısı, çıkışın yönünü ve ulaştığı sonucu belirginleştirmesidir.
+
+Bu yönelimin varışı 32:19'da iman edip iyi işler yapanlar için sunulan {ar:جَنَّٰتُ ٱلْمَأْوَىٰ, tr:jannātu l-maʾwā, gloss:me'vâ bahçeleri} ve {ar:نُزُلًا, tr:nuzulan, gloss:hazırlanmış konuk ağırlaması} ile belirir. Bahçe güvenli sığınak ve karşılanma yerini, konuk ağırlaması varışın niteliğini kurar; aynı ayette {ar:ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ, tr:āmanū wa ʿamilū aṣ-ṣāliḥāt, gloss:iman edip iyi işler yapanlar} ifadesinde imanla salih işlerin yan yana gelişi kabulün eylemde görünmesini sağlar. Böylece 32:19 bağlamında amel kabulün sonucu ve göstergesidir, {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan} sözcüğünün tek başına sözlük anlamı değil; bahçe ile konuk ağırlaması da bu sıfatın tanımı değil, güvenin karşılık bulduğu sahnedir. Yataktan ve alınan kaynaktan dışarı yönelen hareket böylece misafir gibi karşılanılan sığınağa varır; güven de bu hareketi yöneten ilişkinin niteliği olur.
+
+Bu güven ilişkisi başka bir biçimde 32:11'de görünür: ölüm meleği için {ar:وُكِّلَ بِكُمْ, tr:wukkila bikum, gloss:size vekil kılındı} denir. Bu görevlendirme, emanetin üstlenilmesi ve güvenilir biçimde taşınması için bağlamsal bir model sunar; {ar:كَانَ, tr:kāna, gloss:olmak} fiilinin belirli birleşik yapılarda başkası adına sorumluluk üstlenme ve güvence verme yönü taşıyan özel kullanımından ayrıdır. 32:18'deki iki kāna olağan bağ fiili olarak kalır. Yine de tek bir okur bu ayrı bağlamı güveni emanet gibi taşıma fikrine açabilir: {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan}ın güven rengi emanetin güvenilir biçimde taşınmasını, {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi}nin de hurmanın kabuğundan çıkışına ait dar imgesi bu güven sınırından sıyrılmayı çağrıştırır. Bu, 32:11'de açık olan görevlendirmeye dayanan atfedilmiş ve keşifsel bir okumadır; odakta bağ fiili ile kişi karşıtlığı kendi olağan anlamlarında kalır.
+
+32:19'daki karşılanmanın karşısında 32:20 ateşle kuşatılmış bir barınak sunar; burada {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} ahlaki kişi anlamını taşır. Hurmanın kabuğundan çıkışını anlatan {ar:فَسَقَتِ الرُّطْبَةُ عَنْ قِشْرِهَا, tr:fasaqat ar-ruṭabatu ʿan qishrihā, gloss:taze hurma kabuğundan çıktı} dar aynı-kök imgesi, dışarı çıkış yönünü 32:20'de ateşten çıkmak isteyenlerin geri döndürülmesiyle karşılaştırılabilir kılar: {ar:كُلَّمَآ أَرَادُوٓا۟ أَن يَخْرُجُوا۟ مِنْهَآ أُعِيدُوا۟ فِيهَا, tr:kullamā arādū an yakhrujū minhā uʿīdū fīhā, gloss:ne zaman oradan çıkmak isteseler oraya geri döndürülürler}. 32:20 sahnesinde meyve yoktur; bağlantı hurmayı ateş sahnesine eklemek yerine çıkış isteğinin geri dönüşle kesilmesini belirginleştirir. Ardından 32:20'deki {ar:ذُوقُوا۟ عَذَابَ ٱلنَّارِ ٱلَّذِي كُنتُم بِهِۦ تُكَذِّبُونَ, tr:dhūqū ʿadhāba n-nāri l-ladhī kuntum bihī tukadhdhibūn, gloss:inkâr ettiğiniz ateş azabını tadın} hitabı, daha önce inkâr edilen şeyi yaşanan cezaya dönüştürür. Bağlamsal bir okumada bu kapalı döngü, 32:18'deki karşılaştırmanın cezalandırıcı tarafında kapanan hareketi gösterir. 32:19'daki {ar:جَنَّٰتُ ٱلْمَأْوَىٰ, tr:jannātu l-maʾwā, gloss:me'vâ bahçeleri} ile 32:20'deki {ar:مَأْوَىٰهُمُ ٱلنَّارُ, tr:maʾwāhum an-nār, gloss:barınakları ateştir} ortak barınak adını paylaşır; çevrelerindeki eylemler varışları ayırır: birinde 32:19'un {ar:نُزُلًا, tr:nuzulan, gloss:hazırlanmış konuk ağırlaması} ile düzenlenen konukluk, ötekinde her çıkış isteğinin ateşe dönüşle karşılanması vardır. Bu kök analojisi her çıkışı itaati terk etmeyle özdeşleştirmeden, 32:18'deki {ar:لَّا يَسْتَوُۥنَ, tr:lā yastawūna, gloss:denk değiller} hükmünü ayrı karşılanma ve kuşatılma biçimleriyle görünür kılar.
+
+Bu kapanmış döngüden sonra 32:21'de azap, “belki dönerler” amacıyla anılır; 32:22'de ise hatırlatmadan yüz çevirenlere yönelik uyarı sürer. {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} sözcüğü kişiyi adlandırmaya devam ederken, itaat sınırından ayrılma yönü daha ileri bir reddedişten önceki olası dönüş ihtimaliyle birlikte duyulabilir. 32:21'deki çoğulun 32:18'deki iki sınıfa dönüp dönmediği bağlamsal bir çıkarımdır; ayet kendisi için bir dönüş yolu tarif etmez. Bu olasılık, ayrı varışların öncesine dönüş imkânının bulunduğu bir an ekler.
+
+## Eşitliğin görünür biçimleri
+
+Hareket ve varış sahnelerinden sonra eşit olmama hükmü başka ayetlerde duyular ve yön bulma üzerinden algılanabilir biçim kazanır. 6:122'de ölü iken diriltilip ışık verilen, ışıkla yürüyen kişi karanlıkta kalıp çıkamayanla karşılaştırılır; 13:19'da vahyin gerçeğini bilme körlükle, 11:24'te kör ve sağır olma görme ve işitmeyle, 35:19'da körlük görmeyle karşı karşıya gelir. 40:58 bu algı farklarına iman edip iyi iş yapanlarla kötülük yapanların karşılaştırmasını da ekler. Bu ayrı sahneler (6:122, 13:19, 11:24, 35:19, 40:58) {ar:لَّا يَسْتَوُۥنَ, tr:lā yastawūna, gloss:denk değiller} hükmünü görme, işitme, bilme ve hidayet ışığında ilerleyebilme gibi yaşantısal farklarla somutlaştırır; eşitlik reddinin başka bağlamlarda nasıl algılanabildiğini gösterir. Bu bağlantı 32:18'deki iki sınıfı kör, sağır, ölü ya da ışıkta yürüyen kişiler olarak yeniden adlandırmaz.
+
+32:25, algılanan farkı gelecekteki yargı ve ayrımla görünür kılabilecek bir ufuk açar: {ar:يَفْصِلُ بَيْنَهُمْ, tr:yafṣilu baynahum, gloss:aralarını ayırıp hükme bağlar} kıyamet gününde taraflar arasında ayrılmayı, hükmü ve ihtilafın ayrışan yönlerini anlatır. Tek bir okur bu ayrılmayı odaktaki denk olmama hükmünün ileride görünür olabileceği nitelikli bir yargı sınırı olarak duyabilir; 32:25'teki ihtilaf daha geniş olduğundan ayet, 32:18'in iki sınıfını yargılanan taraflar olarak tanımlamaz.
+
+32:25'teki ayrılma ile 32:26'da önceki nesillerin meskenlerinde yürümenin yan yana gelişi, yargı ihtimalini ortak insan dünyasına taşır ve yaşanmış iki durumun birbirinin yerine geçirilebilir olup olmadığını sorar. Bu okuma {ar:كَانَ مُؤْمِنًا كَمَن كَانَ فَاسِقًا, tr:kāna muʾminan ka-man kāna fāsiqan, gloss:inanan kişi itaat sınırından çıkan kişi gibi midir} karşılaştırmasını yaşanmış durumların değiştirilebilirliği bakımından duyar. Böylece soru ortak insan dünyasında durumların yer değiştirebilirliğini açar; bu yorum {ar:لَّا يَسْتَوُۥنَ, tr:lā yastawūna, gloss:denk olmazlar} fiilini “öteki” ya da “yerine geçen” diye çevirmeden ve metne yaşam öyküsü eklemeden ilerler.
+
+## Yaşanmış durumun zamanı
+
+Durumların birbirinin yerine geçip geçemeyeceği sorusu zamana da uzanır. 32:14, 32:17, 32:19, 32:20 ve 32:24'te olma bildirimleri eylem ve kesinlikle birlikte yinelenir. Özellikle 32:17 ve 32:19'daki işler ile 32:24'te ayetlere kesinlikle yönelen sabırlı önderler, {ar:كَانَ, tr:kāna, gloss:olmak} cümlelerine yaşanan tutumları özetleyen bir ses verebilir. Böylece iki bağ fiili cümlesi kişi sınıflarını bir anlık ada indirgemeden yaşanmış durumu da çağrıştırır.
+
+Bu zaman ve eylem yönü, inanan adının doğru sayıp kabul etme anlamıyla 29:2'de başka bir karşılık bulur: ayet, insanların “inandık” demekle sınanmadan bırakılacaklarını sanıp sanmadığını sorar. Böylece yalnız beyan değil, sınanma içindeki cevap da bu duruma yaşanmış biçim verebilir. Yakındaki ayetlerin amel ve kesinliği inanmanın sözlük anlamına dönüşmez; aynı şekilde {ar:كَانَ, tr:kāna, gloss:olmak} odakta hafif bir bağ fiili olarak kalır.
+
+32:23 ve 32:24'teki sahne yaşanmışlık fikrine kuşku ile kesinlik arasında bir karşılaştırma ekler: 32:23'te Musa'yla buluşma konusunda kuşku, 32:24'te ayetlere kesinlik vardır. {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan}ın korkudan eminlik ve iç güven alanı, {ar:لَّا يَسْتَوُۥنَ, tr:lā yastawūna, gloss:denk değiller} sözünün 32:4'teki {ar:ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ, tr:istawā ʿalā l-ʿarsh, gloss:arşın üzerinde yerleşti} ve 32:9'daki {ar:سَوَّىٰهُ, tr:sawwāhu, gloss:onu düzgün ve tam hâle getirdi} kullanımlarından geri çağrılan yerleşme ve oluşmuşluk yankısıyla buluşabilir. Bu keşfe dayalı okuma yerleşmişlik ile tereddüdü karşılaştırır; biçimce uzak yalpalama imgesi de kararsızlığı somutlaştırır. Bu karşılaştırma 32:23'teki kuşkuyu itaati terk etmenin nedeni yapmaz; 32:24'teki kesinlik ayetlere yönelişinde kalır. İki sahne 32:18'in sınıflarını yeniden adlandırmadan, olağan eşitlik yadsımasını da duyulur tutar.
+
+Bu yaşanmış durumun ne zamana kadar karşılık bulabileceği 32:28 ve 32:29'daki açılış sorusuyla başka bir zaman eşiğine taşınır. 32:28'de “bu açılış ne zaman?” diye sorulur; 32:29 ise açılış gününde inkâr edenlere imanlarının yarar sağlamayacağını ve onlara mühlet verilmeyeceğini bildirir. Bu soru-cevap, odaktaki {ar:كَانَ, tr:kāna, gloss:olmak} ile {ar:مُؤْمِنًا, tr:muʾminan, gloss:inanan} biçimini yeniden duyurabilir: sonradan gelen tasdik, cevap imkânı sürerken yaşanmış bir durumdan ayrılır; açılış, aradaki imkânı kesen bir an olur. 32:18 bu zamanlamayı açıkça belirtmediği için bu, tek bir okurun nitelikli çıkarımıdır. 32:29'da sonradan gelen imanın yarar sağlamamasını samimiyet eksikliği ya da zorlama ihtimali de açıklayabilir.
+
+32:29'daki mühletin kalktığı açılıştan ayrı bir güvenlik karşılığı, korkunun ardından güvenlik vaat eden 24:55'te görünür: {ar:مِنْ بَعْدِ خَوْفِهِمْ أَمْنًا, tr:min baʿdi khawfihim amnan, gloss:korkularının ardından güvenlik}. Aynı bağlamdaki {ar:وَمَن كَفَرَ بَعْدَ ذَٰلِكَ فَأُولَٰئِكَ هُمُ ٱلْفَٰسِقُونَ, tr:wa-man kafara baʿda dhālika fa-ulāʾika humu l-fāsiqūn, gloss:bundan sonra inkâr edenler fasıkların ta kendileridir} sözü, itaati terk etme niteliğini alınmış güvenin ardından gelen reddedişe bağlar. Böylece yalnız 24:55'in kendi bağlamında güvenlikten sonraki inkâr emniyet ilişkisini belirginleştirir; bu sıra her itaati terk eden kişi için önceden alınmış güvenlik öyküsü kurmaz ve 32:18'deki olağan kişi karşıtlığını açık tutar.
+
+Güven sorusu topluluğa taşındığında 49:6 başka bir ayrım kurar: {ar:فَاسِقٌ, tr:fāsiqun, gloss:itaat sınırından çıkan kişi} haber getirdiğinde onu araştırıp doğrulamak, bilmeden bir topluluğa zarar verip pişman olmamak için istenir. 49:6'daki {ar:فَتَبَيَّنُوا, tr:fa-tabayyanū, gloss:iyice araştırıp doğrulayın} buyruğu, inanan ile itaati terk eden kişi karşıtlığını kişiler arası güven ilişkisine taşır: bir yanda haberin doğrulanması, öte yanda sözün zarar doğurabilmesi vardır. Bu sahnede araştırma, her haberin yanlış ya da inananın kendiliğinden güvenilir olduğu varsayımına değil, topluluğu koruyan cevaba yönelir.
+
+## Çıkışın yönü
+
+Toplumsal güven sahnesinden ayrı olarak 32:27 başka bir taşıyıcıya, çorak toprağa yönelir: su toprağa sürülür {ar:نَسُوقُ ٱلْمَاءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ, tr:nasūqu l-māʾa ilā l-arḍi al-juruz, gloss:suyu çorak toprağa süreriz} ve onunla ekin çıkarılır {ar:فَنُخْرِجُ بِهِۦ زَرْعًا, tr:fa-nukhriju bihi zarʿan, gloss:onunla ekin çıkarırız}; bu ekin insanların ve hayvanların yiyeceği olur. 32:27'nin su, toprak ve ekin dizisi dışarı yönelen hareketin hayat veren ürünle sonuçlanabileceğini gösterir. Burada ekin çıkarma için kullanılan fiil, 32:18'deki {ar:فَاسِقًا, tr:fāsiqan, gloss:itaat sınırından çıkan kişi} sözcüğüyle aynı kökten gelmez; hurmanın kabuğundan çıkışını anlatan {ar:فَسَقَتِ الرُّطْبَةُ عَنْ قِشْرِهَا, tr:fasaqat ar-ruṭabatu ʿan qishrihā, gloss:taze hurma kabuğundan çıktı} dar I. bâb kullanımı ise bu kökle bağlantılıdır. Tek bir okurun kurduğu analoji, bu iki ayrı çıkış sahnesinde taşıyıcı ilişki ile sonucu birlikte düşündürür: suyun vardığı toprak hayat veren ürün sağlar. Böylece ekolojik imge olağan kişi anlamını korurken, çıkışın niteliğini ulaştığı sonuca göre de düşündürür.
+
+32:27'deki hayat veren ürünün karşısında 5:37 ve 22:22 ateşten çıkışın başarısız olduğu yönü gösterir. 5:37'deki {ar:يَخْرُجُوا۟ مِنَ ٱلنَّارِ, tr:yakhrujū mina n-nār, gloss:ateşten çıkmaları} sözü çıkma girişimini, 22:22 ise her çıkış isteğinin yeniden ateşe dönüşle karşılanmasını anlatır. Bu ayrı sahneler (5:37, 22:22), dışarı yönelen hareketin varış yeri ve geri çevrilip çevrilmemesine bağlı olarak yeniden kuşatılabileceğini gösterir; ateş bu karşı imgenin parçası olarak kalır, 32:18'in kişilerine yüklenmez. Buradaki çıkış fiilleri hurmanın kabuğundan çıkışına ait {ar:فَسَقَتِ الرُّطْبَةُ عَنْ قِشْرِهَا, tr:fasaqat ar-ruṭabatu ʿan qishrihā, gloss:taze hurma kabuğundan çıktı} biçiminden başka bir köktendir.
+
+</editorial_prose>

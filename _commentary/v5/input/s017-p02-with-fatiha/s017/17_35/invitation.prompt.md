@@ -1,0 +1,199 @@
+# V5 reading invitation — 17:35
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p02-with-fatiha/s017/17_35/17_35.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p02-with-fatiha/s017/17_35/17_35.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Ölçünün İki Usulü
+
+Âyet, ölçtüğünüzde ölçüyü tam yapmayı ve düzgün terazide tartmayı buyurur: {ar:إِذَا, tr:idhā, gloss:ne zaman} {ar:كِلْتُمْ, tr:kiltum, gloss:ölçtüğünüzde} {ar:ٱلْكَيْلَ, tr:al-kayla, gloss:ölçüyü} eksiksiz tamamlayın; {ar:وَ, tr:wa, gloss:ve} tartma buyruğuna da uyun. Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} önceki söylemle bağı açık tutar; bu kesit hangi önceki buyruğun sürdürüldüğünü belirlemez. Hemen ardından gelen {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın} somut ölçme işini başlatır; ortadaki {ar:وَ, tr:wa, gloss:ve} ise {ar:زِنُوا, tr:zinū, gloss:tartın} emrini yanına getirir. İki emir ritimde eşleşir, hacim ölçüsü ile tartmayı ayrı usuller olarak düzenler.
+
+Ölçüyü tamamlama buyruğunun biçimi, eylemi doğrudan ölçünün kendisine bağlar. {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın} bir şeyi gereği gibi ve eksiksiz yerine getirmeyi bildirir; IV. bâbın çoğul muhataplara yöneltilmiş emridir. Doğrudan nesnesi {ar:ٱلْكَيْلَ, tr:al-kayla, gloss:ölçme} sözcüğüdür: bu isim-mastar hem hacim ölçüsünü hem ölçme işini adlandırır, dolayısıyla tamamlanması istenen şey belirli bir mal değil ölçme eyleminin kendisidir. Aynı ölçme ailesi {ar:كِلْتُمْ, tr:kiltum, gloss:ölçtüğünüzde} fiilinde yeniden duyulur. Fiilin ortasındaki zayıf yâ görünür biçimde düşerek şeklini kısaltsa da isimle fiil arasındaki bağ sürer; bu yerel yankı biçim bağını duyurur, yeni bir sözlük anlamı kurmaz. {ar:إِذَا, tr:idhā, gloss:ne zaman} yükümlülüğü her ölçme gerçekleştiğinde devreye sokar. Çoğul hitap eylemi muhataplara verir; böylece genel eksiksizlik, her ölçümde tamamlanması gereken fiilî göreve dönüşür. Uygulamanın yeri ve sıklığı, herkesin aynı anda davranacağı kurumsal düzen, ölçü birimi ve alışverişin tarafları açık kalır.
+
+Tartma buyruğu, tartılacak nesneyi ayrıca adlandırmadan farklı mallara açık bir işlem alanı bırakır. {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} öbeği tartma aracını gösterir. {ar:زِنُوا, tr:zinū, gloss:tartın} fiilinin tartma işiyle ve araç bildiren bi- ile kurduğu ilişki, qistās’ı tartılan ikinci nesne değil fiziksel terazi yapar. Böylece terazi, dürüst niyetin yanında miktarı özel tahmine bırakmadan sınamaya elverişli ölçülebilir bir dayanak sağlar. Ayet terazinin modelini ve ölçü birimini belirtmez. Qistās sözcüğünün kökeni ve seslendirilmesi, ödünçleme olup olmadığı ve adalet köküyle ilişkisi kesin değildir; bu etimolojik belirsizlik, buradaki tartı aracı anlamını değiştirmez.
+
+Terazinin niteliği, ölçümün doğrultusunu da belirginleştirir. {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve şaşmayan} sözcüğü dik durma ve düzgünlük imgesini aracın hizasına taşır. Form X ortaç biçimindeki sıfat {ar:ٱلْقِسْطَاسِ, tr:al-qisṭāsi, gloss:terazi} sözcüğüne dilbilgisel olarak bağlanır; bu uyum düzgünlüğü yalnız tartan kişinin niyetine değil terazinin kendisine yükler. Fiziksel ölçümde şaşmayan doğrultu böylece işlemin parçası olur. Burada sıfat terazinin fiziksel hizasını niteler; yol çağrışımı Fâtiha 1:6’nın ayrı bağlamında belirir. Terazinin yapısı ve ölçü birimi belirtilmez.
+
+Ölçü ile tartma ayrı yöntemler olarak ilerler; yan yana gelişleri tam teslimi yeniden sınanabilir kılar. {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın} ölçülen miktarın tam karşılanmasını ister; {ar:كِلْتُمْ, tr:kiltum, gloss:ölçtüğünüzde} bu işi yinelenen her ölçme anına bağlar. Ardından {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} ayrı bir tartma denetimi getirir ve {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} bu ikinci işlemi bağımsız bir standarda bağlar. Ölçü sözcüğünün yiyeceği standart bir kapla belirleyen kullanımı, hacim ölçüsünü tanıdık bir alışveriş işlemine yaklaştırır; yiyecek örneği işlemi somutlaştırır, ayet belirli bir malı tayin etmez. Hacimce ölçülen miktar, tartılan ağırlık ve dış standart birlikte tam teslimi sınanabilir kılar; miktar ile ağırlık özel tahminden bağımsız karşılaştırılır. Mal, ölçü birimi ve alışverişin tarafları belirtilmez.
+
+## İşlemin Vardığı Yer
+
+İki ayrı emir tamamlandığında kapanış sözü okuru uygulamanın bütününe döndürür. {ar:ذَٰلِكَ, tr:dhālika, gloss:işte bu} her iki buyruğu birlikte gösterir ve ardından gelen iki yargının ortak konusu yapar. Uzak işaret biçimi, tamamlanan işe geriye dönüp dikkatle bakma etkisi verebilir; bu, biçimin sağladığı sınırlı vurgudur. Dhālika yeni bir talimat eklemek yerine iki işlemi birlikte değerlendirmeye açan geriye bakış noktası olarak iş görür.
+
+Bu bütünün ilk niteliği olumlu bir değer yargısıdır. {ar:خَيْرٌ, tr:khayrun, gloss:iyi ve arzu edilir}, ölçüyü tamamlamayı ve doğru tartmayı iyi bir davranış olarak niteler; bu olumlu yargı belirli bir hile ya da kötü eylemle karşıtlık kurmaz. Aradaki {ar:وَ, tr:wa, gloss:ve}, {ar:أَحْسَنُ, tr:aḥsanu, gloss:daha iyi} yargısını aynı uygulamaya ekler. İkinci değerlendirme ilkinin yerini almaz: khayr’ın olumlu değerini korurken karşılaştırmalı yeni bir nitelik getirir. Aḥsanu’nun “daha iyi” oluşu, sondaki {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç ve akıbet} ile birlikte düşünüldüğünde değerlendirmeyi işlem doğruluğundan uygulamanın varacağı sonuca da taşır. Bu güzellik görünüşe değil davranışın değerine aittir; belirli bir ödül ya da karşılık vaat edilmez.
+
+Sonuç sözcüğünün cümledeki görevi, değerlendirmeyi işlem anından varış noktasına taşır. {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç ve akıbet} mansup mastar olarak {ar:أَحْسَنُ, tr:aḥsanu, gloss:daha iyi} yargısının hangi yönden daha iyi olduğunu belirtir. Böylece doğruluk hem tartma anında hem işlemin varacağı yerde değerlendirilir. Sözcüğün buradaki baş anlamı sonuç veya akıbettir; bir işin dönüp vardığı yere ilişkin sınırlı yankı bu anlamı derinleştirir. Bu bağlamda yorumlama anlamını öne çıkaran bir söylem işareti yoktur ve belirli bir dünyevî ya da uhrevî netice adlandırılmaz.
+
+Ortak fiziksel standart, sonuç yargısına değerleri kıyaslama yönünde başka bir çağrışım ekleyebilir. {ar:ٱلْكَيْلَ, tr:al-kayla, gloss:ölçme} ve {ar:كِلْتُمْ, tr:kiltum, gloss:ölçtüğünüzde} hacmi; {ar:زِنُوا, tr:zinū, gloss:tartın}, {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} ve {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve şaşmayan} miktarları aynı fiziksel eksende karşılaştırmayı taşır. Düzlük sıfatının bağlı olduğu kelime ailesinde bedel biçmeye uzanan bir kullanımın bulunması, bu ortak ölçüyü alışveriş değerinin ağırlıkla kıyaslanması yönünde düşündürebilir. Yerel sıfat terazinin düz ve şaşmayan oluşunu anlatırken {ar:خَيْرٌ, tr:khayrun, gloss:iyi} ile {ar:أَحْسَنُ, tr:aḥsanu, gloss:daha iyi} değer yargıları kıyaslama boyutunu ekler. Bu özel bağ, fiyat belirleyen veya gerçek bir pazarlık sahnesi kuran okuma değil, değer kıyasına açılan bir çağrışımdır; ayet fiyatı, parayı, tarafların ne verip aldığını ya da üçüncü bir denetçiyi adlandırmaz.
+
+Değer kıyasından ayrı olarak, tartma ilişkisi denk ağırlıkta bir sikke benzetmesini düşündürebilir. {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} buyruğu ile {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} ve {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve şaşmayan} standardı, miktarın fazla ya da eksik kalmamasını görünür kılar; “denk sikke” bu eşitliği eşit ağırlık imgesiyle somutlaştırır, ayette para birimi belirtilmez. Hacim ölçüsünün {ar:ٱلْكَيْلَ, tr:al-kayla, gloss:ölçme} ve {ar:كِلْتُمْ, tr:kiltum, gloss:ölçtüğünüzde} biçimlerinde yinelenmesi, {ar:خَيْرٌ, tr:khayrun, gloss:iyi} ile {ar:أَحْسَنُ, tr:aḥsanu, gloss:daha iyi} yargılarının seçenekler arasında kıyaslama olarak da okunmasına alan açar. Seçeneklerin hangileri olduğu ya da bir seçim yapıldığı belirtilmez; bu ikinci çağrışım fiziksel tartma buyruğunun yanına eklenen bir imge olarak kalır.
+
+Emirlerin sırası, ölçme anından değerlendirilen sonuca uzanan zamansal bir okuma getirir. {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın} ile başlayan görev, {ar:إِذَا, tr:idhā, gloss:ne zaman} {ar:كِلْتُمْ, tr:kiltum, gloss:ölçtüğünüzde} koşulunda her ölçüm anında tamamlanacak bir edimdir. Doğruluğun sonradan düzeltmeden çok işlem anında gerekli oluşu, atfedilmiş bir buluşma benzetmesi doğurur; bu zamanlama gerçek bir randevu sahnesi kurmaz. {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} sıralı işi sürdürür ve {ar:أَحْسَنُ, tr:aḥsanu, gloss:daha iyi} ile {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç} değerlendirmelerinden önce gelir; tartma böylece sonuca varmadan önceki aşama olur. Taʾwīlan’ın bağlı olduğu anlam alanındaki başlangıç yönü bu sırayla buluşunca âyete başlangıçtan sonuca uzanan bir yay imgesi ekleyebilir; sözcüğün kendisi başlangıç demek değildir. Sonuç ve geri varış yönü ilk işlemi vardığı yerden değerlendirmeyi düşündürür; standart da işlem boyunca sonuca dek ne ölçüde gerçekleştiği bakımından kıyaslanabilir. Bu okuma belirli bir netice vaat etmez ve azami çaba buyruğu kurmaz.
+
+Zamansal okumaya ek olarak, yinelenen ölçme koşulu standardı işlem boyunca sürdürme sorumluluğu için başka bir benzetme sunar. {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve şaşmayan} terazinin sabit hizasını niteler; {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın} ve {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} emirlerinin her {ar:إِذَا, tr:idhā, gloss:ne zaman} {ar:كِلْتُمْ, tr:kiltum, gloss:ölçtüğünüzde} tekrarında uygulanması bu hizayı işlem boyunca koruma düşüncesini açar. Ölçüyü tamamlama ile ayrı tartı standardı, dürüst niyetin yanında gereken miktarın eksiksiz teslimini öne çıkarır. Taʾwīlan için sağlanan işi üstlenip yürütme yönü, süreci sonuna dek gözetme benzetmesini besler; sonuç adı, alıcının kimliğini değil işi yürüten muhatapların vardığı yeri anlatır. Bu görev imgesi belirli bir gözetmeni, sahiplik ya da emanet kaydını, belirli bir alıcıyı veya sonraki alıcıyı, yeniden satışı kurmaz; fiyat ve sonraki devir de belirtilmez.
+
+Sorumluluk benzetmesinden ayrı olarak, yinelenen tam ölçüler ile {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve şaşmayan} standardının tutarlılığı, alışverişlerde güvenin zamanla yerleşebileceği bir birikme imgesi sunar. {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç ve akıbet} sonuç anlamını korurken, sözcüğün bağlı olduğu alandaki koyulaşma ve pıhtılaşma yönü bu maddi yoğunlaşma imgesine katkı verir. Her tam ölçü, tekrarlanan işlemlerin ardından gelen birikmenin somut dayanağı olur. Bu bağlantı sıvıdan ya da toplumsal bir kurumdan söz etmez; güvenin kesinlikle birikeceğini de vaat etmez.
+
+## Payın Ölçülebilirliği
+
+Bu yerel işlem, başkasına ayrılmış hakların da adlandırıldığı bir dizi içinde ölçülebilir etik karşılık kazanır. Yakına, yoksula ve yolda kalana düşen pay (17:26) hakların kime ayrıldığını; elin bağlanmasıyla bütünüyle açılması (17:29) harcamanın iki ucunu gösterir. Bu bağlamda {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın}, {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:hakkını} eksiltmeme sorumluluğuyla buluşur: ölçüyü tam yapmak başkasına düşen payı korumanın somut biçimidir. {ar:ٱلْكَيْلَ, tr:al-kayla, gloss:ölçü} hacmi, {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} ağırlığı sınayarak soyut hakka ölçülebilir miktar kazandırır. {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} buyruğu kapalı el ile bütünüyle açılmış el arasındaki aktarımda miktarı kıyaslamayı düşündürür; terazi sayısal eksiltmeyi görünür kılarken başkasının payına gösterilen özeni de sınar.
+
+Payı gözetme bağı, yetim malına en iyi biçimde yaklaşma ve ahdi yerine getirme buyruklarıyla güçlenir (17:34). {ar:أَحْسَنُ, tr:aḥsanu, gloss:daha iyi} değerlendirmesinin bu koruma bağlamında da geçmesi, terazide doğru miktarı gözetmeyi iyi korumanın elle tutulur karşılığı olarak düşündürür. Aynı ayette iki kez anılan {ar:ٱلْعَهْدَ, tr:al-ʿahda, gloss:üstlenilmiş ahdi}, {ar:أَوْفُوا, tr:awfū, gloss:eksiksiz yerine getirin} ile tamamlama yönünü paylaşır. Davranışların hoş karşılanmayan diye nitelenmesi de ölçülü alışverişi olumlu davranışlar dizisine yerleştirir (17:38); {ar:خَيْرٌ, tr:khayrun, gloss:iyi} yargısı hakkı teslim etmenin ahlaki değerini taşır. Komşu buyruklar bu etik bağı kurar; para birimi veya biçimsel kurum ayrıntısı vermez.
+
+Bu ahlaki sorumluluğun bir sonraki yönü, yerine getirilişinin görünür olmasıdır. Kesin buyruk (17:23), başkasına ait hak (17:26) ve sorulacağı bildirilen ahit (17:34) yan yana geldiğinde, 17:35’teki {ar:أَوْفُوا, tr:awfū, gloss:eksiksiz yerine getirin} ile {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} yükümlülüğü ölçülebilir ifaya bağlar. Terazi teslim edilen miktarı görünür ve karşılaştırılabilir kılar; hak sahibine gereken pay böylece yalnız satıcının iyi niyetine bırakılmaz. Buyruktan hak sahibine, oradan sorulabilir ahde uzanan dizi tam teslimi öne çıkarır. Bu görünürlük fiş, kayıtlı sözleşme, dava ya da resmî çözüm yolu tarif etmez.
+
+Kaynak baskısı altında terazi, yığma ile telaşla tükenme arasında ölçüyü koruyan bir karar referansı olarak okunabilir. Bağlanmış el ile bütünüyle açılan el (17:29) harcamanın iki ucunu; rızkın genişleyip daralması (17:30) ile yoksulluk korkusu (17:31) kararın verildiği baskıyı gösterir. Bu okuma, fiziksel tartma anlamındaki {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} buyruğunu korur; benzetmeye kattığı şey sükûnet değil, baskı altındaki değerlendirmeye ölçülü bir dayanak sağlamasıdır. {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve şaşmayan} terazi aktarımda korunacak denk bir sınır, açık elin imgesine karşı bir ölçü sunar. Rızkı daraltan ilahî takdir anlatımı (17:30) kendi anlamındadır; uygun miktar ve orta sınırın insan kararına uygulanması bağlamsal bir benzetmedir. Yoksulluk korkusu aktarım kararını çarpıtabilir (17:31), ancak bu sahne herkesin fiilen yoksul olduğunu söylemez. Bu bağlantı kaynak baskısı altında ölçüyü korumayla sınırlıdır; sikke ya da para birimi belirtilmez.
+
+Terazinin sınır fikri, alışveriş dışındaki davranışlarla da her birinin kendi bağlamında ilişkilendirilebilir. Savurgan harcama (17:26), izin verilmiş karşılığı aşma (17:33) ve böbürlenerek yürüme (17:37), sırasıyla harcama, karşılık ve bedensel gösteriş alanlarında sınır meselesini açar. {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} ile {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve şaşmayan} her alan için ortak bir kalibrasyon benzetmesi sunabilir. Bu davranışlar terazide tartılan nesnelere dönüşmez ve tek bir hükümde birleşmez; özellikle böbürlenme ticari hileyle özdeşleşmez. Böbürlü yürüyüşe eşlik eden yeri delecekmiş gibi davranma ve dağlara erişememe görüntüsü (17:37), kişinin kendini ölçü sayma iddiasına sınır çizer.
+
+Bu dış standardın koruyucu katkısı, yetim payının nasıl gözetileceğine ilişkin bir benzetme açmasıdır. Hakkı gözetmekle yükümlü veli (17:33) ve malı korunan yetim (17:34), her işlemi bizzat izleyemeyen kişi adına payın karşılaştırılabilir olduğu bir koruma bağlamı kurar. {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} gelen dış ölçü kişisel takibi ikame etmez, ona bağımsız bir kıyas sunarak yetimin payının kişisel gözetimden bağımsız karşılaştırılmasını sağlar. {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve doğru} terazinin niteliğidir; gözetip korumaya uzanan anlam yönü burada benzetme olarak işler. {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç ve akıbet} için sağlanan işi üstlenip yürütme yönü görev bakımından veli rolüne benzetilebilir. Veli ile terazinin sıfatı ayrı sözcükler ve ayrı köklerdir; bu işlev benzerliği sözlük özdeşliği kurmaz ve terazi veliyi ikame etmez. Koruma imgesinin bu bağlantısı biçimsel bir emanet düzeni kurmaz.
+
+Tek tek işlemi gözeten bu örnek, tekrarlanabilir ortak ölçü fikrine açılır. Emirlerin hikmet çerçevesinde toplandığı bağlamda (17:39), {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} buyruğu, {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve doğru} standardı ve {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç ve akıbet} dili her işlemde uygulanabilir ortak bir ölçütü düşündürür. Hikmet, bozulmayı önleyen koruyucu sınırın yanı sıra insanlar arasında adil karşılaştırma ve yargı fikrini de çağırabilir; bu okumada standart anlaşmazlıktan önce işleyen bir model olabilir. Taʾwīlan için sağlanan iyi yönetme ve düzene koyma yönü fiziksel araçla buluştuğunda, alışverişi ölçülü bir sonuca bağlama imgesine katkı verir. Kamusal düzen bağlantısı çıkarım olarak kalır: bu okuma yinelenebilir ölçünün ortak yaşama katkısını düşündürür, ancak 17:35 bir devlet aygıtı veya merkezî yargı mercii tanımlamaz.
+
+Ortak ölçünün görünürlüğü, işlemin ileride sorulması fikrine bağlanınca hesap halkası belirir. Ahit sözü iki kez anılır, yerine getirilmesi istenir ve sonunda sorulacağı belirtilir (17:34); bilinmeyenin ardına düşmeme ve işlerin sorulması bu hesap bağlamını sürdürür (17:36). Bu iki ayet arasında duran 17:35, {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın} ile tam teslimi, {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} ile dış ölçüyü, {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç ve akıbet} ile varış noktasını bir araya getirerek miktarın sonradan izlenebilmesi imgesine katkı verir. Ardından gitmeyi anlatan {ar:تَقْفُ, tr:taqfu, gloss:ardına düşme} (17:36) yeniden kurma ve iz sürme yönünü güçlendirir. Ölçülü teslimin sonradan sorulabilir edim olması bağlamsal bir benzetmedir, awfū’nun sözlük anlamı değil; yakın ayetler fiş ya da ticari defter tarif etmez ve hesap dili yalnız alışverişe özgü değildir.
+
+Aynı bilgi ve sorumluluk çevresi, terazinin fiziksel miktarın ötesinde kanıtı sınama modeli olarak okunmasına imkân verir. Bilinmeyenin ardına düşmeme buyruğu ile işitme, görme ve gönlün sorumluluğu birlikte anılır (17:36). Miktarı özel kanaatten bağımsız karşılaştıran {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} ve dışarıdan incelenebilir sonuç veren {ar:ٱلْقِسْطَاسِ, tr:al-qisṭāsi, gloss:terazi}, iddiaları dayanaklarıyla sınamak için bir model sunabilir. İzlenebilirliği anlatan {ar:تَقْفُ, tr:taqfu, gloss:ardına düşme} iddianın izini, destekli yargının eşiği olan {ar:عِلْمٌ, tr:ʿilmun, gloss:bilgi} ise bu yargının dayanağını öne çıkarır. {ar:ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ, tr:as-samʿa wa-l-baṣara wa-l-fuʾāda, gloss:işitme, görme ve gönül} ayrı ayrı hesaba katılan algı ve yargı kanallarıdır: terazi işitme izleniminden bağımsız kıyas, gözlem için ortakça incelenebilir bir sonuç, iç kanaat için de kişinin tahminini sınayacağı dayanak sağlar. Böylece dış ölçü kanıtla yargılama için bir benzetme sunar; bu özel bağlantı 17:35’i genel bir bilgi kuramına dönüştürmez, 17:36’daki sorumluluğu da ticari hesaba indirgemez.
+
+## Düzlük ve Yön
+
+Kanıtı sınayan dış ölçü imgesi, 17:37’de insanın kendi duruşunu ölçü sayma arzusuyla karşılaşır. Böbürlü yürüyüş, yeri delecekmiş gibi davranma ve dağlara boyca erişememe (17:37), terazinin {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve doğru} niteliği karşısında kişisel yücelik iddiasını görünür kılar. Sözcük terazide fiziksel düzlüğü ve hizayı anlatırken komşu sahne, insanın duruşunu ve boyunu üstünlük ölçüsü yapma arzusunu açar. Ayağa kalkma ve dik durma imgesi bu karşılaşmada üstün duruşun ölçüsünü kendini yukarı koyan kişiden alıp kişisel olmayan standarda taşır. {ar:مَرَحًا, tr:maraḥan, gloss:böbürlenerek} yürüme ile terazi arasındaki ilişki sözlük bağı değil, bağlamsal karşıtlıktır: insan boyu sıfatın anlamına, terazi de yüksek bir nesneye dönüşmez. Düz standardın imgesi kişinin kendini ölçü saymasına sınır çizer.
+
+Yol yönündeki çağrışım, fiziksel düzlüğün yanında ayrı bir bağlamda belirir. {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve doğru}, Fâtiha’daki hidayet isteğinde de yolun niteliğidir: {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā aṣ-ṣirāṭa l-mustaqīma, gloss:bizi dosdoğru yola ilet} (1:6). 17:35’te sıfat düzgün teraziyi, 1:6’da doğru yola yönelme isteğini niteler; bu temas, ortak ölçüyle adil alışverişin istenen yönelişin gündelik bir uygulaması gibi okunmasına imkân verir. Bu bağlantı teraziyi yolla özdeşleştirmez ve Fâtiha’nın bütün anlamını buraya taşımaz. 17:35’in ölçme buyruğu kendi başına da ayakta durur; yol yankısı ayrı yöneliş isteğinden gelir.
+
+## Karşılıklı Ölçü
+
+Karşılıklı alışverişte ölçünün neyi görünür kıldığı 83:2 ve 83:3’te belirginleşir: kişi kendisi için alırken tam ister (83:2), başkasına ölçüp tartarken eksiltir (83:3). Bu karşıtlık, 17:35’teki {ar:ٱلْكَيْلَ, tr:al-kayla, gloss:ölçü} ve {ar:أَوْفُوا, tr:awfū, gloss:tamamlayın} buyruklarının neden ortak bir kıyas noktası sağladığını gösterir; standart kapla hacim belirlemek iki tarafın payını karşılaştırır. {ar:وَزِنُوا, tr:wa-zinū, gloss:tartın} ile {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} kişinin kendisi için istediğiyle başkasına verdiği arasındaki farkı görünür kılar. Yusuf’un düş yorumunun gerçekleşmesi, bir işin vardığı yere dış örnek verir (12:100); emanetin sahibine verilmesi ve insanlar arasında adil hüküm, hakkın doğru kişiye ulaşması yönünü ekler (4:58). Bu ayrı katkılar birlikte tam ve karşılıklı teslimin zamanla güven kurabileceği bir alışveriş resmi oluşturabilir. Güven tekrarlanan ilişkinin olası sonucudur; tek bir doğru tartı bunu kendiliğinden garanti etmez ve ayet bir para düzeni belirlemez.
+
+Ölçüyü eksiksiz tamamlama, alışveriş dışındaki tam karşılık düşüncesine de yankı verir. {ar:أَوْفُوا, tr:awfū, gloss:eksiksiz yerine getirin} doğrudan {ar:ٱلْكَيْلَ, tr:al-kayla, gloss:ölçüyü} nesne alırken, her canın yaptığının karşılığını tam alması (39:70) ve herkesin kazandığıyla karşılanıp haksızlığa uğramaması (40:17) daha geniş bir eksiksiz karşılık düzenini hatırlatır. Tam ölçü böylece karşılığın da eksilmeden teslim edildiği düzenin gündelik örneği gibi duyulur. Bu yankı 17:35’in alışveriş anlamını korur; dış hesap sahneleri belirli bir uhrevî sonucu tayin etmez.
+
+Terazinin dış standardı, başka ayetlerle birlikte ölçülebilir haktan kamusal adil karşılaştırmaya uzanır. Ölçüde haddi aşmama çağrısı sınırı koyar (55:8); insanlar arasında adaleti ayakta tutmak için terazinin kullanılması bu sınırı kamusal haklara taşır (57:25). Emanetlerin sahiplerine verilmesi ve insanlar arasında adil hüküm de standardı hakların teslimiyle ilişkilendirir (4:58). {ar:بِٱلْقِسْطَاسِ, tr:bi-l-qisṭāsi, gloss:teraziyle} 17:35’te fiziksel tartı aracıdır ve ayet ölçü birimini belirtmez. Bu bağlantılar kamusal adalet fikrini genişletir; 17:35’in kendisi bir yargılama usulü tanımlamaz.
+
+Terazideki denge, çıkar çatışması karşısında tarafsız değerlendirme için bir imge sunar. Adaleti kişinin kendisine, anne-babasına ve yakınlarına karşı, zengin-yoksul ayrımı gözetmeden ayakta tutma buyruğu (4:135) bu bağlamda sağlam ve ağırbaşlı yargıyı öne çıkarır. {ar:ٱلْمُسْتَقِيمِ, tr:al-mustaqīmi, gloss:düz ve sapmayan} fiziksel çizginin sapmamasını anlatır; ölçüde haddi aşmama (55:8) ile insanlar arası adalet (57:25) bu düzlüğü yargıda sapmama yönünde genişletir. İzin verilmiş karşılığın sınırını (17:33) ve kanıt sorumluluğunu (17:36) bu çizgiye bağlamak ihtiyatlı, atfedilmiş bir okumadır; bu bağlantılar sıfatın doğrudan anlamı değildir. Terazi tarafsız kıyas örneği verir, yargı merciinin yerini almaz.
+
+Sonuç değerlendirmesi, hesap sorulabilir davranışla da buluşabilir. İşitme, görme ve gönlün sorumluluk taşıması (17:36), {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç ve akıbet} için düşünülen varış noktasını cevap verilebilir edimle ilişkilendirir. Bu temas, iyi ölçünün sonucunun yalnız miktar değil, bilgi ve kanıt karşısında da sorumluluk taşıyan davranışın bir parçası olarak okunmasına imkân verir. İki ayet arasındaki bu ihtiyatlı bağ doğrudan kelime eşleşmesine dayanmaz; algı kanalları terazinin kendisi değildir.
+
+Bu sonuç düşüncesi, uyuşmazlığı ortak bir merciye döndürme bağlamında da yankılanır. İhtilafların Allah’a ve Elçi’ye götürülmesini buyuran 4:59, iyi olana ve daha iyi sonuca ilişkin benzer bir kapanışla biter (4:59). 17:35’teki {ar:خَيْرٌ, tr:khayrun, gloss:iyi}, {ar:أَحْسَنُ, tr:aḥsanu, gloss:daha iyi} ve {ar:تَأْوِيلًا, tr:taʾwīlan, gloss:sonuç} işlemin vardığı yeri değerlendirir; 4:59’un uyuşmazlık bağlamı bu değerlendirmeyi alışveriş dışındaki haklı çözüm olanağına açar. Aynı dil böylece çekişmenin ortak adalet ölçüsüne döndürülmesinde yankılanır. Bu bağlantı 4:59’un kendi bağlamında kalır ve 17:35’e yeni bir yargılama usulü yüklemez.
+
+</editorial_prose>
