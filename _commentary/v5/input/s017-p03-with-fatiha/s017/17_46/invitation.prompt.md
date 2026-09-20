@@ -1,0 +1,185 @@
+# V5 reading invitation — 17:46
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_46/17_46.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_46/17_46.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## İki Alıcı
+
+Ayetin başındaki {ar:وَ, tr:wa, gloss:ve}, önceki akışla sonraki fiili bağlayarak kalp ve kulak engellerine geçiş sağlar. Ardından gelen {ar:جَعَلْنَا, tr:ja'alna, gloss:yerleştirdik}, var olan alıcıları tamamlanmış bir eylemle başka bir duruma sokar. Aynı fiilin hem {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler}le gösterilen kalp örtüsüne hem {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı}yla gösterilen kulak içi ağırlığa uzanması, tek yerleştirmede iki ayrı alım yolunu engeller. Böylece anlatım, yeni alıcıların yaratılmasından çok var olanların durum değişimini ve yerleştirmenin tamamlanmış sonucunu öne çıkarır.
+
+{ar:جَعَلْنَا, tr:ja'alna, gloss:yerleştirdik} fiilinin durum değiştirme yönü, diriliş tartışmasındaki {ar:كُونُوا۟, tr:kunu, gloss:olun} buyruğuyla (17:50) ihtiyatlı bir yankı kurar. İnsanlara taş ya da demir olmalarını söyleyen buyruk, {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler}le kurulan yerleştirmenin kişiyi hareket alanı daralmış, boyun eğdirilmiş bir hâle sokmasını düşündürür; böylece benzerlik, yerleştirmenin sonuçlarını genişletir. Bu bağlantı durum değiştirme yönüyle sınırlıdır: fiillerin kökleri ayrıdır, örtü boyun eğme anlamına gelmez ve (17:50) kendi bağlamındaki buyruk olarak kalır.
+
+Örtü ile ağırlığın yerleşimi ayrıdır: {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler}, {ar:عَلَىٰ قُلُوبِهِمْ, tr:ala qulubihim, gloss:kalplerinin üzerine} ile kalbin üstündeki kaplamayı; {ar:فِيٓ ءَاذَانِهِمْ, tr:fi adhanihim, gloss:kulaklarının içinde} bulunan {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} ise işitme organının içindeki ağırlığı gösterir. Kalp ve örtü adlarının çoğul biçimleri iki alım kanalını aynı grubun alıcılarına dağıtır; böylece engel ortak bir alım durumu olarak kurulur. Bu çoğulluk örtülerin adedini, kişi başına miktarı, kalp üstündeki katmanları ya da örtünün malzemesini belirlemez. Tek fiilin yönettiği iki nesne paralel kalırken etkileri iç kavrayış ve işitme olarak ayrışır.
+
+Kalbin üstüne gelen örtünün olağan işi kaplamak, gizlemek ve dış etkiden korumaktır. Burada {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler}, {ar:عَلَىٰ, tr:ala, gloss:üzerine} ilişkisiyle {ar:قُلُوبِهِمْ, tr:qulubihim, gloss:kalpleri} örter; hemen ardından gelen kavrayış tümcesi bu kaplamanın erişimi nerede kestiğini gösterir. Kalp önce bedensel organdır; {ar:يَفْقَهُوهُ, tr:yafqahuhu, gloss:onu kavramaları} ile anılan anlama, onu iç kavrayışın merkezi olarak da etkinleştirir. Dinleyip ardından inanmama ve tartışmanın birlikte görüldüğü karşılaşma (6:25), sözün kulağa ulaşmasıyla kalpte kavranıp benimsenmesi arasındaki ayrımı da açar. Örtü adı olağan kaplama anlamını korurken, anlama eylemi bu kaplamanın mesaja erişimi kestiği sınırı belirginleştirir.
+
+Bu erişim bağımlı tümcede açıkça kavrama eylemidir: {ar:أَنْ يَفْقَهُوهُ, tr:an yafqahuhu, gloss:onu kavramaları}. {ar:أَنْ, tr:an, gloss:-mesini}, anlamayı örtüye bağlayarak engelin amacı ya da sonucu şeklindeki iki okumaya da imkân verir; yerel yapı bunlardan birini seçmez. {ar:يَفْقَهُوهُ, tr:yafqahuhu, gloss:onu kavramaları}, nasb hâlindeki muzari fiilin I. bâbdaki çekimiyle burada bir şeyi anlayıp bilmeyi adlandırır; bu biçim çözümlemesi bu tümceyle sınırlıdır. Nesne zamiri açıktır, ancak “onu”nun hangi söze döndüğü yerel biçimden kesinleşmez. Aynı ayetteki {ar:ٱلْقُرْءَانِ, tr:al-qur'ani, gloss:Kur'an} iletilen sözün anlaşılacağı alanı belirginleştirir: engel sese ulaşmaktan öte, anlamı kavramayla ilgilidir.
+
+Kavrayamama burada sessizliğin karşıtı olan övgü dolu bir ses alanında belirir. Yaratılmışların tamamının hamd ile Allah'ı tesbih ettiği sahnede (17:44), {ar:تَسْبِيحَهُمْ, tr:tasbihahum, gloss:onların tesbihi} övgünün yaygınlığını, {ar:لَا تَفْقَهُونَ, tr:la tafqahuna, gloss:kavrayamıyorsunuz} ise hitap edilen “siz”in bu tesbihi kavrayamamasını bildirir. Odaktaki {ar:يَفْقَهُوهُ, tr:yafqahuhu, gloss:onu kavramaları} üçüncü çoğul özne ve açık nesne zamiriyle başka bir kavrama tümcesi kurar; kök yakınlığı kavrayamama imgesini anlamlı sözün bolluğuna genişletir. Bu biçim ilişkisi muhatapları ya da kavranan içerikleri özdeşleştirmez. Odaktaki “onu”nun gönderimi yerel biçimden kesinleşmez; Kur'an'ın anılması iletilen söz alanını belirginleştirir.
+
+Bir önceki ayetin önündeki {ar:حِجَابًا مَّسْتُورًا, tr:hijaban masturan, gloss:gizli bir perde}, Elçi ile ahirete inanmayanlar arasındaki dış karşılaşmayı örter (17:45); sıfat perdenin gizli oluşunu belirtir. Odakta {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler} {ar:عَلَىٰ قُلُوبِهِمْ, tr:ala qulubihim, gloss:kalplerinin üzerine} kalbin alımını, {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} kulağın alımını sınırlar; {ar:يَفْقَهُوهُ, tr:yafqahuhu, gloss:onu kavramaları} da mesajı kavrama eşiğini adlandırır. Ardından aynı kişilerin Elçi'yi dinlediğinin bildirilmesi (17:47), {ar:يَسْتَمِعُونَ إِلَيْكَ, tr:yastami'una ilayka, gloss:seni dinlerler} sözüyle sesle karşılaşmanın sürdüğünü gösterir. Perde dış karşılaşmayı, örtü kalbin kavrayışını, ağırlık kulağın işitmesini sınırlar; dinleme fiili sesin ulaşmaya devam ettiğini gösterir. Bu bağlantı mesajla temasın ve alımın ayrı sınırlarını yan yana kurar; imgeler birbirini doğuran fiziksel engeller zinciri değildir.
+
+Örtülerin {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler} gizleme ve koruma yönü, başka çağrı sahnelerinde mesajdan uzak kalmanın farklı yüzlerini açar. Hatırlatmalardan yüz çevirmenin ardından kalp örtüsüyle {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} kulak ağırlığının birlikte anılması (18:57), iki alım engelini geri çekilişle yan yana getirir. Çağrılanların örtülerden ve aralarındaki perdeden söz etmesi (41:5), bu kez mesafeyi kendi anlatımlarının içine alır; tekrarlanan çağrılarda parmakları kulaklara koyup giysilere bürünmeleri (71:7) ise kapanmayı bedensel, yinelenen bir harekete dönüştürür. Birlikte bu sahneler, örtü imgesinin hem gizlemeyi hem dış temastan korunmayı taşımasını sağlar ve anlamanın iç merkezde erişilemeden kalmasını düşündürür. Odakta ise {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler} koruyucu bir eylem değil, Allah'ın kavrayışı kesmek üzere yerleştirdiği örtü adıdır; bu karşılaştırma mesajdan yalıtılma okumasını genişletir, yerleştirmenin önceki reddin sonucu olduğunu ya da toplulukların aynı olduğunu kurmaz.
+
+Örtü kavrayışı sınırlandırırken, {ar:ءَاذَانِهِمْ, tr:adhanihim, gloss:kulakları} kulağın kendisini, yani işitme organını adlandırır; burada aracı bir kişi değil, bedenin bu organı kastedilir. {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} ise içeride işitmeyi ağırlaştırıp ses alımını aksatabilen bir durumu gösterir. Sözcüğün sözlük alanındaki işitme bozukluğu anlamı da bu olasılığı genişletir; odak ayet bunu belirli bir tıbbi tanıya bağlamaz. Dinleyip inanmama ve tartışmanın birlikte görüldüğü sahne (6:25), duyulan söz ile ona inanmayı ayırır; okunan ayetlerle kulak ağırlığı ve kibirli yüz çevirmenin yan yana geldiği sahne (31:7), alım güçlüğüne maddi yük yankısını ekler; yinelenen çağrı sırasında parmakların kulaklara götürülmesi (71:7), engeli bedensel hareketle görünür kılar. (31:7)'de aynı sözcük ailesinin taşıyıcıya binen yük anlamı belirgindir; bu maddi çağrışım işitme aksamasını taşınan bir ağırlık gibi duyurur.
+
+Karşılaştırmalı sahneler, {ar:ءَاذَانِهِمْ, tr:adhanihim, gloss:kulakları} imgesinin alıcı dinleme ve korunma yönlerini açar: elçinin iyilik ve inançla ilişkilendirilen bir “kulak” diye nitelenmesi (9:61), güvenilir biçimde dinlemeyi; mağara ehlinin kulaklarının koruyucu biçimde kapatılması (18:11), işitmenin korunmaya alınmasını gösterir. Bu çağrışımlar organ imgesinin kapsamını genişletirken, odaktaki {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} işitmeyi ağırlaştırıp ses alımını aksatan engel olarak kalır; buradaki bağlantı, kavrayış güçlüğü ve ardından gelen kaçınma tepkisiyle sınırlıdır.
+
+{ar:ءَاذَانِهِمْ, tr:adhanihim, gloss:kulakları} organ anlamını korurken dikkatle dinleme yönünü de açar. Bu sahnede iki bağımsız tetikleyici vardır: {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} alımı zorlaştırır, {ar:ٱلْقُرْءَانِ, tr:al-qur'ani, gloss:Kur'an} ise dinlenen sözü belirginleştirir. Dinleme kimi kullanımlarda duyulanı benimsemeye uzanır; Rabbin anılmasının ardından gelen {ar:وَلَّوْا۟, tr:wallaw, gloss:yüz çevirdiler} bu kabulün de aksayabileceğini düşündürür. Bu olası bağ, her dinlemeyi itaat saymaz. Kulak sözcüğünün aynı ailesindeki bilme ve başkasına bildirme yönü, {ar:ذَكَرْتَ, tr:dhakarta, gloss:andığında} ve Kur'an'da anılan söz gibi ayrı tetikleyicilerle iletişim yankısı kurar. Bu yankı organ adını duyuru ya da izin anlamına taşımaz: iki kanallı sahnede kalp iç kavrayışı, kulak sesi almayı ve olası kabulü taşır.
+
+Odaktaki {ar:ءَاذَانِهِمْ, tr:adhanihim, gloss:kulakları} üzerindeki {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} sürerken de sesle karşılaşmanın devam ettiği, ardından gelen toplumsal sahnede belirginleşir. Dinleyenler özel konuşma hâlindeyken (17:47), “büyülenmiş bir adamdan başkasına uymuyorsunuz” suçlamasıyla sözü yeniden adlandırırlar: {ar:وَإِذْ هُمْ نَجْوَىٰ, tr:wa-idh hum najwa, gloss:özel konuşma hâlindeyken} ve {ar:مَّسْحُورًا, tr:mashuran, gloss:büyülenmiş}. Sonraki ayette Elçi için benzetmeler kurdukları, ardından sapıp yol bulamadıkları anlatılır (17:48): {ar:ضَرَبُوا۟ لَكَ ٱلْأَمْثَالَ, tr:darabu laka al-amthala, gloss:sana benzetmeler kurdular} ve {ar:فَضَلُّوا۟ فَلَا يَسْتَطِيعُونَ سَبِيلًا, tr:fa-dallu fa-la yastati'una sabilan, gloss:sapıp yol bulamadılar}. Ayetlerin sıralanışı işitme ve kavrayıştan toplumsal etiketlemeye, oradan yol bulamamaya ilerler; bu bağlantı anlatı sırasına aittir, özel konuşmanın suçlamayı ya da suçlamanın sonraki yön kaybını doğurduğunu belirtmez.
+
+Bu kişilerden daha ileride Rabbin çağırdığı gün insanların O'nu hamd ile anarak karşılık vermesi anlatılır (17:52): {ar:يَدْعُوكُمْ, tr:yad'ukum, gloss:sizi çağırdığı} ve {ar:تَسْتَجِيبُونَ بِحَمْدِهِ, tr:tastajibuna bi-hamdihi, gloss:O'nu överek karşılık verirsiniz}. Bu gelecek karşılık, odaktaki {ar:ءَاذَانِهِمْ, tr:adhanihim, gloss:kulakları} üzerindeki {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} ile belirtilen işitme engelinin ve {ar:نُفُورًا, tr:nufuran, gloss:ürkerek uzaklaşma} ile görünen geri çekilişin her çağrıya ve zamana genellenemeyeceğini gösterir: işitme kanalı her seferinde kapalı değildir. Bu zaman karşıtlığı odaktaki dinleyicilerin daha sonra nasıl yanıt vereceğini, aynı ahlaki ilişkiyi paylaşıp paylaşmayacağını ya da gönüllü olarak değişip değişmeyeceğini belirlemez; odak anında işitme, kavrayış ve kabul ayrı kalır.
+
+## Tek Başına Anılma
+
+Kalp ve kulaktaki engellerden sonra {ar:وَإِذَا, tr:wa-idha, gloss:ve ne zaman} cümleyi alıcıların hâlinden davranışa, Rabbin Kur'an'da tek başına anıldığı sıradaki tepkiye geçirir: {ar:إِذَا, tr:idha, gloss:ne zaman} koşulu {ar:ذَكَرْتَ, tr:dhakarta, gloss:andığında} eyleminin {ar:رَبَّكَ, tr:rabbaka, gloss:Rabbini} {ar:فِي ٱلْقُرْءَانِ, tr:fi al-qur'ani, gloss:Kur'an'da} {ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına} anılmasını içerir; {ar:وَلَّوْا۟, tr:wallaw, gloss:yüz çevirdiler} ise bu koşulun cevabıdır. “Ne zaman … olursa” yapısı karşılaşmanın yinelenebilmesine elverir, ancak sıklığını saymaz. Tetikleyici genel olarak Kur'an sesinin duyulması değil, Rabbin Kur'an'da tek başına anılmasıdır.
+
+Bu koşulun eylemini {ar:ذَكَرْتَ, tr:dhakarta, gloss:andığında} verir: tekil ikinci kişi sözlü anmayı bir muhataba yöneltir, ancak çekim biçimi o kişinin kimliğini belirlemez. Önceki birinci çoğul ilahî eylem {ar:جَعَلْنَا, tr:ja'alna, gloss:yerleştirdik} ile bu tekil hitap arasındaki kişi değişimi, yerleştirilen engellerden tepkinin koşuluna geçişi de duyurur. Anma kulluğa yönelik olabilir; belirli bir dua ya da ritüel adı verilmediğinden, bu yönelimin nesnesi olan Rab onu somutlaştırır.
+
+Anmanın nesnesi {ar:رَبَّكَ, tr:rabbaka, gloss:Rabbini}dir; iyelik eki Rab ile tekil muhatap arasındaki bağı kurar. Rab sözü sahip olma ve yönetmenin yanı sıra gözetip beslemeyi de taşır; ilişki böylece bir adın söylenmesinden daha geniştir. {ar:فِي ٱلْقُرْءَانِ, tr:fi al-qur'ani, gloss:Kur'an'da} içindeki edat anmayı tilavet edilen Kur'an alanına yerleştirir, belirli artikel de bu alanı yerel olarak belirginleştirir. Rab, Kur'an alanı ve {ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına} kaydı birlikte tepkinin koşulunu kurar. Kur'an adının okuma, tilavet, hatta toplama yönündeki kök çağrışımı {ar:ذَكَرْتَ, tr:dhakarta, gloss:andığında} ile sözlü anma ve {ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına} ile yalnızlık ifadesi arasında hafif bir bağlantı açabilir: okunan alan, anılan Rab ve onun yalnızlığı aynı koşulda yakınlaşır. Bu yankı belirsizdir ve Kur'an adının olağan anlamını değiştirmez.
+
+{ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına}, hâl konumunda {ar:رَبَّكَ, tr:rabbaka, gloss:Rabbini} ile ilişkilidir: Rab anılırken onun yalnız oluşu da koşulun parçasıdır. “Tek başına” olağan anlamını korur; Rab adıyla bu dilbilgisel bağı, ortaksız ilahî birliğin eşsizliğini de duyurur. Allah'ın yalnız anılmasıyla kalbin daralması, başkaları anıldığında sevinç belirmesi karşıtlığı (39:45), bu münhasırlığa duygusal bir karşılık ekler. Bu yankı yerel hâl ilişkisine dayanır; iki sahnedeki kişileri ya da nedenleri özdeşleştirmez.
+
+Kulaktaki {ar:وَقْرًا, tr:waqran, gloss:işitme ağırlığı} maddi ağırlık imgesini korurken, {ar:رَبَّكَ, tr:rabbaka, gloss:Rabbini} ile {ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına} birlikteliği aynı sözcük ailesinin ağırbaşlılık ve vakur duruş bildiren ayrı kolunu ihtiyatlı bir karşı ton olarak açar. Böylece Rabbin tek başına anılışı vakur bir söyleyiş kazanır; ardından gelen {ar:وَلَّوْا۟, tr:wallaw, gloss:yüz çevirdiler} ise işitme ağırlığının maddi imgesini sürdürürken bu söyleyişin karşısına yüz çevirmeyi koyar. Sözcük yankısı tepkideki sertliği belirginleştirir; dinleyenlere ağırbaşlılık erdemi yüklemez.
+
+Rabbin tek başına anılması, {ar:رَبَّكَ, tr:rabbaka, gloss:Rabbini} ve {ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına} ile erişim ve yakınlık ilişkisini de düşünmeye açar. O'nun yanında başka ilahlar bulunsaydı, onlar da Arş sahibine bir yol arardı (17:42); insanların çağırdıkları varlıkların kendileri de Rablerine yakınlaşmanın vesilesini arar (17:57). Çağrılanların zararı giderme ya da başka bir hâle çevirme gücünden yoksunluğu (17:56), bu arayışın bağımlı niteliğini belirginleştirir. Bu ayetler birlikte, çağrılan varlıkları bağımsız son duraklar değil, Rabbe yönelen arayıcılar olarak gösterir; bu çerçevede odaktaki geri çekiliş himaye ve erişim ağına verilmiş bir tepki olarak okunabilir. Bu bağlantı tek tek tarihsel aracıların rolünü ya da dinleyicilerin güdüsünü belirlemez; sayısal çokluğa karşı çıkma açıklaması da daha dar bir olasılık olarak açık kalır.
+
+Fatiha bu münhasırlığı olumlu bir sesle dile getirir. Allah'ın “âlemlerin Rabbi” diye anılması (1:2), odaktaki {ar:رَبَّكَ, tr:rabbaka, gloss:Rabbini} ve {ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına} ile kurulan ilişkiyi Rab unvanında karşılar; ardından çoğul konuşan ses {ar:إِيَّاكَ نَعْبُدُ, tr:iyyaka na'budu, gloss:yalnız Sana kulluk ederiz} ve {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa-iyyaka nasta'in, gloss:yalnız Senden yardım isteriz} der (1:5). Böylece odaktaki tek başına anılışa verilen geri çekilmenin karşısında, münhasırlık ibadet ve yardım talebiyle olumlu bir yöneliş olarak görünür. Bu karşılaştırmanın katkısı bu karşıtlıktır; 17:46'nın Fatiha'dan alıntı yaptığını ya da iki yerde aynı kişilerin konuştuğunu kurmaz. Odaktaki koşul yine kendi cümlesi içinde anlaşılır.
+
+Odaktaki sözlü anma ile zihinsel hatırlama arasındaki ayrım, başka bir Kur'an sunumuyla belirginleşir. Kur'an'ın çeşitli biçimlerde sunulması (17:41), {ar:صَرَّفْنَا, tr:sarrafna, gloss:çeşit çeşit sunduk} fiiliyle aktarılır; “hatırlasınlar” amacı {ar:لِيَذَّكَّرُوا۟, tr:li-yadhdhakaru, gloss:hatırlasınlar diye} biçimindedir. {ar:ذَكَرْتَ, tr:dhakarta, gloss:andığında} aynı dh-k-r ailesinde olsa da burada Rabbin sözle anılmasını bildirir; biçimin kendisi zihinsel hatırlama anlamını taşımaz. Değişen sunumların yanında aynı {ar:نُفُورًا, tr:nufuran, gloss:ürkerek uzaklaşma} sözcüğünün artması da (17:41), odaktaki geri çekilişi yinelenen karşılaşmaların daha geniş sahnesine bağlar. Bu paralellik aynı dinleyicileri özdeşleştirmez ya da sunumun kaçışı doğurduğunu göstermez; yönelişin önceden bulunup değişen sunumlarla açığa çıkması olasılığını açık bırakır.
+
+Başka bir karşılaşmada görünen işaret insanlar için sınama olur; uyarıp korkutmaya rağmen büyük taşkınlık artar (17:60): {ar:فِتْنَةً, tr:fitnatan, gloss:sınama}, {ar:نُخَوِّفُهُمْ, tr:nukhawwifuhum, gloss:onları uyarıp korkuttuğumuz}, {ar:يَزِيدُهُمْ, tr:yaziduhum, gloss:onları artırır}, {ar:طُغْيَانًا كَبِيرًا, tr:tughyanan kabiran, gloss:büyük bir taşkınlık}. Bu artış dili (17:41)'de büyüyen kaçışla yankılanır; sonuçlar yine ayrıdır: birinde taşkınlık, ötekinde geri çekiliş artar. Aynı ayette {ar:رَبَّكَ أَحَاطَ بِٱلنَّاسِ, tr:rabbaka ahata bi-n-nasi, gloss:Rabbin insanları kuşatmıştır} sözü ilahî kuşatmayı belirtir. Odaktaki {ar:وَلَّوْا۟, tr:wallaw, gloss:yüz çevirdiler}, {ar:أَدْبَٰرِهِمْ, tr:adbarihim, gloss:sırtları} ve {ar:نُفُورًا, tr:nufuran, gloss:ürkerek uzaklaşma} hareketi {ar:ذَكَرْتَ رَبَّكَ فِي ٱلْقُرْءَانِ وَحْدَهُۥ, tr:dhakarta rabbaka fi al-qur'ani wahdahu, gloss:Rabbin Kur'an'da yalnız anılması} koşulundaki karşılaşmadan gerçek mesafe yaratır; fakat kuşatılan ilişkiden kaçış olmaz. Yan yana geliş fiziksel mesafe ile ilahî kuşatma arasındaki karşıtlığı gösterir; ayetler aynı ana yerleştirilmez ve hareketin bedensel olarak durdurulduğu söylenmez.
+
+## Yüz Çevirip Uzaklaşmak
+
+Anma koşulunun ardından {ar:وَلَّوْا۟, tr:wallaw, gloss:yüz çevirdiler}, yüzleri çevirip ilişkiden uzaklaşmayı yanıt olarak gösterir. Kalp örtüsü ve kulak ağırlığından sonra hareketin bedende görünmesi, içteki alım engellerini dış geri çekilişle aynı ayet akışında buluşturur; bu sıralanış mekanik bir neden bağı kurmaz. Fiilin sözcük ailesindeki kesintisiz yakınlık anlamlı ayrı kol, mesafe hareketine ihtiyatlı bir karşıtlık ekler; {ar:أَدْبَٰرِهِمْ, tr:adbarihim, gloss:sırtları} ve {ar:نُفُورًا, tr:nufuran, gloss:ürkerek uzaklaşma} geri çekilmeyi açıkça görünür kılar. Bu sözcük karşıtlığı sahnenin öncesinde yaşanmış bir yakınlığı ileri sürmez.
+
+İçteki alım ile dıştaki dönüş, kalp adının açtığı kök yankısında buluşur. {ar:قُلُوبِهِمْ, tr:qulubihim, gloss:kalpleri} bedensel kalplerdir; q-l-b ailesinin bir şeyi çevirmek, tersine döndürmek ve kişiyi yöneldiği taraftan saptırmak anlamları içteki yön değişimine bir dil yankısı verir. {ar:وَحْدَهُۥ, tr:wahdahu, gloss:tek başına} koşulu, {ar:وَلَّوْا۟, tr:wallaw, gloss:yüz çevirdiler} dönüşü ve {ar:أَدْبَٰرِهِمْ, tr:adbarihim, gloss:sırtları} imgesi bu yankıyı dışa doğru taşır. Allah tek başına anıldığında kalplerin daralması (39:45), aynı iç tepkiye başka bir sahnede duygusal bir karşılık ekler. Bu bağlantı iki sahnenin kişilerini ya da nedenlerini özdeşleştirmez; kök yankısı psikolojik tanı değil, kalbin organ anlamını koruyan bir yön değişimi imgesidir.
+
+Geri çekilişin bedensel yüzeyi {ar:أَدْبَٰرِهِمْ, tr:adbarihim, gloss:sırtları} ile belirginleşir: sözcük bedenin arka tarafını adlandırır, çoğul iyelik de sırtları aynı gruba bağlar. İlk {ar:عَلَىٰ قُلُوبِهِمْ, tr:ala qulubihim, gloss:kalplerinin üzerine}, {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler}in kalpler üzerindeki yerini; son {ar:عَلَىٰٓ, tr:ala, gloss:üzerine} ise sırtlara yönelen hareketi çerçeveler. Tekrar, içteki kaplamadan dışa dönmüş bedene uzanan çizgiyi ayetin içine yerleştirir. Okunan ayetlerin yanında kibirli dönüşün belirmesi (31:7) ve tek başına anılınca kalplerin çekilmesi (39:45), bu sırt imgesini alımlamanın görünür bedensel ucu olarak aydınlatır; karşılaştırma katılımcıları özdeşleştirmez. Odaktaki {ar:ذَكَرْتَ رَبَّكَ فِي ٱلْقُرْءَانِ وَحْدَهُۥ, tr:dhakarta rabbaka fi al-qur'ani wahdahu, gloss:Rabbin Kur'an'da yalnız anılması} koşulundan {ar:وَلَّوْا۟, tr:wallaw, gloss:yüz çevirdiler} fiiline, {ar:أَدْبَٰرِهِمْ, tr:adbarihim, gloss:sırtları} ile sırt göstermeye ve {ar:نُفُورًا, tr:nufuran, gloss:ürkerek uzaklaşma} ile ürküp mesafe koymaya uzanan yerel sıra, kavrayıştan bedensel geri çekilmeye geçişi kurar. Buradaki hareketin katkısı geri çekilişi bedensel olarak görünür kılmaktır; askerî seferberlik ya da savaş tasviri değildir. Ayetin son sözcüğü {ar:نُفُورًا, tr:nufuran, gloss:ürkerek uzaklaşma}, geri çekilişe son bir işitsel iz bırakır; bu vurguyu sözcüğün ayet sonundaki yeri ve yerel kaçınma anlamı yaratır, kullanım sıklığı değil.
+
+</editorial_prose>

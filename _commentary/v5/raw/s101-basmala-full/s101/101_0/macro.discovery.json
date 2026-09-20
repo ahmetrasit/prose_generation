@@ -1,0 +1,99 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "101:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [],
+  "findings": [
+    {
+      "finding_ref": "macro:name-before-question",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Adın ardından gelen soru",
+      "claim": "Basmala Allah'ın adıyla başlar; hemen ardından sûre el-Kāriʿa adını yineler ve onun ne olduğunu sorar. Böylece açılıştaki adlandırma, tartıların ve sonuçların açacağı olay adına bir eşik kurar.",
+      "mechanism": "Odaktaki بِسْمِ ifadesinde yer alan ٱسْم, ad veya belirtme anlamını taşır. Bağımsız bağlam tetikleyicisi ilk üç ayette el-Kāriʿa adının yinelenip soruya dönüştürülmesi, ardından ağır-hafif tartılar ve ateşli sonucun verilmesidir. Allah'ın adıyla başlayan formülün hemen arkasından ne olduğu sorulan bir olay adının gelmesi, basmala ile sûrenin devamını adlandırma ve açımlama hareketiyle birbirine bağlar.",
+      "reader_payoff": "Okur, basmala ile sûrenin arasındaki geçişi yalnız bir önsözün ardından başlayan bağımsız metin olarak değil, Allah'ın adıyla açılan ve adı tekrar tekrar sorulan bir olayın sonuçlarına ilerleyen bir eşik olarak görür.",
+      "containment": "Basmala Allah'ın adıyla başlamayı sürdürür; el-Kāriʿa da sûrenin kendi adı olarak kalır. Bu ilişki iki adı özdeşleştirmez, nedensellik ileri sürmez ve yalnız verilen metinlerin sıralanışını yorumlar.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Adlandırma sözcüğü, tekrar edilen el-Kāriʿa ve sonraki tartı-sonuç bağlamı pakette doğrudan yer alır; bunların eşik ilişkisi olarak okunması açıkça açıklanmayan bir diziliş yorumudur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["101:1:1", "101:2:2", "101:3:4", "101:6:4", "101:7:4", "101:8:4", "101:11:1"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "بِسْمِ içindeki ٱسْم, Allah'a bağlanan adlandırma sözüdür.",
+          "independent_trigger": "İlk üç ayet el-Kāriʿa adını yineler ve ne olduğunu sorar; 101:6-8 tartıyı ve ayrılan sonuçları, 101:11 ateşi verir.",
+          "activation": "Odaktaki adlandırma sözü, bağlamdaki tekrar edilen olay adı ve onun ne olduğu sorusuyla buluşur; sonraki tartı ve sonuçlar sorulan olayın içeriğini açtığı için basmalanın ad sözü sûreye giriş hareketine dönüşür.",
+          "resulting_reading": "Allah'ın adıyla başlayan basmala, adı konup anlamı sorulan el-Kāriʿa olayından önce duran bir eşik olarak duyulur; olayın ağırlığı sonraki tartı ve sonuçlarda açılır.",
+          "boundary": "Bu, verilen birimlerle sıralı bağlam arasındaki adlandırma ilişkisiyle sınırlıdır; iki adı eşitlemez, ad sözcüğünü el-Kāriʿa'nın anlamı saymaz ve yazar niyeti ileri sürmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["101:1", "101:2", "101:3", "101:6", "101:7", "101:8", "101:11"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-named-judgment",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhamet adıyla açılan hesap",
+      "claim": "Allah'a bağlanan er-Rahmân ve er-Rahîm sıfatları, ağırlık ve hafifliğe göre ayrılan sonlardan önce gelir; sûre böylece hesabı merhamet adlarıyla açılan bir bağlamda sunar.",
+      "mechanism": "Odaktaki iki merhamet sıfatı, acımayı etkin esirgeme ve iyilik olarak taşıyan daldan gelir; Allah'a bağlanmaları bu merhametin yaratılmışlara ulaşan genişliğini de belirgin kılar. Bağımsız tetikleyici, bağlamdaki ağır ve hafif tartılar, hoş hayat ve ateşli sonuçtur. Bu sonuçların merhamet adlarından sonra gelmesi, hesap sahnesini o adların açtığı çerçeve içinde duyurur.",
+      "reader_payoff": "Okur tartı ve ateş anlatısına ulaşırken açılışta adlandırılan merhameti de yanında taşır; metindeki ayrışan sonuçlar ile merhamet adları birlikte görünür kalır.",
+      "containment": "Tartının, hoş hayatın ve ateşin metinde bildirilen sonuçları aynen kalır. Bağlam merhametin bu sonuçlara nasıl uygulandığını açıklamaz; merhamet ile hesap arasındaki gerilim de açık bırakılır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Merhamet sıfatları ve hesap sonuçlarının sırası pakette doğrudan bulunur; aralarındaki çerçeve ilişkisi yorumdur ve sonuçların teolojik açıklaması olarak sunulamaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["101:6:3", "101:6:4", "101:7:4", "101:8:3", "101:8:4", "101:11:1", "101:11:2"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "ٱلرَّحْمَٰنِ ve ٱلرَّحِيمِ, acıma yönelişinin esirgeme ve iyilik olarak etkin sonucunu taşıyan merhamet sıfatlarıdır.",
+          "independent_trigger": "101:6-8 ağır ve hafif tartılarla ayrılan sonuçları, 101:11 ise ateşin hararetini bildirir.",
+          "activation": "Etkin esirgeme anlamı taşıyan iki sıfat, hesap ve ateş bağlamının önünde durur; bu sıralanış sonraki sahneyi merhamet adlarıyla açılan bir söyleyişin içinde işittirir.",
+          "resulting_reading": "Sûrenin tartı ve sonuç sahnesi, öncesindeki merhamet adlarından kopuk değil, o adların açtığı hesap ufkunda okunur.",
+          "boundary": "Bağlam bir çerçeve kurar; merhametin belirli bir sonucu iptal ettiğini, garanti ettiğini veya meydana getirdiğini söylemez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["101:6:3", "101:6:4", "101:7:4", "101:8:3", "101:8:4", "101:11:1", "101:11:2"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Allah'ın özel adına bağlanan ٱلرَّحْمَٰنِ ve ٱلرَّحِيمِ, merhamet dalının Tanrı hakkında genişleyen kullanımıdır.",
+          "independent_trigger": "Sûrenin devamı insanları ağır ve hafif tartı sonuçlarıyla karşı karşıya getirir; son ayet ateşi anar.",
+          "activation": "Allah'a bağlı merhamet sıfatları, yaratılmışların ayrışan sonuçlarını anlatan devamla temas eder; bu nedenle hesabın iki tarafı da merhametle adlandırılmış bir açılıştan sonra duyulur.",
+          "resulting_reading": "İlahi merhametin genişlik taşıyan adı ile sûre içindeki farklı sonuçlar aynı okuma çerçevesinde kalır; biri ötekini metinden silmez.",
+          "boundary": "Bu uzmanlaşma merhamet sıfatlarının Allah'a bağlanmasına dayanır; bağlam hükümlerin nasıl verildiğini veya merhametin her sonuçtaki etkisini açıklamaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["101:6", "101:7", "101:8", "101:11"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Merhamet ile tartı sonuçları arasındaki ilişki sure bağlamında açıklanmaz; bu yüzden bulgu yalnızca basmala ile sonraki hesap sahnesinin merhamet adları ve sonuçları yan yana getirmesine dayanır."
+  ]
+}

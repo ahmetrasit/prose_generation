@@ -1,0 +1,68 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "88:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [],
+  "findings": [
+    {
+      "finding_ref": "macro:raised-name-sky",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Adın yükseltilişi ve yükseltilen gök",
+      "claim": "Basmala'daki adlandırma, sûre içinde daha sonra yükseltilmiş gök imgesiyle karşılaşır; böylece Allah'ın adıyla başlama, yaratılışın yükseliş imgesini de taşıyan bir açılış olarak duyulabilir.",
+      "mechanism": "Odak taşıyıcısı بِسْمِ ifadesindeki سْمِ (ٱسْم, ad) sözcüğüdür; odak çözümlemesi adı yükseltilmiş gösterimle ilişkilendirir. Bağımsız tetikleyici 88:18'de göğün nasıl yükseltildiğinin sorulmasıdır. Adın kökenini yükseltilme ve belirginleşmeyle açıklayan kaynak-varyantı, daha sonraki yükseltilmiş gök imgesiyle temas eder; bu temas açılıştaki adı sûrenin göğe bakışına bağlar.",
+      "reader_payoff": "Açılıştaki ad, sûrenin ilerleyen bölümünde göz önüne getirilen yükseltilmiş gök ile yankılanır; okur çağrıyı bu yaratılış imgesinin de bulunduğu bir bağlamda duyar.",
+      "containment": "Bu, adın gök anlamına geldiği veya 88:18'in Allah'ın adını açıkça andığı iddiası değildir. Bağlantı, adlandırmanın yükseltme yoluyla açıklanmasına dayanan kaynak-varyantı ile daha sonraki gök imgesi arasında kurulan nitelikli bir yankıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak sözcüğü ve 88:18'deki gök/yükseltilme ifadesi doğrudan paket metnindedir; anlam teması ise ad kökenine ilişkin kaynak-varyantı açıklamasının bağlama taşınmasına dayanır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["88:18"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "1:1:1:2'deki ٱسْم (ad) sözcüğü; yerel okuma adlandırmadır ve kaynak-varyantı adın yükseltilip belirginleşmesiyle açıklar.",
+          "independent_trigger": "88:18'de ٱلسَّمَآءِ için كَيْفَ رُفِعَتْ denmesi, göğün nasıl yükseltildiğini ayrı bir odak dışı imge olarak getirir.",
+          "activation": "Adlandırmayı yükseltilme ve belirginleşmeyle açıklayan F005, sûrenin daha sonra göğün yükseltilişini anmasıyla buluşur; kök imgesi, ad sözcüğünü gök sözcüğüyle özdeşleştirmeden açılış ve yaratılış tasviri arasında yankı kurar.",
+          "resulting_reading": "Allah'ın adıyla başlayan ifade, adın yükseltilmesi imgesini daha sonraki yükseltilmiş gökle birlikte duyurur.",
+          "boundary": "Yankı, F005 kaynak-varyantı ve 88:18 ile sınırlıdır; ad sözcüğüne gök anlamı yüklemez ve bu anlam temasını sûrenin açık bir açıklaması olarak sunmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["88:18"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-and-accounting",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Açılıştaki merhamet ve sûrenin hesabı",
+      "claim": "Sûrenin başındaki merhamet nitelemeleri, aynı sûrenin sonunda Allah'ın cezalandırması, dönüş ve hesap sözleriyle çevrelenir; böylece açılış merhameti, uyarı ve hesaplaşmanın da yer aldığı bir hitabın başlangıcı olur.",
+      "mechanism": "Odak taşıyıcısı, Allah'ı er-Rahmân ve er-Rahîm nitelemeleriyle anan بِسْمِ اللهِ ifadesidir. Bağımsız tetikleyici 88:24'te Allah'ın cezalandıran özne olarak yeniden anılması, ardından 88:25-26'da dönüş ve hesabın 'Bize' bağlanmasıdır. Aynı ilahî gönderim açılıştaki merhamet ile sûrenin sonundaki uyarı ve hesabı temas ettirir; böylece açılış, sûrenin geri kalanından kopuk bir dua değil, merhametin yanında yargı ve dönüşün de bulunduğu bütünün eşiği olarak okunur.",
+      "reader_payoff": "Okur, baştaki merhamet adlarını korurken sûrenin sonundaki uyarı ve hesabı da aynı ilahî hitabın içinde tutabilir.",
+      "containment": "Bu bağ, merhamet ile cezalandırmanın nasıl uzlaştığına karar vermez ve birinin ötekini iptal ettiğini söylemez; yalnızca sûrenin açılışı ile sonundaki ifadelerin aynı bağlamda durduğunu kaydeder.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [],
+        "reason": "Odaktaki merhamet nitelemeleri ile 88:24-26'daki Allah, dönüş ve hesap ifadeleri doğrudan inline Arapça yüzeyde yer alır; bunların açılış/son ilişkisi sûre bağlamından çıkarılır."
+      },
+      "support_ids": [],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["88:24", "88:25", "88:26"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Paket aday, destek ve bağlantı kaydı içermiyor; HFT kanıtı da yok ve bu prefatory basmala odağı için yerel HFT kaydı uygulanamaz. Bu nedenle keşif, doğrudan odak çözümlemesi ile inline sûre bağlamına dayanıyor; HFT veya ayrı destek kaydıyla doğrulanmış bir okuma ileri sürmüyor."
+  ]
+}

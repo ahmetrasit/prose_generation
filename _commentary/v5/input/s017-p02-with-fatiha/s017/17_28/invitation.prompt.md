@@ -1,0 +1,189 @@
+# V5 reading invitation — 17:28
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p02-with-fatiha/s017/17_28/17_28.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p02-with-fatiha/s017/17_28/17_28.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Koşuldan cevaba
+
+17:27'deki buyrukların ardından gelen 17:28, {ar:وَ, tr:wa, gloss:ve} ile önceki akışa bağlanır ve {ar:إِمَّا, tr:immā, gloss:eğer, her ne zaman} ile yeni bir şart açar (17:27). Tekil muhatap, onlardan yüz çevirme hareketini Rabbinden bir rahmeti arama ve onu umma koşuluna bağlar; ardından aynı kişilere kolay bir söz söylemesi istenir. Böylece cümle yüz çevirmekten arayışa, arayıştan umuda, umuttan hemen verilecek karşılığa ilerler. İmmā'nın vurgulu muzari fiilden önce gelişi şartı öne çıkarır; fiil de söz diziminin odağında kalır. Koşul, soyut bir ihtimalden çok yeniden karşılaşılabilecek gerçek bir durumu açar. İmmā'daki burunlu m sesi {ar:عَنْهُمُ, tr:ʿanhumu, gloss:onlardan} ve {ar:مِّن, tr:min, gloss:-den} çevresinde yeniden işitilir; ses, şarttan muhataba ve rahmetin kaynağına uzanan cümleyi birbirine bağlar.
+
+Şartın merkezindeki {ar:تُعْرِضَنَّ, tr:tuʿriḍanna, gloss:yüz çevirirsen} ikinci tekil eril muhataba yönelen, vurgulu bir muzari fiildir. IV. kalıptaki bu çekim burada yönelişi geri çekip yüz çevirmek demektir; aynı söz ailesindeki sergileme ve genişletme kullanımları bu anlama taşınmaz. Ardından gelen {ar:عَنْهُمُ, tr:ʿanhumu, gloss:onlardan}, ʿan edatını çoğul zamirle birleştirerek uzaklaşılan kişileri gösterir. Yanını dönme imgesi geri çekilişi bedensel olarak görünür kılar; ayet duruşu, küçümsemeyi ya da dolaylı konuşmayı ayrıca belirlemez.
+
+Bu hareketin amacı {ar:ٱبْتِغَآءَ, tr:ibtighāʾa, gloss:arama} mastarıyla belirtilir: VIII. kalıptan gelen bu mansup biçim arama, peşine düşme eylemini adlandırır ve yüz çevirme fiilinden sonra amaç olarak gelir. Aynı söz ailesinde taşkınlık anlamı bulunsa da burada aranan nesne {ar:رَحْمَةٍ مِّن رَّبِّكَ, tr:raḥmatin min rabbika, gloss:Rabbinden bir rahmet}, kaynağı da Rabbindir. Nesneyle kaynak, arayışın yönünü bir iyiliğe sabitler. Amaç ifadesinin geri çekiliş ile cevap buyruğu arasında yer alması, hareketi rahmeti arayan ve söylenecek söze varan gerekçeli bir ara hâl olarak kurar; bu bağlantı yüz çevirmeyi tek başına kalıcı terk edişe dönüştürmez.
+
+Aranan iyilik {ar:رَحْمَةٍ, tr:raḥmatin, gloss:bir rahmet} diye adlandırılır. Belirsiz ve müennes isim, ibtighāʾa ile kurduğu tamlamada aranan nesnedir; sonraki {ar:تَرْجُوهَا, tr:tarjūhā, gloss:onu umarsın} fiilindeki dişil hā da aynı rahmeti yeniden cümleye alır. Tanvin yardımın türünü açık bırakır. Merhamet ve esirgemeden doğan rahmet, ilahi kullanımda yaratılmışlara ulaşan koruma ve iyilik etme yönü taşır; arayış, kaynak ve umut birlikte bu etkin bakım boyutunu öne çıkarır. Cümle yardımın biçimini ve geliş vaktini belirlemez.
+
+Rahmetin kaynağı {ar:مِّن, tr:min, gloss:-den, kaynağından} edatıyla Rabbe bağlanır. Min hem “Rabden” geliş yönünü hem “Rabden bir pay” düşüncesini açık tutar; her iki işitilişte de kaynak, konuşanın o andaki elindeki imkândan ayrıdır. {ar:رَّبِّكَ, tr:rabbika, gloss:Rabbin} unvanındaki iyelik eki bu kaynağı tekil muhatabın Rabbi olarak belirler. Sahiplik, yetki ve yönetme çağrışımları min'in kaynak ilişkisiyle buluşunca gözeten, geçimi sürdüren bir kaynak duyulur; min rabbika söylenişinde min'in sonundaki n'nin r'ye katılması da bu bağı ses içinde taşır. Rabb unvanıyla ilişkili yetiştirme ve tamamlama kolu bu kaynak imgesine ayrı bir gelişme yankısı ekler; burada temel anlam yine Rab unvanıdır.
+
+Ardından gelen {ar:تَرْجُوهَا, tr:tarjūhā, gloss:onu umarsın} ikinci tekil muhatabı özne yapar; fiilin sonundaki dişil hā, umulan nesne olarak rahmeti gösterir. Muzari çekimin olumlu anlamı, iyi bir sonucun gerçekleşmesini umutla beklemektir: rahmet umut ufkunda kalır, henüz elde edilmiş sayılmaz. Fiil vakti ve sonucu açık bırakır. Şarttan sonra gelen emir ise bekleyiş sürerken verilebilecek karşılığı şimdiye taşır.
+
+## Aynı muhataba yönelen söz
+
+Umut cümlesinin ardından {ar:فَ, tr:fa, gloss:öyleyse, bunun üzerine} şartın cevabını başlatır ve hemen {ar:قُلْ, tr:qul, gloss:söyle} buyruğuna geçer. Fa ile qul hem söz diziminde hem seste tek bir sonuç vuruşu gibi gelir: açıklanan durumun karşılığı gecikmeden söze dökülür. Buyruğun ardından gelen {ar:قَوْلًا مَّيْسُورًا, tr:qawlan maysūran, gloss:kolay bir söz}, söyleme eyleminin nasıl bir ürüne dönüşeceğini bildirir. Bu akış, görünen emir, alıcı ve söz nesnesi arasındaki ilişkiyi belirginleştirir.
+
+Sözün alıcısı {ar:لَّهُمْ, tr:lahum, gloss:onlara} ile hemen gösterilir. Lām edatıyla çoğul hum zamiri, qul buyruğunu aynı kişilere yöneltir. Az önce {ar:عَنْهُمُ, tr:ʿanhumu, gloss:onlardan} içindeki hum uzaklaşma yönünü tutarken, lām şimdi yönü onlara çevirir: hareket onlardan uzaklaşmaktan onlara seslenmeye döner. Alıcının önce belirtilmesi cevabın odağına aynı kişileri yerleştirir; sözün kendilerine erişip yarar sağlaması beklenen karşılıktır. Bu yöneliş alıcıyı belirler, maddi aktarımın miktarını ya da vaadini değil.
+
+{ar:قَوْلًا, tr:qawlan, gloss:bir söz} belirsiz mansup mastar olarak qul emrinin söz ürününü adlandırır. Aynı söz ailesindeki emirden isimle belirtilen ürüne geçiş, konuşma eylemini duyulur bir ifadeye dönüştürür; belirsiz biçim de ezberlenecek hazır bir kalıp dayatmaz. Sözü niteleyen {ar:مَّيْسُورًا, tr:maysūran, gloss:kolay} edilgen ortaç, güçlüğün karşıtı olan kolaylığı doğrudan qawlan'a bağlar. Buradaki kolaylık, muhataba erişebilir söyleyiştir; bolluk anlamı maysūran'ın ayrı söz kolunda yer alır. Qawlan'ın tanvinli inişini maysūran'ın m başlangıcı ve uzun ū'su izler; bu kadans, anlamı da söyleyişi de kolaylaştırılmış söz üzerinde kapanır.
+
+Bu yüz çevirme ile sözün yeniden alıcıya yönelmesi, yakın ebeveyn hitabının ayrı görgü sahnesiyle karşılaştırılabilir. 17:23'te ebeveynlere {ar:وَقُل لَّهُمَا قَوْلًا كَرِيمًا, tr:wa-qul lahumā qawlan karīman, gloss:onlara onurlu bir söz söyle} denir ve {ar:وَلَا تَنْهَرْهُمَا, tr:wa-lā tanharhumā, gloss:onları azarlayıp itme} buyruğuyla sertçe azarlama engellenir (17:23). 17:24'te ise {ar:جَنَاحَ ٱلذُّلِّ, tr:janāḥa al-dhull, gloss:alçakgönüllülük kanadı} imgesi bedeni alçaltıp sığınak açan bir yöneliş kurar; {ar:مِنَ ٱلرَّحْمَةِ, tr:min ar-raḥmati, gloss:merhametten} doğan dua bu hareketi merhamete bağlar (17:24). Bu eğilen bedenin karşısında 17:28'deki {ar:تُعْرِضَنَّ عَنْهُمُ, tr:tuʿriḍanna ʿanhumu, gloss:onlardan yüz çevirme} ve rahmet arayışıyla sınırlanan geri çekiliş, aynı kişilere yönelen {ar:قَوْلًا مَّيْسُورًا, tr:qawlan maysūran, gloss:kolay bir söz} ile ilişkisel bir karşı jest kazanır: beden uzaklaşsa da söz muhatabı ilişkinin içinde tutabilir. Bu karşılaştırmada 17:23'teki karīman onurlu söyleyişi, 17:28'deki maysūran erişilebilir söyleyişi belirler; beden imgeleri de ayrı ayetlerin kendi yönelişlerinde kalır.
+
+17:25'te Rabbin insanların içindekini bildiği, iyilik üzere olanlar ve sık sık yönelenler için bağışlayıcı olduğu söylenir; {ar:رَّبُّكُمْ أَعْلَمُ بِمَا فِى نُفُوسِكُمْ, tr:rabbukum aʿlamu bimā fī nufūsikum, gloss:Rabbiniz içinizde olanı daha iyi bilir}, {ar:صَٰلِحِينَ, tr:ṣāliḥīn, gloss:iyilik üzere olanlar} ve {ar:لِلْأَوَّٰبِينَ غَفُورًا, tr:lil-awwābīna ghafūrā, gloss:sık sık yönelenlere karşı bağışlayıcı} ifadeleri bu iç yönelişi adlandırır (17:25). Sık sık yönelme motifi odaktaki rahmet arayışına yön bakımından eşlik eder; bedenin yüz çevirdiği koşulda iç yönelişi de duyurur, muhataplara bedenen geri dönmeyi değil. İyilik üzere olma, ilişkiyi onarma ve soğukluğu giderme ihtimaline alan açar; ifade yine iyilik üzere olma niteliğidir. Bu olasılık yüz çevirenin niyetini belirlemez: 17:25 ebeveynlere yönelik olabilir ve 17:28'deki isteği ya da alıcıların kusurunu sınıflandırmaz. 17:28'in kendi dizilişi ise rahmet arayışı, umut ve aynı kişilere söylenecek sözle geçici yetersizliğin kalıcı terk edişe dönüşmeyebileceğini düşündürür.
+
+Bu tekil muhataba yönelmiş emirle ayrı bir dua düzlemi arasında sınırlı bir yakınlık da vardır. Fâtiha 1:5'in çoğul {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa-iyyāka nastaʿīn, gloss:Yalnız Senden yardım dileriz} sözü, odaktaki Rabbinden rahmet arama ve onu umma ifadelerinin yanına Allah'a dayanma çerçevesi getirir (1:5). Çoğul dua ile tekil emir ayrı söz edimleridir; bu yakınlık bekleyişe Allah'a dayanma dili ekler, 17:28'in sözünü dua alıntısına ya da rahmeti maddi ödeme ve gelecek yardım güvencesine dönüştürmez.
+
+Umut fiilinin söz ailesinde bir işi sonraya bırakma anlamı taşıyan ayrı bir kullanım bulunur; buradaki {ar:تَرْجُوهَا, tr:tarjūhā, gloss:onu umarsın} ise iyi bir sonucu umutla bekler. Bu iki anlamın ayrılığı, 2:235'te iddet tamamlanmadan nikâh akdi bağlanmamasına rağmen uygun sözün söylenebilmesiyle ve 17:30'da rızkın genişleyip daralmasıyla yan yana düşünüldüğünde, sonuç beklenirken konuşmanın ilişkiyi taşıdığı bir yankı açar (2:235, 17:30). Bu karşılaştırma, erteleme ve bekleme sürecinde sözün mümkün kalmasını odaktaki ilişkiyle buluşturur; 2:235'in hukuki takvimi kendi bağlamındadır, 17:28'deki fiil umut bildirir ve yardımın geleceğini belirlemez.
+
+Sözün muhataba uygun kolaylığı, 3:159'daki yumuşaklığın insanların çevreden dağılmasını önlemesiyle ilişkisel bir etki kazanır (3:159). Bu ayet yumuşaklığın insanları bir arada tutan sonucunu, maysūran'ın ayrı kullanımları ise canlılarda yumuşak başlılık ve yönlendirilmeye çabuk uyumu, daha özelde binek hayvanının hafif ve düzgün adımını ekler. Birlikte bu iki katkı, kolay sözü muhataba uyum sağlayan, ilişkiyi sürdürebilen bir karşılık gibi duyurur; odak ayetteki doğrudan anlam yine qawlan'ı niteleyen kolaylıktır.
+
+Bu söz eylemi, maddi karşılığın kısıtlanabildiği başka sahnelerde de anlamını korur. 4:5'te mal idaresine sınır konurken geçim, giysi ve güzel sözün sürmesi, maddi kısıtlamanın bakım ilişkisini tümüyle kesmediğini gösterir; 4:63'te geri çekilmenin ardından aynı kişilere öğüt ve etkili söz yöneltilmesi, konuşmayı mesafeden sonra gelen etkin bir karşılık yapar (4:5, 4:63). Bu iki sahnenin katkıları farklıdır: biri sözlü ve maddi bakımın yan yana sürmesini, diğeri uzaklaşma ardından muhataba yeniden sözle yönelmeyi gösterir. Bu örnekler kendi bağlamlarında kalırken 17:28'deki kolay sözün imkân sınırlıyken ilişkiyi taşıyan gerçek bir edim oluşunu aydınlatır.
+
+17:53'te en güzel sözü söyleme buyruğu, insanlar arasında ayrılık çıkaran şeytan uyarısıyla yan yana gelir (17:53). Bu söz etiği, 17:28'de aynı kişilere yöneltilen {ar:قُلْ, tr:qul, gloss:söyle} emrinin ilişkiyi koruyabilecek yönünü belirginleştirir. Bağlantı, sözün ilişkileri koruma işlevini büyütür; 17:28'in muhataplarını bir çatışmanın tarafı olarak tanımlamaz ve kendi başına yardım vaadi kurmaz.
+
+## İmkân ve bekleyiş
+
+Yakın bağlam hakkı gözetme ile harcama ölçüsünü birlikte kurar: 17:26'da yakınların ve yoksulun hakkı verilir, 17:27'de savurganlık yasaklanır; 17:29'da elin boyna bağlanmasıyla bütünüyle açılması iki sınır imgesi kurar; 17:30'da rızkın genişleyip daralması imkânın değişkenliğini ekler (17:26, 17:27, 17:29, 17:30). Bu sırada 17:28'in {ar:قَوْلًا مَّيْسُورًا, tr:qawlan maysūran, gloss:kolay bir söz} buyruğu, alıcının hakkı sürerken o andaki aktarımın ölçülebileceği aralıkta sözlü karşılığı öne çıkarır. Aranan Rab rahmeti 17:26'daki {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:onun hakkı}nı isteğe bağlı hayra dönüştürmez; arayışın nesnesi Rabbin rahmetidir, alıcı adına ödeme çabası değil. Bağlam ölçülü kısıtlamaya yer açar, fakat bunun nedenini ya da konuşanın imkânının yetip yetmediğini belirtmez.
+
+17:30'da rızkın genişletilmesi, rahmetin aranıp umut edilmesiyle yan yana geldiğinde ileride kapasitenin artmasını bir ihtimal olarak açar (17:30). Aynı ayetteki {ar:وَيَقْدِرُ, tr:wa-yaqdiru, gloss:daraltır, ölçülü verir}, rızkın daraltılıp paylaştırılmasını anlatır; böylece ayet hem genişleme ihtimalini hem mevcut payın ölçülülüğünü gösterir, alıcının yeri ya da konuşanın elindeki miktar hakkında hüküm vermez. 17:29'daki {ar:يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ, tr:yadaka maghlūlatan ilā ʿunuqika, gloss:elini boynuna bağlanmış tutmak} imgesi, elde tutmanın kalıcı kapanmaya dönüşme tehlikesini görünür kılar; 17:30'daki değişken rızık ise bu duraklamanın değişmez alıkoyma olmadığını düşündürür (17:29, 17:30). Maysūran'ın ayrı varlık ve bolluk anlamı rızık bağlamında kaynaklara dair yankı açarken, odaktaki dilbilgisi sözcüğü qawlan'a bağlar: burada nitelenen söz kolay ve erişilebilirdir. Bu kaynak yankısı zenginlik ya da ilerideki ödeme hakkında güvence vermez. Elin kapalı ve açık imgeleri yönü gösterir ama miktar kotası koymaz; ölçülülük ihtiyacı gözetirken eldekinin tamamını tüketmeyi şart koşmaz.
+
+17:31'de yoksulluk korkusuyla çocukların öldürülmesine ilişkin ağır uyarı, eli boş kalma düşüncesini paylaştırılmış rızıkla birlikte ele alır (17:31). Bu sahne, 17:28'deki yüz çevirme ve zorunlu sözün toplumsal ağırlığını daha büyük bir şiddet ölçeğinde görünür kılar: maddi darlık muhtaç kişiyi muhataplıktan çıkarma riskini taşırken odaktaki söz onu dinlenen ve ilişki içinde kalan biri olarak tutar. Bağlantı ölçekler arası bir benzetmedir; para vermemeyi çocuk öldürmeyle eşitlemez, sahnelerin kişilerini ve saiklerini birleştirmez. 17:28 konuşanın eli boş olduğunu söylemediği için ihtiyatlı tasarruf olasılığı açıktır; fiilî imkânsızlık ise belirtilmez.
+
+Bu koşul ve cevap dizilişi, maddi eylem beklerken ilişkiyi açık tutan bir aralık gibi duyulur. İbtighāʾa'daki süren arayış rahmeti hedefte, tarjūhā'daki umut ise onu henüz gelecekte tutar; geri çekiliş böylece devam eden çabanın içinde yer alır. Rahmetin koruma ve iyilik etme yönü bekleyişe özen katar; hemen ardından gelen qul buyruğu ve qawlan maysūran bu aralıkta şimdi yapılabilen, sese dökülmüş karşılığı verir. Kolaylaştırılmış söyleyiş muhataba geçişi hafifletip sonucu beklerken ilişkiyi taşır. Bu okuma aralığın niteliğini açıklar; yardımın geleceği, kapasitenin artacağı ve kullanılacak tam ifade ise belirlenmiş değildir.
+
+Bekleyişe geleceğe dönük bir güvence eklenecekse, 17:34, 17:35 ve 17:36'daki sorumluluk ve bilgi ölçüleri o sözü biçimlendirir. 17:34 ahde bağlı kalmayı ister (17:34), 17:35 tam ölçüyü ve dosdoğru tartıyı buyurur (17:35); bu ilkeler teselliyi konuşanın yerine getirebileceği ve adilce ölçebileceği söz olarak kurar. 17:36 bilinmeyenin peşine düşmemeyi buyurur (17:36), dolayısıyla gelecek hakkında söylenen de bilgi sınırında kalır. Kolay sözün şefkati iyimserliği büyütmekten değil, doğruluğu ve ölçüyü korumaktan gelir; nezaket vaat içermeden de mümkündür. Bu özel koşullu cevap yardım sözü vermez.
+
+## Umudun açtığı imgeler
+
+Rahmetin bekleyişle ilişkisi, Fâtiha 1:3'teki {ar:ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:al-Raḥmān al-Raḥīm, gloss:Rahmân ve Rahîm} adlarıyla ve 18:82'deki {ar:رَحْمَةً مِّن رَّبِّكَ, tr:raḥmatan min rabbika, gloss:Rabbinden bir rahmet} ifadesiyle geniş bir yankı kazanır (1:3, 18:82). Fâtiha'daki adlar merhametin niteliğini adlandırır; 18:82'de duvarın iki yetim çocuk erginleşene dek hazineyi koruması, bu niteliğe sonucu zaman içinde gözetilen somut bir yarar ekler (18:82). Birlikte, beklenen iyiliğin gecikmesinin de merhametle bağdaşabileceğini düşündürürler. Rabb unvanıyla ilişkili yetiştirme ve tamamlama kolu bu koruma imgesine gelişme yankısı katar; duvar, hazine ve yetimler ise bu ayrı ayetin somut sahnesi olarak kalır.
+
+Bu yankı, odağın kaynak ve zaman ilişkisini bir gelişme imgesiyle düşünmeye imkân tanır. Rahmet Rabbinden aranır ve henüz umulur; kaynak ilişkisi beklenen iyiliği konuşanın elindeki hazır imkândan ayırır. Rabb unvanıyla ilişkili ayrı yetiştirme ve eksikten tamamlanana doğru geliştirme kolu, bekleyişe zaman içinde beslenen kapasite boyutu ekler. Maysūran'ın ayrı varlık ve bolluk anlamı bu imgeye maddi imkân ölçeği getirirken, odaktaki dilbilgisi sözcüğü kolay söz olarak tutar. Bu kollar birlikte beklenen iyiliğin oluşup erişilebilir hâle gelmesini tasavvur ettirir; bu özel benzetme yoksunluğu saptamaz, zenginlik ya da zaman çizelgesi vaat etmez.
+
+Gelişme imgesinden ayrı bir benzetme, iyiliğin içte taşınıp belirmeye yaklaşmasını düşündürür. Tarjūhā'nın doğrudan anlamı olumlu bir sonucu umutla beklemektir; aynı söz ailesindeki doğuma yaklaşma kullanımı bu bekleyişe belirme eşiği imgesi katar. Rahma merhamet anlamını korurken aynı söz ailesindeki rahim kullanımı oluşumun içte taşınmasını çağrıştırır. {ar:مِّن رَّبِّكَ, tr:min rabbika, gloss:Rabbinden} beklenen iyiliğin kaynağını belirler; Rabb'le ilişkili yetiştirme imgesi ise bu oluşuma gözetim ve gelişme boyutu verir. {ar:مَّيْسُورًا, tr:maysūran, gloss:kolay} kolaylaşan bir açılma noktası ekleyince bu katkılar henüz tamamlanmamış iyiliğin belirmesini tasavvur ettirir. {ar:إِمَّا, tr:immā, gloss:eğer, her ne zaman} koşulu ve umut, bu okumada yüz çevirmenin geçici bir aralık gibi duyulmasını sağlar; geçicilik fiilin biçiminde değil, koşul ile umut arasındaki ilişkidedir. Bu özel imge biyolojik bir olay ya da dışarıdan yardımın reddi iddiası değildir ve belirli bir vade koymaz.
+
+Sonucun vakti ve biçimi açık kaldığında, aynı kolay söz ölçülü ve dolaylı bir söyleyiş ihtimalini taşır. {ar:تُعْرِضَنَّ, tr:tuʿriḍanna, gloss:yüz çevirirsen}deki yana dönme geri çekilişi, {ar:قَوْلًا, tr:qawlan, gloss:bir söz} buyruğu ise söze yönelen karşılığı sağlar; {ar:مَّيْسُورًا, tr:maysūran, gloss:kolay} bu karşılığın muhataba zorluk çıkarmayan, anlayışlı bir biçim almasına alan açar. {ar:تَرْجُوهَا, tr:tarjūhā, gloss:onu umarsın} olumlu bir sonucu beklemeyi sürdürdüğünden rahmetin zamanı ve biçimi açık kalır; böylece ölçülü söyleyiş belirsizliği soğuk bir geri çevirmeye dönüştürmeden taşıyabilir. Bu, olası bir üslup yönüdür, belirli bir cümle reçetesi değil; gelecek hakkında vaat etmeyi ne gerektirir ne de yasaklar.
+
+Sözün ilişki yükünü taşıması ise ayrı, daha küçük bir imgedir. {ar:قُلْ, tr:qul, gloss:söyle} emri eylemi, {ar:قَوْلًا, tr:qawlan, gloss:bir söz} ismi onun ürününü gösterir; {ar:لَهُمْ, tr:lahum, gloss:onlara} alıcıları belirgin tutar ve maysūran sözün onlara erişmesini kolaylaştırır. Söyleme ailesindeki yükü kaldırıp taşıma anlamı bu eylem-alıcı ilişkisine eklenince, düşük maliyetli küçük bir sözün bakım ve gündelik bağın ağırlığını taşıyabileceği duyulur. Yük burada ilişkisel imgedir; maysūran'ın doğrudan anlamı kolaylıktır, kısalık değil. Böylece söz maddi iyiliğin yerini almadan bekleyiş sırasında ilişkiyi ayakta tutan bir karşılık olabilir.
+
+</editorial_prose>

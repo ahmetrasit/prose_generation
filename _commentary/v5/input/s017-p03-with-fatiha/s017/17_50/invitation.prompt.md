@@ -1,0 +1,185 @@
+# V5 reading invitation — 17:50
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_50/17_50.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_50/17_50.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Söylenen Hâl
+
+Âyetin kısa buyruğu, “De ki: {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} ya da {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} olun” sözleriyle açılır. {ar:قُلْ, tr:qul, gloss:söyle} ile {ar:كُونُوا۟, tr:kūnū, gloss:olun} emirleri arasındaki kısa durak, söyleme eylemini ardından gelecek maddi hâl sözüne bağlar. Kemik ve ufalanmış kalıntılardan sonra yeni yaratılışın nasıl olacağı sorusuna verilen cevap (17:49), böylece işitilebilir, muhataplara dönük bir bildiriye dönüşür. Sözün içeriği taş ya da demir hâlidir; söyleme buyruğu bu maddeleri meydana getiren bir güç isnat etmez.
+
+Bu hitapta tekil {ar:قُلْ, tr:qul, gloss:söyle} ile çoğul {ar:كُونُوا۟, tr:kūnū, gloss:olun} arasındaki kişi değişimi duyulur: söyleme emri hitabı taşıyan muhataba, hâl buyruğu ise itirazı dile getiren topluluğa yönelir (17:49). Söyleme kökünün burada öne çıkan yanı, sözü sesli biçimde dışarı çıkarıp kamusal bildiriyi kurmasıdır. Bu yerel kullanım iç kanaat ya da suçlama değil, dışa yöneltilmiş sözlü hitaptır; çoğul hitabın kapsamı da bu karşılaşmayla sınırlıdır.
+
+{ar:كُونُوا۟, tr:kūnū, gloss:olun}, olağan “olmak, bir hâlde bulunmak” anlamındaki fiilin Form I çoğul emiridir. Tek bir fiil iki belirtme durumundaki isim yüklemini yönetir: önce {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}, ardından {ar:أَوْ, tr:aw, gloss:ya da} ile ayrılan {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir}. İki ad aynı fiile bağlanır; ayrıca bir dönüşüm fiili ya da işlem gören nesne kurulmaz. Form I çoğul emir, ettirgen dönüşüm değil, bu hâllerde bulunma çağrısıdır: muhataplardan taş ya da demir yaratmaları değil, bu hâlleri üstlenmeleri istenir. Belirsiz adlar tek bir kaya veya demir parçasından çok madde sınıflarını gösterir. Bu iki madde, itiraza karşı bir sığınak gibi tasarlanarak meydan okumayı en dirençli hâllere kadar taşır; yine de bu tasavvur dirilişin önünü kesmez ve ilahi kudrete sınır koymaz.
+
+Bu cevap, kemiklerden ufalanmış kalıntılara uzanan itirazın maddi ufkunu değiştirir (17:49). {ar:عِظَامًا, tr:ʿiẓāman, gloss:kemikler} bedenin sert kalıntılarını, {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış kalıntılar} da dağılmış parçaları öne çıkarırken; {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} ile {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} aynı diriltilme sorusunda daha dirençli iki madde hâli olur (17:49). {ar:مَبْعُوثُونَ, tr:mabʿūthūna, gloss:diriltilecek} sözü bütünlüğünü yitirmiş kalıntıları da sorunun içinde tutar. Bu sıra yalın bir sertlik yükselişi olarak okunabilir; ayrıca dağılmış kalıntılarla yoğun ve dirençli maddeleri karşı uçlara yerleştirip bütünlüğün azalmasının dönüş imkânını belirlemediği bir yelpaze açar. Bu ikinci çizgi yorumlayıcıdır; yalın sertlik okuması da yerinde kalır. Yakınlık, 17:49'daki kalıntı itirazını, odaktaki maddi buyruğu ve ilk var ediş cevabını tek dönüş sorusunda buluşturur (17:49, 17:51), ancak aralarında fiziksel bir yeniden-birleşme süreci tarif etmez.
+
+İtirazdaki {ar:خَلْقًا, tr:khalqan, gloss:yaratılış} olağan anlamıyla yaratılıştır (17:49). {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} ile {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} gibi ayrı maddi biçimlerin yan yana gelişi, bu sözcüğün ölçü ve oran vererek biçimleme imgesini etkinleştirir: dönüş, başka biçimlerde var edilebilme açısından da duyulur. Aynı sözcüğün varlığa getirme yönü, ilk var ediş cevabına bağlandığında ikinci bir katkı sunar (17:51). {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} yaratmanın başlangıcını, {ar:أَوَّلَ مَرَّةٍ, tr:awwala marratin, gloss:ilk kez} ise bu başlangıcın önceliğini öne çıkarır. Böylece bir yanda biçimlenebilirlik imgesi, öte yanda mevcut biçimleri var eden ilk başlangıç belirir; ölçü-biçimleme çağrışımı fiziksel bir yaratma yöntemi tarif etmez.
+
+Yeni yaratılış itirazındaki {ar:جَدِيدًا, tr:jadīdan, gloss:yeni} olağan “yeni” anlamını korurken kesinti sonrasındaki yenilik düşüncesini de çağırır (17:49). Bu çağrışım, taş ve demir karşısındaki dönüşü yenilenme yönünden duyulur kılar; burada söz konusu olan yeni oluşun imgesidir, kesme ya da yeniden birleştirme sahnesi değil. Ardından gelen {ar:أَوْ خَلْقًا مِّمَّا يَكْبُرُ فِي صُدُورِكُمْ, tr:aw khalqan mimmā yakburu fī ṣudūrikum, gloss:ya da göğüslerinizde büyüttüğünüz başka bir yaratılış} seçeneği, açıkça anılan {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} ve {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} maddelerinden daha geniş bir tasavvura geçer (17:51). {ar:كُونُوا۟, tr:kūnū, gloss:olun} buyruğu bu devamda da bir hâle girme anlamını taşır: taş ve demir, muhatapların göğüslerinde büyüttükleri başka bir yaratılış ihtimaline açılır. Bu ek seçenek abartılı bir vurgu olarak da okunabilir; somut ilk seçenekler yine taş ve demirdir.
+
+İlk var ediliş cevabı geri dönüş sorusunu yanıtlar: {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} sorusunun karşısına {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} ve {ar:أَوَّلَ مَرَّةٍ, tr:awwala marratin, gloss:ilk kez} çıkar (17:51). {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti}nin başlangıç anlamına eşlik eden açma ya da yarma imgesi, dönüşü önceki biçimin ötesinde yeniden başlangıç olarak duyurur; bu bağlantıda imge, somut bir kesme eylemi değil, ilk var edişin nasıl işitildiğine dair bir yankıdır. Cevabın ardından başların hareketi {ar:يُنْغِضُونَ, tr:yunghiḍūna, gloss:hareket ettirirler} ve {ar:رُءُوسَهُمْ, tr:ruʾūsahum, gloss:başlarını} sözleriyle görünür olur (17:51). Jest şaşkınlık ya da kuşku gösterebilir, ayrıca itirazın bedensel yankısı olarak okunabilir; böylece dönüş tartışmasına insanın verdiği tepkiyi ekler, dönüşü gerçekleştirmez.
+
+## Taş ile Demirin Direnci
+
+İki yüklemin ilki olan {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}, buyruğun ilk somut maddi hâlini kurar. Belirsiz biçimi tek bir kaya parçasını değil, taş türünü açık bırakır. Taşın önce gelişi doğal kayanın sertliğini başlangıç noktası yaparken, ardından gelen {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} işlenmiş metal imgesini açar. Taş sözcüğünün pürüzlü ve ağır duyulabilen tınısı bu maddi ağırlığa işitsel bir karşılık ekler; ses izlenimi temkinlidir ve sözlük anlamından ayrı bir izlenim olarak kalır.
+
+{ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}ın kök ailesindeki kapalı alan ve erişimi kısıtlama kullanımları, ilk yüklem oluşunu hemen ardından gelen {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} seçeneğiyle birleştirerek kapanma basıncı yaratabilir. Bu yankı, taş ve demiri itiraza karşı sığınak gibi tasarlanan dirençli hâller olarak duyurur. Kapanma burada taş sözcüğünün maddi anlamına eklenen kök-aile çağrışımıdır; taş yine somut madde adıdır ve bu bağlantı aşağıdaki bileşik engel imgesinden ayrıdır.
+
+Taştan sonra gelen {ar:أَوْ, tr:aw, gloss:ya da}, aynı {ar:كُونُوا۟, tr:kūnū, gloss:olun} buyruğunun ikinci hâli olan {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir}i ilk seçenekten ayırır. İki ağır ad arasındaki parçacık işitilir bir vuruş ve kısa bir durak yaratırken, doğal kaya imgesinden işlenmiş metale geçiş dirençte bir yükseliş gibi duyulabilir. Bu yön duygusu sıralamanın olası etkisidir; {ar:أَوْ, tr:aw, gloss:ya da} iki ayrı seçeneği sunar, zorunlu derece ölçeği kurmaz. Belirsiz tekil {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} belirli bir parça değil madde türüdür. Demir yerel ikilinin doruğunu oluşturur; dönüş söyleyişi ise sürer ve yeni bir yaratılış ihtimaline açılır (17:51).
+
+{ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}ın çoğul biçimiyle {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir}in belirsiz tekil biçimi, ikiliye farklı işitsel ve görsel ağırlıklar verir. Demir adındaki diş ünsüzleri keskinlik izlenimi yaratabilir; bu ses katmanı temkinli bir duyumdur ve kendi başına bir direnç derecesi belirlemez. Bundan ayrı olarak, demirin kök ailesindeki kenar ve sınır kullanımları son konumunu ölçülü biçimde renklendirir. Bu sözlüksel yankı demir sözcüğünü bıçak ya da soyut sınır anlamına taşımaz; maddi demir imgesiyle yan yana durur.
+
+Aynı {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} kök ailesindeki bir kişiye ya da buyruğa karşı çıkma ve boyun eğmeme anlamları, maddi direncin yanına sosyal bir karşı koyuş duruşu ekler. Yeni yaratılış kuşkusu ile çoğul muhataplara yönelen buyruk bu benzetmeyi etkinleştirebilir (17:49). Bu bağlantıda odaktaki demir maddi seçenek olmayı sürdürür; karşı koyuş, demirin iradesi değil, itirazın çağırdığı sosyal yankıdır.
+
+Kök ailesindeki ayrı engelleme kullanımları, atfedilmiş bileşik bir imge içinde birbirini tamamlar. {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}ın erişmeyi, yararlanmayı ya da üzerinde işlem yapmayı kısıtlayan yanı önce yaklaşma ve kullanım imkânını keser. {ar:أَوْ, tr:aw, gloss:ya da} ile seçilen {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} iki şeyi ayırıp karışmalarını önleyen sınır çizgisini ekler; bu çizgi bir alanın kapsamını ya da son noktasını da belirleyebilir. Demirin kök ailesindeki başka bir engelleme kullanımı giriş ve çıkışı veya bir eylemi durdurmayı kapsar. Böylece taş erişimi keserken demir ayırır, sınırlandırır ve geçişi önler: katkılar tek bir geniş engel imgesinde birleşse de ayrı işlemler olarak kalır. Bu özel kök-aile okumasında taş ve metal somut maddelerdir, demir hukukî yasak ya da soyut terime dönüşmez ve tasarlanan engel dirilişi fiilen durdurmaz.
+
+Aynı ikili, bileşik engel okumasından ayrı, iki direnme tarzını yan yana getiren keşifsel bir imge de açabilir. {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} yoğun, künt ve yerinden oynamayan bir kütle olarak ağırlığıyla karşı koyar; {ar:أَوْ, tr:aw, gloss:ya da} ile seçilen {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} ise kök ailesindeki kesici veya delici aracın ince, keskin ağzını çağrıştırarak nüfuz eden direnç biçimini ekler. Böylece {ar:أَوْ, tr:aw, gloss:ya da} yalnız iki maddeyi değil, kütleyle keskin kenar arasında iki ayrı direnme tarzını da yan yana duyurabilir. Bu imgesel temas demiri bıçak anlamına getirmez; daha yalın sertlik yükselişi de geçerliliğini korur.
+
+Taşın sertliğine açılma ve tepki ihtimali de eşlik eder: bazı taşlardan ırmaklar fışkırır, bazıları yarılıp içlerinden su çıkar, bazıları Allah korkusuyla aşağı iner (2:74). Bu görüntüler odaktaki {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}ı yalnızca kapalı kütle olarak düşünmeyi zorlaştırır; direnç, her bağlamda tepkisizlik anlamına gelmez. Yankı bu bağlantıyla sınırlıdır: 2:74'teki taşların odaktaki taşlarla aynı nesneler olduğu ya da bütün taşların akışkan ve duyarlı bulunduğu ileri sürülmez; ilişki biçimbilgisel değil bağlamsaldır.
+
+Taş yüzeyine uzak bir pürüzsüzlük imgesi de eklenebilir. {ar:أَصْفَىٰ, tr:aṣfā, gloss:seçip ayırdı} fiilinin olağan seçme ve ayırma anlamı, aynı söz ailesinde toprağından ya da kilinden arındırılmış pürüzsüz taş imgesiyle yan yana durur (17:40). Odaktaki {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} bu yüzey yankısını tetikleyince sertliğe kısa süreli bir pürüzsüzlük dokusu eklenir. Bu uzak, keşifsel bağlantı söz ailesine aittir; çekimli fiil seçip ayırmayı anlatır, pürüzsüz taşı değil (17:40).
+
+Demirin iki başka bağlamdaki görüntüsü direnç imgesine birbirini dengeleyen iki katkı verir. Parçalar iki yamacın arasına yerleştirilip ısıtıldığında, odaktaki {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} için sınırın maddi biçimini kuran bir set belirir (18:96). Davud için demirin yumuşatılması ise aynı maddenin işlenebilirliğini öne çıkarır (34:10). Birlikte okunduklarında, demirin sınır oluşturabilmesiyle şekil alabilmesi yan yana gelir: sertlik, mutlak işlenemezlik değildir. Bu yakınlık odak sözcükle biçimbilgisel eşleşme ya da diriliş kanıtı değil, iki ayrı bağlamdan kurulan bir karşılaştırmadır. Yumuşatmayı direnç okumasına karşı örnek saymak da, bağlantıyı anlamlı bulmamak da mümkün; değerlendirme açık kalır.
+
+## Alımlama, Yetki ve Ölçek
+
+Maddi dirençten alımlama sorusuna geçildiğinde, {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} ile {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} de her şeyin tesbih ettiği bildirimin kapsamına girer (17:44). {ar:شَىْءٍ, tr:shayʾin, gloss:bir şey}in genişliği bu iki maddeyi de içerir; insanların tesbihi kavrayamaması, anlaşılmazlığın sınırını insanın idrakine yerleştirir (17:44). {ar:يُسَبِّحُ, tr:yusabbiḥu, gloss:tesbih eder} ve {ar:لَا تَفْقَهُونَ تَسْبِيحَهُمْ, tr:lā tafqahūna tasbīḥahum, gloss:tesbihlerini kavrayamazsınız} birlikte okunduğunda, maddenin tesbihinin insan için kavranamaz olduğu belirginleşir; taş ve demir insan gibi konuşan özneler hâline gelmez. Bu bağlam, dirençli maddeleri de evrensel bildirimin içinde tutar, fakat diriltilmenin fiziksel mekanizmasını açıklamaz (17:44).
+
+Alımlama sahnesindeki kapanma basamak basamak derinleşir: dıştaki {ar:حِجَابًا, tr:ḥijāban, gloss:örtü} perdeyi kurar (17:45); kalplerin üzerindeki {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler} ve kulaklardaki {ar:وَقْرًا, tr:waqran, gloss:ağırlık} kapanmayı alıcının içine taşır (17:46); {ar:سَبِيلًا, tr:sabīlan, gloss:yol} bulamama ise yönelişin kesildiği sonucu verir (17:48). Bu aşamalar, odaktaki {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}ın erişimi kısıtlayan ve {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir}in geçişi önleyen çağrışımlarıyla paralel okunabilir; muhatapların alımlamayı kendini koruyan bir kapanışla daraltması da bu temasa eşlik edebilir. Bu, belirli bir bağlamsal paralelliktir, nedensellik iddiası değil; iki sahnenin ayrı kalması da mümkündür.
+
+Önceki {ar:قُلْ, tr:qul, gloss:söyle} ve {ar:كُونُوا۟, tr:kūnū, gloss:olun} buyruklarının sesli hitabı, çağrı ile karşılık sahnesinde yankılanır. {ar:يَدْعُوكُمْ, tr:yadʿūkum, gloss:sizi çağırdığı} çağrısına {ar:فَتَسْتَجِيبُونَ, tr:fatastajībūna, gloss:karşılık verirsiniz} cevabı gelir; {ar:إِلَّا قَلِيلًا, tr:illā qalīlan, gloss:ancak kısa bir süre} bu karşılaşmanın süresini kısaltır (17:52). Böylece {ar:كُونُوا۟, tr:kūnū, gloss:olun} buyruğundaki maddi hâl, kısa süreli bir yaşantı olarak zamansal ölçü kazanır. Yankı iki ayrı insan hitabı arasındadır; madde konuşan özne olmaz. Komşu akışta kalıntı itirazından buyruğa, oradan çağrı-cevaba uzanan bir çizgi duyulabilir (17:49, 17:51, 17:52); bu olası devamlılık nedensel bir bağ kurmaz.
+
+En güzel sözü söyleme ölçüsü, odaktaki {ar:قُلْ, tr:qul, gloss:söyle} buyruğunun sesli karşılığına hitabın niteliği yönünden temas eder (17:53). {ar:أَحْسَنُ, tr:aḥsanu, gloss:en güzel} sözü ölçüyü kurarken, araya giren {ar:يَنزَغُ, tr:yanzaghu, gloss:kışkırtma çıkarır} sözlü kışkırtmanın riskini görünür kılar (17:53). Söyleme ailesiyle ilişkilendirilen müzakere imgesi de iki taraflı konuşma ihtimalini açar; bu olasılık iyi söz ölçüsüyle yan yana duyulabilir. Bu bağlantı ayrı bağlama ait bir yankıdır: odak âyette karşılıklı konuşma yapısı yoktur, o bağlamın toplumsal durumu da farklı olabilir; iyi söz ölçüsü odak âyetin tek amacı diye sunulmaz.
+
+Kapanma imgesi, engeli kaldırma ve hâli değiştirme yetkisinin kimde olduğu sorusuna geçiş sağlar. Kendilerine yönelinen varlıkların {ar:يَمْلِكُونَ, tr:yamlikūna, gloss:güç yetirirler} sözüyle güç sahibi olmadıkları belirtilir; {ar:كَشْفَ, tr:kashfa, gloss:giderme} zararı ya da engeli kaldırmayı, {ar:تَحْوِيلًا, tr:taḥwīlan, gloss:dönüştürme} ise hâli değiştirmeyi adlandırır (17:56). Bu ayrım, {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}ın erişimi kısıtlayan ve {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir}in geçişi durduran imgelerini bir fail sorusuna bağlar: engeli tasarlamak, onu kaldırma ya da biçimi değiştirme yetkisini vermiyor. Bu yankı yalnızca bu karşılaştırmaya aittir; 17:56'nın güçsüz varlıklardan söz ettiği ve dönüşü doğrudan açıklamayabileceği sınırı korunur (17:56).
+
+Yetki ile kuşatmanın kapsamı farklı yönler açar. İnsanları kuşattığını bildiren {ar:أَحَاطَ بِالنَّاسِ, tr:aḥāṭa bi-n-nāsi, gloss:insanları kuşattı} ifadesi, erişimi {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} ve {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} ile ölçülen maddi direncin ötesine taşır (17:60). Böylece odaktaki kapanma imgesi daha geniş bir insan kuşatması karşısında yerini bulur. Aynı bağlamdaki {ar:فِتْنَةً, tr:fitnatan, gloss:sınama} ise insanlara yönelmiş sınamayı adlandırır (17:60); bu ayrı çağrışım demiri imgesel olarak sınanan bir malzeme hâline getirir. Kuşatma kapsamı genişletirken, sınama demire yeni bir rol verir; bu temas gerçek bir metal deneyi, dövme ya da fırın sahnesi değildir.
+
+Başka yaratılış karşılaştırmaları aynı itirazı farklı ölçülerde sürdürür. Kemik ve ufalanmış kalıntılardan dönüş sorusu yeniden belirir (17:98), toprağa karışma da yenilenmeye yöneltilen kuşkunun zeminidir (32:10). Gökleri ve yeri yaratanın benzerlerini yaratabilmesi (17:99), yaratmayı başlatıp yinelemesi (30:27) ve ilk yaratılışta acizlik bulunmadığı cevabı (50:15), dönüş sorusunu ilk var edişin kudretiyle birlikte düşünmeye açar. Bu ilişkiler odak sözcüklerle biçimbilgisel eşleşme değil, yaratma ve yeniden yaratma çevresindeki anlam yakınlıklarıdır. Bu geniş karşılaştırmada {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş} itirazın tahayyül ettiği engeli, {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} ise direnç çizgisinin sonunu gösterebilir. Sınır, yaratılışın gerçek kudretine değil, itirazın tasarlayabildiği maddi dirence aittir.
+
+Taşın hem dayanıklı hem parçalanabilir oluşu, bedensel kalıntıdan göğe uzanan bir ölçek yankısı kurabilir: göğün parça parça düşürülmesi talebi bu maddi karşıtlıkla yan yana düşünülebilir (17:92). Böylece meydan okumanın tasavvur ölçeği bedenden göğe genişler. Bu yalnızca keşifsel bir karşılaştırmadır; Arapça ifade veya açık metin işareti bulunmadığından (17:92), ortak sözcük ya da kasıtlı gönderme ileri sürülmez.
+
+</editorial_prose>

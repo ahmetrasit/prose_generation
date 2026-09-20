@@ -1,0 +1,205 @@
+# V5 reading invitation — 17:29
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p02-with-fatiha/s017/17_29/17_29.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p02-with-fatiha/s017/17_29/17_29.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## İki Hareket, Aynı El
+
+Önce muhatabın kendi {ar:يَدَكَ, tr:yadaka, gloss:elini} eli görünür: onu {ar:مَغْلُولَةً, tr:maghlūlatan, gloss:bağlanmış} bir hâle getirip {ar:إِلَىٰ عُنُقِكَ, tr:ilā ʿunuqika, gloss:boynuna doğru} yöneltmemesi istenir; ardından aynı eli {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} bütünüyle açıp yaymaması gelir. Ayrı yasaklar iki uç hareketi karşı karşıya getirir; arada tutulacak miktar ya da yöntem söylenmez. Sonuç cümlesinin hemen ardından gelmesi, özellikle tam uzatmayla olan bağı belirginleştirir. İlk hareket de ortak sonuç ufkunda kalır, ancak iki yasağın bu sonuca eşit ölçüde bağlandığı belirtilmez.
+
+Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} önceki söyleyişe eklenir, fakat onun içeriğini burada yeniden kurmaz; böylece iki hareket süren bir talimat akışı içinde duyulur. Her iki yasakta da {ar:لَا, tr:lā, gloss:sakın} parçacığı fiilden ayrıdır ve yasağı fiile yöneltir. İlkinde ikinci tekil eril {ar:تَجْعَلْ, tr:tajʿal, gloss:hâle getirmek} biçimi muhataba doğrudan seslenir; ayrı bir seslenme sözü ya da başka bir katılımcı eklenmez. Fiil {ar:يَدَكَ, tr:yadaka, gloss:elini} ilk nesne olarak alırken {ar:مَغْلُولَةً, tr:maghlūlatan, gloss:bağlanmış} elin içine sokulduğu hâli bildirir. Bu kuruluş, yalnızca bağlı duran bir el değil, muhatabın kendi eli üzerinde kurduğu bir hâl verir. Fiil belirli bir tarihsel kişiyi ya da gerçekleşmiş fiziksel değişikliği saptamak yerine, muhatabın elini bir duruma sokmasını kurar. Özneye yüklenen eylem sorumluluğu kendi başına hukukî ya da psikolojik bir kural koymaz.
+
+Bağlanmış elin yönü de görüntünün kuruluşuna dahildir. {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} edatı {ar:عُنُقِكَ, tr:ʿunuqika, gloss:boynuna} sözcüğünü yönetir; boyun bağlama aracı değil, elin yöneldiği uç noktadır. Sözdizimi önce eli, sonra bağlanmış hâlini, ardından boyna doğru yönelişi verir; sahne bu son unsurla tamamlanır. İyelik eki boynu aynı muhataba bağlar; kısıt böylece kişinin kendi boynuna kapanan somut beden düzeninde belirir. Bu kuruluşun taşıdığı anlam elin kendi bedenine doğru kısıtlanmasıdır; yaralanma, yük ya da hastalık bu görüntüye eklenmez. {ar:مَغْلُولَةً, tr:maghlūlatan, gloss:bağlanmış} biçiminin edilgen ve dişil oluşu, taşıyıcının eril boyun değil dişil {ar:يَدَكَ, tr:yadaka, gloss:elini} olduğunu gösterir; biçim elin durumunu öne çıkarır, bağlayan faili ya da aracı belirtmez. Sözcüğün somut alanındaki demirden ya da ham deriden halka uzvu kuşatıp hareketini sınırlar. Boyunlara geçirilen halkaların çenelere kadar yükselerek kişileri başları kalkık tuttuğu sahne de bu bedensel kısıtı keskinleştirir (36:8). Bu temasın katkısı halka ve hareket sınırıdır; sahneler aynı olay ya da cezaya dönüşmez.
+
+İlk yasaktaki el, ikinci harekette de aynı muhatabın elidir. {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} fiiline ekli dişil zamir yeniden {ar:يَدَكَ, tr:yadaka, gloss:elini} sözcüğüne döner; aynı el iki karşıt hareketin nesnesidir. Bu tekrar, organın bedensel işlevini koruyup elin iş görme ve başkasına erişme kapasitesini de açar. İyelik eki eli muhataba bağlar; malı ayrıca adlandırmaz. Böylece sorumluluk ve verme yankısı somut elde kalır, el de sabit bir “kişinin işleri” deyimine dönüşmez.
+
+İkinci yasak ilkini dilbilgisel olarak karşılar: {ar:وَ, tr:wa, gloss:ve} ile gelen ayrı {ar:لَا, tr:lā, gloss:sakın}, bu kez {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} fiilini yönetir. Paralellik iki ayrı yasağı bir çift hâlinde duyurur; her fiil kendi el düzenini taşır, aralarında bir orta ölçü ya da göreli ağırlık sırası kurulmaz. Kabul edilmiş kıraat varyantının ses vurgusu uzatmayı daha belirgin duyurabilir; bu katkı sözdizimini, zamanı ya da aynı el olan nesneyi değiştirmez.
+
+Uzatmanın ilk görüntüsü bedenseldir: {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} eli hareket alanına çıkarır; {ar:ٱلْبَسْطِ, tr:al-basṭi, gloss:uzatmayı} ise toplamanın karşısındaki yayma eylemini adlandırır. Fiil hareketi başlatır, onunla aynı yayma köküne dönen eylem adı bu hareketi ölçülebilir bir süreç hâline getirir. Aradaki {ar:كُلَّ, tr:kulla, gloss:bütününü} tekil biçimde olsa da kapsam bakımından bütün uzatma eylemini ölçer: yasak yalnızca harekete başlamaya değil, onu tam ölçüsüne kadar sürdürmeye uzanır. Kapsam, tek eylemin bütünlüğüdür; alıcı ya da aktarım başına ayrı bir kural, ömür boyu aktarımların toplamı veya sayısal bir eşik kurmaz.
+
+## Sonuçta Kalan
+
+Tam uzatma ölçüsünün ardından gelen {ar:فَ, tr:fa, gloss:böylece}, doğrudan {ar:تَقْعُدَ, tr:taqʿuda, gloss:oturmak} fiiline bağlanır. Böylece iki ayrı el hareketi tek sonuç cümlesine varır; arada üçüncü bir yasak eylemi yoktur ve iki hareket birbirinin yerine geçmez. Oturmanın öznesi önceki fiillerdeki aynı örtük muhataptır. Biçim, gerçekleşmiş ve tamamlanmış bir çöküşü bildirmekten çok içine düşülebilecek bir sonucu açar. Buradaki {ar:تَقْعُدَ, tr:taqʿuda, gloss:oturmak} ayakta durmanın karşıtı olan bedensel oturuşu ve orada kalışı anlatır. 17:26'daki verme buyruğunun tetiklediği ayrı kullanım, beklenen aktarımı artık yapamama ve eylemden geri kalma gölgesini ekler (17:26); bu bağlantı bedensel oturuşu silmez ya da her oturuşu ret saymaz.
+
+Ardından gelen {ar:مَلُومًا, tr:malūman, gloss:ayıplanmış} ve {ar:مَحْسُورًا, tr:maḥsūran, gloss:tükenmiş}, oturuşta taşınan iki ayrı hâli belirtir. İlki kınanmayı, ikincisi tükenmeyi getirir; birlikte oturuşa toplumsal ve maddi bir daralma boyutu katarlar, biri ötekini açıklayıp ortadan kaldırmaz. Sonucun tam uzatmanın hemen ardından gelmesi ikinci hareketle bağı öne çıkarır; ilk yasağın aynı kuvvette bir sonuç bağı kurduğunu göstermez. İki hâlin açtığı eylem daralması, hastalık, kalıcı yetersizlik ya da bir daha eylemde bulunamama tanısı değildir.
+
+Eril edilgen {ar:مَلُومًا, tr:malūman, gloss:ayıplanmış} biçimi kınanmayı aynı muhatabın üzerine yerleştirir; böylece toplumsal kenar görünür olurken kınayan kişi ya da merci açık kalır ve resmî bir yargı kurulmaz. Sözcüğün alanı ayıplanan davranışın kişiye yüklenmesini taşır. İçten öz-kınama mümkün bir karşı-okuma olarak kalır, ancak yerel yapı onu seçmez; biçim kınanmanın hak edilmişliğini de belirlemez.
+
+Ayrı bir yasaktan sonra oturup kınanma ve yardımsız kalma sonucunun belirmesi, odaktaki sonucu bir sorumluluk yankısına yaklaştırır (17:22). Bu paralellik sonuç kalıbındadır; yasakların gerekçeleri ayrı kalır ve somut el eylemde kullanılan araç olarak sorumlulukla ilişkilendirilir (17:22). “Ellerin yaptığı ya da kazandığı” anlamındaki özel deyim ise ayrı bir yapıdır; odaktaki el bu deyime dönüşmeden sorumluluk yankısını taşır.
+
+Aynı kınanmışlık çerçevesi başka bir yasaktan sonra da kullanılır: Allah ile birlikte başka bir ilah edinmeme buyruğunun ardından {ar:مَلُومًا مَّدْحُورًا, tr:malūman madhūran, gloss:kınanmış ve kovulmuş} sonucu gelir (17:39). Odaktaki {ar:تَجْعَلْ, tr:tajʿal, gloss:hâle getirmek} eli bir duruma sokarken, bu fiilin ayrı kullanımı bir şeyi adlandırma ya da ona statü verme boyutu da taşır. 17:39'daki ifade hâle getirme olarak da yorumlanabildiği için, bu yankı odaktaki duruma sokma kuruluşunu koruyarak statü okumasını ekler (17:39). Ortak {ar:مَلُومًا, tr:malūman, gloss:ayıplanmış} kınanma bağını kurar; {ar:مَدْحُورًا, tr:madhūran, gloss:kovulmuş} ise kovulma sonucunu 17:39'a özgü olarak genişletir (17:39). Bu bağlantı, muhatabın eyleme gücünü gerçek bırakırken onu nihai ve sınırsız kudret saymayı sınırlar; iki yasağın gerekçeleri ayrı kalır.
+
+Son sıradaki edilgen {ar:مَحْسُورًا, tr:maḥsūran, gloss:tükenmiş} eylemden sonra geriye kalan kapasiteyi öne çıkarır; sıralama sonucun sıklığını belirtmez. Sözcük, uzun çaba sonunda insanın ya da hayvanın gücünün azalmasını, iş görme yetisinin körelmesini ve tükenmesini anlatabilir. Tam uzatmanın ardından bu anlam, kınanmış oturuşta kalan kişiyi ve sürdürecek güç ya da imkânın azalmasını duyurur. Aynı tükenme eldeki mal veya başka bir imkânın bitmesine de açılır; odak ayet belirli bir mal hesabı, kayıp miktarı ya da kesin bir iç duygu belirlemez.
+
+Koruyucu donanımdan yoksun kalma, {ar:مَحْسُورًا, tr:maḥsūran, gloss:tükenmiş} sözcüğünün başka bir dalıdır; tükenmeyi korunaksızlık olarak da duyurur. 17:27'deki {ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīna, gloss:saçıp savuranlar} uyarısı bu kullanımı tetikleyince, ölçüsüz çıkış verenin koruyucu payını da azaltabilir (17:27). Bu korumasızlık yankısı pranganın el-boyun görüntüsüne eklenir; giysi ya da zırh odak sahnenin kendisi değildir. Sözlük alanındaki örtüyü kaldırıp altta kalanı görünür kılma dalı da kınanmış ve durağan sonuçtaki kapasiteyi açıkta kalmış gibi duyurur. Bu dalın katkısı savunmasızlığın görünmesidir; gerçek bir soyunma sahnesi kurmaz.
+
+Tükenen kaynağa duyulan acı, savurma uyarısının yanında bir pişmanlık yankısı da açar (17:27). Allah'ın yolunu engellemek için yapılan harcamanın ardından gelen pişmanlık ve yenilgi, geri gelmeyen imkânın kaybını görünür kılar (8:36). Bu tepkiyi adlandıran {ar:حَسْرَةً, tr:ḥasratan, gloss:kayıp ardından derin pişmanlık}, odaktaki edilgen {ar:مَحْسُورًا, tr:maḥsūran, gloss:tükenmiş} biçiminden ayrıdır. Böylece kayıp ardından duyulan acı, bitkinliğe mümkün bir yan anlam olarak katılır; pişmanlık 17:29'da açıkça bildirilmez ve kaçınılmaz da kılınmaz (17:27, 8:36).
+
+{ar:كُلَّ, tr:kulla, gloss:bütününü} ile {ar:ٱلْبَسْطِ, tr:al-basṭi, gloss:uzatmayı} birlikteliği tek uzatma eyleminin tamamını ölçer; bu bütünlük, sonrasında kalan kapasiteyi düşünmeye zemin verir. Aynı kök alanındaki ayrı bir fiil, {ar:كَلَّ السَّيْفُ, tr:kalla al-sayfu, gloss:kılıç keskinliğini yitirdi}, kılıcın körelmesini ve insanın ya da hayvanın iş görme gücünün azalmasını anlatır. Bu kapasite kaybı yankısı {ar:مَحْسُورًا, tr:maḥsūran, gloss:tükenmiş} ile buluşur; kılıcın körelmesi ve güç azalması, bütünlük belirtecinden ayrı bir fiil biçimine aittir. 17:36'da işitme, görme ve gönül ile bunların tümü sorgulanır; 17:38'de de bütün bunlar hesap ve değerlendirme çerçevesine girer (17:36, 17:38). Bu yetilerin sorumluluk alanıyla yan yana gelişi, tam bir seferlik açılmanın daha sonra gereken kapasiteyi azaltabileceği okumasını mümkün kılar. Yorgunluk bu bağlamda bir sonuç yankısıdır, bütünlük belirtecinin dilbilgisel anlamı değil.
+
+Bedensel uzatma, erişimin sonlu ölçülerini de görünür kılar. Dağlara boyca ulaşma ve yeri yarıp geçme insanın aşamayacağı iki sınırdır; aynı bağlam kibirli yürüyüşü konu eder (17:37). {ar:ٱلْبَسْطِ, tr:al-basṭi, gloss:uzatmanın} sağlanan dar kullanımlarından biri bir geçitte katedilen mesafeyi, diğeri ayakta duran kişinin elini yukarı uzatınca eriştiği yüksekliği anlatır. Bu kullanımlar {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} hareketini bedensel erişim olarak keskinleştirir: el tümüyle açılsa bile erişim bedenin sınırları içindedir. Bu karşılaştırma uzatmanın fiziksel imgesine insan erişiminin sonluluğunu ekler; 17:37'deki yürüyüş sınırı ise harcamanın ölçüsü değildir (17:37).
+
+## Elin Yönü ve Hakkın Akışı
+
+Karşıt bağlamlar elin uzanışına farklı yönler verir. Bir sahnede kişi öldürmek için elini uzatırken öteki aynı amaçla elini uzatmayı reddeder (5:28); başka bir bağlamda açık ve harcayan eller belirir (5:64). Bu kullanımlar {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} ve {ar:يَدَكَ, tr:yadaka, gloss:elini} ile kurulan bedensel uzatmayı kaynak aktarımı ile zarar verme yönleri arasında açar (5:28, 5:64). Böylece odaktaki uçlar miktarın yanında elin erişimini ve yönünü de düşündürür; saldırı yönü 5:28'e aittir, 17:29'a taşınmaz.
+
+{ar:يَد, tr:yad, gloss:el} için ayrı bir kullanım başkasına ulaştırılan iyiliği ya da karşılık beklemeyen yararı adlandırabilir. Harcama bağlamı bu yararı odaktaki {ar:يَدَكَ, tr:yadaka, gloss:elini} ile buluşturur: uzanan el, faydayı başkasına eriştirebilecek bir imkân gibi duyulur (5:64). Bağ, sözcük tekrarından değil, harcamanın yararı başka birine ulaştırmasından doğar. Bu özel yarar borç, satış ya da karşılıklı ödeme biçiminde değildir; odak ayette belirli bir alıcı ve tamamlanmış aktarım gösterilmez.
+
+Elin yönü, önce hak sahibine ulaştırma buyruğuyla somutlaşır: yakına, yoksula ve yolda kalmışa {ar:ءَاتِ, tr:āti, gloss:ver} sözüyle {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:hakkını} verme çağrısını {ar:لَا تُبَذِّرْ تَبْذِيرًا, tr:lā tubadhdhir tabdhīran, gloss:saçıp savurma} yasağı izler (17:26, 17:27). Bu sıra, 17:29'daki eli sahibinin tuttuğu kaynağın yanı sıra hak sahibine erişebilecek bir kanal olarak da duyurur. {ar:مَغْلُولَةً, tr:maghlūlatan, gloss:bağlanmış} el bir erişim boğumuna, {ar:يَدَكَ, tr:yadaka, gloss:elini} ise malın elden ele ulaşmasını sağlayan bedensel araca dönüşebilir. Verme ve hak bağlamının tetiklediği bu doğrudan aktarım yankısı satış ya da nakit ödeme kurmaz; bu özel bağlantı da her maddi kısıtın mutlaka bir hakkı kestiğini söylemez.
+
+Hakkın önce gelmesi, bazı çıkışların isteğe bağlı cömertlik değil yerine getirilecek yükümlülük olduğunu gösterir; ardından gelen savurma yasağı elde kalan imkânın israfa dönmesini sınırlar (17:26, 17:27). Bu sıra bu iki ayetin yerel düzenidir, evrensel muhasebe formülü değil (17:26, 17:27). İki uç dolaşımdaki kapasiteyi farklı biçimde etkiler: el bütünüyle kapanırsa hak sahibine erişemeyebilir, bütünüyle açılırsa verenin sürdürme gücü tükenebilir. Sonucun tam açmadan hemen sonra gelmesi ikinci bağı daha doğrudan duyurur. Gelecekteki ihtiyaca yetecek kapasitenin azalması makul bir yankıdır; ihtiyaç ise bağlama eklenen bir çerçevedir ve ayet hedef miktarı, alıcıyı ya da iki yasağın eşit sonuç derecesini belirlemez.
+
+Harcamanın ulaşabileceği kişiler başka bir bağlamda anne baba, yakınlar, yetimler, yoksullar ve yolda kalmışlar olarak sayılır (2:215). {ar:يَد, tr:yad, gloss:el} için başkasına ulaştırılan iyilik ve yarar anlamı bu listeyle toplumsal bir yön kazanır; {ar:يَدَكَ, tr:yadaka, gloss:elini} ile taşınan verme kapasitesi bu ihtiyaç sahiplerine fayda ulaştırabilir (2:215). Liste yararlanıcıları somutlaştırır, ancak sabit bir öncelik sırası, kişi başına miktar ya da hakları ödeyip ardından yedek ayırma kuralı belirlemez (2:215). İyilik yönü görünür olurken odaktaki el somut uzuv, verenin imkânı da değişebilen bir sınır olarak kalır.
+
+## Maddi Sınır, Açık İlişki
+
+Maddi aktarımın yanında anne babaya {ar:إِحْسَٰنًا, tr:iḥsānan, gloss:iyilikle davranma} buyruğu bakımın tek seferlik bir miktara indirgenmediğini gösterir (17:23). {ar:جَنَاحَ ٱلذُّلِّ, tr:janāḥa al-dhulli, gloss:alçakgönüllülük kanadı} koruyup saran ve buyurmayan bir alçalış sunar; merhamet ve merhamet etme çağrısı da bakımın duygusal yönünü açar (17:24). Bu imgeler, {ar:ٱلرَّحْمَةِ, tr:ar-raḥmati, gloss:merhamet} ve {ar:ٱرْحَمْهُمَا, tr:irḥamhumā, gloss:ikisine merhamet et} sözleriyle birlikte, {ar:مَغْلُولَةً, tr:maghlūlatan, gloss:bağlanmış} elin maddi hareketi sınırlıyken de ilişkinin bakım yoluyla sürebileceğini gösterir (17:24). Bu ilişki katkısı maddi hakkın kendiliğinden karşılandığı anlamına gelmez; bakım ile kaynak aktarımı yan yana durur (17:23, 17:24).
+
+Yardımın mümkün olmadığı anda ilişkiyi nasıl açık tutacağına ayrı bir yanıt verilir (17:28). Merhamet umarak talep sahibinden geçici biçimde geri durma ihtimalini {ar:تُعْرِضَنَّ, tr:tuʿriḍanna, gloss:yüz çevirirsen} açar; ardından ona kolay bir söz söyleme buyruğu gelir: {ar:فَقُل لَّهُمْ قَوْلًا مَّيْسُورًا, tr:fa-qul lahum qawlan maysūran, gloss:onlara kolay bir söz söyle} (17:28). Bu sıra, maddi imkânın sınırlılığını ilişkiden çekilmekten ayırır. {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} ve {ar:ٱلْبَسْطِ, tr:al-basṭi, gloss:uzatma} için sağlanan başka bir kullanım rahat ve açık toplumsal davranışı, kimi kalıplarda yüzde görünen açıklığı anlatabilir; kolay söz bu sosyal açıklığı bağımsızca tetikler (17:28). Bu yankı ilişkiyi açık tutar, fiile “güzel konuşmak” anlamını vermez. 17:28'in bu durumu geçici geri duruşla ilgilidir; her geri çevirme geçici sayılmaz ve söz maddi hakkı karşılamaz (17:28).
+
+Eldeki imkânın değişmesi, geçimliği {ar:يَبْسُطُ, tr:yabsuṭu, gloss:genişletir} ve {ar:وَيَقْدِرُ, tr:wa-yaqdiru, gloss:daraltır} bağlamıyla görünür (17:30). Buradaki genişlik miktar ve kapasiteyle ilgilidir; 17:29'daki {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} fiziksel hareketi ve {ar:ٱلْبَسْطِ, tr:al-basṭi, gloss:uzatmanın} eylem adından ayrılır. Rızkın genişleyip daralması, eldeki imkân zarfının sabit olmadığını ve ölçünün duruma göre değiştiğini düşündürür (17:30). Bu karşılaştırmanın katkısı değişen kapasitedir; odak fiilini geçimlik miktarıyla özdeşleştirmez ve herkese ortak bir oran belirlemez.
+
+Yoksulluk korkusuyla çocukları öldürmeme buyruğu ve çocuklara da size de rızık verileceği sözü yan yana gelir (17:31). {ar:خَشْيَةَ إِمْلَٰقٍ, tr:khashyata imlāqin, gloss:yoksulluk korkusuyla} boş el imgesini etkinleştirir; bu imge {ar:يَدَكَ, tr:yadaka, gloss:elini} karşısına elde hiçbir şey kalmama endişesini koyar (17:31). Yoksulluk imgesi, {ar:مَغْلُولَةً, tr:maghlūlatan, gloss:bağlanmış} elin başka bir sözlük anlamı değil, bu korku bağlamının katkısıdır. Böylece boyna kapanan el kıtlık beklentisine karşı savunmacı bir kapanış gibi duyulabilir; çocukların yaşam imkânına yönelen baskı da görünür olur (17:31). Çocukları öldürme yasağıyla bağlı el özdeş eylemler değildir. {ar:وَلَا تَقْتُلُوا أَوْلَٰدَكُمْ, tr:wa-lā taqtulū awlādakum, gloss:çocuklarınızı öldürmeyin} buyruğunu, çocuklara ve size rızık verileceği sözü izler: {ar:نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ, tr:naḥnu narzuquhum wa-iyyākum, gloss:onlara da size de rızık veririz} (17:31). Bu güvence, insan elinin gelecekteki her payın tek kaynağı olduğu varsayımını gevşetir; bağlamsal okuma her yedek birikimini panik saymaz (17:31).
+
+Kaynak korkusu, rahmet hazinelerinin insanların elinde olduğu varsayılan bollukta da harcama endişesi olarak belirir (17:100). Bu karşı-imge gösterir ki, korku yalnızca kaynak yokluğundan doğmaz. Odaktaki {ar:مَغْلُولَةً إِلَىٰ عُنُقِكَ, tr:maghlūlatan ilā ʿunuqika, gloss:elini boynuna bağlanmış} eli bu bağlamda kaynak çıkışını kapatan iç baskı ve cimri tutum olarak da duyulabilir: kaybı önleme isteği kişinin kendi elini kısıtlar (17:100). Bu özel yankı bedenî bağı korur; gizli el koyma ya da iç kin isnat etmez ve sınırsız vermeyi öğütlemez.
+
+Savurganlıkla eli sıkı tutma arasında ölçülü kalma çağrısı iki ucu ve aralarındaki orta yolu görünür kılar (25:67). Bu bağlam, kapasite ve miktar genişliği bildiren ayrı {ar:ٱلْبَسْطِ, tr:al-basṭi, gloss:uzatmanın} kullanımını etkinleştirir; böylece fiziksel yayma eylemine nicelik boyutu eklenir, fiil sabit bir miktara dönüşmez (25:67). Harcananın yerine konması aynı tutarın bire bir geri geleceğini vaat etmez (34:39). İmkânı geniş olanın genişliğine, rızkı dar olanın kendisine verilene göre harcaması ise ölçüyü mevcut koşula bağlar (65:7). Birlikte bu bağlamlar herkese ortak bir orta miktar yerine değişen imkâna cevap veren sınır sunar; kesin bir geri ödeme oranı ya da sayısal eşik belirlemez (25:67, 34:39, 65:7).
+
+## Yetki ve Emanet
+
+El, bazı özel kullanımlarda beden gücünün yanında buyruk ve yön verme yetkisini de taşıyabilir (17:33); bu bağlam odaktaki {ar:يَدَكَ, tr:yadaka, gloss:elini} imgesinin bedensel zeminini değiştirmez. Haklı eylem, verilmiş yetki ve aşmama sınırı ayrı ayrı kurulur: {ar:بِٱلْحَقِّ, tr:bil-ḥaqqi, gloss:hakkıyla}, {ar:سُلْطَٰنًا, tr:sulṭānan, gloss:yetki} ve {ar:يُسْرِف, tr:yusrif, gloss:aşırıya gitmek} (17:33). Bu yan yana geliş, kapasitenin felce uğratılmadan sınırlandırılabileceğini ve meşru eylemin sürdüğünü düşündürür. {ar:تَبْسُطْهَا, tr:tabsuṭhā, gloss:elini uzatmak} için sağlanan özel kalıp, eli ya da kolu istemek, almak, vurmak veya vermek üzere uzatmayı anlatabilir; hareketin yönünü bağlam belirler, uzatma tek başına cömertlik ya da zarar anlamını seçmez (17:33). Öldürmeye ilişkin bu hüküm 17:33'ün kendi sınırında kalır, harcamaya yönelik hukuk kuralı oluşturmaz.
+
+Elde tutulan imkân, yetim malı, ahit ve ölçüyle dışsal bir hesaba bağlanır: {ar:مَالَ ٱلْيَتِيمِ, tr:māla al-yatīmi, gloss:yetimin malı} ile ahdi yerine getirme çağrısını {ar:ٱلْكَيْلَ إِذَا كِلْتُمْ, tr:al-kayla idhā kiltum, gloss:ölçüyü ölçtüğünüzde tam verin} ve {ar:وَزِنُوا بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ, tr:wa-zinū bil-qisṭāsi al-mustaqīmi, gloss:doğru teraziyle tartın} buyrukları izler (17:34, 17:35). Bir şeyin birinin “elinde” bulunmasını anlatan sahiplik ve denetim kullanımı bu yetim malı ve tartı bağlamıyla etkinleşir; odaktaki yalın iyelikli {ar:يَدَكَ, tr:yadaka, gloss:elini} kendi başına bu deyim değildir (17:34, 17:35). Kaynağı elinde tutan kişi onu yönetebilir, fakat nihai yararlanıcı her zaman kendisi değildir; yetim de korunacak kişi ve aktarımın muhatabıdır (17:34, 17:35). {ar:وَأَوْفُوا بِٱلْعَهْدِ, tr:wa-awfū bil-ʿahdi, gloss:ahdi yerine getirin} yükümlülüğün bitip bitmediğine sahibin tek başına karar vermesini sınırlar (17:34). Ölçü ve terazi, iki uç arasında sezilen orta miktarı denetlenebilir karşılığa bağlar (17:35). Bu temas dışsal hesap verebilirlik ekler; odaktaki el tartı anlamına gelmez ve bu bağlam bütün kaynakları yetim malı, her mal sahibini de hukukî vekil saymaz (17:34, 17:35).
+
+Ahit çağrısı, {ar:يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ, tr:yadaka maghlūlatan ilā ʿunuqika, gloss:elini boynuna bağlanmış} görüntüsüne elin güvence olarak verilmesini anlatan ayrı bir kullanımı ekler: böyle bir söz borç ya da yükümlülük üstlenmeyi anlatabilir (17:34). Bu taahhüt yankısı elin kapasitesini mülkiyetin yanı sıra sözle de sınırlar; boyun eğme anlamından ve düz el adından ayrıdır. Bağlantı 17:34'ün ahit bağlamına aittir; 17:29'un kendi görüntüsü akit ya da hukukî rehin kurmaz.
+
+İnsan elinin kaynakların yönünü etkilemesi, son dağıtım yetkisinin nerede bulunduğu sorusunu açar (57:29). Nimet ve iyiliği dağıtma yetkisi Allah'a aittir (57:29). Açık ve harcayan ellerle birlikte düşünüldüğünde, {ar:يَدَكَ, tr:yadaka, gloss:elini} kaynağın yönünü etkileyebilen, ama son dağıtım kararını taşımayan sınırlı insan gücü olarak duyulur (5:64, 57:29). İnsanlara bırakılan malı harcamaları da emanetçilik olarak çerçevelenir (57:7). {ar:يَد, tr:yad, gloss:el} için sağlanan iş görme ve elde tutup yöneltme yeterliği bu emanet fikrine temas eder; bu temas emanet kavramını elin sözlük anlamına dönüştürmez ve mutlak sahiplik iddiasını desteklemez (57:7). Bu bağlamlar belirli bir alıcıyı adlandırmaz.
+
+## Yardımla Taşınan Kapasite
+
+Elin iş görme gücünün kaynağı sorusu yardım dileme sözüyle açılır: {ar:نَسْتَعِينُ, tr:nastaʿīnu, gloss:yardım dileriz} (1:5). {ar:يَد, tr:yad, gloss:el} için sağlanan ayrı kullanım beden organından değil, işi yapmaya yarayan güç ve yeterlikten söz eder; bu anlam düz {ar:يَدَكَ, tr:yadaka, gloss:elini} adına taşınmaz. Güçlendirme ya da gücün yetmemesi bildiren özel sözler de kendi kalıplarında kalır. Yardım dileme bu yeterlik kullanımını tetiklediğinde, odaktaki elin kapasitesi etkin ama kaynağı kendisi olmayan bir güç gibi duyulur (1:5). Bu okuma Fātiḥa'daki tek bir ifadeye bağlıdır; miktar, alıcı ya da bütçe kuralı eklemez ve sûrenin tamamı adına konuşmaz. El iş görür, fakat gücü kendinden kaynaklanan, kendi kendine yeten bir imkân olarak kapanmaz.
+
+</editorial_prose>

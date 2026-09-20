@@ -1,0 +1,191 @@
+# V5 reading invitation — 17:45
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_45/17_45.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_45/17_45.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Tilavetin şartı ve aralığın kurulması
+
+Ayet, sen {ar:الْقُرْآنَ, tr:al-Qur'āna, gloss:Kur'an'ı} okuduğunda Allah’ın okuyanla âhirete inanmayanlar arasına gizli bir perde koyduğunu bildirir. Başındaki {ar:وَ, tr:wa, gloss:ve} söylem çizgisini sürdürürken hemen ardından gelen {ar:إِذَا, tr:idhā, gloss:olduğunda} bu cümlede kendi şart-zaman alanını açar. İkisi sesçe tek bir girişe yaklaşarak açılışı akıtır; wa'nın bağlayıcı etkisi idhā'nın sınırını silmez, ikinci bir koşul da eklemez. Bu cümlenin koşul-cevap bağı, 17:44'teki yaratılmışların tesbihi sahnesinden türetilmez. İdhā, {ar:قَرَأْتَ, tr:qara'ta, gloss:tilavet ettiğinde} eylemini yinelenebilir bir koşul olarak alır ve onu {ar:جَعَلْنَا, tr:ja'alna, gloss:yerleştirdik} cevabına bağlar; bu koşul her tilavete yayılan genel bir hüküm kurmaz.
+
+Koşuldaki ikinci tekil {ar:قَرَأْتَ, tr:qara'ta, gloss:tilavet ettiğinde} hitap edilen muhatabı okuma eyleminin faili yapar; bu biçim hitabı başka bir zamana ya da daha geniş bir kitleye taşımaz. Belirli mansub {ar:الْقُرْآنَ, tr:al-Qur'āna, gloss:Kur'an'ı}, fiilin doğrudan nesnesi olarak bilinen Kur'an'ı gösterir; böylece eylem genel bir metin anması değil, belirli bir tilavettir. Qara'ta, I. bâbın mâzî biçimiyle olağan olarak okumak ve tilavet etmek demektir. Aynı kökün fiil ile nesnede yinelenmesi, okuma eylemini ses içinde bir araya geliş ya da toplanma yankısıyla buluşturabilir. Bu yankı Kur'an adının tartışmalı türetimini çözmez ve tilaveti ayrı bir toplama işlemine dönüştürmez. İki biçimdeki hemze akışta küçük bir kesinti verir; bu ses teması tilavetin nesnesini değiştirmez ve kıraat varyantı ileri sürmez.
+
+Koşul bölümündeki ikinci tekil {ar:قَرَأْتَ, tr:qara'ta, gloss:tilavet ettiğinde} muhatabı eylemin faili yapar; karşılıktaki birinci çoğul {ar:جَعَلْنَا, tr:ja'alna, gloss:yerleştirdik} geldiğinde dilbilgisel fail değişir ve karşılığı kuran ayrı bir ilahî eylem belirir. Böylece ja'alna bağımsız bir tasvir değil, koşul gerçekleştiğinde yapılan iştir. İki {ar:بَيْنَكَ وَبَيْنَ, tr:baynaka wa-bayna, gloss:seninle ... arasında} yapısının açtığı konuma {ar:حِجَابًا, tr:ḥijāban, gloss:perde} yerleştirilmesi, fiilin burada bir şeyi belirli konuma ya da duruma getirme anlamını öne çıkarır; bu yerleştirme okuması yoktan yaratma iddiası gerektirmez. Özne değişimi bu koşul-cevap cümlesinin içindedir, daha geniş bir söylem geçişi değildir.
+
+Kurulan yer, iki kez yinelenen {ar:بَيْنَكَ وَبَيْنَ, tr:baynaka wa-bayna, gloss:seninle ... arasında} yapısıyla açılır. İlk kutuptaki -ka muhatabı aralığın bir tarafı olarak gösterir ama kendi başına fiziksel bir konum belirtmez; ikinci {ar:بَيْنَ, tr:bayna, gloss:arasında} başıysa öteki tarafı henüz açık bırakır. {ar:جَعَلْنَا, tr:ja'alna, gloss:araya yerleştirdik} fiilinin araya koyduğu {ar:حِجَابًا, tr:ḥijāban, gloss:perde}, iki kutup arasındaki yeri doldurup ayırıcı etki verir. Bayn “arada olma”yı hem mekânsal yer hem de iki tarafı aynı ilişki içinde tutan çerçeve olarak kurar; ayırma işini bayn değil, perde yapar. Böylece taraflar ayrılır ama ilişkisiz kalmaz; aralık ölçülebilir uzaklık vermez ve yakınlık ya da uzlaşma vaat etmez. İki bayn başı arasındaki kısa {ar:وَ, tr:wa, gloss:ve} ritmi sesleri bağlayıp kutupları ayrı tutar; ikinci grubu ilk kutbun niteliğine çevirmeden iki parçayı eşgüdümler. Bu kısa ses eşgüdümü wa'ya ayrı bir sözlük anlamı yüklemez ve yeni bir katılımcı eklemez.
+
+{ar:الَّذِينَ, tr:alladhīna, gloss:kimseler ki} bağıl ifadesi ve ardından gelen cümle, ikinci {ar:بَيْنَ, tr:bayna, gloss:arasında} başının açtığı yeri birlikte tamamlar; öteki kutup böylece tutum bildiren bir tümceyle kurulur. {ar:لَا يُؤْمِنُونَ, tr:lā yuʾminūna, gloss:inanmayanlar} topluluğu nesep ya da miras alınmış kabile etiketiyle değil, inanç tutumuyla niteler. Bağıl tümce bu kutup için inanç tutumunu seçer; grubun başka kimlikleri ve üyelerinin başka amaçlardaki tanımları açık kalır.
+
+Bağıl cümlede ayrı {ar:لَا, tr:lā, gloss:olumsuzluk}, geniş zaman {ar:يُؤْمِنُونَ, tr:yuʾminūna, gloss:inanırlar} fiilinden önce gelir ve olumsuzluğu açıkça kurar; geniş zaman da bunu tek bir ret anı değil, süregelen bir tutum olarak duyurur. Sözcük sırası kendi başına bir saik vermez; bu biçim grubun bütün geçmişini ya da her kişinin iç dünyasını açıklamaz. Fiil {ar:بِالْآخِرَةِ, tr:bi-l-ākhirati, gloss:âhirete} öbeğiyle tamamlanır: bi edatı inanmamanın yöneldiği nesneyi, âhireti, açıkça belirler; bu yerel hedef bütün olası inanç nesnelerinin reddine yayılmaz.
+
+{ar:يُؤْمِنُونَ, tr:yuʾminūna, gloss:inanırlar} burada Arapçanın IV. bâbındaki muzari biçimiyle inanmak anlamını taşır. Aynı kökün güvenilirlik ve korkudan emin olma alanı, araya konan {ar:حِجَابًا, tr:ḥijāban, gloss:perde} ile yan yana geldiğinde olağan inanma anlamının yanında âhirete yönelik güvenin de geri çekilmesi yankısını duyurabilir. Fiilin olağan inanma anlamı cümlenin odağında kalır; bu bağlamdaki güven yankısı nüans olarak işler, fiziksel korunma ya da kurtuluştan dışlanma hükmü kurmaz.
+
+Bu inanç hedefinin adı {ar:ٱلْءَاخِرَةِ, tr:al-ākhirati, gloss:âhiret}: belirli dişil isim dünyadan sonraki varoluş düzenini, belirsiz bir sonraki olayı değil, gösterir. “Sonra gelen, öteki” yankısı bu hedefe son ufkun ağırlığını ekler; sözcük erteleme eylemine dönüşmez. {ar:بِالْآخِرَةِ, tr:bi-l-ākhirati, gloss:âhirete} ile tamamlanan kimlik tümcesinin son isim öğesi, hemen arkasındaki {ar:حِجَابًا, tr:ḥijāban, gloss:perde} önünde durur. Bu bitişiklik, reddedilen ufkun bugünkü {ar:بَيْنَكَ وَبَيْنَ, tr:baynaka wa-bayna, gloss:iki taraf arasındaki aralık} içinde duyulmasına izin veren bir menteşe kurar; sözdizimsel yan yanalık perdenin nedenini açıklamaz, aralık da ölçülebilir uzaklık belirtmez.
+
+İki kutup kurulduktan sonra gelen belirtisiz mansub {ar:حِجَابًا, tr:ḥijāban, gloss:perde}, önce aradaki boşluğu hissettirir, ardından bu aralığa perde adını verir. Belirtisizlik engelin türünü açık bırakır; maddesi ya da belirli bir fiziksel biçimi verilmez. Sonundaki {ar:مَّسْتُورًا, tr:mastūran, gloss:örtülü ya da gizli}, {ar:حِجَابًا, tr:ḥijāban, gloss:perde} ile biçim uyumu kuran belirtisiz edilgen sıfat-fiildir. Bu sonuç durumu gizliliği başka bir kişiye değil perdenin kendisine yükler; sonda yer alması da gizli hâli adın ardından cümle kapanışına taşır. Bu niteleme gizliliğin sıklığını ya da perdeyi kimin ve hangi saikle örttüğünü belirtmez.
+
+{ar:مَّسْتُورًا, tr:mastūran, gloss:örtülü ya da gizli} sözcüğündeki örtme ve gizleme alanını hemen önceki {ar:حِجَابًا, tr:ḥijāban, gloss:perde} imgesi açar. Tilavet koşulu gerçekleştiğinde {ar:جَعَلْنَا, tr:ja'alna, gloss:yerleştirdik} cevabı sınırı eylem olarak devreye sokar; {ar:قَرَأْتَ, tr:qara'ta, gloss:tilavet ettiğinde} tilaveti ve {ar:بَيْنَكَ وَبَيْنَ, tr:baynaka wa-bayna, gloss:iki taraf arasındaki aralık} ilişkisiyle birlikte düşünüldüğünde perdenin olağan bölme anlamı, okunan hitabın karşı tarafa erişimini etkileyen görünmez sınıra genişler. Böylece perde hem görünmeyen hem erişimi örten olarak duyulur. Bu bağlantı şartlı tilavette erişimi etkileyen sınırla ilgilidir: her tilavette herkesin bütünüyle engellendiği ya da fiziksel, toplumsal veya kurtuluşa ilişkin dışlanma hükmü çıkarıldığı anlamına gelmez; mekanizma, maddi biçim, ölçülebilir uzaklık ve perdenin ötesi açık bırakılır.
+
+Bu iki öğenin yakın sesleri, {ar:حِجَابًا, tr:ḥijāban, gloss:perde} ile {ar:مَّسْتُورًا, tr:mastūran, gloss:örtülü ya da gizli} nitelemesini kulakta tek bir kapanışta bağlar. Ahenk bu ayırıcıyı ve onun örtülülüğünü birlikte duyurur; katkısı bu sözcüklerin yerel ses ilişkisidir.
+
+## İşitme ve alımlama
+
+Görünmeyen sınır, tilavetin nasıl karşılandığı sorusunu da açar. Önceki ayette (17:41) {ar:ٱلْقُرْءَانِ, tr:al-Qur'āni, gloss:Kur'an} farklı biçimlerde sunulur ve bu sunuş hatırlamaya yönelir: {ar:صَرَّفْنَا, tr:ṣarrafnā, gloss:çeşitli biçimlerde sunduk}, {ar:لِيَذَّكَّرُوا, tr:li-yadhdhakkarū, gloss:hatırlasınlar diye}. Ardından aynı sunuşun uzaklaşmayı artırdığı bildirilir: {ar:وَمَا يَزِيدُهُمْ إِلَّا نُفُورًا, tr:wa-mā yazīduhum illā nufūran, gloss:onların uzaklaşmasını artırır}. Bu hatırlatma amacı ile 17:45'teki {ar:قَرَأْتَ, tr:qara'ta, gloss:okuduğunda} tilaveti ve {ar:حِجَابًا, tr:ḥijāban, gloss:perde} yan yana gelince uzaklaşma ile perde aynı okuma alanında belirir; hatırlatma amacı taşıyan sunuşun dirençle karşılaşabildiği bir alımlama döngüsü duyulur. Bu bağlantı uzaklaşmayı perdenin nedeni ya da kalktığının işareti yapmaz ve bu karşılığı bütün dinleyicilere yaymaz.
+
+Hemen sonraki ayette (17:46) {ar:جَعَلْنَا, tr:ja'alna, gloss:yerleştirdik} fiili yinelenir; kalpler üzerine {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler}, kulaklara {ar:وَقْرًا, tr:waqran, gloss:ağırlık} konur. Kavrayamama ve Kur'an'da Rabbin adı anıldığında yüz çevirme de bu sahneye katılır. 17:45'te iki kutup arasındaki dış aralıkta duran {ar:حِجَابًا, tr:ḥijāban, gloss:perde}, kalbin kavrayışı ve kulağın işitmesine uzanan bir erişim sorusu doğurur. Kalp örtüsü kavrayışı, kulak ağırlığı işitmeyi, aradaki perdeyse dış aralığı duyurur; bu ayrı imgeler arasındaki yankı erişim sınırını iç alımlamaya doğru genişletir, ama imgeleri tek bir bedensel duvar ya da mutlak sağırlıkta birleştirmez.
+
+Kavrayış ile işitmenin ayrılığı, 17:44, 17:46 ve 17:47 arasındaki akışta belirginleşir. 17:44'te yaratılmışların tesbihi için {ar:لَا تَفْقَهُونَ, tr:lā tafqahūna, gloss:kavrayamıyorsunuz} denmesi kozmik bir kavrayış sınırıdır; bu ayrı sahne odaktaki topluluğun olayı değildir. 17:46'daki örtü ve ağırlığın ardından 17:47'de {ar:يَسْتَمِعُونَ, tr:yastamiʿūna, gloss:dinliyorlar} fiilinin yinelenmesi dinlemenin sürdüğünü gösterir. Bu akışta 17:45'in {ar:مَّسْتُورًا, tr:mastūran, gloss:örtülü ya da gizli} perdesi, sesin ulaşması ile anlamın kavranmasının farklı aşamalar olabileceği bir sınır gibi okunabilir: 17:47 dinlemenin sürdüğünü gösterir ama kavrayışı kanıtlamaz.
+
+17:45'teki {ar:قَرَأْتَ, tr:qara'ta, gloss:okuduğunda} tilavetinin ardından 17:47'de {ar:يَسْتَمِعُونَ, tr:yastamiʿūna, gloss:dinliyorlar} diye anılanlar elçiyi {ar:مَسْحُورًا, tr:masḥūran, gloss:büyülenmiş} diye adlandırır; 17:48'de ona {ar:ضَرَبُوا۟ لَكَ ٱلْأَمْثَالَ, tr:ḍarabū laka al-amthāla, gloss:sana benzetmeler kurdular} diye benzetmeler yöneltirler. Bu düşmanca etiket ve karşılaştırmalar mesajı onu taşıyan kişi üzerinden yeniden çerçeveler. Ardından 17:48'de yollarını şaşırıp yol bulamama anılır: {ar:فَضَلُوا۟ فَلَا يَسْتَطِيعُونَ سَبِيلًا, tr:fa-ḍallū fa-lā yastaṭīʿūna sabīlan, gloss:yollarını şaşırıp bir yol bulamazlar}. Bu işaretler aynı direnç çevresinde yan yana gelir, ancak etiketler yol kaybının nedeni değildir ve bu bağlantı bütün dinleyenlere yayılmaz. Böylece ses ulaştıktan sonra taşıyıcı üzerinden işleyen yeniden çerçeveleme, {ar:حِجَابًا, tr:ḥijāban, gloss:perde} imgesine ikinci bir süzgeç ekler.
+
+17:48'deki {ar:سَبِيلًا, tr:sabīlan, gloss:yol} bulamama, Fatiha'nın dosdoğru yola yönelme isteğiyle (1:6) karşılaştırıldığında iki ayrı kök ve yönü yan yana getirir: sabīl yol bulamamayı, {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā al-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} ise doğru yola iletilme talebini taşır. Bu karşılaştırma iki ayeti aynı topluluk ya da olay saymaz; 17:45'teki Kur'an'ı da açıkça hidayet aracı diye adlandırmaz. Bu sınırlar içinde sabīl'in bulamama yönü ile ṣirāt'a yönelme isteği birbirini aydınlatan ayrı hareketler olarak kalır.
+
+Bu yol karşıtlığının yanında Kur'an tilavetine verilen karşılıkların çeşitliliği görünür. 7:204'te {ar:فَاسْتَمِعُوا لَهُ وَأَنْصِتُوا, tr:fastamiʿū lahu wa-anṣitū, gloss:onu dinleyin ve sessiz olun} buyruğu merhamet umuduna bağlanır. 46:29'da Kur'an'ı işiten bir topluluk birbirine sessizce dinlemeyi hatırlatır, ardından kendi halkını uyarmak üzere döner. Bu iki sahne 17:45'teki {ar:قَرَأْتَ, tr:qara'ta, gloss:okuduğunda} koşuluna temas ederek Kur'an'ı farklı karşılıklara açık ortak bir hitap olarak duyurur; odak ayet ise dikkatini âhireti reddettiği belirtilen gruba yöneltir. Karşılaştırma bu sahnelerdeki dinleyicileri 17:45'in muhataplarıyla özdeşleştirmez ya da perdenin aşıldığını göstermez; farklı dinleme karşılıkları, odak perdenin belirli hedefi korunarak birlikte görünür olur.
+
+Okumayı izleyen ayrı bir yanıt, korunma tınısını açar. 16:98'de {ar:فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ, tr:fa-idhā qara'ta al-Qur'āna, gloss:Kur'an'ı okuduğunda} koşulundan sonra Allah'a şeytandan sığınma buyruğu gelir. 17:45'te aynı tilavet koşulunun cevabı {ar:جَعَلْنَا حِجَابًا, tr:ja'alna ḥijāban, gloss:bir perde yerleştirdik}, 16:98'deyse sığınmadır. Bu benzerlik, 16:98'deki açık sığınma buyruğunu 17:45'in perdesine eşdeğer ya da onun açıklaması yapmaz; odak ayet de perdenin niçin konduğunu söylemez. Bu ayrım içinde koşul-cevapların yan yanalığı, tilavete ayrılığın yanında ikincil bir korunma tınısı ekler.
+
+İşitmeden görünen işarete geçildiğinde, kabulün başka bir sınırı belirir. 17:59'da önceki kuşakların gönderilen ayetleri yalanladığı söylenir: {ar:بِٱلْءَايَٰتِ, tr:bi-l-āyāti, gloss:ayetlerle ya da işaretlerle}, {ar:كَذَّبَ بِهَا ٱلْأَوَّلُونَ, tr:kadhdhaba bihā al-awwalūna, gloss:öncekiler onları yalanladı}. Ardından Semûd'a verilen, gözle görülen dişi deve {ar:ٱلنَّاقَةَ مُبْصِرَةً, tr:al-nāqata mubṣiratan, gloss:gözle görülen dişi deve} ve ona karşı işlenen haksızlık {ar:فَظَلَمُوا۟ بِهَا, tr:fa-ẓalamū bihā, gloss:ona haksızlık ettiler} gelir. 17:60'ta görülen rüya {ar:ٱلرُّءْيَا, tr:al-ruʾyā, gloss:görülen rüya} bir {ar:فِتْنَةً, tr:fitnatan, gloss:sınama} sayılır; uyarı da {ar:فَمَا يَزِيدُهُمْ إِلَّا طُغْيَانًا, tr:fa-mā yazīduhum illā ṭughyānan, gloss:azgınlıklarını artırır} diye artan azgınlıkla karşılanır. Semûd sahnesi görünür bir işaret karşısındaki haksızlığı, 17:60'taki rüya ve uyarı ise sınama ile artan azgınlığı gösterir. Bu ayrı sahneler odak grubun olayı sayılmaz ve tepkileri ona genellenmez; 17:45'in {ar:حِجَابًا, tr:ḥijāban, gloss:perde} ve {ar:مَّسْتُورًا, tr:mastūran, gloss:örtülü ya da gizli} imgeleriyle yan yana gelişleri, alımlama sınırını işitmeden görmeye doğru genişletir.
+
+## Aralık ve temas
+
+Görünür işaretlerin ayrı sahnelerinden ilişkiyi sözün biçimlendirdiği 17:53'e geçince, iki kutup arasındaki “arasında” bağı başka bir yön kazanır. 17:45'te {ar:قَرَأْتَ, tr:qara'ta, gloss:okuduğunda} sırasında konan {ar:حِجَابًا, tr:ḥijāban, gloss:perde} ve {ar:بَيْنَكَ, tr:baynaka, gloss:seninle ... arasında} ayırıcı aralığı kurar; 17:53'te kullardan {ar:يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ, tr:yaqūlū allatī hiya aḥsanu, gloss:en güzel olanı söylesinler} diye istenir, çünkü şeytan {ar:يَنزَغُ بَيْنَهُمْ, tr:yanzaghu baynahum, gloss:aralarına fitne sokar}. 17:53'teki bu bağımsız konuşma etiği, odak ayetteki ayırıcı aralığın yanında kırılgan ilişkiyi koruyabilecek olası bir eşik sunar. Bu iki sahne arasındaki olası yankı perdenin amacını açıklamaz ya da konuşanların aynı olduğunu göstermez. Ayetin sonundaki {ar:عَدُوًّا مُّبِينًا, tr:ʿaduwwan mubīnan, gloss:açık bir düşman} yalnızca düşmanı niteler, ikinci bir aralık kurmaz. Böylece “aralarında” sözü ayırıcı aralığın yanında korunmaya muhtaç bağı da ihtimal olarak duyurur.
+
+Perde bu kez karşı taraftan, konuşanların kendi sözleriyle belirir. 41:5'te “{ar:بَيْنَنَا وَبَيْنَكَ حِجَابٌ, tr:baynanā wa-baynaka ḥijābun, gloss:aramızda ve seninle aramızda bir perde var}” derler. 17:45'te Allah'ın araya koyduğu {ar:حِجَابًا, tr:ḥijāban, gloss:perde} sözcüğünü burada konuşanlar kendi taraflarından adlandırır; iki kutuplu perde imgesi böylece karşı yönden duyulur, fakat sahnelerin toplulukları özdeş değildir. 41:5'te konuşanlar ayrıca kalplerinin örtülü, kulaklarının ağır olduğunu söyler; 6:25'te Kur'an'ı dinleyenlerin kalplerindeki örtüler anlamayı engeller, kulak ağırlığı da dinleme sahnesine eşlik eder. 17:45'teki {ar:مَّسْتُورًا, tr:mastūran, gloss:örtülü ya da gizli} ile bu içsel örtünme ve ağırlık imgeleri aynı biçim değil, imge düzeyinde temas kurar. Bu temas, odak perdenin sınırını kalp ve kulak imgelerine bağlayarak dış aralıktan alımlama ilişkisine uzatır.
+
+41:26'da Kur'an'ı dinlememek ve dinleme sırasında gürültü çıkarmak öğütlenir; alımı bozan eylem burada kasıtlıdır. 8:23 ise işitme sağlansa bile yüz çevrilebileceğini bildirir; sesin ulaşması yönelişi tek başına belirlemez. 41:5 ve 6:25'teki kalp örtüsü kavrayışa, kulak ağırlığı işitmeye dönük sınırı gösterirken, 41:26'daki gürültü dinlemeyi kasıtla bozar ve 8:23 işitmeye rağmen yüz çevirmeyi ekler. Bu sahneler aynı dinleyicileri göstermez; ilahî yerleştirme ile dinleyici eğilimi ya da kasıtlı engelleme arasındaki neden açık kalır. Bu ayrımlar 17:45'in {ar:حِجَابًا, tr:ḥijāban, gloss:perde} imgesini dış aralıktan işitme ve kavrayışa uzanan bir alım sınırı olarak genişletir.
+
+Perde imgesi, (7:46), (19:17), (33:53) ve (42:51) ayetlerinde farklı temas biçimleri içinde görünür. 7:46'da {ar:حِجَابٌ, tr:ḥijābun, gloss:perde} iki bölge arasında dururken yüksek yerlerdeki kişiler Cennet halkını işaretlerinden tanır ve onlara seslenir; perde ayrılık içinde hitabı çerçeveler. 19:17'de Maryam ötekilerden ayrı bir {ar:حِجَابًا, tr:ḥijāban, gloss:perde} edinir, ardından bir ruh ona insan görünümünde belirir; sınırın ardından görünüş gerçekleşir. 33:53'te {ar:حِجَابٍ, tr:ḥijābin, gloss:perde} ardından konuşma istemek kalpler için daha temiz bir düzen sayılır; 42:51'de perde ardından konuşma ilahî hitap yollarından biridir. İlk iki sahnede perde çevresinde hitap ya da görünüş sürer; son ikisinde perde istek ve ilahî hitabın kuruluşunu düzenler. Bu karşılaştırma aynı kişileri ya da odak tarafların perdeyi aştığını ileri sürmez; odak ayetin {ar:حِجَابًا, tr:ḥijāban, gloss:perde} ile kurduğu ayrılığı korurken, başka sahnelerde perdenin iletişimi de çerçeveleyebildiğini gösterir.
+
+## Âhiret ufku
+
+17:45'in muhatapları {ar:ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ, tr:alladhīna lā yuʾminūna bi-l-ākhirati, gloss:âhirete inanmayanlar} diye adlandırılır; bu şimdiki ret, yakın ayetlerde bir zaman ufku kazanır. 17:49'da kemik ve ufalanmış kalıntı olduktan sonra yeniden diriltilip diriltilmeyecekleri sorulur: {ar:أَءِنَّا لَمَبْعُوثُونَ, tr:a-innā la-mabʿūthūna, gloss:gerçekten yeniden mi diriltileceğiz?}. 17:51'de “bizi kim geri döndürecek?” sorusuna {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri döndürecek} ve ilk kez yaratanı anan {ar:فَطَرَكُمْ أَوَّلَ مَرَّةٍ, tr:faṭarakum awwala marratin, gloss:sizi ilk kez yaratmış olan} cevabı gelir. 17:52'de çağrı ve karşılığı {ar:يَدْعُوكُمْ, tr:yadʿūkum, gloss:sizi çağırır}, {ar:فَتَسْتَجِيبُونَ, tr:fatastajībūna, gloss:karşılık verirsiniz} diye sıralanır. Bu dizi tövbe ya da yeni iman, perdenin kalkması veya sürenin uzunluğu hakkında hüküm vermez; 17:45'teki şimdiki reddi gelecekteki diriliş, geri dönüş, çağrı ve cevap ufkuna yerleştirir.
+
+Âhirete inanmayanlar adı iki ayrı tepki sahnesinde yinelenir (39:45, 27:4): {ar:ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ, tr:alladhīna lā yuʾminūna bi-l-ākhirati, gloss:âhirete inanmayanlar}. 39:45'te Allah tek başına anıldığında bu nitelemeyle anılanların kalpleri tiksintiyle daralır; 27:4'te amelleri kendilerine süslü gösterilir ve şaşkınlık içinde kalırlar. Tekrarlanan {ar:ٱلْءَاخِرَةِ, tr:al-ākhirati, gloss:âhiret} göndergesi anlamını korur: 17:45'te inanç tanımı olarak kurulan grup adı, 39:45'te ilahî anışa tepki ve 27:4'te amellerin süslü gösterilmesiyle şaşkınlıkta kalma sahnelerinde ayrı ayrı yankılanır. Bu paralellik aynı kişileri belirlemez ve tepkileri 17:45'teki tilavete bağlamaz; iki ayrı karşılık sahnesi odak ayetin tanımını daha geniş bir yönelim içinde yankılandırır.
+
+83:15'te bir topluluk o gün Rablerinden perdelenmiş olarak anılır: {ar:لَمَحْجُوبُونَ, tr:la-maḥjūbūna, gloss:perdelenmiş olanlar}. Bu, 17:45'teki {ar:حِجَابًا, tr:ḥijāban, gloss:perde} adından farklı, aynı kök ailesine bağlı edilgen çoğul sıfattır; böylece kişiler arasındaki aralığın yanına Rab'den perdelenmeye dönük uhrevî ayrılık gelir. İki ayet aynı topluluğu göstermez ve biri diğerinin nedeni olarak sunulmaz; kök yankısı biçim farkını koruyarak kişilerarası uzaklığı son uhrevî ufka taşır.
+
+Bu örtülülük, tilavetteki ses üzerinden 17:58'deki yazılılık sözüne yaklaşır. 17:45'in {ar:مَّسْتُورًا, tr:mastūran, gloss:örtülü ya da gizli} nitelemesi, Kitap içinde satırlara geçirilmiş olmayı bildiren {ar:ٱلْكِتَٰبِ, tr:al-kitābi, gloss:Kitap} ve {ar:مَسْطُورًا, tr:masṭūran, gloss:satırlara yazılmış} ile işitsel bir yankı kurar (17:58). İlki örtülülüğü, ikincisi yazılı oluşu bildirir; kökleri s-t-r ile s-ṭ-r olarak ayrılır ve ayırt edici ses t ile kalın ṭ arasındadır. Bu ses yakınlığı iki biçim arasında çağrışım kurar; kök ayrımı eşanlamlılık ya da perdenin Kitap'ta yazılı olduğu iddiası vermez. Böylece tilavetteki örtülülük, satıra geçirilmişlik sözüne dokunur ve iki ayrı imge kulakta belirginleşir.
+
+</editorial_prose>

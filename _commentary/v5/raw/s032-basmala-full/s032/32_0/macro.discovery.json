@@ -1,0 +1,193 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "32:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [],
+  "findings": [
+    {
+      "finding_ref": "macro:invocation-threshold",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Adın vahiy eşiği",
+      "claim": "Açılıştaki Allah'ın adıyla sözü, sûrenin hemen ardından Kitabın Rab'den indirilişi ve Allah'ın gökleri ve yeri yaratıp işi yönetmesiyle karşılaşır; basmala bu vahiy beyanının eşiği olarak okunur.",
+      "mechanism": "Taşıyıcı بِسْمِ اللَّهِ ifadesidir; bağımsız bağlam tetikleyicileri 32:2'de Kitabın Rab'den indirilişi ve 32:4–5'te Allah'ın yaratmasıyla işin gökten yere yürüyüp O'na yükselmesidir. Açılıştaki ad ile sonraki vahiy ve yaratma beyanlarının aynı ilahî kaynağa bağlanması, basmalayı bu sûrenin özel girişine yerleştirir.",
+      "reader_payoff": "Okur basmalayı hem olağan başlangıç duası hem de kaynağı hemen açıklanan Kitabın eşiği olarak görür.",
+      "containment": "Basmala'nın olağan Allah'ın adıyla anlamı korunur. Bağlam, بِ harfinin bağlandığı örtük fiili ya da okuyanın hangi eylemi başlattığını belirlemez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [],
+        "reason": "Odak ifadesiyle hemen ardından gelen vahiy ve yaratma ayetleri packet içinde doğrudan yer alıyor; eşik ilişkisi bu açık sıralamaya dayanıyor. Bu bulguya atanmış ayrı bir trust etiketi yok."
+      },
+      "support_ids": [],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": ["32:2", "32:4", "32:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-in-action",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhamet yaratma ve dönüşün yanında",
+      "claim": "Odaktaki rahmet sıfatları, sûrede aynı Rahîm adının 32:6'da gaybı ve görüneni bilen, güçlü diye nitelenen Allah için yinelenmesiyle; ardından biçim verme, rızık ve dönüşe çağıran uyarıların gelmesiyle etkin bir ilahî merhamet çerçevesi kurar.",
+      "mechanism": "Taşıyıcı odaktaki الرَّحِيمِ sıfatıdır. 32:6'daki aynı Rahîm adı, bilme ve güç nitelemeleriyle birlikte gelir; 32:9 insanın biçimlendirilmesini ve işitme, görme, gönül verilmesini; 32:21 daha yakın azabın dönüşe yöneltme amacını; 32:27 ise suyla bitki çıkarılıp insanların ve hayvanların beslenmesini anlatır. Aynı ilahî özneye bağlanan bu eylemler, odaktaki merhameti yaratma ve dönüş yönündeki etkin iyilikle temas ettirir.",
+      "reader_payoff": "Okur açılıştaki merhameti sûrenin yaratma, rızık verme ve geri çağırma anlatısı içinde duyar; uyarı ve merhamet aynı ilahî sahnede birlikte kalır.",
+      "containment": "32:21 daha yakın azabın amacını dönüş olarak verir; ayet azabı merhamet diye adlandırmaz. Bu ilişki uyarıyı koruyarak kurulan bağlamsal bir okumadır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Rahîm tekrarını ve bağlamdaki eylemleri packet doğrudan sunuyor; bunların odaktaki merhametle ilişkisi bağlamsal bir çıkarımdır. Ayrı destek, bağlantı ya da HFT kaydı ve bu bulguya atanmış trust etiketi yok."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:4:2"],
+          "trigger_refs": ["32:6", "32:9", "32:21", "32:27"],
+          "focus_return_refs": ["1:1:4:2"],
+          "carrier": "الرَّحِيمِ Allah'a nispet edilen merhamet, esirgeme ve iyilik yönünü taşır.",
+          "independent_trigger": "32:6'da aynı Rahîm sıfatı bilme ve güç nitelemelerinin yanında tekrarlanır; 32:9 biçim verme ve yetiler verilmesini, 32:21 dönüş amacı taşıyan daha yakın azabı, 32:27 suyla bitki yetiştirilip canlıların beslenmesini anlatır.",
+          "activation": "Sûrenin yaratma, besleme ve dönüşe çağırma eylemleri, odaktaki merhamet taşıyıcısına aynı ilahî öznenin etkin iyiliği olarak bağlanır; böylece merhametin sonuç doğuran yönü bağlamda görünür hale gelir.",
+          "resulting_reading": "Açılış merhameti, yaratılmışların biçimlenmesi, rızıklanması ve dönüşe yöneltilmesi yanında etkin bir ilahî iyilik olarak duyulur.",
+          "boundary": "Bağlamdaki azap merhametle özdeşleştirilmez; bağlantı onun açıkça belirtilen dönüş amacını açılıştaki merhametin yanına koyar."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1", "1:1:4:2"],
+          "trigger_refs": ["32:4", "32:6", "32:9", "32:21", "32:27"],
+          "focus_return_refs": ["1:1:2:1", "1:1:4:2"],
+          "carrier": "اللَّهِ adıyla anılan Tanrı'nın الرَّحِيمِ sıfatı, yaratılmışlara ulaşan ilahî merhameti taşır.",
+          "independent_trigger": "32:4–6 Allah'ı yaratıcı, işi yöneten, gaybı ve görüneni bilen, güçlü ve Rahîm olarak tanıtır; 32:9, 32:21 ve 32:27 yaratma, dönüşe yöneltme ve rızık verme eylemlerini sunar.",
+          "activation": "Odaktaki ilahî ad ve Rahîm sıfatı, bağlamda aynı özneye verilen yaratma, yönetme, yeti ve rızık eylemleriyle birleşir; bu temas Tanrı hakkındaki rahmetin yaratılmışlara uzanan genişliğini belirginleştirir.",
+          "resulting_reading": "Basmala'nın ilahî merhameti, sûrenin insan ve hayvanlara uzanan yaratma, yeti verme ve rızık anlatısıyla birlikte okunur.",
+          "boundary": "Bu bağlam uyarı ve yargıyı yürürlükte tutar; azabı merhamet saymaz ve merhameti yargının yerine koymaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["32:4", "32:5", "32:6", "32:9", "32:21", "32:27"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-kinship",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhamet ve soy çizgisi",
+      "claim": "İnsan neslinin zayıf bir sıvı özünden türemesini anlatan 32:8, odaktaki merhamet adlarının aynı kökündeki yakın soy bağı dalını bağlam içinde duyulur kılar; basmala'nın merhameti sûrenin insan soy çizgisiyle ilişki kazanır.",
+      "mechanism": "Taşıyıcı odaktaki الرَّحْمَٰنِ ve الرَّحِيمِ sıfatlarıdır; bağımsız tetikleyici 32:8'de nesil ve ortak kökene yapılan açık göndermedir. Aynı ر ح م kökünün yakın soy bağı dalı bu soy imgesiyle buluşur ve merhamet sıfatına akrabalık değil, neslin devamı yanında bir ilişki boyutu ekler.",
+      "reader_payoff": "Okur ilahî merhameti, sûrenin izlediği insan neslinin devamı yanında duyar; böylece sıfatın kök alanındaki yakınlık imgesi anlamı genişletir.",
+      "containment": "Soy bağı yalnızca kök düzeyinde bağlamsal bir yankıdır. Metin Allah'ı insan akrabası saymaz ve sıfatı soy bildiren bir ada dönüştürmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "Yakın soy bağı dalı ile nesil ifadesi packet içinde mevcut; bunların aynı odakta buluşması çok adımlı bağlamsal bir çıkarımdır ve ayrı reader-trace, support ya da trust etiketi yoktur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["32:8"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ ve الرَّحِيمِ odakta ilahî merhameti taşır; aynı kökün ayrı bir dalı ortak soydan gelen yakınlığı adlandırır.",
+          "independent_trigger": "32:8 insan neslinin zayıf bir sıvı özünden türediğini açıkça söyler.",
+          "activation": "Sûrenin nesil ve ortak köken imgesi, odaktaki merhamet taşıyıcısının aynı kökündeki yakın soy bağı dalına temas eder; bu dal açılış merhametini insan neslinin devamı yanında duyurur.",
+          "resulting_reading": "Açılıştaki ilahî merhamet, sûrenin anlattığı insan nesli ve ortak köken imgesi yanında ilişkisel bir yakınlık kazanır.",
+          "boundary": "Bu bir kök yankısıdır; Allah'a insan soy bağı atfetmez ve olağan merhamet anlamını değiştirmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["32:8"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-womb-image",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhamet ve oluşan hayat",
+      "claim": "32:8–9 insan neslinin zayıf sıvıdan gelişini, insanın biçimlendirilişini ve ruh üflenmesini anlatırken, rahmet adlarının kökündeki döl yatağı dalı odakta bedenî bir oluşma imgesi olarak yankılanır.",
+      "mechanism": "Taşıyıcı odaktaki الرَّحْمَٰنِ ve الرَّحِيمِ sıfatlarıdır; tetikleyici 32:8'de sıvıdan nesil ve 32:9'da biçimlendirilmiş insan anlatısıdır. ر ح م kökünün döl yatağı dalı bu oluşma ve taşıma imgesiyle temas eder; böylece rahmet adı, sûrenin insan hayatının biçimlenişiyle ilgili bağlamında daha bedenî bir yankı kazanır.",
+      "reader_payoff": "Okur açılışın merhametini, aynı sûrede gelişen ve biçim kazanan insan hayatıyla yan yana duyabilir.",
+      "containment": "32:8–9 döl yatağını adlandırmaz; ilahî sıfatlar da anatomik organ anlamına gelmez. Bu, sure bağlamının tetiklediği kök imgesidir ve olağan merhamet okumasını korur.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "Döl yatağı dalı ile 32:8–9'daki nesil ve biçimleniş packet içinde bulunuyor; döl yatağının metinde doğrudan anılmaması nedeniyle temas analogik ve keşif düzeyinde kalıyor."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["32:8", "32:9"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "الرَّحْمَٰنِ ve الرَّحِيمِ odakta merhameti taşır; ر ح م kökünün ayrı bir dalı yavrunun oluşup taşındığı bedensel yeri adlandırır.",
+          "independent_trigger": "32:8 nesli zayıf bir sıvı özünden, 32:9 ise insanın biçimlendirilmesini ve ruh üflenmesini anlatır.",
+          "activation": "İnsan oluşumunu anlatan bu bağlam, odak kökünün taşıma ve gelişme yeri olan döl yatağı dalına analogik bir tetik sağlar; dal merhamet sıfatına bedenî bir yaşam-oluşumu imgesi ekler.",
+          "resulting_reading": "Açılıştaki merhamet, insan hayatının gelişip biçim kazandığı bir bağlam içinde bedenî bir taşıma imgesiyle yankılanır.",
+          "boundary": "Bu imge odak kelimelerin sözlük karşılığı değildir; metin Allah'ı döl yatağı olarak anlatmaz ve anatomik bir anlam öne sürülmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["32:8", "32:9"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:name-sky",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İsmin gök imgesi",
+      "claim": "Basmala'daki ism, aynı kök ailesindeki üstteki gök dalıyla 32:4'te yaratılan gökler ve 32:5'te gökten yere iniş ve O'na yükseliş hareketlerinde karşılaşır; açılıştaki adlandırma böylece sûrenin dikey ölçeği içinde duyulur.",
+      "mechanism": "Taşıyıcı odaktaki بِسْمِ sözcüğünün ism anlamıdır; bağımsız tetikleyiciler 32:4'teki gökler ve 32:5'te açıkça verilen gökten yere gidiş ile O'na yükseliştir. İsm kökündeki üstteki gök dalı bu somut dikey hareketle temas eder; normal adlandırma anlamı korunurken odak sûrenin gök-yer düzenine yerleşir.",
+      "reader_payoff": "Okur Allah'ın adıyla açılan ifadeyi, hemen ardından gelen gökten yere ve yeniden O'na yönelen düzen içinde duyar; adlandırma kozmik bir ölçek kazanır.",
+      "containment": "İsm bu ifadede ad anlamını korur; bağlam onu gök diye çevirmeyi veya Allah'ı gökle özdeşleştirmeyi desteklemez. Dikey imge aynı kökün bağlamla açılan yankısıdır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "Odak kökündeki gök dalı ve bağlamdaki açık gök ile dikey hareket packet'te yer alıyor; bunların adlandırma ifadesinde buluşması kök yankısına dayalı bir çıkarım ve ayrı destek ya da trust etiketi yok."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B004",
+          "facet_id": "F001",
+          "branch_gloss": "üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler",
+          "facet_statement": "Bir şeyin üzerinde yükselen ve onu örten gök, tavan veya üst yan anlatılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["32:4", "32:5"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "بِسْمِ اللَّهِ içindeki سْمِ adlandırma anlamını taşır; aynı focus kök ailesinde üstteki gök dalı da bulunur.",
+          "independent_trigger": "32:4 Allah'ın gökleri yarattığını söyler; 32:5 işin gökten yere yönelip ardından O'na yükseldiğini açıkça anlatır.",
+          "activation": "Sûrenin gerçek gök ve dikey yön hareketi, odaktaki ism taşıyıcısının aynı kök ailesindeki gök dalıyla temas eder; bu ilişki adlandırma ifadesini gök-yer düzeninin içine yerleştirir.",
+          "resulting_reading": "Allah'ın adıyla açılış, gökten yere inen ve O'na yükselen düzenin eşiğinde duyulur; ism olağan adlandırma anlamını korurken kökün gök yankısı açılır.",
+          "boundary": "Bu ilişki kök ve bağlam yankısıdır; ism sözcüğünün gök anlamına geldiğini, açılışın literal olarak gökten söz ettiğini veya Allah'ın gökle özdeş olduğunu ileri sürmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["32:4", "32:5"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Aday envanteri boştur; bu nedenle aday kararı ve aday semantik yükümlülüğü bulunmuyor.",
+    "Support ve connection registry'leri boş, HFT payload'u yok ve atanmış HFT kaydı sıfırdır; bulgular yalnızca odak ile packet'te verilen sure bağlamından kurulmuştur.",
+    "Pericope kaydı yalnızca 32:0'ı kapsarken host_surah null ve macro lane_context_refs 32:1–30'u sağlıyor; yorumlar bu sağlanan bağlam ayetleriyle sınırlıdır."
+  ]
+}

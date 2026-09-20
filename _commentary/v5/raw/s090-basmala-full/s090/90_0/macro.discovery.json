@@ -1,0 +1,327 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "90:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [],
+  "findings": [
+    {
+      "finding_ref": "macro:name-at-oath-threshold",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Adın önünde şehir yemini",
+      "claim": "Basmala, Yaratıcı’nın özel adını öne alır; hemen ardından gelen şehir yemini bu ada açılışta yeminle komşu bir ciddiyet kazandırır.",
+      "mechanism": "Odak yüzeyindeki Allah özel adıyla başlayan çağrıdan sonra 90:1’de أُقْسِمُ fiili ve şehir üzerine yemin gelir. Bu ardışıklık, özel adın söz başında ant değeri de taşıyabilen kullanımını bağlamda yankılatır; böylece basmala şehir yemininin önünde bir eşik gibi duyulur.",
+      "reader_payoff": "Okur, ilahî adı anan çağrının hemen ardından şehre yöneltilen yemini duyar ve sûrenin açılışındaki bu iki ayrı söyleyişin kurduğu ciddiyeti fark eder.",
+      "containment": "90:1’de yeminin nesnesi şehirdir. Paket, basmala ile yemin arasında sözdizimsel bağ kurmaz ve basmalanın Allah adına yemin olduğunu söylemez; burada kalan ilişki, adın eşikteki konumu ile ardından gelen yemin arasındaki bağlamsal yankıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Özel ad ve ardından gelen yemin fiili doğrudan yüzeyde bulunur; ayrı duran basmalaya yemin çevresi yüklemek, ardışıklığa dayanan makro bir çıkarımdır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F003",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Özel ad, sözün başında ant değeri taşıyarak ardından gelen yapmama bildirimini güçlendirebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "90:1:2",
+            "90:1:4"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Basmalanın başında, Allah’a ait özel ad.",
+          "independent_trigger": "90:1, أُقْسِمُ fiiliyle başlar ve yemini bu şehre yöneltir.",
+          "activation": "Özel adın söz başındaki yemin kullanımı, odak ile ilk sûre âyeti arasındaki ardışıklıkla yankılanır; şehir yemini, açılıştaki adı yemin çevresinde duyulur kılar.",
+          "resulting_reading": "Allah’ın adıyla başlayan çağrı, şehir üzerine edilen yeminin hemen önünde duran ciddi bir açılış olarak okunur.",
+          "boundary": "Yemin Allah adına değil, açıkça şehre yöneliktir; basmalanın kendisi yemin cümlesi sayılmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "90:1"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:family-mercy-resonance",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Rahmet, doğum ve yakınlık",
+      "claim": "Sûrenin ana-baba ve çocukla ettiği yemin ile yakın akraba yetimi anması, rahmet adlarının kökündeki soy bağı ve döl yatağı imgelerini açılışta duyulur kılar; böylece rahmet, yaşamın ve yakınlığın çevresinde de yankılanır.",
+      "mechanism": "Odaktaki er-Raḥmân ve er-Raḥîm rahmet anlamını taşır; aynı kökün sağlanan dalları yakın soy bağını ve yavrunun oluşup taşındığı döl yatağını adlandırır. 90:3’teki begetiren ebeveyn ve çocuk, döl yatağı imgesine bağlamsal bir temas kurar; 90:15’teki yakın akraba yetim ise soy bağı dalını doğrudan karşılar. Bu aile ilişkileri, açılıştaki rahmeti soy ve bakım bağlarının yanında yeniden duyurur.",
+      "reader_payoff": "Açılıştaki merhamet, sûrenin aile bağına ve yakın akraba yetimin kırılganlığına ilişkin imgeleriyle birlikte daha bedensel ve ilişkisel bir renk kazanır.",
+      "containment": "90:3 döl yatağını adlandırmaz; bu imge ebeveyn ve çocuk ilişkisinden doğan analojik bir yankıdır. 90:15’teki yakınlık ise soy bağını açıkça destekler. Bu iki bağlam dalı, sıfatların sözlük anlamını rahmetten soy bağına veya döl yatağına çevirmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Yakın akraba bağlamı soy bağı dalıyla doğrudan örtüşür; döl yatağı imgesi ebeveyn-çocuk sözünden çıkarılan sınırlı bir analojidir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "90:3:1",
+            "90:3:3",
+            "90:15:3"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Allah’a nispet edilen er-Raḥmân ve er-Raḥîm sıfatları.",
+          "independent_trigger": "90:3’te ebeveyn ile çocuk, 90:15’te de yakın akraba yetim anılır.",
+          "activation": "Rahmet kökünün soy bağı dalı, yetimin akrabalık yakınlığı ve ebeveyn-çocuk ilişkisiyle temas eder; bu temas, açılıştaki ilahî rahmeti sûrenin insan ilişkileri yanında duyurur.",
+          "resulting_reading": "Rahmet adı, sûrenin açtığı aile bağı ve yakın akraba yetim imgesiyle birlikte okunur.",
+          "boundary": "Buradan her yakın ilişkinin özel bir yükümlülüğü veya sıfatların anlamının akrabalık olduğu sonucu çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "90:3:1",
+            "90:3:3"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Allah’a nispet edilen er-Raḥmân ve er-Raḥîm sıfatları.",
+          "independent_trigger": "90:3, begetiren ebeveyn ve onun çocuğunu birlikte anar.",
+          "activation": "Rahmet kökündeki döl yatağı imgesi, ebeveyn ve çocuk ilişkisiyle analojik temas kurarak açılıştaki rahmete doğum ve taşınan yaşam yönünde bedensel bir yankı verir.",
+          "resulting_reading": "Okur, ilahî rahmet adlarını sûrenin hemen başındaki ebeveyn-çocuk imgesi yanında, yaşamı taşıyan bir imayla da duyabilir.",
+          "boundary": "90:3 anne, gebelik veya döl yatağından söz etmez; bu, kök dalı ile ebeveyn-çocuk imgesi arasındaki analojidir, sıfatların gerçek sözlük anlamı değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "90:3",
+        "90:15"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:human-boast-against-name",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Ad ve insanın üstünlük iddiası",
+      "claim": "Odaktaki “isim” kökünün övünme ve boy ölçüşme dalı, malıyla övünen ve kimsenin kendisini aşamayacağını düşünen insanın anlatıldığı sûrede bağlamsal bir karşılık bulur; Allah’ın adıyla açılan eşik bu insanî üstünlük iddiasının yanında bir ölçü noktası olur.",
+      "mechanism": "Odak sözcük “isim”, verilen kök açıklamasında yükselme alanıyla birlikte yarışma ve övünme dalına da bağlıdır. 90:5’te bir kişinin kimsenin kendisine güç yetiremeyeceğini varsayması, 90:6’da ise yığılı malını harcadığını söylemesi bu dala bağımsız bir insanî tetikleyici sağlar. Kökün övünme dalı ile bu söylem buluşunca açılıştaki Allah adı, mal üzerinden kurulan kendilik iddiasına karşı sûrenin çerçevesi olarak duyulur.",
+      "reader_payoff": "İnsanın servetini kendi üstünlüğünün kanıtı sayan sözü, baştaki ilahî adın açtığı çerçeve içinde okunur; böylece sûrenin eleştirdiği kendine yeterlilik daha erken görünür.",
+      "containment": "Sûre, basmalada Allah’ın adı ile o insan arasında açık bir karşılaştırma kurmaz. Buradaki ilişki, isim kökündeki övünme dalının bağlamca etkinleştiği keşfedici bir yankıdır; “isim” sözcüğünün odak kullanımını övünme diye değiştirmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "Kök dalı ve mal övüncü metinde ayrı ayrı izlenebilir; bunları Allah’ın adı etrafında karşıt bir ölçü olarak birleştirmek açıkça bağlamsal çıkarımdır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B007",
+          "facet_id": "F001",
+          "branch_gloss": "yarışma, övünerek boy ölçüşme ve karşı koyma",
+          "facet_statement": "İki veya daha çok taraf üstün gelmek için karşılıklı olarak yarışır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "90:5:4",
+            "90:5:6"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "Basmalanın başındaki “isim” sözcüğü; odak çözümlemesi bu biçimi adlandırma olarak seçerken kök kaydında yarışma ve övünme dalı da bulunur.",
+          "independent_trigger": "90:5, bir kişinin kendisini kimsenin yenemeyeceğini varsayıp varsaymadığını sorar.",
+          "activation": "İnsanın rakipsiz üstünlük varsayımı, kökün yarışma dalını açılıştaki “isim” taşıyıcısına bağlam bağlamında getirir; böylece Name ile insanın kendini ölçme iddiası aynı sûre çerçevesinde karşı karşıya gelir.",
+          "resulting_reading": "Açılışta anılan Allah’ın adı, sûredeki insanî üstünlük iddiasının yanında bağlamsal bir karşı-ölçü olarak duyulur.",
+          "boundary": "90:5 bu insanın varsayımını sorar; basmala insanın rakibi değildir ve sözcüğün yerel anlamı “ad” olarak kalır."
+        },
+        {
+          "branch_ref": "root_000745/B007",
+          "facet_id": "F002",
+          "branch_gloss": "yarışma, övünerek boy ölçüşme ve karşı koyma",
+          "facet_statement": "Taraflar sahip oldukları üstünlüklerle övünerek birbirleriyle boy ölçüşür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "90:6:1",
+            "90:6:3",
+            "90:6:4"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "Basmalanın başındaki “isim” sözcüğü ve onun verilen kök alanı.",
+          "independent_trigger": "90:6’da konuşan kişi, yığılı miktardaki malı harcadığını söyler.",
+          "activation": "Mal üzerinden kurulan bu öz sunum, kökün üstünlükleriyle övünme dalına denk düşer; Allah’ın adını öne alan başlangıç, servet iddiasının tek başına kendi değer ölçüsünü kurmasını engelleyen bağlamsal çerçeve olur.",
+          "resulting_reading": "Mal övüncü, sûrenin başındaki Allah adı ve ileride tanımlanan ahlâkî çaba ışığında bir kendilik iddiası olarak görünür.",
+          "boundary": "90:6 bu sözü aktarır, fakat basmala ile konuşan arasında açık bir yarışma kurmaz; bu karşıtlık makro çıkarımdır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "90:5",
+        "90:6"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:name-and-ascent",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İsim ve sarp yükseliş",
+      "claim": "“İsim” sözcüğünün yükseltilmiş adlandırma yönü, sûrenin iki yüksek yolu ve sarp geçidiyle buluşunca ahlâkî çaba açılıştaki adın çevresinde bir yükseliş olarak görünür.",
+      "mechanism": "Odak çözümlemesi “isim” sözcüğünü yerel olarak ad diye belirlerken, kök alanında yükselme, yükseklik ve yükseltilmiş adlandırma basıncını da kaydeder. 90:10’daki iki yükselti ve 90:11–12’deki sarp geçit, yükselme dalını bağımsız biçimde tetikler; böylece serbest bırakma ve doyurma gibi zorlu işler bir yükseliş görüntüsü kazanır.",
+      "reader_payoff": "Sûrenin güç isteyen toplumsal yolu, açılıştaki ilahî adla birlikte dik bir tırmanış olarak algılanır.",
+      "containment": "“İsim” burada yine addır; yükselme, kökün sûre bağlamında duyulan ikincil basıncıdır. Bu ilişki sözcüğü yol anlamına çevirmez ve Allah’ın mertebesi hakkında bir önerme kurmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odak çözümlemesindeki yükseltilmiş adlandırma ve bağlamdaki yüksek yollar/sarp geçit açıktır; bunları toplumsal çabayla tek bir yükseliş görüntüsünde buluşturmak makro yorumdur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B001",
+          "facet_id": "F001",
+          "branch_gloss": "fiziksel ya da toplumsal yükselme",
+          "facet_statement": "Bir şey bulunduğu düzeyden yukarı çıkar veya yüksek duruma gelir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "90:10:2",
+            "90:11:3",
+            "90:12:4"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "Basmalanın başındaki “isim” sözcüğü; odak çözümlemesi yerel ad anlamının yanında yükseltilmiş adlandırma basıncını da kaydeder.",
+          "independent_trigger": "90:10’daki النجدين yükselti anlamını taşır; 90:11–12’deki العقبة açıkça sarp ve güç geçit olarak sunulur.",
+          "activation": "İsmin kökündeki yükselme dalı, bağlamdaki yüksek yol ve sarp geçit görüntüleriyle temas eder; bu ortak dikey imge, sûrenin zor ahlâkî yolunu açılışın yanına taşır.",
+          "resulting_reading": "Özgürleştirme ve açları doyurma yönündeki çaba, basmaladaki adın çevresinde yükseliş gerektiren bir yol olarak okunur.",
+          "boundary": "Bu, kök ve bağlam arasındaki ikincil bir yankıdır; basmala bir yol öğretisi vermez, “isim” de yerel olarak ad anlamını korur."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "90:10",
+        "90:11",
+        "90:12"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-as-practice",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhametin toplumsal eylemi",
+      "claim": "Sûre, basmalada Allah’a nispet edilen rahmeti serbest bırakma, doyurma ve birbirine merhameti öğütleme işleriyle insan hayatında görünür kılar; açılıştaki sıfatlar böylece uygulanmış bir toplumsal bakımın yanında okunur.",
+      "mechanism": "Odaktaki er-Raḥmân ve er-Raḥîm rahmet kökünü taşır. 90:13–16’da özgürleştirme, kıtlık gününde doyurma ve yoksul kişilere yönelme somut iyilik eylemlerini verir; 90:17’de aynı kök “merhamet” olarak döner ve iki karşılıklı öğütleme fiilinin konusu olur. Etkin iyilik ve karşılıklı merhamet dalları bu eylem dizisine temas edince açılıştaki ilahî rahmet, sûrenin toplumsal uygulamalarıyla birlikte anlaşılır.",
+      "reader_payoff": "Rahmet, hem zordaki kişiye yönelik maddi yardım hem de insanların birbirine sürdürdüğü bir sorumluluk olarak görünür.",
+      "containment": "Bu ilişki insan eylemlerini açılıştaki ilahî rahmetle aynılaştırmaz ve basmalayı bu eylemlere verilmiş doğrudan bir emir saymaz; sûrenin bağlamında ikisi arasında kurulan bir yankıyı gösterir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "90:17’de aynı kökün merhamet anlamıyla ve karşılıklılık yapısıyla dönüşü doğrudandır; önceki yardım eylemlerini açılıştaki sıfatlarla bir toplumsal uygulama bağı içinde okumak makro sentezdir."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "90:13:1",
+            "90:14:2",
+            "90:15:1",
+            "90:16:2"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Allah’a nispet edilen iki rahmet sıfatı er-Raḥmân ve er-Raḥîm.",
+          "independent_trigger": "90:13–16’da köle özgürleştirme, kıtlık gününde doyurma, yakın akraba yetim ve toprağa düşmüş yoksul anılır.",
+          "activation": "Rahmet dalının iyilikte bulunma sonucu, sûrenin bu yardım ve muhtaç kişilere yönelme dizisiyle temas eder; açılıştaki sıfatlar somut toplumsal eylemlerin yanında yeniden duyulur.",
+          "resulting_reading": "Basmalanın rahmeti, özgürleştirme ve doyurma gibi başkasının sıkıntısını gideren işler yanında okunur.",
+          "boundary": "Metin bu işleri doğrudan basmalanın emri diye sunmaz; bağ, aynılaştırma değil bağlamsal yankıdır."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F003",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Topluluğun bireylerinin birbirine acıyıp birbirini esirgemesi, çekirdeğin karşılıklı bir kuruluşta gerçekleşmesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "90:17:6",
+            "90:17:8",
+            "90:17:9"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Basmalanın rahmet kökünden gelen er-Raḥmân ve er-Raḥîm sıfatları.",
+          "independent_trigger": "90:17, inanmış topluluğun sabır ve merhamet konusunda birbirine iki kez öğüt vermesini söyler.",
+          "activation": "Aynı rahmet kökü 90:17’de merhamet olarak görünür; yinelenen karşılıklı öğütleme yapısı bu anlamı kişiler arasında paylaşılan bir tutuma çevirir.",
+          "resulting_reading": "Açılıştaki ilahî rahmet, inanmış kişilerin birbirine yönelttiği merhametle sûrenin insanî ilişkilerine bağlanır.",
+          "boundary": "İnsanların birbirine merhameti, ilahî sıfatın karşılığı veya bütünü değildir; bağ, aynı kök ve karşılıklılık üzerinden kurulan bağlamsal ilişkidir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "90:13",
+        "90:14",
+        "90:15",
+        "90:16",
+        "90:17"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Prefatory 90:0 için HFT payload’ı ve before/after trace sağlanmamıştır; bu bulgular yalnızca odak yüzeyi, sağlanan dal kayıtları ve ana sûre bağlamına dayanır.",
+    "Aday, destek ve bağlantı kayıtları boş olduğundan her iki bağlam keşfi de aday listesinden bağımsız olarak değerlendirilmiştir.",
+    "Paket kaynak güveni için ayrıca etiket sunmuyor; source_trust dizileri bu nedenle boş bırakılmıştır."
+  ]
+}

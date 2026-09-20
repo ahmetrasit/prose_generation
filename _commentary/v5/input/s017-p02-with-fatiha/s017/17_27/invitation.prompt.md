@@ -1,0 +1,213 @@
+# V5 reading invitation — 17:27
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p02-with-fatiha/s017/17_27/17_27.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p02-with-fatiha/s017/17_27/17_27.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükmün İki Yargısı
+
+17:27 iki yargıyı peş peşe kurar: {ar:إِنَّ, tr:inna, gloss:şüphesiz} {ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīna, gloss:malı ölçüsüzce savuranlar} {ar:كَانُوٓا۟ إِخْوَٰنَ ٱلشَّيَٰطِينِ, tr:kānū ikhwāna ash-shayāṭīni, gloss:şeytanların kardeşleridir}; ardından {ar:وَ, tr:wa, gloss:ve} {ar:كَانَ ٱلشَّيْطَٰنُ, tr:kāna ash-shayṭānu, gloss:Şeytan da} {ar:لِرَبِّهِۦ, tr:li-rabbihi, gloss:kendi Rabbine karşı} {ar:كَفُورًا, tr:kafūran, gloss:çok nankördür} der. İlk yargı savurganları şeytanların kardeşleri diye sınıflandırır; ikincisi Şeytan'ı kendi Rabbine karşı yoğun nankörlükle niteler. Bu iki yargı, bütün harcamalar için bir miktar kuralı koymaz; savurganlar sınıfının aidiyetini ve Şeytan'ın Rabbine karşı niteliğini bildirir.
+
+İlk yargıda {ar:إِنَّ, tr:inna, gloss:şüphesiz} hem belirli çoğul sınıfı hem ona bağlanan kardeşlik yüklemini vurgular. Bu vurgu, ölçüsüz savurma niteliği taşıyan kişiler hakkında belirgin bir tasnif kurar. Vurgu ilk cümlecikte tamamlanır; bu tasnifin önceki buyruklarla ilişkisini ise yakın bağlam açar.
+
+{ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīna, gloss:malı ölçüsüzce savuranlar} II. kalıbın etken ortaç çoğuludur: tek bir savurma anından çok, bu davranışla nitelenen kişileri adlandırır. Belirli çoğul biçim davranışı sınıf kimliği olarak belirginleştirir; yargı bu niteliğe odaklanır, tek tek harcamalar için genel bir mahkûmiyet kurmaz. Aktarılmış bir biçim karşılaştırmasının yüzeyi verilmediği için aşırı üretim ya da denetimsiz artış yönü ihtimalli bir ek baskı olarak kalır; odakta görünen ortaç ve savurganlar sınıfı ana okuma olarak belirgindir.
+
+{ar:كَانُوٓا۟, tr:kānū, gloss:çoğul kopula} biçiminin kişi eki savurganlar sınıfına döner; kardeşlik yüklemi fiilin kendisine değil, o fiille nitelenen insanlara bağlanır. İlk kopulanın mansup haberi {ar:إِخْوَٰنَ, tr:ikhwāna, gloss:kardeşler} biçimidir; onu izleyen belirli genitif {ar:ٱلشَّيَٰطِينِ, tr:ash-shayāṭīni, gloss:şeytanlar sınıfının} kardeşliğin yöneldiği sınıfı tamamlar. Sözün aile ve doğum bağına dayanan olağan anlamı korunur; cümledeki kardeşlik biyolojik soy iddiası değil, insanlar ile şeytanlar arasındaki adlandırılmış aidiyettir.
+
+{ar:إِخْوَٰنَ, tr:ikhwāna, gloss:kardeşlik} sözünün kökeni için aktarılan çözümlemeler arasında görüş ayrılığı bulunur; bu belirsizlik tamlamadaki genitif ilişkiyi ve yüklem görevini değiştirmez, başka bir köken açıklamasını seçmeye de izin vermez. Genitif {ar:ٱلشَّيَٰطِينِ, tr:ash-shayāṭīni, gloss:şeytanlar sınıfının} biçimi bu cümlede standart yüzeydir. Karşılaştırıldığı söylenen mansup biçimin yüzeyi verilmediği için genitifin yerini almaz; böylece kardeşlik tamlaması kendi cümle yapısında kalır.
+
+İkinci cümleciğin başındaki {ar:وَ, tr:wa, gloss:ve} yeni bir kopulalı yargıya geçer. İlkinde çoğul {ar:كَانُوٓا۟, tr:kānū, gloss:çoğul kopula} insan sınıfını nitelerken, burada tekil {ar:كَانَ, tr:kāna, gloss:tekil kopula} açık özne {ar:ٱلشَّيْطَٰنُ, tr:ash-shayṭānu, gloss:Şeytan}ı kendi niteliğine bağlar. Böylece çoğul {ar:ٱلشَّيَٰطِينِ, tr:ash-shayāṭīni, gloss:şeytanlar sınıfı}ndan onu açıklayan tekil bir arketipe geçilir; bu sayı değişimi sınıfı tek bir varlığa indirmez, savurganları da Şeytan'la özdeşleştirmez. İki kopula tarih verilmiş olaylar dizisi anlatmaktan çok öznelerini birer durum içinde gösterir. Bu aynalık, tekrarlanan savurmanın tekil Şeytan'ın yerleşik nankörlük profilini yansıtarak sınıfsal aidiyeti açıklayabileceği bir okumaya açılır. Bu ilişki yorumlayıcı düzeydedir: {ar:وَ, tr:wa, gloss:ve} açık bir neden bildirmez ve tek eylem insanın kimliğini kesinleştirmez; ikinci yargı yine de ilk aidiyetin hangi örüntüye benzediğini gösterir.
+
+{ar:لِرَبِّهِۦ, tr:li-rabbihi, gloss:kendi Rabbine} öbeğindeki iyelik eki Şeytan'ı kendi Rabbine bağlar; lâm da son sıfatın yöneldiği ilişkiyi bildirir. {ar:رَبِّهِۦ, tr:rabbihi, gloss:kendi Rabbi} sözü sahiplik ve yönetme alanını, ayrıca besleyip gözetme ve geliştirme çağrışımını taşır. Rab adının mutlak kullanımı Allah'a özgüdür; başka sahiplik kullanımları belirli bir şeye bağlanır. Burada zamir, ilişkiyi doğrudan öznenin kendi Rabbine yöneltir.
+
+Son yüklem {ar:كَفُورًا, tr:kafūran, gloss:çok nankör} belirsiz mansup yoğun bir sıfattır; Şeytan'ı tek tek sayılmış eylemlerle değil, güçlü bir nankörlük niteliğiyle tanımlar. Kökünün örtme imgesi de bu niteliğe eşlik eder: kendi kaynağından gelen yararı tanımamak, o kaynağın değerini örtmek gibi duyulur. Hedefi ve iyelik ilişkisini {ar:لِرَبِّهِۦ, tr:li-rabbihi, gloss:kendi Rabbine} öbeği sağlar; böylece örtme imgesi Rabb'e yönelmiş nankörlüğün nasıl işlediğini belirginleştirir.
+
+## Saçılma ve Bakım
+
+Olağan anlamı malı savurup ziyan edenler olan {ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīna, gloss:malı ölçüsüzce savuranlar} biçimi, sözlük alanındaki ekimlik tohumu toprağa saçarak ekme kullanımını da çağrıştırır. Bu çağrışım, ayrı {ar:رَبِّهِۦ, tr:rabbihi, gloss:kendi Rabbi} sözündeki besleyip yetiştirme ve tamamlamaya uzanan yönle, {ar:كَفُورًا, tr:kafūran, gloss:çok nankör} kökündeki örtme imgesiyle buluşunca belirli bir tarım benzetmesi kurar: gelişebilecek potansiyel bakımını görmeden dağılır; tohumu büyümeyi korumak için örten toprak imgesi ise kaynak değerini gizleyen nankörlüğe döner. Bu temkinli imge bitmiş malın tüketilmesi okumasını, verim verebilecek şeyin bakım ve tamamlanmadan kopuşuna doğru genişletir. Ayetin olağan anlamları bu okumada yerinde kalır; ekim gerçek bir olay, {ar:كَفُورًا, tr:kafūran, gloss:çok nankör} da çiftçi adı değildir. Böylece dört söz, dağılma ile büyümeyi besleyecek kaynak arasındaki kaybı görünür kılar.
+
+Dağıtma alanında üç kayıtlı kullanım birbirinden ayrılır: ekimlik tohumu saçarak ekme, bir şeyi parçalara ayırıp dağıtma ve hayvan topluluğunun her yana yayılmasını anlatan ikilemeli biçim. Bunlar aynı yüzey ya da aynı kullanım değildir; ikilemeli biçim 17:27'deki {ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīna, gloss:malı ölçüsüzce savuranlar} da değildir. Bu ayrım maddi dağılma çağrışımını açarken odaktaki etken ortaç biçimini ve savurganlar sınıfını belirgin tutar.
+
+Ekim için saçılan tohumun yanına ayrı bir bitki görüntüsü gelir (18:45): yetişip kuruyan bitki {ar:هَشِيمًۭا تَذْرُوهُ ٱلرِّيَٰحُ, tr:hashīman tadhruhu r-riyāḥ, gloss:rüzgârların savurduğu kuru ufantı} hâline gelir. Buradaki savurma fiili 17:27'deki {ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīna, gloss:malı saçıp savuranlar} sözcüğü değildir; temas ortak kökten değil, rüzgârın kuru parçaları dağıttığı sahneden doğar. Tohum imgesi büyüyebilecek potansiyelin bakım görmeden yayılışını, 18:45'teki bitki ise önce büyüyüp sonra kuruyarak parçalanmayı gösterir. Bu ikinci sahne mali savrulmaya verimsizleşen bir maddi karşılık kazandırır; odak ayetin konusu yine harcama olarak kalır.
+
+Şeytan adları için aktarılan bir başka açıklama, uzaklaşma yönünü açar. {ar:ٱلشَّيَٰطِينِ ٱلشَّيْطَٰنُ, tr:ash-shayāṭīni ash-shayṭānu, gloss:şeytanlar ve Şeytan} ayette başkaldıran varlıkları adlandırır; bu adların niyet edilen iyilikten uzaklaşmayla ilişkilendirilmesi ve ayrı bir biçimin birini tuttuğu yönden ayırmayı anlatması ihtimalli bir etimolojik yankıdır. Bu ilişki tek sözlük anlamı ya da fiziksel yön değildir. Tohumun gelişeceği kaynaktan kopuş imgesiyle buluştuğunda, söz konusu uzaklaşma ölçüsüz savurmayı tamamlanmaya götürecek kaynaktan ayrılma gibi duyurur.
+
+## Kardeşlik ve Bağ
+
+Yakın bağlamda anne babaya iyilik, incitici sözden kaçınma ve güzel hitap buyurulur (17:23); sonraki ayette merhamet duası, ebeveynlerin {ar:رَبَّيَانِى صَغِيرًا, tr:rabbayānī ṣaghīran, gloss:beni küçükken yetiştirdiler} diye anılmasıyla alınmış bakımı somutlaştırır (17:24). {ar:ٱلرَّحْمَةِ, tr:ar-raḥmah, gloss:merhamet} ile {ar:رَحِم, tr:raḥim, gloss:rahim} ortak kökleriyle merhamet ve akrabalık alanlarını birbirine yaklaştırır. Bu zeminde 17:27'deki {ar:إِخْوَٰنَ, tr:ikhwāna, gloss:kardeşler} sözü, doğumla alınmış aile bağının karşısında seçilmiş asi bir aidiyet gibi duyulabilir. Ebeveynlerin yetiştirmesiyle {ar:لِرَبِّهِۦ, tr:li-rabbihi, gloss:kendi Rabbine} arasındaki temas bağlamsaldır: sözler aynı kökten gelmez, ebeveynliği Rablikle bir tutmaz ve ayet belirli bir ihmal bildirmez. Karşıtlık, alınmış bakım ile seçilmiş bağlılık arasındadır.
+
+Tövbe, namaz ve zekâtın ardından {ar:فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ, tr:fa-ikhwānukum fī d-dīn, gloss:dinde kardeşleriniz} denmesi kardeşliğin davranışla kurulan yanını gösterir (9:11): somut edimler inananlar arasında ilişki kurar. Sözlüklerde {ar:الإخوان, tr:al-ikhwān, gloss:kardeşler} biçiminin arkadaşlar, {ar:الإخوة, tr:al-ikhwa, gloss:doğumdan kardeşler} biçiminin doğum kardeşleri için daha sık kullanıldığı yönünde bir eğilim vardır; bu değişmez bir biçim kuralı değildir. Ailedeki baba, oğul, kardeş ve aşiret adları 58:22'de gerçek akrabalık olarak kalırken, Allah'a ve elçisine karşı durana bağlılık bu soy ilişkisiyle gerekçelendirilmez (58:22). Bu karşılaşma aile anlamını koruyup edimlerle kurulan yakınlığı da açar.
+
+Bu din kardeşliğinin (9:11) yanına, aynı sözlük ailesindeki ayrı {ar:الآخِيَّة, tr:al-ākhiyya, gloss:hayvan bağlama halkası} adı maddi bir benzetme koyar. Hayvanın sabitlendiği halka, gözetilen hak ve yükümlülük bağını düşündürür; sözlükteki bağlama kullanımı hayvanı o halkaya tutturma sahnesiyle sınırlıdır. Bu maddi dal, {ar:إِخْوَٰنَ, tr:ikhwāna, gloss:kardeşler} için doğrudan “halka” ya da genel “bağlamak” anlamı değil, davranışla kurulan yakınlığı sürdürülmesi gereken bir ilişki gibi duyuran benzetmedir.
+
+Ayrı bir sözlük imgesi olarak {ar:ٱلشَّيَٰطِينِ ٱلشَّيْطَٰنُ, tr:ash-shayāṭīni ash-shayṭānu, gloss:şeytanlar ve Şeytan} adları, kuyudan su çekmeye yarayan uzun ve sıkı bükülmüş ipi çağrıştırır. Bu imgeyle birlikte kaydedilen bağlama eylemi bir şeyi ya da hayvanı sıkıca tutturur. Halka sabit bir tutturma noktası verirken kuyu ipi aradaki mesafeyi geçen ayrı bir bağ görüntüsü sunar; iki sözlük katkısı aynı anlama indirgenmeden ilişki düşüncesini maddileştirir.
+
+Tohumun saçılması ve bir şeyi parçalara ayırarak dağıtma dağılmış etkileri verir; {ar:الآخِيَّة, tr:al-ākhiyya, gloss:hayvan bağlama halkası} sabit noktayı, {ar:ٱلشَّيَٰطِينِ ٱلشَّيْطَٰنُ, tr:ash-shayāṭīni ash-shayṭānu, gloss:şeytanlar ve Şeytan} çevresindeki kuyu ipi ise iki taraf arasındaki bağı sağlar. Sıkıca tutturma eylemi dağınık parçaları ilişkiye bağlar; iki yargıdaki {ar:كَانُوٓا۟, tr:kānū, gloss:çoğul kopula} ile {ar:كَانَ, tr:kāna, gloss:tekil kopula} da kardeşlik ve nankörlük yüklemlerini ayrı öznelerde bir arada tutar. Bu bileşik imge gerçek bir tarım ya da bağlama sahnesi değil, farklı sözlük dallarının kurduğu ilişkisel bir ağdır; böylece mal savurma yalnız tekil bir kayıp değil, süren bir aidiyet ağı gibi duyulur.
+
+Yusuf'un {ar:نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ, tr:nazagha ash-shayṭānu baynī wa-bayna ikhwatī, gloss:Şeytan benimle kardeşlerimin arasını açtı} sözü bu bağın kırılganlığını somutlaştırır (12:100). Aynı sahnede Yusuf anne babasıyla yeniden kavuşurken insan kardeşliği sürer, Şeytan'ın araya giren ve ayıran rolü görünür olur. Bu anlatı şeytanî ilişkinin aile içindeki ayırıcı etkisini görünür kılar; odaktaki savurgan sınıfı Yusuf'un kardeşleri değildir.
+
+Şeytan'ın insana {ar:ٱكْفُرْ, tr:ukfur, gloss:inkâr et} diye seslenip insan inkâr edince {ar:إِنِّى بَرِىٓءٌۭ مِّنكَ, tr:innī barīʾun minka, gloss:ben senden uzağım} diyerek ilişiğini kesmesi, 59:16'daki sıradır (59:16). Bu ayrı anlatıda davetin ardından gelen terk ediş, şeytanî yakınlığın kendi başına güvence olmadığını gösterir; böylece odaktaki kardeşlik hükmünün yanına bozulabilir bir yoldaşlık örneği eklenir.
+
+## Harcamanın Yönü ve Sınırı
+
+Kardeşlik ve saçılma imgeleri hemen önceki ayette (17:26) somut bir dağıtım düzeniyle karşılaşır. Orada {ar:وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ, tr:wa-āti dhā al-qurbā ḥaqqahu wa-al-miskīna wa-ibna as-sabīl, gloss:yakına hakkını, yoksula ve yolcuya ver} buyruğu yakına hakkını vermeyi, miskini ve yoldaki yolcuyu ise ayrı alıcılar olarak anmayı öne çıkarır; ayetin sonundaki {ar:وَلَا تُبَذِّرْ تَبْذِيرًا, tr:wa-lā tubadhdhir tabdhīran, gloss:saçıp savurma} yasağının hemen ardından 17:27'de savurganlar gelir. Belirli alıcıya yöneltilen aktarım ile hedefsiz saçılma böylece karşı karşıya durur. Bu bağlamda tohum saçma imgesi malın adı konan alıcılara ulaşmadan dağılmasını belirginleştirir; 17:26 bir tarla ya da hasat sahnesi kurmaz. {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:onun hakkı} sözü malı yalnız sahibinin dilediği gibi kullanacağı bir şey olmaktan çıkarır: hakları ve ihtiyaçları gözetmeyen savurma aile bağını, ihtiyaç sahibine erişebilecek kaynağı ve yolcuya verilecek somut desteği ıskalayabilir. Bu hak yönelimi her harcamayı başkasına hukuken borç sayan eksiksiz bir kural kurmaz; miktar da ölçütün parçası olarak kalır. Cömert miktardaki aktarım dahi adı konan alıcıları ve hakları gözden kaçırabilir; bu yüzden ölçü, malın ne kadar çıktığı kadar kime ve hangi hakka yöneldiğidir.
+
+Bu harcama uyarısı iki el imgesi arasına yerleştirilir (17:29): {ar:يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ, tr:yadaka maghlūlatan ilā ʿunuqika, gloss:elini boynuna bağlanmış tutma} vermeyi hareketsiz bırakan tutmayı, {ar:وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ, tr:wa-lā tabsuṭhā kulla al-basṭi, gloss:elini bütünüyle açıp saçma} ise eldeki kaynağı sonuna dek salmayı gösterir. Bütünüyle açılan elin ardından gelen {ar:فَتَقْعُدَ مَلُومًا مَّحْسُورًا, tr:fa-taqʿuda malūman maḥsūran, gloss:kınanmış ve tükenmiş kalma} sonucu aşırılığın tükenişini görünür kılar; bu sonuç her harcamaya genellenmez. Rızkın birilerine genişletilip başkalarına daraltılması da eklenir (17:30): {ar:يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ وَيَقْدِرُ, tr:yabsuṭu al-rizqa li-man yashāʾu wa-yaqdiru, gloss:dilediğine rızkı genişletir, dilediğine daraltır}. Dar rızık bütünüyle tutmayı, geniş rızık da tükenene dek harcamayı gerektirmez. Her hane için tek hesap formülü çıkmaz; savurma uyarısı, eldeki farklı imkânı gözetirken hem verememeyi hem de sonuna dek salmayı hesaba katar.
+
+Harcamayı ölçülü denge diye niteleyen {ar:قَوَامًا, tr:qawāman, gloss:ölçülü bir denge} sözü, iki el ucu arasına ayrı bir ölçü koyar (25:67): burada övülen tutum ne harcamayı sınırsızca çoğaltır ne bütünüyle keser. 17:29'daki el imgeleriyle birlikte miktar kadar alıkoymayı da hesaba katar; savurganlık sözcüğünün bütün sözlük kapsamını tanımlamaz. Böylece 25:67 harcama değerlendirmesine, savurma ve kısma karşısında dengeli bir ölçü ekler.
+
+Dağıtımın yönü başka bir sahnede belirginleşir (59:7): servet yakınlara, yetimlere, yoksullara ve yolda kalmışlara yöneltilir ki {ar:كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ, tr:kay lā yakūna dūlatan bayna l-aghniyāʾi minkum, gloss:aranızdaki zenginler arasında dolaşıp durmasın diye}. Bu karşılaştırma savurganlığı toplam miktarın yanı sıra malın hangi yöne aktığıyla da düşündürür. 59:7'nin alıcıları bu bağlantıda 17:27'ye taşınacak sabit bir hukuk listesi oluşturmaz; 17:26'nın hemen önündeki yerel bağlam kendi hak sahiplerini adlandırır.
+
+İnsanlara gösteriş için mal harcayanların yanında {ar:ٱلشَّيْطَٰنُ لَهُۥ قَرِينًا فَسَآءَ قَرِينًا, tr:ash-shayṭānu lahu qarīnan fa-sāʾa qarīnan, gloss:Şeytan onun yoldaşıdır, ne kötü yoldaş} denir (4:38). Gösteriş kaydı karşılaştırmanın kapsamını belirler; bu sınır içinde sahne, mal kullanımı ile şeytanî yoldaşlığı birlikte gösterip 17:27'deki aidiyet hükmünü aydınlatır.
+
+## Emanet ve Sorumluluk
+
+Malın nereye yöneldiği sorusunun ardından, onu kimin yararı için ve ne kadar süreyle gözetmek gerektiği belirginleşir. Mallar {ar:أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَامًا, tr:amwālakumu allatī jaʿala llāhu lakum qiyāman, gloss:Allah'ın sizin geçim dayanağınız yaptığı mallar} diye anılır; 4:5'te gözetim altındaki kişilere rızık ve giysi sağlanması istenir. Bu geçim dayanağı, odaktaki {ar:لِرَبِّهِۦ, tr:li-rabbihi, gloss:kendi Rabbine} ilişkisinin kaynak ve yönetim yönüyle buluşunca, savurma sürdürücü kaynağın sorumlu yönetiminden sapmış bir akış gibi duyulur. Bu bağlamsal bağlantı 17:27'deki savurganlara yetim malı yöneticiliği yüklemez; 4:5'in bakım sahnesi malın hayatı sürdürme işlevini aydınlatarak kaynak yönetimi temasını somutlaştırır.
+
+Kaynağa bağlı bakım sorusu kıtlık korkusu karşısında da sınanır. 17:31'de çocukları {ar:خَشْيَةَ إِمْلَٰقٍ, tr:khashyata imlāqin, gloss:yoksulluk korkusuyla} öldürmek yasaklanır; ardından {ar:نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ, tr:naḥnu narzuquhum wa-iyyākum, gloss:onları da sizi de biz rızıklandırırız} denerek hem çocuklar hem ebeveynler rızık alan kişiler olarak gösterilir (17:31). Çocuklar bu sahnede yalnızca gider hesabı değildir: bağımlıyı kıtlık hesabıyla gözden çıkarma, bollukta savurmadan farklı yönde bakımın tersine çevrilmesi ihtimalini açar. Çocukların öldürülmesi savurma sözcüğünün anlamı değil, ayrı bir yasaktır; rızık vaadi ise bu karşılaştırmayı kaynağa güven ve bağımlıyı gözetme yönünde sınırlar. Böylece odaktaki nankörlük ilişkisi bolluktaki savurmadan başka bir kıtlık sınavında da duyulur.
+
+Haksız yere öldürülenin velisine tanınan {ar:سُلْطَٰنًا, tr:sulṭānan, gloss:yetki}, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak üzere} kullanılacak bir kapasite olarak çerçevelenir; hemen ardından {ar:فَلَا يُسْرِف فِى ٱلْقَتْلِ, tr:fa-lā yusrif fī al-qatli, gloss:öldürmede aşırıya gitmesin} diye sınır konur (17:33). Bu ayrı karşılık sahnesi, imkân ya da yetkinin sınırsız kullanım izni vermediği noktasında sınırlı bir analojiyle mal savurma uyarısını aydınlatır. İki ayet ayrı fiil ve hükümleri korur: biri öldürme karşılığındaki aşırılığı, öteki malı savurmayı ele alır. Bu yetki benzetmesi, kaynağı kullanma kapasitesinin de hakla düzenlenebileceğini düşündürür.
+
+Bu iki yakın buyruk kaynak kullanımını başkasının geleceğine karşı sorumlulukla somutlaştırır (17:34, 17:35). {ar:مَالَ ٱلْيَتِيمِ, tr:māla al-yatīmi, gloss:yetimin malı} için konan emir, ona ancak en iyi biçimde yaklaşmayı ve bu gözetimi sahibi olgunluğa erişinceye dek sürdürmeyi ister. Mal üzerindeki fiilî denetim, onu sınırsız kullanma hakkı vermez. {ar:أَوْفُوا۟ بِٱلْعَهْدِ, tr:awfū bi-l-ʿahdi, gloss:ahdi yerine getirin} yükümlülüğü zamana yayarken, {ar:أَوْفُوا ٱلْكَيْلَ, tr:awfū al-kayla, gloss:ölçüyü tam yapın} ve {ar:وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ, tr:wa-zinū bi-l-qisṭāsi al-mustaqīmi, gloss:doğru teraziyle tartın} kişisel tercihin dışındaki ölçüyü belirler. Bu ayrı buyruklar yan yana geldiğinde, Rabb adının yetiştirip tamamlamaya uzanan çağrışımı bağımlının geleceğini koruyan bir gözetim örneğiyle buluşur. Bağlamdan doğan emanet okuması her malın hukuken emanet olduğu iddiasına dönüşmeden, kırılgan hakkın sürekliliğini görünür kılar.
+
+## Sözün Dolaşımı
+
+Savurma alanının bir başka kolu malın değil, saklanması gereken sözün yayılmasını düşündürür. Sözlüklerde {ar:بذور, tr:badhūr, gloss:sırrını tutamayan kişi} kişi için, {ar:قوم بذر, tr:qawm badhar, gloss:söz saklamayan topluluk} ise topluluk için kaydedilir; 17:27'deki {ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīna, gloss:malı saçıp savuranlar} doğrudan “sır taşıyamayanlar” diye çevrilmez. Anne babaya incitici söz söylememe ve güzel hitap buyruğu (17:23), bilmediğinin ardına düşmeme emriyle (17:36) birlikte bu söz koluna sınır çizer: {ar:فَلَا تَقُل لَّهُمَآ أُفٍّ وَقُل لَّهُمَا قَوْلًا كَرِيمًا, tr:fa-lā taqul lahumā uffin wa-qul lahumā qawlan karīman, gloss:ikisine bile of deme, güzel söz söyle} ve {ar:وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ, tr:wa-lā taqfu mā laysa laka bihi ʿilmun, gloss:bilmediğin şeyin ardına düşme}. Aynı ayette {ar:ٱلسَّمْعَ, tr:as-samʿa, gloss:işitme} dahil yetilerin {ar:مَسْـُٔولًا, tr:masʾūlan, gloss:hesap sorulacak} oluşu, içeriğin neye dayandığını ve nasıl aktarıldığını hesap verilebilir kılar. Böylece malî akışa eklenen bilgi akışı da bilinene, işitilene ve söze ilişkin sorumluluk içinde duyulur.
+
+Bu akışın iki ayrı sahnesi vardır. Yusuf'a rüyasını kardeşlerine anlatmama öğüdü verilir (12:5); onların ona karşı tuzak kurabileceği ihtimali içeriği koruma gereğini doğurur, yaşanmış bir ifşa anlatılmaz. Buna karşılık insan ve cin şeytanlarının birbirlerine {ar:يُوحِى بَعْضُهُمْ إِلَىٰ بَعْضٍۢ زُخْرُفَ ٱلْقَوْلِ غُرُورًا, tr:yūḥī baʿḍuhum ilā baʿḍin zukhrufa l-qawli ghurūran, gloss:aldatmak için birbirlerine yaldızlı söz aktarırlar} diye süslü, aldatıcı söz aktarması 6:112'de tasvir edilir (6:112). İlki korunması gereken içeriğin dışarı çıkma riskini, ikincisi taraflar arasında gerçekten dolaşan aldatıcı sözü gösterir; böylece saçılma imgesi şeytanî bir iletişim ağına da uzanır.
+
+Bu söz imgesi, ayetin mali anlamını değiştirmeden güven ilişkisini tersine çevirir. Önceki {ar:الآخِيَّة, tr:al-ākhiyya, gloss:hayvan bağlama halkası} benzetmesinin sabitlediği hak ve karşılıklı yükümlülük bağı, {ar:إِخْوَٰنَ, tr:ikhwāna, gloss:kardeşlik} ile de duyulur; {ar:كَفُورًا, tr:kafūran, gloss:çok nankör} ise kabul edilmesi gereken nimetin değerini örten tutumu taşır. Sır yayma kolu gözetilen içeriği dışarı saçar. {ar:ٱلشَّيَٰطِينِ, tr:ash-shayāṭīni, gloss:şeytanlar sınıfı} adının yön saptırma çağrışımı bu katkıları tersine dönmüş bir emanet düzeninde buluşturur: korunması gereken söz yayılırken tanınması gereken kaynak örtülür. Bu, ayrı sözlük kullanımları ve bağlamlardan doğan ihtiyatlı bir yan imgedir: gizli haber ifşası bu bağlantının kapsamındadır, ayetin açık hükmü ise mali savurganlık ve nankörlüktür. Böylece yan imge, korunmuş sözün yayılmasıyla nimetin değerinin örtülmesini aynı güven ihlalinde karşılaştırır.
+
+## Nimet ve Hesap
+
+Kaynağa verilen cevabın başka bir görünümü açılır (14:34): sayılamayacak nimetlerin ardından insan {ar:لَظَلُومٌۭ كَفَّارٌۭ, tr:la-ẓalūmun kaffār, gloss:çok haksız ve çok nankör} diye nitelenir. Buradaki yüzey biçimi 17:27'deki {ar:كَفُورًا, tr:kafūran, gloss:çok nankör} ile aynı değildir; iki ifade arasındaki temas biçim özdeşliğine değil, nimet karşısında verilen cevaba dayanır. Bu karşılaştırmada insan odaktaki Şeytan'la özdeşleştirilmez; 17:27'de hangi nimetin kastedildiği de belirlenmez. Kuruyup dağılmış bitki (18:45), büyüyen şeyin kuru ufantıya dönüşmesini; malın zenginler arasında kapanmayıp alıcılara yönelmesi (59:7), dağıtımın nereye gittiğini gösterir. 14:34 ise nimeti alanın kaynağa nasıl karşılık verdiğini gösterir. Bu farklı sahneler bir araya geldiğinde savurma yalnız verim ve yön meselesi olmaktan çıkar, verilen nimeti tanıma ya da yadsıma ilişkisini de içerir. Rabb'in besleyip büyüten çağrışımını 14:34'teki nimetler etkinleştirir; bu yankı odaktaki kaynak ilişkisini derinleştirir, gerçek bir besleme sahnesi ya da tek zorunlu sözlük karşılığı kurmaz.
+
+Sûrenin kapanışında önceki buyruklar {ar:كُلُّ ذَٰلِكَ, tr:kullu dhālika, gloss:bütün bunlar} diye toplanır (17:38); {ar:سَيِّئُهُۥ, tr:sayyiʾuhu, gloss:kötü olanı} Rabbin hoş görmediği şey olarak nitelenir, {ar:ٱلْحِكْمَةِ, tr:al-ḥikmati, gloss:hikmet} ise buyrukları daha geniş bir düzene yerleştirir. Ardından Allah'ın yanında başka bir ilah edinmeme buyruğu ve {ar:مَدْحُورًا, tr:madhūran, gloss:kovulmuş} diye betimlenen son gelir (17:39). Bu kapanış, günlük kaynak kullanımıyla odaktaki kardeşlik ve Rabb'e nankörlük bağını daha geniş bir bağlılık düzeninde duyurur; malî uyarı ile tevhid buyruğu bu düzende kendi ayrı konularını korur.
+
+Fâtiha'daki dışsal hamd ifadesi (1:2), {ar:ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ, tr:al-ḥamdu lillāhi rabbi al-ʿālamīna, gloss:hamd âlemlerin Rabbi Allah'a mahsustur} ile odaktaki {ar:لِرَبِّهِۦ كَفُورًا, tr:li-rabbihi kafūran, gloss:kendi Rabbine karşı çok nankör} ilişkisinin karşısına aynı Rabb'e yönelen övgüyü koyar. Yakın bağlamdaki ibadet ve merhamet dili yerinde kalır (17:23, 17:24); bu kıyas kasıtlı alıntı ya da gönderme değil, nankörlüğe karşılık gelen olumlu övgüyü gösterir.
+
+Fâtiha'nın hesap günü ifadesi (1:4), {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:māliki yawmi al-dīni, gloss:hesap gününün sahibi} kaynak kullanımı için geleceğe uzanan bir hesap ufku açar: yakın çevredeki hak, ahit ve ölçü yükümlülüklerinin ötesinde, malın nereye yöneldiği ileride de cevaplanabilir görünür. Bu zaman ufku dışarıdan gelir; 17:27 hesap gününü anmaz, 17:34 ve 17:35'teki yakın buyrukların yerine geçmez ve bütün sureyi tek başına çerçevelemez. Böylece Fâtiha karşılaştırması, odağın kendi sınırlarını koruyarak kaynak kullanımını daha sonraki hesapla ilişkilendirir.
+
+</editorial_prose>

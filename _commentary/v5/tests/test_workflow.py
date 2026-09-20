@@ -261,6 +261,9 @@ class CliSurfaceTests(unittest.TestCase):
                 prompt = prompt_path.read_text(encoding="utf-8")
 
         self.assertIn("Yolun nasıl işlendiğini açıklayan nihai metin.", prompt)
+        normalized_prompt = " ".join(prompt.split())
+        self.assertIn("mandatory diagnostic pass", normalized_prompt)
+        self.assertIn("review triggers, not compression targets", normalized_prompt)
         self.assertNotIn(
             "Yolun nasıl işlendiğini açıklayan nihai metin.",
             result["handoff"]["launch_message"],
@@ -322,6 +325,8 @@ class CliSurfaceTests(unittest.TestCase):
 
         self.assertNotRegex(followup, workflow.MARKER_RE)
         self.assertIn("Do not cap a source paragraph at one unit", normalized)
+        self.assertIn("mandatory adversarial compression challenge", normalized)
+        self.assertIn("diagnostic triggers only", normalized)
         self.assertIn(
             "Repair only the same reader-prose and claim-ledger outputs", normalized
         )

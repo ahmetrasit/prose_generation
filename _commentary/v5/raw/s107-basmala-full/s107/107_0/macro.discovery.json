@@ -1,0 +1,941 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "107:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3123c834f1dc96afc063",
+      "decision": "accept",
+      "reason": "107:6daki insanlara görünme davranışı, adlandırma ve tanınma yönü için bağımsız makro tetikleyici sağlar. Üç aday dal da sınırlı bağlam yankısı olarak etkinleşir; ilahî adın ün anlamına geldiği ileri sürülmez.",
+      "finding_refs": [
+        "macro:name-and-public-display"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_818cb2049d619e77cfd4",
+      "decision": "accept",
+      "reason": "107:4-5 namaz bağlamı, Allah adını ve ibadet yönünü birbirine bağlayan somut tetikleyicidir. Adayın iki dalı etkinleşir; ayrıca `ism` için amaç/yön dalı, odak dal seçeneklerinden bağımsız olarak aynı ilişkiye uyar.",
+      "finding_refs": [
+        "macro:name-prayer-orientation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4ea4c362ba21033ad4d5",
+      "decision": "accept",
+      "reason": "Odaktaki iki merhamet adı, 107:2-3teki korunmasızlık ve geçim ihtiyacıyla birlikte B001 iyilik çekirdeğini ve B002 akrabalık bağını etkinleştirir.",
+      "finding_refs": [
+        "macro:mercy-as-kinship-care"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0f69938a13d818070382",
+      "decision": "narrow",
+      "reason": "Döl yatağının koruyan kap imgesi, yetimin itilmesiyle anlamlı bir makro temas kurar. Doğum sonrası hastalık dalı bu yüzey ve tetikleyicide etkinleşmediği için çıkarılır; B003 korunur.",
+      "finding_refs": [
+        "macro:womb-as-shelter"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000552/B004",
+          "reason": "B004 yalnız döl yatağına özgü ağrı, hastalık veya doğum sonrası bozukluğu kapsar. 107:2deki yetimi itme ve korunmasızlık bu patoloji için bağımsız bir tetikleyici sağlamaz; B003ün sağlıklı taşıyıcı kap imgesi ise ayrı olarak korunur."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_33bcc0e0772f95a9f3ee",
+      "decision": "accept",
+      "reason": "107:7de esirgenen küçük yarar, B001in iyilikte bulunma çekirdeğine bağımsız ve somut bir makro karşılık verir; akış imgesi benzetme sınırında tutulur.",
+      "finding_refs": [
+        "macro:mercy-and-small-aid"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_165383d8300d88672e41",
+      "decision": "represented",
+      "reason": "Aynı adlandırma ve seyirciye dönük görünürlük ilişkisi, B005 ve 107:6 tetikleyicisiyle `macro:name-and-public-display` bulgusunda zaten taşınır; yeni bir anlam veya ayrı tetikleyici eklemez.",
+      "finding_refs": [
+        "macro:name-and-public-display"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_710e9c1357e03b1a8317",
+      "decision": "represented",
+      "reason": "Merhametin yetim ve muhtaç için akrabalık benzeri bakım ve geçim ilişkisine dönüşmesi, adayın tek B001 dalı korunarak `macro:mercy-as-kinship-care` bulgusunda taşınır; 107:2, 107:3 ve 107:7 temasları da orada yer alır.",
+      "finding_refs": [
+        "macro:mercy-as-kinship-care"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bcd3eb2ed1dc90045ecf",
+      "decision": "represented",
+      "reason": "Yetimin itilmesiyle karşılaşan döl yatağı/korunak imgesi, adayın B003 dalı korunarak `macro:womb-as-shelter` bulgusunda taşınır; B003ün tek çekirdek yüzü aynı bağlamla etkinleşir.",
+      "finding_refs": [
+        "macro:womb-as-shelter"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9dcf4cc4e5037873b642",
+      "decision": "accept",
+      "reason": "Adayın odak dal referansı yoktur, ancak 107:6-7 yüzeyleri ve odaktaki Allah/merhamet taşıyıcıları mevcut olduğundan iki bağlam temasının birlikte kurduğu sınırlı retrospektif okuma korunur. Çözülmemiş bağlam kökü etiketleri odak dalı gibi kullanılmaz.",
+      "finding_refs": [
+        "macro:retrospective-social-test"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fecb85704ad0f15ddc50",
+      "decision": "accept",
+      "reason": "İsm adı için yükseltilmiş anılma kaynağı ve 107:1-5teki soru ile davranış dizisi gerçek bir makro temas sağlar. Etik ölçü sonucu açıkça çıkarımsaldır; adayın B005 dalı ve bağlamları korunur.",
+      "finding_refs": [
+        "macro:raised-designation-as-standard"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b6791fc3b17e7ade5e58",
+      "decision": "represented",
+      "reason": "Allah adının sonraki namazın yönünü belirlemesi ve biçimin yöneliş olmadan sürebilmesi, adayın B001 dalı korunarak `macro:name-prayer-orientation` bulgusunda aynen taşınır.",
+      "finding_refs": [
+        "macro:name-prayer-orientation"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4afa1893dfc995c9f535",
+      "decision": "represented",
+      "reason": "İki merhamet sıfatının yetim ve yoksul için korunma ve beslenme eylem şeması oluşturması, B001in etkin iyilik yüzüyle `macro:mercy-as-kinship-care` bulgusunda zaten yer alır.",
+      "finding_refs": [
+        "macro:mercy-as-kinship-care"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a7fb0cafd0938cf50381",
+      "decision": "accept",
+      "reason": "B002 akrabalık dalı yetim ve muhtaçla; destek metnindeki B003 döl yatağı imgesi de aynı yüzey taşıyıcısıyla korunma/kuşatma teması kurar. B003, adayın kayıtlı dalı değil, pakette ayrıca doğrulanan ek bir odak dalı olarak tutulur.",
+      "finding_refs": [
+        "macro:kinship-and-enclosure"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3848f33e1b72c7c6f42d",
+      "decision": "accept",
+      "reason": "Retrospektif kayıt, merhamet/kavuşum imgesinin bakım sahneleriyle ve Allah adının namaz yönelimiyle temasını tek bir sıralı okuma içinde birleştirir. Her iki aday dalı bağlamda iner; birleşik adım keşifsel tutulur.",
+      "finding_refs": [
+        "macro:care-and-prayer-retrospective"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:name-and-public-display",
+      "origin_candidate_id": "cand_3123c834f1dc96afc063",
+      "represented_candidate_ids": [
+        "cand_165383d8300d88672e41"
+      ],
+      "title": "Başlangıç adı ile seyirciye dönük görünürlük",
+      "claim": "Bismillah’taki Allah özel adı ve ism adı taşıyıcısı, tanınmanın yönünü belirleyen bir ölçü gibi duyulur; 107:6daki insanlara görünme davranışı bu yönelimin karşısına çıkar.",
+      "mechanism": "Odaktaki Allah adı ile adlandırma, kişiyi gösteren bir işaret taşır. 107:6daki bağımsız tetikleyici, görünür ibadetin insanlar için yapılmasıdır. Ad ve insanlar arasında yayılan ün dalı bu gösterilme temasına değince, açılış kimin tanınması için davranıldığı sorusunu uyandırır.",
+      "reader_payoff": "Okur, başlangıçtaki adı daha sonraki görünür dindarlıkla birlikte düşünür ve eylemin dış biçimi sürerken yöneldiği tanınma odağının değişebileceğini fark eder.",
+      "containment": "Allah adı hâlâ odaktaki özel addır; `ism` doğrudan iyi ün demek değildir ve 107:6 bütün namazlar hakkında hüküm vermez. İlişki, verilen bağlamdaki görünürlük temasına dayalı bir makro karşılaştırmadır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış bulgu ana karşıtlığı taşır; legacy_unbound okuyucu kaydı aynı görünürlük temasını destekler. Ün dalının Allah adındaki sıradan anlam değil, bağlamla açılan bir kök yankısı olduğu açık tutulur."
+      },
+      "support_ids": [
+        "sup_f26a3b70baeefcd35381",
+        "sup_50427cdb397a6f9cdb0b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "107:6"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Allah, Yaratıcıyı ayırt eden özel adı taşır.",
+          "independent_trigger": "107:6, ibadetin insanlar tarafından görülmesine yönelen bir davranıştan söz eder.",
+          "activation": "Özel adın Allah’a yönelttiği tanınma, insanlara görünmeyi amaçlayan davranışla karşılaşınca tanınmanın muhatabı belirginleşir.",
+          "resulting_reading": "Açılıştaki ad, sonraki davranışların kime yöneldiğini düşündüren ölçü olur.",
+          "boundary": "Odak sözcüğü genel bir tapınılan varlık adı değildir; 107:6daki davranış da bütün ibadetleri kapsayan hüküm sayılmaz."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "107:6"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "İsm, Allah’ı tanıtan ve ondan söz etmeyi sağlayan adlandırma taşıyıcısıdır.",
+          "independent_trigger": "107:6daki insanlara görünme amacı, davranışın hangi tanınmayı aradığına dair bağımsız bağlamı verir.",
+          "activation": "Adın tanıtıcı işlevi, insanlara görünme amacıyla temas edince açılışta anılan ad ile seyirciye yönelen gösteriş arasındaki fark duyulur.",
+          "resulting_reading": "İlahi adlandırma, davranışların hangi tanınma yönünde yapıldığını düşündürür.",
+          "boundary": "Bu dal fiziksel yükselme ya da doğrudan ahlaki ölçü anlamına genişletilmez; yerel sözcük ad olarak kalır."
+        },
+        {
+          "branch_ref": "root_000745/B008",
+          "facet_id": "F001",
+          "branch_gloss": "insanlar arasında yayılan iyi ün",
+          "facet_statement": "Bir kişi hakkındaki söz veya ün insanlar arasında yayılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "107:6"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "İsm ad anlamını taşır; aynı kök altındaki bu facet, bir kişi hakkındaki ünün insanlar arasında yayılmasını adlandırır.",
+          "independent_trigger": "107:6daki gösteriş, ibadetin başkalarınca görülmesini bağımsız olarak öne çıkarır.",
+          "activation": "İnsanların görmesi talebi, adın toplumsal dolaşımıyla temas eder; böylece aranan tanınmanın yönü açılış adıyla karşılaştırılır.",
+          "resulting_reading": "Basmala, Allah adını anmanın yanında insanların tanıması için yapılan görünür eylemi de düşündürür.",
+          "boundary": "Odak sözcüğünün iyi ün anlamına geldiği veya olumlu bir ünün gerçekten kazanıldığı ileri sürülmez; bu, aynı kökün bağlamla açılan toplumsal yankısıdır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:6"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:name-prayer-orientation",
+      "origin_candidate_id": "cand_818cb2049d619e77cfd4",
+      "represented_candidate_ids": [
+        "cand_b6791fc3b17e7ade5e58"
+      ],
+      "title": "Allah adının ibadete yön vermesi",
+      "claim": "Başlangıçta anılan Allah adı, sonraki namazın kime yöneldiğini belirginleştirir; namazın dış biçiminin sürmesi tek başına bu yönelişi güvenceye almaz.",
+      "mechanism": "Allah özel adının tapınılan varlıkla ilişkisi, 107:4-5teki namaz sahnesine bağlanır. Aynı zamanda `ism`in amaç ve yön dalı, dua eden kişinin hedefiyle temas eder. 107:5teki gaflet, ritüel biçimin bulunmasının yönelişi tek başına garanti etmediğini gösterir.",
+      "reader_payoff": "Okur, baştaki adı daha sonra gelen namazdan ayrı bir etiket olarak değil, namazın yöneldiği ad olarak yeniden duyar; biçim ile dikkat arasındaki ayrım korunur.",
+      "containment": "Allah burada genel bir isim değil özel addır; amaç/yön dalı odak sözcüğünün sözlük karşılığına çevrilmez, yalnız sonraki namazla açılan bir kök yankısıdır. Metin her namaz kılan hakkında tek bir hüküm vermez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış bulgu yöneliş ilişkisini verir; legacy_unbound okuyucu kaydı aynı temasın farklı bir açıklamasını sunar. Odak ile 107:4-5 arasındaki bağ makro çıkarımdır, dilbilgisel bir tamamlama değildir."
+      },
+      "support_ids": [
+        "sup_b0566de901f8cdd99e59",
+        "sup_65e062bd21d1c85f13ee"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1",
+            "107:4"
+          ],
+          "trigger_refs": [
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Allah adı odakta anılır; 107:4teki namaz kılanlar daha sonra gelen ibadet eylemini taşır.",
+          "independent_trigger": "107:5, onların namazlarından gafil olabildiğini bildirir.",
+          "activation": "Allah’ın adı, namaz eylemiyle muhatap ve ibadet ilişkisi kurar; gaflet bilgisi dış biçimin iç yönelişle ayrılabileceğini gösterir.",
+          "resulting_reading": "Başlangıçtaki ad, sonraki ibadetin yöneldiği kişiyi belirginleştirir.",
+          "boundary": "Bu facet genel tapınma eylemidir; odaktaki özel ad genel bir tanrı adı olarak yeniden yorumlanmaz."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "107:4",
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Allah odaktaki özel adla tapınılan varlığı gösterir.",
+          "independent_trigger": "107:4-5 sonraki namazı ve bu namaza yönelik gafleti birlikte verir.",
+          "activation": "Adlandırılmış tapınılan varlık, daha sonraki namazla ilişkiye girince namazın yönelmesi gereken muhatap somutlaşır.",
+          "resulting_reading": "Namazın biçimi kalsa da adın gösterdiği yönelişin kaybolabileceği okunur.",
+          "boundary": "Bu, özel adın genel bir sınıf adı olduğu iddiası değil; özel adın referentinin sonraki ibadetle ilişkilendirilmesidir."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "107:4",
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Allah, Yaratıcıyı başkalarından ayıran özel addır.",
+          "independent_trigger": "107:4-5te namazın yöneldiği ibadet sahnesi ve bu namazdaki gaflet anlatılır.",
+          "activation": "Özel ad, sonraki namazın hedefiyle karşılaşınca belirli muhatap ile ritüel davranış arasındaki bağ açılır.",
+          "resulting_reading": "Açılışın adı namazın yönelmesi gereken özel muhatabı gösterir.",
+          "boundary": "Bu bağlam namazın yönelimi hakkında bir makro okuma kurar; özel adın seslenme veya ant kullanımı burada ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000743/B011",
+          "facet_id": "F001",
+          "branch_gloss": "amaç ve yön; derinlemesine yoklama",
+          "facet_statement": "Bir şeye yönelmek ve onu amaç edinmek.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "107:4",
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "Odaktaki isim sözcüğü yerel olarak ad demektir; bu aynı kök dalı bir şeye yönelip onu amaç edinmeyi taşır.",
+          "independent_trigger": "107:4-5teki namaz ve bu namazda gaflet, amaç/yön için bağımsız bağlamı verir.",
+          "activation": "İsim taşıyıcısının yöneliş dalı sonraki namazla temas eder; böylece Allah’ın adı yalnız tanıtıcı bir etiket değil, ibadetin yönünü belirleyen bir çağrı olarak duyulur.",
+          "resulting_reading": "Bismillah, sonraki namazın yönelimiyle yankılanan bir başlangıç olur.",
+          "boundary": "Yerel sözcüğün anlamı ad olarak kalır; yöneliş, odak kök dalı ile bağlamın açtığı nitelikli bir rezonanstır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:4",
+        "107:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-as-kinship-care",
+      "origin_candidate_id": "cand_4ea4c362ba21033ad4d5",
+      "represented_candidate_ids": [
+        "cand_710e9c1357e03b1a8317",
+        "cand_4afa1893dfc995c9f535"
+      ],
+      "title": "Merhametin akrabalık ve bakım olarak görünmesi",
+      "claim": "Rahman ve Rahim, acımanın esirgeme ve iyilik sonucunu taşırken, yetim, muhtaç ve esirgenen küçük yarar bu sonucu akrabalık benzeri toplumsal bakıma dönüştürür.",
+      "mechanism": "Odaktaki iki merhamet sıfatı taşıyıcıdır. 107:2de kimsesiz yetim, 107:3te yiyeceğe muhtaç kişi, 107:7de esirgenen küçük yardım birbirinden ayrı tetikleyicilerdir. Merhametin etkin iyilik yüzü ve aynı kökün yakın soy bağı dalı, korunma ve geçim ilişkisi kopmuş kişilerle temas eder; açılışın duygusu somut bakım ve paylaşım olarak yeniden okunur.",
+      "reader_payoff": "İki merhamet adı yalnız bir iç duygu olarak kalmaz; korunma, beslenme ve küçük gündelik yardımın dağıtımı içinde görülebilecek bir ilişkiye açılır.",
+      "containment": "Rahman ve Rahim yine ilahî merhameti niteler; ayetler biyolojik akrabalık kurulduğunu veya yalnız yetim ve yoksulların merhametin muhatabı olduğunu söylemez. Akrabalık, odak kökünün bağlamla açılan yüzüdür.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış bulgu akrabalık benzeri koruma/geçim ilişkisini destekler; iki legacy_unbound okuyucu kaydı bunu bakımın kırılması ve gündelik yararın esirgenmesine kadar genişletir. Bu genişletme atfedilmiş bağlam çıkarımı olarak tutulur."
+      },
+      "support_ids": [
+        "sup_3f483013811968bf16c4",
+        "sup_70f88aca16055002de30",
+        "sup_979a67357076e2a28fdc"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:2",
+            "107:3",
+            "107:7"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Rahman ve Rahim merhameti taşır; bu dalın etkin yüzü acınan kişiyi esirgeme ve ona iyilik etmedir.",
+          "independent_trigger": "107:2de yetimin itilmesi, 107:3te muhtacın yiyeceği ve 107:7de küçük yardımın esirgenmesi bu iyilik için bağımsız bağlam sağlar.",
+          "activation": "Merhamet taşıyıcıları, bakım ve yardımın eksildiği üç sahneyle karşılaşınca duygu çekirdeği yapılması beklenen iyiliğe döner.",
+          "resulting_reading": "Açılıştaki merhamet, korunma ve geçim sağlayan toplumsal eylem olarak duyulur.",
+          "boundary": "Bu bağlantı merhametin her sonraki eylemin dilbilgisel öznesi olduğunu söylemez; bağlam, niteliğin toplumsal sonucunu düşündürür."
+        },
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:2",
+            "107:3"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "İki merhamet sıfatı aynı kökün yakın soy bağı dalını da taşıyabilecek yüzeylerdir.",
+          "independent_trigger": "107:2de yetim, koruyucu ebeveyninden kopmuş çocuk olarak; 107:3te muhtaç kişi destekten yoksun biri olarak görünür.",
+          "activation": "Yakın ve kalıcı bağ imgesi, korunması gereken ama koruyucu ilişkisi kesilmiş kişilerle temas eder; merhamet akrabalık benzeri destek olarak belirir.",
+          "resulting_reading": "Basmala, yetim ve muhtacın korunmasını yakınlık ve sorumluluk ilişkisi içinde düşündürür.",
+          "boundary": "Odak sözcükler soy bağı anlamına çevrilmez; bu, aynı kökün sosyal dalının bağlamla açılmasıdır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:2",
+        "107:3",
+        "107:7"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:womb-as-shelter",
+      "origin_candidate_id": "cand_0f69938a13d818070382",
+      "represented_candidate_ids": [
+        "cand_bcd3eb2ed1dc90045ecf"
+      ],
+      "title": "Rahim kökünün bedensel korunak imgesi",
+      "claim": "İki merhamet adı, aynı kökün döl yatağı imgesiyle korunmaya ve içinde tutmaya açılır; 107:2de yetimi iterek uzaklaştırma bu koruma imgesinin tersini görünür kılar.",
+      "mechanism": "Rahman ve Rahim yüzeyleri merhameti taşır; kökün döl yatağı dalı taşıma ve içeride koruma imgesini verir. 107:2deki yetimin kuvvetle itilmesi bağımsız tetikleyicidir. Koruyan kap ile dışarı itme karşılaşınca merhamet daha bedensel bir sığınak anlamı kazanır.",
+      "reader_payoff": "Soyut merhametin yanında, korunmasız kişiyi içinde tutan bir barınak imgesi belirir; yetimi itme bunun neden eksik olduğunu gösterir.",
+      "containment": "İki sıfat anatomi veya doğum sonrası hastalık anlamına gelmez; yalnız döl yatağının taşıyan kap imgesi benzetme olarak kullanılır. Koruma bağlantısı her yetimlik olayının doğumla ilgili olduğu iddiası değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış bulgu döl yatağı/kuşatma imgesini yetimi itmeye bağlar; legacy_unbound okuyucu kaydı aynı karşıtlığı açıklar. Form yerel olarak merhameti seçtiğinden beden imgesi kök yankısı olarak sınırlandırılır."
+      },
+      "support_ids": [
+        "sup_18d0dbeb995ed4f7f545",
+        "sup_46b4ad454bd53e87c733"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:2"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Rahman ve Rahim aynı kökteki döl yatağı imgesine yüzey taşıyıcısı olur; bu dalın koruyan kap yanı öne çıkar.",
+          "independent_trigger": "107:2de yetimin itilip uzaklaştırılması, korunma ve tutma imgesi için bağımsız karşıt tetikleyicidir.",
+          "activation": "Taşıyan ve içinde tutan kap imgesi, itilerek dışarı bırakılan yetimle temas eder; merhametin koruyucu yanı bedensel biçimde duyulur.",
+          "resulting_reading": "İki merhamet adı, korunmasız kişiyi içeride tutan bir sığınak imgesi kazanır.",
+          "boundary": "Odak sıfatları döl yatağını adlandırmaz; sağlıklı koruyan kap imgesi mecazi ve kök temellidir, B004teki hastalık dalı dışarıda kalır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:2"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-and-small-aid",
+      "origin_candidate_id": "cand_33bcc0e0772f95a9f3ee",
+      "represented_candidate_ids": [],
+      "title": "Merhametin küçük yardımda sınanması",
+      "claim": "107:7de esirgenen küçük yarar, açılıştaki merhameti gündelik iyilik ve paylaşımın somut dolaşımı olarak yeniden duyurur.",
+      "mechanism": "Odaktaki iki sıfat merhametin etkin esirgeme ve iyilik yüzünü taşır. Sûrenin sonundaki küçük yararın esirgenmesi bağımsız tetikleyici olur; açık tutulması beklenen iyilik ile onu alıkoyma temas eder ve açılıştaki nitelik gündelik destek bakımından okunur.",
+      "reader_payoff": "Okur, merhametin karşılığını yalnız iç yakınlıkta değil, kolayca verilebilecek küçük bir yararı paylaşma kararında da görür.",
+      "containment": "Küçük yarar odak sıfatların sözlük anlamı veya etimolojisi değildir; akış, bağlamdan kurulan benzetmedir. Son ayet merhamet adlarını dilbilgisel olarak tamamlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Güvenilir yayımlanmış kaynak açılıştaki merhamet ile sondaki küçük yardımı açıkça ilişkilendirir; dolaşım ve akış dili bu makro ilişkinin benzetmeli ifadesidir."
+      },
+      "support_ids": [
+        "sup_499a9bae3625adafa5aa"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:7"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Rahman ve Rahim esirgeyip iyilik etmeyi taşıyan merhamet sıfatlarıdır.",
+          "independent_trigger": "107:7de küçük ve gündelik yararın esirgenmesi bağımsız tetikleyicidir.",
+          "activation": "Etkin iyilik yüzü, küçük yardımı alıkoyma davranışıyla karşılaşınca merhametin somut olarak dolaşıma girmesi düşünülür.",
+          "resulting_reading": "Başlangıçtaki merhamet, gündelik yardımın açıkça paylaşılması gereken bir iyilik olarak yeniden okunur.",
+          "boundary": "Bu dal yardımın miktarını belirlemez; küçük yarar bağlamın tetikleyicisidir, odak sözcüğün doğrudan anlamı değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:7"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:retrospective-social-test",
+      "origin_candidate_id": "cand_9dcf4cc4e5037873b642",
+      "represented_candidate_ids": [],
+      "title": "Ad ve merhametin toplumsal sınaması",
+      "claim": "107:6daki görünürlük arayışı ile 107:7de küçük yardımın esirgenmesi, açılıştaki ilahî adı ve iki merhamet sıfatını toplumsal davranışta sınanan ifadeler olarak birlikte yeniden okutur.",
+      "mechanism": "Allah özel adı insanlara gösterilme amacı taşıyan davranışla; merhamet sıfatları ise esirgenen küçük yararla temas eder. İki bağımsız karşılaşma, adın tanınma yönü ile merhametin paylaşım sonucu arasındaki bağı görünür kılar; basmala yalnız formül değil, görünürlük ve gündelik yarar için de bir ölçü gibi duyulur.",
+      "reader_payoff": "Kısa açılışın hem kimin tanınması için davranıldığına hem de küçük bir yararın paylaşılıp paylaşılmadığına uzanabildiği fark edilir.",
+      "containment": "Açılış yine Allah adını anan ve merhameti niteleyen basmaladır; sonraki ayetler onun dilbilgisel tamamlayıcısı sayılmaz. Gösteriş ve yardım temaları iki ayrı makro temas olarak kalır; her namaz kılan veya her yardım etmeyen hakkında hüküm kurulmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Retrospektif okuyucu kaydı iki teması birlikte önerir; odak taşıyıcıları ve 107:6-7 yüzeyleri pakette mevcut olsa da bağları kuran kayıt legacy_unbound ve birleşik sonuç çıkarımsaldır."
+      },
+      "support_ids": [
+        "sup_2d2ef28247e182e24412"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "107:6"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Allah odaktaki özel addır.",
+          "independent_trigger": "107:6daki insanlara görünme amacı, dini görünürlüğün muhatabına dair bağımsız tetikleyicidir.",
+          "activation": "Allah adının yönelttiği muhatap, insanlara görünme davranışıyla temas edince açılışın kamusal gösterişle nasıl karşılaşabileceği belirir.",
+          "resulting_reading": "Özel ad, kimin tanınması için davranıldığını sorgulatan bir odak olur.",
+          "boundary": "Bu, adın anlamının itibar olduğu iddiası değildir; kayıtlı bağlamdan çıkarılan bir karşılaştırmadır."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:7"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "İki odak sıfatı merhameti ve onun etkin iyilik sonucunu taşır.",
+          "independent_trigger": "107:7de esirgenen küçük yarar, merhametin toplumsal sonucu için bağımsız bağlamdır.",
+          "activation": "Merhametin iyilik sonucu küçük yardımı alıkoyma ile karşılaşınca nitelik, gündelik paylaşım için sınanan bir eylem beklentisine dönüşür.",
+          "resulting_reading": "İki merhamet adı, toplumsal davranışta paylaşımın da ölçüsü olarak duyulur.",
+          "boundary": "Adayın çözülmemiş bağlam dal etiketleri odak dalı sayılmaz; akış imgesi küçük yarar sahnesiyle sınırlı bir çıkarımdır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:6",
+        "107:7"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:raised-designation-as-standard",
+      "origin_candidate_id": "cand_fecb85704ad0f15ddc50",
+      "represented_candidate_ids": [],
+      "title": "Adlandırmanın davranışa ölçü olması",
+      "claim": "Bismillah’taki ism, yükseltilmiş anılma imgesiyle, 107:1deki uyarıcı soru ve ardından gelen bakım/ibadet davranışlarının ölçüsü olarak duyulabilir.",
+      "mechanism": "İsm sözcüğü yerel olarak adlandırmayı taşır; aynı kökün adı belirginleştirip anılmayı yükseltme dalı taşıyıcıya bağlı bir kaynak imgesi sunar. 107:1deki soru ile 107:2-5te açılan eylemler bağımsız makro tetikleyicilerdir. Sıralama, başlangıçtaki adı sonraki davranışların görüldüğü bir ölçü gibi kurar.",
+      "reader_payoff": "Okur, basmalayı yalnız başlayan bir kalıp olarak değil, ardından gelen soru ve davranışları değerlendiren bir adlandırma merceği olarak da düşünebilir.",
+      "containment": "İsm sözcüğünün sözlük anlamı ahlaki ölçü değildir; yükseltilmiş anılma dalı kaynak/etimoloji imgesi olarak kalır. Basmala sonraki eylemleri dilbilgisel olarak yönetiyor denmez.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Kaynak imgesi ve odak yüzeyi pakette yer alır, ancak adın davranış için ölçü oluşu okuyucu kaydının açıkça çıkarsadığı çok adımlı bir makro ilişkidir; native HFT izi yoktur."
+      },
+      "support_ids": [
+        "sup_97a14bd4592f82dddfc4"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "107:1",
+            "107:2",
+            "107:3",
+            "107:4",
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "İsm, Allah’ı tanıtan ad ve ondan söz etme imkanıdır.",
+          "independent_trigger": "107:1deki uyarıcı soru ve 107:2-5teki davranışlar, açılış adının sonrasını nasıl çerçevelediğini sınayan bağlamdır.",
+          "activation": "Tanıtıcı ad, hemen ardından gelen davranış dizisinin önüne yerleşir ve adın sonraki eylemler için ölçü gibi okunmasına imkan verir.",
+          "resulting_reading": "Başlangıçta anılan ad, sonraki bakım ve ibadet davranışlarına bakan bir merceğe dönüşür.",
+          "boundary": "Bu facet yalnız adlandırma anlamını taşır; etik ölçü sonucu bağlam çıkarımıdır."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "107:1",
+            "107:2",
+            "107:3",
+            "107:4",
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "İsm adı, kaynakların anılmayı yükseltme imgesiyle açıklayabildiği adlandırma taşıyıcısıdır.",
+          "independent_trigger": "107:1deki soru ve ardından gelen davranışlar, bu adı izleyen değerlendirme sahnesini oluşturur.",
+          "activation": "Anılmayı belirginleştiren kök imgesi, davranışların hemen önünde yer alan basmala ile karşılaşınca ilahî adın bir ölçü gibi yükseltilmesi düşünülür.",
+          "resulting_reading": "Açılış adı, sonraki davranışlara ilişkin değerlendirme çerçevesini belirginleştirir.",
+          "boundary": "Bu bir kaynak imgesi ve makro çıkarımdır; ism sözcüğü doğrudan ölçü ya da yasa demek değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:1",
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:kinship-and-enclosure",
+      "origin_candidate_id": "cand_a7fb0cafd0938cf50381",
+      "represented_candidate_ids": [],
+      "title": "Akrabalık ve kuşatma imgesi",
+      "claim": "Rahman ve Rahim, akrabalık bağı ve döl yatağının kuşatıcı imgesiyle korunmaya açılır; yetim ile muhtaç kişi, sıradan koruyucu bağın eksildiği yerde merhametin toplumsal bir sığınak kurabileceğini düşündürür.",
+      "mechanism": "İki odak sıfatı merhameti taşır. Aynı kökün yakın soy bağı dalı 107:2de kopmuş koruyucu ilişkiyle, döl yatağı dalı ise itilme ve ihtiyaç sahneleriyle temas eder. Bağ ve taşıyan kap imgeleri, yetim ve muhtacın korunmasızlığına karşı temas edince merhamet yalnız duygu değil, bakımın yeniden kurduğu bir kuşatma olarak görünür.",
+      "reader_payoff": "Okur, yetim ve muhtaçla ilgili başarısızlığı yalnız yardım eksikliği olarak değil, kişiyi tutan ve koruyan ilişkinin yokluğu olarak da algılar.",
+      "containment": "Merhamet sıfatları akrabalık veya anatomi sözcüklerine dönüşmez; iki kök dalı ikincil imgedir. Aile bağının gerçekten yeniden kurulduğu değil, koruyucu bakımın bunu andıran bir işlev gördüğü çıkarılır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Destek kaydı akrabalık ve döl yatağı dallarını birlikte önerir, context yüzeyleri yetim ve ihtiyaç temasını doğrular; ancak kuşatıcı sosyal sığınak sonucu legacy_unbound kaydın çıkarımıdır."
+      },
+      "support_ids": [
+        "sup_43e028a0d791a7affe68"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:2",
+            "107:3"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Rahman ve Rahim merhamet taşıyıcılarıdır; aynı kökün yakın soy bağı yüzü kalıcı koruyucu yakınlığı düşündürür.",
+          "independent_trigger": "107:2de yetim ebeveyn korumasından kopuktur; 107:3te muhtaç kişi destekten yoksun görünür.",
+          "activation": "Yakın akrabalık imgesi, kopmuş ve eksik koruma ilişkileriyle karşılaşınca merhamet sosyal bağın koruyucu işlevini üstlenir gibi okunur.",
+          "resulting_reading": "Merhamet, korunmasız kişi için yakınlık ve süreklilik sağlayan bir sığınak olarak genişler.",
+          "boundary": "Odak sıfatları soy bağı anlamına indirgenmez; bu, kök dalının bağlamla kurduğu çıkarımsal yankıdır."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:2",
+            "107:3"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Merhamet sıfatlarının aynı kökü, döl yatağının taşıyıp içinde koruyan kap imgesine odak taşıyıcısı olur.",
+          "independent_trigger": "107:2de yetimin itilmesi ve 107:3te muhtacın destekten yoksunluğu, korunma/kuşatma için bağımsız bağlam oluşturur.",
+          "activation": "Taşıyan kap imgesi, hem itilen yetim hem desteği eksik muhtaçla temas edince merhamet koruyan bir çevre olarak biçimlenir.",
+          "resulting_reading": "Açılıştaki merhamet, biyolojik imgenin toplumsal karşılığı olan koruyucu bakım düşüncesi kazanır.",
+          "boundary": "Odak sıfatları döl yatağı anlamına gelmez; beden imgesi ikincil ve analojik düzeyde kalır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:2",
+        "107:3"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:care-and-prayer-retrospective",
+      "origin_candidate_id": "cand_3848f33e1b72c7c6f42d",
+      "represented_candidate_ids": [],
+      "title": "Bakım ve namazda açığa çıkan iki yön",
+      "claim": "107:2-3, merhamet adlarının akrabalık ve döl yatağı imgelerini korunmasız kişi üzerinde somutlaştırırken, 107:4-5 Allah adının ibadet için yön verdiğini ve namaz biçiminin gafletle ayrışabileceğini gösterir.",
+      "mechanism": "Rahman ve Rahim taşıyıcıları yetim ve muhtaç sahnelerinde yakın bağ ve koruyan kap imgeleriyle temas eder. Allah özel adı ise daha sonraki namaz eylemi ve namazdan gaflet bilgisiyle karşılaşır. Sûre bağlamı böylece basmala içindeki merhamet ve ilahî adlandırmayı iki ayrı fakat aynı açılışa dönen bakım ve ibadet yönelimi olarak yeniden okutur.",
+      "reader_payoff": "Açılıştaki ilahî ad ile merhamet sıfatlarının ikisi de sonraki davranışlarda karşılık bulur; sosyal bakım ve ritüel yönelişin ayrı ayrı sınandığı görülür.",
+      "containment": "Bu iki eksen birbirine indirgenmez ve birini diğerinin açıklaması saymaz. Allah özel adı olarak kalır, merhamet sıfatları da merhameti niteler; kökün akrabalık ve döl yatağı dalları yalnız ikincil bağlam yankılarıdır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Retrospektif okuyucu kaydı iki makro teması aynı sırada bağlar. Odak kökleri ve context sahneleri pakette mevcut olsa da bileşik okuma legacy_unbound ve iki dal arasındaki bütünleyici ilişki çıkarımsaldır."
+      },
+      "support_ids": [
+        "sup_78513a0caad06318cbd7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:2",
+            "107:3"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Rahman ve Rahim merhamet sıfatlarıdır; aynı kökün yakın bağ dalı koruyucu ilişki imgesini taşır.",
+          "independent_trigger": "Yetimlik ve muhtaçlık, 107:2-3te koruyucu ilişkinin koptuğu veya eksik olduğu bağlamı verir.",
+          "activation": "Yakın soy ilişkisi merhamet sıfatlarıyla taşınırken, yetim ve muhtaç figürleri bu bağın koruyucu işlevinin nerede eksildiğini gösterir.",
+          "resulting_reading": "Merhamet, biyolojik bağı ileri sürmeden yakın ve koruyucu ilişkinin imgesini kazanır.",
+          "boundary": "Bu kök dalı ikincil bağlam imgesidir; gerçek soy bağı kurulduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "107:2",
+            "107:3"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Merhamet sıfatları aynı kökün taşıyan ve içinde koruyan döl yatağı imgesine yüzey taşıyıcısı olur.",
+          "independent_trigger": "107:2de itilen yetim ve 107:3te desteği eksik muhtaç, korunak için bağımsız tetikleyicidir.",
+          "activation": "Döl yatağının koruyan kap imgesi, korunmasız kişi sahnelerine temas ederek merhameti bedensel-sosyal bir sığınak olarak düşündürür.",
+          "resulting_reading": "Basmala, soyut niteliğin yanında korunmaya ve içinde tutulmaya dair bir merhamet imgesi kazanır.",
+          "boundary": "Sıfatlar anatomik anlam taşımaz; bu yalnız kök imgesiyle kurulan ikincil rezonanstır."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1",
+            "107:4"
+          ],
+          "trigger_refs": [
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Allah adı odakta tapınılan muhatabı taşır; 107:4teki namaz kılanlar daha sonraki ibadet eylemini getirir.",
+          "independent_trigger": "107:5te bu kişilerin namazlarından gafil olabildiği ayrı bir bağlam ayrımıdır.",
+          "activation": "Adlandırılmış muhatap ile sonraki namaz eylemi bir araya gelir; gafletin varlığı ibadet şekli ile ona yönelmenin ayrılabileceğini gösterir.",
+          "resulting_reading": "Başlangıç adı, namazın yönelmesi gereken muhatapla birlikte hatırlanır.",
+          "boundary": "Bu, namazın tüm anlamını odaktaki özel ada indirgemez; çıkarım yalnız 107:4-5 sahnesiyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "107:4",
+            "107:5"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Allah özel adı tapınılan varlığa işaret eder.",
+          "independent_trigger": "107:4-5te namaz ve bu namazdan gaflet sahnesi, bu varlığın ibadetle ilişkisini açar.",
+          "activation": "Tapınılan varlık anlamı daha sonraki namazla karşılaşınca, adı anılan muhatap ibadet yöneliminin ölçüsü olur.",
+          "resulting_reading": "Allah adı ile namaz arasındaki yön ilişkisi açılır; görünür biçimin kalması tek başına yetmez.",
+          "boundary": "Özel ad genel bir ilah sınıfına çevrilmez; yalnız bu bağlamdaki ibadet yönü ifade edilir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "107:2",
+        "107:3",
+        "107:4",
+        "107:5"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT paketi bu prefatory basmala birimi için mevcut değil: assigned_record_count sıfır ve source_present false. Reader-walk kayıtları legacy_unbound bağlam önerileri olarak kalır; native HFT activation trace sayılmaz.",
+    "Context üyeleri ayah yüzeyi, kök oluşumları ve branch_image_ar ipuçlarını verir; context kökleri için odak branch_registry düzeyinde QAC ve inceleme facetleri sağlamaz. Çözülmemiş ر ء ي/B005 ve م ع ن/B001-B005 etiketleri bu nedenle odak dalı yapılmadı; yalnız 107:6-7 yüzeyleri tetikleyici olarak kullanıldı.",
+    "Basmala ile 107:1-7 arasındaki temaslar sıralı makro bağlamdan çıkarılır; odak ifadesinde sonraki davranışları dilbilgisel olarak ona bağlayan açık bir bağlaç veya yönetim ilişkisi bulunmaz."
+  ]
+}

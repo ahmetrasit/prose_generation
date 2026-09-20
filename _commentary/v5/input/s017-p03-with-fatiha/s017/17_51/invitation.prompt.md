@@ -1,0 +1,205 @@
+# V5 reading invitation — 17:51
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_51/17_51.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_51/17_51.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Açık Bırakılan Yaratılmış
+
+Ayetin başındaki {ar:أَوْ, tr:aw, gloss:ya da} sözü yeni bir ihtimali açık tutar. Ardından gelen belirsiz {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey}, ne tür olduğu söylenmeyen bir yaratılmışı seçenek yapar; {ar:مِّمَّا, tr:mimmā, gloss:her ne ise} bu türü adlandırmadan bırakır. Ayet, aynı şeyi {ar:يَكْبُرُ فِى صُدُورِكُمْ, tr:yakburu fī ṣudūrikum, gloss:göğüslerinizde büyür} diye niteler: yaratılmış seçenek muhatapların göğüslerinde büyür. Böylece ihtimal açık kalırken, onun içlerinde aldığı büyüklük ve yer belirginleşir.
+
+Bu açık ihtimal, hemen önceki maddî itirazla birlikte duyulur. Konuşanlar kemik ve ufalanmış parçalar olduktan sonra diriltilmeyi sorar (17:49); taş ya da demir olmayı da eklerler (17:50). {ar:عِظَامًا, tr:ʿiẓāman, gloss:kemikler}, {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış parçalar}, {ar:حِجَارَةً, tr:ḥijārah, gloss:taş} ve {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} birlikte dağılmadan dirençli sertliğe uzanan bir madde aralığı kurar. Ardından gelen {ar:مَن يُعِيدُنَا, tr:man yuʿīdunā, gloss:bizi kim geri getirecek} sorusuna ilk {ar:قُلِ, tr:quli, gloss:de} buyruğuyla verilen {ar:ٱلَّذِى فَطَرَكُمْ أَوَّلَ مَرَّةٍ, tr:alladhī faṭarakum awwala marratin, gloss:sizi ilk kez var eden} cevap, dikkati hangi maddenin dayanacağı sorusundan onu ilk kez var edene çevirir. Bu yerel bağ, kırıntıdan taşa ve demire uzanan her hâli geri getirilebilir yaratılmışlar arasında düşünmeye açar; aynı madde dizisi 17:49 ve 17:50'nin art arda imkânsızlık itirazı olarak okunmasını da korur. Sertlik de ilk yaratma ve geri getirme kudretinin dışında kalmaz; bedenin yeniden kuruluş yolu açık bırakılır ve cevap ilk var edişe dayanır.
+
+Bu dönüş ihtimali, 17:49'daki {ar:خَلْقًا جَدِيدًا, tr:khalqan jadīdan, gloss:yeni bir yaratılış} ifadesindeki {ar:جَدِيدًا, tr:jadīdan, gloss:yeni} sözüyle başka bir ton kazanır. “Yeni” olağan yeni oluş anlamını korurken, ona ait sözlük kullanımlarından biri kesilme sonrasındaki yeniliği de anlatır; burada bu çağrışımı bağımsız olarak harekete geçiren, aynı ayetteki {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış parçalar} sözcüğüdür (17:49). Parçalanma ile yeni oluş yan yana geldiğinde dönüş, dağılmadan sonra yeniden biçimlenme imkânı edinir; kesilme sonrası yenilik de bu ayette ufalanmanın açtığı bağlamsal yankı olarak kalır.
+
+Kırıntı ile sert maddenin kurduğu aralık, {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey} için aktarılan üç ayrı sözlük kullanımını da anlaşılır kılar. Ölçü ve sınır kullanımı, değişen maddeleri ölçülü bir yaratılmışlık çerçevesinde tutar: {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} sorusu geri dönüşü kurarken, {ar:يَكْبُرُ فِى صُدُورِكُمْ, tr:yakburu fī ṣudūrikum, gloss:göğüslerinizde büyür} diye göğüste büyüyen yaratılmış yine sınırları olan bir nesne olarak kalır. Deri ölçme örneği bu malzeme sahnesine taşınmaz; bu kolda teması kuran, {ar:عِظَامًا, tr:ʿiẓāman, gloss:kemikler}, {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış parçalar}, {ar:حِجَارَةً, tr:ḥijārah, gloss:taş} ve {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} arasındaki değişkenliktir (17:49, 17:50). Sözcüğün var etme kullanımı dağılmış parçaları ve dirençli maddeleri ayrı ayrı tetikleyici yapar; ikisi de {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} ilk yaratılış cevabına bağlanır. Tamamlanmış, gözle seçilebilen dış biçim kullanımı ise kemik ve kırıntıdan, geri gelişin yalnız bir kütleyi değil tanınabilir bir bedeni de kapsayabileceğini düşündürür (17:49). Bedenin ayrıntıları açık bırakıldığından bu son kol tanınabilir biçimin geri gelişini düşündüren bir ufuk olarak kalır.
+
+Bu biçim ufkunda {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış parçalar} dağılmayı, {ar:عِظَامًا, tr:ʿiẓāman, gloss:kemikler} ise bedenî kalıntıyı açıkça adlandırır (17:49). Bu kalıntıların ardından gelen {ar:لَمَبْعُوثُونَ, tr:la-mabʿūthūna, gloss:elbette diriltilecek olanlar} sözü diriltilmeyi sorar ve bedenin yeniden kuruluş yolunu açık bırakır. 17:51'deki {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} sorusu ile {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} cevabı bu kalıntılara ilk var edilişi ekler; birlikte, dağılmış durgunluktan yeniden harekete geçiş belirir.
+
+İlk yaratılışın dönüşe dayanak olması, bir sözlük yankısıyla başlangıcı da açılış gibi duyurur. {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} olağan anlamıyla ilk kez var etmeyi söyler; aynı kökün bir bütünü yarıp içini ya da ardındakini görünür kılma kullanımı da vardır. Bu açılma imgesini {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey} sözcüğünün yaratıma açık oluşu, 17:49'daki {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış parçalar} ile {ar:عِظَامًا, tr:ʿiẓāman, gloss:kemikler} ve 17:50'deki {ar:حِجَارَةً, tr:ḥijārah, gloss:taş} ile {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} yüzeyleri harekete geçirir (17:49, 17:50). Ayrıca {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} dönüş sorusu ile {ar:أَوَّلَ مَرَّةٍۢ, tr:awwala marratin, gloss:ilk defa} ifadesinin kurduğu önce-sonra sırası ilk var edilişi dönüşe açılan başlangıç gibi duyurur. Bu sözlük yankısı, ilk kez var etme cevabına açılış hissi ekler; cevabın olağan anlamı ilk kez var etmektir.
+
+{ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} sorusundaki geri getirme, ayrılınan şeye dönmeyi ya da başlangıçtan sonra aynı işe yeniden yönelmeyi de çağrıştırabilir. {ar:أَوَّلَ, tr:awwala, gloss:ilk} başlangıç ve önceliği, {ar:مَرَّةٍۢ, tr:marratin, gloss:bir defa} sayılabilir bir gerçekleşmeyi verdiğinden, ilk var ediliş dönüşün yerel bir öncülü olur. Bu sayılabilirlik, bilinen aralıklarla yinelenen eylem kullanımına da döngü yankısı ekler; sözlükte {ar:أَوَّلَ, tr:awwala, gloss:ilk} için aktarılan “geri dönmek ya da sonunda belirli bir duruma varmak” kullanımıysa başlangıca bir varış ucu ekleyebilir. Birlikte düşünüldüklerinde ilk açılıştan dönüşe, oradan son cevaptaki {ar:عَسَىٰٓ أَن يَكُونَ قَرِيبًا, tr:ʿasā an yakūna qarīban, gloss:umulur ki yakın olsun} ifadesine uzanan tarihsiz bir yol belirir. Aynı geri-dönüş fiilinin başka bir çekimi, {ar:أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَىٰ, tr:an yuʿīdakum fīhi tāratan ukhrā, gloss:sizi oraya bir kez daha döndürmesi} sözüyle denize yeniden giriş sahnesinde kullanılır (17:69); bu sahne aynı fiilin başka bağlamdaki dönüş kullanımına karşılaştırma sağlar, 17:51'deki diriliş için açıklayıcı bir mekanizma kurmaz. Odak ayetteyse ilk var ediliş dönüş sorusuna yerel dayanak verir.
+
+Madde aralığının ötesindeki yaratılmışlık ufkunu evrensel tesbih sözü genişletir: {ar:وَإِن مِّن شَيْءٍ إِلَّا يُسَبِّحُ بِحَمْدِهِ, tr:wa-in min shayʾin illā yusabbiḥu bi-ḥamdih, gloss:hiçbir şey yoktur ki O'nu hamdiyle tesbih etmesin} hiçbir şeyi bu karşılıktan dışarı bırakmaz (17:44). {ar:مِّن شَيْءٍ, tr:min shayʾin, gloss:hiçbir şey} diye sınırsız tutulan alan yaratılmış maddeleri de var edilmişler dünyasına alır; {ar:وَلَٰكِن لَّا تَفْقَهُونَ تَسْبِيحَهُمْ, tr:wa-lākin lā tafqahūna tasbīḥahum, gloss:fakat onların tesbihini kavrayamazsınız} insanın bu tesbihi kavrayışını sınırlar (17:44). Bu çerçevede kemik, taş ve demir insanın anlamadığı bir karşılık veren yaratılmışlar olarak düşünülebilir. 17:44 bu temasta özel bir madde açıklamasına ek olarak genel bir kozmik arka plan sağlar; kavrayış sınırının nedeni ayette açıklanmaz. 17:51'in kendi {ar:فَسَيَقُولُونَ, tr:fa-sayaqūlūna, gloss:böylece diyecekler} ve {ar:وَيَقُولُونَ, tr:wa-yaqūlūna, gloss:ve diyecekler} biçimleri işitilen insan sözlerini korur; bu bağlantıda yaratılmışların tesbihi ile insan konuşması ayrı düzlemlerde işler.
+
+Bu açık bırakılan {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey} seçeneği daha ileride kemik ve ufalanmış parçalarla yeniden belirir: {ar:عِظَٰمًۭا وَرُفَاتًا, tr:ʿiẓāman wa-rufātan, gloss:kemikler ve ufalanmış parçalar} sorusunun ardından {ar:خَلْقًا جَدِيدًا, tr:khalqan jadīdan, gloss:yeni bir yaratılış} ifadesini anması, geniş ihtimali somut bir maddî itiraza çevirir (17:98). Bu tekrar, 17:51'deki {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} cevabını değiştirmez; 17:98'in sonraki sorusundan ayrı bir bağlantı olarak kalır ve hedef kelimelerin biçim çözümlemesine dokunmaz. Açık kalan yaratılmış şeyin türünden sonra ayetin dikkati, onun muhatapların içinde nasıl büyüdüğüne döner.
+
+## Göğüste Büyüyen Ölçü
+
+İçteki büyüklüğün yeri, {ar:مِّمَّا, tr:mimmā, gloss:her ne ise} ile açılan ilgi alanında belirginleşir: {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey} seçenek olarak durur, {ar:يَكْبُرُ, tr:yakburu, gloss:büyür} onu niteler, {ar:فِى صُدُورِكُمْ, tr:fī ṣudūrikum, gloss:göğüslerinizde} ise büyüklüğün yaşandığı yeri verir. Bitmemiş geçişsiz fiil büyümeyi öznesinin içinde sürdürür; onu dışarıdan büyüten ayrı bir fail kurmaz. {ar:صُدُورِكُمْ, tr:ṣudūrikum, gloss:göğüslerinizde} boynun altındaki ön beden bölgesini, gerçek göğüsleri adlandırır. Bu seçim anatomik göğsü öne çıkarır; kalple ilgili karşıt bir hüküm vermez.
+
+Belirsiz ve mansup {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey}, adı verilmeyen yaratılmışı seçenek yapar; cümledeki yeri ilgi yapısı ve sözdizimiyle anlaşılır. Aynı sözcüğün var etme ve ortaya çıkarma anlamı, {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} sorusu ile {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} cevabının temasında yeniden duyulur; bu sözlük yankısı ismin mansup biçiminin gerekçesi değildir. Böylece adlandırılmamış seçenek dilbilgisel olarak yerinde kalırken, yaratılmışlık anlamı dönüş cevabına bağlanır.
+
+Ölçü ve iç büyüklük yan yana gelince, yaratılmış şey konuşanların gözünde büyüse bile sınırları olan bir nesne olarak kalır. {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey} için kaydedilen, nesnenin ölçü ve sınırlarını işten önce belirleme kullanımı; {ar:يَكْبُرُ, tr:yakburu, gloss:büyür} ile {ar:فِى صُدُورِكُمْ, tr:fī ṣudūrikum, gloss:göğüslerinizde} yerinin birlikte kurduğu ölçeğe temas eder. Deri ölçme örneği bu malzeme ve beden sahnesine taşınmaz. Büyüklüğün bir şeyi zihinde olağandan önemli sayma kullanımı ise aynı göğüsleri iç değerlendirme alanı, yaratılmış şeyi de değerlendirilen nesne yapar: maddî itiraz sürerken, göğüste aldığı öznel ölçü de görünür olur. Nesnenin sınırıyla konuşanların ona verdikleri iç ölçü böylece iki ayrı ölçek olarak birlikte kalır.
+
+Bu iç ölçü, geri dönüşün nasıl göründüğünden başka, konuşanlara nasıl ağır gelebileceğine de dokunur. {ar:يَكْبُرُ, tr:yakburu, gloss:büyür} için aktarılan bir başka kullanım bir işin kişiye ağır ya da güç gelmesini anlatır; kemik ve ufalanmış parçalarla taş ve demir arasındaki bağımsız karşıtlık bu dalı etkinleştirir (17:49, 17:50). Böylece dönüş imkânı hem göğüste büyüyen bir tasarı hem de güç gelebilecek bir iş olarak duyulur. Bu sözlüksel dal, ayetteki geçişsiz büyüme anlamından ayrı durduğu için konuşanların kişiliğine dair bir teşhis yüklemez.
+
+Göğüste büyüyen tasarı, çevresindeki büyüklük diline de açılır. 17:40'taki büyük söz, 17:59'daki ayetler ve korkutucu uyarı, 17:60'taki büyük taşkınlık iç ölçüyü ortak bir büyüklük diliyle kuşatır. {ar:يَكْبُرُ فِى صُدُورِكُمْ, tr:yakburu fī ṣudūrikum, gloss:göğüslerinizde büyür} olağan büyümeyi korurken, “bir şeyi zihinde olağandan üstün ve önemli sayma” dalı bu bağlamda kendini üstün görme ihtimalini de duyurabilir. 17:60'taki {ar:كَبِيرًا, tr:kabīran, gloss:büyük} büyüme fiilinin başka bir çekimi değil, çerçeveyi kapatan bağımsız nitelemedir; {ar:قَوْلًا عَظِيمًا, tr:qawlan ʿaẓīman, gloss:büyük bir söz}, {ar:بِالْآيَاتِ, tr:bi-l-āyāt, gloss:ayetlerle}, {ar:تَخْوِيفًا, tr:takhwīfan, gloss:korkutucu uyarı} ve {ar:طُغْيَانًا كَبِيرًا, tr:ṭughyānan kabīran, gloss:büyük bir taşkınlık} bu teması taşır (17:40, 17:59, 17:60). Bu yerel büyüklük yankısı kendini üstün görme ihtimalini besler; konuşanların güdüsünü teşhis etmez.
+
+Uyarı, sınama, artış ve taşkınlık sırası, iç ölçünün dışarıdaki karşılıkla nasıl yan yana gelebileceğini belirginleştirir. 17:60'ta {ar:يَكْبُرُ فِى صُدُورِكُمْ, tr:yakburu fī ṣudūrikum, gloss:göğüslerinizde büyür} ifadesini izleyen {ar:يَزِيدُهُمْ, tr:yazīdūhum, gloss:onları artırır}, {ar:طُغْيَانًا, tr:ṭughyānan, gloss:taşkınlık} ile birlikte bir artış bildirir; bu sıra, göğüste büyüyen itirazla dış davranıştaki yükseliş arasında ihtimalli bir geri-bildirim okumasına izin verir (17:60). Bu bağlantıda sınama, düzeltmekten çok verilmiş karşılığı açığa çıkarıyor olabilir; olası ilişki kanıtlanmış bir nedensellik ya da psikoloji yasası değildir. Tekrarlanan büyük sözler ayrıca retorik bir çerçeve kurabilir; bu çerçevenin içinde maddî yaratılmış ihtimali yine ayetin önündedir.
+
+İç ölçünün karşısında daha geniş bir yaratma kudreti belirir. Gökleri ve yeri yaratanın muhatapların benzerlerini yaratmaya da gücü yettiği söylenir (17:99); {ar:خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ, tr:khalaqa al-samāwāti wa-l-arḍ, gloss:gökleri ve yeri yarattı} ile {ar:قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ, tr:qādirun ʿalā an yakhluqa mithlahum, gloss:onların benzerlerini yaratmaya gücü yeter} yaratma ölçeğini göklerden insan benzerlerine taşır. Bu kudret, göğüste büyütülen yaratılmışın ölçüsünü aşan bir dayanak olarak, {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} cevabını yeniden duyurur. 17:99'daki kuşku götürmeyen vade ({ar:أَجَلًا لَّا رَيْبَ فِيهِ, tr:ajalan lā rayba fīhi, gloss:kuşku duyulmayan bir süre}) bu yaratma ufkuna zaman boyutunu ekler; bu karşılaştırma 17:51'in yakınlık cevabına takvim vermez. Buna karşı yalnız dünya hayatının bulunduğunu ve insanları zamanın yok ettiğini savunan söz, yaratma ve vade ufkuna karşı çıkar (45:24); böylece iki zaman tasavvuru yan yana kalır.
+
+## İçeriden Dışarıya
+
+Bu iç alan, hemen önceki kapanma imgeleriyle daha uzun bir bedenî güzergâha yerleşir. 17:45'teki dış {ar:حِجَابًا مَّسْتُورًا, tr:ḥijāban mastūran, gloss:örtülü bir perde} engeli kurar; 17:46'da kalpler üzerindeki örtüler ile kulaklardaki ağırlık duyusal kapanmayı, arkalarını dönme ise bedensel geri çekilmeyi kurar: {ar:عَلَىٰ قُلُوبِهِمْ أَكِنَّةً, tr:ʿalā qulūbihim akinnatan, gloss:kalpleri üzerine örtüler}, {ar:وَفِي آذَانِهِمْ وَقْرًا, tr:wa-fī ādhānihim waqran, gloss:kulaklarında ağırlık} ve {ar:وَلَّوْا عَلَىٰ أَدْبَارِهِمْ نُفُورًا, tr:wallaw ʿalā adbārihim nufūran, gloss:uzaklaşarak arkalarını döndüler}. Bu katkılar, 17:51'deki anatomik {ar:فِى صُدُورِكُمْ, tr:fī ṣudūrikum, gloss:göğüslerinizde} ile buluşunca iç mekânı aynı beden içinde belirginleştirir. {ar:صَدْر, tr:ṣadr, gloss:göğüs} için aktarılan eylemin çıktığı yeri ya da zamanını anlatan ayrı kullanım da güzergâha sözün çıkış imgesini ekler: kapanmış algıdan sonra itiraz göğüste biçimlenip söz olarak oradan çıkıyormuş gibi duyulur. {ar:فَسَيَقُولُونَ, tr:fa-sayaqūlūna, gloss:böylece diyecekler} ve {ar:وَيَقُولُونَ, tr:wa-yaqūlūna, gloss:ve diyecekler} biçimleri bu imgeyi ayrı ayrı harekete geçirir; bu sözlük yolu göğsün anatomik anlamını değiştirmez.
+
+Göğüs adındaki ikinci çoğul iyelik eki {ar:صُدُورِكُمْ, tr:ṣudūrikum, gloss:göğüslerinizde} iç sahneyi tek bir kişiye değil hitap edilen gruba yayar; hitap edilen çoğuldan üçüncü çoğul konuşanlara geçiş de {ar:فَسَيَقُولُونَ, tr:fa-sayaqūlūna, gloss:böylece diyecekler} ve {ar:وَيَقُولُونَ, tr:wa-yaqūlūna, gloss:ve diyecekler} ile içeride büyüyen itirazı işitilen söze taşır. Yaratma kudretinin eyleyeni bu bedensel çıkış yerinden ayrıdır: {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} ilk-var-etme cevabında gerçek var etme kudretini önceki faile bağlar; {ar:خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ, tr:khalaqa al-samāwāti wa-l-arḍ, gloss:gökleri ve yeri yarattı} ile {ar:قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ, tr:qādirun ʿalā an yakhluqa mithlahum, gloss:onların benzerlerini yaratmaya gücü yeter} bu ayrımı genişletir (17:99). Bu güzergâhtaki iki başka imge grubu da ayrı katkı sağlar: {ar:حِجَابًا مَّسْتُورًا, tr:ḥijāban mastūran, gloss:örtülü bir perde} ile {ar:عَلَىٰ قُلُوبِهِمْ أَكِنَّةً, tr:ʿalā qulūbihim akinnatan, gloss:kalpleri üzerine örtüler} duyuların kapanmasını kurar (17:45, 17:46); {ar:عِظَامًا, tr:ʿiẓāman, gloss:kemikler}, {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış parçalar}, {ar:حِجَارَةً, tr:ḥijārah, gloss:taş} ve {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} ise maddî sorudaki kalıntı ile sertlik karşıtlığını taşır (17:49, 17:50). Bunlar ayrı tetikleyicilerdir: ilki güzergâha duyusal kapanmayı, ikincisi maddî soruya kalıntı ve sertliği katar.
+
+Arkalarını dönüp uzaklaşma (17:46), 17:51'de hareket ettirilen gerçek başlarla dışarıdan görülebilir hâle gelir: {ar:وَلَّوْا عَلَىٰ أَدْبَارِهِمْ نُفُورًا, tr:wallaw ʿalā adbārihim nufūran, gloss:uzaklaşarak arkalarını döndüler} imgesinin ardından {ar:فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ, tr:fa-sayunghiḍūna ilayka ruʾūsahum, gloss:başlarını sana doğru oynatacaklar} görünür baş hareketini getirir. İçerideki itiraz böylece beden yüzeyine de ulaşır.
+
+17:99'un sonundaki {ar:فَأَبَى ٱلظَّٰلِمُونَ إِلَّا كُفُورًا, tr:fa-abā al-ẓālimūna illā kufūrā, gloss:zalimler inkârdan başkasını kabul etmedi} açık inkâr, odaktaki jestin yanında sözlü ret işareti sağlar. Çağrıdan sonra baş çevirme (63:5), {ar:لَوَّوْا۟ رُءُوسَهُمْ, tr:lawwaw ruʾūsahum, gloss:başlarını çevirdiler} hareketiyle ona yakın bir bedensel paralel ekler; bu, iki ayrı ret sahnesi arasındaki karşılaştırmadır. 17:52'deki {ar:يَوْمَ يَدْعُوكُمْ, tr:yawma yadʿūkum, gloss:sizi çağıracağı gün} çağrısına cevap ise jestin sürmesi değil, soru-cevap alışverişine açılan ayrı bir karşılık sahnesidir. Böylece ret jesti ile çağrıya cevap konuşma önünde iki ayrı yön açar, tek bir bedenî zincir kurmaz.
+
+## Dört Tur, İki Soru
+
+Bu bedensel çıkış ayetin konuşma sırasını da görünür kılar. İlk {ar:فَسَيَقُولُونَ, tr:fa-sayaqūlūna, gloss:böylece diyecekler} içindeki gelecek işareti, hemen ardından gelen {ar:مَن يُعِيدُنَا, tr:man yuʿīdunā, gloss:bizi kim geri getirecek} sorusunu önceden bildirilen ilk söz yapar. Bitmemiş IV. bâb biçimindeki {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} beklenen geri getirme eylemini sorar ama vaktini belirlemez; birinci çoğul nesne eki de soranları geri getirileceklerin arasına koyar. İlk {ar:قُلِ, tr:quli, gloss:de} buyruğu yanıtı yönlendirir; {ar:ٱلَّذِى, tr:alladhī, gloss:o ki} eyleyeni, hitap edilen çoğulu doğrudan nesne alan tamamlanmış {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} işiyle tanıtır. {ar:أَوَّلَ مَرَّةٍۢ, tr:awwala marratin, gloss:ilk defa} gerçekleşmiş, sayılabilir başlangıcı belirginleştirince “kim?” sorusu ilk var edilişe bağlanır; bu, iki söz arasındaki yerel dayanak olarak kalır.
+
+Yanıtın ardından {ar:فَسَيُنْغِضُونَ, tr:fa-sayunghiḍūna, gloss:başlarını oynatacaklar} baş hareketini öngörür. Gelecek zamanlı IV. bâb ettirgen fiil doğrudan {ar:رُءُوسَهُمْ, tr:ruʾūsahum, gloss:başlarını} nesne alır; {ar:إِلَيْكَ, tr:ilayka, gloss:sana doğru} yönü vererek hareketi soyut bir duruştan çıkarıp konuşulan kişiye yönelen gerçek baş jesti yapar. Fiilin alışılmadık, sesçe belirgin kullanımı sallama, oynatma ve kararsız hareket arasında bir aralık bırakır; bu ses jestin hareket niteliğini belirginleştirir, gizli anlamını tek başına belirlemez. Jestin duygusu hayretle reddediş arasında açık kalır. Hemen önceki {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} ve hemen sonraki {ar:مَتَىٰ هُوَ, tr:matā huwa, gloss:o ne zaman} soruları dönüş ile vakit talebini jestin çevresine yerleştirir; birlikte itirazı bedenselleştirir. Bu yerel yankı kuşku ya da reddi taşıyabilir, beklenen dönüşün gerçekleşeceğini ispatlamaz; baş burada fiziksel baştır.
+
+Jestin ardından ikinci {ar:وَيَقُولُونَ, tr:wa-yaqūlūna, gloss:ve diyecekler} biçimi sözü yeniden başlatır: beden hareketi işitilen {ar:مَتَىٰ هُوَ, tr:matā huwa, gloss:o ne zaman} sorusuna geçer. İlk söyleyişteki {ar:فَسَيَقُولُونَ, tr:fa-sayaqūlūna, gloss:böylece diyecekler} gelecek işareti ikinci söyleyişten önce yinelenmez; bu yerel fark ikinci sözün her bakımdan öngörüsüz olduğunu göstermez. {ar:هُوَ, tr:huwa, gloss:o} aradaki soru ve cevapla konuşmada öne çıkan dönüş olayına döner, adını yeniden söylemez. Ardından gelen ikinci {ar:قُلْ, tr:qul, gloss:de} buyruğu zaman sorusuna yanıtı yönlendirir. İlk emrin sonraki söze bağlanan {ar:قُلِ, tr:quli, gloss:de} ses biçimiyle ikincinin yalın {ar:قُلْ, tr:qul, gloss:de} biçimi arasındaki fark ses çevresindedir; iki buyruk aynı yönlendirme işini görür.
+
+İki soru, “demek” anlamındaki söyleyişleri karşılıklı konuşmaya da yaklaştırır. {ar:فَسَيَقُولُونَ, tr:fa-sayaqūlūna, gloss:böylece diyecekler}, {ar:قُلِ, tr:quli, gloss:de}, {ar:وَيَقُولُونَ, tr:wa-yaqūlūna, gloss:ve diyecekler} ve {ar:قُلْ, tr:qul, gloss:de} biçimlerinin sözlük alanındaki karşılıklı konuşma kullanımı, soru-cevap sırasına bir müzakere yankısı verir: “kim?”den “ne zaman?”a değişen iki soru, aradaki cevaplar ve 17:52'deki {ar:يَوْمَ يَدْعُوكُمْ, tr:yawma yadʿūkum, gloss:sizi çağıracağı gün} çağrısıyla {ar:فَتَسْتَجِيبُونَ بِحَمْدِهِ, tr:fa-tastajībūna bi-ḥamdih, gloss:O'na hamd ederek karşılık vereceksiniz} karşılığı bu yankıyı harekete geçirir (17:52). Dönüş meselesi ortak kalırken soru ekseni değişir; bu okuma tarafların eşit yetkide ya da uzlaşmış olduğunu göstermez. “Söylemek” için aktarılan “varsaymak” kullanımı da iki itirazda varsayımsal bir direnç duyurabilir; sorular ise gerçek soru niteliğini korur. Daha geniş lehçe örnekleri bulunduğundan, bu temas bağlamsal bir kullanım olasılığıdır, katı biçim kuralı değil.
+
+Bu sözlü alışverişin yanında biçimce uzak, başka bir kök altında kaydedilmiş “oynatmak, kararsızca sallanmak” kullanımı belirir. Olağan “demek” anlamını taşıyan {ar:فَسَيَقُولُونَ, tr:fa-sayaqūlūna, gloss:böylece diyecekler} ve {ar:وَيَقُولُونَ, tr:wa-yaqūlūna, gloss:ve diyecekler} biçimleri, açık {ar:فَسَيُنْغِضُونَ, tr:fa-sayunghiḍūna, gloss:başlarını oynatacaklar} hareketi ve onun {ar:رُءُوسَهُمْ, tr:ruʾūsahum, gloss:başlarını} nesnesiyle karşılaşınca bu ayrı kullanımı konuşmaya ses ve beden yankısı olarak taşır: söz sanki jestin kararsız salınımına eşlik eder. Söyleme fiilleri yine söz söylemeyi bildirir; bu yankı başka kökten gelen keşifsel bir temas olarak işitilir.
+
+Bu soru-cevap dizisinin yanına 17:52'de çağrı ve karşılık sahnesi eklenir. {ar:يَوْمَ يَدْعُوكُمْ, tr:yawma yadʿūkum, gloss:sizi çağıracağı gün} çağrıyı başlatır; {ar:فَتَسْتَجِيبُونَ بِحَمْدِهِ, tr:fa-tastajībūna bi-ḥamdih, gloss:O'na hamd ederek karşılık vereceksiniz} soranları yanıt verenlere dönüştürür (17:52). Aynı ayette kalışın {ar:قَلِيلًا, tr:qalīlan, gloss:az} diye nitelenmesi, bekleme süresini geriye dönük kısa yaşatır (17:52). {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} sorusundaki ayrılınan şeye dönme ya da işe yeniden yönelme kullanımı, bu çağrı-karşılık sırasına beklenen dönüş olayını ekleyebilir. Bu bağlantının yanında 17:52, ayetin yalın kronolojik devamı olarak da okunabilir.
+
+## Yakınlığın Açtığı Ufuk
+
+İkinci yanıt, “ne zaman?” sorusunu bir tarihle değil, {ar:عَسَىٰٓ أَن يَكُونَ قَرِيبًا, tr:ʿasā an yakūna qarīban, gloss:umulur ki yakın olsun} yapısıyla karşılar. {ar:عَسَىٰٓ, tr:ʿasā, gloss:belki ve umulur} ile başlayan {ar:أَن, tr:an, gloss:-mesi} yapısı {ar:يَكُونَ, tr:yakūna, gloss:olmak} yan cümlesini ona bağlar; {ar:هُوَ, tr:huwa, gloss:o} ile konuşmada anlaşılan dönüş olayı özne olarak sürer, {ar:قَرِيبًا, tr:qarīban, gloss:yakın} ise onun yüklemidir. Olay hareket ediyormuş gibi değil, yakın olma hâlinde sunulur. Belirsiz mansup biçim yakınlığı kesin bir noktaya bağlamaz; takvim günü sorusuna tarihsiz bir zaman cevabı verir.
+
+Bu zaman cevabında {ar:عَسَىٰٓ, tr:ʿasā, gloss:belki ve umulur} iki aktarılmış açıklamayı birlikte taşır: ilahî bildirimde sonucun kesin sayılabileceği okuma da, kelimenin muhatapta umut uyandırdığı okuma da mümkündür. “Ne zaman?” talebi ve yakınlıkla verilen cevap bu seçeneklerden birini ötekine üstün kılmaz. {ar:قَرِيبًا, tr:qarīban, gloss:yakın} sözcüğünün geniş alanı yer ya da anlam bakımından yakınlığı da kapsar; fakat {ar:مَتَىٰ, tr:matā, gloss:ne zaman} sorusu ile modal yanıt zaman eksenini öne çıkarır, sözlükteki olay vaktinin yaklaşması kullanımı da bu bağlamda etkinleşir. Bu ayetteki yakınlık böylece zamansaldır; ilişkisel yakınlık başka bir bağlamdan gelecektir.
+
+Zamansal yaklaşma, aynı sözlük alanındaki daha maddî bir görüntüyü de keşifsel olarak açar. Kökün bir başka kullanımı devenin köpek dişinin sürüp görünmesini anlatır; {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} ifadesinin ilk ortaya çıkarma anlamı, {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey} ve sayılabilir {ar:مَرَّةٍۢ, tr:marratin, gloss:bir defa} ile yan yana gelince bu görünür olma görüntüsünü tetikler. {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} sorusundaki ayrılınan şeye geri dönme kullanımı da henüz görünür olmayan kapasitenin yeniden belirivermesine alan açar. Dişin görünmesi ilk yaratılış anlamını değiştirmez; başlangıçla dönüş arasındaki sözcüksel yolun yanında ayrı bir organik benzetme kurar.
+
+Beklenti dalı bu görüntüye geri-geliş ve yakınlaşma katkılarını ekler. {ar:عَسَىٰٓ, tr:ʿasā, gloss:belki ve umulur} olağan umut ve beklenti anlamını korurken, aynı sözlük alanında sütü kesilmiş ya da süt verip vermediği belirsiz bir dişiye ve kesilince sütün geri gelmesi umuduna ilişkin bir kullanım vardır. {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} ile {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} sözleri bu geri-geliş imgesini harekete geçirince, kaybolmuş ya da kesilmiş olanın yeniden belirmesi beklentinin somut bir yüzü olur. {ar:قَرِيبًا, tr:qarīban, gloss:yakın} için doğum vakti yaklaşmış gebe dişiyi anlatan kullanım da bulunur; {ar:فَطَرَكُمْ, tr:faṭarakum, gloss:sizi ilk kez var etti} ifadesinin ortaya çıkışıyla {ar:عَسَىٰٓ, tr:ʿasā, gloss:belki ve umulur} sözünün beklentisi bu kez doğuma yaklaşmayı tetikler. Bu üç katkı farklı ayrıntıları taşır: {ar:خَلْقًا, tr:khalqan, gloss:yaratılmış şey} ve {ar:مَرَّةٍۢ, tr:marratin, gloss:bir defa} ile tetiklenen dişin görünmesi kapasitenin belirmesini; {ar:يُعِيدُنَا, tr:yuʿīdunā, gloss:bizi geri getirecek} ile duyulan süt dönüşü umudu geri gelişi; {ar:قَرِيبًا, tr:qarīban, gloss:yakın} sözcüğünün yaklaşan doğum kullanımı ise yakınlaşmayı somutlaştırır. Yan yana geldiklerinde, henüz görünmeyen kapasitenin geri dönüp belirmeye yaklaşması görüntüsünü kurarlar. Bu hayvanlar ayetin sahnesinde değil, sözlük benzetmesinde kalır; olağan dönüş cevabı ilk var edilişe dayanır.
+
+17:57, zamansal {ar:قَرِيبًا, tr:qarīban, gloss:yakın} sözünün yanına ayrı bir ilişkisel yakınlık ekseni koyar. “Hangisi daha yakındır?” sorusu {ar:أَيُّهُمْ أَقْرَبُ, tr:ayyuhum aqrabu, gloss:hangisi daha yakındır} bu ekseni kurar (17:57). Rabbe {ar:يَبْتَغُونَ إِلَىٰ رَبِّهِمُ الْوَسِيلَةَ, tr:yabtaghūna ilā rabbihimu al-wasīlah, gloss:Rablerine yaklaşmaya vesile ararlar} diye yönelme bedensel mesafeyi değil, anlam ve yöneliş yakınlığını verir (17:57). Oradaki {ar:يَرْجُونَ رَحْمَتَهُ وَيَخَافُونَ عَذَابَهُ, tr:yarjūna raḥmatahu wa-yakhāfūna ʿadhābah, gloss:rahmetini umar, azabından korkarlar} umudu ve korkusu da {ar:عَسَىٰٓ, tr:ʿasā, gloss:belki ve umulur} çevresindeki beklentiye temas eder (17:57). Çağrılanların {ar:فَلَا يَمْلِكُونَ كَشْفَ الضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا, tr:fa-lā yamlikūna kashfa al-ḍurri ʿankum wa-lā taḥwīlan, gloss:sıkıntıyı sizden gidermeye veya değiştirmeye güç yetiremezler} oluşu onları güçsüz gösterir (17:56); bu karşıtlık Rabbe yönelişin ilişkisel eksenini belirginleştirir. Zamansal yaklaşma ile Rabbe yakınlık yan yana duyulur, aynı ölçekte birleşmez; bu karşılaştırma ʿasā'nın kesinlik derecesini tek başına belirlemez.
+
+Yakın vakit ufku, daha geniş zaman sorularında da tarihsiz kalır. {ar:لَعَلَّ ٱلسَّاعَةَ قَرِيبٌۭ, tr:laʿalla al-sāʿata qarīb, gloss:belki Saat yakındır} sözü 17:51'deki {ar:قَرِيبًا, tr:qarīban, gloss:yakın} cevabının yanına Saat ufkunu ekler (42:17); vaat edilen şeyin ne zaman olacağını soran {ar:مَتَىٰ هَٰذَا ٱلْوَعْدُ, tr:matā hādhā al-waʿd, gloss:bu vaat ne zaman} sözü zaman talebini yeniden açar (67:25). Odaktaki {ar:فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ, tr:fa-sayunghiḍūna ilayka ruʾūsahum, gloss:başlarını sana doğru oynatacaklar} hareketiyle hemen ardından gelen {ar:مَتَىٰ هُوَ, tr:matā huwa, gloss:o ne zaman} sorusu bedensel ve sözlü meydan okumayı birlikte duyurur. 63:5'te başların çağrıya karşı çevrilmesi ({ar:لَوَّوْا۟ رُءُوسَهُمْ, tr:lawwaw ruʾūsahum, gloss:başlarını çevirdiler}) bu jest için yakın bir bedensel paralel, 67:25'te vaat hakkında sorulan söz ise ayrı bir sözlü meydan okumadır. Bu bağlamlar yaklaşan vakti geniş duyurur, belirli bir gün vermez.
+
+17:52'deki {ar:يَوْمَ يَدْعُوكُمْ, tr:yawma yadʿūkum, gloss:sizi çağıracağı gün}, Fâtiha 1:4'teki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:māliki yawmi al-dīn, gloss:hesap ve karşılık gününün sahibi} ile birlikte düşünüldüğünde, 17:51'in {ar:قَرِيبًا, tr:qarīban, gloss:yakın} cevabı hesap ve karşılık ufkuna doğru da duyulabilir. Çağrı günüyle hesap günü arasındaki bu temas dış bağlamın açtığı bir okumadır: 17:51 yaklaşanı kendi içinde yargı günü diye adlandırmaz ve Fâtiha'nın bütünü hakkında bir sav kurmaz. Yakınlık cevabı tarihsiz kalırken, 17:52'nin çağrı günü hesap ufkunu yanında taşır (1:4).
+
+</editorial_prose>

@@ -1,0 +1,197 @@
+# V5 reading invitation — 17:26
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p02-with-fatiha/s017/17_26/17_26.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p02-with-fatiha/s017/17_26/17_26.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Alıcının Hakkı
+
+17:26'nın alışılmış okuyuşu, yakın akrabaya hakkını vermeyi, yoksulu ve yolcuyu aynı buyruğa katmayı, ardından da malı savurganca saçıp ziyan etmeyi yasaklamayı söyler. Başındaki {ar:وَءَاتِ, tr:wa-āti, gloss:ve ver} biçiminde vav, emri sürmekte olan söyleme bağlar; önceki sözün içeriğini tek başına açıklamaz. Bitişik yazımda bağlama ile eylemin başlaması iç içedir: vav sözü sürdürürken {ar:ءَاتِ, tr:āti, gloss:ver} fiili hemen emir kipine geçer, bu yüzden ayet bağımsız ve yeni bir yönerge gibi açılmaz. Form IV'ün ikinci tekil kişiye yönelen gizli “sen” öznesi fiilde duyulur, ancak muhatabın kimliği ya da toplumsal rolü belirlenmez. Vavdan sonraki hemze kısa bir gırtlak kapanışıyla işitilir; bu ses eşiği ayrıca bir anlam ayrımı kurmaz.
+
+Emir iki nesneli bir aktarım kurar: {ar:ذَا ٱلْقُرْبَىٰ, tr:dhā al-qurbā, gloss:yakın akrabalık sahibi} ilk nesne, yani alıcı; {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:ona ait hak/pay} ikinci nesne, yani ulaştırılacak şeydir. {ar:ذَا, tr:dhā, gloss:yakınlık sahibi} beş isim çekimindeki mansup biçimiyle alıcı konumundadır; belirli ve mecrur {ar:ٱلْقُرْبَىٰ, tr:al-qurbā, gloss:yakınlık/akrabalık} onu ilişki içinde tanımlar. İkinci nesnenin sonundaki “-hu” eki payı aynı kişiye bağlar. Böylece sözdizimi sahibine yönelmiş hak teslimini duyurur ve miktarı açık bırakır. {ar:ءَاتِ, tr:āti, gloss:ver/ulaştır} olağan verme ve ulaştırma buyruğu olarak kalır; belirli bir vergi ya da tahsilat mekanizması tarif etmez.
+
+Bu tamlamada {ar:ذَا, tr:dhā, gloss:ilişki taşıyan kişi}, yakın olma ve akrabalık alanlarını tek bir muhatapta toplar; yakınlık soy ve aile bağıyla kurulur, derecesi açık kalır. {ar:ٱلْقُرْبَىٰ, tr:al-qurbā, gloss:yakınlık} sözcüğünün yaklaşma alanı, başka bir kullanımda Tanrı'ya yakınlık arayan işi ya da sunuyu hafifçe hatırlatabilir. Bu yankı, buradaki ayrı verme eylemine bir yaklaşma imgesi ekler; ilişki yalnızca bu benzetme düzeyindedir ve alıcı yakın akraba olarak kalır.
+
+Bu aile bağı, hemen önceki sözlerin bakım ve merhamet çizgisi içinde duyulur. (17:23, 17:24) önce Rabbin buyruğunu, ardından anne babaya iyiliği ve onları yetiştirdikleri gibi esirgeyip büyüten Rabbe yönelen duayı getirir: {ar:وَقَضَىٰ رَبُّكَ, tr:wa-qaḍā rabbuka, gloss:Rabbin hükmetti}, {ar:وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا, tr:wa-bi-l-wālidayni iḥsānan, gloss:anne babaya iyilik} ve {ar:رَبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا, tr:rabbi irḥamhumā kamā rabbayānī ṣaghīran, gloss:Rabbim, beni küçükken yetiştirdikleri gibi onlara merhamet et}. (17:24) içindeki {ar:مِنَ ٱلرَّحْمَةِ, tr:mina al-raḥma, gloss:merhametle} sözü, ailevi merhameti rahim yakınlığıyla buluşturan bir bağlam yankısı kurar. Çocuğu büyüten ebeveynin daha sonra destek bekleyen muhatap oluşu, bugünkü hakkı geçmiş bakımla birlikte düşündürebilir; bu olası karşılık, işlemsel bir borç olarak kurulmaz. Benzer biçimde (4:36) ebeveyne iyiliği akraba, yoksul ve yolcuyla yan yana getirir, (2:215) ebeveynleri ve yakınları harcamaya katar, (59:7) ise servetin varlıklılar arasında birikmesine karşı dağıtım kurar. Bu örnekler akraba hakkını geniş aile desteği ve paylaşım düzenine taşır; ebeveynle çocuk arasındaki bakım yönünün değişmesi bağlamsal bir yankı olarak kalır.
+
+İlk alıcının ardından gelen {ar:وَٱلْمِسْكِينَ, tr:wa-l-miskīna, gloss:ve yoksulu} yeni bir cümle ya da emir açmadan aynı diziye eklenir. Belirli tekil biçim tek bir kişiyi değil, tanınabilir bir ihtiyaç sahipleri sınıfını gösterir. Yeni bir {ar:ءَاتِ, tr:āti, gloss:verme buyruğu} söylenmez; fiil ile daha önce belirtilen {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:hakkı} bu alıcı için de geri kazanılır. Ardından {ar:وَٱبْنَ ٱلسَّبِيلِ, tr:wa-ibna al-sabīl, gloss:ve yolcuyu} aynı yönetim alanına katılır. Hak her üç alıcıya taşınırken sıra, yakın ilişkiden geçim ihtiyacına ve yolculuğa doğru sorumluluk alanını genişletir; kimseyi ötekinden üstün tutmaz. Yoksul, ihtiyaçtan hareket halindeki yolcuya geçişin orta halkasıdır, bir hak derecesi değil.
+
+{ar:ٱلْمِسْكِينَ, tr:al-miskīna, gloss:yoksul/muhtaç} burada geçim araçlarından yoksun kişidir. Kelime ailesindeki durma ve yerinde kalma yönü, ardından gelen yolcunun hareketiyle karşıtlık kurarak ihtiyaç ile hareket kısıtını duyurur; bu imge kişinin fiziksel olarak durduğunu söylemez. Ailenin ayrı bir kolu yaşamı sürdüren yiyecek ya da geçimliği, hatta sürüyü göçe çıkarmayacak bol otlağı anlatabilir. (2:215) yoksul ve yolcuya harcamayı, (59:7) dağıtımı öne çıkararak bu kolun geçimlik etkisini insan ihtiyacına taşır. Bu katkı odak sözcüğe “otlak” anlamı vermez ve yoksulun yerleşik olduğunu varsaymaz.
+
+Son alıcı, bitişik vavla aynı emre eklenen tek bir mansup tamlamadır: {ar:ٱبْنَ, tr:ibna, gloss:çocuk/oğul} tamlamanın başı, belirli mecrur {ar:ٱلسَّبِيلِ, tr:al-sabīl, gloss:yol} ise onu tanımlayan tamamlayıcıdır. Yerleşik ifade gerçek bir yol kullanıcısını, üzerinde ilerlenebilen geçilebilir güzergâhtaki yolcuyu adlandırır; belirli tekil biçim tanınabilir bir yol kategorisi sunar. Buradaki yol somut rotadır; yolcu ifadesi doğrudan dinî güzergâh ya da soyut yöntem anlamına gelmez. “Çocuk/oğul” başı soy ilişkisini taşırken genitif “yol” kaynağı aile soyundan yolculuk aidiyetine kaydırabilir; başka kullanımlardaki “yolun çocuğu” imgesi bu aidiyeti derinleştirir. Bu yol aidiyeti mecazidir: soy ya da hukukî nesep, yolun bakım veren bir ebeveyn olduğu anlamına gelmez. Bir başka kullanım evinden uzakta ya da yolda çaresiz kalmış kişiyi düşündürebilir; bu ayette özel bir mahrumiyet veya gerçekten mahsur kalma belirtilmez. Yolcu listenin son alıcısıdır; bitişik bağlaçtan hemen sonra yasak başlar.
+
+## Hedefli Veriş ve Savurma
+
+Son alıcıyı izleyen {ar:وَلَا, tr:wa-lā, gloss:ve ...ma} yeni bir cümle molası vermeden nehyi başlatır. Aynı, kimliği belirtilmemiş ikinci tekil kişiye bu kez {ar:تُبَذِّرْ تَبْذِيرًا, tr:tubadhdhir tabdhīran, gloss:savurup ziyan etme} denir. Olumlu emir adı belli alıcıyı ve {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:hakkı} gösterirken nehiy harcanan şeyi ya da varacağı yeri değil, savurganlık tarzını hedefler. İki fiil, hak sahibine teslim ile kaynakları savurma arasındaki karşıtlığı kurar; bu nehiy listedekiler dışındaki her harcamayı kapsamaz.
+
+{ar:تُبَذِّرْ, tr:tubadhdhir, gloss:yersizce savur} Form II biçiminde savurganca harcamayı adlandırır ve açık bir nesne almaz. Nehiy edatı {ar:لَا, tr:lā, gloss:nehiy edatı} fiili cezmli kılar; ardından gelen aynı kökün belirsiz {ar:تَبْذِيرًا, tr:tabdhīran, gloss:savurma} mastarı mef'ûl-i mutlak olarak eylemi yineleyip pekiştirir. Bu yapı yasaklanan savurma örüntüsünü tek bir olaya kapatmaz; kapsamı savurgan harcamadır, bütün harcamalar değil. Kökün tohum saçma imgesi de ayrı bir kullanım olarak duyulur ve dağılma niteliğini ekler; tohum burada harcanan nesne değildir. Aynı kökün son sözcükte yinelenmesi 17:26 içinde işitsel ve konumsal bir kapanış kurar.
+
+Sahibine bağlı {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:hak/pay}, bu karşıtlıkta isteğe bağlı bir lütuftan çok önceden tanınmış, hesabı verilebilir bir pay gibi duyulur; bu yorum miktarı veya kapsamlı hukukî sonucunu belirlemez. Savurganca harcama ise kaynağı boşa çıkarıp işlevsiz bırakabilir. İhtiyatla atfedilen okumada yakın akrabalık aile bağını, “-hu” eki payın sahibini, yoksul maddi ihtiyacı, yolcu güzergâha bağlı muhataplığı sağlar; birlikte, kaynağın belirli hak sahiplerine yönelmesini açıklar. Savurma bu yönü saptırabilir. Yoksul için güçsüzlük ve ezilmişlik tonu mümkün bir çağrışım olarak kalır, ayrı bir sözlük anlamı değildir. Bu okuma alıcıları sıralamaz, sabit bir yüzde ya da biçimsel borç belgesi kurmaz ve tek bir hukukî dağıtım şeması dayatmaz.
+
+## Akış ve Ekin
+
+Alıcıya yönelen hak imgesi, sözcük ailelerinin ayrı kullanımlarıyla keşifsel bir dolaşım benzetmesine açılır. {ar:ءَاتِ, tr:āti, gloss:ver/ulaştır} burada olağan teslim fiilidir; aynı ailede başka bir kullanım, suyu kanalla araziye taşıyarak akışa yön verir. {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:hak/pay} sahibine verilecek nesnedir; ayrı bir kullanımda kapı ayağının dönerek oturduğu yuva anlamı, alıcıya uyan payın karşılanma yerini düşündürür. Akış ve karşılanma yeri benzetmeye ayrı katkılar sunar; bu yan anlamlar odaktaki veriş ve hak anlamlarının yerini almaz.
+
+Bu benzetmede {ar:ٱلْمِسْكِينَ, tr:al-miskīna, gloss:yoksul/muhtaç} kökün durma ve yerinde kalma yönüyle akışın durduğu noktayı, {ar:ٱبْنَ ٱلسَّبِيلِ, tr:ibna al-sabīl, gloss:yolcu} ise gerçek güzergâhta ilerleyen kişiyi temsil eder. {ar:ءَاتِ, tr:āti, gloss:ver/ulaştır} kaynakları taşıyan yönlü akışı; {ar:تُبَذِّرْ تَبْذِيرًا, tr:tubadhdhir tabdhīran, gloss:israfla saçıp savurma} içindeki tohum imgesi ise bu akıştan ayrılan yayılmayı getirir. Bir araya geldiklerinde, alıcıya ulaşan dolaşım ile güvenli varış noktası olmayan saçılma karşıtlaşır: ilki hakkın yönünü belirginleştirir, ikincisi bu yönü kaybettirebilir. Bu atfedilmiş benzetme, yoksulu gerçek bir kişi ve yolcuyu gerçek rota üzerindeki muhatap olarak bırakır; durma imgesi fiziksel hareketsizlik iddiası değildir.
+
+Bahçe ve hasat, yönelmiş akışın üretken sonucunu ve savurmanın yıkıcı ucunu görünür kılar. (2:265) yağmurla beslenen bahçeyi, (6:141) ürünü ve hasat hakkına konan aşırılık sınırını, (3:117) ise ekini mahveden kırağılı rüzgârı sunar. Bu sahneler {ar:وَءَاتِ, tr:wa-āti, gloss:ver/ulaştır} için suyu yöneltme ve ürün verme dallarını, {ar:تَبْذِيرًا, tr:tabdhīran, gloss:tohum saçma} içinse saçılma imgesini etkinleştirir: amaçlı saçılan tohum ürün verebilir; hasat hakkı ve ölçüsü bu verimi gözetirken kırağılı rüzgâr ürünü yok eder. Böylece aynı tarımsal alan, yönlendirilmiş verim ile yıkıcı dağılmanın farklı sonuçlarını kurar. Bunlar ayrı kullanımlardan gelen benzetmelerdir; odaktaki fiiller olağan verme ve savurganca harcama anlamlarını korur, tarımsal mecazın kasıtlı olduğu ise kesinleşmez.
+
+## Bağ, Uzaklık ve Gösteriş
+
+(17:27) savurganları adlandıran {ar:ٱلْمُبَذِّرِينَ, tr:al-mubadhdhirīn, gloss:savurganlar} sözünü {ar:إِخْوَٰنَ ٱلشَّيَٰطِينِ, tr:ikhwāna al-shayāṭīn, gloss:şeytanların kardeşleri} nitelemesiyle birleştirerek eylemin yanına toplumsal aidiyeti ekler. Kardeşlik imgesi bağla birbirine tutturmayı taşır; böylece yakın akrabaya hakkı ulaştırmak toplumsal bağı sürdüren bir hareket, savurganlık ise bu bağı rakip bir aidiyete yöneltebilecek karşı hareket gibi duyulur. Aynı bağlamdaki {ar:ٱلشَّيْطَٰنُ, tr:al-shayṭān, gloss:şeytan} sosyal uzaklığı bu yakınlığın karşısına koyabilir. Bu, bağlamsal bir karşıtlıktır; sözün sözlük anlamını ya da her savurganın kimliğini tanımlamaz.
+
+(17:27) sonundaki {ar:كَفُورًا, tr:kafūran, gloss:nankör}, olağan okuyuşta nankörlüğü, bu imgesel hatta ise nimeti örtmeyi getirir. Örtme, tohum saçılmasının ardından yararlı sonucu gizleyen ve bakım halkasını kesen bir evre gibi düşünülebilir; böylece verimli döngünün nasıl kırılabileceğini gösterir. Bu tarımsal katkı analojiktir; kafūr'un nankörlük anlamı yerinde kalır. Tohum ve örtme dağılımın sonucunu, kardeşlik ve uzaklık ise aktarımın toplumsal bağ üzerindeki etkisini açıklar.
+
+(17:37) yer ve dağ imgeleri savurma okumasına bedensel bir ölçü ve kendini büyütme sahnesi ekler. {ar:مَرَحًا, tr:maraḥan, gloss:kibirli taşkınlık}, {ar:تَخْرِقَ ٱلْأَرْضَ, tr:takhriqa al-arḍ, gloss:yeri yarıp geçmek} ve {ar:تَبْلُغَ ٱلْجِبَالَ طُولًا, tr:tablugh al-jibāla ṭūlan, gloss:dağlara boyca erişmek} insanın yeri yarıp dağlara erişemeyeceği bir taşkınlık sahnesi kurar. Savurma yasağıyla kurulan bu bağlantı, aşırı harcamanın gösterişe ve başkalarını aşarak kendini büyütmeye dönüşebileceği ihtimalini açar. Bu olası saik 17:26'da belirtilmez; bağlantı savurma fiilinin sözlük tanımını değiştirmez.
+
+## İlişkiyi Sürdürmek
+
+(17:28) yüz çevirme koşulunu umulan Rab rahmetini arayışa bağlar: {ar:وَإِمَّا تُعْرِضَنَّ عَنْهُمُ, tr:wa-immā tuʿriḍanna ʿanhum, gloss:şayet onlardan yüz çevirirsen} ve {ar:ٱبْتِغَآءَ رَحْمَةٍ مِّن رَّبِّكَ تَرْجُوهَا, tr:ibtighāʾa raḥmatin min rabbika tarjūhā, gloss:umduğun Rabbin rahmetini ararken}. Ardından gelen {ar:فَقُل لَّهُمْ قَوْلًا مَّيْسُورًا, tr:fa-qul lahum qawlan maysūrā, gloss:onlara kolay ve gönül alıcı bir söz söyle} muhatapla bağı sürdüren bir edim sunar. İkincil okumada, eğer maddi aktarım o sırada mümkün değilse, bu kolay söz ilişkiyi taşır ve alıcının hakkı maddi görev olarak yerinde kalır. Ayet yüz çevirmenin nedenini ya da sonraki ödemeyi açıklamaz; maddi yetersizlik mümkün bir okuma, nezaket bildiren okuma da mümkündür.
+
+(24:22) bu toplumsal bağı kırgınlık içinden sürdürür: imkân sahibi kişilere incinmiş olsalar bile yakınlarına ve yoksula yardımı kesmemeleri söylenir. Burada kaynak vardır, gerilim ilişkinin içindedir; (17:28) için olası görülen maddi yetersizlik ya da aktarımın aksamasından farklıdır. Yan yana okuma, sahibine bağlı {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:hak/pay}ı hem imkânsızlık hem kırgınlık koşulunda duyurur, ama bu koşulları birleştirmez ya da biçimsel ertelenmiş borç kurmaz.
+
+## Kapasite ve Rızık
+
+(17:29) aktarım aracını, {ar:مَغْلُولَةً إِلَىٰ عُنُقِكَ, tr:maghlūlatan ilā ʿunuqika, gloss:boyna bağlanmış} el ile {ar:وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ, tr:wa-lā tabsuṭhā kulla al-basṭ, gloss:onu bütünüyle uzatma} arasında gerer. Verme aracı bir uçta donmuş gibi tutulur, ötekinde bütünüyle salınır; tam uzatmanın sonucu {ar:فَتَقْعُدَ مَلُومًا مَّحْسُورًا, tr:fa-taqʿuda malūman maḥsūrā, gloss:kınanmış ve tükenmiş kalman} diye, kınanma ve tükenme olarak verilir. Bu el imgesi harcamanın gelecekteki verme gücünü de etkileyebileceğini düşündürür. (17:30) rızkın genişleyip daralmasını anlatarak iki uç arasına değişken kapasiteyi ekler: ikincil okumada alıcıya veriş, sürdürme gücünü gözetir. Bu bağlamsal ölçü sayısal bir harcama kuralı değildir ve insanın dağıtımı ilahî rızık taksimiyle özdeşleştirmez.
+
+Başka bağlamlar bu el geriliminin iki yanını ve amacını ayırt eder. (17:100) harcama korkusuyla elde tutuşu gösterir, fakat 17:26'daki alıcı listesini yinelemez; (30:39) kazanç için artış arayışını Allah'ın rızası için vermeden ayırır. (6:141) hasat hakkını aşırılık sınırıyla birlikte sunarak verimli akışa ölçü ekler. (5:64) Allah'ın iki elinin açık oluşu ve dilediğince harcamasıyla insanın kapasitesini aşan bir rızık düzenini görünür kılar. Bu imgeler hedefli teslimi korkuyla tutuş ve savurgan çıkış arasında konumlandırır; ilahî açıklık insana ölçüsüz verme buyruğu oluşturmaz.
+
+(30:38) aynı üç alıcıya hak verme formülünü yineler ve bu maddi aktarımın amacına Allah'ın rızasını arama ile kurtuluşu ekler. (30:39) kazanç ile rıza için vermeyi ayırır, (5:64) ise insanın katıldığı daha geniş rızık düzenini gösterir; bu bağlantı insanı mutlak sahip değil sorumlu katılımcı olarak düşündürür. (17:29, 17:30) hakkındaki el ve kapasite okuması da insanın verme sorumluluğunu koruyarak bu katılımı ölçülü sürdürmeye açar; bu bağlamlar tek bir ekonomi öğretisi kurmaz ve rıza amacı her harcamayı ibadete dönüştürmez. (17:27) kardeşlik imgesi ise başka bir katkı sunar: harcamanın toplumsal aidiyetle ilişkisini gösterir.
+
+## Hayat ve Emanet
+
+Bu yoksulluk ve rızık bağlamları, muhtacın hakkını savunmasız yaşamı sürdürme ufkuna genişletir. (17:31) yoksulluk korkusuyla çocukları öldürmeme buyruğunu {ar:خَشْيَةَ إِمْلَاقٍ, tr:khashyata imlāq, gloss:yoksulluk korkusuyla} ve {ar:نَرْزُقُهُمْ وَإِيَّاكُمْ, tr:narzuquhum wa-iyyākum, gloss:onlara da size de rızık veririz} güvencesiyle yan yana getirir; ardından {ar:وَلَا تَقْتُلُوا أَوْلَادَكُمْ, tr:wa-lā taqtulū awlādakum, gloss:çocuklarınızı öldürmeyin} ve {ar:إِنَّ قَتْلَهُمْ كَانَ خِطْـًٔا كَبِيرًا, tr:inna qatlahum kāna khiṭʾan kabīrā, gloss:onların öldürülmesi büyük bir suçtur} gelir. (6:151) de yoksullukta rızık vermeyi ebeveyne iyilik ve çocukların öldürülmesine karşı hayatı korumayla bir araya getirir. Bu bağlantı bağlamsal ufuktur; tek bir 17:26 aktarımının öldürmeyi önlediğini ileri sürmez.
+
+(17:33) içindeki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakka dayanarak} ve {ar:فَلَا يُسْرِفْ فِي ٱلْقَتْلِ, tr:fa-lā yusrif fī al-qatl, gloss:öldürmede haddi aşmasın} hakka dayanmayı aşmama sınırıyla birleştirir. Bu ölçü, kıtlık paniği ile aşırı karşılığı birlikte sınırlayan yaşamı koruyucu okumaya katkı sunar; odaktaki hak ve savurma yasağıyla kurulan bu bağ bağlamsal bir çıkarımdır. Böylece 17:26'nın kendi başına öldürme hükmü koymadığı ve sonraki hukukî buyruğun ayrı alanını koruduğu açık kalır.
+
+(17:34) başka birinin malını koruma, ahdi yerine getirme ve ahitten hesap sorulacağını hatırlatma yoluyla mülkiyet ile süreklilik taşıyan yükümlülüğü somutlaştırır: {ar:مَالَ ٱلْيَتِيمِ, tr:māla al-yatīm, gloss:yetimin malı}, {ar:وَأَوْفُوا بِٱلْعَهْدِ, tr:wa-awfū bi-l-ʿahd, gloss:ahdi yerine getirin} ve {ar:إِنَّ ٱلْعَهْدَ كَانَ مَسْـُٔولًا, tr:inna al-ʿahda kāna masʾūlā, gloss:ahitten sorulacaktır}. Bu özel emanet, odaktaki sahibine bağlı {ar:حَقَّهُۥ, tr:ḥaqqahu, gloss:onun hakkı} ile buluşunca payın gerçek bir sahibi bulunduğunu belirginleştirir; alıcıların bütünü yetimle özdeşleşmez. (17:35) ölçüyü tam verme ve doğru tartma buyruklarıyla teslimin doğruluğuna ölçü standardı ekler: {ar:أَوْفُوا ٱلْكَيْلَ, tr:awfū al-kayl, gloss:ölçüyü tam verin} ve {ar:وَزِنُوا بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ, tr:wa-zinū bi-l-qisṭāsi al-mustaqīm, gloss:doğru teraziyle tartın}. (70:24) mal içindeki bilinen payı, (6:141) ise hasattaki hakkı ve aşırılık sınırını göstererek maddi hak fikrine iki ayrı ölçü alanı ekler. Bu örnekler 17:26'daki payı sahibine eksiksiz ulaştırılması gereken sorumluluk olarak aydınlatır; odak ayet miktar belirlemez, bu uygulamalar da onun doğrudan tanımı değildir.
+
+## Yakınlık ve Yol
+
+(17:32) yakınlık fikrini ilişki ile eylem sınırı arasında ayırır. Odaktaki {ar:ٱلْقُرْبَىٰ, tr:al-qurbā, gloss:yakın akrabalık} hak alıcısını soy bağıyla tanımlarken, {ar:وَلَا تَقْرَبُوا ٱلزِّنَىٰ, tr:wa-lā taqrabū al-zinā, gloss:zinaya yaklaşmayın} yasaklanan eyleme yaklaşmayı durdurur; ardından {ar:وَسَاءَ سَبِيلًا, tr:wa-sāʾa sabīlan, gloss:ne kötü bir yol} o eylemin yolunu kötü diye niteler. Böylece yakınlık birinde hak doğuran ilişkiyi, ötekinde sakınılacak eyleme doğru hareketi taşır; aynı yaklaşma alanı iki metinde farklı ahlaki yönler alır.
+
+Bu karşılaştırma {ar:ٱبْنَ ٱلسَّبِيلِ, tr:ibna al-sabīl, gloss:yolcu}yi gerçek yol kullanıcısı olarak korur: (17:32) içindeki {ar:سَبِيلًا, tr:sabīlan, gloss:yol} kötü diye nitelenen güzergâhtır; yolcunun hakkı ise maddi desteğe ilişkindir. Fatiha'da topluluk (1:6) dosdoğru yola iletilmeyi, (1:7) nimet verilenlerin yolunu anar: {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā al-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} ve {ar:صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ, tr:ṣirāṭ al-ladhīna anʿamta ʿalayhim, gloss:nimet verdiklerinin yolu}. Odaktaki {ar:ٱلسَّبِيلِ, tr:al-sabīl, gloss:yol} ile Fatiha'daki {ar:ٱلصِّرَٰطَ, tr:al-ṣirāṭ, gloss:yol} ayrı sözcük ve köklerdir; ortak yol imgesi iki okuma arasında çağrışım kurar. Topluluğun yön bulma duası ile yol üzerindeki gerçek kişinin maddi ihtiyacı birlikte duyulur: dua edilen yön korunurken yolcu da desteğe hakkı olan somut muhatap olarak kalır.
+
+</editorial_prose>

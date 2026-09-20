@@ -1,0 +1,209 @@
+# V5 reading invitation — 17:47
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_47/17_47.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_47/17_47.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Bilginin Alanı
+
+Âyet, karşıt grubun davranışını anlatmadan önce bilen özneyi açıkça öne çıkarır: {ar:نَّحْنُ, tr:naḥnu, gloss:biz} zamiri {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi biliriz} yüklemine bağlanır. Sözlüklerde {ar:عِلْم, tr:ʿilm, gloss:bilme} gerçeği tanıyıp kavrama anlamını taşır; bu bilme yüklemi, biraz sonra açılacak dinleme sahnesini ve cümlenin sonundaki “büyülenmiş” nitelemesini aynı bilgi çerçevesine alır. Böylece yerel anlatı, muhaliflerin eylemi görünmeden önce kendi tanıklık zeminini kurar. Bu çerçeve dinleyişi ve alıntılanan teşhisi birlikte kuşatır; gizli saiklerin her birini tek tek çözümleme iddiası taşımaz.
+
+Hemen ardından gelen {ar:بِمَا, tr:bi-mā, gloss:neyle ya da nasıl} öbeği bu bilginin alanını dinleyişe yöneltir. {ar:مَا, tr:mā, gloss:ne} hem “dinledikleri şey” diye göreli okunabilir hem de dinleme eylemini ya da tarzını adlaştırabilir; iki çözümleme de {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi biliriz} yükleminin yönettiği aynı alanı açık tutar. {ar:بِ, tr:bi, gloss:-le ya da -den} araç, ilişki veya sebep değerlerine izin verir; edatla birleşen {ar:بِهِۦٓ, tr:bihī, gloss:onunla ya da onun üzerinden} zamiri önceki {ar:مَا, tr:mā, gloss:ne} öbeğini yeniden tutar, dinlenen içerik, vasıta ve saik seçeneklerini birlikte açık bırakır. Bilgi alanı ilk zaman sahnesinden önce kurulur; sonraki sahneler bu çerçeve içinde açılır, sıraları ise kendi başına neden-sonuç ilişkisini belirlemez.
+
+Âyetteki iki {ar:يَسْتَمِعُونَ, tr:yastamiʿūna, gloss:dinliyorlar} aynı VIII. bâb çekimini yineler, ama tamamlayıcıları dinleyişin iki yönünü ayırır. İlk kullanım {ar:بِهِۦٓ, tr:bihī, gloss:onunla ya da onun üzerinden} ile açık bırakılan araç, içerik veya saik ilişkisine bağlıdır; ikincisi {ar:إِلَيْكَ, tr:ilayka, gloss:sana doğru} ile bir hedef gösterir. İkinci tekil kişi eki dinleyişin Peygamber'e yöneldiğini belirlerken ilk dinleyişin arkasındaki nedeni yine açık bırakır. Tekrar, kapalı kalan ilişkiden belirgin hedefe doğru bir dönüş kurar: ses dikkatle alınır, hedefin açıklığı da yönelişi görünür kılar. Kavrayış, kabul ve itaat bu işitsel teması izleyebilecek ayrı alımlama aşamalarıdır.
+
+## Gizli Danışmadan Alıntıya
+
+İlk {ar:إِذْ, tr:idh, gloss:o sırada} bilgiyi belirli bir dinleme anında görünür kılar. Ardından gelen {ar:وَ, tr:wa, gloss:ve} ile yeni {ar:وَإِذْ, tr:wa-idh, gloss:ve o sırada} cümlesi ikinci zaman sahnesini açar. Burada ikinci {ar:إِذْ, tr:idh, gloss:o sırada} başka bir dinleme fiiline değil, {ar:هُمْ نَجْوَىٰٓ, tr:hum najwā, gloss:onlar gizli danışmadalar} ad cümlesine bağlanır: hareket anlatımından grubun o andaki hâline geçilir. Üçüncü {ar:إِذْ, tr:idh, gloss:o sırada} ise sözü açar. Bu merdiven gibi derinleşen sıra dikkatten danışmaya, oradan alıntıya ilerler; sahnelerin sürelerini ve kesin neden bağını belirlemeden yorum katmanlarını birbirine yaklaştırır, onlara üstünlük sırası vermez.
+
+{ar:هُمْ, tr:hum, gloss:onlar} zamirinin açık özne oluşu, önceki fiillerdeki çoğul dinleyicileri gizli danışmanın da öznesi olarak yeniden gösterir; ayetin kendi zamir zinciri dinleyenleri danışan grup olarak tanıtır. {ar:نَجْوَىٰ, tr:najwā, gloss:gizli danışma} ise bu kişilerin kalıcı kimliği değil, o andaki toplumsal durumu bildiren soyut addır ve cümlede yüklem görevini görür: başkalarından saklı özel konuşma ve sır paylaşımı içindedirler. Bu orta halka, duyulan söz ile biraz sonra doğrudan aktarılacak suçlamayı aynı sahne akışında birbirine yaklaştırır.
+
+Gizli danışmanın cümledeki olağan anlamı özel konuşmadır; {ar:نَجْوَىٰ, tr:najwā, gloss:gizli danışma} ailesindeki bedensel çıkıntı kullanımı bu yükleme taşınmaz. Ailenin zararlı ya da bağlayıcı bir durumdan sıyrılıp kurtulma kullanımı ise kısa bir sığınak imgesi doğurur. Bunu etkinleştiren yalnızca gizlilik değildir: açılıştaki {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi biliriz} bilen öznesi ve danışmanın içeriğini açan sonraki alıntı birlikte düşünüldüğünde, saklı konuşma bilen özne karşısında korunaklı kalmaz, sözü de duyulur hâle gelir. Kurtuluş çağrışımı başarısız bir saklanma ironisi ekler; okuma danışanlara kaçma niyeti yüklemek yerine gizli sözün bu sahnede korunaksız kalışını öne çıkarır.
+
+Üçüncü zaman işareti {ar:يَقُولُ, tr:yaqūlu, gloss:diyorlar} fiilinin önüne gelerek söyleyişi belirli bir ana yerleştirir ve gizli konuşmanın içeriğini açar. Muzari çekim sözü sahnede sürmekte olan bir söyleyiş gibi duyurur; yineleme sıklığını ayrıca belirtmez. Böylece özel konuşma özetlenmiş bir düşünce olarak kalmaz, okur konuşanların kendi sözünü işitir. Fiilin çoğul öznesi {ar:ٱلظَّٰلِمُونَ, tr:aẓ-ẓālimūna, gloss:haksızlık edenler} fiilden sonra geldiğinden söz eylemi adlandırmadan önce başlar; özne geldiğinde belirli, eril çoğul etkin ortaç olarak konuşan grubu niteler ve suçlama açılırken ahlaki çerçeveyi verir. Sıra konuşanların adını geciktirir, onları kimliksiz bir kitleye dönüştürmez.
+
+Bu nitelemedeki haksızlık alanı, bir şeyi hak ettiği yerden, paydan ya da sınırından çıkarma basıncını taşır. Ardından gelen {ar:مَّسْحُورًا, tr:masḥūran, gloss:büyülenmiş} teşhisi algıdaki sorunu elçiye yüklediğinden, ikisi birlikte sorunun yerini değiştiren bir söz okuması kurar: dikkat duyulan iddiadan onu taşıyan kişinin sözde etkilenmiş hâline kayabilir. Bu temas haksızlık edenler nitelemesinin çevresinde, suçlamanın yön değiştirme imgesini belirginleştirir. Âyet hangi hakkın kime ait olduğunu ya da somut bir yer-zaman olayını belirtmediğinden, bu okuma alıntının içindeki yön değiştirmeyle sınırlı kalır.
+
+Alıntının {ar:إِن, tr:in, gloss:değil} olumsuzluk parçacığı bir sınırlama çerçevesi açar; {ar:إِلَّا, tr:illā, gloss:ancak} bu çerçeveyi kapatır. İkisinin arasındaki {ar:تَتَّبِعُونَ, tr:tattabiʿūna, gloss:izinden gidiyorsunuz} fiili, konuşanların çoğul bir “siz”e yüklediği takip eylemidir; kişi eki hitabın çoğul muhatabını gösterir, adlarını veya cevaplarını değil. Dolayısıyla sınırlama yalnız ardından gelen “adam” nitelemesini değil, muhatapların ne yaptığına dair iddiayı da kapsar. Açılıştaki {ar:بِمَا, tr:bi-mā, gloss:neyle ya da nasıl} bilgi alanı dinleyişin içeriğini veya tarzını açık bırakırken, sondaki istisna takip suçlamasını tek bir söz grubuna toplar; iki uç bu âyetin bilgi ve isnat çerçevesini kurar, ilk tamamlayıcının belirsizliğini de korur. Dilbilgisi alıntıdaki iddianın sınırını gösterir; doğruluk değerini belirlemez.
+
+{ar:تَتَّبِعُونَ, tr:tattabiʿūna, gloss:izinden gidiyorsunuz} birinin yanında ya da arkasında yürümeyi, ayrıca bir örneği veya öğretiyi izleyip ona göre davranmayı kapsar. Burada insan nesnesi {ar:رَجُلًا, tr:rajulan, gloss:bir adam} olduğu için konuşanlar takip iddiasını soyut bir öğretiden çok tek bir kişiye bağlar. Belirsiz tekil “adam” sunumu kişiyi küçülten bir polemik etkisi yaratabilir; bu retorik etki dilbilgisinin zorunlu sonucu değildir. Gramer kişiyi tekil nesne olarak verir, başka öğretiler hakkında kapsam belirlemez; olumsuzlukla istisna arasındaki fiil ve insan adı ise konuşanların indirgemeci çerçevesini kurar.
+
+Bu insan adını {ar:مَّسْحُورًا, tr:masḥūran, gloss:büyülenmiş} sıfatı tamamlar. İkisi de tekil, belirsiz ve mansub biçimdedir; edilgen ortaç isimle uyumlanıp kapanışta tek bir ad-sıfat grubu oluşturur. Ortaç adamı büyü yapan fail olarak değil, konuşanların iddiasına göre büyüden veya bir etkilenmeden pay almış kişi olarak sunar. Kökün aldatıcı algı, aklın ya da hâlin etkilenmesi anlamları bu isnat içinde duyulabilir; niteleme konuşanların teşhisi olarak kalır. Şafak ya da bedenle ilgili başka sözlük kullanımları bu biçimin yorum alanına girmez; ad ile ortaç arasındaki uyum ise etkilenmişlik isnadını adama bağlar.
+
+Uzun mansub sonlama {ar:مَّسْحُورًا, tr:masḥūran, gloss:büyülenmiş} ile âyetin sonunda işitilir bir durak yaratır; böylece hakaret tek bir ad-sıfat birimi gibi iner ve cümle sınırı duyulur. Bu kapanışın işlevi ses ve sınırdadır. Açılıştaki bilgiyle bu son niteleme yan yana gelince alıntı, dinleyiş için konuşanların sunduğu açıklama gibi duyulur: dikkatlerini neye verdiklerini bilen anlatımın yanında onlar bağlılığı “büyülenmiş” diye adlandırdıkları adamın durumuna bağlar. Bu, konuşanların teşhisidir, anlatıcının hükmü değil; söyleyiş dikkati duyulan mesajdan elçinin sözde etkilenmişliğine kaydırır.
+
+Gizli konuşmadan doğrudan alıntıya geçiş, sözün dolaşımını da düşünmeye açar. Sözlüklerde {ar:القَالَة, tr:al-qālah, gloss:yayılan söz} ve {ar:القِيلُ وَالقَالُ, tr:al-qīlu wa-l-qāl, gloss:dolaşımdaki söz} insanlar arasındaki söz alışverişini anlatır; odaktaki {ar:يَقُولُ, tr:yaqūlu, gloss:diyorlar} ise çoğul öznesine rağmen tekil çekimli söyleme fiili olarak sahnede kalır. Ardından gelen {ar:تَتَّبِعُونَ, tr:tattabiʿūna, gloss:izinden gidiyorsunuz} çoğul hitabı alıntıyı dinleyici kitlesine yöneltilmiş bir etiket hâline getirir. Böylece sözlükteki dolaşım imgesi etiketin yayılma ve güven sarsma ihtimalini açar; ayet sözün sahne ötesinde gerçekten dolaşıma girdiğini bildirmez. {ar:نَجْوَىٰ, tr:najwā, gloss:gizli danışma} ile {ar:يَقُولُ, tr:yaqūlu, gloss:diyorlar} arasındaki geçiş işitilenden söylenene uzanır; çoğul muhataba yönelen etiket de bu akışta başkalarını izleyişten caydırabilecek bir işlev kazanır.
+
+İzleme suçlaması, dinleyicilerin yöneldiği kişi kadar suçlamayı kuranların dikkatini de metinde görünür bırakır. Aynı fiil ailesinin farklı bir türetmesi, izleri zaman içinde adım adım inceleyerek araştırmayı anlatır; buradaki {ar:تَتَّبِعُونَ, tr:tattabiʿūna, gloss:izinden gidiyorsunuz} biçimi takip anlamında kalır. Bu ayrım, yansımayı fiilin tek başına araştırma taşımasına değil, yinelenen {ar:يَسْتَمِعُونَ, tr:yastamiʿūna, gloss:dinliyorlar} dinleyişi ile {ar:إِلَيْكَ, tr:ilayka, gloss:sana doğru} hedefinin, başkalarının takip ettiği suçlamasının yanında durmasına bağlar. Böylece alıntı, konuşanların elçiye dönük sürekli dikkatini metin içinde karşılık olarak gösterir; bu bağ gerçek kovalamaca veya bilinçli psikolojik yansıtma iddiası değil, konuşmanın kurduğu bir aynadır.
+
+## Perde ve Yol
+
+Bu dinleyiş, sûrenin hemen önce kurduğu kavrayış engellerinin içinde yer alır. Göklerin, yerin ve içindekilerin tesbihinden sonra insanların onların tesbihini kavrayamadığı söylenir (17:44). Kur’an okunurken araya {ar:حِجَابًا مَّسْتُورًا, tr:ḥijāban mastūran, gloss:örtülü perde} konur (17:45); kalplerde {ar:أَكِنَّةً, tr:akinnatan, gloss:örtüler}, kulaklarda {ar:وَقْرًا, tr:waqran, gloss:ağırlık} bulunur ve Rab tek başına anılınca {ar:نُفُورًا, tr:nufūran, gloss:uzaklaşma} gösterilir (17:46). Dışarıdaki perde, içteki örtüler ve kulak ağırlığı ayrı engellerdir; yan yana gelişleri sesle karşılaşmayı sözü kavrama, kabul etme ve ona uyma aşamalarından ayırır. Bu çevrede iki {ar:يَسْتَمِعُونَ, tr:yastamiʿūna, gloss:dinliyorlar} işitsel teması anlatmayı sürdürürken açılıştaki {ar:بِمَا يَسْتَمِعُونَ بِهِۦٓ, tr:bi-mā yastamiʿūna bihī, gloss:neyle ya da nasıl dinledikleri} dinleyişin tarzına da dikkat çekebilir. Engeller bu yorumda işitmenin yokluğundan çok alımlama tarzını öne çıkarır; sûrenin ilahî olarak dayatılmış bir yetersizlik ihtimalini açık bırakması da bu bağı daha geniş bağlamında tutar.
+
+Engellerin dıştan içe bu dizilişi, {ar:ٱلظَّٰلِمُونَ, tr:aẓ-ẓālimūna, gloss:haksızlık edenler} adında karanlıkla ilgili bir yankı da duyurabilir. Tesbihi anlayamama, araya giren perde, kalp örtüleri ve kulak ağırlığı görünür ışığın kesilmesi ya da zihnin kararması imgesine zemin hazırlar (17:44, 17:45, 17:46). Olağan haksızlık edenler nitelemesi korunur; kararma imgesi bu engel dizisinin ona eşlik ettirdiği keşfî yankıdır. Bu bağlantı sözcüğe yeni bir karşılık vermediği gibi, belirli bir hakkın veya payın esirgendiğini de ileri sürmez.
+
+Perdenin sosyal sınır oluşu, gizli danışma için başka bir temas noktası açar. {ar:نَجْوَىٰ, tr:najwā, gloss:gizli danışma} ailesindeki ayrılıp uzaklaşma anlamı, Kur’an okunurken araya giren örtülü yüzey ve sınır olarak {ar:حِجَابًا مَّسْتُورًا, tr:ḥijāban mastūran, gloss:örtülü perde} ile yan yana gelince, özel konuşmayı kendilerine ulaşan hitaptan toplumsal olarak çekilme ve araya bir süzgeç koyma girişimi gibi duyurabilir (17:45). Bu bağlantıda perdenin katkısı araya giren sınır ve örtülü yüzeydir; bunlar ayrılma çağrışımıyla birlikte danışmayı doğrudan karşılaşmadan yalıtır. Ailedeki yüksek yer anlamı bu özel okumaya katılmaz: sahnede su veya yükselti değil, örtülü perde vardır.
+
+Dinleme söz varlığındaki bağ anlamı olağan işitme fiilinden ayrıdır; bu maddi kullanım benzetmenin kaynağını sağlar, odaktaki fiilin çevirisini değiştirmez. İki kez yinelenen {ar:يَسْتَمِعُونَ, tr:yastamiʿūna, gloss:dinliyorlar} iki işitme noktası kurar; ardından gelen {ar:نَجْوَىٰ, tr:najwā, gloss:gizli danışma} bu noktaları kapalı bir toplumsal bağ içinde eşleştirir; önceki âyetteki {ar:وَقْرًا, tr:waqran, gloss:kulak ağırlığı} ise bu bağın dışına cevap vermeyi kısıtlayan ağırlığı sağlar (17:46). Böylece üç ayrı ayrıntı, dinleyişin kapalı ve hareket alanı daralmış bir durum gibi tasarlandığı tek bir maddi benzetmede buluşur.
+
+Bu engel ve bağ imgelerinin ardından odak âyetin devamı işitmeden kurulmuş benzetmeleri incelemeye geçirir. “Bak” çağrısı, zalimlerin elçi için benzetmeler kurduğunu, sonra saptıklarını ve bir yol bulmaya güç yetiremediklerini bildirir (17:48). Gizli dinleme, {ar:نَجْوَىٰ, tr:najwā, gloss:gizli danışma} ve {ar:يَقُولُ ٱلظَّٰلِمُونَ, tr:yaqūlu aẓ-ẓālimūna, gloss:haksızlık edenler derler} ile açılan toplu söz zemini bu inceleme çağrısına taşınır. Haksızlık nitelemesinin yerinden etme çağrışımı suçlamanın yönünü, {ar:مَّسْحُورًا, tr:masḥūran, gloss:büyülenmiş} sözünün aldatıcı algı yönü ise dikkatin mesajdan onu taşıyan kişiye kayışını belirginleştirir; bu birleşim benzetmeleri sahte bir açıklama gibi duyurabilir. Ardından gelen sapma ve yol bulamama, bu açıklama çabasının somut sonucunu verir (17:48). Burada “büyülenmiş” yol kaybının köken açıklaması değil, alıntılanan isnattır; çoğul isnat başka suçlamaları kapsayabilir, sahne ise planlı bir kampanyayı anlatmaz. Böylece yol sonucu, elçinin sözde durumuna yönelen karşılaştırmanın sınırını görünür kılar.
+
+Yol bulamama görüntüsü, “bir adamın ardından gitme” sözündeki bedensel yönü de belirginleştirir. Odaktaki {ar:تَتَّبِعُونَ, tr:tattabiʿūna, gloss:izinden gidiyorsunuz} bir kişinin ardından yürümeyi ve bir yol ya da örneği benimsemeyi birlikte taşıyabilir; {ar:رَجُلًا, tr:rajulan, gloss:bir adam} ise erkek insanı, kadın karşıtlığı içindeki adam kategorisini adlandırır. Bu isim, kişinin kendi ayağıyla yürüyen kimse görüntüsüne de açılabilir; aynı ses ailesindeki {ar:رِجْل, tr:rijl, gloss:bacak} ise bacak uzvudur, asma veya yakalama kullanımları da kendi türemiş biçimlerine aittir. Takip fiili ile yol ve sapma, “adam”ı yaya diye çevirmeden ayakla birinin ardınca yürüme imgesine izin verir; insan gönderimi değişmez (17:48).
+
+Bu güzergâh imgesinin yanına Fâtiha topluluğun yön arayışını koyar. {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā ṣ-ṣirāṭa l-mustaqīma, gloss:bizi dosdoğru yola ilet} duası doğru yolu ister (1:6); sonraki âyet bu yolu nimet verilenlerin yolu diye niteler, gazaba uğrayanların ve sapanların yolu olarak değil (1:7). Böylece 17:48'de yitirilen güzergâh ile 17:47'deki kişiyi izleme suçlaması, bir topluluğun yön bulma duasıyla yan yana gelir (17:47, 17:48). {ar:تَتَّبِعُونَ, tr:tattabiʿūna, gloss:izinden gidiyorsunuz} fiilinin davranışsal “izleme” anlamı bu duada yol arayışından bir karşılık bulurken, bedensel ardından yürüme görüntüsü de korunur. Bu okuma Fâtiha'nın 1:6 ve 1:7 âyetleriyle sınırlı kalır: odaktaki elçi nimet verilen yol ile, dua eden topluluk da onun sahipleriyle özdeşleştirilmez. Böylece kişiyi izlemenin bedensel ve davranışsal yönleri, topluluğun yön istemesiyle iki ayrı ölçekte yan yana gelir.
+
+## İtiraz ve Karşılık
+
+17:48'deki yol imgesinin ardından soru yön değiştirip yeniden yaratılışın maddi imkânına gelir. Kemik ve ufalanmış kalıntı hâline gelmişken yeni bir yaratılışla diriltilme ihtimali sorulur (17:49). Maddi sınır taş ve demir örnekleriyle sertleştirilir (17:50); “bizi kim geri döndürecek?” sorusu da ilk kez yaratanın yeniden döndüreceği cevabını alır (17:51). Ufalanma, dirençli madde ve ilk yaratılışa dönüş itirazı aynı çizgide adım adım kurar. Bu maddeye bağlı beklenti, 17:47'deki kişisel teşhisle yan yana geldiğinde savunmacı bir okumaya imkân verir: dikkat yeniden yaratılış iddiasından onu dile getiren elçinin sözde etkilenmişliğine kayabilir. Bu bağ komşuluğa dayalı bir olasılıktır; 17:49, 17:50 ve 17:51'deki maddi meydan okuma kendi bağımsız anlamını ve basıncını korur (17:47, 17:49, 17:50, 17:51).
+
+Sonraki çağrı sahnesi maddi itirazdan başka bir yöne döner: çağrılacakları gün karşılık verecekleri bildirilir (17:52). Odakta insanlar elçiyi dinleyip ardından gizli danışma ve isnada geçerken, sonraki sahnede çağrı cevapla tamamlanır (17:47, 17:52). Bu karşılaştırma alımlamanın ölçüsünü sesin kulağa erişmesinden anlamaya, kabule ve karşılığa doğru genişletir. Ahiret günündeki çağrı ile bugünkü dinleme ayrı bağlamlardır; burada öne çıkan, sözlük anlamını değiştirmek değil, cevap eyleminin işitmeye eklediği ölçüdür.
+
+Dinleyişten sonra söze geçiş, insanlar arasındaki ilişkinin nasıl korunacağı sorusuna da bağlanır. Kullara en güzel sözü söylemeleri buyurulur; şeytanın aralarına girdiği ve açık bir düşman olduğu hatırlatılır (17:53). Bu genel ahlak buyruğu önceki danışmayı açıkça teşhis etmez; yine de ikisinin yan yanalığı, gizli danışma ve çoğul muhataba yöneltilen isnadı ilişkilerin arasına kama sokabilecek bir söz devresine yerleştirebilir (17:47, 17:53). En güzel söz bu olası akışta onu kesen karşılığı sunar.
+
+Açılıştaki bilme, elçinin dinleyicilerin cevabına ilişkin sorumluluğunu da yeniden düşündürür. Rabbin insanları daha iyi bildiği söylenir ve elçinin onların üzerine gözetici olarak gönderilmediği belirtilir (17:54); bilgi göklerde ve yerde olanlara kadar genişletilir (17:55). 17:47'de belirli dinleyişin bilinmesiyle 17:54 ve 17:55'teki geniş bilgi birlikte duyulduğunda, elçinin düşmanca alımlamayı yönetmekle yükümlü olmadığına dair bir güvence de belirir (17:47, 17:54, 17:55). Bu, sözü iletmek ile muhatabın cevabını denetlemenin farklı sorumluluklar olduğunu gösteren yerel okumadır; ayetlerin açık vurgusu ilahî bilginin kuşatıcılığı olmaya devam eder.
+
+Bu âyet çevresinde artan temasın anlayış ve kabule değil başka sonuçlara eşlik ettiği sahneler yer alır. Kur’an hatırlatmaları bir grupta uzaklaşmayı artırır (17:41). Semûd'a apaçık görünen dişi deve işareti verilir; ona haksızlık etmelerinin ardından işaretlerin uyarı için gönderildiği belirtilir (17:59). Uyarılma ise büyük bir taşkınlıkla karşılanır: {ar:يَزِيدُهُمْ, tr:yazīduhum, gloss:artırıyor} artışın yönünü, {ar:طُغْيَٰنًۭا, tr:ṭughyānan, gloss:taşkınlık} sınırı aşan karşılığı, {ar:كَبِيرًۭا, tr:kabīran, gloss:büyük} de ölçeğini verir (17:60). Bu üç ayrı sahnede hatırlatma uzaklaşmaya, görünür işaret haksız karşılığa, uyarı ise taşkınlığa eşlik eder. Birlikte, odaktaki dinleyişi daha geniş yerel örüntüye yerleştirirler; bu bağlantı değişmez bir alımlama yasası kurmaz.
+
+## Dinlemenin Farklı Sonuçları
+
+17:47'deki {ar:يَسْتَمِعُونَ إِلَيْكَ, tr:yastamiʿūna ilayka, gloss:sana doğru dinliyorlar} sesin kulakla algılanmasına dayanan sıradan bir dinleyiştir. Başka sahneler işitsel erişim ile kavrayış arasındaki ayrımı açar: elçiyi dinleyenlerin sağır ve akletmez diye anılması (10:42), kalplerdeki örtüler ve kulaklardaki ağırlık yüzünden işitmenin anlayışa ulaşamaması (6:25). Bu iki karşılaştırma sesle karşılaşma ile mesajı kavramanın ayrı aşamalar olduğunu gösterir; 17:47'deki grubun kavrayış düzeyini belirlemez.
+
+Başka iki sahne aynı dinleme hareketinin daha ileri sonuçlara varabildiğini gösterir. Kur’an'ı dinleyen cinlere susmaları söylenir; ardından topluluklarına uyarıcı olarak dönerler (46:29). Bu sahne işitmeyi amaçlı dikkate ve eyleme uzatır. Sözleri dinleyip içlerinden en güzeline uyanlar ise kabulü davranışa taşır (39:18). İki paralel, dinlemenin açılabildiği ayrı sonuçları gösterir; odaktaki grupla dinleyicileri özdeşleştirmez veya onlara bu sonuçları yüklemez.
+
+Bu olumlu izleme örneği, suçlamadaki {ar:تَتَّبِعُونَ, tr:tattabiʿūna, gloss:izinden gidiyorsunuz} fiilinin davranışsal anlamını da belirginleştirir. Fiil bir insanın ardından yürümeyi, ayrıca örnek, buyruk veya söz doğrultusunda davranmayı kapsar; 39:18'de dinlenen sözün en güzeline uyulması ikinci anlamı canlı kılar (39:18). 17:47'de konuşanlar bağlılığı, “büyülenmiş” diye niteledikleri adama yönelmiş gibi çerçeveler (17:47). Böylece fiilin bedensel ve davranışsal yönleri birlikte duyulur; olumlu örnek fiilin taşıyabileceği bir sonucu açar, 17:47 grubunun sonucunu tayin etmez.
+
+## Danışma ve İsnadın Dış Yankıları
+
+Odaktaki gizli danışmanın çoğul sunuluşu, bir sırdaşla değil bir grupla yürüyen özel konuşma biçimini gösterir. Haksızlık edenlerin gizlice fısıldaşıp elçi hakkında büyü sorusu yöneltmesi bu biçimi başka bir sahnede de taşır (21:3). Elçiler üzerine danışma ardından büyücülük suçlaması ve onları uzaklaştırma isteğine açılır (20:62, 20:63); başka bir yerde gizli görüşme günah, saldırganlık ve elçiye itaatsizlik diye değerlendirilir (58:8). Bu örneklerin her biri toplu konuşmanın başka bir yönünü aydınlatır, fakat bu benzerlikler odaktaki kişilerin kimliğini veya ortak bir planı belirlemez. Yakın bağlamda perde ve duyusal engeller alımlamanın önüne sınır koyar (17:45, 17:46); benzetmelerden sonra yol bulamama da yön kaybı imgesini sürdürür (17:48). Bu daha ihtiyatlı yerel bağ gizli danışmayı alımlama ve yön bulma güçlüğü çevresinde tutar. Odak âyette belirli bir hakkın kime ait olduğu söylenmez; bu yüzden “haksızlık edenler” sözü gizliliğin kendisini değil, ona eşlik edebilen sınır aşımını niteler.
+
+Bu karşı-çerçevenin merkezindeki {ar:مَّسْحُورًا, tr:masḥūran, gloss:büyülenmiş} sözü olağan okumasında adama yöneltilmiş büyülenmişlik isnadıdır; edilgen biçimi onu büyü yapan değil, etkilenmiş kişi olarak sunar. Kökün aldatma ve saptırma alanı yanlışı doğru gibi gösterme ya da gerçekte bulunmayanı varmış gibi algılama mekanizmasını ekler. Görülen işaretin “süregelen büyü” sayılarak reddedilmesi, dikkatin işaretten elçinin sözde durumuna çevrilebildiğini gösterir (54:2). Bu algı okuması yanında, gizli güçlerden yardım alma veya onlara yaklaşmayla yapılan doğaüstü işlem anlamı da canlıdır: büyü sorusu ve elçilere yöneltilen büyücülük isnadı bu dalı taşır (21:3, 20:63). Hazine veya bahçeye sahip olmama itirazının “büyülenmiş adam” sözüyle birleşmesi, aynı nitelemenin maddi beklentiyle birlikte kullanılabildiğini gösterir (25:8). Bu bağlamlar iki okuma olasılığını ayrı ayrı besler; yakınlıkları suçlamanın doğruluğuna hükmetmez.
+
+Aynı kök ailesindeki “büyücü” hitabı, farklı konuşma işlerinde yer alır. Bir sahnede “ey büyücü” diye sesleniş yardım isteyen bir yakarışın içindedir (43:49); başka bir sahnede Musa, kendisine yöneltilen büyü suçlamasına itiraz eder (10:77). Bu farklı kullanımlar sözcük ailesine her yerde aynı konuşma işlevini yüklemeyi engeller. Odak âyetteyse edilgen niteleme gizli danışmanın ardından bir kişiye yöneltilmiş teşhistir; anlamını hitabın sahibi ve çevresindeki söyleşi belirler.
+
+Dokuz açık işaretin anılmasının ardından Firavun'un Musa'yı Türkçede “büyülenmiş” diye nitelemesi, kanıtlarla hesaplaşmak yerine elçinin durumunu yeniden adlandıran savunmacı bir karşı-söylem olarak okunabilir (17:101). Odaktaki aldatıcı algı ve yanlış teşhis imgesi bu paralelliği anlaşılır kılar. 17:101'deki biçim ve sözlük ayrıntıları tam sözcüksel eşleşmeyi kurmaz; bu karşılaştırma ortak konuşmacı, geçmiş veya plan da göstermez, odak âyetteki dinleyicilerin dokuz işareti gördüğünü ya da ithamın bilerek uydurulduğunu söylemez. Bu sınırlı yakınlık yine de açık işaretlerin ardından elçinin durumunu yeniden adlandıran savunmacı sözü, odaktaki algı saptırma imgesiyle birlikte düşündürür.
+
+Son olarak {ar:رَجُلًا, tr:rajulan, gloss:bir adam} sözü erkek insanı, kadın karşıtlığı içindeki “adam” kategorisini korur. Bir başka itirazda elçi olarak {ar:بَشَرًا, tr:basharan, gloss:bir insan} gönderilmesi sorgulanır (17:94). {ar:رَجُلًا, tr:rajulan, gloss:bir adam} ile {ar:بَشَرًا, tr:basharan, gloss:bir insan} eş anlamlı değildir; bu sınırlı kategori benzerliği konuşanların aynı olduğunu veya her insan-elçi itirazının düşmanca olduğunu da göstermez. Yan yana gelişleri, “büyülenmiş adam” sözünün hem elçinin insan oluşuna hem de sözde etkilenmişliğine yönelen bir reddiye gibi duyulmasına izin verir.
+
+</editorial_prose>

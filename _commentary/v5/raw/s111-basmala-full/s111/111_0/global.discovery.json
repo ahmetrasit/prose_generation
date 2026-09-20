@@ -1,0 +1,83 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "111:0",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [],
+  "findings": [
+    {
+      "finding_ref": "global:name-as-threshold",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Adla başlayan söz ve yolculuk",
+      "claim": "Odaktaki basmala dizisinin 27:30'da Süleyman'a nispet edilen sözde bütünüyle, 11:41'de ise gemiye binme ve seyrin Allah'ın adıyla anılma bağlamında yeniden görünmesi, bu açılışı adla kurulan söz ve eylem başlangıçlarıyla da ilişkilendirir.",
+      "mechanism": "Odaktaki بِسْمِ yapısının ism sözcüğü, 27:30'da Süleyman'dan geldiği belirtilen sözün içinde aynı Allah, Rahman ve Rahim dizisiyle; 11:41'de ise gemiye binme emrinin ardından geminin seyri ve demirlemesinden söz eden بِسْمِ ٱللَّهِ ifadesiyle temas eder. Aynı adlandırma bir yerde söze, ötekinde yolculuğa bağlanır; bu iki farklı bağlam, odaktaki adla başlayışı sonraki söylem veya eyleme eşlik eden bir söz edimi olarak duyurur.",
+      "reader_payoff": "Okur, basmalanın Allah'ı rahmet sıfatlarıyla anan anlamını sürdürürken bu adla başlayışın bir sözün ve gemi yolculuğunun eşiğinde de kullanılabildiğini fark eder.",
+      "containment": "Bu yankı, odaktaki “Allah'ın adıyla” anlamını korur; pakette sunulan 27:30 ve 11:41 ifadelerinin eklediği ilişkiyi, adlandırmanın söz ve yolculukla buluşmasıyla sınırlar. Hedef ayetlerin morfolojisi verilmediği için biçimsel ayrıntı veya bütün kullanımlara yayılan bir kural ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "İki hedef ayetin Arapça metni, odaktaki adlandırmanın farklı bağlamlarda yeniden kullanımını açıkça gösterir. Bağlantılar karşılıklı keşif adaylarıdır, hedef morfolojisi ve açık kaynak güven etiketleri sağlanmamıştır; söz ve yolculuk eşiği yorumu bu nedenle sınırlı tutulmuştur."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "27:30",
+            "11:41"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "Odaktaki بِسْمِ yapısının ism sözcüğü, Allah'a bağlanan adlandırmayı taşır.",
+          "independent_trigger": "27:30 odaktaki tam basmala dizisini Süleyman'dan geldiği belirtilen sözün içinde yineler; 11:41 Allah'ın adını gemiye binme emriyle seyrin ve demirlemenin anılışına bağlar.",
+          "activation": "İsm sözcüğünün adlandırma anlamı, 27:30'daki söylem bağlamı ve 11:41'deki yolculuk bağlamıyla temas eder. Bu ayrı kullanımlar, odaktaki adlandırmayı yalnız bir adın belirtilmesi olarak bırakmayıp, sonrasında gelen söze veya eyleme eşlik eden başlangıç çerçevesi olarak da duyurur.",
+          "resulting_reading": "Odaktaki basmala, Allah'ın adını ve rahmet sıfatlarını anarken, adla başlayışın bir söz ve yolculukla buluştuğu daha geniş bir yankı kazanır.",
+          "boundary": "İlişki, pakette verilen 27:30'daki tam dizi ve 11:41'deki بِسْمِ ٱللَّهِ ifadesiyle sınırlıdır; hedef morfolojisi veya tüm basmala kullanımları için genel bir kural ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "27:30",
+            "11:41"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Odaktaki ٱللَّه özel adı, basmalada adıyla anılan Yaratıcıyı belirler.",
+          "independent_trigger": "27:30 Allah adını Rahman ve Rahim ile birlikte tam odak dizisinde yineler; 11:41 aynı adı gemiye binme ve seyir bağlamında verir.",
+          "activation": "Odaktaki özel ad, 27:30'da bir sözün kaynağıyla aynı basmala dizisinde, 11:41'de ise yolculuğun seyri ve demirlemesiyle bağlantılı olarak yeniden görünür. Bu temas, Allah adının odakta bir söz edimiyle anılmasını farklı eylem bağlamlarına taşır.",
+          "resulting_reading": "Basmaladaki Allah adı, merhamet sıfatlarının sahibi olarak kalırken, başka bağlamlarda sözü ve yolculuğu adlandırarak başlatan bir anışın odağı olarak da duyulur.",
+          "boundary": "Yalnızca sağlanan iki hedef metindeki özel ad tekrarına dayanır; hedef morfolojisi bulunmadığından seslenme ya da ant kullanımı ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_c9ae3c6a55554363ccc5",
+        "conn_627520cec1690a30a7e3"
+      ],
+      "context_refs": [
+        "11:41",
+        "27:30"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Bağlantı ayetlerinin Arapça metinleri sağlanmış, ancak hedef morfolojisi ve açık kaynak güven etiketleri sağlanmamıştır. HFT yükü ile aday dökümü de boştur; bu nedenle bulgu, bu iki metinde doğrudan görülen ifadelerin sınırlı yankısı olarak tutulmuştur."
+  ]
+}

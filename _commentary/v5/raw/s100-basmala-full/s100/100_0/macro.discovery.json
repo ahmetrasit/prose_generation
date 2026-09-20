@@ -1,0 +1,79 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "100:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [],
+  "findings": [
+    {
+      "finding_ref": "macro:mercy_frames_ingratitude",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Merhametle anılan Rab ve insanın nankörlüğü",
+      "claim": "Sure, besmelenin Allah adını ve merhamet sıfatlarını, insanın Rabbine nankör oluşu ve o Rabbin onları bildiğini söyleyen kapanışla ilişkilendirir; böylece suçlama, esirgeme ve iyilikle nitelenen bir ilişki içinde belirir.",
+      "mechanism": "Odakta Allah özel adı iki kesin merhamet sıfatını niteler; ileride insanın Rabbine karşı nankör olduğu söylenir (100:6), kapanışta da Rabbin onları bildiği belirtilir (100:11). Bu ilişki adını odaktaki Allah'a döndürerek Tanrı'ya özgü kuşatıcı merhameti insan hakkındaki yargıyla buluşturur; açılıştaki merhamet, sonraki nankörlük suçlamasının ahlaki çerçevesi olur.",
+      "reader_payoff": "Okur, insan hakkındaki yargıyı merhametle nitelenmiş bir Rab ile ilişki içinde duyar; son ayetteki bilgi vurgusu bu ilişkinin hesap veren niteliğini görünür kılar.",
+      "containment": "Bu okuma, açılış ile sure sonundaki ilişkiyi yan yana getirir. Metin belirli hangi iyiliklerin unutulduğunu açıklamaz; merhametin hesabı kaldırdığını veya yargının nedenlerini tek tek verdiğini söylemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Odaktaki özel ad ve merhamet sıfatları ile 100:6 ve 100:11'deki Rab ilişkisi packet yüzeyinde yer alır. Allah ile sonraki Rab göndergelerinin özdeşliği açık bir bağlantı kaydıyla kurulmadığından bu söylem düzeyindeki dönüş ve karşıtlık nitelikli bir çıkarımdır; packet ayrıca source_trust etiketi sağlamaz."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["100:6", "100:11"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Allah adı, açılışta Yaratıcıya özgü özel ad olarak kullanılır.",
+          "independent_trigger": "Sure, insanı 100:6'da Rabbine karşı nankör diye niteler ve 100:11'de onların Rabbini bilen olarak anar.",
+          "activation": "İlerideki ilişkisel Rab adı odaktaki özel ada döner; böylece insanın nankörlüğü ve son ayetteki bilgi, besmelede adı geçen ilahî muhatapla aynı söylem ilişkisine bağlanır.",
+          "resulting_reading": "Suredeki insan yargısı, açılışta adı anılan ilahî muhatapla ilişki üzerinden okunur.",
+          "boundary": "Bu, odak ile aynı suredeki Rab göndergeleri arasındaki söylem düzeyinde bir özdeşleştirmedir; Rab sözcüğünün başka kök anlamları bu okumaya eklenmez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["100:6", "100:11"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Rahman ve Rahim sıfatları, merhameti esirgeme ve iyiliğe ulaşan etkin bir yöneliş olarak taşır.",
+          "independent_trigger": "100:6 insanı Rabbine karşı nankör diye niteler; 100:11 bu insanlarla Rableri arasındaki ilişkiyi bilme vurgusuyla kapatır.",
+          "activation": "Odaktaki etkin esirgeme ve iyilik anlamı, sonraki ayetlerde Rab ile insan arasındaki nankörlük ilişkisine temas eder; insan hakkındaki suçlama, merhametin ilan edildiği bir bağlamda keskinleşir.",
+          "resulting_reading": "İnsanın nankörlüğü, açılıştaki koruyucu iyilikle karşı karşıya gelen bir tutum olarak görünür.",
+          "boundary": "Bağlam bu iyiliğin belirli örneklerini saymaz ve merhametin suçlamayı ortadan kaldırdığını ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["1:1:2:1", "100:6", "100:11"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Allah'a bağlanan Rahman ve Rahim sıfatları, merhamet dalının Tanrı kullanımını taşır.",
+          "independent_trigger": "Ayrı bir odak sözcüğü olan Allah adı Tanrı göndergesini kurar; 100:6 ve 100:11 ise insanları bu Rab ile ilişki içinde anarak bu geniş merhametin muhatap alanını sureye taşır.",
+          "activation": "Allah adı, sıfatları Tanrı'ya özgü kuşatıcı esirgeme olarak belirler; sonraki insan ve Rab ifadeleri bu geniş kapsamı suredeki insanlara bağlar.",
+          "resulting_reading": "Sonraki nankörlük suçlaması, açılışta yaratılmışlara uzanan merhamet bağlamına girer.",
+          "boundary": "Metin belirli bir merhamet eylemi seçmez veya merhametin kurtuluşu güvenceye aldığını söylemez; çıkarım yalnızca Tanrı kullanımının geniş kapsamı ile suredeki insan göndergelerini birleştirir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["100:6", "100:11"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Candidate inventory, support registry, and connection registry are empty; the finding is an independently reviewed activation from the focus surface and selected same-surah context.",
+    "HFT payload is absent. The packet contains no explicit cross-reference record equating Allah in 100:0 with Rabb in 100:6 and 100:11, so the referential return and mercy-versus-ingratitude framing remain qualified."
+  ]
+}

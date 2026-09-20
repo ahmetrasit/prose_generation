@@ -1,0 +1,500 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "96:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_5eb2749e12bd214c4f89",
+      "decision": "accept",
+      "reason": "96:1 aynı bi-sm yapısını okuma buyruğuna taşır; yaratma ve öğretme dizisi adlandırmayı eylemli bir çerçeve olarak okumayı destekler. Adın yetkilendirici etkisi bağlamdan yapılan çıkarım olarak sınırlandırılmıştır.",
+      "finding_refs": ["macro:operative-designation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a601a3304518ef5d374b",
+      "decision": "accept",
+      "reason": "İki merhamet sıfatı ile insanın yaratılışı ve öğretilmesi arasındaki bağ, şefkat çekirdeğini korurken rahim benzeri gelişim ve taşıma imgesini de destekler; nedensellik iddia edilmez.",
+      "finding_refs": ["macro:mercy-development"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8f913d1336aa1dbffb8d",
+      "decision": "narrow",
+      "reason": "Geç uyarı sahnesi, açılıştaki merhamet ile hesap verme temasını aynı perikopta tutar. Adayın eklediği soy bağı dalı bu uyarı ilişkisiyle etkinleşmez; soy ve bağımlılık okuması ayrı olarak macro:origin-and-self-sufficiency bulgusunda değerlendirilmiştir.",
+      "finding_refs": ["macro:mercy-and-warning"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000552/B002",
+          "reason": "Yakın soy bağı anlamı 96:15–19'daki yakalama ve karşı çağrıdan çıkmaz; bu ilişki için bağımsız soy veya ortak köken tetikleyicisi yoktur."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_34188c40d0f2f31af4d7",
+      "decision": "accept",
+      "reason": "Adlandırmanın okuma ve öğretme eylemlerine taşınması ile merhamet kökünün rahim/soy imgesi, bağımlı başlangıç ve kendini yeterli görme arasındaki bağı tek bir geniş anlatı hareketinde birleştirir. Bu çok adımlı bağ, ayrı daha dar bulguları yinelemekten öte, başlangıçtan son çağrıya uzanan yeni bir çerçeve kurar; legacy_unbound kaynak niteliği açıkça korunmuştur.",
+      "finding_refs": ["macro:origin-and-self-sufficiency"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e45711668a7f8e794055",
+      "decision": "represented",
+      "reason": "Açılış merhametinin sonraki yakalama, teşhir ve karşı çağrıyla silinmediği yönündeki retrospektif okuma, macro:mercy-and-warning bulgusunda aynı bağlam ve sınırlarla taşınmıştır.",
+      "finding_refs": ["macro:mercy-and-warning"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a3af7a7e1a7e335be00",
+      "decision": "represented",
+      "reason": "Adın yükseltilmiş/belirgin kılınmış bir adlandırma olarak işlemesi ve okuma-yaratma-öğretme dizisine taşınması macro:operative-designation bulgusunda, köken imgesinin fiziksel yükselme olmadığı sınırıyla birlikte yer alır.",
+      "finding_refs": ["macro:operative-designation"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a8f8e4c20445e3991668",
+      "decision": "represented",
+      "reason": "Merhametin gelişen hayatı kuşatan ve taşıyan rahim benzeri bir güç olarak okunması macro:mercy-development bulgusunda şefkat anlamı korunarak temsil edilmiştir.",
+      "finding_refs": ["macro:mercy-development"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_943677b3a19f78c307e9",
+      "decision": "accept",
+      "reason": "96:1'deki adla okuma tekrarı açılış formülünü ilk buyruğa taşır; namaz ve secde sahneleri de Allah adının tapınılan kaynak olarak duyulmasına bağımsız bağlam sağlar. Yakarışın bu sahneleri nedensel olarak doğurduğu ileri sürülmez.",
+      "finding_refs": ["macro:invocation-and-worship"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fc40e05f5bfe3763fa0e",
+      "decision": "represented",
+      "reason": "96:2'deki yaratılış ve 96:4–5'teki öğretimle etkinleşen rahim imgesi, macro:mercy-development bulgusunda aynı dal ve sınırla taşınmıştır.",
+      "finding_refs": ["macro:mercy-development"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:operative-designation",
+      "origin_candidate_id": "cand_5eb2749e12bd214c4f89",
+      "represented_candidate_ids": ["cand_5a3af7a7e1a7e335be00"],
+      "title": "Adın okuma ve öğretme eylemlerine taşınması",
+      "claim": "Basmala'daki ad, 96:1'de aynı bi-sm yapısının okuma buyruğuna bağlanmasıyla açılış ibaresi olarak kalmaz; yaratma ve öğretme dizisini Allah'ın adı altında kuran etkin bir adlandırmaya dönüşür.",
+      "mechanism": "Odaktaki سْمِ adlandırması, 96:1'de Rabbin adıyla okuma çağrısında yinelenir; aynı ayetin Yaratıcıyı anması, ardından insanın yaratılışı (96:2) ve öğretimi (96:4–5) bu çerçeveyi eyleme bağlar. Tekrar, adlandırmayı sonraki söz ve oluşumun yöneldiği belirgin kaynak haline getirir.",
+      "reader_payoff": "Okuyucu, basmalayı yalnızca önsöz olarak değil, okuma ve öğrenmenin hangi ad altında yürüdüğünü belirten bir başlangıç olarak görür.",
+      "containment": "Adın eylemleri yetkilendirmesi ve kaynak imgesindeki yükseltme, tekrar ile sıra düzeninden çıkarılan yorumlardır; metin adın eylemlere nedensel biçimde yol açtığını veya fiziksel bir yükselmeyi söylemez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Aynı ad yapısının 96:1'de tekrarı ve yaratma/öğretme sırası packet bağlamında açıktır; etkin yetkilendirme ve adın belirginleştirici köken imgesi yorumlayıcı çıkarımdır."
+      },
+      "support_ids": ["sup_6890fa515a5a7840ad8d", "sup_7b5cf73930a6b87fb8c3"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["96:1"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "Odaktaki سْمِ, Allah'ın özel adına bağlanan ve bi- önekiyle yönetilen ad/adlandırmadır.",
+          "independent_trigger": "96:1 aynı bi-sm yapısını bu kez oku buyruğuna bağlar ve adın sahibini yaratıcı Rab olarak niteler.",
+          "activation": "Odaktaki ad ile sonraki buyruktaki yinelenmiş adlandırma buluşur; ad, söz edilebilir bir varlığı tanıtmanın yanında okumayı o kaynağa bağlar.",
+          "resulting_reading": "Basmaladaki ad, okuma ve onu izleyen yaratma-öğretme dizisi için işleyen bir adlandırma çerçevesi olur.",
+          "boundary": "Bu, ad dalının olağan tanıtma ve adlandırma anlamıdır; kendi başına fiziksel yükselme veya buyrukları meydana getiren bir neden iddia etmez."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["96:1", "96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "Odaktaki سْمِ, anılmayı ve tanınmayı sağlayan ad taşıyıcısıdır.",
+          "independent_trigger": "96:1 aynı adlandırmayı okuma buyruğunda tekrarlar; 96:2 ve 96:4–5 yaratma ile öğretme eylemlerini aynı ad çerçevesinin hemen ardından sıralar.",
+          "activation": "Tekrar ve eylemlerin sıralanışı, adlandırmayı metnin başında belirgin ve bütün devamı için yön verici kılar; böylece kaynakların 'anılmayı yükseltme' açıklaması fiziksel değil, belirginlik yönünde yankılanır.",
+          "resulting_reading": "Allah'ın adı, devam eden söz ve oluşumun üzerinde belirgin bir yönlendirici ad olarak okunur.",
+          "boundary": "Bu kaynak-köken açıklamasının bağlamsal yankısıdır; fiziksel yükselme, morfolojik bir emir veya adın eylemlere neden olduğu iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["96:1"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Odaktaki ٱللَّه özel adı, basmalada adlandırılan ilahi kaynağı gösterir.",
+          "independent_trigger": "96:1, okuma buyruğunu Rabbin adına bağlar ve bu Rabbi 'yaratan' olarak niteler.",
+          "activation": "Adın odağındaki özel ilahi gönderim, sonraki ayette okuma ve yaratma eylemlerinin yöneldiği Rab tanımıyla karşılaşır; böylece başlangıçtaki ad eyleme bağlanır.",
+          "resulting_reading": "Allah adı, yaratma ve okuma dizisinin başında duran etkin bir kaynak adı olarak duyulur.",
+          "boundary": "96:1 Allah sözcüğünü tekrar etmez, Rab der; ilişki aynı bağlamdaki kaynak gönderiminden çıkarılır ve ad genel bir tür adına dönüştürülmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["96:1", "96:2", "96:4", "96:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-development",
+      "origin_candidate_id": "cand_a601a3304518ef5d374b",
+      "represented_candidate_ids": ["cand_a8f8e4c20445e3991668", "cand_fc40e05f5bfe3763fa0e"],
+      "title": "Gelişen hayatı kuşatan merhamet",
+      "claim": "İki merhamet sıfatı, insanın 96:2'de alaq'tan yaratılışı ve 96:4–5'te bilmediğinin öğretilmesiyle birlikte, acıma ve iyiliğin yanında gelişen hayatı taşıyan rahim benzeri bir koruyuculuk da duyurur.",
+      "mechanism": "Odaktaki merhamet sözcükleri şefkat ve etkin esirgeme anlamını taşır; 96:2'deki bağımlı başlangıç ile 96:4–5'teki öğretim, döl yatağının taşıma ve gelişme imgesini bağımsız bağlam tetikleyicileri olarak getirir. Bu temas merhameti yalnız bir duygu olarak değil, oluşana yer açıp onu taşıyan bir iyilik olarak duyurur.",
+      "reader_payoff": "İnsan, yalnızca yaratılmış bir varlık olarak değil, başlangıcı bağımlı olan ve kendisine bilmediği öğretilen biri olarak görünür.",
+      "containment": "Odak ifadelerinin temel anlamı merhamet ve şefkattir. Ayetler döl yatağını adlandırmaz ve merhametin biyolojik yaratılışa ya da öğretime doğrudan neden olduğunu söylemez; bu imge temel anlamı koruyan ek bir bağlam yankısıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Güvenilir yayın desteği merhamet ile insanın bağımlı başlangıcı arasındaki rahim benzeri koruyuculuğu açıkça önerir; nedensellik değil, sıralamadan doğan analojik temas olarak tutulmuştur."
+      },
+      "support_ids": ["sup_045d537323b931c6d0d9"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "ٱلرَّحْمَٰن ve ٱلرَّحِيم, Allah'a bağlanan iki merhamet sıfatıdır.",
+          "independent_trigger": "96:2 insanın alaq'tan yaratılışını; 96:4–5 ise insanın bilmediği şeyin öğretilmesini anlatır.",
+          "activation": "Bağımlı yaratılış ve öğretim, merhamet sıfatlarının yöneldiği insanın somut durumunu verir; şefkat anlamı, iyilik ve esirgeme sonucunu da taşıyan bir ilişkiye dönüşür.",
+          "resulting_reading": "Merhamet, duygu çekirdeğini koruyarak yaratılan ve öğretilen insana ulaşan etkin bir iyilik olarak belirir.",
+          "boundary": "Bağlam bu eylemleri merhametin sonucu diye açıkça adlandırmaz; ilişki sıralama ve tema yakınlığından çıkarılır."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "İki odak sıfatı, acıma ve esirgeme anlamlarını birlikte taşır.",
+          "independent_trigger": "İnsanın yaratılması ve ardından bilinmeyenlerin öğretilmesi, esirgeme/iyilik dalının bağlam içindeki ayrı tetikleyicisidir.",
+          "activation": "Yaratma ve öğretim eylemleri, merhametin insana ulaşan sonuçlarını görünür kılar; bu nedenle sıfatların ilişkisi yalnızca hissedilen yakınlıkta durmaz.",
+          "resulting_reading": "Merhamet, insana ulaşan koruyucu ve öğretici iyilikle birlikte okunur.",
+          "boundary": "Bu bağlantı yaratma veya öğretimin tek nedenini merhamet ilan etmez; dalın etkin iyilik yönünü bağlamda belirginleştirir."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Sıfatlar yaratıcı Allah'ı merhamet ve esirgeme ile niteler.",
+          "independent_trigger": "İnsan, yaratılmış ve öğretimle kendisine bilgi ulaştırılmış alıcı olarak görünür.",
+          "activation": "Tanrı hakkındaki sıfatların hemen ardından yaratılmış insana dönük yaratma ve öğretme eylemleri gelir; özel kullanımın yaratılmışlara iyilik yönü bu temasla belirginleşir.",
+          "resulting_reading": "İlahi merhametin yaratılmış insana ulaşan genişliği, yaratılış ve öğretim dizisi içinde algılanır.",
+          "boundary": "Bu dal özelleşmesi bağlamdaki eylemlerle sınırlıdır; sonraki her olayın merhamet olduğu söylenmez."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Aynı odak biçimleri merhamet anlamını seçerken kök, döl yatağı dalını da olası bir bağlam taşıyıcısı olarak sunar.",
+          "independent_trigger": "96:2'de insanın alaq'tan yaratılması ve 96:4–5'te insana bilmediğinin öğretilmesi, başlangıç ve gelişim temasını verir.",
+          "activation": "Merhamet taşıyıcısı, oluşum ve öğrenme bağlamıyla temas eder; döl yatağının taşıma ve geliştirme imgesi temel şefkat okumasını koruyarak gelişim yönü ekler.",
+          "resulting_reading": "Merhamet, bağımlı başlangıcı kuşatan ve gelişmesine yer açan rahim benzeri bir koruyuculuk da çağrıştırır.",
+          "boundary": "Bu bağlam imgesidir; odak sözcüğün döl yatağı anlamında kullanıldığı, biyolojik ayrıntı veya merhametin bu süreçleri meydana getirdiği ileri sürülmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["96:2", "96:4", "96:5"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-and-warning",
+      "origin_candidate_id": "cand_8f913d1336aa1dbffb8d",
+      "represented_candidate_ids": ["cand_e45711668a7f8e794055"],
+      "title": "Merhamet ile uyarının birlikte kalması",
+      "claim": "Perikop Allah'ın merhamet adlarıyla açılır; 96:7'de kendini yeterli gören insanın taşkınlığına 96:15–19'da yakalama, karşı çağrı ve secde buyruğu karşılık verir. Açılış merhameti sonraki uyarıyı silmez; uyarı, merhametle adlandırılmış ve insanın sahte bağımsızlığını sınırlayan aynı anlatı çerçevesinde duyulur.",
+      "mechanism": "Odağın merhamet sıfatları bağımsız taşıyıcıdır; aynı bağlamın ilerleyen kısmındaki kendine yeterlilik iddiası, tehdit ve karşı çağrı ayrı tetikleyiciler oluşturur. Bunların tek perikop içindeki sırası, yaptırımı açılış merhametinin bulunduğu anlatı sınırları içinde okutur ve merhametin uyarıyı hükümsüz kıldığı okumasını değiştirir.",
+      "reader_payoff": "Okuyucu, merhamet açılışını korurken uyarının ağırlığını da duyar; sahte bağımsızlığın sınırlandırılışı bu açılışla aynı çerçevede görünür.",
+      "containment": "96:15–19'daki yakalama veya karşı çağrı merhamet eylemi diye adlandırılmaz; bulgu yalnızca aynı perikopta merhamet ve hesap verme temasının birlikte kalmasını söyler.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Güvenilir yayın desteğinin kendi derecesi zayıftır; legacy_unbound retrospektif okuma daha güçlü bir çerçeve ilişkisi önerir. Bağlam birlikteliği gösterir, fakat aralarındaki teolojik veya nedensel ilişkiyi açıklamaz."
+      },
+      "support_ids": ["sup_e00f2805d2df29bd3aae", "sup_f0b5afeab0c98ef8c35a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:7", "96:15", "96:16", "96:17", "96:18", "96:19"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Basmalanın başındaki iki sıfat Allah'ı merhametle niteler.",
+          "independent_trigger": "96:7 insanın kendini yeterli görmesini belirtir; 96:15–18 yakalama ve topluluk çağrısını, 96:19 ise itaat etmeme, secde ve yaklaşma karşı buyruğunu getirir.",
+          "activation": "Açılıştaki merhamet, sonradan gelen yaptırım ve yöneltmeyle aynı anlatı içinde karşılaşır; bu bağlam teması merhametin uyarıyı ortadan kaldırmadığı, uyarının da açılış sıfatlarını silmediği bir okuma doğurur.",
+          "resulting_reading": "Merhamet ve hesap verme aynı perikopta birlikte duyulur; açılış bir dokunulmazlık vaadine dönüşmez.",
+          "boundary": "Bu karşılaşma cezanın merhamet olduğunu veya merhametin cezayı gerekçelendirdiğini göstermez; metin iki temanın ilişkisini açıklamaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["96:7", "96:15", "96:16", "96:17", "96:18", "96:19"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:origin-and-self-sufficiency",
+      "origin_candidate_id": "cand_34188c40d0f2f31af4d7",
+      "represented_candidate_ids": [],
+      "title": "Bağımlı başlangıçtan kendini yeterli görmeye",
+      "claim": "Odaktaki Allah adı ve merhamet sıfatları, 96:1'de okuma buyruğuna taşınan adlandırmayla başlayan bir çerçeve kurar. 96:2'de insanın alaq'tan yaratılması ve 96:4–5'te ona bilmediğinin öğretilmesi, rahim ve soy bağı imgeleriyle bağımlı bir başlangıcı görünür kılar; 96:6–7'deki taşkınlık ve kendini yeterli görme, bu başlangıcın inkârı gibi okunur. Son secde ve yaklaşma buyruğu (96:19) yönelişi yeniden adlandırılmış kaynağa çevirir.",
+      "mechanism": "Allah adı ve ism sözcüğü odakta adlandırma taşıyıcılarıdır; 96:1'deki bi-sm tekrarı bunları okuma eylemine bağlar. Merhamet sözcükleri aynı kökün rahim ve soy bağı dallarını taşır; insanın alaq'tan yaratılması (96:2), öğretilmesi (96:4–5) ve kendini yeterli sayması (96:6–7) birbirinden bağımsız tetikleyicilerdir. Bağımlı başlangıç ile yeterlilik iddiası arasındaki temas, açılışın ilerideki taşkınlığı nasıl aydınlattığını değiştirir; 96:19'daki secde ve yaklaşma bu anlatı hareketini kapatır.",
+      "reader_payoff": "İnsanın kendine yeterlilik iddiası yalıtılmış bir cümle gibi değil, yaratılma ve öğrenme yoluyla alınmış bir başlangıcın ardından gelen bir kopuş gibi görünür; son yaklaşma buyruğu bu kopuşa karşı bir yön verir.",
+      "containment": "Odaktaki biçimler Allah'ın adı ve merhamet sıfatlarıdır. Metin döl yatağı veya soy bağını açıkça adlandırmaz, merhametin yaratılışa neden olduğunu söylemez ve son secdeyi açılış formülünün sonucu ilan etmez; rahim/soy ve anlatı çerçevesi okumaları bağlamsal, çok adımlı eklemelerdir.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Yinelenen adlandırma ve perikopun yaratılıştan yeterlilik iddiasına, oradan secdeye ilerlemesi packet içinde görünürdür; bu diziyi rahim/soy imgeleriyle öz-yeterlilik eleştirisine bağlamak, legacy_unbound desteğin de açıkça çıkarım saydığı çok adımlı bir okumadır."
+      },
+      "support_ids": ["sup_045d537323b931c6d0d9", "sup_649fafc37a56c60b3158"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["96:1", "96:14"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Odaktaki ٱللَّه, yaratıcı ve merhametli kaynak için kullanılan özel addır.",
+          "independent_trigger": "96:1 okuma eylemini Rabbin adına bağlayıp O'nu yaratıcı diye niteler; 96:14 Allah adını yeniden açıkça anar.",
+          "activation": "Açılıştaki özel ad, okuma ve yaratma çerçevesiyle ve daha sonra açık Allah adıyla karşılaşır; böylece adlandırma bütün hareketin kaynağına dair bir ilişki kurar.",
+          "resulting_reading": "Perikopun hareketi, başta adı konmuş kaynağa bağlı eylemler olarak okunabilir.",
+          "boundary": "96:1'de Rab sözcüğü geçer, Allah adı değil; bağlam bağı 96:14'teki açık tekrar ve aynı perikop içindeki ilişkiyle kurulur."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["96:1", "96:19"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "Odaktaki سْمِ, ilahi kaynağı tanıtan adlandırmadır.",
+          "independent_trigger": "96:1 aynı bi-sm yapısını okuma buyruğunda tekrarlar; 96:19 perikopu secde ve yaklaşma çağrısıyla bitirir.",
+          "activation": "Tekrar edilen adlandırma, ilk okuma eylemini başlatır; perikopun sonundaki yaklaşma buyruğu açılıştan sonra gelen yönelişin kapsamını genişletir.",
+          "resulting_reading": "Ad, okuma ile başlayan ve yaklaşma buyruğuna kadar süren ilahi yöneliş çerçevesinin belirgin bir parçası olur.",
+          "boundary": "Bu, sıralamadan çıkarılan çerçeve ilişkisidir; metin adın bütün eylemlere nedensel olarak hükmettiğini söylemez."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["96:1", "96:2", "96:4", "96:5", "96:7", "96:19"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "Odaktaki ad, Allah'ı tanıtıp O'ndan söz etmeye imkân verir.",
+          "independent_trigger": "Adla okuma buyruğunun ardından yaratma, öğretme, kendini yeterli görme ve secde-yaklaşma sahneleri gelir.",
+          "activation": "Adlandırma tek bir başlıkta kalmayıp anlatının farklı eylemleriyle yeniden ilişkilendirilir; kaynak açıklamasındaki belirginleştirme imgesi bu tekrarlı görünürlükte yankılanır.",
+          "resulting_reading": "Allah'ın adı, bağımlı insanın taşkınlığına ve son çağrıya kadar uzanan hareket içinde belirgin bir yön kaynağı olur.",
+          "boundary": "Yükseltme yalnızca adın anılmayı belirginleştirmesine dair kaynak imgesidir; fiziksel yükselme, etimolojinin bağlamı kanıtladığı veya adın insan davranışına neden olduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F001",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "ٱلرَّحْمَٰن ve ٱلرَّحِيم Allah'ı merhametle niteler.",
+          "independent_trigger": "96:2'de insan yaratılır; 96:4–5'te insana bilmediği öğretilir.",
+          "activation": "Merhamet sıfatları, muhtaç başlangıç ve bilgi alışı bağlamıyla buluşur; odaktaki şefkat anlamı gelişen insana dönük iyiliğe açılır.",
+          "resulting_reading": "Merhamet, insanın başlangıcını ve öğrenmesini kuşatan bir yakınlık olarak duyulur.",
+          "boundary": "Bu temas yaratılış ve öğretimin merhametten kaynaklandığını kanıtlamaz; sonraki yaptırımı da merhamet diye adlandırmaz."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Odak sıfatlarının merhamet çekirdeği esirgeme ve iyilik yönü de taşır.",
+          "independent_trigger": "İnsanın yaratılması ve kendisine bilmediğinin öğretilmesi, bu iyiliğin bağlamdaki ayrı eylemleridir.",
+          "activation": "Yaratma ve öğretme, merhametin insana ulaşan etkin sonucunu görünür kılar.",
+          "resulting_reading": "Açılış, yaratma ve öğretimle örneklenen etkin ilahi iyiliği de taşır.",
+          "boundary": "Bu eylemlerin tek açıklaması merhamet değildir; yalnızca çekirdeğin etkin sonuç yönü belirginleşir."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:4", "96:5"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "İki merhamet sıfatı Tanrı hakkında kullanılır.",
+          "independent_trigger": "İnsan yaratılan ve öğretimle bilgiye ulaştırılan bir alıcı olarak belirir.",
+          "activation": "İlahi sıfatlarla yaratılmış insana yönelen yaratma ve öğretme sahneleri yan yana gelir; bu, esirgemenin yaratılmışlara ulaşma özelleşmesini görünür kılar.",
+          "resulting_reading": "Merhametin yaratılmışa ulaşan genişliği, insanın başlangıç ve öğrenme çizgisinde belirginleşir.",
+          "boundary": "Bu özelleşme 96:2 ve 96:4–5'teki sahnelerle sınırlıdır; uyarı ya da ceza sahneleri merhamet sayılmaz."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:5", "96:7"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Merhamet sıfatları aynı r-ḥ-m kökünden olası bir taşıma ve oluşum imgesini de bağlama taşıyabilir.",
+          "independent_trigger": "96:2 insanın alaq'tan yaratılışını, 96:5 insana öğretimi ve 96:7 kendini yeterli görme iddiasını bildirir.",
+          "activation": "Başlangıçtaki oluşum ve sonraki öğrenme, döl yatağının taşıma/gelişim imgesiyle; kendine yeterlilik iddiası ise bu bağımlı başlangıçla karşılaşır.",
+          "resulting_reading": "İnsanın kendine yeterli olduğu iddiası, onu başlangıçta taşıyan bağımlılık bağlamında okunur.",
+          "boundary": "Ayetler rahimden söz etmez; bu, merhamet anlamını koruyan gelişim ve bağımlılık analojisidir."
+        },
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["96:2", "96:7"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Odaktaki r-ḥ-m sıfatları, sözlükteki yakın soy bağı dalıyla aynı kökü paylaşır; yüzeyde ise merhamet anlamını seçer.",
+          "independent_trigger": "96:2 insanı alaq'tan yaratılmış olarak sunar; 96:7 ise insanın kendini yeterli gördüğünü söyler.",
+          "activation": "İnsanın bağımlı kökeni, ortak doğum/köken ilişkisini çağrıştıran soy dalıyla temas eder; kendine yeterlilik ifadesi bu ilişkisel başlangıca karşıt düşer.",
+          "resulting_reading": "Merhamet sıfatları, şefkat anlamını korurken insanın ilişkisel ve bağımlı kökenine dair bir soy yankısı da taşır.",
+          "boundary": "Perikop soy veya akrabalığı açıkça anmaz; bu, alaq ile yeterlilik iddiası arasından çıkarılan bağlamsal yankıdır, epitetlerin sözlük karşılığı değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["96:1", "96:2", "96:4", "96:5", "96:6", "96:7", "96:14", "96:19"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:invocation-and-worship",
+      "origin_candidate_id": "cand_943677b3a19f78c307e9",
+      "represented_candidate_ids": [],
+      "title": "Adlandırmadan kulluk yönelişine",
+      "claim": "Basmala'daki Allah adı, 96:1'in Rabbin adıyla okuma buyruğundaki yinelemeyle ilk eyleme taşınır; daha sonra namaz (96:10) ve secde-yaklaşma (96:19), bu adı tapınılan kaynak olarak düşünmeye bağlam sağlar. Böylece açılış, okuma ve kulluk sahneleri için aynı kaynağa yönelen bir çağrı gibi duyulur.",
+      "mechanism": "Odaktaki özel ad önce açılıştaki basmala içinde gelir; 96:1'deki bi-sm tekrarı okuma buyruğuyla doğrudan temas kurar. Bağımsız olarak, 96:10'daki namaz ve 96:19'daki secde/ yaklaşma eylemleri tapınma dalını etkinleştirir; bu bağlam eylemleri odaktaki ilahi ada geri bağlar.",
+      "reader_payoff": "Okuyucu, ilk okuma buyruğunu ve sonraki kulluk hareketlerini açılışta adı konan kaynağa yönelmiş eylemler olarak görebilir.",
+      "containment": "Bu, bağlamdan doğan bir yöneliş okumasıdır. 96:1 Allah adını tekrar etmez, Rab der; odakta doğrudan seslenme veya ant biçimi yoktur ve secdenin basmala tarafından nedensel olarak doğurulduğu söylenmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Yinelenen bi-sm yapısı, namaz ve secde packet içinde doğrudan görülür; bunları açılış formülünün devam eden daveti olarak birleştirme, legacy_unbound aday yorumunun da belirttiği bağlamsal çıkarımdır."
+      },
+      "support_ids": ["sup_a677184a183572df3ed0"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["96:1", "96:14"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Odaktaki ٱللَّه, açılış basmalasında kullanılan özel addır.",
+          "independent_trigger": "96:1 okuma eylemini Rabbin adına bağlar; 96:14 Allah adını açıkça yeniden anar.",
+          "activation": "Açılıştaki özel adın kaynağı, okuma buyruğunda Rab diye anılır ve ileride Allah adıyla açıkça döner; basmala böylece ilk eylemle bağlantılı bir çağrı niteliği kazanır.",
+          "resulting_reading": "Allah adı, sonraki okumanın yöneldiği ilahi kaynak olarak basmaladan ilk buyruğa taşınır.",
+          "boundary": "Bu bağlam bağlantısıdır; 96:1'de özel adın aynen tekrarlandığı veya sözlüksel olarak bir yakarma/ant kalıbının kurulduğu iddia edilmez."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["96:10", "96:19"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Odaktaki Allah adı, tapınılan varlığı gösterebilecek kök dalının yüzey taşıyıcısıdır.",
+          "independent_trigger": "96:10 bir kulun namaz kılmasını, 96:19 ise secde edip yaklaşmayı bildirir.",
+          "activation": "Bu açık kulluk eylemleri, odaktaki ilahi adın tapınılan kaynakla ilişkilendirilmesi için özel addan bağımsız bir tetikleyici sağlar.",
+          "resulting_reading": "Açılıştaki Allah adı, perikopta yönelinen tapınılan kaynak olarak da duyulur.",
+          "boundary": "Bu bağlamda etkinleşen tapınma dalıdır; Allah özel adı genel bir tanrı tür adına çevrilmez ve secde hedefi hakkında metnin söylemediği ayrıntı eklenmez."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["96:10", "96:19"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Basmala Allah'ı özel adla belirtir; aynı yüzey, bağlam içinde tapınılan varlığa geri dönebilen taşıyıcıdır.",
+          "independent_trigger": "Namaz, secde ve yaklaşma kulluk eylemleri perikopta açıkça yer alır.",
+          "activation": "Kulluk eylemleri, adlandırılan ilahi kaynak ile tapınmanın yöneldiği varlık arasındaki ilişkiyi kurar.",
+          "resulting_reading": "Allah, yalnızca başlangıçta adı geçen değil, kulluğun yöneldiği kaynak olarak algılanır.",
+          "boundary": "Bu genişletme yalnızca bağlamsal ilişkidir; kök dalının türemiş varlık anlamı Allah özel adının her kullanımına aktarılmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["96:1", "96:10", "96:14", "96:19"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "96:2 insanın alaq'tan yaratıldığını söyler, fakat perikop döl yatağı veya soy bağını adlandırmaz; bu imgeler odaktaki merhamet sıfatlarının sözlük anlamı değil, sınırlı bağlam yankılarıdır.",
+    "96:15–19'daki tehdit ve secde çağrısı açılış merhametiyle aynı perikopta yer alır; metin tehdidin kendisini merhamet diye adlandırmaz veya iki tema arasındaki ilişkiyi nedensel biçimde açıklamaz.",
+    "Adın eylemleri yetkilendirdiği ya da belirgin bir çerçeve kurduğu yorumları, 96:1'deki bi-sm yinelemesi ve sonraki sıra düzenine dayanır; metin bu adın eylemlere neden olduğunu açıkça bildirmez."
+  ]
+}

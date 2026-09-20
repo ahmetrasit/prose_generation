@@ -1,0 +1,680 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "113:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_87ba93b7899407c77881",
+      "decision": "accept",
+      "reason": "Adlandırma ve Yaratıcıya özgü özel ad taşıyıcıları, 113:1'deki söyleme ve sığınma dizisiyle doğrudan temas ediyor; 113:4'ün ağızdan üfleme ve düğüm bağlamı bu söz edimini koruyucu bir başlangıç olarak çerçeveliyor.",
+      "finding_refs": [
+        "macro:named-refuge-speech"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4f56c181d4040e18761b",
+      "decision": "accept",
+      "reason": "Rahmetin etkin iyilik yönü ile döl yatağı dalının taşıma-kap imgesi, sığınma, yaratılmış hayat ve sonraki zarar dizisiyle sınırlı bir koruyucu bakım okuması kuruyor; döl yatağı anlamı mecazi ve bağlamla sınırlı tutuluyor.",
+      "finding_refs": [
+        "macro:shelter-for-emergent-life"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ae87a5962315c1620763",
+      "decision": "accept",
+      "reason": "İki rahmet biçiminin etkin iyilik ve kalıcı soy bağı dalları, 113:4'teki gerçek düğüm imgesi ile 113:5'teki nimetin giderilmesini isteyen haset arasında ayrı fakat bağlantılı bir ilişki kuruyor.",
+      "finding_refs": [
+        "macro:mercy-as-durable-bond"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8dc8d4e1de2b90774379",
+      "decision": "narrow",
+      "reason": "B005'in adlandırmayı ve adın belirginleşmesini açıklayan çekirdeği korunuyor; focus'taki اسم taşıyıcısı fiziksel/toplumsal yükselme dalı B001 ile uyumlu değil. Kaynak satırının reddedilmiş mekânsal alan iddiası da yalnızca sözde belirginlik olarak sınırlandırılıyor.",
+      "finding_refs": [
+        "macro:name-prominence-before-hidden-harm"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000745/B001",
+          "reason": "Focus yüzeyi اسم, yükselme eylemi değil adlandırmadır; B001 sınırı ad dalının sabit anlamlarını dışarıda bırakır."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6d48af31584e3c39154a",
+      "decision": "represented",
+      "reason": "Adlandırılmış başlangıcın 113:1'deki söyleme ve sığınma ile, ardından 113:4'teki zararlı ağız eylemleriyle kurduğu koruyucu söz ilişkisi macro:named-refuge-speech bulgusunda aynı anlamla taşınıyor.",
+      "finding_refs": [
+        "macro:named-refuge-speech"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_306955cafeba48badc1d",
+      "decision": "represented",
+      "reason": "Döl yatağı dalının yaratılmış hayat için kuşatan bir koruma imgesi olarak kullanılması, macro:shelter-for-emergent-life içinde aynı taşıyıcı, bağlam ve sınırlamayla yer alıyor.",
+      "finding_refs": [
+        "macro:shelter-for-emergent-life"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_de0c968c0d98270a70b1",
+      "decision": "reject",
+      "reason": "Adayın taşıyıcısı olarak gösterdiği B001 fiziksel/toplumsal yükselme, focus'taki اسم adlandırmasıyla uyuşmuyor. Seher, gece, oyuk ve düğüm imgeleri bu dalı ad için etkinleştiren bağımsız bir yükselme taşıyıcısı sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000745/B001",
+          "reason": "B001'in sınırı adlandırma dalını dışarıda bırakıyor; focus'ta fiziksel ya da toplumsal yükselme bildiren ayrı bir taşıyıcı yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "113:1",
+          "reason": "Seherin yarılması focus adını fiziksel yükselme anlamına dönüştürmüyor."
+        },
+        {
+          "context_ref": "113:3",
+          "reason": "Gece ve oyuk imgeleri bir karşıtlık kurabilir, fakat B001 için focus'ta uygun yükselme taşıyıcısı sağlamaz."
+        },
+        {
+          "context_ref": "113:4",
+          "reason": "Düğümler bir bağlanma imgesidir; focus'taki adlandırmayı B001 fiziksel yükselme anlamına taşımaz."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a820ff960712e169c759",
+      "decision": "accept",
+      "reason": "Rahmetin etkin iyilik dalı, 113:4'teki zararlı üfleme ve 113:5'teki nimetin giderilmesini isteyen hasetle temas ederek açılıştaki iyiliği tehdit altındaki bir nimet için koruyucu çerçeve olarak okuyor; söz ve haset boyutları birlikte taşınıyor.",
+      "finding_refs": [
+        "macro:merciful-shield-before-harm"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_60808adb65d6303b9122",
+      "decision": "represented",
+      "reason": "Adlandırmanın hemen ardından gelen söyleme ve sığınma dizisiyle koruyucu söz başlangıcına dönüşmesi macro:named-refuge-speech içinde aynı dal ve bağlamla yer alıyor.",
+      "finding_refs": [
+        "macro:named-refuge-speech"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9bbe8525b2eeeb75a5e4",
+      "decision": "accept",
+      "reason": "Rahmetin esirgeme ve iyilik etme çekirdeği, 113:1'deki sığınma, yetiştirme ve açılma imgeleriyle; ardından 113:2'deki yaratılmışlar anışıyla temas ediyor. Bu, döl yatağı dalını etkinleştirmeden de üretici ve gözetici bakım okumasını destekliyor.",
+      "finding_refs": [
+        "macro:generative-mercy"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1b2a634dd672d867b8b3",
+      "decision": "represented",
+      "reason": "Yakın soy bağı ile etkin iyiliğin, düğüm imgesi ve hasedin nimeti gidermeye yönelişi karşısında sürmekte olan bir bağ olarak okunması macro:mercy-as-durable-bond bulgusuyla aynı ilişkiyi taşıyor. Bulgu, 113:4'teki gerçek yüzeyi düğüm olarak kullanıyor; B006'nın yerel sözlük anlamı olarak okunmasına dayanmıyor.",
+      "finding_refs": [
+        "macro:mercy-as-durable-bond"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9f8c2daf2131903b66de",
+      "decision": "reject",
+      "reason": "Adayın belirleyici ara bağı 113:4 için ileri sürdüğü ع ق د/B017 boyunla sığınma imgesidir. Packet'teki yüzey, düğümler ifadesinde geçen العقد adıdır ve bu sığınma eylemini kurmuyor. 113:5 haset ve nimet ilişkisini sağlar, ancak bu başarısız ara bağı onarmıyor; adayın focus taşıyıcısı ve dal bağlantısı da kayıtlı değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "113:4",
+          "reason": "العقد yüzeyi düğümleri adlandırıyor; B017 boyunla sığınma eylemi bu token biçimiyle temellenmiyor."
+        },
+        {
+          "context_ref": "113:5",
+          "reason": "Haset nimetin giderilmesini ister, fakat tek başına adayın 113:4 üzerinden kurduğu döl yatağı-sığınma ara bağını doğrulamıyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:named-refuge-speech",
+      "origin_candidate_id": "cand_87ba93b7899407c77881",
+      "represented_candidate_ids": [
+        "cand_6d48af31584e3c39154a",
+        "cand_60808adb65d6303b9122"
+      ],
+      "title": "Adlandırılmış merhametle başlayan koruyucu söz",
+      "claim": "Basmaladaki Allah özel adı ve adlandırma, 113:1'deki قُلْ söyleme buyruğunun ve أَعُوذُ sığınma fiilinin hemen önünde yer alır; 113:4'te ağızdan üfleme ve düğümlerle gelen zarar, bu açılıştaki sözün koruyucu yönünü görünür kılar.",
+      "mechanism": "Focus'taki اسم adlandırmayı, الله ise Yaratıcıya özgü özel adı taşır. 113:1'in söyleme ve sığınma biçimleri bu iki taşıyıcıya bağımsız bir söz-edimi teması verir; 113:4'teki üfleme ve düğümler daha sonra ağız yoluyla işleyen zararı göstererek açılıştaki söyleyişin koruyucu işlevini belirginleştirir. Merhamet sıfatlarının etkin iyilik yönü bu sığınma çerçevesine bakım boyutu ekler.",
+      "reader_payoff": "Okur, açılış adlandırmasını sığınma sözünün başlangıcına ve daha sonra görünen zararlı ağız eylemlerine bağlayan bir koruma düzeni fark eder.",
+      "containment": "Bu, olağan adlandırma ve merhamet anlamlarına eklenen bağlamsal bir söz-edimi okumasıdır; büyülü karşı-söz, garantili koruma veya her ağız eyleminin zararlı olduğu iddiası değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Odaktaki ad ve özel ad ile 113:1 ve 113:4 yüzeyleri açıkça sağlanıyor; koruyucu yön ise iki legacy_unbound okuyucu kaydının da kurduğu bağlamsal çıkarımdır."
+      },
+      "support_ids": [
+        "sup_386a07037cdcaa24a486",
+        "sup_afb762f866d417f21f5f",
+        "sup_b3c65188f5eba3d82f04"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:4"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "بِسْمِ içindeki ٱسْمِ, bir varlığı tanıtan ve ondan söz etmeyi sağlayan adlandırmadır.",
+          "independent_trigger": "113:1'deki قُلْ söyleme buyruğu ve أَعُوذُ sığınma fiili; 113:4'teki نَّفَّٰثَٰتِ ve العُقَدِ yüzeyleri.",
+          "activation": "Adlandırma taşıyıcısı doğrudan söyleme ve sığınma dizisine bağlanır; sonraki ağızdan üfleme ve düğüm imgeleri açılış sözünün koruyucu yönünü ayrı bir karşılık içinde görünür kılar.",
+          "resulting_reading": "Basmaladaki ad, suredeki sığınma sözünün söylenişini başlatan ve zararlı ağız eylemleri karşısında koruyucu işlevi belirginleşen bir adlandırma olarak duyulur.",
+          "boundary": "Bu dal adlandırma ve belirgin söylenebilir adı taşır; fiziksel yükselme, büyülü formül veya her konuşmanın zararlı olduğu anlamını taşımaz."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:4"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "بِسْمِ اللَّهِ içindeki ٱللَّهِ, Yaratıcıya özgü özel addır.",
+          "independent_trigger": "113:1'de doğrudan söyleme buyruğunun sığınma ifadesine bağlanması; 113:4'te söz ve nefes yoluyla tasvir edilen zarar.",
+          "activation": "Özel ad taşıyıcısı, sure başındaki söyleme ve sığınma dizisine yerleşir; 113:4'ün zararlı ağız eylemi bu adla başlayan sözün koruyucu yönünü bağlam içinde belirginleştirir.",
+          "resulting_reading": "Açılış özel adı, sığınma sözünün yöneldiği bağlamı kuran ve koruyucu söz edimini belirginleştiren bir ad olarak duyulur.",
+          "boundary": "Bu okuma Yaratıcıya özgü özel adla sınırlıdır; genel bir tapınılan varlık adı, yemin kalıbı ya da özel adların her kullanımı hakkında hüküm değildir."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:4"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ ve الرَّحِيمِ merhamet sıfatları, esirgeyip iyilik etmeyi taşır.",
+          "independent_trigger": "113:1'de sığınma fiili; 113:4'te ağızdan üfleme ve düğümle anılan zarar.",
+          "activation": "Etkin iyilik dalı, korunma isteyen söz ve ileride açılan zarar imgeleriyle karşılaşır; böylece merhamet sıfatları sığınma edimine bakım yönü ekler.",
+          "resulting_reading": "Açılıştaki merhamet, sığınma ve zarardan korunma isteğine eşlik eden etkin iyilik olarak belirginleşir.",
+          "boundary": "Bu, koruma isteğine eklenen bir bakım vurgusudur; üflemenin büyülü biçimde etkisizleştirildiğini veya merhametin bir tılsım olduğunu söylemez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "113:1",
+        "113:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:shelter-for-emergent-life",
+      "origin_candidate_id": "cand_4f56c181d4040e18761b",
+      "represented_candidate_ids": [
+        "cand_306955cafeba48badc1d"
+      ],
+      "title": "Merhamet adları, açığa çıkan hayatı kuşatan bakım gibi duyulur",
+      "claim": "İki rahmet biçimi, 113:1'deki sığınma çağrısı ve 113:2'deki yaratılmışlar anışı arasında, ortaya çıkan hayatı taşıyan ve koruyan bakım olarak belirginleşir; izleyen gece, düğüm ve haset imgeleri bu hayatın kırılgan çevresini tamamlar.",
+      "mechanism": "Merhametin etkin iyilik dalı taşıyıcıdır; döl yatağı dalı ise yavrunun oluşup geliştiği ve taşındığı kap imgesini sağlar. Sığınma ve yaratılış sözleri bu imgeye bağımsız bir bağlam verir; 113:3–5'te gece, düğümlü zarar ve hasetle karşılaşması, kuşatma ve koruma ilişkisini belirginleştirir.",
+      "reader_payoff": "İki sıfat, yalnızca duygu bildiren adlar olarak değil, ortaya çıkan ve dış zarara açık hayatı kuşatan bir bakım imgesiyle birlikte algılanır.",
+      "containment": "Focus sözcükleri merhamet sıfatları olarak kalır; döl yatağı benzetmesi mecazidir ve surede gerçek gebelik, her yaratılmışın doğum anı ya da bütün zararların önlendiği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "B001 ve B003 odak dalları ile sığınma, yaratılış ve zarar bağlamları packet'te bulunuyor; yayın bulgusu weak dereceli, ek okuyucu kaydı legacy_unbound ve womb ilişkisi analojik."
+      },
+      "support_ids": [
+        "sup_9f094a04eb2b441493d5",
+        "sup_daf79c4f982a48051290"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:2",
+            "113:3",
+            "113:4",
+            "113:5"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ ve الرَّحِيمِ etkin esirgeme ve iyilik anlamını taşır.",
+          "independent_trigger": "113:1'de sığınma; 113:2'de yaratılmış olanların anılması; 113:3–5'te gece, düğümler ve haset yoluyla gelen tehlikeler.",
+          "activation": "Etkin bakım taşıyıcısı, yaratılmış hayatın sığınma isteğiyle ve daha sonra sıralanan zararlarla buluşur; merhamet, açığa çıkmış hayatın korunması olarak da okunur.",
+          "resulting_reading": "İki rahmet sıfatı, sığınma isteyen ve zarar karşısında kırılgan kalan yaratılmış hayat için etkin bakım olarak belirginleşir.",
+          "boundary": "Bu ilişki yaratılmış her şey hakkında kapsamlı bir koruma vaadi ya da ilahî eylemin nasıl gerçekleştiğine dair açıklama değildir."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:2",
+            "113:3",
+            "113:4",
+            "113:5"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "Rahmet sıfatlarının ر ح م kökü, packet'te döl yatağı dalına bağlanan iki odak biçiminde görünür; bu dal sözlük karşılığı olarak değil, taşıyıcı imge olarak kullanılır.",
+          "independent_trigger": "113:1'deki أَعُوذُ sığınma fiili, 113:2'deki خَلَقَ yaratılış sözü ve 113:3–5'te açılan zarar dizisi.",
+          "activation": "Taşıyan kap imgesi, sığınma ve yaratılış sözleriyle; ardından hayatı tehdit eden gece, düğüm ve haset bağlamıyla temas eder. Bu temas rahmet biçimlerine kuşatıcı bir koruma analojisi ekler.",
+          "resulting_reading": "Merhamet adları, ilk açığa çıkışında kırılgan olan yaratılmış hayatın çevresini tutan koruyucu bir kap imgesiyle duyulur.",
+          "boundary": "Focus biçimleri gerçek organı adlandırmaz; döl yatağı dalı yalnızca kuşatma ve taşıma için analojik bir imgedir. 113:1'deki ع و ذ/B003 postpartum-female okuması bu fiilin yerel anlamı olarak kullanılmıyor."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "113:1",
+        "113:2",
+        "113:3",
+        "113:4",
+        "113:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy-as-durable-bond",
+      "origin_candidate_id": "cand_ae87a5962315c1620763",
+      "represented_candidate_ids": [
+        "cand_1b2a634dd672d867b8b3"
+      ],
+      "title": "Merhamet tekrarında bakım ve kalıcı bağ",
+      "claim": "الرَّحْمَٰنِ ve الرَّحِيمِ adlarının ortak kökü, etkin iyilik ile yakın ve kalıcı bağ imgelerini yan yana taşır; 113:4'teki düğümler ve 113:5'te başkasının nimetine yönelen haset, bu açılış iyiliğini hem bağlanan hem koparılmak istenen bir ilişki olarak duyurur.",
+      "mechanism": "İki focus sözcüğü hem etkin esirgeme ve iyilik dalını hem de ortak soydan gelen kalıcı ilişki dalını taşır. 113:4'teki العقد yüzeyi somut bağlama imgesi, 113:5'teki haset ise başkasının nimetinin gitmesini isteyen ayrı bir tetikleyicidir; bu temas merhameti hem iyilik hem de tehdit altındaki süreklilik olarak görünür kılar.",
+      "reader_payoff": "Tekrarlanan iki sıfatın bakım ve ilişki işlevleri belirginleşir; düğüm ve haset dizisi, bu iyiliğin neden korunmaya açık bir bağ gibi duyulduğunu gösterir.",
+      "containment": "Yakın soy bağı ilahî adlara gerçek bir insan akrabalığı yüklemez; düğüm sözcüğünün yüzeydeki anlamı korunur ve hasedin iyiliği mutlaka kopardığı ya da merhamet bağının zararı önlediği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Odak dalları ve 113:4–5 yüzeyleri açık; published row weak dereceli, geniş okuyucu kaydı legacy_unbound. Bağ ve tehdit arasındaki yön, packet'ten hareketle kurulan bağlamsal çıkarımdır."
+      },
+      "support_ids": [
+        "sup_9642c5f938b2cbafb85b",
+        "sup_20fb91b0ae51f3b8fd15"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "113:5"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "İki rahmet sıfatının etkin iyilik ve esirgeme yönü.",
+          "independent_trigger": "113:5'te ح س د kökünün packet'te verilen, başkasının nimetinin gitmesini isteme dalı.",
+          "activation": "İyilik taşıyıcısı, başka birinin sahip olduğu nimeti hedefleyen hasetle karşılaşır; bu, açılıştaki bakımın korunmaya açık bir iyilik olduğunu gösterir.",
+          "resulting_reading": "Rahmet adları, sonradan hasedin hedef tuttuğu nimetin iyiliğini etkin biçimde esirgeme olarak duyulur.",
+          "boundary": "Bu ilişki hasedin mutlaka başarılı olduğunu veya merhametin sonucu garanti ettiğini ileri sürmez."
+        },
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "113:4",
+            "113:5"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "ر ح م dalının ortak kaynaktan gelen yakın ve kalıcı ilişki anlamı.",
+          "independent_trigger": "113:4'teki العقد düğümleri somut bir bağlama imgesi sunar; 113:5'te haset bir başkasının nimetinin gitmesini ister.",
+          "activation": "Kalıcı bağ taşıyıcısı, düğüm imgesinin bağlama temasıyla ve bu iyiliği koparmak isteyen hasetle karşılaşır; böylece açılış rahmeti bir ilişkiyi ve o ilişkinin tehdit altındaki iyiliğini birlikte düşündürür.",
+          "resulting_reading": "İki rahmet adı, etkin iyiliğin yanı sıra koparılmak istenen fakat açılışta sürdürülen yakın bir bağ imgesini taşır.",
+          "boundary": "Bu kök bağı analojiktir; ilahî adlar arasında biyolojik soy ilişkisi, 113:4'te yerel B006 anlamı olarak kalp/irade sağlamlığı veya kötülüğün önlendiği sonucu ileri sürülmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "113:4",
+        "113:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:name-prominence-before-hidden-harm",
+      "origin_candidate_id": "cand_8dc8d4e1de2b90774379",
+      "represented_candidate_ids": [],
+      "title": "Adlandırma, gizlenen zararlar önünde belirginleşir",
+      "claim": "بِسْمِ içindeki اسم, adı söylenebilir ve tanınabilir kılan adlandırmadır; 113:3'te karanlığın çöken ve içeri giren, 113:4'te düğümlere bağlanan zararlar karşısında bu açılış adı, gizli olana karşı açıkça anılan bir dayanak gibi belirginleşir.",
+      "mechanism": "B005'in F005 kaynak varyantı, adın anılmasının adı verilen şeyi yükseltip belirgin kılmasıyla açıklandığını kaydeder. Bu adlandırma taşıyıcısı, gece ve oyukta kaybolma ile düğüm imgesinin ayrı bağlam tetikleyicileriyle buluştuğunda, focus'ta fiziksel yükselme değil söz içindeki belirginlik okuması oluşur.",
+      "reader_payoff": "Okur, sure gizli ve içeri giren zararları anlatmadan önce açılışta açıkça söylenen adı bir yön bulma noktası olarak fark eder.",
+      "containment": "Adın olağan adlandırma anlamı korunur; yalnızca söz içindeki belirginlik eklenir. Fiziksel olarak yukarı yükselen bir alan, karanlığın yok edilmesi veya zararların etkisiz kalması iddiası yoktur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Destek kaydı trusted olsa da satırın önceki grade'i reject ve özgün mekânsal iddia B001 ile form bakımından uyuşmuyor. Yalnızca packet'teki B005 F005 kaynak varyantı ve gizli zarar bağlamı üzerinden daha dar belirginlik ilişkisi tutuluyor."
+      },
+      "support_ids": [
+        "sup_bce2fd50d5bc995ec2df"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "113:3",
+            "113:4"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "بِسْمِ içindeki اسم, bir varlığı tanıtan ve ondan söz etmeyi sağlayan adlandırmadır.",
+          "independent_trigger": "113:3'te gecenin bir oyuğa girip kaybolması ve 113:4'te düğümlere bağlanan zarar.",
+          "activation": "Adlandırma, gizli ve içeri giren zarar imgelerinden önce dile gelir; bu sıralama adı söz içinde belirgin bir yön noktası yapar.",
+          "resulting_reading": "Açılıştaki ad, suredeki gizli zararların karşısında açıkça anılan bir dayanak olarak belirginleşir.",
+          "boundary": "Buradaki belirginlik söz içindedir; focus sözcüğüne fiziksel yükselme anlamı yüklenmez."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "113:3",
+            "113:4"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "Focus'taki اسم adlandırma taşıyıcısıdır; F005 yalnızca adın anılmasıyla belirginleşme arasındaki kaynak açıklamasını sağlar.",
+          "independent_trigger": "113:3'ün gece ve oyuk imgeleri ile 113:4'ün düğüm imgesi, gizlenme ve kapanma yönlerini açar.",
+          "activation": "Kaynak varyantındaki belirginleşme, suredeki gizli ve kapalı zarar imgeleriyle karşılaştırmalı temas kurar; bu, adın açılışta öne çıkmasını bağlamsal olarak görünür kılar.",
+          "resulting_reading": "Adın söylenişi, sonraki gizli zararların önünde açık bir adlandırma ve belirginlik kazanır.",
+          "boundary": "Bu yalnızca kaynakta kayıtlı adlandırma açıklamasının sınırlı bir yankısıdır; fiziksel yükselme dalı B001'e geçiş veya sözlükte ayrı bir yeni anlam değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "113:3",
+        "113:4"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:merciful-shield-before-harm",
+      "origin_candidate_id": "cand_a820ff960712e169c759",
+      "represented_candidate_ids": [],
+      "title": "Merhamet, üflenen zarar ve haset karşısında korunan iyilik",
+      "claim": "Açılıştaki adlandırmaya eşlik eden iki rahmet biçimi, 113:4'te ağızdan üfleme ve düğümlerle, 113:5'te ise hasedin nimeti gidermeye yönelişiyle karşılaşır; böylece merhamet, tehditler açığa çıkmadan önce korunmaya değer iyiliği kuşatan bir başlangıç olarak okunur.",
+      "mechanism": "Rahmetin etkin iyilik dalı odak taşıyıcısıdır; 113:4'te nefes ve düğümlerle, 113:5'te nimet kaybını isteyen hasetle karşılaşır. 113:1'deki söyleme buyruğu ve sığınma fiili, focus'un adlandırma ve özel ad dallarına ayrıca söz-edimi teması verir. İki temas birleşince basmala hem söylenen bir sığınma başlangıcı hem de hedef alınabilecek iyiliği kuşatan bir çerçeve gibi duyulur.",
+      "reader_payoff": "Okur, açılıştaki söz ile merhamet adlarının ileride beliren iki farklı tehdit türü karşısında nasıl koruyucu bir başlangıç kurduğunu görür.",
+      "containment": "Bu, açılışın olağan özel ad ve merhamet anlamlarını koruyan geriye dönük bir bağlamsal okumasıdır; büyülü etki, kötülüğün yenildiği veya nimetlerin mutlaka korunduğu iddiası değildir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Tek kaynak legacy_unbound bir retrospective okuyucu kaydıdır; ancak odak taşıyıcıları ve 113:1, 113:4–5 bağlamları packet'te doğrudan bulunuyor. Sözel koruma ve nimetin korunması arasındaki sentez çıkarımsaldır."
+      },
+      "support_ids": [
+        "sup_5e2e1b9bba87954fa2dc"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "113:4",
+            "113:5"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ ve الرَّحِيمِ etkin esirgeme ve iyilik anlamını taşır.",
+          "independent_trigger": "113:4'teki ağızdan üfleme ve düğümler ile 113:5'te hasedin başkasının nimetine yönelmesi.",
+          "activation": "Merhametin etkin iyilik anlamı, iki ayrı zarar kipinin yanında görünür; focus'taki tekrar böylece tehdit altındaki nimete dönük bir bakım imgesiyle temas eder.",
+          "resulting_reading": "İki rahmet adı, sonradan üfleme ve hasetle tehdit edilen iyiliği kuşatan bir koruma çerçevesi gibi duyulur.",
+          "boundary": "Bu dal bir korunma isteğini taşır; zararın fiilen önlendiğini veya merhametin tılsım olduğunu kanıtlamaz."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:1:2"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:4"
+          ],
+          "focus_return_refs": [
+            "1:1:1:2"
+          ],
+          "carrier": "Focus'taki ٱسْمِ, adı anılabilir kılan adlandırmadır.",
+          "independent_trigger": "113:1'deki söyleme ve sığınma fiilleri; 113:4'teki üfleme ve düğüm yüzeyi.",
+          "activation": "Başlangıçtaki adlandırma sözlü sığınma sırasına girer ve daha sonra görülen zararlı ağız eylemiyle karşılaşınca koruyucu çerçeveye katılır.",
+          "resulting_reading": "Adlandırma, korunan iyiliği önceleyen sözlü başlangıç olarak belirginleşir.",
+          "boundary": "Adlandırmanın sözlü kullanımı okunur; fiziksel yükselme veya büyülü karşı-söz anlamı yüklenmez."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:2:1"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:4"
+          ],
+          "focus_return_refs": [
+            "1:1:2:1"
+          ],
+          "carrier": "Focus'taki الله, Yaratıcıya özgü özel addır.",
+          "independent_trigger": "113:1'de açık söz ve sığınma eylemi ile 113:4'teki zararlı ağız eylemi.",
+          "activation": "Özel adın açılışta yer alması, söyleme ve sığınma dizisiyle temasa geçer; sonraki ağız zararı bu başlangıcın koruma yönünü belirginleştirir.",
+          "resulting_reading": "Özel ad, tehditler açılmadan önceki sığınma sözünün belirgin odağı olur.",
+          "boundary": "İlave bir adlandırma ilişkisi kuruluyor; suredeki ربّ ifadesinin الله ile özdeşliği hakkında packet dışı bir önerme ileri sürülmüyor."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "113:1",
+        "113:4",
+        "113:5"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:generative-mercy",
+      "origin_candidate_id": "cand_9bbe8525b2eeeb75a5e4",
+      "represented_candidate_ids": [],
+      "title": "Merhamet, sığınma ve açığa çıkışa eşlik eden etkin bakım",
+      "claim": "Basmaladaki iki rahmet sıfatı, 113:1'deki sığınma, Rabbin yetiştirme imgesi ve seherin açılmasıyla; 113:2'deki yaratılmışların anılışına geçmeden önce hayatı doğuran ve gözeten etkin iyilik olarak da duyulur.",
+      "mechanism": "Focus'taki rahmet dalının esirgeme ve iyilik sonucu, context'te Rabbin yetiştirme ve seherin açılması imgeleriyle buluşur; ardından yaratılmışların anılması bu bakımın yöneldiği canlı alanı gösterir. Bu sıra merhameti yalnızca bir nitelik olarak bırakmayıp ortaya çıkışı ve korunmayı birlikte düşündüren bir ilişki kurar.",
+      "reader_payoff": "Okur, surenin daha ilk sığınma cümlesinde merhameti hem koruyan hem ortaya çıkan hayata eşlik eden etkin bir bakım olarak algılar.",
+      "containment": "Rahmet sıfatlarının olağan anlamı korunur; döl yatağı dalı literal anlam olarak alınmaz, Rab ve seher imgeleri de focus sözcüklerinin sözlük karşılığı yapılmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Yetiştirme, sığınma, seher ve yaratılış bağlamları packet'te mevcut; bunların rahmetin üretici bakım yönünü açtığı iddiası legacy_unbound kaynakla gelen bağlamsal çıkarımdır."
+      },
+      "support_ids": [
+        "sup_7e96cc7c82aa71218afe"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "trigger_refs": [
+            "113:1",
+            "113:2"
+          ],
+          "focus_return_refs": [
+            "1:1:3:2",
+            "1:1:4:2"
+          ],
+          "carrier": "İki rahmet biçiminin esirgeme ve iyilikle sonuçlanan etkin yönü.",
+          "independent_trigger": "113:1'deki أَعُوذُ sığınma fiili, رَبِّ için packet'te verilen yetiştirme imgesi ve ٱلْفَلَقِ için verilen açılma/yarılma imgeleri; 113:2'de yaratılmışların anılması.",
+          "activation": "Etkin bakım taşıyıcısı, sığınma ve yetiştirme bağlamıyla ve seherin açığa çıkış imgesiyle temas eder; yaratılmışların hemen ardından anılması bakımın yöneldiği alanı belirginleştirir.",
+          "resulting_reading": "Merhamet, açığa çıkan ve korunmaya açık hayatı yetiştirip esirgeyen etkin bakım olarak duyulur.",
+          "boundary": "Bu bağlam döl yatağı anlamını focus'a taşımaz ve bütün yaratılışın belirli bir biçimde korunduğu iddiasını kurmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "113:1",
+        "113:2"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment beş analiz sözcüğünün tümünü çözmüş ve unresolved kayıt vermemiştir. Buna karşılık context üyeleri kök oluşumlarını word_indices ile verir, context QAC word ref sağlamaz; bu nedenle trigger_refs ayah düzeyindedir ve ilgili token/index activation açıklamasında belirtilmiştir.",
+    "Packet'te HFT payload'ı ve atanmış HFT kaydı yoktur; 12 adayın hiçbirinde semantic_obligations alanı da yoktur. Bu nedenle HFT trace rolleri veya obligation ref'leri uydurulmamış; legacy_unbound reader-walk katkıları doğrudan kabul/reddetme ölçütü değil, epistemik sınırlama olarak kullanılmıştır.",
+    "Womb-shelter desteği 113:1 için ع و ذ/B003 postpartum-female imgesini anıyor; supplied surface أَعُوذُ birinci tekil kişi fiilidir. Bu cue yerel okuma olarak taşınmıyor; kuşatma analojisi focus'taki ر ح م/B003 dalı ile bağımsız sığınma, yaratılış ve zarar dizisine dayandırılıyor.",
+    "Geniş bağ desteği 113:4'te ع ق د/B006 sağlamlık dalını, retrospektif destek ise B017 boyunla sığınma imgesini kullanıyor. Yerel yüzey العقد düğümlerdir; kabul edilen bağ ilişkisi somut düğüm imgesine dayanıyor, B006'yı yerel anlam saymıyor ve B017'ye dayalı aday reddediliyor.",
+    "Adın yükseltilmesi hakkındaki trusted yayın satırı grade=reject olarak gelmiştir. Özgün fiziksel/mekânsal karşılık taşınmamış; yalnızca focus biçimiyle uyumlu B005/F005 kaynak varyantının sınırlı sözsel belirginlik okuması tutulmuştur."
+  ]
+}
