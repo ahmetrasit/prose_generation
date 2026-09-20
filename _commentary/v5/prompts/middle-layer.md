@@ -216,6 +216,11 @@ Make the prose shorter through composition:
   preserving what differs among them;
 - omit verbal padding, not semantic operations.
 
+Do not merely shorten each source paragraph in place. Synthesis means that a
+shared premise is stated once, contributions from different source paragraphs
+are made to interact in one intelligible development, and their paragraph
+references appear beside the particular claims they supply.
+
 Do not create one sentence or paragraph per ledger unit. Conversely, do not
 hide many units beneath a broad thematic label, an inventory of nouns, or an
 unexplained conclusion. If a sentence becomes too dense for the separate
@@ -226,6 +231,35 @@ Each paragraph must advance the reading. Avoid restarting an established
 point, re-explaining the same ordinary meaning, announcing what the next
 paragraph will say, or adding a closing recap. End by completing the last
 consequential movement.
+
+## Reader trace-clue contract
+
+Every output paragraph must give the reader enough semantic clues to decide
+whether to open its cited editorial paragraphs for more detail. A citation by
+itself is not a clue.
+
+At the paragraph's beginning, make the object of attention recoverable without
+requiring the reader to reconstruct a vague pronoun such as “bu”, “böylece”, or
+“aynı imge” from a distant passage. Across the paragraph, make these elements
+visible whenever the source supplies them:
+
+- the relevant Arabic carrier, expression, contextual ayah, or concrete image;
+- the independent trigger or comparison that activates the reading;
+- the operative contact or mechanism, not only a shared topic;
+- what this changes, clarifies, complicates, or leaves open in the ayah;
+- the concrete detail that distinguishes this movement from its neighbours;
+- the qualification, uncertainty, live alternative, or stopping boundary.
+
+These elements need not appear as a formula or in one sentence. They must form
+a short, natural Turkish explanation with one dominant movement. A reader
+should be able to summarize why each cited source paragraph matters before
+opening it. If the paragraph offers only a theme, a conclusion, or a list of
+images, revise it.
+
+Prefer a small number of well-shaped sentences over one overloaded sentence.
+When several sources contribute parallel examples, state their common work
+once and name the discriminating detail of each. When they contribute different
+steps, let the paragraph show what the next step adds or changes.
 
 ## Source-paragraph citation contract
 
@@ -266,6 +300,11 @@ explanation and do not count as semantic landings.
   resonance.
 - Preserve truth conditions, agency, referents, sequence, negation, modality,
   confidence, and scope.
+- Preserve polarity morpheme by morpheme. A source statement such as “cannot
+  be inferred,” “does not establish,” or “is not necessary” must not become
+  “can be inferred,” “establishes,” or “is necessary” through shortening,
+  suffix loss, or sentence fusion. The same applies to possibility,
+  attribution, comparison, and conditionality.
 - Keep uncertainty and live alternatives visible without resolving or ranking
   them unless the source does so.
 - Retain every concrete detail that distinguishes one unit from another.
@@ -292,14 +331,18 @@ Write the reader prose first, then write one valid UTF-8 JSON object to
 
 ```json
 {
-  "schema_version": "commentary-v5-middle-claim-ledger-v1",
+  "schema_version": "commentary-v5-middle-claim-ledger-v2",
   "ayah_ref": "@@AYAH_REF@@",
   "source_paragraph_count": 0,
   "output_paragraph_count": 0,
   "metrics": {
     "source_word_count": 0,
     "output_word_count": 0,
-    "retained_word_ratio": 0.0
+    "retained_word_ratio": 0.0,
+    "multi_source_output_paragraphs": 0,
+    "single_source_output_paragraphs": 0,
+    "same_position_singleton_paragraphs": 0,
+    "output_to_source_paragraph_ratio": 0.0
   },
   "source_paragraphs": [
     {
@@ -310,12 +353,25 @@ Write the reader prose first, then write one valid UTF-8 JSON object to
       "note": null
     }
   ],
+  "synthesis_clusters": [
+    {
+      "cluster_ref": "c001",
+      "movement_tr": "Okurun izlediği baskın soru veya anlam hareketi",
+      "unit_refs": ["p001.u01"],
+      "source_paragraphs": [1],
+      "output_paragraphs": [1],
+      "kind": "standalone",
+      "why_together_or_apart_tr": "Neden bu birimler birlikte işlendi veya neden tek başına kaldı"
+    }
+  ],
   "semantic_units": [
     {
       "unit_ref": "p001.u01",
       "source_paragraph": 1,
       "unit_order_in_paragraph": 1,
+      "source_anchor": "Olumsuzluk veya kiplik dahil kısa tam alıntı",
       "assertion_tr": "Eksiksiz ve sadık Türkçe önerme",
+      "truth_status": "asserted",
       "role": "branch_contribution",
       "carrier": null,
       "trigger_or_context": null,
@@ -342,8 +398,13 @@ Write the reader prose first, then write one valid UTF-8 JSON object to
     "unassessed_source_paragraphs": [],
     "uncited_source_paragraphs": [],
     "unlanded_unit_refs": [],
+    "unclustered_unit_refs": [],
     "units_with_nonunique_anchors": [],
     "unresolved_deduplication_questions": [],
+    "unmerged_overlap_groups": [],
+    "source_mirroring_findings": [],
+    "polarity_or_modality_mismatches": [],
+    "reader_paragraphs_without_detail_clues": [],
     "notes": []
   }
 }
@@ -360,9 +421,23 @@ Use these ledger rules:
   paragraph may have no unit rows, but it names the exact earlier or later
   units it restates. Both non-substantive dispositions explain the
   classification in `note`.
+- `synthesis_clusters` contains every semantic unit exactly once. Use `kind`
+  `synthesis` when a cluster draws substantive contributions from more than one
+  source paragraph and `standalone` when it does not. A standalone cluster must
+  give a concrete semantic reason in `why_together_or_apart_tr`; “separate
+  source paragraph” and “different topic” are not sufficient reasons.
+- `movement_tr` is one concise sentence identifying the reader-facing movement,
+  not a list of its units. Cluster fields are planning accountability, not a
+  second commentary.
 - `semantic_units` contains every extracted unit in source order. Do not omit a
   duplicate unit; mark it `exact_duplicate` and point
   `canonical_unit_ref` to the canonical occurrence.
+- `source_anchor` is a short exact phrase from the numbered source paragraph.
+  It must contain the word or suffix that controls negation, modality,
+  attribution, conditionality, or restriction when one is present.
+- `truth_status` is a short controlled description such as `asserted`,
+  `negated`, `possible`, `conditional`, `attributed`, or `live_alternative`;
+  combine labels only when the source genuinely combines them.
 - Recommended `role` values are `foreground`, `lexical_branch`,
   `contextual_trigger`, `mechanism`, `branch_contribution`,
   `composite_interaction`, `changed_reading`, `concrete_detail`,
@@ -381,6 +456,17 @@ Use these ledger rules:
 - Compute `metrics` using whitespace-delimited words in the complete source and
   reader-prose files. The ratio is diagnostic, not a quota and not evidence of
   completeness.
+- Derive the structural metrics from non-heading output prose paragraphs.
+  `multi_source_output_paragraphs` counts paragraphs whose valid citations name
+  more than one distinct source paragraph. `same_position_singleton_paragraphs`
+  counts output paragraph N when its citations name only source paragraph N.
+  `output_to_source_paragraph_ratio` is output paragraph count divided by
+  source paragraph count. These metrics diagnose source mirroring; they never
+  authorize unrelated mergers.
+- Keep the ledger compact. Write `assertion_tr` as one complete concise
+  proposition, `relation.rationale` as one discriminating clause, and anchors
+  as the shortest unique substantive clause. Do not paste whole source or
+  output paragraphs and do not repeat identical explanations across fields.
 - All problem arrays in `audit` must be empty before completion. `notes` may
   document preserved source tensions or other nonblocking facts. If a
   deduplication question remains unresolved, classify the units as distinct
@@ -400,6 +486,23 @@ unit or is demonstrably an exact duplicate. For every semantic unit, locate the
 exact prose anchor and verify that the anchor retains its carrier, mechanism,
 effect, details, and limit rather than only its general topic.
 
+Then perform three separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone cluster has a real semantic reason. Compute the structural
+   metrics and investigate any near one-to-one source/output pattern.
+2. **Truth-condition pass:** compare each unit's `source_anchor`,
+   `truth_status`, and prose landing word by word for negation, possibility,
+   attribution, conditionality, agency, referent, and scope. Do not infer that
+   fluent prose has preserved polarity; verify the actual Turkish suffixes and
+   auxiliaries.
+3. **Reader-clue pass:** read only the finished prose and citations, without the
+   ledger. For each paragraph, verify that a reader can identify the carrier or
+   image under discussion, why the cited sources are relevant, what changes in
+   the ayah reading, and where the claim stops. Record and repair any paragraph
+   that requires the ledger to answer those questions.
+
 Specifically reject the draft if any of the following is true:
 
 - a source paragraph is cited but one of its units has no landing;
@@ -408,13 +511,18 @@ Specifically reject the draft if any of the following is true:
 - a concrete example or image has been replaced by a general category;
 - a qualification or live alternative has become implicit;
 - different modalities or scopes have been equalized;
+- a negative, possibility, attribution, or condition has changed polarity;
 - an output anchor is too vague to prove the unit assigned to it;
+- compatible source movements remain as same-position singleton paragraphs
+  merely because they were separate in the source;
+- an output paragraph lacks enough discriminating clues to guide the reader
+  into its cited source paragraphs;
 - shortening depends on removing content rather than repeated expression.
 
 Revise until the prose is both materially easier to read and semantically
 complete. Do not describe it as “lossless” merely because every source
 paragraph is cited; that conclusion is warranted only when every atomic unit
-has a valid substantive landing and every audit array is empty.
+has a valid substantive landing and every problem audit array is empty.
 
 ## Mechanical validation
 
