@@ -1,0 +1,165 @@
+# V5 reading invitation — 109:0
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s109-basmala-full/s109/109_0/109_0.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s109-basmala-full/s109/109_0/109_0.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Adla Başlayan İlişki
+
+Besmele'nin olağan açılışı {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bi-smi llāhi r-raḥmāni r-raḥīmi, gloss:Rahmân ve Rahîm olan Allah'ın adıyla} diye duyulur: Allah'ın adı anılır, ardından aynı ada bağlı iki rahmet niteliği gelir. İlk edat {ar:بِ, tr:bi, gloss:ile / aracılığıyla}, hemen arkasındaki {ar:ٱسْمِ, tr:ismi, gloss:ad} sözcüğünü yönetir; daha ilk seste tamamlanmış bir fiil bildirimi değil, adı bekleyen bir ilişki kurulur. Bâ'nın araç, yer, eşlik ve bağlanma çağrışımları, yönetilen ad ve devamındaki tamlamanın kurduğu tek adlı başlangıç ilişkisine katılır; Türkçede biri seçilse de dört ayrı önerme oluşmaz. Açık bir fiil bulunmadığından {ar:بِسْمِ, tr:bi-smi, gloss:Allah'ın adıyla} o andaki başlama, tilavet ya da dua eylemini söylemeden ad üzerinden yöneltir; formül tamamlanmış bir bildirimden çok yöneltilmiş bir başlangıç gibi yaşanır ve örtük eylem bu açılış ilişkisi içinde kalır.
+
+Bu adın sözdizimindeki yeri de açılış bağını taşır: {ar:بِ, tr:bi, gloss:ile} onu soldan yönetir, sağında {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} tamlayanı olarak kurulur. Bu özel ad, Yaratıcı'yı başkalarından ayıran ve yalnız ona özgü belirli referansı verir. Böylece {ar:ٱسْمِ, tr:ismi, gloss:ad} bağımsız bir etiket değil, başlangıcı Allah'ın adına taşıyan ara halkadır ve sonraki niteliklere geçişi açar. Adın kökenine dair aktarılan sözlük açıklaması, adı anmayı anılanı yükseltip belirginleştiren bir etkiyle ilişkilendirir; Allah özel adıyla temasında bu katkı, adı verilmiş referansın öne çıkmasıdır. Bu kaynaklı etki olağan adlandırma anlamını sürdürürken özel adın belirginliğini artırır.
+
+Bu formül görünür biçimde {ar:ٱسْمِ, tr:ismi, gloss:ad} sözcüğünün soyut adlandırma anlamını seçer: bir varlığı tanıtıp ondan söz etmeyi sağlayan söz ya da anlam. Aynı sözlük alanındaki gök ve örtü kullanımları bu besmele bağlantısında karşılaştırma düzeyinde kalır; onları etkinleştiren ayrı bir sözcük yoktur. Bu nedenle köken açıklamasındaki “yükseltme” burada fiziksel bir hareket değil, adı verilmiş referansın belirginleşmesidir. Raporlanan alternatif köken yönlendirmesi de bu karşılaştırmayı keskinleştirir; odaktaki biçim adlandırma işlevinde kalır ve ikinci bir köken ya da anlamı açılışa taşımaz.
+
+Bu adlandırma ilişkisi başka iki başlangıç sahnesiyle de temas eder. Süleyman'dan geldiği belirtilen sözün içinde tam {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bi-smi llāhi r-raḥmāni r-raḥīmi, gloss:Rahmân ve Rahîm olan Allah'ın adıyla} dizisi yer alır (27:30). Gemiye binme buyruğuna {ar:بِسْمِ ٱللَّهِ, tr:bi-smi llāhi, gloss:Allah'ın adıyla} eşlik eder; aynı bağlamda seyir ve demirleme de anılır (11:41). İlk bağlam tam formülü bir sözün içinde duyurur (27:30), ikincisi Allah'ın adını yolculuk eylemlerinin yanında getirir (11:41). Bu iki ayrı kullanımın ortak adı, odaktaki “Allah'ın adıyla” açılışını hem söze hem yolculuğa eşlik eden bir başlangıç olarak düşündürür (27:30, 11:41); sahnelerin eylemleri birbirine dönüşmeden, odaktaki olağan adlandırma anlamı yerinde kalır.
+
+## Adın Bağladığı Nitelikler
+
+Formülün iç tamlamasına döndüğümüzde {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın}, belirli ilahî özel ad olarak önceki {ar:ٱسْمِ, tr:ismi, gloss:ad} ile referansını bulur. Ardından gelen {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:ٱلرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, bu tek ada bağlı iki belirli genitif sıfattır. İ‘rab bağı merhameti aynı referansa yükler; okur önce adı konanı, sonra niteleneni görür. Böylece Allah adı belirli ilahî referans olarak kalır; bu genitif zincir onu genel bir ilah sınıfına genişletmez ve söylenmemiş bir fiilin öznesi olarak kurmaz. Ses akışında Allah adı isim tamlamasını tamamlayıp iki niteliğe geçiş yapan yoğun bir orta halka gibi duyulur. Bu ses sıkılığı besmele formülünün kendi akışına aittir; sonraki hamd sözüne uzanan bir tekrar için seçili bağlam bulunmadığından burada ad, formülün iki niteliğe açılan geçiş halkası olarak kalır.
+
+Adın bu başlangıç ilişkisine yerleşmesi, ona ibadet yönelimli bir odak da kazandırır. Sözlükteki eylem kullanımı kişinin kendini ibadete vermesini anlatır; aynı anlam alanından türeyen ad kullanımı da tapınılan varlığı ya da ibadet nesnesini gösterebilir. {ar:بِسْمِ, tr:bi-smi, gloss:Allah'ın adıyla} ile açılan, söylenmeden bırakılmış başlama, tilavet ya da dua eylemi {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} adıyla taşınan mabut referansına yönelince bu başlangıç ibadet doğrultusu kazanır. Bu bağlantıda Allah özel adı ibadet odağı olurken özel ad olarak kalır; eylem örtük kalır, söyleniş bir nida ya da yemin biçimi almaz ve kesin bir özlem duygusu yüklenmez.
+
+## İki Rahmet Sıfatının İşleyişi
+
+İlk belirli genitif {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} doğrudan {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} adını niteler. Aktarılan i‘rab seçenekleri Rahmân'ın haber ya da mef‘ul gibi başka işlevlerde de kurulabileceğini gösterir; burada görünen cerli biçim ise sıfat bağını koruyup merhameti adı verilmiş referansa yükler. Alternatifler başka bir çözümleme olasılığını duyururken bu tamlamada Rahmân, Allah'ın niteliği olarak belirir.
+
+Bu ilk sıfat {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} geniş bir rahmet alanı açar. Sözlükteki merhamet kullanımı, acınanı esirgemeyi ve ona iyilik etmeyi gerektiren etkin bir yöneliştir; Rahmân bu yönelişi taşır. Allah özel adının {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} belirlediği ilahî kullanımda esirgeme ve iyilik yaratılmışlara ulaşan bir genişlik olarak görünür. Hemen ardından aynı kökü başka kalıpta taşıyan {ar:ٱلرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} gelir; farklı biçimi etkin iyiliğin bu geniş alandaki işleyişini sürdürür ve ilk niteliği düz eşanlamlı bir tekrara indirmez. Bu genişlik erişimin niteliğini anlatır, nicel bir ölçü ya da üstünlük sırası kurmaz. Belirlilik, ortak kökün ses tekrarı ve ezgi, Rahmân'ı anlam farkı çözülmeden önce bağlı çiftin ilk üyesi gibi işittirir; iki biçim işitsel olarak bağlanırken ayrı niteliklerini korur.
+
+İşitsel olarak çift halinde duyulan {ar:ٱلرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} biçimi, bağımsız bir sözlük imgesine de temas eder. Aynı kök ve ses alanındaki “rahim” sözü döl yatağını anlatır: dişi bedende yavrunun oluşup geliştiği ve karın içinde taşındığı iç kap. Bu taşıma ve koruma görüntüsü, ikinci ve farklı kalıptaki sıfatın merhameti kuşatan bakım gibi renklendirmesine katkıda bulunur. Bu temas analojik bir bağlantıdır; Rahîm {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} adına bağlı rahmet niteliği olarak kalır, sözlükteki görüntü gerçek bir organı, bedeni ya da anneliği bildirmez.
+
+Genitif zincirin sonundaki {ar:ٱلرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} adına bağlı ikinci belirli sıfat olarak çifti tamamlar. Aynı merhamet kökünün başka kalıbındaki bu son biçim, önceki geniş {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} niteliğini yerinde tutarak merhametin süreğen, işleyen etkisini duyurur; Rahmân'ın genişliği sürerken Rahîm'in etkinliği bu niteliği işler halde sürdürür. Bu biçim farkı, Rahîm'e özgü tek bir anlam dayatmadan aynı ada bağlı iki niteliğin ilişkisini gösterir. Ritmik eşleşme son sözcüğü besmele formülünün işitsel mührü yapar. Son biçim için aktarılan durak ve i‘rab seçenekleri tilavet ile sözdiziminde başka sınırlar düşündürür; odakta görünen cer ise bu yerel zinciri kapatır. Bu kapanışın hamd sözüne taşındığını gösterecek bağlam bulunmadığından, burada son biçim çiftin ses ve anlam mührüdür.
+
+## Bu Açılışın Sûrede Duyuluşu
+
+Adın formülde kurduğu çerçevenin hemen ardından {ar:قُلْ, tr:qul, gloss:söyle} buyruğu gelir (109:1). Adın adı verileni yükseltip belirginleştirdiğine ilişkin kaynak açıklaması, {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} özel adının bu buyruktan önce duyulmasıyla temas eder (109:1): yaklaşan ret, adı önceden verilmiş bir otorite çerçevesinden çıkan ve o referansa yönelen bildiri gibi işitilebilir. Bu bağlam etkisinin katkısı, besmelenin ad anarak başlama işlevini korurken sıradaki reddi adı verilmiş referansın çerçevesinde duyurmaktır (109:1). Bu bağlantıda {ar:ٱسْمِ, tr:ismi, gloss:ad} “hedef” ya da “otorite” anlamı almaz; buyruk da Allah'ı dilbilgisel olarak kaynak ya da hedef diye işaretlemez (109:1).
+
+Aynı âyette muhatapları adlandıran {ar:كَٰفِرُونَ, tr:kāfirūn, gloss:inkârcılar} sözcüğünün ayrı bir kullanımında nimeti örtme anlamı vardır (109:1). Besmelenin {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:ٱلرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} adlarındaki esirgeme ve etkin iyilik, ilahî kullanımda yaratılmışlara ulaşan genişliğiyle bu örtme çağrışımına temas eder (109:1). Bu karşılaşma açılıştaki iyiliği örtülebilecek bir nimet, hitabı da muhatapların ona karşı alabileceği olası bir tutum gibi duyurur (109:1). Olasılık yalnızca bu yakınlığa dayanır: sûre belirli bir merhametin reddedildiğini ya da belirli bir nimetin örtüldüğünü söylemez (109:1); bu okuma iki sözcüğün temasıyla sınırlı kalırken açılıştaki iyilik görünür olur.
+
+Buyruğun ardından 109:2, 109:3, 109:4 ve 109:5 boyunca {ar:أَعْبُدُ, tr:aʿbudu, gloss:ibadet ederim} ile {ar:تَعْبُدُونَ, tr:taʿbudūna, gloss:ibadet ediyorsunuz} eylemleri yinelenir. Nesneyi açık bırakıp {ar:مَا, tr:mā, gloss:ne / şey} diye karşılayan söyleyiş bu tekrarın nesnesini belirlemez (109:2, 109:3, 109:4, 109:5). İbadet eylemi kişinin kendini ibadete vermesidir; aynı anlam alanından türeyen “tapınılan varlık” kullanımı da eylemin nesnesini adlandırabilir (109:2, 109:3, 109:4, 109:5). Bu temas başlangıçtaki {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah'ın} özel adını konuşanın ibadeti için muhtemel bir referans noktası yapar; okur tekrarları başta sunulan adla birlikte işitebilir (109:2, 109:3, 109:4, 109:5). {ar:مَا, tr:mā, gloss:ne / şey} nesneleri açık bıraktığından bu bağlantı belirli bir nesneyi Allah'a dilbilgisel olarak bağlamaz ve özel adı genel bir “tapınılan varlık” adına dönüştürmez (109:2, 109:3, 109:4, 109:5).
+
+109:2, 109:3, 109:4 ve 109:5'teki olumsuzlamalar ibadette karşılıklılığı reddeder. Bu örneklerden {ar:لَآ أَعْبُدُ, tr:lā aʿbudu, gloss:ibadet etmem} ifadesi 109:2'de yer alır (109:2). {ar:لَكُمْ دِينُكُمْ وَلِىَ دِينِ, tr:lakum dīnukum wa-liya dīn, gloss:sizin dininiz size, benim dinim bana} sözü ayrımı açıkça koyar (109:6). Besmelenin {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:ٱلرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} adlarıyla açtığı etkin merhamet bu olumsuzlamalar ve sınırla karşılaşınca reddi çizgiyi silmeden ölçülü, karşılıkçı olmayan bir biçimde duyurabilir (109:2, 109:3, 109:4, 109:5, 109:6). Metin ayrılığın nedenini merhamete bağlamaz; merhamet burada reddi açıklayan sebep değil, sınırı koruyan söyleyişin ölçülü ve karşılıkçı olmayan tınısını belirginleştirir (109:2, 109:3, 109:4, 109:5, 109:6).
+
+</editorial_prose>

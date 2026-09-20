@@ -1,0 +1,203 @@
+# V5 reading invitation — 17:58
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_58/17_58.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_58/17_58.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Hükmün Eşiği
+
+Önceki söyleyişe eklenen {ar:وَ, tr:wāw, gloss:ve bağlacı}, cümleyi önceki sözle sürdürür; bağın hangi içerikle kurulduğu önceki söyleyişten anlaşılır. Ardından {ar:إِنْ, tr:in, gloss:olumsuzluk edatı} ile belirsiz {ar:قَرْيَةٍ, tr:qaryah, gloss:yerleşim} adını yöneten {ar:مِنْ, tr:min, gloss:kapsam edatı}, {ar:إِلَّا, tr:illā, gloss:ancak} ile birlikte olumsuzluk ve istisna çerçevesini kurar. Hüküm bu kuruluş içinde her yerleşimi kapsar: {ar:قَبْلَ يَوْمِ الْقِيَامَةِ, tr:qabla yawmi al-qiyāmah, gloss:Kıyamet Günü'nden önce} ya yok oluşa götürülür ya da ağır cezaya uğrar; iki sonuç da ardından {ar:الْكِتَابِ, tr:al-kitāb, gloss:Kitap}’ta yazılı olarak gösterilir. Bu kuruluş varsayımsal değil, her yerleşimi kapsayan genel bir hükümdür; hükmün genel oluşu sonucun her yerde şimdiden gerçekleştiğini bildirmez. Kapsamı min tek başına değil, olumsuzluk ve istisna yapısının bütünü kurar.
+
+Yerleşim hükmün konusu olarak erkenden duyulur, fakat yüklem {ar:إِلَّا, tr:illā, gloss:ancak} sonrasına kalır. Okur önce kapsamı, ardından yerleşimlerin karşılaşacağı iki sonucu öğrenir; gecikme bir olay ya da ölçülebilir durak değil, cümle içindeki kısa dönemeçtir. İstisna edatı olumsuz sınıfı kapatırken {ar:نَحْنُ, tr:naḥnu, gloss:biz} zamiriyle başlayan iki etken yüklemi açar. Açık zamir ortak ilahî faili öne çıkarır; yüklemlerin ikisindeki -hā nesne eki de aynı yerleşime döner. Böylece yok oluş ile ceza, kendiliğinden meydana gelen iki olay gibi değil, aynı failin aynı nesneye yönelttiği ayrı eylemler olarak kurulur.
+
+{ar:قَرْيَةٍ, tr:qaryah, gloss:yerleşim} öncelikle insanların bir araya geldiği köyü ya da yerleşimi adlandırır. Dişil nesne ekinin iki yüklemde de bu ada dönmesi, akıbeti bina ve toprağın yanı sıra sakinlerin oluşturduğu toplulukla birlikte duyurur; hüküm bu düzeyde ortak kalır, bireylere ayrı sonuçlar paylaştırmaz. Belirsiz tekil biçim de min’in kapsamındaki sınıfı yerleşimleri birer birer düşünerek gösterir, belli bir kenti adlandırmaz. Sözcüklerin sesi yer adını Kıyamet ufkuna yaklaştırır: qaryah’ın qāf’ı, hemen sonraki {ar:قَبْلَ, tr:qabla, gloss:önce} ve {ar:الْقِيَامَةِ, tr:al-qiyāmah, gloss:Kıyamet} sözcüklerinin qāf’ıyla yankılanır; {ar:الْكِتَابِ, tr:al-kitāb, gloss:Kitap} ise farklı bir ses olan kāf ile başlar. Böylece qaryah ile Kıyamet arasındaki işitsel bağ belirginleşirken, Kitap’ın ayrı sesi de duyulur; bu yakınlık ses yankısıdır, ortak kök ya da ek sözlük anlamı değil.
+
+## İki Akıbetin Sınırı
+
+İlk kolu {ar:مُهْلِكُوهَا, tr:muhlikūhā, gloss:onu yok edenler} kurar. IV. bâbın etken ism-i fâili olan bu biçimdeki -hā yerleşimi açık nesne yapar; dolayısıyla yok edici eylem yüklemin kendisidir. Sözcük kayıp, ölüm ya da bozulmayla varlığı veya işlevi yitirmeyi de, başka bir şeyi yok oluşa yahut ağır bozulmaya sürüklemeyi de kapsar. Nesnenin açıkça belirtilmesi ikinci kullanımı belirginleştirir: yerleşim, yıkıcı eylemin yöneldiği şeydir. Bu bağlamda sözcük tehlike, yoksulluk veya kuraklığı değil, failin yok edici eylemini adlandırır; etken ortaç eylemi kurar, gerçekleşme zamanını belirlemez. İkinci etken ortaç aynı faili ve nesne ekini yinelediğinden, yok ediliş bütün hükmün tek sonucu değil, iki kollu düzenin ilkidir.
+
+Bu ilk kolun zamanını, her iki sonuca da yayılan {ar:قَبْلَ, tr:qabla, gloss:önce} belirler. Sözcük olağan zamansal anlamıyla “önce” der ve {ar:يَوْمِ الْقِيَامَةِ, tr:yawmi al-qiyāmah, gloss:Kıyamet Günü} tamlamasının başında durarak son sınırı çizer; {ar:أَوْ, tr:aw, gloss:ya da} bağlacından önce bulunduğu için sınır iki kol için ortaktır. Ayet eşiği zaman olarak kurar, takvim tarihi veya süre vermez. Bununla birlikte qabla’nın sözlük ailesindeki iki şeyin birbirine dönük ya da öne yönelmiş olduğu kullanımlar, Kıyamet ufku anıldığında bu eşiği karşıya alınan büyük olay gibi de duyurur. Yönelme yankısı zaman sınırının algısını derinleştirir; tamlamada tek bir zamansal eşik kalır, fiziksel yüz yüze geliş ya da ikinci bir tarih kurulmaz.
+
+Tamlamadaki {ar:يَوْمِ, tr:yawmi, gloss:gün} baştır; belirli {ar:الْقِيَامَةِ, tr:al-qiyāmah, gloss:Kıyamet} ise onu tamamlayarak iki akıbet için ortak tek ufuk kurar. Yawm büyük bir olayın gerçekleştiği kritik zamanı, hatta olayın kendisini de anlatabildiğinden, Kıyamet adı ifadeyi sıradan takvim gününden çıkarıp bilinen son saat, diriliş ve hesap ufkuna bağlar. Kıyamet terimi bu belirli ufku taşırken kökündeki dikilme ve ayakta durma çağrışımını da korur. Önünde akıbetleri bulunan yerleşim topluluğu hesap için ayağa kalkacak bir cemaat olarak düşünülebilir; ayağa kalkma imgesi topluluğa aittir, kentin toprağına veya yapısına değil. Tamlamanın ya da’dan önce kapanması bu ufku iki sonucun ortak son sınırı yapar.
+
+Sonra {ar:أَوْ, tr:aw, gloss:ya da} iki akıbet arasındaki ayrımı açıkça duyurur. Aynı fail ve aynı yerleşim nesnesi altında yok ediliş ile ağır ceza alternatif olarak sunulur; bağlaç bunları sıralamaz, ayet de ikisinin her yerleşimde birlikte gerçekleşeceğini belirtmez. İkinci kolu {ar:مُعَذِّبُوهَا, tr:muʿadhdhibūhā, gloss:ona azap edenler} kurar: II. bâbın etken ism-i fâili ortak faili ve -hā nesnesini yineler. Ardından gelen {ar:عَذَابًا, tr:ʿadhāban, gloss:ceza}, aynı kökten mansup mastar olarak cezalandırma eylemini ayrıca adlandırır; {ar:شَدِيدًا, tr:shadīdan, gloss:şiddetli} ise bu belirsiz ceza adını niteler. Cümle böylece genel ceza adından onun ağırlığına doğru ilerler. Şiddet niteliği ikinci kola bağlanır; yok edilişin derecesi ve cezanın uygulanış biçimi burada tanımlanmaz.
+
+Ceza anlamı önde kalırken, muʿadhdhibūhā biçiminin sözlük ailesindeki “birini bir işten alıkoymak” veya “o işi bıraktırmak” kullanımları sertlik nitelemesiyle temas eder. Bu temas {ar:عَذَابًا, tr:ʿadhāban, gloss:ceza}’ya mahrum bırakılma ve bir şeyden uzak tutulma basıncı verir; hangi nimetin hedef alındığı belirtilmez. Aynı kök ailesinin hoş, tatlı ve kolay tüketilen yiyecek ya da içeceği anlatan kullanımı, bu mahrumiyetle karşıtlık kurarak rahatlığın çekilmesini duyurur. Yiyecek-içecek yankısı cezayı bir beslenme olayı ya da bedenî açlık ve susuzluk olarak tanımlamaz.
+
+İkinci kolun ağırlığını bildiren {ar:شَدِيدًا, tr:shadīdan, gloss:şiddetli} cezanın nasıl hissedilebileceğini belirginleştirir. Sıfat güçlü, katı ve dayanıklı olma anlamlarını taşırken kök ailesi bir nesneyi bağlamayı, düğümü sıkmayı ve bağı sağlamlaştırmayı da kapsar. {ar:عَذَابًا, tr:ʿadhāban, gloss:ceza} ile buluştuğunda bu kullanımlar cezayı daraltıcı ve katlanılması güç bir baskı gibi duyurur; aynı zamanda ağır zamanın veya eziyetin dayanma zorluğunu öne çıkarır. Bu kök yankısı baskının sıkılığını ve zorluğunu verir; fiilî bağlama, ceza artırma işlemi, yöntem veya süre olarak okunmaz.
+
+Bu mahrumiyet basıncı, kaynağı belirtilmeyen keşifsel bir benzetmede yerleşimi bir hazne gibi düşündürür. {ar:قَرْيَةٍ, tr:qaryah, gloss:yerleşim} sözcüğünün bağlı olduğu sözlük ailesi insanların ve şeylerin toplanmasını; suyun havuzda birikmesini, birikmiş suyu ve su yatağını da kapsar. İki akıbetin aynı topluluğa yönelmesi, toplama ve biriktirme anlamlarını olağan yerleşimle buluşturur: birlikte tutulan hayat bir haznede toplanmış gibi görünür. Sıvı ya da yiyecek alan kap ve oyuk kullanımları bu sınırlı nesne imgesine biçim verir; cezanın ağırlığı da haznenin tükenmeye açıklığını duyurur. Bu benzetmede hazne, topluluğun birlikte tuttuğu hayatı ve onun tükenebilirliğini taşır; gerçek bir kapta su veya yiyecek bulunduğu ileri sürülmez.
+
+Haznenin tükenişi iki ayrı ölçekte canlanır. Yok ediliş kolunda etken nesne olan yerleşim topluca yok oluşa götürülür; sözlük ailesindeki uzun süre yağış almamış, kuruyup bitki ve üründen boşalmış arazi kullanımı bu kolu ekolojik tükenme olarak görünür kılar. Ceza kolunda ise yerleşime yönelen muʿadhdhibūhā ile {ar:عَذَابًا, tr:ʿadhāban, gloss:ceza} ve onun {ar:شَدِيدًا, tr:shadīdan, gloss:şiddetli} niteliği, insanın ya da hayvanın yiyecek ve içecek tüketmeden durduğu kullanımı açar; burada haznenin sakinleri beslenmeden yoksun kalır gibi düşünülür. Alıkoyma anlamı, hangi nimetin eksildiği söylenmeden bu mahrumiyet basıncını sürdürür; düğümü sıkma ve bağı sağlamlaştırma çağrışımı da basıncı daraltır. Bu dallar ortak hazne imgesine ayrı katkı verir, kuraklıktan açlığa uzanan gerçek bir neden-sonuç süreci kurmaz; ayet meteorolojik kuraklık, kıtlık veya açlık, oruç, su kesintisi ya da fiilî bağlanma bildirmez.
+
+## Yazıya Geçen Hüküm
+
+İki akıbet söylendikten sonra cümle sonuçlardan onların yazılı durumuna döner. {ar:ذَٰلِكَ, tr:dhālika, gloss:işte bu} zamiri, {ar:كَانَ, tr:kāna, gloss:oldu} cümlesinin öznesi olarak iki sonucu tek gönderge hâlinde toplar; tek yazılı hüküm ikisini birlikte kapsar ama hangisinin gerçekleşeceğini seçmez. Uzak gösterme biçimi bu iki sonucu tek düzen olarak paketler; buradaki işlev göndergeyi toplamak, fiziksel mesafe veya tek başına kalıcılık bildirmek değildir. Kāna’nın geçmiş biçimi ile cümle sonundaki edilgen {ar:مَسْطُورًا, tr:masṭūran, gloss:yazılı} sıfatı, yazılmış bulunmayı yerleşik bir durum olarak sunar, yazma eyleminin ne zaman gerçekleştiğini değil. Olma ve bulunma vurgusu hükmün kayıtta mevcut oluşunu öne çıkarır; gramatik durum ayrıca bir metafizik varlık iddiası kurmaz.
+
+Bu yazılılık, {ar:فِي الْكِتَابِ, tr:fī al-kitāb, gloss:Kitabın içinde} tamlamasının cümledeki bağlanışıyla mekânsal bir görünüm de kazanır. Tamlamanın kāna’ya mı, yoksa son yüklem masṭūran’a mı bağlandığı belirsizdir; her iki kuruluş da önceki hükmü belirli Kitap’ın içinde konumlandırıp yazılılık temasını güçlendirir. Fī böylece kaydın içinde bulunma ilişkisini kurar. Belirli tanımlıkla gelen {ar:الْكِتَابِ, tr:al-kitāb, gloss:Kitap} bilinen bir sicil izlenimi verir; burada Kitap’ın işlevi kayıt olarak belirir, fiziksel cilt veya dış kurum olarak tarif edilmez.
+
+Kitap anlamı yerinde kalırken, aynı sözlük ailesindeki bir şeyi ötekine ekleyip bağlı bir bütün kurma kullanımı iki akıbetin kayıtta nasıl bir arada tutulduğunu açar. {ar:أَوْ, tr:aw, gloss:ya da} seçenekleri ayırır, {ar:ذَٰلِكَ, tr:dhālika, gloss:işte bu} ikisini tek göndergeye toplar, Kitap adı da ayrılmış kolları tek sicile alır. Bu üç işlem sicilde ayrışmış ama birbirine bağlı bir düzen kurar; Kitap adı yine bir kayıt adıdır. {ar:كَانَ, tr:kāna, gloss:oldu} ile {ar:مَسْطُورًا, tr:masṭūran, gloss:yazılı}’nın yerleşik yazılılık hâli bu düzene önceden belirlenme ve hükmün saptanmış olması basıncını ekler. Böylece Kitap bağlayıcı karar kaydı gibi okunabilir; bu yerel yankı ayrıca bir karar mercii veya hukuk mekanizması tanımlamaz.
+
+Son sözcük olan {ar:مَسْطُورًا, tr:masṭūran, gloss:yazılı}, olağan anlamıyla yazıya geçirilmiş demektir; edilgen biçimi yazma failini adlandırmaz. Akıbet yüklemlerindeki etkenlikten bu edilgen yazılı duruma geçiş, dikkati eylemden kaydedilmiş sonuca çevirir; önceki cümlenin ilahî failini geri almaz, adı verilmeyen bir yazıcı da eklemez. Masṭūran’ın sözlük alanındaki kullanımlar yazı öğelerinin, dikili ağaçların veya ayakta duran insanların düzenli sırasını kapsar. {ar:الْكِتَابِ, tr:al-kitāb, gloss:Kitap} sicili ve kāna’nın yerleşik durumu bu sırayı hükmün kayıtta düzenlenişi gibi duyurur. Aynı alan yazının art arda satırlar hâlinde kurulmasını ve içeriğin kayda geçirilip sabitlenerek korunmasını da içerir; böylece hüküm satır satır işlenmiş, saklanmış gibi görünür. Sıra, satır ve koruma çağrışımları yazılı kaydı somutlaştırır, fiziksel bir sayfa veya ayrı bir denetim eylemi tarif etmez.
+
+Edilgen sıfatın iki etken akıbet yükleminden sonra cümle sonunda gelmesi, kapanışı ayrıca duyuran nitel bir biçim gözlemidir; bu gözlem sıklığı saymaz veya anlamlar arasında bir sıra kurmaz. Tenvinli {ar:قَرْيَةٍ, tr:qaryah, gloss:yerleşim}, {ar:عَذَابًا, tr:ʿadhāban, gloss:ceza}, {ar:شَدِيدًا, tr:shadīdan, gloss:şiddetli} ve {ar:مَسْطُورًا, tr:masṭūran, gloss:yazılı} bitişleri ses akışını yerleşim nesnesinden ceza ve niteliğine, oradan kayıt kapanışına taşır. Bu ritim ayetin kendi yazılı hükmünü kapatır; başka bir kişiye ait kayıtla bağlantı kurmaz.
+
+Bu yazılı ufuk, iki ayrı ayetteki kayıt ve zaman unsurlarıyla belirginleşir. Her yıkılmış yerleşim için bilinen bir Kitap bulunduğu söylenir (15:4); zulümden sonra kasabaların yıkılışına ise tayin edilmiş bir vakit bağlanır (18:59). Odaktaki {ar:مُهْلِكُوهَا, tr:muhlikūhā, gloss:onu yok edenler} etken ve geçişlidir: yıkılış kendiliğinden bir çöküşten ziyade failin başka bir şeyi yok oluşa veya ağır bozulmaya sürüklemesi olarak duyulur. 18:59’daki {ar:مَّوْعِدًا, tr:mawʿidan, gloss:tayin edilmiş vakit} bu eyleme zaman boyutunu ekler. Kitap ile tayin edilmiş vaktin buluşması gelecekteki sonucun önceden belirlenmişliğini; masṭūran’ın satır, düzen ve koruma anlamları da zamanlanmış sonun sicilde tutulmasını öne çıkarır. Bu paralellikler odaktaki kaydı ve zamanlamayı aydınlatır; aynı tarihsel kasabaları veya bütün yerleşimlere tek bir sonucu belirlemez, qaryah’ın yer ile halk arasındaki kapsamını da tek başına çözmez.
+
+Bu dilsel unsurlardan kaynağı belirtilmeyen daha geniş bir okuma, yerleşimler için bir akıbet çizelgesi kurar. Olumsuzluk içindeki {ar:مِنْ, tr:min, gloss:kapsam edatı} her {ar:قَرْيَةٍ, tr:qaryah, gloss:yerleşim}’i hükme alır; iki fiilin aynı nesneye dönüşü yeri sakinleriyle birlikte duyurur; {ar:مُهْلِكُوهَا, tr:muhlikūhā, gloss:onu yok edenler} ile {ar:مُعَذِّبُوهَا, tr:muʿadhdhibūhā, gloss:ona azap edenler} yok oluşla ağır cezayı ayrı kollar hâlinde tutar. {ar:قَبْلَ, tr:qabla, gloss:önce} ile {ar:الْقِيَامَةِ, tr:al-qiyāmah, gloss:Kıyamet} her iki kola ortak zaman sınırı verir; {ar:الْكِتَابِ, tr:al-kitāb, gloss:Kitap}, kāna, dhālika ve masṭūran da bu kolları tek yazılı ve bağlayıcı kayıtta birleştirir. Böylece okuma, her yerleşim için tek sonuç öngörmek yerine, sınıfı kapsayan, iki kollu ve zaman bakımından sınırlı bir çizelge kurar. Bu kaynak ve kapsamı belirtilmeyen aktarılmış okuma, belirli bir tarih, güzergâh veya sure çapında düzen olarak sunulmaz.
+
+Çizelgenin ardından gelen ayrı bir keşifsel benzetme, aynı yazılı düzeni güzergâh gibi hayal eder. Qaryah olağan anlamıyla yerleşim kalır; sözlük ailesindeki bir yönü izleme, ülke ve toprağı ya da su kaynaklarını birer birer takip etme kullanımları güzergâhın izini sağlar. {ar:قَبْلَ, tr:qabla, gloss:önce}’nın zamansal sırası durakların tertibini, {ar:الْكِتَابِ, tr:al-kitāb, gloss:Kitap}’ın düzenli sicili ise kayda geçirilmiş güzergâhı düşündürür; yerleşimler bu nedenle duraklar gibi görünür. {ar:مُهْلِكُوهَا, tr:muhlikūhā, gloss:onu yok edenler}’nın yok oluşa götüren eylemi her durakta son karşılaşma izlenimi verir. Bu, hükmün sırasını mekânsal bir imgeyle görünür kılar; kasabalar arasında yinelenen fiziksel bir yolculuk bildirmez.
+
+Güzergâh imgesinde Kitap ailesinin ekleme ve bütün kurma anlamı düzenli yerleşim kayıtlarını birbirine bağlar; {ar:ذَٰلِكَ, tr:dhālika, gloss:işte bu} iki akıbeti tek göndergeye topladığı için girdiler birleşmiş bir rota kaydı gibi duyulur. {ar:مَسْطُورًا, tr:masṭūran, gloss:yazılı}’nın çizgi ve işaret anlamı sırayı kayıtta görünür kılar. Aynı sözlük alanındaki bir kişinin kılıçla düz iz gibi kesilmesi kullanımı, güzergâh çizgisi ve her durağın son işaretiyle temas eder; bu, çizgiye keskin bir son işareti ekleyen mecazi bir daldır. Yazılı kayıt imgenin taşıyıcısı olarak kalır; kesme kullanımı ayette gerçek bir eylem sahnesi kurmaz.
+
+## Uyarı, Zaman ve Karşılık
+
+Surenin önceki kapanışında hilim ve bağışlama yan yana gelir (17:44): {ar:حَلِيمًا, tr:ḥalīman, gloss:hilim sahibi} özdenetimli hilmi, {ar:غَفُورًا, tr:ghafūran, gloss:çok bağışlayan} ise bağışlayıp kusurun etkisinden koruyan örtmeyi adlandırır. Bu nitelikler odaktaki {ar:قَبْلَ, tr:qabla, gloss:önce} aralığı ve Kitap’ta {ar:مَسْطُورًا, tr:masṭūran, gloss:yazılı} oluşla buluşunca, hüküm belirlenmişken görünüşünün ertelenebileceği ihtimalini açar; erteleme sonucun varlığına değil, şimdi görünmesine ilişkindir. Bu, 17:44’ün 17:58’deki zamanlamaya katkısının sınırıdır: önceki ayet genel bağışlamadan da söz ediyor olabilir, dolayısıyla her yerleşime ayrı bir takvim vermez.
+
+Diriliş sorusu, zaman sınırını bedenin yeniden hayata döndürülmesiyle yan yana getirir. Kemiklere ve ufalanmış kalıntılara dönüşenlerin yeniden diriltilip diriltilmeyeceği sorulur; cevapsa onları ilk kez yaratmış olana dayanır (17:49, 17:51). {ar:عِظَامًا وَرُفَاتًا, tr:ʿiẓāman wa-rufātan, gloss:kemikler ve ufalanmış kalıntılar} hâlinden {ar:لَمَبْعُوثُونَ, tr:lamabʿūthūn, gloss:yeniden diriltilecek} olmaya uzanan soru, odaktaki {ar:الْقِيَامَةِ, tr:al-qiyāmah, gloss:Kıyamet}’in diriliş ve hesap anlamını açık tutar. “Bizi kim geri getirecek?” sorusuna ilk yaratılışla verilen cevap, dönüşü başlangıçla ilişkilendirir. Bu paralellik Kıyamet ufkunu bedenin dirilişine açarken yerleşim yıkımını kendi ölçeğinde gerçek bir kayıp olarak bırakır: kent yıkımı yerleşimin, kemik ve kalıntıların dönüşü ise bedenin akıbetidir. Metin soruyu soranları her yıkılmış kentin sakinleri olarak tanımlamaz.
+
+Bu diriliş ufkunda çağrı ve karşılık sahnesi başka bir yön açar (17:52). {ar:يَوْمَ, tr:yawma, gloss:gün} sahnenin başında durur: {ar:يَدْعُوكُمْ, tr:yadʿūkum, gloss:sizi çağırır} denir, ardından {ar:فَتَسْتَجِيبُونَ, tr:fatastajībūna, gloss:karşılık verirsiniz} gelir; insanlar övgüyle karşılık verir ve orada ancak kısa bir süre kaldıklarını sanırlar. Odaktaki {ar:يَوْمِ, tr:yawmi, gloss:gün} öncelik sınırını kurarken büyük olayın kendisini de adlandırabildiğinden, bu dizi {ar:الْقِيَامَةِ, tr:al-qiyāmah, gloss:Kıyamet}’i takvim eşiğinden topluca karşılık verilen olaya doğru genişletir. Çağrı ve toplu yanıt sahnesi bu ufka ortak karşılaşma niteliği ekler; yeniden diriliş bu bağlamda özel bir toplanma düzeni varsaymadan da anlatılır. Genişleyen, yawm’ın olay olarak duyuluşudur; odaktaki zaman sınırı aynı kalır.
+
+Yakın bağlamda rahmet ile ceza ihtimali birlikte korunur: Rabbin insanları daha iyi bildiği söylenir; {ar:يَرْحَمْكُمْ, tr:yarḥamkum, gloss:size merhamet ederse} rahmet seçeneğini, {ar:يُعَذِّبْكُمْ, tr:yuʿadhdhibkum, gloss:size azap ederse} ise azap ihtimalini açık tutar (17:54). Bu karşıtlık, odaktaki {ar:أَوْ, tr:aw, gloss:ya da}’nın ayırdığı yıkım ve ceza kollarını merhametin de mümkün kaldığı bir bağlama taşır. Ardından kendilerine yakarılanların {ar:كَشْفَ الضُّرِّ, tr:kashfa aḍ-ḍurri, gloss:sıkıntıyı gidermek} veya {ar:تَحْوِيلًا, tr:taḥwīlan, gloss:başka yere aktarmak} gücü olmadığı bildirilir (17:56). Bu yetersizlik, zararın devredilemeyen niteliğini öne çıkarır; bağlam rahmet ihtimalini ve iki akıbet kolunu görünür kılar, belirli bir yerleşim için sonucu seçmez.
+
+Bu devredilemeyen zarar, korku ve umutla beklenen bir sonuç olarak belirginleşir: kendilerine yakarılanlar Rablerine yakınlaşmaya çalışır, O’nun rahmetini umar ve azabından korkar; azap {ar:مَحْذُورًا, tr:maḥdhūran, gloss:sakınılması gereken tehlike} diye nitelenir (17:57). Bu tutum, odaktaki {ar:مُعَذِّبُوهَا, tr:muʿadhdhibūhā, gloss:ona azap edenler}, {ar:عَذَابًا, tr:ʿadhāban, gloss:ceza} ve {ar:شَدِيدًا, tr:shadīdan, gloss:şiddetli} ile buluşunca ikinci kolun acı veren, şiddeti açık ceza oluşunu vurgular. Bağlam böylece rahmet umudunu, sakınılan azabı ve devredilemeyen zararı birlikte tutar; bu yakınlık hangi yerleşimin hangi kola gireceğini tayin etmez.
+
+Ceza ihtimali uyarının ve alınan karşılığın sahnesinde somutlaşır. İşaretlerin gönderilmesini ve önceki kuşakların bunları yalanlamasını anımsatan anlatıda, göndermenin önünün kesilmesinden söz edilir (17:59). Thamud’a kendi biçimi olan {ar:النَّاقَةَ, tr:an-nāqah, gloss:dişi deve} işaret olarak verilir; {ar:مُبْصِرَةً, tr:mubṣiratan, gloss:açıkça görünen} niteliği onu gözle seçilir kıldığı hâlde topluluk ona zulmeder (17:59). Ardından işaret {ar:تَخْوِيفًا, tr:takhwīfan, gloss:korkutma, uyarı} diye adlandırılır ve {ar:طُغْيَانًا كَبِيرًا, tr:ṭughyānan kabīran, gloss:büyük azgınlık} artışı kaydedilir (17:60). Bu örnekte görünür işaret, uyarı ve topluluğun cevabı, {ar:قَبْلَ يَوْمِ الْقِيَامَةِ, tr:qabla yawmi al-qiyāmah, gloss:Kıyamet Günü'nden önce} ifadesinin açtığı zaman ufkuna tarihsel bir içerik verir; {ar:مَسْطُورًا, tr:masṭūran, gloss:yazılı} hüküm de değişen karşılıkların kayda geçtiği bu ufkun yanında duyulur. İşaret ve korkutma, kabulü zorlamak yerine muhatapların cevabını görünür kılar. Bu bağlam, örnekteki reddi her beldeye genellemez; Thamud’un karşılığı da 17:58’deki her yerleşimin akıbetini belirlemez.
+
+İşaretin reddedilmesi ve ona haksızlık edilmesi, Fâtiha’daki {ar:الْمَغْضُوبِ عَلَيْهِمْ, tr:al-maghḍūbi ʿalayhim, gloss:gazaba uğrayanlar} ile {ar:الضَّالِّينَ, tr:aḍ-ḍāllīn, gloss:sapmışlar} adlarını ceza kolunun yanına getirir (1:7); bu yankı reddedilişi odaktaki {ar:عَذَابًا, tr:ʿadhāban, gloss:ceza} ile de temas ettirir (17:59). Farklı karşılık hâlleri böylece aynı hesap ufkunda duyulur. Bu, uyarıyı reddetmenin ceza yankısını güçlendiren bir paralelliktir; Thamud’u ya da belirli bir yerleşimi bu adlarla özdeşleştirmez ve iki akıbetten birini dağıtmaz.
+
+## Yerleşim ve Kişisel Hesap
+
+Surenin başka bir anlatısı Kıyamet ufkunun yanına dört ayrı aşama getirir: ülkeden çıkarma girişimi, toplu boğulma, yerleşme buyruğu ve daha sonraki bir araya geliş (17:103, 17:104). Bir hükümdar halkı ülkeden çıkarmaya kalkışır; ardından kendisi ve yanındakiler hep birlikte boğulur (17:103). Odaktaki {ar:مُهْلِكُوهَا, tr:muhlikūhā, gloss:onu yok edenler}’nın bir nesneyi yok oluşa sürükleyen geçişli yapısı, failin yol açtığı kesin kaldırılışla benzeşir; buradaki benzerlik failin eylemindedir, kasaba yıkımında değil. Sonra Beni İsrail’e {ar:ٱسْكُنُوا۟ ٱلْأَرْضَ, tr:uskunū al-arḍ, gloss:yeryüzüne yerleşin} buyruğu verilir; ahiret vaadi geldiğinde onların topluca getirileceği bildirilir (17:104). Bu sıra kaldırılışla yerleşmeyi, yerleşmeyle sonraki toplu gelişi birbirinden ayırt eder. Sahne odakla bu imgeler düzeyinde ilişki kurar: anlatı sürme girişimini gerçekleşmiş sürgün, yerleşme buyruğunu kasaba inşası, toplu gelişi de 17:58’deki yerleşim hükmü olarak tanımlamaz.
+
+Yerleşim adının yer ile sakinlerini birlikte duyurma imkânı başka bir sahnede açıkça görünür: elçiler, bu kasabanın halkını zalim bulduklarını ve onları yok edeceklerini söyler (29:31). {ar:أَهْلَ هَٰذِهِ الْقَرْيَةِ, tr:ahla hādhihi al-qaryah, gloss:bu yerleşimin halkı} ifadesinde qaryah kenttir, halk ise ona ait topluluk olarak ayrıca belirtilir. Bu sahne, odaktaki ortak nesnenin bina ve toprağın yanı sıra kent sakinlerini de kapsayabileceğine somut bir karşılık verir. Bu bağlam yerle halk arasındaki ilişkiyi gösterir; her kullanımdaki kapsamı veya her sakinin kişisel sonucunu tayin etmez.
+
+Topluluk için söylenen hükmün yanında kişinin kendi hesabını taşıyan kaydı da yer alır. Her insana Kıyamet Günü açıkça sunulacak bir kayıt verildiği bildirilir (17:13): {ar:كِتَٰبًا يَلْقَىٰهُ مَنشُورًا, tr:kitāban yalqāhu manshūran, gloss:önüne açık çıkarılan kayıt}. Odaktaki {ar:الْقِيَامَةِ, tr:al-qiyāmah, gloss:Kıyamet} ve {ar:الْكِتَابِ, tr:al-kitāb, gloss:Kitap} ile ortak gün, yerleşimler için yazılı hükmü bireysel hesapla yan yana getirir; anlatılar iki kaydı özdeşleştirmez. Hidayet ve sapmanın kişisel sorumluluğu ile kimsenin başkasının yükünü taşımayacağı da bildirilir (17:15). Aynı ayette elçi gönderilene dek azap edilmeyeceği sınırı konur: {ar:وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًا, tr:wa-mā kunnā muʿadhdhibīna ḥattā nabʿatha rasūlan, gloss:elçi gönderene kadar azap etmeyiz}. Bu sınır, ağır cezayı elçi gönderilmesinden önceye taşıyan okumayı dışarıda bırakır; bireysel sorumluluk da her yerleşimde her kişinin nasıl karşılık bulduğunu tek tek belirlemez.
+
+Ortak akıbet beklentisi ile öğüt verme yükümlülüğü, başka bir topluluğun itirazı ve aldığı cevapta birlikte görünür (7:164). İtirazda Allah’ın onları ya yok edeceği ya da ağır azaba uğratacağı söylenir: {ar:ٱللَّهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ عَذَابًا شَدِيدًا, tr:Allāhu muhlikuhum aw muʿadhdhibuhum ʿadhāban shadīdan, gloss:Allah onları yok edecek ya da ağır azap verecek}. Cevap, Rabbe karşı mazeret sunabilmek ve belki onların sakınmasını umabilmek için öğüdü sürdürmektir: {ar:وَلَعَلَّهُمْ يَتَّقُونَ, tr:wa-laʿallahum yattaqūn, gloss:belki sakınırlar}. Bu örnek, hüküm beklentisinin öğüdü anlamsızlaştırmadığını gösterir: beklenen sonuçla uyarı verme aynı anda işler.
+
+Yıkılmış bir yerleşimin halkı için “dönmezler” denmesi, kentin toplumsal geri dönüşünü kapatır (21:95): {ar:لَا يَرْجِعُونَ, tr:lā yarjiʿūn, gloss:dönmezler}. Bu dönüşsüzlük topluluk düzeyindeki akıbettir. Ayrı bir anlatıda çatısı üzerine çökmüş kent, ölümünden sonra nasıl diriltileceği sorusunu doğurur (2:259): {ar:وَهِيَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا, tr:wa-hiya khāwiyatun ʿalā ʿurūshihā, gloss:çatıları üzerine çökmüş halde}. Bu viran kent, odaktaki {ar:مُهْلِكُوهَا, tr:muhlikūhā, gloss:onu yok edenler}’nın yok oluş ve işlev kaybı anlamını kent ölçeğinde somutlaştırır. Cevapta yüz yıl sonra bir adam diriltilir, eşeğin kemikleri yeniden birleştirilir; anlatılan diriliş canlıların bedenlerine ilişkindir, kasabanın yeniden kurulmasına değil. Böylece kent için toplumsal geri dönüşün kapanması ile insanların diriliş ve hesap için ayağa kaldırılması farklı ölçeklerde kalır.
+
+</editorial_prose>
