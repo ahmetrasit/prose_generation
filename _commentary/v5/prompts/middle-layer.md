@@ -83,8 +83,12 @@ units. Assign stable references in source order:
 For each unit, record a faithful Turkish statement of the complete assertion,
 not merely a topic label. Also record every applicable carrier, trigger,
 mechanism, changed reading, concrete detail, boundary, alternative, and
-contextual ayah reference. Use `null` or an empty list where a field genuinely
-does not apply; do not invent missing components.
+contextual ayah reference. Record a short exact source anchor that includes any
+word carrying negation, uncertainty, restriction, comparison, or attribution.
+Also classify the unit's truth status—for example asserted, negated, possible,
+attributed, conditional, or presented as a live alternative. Use `null` or an
+empty list where a field genuinely does not apply; do not invent missing
+components.
 
 If a source paragraph is wholly transitional or wholly repeats earlier
 content, record that disposition explicitly and identify the exact unit or
@@ -124,14 +128,52 @@ the claim it limits. When uncertain, preserve the distinction.
 
 An exact duplicate may receive one prose landing, but that landing must retain
 the paragraph references of every duplicate occurrence. Overlapping
-complements may share a sentence or passage only when the union of their
-distinct content remains explicit and traceable.
+complements should normally enter the same synthesis cluster when their shared
+setup can be stated once and their distinct contributions can still be
+followed. Keep them in separate clusters only when combining them would blur a
+different mechanism, effect, modality, boundary, sequence, or object of
+attention; record that reason rather than defaulting to source order.
 
-### 3. Coverage plan
+### 3. Synthesis clustering and coverage plan
 
-Arrange all unique and complementary units into a reader-facing order. Group
-by developing semantic movement rather than source paragraph order, while
-preserving a supported sequence where order itself carries meaning.
+Do not use the source paragraphs as the output outline. Build synthesis
+clusters before drafting. A cluster is one developing reader question or
+semantic movement whose units can form a continuous explanation.
+
+For each cluster, do this explicitly:
+
+1. Name the dominant question, carrier, image, contrast, or consequence.
+2. Gather units from every source paragraph that helps answer that question.
+3. Identify the setup or conclusion those units repeat. Plan to state it once.
+4. List what remains unique: each trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, and alternative.
+5. Order those unique contributions so that the reader can follow the
+   construction—normally carrier or foreground, then trigger, contact or
+   mechanism, changed reading, and boundary. Use another order when the source
+   supplies a meaningful temporal, causal, spatial, or argumentative sequence.
+6. Decide whether the cluster fits one readable paragraph or needs two or more
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or require the reader to remember too many unresolved branches.
+7. Assign every unit one exact planned landing and every source paragraph the
+   citations that will expose where its contribution is used.
+
+Several source paragraphs may therefore become one output paragraph, and one
+complex source paragraph may contribute to several output paragraphs. A
+single-source output paragraph is permitted when its movement is genuinely
+standalone, not merely because it appeared separately in the source.
+
+Arrange clusters in a reader-facing order rather than source paragraph order,
+while preserving a supported sequence where order itself carries meaning.
+Adjacent clusters should either carry forward a specific object, action,
+question, contrast, or consequence, or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+output retains nearly the same paragraph count and order as the source and
+most output paragraphs cite only the same-position source paragraph, stop and
+redo the clustering. Accept that pattern only when a unit-by-unit audit shows
+that the source was already irreducibly organized and the ledger gives a
+specific non-merging reason for every standalone cluster. Do not manufacture
+mergers merely to improve a metric; semantic coherence governs the decision.
 
 For every unit, choose one substantive prose landing. A landing must be an
 exact sentence or clause that expresses the unit's actual content. A heading,
@@ -143,9 +185,12 @@ Before drafting, confirm privately that:
 - every source paragraph has been assessed;
 - every substantive unit has a planned landing;
 - every exact duplicate is mapped to a canonical unit;
-- every overlapping complement retains its additional detail;
+- every overlapping complement either shares a synthesis cluster or has a
+  specific semantic reason to remain apart;
 - every boundary remains attached to the interpretation it limits;
-- every branch in a composite reading remains distinguishable.
+- every branch in a composite reading remains distinguishable;
+- the planned structure is not simply the source paragraph sequence with
+  shorter sentences.
 
 ### 4. Reader prose
 
