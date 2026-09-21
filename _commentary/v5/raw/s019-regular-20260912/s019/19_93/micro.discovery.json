@@ -6,15 +6,17 @@
   "candidate_decisions": [
     {
       "candidate_id": "cand_0c6b2c601ebcce587e0b",
-      "decision": "reject",
-      "reason": "The claimed answer to the denied child relation depends on a prior-ayah boundary reading, not an independent local micro mechanism; the local servant-state itself is retained separately.",
-      "finding_refs": [],
+      "decision": "narrow",
+      "reason": "Retain the in-focus relation binding the destination name to the servant-state of arrival; exclude the 19:92 boundary comparison because no context-word occurrence is supplied for a micro activation.",
+      "finding_refs": [
+        "micro:destination-and-servant-state"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:92",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The neighboring child-denial comparison lacks a supplied context-word occurrence for micro activation."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -22,7 +24,7 @@
     {
       "candidate_id": "cand_267ff7de7f40ad07f9c2",
       "decision": "narrow",
-      "reason": "QAC and attachment evidence support the standard genitive construct; the variant is bounded as contrast, not a replacement.",
+      "reason": "The standard genitive construct remains the bounded reading; retain the accepted variant only as a test that can make the complement more object-like.",
       "finding_refs": [
         "micro:case-variant-construct"
       ],
@@ -34,9 +36,9 @@
     {
       "candidate_id": "cand_ddd6f257a59123dc6fcb",
       "decision": "accept",
-      "reason": "The name, construct relation, and mercy-root form are locally supported, while the interpretive force is kept bounded.",
+      "reason": "The proper divine name retains its mercy-root force and intensive form while framing the universal servant-state.",
       "finding_refs": [
-        "micro:mercy-name-force"
+        "micro:mercy-name-and-universal-arrival"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -45,29 +47,27 @@
     },
     {
       "candidate_id": "cand_e847d654d00547aec67b",
-      "decision": "narrow",
-      "reason": "The local name-plus-servant relation is visible, but the proposed echo field requires unprovided context surfaces.",
-      "finding_refs": [
-        "micro:mercy-servitude-echoes"
-      ],
+      "decision": "reject",
+      "reason": "Its distinctive claim is recurrence across 19:61, 19:44, 19:2, and 25:63. That is macro context, not local activation; the in-focus name/servant contact is carried by the destination and mercy-name findings.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:61",
-          "reason": "The wider echo requires a non-focus passage surface not supplied to this micro lane; only the local 19:93 contact is retained."
+          "reason": "This supplied cross-ayah echo belongs to macro context and is not used in the micro finding."
         },
         {
           "context_ref": "19:44",
-          "reason": "The wider echo requires a non-focus passage surface not supplied to this micro lane; only the local 19:93 contact is retained."
+          "reason": "This supplied cross-ayah echo belongs to macro context and is not used in the micro finding."
         },
         {
           "context_ref": "19:2",
-          "reason": "The wider echo requires a non-focus passage surface not supplied to this micro lane; only the local 19:93 contact is retained."
+          "reason": "This supplied cross-ayah echo belongs to macro context and is not used in the micro finding."
         },
         {
           "context_ref": "25:63",
-          "reason": "The wider echo requires a non-focus passage surface not supplied to this micro lane; only the local 19:93 contact is retained."
+          "reason": "This supplied cross-ayah echo belongs to macro context and is not used in the micro finding."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -75,9 +75,9 @@
     {
       "candidate_id": "cand_0ec68597aac8f5b59462",
       "decision": "accept",
-      "reason": "QAC and attachment evidence directly identify the definite divine name as the participle's genitive complement.",
+      "reason": "The definite genitive proper name is embedded as the participle's destination.",
       "finding_refs": [
-        "micro:proper-name-destination"
+        "micro:named-divine-destination"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -87,32 +87,19 @@
     {
       "candidate_id": "cand_2d112430838b85d0c46f",
       "decision": "reject",
-      "reason": "A Surah-wide recurrence or comparison is a macro/context reading, and no non-focus surface for that thread is selected in this micro packet.",
+      "reason": "The distinct contribution depends on repeated divine-name and gathering contexts across the surah. The focus supplies a named destination and mercy-root force, but not the proposed surah-wide recurrence.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:92",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
-        },
-        {
-          "context_ref": "19:61",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
-        },
-        {
-          "context_ref": "25:63",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_3285333b3954e41ccf68",
       "decision": "accept",
-      "reason": "The local form and lexical evidence identify the divine name and its specific referent.",
+      "reason": "The supplied form and lexical evidence identify a proper divine name, not a generic quality.",
       "finding_refs": [
-        "micro:unique-divine-referent"
+        "micro:proper-name-not-quality"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -122,9 +109,9 @@
     {
       "candidate_id": "cand_b6f9eff5991d4cb6bde3",
       "decision": "accept",
-      "reason": "The QAC morphology and attachment evidence directly support the circumstantial relation.",
+      "reason": "The final noun is an accusative circumstantial complement attached to the participle, not an object.",
       "finding_refs": [
-        "micro:accusative-circumstantial-state"
+        "micro:servant-as-circumstantial-state"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -133,19 +120,21 @@
     },
     {
       "candidate_id": "cand_377e99917219c4f2a04a",
-      "decision": "reject",
-      "reason": "The proposed child-to-servant answer depends on the prior-ayah sequence; the local status noun is handled without importing that boundary.",
-      "finding_refs": [],
+      "decision": "narrow",
+      "reason": "Retain the focus noun's positive relational status as the condition of arrival; exclude the 19:91-92 child-denial comparison from this micro finding.",
+      "finding_refs": [
+        "micro:servant-as-positive-status"
+      ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:91",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "This neighboring boundary context is outside the supplied focus-word surface."
         },
         {
           "context_ref": "19:92",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "This neighboring boundary context is outside the supplied focus-word surface."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -153,7 +142,7 @@
     {
       "candidate_id": "cand_68246e26649f42530892",
       "decision": "narrow",
-      "reason": "The noun, universal scope, and circumstantial attachment support dependent status; the legal image is explicitly contained rather than literalized.",
+      "reason": "Retain ontological dependency conveyed by servant-status; legal ownership remains force only and does not become a human-slavery topic.",
       "finding_refs": [
         "micro:dependent-servant-status"
       ],
@@ -165,9 +154,9 @@
     {
       "candidate_id": "cand_e46c6b4bf779f4b7b129",
       "decision": "accept",
-      "reason": "The final word's local position and circumstantial role are directly supported.",
+      "reason": "The final circumstantial noun closes the expanded subject and destination in one relational status.",
       "finding_refs": [
-        "micro:final-compression"
+        "micro:scope-lands-on-status"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -177,9 +166,9 @@
     {
       "candidate_id": "cand_f38ee4a05ceba62f10bd",
       "decision": "accept",
-      "reason": "The local indefiniteness and accusative form occur inside the universal exceptive construction.",
+      "reason": "The indefinite accusative noun occurs under the universal restriction, so no named or privileged servant is singled out.",
       "finding_refs": [
-        "micro:indefinite-universal-status"
+        "micro:indefinite-status-for-each"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -189,14 +178,14 @@
     {
       "candidate_id": "cand_273a24b5fb0a6a1f6c56",
       "decision": "reject",
-      "reason": "The individual-presentation continuation requires the later ayah's surface, which is not part of the micro focus evidence.",
+      "reason": "Its distinctive sequence runs from this ayah to individual presentation at 19:95, a later pericope development rather than a local micro relation.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:95",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The later individual-presentation continuation belongs to macro context."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -204,28 +193,19 @@
     {
       "candidate_id": "cand_2828d479b7fb44dafd53",
       "decision": "reject",
-      "reason": "The widening of other mercy/servant groups is a cross-ayah field, not a local lexical or syntactic mechanism in 19:93.",
+      "reason": "This candidate widens the local pair through same-surah and cross-surah examples. Its local universal status is retained elsewhere; the wider field is macro context.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:2",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
-        },
-        {
-          "context_ref": "18:65",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_dc352f4203cff42b3818",
       "decision": "accept",
-      "reason": "The singular, indefinite, concrete form is supplied; the member-by-member effect is an interpretation of its universal syntax.",
+      "reason": "The singular concrete noun individualizes universal scope by describing each member in the same capacity.",
       "finding_refs": [
-        "micro:singular-concrete-form"
+        "micro:singular-capacity-for-each"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -235,18 +215,18 @@
     {
       "candidate_id": "cand_73c25ab6251507b74d1d",
       "decision": "reject",
-      "reason": "The named-servant and worship-command echoes require other Surah 19 surfaces, which are not activated in this micro lane.",
+      "reason": "The proposed named-servant and worship-command comparisons at 19:30 and 19:65 are a surah-context pattern, not an in-focus micro relation.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:30",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The named-servant comparison is cross-ayah macro context."
         },
         {
           "context_ref": "19:65",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The worship-command comparison is cross-ayah macro context."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -254,9 +234,9 @@
     {
       "candidate_id": "cand_fb6755ee1a2b135f91a0",
       "decision": "narrow",
-      "reason": "The alternate parse is supplied, but the local attachment evidence strongly favors ḥāl.",
+      "reason": "Retain capacity as a qualified secondary way to hear the accusative; the circumstantial attachment remains the local guardrail.",
       "finding_refs": [
-        "micro:tamyiz-capacity-pressure"
+        "micro:capacity-as-secondary-pressure"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -266,9 +246,9 @@
     {
       "candidate_id": "cand_569d9eb2f17602cfd28e",
       "decision": "accept",
-      "reason": "The local NEG analysis and the later exceptive particle jointly support the restrictive construction.",
+      "reason": "The supplied negative and later exception form one universal restriction over the predicate.",
       "finding_refs": [
-        "micro:negation-exception-restriction"
+        "micro:negative-exception-frame"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -277,11 +257,9 @@
     },
     {
       "candidate_id": "cand_37f51df4e98ac63c9bf8",
-      "decision": "accept",
-      "reason": "The QAC POS and absence of a conditional answer support the local negative reading.",
-      "finding_refs": [
-        "micro:non-conditional-light-form"
-      ],
+      "decision": "reject",
+      "reason": "QAC marks the opening particle as negative, and the clause supplies no conditional answer or emphatic case-governing use. The actual negative-restriction relation is retained; listing absent alternatives adds no independent reading.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -290,9 +268,9 @@
     {
       "candidate_id": "cand_007d77c5ebf806daa49e",
       "decision": "accept",
-      "reason": "Attachment and word order support a single restricted nominal clause.",
+      "reason": "Attachment evidence supports one restricted nominal clause whose subject domain and predicate unfold together.",
       "finding_refs": [
-        "micro:opening-architecture"
+        "micro:single-clause-architecture"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -302,14 +280,14 @@
     {
       "candidate_id": "cand_26827154e780aa7577f6",
       "decision": "reject",
-      "reason": "The accountability parallel is a wider-context pattern; it does not change the local quantifier reading without a supplied context surface.",
+      "reason": "The accountability pattern depends especially on the external 20:15 parallel. That context is outside micro scope; the focus quantifier and exception support the local reading without it.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "20:15",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The totality-coming parallel is explicitly broader context."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -317,9 +295,9 @@
     {
       "candidate_id": "cand_6ee0d3aef5a98ab40612",
       "decision": "accept",
-      "reason": "QAC and attachment evidence identify kullu as the nominative subject head in construct with man.",
+      "reason": "Kull is the nominative head constructed with the following relative pronoun, so it controls the subject domain.",
       "finding_refs": [
-        "micro:construct-universal-subject"
+        "micro:quantifier-head"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -329,9 +307,9 @@
     {
       "candidate_id": "cand_449dbfed8aa7e8b028f5",
       "decision": "narrow",
-      "reason": "The selected quantifier sense is clear; root-completion pressure is bounded by the local exceptive trigger.",
+      "reason": "Keep the bounded pressure of complete inclusion meeting the local exception; do not turn it into a separate lexical sense or second negative.",
       "finding_refs": [
-        "micro:exhausted-alternatives-pressure"
+        "micro:complete-inclusion-pressure"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -341,9 +319,9 @@
     {
       "candidate_id": "cand_08f85584490be3a3c580",
       "decision": "accept",
-      "reason": "The relative pronoun, its supplied personal reference, and the universal construction support distributive scope.",
+      "reason": "The singular quantifier is delimited by the relative phrase and distributes across its rational members.",
       "finding_refs": [
-        "micro:rational-distributive-scope"
+        "micro:member-by-member-totality"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -352,10 +330,10 @@
     },
     {
       "candidate_id": "cand_5f72f90aef3a101a2288",
-      "decision": "narrow",
-      "reason": "The word order gives a local foregrounding effect; sound remains subordinate texture.",
+      "decision": "accept",
+      "reason": "The word order fronts totality before location and predicate; the supplied sound note is subordinate to that syntactic payoff.",
       "finding_refs": [
-        "micro:rhetorical-fronting-and-sound"
+        "micro:totality-arrives-first"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -365,14 +343,14 @@
     {
       "candidate_id": "cand_cac8734fd18195f9cd26",
       "decision": "reject",
-      "reason": "The proposed same-Surah resumption requires the later totality-and-coming surface and is outside the local wording scope.",
+      "reason": "Its distinctive return to pronominal totality and coming at 19:95 requires later pericope context. The focus quantifier remains covered by local findings.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:95",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The later totalizing return is macro context and is not used in a micro finding."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -380,9 +358,9 @@
     {
       "candidate_id": "cand_75f8fb84ac28cfeddd02",
       "decision": "accept",
-      "reason": "Attachment evidence assigns man as complement of the quantifier and hinge into the relative scope.",
+      "reason": "The pronoun completes the quantifier's construct and opens the relative phrase that supplies its class.",
       "finding_refs": [
-        "micro:construct-relative-class"
+        "micro:relative-class-hinge"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -391,11 +369,9 @@
     },
     {
       "candidate_id": "cand_211c27d87409583dccc5",
-      "decision": "accept",
-      "reason": "The QAC alignment identifies a rootless relative pronoun.",
-      "finding_refs": [
-        "micro:false-root-boundary"
-      ],
+      "decision": "reject",
+      "reason": "The proposed favor/bestowal coloration has no carrier: aligned man is a rootless relative pronoun in the supplied QAC. Its positive work is retained as the relative-class hinge; the negative root warning is not an independent reading.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -403,27 +379,22 @@
     },
     {
       "candidate_id": "cand_64e3cc9e340eefa35ff8",
-      "decision": "narrow",
-      "reason": "The focus order directly delays the predicate; the proposed boundary answer depends on 19:92, outside the micro surface.",
+      "decision": "accept",
+      "reason": "The relative phrase postpones the predicate until the cosmic domain has been named.",
       "finding_refs": [
-        "micro:predicate-delay-and-boundary"
+        "micro:domain-before-predicate"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:92",
-          "reason": "The child-relation boundary is a prior-ayah trigger; only the in-ayah subject expansion and predicate delay are retained here."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_11d3a58f6cc03f037d38",
       "decision": "accept",
-      "reason": "The QAC class reading and the final relational noun support a personal scope.",
+      "reason": "The relative pronoun is supplied as referring to rational or personal beings, fitting the final relational servant-state.",
       "finding_refs": [
-        "micro:rational-being-scope"
+        "micro:rational-relative-class"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -433,9 +404,9 @@
     {
       "candidate_id": "cand_7ad12570cce88e488175",
       "decision": "accept",
-      "reason": "The local preposition and later construct provide distinct locative and destination relations.",
+      "reason": "Fi marks where the beings are located, while the later construct supplies where they come.",
       "finding_refs": [
-        "micro:containment-not-origin"
+        "micro:location-before-destination"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -445,9 +416,9 @@
     {
       "candidate_id": "cand_3f46dd75e8ef2d0e1596",
       "decision": "accept",
-      "reason": "The local ordering of locative phrase, coordinated poles, and exception supports the scope sequence.",
+      "reason": "The locative relative phrase completes the heavens-earth field before the exception pivots to the predicate.",
       "finding_refs": [
-        "micro:cosmic-merism-scope"
+        "micro:merism-before-exception"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -457,9 +428,9 @@
     {
       "candidate_id": "cand_54c53a238f3be16982bb",
       "decision": "accept",
-      "reason": "The QAC cases and attachment analysis place both nouns under the same preposition.",
+      "reason": "Both coordinated poles remain under the same preposition, making one locative domain.",
       "finding_refs": [
-        "micro:shared-prepositional-government"
+        "micro:one-locative-domain"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -469,9 +440,9 @@
     {
       "candidate_id": "cand_1e2c4b969f3e54e4ea89",
       "decision": "accept",
-      "reason": "QAC morphology and attachment directly mark the definite plural genitive under fi.",
+      "reason": "The noun is a definite plural genitive within the locative phrase, not an actor or destination.",
       "finding_refs": [
-        "micro:definite-genitive-upper-realm"
+        "micro:upper-realm-in-domain"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -481,9 +452,9 @@
     {
       "candidate_id": "cand_3e23652d21988532467a",
       "decision": "narrow",
-      "reason": "The local upper noun and its lower counterpart support bounded height pressure, not a new lexical sense.",
+      "reason": "Retain elevation as bounded root pressure activated by the upper-lower pairing; the local noun remains the heavens, not abstract ascent.",
       "finding_refs": [
-        "micro:elevation-pressure"
+        "micro:upper-lower-height-pressure"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -493,7 +464,7 @@
     {
       "candidate_id": "cand_b7cbd320e709bd89f6ae",
       "decision": "accept",
-      "reason": "The local coordination with earth strongly licenses the upper/lower merism.",
+      "reason": "The local coordination forms the supplied upper-lower pairing and completes the cosmic domain.",
       "finding_refs": [
         "micro:heavens-earth-merism"
       ],
@@ -505,9 +476,9 @@
     {
       "candidate_id": "cand_ff3c3024904f93997f39",
       "decision": "accept",
-      "reason": "The QAC forms directly give the plural/singular contrast; its compositional effect is bounded.",
+      "reason": "The plural upper realms and singular lower realm keep distinct number while sharing one governed field.",
       "finding_refs": [
-        "micro:number-asymmetry"
+        "micro:plural-and-singular-poles"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -517,18 +488,18 @@
     {
       "candidate_id": "cand_6c8ea8f1b1774749b32e",
       "decision": "reject",
-      "reason": "Worship-command and non-disdain comparisons require non-focus surfaces; the local heaven noun is handled without that echo field.",
+      "reason": "The worship and non-disdain comparison depends on other ayahs, including 19:65 and 21:19. These are macro links; the focus keeps its local upper-realm and merism readings.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:65",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The worship-command comparison is wider surah context."
         },
         {
           "context_ref": "21:19",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The non-disdain comparison is cross-ayah context."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -536,9 +507,9 @@
     {
       "candidate_id": "cand_fdaa9bdf83fca7dc603b",
       "decision": "accept",
-      "reason": "The local conjunction and shared prepositional government support additive coordination.",
+      "reason": "The conjunction adds the opposite earth pole, completing rather than splitting the domain.",
       "finding_refs": [
-        "micro:additive-merism-hinge"
+        "micro:earth-added-to-heavens"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -548,9 +519,9 @@
     {
       "candidate_id": "cand_d5a1c47f18e89fa8f8d1",
       "decision": "accept",
-      "reason": "The conjunction analysis and retained case government establish the continuous phrase.",
+      "reason": "QAC and attachment evidence show coordination under the existing preposition, not a restarted clause.",
       "finding_refs": [
-        "micro:coordination-not-restart"
+        "micro:shared-government-continues"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -559,11 +530,9 @@
     },
     {
       "candidate_id": "cand_56b870adae1cc9f067b7",
-      "decision": "represented",
-      "reason": "Exact duplicate of the retained waw-coordination finding: both candidates identify conjunction under the same fi phrase, with no oath or circumstantial restart; the represented support is attached to that finding.",
-      "finding_refs": [
-        "micro:coordination-not-restart"
-      ],
+      "decision": "reject",
+      "reason": "The support confirms local conjunction, but listing oath and circumstantial alternatives adds no positive semantic relation beyond the retained government and merism findings.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -572,9 +541,9 @@
     {
       "candidate_id": "cand_049da5f7da9b5ec30ec3",
       "decision": "accept",
-      "reason": "QAC morphology and attachment identify definite singular genitive coordination under fi.",
+      "reason": "The definite singular genitive noun is coordinated under fi and remains inside the location phrase.",
       "finding_refs": [
-        "micro:definite-genitive-earth"
+        "micro:earth-in-location-domain"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -584,9 +553,9 @@
     {
       "candidate_id": "cand_dbfa3d1b2c827c751193",
       "decision": "accept",
-      "reason": "The local upper/lower pairing selects the global terrestrial reading.",
+      "reason": "The heavens-earth pairing independently selects the global terrestrial pole.",
       "finding_refs": [
-        "micro:global-terrestrial-pole"
+        "micro:earth-as-cosmic-lower-pole"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -595,11 +564,9 @@
     },
     {
       "candidate_id": "cand_ece06f14bf6554083571",
-      "decision": "narrow",
-      "reason": "The root image and paired poles support groundedness; vulnerability remains a bounded inference rather than a gloss.",
-      "finding_refs": [
-        "micro:grounded-vulnerability-pressure"
-      ],
+      "decision": "reject",
+      "reason": "Earth paired with heaven supports the grounded lower-pole reading already retained; no supplied focus relation independently activates a vulnerability sense, so that claim would exceed its carrier.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -608,9 +575,9 @@
     {
       "candidate_id": "cand_18a9d282ec06c479a8e8",
       "decision": "accept",
-      "reason": "The local sequence places earth at the close of the locative merism before illa.",
+      "reason": "Earth is the final coordinated location and completes the domain immediately before illa.",
       "finding_refs": [
-        "micro:merism-completion"
+        "micro:earth-closes-domain"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -620,28 +587,19 @@
     {
       "candidate_id": "cand_2f6f666380a67a2858ed",
       "decision": "reject",
-      "reason": "Lordship and servant-inheritance comparisons are external context, not a local earth-noun mechanism in this lane.",
+      "reason": "The lordship and servant-inheritance echo depends on other passages, while the focus evidence establishes earth as the lower pole of the current locative domain. The wider echo belongs to macro context.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:65",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
-        },
-        {
-          "context_ref": "21:105",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_0fe0d8cebe2d62d4388e",
       "decision": "accept",
-      "reason": "The local order of the domain, exceptive particle, and predicate supports the pivot.",
+      "reason": "Illa stands after the complete subject-domain and before the participial predicate, making a hinge.",
       "finding_refs": [
-        "micro:hinge-position"
+        "micro:exception-hinge-position"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -651,9 +609,9 @@
     {
       "candidate_id": "cand_9f2718dcc3df6b866377",
       "decision": "accept",
-      "reason": "The local particle analysis and clause structure identify one exceptive function.",
+      "reason": "The local slot contains one exceptive particle in the restricted clause, not a second independent negative.",
       "finding_refs": [
-        "micro:particle-analysis-and-boundary"
+        "micro:single-exception-particle"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -663,9 +621,9 @@
     {
       "candidate_id": "cand_cba04051c53d66a4e2ea",
       "decision": "accept",
-      "reason": "QAC and translation support identify illa as completing the universal restriction over the predicate phrase.",
+      "reason": "The exception completes the restriction over the predicate rather than removing members from the subject.",
       "finding_refs": [
-        "micro:predicate-exception"
+        "micro:exception-scopes-predicate"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -675,9 +633,9 @@
     {
       "candidate_id": "cand_e0f99467835e1188c876",
       "decision": "narrow",
-      "reason": "The variant is explicitly supplied, while the standard local particle analysis is clearer.",
+      "reason": "Retain the variant as contrast that can make the slot feel temporal; keep the standard wording's exceptive restriction intact.",
       "finding_refs": [
-        "micro:variant-temporal-pressure"
+        "micro:variant-temporal-contrast"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -687,9 +645,9 @@
     {
       "candidate_id": "cand_c4546cdeb3d9714c77ca",
       "decision": "narrow",
-      "reason": "The local morphology and construct choose coming; the other verb form is retained only as a bounded contrast.",
+      "reason": "Retain the Form I active-participle arrival sense and destination relation; exclude the contrasted Form IV giving sense from this local form.",
       "finding_refs": [
-        "micro:coming-not-giving"
+        "micro:arrival-not-giving"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -699,9 +657,9 @@
     {
       "candidate_id": "cand_b3f34460390a6954e5ca",
       "decision": "accept",
-      "reason": "Attachment evidence identifies the divine name as the genitive complement of the participle.",
+      "reason": "Attachment evidence makes the divine name the genitive complement of the participial construct, embedding the destination in the predicate.",
       "finding_refs": [
-        "micro:construct-destination"
+        "micro:destination-inside-construct"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -710,10 +668,10 @@
     },
     {
       "candidate_id": "cand_efddb0b88f271a5bfe22",
-      "decision": "accept",
-      "reason": "The participial form and its contextual profile support salience, while no timing is inferred.",
+      "decision": "narrow",
+      "reason": "Keep the contextual-profile observation about the active participle; do not infer that rarity makes it intentionally selected or rhetorical.",
       "finding_refs": [
-        "micro:marked-form-and-motion"
+        "micro:active-participle-profile"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -723,7 +681,7 @@
     {
       "candidate_id": "cand_ae9935882e8e86dcc1b1",
       "decision": "accept",
-      "reason": "QAC and attachment evidence identify the active-participle predicate.",
+      "reason": "QAC and attachment evidence identify ati as the active-participle predicate of the universal subject.",
       "finding_refs": [
         "micro:participial-predicate"
       ],
@@ -735,14 +693,14 @@
     {
       "candidate_id": "cand_7c5973336d247af737f7",
       "decision": "reject",
-      "reason": "The reversal of a prior promise requires the separate promise surface; the local participle is analyzed on its own morphology and syntax.",
+      "reason": "The vector reversal depends on the promise relation at 19:61. That comparison belongs to macro context; the focus participle's local arrival and destination remain grounded.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:61",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The promise comparison is an outside-focus macro trigger."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -750,14 +708,14 @@
     {
       "candidate_id": "cand_0f7d642029cf357758ac",
       "decision": "reject",
-      "reason": "The judgment-day specification depends on a later ayah surface; no such chronology is imported into the micro reading.",
+      "reason": "The proposed completion at 19:95 depends on later pericope context, not a local trigger in 19:93. The participle and servant-state are retained from the focus.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:95",
-          "reason": "This non-focus reference is cited by the candidate's cross-ayah claim, but its surface is not supplied as an activated context for micro."
+          "reason": "The later individual-coming row belongs to macro context."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -765,9 +723,9 @@
     {
       "candidate_id": "cand_8f25b0bda688df6ee718",
       "decision": "represented",
-      "reason": "Exact duplicate of the retained ḥāl attachment finding: both candidates say abdan is the circumstantial state governed by ātī, not an object; the same evidence is carried in that finding.",
+      "reason": "This candidate states the same local relation as the noun-side circumstantial-state finding: abdan is the state of ati, not an object. Its support is included in that single finding.",
       "finding_refs": [
-        "micro:accusative-circumstantial-state"
+        "micro:servant-as-circumstantial-state"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -777,9 +735,9 @@
     {
       "candidate_id": "cand_8375cbccd10b54e5bd5e",
       "decision": "narrow",
-      "reason": "The variant is supplied as contrast, but standard QAC and attachment favor the genitive construct.",
+      "reason": "Preserve the variant's more object-like case pressure as contrast; retain the standard genitive construct destination.",
       "finding_refs": [
-        "micro:variant-attendance-pressure"
+        "micro:variant-destination-case"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -789,7 +747,7 @@
     {
       "candidate_id": "cand_655ca65315b14783a51e",
       "decision": "reject",
-      "reason": "This QAC root-occurrence row identifies a possible carrier only; it supplies no independent local trigger, changed semantic reading, or distinct reader payoff. Root occurrence provenance is preserved in the word findings and HFT traces.",
+      "reason": "This QAC root-occurrence record locates a focus carrier but states no independent semantic relation; it remains carrier evidence for retained findings, not a separate reader claim.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -799,7 +757,7 @@
     {
       "candidate_id": "cand_946f5e6b57471855cf34",
       "decision": "reject",
-      "reason": "This QAC root-occurrence row identifies a possible carrier only; it supplies no independent local trigger, changed semantic reading, or distinct reader payoff. Root occurrence provenance is preserved in the word findings and HFT traces.",
+      "reason": "This QAC root-occurrence record locates a focus carrier but states no independent semantic relation; it remains carrier evidence for retained findings, not a separate reader claim.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -809,7 +767,7 @@
     {
       "candidate_id": "cand_425c829b4716549a361e",
       "decision": "reject",
-      "reason": "This QAC root-occurrence row identifies a possible carrier only; it supplies no independent local trigger, changed semantic reading, or distinct reader payoff. Root occurrence provenance is preserved in the word findings and HFT traces.",
+      "reason": "This QAC root-occurrence record locates a focus carrier but states no independent semantic relation; it remains carrier evidence for retained findings, not a separate reader claim.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -819,7 +777,7 @@
     {
       "candidate_id": "cand_6697631ebec96f8749cd",
       "decision": "reject",
-      "reason": "This QAC root-occurrence row identifies a possible carrier only; it supplies no independent local trigger, changed semantic reading, or distinct reader payoff. Root occurrence provenance is preserved in the word findings and HFT traces.",
+      "reason": "This QAC root-occurrence record locates a focus carrier but states no independent semantic relation; it remains carrier evidence for retained findings, not a separate reader claim.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -829,7 +787,7 @@
     {
       "candidate_id": "cand_cd7f880f7e67a82e280a",
       "decision": "reject",
-      "reason": "This QAC root-occurrence row identifies a possible carrier only; it supplies no independent local trigger, changed semantic reading, or distinct reader payoff. Root occurrence provenance is preserved in the word findings and HFT traces.",
+      "reason": "This QAC root-occurrence record locates a focus carrier but states no independent semantic relation; it remains carrier evidence for retained findings, not a separate reader claim.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -839,7 +797,7 @@
     {
       "candidate_id": "cand_358ba4318cb84c8d60e6",
       "decision": "reject",
-      "reason": "This QAC root-occurrence row identifies a possible carrier only; it supplies no independent local trigger, changed semantic reading, or distinct reader payoff. Root occurrence provenance is preserved in the word findings and HFT traces.",
+      "reason": "This QAC root-occurrence record locates a focus carrier but states no independent semantic relation; it remains carrier evidence for retained findings, not a separate reader claim.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -849,7 +807,7 @@
     {
       "candidate_id": "cand_44037f070e70dfce36da",
       "decision": "reject",
-      "reason": "The local word is the divine name; biological root imagery is limited to pressure and the sound note is decorative.",
+      "reason": "The supplied review says biological root imagery is limited to pressure and the sound note is decorative; neither yields a separate local payoff.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -859,7 +817,7 @@
     {
       "candidate_id": "cand_54ecf6603eb5f6defe36",
       "decision": "reject",
-      "reason": "The rows do not add a separate local payoff after the main grammatical, lexical, and boundary topics are retained.",
+      "reason": "The supplied review says these rows add no separate local payoff after the retained grammar, lexical, and boundary topics.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -869,7 +827,7 @@
     {
       "candidate_id": "cand_d21eeb02f15169455741",
       "decision": "reject",
-      "reason": "The row is decorative compared with the stronger grammar and scope topics.",
+      "reason": "The supplied review marks this sound observation decorative beside the stronger grammar and scope topics.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -879,7 +837,7 @@
     {
       "candidate_id": "cand_1f467be620d50d315391",
       "decision": "reject",
-      "reason": "The row is too broad for this word once stronger local totality topics are retained; distant sovereignty formula examples do not add a distinct local mechanism.",
+      "reason": "The supplied review says the formula examples are too broad once local totality and the 19:95 echo are separately handled.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -889,7 +847,7 @@
     {
       "candidate_id": "cand_71f82928b412d1298f31",
       "decision": "reject",
-      "reason": "The form note is fully preserved by the retained government and locative-scope topics.",
+      "reason": "The supplied review says the visible short form is already preserved by locative government and scope.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -899,7 +857,7 @@
     {
       "candidate_id": "cand_e7e8a7e6c533cb955d08",
       "decision": "reject",
-      "reason": "The sound observation repeats the coordination payoff already retained under the merism topic.",
+      "reason": "The supplied review says this sound observation repeats the coordination payoff carried by the merism.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -909,7 +867,7 @@
     {
       "candidate_id": "cand_1956bc9ee4e18f046228",
       "decision": "reject",
-      "reason": "The liaison note duplicates the stronger coordination payoff.",
+      "reason": "The supplied review says the liaison note duplicates the coordination payoff.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -919,7 +877,7 @@
     {
       "candidate_id": "cand_24de154ea599e6df979a",
       "decision": "reject",
-      "reason": "These rows are supporting texture rather than a separate reader-facing insight.",
+      "reason": "The supplied review says these rows are supporting texture rather than a separate reader insight.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -929,7 +887,7 @@
     {
       "candidate_id": "cand_cf923dc2c5128cef24cc",
       "decision": "reject",
-      "reason": "The sound note duplicates the stronger hinge-position payoff.",
+      "reason": "The supplied review says the sound note duplicates the hinge-position payoff.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -939,7 +897,7 @@
     {
       "candidate_id": "cand_9d1f0ac523bf6b65165f",
       "decision": "reject",
-      "reason": "These rows are supportive texture but not separate translation or commentary obligations.",
+      "reason": "The supplied review says these rows are supportive texture but not separate translation or commentary obligations.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -949,9 +907,9 @@
     {
       "candidate_id": "cand_c6090f185d59fe61a76e",
       "decision": "accept",
-      "reason": "HFT roles remain legacy-unbound attributions, but all stated focus coordinates and roots match supplied QAC occurrences.",
+      "reason": "The six HFT coordinates and roots match supplied focus words; the attributed convergence reading stays within the named roles and returns through focus surface.",
       "finding_refs": [
-        "micro:baseline-universal-convergence"
+        "micro:universal-convergence"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -961,9 +919,9 @@
     {
       "candidate_id": "cand_a4f32b74b74dbaac4729",
       "decision": "accept",
-      "reason": "The legacy-unbound trace coordinates and roots match the local Rahman and abdan forms; the semantic relation remains explicitly attributed.",
+      "reason": "The HFT roots and word indices match the supplied al-Rahman/abdan surface; kinship, womb, and ownership remain attributed images within the stated asymmetry role.",
       "finding_refs": [
-        "micro:baseline-held-asymmetry"
+        "micro:held-asymmetry"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -973,9 +931,9 @@
     {
       "candidate_id": "cand_621f8216850923a8672e",
       "decision": "accept",
-      "reason": "The exact HFT focus coordinates and mapped roots match the supplied forms, but the combined road metaphor is explicitly form-distant and remains exploratory.",
+      "reason": "The road, terminal-boundary, servanthood-road, and totality traces name supplied focus indices and roots; the multi-step image stays within those roles and returns through focus words.",
       "finding_refs": [
-        "micro:outlier-paved-convergence"
+        "micro:paved-convergence"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -985,299 +943,20 @@
   ],
   "findings": [
     {
-      "finding_ref": "micro:case-variant-construct",
-      "origin_candidate_id": "cand_267ff7de7f40ad07f9c2",
-      "represented_candidate_ids": [],
-      "title": "Genitive construct anchors the destination",
-      "claim": "In the standard wording, al-Raḥmān is the genitive complement of ātī, so the destination is built into the participial phrase rather than added as a loose object.",
-      "mechanism": "The local genitive construct gives the name its destination role; the supplied variant can make that role more object-like but does not displace the standard parse.",
-      "reader_payoff": "Universal coming is directed toward a named destination within the predicate itself.",
-      "containment": "Retain the variant as contrastive apparatus only; the focus reading remains a genitive construct.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "QAC and attachment evidence support the standard genitive construct; the variant is bounded as contrast, not a replacement."
-      },
-      "support_ids": [
-        "sup_27308a89a3441af28a52",
-        "sup_fce0ec405e0bad4b290c"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:mercy-name-force",
-      "origin_candidate_id": "cand_ddd6f257a59123dc6fcb",
-      "represented_candidate_ids": [],
-      "title": "Mercy-name frames the universal arrival",
-      "claim": "The destination name al-Raḥmān frames the universal servant-state through intensive mercy, not an unspecified power-title.",
-      "mechanism": "The definite divine name sits in genitive construct as the goal of ātī; its intensive mercy-name force colors that destination relation.",
-      "reader_payoff": "The reader sees universal dependence addressed to a personally named and mercy-framed destination.",
-      "containment": "This remains a proper divine name, not a generic adjective; kinship and womb senses are not asserted as lexical meanings here.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The name, construct relation, and mercy-root form are locally supported, while the interpretive force is kept bounded."
-      },
-      "support_ids": [
-        "sup_27308a89a3441af28a52",
-        "sup_c2fd96395db4fe2991ce"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:mercy-servitude-echoes",
-      "origin_candidate_id": "cand_e847d654d00547aec67b",
-      "represented_candidate_ids": [],
-      "title": "Mercy and servitude meet locally",
-      "claim": "Within 19:93, the final servant-state is placed in relation to the named Merciful destination, bringing mercy and dependence together across the universal predicate.",
-      "mechanism": "Al-Raḥmān names the goal of coming and abdan gives the state of arrival; their local contact makes the universal status mercy-framed without requiring a wider audience.",
-      "reader_payoff": "The universal servant relation is not detached from the name of the Merciful.",
-      "containment": "Keep only the local phrase-level co-presence; omit the proposed cross-ayah comparisons and do not infer reciprocity or active kinship/womb meanings.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local name-plus-servant relation is visible, but the proposed echo field requires unprovided context surfaces."
-      },
-      "support_ids": [
-        "sup_27308a89a3441af28a52",
-        "sup_fd4395b5d56bdee9e427"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:proper-name-destination",
-      "origin_candidate_id": "cand_0ec68597aac8f5b59462",
-      "represented_candidate_ids": [],
-      "title": "A named destination inside the construct",
-      "claim": "Al-Raḥmān is the specific divine destination built into the coming participle.",
-      "mechanism": "The genitive proper name is syntactically bound to ātī, making destination a grammatical relation rather than an inference from wider discourse.",
-      "reader_payoff": "The reader follows movement toward a named referent, not a free-floating agent or quality.",
-      "containment": "This is a coming-to relation in the standard construct, not a recipient-of-giving role.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "QAC and attachment evidence directly identify the definite divine name as the participle's genitive complement."
-      },
-      "support_ids": [
-        "sup_27308a89a3441af28a52",
-        "sup_b07db4a4b667c7dd5a0a"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:unique-divine-referent",
-      "origin_candidate_id": "cand_3285333b3954e41ccf68",
-      "represented_candidate_ids": [],
-      "title": "Unique referent, not an abstract quality",
-      "claim": "The definite form al-Raḥmān identifies a unique divine referent rather than an impersonal merciful quality.",
-      "mechanism": "The lexicalized name and its genitive destination role make the endpoint personal and definite.",
-      "reader_payoff": "The clause remains a relation to someone named, rather than an abstract property.",
-      "containment": "This does not deny divine mercy as an attribute; it only prevents replacing the proper name with a generic adjective.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local form and lexical evidence identify the divine name and its specific referent."
-      },
-      "support_ids": [
-        "sup_27308a89a3441af28a52",
-        "sup_3c76143cbf37d6fb5b08"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:accusative-circumstantial-state",
-      "origin_candidate_id": "cand_b6f9eff5991d4cb6bde3",
-      "represented_candidate_ids": [
-        "cand_8f25b0bda688df6ee718"
-      ],
-      "title": "Servant as arrival-state",
-      "claim": "The accusative abdan is a circumstantial state attached to ātī: it names the condition in which each being arrives, not a second object.",
-      "mechanism": "QAC case and attachment place the final noun as ḥāl of the participle, shifting the reading from something carried or given to a state of arrival.",
-      "reader_payoff": "Servitude describes how the arrival obtains, rather than an object accompanying the beings.",
-      "containment": "A capacity nuance can be heard secondarily, but the local attachment favors ḥāl over object or primary tamyīz.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The QAC morphology and attachment evidence directly support the circumstantial relation."
-      },
-      "support_ids": [
-        "sup_af3eb97acd04bfb09a63",
-        "sup_e88bd977cf0da17a996b",
-        "sup_1d180b85d05ac37a97c4",
-        "sup_23bd79509dae215ef1a5"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:dependent-servant-status",
-      "origin_candidate_id": "cand_68246e26649f42530892",
-      "represented_candidate_ids": [],
-      "title": "Dependent status, not a mere act",
-      "claim": "The concrete singular servant noun names a dependent relation to al-Raḥmān, not only an ongoing act of worship; legal ownership imagery remains a bounded semantic force, not a human-slavery topic.",
-      "mechanism": "Abdan is the circumstantial state under universal restriction, with al-Raḥmān as destination. The local relation predicates dependence of each arriver without turning the passage into a description of human legal status.",
-      "reader_payoff": "The reader perceives relational and ontological dependence before God rather than worship as action alone.",
-      "containment": "Retain the dependence/status edge and ownership contrast only as force; do not literalize human slavery or reduce the noun to worshipper-only.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The noun, universal scope, and circumstantial attachment support dependent status; the legal image is explicitly contained rather than literalized."
-      },
-      "support_ids": [
-        "sup_17bfd21ba4528f6c8453",
-        "sup_e88bd977cf0da17a996b"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:final-compression",
-      "origin_candidate_id": "cand_e46c6b4bf779f4b7b129",
-      "represented_candidate_ids": [],
-      "title": "The ayah lands in one status noun",
-      "claim": "The expanded cosmic subject and named destination contract at the final noun into one universal status: servant.",
-      "mechanism": "After the subject, locative span, exception, participle, and divine name, the last singular accusative noun supplies the relational state that closes the clause.",
-      "reader_payoff": "Maximum scope resolves in one condition borne by each member of the subject set.",
-      "containment": "This is a local compositional effect, not a separate ontological event or a claim about the following ayah.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The final word's local position and circumstantial role are directly supported."
-      },
-      "support_ids": [
-        "sup_06a92ed27c80c8b41f63",
-        "sup_e88bd977cf0da17a996b"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:indefinite-universal-status",
-      "origin_candidate_id": "cand_f38ee4a05ceba62f10bd",
-      "represented_candidate_ids": [],
-      "title": "Indefinite status applies to each arrival",
-      "claim": "The indefinite abdan gives the servant-status generically to every member under the preceding universal restriction, without selecting a named or privileged servant.",
-      "mechanism": "The universal subject supplies the scope and the indefinite singular accusative supplies the unmarked state for each arrival.",
-      "reader_payoff": "No favored individual is singled out; the same status is distributed across the class.",
-      "containment": "The scope is the relative personal class established by man, not an unbounded claim about inanimate things.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local indefiniteness and accusative form occur inside the universal exceptive construction."
-      },
-      "support_ids": [
-        "sup_dcb444fae19a23572bd9",
-        "sup_e88bd977cf0da17a996b"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:singular-concrete-form",
-      "origin_candidate_id": "cand_dc352f4203cff42b3818",
-      "represented_candidate_ids": [],
-      "title": "One concrete status for each member",
-      "claim": "The singular concrete noun presents each member as arriving in the same servant capacity rather than naming a collective servant class.",
-      "mechanism": "Its singular indefinite form interacts with the distributive kullu-man subject: one status is predicated member by member.",
-      "reader_payoff": "The reader can picture each being in the same relational condition, not a mass label.",
-      "containment": "Grammatical singularity does not imply only one servant or identify the class with human slaves.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The singular, indefinite, concrete form is supplied; the member-by-member effect is an interpretation of its universal syntax."
-      },
-      "support_ids": [
-        "sup_3e80eceaa5a100b8b599",
-        "sup_e88bd977cf0da17a996b"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:tamyiz-capacity-pressure",
-      "origin_candidate_id": "cand_fb6755ee1a2b135f91a0",
-      "represented_candidate_ids": [],
-      "title": "Capacity as a secondary nuance",
-      "claim": "A capacity reading of abdan can clarify the manner of arrival, but the local attachment as circumstantial state remains primary.",
-      "mechanism": "The accusative final noun permits a capacity nuance; QAC attachment instead relates it as ḥāl to ātī, so capacity refines rather than replaces the state reading.",
-      "reader_payoff": "A manner nuance survives without flipping the grammatical attachment.",
-      "containment": "Do not promote the supplied capacity parse over the locally licensed circumstantial state.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The alternate parse is supplied, but the local attachment evidence strongly favors ḥāl."
-      },
-      "support_ids": [
-        "sup_ca2a3f848197cb579d3e",
-        "sup_e88bd977cf0da17a996b"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:negation-exception-restriction",
+      "finding_ref": "micro:negative-exception-frame",
       "origin_candidate_id": "cand_569d9eb2f17602cfd28e",
       "represented_candidate_ids": [],
       "title": "Negation completed by exception",
-      "claim": "The opening negative particle and later illa form an exhaustive restriction over the universal predicate.",
-      "mechanism": "QAC identifies in as negation; the later exception closes that frame, making the servant-arrival predicate the affirmed relation for the full subject.",
-      "reader_payoff": "The clause clears rival predicates before asserting the shared servant-state.",
-      "containment": "The particle is negative here, not conditional or emphatic; the restriction is completed by the later exception.",
+      "claim": "The opening denial and later exception frame one assertion about the whole quantified class.",
+      "mechanism": "The negative particle sets the restriction; the single illa supplies its affirmed predicate, making this one negative-exceptive clause.",
+      "reader_payoff": "The reader follows the clause from its opening denial to the predicate that reaches the whole class.",
+      "containment": "The exception does not remove a subset of beings; kull remains complete inclusion.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local NEG analysis and the later exceptive particle jointly support the restrictive construction."
+        "reason": "QAC and attachment evidence support the negative particle and clause-level exception."
       },
       "support_ids": [
         "sup_417925788554de13f17b",
@@ -1289,45 +968,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:non-conditional-light-form",
-      "origin_candidate_id": "cand_37f51df4e98ac63c9bf8",
-      "represented_candidate_ids": [],
-      "title": "Negative, not conditional or emphatic",
-      "claim": "Here ʾin is a negating particle, not a conditional or emphatic particle.",
-      "mechanism": "The clause has no conditional answer, and QAC marks the particle as negative; illa later completes the exceptive frame.",
-      "reader_payoff": "The reader takes the opening as an assertion under restriction rather than a hypothesis awaiting an answer.",
-      "containment": "This is a local grammatical disambiguation, not a claim that the particle has no other functions elsewhere.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The QAC POS and absence of a conditional answer support the local negative reading."
-      },
-      "support_ids": [
-        "sup_3f0700a4bfd32b2026de",
-        "sup_92bc0073ac6951c60da6"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:opening-architecture",
+      "finding_ref": "micro:single-clause-architecture",
       "origin_candidate_id": "cand_007d77c5ebf806daa49e",
       "represented_candidate_ids": [],
-      "title": "Opening frame governs one clause",
-      "claim": "The opening negation frames one restricted nominal clause whose subject, domain, arrival, and state unfold as a single predication.",
-      "mechanism": "The initial particle scopes over the constructed universal subject and its delayed predicate; illa completes the restriction after the domain is stated.",
-      "reader_payoff": "The ayah moves from clearing alternatives through widening scope to one final relation.",
-      "containment": "Do not split the sequence into independent assertions or assign the exception a second clause role.",
+      "title": "One clause unfolds as a restriction",
+      "claim": "The opening particle governs a clause that carries the quantified domain, destination, and servant-state as one predication.",
+      "mechanism": "The quantifier and relative phrase build the subject; the exception then pivots to the participle and final state.",
+      "reader_payoff": "The reader can track one expanding assertion rather than restart at the cosmic phrase.",
+      "containment": "No unstated clause or temporal condition is added.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "Attachment and word order support a single restricted nominal clause."
+        "reason": "The supplied attachment analysis and surface order directly support the clause structure."
       },
       "support_ids": [
         "sup_7fbf3177a94966332c37",
@@ -1339,20 +993,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:construct-universal-subject",
+      "finding_ref": "micro:quantifier-head",
       "origin_candidate_id": "cand_6ee0d3aef5a98ab40612",
       "represented_candidate_ids": [],
-      "title": "Construct-bound universal subject",
-      "claim": "Nominative kullu is the head of a construct with man, yielding an exhaustive subject over every rational being rather than an unanchored all.",
-      "mechanism": "The construct binds the quantifier to the following relative pronoun and places that subject over the participial predicate.",
-      "reader_payoff": "Totality is grammatically tied to a personal class before location or predicate is supplied.",
-      "containment": "Use the packet's rational-person reading of man; do not detach kullu as a vague standalone totality.",
+      "title": "A constructed universal subject",
+      "claim": "Kull heads the subject and binds the following relative class, placing the whole class under the later predicate.",
+      "mechanism": "The construct relation makes the relative class the quantifier's complement; its phrase then locates that class.",
+      "reader_payoff": "Totality is grammatically attached to the beings in the stated domain, not left as a free-standing slogan.",
+      "containment": "No independent subject is added.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "QAC and attachment evidence identify kullu as the nominative subject head in construct with man."
+        "reason": "QAC and attachment evidence directly identify the nominative construct head."
       },
       "support_ids": [
         "sup_2f9198b8d8c5c1e2d5ad",
@@ -1364,25 +1018,24 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:exhausted-alternatives-pressure",
+      "finding_ref": "micro:complete-inclusion-pressure",
       "origin_candidate_id": "cand_449dbfed8aa7e8b028f5",
       "represented_candidate_ids": [],
-      "title": "Exhaustive inclusion as root-image pressure",
-      "claim": "Kullu keeps its ordinary complete-inclusion sense, while the later exception can make the field feel as though no alternative remains outside.",
-      "mechanism": "The core branch of kullu's whole/all sense meets the independent exceptive particle illa; that contact sharpens exhaustiveness without replacing quantification with a separate meaning of exhaustion.",
-      "reader_payoff": "The reader feels the restriction closing every possible escape while retaining the ordinary universal subject.",
-      "containment": "This is qualified image-pressure only; kullu does not lexically mean that alternatives are exhausted.",
+      "title": "Complete inclusion under the exception",
+      "claim": "Kull still means complete inclusion, while its contact with the exceptive particle lets that completeness feel exhaustive.",
+      "mechanism": "Kull carries the whole set; illa independently closes the predicate slot, so the totality is experienced across a completed restriction.",
+      "reader_payoff": "The exception sharpens the sense that the entire class falls within the predicate without changing kull's ordinary meaning.",
+      "containment": "This is image-level pressure, not a root sense of exhaustion or an exemption of any member.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The selected quantifier sense is clear; root-completion pressure is bounded by the local exceptive trigger."
+        "reason": "The focus quantifier and exception are grounded; the exhaustion image is explicitly bounded."
       },
       "support_ids": [
         "sup_3e63e0213cc7407b67c9",
-        "sup_7cc4a65005cd472e3f64",
-        "sup_ebc09eb58830b78a7a6e"
+        "sup_7cc4a65005cd472e3f64"
       ],
       "branch_activations": [
         {
@@ -1390,7 +1043,7 @@
           "facet_id": "F001",
           "branch_gloss": "bütün, tüm",
           "facet_statement": "Bir şeyin parçalarının veya bir kümedeki bireylerin hiçbirini dışarıda bırakmadan kapsanması çekirdektir.",
-          "application_mode": "analogical",
+          "application_mode": "contextual_resonance",
           "carrier_refs": [
             "19:93:2:1"
           ],
@@ -1398,14 +1051,13 @@
             "19:93:7:1"
           ],
           "focus_return_refs": [
-            "19:93:2:1",
-            "19:93:7:1"
+            "19:93:2:1"
           ],
-          "carrier": "Kullu as a quantifier of complete inclusion.",
-          "independent_trigger": "The later illa supplies the exceptive restriction.",
-          "activation": "The quantifier's whole-set carrier meets the exception particle, making the already complete scope feel closed against alternatives.",
-          "resulting_reading": "Every member of the relative class remains inside the universal restriction; no separate lexical sense of exhaustion is added.",
-          "boundary": "Image-pressure is secondary to the ordinary quantifier reading; it does not replace kullu with an event of finishing."
+          "carrier": "Kull carries complete inclusion over a set.",
+          "independent_trigger": "The single exceptive particle independently closes the predicate slot.",
+          "activation": "The completed restriction contacts kull's whole-set meaning and adds pressure of exhaustiveness without replacing inclusion.",
+          "resulting_reading": "The complete set is felt as having no member outside the coming predicate.",
+          "boundary": "The branch remains whole-set inclusion; no separate lexical sense of exhaustion is asserted."
         }
       ],
       "connection_refs": [],
@@ -1413,20 +1065,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:rational-distributive-scope",
+      "finding_ref": "micro:member-by-member-totality",
       "origin_candidate_id": "cand_08f85584490be3a3c580",
       "represented_candidate_ids": [],
-      "title": "Every rational member included",
-      "claim": "The singular universal quantifier distributes member by member over man’s personal or rational class rather than naming a bulk mass.",
-      "mechanism": "Man delimits the relative class and kullu ranges across its members; the final relational servant-status can therefore apply distributively.",
-      "reader_payoff": "The reader sees each person included, not merely an undifferentiated total.",
-      "containment": "Keep the class at the supplied rational/personal scope; do not widen the pronoun to inanimate things.",
+      "title": "Totality applies member by member",
+      "claim": "The quantifier reaches each rational member of the relative class rather than treating the class as an undifferentiated mass.",
+      "mechanism": "The relative phrase defines the set and singular kull scopes over it distributively.",
+      "reader_payoff": "Universal scope remains personal and member-specific across the whole set.",
+      "containment": "No numerical count or individual biography is implied.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The relative pronoun, its supplied personal reference, and the universal construction support distributive scope."
+        "reason": "The supplied relative construction and quantifier analysis support distributive scope."
       },
       "support_ids": [
         "sup_3e63e0213cc7407b67c9",
@@ -1438,20 +1090,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:rhetorical-fronting-and-sound",
+      "finding_ref": "micro:totality-arrives-first",
       "origin_candidate_id": "cand_5f72f90aef3a101a2288",
       "represented_candidate_ids": [],
-      "title": "Totality arrives first",
-      "claim": "Kullu is foregrounded before location or predicate, so totality lands first; the sound observation only supports that emphasis as texture.",
-      "mechanism": "The quantifier leads the constructed subject phrase before the locative span and delayed predicate; the sound note reinforces but does not create the semantic result.",
-      "reader_payoff": "The reader encounters full scope before learning where the members are or what predicate applies.",
-      "containment": "Retain fronting as the reading; do not make sound an independent lexical or causal claim.",
+      "title": "Totality is heard before its domain",
+      "claim": "Kull precedes the locative domain and predicate, so the reader receives the scope before its contents.",
+      "mechanism": "The relative class and cosmic locations follow the fronted quantifier, delaying the predicate until the field is complete.",
+      "reader_payoff": "Universal scope arrives before any one location or action.",
+      "containment": "No separate sound claim is retained; the finding rests on word order.",
       "epistemic": {
-        "status": "qualified",
+        "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The word order gives a local foregrounding effect; sound remains subordinate texture."
+        "reason": "The supplied word-order evidence supports the reading; sound is not needed."
       },
       "support_ids": [
         "sup_3e63e0213cc7407b67c9",
@@ -1463,20 +1115,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:construct-relative-class",
+      "finding_ref": "micro:relative-class-hinge",
       "origin_candidate_id": "cand_75f8fb84ac28cfeddd02",
       "represented_candidate_ids": [],
-      "title": "Relative class completes the quantifier",
-      "claim": "Man completes the construct with kullu as its relative class, so the subject means everyone who belongs to the stated personal domain, not two independent subjects.",
-      "mechanism": "The construct relation binds quantifier and relative pronoun; the relative phrase then expands through the locative domain.",
-      "reader_payoff": "The reader knows what the universal quantifier ranges over before the predicate arrives.",
-      "containment": "Man remains a relative pronoun in the construction, not a second subject or a separate lexical noun.",
+      "title": "The relative pronoun completes the quantifier",
+      "claim": "Man is the complement of kull and the hinge into the phrase that specifies who belongs to the universal class.",
+      "mechanism": "Its construct attachment prevents man from becoming a second subject while the following phrase delimits the class.",
+      "reader_payoff": "The universal subject becomes a defined relative class before its predicate arrives.",
+      "containment": "The supplied QAC marks the pronoun as rootless; no root imagery is added.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "Attachment evidence assigns man as complement of the quantifier and hinge into the relative scope."
+        "reason": "The supplied attachment relation and QAC category support the construct reading."
       },
       "support_ids": [
         "sup_31c228c3364444e95803",
@@ -1488,45 +1140,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:false-root-boundary",
-      "origin_candidate_id": "cand_211c27d87409583dccc5",
+      "finding_ref": "micro:domain-before-predicate",
+      "origin_candidate_id": "cand_64e3cc9e340eefa35ff8",
       "represented_candidate_ids": [],
-      "title": "Rootless relative pronoun",
-      "claim": "Man is a rootless relative pronoun whose personal scope follows its syntax, not an imported favor or bestowal-root coloring.",
-      "mechanism": "QAC marks the item as REL with no lexical root; the relative construction supplies the class boundary and blocks unrelated root association.",
-      "reader_payoff": "The reader avoids coloring the pronoun with a meaning its form does not carry.",
-      "containment": "This excludes only root-derived coloring; it does not narrow the supported personal scope.",
+      "title": "The subject expands before the predicate",
+      "claim": "After kull man, the locative phrase names the heavens and earth before the coming predicate appears.",
+      "mechanism": "The relative phrase continues the subject through its locations, delaying ati until the domain is complete.",
+      "reader_payoff": "The reader experiences the claim widening before learning its predicate.",
+      "containment": "This describes local order only and does not depend on the prior ayah's boundary.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The QAC alignment identifies a rootless relative pronoun."
-      },
-      "support_ids": [
-        "sup_0ca45f31a3ac1dc83e8b",
-        "sup_3a015724212aefb9dbcf"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:predicate-delay-and-boundary",
-      "origin_candidate_id": "cand_64e3cc9e340eefa35ff8",
-      "represented_candidate_ids": [],
-      "title": "Subject expansion delays the predicate",
-      "claim": "The constructed relative subject is expanded through the cosmic locative domain before the participial predicate appears; this is a local syntactic delay.",
-      "mechanism": "Kullu-man and its fi phrase precede illa and ātī, postponing the predicate until the class and domain have been named.",
-      "reader_payoff": "The clause widens through its subject field before resolving into its predicate.",
-      "containment": "Limit the claim to the word order inside 19:93; do not use the preceding child-relation discussion as part of this micro finding.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The focus order directly delays the predicate; the proposed boundary answer depends on 19:92, outside the micro surface."
+        "reason": "The supplied attachment and word-order evidence show the delayed predicate."
       },
       "support_ids": [
         "sup_3a015724212aefb9dbcf",
@@ -1538,20 +1165,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:rational-being-scope",
+      "finding_ref": "micro:rational-relative-class",
       "origin_candidate_id": "cand_11d3a58f6cc03f037d38",
       "represented_candidate_ids": [],
-      "title": "Personal beings, not things",
-      "claim": "Man gives the universal claim a rational or personal scope capable of standing in the final servant relation, rather than making it about every inanimate item.",
-      "mechanism": "The relative pronoun's supplied reference to rational beings meets the relational status noun at the clause end.",
-      "reader_payoff": "The reader sees a universal over persons who can occupy a servant relation.",
-      "containment": "Do not narrow the group to humans only; retain the packet's broader rational-being category.",
+      "title": "The class is personal and rational",
+      "claim": "Man identifies beings capable of bearing the final servant relation, not an arbitrary inventory of things.",
+      "mechanism": "The relative class is constrained by the later predicate and servant-state as personal beings.",
+      "reader_payoff": "The scope is vast while still naming beings who can bear a relational status.",
+      "containment": "No claim about non-rational entities is inferred beyond local scope.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The QAC class reading and the final relational noun support a personal scope."
+        "reason": "The candidate's QAC and attachment evidence support the personal relative class."
       },
       "support_ids": [
         "sup_34db6a57d9659a2dd47e",
@@ -1563,20 +1190,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:containment-not-origin",
+      "finding_ref": "micro:location-before-destination",
       "origin_candidate_id": "cand_7ad12570cce88e488175",
       "represented_candidate_ids": [],
-      "title": "Location, not source",
-      "claim": "Fi locates the beings within the named cosmic domain; it does not state where they originate.",
-      "mechanism": "The preposition's local locative sense marks containment, while destination is supplied later by the participial construct with al-Raḥmān.",
-      "reader_payoff": "The reader distinguishes where the beings are from where they come.",
-      "containment": "Do not transfer the later destination relation or a causal-origin reading into fi.",
+      "title": "Location is distinct from destination",
+      "claim": "The heavens and earth are the domain in which the beings are located; al-Rahman is the destination to which they come.",
+      "mechanism": "Fi governs the cosmic phrase, while the later participial construct gives ati a separate goal.",
+      "reader_payoff": "The clause distinguishes the subject's location from its movement's destination.",
+      "containment": "This is a local syntactic distinction, not a claim about origin.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local preposition and later construct provide distinct locative and destination relations."
+        "reason": "The supplied preposition and attachment analysis distinguish containment from the later construct."
       },
       "support_ids": [
         "sup_4e49aa176c4cf902cf10",
@@ -1588,20 +1215,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:cosmic-merism-scope",
+      "finding_ref": "micro:merism-before-exception",
       "origin_candidate_id": "cand_3f46dd75e8ef2d0e1596",
       "represented_candidate_ids": [],
-      "title": "The cosmic domain closes before exception",
-      "claim": "The locative relative phrase names the full heavens-and-earth domain before illa pivots to the predicate.",
-      "mechanism": "The relative phrase contains the paired upper and lower poles; the exception follows only after that scope has been stated.",
-      "reader_payoff": "The reader hears the restriction turn only after the whole named domain is in view.",
-      "containment": "The merism remains inside the relative subject phrase; it is not a new subject or a destination.",
+      "title": "The cosmic field closes before the exception",
+      "claim": "The locative phrase names the paired heavens and earth before illa introduces the predicate.",
+      "mechanism": "The relative phrase and shared locative government finish the subject's domain before the exceptive hinge.",
+      "reader_payoff": "The full upper-lower field arrives before the assertion turns toward coming.",
+      "containment": "The merism is local to the focus phrase, not a surah-wide system.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local ordering of locative phrase, coordinated poles, and exception supports the scope sequence."
+        "reason": "The supplied attachment, coordination, and surface order support the sequence."
       },
       "support_ids": [
         "sup_ef3e134a675539025f05",
@@ -1613,20 +1240,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:shared-prepositional-government",
+      "finding_ref": "micro:one-locative-domain",
       "origin_candidate_id": "cand_54c53a238f3be16982bb",
       "represented_candidate_ids": [],
       "title": "One preposition governs both poles",
-      "claim": "One occurrence of fi governs both the heavens and the coordinated earth in a single locative phrase.",
-      "mechanism": "Fi precedes al-samawati and the coordinated al-ardi remains under the same genitive government.",
+      "claim": "Fi governs both the heavens and earth, joining them as one location for the quantified class.",
+      "mechanism": "The conjunction coordinates the second noun under the preposition already attached to the first.",
       "reader_payoff": "The two cosmic poles form one governed domain rather than separate clause parts.",
-      "containment": "No second preposition or independent location clause is supplied.",
+      "containment": "No second prepositional phrase is added.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The QAC cases and attachment analysis place both nouns under the same preposition."
+        "reason": "QAC and attachment evidence support shared prepositional government."
       },
       "support_ids": [
         "sup_9a36dbba34072058a225",
@@ -1638,20 +1265,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:definite-genitive-upper-realm",
+      "finding_ref": "micro:upper-realm-in-domain",
       "origin_candidate_id": "cand_1e2c4b969f3e54e4ea89",
       "represented_candidate_ids": [],
-      "title": "Definite upper realm under fi",
-      "claim": "Al-samawati is a definite plural genitive naming the upper realm inside the locative subject-domain, not an actor or destination.",
-      "mechanism": "The article, plural noun, genitive form, and preceding fi assign the word its local nominal role.",
-      "reader_payoff": "Even the upper created realm is included within the subject field.",
-      "containment": "This is a local spatial noun, not a subject or an agent of coming.",
+      "title": "The heavens are inside the subject's domain",
+      "claim": "The definite plural samawat is governed by fi and names the upper realm where the class is located.",
+      "mechanism": "Its case and preposition place the heavens inside the relative subject phrase; the destination comes later.",
+      "reader_payoff": "The highest created realm is included within the same location phrase.",
+      "containment": "This does not activate rainfall, cloud, or naming branches.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "QAC morphology and attachment directly mark the definite plural genitive under fi."
+        "reason": "The supplied QAC and attachment evidence establish definiteness, number, and case."
       },
       "support_ids": [
         "sup_e7abf4c998110dce1c2f",
@@ -1663,25 +1290,24 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:elevation-pressure",
+      "finding_ref": "micro:upper-lower-height-pressure",
       "origin_candidate_id": "cand_3e23652d21988532467a",
       "represented_candidate_ids": [],
-      "title": "Height remains as upper-pole pressure",
-      "claim": "The upper sky-realm can carry its root's height or elevation pressure, sharpened by its pairing with the earth below; the selected noun remains the heavens.",
-      "mechanism": "The core rising branch on the samawat carrier meets the independent lower-earth pole, making the high created realm part of the same universal domain.",
-      "reader_payoff": "The reader notices that even the elevated realms remain inside the servant-coming claim.",
-      "containment": "Retain elevatedness as qualified image-pressure, not an event of rising or a replacement gloss for heavens; other root branches are not selected.",
+      "title": "The upper realm carries a bounded height pressure",
+      "claim": "The heavens keep their ordinary celestial meaning while their root's elevation branch becomes perceptible against the coordinated earth below.",
+      "mechanism": "Samawat supplies the upper carrier; the distinct earth pole gives the height branch an independent local contrast.",
+      "reader_payoff": "Even the elevated realm remains inside the same restriction as the lower pole.",
+      "containment": "This is root pressure within the merism, not a replacement of the celestial noun or a claim of social ascent.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local upper noun and its lower counterpart support bounded height pressure, not a new lexical sense."
+        "reason": "The paired poles ground the contrast; the secondary elevation relation remains bounded."
       },
       "support_ids": [
         "sup_6e9e864b0234fcb5aad7",
-        "sup_f906a997145fd24867d9",
-        "sup_9cc54f777663d9d4c3a9"
+        "sup_f906a997145fd24867d9"
       ],
       "branch_activations": [
         {
@@ -1689,7 +1315,7 @@
           "facet_id": "F001",
           "branch_gloss": "fiziksel ya da toplumsal yükselme",
           "facet_statement": "Bir şey bulunduğu düzeyden yukarı çıkar veya yüksek duruma gelir.",
-          "application_mode": "intrinsic_cross_root",
+          "application_mode": "contextual_resonance",
           "carrier_refs": [
             "19:93:5:2"
           ],
@@ -1697,14 +1323,13 @@
             "19:93:6:3"
           ],
           "focus_return_refs": [
-            "19:93:5:2",
-            "19:93:6:3"
+            "19:93:5:2"
           ],
-          "carrier": "The upper-realm noun carries its root's general rising/highness pressure.",
-          "independent_trigger": "The coordinated earth supplies the independent lower pole.",
-          "activation": "The highness image meets the heavens-earth pairing, so the upper realm is felt as elevated while remaining inside the same domain.",
-          "resulting_reading": "The upper created realm is included under the universal predicate.",
-          "boundary": "This does not turn the noun into an act of rising or replace its selected sky sense."
+          "carrier": "Samawat names the upper celestial realm and carries the root's upward pressure.",
+          "independent_trigger": "The coordinated al-ard supplies a distinct lower pole.",
+          "activation": "The upper noun's elevation branch contacts its lower counterpart within shared locative government.",
+          "resulting_reading": "The elevated created realm remains inside the universal domain.",
+          "boundary": "The local word means the heavens; no abstract or social rise is claimed."
         }
       ],
       "connection_refs": [],
@@ -1715,17 +1340,17 @@
       "finding_ref": "micro:heavens-earth-merism",
       "origin_candidate_id": "cand_b7cbd320e709bd89f6ae",
       "represented_candidate_ids": [],
-      "title": "Heavens and earth form the cosmic pair",
-      "claim": "Samawat supplies the upper pole of the familiar heavens-earth merism, widening the locative field upward before it closes below.",
-      "mechanism": "The coordinated earth is the independent lower counterpart; together the poles bound the named cosmic domain.",
-      "reader_payoff": "The subject field spans upper and lower creation before the predicate is applied.",
-      "containment": "The pairing is a meristic scope expression, not a claim about a counted number of astronomical bodies.",
+      "title": "The two poles span the created domain",
+      "claim": "The plural heavens and singular earth work together as an upper-lower merism inside the quantified subject phrase.",
+      "mechanism": "The coordinator joins spatial poles under one preposition, so both expand the same domain.",
+      "reader_payoff": "The universal class is located across the full cosmic field before the predicate arrives.",
+      "containment": "The merism is local to the paired nouns.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local coordination with earth strongly licenses the upper/lower merism."
+        "reason": "The local coordination and spatial pairing support the merism."
       },
       "support_ids": [
         "sup_22881703ecd2a1fbe230",
@@ -1737,20 +1362,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:number-asymmetry",
+      "finding_ref": "micro:plural-and-singular-poles",
       "origin_candidate_id": "cand_ff3c3024904f93997f39",
       "represented_candidate_ids": [],
-      "title": "Plural heavens, singular earth",
-      "claim": "The plural heavens and singular earth preserve a grammatical number asymmetry inside one governed domain before the final singular status noun.",
-      "mechanism": "The plural upper pole and singular lower pole are coordinated under fi; the ending then predicates one status of each member.",
-      "reader_payoff": "Many upper realms and one lower realm remain distinct forms within a shared field.",
-      "containment": "This is grammatical number and local scope, not a numerical cosmology or a count of actual worlds.",
+      "title": "Plural heavens meet singular earth",
+      "claim": "The many upper realms and one earth remain grammatically distinct but form a single locative field.",
+      "mechanism": "Plural samawat and singular al-ard are coordinated under the same preposition before the predicate.",
+      "reader_payoff": "The sentence expands upward through multiple heavens and downward to earth without breaking scope.",
+      "containment": "The number contrast does not imply a different clause relation.",
       "epistemic": {
-        "status": "qualified",
+        "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The QAC forms directly give the plural/singular contrast; its compositional effect is bounded."
+        "reason": "The supplied forms and attachment evidence directly support the number asymmetry."
       },
       "support_ids": [
         "sup_5ed88d3fb5bbf59e04a3",
@@ -1762,20 +1387,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:additive-merism-hinge",
+      "finding_ref": "micro:earth-added-to-heavens",
       "origin_candidate_id": "cand_fdaa9bdf83fca7dc603b",
       "represented_candidate_ids": [],
-      "title": "The additive hinge completes the merism",
-      "claim": "Wa adds earth as the lower counterpart and completes the upper/lower domain rather than setting the poles in opposition.",
-      "mechanism": "The conjunction links semantically polar nouns under one prepositional phrase.",
-      "reader_payoff": "The reader sees one total domain, not a split between competing realms.",
-      "containment": "Wa is additive coordination here, not causal, adversative, or a new clause boundary.",
+      "title": "The conjunction completes the upper-lower field",
+      "claim": "Wa adds earth to the heavens as the second pole of one cosmic domain.",
+      "mechanism": "The additive coordinator links opposite spatial terms under the same locative government.",
+      "reader_payoff": "The claim extends from the upper realm down to earth.",
+      "containment": "This is coordination, not a contrastive split or a new clause.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local conjunction and shared prepositional government support additive coordination."
+        "reason": "The local grammar identifies wa as conjunction and the nouns as coordinated poles."
       },
       "support_ids": [
         "sup_37fc6298b6ce70458f34",
@@ -1787,27 +1412,24 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:coordination-not-restart",
+      "finding_ref": "micro:shared-government-continues",
       "origin_candidate_id": "cand_d5a1c47f18e89fa8f8d1",
-      "represented_candidate_ids": [
-        "cand_56b870adae1cc9f067b7"
-      ],
-      "title": "Coordination keeps shared government",
-      "claim": "The waw before al-ard coordinates the lower pole under the same fi instead of restarting a new assertion.",
-      "mechanism": "QAC marks the prefix as conjunction, and the noun's genitive case continues the existing prepositional government.",
-      "reader_payoff": "The cosmic phrase continues across the conjunction without a clause reset.",
-      "containment": "The claim concerns local syntax only; no oath or circumstantial clause is active.",
+      "represented_candidate_ids": [],
+      "title": "Coordination keeps the same government",
+      "claim": "The second location remains governed by fi instead of restarting the assertion.",
+      "mechanism": "Wa joins al-ard to samawat within the prepositional phrase, so no new subject or circumstantial clause begins.",
+      "reader_payoff": "The cosmic domain stays continuous until the exception marker.",
+      "containment": "Alternative functions of waw are excluded by local syntax, not developed as readings.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The conjunction analysis and retained case government establish the continuous phrase."
+        "reason": "The supplied QAC and attachment evidence support the continuing coordination."
       },
       "support_ids": [
         "sup_2e6a40db23d5915df727",
-        "sup_b0bbc3cd4ab9a7f76758",
-        "sup_a5c920277af7b6400d90"
+        "sup_b0bbc3cd4ab9a7f76758"
       ],
       "branch_activations": [],
       "connection_refs": [],
@@ -1815,20 +1437,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:definite-genitive-earth",
+      "finding_ref": "micro:earth-in-location-domain",
       "origin_candidate_id": "cand_049da5f7da9b5ec30ec3",
       "represented_candidate_ids": [],
-      "title": "Earth remains under shared government",
-      "claim": "Al-ard is definite, singular, and genitive as the coordinated lower pole under fi, not a fresh subject or destination.",
-      "mechanism": "The inherited prepositional government fixes the earth noun's case and relation within the same domain.",
-      "reader_payoff": "Earth is included in the located field rather than becoming a new clause center.",
-      "containment": "The noun does not carry the destination role assigned to the later construct.",
+      "title": "Earth stays within the same location phrase",
+      "claim": "Al-ard is coordinated under the preposition, not a new subject or destination.",
+      "mechanism": "Its case and conjunction keep it inside the locative domain begun by fi.",
+      "reader_payoff": "The lower pole remains part of where the beings are, distinct from where they come.",
+      "containment": "No local plot or motion-goal sense is added.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "QAC morphology and attachment identify definite singular genitive coordination under fi."
+        "reason": "The supplied QAC and attachment evidence directly support case and coordination."
       },
       "support_ids": [
         "sup_0ab6c680c965373e3e7e",
@@ -1840,50 +1462,24 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:global-terrestrial-pole",
+      "finding_ref": "micro:earth-as-cosmic-lower-pole",
       "origin_candidate_id": "cand_dbfa3d1b2c827c751193",
       "represented_candidate_ids": [],
-      "title": "Global earth, not local land",
-      "claim": "In pairing with al-samawati, al-ard denotes the global terrestrial realm, not a local country or plot.",
-      "mechanism": "The heavens-earth merism supplies an independent cosmic trigger for choosing the world-scale earth sense.",
-      "reader_payoff": "The reader sees a lower cosmic pole paired with the upper realm.",
-      "containment": "Do not import a local place or inheritance scene into this noun.",
+      "title": "Earth is the lower cosmic pole",
+      "claim": "Al-ard names the terrestrial world paired with the heavens rather than a local country or plot.",
+      "mechanism": "The earth form carries the earth-sphere sense; the coordinated heavens independently complete the upper-lower pairing.",
+      "reader_payoff": "The quantified domain reaches the terrestrial pole as well as the upper heavens.",
+      "containment": "The ordinary earth sense remains; no specific land or subpart is claimed.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local upper/lower pairing selects the global terrestrial reading."
+        "reason": "The local merism and supplied earth branch agree on a global lower pole."
       },
       "support_ids": [
         "sup_0ab6c680c965373e3e7e",
         "sup_63de5c66df315364e71d"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:grounded-vulnerability-pressure",
-      "origin_candidate_id": "cand_ece06f14bf6554083571",
-      "represented_candidate_ids": [],
-      "title": "Grounded lower pole with qualified vulnerability",
-      "claim": "Earth is the grounded lower pole; beside the heavens and the universal servant-state it can lend a qualified vulnerability or embodiment pressure to the lower material realm.",
-      "mechanism": "The core earth/lower-domain branch meets the upper sky as its spatial counterpart and abdan as the universal condition of its inhabitants; the contact makes earthly situatedness feel included in the relation.",
-      "reader_payoff": "The lower material realm is not only a foil for the sky; its inhabitants also fall within the universal status.",
-      "containment": "Vulnerability is image-pressure only, not a separate lexical meaning of earth or a denial of agency; the selected noun remains the terrestrial realm.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The root image and paired poles support groundedness; vulnerability remains a bounded inference rather than a gloss."
-      },
-      "support_ids": [
-        "sup_0ab6c680c965373e3e7e",
-        "sup_3528ed1d21cd6c791d7b",
-        "sup_1873eb2171233d3e2d43"
       ],
       "branch_activations": [
         {
@@ -1891,24 +1487,21 @@
           "facet_id": "F001",
           "branch_gloss": "yer ve yere bakan alt bölüm",
           "facet_statement": "Göğün karşısında aşağıda bulunan ve üzerinde yaşanan yer küresidir.",
-          "application_mode": "intrinsic_cross_root",
+          "application_mode": "lexical",
           "carrier_refs": [
             "19:93:6:3"
           ],
           "trigger_refs": [
-            "19:93:5:2",
-            "19:93:10:1"
+            "19:93:5:2"
           ],
           "focus_return_refs": [
-            "19:93:6:3",
-            "19:93:5:2",
-            "19:93:10:1"
+            "19:93:6:3"
           ],
-          "carrier": "Al-ard names the lower terrestrial realm.",
-          "independent_trigger": "Al-samawati sets the upper pole, while abdan places its inhabitants in the universal servant-state.",
-          "activation": "The upper/lower pairing grounds the earth sense, and the final status brings its inhabitants inside the same relation.",
-          "resulting_reading": "The lower material pole and its inhabitants are included in the universal servant-coming claim.",
-          "boundary": "Vulnerability is qualified image-pressure, not a new lexical branch or a claim of weakness."
+          "carrier": "Al-ard names the inhabited earth below the heavens.",
+          "independent_trigger": "The plural heavens independently provide its upper counterpart.",
+          "activation": "The paired poles select the earth-sphere facet of the root's ordinary earth branch.",
+          "resulting_reading": "The lower cosmic realm is included in the universal domain.",
+          "boundary": "The reading excludes a local tract and unrelated earth-root uses."
         }
       ],
       "connection_refs": [],
@@ -1916,20 +1509,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:merism-completion",
+      "finding_ref": "micro:earth-closes-domain",
       "origin_candidate_id": "cand_18a9d282ec06c479a8e8",
       "represented_candidate_ids": [],
-      "title": "Earth completes the domain before exception",
-      "claim": "Al-ard closes the heavens-earth domain immediately before illa, making the full scope explicit before the predicate pivot.",
-      "mechanism": "As the coordinated lower pole under fi, earth completes the merism at the end of the relative phrase; the exception follows after that completion.",
-      "reader_payoff": "The restriction pivots only once both poles have been named.",
-      "containment": "Earth is part of the restricted subject's domain, not a member excluded by the exception.",
+      "title": "Earth completes the domain before the hinge",
+      "claim": "The earth coordinate closes the heavens-earth field just before the exceptive particle.",
+      "mechanism": "The shared preposition carries the pair as one phrase; the final earth noun completes it before the clause turns to its predicate.",
+      "reader_payoff": "The scope is complete before the assertion moves into arrival.",
+      "containment": "This describes local clause order, not a wider cosmic thesis.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local sequence places earth at the close of the locative merism before illa."
+        "reason": "The supplied surface order and attachment analysis support this sequence."
       },
       "support_ids": [
         "sup_0ab6c680c965373e3e7e",
@@ -1941,20 +1534,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:hinge-position",
+      "finding_ref": "micro:exception-hinge-position",
       "origin_candidate_id": "cand_0fe0d8cebe2d62d4388e",
       "represented_candidate_ids": [],
-      "title": "Illa pivots from domain to predicate",
-      "claim": "Illa stands after the expanded subject-domain and before the participial predicate, marking the clause's hinge.",
-      "mechanism": "Its surface position separates the locative field from the coming phrase while completing the opening negative restriction.",
-      "reader_payoff": "The reader feels the movement from who is included to what relation is affirmed.",
-      "containment": "Position is a rhetorical-syntactic effect, not a second meaning of the particle.",
+      "title": "The exception pivots from domain to predicate",
+      "claim": "Illa separates the completed cosmic subject phrase from the coming predicate that follows.",
+      "mechanism": "Its position lets the reader turn from who is included to what applies to them.",
+      "reader_payoff": "The ayah divides into a full domain before the hinge and arrival after it.",
+      "containment": "No second negative or temporal clause is added.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local order of the domain, exceptive particle, and predicate supports the pivot."
+        "reason": "The supplied word order and particle analysis establish this position."
       },
       "support_ids": [
         "sup_ba071622ab0ea0a55ca0",
@@ -1966,20 +1559,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:particle-analysis-and-boundary",
+      "finding_ref": "micro:single-exception-particle",
       "origin_candidate_id": "cand_9f2718dcc3df6b866377",
       "represented_candidate_ids": [],
-      "title": "One exceptive particle completes the restriction",
-      "claim": "Illa functions as one exceptive particle in the restricted clause, not a second independent negation.",
-      "mechanism": "The opening in supplies negation and illa supplies the exception that licenses the following predicate phrase.",
-      "reader_payoff": "The particle slot grounds the affirmative side of the restriction.",
-      "containment": "Do not parse the ayah as two unrelated negative clauses.",
+      "title": "One exceptive particle supplies the affirmation",
+      "claim": "The single illa gives positive ground to the preceding denial by introducing its affirmed predicate.",
+      "mechanism": "The negative opening and this one exception form a restriction; the particle does not restart the clause.",
+      "reader_payoff": "The reader reaches one predicate that applies to the quantified class.",
+      "containment": "The local function is exceptive; no second negative is supplied.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The local particle analysis and clause structure identify one exceptive function."
+        "reason": "The supplied QAC and attachment evidence identify one exceptive particle."
       },
       "support_ids": [
         "sup_b0c6fa08904a45fbddb6",
@@ -1991,20 +1584,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:predicate-exception",
+      "finding_ref": "micro:exception-scopes-predicate",
       "origin_candidate_id": "cand_cba04051c53d66a4e2ea",
       "represented_candidate_ids": [],
-      "title": "Exception governs the predicate phrase",
-      "claim": "The exception licenses the predicate phrase ātī al-Raḥmān abdan for the universal subject; it does not remove a member from that subject.",
-      "mechanism": "The negative-exceptive construction scopes over the predication, so the coming-as-servant relation is the affirmed exception.",
-      "reader_payoff": "The reader hears a universal subject with one affirmed relation, rather than a group minus one being.",
-      "containment": "Keep the exceptive analysis local; the exception does not identify a special individual.",
+      "title": "The exception scopes over the predicate",
+      "claim": "Illa specifies the predicate affirmed of the quantified class; it does not name a subset excluded from that class.",
+      "mechanism": "Kull man remains the subject in the full locative domain, while the exception introduces the coming phrase.",
+      "reader_payoff": "Every member remains within the claim and receives the same predicate.",
+      "containment": "This follows the supplied clause parse without adjudicating other readings.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "QAC and translation support identify illa as completing the universal restriction over the predicate phrase."
+        "reason": "QAC, attachment, and translation support align on predicate scope."
       },
       "support_ids": [
         "sup_3c222600cba711439b07",
@@ -2016,20 +1609,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:variant-temporal-pressure",
+      "finding_ref": "micro:variant-temporal-contrast",
       "origin_candidate_id": "cand_e0f99467835e1188c876",
       "represented_candidate_ids": [],
-      "title": "Variant timing remains secondary",
-      "claim": "The supplied variant can lend temporal pressure at the exceptive slot, but the standard wording remains one exceptive particle stating restriction.",
-      "mechanism": "The variant is a contrastive apparatus reading; the focus QAC analysis keeps illa within the negative-exceptive construction.",
-      "reader_payoff": "A timing nuance is visible as an alternative without displacing the ontological force of the standard clause.",
-      "containment": "Do not treat the variant as a second particle or as the timing of the standard reading.",
+      "title": "The variant adds temporal pressure without replacing restriction",
+      "claim": "The accepted variant can make the slot feel temporally charged while the standard form remains exceptive.",
+      "mechanism": "The variant supplies a timing contrast; the standard particle completes the universal predicate restriction.",
+      "reader_payoff": "A temporal shade can be noticed alongside standard ontological scope.",
+      "containment": "The variant does not turn the standard wording into a temporal clause.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The variant is explicitly supplied, while the standard local particle analysis is clearer."
+        "reason": "The standard parse is grounded; the variant's force remains a qualified contrast."
       },
       "support_ids": [
         "sup_3fdb6d5106c10e4d28c3",
@@ -2041,45 +1634,67 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:coming-not-giving",
+      "finding_ref": "micro:arrival-not-giving",
       "origin_candidate_id": "cand_c4546cdeb3d9714c77ca",
       "represented_candidate_ids": [],
-      "title": "Coming selected over giving",
-      "claim": "The standard Form I active participle atiy means coming or arriving, not Form IV giving; al-Raḥmān is its destination.",
-      "mechanism": "The carrier's Form I participial morphology and genitive destination select approach, while giving belongs to a distinct form/use.",
-      "reader_payoff": "Every being is directed toward the named destination rather than imagined as giving something to God.",
-      "containment": "The giving sense is a contrast from another form, not the meaning of this carrier; no gift or offering is implied.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local morphology and construct choose coming; the other verb form is retained only as a bounded contrast."
-      },
-      "support_ids": [
-        "sup_23bd79509dae215ef1a5",
-        "sup_7a100934b27e72afbd45"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:construct-destination",
-      "origin_candidate_id": "cand_b3f34460390a6954e5ca",
-      "represented_candidate_ids": [],
-      "title": "Destination built into the construct",
-      "claim": "The genitive al-Raḥmān is embedded in a construct with the active participle, making destination part of the predicate.",
-      "mechanism": "The idafa relation syntactically binds the named destination to ātī rather than adding it loosely after the verb.",
-      "reader_payoff": "The direction of arrival is encoded in the phrase itself.",
-      "containment": "Do not turn the genitive into a direct object or a recipient of giving.",
+      "title": "Coming is directed toward a destination",
+      "claim": "The active participle carries coming toward the named destination, not giving something to that destination.",
+      "mechanism": "The Form I participle contacts its genitive construct complement, which supplies the goal of motion.",
+      "reader_payoff": "The universal predicate is directed arrival to al-Rahman rather than transfer to Him.",
+      "containment": "The separate giving use is a contrast, not an active local branch.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "Attachment evidence identifies the divine name as the genitive complement of the participle."
+        "reason": "The supplied morphology and construct attachment select the coming sense."
+      },
+      "support_ids": [
+        "sup_23bd79509dae215ef1a5",
+        "sup_7a100934b27e72afbd45"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000009/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gelmek, ulaşmak",
+          "facet_statement": "Bir kişi ya da şey gelir veya bir hedefe ulaşır.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "19:93:8:1"
+          ],
+          "trigger_refs": [
+            "19:93:9:2"
+          ],
+          "focus_return_refs": [
+            "19:93:8:1"
+          ],
+          "carrier": "The active participle ati carries coming and arrival.",
+          "independent_trigger": "The genitive proper name supplies an independent destination.",
+          "activation": "The motion form and named goal contact as arrival-to, selecting the coming branch.",
+          "resulting_reading": "Every member's predicate is directed arrival to the named destination.",
+          "boundary": "The branch does not import the separate giving use or easy-arrival variant."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:destination-inside-construct",
+      "origin_candidate_id": "cand_b3f34460390a6954e5ca",
+      "represented_candidate_ids": [],
+      "title": "The destination is built into the construct",
+      "claim": "Al-Rahman is the genitive complement of ati, so the destination is grammatically inside the participial phrase.",
+      "mechanism": "The construct joins the participle to its named goal instead of appending an unrelated object.",
+      "reader_payoff": "Coming is directed to a particular destination within the predicate itself.",
+      "containment": "The standard case relation is retained; variant pressure remains separate.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied attachment evidence directly identifies the genitive construct."
       },
       "support_ids": [
         "sup_23bd79509dae215ef1a5",
@@ -2091,20 +1706,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:marked-form-and-motion",
+      "finding_ref": "micro:active-participle-profile",
       "origin_candidate_id": "cand_efddb0b88f271a5bfe22",
       "represented_candidate_ids": [],
-      "title": "Marked participle makes arrival salient",
-      "claim": "The active participle is a marked nominal form of the coming root, making arrival salient as a predicate or status rather than only a finite event.",
-      "mechanism": "Participial morphology and the motion root combine in a predicate over the universal subject; the construct fixes its destination.",
-      "reader_payoff": "Coming is presented as a standing characterization of the whole class, not merely narrated once.",
-      "containment": "Markedness is a local profile note, not proof of rarity, tense, or a specific eschatological date.",
+      "title": "The active participle makes arrival a standing form",
+      "claim": "The local active participle presents arrival as a predicate; the supplied form profile makes that choice perceptible within the root's broader use.",
+      "mechanism": "The participle carries predication, while its smaller profile group provides limited context for noticing the form.",
+      "reader_payoff": "Arrival is perceptible as a grammatical form without a claim about authorial intent.",
+      "containment": "The profile is a bounded observation, not proof of rhetorical markedness.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The participial form and its contextual profile support salience, while no timing is inferred."
+        "reason": "The form and predicative use are grounded; the profile's interpretive force is kept modest."
       },
       "support_ids": [
         "sup_23bd79509dae215ef1a5",
@@ -2119,17 +1734,17 @@
       "finding_ref": "micro:participial-predicate",
       "origin_candidate_id": "cand_ae9935882e8e86dcc1b1",
       "represented_candidate_ids": [],
-      "title": "Coming as a standing predicate",
-      "claim": "Atiy is the active-participle predicate of the universal subject, presenting coming as a standing condition rather than a single past event.",
-      "mechanism": "The nominal participle follows the exceptive hinge and predicates arrival of the constructed subject.",
-      "reader_payoff": "The claim reads as a general relation holding of the whole class.",
-      "containment": "Do not fix a date or import judgment-day timing from another ayah.",
+      "title": "Coming is a standing predicate",
+      "claim": "The active participle predicates coming of the universal subject as a continuing condition, not only a single past event.",
+      "mechanism": "Kull man supplies the subject and the participle supplies its predicate before the final circumstantial state.",
+      "reader_payoff": "The reader hears a condition shared by the class rather than one narrated arrival.",
+      "containment": "The participle alone does not add a particular time or event sequence.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "QAC and attachment evidence identify the active-participle predicate."
+        "reason": "The supplied QAC morphology and attachment evidence support the predicate."
       },
       "support_ids": [
         "sup_23bd79509dae215ef1a5",
@@ -2141,20 +1756,20 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:variant-attendance-pressure",
+      "finding_ref": "micro:variant-destination-case",
       "origin_candidate_id": "cand_8375cbccd10b54e5bd5e",
       "represented_candidate_ids": [],
-      "title": "Attendance remains a variant pressure",
-      "claim": "The accepted case variant can make the destination feel more like an attendance or audience-object, while the standard genitive construct fixes al-Raḥmān as destination.",
-      "mechanism": "Variant case offers a contrastive route toward an object-like visit reading; the standard construct keeps the phrase bound as coming-to.",
-      "reader_payoff": "The reader notices the apparatus alternative without losing the directed-arrival parse.",
-      "containment": "Retain attendance only as variant pressure; do not add an independent audience scene or timing claim to the standard reading.",
+      "title": "Variant case tests the destination relation",
+      "claim": "The accepted variant can make al-Rahman feel more object-like, while the standard wording keeps the name inside the genitive construct.",
+      "mechanism": "Case variation tests the name's relation to the participle without changing the standard parse.",
+      "reader_payoff": "The reader notices how the standard form binds destination to arrival.",
+      "containment": "The contrast does not make the standard wording accusative or replace its construct.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The variant is supplied as contrast, but standard QAC and attachment favor the genitive construct."
+        "reason": "The standard construct is direct; the alternate case remains qualified variant evidence."
       },
       "support_ids": [
         "sup_23bd79509dae215ef1a5",
@@ -2166,21 +1781,347 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:baseline-universal-convergence",
+      "finding_ref": "micro:named-divine-destination",
+      "origin_candidate_id": "cand_0ec68597aac8f5b59462",
+      "represented_candidate_ids": [],
+      "title": "The predicate has a named divine destination",
+      "claim": "The genitive construct directs universal coming to a definite divine referent rather than an unnamed place or object.",
+      "mechanism": "The active participle takes al-Rahman as its genitive complement, placing the destination inside the predicate.",
+      "reader_payoff": "The reader sees where the coming is directed before the final state completes the phrase.",
+      "containment": "This identifies local grammar and referent without deriving a broader system.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "QAC and attachment evidence identify the definite proper name in the construct."
+      },
+      "support_ids": [
+        "sup_27308a89a3441af28a52",
+        "sup_b07db4a4b667c7dd5a0a"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-name-and-universal-arrival",
+      "origin_candidate_id": "cand_ddd6f257a59123dc6fcb",
+      "represented_candidate_ids": [],
+      "title": "The mercy-name frames universal arrival",
+      "claim": "Al-Rahman names the destination through the mercy-root divine name, so the shared servant-state remains framed by mercy.",
+      "mechanism": "The name carries the divine-mercy facet and the adjacent servant noun independently supplies the posture; they meet without erasing dependence.",
+      "reader_payoff": "Universal arrival remains servant-arrival under a name marked by mercy.",
+      "containment": "The proper name is not reduced to a generic adjective, and servant dependence is not made reciprocal.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied name, root, and intensive form support the local relation."
+      },
+      "support_ids": [
+        "sup_27308a89a3441af28a52",
+        "sup_c2fd96395db4fe2991ce"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:93:9:2"
+          ],
+          "trigger_refs": [
+            "19:93:10:1"
+          ],
+          "focus_return_refs": [
+            "19:93:9:2"
+          ],
+          "carrier": "Al-Rahman carries the divine mercy-name and its broad reach to creation.",
+          "independent_trigger": "The following abdan independently supplies a dependent servant posture.",
+          "activation": "The mercy-name contacts the servant-state within the same arrival relation.",
+          "resulting_reading": "Universal arrival remains servant-arrival while being framed by broad mercy.",
+          "boundary": "The proper name stays a name; no human kinship or biological relation is claimed."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:proper-name-not-quality",
+      "origin_candidate_id": "cand_3285333b3954e41ccf68",
+      "represented_candidate_ids": [],
+      "title": "The destination is a named referent",
+      "claim": "Al-Rahman functions as a divine proper name in the genitive destination slot, not as an abstract quality replacing its referent.",
+      "mechanism": "The definite name occupies the construct complement after ati; its root can color how the referent is heard without changing its status.",
+      "reader_payoff": "The destination stays personal and named while the mercy-root remains perceptible.",
+      "containment": "No detached generic adjective is asserted.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied lexical identity and genitive construction support the referential reading."
+      },
+      "support_ids": [
+        "sup_27308a89a3441af28a52",
+        "sup_3c76143cbf37d6fb5b08"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:case-variant-construct",
+      "origin_candidate_id": "cand_267ff7de7f40ad07f9c2",
+      "represented_candidate_ids": [],
+      "title": "Variant case tests construct dependence",
+      "claim": "In the standard form, al-Rahman is embedded as the participle's genitive complement; a variant can make the role more accusative-like.",
+      "mechanism": "The standard case binds the name to ati as destination, while the variant tests that dependency without changing the standard parse.",
+      "reader_payoff": "The reader notices how strongly the standard wording embeds the goal in the participle.",
+      "containment": "The variant remains contrastive and does not displace the standard genitive.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The standard parse is grounded; the variant is retained as qualified contrast."
+      },
+      "support_ids": [
+        "sup_27308a89a3441af28a52",
+        "sup_fce0ec405e0bad4b290c"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:destination-and-servant-state",
+      "origin_candidate_id": "cand_0c6b2c601ebcce587e0b",
+      "represented_candidate_ids": [],
+      "title": "Destination and servant-state meet in one predicate",
+      "claim": "The named al-Rahman is the destination of an arrival whose final circumstantial state is servanthood.",
+      "mechanism": "The genitive destination and final state complement join the same participial predicate, making relation and posture one local construction.",
+      "reader_payoff": "Universal arrival is presented in relation to al-Rahman and in servant-state together.",
+      "containment": "The focus relation is retained; the previous ayah's child-denial contrast is excluded.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local construct and circumstantial state are grounded; the neighboring comparison is excluded for lack of a context occurrence."
+      },
+      "support_ids": [
+        "sup_27308a89a3441af28a52",
+        "sup_b7dc1e066aa119c6fc1c"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:servant-as-circumstantial-state",
+      "origin_candidate_id": "cand_b6f9eff5991d4cb6bde3",
+      "represented_candidate_ids": [
+        "cand_8f25b0bda688df6ee718"
+      ],
+      "title": "Servanthood is the state of arrival",
+      "claim": "Abdan describes the condition in which coming occurs; it is not a second object carried by the beings.",
+      "mechanism": "The accusative circumstantial complement attaches to the participle, qualifying the arrival itself.",
+      "reader_payoff": "Service is the shared posture of coming rather than an item received or transferred.",
+      "containment": "The grammar supplies a circumstantial state, not a human legal status.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "QAC and attachment evidence mark the final noun as a circumstantial complement."
+      },
+      "support_ids": [
+        "sup_af3eb97acd04bfb09a63",
+        "sup_e88bd977cf0da17a996b",
+        "sup_1d180b85d05ac37a97c4",
+        "sup_23bd79509dae215ef1a5"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:servant-as-positive-status",
+      "origin_candidate_id": "cand_377e99917219c4f2a04a",
+      "represented_candidate_ids": [],
+      "title": "The final noun names a servant relation",
+      "claim": "The universal arrival ends in a concrete servant-status borne by each member of the class.",
+      "mechanism": "The singular concrete noun supplies a relational status after the destination participle rather than naming an object.",
+      "reader_payoff": "The clause closes by giving the universal subject a shared relation and posture.",
+      "containment": "The positive in-focus status is retained; no contrast with prior ayahs is included.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The final noun's local role is grounded; its neighboring comparison is excluded from micro scope."
+      },
+      "support_ids": [
+        "sup_cf9373cdb9e982bc6bfe",
+        "sup_e88bd977cf0da17a996b"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:dependent-servant-status",
+      "origin_candidate_id": "cand_68246e26649f42530892",
+      "represented_candidate_ids": [],
+      "title": "Servant-status expresses dependence",
+      "claim": "The final noun makes each arrival relationally dependent, not merely engaged in a repeated act of worship.",
+      "mechanism": "Its concrete circumstantial use names the being's status at arrival; ownership pressure sharpens asymmetry without making human law the topic.",
+      "reader_payoff": "The reader notices dependence as a status accompanying every arrival.",
+      "containment": "The primary noun remains servant; no human ownership institution or literal slave scene is claimed.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local noun and attachment support dependence; the legal image is bounded by the supplied narrowing."
+      },
+      "support_ids": [
+        "sup_17bfd21ba4528f6c8453",
+        "sup_e88bd977cf0da17a996b"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:scope-lands-on-status",
+      "origin_candidate_id": "cand_e46c6b4bf779f4b7b129",
+      "represented_candidate_ids": [],
+      "title": "Cosmic scope lands on one final status",
+      "claim": "The phrase moves from the broad subject-domain through a named destination and closes in the singular servant-state.",
+      "mechanism": "The final circumstantial noun supplies the state of the participle after subject and destination.",
+      "reader_payoff": "The sentence compresses its broad scope into one shared relation.",
+      "containment": "This is a local compositional effect, not a claim that all beings have identical histories.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied phrase order and attachment support the closing function."
+      },
+      "support_ids": [
+        "sup_06a92ed27c80c8b41f63",
+        "sup_e88bd977cf0da17a996b"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:indefinite-status-for-each",
+      "origin_candidate_id": "cand_f38ee4a05ceba62f10bd",
+      "represented_candidate_ids": [],
+      "title": "Indefinite status applies across the class",
+      "claim": "The singular indefinite abdan supplies the same servant-status to each member under the universal restriction.",
+      "mechanism": "The quantifier ranges over the class and the indefinite circumstantial noun applies to each arrival.",
+      "reader_payoff": "No member receives a distinct named or privileged status in the local clause.",
+      "containment": "This is grammatical distribution, not a claim about individual biographies.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied form and universal restriction support this distribution."
+      },
+      "support_ids": [
+        "sup_dcb444fae19a23572bd9",
+        "sup_e88bd977cf0da17a996b"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:singular-capacity-for-each",
+      "origin_candidate_id": "cand_dc352f4203cff42b3818",
+      "represented_candidate_ids": [],
+      "title": "A singular noun individualizes the universal",
+      "claim": "The universal class is expressed member by member through one singular concrete servant-capacity.",
+      "mechanism": "The singular noun follows a distributive subject and acts as the circumstantial status of each arrival.",
+      "reader_payoff": "Each being appears in the same relation rather than as a collective class label.",
+      "containment": "Individualization is grammatical and does not imply separate named events.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied number, case, and attachment evidence support the member-level reading."
+      },
+      "support_ids": [
+        "sup_3e80eceaa5a100b8b599",
+        "sup_e88bd977cf0da17a996b"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:capacity-as-secondary-pressure",
+      "origin_candidate_id": "cand_fb6755ee1a2b135f91a0",
+      "represented_candidate_ids": [],
+      "title": "Capacity remains a secondary shade",
+      "claim": "The final noun can also clarify the capacity in which arrival occurs, while the supplied analysis favors a circumstantial state.",
+      "mechanism": "The accusative permits a capacity gloss, but attachment to the participle grounds the state reading.",
+      "reader_payoff": "A capacity shade can be noticed without losing the clearer servant-state.",
+      "containment": "The secondary reading does not displace the circumstantial parse.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The support explicitly retains the capacity pressure while favoring the circumstantial analysis."
+      },
+      "support_ids": [
+        "sup_ca2a3f848197cb579d3e",
+        "sup_e88bd977cf0da17a996b"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:universal-convergence",
       "origin_candidate_id": "cand_c6090f185d59fe61a76e",
       "represented_candidate_ids": [],
-      "title": "Universal scope as moving convergence",
-      "claim": "The upper-to-lower totality is a moving convergence: every included being arrives before al-Raḥmān in dependent obedience.",
-      "mechanism": "This sharpens the baseline reading “All beings are servants of the Merciful” into a movement: kullu-man exhausts the personal set, the heavens and earth supply upper and lower poles, ātī makes inclusion arrival, al-Raḥmān is the destination, and abdan names the posture.",
-      "reader_payoff": "The reader perceives not a static catalog but the whole class moving into a dependent relation to the Merciful.",
-      "containment": "The six root-role contacts remain the HFT's attributed reading; this does not add an independent chronology or make ātī lexically mean a road.",
+      "title": "The whole domain becomes a field of arrival",
+      "claim": "The heavens-earth totality reaches al-Rahman through the active coming predicate, with every member in servant posture.",
+      "mechanism": "Kull and the relative class supply inclusion; the merism gives upper and lower poles; ati gives movement to the destination; al-Rahman and abdan give the relation its mercy-name and dependent posture.",
+      "reader_payoff": "Universal servant-status becomes movement through a complete cosmic field toward a named destination.",
+      "containment": "This attributed reading adds movement and convergence without asserting literal travel at distinct times or replacing ordinary meanings.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "legacy_unbound",
           "trusted"
         ],
-        "reason": "HFT roles remain legacy-unbound attributions, but all stated focus coordinates and roots match supplied QAC occurrences."
+        "reason": "The legacy_unbound HFT coordinates match the supplied surface; branch meanings remain attributed."
       },
       "support_ids": [
         "sup_9835faf799828424a1e0",
@@ -2202,17 +2143,18 @@
             "19:93:2:1"
           ],
           "trigger_refs": [
-            "19:93:3:1"
+            "19:93:3:1",
+            "19:93:5:2",
+            "19:93:6:3"
           ],
           "focus_return_refs": [
-            "19:93:2:1",
-            "19:93:3:1"
+            "19:93:2:1"
           ],
-          "carrier": "Kullu carries complete inclusion.",
-          "independent_trigger": "Man supplies the personal relative class.",
-          "activation": "The quantifier's encompassing sense binds to the full relative class and makes the subject set exhaustive.",
-          "resulting_reading": "The convergence extends to every member of the stated class.",
-          "boundary": "This attributed role does not add a completion event beyond the quantifier."
+          "carrier": "Kull carries complete inclusion over a set.",
+          "independent_trigger": "The relative class and coordinated heavens-earth pair independently supply its full domain.",
+          "activation": "The all-quantifier contacts a specified rational class spread across upper and lower poles.",
+          "resulting_reading": "No member of that domain falls outside the coming predicate.",
+          "boundary": "This is attributed universal scope, not a numeric inventory."
         },
         {
           "branch_ref": "root_000745/B004",
@@ -2227,14 +2169,13 @@
             "19:93:6:3"
           ],
           "focus_return_refs": [
-            "19:93:5:2",
-            "19:93:6:3"
+            "19:93:5:2"
           ],
-          "carrier": "Al-samawati carries the upper sky or covering realm.",
-          "independent_trigger": "Al-ard supplies the opposing lower pole.",
-          "activation": "The upper-realm carrier meets the coordinated earth, making the totality span the upper and lower poles.",
-          "resulting_reading": "The convergence covers both cosmic poles.",
-          "boundary": "The trace supports an upper-pole image, not a claim that the sky itself arrives."
+          "carrier": "Samawat names the upper heavens.",
+          "independent_trigger": "The coordinated earth independently supplies the lower counterpart.",
+          "activation": "The upper sky and lower earth form one spatial totality under the locative phrase.",
+          "resulting_reading": "The coming claim spans both poles of the created field.",
+          "boundary": "No rainfall, cloud, or naming branch is invoked."
         },
         {
           "branch_ref": "root_000025/B001",
@@ -2249,14 +2190,13 @@
             "19:93:5:2"
           ],
           "focus_return_refs": [
-            "19:93:6:3",
-            "19:93:5:2"
+            "19:93:6:3"
           ],
-          "carrier": "Al-ard names the lower terrestrial realm.",
-          "independent_trigger": "Al-samawati supplies the upper counterpart.",
-          "activation": "The lower earth carrier meets the heavens as the other pole of the locative domain.",
-          "resulting_reading": "The universal field extends to the lower pole as well as the upper.",
-          "boundary": "This is the attributed cosmic counterpart reading, not a change to the ordinary earth gloss."
+          "carrier": "Al-ard names the inhabited earth below the heavens.",
+          "independent_trigger": "The plural heavens independently establish the upper pole.",
+          "activation": "The earth branch contacts its paired upper realm as the lower half of a cosmic merism.",
+          "resulting_reading": "The same predicate reaches beings across the full upper-lower domain.",
+          "boundary": "No local plot or earth-subpart sense is claimed."
         },
         {
           "branch_ref": "root_000009/B001",
@@ -2268,39 +2208,17 @@
             "19:93:8:1"
           ],
           "trigger_refs": [
-            "19:93:2:1"
-          ],
-          "focus_return_refs": [
-            "19:93:8:1",
-            "19:93:2:1"
-          ],
-          "carrier": "Atiy carries coming or arrival.",
-          "independent_trigger": "Kullu supplies the exhaustive subject that arrives.",
-          "activation": "The participial arrival carrier meets the universal set, converting static inclusion into convergence.",
-          "resulting_reading": "Every included member is read as arriving at the destination.",
-          "boundary": "The HFT role is attributed; the branch remains coming/arrival, not a path lexeme."
-        },
-        {
-          "branch_ref": "root_000552/B001",
-          "facet_id": "F001",
-          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
-          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
-          "application_mode": "attributed",
-          "carrier_refs": [
+            "19:93:2:1",
             "19:93:9:2"
           ],
-          "trigger_refs": [
-            "19:93:8:1"
-          ],
           "focus_return_refs": [
-            "19:93:9:2",
             "19:93:8:1"
           ],
-          "carrier": "Al-Rahman carries the mercy and tenderness core.",
-          "independent_trigger": "Atiy connects the universal subject's arrival to this destination.",
-          "activation": "The mercy-name carrier meets the arrival relation and characterizes the destination.",
-          "resulting_reading": "The destination is read as mercifully framed.",
-          "boundary": "This is the core mercy contact; the name is not decomposed into kinship or womb senses."
+          "carrier": "Ati carries coming and arrival.",
+          "independent_trigger": "The universal subject and genitive al-Rahman independently supply scope and destination.",
+          "activation": "The movement predicate contacts the complete set and its named goal, turning inclusion into convergence.",
+          "resulting_reading": "Every member of the full set arrives toward al-Rahman.",
+          "boundary": "The ordinary arrival sense remains; no date or physical route is added."
         },
         {
           "branch_ref": "root_000552/B001",
@@ -2315,36 +2233,13 @@
             "19:93:8:1"
           ],
           "focus_return_refs": [
-            "19:93:9:2",
-            "19:93:8:1"
+            "19:93:9:2"
           ],
-          "carrier": "Al-Rahman is a divine name.",
-          "independent_trigger": "The coming predicate directs the exhaustive class to this divine destination.",
-          "activation": "The divine specialization of broad mercy meets the universal arrival relation, extending the destination's beneficence toward the created class.",
-          "resulting_reading": "The total convergence is characterized by divine mercy reaching its creatures.",
-          "boundary": "Retain only the packet's specialization facet; no additional attribute or unprovided context is inferred."
-        },
-        {
-          "branch_ref": "root_000973/B003",
-          "facet_id": "F001",
-          "branch_gloss": "boyun eğerek itaat ve tapınma",
-          "facet_statement": "Eylem, sıradan itaati aşan bir boyun eğme ve alçalma tutumu içerir.",
-          "application_mode": "attributed",
-          "carrier_refs": [
-            "19:93:10:1"
-          ],
-          "trigger_refs": [
-            "19:93:8:1"
-          ],
-          "focus_return_refs": [
-            "19:93:10:1",
-            "19:93:8:1"
-          ],
-          "carrier": "Abdan carries the posture of submission and obedience.",
-          "independent_trigger": "Atiy predicates arrival of each being.",
-          "activation": "The final status carrier meets the arrival predicate and names the arriver's posture.",
-          "resulting_reading": "Every arrival is in dependent obedience.",
-          "boundary": "This is the attributed submission core, not a human legal-slavery claim."
+          "carrier": "Al-Rahman carries the divine mercy-name with its broad reach to creation.",
+          "independent_trigger": "The incoming predicate independently makes the name destination of every arrival.",
+          "activation": "The mercy-name contacts a universal destination relation instead of serving as an impersonal label.",
+          "resulting_reading": "The convergence is toward a destination named through broad mercy.",
+          "boundary": "This is attributed root resonance, not a generic adjective."
         },
         {
           "branch_ref": "root_000973/B003",
@@ -2356,17 +2251,17 @@
             "19:93:10:1"
           ],
           "trigger_refs": [
+            "19:93:8:1",
             "19:93:9:2"
           ],
           "focus_return_refs": [
-            "19:93:10:1",
-            "19:93:9:2"
+            "19:93:10:1"
           ],
-          "carrier": "Abdan names a submissive posture.",
-          "independent_trigger": "Al-Rahman is the named divine destination.",
-          "activation": "The worship specialization meets the named divine endpoint and makes the submission God-directed.",
-          "resulting_reading": "Servant-arrival is read as directed worship and submission before the Merciful.",
-          "boundary": "Retain the specialization with its core; do not reduce all servant-status to an ongoing ritual act."
+          "carrier": "Abdan carries obedient worship and submission.",
+          "independent_trigger": "The coming predicate and its divine destination independently define the arrival relation.",
+          "activation": "The servant noun makes the arriver's posture part of that same relation.",
+          "resulting_reading": "Each member reaches the predicate as a servant.",
+          "boundary": "No additional ritual act is asserted."
         }
       ],
       "connection_refs": [],
@@ -2374,21 +2269,21 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:baseline-held-asymmetry",
+      "finding_ref": "micro:held-asymmetry",
       "origin_candidate_id": "cand_a4f32b74b74dbaac4729",
       "represented_candidate_ids": [],
-      "title": "Mercy-held but nonreciprocal relation",
-      "claim": "Mercy and servitude jointly form a held but nonreciprocal relation: the arriver is near and contained while remaining wholly dependent.",
-      "mechanism": "This revises “Mercy merely softens a statement of servitude”: the attributed kinship and womb-as-enclosure images meet owned dependence, so intimacy does not erase asymmetry.",
-      "reader_payoff": "The reader notices closeness and enclosure without mistaking them for equality or reciprocal ownership.",
-      "containment": "Kinship and womb are attributed root images, not lexical meanings of the divine name; owned dependence is not a claim about human slavery.",
+      "title": "Closeness and dependence remain together",
+      "claim": "The relation can be heard as held closeness without becoming reciprocal: every being arrives in servant-dependence before al-Rahman.",
+      "mechanism": "The mercy-name meets the servant-status; attributed kinship and womb branches contribute nearness and containment, while the owned-status branch preserves asymmetry.",
+      "reader_payoff": "Intimacy and dependence can coexist without either canceling the other.",
+      "containment": "Kinship and womb are root images, not genealogy or biology; owned status does not assert human slavery.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "legacy_unbound",
           "trusted"
         ],
-        "reason": "The legacy-unbound trace coordinates and roots match the local Rahman and abdan forms; the semantic relation remains explicitly attributed."
+        "reason": "The legacy_unbound traces match focus words; their roles remain attributed and tightly bounded."
       },
       "support_ids": [
         "sup_bada7674d34f24c60eb1",
@@ -2409,14 +2304,13 @@
             "19:93:10:1"
           ],
           "focus_return_refs": [
-            "19:93:9:2",
-            "19:93:10:1"
+            "19:93:9:2"
           ],
-          "carrier": "The Rahman carrier is considered through the attributed kinship branch.",
-          "independent_trigger": "Abdan gives the independent dependent-status pole.",
-          "activation": "The kinship image meets servant-status and supplies relational nearness rather than an impersonal audience.",
-          "resulting_reading": "The relation feels near while remaining asymmetric.",
-          "boundary": "This is an attributed root image, not a claim of literal kinship."
+          "carrier": "Al-Rahman carries the mercy-root name.",
+          "independent_trigger": "The adjacent abdan independently gives arrival a personal servant relation.",
+          "activation": "The kinship image contacts that servant relation as attributed nearness.",
+          "resulting_reading": "Mercy and service can be heard as a close relation rather than an impersonal audience.",
+          "boundary": "No literal descent, family tie, or genealogy is claimed."
         },
         {
           "branch_ref": "root_000552/B003",
@@ -2428,17 +2322,17 @@
             "19:93:9:2"
           ],
           "trigger_refs": [
+            "19:93:8:1",
             "19:93:10:1"
           ],
           "focus_return_refs": [
-            "19:93:9:2",
-            "19:93:10:1"
+            "19:93:9:2"
           ],
-          "carrier": "The Rahman carrier is considered through the attributed womb/enclosure branch.",
-          "independent_trigger": "Abdan supplies the independent dependent-status pole.",
-          "activation": "The containing-house image meets owned dependence, making nearness feel held rather than reciprocal.",
-          "resulting_reading": "The arriver is read as near and contained while still dependent.",
-          "boundary": "This is an attributed image, not a literal bodily or maternal claim."
+          "carrier": "The mercy-name carries attributed root contact with the womb branch.",
+          "independent_trigger": "The coming predicate and servant-state independently provide arrival and dependence.",
+          "activation": "The containing-house image contacts dependent arrival as attributed heldness.",
+          "resulting_reading": "The relation can feel held while remaining asymmetrical.",
+          "boundary": "No biological womb, birth, or literal containment is asserted."
         },
         {
           "branch_ref": "root_000973/B001",
@@ -2453,14 +2347,13 @@
             "19:93:9:2"
           ],
           "focus_return_refs": [
-            "19:93:10:1",
-            "19:93:9:2"
+            "19:93:10:1"
           ],
-          "carrier": "Abdan carries the attributed owned, non-free status core.",
-          "independent_trigger": "Al-Rahman is the independent destination before whom the status obtains.",
-          "activation": "Owned dependence meets the named divine destination and preserves asymmetry within the relation.",
-          "resulting_reading": "The closeness does not erase the arriver's dependence.",
-          "boundary": "This remains an attributed relational image, not human legal slavery."
+          "carrier": "Abdan carries dependent servant-status.",
+          "independent_trigger": "The named al-Rahman is an independent destination in the construct.",
+          "activation": "Dependent status contacts the merciful destination and preserves asymmetry.",
+          "resulting_reading": "Closeness does not erase dependence.",
+          "boundary": "This is an attributed status image, not a human legal-ownership claim."
         }
       ],
       "connection_refs": [],
@@ -2468,21 +2361,21 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:outlier-paved-convergence",
+      "finding_ref": "micro:paved-convergence",
       "origin_candidate_id": "cand_621f8216850923a8672e",
       "represented_candidate_ids": [],
-      "title": "Paved convergence as exploratory metaphor",
-      "claim": "Exploratorily, creaturely existence is already a leveled approach-road: every trajectory is made traversable only as servanthood and terminates at al-Raḥmān.",
-      "mechanism": "Against “Every being must eventually present itself as a servant,” the attributed road branch on ātī supplies approach and terminal limit, the parallel branch on abdan supplies a leveled traversable path, and kullu extends that image to every being.",
-      "reader_payoff": "The reader can picture unavoidable convergence as a prepared route, not only as a future presentation.",
-      "containment": "This cross-domain road reading is surprising and form-distant, but both path images belong to focus roots and illuminate the unavoidable convergence; downstream prose should mark it as an infrastructural metaphor, not substitute road for either ati or abdan.",
+      "title": "Servanthood can be imaged as a shared approach",
+      "claim": "Universal arrival may be pictured as a traversable approach whose endpoint is al-Rahman, with servanthood as the condition that makes passage possible.",
+      "mechanism": "Ati's road and terminal-limit facets meet the abd road facet; kull extends the image across the class and the construct destination supplies an endpoint.",
+      "reader_payoff": "The shared servant condition becomes perceptible as a converging approach, not only as a final status.",
+      "containment": "This is exploratory attributed metaphor. No literal road, walking, pavement, or replacement of ordinary coming and servant meanings is claimed.",
       "epistemic": {
         "status": "exploratory",
         "source_trust": [
           "legacy_unbound",
           "trusted"
         ],
-        "reason": "The exact HFT focus coordinates and mapped roots match the supplied forms, but the combined road metaphor is explicitly form-distant and remains exploratory."
+        "reason": "The source marks this legacy_unbound outlier exploratory; coordinates match focus roots, while the multi-step path image remains bounded."
       },
       "support_ids": [
         "sup_4266b96b01038f53aac7",
@@ -2501,19 +2394,16 @@
             "19:93:8:1"
           ],
           "trigger_refs": [
-            "19:93:10:1",
-            "19:93:2:1"
+            "19:93:10:1"
           ],
           "focus_return_refs": [
-            "19:93:8:1",
-            "19:93:10:1",
-            "19:93:2:1"
+            "19:93:8:1"
           ],
-          "carrier": "Atiy is the carrier for the attributed traveled-road and terminal-limit image.",
-          "independent_trigger": "Abdan supplies the second path image, while kullu makes the approach common to all.",
-          "activation": "The road/limit image meets the adjacent servanthood image and universal scope, recasting coming as movement along a common approach.",
-          "resulting_reading": "Existence is pictured as a common approach that reaches its terminal destination.",
-          "boundary": "Keep this as an infrastructural metaphor; it does not replace the ordinary coming/arrival sense."
+          "carrier": "Ati carries coming and arrival as movement.",
+          "independent_trigger": "The separate servant noun supplies a second focus root-carrier for the attributed path contact.",
+          "activation": "The traveled-road facet contacts movement toward the named destination through the focus relation between coming and servant-status.",
+          "resulting_reading": "Coming can be pictured as movement along a shared approach.",
+          "boundary": "No literal road surface or physical journey is asserted."
         },
         {
           "branch_ref": "root_000009/B010",
@@ -2525,17 +2415,16 @@
             "19:93:8:1"
           ],
           "trigger_refs": [
-            "19:93:10:1"
+            "19:93:9:2"
           ],
           "focus_return_refs": [
-            "19:93:8:1",
-            "19:93:10:1"
+            "19:93:8:1"
           ],
-          "carrier": "Atiy carries the attributed terminal-limit facet of the path branch.",
-          "independent_trigger": "Abdan provides the independent traversable-road image.",
-          "activation": "The terminal-boundary facet meets the path-like servant image and makes destination feel like the approach's end.",
-          "resulting_reading": "The universal approach is pictured as terminating at al-Rahman.",
-          "boundary": "This extension facet survives only with its core road facet; it is metaphorical, not a literal racecourse."
+          "carrier": "Ati carries an arrival predicate.",
+          "independent_trigger": "The construct names al-Rahman as a distinct destination.",
+          "activation": "The terminal-limit facet contacts the named goal and gives the attributed movement a bounded endpoint.",
+          "resulting_reading": "The shared approach is felt as converging at a destination.",
+          "boundary": "The finish-line image is metaphorical; no race or temporal sequence is claimed."
         },
         {
           "branch_ref": "root_000973/B005",
@@ -2550,14 +2439,13 @@
             "19:93:8:1"
           ],
           "focus_return_refs": [
-            "19:93:10:1",
-            "19:93:8:1"
+            "19:93:10:1"
           ],
-          "carrier": "Abdan carries the attributed leveled, traversable-road image.",
-          "independent_trigger": "Atiy supplies movement toward a destination and terminal limit.",
-          "activation": "The prepared-road carrier meets the coming predicate, making servanthood the condition of passage.",
-          "resulting_reading": "Every trajectory is pictured as traversable only through servanthood.",
-          "boundary": "This is a cross-domain metaphor and does not mean that abdan lexically names a road here."
+          "carrier": "Abdan carries the servant-state of each arrival.",
+          "independent_trigger": "The active coming predicate independently supplies movement with which the branch image can meet.",
+          "activation": "The traversable-road facet contacts the explicit arrival predicate as an attributed condition of passage.",
+          "resulting_reading": "Servanthood can be pictured as the passable condition of the common approach.",
+          "boundary": "No literal paved road or camel/ship use is imported."
         },
         {
           "branch_ref": "root_001315/B003",
@@ -2573,15 +2461,13 @@
             "19:93:10:1"
           ],
           "focus_return_refs": [
-            "19:93:2:1",
-            "19:93:8:1",
-            "19:93:10:1"
+            "19:93:2:1"
           ],
-          "carrier": "Kullu carries complete inclusion.",
-          "independent_trigger": "The coming and servanthood phrases supply the common approach shared by the included set.",
-          "activation": "The universal quantifier extends the attributed path contact to every member.",
-          "resulting_reading": "No member lies outside the exploratory paved convergence.",
-          "boundary": "This is a scope extension within the metaphor, not a new lexical meaning of kullu."
+          "carrier": "Kull carries complete inclusion.",
+          "independent_trigger": "The coming predicate and servant-state independently show what the shared approach reaches.",
+          "activation": "Complete inclusion extends the attributed path image across the whole relative class.",
+          "resulting_reading": "Every member belongs to the same approach reading.",
+          "boundary": "No actual routes or inhabitants are enumerated."
         }
       ],
       "connection_refs": [],
@@ -2590,10 +2476,9 @@
     }
   ],
   "friction_notes": [
-    "No selected context units and no connection-registry rows were supplied; cross-ayah nominations are locally narrowed only when an independent 19:93 relation survives, otherwise rejected with explicit context exclusions.",
-    "Focus-word joins are complete with no unresolved units; activations use exact supplied QAC focus refs, and no non-focus context surface is activated.",
-    "Legacy-unbound HFT roles remain attributed despite coordinate/root agreement; the universal and held relations are qualified, while the paved-road outlier remains exploratory and cannot replace either ordinary focus-word gloss.",
-    "The packet exposes no semantic_obligations list or obligation IDs; semantic_obligation_refs/exclusions are therefore empty, while branch, facet, and context omissions are recorded explicitly."
+    "The QAC-to-analysis bridge resolves all eleven units, but the namespaces remain distinct; findings follow each supplied word_alignment rather than matching word indices.",
+    "The HFT records verify focus Arabic surface while marking segmentation, roots, and roles as attributed nominations. Their supplied focus coordinates match QAC words, so retained readings stay attributed and qualified or exploratory.",
+    "Some candidate summaries depend on neighboring or wider ayahs, but this packet supplies no context-word occurrence surface for those links. Such links are excluded or narrowed from micro findings rather than inferred from pointers."
   ]
 }
 

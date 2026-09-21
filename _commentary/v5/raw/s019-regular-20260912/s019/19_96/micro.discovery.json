@@ -6,208 +6,114 @@
   "candidate_decisions": [
     {
       "candidate_id": "cand_d457e431aa37510e848b",
-      "decision": "narrow",
-      "reason": "Retain the local nominative-agent relation; the mercy-thread extension to 19:2 has no supplied context occurrence.",
+      "decision": "accept",
+      "reason": "QAC and attachment evidence establish the definite nominative compassion-name as the singular agent of yaj'alu; the object and beneficiary slots are separately marked.",
       "finding_refs": [
-        "micro:rahman-agent"
+        "micro:compassion_agent"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:2",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_cb1c2d1c51d0e0a80164",
-      "decision": "narrow",
-      "reason": "Keep the focus-local mercy-to-affection contact. Kinship and womb readings lack an independent family or gestation trigger; listed inter-ayah comparisons have no supplied occurrences.",
+      "decision": "accept",
+      "reason": "The supplied root range and local divine-name form support compassion and tenderness coloring the agent in relation to the affection object; kinship and womb associations remain bounded root-family pressure.",
       "finding_refs": [
-        "micro:mercy-affection-contact"
+        "micro:mercy_name_fits_affection"
       ],
-      "branch_exclusions": [
-        {
-          "branch_ref": "root_000552/B002",
-          "reason": "The focus supplies a compassion-name and affection outcome, but no shared-descent or kinship relation independently triggers this branch."
-        },
-        {
-          "branch_ref": "root_000552/B003",
-          "reason": "No pregnancy, birth, or womb carrier occurs in the focus; the divine-name and affection object alone do not activate this branch."
-        }
-      ],
+      "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:2",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_8f2b7b47e65a07eb2163",
       "decision": "narrow",
-      "reason": "Retain the local relation in which the compassion-name acts between beneficiaries and affection; the 19:2, 19:45, and 20:90 mercy-thread comparisons lack supplied context occurrences.",
+      "reason": "Retain the local agent-object contact: the compassion-name acts toward an affection result. Exclude the named wider mercy-thread ayat because their surfaces are not supplied as micro context.",
       "finding_refs": [
-        "micro:mercy-thread-local"
+        "micro:mercy_to_affection"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:2",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "19:45",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "20:90",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_35fbdaf9f211cf104275",
-      "decision": "narrow",
-      "reason": "Retain the indefinite accusative affection object and its open qualitative force; the listed affection parallels and 19:95 comparison lack supplied context occurrences.",
+      "decision": "accept",
+      "reason": "The indefinite accusative gerund is directly supported as the object of the future making verb, leaving affection qualitatively open.",
       "finding_refs": [
-        "micro:indefinite-affection-object"
+        "micro:affection_object_form"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "11:90",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "30:21",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "42:23",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "5:82",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "60:7",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "85:14",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_6855dd0c15700c38651c",
-      "decision": "narrow",
-      "reason": "Keep loving attachment as the focus sense and report the source's variant-vowel note only as a qualified summary; external parallels are unavailable as occurrences.",
+      "decision": "accept",
+      "reason": "The focus form selects steady affection and loving attachment; the support keeps variant and root-family alternatives visible without moving the object out of the affection reading.",
       "finding_refs": [
-        "micro:steady-affection"
+        "micro:steady_relational_affection"
       ],
-      "branch_exclusions": [
-        {
-          "branch_ref": "root_001634/B002",
-          "reason": "The verb-object and recipient frame selects affection; no independent wishing trigger supports this separate branch."
-        },
-        {
-          "branch_ref": "root_001634/B003",
-          "reason": "No peg or regional object is named or cued in the focus."
-        },
-        {
-          "branch_ref": "root_001634/B004",
-          "reason": "No mountain or valley place-name carrier is present in the focus."
-        },
-        {
-          "branch_ref": "root_001634/B005",
-          "reason": "No idol or cultic-name trigger is present; the local accusative object is relational affection."
-        }
-      ],
+      "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "11:90",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "30:21",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "42:23",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "5:82",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "60:7",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "85:14",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_01d2de5bfd7f6f14a96d",
       "decision": "narrow",
-      "reason": "Retain the focus-local effect of the final affection object completing the promise; 19:95 and the listed affection-root comparisons lack supplied occurrences.",
+      "reason": "Retain the focus-local landing on affection as the final stated result. Exclude the source's solitude and cross-ayah comparisons because those context surfaces are not supplied in the micro lane.",
       "finding_refs": [
-        "micro:final-affection-boundary"
+        "micro:affection_final_landing"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
-          "context_ref": "11:90",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
           "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "30:21",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "42:23",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "5:82",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "60:7",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "11:90",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "85:14",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "5:82",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "42:23",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -215,9 +121,9 @@
     {
       "candidate_id": "cand_4efb28be580b505fe08d",
       "decision": "accept",
-      "reason": "The particle's governed relative subject and asserted predicate relation are directly supported by the focus morphology and attachment summary.",
+      "reason": "The opening particle governs the relative subject and scopes the later future promise as an asserted statement.",
       "finding_refs": [
-        "micro:inna-governance"
+        "micro:asserted_promise_frame"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -227,9 +133,9 @@
     {
       "candidate_id": "cand_aedafabfb48f874ef8cb",
       "decision": "accept",
-      "reason": "The emphatic particle opens the clause and holds the future promise within an asserted frame; the supplied sound/form summary supports the audible emphasis.",
+      "reason": "The emphatic particle adds settled force to the promise and treats the qualifying class as established, while the future predicate remains future.",
       "finding_refs": [
-        "micro:emphatic-assertion"
+        "micro:emphatic_class"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -238,11 +144,9 @@
     },
     {
       "candidate_id": "cand_e287fb9cca129450daa5",
-      "decision": "narrow",
-      "reason": "Keep the local opening and declaration effect of inna; the supplied focus does not establish a Surah-ending discourse position.",
-      "finding_refs": [
-        "micro:opening-declaration"
-      ],
+      "decision": "reject",
+      "reason": "The support's extra claim is an opening at the surah close, but the packet's ordered scope continues through 19:97 and 19:98 after 19:96. The local assertion is already covered by the grammar and emphasis findings, leaving no distinct supported micro edge.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -251,9 +155,9 @@
     {
       "candidate_id": "cand_1f09dac5a38da2120784",
       "decision": "accept",
-      "reason": "The relative pronoun is the governed subject element whose content is completed by the following clause.",
+      "reason": "The governed plural relative pronoun needs the following clause to specify the subject group, as the QAC and attachment support state.",
       "finding_refs": [
-        "micro:relative-head"
+        "micro:relative_subject"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -262,125 +166,80 @@
     },
     {
       "candidate_id": "cand_9a7512e822edda9b21d2",
-      "decision": "narrow",
-      "reason": "Keep the plural class defined by its following acts; the contrast with 19:95 is not grounded by a supplied context occurrence.",
+      "decision": "accept",
+      "reason": "The following belief-and-deed clause defines an open plural class by its qualifying acts rather than by lineage or social label.",
       "finding_refs": [
-        "micro:open-class-membership"
+        "micro:open_relative_class"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_8a41288fc4df4465a946",
-      "decision": "narrow",
-      "reason": "The focus builds one plural class through its following clause; the comparison with 19:95 lacks a supplied context occurrence.",
-      "finding_refs": [
-        "micro:single-qualified-group"
-      ],
+      "decision": "reject",
+      "reason": "The claimed narrowing from 19:95 depends on a non-focus context surface absent from this micro packet; the local class definition is already carried by the relative-pronoun findings.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_383d2d70139dc36040bb",
-      "decision": "narrow",
-      "reason": "Keep the completed plural Form IV belief-act inside the relative clause; cross-ayah formula and reward links have no supplied context occurrences.",
+      "decision": "accept",
+      "reason": "The perfect 3mp form agrees with the relative plural and places believing inside the completed qualification clause.",
       "finding_refs": [
-        "micro:completed-faith-act"
+        "micro:completed_faith_act"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "18:30",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:63",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "38:28",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_668483cb69d924b6b778",
-      "decision": "narrow",
-      "reason": "Retain believing as the selected Form IV reading and the source-reported trust/security pressure as a qualified local resonance; external formula comparisons have no supplied occurrences.",
+      "decision": "accept",
+      "reason": "The local Form IV keeps active believing and trusting as the expressed sense while the supplied root analysis preserves trust, reliability, and security as qualified pressure, not a separate safety reading.",
       "finding_refs": [
-        "micro:trust-pressure"
+        "micro:trust_pressure"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "18:30",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:63",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "38:28",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_28dbca891b33d794701b",
       "decision": "narrow",
-      "reason": "Keep the local sequence of believing before doing as a two-part qualification; the claimed recurrence and its 18:30, 19:60, 19:63, 38:28, and 45:30 comparisons lack supplied occurrences.",
+      "reason": "Retain the focus-local pairing of believing and doing as a two-part qualifying formula. Exclude the comparison ayat, which are named in support but not supplied as micro context.",
       "finding_refs": [
-        "micro:belief-deed-sequence"
+        "micro:belief_deed_formula"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
-          "context_ref": "18:30",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
           "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "19:63",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "18:30",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "38:28",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "45:30",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -388,9 +247,9 @@
     {
       "candidate_id": "cand_ac0c118cd156698d8e40",
       "decision": "accept",
-      "reason": "The conjunction attaches the two qualifying verbs inside one relative clause and keeps them coordinated rather than alternative or independent.",
+      "reason": "The conjunction coordinates the two verbs inside one relative clause, so they qualify the same group rather than forming alternatives or a new sentence.",
       "finding_refs": [
-        "micro:coordinated-criteria"
+        "micro:coordinated_criteria"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -400,9 +259,9 @@
     {
       "candidate_id": "cand_165cc63b5052a72e40f6",
       "decision": "accept",
-      "reason": "The local conjunction binds distinct inward belief and outward action without collapsing their semantic roles.",
+      "reason": "The conjunction's accompaniment pressure lets the inward belief-act and outward deed-act travel together while retaining their separate content.",
       "finding_refs": [
-        "micro:paired-distinct-acts"
+        "micro:joined_distinct_acts"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -412,9 +271,9 @@
     {
       "candidate_id": "cand_fc83ce136fddbfe02fae",
       "decision": "accept",
-      "reason": "The clause's order and attachment support a local inward-and-outward pairing while preserving the acts as distinct.",
+      "reason": "The local pairing supports an inferred inner-and-outer ethical profile, with the conjunction preserving linkage without collapsing the acts.",
       "finding_refs": [
-        "micro:inner-outer-pair"
+        "micro:inner_outer_pair"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -423,276 +282,165 @@
     },
     {
       "candidate_id": "cand_ba634884dd3be369d6d3",
-      "decision": "narrow",
-      "reason": "Keep the explicit object relation that makes righteousness the performed deed; the cited reward contrasts have no supplied context occurrences.",
+      "decision": "accept",
+      "reason": "The explicit direct object after the work verb makes righteous deeds what the group performs, rather than an adjective attached to the group.",
       "finding_refs": [
-        "micro:performed-deed-object"
+        "micro:performed_deed_object"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:63",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "42:23",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_8943221002c43dcf33dc",
-      "decision": "narrow",
-      "reason": "Keep intentional ethical performance under the explicit righteous-deeds object. The listed reward contexts are unavailable; wage, instrumental-use, office, and road senses are not the local lexical sense.",
+      "decision": "accept",
+      "reason": "The root's intentional, productive action field colors the verb while the explicit righteous-deeds object confines it to ethical performance.",
       "finding_refs": [
-        "micro:purposive-ethical-work"
+        "micro:purposive_work"
       ],
-      "branch_exclusions": [
-        {
-          "branch_ref": "root_001046/B002",
-          "reason": "The explicit righteous-deeds object selects performed ethical action, not putting another instrument or person to work."
-        },
-        {
-          "branch_ref": "root_001046/B003",
-          "reason": "No appointment, office, or authority relation occurs in the focus."
-        },
-        {
-          "branch_ref": "root_001046/B004",
-          "reason": "The verb's local object is righteous deeds, not a wage or employee's share; the attributed HFT recompense reading is reviewed separately."
-        },
-        {
-          "branch_ref": "root_001046/B011",
-          "reason": "No path, route, or traveled road supplies an independent trigger."
-        }
-      ],
+      "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:63",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "42:23",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_a6e11d6a3150f5db68e9",
       "decision": "narrow",
-      "reason": "Retain the local hinge from belief through enacted deeds into the later promise; all listed formula and reward comparisons lack supplied context occurrences.",
+      "reason": "Retain the local hinge in which the action verb carries belief into its specified deed-object. Exclude the reward-comparison ayat named by the support.",
       "finding_refs": [
-        "micro:formula-hinge"
+        "micro:work_hinge"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
-          "context_ref": "10:81",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "18:2",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
           "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "19:63",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "42:23",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "18:2",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "10:81",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_c03d0b19a0f6432152b8",
-      "decision": "narrow",
-      "reason": "Keep the definite plural active-participle noun as the explicit deed-object; external formula links at 19:60, 7:196, and 21:72 lack supplied occurrences.",
+      "decision": "accept",
+      "reason": "The definite plural active participle functions as the direct object and presents the performed sound deeds as a recognized category.",
       "finding_refs": [
-        "micro:recognized-deed-category"
+        "micro:recognized_deed_category"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "21:72",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "7:196",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_b439776989d24adbdac6",
-      "decision": "narrow",
-      "reason": "Keep the soundness/repair field and the focus-local affection contact; 19:60, 7:196, and 21:72 are not supplied as context occurrences.",
+      "decision": "accept",
+      "reason": "The root's soundness, repair, and fitness field colors the righteous-deed category, while its local form keeps that field in ethical action.",
       "finding_refs": [
-        "micro:soundness-and-repair"
+        "micro:soundness_and_repair"
       ],
-      "branch_exclusions": [
-        {
-          "branch_ref": "root_000876/B004",
-          "reason": "The plural object in this clause denotes deeds, not the listed personal-name forms."
-        },
-        {
-          "branch_ref": "root_000876/B005",
-          "reason": "No city or river name is carried by the focus object."
-        }
-      ],
+      "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "21:72",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "7:196",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_1eca5a396ecd9904ea87",
       "decision": "narrow",
-      "reason": "Retain the local clause completion on the deed-object before the future predicate begins; the 19:60, 7:196, and 21:72 comparisons lack supplied occurrences.",
+      "reason": "Retain the local clause boundary: the qualifying subject clause lands on its deed-object before the future promise opens. Exclude formula parallels not supplied as micro context.",
       "finding_refs": [
-        "micro:clause-completion-before-promise"
+        "micro:qualification_before_promise"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:60",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "21:72",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "7:196",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "21:72",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_01c2b9e5e152e65e3901",
-      "decision": "narrow",
-      "reason": "Keep the assured future verb frame with recipient and affection-object complements; 19:95 and the 30:21/60:7 comparisons lack supplied occurrences.",
+      "decision": "accept",
+      "reason": "The future-marked imperfect presents the making act as assured and connects it to the beneficiary and affection-object complements.",
       "finding_refs": [
-        "micro:assured-future-making"
+        "micro:assured_future_act"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "30:21",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "60:7",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_af5a35c92b51c7e85429",
-      "decision": "narrow",
-      "reason": "Keep relational placement of affection for the beneficiary group; the cited 19:95, 30:21, and 60:7 parallels lack supplied occurrences.",
+      "decision": "accept",
+      "reason": "The supplied root range supports placing or configuring affection for recipients; the object and beneficiary prevent a bare creation-from-nothing reading.",
       "finding_refs": [
-        "micro:relational-placement"
+        "micro:relational_placement"
       ],
-      "branch_exclusions": [
-        {
-          "branch_ref": "root_000248/B001",
-          "reason": "The beneficiary phrase and existing affection object describe rendering a relation, not production from nothing."
-        }
-      ],
+      "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "30:21",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "60:7",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_6e3e8d8fb303c6f13b2e",
-      "decision": "narrow",
-      "reason": "Keep the local movement from the qualified group to the promised act by the named agent; 19:95 and the listed making-affection parallels lack supplied occurrences.",
-      "finding_refs": [
-        "micro:bestowal-after-group"
-      ],
+      "decision": "reject",
+      "reason": "The candidate's distinct movement from 19:95 and its making-affection parallels are macro-context claims; no such context surfaces are supplied in the micro packet, and local future placement is already covered.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
-          "context_ref": "19:21",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "19:7",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
           "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "28:73",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        },
-        {
-          "context_ref": "30:21",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         },
         {
           "context_ref": "60:7",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "30:21",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "28:73",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "19:21",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
+        },
+        {
+          "context_ref": "19:7",
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -700,9 +448,9 @@
     {
       "candidate_id": "cand_b9d1fc03d3ca84f7bdcb",
       "decision": "accept",
-      "reason": "The bound preposition marks the beneficiary route and separates the recipients from the direct affection object.",
+      "reason": "The bound preposition governs the pronoun as beneficiary, while the affection noun remains the direct object.",
       "finding_refs": [
-        "micro:beneficiary-routing"
+        "micro:beneficiary_routing"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -712,9 +460,9 @@
     {
       "candidate_id": "cand_84d9c4128d9e29e795a6",
       "decision": "accept",
-      "reason": "The preposition's local relation directs benefit toward the group while the affection noun remains the object of making.",
+      "reason": "The preposition and its attached pronoun orient the placement toward the group's benefit and assigned relation.",
       "finding_refs": [
-        "micro:benefit-direction"
+        "micro:benefit_direction"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -724,9 +472,9 @@
     {
       "candidate_id": "cand_92d8a54c7e27f82e183e",
       "decision": "accept",
-      "reason": "The beneficiaries occur before the delayed named agent, so the local promise reaches its recipients before naming its source.",
+      "reason": "Because the beneficiary phrase precedes the named agent, the promise first lands on its recipients before the giver is named.",
       "finding_refs": [
-        "micro:recipient-before-agent"
+        "micro:recipient_before_agent"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -735,51 +483,39 @@
     },
     {
       "candidate_id": "cand_af634cdb30e7fa3600a8",
-      "decision": "narrow",
-      "reason": "Keep humu as the preposition-governed beneficiary pronoun; the 19:95 scope comparison lacks a supplied context occurrence.",
+      "decision": "accept",
+      "reason": "The plural pronoun is governed by the preposition and carries the already-defined group into the recipient slot, rather than introducing a new subject.",
       "finding_refs": [
-        "micro:prepositional-pronoun"
+        "micro:carried_group_pronoun"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_fb081dafea734e051129",
-      "decision": "narrow",
-      "reason": "Keep the attached plural pronoun carrying the relative group into the beneficiary phrase; 19:95 comparison lacks a supplied occurrence.",
+      "decision": "accept",
+      "reason": "The attached suffix carries the relative group's identity into the beneficiary phrase without repeating the full class description.",
       "finding_refs": [
-        "micro:carried-antecedent"
+        "micro:compact_antecedent"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [
-        {
-          "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
-        }
-      ],
+      "context_exclusions": [],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_69ca33ce1bcb154137a3",
-      "decision": "narrow",
-      "reason": "Keep the local pickup of the defined plural group as beneficiaries; the claim that it narrows a universal scope at 19:95 lacks a supplied context occurrence.",
-      "finding_refs": [
-        "micro:qualified-beneficiary-group"
-      ],
+      "decision": "reject",
+      "reason": "The claimed narrowing from the universal scope of 19:95 depends on a non-focus context surface absent from this micro packet; the local pronoun-to-group link is retained in its grammar and lexical findings.",
+      "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
         {
           "context_ref": "19:95",
-          "reason": "The support summary names this comparison, but the packet supplies no occurrence surface for it, so it cannot serve as a micro carrier or trigger."
+          "reason": "This ayah is named by the candidate support, but its surface is not supplied as a micro-lane occurrence; it is therefore excluded from the retained local reading."
         }
       ],
       "semantic_obligation_exclusions": []
@@ -787,7 +523,7 @@
     {
       "candidate_id": "cand_bbe58c4433db6dcf542f",
       "decision": "reject",
-      "reason": "This ledger-only QAC root-occurrence entry supplies a carrier coordinate, not an interpretive claim or semantic obligation; the occurrence remains available as a carrier in retained findings.",
+      "reason": "This ledger-only candidate records the QAC root occurrence at 19:96:3:1 but supplies no distinct semantic relation beyond the dedicated faith-word candidate and the separately reviewed HFT trace.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -797,7 +533,7 @@
     {
       "candidate_id": "cand_a408fc3015dfbc6b0037",
       "decision": "reject",
-      "reason": "This ledger-only QAC root-occurrence entry supplies a carrier coordinate, not an interpretive claim or semantic obligation; the occurrence remains available as a carrier in retained findings.",
+      "reason": "This ledger-only candidate records the QAC root occurrence at 19:96:4:2 but supplies no distinct semantic relation beyond the dedicated work-word candidate and the separately reviewed HFT traces.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -807,7 +543,7 @@
     {
       "candidate_id": "cand_4e3bf9618b3ce374c1b7",
       "decision": "reject",
-      "reason": "This ledger-only QAC root-occurrence entry supplies a carrier coordinate, not an interpretive claim or semantic obligation; the occurrence remains available as a carrier in retained findings.",
+      "reason": "This ledger-only candidate records the QAC root occurrence at 19:96:5:2 but supplies no distinct semantic relation beyond the dedicated righteous-deeds candidate and the separately reviewed HFT traces.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -817,7 +553,7 @@
     {
       "candidate_id": "cand_c970c4d9a4a3f8f61001",
       "decision": "reject",
-      "reason": "This ledger-only QAC root-occurrence entry supplies a carrier coordinate, not an interpretive claim or semantic obligation; the occurrence remains available as a carrier in retained findings.",
+      "reason": "This ledger-only candidate records the QAC root occurrence at 19:96:6:2 but supplies no distinct semantic relation beyond the dedicated making-word candidate and the separately reviewed HFT traces.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -827,7 +563,7 @@
     {
       "candidate_id": "cand_1a886fbf0ec5ad65ca5a",
       "decision": "reject",
-      "reason": "This ledger-only QAC root-occurrence entry supplies a carrier coordinate, not an interpretive claim or semantic obligation; the occurrence remains available as a carrier in retained findings.",
+      "reason": "This ledger-only candidate records the QAC root occurrence at 19:96:8:2 but supplies no distinct semantic relation beyond the dedicated compassion-name candidate and the separately reviewed HFT trace.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -837,7 +573,7 @@
     {
       "candidate_id": "cand_eacaf0c0cf1671dd3a6e",
       "decision": "reject",
-      "reason": "This ledger-only QAC root-occurrence entry supplies a carrier coordinate, not an interpretive claim or semantic obligation; the occurrence remains available as a carrier in retained findings.",
+      "reason": "This ledger-only candidate records the QAC root occurrence at 19:96:9:1 but supplies no distinct semantic relation beyond the dedicated affection-word candidate and the separately reviewed HFT traces.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -847,9 +583,9 @@
     {
       "candidate_id": "cand_040a185e74577d72dcb0",
       "decision": "accept",
-      "reason": "Every HFT root/word coordinate agrees with the supplied 19:96 QAC surface, and the other focus words provide contact for the complete attributed sequence.",
+      "reason": "Every nominated focus branch has an independently grounded focus-word contact in the supplied sequence; retain the full chain with legacy-unbound attribution qualification.",
       "finding_refs": [
-        "micro:secure-practice-to-affection"
+        "micro:secure_practice_to_affection"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -859,9 +595,9 @@
     {
       "candidate_id": "cand_d7221dc489880cee5f95",
       "decision": "accept",
-      "reason": "All four traced roots and word indices agree with focus QAC; affection and the making/beneficiary frame provide local return contact for the attributed reconciliation reading.",
+      "reason": "The focus words support the complete dealings-to-reconciliation-to-settled-affection chain; preserve its legacy-unbound attribution and distinguish it from the secure-practice and recompense readings.",
       "finding_refs": [
-        "micro:reconciliation-to-affection"
+        "micro:reconciliation_settles_as_love"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -871,9 +607,9 @@
     {
       "candidate_id": "cand_d3385d3f20a3c1d2f340",
       "decision": "accept",
-      "reason": "The work, appointed-fee, beneficiary, and affection coordinates agree with focus QAC and form the source's attributed recompense chain.",
+      "reason": "The work, beneficiary, assignment, and affection sequence can sustain the supplied exploratory recompense analogy with every nominated branch retained and the local form limits stated.",
       "finding_refs": [
-        "micro:affection-as-recompense"
+        "micro:affection_as_recompense"
       ],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -883,877 +619,24 @@
   ],
   "findings": [
     {
-      "finding_ref": "micro:inna-governance",
-      "origin_candidate_id": "cand_4efb28be580b505fe08d",
-      "represented_candidate_ids": [],
-      "title": "Assertion governs the promise",
-      "claim": "Inna governs the relative subject and places the later future promise inside an asserted frame.",
-      "mechanism": "The particle opens the clause, the relative pronoun supplies its subject, and the making predicate completes what is asserted.",
-      "reader_payoff": "The whole sequence is heard as declared promise rather than as a detached expectation.",
-      "containment": "The claim concerns this particle's local governance; it does not assign a separate lexical sense to the particle.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The accepted QAC alignment and attachment summary directly support the particle, relative subject, and predicate relation."
-      },
-      "support_ids": [
-        "sup_229d00a69ef2f1275aa8",
-        "sup_e25d1fe814e74cc305c3"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:emphatic-assertion",
-      "origin_candidate_id": "cand_aedafabfb48f874ef8cb",
-      "represented_candidate_ids": [],
-      "title": "Emphatic assertion",
-      "claim": "Inna's emphatic form confirms the promise while treating the following qualified class as established.",
-      "mechanism": "Its doubled form and governing position give audible and grammatical force to the statement before the class and its actions unfold.",
-      "reader_payoff": "The promise arrives with a compact, emphatic opening.",
-      "containment": "This keeps the particle's emphatic contribution alongside its ordinary governing role; it does not claim that the class is socially closed.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The supplied lexical and grammatical support agree on emphasis and governance, and the focus surface preserves the doubled particle."
-      },
-      "support_ids": [
-        "sup_229d00a69ef2f1275aa8",
-        "sup_db461192123eb6e8c560"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:opening-declaration",
-      "origin_candidate_id": "cand_e287fb9cca129450daa5",
-      "represented_candidate_ids": [],
-      "title": "Opening declaration",
-      "claim": "The ayah opens directly in a declarative frame before it describes the recipients or the promised affection.",
-      "mechanism": "The initial particle sets the utterance's mode at the first word, so the later predicate enters an already asserted clause.",
-      "reader_payoff": "The reader encounters declaration before qualification or outcome.",
-      "containment": "Only the focus ayah's own opening is retained; the source's Surah-ending framing is not established by this focus-only context.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local opening and particle are supplied; the structural summary's wider closing position is outside the available focus evidence."
-      },
-      "support_ids": [
-        "sup_229d00a69ef2f1275aa8",
-        "sup_d0dd2e88398de271068d"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:relative-head",
-      "origin_candidate_id": "cand_1f09dac5a38da2120784",
-      "represented_candidate_ids": [],
-      "title": "Relative subject",
-      "claim": "Alladhina is the plural relative subject governed by inna, with its content supplied by the clause that follows.",
-      "mechanism": "The relative form opens a class whose two qualifying acts are expressed by the coordinated verbs.",
-      "reader_payoff": "The group is defined by what its members do rather than by a separate noun label.",
-      "containment": "This is the local relative-clause relation; no claim about an external social category is needed.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The QAC and attachment summary directly locate the relative pronoun under the opening particle."
-      },
-      "support_ids": [
-        "sup_9d3e9fb39162e37e0f8e",
-        "sup_e4254e115265c718b861"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:open-class-membership",
-      "origin_candidate_id": "cand_9a7512e822edda9b21d2",
-      "represented_candidate_ids": [],
-      "title": "Open class membership",
-      "claim": "The plural class is described by believing and doing sound deeds rather than by a lineage or social title.",
-      "mechanism": "The relative pronoun leaves the class label open while the following coordinated clause supplies its qualifying content.",
-      "reader_payoff": "Membership becomes legible through the two acts named in the ayah.",
-      "containment": "The contrast with 19:95 is excluded here; openness is grounded in the local relative clause alone.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local relative form and following clause directly define the class; the unavailable comparison is recorded as an exclusion."
-      },
-      "support_ids": [
-        "sup_2a1c69c712108e103188",
-        "sup_e4254e115265c718b861"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:single-qualified-group",
-      "origin_candidate_id": "cand_8a41288fc4df4465a946",
-      "represented_candidate_ids": [],
-      "title": "One class carried through two acts",
-      "claim": "Alladhina introduces one plural group, and both coordinated verbs qualify that same group before the promise picks it up as beneficiary.",
-      "mechanism": "The plural head governs the believing and doing predicates, while the later plural pronoun returns to that antecedent.",
-      "reader_payoff": "The clause keeps both conditions attached to one class instead of splitting them into separate groups.",
-      "containment": "The claim uses only the focus clause and its local plural agreement; the 19:95 comparison is not used.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The focus morphology and local clause-building support one plural antecedent across both predicates and the beneficiary phrase."
-      },
-      "support_ids": [
-        "sup_1a24967d09cbb619a202",
-        "sup_e4254e115265c718b861"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:completed-faith-act",
-      "origin_candidate_id": "cand_383d2d70139dc36040bb",
-      "represented_candidate_ids": [],
-      "title": "Completed belief qualification",
-      "claim": "A completed plural Form IV belief-act is the first qualification inside the relative clause.",
-      "mechanism": "The perfect plural verb agrees with the plural relative head and precedes the coordinated work verb.",
-      "reader_payoff": "Believing is presented as a completed collective qualification within the clause.",
-      "containment": "The claim stays with the local verb form; reward and formula comparisons in other ayat are excluded.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "QAC morphology and the trusted attachment summary support the perfect plural form and its clause role."
-      },
-      "support_ids": [
-        "sup_64ae8c6a89a45b54b05a",
-        "sup_f20c9dd70ed900de0e4e"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:trust-pressure",
-      "origin_candidate_id": "cand_668483cb69d924b6b778",
-      "represented_candidate_ids": [],
-      "title": "Trust carried into practice",
-      "claim": "The Form IV verb selects believing, while a secondary trust-and-security pressure can be heard as the described group moves directly into sound action.",
-      "mechanism": "The carrier āmanū has a trust/security field; the independent trigger is its coordination with ʿamilū and the righteous-deeds object, which gives trust an enacted direction.",
-      "reader_payoff": "The belief-and-deed pairing lets inward reliance show itself in action, while the lexical sense remains believing.",
-      "containment": "This secondary pressure does not assert a named danger, fear, or safety event; broader formula references are excluded.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local morphology keeps believing primary, while the support reports trust/security pressure without the source's fuller V4 guardrail rows."
-      },
-      "support_ids": [
-        "sup_5a2ed028f263f8e81b28",
-        "sup_64ae8c6a89a45b54b05a",
-        "sup_c85fd4d0d08bac8b2449"
-      ],
-      "branch_activations": [
-        {
-          "branch_ref": "root_000054/B001",
-          "facet_id": "F001",
-          "branch_gloss": "guven ve guvenilirlik",
-          "facet_statement": "Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir.",
-          "application_mode": "contextual_resonance",
-          "carrier_refs": [
-            "19:96:3:1"
-          ],
-          "trigger_refs": [
-            "19:96:4:2",
-            "19:96:5:2"
-          ],
-          "focus_return_refs": [
-            "19:96:3:1",
-            "19:96:4:2",
-            "19:96:5:2"
-          ],
-          "carrier": "The Form IV believing verb carries the branch's trust and inner-security pressure.",
-          "independent_trigger": "The coordinated intentional action and righteous-deeds object supply an independent enacted commitment.",
-          "activation": "The root pressure contacts the following acts: belief is heard with a trust-like steadiness that proceeds into practice.",
-          "resulting_reading": "Trust and inward steadiness color the faith-act as it is enacted.",
-          "boundary": "This remains secondary pressure within the ordinary believing reading; no danger, rescue, or explicit safety event is claimed."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:belief-deed-sequence",
-      "origin_candidate_id": "cand_28dbca891b33d794701b",
-      "represented_candidate_ids": [],
-      "title": "Belief before deed",
-      "claim": "Believing precedes doing as a two-part qualification, so inward commitment is presented before its enacted expression.",
-      "mechanism": "The clause places the completed belief verb before the coordinated work verb and keeps both under the same relative head.",
-      "reader_payoff": "The local order lets inward orientation lead into outward action.",
-      "containment": "The source's cross-ayah formula recurrence is excluded; this finding concerns the focus's own ordered pair.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The two predicates and their order are supplied; the repeated-formula comparison lacks context occurrences here."
-      },
-      "support_ids": [
-        "sup_64ae8c6a89a45b54b05a",
-        "sup_bcb28bb3f6bfad266f58",
-        "sup_c85fd4d0d08bac8b2449",
-        "sup_7b0d553fe00ba23affb6"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:coordinated-criteria",
-      "origin_candidate_id": "cand_ac0c118cd156698d8e40",
-      "represented_candidate_ids": [],
-      "title": "Coordinated criteria",
-      "claim": "Wa binds believing and doing as two criteria within one relative clause rather than as alternatives or a new sentence.",
-      "mechanism": "The conjunction joins the second completed verb to the first, keeping both acts under the same plural subject.",
-      "reader_payoff": "The class is qualified by a pair of acts that remain distinct.",
-      "containment": "The finding is limited to local coordination and does not collapse faith into action.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The QAC alignment and attachment evidence directly establish the conjunction's scope."
-      },
-      "support_ids": [
-        "sup_0f4cef49fdfcfc1d1c13",
-        "sup_57358e6c892a5c9f8634",
-        "sup_c85fd4d0d08bac8b2449",
-        "sup_7b0d553fe00ba23affb6"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:paired-distinct-acts",
-      "origin_candidate_id": "cand_165cc63b5052a72e40f6",
-      "represented_candidate_ids": [],
-      "title": "Joined but distinct acts",
-      "claim": "The conjunction makes inward faith and outward action belong together while preserving them as different acts.",
-      "mechanism": "Wa attaches the completed work verb to the faith verb; their distinct lexical meanings remain visible inside one clause.",
-      "reader_payoff": "Togetherness does not erase the inner-and-outer distinction in the qualification.",
-      "containment": "This is a local pairing, not a claim that either act alone is sufficient.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The conjunction and the two separately formed predicates provide direct local support."
-      },
-      "support_ids": [
-        "sup_0f4cef49fdfcfc1d1c13",
-        "sup_280b2c0bb241c00ed86f"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:inner-outer-pair",
-      "origin_candidate_id": "cand_fc83ce136fddbfe02fae",
-      "represented_candidate_ids": [],
-      "title": "Inner and outer pairing",
-      "claim": "The clause pairs inward believing with outward work as related but distinct parts of one ethical profile.",
-      "mechanism": "The attached conjunction carries the second act forward from the first, and the two predicates retain different roles.",
-      "reader_payoff": "The group is described through both conviction and what is done.",
-      "containment": "The wider Qur'anic-formula claim is kept at the focus's local inner/outer relation.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The structure summary and the supplied verb forms support the joined-but-distinct pair."
-      },
-      "support_ids": [
-        "sup_0f4cef49fdfcfc1d1c13",
-        "sup_5b6cd60f52f5918f2cec"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:performed-deed-object",
-      "origin_candidate_id": "cand_ba634884dd3be369d6d3",
-      "represented_candidate_ids": [],
-      "title": "Righteous deeds as performed object",
-      "claim": "Al-ṣāliḥāt is the explicit object of ʿamilū, making righteous deeds what the group performs.",
-      "mechanism": "The work verb takes the definite plural active-participle noun as its direct object, rather than leaving goodness as a modifier of the people.",
-      "reader_payoff": "The clause identifies the deed itself as the performed object.",
-      "containment": "The reward contrasts named in the source are excluded; the direct-object relation is retained intact.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The QAC and attachment summary directly identify the explicit object of the work verb."
-      },
-      "support_ids": [
-        "sup_3cb8b7b07484d002bdf5",
-        "sup_cb8f620eda36a838c3d1"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:purposive-ethical-work",
-      "origin_candidate_id": "cand_8943221002c43dcf33dc",
-      "represented_candidate_ids": [],
-      "title": "Purposive ethical work",
-      "claim": "ʿAmilū carries intentional doing and productive agency, while its explicit ṣāliḥāt object narrows the action to ethical performance.",
-      "mechanism": "The action verb contacts its independent direct object, so work is understood as doing sound deeds rather than using an instrument or holding an office.",
-      "reader_payoff": "The group is active in carrying out deeds, not merely described by an ethical adjective.",
-      "containment": "The ordinary verb-level sense is intentional action; an attributed reward frame is preserved separately by the HFT finding, and does not make wages the direct-object reading.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The trusted lexical range and explicit object support ethical performance; external reward examples are omitted."
-      },
-      "support_ids": [
-        "sup_3cb8b7b07484d002bdf5",
-        "sup_aab5d1485cfb1aa9ce22",
-        "sup_7b0d553fe00ba23affb6"
-      ],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001046/B001",
-          "facet_id": "F001",
-          "branch_gloss": "bilerek yapılan iş veya eylem",
-          "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
-          "application_mode": "lexical",
-          "carrier_refs": [
-            "19:96:4:2"
-          ],
-          "trigger_refs": [
-            "19:96:5:2"
-          ],
-          "focus_return_refs": [
-            "19:96:4:2",
-            "19:96:5:2"
-          ],
-          "carrier": "ʿAmilū carries intentional, knowing action.",
-          "independent_trigger": "The explicit righteous-deeds object specifies what the action consists of.",
-          "activation": "The verb's broad action sense is directed into the ethical deed category supplied by its object.",
-          "resulting_reading": "The work verb names intentional performance of righteous deeds.",
-          "boundary": "This is not an office, wage, tool-use, or road sense of the verb."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:formula-hinge",
-      "origin_candidate_id": "cand_a6e11d6a3150f5db68e9",
-      "represented_candidate_ids": [],
-      "title": "Hinge from faith to deeds",
-      "claim": "The work verb is the hinge between belief and sound deeds, and the qualifying clause lands on its object before the promise opens.",
-      "mechanism": "The two completed acts meet at ʿamilū; its direct object closes the relative-clause profile before the future predicate begins.",
-      "reader_payoff": "The sequence makes action the bridge from belief to the stated category of deeds.",
-      "containment": "Only the focus-local hinge and clause boundary are retained; the cited reward and formula contexts are excluded.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The focus word order and direct-object evidence support the hinge; external comparisons are not used."
-      },
-      "support_ids": [
-        "sup_3cb8b7b07484d002bdf5",
-        "sup_dfc26dc503823f47224c",
-        "sup_c85fd4d0d08bac8b2449",
-        "sup_7b0d553fe00ba23affb6"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:recognized-deed-category",
-      "origin_candidate_id": "cand_c03d0b19a0f6432152b8",
-      "represented_candidate_ids": [],
-      "title": "Recognized deed category",
-      "claim": "The definite plural active participle al-ṣāliḥāt functions as the performed deed-object and names a recognized category of sound acts.",
-      "mechanism": "Its noun form fills the object slot after ʿamilū, so the clause describes performance of deeds in that category.",
-      "reader_payoff": "The qualifying clause lands on a concrete class of acts before the divine predicate begins.",
-      "containment": "The form is a deed category in this clause; the external reward/care comparisons are excluded.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The QAC and attachment summary directly identify the definite plural active-participle object."
-      },
-      "support_ids": [
-        "sup_6ad578167c17e08876ed",
-        "sup_f7afb05a978d1699e3e0"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:soundness-and-repair",
-      "origin_candidate_id": "cand_b439776989d24adbdac6",
-      "represented_candidate_ids": [],
-      "title": "Soundness and repair meet affection",
-      "claim": "Al-ṣāliḥāt names the sound, beneficial deed category; in contact with final wudd it also permits a bounded reconciliation resonance.",
-      "mechanism": "The performed deeds supply the carrier, and the separate affection object supplies a relational trigger; the two meet as repair directed toward relation.",
-      "reader_payoff": "The ordinary righteous-deed category can be heard with an added possibility of mending relations toward affection.",
-      "containment": "No particular quarrel or reconciliation event is named, and proper-name/place-name branches are excluded; this is a focus-local resonance.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The lexical summary includes repair and reconciliation, while the independent focus trigger is wudd; the relation remains a qualified inference."
-      },
-      "support_ids": [
-        "sup_3c497afd948589c21094",
-        "sup_f7afb05a978d1699e3e0",
-        "sup_d1e0c5de6e07a7c5dcaf",
-        "sup_7ffea673e0845695c49e"
-      ],
-      "branch_activations": [
-        {
-          "branch_ref": "root_000876/B001",
-          "facet_id": "F001",
-          "branch_gloss": "iyi ve düzgün olma; düzeltme",
-          "facet_statement": "Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur.",
-          "application_mode": "lexical",
-          "carrier_refs": [
-            "19:96:5:2"
-          ],
-          "trigger_refs": [
-            "19:96:4:2"
-          ],
-          "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:4:2"
-          ],
-          "carrier": "Al-ṣāliḥāt carries the sound and beneficial state of the righteousness branch.",
-          "independent_trigger": "The work verb presents these qualities as performed deeds.",
-          "activation": "The action/object relation makes soundness the quality of the deeds carried out by the group.",
-          "resulting_reading": "Righteous deeds are heard as acts belonging to a sound and beneficial category.",
-          "boundary": "This core sense remains the local lexical reading and does not itself specify interpersonal reconciliation."
-        },
-        {
-          "branch_ref": "root_000876/B001",
-          "facet_id": "F002",
-          "branch_gloss": "iyi ve düzgün olma; düzeltme",
-          "facet_statement": "Bir şey kendiliğinden iyi ve düzgün duruma gelebilir ya da bir etken bozukluğu gidererek onu bu duruma getirebilir.",
-          "application_mode": "lexical",
-          "carrier_refs": [
-            "19:96:5:2"
-          ],
-          "trigger_refs": [
-            "19:96:4:2",
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:4:2",
-            "19:96:9:1"
-          ],
-          "carrier": "Al-ṣāliḥāt carries the branch's corrective and restorative extension.",
-          "independent_trigger": "The action verb marks performance, and final wudd supplies an independent relational result.",
-          "activation": "Soundness and repair meet enacted practice and the promised affection outcome.",
-          "resulting_reading": "The deed category can carry a restorative direction toward right relation.",
-          "boundary": "The ayah does not name a particular corruption or a specific repaired dispute."
-        },
-        {
-          "branch_ref": "root_000876/B002",
-          "facet_id": "F001",
-          "branch_gloss": "barışma ve uzlaşma",
-          "facet_statement": "Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": [
-            "19:96:5:2"
-          ],
-          "trigger_refs": [
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:9:1"
-          ],
-          "carrier": "The ṣāliḥāt object can carry the reconciliation branch's removal of a damaged relation.",
-          "independent_trigger": "The distinct final affection noun supplies a positive relational trigger.",
-          "activation": "The deed carrier and affection trigger make relation-repair perceptible as one possible shape of righteous action.",
-          "resulting_reading": "Some righteous deeds can be heard as mending relations toward affection.",
-          "boundary": "No prior conflict is stated, so this branch is a resonance rather than a narrated event."
-        },
-        {
-          "branch_ref": "root_000876/B002",
-          "facet_id": "F002",
-          "branch_gloss": "barışma ve uzlaşma",
-          "facet_statement": "Taraflar karşılıklı olarak barışır ve aralarında uzlaşma oluşur.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": [
-            "19:96:5:2"
-          ],
-          "trigger_refs": [
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:9:1"
-          ],
-          "carrier": "The ṣāliḥāt object can carry the branch's mutual-peace facet.",
-          "independent_trigger": "The final affection noun gives the independent contact through which reciprocal relation becomes legible.",
-          "activation": "The two focus roots meet in a repair-to-affection movement.",
-          "resulting_reading": "Righteous action may open toward mutual peace and affection.",
-          "boundary": "The text does not specify participants, a dispute, or an explicit act of mediation."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:clause-completion-before-promise",
-      "origin_candidate_id": "cand_1eca5a396ecd9904ea87",
-      "represented_candidate_ids": [],
-      "title": "Clause lands before the promise",
-      "claim": "The qualifying subject clause lands on its completed deed-object before the future divine predicate begins.",
-      "mechanism": "The definite plural object closes the relative clause, and the following future-marked verb introduces the act promised for the group.",
-      "reader_payoff": "The ethical profile is allowed to settle before its outcome is named.",
-      "containment": "This is a local clause-completion effect; the cited formula and reward contexts are excluded.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The supplied word order and object/attachment summaries support the boundary."
-      },
-      "support_ids": [
-        "sup_336d72f65e87c7e36fe2",
-        "sup_f7afb05a978d1699e3e0"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:assured-future-making",
-      "origin_candidate_id": "cand_01c2b9e5e152e65e3901",
-      "represented_candidate_ids": [],
-      "title": "Assured future act",
-      "claim": "Sa-yajʿalu presents an assured future making act with a beneficiary phrase and an affection object.",
-      "mechanism": "The future prefix marks the imperfect, while the singular verb is completed by li-hum and wuddan around the named agent.",
-      "reader_payoff": "The promise is framed as a future act already held within assertion.",
-      "containment": "Only the local future/complement frame is retained; the 19:95 and making-affection comparisons are excluded.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "QAC morphology and attachment support the future-marked imperfect and its complements."
-      },
-      "support_ids": [
-        "sup_2b57833003e81d96ef29",
-        "sup_e5f36b874729b8368be7"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:relational-placement",
-      "origin_candidate_id": "cand_af5a35c92b51c7e85429",
-      "represented_candidate_ids": [],
-      "title": "Relational placement of affection",
-      "claim": "Yajʿalu selects rendering or placing affection for the beneficiary group, a change of relation or condition rather than production from nothing.",
-      "mechanism": "The verb's state-changing branch meets the independent li-hum recipient phrase and the final affection object; together they specify what is rendered and for whom.",
-      "reader_payoff": "The promise presents affection as configured for the recipients.",
-      "containment": "The lexical sense is bounded to relational placement; bare production and the cited cross-ayah parallels are not used.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The verb, beneficiary, and direct-object frame directly fit a state-changing use."
-      },
-      "support_ids": [
-        "sup_2b57833003e81d96ef29",
-        "sup_9781f967aad1cf66dffa",
-        "sup_a15d7d2b1b38605b46dd",
-        "sup_7ffea673e0845695c49e"
-      ],
-      "branch_activations": [
-        {
-          "branch_ref": "root_000248/B002",
-          "facet_id": "F001",
-          "branch_gloss": "birini veya şeyi belirli bir duruma getirme",
-          "facet_statement": "Var olan bir katılımcının durumunu, niteliğini veya konumunu değiştiren ettirici işlemi bildirir.",
-          "application_mode": "lexical",
-          "carrier_refs": [
-            "19:96:6:2"
-          ],
-          "trigger_refs": [
-            "19:96:7:1",
-            "19:96:7:2",
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:6:2",
-            "19:96:7:1",
-            "19:96:7:2",
-            "19:96:9:1"
-          ],
-          "carrier": "Yajʿalu carries the verb's state-changing sense.",
-          "independent_trigger": "The beneficiary phrase and affection object specify the changed relation and its recipients.",
-          "activation": "The existing group and named affection object make the predicate a rendering into a social condition.",
-          "resulting_reading": "Affection is placed as a relation for the group.",
-          "boundary": "The clause does not assert creation from nothing or an unrelated nominal root use."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:bestowal-after-group",
-      "origin_candidate_id": "cand_6e3e8d8fb303c6f13b2e",
-      "represented_candidate_ids": [],
-      "title": "From qualified group to promised act",
-      "claim": "The future predicate moves from the group's completed qualification to an act the named divine agent will perform for them.",
-      "mechanism": "The relative clause closes on the deeds, then sa-yajʿalu opens a future predicate whose beneficiary precedes the agent and object.",
-      "reader_payoff": "The local sequence turns description of the group into a promise directed toward it.",
-      "containment": "The 19:95 boundary and the cross-ayah making-affection parallels are excluded; this claim follows focus word order only.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local predicate and agent order are supplied, while the source's wider transition depends on unavailable contexts."
-      },
-      "support_ids": [
-        "sup_2b57833003e81d96ef29",
-        "sup_c57acd6df0d45add63f2"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:beneficiary-routing",
-      "origin_candidate_id": "cand_b9d1fc03d3ca84f7bdcb",
-      "represented_candidate_ids": [],
-      "title": "Beneficiary routing",
-      "claim": "The bound preposition routes the making promise toward the group; the believers are recipients, not the direct object.",
-      "mechanism": "The preposition governs humu, while wuddan fills the object slot of yajʿalu.",
-      "reader_payoff": "The phrase separates who benefits from what is made.",
-      "containment": "This is a local grammatical distinction and does not make the recipient group the object of the verb.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The accepted alignment and attachment evidence directly support the beneficiary phrase."
-      },
-      "support_ids": [
-        "sup_abf971ee326bb880c928",
-        "sup_bc082b14e047ef1a30bb"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:benefit-direction",
-      "origin_candidate_id": "cand_84d9c4128d9e29e795a6",
-      "represented_candidate_ids": [],
-      "title": "Benefit directed to them",
-      "claim": "Li-hum places the affection on the beneficiaries' side of the relation and gives it a favorable direction toward them.",
-      "mechanism": "The bound preposition joins the group pronoun to a future making verb whose direct object is the affection noun.",
-      "reader_payoff": "The promise is phrased as affection assigned for the recipients.",
-      "containment": "The preposition marks a recipient relation; it does not specify who else may experience or return the affection.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The supplied preposition summary and local verb/object frame directly support this direction."
-      },
-      "support_ids": [
-        "sup_a5db11a788df320f321a",
-        "sup_abf971ee326bb880c928"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:recipient-before-agent",
-      "origin_candidate_id": "cand_92d8a54c7e27f82e183e",
-      "represented_candidate_ids": [],
-      "title": "Recipients before named giver",
-      "claim": "The beneficiary phrase comes before al-Raḥmān, so the promise reaches the qualified group before naming its agent.",
-      "mechanism": "In the verb frame, li-hum precedes the delayed nominative divine name and the final affection object.",
-      "reader_payoff": "The order gives the recipients the first place in hearing the promise.",
-      "containment": "This is a local word-order effect and does not change the grammatical subject or object.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local bound phrase and nominative-agent position directly support the order."
-      },
-      "support_ids": [
-        "sup_abf971ee326bb880c928",
-        "sup_e81606dc7919d8b431b6"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:prepositional-pronoun",
-      "origin_candidate_id": "cand_af634cdb30e7fa3600a8",
-      "represented_candidate_ids": [],
-      "title": "Pronoun in the beneficiary slot",
-      "claim": "Humu is governed by the bound preposition and occupies the beneficiary phrase, not a new subject position.",
-      "mechanism": "The preposition attaches directly to the plural pronoun; the finite making verb already has a singular agent expressed later.",
-      "reader_payoff": "The same previously defined group moves from qualification into recipienthood.",
-      "containment": "Only the local pronoun relation is retained; its contrast with 19:95 is not grounded here.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The supplied QAC and attachment summary directly identify the pronoun's prepositional role."
-      },
-      "support_ids": [
-        "sup_4eb66077b4e9b110955a",
-        "sup_e3891eef99e0a189ef32"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:carried-antecedent",
-      "origin_candidate_id": "cand_fb081dafea734e051129",
-      "represented_candidate_ids": [],
-      "title": "Group carried into recipienthood",
-      "claim": "The attached plural pronoun carries the just-defined belief-and-deed group into the beneficiary phrase without repeating the longer relative subject.",
-      "mechanism": "Its plural suffix resumes the relative class after the verb and keeps that same group as recipient of affection.",
-      "reader_payoff": "One class moves continuously from qualification to benefit.",
-      "containment": "The 19:95 comparison is excluded; the local antecedent relation is sufficient.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The relative class, plural suffix, and beneficiary phrase are all present in the focus."
-      },
-      "support_ids": [
-        "sup_60ac307d6f1615c4ccbc",
-        "sup_e3891eef99e0a189ef32"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:qualified-beneficiary-group",
-      "origin_candidate_id": "cand_69ca33ce1bcb154137a3",
-      "represented_candidate_ids": [],
-      "title": "Qualified group as beneficiary",
-      "claim": "The beneficiary pronoun refers back to the class qualified by belief and deeds, so the future affection promise is for that class.",
-      "mechanism": "The plural pronoun in li-hum resumes the plural relative group rather than introducing a fresh subject.",
-      "reader_payoff": "The clause carries one group from its conditions into the promised benefit.",
-      "containment": "The claimed narrowing from 19:95's universal scope is omitted because no context occurrence is supplied.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The local plural antecedent and beneficiary relation directly support the retained claim."
-      },
-      "support_ids": [
-        "sup_95f6202bdac0922d53ba",
-        "sup_e3891eef99e0a189ef32"
-      ],
-      "branch_activations": [],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:rahman-agent",
+      "finding_ref": "micro:compassion_agent",
       "origin_candidate_id": "cand_d457e431aa37510e848b",
       "represented_candidate_ids": [],
-      "title": "Delayed nominative agent",
-      "claim": "Al-Raḥmān is the nominative agent of yajʿalu; the recipients arrive in li-hum before the agent, and wuddan closes the made-object slot.",
-      "mechanism": "The future verb opens its predicate, the beneficiary phrase identifies who receives the act, and the following nominative name fills the subject role before the final accusative object completes the relation.",
-      "reader_payoff": "The promise names its recipients before its agent, then ends by naming the affection placed for them.",
-      "containment": "This finding is limited to local subject, beneficiary, and object relations; the 19:2 mercy-thread extension is excluded.",
+      "title": "Compassion-name as agent",
+      "claim": "The definite compassion-name is the singular agent that performs the future act for the beneficiaries and places affection as its object.",
+      "mechanism": "The nominative name is delayed until after the beneficiary phrase, then governs the making verb; the following affection noun completes the agent-beneficiary-object relation.",
+      "reader_payoff": "The promise has a named compassionate agent, not an impersonal change in social feeling.",
+      "containment": "The grammar identifies the agent but does not by itself specify the human response or make the recipients the direct object.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "QAC case marking, the attachment summary, and the local word order directly support the agent relation."
+        "reason": "The local morphology and supplied support directly ground the stated relation."
       },
       "support_ids": [
-        "sup_1e086d7ed7eea93622ae",
-        "sup_3dbc03c0086d544a7a32"
+        "sup_3dbc03c0086d544a7a32",
+        "sup_1e086d7ed7eea93622ae"
       ],
       "branch_activations": [],
       "connection_refs": [],
@@ -1761,120 +644,45 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:mercy-affection-contact",
+      "finding_ref": "micro:mercy_name_fits_affection",
       "origin_candidate_id": "cand_cb1c2d1c51d0e0a80164",
       "represented_candidate_ids": [],
-      "title": "Compassion fits the affection outcome",
-      "claim": "The compassion-name and the final affection object meet locally: the promise's loving outcome is framed as an act of mercy and beneficence.",
-      "mechanism": "Al-Raḥmān carries the mercy branch, while the separate wuddan object and future making predicate provide the contact through which tenderness becomes action for beneficiaries.",
-      "reader_payoff": "The named agent and promised affection illuminate each other inside one clause.",
-      "containment": "This is a local mercy-to-affection relation; family, womb, and wider Surah-thread readings are not asserted.",
+      "title": "Mercy-name meets affection",
+      "claim": "The mercy and tenderness field of al-Raḥmān colors the agent who places wuddan for the group.",
+      "mechanism": "The compassion-name as carrier meets the affection noun as an independent object; their contact makes the promise an act of compassionate agency rather than an abstract social result.",
+      "reader_payoff": "The affection promised is locally connected to the named agent's mercy field.",
+      "containment": "Kinship and womb associations remain root-family pressure, not a separate image activated by this focus wording.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The focus supplies both carrier and independent object/beneficiary trigger; broader kinship, womb, and inter-ayah extensions are not activated."
+        "reason": "The form and root support the mercy-affection contact, while adjacent root-family associations are not locally triggered."
       },
       "support_ids": [
         "sup_1aba4a3d65aa192bb8a3",
-        "sup_1e086d7ed7eea93622ae",
-        "sup_a6370d0cbdf6c4b5c54a",
-        "sup_7ffea673e0845695c49e"
+        "sup_1e086d7ed7eea93622ae"
       ],
-      "branch_activations": [
-        {
-          "branch_ref": "root_000552/B001",
-          "facet_id": "F001",
-          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
-          "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": [
-            "19:96:8:2"
-          ],
-          "trigger_refs": [
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:8:2",
-            "19:96:9:1"
-          ],
-          "carrier": "Al-Raḥmān carries tender compassion toward another's condition.",
-          "independent_trigger": "The separate wuddan object supplies the affection relation on which compassion acts.",
-          "activation": "The compassion-name and affection object meet as agent and outcome in one making clause.",
-          "resulting_reading": "The promised affection is heard in the field of tenderness.",
-          "boundary": "No kinship or birth scenario is supplied."
-        },
-        {
-          "branch_ref": "root_000552/B001",
-          "facet_id": "F002",
-          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
-          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": [
-            "19:96:8:2"
-          ],
-          "trigger_refs": [
-            "19:96:6:2",
-            "19:96:7:1",
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:8:2",
-            "19:96:6:2",
-            "19:96:7:1",
-            "19:96:9:1"
-          ],
-          "carrier": "Al-Raḥmān carries mercy with an active beneficent result.",
-          "independent_trigger": "The making verb and beneficiary phrase independently show care directed toward the group.",
-          "activation": "The agent's mercy meets a concrete act for recipients, with affection as its object.",
-          "resulting_reading": "Compassion appears as a benefit directed to the group.",
-          "boundary": "This does not specify a family relationship or a particular act beyond the promised affection."
-        },
-        {
-          "branch_ref": "root_000552/B001",
-          "facet_id": "F005",
-          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
-          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
-          "application_mode": "intrinsic_cross_root",
-          "carrier_refs": [
-            "19:96:8:2"
-          ],
-          "trigger_refs": [
-            "19:96:6:2",
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:8:2",
-            "19:96:6:2",
-            "19:96:9:1"
-          ],
-          "carrier": "The form is the divine compassion-name in its agent position.",
-          "independent_trigger": "The future act of placing affection supplies a separate local action by the named agent.",
-          "activation": "The divine-use facet meets an explicit act whose object is affection.",
-          "resulting_reading": "The name's divine mercy reaches the group through the promised act.",
-          "boundary": "The finding remains local to the name and predicate; it does not expand into doctrine or an inter-ayah thread."
-        }
-      ],
+      "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:mercy-thread-local",
+      "finding_ref": "micro:mercy_to_affection",
       "origin_candidate_id": "cand_8f2b7b47e65a07eb2163",
       "represented_candidate_ids": [],
-      "title": "Compassionate name as local hinge",
-      "claim": "The compassion-name stands between the beneficiaries and the affection object as the agent linking the two sides of the promise.",
-      "mechanism": "The order li-hum, al-Raḥmān, wuddan fills the recipient, agent, and object positions around yajʿalu.",
-      "reader_payoff": "The local syntax makes the love outcome an act of the named Compassionate.",
-      "containment": "The 19:2, 19:45, and 20:90 mercy-thread comparisons are excluded; this is an agency relation within 19:96.",
+      "title": "Mercy becomes the agent of affection",
+      "claim": "The local sequence lets the mercy-name explain the source of the affection that is placed for the beneficiaries.",
+      "mechanism": "The beneficiary phrase arrives before the delayed nominative agent, and wuddan follows as the object; mercy therefore meets a concrete relational outcome in the same ayah.",
+      "reader_payoff": "The divine compassion-name stands between the recipients and the affection result as the agent of the promised act.",
+      "containment": "This preserves the local contact only; it does not import the wider mercy-thread comparisons named by the source support.",
       "epistemic": {
-        "status": "grounded",
+        "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied word order and nominative-agent evidence establish the local hinge; external thread claims are omitted."
+        "reason": "The focus syntax is direct evidence; interpreting the named agent and affection object as a local mercy-to-love movement is a bounded synthesis."
       },
       "support_ids": [
         "sup_1e086d7ed7eea93622ae",
@@ -1886,127 +694,47 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:indefinite-affection-object",
+      "finding_ref": "micro:affection_object_form",
       "origin_candidate_id": "cand_35fbdaf9f211cf104275",
       "represented_candidate_ids": [],
       "title": "Indefinite affection object",
-      "claim": "Wuddan is an indefinite accusative object that completes the making promise while leaving the affection's instance qualitatively open.",
-      "mechanism": "The final noun fills the object slot of yajʿalu; its indefinite form presents affection without identifying one familiar instance.",
-      "reader_payoff": "The sentence lands on affection as the thing set for the group.",
-      "containment": "The source's 19:95 and cross-ayah parallels are excluded; openness of the object does not imply that affection itself is uncertain.",
+      "claim": "Wuddan is an indefinite accusative gerund functioning as the direct object of the future making verb.",
+      "mechanism": "The object slot is filled by an open, indefinite affection noun rather than by a specified token of love, so the promise names affection qualitatively.",
+      "reader_payoff": "The reader sees affection itself as the promised result, with its instance left open.",
+      "containment": "The indefinite form does not claim that affection has no concrete recipients; li-hum supplies them.",
       "epistemic": {
         "status": "grounded",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The QAC and attachment summaries directly mark an indefinite accusative object."
+        "reason": "QAC and attachment evidence directly identify the indefinite accusative object."
       },
       "support_ids": [
-        "sup_62b148a8bfcf293e0cda",
-        "sup_e02428e492c220dc9bc9",
-        "sup_7ffea673e0845695c49e",
-        "sup_a15d7d2b1b38605b46dd"
+        "sup_62b148a8bfcf293e0cda"
       ],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001634/B001",
-          "facet_id": "F001",
-          "branch_gloss": "sevgi ve gönülden yakınlık besleme",
-          "facet_statement": "Bir kişiye ya da şeye sevgi beslemek ve ona gönülden yakınlık duymak.",
-          "application_mode": "lexical",
-          "carrier_refs": [
-            "19:96:9:1"
-          ],
-          "trigger_refs": [
-            "19:96:6:2",
-            "19:96:7:2"
-          ],
-          "focus_return_refs": [
-            "19:96:9:1",
-            "19:96:6:2",
-            "19:96:7:2"
-          ],
-          "carrier": "Wuddan carries the ordinary affection and loving-attachment sense.",
-          "independent_trigger": "The making verb and beneficiary pronoun independently frame affection as what is set for the group.",
-          "activation": "The nominal object meets a verb of placement and an explicit recipient relation.",
-          "resulting_reading": "Affection itself fills the object slot as an open-quality benefit.",
-          "boundary": "The indefinite form leaves its instance open; it does not name a place, idol, peg, or wish."
-        }
-      ],
+      "branch_activations": [],
       "connection_refs": [],
       "context_refs": [],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:steady-affection",
+      "finding_ref": "micro:steady_relational_affection",
       "origin_candidate_id": "cand_6855dd0c15700c38651c",
       "represented_candidate_ids": [],
       "title": "Steady relational affection",
-      "claim": "Wuddan selects loving attachment and warm relational affection as the promise's object; the source-reported vowel variants remain within that affection field.",
-      "mechanism": "The verb's object slot, its human beneficiary phrase, and the compassion-name provide independent local cues for a relation-oriented reading; the source summary says the variants do not shift branches.",
-      "reader_payoff": "The ending is heard as affection that connects, not merely an unspecified passion.",
-      "containment": "Place-name, idol-name, peg, and bare-wishing readings are excluded for this candidate; individual variant forms are not reconstructed from the summary.",
+      "claim": "The final noun carries steady loving attachment and communal warmth within the local affection branch.",
+      "mechanism": "The form and its supplied root analysis meet the beneficiary phrase and future placement frame; that contact keeps affection relationally directed while variant vowels leave the object as affection.",
+      "reader_payoff": "The outcome can be heard as durable closeness, not merely an unnamed emotional impulse.",
+      "containment": "Variants and more distant place-name, idol-name, peg, and wishing branches remain counter-readings rather than the focus reading.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "trusted"
         ],
-        "reason": "The supplied root summary selects affection and reports stable variant pressure, but individual qiraat readings are not included in this packet."
+        "reason": "The word analysis selects affection locally and explicitly preserves variant and neighboring-branch pressure."
       },
       "support_ids": [
         "sup_070a3591f641ea2fac7c",
-        "sup_e02428e492c220dc9bc9",
-        "sup_7ffea673e0845695c49e",
-        "sup_a6370d0cbdf6c4b5c54a"
-      ],
-      "branch_activations": [
-        {
-          "branch_ref": "root_001634/B001",
-          "facet_id": "F001",
-          "branch_gloss": "sevgi ve gönülden yakınlık besleme",
-          "facet_statement": "Bir kişiye ya da şeye sevgi beslemek ve ona gönülden yakınlık duymak.",
-          "application_mode": "lexical",
-          "carrier_refs": [
-            "19:96:9:1"
-          ],
-          "trigger_refs": [
-            "19:96:8:2",
-            "19:96:7:2"
-          ],
-          "focus_return_refs": [
-            "19:96:9:1",
-            "19:96:8:2",
-            "19:96:7:2"
-          ],
-          "carrier": "Wuddan carries love and inward closeness toward a person or thing.",
-          "independent_trigger": "The named Compassionate and the explicit beneficiary phrase make the object a human-directed relation in this clause.",
-          "activation": "The object sense of affection contacts a named agent and recipient rather than a wish or place-name frame.",
-          "resulting_reading": "The promised object is relational love and attachment.",
-          "boundary": "The focus does not expressly state reciprocity; no geographic, idol, peg, or bare-desire branch is claimed."
-        }
-      ],
-      "connection_refs": [],
-      "context_refs": [],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "micro:final-affection-boundary",
-      "origin_candidate_id": "cand_01d2de5bfd7f6f14a96d",
-      "represented_candidate_ids": [],
-      "title": "Final word rests on affection",
-      "claim": "As the ayah's final word and the predicate's object, wuddan lets the promise end on the affection set for the group.",
-      "mechanism": "The future verb and beneficiary phrase lead through the named agent to an accusative affection object at the clause boundary.",
-      "reader_payoff": "The wording closes its local promise by naming its relational outcome.",
-      "containment": "Only the focus's own final position is retained; 19:95 solitude and all listed inter-ayah affection comparisons are excluded.",
-      "epistemic": {
-        "status": "grounded",
-        "source_trust": [
-          "trusted"
-        ],
-        "reason": "The focus surface establishes the final object and its role; the omitted discourse comparisons lack supplied context occurrences."
-      },
-      "support_ids": [
-        "sup_d507a8267267fa8f2856",
         "sup_e02428e492c220dc9bc9"
       ],
       "branch_activations": [],
@@ -2015,30 +743,616 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:secure-practice-to-affection",
+      "finding_ref": "micro:affection_final_landing",
+      "origin_candidate_id": "cand_01d2de5bfd7f6f14a96d",
+      "represented_candidate_ids": [],
+      "title": "Promise lands on affection",
+      "claim": "The future making clause ends on wuddan, leaving affection as the last stated result of the promise.",
+      "mechanism": "The recipient phrase and named agent lead into the direct-object noun; its final position makes the promised relation the clause's landing point.",
+      "reader_payoff": "The sentence closes on what the group receives: affection.",
+      "containment": "This is a focus-local endpoint reading; solitude and affection-root comparisons from other ayat are excluded.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The final object position is local evidence; the broader answer-to-aloneness reading is not retained."
+      },
+      "support_ids": [
+        "sup_e02428e492c220dc9bc9",
+        "sup_d507a8267267fa8f2856"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:asserted_promise_frame",
+      "origin_candidate_id": "cand_4efb28be580b505fe08d",
+      "represented_candidate_ids": [],
+      "title": "Assertion governs the promise",
+      "claim": "Inna places the relative class and the later future act inside one asserted frame.",
+      "mechanism": "The particle governs alladhina; the completed qualification clause then leads to the future making predicate, so assertion scopes the whole promise.",
+      "reader_payoff": "The reader hears the affection promise as declared news rather than an unframed possibility.",
+      "containment": "The future event remains future; assertion does not supply a timetable or describe how affection appears.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The particle's governance and scope are supplied by QAC and attachment evidence."
+      },
+      "support_ids": [
+        "sup_e25d1fe814e74cc305c3",
+        "sup_229d00a69ef2f1275aa8"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:emphatic_class",
+      "origin_candidate_id": "cand_aedafabfb48f874ef8cb",
+      "represented_candidate_ids": [],
+      "title": "Emphasis over the qualifying class",
+      "claim": "The doubled emphatic particle reinforces the promise while the relative clause identifies the class it concerns.",
+      "mechanism": "Inna meets the following plural relative subject and its qualifications, giving the later future predicate settled declarative force without changing its future aspect.",
+      "reader_payoff": "The class is treated as established, and its promised affection as affirmed.",
+      "containment": "Emphasis does not turn the qualifying class into a closed lineage or erase the future form.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The particle's emphatic force is supplied, while its discourse payoff is an interpretation of the local scope."
+      },
+      "support_ids": [
+        "sup_db461192123eb6e8c560",
+        "sup_229d00a69ef2f1275aa8"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:relative_subject",
+      "origin_candidate_id": "cand_1f09dac5a38da2120784",
+      "represented_candidate_ids": [],
+      "title": "Relative pronoun opens the subject class",
+      "claim": "Alladhina supplies the plural subject element whose content is completed by the following belief-and-deed clause.",
+      "mechanism": "The governed relative pronoun meets the two qualifying verbs that follow; their clause defines who is carried into the promise.",
+      "reader_payoff": "The subject is understood through what the group does, not through a separately named identity.",
+      "containment": "The claim is local to the relative construction and does not infer social boundaries beyond its wording.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "QAC and attachment evidence directly ground the governed relative construction."
+      },
+      "support_ids": [
+        "sup_9d3e9fb39162e37e0f8e"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:open_relative_class",
+      "origin_candidate_id": "cand_9a7512e822edda9b21d2",
+      "represented_candidate_ids": [],
+      "title": "Membership defined by acts",
+      "claim": "The plural class is open at the wording level and is defined by the acts in the following relative clause rather than by lineage or social label.",
+      "mechanism": "Alladhina introduces a plural class; āmanū and ʿamilū al-ṣāliḥāti supply its qualifying content.",
+      "reader_payoff": "The reader notices that membership is described by belief and action, not by a named ancestry or rank.",
+      "containment": "Open wording does not imply that every person meets the stated qualifications.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The relative form is direct; the contrast with lineage or social label is the supplied bounded payoff."
+      },
+      "support_ids": [
+        "sup_2a1c69c712108e103188"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:completed_faith_act",
+      "origin_candidate_id": "cand_383d2d70139dc36040bb",
+      "represented_candidate_ids": [],
+      "title": "Completed collective belief-act",
+      "claim": "Āmanū presents believing as a completed plural act of the group described by the relative pronoun.",
+      "mechanism": "The perfect 3mp verb agrees with the plural head and sits inside its qualifying clause, so the act belongs to the group definition before the future promise.",
+      "reader_payoff": "Belief is presented as an established qualification of the group.",
+      "containment": "The perfect form marks the clause's act; it does not alone make a claim about the group's entire life history.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied QAC and attachment record directly supports the form and clause role."
+      },
+      "support_ids": [
+        "sup_f20c9dd70ed900de0e4e"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:trust_pressure",
+      "origin_candidate_id": "cand_668483cb69d924b6b778",
+      "represented_candidate_ids": [],
+      "title": "Trust colors active believing",
+      "claim": "The local Form IV āmanū expresses active believing and trusting, while the root's trust, reliability, and security field remains as qualified semantic pressure.",
+      "mechanism": "The believing verb is followed by coordinated deeds; their contact lets trust be heard as a lived orientation while the local form rules out mere physical safety as the selected sense.",
+      "reader_payoff": "Belief carries a trust dimension alongside the ordinary believing reading.",
+      "containment": "This does not replace believing with safety, nor does the focus clause state an object of belief.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local form narrows the broad root range; the secondary trust and reliability coloring is explicitly qualified."
+      },
+      "support_ids": [
+        "sup_5a2ed028f263f8e81b28"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:belief_deed_formula",
+      "origin_candidate_id": "cand_28dbca891b33d794701b",
+      "represented_candidate_ids": [],
+      "title": "Belief and deed as paired qualification",
+      "claim": "The focus clause joins believing and doing deeds as two coordinated parts of one qualifying formula.",
+      "mechanism": "Āmanū supplies the belief act and wa ʿamilū supplies a second act; their relation makes the group description two-part while leaving the acts distinct.",
+      "reader_payoff": "The promise's recipients are described through both inward orientation and enacted qualification.",
+      "containment": "This keeps only the local formula; cross-ayah parallels and contrasts named by the support are not part of this finding.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local clause supports the pairing; cited formula comparisons were excluded as absent micro context."
+      },
+      "support_ids": [
+        "sup_bcb28bb3f6bfad266f58"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:coordinated_criteria",
+      "origin_candidate_id": "cand_ac0c118cd156698d8e40",
+      "represented_candidate_ids": [],
+      "title": "Two coordinated criteria",
+      "claim": "Wa coordinates the believing and doing verbs inside the same relative clause.",
+      "mechanism": "The conjunction links āmanū to ʿamilū without making one an alternative to the other or starting a new sentence; both acts qualify the same group.",
+      "reader_payoff": "The reader sees two acts held in one description.",
+      "containment": "Coordination keeps the acts related but does not make them identical.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The conjunction and its attachment are directly supplied in the local analysis."
+      },
+      "support_ids": [
+        "sup_57358e6c892a5c9f8634",
+        "sup_0f4cef49fdfcfc1d1c13"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:joined_distinct_acts",
+      "origin_candidate_id": "cand_165cc63b5052a72e40f6",
+      "represented_candidate_ids": [],
+      "title": "Together without collapse",
+      "claim": "The conjunction lets inward belief and outward action travel together while keeping them distinct.",
+      "mechanism": "Wa meets two verbs with different ordinary content; its coordinating force links them as co-present qualifications rather than alternatives or synonyms.",
+      "reader_payoff": "An inner orientation and its outward enactment appear in one paired profile.",
+      "containment": "The pairing does not collapse action into belief or make either act a substitute for the other.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The coordination is direct; the distinction as an inner-and-outer profile is a bounded interpretive payoff."
+      },
+      "support_ids": [
+        "sup_280b2c0bb241c00ed86f",
+        "sup_0f4cef49fdfcfc1d1c13"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:inner_outer_pair",
+      "origin_candidate_id": "cand_fc83ce136fddbfe02fae",
+      "represented_candidate_ids": [],
+      "title": "An inner-and-outer ethical pair",
+      "claim": "The belief verb and deed verb can be heard as an inner-and-outer ethical pairing joined by wa.",
+      "mechanism": "The conjunction supplies the contact between inward believing and outward performed action; the second remains part of the same relative qualification.",
+      "reader_payoff": "The formula has a linked interior and practice-facing dimension.",
+      "containment": "This is a local analogy for the pair, not a claim that the clause defines all inward or outward conduct.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The words and conjunction are supplied; 'inner-and-outer' is the support's qualified structural reading."
+      },
+      "support_ids": [
+        "sup_5b6cd60f52f5918f2cec",
+        "sup_0f4cef49fdfcfc1d1c13"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:performed_deed_object",
+      "origin_candidate_id": "cand_ba634884dd3be369d6d3",
+      "represented_candidate_ids": [],
+      "title": "Righteous deeds are what is performed",
+      "claim": "The explicit al-ṣāliḥāti object makes righteous deeds the thing the group performs.",
+      "mechanism": "The work verb takes a following definite plural object; this grammatical contact gives ʿamilū a specified ethical object rather than leaving it as generic doing.",
+      "reader_payoff": "The group performs a named category of deeds.",
+      "containment": "The object specifies the kind of doing without reducing the verb to an adjective on the people.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The attachment and verb-instance evidence directly marks the explicit object."
+      },
+      "support_ids": [
+        "sup_cb8f620eda36a838c3d1"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:purposive_work",
+      "origin_candidate_id": "cand_8943221002c43dcf33dc",
+      "represented_candidate_ids": [],
+      "title": "Purposeful work within ethical action",
+      "claim": "ʿAmilū carries intentional doing and productive agency into the specified righteous-deed object.",
+      "mechanism": "The root's work field meets al-ṣāliḥāti as the verb's object, so productive action is locally bounded by ethical performance.",
+      "reader_payoff": "The deeds are acts deliberately carried out, not a merely favorable label.",
+      "containment": "Instrumental use, wages, office, and road imagery are not claimed for this local verb.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The root analysis permits intentional productive action and explicitly narrows its local use to ethical performance."
+      },
+      "support_ids": [
+        "sup_aab5d1485cfb1aa9ce22"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:work_hinge",
+      "origin_candidate_id": "cand_a6e11d6a3150f5db68e9",
+      "represented_candidate_ids": [],
+      "title": "Action hinges belief to its deed-object",
+      "claim": "The action verb carries the relative class from the believing act into the specified righteous deeds.",
+      "mechanism": "The sequence āmanū—wa ʿamilū—al-ṣāliḥāti places performance between belief and its object; that local hinge gives the two-part qualification an enacted middle.",
+      "reader_payoff": "The reader sees the action verb doing connective work in the ethical description, not merely adding another label.",
+      "containment": "Only the focus-local hinge is retained; reward and contrast comparisons named by the support are excluded.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local sequence supports the hinge; reward comparisons cited by the source are absent from this micro packet."
+      },
+      "support_ids": [
+        "sup_dfc26dc503823f47224c"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:recognized_deed_category",
+      "origin_candidate_id": "cand_c03d0b19a0f6432152b8",
+      "represented_candidate_ids": [],
+      "title": "Definite category of sound deeds",
+      "claim": "The definite plural active participle al-ṣāliḥāti is the object performed and presents sound deeds as a recognized category.",
+      "mechanism": "Its definite plural form attaches as the direct object of ʿamilū, closing the qualifying clause on the deeds themselves.",
+      "reader_payoff": "The group is described by performance of an identifiable ethical category.",
+      "containment": "The form does not specify an exhaustive list of which acts belong to that category.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "QAC and attachment evidence directly identify the definite plural object."
+      },
+      "support_ids": [
+        "sup_6ad578167c17e08876ed"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:soundness_and_repair",
+      "origin_candidate_id": "cand_b439776989d24adbdac6",
+      "represented_candidate_ids": [],
+      "title": "Soundness and repair color the deeds",
+      "claim": "The ṣāliḥāt category carries soundness, rightness, repair, and fitness pressure into the performed deeds.",
+      "mechanism": "The active-participle noun is the object of intentional action; that contact makes repair or soundness a quality of acts rather than a separate proper name or place.",
+      "reader_payoff": "Good deeds become perceptible as acts with a sound-making or reparative quality.",
+      "containment": "The root pressure remains within the locally selected ethical-deed category; it does not make every use of the root a repair act.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied root range supports soundness and repair, with the local plural object bounding its application."
+      },
+      "support_ids": [
+        "sup_3c497afd948589c21094"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:qualification_before_promise",
+      "origin_candidate_id": "cand_1eca5a396ecd9904ea87",
+      "represented_candidate_ids": [],
+      "title": "The qualification lands before the promise",
+      "claim": "The relative subject clause closes on its deed-object before the future making predicate begins.",
+      "mechanism": "The sequence completes the group description with al-ṣāliḥāti and only then opens sa-yajʿalu; the clause boundary lets the ethical profile land before the affection promise.",
+      "reader_payoff": "The reader first receives the qualified group, then the act promised for them.",
+      "containment": "This is a local order-and-boundary observation; formula parallels named by the support are excluded.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Clause order is locally supplied; named formula comparisons were not used."
+      },
+      "support_ids": [
+        "sup_336d72f65e87c7e36fe2",
+        "sup_f7afb05a978d1699e3e0"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:assured_future_act",
+      "origin_candidate_id": "cand_01c2b9e5e152e65e3901",
+      "represented_candidate_ids": [],
+      "title": "Assured future making",
+      "claim": "Sa-yajʿalu frames the placement of affection as a future act held in assurance.",
+      "mechanism": "The future prefix and imperfect verb meet the beneficiary phrase and direct-object affection noun, making the act future-facing while specifying its recipients and result.",
+      "reader_payoff": "The promise has a stated future orientation and a defined result for a beneficiary group.",
+      "containment": "The future marker does not give a date or define the means by which affection appears.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The future-marked imperfect and its attachment are directly supported by QAC and verb-instance evidence."
+      },
+      "support_ids": [
+        "sup_e5f36b874729b8368be7"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:relational_placement",
+      "origin_candidate_id": "cand_af5a35c92b51c7e85429",
+      "represented_candidate_ids": [],
+      "title": "Affection placed for recipients",
+      "claim": "Yajʿalu is locally read as placing or configuring affection for the beneficiaries.",
+      "mechanism": "The making verb meets li-hum as recipient relation and wuddan as its object; this complements frame selects relational placement rather than bare creation.",
+      "reader_payoff": "The promise pictures affection as a relation arranged for the group.",
+      "containment": "This is not a claim of creation from nothing or of an unrelated making branch.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local recipient and object narrow the broad making field to relational placement."
+      },
+      "support_ids": [
+        "sup_9781f967aad1cf66dffa"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:beneficiary_routing",
+      "origin_candidate_id": "cand_b9d1fc03d3ca84f7bdcb",
+      "represented_candidate_ids": [],
+      "title": "Preposition routes the promise to beneficiaries",
+      "claim": "The bound li preposition marks the group as beneficiaries for whom affection is placed.",
+      "mechanism": "Li governs the attached pronoun and contrasts with the direct-object slot later filled by wuddan; the contact prevents the group from being misread as the thing made.",
+      "reader_payoff": "The promise is routed toward its recipients, while affection remains the object.",
+      "containment": "The beneficiary relation does not specify a direct human act of reciprocation.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The prepositional attachment and direct-object contrast are directly supplied."
+      },
+      "support_ids": [
+        "sup_bc082b14e047ef1a30bb"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:benefit_direction",
+      "origin_candidate_id": "cand_84d9c4128d9e29e795a6",
+      "represented_candidate_ids": [],
+      "title": "Benefit and direction in li-hum",
+      "claim": "The preposition gives the affection placement a direction toward the group and marks their beneficiary relation.",
+      "mechanism": "The bound li and plural pronoun meet the affection object; their relation places love on the recipients' side of the promise.",
+      "reader_payoff": "The promised affection is directed for them rather than naming them as an object made.",
+      "containment": "The construction marks benefit and direction without specifying who among others expresses the affection.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The local recipient phrase supports this relational coloring of the preposition."
+      },
+      "support_ids": [
+        "sup_a5db11a788df320f321a"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:recipient_before_agent",
+      "origin_candidate_id": "cand_92d8a54c7e27f82e183e",
+      "represented_candidate_ids": [],
+      "title": "Recipients precede the named giver",
+      "claim": "The promise presents its beneficiaries before naming the divine agent who acts for them.",
+      "mechanism": "The li-hum phrase precedes al-Raḥmān in the local order; the recipients are encountered first, then the agent and affection object complete the promise.",
+      "reader_payoff": "The sentence lets the promise land on the qualified group before naming its giver.",
+      "containment": "This is a local ordering payoff, not a claim that the agent is absent or grammatically delayed beyond the supplied order.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The word order and beneficiary phrase are supplied; the foregrounding effect is bounded to that order."
+      },
+      "support_ids": [
+        "sup_e81606dc7919d8b431b6",
+        "sup_abf971ee326bb880c928"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:carried_group_pronoun",
+      "origin_candidate_id": "cand_af634cdb30e7fa3600a8",
+      "represented_candidate_ids": [],
+      "title": "Plural pronoun in beneficiary slot",
+      "claim": "The attached plural pronoun carries the previously defined group into the beneficiary phrase under the preposition.",
+      "mechanism": "The relative class is followed by its qualification clause, and the governed pronoun returns that same class as recipients; it does not create a new subject.",
+      "reader_payoff": "The group moves from being described to being addressed as beneficiaries without repetition.",
+      "containment": "The local grammar supplies the antecedent relation; no cross-ayah narrowing is included.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "QAC and attachment evidence directly identify the governed prepositional pronoun."
+      },
+      "support_ids": [
+        "sup_4eb66077b4e9b110955a"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:compact_antecedent",
+      "origin_candidate_id": "cand_fb081dafea734e051129",
+      "represented_candidate_ids": [],
+      "title": "The suffix carries the class forward",
+      "claim": "The plural suffix compactly carries the relative-clause group into the beneficiary slot.",
+      "mechanism": "The attached pronoun points back to the defined group without restating the belief-and-deed phrase; the repeated reference now marks recipients.",
+      "reader_payoff": "The long subject description can be heard once, then carried into the promise by a compact pronoun.",
+      "containment": "The candidate's separate 19:95 narrowing claim is not included here.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The supplied lexical support directly identifies the attached suffix's carried antecedent."
+      },
+      "support_ids": [
+        "sup_60ac307d6f1615c4ccbc"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:secure_practice_to_affection",
       "origin_candidate_id": "cand_040a185e74577d72dcb0",
       "represented_candidate_ids": [],
-      "title": "Secure practice to affection",
-      "claim": "Alongside the ordinary promise that believers who do good receive affection, the attributed trace reads settled assent as becoming intentional repair and the Compassionate as converting that practice into a social condition of affection.",
-      "mechanism": "The HFT trace assigns word 3 to heart-settling assent, word 4 to intentional action, word 5 to soundness/repair, word 6 to rendering a condition, word 8 to tender beneficence, and word 9 to mutual affection; the beneficiary/object frame connects the sequence.",
-      "reader_payoff": "Belief, action, repair, divine agency, and affection become one connected movement rather than separate word notes.",
-      "containment": "The exact baseline remains intact: believers who do good receive a general promise of being loved. The stronger sequence is attributed because the HFT reader identity is legacy_unbound; its focus coordinates resolve, but reciprocity is not explicitly marked in the surface.",
+      "title": "Secure assent becomes reparative practice and affection",
+      "claim": "Where a general promise says that believers who do good receive love, this focus sequence can also be read as assent entering intentional repair, with the Compassionate rendering that practice into an affection-shaped social state.",
+      "mechanism": "The assent carrier at āmanū meets the independent action and righteous-deed clause; soundness gives that practice a reparative direction. The future making verb then contacts the beneficiary phrase and wuddan, while al-Raḥmān names the agent. The sequence moves from the baseline's general reward to a connected path from inward trust through practice into a conferred relation.",
+      "reader_payoff": "The class's qualification, the quality of its deeds, the named agent, and the affection result become one linked movement rather than unrelated labels.",
+      "containment": "This attributed synthesis extends the ordinary promise intact. Faith remains believing and trusting, ṣāliḥāt remains the righteous-deed category, and the claim does not guarantee a specific human response or announce a surah-wide system.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "legacy_unbound",
           "trusted"
         ],
-        "reason": "All six source coordinates and roots agree with supplied focus QAC. The trace is retained as attributed contextual evidence because its reader identity is legacy_unbound."
+        "reason": "The focus QAC and word-analysis supports ground the local carriers and grammar; the six-part semantic chain comes from a legacy-unbound HFT nomination and is retained with attribution rather than treated as a settled lexical result."
       },
       "support_ids": [
         "sup_f6a9da3f72b009191051",
-        "sup_c85fd4d0d08bac8b2449",
-        "sup_7b0d553fe00ba23affb6",
-        "sup_d1e0c5de6e07a7c5dcaf",
-        "sup_a15d7d2b1b38605b46dd",
-        "sup_a6370d0cbdf6c4b5c54a",
-        "sup_7ffea673e0845695c49e"
+        "sup_64ae8c6a89a45b54b05a",
+        "sup_3cb8b7b07484d002bdf5",
+        "sup_f7afb05a978d1699e3e0",
+        "sup_2b57833003e81d96ef29",
+        "sup_9781f967aad1cf66dffa",
+        "sup_abf971ee326bb880c928",
+        "sup_1e086d7ed7eea93622ae",
+        "sup_e02428e492c220dc9bc9"
       ],
       "branch_activations": [
         {
@@ -2046,29 +1360,7 @@
           "facet_id": "F001",
           "branch_gloss": "dogru sayip kabul etme",
           "facet_statement": "Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir.",
-          "application_mode": "attributed",
-          "carrier_refs": [
-            "19:96:3:1"
-          ],
-          "trigger_refs": [
-            "19:96:4:2"
-          ],
-          "focus_return_refs": [
-            "19:96:3:1",
-            "19:96:4:2"
-          ],
-          "carrier": "Āmanū carries the branch's truth-accepting sense; the HFT role describes it as heart-settling assent.",
-          "independent_trigger": "The separately traced action at word 4 supplies the next step from inward acceptance into practice.",
-          "activation": "The accepted belief carrier contacts an independent enacted-action trigger.",
-          "resulting_reading": "The sequence starts with settled assent that proceeds into chosen practice.",
-          "boundary": "The HFT source is attributed; the focus names belief but does not independently narrate a prior state of fear."
-        },
-        {
-          "branch_ref": "root_000054/B002",
-          "facet_id": "F002",
-          "branch_gloss": "dogru sayip kabul etme",
-          "facet_statement": "Hakka yonelik ic kabul, yalniz bilmekten ziyade boyun egme ve kabullenme bicimi alir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:3:1"
           ],
@@ -2077,22 +1369,20 @@
             "19:96:5:2"
           ],
           "focus_return_refs": [
-            "19:96:3:1",
-            "19:96:4:2",
-            "19:96:5:2"
+            "19:96:3:1"
           ],
-          "carrier": "Āmanū carries inner acceptance of the true; the trace treats that as an inward commitment.",
-          "independent_trigger": "The following action and righteous-deeds object independently show commitment expressed in practice.",
-          "activation": "Acceptance and enacted deeds meet as an inner-to-outer movement.",
-          "resulting_reading": "Belief can be read as inward assent that enters chosen practice.",
-          "boundary": "This retains the HFT role as attribution and does not claim an unexpressed object of belief."
+          "carrier": "The completed Form IV āmanū carries active believing and trusting.",
+          "independent_trigger": "The coordinated work verb and its righteous-deed object follow as the believer group's second qualification.",
+          "activation": "The assent carrier meets an independent enacted-practice clause, so belief is heard as a trust orientation that enters action.",
+          "resulting_reading": "Heart-settled assent leads into chosen, reparative practice before the Compassionate makes affection its result.",
+          "boundary": "The form remains active believing/trusting; this does not reduce it to safety or claim that belief alone is the whole clause."
         },
         {
           "branch_ref": "root_001046/B001",
           "facet_id": "F001",
           "branch_gloss": "bilerek yapılan iş veya eylem",
           "facet_statement": "Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:4:2"
           ],
@@ -2101,209 +1391,146 @@
             "19:96:5:2"
           ],
           "focus_return_refs": [
-            "19:96:4:2",
-            "19:96:3:1",
-            "19:96:5:2"
+            "19:96:4:2"
           ],
-          "carrier": "ʿAmilū carries intentional, knowing action.",
-          "independent_trigger": "The prior belief-act and the explicit deed-object give the action its separate direction.",
-          "activation": "The intentional action contacts both inward commitment and the deeds carried out.",
-          "resulting_reading": "Faith moves into chosen practice.",
-          "boundary": "The attributed action sense does not imply wages, office, or a named instrument."
+          "carrier": "ʿAmilū is intentional doing or work.",
+          "independent_trigger": "The preceding believing verb and following righteous-deed object independently frame the action.",
+          "activation": "The work carrier links inward orientation to a specified ethical object, making the action an enacted practice.",
+          "resulting_reading": "Belief is carried into intentional, ethical action.",
+          "boundary": "The local verb means doing deeds; this branch does not make it instrumental work, employment, or a wage."
         },
         {
           "branch_ref": "root_000876/B001",
           "facet_id": "F001",
           "branch_gloss": "iyi ve düzgün olma; düzeltme",
           "facet_statement": "Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur.",
-          "application_mode": "attributed",
-          "carrier_refs": [
-            "19:96:5:2"
-          ],
-          "trigger_refs": [
-            "19:96:4:2"
-          ],
-          "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:4:2"
-          ],
-          "carrier": "Al-ṣāliḥāt carries soundness and goodness.",
-          "independent_trigger": "The work verb independently marks this quality as something performed.",
-          "activation": "The soundness carrier becomes an object of intentional action.",
-          "resulting_reading": "The practice is directed toward sound and beneficial deeds.",
-          "boundary": "The HFT's repair language stays an attributed application of this branch."
-        },
-        {
-          "branch_ref": "root_000876/B001",
-          "facet_id": "F002",
-          "branch_gloss": "iyi ve düzgün olma; düzeltme",
-          "facet_statement": "Bir şey kendiliğinden iyi ve düzgün duruma gelebilir ya da bir etken bozukluğu gidererek onu bu duruma getirebilir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:5:2"
           ],
           "trigger_refs": [
             "19:96:4:2",
-            "19:96:9:1"
+            "19:96:6:2"
           ],
           "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:4:2",
-            "19:96:9:1"
+            "19:96:5:2"
           ],
-          "carrier": "Al-ṣāliḥāt carries the branch's corrective extension toward a good state.",
-          "independent_trigger": "The intentional work verb and final affection object independently connect correction to a relational result.",
-          "activation": "Repair is made part of the performed practice and contacts its promised social yield.",
-          "resulting_reading": "The deeds can be read as repair directed toward affection.",
-          "boundary": "No specific corruption or conflict is narrated in the focus."
+          "carrier": "Al-ṣāliḥāt names the recognized category of righteous, sound deeds.",
+          "independent_trigger": "The work verb makes the category performed action, and the following making verb gives that action a stated outcome.",
+          "activation": "Soundness and repair meet an independent act-and-result frame, giving the deed category a reparative direction.",
+          "resulting_reading": "The completed practice can be heard as soundness carried into a changed social condition.",
+          "boundary": "The primary category remains righteous deeds; no claim is made that every deed is reconciliation or that repair replaces the ordinary gloss."
         },
         {
           "branch_ref": "root_000248/B002",
           "facet_id": "F001",
           "branch_gloss": "birini veya şeyi belirli bir duruma getirme",
           "facet_statement": "Var olan bir katılımcının durumunu, niteliğini veya konumunu değiştiren ettirici işlemi bildirir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:6:2"
           ],
           "trigger_refs": [
-            "19:96:7:1",
             "19:96:7:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:6:2",
-            "19:96:7:1",
-            "19:96:7:2",
-            "19:96:9:1"
+            "19:96:6:2"
           ],
-          "carrier": "Yajʿalu carries the state-changing sense of rendering a condition.",
-          "independent_trigger": "The beneficiary phrase and affection object specify an independent social result and its recipients.",
-          "activation": "The verb's state change meets the relation named as its object and routes it to the group.",
-          "resulting_reading": "The Compassionate renders practice's yield as a condition of affection for them.",
-          "boundary": "This is an attributed relational-state reading, not a claim of creation from nothing."
+          "carrier": "Yajʿalu carries making, placing, or rendering.",
+          "independent_trigger": "The beneficiary pronoun li-hum and the affection noun wuddan supply a recipient and resulting relation.",
+          "activation": "The making carrier meets a named recipient and an affection object, so its result is a relational condition for them.",
+          "resulting_reading": "The future act renders affection into a social state for the qualified group.",
+          "boundary": "This is relational placing, not a claim of creation from nothing."
         },
         {
           "branch_ref": "root_000552/B001",
           "facet_id": "F001",
           "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
           "facet_statement": "Bir başkasının durumu karşısında yüreğin yumuşaması, ona acıma ve içten yakınlık duyma çekirdeği oluşturur.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:8:2"
           ],
           "trigger_refs": [
-            "19:96:6:2",
+            "19:96:7:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:8:2",
-            "19:96:6:2",
-            "19:96:9:1"
-          ],
-          "carrier": "Al-Raḥmān carries tender compassion toward another's condition.",
-          "independent_trigger": "The future making act and affection object supply a separate relation for that compassion to act upon.",
-          "activation": "The named agent's compassion contacts a promised act directed toward affection.",
-          "resulting_reading": "Tender mercy characterizes the agent of the transformation.",
-          "boundary": "The attributed reading does not specify a family or birth relation."
-        },
-        {
-          "branch_ref": "root_000552/B001",
-          "facet_id": "F002",
-          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
-          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
-          "application_mode": "attributed",
-          "carrier_refs": [
             "19:96:8:2"
           ],
-          "trigger_refs": [
-            "19:96:6:2",
-            "19:96:7:1",
-            "19:96:9:1"
-          ],
-          "focus_return_refs": [
-            "19:96:8:2",
-            "19:96:6:2",
-            "19:96:7:1",
-            "19:96:9:1"
-          ],
-          "carrier": "Al-Raḥmān carries compassion with an active beneficent result.",
-          "independent_trigger": "The making verb, beneficiaries, and affection object independently describe a benefit directed to the group.",
-          "activation": "The mercy carrier and recipient frame meet in an action that confers affection.",
-          "resulting_reading": "Mercy is expressed as beneficence toward the qualified group.",
-          "boundary": "No further result beyond the affection named by the focus is claimed."
+          "carrier": "Al-Raḥmān carries the divine compassion-name and mercy field.",
+          "independent_trigger": "The beneficiary phrase and the affection object independently identify the recipients and result of the agent's act.",
+          "activation": "The compassion-name meets the specified affection result for its recipients, making mercy the personal source of the promised relation.",
+          "resulting_reading": "The agent's mercy is locally colored by the affection it places for the group.",
+          "boundary": "The claim stays within the name's compassion field and does not activate womb or kinship imagery."
         },
         {
           "branch_ref": "root_000552/B001",
           "facet_id": "F005",
           "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
           "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:8:2"
           ],
           "trigger_refs": [
-            "19:96:6:2",
+            "19:96:7:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:8:2",
-            "19:96:6:2",
-            "19:96:9:1"
+            "19:96:8:2"
           ],
-          "carrier": "Al-Raḥmān is the divine compassion-name in the named-agent slot.",
-          "independent_trigger": "The separate future act and final affection object connect the divine-use facet to a concrete focus predicate.",
-          "activation": "The name's divine specialization meets an act performed toward beneficiaries.",
-          "resulting_reading": "Divine mercy reaches the group through the promised affection.",
-          "boundary": "The trace is local and attributed, not a general doctrinal claim."
+          "carrier": "Al-Raḥmān is the divine compassion-name as the singular agent.",
+          "independent_trigger": "The phrase li-hum wuddan gives the recipients and concrete affection-result of the making.",
+          "activation": "The divine-name carrier meets an independently stated gift directed to the group, so its beneficent reach is pictured as affection placed for them.",
+          "resulting_reading": "Divine compassion reaches the qualified group through a conferred social affection.",
+          "boundary": "This local divine-use facet does not assert a surah-wide mercy thread or specify how every recipient responds."
         },
         {
           "branch_ref": "root_001634/B001",
           "facet_id": "F001",
           "branch_gloss": "sevgi ve gönülden yakınlık besleme",
           "facet_statement": "Bir kişiye ya da şeye sevgi beslemek ve ona gönülden yakınlık duymak.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:9:1"
           ],
           "trigger_refs": [
-            "19:96:8:2",
-            "19:96:7:2"
+            "19:96:7:2",
+            "19:96:8:2"
           ],
           "focus_return_refs": [
-            "19:96:9:1",
-            "19:96:8:2",
-            "19:96:7:2"
+            "19:96:9:1"
           ],
-          "carrier": "Wuddan carries loving attachment as the resulting social condition.",
-          "independent_trigger": "The Compassionate's agency and the explicit beneficiary phrase supply an independent relational frame.",
-          "activation": "The affection object closes the state-changing promise for the named recipient group.",
-          "resulting_reading": "The result is a conferred condition of loving relation.",
-          "boundary": "The surface marks affection for the group; the HFT's stronger social-condition framing remains attributed."
+          "carrier": "Wuddan is affection and heartfelt attachment.",
+          "independent_trigger": "The recipient pronoun and the compassion-name as agent independently specify who receives the affection and who places it.",
+          "activation": "The affection carrier meets a beneficiary and a named compassionate agent, making love the relation conferred for the group.",
+          "resulting_reading": "The result is affection directed toward the qualified recipients.",
+          "boundary": "This does not establish that every person reciprocates or make affection the only reward."
         },
         {
           "branch_ref": "root_001634/B001",
           "facet_id": "F002",
           "branch_gloss": "sevgi ve gönülden yakınlık besleme",
           "facet_statement": "Sevginin karşılıklı olması veya bir kişinin çok seven ve sevgi gösteren diye nitelenmesi.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:9:1"
           ],
           "trigger_refs": [
             "19:96:5:2",
+            "19:96:6:2",
             "19:96:7:2"
           ],
           "focus_return_refs": [
-            "19:96:9:1",
-            "19:96:5:2",
-            "19:96:7:2"
+            "19:96:9:1"
           ],
-          "carrier": "Wuddan can carry the specialization of reciprocal affection.",
-          "independent_trigger": "The soundness/repair trace and beneficiary relation independently supply the social contact for a reciprocal reading.",
-          "activation": "Repair in practice meets the affection object as a relation among people.",
-          "resulting_reading": "The result can be heard as mutual affection.",
-          "boundary": "The surface does not spell out symmetrical love; mutuality remains an attributed possibility."
+          "carrier": "Wuddan is the affection result named at the end of the promise.",
+          "independent_trigger": "Righteous deeds, the making verb, and the plural beneficiary independently create a social relation rather than an isolated emotion.",
+          "activation": "The affection carrier meets performed reconciliation and a group-directed making act, allowing reciprocal attachment as an attributed relational reading.",
+          "resulting_reading": "Where estrangement is removed through deeds, affection can become a durable relation among people.",
+          "boundary": "The singular indefinite object does not grammatically guarantee mutual response; reciprocity remains a qualified branch facet."
         }
       ],
       "connection_refs": [],
@@ -2311,29 +1538,29 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:reconciliation-to-affection",
+      "finding_ref": "micro:reconciliation_settles_as_love",
       "origin_candidate_id": "cand_d7221dc489880cee5f95",
       "represented_candidate_ids": [],
-      "title": "Reconciliation settles as affection",
-      "claim": "Alongside the ordinary promise that righteous deeds receive favor, the attributed trace reads the deeds as interpersonal reconciliation whose divinely rendered yield is reciprocal affection.",
-      "mechanism": "The trace places ʿamilū in dealings between people, ṣāliḥāt in reconciliation, yajʿalu in rendering a condition, and wuddan in mutual affection; li-hum and al-Raḥmān connect the people to the outcome.",
-      "reader_payoff": "Good action becomes legible as relational repair whose result can settle into affection.",
-      "containment": "The baseline reading of righteous deeds and promised favor remains intact. The focus does not name a prior quarrel or a specific transaction, so this sequence stays attributed and qualified by the legacy_unbound source identity.",
+      "title": "Reconciliatory dealings settle into affection",
+      "claim": "Where the baseline leaves righteous deeds as an undifferentiated class rewarded with favor, this focus can be read as interpersonal dealings whose reconciliatory content is made into a settled relation of affection.",
+      "mechanism": "The dealing carrier at ʿamilū meets ṣāliḥāt as reconciliation that removes aversion; yajʿalu gives that episodic repair a settled state, and wuddan names the resulting affection. The beneficiary pronoun and plural class make the path relational. Thus the baseline reward reading gains a specific attributed route from human repair to reciprocal closeness.",
+      "reader_payoff": "The reader can perceive good deeds as social repair whose yield is affection, not only as a general qualifying category.",
+      "containment": "The local ethical-deed reading remains intact. The HFT role is attributed and does not claim that every righteous deed is reconciliation or that reciprocity is grammatically guaranteed.",
       "epistemic": {
         "status": "qualified",
         "source_trust": [
           "legacy_unbound",
           "trusted"
         ],
-        "reason": "The HFT's exact roots and word coordinates align with focus QAC, but the interpersonal and reciprocal chain remains attributed."
+        "reason": "Local forms and recipient/object relations are supplied; the reconciliation sequence is a legacy-unbound contextual nomination evaluated against those focus carriers."
       },
       "support_ids": [
         "sup_852b307f73460d2cf424",
-        "sup_7b0d553fe00ba23affb6",
-        "sup_d1e0c5de6e07a7c5dcaf",
-        "sup_a15d7d2b1b38605b46dd",
-        "sup_a6370d0cbdf6c4b5c54a",
-        "sup_7ffea673e0845695c49e"
+        "sup_3cb8b7b07484d002bdf5",
+        "sup_f7afb05a978d1699e3e0",
+        "sup_2b57833003e81d96ef29",
+        "sup_abf971ee326bb880c928",
+        "sup_e02428e492c220dc9bc9"
       ],
       "branch_activations": [
         {
@@ -2341,144 +1568,135 @@
           "facet_id": "F001",
           "branch_gloss": "karşılıklı işlem",
           "facet_statement": "Bir kişiyle karşılıklı işlem yürütme ana anlamdır.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:4:2"
           ],
           "trigger_refs": [
             "19:96:5:2",
+            "19:96:7:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:4:2",
-            "19:96:5:2",
-            "19:96:9:1"
+            "19:96:4:2"
           ],
-          "carrier": "ʿAmilū carries intentional action that the trace reads as dealings between people.",
-          "independent_trigger": "The reconciliation object and affection outcome independently supply an interpersonal relation.",
-          "activation": "The action carrier contacts a relational result, allowing the attributed dealings frame.",
-          "resulting_reading": "The deeds can be read as interpersonal dealings.",
-          "boundary": "The focus does not mention trade or name a specific transaction."
+          "carrier": "ʿAmilū is the group's intentional action.",
+          "independent_trigger": "The righteous-deed object supplies the acts, while the beneficiary pronoun and affection object provide other people and a relational outcome.",
+          "activation": "The action carrier meets explicit human recipients and affection as result, so deeds can be read through interpersonal dealings.",
+          "resulting_reading": "Human dealings become the site in which reconciliatory deeds lead to affection.",
+          "boundary": "The verb remains ethical doing; the interpersonal-dealings branch is an attributed lens, not its exclusive dictionary sense."
         },
         {
           "branch_ref": "root_000876/B002",
           "facet_id": "F001",
           "branch_gloss": "barışma ve uzlaşma",
           "facet_statement": "Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:5:2"
           ],
           "trigger_refs": [
+            "19:96:4:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:9:1"
+            "19:96:5:2"
           ],
-          "carrier": "Al-ṣāliḥāt carries the reconciliation branch's removal of a damaged relation.",
-          "independent_trigger": "Wuddan independently names an affectionate relation as the outcome.",
-          "activation": "The deed carrier and affection trigger contact as repair that removes distance.",
-          "resulting_reading": "The deeds can be read as relational reconciliation.",
-          "boundary": "No earlier estrangement is narrated; this remains the trace's attributed application."
+          "carrier": "Al-ṣāliḥāt names righteous deeds with a soundness-and-repair field.",
+          "independent_trigger": "The intentional work verb supplies performed acts and wuddan names a relational affection result.",
+          "activation": "The repair carrier meets action and affection across adjacent roots, permitting reconciliation as operative content of the deeds.",
+          "resulting_reading": "The deeds can be read as removing relational aversion on the way to affection.",
+          "boundary": "The plural category remains righteous deeds; not every act is specified as reconciliation."
         },
         {
           "branch_ref": "root_000876/B002",
           "facet_id": "F002",
           "branch_gloss": "barışma ve uzlaşma",
           "facet_statement": "Taraflar karşılıklı olarak barışır ve aralarında uzlaşma oluşur.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:5:2"
           ],
           "trigger_refs": [
-            "19:96:9:1",
-            "19:96:7:2"
+            "19:96:4:2",
+            "19:96:7:2",
+            "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:5:2",
-            "19:96:9:1",
-            "19:96:7:2"
+            "19:96:5:2"
           ],
-          "carrier": "Al-ṣāliḥāt can carry mutual peace and agreement between parties.",
-          "independent_trigger": "The affection object and plural beneficiary relation independently provide a social contact.",
-          "activation": "The reconciliation carrier meets the group-directed affection outcome.",
-          "resulting_reading": "The relation settles toward mutual peace.",
-          "boundary": "The surface does not identify parties or state that they were previously in conflict."
+          "carrier": "Al-ṣāliḥāt carries the reconciliation branch as an attributed reading of righteous deeds.",
+          "independent_trigger": "The action verb, plural beneficiaries, and resulting affection independently supply actors, recipients, and a shared relation.",
+          "activation": "The reconciliation carrier meets a plural human group and an affection result, allowing the deeds' social effect to be heard as mutual settling.",
+          "resulting_reading": "Relational repair settles toward reciprocal affection for the group.",
+          "boundary": "The plural object and singular wuddan do not specify which individuals reconcile or guarantee a reciprocal response."
         },
         {
           "branch_ref": "root_000248/B002",
           "facet_id": "F001",
           "branch_gloss": "birini veya şeyi belirli bir duruma getirme",
           "facet_statement": "Var olan bir katılımcının durumunu, niteliğini veya konumunu değiştiren ettirici işlemi bildirir.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:6:2"
           ],
           "trigger_refs": [
-            "19:96:7:1",
             "19:96:7:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:6:2",
-            "19:96:7:1",
-            "19:96:7:2",
-            "19:96:9:1"
+            "19:96:6:2"
           ],
-          "carrier": "Yajʿalu carries the act of changing a participant's condition or relation.",
-          "independent_trigger": "The beneficiaries and affection object specify the resulting social state.",
-          "activation": "The state-changing verb contacts the relational result assigned for the group.",
-          "resulting_reading": "Reconciliation is rendered into a settled relation of affection.",
-          "boundary": "This is the trace's state-setting reading, not a separate lexical assertion of conflict."
+          "carrier": "Yajʿalu carries making, placing, or rendering.",
+          "independent_trigger": "The beneficiary pronoun li-hum and the affection noun wuddan supply a recipient and resulting relation.",
+          "activation": "The making carrier meets a named recipient and an affection object, so its result is a relational condition for them.",
+          "resulting_reading": "The future act renders affection into a social state for the qualified group.",
+          "boundary": "This is relational placing, not a claim of creation from nothing."
         },
         {
           "branch_ref": "root_001634/B001",
           "facet_id": "F001",
           "branch_gloss": "sevgi ve gönülden yakınlık besleme",
           "facet_statement": "Bir kişiye ya da şeye sevgi beslemek ve ona gönülden yakınlık duymak.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:9:1"
           ],
           "trigger_refs": [
-            "19:96:5:2",
-            "19:96:6:2"
+            "19:96:7:2",
+            "19:96:8:2"
           ],
           "focus_return_refs": [
-            "19:96:9:1",
-            "19:96:5:2",
-            "19:96:6:2"
+            "19:96:9:1"
           ],
-          "carrier": "Wuddan carries loving attachment as the result.",
-          "independent_trigger": "The reconciliation trace and state-changing verb independently establish a repair-to-result path.",
-          "activation": "The affection object meets the repair carrier as its divinely rendered outcome.",
-          "resulting_reading": "The result of reconciliation can be affection.",
-          "boundary": "The focus states the affection result but does not narrate the preceding conflict."
+          "carrier": "Wuddan is affection and heartfelt attachment.",
+          "independent_trigger": "The recipient pronoun and the compassion-name as agent independently specify who receives the affection and who places it.",
+          "activation": "The affection carrier meets a beneficiary and a named compassionate agent, making love the relation conferred for the group.",
+          "resulting_reading": "The result is affection directed toward the qualified recipients.",
+          "boundary": "This does not establish that every person reciprocates or make affection the only reward."
         },
         {
           "branch_ref": "root_001634/B001",
           "facet_id": "F002",
           "branch_gloss": "sevgi ve gönülden yakınlık besleme",
           "facet_statement": "Sevginin karşılıklı olması veya bir kişinin çok seven ve sevgi gösteren diye nitelenmesi.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:9:1"
           ],
           "trigger_refs": [
             "19:96:5:2",
+            "19:96:6:2",
             "19:96:7:2"
           ],
           "focus_return_refs": [
-            "19:96:9:1",
-            "19:96:5:2",
-            "19:96:7:2"
+            "19:96:9:1"
           ],
-          "carrier": "Wuddan can carry reciprocal affection as a specialization.",
-          "independent_trigger": "The reconciliation trace and plural beneficiary relation supply the independent social trigger.",
-          "activation": "Repair and affection meet as a relation that can become mutual.",
-          "resulting_reading": "The resulting condition can be heard as reciprocal love.",
-          "boundary": "The surface does not mark symmetry; reciprocity remains attributed."
+          "carrier": "Wuddan is the affection result named at the end of the promise.",
+          "independent_trigger": "Righteous deeds, the making verb, and the plural beneficiary independently create a social relation rather than an isolated emotion.",
+          "activation": "The affection carrier meets performed reconciliation and a group-directed making act, allowing reciprocal attachment as an attributed relational reading.",
+          "resulting_reading": "Where estrangement is removed through deeds, affection can become a durable relation among people.",
+          "boundary": "The singular indefinite object does not grammatically guarantee mutual response; reciprocity remains a qualified branch facet."
         }
       ],
       "connection_refs": [],
@@ -2486,27 +1704,28 @@
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "micro:affection-as-recompense",
+      "finding_ref": "micro:affection_as_recompense",
       "origin_candidate_id": "cand_d3385d3f20a3c1d2f340",
       "represented_candidate_ids": [],
-      "title": "Affection as recompense",
-      "claim": "Alongside the ordinary promise of affection, an exploratory attributed reading lets affection itself fill a nonmonetary recompense slot for reparative work.",
-      "mechanism": "The trace connects the work/wage branch at ʿamilū, the appointed-fee branch at yajʿalu, the beneficiary phrase li-hum, and wuddan as the assigned result.",
-      "reader_payoff": "The promised love can be seen as a reward framed through work and assignment rather than left as one unspecified favor.",
-      "containment": "The ordinary affection promise remains intact. The focus names no money, contract, or explicit wage; this frame stays exploratory and attributed to a legacy_unbound HFT trace.",
+      "title": "Affection as exploratory recompense",
+      "claim": "As an exploratory analogy, the ayah can assign affection itself as a nonmonetary recompense for reparative work, where the baseline leaves love as one unspecified reward among others.",
+      "mechanism": "The work carrier at ʿamilū meets the future assignment frame at yajʿalu and the beneficiary phrase li-hum; wuddan fills the result slot. The work-wage and assigned-fee facets therefore open a compensation analogy, and affection occupies its outcome. This changes the unspecified-reward baseline into a possible work-to-recompense relation.",
+      "reader_payoff": "The reader can see the promised affection as the result assigned to those who perform the deeds, not merely as another item in an unnamed reward set.",
+      "containment": "This is exploratory analogy. ʿAmilū remains an ethical-action verb, yajʿalu does not mean wage or fee, and wuddan remains affection rather than a legal payment or the only reward.",
       "epistemic": {
         "status": "exploratory",
         "source_trust": [
           "legacy_unbound",
           "trusted"
         ],
-        "reason": "The HFT's work, fee, and affection coordinates match supplied focus roots, but its nonmonetary-compensation frame is exploratory and its reader identity remains legacy_unbound."
+        "reason": "The local work, assignment, recipient, and object forms make the analogy possible, but its wage/fee chain comes from a legacy-unbound HFT trace expressly marked exploratory."
       },
       "support_ids": [
         "sup_45b88ec4c0628b546eba",
-        "sup_7b0d553fe00ba23affb6",
-        "sup_a15d7d2b1b38605b46dd",
-        "sup_7ffea673e0845695c49e"
+        "sup_3cb8b7b07484d002bdf5",
+        "sup_2b57833003e81d96ef29",
+        "sup_abf971ee326bb880c928",
+        "sup_e02428e492c220dc9bc9"
       ],
       "branch_activations": [
         {
@@ -2514,74 +1733,68 @@
           "facet_id": "F001",
           "branch_gloss": "iş ücreti",
           "facet_statement": "İş karşılığı verilen ücret veya çalışanın payı ana anlamdır.",
-          "application_mode": "attributed",
+          "application_mode": "analogical",
           "carrier_refs": [
             "19:96:4:2"
           ],
           "trigger_refs": [
             "19:96:6:2",
+            "19:96:7:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:4:2",
-            "19:96:6:2",
-            "19:96:9:1"
+            "19:96:4:2"
           ],
-          "carrier": "ʿAmilū carries the work-for-wage or employee-share branch in the attributed trace.",
-          "independent_trigger": "The separate appointed-fee verb and affection object independently supply an assignment/result frame.",
-          "activation": "The work carrier contacts a later assigned outcome, opening the compensation reading.",
-          "resulting_reading": "Work can be read as the basis against which affection is appointed.",
-          "boundary": "The surface does not state an actual wage or monetary payment."
+          "carrier": "ʿAmilū locally means doing the righteous deeds.",
+          "independent_trigger": "The future making frame directs an affection result to the workers as beneficiaries.",
+          "activation": "The work carrier meets an independently assigned result for its doers, opening a wage/recompense analogy without changing the verb's local sense.",
+          "resulting_reading": "The promise can be explored as assigning affection as a return for reparative work.",
+          "boundary": "The focus form remains an ethical-action verb, not a noun meaning wage or provision."
         },
         {
           "branch_ref": "root_000248/B005",
           "facet_id": "F001",
           "branch_gloss": "iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme",
           "facet_statement": "Belirli bir iş veya görevin yapılması karşılığında bir kişiye ayrılan ücret, ödeme ya da armağandır.",
-          "application_mode": "attributed",
+          "application_mode": "analogical",
           "carrier_refs": [
             "19:96:6:2"
           ],
           "trigger_refs": [
             "19:96:4:2",
+            "19:96:7:2",
             "19:96:9:1"
           ],
           "focus_return_refs": [
-            "19:96:6:2",
-            "19:96:4:2",
-            "19:96:9:1"
+            "19:96:6:2"
           ],
-          "carrier": "Yajʿalu carries the branch's assigning of payment for work.",
-          "independent_trigger": "The work verb and affection object independently fill the task and assigned-result positions.",
-          "activation": "The verb of making/assignment contacts the work frame and gives it a nonmonetary object.",
-          "resulting_reading": "Affection can be read as the assigned recompense.",
-          "boundary": "The focus does not name a fee, agreement, or monetary transfer."
+          "carrier": "Yajʿalu locally means making or placing affection for beneficiaries.",
+          "independent_trigger": "The intentional work verb supplies the work side of a recompense frame; li-hum and wuddan supply a recipient and assigned result.",
+          "activation": "The making carrier meets work, beneficiary, and affection as result, permitting an appointed-fee analogy in which affection fills the outcome slot.",
+          "resulting_reading": "Affection can be heard exploratorily as the nonmonetary result assigned in return for reparative work.",
+          "boundary": "Yajʿalu does not lexically mean wage or fee here; this is an analogy, not a contractual payment or exclusive reward."
         },
         {
           "branch_ref": "root_001634/B001",
           "facet_id": "F001",
           "branch_gloss": "sevgi ve gönülden yakınlık besleme",
           "facet_statement": "Bir kişiye ya da şeye sevgi beslemek ve ona gönülden yakınlık duymak.",
-          "application_mode": "attributed",
+          "application_mode": "intrinsic_cross_root",
           "carrier_refs": [
             "19:96:9:1"
           ],
           "trigger_refs": [
-            "19:96:4:2",
-            "19:96:6:2",
-            "19:96:7:2"
+            "19:96:7:2",
+            "19:96:8:2"
           ],
           "focus_return_refs": [
-            "19:96:9:1",
-            "19:96:4:2",
-            "19:96:6:2",
-            "19:96:7:2"
+            "19:96:9:1"
           ],
-          "carrier": "Wuddan carries the ordinary loving-attachment sense.",
-          "independent_trigger": "The traced work and assignment branches independently create a recompense frame for the affection object.",
-          "activation": "The love carrier fills the result position opened by the work-and-assignment sequence.",
-          "resulting_reading": "Affection itself can fill a nonmonetary reward slot.",
-          "boundary": "This is an exploratory attributed frame; it does not claim that the ordinary object meaning is wages."
+          "carrier": "Wuddan is affection and heartfelt attachment.",
+          "independent_trigger": "The recipient pronoun and the compassion-name as agent independently specify who receives the affection and who places it.",
+          "activation": "The affection carrier meets a beneficiary and a named compassionate agent, making love the relation conferred for the group.",
+          "resulting_reading": "The result is affection directed toward the qualified recipients.",
+          "boundary": "This does not establish that every person reciprocates or make affection the only reward."
         }
       ],
       "connection_refs": [],
@@ -2590,8 +1803,7 @@
     }
   ],
   "friction_notes": [
-    "selected_context_units is empty and connection_registry is empty; cross-ayah comparisons named in supports were not landed as focus/context carriers or triggers and are recorded in candidate context exclusions.",
-    "All 11 word-analysis entries resolve to QAC, so the focus coordinates are grounded. The three HFT identities remain legacy_unbound; their exact traces are retained only as attributed readings.",
-    "The support reports variant-vowel pressure for wuddan but supplies no individual variant forms; that point remains qualified within the affection branch."
+    "The micro packet supplies no selected context units or lane context refs. Candidate-support comparisons to other ayat were excluded or narrowed to focus-surface relations when those context surfaces were unavailable.",
+    "The packet exposes the complete focus branch_registry but no separate root_branch_options field; the branch registry was inspected for candidate and uncandidate focus-root activations."
   ]
 }

@@ -1,0 +1,185 @@
+# V5 reading invitation — 19:90
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_90/19_90.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_90/19_90.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Göğün eşiğinde
+
+Âyetin hareketi göklerden yeryüzüne, oradan dağlara iner: göklerin yarılmasına ramak kalır, yer yarılır, dağlar sarsılarak düşer ve ağır bir yıkım sesiyle sahne kapanır. {ar:مِنْهُ, tr:minhu, gloss:ondan / bunun yüzünden} içindeki “ondan” önceki çocuk isnadına döner. {ar:ٱلرَّحْمَٰنُ, tr:ar-Raḥmān, gloss:Rahman}’a çocuk atfedilen {ar:وَلَدًا, tr:waladan, gloss:çocuk / evlat} sözü (19:88) ile göklerin yarılması arasında böylece bir neden bağı kurulur; bu isnat yeniden adlandırıldığında da (19:91) kozmik tepkinin hangi söze yöneldiği belirginleşir.
+
+Bu neden bağı tek bir eke sığar: {ar:مِنْهُ, tr:minhu, gloss:ondan / bunun yüzünden} göklerin çatlamasını anlatan fiile en yakından bağlanır; zamir önceki önermeyi yeniden söylemeden onu sahnede tutar. Yer ve dağ cümleleri “ve” ile ardından gelir, aynı sözün yankısını aşağıya taşır; ancak her birine ayrı bir neden öbeği bağlanmaz. Bu okumanın açık geri dönüşü minhu zamirindedir; 19:89 ayetinin lafzı burada açılmadığından onunla ayrıca bir kalıp benzerliği ileri sürülmez.
+
+İsnat, çevresindeki söylemde de kalıcılık kazanır. Söylenenin yazıya geçirileceği {ar:سَنَكْتُبُ مَا يَقُولُ, tr:sa-naktubu mā yaqūlu, gloss:söylediğini yazacağız} ile belirtilir (19:79); ardından {ar:نَرِثُهُ مَا يَقُولُ, tr:narithuhu mā yaqūlu, gloss:söylediğini devralacağız} sözü onu söyleyenden sonra da sürdürür (19:80). İddia önce {ar:قَالُوا, tr:qālū, gloss:dediler} diye aktarılır (19:88), sonra {ar:دَعَوْا, tr:daʿaw, gloss:adlandırıp isnat ettiler} ile belirli bir isnada dönüşür (19:91). Bu yazılma, devralınma ve yeniden adlandırılma, sözü geçici bir sesten kalıcı ve yanıtlanabilir bir yüke çevirir; 19:90’daki ağır kozmik karşılık da {ar:مِنْهُ, tr:minhu, gloss:ondan / bunun yüzünden} ile bu sözün ağırlığını taşır. Bu bağın katkısı, sözün göğü fiziksel olarak çatlatmasını ileri sürmeden, hesap sorulabilir bir iddiaya verilen retorik tepki okumasını da açık tutmasıdır.
+
+## Üç ayrı hareket
+
+{ar:تَكَادُ, tr:takādu, gloss:neredeyse} bir eylemi gerçekleşme eşiğine yaklaştırır. Burada bu eşik göklerin yarılmasına aittir: gökler takādu’nun öznesidir, çatlama ise yaklaşılan eylemdir. Yerin yarılması ve dağların düşmesi kendi fiilleriyle kurulan sonraki cümlelerdir; dolayısıyla gramer, bu iki hareketi ayrıca “neredeyse”nin kapsamına almaz. Okuma sırası yine de ilk eşiğin gerilimini aşağıdaki iki olaya taşır. Böylece üç alan tek bir felaket çizgisinde buluşur, her eylem kendi fiilini ve gerçekleşme kipini korur; gök için bildirilen yakınlık da gelecekteki bir sonuca takvim koymaz.
+
+İlk cümlede {ar:وَتَكَادُ, tr:wa takādu, gloss:az kala} sözü gökler adından önce, gökler adı da çatlama fiilinden önce gelir. Buna karşılık sonraki cümlelerde {ar:تَنْشَقُّ, tr:tanshaqqu, gloss:yarılıp açılır} ve {ar:تَخِرُّ, tr:takhirru, gloss:sarsılarak düşer} fiilleri, yer ve dağ öznelerinden önce işitilir. Bu sıra göklere açılış ağırlığı verir. Yer ve dağ cümlelerinde yinelenen {ar:وَ, tr:wa, gloss:ve} ise eklemeleri birbirine bağlar; takādu’nun kesik başlangıcı ve ardından gelen çatlama, yarılma, düşme sözleri kulağı uzayan bir kopuş dizisine taşır. Ses, “az kala” eşiğini işittirir ve yakınlık duygusunu büyütür.
+
+Gökleri adlandıran {ar:السَّمَاوَاتُ, tr:as-samāwātu, gloss:gökler} sözü belirli ve çoğuldur. Onunla uyumlanan {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} da dişil çoğul bir fiildir; gökler böylece sahnenin dekoru değil, kopuşun taşıyıcısı olur. Çoğul biçim katmanlı bir genişlik düşündürürken yükseklerdeki gök sözü kendi yukarı yönünü de taşır. Bu çağrışım burada somut göklerin yukarıdaki konumunu belirginleştirir; gök adı ya da işaretleme üzerine başka bir türevsel iddiaya geçmez.
+
+Göklerin çatlama fiili etkin Form V biçiminde ve sürmekte olan bir eylem olarak kurulur. Bu biçimde gökler kopuşun öznesidir; çatlama onların içinde gelişir, cümle nihai faili belirlemez. {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} bir bütünün açılıp içini ya da ardındakini görünür kılmasını da duyurabilir. Hemen ardından gelen yer yarılması buna bağımsız bir alt düzlem karşılığı verir: iki fiil aynı kopuşu yinelemez, ayrı alanlarda iki ayrı açılma işlemi kurar. Yinelenen kök sesleri bu fiziksel çatlamayı işitilir kılar. Aktarılan başka kıraat biçimleri özne-fiil ilişkisinin sınırına işaret eder; bu okumada eldeki biçim izlenir ve gökler çatlamanın öznesi olarak kalır.
+
+Yerin kendi yarılması başka bir kökten gelen fiille açılır: {ar:تَنْشَقُّ, tr:tanshaqqu, gloss:yarılıp açılır} geçişsiz Form VII biçimindedir. Fiil özneden önce duyulur, sonra belirli tekil {ar:الْأَرْضُ, tr:al-arḍu, gloss:yeryüzü} ortaya çıkar; üçüncü tekil dişil uyumuyla yeryüzü kendi içinde yarılan fiziksel zemindir. Göğün karşısındaki yaşanan alt alan anlamı da burada korunur. Bu fiilin seyrek örneklenmesi yüzeyini belirginleştirir, eylemi belirsizleştirmez; varyant yazımlar bu kullanımdaki yarılmanın kapsamını genişletmek için dayanak oluşturmaz. {ar:تَنْشَقُّ, tr:tanshaqqu, gloss:yarılıp açılır} fiilinin bağlı olduğu sözcük ailesinde yer ya da dağ çatlağı örnekleri de vardır. Açık özne ve hemen ardından gelen dağ kütlesi, bu kullanımı somut bir yersel yarık olarak kurar; özne eylemi kendi içinde taşır, sözdizimi nihai nedeni adlandırmadan bırakır. Aynı fiilin yerin yarılmasını anlattığı ifade (80:26) bu görüntüye temas eder. O tek ifadede bitki yetiştirme yer almadığı için büyümeyle bağlantı ihtiyatlı bir karşı-okuma olarak kalır.
+
+Bu yer yarılması dizinin orta menteşesidir. Bu dizide çoğul gökler {ar:السَّمَاوَاتُ, tr:as-samāwātu, gloss:gökler}, tekil yeryüzü {ar:الْأَرْضُ, tr:al-arḍu, gloss:yeryüzü} ve çoğul dağlar {ar:الْجِبَالُ, tr:al-jibālu, gloss:dağlar} art arda gelir: yer iki kozmik kütle arasında durur, yer ile dağlar da alt düzlemin yerel ikilisini oluşturur. Gök fiilinden farklı kökten gelen yarılma, üstteki çatlak ile alttaki dağ düşüşü arasına kısa bir çatlama sesi yerleştirir. Yinelenen {ar:وَ, tr:wa, gloss:ve} bağlaçları hareketleri tek söz akışında tutarken, yeryüzü aralarındaki maddi zemini sağlar; her fiil kendi eylemini korur. Bu sıra ayetin içindeki üç felaket alanını düzenler; önerdiği düzenleme daha geniş bir kozmoloji savı kurmaz.
+
+Dağlara gelindiğinde önce düşüş duyulur, sonra özne belirir: {ar:تَخِرُّ, tr:takhirru, gloss:sarsılarak düşer} fiilinin ardından {ar:الْجِبَالُ, tr:al-jibālu, gloss:dağlar} gelir. Kırık çoğul özneyle kullanılan dişil tekil uyum, iri kütleleri tek bir topluluk olarak toplar; muzâri biçim de düşüşü sürmekte olan hareket gibi duyurur. Etkin ve geçişsiz fiil dağları doğrudan özne yapar, nesne ya da varış yeri belirtmez. Dağların çevrelerinden yükselen katı kütle oluşu, yüksekten gelen ağır ve işitilir inişle sınanır. Ortak koşmayı gökten düşmeye benzeten anlatım (22:31), bu fiziksel inişe yanlış ortaklıkla ilgili bir düşme yankısı ekler; bu bağlantı dağ imgesini ya da odaktaki ses niteliğini taşımaz.
+
+Bu fiil ailesinin bedeni yere doğru kapanıp secdeye varan ayrı kullanımı, dağların fiziksel inişine yere yönelen bir beden yankısı ekler. Yankı hareket biçiminde kalır: dağlara ibadet niyeti ya da bilinç yüklenmez. {ar:وَ, tr:wa, gloss:ve} ile gelen üçüncü cümle ritimde de üçüncü vuruşu kurar; dağların adı fiilden sonra açılır ve düşüş son {ar:هَدًّا, tr:haddan, gloss:ağır yıkım} sözüne doğru kuvvet toplar.
+
+## Örtü, zemin ve taşıyıcı kütle
+
+Dağların düşüşünden sonra gelen {ar:هَدًّا, tr:haddan, gloss:ağır yıkım} sonlu bir fiil değil, önceki {ar:تَخِرُّ, tr:takhirru, gloss:sarsılarak düşer} eylemini tasvir edip güçlendiren belirsiz mansub bir mastardır. Dağları özne yapan düşme fiiline bağlanarak fiziksel bütünlüğü ağır biçimde kıran yıkımı adlandırır. Bu dağ bağlamı sözcüğü insanın güçten düşmesi anlamı yerine yapısal çöküşe yerleştirir; öteki kullanımlar kendi bağlamlarında kalır. Sözcük, başka kullanımlarında şiddetli uğultu ya da gürleme ile düşen duvar, köşe veya dağ parçasının çarpma sesini de taşır. Burada sarsıntılı iniş uğultuya, iri kütle çarpma sesine karşılık gelir; ses, maddi çöküşün işitilir kenarını kurar. Bu sahne dağ düşüşüyle sınırlıdır: ayete ayrıca bir duvar ya da ayrı bir parça girmez. Son mastar düşüşü yoğunlaştırır, ölçüsüz veya sınırsız miktar bildirmez; çift “d”nin tok sesi üç vuruşun sonuna işitsel bir durak koyar.
+
+Bu üç fiziksel alan, örtü ve taşıyıcı yapı çağrışımlarını da sırayla açar. Gökleri adlandıran {ar:السَّمَاوَاتُ, tr:as-samāwātu, gloss:gökler} sözü olağan gök anlamını korur; üstte örten bir gök ya da örtü anlamına da yaklaşabilir. Bu üst yüzeyde {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} eyleminin eşiği gerilmiş bir örtüyü düşündürür. Fiilin bağlı olduğu yarılma kökü kumaşın çatlayıp açılması yönünü de taşır; örtü çağrışımıyla buluştuğunda üst düzlemin kumaş gibi çözülmesine sınırlı bir benzetme verir. Alt düzlemdeki ayrı {ar:تَنْشَقُّ, tr:tanshaqqu, gloss:yarılıp açılır} fiili imgeye ikinci bir açılma ekler: üst yüzey ve zemin aynı biçimde yarılmaz, ama iki açılma birlikte çözülme ihtimalini görünür kılar. Bu bağlantı, göğün fiziksel varlığını koruyan sınırlı bir kumaş benzetmesidir.
+
+Alt düzlemde {ar:الْأَرْضُ, tr:al-arḍu, gloss:yeryüzü}, verimli topraktan bağımsız olarak, göğün karşısındaki yaşanan ve yarılan zemindir. {ar:الْجِبَالُ, tr:al-jibālu, gloss:dağlar} sözü bu zeminin üstünde çevresinden yükselen büyük doğal kütleleri getirir; düşüşleri de onların ağırlığını sahnenin desteği hâline sokar. Dağ sözcüğünün sert zemini anlatan ayrı kullanımı, düşüş ve {ar:هَدًّا, tr:haddan, gloss:ağır yıkım} ile buluştuğunda bu sahneye sert taban çağrışımı ekler. Bu bağlantı dağ sözcüğünün sert taban çağrışımında kalır; kazı ya da kazma eylemine uzanmaz.
+
+{ar:الْجِبَالُ, tr:al-jibālu, gloss:dağlar} sözcüğünün bundan ayrı ve daha ihtiyatlı bir kullanımı, dokuma yapısına açılır: ip eğirme ve bükümün kumaşı sağlam tuttuğu bir örgü. Bu okuma içinde gerilmiş gök örtüsü, {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} ile {ar:تَنْشَقُّ, tr:tanshaqqu, gloss:yarılıp açılır} fiillerinin iki ayrı yarılma işlemi ve sonundaki {ar:هَدًّا, tr:haddan, gloss:ağır yıkım}, dağların çözülen yapının dokunmuş desteği gibi duyulmasına zemin verir. Sert taban ile dokuma desteği ayrı katkılardır: ilki alttaki zeminin katılığını, ikincisi parçaları birlikte tutan örgüyü verir. Her iki yankıda da düşen dağ kütlesi fiziksel özne olarak kalır. Üst örtünün yarılması, alt zeminin açılması ve taşıyıcı kütlenin çökmesi birlikte düşünüldüğünde yaratılmış bir bütünlüğün baskı altında kalması belirir. Bu okuma fiziksel felaket görüntüsünü genişletir; ne gerçek bir kumaş yapısı ne de yaratılışın bütünüyle yok oluşu ileri sürülür.
+
+Başka ayetlerdeki imgeler yapısal gerilime ayrı katkılar ekler. Göklerin neredeyse yarılması, odaktaki {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} ile aynı tehdidi başka bir yerde yineler (42:5). {ar:الْأَرْضُ, tr:al-arḍu, gloss:yeryüzü} ile {ar:الْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın tek darbede birlikte ezilmesi (69:14), aynı fiili kullanmadan yapısal kırılmayı büyütür; yerin sarsılması ve dağların gevşek kum yığınlarına dönüşmesi (73:14) ise kararlı kütlenin nasıl dağıldığını somutlaştırır. Bu iki maddi sahne, odaktaki dağların {ar:تَخِرُّ, tr:takhirru, gloss:sarsılarak düşer} düşüşünü yer ve dağın birlikte sınandığı daha geniş bir görüntüye bağlar; bu bağlantı her dağ anılışına aynı sonucu yüklemez.
+
+## Söylenen iddia ve var edilmiş düzen
+
+Kozmik görüntü belirli bir isnat çevresinde yoğunlaşır. 19:35 çocuk isnadını reddeder; başka bir sözde {ar:وَلَدًا, tr:waladan, gloss:çocuk / evlat} atfı aktarılır (21:26). 19:88’deki aynı çocuk sözü ile 19:92’deki yineleyiş, {ar:يَنۢبَغِي, tr:yanbaghī, gloss:uygun düşer} ifadesinin olumsuzlanmasıyla {ar:ٱلرَّحْمَٰنُ, tr:ar-Raḥmān, gloss:Rahman}’a çocuk atfetmenin uygun düşmediğini açıkça söyler. Böylece {ar:مِنْهُ, tr:minhu, gloss:ondan / bunun yüzünden} zamirinin döndüğü söz belirginleşir. {ar:الْجِبَالُ, tr:al-jibālu, gloss:dağlar} sözcük ailesi bu iddianın yanında iki ayrı çağrışım açar: doğuştan gelen, kolay değişmeyen yapı ve bir şeye biçim verme. Düşen dağ kütlesi böylece hem katı yapıyı hem biçim verilmiş olanı düşündürür. Evlat sözü türeme ilişkisini öne çıkarırken göklerin {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} çatlaması ve dağların yıkımı, var edilmiş düzenin kaynağını türemiş soyla açıklama iddiasını baskı altına alır. Fiziksel yarılma temel okuma olarak kalır; genel bir kozmik dehşet okuması da mümkündür.
+
+Bu oluş ve türeme gerilimine aynı kökün iki ayrı biçimi katılır. Odaktaki {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} göklerin yarılmasını söyler; gökleri ve yeri var etme bağlamındaki {ar:فَطَرَهُنَّ, tr:faṭarahunna, gloss:onları var etti} ise bu kökün başka bir biçimidir (21:56). Ortak kök, aynı gök-yer çiftini bir yerde var edilişin, burada yarılma tehdidinin konusu yapar; yaratma eylemi açılmanın yanına gelerek tehdidi kökeni olan düzenin baskı altına girmesi şeklinde derinleştirir. Bu yankının katkısı, yaratılmış düzeni yarılma tehdidiyle yan yana getirmektir: biçimler ayrı kaldığından odağın Form V fiiline doğrudan “yaratma” anlamı yüklenmez ve temas oluşun bütünüyle geri alındığını söylemez. {ar:الْجِبَالُ, tr:al-jibālu, gloss:dağlar} sözüyle gelen biçimlenmiş yapı ve son {ar:هَدًّا, tr:haddan, gloss:ağır yıkım}, kök yankısına somut baskı ve çöküş ağırlığı verir.
+
+Aynı sözcük ailesindeki Rahman–raḥim yankısı, evlat isnadına ana rahmi imgesini ekler. {ar:ٱلرَّحْمَٰنُ, tr:ar-Raḥmān, gloss:Rahman} adı olağan merhamet anlamını korurken, ailedeki {ar:رَحِم, tr:raḥim, gloss:ana rahmi} ana rahmini anlatır. Yakındaki {ar:وَلَدًا, tr:waladan, gloss:çocuk / evlat} sözü bu soy çağrışımını belirginleştirir; göklere yüklenen {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılırlar} ve yere yüklenen {ar:تَنْشَقُّ, tr:tanshaqqu, gloss:yarılıp açılır} açılmalar ise imgeyi iki fiziksel düzleme taşır. Bir araya geldiklerinde kozmik çift, imkânsız bir evlat isnadı altında neredeyse doğuracakmış gibi düşünülebilir (19:88). Bu belirsiz benzetme Rahman’ı “rahim” diye çevirmeyi ya da gerçek bir doğum ileri sürmeyi gerektirmez; iki fiziksel açılmaya eklenen ayrı bir yankı olarak kalır.
+
+## Kapsamın genişlemesi
+
+Söz 19:93’e geldiğinde {ar:السَّمَاوَاتُ, tr:as-samāwātu, gloss:gökler} ile {ar:الْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} çifti yeniden anılır. {ar:كُلُّ, tr:kullu, gloss:herkes / hepsi} kapsamı ikisinin içindekileri alır; hepsi {ar:عَبْدًا, tr:ʿabdan, gloss:kul} olarak {ar:ٱلرَّحْمَٰنُ, tr:ar-Raḥmān, gloss:Rahman}’a gelir. Ardından hepsinin eksiksiz sayılması {ar:أَحْصَىٰهُمْ وَعَدَّهُمْ عَدًّا, tr:aḥṣāhum wa-ʿaddahum ʿaddan, gloss:onların hepsini saydı} (19:94) ve her birinin tek başına gelişi {ar:فَرْدًا, tr:fardan, gloss:tek başına} (19:95) bu ortak kulluk düzenini kişiye kadar açar. Böylece az önce yarılma tehdidi altındaki gök ve yer, ayrıcalıklı bir soy istisnası dışında duran manzaralar değil, aynı kapsama giren alanlardır. Bu alanları tanık gibi görmek ihtiyatlı bir çıkarımdır; bu çıkarım göğe, yere ya da içindekilere ayrıca bilinç yüklemez.
+
+Bu evrensel kulluk bildirimiyle Fâtiha’daki {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız sana kulluk ederiz} duasının birinci çoğul sesi birleşir (1:5). Okur böylece kozmik sahneyi yalnız izleyen biri olmaktan çıkıp aynı kulluk konumunu kendi sesiyle üstlenebilir. Bu dış yankı 19:90’daki yarılmanın nedeni değildir; gökler ve yer de duadaki “biz” diye konuşturulmaz.
+
+Gökler için kurulan “neredeyse” eşiğine çevredeki ölçü ve sayma dili, aceleye bırakılmayan bir baskı ve ölçülü bir yakınlık hissi ekler. Acele etmeme uyarısı {ar:لَا تَعْجَلْ, tr:lā taʿjal, gloss:acele etme} ile “onlar için tek tek sayıyoruz” sözü {ar:نَعُدُّ لَهُمْ عَدًّا, tr:naʿuddu lahum ʿaddan, gloss:onlar için tek tek sayıyoruz} (19:84), hepsinin eksiksiz sayıldığı bildirimle {ar:أَحْصَىٰهُمْ وَعَدَّهُمْ عَدًّا, tr:aḥṣāhum wa-ʿaddahum ʿaddan, gloss:onların hepsini saydı} (19:94) yan yana durur. Bu bağlantı bir takvim çıkarmaz: {ar:تَكَادُ, tr:takādu, gloss:neredeyse} göklerin yarılma sınırını korur; yakınlık aynı zamanda şiddeti artıran bir kullanım olarak da okunabilir.
+
+Son olarak bölümün sesleri bir karşılaştırma yayı kurar: kışkırtmanın yinelenen sesi {ar:تَؤُزُّهُمْ أَزًّا, tr:taʾuzzuhum azzan, gloss:onları şiddetle kışkırtır} (19:83) yayın ilk halkasını kurar; dağların {ar:تَخِرُّ, tr:takhirru, gloss:sarsılarak düşer} inişi ve {ar:هَدًّا, tr:haddan, gloss:ağır çöküş sesi} olası bir orta vuruş oluşturur. Ardından duyuyu soran {ar:تُحِسُّ, tr:tuḥissu, gloss:hissedebilir misin}, işitmeyi soran {ar:تَسْمَعُ, tr:tasmaʿu, gloss:duyabilir misin} ve en hafif sesi adlandıran {ar:رِكْزًا, tr:rikzan, gloss:en hafif ses} sözler gelir (19:98); böylece yay çöküşün gürültüsünden duyulabilecek en ince izin yokluğuna yönelir. 19:98’deki anlatım bu düşüşün artçısını değil, daha önce yok edilmiş toplulukları konu eder. Bu nedenle ses yayı olayların devamını değil, bölüm boyunca kurulan ihtiyatlı bir karşıtlığı duyurur.
+
+</editorial_prose>

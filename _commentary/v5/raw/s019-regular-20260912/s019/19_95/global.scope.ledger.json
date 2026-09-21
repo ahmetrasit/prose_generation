@@ -4,72 +4,96 @@
   "lane": "global",
   "findings": [
     {
-      "finding_ref": "global:universal-return-as-individual",
+      "finding_ref": "global:individual-arrival-without-proxy",
       "landings": [
         {
-          "movement_refs": ["discovery:claim"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism"
+          ],
           "paragraph": 1,
-          "anchor": "Âyet, bütün topluluğun kıyamet günü Allah’a gelişini eksiksizce bildirirken her bir kişiyi ayrı varışta tutar; daha geniş paraleller bu kişisel gelişi soy, servet ve iddia edilen aracıların kişiyi taşıyamadığı son karşılaşma olarak derinleştirir."
+          "anchor": "Âyet, {ar:كُلُّهُمْ, tr:kulluhum, gloss:hepsi} ile herkesi kapsar; {ar:ءَاتِيهِ, tr:ātīhi, gloss:O’na gelişi} her birinin O’na gelişini, {ar:يَوْمَ ٱلْقِيَٰمَةِ, tr:yawm al-qiyāma, gloss:Kıyamet günü} bu gelişin zamanını, {ar:فَرْدًا, tr:fardan, gloss:tek başına} ise geliş anındaki eşlikçisiz hâli bildirir."
         },
         {
-          "movement_refs": ["discovery:mechanism"],
-          "paragraph": 1,
-          "anchor": "Odaktaki {ar:كُلُّهُمْ, tr:kulluhum, gloss:onların hepsi} hiçbir üyeyi dışarıda bırakmayan kapsamı taşır, {ar:فَرْدًا, tr:fardan, gloss:tek başına; birer birer} bu bütünü kişilere dağıtır; 6:94’te Allah’a tek başına geliş, 23:101’de soy bağlarının işlemezliği ve 26:88’de mal ile çocukların yararsızlığı bu sözlere temas ederek ortak dönüşü kişisel hesaba açar."
-        },
-        {
-          "movement_refs": ["discovery:reader_payoff"],
-          "paragraph": 1,
-          "anchor": "Okurun önünde iki ölçek aynı anda belirir: herkes bu dönüşün içindedir, fakat hiç kimse soyu, serveti ya da ileri sürdüğü şefaatçilerle kendi gelişinin yerine geçemez."
-        },
-        {
-          "movement_refs": ["discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Burada {ar:فَرْدًا, tr:fardan, gloss:tek başına; birer birer} hem yanında eşlikçi bulunmayan hâli hem de bir topluluğun üyelerinin birer birer ele alınmasını taşıyabilir; 17:13’te kişiye ait kaydın çıkarılması kişisel hesap yönünü de açar. Bu üç vurgunun — bedensel refakatsizlik, birer birer sunuluş ve kişisel hesap — göreli ağırlığı açık kalır; gelişlerin fiziksel aralığı ve sırası belirtilmez, soy, mal ve iddia edilen şefaatçilerin etkisizliği de her ilişkinin tümden sona erdiği anlamına gelmez."
-        },
-        {
-          "movement_refs": ["activation:0"],
+          "movement_refs": [
+            "discovery:reader_payoff"
+          ],
           "paragraph": 2,
-          "anchor": "{ar:كُلُّهُمْ, tr:kulluhum, gloss:onların hepsi} tüm üyeleri kapsar; ayrı duran {ar:فَرْدًا, tr:fardan, gloss:tek başına; birer birer} her kişiyi tek tek gösterir; 23:101’de soy bağlarının işlevini yitirmesi, ortak dönüşü aile konumundan bağımsız kişisel sunuluş olarak derinleştirir."
+          "anchor": "Birlikte bunlar, herkesi kapsayan gelişi her kişinin kendi işi ve iziyle, başkası tarafından ikame edilemeyen kişisel hesap karşılaşması olarak belirginleştirir."
         },
         {
-          "movement_refs": ["activation:1"],
+          "movement_refs": [
+            "discovery:containment"
+          ],
           "paragraph": 2,
-          "anchor": "Odaktaki {ar:ءَاتِيهِ, tr:ātīhi, gloss:O’na gelen} gelme ve ulaşma anlamını taşır; Form I etkin ortaç biçimi hedefe yönelen gelişi bildirir, 6:94’teki Allah’a tek tek varış ise bu yönü kişisel son karşılaşmaya bağlar."
+          "anchor": "Bu genişletme bağlamın sağladığı ölçüde kalır: 19:95 bu mal, akrabalık, aracı ve kayıt ayrıntılarını tek tek saymaz; 6:94’teki “bize geliş” 19:95’teki “ona” zamirinin gönderimini tek başına belirlemez, ayrıca bu ilişki tüm bağların her zaman sona erdiğini, her tür yardımı ilkece dışladığını ya da ayetler arasında bir kronoloji bulunduğunu ileri sürmez."
         },
         {
-          "movement_refs": ["activation:2"],
+          "movement_refs": [
+            "activation:0"
+          ],
           "paragraph": 2,
-          "anchor": "Odaktaki {ar:يَوْمَ ٱلْقِيَٰمَةِ, tr:yawma al-qiyāmati, gloss:kıyamet günü} son diriliş ve yargı gününü adlandırır; 23:101’de sur üflenince açılan sahne ile 26:88’de malın ve çocukların yararsızlığı bu günü kişinin soy ve maddi dayanaklarla taşınamadığı hesap bağlamı olarak belirginleştirir."
+          "anchor": "36:12’de iş ve izlerin yazılıp her şeyin sayılması, {ar:فَرْدًا, tr:fardan, gloss:tek başına}’nın her kişiyi ayrı ele almasıyla, sözlüklerin tekil biçimli {ar:كُلُّهُمْ, tr:kulluhum, gloss:hepsi}’ü hiçbir üyeyi dışarıda bırakmayan kapsam sözü olarak tanımlaması arasındaki teması açar."
         },
         {
-          "movement_refs": ["activation:3"],
+          "movement_refs": [
+            "activation:1"
+          ],
           "paragraph": 2,
-          "anchor": "{ar:فَرْدًا, tr:fardan, gloss:tek başına; birer birer}ın olağan tek başınalık anlamı, 6:94’te verilmiş olanların geride kalması ve iddia edilen şefaatçilerin yanında bulunmamasıyla, 23:101’de soy bağlarının işlemezliğiyle ve 26:88’de mal ile çocukların yararsızlığıyla temas eder; tek başına geliş, dış dayanakların kişiyi temsil edemediği bir duruma doğru genişler."
+          "anchor": "6:94’te insanların tek başına gelişi, geride bıraktıkları malları ve öne sürdükleri aracıların yanında olmayışı, {ar:فَرْدًا, tr:fardan, gloss:tek başına}’nın kişileri ayrı geliş içinde göstermesiyle {ar:ءَاتِيهِ, tr:ātīhi, gloss:O’na gelişi}’nin gelme ve ulaşma çekirdeğini hedefe yönelen varış olarak derinleştirir."
         },
         {
-          "movement_refs": ["activation:4"],
+          "movement_refs": [
+            "activation:2"
+          ],
           "paragraph": 2,
-          "anchor": "{ar:فَرْدًا, tr:fardan, gloss:tek başına; birer birer}ın bir topluluk gelişi veya sayımda üyeleri ayrı ele alma kullanımı, {ar:كُلُّهُمْ, tr:kulluhum, gloss:onların hepsi} ile 6:94’teki tek tek varış tarafından tetiklenir; 17:13’te her insan için çıkarılan kayıt bu teması kişiye bağlı hesap olarak genişletir, böylece eksiksiz küme adsız bir yığın değil, ayrı kişilerin toplamı olarak görünür."
+          "anchor": "17:13’te her kişinin kıyamet günü kendi açık kaydını bulması ve 60:3’te akraba ile çocukların o gün fayda sağlamayışı, {ar:فَرْدًا, tr:fardan, gloss:tek başına}’nın tek tek gelişini {ar:يَوْمَ ٱلْقِيَٰمَةِ, tr:yawm al-qiyāma, gloss:Kıyamet günü}’nin diriliş ve yargı günü anlamıyla kişisel hesabın ufkuna açar; buradaki ad sıradan kalkış veya topluluk anlamı taşımaz."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 2,
+          "anchor": "6:94’te geride kalan mallar ve öne sürülen aracılarla 60:3’te fayda sağlamayan akraba ve çocuklar, {ar:كُلُّهُمْ, tr:kulluhum, gloss:hepsi}’ün herkesi kapsaması yanında {ar:فَرْدًا, tr:fardan, gloss:tek başına}’nın “tek başına, başkasına karışmayan” anlamını somutlaştırır: bütüne herkes dâhildir, ama gelişini başka birinin serveti, soyu ya da öne sürülen aracısı üstlenemez."
+        },
+        {
+          "movement_refs": [
+            "activation:4"
+          ],
+          "paragraph": 2,
+          "anchor": "Sözlüklerin {ar:فَرْدًا, tr:fardan, gloss:tek başına} için kaydettiği “topluluk gelirken birer birer” kullanımı, {ar:كُلُّهُمْ, tr:kulluhum, gloss:hepsi}’ün kurduğu topluluk ve 36:12’nin sayım imgesiyle canlanır; ayetteki belirsiz tekil durum biçimi sayma eylemini değil geliş anındaki hâli niteler."
         },
         {
           "movement_refs": [
             "connection:conn_0f937040371d31668a7d",
             "connection:conn_ac1bdb3be378e99176b4",
-            "connection:conn_77260befed0281d03d74",
-            "connection:conn_a35bf4cd80177279ea78"
-          ],
-          "paragraph": 3,
-          "anchor": "Bu dört geniş ayet bağlantısı odakla farklı noktalarda temas eder: 6:94 tekil gelişi ve geride bırakılan dayanakları, 17:13 kişiye ait kaydı, 23:101 soy bağlarının işlemezliğini, 26:88 mal ve oğulların yararsızlığını eşleştirerek herkesi kapsayan dönüşü kişisel hesap olarak derinleştirir."
-        },
-        {
-          "movement_refs": [
+            "connection:conn_ad81e5d3788c35b06c81",
+            "connection:conn_53531bb633250ab1d946",
             "context:6:94",
             "context:17:13",
-            "context:23:101",
-            "context:26:88"
+            "context:36:12",
+            "context:60:3"
           ],
-          "paragraph": 3,
-          "anchor": "Bu ayetlerin somut ayrıntıları da açıktır: 6:94’te {ar:فُرَٰدَىٰ, tr:furādā, gloss:tek başınıza} gelişi anlatır; ilk yaratıldıkları gibi Allah’a geldikleri, kendilerine verilenleri arkada bıraktıkları ve {ar:شُفَعَآءَكُمُ, tr:shufaʿāʾakum, gloss:şefaatçileriniz} yanlarında olmadığı söylenir; 17:13’te her insan için çıkarılan {ar:كِتَٰبًا يَلْقَىٰهُ مَنشُورًا, tr:kitāban yalqāhu manshūran, gloss:karşısına serilmiş bir kitap} kişiye ait kaydı görünür kılar; 23:101’de {ar:فَلَآ أَنسَابَ بَيْنَهُمْ, tr:fa-lā ansāba baynahum, gloss:aralarında soy bağı kalmaz} denir; 26:88’de {ar:يَوْمَ لَا يَنفَعُ مَالٌۭ وَلَا بَنُونَ, tr:yawma lā yanfaʿu mālun wa-lā banūn, gloss:malın ve oğulların yarar sağlamadığı gün} ifadesi yer alır."
+          "paragraph": 2,
+          "anchor": "6:94’teki tek başına geliş ve geride kalan mallar ile iddia edilen aracılar, 17:13’teki kişinin kendi kaydı, 36:12’deki yazılan işler ve izler ile her şeyin sayılması, 60:3’teki akraba ve çocukların fayda sağlamayışı, bu gelişle bağ kuran sahnelerdir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:fardan-as-situated-condition",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "connection:conn_642b8fe399e296ae85e5",
+            "context:21:89"
+          ],
+          "paragraph": 1,
+          "anchor": "21:89’da aynı {ar:فَرْدًا, tr:fardan, gloss:tek başına} sözcüğü Zekeriya’nın “Rabbim, beni tek başıma bırakma” duasında, ardından Tanrı’yı en hayırlı mirasçı diye andığı bağlamda geçer; orada yalnız bırakılmamak için dua edilirken 19:95 herkesin o gün nasıl geleceğini bildirir, bu karşılaştırma buradaki tek başınalığı kalıcı kopuş ya da değer hükmü değil yalnız o geliş sahnesinin koşulu olarak düşündürür ve Zekeriya’nın koşul ya da duygusunu 19:95’tekilere taşımaz."
         }
       ]
     }

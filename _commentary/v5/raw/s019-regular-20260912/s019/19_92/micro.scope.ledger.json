@@ -4,12 +4,18 @@
   "lane": "micro",
   "findings": [
     {
-      "finding_ref": "micro:compressed-opening-sound",
+      "finding_ref": "micro:opening-link-sound",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "context:19:91"
+          ],
           "paragraph": 1,
-          "anchor": "Yalın hükümde Rahman'ın çocuk edinmesinin uygun olmadığı bildirilirken {ar:وَ, tr:wa, gloss:ve} ile {ar:مَا, tr:mā, gloss:olumsuzluk} ilk kısa vuruşta birleşir; böylece bağlantı ve inkâr yüklem açılmadan duyulur, ancak bu yerel ses sıkışması önceki söylemin içeriğini belirlemez."
+          "anchor": "19:91’deki çocuk iddiasını bu cümlenin başındaki {ar:وَ, tr:wa, gloss:ve} kısa bir başlangıçla buraya taşır; ses uzamadan bağlaç önceki iddiayı sonraki bağımsız olumsuz hükme bağlar."
         }
       ]
     },
@@ -17,294 +23,419 @@
       "finding_ref": "micro:resumptive-verdict",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "context:19:91"
+          ],
           "paragraph": 1,
-          "anchor": "Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} söylemi sürmekte olan bir bağlama bağlarken, {ar:مَا يَنۢبَغِى, tr:mā yanbaghī, gloss:uygun değildir} kendi kişi tamamlayıcısı ve içerik yan cümlesiyle bitmiş, bağımsız bir hüküm kurar; okur devamlılıkla yeni kararı birlikte duyar, fakat bu yerel bağ önceki sözün özel atfını buraya taşımaz."
+          "anchor": "Aynı {ar:وَ, tr:wa, gloss:ve}, 19:91’deki sözle bağı korurken {ar:مَا يَنۢبَغِى, tr:mā yanbaghī, gloss:uygun değildir} ile başlayan tam cümle kendi hükmünü kurar; böylece 19:92 aktarılan iddianın devamı değil, ona verilmiş bağımsız cevap olarak duyulur."
         }
       ]
     },
     {
-      "finding_ref": "micro:clause-wide-negation",
+      "finding_ref": "micro:local-claim-verdict-servitude-arc",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "context:19:91",
+            "context:19:93"
+          ],
           "paragraph": 1,
-          "anchor": "Olumsuzluk {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşer} yargısını, onun içeriği olan {ar:أَن يَتَّخِذَ وَلَدًا, tr:an yattakhidha waladan, gloss:bir çocuk edinme} önermesiyle birlikte kapsar; böylece okur hükmün yalnız olmuş bir edinme olayına değil çocuk edinme ilişkisinin bütün uygunluğuna yöneldiğini görür, özneyle nesne ise aynı kalır."
+          "anchor": "Yakın 19:91–93 akışında bu cevap, 19:91’deki iddia ile 19:93’te herkesin Rahman’a kul olarak yönelişi arasında bir hüküm halkası kurar; bu yerel sıra, iddiayı soydan kulluğa çeviren bir geçiş gösterir."
         }
       ]
     },
     {
-      "finding_ref": "micro:gnomic-imperfect-denial",
+      "finding_ref": "micro:scope-of-negation",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Aynı olumsuzluk altındaki geniş zamanlı {ar:يَنۢبَغِى} tek bir tamamlanmış ya da şimdiki olaya indirgenmeyen genel bir yerindelik değerlendirmesi kurar; okur tek seferlik bir olay raporu değil süreğen bir ölçüt duyar, ama bu dilbilgisel genellik yeni bir edinme olayı eklemez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:impossibility-formula",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Yerel {ar:مَا يَنۢبَغِى} açılışı, olumsuzluğu eylem açıklanmadan önce yerindelik yüklemine bağlayarak uygunsuzluk ya da imkânsızlık yönünde sınır koyar; okur bunu salt olayın gerçekleşmediği haberinden daha güçlü bir hüküm olarak duyar, ama formülün başka yerlerdeki dağılımına dair çıkarım yapılmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:form-vii-fitted-sense",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 2,
-          "anchor": "{ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşer} VII. kalıp fiili burada arama ya da haddi aşma kök gölgesini değil, bir eylemin uygun ve yerinde olup olmadığını seçer; lām ile kişi, an ile değerlendirilen edim belirlenince çocuk edinme daha içeriği söylenmeden uygunluk yargısına girer."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 2,
-          "anchor": "Bu fiilin özel Form VII kullanımı bir eylemin kişiye ya da duruma uygun düşmesini ve yapılmasının yerinde olmasını anlatır; {ar:لِلرَّحْمَٰنِ, tr:li-l-Raḥmāni, gloss:Rahman için} kime, {ar:أَن, tr:an, gloss:hükme bağlayan edat} hangi eylemin ölçüldüğüne ilişkin ayrı tetikleyiciler sunduğundan, çocuk edinme Rahman için uygunsuz diye belirir ve biçim yalın kökün arama ya da haddi aşma anlamını yüklenmez."
+          "anchor": "Buradaki {ar:مَا, tr:mā, gloss:değil} yalnızca sonradan gelen alma fiilini değil, {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek} yargısının tamamını olumsuzlar; dolayısıyla reddedilen, gerçekleşmemiş tek bir olay değil ilişkinin yerinde oluşudur."
         }
       ]
     },
     {
-      "finding_ref": "micro:impersonal-fittingness-frame",
+      "finding_ref": "micro:imperfect-general-denial",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 2,
-          "anchor": "Yanbaghī'nin gayri şahsi yargı çerçevesi, lām ile değerlendirme ölçütü olan kişiyi, an ile ölçülecek eylemi birlikte açar; okur önce uygunluk standardını, sonra o standarda vurulacak edimi görür, fakat hükmün konusu yine çocuk edinme ilişkisidir."
+          "anchor": "Aynı {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek} fiilinin muzari oluşu hükme genel bir zaman değeri verir: cümle bir defalık gerçekleşmeyi anlatmak yerine bu ilişkinin uygunluk sınırını dile getirir."
         }
       ]
     },
     {
-      "finding_ref": "micro:local-limit-formula",
+      "finding_ref": "micro:form-vii-fit",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
           "paragraph": 2,
-          "anchor": "Bu cümlede yanbaghī sıradan bir elverişlilik bildiriminden daha özel, olumsuzlandığında eylemi sınırın dışında bırakan bir yüklem gibi işler; an-öbeğinin içeriğini uygunsuzluk yönünde değerlendirerek okura elverişsizlik hissi verir, ancak bu yerel kurulum başka ayetlerdeki kullanım sıklığı ya da dağılımı hakkında sav kurmaz."
+          "anchor": "Bu Form VII biçiminde {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek}, kök ailesindeki arama ve sınırı aşma yollarından ayrılıp bir eylemin kişiye uygun ve yerinde olmasını anlatır; hemen arkasındaki {ar:أَنْ يَتَّخِذَ وَلَدًا, tr:an yattakhidha waladan, gloss:bir çocuk edinmek}, değerlendirilen ayrı önermeyi verir ve okura uygunluk hükmünün hangi çocuk ilişkisine yöneldiğini gösterir."
         }
       ]
     },
     {
-      "finding_ref": "micro:sound-pairing-bind",
+      "finding_ref": "micro:impersonal-fit-frame",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Yakın ses dizilişi de yanbaghī'yi önce referentine, ardından yönettiği an-öbeğine bağlayarak değerlendirmeyi soyut bırakmaz; okur yargıyla eylemi tek bir anlamsal hareket içinde izler, ama bu işitsel bağ yerel bağımlılığı pekiştirmekten öte yeni bir sözlük anlamı ya da öğreti kanıtlamaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:fused-prepositional-beat",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 3,
-          "anchor": "{ar:لِلرَّحْمَٰنِ, tr:li-l-Raḥmāni, gloss:Rahman için} kısa lām ile belirli adı tek yönetilen öbekte birleştirip tilavette kompakt bir vuruş oluşturur; ölçüt öbeği böylece tek parça duyulur, fakat ses ve yüzey sıkışması lām'ın belirtme işlevini değiştirmez."
+          "anchor": "Gayrişahsi yargı önce {ar:لِ, tr:li, gloss:-e göre} ile değerlendirmenin kim için yapıldığını, yani {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} adını belirtir; sonra {ar:أَنْ, tr:an, gloss:-mesini} ile değerlendirilen eylemi verir, böylece ölçü eylemden önce görünür."
         }
       ]
     },
     {
-      "finding_ref": "micro:possession-pressure",
+      "finding_ref": "micro:predicate-act-pairing",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 3,
-          "anchor": "Yine de lām'ın hafif aidiyet basıncı, daha sonra gelen {ar:يَتَّخِذَ, tr:yattakhidha, gloss:kendine edinmek} ve {ar:وَلَدًا, tr:waladan, gloss:çocuk/evlat} ile buluşunca çocukla kurulabilecek atanmış ya da ait bir ilişkiyi sezdirir; bu ikinci renk yalnızca temas basıncıdır, dilbilgisel işlev hâlâ belirtmedir ve yalın bir sahiplik hükmü değildir."
+          "anchor": "{ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek} ile onun yönettiği {ar:أَنْ, tr:an, gloss:-mesini} önermesinin ses ve birliktelik bakımından aynı akışta duyulması, fiili soyut bir uygunluk sözünden çıkarıp {ar:أَنْ يَتَّخِذَ وَلَدًا, tr:an yattakhidha waladan, gloss:bir çocuk edinmek} hakkındaki hükme bağlar; bu işitsel bağ, biçim ve birliktelik gözleminin desteklediği sınırlı bir okumadır."
         }
       ]
     },
     {
-      "finding_ref": "micro:specification-lam",
+      "finding_ref": "micro:prepositional-beat",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 3,
-          "anchor": "Lām, {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} adını yanbaghī'nin kimin için hüküm verdiğini belirleyen ölçüt yapar ve an eylemi açmadan önce bu ilişkiyi kurar; okur yasağın genel ebeveynlikten değil adı konmuş referentin çocuk edinmesinden söz ettiğini anlar, ad ise fiilin faili ya da mülkü haline gelmez."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "Kısa {ar:لِ, tr:li, gloss:-e göre} ile {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} okunuşta tek yönetilen birim gibi birleşir; önek adın yanında sıkıştığı için uygunluk sorusu bu adı eylemden önce duyurur."
         }
       ]
     },
     {
-      "finding_ref": "micro:definite-indefinite-collision",
+      "finding_ref": "micro:belonging-pressure",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 4,
-          "anchor": "Belirli artikel taşıyan {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} ile tekil, belirsiz ve mansup {ar:وَلَدًا, tr:waladan, gloss:çocuk/evlat} tam belirlenmiş bir adı açık uçlu çocuk kategorisinin karşısına koyar; okur kimin anıldığını ve hangi tür ilişkinin reddedildiğini görür, fakat bu karşıtlık her olası ilişkinin ayrı ayrı sayıldığı anlamına gelmez."
+          "anchor": "Aynı {ar:لِ, tr:li, gloss:-e göre} bağı, çocuğun Rahman’a ait ya da ona atanmış olması yönünde bir aidiyet baskısını da kıyıda tutar; ancak burada dilbilgisel görevi ölçütü belirtmektir, bir mülkiyet yüklemi kurmak değil."
         }
       ]
     },
     {
-      "finding_ref": "micro:definite-name-criterion",
+      "finding_ref": "micro:lam-specification",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 4,
-          "anchor": "İlahi ad, lām tamamlayıcısında eylem ve nesne söylenmeden önce geldiği için hükmün ölçütünü cümlenin başından belirler; değerlendirme adı konmuş kimliğe daha ilişki açılmadan bağlanır, ama adın gönderimi değişmez."
+          "anchor": "Sözdiziminde {ar:لِ, tr:li, gloss:-e göre} tamlayıcısı {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} adını {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek} fiilinin değerlendirme noktası yapar; böylece hüküm ebeveynlik genelinde değil, bu adın gösterdiği kişi için kurulur."
         }
       ]
     },
     {
-      "finding_ref": "micro:mercy-without-lineage",
+      "finding_ref": "micro:definite-name-open-category",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Seçilmiş anlamıyla {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} merhamet adıdır ve ileride reddedilen evlat ilişkisiyle yan yana gelmesi merhamet ile soy çizgisini aynı hükümde ayrı baskılar olarak duyurur; böylece çocuk edinme soyut ebeveynlikten ibaret kalmaz, buna karşılık adın seçili anlamı akrabalık ya da rahim anlamına dönüşmez."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 4,
-          "anchor": "Bu adın merhamet dalı, başkasının hâli karşısında yüreğin yumuşamasını, ona acıma ve içten yakınlık duymayı anlatır; bağımsız tetikleyici daha sonra gelen çocuk nesnesiyle kendine edinme fiilidir, bu temas ilişkiyi merhamet kimliği karşısında belirginleştirir ama adı biyolojik bir bağa çevirmez."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 4,
-          "anchor": "Tanrı hakkında aynı merhamet dalı, esirgemenin genişliğini ve iyiliğin yaratılmışlara ulaşmasını öne çıkarır; kendine ait kılınan evlat ilişkisi bu geniş rahmet adını hükmün ölçütü yaptığında karşıtlık derinleşir, yine de merhamet soy ya da bedensel ebeveynlik anlamı kazanmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:sound-texture",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Adın gırtlaksı ve genizli ses dokusu, eylem söylenmeden önce ölçüt olarak öne gelen isme işitsel bir ağırlık verir; okur adın ses yoğunluğunu fark edebilir, fakat bu akustik izlenim tek başına teolojik bir sav kanıtlamaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:boundary-sound",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 5,
-          "anchor": "Kısa {ar:أَنْ, tr:an, gloss:hükme bağlayan edat}, yerindelik yargısından bağımlı edinme önermesine geçişte işitilebilir bir eşik kurar; okur hükmün içeriğinin nerede başladığını duyar, bu sınır da burada yalnızca yerel geçiştir."
+          "anchor": "Kesin ad {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} ile sondaki belirsiz {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} arasındaki biçim karşıtlığı, adı bilinen muhatap ile açık bırakılan çocuk kategorisini yüz yüze getirir."
         }
       ]
     },
     {
-      "finding_ref": "micro:content-clause-packaging",
+      "finding_ref": "micro:name-as-criterion",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 5,
-          "anchor": "{ar:أَنْ} ardından gelen fiil-nesne dizisini {ar:مَا يَنۢبَغِى} altında değerlendirilen önerme olarak paketler; böylece çocuk edinme bağımsız bir olay anlatısı değil hükmün içeriği olur, ancak önerme yine çocuk edinme hakkındadır."
+          "anchor": "Bu ad {ar:لِ, tr:li, gloss:-e göre} ile bağlı olsa da cümlenin referans merkezidir ve çocuk edinme eyleminden önce ölçüt olarak duyulur; böylece okur eylem gelmeden hükmün neye göre verildiğini anlar, adın belirli oluşu da tek başına daha geniş bir iddia kurmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:subjunctive-dependency",
+      "finding_ref": "micro:mercy-and-offspring",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
           "paragraph": 5,
-          "anchor": "{ar:يَتَّخِذَ, tr:yattakhidha, gloss:kendine edinmek} an'ın yönettiği mansup biçimiyle bağımlı ve potansiyel eylem olarak kalır; okur geçmişte gerçekleşmiş bir olayı değil değerlendirilen bir önermeyi izler, bu dilbilgisel potansiyellik eylemin gerçekten yapıldığını bildirmez."
+          "anchor": "Sözlük ailesindeki esirgeme ve iyilik etme anlamını taşıyan {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} adı, ayrı bir tetikleyici olan {ar:يَتَّخِذَ وَلَدًا, tr:yattakhidha waladan, gloss:bir çocuk edinmek} önermesiyle temas edince, çocuk ilişkisinin merhamet anlamlı bir ad altında niçin reddedildiğini belirginleştirir; bu yakınlık rahmeti soy bağına ya da bedensel anneliğe dönüştürmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:compressed-form-sound",
+      "finding_ref": "micro:local-name-offspring-chain",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "context:19:88",
+            "context:19:91",
+            "context:19:93"
+          ],
           "paragraph": 6,
-          "anchor": "Şeddeli Form VIII yüzeyi {ar:يَتَّخِذَ, tr:yattakhidha, gloss:kendine edinmek} nesne gelmeden önce türemiş edinme biçimini sesçe duyurur; okur yalın bir ses değil kurulmuş bir eylem işitir, fakat bu biçim-ses gözlemi ayrı bir sözlük dalı eklemez."
+          "anchor": "Aynı {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} adının 19:88, 19:91 ve 19:93 çevresinde yinelenmesi, buradaki adı yakındaki çocuk iddiası ve cevabı arasına yerleştirir; bu, sağlanan yakın sure içi akışla sınırlı bir yankıdır."
         }
       ]
     },
     {
-      "finding_ref": "micro:form-viii-relational-taking",
+      "finding_ref": "micro:rahman-sound-texture",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 6,
-          "anchor": "Form VIII fiili {ar:يَتَّخِذَ} kendisi için edinmeyi, nesne olan {ar:وَلَدًا} ise çocukla bir ilişki kurmayı bildirir; bu ikisi hükme bağlanan bağımlı önermede buluşunca reddedilen edim çocuğu kendine ait bir bağ olarak almaya dönüşür, fakat buradan belirli bir insan hukukundaki evlat edinme usulü ya da cezalandırıcı kapma çıkarılmaz."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 6,
-          "anchor": "Bu fiilin türemiş Form VIII kullanımı, bir şeyi kendisi için edinip kendine ait hale getirmeyi anlatır; {ar:أَن} fiili bağımlı kılar, {ar:وَلَدًا} ise açık çocuk nesnesini sağlar, bu temas çocuğu kendine ait bir ilişki olarak edinmeyi öne çıkarır ama yalın alma buyruğu, fizikî kapma ya da belirli bir hukukî evlat edinme biçimi değildir."
+          "anchor": "{ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} adının boğazdan ve genizden gelen ağır sesleri hükmün eşiğinde duyulur; bu akustik izlenim ses dokusunu anlatır ve kendi başına ilahî niteliği kanıtlamaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:hypothetical-active-agency",
+      "finding_ref": "micro:an-boundary-cadence",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "Etkin üçüncü tekil fiilin örtük öznesi, önceki lām öbeğinin referenti olan Rahman'dır ve {ar:وَلَدًا} açık nesne olarak kalır; böylece önerme edilgen biçimde dışarıdan atanan değil, referente yüklenen varsayımsal bir eylem olarak kurulur, gerçekleşmiş bir olay diye anlatılmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:verb-object-content-unit",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "{ar:يَتَّخِذَ} ile hemen yanındaki mansup {ar:وَلَدًا} tek bir fiil-nesne birimi oluşturup çocuk kategorisini eylemin içine alır; okur varsayımsal edinmenin ne olduğunu görür, bu yerel birim gerçek doğum ya da fiilî sahiplik bildirmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:birth-root-pressure",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "context:19:91"
+          ],
           "paragraph": 7,
-          "anchor": "Yüzeyde çocuk ya da evlat anlamındaki {ar:وَلَدًا}, w-l-d kök ailesinin doğum ve ebeveynlik baskısıyla {ar:يَتَّخِذَ} fiilinin kendine edinme ilişkisi içinde karşılaşır; böylece hüküm çocuğun nasıl doğduğunu değil çocukla kurulacak bağı yargılar ve başka kök dallarını etkinleştirmez."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 7,
-          "anchor": "Bu artalanın ayrı sözlük dalı, Arapça {ar:وَلَدَ, tr:walada, gloss:doğurmak} fiilinin kadının çocuğunu dünyaya getirmesi olayıdır; {ar:يَتَّخِذَ}nin evladı kendine edinme ilişkisinde nesne yapması bağımsız tetikleyicidir, ebeveynlik basıncı böylece duyulur ama yüzeydeki evlat anlamı değişmez ve doğum gerçekleşmiş bir olay olarak ileri sürülmez."
+          "anchor": "19:91’deki isnat ile 19:92’deki cevap arasındaki sınırda {ar:أَنْ, tr:an, gloss:-mesini} yeni bir bağımlı önerme açar; böylece işitilen hareket bağımsız anlatıya değil reddedilen eyleme geçer."
         }
       ]
     },
     {
-      "finding_ref": "micro:direct-object-role",
+      "finding_ref": "micro:an-content-clause",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 7,
-          "anchor": "Mansup {ar:وَلَدًا}, {ar:يَتَّخِذَ}nin doğrudan nesnesidir; bu dilbilgisel bağ reddedilen eylemi belirsiz bir sahiplik sözünden ayırıp çocuk kategorisini fiilin nesnesi yapar, ancak çocuk bir mülk değildir ve eylem gerçekleşmiş sayılmaz."
+          "anchor": "{ar:أَنْ, tr:an, gloss:-mesini} sonraki {ar:يَتَّخِذَ وَلَدًا, tr:yattakhidha waladan, gloss:bir çocuk edinmek} sözünü {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek} hükmünün içeriği yapar; çocuk edinme gerçekleşmiş bir olay olarak değil, uygunluğu yargılanan önerme olarak paketlenir."
         }
       ]
     },
     {
-      "finding_ref": "micro:formula-final-closure",
+      "finding_ref": "micro:subjunctive-proposition",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 7,
-          "anchor": "Ayetin sonundaki {ar:وَلَدًا} bağımlı önermeyi çocuk kategorisiyle kapatıp okurun odağını soyut uygunluk yargısından hükme bağlanan ilişkiye yöneltir; bu yalnızca yerel cümle sonudur, sûre içindeki daha geniş çocuk iddiası zincirine dair bir sav değildir."
+          "anchor": "Aynı {ar:أَنْ, tr:an, gloss:-mesini} nedeniyle nasb hâlindeki {ar:يَتَّخِذَ, tr:yattakhidha, gloss:edinmek} bağımlı kalır; kip, eylemi tamamlanmış bir olay diye değil hüküm altındaki olasılık olarak verir."
         }
       ]
     },
     {
-      "finding_ref": "micro:indefinite-broad-offspring",
+      "finding_ref": "micro:form-viii-compressed-form",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 8,
-          "anchor": "Tekil ve belirsiz {ar:وَلَدًا} belirli bir erkek çocuğa ya da yalnız yeni doğmuş bebeğe indirgenmeyen açık bir evlat kategorisi sunar; mansup nesnenin tümel olumsuzluk altında yer alması bu genişliği verir, ancak belirsizlik tek başına her bağlam ve ilişki için sınırsız nicelik kurmaz."
-        },
+          "anchor": "Kısa ve şeddeli {ar:يَتَّخِذَ, tr:yattakhidha, gloss:edinmek} biçimi, VIII. bâbın türemiş alma kalıbını sesçe belirginleştirir; okur önce biçimin kendisini duyar, ardından nesneyle tamamlanan ilişkiyi görür, çünkü ses gözlemi anlamın tek başına kaynağı değil, fiilin işitsel desteğidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:relational-taking",
+      "landings": [
         {
-          "movement_refs": ["activation:0"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
           "paragraph": 8,
-          "anchor": "Sözlükteki olağan {ar:وَلَد} bir ana babadan doğmuş kişi ya da kişiler anlamındadır; {ar:مَا}nın nesnesi çocuk olan kendine edinme önermesini olumsuzlaması bu anlamı bütün bir evlat kategorisiyle buluşturur, fakat cümleyi doğum olayı anlatısına çevirmez."
-        },
+          "anchor": "Etkin VIII. bâb fiili {ar:يَتَّخِذَ, tr:yattakhidha, gloss:kendisi için edinmek} kendine ait hale getirmeyi taşır; bağımsız nesne {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} bu edinmeyi çocuk ilişkisi olarak belirler, böylece söz çıplak bir el hareketinden ayrılır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:local-refutation-echo",
+      "landings": [
         {
-          "movement_refs": ["activation:1"],
-          "paragraph": 8,
-          "anchor": "Aynı belirsiz ad sayı, cinsiyet ve yaş bakımından işaretlenmemiştir; {ar:مَا}nın {ar:يَتَّخِذَ}nin nesnesi olan bu adı olumsuzlaması, bir ya da çok kişiyi, kız ya da erkeği, küçük ya da yetişkini kapsayan açık bir nesne sınıfı oluşturur, ama bu genişlik çocuk edinme önermesinin dışına taşan sınırsız tümel niceleme değildir."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "context:19:88"
+          ],
+          "paragraph": 9,
+          "anchor": "19:88’deki çocuk edinme sözüyle {ar:يَتَّخِذَ وَلَدًا, tr:yattakhidha waladan, gloss:bir çocuk edinmek} yakın bir yankı kurar; fakat burada {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek} aynı ifadeyi uygunluk hükmüne bağlayarak yerel cevabı özelleştirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:active-hypothetical-act",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 9,
+          "anchor": "Fiil etkin ve üçüncü tekil biçimdedir; gizli faili önceki {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} belirler, ancak {ar:أَنْ, tr:an, gloss:-mesini} altındaki kip eylemi tamamlanmış diye bildirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:verb-object-unit",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 9,
+          "anchor": "Fiil ile açık mansub nesne {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} ayrılmaz bir nesne-fiil birimi kurar: çocuk kategorisi reddedilen alma eyleminin yöneldiği roldür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:birth-family-boundary",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 10,
+          "anchor": "Son kelime {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} için doğum ve ebeveynlik söz ailesinde yakın dursa da cümledeki nesne görevi çocuk ya da evlat statüsünü adlandırır; sözcük doğumun kendisini anlatmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:final-object-role",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 10,
+          "anchor": "Açık mansub nesne {ar:وَلَدًا, tr:waladan, gloss:bir çocuk}, {ar:يَتَّخِذَ, tr:yattakhidha, gloss:edinmek} fiilini tamamlayarak reddedilen ilişkinin çocuğu kendine edinmek olduğunu belirler, gevşek bir mülkiyet tamlaması bırakmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:child-claim-closure",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "context:19:88",
+            "context:19:91",
+            "context:19:93"
+          ],
+          "paragraph": 10,
+          "anchor": "19:88, 19:91–92 ve 19:93 dizisinde sonda gelen {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} hem bağımlı cümleyi tamamlar hem yakındaki çocuk iddiasının cevaba varışını kapatır; bu kapanış 19:88, 19:91 ve 19:93’le sınırlıdır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:open-offspring-category",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
+          "paragraph": 11,
+          "anchor": "Belirsiz {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} ile tüm yargıyı saran olumsuzluk buluşunca adlandırma tek bir erkek ya da yenidoğanla sınırlı kalmaz; sayı, cinsiyet ve yaş bakımından açık çocuk kategorisi reddedilen ilişkiyi genişletir, biçim ise tekil olarak kalır."
         }
       ]
     },
@@ -312,9 +443,14 @@
       "finding_ref": "micro:variant-collective-progeny",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 8,
-          "anchor": "Kabul edilmiş bir varyant okumasında {ar:وُلْدًا, tr:wuldan, gloss:toplu evlat/soy} bireysel çocuk anlamının yanında toplu evlat ya da soy olasılığını açar; böylece aynı ret tekilden nesil sınıfına genişleyebilir, ancak kanonik tekil-belirsiz yüzeyin yerini almaz ve hükmün temel yönünü değiştirmez."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 11,
+          "anchor": "Kabul edilmiş kıraat varyantı {ar:وُلْدًا, tr:wuldan, gloss:evlatlar} bu reddi toplu evlatlar yönüne açar; kanonik {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} tekil belirsiz nesne olarak korunur."
         }
       ]
     },
@@ -322,69 +458,85 @@
       "finding_ref": "micro:modal-incompatibility",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 9,
-          "anchor": "Yalın çeviri Rahman'ın çocuk edinmesinin uygun olmadığını korur; daha ihtiyatlı bir yorum katmanı, {ar:مَا}nın bitmiş bir olayı değil {ar:يَنۢبَغِى}nin uygunluk yargısını olumsuzlayıp {ar:أَن يَتَّخِذَ وَلَدًا} ile gelen ilişkiyi kapsamına almasına dayanır, böylece çocuk edinme yalnız gerçekleşmemiş seçim değil Rahman için elverişsiz ya da bu bağlamda erişilemez bir ilişki diye belirir, fakat fiziksel imkânsızlığa veya ilgisiz eylemlere dair kurala dönüşmez."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 12,
+          "anchor": "Cümlenin kendi yapısına dayalı bu yerel okumada kelimeler birlikte Rahman’ın çocuk edinmesini yalnızca gerçekleşmemiş bir tercih gibi değil, kendisine uygun düşmeyen bir ilişki olarak duyurur; olağan ret yerinde kalırken modal sınır belirginleşir."
         },
         {
-          "movement_refs": ["activation:0"],
-          "paragraph": 9,
-          "anchor": "Bu yorumun {ar:يَنۢبَغِى}de dayandığı özel VII. kalıp kullanımı bir eylemin kişiye uygun ve yerinde olmasını anlatır; {ar:مَا} yargıyı, bağımlı çocuk edinme önermesi ise değerlendirilen eylemi tetikleyerek ilişkiyi Rahman'a uygun düşmeyen kategorik bir bağ olarak belirginleştirir, sonuç fiziksel imkânsızlık değildir."
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 12,
+          "anchor": "Burada {ar:يَتَّخِذَ, tr:yattakhidha, gloss:kendisi için edinmek} kendine ait hale getirme çekirdeğini taşır; {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} nesnesi bunu çocuk edinme ilişkisine çeker ve olumsuz uygunluk yargısı eylemi yalnızca yapılmamış bırakmak yerine ilişki düzeyinde reddeder."
         },
         {
-          "movement_refs": ["activation:1"],
-          "paragraph": 9,
-          "anchor": "Aynı özel fiil kullanımı bağlama göre yapılabilirlik, kolaylaşma ya da hak edilmişlik yönü de taşıyabilir; tamamlanmış olay yerine olumsuzluk altındaki bağımlı önerme bu yüzü tetikleyince ilişki Rahman için yalnız uygunsuz değil erişilemez diye de duyulur, ancak bu yorum metafizik imkânsızlığa genişletilmez."
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 12,
+          "anchor": "Ayrı olarak {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun olmak} taşıyıcısına karşılık bağımlı alma ve çocuk önermesi tetikleyici olur; temas, bu ilişkinin Rahman için uygun olmadığını söyletir."
         },
         {
-          "movement_refs": ["activation:2"],
-          "paragraph": 9,
-          "anchor": "{ar:الرَّحْمَٰنِ} adının merhamet ve şefkat yönü başkasının hâli karşısında yüreğin yumuşaması, acıma ve içten yakınlık duymayı kapsar; çocuk edinme önermesinin bu referent için yargılanması bağımsız tetikleyicidir, böylece uyumsuzluk merhamet kimliğine karşı duyulur ama merhamet biyolojik bağ olmaz."
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 12,
+          "anchor": "{ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} esirgeme ve iyilik anlamını taşırken, bağımsız çocuk edinme önermesi bu anlamı hükmün ilişki ölçüsüne dönüştürür."
         },
         {
-          "movement_refs": ["activation:3"],
-          "paragraph": 9,
-          "anchor": "Tanrı için kullanılan aynı merhamet dalı, esirgeme genişliğinin yaratılmışlara iyilik olarak ulaşmasını öne çıkarır; evladı kendine ait kılma ilişkisi rahmet adını değerlendirme ölçütü yaptığında uyumsuzluk belirginleşir, yine de bu temas soy ya da bedensel ebeveynlik iddiası değildir."
-        },
-        {
-          "movement_refs": ["activation:4"],
-          "paragraph": 9,
-          "anchor": "{ar:يَتَّخِذَ}nin aktif Form VIII'deki türemiş “kendisi için edinme, kendine ait kılma” anlamı {ar:وَلَدًا}nın açık çocuk nesnesiyle buluşup olumsuz yerindelik yargısına girer; böylece yorum salt olmama haberinden çocukla kendine ait bir bağ kurma hükmüne geçer, ancak kapma ya da belirli bir hukukî evlat edinme usulü eklemez."
-        },
-        {
-          "movement_refs": ["activation:5"],
-          "paragraph": 9,
-          "anchor": "Olağan anlamıyla {ar:وَلَدًا} ana babadan doğmuş evlat ya da çocuktur; {ar:يَتَّخِذَ}nin açık nesnesi olması ve {ar:مَا} altında yargılanması bu literal evlat ilişkisini hükmün odağı yapar, fakat doğurma eylemini ya da cümle dışı bir soy zincirini ileri sürmez."
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 12,
+          "anchor": "Sondaki {ar:وَلَدًا, tr:waladan, gloss:bir çocuk}, ana babadan doğan evlat anlamını taşır; {ar:يَتَّخِذَ, tr:yattakhidha, gloss:edinmek} fiili ve uygunluk yargısı nesnenin hangi ilişki içinde reddedildiğini belirler, bu söz bir çocuğun var olduğunu ya da doğduğunu ileri sürmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:mercy-womb-outlier",
+      "finding_ref": "micro:mercy-womb-short-circuit",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 10,
-          "anchor": "Daha düşük kesinlikle tutulması gereken, tek bir yorum çizgisinin önerdiği kök yankısında {ar:الرَّحْمَٰنِ} adının seçili merhamet anlamı yanında aynı r-ḥ-m ailesinin yakın soy ve rahim çağrışımları {ar:وَلَدًا} evlat ve {ar:يَتَّخِذَ} kendine edinme ilişkisiyle birleşir; {ar:مَا يَنۢبَغِى}nin olumsuz uygunluk hükmü bu teması karşıtlık içinde sınırlar, çünkü ad bedensel organ ya da akrabalık anlamı kazanmaz ve doğum ileri sürülmez."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 13,
+          "anchor": "Böylece soy, rahim ve doğum söz ailesi çocuk nesnesiyle kısa süreliğine görünür olur; olumsuz uygunluk hükmü bu yankıyı bedensel bir iddia değil, sınırı belli bir sözlüksel gerilim olarak tutar."
         },
         {
-          "movement_refs": ["activation:0"],
-          "paragraph": 10,
-          "anchor": "Bu çağrışımın sınırını {ar:يَنۢبَغِى}nin eylem için uygunluk yargısı çizer: {ar:مَا} çocuk edinme önermesini olumsuzlarken yanındaki soy ve rahim imgeleri bu uygunsuzluk çerçevesinde işitilir, fakat yüklemin kendisi akrabalık ya da rahim demek değildir."
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 13,
+          "anchor": "Sözlük ailesinde {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} adı yakın soy bağını da çağrıştırabilir; sondaki {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} bağımsız tetikleyici olduğunda, ortak soyun kurduğu yakın ve kalıcı bağ bu adın yanında kısa süreliğine işitilir."
         },
         {
-          "movement_refs": ["activation:1"],
-          "paragraph": 10,
-          "anchor": "Aynı r-ḥ-m ailesindeki yalın isim {ar:الرَّحِم, tr:ar-raḥim, gloss:yakın soy bağı}, rahim imgesinden ortak doğum kaynağını paylaşan kişiler arasındaki yakın ve kalıcı soy bağına uzanır; bu ayrı sözlük kullanımını {ar:يَتَّخِذَ} fiilinin {ar:وَلَدًا} nesnesiyle kurduğu çocuk ilişkisi tetikleyerek Rahman adının merhamet tonu yanında soy yakınlığını kısa bir karşıt yankı haline getirir, ama ilahi ad akrabalık yüklemine dönüşmez."
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 13,
+          "anchor": "Aynı adın sözlük ailesindeki {ar:الرَّحْمَٰنِ, tr:al-Raḥmāni, gloss:Rahman} döl yatağı anlamı, yavrunun oluşup geliştiği ve karın içinde taşındığı kap imgesini taşır; ayrı {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} nesnesi bu imgeyi tetikleyerek rahim ile evlat arasında ihtiyatlı bir söz yankısı kurar."
         },
         {
-          "movement_refs": ["activation:2"],
-          "paragraph": 10,
-          "anchor": "Aynı ailenin yalın organ adı {ar:رَحِم, tr:raḥim, gloss:döl yatağı}, yavrunun tutunup geliştiği ve doğuma kadar taşındığı dişi iç organdır; {ar:وَلَدًا}nın evladı ve {ar:يَتَّخِذَ}nin çocukla edinme bağını vermesi ayrı tetikleyici olarak rahim imgesini açar, ancak bu imge adın bedensel niteliği olmaz."
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 13,
+          "anchor": "Bu söz ailesinde doğurma ve dünyaya getirmeyi anlatan eylem kullanımları da vardır; ancak buradaki isim biçimi {ar:وَلَدًا, tr:waladan, gloss:bir çocuk} evladı nesne yapar, doğum eylemini seçmeden Rahman adındaki döl yatağı yankısına temas eder."
         },
         {
-          "movement_refs": ["activation:3"],
-          "paragraph": 10,
-          "anchor": "Buna karşılık w-l-d ailesindeki ayrı doğurma eylemi {ar:وَلَدَ, tr:walada, gloss:çocuğu dünyaya getirmek}, kadının çocuğu dünyaya getirmesini anlatır; bu olasılığı etkinleştiren ayrı tetikleyici {ar:الرَّحِم}den gelen rahim imgesidir, böylece evlat çevresinde rahim-doğum karşılığı duyulur ama {ar:وَلَدًا} yüzeyde evlat adıdır ve ayet doğum olayı bildirmez."
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 13,
+          "anchor": "Bu teması sınırlayan taşıyıcı {ar:يَنۢبَغِى, tr:yanbaghī, gloss:uygun düşmek} biçimidir: {ar:مَا, tr:mā, gloss:değil} bu uygunluk yargısını olumsuzlar ve rahim-doğum çağrışımının gerçek bir nitelemeye dönüşmesini engeller."
         }
       ]
     }

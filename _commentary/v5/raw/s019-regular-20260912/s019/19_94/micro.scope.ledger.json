@@ -14,12 +14,12 @@
             "discovery:containment"
           ],
           "paragraph": 1,
-          "anchor": "Başlangıçtaki {ar:لَّ, tr:la-, gloss:vurgulu lâm} ile {ar:قَدْ, tr:qad, gloss:kesinlik ve tamamlanmışlık} bitişerek tek bir {ar:لَّقَدْ, tr:laqad, gloss:elbette} açılışı kurar; bu sıkı birleşme sayımın önüne doğrulama sesi koyup cümleye kuvvet verir, yeni bir sayma eylemi eklemez."
+          "anchor": "Ayetin {ar:لَّقَدْ, tr:laqad, gloss:assertif ve tamamlanmış bildirim} açılışı, bitişik ama ayrı {ar:لَّ, tr:la-, gloss:vurgulayıcı lâm} ve {ar:قَدْ, tr:qad, gloss:tamamlanmışlık parçacığı} parçalarını bir araya getirir: lâm tamamlanmış yüklemi yemin-cevaplı bir tasdik çerçevesine alırken qad bitmişlik değerini verir; birleşme sayma fiilinden önce raporu doğrulanmış ve tamamlanmış duyurur, söylenmemiş bir yemin nesnesi eklemez, olağan sayım bildirimini yerinden etmez ya da fiillerin anlamını belirlemez."
         }
       ]
     },
     {
-      "finding_ref": "micro:oath-frame",
+      "finding_ref": "micro:oath-answer-frame",
       "landings": [
         {
           "movement_refs": [
@@ -29,12 +29,30 @@
             "discovery:containment"
           ],
           "paragraph": 1,
-          "anchor": "Baştaki lâm, açıkça söylenmeyen bir yemin cevabı gibi tamamlanmış sayma raporunu doğrulama çerçevesine alır; okur iddianın kesinliğini sayma fiilinden önce duyar, ancak hangi yeminin kastedildiği ayette kurulmaz."
+          "anchor": "Buradaki {ar:لَّ, tr:la-, gloss:vurgulayıcı lâm} hemen ardından gelen bitmiş sayma yüklemini yemin-cevaplı bir doğrulama gibi çerçeveler; bu güven sıradan bildirimi onaylar, fakat söylenmemiş bir yemin metnini ya da düşmüş bir nesneyi yeniden kurmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:certainty-scope",
+      "finding_ref": "micro:prior-set-verification",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "context:19:93"
+          ],
+          "paragraph": 2,
+          "anchor": "19:93’te evrensel biçimde sunulan topluluk, 19:94’te Form IV {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} fiilinin {ar:هُمْ, tr:-hum, gloss:onları} doğrudan nesnesi olarak sayılır: fiil grubun birimlerini sayarak miktarı belirler, ekin önceki bütün topluluğu seçmesi de onu tamamlanmış sayımın kapsamına taşır; toplam rakam verilmez ve 19:93’ün geri kalanı buraya aktarılmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:certainty-across-counting",
       "landings": [
         {
           "movement_refs": [
@@ -44,7 +62,7 @@
             "discovery:containment"
           ],
           "paragraph": 1,
-          "anchor": "İlk tamamlanmış fiile bağlanan qad'ın kesinliği, {ar:وَ, tr:wa-, gloss:ve} ile eklenen ikinci tamamlanmış fiile ve sonundaki {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} mastarına da uzanır; böylece iki fiil geleceğe dönük bir ihtimal değil, tek tamamlanmış rapor olarak okunur."
+          "anchor": "Başlangıçtaki {ar:قَدْ, tr:qad, gloss:tamamlanmışlık parçacığı} ilk sayma fiilinden başlayarak bitmişlik kapsamını {ar:وَ, tr:wa-, gloss:ve} ile bağlanan ikinci tamamlanmış fiile ve sondaki {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} mastarına kadar taşır; böylece iki bağlı eylem ve kapanış tek bitmiş rapor kurar, geleceğe ertelenmez ve son mastar rakam bildirmez."
         }
       ]
     },
@@ -59,71 +77,101 @@
             "discovery:containment"
           ],
           "paragraph": 1,
-          "anchor": "Lâm ile qad'ın sayma fiili gelmeden önce arka arkaya gelişi iki doğrulayıcı parçayı üst üste bindirir; bu katlı vurgu aynı iddiaya güç katar, fakat metni iki ayrı iddiaya ayırmaz."
+          "anchor": "İki odak parçacığının art arda yığılması tasdiki ilk sayma fiilinden önce öne alır; bu yerel vurgu ikinci bir yemin veya ayrı bir tümce değildir."
         }
       ]
     },
     {
-      "finding_ref": "micro:active-object",
+      "finding_ref": "micro:active-perfect-object",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "context:19:93"
           ],
           "paragraph": 2,
-          "anchor": "İlk fiil {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz sayıp kuşattı} etkin geçmiş biçimdedir; ona bağlanan -hum doğrudan nesneyi gösterir, böylece sayım soyut bir toplam değil, fiilin yöneldiği bir topluluk üzerinde gerçekleşir ve ekin kendisi bu grubun daha önceki bir bağlamdaki kimliğini belirlemez."
+          "anchor": "Etkin Form IV geçmişi {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} önceki çoğul grubun tamamı üzerinde doğrudan işler; böylece soyut bir toplam değil bitmiş sayma eyleminin hedefi belirir, fakat sonuç sayı olarak verilmez ve bu dilbilgisel okuma kendi başına çakıl sahnesi kurmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:comprehensive-sequential",
+      "finding_ref": "micro:servitude-to-accounting",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "activation:0",
+            "context:19:93"
           ],
           "paragraph": 2,
-          "anchor": "Bu Form IV kalıbı bütün birimleri içine alan eksiksiz saymayı seçer; ardından gelen {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} başka bir sözcük ailesinden gelen doğrudan sayma fiili, o kapsamı üyeleri tek tek sayarak açar ve ikinci eylemi tekrardan çok ayrıntı haline getirir."
+          "anchor": "Etkin {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} fiilinin kuşatıcı sayımı ve iki fiilde yinelenen {ar:هُمْ, tr:-hum, gloss:onları} eki, 19:93’te ortak kulluk konumuyla tanıtılan aynı topluluğu {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} eyleminde üyelerine kadar hesaba açar; değişen grup ya da sahiplik değil, aynı grubun ortak statüden bireysel döküme taşınmasıdır."
         }
       ]
     },
     {
-      "finding_ref": "micro:pebble-count-pressure",
+      "finding_ref": "micro:total-then-tally",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
           ],
-          "paragraph": 2,
-          "anchor": "Bu ayrı köklerin buluşmasıyla {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz kuşattı} fiilinin tamı kuşatan sayım anlamı, hemen ardından gelen {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} ayrı sayma eylemiyle tek tek kayda giren taneli bir toplam gibi duyulur; çakıl imgesi sayma anlamına eşlik eder, gerçek taşların sayaç olarak kullanıldığı iddiası değildir."
-        },
+          "paragraph": 3,
+          "anchor": "İlk {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} birimleri sayarak grubun miktarını bütünüyle belirler; farklı kökten Form I {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} ve hemen ardından gelen aynı köklü {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} bu grubu üye üye açık döküme açar, böylece ikinci işlem ilk kapsamayı geliştirir, boş tekrara dönüştürmez ve ne sayı ne de artakalan üye ileri sürer."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:exhaustive-form-iv-pebble-pressure",
+      "landings": [
         {
           "movement_refs": [
-            "activation:0"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3"
           ],
-          "paragraph": 2,
-          "anchor": "İlk fiilin Arapçadaki IV. kalıbı, sayılanların bütün birimlerini eksiksiz kapsayıp sayının bilgisini de kuşatır; ardından gelen ayrı sayma fiili bu tamlığı açık bir döküme dönüştürür."
-        },
+          "paragraph": 4,
+          "anchor": "Form IV {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} doğrudan çoğul nesnesiyle eksiksiz saymayı taşırken, {ar:ح ص ي, tr:ḥ-ṣ-y, gloss:küçük çakıllar ve taş topluluğu} köküne bağlı küçük çakılların topluluğu ve tek bir çakıl imgesi, bağımsız tetik olan farklı kökten {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} fiilinin birim birim sayımıyla temas edip toplamı taneli, üyeleri ayrı ayrı kaydedilmiş gibi duyurur; bu kök imgesi sayılan gruba gerçek taşlar yerleştirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:marked-accounting-register",
+      "landings": [
         {
           "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
             "activation:1"
           ],
-          "paragraph": 2,
-          "anchor": "Bu sözcük ailesinde küçük çakıl taşlarını topluca adlandıran bir kullanım da vardır; onu burada uyandıran bağımsız tetik, hemen sonraki {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} fiilinin açık sayma eylemidir ve bu temas tam sayımı tanecikli kılar."
+          "paragraph": 4,
+          "anchor": "Daha az alışılmış {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} ile doğrudan sayan {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} ve aynı kökten {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi}, iki ayrı köküyle bütün kapsamı ve açık dökümü buluşturup bu yerel cümleye belirgin bir hesaplama dili verir; başka ayetlere taşınan genel bir sıklık savı kurulmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:constricted-sound",
+      "finding_ref": "micro:sound-density",
       "landings": [
         {
           "movement_refs": [
@@ -132,13 +180,13 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 2,
-          "anchor": "{ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz sayıp kuşattı} kelimesinin boğazda daralan başlangıcıyla kalın ve vurgulu orta sesi, eksiksiz sayma anlamına sıkışık bir akustik ağırlık verir; bu ses duyumu seçili anlamı pekiştirir, yeni bir sözlük anlamı kanıtlamaz."
+          "paragraph": 4,
+          "anchor": "{ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} sözcüğündeki boğazdan daralan ḥāʾ ile kalın ṣād’ın sıkışık kümelenmesi, tamamlanmış sayımı akustik olarak yoğun ve ağır duyurur; bu sınırlı ses izlenimi anlamı pekiştirir ama fiilin anlamını tek başına kanıtlamaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:bound-transition",
+      "finding_ref": "micro:bound-counting-hinge",
       "landings": [
         {
           "movement_refs": [
@@ -148,7 +196,7 @@
             "discovery:containment"
           ],
           "paragraph": 3,
-          "anchor": "İkinci fiilin başına bağlanan {ar:وَ, tr:wa-, gloss:ve} yazıda ve tilavette fiile bitişik durur; bu yüzey bağı kuşatıcı saymadan doğrudan saymaya geçişi görünür kılar, fakat tek başına karşıtlık ya da ara durum bildirmez."
+          "anchor": "Bağlı {ar:وَ, tr:wa-, gloss:ve} yazıda ve tilavette ikinci tamamlanmış sayma fiiline hemen bitişerek cümle eşiğinde ilk kapsamadan doğrudan saymaya geçişi duyurur."
         }
       ]
     },
@@ -163,7 +211,37 @@
             "discovery:containment"
           ],
           "paragraph": 3,
-          "anchor": "Bu bitişik bağ aynı zamanda iki tamamlanmış fiili koordinasyona sokar: {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} yeni bir yüklem olarak eklenir, dolayısıyla sayma ikinci bir eylemdir, ilkine eklenmiş bir durum açıklaması değil."
+          "anchor": "Bu bağlaç iki tamamlanmış fiili aynı nesneye yönelen ek bir yüklem olarak koordine eder; ikinci fiil ara durum değil yeni bir sayma eylemidir ve başka bir fail ya da nesne değişikliği getirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:local-wa-into-count",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 3,
+          "anchor": "Yalnız yerel ilişki izlendiğinde {ar:وَ, tr:wa-, gloss:ve} okuru doğrudan ikinci sayma fiiline taşır; bu eklemeli geçişi görmek için daha geniş bir arka plan varsaymak gerekmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:local-wa-into-counting-phrase",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 3,
+          "anchor": "Bitişik {ar:وَ, tr:wa-, gloss:ve} ayrıca sonraki sayma ifadesini ilk yükleme bağlayan yerel bir koordinasyon işaretidir; okur onu gevşek bir belirteç ya da uzak bir temanın taşıyıcısı olarak okumak zorunda kalmaz."
         }
       ]
     },
@@ -175,15 +253,64 @@
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "activation:0"
           ],
-          "paragraph": 3,
-          "anchor": "Fiilin hemen arkasındaki {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi}, {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} ile aynı kökü yineleyerek fiilin kendi eylemini adlandırmasına kapı açar; sayımın dilbilgisel yankısı burada başlar, yeni bir sayılan kişi eklenmez."
+          "paragraph": 6,
+          "anchor": "Hemen arkasındaki {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi}, {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} fiilini aynı kökten gelen mef‘ûl-i mutlakla yankılayıp sayma eylemini yeniden adlandırır; bu dönüş eylemi pekiştirir, ikinci bir sayılan nesne veya katılımcı eklemez."
         }
       ]
     },
     {
-      "finding_ref": "micro:form-i-count-guard",
+      "finding_ref": "micro:form-i-count-guardrail",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "Bu ayetteki Form I biçimi {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} gruba doğrudan sayım yöneltir; şeddeli d kökün kendi yapısındadır, Form II ettirgenliği değildir, ardından gelen aynı köklü {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} da eylemin sayma olduğunu doğrular; bu yerel biçimde bir hazırlama eylemi ya da hazırlanmış nesne adlandırılmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:marked-root-pair",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 4,
+          "anchor": "Daha az alışılmış {ar:ح ص ي, tr:ḥ-ṣ-y, gloss:eksiksiz kapsam kökü} sayımı, daha tanıdık doğrudan sayma kökü {ar:ع د د, tr:ʿ-d-d, gloss:birimleri sayma kökü} ve onun mastarıyla bu ayette ayrı ama tamamlayıcı iki işlem kurar: ilki her birimi kapsar, ikincisi aynı grubu açıkça sayar; bu yerel kök eşleşmesi geniş bir kullanım sıklığı istatistiği değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:reckon-assess-pressure",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 5,
+          "anchor": "Doğrudan sayma anlamına ikincil olarak {ar:ع د د, tr:ʿ-d-d, gloss:sayma kökü} topluluğu hesaba katma ya da dikkate alma baskısı da eşlik edebilir: {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} fiilinin açık çoğul nesnesi ve sonundaki mastar aynı grubu bütünüyle hesaba katılmış gibi duyurur; bu nüans sayımdan ayrı bir değerlendirme ya da sıralama kurmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:same-actor-object",
       "landings": [
         {
           "movement_refs": [
@@ -193,12 +320,12 @@
             "discovery:containment"
           ],
           "paragraph": 3,
-          "anchor": "Form I biçimindeki {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} doğrudan sayma fiili -hum nesnesini alır ve hemen ardından gelen aynı kökten mastarla pekişir; hazırlama anlamı başka bir kullanımda bulunsa da ayette gelecek iş, erzak ya da araç gereç işareti yoktur, bu yüzden bu biçimin yerel anlamı doğrudan saymadır."
+          "anchor": "Her iki etkin geçmiş fiilin öznesi dilbilgisel olarak örtük kalır, koordinasyon ilk özneyi ileri taşır ve yinelenen {ar:هُمْ, tr:-hum, gloss:onları} eki aynı gruba döner; dolayısıyla sayan özne de sayılan hedef de değişmez ve ayrıca bir fail adı verilmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:local-root-pair",
+      "finding_ref": "micro:sound-compression",
       "landings": [
         {
           "movement_refs": [
@@ -207,68 +334,8 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 2,
-          "anchor": "İki sayma fiilinin ayrı köklerden gelmesi bu tamamlayıcılığı belirginleştirir: kuşatıcı sayma açık dökümle keskinleşir; burada kurulan ayrım bu ayetteki yerel eşleşmeye dayanır, başka ayetlerdeki yaygınlık karşılaştırmasına değil."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:reckon-pressure",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Daha ince bir baskı da kalır: {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} sayma anlamını korurken, önündeki eksiksiz kuşatma ve insanları nesne olarak taşıyan -hum ekiyle birlikte düşünüldüğünde her bir kişinin hesaba katılan biri olduğu hissini verir; bu ikincil bir “hesaba katma” nüansıdır, hüküm verme anlamı değildir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:same-agent-object",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "İki etkin geçmiş fiilin örtük öznesi aynıdır; her ikisine eklenen -hum da aynı çoğul nesneyi yineler, böylece ikinci fiil başka bir gruba dönmeden ilk eylemin hedefi üzerinde devam eder."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:sequential-tally",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Bu nedenle {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} ilk kapsamayı tek tek saymaya çevirir: aynı grup bu kez üyeleri sıra sıra işlenerek açık döküme alınır, eylemler arasında zaman farkı ileri sürülmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:sound-bridge",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Fiildeki şeddeli d sesi, -hum ekinin burundan gelen son sesiyle uzanıp hemen sonraki aynı köklü mastarın tenvinine geçer; böylece sayıma konu olan grup ile sayma eyleminin adı arasında sıkışık bir ses köprüsü kurulur."
+          "paragraph": 7,
+          "anchor": "İkinci fiilin şeddeli d sesi, {ar:هُمْ, tr:-hum, gloss:onları} ekinin burunsu m’sine sıkışarak ardından gelen mastara sesli bir köprü kurar."
         }
       ]
     },
@@ -282,13 +349,30 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 4,
-          "anchor": "Sonundaki {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} sayılan başka bir nesne ya da yazılmış bir rakam değil, {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} fiilinin mastarıdır; ayet görünen bir sayı ile değil, sayma eyleminin kendisiyle kapanır."
+          "paragraph": 6,
+          "anchor": "Önceki fiilin mef‘ûl-i mutlağı olan yalın {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} mastarı, sayma sürecini ve fiildeki {ar:هُمْ, tr:-hum, gloss:onları} ile belirtilen grubu adlandırır, sonucu gösteren rakamı değil; ayet sayısal sonuçla değil tamamlanmış işlemle kapanır."
         }
       ]
     },
     {
-      "finding_ref": "micro:tripled-closure",
+      "finding_ref": "micro:boundary-granularity",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "context:19:93"
+          ],
+          "paragraph": 8,
+          "anchor": "19:93’ün evrensel topluluğu, önceki {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} fiilinin doğrudan sayımı ve finaldeki {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} ile bireylerine kadar tamamlanan bir hesap olarak görünür; mastar bu sınırı sayma eylemiyle kapatır ama grubu nicelik olarak belirleyip toplamı vermez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:tripled-count-closure",
       "landings": [
         {
           "movement_refs": [
@@ -297,13 +381,13 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 4,
-          "anchor": "İlk fiil bütünlüğü kuşatır, ikinci fiil üyeleri doğrudan sayar, son mastar da bu sayma işini yeniden adlandırır; bu üç hareket ayeti kapatır, fakat üçüncü bağımsız bir sayma olayı kurmaz."
+          "paragraph": 7,
+          "anchor": "İlk Form IV fiil bütün grubu kapsar, ikinci Form I fiil üyeleri doğrudan sayar, son mastar da ikinci eylemi yeniden adlandırarak bu üçlü sayım dizisinin kapanışını kurar; bu yerel dilbilgisel mimari yeni bir nesne ya da sayısal sonuç eklemez."
         }
       ]
     },
     {
-      "finding_ref": "micro:cognate-accusative",
+      "finding_ref": "micro:cognate-accusative-role",
       "landings": [
         {
           "movement_refs": [
@@ -312,13 +396,13 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 4,
-          "anchor": "Arapçada fiille aynı kökten gelen mef'ûl-i mutlak yapısı, {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} sözcüğünü {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} fiiline bağlayıp eylemi kendi üzerine döndürür; -hum sayılan grubu göstermeyi sürdürür, son sözcük yeni bir katılımcı eklemez."
+          "paragraph": 6,
+          "anchor": "Bu mastarın {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} ile kurduğu aynı-kök ilişkisi eylem adını fiile bağlayıp sayımı derinleştirir, yeni bir katılımcı eklemez."
         }
       ]
     },
     {
-      "finding_ref": "micro:indefinite-emphasis",
+      "finding_ref": "micro:indefinite-thoroughness",
       "landings": [
         {
           "movement_refs": [
@@ -327,23 +411,43 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 4,
-          "anchor": "{ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} mastarının belirsiz-akkuzatif ve tenvinli oluşu belirli bir sayıyı değil, sayma işinin niteliğini vurgular; belirsiz kalan miktar değil, eylemin ne kadar eksiksiz yürütüldüğüdür."
+          "paragraph": 6,
+          "anchor": "Mastarın belirsiz-akkuzatif yapısı ve tenvini, miktarı sınırsız ya da belli bir sayı olarak değil, sayma eyleminin niteliğini ve eksiksizliğini vurgular."
         }
       ]
     },
     {
-      "finding_ref": "micro:marked-gerund-pair",
+      "finding_ref": "micro:made-countable-totality",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "context:19:93"
           ],
-          "paragraph": 4,
-          "anchor": "İki ayrı sayma fiilini izleyen {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} mastarı ikinci fiilin kökünü son konuma taşır; böylece daha kapsamlı kuşatma ile doğrudan sayma çifti, sayma işinin adıyla biter ve bu gözlem yerel dizilişle sınırlı kalır."
+          "paragraph": 8,
+          "anchor": "Aynı evrensel topluluk ve bağımsız doğrudan sayım, son aynı kökten mastar sayesinde geniş bir bütünü üyeleri sayılabilir bir küme olarak kavratır; burada {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} sayma işini ve ortaya çıkan sayılmış topluluğu düşündürür, sonsuzluk ya da yeni bir niceleyici anlamına gelmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:marked-gerund-root-pair",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 7,
+          "anchor": "Daha az alışılmış {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} kökünü, doğrudan sayma kökü {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} ve onun son konumdaki {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} yankısı izler; mastar hem ikinci fiilin dilbilgisel yankısı hem iki köklü sayım çiftinin kapanışıdır ve gözlem bu yerel yerleşimle sınırlı kalır."
         }
       ]
     },
@@ -357,13 +461,31 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 4,
-          "anchor": "Son {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} önceki fiildeki şeddeli d sesini yineler ve tenvinin burunsu bitişiyle sayımı işitilir biçimde mühürler; bu kapanış dilbilgisel yapıyı duyurur, yeni bir eylem eklemez."
+          "paragraph": 7,
+          "anchor": "Son {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} sözcüğündeki şeddeli d ile tenvin sayımı kompakt bir işitsel uç noktada mühürler; kapanış önceki fiil ve yankısını toplar, ayrı bir anlam dalı açmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:exhaustive-tally",
+      "finding_ref": "micro:hft-exhaustive-individuation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2"
+          ],
+          "paragraph": 9,
+          "anchor": "İhtiyatlı bir ek okumada, {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} ile birimleri sayılıp miktarı belirlenen ve bütünüyle kapsanan grup, bağımsız tetik olan farklı kökten {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} ve hemen gelen {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} sayesinde üye üye açık döküme dönüşür; toplulukta kayıtsız üye kalmadığı hissi güçlenir, fakat belirli bir rakam ya da sayımın nasıl saklandığı ileri sürülmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:hft-prepared-roster",
       "landings": [
         {
           "movement_refs": [
@@ -372,50 +494,24 @@
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 3,
-          "anchor": "Bu fiil sırasından çıkan ihtiyatlı bir ek okuma, {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz kuşattı} ile bütün üyelerin kapsanmasının ardından {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} ve {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} ile açık döküm halinde sayılmasıdır; iki ayrı kökün aynı nesne üzerinde buluşması hiçbir üyeyi kayıtsız bırakmayan eksiksiz bir kayıt hissi verir."
+          "paragraph": 10,
+          "anchor": "Önceki birim-birim sayımın yanında, {ar:ع د د, tr:ʿ-d-d, gloss:doğrudan sayma kökü}nün gelecekteki bir iş için önceden hazırlama ve gerektiğinde hazır tutma yönündeki daha seyrek anlamı ancak ihtiyatlı bir yan çağrışım olarak düşünülebilir: tamamlanmış sayı durağan istatistikten sonrası için erişilebilir bir liste ya da hazırlanmış kaynak imgesine kayar; doğrudan Form I sayımı değişmez ve belirli bir iş veya araç-gereç belirtilmez."
         },
         {
           "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "İlk fiilin IV. kalıbı tüm birimleri ve sayının bilgisini eksiksiz kapsarken, ayrı kökten gelen ikinci sayma fiili bu tamlığı açık döküme taşır."
-        },
-        {
-          "movement_refs": [
+            "activation:0",
             "activation:1"
           ],
-          "paragraph": 3,
-          "anchor": "İkinci fiilin {ar:عَدَّهُمْ, tr:ʿaddahum, gloss:onları saydı} taşıdığı doğrudan sayma, hemen ardından gelen {ar:عَدًّا, tr:ʿaddā, gloss:sayma eylemi} mastarıyla yinelenip adlandırılır; böylece sayma eylemi açıkça tamamlanır ve yeni bir nesne eklenmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:complete-roster-only",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 3,
-          "anchor": "Aynı yerel eşleşmenin daha dar bir imgesi olarak, {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz kuşattı} bütün grubu kayda alır, {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} ise her birini sayar; topluluk böylece hiçbir üyesi atlanmamış bir liste gibi görünür."
+          "paragraph": 10,
+          "anchor": "Önce {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} fiilinin sıradan sayma anlamı, çoğul nesnesi ve {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} ile gelen ek sayım sayesinde her birimi kapsayan tamamlanmış bir döküm kurar; bu bütünlük yan imgenin eksiksiz listesini sağlar ve sayısal toplam verilmez."
         },
         {
           "movement_refs": [
-            "discovery:containment"
+            "activation:2",
+            "activation:3"
           ],
-          "paragraph": 3,
-          "anchor": "Bu imge tamlık ve sayma sınırında kalır; ayette erzak ayırma, donanım hazırlama ya da gelecek bir işe göre hazırlanma belirtilmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz sayıp kuşattı} bütün birimleri eksiksiz içine alıp sayının bilgisini kuşatır, {ar:وَعَدَّهُمْ, tr:wa-ʿaddahum, gloss:ve onları saydı} ise aynı nesneye yönelen bağımsız sayma tetikleyicisidir; bu temas yaklaşık bir taslak değil, tamamlanmış bir envanter imgesi verir."
+          "paragraph": 10,
+          "anchor": "Bu yan çağrışımı burada bağımsız biçimde tetikleyen, önceki {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:hepsini eksiksiz saydı} fiilinin tamamladığı grup ve ona {ar:وَ, tr:wa-, gloss:ve} ile eklenen sayımdır; hazırlama anlamı sayılmış topluluğu gerektiğinde erişilebilir bir döküme çevirir, fakat gelecekte yapılacak işi ya da gerçek bir saklama/erzak eylemini tanımlamaz."
         }
       ]
     }

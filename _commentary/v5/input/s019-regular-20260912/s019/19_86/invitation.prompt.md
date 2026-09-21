@@ -1,0 +1,189 @@
+# V5 reading invitation — 19:86
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_86/19_86.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_86/19_86.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+“Suçluları da susamış olarak Cehennem’e süreceğiz.” {ar:وَنَسُوقُ, tr:wa-nasūqu, gloss:ve süreriz} fiilinin başındaki bağlaç, bu hareketi hemen önce {ar:ٱلْمُتَّقِينَ, tr:al-muttaqīn, gloss:takvâ sahipleri} topluluğunun {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmān, gloss:Rahmân}’a {ar:وَفْدًا, tr:wafdan, gloss:bir heyet olarak} gelişine (19:85) bağlar. İki yakın sahne, varışın kabul tarzlarını karşılaştırır: orada onurlu kabul, burada Cehennem’e sürülüş vardır. Bağlaç cümleleri birleştirir, fakat bu karşılaştırmanın niteliği açık kalır: kelime kelime tasarlanmış bir terslik de, daha gevşek bir yan yana geliş de olabilir. Karşılaştırma bu iki sahnenin kabul tarzlarıyla sınırlıdır; ortak hedef ya da kader ileri sürmez.
+
+## Sürüşün açtığı güzergâh
+
+Bağlaç, ayrı bir durak gibi değil {ar:وَنَسُوقُ, tr:wa-nasūqu, gloss:ve süreriz} fiiline bitişik başlayınca bağlantı ile hareket tek nefeste duyulur; cümlenin dönüşü daha ilk anda devinir. Tek bağlı cümle önce sürme eylemini ve nesnesini, ardından yönü, en sonda da grubun varış hâlini açar. Böylece hedef gizlenmeden adım adım belirir: önce kimlerin hareket ettirildiğini, sonra nereye yöneldiklerini, sonunda oraya hangi hâlde vardıklarını öğreniriz.
+
+Etken {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} birinci çoğul şahısta sürme eylemidir; dilbilgisi hareketi yapanı görünür kılar, fakat “biz”in kimliğini bu birinci çoğul anlatımın ötesinde tanımlamaz. Belirtme hâlindeki {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} fiilin nesnesidir. Ardından gelen {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} ile {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} yönelinen son noktayı, son {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ise aynı grubun varış hâlini bildirir. Bu etken kuruluş sürücüyü cümlede tutar; edilgen bir söyleyiş suçluları eyleme uğrayan özne yapar ve nesne-belirtme ilişkisini değiştirirdi. Cümledeki yönlendirme dışarıdan belirlenmiş bir güzergâhı gösterir, fiziksel zorlamanın veya isteksizliğin derecesini tek başına tayin etmez.
+
+{ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} olağan olarak yön vererek sürüp götürmeyi, hayvan topluluğunu gütmeyi de anlatabilir. İnsanlardan oluşan {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} nesnesi, adı konmuş {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} hedefi ve son {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} varış hâli birleşince sürülen bir kafile görüntüsü doğar: grup kendi yoluna rehberlik etmez, bir sona doğru götürülür. Hayvan sürme kullanımı bu insan kafilesine yön ve denetim imgesi verir; âyetin adlandırdığı kişiler suçlular olarak kalır. Fiilin ayrı bir sözlük kullanımı, birden çok varlığın aynı yönde peş peşe ilerleyişini anlatarak kafile görüntüsüne bir iz ve ardışıklık da ekler; âyet belirli bir sıra düzeni veya kişi sayısı vermez.
+
+Bu güzergâhın fiildeki zamanı da hareketi nasıl duyduğumuzu etkiler. Etken muzari biçim {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} hüküm sahnesini sürme eylemi gerçekleşirken açar; âhirete dönük bağlam bu canlı anlatımı geleceğe taşır, biçim tek bir zaman inceliğini zorunlu kılmaz. Uzun ū’dan son qāf’a uzanan ses hareketi sıkı bir kapanış izlenimi verir; işitsel etki, sürme eyleminin güzergâhı bastıran hareketine eşlik eder.
+
+## Suçluların adı, hedefin biçimi
+
+{ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} belirli çoğul IV. bâb etken ortaçtır: yanlış yapanları bir sınıf adıyla tanımlar, cümlede ise sürme fiilinin belirtme hâlindeki nesnesi olur. Haksızlık, günah ve kötü sonuç doğuran yanlış fiil bu olağan anlamda kalır; hangi tekil suçların işlendiği veya kişilerin geçmişi sayılmaz. Grup varış noktası açıklanmadan önce tanıtıldığı için hareket edenler adsız bir kalabalık değil, tanınabilir bir suçlu sınıfıdır. Kelimenin sıkı, yoğun işitsel vuruşu da hedefin henüz söylenmediği yerde bir eşik kurar; ahlaki anlamı ses değil, adlandırma ve cümledeki görev taşır.
+
+Aynı kelime ailesindeki kazanıp edinme alanı, {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} suçlu adıyla, {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} sürüşüyle ve {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} hedefiyle buluşunca güzergâhı işlenmiş fiillerin yüklenilmiş bir sonucu gibi duyurur; cezalı varışa böylece bir sorumluluk boyutu eklenir. Ailenin birini davranışa ya da sonuca sürükleyip neticeyi ona yükleme yönü de bu hissi genişletir. Bu çağrışımlar IV. bâb etken ortaç için temel anlam değil, suçlu adı ile sürüş ve hedefin birleşmesinden doğan ek bir sonuç okumasıdır.
+
+Ailenin bütünden kesip ayırma kullanımı, 19:85’teki takvâ sahiplerinin farklı kimliğiyle karşılaşınca iki topluluk arasındaki toplumsal sınırı belirginleştirir (19:85). Odaktaki {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} bu karşılaştırmada ayrı bir sınıf olarak {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} ile güzergâha girer. Buradaki ayrılık toplumsal kimlik düzeyindedir; fiziksel kesilme veya önceki topluluğun da bu güzergâha girdiği iddiası değildir.
+
+Yön bağıntısını {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} açar; onu tamamlayan {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} kısa bir özel ad olarak güzergâhın sonunu sabitler. Cehennem başlangıç yeri veya hareket aracı değil, suçluların yöneltildiği noktadır. Yabancı kökenli özel ad, diptot denilen sınırlı çekimi nedeniyle bu cer ilişkisinde fetha alır; biçim bilgisi adın kökenini açıklayan bir etimoloji sunmaz. Çiftlenen orta ünsüzü ve son m’si adın sesine ağır, sıkışık bir vuruş verir. Yön tümleci bu adla kapanır; ardından gelen son söz, hedefi değiştirmeden grubun nasıl vardığını açar.
+
+## Susuz varış ve karşı-sahne
+
+Âyetin sonundaki nekre, müzekker isim-fiil {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} varan kişilerin adından çok varışın hâlini ya da sürecini öne çıkarır. Belirtme hâlindeki tümleç aynı suçlu grubuna döner: Cehennem’e eklenen ikinci bir nesne değil, yoldaki insanların koşuludur. Olağan okuma “susamış olarak varmak”tır. Sözcüğün varma ve ulaşma alanı, hedef önceden belirlenince bütün güzergâhı bir varışta toplar; cümle hedefi yeniden adlandırmadan, bu hâli söyleyerek biter. Varış anlamı hedefe yönelip ulaşmayı taşır, içeri girmeyi kendi başına kararlaştırmaz. Ses akıcı başlar, son d ile tanvinle kapanır; böylece niteliği açık kalan hâlin yanında âyetin işitsel sonu belirginleşir. Tanvinli biçim bu kapanışa sınırsızlık anlamı eklemez.
+
+{ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} için varış alanının özel bir gerçekleşmesi suya yönelip ona ulaşmaktır; kelime ailesinde suyla ilgili türemiş kullanımlar da bulunur. Etken {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} fiilinin nesnesi {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} olarak belirtilir: insanlardan oluşan çoğul grup {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} hedefine sürülür, son {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ise suya yönelmiş varış hâlini ekler. Sürme hareketiyle suya varışın bir araya gelişi, su başına götürülen bir sürü benzetmesini mümkün kılar: çoğul insan kafilesi yöneltilir, varış sözü su arayışını çağırır. 19:85’te {ar:ٱلْمُتَّقِينَ, tr:al-muttaqīn, gloss:takvâ sahipleri} topluluğunun {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmān, gloss:Rahmân}’a {ar:وَفْدًا, tr:wafdan, gloss:bir heyet olarak} onurlu gelişi de bu insan kafilesinin kabul tarzını karşılaştırmak için yakındaki sahneyi verir (19:85). Benzetmenin taşıdığı unsur insan kafilesinin yöneltilmesidir: taşınanlar suçlular, hedef Cehennem olarak kalır.
+
+Son {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} sözü suya varış çağrışımını ateş hedefi {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} ile buluşturunca beklenen rahatlama susuz ve cezalı varışa döner. Bu terslik Cehennem’i derin, kuşatıcı bir karşı-kuyu gibi renklendirir; özel adın anlamı yerinde kalırken son sözcük bütün güzergâhı geriye dönük su arayan bir yol gibi boyar. Su imgesi gerçek bir su kaynağı ya da su durağı bildirmez.
+
+11:98’de Firavun’un halkını ateşe ulaştırırken kullanılan ilişkili w-r-d varış sözü, odaktaki {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ile ateşli varış arasında ek bir karşılaştırma açar (11:98). Orada en azından ateşe ulaşma vardır; içeri girişin bu sözle belirtilip belirtilmediği yorum ayrılığı taşır. Bu paralellik odaktaki varış için de zorunlu içeri giriş çıkarımı sağlamaz.
+
+Suya varış anlamı taşıyan {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} sözü, herkesin Cehennem’e varış çerçevesiyle aynı Arapça kelime ailesini paylaşır (19:71). Çevresindeki akışta her topluluktan en başkaldıranın seçilmesi, ateşe en layık görülenlerin belirlenmesi ve ardından herkes için varışın anılması, {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} grubunun özel güzergâhını daha geniş bir hüküm çizgisine yerleştirir (19:69, 19:70, 19:71). Bu kök yakınlığı odaktaki biçimin dilbilgisel özelliklerini değiştirmez ve suçluları önceki seçilmiş kişilerle bire bir eşleştirmez. {ar:ٱلْمُتَّقِينَ, tr:al-muttaqīn, gloss:takvâ sahipleri} topluluğunun {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmān, gloss:Rahmân}’a {ar:وَفْدًا, tr:wafdan, gloss:bir heyet olarak} gelişi de bu cezalı varışın karşısında onurlu bir kabul biçimi gösterir (19:85).
+
+İlişkili türemiş bir biçimin bölük bölük içeri girme ve birinin önüne ilerleme kullanımları, {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} varış sözcüğüne başka bir hareket olanağı ekler. Çoğul suçlu grubunu hedefe süren {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} ile bu varış alanı buluştuğunda, ardışık geliş veya önden ilerleme görüntüsü mümkün olur; inkârcıların bölük bölük Cehennem’e sürülüp kapıların açılması da bu görüntüyü destekler (39:71). Odak sözcük bu türemiş giriş fiillerinden biri değil, varış hâlini bildiren isimdir; bu nedenle sıra ihtimalli kalır, sabit bir zaman çizelgesi ya da belli bir giriş yolu çıkmaz.
+
+Ardışık geliş ihtimalinden ayrı bir soru, kafilelerin nasıl karşılandığıdır. Takvâ sahipleri {ar:نَحْشُرُ, tr:naḥshuru, gloss:toplarız} ile {ar:ٱلرَّحْمَٰنِ, tr:ar-Raḥmān, gloss:Rahmân}’a doğru getirilip {ar:وَفْدًا, tr:wafdan, gloss:bir heyet olarak} varır (19:85); bu sözcük resmî ve onurlu bir kabul duruşu taşır. Burada ise {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} fiili {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} grubunu {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} Cehennem’e yöneltir. Bir hareket topluluğu bir araya getirirken diğeri suçluları hedefe sürer; benzer grup ve varış çerçevesi fiilleri eşitlemeden kabul tarzlarını karşılaştırır. Böylece kalabalıkların büyüklüğünden çok kabul tarzları öne çıkar ve suçluların varışı zorlanmış bir karşı-kabul gibi duyulur; bu zorlamanın derecesi fiilin kendisinden çıkmaz. Bu karşılaştırma kabul tarzı düzeyinde kalır; Cehennem hedefini değiştirmez.
+
+Bu iki kafilenin yan yana gelişi, birlikte hareketin ne anlama geldiğini de düşündürür. Kafile halinde taşınma yol boyunca beraberliği gösterir; tek başına kurtuluş güvencesi kurmaz. İki yerde kişilerin {ar:فَرْدًا, tr:fardan, gloss:tek başına} varışı anılır (19:80, 19:95); {ar:لَا يَمْلِكُونَ ٱلشَّفَٰعَةَ, tr:lā yamlikūna al-shafāʿata, gloss:şefaat üzerinde yetkileri yoktur} denir (19:87); herkesin {ar:كُلُّ, tr:kullu, gloss:her biri} Rahmân’a {ar:عَبْدًا, tr:ʿabdan, gloss:kul olarak} gelişi vurgulanır (19:93). Bu yan yana gelişler bir üyenin ötekine kurtuluş sağlayacağı bir bağ oluşturmaz. Buradaki {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} ile hareket ettirilen {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} yine çoğul bir kafiledir; ancak her kişi varışta kendi kulluk konumunda kalır, bu konum toplu hareketle bir üyeden ötekine devredilmez. Tekil geliş son kabulü niteleyebilir; yol boyunca fiziksel ayrılığı zorunlu kılmaz.
+
+Kişisel varışların yanında, {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ile aynı kelime ailesindeki türemiş biçimlerin bölük bölük içeri giriş ve birinin önüne ilerleme kullanımları aşamalı geliş imgesi kurabilir. 19:80 ve 19:95’teki tekil {ar:فَرْدًا, tr:fardan, gloss:tek başına} varışlar, {ar:لَا يَمْلِكُونَ ٱلشَّفَٰعَةَ, tr:lā yamlikūna al-shafāʿata, gloss:şefaat üzerinde yetkileri yoktur} sınırı ve {ar:كُلُّ, tr:kullu, gloss:her biri} kişinin {ar:عَبْدًا, tr:ʿabdan, gloss:kul olarak} oluşu da bu kafile üyelerini sırayla belirginleşen bireyler gibi düşündürür (19:80, 19:87, 19:93, 19:95). Odaktaki {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} fiilinin peş peşe ilerleme kullanımı bu bireyleri tek izde taşınan bir diziye yerleştirir; 19:87’deki şefaat sınırı, sıra imgesinin ortak kurtuluş bağına dönüşmesini önler. Odaktaki {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ise türemiş bir giriş fiili değil, varış bildiren isimdir. Bu nedenle aşamalı geliş mümkün bir imge olarak kalır; yolda fiziksel ayrılık veya gerçek bir sıra göstermez. Ortak sürülüş ile kişisel son böylece aynı sahnede birlikte düşünülebilir.
+
+Bu varışın öncesinde 19:83 ve 19:84’te bir baskı ve sayım çizgisi açılır. Olağan anlamıyla 19:83’teki {ar:تَؤُزُّهُمْ أَزًّا, tr:taʾuzzuhum azzan, gloss:onları şiddetle kışkırtır} ahlaki kışkırtmayı anlatır; buna eklenen baskı ve sıkışma görüntüsü, sonraki sürüş için bir topluluğun oluşmasını düşündürebilir (19:83). 19:84’teki {ar:نَعُدُّ لَهُمْ عَدًّا, tr:naʿuddu lahum ʿaddan, gloss:onları sayarak sayarız} tekrarlı sayma, bu baskı ile sürme arasında ölçülü bir aralık kurar (19:84). İkisi birlikte {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} hareketini önceden başlamış bir sürecin aktarım noktası gibi duyurabilir; önceki ayetler sürüşü mekanik olarak başlatmaz ve 19:84’te sayılanın zaman değil kişiler olması da mümkündür. Aynı baskı-sayım çizgisi, {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ile ilişkili türemiş biçimlerin bölük bölük içeri giriş ya da birinin önüne ilerleme kullanımlarına eklendiğinde aşamalı geliş imgesini de destekler (19:83, 19:84). Odaktaki sözcük ise bu türemiş giriş fiillerinden biri değil, isimsel varış hâlidir; bu nedenle belirli bir giriş yolu göstermez.
+
+{ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ile belirlenen varışın çevresinde 19:84’teki sayımın ardından 19:93’te {ar:كُلُّ, tr:kullu, gloss:her biri} ile kapsam genişler, 19:94’te {ar:أَحْصَىٰهُمْ, tr:aḥṣāhum, gloss:onları eksiksiz saydı} ile kişilerin sayımı belirir (19:84, 19:93, 19:94). Bu çizgi, odaktaki belirli {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} çoğulunu üyeleri hesaba katılmış bir kafile gibi düşündürür; sayma ve kapsam birlikte, gerçek bir idari defterden ziyade bağlamsal tam-kayıt imgesi kurar. {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} fiilinin peş peşe ilerleme kullanımı, 19:93’ün geniş kapsamı ve 19:94’ün sayımıyla birleşince kafileye sıralı bir geliş imgesi ekler; 19:86 ise her canlıyı suçlu diye adlandırmaz veya belirli bir kuyruk düzeni çizmez (19:93, 19:94). 19:94’te yinelenen sayım tam hesap hissini güçlendirirken, 19:84’te sayılanın kişilerden çok zaman olması olasılığı açık kalır (19:84, 19:94).
+
+{ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} ayrıca su düzeninde iki susuzluk dönemi arasındaki belirlenmiş sulama günü ya da sıra payı için kullanılır. Bu dar su kullanımı, sayılan zamanla ve {ar:كُلُّ, tr:kullu, gloss:her biri} kişinin kapsanıp eksiksiz sayıldığı çizgiyle birleşince her varışa hesaplı bir yer verildiği izlenimini doğurur (19:84, 19:93, 19:94). Takvâ sahiplerinin {ar:وَفْدًا, tr:wafdan, gloss:bir heyet olarak} gelişi de varış tarzları arasındaki farkı görünür tutar (19:85). Bu çağrışım odakta gerçek bir sulama takvimi veya idari sıra kurmaz; susuz varışı ölçülmüş ve belirlenmiş bir son gibi duyurur. 19:84’te neyin sayıldığı açık değildir.
+
+Bu ölçülü varış, 19:94’teki eksiksiz sayımla birlikte sınırlı bir hesaplaşma benzetmesine açılır. {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} fiilinin olağan anlamı sürüp götürmektir; aynı kelime ailesindeki ayrı bir isim pazar yerini adlandırarak hesap yeri imgesi sağlar, odaktaki biçim ise fiil olarak sürüşü bildirir. {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} IV. bâb etken ortaç olarak suçluları adlandırır; aynı kökün kazanma ve edinme alanı sorumluluğu edinilmiş bir sonuç gibi duyurur. {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} için bilinen sıra payı varışa belirlenmiş bir yer verir; 19:94’teki eksiksiz sayım bu sorumluluğa tam hesap boyutu katar (19:94). Böylece pazar adı hesap yerini, edinme alanı yüklenilmiş sorumluluğu, sulama sırası belirlenmiş varış payını sağlar; birlikte sürülüşü, vadesi gelen sorumluluğun hesaba teslim edilmesi gibi duyururlar. Bu, Cehennem’e giden yola ilişkin bir benzetmedir; gerçek bir pazar ya da borç sözleşmesi sahnesi değildir.
+
+## Kopuş içinde güzergâh
+
+Sayım ve sorumluluk benzetmesinden ayrı bir ölçekte, {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} olağan anlamında suç işleyenleri adlandırır; aynı kelime ailesi bütünden kesip ayırmayı, hurmayı keserek toplamayı ve yünü kırpmayı da kapsar. Kesimden sonra kalan hurma ürünü, kuru hurma ve çekirdek için kullanılan adlar bu uzak kök alanına artakalan ürün imgesi ekler. 19:90 bu kök alanına ayrı bir maddi kopuş sahnesi sunar: {ar:يَتَفَطَّرْنَ, tr:yatafaṭṭarna, gloss:çatlayıp yarılmaya başlar} göklerdeki çatlamayı, {ar:تَنشَقُّ, tr:tanshaqqu, gloss:yarılır} yerin yarılmasını, ardından {ar:تَخِرُّ ٱلْجِبَالُ هَدًّا, tr:takhirru al-jibālu haddan, gloss:dağlar yıkılıp çöker} dağların çöküşünü bildirir (19:90). Kesimden kalan ürün imgesi suçlu grubunu ayrılmış bir kalıntı gibi düşündürür; gök, yer ve dağlardaki kopuş dizisi bu ayrılmış topluluğu çatlayan bir düzen içine yerleştirir. Bağlantı sözlük çağrışımı düzeyindedir: odaktaki IV. bâb etken ortaç yine suçluları adlandırır, 19:86’nın kendisi kozmik yıkımı anlatmaz.
+
+Çevredeki kozmik kırılma ayrı bir ölçekte dururken, cezaya ilişkin zaman çizgisi 19:79’daki uzatılmış azap uyarısına döner: orada {ar:وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّا, tr:wa-namuddu lahu mina al-ʿadhābi maddan, gloss:ona azabı uzattıkça uzatacağız} denir (19:79). Burada ise {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları}, adı konmuş {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} hedefine ve {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} varış hâline götürür. Böylece uzatılmış ceza somut bir yol ve varış olarak görünür; 19:79’un kendisi bu sürülme hareketini veya susuz sonu önceden anlatmaz.
+
+Bu güzergâh açıldıktan sonra karşılaştırma hedefin kendisinden hareketin kimin isteğiyle ilerlediğine geçer. Fâtiha’da 1:6 doğru yola yönelme isteğini dile getirir; 1:7 bu yolu nimete erenlerin yolu olarak belirler (1:6, 1:7). Burada {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} hedefe doğru götürür. İstenen hidayet ile başkasının yönelttiği cezalı güzergâh arasındaki karşılık, hareketin yönü kadar iradeyi de belirginleştirir. Bu temas, seçilmiş 1:6 ve 1:7’nin açtığı irade karşılaştırması olarak kalır; 19:86’nın onlara cevap verdiğini veya aynı kişileri konu edindiğini ileri sürmez.
+
+İrade karşılaştırmasından ayrı olarak, sürüşün yön vererek taşıma anlamının sonucu da hedefe ve taşınana göre değişir. Takvâ sahiplerinin topluca cennete götürülmesi (39:73) karşılayıcı bir kabul; suyun kurak toprağa ulaştırılıp ekin bitirmesi (32:27) hayat veren bir sonuç gösterir. Bu iki örnek ayrı süreçlerdir: birinde insanlar cennete taşınır, ötekinde su toprağa ulaşır. Burada {ar:نَسُوقُ, tr:nasūqu, gloss:süreriz} suçluların {ar:ٱلْمُجْرِمِينَ, tr:al-mujrimīna, gloss:suçluları} grubunu {ar:جَهَنَّمَ, tr:Jahannama, gloss:Cehennem} hedefine, {ar:وِرْدًا, tr:wirdan, gloss:susamış olarak} varış hâlinde götürür; bu birleşim cezalı sonucu belirler. Karşılaştırmanın gösterdiği, yönlendirmenin hedefe ve taşınana göre değişen sonucudur: odakta bunu suçlu nesnesi, Cehennem hedefi ve susuz varış birlikte kurar. Bu bağ yalnızca sonuç düzeyindeki kıyastır; odaktaki sürüşün rızaya dayandığını veya Cehennem’de su bulunduğunu ileri sürmez. Dış âyetlerin farklı hedef biçimleri de dilbilgisel özdeşlik değil, sonuç karşılaştırması sağlar.
+
+</editorial_prose>

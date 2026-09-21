@@ -7,8 +7,8 @@
     {
       "candidate_id": "cand_f5f7ad0e885df323075d",
       "decision": "narrow",
-      "reason": "21:26'da oğul iddiasının reddedilmesi ve değer verilmiş kullardan söz edilmesi, 19:94'ün eksiksiz sayımıyla birlikte bu sınıfın üyelerini tek tek görünür kılan bir paralel kuruyor. Ancak supplied 21:26 metni 19:94'teki zamirin aynı kişilere gönderdiğini veya evrensel kapsamı tek başına kanıtlamıyor; adayın evrensellik iddiası bu nedenle daraltıldı. İki ekli dal bulgudaki kesin facetlerle korunuyor; adayın ayrıca eklenmiş branch facet, context ref veya semantic obligation kaydı yok.",
-      "finding_refs": ["global:servant-class-individuals"],
+      "reason": "Retains the supported core that the plural is counted exhaustively and individually. The candidate's preceding universal-servitude clause needs an antecedent/context not attached to its focus-only word anchors; the supplied 16:18 connection adds a bounded global contrast with human inability to enumerate God's blessings.",
+      "finding_refs": ["global:complete-individual-count"],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -17,33 +17,33 @@
     {
       "candidate_id": "cand_bde4a0010ecfc8dc7a40",
       "decision": "reject",
-      "reason": "Özet 19:84'teki geciktirilmiş sayımdan 19:94'teki tamamlanmış sayım etkisine geçiş öneriyor; ancak HFT kaydı kesin context surface, word index, attributed role ve focus return sağlamıyor. Adlandırılan 19:84 aynı sûrenin perikope bağlamıdır ve bu yüzden global lane'in wider trigger'ı değildir; ayrıca o ayetin yüzeyi bu packet'te verilmemiştir.",
+      "reason": "The reader summary names an ongoing count at 19:84 and a later completed count at 19:94, but its assigned HFT record has no anchor or exact trace. 19:84 is within the declared pericope and therefore belongs to macro; no wider global trigger is supplied for this temporal progression.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [
-        {
-          "context_ref": "19:84",
-          "reason": "Aynı perikopeye ait olduğu için macro kapsamındadır; HFT özeti exact word trace veya bu lane'de kullanılabilir context surface sağlamaz."
-        }
+        {"context_ref": "19:84", "reason": "The summary names this pericope context, but supplies no exact Arabic, word index, root, role, or HFT contact returning to the focus; the relation is macro-scope."}
       ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_452de60510479409a145",
       "decision": "reject",
-      "reason": "Kull ve fardan sözcükleri arasındaki dizi ilişkisi yalnızca aynı perikope içindeki bir bracket okumasını öne sürüyor. HFT desteği bunların exact ayah ve word koordinatlarını, kökünü, rolünü ve focus'a dönüş temasını vermiyor; bu nedenle global bir wider-trigger ilişkisi kurulamaz.",
+      "reason": "The proposed whole-to-singleton hinge depends on surrounding كُلّ and فَرْدًا wording, but the assigned HFT record has no anchor or exact trace and this adjacent pericope relation belongs to macro. The global packet does not supply the neighboring Arabic needed to reassess it.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
-      "context_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "19:93", "reason": "The summary implies preceding كُلّ wording, but no exact context Arabic or HFT trace is supplied in this global packet."},
+        {"context_ref": "19:95", "reason": "The summary implies following كُلّ / فَرْدًا wording, but no exact context Arabic or HFT trace is supplied in this global packet."}
+      ],
       "semantic_obligation_exclusions": []
     },
     {
       "candidate_id": "cand_bf63a66c80db72aeb8ee",
       "decision": "narrow",
-      "reason": "Yalnızca 6:94'te kişilerin tek başına gelişi ve iddia edilen aracıların geride kalmasıyla, odaktaki tam sayım arasında packet'te doğrudan bulunan daha dar paralel korunuyor. HFT özeti exact trace sunmadığından sayımın iddiaları fiilen ortadan kaldırdığı, bütün yanlış bağları çözdüğü veya filial rank'i sildiği biçimindeki geniş nedensel okuma taşınmıyor; genel inflated-claim ve yönlendirme iddiaları da bu bağlantıyla kanıtlanmıyor. Adayda ekli branch, facet, context ref veya semantic obligation kaydı yok.",
-      "finding_refs": ["global:count-and-individual-return"],
+      "reason": "Retains only the bounded filial-status comparison: the supplied 21:26 Arabic rejects a divine-child claim and calls those named honored servants, while the focus counts its plural exhaustively. The HFT summary itself has no anchors or trace, so its broader claims about inflated claims, false affiliations generally, and routing every individual without remainder are omitted.",
+      "finding_refs": ["global:servant-status-no-exception"],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -52,8 +52,8 @@
     {
       "candidate_id": "cand_f17d86de415fea4e07b2",
       "decision": "narrow",
-      "reason": "Sayımın kalıcı kayıtla ve kişilerin unuttuğu amellerin de Allah tarafından sayılmasıyla buluşan ledger/hatırda tutma çekirdeği, 78:29 ve 58:6'nın exact metinleriyle bağımsız biçimde destekleniyor. Temporal closure, muster, categorical equalizer, whole-to-singleton hinge ile mercy/erasure çerçeveleri bu iki wider trigger'dan çıkmıyor; aynı perikopeye ait olan veya ek iz taşımayan parçalar kapsam dışında bırakıldı. HFT özeti exact trace değil; adayda ayrıca ekli branch, facet, context ref veya semantic obligation kaydı yok.",
-      "finding_refs": ["global:enumeration-as-retained-account"],
+      "reason": "Retains the count-to-accountability core: exact supplied contexts link the focus's exhaustive count to a promised gathering and to deeds counted despite being forgotten and left in no gap in the record. The HFT summary is unanchored; its temporal-closure, broad equalizer, whole-to-singleton, and mercy/erasure synthesis is not carried as one global claim.",
+      "finding_refs": ["global:count-and-accountability"],
       "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
@@ -62,7 +62,7 @@
     {
       "candidate_id": "cand_d3915247b7d9a3973279",
       "decision": "reject",
-      "reason": "Kişiler, ameller ve günler alternatifleri unanchored HFT özetinde sıralanıyor; focus yüzeyinde verilen çoğul nesne zamiri kişileri gösteriyor ve cognate accusative aynı sayma eylemini güçlendiriyor. 58:6 veya zaman sayımıyla ilgili bağlantılar kendi farklı nesnelerini anlatır; bunlar focus zamirinin gönderimini değiştiren bir wider trigger oluşturmaz. Alternatifler göz ardı edilmedi, fakat global reading olarak temellendirilemedi.",
+      "reason": "The summary lists persons, deeds, and allotted days as possible objects without an exact HFT trace or supplied context contact that returns any of those alternatives through the focus. The focus surface supplies a plural object suffix, but the candidate's unranked list alone does not establish a materially changed global reading.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -72,7 +72,7 @@
     {
       "candidate_id": "cand_95c4e3f7c198a6ab13c7",
       "decision": "reject",
-      "reason": "Bu kayıt bir reading değil, routing ve ilişkisel okumaların dizi oklarından geldiğine dair yöntemsel bir belirsizlik bildiriyor. HFT desteği değerlendirilebilir bir focus word, exact context coordinate veya bağımsız temas vermiyor; bu nedenle global finding'e dönüşmüyor ve sınırlama friction'da korunuyor.",
+      "reason": "This item reports a limitation about sequence-level arrows and lexical entailment; it does not state an activated semantic relation or changed reading. Its HFT record has no anchor or exact trace, so it remains a source limitation rather than a global finding.",
       "finding_refs": [],
       "branch_exclusions": [],
       "facet_exclusions": [],
@@ -82,18 +82,9 @@
     {
       "candidate_id": "cand_b43435bbeca3665a7f48",
       "decision": "reject",
-      "reason": "HFT özeti çakıl ve su noktası çağrışımlarını anchor'sız ileri sürüyor. Mevcut yerel çözümleme أَحْصَىٰهُمْ biçimini exhaustive counting, عَدَّهُمْ عَدًّا yapısını ise sayma fiilinin doğrudan cognate accusative'i olarak seçiyor; dışarıdan bağımsız çakıl veya su tetikleyicisi yok.",
+      "reason": "The summary says pebble and waterpoint resonances are packet-anchored, but its assigned record has no anchor or exact trace. The focus registry makes pebble and perennial-water branches available, yet the count wording supplies no material water trigger and the pebble image is only root pressure, not a global carrier change; no wider context activates either reading.",
       "finding_refs": [],
-      "branch_exclusions": [
-        {
-          "branch_ref": "root_000332/B001",
-          "reason": "Bu dal küçük çakıl ve çakıllı arazi adlarını kapsıyor ve saymayı dışlıyor; odak taşıyıcısı ise bu kökün Form IV sayma fiilidir. Kök eşleşmesi dışında çakıl anlamını etkinleştiren bağımsız tetikleyici yok."
-        },
-        {
-          "branch_ref": "root_000989/B004",
-          "reason": "Bu dal kalıcı su veya su yeridir; odaktaki عَدَّهُمْ ve onun cognate accusative'i sayma eylemini açıkça kurar ve packet'te suyla ilgili bağımsız wider trigger yok."
-        }
-      ],
+      "branch_exclusions": [],
       "facet_exclusions": [],
       "context_exclusions": [],
       "semantic_obligation_exclusions": []
@@ -101,18 +92,18 @@
   ],
   "findings": [
     {
-      "finding_ref": "global:servant-class-individuals",
+      "finding_ref": "global:complete-individual-count",
       "origin_candidate_id": "cand_f5f7ad0e885df323075d",
       "represented_candidate_ids": [],
-      "title": "Kulluk sınıfını tek tek saymak",
-      "claim": "21:26'daki onurlandırılmış kullar sınıfı ile birlikte duyulduğunda 19:94'ün eksiksiz sayımı, ortak kulluk niteliğini belirsiz bir yığın olmaktan çıkarıp her üyeyi sayımda ayrı ayrı tutan bir paralel kurar.",
-      "mechanism": "أَحْصَاهُمْ taşıyıcısının bütün birimleri kuşatan sayma anlamı ve عَدَّهُمْ عَدًّا ile açıkça yinelenen sayım, 21:26'da oğul iddiasının reddedilip onurlandırılmış kullardan söz edilmesiyle buluşur. Bu ayrı sınıf ifadesi, odaktaki sayımı ortak bir topluluğun üyelerini tek tek kapsama yönünde değiştirir.",
-      "reader_payoff": "Okur, ortak kulluk niteliğinin kişileri anonimleştirmediğini; topluluk halinde anılsalar da her birinin tam sayım içinde kaldığını görür.",
-      "containment": "21:26 ayrı bir pasajın paralelidir; iki ayetteki zamirlerin aynı kişilere döndüğü veya bu odak âyetinin tek başına tüm varlıklar için evrensel kulluk bildirdiği ileri sürülmez.",
+      "title": "The completed count against human limits",
+      "claim": "The focus's plural is counted exhaustively, and the wider comparison with 16:18 makes that completeness specific: humans cannot enumerate God's blessings, while the focus asserts a completed divine count of them. The plural can therefore be heard as fully accounted members, not merely a large number.",
+      "mechanism": "The carrier أَحْصَىٰهُمْ gives the exhaustive enumeration, and عَدَّهُمْ عَدًّا restates it as a completed count of the same plural. In 16:18, people are told that even counting God's favor cannot encompass it; this independent contrast sets human limitation beside the focus's completed divine act and changes the count from a bare total into a claim of comprehensive reach.",
+      "reader_payoff": "The reader can feel the difference between a large tally and a count that leaves no member outside it, with human inability to enumerate blessing supplying a wider measure of the focus's completeness.",
+      "containment": "16:18 concerns blessings, not necessarily the focus's referent; the focus packet does not supply the antecedent of هم. This is a bounded cross-surah comparison, not a claim that the two verses count the same things, name a ledger, or specify the counted group's fate.",
       "epistemic": {
         "status": "qualified",
         "source_trust": ["trusted"],
-        "reason": "Cross-run desteği iki odak dalını doğrudan sabitliyor; wider trigger ise ters yönden gelen bir bağlantı adaylığı ve exact Arapça yüzey sunuyor, fakat aynı-referent ilişkisi ile hedef morfolojisi verilmediğinden sonuç paralel okuma olarak sınırlandırıldı."
+        "reason": "The trusted cross-run finding is anchored to the two focus count branches. The 16:18 connection is a discovery nomination with exact Arabic but no target morphology; the comparison is therefore retained as a qualified contextual inference, and the unsupported universal-servitude clause is not carried."
       },
       "support_ids": ["sup_b96ffb12cfa1c6cafb47"],
       "branch_activations": [
@@ -123,13 +114,13 @@
           "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
           "application_mode": "contextual_resonance",
           "carrier_refs": ["19:94:2:1"],
-          "trigger_refs": ["21:26"],
+          "trigger_refs": ["16:18"],
           "focus_return_refs": ["19:94:2:1"],
-          "carrier": "Form IV أَحْصَىٰهُمْ fiili, çoğul nesnesini eksiksiz sayıp sayısını bilme anlamını taşır.",
-          "independent_trigger": "21:26'nın sağlanan yüzeyi oğul iddiasını reddeder ve çoğulu onurlandırılmış kullar olarak adlandırır.",
-          "activation": "Dış pasajdaki kullar sınıfı, odak fiilinin tam sayımıyla buluşur; paralel okumada ortak sınıfın her üyesi sayımda ayrı ayrı tutulur.",
-          "resulting_reading": "Onurlandırılmış kullar olarak paylaşılan nitelik, tam sayım içinde her kişiyi ayrı ayrı görünür kılar.",
-          "boundary": "Bağlantı iki pasaj arasında paraleldir; 19:94 zamirinin 21:26'daki aynı referentlere döndüğünü kanıtlamaz."
+          "carrier": "Form IV أَحْصَىٰهُمْ carries the completed enumeration of a plural object.",
+          "independent_trigger": "The supplied Arabic of 16:18 says that people may count God's blessing but cannot encompass its count.",
+          "activation": "The focus places exhaustive enumeration on the plural object; the separate human inability in 16:18 makes the focus's completed divine count a contrast in scope and capacity.",
+          "resulting_reading": "The count is heard as comprehensive down to its members, not only as a statement that the total is large.",
+          "boundary": "The focus does not identify its plural antecedent in this packet, and 16:18 counts blessings; their objects are not equated."
         },
         {
           "branch_ref": "root_000989/B001",
@@ -137,48 +128,33 @@
           "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
           "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
           "application_mode": "contextual_resonance",
-          "carrier_refs": ["19:94:3:2"],
-          "trigger_refs": ["21:26"],
-          "focus_return_refs": ["19:94:3:2"],
-          "carrier": "Form I عَدَّهُمْ fiili ve ardından gelen عَدًّا cognate accusative'i, çoğul nesnenin sayılmasını açıkça kurar.",
-          "independent_trigger": "21:26'nın sağlanan yüzeyi onurlandırılmış kulları bir topluluk olarak anıyor.",
-          "activation": "Bu topluluk tanımı, odak fiilinin sayma işlemiyle temas ederek ortak sınıftaki üyelerin tek tek hesaba katılmasını belirginleştirir.",
-          "resulting_reading": "Sayım hem miktarı belirler hem de ortak sınıftaki kişileri içeride tutar.",
-          "boundary": "Odak ayette açık bir among-complement yoktur; sınıfa katma ilişkisi yalnızca wider paralel olarak okunur."
-        },
-        {
-          "branch_ref": "root_000989/B001",
-          "facet_id": "F003",
-          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
-          "facet_statement": "Sayıca çokluğu belirtme veya birini belirli bir topluluğun üyeleri arasında sayma.",
-          "application_mode": "contextual_resonance",
-          "carrier_refs": ["19:94:3:2"],
-          "trigger_refs": ["21:26"],
-          "focus_return_refs": ["19:94:3:2"],
-          "carrier": "عَدَّهُمْ biçimi kişileri doğrudan sayımın nesnesi yapar; cognate accusative sayma eylemini pekiştirir.",
-          "independent_trigger": "21:26'da oğul iddiasının yerine onurlandırılmış kullardan oluşan bir sınıf sunulur.",
-          "activation": "Dışarıdaki bu sınıf ifadesi, sayma fiilinin bir kişiyi topluluk üyeleri arasında sayma uzantısını odak nesnesine bağlar.",
-          "resulting_reading": "Kulluk sınıfı soyut kalmaz; her kişi bu ortak nitelik içinde sayılan bir üye olarak duyulur.",
-          "boundary": "Bu, 21:26 ile 19:94 arasında sınırlı bir paraleldir; özdeş referent veya odak ayette açıkça söylenmiş bir sınıf tümleci değildir."
+          "carrier_refs": ["19:94:3:2", "19:94:4:1"],
+          "trigger_refs": ["16:18"],
+          "focus_return_refs": ["19:94:3:2", "19:94:4:1"],
+          "carrier": "The perfect verb عَدَّهُمْ and its cognate accusative عَدًّا carry a count of the same plural object.",
+          "independent_trigger": "The supplied Arabic of 16:18 contrasts human attempts to count divine favor with their inability to encompass it.",
+          "activation": "The focus's verb plus cognate accusative makes the count emphatic; 16:18's human limit gives that repeated counting a wider contrast with the focus's completed divine enumeration.",
+          "resulting_reading": "The repeated count emphasizes that every member is included within the total.",
+          "boundary": "The comparison is about different counted objects and does not import the blessings of 16:18 into the focus."
         }
       ],
-      "connection_refs": ["conn_6b23817a4df31758e5db"],
-      "context_refs": ["21:26"],
+      "connection_refs": ["conn_50771844e1c8810e9d71"],
+      "context_refs": ["16:18"],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "global:count-and-individual-return",
+      "finding_ref": "global:servant-status-no-exception",
       "origin_candidate_id": "cand_bf63a66c80db72aeb8ee",
       "represented_candidate_ids": [],
-      "title": "Tam sayım ve tek tek geliş",
-      "claim": "19:94'ün tam sayımı, 6:94'te kişilerin tek tek gelip mallarını ve iddia ettikleri aracıları geride bıraktığı sahneyle yan yana gelince, sayılan çoğul her kişinin ayrı ayrı hesaba katıldığı bir dönüş olarak okunabilir.",
-      "mechanism": "أَحْصَاهُمْ ile عَدَّهُمْ عَدًّا tüm nesneyi ve sayım eylemini taşır; 6:94'ün kişilerin tek başına gelişi ve sahip olduklarını geride bırakması bu eyleme bireysel bir karşılık verir. Temas, sayımı yalnızca toplam miktar olmaktan çıkarıp her kişinin ayrı konumunu düşündürür.",
-      "reader_payoff": "Sayılmış çoğulun içinde her kişi seçilebilir hale gelir; dış pasajdaki geliş sahnesi, kişisel dönüşü iddia edilen desteklerden bağımsız olarak görünür kılar.",
-      "containment": "6:94 ayrı bir pasajın paralelidir ve 19:94'teki zamirin aynı kişileri gösterdiğini kanıtlamaz; odak âyetinin kendi başına aracıları veya amelleri kaydettiği ileri sürülmez.",
+      "title": "Counted creatures beside an honored-servant frame",
+      "claim": "Alongside 21:26's rejection of a divine-child claim in favor of honored servants, the focus's exhaustive count can be heard as leaving no filial exception among the counted plural. The comparison gives the count a creaturely frame rather than making the plural an undifferentiated rank.",
+      "mechanism": "أَحْصَىٰهُمْ carries the completed count of the focus's plural, reinforced by عَدَّهُمْ عَدًّا. The independent 21:26 context rejects the claim of a child and names those it discusses as honored servants; read together through the supplied connection, the universal count meets a servant-versus-offspring distinction and can be heard as applying without a family-status exemption.",
+      "reader_payoff": "The wider comparison makes the counting feel equalizing: the count reaches the creaturely plural without granting a separate filial class.",
+      "containment": "The connection does not establish that the referents in 21:26 and 19:94 are identical. The focus itself contains no language about offspring, servants, or lineage; the family-status reading remains a qualified cross-surah comparison.",
       "epistemic": {
-        "status": "qualified",
+        "status": "exploratory",
         "source_trust": ["legacy_unbound"],
-        "reason": "Sağlanan 6:94 Arapça yüzeyi tek tek geliş ve geride kalan iddiaları gösteriyor; aday HFT özeti legacy_unbound ve anchor trace içermiyor, bu nedenle yalnız bağlantıdan bağımsız biçimde temellendirilebilen paralel korundu."
+        "reason": "The HFT summary is unbound and has no anchor refs or exact trace. The surviving comparison is independently retested against the supplied Arabic of 21:26, but its connection is a reciprocal discovery seed with no target morphology and does not establish referent identity."
       },
       "support_ids": ["sup_85441d0c64e6eb660cdf"],
       "branch_activations": [
@@ -189,13 +165,13 @@
           "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
           "application_mode": "contextual_resonance",
           "carrier_refs": ["19:94:2:1"],
-          "trigger_refs": ["6:94"],
+          "trigger_refs": ["21:26"],
           "focus_return_refs": ["19:94:2:1"],
-          "carrier": "أَحْصَىٰهُمْ bütün çoğul nesneyi eksiksiz sayma anlamını taşır.",
-          "independent_trigger": "6:94 kişilerin Allah'a tek tek gelişini ve iddia ettikleri yardımcıların yanlarında olmayışını anlatır.",
-          "activation": "Kişisel geliş sahnesi, odaktaki tam sayımla temas ederek sayılanların tek bir yığın değil ayrı ayrı hesaba katılan kişiler olduğu okumasını açar.",
-          "resulting_reading": "Tam sayım, her kişinin ayrı gelişini taşıyabilecek bir bireysel hesap görüntüsüne dönüşür.",
-          "boundary": "İki pasaj arasındaki paralel aynı kişiler olduklarını veya 19:94'teki sayımın amelleri kaydettiğini söylemez."
+          "carrier": "أَحْصَىٰهُمْ states that the plural object is exhaustively enumerated.",
+          "independent_trigger": "The supplied Arabic of 21:26 denies a divine-child claim and says instead that those it names are honored servants.",
+          "activation": "The focus's complete enumeration meets 21:26's explicit servant-versus-offspring frame, making the counted plural legible in a wider creaturely register without treating the count as a family lineage.",
+          "resulting_reading": "The total count can be heard as applying to the creaturely group without a filial exception.",
+          "boundary": "The focus does not itself state the servant/offspring contrast, and the packet does not identify the referents across the two ayat."
         },
         {
           "branch_ref": "root_000989/B001",
@@ -204,32 +180,32 @@
           "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
           "application_mode": "contextual_resonance",
           "carrier_refs": ["19:94:3:2", "19:94:4:1"],
-          "trigger_refs": ["6:94"],
+          "trigger_refs": ["21:26"],
           "focus_return_refs": ["19:94:3:2", "19:94:4:1"],
-          "carrier": "عَدَّهُمْ fiili çoğul kişileri sayar; عَدًّا cognate accusative'i aynı sayma eylemini yoğunlaştırır.",
-          "independent_trigger": "6:94'te muhatapların tek tek gelişi ve yanlarında iddia ettikleri aracılar bulunmaması.",
-          "activation": "Tek tek geliş, odaktaki doğrudan sayımın çoğul nesnesini bireysel birimlere açar.",
-          "resulting_reading": "Sayımın toplamı her kişinin ayrı ayrı hesaba dahil oluşu olarak duyulur.",
-          "boundary": "Bu wider paralel, 6:94'te bir sayma fiili bulunduğunu veya iki ayetin nesnelerinin özdeş olduğunu ileri sürmez."
+          "carrier": "عَدَّهُمْ عَدًّا repeats the focus's count of the plural object.",
+          "independent_trigger": "21:26 presents the beings under discussion as honored servants rather than offspring.",
+          "activation": "The focus's repeated count makes its plural comprehensively included; the external servant-status frame supplies a separate basis for hearing that inclusion without a familial exception.",
+          "resulting_reading": "The count reaches the whole plural in a creaturely, non-filial frame.",
+          "boundary": "This is a contextual comparison, not a claim that 21:26's own referents are the focus's counted referents."
         }
       ],
-      "connection_refs": ["conn_75288d405619b7016305"],
-      "context_refs": ["6:94"],
+      "connection_refs": ["conn_6b23817a4df31758e5db"],
+      "context_refs": ["21:26"],
       "semantic_obligation_refs": []
     },
     {
-      "finding_ref": "global:enumeration-as-retained-account",
+      "finding_ref": "global:count-and-accountability",
       "origin_candidate_id": "cand_f17d86de415fea4e07b2",
       "represented_candidate_ids": [],
-      "title": "Sayımın kalıcı hesapla buluşması",
-      "claim": "78:29'da her şeyin bir kayda geçirilerek sayılması ve 58:6'da kişilerin unuttuğu amellerin Allah tarafından sayılmış olması, 19:94'ün eksiksiz sayımını geçici bir toplamdan çok kalıcı bir hesap olarak duyurur.",
-      "mechanism": "Odaktaki أَحْصَىٰهُمْ tam sayım taşıyıcısı, bir yerde sayımın kitapla birlikte anılması ve başka bir yerde unutulmuş amellerin de sayılmış olduğunun söylenmesiyle temas eder. Bu iki wider tetikleyici, sayımın kapsamını kalıcılık ve insan belleğinin ötesinde bilgi yönünde genişletir.",
-      "reader_payoff": "Okur, sayımı yalnızca bir toplamın çıkarılması değil, insanların unuttuğu şeyleri de kaybetmeyen bir ilahî hesap görüntüsü olarak algılar.",
-      "containment": "19:94'te doğrudan sayılan nesne kişilerdir; kitap veya ameller odak ayetin açık tamamlayıcısı değildir. Dış pasajlar benzer sayımın kayıt ve unutulan amellerle ilişkisini açar, odak zamirinin gönderimini değiştirmez.",
+      "title": "From individual count to final accountability",
+      "claim": "The focus's exhaustive count can be heard within a wider accountability frame: one supplied connection promises a gathering of the counted plural, while others describe deeds counted despite being forgotten and no small or great deed left out of the record. This turns the focus's count from a bare total toward personal accountability, while the focus itself still names only its plural object.",
+      "mechanism": "أَحْصَىٰهُمْ carries the exhaustive count and عَدَّهُمْ عَدًّا makes the counting explicit. In 19:68 the supplied Arabic promises to gather and bring 'them'; in 58:6 God counts what people did although they forgot it; and 18:49 says the record leaves no small or great matter uncounted and that what people did is found present. Those distinct wider acts meet the focus's count and let it resonate as personal accountability rather than an abstract population total.",
+      "reader_payoff": "The count can be felt as protecting individual presence in the gathering and in the account of deeds, including what people themselves forgot; the image is more consequential than a headcount.",
+      "containment": "19:94 itself mentions neither a Book, deeds, nor the gathering around Hell. The connections provide comparisons, not proof that every pronoun has the same antecedent or that the focus's object means deeds.",
       "epistemic": {
         "status": "qualified",
         "source_trust": ["legacy_unbound"],
-        "reason": "78:29 ve 58:6'nın sağlanan Arapça yüzeyleri ile bağlantı kayıtları kalıcı kayıt ve unutulan ameller temasını somutlaştırıyor. Aday HFT özeti legacy_unbound ve exact trace içermediğinden yalnız bu iki bağımsız bağlantıyla doğrulanabilen kayıt boyutu tutuldu."
+        "reason": "The HFT source is legacy_unbound with no anchor refs or exact trace. The retained ledger/muster core is independently reassessed against exact Arabic supplied for 19:68, 58:6, and 18:49; the rows are connection nominations and target morphology is not supplied, so the synthesis remains qualified."
       },
       "support_ids": ["sup_99c36fa6b0ed07280f70"],
       "branch_activations": [
@@ -240,63 +216,41 @@
           "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
           "application_mode": "contextual_resonance",
           "carrier_refs": ["19:94:2:1"],
-          "trigger_refs": ["58:6", "78:29"],
+          "trigger_refs": ["19:68", "18:49", "58:6"],
           "focus_return_refs": ["19:94:2:1"],
-          "carrier": "أَحْصَىٰهُمْ çoğul nesneyi eksiksiz sayıp bilgisinde kuşatma anlamını taşır.",
-          "independent_trigger": "78:29 eksiksiz sayımı kitapla birlikte verir; 58:6 ise insanların unuttuğu amellerin Allah tarafından sayıldığını söyler.",
-          "activation": "Kayıt ve unutulan amel örnekleri, odaktaki eksiksiz sayımla birleşerek sayımı anlık toplamın ötesinde kalıcı tutulmuş bilgi gibi duyurur.",
-          "resulting_reading": "Sayım, kişileri kapsayan ve insan belleği unuttuğunda da kaybolmayan bir hesap görüntüsüne açılır.",
-          "boundary": "Bu bağlantı odak ayetin doğrudan amelleri veya yazılı kitabı saydığını değil, wider pasajların benzer ilahî sayımı bu boyutlarla ilişkilendirdiğini gösterir."
-        }
-      ],
-      "connection_refs": ["conn_da23258bbc27d97bbb13", "conn_d4a85d555207c5dde7ec"],
-      "context_refs": ["58:6", "78:29"],
-      "semantic_obligation_refs": []
-    },
-    {
-      "finding_ref": "global:human-counting-limits",
-      "origin_candidate_id": null,
-      "represented_candidate_ids": [],
-      "title": "İnsan ölçüsü ve tam sayım",
-      "claim": "14:34 ve 16:18'de insanın Allah'ın nimetlerini sayamaması, 18:12'de ise iki topluluğun uyuyanların kaldığı süreyi hangisinin daha iyi saydığının sorulması, 19:94'teki eksiksiz ilahî sayımı insan ölçüsünün erişim sınırıyla karşılaştırır.",
-      "mechanism": "أَحْصَىٰهُمْ taşıyıcısının tam kapsamlı sayımı; insanın nimetleri kuşatamadığını bildiren iki wider metin ve belli bir süreyi karşılaştırmalı sayma sorusuyla buluşur. Temas, focus sayımını yalnız nicelik olarak değil, insanın erişemediği kapsamı kuşatan bilgi olarak belirginleştirir.",
-      "reader_payoff": "Odaktaki sayımın tamlığı, insanın nimetleri bütünüyle sayamaması ve tek bir süre üzerinde ölçü karşılaştırması yapması yanında yeni bir ölçek kazanır.",
-      "containment": "Dış pasajların nesneleri nimetler ve uyuyanların süresidir; 19:94'te sayılan kişilerdir. Bu paralel insanların hiçbir şeyi sayamayacağını veya focus ayetin nimetleri ya da süreyi saydığını ileri sürmez.",
-      "epistemic": {
-        "status": "qualified",
-        "source_trust": [],
-        "reason": "14:34, 16:18 ve 18:12'nin exact Arapça yüzeyleri ile odak yönündeki bağlantı notları somut karşılaştırma sağlıyor; hedef morfolojisi verilmediği için ilişki sözcük çözümlemesi değil, sınırlı bağlamsal karşıtlık olarak tutuldu."
-      },
-      "support_ids": [],
-      "branch_activations": [
+          "carrier": "أَحْصَىٰهُمْ is the focus's completed enumeration of a plural object.",
+          "independent_trigger": "19:68 supplies a promised gathering; 58:6 states that God counted what people did though they forgot it; 18:49 says the record omits no small or great deed and that actions are found present.",
+          "activation": "These separate wider scenes of gathering and exhaustive record meet the focus's full enumeration, connecting the count of persons to their presence and actions in final accountability.",
+          "resulting_reading": "The focus's totalizing count resonates as individual accountability with no person or deed simply lost from the wider account.",
+          "boundary": "The focus does not itself name a gathering, a written record, or deeds; the parallels do not make its plural object mean actions."
+        },
         {
-          "branch_ref": "root_000332/B002",
-          "facet_id": "F002",
-          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
-          "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
+          "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
           "application_mode": "contextual_resonance",
-          "carrier_refs": ["19:94:2:1"],
-          "trigger_refs": ["14:34", "16:18", "18:12"],
-          "focus_return_refs": ["19:94:2:1"],
-          "carrier": "أَحْصَىٰهُمْ Form IV sayma fiiliyle çoğul nesneyi bütünüyle kapsar.",
-          "independent_trigger": "14:34 ve 16:18 insanların Allah'ın nimetlerini sayamamasını bildirirken, 18:12 iki topluluğun uyuyanların kalış süresini hangisinin daha iyi saydığını sorar.",
-          "activation": "İnsanların nimetler karşısındaki sayamaması ve tek bir süre üzerindeki karşılaştırmalı ölçüsü, odaktaki bütün kişileri kapsayan sayımla temas eder; değişen şey sayımın nesnesi değil, eriştiği kapsamın ölçeğidir.",
-          "resulting_reading": "19:94'ün sayımı insanın sınırlı veya karşılaştırmalı sayımının karşısında tam bir ilahî kuşatıcılık olarak belirir.",
-          "boundary": "Bu ayetler focus'un kişilerini değil nimetleri ve süreyi konu eder; bağlantı nesne özdeşliği ya da genel insan yetersizliği iddiası değildir."
+          "carrier_refs": ["19:94:3:2", "19:94:4:1"],
+          "trigger_refs": ["19:68", "18:49", "58:6"],
+          "focus_return_refs": ["19:94:3:2", "19:94:4:1"],
+          "carrier": "عَدَّهُمْ عَدًّا repeats the count of the focus's plural object through verb and cognate accusative.",
+          "independent_trigger": "The external contexts place people in a gathering and describe deeds as counted, remembered, and fully present in an account.",
+          "activation": "The focus's emphatic count meets the wider gathering and record scenes, so the count can be heard as an act within personal accountability, not only as a number assigned to a crowd.",
+          "resulting_reading": "The enumeration carries both individual inclusion and the wider prospect of account.",
+          "boundary": "The contexts are distinct parallels; the focus does not state a record or identify the counted plural's deeds."
         }
       ],
       "connection_refs": [
-        "conn_a08e9a3a478e7ef935d1",
-        "conn_50771844e1c8810e9d71",
-        "conn_c7ca909ce172a10ec0ed"
+        "conn_97e04fc489a94e945fc5",
+        "conn_2552031cea320100f8b1",
+        "conn_d4a85d555207c5dde7ec"
       ],
-      "context_refs": ["14:34", "16:18", "18:12"],
+      "context_refs": ["18:49", "19:68", "58:6"],
       "semantic_obligation_refs": []
     }
   ],
   "friction_notes": [
-    "Focus word alignment tamdır (6/6); buna karşılık yedi legacy_unbound HFT reader-summary kaydının anchor evidence sayısı sıfırdır ve hiçbirinde exact context word index, root/role trace veya focus return verilmemiştir. 19:84 sayım yayı, kull-fardan bracket'i ve geniş yönlendirme iddiaları HFT özetlerinden tek başına etkinleştirilemedi.",
-    "Tutulan HFT aday parçaları yalnız 6:94, 58:6 ve 78:29 gibi packet içinde tam metni bulunan bağımsız bağlantılarla sınırlandırıldı; uygulama HFT trace'ine attributed edilmedi. Wider bağlantıların hedef morfolojisi eksik ve bazıları ters yönlü nomination olduğundan hepsi qualified paralel olarak yazıldı.",
-    "Çakıl ve kalıcı su branch'leri için focus dışından bağımsız bir tetikleyici yok; sağlanan yerel çözümleme Form IV sayımı ve cognate accusative sayma yapısını seçiyor."
+    "The focus_word_alignment bridge resolves all six analysis entries and reports no unresolved units. By contrast, all seven assigned legacy HFT reader summaries have empty anchor_refs and branch_refs; they are assessed as unanchored inventory items, and only bounded strands independently supported by supplied connection evidence survive.",
+    "Connection targets provide exact Arabic but no target morphology. Their row notes, reciprocal notes, and labels are discovery nominations only; global relations are qualified where they depend on those nominations, and no target root segmentation or cross-ayah referent identity is asserted."
   ]
 }
