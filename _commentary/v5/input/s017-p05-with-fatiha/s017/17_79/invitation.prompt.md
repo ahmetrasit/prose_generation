@@ -1,0 +1,207 @@
+# V5 reading invitation — 17:79
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p05-with-fatiha/s017/17_79/17_79.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p05-with-fatiha/s017/17_79/17_79.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Gecenin Payı
+
+Ayetin başındaki {ar:وَ, tr:wa, gloss:ve/devam}, önceki söyleyişe yakın bir bağ kurar; aynı zamanda sözü yeniden başlatma ya da öncekiyle eşleme imkânını açık tutar. Tek harflik bağlı biçim, zaman öbeğinin önünde kısa bir eşik kurup sözü hemen emre taşır. Bu bağ açılışı önceki akışa yakın tutar; hâl cümleciği okuması ayrıca gerekmez ve seçilmemiş bağlamdan yeni bir buyruk çıkmaz. Ardından gelen {ar:مِنَ ٱلَّيْلِ, tr:min al-layl, gloss:gecenin bir bölümünden}, önce vakti, sonra işi duyurur: {ar:مِنَ, tr:min, gloss:-den} öneki, içinden bir pay seçilen tanınmış zaman alanı olarak {ar:ٱلَّيْلِ, tr:al-layl, gloss:gece} adını mecrur kılar. Gece, gündüzün karşıtı olan gerçek vakittir; bir ya da birden çok gece diye sayılabilir. Karanlık yüzü de bu gerçek zamanın yanına, gözlerden çekilmiş bir nöbet alanı hissi ekler.
+
+Seçilmiş vakitten eyleme geçişi, emre bitişik duran {ar:فَ, tr:fa, gloss:hemen ardından} kurar: gecenin bir payı, ardından {ar:تَهَجَّدْ, tr:tahajjad, gloss:gece uyanıklığına yönel}. Bu bağlı geçiş zaman öbeğinden emre ani ve kesintisiz bir yol açar; açıklama ya da sebep tonu taşıması mümkünse de sıra tek başına nedensellik bildirmez. Emir ikinci tekil muhataba doğrudan yönelir ve ayette bir kez geçer. Biçimdeki çift ünsüz gece eylemine duyulur, eforlu bir vuruş verir. Fiilin beşinci türetim kalıbı, eyleyeni kendi uykusundan uyanan ya da uyumayı bırakıp uyanık kalan kişi olarak kurar; böylece emir muhatabın kendi uyanıklığını bildirir, başkasını uyandırmayı değil. Önceki gece zamanlaması bu uyanış anlamını etkinleştirir. Yerleşik ibadet kullanımı gece namazına kalkmayı ve namaz kılmayı da kapsar; birazdan gelen nafile sözü, bu bağlamdaki gece eylemini isteğe bağlı ek namaz olarak belirginleştirir.
+
+Buyruğa eklenen {ar:بِهِۦ, tr:bihi, gloss:onunla}, tahajjud fiiline bağlı bir harf-i cer öbeğidir. Tek bağlı biçim, {ar:بِـ, tr:bi, gloss:ile} edatını üçüncü tekil eril {ar:ـهِۦ, tr:hi, gloss:onun} ekiyle birleştirir; bu yüzden zamir muhatabın kendisine değil, gönderimi açık bırakılan başka bir şeye döner. Öbek fiilin doğrudan nesnesi değil, onunla kurulan araç ya da vasıta ilişkisidir. Böylece eylemin nasıl yapıldığı, onun hangi statüde bulunduğundan önce duyulur: bihi öbeği, {ar:نَافِلَةً, tr:nafilatan, gloss:gönüllü ek ibadet}in ek niteliği belirtilmeden önce tamamlanır. Yakın sözdizimi zamirin neye döndüğünü tek başına karara bağlamaz.
+
+Ardından gelen belirsiz mansup {ar:نَافِلَةً, tr:nafilatan, gloss:gönüllü ek ibadet}, gece eylemine ek bir durum ya da amaç verir. Mansup oluşu hâl/durum ile amaç ya da belirtme görevi arasında açık kalır; belirli sayıda kılınacak bir pay göstermez. Nafilahın geniş anlamı zorunlu ibadetin üstüne eklenen edimdir ve sözcük gönüllü namazı da anlatabilir. Bu ayette tahajjudun yerleşik gece namazı kullanımıyla buluşması, nafilahı isteğe bağlı ek gece namazına yerel olarak daraltır. Bu bağ sözcüğün başka kullanımlarını namaza kapatmaz ve kendi başına hukukî hüküm kurmaz.
+
+Nafileyi muhatabın yararına bağlayan {ar:لَّكَ, tr:laka, gloss:senin için}, yarar bildiren lâmı ikinci tekil kişi ekiyle birleştirir: gece ibadetinin faydası ona döner. Lâm yararı muhataba bağlar; başkalarının da bu faydadan yararlanması açık kalır. Aynı muhatap, {ar:تَهَجَّدْ, tr:tahajjad, gloss:gece uyanıklığına yönel} buyruğunda eyleyen, {ar:لَّكَ, tr:laka, gloss:senin için} ifadesinde yararlanan, {ar:يَبْعَثَكَ, tr:yab'athaka, gloss:seni yükseltsin} fiilinde doğrudan nesne, {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} sözünde ise iyelik ekinin gönderdiği kişidir. Kişi sabit kalırken dilbilgisel rolü eyleyenden yararlanana, etkilenene ve Rab ile kişisel bağa doğru değişir.
+
+Buyruktan umulan sonuca geçişi {ar:عَسَىٰٓ, tr:asa, gloss:umulur ki} açar. Sözcük umutlu, kimi kullanımda kaygılı bir beklenti taşır. Kısa {ar:أَن, tr:an, gloss:-mesini} bu beklentinin içeriğini ardından gelen {ar:يَبْعَثَكَ, tr:yab'athaka, gloss:seni yükseltsin} eylemi yapar; aynı zamanda fiili mansup kılar ve asa'nın açtığı tamamlayıcıya bağlar. Beklenti yalnızca yükselme fiilinde durmaz, {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam} vaadine dek uzanır. Makam bu yüzden gerçekleşmiş bir durum değil, bütünüyle umulan sonuç olarak duyulur. Asa'nın uzun söyleyişini kısa an'ın izlemesi de buyruktan vaade geçişte duyulur bir eşik ritmi kurar; bu ses farkı ayrı bir anlam değil, cümle akışı verir. Fiilin ardından açıkça gelen fail {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin}, Tanrı kaynaklı bildirimde asa'ya neredeyse kesinlik veren açıklamaya yer açar; insanın umudunu öne çıkaran okuma da bu güvence ihtimaliyle birlikte kalır.
+
+Beklenen olayda önce muhatabı doğrudan nesne yapan {ar:يَبْعَثَكَ, tr:yab'athaka, gloss:seni yükseltsin} gelir; fiilin {ar:كَ, tr:ka, gloss:seni} eki muhatabı yükseltme eyleminin doğrudan katılımcısı kılar, yalnızca yarar gören ya da dolaylı hedef olarak bırakmaz. Eylemi kimin yaptığı ancak ardından {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} diye adlandırılır: önce yükseliş ve kimin yükseltileceği, sonra fail duyulur. Birinci türetim kalıbındaki yab'athaka'da Rab doğrudan faildir; hareket uyandırma ile yükseltme aralığını taşır, türemiş bir ettirgen gövdeden gelmez. Muhatap ve {ar:مَقَامًا, tr:maqaman, gloss:bir makam} hedefi bu anlam aralığını makama doğru yönelen yükseliş olarak toplar. Böylece buyrukta uyanıklığa çağrılan kişi, beklenen ilahî eylemin nesnesi olarak aynı dizide yeniden görünür.
+
+Yükseltmenin faili olan {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin}, egemen Rab anlamını taşır; aynı adın gözetileni adım adım eksikten tamamlanmış duruma geliştirme kullanımı bu failin eylemine biçimlendirici bir yetiştirme tonu da verir. Egemenlik ve gözeterek geliştirme aynı anda duyulur. Sözcükle ilişkilendirilen ayrı artma ya da yükselme kullanımı, yab'athaka ile makam hedefinin oluşturduğu yukarı yönü derinleştirebilir. İkinci tekil iyelik eki gerçek mülkiyet değil, “senin Rabbin” diye kişiselleşen bir ilişki kurar; aynı muhatap hem fiilin nesnesi hem bu ilişkinin sahibidir.
+
+Belirsiz mansup {ar:مَقَامًا, tr:maqaman, gloss:bir duruş yeri veya makam}, yükselişin sonucu ya da ikinci nesnesi; yahut hedef gösteren bir zarf tümleci olarak anlaşılabilir. Her iki bağlanış da makamı yükseltilen muhatabın varacağı uç olarak kurar, fakat sözdizimi iki seçeneği açık bırakır. Belirsizlik makamın türünü de belirlemez: kalınan ya da ayakta durulan yer somut konumu, dik duruş bedensel kudreti, rütbe ve görev ise toplumsal statüyü duyurur. Bu çağrışımlar aynı hedefte buluşur; yükselten fiil dik duruşu hareketin sonundaki kudret gibi duyururken yer ve statü anlamları da sürer. Yakın cümlede makam insana verilmiş bir hedef olarak belirir; bu bağ, başka yerlerdeki ilahî makamlarla bir karşıtlık kurmaz.
+
+Sıfat olan {ar:مَّحْمُودًا, tr:mahmudan, gloss:övülmüş}, {ar:مَقَامًا, tr:maqaman, gloss:bir makam} niteliğini bildirir: övgü makamın üzerindedir, yükseltme fiilinin doğrudan nesnesi ise hâlâ muhataptır. İki belirsiz isim hem makamın türünü hem övgünün ölçüsünü açık tutar. Ortak “-an” sonlanışıyla iki sözcüğün mîmle başlaması vaat cümlesine kapanan bir ahenk verir. Edilgen sıfat, makamı övülür bulunmuş bir sonuç gibi sunar; önceki gece ibadeti de bu niteliği sonradan tanınan değer ve liyakat gibi renklendirebilir. Mahmudun deneyim ya da sınama sonrasında övülesi bulunma kullanımı bu okumayı besler; sınama sonrası değerlendirme sözlüksel bir yankıdır, ayet kendi sahnesinde sınamadan söz etmez. Bu seyrek edilgen biçim övülmüşlük niteliğini belirginleştirir; nadirliği farklı bir makam tanımı kurmaz. Övgü yankısı makamın insana ait rolünü ilahî övgüyle özdeşleştirmez.
+
+{ar:مَقَامًا, tr:maqaman, gloss:bir makam}ın somut yer çağrışımı, bilinen bir duruş yeri anlatan kullanımla da belirginleşir. Sâffât 37:164'teki {ar:مَقَامٌ مَّعْلُومٌ, tr:maqamun malum, gloss:bilinen bir makam}, kalınan yeri soyut bir iltifattan çok belirli ve düzenli bir konum gibi duyurur. Bu ayrı kullanım odaktaki makamı elle tutulur bir yer olarak düşünmeye yardım eder; katkısı yer imgesidir, iki ayetteki makamların aynı gönderge olduğu iddiası değil.
+
+## Uyanış, Armağan, Yöneliş
+
+Gecenin seçilmiş payını belirten {ar:مِنَ ٱلَّيْلِ, tr:min al-layl, gloss:gecenin bir bölümünden} öbeği içinde {ar:تَهَجَّدْ, tr:tahajjad, gloss:gece uyanıklığına yönel} buyruğu kişinin kendi uykusundan uyanmasını ya da uyumayı bırakıp uyanık kalmasını, {ar:يَبْعَثَكَ, tr:yab'athaka, gloss:seni yükseltsin} ise durgun olanı dış etkenle etkinleştirmeyi duyurur. En'âm 6:60'ta gecede alınmanın ardından {ar:ثُمَّ يَبْعَثُكُمْ فِيهِ, tr:thumma yab'athukum fihi, gloss:sonra sizi orada yeniden harekete geçirir} gelir; gece alınışından sonraki gündüz yeniden etkinleşmesi ilahî kaldırma fiiline somut bir karşılık verir. Zümer 39:42 ise uykuda alınan canların bazılarının tutulmasını, bazılarının bırakılmasını öne çıkar. Bu iki temas aynı olayı anlatmaz: En'âm dönüşü etkinliğe, Zümer uykudaki canların tutulup bırakılmasına ağırlık verir. Yan yana geldiklerinde seçilmiş gece uyanıklığı, Rabbin dışarıdan harekete geçirmesinin küçük bedensel yankısı olur; ilahî kaldırış bu hareketi aşar. Bağ, bu iki uyanış imgesi arasındaki yankıdır; sebep ya da güvence kurmaz ve odaktaki yab'athaka'yı diriltilme anlamına sabitlemez.
+
+Enbiyâ 21:72'de aynı {ar:نَافِلَةً, tr:nafilatan, gloss:ek armağan} sözcüğü ayrı, gönüllü bir bağışı adlandırır: armağan bir borcun ya da yükümlülüğün karşılığı değil, olağanın üstüne verilen artıştır. Bu kullanım, odaktaki isteğe bağlı gece namazına ücretsiz bir armağan rengi katar; nafilahın yerel ibadet anlamı temel okumada kalır. Hemen yanındaki {ar:لَّكَ, tr:laka, gloss:senin için} yararı muhataba yönelttiğinden, ek ibadet ona dönük bir fazlalık gibi duyulur. Bu bağış yankısı {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam} ile vaat arasındaki ilişkiyi gönüllü armağan olarak renklendirir; makamın bedeli ya da otomatik karşılığına dönüştürmez.
+
+Daha deneysel bir gelişim okumasında {ar:نَافِلَةً, tr:nafilatan, gloss:gönüllü ek ibadet} armağanı ücret yerine biçimlendirmenin malzemesidir. Gönüllü gece edimi bu sürecin başlangıcını, {ar:لَّكَ, tr:laka, gloss:senin için} ise gelişimin kime yöneldiğini belirtir. Gözetileni tamamlanmaya doğru geliştiren {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} bu muhatabı {ar:يَبْعَثَكَ, tr:yab'athaka, gloss:seni yükseltsin} hareketiyle {ar:مَقَامًا, tr:maqaman, gloss:bir makam}a taşır; makamın yerleşme, ayak basma ve kalış süresi çağrışımları hareketin sonunda kurulmuş bir duruş imgesi verir. {ar:مَّحْمُودًا, tr:mahmudan, gloss:övülmüş} önceki edimle sonraki makamı deneyimden sonra tanınan değer olarak bağlayabilir. Bu okumada armağan, yöneltilmiş yarar, yetiştirme, yükselme ve yerleşme ayrı katkılarla gelişim çizgisi kurar; gece namazının doğrudan anlamı yanında kalır. Sınama bu çizginin sözlüksel yankısıdır, ayetin bildirdiği bir olay ya da otomatik ödül ve hukukî hüküm değildir.
+
+Yükseltilişin yanında, bir hedefe ya da işe sevk edilme ihtimali de açılır. {ar:يَبْعَثَكَ, tr:yab'athaka, gloss:seni yükseltsin} dışarıdaki bir gönderenin kişiyi yöneltmesini; {ar:مَقَامًا, tr:maqaman, gloss:bir makam}ın bir işi ya da topluluğu sürekli gözetip koruma ve yönetme anlamındaki görev yeri kullanımı ise bu yönelişin sorumluluk taşıyan hedefini duyurur. Bu temas övgüye değer bir görevi ve {ar:مَّحْمُودًا, tr:mahmudan, gloss:övülmüş}un o görevin iyi sözle anılmasını çağrıştırmasına imkân verir. Buradaki görev okuması olasılıklı bir katmandır; makamın yer ve rütbe anlamları da sürer, sözcük bu bağlantıda elçi anlamına dönüşmez.
+
+{ar:عَسَىٰٓ, tr:asa, gloss:umulur ki}nın olağan beklenti anlamına uzak bir kelime ailesi yankısı, gecenin koyulaşmasını ve akışın kesilmesini anlatır. Daha önceki {ar:ٱلَّيْلِ, tr:al-layl, gloss:gece} ile buluştuğunda kararma yeni bir uyanışın eşiğini, kesinti de beklenen hareketten önceki duraklamayı duyurabilir. Bu benzetme beklentideki yükselişe gece karardıktan sonra yeniden başlayan bir akış imgesi ekler. Katkısı bu uzak imgeyle sınırlıdır; odak cümlede asa olağan beklenti kipini ve sözdizimini taşır.
+
+Aynı kelime ailesinin uzak bir ad kullanımı, sütü olmayan ya da sütü olup olmadığı belirsiz dişi deveyi anlatır; ayrı bir açıklama ise sütü kesilmiş devenin sütünün geri dönmesini umar. İlk görüntü, {ar:نَافِلَةً, tr:nafilatan, gloss:gönüllü ek ibadet}in eklenme ve fazlalık anlamını yoksunluk karşısındaki umutla buluşturur. İkinci açıklama, {ar:يَبْعَثَكَ, tr:yab'athaka, gloss:seni yükseltsin}ın dışarıdan etkinleştirme anlamını kesilmiş akışın yeniden başlaması imgesiyle ilişkilendirir. Bu iki uzak sözlüksel yolun katkısı umut ve dönüş benzetmesidir; deveyle süt ayetin sahnesine girmez, odaktaki {ar:عَسَىٰٓ, tr:asa, gloss:umulur ki} da bu anlamları almaz.
+
+{ar:نَافِلَةً, tr:nafilatan, gloss:gönüllü ek ibadet}in uzak takvim kullanımı, fazlalık fikrini ibadetten zamana taşır: bir ayın ilk üç gecesini izleyen ardışık üç geceye bu ad verilebilir. Gerçek gece zamanını seçen {ar:مِنَ ٱلَّيْلِ, tr:min al-layl, gloss:gecenin bir bölümünden} öbeğiyle nafilahın ek olma anlamı buluşunca ikinci üç gece ilkinin ardından eklenen bir vakit gibi duyulur. Bu benzetmenin sınırı da açıktır: odak ayet ayı, bu üçlü sayımı ya da takvimsel ve hukukî bir önerme bildirmez.
+
+## Vakit, Duruş ve Tilavet
+
+Bu gece ibadetinin yeri, çevresindeki namaz vakitleriyle belirginleşir. 17:78 namazı güneşin zevalinden gecenin kararmasına ve fecr tilavetine uzanan bir sıra içinde anar; 17:79'daki {ar:مِنَ ٱلَّيْلِ, tr:min al-layl, gloss:gecenin bir bölümünden} bu çizginin gece evresini seçer. Hemen ardından gelen {ar:فَتَهَجَّدْ بِهِ, tr:fa-tahajjad bihi, gloss:onunla gece uyanıklığına yönel} eylemi, {ar:نَافِلَةً لَكَ, tr:nafilatan laka, gloss:sana ek ibadet} olarak vakitli salât düzeninin içine eklenir; yerini almaz. Tahajjudun yerleşik gece namazı kullanımı bu bağı kurarken {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam} zaman çizgisinde bir namaz vakti değil, pratiğin yanına konan vaat ufkudur. Rabbin yükseltmesi de muhatabın önceden uyumuş olmasına bağlı kılınmaz.
+
+Zaman çizgisinde {ar:غَسَقِ اللَّيْلِ, tr:ghasaq al-layl, gloss:gecenin karanlığa gömülmesi} nöbeti örtülü evreye, 17:78'de iki kez anılan {ar:قُرْآنَ الْفَجْرِ, tr:qur'ana al-fajr, gloss:fecr tilaveti} ise gecenin ardından gelen şafağa yerleştirir. Odaktaki {ar:مِنَ ٱلَّيْلِ, tr:min al-layl, gloss:gecenin bir bölümünden} ve {ar:تَهَجَّدْ, tr:tahajjad, gloss:gece uyanıklığına yönel} gece eylemi, {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam} vaadinden önce geldiği için bu sıra gizli ibadetten görünür bir duruşa uzanan eşik gibi okunabilir. Burada tanıklık imgesinin doğrudan taşıyıcısı 17:78'deki {ar:مَشْهُودًا, tr:mashhudan, gloss:şahit olunan} sıfatının nitelediği fecr tilavetidir; makamın görünürlüğü bu niteliğin vaade doğru genişletilmesinden doğan bir çıkarımdır. Bu özel bağlantı makamın şafakta gerçekleştiğini ya da kesinlikle görüldüğünü söylemez; gece eylemiyle sonraki vaat ayrı da kalabilir.
+
+17:78'deki {ar:أَقِمِ الصَّلَاةَ, tr:aqimi al-salata, gloss:namazı ikame et} olağan anlamıyla salâtı kurma buyruğudur. Aynı kelime ailesinin görüntüleri farklı duruşları taşır: tek kalkış bedenin doğrulma anını, namaz duruşu ibadetin yerleşik tavrını, kök salmış dik bitki toprağa tutunmuşluğu, ayakta duran hayvan ise bedenin dik konumunu duyurur. Ardından gelen {ar:تَهَجَّدْ, tr:tahajjad, gloss:gece uyanıklığına yönel} ayrı bir eylem olarak bu bedenî diklik rengini odaktaki {ar:مَقَامًا, tr:maqaman, gloss:bir makam}a taşır. Bu yankı, aqimi'yi fiziksel “ayağa kalk” diye çevirmekten değil ortak kelime ailesinden doğar; namazı kurma buyruğu ile gece uyanıklığı emri ayrı kalır.
+
+Bu bedenî duruşun görev olarak makamla kesiştiği yer, 17:80'deki giriş ve çıkış duasıdır. {ar:أَدْخِلْنِي مُدْخَلَ صِدْقٍ, tr:adkhilni mudkhala sidqin, gloss:beni doğrulukla girdir} sorumluluğun girişini, {ar:وَأَخْرِجْنِي مُخْرَجَ صِدْقٍ, tr:wa-akhrijni mukhraja sidqin, gloss:beni doğrulukla çıkar} ise çıkışını kurar. Her iki eşikte yinelenen {ar:صِدْقٍ, tr:sidqin, gloss:doğruluk} niteliği, görevin değişen koşullar boyunca sağlam kalmasını ister; {ar:مَقَامًا, tr:maqaman, gloss:bir makam} böylece tek bir varış noktası değil, geçişler boyunca taşınan bir sorumluluk gibi genişler. Allah'tan istenen {ar:سُلْطَانًا نَصِيرًا, tr:sultanan nasiran, gloss:destek veren yetki}, bu göreve kamusal kapasite verir; {ar:نَصِيرًا, tr:nasiran, gloss:yardımcı destek} bu kapasitenin işlemesine eşlik eden yardımı adlandırır. Yetki ile destek ayrı katkılardır: makam yardımın kendisi değildir, dua da bu kapasiteyi insan desteğiyle kazanılmış diye sunmaz. Yer ve rütbe anlamları bu görev yankısının yanında kalır.
+
+Görev geçişler boyunca taşınırken, gece buyruğundaki {ar:بِهِۦ, tr:bihi, gloss:onunla} zamirinin açık gönderimi tilavet çevresinde yeni bir ihtimal kazanır. 17:78'de {ar:وَقُرْآنَ الْفَجْرِ, tr:wa-qur'ana al-fajr, gloss:fecr tilaveti}, 17:82'de {ar:مِنَ الْقُرْآنِ, tr:mina al-qur'an, gloss:Kur'an'dan} anılır; bu iki bağımsız temas Kur'an'ı bihi'nin muhtemel gönderimlerinden biri yapar ve gece namazını önceden verilmiş vahiy ile karşılaşma olarak da duyurur. Zamir gece bölümüne ya da namaza daha dar biçimde dönerse bu daha yerel okuma da mümkündür. Her iki durumda sözdizimi aynı kalır: bihi, {ar:تَهَجَّدْ, tr:tahajjad, gloss:gece uyanıklığına yönel} fiilinin edatlı tamamlayıcısıdır; Kur'an ihtimali fiili doğrudan nesneye veya “okumak” anlamına çevirmekten değil, çevredeki tilavet sözlerinden doğar.
+
+17:82 Kur'an'ı {ar:شِفَاءٌ, tr:shifa, gloss:şifa ve iyileşme} ve {ar:رَحْمَةٌ, tr:rahma, gloss:merhamet} diye niteler: şifa iyileşme imkânını, rahma bu imkânın merhamet çerçevesini duyurur. {ar:بِهِۦ, tr:bihi, gloss:onunla} Kur'an'a dönüyorsa, bu karşılaşma onu kabul eden okur için iyileştirici olabilir; etki kesin değildir. Aynı bağlam haksızlıkta direnenler için {ar:يَزِيدُ, tr:yazidu, gloss:artırır} ve {ar:خَسَارًا, tr:khasaran, gloss:kayıp ve eksilme}yi yan yana getirir: mevcut yöneliş derinleşebilir ve kayıp artabilir. Böylece aynı vahiy karşılaşmasının sonuçları alımlayanın yönelişine göre ayrışır; zararın nasıl oluştuğuna dair ayrıca bir mekanizma verilmez.
+
+Müzzemmil 73:20, gece ibadeti ile Kur'an tilavetinin yan yana gelişine bağımsız bir örnek verir. {ar:تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ, tr:taqumu adna min thuluthayi al-layli, gloss:gecenin üçte ikisine yakın süre ayakta durursun} gece kıyamını, {ar:فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ, tr:faqra'u ma tayassara mina al-qur'an, gloss:Kur'an'dan kolayınıza geleni okuyun} ise kolay gelen Kur'an okumasını getirir. İlki {ar:تَهَجَّدْ, tr:tahajjad, gloss:gece uyanıklığına yönel}in uyanıklık ve gece namazı yönlerine, ikincisi kıraat boyutuna karşılık verir; birlikte bu iki ayrıntı gece ibadetinin tilavetle ilişkilendirilebileceğini düşündürür. Bu örnek, gece ibadetiyle tilavet arasındaki ilişkiyi destekler; edimlerin eşzamanlılığı ve 17:79'daki {ar:بِهِۦ, tr:bihi, gloss:onunla}nin Kur'an'a gönderimi ise bu karşılaştırmada açık kalır.
+
+Vahiy ihtimali, 17:86'daki geri alma olasılığıyla başlar: {ar:لَنَذْهَبَنَّ, tr:lanadhhabanna, gloss:elbette alıp götürürüz} vahyin alınabileceğini bildirirken, aynı ayetteki {ar:أَوْحَيْنَا إِلَيْكَ, tr:awhayna ilayka, gloss:sana vahyettik} bunun önceden verilmiş vahiy olduğunu gösterir. {ar:بِهِۦ, tr:bihi, gloss:onunla} bu söze dönüyorsa gece pratiği alınmış bir imkânla yürür. 17:87'de {ar:رَحْمَةً مِنْ رَبِّكَ, tr:rahmatan min rabbika, gloss:Rabbinin katından bir merhamet} geri alma olasılığının ardından istisna olarak gelir; {ar:إِنَّ فَضْلَهُ كَانَ عَلَيْكَ كَبِيرًا, tr:inna fadlahu kana alayka kabiran, gloss:O'nun lütfu senin üzerinde büyüktür} ise lütfun büyüklüğünü ekler. Bu sıra {ar:نَافِلَةً, tr:nafilatan, gloss:gönüllü ek ibadet}i kendi kendine yeterli meziyet değil, önceden verilmiş ve merhametle korunan nimete gönüllü cevap gibi duyurur; {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için gözetip geliştiren çağrışım da bu bağış çizgisini derinleştirir. Bu bağın kapsamı, bihi'nin vahye döndüğü olası okumadır: 17:87 vahiyden söz ediyor olabilir ve namazı doğrudan açıklamayabilir; bu okuma {ar:مَقَامًا, tr:maqaman, gloss:bir makam}ı satın alınan karşılığa, gece ibadetini de vahyi kazandıran edime dönüştürmez.
+
+17:89'da örneklerin çeşitli biçimlerde tekrar sunulması, ardından gelen reddedişi bir karşılaşmalar dizisi içinde duyurur. {ar:صَرَّفْنَا, tr:sarrafna, gloss:çeşitli biçimlerde sunduk} sunuşların çeşitliliğini, {ar:فَأَبَىٰ, tr:fa-aba, gloss:reddetti} ise kabulün esirgenmesini bildirir; {ar:أَكْثَرُ النَّاسِ, tr:aktharu al-nas, gloss:insanların çoğu} ifadesi ret verenlerin çoğunluk olduğunu ekler. Tekrarlanan sunuşun ardından ret gelmesi, {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam}ın övgü niteliğini o andaki toplumsal kabulden ayırır ve sınama sonrası övülesi bulunma çağrışımına zemin verir. Bu bağlam Kur'an örneklerinin alımlanmasını anlatır; makamı kimin övdüğünü ya da bu övgünün hangi toplulukça ne zaman tanındığını belirlemez. {ar:كُفُورًا, tr:kufuran, gloss:inkâr ve nimeti örtme} reddedişin ayetteki adıdır; nimeti örtme çağrışımı da bu bağlamda işitilebilir, inkâr anlamı yerinde kalır.
+
+## Görev ve Tanıklık
+
+Çoğunluk beğenisinden ayrı tutulan {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam} yeni bir soruyu açar: yükseliş muhatabı hangi yöne taşıyabilir? 17:93'te istenen {ar:أَوْ تَرْقَىٰ فِي السَّمَاءِ, tr:aw tarqa fi al-sama, gloss:ya göğe yükselmen} ve {ar:لِرُقِيِّكَ, tr:li-ruqiyyika, gloss:yükselişin}, kişinin kendi başına yapacağı çıkışı öne sürer. Ayrı bağlamdaki 17:94'ün {ar:أَبَعَثَ اللَّهُ بَشَرًا رَسُولًا, tr:a-ba'atha allahu basharan rasulan, gloss:Allah bir insanı elçi olarak mı gönderdi} sorusu, buna karşılık, Allah'ı gönderen ve insanı gönderilen olarak kurar. Bu karşıtlık 17:79'daki {ar:يَبْعَثَكَ رَبُّكَ, tr:yab'athaka rabbuka, gloss:Rabbinin seni kaldırıp göndermesi} fiiline yükselişin yanında dışarıdan görevlendirilme katmanı ekler: biri kişinin kendi çıkışını, diğeri bir hedefe ya da işe sevk edilmesini öne çıkarır. 17:94'te {ar:بَشَرًا, tr:basharan, gloss:insan} gönderilenin insan oluşunu, {ar:رَسُولًا, tr:rasulan, gloss:elçi} taşıdığı görevi belirtir. {ar:مَقَامًا, tr:maqaman, gloss:bir makam}ın topluluğu gözetip koruma ve yönetme sorumluluğuyla birleşmesi, bu görevlendirme ihtimaline kamusal bir iş verir. Bu okuma yükseltilmiş rütbe ile geleceğe ya da ahirete açılan kaldırılışın yanında kalır; bu bağlantıda maqam elçilikle eşanlamlı olmaz.
+
+Gizli gece eylemi için 17:96 yeterli bir tanık imgesi sağlar: {ar:مِنَ اللَّيْلِ, tr:min al-layl, gloss:gecenin bir bölümünde} insanlardan saklı kalabilen vakti, {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam} övülmüş makam vaadini, {ar:كَفَى بِاللَّهِ شَهِيدًا, tr:kafa billahi shahidan, gloss:Allah'ın şahit olması yeterlidir} ise Allah'ın şahitliğinin yeterli olduğunu taşır. {ar:كَفَى, tr:kafa, gloss:yeterli olmak} bu tanıklığın çoğunluğun kabulüne bağlı olmadığını düşündürür; mahmudun sınanma sonrasında övülesi bulunma çağrışımı da tanığı makamın niteliğini değerlendiren bir merci gibi duyurabilir. Ardından {ar:خَبِيرًا, tr:khabiran, gloss:iç yüzü ve haberi bilen} iç oluşumu, {ar:بَصِيرًا, tr:basiran, gloss:gören ve ayırt eden} ise görünüşün ötesini gören bakışı öne çıkarır; tanıklık böylece gizli pratiğin yalnız sonucuna değil, oluşumuna da açılır. {ar:شَهِيدًا, tr:shahidan, gloss:hazır bulunan tanık} ile makamı birlikte düşünmek tanık önünde durulan yer imgesi verir; bu katkı benzetmedir, dilbilgisel gönderim değil. Bu tanıklık bağlantısı 17:96'yı makamın doğrudan övgüsü olarak okumayı gerektirmez: ayet elçiyle tartışanların durumunu sonuçlandırıyor olabilir, makamı kimin verdiğini belirlemez ve başkalarının övgüsü ihtimalini açık bırakır.
+
+## Övgü, Hesap ve Yön
+
+{ar:مَقَامًا, tr:maqaman, gloss:bir duruş yeri veya makam}ın dik duruş yönüne Tûr 52:48'deki {ar:حِينَ تَقُومُ, tr:hina taqumu, gloss:ayağa kalktığında} tek kalkış ve ibadette doğrulma görüntüsü karşılık verir. Aynı ayetteki {ar:بِحَمْدِ رَبِّكَ, tr:bi-hamdi rabbika, gloss:Rabbini överek} etkin hamd ise edilgen {ar:مَحْمُودًا, tr:mahmudan, gloss:övülmüş} niteliğiyle yankılanır. İlk görüntü övülmüş makama bedensel ibadet duruşu, ikincisi hamd ile övgü arasındaki ses ve anlam yakınlığını ekler; onur toplumsal şöhretten ziyade ibadetle duyulur. Bu bağlantı odaktaki kök ve anlam çağrışımı düzeyindedir: Tûr 52:48'in biçimbilgisi aktarılmaz, iki edim özdeşleştirilmez ve aralarında sebep-sonuç kurulmaz.
+
+Meryem 19:73'te iki topluluk üstünlüklerini {ar:مَّقَامًا وَأَحْسَنُ نَدِيًّا, tr:maqaman wa-ahsanu nadiyyan, gloss:makamca ve meclisce daha üstün} diye karşılaştırır. Makamın yanında meclisin ve orada toplanmış insanların anılması, kalınan yer imgesini toplu oturum ve sosyal mevki yönüne genişletir. Bu sahne, odaktaki {ar:مَقَامًا مَّحْمُودًا, tr:maqaman mahmudan, gloss:övülmüş bir makam}ı sergilenen grup üstünlüğüyle karşılaştıran özel bir sosyal yankı sağlar; bağlantı 19:73'teki tartışmanın tamamını 17:79'a taşımaz ve meclisler hakkında genel bir hüküm kurmaz.
+
+Fâtiha 1:2'deki {ar:الْحَمْدُ لِلَّهِ, tr:al-hamdu lillah, gloss:hamd Allah'a aittir}, odaktaki {ar:مَّحْمُودًا, tr:mahmudan, gloss:övülmüş} ile aynı Arapça övgü ailesindendir. Fâtiha hamdi Allah'a yöneltir; bu çerçevede makamın övülmüş niteliği Allah'tan verilmiş bir değer gibi duyulur ve insan makamı rakip bir tapınma odağı olmaz. Bu bağlantı yalnız 1:2'deki hamd ile odaktaki sıfat arasındaki yankıyı kurar; makamı kimin övdüğünü açık bırakır, insana yönelen övgüyü dışlamaz ve Fâtiha'nın tamamı için genel bir hüküm vermez.
+
+Fâtiha 1:4'teki {ar:مَالِكِ يَوْمِ الدِّينِ, tr:maliki yawmi al-din, gloss:karşılık gününün sahibi}, {ar:مَقَامًا, tr:maqaman, gloss:bir makam}ın duruş yeri anlamını son duruş ve yargı ufkuna açar. Aynı kelime ailesinin insanların diriltilip hüküm için ayağa kalktığı sahneyle teması, yükseltilmiş rütbe ve kamusal görev yanında nihai yargı önünde durma ihtimalini de görünür kılar. Bu, Fâtiha 1:4'ün açtığı bir yargı ufkudur; 17:79 hesap gününü anmadığından bu ufuk makamın tek tanımı ya da zorunlu gönderimi değildir.
+
+Son yön benzetmesi Fâtiha 1:6'daki {ar:الصِّرَاطَ الْمُسْتَقِيمَ, tr:al-sirat al-mustaqim, gloss:dosdoğru yol} ile kurulur. {ar:مَقَامًا, tr:maqaman, gloss:bir makam} duruş yerini bildiren bir isimken mustaqim aynı Arapça kelime ailesinden gelen onuncu türetim kalıbındaki bir sıfattır ve yolu niteler. Ortak dik duruş imgesi makamı varılan yer olmanın yanında doğrultusunu koruyan dengeli bir duruş gibi duyurur; dosdoğru yol çağrısı da bu duruşa rehberli bir yön ekler. Bu, kelime ailesinin açtığı bir benzetmedir: makam sıratla özdeşleşmez ve bu yön imgesi vaat edilen makamı tek başına tanımlamaz.
+
+</editorial_prose>

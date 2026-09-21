@@ -1,0 +1,54 @@
+17:101'deki {ar:تِسْعَ, tr:tisʿa, gloss:dokuz} bilinen dokuz sayısını verir; {ar:ءَايَٰتٍ, tr:āyātin, gloss:ayetler / işaretler} ise bir şeyi tanıtan görünür belirtilerdir. {ar:بَيِّنَٰتٍ, tr:bayyinātin, gloss:açık ve anlaşılır} bu belirtilerin anlamı açığa çıkaran niteliğini korurken, Musa'nın İsrailoğullarına yönelttiği {ar:فَاسْأَلْ, tr:fasʾal, gloss:sor} buyruğu, Musa'nın onlara gelişini anarak ek bir kamusal tanıklık yolu açar; bir sonraki yanıttaki basiret adlandırması ve Firavun'un bildiği iddiası da bu sorunun yanına yerleşir.
+17:102'deki yanıtta Musa bu açık işaretleri {ar:بَصَائِرَ, tr:baṣāʾira, gloss:basiretler} diye, algıyı açan basiretler olarak niteler.
+{ar:عَلِمْتَ, tr:ʿalimta, gloss:biliyorsun} ile Firavun'un bildiğini ileri sürer.
+17:102'deki {ar:أَنزَلَ, tr:anzala, gloss:indirdi} fiili işaretlerin Rabb tarafından gönderildiğini söyler; böylece odakta Musa'ya verilenlerle yanıtın ilahi gönderim sözü aynı işaret kümesine döner.
+Sayı, açık işaretler, İsrailoğullarına yöneltilen soru ve bu yanıt bir araya gelince, sahne sayılmış bir gösterinin ötesine geçip delilin nasıl alındığını ve kaynağının nasıl ileri sürüldüğünü görünür kılar.
+Firavun'un {ar:مَسْحُورًا, tr:masḥūran, gloss:büyülenmiş} nitelemesi Musa'nın algısının saptırıldığını öne sürer; Musa'nın Firavun'un bildiği iddiası ve {ar:بَصَائِرَ, tr:baṣāʾira, gloss:basiretler} içgörü imgesi buna karşılık verir; {ar:أَظُنُّكَ, tr:aẓunnuka, gloss:seni sanıyorum} sanısı kesinleşmemiş bir kanaat olarak da kalabilir, {ar:مَثْبُورًا, tr:mathbūran, gloss:helake uğramış} helak imgesi ise hükmü Firavun'a geri çevirir.
+Ancak İsrailoğullarının yanıtı aktarılmaz; Firavun'un bildiği de bağımsız bir anlatıcı saptaması değil, Musa'nın sözüdür.
+
+17:97-99'daki önceki çizgi, bu açıklığın karşısına alımlamanın farklı sonuçlarını koyar.
+17:97 yol bulanla sapanı ayırdıktan sonra toplanışta {ar:عُمْيًا, tr:ʿumyan, gloss:körler olarak} ve {ar:صُمًّا, tr:ṣumman, gloss:sağırlar olarak} oluşu betimler; 17:98'de {ar:كَفَرُوا, tr:kafarū, gloss:inkâr ettiler} ile ayetleri inkâr edenler anılır.
+17:99 önce görüp görmediklerini sorar ({ar:يَرَوْا, tr:yaraw, gloss:görmek}), ardından insanların çoğunun {ar:أَبَى, tr:abā, gloss:kaçındı} ile kabulden kaçınmasını söyler.
+Bu dizideki körlük ve sağırlık, açık {ar:بَيِّنَٰتٍ, tr:bayyinātin, gloss:açık ve anlaşılır} işaretler karşısında alımın tıkanabileceğini; 17:98'de işaretleri inkâr, aynı işaret söz dağarcığını reddetmeyi; 17:99'da görme sorusunu izleyen kaçınma ise erişimin kabulü zorunlu kılmadığını gösterir, dolayısıyla açıklık anlaşmayı garanti etmez.
+Bu akış, açık işaretlerin erişilebilirliği ile alıcının yanıtını birbirinden ayırır; açıklık ve reddediş aynı anlatı çerçevesinde yan yana kalabilir.
+Önceki ayetlerdeki topluluk Firavun diye tanıtılmaz; bu sıra onun niyetine ya da her reddedene tek bir teşhis koymadan, açık delilin reddedilebilmesi ihtimalini gösterir.
+
+Bu algı çatışması 17:101-102'de iki konuşmacının hükümlerinde keskinleşir.
+Firavun, {ar:مَسْحُورًا, tr:masḥūran, gloss:büyülenmiş} nitelemesiyle Musa'nın algısının değiştirilmiş olduğunu öne sürer; söz, yanıltılma ve gözün gerçekte olmayanı görmesi imgesini taşır.
+Musa'nın karşılığındaki {ar:لَقَدْ عَلِمْتَ, tr:laqad ʿalimta, gloss:gerçekten bildin} Firavun'un bu açık işaretleri bildiğini ileri sürer; onları {ar:بَصَائِرَ, tr:baṣāʾira, gloss:basiretler} diye algıyı açan içgörü kaynakları olarak niteler, {ar:أَنزَلَ, tr:anzala, gloss:indirdi} ile de gönderilmiş deliller olarak çerçeveler; büyü nitelemesine karşı böylece iki ayrı algı açıklaması karşı karşıya gelir.
+Firavun'un {ar:أَظُنُّكَ, tr:aẓunnuka, gloss:seni sanıyorum} hükmü, {ar:مَسْحُورًا, tr:masḥūran, gloss:büyülenmiş} suçlayıcı yüklemi ve Musa'nın bilme itirazıyla bir itham olarak işitilebilir.
+Firavun'un {ar:أَظُنُّكَ, tr:aẓunnuka, gloss:seni sanıyorum} sözü kesinleşmemiş bir kanaat olarak da okunabilir; ancak {ar:إِنِّي لَأَظُنُّكَ, tr:innī la-aẓunnuka, gloss:gerçekten seni sanıyorum} vurgusu, suçlayıcı sıfatı ve Musa'nın bilgi iddiasından sonra aynı kalıbı ters yönde kurması, belirtiye dayalı daha güçlü bir kanaat ya da açık bir suçlama imkânını da korur.
+Musa'nın {ar:وَإِنِّي لَأَظُنُّكَ, tr:wa-innī la-aẓunnuka, gloss:ben de seni sanıyorum} diye aynı vurgulu kalıba dönüp Firavun'a {ar:مَثْبُورًا, tr:mathbūran, gloss:helake uğramış} demesi, helak imgesini bu kez Firavun'a yönelterek büyülenmiş suçlamanın hedefini tersine çeviren bir karşı hükümdür.
+Firavun'un {ar:قَالَ, tr:qāla, gloss:dedi} fiili olağan olarak yalnızca söylemeyi bildirir; fakat büyü nitelemesi ile Musa'nın "biliyorsun" karşılığı, sözü gerçeğe aykırı bir isnat olarak duyma olanağı açar.
+Aynı vurgulu zann kalıbının karşıt hedef ve yüklemlerle yinelenmesi, Firavun'un ilk sözünü tekil bir şüpheden çıkarıp kamusal bir karşı hüküm alışverişine dönüştürür.
+Bu karşıtlık, Firavun'un büyü nitelemesinin doğaüstü etki mi, aldatma mı, yoksa düşmanca bir itham mı olduğunu belirlemez.
+Bu dönüş ne Firavun'un iç kesinliğini kanıtlar ne de Musa'nın sözünün ötesinde onun bildiğini doğrular; yanıt gerekçeli bir karşı hüküm de sözlü bir misilleme de olabilir.
+
+17:100'de insanlar, {ar:خَزَائِنَ رَحْمَةِ رَبِّي, tr:khazāʾina raḥmati rabbī, gloss:Rabbimin rahmet hazineleri} ellerinde bulunsaydı harcamaktan korkup geri tutacaklarını ({ar:أَمْسَكْتُمْ, tr:amsaktum, gloss:tutardınız}) ve {ar:قَتُورًا, tr:qatūran, gloss:eli sıkı} davranacaklarını varsayar.
+Rahmet hazinelerini harcamadan tutma ve eli sıkı olma varsayımının hemen ardından, 17:101 Allah'ın Musa'ya dokuz işaret verdiğini bildirir ({ar:ءَاتَيْنَا, tr:ātaynā, gloss:verdik}); insanın saklama hareketi ile ilahi veriş böylece karşıt hareketler olarak buluşur ve işaretler dolaşıma açılmış bir delil olarak görünür.
+Bu karşıtlık, verilen işaretleri Firavun'dan onay zorlayan bir talep olmanın yanında, saklanmamış ve dolaşıma açılmış bir delil olarak anlamayı genişletir.
+Komşu ayet rahmet hazinelerini işaretlerle özdeşleştirmez ve bu insan tutumunu Firavun'a özel bir cimrilik suçlamasına dönüştürmez; rahmet, verişle kurulan benzetmenin kaynağı olarak kalır.
+
+17:101'deki {ar:فَاسْأَلْ, tr:fasʾal, gloss:sor} buyruğunun muhatabı {ar:بَنِي إِسْرَائِيلَ, tr:banī isrāʾīl, gloss:İsrailoğulları}dır; topluluğun soy adı 17:104'te yeniden anılır.
+Soru, soy bağıyla adı yinelenen topluluğu muhatap alır; onu izleyen yerinden etme, Firavun'un boğulması, yerleşme ve gelecek toplanış bu topluluğun tarih taşıdığını gösterir.
+Sonraki anlatıda Firavun onları {ar:يَسْتَفِزَّهُم, tr:yastafizzahum, gloss:yerlerinden etmeye} girişir, ardından Firavun ve yanındakiler {ar:أَغْرَقْنَاهُ, tr:aghraqnāhu, gloss:onu boğduk} sözüyle boğulur.
+17:103, yerinden etme girişimini Firavun ve yanındakilerin boğulmasıyla tersine çevirir.
+17:104'te topluluğa {ar:ٱسْكُنُوا, tr:uskunū, gloss:yerleşin} denir; {ar:لَفِيفًا, tr:lafīfan, gloss:topluca, karışık gruplar halinde} ifadesiyle farklı kolların gelecekte bir araya gelişi de bildirilir.
+17:104, yerleşme buyruğunu topluluğun gelecekte farklı kollar halinde bir araya gelişiyle tamamlar.
+Bu soyla anılan topluluğun yerinden edilme tehdidinden yerleşmeye ve gelecek bir araya gelişe uzanan tarihi, soruyu yaşayan sonuçları taşıyan bir topluluk tanıklığına bağlar.
+Soy adının sürmesiyle yerinden etme ve yeniden yerleşme sahnelerinin ardışıklığı, Musa'nın gelişi hakkındaki soruyu topluluğun yaşanmış geçmişine bağlar.
+Yine de metin her İsrailoğlunun işaretleri gördüğünü ya da topluluğun eksiksiz bir arşiv olduğunu söylemez; sıradan tarihsel doğrulama da mümkündür.
+
+Dokuz sayısı burada kardinal dokuz olarak kalır: işaretler için sekizden dokuza tamamlanma bildiren bir eylem yoktur.
+17:105-106'da Kur'an {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:hak ile} gönderilir, {ar:أَنزَلْنَٰهُ, tr:anzalnāhu, gloss:onu indirdik}, {ar:نَزَلَ, tr:nazala, gloss:indi} ve {ar:نَزَّلْنَٰهُ, tr:nazzalnāhu, gloss:onu bölüm bölüm indirdik} iniş sözleri yinelenir, {ar:فَرَقْنَٰهُ, tr:faraqnāhu, gloss:onu bölüm bölüm ayırdık} ile bölümlenir ve {ar:عَلَىٰ مُكْثٍ, tr:ʿalā mukth, gloss:aralıklarla} ölçülü aralıklarla okunur; bu modelin Musa'ya verilmiş görünür {ar:ءَايَٰتٍ, tr:āyāt, gloss:işaretler} kümesi ve odaktaki kardinal {ar:تِسْعَ, tr:tisʿa, gloss:dokuz} sayısıyla yan yana gelmesi yalnızca yapısal bir benzetme kurar: dokuz işaret zaman içinde ayrı ayrı karşılaşılabilecek bir dizi olarak düşünülebilir, fakat sonraki Kur'an tilaveti Musa'nın işaretlerinin tarihsel teslim sırasını vermez; dokuz burada yalnızca miktarı gösterir.
+Aynı çevrede odaktaki {ar:ءَاتَيْنَا, tr:ātaynā, gloss:verdik} verme fiili, 17:107'de bilgi verilenleri anlatan {ar:أُوتُوا الْعِلْمَ, tr:ūtū al-ʿilm, gloss:bilgi verilenler} ile yinelenir; Kur'an kendilerine {ar:إِذَا يُتْلَىٰ عَلَيْهِمْ, tr:idhā yutlā ʿalayhim, gloss:kendilerine okunduğunda} okunduğunda gelen yanıt, bu iki verişi farklı alımlama sahneleri olarak yan yana getirir.
+Bu okuma karşısında onlar {ar:يَخِرُّونَ, tr:yakhirūna, gloss:yere kapanırlar} ve {ar:سُجَّدًا, tr:sujjadan, gloss:secde ederek} karşılık verir; 17:109'da {ar:يَبْكُونَ, tr:yabkūna, gloss:ağlarlar} ve {ar:وَيَزِيدُهُمْ خُشُوعًا, tr:wa-yazīduhum khushūʿan, gloss:huşularını artırır} sözleri bu karşılığı gözyaşı ve derinleşen huşuya taşır.
+17:107-109'un Kur'an tilaveti sahnesi, odaktaki verme fiilini bilgi verilenlerin okuma, secde, ağlama ve artan huşu tepkisine bağlar.
+Odaktaki veriş ile bilgi verilenlerin okunan Kur'an karşısında yere kapanıp secde etmesi, ardından ağlayıp artan huşuyla karşılık vermesi birlikte düşünüldüğünde, alımlama bilgi iddiasından bedensel ve duygusal yanıta uzanır.
+Bu sonraki Kur'an tilaveti sahnesi Musa'nın dokuz işaretine verilmiş tarihsel bir cevap değildir; iki sahne paralel kalabilir.
+
+17:101'deki {ar:بَيِّنَٰتٍ, tr:bayyinātin, gloss:açık ve anlaşılır} olağan anlamıyla açık işaretleri niteler; 17:110'daki {ar:بَيْنَ ذَٰلِكَ, tr:bayna dhālika, gloss:ikisinin arasında} ise aynı b-y-n kök çevresinde gerçek bir aralığı anlatır.
+17:110'da {ar:تَجْهَرْ, tr:tajhar, gloss:sesini yükselt} ile {ar:تُخَافِتْ, tr:tukhāfit, gloss:sesini alçalt} karşıt ses düzeyleri belirtilir; {ar:سَبِيلًا, tr:sabīlan, gloss:yol} bu iki uç arasında aranır.
+Bu ses düzeyleri ve aralarındaki yol, odaktaki açıklıkla temas ederek açıklığı iki uç arasında işleyen bir ayrım olarak düşünmeye izin verir.
+Bu yapısal benzetme, odaktaki açıklığın sırf en yüksek görünürlük değil, geçilebilir bir ayrım kuran arabuluculuk olabileceğini düşündürür; bu aralık açıklık sıfatının sözlük karşılığı değildir, açık işaretlerin olağan anlamı yerinde kalır ve 17:110'un belirleyici bir katkı sunmadığı okuma ile onu destekleyen gerekçeler canlıdır.
+17:110'un bu ayete belirleyici bir anlam katkısı sunmadığı yönündeki okuma ve onu destekleyen gerekçeler de canlıdır; bu yüzden aralık düşüncesi açıklık sıfatının sözlük karşılığı değil, karşı uçları koruyan keşif düzeyinde bir yapısal benzetme olarak kalır.

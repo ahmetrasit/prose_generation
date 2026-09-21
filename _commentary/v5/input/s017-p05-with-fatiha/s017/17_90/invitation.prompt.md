@@ -1,0 +1,193 @@
+# V5 reading invitation — 17:90
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p05-with-fatiha/s017/17_90/17_90.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p05-with-fatiha/s017/17_90/17_90.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Bir Eşiğin Sesi
+
+(17:90)'da konuşan grup elçiye inanmayı bir koşula bağlar: “Sen bizim için yeryüzünden bir pınar fışkırtmadıkça sana inanmayız.” {ar:لَن نُّؤْمِنَ لَكَ حَتَّىٰ تَفْجُرَ لَنَا مِنَ ٱلْأَرْضِ يَنۢبُوعًا, tr:lan nuʾmina laka ḥattā tafjura lanā mina l-arḍi yanbūʿan, gloss:yerden bize bir pınar fışkırtmadıkça sana inanmayız} kuruluşunda kabul ertelenir; istenen kaynak hem görülebilir bir işaret hem de konuşanlar için somut bir yarardır. Pınarın çıkışı sözde kabulün ileri sürülen eşiğidir; anlatım talebin gerçekleştiğini bildirmez.
+
+Bu koşul, hemen önceki ret akışının içinde duyulur. Kur'an'a benzer bir şey getirme meydan okumasının ardından (17:88), örneklerin türlü biçimlerde sunulduğu ve insanların çoğunun yine de yüz çevirdiği belirtilir (17:89). {ar:صَرَّفْنَا, tr:ṣarrafnā, gloss:çeşit çeşit sunduk} ve {ar:مِن كُلِّ مَثَلٍ, tr:min kulli mathalin, gloss:her tür örnekten} sunumun çeşitliliğini; {ar:فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ, tr:fa-abā aktharu n-nāsi, gloss:insanların çoğu yüz çevirdi} ve {ar:إِلَّا كُفُورًا, tr:illā kufūran, gloss:inkârdan başkasını seçmedi} ise karşılığı görünür kılar. Bu sıranın ardından {ar:حَتَّىٰ, tr:ḥattā, gloss:-ıncaya kadar} ile ertelenen pınar isteği yeni bir kabul eşiği gibi işitilir. Önceki örneklerin bu konuşanlara yetip yetmediği dizilişten anlaşılamaz; gerçekten karşılanmamış başka bir kanıt türünü sınama ihtimalleri de açık kalır.
+
+Başlangıçtaki {ar:وَ, tr:wa, gloss:ve}, (17:89)'daki ret akışına bağlanırken {ar:قَالُوا۟, tr:qālū, gloss:dediler} yeni bir grup alıntısını başlatır; arada bağımsız bir söyleyiş aralığı duyulmaz. Üçüncü çoğul geçmiş biçimindeki qālū, grubun sözünü tamamlanmış bir sesli eylem olarak sunar ve açtığı alıntı (17:93)'e kadar sürer. Bu biçim konuşanları alıntı içindeki çoğul grup olarak verir; bireysel kimlik ve unvanı belirtmez, sözü dolaşan bir söylenti değil söylenmiş bir söz olarak kurar. Qālūnun ilk sesi kısa ve tok bir başlangıç duyurur; bu yerel tını konuşmanın yüksekliğini belirlemez. Benzer meydan okuyan grup sözlerinin qālū ile açılması (17:49, 17:94), aynı sure içindeki sınırlı bir tekrardır.
+
+Alıntının ilk cümlesinde {ar:لَن, tr:lan, gloss:geleceğe dönük olumsuzluk}, hemen ardından gelen mansub muzarî {ar:نُّؤْمِنَ, tr:nuʾmina, gloss:inanmak} fiilini yöneterek geleceğe dönük vurgulu bir ret kurar. Nuʾmina IV. babın birinci çoğul biçimidir; grubun inanma ve kabul eylemini ortaklaştırır, ettirme anlamı taşımaz. Olumsuzluğun kapsamı alıntıda belirtilen gelecek tutumudur. Lan ile fiilin başındaki burun sesleri reddi işitilir biçimde birbirine bağlar; nuʾmina'nın içindeki hemze de kısa bir ses yakalanması duyurur. Bu ses yakınlığı fiile yeni bir sözlük anlamı katmadan sözün iç bağını belirginleştirir. Kalıbın (17:93)'te yeniden görünmesi talep dizisinin başını ve sonunu çerçeveler; ara cümlelerin tümü aynı formülü kullanmaz.
+
+{ar:نُّؤْمِنَ, tr:nuʾmina, gloss:inanmak} olağan olarak bir sözü, haberi ya da iddiayı doğru sayıp kabul etmektir. Kabul {ar:لَكَ, tr:laka, gloss:sana} ile belirli muhataba yönelince onun güvenilirliği de ilişkinin içine girer: konuşanlar yalnız bir haberin doğruluğunu değil, elçiye güvenip güvenmemeyi de söz konusu eder. Güven burada fiziksel tehlikeden korunmaya değil, muhatabın güvenilirliğine yönelir. {ar:قَالُوا۟, tr:qālū, gloss:dediler} ile nuʾmina yan yana geldiğinde söz tutumu alıntı içinde sesle ortaya koyar; koşullu ret, kabulü geri tutan bir duruşa dönüşür. İnanma önündeki engel hemen sonraki açıklamada adlandırılır (17:94): {ar:مَنَعَ, tr:manaʿa, gloss:engellemek}. Bu temas 17:90'daki reddi açıklar; başka inanmama durumlarını tek bir nedene indirgemez.
+
+Muhataba yönelen {ar:لَكَ, tr:laka, gloss:sana} ile yararı belirten {ar:لَنَا, tr:lanā, gloss:bize / bizim için} aynı lâm edatını farklı görevlerde kullanır: ilki güvenin kime yöneldiğini, ikincisi istenen eylemden kimin yararlanacağını gösterir. Nuʾmina'nın birinci çoğul öznesiyle lanā'daki “biz” de aynı gruptur; konuşanlar önce güvenmeyi üstlenmeyen fail, sonra pınarı isteyen yararlanıcı olur. Böylece muhataba güvenmeyi geri çekmekle kendileri için kaynak istemek bir koşullu müzakere gibi duyulabilir. Bu olası müzakere tonu lâm görevleri arasındaki ilişkiden doğar; qālū fiilinin sözlük anlamı veya kanıtlanmış bir mübadele niyeti değildir.
+
+Retten istenen işe geçişi {ar:حَتَّىٰ, tr:ḥattā, gloss:-ıncaya kadar} kurar. Nuʾmina'dan sonra, muhataba yöneltilen mansub {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} fiilinden önce gelen ḥattā, ikinci tekil kişiyi doğrudan eylemin faili yapar ve bu eylemi inanmanın koşuluna bağlar. Koşul cümlesi yararlanıcıyı {ar:لَنَا, tr:lanā, gloss:bize / bizim için}, kaynağı {ar:مِنَ ٱلْأَرْضِ, tr:mina l-arḍi, gloss:yeryüzünden} ve istenen pınarı {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar} birlikte kapsar; akış grubun ret sözünden muhataptan beklenen işe döner. Önceden ilan edilen lan meydan okuyan tonu verir, ḥattā'nın kurduğu gerçek koşul ise bu tonu somut bir eyleme bağlar. Cümle böylece meydan okuyan bir gerçek koşul taşır; talep yalnızca blöfe veya tarafsız bir bilgi sorusuna indirgenmez. İstenen eylem koşul düzeyindedir, gerçekleşmesi anlatılmaz.
+
+İstenen eylemin ilişkileri kelime sırasıyla açılır: {ar:لَنَا, tr:lanā, gloss:bize / bizim için} fiilden sonra yararlanıcıyı duyurur; {ar:مِنَ ٱلْأَرْضِ, tr:mina l-arḍi, gloss:yeryüzünden} menşei verir; fiilin doğrudan nesnesi {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar} ise en sona kalır. Okur önce kimin için, sonra nereden, en sonunda ne istendiğini duyar; gecikme beklenti yaratırken pınarın dilbilgisel görevini değiştirmez. Min'in sonundaki n ile ardından gelen yer adının sınırda işitilmesi kaynak öbeğinin ses akışını birleştirir.
+
+{ar:مِنَ ٱلْأَرْضِ, tr:mina l-arḍi, gloss:yeryüzünden} içindeki min'in yönettiği {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü}, belirli, tekil ve mecrur bir isimdir; öbek bütünüyle {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} fiilinin kaynak tümlecidir. Bu kuruluşta eylemi yapan hitap edilen muhataptır; yeryüzü pınarın çıktığı kaynak konumundadır. Belirli tekil biçim tanınabilir fiziksel yeryüzüne işaret eder, alanın genişliğini ayrıca ölçmez. “Alt katman” hissi yalın isimden değil, pınarın zemini yararak çıkışından doğar; bazı tamlamalarda görülen alt anlam, burada yeryüzü sözcüğünün tek başına karşılığı değildir. Açılan zemin imgesi kaynak çıkışını somutlaştırır, belirli bir jeolojik mekanizma kurmaz.
+
+Yeryüzünden istenen {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar}, suyun doğal bir gözden ya da çıkış noktasından belirmesini ve o kaynak yerini adlandırır. Mansub, belirsiz tekil isim {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} fiilinin doğrudan nesnesidir: genişçe yarma eyleminin beklenen sonucu somut bir pınardır. Belirsiz biçim hangi pınarın istendiğini açık bırakır; kaynağın varlığını değil kimliğini belirtir. Anlatım, pınarın nasıl oluşturulacağını bir aletle, çıkış yerini de ayrıca belirlenmiş bir konumla sınırlandırmaz. Sonundaki tanvin sözcüğü burun sesiyle kapatırken bu tek kaynağın kimliğini adsız bırakır.
+
+Bu sonucu isteyen {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} fiilinin olağan fiziksel kullanımı genişçe yarıp bir açıklık açmaktır. {ar:مِنَ ٱلْأَرْضِ, tr:mina l-arḍi, gloss:yeryüzünden} neyin açılacağını, {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar} ise hangi su sonucunun beklendiğini belirleyince yarılma, açılan yerden suyun akabildiği fiziksel bir eylem olur. Fiilin kanonik biçimi I. babdan, ikinci tekil kişi mansub muzarîdir; hitap edilen muhatap yarıp açan faildir. Kabul edilmiş ettirgen varyant suyun çıkışına kimin sebep olduğu sorusunu duyurabilir; odaktaki kanonik biçim değişmeden kalır ve Türkçe çeviri ettirgenlik gerektirmez. Fiilin kısa, belirgin sesi eylemi öne çıkarır; karşılaştırılan sınırlı örneklerde seyrek görünmesi yalnız bu örneklemle sınırlı bir izlenimdir.
+
+Bu yarma eylemi, yeryüzünü yarıp geçememe sınırını dile getiren önceki uyarıyla temas eder (17:37). {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} ile {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} birlikte pınar talebine o sınırın ağırlığını taşır: 17:37'de bildirilen sınır 17:90'da aşılmış değildir, eylem istek olarak kurulur. Bu bağlamsal temas fiziksel talebe ayrıca metafizik bir mekanizma yüklemez.
+
+Fiil, kaynak ve pınar birlikte okunduğunda istenen şey gerçek bir su çıkışıdır. Musa'nın taşa vurmasıyla on iki pınarın açıldığı ve her topluluğun içeceği yeri bildiği sahne (2:60), suyun belirmesini erişim ve paylaşım düzenine bağlar. Hurma ve üzüm bahçeleri içindeki kaynaklar suyu ekili bir peyzaja yerleştirir (36:34); yağmurun yere işleyip kaynaklara, ardından farklı renklerdeki ürünlere ulaşması dolaşımın daha geniş halkalarını gösterir (39:21). Bu örnekler suyun açığa çıkışı, kullanımı ve ürünle ilişkisini ayrı ayrı aydınlatırken, 17:90 talebi bu geniş dolaşımı tek ve kimliği belirtilmemiş bir pınarda toplar. Bahçe ve ürün çağrışımı maddi yararı belirginleştirir; örnekler kendi olay ve aktörlerinde kalır. 39:21'deki çoğul kaynaklar da odaktaki belirsiz tekil pınarın dar ölçeğini görünür kılar.
+
+Bu su peyzajları kaynağı bahçe ve ürüne bağlayarak isteği geçim ve beslenme yararına genişletir. Odaktaki {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar} ile {ar:لَنَا, tr:lanā, gloss:bize / bizim için} kaynak ve grup yararını aynı istekte buluşturur; hurma-üzüm bahçeleri ve farklı renklerdeki ürünler bu temasa tarımsal geçim boyutu ekler (36:34, 39:21). Bu, {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} sözcüğünün bağlam içindeki çağrışımıdır, yalın anlamı değil: yumuşak ve bitki veren toprak yüzü ancak niteliği belirtilen kullanımlarda tanıklanır. Bu bağlantı odaktaki yeryüzünü verimli diye nitelemez ve istenen su için ürün garantisi vermez.
+
+Pınar, suyun çıktığı yeri de adlandırdığı için görünür kaynak ile ona erişebilmek ayrı boyutlardır. Yeryüzünün kaynaklar halinde yarılıp suların birleşerek taşkına dönüştüğü sahne (54:12), açığa çıkan suyun bolluk ve taşma yönünü öne çıkarır. Suyun yerin derinliklerine çekilmesi halinde kimin akıp gelen suyu getireceği sorusu ise erişimin kesilebileceğini düşündürür (67:30). Bu karşıt sahneler çıkış ile kullanılabilirliği ayırır; 17:90'a katkıları erişimin koşullu oluşunu göstermektir, pınarı taşkın ya da çekilmiş su diye yeniden tanımlamak değil. {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar} bu bağlantıda kaynağın kullanılabilirliği sorusunu açar; suyun kesinlikle çıkacağını veya yarar sağlayacağını bildirmez.
+
+Yeryüzünün açılması suyu görünür kılar; pınar onu bir kaynak yerinde toplar, süreklilik taşıyan akış ise kaynağın incelenebilirliğini ekler. Bu bağlantıda “gizli” olan, henüz görünmeyen suyun açığa çıkışıdır; odak fiziksel pınarı ister ve talebin gerçekleştiğini bildirmez. {ar:نُّؤْمِنَ, tr:nuʾmina, gloss:inanmak} fiilindeki güven, {ar:لَنَا, tr:lanā, gloss:bize / bizim için} yararlanıcısı ve {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar} birleşince grup için erişilebilir, sürekliliği olan kaynak maddi güvence gibi duyulabilir. Bu okuma ayrı bir metafizik sır veya jeolojik rezerv iddiası değildir. Güvence burada olası bir duyumdur; erişim sorusunu açık bırakan örnek (67:30) onu koşullu kılar ve tek güdü olduğunu göstermez.
+
+Yarılma imgesi aynı kökün başka bir biçimiyle tan vakti çağrışımına açılır. Odaktaki {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} yeryüzünü yarıp su çıkarma eylemidir; tan vaktini adlandıran {ar:ٱلْفَجْرِ, tr:al-fajr, gloss:tan vakti} geceden beliren şafağı gösterir (17:78). Ortak kök belirme çağrışımını taşırken fiil ile isim, su ile aydınlık ayrımını korur. Tan vaktindeki tilavet {ar:مَشْهُودًا, tr:mashhūdan, gloss:tanıklık edilen} diye nitelenir (17:78); {ar:كَفَىٰ بِٱللَّهِ شَهِيدًا بَيْنِي وَبَيْنَكُمْ, tr:kafā bi-llāhi shahīdan baynī wa-baynakum, gloss:Allah aramızda tanık olarak yeter} sözü de tanıklık temasını sürdürür (17:96). Bu yan yana geliş, pınar talebini seçilen maddi kanıt olarak bırakırken okuru daha önce tanıklık edilmiş tilavet ve Allah'ın tanıklığı karşısında düşünmeye yöneltir. Bağlantı kanıtın nasıl duyulduğunu değiştirir, konuşanların niyetini belirlemez.
+
+İşaret talebinin yanında, daha önce indirilmiş mesajın alıcılarda farklı etkiler bırakması da belirginleşir. Kur'an'dan indirilen inananlar için şifa ve rahmet olurken, yanlış yapanların kaybını artırır (17:82): {ar:وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ, tr:wa-nunazzilu mina l-qurʾāni, gloss:Kur'an'dan indiriyoruz}, {ar:شِفَآءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ, tr:shifāʾun wa-raḥmatun li-l-muʾminīna, gloss:inananlara şifa ve rahmet} ve {ar:وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًا, tr:wa-lā yazīdu ẓ-ẓālimīna illā khasāran, gloss:yanlış yapanların kaybını artırır}. Odaktaki {ar:نُّؤْمِنَ, tr:nuʾmina, gloss:inanmak} tasdik fiiliyle bu alımlama farkı yan yana gelince, pınar isteği etkisi alıcıya göre değişen, zaten iletilmiş mesajın karşısında duyulur. Bu ilişki kabulün farklı sonuçlarını aydınlatır; 17:90'daki kişilerin neden inanmadığını tayin etmez, ayrı bir kanıtı içtenlikle arama ihtimalini de açık bırakır.
+
+Koşullu kabulün başka örnekleri, işaret ile inanma arasındaki bağı farklı yönlerden açar. Önceki elçilerin açık işaretlerinden sonra kurbanı ateş yiyene kadar inanmayı erteleyenler anlatılır (3:183); bir işaret gelirse inanacaklarına yemin edenlerin yine de inanmayabileceği belirtilir (6:109). İlk sahne koşulu somut bir kurban işaretine bağlar, ikincisi yeminin sonucu güvenceye almadığını gösterir. Böylece {ar:حَتَّىٰ, tr:ḥattā, gloss:-ıncaya kadar} ile ertelenen kabul imanı garanti eden bir neden-sonuç vaadine dönüşmez. Bu karşılaştırmalar kendi konuşanları ve olaylarıyla sınırlıdır; 17:90'daki olası içten kanıt arayışını geçersiz kılmaz.
+
+Olağanüstü kanıtın ölçeği, kabulü tek başına belirlemez. Meleklerin indirilmesi, ölülerin konuşması ve her şeyin önlerine toplanması bile inanmayı zorunlu kılmaz (6:111). Elçilere verilene benzer bir pay beklenmesi ise dikkati gösteriden elçinin statüsüne taşır (6:124); imanın zorlanıp zorlanamayacağını soran ifade, kanıt ile gönüllü kabul arasındaki mesafeyi açar (10:99). Bu üç karşılaştırma, sırayla olağanüstü gösterimin sınırını, elçi payına yönelen talebi ve cebrin iman üretemeyeceği sorusunu öne çıkarır. Her biri kendi sahnesini aydınlatır; 17:90'daki konuşanların kimliğini veya ortak bir güdüyü belirlemez.
+
+Suredeki önceki işaretler bu olasılığa somut karşılıklar verir: Semud dişi deve işaretine haksızlık ederek karşılık verir (17:59); Musa'ya verilen dokuz açık işaretten sonra Firavun onu büyülenmiş sayar (17:101). Olağanüstü işaretlerin kabulü zorunlu kılmadığı düşüncesi de başka bir sahnede belirir (6:111). Yaratılış üzerine düşünme çağrısı bu çizgiye ancak geriye dönük özette katılır (17:99). Bu örnekler pınarı önceki işaretlerden sonra gelen yeni bir eşik gibi duyurabilir; aynı diziliş biriken talepler kataloğu okumasına da açıktır. Bağlantı kasıtlı şart yükseltildiğini kanıtlamaz; ayetlerdeki konuşanlar farklıdır ve 17:90'daki grubun niyeti belirlenmez.
+
+Grup adına konuşma, sınırlı bir Fâtiha karşılaştırmasında başka bir dua yönelimiyle kesişir. “Yalnız senden yardım dileriz” ve “bizi dosdoğru yola ilet” denir (1:5, 1:6): {ar:إِيَّاكَ نَسْتَعِينُ, tr:iyyāka nastaʿīnu, gloss:yalnız senden yardım dileriz} ve {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā ṣ-ṣirāṭa l-mustaqīma, gloss:bizi dosdoğru yola ilet}. Odaktaki birinci çoğul {ar:نُّؤْمِنَ, tr:nuʾmina, gloss:inanmak} ve yararlanıcıyı belirten {ar:لَنَا, tr:lanā, gloss:bize / bizim için} de grup adına konuşur. Her iki yerde çoğul dua yönelimi duyulsa da yön farklıdır: 17:90'da işaret elçiden grup için istenir, Fâtiha'da yardım ve hidayet doğrudan Allah'tan dilenir. Bu paralellik tarihsel bir özdeşlik kurmaz; odaktaki pınar fiziksel su kaynağıdır.
+
+## Yeryüzünden Göğe
+
+Pınarın hemen ardından gelen talep suyu başka ölçekte kurar: hurma ağaçlarıyla üzüm bulunan bir bahçenin içinden nehirler akıtılması istenir (17:91). {ar:جَنَّةٌ, tr:jannatun, gloss:bahçe}, {ar:نَّخِيلٍ, tr:nakhīlin, gloss:hurma palmiyeleri} ve {ar:عِنَبٍ, tr:ʿinabin, gloss:üzüm} ekili alanı; {ar:خِلَٰلَهَا, tr:khilālahā, gloss:arasından ve içinden} nehirlerin bahçe içindeki güzergâhını verir. Böylece istenen su, tek kaynaktan ağaçlı ve üzüm yetişen peyzaja geçer. Aralıklardan geçen nehirler güzergâhı gösterir; sulama tekniği veya gerçekleşmiş hasat sahnenin kapsamına girmez.
+
+Bu ikinci görünümdeki {ar:تُفَجِّرَ ٱلْأَنْهَٰرَ, tr:tufajjira al-anhāra, gloss:nehirleri akıtmak}, odaktaki {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} ile fiziksel su akışını başka biçim ve ölçekte duyurur. Odak, Form I ikinci tekil fiille yeryüzündeki açıklıktan bir {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:bir pınar} çıkmasını ister; bahçe talebinde Form II fiil ve çoğul {ar:ٱلْأَنْهَٰرَ, tr:al-anhāra, gloss:nehirler} bulunur. Ortak su eylemi biçimsel süreklilik kurarken tek pınar ile bahçeden geçen nehirler ayrı talepler olarak kalır; yakınlık pınarı nehirlerin kaynağı yapmaz. Bu bağlamdaki fiil bahçe içinden nehir akıtmayı anlatır; kalabalık ya da felaketin bir topluluğun üzerine gelmesini anlatan deyimsel kullanım burada devrede değildir.
+
+Aynı kökün başka bir biçimi iyilik ve vermede taşkın bolluk anlatabilir. Bu ayrı kullanım odaktaki {ar:تَفْجُرَ, tr:tafjura, gloss:yarıp su çıkarmak} fiilinin sözlük anlamı değil, benzetmenin dayanağıdır. {ar:لَنَا, tr:lanā, gloss:bize / bizim için} grup yararını, verilmiş lütfu anlatan {ar:فَضْلَهُۥ, tr:faḍlahu, gloss:lütfu ve ihsanı} (17:87) ihsanı, bahçe içindeki nehirler (17:91) ise talep edilen su bolluğunu getirir. Bu ayrı katkılar fiziksel pınar isteğini taşkın yarar benzetmesiyle genişletir; kaynak su anlamında kalır ve benzetme konuşanların güdüsünü belirlemez.
+
+Bahçe ve nehir talebinin ardından göğün parçalar halinde üzerlerine düşürülmesi istenir (17:92): {ar:أَوْ تُسْقِطَ ٱلسَّمَاءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا, tr:aw tusqiṭa s-samāʾa kamā zaʿamta ʿalaynā kisafan, gloss:göğü parçalar halinde üzerimize düşürmek}. Bu düşüş, pınarın denetimli su çıkışına yön ve ölçek bakımından karşıt bir görüntü verir. Odaktaki {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} kaynak ve yarılma noktası olarak alt kutbu kurar; göğün düşmesi ve ardından göğe yükselme isteği (17:93) dikey ekseni tamamlar. Bu alt-üst ilişkisi iki sahnenin bağından doğar; yeryüzü sözcüğünün anlamını genişletmez. Elçinin yanında melek isteme (25:7) bu eksene elçi refakatini, meleklerin indirilmesi ya da Rab'bi görme talebi (25:21) ise yukarıdan gelecek kanıt beklentisini ekler.
+
+Yükselme isteğini (17:93) yeni bir inanma koşulu izler: “Yükselmene inanmayız; bize kendimiz okuyacağımız bir kitap indirene kadar.” {ar:وَلَن نُّؤْمِنَ لِرُقِيِّكَ حَتَّىٰ تُنَزِّلَ عَلَيْنَا كِتَٰبًا نَّقْرَؤُهُۥ, tr:wa-lan nuʾmina li-ruqiyyika ḥattā tunazzila ʿalaynā kitāban naqraʾahu, gloss:yükselmene inanmayız bize okuyacağımız bir kitap indirene kadar}. Lan nuʾmina ve ḥattā 17:90'daki koşul yapısını geri getirir; bu kez yükselişin ardından istenen, konuşanların kendilerinin okuyup inceleyebileceği bir kitaptır. Böylece aynı koşullu yapı yeni bir denetim türüne, talep sahiplerinin doğrudan okuyacağı kanıta açılır. Bu tekrar iki talebi birbirine bağlar, fakat tek başına şartların kasten yükseltildiğini kanıtlamaz; birikimli bir talep dizisi okuması da mümkündür. İsteklerin gerçekleştiği bildirilmez.
+
+Bu taleplerin ardından gelen açıklama, inanmanın önündeki başka bir engeli elçinin insan oluşuna itirazda bulur (17:94). İnsan bir elçi gönderilmesine karşı çıkış, {ar:مَنَعَ, tr:manaʿa, gloss:engellemek} fiiliyle engel olarak nitelenir; {ar:بَشَرًا, tr:basharan, gloss:bir insan} itirazın insan biçimindeki elçiye yöneldiğini gösterir. Bu bağ, 17:90'daki inanma koşulunu elçi hakkındaki ihtilafın içine yerleştirir; aynı güdüden kaynaklandığını kanıtlamaz.
+
+İnsan elçi itirazının karşısında, melekler yeryüzünde huzurla yaşayan sakinler olsaydı onlara gökten bir melek elçi gönderileceği söylenir (17:95). {ar:رَّسُولًا, tr:rasūlan, gloss:elçi} sözü (17:94, 17:95), önce insan oluşu nedeniyle itiraz edilen, sonra alıcılarının türüne göre açıklanan taşıyıcıyı adlandırır. {ar:يَمْشُونَ مُطْمَئِنِّينَ, tr:yamshūna muṭmaʾinnīna, gloss:yürüyüp yerleşik ve huzurlu biçimde yaşayan} ifadesi melekleri yeryüzünde yerleşik hayat süren ve bedensel olarak yürüyen sakinler olarak betimler. Böylece {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} iki sahnenin ortak zemini olur: birinde pınar istenir, diğerinde elçi biçimi sakinlerin türüne göre açıklanır. Bu mekânsal bağ, pınarın elçinin uygunluğunu kanıtladığı anlamına gelmez. Alıcıya uygun elçi yorumu konuşanların niyetini seçmez; talepler elçinin bedenini reddetmekten çok yetkesini sınama olarak da okunabilir.
+
+Bu sözlü talepler daha geniş bir kanıt ve elçi statüsü tartışması içinde de duyulur. İlahi konuşma ya da işaret isteği (2:118), kanıtın kaynağını; elçinin yanına melek talebi (6:8) ise ona eşlik edecek habercinin biçimini öne çıkarır. Elçilere verilene benzer bir pay beklentisi (6:124) bu kez elçinin konumunu gündeme getirir; önceki elçilerin insan olup vahiy aldığı bilgisi (21:7), elçinin insan oluşunu daha geniş bir peygamberlik bağlamına yerleştirir. Elçinin yemek yemesi ve pazarlarda dolaşmasına itiraz edip yanında melek isteme (25:7), hazine ya da bahçe talebiyle (25:8) gündelik yaşam ve maddi donanım sorularını yan yana getirir. Meleklerin indirilmesi veya Rab'bi görme isteği (25:21) ile insan elçileri reddedip melekleri tercih edenlerin sözü (41:14) kanıtı ve elçi biçimini başka yönlerden tartışmaya açar. Bu örüntü soruların kapsamını genişletir; aynı konuşanları veya ortak bir güdüyü kurmaz. Odaktaki pınar ise elçiye yöneltilmiş maddi işaret talebi olarak kalır.
+
+</editorial_prose>

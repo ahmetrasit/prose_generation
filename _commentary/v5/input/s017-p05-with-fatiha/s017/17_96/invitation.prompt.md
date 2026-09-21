@@ -1,0 +1,199 @@
+# V5 reading invitation — 17:96
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p05-with-fatiha/s017/17_96/17_96.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p05-with-fatiha/s017/17_96/17_96.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+17:96, {ar:قُلْ, tr:qul, gloss:söyle} emriyle açılır: "De ki: Allah benimle sizin aranızda tanık olarak yeter; O kullarını derinden bilen ve görendir." Kısa, cezimli emir sözü duyurur; ardından gelen {ar:كَفَىٰ بِٱللَّهِ شَهِيدًا, tr:kafā bi-llāhi shahīdan, gloss:Allah tanık olarak yeter} daha geniş bir sesle hükmü tamamlar. 17:95'te kurulan varsayımsal akıl yürütmenin hemen ardından gelen bu beyan, ihtimalden tanıklık cevabına geçişi iki komşu ayet arasında kurar. Kısa emirden daha geniş ve tamamlanmış duyulan hükme uzanan ses hareketi de bu yerel geçişe eşlik eder.
+
+## Gösteriden Tanığa
+
+Bu cevabın önünde istenen kanıtın ölçüsü büyür. 17:90'da {ar:تَفْجُرَ لَنَا مِنَ ٱلْأَرْضِ يَنۢبُوعًا, tr:tafjura lanā mina al-arḍi yanbūʿan, gloss:yerden bize bir kaynak fışkırtman} toprağın yarılıp bir su kaynağı çıkmasını ister. 17:92'de {ar:تُسْقِطَ, tr:tusqiṭa, gloss:düşürmen} gökten parçalar indirmeye, Allah'la meleklerin {ar:قَبِيلًا, tr:qabīlan, gloss:yüz yüze} görülmesi talebiyle bağlanır. 17:93'te {ar:تَرْقَىٰ, tr:tarqā, gloss:yükselmen} göğe çıkmayı, {ar:لِرُقِيِّكَ, tr:li-ruqiyyika, gloss:yükselişine} inanılmasını ve okunacak bir {ar:كِتَٰبًا, tr:kitāban, gloss:yazılı kitap} indirilmesini şart koşar. İstekler böylece yerden fışkıran kaynak, yukarıdan düşen parçalar, yüz yüze görünme, göğe tırmanma ve okunabilir nesne boyunca genişler. 17:96 ölçüyü bu gösterilerden kullarının içini bilen ve önlerinde olanı gören tanığa taşır: {ar:كَفَىٰ, tr:kafā, gloss:yeterli olmak} yeterliği, {ar:خَبِيرًا, tr:khabīran, gloss:derinden bilen} iç bilgiyi, {ar:بَصِيرًا, tr:baṣīran, gloss:gören} doğrudan görmeyi dile getirir. Ölçü, talepler kataloğundan 17:94 ve 17:95'te belirginleşen elçi biçimi ile alıcı arasındaki daha dar soruya, oradan yeterli tanığa taşınır; bu bağlantı her talebe ayrı bir cevap vermez.
+
+17:94'te hidayet geldikten sonra inanmanın önüne konan engel, insan bir elçinin gönderilmesine itirazla kurulur. {ar:مَنَعَ, tr:manaʿa, gloss:engelledi} kabulün önüne çekilen seti adlandırır. {ar:بَشَرًا, tr:basharan, gloss:bir insan} görünür, bedensel insan biçimini çağırır; sözcüğün kullanım alanı kadınla erkeği, tekille çoğulu kapsasa da buradaki biçim tekildir. {ar:رَسُولًا, tr:rasūlan, gloss:elçi} ise taşınan mesajı değil, onu getiren kişiyi adlandırır. İnsan biçiminin görünürlüğü mesaj taşıyıcısının alıcılarına nasıl ulaştığını düşündürür; 17:94'te bu nitelik tek başına elçi seçiminin gerekçesi olarak sunulmaz.
+
+17:95 bu soruyu karşı-olgusal bir alıcı sahnesiyle açar. Yeryüzünde {ar:مَلَٰٓئِكَةٌۭ, tr:malāʾikatun, gloss:melekler} yaşasaydı, {ar:ٱلْأَرْضِ, tr:al-arḍi, gloss:yeryüzü} üzerinde {ar:يَمْشُونَ, tr:yamshūna, gloss:yürüyen} melekler orada isteyerek yer değiştiren sakinler olurdu; {ar:مُطْمَئِنِّينَ, tr:muṭmaʾinnīna, gloss:huzurla yerleşmiş} sözü onları gelip geçen ziyaretçilerden çok güvenle yerleşmiş bir topluluk olarak gösterir. Bu alıcılara gökten {ar:لَنَزَّلْنَا, tr:lanazzalnā, gloss:indirirdik} ile {ar:مَلَكًۭا رَّسُولًۭا, tr:malakan rasūlan, gloss:bir melek elçi} gönderilmesi tasarlanır. Yeryüzünde yaşama ve yürüme alıcıların alanını, yerleşiklik o alandaki sürekliliklerini belirler; gökten inen elçi de onlarla aynı biçimde eşleşir. Böylece 17:94'te itiraz edilen insan biçimi, 17:95'teki alıcı-elçi karşılaştırmasında insanlara ulaşan uygun bir aracılık olarak duyulur. Eşleşme 17:94 ve 17:95'teki itirazı alıcıya uygun aracılık olarak yeniden duyurur; kapsamı bu yerel karşılaştırmadır, her alıcı için türdaş elçi kuralına genişlemez. {ar:كَفَىٰ, tr:kafā, gloss:yeter} fiilinin gereken işi üstlenip ihtiyacı tamamlama yönü bu ilişkiye temas eder; bu, sözün sözlük anlamı değil, elçi-alıcı sahnesinin yeterlik yankısıdır. {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} ise hazır bulunup görme yönüyle tanığı tartışılan gerçek elçi-alıcı ilişkisinin yanında düşünmeye açar.
+
+## Yeterlik ve Aralık
+
+17:96'ya dönünce, {ar:كَفَىٰ بِٱللَّهِ, tr:kafā bi-llāhi, gloss:Allah yeterlidir} kuruluşunun gerçek yeterlik öznesi Allah'tır. İlk {ar:بِ, tr:bi, gloss:edat} fiille Allah adını yüzeyde ve seste sıkıca bağlayıp yeterlik hükmünü O'nda yoğunlaştırır; adın mecrur biçimi sürerken sabit kuruluşun anlam öznesi Allah olarak kalır. Allah adının fiille {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} ifadesi arasında yer alması, yeterlik hükmüyle tanık rolünü cümlenin merkezinde buluşturur. Mansup shahīdan Allah'ın hangi bakımdan yeterli olduğunu belirtir; hâl çözümlemesi de uyumlu bir dilbilgisi olasılığıdır, burada öne çıkan katkı tanıklık niteliğidir.
+
+Yeterlik, eksik kalan ihtiyacı karşılayıp işi gereğince tamamlama anlamını korur. 17:17, 17:30 ve 17:65'teki {ar:كَفَىٰ, tr:kafā, gloss:yeter} kullanımları da ihtiyacı karşılama ve açığı kapatma yönünü duyurur. Bu ortak anlam 17:96'da tanıklık görevine yerleşir; ayetin sonundaki bilen ve gören nitelikleri tanığın yeterli oluşunu açıklar. {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} hazır bulunup doğrudan görmeyi de taşırken, {ar:خَبِيرًا, tr:khabīran, gloss:derinden bilen} ile {ar:بَصِيرًا, tr:baṣīran, gloss:gören} bilinen şeyi ortaya koyan ve gördüğünü bildiren tanığı belirginleştirir. Bu bağın katkısı, iki tarafa da yeterli bir tanığa başvurunun ek doğrulayıcı arayışını kapatıp beyanı çekişme içinde yeterli kılmasını duyurmaktır; tarafların iddiaları hakkında bağımsız bir hüküm bu okumanın kapsamında değildir.
+
+Bu beyanın iki ucu {ar:بَيْنِي وَبَيْنَكُمْ, tr:baynī wa-baynakum, gloss:benimle sizin aranızda} sözünde açıkça kurulur. İlk baynī'deki birinci tekil kişi konuşanı, ikinci baynakum'daki ikinci çoğul kişi eki muhatapları gösterir. 17:95'te tasarlanan melek dinleyicilerden sonra bu çoğul "siz", tanıklık cümlesinin insan muhataplarını doğrudan adlandırır. Yinelenen bayn iki aralığı hem seste hem söz diziminde çerçeveler; aradaki {ar:وَ, tr:wa, gloss:ve} iki kutbu aynı tanıklık ilişkisine bağlar. Bağlaç eşgüdüm kurar, neden ya da zaman sırası değil; tek tanık iki kutba yönelirken konuşanla muhatapların ayrı konumları korunur.
+
+Bayn'in olağan aralık anlamı bu ilişkide yaşamaya devam eder; tanık sözü o aralığı açıklığa çıkarılması gereken mesele hâline getirir ve tanıklığı konuşanla çoğul muhatapların ilişkisi içine yerleştirir. Bu yapı kendi başına fiziksel uzaklığı, tarafların aynı görüşte oluşunu ya da iddialardan birinin üstünlüğünü belirlemez; bayn de konuşma fiiline dönüşmez. Açık beyan etkisini emir, yeterlik ve tanık adının birlikte kurduğu cümle verir.
+
+Bu cümle kamusal bir söz alışverişinde de işleyebilir: {ar:قُلْ, tr:qul, gloss:söyle} sesi başlatır, {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} iddiası iki tarafı belirli bir mesele çevresinde tanığın önüne getirir, {ar:كَفَىٰ, tr:kafā, gloss:yeter} ise tanıklığın o başvuru için yeterli olduğunu bildirir. Olağan yeterlik anlamı, yenilenen konuşmaya sınır çizen ve geri durduran bir imgeye açılır; bu, ayrı bir kök anlamı değil, cümlenin tanık ve taraf düzeninden doğan ihtiyatlı bir çağrışımdır. Tanığın hazır bulunması ve bilinene dayalı beyanı, {ar:خَبِيرًا, tr:khabīran, gloss:derinden bilen} ile birlikte hakka ilişkin yeterli bir açıklama gibi duyulabilir. Bu okumanın katkısı, tanığa başvurunun tartışmada durdurucu bir etki yaratabileceğini göstermektir; ayet ayrıntılı bir konuşma sahnesi ya da kalıcı sona eriş bildirmediğinden tarafların iddiaları hakkında hüküm de vermez.
+
+İlk cümlenin "benimle sizin aranızda" diyen sesi tamamlanınca {ar:إِنَّهُۥ, tr:innahu, gloss:şüphesiz O} açıklamayı başlatır. Zamirdeki hu önceki Allah adına döner; konuşan "ben" ile muhataplar "siz"den, aynı tanığın "O" ve "kulları" diline geçilir. Böylece kişi değişir, tanığın kimliği değişmez. Ardından gelen {ar:كَانَ, tr:kāna, gloss:olmak} ile iki sıfat, bu yeterli tanıklığın nedenini açıklamaya hazırlanır.
+
+## Kulların Alanı
+
+{ar:كَانَ, tr:kāna, gloss:olmak} fiili {ar:خَبِيرًا, tr:khabīran, gloss:derinden bilen} ve {ar:بَصِيرًا, tr:baṣīran, gloss:gören} ifadelerini aynı öznenin iki yüklemi olarak bağlar. Bilme ve görme birbirine karışmadan tanıklığın yeterli oluşunu birlikte açıklar. Tanık hükmüyle çift sıfat arasına yerleşen kāna, son iki niteliğin gelişinden önce kısa ve ölçülü bir durak oluşturur; cümlenin sesi hükümden onun açıklamasına geçer. 17:95'teki koşullu kāna kullanımından sonra aynı mazi biçimin burada Allah'ın nitelikleriyle gelmesi, varsayımsal durumdan yerleşik nitelik bildirimine geçişi duyurur. Mazi biçim korunur; çift yüklem nitelikleri sonradan başlayan bir olaydan çok süreklilik taşıyan bir hâl gibi duyurur. Bu bağlam yerleşik sıfat okumasını destekler; zamansızlık hükmü yalnız mazi biçiminden çıkarılmaz.
+
+İki {ar:بِ, tr:bi, gloss:edat} biçimi görünüşte ortak, görev bakımından ayrıdır. {ar:كَفَىٰ بِٱللَّهِ, tr:kafā bi-llāhi, gloss:Allah yeterlidir} içindeki ilk bi yeterlik hükmünü Allah'a bağlarken, {ar:بِعِبَادِهِۦ, tr:bi-ʿibādihi, gloss:kullarına dair} içindeki ikincisi sıfatların yöneldiği alanı açar. Bu alan önce geldiği için okur önce Allah'ın kullarını, sonra onların nasıl bilindiğini ve görüldüğünü duyar; sıra topluluğu niteliklerden üstün tutmaz. Bu, sıfatların yöneldiği alandır; Allah'ın bilgisini yalnızca bu toplulukla sınırlamaz. {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:O'nun kulları} çoğul bir topluluğu ve bitişik iyelik ekiyle Allah'a nispeti bildirir. Bu nispet yaratılmışlık ve Allah'a bağlılık ilişkisini taşır; burada hukuki mülkiyet anlamı öne çıkmaz. 17:95'teki varsayımsal melek alıcıların ardından insan kullar belirginleşir; bu geçiş meleklerle kulları birbirini dışlayan sınıflar yapmaz, çoğul ad da her insanı aynı somut sahneye yerleştirmez. Aynı kul adı 17:1'de tekil, 17:17 ve 17:30'da çoğul kullanımlarla yankılanır; bu atıflar yaratılmışlık ve Allah'a bağlılığı öne çıkarır, her bağlamın söylem görevini aynılaştırmaz.
+
+Kullar alanını niteleyen khabīr iç gerçekliğe ve uzman bilgisine, baṣīr görünür davranışa ve doğrudan görmeye uzanır. {ar:خَبِيرًا, tr:khabīran, gloss:derinden bilen} burada yerleşik bir niteliği bildirir; uzmanlık anlamının yanında edinilen ve aktarılabilen bilgi yönü de duyulabilir, bu bağ Allah'ın insanlardan haber almasını anlatmaz. {ar:بَصِيرًا, tr:baṣīran, gloss:gören} dış davranışları ve görünür hâlleri doğrudan görmeyi korurken iç kavrayış, tanıma ve ayırt etme tonlarıyla da derinleşir; bu bilişsel renk duyusal görmenin yerini almaz. İçten dışa doğru kurulan çiftte khabīr'in önce, baṣīr'in sonra gelmesi 17:17 ve 17:30'daki bilgi-görme sırasını da işittirir; bu sıra niteliklere rütbe vermez.
+
+Baṣīr'in cümle sonundaki ikinci yüklem oluşu, iç bilginin yanına ayrı bir algı biçimini getirip ayeti görmeyle kapatır. 17:1'de açılan görme teması ve 17:17 ile 17:30'daki tekrarlanan çift, burada khabīr'in iç uzmanlığıyla yeniden buluşur; 17:53'teki ilişkiyi bozan karşıtlık da bu son görmeyi kullar ve taraflar arasındaki ilişkiler içinde düşündürür. Bu atıfların katkısı, iç bilgi ve doğrudan görmeyi burada kurulan ilişkiler alanında yeniden duyurmaktır; kapsamları bu ayetin yerel söz dizimi ve gönderimleridir. {ar:شَهِيدًا خَبِيرًا بَصِيرًا, tr:shahīdan khabīran baṣīran, gloss:tanık derinden bilen ve gören} biçimlerinin benzer mansup sonları tanık adını iki açıklayıcı sıfata sesçe yaklaştırır. Son konum görmeye üstlük vermez; ses dizisi 17:96'nın kendi kapanışında tamamlanır, bu yerel kadans bağı 17:97'ye uzanan bir kafiye köprüsü kurmaz.
+
+Hazır bulunma boyutunu açan bağımsız temas, 17:78'deki ibadet sahnesidir. Orada namazın {ar:ٱلصَّلَوٰةَ, tr:aṣ-ṣalāta, gloss:namaz} kılınması emredilir ve özellikle tan vakti Kur'an tilaveti {ar:قُرْءَانَ ٱلْفَجْرِ, tr:Qurʾān al-fajr, gloss:tan vakti Kur'an tilaveti} {ar:مَشْهُودًا, tr:mashhūdan, gloss:tanıklık edilen} diye nitelenir. Bu niteleme, 17:96'daki {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} için olayın yanında bulunup görme yönünü açar ve elçinin namaz ile tilavet pratiğine tanığın eşlik edebileceği ihtimalini taşır. Bağın somut dayanağı 17:78'de tan vakti tilavetinin tanıklık edilmiş diye nitelenmesidir; 17:96'nın açık hükmü yine taraflar arasında Allah'ın tanık olarak yeterli oluşudur.
+
+## Yakın Bağlamın Yankıları
+
+17:80 ve 17:81'deki önceki söyleyişler, 17:96'daki tanıklık emrine görevlendirilmiş söz yankısı verir. 17:80'de {ar:قُلْ, tr:qul, gloss:söyle} bir söyleyişi görevlendirir; istenen {ar:سُلْطَٰنًۭا, tr:sulṭānan, gloss:otorite ve dayanak} kişisel savunmadan çok ilahi desteğe bağlanır. 17:81'de {ar:جَآءَ ٱلْحَقُّ, tr:jāʾa al-ḥaqqu, gloss:hak geldi} ve {ar:زَهَقَ ٱلْبَٰطِلُ, tr:zahaqa al-bāṭilu, gloss:batıl iz bırakmadan kayboldu} denmesi ilan edilen sözün içeriğine hak ile batıl ölçüsünü verir. Bu sıra, 17:96'daki {ar:قُلْ, tr:qul, gloss:söyle} emrini önceki görevlendirmeyle sürdürülmüş, {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} hükmünü de bu söze ilahi destek veren bir beyan gibi duyurabilir. Bağın kapsamı söyleyişler arasındaki bu olası devamlılıktır; 17:80 ve 17:81'i birbirinden ayrı ilanlar olarak okumak da mümkündür, 17:96'nın tanıklık hükmü her iki durumda da yerinde kalır.
+
+17:82, 17:83 ve 17:84, aynı hitabın farklı alımlanışını sonuçtan bedensel harekete, oradan iç yönelime doğru açar. 17:82'de Kur'an inananlara {ar:شِفَآءٌۭ وَرَحْمَةٌۭ, tr:shifāʾ wa-raḥma, gloss:şifa ve rahmet}, zalimlere ise {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve eksilme} olur; karşıt sonuç hitabın iki farklı kabulünü kurar. 17:83'te nimete kavuşan kişi {ar:أَعْرَضَ, tr:aʿraḍa, gloss:yüz çevirdiği} diye anlatılır, {ar:نَـَٔا بِجَانِبِهِۦ, tr:naʾā bi-jānibihi, gloss:yanını çevirip uzak durduğu} hareketle uzaklığını bedensel olarak da gösterir; kötülük dokunduğundaysa umutsuzluğa düşer. 17:84'te herkesin {ar:شَاكِلَتِهِۦ, tr:shākilatihi, gloss:şekillendiren yönelimi} üzere eylemesi bu dış hareketi kişinin iç yönelimine bağlar; Rab kimin daha doğru yolda olduğunu daha iyi bilir. 17:96'daki {ar:خَبِيرًا, tr:khabīran, gloss:derinden bilen} bu iç yönelimi, {ar:بَصِيرًا, tr:baṣīran, gloss:gören} görünür davranışı ayırt ederek tanıklığı karşılıkları seçebilen bir bakışa genişletir. Bu bağlantı, iki muhataptan hangisini 17:82'deki gruplardan biri sayacağını veya kimin hidayet üzere olduğunu belirlemez.
+
+17:85 insanlara verilen bilginin {ar:قَلِيلًا, tr:qalīlan, gloss:az} olduğunu söyler. 17:96'daki {ar:قُلْ, tr:qul, gloss:söyle} ile 17:85'teki qalīlan sesçe yaklaşır; biri emir, diğeri miktar azlığını bildiren ayrı kökten bir sözcüktür. Bu ses teması azlık anlamını emre taşımaz; insan bilgisinin sınırını bildiren 17:85, 17:96'daki yeterlik ve uzman bilgiyle yan yana geldiğinde ölçülü, sınırsız açıklama yarışına girmeyen bir söz çağrışımı üretir. Bu bağlantı emir kipini alışılmadık ölçüde kısa göstermez. 17:86'da Allah'ın dilerse elçiye vahyettiğini geri alabileceği ve O'na karşı bağımsız bir {ar:وَكِيلًا, tr:wakīlan, gloss:güvence sağlayan vekil} bulunmadığı bildirilir; 17:87 vahyin sürmesini Rab'den {ar:رَحْمَةًۭ, tr:raḥmatan, gloss:rahmet} ve büyük lütuf olarak sunar. Bu iki ayet, odağı insanların ne kadar bilebildiğinden vahyin onlara açık kalıp kalmamasını bilen kaynağa doğru genişletir. Böylece bağlam tanıklık çevresindeki yeterlik ve bilgi temasını zenginleştirir; {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} sözü bu bağlantıda koruma anlamına dönüşmez.
+
+17:88 ve 17:89, insan bilgisinin sınırından kamusal bir karşılaştırmaya geçer. 17:88'de {ar:ٱلْإِنسُ وَٱلْجِنُّ, tr:al-insu wa-l-jinnu, gloss:insanlar ve cinler} bir araya gelip {ar:ظَهِيرًۭا, tr:ẓahīran, gloss:karşılıklı destek} olsalar da bu Kur'an'ın {ar:بِمِثْلِ هَٰذَا ٱلْقُرْءَانِ, tr:bi-mithli hādhā al-Qurʾān, gloss:bu Kur'an'ın benzerini} getiremez. 17:89 örneklerin insanlar için çeşitli biçimlerde açıklandığını, çoğunun ise inkârda kaldığını ekleyerek meydan okuma ile ret tepkisini yan yana getirir. Başarısız karşılaştırma, {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} sözünün bir duruma işaret eden belirti anlamını çağırır: ortak desteğin sonuç üretememesi tanıklığın yanında sergilenen bir işaret gibi okunabilir. Bu, bağlamın açtığı keşif niteliğinde bir olasılıktır; 17:96'nın formülü Allah'ın kişisel bilgisi ve tanıklığını da öne çıkarır.
+
+17:88'de bir araya gelen kalabalık, yeterlikten ayrı bir çevreleme imgesini tetikler. Arapçada başka bir kök ailesinden gelen k-f-f kullanımı, bir nesneyi çevresinden dolaşıp kuşatarak ona bakan insan topluluğunu anlatır; 17:88'deki insan ve cinlerin toplanıp birbirine destek olması bu topluluk görüntüsünü sağlar. Bu imge yeterlik bildiren {ar:كَفَىٰ, tr:kafā, gloss:yeter} ile kökdaş değildir; burada çevreleyip bakan topluluk anlatılır, halka biçiminde kıvrılan yılan kullanımı değil. Kalabalığın sağladığı çevre görüntüsü, {ar:بَصِيرًا, tr:baṣīran, gloss:gören}ın doğrudan görüşü ve {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak}ın hazır bulunmasıyla birleşince, sayısal üstünlükten çok meydan okuma alanının her yanını gören tanığın kuşatıcı bakışını kurar. Bu bağın sahnesi 17:88'deki meydan okuma kalabalığıdır; insan ve cinler Allah'ı çevreleyen ya da O'nun görüşünden saklanan bir topluluk olarak gösterilmez.
+
+İşaret talebi ile yeterli karşılık arasındaki başka bir ilişki 29:50 ve 29:51'de kurulur. 29:50'de insanlar Rabbinden {ar:ءَايَٰتٌ مِّن رَّبِّهِۦ, tr:āyātun min rabbihi, gloss:Rabbinden işaretler} ister; cevap işaretlerin Allah katında olduğunu ve konuşanın açık bir uyarıcı olduğunu söyler. 29:51 hemen ardından, indirilen ve kendilerine okunan Kitabın yetip yetmediğini sorar: {ar:أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ, tr:a-wa-lam yakfihim anna anzalnā ʿalayka al-kitāba yutlā ʿalayhim, gloss:Kendilerine okunan Kitap onlara yetmiyor mu?}. Aynı yeterlik kökü, 17:96'da tanıklık görevine, 29:51'de ise verilmiş vahyin yeni işaret talebi karşısındaki yeterliliğine açılır; bu ortaklık odağa yeni bir kitap adı eklemeden yeterlik yankısını genişletir. Bu bağlantının kapsamı kök ve bağlam arasındaki yankıdır: Kitap 17:96'da adlandırılmaz, 29:51 de bütün işaret taleplerinin reddi anlamına gelmez.
+
+## Başka Tanıklık İlişkileri
+
+Yeterli tanık formülünün 6:19, 10:29, 13:43, 29:52 ve 46:8'de yinelenmesi, onu farklı iki-taraf ilişkilerine yerleştirir. 6:19'da en büyük tanıklık sorusuna "Allah" cevabı verilir. 10:29'da ilişki, ibadet hakkındaki uyuşmazlıkta {ar:بَيْنَنَا وَبَيْنَكُمْ, tr:baynanā wa-baynakum, gloss:bizimle sizin aranızda} sözleriyle kurulur. 13:43'te elçinin gönderilmediği itirazına Allah'ın tanıklığı cevap olur; 29:52'de tanıklık göklerde ve yerde olanı bilmeyle yan yana gelir; 46:8'de mesajın uydurulduğu suçlaması iki taraf arasında Allah'ın tanıklığıyla karşılanır. Ortak kalıp yeterliği tanık rolüne bağlayarak karşılaştırmayı mümkün kılar; her ayet kendi uyuşmazlığını ve bilgi vurgusunu korur, bu yankı tek bir tarihsel olaya ya da sabit hukuki işleve hükmetmez. Önceki bir okuyuş, ek işaret taleplerini 17:91, 17:92, 17:93, 17:94 ve 17:95'te bu tanıklık iddiasının yerel baskısı olarak ilişkilendirir; bu bağlantının dayanağı o okuyuşun aktardığı bağlamdır.
+
+10:29'daki {ar:بَيْنَنَا وَبَيْنَكُمْ, tr:baynanā wa-baynakum, gloss:bizimle sizin aramızda} yapısı, 17:96'daki bayn sözünü de karşılaştırmaya açar: aralık tarafları ayrı tutarken tanığı ilişkinin içine yerleştirir. Bu bağ, iddiaları ayrışan tarafları aynı tanıklık alanında tutar; uzlaşma sonucu vermez ve bu ilişkisel okuma Allah'a fiziksel bir yer tayin etmez. 10:29'da {ar:عَنْ عِبَادَتِكُمْ, tr:ʿan ʿibādatikum, gloss:ibadetinizden} ibadet eylemini adlandırırken 17:96'daki {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:O'nun kulları} topluluğun adını verir. Eylem-adı ile topluluk adı arasındaki temas, kullar sözünü ibadet ve boyun eğme yönünde zenginleştirir; 17:96'da isim eylemin kendisi olmaz ve 10:29'daki "biz"in kimliği bu bağlantıyla belirlenmez.
+
+Tanığın ilişki içindeki konumu, {ar:قُلْ, tr:qul, gloss:söyle} emrinin kimin ağzından ve hangi muhataplara seslendiğini de duyurur. 6:19'da {ar:قُلِ ٱللَّهُ, tr:quli llāhu, gloss:Allah de} en büyük tanıklık sorusuna cevaptır; 13:43'te {ar:قُلْ كَفَىٰ بِٱللَّهِ شَهِيدًا, tr:qul kafā bi-llāhi shahīdan, gloss:de ki Allah tanık olarak yeter} elçinin gönderilmediği iddiasına yönelir. 18:110'da {ar:قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ, tr:qul innamā anā basharun mithlukum yūḥā ilayya, gloss:Ben de sizin gibi bir insanım bana vahyediliyor} ortak insanlıkla vahiy almayı birlikte bildirir. Bu örneklerin her biri ayrı bir söz edimi verir: tanıklık sorusuna cevap, elçiliğe itiraza cevap ve insanlıkla vahyi birlikte duyuran beyan. 17:96'daki emir, tanıklığı insan muhatapların arasından seslenen elçinin açık cevabı yapar; 17:94 ve 17:95'teki insan biçimi karşılaştırması bu konumu aydınlatır. Bu ilişki örnekleri aynı dinleyici veya olayı kurmaz; ortak insanlık da tek başına elçilik kanıtı değildir.
+
+Şahidin tanıklığı iddiayı bildirmeye hazır bulunma yönünü de ekler. 5:117'de elçi, insanların arasında bulunduğu süre boyunca onlara tanıklık ettiğini söyler; burada varlık zamanla sınırlıdır. 41:20'de işitme, gözler ve deriler yapılanlara tanıklık eder; 41:22'de insanların bu tanıklığı beklememiş olması bedenleri eylemleri açığa çıkaran tanıklar hâline getirir. 4:166 ise Allah'ın indirilene tanıklığını, onu bilgisiyle indirmesiyle birleştirir. Bu ayrı katkılar 17:96'daki {ar:شَهِيدًا, tr:shahīdan, gloss:tanık olarak} çevresinde hazır bulunmayı, yapılanı açığa çıkarmayı ve bilinene dayanarak bildirmeyi duyurur; karşılaştırma sahneleri birleştirmez.
+
+Derinden bilme sıfatının başka kullanımları içe dönük bilgi alanını ayrıntılandırır. 25:58'de yeterlik kulların günahlarını bilen {ar:خَبِيرًا, tr:khabīran, gloss:derinden bilen} niteliğiyle birleşir; 41:22'de insanlar saklı sandıkları işlerin de bilindiğini fark eder. 58:7'de üç kişinin konuşmasında dördüncünün, beş kişinin konuşmasında altıncının Allah oluşu ve sonunda yapılanların bildirilecek olması, bu alanı gizli danışmaya taşır. Böylece günah, gizli eylem ve kapalı söz farklı katkılarla uzman bilginin kapsamını açar. 25:59'daki {ar:فَسْـَٔلْ بِهِۦ خَبِيرًا, tr:fasʾal bihi khabīran, gloss:bunu bilen birine sor} ise bir bilene soru yönelterek bilgi arama ve deneyip iç yüzünü öğrenme yönünü gösteren ayrı bir fiil biçimidir. 17:96'da khabīran bir sıfat olarak kalır; bu soru biçimi Allah'a soru yöneltildiği anlamını taşımaz. Uzmanlık iç gerçekliğe erişimi düşündürür, fakat bu bağlantı her iç hâlin insanlarca açığa çıkarıldığını ileri sürmez.
+
+6:103 ve 6:104 insan görüşünün sınırını ve sonucunu iki ayrı yönden belirginleştirir. 6:103'te gözler Allah'ı kuşatamazken O gözleri kuşatır; 6:104'te görenin yararı ve kör kalan kişinin yükü kendisine döner. Bu karşıtlık, {ar:بَصِيرًا, tr:baṣīran, gloss:gören} sıfatındaki ilahi görüşü insan gözünün ölçüsünden ayırırken, insanın gördüğüne verdiği karşılığın sorumluluğunu da öne çıkarır. Önceki bir okuyuşun 17:97 için aktardığı algıdan mahrum kalma dönüşü bu alıcı yönlü kavrayışla ihtiyatlı biçimde buluşur; bu bağlantı olasılık düzeyinde kalır.
+
+## Güven ve Kulluk
+
+Yeterlik ve görme, başka ayetlerde korunma ve güven ilişkilerine de girer. 15:95 alay edenlere karşı yeterliği, 39:36 başkalarının korkuttuğu tek bir kul için Allah'ın yeterli oluşunu, 40:44 ise konuşanın işini Allah'a bırakmasını ve O'nun kulları görmesini anlatır. 39:36'daki tekil kul ile 17:96'daki çoğul kullar arasındaki sayı ve sahne farkı korunur; yaratılmışlık ve Allah'a aidiyet ortaklığı koruyucu yeterlik yankısının kullar alanına taşınmasını sağlar. 40:44'te {ar:بَصِيرٌۢ بِٱلْعِبَادِ, tr:baṣīrun bi-l-ʿibād, gloss:kulları gören} işi Allah'a bırakma güvenine görme sıfatını dayanak yapar. Bu bağlamların katkısı 17:96'nın tanık olarak yeterlik hükmüne koruyucu bir yankı eklemektir; bu özel bağlantı her tehdide karşı sınırsız güvence ya da herkese her işini bırakma buyruğu kurmaz.
+
+Fatiha'yı tilavet eden biri, kullar topluluğunu 1:5'teki {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:Yalnız Sana kulluk ederiz} ve {ar:إِيَّاكَ نَسْتَعِينُ, tr:iyyāka nastaʿīnu, gloss:Yalnız Senden yardım dileriz} sözleriyle birlikte duyabilir. Kulluk ve yardım dileği, 17:96'daki {ar:عِبَادِهِۦ, tr:ʿibādihi, gloss:O'nun kulları} adını ibadet eden ve muhtaçlığını bildiren bir topluluğa yaklaştırır. Bu tilavet bağlantısının kapsamı ortak kulluk ve yardım arayışıdır: Fatiha'daki "biz" 17:96'daki konuşanın "ben"iyle ya da muhatapların "siz"iyle özdeşleşmez, her kulun o anda ibadet ettiğini veya hukuki anlamda köle olduğunu söylemez ve daha geniş bir yol öğretisi kurmaz. Bu ayrık sesleri koruyarak tilavet eden kişi kendini Allah'ın içini bildiği ve gördüğü kullar arasında duyabilir.
+
+</editorial_prose>

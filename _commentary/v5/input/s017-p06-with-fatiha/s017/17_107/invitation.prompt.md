@@ -1,0 +1,191 @@
+# V5 reading invitation — 17:107
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p06-with-fatiha/s017/17_107/17_107.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p06-with-fatiha/s017/17_107/17_107.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Seçim ve Tanıklık
+
+Âyet, “De ki: Ona inanın ya da inanmayın; kendilerine ondan önce bilgi verilenlere okunduğunda, onlar çeneleri üzerine secde ederek yere kapanırlar,” der. Başlangıçtaki {ar:قُلْ, tr:qul, gloss:söyle} tek heceli ve kısa bir emir; ardından gelen daha uzun {ar:آمِنُوا, tr:āminū, gloss:inanın} ile sıkışık bir ses başlangıcı kurar. Bu ses karşıtlığı emrin kısa açılışını belirginleştirir ama anlamını değiştirmez; {ar:قُلْ, tr:qul, gloss:söyle} inanma ve reddetmeyi muhataba yöneltilmiş söz olarak çerçeveler, dikkati de ayrı bir topluluğun bedensel cevabına taşır.
+
+{ar:أَوْ, tr:aw, gloss:ya da} aynı ikinci çoğul muhataba iki seçenek sunar: bunlar ardışık inanç aşamaları değil, aynı hitapta açık duran karşıt kutuplardır. Olumlu {ar:آمِنُوا, tr:āminū, gloss:inanın} buyruğu ile {ar:لَا تُؤْمِنُوا, tr:lā tuʾminū, gloss:inanmayın} biçimi aynı Form IV inanma fiilini aynı kişilere yöneltir. Olumsuz kutupta {ar:لَا, tr:lā, gloss:olumsuzluk edatı} fiili yönetir; fiil aynı kökten gelse de cezm alan muzari biçimdedir. Bu biçim reddi hitap içindeki mümkün cevap olarak tutar; bağlaç iki seçeneği yan yana getirir ama reddi onaylamaz. İnanma sözcüğünün anlam alanındaki güven ve güvenilirlik kullanımı, olumlu emri sözü doğru sayıp bir güven ilişkisine girme tonu ile renklendirebilir. Ona bağlanan {ar:بِهِ, tr:bihi, gloss:ona} bu tutumu belirli ama burada adı verilmeyen bir gönderime yöneltir. Bu güven tonu fiziksel güvenliği ya da sonucu vaat etmez; ret de bu ilişkiden uzak durma gibi duyulabilir, ancak metin kimsenin gizli gerekçesini belirlemez.
+
+Seçeneklerin ardından {ar:إِنَّ, tr:inna, gloss:şüphesiz} vurgusu bilgiyi daha önce almış ayrı bir topluluğa geçer. Bu geçiş, önceki alıcıların tanıklığını şimdiki hitabın seçeneklerinden bağımsız kılar: muhatapların tercihi bu tanıklığı ne kurar ne ortadan kaldırır. {ar:الَّذِينَ, tr:alladhīna, gloss:kimseler} belirli ama adı verilmeyen bir sınıfı açar; düşüş yükleminden önce tamamlanan uzun niteleme, grubu kendilerine bilgi verilmiş olmasıyla tanımlar. Böylece niteleme bir uzmanlık unvanı ya da kurum adı sunmaz. {ar:قُلْ, tr:qul, gloss:söyle} söz aktarımını başlatır, ancak {ar:إِنَّ, tr:inna, gloss:şüphesiz} cümlesinin bu aktarımın içinde sürüp sürmediğini gösterecek bir sınır işareti yoktur. Sınır açık bırakıldığı için her iki alıntı okuması da vurguyu ve grubun dilbilgisel yerini korur; ayet iki topluluk arasında ortak bir geçmiş ya da bilgi verilen belirli bir kitap adı kurmaz.
+
+## Bilginin Ulaşması
+
+Bu grubun ayırt edici niteliği kendilerine verilmiş bilgidir. Edilgen geçmiş {ar:أُوتُوا, tr:ūtū, gloss:kendilerine verildi} alıcıları ve bilgi nesnesini öne çıkarırken vereni belirtmez; belirli tekil {ar:الْعِلْمَ, tr:al-ʿilma, gloss:bilgiyi} alınan şeyi tek ve belirlenmiş bir bilgi olarak tutar. Verme sözcüğünün “gelmek, ulaşmak” yönündeki ayrı kullanımı da bu yapıya bilgiyi alıcıya varmış gibi duyuran bir yön ekler: bilgi kendi kendine üretilmiş bir iddia değil, kendilerine ulaştırılmış içerik olarak belirir. Ardından kendilerine yönelen okuyuş bu geliş sırasına eklenir. Cümle grubu genel bir zekâ ölçüsüyle değil, aldıkları bilgiyle tanımlar; vereni ya da bilginin bütün kapsamını belirtmez.
+
+Bilgi adı olağan bilme, tanıma ve gerçeği kavrama anlamını taşır. Bu bilginin ardından tilavetin gelmesi ve cevabın duruşta görünmesi, onu soyut bir sahiplikten yeni okunanı tanıyan bir karşılığa taşır. Aynı sözcüğün anlam alanındaki ayırt eden ya da yol gösteren işaret kullanımı da bu karşılığı tanınabilir bir belirti gibi duyurur: tilavet alıcılara ulaşır, düşüş ise tanımayı görünür kılar. Bu belirti imgesi fiziksel bir iz veya grubun yanılmazlığı hakkında kanıt değildir; alıcıların başka neleri bildiğini de belirlemez. Bilgi verilenlerin göğüslerindeki apaçık ayetler bu imgeye bağlamsal yankı katar (29:49), odaktaki “bilgi” adının olağan anlamı olan bilme ve kavramayı korur.
+
+Önceden alınmış bilgi ile yeni okuyuşun ilişkisi, kendilerine daha önce Kitap verilenlerin tilaveti izleyip “ona inandık, o Rabbimizdendir” diye tasdik ettiği sahnede de belirir (28:52, 28:53). İki sahne verilmiş rehberliği tilavetten önceye yerleştirir; odaktaki bilgi Kitap’la özdeş değildir ve iki alıcı grubu aynı kişiler olarak sunulmaz. Oradaki söz, olumlu {ar:آمِنُوا بِهِ, tr:āminū bihi, gloss:ona inanın} kutbundaki “doğru sayıp kabul etme” yönünü somutlaştırır. Tilavetin ardından 28:53’te gelen sesli tasdik, {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} için bir sese karşılık veren ses biçimindeki ayrı kullanımı da duyulur kılar. Bu sesli cevap 17:107’ye taşınmaz: odak ayet kendi sözlerini alıntılamak yerine grubun duruşunu bildirir.
+
+Bilginin zamanı {ar:مِن قَبْلِهِ, tr:min qablihi, gloss:ondan önce} ile kurulur. Burada {ar:قَبْلِهِ, tr:qablihi, gloss:ondan önce} olağan zaman önceliğini taşır; {ar:مِن, tr:min, gloss:-den itibaren} ise hafifçe bir başlangıç ya da kaynak yönü duyurabilir. Birlikte, bilgi verilmiş olmayı adı konmamış bir gönderimden önceye yerleştirirler. Bu zaman sınırı bilgi alımını niteler; sonraki okuyuşu ve düşüşü aynı önceliğin içine almaz. {ar:بِهِ, tr:bihi, gloss:ona} ile {ar:قَبْلِهِ, tr:qablihi, gloss:ondan önce} sonlarındaki aynı üçüncü tekil gönderim eki iki ifadeyi yerel olarak bağlar, gönderimin odağın dışında ne olduğunu ise belirlemez. Aynı sözcüğün anlam alanındaki “önünde, yüz yüze” durma kullanımı, bağımsız {ar:إِذَا, tr:idhā, gloss:olduğunda} {ar:يُتْلَىٰ, tr:yutlā, gloss:okunduğunda} koşuluyla birleşince önceki bilgiyi gelecek kıraate dönük gibi gösterir. Böylece zaman önceliği korunur, yöneliş imgesi de eklenir; bu bağlantı gerçek bir yüz yüze karşılaşma ya da ayrıntılı bir vahiy geçmişi kurmaz.
+
+Koşul cümlesi aynı alıcıları bilgi verilmesinden tilavete ve düşüşe kadar izletir. Önce edilgen {ar:أُوتُوا, tr:ūtū, gloss:kendilerine verildi}, sonra edilgen {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} gelir: topluluk önce bilgiyi alır, ardından kendilerine yöneltilen okuyuşu karşılar. İkinci edilgen kıraat olayını öne çıkarırken okuyucuyu adlandırmaz; okuyucunun varlığı yine mümkündür. {ar:عَلَيْهِمْ, tr:ʿalayhim, gloss:onlara, üzerlerine} okuyuşun onlara doğru gelişini belirtir, {ar:يَخِرُّونَ, tr:yakhirrūna, gloss:düşerler} ise bu yönü dikey beden hareketine çevirir. {ar:إِذَا, tr:idhā, gloss:olduğunda} ile çoğul muzari fiil, tilavet geldiğinde yinelenen ve beklenen bir karşılık örüntüsü kurar; biçim tek tek kişileri ya da olay sayılarını saymaz. Uzun göreli özne bilgi alımını ve “onlara” ilişkisini tamamlayıp düşüş yüklemine varmadan önce bir söz dizimsel bekleyiş yaratır. Bu gerilim cevabı hazırlar; dinleyicilerin tereddüdü ya da ölçülebilir bir zaman gecikmesi olarak sunulmaz. {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} olağan kıraat anlamını korurken kökün ardından gelme ve izleme yönündeki ayrı kullanımı, {ar:مِن قَبْلِهِ, tr:min qablihi, gloss:ondan önce} ve koşulla birlikte bilgi, okuyuş ve cevabı sıralı duyurur.
+
+## Çeneye Yönelen Cevap
+
+Yakın bağlamdaki iniş ve tilavet temposu, bedensel cevabın öncesindeki metinsel diziyi görünür kılar. Kur’an’ın hak ile indirilişi ve inişin yinelenmesi (17:105), metnin bölümlere ayrılıp insanlara ölçülü, ağır ağır okutulmasına (17:106) uzanır: {ar:نَزَلَ, tr:nazala, gloss:indi}, {ar:فَرَقْنَاهُ, tr:farraqnāhu, gloss:onu bölüm bölüm ayırdık} ve {ar:عَلَىٰ مُكْثٍ, tr:ʿalā mukthin, gloss:ölçülü bir bekleyişle}. Bu iki ayet inişten bölümlenmiş tilavete uzanan metinsel sırayı kurar; odaktaki {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} ise okuyuşu düşüşten önceki halka gibi duyurur. Sözcüğün ardından gelme ve izleme yönündeki ayrı kullanımı bu sıralamayı belirginleştirir. Düşüşteki sarsıntılı ses kullanımı da iniş ve ölçülü okuyuşla yön bakımından bir benzerlik kurabilir. Bu bağlantı metinsel ve imgeseldir: vahyin inişi secde olayının kendisi değildir ve sıra her alıcıya ya da her tilavete genellenen bir sonuç bildirmez.
+
+Şimdi bu sıranın vardığı bedenin yönü belirginleşir. Çoğul {ar:يَخِرُّونَ, tr:yakhirrūna, gloss:düşerler} düşüşü, yönelme lâmıyla {ar:لِلْأَذْقَانِ, tr:li-l-adhqān, gloss:çeneler üzerine} doğru gider; finaldeki {ar:سُجَّدًا, tr:sujjadan, gloss:secde hâlinde} grubun bu hareket sırasındaki durumunu bildirir. Lâm çene adında tamamlanır; {ar:سُجَّدًا, tr:sujjadan, gloss:secde hâlinde} lâmın tümleci değil, düşüşle eşzamanlı hâldir: grup önce düşüp sonra secdeye başlamaz, secde ederek düşer. Çoğul çene sözü iki çene yanının birleştiği alt yüz bölgesini somut varış noktası yapar; birçok beden bu noktaya yönelerek kolektif bir duruşta toplanır. Çene varış yerini belirler; eylemin çarpma ya da itilme biçiminde gerçekleştiğini eklemez.
+
+Fiilin olağan “yere düşmek” anlamına, ayrı kullanımındaki sarsıntılı ve ses çıkaran düşüş imgesi eşlik eder. Söyleme emrinin sesi ve alıcılara gelen kıraat, çeneye doğru belirlenmiş bitiş noktasıyla bu ses dalına bağlanır; kesişim cevabı kontrollü bir eğilişten ziyade ayakta duruşu kuvvetle yitirme gibi duyurur. Sarsıntı ve işitilirlik kökün açtığı ihtiyatlı bir renktir; belirli bir gürültü olayını bildirmez.
+
+Bu ses hattı başlangıçtaki {ar:قُلْ, tr:qul, gloss:söyle} buyruğuna da imgesel olarak bağlanır. Söyleme eylemi sesi başlatır; ardından gelen kıraat ve çeneye ulaşan düşüş, bu ses yolunu bedenin bir ucuna taşıyan imgeyi kurar. Aynı kökün konuşma organını adlandıran ayrı kullanımı anatomik çene sözüyle benzetme yoluyla buluşur: çene konuşan bedenin menteşesi gibi belirir, söyleme emri ise bir organ adına dönüşmez. {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} için bir önceki sese karşılık veren ses kullanımı da {ar:قُلْ, tr:qul, gloss:söyle} ile temas eder; kıraat sözü izleyen bir ses gibi duyulur. Bu, gerçek bir yankı ya da belirli bir icra iddiası değildir. Sarsıntılı düşüş, kıraatin karşılık sesi ve {ar:الْأَذْقَانِ, tr:al-adhqān, gloss:çeneler} bitişi birlikte konuşan bedenin devrilmesi imgesini kurar; menteşe benzetmesi anatomik hedefi korur ve düşüşe zorlama anlamı yüklemez.
+
+Bu beden hareketinde {ar:سُجَّدًا, tr:sujjadan, gloss:secde ederek} olağan secdeyi ve kendini alçaltarak bağlılık göstermeyi birlikte taşır. Bu yön, düşüş ve çene ucuyla temas ederek hareketi hem yere yönelen beden hem boyun eğen cevap olarak duyurur. Secde sözcüğünün yere dayanan beden bölümlerini düşündüren ayrı kullanımı, belirtilen çene temasına dokunsal bir nitelik katar; odak sahnesi bir alın izi ya da yere değen bütün uzuvların dökümünü vermez. Başın ve gövdenin aşağı eğilmesi veya yük altında yana yatırılması yönündeki başka bir kullanım da düşüş yönü ve çene bitişiyle buluşup secdeye belirgin bir beden biçimi kazandırır. Bu biçim benzerliği secdeyi sıradan eğilmeye indirmez. Böylece duruş açılıştaki inanma ya da inanmama sözlerine bedensel cevap olur; bu cevap ayrı alıcı grubuna aittir, doğrudan hitap edilenleri ya da bütün muhatapları secde edenler olarak tanımlamaz.
+
+İnsan bedenindeki alçalma, 59:21’de Kur’an bir dağa indirilseydi dağın boyun eğip yarılacağı varsayımıyla daha büyük bir ölçeğe taşınır. Odaktaki {ar:سُجَّدًا, tr:sujjadan, gloss:secde ederek} ile dağın tasarlanan eğilişi, vahiy karşısındaki bedensel karşılığı insan ölçeğinden dağa genişleten bir analoji kurar. Dağ sahnesi varsayımsaldır; dinleyicilerin üzerine gerçekleşmiş bir iniş ya da onların düşüşünün fiziksel açıklaması değildir.
+
+## Okuyuşun Ardından
+
+Bedensel cevabın ardından 17:108’de alıcılar kendi sözlerini söyler: {ar:سُبْحَانَ رَبِّنَا, tr:subḥāna rabbinā, gloss:Rabbimiz her eksiklikten uzaktır} diyerek yüceltir, sonra {ar:وَعْدُ رَبِّنَا, tr:waʿdu rabbinā, gloss:Rabbimizin vaadi}nin gerçekleştiğini bildirirler. Böylece başlangıçtaki {ar:قُلْ, tr:qul, gloss:söyle} emrinden sonra konuşmacı değişir ve ayrı bir sözlü cevap duyulur; bu sözler 17:107’deki hitabın alıntısı değildir. “Rabbimizin vaadi” olağan vaat anlamını taşır. Ahiret vaadinin önceden bildirilmesi ve gelişinin söylenmesi (17:104), bu cevaba duyurulmuş geleceğin varışını tanıma tonu ekler, daha özel bir olayı belirtmez. Tesbih böylece bedenle başlayan karşılığı dile taşır.
+
+Bu geçişte tilavet, içeriğin alıcıya ulaşmasının yanı sıra işitilir bir karşılık ilişkisi de açar. {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} olağan okuma anlamını korur; aynı kökün bir sesin ardından gelen karşılık sesini anlatan ayrı kullanımı, ölçülü okuyuşu (17:106), tesbih sözünü (17:108) ve ağlayışı (17:109) işitilir bir alışverişte buluşturur. Bu ses ilişkisi ezgi ya da müzikli icra varsaymaz. {ar:يَخِرُّونَ, tr:yakhirrūna, gloss:düşerler} fiilinin sarsıntılı, sesli düşüş kullanımı da iniş ve tilavetle, ardından gelen söz ve ağlayışla temas eder (17:105, 17:106, 17:108, 17:109); bu bağlamda düşüş sessiz bir eğilişten daha kuvvetli duyulur, ancak ses niteliği her kullanıma genellenmez. Aynı fiilin akış ya da düzensiz hareket sırasında süreğen, dalgalı ses bildiren başka kullanımı ise okuyuş, tesbih ve ağlayış arasında süreklilik duyurur. Bu son katkı sesin niteliğine ilişkindir; secdeyi suyun aktığı bir sahneye çevirmez.
+
+Sözlü karşılığın ardından bedenin yönü yeniden belirir: 17:109’da aynı çene doğrultusuna yönelen secde yinelenir. {ar:يَبْكُونَ, tr:yabkūna, gloss:ağlarlar} olağan ağlamayı bildirir; gözyaşı, keder ve ses bu ayrı sahnedeki cevaba katılır, ilk düşüşte de ağladıklarını göstermez. {ar:خُشُوعًا, tr:khushūʿan, gloss:huşu ve tevazu} içten alçakgönüllü boyun eğişi adlandırır; odaktaki secde bunun bedensel karşılığını verir. {ar:يَزِيدُهُمْ خُشُوعًا, tr:yazīduhum khushūʿan, gloss:huşularını artırır} özellikle huşunun arttığını söyler; artışın ölçüsünü ya da başka bir niteliğini belirtmez. Sıralama ikinci bir cevap turu izlenimi verebilir; aynı olayın retorik olarak yeniden yoğunlaştırılması da mümkündür. Metin bu iki olasılık arasında tercih ettirmez; böyle bir tercih alıcıların özel psikolojisi hakkında hüküm gerektirirdi.
+
+Tilavetin ardından gelen secde ve ağlama 19:58’de de görünür: orada Rahman’ın ayetleri okunur, sonra beden secdeye ve gözyaşına yönelir. Bu paralellik farklı tilavet sahnelerinde bedensel teslimiyeti tanınır kılar; gözyaşı 19:58’deki sahneye aittir, 17:107’deki alıcılara aktarılmaz. Alnın yere konduğu secde, cevabın soyut kabulle sınırlı kalmayıp bedende gerçekleştiğini belirginleştirir. Bu benzerlik 17:109’daki kişilerin yeniden düştüğünü ya da secdenin yinelenen bir öğrenme yöntemi olduğunu göstermez.
+
+Tilavete verilen cevabın geniş bağlamında iki ayrı katkı birleşir: Kur’an okunurken dinleme ve sessiz kalma buyruğu (7:204) dikkati, secdeyi kulluk, yüceltme ve kibirden uzak duruşla birlikte anan sahne (7:206) ise tevazuyu öne çıkarır. Yan yana geldiklerinde bedensel cevabın vahyi dikkatle alımlama yönünü açarlar. Odaktaki {ar:سُجَّدًا, tr:sujjadan, gloss:secde ederek} hem alnı yere koyan görünür eylemi hem boyun eğerek ibadet etmeyi taşır. Bu sahneler odaktaki alıcılarla özdeşleştirilmez ve aralarında sabit bir olay sırası kurulmaz; 17:107 secde öncesi sessizlik de bildirmez.
+
+## Ayrı Cevaplar
+
+17:97’de sapma içindeki bir topluluk yüzleri üzerine kör, dilsiz ve sağır halde toplanır: {ar:عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا, tr:ʿalā wujūhihim ʿumyan wa-bukman wa-summan, gloss:yüzleri üzerine kör, dilsiz ve sağır halde}. Yüzün yere dönük ekseni odaktaki {ar:لِلْأَذْقَانِ, tr:li-l-adhqān, gloss:çeneler üzerine} yönelişiyle aynı beden doğrultusunu paylaşır; anatomik hedefleri yüz ve çene olarak ayrı kalır. Bu sahnedeki duyusal kapanışın karşısında, odakta alıcılar kendilerine okunan metne {ar:سُجَّدًا, tr:sujjadan, gloss:secde ederek} cevap verir; sözlü karşılık 17:108’de duyulur. Böylece iki ayrı topluluk ve alımlama biçimi karşı karşıya gelir; bu karşıtlık görme ya da işitmenin geri geldiğini ileri sürmez. {ar:يَخِرُّونَ, tr:yakhirrūna, gloss:düşerler} fiilinin sesli düşüş çağrışımı duyusal kapanışa işitsel bir karşı nokta ekler; olası ses imgesi işitilmiş bir çarpma tasviri değildir.
+
+Bilginin alınması ile ona verilen cevap arasındaki ayrım, 17:99 ve 17:102’de iki farklı yönden belirir. İşaretlere rağmen inkârda direnenler (17:99), açılıştaki {ar:آمِنُوا بِهِ أَوْ لَا تُؤْمِنُوا, tr:āminū bihi aw lā tuʾminū, gloss:ona inanın ya da inanmayın} karşıtlığının ret kutbuyla temas eder. 17:102’de Musa’nın muhatabına “bildin” demesi ve {ar:بَصَائِرَ, tr:baṣāʾira, gloss:apaçık kanıtlar} sözünün açık kavrayış ile kanıtları anması, bilme ile cevap verme arasındaki ayrımı görünür kılar. Odaktaki {ar:أُوتُوا الْعِلْمَ, tr:ūtū l-ʿilma, gloss:kendilerine bilgi verildi} alıcıları ile {ar:الْعِلْمَ, tr:al-ʿilma, gloss:bilgi} ve {ar:عَلِمْتَ, tr:ʿalimta, gloss:bildin} aynı bilme alanında buluşur; karşılaştırmanın odağı bilginin nasıl karşılandığıdır. {ar:بَصَائِرَ, tr:baṣāʾira, gloss:apaçık kanıtlar} içgörü ve görünür işaret imgesini ekler, “bilgi”nin sözlük karşılığı yerine geçmez. Bu sahnelerdeki kişiler odaktaki alıcılarla ya da Firavun’la özdeşleştirilmez. Olumlu inanmanın içten kabulü boyun eğiş gibi duyulabilir; bu olası rezonans iman sözcüğünü secdeyle eşitlemez ve bütün muhataplara secde yüklemez.
+
+Secde, tilavete verilebilecek bir cevaptır; komşu sahneler bunun zorunlu ya da tek biçimli sonuç olmadığını gösterir. İnsanları inanmaya zorlama sorusu tasdikin dayatmayla aynı olmadığını düşündürür (10:99), Kur’an okunurken secde etmeyenler ise farklı bir karşılık biçimi sunar (84:21). Çenelere uzanıp başı yukarıda tutan prangalar (36:8), odaktaki {ar:لِلْأَذْقَانِ, tr:li-l-adhqān, gloss:çeneler üzerine} aşağı yönelişinin karşısına kısıtlanmış, ters bir beden duruşu koyar; bu karşılaştırmada çene anatomik hedeftir, ağız ya da konuşma anlamına kaymaz. Örnekler arasındaki bağ bu karşıtlıklardır: kişilerin kimliği ve güdüsü odak grubuna taşınmaz, zorlama sorusu iç özgürlüğü kanıtlamaz, prangalı beden de kendi başına ret iradesi göstermez.
+
+17:100’de elde tutma imgesi, kendilerine ulaşan bilgiyle kurulan karşıtlığı somutlaştırır. İnsanların ellerinde Rabb’in rahmet hazineleri bulunsaydı harcama korkusuyla onları tutacakları düşünülür: {ar:خَزَائِنَ رَحْمَةِ رَبِّي, tr:khazāʾina raḥmati rabbī, gloss:Rabbimin rahmet hazineleri}, {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:mutlaka tutardınız} ve {ar:خَشْيَةَ الْإِنْفَاقِ, tr:khashyata l-infāq, gloss:harcama korkusuyla}. Hazineler eldeki birikimi, {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:mutlaka tutardınız} elde tutmayı, harcama korkusu ise bu tutmanın gerekçesini kurar; {ar:الْإِنْفَاقِ, tr:al-infāq, gloss:harcama} dışarı verme hareketini, {ar:قَتُورًا, tr:qatūrā, gloss:cimri ve eli sıkı} da kısmaya yönelen tutumu belirginleştirir. Bu saklama imgesinin karşısında odaktaki {ar:أُوتُوا, tr:ūtū, gloss:kendilerine verildi} bilgiyi alıcılara ulaştırır, {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} tilavetle onların karşısına getirir ve secde kabulü görünür kılar. Böylece bu karşılaştırmada bilgi, korunan bir stoktan çok alıcıya açılan bildirim gibi duyulur. Rahmet hazinesi bilgiyle aynı kaynak değildir; bu imge alıcıların bilgiyi dağıttığını ya da ekonomik anlamda cömert olduğunu da söylemez.
+
+Karşılaştırmaya yalnızca Fâtiha’nın 1:7 ayeti katıldığında, bilgi verilmiş alıcılarla nimet verilenler arasında bir benzerlik açılır. Odaktaki {ar:أُوتُوا الْعِلْمَ, tr:ūtū l-ʿilma, gloss:kendilerine bilgi verildi} ile Fâtiha’daki {ar:أَنْعَمْتَ عَلَيْهِمْ, tr:anʿamta ʿalayhim, gloss:kendilerine nimet verdiklerin} ayrı alıcı topluluklarını tanımlar; alınan yarara secdeyle karşılık verilmesi benzerliği bedensel kılar. Bu, iki grubu özdeşleştirmez; 17:107 de nimet verilenlerin yolunun bütün anlamını açıklamaz.
+
+17:110’daki ses talimatı, odaktaki okuyuş için ölçülü işitmenin olası bağlamını açar. Allah’a ya da Rahmân’a seslenme buyruğu, namazda sesi yükseltmeme veya fazla kısmama uyarıları ve ikisinin arasında bir yol arama çağrısı yan yana gelir: {ar:ادْعُوا اللَّهَ أَوِ ادْعُوا الرَّحْمَٰنَ, tr:udʿū llāha aw udʿū r-raḥmān, gloss:Allah’a ya da Rahmân’a seslenin}, {ar:وَلَا تَجْهَرْ بِصَلَاتِكَ, tr:wa-lā tajhar bi-ṣalātika, gloss:namazında sesini yükseltme}, {ar:وَلَا تُخَافِتْ بِهَا, tr:wa-lā tukhāfit bihā, gloss:onu alçak sesle gizleme} ve {ar:وَابْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا, tr:wabtaghi bayna dhālika sabīlā, gloss:ikisinin arasında bir yol ara}. Bu buyruklar odaktaki {ar:قُلْ, tr:qul, gloss:söyle} ve {ar:يُتْلَىٰ عَلَيْهِمْ, tr:yutlā ʿalayhim, gloss:kendilerine okunur} sözlerini sözlü alımlama çerçevesine taşır; konuşma eylemleri iki ayette ayrı kalır. Bu bağlantı, 17:107’deki tilavetin namaz olduğunu ya da ses düzeyinin belirli olduğunu söylemez.
+
+Bu ölçülü sesin ardından 17:111’deki kapanış insanın aşağı yönelen bedenini Allah’ın yüceltilmesiyle karşı karşıya getirir. Allah için zilletle bağlantılı bir koruyucuya ihtiyaç bulunmadığı bildirilir ve O’nu yüceltme buyruğu gelir: {ar:مِنَ الذُّلِّ, tr:mina dh-dhull, gloss:zillet yüzünden} bu ihtiyaç ilişkisini adlandırırken odaktaki {ar:سُجَّدًا, tr:sujjadan, gloss:secde ederek} insanın alçalarak bağlılık göstermesini taşır. Bu özel karşıtlıkta secde zoraki aşağılanma, utanç ya da ilahî bağımlılıktan ziyade insanın ibadet eylemi olarak duyulur; iki kullanım sözlükçe eşitlenmez ve bu bağlamsal vurgu başka okumaları geçersiz kılmaz. {ar:وَكَبِّرْهُ تَكْبِيرًا, tr:wa-kabbirhu takbīrā, gloss:O’nu büyükleyerek yücelt} aşağı yönelen beden hareketinin karşısına yüceltileni koyar; karşıtlık değer yönündedir, fiziksel bir yükseliş değildir. Kapanış sözleri odaktaki alıcıları doğrudan anlatmaz; bu yakın karşılaştırma secdenin boyun eğen ibadet niteliğini belirginleştirir.
+
+</editorial_prose>

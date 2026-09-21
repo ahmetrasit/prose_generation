@@ -1,0 +1,219 @@
+# V5 reading invitation — 17:82
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p05-with-fatiha/s017/17_82/17_82.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p05-with-fatiha/s017/17_82/17_82.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Tek İndiriş, İki Alıcı
+
+17:82'nin olağan anlamı, Kur'an'dan indirilenin inananlara şifa ve rahmet oluşunu, haksızlık edenlere ise yalnız kayıp artışıyla karşı karşıya getirir. Başlangıçtaki {ar:وَنُنَزِّلُ, tr:wa-nunazzilu, gloss:ve indiriyoruz} bağlacı önceki akışla ilişkiyi korurken, hemen arkasındaki {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştırırız} fiili yeni yüklem merkezini açar. Muzari II. bâb biçimi, Allah'ın sürmekte olan indirişini ettirgen bir eylem olarak bildirir; tek bir bitmiş iniş raporundan söz edilmez. Fiil vahyi aşağı indirip ulaştırmayı bildirir; gelişin evreli duyulması buna eşlik edebilecek bir yan tınıdır, ancak bu biçim tek başına aşamalı zamanlamayı veya konaklamayı belirlemez. Aynı kaynak altında sonuçların alıcılara göre ayrılması, ikinci bir vahiy değil tek bildirinin farklı etkileridir. İnişin nesnesini ve kaynağını belirleyen sonraki yapı, bu iki etkinin nasıl kurulduğunu gösterir; iki alıcının ortak kaynağı {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an} olarak aynı kalır.
+
+{ar:مِنَ, tr:min, gloss:-den; içinden} doğrudan {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an} adına bağlanır; bu ad, indirilen şeyi tanıtan {ar:مَا, tr:mā, gloss:indirilen şey} ifadesinden önce gelir. Böylece iki sonucun önünde tek bir Kur'an kaynağı durur. “Kur'an'dan” tamlaması kaynağı gösterebildiği gibi, Kur'an'dan indirilen bir bölüme de açık kalır; cümle bu iki ilişkiyi seçmez. Kur'an adının okuma, tilavet ve tilaveti öğretme çağrışımları, onu ulaştıran {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştırır} fiiliyle buluşunca kaynağı okunup icra edilen söz olarak da duyurur. Bu yankı, kaynağı işitilen vahiy olarak öne çıkarır; tilaveti öğretme çağrışımı bu okumada ayrı bir öğretme sahnesi kurulduğu anlamına gelmez. Adın sonundaki hemze de söyleyişi belirgin bir kapanışla bitirir; iki alıcıya geçmeden önce ortak kaynak kulakta kapanmıştır.
+
+{ar:مَا, tr:mā, gloss:indirilen şey} öncelikle fiilin ilgi nesnesidir: indirilen şeyi adlandırır, ardından gelen {ar:هُوَ شِفَاءٌ وَرَحْمَةٌ, tr:huwa shifāʾun wa-raḥmatun, gloss:o şifa ve rahmettir} cümlesi de bu nesnenin niteliğini bildirir. Şifa ve rahmet böylece indirme fiilinden sonra eklenmiş serbest yorumlar değil, indirilenin yüklemleridir. {ar:مَا هُوَ شِفَاءٌ, tr:mā huwa shifāʾun, gloss:şifa olan şey} kuruluşu, bu temel ilgi-nesne okumasını bozmadan iyileştirici niteliği biraz daha öne çıkarabilir. Hemen yüklemin önündeki {ar:هُوَ, tr:huwa, gloss:o} zamiri cümleyi kısa süre tutar; indirilen nesneye dönmesi, bütün meseleyi konu edinmesi ya da ayırıcı zamir gibi işlemesi ihtimalleri açıktır. Her durumda {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} merfu yüklem olarak kalır; uzun ünlüsü ve hemze kapanışı cümlenin işitsel ağırlığını bu noktada toplar.
+
+{ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa}nın olağan görüntüsü, önceden var olan bir hastalığı giderip bedeni yeniden iyilik hâline ulaştıran tedavidir. Kur'an'ın kaynak olarak adlandırılması ve {ar:هُوَ, tr:huwa, gloss:o} ile kurulan eşitlik, bu tedaviyi gönderilen söylemin niteliği yapar. Yarar bildiren {ar:لِلْمُؤْمِنِينَ, tr:li-l-muʾminīn, gloss:inananlar için} alıcı bağı, iyileşmenin bilgisizlik, iç sıkıntısı veya öfke gibi bedensel olmayan rahatsızlıkların giderilmesine uzanmasını da mümkün kılar. Bu genişleme metinsel ve içsel bir onarım olasılığını düşündürür; ayet belirli bir tıbbi ya da ruhsal tanı koymaz ve bedensel bir işlem tarif etmez. Bu bedensel ve içsel onarımın ortak kaynağı {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an}dır; ikinci yüklem, tedavinin muhataba nasıl bir iyilik olarak ulaştığını ekler.
+
+{ar:وَرَحْمَةٌ, tr:wa-raḥmatun, gloss:ve rahmet} bağlacı {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} ile rahmeti aynı yüklem düzenine eşler; iki merfu isim yine ayrı niteliklerdir, biri ötekinin sözlük karşılığı olmaz. Rahmetin şefkat ve içten yakınlık anlamı şifayla temas edince onarımın yanına duyarlı bakım ekler. Alıcılara yönelen yarar ilişkisi bu bakımı esirgeme ve iyilikte bulunma olarak somutlaştırır; rahmet koruyup besleyen tonu genişletir ama aynı cümledeki ikinci yüklem olarak kalır. Çiftin ortak ses kadansı da ayetin sonundaki kayba doğru uzanır: yarar ve kayıp birbirine yankı verirken iki ayrı sonuç olmayı sürdürür. Bu yönelimin dilbilgisel bağını şimdi lâm belirginleştirir.
+
+Yarar bildiren lâm yazıda ve tilavette {ar:لِلْمُؤْمِنِينَ, tr:li-l-muʾminīn, gloss:inananlar için} ifadesine bitişiktir; böylece şifa-rahmet çiftinin alıcısını gösterir. Bağın yalnız şifaya mı, yoksa her iki yükleme birden mi döndüğü çözülmez. Genitif çoğul etkin sıfat biçimindeki {ar:الْمُؤْمِنِينَ, tr:al-muʾminīn, gloss:inananlar} tek kişiyi değil, yararın yöneldiği süreklilik taşıyan bir sınıfı adlandırır. Karşı kutuptaki {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} ile düşünüldüğünde, inananlar adının güven ve emniyetle ilgili kök yankısı onları korkuya karşı yatışan, tehlikeden emin alıcılar gibi renklendirebilir. Bununla birlikte 17:84'te belirginleşecek kabul ve tasdik yönü bu emniyet çağrışımından ayrıdır; odaktaki sözcük öncelikle alıcı sınıfının adıdır.
+
+Olumlu çiftin ardından gelen {ar:وَلَا, tr:wa-lā, gloss:ve artırmaz} yeni olumsuz yükleme geçişi duyurur; bağlacın yinelenen sesi ritmi yeniden başlatırken {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an} iki alıcı sonucunun ortak bağlamında kalır. {ar:لَا يَزِيدُ إِلَّا خَسَارًا, tr:lā yazīdu illā khasāran, gloss:yalnızca kaybı artırır} bir yasak veya emir değil, Kur'an'la karşılaşmanın sonucunu bildiren cümledir. {ar:لَا, tr:lā, gloss:artırmaz} ile {ar:إِلَّا, tr:illā, gloss:ancak} arasındaki uzun ünlüler sonucu bekletir. Öncesinde kapsamı açıkça adlandırılmış bir istisna sınıfı bulunmadığından boş istisna kuruluşu anlamı sona kadar askıda tutar; geriye artışın tek olumlu kalanı olan {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} kalır. Böylece cümlenin sonundaki isim, olumlu çiftin ardından kaybı öne çıkarır.
+
+{ar:يَزِيدُ, tr:yazīdu, gloss:artırır} olağan anlamıyla bir şeye ekleyip çoğaltır; yönü kendi başına iyi veya kötü değildir, bunu sonuca bağlanan kayıp belirler. Fiilin yanında yeni bir fail açıkça söylenmez: önceki Kur'an adı veya ilgi nesnesi {ar:مَا, tr:mā, gloss:indirilen şey} örtük özne olarak sürdürülebilir, fakat hangisinin tam gönderim olduğu seçilmez. Belirli, mansup çoğul etkin sıfat biçimindeki {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} soyut bir “kayıp büyür” cümlesinin dışında, artıştan etkilenen alıcı sınıfını gösterir. {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan}ın mansup biçimi artışın içeriğini veya ölçüsünü bildirir; ikinci nesne mi yoksa belirleme mi olduğu açık kalır. Aktarılan biçim farklılıkları haksızlığın yöneldiği şeyi başka yerde belirginleştirebilir, odaktaki biçimse belirli bir nesne vermez. Uzun ve yoğun alıcı adı ağırlık kazanır; kısa fiilin sesi bu ağırlığı son kayıp adına taşır.
+
+Son isim {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} kaybeden kişileri değil, artışla biriken kaybın kendisini adlandıran mastardır; miktar, bütünlük ya da değer azalması temel anlam alanıdır. Kelime ailesindeki ölçü ve tartıda eksik bırakma kullanımı, nötr {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} fiili ve kaybı yaşayan {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} sınıfıyla temas edince büyüyen bir açığa benzer: kısa ölçü gereken miktardan azını verir; artan şey kayıp olunca açık da büyür. Bu benzetme cümleye bir tartı veya ticaret işlemi eklemez. Kayıp adı ayrıca doğru yönden sapma, iyilikten uzaklaşma ve yıkıma götüren yitimi düşündürebilir; sağlık, güvenlik, akıl, inanç veya iyiliğin karşılığı bu genişlemenin olası alanlarıdır, ayet bunlardan hangisinin yitirildiğini seçmez. Artışın kendisi de bir uç sınıra varıldığını kanıtlamaz; bu sonuç için ayrı bir sınır işareti gerekir.
+
+## Şifanın Bedensel Çekirdeği
+
+Başlangıçtaki {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} tedavi görüntüsü başka Kur'an bağlamlarında hem bedende hem iç dünyada sınanır. İbrahim hastalığını kendi sözüyle anıp iyileştirenin Allah olduğunu söyler (26:80); burada şifa hastalığın giderilip iyilik hâline dönmesini somutlaştırır. Göğüslerdeki şifayı konu eden Yunus ayetinde (10:57) aynı kelime iç sıkıntısı, bilgisizlik veya öfke gibi bedensel olmayan rahatsızlıkların giderilmesine açılır. O ayette mesaj insanlara öğüt, göğüslerdekine şifa, inananlara ise hidayet ve {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet} olarak sunulur; rahmetin inananlara yönelen bu kullanımı acıma hissinden öte, onları esirgeyerek iyilikte bulunan etkin bakımı belirginleştirir. {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an}ı inananlar için hidayet ve şifa, inanmayanlar için kulaklarda ağırlık ve körlük olarak anlatan Fussilet ayeti de alımlanıştaki farkı görünür kılar (41:44). Bu üç örnek bedensel iyileşme çekirdeğini korurken şifanın iç dünyaya ve farklı alıcı cevaplarına açılabildiğini gösterir; bu bağlantıdan klinik iyileşme garantisi veya her inanan için tek biçimli sonuç çıkmaz.
+
+İyilik hâline dönüş görüntüsünün yanında, aynı sözcük ailesinin başka bir kenarı da yıkıma yaklaşma eşiğini düşündürür. {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} için kenar, kıyı veya dik uç anlamları bir durum sınırına; bu sınırın bir kullanımı da ölüme ya da yok oluşa çok yaklaşmaya açılır. Kalplerinde hastalık bulunanların kirliliğinin artıp sonunda inkâr üzere öldüğünü bildiren Tevbe ayeti ayrı bir son sahnesi verir (9:125): burada yaklaşan ölüm değil, ölüm bildirilir. 17:82 ise şifayı inananlara yükler. Bu karşıtlık, şifayı yıkıma giden çizgiden uzaklaştıran bir iyileşme eşiği gibi duyurur; bu iki ayet arasındaki bağlantı kalplerinde hastalık bulunanları odaktaki şifa alıcılarına katmaz.
+
+Şafak kıraati, {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} için iyileşmenin yeniden etkinleşme imgesini sunar. Tanıklık edilen {ar:قُرْآنَ الْفَجْرِ, tr:qurʾāna al-fajr, gloss:şafak kıraati} karanlıktan görünür bir açılışa çıkar (17:78); {ar:مَشْهُودًا, tr:mashhūdan, gloss:tanıklık edilen} oluşu bu açılışı duyulur ve göz önünde kılar. {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an} adıyla anılan okunan vahiy, bu tanıklık içinde soyut bilgi olmaktan çıkıp işitilen söz olarak belirir. Gecenin bir bölümünde ibadete kalkış (17:79), {ar:وَمِنَ اللَّيْلِ فَتَهَجَّدْ بِهِ, tr:wa-mina al-layli fa-tahajjad bihi, gloss:gecenin bir bölümünde onunla gece ibadetine kalk} uykudan çıkışı, {ar:يَبْعَثَكَ, tr:yabʿathaka, gloss:seni ayağa kaldırması} yeniden harekete geçişi, {ar:مَقَامًا مَحْمُودًا, tr:maqāman maḥmūdan, gloss:övülmüş makam} ise ulaşılan konumu verir. {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} fiilinin hareketiyle {ar:مَقَامًا, tr:maqāman, gloss:ulaşılan yer veya derece} arasında yalnız bağlamsal bir temas vardır; ikisi aynı kök ya da sözlük anlamı değildir. Yukarıdan istenen ve okunacak {ar:كِتَابًا نَقْرَؤُهُ, tr:kitāban naqraʾuhu, gloss:okuyacağımız bir kitap} da şafak kıraatiyle birlikte düşünüldüğünde inişe insanın işitmesine ulaşan bir teslim yolu verir (17:93). Bu bağlantıda şifa düşey inişten tanıklıklı bir yeniden açılışa genişler; şafak ve gece nöbeti ibadet ile zaman çerçevesinde de okunabilir.
+
+Bu açılış imgesinden ayrı olarak, Furkân'daki itiraz iniş temposunun nasıl duyulabileceğini gösterir. Bir kerede indirme isteğine karşı Kur'an'ın aşamalı okunması ve elçinin kalbinin sağlamlaştırılması birlikte anılır (25:32). {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştırır} fiili burada da aşağı doğru ulaştırmayı bildirir; yavaş ve bölümlü geliş ihtimali bu sahnenin bağlamından gelir, odak fiilin tek başına verdiği kronoloji değildir. Kök ailesinin ilahî iyilikleri veya cezaları insanlara ulaştırma kullanımı da indirilen şeyin Kur'an olmasıyla yankılanır; bölümlerin uygun sıraya gelişi ise parçaları yerli yerine koyma çağrışımı ekleyebilir. Bağlamdan gelen tempo ve sıralama fiilin sözlük anlamını “yerleştirmek” yapmaz; bu bağlantı vahyin baştan sona tarih sırasını da kurmaz. Şimdi soru, bildirinin ne zaman geldiğinden çok içeride neyi açığa çıkarıp neyi bıraktığına döner.
+
+## Giriş, Çıkış ve Yerine Ulaşma
+
+{ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa}nın bedensel hastayı iyilik hâline getirmesi, bu bağlamda doğru giriş ve çıkışla içerideki bozulmaya erişen bir okuma kazanır. İsrâ'da doğru bir giriş ve doğru bir çıkış dileği (17:80), gizli olana ulaşma ve sonra onu dışarı alma hattını sağlar: {ar:مَدْخَلَ صِدْقٍ, tr:madkhala ṣidqin, gloss:doğru bir giriş} yüzey altındaki bozulmaya erişir, {ar:مُخْرَجَ صِدْقٍ, tr:mukhraja ṣidqin, gloss:doğru bir çıkış} saklı olanı görünür kılıp çıkarır. Maddi bir yara ya da çıbanın belirip dışarı çıkması bu çıkarma hareketine somut bir tedavi dokusu verir. Aynı dizide {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} fiilinin olağan aşağı inişi korunur; gerçek ve hakikati adlandıran {ar:الْحَقُّ, tr:al-ḥaqq, gloss:yerleşik gerçek} ile teması, bir şeyi uygun yere veya sıraya koyma kullanımını da çağırır. Ardından hakikatin kalması ile batılın iz bırakmadan çekilmesi, içeri alınan sağlamlığın tutunup çıkarılan bozulmanın gücünü yitirmesini gösterir: {ar:زَهَقَ الْبَاطِلُ, tr:zahaqa al-bāṭilu, gloss:batıl silinip çekildi} (17:81). Bu şifa okumasında iniş, gizli bozulmaya erişme, onu çıkarma ve sağlamlığı içeride bırakma hattı kazanır.
+
+Bu karşılaşmada {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} olağan anlamıyla yanlış yapan insan sınıfıdır. Sözcük ailesindeki ışık yokluğu bilgisizlik veya yoldan sapma için kurulan karanlık benzetmesine, zulmün yerinden etme ve payı aşma çağrışımları ise yerinden edilmişlik tonuna katkı verir. {ar:الْحَقُّ, tr:al-ḥaqq, gloss:hakikat} ile {ar:الْبَاطِلُ, tr:al-bāṭilu, gloss:batıl}ın karşı karşıya gelişi bu iki kolu dirençli bir örtülme imgesinde buluşturur. Bu bağlantı gerçek bir gece ya da hastalık teşhisi kurmaz. Gizli bozulmanın çıkarılması, 17:80'deki giriş-çıkış ve 17:81'deki izsiz uzaklaştırmadan çıkarılmış bir tedavi okumasıdır; aynı sözler mekânsal veya hukuki geçiş olarak da okunabilir. Bu sınırlı okuma şifa imgesini somut tutar, beden için belirli bir uygulama iddiasına dönüştürmez.
+
+Yara ve çıban imgesinden ayrı olarak, uygun yere koyma çağrışımı maddi bir ayar benzetmesi kurar. Bu benzetmede {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} için korunan temel eylem aşağı indirmedir; Kur'an'ın ayrı kaynak olarak adlandırılmasıyla temas eden yerleştirme kullanımı doğru durağa koyma fikrini ekler. Kur'an adındaki daha uzak toplanma çağrışımı da yeniden düzenlenecek dağınık malzemeyi sağlar. Bu, adın belirlenmiş sözlük tanımı değil, iniş ve kaynak ilişkisinden çıkan bir benzetmedir.
+
+Bu ayarda {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} inananlar için olağan tedavi ve iyilik hâline dönüşünü sağlar; karşı kutuptaki {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} ise uygun zaman, yer veya koşul dışında iş gören alıcılar gibi duyulabilir. Ölçü ve tartıda eksiltme çağrışımlı {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} kısa ölçü imgesini, nötr {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} ise artış yönünü sağlar; yinelenen yanlış ayar, kayıp arttıkça genişleyen açığa döner. Böylece uygun yerleşme onarıma, yanlış koşulda sürme eksilmeye karşılık gelir. Bu birleşik imge bir benzetmedir: gerçek bir tartı, fiziksel yer değiştirme veya belirli bir haksızlık olayını anlatmaz; indirme ve artışın olağan anlamları da korunur.
+
+## Alıcının Yönelişi
+
+Yerleştirme benzetmesi alıcıların karşı kutuplarını görünür kılmıştı; yakın ayetlerde ise soru, insanların bu bildiriyle nasıl karşılaştığına döner. {ar:الْمُؤْمِنِينَ, tr:al-muʾminīn, gloss:inananlar} adının hakikati doğru sayıp kabul etme yönü, kişinin kendi yönelişiyle temas edince {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} ve {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet}in cevaptan kopuk olmadığını düşündürür. İyilik ulaştığında yüz çevirip yana çekilen, zarar dokunduğunda umutsuzluğa düşen kişi (17:83), herkesin kendi yönelişine göre davrandığını söyleyen ifadeyle yan yana gelir: {ar:كُلٌّ يَعْمَلُ عَلَى شَاكِلَتِهِ, tr:kullun yaʿmalu ʿalā shākilatihi, gloss:herkes kendi yönelişine göre davranır}. Daha iyi yola kimin yöneldiği sorusu da {ar:أَهْدَى سَبِيلًا, tr:ahdā sabīlan, gloss:yola daha iyi yönelmiş} karşıtlığını kurar (17:84). Bu diziliş alıcı tutumunu sonuçtan önce işleyen bir çizgi gibi duyurur ve olası bir geri-bildirim okuması açar: kabulde yarar açılırken yüz çevirme ve umutsuzluk kaybı derinleştirebilir; {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} fiiliyle büyüyen {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} doğru yoldan uzaklaşma ve iyiliği yitirme yönüne açılır. Aynı sahneler farklı alıcıları sınıflandırmakla da yetinebilir. Bu bağlantı kendi başına hesap veya karşılık öğretisi kurmaz; artış da son sınıra varıldığını göstermez.
+
+Bu davranış örüntüsü, haksızlık edenlerin payı başkasından esirgeme anlamını da somutlaştırabilir. {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} için sağlanan kullanımlardan biri kişiyi kendine ait paydan alıkoymaktır; eylemi kişisel yönelişe bağlayan ifade bu haksızlık biçimini harekete geçirir (17:84). Bu, sınıfın olası bir görünümüdür, her zalimi pay gaspıyla tanımlamaz. Aynı pay eksiltme (83:3) ölçü alırken kendileri tam alan, başkalarına ölçüp tartarken eksik verenlerle somutlaşır. Yön farkı önemlidir: orada kısa ölçüyü uygulayanlar başkasına kayıp veren öznelerdir, 17:82'deyse {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} kaybı artan alıcıdır. İki sahne {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} ile kısa ölçü arasında analoji kurar, odaktaki karşıtlığı ticaret hikâyesine indirmez. Fâtır'da inkârcıların {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} fiiliyle kaybının yinelenerek artması da yitimi tek düşüşten çok süren bir sonuç gibi duyurur (35:39).
+
+{ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an}a verilen cevaplar alıcı ayrımını başka ses ve beden hareketlerinde gösterir. Okuma karşısında ahirete inanmayanların önüne örtülü bir perde konması (17:45), Allah yalnız anıldığında ise onların sırt çevirip kaçması (17:46), dinleme ve anmaya ayrı tepkilerdir. Kur'an okununca kendilerine ilim verilmiş olanların secdeye kapanması ve kabul seçeneğiyle karşılaşmaları başka bir alımlanış sunar (17:107). Âl-i İmrân'da eğri kalplerin müteşabih ayetleri fitne arayışıyla izlemesi, ilimde kökleşenlerin ise tümünün Rablerinden geldiğine inanmasıyla karşılaştırılır (3:7). Bu sahnelerde {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} ailesinin uygun amaçtan saptırma veya yanlış koşula koyma kolu, vahyi fitne arayışına koşma davranışıyla belirginleşebilir; {ar:الْمُؤْمِنِينَ, tr:al-muʾminīn, gloss:inananlar} da sözü doğru kabul eden alıcılar olarak duyulur. Perde ve kaçış, secde, fitne arayışı ve tasdik kendi sahnelerinde ayrı tepkilerdir; birlikte farklı alımlanış yollarını görünür kılarlar. Bu bağlamlar 17:82'deki sonuçlar için zorunlu bir sebep zinciri kurmaz ve her zalimi fitne arayışıyla tanımlamaz.
+
+Bu alımlanış ayrımı, artış fiilinin kendisinin değer bakımından nötr olmasıyla da uyumludur. {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} bir şeyi çoğaltır; neyin arttığı sonucu değiştirir. Tevbe'de indirilen sure inananların imanını ve sevincini artırır (9:124), hemen ardından kalplerinde hastalık bulunanların kirliliği artar ve inkâr üzere ölürler (9:125). {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an}ın hatırlatmaları karşı koyanların uzaklaşmasını artırır (17:41). Artışın nesnesi iman ve sevinçten kalp kirliliğine, oradan hatırlatmadan uzaklaşmaya geçer; odakta olumsuz sonucu fiilin kendisi değil, {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler}e bağlanan {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} kurar. Bu örnekler artışın farklı nesnelere yöneldiğini gösterir; alımlama tutumunun sebep mi yoksa ona eşlik eden tasvir mi olduğu açık kalır. 17:82'nin biçimi de başka ayetlerin morfolojisine indirgenmez.
+
+## Bilginin Sınırı ve Korunan Hayat
+
+Alıcıların yönelişinden sonra dikkat, etkinin tam kavrayışa bağlı olup olmadığı sorusuna geçer. Ruh hakkında insana az bilgi verildiğini söyleyen ayet, hayat taşıyan özü ve bilgi sınırını birlikte adlandırır: {ar:الرُّوحِ, tr:ar-rūḥ, gloss:ruh ve hayat taşıyan öz} ile {ar:إِلَّا قَلِيلًا, tr:illā qalīlan, gloss:ancak azı} (17:85). {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an}ın {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} oluşu bedensel rahatsızlığı giderme çekirdeğini taşımayı sürdürür; ruh ve hayat taşıyan özün birlikte anılması, etkinin alıcının her şeyi eksiksiz bilmesine bağlı olmayabileceği okumasını açar. Böylece etkililik, bilgi sahipliğinin tamlığıyla ölçülmeyen bir onarıma da uzanabilir.
+
+Bu etkiyi koruma meselesi vahyin geri alınabilmesiyle keskinleşir. Vahyin mutlaka geri alınabileceğini söyleyen {ar:لَنَذْهَبَنَّ بِالَّذِي أَوْحَيْنَا إِلَيْكَ, tr:lanadhhabanna bi-alladhī awḥaynā ilayka, gloss:sana vahyettiğimizi mutlaka geri alırız} ve onu koruyacak bir vekilin bulunmadığını bildiren {ar:وَكِيلًا, tr:wakīlan, gloss:işi üstlenecek bir koruyucu} sözleri kaynağın tek başına güvence altında olmadığını gösterir (17:86). Bu kırılganlık, {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an}ın {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} etkisini korunan bir hayat armağanı olarak okuma ihtimalini açar; bu okumada başlangıçtaki bedenî tedavi anlamı da yerinde kalır.
+
+Ardından Rabden gelen rahmet ve lütuf, korumanın hangi iyilik olarak düşünülebileceğini belirginleştirir. {ar:إِلَّا رَحْمَةً مِنْ رَبِّكَ, tr:illā raḥmatan min rabbika, gloss:Rabbinden bir merhamet dışında} ifadesindeki rahmet esirgeme ve etkin yararı, yanındaki {ar:فَضْلُهُ, tr:faḍluhu, gloss:onun lütfu} ise ihsanı öne çıkarır (17:87). Yaratılmışlara ulaşan geniş iyilikle birlikte bu iki nitelik, {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa}nın hastalığı giderme çekirdeğinden korunan bir yarara genişlemesini mümkün kılar. Hayat verici bağış okuması rahmet ve lütuf temasından çıkarılmıştır; 17:85, 17:86 ve 17:87 dizisi yalnız vahyin korunması hakkında da okunabilir. Bu bağlantı her inananı o sahnedeki alıcıyla özdeşleştirmez veya her rahmet kullanımını aynılaştırmaz.
+
+## Korunaklı Oluşum İmgesi
+
+Bu koruma okumasından bağımsız, keşif amaçlı bir maddi benzetme sözcüklerin başka yakınlıklarından kurulur. {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an} adındaki uzak toplanma çağrışımı ile ayrı {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet} niteliğinin rahimle kök yakınlığı yan yana getirildiğinde gebeliği toplayıp koruyan rahim imgesi doğar. Kur'an adındaki bu toplanma bağlantısı uzaktır; belirlenmiş bir sözlük tanımı gibi sunulmaz. Rahmetin rahimle kök yakınlığı da tek başına sözlük anlamını değiştirmez, fakat korunaklı oluşum alanı çağrışımını taşır.
+
+Bu imge {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} yüklemiyle temas edince {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet} korunaklı alanı, şifa ise içinde gelişen yavruyu taşıyıp büyüten kabı düşündürür. {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} için uygun yere koyma kullanımı da düzenli yerleştirme ve oluşuma yer açma çağrışımını ekler. Böylece rahmetin koruyucu kök yakınlığı, şifanın onarılmış hayata yönelişi ve inişin yer açan kullanımı bir keşif amaçlı gebelik imgesinde buluşur. Bu imge olağan indirme ve tedavi anlamlarının yerini almaz; rahmet bağımsız bir rahim sahnesine, şifa da embriyolojik bir terime dönüşmez.
+
+## Tek Kur'an ve Yinelenen Karşılık
+
+Korunaklı oluşum imgesinden ayrı bir soru, Kur'an'ın benzerinin üretilip üretilemeyeceği sınamasında açılır. {ar:اجْتَمَعَتِ الْإِنْسُ وَالْجِنُّ, tr:ijtamaʿati al-insu wa-l-jinnu, gloss:insanlar ve cinler bir araya gelseler} de {ar:بِمِثْلِ هَذَا الْقُرْآنِ, tr:bi-mithli hādhā al-Qurʾān, gloss:bu Kur'an'ın benzerini} getiremezler (17:88); ortak çabanın yetersiz kalması, odaktaki {ar:الْقُرْآنِ, tr:al-Qurʾān, gloss:Kur'an} kaynağının tek ve tutarlı bütünlüğünü belirginleştirir. Sınama, Kur'an'ı çok sayıda parçanın toplamı gibi değil, benzeri yeniden üretilemeyen tek bir bildiri olarak duyurur.
+
+Ardından {ar:صَرَّفْنَا لِلنَّاسِ مِنْ كُلِّ مَثَلٍ, tr:ṣarrafnā li-n-nāsi min kulli mathal, gloss:insanlara türlü örnekleri sunduk} ile çoğunluğun {ar:فَأَبَىٰ أَكْثَرُ النَّاسِ إِلَّا كُفُورًا, tr:fa-abā aktharu an-nāsi illā kufūran, gloss:inkârdan başkasını reddetmesi} karşılaşır (17:89). Her yeni örnek somut bir açıklık sunarken, tekrar eden ret bu açıklığın yeniden örtülmesi gibi okunabilir. Nötr {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} fiili yinelenen sunumların birikimli etkisini, miktar, bütünlük veya değer azalmasını adlandıran {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} ise sonucu düşündürür. Örneklerin tekrarını iyileşmenin farklı açılışlarına benzetmek bir çıkarımdır; aynı pasajlar öğretici bir gösterim olarak da okunabilir. 17:93'teki daha fazla işaret ve okunabilir kitap talebi bu artış okumasına yalnız bağlamsal bir yankı ekler; fiilin sözlük anlamı bu talep değildir ve burada ticari artırma ya da açık artırma imgesi kurulmaz.
+
+## İnişin Muhataba Göre Ayarı
+
+İşaret talepleri inişin nasıl ve kime ulaşması gerektiği sorusunu öne çıkarır. Göğün parçalar hâlinde düşürülmesi isteği maddi ve zorlayıcı gösteriyi kurar: {ar:أَوْ تُسْقِطَ السَّمَاءَ كِسَفًا, tr:aw tusqiṭa as-samāʾa kisafan, gloss:göğü parçalar hâlinde düşürmen} (17:92). Göğe yükselme talebi bu gösteriye yukarı yönünü, ardından gökten indirilecek {ar:كِتَابًا نَقْرَؤُهُ, tr:kitāban naqraʾuhu, gloss:okuyacağımız bir kitap} ise okunup denetlenebilir kanıt nesnesini ekler (17:93). {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} fiilinin olağan aşağı iniş anlamı korunur; uygun yere veya sıraya koyma kullanımı, bizzat kendilerinin okuyacağı kitap şartıyla buluşunca bildirinin muhataba göre ayarlanmış ulaşımı imgesini ekler. Okuma koşulunu kendilerinin koyması, vahyi alımlama pratiğinden çıkarıp inancın önkoşulu olarak denetlenecek bir nesneye dönüştürür; istenen gösteri böylece şifa taşıyan olağan inişten ayrılır.
+
+Bu şartın biçimi, {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler} için yanlış yer, zaman veya koşula koyma kolunu da harekete geçirebilir: sözcüğün olağan insan sınıfı anlamı korunurken, bildiriyi yalnız kendi denetledikleri biçimde kabul etme talebi yanlış ayarlanmış bir alımlama gibi duyulur. Bu bağlantı sözcüğü fiziksel yerinden etmeye çevirmez ve istenen her gösteriyi şifa taşıyan vahyin parçası saymaz.
+
+İşaret nesnesinden haberciye geçildiğinde, engelin iletinin ulaştırılma biçiminde olduğu görünür. Hidayet geldiğinde insanların inanmasına engel olan itiraz, insan bir elçinin gönderilmesini konu eder: {ar:مَنَعَ النَّاسَ, tr:manaʿa an-nāsa, gloss:insanları alıkoydu} ve {ar:بَشَرًا رَسُولًا, tr:basharan rasūlan, gloss:insan bir elçi} (17:94). Böylece bariyer haberci ile insan muhatap arasındaki ilişkiye konur. Yeryüzünde güven içinde yürüyen insanlar ile onlara gönderileceği varsayılan melek elçi karşılaştırılır: {ar:فِي الْأَرْضِ يَمْشُونَ مُطْمَئِنِّينَ, tr:fī al-arḍi yamshūna muṭmaʾinnīn, gloss:yeryüzünde güven içinde yürüyenler} ve {ar:لَنَزَّلْنَا عَلَيْهِمْ مَلَكًا رَسُولًا, tr:la-nazzalnā ʿalayhim malakan rasūlan, gloss:onlara melek bir elçi indirirdik} (17:95). Varsayımda melekler yeryüzünde yaşayan muhataplar olsaydı haberci de melek olurdu. {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} için uygun yere koyma kullanımı bu koşullu eşleşmeyi tamamlar: haberci türü alıcının bedensel biçimine göredir. Bu eşleşme merhametin bir parçası olarak yorumlanabilir; alternatif olarak, pasajlar işaretler ve haberci türü hakkında bir karşılık olarak okunabilir.
+
+## Yol Azığı
+
+İniş fiilinin bir başka, açıkça keşif amaçlı çağrışımı yolculukta konuk ağırlama ve azık hazırlamadır. {ar:الْمُؤْمِنِينَ, tr:al-muʾminīn, gloss:inananlar} alıcı sınıfı yolcu konukları, {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} ise bir durakta sunulan yiyecek payını düşündürür; böylece alıcıların donatılması ve ağırlanması görüntüsü kurulur. Bu yol bağlantısı vahyin iniş ve onarıcı yarar anlamlarına eşlik eden ayrı bir maddi imgedir.
+
+Yolculuk imgesinde nötr {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} fiili ileride kullanılmak üzere yiyecek veya suyu saklama düşüncesiyle ilişkilendirilebilir. Ayrı {ar:ز و د, tr:z-w-d, gloss:azık hazırlama} kök çağrışımı {ar:نُنَزِّلُ, tr:nunazzilu, gloss:indirip ulaştır} ve {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan} ile temas edince geçiş için azık ve araç hazırlama fikrini keskinleştirir; bu aile artış fiilinin biçimi veya morfolojisi değildir. {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet}in esirgeme ve iyilik yönü {ar:الْمُؤْمِنِينَ, tr:al-muʾminīn, gloss:inananlar}a verilen azığı ev sahibinin iyiliğine dönüştürür; {ar:الظَّالِمِينَ, tr:al-ẓālimīn, gloss:haksızlık edenler}de artan kayıp ise başarısız yolculukta ilerledikçe eksilen yiyecek ve suya benzer. Bu yol benzetmesinin maddi kapsamı ağırlama, saklanan erzak ve yolda tüketilen azıktır; odaktaki bildirim vahyin indirilmesi, inananlara şifa ve rahmet, haksızlık edenlere artan kayıptır.
+
+## Fâtiha'da İki Ayrı Yakınlık
+
+Yol imgesinden bağımsız olarak, Fâtiha ile iki sınırlı yan yana okuma açılır. {ar:خَسَارًا, tr:khasāran, gloss:kayıp ve ziyan}ın genel eksilmesi, Fâtiha'daki karşılık gününün sahibi ifadesiyle yan yana geldiğinde hesap ufkunda yıkıcı bir yitim çağrışımı kazanabilir ({ar:مَالِكِ يَوْمِ الدِّينِ, tr:māliki yawmi d-dīn, gloss:karşılık gününün sahibi}; 1:4). Kayıp ailesinin doğru yönden sapma, iyilikleri yitirme ve yıkıma düşme kullanımları bu ufka temas eder; kötü eylemlerin karşılığını çekme de bu yitime eşlik edebilir. Bu bağlantı yalnız 1:4'le sınırlı bir yan yana okumadır; ayetleri özdeşleştirmez, aralarında zaman sırası veya açık alıntı kurmaz ve kapsamlı bir yargı öğretisi ileri sürmez.
+
+Fâtiha'daki yardım ve yön bulma dilekleri ise {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} ile {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet} için ayrı bir yol açar. Şifanın bedensel rahatsızlığı giderme çekirdeği korunurken, bilgisizlik, iç sıkıntısı veya öfke gibi bir engeli kaldırma yönü yol üzerindeki engeli aşmaya yardım olarak da duyulabilir. Yalnız Allah'tan yardım isteme ifadesi {ar:إِيَّاكَ نَسْتَعِينُ, tr:iyyāka nastaʿīn, gloss:yalnız senden yardım dileriz} bu desteği, dosdoğru yola yönelme dileği {ar:اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ, tr:ihdinā aṣ-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} ise yol yönünü bağımsız olarak tetikler (1:5, 1:6). Kulluk ve yardım dileği {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:yalnız sana kulluk ederiz} ile hidayet isteği rahmetin esirgeyici yararını etkin ve yön veren iyilik olarak duyurur; yaratılmışlara ulaşan ilahî iyilik de yardımı bağışlanmış bir imkân gibi gösterir (1:5, 1:6). Bu dış yakınlık 17:82'nin açık alıntısı değil, yan yana okumadır; Fâtiha'daki birinci çoğul ses bütün inananlarla özdeşleşmez ve yorum iki ayetin ötesine yayılmaz. Bu sınırlı bağlantıda {ar:شِفَاءٌ, tr:shifāʾun, gloss:şifa} bedensel çekirdeğini koruyarak yol üzerindeki engeli kaldıran yardıma, {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet} ise yön veren etkin iyiliğe genişler.
+
+</editorial_prose>

@@ -1,0 +1,102 @@
+Ayetin başındaki iki {ar:مَن, tr:man, gloss:kim} koşulu, “kim ... ise” kalıbıyla olumlu ve olumsuz kolları evrensel bir çerçeveye yerleştirir.
+Olumlu koldaki {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir}, man koşulunun cezm ettiği muzari fiildir; geçmişte tamamlanmış tekil bir olaydan çok koşul içinde işleyen yöneltmeyi bildirir.
+Buradaki {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir} doğru yolu, yönü veya gerçeği göstermeyi taşır; kim koşulu ve karşısındaki saptırma fiili bu yol gösterme kullanımını seçer, hediye ya da kurban anlamlarına yerel dayanak vermez.
+Olumsuz koldaki {ar:يُضْلِلْ, tr:yuḍlil, gloss:saptırır} fiilinin faili tekrarlanmaz; koşul başındaki {ar:مَن, tr:man, gloss:kim} ise saptırmanın etkilenenidir, böylece iki örtük öge yakın bağlamdan tamamlanır.
+Yol gösterme fiilinin başındaki özne olan {ar:ٱللَّهُ, tr:Allāh, gloss:Allah}, olumsuz {ar:يُضْلِلْ, tr:yuḍlil, gloss:saptırır} fiilinde söylenmeyen faili yerel olarak belirler ve sonraki {ar:مِن دُونِهِ, tr:min dūnihi, gloss:O'ndan başkasından} zamirinin gönderimini Allah'a sabitler.
+
+İlk sonuç bağlacı {ar:فَهُوَ, tr:fa-huwa, gloss:işte o} ilahi yöneltmeyi doğrudan olumlu sonuca bağlar.
+Açık {ar:هُوَ, tr:huwa, gloss:o} zamiri, belirli yüklem gelmeden önce hidayete eren kişiyi ayrıca öne çıkarır.
+Ardından gelen {ar:الْمُهْتَدِ, tr:al-muhtadī, gloss:hidayete ermiş kişi} belirli yüklem, yalnızca bir yöneltme olayını değil, gerçekten hidayete ermiş kimliği bildirir.
+Ayet aynı h-d-y kökünü önce ilahi yöneltme fiilinde {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir}, sonra hidayete eren kişi biçiminde tekrarlar; ikinci biçim ilk eyleme kimlik düzeyinde yanıt verir.
+Form VIII ism-i fail olan {ar:الْمُهْتَدِ, tr:al-muhtadī, gloss:hidayete ermiş kişi}, önceki ilahi {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir} eyleminin gösterdiği yola yönelmiş kişiyi tanımlar; insanı hidayetin kaynağı yapmaz.
+Bu VIII biçimi, ilahi yöneltmenin insanda içselleşmiş bir yönelişe dönüşmesini düşündürür; bu yorum insanı hidayetin kaynağı yapmaz.
+İlk {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir} eyleminin gösterdiği yönü kabul edip ona ulaşan kişi olarak {ar:الْمُهْتَدِ, tr:al-muhtadī, gloss:hidayete ermiş kişi}, ilahi yöneltmeye verilmiş karşılığı görünür kılar.
+{ar:الْمُهْتَدِ, tr:al-muhtadī, gloss:hidayete ermiş kişi} sonundaki yâ, ayet sonundaki vakıf ve kıraat farkıyla sesletim baskı noktası olur; söyleyiş daralıp genişlese de yüklemin kimliği değişmez.
+
+{ar:يَهْدِ, tr:yahdi, gloss:yol gösterir} ile {ar:يُضْلِلْ, tr:yuḍlil, gloss:saptırır} ayetin ilk karşıt kollarını kurar.
+Yahdi'nin daha hafif duyulan ses örgüsü bu yerel anlam karşıtlığını hafifçe pekiştirir; daha geniş bir ses veya ayet paralelliği iddiası gerekmez.
+Koordinasyon bağlacıyla açılan {ar:وَمَن يُضْلِلْ, tr:wa-man yuḍlil, gloss:ve kim saptırılırsa} ilk koşulun biçimsel aynasıdır, yeni bir konu başlatmaz.
+Yinelenen man, olumsuz kolu da “kim olursa olsun” kapsamına alır ve onun evrensel koşul niteliğini korur.
+{ar:يُضْلِلْ, tr:yuḍlil, gloss:saptırır}, IV. bâbın ettirgen biçimiyle bu yerel olumsuzlukta “saptırır” anlamındadır; daha geniş d-l-l gösterme veya delalet alanı fiilin yerel anlamını belirlemez.
+Bir şeyi yitirme, nerede olduğunu bilememe ve kaybolanın yerini bulamama anlamındaki sözlük kullanımı, bu ettirgen fiile yol kaybı baskısı verir; koruyucu bulma arayışının hemen ardından sonuçsuz kalması bağımsız tetikleyicidir, böylece yön kaybı destek yoksunluğuna bağlanır ama ikisi özdeşleşmez ve başka bağlam taşınmaz.
+
+İkinci fa, ilk koldaki belirli isim yüklemiyle kesinleşen olumlu kimliğin karşısına gelecekte gerçekleşmeyecek bir sonuç koyar: {ar:فَلَنْ تَجِدَ, tr:fa-lan tajida, gloss:asla bulamayacaksın}.
+Buradaki lan, bulma fiilini gelecek için kapatır, onun dilbilgisel biçimini yönetir ve koruyucu arayışının geçici olmadığını bildirir.
+Böylece ilk koldaki adlaşmış hidayet kimliği, ikinci koldaki başarısız bulma arayışıyla biçimsel karşıtlığa girer.
+Muhataba yöneltilen tajida, hükmü soyut yokluk olmaktan çıkarıp herhangi bir arayıcıya doğrudan bir meydan okuma yapar.
+Nesnenin belirsiz çoğulu olan {ar:أَوْلِيَاءَ, tr:awliyāʾ, gloss:koruyucular}, bilinen birkaç kişiyi değil bulunabilecek her tür koruyucuyu kapsar.
+{ar:لَهُمْ, tr:lahum, gloss:onlar için} yarar ve yönelme çerçevesi, onlar adına yapılan aramanın fayda veya sahiplik sağlamayacağını belirginleştirir.
+Bulma alanı pratik destek ve erişilebilir kaynak bakımından genişlerken nesne koruyucu bulmaya odaklı kalır.
+Olumsuz koşul {ar:مَن, tr:man, gloss:kim} ile tekil, genel bir kişiden başlar ve {ar:لَهُمْ, tr:lahum, gloss:onlar} ile ilk kez çoğul bir topluluğa geçer.
+Olumsuz koldaki tekil “kim”, olumlu koldaki {ar:هُوَ, tr:huwa, gloss:o} kimlikten farklı olarak {ar:هُمْ, tr:hum, gloss:onlar} çoğul grubuna açılır; bu gönderim ceza zinciri boyunca aynı topluluğu taşır, hidayete ermiş kişiyi o gruba katmaz.
+
+{ar:أَوْلِيَاءَ, tr:awliyāʾ, gloss:koruyucular} olağan anlamıyla koruyucu ve destekçileri adlandırır; w-l-y'nin sevgi, dostluk, inanç veya yardımla birinin yanında durma kullanımı, onu izleyen {ar:مِن دُونِهِ, tr:min dūnihi, gloss:O'ndan başkasından} dışlamasıyla karşılıksız kalır ve sonuç yakın destekten yalıtılmadır.
+{ar:مِن, tr:min, gloss:-den} aranan koruyucuları dışlanan kaynak alanına bağlar.
+{ar:دُونِهِ, tr:dūnihi, gloss:O'ndan başkası} içindeki zamir bu alanı Allah'a göre sabitler, belirsiz bir “başkası”nda bırakmaz.
+Dūn'un “başkası, dışında kalan” kullanımı min'in açtığı alanla, “daha aşağıda olan” kullanımı ilahi referansla tetiklenir; alternatifler hem O'nun dışına hem altına yerleştirilir, ancak bu ikinci yüz her olası koruyucuya toplumsal bir rütbe yüklemez.
+
+Bu ifadeleri ihtiyatla tek bir örüntüde birlikte okuyunca hidayet, ilahi yakınlık içinde yönünü koruma; saptırılma, bu yönelişi kaybetme; O'nun dışından bir koruyucu arayışı ise yerine geçecek yakınlık veya idare bulamama olarak belirir. Bu, kelimelerin doğrudan anlamını değiştirmeyen, aralarındaki kök bağlarını bir arada varsayan daha ileri bir yorumdur. {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir} ve {ar:الْمُهْتَدِ, tr:al-muhtadī, gloss:hidayete ermiş kişi} yol ve gerçeğe yönelme taşırken, bağımsız tetikleyici olan {ar:يُضْلِلْ, tr:yuḍlil, gloss:saptırır} bu çizgiden sapmayı karşılarına koyar; böylece olumlu kol sürmekte olan bir yön bulma olarak genişler, bu da temel yol gösterme anlamına eklenen ihtiyatlı bir kök bağlantısıdır. {ar:يُضْلِلْ, tr:yuḍlil, gloss:saptırır} doğru yoldan ve amaçtan sapmayı taşır; önceki hidayet fiilleri ile koruyucu arayışı bu sapmayı yön kaybı olarak duyurur, ancak bu kök bağlantısı doğrudan sözlük çevirisinin yerine geçmez. {ar:أَوْلِيَاءَ, tr:awliyāʾ, gloss:koruyucular} için “araya boşluk girmeden yakın olma” çağrışımı, {ar:مِن دُونِهِ, tr:min dūnihi, gloss:O'ndan başkasından} ile gelen dışlama sayesinde karşılanamaz ikame yakınlığa dönüşür; bu çağrışım koruyucu anlamını silmez, ona yakınlık boyutu ekler. {ar:دُونِهِ, tr:dūnihi, gloss:O'ndan başkası} dışarıda kalan alanı belirtirken, hem ilahi ad hem koruyucu arayışı bu alanın sınırını çizer; O'nun dışında bir ikame koruyucu bulunamayacağı okuması, kelimelerin açık anlamlarına eklenen ihtiyatlı bir kök ilişkisidir.
+
+Ayetin başındaki {ar:وَمَن يَهْدِ ٱللَّهُ, tr:wa-man yahdi Allāh, gloss:Allah kime yol gösterirse} içindeki bağlayıcı waw, önceki söze gevşek bir ekleme değil, anlatımı koşullardan ilahi hüküm sahnesine döndüren resumptif bir başlangıçtır.
+Bu başlangıç ayetin kendi hidayet, sapma ve sonuç çerçevesinde yeni bir yerel hüküm açar; önceki ayetin tanıklık içeriği buraya taşınmaz.
+Ardından gelen {ar:وَنَحْشُرُهُمْ, tr:wa-naḥshuruhum, gloss:ve onları toplayacağız} ilahi “biz” öznesiyle kurulur ve aynı çoğul grubu doğrudan fiilin nesnesi yapar.
+Bu toplama fiili beden duruşu, duyusal durumlar, barınak ve yenilenen ateş dizisinin kapısını açar.
+Kıraatlerdeki söyleyiş farkı fiilin sunumunu değiştirse de toplanan “onlar” aynı kalır ve ilahi eylemin nesnesi olmayı sürdürür.
+Naḥshuruhum'un olağan “toplamak” anlamındaki sevk ederek bir topluluğu ayrı yerlerden ortak hedefe götürme kullanımı, yüzleri üzerine toplanma ve ardından gelen görme, konuşma, işitme kayıplarıyla tetiklenir; böylece hükme doğru zorlanan toplu hareket duyulur, ama hayvan sürüsü tasviri veya kıyamet toplanışının yerine geçen başka bir sahne kurulmaz.
+
+{ar:يَوْمَ الْقِيَامَةِ, tr:yawma l-qiyāmah, gloss:kıyamet günü} içindeki yawm gün veya vakit aralığını taşır; kıyamet tamlaması onu sıradan yirmi dört saatten çıkarıp büyük olayın kritik vaktine yerleştirir, daha geniş kronoloji ileri sürülmez.
+Yawm'ın mansub zaman ögesi olarak kullanılması, toplanmayı ek bir edata ihtiyaç duymadan belirli bir vakte yerleştirir.
+Tamlamanın ikinci unsuru qiyāmah genel bir ayağa kalkışı değil son Diriliş ve Duruş gününü adlandırır.
+Dik duruş adıyla anılan günde {ar:عَلَىٰ وُجُوهِهِمْ, tr:ʿalā wujūhihim, gloss:yüzleri üzerine} toplanmaları yerel bir ironidir; bu karşıtlık ayrı bir inanç hükmü değildir.
+
+{ar:عَلَىٰ, tr:ʿalā, gloss:üzerine} ibaresi toplanma eyleminin üzerine binen, yüzleri hedef alan fiziksel basıncı duyurur; utanç soyut bir damga olarak kalmaz.
+Aynı edatlı ifade toplanmanın tarzını belirler; yüzüstü duruş yalnızca varış yeri veya konum değildir.
+Bu duruş duyusal sıfatlardan önce gelir ve üçlü yoksunluğu çerçeveler.
+Körlük, dilbilgisel olarak toplandıkları hâli bildiren bir ḥāl sıfatıdır, sonradan eklenmiş bir etiket değildir.
+{ar:وُجُوهِهِمْ, tr:wujūhihim, gloss:onların yüzleri} önce gerçekten yüzleri ve her kişi için aşağı çevrilmiş beden yüzeyini anlatır; çoğul iyelik aşağılanmayı grubun her üyesinin kendi yüzü ve bedeni üzerinde somutlaştırır.
+Yüz sözcüğünün yön, başkalarına dönük çehre ve toplumsal itibar anlamları da vardır; yüzleri üzerine sevk edilme bağımsız tetikleyicidir ve kamusal onur aşağılanmanın noktasına döner, fiziksel yüz ise temel anlamda kalır.
+Yüzüstü ibaresi böylece toplanmayı soyut bir diriliş başlığından çıkarıp beden üzerinde gerçekleşen bir sahneye dönüştürür.
+
+{ar:عُمْيًا وَبُكْمًا وَصُمًّا, tr:ʿumyan wa-bukman wa-ṣumman, gloss:kör, dilsiz ve sağır olarak} sıralaması körlükle başlar, konuşamamayı ortaya alır, işitmezlikle kapanır ve daha alışıldık sağır-dilsiz-kör dizilişini tersine çevirir.
+Körlük gerçek görme yitimidir ve grubun hangi halde toplandığını bildirir.
+Görme yitimini gerçeği zihnen ayırt edememe veya doğru yönü seçememe diye genişleten sözlük kullanımı, önceki hidayet-saptırma karşıtlığıyla tetiklenir; bu ikincil yön kaybı okuması fiziksel körlüğün yerini almaz.
+Dilsizlik ikinci ve eklenen haldir; bağlaç onu ilk duruma ekler.
+Üçlüdeki orta konum, algıyı dışa vurma ve cevap verme çıkışını kapatır.
+Dilsizlik ikinci eşgüdümlü sıfattır ve körlükle paylaştığı mansub-tanwīn ritmi yoksunluk dizisini sesçe birleştirir.
+Konuşamama isteyerek susmak değildir; yanıt verme, yakarma ve sözlü savunma imkânı ortadan kalkar.
+Sağırlık son eşgüdümlü hal olarak aynı grubu tamamlar, dilsizliği yinelemekten ziyade duyusal çöküşü kapatır.
+Ṣumman'ın sıkışık, ikiz ünsüzlü son sesi bu kapanışı hafifçe duyurur; ses etkisi temel işitme kaybı anlamının ikincilinde kalır.
+Kapanma çağrışımının sözlük kaynağı, bir şişe ağzının tıkaçla veya bağlanarak kapatılmasıdır; daha önce kapanan görme ve konuşma kanalları bunu bağımsız olarak tetikler, böylece işitmezlik son mühürlü kanal gibi duyulur ama gerçek bir kap anlatılmaz.
+
+Bu haller toplanmayla birlikte okunduğunda tek bir bedensel yön kaybı düzeni oluşturur: topluluk bir hedefe doğru sevk edilirken normal yön veren ön yüzü taşıma yüzeyine çevrilir, görme, konuşma ve işitme de gezinme, cevap ve yön bulma imkânlarını kapatır; bu birleşik okuma, duyusal durumların olağan fiziksel anlamını kaldırmayan ihtiyatlı bir sentezdir. {ar:نَحْشُرُهُمْ, tr:naḥshuruhum, gloss:onları toplayacağız} fiili olağan “toplamak” anlamında birden çok kişiyi ayrı yerlerden ortak hedefe sevk eder; yüzlerin yönü ve körlük, konuşamama, işitmezlik bağımsız bağlam tetikleyicileridir, böylece toplanma tarafsız buluşma değil zorlanmış kolektif harekettir; kıyamet toplanışı açıktır, bu kök bileşimi onu açıklayan ihtiyatlı bir katmandır. {ar:وُجُوهِهِمْ, tr:wujūhihim, gloss:onların yüzleri} olağan anlamıyla yüzleri ve bedenin öne bakan yönünü taşır; toplanmanın sevk edici hareketi ve üç duyusal kayıp, normal yön cephesinin yüzüstü taşınan yüzeye çevrildiği okumayı tetikler, fiziksel yüz anlamı korunur. {ar:عُمْيًا, tr:ʿumyan, gloss:körler olarak} iki gözde görme yitimini anlatır; sevk edilen bedenin yüzüstü duruşu ile konuşma ve işitme kaybı bu görsel yön bulmanın da hareketten çıkarıldığını düşündürür, bu birleşim bedenî körlüğü mecaz diye iptal etmez. {ar:بُكْمًا, tr:bukman, gloss:dilsizler olarak} konuşma yetisinin bulunmamasıdır; yüzüstü sürülen hareket, görme kaybı ve işitme yitimiyle yan yana gelince grup hareket sırasında cevap verme veya sesle eşgüdüm kurma olanağını kaybeder. {ar:صُمًّا, tr:ṣumman, gloss:sağırlar olarak} işitme kaybını taşır; sevk edilen grup, ters çevrilmiş yüz yönü, körlük ve konuşamamayla birlikte işitsel yönelim ve karşılık verme imkânından da yoksun kalır. Bu yüzey anlamlarının tümünü tek bir kök örüntüsüne bağlamak yorumlayıcı ve ihtiyatlı bir sentezdir; bedenî sahnenin kendisi bundan bağımsız olarak açıktır.
+
+{ar:مَأْوَىٰهُمْ جَهَنَّمُ, tr:maʾwāhum jahannam, gloss:onların sığınağı Cehennem'dir} bir yer adını özne yapan isim cümlesidir; fiilsiz tanımlama cezayı geçici eylem değil, onlara ayrılmış sabit barınak olarak bildirir.
+Cehennem adı genel ateşten ibaret olmayan, ceza yeri olarak tanınan belirli bir mekânı çağrıştırır.
+Yüklemin özel adı Jahannam'dır; sığınak kimliği belirli bir ceza yerinde tamamlanır.
+Maʾwā'nın olağan anlamı sığınılıp barınılan yerdir; bir varlığın kendisini toplayan veya barındıran yere yönelip katılması kullanımı, yüklem olan Cehennem ve ardından gelen ateş döngüsüyle tetiklenir, böylece sığınak beklentisi yerel olarak tersine döner.
+Her yatışmanın yeni bir alev artışına bağlanması, sahte sığınağı kendini yenileyen bir ceza düzenine çevirir; bu bütünlük açık barınak ve ateş anlamlarının ötesine geçen ihtiyatlı bir okumadır.
+İsim cümlesi barınağı Cehennem olarak adlandırınca tamamlanır; ardından gelen her-defasında koşulu yeni yineleme mekanizmasını açar.
+
+Açılıştaki {ar:مَن يَهْدِ ٱللَّهُ, tr:man yahdi Allāh, gloss:Allah kime yol gösterirse} ve {ar:وَمَن يُضْلِلْ, tr:wa-man yuḍlil, gloss:kim de saptırılırsa} koşulları, ayetin sonunda cezaya ilişkin {ar:كُلَّمَا, tr:kullamā, gloss:her defasında} zaman koşuluna döner.
+Kapsayıcı her-defasında anlamı, yatışan hiçbir ateş olayını yenilenmiş artışın dışında bırakmaz.
+Khabat'taki azalma, ilahi artış ve son alev birlikte her döngüde tekrarlanır; ceza kendi kendini yeniler.
+{ar:خَبَتْ, tr:khabat, gloss:ateşin yatışması} ateşin yanma gücünün azalmasını anlatır; her-defasında koşulu ile hemen ardından gelen alev bu azalmanın gerçek ama geçici olduğunu gösterir, tam sönme veya kaçış değil.
+Her tamamlanmış yatışma yeni artışın hemen öncülüdür ve zaman koşulu onu yeniden tetikler.
+Birinci bâbın geçişsiz, dişil uyumlu geçmiş fiilinde ateş kendi kendine yatışır; söndüren bir fail belirtilmez.
+Khabat'ın ayette tekil ve az rastlanan yatışma fiili oluşu özel bir anlamı tek başına kanıtlamaz; dönüm noktası, her-defasında koşulu ve karşısındaki alev sözcüğüdür.
+
+{ar:زِدْنَاهُمْ, tr:zidnāhum, gloss:onlara artırırız} yatışmanın ardından ilahi birinci çoğul eylemle cevap verir.
+İki nesneli kuruluşta “onlar” etkilenen grubu, belirsiz nasb halindeki saʿīran ise artırılan alevli azabı gösterir.
+Artırmanın olağan anlamı bir şeye yeni öğe ekleyerek onu çoğaltmaktır; khabat'taki yatışma ve onu izleyen alev bu kullanımı tetikler, sonuç ateşi yalnızca geri getirmek değil artırmaktır.
+Saʿīr etkin biçimde tutuşturulmuş, harlanan ateştir; bağımsız tetikleyiciler yatışma ve artış fiilidir, böylece her artış sessiz sıcaklık değil şiddetli alev olur.
+Belirsiz nasb halindeki saʿīran yeni bir alev ölçüsü ekler, aynı adlandırılmış ateşin yalnızca geri dönüşü değildir.
+Son alev sözcüğü yatışma umudunu iptal eder; çekim ritmi duyusal üçlüyü hafifçe yankılasa da bu ses ilişkisi ikincildir.
+{ar:مَأْوَىٰهُمْ, tr:maʾwāhum, gloss:onların sığınağı} olağan anlamıyla bir varlığın kendisini toplayan veya barındıran yere yönelip katıldığı sığınaktır; Cehennem yüklemi ve {ar:كُلَّمَا, tr:kullamā, gloss:her defasında}, {ar:خَبَتْ, tr:khabat, gloss:ateşin yatışması}, {ar:زِدْنَاهُمْ, tr:zidnāhum, gloss:artırırız}, {ar:سَعِيرًا, tr:saʿīrā, gloss:alevli ateş} dizisi bağımsız tetikleyicilerdir; böylece barınak döngüyle tersine çevrilir, bu daha ileri bağlantı ihtiyatlı kalır.
+{ar:كُلَّمَا, tr:kullamā, gloss:her defasında} kapsayıcı kullanımı hiçbir parçayı dışarıda bırakmaz; khabat'ın her yatışması, zidnāhum artışı ve saʿīr harlanması aynı yineleme içinde birleşir, bu kök bağı yerel “her defasında” kapsamını aşmaz.
+{ar:خَبَتْ, tr:khabat, gloss:ateşin yatışması} ateş alevinin kül altında zayıflamasını taşır; her-defasında koşulu, ilahi artış ve harlanan saʿīr yatışmayı tamamlanmış ama son olmayan bir düşüş yapar, tam söndürme anlamı doğurmaz.
+{ar:زِدْنَاهُمْ, tr:zidnāhum, gloss:onlara artırırız} başka bir öğe ekleyerek artırmayı bildirir; her khabat sonrasındaki koşul ve ardından gelen saʿīr bu artışı tetikler, böylece ilahi cevap yalnızca önceki ateşi onarmaz, yeni bir miktar ekler.
+{ar:سَعِيرًا, tr:saʿīrā, gloss:alevli ateş} etkin biçimde tutuşturulan alevi taşır; maʾwā'nın varış yeri, kullamā'nın tekrarı, khabat'ın düşüşü ve zidnāhum'un artışıyla temas ederek her artışın harlanmış ateşe dönüşmesini sağlar; bu ek bağ alevin olağan anlamını değiştirmez.
+
+Daha uzak ve keşifsel bir sözlük dalında {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir} ile {ar:الْمُهْتَدِ, tr:al-muhtadī, gloss:hidayete ermiş kişi} olağan anlamlarıyla yol gösterme ve o yola yönelmiş kişiyi anlatırken, bu kökün sallanarak ve gerektiğinde destek alarak yürüme kullanımı, özellikle güçsüz kişinin iki kişi arasında yürüyüp ikisine dayanmasını resmeder; bağımsız tetikleyici daha sonra gelen zorlanmış toplu hareket ve yüzleri üzerine taşınmadır, böylece destekli dik yürüyüş desteksiz biçimde yüzü üzerinde sürülen bedene karşıtlık kurar; bu maddi imge hidayet fiilinin biçimsel veya doğrudan sözlük anlamı değil, sürdürülen yönelişi görünür kılan uzak ve ihtiyatlı bir analojidir. {ar:نَحْشُرُهُمْ, tr:naḥshuruhum, gloss:onları toplayacağız} ortak hedefe sevk ederek toplama anlamını taşır; önceki yol gösterme ile {ar:عَلَىٰ وُجُوهِهِمْ, tr:ʿalā wujūhihim, gloss:yüzleri üzerine} yüzeyinin birleşmesi, bu hareketin kendi adımlarıyla değil dışarıdan sürüklenerek gerçekleştiğini gösterir; bu karşıtlık toplama fiilinin olağan anlamını değiştirmez. {ar:وُجُوهِهِمْ, tr:wujūhihim, gloss:onların yüzleri} gerçek yüzleri, ayrıca öne bakan yönü taşır; destekli yürüyüş imgesi ve ilahi sevk, normalde yol bulan ön cephenin bedenin taşıma yüzeyine dönüşmesini tetikler, böylece dik yöneliş ters çevrilir.
+
+Bir başka keşifsel benzetmede {ar:مَأْوَىٰهُمْ, tr:maʾwāhum, gloss:onların sığınağı} varış yerini, {ar:زِدْنَاهُمْ, tr:zidnāhum, gloss:onlara artırırız} olağan artışı, {ar:سَعِيرًا, tr:saʿīrā, gloss:alevli ateş} ise tutuşturulmuş ateşi sağlar; yol geçişinde hazırlanan erzak anlamındaki {ar:زَاد, tr:zād, gloss:yol azığı} bu üç sözcük arasında biçimce uzak bir sözlük bağı kurar. Bu karşılaşmadan hareketle her artış, geçişe zorla hazırlanan azık gibi okunabilir: yolcular güvenli bir varış için değil, ceza varışını sürdüren alevle donatılır; bu keşifsel bağ z-y-d ile z-w-d biçimleri arasındaki uzaklığa dayanır ve olağan artırma anlamını değiştirmez. Maʾwā'nın olağan anlamı sığınılıp barınılan yerdir; bir varlığın kendisini toplayan ya da barındıran yere yönelip oraya katılması kullanımı, bağımsız tetikleyiciler zidnāhum artışı ve saʿīr'ın harlanan ateşi karşısında normalde yol azığının destekleyeceği varış noktasını sağlar; bu, barınak sözcüğünün ateşi tek başına taşıdığı anlamı değil, hedef ile sağlanan şey arasındaki analojiyi anlatır. Zidnāhum olağan biçimde artırmayı bildirirken, zād geçiş için yiyecek ve araçları önceden hazırlama veya edinme kullanımıdır; maʾwā'nın varış yeri ve saʿīr'ın alevi bu uzak biçim bağlantısını tetikler, dolayısıyla yol azığı okuması sözlük eşdeğerliği değil keşifsel benzetmedir. Saʿīr'ın tutuşturulmuş, etkin alev oluşu maʾwā'nın barınak/varış yeri anlamıyla birleşince, eklenen ateş kurtuluş sağlamaz; ceza varışını sürdüren karanlık azık gibi kalır; bu, saʿīr'ın olağan alev anlamını değiştiren değil, yalnızca keşifsel benzetmenin son halkasıdır.

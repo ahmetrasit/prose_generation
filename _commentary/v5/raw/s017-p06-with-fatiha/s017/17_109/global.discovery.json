@@ -1,0 +1,517 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:109",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_cdf03271a4d9d0bf8550",
+      "decision": "narrow",
+      "reason": "Düşüş ve huşû taşıyıcılarını, alçak zeminin alımlayıcı kapasitesi imgesiyle sınırlı olarak koruyorum. 41:39'daki toprağın suyla kıpırdayıp büyümesi bu analojiye somut bir geniş bağlam sağlar. Desteğin vadi ve tükenen hörgüç çağrışımları, odaktaki biçim ve bağımsız tetikleyicilerle aynı ölçüde kurulmadığı için dışarıda bırakıldı.",
+      "finding_refs": [
+        "global:receptive-ground"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000402/B003",
+          "reason": "Destek metnindeki düşük arazi çağrışımı ayrı bir yer anlamıdır; odaktaki يَخِرُّ düşme fiilidir ve odakta arazi taşıyan bir ad yoktur. Bu biçim, vadi dalını kendi başına etkinleştirmez."
+        },
+        {
+          "branch_ref": "root_000412/B004",
+          "reason": "Tükenen hörgüç imgesi için odakta hörgüç, deve veya tükenişi kuran ayrı bir tetikleyici yoktur. Korunan alımlayıcı-zemin okuması bu tükenme imgesini gerektirmez."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_849611ed96c03c6f0cbf",
+      "decision": "reject",
+      "reason": "Destek, 17:110'daki ses ölçüsünü odağın ağlamasına bağlıyor. 17:110 bildirilen perikopun içindedir; bu makro bağlamdır, global lane için gereken daha geniş tetik değildir. Retrospektif destek ayrıca tam hedef metni veya odak sözcüğe dönen bağımsız bir global ilişki sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:110",
+          "reason": "Bildirilen perikopun üyesi olduğundan global değil makro bağlamdır."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ac810c3f0de0fbd9926e",
+      "decision": "narrow",
+      "reason": "Daha geniş ayetlerde okunan işaretlerin düşme ve ağlamayla, tilavetin de artışla birleştiği temas korunuyor. Düşüş, ağlama ve huşû artışını karşılıklı olarak doğuran bir geri-besleme döngüsü sayan nedensellik ile 17:107-108 ve 17:110 üzerinden kurulan perikop içi aşamalar korunmuyor: kaynak bunları çıkarım olarak işaretliyor ve global lane bu perikop içi kanıtı kullanamaz.",
+      "finding_refs": [
+        "global:embodied-reception"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:107",
+          "reason": "Aday desteğindeki tekrar düşüş dizisi perikop içidir; global bulgunun tetikleyicisi olarak kullanılmadı."
+        },
+        {
+          "context_ref": "17:108",
+          "reason": "Aday desteğindeki tanıma ve yerine gelme aşaması perikop içidir; global bulgunun tetikleyicisi olarak kullanılmadı."
+        },
+        {
+          "context_ref": "17:110",
+          "reason": "Aday desteğindeki ses ayarı perikop içidir; global bulgunun tetikleyicisi olarak kullanılmadı."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6f8e5d5d15c97adad582",
+      "decision": "reject",
+      "reason": "17:110'un ağlama ve ses şiddetini düzelttiği iddiası aynı perikopun komşu ayetine dayanıyor; daha geniş, odak yüzeyine dönen bağımsız bir tetik sunulmuyor. Bu ilişki global bulgu olarak kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:110",
+          "reason": "Bildirilen perikopun üyesidir; makro bağlam global lane sınırını karşılamaz."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b9a4835e3cb9d3f0f619",
+      "decision": "reject",
+      "reason": "Artış örüntülerinin tasarlanmış bir karşıtlık değil yalnızca sözcüksel yineleme olabileceği yönündeki HFT notu, anchor_refs, branch_refs ve anchor_evidence taşımıyor; odak sözcüğe dönen etkinleşme izi yok. Belirsizlik friction içinde korunuyor, fakat kendi başına global okuma oluşturmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9a3ff31d32d20cf528d0",
+      "decision": "reject",
+      "reason": "17:110'un ses talimatının odaktaki ağlamayı yönetmeyebileceği yönündeki HFT notunda tam bağlam koordinatıyla birlikte sözcük indeksi, kök, atfedilmiş rol ve odağa dönen temas yoktur. Bu nedenle iz, attributed bağlamsal kanıt ölçütünü karşılamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:110",
+          "reason": "Adı geçen ayet perikop içindedir ve HFT kaydı ona bağlanan exact bir etkinleşme izi sağlamaz."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1750fba7ad0dada39f13",
+      "decision": "reject",
+      "reason": "Ekolojik ve yük taşıyan analojilerin exploratory tutulması gerektiğini söyleyen HFT özeti, bir taşıyıcı, bağımsız tetikleyici, kök, rol veya odak dönüşü göstermiyor. Toprak analojisi ayrı okuyucu desteği ve 41:39 bağlantısıyla ayrıca sınırlandırıldı; bu HFT notu onu etkinleştiren iz değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7d9d01043c53ce1bcb3a",
+      "decision": "reject",
+      "reason": "HFT özeti 17:107 ve 17:109 arasındaki tekrar düşüşü iteratif derinleşme diye adlandırıyor; ancak kayıt exact sözcük indeksi, kök ve atfedilmiş rol vermiyor, dolayısıyla focus-return doğrulanamıyor. Ayrıca tetikleyici perikop içindedir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:107",
+          "reason": "Perikop içi tekrar, global lane için daha geniş tetikleyici değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_005db0fea34f688f654d",
+      "decision": "reject",
+      "reason": "17:97'deki kendini yenileyen alevle kurulan artış benzetmesi HFT özetinde anchorsızdır; sözcük indeksi, kök, rol veya focus-return yoktur. Paket bu ayet için bağımsız metin ya da bağlantı da sağlamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:97",
+          "reason": "Adı geçen perikop üyesine ait exact HFT izi bulunmuyor; ayrıca bu bağlam global sınırın içinde kalıyor."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6cd079e00611f3a85fe5",
+      "decision": "reject",
+      "reason": "Parçalı aktarımın ve izleyen ses ayarının ölçülü karşılık yarattığı özeti, exact bağlam ayeti veya focus word koordinatı, kök ve rol belirtmiyor; tek bir doğrulanabilir mekanizma sunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2cb1a1591a7c4a90dbb9",
+      "decision": "reject",
+      "reason": "Beden kökü yinelemesi, karşıt artışlar ve ses-arazi-destek imgelerini birleştiren HFT özeti belirli bir bağlam ayeti, sözcük indeksi, kök-rol izi veya odak dönüşü göstermiyor. Birden çok olası mekanizmayı tek bir anchorsız senteze topluyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:receptive-ground",
+      "origin_candidate_id": "cand_cdf03271a4d9d0bf8550",
+      "represented_candidate_ids": [],
+      "title": "Alçalıştan alımlayıcı zemine",
+      "claim": "Çeneye yönelen düşüş ve artan huşû, bedensel çöküşün yanında büyümeye açık alçak bir zemin imgesi de taşır.",
+      "mechanism": "Odaktaki يَخِرُّ düşüşü, çeneye yönelmiş beden ve artan huşûyu birlikte kurar. 41:39'da huşû içindeki yeryüzünün suyla kıpırdayıp büyümesi, odaktaki alçalışı alımlayıcı zemin imgesiyle temas ettirir; 19:58'de okunan ayetlerin ardından düşme, secde ve ağlamanın birleşmesi bu bedenî cevabın daha geniş karşılığını verir. Toprak imgesi, artan huşûyu tükenme yerine alımlama kapasitesi olarak duyurur.",
+      "reader_payoff": "Okur düşüşü yalnız yenilgi veya tükeniş olarak kapatmaz; alçalan bedenin büyümeye açık bir alımlama hâli olabileceğini görür.",
+      "containment": "Toprak ilişkisi analojiktir: odak insanî huşûdan söz eder; 41:39'daki su vahiy ya da okunan sözlerle özdeşleştirilmez. Tükenen hörgüç dalı için odakta taşıyıcı veya bağımsız tetikleyici yoktur. Okuyucu desteğinin kaynağı legacy_unbound olduğundan bu imge nitelikli bir çıkarım olarak kalır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Odak yüzeyi ve 41:39 hedef metni alçalış, toprak ve büyüme temasını verir; okuyucu desteğinin alçak-zemin sentezi legacy_unbound ve analojiktir. 19:58 bağlantısı düşüş-ağlama karşılığını sağlar, fakat kasıtlı ayetler arası gönderme kanıtlamaz."
+      },
+      "support_ids": [
+        "sup_cc08c098d03589fc1712"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000402/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ses çıkararak sarsıntılı biçimde düşme",
+          "facet_statement": "Bir varlık sarsıntılı biçimde düşer ve düşüş sırasında işitilir bir ses çıkar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:109:1:2"
+          ],
+          "trigger_refs": [
+            "17:109:3:1",
+            "19:58"
+          ],
+          "focus_return_refs": [
+            "17:109:1:2"
+          ],
+          "carrier": "Odaktaki يَخِرُّ fiili düşmeyi taşır.",
+          "independent_trigger": "Odaktaki يَبْكُونَ ağlaması düşüşe ayrı bir işitilir dışavurum ekler; 19:58 okunan ayetlerin ardından düşme, secde ve ağlamayı birlikte verir.",
+          "activation": "Düşüş taşıyıcısı, ayrı ağlama eylemi ve daha geniş okunan-ayetler sahnesiyle buluşunca alçalma sesli ve bedensel bir karşılık kazanır.",
+          "resulting_reading": "Düşüş sessiz bir duruş değil, duyulur karşılığı da olan sarsıntılı bir beden hareketi olarak okunur.",
+          "boundary": "Ağlamanın sesi düşmenin kendisinden çıktığı veya 19:58'in kasıtlı bir gönderme olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000402/B001",
+          "facet_id": "F003",
+          "branch_gloss": "ses çıkararak sarsıntılı biçimde düşme",
+          "facet_statement": "Bedenin yere kapanması, belirli bir kullanımda düşme çekirdeğinin yöneltilmiş bir gerçekleşmesidir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "17:109:1:2"
+          ],
+          "trigger_refs": [
+            "17:109:2:3"
+          ],
+          "focus_return_refs": [
+            "17:109:1:2"
+          ],
+          "carrier": "Odaktaki düşme fiili bedensel inişi taşır.",
+          "independent_trigger": "لِلْأَذْقَانِ düşüşün ulaştığı bedensel yönü, çeneleri belirtir.",
+          "activation": "Düşme fiili, çeneye yönelmiş endpoint ilişkisiyle bedene kapanma gerçekleşmesine dönüşür.",
+          "resulting_reading": "Odak düşüşü genel bir aşağı hareket olarak bırakmaz; bedenin yere kapanan duruşunu görünür kılar.",
+          "boundary": "Bu facet bedensel yönelişi sınırlar; taşın yüksekten yuvarlanması gibi başka gerçekleşmeleri odağa taşımaz."
+        },
+        {
+          "branch_ref": "root_000412/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yere yakın arazi parçası",
+          "facet_statement": "Arazi, iki yükselti arasında çevresine göre alçakta kalır ve aralarında uzanır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:109:5:1"
+          ],
+          "trigger_refs": [
+            "17:109:1:2",
+            "17:109:4:2",
+            "41:39"
+          ],
+          "focus_return_refs": [
+            "17:109:5:1"
+          ],
+          "carrier": "Odaktaki خُشُوعًا insanî boyun eğiş ve dinginliği taşır; odak analizi bu durumu renklendiren yer-sükûneti imgesini de kaydeder.",
+          "independent_trigger": "Odak bedeni aşağı indirir ve huşûyu artırır; 41:39'da huşû içindeki yeryüzü su geldiğinde kıpırdayıp büyür.",
+          "activation": "İnsanî alçalış ve büyüyen huşû, geniş metindeki alçak yeryüzünün hareket ve büyüme kazanmasıyla buluşur; alçak zemin imgesi bu yüzden yalnız çöküş değil alımlama kapasitesi taşır.",
+          "resulting_reading": "Huşû, büyümeye açık alçak bir zemin gibi de duyulur.",
+          "boundary": "Arazi facet'i insana analojik olarak uygulanır; odak kişilerin toprağa dönüştüğünü veya vahyin su olduğunu söylemez."
+        },
+        {
+          "branch_ref": "root_000412/B002",
+          "facet_id": "F004",
+          "branch_gloss": "yere yakın arazi parçası",
+          "facet_statement": "Toprak için kullanıldığında yağmursuz kalıp kurumuş, bitkisiz ve cansız duruma gelmeyi bildirir.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:109:5:1"
+          ],
+          "trigger_refs": [
+            "17:109:4:2",
+            "41:39"
+          ],
+          "focus_return_refs": [
+            "17:109:5:1"
+          ],
+          "carrier": "Odaktaki خُشُوعًا insanî huşûyu adlandırır.",
+          "independent_trigger": "Odak huşûnun arttığını söyler; 41:39 huşû içindeki toprağı su öncesinde, ardından kıpırdayıp büyüyen bir zemin olarak gösterir.",
+          "activation": "Toprağın su öncesi sükûneti ve sonrasındaki büyümesi, odağın artan huşûsuna tükenişten farklı, açılabilir bir durum analojisi verir.",
+          "resulting_reading": "Huşû artışı, canlılığı tüketen bir çöküşten ziyade alımlamaya açık bir hâlin genişlemesi olarak duyulur.",
+          "boundary": "41:39 kuruluk veya cansızlığı focus hakkında doğrudan söylemez; bu extension analojik ve sınırlı bir karşılaştırmadır."
+        }
+      ],
+      "connection_refs": [
+        "conn_2c689d1f1335968dc635",
+        "conn_335e736b1cf83cf77dc9"
+      ],
+      "context_refs": [
+        "19:58",
+        "41:39"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:embodied-reception",
+      "origin_candidate_id": "cand_ac810c3f0de0fbd9926e",
+      "represented_candidate_ids": [],
+      "title": "Alımlamanın bedene ve iç hâle yayılması",
+      "claim": "Düşüş, ağlama ve artan huşû birlikte, alınan işaretlerin bedensel ve içsel karşılığını kurar: daha geniş örneklerde tilavet düşme ve ağlamayla, okunan ayetler artışla, hatırlatma ve Kur'an ise kalp ile dağın huşûsuyla buluşur.",
+      "mechanism": "Odaktaki sarsıntılı düşüş, ağlama ve huşû artışı aynı alımlama hareketinin bedenî ve içsel yüzlerini kurar. 19:58'de Rahman'ın ayetleri okununca düşme, secde ve ağlama; 8:2'de ayetler okununca imanın artması; 57:16 ve 59:21'de hatırlatma, hakikat veya Kur'an karşısında kalbin ve dağın huşûya gelmesi bu ilişkilerin daha geniş tetikleyicileridir. Bu temas, odaktaki beden hareketini içsel tanıma ve artıştan ayrı bir hareket gibi bırakmaz.",
+      "reader_payoff": "Okur düşüşü, gözyaşını ve huşû artışını üç kopuk tepki olarak değil, alınan sözün beden ve iç durumda bıraktığı birlikte okunabilir izler olarak görür.",
+      "containment": "Odak artışın dilbilgisel nedenini belirtmez; karşılıklı nedensellik veya pozitif geri-besleme döngüsü ileri sürülmez. Bağlantı ayetlerinin morfolojisi sağlanmadığından bu, exact bir alıntı ilişkisi değil metinler arası nitelikli bir paralelliktir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Reader-walk kaynağı bedensel ve içsel cevap sentezini legacy_unbound olarak sunar; odağın yüzeyi ile 19:58, 8:2, 57:16 ve 59:21 hedef Arapçaları ilişkiyi destekler, ancak bu ayetler arası sentez çıkarım olarak kalır."
+      },
+      "support_ids": [
+        "sup_2b390f6de9efd7866500"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000402/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ses çıkararak sarsıntılı biçimde düşme",
+          "facet_statement": "Bir varlık sarsıntılı biçimde düşer ve düşüş sırasında işitilir bir ses çıkar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:109:1:2"
+          ],
+          "trigger_refs": [
+            "17:109:3:1",
+            "19:58"
+          ],
+          "focus_return_refs": [
+            "17:109:1:2"
+          ],
+          "carrier": "Odaktaki يَخِرُّ düşme eylemini taşır.",
+          "independent_trigger": "Ayrı ağlama eylemi düşüşe işitilir bir eşlik verir; 19:58 okunan ayetlerin ardından düşme ve ağlamayı birlikte sunar.",
+          "activation": "Düşme taşıyıcısı ağlamanın sesi ve okunan ayetlere verilen daha geniş bedenî cevapla buluşur.",
+          "resulting_reading": "Düşüş, işitilir ve duygulanımsal bir karşılığı bulunan bedenî alımlama hâli olarak okunur.",
+          "boundary": "Hedef morfolojisi yoktur; düşüş sesinin ağlamadan kaynaklandığı veya ayetlerin kasıtlı biçimde birbirine gönderme yaptığı söylenmez."
+        },
+        {
+          "branch_ref": "root_000402/B001",
+          "facet_id": "F003",
+          "branch_gloss": "ses çıkararak sarsıntılı biçimde düşme",
+          "facet_statement": "Bedenin yere kapanması, belirli bir kullanımda düşme çekirdeğinin yöneltilmiş bir gerçekleşmesidir.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "17:109:1:2"
+          ],
+          "trigger_refs": [
+            "17:109:2:3"
+          ],
+          "focus_return_refs": [
+            "17:109:1:2"
+          ],
+          "carrier": "Odaktaki düşme fiili bedensel inişi taşır.",
+          "independent_trigger": "Çeneler, düşüşün ulaştığı bedensel endpoint'i belirler.",
+          "activation": "Düşme eylemi çeneye yönelmiş inişle bedensel yere kapanma gerçekleşmesine daralır.",
+          "resulting_reading": "Alımlama soyut bir iç değişim olarak kalmaz; bedeni yere yönelten bir hareket olur.",
+          "boundary": "Bu gerçekleşme taşın yüksekten yuvarlanması gibi başka dal kullanımlarını içermez."
+        },
+        {
+          "branch_ref": "root_000657/B001",
+          "facet_id": "F002",
+          "branch_gloss": "artma, büyüme ya da artırma",
+          "facet_statement": "Bir kimse ya da etken, bir şeye başka bir öğe katarak onu daha büyük veya çok duruma getirebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:109:4:2"
+          ],
+          "trigger_refs": [
+            "17:109:5:1",
+            "8:2"
+          ],
+          "focus_return_refs": [
+            "17:109:4:2"
+          ],
+          "carrier": "Odaktaki يَزِيدُهُمْ gruba yönelmiş bir artışı, açıkça huşû alanında adlandırır.",
+          "independent_trigger": "Odağın huşû sözcüğü artışın alanını verir; 8:2 okunan ayetlerin imanı artırdığı başka bir alımlama örneği sunar.",
+          "activation": "Artış eylemi, iç hâli adlandıran huşû ve tilavet sonrası iman artışıyla buluşur; yan yana geliş birikimi statik değil, alımlamayla derinleşen bir durum olarak görünür kılar.",
+          "resulting_reading": "Huşû sabit bir nitelik olarak değil, alınan sözle artabilen bir iç durum olarak okunur.",
+          "boundary": "8:2 odağın huşûsunun nedenini açıklamaz; burada yalnızca daha geniş bir artış paraleli sağlar."
+        },
+        {
+          "branch_ref": "root_000412/B001",
+          "facet_id": "F001",
+          "branch_gloss": "boyun eğip dinginleşme",
+          "facet_statement": "Kişi kendini alçaltan bir tutumla boyun eğer ve dinginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:109:5:1"
+          ],
+          "trigger_refs": [
+            "57:16",
+            "59:21"
+          ],
+          "focus_return_refs": [
+            "17:109:5:1"
+          ],
+          "carrier": "Odaktaki خُشُوعًا alçalan ve dinginleşen insanî tutumu adlandırır.",
+          "independent_trigger": "57:16 kalplerin Allah'ı anış ve hakikat karşısında huşûya gelmesini çağırır; 59:21 Kur'an'ın dağa indirilmesi hâlinde dağın huşûya geleceği bir örnek kurar.",
+          "activation": "Focus'taki içsel alçalma, daha geniş metinlerde hatırlatma ve Kur'an karşısında kalbin ya da dağın huşûya gelmesiyle buluşur.",
+          "resulting_reading": "Odaktaki huşû, yalnızca bedensel alçalma değil, alınan söz karşısında içte yerleşen bir sükûnet olarak görünür.",
+          "boundary": "Bu paraleller kasıtlı gönderme veya herkes için aynı sonuç iddiası değildir; 59:21'in dağ imgesi odağın insan taşıyıcısının yerine geçmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_2c689d1f1335968dc635",
+        "conn_4b4687c43c3e090f21ba",
+        "conn_91632d753088822dfb66",
+        "conn_23277cfab8377dac15d2"
+      ],
+      "context_refs": [
+        "19:58",
+        "8:2",
+        "57:16",
+        "59:21"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:conditional-increase",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Artışın yönü alımlamaya bağlı",
+      "claim": "Odaktaki huşû artışı, artışın kendisini tek yönlü bir sonuç olarak sunmaz: aynı sûrede Kur'an bir yerde uzaklaşmayı, başka bir yerde kaybı artırırken, burada alçakgönüllülüğü artırır.",
+      "mechanism": "Odaktaki يَزِيدُهُمْ artış taşıyıcısıdır ve nesne alanı خُشُوعًا ile belirtilir. 17:41'de Kur'an'ın hatırlatmaları uzaklaşmayı, 17:82'de ise Kur'an zalimlere kaybı artırır; 25:60'ta secde çağrısı da uzaklaşmayı artırır. Aynı artış işlemi farklı alıcı sonuçlarıyla buluştuğunda, odaktaki huşû artışı otomatik bir vahiy etkisi değil, bu sahnede görülen belirli bir alımlama olarak okunur.",
+      "reader_payoff": "Okur, odaktaki artışın yönünü kelimenin kendisine değil, artan şeyin burada huşû olmasına bağlar; başka alıcıların uzaklaşması ve kaybı da karşı-okuma olarak görünür kalır.",
+      "containment": "Odakta artan şey huşûdur; karşılaştırma bunu değiştirmez. Ayetler arasındaki temas kasıtlı bir karşıtlık tasarımını veya bütün dinleyiciler için genel bir psikoloji kuralını kanıtlamaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Focus formu ve bağlantı kayıtlarındaki hedef Arapça artışın farklı sonuçlarını açıkça verir; bunları alımlama koşuluna bağlamak yorumlayıcı bir karşılaştırmadır ve hedef morfolojileri sağlanmamıştır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000657/B001",
+          "facet_id": "F002",
+          "branch_gloss": "artma, büyüme ya da artırma",
+          "facet_statement": "Bir kimse ya da etken, bir şeye başka bir öğe katarak onu daha büyük veya çok duruma getirebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:109:4:2"
+          ],
+          "trigger_refs": [
+            "17:41",
+            "17:82",
+            "25:60"
+          ],
+          "focus_return_refs": [
+            "17:109:4:2"
+          ],
+          "carrier": "Odaktaki يَزِيدُهُمْ belirli bir alıcı gruba yönelen artışı taşır; hemen ardından artan şeyin huşû olduğu söylenir.",
+          "independent_trigger": "17:41 hatırlatma karşısında uzaklaşmanın, 17:82 Kur'an karşısında kaybın, 25:60 ise secde çağrısı karşısında uzaklaşmanın arttığı metinleri sağlar.",
+          "activation": "Artış taşıyıcısı, üç ayrı alıcı sonucuyla karşılaştırılınca odaktaki artışın yönü kendiliğinden belirlenmez; onu huşûya bağlayan odak cümlesidir.",
+          "resulting_reading": "Huşû artışı, alımlayıcı grubun bu karşılaşmadaki cevabı olarak belirginleşir; artışın başka yönleri de aynı anda canlı kalır.",
+          "boundary": "Bağlantı hedeflerinin morfolojisi yoktur; ortak artış örüntüsü bilinçli karşıtlık tasarımını kanıtlamaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_4502d8431c564dadadef",
+        "conn_dcc37351d3287703a65d",
+        "conn_2bcbf600376033fe0cff"
+      ],
+      "context_refs": [
+        "17:41",
+        "17:82",
+        "25:60"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:chin-direction",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Çene aynı, bedenin yönü karşıt",
+      "claim": "17:109'da çeneler düşüşün ulaştığı yer olur; 36:8'de boyunlardaki bağlar başları çenelere kadar kaldırır. Bu karşıt duruş, odaktaki alçalışı zorlamadan doğan bir yöneliş olarak görünür kılar.",
+      "mechanism": "Odaktaki أَذْقَانِ sözcüğü anatomik çeneleri düşüşün endpoint'i yapar. 36:8'in sağlanan Arapçasında boyunlara konan bağlar çenelere uzanır ve başlar yukarıda tutulur. Aynı beden noktası iki ters yönle temas eder: odakta aşağı yönelen seçilmiş alçalma, bağlantı ayetinde ise zorlanmış yukarı duruş.",
+      "reader_payoff": "Okur, çeneye yönelen düşüşün yalnız beden geometrisini değil, isteyerek boyun eğme ile zorla tutulma arasındaki farkı da görünür kıldığını fark eder.",
+      "containment": "Bu, sağlanan beden duruşlarının karşılaştırmasıdır; ayetler arasında kasıtlı gönderme, aynı olay veya aynı özne iddia edilmez. Hedef ayetin morfolojisi sağlanmamıştır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "Her iki yüzeyde de çene ve ters beden yönleri açıkça sağlanır; bunları seçilmiş ve zorlanmış alçalma olarak okumak karşılaştırmalı bir çıkarımdır."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000515/B001",
+          "facet_id": "F001",
+          "branch_gloss": "iki çene yanının birleşme yeri",
+          "facet_statement": "İki çene yanının birleştiği anatomik bölgeyi belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:109:2:3"
+          ],
+          "trigger_refs": [
+            "36:8"
+          ],
+          "focus_return_refs": [
+            "17:109:2:3"
+          ],
+          "carrier": "Odaktaki لِلْأَذْقَانِ düşüşün ulaştığı anatomik çeneleri adlandırır.",
+          "independent_trigger": "36:8'de boyun bağları çenelere uzanır ve başları yukarıda tutar.",
+          "activation": "Aynı anatomik nokta iki zıt hareketin kesiştiği yer olur: biri çeneye doğru iner, diğeri çeneye kadar yukarı kaldırılır.",
+          "resulting_reading": "Odağın çeneye yönelen duruşu, zorlanmış yükseltilmiş duruşun karşısında iradî alçalma olarak belirginleşir.",
+          "boundary": "Bu facet yalnız anatomik temas ve duruş karşıtlığını taşır; 36:8'in hedef morfolojisi veya iki sahne arasında kasıtlı gönderme hakkında hüküm vermez."
+        }
+      ],
+      "connection_refs": [
+        "conn_2845656f3101e2eb5dae"
+      ],
+      "context_refs": [
+        "36:8"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus_word_alignment tüm sekiz analiz girdisini çözüyor; unresolved listesi boş. Bu nedenle odak yüzeyi ile QAC dönüşünde açık join boşluğu yok.",
+    "Yedi legacy_unbound HFT kaydının her birinde anchor_evidence boş, atıfta bulunulan benzersiz anchor sayısı sıfır ve branch_refs/anchor_refs bulunmuyor. Özetler görünür biçimde incelendi; ancak context ayeti, focus sözcük indeksi, kök, rol ve odak dönüşünü birlikte veren bir etkinleşme izi yok.",
+    "17:110'un ses ayarını odaktaki ağlamaya bağlayan iki reader-walk özeti ile benzer HFT tereddüdü perikop içi ve global lane dışında kalıyor. HFT tereddüdü ayrıca anchorsız olduğundan ağlama üzerindeki yönetim ilişkisi burada karara bağlanmıyor.",
+    "Artışın karşıt örneklerini alımlama yönleri olarak karşılaştırmak, bu ayetlerin tasarlanmış bir karşıtlık oluşturduğunu kanıtlamaz; legacy HFT notundaki sözcüksel-yineleme olasılığı açık kalır.",
+    "Toprak ve büyüme imgesi analojik ve exploratory tutuldu. 41:39 hedef metni ile odağın huşû yüzeyi temas kuruyor, fakat hedef morfolojisi yok ve metin vahyi suyla özdeşleştirmiyor."
+  ]
+}

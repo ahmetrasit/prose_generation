@@ -1,0 +1,207 @@
+# V5 reading invitation — 17:100
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p06-with-fatiha/s017/17_100/17_100.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p06-with-fatiha/s017/17_100/17_100.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+17:100'ün yalın anlamı şudur: İnsanlar {ar:خَزَائِنَ رَحْمَتِ رَبِّىٓ, tr:khazāʾina raḥmati rabbī, gloss:Rabbimin rahmet hazineleri} üzerinde tasarruf edebilselerdi, harcamaktan korkup onları tutar; insan da {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan} olurdu. Ayet, gerçekleşmiş bir mülkiyet devrini değil, bu en bol kaynağı elinde tuttuğu varsayılan insanın nasıl davranacağını sınar.
+
+## Koşulun Sınırı
+
+Başlangıçtaki {ar:قُلْ, tr:qul, gloss:söyle} buyruğu, varsayımın iç düşünce olarak kalmayıp muhataba açıkça duyurulmasını ister. Ardından gelen {ar:لَوْ, tr:law, gloss:gerçekleşmemiş koşul} en geniş imkânı sınamaya açar: İnsanlar Rabbimin rahmet hazinelerine sahip olsalar bile onları bırakmazlardı. Böylece söz bir hibe haberi ya da gelecek tahmini değil, gerçekleşmemiş varsayımın içindeki huy sınamasıdır; bu koşul edatı tek başına “hatta eğer” anlamını da taşımaz. Söyleme buyruğu kendi başına önceki ayetlerden daha geniş bir yanıt dizisi kurmaz.
+
+Koşulda öne alınan {ar:أَنتُمْ, tr:antum, gloss:siz}, {ar:تَمْلِكُونَ, tr:tamlikūna, gloss:tasarruf edersiniz} fiilinin ikinci çoğul kişisinde sürer; sonuçtaki {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} aynı muhatap grubunu korur. Varsayılan sahiplikten beklenen tutmaya kadar fail değişmez ve sorumluluk koşul ile sonuç arasında aynı kişilerde kalır. Koşul fiilinin şimdiki-geniş biçimi, tek seferlik bir paydan çok varsayım sürdükçe devam eden denetimi düşündürür; bu biçim gerçek bir süre ölçüsü vermez.
+
+Yanıtı başlatan {ar:إِذًا, tr:idhā, gloss:o hâlde} burada zamandaki “sonra”yı değil, koşuldan çıkan sonucu bildirir. {ar:لَوْ, tr:law, gloss:gerçekleşmemiş koşul} ile açılan varsayıma cevap veren {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} fiilinin başındaki lâm, alıkoyuşu koşula kuvvetle bağlar. Bitmiş biçim de sonucu hayal edilen sahnenin içinde tamamlanmış gösterir: O koşulda hazineler bırakılmayacaktır. Lâmın vurguladığı bu tamamlanma tarihsel ya da gelecekte yaşanacak bir olay değil, karşıolgusal çıkarımın sonucudur.
+
+{ar:تَمْلِكُونَ, tr:tamlikūna, gloss:tasarruf edersiniz} geniş bir sahiplik ve tasarruf alanı taşır; doğrudan nesnesi {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} bu yetkinin konusunu adı konmuş hazinelerle sınırlar. Sonuçta yeniden söylenmeyen nesne yine aynı hazinelerdir, dolayısıyla sahiplikten tutmaya tek bir nesne zinciri uzanır. Kısa fiilden uzun çoğul nesne adına geçiş, işitmede eylemden bolluğa doğru bir açılma duyurabilir; bu ses etkisi sözlük anlamı değildir.
+
+## Depo Ve Bakım
+
+Sonuçtaki {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} IV. biçim, kaynakları etkin biçimde elde tutma ve serbest kalmalarını önleme davranışını aynı muhataplara yükler. {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} adıyla yan yana geldiğinde olağan tutma, bolluğun üzerine kapanan bir el gibi görünür. Kök ailesindeki koku kullanımı bu biçimde devreye girmez; burada işi yapan, hazineleri tutan eylemdir.
+
+{ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} malların güvenle saklandığı yeri adlandırır; saklama eylemini tek başına söylemez. Onu içeride tutan {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} fiili, korunaklı depo imgesini varsayılan insan denetiminin kapattığı bir salıverme yoluna çevirir. Çoğul hazine adı tek bir nesneden geniş bir bolluk alanı açar, ama bu bolluk varsayılan eli gevşetmez. Böylece kapanma başka peygamber anlatılarından ödünç alınmadan, ayetin kendi karşıolgusal sahnesinde kurulur. Bu depo yankısı, ilahî hazinelerin fiziksel bir yerde ya da sınırlı stokta bulunduğunu ileri sürmez.
+
+Tamlama, hazinelerde saklananı da açıklar: {ar:رَحْمَتِ, tr:raḥmati, gloss:rahmet} içeriği, {ar:رَبِّىٓ, tr:rabbī, gloss:Rabbim} ise bu rahmetin kaynağını bildirir. Rahmetin kapsamı maddi armağanı aşar: esirgeyip iyilik etmeyi ve bu iyiliğin yaratılmışlara ulaşmasını taşır. Birinci kişi iyelik eki, buyurulan sözün içinde konuşanın Rabb ile ilişkisini kişiselleştirir. İnsanların bu içeriği sahiplenmesi koşulun varsayımıdır; rahmetin kaynağı olarak Rabb'e nispeti ise tamlamada korunur.
+
+{ar:رَبِّىٓ, tr:rabbī, gloss:Rabbim} unvanı yetiştirip adım adım geliştiren bakım yankısını da taşır. {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} ailesindeki saklananı koruyup gerektiği gibi gözeten görevli çağrışımı, {ar:تَمْلِكُونَ, tr:tamlikūna, gloss:tasarruf edersiniz} ile yan yana gelen hazine adının varsayılan sahibine gözetim ve dağıtım yetkisi tonu ekler. Yüzeydeki ad hazinedir; görevli tonu bu ilişkideki ek yankıdır. Rabb unvanının yönetme alanı insanlara varsayılan tasarruf veren fiille karşılaşınca, bu denetim halka buyruk ve yasak koyan kamusal yönetimi andırabilir. Bu olası yankı koşullu insan denetimini yönetim gibi duyurur; insanlara gerçekten ilahî yetki devrini ileri sürmez.
+
+Bu insan denetiminin sınırı, yaratma kudretini ve belirlenmiş vadeyi birlikte hatırlatan aktarılan 17:99 özetiyle çizilir: gökleri ve yeri yaratan yeniden yaratmaya da güç yetirir. {ar:خَلَقَ, tr:khalaqa, gloss:yarattı}, {ar:يَخْلُقَ, tr:yakhluqa, gloss:yeniden yaratması} ve {ar:قَادِرٌ, tr:qādirun, gloss:gücü yeten} bu kudreti görünür kılar. Hazinelerden söz eden ayrı bir bağlamda, 38:9'da {ar:خَزَائِنَ رَحْمَتِ رَبِّىٓ, tr:khazāʾina raḥmati rabbī, gloss:Rabbimin rahmet hazineleri} güçlü ve bolca bağışlayan Rab ile anılır; depo imgesi böylece insanın dağıtacağı kapalı stoktan gizli bilgiye, yaratma imkânına, güce ve geniş iyilik kaynağına doğru açılır. Bu kaynak imgesi rahmetin genişliğini duyurur; nicel sonsuzluğu hakkında bir ölçü vermez.
+
+Fatiha'daki {ar:ٱلرَّحْمَٰنِ, tr:al-Raḥmān, gloss:Rahmân} ve {ar:ٱلرَّحِيمِ, tr:al-Raḥīm, gloss:Rahîm} adları (1:3), {ar:رَحْمَتِ, tr:raḥmati, gloss:rahmet}i kaynağı Tanrı olan ve yaratılmışlara ulaşan iyilik olarak adlandırır. Bu nispet, rahmetin kaynağı rolünü insana vermez; iki adın biçimleri de birbirinden farklıdır. Açılmış rahmetin kimse tarafından alıkonamayacağını bildiren söz (35:2) insanın korkuyla kapattığı çıkışın karşısına, insan denetiminden bağımsız süren ilahî salımı koyar.
+
+Hazine ve tasarrufun kimde olduğu sorusu, denetimin dağıtım yetkisine dönüşüp dönüşmediğini de açar. İnsanların hazinelere sahipliğiyle yönetici ya da denetleyici olma sorusu (52:37), {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} ile {ar:تَمْلِكُونَ, tr:tamlikūna, gloss:tasarruf edersiniz} arasındaki bağı bu yönden sınar ve varsayılan tasarrufa dağıtım yetkisi gölgesi katar; fiilin olağan sahiplik/tasarruf anlamı korunur, bu bağlantı fiile kamusal hükümdarlık anlamı yüklemez. İnsanların başkalarına harcamayı yasaklamasının Allah'ın hazineleriyle yan yana geldiği bağlamdaysa (63:7), {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} yalnızca elde kalan bir tutuş değil, başkasına gidecek yolu sözle durdurma ihtimali kazanır.
+
+## Yakınlık Ve Taşıma
+
+{ar:رَحْمَتِ, tr:raḥmati, gloss:rahmet}in kök ailesindeki yakınlık ve kalıcı soy bağı yankısı, genel insanı adlandıran {ar:ٱلْإِنسَٰنُ, tr:al-insānu, gloss:insan} ile geri tutmayı bildiren {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} temasında belirir. Rahmet böylece insanlar arasında uzanan bir bağ gibi duyulabilir; fakat bağ kurabilecek tutuş alıkoymaya dönünce yakınlık yabancılaştıran bir mesafeye çevrilir. Bu yankıda yabancılık ve ürkmenin kalkıp rahatlık ya da sevinç doğurması da duyulur; {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan} niteliği toplumsal açıklığı daraltır. Bu bağlantı, kelime ailesinin yakınlık-uzaklaşma yankısıyla sınırlıdır; gerçek bir soy bağı ya da yaşanmış toplumsal kopuş ileri sürmez ve insan sözcüğünün kökenini açıklamaz.
+
+Aynı sözcük ailesinin başka bir kolu, yakınlık yankısından bağımsız olarak rahim, yani döl yatağı imgesini açar. Burada {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} kapsayıcı yeri, {ar:رَحْمَتِ, tr:raḥmati, gloss:rahmet} içeride gelişip taşınan bakımı, {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama ve dışarıya verme} ise olası çıkış hareketini sağlar. Döl yatağında yavrunun oluşup gelişmesi ve karın içinde taşınması, içeride korunanın zamanla dışarıya ulaşabileceği üretken bir bakım imgesi kurar. Soy bağı yankısı insanlar arası yakınlığı, döl yatağı imgesi ise içeride gelişip taşınmayı öne çıkarır; bu iki ayrı temas rahmetin olağan anlamını değiştirmez.
+
+## Korku Ve Çıkış
+
+Bakımın bu olası çıkışını neyin durdurduğu, korku cümlesinde belirir. Sebep bildiren mastar {ar:خَشْيَةَ, tr:khashyata, gloss:korkusuyla} adının tamamlayıcısı {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama} olduğundan, bu cümlede korkunun dilbilgisel hedefi harcamadır; yoksulluk bu mastarın belirtilen hedefi değildir. {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} eylemi bu güdüyü {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler}deki kaynağın elde kalması ile dışarı çıkışı arasına yerleştirir. {ar:رَبِّىٓ, tr:rabbī, gloss:Rabbim} ilişkisinin taşıdığı büyüklük, ürpertiyi kör panikten çok düşünülmüş bir tedirginlik gibi duyurabilir; bu olasılık ayrı bir ibadet saygısı ya da önbilgi önermesine dönüşmez.
+
+{ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama} IV. biçimin mastarı olarak malı ya da başka bir şeyi amaç uğruna verip kullanarak elden çıkarmayı, yani etkin bir dışarı aktarımı anlatır. Bu olağan anlam, {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler}in saklı yedeği ve {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız}un kapattığı çıkışla birlikte belirginleşir: harcama, verenin elinde eksilen miktarın yanı sıra bir şeyin başka yere ulaşmasıdır. Ayetteki olağan harcama anlamı bu bağlantıda korunur; buradan genel bir harcama kuralı çıkarılmaz.
+
+Bu harcama sözcüğünün bağlı olduğu ailede, bir şeyin tükenip sürekliliğini yitirerek sona ermesi de bulunur. {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler}le kurulan saklı yedek ve harcamaya yönelen {ar:خَشْيَةَ, tr:khashyata, gloss:korku} bu ayrı anlamı etkinleştirince her çıkış depoyu bitirecekmiş gibi duyulur; korku harcamayı olası tükeniş olarak tasarlar. Böylece tükeniş, sözcüğün buradaki karşılığı değil, korkunun harcamaya yüklediği sonuç olarak belirir.
+
+Aynı kelime ailesindeki başka bir somut kullanım, başka yere açılan kullanılabilir bir yeraltı geçidini, hatta kemirgen yuvasının gizli çıkışını anlatır. Depoyu belirleyen {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} ile yolu tutan {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız}, {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama}ya bu çıkış imgesini taşır: kaynakların geçebileceği bir yol açılır, ardından el o yolu kapatır. Bu yankı, harcamanın olası geçiş yolunu görünür kılar; geçit ve yuva ayetin gerçek nesneleri değildir, kişiye ikiyüzlülük de isnat etmez.
+
+Geçit imgesinden ayrı olarak, tutma fiilinin suyla kurduğu maddi yankı suyu emmeden ve sızdırmadan içinde saklayan kap imgesidir. {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler}de içeride tutulanla {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama}nın dışarı aktardığı arasındaki karşıtlık, {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} fiilini sızdırmaz bir muhafaza gibi düşündürür: kaynak bitmiş sayılmadan elde tutulabilir. Bu kap yankısı, fiilin hazineler ve harcama ile kurduğu içeride-dışarıda ilişkisini görünür kılar; bu bağlantıda su ve kap ayetin gerçek nesneleri değildir.
+
+Son sıfat {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan}, harcamayı kısmayı ve eldeki malı azar azar çıkarmayı anlatır; {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama}nın akışı ile önceki {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} tutuşunu cimrice daralan bir çıkışta birleştirir. Kelime ailesindeki özel bir kullanımda devenin idrarı bir defada değil, art arda küçük miktarlarda çıkar; bu kullanım harcama sahnesine damla damla ve çekingen bir çıkış tınısı ekler. Ayetteki sıfatın olağan anlamıysa insanın harcamasını kısmasıdır. Belirsiz ve yoğun yüklem tek bir eylemden çok huyu öne çıkarır. Ölçülü tutumluluk bu hükmün tamamı değildir: harcamayı israf ile aşırı kısmak arasında tutan ölçü (25:67), eleştirinin hedefini korkuyla daralan veriş olarak belirler.
+
+Bu ayrı temaslar bir araya geldiğinde okurun izleyebileceği sahne adım adım kurulur: {ar:خَزَائِنَ, tr:khazāʾina, gloss:hazineler} önce güvenle saklananı sunar; {ar:رَحْمَتِ, tr:raḥmati, gloss:rahmet} bu içeriğin yaratılmışlara ulaşabilecek bakım olduğunu belirginleştirir; döl yatağı yankısı ise bu bakımı içeride geliştirip taşıma imkânını ekler. Ardından {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} çıkışı kapatırken, {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama ve dışarıya verme} kaynakların dışarı ulaşabileceği aktarım yolunu açar; {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan} bu çıkışı damla damla daraltır. Bu bileşik okuma ayrı sözcük temaslarını tek bir maddi nesne tarifine dönüştürmez ve rahmet hazinelerinin miktarını ölçmez. Birlikte, okurun dikkati miktar azalmasından ilahî kaynağı insan mülkü sayıp her çıkışı kayıp gören kıtlık mantığına kayar; korkunun bakımın alıcıya erişeceği yolu kapatması bu kaymayı belirginleştirir.
+
+## Çıkışın Başka Ölçekleri
+
+Bu kapalı çıkışla farklı bir alanda karşılaşan bedensel imgeler, görme-alımlama, ifade ve işitme kanallarını ayrı ayrı kapatır: körlük {ar:عُمْيًا, tr:ʿumyan, gloss:körler}, dilsizlik {ar:بُكْمًا, tr:bukman, gloss:dilsizler}, sağırlık {ar:صُمًّا, tr:ṣumman, gloss:sağırlar} diye adlandırılır (17:97). Odaktaki {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} salıvermenin, {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama} maddi çıkışın önünü keserken, 17:97'deki duyusal imgeler alımlama ve ifade yollarını kapatır. Benzerlik, farklı alanlardaki geçişlerin kapanmasıdır; anlatılan kişiler ve koşullar aynı değildir.
+
+Duyusal kanalların kapanışından ayrı olarak, ateş görüntüsünde yatışma son nokta olmaz: {ar:كُلَّمَا, tr:kullamā, gloss:her ne zaman} döngüyü yineler, ateş {ar:خَبَتْ, tr:khabat, gloss:yatıştığında} ardından {ar:زِدْنَٰهُمْ, tr:zidnāhum, gloss:onların alevini artırırız} denir ve {ar:سَعِيرًا, tr:saʿīran, gloss:alevli ateş} yeniden yükselir (17:97). 17:97'de yinelenen bu ateş döngüsü, 17:100'de {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama} korkusu ile son {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan} niteliğinin kurduğu, her çıkışı son kayıp sayan kıtlık ölçüsünü sarsar; cezalandırıcı ateşin yeniden alevlenmesi, {ar:خَزَائِنَ رَحْمَتِ رَبِّىٓ, tr:khazāʾina raḥmati rabbī, gloss:Rabbimin rahmet hazineleri}nin yenilendiğine kanıt değildir.
+
+{ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama}yı tükeniş sayan korkuyla başka ölçekte karşılaşan sahne diriliştir. Toz döküntüsüne dönüşme {ar:رُفَاتًا, tr:rufātan, gloss:toz döküntüsü} ve diriltilme beklentisi {ar:مَبْعُوثُونَ, tr:mabʿūthūna, gloss:diriltilmiş} ile yenilik {ar:جَدِيدًا, tr:jadīdan, gloss:yeni} birlikte anılır (17:98); gökleri ve yeri yaratanın yeniden yaratmaya gücü yettiği {ar:خَلَقَ, tr:khalaqa, gloss:yarattı}, {ar:يَخْلُقَ, tr:yakhluqa, gloss:yeniden yaratması} ve {ar:قَادِرٌ, tr:qādirun, gloss:gücü yeten} ile belirtilir (17:99). Bu iki ayetin (17:98, 17:99) çizdiği sırada metindeki en köklü çözülme bile son durum olarak kalmaz. Bu (17:98, 17:99) diriliş bağlamından harcamaya taşınan bir benzetmedir; harcanan her malın geri döneceğini vaat etmez ve bu ayetler dirilişi anlatan bağımsız bir dizi olarak da okunabilir.
+
+Sahiplik fiilinin olası kamusal yönetim tonu, toprak ve aidiyet üzerine ayrı bir sahneyi çağırır. İşaretlerin verilişi (17:101), onu izleyen anlatı (17:102), Firavun'un halkı yerinden etme girişimi ve ardından Firavun'un boğulması (17:103), yerleşme ve daha sonra topluca getirilme (17:104) erişimi kimin belirlediği sorusunu açar. 17:100'deki {ar:تَمْلِكُونَ, tr:tamlikūna, gloss:tasarruf edersiniz} olağan sahiplik anlamını korur; bu anlatı dizisinde (17:101, 17:102, 17:103, 17:104) yalnızca yönetim yetkisi gölgesiyle yankılanır. 17:103'teki {ar:فَأَغْرَقْنَاهُ, tr:fa-aghraqnāhu, gloss:onu boğduk} tekil biçimi Firavun'a döner; anlatı, Firavun'la yanındakilerin boğuluşunu hazineleri tutmaktan farklı bir olay olarak taşır. 17:101'deki {ar:ءَاتَيْنَا, tr:ātaynā, gloss:vermiştik}, 17:103'teki {ar:يَسْتَفِزَّهُم, tr:yastafizzahum, gloss:onları yerlerinden söküp atmaya kalkışmak}, 17:104'teki {ar:ٱسْكُنُوا, tr:uskunū, gloss:yerleşin} ve {ar:لَفِيفًا, tr:lafīfan, gloss:topluca} sözcükleri işaret, yerinden etme, yeniden yerleşme ve toplu dönüş hareketlerini birbirinden ayırır. Hazineyi tutma ile toprak üzerindeki zorbalık farklı nesnelere ilişkindir; bu dizideki benzerlik (17:101, 17:102, 17:103, 17:104), insan denetiminin kaynağa erişimi ya da güvenli yeri kapatabilmesidir.
+
+Bu siyasi sahneden ayrı olarak, 17:101, 17:102, 17:103, 17:104 ve 17:105 için aktarılan özet işaretleri, kurtuluşu, yeniden yerleşmeyi ve doğru inişi art arda getirir. Bu aktarılan özet, ayetlerin burada sunulmayan lafızları ya da biçimleri üzerine bir çözümleme değildir. Süren ilahî ihsan böylece 17:100'de insanın hazineleri tutma korkusunun karşısında belirir: güvenli yer ve yöneliş insanın sahiplik varsayımına bağlı değildir.
+
+Korkuyla kaynağı kapatmanın karşısında zamanlamanın başka bir işi de olabilir. Vahiy {ar:فَرَقْنَٰهُ, tr:faraqnāhu, gloss:onu bölümlere ayırdık} denerek bölümlenir; insanlara okunacak Kur’an {ar:قُرْءَانًا, tr:qurʾānan, gloss:Kur’an} biçiminde sunulur ve {ar:لِتَقْرَأَهُۥ, tr:li-taqraʾahu, gloss:onu okuyasın diye} sözü okuma amacını belirtir. Ulaştırma {ar:عَلَىٰ مُكْثٍ, tr:ʿalā mukthin, gloss:zamana yayarak} zamana yayılır; {ar:نَزَّلْنَٰهُ تَنزِيلًا, tr:nazzalnāhu tanzīlan, gloss:onu aşamalı biçimde indirdik} inişin yinelendiğini söyler (17:106). Bu bekleme, 17:106'da alıcıya ulaştırmanın parçasıdır; 17:100'deki {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} ise {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama}yı kayıp sayan korkuyla çıkışı kapatır. Bu karşılaştırma maddi harcama için kural koymaz; iki bağlam ayrı da kalabilir.
+
+Zamanlamadan ayrı olarak, denizin tükenebilirliğiyle Rabbin sözlerinin tükenmezliğini karşılaştıran imge (18:109), 17:100'deki {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama} korkusunun ve son {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan} niteliğinin her çıkışı kesin kaynak kaybı sayan ölçüsünü değiştirir. Bu karşılaştırma (18:109), amaçlı aktarımın ya da belirli bir zamanlamanın zorunlu olarak son tükeniş olmadığını düşündürür; servetle vahiy aynı türden akış değildir ve bu karşılaştırma {ar:خَزَائِنَ رَحْمَتِ رَبِّىٓ, tr:khazāʾina raḥmati rabbī, gloss:Rabbimin rahmet hazineleri} imgesinin sayısal olarak sonsuz olduğunu kanıtlamaz. Harcamayı israfla aşırı kısma arasında tutan ölçü (25:67), korkuyla kapanan çıkışı dengeli tasarruftan ayırır.
+
+Miktarın kaynağına bakan bu sorudan ayrı olarak, aktarımın alıcıda ne doğurduğu da önem kazanır. Bilgi verilip tilavetle ulaştırılır; bilgi verilenler {ar:أُوتُوا الْعِلْمَ, tr:ūtū al-ʿilma, gloss:bilgi verilenler} ve okunan {ar:يُتْلَىٰ, tr:yutlā, gloss:okunur} ile belirtilir (17:107). Dinleyenler {ar:يَخِرُّونَ, tr:yakhirrūna, gloss:öne kapanıp düşerler}; ağlarlar {ar:يَبْكُونَ, tr:yabkūna, gloss:ağlarlar} ve huşuları {ar:يَزِيدُهُمْ خُشُوعًا, tr:yazīduhum khushūʿan, gloss:huşularını artırır} diye anlatılır (17:109). Bu alıcıdaki bedensel ve içsel artış (17:107, 17:109), {ar:ٱلْإِنفَاقِ, tr:al-infāqi, gloss:harcama} ile kurulan aktarım benzetmesini yalnız verenin elinde kalan miktarla ölçmemeyi sağlar; bu sözcük bilgi ya da tilavet anlamına gelmez, artış alıcılardadır ve verenin stoğunun sabit kaldığı ileri sürülmez.
+
+Alıcıdaki artıştan ayrı bir ölçü örneği namazın sesidir: onu ne yüksek sesle söylemek {ar:لَا تَجْهَرْ بِصَلَاتِكَ, tr:lā tajhar bi-ṣalātika, gloss:namazını yüksek sesle kılma} ne de aşırı kısmak {ar:وَلَا تُخَافِتْ بِهَا, tr:wa-lā tukhāfit bihā, gloss:onu kısık sesle de kılma}; ardından ikisinin arasında yol aranır {ar:وَابْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا, tr:wabtaghi bayna dhālika sabīlan, gloss:ikisinin arasında bir yol ara} (17:110). 17:110'daki bu ses düzeni, 17:100'de {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} korkuyla maddi çıkış kapatılırken erişilebilir bir yolu açık bırakır. Ölçülü sınırlama ile korkulu alıkoyuş böylece ayrılır; namazın sesine ilişkin bu bağlam harcama için genel bir kural koymaz.
+
+Ses düzeyine ilişkin bu ölçüden ayrı olarak, Allah'a ya da {ar:ٱلرَّحْمَٰنِ, tr:al-Raḥmān, gloss:Rahmân}a seslenme {ar:ٱدْعُوا اللَّهَ أَوِ ٱدْعُوا الرَّحْمَٰنَ, tr:udʿū Allāha aw udʿū al-Raḥmān, gloss:Allah’a ya da Rahmân’a seslenin}, güzel adların anılmasıyla {ar:الْأَسْمَاءُ الْحُسْنَىٰ, tr:al-asmāʾ al-ḥusnā, gloss:güzel isimler} buluşur (17:110). 17:110'daki {ar:تَدْعُوا, tr:tadʿū, gloss:çağırın} fiili rahmeti {ar:رَحْمَتِ, tr:raḥmati, gloss:rahmet} yalnızca hayali hazinede saklı bir içerik olmaktan çıkarıp çağrılan bir ad ve ilişki olarak da duyurur. Rahmân ilahî unvan olarak kalır; çağrılan ad rahmetin hazine imgesini ilişki yönünden genişletir, hazine benzetmesinin maddi stok anlamını silmez.
+
+İnsanın varsayımsal sahipliğiyle karşılaştırılan son ölçü, ortak kabul etmeyen egemenliktir. Kapanış duasında egemenlikte ortak {ar:شَرِيكٌ فِي الْمُلْكِ, tr:sharīkun fī al-mulki, gloss:egemenlikte ortak} reddedilir; zayıflık yüzünden bir koruyucunun bulunmadığı {ar:وَلِيٌّ مِّنَ ٱلذُّلِّ, tr:waliyyun mina al-dhull, gloss:zayıflık yüzünden bir koruyucu} bildirilir ve yüceltme buyruğu {ar:وَكَبِّرْهُ تَكْبِيرًا, tr:wa-kabbirhu takbīran, gloss:onu gereğince yücelt} ile kapanır (17:111). 17:111'i insanın hayali sahipliğiyle yan yana okuyunca, {ar:تَمْلِكُونَ, tr:tamlikūna, gloss:tasarruf edersiniz} fiilinin olası kamusal yönetim tonu her varlığı kapsayan ve telafi edici bir yardımcıya ihtiyaç duymayan egemenlikten ayrılır; korkuyla kendini güvenceye almaya çalışan insanın bağımlı konumuyla yüceliği vurgulanan egemenlik arasındaki karşıtlık belirir. Bu karşıtlık, koşulu salt kötü kaynak yönetimiyle sınırlamayıp bağımlıyken mutlak denetim varsayma eğilimini de sınar. 17:111 yine de 17:100'ü açıklamak üzere kurulmuş bir cümle değil, bağımsız bir övgü duası olarak okunabilir.
+
+## İnsana Dönen Hüküm
+
+Bağlam karşılaştırmalarından 17:100'ün sonuna dönünce, {ar:وَكَانَ, tr:wa-kāna, gloss:ve ... olurdu} bağlacıyla başlayan cümlenin önceki alıkoyuşun koşulunu açıklayan bir ara söz olarak da, hayalî muhataplardan genel insana dönen bağımsız bir devam olarak da bağlanabildiği görülür; söz sınırı açık kalır ve konuşanın değiştiğine karar verilmez. Devam okumasında ikinci çoğul kişiden tekil ve türsel özneye geçiş yargıyı genişletir, ama cümle buyurulmuş sözün içinde kalabilir. Dilbilgisinde {ar:وَكَانَ, tr:wa-kāna, gloss:ve ... olurdu} eksik fiili {ar:ٱلْإِنسَٰنُ, tr:al-insānu, gloss:insan} öznesini {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan} yüklemine bağlar; bu, sözcük kökenine değil cümlenin kuruluşuna ilişkin bir ilişkidir. Belirli bir kişi değil genel insan anlatılır; bu sözcük tek başına surenin daha geniş insan tasvirini kurmaz. Bitmiş biçim, genel özne ve belirsiz ama yoğun yüklem huyu tek seferlik olaydan yerleşik eğilim olarak duyurur, değişmez ya da istisnasız bir insan yasası olarak değil. Son konumdaki {ar:قَتُورًا, tr:qatūran, gloss:kıt davranan} bu huyla hükmü kapatır; vurguyu sözcüğün nadirliği değil cümledeki yeri taşır.
+
+</editorial_prose>

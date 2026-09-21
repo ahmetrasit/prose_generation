@@ -1,0 +1,215 @@
+# V5 reading invitation — 17:84
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p05-with-fatiha/s017/17_84/17_84.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p05-with-fatiha/s017/17_84/17_84.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Eylem ve Değerlendirme
+
+17:84'ün olağan bildirimi, herkesin kendi tarzına göre iş gördüğünü ve Rabbin kimin yol bakımından daha iyi yöneldiğini en iyi bildiğini söyler. {ar:قُلْ, tr:qul, gloss:de} emri bu iki yargıyı da söylenmesi istenen sözün içine alır: kişisel eylem ile son değerlendirme aynı söyleyiştedir, araya ikinci bir söz edimi girmez. Emrin olağan sesle söyleme anlamı, hemen ardından gelen bildirimi dinleyiciye açık bir beyana dönüştürür; kişisel işleyiş hakkındaki hüküm sesle dışa çıkar. Metin bu beyan için teknik bir yayın biçimi ya da ayrıca tanımlanmış yeni bir dinleyici vermez. Tekil {ar:قُلْ, tr:qul, gloss:de} emrinden sonra {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} içindeki çoğul “-kum” muhataplara döner; bu hitap kayması, kimin değerlendirildiğini ayrıca belirlemez.
+
+{ar:كُلٌّ, tr:kullun, gloss:her biri} biçimce tekil olsa da bir toplulukta hiçbir kişiyi dışarıda bırakmayan bütünü anlatır. Tekil {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} bu kapsamı kişilere birer birer dağıtır; her biri ayrı fail olarak görünür, topluluk tek bir fail sayılmaz ve kişiler arasında bir derece sırası kurulmaz. Süren eylemin kişinin kendi örüntüsüyle kurulması, {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı} sonundaki “-hī” ile belirginleşir: iyelik her kişinin tarzını kendisine bağlar, ortak mizaç ya da değişmezlik ileri sürmez.
+
+Söz ailesindeki ayrı bir kullanım, bakımının, geçiminin ya da taşınmasının başkasına yük olduğu kişi veya şeyi anlatır. Bu anlam, {ar:كُلٌّ, tr:kullun, gloss:her biri} kapsamı, bağımsız {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} eylemi ve her kişinin {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı} ile buluşunca sorumluluğu hafifçe bir taşıma yükü gibi duyurur: herkes kendi davranışını taşıyor gibidir. Bu, kişisel sorumluluğa dair mecazi bir basınçtır; maddi yoksunluk ya da bedensel ağırlık ve yorgunluk anlatmaz.
+
+{ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} muzari ve nesnesiz biçimiyle tek bir tamamlanmış işi değil, süren ya da karakteristik iş görmeyi bildirir. Bu biçim belirli işi, doğrudan nesneyi ve sonucu açık bırakır; ahlaki bir nitelik de atamaz. İş ve işlev alanı, fiili ardından gelen {ar:عَلَىٰ شَاكِلَتِهِۦ, tr:ʿalā shākilatihī, gloss:kendi tarzı üzere} öbeğine bağlayarak eylemi kişinin iç örüntüsü üzerinden görünür kılar. Fiil ailesindeki birini ya da bir şeyi işe koşma ve kullanma anlamı da {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} üzerinde yankılanır; {ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} ile temasında eylem, kişinin tarzı içinde işe koşulmuş gibi duyulur. Odaktaki çekimli fiilin biçimi ettirgen veya araç bildiren bir yapıya dönüşmez.
+
+{ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} adının fâʿile kalıbındaki biçimi, süregiden {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} ile buluşunca kişisel tarzı davranışın biçimlenmesine katılan etkin bir örüntü gibi duyurur. Bu morfolojik çağrışım, tarzı eylemin kuruluşuna dahil eder; kişiliğin her davranışın tek belirleyicisi olduğunu kanıtlamaz.
+
+{ar:عَلَىٰ, tr:ʿalā, gloss:üzerinde; üzere} edatı, ardından gelen genitif tarzı hem eylemin dayandığı zemin hem de işin hangi tarz üzere yürüdüğü olarak kurar; uzamsal “üzerinde” ile modal “-e göre” birlikte işler. Dizilişte önce {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür}, sonra {ar:عَلَىٰ شَاكِلَتِهِۦ, tr:ʿalā shākilatihī, gloss:kendi tarzı üzere}, en son {ar:فَ, tr:fa, gloss:böylece; ardından} gelir. Okur Rabbin bilgi hükmüne geçmeden önce kişinin nasıl iş gördüğünü duyar; tarz öbeği fiil cümlesini tamamlar, fiile nesne eklemez. {ar:فَ, tr:fa, gloss:böylece; ardından} eylem yargısını bilgi hükmüne sonuç veya çıkarım olarak bağlayabilirken, dizilişin sırası ve ardışıklığı da hissedilir. Kişisel tarzla nitelenen eylem böylece kimin daha iyi yöneldiğini bilen Rabbin değerlendirmesine bağlanır; bu birliktelik 17:84'ün söyleyişine aittir, genel bir ahlak öğretisi kurmaz.
+
+## İç Çizgi ve Dış Yol
+
+{ar:شَاكِلَة, tr:shākila, gloss:kişisel yatkınlık ve tarz} kişinin tutumunu, yaradılışını ve iç yönünü taşır; bu kullanım dış görünüşten çok kişisel yapıya odaklanır. Bağımsız {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} eylemi bu çizgiyi davranışta görünür kılarken, kapanıştaki {ar:سَبِيلًا, tr:sabīlan, gloss:yol} yürünüp amaca ulaştıran dış güzergâhı açar. {ar:أَهْدَىٰ, tr:ahdā, gloss:daha iyi yönelmiş} iç çizgiyle dış yol arasındaki yönelişi değerlendirir; böylece kişisel gidiş bir rota boyunca okunabilir. Bu ilişki iki adı eşitlemez ve gerçek yolculuk iddiası taşımaz.
+
+Aynı söz ailesindeki {ar:ٱلشِّكَال, tr:ash-shikāl, gloss:kısıtlayıcı bağ} kullanımı, hayvanın hareketini bağla tutmayı ya da bağın kendisini anlatır. Bu imge, kişisel yatkınlığı taşıyan {ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} ile bağımsız {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} hareketi ve {ar:عَلَىٰ, tr:ʿalā, gloss:üzerinde} eylemi buluştuğunda, davranışın sınırlı bir kanal içinde ilerleyişini duyurur. Katkısı, kişisel örüntünün hareket alanını daraltabilmesi fikridir; 17:84'te gerçek bir hayvan bağı ya da dıştan dayatma anlatılmaz. Söz alanındaki kap kenarı ve hayvan boğazındaki kesim yeri anlamları daha dar kullanımlardır; bu ayrıntılar genel bir “yol çıkışı” anlamına dönüşmez.
+
+Söz ailesindeki ayrı bir karışma kullanımı, bir konunun ya da anlatımın anlaşılmasını güçleştirir. Bu bulanıklık imgesi, {ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} kişisel örüntüsü ile bağımsız {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi bilen} bilgi hükmü buluştuğunda, insanın bu örüntüyü dışarıdan tümüyle okuyamayabileceğini düşündürür. Sınır insan gözlemcisinin erişimindedir; kişinin kendisinin şaşkın olduğu ileri sürülmez.
+
+Bilgi cümlesinde {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} özne, {ar:أَعْلَمُ, tr:aʿlamu, gloss:daha iyi; en iyi bilen} yüklemdir. Bu karşılaştırmalı ve üstünlük bildirebilen biçim, kıyasın öteki tarafını açık bırakır. Ardından gelen {ar:بِمَنْ, tr:bi-man, gloss:kimin hakkında} bilgi alanını kişiye bağlar: {ar:مَنْ, tr:man, gloss:kim} tekil biçimli olsa da ilgili insanları genel bırakır; belirli bir kişi adlandırılmaz ve kapsam bütün varlıklara genişlemez. {ar:بِ, tr:bi, gloss:hakkında; konusunda} kişiyi bilme yükleminin tamamlayıcı alanına katar, böylece bilgi somut bir kişi yönelişine bağlanır. {ar:هُوَ, tr:huwa, gloss:o} zamirinin {ar:بِمَنْ, tr:bi-man, gloss:kim hakkında} öbeğinden sonra, {ar:أَهْدَىٰ, tr:ahdā, gloss:daha iyi yönelmiş} öncesinde tek başına gelişi kısa bir bekleyiş yaratır: önce kişi, ardından yöneliş derecesi duyulur. Zamir ya ayırıcı işlev görür ya da {ar:مَنْ, tr:man, gloss:kim} ögesine dönen özne sayılır; iki çözümlemede de aynı kişi daha iyi yönelendir, zamir yeni bir kimlik veya karşılaştırma eklemez.
+
+{ar:أَهْدَىٰ, tr:ahdā, gloss:daha iyi yönelmiş} kiminle kıyaslandığını belirtmeden karşılaştırmalı ya da üstünlük bildiren bir yöneliş derecesi kurar. Belirsiz, tekil ve mansup {ar:سَبِيلًا, tr:sabīlan, gloss:yol} bu derecenin hangi bakımdan ölçüldüğünü, yani yol yönünü belirler. {ar:أَهْدَىٰ, tr:ahdā, gloss:yönelmiş} doğru yönü, yolu veya gerçeği incelikle gösterme ve açıklama anlamı da taşır; bağımsız {ar:سَبِيلًا, tr:sabīlan, gloss:yol} bu rehberlik çağrışımına alan açar. Aynı kök ailesindeki incelik göstergesi armağan kullanımı, yolu desteklenmiş bir yöneliş gibi duyurabilir. Bu armağan ve rehberlik yankıları kıyası zenginleştirir; ayette bedensel önderlik ya da geçmişte gerçekleşmiş bir armağan verme eylemi bildirilmez.
+
+{ar:سَبِيلًا, tr:sabīlan, gloss:yol} olağan anlamıyla yürünüp bir amaca ulaştıran güzergâhtır; bağımsız {ar:أَهْدَىٰ, tr:ahdā, gloss:yönelmiş} yönü ve süregiden {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} etkinliği bu güzergâhı izlenen bir kurs ya da yöntem gibi hareketlendirir. Yol sözcüğünün bir sonuca ulaştıran bağlantı, olanak veya çıkış yolu anlamı da bu hareketi genişletir. Ayet hangi yöntemin, fiziksel yerin ya da varış noktasının söz konusu olduğunu açık bırakır.
+
+Yolun devinimine iki ayrı kullanım katkı verir. Yüksek bir konumdaki şeyi gevşetip aşağı bırakma ya da uzatma anlamındaki kullanımda taşıyıcı {ar:سَبِيلًا, tr:sabīlan, gloss:yol} adıdır; bağımsız {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} hareketi ve {ar:أَهْدَىٰ, tr:ahdā, gloss:yönelmiş} yönü, güzergâha hafif bir aşağı salınma hissi katar. Bulutun suyu bırakması, yağmurun yağması veya gözyaşının akması ise aynı yol sözcüğüne akış devinimi ekler; bunu süregiden {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} tetikler. İki çağrışım yolun hareketini farklı yönlerden zenginleştirir; ayet gerçek bir sıvı akışını anlatmaz.
+
+Daha uzak karşılaştırma, yolun yanında zor geçiş gölgesi oluşturur: yapısal kırılma ya da çöküş bir dal, sarp geçit ise başka bir daldır. Çöküş çağrışımı, ayetteki yön gösterme biçimi {ar:أَهْدَىٰ, tr:ahdā, gloss:yönelmiş} ile karşılaştırmada aktarılan h-d-d yazımının ayrılığından doğar; biçim farkı nedeniyle bu gölge {ar:أَهْدَىٰ, tr:ahdā, gloss:yönelmiş} sözcüğünün h-d-y yönlendirme anlamını değiştirmez. Sarp geçit imgesi bağımsız {ar:سَبِيلًا, tr:sabīlan, gloss:yol} çevresinde uyanır ve zor geçişi duyurur; sözlük anlamı olarak ahdā'ya yüklenmez, gerçek araziyi de tarif etmez.
+
+“Ayırt edip tanınır kılan iz ya da işaret” kullanımı, bilmeye bir tanıma boyutu ekler. Taşıyıcı {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi bilen}, tetikleyiciler {ar:بِمَنْ, tr:bi-man, gloss:kimin hakkında} ile açılan kişi ve bağımsız {ar:أَهْدَىٰ سَبِيلًا, tr:ahdā sabīlan, gloss:yol bakımından daha iyi yönelmiş} koşuludur. Bu temas, bilgiyi kimin hangi yolda daha iyi yöneldiğini seçebilen bir ayırt ediş gibi duyurur; işaret mecazidir, ayette bir bayrak veya görünür nişan betimlenmez.
+
+Bu öğeler arasındaki yön imgesi aşama aşama kurulur: {ar:كُلٌّ, tr:kullun, gloss:her biri} kişileri tek tek kapsar, {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} davranışı görünür kılar, {ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} eylemin iç çizgisini verir; ardından {ar:أَهْدَىٰ, tr:ahdā, gloss:daha iyi yönelmiş} ile {ar:سَبِيلًا, tr:sabīlan, gloss:yol} dış güzergâh üzerindeki yönü değerlendirmeye açar. Kişiye özgü gidiş bu yüzden değerlendirilen bir rota gibi okunabilir; iç çizgi ile yol ilişkili kalır, fakat eşanlamlılaşmaz ve anlatı gerçek bir yolculuk ya da değişmez kader ileri sürmez.
+
+## Yolun Görünen Gidişi
+
+Yürünebilir yol imgesi bedensel duruşla somutlaşır. Yüzüstü ilerleyenle dosdoğru yol üzerinde dik yürüyenin karşılaştırılması (67:22), {ar:سَبِيلًا, tr:sabīlan, gloss:yol} güzergâhını fiilen katedilen rota olarak gösterir. Yönelişi sorulan {ar:مَنْ, tr:man, gloss:kişi} ile yürüyen bedenler arasındaki bağ, kişiyi yol kullanıcısı olarak sahneye taşır; “yolcu” etkisi bu ilişkiden doğar, sözcüğe yeni bir sözlük anlamı eklemez. Duruş karşıtlığı, kişinin gidişinin dışarıdan okunabileceği bir görüntü vererek {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı}nı görünür kılar; bu beden imgesi kişisel çizginin kapsamını belirlemez. {ar:أَهْدَىٰ, tr:ahdā, gloss:daha iyi yönelmiş} kıyası da yürüyüşteki tutum ve ilerleyişle birlikte duyulur.
+
+İki yolun da görülmesine rağmen görenlerden bir kısmının sapma yolunu tutması (7:146), rota imgesine seçme eylemini ekler. {ar:سَبِيلًا, tr:sabīlan, gloss:yol} önünde seçenek bulunan ve fiilen izlenen bir güzergâh olur; doğru yol ile hata yolunun bu sahnedeki ayrımı, {ar:أَهْدَىٰ سَبِيلًا, tr:ahdā sabīlan, gloss:yol bakımından daha iyi yönelmiş} kıyasına sınırlı bir doğruluk yönü kazandırır. Yolun görülmesiyle tutulması arasındaki ayrım, bilinen seçenekten izlenen rotaya geçişi belirginleştirir; bu örnek seçimin nedenini ya da herhangi bir kişinin son durumunu açıklamaz.
+
+Eylemin konumu açığa çıkarması, duruşuna göre iş görmesi istenen ve sonucun o duruşu göstereceği bildirilen sahnede belirir (11:93). Böylece {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} kişinin içinde bulunduğu çizgiyi dışa vuran karakteristik gidiş gibi duyulur. İnsanların çabalarının çeşitlenmesi (92:4), verme ve sakınma örnekleri (92:5) ve aksi yöndeki gidiş (92:10) ayrı eylem biçimlerini somutlaştırır. Bu örnekler “her biri”ni tek tip davranışa indirmez; farklılıkların kendisi hidayet ya da sapma hükmü değildir, daha doğru yönelişi Rabbin bilgisi değerlendirir.
+
+## Alımlama ve Kabul
+
+Kişisel çizginin nasıl biçim kazanabileceği, odağın öncesindeki pratiklerde ikinci bir olasılık olarak açılır. Vakte bağlanan ibadet bir zaman durağı kurar (17:78); gece ibadeti ayrı bir pratik noktası ekler (17:79); hakla içeri giriş ve dışarı çıkış iki eşik oluşturur (17:80); tilavetin şifa ve rahmeti ise olası onarıcı sonucu taşır (17:82). Bu duraklar birlikte, eyleme dayanak olan {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı}nın pratik içinde biçim kazanabileceği bir alan düşündürür. Okur hem davranışta beliren yaradılışı hem pratikle şekillenebilecek yolu birlikte tutabilir; aynı pratikler önceden oluşmuş yönelimi de açığa çıkarıyor olabilir.
+
+Aynı tilavetin alıcıya göre şifa ve rahmet ya da artan ziyan getirmesi (17:82), alımlamanın farklı sonuçlarını gösterir. Hemen ardından, nimet ulaşınca yüz çeviren, zarar dokununca umudunu kesen kişi görünür (17:83). İlk sahne tilavetin alıcıyla ilişkisini, ikincisi aynı kişinin değişen koşullardaki karşıt tepkisini öne çıkarır; birlikte, {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı}nı hem alımlama hem fiilî karşılıkta görünür kılar. Bu bağlantı değişen koşullarda görülen bir eylem profili sunar; evrensel bir psikoloji yasası veya mizacın bütün sonuçların tek nedeni olduğu iddiasını taşımaz.
+
+Başka bir koşul değişiminde, deniz sıkıntısından kurtarılıp karaya çıkarılanların yüz çevirmesi görünür olur (17:67). Bu sahne, dış durum değişince {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı} ile eylem bağının nasıl göründüğüne ayrı bir örnek ekler. Bu bağlantı 17:83'teki nimet-zarar karşıtlığını açıklama iddiası taşımaz; aynı zamanda her tepkinin koşullar tarafından belirlendiği sonucunu vermez.
+
+Konuşmacıların kanıt kabulünü art arda şartlara bağlayan talepleri, eşiği basamak basamak yükseltir: yerden bir kaynağın fışkırması (17:90), kesinliği olmayan iddia ve yeni olağanüstü şartlar (17:92), göğe yükselme ve okunabilir kitap isteği (17:93). Her talep kabul ölçüsünü daha dar bir koşula bağlar. {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} ile 17:83'te görülen tepkiler, eylemi kişisel yolun çıktısı gibi duyurur; bu talepler de kabul alanını sınırlayan bir tutum örneği olur. Hayvanı bağlayıp hareketini kısıtlama imgesi, kişisel çizgiyi taşıyan {ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} ile şartlar arasında kanal benzetmesi kurar: hangi kanıtın içeri alınacağı önceden daraltılır. Bağ mecazidir; bu bağlantı yalnızca bu konuşmalardaki şartlara aittir ve taktik pazarlık olabilir, kalıcı bir kişilik örüntüsü olmak zorunda değildir.
+
+Davranıştaki tekrar, benzer türleri anlatan ayrı bir kullanımla aydınlanır. Başka bir bağlamdaki {ar:شَكْلِهِۦ, tr:shaklihi, gloss:benzeri; türü} ifadesi benzer biçimleri anlatır (38:58); bu yankı, {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı}nın eylemde yinelenen bir örüntü olarak duyulmasına katkı verir. Odaktaki ad yine kişinin kendi yolunu ve yaradılışını taşır; benzerlik, tekrarlanan davranışa açılan çağrışım olarak kalır.
+
+Benzerlik bu kez toplu üretim ve alımlamayı birlikte sınar. İnsanlarla cinlerin bir araya gelmesi, Kur'an'ın benzerini ortaya koyma sınamasının kolektif yanını kurar (17:88); örneklerin değiştirilmesi sunum biçimini çeşitlendirir, buna karşın çoğunluğun gerçeği örtmesi (17:89) değişen sunumun tek başına alımlamayı dönüştürmediğini gösterir. Bu iki katkı, {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı} fikrini kolektif üretim ve karşılık alanına taşır. Sonuç, yalnızca bu vahyin benzerini üretme sınamasıyla sınırlıdır; ret kalıcı bir alımlama huyundan ziyade ahlaki tercih de olabilir.
+
+## Biçim, Oluşum ve Değişim
+
+Toplu üretim sınamasından sonra dikkat, mesajı kimin hangi biçimde alacağına döner. İnsanlar insan bir elçiyi reddeder; yeryüzünde yürüyüp yerleşik yaşayacaklar melekler olsaydı onlara melek bir elçi gönderileceği cevabı verilir (17:94, 17:95). Yürüme ve yerleşiklik alıcıların bedenî yaşayışını ve kalıcı meskenini kurar; melek elçi ise gönderici tarafının biçimini belirler. Bu eşleşme, görünüş, tür ya da davranıştaki uygunluğu anlatan {ar:ٱلْمُشَاكَلَة, tr:al-mushākalah, gloss:biçimsel uygunluk} kullanımını etkinleştirir: rehberliğin muhatabın yaşayışına uygun biçimde iletilmesi de duyulur. Bu bağ, söz konusu itiraza verilen koşullu cevaba aittir; odaktaki {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı} kişisel yönelim anlamını korur ve kimin daha iyi yöneldiği kıyasının yerini almaz. Yerde yürüme ve yerleşme, {ar:أَهْدَىٰ, tr:ahdā, gloss:daha iyi yönelmiş} ile {ar:سَبِيلًا, tr:sabīlan, gloss:yol} arasındaki bağı bedenli bir seyir gibi duyurur; bu sahne belirli bir güzergâh seçmez ve hidayetin bütün kullanımlarını yürüyüş olarak tanımlamaz.
+
+Ataların izlerini izleyip bunu doğru yol sayanların sahnesi (43:22), kişisel çizginin kaynağına miras alınmış bir gidiş olasılığını ekler. {ar:عَلَىٰ, tr:ʿalā, gloss:üzerinde; üzere} ile {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı} ilişkisinde davranış, önceki izlerin açtığı bir kanal boyunca sürebilir; hayvan bağı benzetmesi bu izlerin hareketi kısıtlayabilmesini görünür kılar. Bu, mirasın kişisel yolu etkileyebileceği özel bir bağlantıdır; 17:84 kişisel yapıyı her durumda kalıtım ya da zorlama olarak tanımlamaz.
+
+İç kuruluş başka bir oluşum olasılığı açar: biçimlendirilmiş nefs ve ona fücur ile takvanın ilham edilmesi (91:7, 91:8), {ar:شَاكِلَتِهِۦ, tr:shākilatihī, gloss:kendi kişisel tarzı} ile eylemi içsel yapıda buluşturur. Bu sahneyle temas eden {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} için söz ailesindeki “işe yatkın, çalışmaya elverişli olma” kullanımı, eylemin kişinin yapısı ve kapasitesine uygun düşebileceğini hafifçe duyurur. Bu, odaktaki çekimli fiile eşlik eden bir yatkınlık yankısıdır; sıfat veya deveye özgü anlam fiile aktarılmaz. Bağlantı meslek, toplumsal mevki ya da kaçınılmaz doğuştan yazgı belirlemez.
+
+İç örüntünün değişebilirliği de bu oluşum ihtimallerine katılır. Bir topluluğun hâli, içindekini değiştirmesiyle ilişkilendirilir (13:11); nefsini arındırmanın kurtuluşa, onu bozmanın kayba bağlanması (91:9, 91:10) bu iç karşılıkların sonuçlarını ayrı ayrı gösterir. Birlikte okunduklarında, {ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} ile örüntülü eylem değişime kapalı değildir. Bu bağlantılar hangi etkenin bir kişinin yolunu belirlediğini ya da değişimin nasıl işlediğini saptamaz; her bireyin mutlaka değişeceğini de ileri sürmez. Doğuştan yapı, yaşantı ve miras olasılıkları açık kalır.
+
+## Bilginin Alanı
+
+Ruhun Rabbin emrinden olduğu ve insanlara bilgiden ancak az bir pay verildiği bildirimi (17:85), {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi bilen} karşısında insan bilgisinin sınırını belirginleştirir. Görünür davranış, kişinin gizli kaynağı ve tam yönelişi hakkında ancak kısmi bir iz sunar. {ar:ٱلرُّوحِ, tr:ar-rūḥ, gloss:ruh} görünen işin yanında kalan iç kaynağı, {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz} ve bilgi hükmü ise bu kaynağın ve tam değerlendirmenin Rabbe ait oluşunu düşündürür. Bu sınırın kapsamı açık kalır: 17:85 yalnız ruh bilgisini sınırlıyor olabilir; bu okuma insanın davranış üzerine her türlü yargısını geçersiz kılmaz ve Rabbin kimin daha iyi yöneldiğini bildiği hükmünü kaldırmaz.
+
+Rabbin içtekileri bilmesi (17:25, 67:13), işitme, görme ve kalbin sorumluluğu (17:36), ardından insanların yaptıklarının ortaya konması (24:64), {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi bilen} hükmünü iç hâl ile yaşanmış eyleme birlikte bağlar. İlk iki sahne gizli yönelimi ve kişinin sorumlu olduğu duyuları, sonuncusu ise yapılan işlerin açığa çıkmasını öne çıkarır. Davranış bu bilgide önemini korurken Rabbin kişi hakkındaki bilgisi görünenden fazlasını kapsar; tanıklık ve görme bu alana ayrı bir sahneden yaklaşır.
+
+Uyuşmazlık için yeterli tanıklık (17:96), şahitliğin yeterliliğini kurar; taraflar arasında doğrudan şahitlik, kullar hakkındaki iç bilgi ve onları görme ise bu tanıklığın erişimini açar. İç bilgi saklı yönelişi, görme dışa vuran eylemi kapsar. Bu katkılar {ar:أَعْلَمُ, tr:aʿlamu, gloss:en iyi bilen} yüklemiyle buluşunca {ar:سَبِيلًا, tr:sabīlan, gloss:yol} kıyasının iç ve dış yanlarını birlikte değerlendirebilen bir zemin belirir. 17:96 bu mesajı kendi bağlamında bağımsız olarak da doğrulayabilir; 17:84'teki yol kıyasının tek açıklaması değildir.
+
+{ar:رَبّ, tr:rabb, gloss:Rab; yetiştirip yöneten} unvanı sahiplik, buyruk yetkisi, yönetme ve düzenlemeyi bir arada taşır; mutlak ilahi unvan Tanrı'ya özgüdür. Odaktaki {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz}, çoğul muhataplarla ilişkili biçimiyle bilgi cümlesinin öznesidir. Rabbin içtekileri bilmesi ve hidayetin Rabbe yönelmesi (17:25, 79:19), kıyasın kaynağını hem bilen hem yön veren bir ilişki olarak duyurur. Bu ilişki Rabliği yalnız mülkiyet olarak okumaz; aynı zamanda herhangi bir kişinin gidişinin önceden belirlendiğini söylemez.
+
+Rab adının gözetileni eksik durumdan tamamlanmaya adım adım yetiştirme kullanımı, bilgi ve eylem ilişkisine olası bir özen ufku ekler. {ar:رَبُّكُمْ, tr:rabbukum, gloss:Rabbiniz}, bağımsız {ar:يَعْمَلُ, tr:yaʿmalu, gloss:iş görür} eylemi ve {ar:شَاكِلَة, tr:shākila, gloss:kişisel tarz} örüntüsüyle buluşunca kişisel yöneliş Rabbin bilgisi altındaki bir bakım ilişkisi gibi duyulur. Bu olası çağrışım insanî sahiplik anlamı taşımaz ve belirli bir gelişim süreci, zaman çizgisi ya da garanti edilmiş sonucu bildirmez.
+
+Vahyin çevresindeki merhamet ve yetki, Rablik çerçevesine ayrı bir boyut ekler. Önsözdeki besmele merhameti vurgular (S:0); vahyin geri alınabilmesi Rabbin yetkisini gösterir (17:86); ardından gelen rahmet ve büyük lütuf eldeki vahyi merhamet ufkunda duyurur (17:87). Böylece yönü bilen Rab ile elçiye verilen vahyin bulunması aynı bağlamda buluşur. Bu bağlantı özellikle elçiye verilen vahye aittir; her insan eyleminin belirlendiğini ya da merhametin kişisel eylemin yerine geçtiğini ileri sürmez.
+
+## İstenen İstikamet
+
+17:84'te {ar:أَهْدَىٰ, tr:ahdā, gloss:daha iyi yönelmiş} kimin daha iyi yöneldiğini kıyaslar, {ar:سَبِيلًا, tr:sabīlan, gloss:yol} ise değerlendirmenin güzergâhını kurar. Fâtiha'nın “bize yol göster” duası doğru yönü gösterme ve ilahi destek boyutunu dile getirir (1:6); nimete erenlerin yolunu anar (1:7). Buradaki {ar:ٱهْدِنَا, tr:ihdinā, gloss:bize yol göster} ortak dileği, Rabbin bildiği yönü okurun da istediği istikametin yanına getirir. {ar:سَبِيلًا, tr:sabīlan, gloss:yol} yürünüp izlenen ya da amaca ulaştıran güzergâhtır; dinî doğruluk yolu anlamı belirli kullanımlarda belirir. Nimete erenlerin yolunu adlandıran ayrı {ar:ٱلصِّرَٰطَ, tr:aṣ-ṣirāṭ, gloss:dosdoğru yol} sözü (1:7), sabīl ile sözlükçe özdeş değildir. Bu yerel yankı bir alıntı ya da Fâtiha'nın tüm temasının aktarımı değil, Rabbin değerlendirdiği güzergâhı okurun birlikte istediği yönelişle yan yana getiren bir yakınlıktır.
+
+</editorial_prose>

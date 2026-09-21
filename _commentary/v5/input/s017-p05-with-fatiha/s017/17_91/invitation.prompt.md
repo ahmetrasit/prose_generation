@@ -1,0 +1,179 @@
+# V5 reading invitation — 17:91
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p05-with-fatiha/s017/17_91/17_91.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p05-with-fatiha/s017/17_91/17_91.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Koşulun Kurduğu Bahçe
+
+17:91, {ar:أَوْ, tr:aw, gloss:yahut} ile yeni bir seçenek açar: {ar:تَكُونَ, tr:takūna, gloss:olması} {ar:لَكَ, tr:laka, gloss:senin için} {ar:جَنَّةٌ, tr:jannatun, gloss:bir bahçe}; bu bahçe {ar:مِنْ, tr:min, gloss:-den} {ar:نَّخِيلٍ, tr:nakhīlin, gloss:hurma ağaçları} ve {ar:عِنَبٍ, tr:ʿinabin, gloss:üzüm} ile kurulsun, ardından muhatap ırmakları bahçenin iç aralıklarından fışkırtıp akıtsın. {ar:فَ, tr:fa, gloss:ardından} ile başlayan su eylemi, ürünleri sayan öbekten yeni bir talep cümlesine geçirir. Böylece ayet gerçekleşmiş bir nimeti bildirmek yerine, bahçe ile içinden geçirilecek ırmakları aynı önerilmiş koşulda buluşturur. Başlangıçtaki «yahut» bu seçeneği önceki talebe bağlar; iki koşul arasındaki ilişkinin tam biçimi burada belirlenmez.
+
+{ar:تَكُونَ, tr:takūna, gloss:olması} burada bahçenin olağan biçimde var olmasını koşula bağlar; sözcük ailesinin başka anlamlarına geçmek için ayrıca dayanak gerekir. Belirsiz, tekil ve nominatif {ar:جَنَّةٌ, tr:jannatun, gloss:bir bahçe}, koşulun gecikmiş öznesi olarak önerilen bahçeyi tanıtır; önceki bir mülkü işaretlemez. {ar:لَكَ, tr:laka, gloss:senin için} öbeğinin öne alınması yararlanıcıyı erkenden belirginleştirir; bu vurgu münhasır sahiplik iddiasından daha dardır. Mansub biçim önerilen koşula bağlı var oluşu taşır; gerçekleşme, kesin gelecek ve muhatabın yapabilme gücü bu biçimden tek başına çıkarılamaz.
+
+Gecikmeli {ar:مِنْ, tr:min, gloss:-den} öbeği bahçenin içeriğini açar: hurma ağacı kitlesini bildiren {ar:نَّخِيلٍ, tr:nakhīlin, gloss:hurma ağaçları}, {ar:وَ, tr:wa, gloss:ve} ile {ar:عِنَبٍ, tr:ʿinabin, gloss:üzüm}e bağlanır. Bu çift hem bahçenin içeriğini hem de bahçeyi hurma ve üzümle açıklayan bir okumayı taşır; ürün öbeği {ar:فَ, tr:fa, gloss:ardından} ile kapanır ve ardından gelen ırmak cümlesine geçer. Hurma adı tek tek gövdelerden çok kolektif ekimi, üzüm sözü ise öncelikle meyveyi belirtir; asma anlamı ad aktarımıyla oluşur. Eşgüdüm iki ürünü aynı ekili manzaraya yerleştirir, miktar, değer, yoğunluk ya da lüks derecesini belirlemez.
+
+## Bahçenin İçinden Akan Su
+
+Ürün çiftinden sonra {ar:فَ, tr:fa, gloss:ardından}, bahçenin var olma koşulunu suyu akıtma talebine bağlar. Mansub biçimdeki II. bâb fiili {ar:تُفَجِّرَ, tr:tufajjira, gloss:fışkırtıp akıtman}, eylemi muhataba yöneltir: {ar:لَكَ, tr:laka, gloss:senin için} bahçeden yararlanacak kişiyle suyu yarıp akıtması istenen kişiyi aynı muhatapta birleştirir. Böylece talebin odağı hazır su değil, muhataba verilen etkin roldür; cümle bu rolü bildirir, eylemin gerçekleştiğini veya bağımsız kapasiteyi değil.
+
+Belirli kırık çoğul {ar:ٱلْأَنْهَٰرَ, tr:al-anhāra, gloss:ırmakları}, fiilin doğrudan hedefidir. Belirlilik önceden sözü edilmiş tek bir ırmağı varsaymaz, ırmaklar sınıfını öne çıkarır; çoğul biçim çoklu akış yataklarını düşündürürken sayılarını açık bırakır. Sahnenin suyu yataklarında ilerleyen doğal ırmaklardır. Irmak adının ihtiyatlı açma ya da genişletme yönü, yarıp akıtan fiille temas ederek güzergâhların açılması yankısını güçlendirir; bu özel temas içinde ırmak anlamı temel kalır. Cümle sonundaki {ar:تَفْجِيرًا, tr:tafjīran, gloss:fışkırtma}, aynı II. bâb eylem adını yineleyerek istenen işi vurgular ve kapanışı su hareketinde tutar. Nesne ve cümle kuruluşu burada fiziksel akışı sabitler; ahlaki bozulma anlamı bu kullanıma dayanmaz.
+
+Güzergâhı {ar:خِلَٰلَهَا, tr:khilālahā, gloss:bahçenin aralarından} belirler: sözcük nesneler ve bölümler arasındaki fiziksel boşlukları anlatır; sonundaki dişil tekil zamir {ar:جَنَّةٌ, tr:jannatun, gloss:bahçe}ye dönerek bu aralıkların yerini saptar. Irmaklar bahçenin yanından değil, ağaçlar arasından geçer; boşluklar suyun içeri girip ilerlediği geçitlere dönüşür. Böylece cümle akışı yalnızca bahçe alanına yerleştirmez, içeriden izlenebilir bir rota verir. Kaynaklarda bu güzergâhın kullanım sıklığına ilişkin sayım bulunmadığından, belirginlik cümlenin seçtiği iç yoldadır; yazar niyeti bu veriden çıkarılamaz.
+
+İç yolun işleyişi katkılar birlikte izlendiğinde belirir: bahçe zemini ekim alanını sınırlar; hurma ile üzüm alanın ekili içeriğini kurar; {ar:تُفَجِّرَ, tr:tufajjira, gloss:fışkırtıp akıtman} suya geçit açar; ırmaklar bu geçitlere akış verir; {ar:خِلَٰلَهَا, tr:khilālahā, gloss:bahçenin aralarından} rotayı ürünlerin arasından geçirir. Bu parçalar, suyun ekili alanı katettiği sulama düzeni gibi işleyen bir bahçe tasavvuru kurar; su ürünlerin yanındaki zenginlik olarak kalmayıp bahçenin içinden geçen kaynak olur. Bu işlev ürün-su ilişkisinden çıkar; somut bir altyapı veya tarım planı anlatımı değildir. Hurma ağaçlarının karma bahçede kalıcı bir katman oluşturması ve iç akışın üzümü beslemesi olası işlevlerdir; ayet bunları botanik özellik ya da tarım kuralı olarak belirlemez. Buradaki {ar:جَنَّةٌ, tr:jannatun, gloss:bahçe} olağan yeryüzü bahçesidir; cennet ya da önceden bilinen belirli bir bahçe olarak tanımlanmaz.
+
+Ekili zeminin kuruluşu, {ar:جَنَّةٌ, tr:jannatun, gloss:bahçe} sözcüğünün örtme ailesiyle de temas eder. Hurma ve üzüm taçları toprağı fiziksel olarak örter; gölge, aralardan akan suyu izlenebilir bir ekim alanının içine yerleştirir. Böylece sözcük ailesinin örtme yönü olağan bahçe anlamını korurken su yoluna gölgeli bir iç mekân kazandırır. Buradaki örtü ağaç taçlarının fiziksel etkisidir; gizli bir fail ima etmez.
+
+Gölge ve su sahnesi, aynı sözcük ailesinin ayrı tan vakti kullanımıyla bir ışık yankısı kazanır. {ar:تُفَجِّرَ, tr:tufajjira, gloss:fışkırtıp akıtman} ile {ar:تَفْجِيرًا, tr:tafjīran, gloss:fışkırtma} burada suyu yarıp akıtır; ailedeki tan kullanımı ise ışığın karanlığı yararak belirmesini taşır. {ar:ٱلْأَنْهَٰرَ, tr:al-anhāra, gloss:ırmakları}nın temel anlamı ırmaklardır; gündüzün tan yerinden gün batımına uzanan aydınlık dönem anlamı bu belirli çoğul biçimle yalnızca biçimsel uyum kurar. Hurma ve üzüm taçlarının gölgesi, tanın karanlığı yarması ve gündüzün açılması birlikte bahçeyi şafaktan gündüze taşıyan bir zaman görüntüsü oluşturur; bu yankı fiziksel ırmak okumasını korur.
+
+Bahçenin içindeki çoklu akış, hemen önceki tekil kaynak isteğiyle yan yana gelince talebin ölçeğini değiştirir. 17:90'da konuşanlar yerden kendileri için bir {ar:يَنۢبُوعًا, tr:yanbūʿan, gloss:pınar} ister; 17:91'de {ar:لَكَ, tr:laka, gloss:senin için} yararlanıcıyı değiştirir ve ürünlü {ar:جَنَّةٌ, tr:jannatun, gloss:bahçe}nin içinden {ar:ٱلْأَنْهَٰرَ, tr:al-anhāra, gloss:ırmakları} akıtmayı ister. Ardışıklık tek kaynaktan, ürünlü bahçeye yayılan çoklu kanallara doğru bir ölçek değişimi önerir. Bu, iki ayrı su talebi arasındaki karşılaştırmadır: aynı kaynak ya da olay kurulmaz; ayrı ve eşdeğer istekler olarak okunmaları da mümkündür. Her iki sahnede de su olağan pınar ve ırmak anlamındadır.
+
+Bahçe içindeki {ar:خِلَٰلَهَا, tr:khilālahā, gloss:bahçenin aralarından} ilişkisi, 27:61'de yeryüzü ölçeğinde yeniden belirir: {ar:ٱلْأَرْضَ, tr:al-arḍa, gloss:yeryüzünü} anan {ar:خِلَٰلَهَآ أَنْهَٰرًا, tr:khilālahā anhāran, gloss:aralarından ırmaklar} düzeni, ırmakların aralıklardan geçişini görünür kılar. Bu daha geniş örüntü, 17:91'deki özel bahçeyi kanallı arazinin küçük bir karşılığı gibi duyurur; odaktaki ırmaklar da bahçenin yanından değil, içinden geçer. Bağlantı ortak sözcük ve mekânsal ölçektedir: biçim ayrıntıları ayrı kalır, bahçe yeryüzüyle özdeşleşmez ve iki sahne aynı olay ya da faili kurmaz.
+
+## Maddi İşaret ve Vahiy
+
+Elçinin yeterliğini maddi işaretle sınama düşüncesi, iki ayrı bahçe sahnesinde farklı biçimler alır. 25:8'de itiraz edenler elçinin yiyebileceği bir bahçeyi onun izlenmesi için beklenen bir şart gibi öne sürer: {ar:تَكُونُ لَهُۥ جَنَّةٌ يَأْكُلُ مِنْهَا, tr:takūnu lahu jannatun yaʾkulu minhā, gloss:ona ait ve içinden yiyeceği bir bahçe}. 25:10'da ise {ar:إِن شَاءَ جَعَلَ لَكَ خَيْرًا مِّن ذَٰلِكَ, tr:in shāʾa jaʿala laka khayran min dhālika, gloss:dilerse sana bundan hayırlısını verir} sözüyle koşullu armağan açılır ve {ar:جَنَّٰتٍ تَجْرِي مِن تَحْتِهَا ٱلْأَنْهَٰرُ, tr:jannātin tajrī min taḥtihā l-anhāru, gloss:altlarından ırmaklar akan bahçeler} bu armağanın suyla zenginleşen biçimini verir. Bu iki bağlam, 17:91'deki {ar:لَكَ, tr:laka, gloss:senin için} bahçeyi ve muhatabın {ar:تُفَجِّرَ, tr:tufajjira, gloss:fışkırtıp akıtman} eylemini maddi yeterlik talebiyle birlikte duyurur: biri elçinin yiyeceği bahçeyi, diğeri koşullu bağışı öne çıkarır. Koşullu oluş armağanı kesin bir yetki ya da güvenceye dönüştürmez; bu sahneler odağın devamı değil, benzer soruyu kendi bağlamlarında kuran ayrı örneklerdir.
+
+Bahçenin ürünleri, ekili manzarayı tüketim ve rızık imgesine taşır. 16:67 hurma ve üzüm meyvelerinden {ar:سَكَرًا وَرِزْقًا حَسَنًا, tr:sakaran wa-rizqan ḥasanan, gloss:sarhoş edici içecek ve güzel rızık} elde edilmesini anar; ürün çifti böylece görünür ekimden hasat ve farklı kullanımlara açılır. Bu bağlam mahsulün kullanım alanlarını gösterir, 17:91'deki muhataba kullanım buyruğu vermez. Aynı sözcük ailesinin iyilikte ve vermede taşarcasına bolluk bildiren ayrı kullanımı belirli kalıplarla sınırlıdır; 25:10'daki koşullu bağış ve 16:67'deki rızık bu yönü duyurabilir, odaktaki fiil ile eylem adı ise bu kalıpların doğrudan karşılığı değildir. 76:6'da Allah'ın kullarının içtiği pınar güçlü biçimde akıtılır: {ar:يُفَجِّرُونَهَا تَفْجِيرًا, tr:yufajjirūnahā tafjīran, gloss:onu güçlü biçimde fışkırtırlar}. Bu ayrı su sahnesi kök yankısını yeniden fiziksel akışta tutar ve onu içilebilir su ile rızka bağlar.
+
+Bahçedeki ışık yankısı, 17:78'de tan vaktinde okunan ve tanıklık edilen {ar:قُرْءَانَ ٱلْفَجْرِ, tr:Qurʾāna al-fajri, gloss:tan vakti Kur'anı} ile vahiy zamanına bağlanır. 17:82 Kur'anı {ar:شِفَآءٌ, tr:shifāʾun, gloss:şifa} ve {ar:رَحْمَةٌ, tr:raḥmatun, gloss:rahmet} olarak sunar; 17:93'te konuşanlar kendilerinin okuyacağı bir kitap ister: {ar:تُنَزِّلَ, tr:tunazzila, gloss:indirmen}, {ar:كِتَٰبًا, tr:kitāban, gloss:bir kitap} ve {ar:نَّقْرَؤُهُ, tr:naqraʾahu, gloss:onu okuyacağımız}. Birlikte, tanıklık edilen ve yarar sağlayan vahyi, okunabilir nesne talebini ve 17:91'in fiziksel su işaretini kanıt tartışmasının farklı yüzleri olarak yan yana getirirler. Bu karşılaştırma vahiy ile suyu aynı işaret yapmaz; dizi bağımsız mucize tasvirleri olarak da okunabilir.
+
+## Elçi ve Talepler Dizisi
+
+Bahçenin koşullu oluşu ve su eyleminin ikinci tekil kişiye yönelmesi, maddi işareti isteyenden elçiye etkin bir rol yükler. {ar:تَكُونَ, tr:takūna, gloss:olması} bahçenin var olmasını, {ar:لَكَ, tr:laka, gloss:senin için} onun muhataba ayrılmasını, {ar:تُفَجِّرَ, tr:tufajjira, gloss:fışkırtıp akıtman} ise iç akışı muhatabın gerçekleştirmesini ister. Bu, talep edilen roldür; cümle elçinin bağımsız kapasitesini belirlemez ve Allah'ın elçi aracılığıyla eylemesi olasılığını açık bırakır. 17:86'da Allah'ın vahyi geri alabilmesi ve buna karşı {ar:وَكِيلًا, tr:wakīlan, gloss:vekil ya da koruyucu} bulunmaması, kaynak ile taşıyıcı arasındaki ayrımı korur. 17:93'teki göğe yükselme ve okunabilir kitap talepleri, elçiden beklenen işaretleri genişletir; 17:94'te itiraz, {ar:ٱلْهُدَىٰ, tr:al-hudā, gloss:hidayet} insanlara geldiğinde Allah'ın {ar:بَشَرًا رَّسُولًا, tr:basharan rasūlan, gloss:insan bir elçi} gönderip göndermediği sorusuyla insan elçiye yönelir. Böylece hidayet mesajı ile fiziksel su işareti, elçiyle kurulan talep ilişkisinde yan yana gelir; bu bağlantı iki anlamı özdeşleştirmez.
+
+Bu elçi talebinin eşiği, 17:89'dan 17:93'e uzanan ret ve yeni koşullar dizisinde ileri taşınır. 17:89'da örneklerin ardından {ar:فَأَبَىٰ, tr:fa-abā, gloss:reddetti} ve {ar:كُفُورًا, tr:kufūran, gloss:inkâr ve nankörlük} gelir; 17:91'deki {ar:أَوْ, tr:aw, gloss:yahut} ile açılan bahçe bu dizide yeryüzüne ait yeni bir seçenek olarak belirir. 17:92'de gökten {ar:كِسَفًا, tr:kisafan, gloss:parçalar halinde} düşmesi istenir; 17:93'te {ar:تَرْقَىٰ, tr:tarqā, gloss:yükselmen} ve {ar:رُقِيِّكَ, tr:ruqiyyika, gloss:yükselişin} talebi bakışı göğe taşır. Ardından {ar:نُؤْمِنَ, tr:nuʾmina, gloss:inanmamız} ertelenir ve {ar:حَتَّىٰ, tr:ḥattā, gloss:-e kadar} okunabilir kitap koşulunu getirir. Böylece bahçe, gökten düşen parçalardan göğe yükselişe ve kitaba uzanan talepler içinde ara bir durak olur; inanç eşiği kitap şartına kadar ileri taşınır. Bu sıralı okuma birikimli ve samimi bir şartname olasılığını da dışlamaz.
+
+Bahçenin ağaç örtüsü, ret dizisindeki gizlilik temasına ayrı bir görsel katkı yapar. 17:88'deki {ar:ٱلْجِنُّ, tr:al-jinnu, gloss:cinler ve görünmeyen varlıklar} insan duyularından gizli varlıkları anarak görünmeyen ile görülebilir kanıt arasında bir karşıtlık kurar; 17:89'daki ret ve örtme teması bu gerilimi sürdürür. Odağın {ar:جَنَّةٌ, tr:jannatun, gloss:bahçe}si ile {ar:نَّخِيلٍ, tr:nakhīlin, gloss:hurma ağaçları} örtüsü yan yana gelince, önceki işaretlerin üstüne yeni bir kanıt katmanı ekleniyormuş gibi duyulur. Bu bağ, sözcük özdeşliğine değil örtü ve gizlilik motiflerinin buluşmasına dayanır; talepte bulunanların samimiyeti hakkında yargı taşımaz.
+
+17:91'deki {ar:جَنَّةٌ, tr:jannatun, gloss:bahçe}, {ar:ٱلْأَنْهَٰرَ, tr:al-anhāra, gloss:ırmakları} ve {ar:خِلَٰلَهَا, tr:khilālahā, gloss:bahçenin aralarından} görünür bir iç akış kurar; 17:96 ise {ar:كَفَىٰ, tr:kafā, gloss:yeter} ve {ar:شَهِيدًا, tr:shahīdan, gloss:tanık} ile Allah'ı yeterli tanık olarak sunar. {ar:خَبِيرًا, tr:khabīran, gloss:içten haberdar} iç durumun bilindiğini, {ar:بَصِيرًا, tr:baṣīran, gloss:gören} görmenin de bu tanıklığa eşlik ettiğini belirtir. Böylece görsel işaret talebinin bakışı, işareti isteyenleri zaten gören ve bilen tanığa döner. Bu ilişki güdüleri teşhis etmez; 17:96 genel bir tanıklık bildirimi olarak da okunabilir.
+
+Bahçenin muhataba tahsisi ve suyu akıtma rolü, istekler dizisini yetki ve mülk yönünde genişletir. 17:80'deki {ar:سُلْطَٰنًا, tr:sulṭānan, gloss:yetki ve otorite} bu dizinin yetki boyutunu sağlar; 17:91'deki kişisel yararlanma ve iç akış, bahçe ölçeğinde maddi denetimi görünür kılar. 17:92'de {ar:ٱلْمَلَٰٓئِكَةِ, tr:al-malāʾikati, gloss:melekler} topluca istenir; 17:93'te {ar:بَيْتٌ, tr:baytun, gloss:ev} ve {ar:زُخْرُفٍ, tr:zukhrufin, gloss:altın ve süs} mesken talebine gösterişli bir boyut katar, göğe yükselme de ölçeği büyütür. Okunabilir kitap ise bu mülk isteklerinden ayrı olarak kanıt talebini sürdürür. Bu, istekler dizisinin rolüne dayalı keşifsel bir okumadır; bahçe ve melekler kendi olağan anlamlarında kalır, tek tek sözcükler hükümranlık iddiasına dönüşmez.
+
+Başka bahçe sahneleri, bereket ile kalıcılık arasındaki ilişkiyi sınar. 2:266'da hurma ve üzümle kurulu, altından ırmaklar akan ayrı bir bahçe ateşli kasırgayla yanar. 18:35'te bir bahçenin sahibi onun {ar:تَبِيدَ, tr:tabīda, gloss:yok olması} ihtimalini sonsuza dek reddeder gibi konuşurken, 18:42'de başka bir bahçe {ar:خَاوِيَةٌ عَلَىٰ عُرُوشِهَا, tr:khāwiyatun ʿalā ʿurūshihā, gloss:çardakları üzerine çökmüş halde} görünür. Yanma ve çöküş imgeleri sahiplikten süreklilik çıkarmayı güçleştirir; bunlar 17:91'deki bahçenin geleceğini anlatan olaylar değil, bahçe bereketinin kalıcılık güvencesi olmadığını gösteren ayrı sahnelerdir.
+
+Su sahnesinin ölçeği, göğün kapılarının sağanakla açıldığı 54:11 ve yeryüzünden pınarların fışkırıp suların buluştuğu 54:12 ile büyür. Bu iki hareket gök ve yeryüzü sularını birlikte açığa çıkarırken, 17:91 belirli bir bahçenin iç kanallarına yönelir; karşılaştırma, odağın sulama rolünü daha geniş su salımından ayırır. 54:11 ve 54:12, 17:91'de taşkın öngörmez veya aynı faili kurmaz; odaktaki istek bahçe içindeki akışla sınırlıdır.
+
+</editorial_prose>

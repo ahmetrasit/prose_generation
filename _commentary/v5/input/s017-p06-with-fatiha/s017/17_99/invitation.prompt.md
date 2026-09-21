@@ -1,0 +1,199 @@
+# V5 reading invitation — 17:99
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p06-with-fatiha/s017/17_99/17_99.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p06-with-fatiha/s017/17_99/17_99.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Görme ve Yaratılış
+
+{ar:أَوَلَمْ يَرَوْا۟, tr:a-wa-lam yaraw, gloss:görmediler mi} sorusu, muhatapları önlerindeki delili hesaba katmaya çağıran bir sitemle açılır; yaratılış önermesi bu çağrının yerine geçmez, ona zemin verir. {ar:لَمْ, tr:lam, gloss:geçmişi olumsuzlayan edat} görme fiilini cezm ederek daha önce gerçekleşmemiş bir fark edişi geriye dönük baskı altında kurar: delil sunulmuş, fakat görülüp değerlendirilmemiş olabilir. Soru bu kaçırmayı öne çıkarırken her kişinin geçmiş algısı veya saiki hakkında hüküm vermez. {ar:يَرَوْا۟, tr:yaraw, gloss:görürler} fiziksel görmeyi korur; ardından gelen olgu cümlesi fiilin düşünme ve yargıya varma yönünü de etkinleştirir.
+
+16:48'deki {ar:أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ, tr:a-wa-lam yaraw ilā mā khalaqa llāhu, gloss:Allah'ın yarattığı şeylere bakmadılar mı} çağrısı gözün yaratılmış olana yönelmesini canlı tutar (16:48). Orada gölgelerin secde eder gibi hareket etmesi de 16:48'in kendi imgesidir; bu sahne burada göklerin ve yerin yaratılışına eklenmez. 17:99'da ise görülen şey, görme fiilinin içeriğini kuran olgusal önermedir: {ar:أَنَّ, tr:anna, gloss:olguyu bildiren ki} tamamlanmış yaratılışı bildirirken, kudretin yöneldiği eylemi açan {ar:أَنْ, tr:an, gloss:-meyi} başka bir görev üstlenir. Böylece bakış fiziksel algıdan kopmadan olguyu düşünerek hükme varmaya uzanır; odak, herkesin bütün âlemleri bizzat gördüğünü değil, yaratılmış çiftin değerlendirilebilir bir delil olduğunu söyler. Ortak soru kalıbı dilbilgisel yapıları özdeş kılmaz: 16:48 bakışı yaratılmış olana yöneltir, 17:99 ise olguyu görmenin içeriğine alır.
+
+Olgu cümlesindeki {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} özel adı yaratma, kudret ve vade bildirimlerini aynı ilahi faile bağlar. Onu izleyen {ar:ٱلَّذِى, tr:alladhī, gloss:ki O} ilgi zamiri yaratılış fiilini doğrudan bu ada bağladığından, tamamlanmış {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} eylemi arka plan değil, kudret çıkarımının öncülü olur. Çoğul {ar:ٱلسَّمَٰوَٰتِ, tr:as-samāwāti, gloss:gökler} üstte bulunan gökleri, hatta sözlükteki “üstteki örtü” kullanımını çağırır; tekil {ar:ٱلْأَرْضَ, tr:al-arḍa, gloss:yeryüzünü} ise tanıdık alt zemini verir. {ar:وَ, tr:wa, gloss:ve} iki ayrı nesneyi aynı tamamlanmış yaratma yüklemine bağlar; gökler ve yer birlikte kozmik genişlik kurarken tek nesneye dönüşmez. Bu bağlantıdaki yüksek-alt imgesi çiftin kozmik konumunu anlatır; yağış süreci veya belirli bir gök kubbe açıklaması bu okumaya ait değildir.
+
+Bu gerçekleşmiş yaratılıştan kudrete geçişi etkin ortaç {ar:قَادِرٌ, tr:qādir, gloss:gücü yeten} kurar. Tamamlayıcısı {ar:عَلَىٰٓ أَنْ يَخْلُقَ, tr:ʿalā an yakhluqa, gloss:yaratmaya gücü yetmek}, kudreti hemen ardından gelen belirli işe, muhatapların benzerlerini yaratmaya yöneltir. {ar:عَلَىٰ, tr:ʿalā, gloss:-e gücü yetmek} edatı bu kapsamı belirler; eylemin gerçekleştiğini değil, ona yeten kudreti bildirir. Buradaki {ar:أَنْ, tr:an, gloss:-meyi} muzari fiili mansup bir eylem tamamlayıcısı yapar; ilk cümledeki {ar:أَنَّ, tr:anna, gloss:olguyu bildiren ki} ise tamamlanmış yaratılışı olgu olarak sunar. Böylece ilk yaratış gerçekleşmiş öncül, ikincisi kudretin yöneldiği mümkün eylem olur: aynı kök iki ayrı zaman ve işlemde birbirine delil verir.
+
+{ar:قَادِرٌ, tr:qādir, gloss:gücü yeten} için tanınan miktar ve erişilen ölçü kullanımı, yaratılmış gök-yer çiftinin kurduğu düzenle karşılaşınca kudreti oranı ve sınırı olan bir yetkinlik gibi duyurur; ortaç yine ölçme eylemi bildirmez. Benzer biçimde, yaratma kökünün bir şeyi var etmeden önce ölçü ve sınırlarını belirleme yönü, tamamlanmış {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} ile mümkün {ar:يَخْلُقَ, tr:yakhluqa, gloss:yaratması} eylemlerini kudret ve {ar:مِثْلَهُمْ, tr:mithlahum, gloss:onların benzeri} nesnesiyle yan yana bulunca biçimi belirlenmiş bir yaratış yankısı doğurur. Bu eşlikçi anlam olağan “yaratma”yı korur; ham üretim yerine sınırları olan biçim fikrini de duyurur.
+
+Dışarıdaki benzer ifadeler bu çıkarımın farklı kenarlarını aydınlatır. 36:81'deki {ar:أَن يَخْلُقَ مِثْلَهُم, tr:an yakhluqa mithlahum, gloss:onların benzerlerini yaratmak} odaktaki sözleri neredeyse tekrarlar; 46:33'teki {ar:يُحْۦِىَ ٱلْمَوْتَىٰ, tr:yuḥyiya al-mawtā, gloss:ölüleri diriltmek} kozmik yaratılıştan ölüleri diriltme kudretine geçer; 40:57'de {ar:لَخَلْقُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَكْبَرُ مِنْ خَلْقِ ٱلنَّاسِ, tr:la-khalqu as-samāwāti wa-l-arḍi akbaru min khalqi al-nāsi, gloss:göklerin ve yerin yaratılması insanların yaratılmasından daha büyüktür} iki yaratılışın ölçeğini karşılaştırır (36:81; 46:33; 40:57). Bu dış temaslar, odaktaki delil zincirinin farklı kenarlarını belirginleştirir; 17:99'un sözcüklerinin cümle içindeki dilbilgisel işlevi kendi yapısında kalır. Bu paralelliklerin katkısı doğrudan alıntı veya cevap ilişkisi kurmak değil, 17:99'un kendi çıkarımını ayrı yönlerden aydınlatmaktır.
+
+Nesne olan {ar:مِثْلَهُمْ, tr:mithlahum, gloss:onların benzeri} zamirde taşınan muhataplara döner; böylece yaratma eylemi aynı insanlara yönelir. Sözcüğün benzerlik ve denklik alanı bu insanî hedefi belirginleştirir; 36:81'deki aynı ifade de ilişkiyi insan yaratma akıl yürütmesinin ucuna taşır (36:81). Bu bağlantıda denklik, sayısal aynılığı veya bütün niteliklerin kopyasını değil, aynı muhataplara yönelen benzerliği kurar.
+
+## Vade ve Bedensel Dönüş
+
+İkinci bağlaç {ar:وَجَعَلَ, tr:wa-jaʿala, gloss:ve belirledi} mümkün yaratma işinden onlara ayrılan zaman ufkuna geçirir. Bu bağ önceki yaratma önermesiyle eşgüdümlü de, hâl ilişkisi içinde de okunabilir; her iki okumada da kudret ve süre aynı ilahi faile bağlanır. Tamamlanmış {ar:جَعَلَ, tr:jaʿala, gloss:bir duruma koydu} fiilinin bir katılımcıyı belirli bir duruma getirme kullanımı, maddi olmayan vadeyi muhataplar için kurulmuş bir koşul yapar: yaratmadan ayrı ikinci bir ilahi eylem söz konusudur. {ar:لَهُمْ, tr:lahum, gloss:onlara} sürenin kime tahsis edildiğini, {ar:هُمْ, tr:hum, gloss:onlar} ise benzerlik nesnesindeki aynı insanları gösterir; vade yeni bir topluluğa açılmaz.
+
+Belirsiz tekil {ar:أَجَلًا, tr:ajalan, gloss:belirlenmiş süre} sabit bir dönem ve son ufuk bildirir. Sözlükteki belirlenmiş zaman ve varılan son anlamları, onu atayan fiille buluşunca ufkun kararlaştırılmış oluşu duyulur. Sürenin uzunluğu, takvimdeki yeri ve hangi olaya denk geldiği açık kalır; sözcük bu bağlantıda belirli bir ölüm vaktini veya borç vadesini seçmez.
+
+Güvencenin kapsamını {ar:لَا, tr:lā, gloss:hiç yok} ile {ar:رَيْبَ, tr:rayb, gloss:kuşku ve iç tedirginlik} kurar: olumsuzluk kuşku sınıfını kategorik olarak dışarıda bırakır. {ar:فِيهِ, tr:fīhi, gloss:onun içinde} zamirinin öncülü atanan süredir; edat eceli kuşkunun dilbilgisel kabı yapar. Böylece “onda kuşku yok” sözü vadenin güvenilirliğine ilişir. Rayb'in şüphe ve iç huzursuzluk anlamları bu güvenceye ağırlık verirken kesinlik insanların zihin durumunu değil, cümlenin öncülü olan süreyi niteler.
+
+30:8'de kozmik yaratılış, {ar:وَأَجَلٍۢ مُّسَمًّى, tr:wa-ajalin musamman, gloss:ve belirlenmiş bir süre} ve Rabbe kavuşmayı yalanlayanlar birlikte anılır; bu yan yanalık yaratılış ile buluşma ufkunu geniş bir ilişkiye sokar (30:8). Bu temas, 17:99'daki ecelin aynı şeyi gösterdiğini kurmadan yaratılış ile buluşma ufkunu yan yana getirir. 40:34'te Yusuf'un açık delillerinden sonra süren {ar:فَمَا زِلْتُمْ فِى شَكٍّ, tr:fa-mā ziltum fī shakkin, gloss:hâlâ kuşku içinde kaldınız} ise Yusuf'un getirdiği mesaja ilişkin kuşkudur; bu karşıt örnek delil karşısında kuşkunun sürebildiğini gösterir (40:34). Odaktaki {ar:لَا رَيْبَ فِيهِ, tr:lā rayba fīhi, gloss:onda kuşku yoktur} hükmü bu yüzden kişiler hakkında genel bir psikolojik yargı değil, dilbilgisel olarak ecelde kalan güvencedir.
+
+45:24'te konuşmacılar dünya hayatını tek hayat sayıp yaşama ve ölümden söz eder, ardından kendilerini yalnız zamanın yok ettiğini ileri sürer: {ar:وَمَا يُهْلِكُنَآ إِلَّا ٱلدَّهْرُ, tr:wa-mā yuhlikunā illā al-dahru, gloss:bizi ancak zaman yok eder} (45:24). Bu iddia, Allah'ın onlara koyduğu {ar:أَجَلًا, tr:ajalan, gloss:belirlenmiş süre} ve {ar:لَا رَيْبَ فِيهِ, tr:lā rayba fīhi, gloss:onda kuşku yoktur} güvencesinin karşısında yaşam üzerindeki gücü başka yere atfeder. İkincil sözlük yankısı dahr sözcüğünden değil, odaktaki {ar:رَيْبَ, tr:rayb, gloss:kuşku} sözcüğünün zamanın değişimleri ve olayları yönündeki sınırlı kullanımından gelir; bu kullanım yalnız zaman ve ölümle ilgili kalıplaşmış ifadelerde geçerlidir. Bu özel anlamı, 45:24'ün yaşam-ölüm çevresi ve yanındaki ecel keşifsel olarak etkinleştirir: bu bağlantıda ecel, zamanı tek başına işleyen güç sayan iddianın karşısında Allah'ın koyduğu sabit sınır gibi duyulabilir. Olağan cümle anlamı yine ecelde kuşku bulunmadığıdır; bu yankı ne eceli özellikle ölüm vakti yapar ne de iki ayetteki süreleri özdeşleştirir.
+
+Bu ufkun çevresindeki 17:97 sahnesi diriliş karşı çıkışına yaşanan bir sonuç verir: bir topluluk yüzleri üzerine toplanır, kör, dilsiz ve sağır olur; cehennem ateşi her yatıştığında yeniden alevlendirilir (17:97). Bu bedensel görüntüler odaktaki {ar:يَرَوْا۟, tr:yaraw, gloss:görürler} çağrısını duyusal açıklığa da uzatır: körlük içsel tanımayı, dilsizlik yanıt verme olanağını, sağırlık işitme ve dikkati düşündürür; {ar:أَبَى, tr:abā, gloss:reddetti} ile {ar:كُفُورًا, tr:kufūran, gloss:inkâr} diye anılan karşılığın sonucunu görünür kılar. Bu, 17:97'deki bedensel durumların yerini alan değil, onlarla birlikte çalışan bir yankıdır. Sahne kendi kıyamet topluluğunu anlatabilir; bu grup 17:99'daki her yanlış yapanla özdeşleştirilmez. Yeniden alevlenen ateş ceza sahnesinin ritmini kurar, odaktaki ecel ise tarihi belirtilmemiş ufuk olarak kalır.
+
+17:98'de yakın sahne kemik ve ufalanmış kalıntılardan yeniden kaldırılma itirazına döner: {ar:عِظَامًا, tr:ʿiẓāman, gloss:kemikler} ve {ar:رُفَاتًا, tr:rufātan, gloss:ufalanmış kalıntılar}, maddi dağılmayı görünür kılar; itiraz {ar:مَبْعُوثُونَ, tr:mabʿūthūn, gloss:diriltilmek üzere kaldırılmak} biçiminde yeniden kaldırılmayı sorar (17:98). Bu edilgen biçimin gönderme ve yöneltme imgesi, odaktaki yaratma ve benzerlik sözlerine yeni oluşa doğru sınırlı bir hareket katar; bu bağlantıda yönelme imgesi hareketi verir, varış yerini ayet adlandırmaz. Devamındaki {ar:خَلْقًا جَدِيدًا, tr:khalqan jadīdan, gloss:yeni bir yaratılış} maddi kopuştan sonra yeni oluşu adlandırır. Böylece odaktaki {ar:قَادِرٌ, tr:qādir, gloss:gücü yeten} ve {ar:يَخْلُقَ, tr:yakhluqa, gloss:yaratması} soyut birer kapasite olmaktan çıkıp bu maddi soruya yanıt verir; {ar:أَجَلًا, tr:ajalan, gloss:belirlenmiş süre} dönüşü vakti olan bir ufka yerleştirir, {ar:لَا رَيْبَ فِيهِ, tr:lā rayba fīhi, gloss:onda kuşku yoktur} bu ufkun kesinliğini söylerken tarihini açık bırakır.
+
+Bu kalıntı itirazı {ar:مِثْلَهُمْ, tr:mithlahum, gloss:onların benzeri} sözünün duyuluşunu da değiştirir: parçalanma karşısında benzerlik, tanınabilir insan biçiminin yeniden kurulması yönünde açılır. Tamamlanmış {ar:خَلَقَ, tr:khalaqa, gloss:yarattı} eyleminin görünür ve tamamlanmış biçime uzanan kullanımı, mümkün {ar:يَخْلُقَ, tr:yakhluqa, gloss:yaratması} eyleminin insan bedenindeki ölçülü dış görünüş kullanımıyla buluşur. Bu temas, benzerliği bedensel yeniden biçimlenebilirlik olarak somutlaştırır: kalıntı itirazına karşılık, başka bir yaratılışta tanınabilir insan biçimi belirir.
+
+Bu bedenli imgeyi kuran {ar:مِثْلَهُمْ, tr:mithlahum, gloss:onların benzeri} için sözlükteki görüntü ya da somut biçim kullanımı, bir başka varlığın görünüşünü taşıyan görüntüyü ya da somut biçimi düşündürür. Yazıyla veya başka bir araçla görünüş kurma, biçimin temsil edilebilirliğini; bir biçime girip öyle görünme, bedenli belirlenimini; başka bir yapımda örnek alınma ise örüntünün sonraki yapımda kullanılabilmesini düşündürür. İlk yaratılışın tamamlanmış görünüşü ile sonraki yaratma eylemi yan yana geldiğinde, bu işlemler tanınabilir bir biçimin temsil edilip yeniden kurulabileceği ihtiyatlı bir malzeme benzetmesi oluşturur; {ar:قَادِرٌ, tr:qādir, gloss:gücü yeten} sözcüğünün ölçü ve erişilen sınır alanı da bu biçimin belirlenimini artırır. Bu benzetme bu bağlantıda fiziksel bir mekanizma veya kopya/özdeşlik kuramı sunmaz; aynı kişilerin mi yoksa benzer bir insan türünün mü yaratılacağı ve aynı parçacıkların dönüp dönmeyeceği açık kalır. Katkısı, dağılmış beden sorusuna tanınabilir insan biçiminin yeniden kurulabileceği bir tasavvur vermesidir.
+
+Yaratılmış kozmik biçim, o biçimin benzerini yaratmaya yeten kudret ve aynı muhataplara ayrılan sabit süre bir araya gelince, neyin yapılabileceği ile bunun hangi ufukta düşünüldüğü birbirinden kopmaz. {ar:قَادِرٌ, tr:qādir, gloss:gücü yeten} sözcüğünün miktar ve erişilen ölçü anlamı yapılmış ve yapılabilir iki yaratışı oranlı bir yetkinlik olarak birbirine bağlar; {ar:مِثْلَهُمْ, tr:mithlahum, gloss:onların benzeri} insanî nesneyi belirler, {ar:جَعَلَ, tr:jaʿala, gloss:bir duruma koydu} ise {ar:أَجَلًا, tr:ajalan, gloss:belirlenmiş süre} sözcüğünü maddi olmayan zaman koşulu olarak bu düzene katar. Qādir'in kök alanındaki ilahi ölçüp hükme bağlama kullanımı da tamamlanmış yaratma ve atanmış sonla temas edince ölçülü bir ilahi düzen yankısı doğurur. Ortaç burada kudret ve ölçü ilişkisini taşır; kök alanının yankısı ayrı bir takdir fiili kurmadan biçim ile zamanı aynı ilahi düzen içinde duyurur.
+
+## Delilden Sonraki Ret
+
+Yaratılış, kudret ve vade zincirinden sonra gelen {ar:فَ, tr:fa, gloss:ardından ve öyleyse} karşılığa geçirir. Bağ sonuç veya hemen ardından geliş nüansı taşıyabilir; her iki okumada da yanlış yapanların cevabı az önce sunulan kanıt ve güvencenin devamında belirir. Tamamlanmış {ar:أَبَى, tr:abā, gloss:reddetti} fiilinin güçlü kabul etmeme anlamı, bu karşılığı sıradan kaçınmadan daha keskin ve iradeli kılar; yanıt basitçe anlamamış olmak değildir. Fiil reddin gücünü gösterir, kişinin tam saiki ise açık kalır.
+
+Faillerin etken ortaç {ar:ٱلظَّٰلِمُونَ, tr:aẓ-ẓālimūn, gloss:zulmedenler} diye nitelenmesi, yanlış yapanları adlandırırken kanıtla ilişkilerine ahlaki bir biçim verir. Zulüm kökünün bir şeyi hak ettiği yerden, payından veya sınırından çıkarma kullanımı, görme çağrısından sonraki reddedişle karşılaşınca kanıta tanınması gereken yeri vermeme imgesi kurar. Bu bağlantıdaki zulüm yankısı fiziksel yer değiştirmeyi veya hukuki hak tespitini anlatmaz; kanıta gereken tanınmayı vermemeyi mecazen görünür kılar.
+
+Tamamlanmış ret fiilini izleyen {ar:إِلَّا, tr:illā, gloss:ancak ve dışında} istisnası öteki seçenekleri dışarıda bırakır ve reddetme fiilini geriye kalan tek cevapla paradoksal biçimde eşler: son nekre-mansup isim {ar:كُفُورًا, tr:kufūran, gloss:inkâr} bu cevabı adlandırır. Yoğunluk bildiren fuʿūl kalıbı keskinliği artırır. Örtme ve görünmez kılma yönü açılıştaki {ar:يَرَوْا۟, tr:yaraw, gloss:görürler} çağrısına döner: görülecek ve tanınacak delil mecazen üzeri örtülen şey olur; böylece kapanış ilk bakış talebini etkin bir karşılığa çevirir. Olağan dinî inkâr anlamı bu imgeyle birlikte korunur. Bu bağlantıda örtme mecazdır; delille kurulan cevabı betimler, faillerin bütün psikolojisini değil.
+
+Hatırlatmaların çeşitli biçimlerde sunulmasından sonra 25:50'de insanların {ar:فَأَبَىٰٓ أَكْثَرُ ٱلنَّاسِ إِلَّا كُفُورًا, tr:fa-abā aktharu al-nāsi illā kufūran, gloss:insanların çoğu ancak inkârda ısrar etti} diye anılması, ret ile inkârın hatırlatma sonrasında da belirebildiğini gösterir (25:50). Odaktaki {ar:أَبَى, tr:abā, gloss:reddetti} ve {ar:كُفُورًا, tr:kufūran, gloss:inkâr} bu benzer bitişte tekrar duyulur; bu bağlamda dinî inkâr yönü öne çıkarken 17:99'daki örtme ve nimeti yadsıma yankıları da korunur. Koşulların farklılığı bu teması bir örüntü benzerliği olarak sınırlar; paralellik tek başına biçim çözümlemesini tayin etmez.
+
+17:100'de hazineleri saklama, vermekten kaçınma ve rızkı daraltma tablosu insanın sınırlı kaynak ölçüsünü görünür kılar: {ar:خَزَائِنَ, tr:khazāʾin, gloss:hazineler}, {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:mutlaka tutardınız} ve {ar:قَتُورًا, tr:qatūran, gloss:cimri ve eli dar} ayrı ayrı biriktirmeyi, elinde tutmayı ve kısmayı gösterir (17:100). Bu kaynak modeli odaktaki {ar:قَادِرٌ, tr:qādir, gloss:gücü yeten} ile karşılaşınca, insanın verirken kaybedeceği kaygısına karşı tükenmeyen yaratma kudretini koyar. {ar:كُفُورًا, tr:kufūran, gloss:inkâr ve nimeti yadsıma} olağan dinî ret anlamını korurken nimeti örtme ve şükrünü yerine getirmeme kullanımı tutulmuş rızıkla temas eder; bu bağlantıda ret, tanınmayan bir armağana da bağlanabilir. Bu olasılık her reddin saiki değildir; 17:100 aynı zamanda bağımsız bir cömertlik öğüdü olarak işler.
+
+17:100'ün kaynak tablosundan sonra soru başka bir karşılaşmaya döner: 17:101'de Musa'ya verilen dokuz işaret {ar:بَيِّنَٰتٍ, tr:bayyināt, gloss:açık deliller} diye anılırken Firavun onu {ar:مَسْحُورًا, tr:masḥūran, gloss:büyülenmiş} diye suçlar; açıklık ile yeniden adlandırma aynı sahnede karşılaşır (17:101). 17:102'de Musa, Firavun'a {ar:عَلِمْتَ, tr:ʿalimta, gloss:sen biliyorsun} diyerek işaretleri göklerin ve yerin Rabbinden başkasının indirmediğini bildiğini söyler; bu, Firavun'un itirafı değil Musa'nın ona yönelttiği bilgi iddiasıdır (17:102). {ar:بَصَائِرَ, tr:baṣāʾir, gloss:basiretler ve açık kavrayışlar} sözü odaktaki {ar:يَرَوْا۟, tr:yaraw, gloss:görürler} çağrısını gözün işlemesinden içsel tanımaya taşır. Musa'nın {ar:إِنِّي لَأَظُنُّكَ يَٰفِرْعَوْنُ مَثْبُورًا, tr:innī la-aẓunnuka yā Firʿawnu mathbūran, gloss:ey Firavun, seni helake uğramış sayıyorum} karşı yargısını dile getiren de Musa'dır (17:102).
+
+Bu açık işaretler ve adı konmuş bilgi iddiası yanında {ar:لَا رَيْبَ فِيهِ, tr:lā rayba fīhi, gloss:onda kuşku yoktur} ifadesi, reddi kanıt yokluğuyla açıklamayı zorlaştırır; kesinlik yine doğrudan ecel hakkındadır. Firavun'un işaretleri büyü diye yeniden adlandırması, başka bir etiket altında süren direnişi görünür kılar ve odaktaki {ar:كُفُورًا, tr:kufūran, gloss:inkâr} için örtme yankısına yeni bir temas verir (17:101, 17:102). Bu bağlantıda suçlamanın saiki açık kalır; siyasal taktik olasılığı da korunur.
+
+## Tarih, Yer ve Ölçülü Aralık
+
+Firavun'un işaretleri yeniden adlandırdığı sahneden 17:103'te aynı kişinin bu kez yeryüzündeki eylemine geçilir: İsrailoğullarını {ar:مِنَ ٱلْأَرْضِ, tr:mina al-arḍi, gloss:yeryüzünden} çıkarmaya kalkışması yerinden etme niyetini açığa çıkarır (17:103). Odaktaki {ar:ٱلْأَرْضَ, tr:al-arḍa, gloss:yeryüzünü} bu tarihsel karşılaşmada yaşanan zemin olur; {ar:وَجَعَلَ, tr:wa-jaʿala, gloss:ve belirledi} ile taşınan bir duruma koyma yankısı, bağlamdaki {ar:فَأَغْرَقْنَاهُ, tr:fa-aghrāqnāhu, gloss:onu boğduk} eylemiyle tersine döner: yurdundan etmeye kalkışan fail boğulur. 17:104'te İsrailoğullarına {ar:ٱسْكُنُوا, tr:uskunū, gloss:yerleşin} denmesi tehdit altındaki ikameti yeniden kurar; {ar:وَعْدُ ٱلْـَٔاخِرَةِ, tr:waʿdu l-ākhirah, gloss:sonraki vaad} geldiğinde {ar:لَفِيفًا, tr:lafīfan, gloss:toplu ve karışık halde} bir araya getirilmeleri de bu tarihsel sıraya daha geniş bir toplu ufuk ekler (17:104).
+
+Yeryüzünden çıkarılma, failin boğulması, yerleşmenin geri verilmesi ve farklı toplulukların vaadle toplanışı, odaktaki {ar:أَجَلًا, tr:ajalan, gloss:belirlenmiş süre} ufkuna tarihsel ve toplu bir ölçek ekler. {ar:ٱلظَّٰلِمُونَ, tr:aẓ-ẓālimūn, gloss:zulmedenler} adının şeyi yerinden, payından ya da sınırından çıkarma yönü Firavun'un sürme girişimi ile ikametin geri kurulması arasında etkinleşir. Bu bağlantıda tarihsel tersine dönüş kudretin yaşanan tarihte işleyişini örnekler; İsrailoğullarını odaktaki muhataplarla özdeşleştirmez ve 17:104'teki vaadi ecelin tarihi olarak belirlemez.
+
+Tarihteki yönetim ufkundan sonra bağlam başka bir ölçeğe, vahyin aktarım temposuna döner. 17:105'teki {ar:وَبِالْحَقِّ, tr:wa-bil-ḥaqq, gloss:hakikat üzere} ifadesi ve indirilme fiili vahyin aktarımını gerçekle ilişkilendirir (17:105). 17:106'da {ar:فَرَقْنَٰهُ, tr:farraqnāhu, gloss:onu bölümlere ayırdık} okunabilmesi için parçalanmayı, {ar:عَلَىٰ مُكْثٍ, tr:ʿalā mukthin, gloss:bekleyerek ve ağır ağır} acele etmeyen aralıklı tempoyu, tekrar indirme ise aşamalı süreci verir (17:106). Bu bağlantı, aralığın tek başına kuşku göstergesi sayılmayıp ölçülü idare içinde bulunabileceğini düşündüren uzak ve ihtiyatlı bir benzetme sunar; kaynak ayetler vahyin inişini anlattığından ecelin tarihini veya gerçekleşme mekanizmasını belirlemez.
+
+## Bedenin ve Adın Karşılığı
+
+Okunan vahye karşılık olarak bazı dinleyiciler 17:107'de çeneleri üzerine düşüp secde eder; 17:109'da okunan ayetler karşısında huşûları artar (17:107, 17:109). {ar:يُتْلَىٰ عَلَيْهِمْ, tr:yutlā ʿalayhim, gloss:onlara okunur} ulaşan okuma dizisini, {ar:يَخِرُّونَ, tr:yakhirrūna, gloss:düşerler} yinelenen bedensel düşüşü, {ar:سُجَّدًا, tr:sujjadan, gloss:secde ederek} ise düşüşün teslimiyet yönünü verir; {ar:خُشُوعًا, tr:khushūʿan, gloss:huşû ve alçalış} bu beden cevabının iç hâlini adlandırır (17:109). Bu bedenli karşılık odaktaki {ar:أَبَى, tr:abā, gloss:reddetti} ve {ar:كُفُورًا, tr:kufūran, gloss:inkâr} karşısında tanımanın nasıl görünebileceğini gösterir. Dinleyiciler odaktaki muhataplardan ayrı olabilir; secde sahnesi kendi başına bir övgü olarak da işler.
+
+Bedensel secde karşılığından ayrı bir ölçeğe geçen 17:110, bakışı görünür göklerden adlandırmaya yönelen kelime yankısını açar. Odaktaki {ar:ٱلسَّمَٰوَٰتِ, tr:as-samāwāti, gloss:gökler} görüş alanının yüksek yüzünü ve yaratılışın ölçeğini taşırken {ar:يَرَوْا۟, tr:yaraw, gloss:görürler} bu görünür işarete bakışı sürdürür; 17:110'daki {ar:ٱلْأَسْمَاءَ, tr:al-asmāʾ, gloss:isimler ve adlar} varlığı tanıtan ve ondan söz etmeyi sağlayan adları bildirir (17:110). Göklerle adlar arasındaki kök bağlantısı ihtiyatlı bir ses ve anlam yankısı kurarak bakışı adı anılan yaratıcıya çevirebilir. Bu bağlantı her iki sözcüğün olağan anlamını birlikte tutar: gökler görünür yaratılış, adlar ise varlığı tanıtan adlandırmadır.
+
+Bu adlandırma yankısından ayrı olarak, 17:111 insan benzerliğinin kime ait olduğunu doğrudan sınırlar. {ar:ٱللَّهَ, tr:Allāha, gloss:Allah} özel adı yaratıcıyı gösterir. Bu adla ilişkilendirilen ibadet anlam alanının çekirdeği bir varlığa yönelip kulluğu ona vermektir; bu bağlantıda taşıyıcı eylem değil, ibadetin yöneldiği varlığın adıdır. Odaktaki {ar:خَلَقَ, tr:khalaqa, gloss:yaratıp var etmek} insanın yeniden yaratılmasını yaratıcının eylemi, {ar:مِثْلَهُمْ, tr:mithlahum, gloss:onların benzeri} ise yaratılmış insana ait benzerlik olarak kurar. 17:111'de {ar:وَلَدًا, tr:waladan, gloss:evlat} edinme ve {ar:شَرِيكٌ, tr:sharīkun, gloss:ortak} reddedilir; {ar:ٱلْمُلْكِ, tr:al-mulki, gloss:egemenlik} içinde ortak bulunmadığı söylenir ve {ar:كَبِّرْهُ تَكْبِيرًا, tr:kabbirhu takbīran, gloss:O'nu gereğince yücelt} emri yaratıcı ile kul arasındaki ayrımı belirginleştirir (17:111). Bu bağda zamirin dönüşü yenilenmesi konuşulan insanlara işaret eder; benzerlik yaratıcıya aktarılmaz. Hamd ve yüceltme çağrısı 17:111'i sureyi kendi başına kapatabilen bir son olarak da duyurur.
+
+</editorial_prose>

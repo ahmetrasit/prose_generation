@@ -1,0 +1,191 @@
+# V5 reading invitation — 17:111
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p06-with-fatiha/s017/17_111/17_111.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p06-with-fatiha/s017/17_111/17_111.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Söze Dönüş
+
+Başlangıçtaki {ar:وَ, tr:wa, gloss:ve}, hemen ardından gelen {ar:قُلِ, tr:quli, gloss:söyle} buyruğuna bağlanarak önceki hitabı sürdürür; bu bağ, önceki talimatın hangisi olduğunu tek başına belirlemez. İkinci şahsa yöneltilen bu emir, {ar:ٱلْحَمْدُ لِلَّهِ, tr:al-ḥamdu lillāhi, gloss:Allah'a hamd} sözünü doğrudan söylenecek içerik yapar. Böylece Allah hakkındaki nitelemeler yalnızca gözlenen bir önerme olarak kalmaz, muhatabın ağzından çıkacak övgünün zeminine dönüşür.
+
+Bu söyleme buyruğu yakın pasajdaki başka doğrudan hitaplarla sürer. 17:100'deki {ar:قُلْ, tr:qul, gloss:söyle} sahiplik varsayımını dile getirir; 17:107'deki {ar:قُلْ, tr:qul, gloss:söyle} inanma ya da inanmama çağrısını açar (17:100, 17:107). Okunan sözün ardından dinleyenler {ar:سُبْحَانَ رَبِّنَا, tr:subḥāna rabbinā, gloss:Rabbimizi tenzih ederiz} der ve {ar:إِن كَانَ وَعْدُ رَبِّنَا لَمَفْعُولًا, tr:in kāna waʿdu rabbinā la-mafʿūlan, gloss:Rabbimizin vaadi gerçekleşti} diyerek vaadin mutlaka yerine geldiğini söyler (17:108). Bu tenzih, hamdin eş anlamlısı değil, tilavetin ardından verilen ayrı bir cevaptır (17:108). 17:110'da {ar:قُلِ, tr:quli, gloss:söyle} {ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı} ya da {ar:ٱلرَّحْمَٰنَ, tr:al-Raḥmāna, gloss:Rahman'ı} çağırma buyruğunu başlatır; 17:111'deki söyleme emri ise bu yerel diziyi hamd ve yüceltmeyle tamamlar (17:110, 17:111). Yakın pasajdaki dizi söyleme buyruklarını hamd ve yüceltmede tamamlar; kapsamı bu yerel dizidir, bütün sure için bir söyleyiş kuralı koymaz.
+
+Belirli biçimiyle {ar:ٱلْحَمْدُ, tr:al-ḥamdu, gloss:hamd}, tek bir övgü anından çok övgü kategorisini öne çıkarır. {ar:لِلَّهِ, tr:lillāhi, gloss:Allah'a ait} içindeki lām hamdi hem Allah'a ait hem O'na yaraşan, O'nun hak ettiği övgü olarak duyurur; aidiyet ile övgü hakkı birlikte kalır. Genitif durumdaki {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah} genel bir ilahi unvan değil, övgünün sahibi olarak adı verilen Allah'tır; bu dilbilgisel bağ adın kökeni üzerine ayrıca bir hüküm kurmaz.
+
+Hamd, iyi sözlerle övgü anlamında yermenin karşıtıdır. Ardından gelen üç ret, övgüyü belirli bir nimete teşekkürden çok Allah'ın ne olduğuna dayalı bir söyleyiş hâline getirir; şükür anlamı yakınında duyulsa da ayette adı konan bir nimet yoktur. Fatiha'nın açılışındaki {ar:ٱلْحَمْدُ لِلَّهِ, tr:al-ḥamdu lillāhi, gloss:Allah'a hamd} formülü 17:111'in sonundaki hamdi baştan duyurur (1:2). Bu yankı belirli hamd sözünü başlangıçtan kapanışa taşır; bağlantı 1:2'deki formülledir, başka Fatiha ayetleri ya da yazara ilişkin niyet bildirmez.
+
+Eril tekil {ar:ٱلَّذِى, tr:alladhī, gloss:o ki} ilgi zamiri, çocuk, ortak ve koruyucu hakkındaki üç reddi Allah adına bağlı tek bir tanımlayıcı çerçevede toplar, fakat ilişkileri birbirine indirmez. Üç kez yinelenen {ar:لَمْ, tr:lam, gloss:olumsuzluk edatı} bu örüntüyü kurar: ilki edinme eylemini, sonraki ikisi ayrı varlık ilişkilerini olumsuzlar. Bu tekrar, çocuk edinme reddini tek seferlik bir geçmiş haberi olmaktan çıkarıp üçlü tanımlayıcı örüntünün açılışı yapar. Cezmli fiillerle gelen geçmişe dönük olumsuzluk, üç reddi aynı kuvvette tutar; buradan bağımsız bir zaman öğretisi çıkmaz. Edinme, hükümranlıkta ortaklık ve güçsüzlükten doğabilecek koruyucu ihtiyacı, tek tanımlayıcı blokta eşit kuvvette yan yana gelir.
+
+## Çocuğu Edinmek
+
+İlk {ar:لَمْ, tr:lam, gloss:olumsuzluk edatı}, cezmli {ar:يَتَّخِذْ, tr:yattakhidh, gloss:kendisi için edinir} fiilini olumsuzlar. VIII. biçimdeki fiil bir şeyi kendisi için edinme yönü taşır; doğrudan nesnesi olan belirsiz tekil {ar:وَلَدًا, tr:waladan, gloss:çocuk} ile birleşince reddedilen doğurma eylemi değil, bir çocuğu edinme ya da evlat bağı olarak üstlenmedir. Bu ifade belirli bir toplumsal ya da hukuki evlat edinme uygulaması tarif etmez. {ar:وَلَدًا, tr:waladan, gloss:çocuk} olağan anlamıyla ana babadan doğmuş çocuktur: doğmuş çocuk ilişkisi edinme fiilinin nesnesi olarak kalır, fiil doğurmak anlamına dönüşmez. Olumsuzluk altındaki belirsiz tekil biçim belirli bir çocuğa kapanmadığı için bir ya da çok çocuğu, kız ya da erkek, küçük ya da yetişkin olarak kapsayabilir; yüzeydeki isim tekil kalsa da ret çocuk kategorisine yayılır.
+
+Bu çocuk anlamı, yeniden diriltilme ve yeni yaratılış sorusuyla karşılaşınca soy yoluyla devamlılıktan ayrılır. Kemiklere ve ufalanmış kalıntılara dönüşenlerin {ar:مَبْعُوثُونَ, tr:mabʿūthūna, gloss:diriltilmiş} olup olmayacağı, ardından {ar:خَلْقًا جَدِيدًا, tr:khalqan jadīdan, gloss:yeni bir yaratılış} olup olmayacağı sorulur (17:98). Bir sonraki ayet, {ar:رَبُّ السَّمَاوَاتِ وَالْأَرْضِ, tr:rabbu s-samāwāti wa-al-arḍ, gloss:göklerin ve yerin Rabbi} olanın {ar:قَادِرٌ عَلَىٰ أَن يَخْلُقَ مِثْلَهُمْ, tr:qādirun ʿalā an yakhluqa mithlahum, gloss:benzerlerini yaratmaya gücü yeter} olduğunu söyler (17:99). Bu iki ayet bir yanda doğmuş evlat ve soy devamını, öte yanda yeniden yaratma kudretini ayrı ayrı açar; bu yan yana geliş ilahi üreme ya da üretim kuramı ileri sürmez (17:98, 17:99). Böylece soyun sürmesi yaratma kudretinin zorunlu kaynağı gibi duyulmaz, çocuğun düz anlamı korunur.
+
+## Ortak ve Hükümranlık
+
+İkinci ret, ilk cümlenin açıklaması değil, onunla eşdüzeyli tam bir olumsuz cümledir: {ar:وَلَمْ يَكُن, tr:wa-lam yakun, gloss:ve var olmamıştır}. İlk cümledeki {ar:لَمْ, tr:lam, gloss:olumsuzluk edatı} edinme eylemini durdururken bu lam, cezmli {ar:يَكُن, tr:yakun, gloss:var olmak} ile bir durumun varlığını reddeder; olumsuzlamanın kuvveti değişmez, hedef eylemden varlık ilişkisine kayar. Öne alınan {ar:لَهُۥ, tr:lahu, gloss:O'na ait} önce kimin alanından söz edildiğini kurar; gecikmiş nominatif özne {ar:شَرِيكٌۭ, tr:sharīkun, gloss:ortak} ardından gelir. Bu sıralama Allah'ın alanını ortaklık reddinin bilgi çerçevesine alır; vurguyu bu düzen taşır, Arapçada mümkün tek diziliş iddiasını değil.
+
+Bir {ar:شَرِيكٌۭ, tr:sharīkun, gloss:ortak} en az iki tarafın paylaştığı hak ya da iştir. Bağımsız {ar:فِى ٱلْمُلْكِ, tr:fī al-mulki, gloss:hükümranlıkta} ifadesi bu paylaşımın alanını belirler: dilbilgisiyle ya ortağa bağlanabilir ya da varlık cümlesinin tamamını sınırlayabilir, ama iki okuma da reddi aynı alanda tutar. Buradaki {ar:ٱلْمُلْكِ, tr:al-mulki, gloss:hükümranlık} halk üzerinde emir ve yasak koymayı içeren kamusal egemenliktir. Allah adının, {ar:لَهُۥ, tr:lahu, gloss:O'na ait} ile kurulan aidiyetin ve {ar:شَرِيكٌۭ, tr:sharīkun, gloss:ortak} figürünün yan yana gelişi, bu egemenliği elde tutma ve tasarruf yetkisi imgesiyle de duyurur. Bu okuma ortaklık reddini hükümranlık alanında tutar; her türlü dini ortaklığa genellemez ve kamusal yönetimi özel mülkiyetle karıştırmaz.
+
+25:2, çocuk edinme reddini mülkte ortak bulunmaması ve göklerle yerin egemenliğinin Allah'a ait olmasıyla yan yana getirerek ilk ilişkiyi bölünmeyen egemenlik dizisinin içinde duyurur (25:2). Çocuk reddinde {ar:وَلَدًا, tr:waladan, gloss:çocuk}, ortaklık reddinde ise {ar:وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ, tr:wa-lam yakun lahu sharīkun fī al-mulki, gloss:mülkünde ortağı yok} öne çıkar; göklerin ve yerin egemenliğinin Allah'a ait oluşu da bu diziyi tamamlar: {ar:لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ, tr:lahu mulku al-samāwāti wa-al-arḍ, gloss:göklerin ve yerin egemenliği O'nundur} (25:2). Bu yan yana geliş çocuğun evlat ve nesep anlamını korur, soy ilişkisi ile hükümranlığın paylaşılmasını ayrı iki ret olarak duyurur (25:2). 23:91 ise ayrı ilahlar varsayılsaydı her birinin kendi yarattığını yanına alacağı ve bazısının ötekine üstün geleceği ihtimalini verir: {ar:مَا كَانَ مَعَهُۥ مِنْ إِلَٰهٍ, tr:mā kāna maʿahu min ilāh, gloss:O'nunla başka ilah yoktur} ve {ar:بِمَا خَلَقَ, tr:bi-mā khalaqa, gloss:yarattığı şeyle} (23:91). Buradaki yaratma ana babadan doğmuş evlat ilişkisinden farklıdır; bu nedenle {ar:وَلَدًا, tr:waladan, gloss:çocuk} bütün yaratılmışların adı hâline gelmez (23:91). 23:91'deki rekabet ihtimali ortak egemenliğin parçalanmış idareye dönüşmesini görünür kılar; 25:2 ile benzerlik doğrudan alıntı ya da aynı tarihsel olay değildir (23:91, 25:2).
+
+34:22, üç ayrı sınırı birlikte verir: zerre ağırlığında bir şeye bile sahip olunamaması {ar:لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ, tr:lā yamlikūna mithqāla dharratin, gloss:zerre kadarına sahip değiller}, göklerde ve yerde hiçbir pay bulunmaması {ar:وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ, tr:wa-mā lahum fīhimā min shirk, gloss:ikisinde payları yok} ve Allah'a onların arasından destekçi çıkmaması {ar:وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ, tr:wa-mā lahu minhum min ẓahīr, gloss:onlardan destekçisi yok} (34:22). Zerre ve pay imgeleri hükümranlığı somut tasarruf alanı olarak duyurur, destekçinin yokluğu ise bu sahiplik ve pay ilişkisinden ayrı kalır (34:22). 31:26 kapsamı göklerde ve yerde olan her şeye yayar: {ar:لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَالْأَرْضِ, tr:li-llāhi mā fī al-samāwāti wa-al-arḍ, gloss:göklerde ve yerde ne varsa Allah'ındır}; Allah'ın hiçbir şeye muhtaç olmadığı ve övülmeye layık olduğu da {ar:ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:al-ghaniyy al-ḥamīd, gloss:muhtaç olmayan ve övülmeye layık} nitelemesiyle belirtilir (31:26). Böylece 31:26 kamusal egemenliği bütün varlığa yayılan mutlak ve kalıcı egemenlik olarak genişletir; ihtiyaçsızlık hamdin olumlu gerekçesi ve koruyucu reddinin açıklaması olur (31:26).
+
+İnsan elindeki sahiplik varsayımı bu alanın daha sınırlı bir yüzünü gösterir. 17:100, insanların Rabbimin rahmet hazinelerine sahip olma varsayımını {ar:تَمْلِكُونَ, tr:tamlikūna, gloss:sahip olsaydınız} fiiliyle kurar; gerçekleşse, harcama korkusuyla {ar:خَشْيَةَ الْإِنفَاقِ, tr:khashyata l-infāq, gloss:harcama korkusuyla} {ar:لَأَمْسَكْتُمْ, tr:la-amsaktum, gloss:alıkoyardınız} ve insanın {ar:قَتُورًا, tr:qatūran, gloss:eli sıkı} oluşu görülürdü (17:100). Bu imge hazineyi sınırlanabilir bir stok, korkuyu alıkoymanın nedeni, cimriliği ise insanın niteliği yapar (17:100). Kıtlıkla sınırlı pay yönünü açan bu bağlantı odaktaki rahmeti harcanabilir hazineye çevirmez; 17:100 ayrıca insanın cimriliğini tek başına eleştiren bir varsayım olarak da okunabilir.
+
+Musa ile Firavun arasındaki olaylar mülkü kamusal yönetim olarak görünür kılar. Musa'ya {ar:تِسْعَ آيَاتٍ بَيِّنَاتٍ, tr:tisʿa āyātin bayyinātin, gloss:dokuz açık ayet} verilir (17:101). Firavun onu {ar:مَسْحُورًا, tr:masḥūran, gloss:büyülenmiş} diye niteler; Musa ise {ar:مَا أَنزَلَ هَٰؤُلَاءِ إِلَّا رَبُّ السَّمَاوَاتِ وَالْأَرْضِ, tr:mā anzala hāʾulāʾi illā rabbu s-samāwāti wa-al-arḍ, gloss:bu kanıtları yalnız göklerin ve yerin Rabbi indirdi} diyerek bunların {ar:بَصَائِرَ, tr:baṣāʾira, gloss:apaçık kanıtlar} olduğunu söyler ve Firavun'u {ar:مَثْبُورًا, tr:mathbūran, gloss:helake uğrayacak} biri olarak niteler (17:102). Firavun İsrailoğullarını {ar:يَسْتَفِزَّهُم مِّنَ الْأَرْضِ, tr:yastafizzahum mina l-arḍ, gloss:yerlerinden söküp atmak} ister, fakat Allah onu ve yanındakilerin tümünü boğar: {ar:فَأَغْرَقْنَاهُ وَمَن مَّعَهُ جَمِيعًا, tr:fa-aghraqnāhu wa-man maʿahu jamīʿan, gloss:onu ve yanındakilerin tümünü boğduk} (17:103). Ardından İsrailoğullarına {ar:ٱسْكُنُوا الْأَرْضَ, tr:uskunū l-arḍ, gloss:yeryüzünde yerleşin} denir; vaat geldiğinde {ar:لَفِيفًا, tr:lafīfan, gloss:karma bir topluluk hâlinde} getirilecekleri bildirilir (17:104). Yerinden etme ile yerleşme arasındaki yön değişimi ve hükümdarın çöküşü, toprağın son sözünün Firavun'a ait olmadığını gösterir (17:103, 17:104). Bu tersine dönüş odaktaki hükümranlığın kamusal boyutunu görünür kılar; 17:111'in kapsamı bu tarihsel olayla sınırlı değildir (17:101, 17:102, 17:103, 17:104).
+
+Firavun'un iktidar sahnesi, üç reddin siyasal benzetmesini de mümkün kılar (17:101, 17:102, 17:103, 17:104). Doğmuş {ar:وَلَدًا, tr:waladan, gloss:çocuk} ve soyun sürmesi, bu yönetimden sonra gelecek bir varisi düşündürebilir (17:103, 17:104); {ar:شَرِيكٌ فِى ٱلْمُلْكِ, tr:sharīkun fī al-mulki, gloss:hükümranlıkta ortak} ise eş-yönetici, yani kamusal yetkiyi paylaşan birini akla getirir (17:103, 17:104). {ar:وَلِىٌّ مِّنَ ٱلذُّلِّ, tr:waliyyun min adh-dhulli, gloss:güçsüzlükten doğan koruyucu} de zayıflıkta himaye ya da idari sorumluluk üstlenen hami yönünü açar (17:103, 17:104). Firavun'un İsrailoğullarını yerinden etme girişiminin yerleşme buyruğuyla tersine dönmesi, bu insanî dayanakların yönetimi güvenceye alamadığını gösterir (17:103, 17:104). Birlikte okunduklarında üç ret, hanedan devamına, ortak yönetime ve güçsüzlükte başvurulacak hamiye dayanmayan egemenliği düşündürebilir (17:101, 17:102, 17:103, 17:104). Bu siyasal bağlantı çocuk, ortak ve destekçinin olağan anlamları üzerinde kurulur; bu bağlantı Firavun anlatısının tarihsel okumasını dışlamaz ve belirli bir sonraki hükümdara işaret etmez (17:103, 17:104).
+
+Hükümranlık sözü belirli bir hesaplaşma alanına da açılır: Fatiha'daki {ar:مَٰلِكِ يَوْمِ ٱلدِّينِ, tr:māliki yawmi d-dīn, gloss:karşılık gününün sahibi} ifadesi odaktaki {ar:ٱلْمُلْكِ, tr:al-mulki, gloss:hükümranlık} sözüyle aynı kökten gelir, fakat biçimleri ve görevleri ayrıdır; biri günün sahibini, diğeri hükümranlık alanını adlandırır (1:4). Yargı ve karşılık günü, egemenliğin hesap verme merciini somutlaştırır (1:4). Bu Fatiha yankısı, {ar:مَبْعُوثُونَ, tr:mabʿūthūna, gloss:diriltilmiş} olma ve {ar:خَلْقًا جَدِيدًا, tr:khalqan jadīdan, gloss:yeni bir yaratılış} sorusuyla yan yana gelerek 17:111'in egemenlik yankısını genişletir; bağlantı hükümranlığı yalnız kıyamet gününe özgü kılmaz (17:98, 17:99).
+
+## Koruyucu ve Güçsüzlük
+
+Üçüncü ret yeni bir tam cümledir: {ar:وَ, tr:wa, gloss:ve} ile açılan {ar:وَلَمْ يَكُن, tr:wa-lam yakun, gloss:ve var olmamıştır}, ortaklık cümlesine eklenmiş bir belirteç değildir. İkinci cümledeki gibi {ar:لَهُۥ, tr:lahu, gloss:O'na ait} çerçevesi öne alınır ve gecikmiş özne bu kez {ar:وَلِىٌّۭ, tr:waliyyun, gloss:yakın destekçi} olur. Yinelenen {ar:لَمْ, tr:lam, gloss:olumsuzluk edatı} ve {ar:يَكُن, tr:yakun, gloss:var olmak} aynı olumsuz kalıbı sürdürürken reddedilen ilişki ortaktan koruyucuya geçer; yapı paraleldir, bağımlılık hedefi ayrıdır.
+
+{ar:وَلِىٌّۭ, tr:waliyyun, gloss:yakın destekçi} sevgi, dostluk ya da yardım bağıyla yanında duran kişiyi anlatır. Bağımsız {ar:مِّنَ ٱلذُّلِّ, tr:min adh-dhulli, gloss:güçsüzlükten} öbeği, bu desteği gerektirebilecek aşağı konumu kaynak, neden ya da açıklama olarak iliştirir. Öbek koruyucuya, {ar:يَكُن, tr:yakun, gloss:var olmak} fiiline ya da cümlenin tümüne bağlanabilir; bu dilbilgisel seçeneklerin her biri düşük olma ile koruyucu ihtiyacı arasında bağ kurar, hangisinin öne çıktığını ise seçmez. Cümlenin reddettiği destek sıradan yoldaşlık değil, kırılganlıkta gerekebilecek himayedir; bu bağlantı hısımlık, hukuk ya da genel yönetim türlerinden birini belirlemez.
+
+Bu aşağı konum, saygınlık ve karşı koyma gücü bakımından düşmeyi, boyun eğmeyi ve güçsüzlüğü taşır. Kaynaklar bu düşüşün zorla meydana gelip gelmediğinde ayrışır; ayet zor kullanmayı şart koşmaz ve olumlu bir yumuşaklık anlamı eklemez. {ar:ٱلذُّلِّ, tr:adh-dhulli, gloss:aşağılanma}, koruyucuya bağlanmanın sonucu olan bir düşük konum olarak da duyulabilir; bu yan okuma, söz konusu bağlantıda güçsüzlük ve aşağılanma sınırında kalır. {ar:وَلِىٌّۭ, tr:waliyyun, gloss:yakın destekçi} sevgi ve yardımın yanı sıra başkasının işini üstlenen ya da yürüten kişi olarak da işleyebilir; bu sorumluluk yönü zayıflık yüzünden koruma veya yönetim gereksinimini düşündürür. Bu yönetim benzetmesi Allah'ın başka birinin zaafını yönettiğini söylemez; odaktaki ret, O'nun aşağılanma ya da güçsüzlük yüzünden veliye muhtaç olmadığını bildirir.
+
+Üç kelime ilişkisinin kendi iç dizilişi, yerel ve ihtimalli bir bileşik okumaya imkân verir. Önce {ar:يَتَّخِذْ, tr:yattakhidh, gloss:kendisi için edinir} fiilinin nesnesi olan doğmuş {ar:وَلَدًا, tr:waladan, gloss:çocuk}, soyun devamı ve düşünülebilecek bir varis yönünü açar; çocuk burada eşya değildir, bu okuma doğurma eylemi ya da belirli bir aile âdeti ileri sürmez. Ardından {ar:شَرِيكٌۭ, tr:sharīkun, gloss:ortak} ile {ar:ٱلْمُلْكِ, tr:al-mulki, gloss:hükümranlık} yan yana gelerek paylaşılmış yönetimi kapatır; bu sınır hükümranlık ortaklığına aittir, her tür ortaklığa yayılmaz. Son olarak {ar:وَلِىٌّۭ, tr:waliyyun, gloss:yakın destekçi} ile {ar:مِّنَ ٱلذُّلِّ, tr:min adh-dhulli, gloss:güçsüzlükten} bağı, himaye ya da işi üstlenme ihtiyacını görünür kılar; bu benzetme Allah'ın başkasının zaafını yönettiğini söylemez. Sırasıyla soy devamı, ortak yönetim ve güçsüzlükte koruyucu arayışı düşünüldüğünde, egemenlik bu üç insanî desteğe dayanmayan bir bağımsızlık olarak duyulabilir. Böylece ayetin yerel dizilişi, üç olağan ilişkiyi koruyarak bağımsız egemenliği düşündüren ihtimalli bir bileşim kurar.
+
+Bu karşılaştırma, destek arayışının yönünü tersine çevirir. Allah {ar:يَهْدِ, tr:yahdi, gloss:yol gösterir}; hidayet ettiği kişi {ar:الْمُهْتَدِ, tr:al-muhtadī, gloss:doğru yolu bulan} olur, saptırılanlar ise {ar:مِن دُونِهِۦ, tr:min dūnihi, gloss:O'ndan başka} {ar:أَوْلِيَاءَ, tr:awliyāʾa, gloss:yardımcılar ve dostlar} arar (17:97). Buradaki çoğul veli, odaktaki tekil {ar:وَلِىٌّۭ, tr:waliyyun, gloss:yakın destekçi} ile aynı sözcük ailesindendir: yaratılmışlar destekçi ararken Allah için aşağılanma yüzünden bir koruyucu reddedilir (17:97). İlişkilerin yönü karşıt, ilişkilerin kendisi özdeş değildir (17:97). İnsanların Allah'tan başka veli ve yardımcı bulamayacağını söyleyen {ar:وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ, tr:wa-mā lakum min dūni Allāhi min waliyyin wa-lā naṣīr, gloss:Allah'tan başka veli ve yardımcı yoktur} ifadesi bağımlılığın öteki yönünü gösterir (2:107). İki bağlam yaratılmışların destek arayışını Allah'ın ihtiyaçsızlığıyla karşı karşıya getirir; bu karşılaştırma yönlerin tersliğini gösterir, özdeşlik kurmaz ve odaktaki yalın koruyucu reddini değiştirmez (17:97, 2:107).
+
+Mülk ve destek ayrımı 34:22'de üç görüntüyle belirginleşir: zerre ağırlığında sahip olunamaması {ar:لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ, tr:lā yamlikūna mithqāla dharratin, gloss:zerre kadarına sahip değiller}, göklerde ve yerde pay bulunmaması {ar:وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ, tr:wa-mā lahum fīhimā min shirk, gloss:ikisinde payları yok} ve Allah'a onların arasından destekçi çıkmaması {ar:وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ, tr:wa-mā lahu minhum min ẓahīr, gloss:onlardan destekçisi yok} (34:22). Bu temas odaktaki {ar:شَرِيكٌۭ, tr:sharīkun, gloss:ortak} ile {ar:وَلِىٌّۭ, tr:waliyyun, gloss:yakın destekçi} ilişkilerine ayrı ayrı dokunur: ilki payı, ikincisi yardımı gündeme getirir (34:22). Göklerde ve yerde ne varsa Allah'a ait oluşu {ar:لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَالْأَرْضِ, tr:li-llāhi mā fī al-samāwāti wa-al-arḍ, gloss:göklerde ve yerde ne varsa Allah'ındır}, O'nun ihtiyaçsız ve övülmeye layık oluşu {ar:ٱلْغَنِىُّ ٱلْحَمِيدُ, tr:al-ghaniyy al-ḥamīd, gloss:muhtaç olmayan ve övülmeye layık} ile yan yana gelir ve desteğin neden gerekmediğini açıklar (31:26). Böylece güçsüzlükten doğabilecek koruyucu ihtiyacı Allah'a yüklenmez; 31:26'da hamd, paylaşılmayan egemenlik ve ihtiyaçsızlık aynı bağımsızlık görünümünde buluşur, mülk ile destek ayrı kalır (31:26).
+
+## Büyüklüğü İlan Etmek
+
+Son {ar:وَ, tr:wa, gloss:ve} üç olumsuz yüklemden büyüklük buyruğuna geçirir. Bu emir yalnızca en son koruyucu reddine değil, {ar:ٱلْحَمْدُ لِلَّهِ, tr:al-ḥamdu lillāhi, gloss:Allah'a hamd} formülüne ve üç tanımlamanın bütününe cevap verir. Biçim II'deki {ar:كَبِّرْهُ, tr:kabbirhu, gloss:O'nu büyük ilan et} muhataptan Allah'ın büyüklüğünü bildirmesini ister; sondaki zamir Allah'a döner, eylem O'na yönelir. Ardından gelen {ar:تَكْبِيرًا, tr:takbīran, gloss:büyüklük ilanı}, aynı biçimden türeyen ve emrin eylemini adlandıran mansup mastardır. Mef'ûl-i mutlak olarak eylemi pekiştirip buyruğu tamamlar; ikinci bir nesne eklemez. Böylece önceki nitelemeler sözlü ilanı hazırlar; emir Allah'ın büyüklüğünü artırmayı değil, onu bildirmeyi ister.
+
+Bu yukarı yönlü ilanın yakın bağlamdaki bedensel karşılığı, okunanı işitince {ar:يَخِرُّونَ, tr:yakhirrūna, gloss:yere kapanırlar} ve çeneleri üzerine secde edenlerin duruşudur: {ar:لِلْأَذْقَانِ سُجَّدًا, tr:li-l-aḏqāni sujjadan, gloss:çeneleri üzerine secde ederek} (17:107). Ağlayışlarına {ar:يَزِيدُهُمْ, tr:yazīduhum, gloss:onların artmasına yol açar} ve {ar:خُشُوعًا, tr:khushūʿan, gloss:huşû} sözleri eşlik eder; böylece huşûlarının arttığı bildirilir (17:109). Büyüklük ilanıyla yan yana gelişinde bu düşüş, son hamdden önce gönüllü bir ibadet duruşu olarak okunabilir; bedenin alçalması Allah'ın yüceliğini söyleyen söze cevap verir (17:107, 17:109, 17:111). Bu okumada seçilmiş secde, aşağılanma yüzünden koruyucuya muhtaç kalmanın karşısında durur; bu bağlantı mümkündür, iki ibadî eylem bağımsız da kalabilir (17:107, 17:109).
+
+{ar:ٱللَّهَ, tr:Allāha, gloss:Allah'ı} ya da {ar:ٱلرَّحْمَٰنَ, tr:al-Raḥmāna, gloss:Rahman'ı} adının çağrılması ve {ar:فَلَهُ الْأَسْمَاءُ الْحُسْنَى, tr:fa-lahu l-asmāʾu l-ḥusnā, gloss:en güzel isimler O'nundur} denmesi tek mercii gösterir (17:110). Aynı ayet namazda {ar:وَلَا تَجْهَرْ بِصَلَاتِكَ, tr:wa-lā tajhar bi-ṣalātika, gloss:namazında sesini yükseltme} ve {ar:وَلَا تُخَافِتْ بِهَا, tr:wa-lā tukhāfit bihā, gloss:sesini kısma} uçlarını verir; {ar:بَيْنَ ذَٰلِكَ, tr:bayna dhālika, gloss:ikisinin arasında} ve {ar:وَابْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا, tr:wa-ibtaghi bayna dhālika sabīlan, gloss:ikisinin arasında bir yol ara} diye bu iki uç arasında yol aramayı buyurur (17:110). Namazdaki bu ara ölçü, odaktaki büyüklük buyruğunu yalnızca ses yüksekliğiyle açıklamayan bir okuma sunabilir (17:110, 17:111). Bu bağlantı namazdaki ölçüyle sınırlıdır: odaktaki emrin akustik kuvvetini açık bırakır ve genel bir tekbir kuralı koymaz; yüceltmeyi ses şiddetine indirgemeyen ihtimalli bir okumadır (17:110, 17:111).
+
+Büyüklük, küçüğün karşıtı olan ölçü ve derece fikrini taşıdığında, Allah'ı sıradan ölçünün üstünde ilan etme yönünü de açar. {ar:وَلَهُ ٱلْكِبْرِيَآءُ فِى ٱلسَّمَٰوَٰتِ وَالْأَرْضِ, tr:wa-lahu al-kibriyāʾu fī al-samāwāti wa-al-arḍ, gloss:göklerde ve yerde ululuk O'nundur} sözü bu büyüklüğe kozmik bir ölçek verir (45:37). {ar:وَرَبَّكَ فَكَبِّرْ, tr:wa-rabbaka fa-kabbir, gloss:Rabbini yücelt} buyruğu ise doğrudan söyleyiş yankısı kurar (74:3). Böylece 45:37 kapsamı kozmik ölçekte duyurur, 74:3 yüceltme buyruğuna doğrudan bir yankı verir; odaktaki {ar:كَبِّرْهُ, tr:kabbirhu, gloss:O'nu büyük ilan et} ile {ar:تَكْبِيرًا, tr:takbīran, gloss:büyüklük ilanı} bu iki katkıyı bildirilen büyüklük ve ilan eylemi olarak bir araya getirir (45:37, 74:3). Bu karşılaştırma hayret tepkisi gerektirmez; ayetlerin biçimleri ve ibadet bağlamları ayrı kalırken büyüklük ilanına kozmik ölçek ve doğrudan buyruk yankısı katar (45:37, 74:3).
+
+Yerel söz dizisi {ar:قُلِ, tr:quli, gloss:söyle} ile sözü dışa vurur, {ar:ٱلْحَمْدُ, tr:al-ḥamdu, gloss:hamd} ile değerlendirme merkezini kurar, üç ret ile de bu övgünün dayanaklarını verir. {ar:كَبِّرْهُ, tr:kabbirhu, gloss:O'nu büyük ilan et} buyruğu ve {ar:تَكْبِيرًا, tr:takbīran, gloss:büyüklük ilanı} mastarı bildirimi seslendirilen bir yüceltmeyle tamamlar. Bu yerel okuma hamdi ayetin tek etkisi saymaz, insana üstünlük taslamaz ve Allah'ın büyüklüğünün artabileceğini ileri sürmez. Böylece nitelemeler sırası, muhatabın ağzından çıkan hamd ve büyüklük ilanı olarak işitilebilir.
+
+</editorial_prose>
