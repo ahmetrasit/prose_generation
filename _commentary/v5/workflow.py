@@ -177,9 +177,6 @@ class Layout:
     def middle_prompt(self) -> Path:
         return self.input / "middle-layer.prompt.md"
 
-    def middle_review_prompt(self) -> Path:
-        return self.input / "middle-layer.review.prompt.md"
-
     def middle_prose(self) -> Path:
         return self.middle / f"{self.stem}.prose.middle.tr.md"
 
@@ -2119,7 +2116,7 @@ def _build_scope_prompt(layout: Layout, lane: str, packet: dict[str, Any]) -> st
 
 
 def prepare_middle_layer(args: argparse.Namespace) -> dict[str, Any]:
-    """Render hermetic author/reviewer prompts and path-only handoffs."""
+    """Render the hermetic prose-only prompt and same-agent path handoffs."""
     layout = layout_for(args.ayah, _analysis_id(args))
     editorial_path = layout.editorial_prose()
     try:
@@ -2137,88 +2134,61 @@ def prepare_middle_layer(args: argparse.Namespace) -> dict[str, Any]:
         )
     try:
         editorial_prose = editorial_payload.decode("utf-8")
-        author_template = (PROMPTS_ROOT / "middle-layer.md").read_text(
-            encoding="utf-8"
-        )
-        review_template = (PROMPTS_ROOT / "middle-layer-review.md").read_text(
-            encoding="utf-8"
-        )
+        template = (PROMPTS_ROOT / "middle-layer.md").read_text(encoding="utf-8")
     except (OSError, UnicodeDecodeError) as exc:
-        raise WorkflowError(f"Cannot prepare middle-layer prompts: {exc}") from exc
+        raise WorkflowError(f"Cannot prepare middle-layer prompt: {exc}") from exc
     substitutions = {
         "@@AYAH_REF@@": layout.ayah_ref,
         "@@SOURCE_PROSE_PATH@@": _repo_path(editorial_path),
         "@@MIDDLE_PROSE_OUTPUT_PATH@@": _repo_path(layout.middle_prose()),
         "@@SOURCE_PROSE@@": editorial_prose,
     }
-    author_prompt = _render(
-        author_template,
+    prompt = _render(
+        template,
         substitutions,
-        label="middle-layer author prompt",
+        label="middle-layer prompt",
     )
-    review_prompt = _render(
-        review_template,
-        substitutions,
-        label="middle-layer review prompt",
-    )
-    author_payload = author_prompt.encode("utf-8")
-    review_payload = review_prompt.encode("utf-8")
-    for label, payload in (
-        ("author", author_payload),
-        ("review", review_payload),
-    ):
-        if len(payload) > MAX_MIDDLE_PROMPT_BYTES:
-            raise WorkflowError(
-                f"Middle-layer {label} prompt exceeds {MAX_MIDDLE_PROMPT_BYTES} bytes"
-            )
+    prompt_payload = prompt.encode("utf-8")
+    if len(prompt_payload) > MAX_MIDDLE_PROMPT_BYTES:
+        raise WorkflowError(
+            f"Middle-layer prompt exceeds {MAX_MIDDLE_PROMPT_BYTES} bytes"
+        )
     _assert_confined(layout.middle, MIDDLE_ROOT)
     layout.middle.mkdir(parents=True, exist_ok=True)
-    _atomic_write(layout.middle_prompt(), author_payload, root=INPUT_ROOT)
-    _atomic_write(layout.middle_review_prompt(), review_payload, root=INPUT_ROOT)
-    author_prompt_path = _repo_path(layout.middle_prompt())
-    review_prompt_path = _repo_path(layout.middle_review_prompt())
-    prose_output = str(layout.middle_prose().resolve(strict=False))
+    _atomic_write(layout.middle_prompt(), prompt_payload, root=INPUT_ROOT)
+    prompt_path = _repo_path(layout.middle_prompt())
+    follow_up_path = _repo_path(PROMPTS_ROOT / "middle-layer-audit-followup.md")
     return {
-        "schema_version": "commentary-v5-middle-prepared-v3",
+        "schema_version": "commentary-v5-middle-prepared-v4",
         "status": "prepared",
         "analysis_id": layout.analysis_id,
         "ayah_ref": layout.ayah_ref,
-        "author_handoff": {
-            "role": "middle_layer_author",
+        "handoff": {
+            "role": "middle_layer",
             "prompt": str(layout.middle_prompt().resolve(strict=False)),
             "prompt_delivery": "workspace_path",
             "launch_message": (
-                "Read and execute the complete hermetic middle-layer author prompt "
-                f"at workspace path `{author_prompt_path}`."
+                "Read and execute the complete hermetic prompt at workspace path "
+                f"`{prompt_path}`."
             ),
-            "prose_output": prose_output,
+            "prose_output": str(layout.middle_prose().resolve(strict=False)),
             "launch": "fresh_agent",
             "model": "gpt-5.6-luna",
             "reasoning_effort": "max",
-            "orchestrator_output_inspection": False,
-            "retry": False,
-        },
-        "review_handoff": {
-            "role": "middle_layer_reviewer",
-            "prompt": str(layout.middle_review_prompt().resolve(strict=False)),
-            "prompt_delivery": "workspace_path",
-            "launch_message": (
-                "Read and execute the complete hermetic middle-layer reviewer prompt "
-                f"at workspace path `{review_prompt_path}`."
+            "follow_up": str(
+                (PROMPTS_ROOT / "middle-layer-audit-followup.md").resolve(
+                    strict=False
+                )
             ),
-            "prose_output": prose_output,
-            "launch": "fresh_agent",
-            "launch_after": "author_completed",
-            "independent_context": True,
-            "model": "gpt-5.6-luna",
-            "reasoning_effort": "max",
+            "follow_up_delivery": "workspace_path",
+            "follow_up_message": (
+                "Read and execute the complete fixed audit follow-up at workspace "
+                f"path `{follow_up_path}`."
+            ),
             "orchestrator_output_inspection": False,
             "retry": False,
         },
-        "generated_files": [
-            str(layout.middle_prompt().resolve(strict=False)),
-            str(layout.middle_review_prompt().resolve(strict=False)),
-        ],
+        "generated_files": [str(layout.middle_prompt().resolve(strict=False))],
     }
 
 
@@ -2442,10 +2412,9 @@ def prepare(args: argparse.Namespace) -> dict[str, Any]:
             ),
             "middle_layer": (
                 "after editorial completion, run prepare-middle; send only its "
-                "author_handoff workspace-path launch_message to a fresh Luna max "
-                "agent, close it after completion, then send only the review_handoff "
-                "workspace-path launch_message to a second fresh Luna max agent; "
-                "inspect no output and never retry either stage"
+                "handoff workspace-path launch_message to a fresh Luna max agent, "
+                "then send only its fixed workspace-path follow_up_message to the "
+                "same agent; inspect no output and never retry the stage"
             ),
             "invitation": (
                 "after middle-layer completion, run prepare-invitation and launch "
@@ -2550,10 +2519,7 @@ def _parser() -> argparse.ArgumentParser:
     _source_options(prepare_parser)
     middle_parser = subparsers.add_parser(
         "prepare-middle",
-        help=(
-            "Render fresh author/reviewer middle-layer prompts from completed "
-            "editorial prose."
-        ),
+        help="Render a fresh-agent middle-layer prompt from completed editorial prose.",
     )
     middle_parser.add_argument(
         "--ayah",
@@ -2726,15 +2692,11 @@ def main() -> int:
                     errors += 1
                     units.append({"ayah_ref": ref, "status": "error", "error": str(exc)})
             result = units[0] if len(units) == 1 else {
-                "schema_version": "commentary-v5-middle-prepared-batch-v3",
+                "schema_version": "commentary-v5-middle-prepared-batch-v4",
                 "status": "prepared" if not errors else "error",
                 "units": units,
-                "parallel_author_handoffs": [
-                    unit["author_handoff"] | {"ayah_ref": unit["ayah_ref"]}
-                    for unit in units if unit.get("status") == "prepared"
-                ] if not errors else [],
-                "review_handoffs": [
-                    unit["review_handoff"] | {"ayah_ref": unit["ayah_ref"]}
+                "parallel_handoffs": [
+                    unit["handoff"] | {"ayah_ref": unit["ayah_ref"]}
                     for unit in units if unit.get("status") == "prepared"
                 ] if not errors else [],
             }

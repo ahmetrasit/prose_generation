@@ -11,10 +11,10 @@ prepare
   -> one consolidator merges the three prose drafts without dropping findings
   -> same consolidator writes the editorial version without reducing coverage
   -> same consolidator validates only editorial prose and repairs up to 2 times
-  -> script writes hermetic middle-layer author and reviewer prompts per ayah
+  -> script writes one hermetic prose-only middle-layer prompt per ayah
   -> one fresh Luna max agent writes and validates the middle prose
-  -> one second fresh Luna max agent independently reviews and repairs that prose
-  -> orchestrator closes both without inspecting the middle-layer output
+  -> the same agent receives the fixed generic audit through its workspace path
+  -> orchestrator closes it without inspecting the middle-layer output
   -> one fresh invitation agent writes the separate reading invitation
 ```
 
@@ -232,7 +232,7 @@ cycles. After that, the editorial prose is accepted as-is and any remaining
 validator findings are reported. It does not reopen evidence selection or launch
 another agent.
 
-After the final editorial follow-up, render the required middle-layer prompts:
+After the final editorial follow-up, render the required middle-layer prompt:
 
 ```bash
 python3 _commentary/v5/workflow.py prepare-middle \
@@ -240,21 +240,19 @@ python3 _commentary/v5/workflow.py prepare-middle \
   --analysis-id <analysis-id>
 ```
 
-The command atomically writes a complete hermetic author prompt and an
-independent-review prompt, then returns two short path-only messages. Spawn one
-fresh `gpt-5.6-luna` max author and send exactly
-`author_handoff.launch_message`. After that agent completes, close it without
-inspecting the prose. Spawn a second fresh `gpt-5.6-luna` max reviewer with no
-inherited conversation and send exactly `review_handoff.launch_message`.
-Never inline, copy, quote, summarize, or load either prompt into the
+The command atomically writes one complete hermetic prompt and returns two
+short path-only messages. Spawn one fresh `gpt-5.6-luna` max agent and send
+exactly `handoff.launch_message`. After its first turn, keep the same agent and
+send exactly `handoff.follow_up_message`, which points to the fixed canonical
+audit file. Never inline, copy, quote, summarize, or load either file into the
 orchestrator conversation.
 
-The reviewer directly compares the editorial source with the draft, repairs
-only the prose, and runs both prose validators within its single turn. This is
-the fixed second stage, not a retry. The orchestrator does not inspect, diff,
-validate, summarize, or customize the output and never sends an output-derived
-follow-up. It does not retry, rerun, relaunch, or replace either agent if a
-stage fails. The only new durable middle-layer output is:
+The same agent re-inventories the source, rebuilds its synthesis clusters,
+performs the structural warning challenge, repairs only the prose, and runs
+both prose validators again. The orchestrator does not inspect, diff, validate,
+summarize, or customize the output and never sends an output-derived message.
+It does not retry, rerun, relaunch, or replace the agent if the stage fails.
+The only new durable middle-layer output is:
 
 ```text
 _commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.prose.middle.tr.md

@@ -31,6 +31,18 @@ class ValidateMiddleProseTests(unittest.TestCase):
     def test_accepts_ledger_free_traceable_prose(self) -> None:
         self.assertEqual(self.codes(PROSE), set())
 
+    def test_reports_transient_structural_metrics_without_a_ledger(self) -> None:
+        metrics = validate_middle_prose.structural_metrics(
+            SOURCE, PROSE, ayah_ref="1:5"
+        )
+        self.assertEqual(metrics["source_paragraph_count"], 2)
+        self.assertEqual(metrics["output_paragraph_count"], 1)
+        self.assertEqual(metrics["multi_source_output_paragraphs"], 1)
+        self.assertEqual(metrics["single_source_output_paragraphs"], 0)
+        self.assertEqual(metrics["same_position_singleton_paragraphs"], 0)
+        self.assertEqual(metrics["output_to_source_paragraph_ratio"], 0.5)
+        self.assertEqual(metrics["multi_source_output_paragraph_ratio"], 1.0)
+
     def test_requires_every_source_paragraph_citation(self) -> None:
         self.assertIn(
             "source_coverage",

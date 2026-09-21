@@ -34,6 +34,47 @@ def _words(text: str) -> int:
     return len(text.split())
 
 
+def structural_metrics(
+    source_text: str, prose_text: str, *, ayah_ref: str
+) -> dict[str, int | float]:
+    """Derive transient synthesis diagnostics without a persisted ledger."""
+
+    source = validate_concise.prose_paragraphs(source_text)
+    prose = validate_concise.prose_paragraphs(prose_text)
+    source_words = _words(source_text)
+    output_words = _words(prose_text)
+    multi_source = 0
+    single_source = 0
+    same_position_singleton = 0
+    for output_number, paragraph in enumerate(prose, start=1):
+        cited = {
+            number
+            for cited_ayah, numbers in validate_concise.citation_groups(paragraph)
+            if cited_ayah == ayah_ref
+            for number in numbers
+        }
+        if len(cited) > 1:
+            multi_source += 1
+        elif len(cited) == 1:
+            single_source += 1
+            if cited == {output_number}:
+                same_position_singleton += 1
+    return {
+        "source_word_count": source_words,
+        "output_word_count": output_words,
+        "retained_word_ratio": output_words / source_words if source_words else 0.0,
+        "source_paragraph_count": len(source),
+        "output_paragraph_count": len(prose),
+        "output_to_source_paragraph_ratio": len(prose) / len(source) if source else 0.0,
+        "multi_source_output_paragraphs": multi_source,
+        "single_source_output_paragraphs": single_source,
+        "same_position_singleton_paragraphs": same_position_singleton,
+        "multi_source_output_paragraph_ratio": (
+            multi_source / len(prose) if prose else 0.0
+        ),
+    }
+
+
 def _malformed_citation_present(paragraph: str) -> bool:
     """Return true when any paragraph marker is outside a valid citation."""
 
@@ -172,19 +213,13 @@ def main(argv: list[str] | None = None) -> int:
         ayah_ref=args.ayah_ref,
         max_paragraph_words=args.max_paragraph_words,
     )
+    metrics = structural_metrics(source_text, prose_text, ayah_ref=args.ayah_ref)
     if args.json:
         print(
             json.dumps(
                 {
                     "status": "failed" if findings else "ok",
-                    "source_paragraphs": len(
-                        validate_concise.prose_paragraphs(source_text)
-                    ),
-                    "output_paragraphs": len(
-                        validate_concise.prose_paragraphs(prose_text)
-                    ),
-                    "source_words": _words(source_text),
-                    "output_words": _words(prose_text),
+                    "metrics": metrics,
                     "findings": [asdict(item) for item in findings],
                 },
                 ensure_ascii=False,
@@ -202,8 +237,12 @@ def main(argv: list[str] | None = None) -> int:
     else:
         print(
             "ok: "
-            f"{len(validate_concise.prose_paragraphs(source_text))} source paragraphs; "
-            f"{_words(source_text)} -> {_words(prose_text)} words"
+            f"{metrics['source_word_count']} -> {metrics['output_word_count']} words; "
+            f"{metrics['source_paragraph_count']} -> "
+            f"{metrics['output_paragraph_count']} paragraphs; "
+            f"{metrics['multi_source_output_paragraphs']} multi-source; "
+            f"{metrics['same_position_singleton_paragraphs']} same-position "
+            "singletons"
         )
     return 1 if findings else 0
 

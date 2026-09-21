@@ -20,13 +20,12 @@ prepare
   -> same consolidator validates the editorial prose again
   -> same consolidator repairs mechanical validator failures, up to 2 cycles
   -> close consolidator
-  -> script renders hermetic middle-layer author and reviewer prompts
-  -> send only the script-produced author workspace-path launch message
-  -> 1 fresh Luna max author writes and validates middle prose
-  -> close the author without orchestrator output inspection
-  -> send only the script-produced reviewer workspace-path launch message
-  -> 1 second fresh Luna max agent independently reviews and validates the prose
-  -> close the reviewer without orchestrator output inspection
+  -> script renders one hermetic prose-only middle-layer prompt
+  -> send only the script-produced workspace-path launch message
+  -> 1 fresh Luna max agent writes and validates middle prose
+  -> same agent receives only the fixed workspace-path audit message
+  -> same agent re-inventories, challenges synthesis, repairs, and validates again
+  -> close the agent without orchestrator output inspection
   -> render the invitation prompt from final editorial prose
   -> 1 fresh invitation agent writes and validates the reading invitation
   -> close invitation agent
@@ -49,8 +48,8 @@ launch V5 agents with `codex exec`, shell scripts, or ad hoc terminal sessions.
 The standing V5 model assignments are `gpt-5.6-luna` at `max` reasoning effort
 for scope, post-editorial middle-layer, and invitation agents, and `gpt-5.6-sol`
 at `max` reasoning effort for the CE consolidator/editorial session. Every
-middle-layer run uses two fresh Luna max agents with no shared conversation: an
-author followed by an independent reviewer.
+middle-layer run uses one fresh Luna max agent for both its authoring turn and
+its fixed follow-up audit turn.
 
 An operator may explicitly supply a model override for a particular run. Treat
 that override as scoped to the named run only; do not rewrite the standing model
@@ -59,10 +58,9 @@ defaults for later V5 work. For the next fresh S1 run requested after
 scope discovery/composition, CE consolidation/editorial/qualification follow-up,
 and invitation.
 
-Both post-editorial middle-layer roles are fixed to fresh `gpt-5.6-luna` agents
-at `max` and are not changed by the historical S1 Astra override above. Change
-that assignment only when an operator explicitly overrides the middle-layer
-stage itself.
+The post-editorial middle-layer agent is fixed to fresh `gpt-5.6-luna` at `max`
+and is not changed by the historical S1 Astra override above. Change that
+assignment only when an operator explicitly overrides the middle-layer stage.
 
 ## Operations Monitor
 
@@ -638,7 +636,7 @@ replace or modify the editorial source and is not a new evidence-selection
 stage. The only durable output of a new run is the cited middle prose; source
 inventories and audits are private working procedures, not files.
 
-Render both hermetic prompts from the final editorial prose:
+Render the hermetic prompt from the final editorial prose:
 
 ```bash
 python3 _commentary/v5/workflow.py prepare-middle \
@@ -650,54 +648,52 @@ The command atomically writes:
 
 ```text
 _commentary/v5/input/<analysis-id>/sNNN/S_A/middle-layer.prompt.md
-_commentary/v5/input/<analysis-id>/sNNN/S_A/middle-layer.review.prompt.md
 ```
 
-Both stages may write only this target:
+The agent may write only this target:
 
 ```text
 _commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.prose.middle.tr.md
 ```
 
 Start one fresh `gpt-5.6-luna` agent at `max` reasoning effort with no inherited
-conversation history. Its only message must be exactly the short
-`author_handoff.launch_message` emitted by `prepare-middle`. That message tells
+conversation history. Its first message must be exactly the short
+`handoff.launch_message` emitted by `prepare-middle`. That message tells
 the agent to read and execute `middle-layer.prompt.md` at its workspace path.
 Never open, copy, paste, quote, embed, summarize, or otherwise inject the prompt
 contents into the orchestrator conversation or the agent message. Do not
 prepend an explanation, append instructions, supply upstream material, reuse
-the CE session, or provide ayah-specific advice. The author performs its own
+the CE session, or provide ayah-specific advice. The agent performs its own
 transient inventory and semantic audit, writes only the prose, and runs
 `validate_prose.py` plus `validate_middle_prose.py` within that single turn.
 
-When the author turn completes, do not open, read, search, summarize, diff,
+When the first turn completes, do not open, read, search, summarize, diff,
 count, validate, or otherwise inspect the prose. Do not use the author's report
-to compose a correction. Close the author, then start a second fresh
-`gpt-5.6-luna` agent at `max` with no inherited author or orchestrator context.
-Its only message must be exactly `review_handoff.launch_message`, with no prefix
-or suffix. That path message directs it to the generated
-`middle-layer.review.prompt.md`, which contains the fixed independent review
-procedure and source boundary. Never inline or customize that prompt.
+to compose a correction. Send exactly the short
+`handoff.follow_up_message` emitted by `prepare-middle`, with no prefix or
+suffix, to the same agent. That path message directs it to the fixed canonical
+`middle-layer-audit-followup.md`. Never inline or customize that file.
 
-The reviewer re-inventories the editorial source, compares source to prose and
-prose to source, challenges weak synthesis, repairs only the same prose file,
-and runs both validators within its single turn. It must judge semantic
-preservation from actual wording, not from citation presence or an author's
-self-report. This is the normal second role of the workflow, not a retry.
+The same agent re-reads the complete filled prompt, editorial source, and
+current prose; rebuilds its transient atomic inventory and synthesis clusters;
+computes the structural warning metrics; performs the mandatory adversarial
+synthesis challenge when triggered; repairs only the prose; and runs both
+validators again. This fixed second turn is part of the normal workflow, not a
+retry and not an output-derived intervention.
 
-After the reviewer turn, close it. There is no same-agent follow-up, third
-message, bespoke repair turn, ledger, span map, orchestrator-run validator, or
-orchestrator semantic gate. The orchestrator may record only whether each agent
-reports its validators as `ok` and whether each turn completed; it does not
+After the second turn, close the agent. There is no third message, bespoke
+repair turn, reviewer, ledger, span map, orchestrator-run validator, or
+orchestrator semantic gate. The orchestrator may record only whether the agent
+reports both validators as `ok` and whether both turns completed; it does not
 independently verify those claims or inspect prose, citations, metrics, or
-diffs. If either agent reports an unresolved failure, report the stage as
-needing attention and stop. There is no retry, rerun, relaunch, resend,
-replacement agent, or failure-specific repair path. A launch failure likewise
-ends the stage.
+diffs. If the agent reports an unresolved failure, report the stage as needing
+attention and stop. There is no retry, rerun, relaunch, resend, replacement
+agent, or failure-specific repair path. A launch failure likewise ends the
+stage.
 
 Historical `*.middle.claims.json` files and `validate_middle_layer.py` remain
-available for completed V2 outputs only. Neither new agent reads, edits, or
-recreates them.
+available for completed V2 outputs only. The new agent does not read, edit, or
+recreate them.
 
 This stage has no separate monitor lifecycle role. Existing canonical and
 invitation events remain operational status only and do not certify
@@ -708,7 +704,7 @@ separate workflow decision.
 ## 8. Reading Invitation
 
 After CE has written, revised, and validated the final editorial prose and the
-required two-agent middle-layer stage has closed, generate the separate reading
+required two-turn middle-layer stage has closed, generate the separate reading
 invitation as the final required stage for that ayah. The invitation still uses
 the final editorial prose, not the middle-layer derivative. It follows one or
 two main channels of resonance in two to four Turkish paragraphs. A channel is
@@ -784,7 +780,7 @@ semantic quality. Regenerate it whenever its editorial source changes.
 The monitor considers a newly registered ayah operationally complete only after
 both CE validation and invitation validation have completed. Because the
 monitor has no middle-layer role, the orchestrator must also have completed the
-fixed author-and-reviewer middle-layer protocol before treating the runbook sequence as
+fixed same-agent two-turn middle-layer protocol before treating the runbook sequence as
 complete; it does so without inspecting the outputs.
 
 ## Completed Surah Continuation
@@ -841,13 +837,12 @@ exist; as each ayah's three scope prose files are ready, spawn that ayah's fresh
 `gpt-5.6-sol` max consolidator and carry that same consolidator through the
 editorial follow-up and qualification/image presentation follow-up. Each ayah
 remains an independent workflow with its own scope agents, consolidator, fresh
-middle-layer author and reviewer, invitation agent, paths, and Git-visible
-outputs. As soon as an ayah's CE stage completes, render its hermetic
-middle-layer prompts and send only `author_handoff.launch_message` to a fresh
-author. When that turn completes, close it without inspecting the prose and
-send only `review_handoff.launch_message` to a second fresh agent. After the
-reviewer turn closes, render and launch the invitation. Do not wait for CE or
-middle-layer work to finish on the other ayat.
+middle-layer agent, invitation agent, paths, and Git-visible outputs. As soon
+as an ayah's CE stage completes, render its hermetic middle-layer prompt and
+send only `handoff.launch_message` to a fresh agent. When that turn completes,
+send only `handoff.follow_up_message` to the same agent without inspecting the
+prose. After the second turn closes, render and launch the invitation. Do not
+wait for CE or middle-layer work to finish on the other ayat.
 
 Different ayat and analysis IDs have disjoint paths and may run concurrently.
 Do not run two orchestrators for the same analysis ID and ayah at once.
@@ -874,17 +869,17 @@ indefinitely.
 - Preflight checks happen before agent orchestration starts.
 - After scope agents are launched, do not introduce orchestrator-run validation
   gates. The CE consolidator runs its editorial prose validator, and the
-  post-editorial Luna author and reviewer each run the two validators embedded
-  in their filled prompts.
+  post-editorial Luna agent runs the two validators embedded in its filled
+  prompt during both turns.
 - Do not modify agent outputs yourself.
 - Treat partial work as ordinary Git-visible state.
 - Inspect canonical and invitation prose under their existing rules before
   committing the unit. The middle-layer exception is strict: do not inspect its
   prose, citations, validator output, or diff. Stage only its exact prose target
-  and rely on the fixed two-agent protocol and agent-reported completion status.
+  and rely on the fixed two-turn protocol and agent-reported completion status.
 - Never send a middle-layer agent an ayah-specific hint, output-derived
-  correction, second message, inlined prompt, or anything other than that
-  role's exact path-only launch message returned by `prepare-middle`.
+  correction, third message, inlined prompt, inlined follow-up, or anything
+  other than the two exact path-only messages returned by `prepare-middle`.
 - Never retry, rerun, relaunch, or replace a failed middle-layer agent. Report
   the stage as needing attention and stop its sequence.
 - If a launched agent terminates before appending its final lifecycle event,

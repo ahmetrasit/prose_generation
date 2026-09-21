@@ -232,7 +232,7 @@ class CliSurfaceTests(unittest.TestCase):
         self.assertNotIn("@@MICRO_SCOPE_LEDGER@@", template)
         self.assertNotIn("@@CANONICAL_PROMPT_V2@@", template)
 
-    def test_prepare_middle_builds_ledger_free_author_and_review_handoffs(self) -> None:
+    def test_prepare_middle_builds_ledger_free_same_agent_handoff(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             input_root = root / "input"
@@ -257,65 +257,50 @@ class CliSurfaceTests(unittest.TestCase):
                 result = workflow.prepare_middle_layer(
                     argparse.Namespace(ayah="1:5", analysis_id="trial")
                 )
-                author_prompt_path = Path(result["author_handoff"]["prompt"])
-                review_prompt_path = Path(result["review_handoff"]["prompt"])
-                author_prompt = author_prompt_path.read_text(encoding="utf-8")
-                review_prompt = review_prompt_path.read_text(encoding="utf-8")
+                prompt_path = Path(result["handoff"]["prompt"])
+                prompt = prompt_path.read_text(encoding="utf-8")
 
-        for prompt in (author_prompt, review_prompt):
-            self.assertIn("Yolun nasıl işlendiğini açıklayan nihai metin.", prompt)
-            self.assertNotRegex(prompt, workflow.MARKER_RE)
-            self.assertIn("claim ledger", prompt)
-            self.assertNotIn("commentary-v5-middle-claim-ledger-v2", prompt)
-            self.assertNotIn("semantic_units", prompt)
-            self.assertIn("validate_middle_prose.py", prompt)
-        self.assertIn("Synthesis procedure", author_prompt)
-        self.assertIn("Independent semantic audit", review_prompt)
-        self.assertIn("Independent synthesis audit", review_prompt)
+        normalized_prompt = " ".join(prompt.split())
+        self.assertIn("Yolun nasıl işlendiğini açıklayan nihai metin.", prompt)
+        self.assertNotRegex(prompt, workflow.MARKER_RE)
+        self.assertIn("Do not write a claim ledger", prompt)
+        self.assertNotIn("commentary-v5-middle-claim-ledger-v2", prompt)
+        self.assertNotIn("semantic_units", prompt)
+        self.assertIn("validate_middle_prose.py", prompt)
+        self.assertIn("Atomic inventory", prompt)
+        self.assertIn("Synthesis clustering and coverage plan", prompt)
+        self.assertIn("Treat source mirroring as a diagnostic failure", prompt)
+        self.assertIn("mandatory adversarial synthesis challenge", normalized_prompt)
+        self.assertIn("review triggers, not compression targets", normalized_prompt)
         self.assertEqual(
-            result["schema_version"], "commentary-v5-middle-prepared-v3"
+            result["schema_version"], "commentary-v5-middle-prepared-v4"
         )
-        self.assertEqual(result["author_handoff"]["role"], "middle_layer_author")
-        self.assertEqual(
-            result["review_handoff"]["role"], "middle_layer_reviewer"
+        handoff = result["handoff"]
+        self.assertEqual(handoff["role"], "middle_layer")
+        self.assertEqual(handoff["model"], "gpt-5.6-luna")
+        self.assertEqual(handoff["reasoning_effort"], "max")
+        self.assertFalse(handoff["orchestrator_output_inspection"])
+        self.assertFalse(handoff["retry"])
+        self.assertEqual(handoff["prompt_delivery"], "workspace_path")
+        self.assertEqual(handoff["follow_up_delivery"], "workspace_path")
+        self.assertNotIn(
+            "Yolun nasıl işlendiğini açıklayan nihai metin.",
+            handoff["launch_message"],
         )
-        for key in ("author_handoff", "review_handoff"):
-            handoff = result[key]
-            self.assertEqual(handoff["model"], "gpt-5.6-luna")
-            self.assertEqual(handoff["reasoning_effort"], "max")
-            self.assertFalse(handoff["orchestrator_output_inspection"])
-            self.assertFalse(handoff["retry"])
-            self.assertEqual(handoff["prompt_delivery"], "workspace_path")
-            self.assertNotIn(
-                "Yolun nasıl işlendiğini açıklayan nihai metin.",
-                handoff["launch_message"],
-            )
-            self.assertNotIn("<source_prose>", handoff["launch_message"])
-            self.assertLess(len(handoff["launch_message"]), 500)
-            self.assertNotIn("ledger_output", handoff)
-            self.assertNotIn("follow_up_message", handoff)
+        self.assertNotIn("<source_prose>", handoff["launch_message"])
+        self.assertLess(len(handoff["launch_message"]), 500)
+        self.assertNotIn("ledger_output", handoff)
         self.assertIn(
-            str(author_prompt_path.resolve(strict=False)),
-            result["author_handoff"]["launch_message"],
+            str(prompt_path.resolve(strict=False)), handoff["launch_message"]
         )
         self.assertIn(
-            str(review_prompt_path.resolve(strict=False)),
-            result["review_handoff"]["launch_message"],
+            "middle-layer-audit-followup.md", handoff["follow_up_message"]
         )
-        self.assertTrue(result["review_handoff"]["independent_context"])
-        self.assertEqual(result["review_handoff"]["launch_after"], "author_completed")
-        self.assertEqual(len(result["generated_files"]), 2)
-        self.assertEqual(
-            result["author_handoff"]["prose_output"],
-            result["review_handoff"]["prose_output"],
-        )
-        self.assertTrue(result["author_handoff"]["prompt"].endswith(
+        self.assertEqual(len(result["generated_files"]), 1)
+        self.assertTrue(handoff["prompt"].endswith(
             "input/trial/s001/1_5/middle-layer.prompt.md"
         ))
-        self.assertTrue(result["review_handoff"]["prompt"].endswith(
-            "input/trial/s001/1_5/middle-layer.review.prompt.md"
-        ))
-        self.assertTrue(result["author_handoff"]["prose_output"].endswith(
+        self.assertTrue(handoff["prose_output"].endswith(
             "middle/trial/s001/1_5/1_5.prose.middle.tr.md"
         ))
 
@@ -334,21 +319,35 @@ class CliSurfaceTests(unittest.TestCase):
                         argparse.Namespace(ayah="1:5", analysis_id="trial")
                     )
 
-    def test_middle_orchestration_is_two_fresh_path_only_agents(self) -> None:
+    def test_middle_audit_followup_is_fixed_and_placeholder_free(self) -> None:
+        followup = (
+            workflow.PROMPTS_ROOT / "middle-layer-audit-followup.md"
+        ).read_text(encoding="utf-8")
+        normalized = " ".join(followup.split())
+
+        self.assertNotRegex(followup, workflow.MARKER_RE)
+        self.assertIn("Do not cap a source paragraph at one unit", normalized)
+        self.assertIn("mandatory adversarial synthesis challenge", normalized)
+        self.assertIn("diagnostic triggers only", normalized)
+        self.assertIn("Repair only the same reader-prose output", normalized)
+        self.assertIn("Do not write a claim ledger", normalized)
+
+    def test_middle_orchestration_is_same_agent_path_only_and_has_no_retry(self) -> None:
         runbook = (workflow.V5_ROOT / "ORCHESTRATION.md").read_text(
             encoding="utf-8"
         )
         section = runbook.split(
             "## 7. Post-Editorial Middle-Layer Consolidation", 1
         )[1].split("## 8. Reading Invitation", 1)[0]
+        normalized = " ".join(section.split())
 
-        self.assertIn("author_handoff.launch_message", section)
-        self.assertIn("review_handoff.launch_message", section)
-        self.assertIn("second fresh", section)
+        self.assertIn("handoff.launch_message", section)
+        self.assertIn("handoff.follow_up_message", section)
+        self.assertIn("to the same agent", section)
         self.assertIn("Never open, copy, paste, quote, embed", section)
         self.assertIn("There is no retry, rerun, relaunch, resend", section)
-        self.assertIn("There is no same-agent follow-up", section)
-        self.assertNotIn("claim ledger", section.lower())
+        self.assertIn("There is no third message", section)
+        self.assertIn("The new agent does not read, edit, or recreate", normalized)
 
     def test_prepare_invitation_embeds_only_final_editorial_prose(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
