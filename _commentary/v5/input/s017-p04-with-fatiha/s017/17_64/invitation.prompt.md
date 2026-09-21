@@ -1,0 +1,199 @@
+# V5 reading invitation — 17:64
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p04-with-fatiha/s017/17_64/17_64.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p04-with-fatiha/s017/17_64/17_64.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Erişim ve Sarsıntı
+
+Baştaki vav, emir söylemini dışarıdan sürdürüp ilk buyruğa bağlar: {ar:وَٱسْتَفْزِزْ, tr:wa-istafziz, gloss:sarsıp yerinden oynat}. Önceki öncülü burada adlandırmadan zinciri devam ettirir. Emirlerdeki görünmeyen fail ikinci tekil eril muhataptır; {ar:بِصَوْتِكَ, tr:biṣawtika, gloss:sesinle}, {ar:وَأَجْلِبْ عَلَيْهِم, tr:wa-ajlib ʿalayhim, gloss:onlara karşı kuvvet topla}, {ar:وَشَارِكْهُمْ, tr:wa-shārik-hum, gloss:onlarla ortak ol} ve {ar:وَعِدْهُمْ, tr:wa-ʿidhum, gloss:onlara vaatte bulun} aynı failin araç ve eylemleri olarak sıralanır. Kapanış bildirimi ise vaadin faili olarak {ar:ٱلشَّيْطَٰنُ, tr:al-shayṭānu, gloss:Şeytan} adını açıkça verir; bu yerel özne, emirlerin muhatabının kim olduğunu söylemez.
+
+İlk hedef, {ar:مَنِ ٱسْتَطَعْتَ مِنْهُمْ, tr:man istaṭaʿta minhum, gloss:onlardan gücünün yettiği kimseler} sözleriyle açılır ve aynı cümlede daralır. {ar:مَن, tr:man, gloss:kim} ilk emrin nesnesi olurken onu niteleyen fiil cümlesine de geçit verir. {ar:ٱسْتَطَعْتَ, tr:istaṭaʿta, gloss:gücün yetti} ikinci tekil eril geçmiş çekimiyle muhatabın yapabilme gücünü ya da elverişli koşulunu hedefin ölçüsü yapar: ölçüt itaat veya boyun eğme değil, kapasitedir. Sonra {ar:مِنْهُمْ, tr:minhum, gloss:onlardan} alanı anılan grubun içindeki erişilebilir bir alt kümeyle kapatır. Böylece geniş açılan “kim olursa olsun” hedefi kabiliyete göre sınırlanır; alt kümenin sayısı, oranı ve bu erişimin sonuç verip vermeyeceği belirlenmez.
+
+Bu kapasite sınırı, çevredeki insan ilişkileriyle somutlaşır: secdeye karşı çıkıştan sonra Âdem’in soyuna yönelen tehdit gelir, ardından Şeytan’ın izinden gidenler ve onlar için eksiksiz karşılık anılır; daha sonra Allah’ın kulları üzerinde Şeytan’a ait bir {ar:سُلْطَٰنٌۭ, tr:sulṭān, gloss:otorite} bulunmadığı ve {ar:وَكَفَىٰ بِرَبِّكَ وَكِيلًۭا, tr:wa-kafā bi-rabbika wakīlā, gloss:Rabbin vekil olarak yeter} olduğu bildirilir (17:61, 17:62, 17:63, 17:65). 17:63’te izleyenlerin {ar:مَن تَبِعَكَ مِنْهُمْ, tr:man tabiʿaka minhum, gloss:sana uyanlar arasından} diye anılması, gücün yettiği insan sınıfına çevreden bir karşılık sunar; izleme sözü kolay yönelme ya da direnç göstermeden uyma çağrışımı taşır, fakat bu yankı odaktaki kapasite ölçüsünü itaat ölçüsüne dönüştürmez. 17:65, kullar üzerindeki egemenliğin Şeytan’a ait olmayışını ve Rabbin koruyucu yeterliliğini öne çıkar; korunan kulların kapsamını sayısallaştırmaz. Bu çerçevede emir zinciri insanları saflara çekmeye ve yanıt istemeye yönelen bir kampanya gibi okunabilir: seferberlik buyruğu olasıdır, tamamlanmış istila veya evrensel itaat ise ileri sürülmez.
+
+Bu ilk buyruğun huzursuz edici gücü, fiilin anlam alanındaki hafiflik ve sakin, yerleşik durumda kalamama bağıyla belirginleşir. {ar:ٱسْتَفْزِزْ, tr:istafziz, gloss:sarsıp yerinden oynat} birine uygulandığında onu tedirgin edip dengesini bozarak eski kararlılığından çıkarma yönüne uzanır. İnsanları dürtüp harekete geçiren Şeytanlar sahnesi bu baskıyı eyleme doğru iter (19:83). Böylece sarsma, sırf şaşırtmaktan daha belirgin bir istikrar bozma hamlesidir; bedeni zorla sürükleme anlamı ise bu okumanın parçası değildir. Fiilin ilişkili başka bir kullanımındaki aldatıp tehlikeye sürükleme dalı kapanıştaki {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş} ile temas kurar: vaat bu tehlikeli aldatma yankısını eklerken sarsma anlamını yerinden etmez.
+
+İç dengeyi bozma, mekândan çıkarılmaya kadar uzanabilecek bir eşik de açar. Odaktaki {ar:ٱسْتَفْزِزْ, tr:istafziz, gloss:sarsıp yerinden oynat} fiil ailesi muhatabın yerinden sarsılmaya kalkışılmasını {ar:لَيَسْتَفِزُّونَكَ, tr:layastafizzūnaka, gloss:seni yerinden sarsmaya kalkışmaları} biçiminde anlatır; hemen ardından {ar:مِنَ ٱلْأَرْضِ, tr:mina al-arḍi, gloss:yerden} ile {ar:لِيُخْرِجُوكَ مِنْهَا, tr:li-yukhrijūka minhā, gloss:seni oradan çıkarmaları} yerinden edilmeyi açıkça kurar (17:76). Bu ayrı kışkırtma sahnesi, odaktaki sarsıntıya olası bir mekânsal son nokta olarak sürgünü ekler; bağlantı 17:76’daki sahneye aittir, odaktaki her sarsmanın sürgünle biteceğini söylemez. İlk insan çiftinin bahçeden çıkarılmasını anlatan {ar:أَخْرَجَ أَبَوَيْكُم مِّنَ ٱلْجَنَّةِ, tr:akhraja abawaykum mina al-jannah, gloss:atalarınızı bahçeden çıkardı} ise farklı bir fiille, kök tekrarı olmaksızın, bu yerinden edilme temasına ayrı bir yankı katar (7:27).
+
+Sarsma buyruğunun hemen ardındaki {ar:بِصَوْتِكَ, tr:biṣawtika, gloss:sesinle}, etkinin ilk aracını işitilebilir ses olarak kurar. Bi- sesi eylemin aracı yapar, sondaki -ka ise aracı tekil muhataba bağlar; aynı iyelik kalıbı daha sonra kuvvetlerle de döner. Ses canlı ya da cansız kaynaklardan çıkabilir ve açılış emrinden sonra sıralanan ilk araçtır; böylece erişim önce işitme yolunda tasarlanır. Belirli bir söz, ezgi ya da dinleyici tepkisi verilmez. Fiilin ilişkili bir kullanımı, ses veya çağrının birini hafifçe harekete geçirip yanına çekebildiğini de düşündürür; bu temas sarsmayı işitilebilir bir yakınlaşma olarak duyurur.
+
+{ar:بِصَوْتِكَ, tr:biṣawtika, gloss:sesinle} ifadesinin içeriğinin açık kalması, tekil sesi çevresindeki konuşma ihtimallerine bağlar. İnsan ve cin şeytanlarının birbirlerine aldatıcı söz süsleri ilham etmesi, onu daha geniş bir yanıltıcı iletişim ağı içinde düşündürür (6:112); sesin alçaltılmasının öğütlendiği sahne ise işitilebilirliğin kendi başına şeytanî olmadığını gösterir (31:19). Sözlük açıklamalarından biri sesi çağrıya verilen karşılıkla ilişkilendirirken, diğeri susup dinlemeyi temel alır ve ilk açıklamayı reddeder. Şeytan’ın zorlayıcı bir yetkisi olmadığını, çağırdığını ve insanların karşılık verdiğini söyleyen söz, ilk açıklamayla bağlamsal bir çağrı-cevap yankısı kurar (14:22); bu sahne yankıyı destekler, fakat ses sözcüğünün sözlük anlamına hükmetmez.
+
+Çağrı ve karşılık sahnesi baskının yanında insanın karar payını da görünür kılar. Şeytan’ın {ar:مَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى, tr:mā kāna lī ʿalaykum min sulṭānin illā an daʿawtukum fa-stajabtum lī, gloss:çağırdım ve karşılık verdiniz} sözü, odaktaki {ar:وَٱسْتَفْزِزْ, tr:wa-istafziz, gloss:sarsıp yerinden oynat} baskısının gerçek bir yönlendirme olabileceğini, insan yanıtının ise açık kaldığını gösterir (14:22). Aynı ayetteki ortaklık itirafı da odaktaki {ar:وَشَارِكْهُمْ, tr:wa-shārik-hum, gloss:onlarla ortak ol} buyruğuna yankı verir; çağrıya yanıtın yanında ortaklık da bu insanî ilişkinin bir parçasıdır (14:22). İnsanları dürten baskı sürer (19:83); bu sahnenin {ar:مَنِ ٱسْتَطَعْتَ مِنْهُمْ, tr:man istaṭaʿta minhum, gloss:onlardan gücünün yettiği kimseler} çevresinde açtığı gönüllü yanıt yankısı sınırlıdır ve kapasite ölçüsünü itaat ölçüsüne çevirmez. Şeytanî dürtü geldiğinde {ar:فَٱسْتَعِذْ بِٱللَّهِ, tr:fa-staʿidh bi-llāh, gloss:Allah’a sığın} buyruğu baskıya karşı ayrı bir eylem yolu sunar (41:36); bu sığınma 17:64’teki emirlerden değil, başka bir ayetin karşı hareketinden gelir.
+
+## Ses ve Seferberlik
+
+Vavın eklediği {ar:وَأَجْلِبْ عَلَيْهِم, tr:wa-ajlib ʿalayhim, gloss:onlara karşı kuvvet topla} yeni ve ayrı bir emirdir. Fiilin olağan taşıma anlamı bir şeyi bulunduğu yerden başka yere sürüp getirmektir; {ar:عَلَيْهِمْ, tr:ʿalayhim, gloss:onlara karşı} bu hareketi insan grubuna yöneltir, hemen arkasından gelen atlı ve yaya kuvvet ise seferberliğin biçimini gösterir. Böylece getirme-hareketi hedefe karşı kuvvet toplamaya dönüşür. Bu eylem önceki sesin nesnesi değil, onu izleyen ayrı bir buyruktur; tehdit yönelmiştir ama saldırının sonucu ya da savaş düzeni belirtilmez. Edatla zamirin tek biçimde birleşmesi grubu hedef yapar, kişileri tek tek seçmez.
+
+Seferberliğe eklenen ses katmanı, fiilin ayrı bağrışma ve toplanma kullanımından gelir: kalabalık sesler yükselip birbirine karışır. Daha önceki {ar:بِصَوْتِكَ, tr:biṣawtika, gloss:sesinle} tekil kanalı bu toplu gürültüye geçişi tetikler; {ar:عَلَيْهِمْ, tr:ʿalayhim, gloss:onlara karşı} yönü, atlı ve yaya kuvvet ise toplanan grubun ağırlığını belirler. Bu bağlamdaki dal, insanların birine karşı bir araya gelmesini, destek sunmasını ya da güçlü bir tehdit oluşturmasını kapsar; dört yönden yaklaşma imgesi baskıya çevreleyici bir hareket ekler (7:17). Yarış atını hızlandırmaya mahsus çığlık ve vergiyle ilgili kullanım bu sahnenin dış sınırında kalır. Böylece ayrı bir bağrışma yankısı, olağan askerî seferberliğin yerine geçmeden tekil sesi daha gürültülü ve koordineli bir toplu tehdide genişletir.
+
+Kullanım örneklerinde bu hedefli emir seyrektir. Buradaki belirgin seferberlik değeri, hedef yönü ile atlı-yaya araçlarının birleşmesinden doğar; bu, daha geniş bir sıklık ölçüsü vermez. Aktarılan varyant “getir” ya da “akın et” olasılığını korur. Kanonik IV. kalıptaki emir ise {ar:عَلَيْهِمْ, tr:ʿalayhim, gloss:onlara karşı} yönü ve kuvvet çiftiyle bu bağlamda kuvvet toplama okumasını öne çıkarırken varyantı dışlamaz.
+
+{ar:بِخَيْلِكَ, tr:bikhaylika, gloss:atlılarınla} tek bir atı değil, atlı kuvveti topluluk olarak adlandırır; bağlam sürücüleri de bu topluluğa katabilir. Yanındaki {ar:وَرَجِلِكَ, tr:wa-rajilika, gloss:yaya kuvvetinle}, atlı hareketin karşısına kendi ayaklarıyla yürüyenleri koyarak tamamlayıcı bir yaya kolu ekler. Bildirilen varyantlar “erkek kişiler” ya da yürüyen birlik yönünü de kapsar; kişi anlamında erkeklik kadın karşıtlığıyla tanımlanırken, odaktaki atlı-yaya karşıtlığı kanonik okumayı piyade kuvveti olarak öne çıkarır. Bu çift iki kolu adlandırır, bütün olası kuvvetleri değil; asker sayısını ya da ahlaki niteliğini belirtmez. {ar:بِصَوْتِكَ, tr:biṣawtika, gloss:sesinle}, {ar:بِخَيْلِكَ, tr:bikhaylika, gloss:atlılarınla} ve {ar:وَرَجِلِكَ, tr:wa-rajilika, gloss:yaya kuvvetinle} biçimlerindeki yinelenen bi- ve -ka, sesi ve iki kuvvet kolunu tek muhatabın araçları olarak dilbilgisel biçimde bağlar; gerçek mülkiyet bildirmez.
+
+Atlı kuvvetin askerî kullanımı, onu tek başına kötülüğün simgesi olmaktan çıkarır: askerî hazırlığın olağan ve meşru bir aracı olarak görünmesi ve binmek için hayvan verilmesi, süvarinin yararlı kullanımını gösterir (8:60, 16:8). Arzulanan atların dünya nimetleri arasında sayılması bu askerî imgeye istek ve statü katmanı ekleyebilir (3:14); mal ve evlatla birlikte anılan karşılıklı övünme de bu katmana toplumsal görünürlük verir (57:20). Bu çağrışımlar gösteriş ve statü yankısını açarken odaktaki atlı kuvvetin temel askerî anlamını korur.
+
+Bu araçlar birlikte okunduğunda emirlerin sırası baskıyı kademeli biçimde genişletir: önce yerleşik denge sarsılır, ses işitilebilir erişim sağlar, bağrışma ve toplanma tekil kanalı toplu tehdide çevirir; atlı kuvvet seferberliğin hızlı kolunu, yaya kuvvet ise atlı hareketin ulaşmadığı yere erişimi sağlar. Her sözcüğün ayrı görevi böylece sarsıntıdan işitmeye, oradan örgütlü kuvvete uzanan bir okuma kurar. Emirleri ekleyen vavlar bu metinsel sırayı taşır; sıra katı olay kronolojisi, atlı-yaya çifti de bütün kuvvetlerin eksiksiz envanteri değildir.
+
+## Mallar, Soy ve Yakınlık
+
+Dışarıya yöneltilen kuvvetten sonra {ar:وَشَارِكْهُمْ, tr:wa-shārik-hum, gloss:onlarla ortak ol} buyruğu insan ilişkilerine geçer. III. kalıp muhatabı insanlarla aynı iş ya da hak ilişkisine katılan taraf yapar; sondaki -hum ortak olunan kişileri gösterir. {ar:فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ, tr:fī al-amwāli wa-al-awlādi, gloss:mallarda ve evlatlarda} ortak katılımın alanlarını belirtir: tek bir fī hem malı hem evladı yönetir, vav da bu iki sahayı eş düzeyde yan yana getirir. Alanlar böylece aynı ilişkiye bağlanır, içerik ve sonuç bakımından ayrı kalır.
+
+İlk alan olan {ar:ٱلْأَمْوَٰلِ, tr:al-amwāli, gloss:mallar ve değerli varlıklar}, elde tutulan ve biriktirilen değerleri kapsar; cümlede doğrudan alınan nesne değil, ortak katılımın kurulduğu sahadır. Kapsamı paradan geniştir, ancak belirli bir mal türü veya hukuki durum seçilmez. {ar:ٱلْأَوْلَٰدِ, tr:al-awlādi, gloss:evlatlar ve nesil} ise ana babadan doğmuş kişilerin çoğul sınıfını, dolayısıyla aile ve neslin devamını getirir; tek bir çocuk ya da belli bir cinsiyet belirtilmediği gibi sayı veya yaş sınırı da konmaz. Aynı fī altındaki iki alan ortak katılımda yan yana durur, fakat evlatları mülk ya da aldatma olarak tanımlamaz.
+
+Aile alanı, Şeytan’ın hedef aldığını söylediği {ar:ذُرِّيَّتَهُۥٓ, tr:dhurriyyatahu, gloss:soyunu} ile yan yana gelince tek haneyi aşan, kuşaklar boyunca uzanabilecek bir etki çizgisi açar (17:62). Soy sözüyle ilişkilendirilen küçük parçacıkların dağılması imgesi bu uzantıya dağınık, kuşaklar arası bir biçim verir. Bu, evlat sözcüğünün sözlük anlamı değil, soyun topluca anılmasından doğan ihtiyatlı bir çağrışımdır; olası etkilenme biçimi ve kapsamı açık kalır.
+
+Ortaklık buyruğunun maddi ve ailevi alanı, Fatiha’daki münhasır kullukla karşılaşınca bağlılık bakımından da duyulur. 17:64’ün {ar:شَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ, tr:shārik-hum fī al-amwāli wa-al-awlādi, gloss:mallarda ve evlatlarda onlarla ortak ol} sözü insan ilişkilerinde ortak katılım kurarken, {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāka naʿbudu wa-iyyāka nastaʿīn, gloss:Yalnız Sana kulluk eder ve yalnız Senden yardım dileriz} kulluk ve yardımı yalnız Allah’a yöneltir (1:5). Ortaklık kökünün ayrı kullanımında Allah’a ait sayılan yetki veya niteliğe başkasını ortak tanıma düşüncesi, bu maddi emrin yanına bağlılıkla ilgili bir karşıtlık ekler. Karşılaştırma 17:64’ün mal ve evlatlardaki ortaklık anlamını korurken kulluğun yönünü belirginleştirir; Şeytan’a ibadet veya doğrudan şirk iddiası çıkarmaz.
+
+Mallar ve hareket güzergâhları, çevrede zaten verilmiş rızıkla birlikte görünür. Geminin {ar:يُزْجِى لَكُمُ ٱلْفُلْكَ, tr:yuzjī lakumu al-fulka, gloss:gemiyi sizin için ilerletir} yumuşakça ilerletilmesi ve denizde Allah’ın lütfunun aranması, taşımanın hazır bir yolunu açar (17:66). İnsanların {ar:بَنِىٓ ءَادَمَ, tr:banī Ādama, gloss:Âdemoğulları} diye ortak kökene bağlanması, {ar:وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ, tr:wa-ḥamalnāhum fī al-barri wa-l-baḥri, gloss:onları karada ve denizde taşıdık} ile karada ve denizde taşınması, {ar:وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ, tr:wa-razaqnāhum mina al-ṭayyibāti, gloss:onları güzel nimetlerden rızıklandırdık} ile güzel nimetlerle rızıklandırılması mevcut insan dolaşımını ve geçim akışını gösterir (17:70).
+
+Bu hazır taşıma ve rızık yollarının yanında odaktaki {ar:أَجْلِبْ, tr:ajlib, gloss:kuvvet topla} zaten işleyen güzergâhlara yönelen seferberlik gibi duyulabilir; {ar:بِخَيْلِكَ, tr:bikhaylika, gloss:atlılarınla} ve {ar:وَرَجِلِكَ, tr:wa-rajilika, gloss:yaya kuvvetinle} bu kanallardaki hareketi taşır. Odaktaki {ar:وَشَارِكْهُمْ, tr:wa-shārik-hum, gloss:onlarla ortak ol} buyruğu {ar:ٱلْأَمْوَٰلِ, tr:al-amwāli, gloss:mallar ve değerli varlıklar} ile {ar:ٱلْأَوْلَٰدِ, tr:al-awlādi, gloss:evlatlar} alanlarına yönelir; mal ve oğulların bahçe ve ırmaklarla birlikte rızık sayılması da bu değer ve aile akışına bağlam sunar (71:12). Düşmanca ortaklık ve seferberlik mevcut yollara ve nimetlere eklemlenip yönlerini çevirmeye çalışabilir. Bu ilişki kelimesi kelimesine bir ekonomi kurmaz, nimetlerin kaynağını Şeytan’a vermez ve soyun tamamını aynı biçimde hedef saymaz.
+
+{ar:ٱلْأَمْوَٰلِ, tr:al-amwāli, gloss:mallar} ve {ar:ٱلْأَوْلَٰدِ, tr:al-awlādi, gloss:evlatlar} dünya süsü, karşılıklı övünme ve çoğalma vesilesi olduğunda, 57:20’nin yağmurla büyüyen bitki imgesi bu değerlerin geçici görünüşünü açar: bitki sararıp ufalanır, dünya da {ar:مَتَٰعُ ٱلْغُرُورِ, tr:matāʿ al-ghurūr, gloss:aldatıcı geçici yarar} diye nitelenir (57:20). Buna ayrı bir toplumsal işlem eklenir: ortakların birbirlerine vaat verdiği ve ilişkinin aldatmayla kapandığı sahne, {ar:وَشَارِكْهُمْ, tr:wa-shārik-hum, gloss:onlarla ortak ol} buyruğunun yanında durur (35:40). İlk imge maddi değerlerin zaman içindeki soluşunu, ikincisi ortaklık ilişkisinin aldatıcı kapanışını verir. Birlikte, düşmanca katılımın sıradan kaynaklara ve aile bağlarına eklemlenebileceğini düşündürür: ortaklık zaten işleyen değer ve devamlılığa tutunur, vaat ise bu katılımın maliyetini örtebilir. Mallar, evlatlar ve aile bağları kendi başlarına şeytanî değildir; asalak katılım imgesinin gölgesi kaynaklara değil, onlara eklemlenen düşmanca girişime düşer.
+
+İlk bakışta {ar:ٱلْأَمْوَٰلِ, tr:al-amwāli, gloss:mallar ve değerli varlıklar} alanında malı almak, {ar:ٱلْأَوْلَٰدِ, tr:al-awlādi, gloss:evlatlar ve nesil} alanında evlatları bozmak, {ar:وَعِدْهُمْ, tr:wa-ʿidhum, gloss:onlara vaatte bulun} ile de yalan söylemek gibi ayrı saldırılar duyulabilir. {ar:وَشَارِكْهُمْ, tr:wa-shārik-hum, gloss:onlarla ortak ol} buyruğu bunlara hedeflerin kendi düzenlemelerine katılma fikrini ekler; vaat de aynı insanlarda geleceğe yönelik beklenti kurar. Birleşik ve ihtiyatlı okumada mal alanı varlıkların oluşumuna, evlatlar neslin devamına, vaat ise o devam içinde taşınabilecek gelecek tasarısına bağlanır; hedeflerin kendi sürekliliği böylece etkinin taşınabileceği kanallardan biri olur. Üretim, miras ve rıza üretme bu imgenin ihtiyatlı uzantılarıdır: bunlar ortaklık buyruğunun sözlük anlamı, gerçek mülkiyet devri ya da fiilî rıza değildir. Kapanıştaki {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş}, cazip beklentinin arkasındaki düzenleme maliyetini örter ve aldatıcı yüzü açar; bu bileşik okuma düşmanca katılımın yanıltıcı görünüşünü belirginleştirir, her ortaklığı aldatıcı saymaz.
+
+Maddi katılımın yanında, {ar:وَعِدْهُمْ, tr:wa-ʿidhum, gloss:onlara vaatte bulun} buyruğuna komşu ayrı bir kök kolunun hazırlık kullanımı işi önceden gözetme ve ihtiyaç anı için malzeme, silah ya da başka araçları ayırıp hazır tutma görüntüsü açar. {ar:ٱلْأَمْوَٰلِ, tr:al-amwāli, gloss:mallar ve değerli varlıklar}, {ar:ٱلْأَوْلَٰدِ, tr:al-awlādi, gloss:evlatlar ve nesil} ve kuvvetin kurduğu yakın maddi alan bu yan çağrışımın temas noktalarıdır. Vaat sözü beklenti kurar; bu ayrı hazırlık dalı onun anlamına dönüşmez ve fiilî bir hazırlık bildirildiğini göstermez. Böylece hazır tutma imgesi ortaklık çevresindeki maddi ilişkiye sınırlı bir yan görünüm ekler.
+
+Bu insanî yakınlaşmanın olası yönü, vahyedilenden çevirmeye ve onun yerine başka bir söz uydurmaya çalışan sahnede görünür (17:73). Odaktaki {ar:ٱسْتَفْزِزْ, tr:istafziz, gloss:sarsıp yerinden oynat} ve {ar:بِصَوْتِكَ, tr:biṣawtika, gloss:sesinle} ile ilişkilendirilen baskının mesajdan uzaklaştırılmaya nasıl yönelebileceğini {ar:لَيَفْتِنُونَكَ عَنِ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ, tr:layaftinūnaka ʿani alladhī awḥaynā ilayka, gloss:seni vahyedilenden çevirmeye kalkışmaları} gösterir; bu bağlam fiillere yeni bir sözlük anlamı eklemez. Ardından gelen {ar:لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُۥ, tr:li-taftariya ʿalaynā ghayrahu, gloss:bizim adımıza başka bir söz uydurman} uydurulmuş ikame sözü açığa çıkarır. Aynı ayetteki {ar:خَلِيلًا, tr:khalīlan, gloss:yakin dost}, odaktaki {ar:وَشَارِكْهُمْ, tr:wa-shārik-hum, gloss:onlarla ortak ol} ve {ar:وَعِدْهُمْ, tr:wa-ʿidhum, gloss:onlara vaatte bulun} ile yan yana geldiğinde, kamusal sözün erişebileceği yakınlık ve aidiyeti muhtemel toplumsal ödül olarak görünür kılar (17:73). 17:74’teki azıcık eğilme eşiği {ar:تَرْكَنُ إِلَيْهِمْ شَيْـًٔا قَلِيلًا, tr:tarkanu ilayhim shayʾan qalīlā, gloss:onlara azıcık eğilmen} ve Allah’ın muhatabı sağlamlaştırması {ar:ثَبَّتْنَٰكَ, tr:thabbatnāka, gloss:seni sağlamlaştırmamız} ile birlikte, bu yakınlaşmanın yerleşmeden karşılandığını gösterir. Bu, aynı fail zincirini kurmayan ayrı bir insanî baskı sahnesidir; toplumsal ödül olasılığını ve küçük bir eğilme eşiğini aydınlatır, teslimiyet ileri sürmez (17:74).
+
+## Vaat ve Görünüş
+
+Vav, {ar:وَعِدْهُمْ, tr:wa-ʿidhum, gloss:onlara vaatte bulun} buyruğunu ortaklığa bağlarken onu ayrı bir söz eylemi ve dördüncü emir olarak tutar. Böylece zincir kuvvet ve insan ilişkilerinden vaat alanına geçer; sıralama metinseldir, kesin zamanlamayı ya da bütün taktikleri belirlemez. Sondaki -hum aynı insan grubunu alıcı yapar ve gelecek hakkında beklenti kurar. İçeriğin iyi ya da kötü oluşu açık kalır: önceki düşmanca emirler olası zarar tehdidine ton verir, belirli bir zarar söylenmez ve özendirici gelecek ihtimali de sürer. İnsan alıcıları bu emrin kapsamını belirler; saldırı öncesi kükreyen erkek hayvan için aktarılan özel kullanım burada devrede değildir.
+
+Hemen ardından aynı kök ve -hum alıcısı {ar:يَعِدُهُمُ, tr:yaʿiduhumu, gloss:onlara vaat eder} biçiminde gelir; emir, Şeytan’ın yaptığı işe ilişkin bildirime dönüşür, yani ikinci bir vaat değil aynı eylemin kip değişimidir. Şimdiki-geniş zaman bu vaadi gerçekleşen ya da yinelenen tutum gibi duyurabilir; sıklık ve süre sabitlenmez. Bildirimin başındaki vav, {ar:وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا, tr:wa-mā yaʿiduhumu al-shayṭānu illā ghurūran, gloss:Şeytan onlara aldatmadan başka bir şey vaat etmez} cümlesini eşgüdümlü devam, emir dizisine dönüş veya durum bildiren yan cümle olarak bağlayabilir; işaretler bu seçeneklerden birini seçtirmez. Ardından gelen mā emir kipinden olumsuz bildirime geçirir. Cümlenin açık öznesi {ar:ٱلشَّيْطَٰنُ, tr:al-shayṭānu, gloss:Şeytan} vaadin kaynağını bildirir; bu yerel özne ilişkisi önceki emirlerin ikinci tekil muhatabından ayrıdır ve daha geniş bir portre çizmez.
+
+Olumsuz bildirim vaadi bir istisnayla sınırlar: {ar:وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا, tr:wa-mā yaʿiduhumu al-shayṭānu illā ghurūran, gloss:Şeytan onlara aldatmadan başka bir şey vaat etmez} cümlesinde {ar:إِلَّا, tr:illā, gloss:ancak} son sözcüğe tek istisna yerini açar, belirsiz mansup mastar {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş} ise bu yeri doldurur. Bu hüküm vaat eylemini aldatma niteliğiyle sınırlar; önceki dört emri sözdizimsel olarak iptal etmez, fakat üzerlerine retorik bir gölge düşürür. Ghurūran belirli bir yalanın değil, aldatmanın tür ya da niteliğinin adıdır; vaat içeriğini veya maddi bir sonucun doğup doğmayacağını belirtmez. Önündeki vaat fiili gerçeğe uymayan haber ya da görünüşle yanıltmayı geleceğe dönük beklentiye bağlar. {ar:ٱلشَّيْطَٰنُ, tr:al-shayṭānu, gloss:Şeytan} adına ilişkin aktarılan köken açıklamalarından biri uzaklaşma fikrini taşır; görünüşle gerçek arasındaki mesafe bu açıklamaya sınırlı bir yankı verir, adın doğrudan karşılığına değil.
+
+Vaat, çekiciliğinin yanında gerçekleşip gerçekleşmediğiyle de sınanır. Şeytan’ın vaadini aldatmayla eşleştiren, Allah’ın doğru vaadiyle boşa çıkan Şeytan vaadini karşılaştıran ve Allah’ın vaadinin gerçekliğini aldatma uyarısının yanına koyan sahneler bu ayrımı belirginleştirir (4:120, 14:22, 35:5). Yenilmezlik ve koruma güvencesi verip karşılaşma başlayınca geri çekilme ise vaadin saklayabildiği tehlikeyi somutlaştırır (8:48). Odaktaki {ar:وَعِدْهُمْ, tr:wa-ʿidhum, gloss:onlara vaatte bulun} ile kapanıştaki {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş} böylece doğru vaat, boşa çıkan vaat ve aldatıcı görünüşü karşı karşıya getirir; vaadin içeriği ve her insan üzerindeki etkisi açık kalır.
+
+İnsanlara yöneltilen {ar:يَعِدُهُمُ, tr:yaʿiduhumu, gloss:onlara vaat eder} sözünün karşısında, izleyenler için {ar:جَزَآؤُكُمْ جَزَآءًۭ مَّوْفُورًۭا, tr:jazāʾukum jazāʾan mawfūran, gloss:size eksiksiz karşılık} bildirilir; gelecek böylece eksiksiz karşılık fikriyle yan yana gelir (17:63). Daha sonra kişinin {ar:كِتَٰبَهُۥ, tr:kitābahu, gloss:kitabını} alması ve insanların {ar:يَقْرَءُونَ كِتَٰبَهُمْ, tr:yaqraʾūna kitābahum, gloss:kitaplarını okumaları}, sonradan erişilebilir kayıt imgesini ekler (17:71). Eksiksiz karşılık ve okunabilir kayıt aldatma hükmüne somut bir karşı ağırlık verir; beklenen sonuç yine belirsizlik ya da tehlike taşıyabilir, kayıt her vaat içeriğinin dökümü değildir ve bu iki sahne uhrevî hesap çerçevesinde okunabilir. Odaktaki {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş} bu karşıtlıkta beklentinin hangi neticeye çıkacağına dair güvensizliği duyurur.
+
+Atlı kuvvetin bu okumadaki katkısı, gerçek birlik ile güven verici görünüşü yan yana tutmasıdır. {ar:بِخَيْلِكَ, tr:bikhaylika, gloss:atlılarınla} gerçek atlı birliği adlandırır; aynı kelime ailesinin ayrı kullanımları zihinde kurulan tasarımı, kesin bilgi olmadan oluşan sanıyı, siluet ya da yansımayı ve bir şeyin olduğundan başka görünmesini kapsar. Kapanıştaki {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş} bu sanı ve yanıltıcı izlenim alanını ayrıca tetikler; böylece askerî kuvvet güven veren bir görüntü olarak da sınanır. Koruyucu ordunun yardım edip edemeyeceğini soran {ar:جُندٌۭ لَّكُمْ يَنصُرُكُم, tr:jundun lakum yanṣurukum, gloss:size yardım edecek ordu} sahnesinin {ar:غُرُورٍ, tr:ghurūrin, gloss:aldanış} ile bitmesi bu teması somutlaştırır (67:20): gerçek atlı birlik vardır, ona duyulan güven ise yanıltıcı olabilir.
+
+Daha uzak ve ihtiyatlı bir imge, iki ayrı gök kullanımını vaadin beklentisiyle ilişkilendirir. Odaktaki {ar:أَجْلِبْ, tr:ajlib, gloss:kuvvet topla} askerî anlamını korur; aynı kökün başka bir kullanımı, gökte tabaka gibi uzanan, uzaktan dağ görünüşü veren ve yağış suyu taşımayan ince bulutu anlatır. {ar:خَيْلِكَ, tr:khaylika, gloss:atlı kuvvetin} gerçek atlı birliği adlandırmayı sürdürürken, kelime ailesinin ayrı bir gök işareti kullanımı yağmur umdurabilir ama yağmadan geçebilir. İlk dal yağışsız, heybetli bir ön yüz; ikincisi gerçekleşmesi beklenen fakat gelmeyebilen yağmur işareti sunar. {ar:وَعِدْهُمْ, tr:wa-ʿidhum, gloss:onlara vaatte bulun} geleceğe dönük beklentisiyle bu bağımsız dalları birbirine değdirir, {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş} ise vaat hükmünü bu yanıltıcı ön yüzlere taşır. Bu temas odaktaki askerî sözleri hava olayına dönüştürmez; yağışsız bulut niteliği de gerçek yağmurun anlatıldığı 57:20’ye geçmez. Dünyanın {ar:مَتَٰعُ ٱلْغُرُورِ, tr:matāʿ al-ghurūr, gloss:aldatıcı geçici yarar} diye nitelenmesi odaktaki {ar:غُرُورًا, tr:ghurūran, gloss:aldatıcı görünüş} ile yeniden buluşurken, 57:20’de yağmur gerçekten yağar ve büyüyen bitki sonunda sararıp ufalanır.
+
+</editorial_prose>

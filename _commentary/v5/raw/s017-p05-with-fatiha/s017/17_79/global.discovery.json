@@ -1,0 +1,644 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:79",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_0050cca039761be1e12c",
+      "decision": "narrow",
+      "reason": "The trusted cross-run synthesis supports a bounded rehearsal analogy, but its HMD:B003 assignment treats mahmud as a praised person although it qualifies maqam, and its HJD:B003 assignment is transitive while the focus form is the subject's own night waking. The retained extra-gift relation is analogical only.",
+      "finding_refs": [
+        "global:nightly-rehearsal"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000355/B003",
+          "reason": "This branch denotes a praised person; in the focus, mahmud qualifies the station, not a person."
+        },
+        {
+          "branch_ref": "root_001577/B003",
+          "reason": "This branch requires a transitive construction affecting another person's sleep; the focus form tahajjad is the subject's own night-vigil waking, without that transitivity."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bad019d6d9ca01e201e3",
+      "decision": "reject",
+      "reason": "Its legacy support assigns voluntary waking to root_001577/B001, whose gloss and boundary describe sleeping or being asleep and exclude waking/night prayer; it cannot carry the candidate's global rehearsal claim.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001577/B001",
+          "reason": "The branch is sleep/asleep, whereas the focus's tahajjad belongs to the waking/night-prayer branch root_001577/B002."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_334b25d00d896919b60a",
+      "decision": "reject",
+      "reason": "The legacy retrospective's only wider trigger is an unprojected claim about 17:107-109; the packet supplies no exact target text, context occurrence, branch, or trace returning that scene to a focus word. It cannot ground a global finding here.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_883807a053aaabb31c8e",
+      "decision": "reject",
+      "reason": "The proposed rehearsal depends on 17:78 and 17:80, which are host-surah/pericope cues in this global lane rather than an independent wider trigger; its HJD:B003 attribution is also transitive and does not fit the focus's own night waking.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001273/B006",
+          "reason": "The candidate activates this station branch only through its same-surah macro cues; no wider trigger is supplied for this candidate."
+        },
+        {
+          "branch_ref": "root_001577/B003",
+          "reason": "The focus's tahajjad is not the transitive sleep-affecting construction required by this branch."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:78",
+          "reason": "This is declared host-surah/pericope context, not a global trigger."
+        },
+        {
+          "context_ref": "17:80",
+          "reason": "This is declared host-surah/pericope context, not a global trigger."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_da9d69fcdca8f9d45161",
+      "decision": "reject",
+      "reason": "Its truthful-entry/exit analogy rests on 17:80 alone, a same-surah macro context cue; no separate wider trigger and focus-return trace are supplied for a global reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:80",
+          "reason": "This is declared host-surah/pericope context, not a global trigger."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b2095ef154d0714b1a32",
+      "decision": "reject",
+      "reason": "The HFT uncertainty about future elevation versus present missional dispatch has no exact trace: no context ayah, word index, root, attributed role, or focus return is supplied. The HFT record is therefore unbound global speculation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0236e9bd6b6b55932e63",
+      "decision": "reject",
+      "reason": "The HFT suggestion that bihi may refer to the Qur'an provides no exact context ayah/word, root, attributed role, or focus return, and the focus packet leaves the pronoun antecedent unresolved. It cannot establish this candidate as a global reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2113820e27c75a95d8db",
+      "decision": "reject",
+      "reason": "The HFT record itself characterizes the asa/extra-night material as root-image resonance, but supplies no exact context occurrence, word index, root, attributed role, or focus return that would make it a global trigger.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cf04b9191f660ffb45ec",
+      "decision": "reject",
+      "reason": "The HFT r-b-w elevation reading has no exact context-to-focus trace or branch citation; the available root_000537/B001 record is labeled ر ب ب, and the packet supplies no crosswalk to the candidate's ر ب و claim.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_35f9a4e66bad8d6fed02",
+      "decision": "reject",
+      "reason": "Although its sleep/waking-to-raising theme overlaps the independently supported cross-run candidate, this HFT summary has no context ayah, word index, root, attributed role, or focus-return trace and cannot stand as a separate source.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_3d644fdbd4abd699763b",
+      "decision": "reject",
+      "reason": "The HFT claim about a ba'th recurrence at 17:94 provides no exact word/root/role/focus-return trace; 17:94 is host-surah context in this global lane, not the required wider trigger.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "17:94",
+          "reason": "This is declared host-surah/pericope context, not a global trigger."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_80fbf68c8983f1eed746",
+      "decision": "reject",
+      "reason": "The HFT claim that truthful entry/exit and authority make maqam a mobile mandate supplies no exact context coordinates, word index, root, attributed role, or focus-return trace; no global reading can be verified from it.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b344822e945379e7b199",
+      "decision": "reject",
+      "reason": "The HFT majority-refusal/divine-witness contrast has no exact context ayah/word, root, attributed role, or focus return, so the proposed distinction between praiseworthiness and popularity remains unanchored.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5a10aa52219ab72ea228",
+      "decision": "reject",
+      "reason": "The HFT claim that bracketed Qur'an references settle bihi as revelation supplies no exact context occurrences or word/root/role/focus-return trace; it also cannot resolve the antecedent left open by the focus evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8a741579f3bebd7548ef",
+      "decision": "reject",
+      "reason": "The broad HFT claim about turning static nouns into processes is a multi-ayah composite with no exact context occurrence, word index, root, attributed role, or focus return for any component; it is not traceable as a global candidate.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:nightly-rehearsal",
+      "origin_candidate_id": "cand_0050cca039761be1e12c",
+      "represented_candidate_ids": [],
+      "title": "Nightly waking as rehearsal for a hoped-for station",
+      "claim": "The voluntary night vigil can be read as a bodily rehearsal of leaving nocturnal stillness for a hoped-for divine raising to a praiseworthy station.",
+      "mechanism": "The focus juxtaposes tahajjad, nafila, yabathaka, and maqam. The night-taking and sleep passages at 6:60 and 39:42 supply a wider stillness-to-renewed-activity pattern; 37:164 gives maqam a known-station counterpart; and 21:72 offers a gift/surplus analogy for nafila. Together these links let the act echo the hoped transition without making it a cause.",
+      "reader_payoff": "The night prayer becomes perceptible as an embodied anticipation of an outcome that remains hoped rather than earned or guaranteed.",
+      "containment": "This is an analogy across connected passages, not a lexical equation or causal mechanism. The root_001538/B001 gift branch excludes literal voluntary worship, so its use is analogical only; the root_000129/B001 branch does not include resurrection of the dead; and the station in 37:164 is not identified with the focus's station.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "The trusted cross-run synthesis is compatible with the focus anchors and is independently sharpened by exact wider night and station connections, but the resulting rehearsal relation remains analogical."
+      },
+      "support_ids": [
+        "sup_861352ffcb6d5169f4c4"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001577/B002",
+          "facet_id": "F001",
+          "branch_gloss": "uykudan uyanıp kalkmak; özellikle gece namazına yönelmek",
+          "facet_statement": "Kişi uykudan uyanır ya da uyumayı bırakıp uyanıklığa geçer.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "17:79:3:2"
+          ],
+          "trigger_refs": [
+            "6:60",
+            "39:42"
+          ],
+          "focus_return_refs": [
+            "17:79:3:2"
+          ],
+          "carrier": "The focus form تَهَجَّدْ is the night-vigil verb and carries this qualified waking-from-sleep core.",
+          "independent_trigger": "6:60 places nighttime taking before renewed activity, while 39:42 explicitly describes selves taken during sleep and released to an appointed term.",
+          "activation": "These separate accounts of nighttime stillness and release return through the focus's waking/night-vigil verb, supporting a wider stillness-to-waking pattern.",
+          "resulting_reading": "The voluntary vigil appears as a chosen passage out of nocturnal stillness that can echo a later raising.",
+          "boundary": "The connected verses are contextual parallels; they do not say that 17:79 itself describes sleep or that the vigil causes the promised station."
+        },
+        {
+          "branch_ref": "root_000129/B001",
+          "facet_id": "F001",
+          "branch_gloss": "durgun olanı harekete geçirme",
+          "facet_statement": "Dışarıdaki bir etken, durgun durumdaki varlığı uyararak etkin duruma geçirir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:9:1"
+          ],
+          "trigger_refs": [
+            "6:60",
+            "39:42"
+          ],
+          "focus_return_refs": [
+            "17:79:9:1"
+          ],
+          "carrier": "The focus verb يَبْعَثَكَ carries the ordinary raising/rousing relation, with the Lord as agent and the addressee as recipient.",
+          "independent_trigger": "6:60 has a nighttime taking followed by yabathukum and renewed activity; 39:42 supplies the distinct sleep-and-release setting.",
+          "activation": "The wider night/rest sequence supplies a concrete transition from stillness to renewed activity that returns through the focus verb for raising.",
+          "resulting_reading": "The hoped raising can resonate with the body's return from nightly stillness, making the night vigil an echoing rehearsal rather than a means of earning the outcome.",
+          "boundary": "This branch is not resurrection of the dead; the focus's raising to a station is not recast as a resurrection event."
+        },
+        {
+          "branch_ref": "root_001273/B006",
+          "facet_id": "F001",
+          "branch_gloss": "bir yerde kalma ve kalınan yer",
+          "facet_statement": "Kişi bir yerde kalır; kalınan yer, ayak basılan yer veya kalış süresi bu ilişki üzerinden adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:11:1"
+          ],
+          "trigger_refs": [
+            "37:164"
+          ],
+          "focus_return_refs": [
+            "17:79:11:1"
+          ],
+          "carrier": "The focus noun مَقَامًا names the hoped-for station or place.",
+          "independent_trigger": "37:164 describes each as having a known maqam.",
+          "activation": "The separate known-station use gives the focus's maqam a structured, determinate counterpart rather than leaving it as generic honor.",
+          "resulting_reading": "The hoped-for station is heard as a particular placement within an ordered field, not merely an abstract compliment.",
+          "boundary": "The focus's station is not identified with the stations in 37:164, and the target verse's morphology is not supplied."
+        },
+        {
+          "branch_ref": "root_001538/B001",
+          "facet_id": "F001",
+          "branch_gloss": "zorunluluğa ek gönüllü armağan",
+          "facet_statement": "Verilen şey, verene düşen bir yükümlülüğün karşılığı değil gönüllü bir armağandır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:79:5:1"
+          ],
+          "trigger_refs": [
+            "21:72"
+          ],
+          "focus_return_refs": [
+            "17:79:5:1"
+          ],
+          "carrier": "The focus's نَافِلَةً names voluntary supplementary worship; the gift branch is not its literal prayer sense.",
+          "independent_trigger": "21:72 uses nafila in a separate context of an additional bestowed gift.",
+          "activation": "The connected use supplies a gift-like surplus analogy for the focus's added practice, while the focus occurrence remains voluntary worship.",
+          "resulting_reading": "The night practice can carry a gift-like sense of surplus beyond obligation, not merely an extra quantity of effort.",
+          "boundary": "The branch's literal boundary excludes voluntary worship; 21:72 does not refer to prayer, and this activation is analogical only."
+        },
+        {
+          "branch_ref": "root_001538/B001",
+          "facet_id": "F002",
+          "branch_gloss": "zorunluluğa ek gönüllü armağan",
+          "facet_statement": "Armağan, zorunlu ya da olağan olanın üstüne eklenen bir artış niteliği taşır.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "17:79:5:1"
+          ],
+          "trigger_refs": [
+            "21:72"
+          ],
+          "focus_return_refs": [
+            "17:79:5:1"
+          ],
+          "carrier": "The focus's nafilatan marks the night practice as supplementary to the obligatory worship.",
+          "independent_trigger": "21:72 presents a separate nafila as an added bestowed gift.",
+          "activation": "The additional-gift context echoes the focus's beyond-obligation status and adds a bounded generosity metaphor.",
+          "resulting_reading": "The voluntary addition is perceptible as gift-like surplus, without replacing its direct sense as extra worship.",
+          "boundary": "No claim is made that the 21:72 referent is worship or that the focus term literally takes the gift branch."
+        }
+      ],
+      "connection_refs": [
+        "conn_befb986095557ffa3463",
+        "conn_757e7c4a3b78e089db78",
+        "conn_1f3b0c0c00c1d3a5ee29",
+        "conn_c7dabcb6469b1ecac3b9"
+      ],
+      "context_refs": [
+        "6:60",
+        "39:42",
+        "21:72",
+        "37:164"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:standing-praise",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Standing in praise and the praiseworthy station",
+      "claim": "The wider pairing of standing with praise gives the focus's hoped-for praiseworthy station an embodied worshipful resonance, distinct from status alone.",
+      "mechanism": "The focus names a maqam and qualifies it as mahmud; 52:48 joins glorifying the Lord with rising or standing. The connection returns through the QWM root in maqam and the HMD root in mahmud, so the hoped station can be heard alongside a present posture of praise.",
+      "reader_payoff": "The focus's honor becomes perceptible as resonant with devotional standing and praise, rather than only public recognition.",
+      "containment": "The connected verse's morphology is not supplied. Its active command to praise and focus's passive praiseworthy quality are related by resonance, not equated; no claim is made that one action causes the station.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The exact connected Arabic pairs standing with praise and returns through two focus roots, but the target morphology is unavailable and the relation remains contextual."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001273/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ayağa kalkma ve dik durma",
+          "facet_statement": "Canlı ya da cansız bir varlık dik konuma gelir veya dik durumda bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:11:1"
+          ],
+          "trigger_refs": [
+            "52:48"
+          ],
+          "focus_return_refs": [
+            "17:79:11:1"
+          ],
+          "carrier": "The focus's maqam is a station noun from the QWM root and can carry a standing/place resonance.",
+          "independent_trigger": "52:48 says to glorify the Lord when rising or standing.",
+          "activation": "The separate act of standing in the connection returns through the focus station's QWM root and gives its place sense an embodied counterpart.",
+          "resulting_reading": "The hoped station is heard alongside a bodily practice of standing, not only as an abstract rank.",
+          "boundary": "The focus noun does not itself assert the target verse's standing act; this is a root-level contextual resonance."
+        },
+        {
+          "branch_ref": "root_001273/B002",
+          "facet_id": "F002",
+          "branch_gloss": "ayağa kalkma ve dik durma",
+          "facet_statement": "Tek ayağa kalkış, ibadet duruşu, kökü üzerinde dik kalan bitki ve duran hayvan fiziksel çekirdeğin bağlama özgü görünümleridir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:11:1"
+          ],
+          "trigger_refs": [
+            "52:48"
+          ],
+          "focus_return_refs": [
+            "17:79:11:1"
+          ],
+          "carrier": "The focus's maqam can evoke the standing branch through its QWM root, while locally naming a station.",
+          "independent_trigger": "52:48 couples praise of the Lord with the act of rising or standing.",
+          "activation": "That separate embodied act makes the physical-standing specialization salient alongside the focus's station wording.",
+          "resulting_reading": "The station's honor can be read with an embodied devotional posture in view.",
+          "boundary": "The connection does not establish a formal prayer posture or identify the two verses' acts."
+        },
+        {
+          "branch_ref": "root_000355/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yermenin karşıtı olan, iyilik için teşekkürü de kapsayan övgü",
+          "facet_statement": "İyi sözlerle övme, yermenin karşıtıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:12:1"
+          ],
+          "trigger_refs": [
+            "52:48"
+          ],
+          "focus_return_refs": [
+            "17:79:12:1"
+          ],
+          "carrier": "The focus's mahmud is a passive participle describing the station as praiseworthy.",
+          "independent_trigger": "52:48 uses praise of the Lord in the phrase bi-hamdi rabbika.",
+          "activation": "The distinct active act of praising returns through the HMD root of mahmud and links the praised station to worshipful praise.",
+          "resulting_reading": "The praiseworthy quality of the hoped station resonates with an act of praise, not only with social acclaim.",
+          "boundary": "The focus has a passive quality of being praiseworthy while the connection commands active praise; they are not the same grammatical or semantic event."
+        }
+      ],
+      "connection_refs": [
+        "conn_0795a63a71b7ab96b789"
+      ],
+      "context_refs": [
+        "52:48"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:accountability-horizon",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "A distinct accountability horizon around the hoped station",
+      "claim": "Wider raise-and-account passages place the focus's hoped-for station against an eschatological accountability horizon, without making its raising a resurrection.",
+      "mechanism": "The focus pairs yabathaka with maqam; 58:6 and 64:7 join divine raising on a day with disclosure of deeds. Through the focus maqam's QWM standing/station root, that separate resurrection-and-judgment branch becomes a contextual horizon, while reciprocal evidence at 64:7 explicitly preserves the distinction from the focus's raising to rank.",
+      "reader_payoff": "The hoped station can be perceived alongside answerability for deeds rather than as honor detached from moral reckoning.",
+      "containment": "This is contextual resonance only. The focus does not lexically name the Day of Resurrection, and the reciprocal note on 64:7 says its yabathuka concerns rank, not resurrection; no eschatological event or target morphology is inferred beyond the supplied evidence.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The exact connected passages join raising with disclosure of deeds, but the packet also supplies explicit reciprocal counterevidence against identifying the focus's raising with resurrection."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001273/B013",
+          "facet_id": "F001",
+          "branch_gloss": "ölülerin diriltildiği ve insanların yargı için kalktığı gün",
+          "facet_statement": "Son saat gerçekleşir, ölüler diriltilir ve insanlar yargılanmak üzere ayağa kalkar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:11:1"
+          ],
+          "trigger_refs": [
+            "58:6",
+            "64:7"
+          ],
+          "focus_return_refs": [
+            "17:79:11:1"
+          ],
+          "carrier": "The focus's maqam is a QWM-root station and can return through the branch's standing-for-judgment image, without taking that as its local sense.",
+          "independent_trigger": "58:6 and 64:7 describe divine raising on a day together with disclosure or reporting of deeds.",
+          "activation": "The wider raising-and-accounting scenes supply the branch's judgment horizon, which returns through the focus's station/standing root as a contextual contrast.",
+          "resulting_reading": "The station is heard within a larger moral horizon of answerability while remaining a distinct hoped-for elevation.",
+          "boundary": "This branch is not asserted as the focus's meaning: reciprocal evidence for 64:7 explicitly distinguishes raising to a station from resurrection."
+        }
+      ],
+      "connection_refs": [
+        "conn_2935c105f1614062f19b",
+        "conn_e3f7f6d27def68e3157a"
+      ],
+      "context_refs": [
+        "58:6",
+        "64:7"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:night-recitation",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Night vigil in a Qur'an-recitation setting",
+      "claim": "The wider account of measured night standing and Qur'an recitation makes a Qur'anic night-practice reading of the focus's tahajjud expression salient, without resolving bihi.",
+      "mechanism": "The focus's tahajjad belongs to the qualified waking/night-vigil branch; 73:20 independently joins measured standing during the night with reciting what is easy of the Qur'an. That night-practice parallel activates the branch's established night-prayer use and scripture-reading specialization as a contextual resonance.",
+      "reader_payoff": "The focus's night vigil can be heard within a wider Qur'anic practice of night standing and recitation, while the pronoun remains open.",
+      "containment": "The target morphology is not supplied, and 73:20 does not determine the antecedent of bihi in 17:79. The connection makes a reading salient but does not prove exact simultaneity or an exclusive referent.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The connected Arabic explicitly supplies night standing and Qur'an recitation, but target morphology and the focus pronoun's antecedent remain unresolved."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001577/B002",
+          "facet_id": "F001",
+          "branch_gloss": "uykudan uyanıp kalkmak; özellikle gece namazına yönelmek",
+          "facet_statement": "Kişi uykudan uyanır ya da uyumayı bırakıp uyanıklığa geçer.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:3:2"
+          ],
+          "trigger_refs": [
+            "73:20"
+          ],
+          "focus_return_refs": [
+            "17:79:3:2"
+          ],
+          "carrier": "The focus form tahajjad carries the qualified transition from sleep into waking/night vigil.",
+          "independent_trigger": "73:20 describes measured standing during the night and then Qur'an recitation.",
+          "activation": "That separate night-standing passage returns through the focus's waking/night-vigil form and confirms a wider nocturnal practice setting.",
+          "resulting_reading": "The focus's night vigil is heard within an established pattern of deliberate night standing.",
+          "boundary": "The connection is a wider parallel and does not supply missing focus morphology."
+        },
+        {
+          "branch_ref": "root_001577/B002",
+          "facet_id": "F003",
+          "branch_gloss": "uykudan uyanıp kalkmak; özellikle gece namazına yönelmek",
+          "facet_statement": "Gece namazına kalkmak ve gece namazı kılmak, uykuyu bırakmanın yerleşmiş dinî kullanımıdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:3:2"
+          ],
+          "trigger_refs": [
+            "73:20"
+          ],
+          "focus_return_refs": [
+            "17:79:3:2"
+          ],
+          "carrier": "The focus's tahajjad is a night-practice form within the branch's associated religious use.",
+          "independent_trigger": "73:20 gives a distinct passage about standing through measured portions of the night.",
+          "activation": "The wider night-standing practice supplies a concrete parallel for the focus's established night-prayer use.",
+          "resulting_reading": "The focus's voluntary vigil is placed in a broader Qur'anic night-worship pattern.",
+          "boundary": "The target verse's exact morphology and the precise relation between its acts are not supplied."
+        },
+        {
+          "branch_ref": "root_001577/B002",
+          "facet_id": "F004",
+          "branch_gloss": "uykudan uyanıp kalkmak; özellikle gece namazına yönelmek",
+          "facet_statement": "Özel bir ifade, kutsal metni okuyarak gece ek namazını kılmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:3:2"
+          ],
+          "trigger_refs": [
+            "73:20"
+          ],
+          "focus_return_refs": [
+            "17:79:3:2"
+          ],
+          "carrier": "The focus's tahajjad occurs in a special night-practice expression, but its attached bihi remains unresolved.",
+          "independent_trigger": "73:20 explicitly pairs night standing with reciting what is easy of the Qur'an.",
+          "activation": "The connected recitation scene makes the scripture-reading specialization of the night-vigil branch available as a wider resonance.",
+          "resulting_reading": "A Qur'an-recitation setting becomes salient for the focus's night vigil without fixing what bihi refers to.",
+          "boundary": "This contextual specialization cannot resolve the focus pronoun or prove that both passages describe an identical act."
+        }
+      ],
+      "connection_refs": [
+        "conn_70e84cb98e2b77ebd896"
+      ],
+      "context_refs": [
+        "73:20"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:social-station-contrast",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "The praiseworthy station against public comparison",
+      "claim": "The focus's praiseworthy station can be distinguished from a wider scene where groups compare their station and gathering as measures of superiority.",
+      "mechanism": "19:73 uses maqaman in a comparison between two groups and pairs it with nadiyyan, a gathering. That public-comparison setting returns through the focus's maqam and the QWM branch's extension from settled place to session and gathered people, sharpening the distinction between praiseworthiness and displayed social standing.",
+      "reader_payoff": "The focus's promised honor is not automatically read as prestige measured by a group's place or company.",
+      "containment": "The connection supplies a contrary social-station setting, not the full argument of its surrounding passage. The focus station is not identified with that gathering, and target morphology is unavailable; the contrast is contextual rather than a lexical claim.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "The exact target text pairs maqaman with a gathering in a group comparison, but the contextual contrast remains bounded because target morphology is not supplied."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001273/B006",
+          "facet_id": "F001",
+          "branch_gloss": "bir yerde kalma ve kalınan yer",
+          "facet_statement": "Kişi bir yerde kalır; kalınan yer, ayak basılan yer veya kalış süresi bu ilişki üzerinden adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:11:1"
+          ],
+          "trigger_refs": [
+            "19:73"
+          ],
+          "focus_return_refs": [
+            "17:79:11:1"
+          ],
+          "carrier": "The focus's maqam is the station/place carrier for this QWM branch.",
+          "independent_trigger": "19:73 compares two groups by maqaman and by their gathering.",
+          "activation": "The separate social comparison gives the same station wording a public-status setting that can be contrasted with the focus's praiseworthy station.",
+          "resulting_reading": "The focus's station is distinguished from a place of superiority measured by public group standing.",
+          "boundary": "The target occurrence is contextual evidence, not proof that the two stations have the same referent."
+        },
+        {
+          "branch_ref": "root_001273/B006",
+          "facet_id": "F002",
+          "branch_gloss": "bir yerde kalma ve kalınan yer",
+          "facet_statement": "Oturum ve o oturumda bir araya gelen insanlar, yerleşme çekirdeğinden gelişen adlaşmış uzantılardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "17:79:11:1"
+          ],
+          "trigger_refs": [
+            "19:73"
+          ],
+          "focus_return_refs": [
+            "17:79:11:1"
+          ],
+          "carrier": "The focus maqam returns through the place/station core that underlies this session-and-gathering extension.",
+          "independent_trigger": "19:73 explicitly pairs the compared maqam with nadīyyan, a gathering or assembly.",
+          "activation": "The focus station is brought into contrast with a social setting where station and gathering jointly mark group prestige.",
+          "resulting_reading": "The praiseworthy station is not collapsed into prestige signaled by company or assembly.",
+          "boundary": "This does not condemn gatherings or import a complete social argument into 17:79."
+        }
+      ],
+      "connection_refs": [
+        "conn_e4f16d0f67c585a6be25"
+      ],
+      "context_refs": [
+        "19:73"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "All ten HFT candidates have empty anchor_refs and branch_refs, and their support records have empty anchor_evidence; none supplies the required context ayah, word index, root, attributed role, and focus return. They are rejected as sources rather than represented by independently grounded connection findings.",
+    "selected_context_units is empty. Wider connection targets supply Arabic but no target morphology, so the global findings remain qualified and avoid claims that depend on unavailable target analysis.",
+    "The focus word alignment is complete (14/14, no unresolved alignments), but bihi's antecedent remains unresolved; the 73:20 night-recitation resonance does not settle it.",
+    "The same-surah cues 17:78, 17:80, and 17:94 remain macro context rather than global triggers. The HFT r-b-w proposal also lacks a packet crosswalk to the available r-b-b branch."
+  ]
+}

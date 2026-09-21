@@ -1,0 +1,326 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "17:78",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_1ab2fbd9008ffd37abe3",
+      "decision": "narrow",
+      "reason": "The trusted schedule claim is narrowed here to its night-darkening branch, which has a concrete cross-surah trigger in 113:3. The other candidate branches are not part of this bounded darkness reading; the standing and presence branches are retained separately under cand_49978ee3125d2cf85258, while the remaining schedule components stay focus-local.",
+      "finding_refs": ["global:nightfall-vulnerability"],
+      "branch_exclusions": [
+        {"branch_ref": "root_000483/B002", "reason": "Solar displacement is part of the local schedule but is not changed by the darkness trigger used in this bounded finding."},
+        {"branch_ref": "root_000822/B001", "reason": "Presence/seeing is not part of the nightfall reading; its wider witness relation is retained under cand_49978ee3125d2cf85258."},
+        {"branch_ref": "root_000879/B003", "reason": "The ritual-prayer branch is locally present but 113:3 does not independently change that branch."},
+        {"branch_ref": "root_001132/B002", "reason": "The dawn branch is not activated by the night-darkness trigger."},
+        {"branch_ref": "root_001273/B002", "reason": "Physical standing is not part of this darkness reading; its wider night-practice relation is retained under cand_49978ee3125d2cf85258."},
+        {"branch_ref": "root_001273/B003", "reason": "The undertaking sense has no independent trigger or focus return in the nightfall relation."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_49978ee3125d2cf85258",
+      "decision": "accept",
+      "reason": "Both attached focus branches survive with distinct wider triggers: 73:20 supplies measured night standing alongside Quran recitation and prayer, while 10:61 and 85:3 widen the focus's passive witnessing relation. The focus schedule remains the frame; the cross-surah contacts add embodied practice and a wider witness relation without equating the separate passages or events.",
+      "finding_refs": ["global:embodied-witnessed-practice"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d19f761920407b66ab85",
+      "decision": "reject",
+      "reason": "The proposed pacing parallel depends on 17:106, which is host-surah context and therefore macro under this lane contract, not a wider global trigger. The support supplies no independent cross-surah contact returning to a focus word or relation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:106", "reason": "Same host-surah context; eligible for macro analysis, not global discovery."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ce83276c1f6bc85414b4",
+      "decision": "reject",
+      "reason": "Its displacement and orientation reading is carried by 17:76-77 and 17:79-80. Those are same-host-surah macro contexts, and the legacy support provides no independent wider trigger for the focus branches.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_000483/B002", "reason": "In this candidate the solar-displacement reading depends on same-host macro contexts; it is not a global activation."},
+        {"branch_ref": "root_000822/B001", "reason": "In this candidate the presence/witness reading depends on same-host macro contexts; its distinct global witness relation is assessed under cand_49978ee3125d2cf85258."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:76", "reason": "Same host-surah context; macro, not global."},
+        {"context_ref": "17:77", "reason": "Same host-surah context; macro, not global."},
+        {"context_ref": "17:79", "reason": "Same host-surah pericope context; macro, not global."},
+        {"context_ref": "17:80", "reason": "Same host-surah pericope context; macro, not global."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7a5523736faaf7c5c861",
+      "decision": "reject",
+      "reason": "The retrospective threshold model relies on 17:79-80 and 17:83. All are same-host-surah macro context, and no independent wider trigger returns through the focus.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "17:79", "reason": "Same host-surah pericope context; macro, not global."},
+        {"context_ref": "17:80", "reason": "Same host-surah pericope context; macro, not global."},
+        {"context_ref": "17:83", "reason": "Same host-surah pericope context; macro, not global."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ac191c5ed3b694ad5a3f",
+      "decision": "reject",
+      "reason": "The uncertainty concerns the focus-local schedule parsing of لِدُلُوكِ ... إِلَىٰ, not a wider semantic resonance. Its HFT record has no supplied anchor trace or independent context-to-focus return, so it remains a local ambiguity rather than global evidence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f14b826fd5ab4e9389cb",
+      "decision": "represented",
+      "reason": "The finding at global:embodied-witnessed-practice carries the same bounded semantic point: wider witness language enlarges the passive focus relation while the focus itself leaves the witness agent unspecified. That relation is grounded independently in the focus form and the supplied 10:61/85:3 connections; the unanchored HFT payload is not used as evidence.",
+      "finding_refs": ["global:embodied-witnessed-practice"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c0af2eae2790e92e9786",
+      "decision": "reject",
+      "reason": "The listed hydraulic, gestational, and fire-straightening analogies have no supplied HFT context/word/root/role/contact trace. The independent 82:3 surface cue concerns seas bursting and cannot ground that broader set of analogies as a global focus reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ccc8affed17b5b3e46d3",
+      "decision": "reject",
+      "reason": "The stillness-to-arousal-to-stable-standing sequence has no supplied HFT trace returning a specified context word and role to the focus. The night-practice connection at 73:20 supports standing as a bounded resonance, but not this additional transition sequence.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d8d6deea3294853c37a1",
+      "decision": "reject",
+      "reason": "The truth-loss/healing-loss sequence that would make recitation diagnostic has no supplied HFT context, word, root, role, or focus-return trace, and no independent cross-surah trigger in the packet grounds that changed reading.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_43536be4f7c8aa11625d",
+      "decision": "reject",
+      "reason": "The claimed springs-and-rivers reuse and dawn-flow reading has no supplied HFT trace. The exact 82:3 surface mentions bursting seas, which permits only a separately bounded exploratory opening resonance; it does not supply the candidate's specific springs/rivers contexts or prove their root mapping.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dca67f0f1ca130f4d829",
+      "decision": "reject",
+      "reason": "The claim that refusal cannot deprive dawn recitation of witness has no supplied HFT context or focus-return trace. The independently grounded witness relations do not establish a refusal context or that causal conclusion.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_952b733719d8aca94a2e",
+      "decision": "reject",
+      "reason": "This aggregates standing/arousal, water-burst, Quran-unmatchability/requested-evidence, and divine-witness claims without a supplied HFT anchor trace or one bounded global mechanism. Its parts cannot be promoted as a surah thesis; independently supported narrower resonances are recorded separately.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:nightfall-vulnerability",
+      "origin_candidate_id": "cand_1ab2fbd9008ffd37abe3",
+      "represented_candidate_ids": [],
+      "title": "Nightfall as a threshold",
+      "claim": "The focus interval's entry into night can also be heard as a consequential threshold: the night-darkening named at 17:78 meets a wider passage that frames darkness at its entry as a possible source of harm.",
+      "mechanism": "The focus noun غَسَقِ carries the core entering-darkness facet in the schedule; 113:3 supplies a separate dark-night-at-entry context. Their contact gives the focus's night boundary a vulnerability/exposure resonance beyond timekeeping alone.",
+      "reader_payoff": "Nightfall remains a schedule boundary, but its onset also becomes perceptible as a moment of exposure rather than a neutral clock marker.",
+      "containment": "The harm/protection frame belongs to 113:3. The focus does not call night evil, prescribe refuge, or say that prayer protects from harm; the retained contact is the onset of darkness, not every later degree of deepening.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The focus schedule is supported by trusted cross-run evidence, but the 113:3 connection is a contextual nomination without supplied target morphology, so the wider lexical contact remains qualified."
+      },
+      "support_ids": ["sup_c514b029a0bdb51b70fc"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001086/B001",
+          "facet_id": "F001",
+          "branch_gloss": "gecenin kararması ve karanlığın bastırması",
+          "facet_statement": "Gece karanlığının ilk girişi ve gün batımı aydınlığının kaybolması anlamın başlangıç evresidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:78:6:1"],
+          "trigger_refs": ["113:3"],
+          "focus_return_refs": ["17:78:6:1"],
+          "carrier": "غَسَقِ اللَّيْلِ names night-darkening as the focus's temporal boundary.",
+          "independent_trigger": "The supplied 113:3 surface places غَاسِقٍ at its entry (إِذَا وَقَبَ) in a wider harm/protection frame; target morphology is not supplied.",
+          "activation": "The focus branch's initial entry of darkness meets the separate entry-of-darkness context at 113:3, so the same temporal threshold can carry an exposure resonance without importing the target's full frame.",
+          "resulting_reading": "The focus's move into night is both a time boundary and, by qualified cross-surah resonance, a consequential point of exposure.",
+          "boundary": "This does not transfer 113:3's harm language or protective act into 17:78, and does not identify the focus's night with every darkening use."
+        }
+      ],
+      "connection_refs": ["conn_6b59228f80184d0c5043"],
+      "context_refs": ["113:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:embodied-witnessed-practice",
+      "origin_candidate_id": "cand_49978ee3125d2cf85258",
+      "represented_candidate_ids": ["cand_f14b826fd5ab4e9389cb"],
+      "title": "Embodied prayer, witnessed recitation",
+      "claim": "Against 17:78's schedule from solar decline through night to dawn, the command to establish prayer gains an embodied night-practice resonance from 73:20, while the dawn recitation's passive witnessed relation gains a wider frame from 10:61's Quran-under-witnesses and 85:3's witness/witnessed pairing.",
+      "mechanism": "At أَقِمِ, the focus's establishment command meets 73:20's measured night standing alongside Quran recitation and prayer, making bodily standing perceptible as one enactment of establishing worship. At مَشْهُودًا, the passive witnessed form meets 10:61's recitation under witnesses and 85:3's paired witness/witnessed terms; this enlarges the relation while leaving the focus's witness agent open.",
+      "reader_payoff": "The schedule can be heard not only as a sequence of times but as embodied night worship and dawn recitation within a broader, still-unspecified witnessing relation.",
+      "containment": "The focus imperative is not reduced to posture, and the distinct verses are not treated as the same event or community. The focus's passive participle does not grammatically identify its witness; the cross-surah target morphology is not supplied. The represented HFT boundary is retained through independent focus and connection evidence, not through its unbound trace.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The originating reader-walk support is legacy_unbound, while the exact connection surfaces offer relevant but non-morphologically annotated contextual contacts; the reading is retained with those limits explicit."
+      },
+      "support_ids": ["sup_47f7ea6877f218ccaac2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001273/B002",
+          "facet_id": "F001",
+          "branch_gloss": "ayağa kalkma ve dik durma",
+          "facet_statement": "Canlı ya da cansız bir varlık dik konuma gelir veya dik durumda bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:78:1:1"],
+          "trigger_refs": ["73:20"],
+          "focus_return_refs": ["17:78:1:1"],
+          "carrier": "أَقِمِ is the focus's Form IV imperative to establish prayer; the physical-standing branch is treated as an embodied resonance, not as its exclusive gloss.",
+          "independent_trigger": "73:20 describes measured night standing together with Quran recitation and prayer; its exact Arabic is supplied, but target morphology is not.",
+          "activation": "The focus's q-w-m imperative for establishing prayer meets the separate night-standing practice in 73:20, where recitation and prayer occur in the same measured devotional frame; this makes standing an embodied dimension of the focus's practice.",
+          "resulting_reading": "Establishing prayer in the focus can be heard with an embodied night-practice dimension, not merely as an abstract or purely temporal command.",
+          "boundary": "The focus imperative is not collapsed into the physical posture branch, nor are the passages asserted to describe an identical command, community, or occasion."
+        },
+        {
+          "branch_ref": "root_000822/B001",
+          "facet_id": "F001",
+          "branch_gloss": "hazır bulunup görme",
+          "facet_statement": "Bir olayın ya da yerin yanında hazır bulunma ve onu doğrudan görme çekirdeği vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:78:14:1"],
+          "trigger_refs": ["10:61", "85:3"],
+          "focus_return_refs": ["17:78:14:1"],
+          "carrier": "مَشْهُودًا is a passive participle meaning witnessed, attended, or attested; the focus does not name the witness.",
+          "independent_trigger": "10:61 places Quran recitation beside the first-person-plural claim of being witnesses over the addressees; 85:3 separately pairs a witness with one witnessed.",
+          "activation": "The focus's open passive witness relation meets both a Quran-under-witnesses context and an explicit witness/witnessed pairing, widening the relation around dawn recitation without supplying its local agent.",
+          "resulting_reading": "The dawn recitation can be read within a wider witness/witnessed relation, while its own witness remains unspecified.",
+          "boundary": "The connections do not establish that all three verses refer to the same event or community, and the focus grammar still does not identify who witnesses the recitation."
+        }
+      ],
+      "connection_refs": ["conn_40d80060319f70fc852e", "conn_95429b5aa925fe99a485", "conn_cdfc2697d609ddf60e8b"],
+      "context_refs": ["73:20", "10:61", "85:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:attested-recitation",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Attestation beside witnessed presence",
+      "claim": "The focus's مَشْهُودًا can also carry an evidentiary-attestation resonance, not only the sense of a witnessed or attended event, when read beside 70:33's people maintaining their testimonies.",
+      "mechanism": "The passive focus form can meet the available information-bearing testimony branch; 70:33 independently names people who stand by their testimonies. This separate testimonial use opens an evidentiary reading alongside direct presence/seeing.",
+      "reader_payoff": "The dawn recitation remains witnessed, but a qualified alternative now allows it to be heard as attested rather than merely observed.",
+      "containment": "70:33 concerns human testimonies, not this Quranic recitation. The focus neither names human witnesses nor makes the recitation a legal testimony; the connection supplies exact surface Arabic but no target morphology, so this remains exploratory.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "The exact connection surface contains testimony language and the focus has an available attestation branch, but the connection supplies no target morphology and does not explicitly identify the recitation as testimony."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000822/B002",
+          "facet_id": "F001",
+          "branch_gloss": "bilgiye dayalı tanıklık",
+          "facet_statement": "Merkezde bilinen bir şeyi kesin haber veya açıklama olarak bildirme vardır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:78:14:1"],
+          "trigger_refs": ["70:33"],
+          "focus_return_refs": ["17:78:14:1"],
+          "carrier": "مَشْهُودًا is the focus's passive witness form, whose attestation sense remains an available branch rather than an exclusive gloss.",
+          "independent_trigger": "The supplied 70:33 surface explicitly mentions people maintaining their testimonies; target morphology is not supplied.",
+          "activation": "The focus's passive witnessed form meets an independent context of maintained testimony, permitting an evidentiary-attestation resonance distinct from simply being present to see.",
+          "resulting_reading": "The focus recitation may be heard as attested or borne witness to, as well as attended or seen.",
+          "boundary": "This does not assert that the Quranic recitation is a human legal testimony or identify any human witness in 17:78."
+        }
+      ],
+      "connection_refs": ["conn_510b1e492f64f8954dea"],
+      "context_refs": ["70:33"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:dawn-opening-release",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Dawn with an opening resonance",
+      "claim": "The focus's repeated dawn term can carry a limited opening/breakthrough resonance beside 82:3's image of the seas bursting open.",
+      "mechanism": "The two focus occurrences of فَجْرِ carry the dawn word with an available wide-splitting branch; 82:3 supplies a separate surface image of seas being burst open. Their contact makes dawn perceptible as an opening image beyond its schedule function.",
+      "reader_payoff": "Dawn can be heard not only as a time boundary but with a qualified image of opening or release.",
+      "containment": "This is a surface-level resonance, not a verified target root/morphology crosswalk. It does not make dawn mean seas, water-flow, springs, or rivers, and does not validate the unanchored HFT springs/rivers claim.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [],
+        "reason": "The exact target Arabic gives a bursting-seas image and the focus registry supplies an opening branch, but target morphology and the cross-text root relation are not independently supplied."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001132/B001",
+          "facet_id": "F001",
+          "branch_gloss": "genişçe yarılma ve içinden suyun akıp çıkması",
+          "facet_statement": "Bir şey genişçe yarılarak içinde bir açıklık oluşturulur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["17:78:9:2", "17:78:12:2"],
+          "trigger_refs": ["82:3"],
+          "focus_return_refs": ["17:78:9:2", "17:78:12:2"],
+          "carrier": "The repeated focus noun فَجْرِ names dawn; its registry's wide-splitting branch is an available resonance, not a direct replacement gloss.",
+          "independent_trigger": "82:3 supplies the exact surface image of seas being burst open; target morphology is not supplied.",
+          "activation": "The separate sea-opening image meets the focus dawn word's available wide-splitting branch, allowing a bounded cross-surah opening resonance at both focus occurrences.",
+          "resulting_reading": "Dawn can carry an opening/breakthrough image alongside its temporal role.",
+          "boundary": "No water-flow facet is activated here, and the surface contact does not establish a shared target root or the HFT's springs/rivers scenario."
+        }
+      ],
+      "connection_refs": ["conn_8a1d921708e62b3cd6eb"],
+      "context_refs": ["82:3"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The QAC bridge resolves all 16 focus words with no unresolved alignment. The precise schedule-level parsing of لِدُلُوكِ ... إِلَىٰ remains compatible with more than one reading, so this global discovery does not resolve that focus-local ambiguity.",
+    "All 86 focus branch records and 210 connection rows were inspected. The connection rows provide exact target Arabic but no target morphology; the contacts used here therefore remain qualified or exploratory, not morphological proof. The 82:3 contact is only a surface opening resonance and does not establish springs or rivers.",
+    "All 8 HFT candidates marked review were assessed; their records have zero supplied/cited anchors and no target morphology. Seven are rejected; cand_f14b826fd5ab4e9389cb is represented only through an independently grounded finding, without citing its unbound HFT payload. The five optional_review candidates were also reviewed. No formal semantic_obligations or required_branch_facets are supplied in the candidate inventory.",
+    "Same-host contexts 17:76-77, 17:79-83, and 17:106 remain macro under the lane contract, not global triggers. Although Fatiha refs 1:2-7 are declared, the packet supplies no selected-context text for them, so they are not used here."
+  ]
+}

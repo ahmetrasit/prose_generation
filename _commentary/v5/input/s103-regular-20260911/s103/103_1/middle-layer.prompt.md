@@ -187,6 +187,30 @@ that the source was already irreducibly organized and the ledger gives a
 specific non-merging reason for every standalone cluster. Do not manufacture
 mergers merely to improve a metric; semantic coherence governs the decision.
 
+After the first complete prose draft, compute the ledger metrics and return to
+this clustering stage for a mandatory diagnostic pass when the source has at
+least ten prose paragraphs and any of these warning signals appears:
+
+- `retained_word_ratio` is greater than `0.80`;
+- `output_to_source_paragraph_ratio` is greater than `0.75`;
+- fewer than `0.40` of the output prose paragraphs are multi-source paragraphs.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. Do not shorten until a number crosses a boundary. A
+semantically irreducible commentary may remain beyond one or all of these
+signals after the required pass.
+
+For that pass, challenge every repeated setup, recap, defensive qualification,
+and run of single-source paragraphs that develops the same carrier, question,
+image, mechanism, or consequence. Privately draft the best continuous merged
+formulation, then compare it unit by unit with the current version. Adopt the
+merge only when every distinct unit still has an explicit substantive landing,
+every modality and boundary remains visible, citations remain locally
+meaningful, and the Turkish becomes easier rather than merely shorter. If the
+merge fails any test, keep the material separate and give the relevant
+standalone clusters concrete semantic non-merging reasons. Never delete,
+generalize, or bury a unit merely to improve a diagnostic metric.
+
 For every unit, choose one substantive prose landing. A landing must be an
 exact sentence or clause that expresses the unit's actual content. A heading,
 topic label, vague thematic sentence, citation, or general conclusion is not a

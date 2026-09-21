@@ -1,0 +1,2218 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:87",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_181820986becfd47b288",
+      "decision": "accept",
+      "reason": "Başlangıçtaki olumsuzluk kip ve yüklem üzerinde yerel bir ayrım kurar: şefaatin varlığını değil, ona sahip olma ve tasarruf yetkisini reddeder.",
+      "finding_refs": [
+        "micro:negation-scope"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bf99a2f442bc74a2c06e",
+      "decision": "accept",
+      "reason": "لَا ile başlayan sahip olmama önce kural hâline gelir; إِلَّا bu kapalı alanın içinden tek istisna yolunu açar.",
+      "finding_refs": [
+        "micro:denial-before-exception"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b96ba341d8106113def5",
+      "decision": "reject",
+      "reason": "Adayın ayırt edici katkısı, şefaat hakkında başka ayetlerdeki tanıklık, izin ve covenant ölçütlerini karşılaştırmaya dayanır; bunlar micro odağının dışında ayrı ayet tetikleyicileridir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "43:86",
+          "reason": "Bu ayet yalnız daha geniş şefaat formüllerindeki karşılaştırmayı taşır; micro bulgusunda taşıyıcı veya tetikleyici olarak kullanılmadı."
+        },
+        {
+          "context_ref": "39:43",
+          "reason": "Bu ayet yalnız daha geniş şefaat formüllerindeki karşılaştırmayı taşır; micro bulgusunda taşıyıcı veya tetikleyici olarak kullanılmadı."
+        },
+        {
+          "context_ref": "39:44",
+          "reason": "Bu ayet yalnız daha geniş şefaat formüllerindeki karşılaştırmayı taşır; micro bulgusunda taşıyıcı veya tetikleyici olarak kullanılmadı."
+        },
+        {
+          "context_ref": "2:255",
+          "reason": "Bu ayet yalnız daha geniş şefaat formüllerindeki karşılaştırmayı taşır; micro bulgusunda taşıyıcı veya tetikleyici olarak kullanılmadı."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a3f459faf3131093bad9",
+      "decision": "accept",
+      "reason": "Olumsuz yüklem ile sonraki إِلَّا birlikte okunduğunda covenant şartı, inkâr alanındaki tek olumlu çıkış olarak kurulur.",
+      "finding_refs": [
+        "micro:closed-exception"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_75837c536b00ff86b17b",
+      "decision": "reject",
+      "reason": "Adayın yeni katkısı güçsüz aracılarla ilgili dış ayet karşılaştırmalarına dayanır; odak ayetin kendi yetki sınırı başka yerel bulgularda korunuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "25:3",
+          "reason": "Karşılaştırma bu micro paketteki 19:87 odağının dışındadır."
+        },
+        {
+          "context_ref": "13:16",
+          "reason": "Karşılaştırma bu micro paketteki 19:87 odağının dışındadır."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1910d816b17706a49be7",
+      "decision": "narrow",
+      "reason": "Fiilin sağlanan morfolojisi, cümlede açık adla belirtilmeyen çoğul bir özne gösterir. Bu öznenin 19:86'da tanıtılan grup olduğunu söylemek için micro kapsamı dışındaki ayet bağlamı gerekir.",
+      "finding_refs": [
+        "micro:plural-subject"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:86",
+          "reason": "Önceki ayetteki grubun kimliği bu micro bulgusuna alınmadı; yalnız odak fiilin çoğul öznesi korundu."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_76dfd0423a5231fe0b37",
+      "decision": "accept",
+      "reason": "Süreklilik bildiren geçişli fiil, belirli şefaat nesnesi üzerindeki mevcut tasarruf yokluğunu bildirir; eksik olan yalnız belli bir alıcıya yardım değildir.",
+      "finding_refs": [
+        "micro:ongoing-control"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8be51d81da3fc2fd894c",
+      "decision": "accept",
+      "reason": "Yerel fiil biçimi ve doğrudan nesne, sahiplik alanını kozmik hükümdarlık adı olarak değil şefaat üzerindeki işleyen tasarruf yetkisi olarak sınırlar.",
+      "finding_refs": [
+        "micro:operative-possession"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001444/B003",
+          "reason": "Sovereignty branch is a separate nominal use; the supplied finite Form I predicate and direct object select operative control of intercession."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4cf39a083f0890c39f8a",
+      "decision": "reject",
+      "reason": "Adayın hareketten ilkeye geçişi, 19:86'daki sahneyle kurduğu ardışık ilişkiye bağlıdır; bu ilişki micro odağında taşınamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:86",
+          "reason": "Önceki ayetin hareket sahnesi micro tetikleyicisi değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9a10bee1e1f58145a0c2",
+      "decision": "accept",
+      "reason": "Belirli mastar, tek bir aracıyı adlandırmak yerine şefaat kurumunu veya kapasitesini nesne olarak soyutlar.",
+      "finding_refs": [
+        "micro:abstract-intercession"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_89498b79ff28c3059877",
+      "decision": "reject",
+      "reason": "İzin, tanıklık ve covenant ölçütlerini kıyaslayan semantik katkı, odak dışındaki şefaat formüllerine ihtiyaç duyar; yerel covenant ölçütü başka findings içinde kalır.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "2:255",
+          "reason": "Bu ayetler micro odağında bağımsız tetikleyici olarak kullanılmadı."
+        },
+        {
+          "context_ref": "20:109",
+          "reason": "Bu ayetler micro odağında bağımsız tetikleyici olarak kullanılmadı."
+        },
+        {
+          "context_ref": "2:48",
+          "reason": "Bu ayetler micro odağında bağımsız tetikleyici olarak kullanılmadı."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6e3d638ee35ae255c8e3",
+      "decision": "accept",
+      "reason": "Belirli nesne, daha önce tanınan şefaat alanını sahiplik fiilinin konusu yapar; ayet şefaati ilk kez tanıtmak yerine ona erişimi düzenler.",
+      "finding_refs": [
+        "micro:known-intercession-object"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_22d2e34f534cc1874dc4",
+      "decision": "reject",
+      "reason": "Bu aday başka türev biçimlerin bulunmadığını bildirir, ancak focus yüzeyinde o biçimlere dayanan ayrı bir okuma veya bağımsız reader payoff etkinleşmez.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a8ed89d9f8d1c274ade1",
+      "decision": "reject",
+      "reason": "Yerel tasarruf-şefaat-covenant bağı, bağlı zorunlu bulgularda zaten ayrı ayrı korunuyor; bu adayın eklediği anlam 19:88'deki karşıt alım yönüne dayanıyor ve micro sınırını aşıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:88",
+          "reason": "Sonraki ayetin karşıt yönü micro tetikleyicisi değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_336815fe190e5215f6c7",
+      "decision": "accept",
+      "reason": "Şefaat sözcüğünün çiftleme imgesi, tasarruf inkârı ve covenant istisnasıyla karşılaşınca başkasının talebine ikinci bir sesin eklenmesi olarak yerel bir aracı olma görüntüsü verir.",
+      "finding_refs": [
+        "micro:second-voice-pairing"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8cc8627d22e45f168c1f",
+      "decision": "accept",
+      "reason": "İstisnanın ardından gelen kişi ve fiil, uygunluğu yalın bir unvanla değil covenant alma eylemiyle tanımlar.",
+      "finding_refs": [
+        "micro:action-defined-exception"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_13fc579606ba45d99537",
+      "decision": "accept",
+      "reason": "İstisna cümlesi olumsuz sahiplik alanından kopmaz; إِلَّا sonraki kişi-fiil yapısını aynı kuralın kapsamına bağlar.",
+      "finding_refs": [
+        "micro:connected-exception"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_07700edac378e955246f",
+      "decision": "accept",
+      "reason": "مَن tekil görünse de adı belirli bir kişi seçmez; covenant alma şartına uyan herkese açık bir istisna sınıfı kurar.",
+      "finding_refs": [
+        "micro:open-covenant-class"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_059800f008022a528de0",
+      "decision": "reject",
+      "reason": "Kasra, zamir ile sonraki fiil arasındaki ses birleşimini sağlar; bu ses olayı zaten kişi-fiil kapısına dâhil ve başka bir kök anlamı ya da bağımsız değiştirilmiş okuma üretmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ce1439a8ec711b17f979",
+      "decision": "accept",
+      "reason": "Aynı kişi biçimi hem covenant alan kişiyi tanımlayan ilgi yapısı hem de 'kim alırsa' koşulu olarak okunabilir; iki kuruluş da istisnanın açıklığını ve şartın aynı eylem olduğunu korur.",
+      "finding_refs": [
+        "micro:relative-condition"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e3fe849e10d223f8bb17",
+      "decision": "reject",
+      "reason": "Adayın biçimsel covenant karşılaştırması 19:78 ve 2:80'e dayanır; micro odağı bu başka ayetleri tetikleyici olarak kullanmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:78",
+          "reason": "Phrase-frame comparison belongs outside this micro focus."
+        },
+        {
+          "context_ref": "2:80",
+          "reason": "Phrase-frame comparison belongs outside this micro focus."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b9a7185acfe28bf744de",
+      "decision": "reject",
+      "reason": "Doğru covenant alma ile put veya yanlış isnat alma arasındaki kutupsal karşıtlık, ayrı ayetlerdeki kullanımlarla kuruluyor; focus içinde bağımsız tetikleyicisi yok.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "7:148",
+          "reason": "Bu karşıt ayetler micro bulgusunda taşıyıcı veya tetikleyici yapılmadı."
+        },
+        {
+          "context_ref": "19:81",
+          "reason": "Bu karşıt ayetler micro bulgusunda taşıyıcı veya tetikleyici yapılmadı."
+        },
+        {
+          "context_ref": "19:88",
+          "reason": "Bu karşıt ayetler micro bulgusunda taşıyıcı veya tetikleyici yapılmadı."
+        },
+        {
+          "context_ref": "19:92",
+          "reason": "Bu karşıt ayetler micro bulgusunda taşıyıcı veya tetikleyici yapılmadı."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92bdfb878b1d5324a0ef",
+      "decision": "accept",
+      "reason": "Geçişli perfect fiil tamamlanmış alma eylemini koşul yapar; böylece devam eden şefaat kapasitesi önce gerçekleşmiş bir edime bağlanır.",
+      "finding_refs": [
+        "micro:completed-covenant-act"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_378348c0770313f6dde7",
+      "decision": "accept",
+      "reason": "VIII. bâbın kendine yönelik alma biçimi, belirsiz isteği değil failin edindiği covenant durumunu anlatır; doğrudan nesne bu edinimin ne olduğunu belirler.",
+      "finding_refs": [
+        "micro:self-directed-taking"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_798c6b79a6a5f8b04094",
+      "decision": "reject",
+      "reason": "Bu yüzeyde عِندَ locative yakınlık zarfıdır; karşı gelme dalının biçimi farklıdır ve gerçek taşıyıcıyla uyuşmadığından etkinleşmez.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001052/B001",
+          "reason": "The defiance facet belongs to a different adjective/form; the supplied focus token is the locative adverb عِندَ."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1e19350c8bbacc8982ef",
+      "decision": "accept",
+      "reason": "عِندَ الرَّحْمَٰنِ hem alma eylemini hem covenant nesnesini niteleyebilir; iki bağlanma da şartı al-Rahman huzuruna yerleştirir ve cümlenin istisna yapısını korur.",
+      "finding_refs": [
+        "micro:divine-attachment-ambiguity"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7461286a4d41ff8a54ad",
+      "decision": "accept",
+      "reason": "عِندَ, ardından gelen genitif ilahi adla bir huzur ilişkisi kurar; covenant alma koşulu başıboş özel bir iddia olarak kalmaz.",
+      "finding_refs": [
+        "micro:presence-genitive-phrase"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d0a40afac4f1910d18a6",
+      "decision": "accept",
+      "reason": "Yakınlık anlamı, covenantın tanınmış bir statü olmasını sağlayan ilahi değerlendirme yönüne açılır; yerel ad ve covenant ilişkisi bu genişlemeyi tetikler.",
+      "finding_refs": [
+        "micro:recognized-divine-presence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_671e53e89d1987579f3d",
+      "decision": "reject",
+      "reason": "Bu adayın ayırt edici katkısı, 19:78'deki aynı phrase slot tekrarıdır; focus-local micro packet'te o tekrar bir tetikleyici olarak kullanılamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:78",
+          "reason": "Same-surah recurrence is reserved for the broader context lane."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0db40033327797bef556",
+      "decision": "accept",
+      "reason": "Genitif konumdaki al-Rahman covenantın tanınma merciini adlandırır; belirsiz accusative covenant nesnesi ise içeriği açık bırakır.",
+      "finding_refs": [
+        "micro:covenant-content-open"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_073677a72feabb6a9c0e",
+      "decision": "reject",
+      "reason": "Al-Rahman'ın başka şefaat sahnelerindeki yetkisini kıyaslayan katkı 20:109, 25:26 ve 43:86'ya dayanıyor; bu yerel bulgu için kullanılmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "20:109",
+          "reason": "Bu ayetler micro focus dışındaki paralellerdir."
+        },
+        {
+          "context_ref": "25:26",
+          "reason": "Bu ayetler micro focus dışındaki paralellerdir."
+        },
+        {
+          "context_ref": "43:86",
+          "reason": "Bu ayetler micro focus dışındaki paralellerdir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_58603b17b89655f952b7",
+      "decision": "accept",
+      "reason": "al-Rahman adı, şefaat sınırını merhametle adlandırılmış ilahi yetki alanına koyar; aynı cümledeki covenant şartı bu adın taşıdığı merhameti serbest ve koşulsuz erişim iddiasına dönüştürmez.",
+      "finding_refs": [
+        "micro:mercy-name-authority"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_efd160dda39c2c1b5a2e",
+      "decision": "accept",
+      "reason": "QAC'nin özel ad olarak işaretlediği genitif tamlayan, yakınlık edatının değerlendirme niteliği değil al-Rahman adlı ilahi mercii gösterdiğini belirler.",
+      "finding_refs": [
+        "micro:proper-name-locus"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_167b6234624de9a86c5a",
+      "decision": "reject",
+      "reason": "Adayın çerçevesi 19:78, 19:88, 19:91-93 ve 19:96'daki same-surah recurrence ilişkisine dayanıyor; bu micro odağında kullanılmıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:78",
+          "reason": "Bu ayetler local micro carriers veya triggers olarak seçilmedi."
+        },
+        {
+          "context_ref": "19:88",
+          "reason": "Bu ayetler local micro carriers veya triggers olarak seçilmedi."
+        },
+        {
+          "context_ref": "19:91",
+          "reason": "Bu ayetler local micro carriers veya triggers olarak seçilmedi."
+        },
+        {
+          "context_ref": "19:92",
+          "reason": "Bu ayetler local micro carriers veya triggers olarak seçilmedi."
+        },
+        {
+          "context_ref": "19:93",
+          "reason": "Bu ayetler local micro carriers veya triggers olarak seçilmedi."
+        },
+        {
+          "context_ref": "19:96",
+          "reason": "Bu ayetler local micro carriers veya triggers olarak seçilmedi."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e1b2ced991b470d8be03",
+      "decision": "reject",
+      "reason": "Meşru covenant konumu ile sonraki yanlış isnat arasındaki discourse sınırı 19:78, 19:88 ve 19:92 bağlamlarına dayanır; micro focus bu bağlamı taşıyamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:78",
+          "reason": "Bu ayetler focus-local micro context değildir."
+        },
+        {
+          "context_ref": "19:88",
+          "reason": "Bu ayetler focus-local micro context değildir."
+        },
+        {
+          "context_ref": "19:92",
+          "reason": "Bu ayetler focus-local micro context değildir."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_7cd74968fbb24d001b51",
+      "decision": "accept",
+      "reason": "عَهْد, özel bir vaat olmanın ötesinde korunması gereken bağlayıcı söz ve güvence niteliği taşır; istisna yapısı onu tanınan bir yükümlülük olarak işler.",
+      "finding_refs": [
+        "micro:binding-covenant"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_17b1c97339ae86390d6a",
+      "decision": "narrow",
+      "reason": "Son sözcük, اتَّخَذَ fiilinin nesnesi olarak ve inkâr-istisna yapısının bitiş şartı olarak yerel işi taşır; 19:78'deki tekrar bu micro bulgusuna katılmadı.",
+      "finding_refs": [
+        "micro:final-condition"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:78",
+          "reason": "The phrase-slot recurrence is excluded; the focus-local sentence-final condition is retained."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_20f6358bef3f8b115f30",
+      "decision": "reject",
+      "reason": "Sağlanan yüzey, emir veya alıntılanan covenant verme fiili değil soyut isimdir; buna rağmen bu biçim sınırı yeni bir yerel anlam veya bağımsız reader payoff üretmedi.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001055/B002",
+          "reason": "The command facet is not carried by the focus's indefinite abstract noun عَهْدًا."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a08af7dee67e780d0338",
+      "decision": "accept",
+      "reason": "Belirsiz isim covenant içeriğini söylemeden covenant statüsünü koşul olarak belirginleştirir; عِندَ edatı ilahi ilişkiyi kurar, fakat isim tamlamasıyla içeriği al-Rahman'a ait diye kapatmaz.",
+      "finding_refs": [
+        "micro:indefinite-status"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_5cd078bbf5bcddeb5668",
+      "decision": "reject",
+      "reason": "İlahi güvence, commissioning ve righteous covenant-keeping katkısı 2:80, 2:125 ve 2:177 paralellerine dayanır; micro focus içinde bunlar için tetikleyici yoktur.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "2:80",
+          "reason": "Bu ayetler wider comparison olarak kaldı; micro carriers/triggers değiller."
+        },
+        {
+          "context_ref": "2:125",
+          "reason": "Bu ayetler wider comparison olarak kaldı; micro carriers/triggers değiller."
+        },
+        {
+          "context_ref": "2:177",
+          "reason": "Bu ayetler wider comparison olarak kaldı; micro carriers/triggers değiller."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9d3f7cbc05c5de7493ea",
+      "decision": "accept",
+      "reason": "Olumsuzluk, إِلَّا, tamamlanmış geçişli alma ve son covenant nesnesi birlikte tek bir kural kurar: sahiplik reddedilir, istisna eylemle ve nesnesiyle tanımlanır.",
+      "finding_refs": [
+        "micro:whole-rule-convergence"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_187273f756aebc541f8c",
+      "decision": "accept",
+      "reason": "Accusative عَهْدًا, اتَّخَذَ fiilinin doğrudan nesnesidir; covenant cümlenin arka planı değil, istisna statüsünü kurmak üzere alınan şeydir.",
+      "finding_refs": [
+        "micro:covenant-object"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_573dfff43d84589ee9d9",
+      "decision": "reject",
+      "reason": "Bu ledger-only kayıt يَمْلِكُ fiilindeki QAC kök konumunu doğrular; tek başına branch sense, bağımsız trigger veya değiştirilmiş okuma sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8876a967896cc373b487",
+      "decision": "reject",
+      "reason": "Bu ledger-only kayıt الشَّفَاعَةَ sözcüğündeki QAC kök konumunu doğrular; tek başına branch sense, bağımsız trigger veya değiştirilmiş okuma sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_578a1704f54d4028491e",
+      "decision": "reject",
+      "reason": "Bu ledger-only kayıt اتَّخَذَ fiilindeki QAC kök konumunu doğrular; tek başına branch sense, bağımsız trigger veya değiştirilmiş okuma sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e9ef06a9fb51f48ca4c8",
+      "decision": "reject",
+      "reason": "Bu ledger-only kayıt عِندَ zarfındaki QAC kök konumunu doğrular; tek başına branch sense, bağımsız trigger veya değiştirilmiş okuma sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_83e12388f7baf0139153",
+      "decision": "reject",
+      "reason": "Bu ledger-only kayıt الرَّحْمَٰنِ adındaki QAC kök konumunu doğrular; tek başına branch sense, bağımsız trigger veya değiştirilmiş okuma sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_dcfda4df5d46a04a6ac0",
+      "decision": "reject",
+      "reason": "Bu ledger-only kayıt عَهْدًا isminde QAC kök konumunu doğrular; tek başına branch sense, bağımsız trigger veya değiştirilmiş okuma sağlamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_86147da72059ba036396",
+      "decision": "accept",
+      "reason": "HFT kaydının altı focus koordinatı verilen QAC kök occurrences ile eşleşiyor; branch registry her dalı sağlıyor. Reader kimliği legacy_unbound olduğundan ilişki qualified tutuldu.",
+      "finding_refs": [
+        "micro:authorized-disposition"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e4b05a559bc050c91c80",
+      "decision": "accept",
+      "reason": "Bir arada durma, eşleştirme, yakınlık, merhamet ve yenileyerek koruma rolleri odak sözcüklerine dönüyor; kayıt legacy_unbound olduğu için bu çok-adımlı yerel sentez qualified tutuldu.",
+      "finding_refs": [
+        "micro:maintained-joinder"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_748d3c81f43083a8544a",
+      "decision": "accept",
+      "reason": "Şefaatin iki ilişkisel konumu ve açık relative cümle sağlanan koordinatlarda buluşuyor; covenant-taker'ın yararlanıcı olması seçilmiş sonuç değil, qualified bir olasılık olarak tutuldu.",
+      "finding_refs": [
+        "micro:two-slot-exception"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:negation-scope",
+      "origin_candidate_id": "cand_181820986becfd47b288",
+      "represented_candidate_ids": [],
+      "title": "Olumsuzluk sahipliği hedefler",
+      "claim": "Başlangıçtaki olumsuzluk şefaatin varlığını değil, onun üzerindeki sahiplik ve tasarrufu reddeder.",
+      "mechanism": "لَا süren يَمْلِكُونَ yüklemini olumsuzlar; belirli الشَّفَاعَةَ nesnesi reddin kapsamını şefaatin kendisine değil onun üzerindeki yetkiye bağlar.",
+      "reader_payoff": "Okur, ayetin aracılık kategorisini tanırken ona kimin hükmedebileceğinin ayrı bir mesele olduğunu görür.",
+      "containment": "Bu bir yasaklama emri veya şefaatin yokluğu iddiası değildir; yerel fiilin sahiplik yüklemini reddeder.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_326d6243fc115c63d2fe",
+        "sup_ef93dec5641d09ce2021"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:denial-before-exception",
+      "origin_candidate_id": "cand_bf99a2f442bc74a2c06e",
+      "represented_candidate_ids": [],
+      "title": "Önce inkâr, sonra istisna",
+      "claim": "Ayet önce şefaat üzerindeki sahipliği kural olarak reddeder, sonra covenant alma eylemiyle tanımlı bir istisna açar.",
+      "mechanism": "Başlangıçtaki لَا varsayılan durumu kapatır; sonraki إِلَّا aynı olumsuz alanın içinden istisnayı getirir ve önce/sonra sırası okurun erişim kuralını adım adım kurmasını sağlar.",
+      "reader_payoff": "İstisna ayrı bir konu değil, önce duyulan erişimsizliğin nasıl sınırlı hâle geldiğidir.",
+      "containment": "Bu bulgu sıralı retorik ilişkiyi anlatır; kuralın başka ayetlerdeki benzerlerini ileri sürmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_d85afa66dae87ecaaee6",
+        "sup_ef93dec5641d09ce2021"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:closed-exception",
+      "origin_candidate_id": "cand_a3f459faf3131093bad9",
+      "represented_candidate_ids": [],
+      "title": "Tek çıkışlı sınırlama",
+      "claim": "Olumsuz sahiplik yüklemi ile إِلَّا birlikte, covenant alan kişiyi aynı hükmün tek belirtilmiş olumlu sınıfı yapar.",
+      "mechanism": "İstisna parçacığı sonrasında gelen مَن ve اتَّخَذَ cümleciğini kopuk bir ek bilgi olmaktan çıkarıp olumsuzlanan şefaat yetkisine bağlar.",
+      "reader_payoff": "Okur şartın kuralın dışına açılmış ikinci bir ilan değil, kuralın içindeki tanımlı istisna olduğunu kavrar.",
+      "containment": "Ayetin bu yerel yapısı başka her olasılığı teolojik olarak dışladığını söylemez; yalnız burada ifade edilen kuralı sınırlar.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_4004c8d973a264d3d8cc",
+        "sup_a05942d42f04fc831e23"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:plural-subject",
+      "origin_candidate_id": "cand_1910d816b17706a49be7",
+      "represented_candidate_ids": [],
+      "title": "Yüklemin çoğul öznesi",
+      "claim": "يَمْلِكُونَ fiili cümlede yeniden adlandırılmayan çoğul bir özneyle kurulur; micro yüzey bu grubun kimliğini belirtmez.",
+      "mechanism": "Üçüncü çoğul eril uyumu birden çok faili yükleme bağlar, fakat aynı cümlede açık bir isim özne yoktur.",
+      "reader_payoff": "Okur kuralın tek bir adlandırılmış kişiye değil bir gruba yöneldiğini fark eder; grubun kimliği bağlam katmanında kalır.",
+      "containment": "19:86'daki grubun kimliği bu bulguya taşınmamıştır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Yerel dayanak korunuyor; ancak bağlamsal sınır veya legacy_unbound HFT provenance iddianın erişimini daraltıyor."
+      },
+      "support_ids": [
+        "sup_45e863ad6a9df57c6d15"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:ongoing-control",
+      "origin_candidate_id": "cand_76dfd0423a5231fe0b37",
+      "represented_candidate_ids": [],
+      "title": "Süregelen tasarruf yokluğu",
+      "claim": "Sürekli imperfect fiil, belirli şefaat nesnesi üzerinde tasarrufun bulunmadığını bildirir.",
+      "mechanism": "Fiil doğrudan accusative şefaat nesnesini yönetir ve herhangi bir yararlanıcıyı belirten dolaylı nesne eklemez.",
+      "reader_payoff": "Yokluk bir kişiye yapılacak yardımın yokluğu değil, şefaat alanını elinde tutma kapasitesinin yokluğudur.",
+      "containment": "Cümle şefaatin kime yarayacağını açıklamaz; yalnız sahiplik yüklemini olumsuzlar.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_a05942d42f04fc831e23",
+        "sup_bcbf1f244871b6601279"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:operative-possession",
+      "origin_candidate_id": "cand_8be51d81da3fc2fd894c",
+      "represented_candidate_ids": [],
+      "title": "Şefaat üzerindeki tasarruf",
+      "claim": "يَمْلِكُونَ fiilinin yerel anlamı, kozmik egemenlik adı değil, şefaat üzerindeki işleyen sahiplik ve kullanma yetkisidir.",
+      "mechanism": "Fiil biçimi bir eylem yüklemidir ve doğrudan nesnesi şefaattir; sahiplik dalı bu iki sözcük arasındaki yerel ilişkiyle etkinleşir.",
+      "reader_payoff": "Okur cümleyi mutlak egemenlik üzerine genel bir bildirim değil, belirli bir alana kimin tasarruf ettiğine dair sınır olarak duyar.",
+      "containment": "Hüküm fiilin şefaat nesnesi üzerindeki yetkiyi nasıl kurduğuyla sınırlıdır; hükümdarlık dalı aynı biçimin anlamı yapılmaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_a05942d42f04fc831e23",
+        "sup_c944a4ed0bb859b91534",
+        "sup_5b3cc67370c5afe2dff9"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:2:1"
+          ],
+          "trigger_refs": [
+            "19:87:3:2",
+            "19:87:1:1"
+          ],
+          "focus_return_refs": [
+            "19:87:2:1"
+          ],
+          "carrier": "يَمْلِكُونَ, bir hak veya nesne üzerinde elde bulundurma ve tasarruf yetkisi taşır.",
+          "independent_trigger": "Belirli şefaat nesnesi ile onu olumsuzlayan لَا aynı yüklem ilişkisini kurar.",
+          "activation": "Sahiplik dalı, şefaat nesnesi üzerinde tasarrufun reddedilmesiyle yerel karşılık bulur.",
+          "resulting_reading": "Olumsuzlanan, şefaat alanını elinde tutma ve kullanma gücüdür.",
+          "boundary": "Bu fiil şefaat üzerindeki yetkiyi sınırlar; kozmik hükümdarlık anlamı kurmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:abstract-intercession",
+      "origin_candidate_id": "cand_9a10bee1e1f58145a0c2",
+      "represented_candidate_ids": [],
+      "title": "Şefaat bir kapasite olarak",
+      "claim": "Belirli mastar, tek bir aracıyı adlandırmak yerine tanınabilir şefaat kurumunu veya kapasitesini nesne yapar.",
+      "mechanism": "Mastar biçimi eylemin soyut alanını kurar; belirli accusative nesne ise bu alanı يَمْلِكُونَ yüklemine bağlar.",
+      "reader_payoff": "Ayetin sorusu bir kişinin kim olduğu değil, şefaat alanı üzerinde kimin yetkisi bulunduğudur.",
+      "containment": "Bu form bireysel aracıyı dışlamaz; onu yüzeyde isimlendirmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_90e7c86212509351a935",
+        "sup_ed470b228bbf6c78c2fd"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:known-intercession-object",
+      "origin_candidate_id": "cand_6e3d638ee35ae255c8e3",
+      "represented_candidate_ids": [],
+      "title": "Tanıdık şefaat alanı",
+      "claim": "Belirli artikel, şefaati okurun karşısına yeni bir kategori olarak değil, bilinen bir alan olarak çıkarır.",
+      "mechanism": "Al- artikeli ile accusative doğrudan nesne yapısı, zaten tanınan şefaat kategorisini sahiplik yükleminin konusu kılar.",
+      "reader_payoff": "Okur inkârın şefaatin ne olduğunu açıklamak yerine bu tanınan alana erişimi düzenlediğini görür.",
+      "containment": "Buradaki belirlilik içerik veya bireysel aracılar hakkında ek bilgi vermez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_598078c04a0b13b0f9e6",
+        "sup_90e7c86212509351a935"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:second-voice-pairing",
+      "origin_candidate_id": "cand_336815fe190e5215f6c7",
+      "represented_candidate_ids": [],
+      "title": "Şefaatte ikinci ses",
+      "claim": "Şefaat sözcüğünün çiftleme imgesi, başkasının talebine ikinci bir sesin eklenmesi olarak duyulabilir; sahiplik inkârı ve covenant istisnası bu katılmayı düzenlenen bir aracılık ilişkisine çevirir.",
+      "mechanism": "Çiftleme dalının taşıyıcısı الشَّفَاعَةَ mastarıdır; يَمْلِكُونَ fiilinin reddedilmiş tasarrufu ve عَهْدًا şartı, eklenen sesin bağımsız özel güç olmadığını belirler.",
+      "reader_payoff": "Düz çeviride tek sözcük olan şefaat, başka biriyle yan yana gelerek onun adına destek olma biçimini de görünür kılar.",
+      "containment": "Bu bir gerçek iki-ses kaydı, karşılıklı savunma ağı veya yardımın belirli alıcısı değildir.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_90e7c86212509351a935",
+        "sup_c0f67e691599abfc4ae8",
+        "sup_0f06d7d467edcc7573e8"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000802/B001",
+          "facet_id": "F001",
+          "branch_gloss": "benzerini ekleyerek çiftleştirme",
+          "facet_statement": "Tek duran bir şeye bir benzerini ekleyip onu çift duruma getirmeyi ve bu yolla artırmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:3:2"
+          ],
+          "trigger_refs": [
+            "19:87:2:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:3:2"
+          ],
+          "carrier": "الشَّفَاعَةَ, aracı olma mastarı olarak ikinci bir unsurun eklenmesi/pairing imgesini taşır.",
+          "independent_trigger": "Şefaat nesnesini yöneten tasarruf yüklemi ve istisnanın covenant nesnesi, çiftlenme imgesine ayrı bir ilişki çerçevesi verir.",
+          "activation": "Çiftleme dalı, sahiplik inkârı ve covenant şartına bağlı mediation nesnesiyle karşılaşınca başkasının talebine katılan ikinci ses olarak yerel bir anlam kazanır.",
+          "resulting_reading": "Aracılık, başkasının talebine katılma olarak belirir ve bu katılma covenant şartı içinde kalır.",
+          "boundary": "İmge soyut pairing üzerinden çalışır; literal çift yaratma, reciprocal advocacy veya belirtilmemiş alıcı iddiası değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:action-defined-exception",
+      "origin_candidate_id": "cand_8cc8627d22e45f168c1f",
+      "represented_candidate_ids": [],
+      "title": "Eylemle tanımlanan istisna",
+      "claim": "İstisnaya girecek kişi, tek başına bir unvanla değil ardından gelen covenant alma eylemiyle belirlenir.",
+      "mechanism": "إِلَّا sonrasında مَن ve onun fiili gelir; fiil kişi sınıfının niteliğini cümlenin içinde verir.",
+      "reader_payoff": "Kuralın kapısı, kalıtılmış bir statüden çok gerçekleştirilen bir eylem üzerinden anlaşılır.",
+      "containment": "Bu bulgu eylemin tam covenant içeriğini veya kimlerin fiilen yerine getirdiğini belirtmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_7107c215adf5f22a41af",
+        "sup_928f6e00e8ecbf86b698"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:connected-exception",
+      "origin_candidate_id": "cand_13fc579606ba45d99537",
+      "represented_candidate_ids": [],
+      "title": "İstisna inkâr alanında kalır",
+      "claim": "İstisna cümleciği, şefaat sahipliğine ilişkin olumsuzlamanın içinde tek bir sınırlı olumlu alan açar.",
+      "mechanism": "إِلَّا, مَنِ اتَّخَذَ cümleciğini önceki olumsuz yükleme bağlar; covenant eylemi ayrı bir cümleye dönüşmez.",
+      "reader_payoff": "Okur covenant şartının inkârı iptal etmediğini, inkârın kapsamını tanımladığını görür.",
+      "containment": "Bu, attachment kanıtının desteklediği yerel cümle kapsamıdır; ayet dışı tüm durumları belirlemez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_928f6e00e8ecbf86b698",
+        "sup_d98f85031e0e68dd5ec9"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:open-covenant-class",
+      "origin_candidate_id": "cand_07700edac378e955246f",
+      "represented_candidate_ids": [],
+      "title": "Açık kişi sınıfı",
+      "claim": "مَن tekil dilbilgisel biçimiyle belirli bir kişiyi değil, covenant alma eylemine uyan açık sınıfı gösterir.",
+      "mechanism": "Relatif zamirden sonra gelen perfect fiil kişiyi şartıyla tanımlar; tekil uyum bu sınıfı tek bireye kapatmaz.",
+      "reader_payoff": "Okur istisnanın ad verilmiş bir kahramana değil, eylemi yerine getiren herkese açık olduğunu kavrar.",
+      "containment": "Bu genellik şartı ortadan kaldırmaz ve belirli bir kişinin covenant aldığını ileri sürmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_45aea96ac33b214146be",
+        "sup_ae99490d698526e3eb08"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:relative-condition",
+      "origin_candidate_id": "cand_ce1439a8ec711b17f979",
+      "represented_candidate_ids": [],
+      "title": "İlgi ve koşul aynı kapıda",
+      "claim": "مَن ilgi yapısı olarak covenant alan kişiyi tanımlar; koşul olarak okunduğunda da aynı fiil istisnaya kimin gireceğini belirler.",
+      "mechanism": "Biçimin iki işlevi özdeş cümle konumunda buluşur: kişi tanımı ve koşullu uygunluk aynı covenant alma eylemine bağlanır.",
+      "reader_payoff": "İki gramer okuması aynı açık ölçütü duyurur ve biri diğerini seçmek zorunda kalmaz.",
+      "containment": "İki okuma farklı bir covenant içeriği veya ayrı bir ikinci kural üretmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_45aea96ac33b214146be",
+        "sup_56f4ae06c9b1479cc9e8"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:completed-covenant-act",
+      "origin_candidate_id": "cand_92bdfb878b1d5324a0ef",
+      "represented_candidate_ids": [],
+      "title": "Tamamlanmış eylem şartı",
+      "claim": "Şefaat istisnası, sürmekte olan bir dileğe değil daha önce tamamlanmış covenant alma eylemine bağlanır.",
+      "mechanism": "اتَّخَذَ perfect biçimi ve doğrudan عَهْدًا nesnesi, tamamlanmış geçişli edimi exception cümlesinin ölçütü yapar.",
+      "reader_payoff": "Okur yetki şartının gerçekleşmiş bir edim olduğunu, belirsiz bir niyet olmadığını fark eder.",
+      "containment": "Perfect biçim burada şartın tamamlanmışlığını gösterir; covenantın hangi sözlerle verildiğini açıklamaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_93154282aa95f139bb29",
+        "sup_a1b6915907c5a4c80412"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:self-directed-taking",
+      "origin_candidate_id": "cand_378348c0770313f6dde7",
+      "represented_candidate_ids": [],
+      "title": "Kendine yönelik edinme",
+      "claim": "VIII. bâbın kendine yönelik alma biçimi, covenantı failin etkin biçimde edindiği şey olarak kurar.",
+      "mechanism": "اتَّخَذَ fiilinin formu kendi adına alma yönü taşır; belirsiz covenant nesnesi bu edinimin neye yöneldiğini belirtir.",
+      "reader_payoff": "İstisna sınıfı yalnız etiket taşımıyor; kendi covenant eylemiyle kuralın içine giriyor.",
+      "containment": "Bu bulgu covenant içeriğini veya alınan şeyin ötesinde bir ödülü belirtmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_3e080f26a143e003faaf",
+        "sup_a1b6915907c5a4c80412",
+        "sup_62da564f3027b37050ac"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000018/B010",
+          "facet_id": "F001",
+          "branch_gloss": "kendisi için edinip kazanma",
+          "facet_statement": "Bir şeyi kendisi için edinip kendine ait hale getirmeyi anlatır.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "19:87:6:1"
+          ],
+          "trigger_refs": [
+            "19:87:9:1",
+            "19:87:4:1"
+          ],
+          "focus_return_refs": [
+            "19:87:6:1"
+          ],
+          "carrier": "اتَّخَذَ, failin kendisi için edinip aldığı şeyi gösterir.",
+          "independent_trigger": "Belirsiz ama doğrudan nesne olan covenant ve onu şart yapan إِلَّا yapısı, edinimin neye yöneldiğini açıklar.",
+          "activation": "Kendine yönelik edinme dalı covenant nesnesiyle karşılaşınca istisnaya giriş eylemi olarak gerçekleşir.",
+          "resulting_reading": "Covenant almak, doğuştan sahip olunan bir yetki değil, failin edindiği bir şart hâline gelir.",
+          "boundary": "Dal mal kazanma veya ücret örneklerini getirmez; yalnız kendisi için edinme çekirdeği kullanılır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:divine-attachment-ambiguity",
+      "origin_candidate_id": "cand_1e19350c8bbacc8982ef",
+      "represented_candidate_ids": [],
+      "title": "İlahi huzura iki bağlanma",
+      "claim": "عِندَ الرَّحْمَٰنِ hem covenant alan fiili hem de alınan covenant nesnesini niteleyebilir; iki bağlanma da ilahi huzur ilişkisini korur.",
+      "mechanism": "Phrase, اتَّخَذَ fiili ile عَهْدًا nesnesinin arasındadır; adverb fiile bağlanırsa alma eylemi huzurda gerçekleşir, nesneye bağlanırsa covenant al-Rahman katında durur.",
+      "reader_payoff": "Okur bir tek sentaktik vurguyu seçmeden şartın eylem ve nesneyle nasıl ilahi merciye bağlandığını görebilir.",
+      "containment": "İki attachment aynı istisna işlevini sürdürür; cümle belirli bir fiziksel mekân tarif etmez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_823e2407a68635f60997",
+        "sup_d8979a9b79b610753997",
+        "sup_686be46ceb60f6ec1725"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yakınında veya birinin değerlendirmesinde bulunma",
+          "facet_statement": "Bir şey başka bir şeyin yer veya zaman bakımından yakınında bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:7:1"
+          ],
+          "trigger_refs": [
+            "19:87:6:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:7:1"
+          ],
+          "carrier": "عِندَ, yakınlık veya huzur ilişkisini taşır.",
+          "independent_trigger": "Önündeki covenant alma fiili ile ardından gelen covenant nesnesi, adverbün iki olası attachment noktasını oluşturur.",
+          "activation": "Locative branch, iki sözcük ilişkisine uygulanınca hem eylemi hem covenantı al-Rahman huzuruna bağlayabilir.",
+          "resulting_reading": "Covenant alma veya covenantın kendisi al-Rahman'ın huzuru/katıyla ilişkilendirilir.",
+          "boundary": "Bu dilbilgisel olasılık bir fiziksel yer bildirimi ya da tek zorunlu attachment iddiası değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:presence-genitive-phrase",
+      "origin_candidate_id": "cand_7461286a4d41ff8a54ad",
+      "represented_candidate_ids": [],
+      "title": "Genitifle kurulan ilahi merci",
+      "claim": "عِندَ ile genitif الرَّحْمَٰنِ birlikte, covenant şartının kimin huzurunda veya değerlendirmesinde durduğunu belirtir.",
+      "mechanism": "Yakınlık zarfı sonraki özel adı genitif tamlayan yapar; bu yüzden koşul soyut ve sahipsiz kalmaz.",
+      "reader_payoff": "Okur şartı özel bir kişisel iddia değil, adı verilmiş ilahi merciye göre kurulan bir statü olarak duyar.",
+      "containment": "Bu phrase al-Rahman adını konum olarak verir; covenantın içeriğini açıklamaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_9bb2062493a34f5fa5c0",
+        "sup_d8979a9b79b610753997",
+        "sup_686be46ceb60f6ec1725"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yakınında veya birinin değerlendirmesinde bulunma",
+          "facet_statement": "Bir şey başka bir şeyin yer veya zaman bakımından yakınında bulunur.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "19:87:7:1"
+          ],
+          "trigger_refs": [
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:7:1"
+          ],
+          "carrier": "عِندَ, birinin yanında veya huzurunda bulunma anlamı taşır.",
+          "independent_trigger": "Genitif konumdaki özel ilahi ad bu yakınlık ifadesine açık bir ilişkisel tamamlayıcı verir.",
+          "activation": "Yakınlık dalı, al-Rahman adıyla birleşerek covenant şartının ilahi huzurdaki yerini belirler.",
+          "resulting_reading": "Koşul al-Rahman'ın huzuruna veya merciine bağlanır.",
+          "boundary": "Bu, yerel genitif phrase'in ilişkisidir; fiziksel mekân veya 19. surenin genel tezi değildir."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:recognized-divine-presence",
+      "origin_candidate_id": "cand_d0a40afac4f1910d18a6",
+      "represented_candidate_ids": [],
+      "title": "Huzur ve değerlendirme",
+      "claim": "عِندَ yalnızca yer yakınlığı taşımak zorunda değildir; al-Rahman ve covenantla kurulan temas, tanınmış ilahi değerlendirme anlamını da açar.",
+      "mechanism": "Yakınlık dalının çekirdeği korunurken değerlendirme facet'i, ilahi adın merci oluşu ve covenantın uygunluk şartı tarafından tetiklenir.",
+      "reader_payoff": "Okur covenantın mekândan çok tanınma ve değer görme ilişkisiyle de yerleştirilebileceğini duyar.",
+      "containment": "Bu genişleme tek başına yargının içeriğini veya covenantın şartlarını tarif etmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Yerel dayanak korunuyor; ancak bağlamsal sınır veya legacy_unbound HFT provenance iddianın erişimini daraltıyor."
+      },
+      "support_ids": [
+        "sup_30c77b2252a925f53354",
+        "sup_d8979a9b79b610753997",
+        "sup_686be46ceb60f6ec1725"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yakınında veya birinin değerlendirmesinde bulunma",
+          "facet_statement": "Bir şey başka bir şeyin yer veya zaman bakımından yakınında bulunur.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "19:87:7:1"
+          ],
+          "trigger_refs": [
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:7:1"
+          ],
+          "carrier": "عِندَ, yakınlık ve huzur anlamını taşır.",
+          "independent_trigger": "Genitif ilahi ad bu yakınlığın temel referansını verir.",
+          "activation": "Locative çekirdek korunarak ifade edilen huzur ilişkisi değerlendirme yönünü taşıyabilir.",
+          "resulting_reading": "Covenant, al-Rahman huzurunda bulunma olarak okunabilir.",
+          "boundary": "Bu core facet F002 değerlendirme genişlemesinin zeminidir; literal mesafe iddiası değildir."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "F002",
+          "branch_gloss": "yakınında veya birinin değerlendirmesinde bulunma",
+          "facet_statement": "İlişki, birinin düşüncesine veya değerlendirmesine göre olmayı ve onun gözündeki değer ya da dereceyi bildirebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:7:1"
+          ],
+          "trigger_refs": [
+            "19:87:8:2",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:7:1"
+          ],
+          "carrier": "عِندَ, bir merci nezdindeki konumu da anlatabilir.",
+          "independent_trigger": "Al-Rahman adı tanınma merciini, belirsiz covenant nesnesi de değerlendirmeye konu olan şartı verir.",
+          "activation": "Huzur dalı, ilahi merci ve covenant şartı temas edince tanınmış statü yönüne açılır.",
+          "resulting_reading": "Ahd alan kişi, al-Rahman nezdinde bir ahd statüsüyle anılır.",
+          "boundary": "Bu, yakınlık alanının yerel bir değerlendirme uzantısıdır; ilahi kararın tüm ölçütleri açıklanmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:covenant-content-open",
+      "origin_candidate_id": "cand_0db40033327797bef556",
+      "represented_candidate_ids": [],
+      "title": "Merci belli, içerik açık",
+      "claim": "al-Rahman covenantın tanınma merciini adlandırırken covenantın kendisi belirsiz ve içerikçe açıklanmamış kalır.",
+      "mechanism": "عِندَ الرَّحْمَٰنِ phrase'i ilişkisel merciyi verir; accusative belirsiz عَهْدًا ise alınan şeyin sınıfını söyler, metnini değil.",
+      "reader_payoff": "Okur kimin nezdinde şart bulunduğunu öğrenir, ama ayetin söylemediği ayrıntılı covenant içeriğini kendisi doldurmak zorunda kalmaz.",
+      "containment": "Bu ayet covenant statüsünü koşul yapar; ilahi bir sözün metnini veya tek bir formülünü vermiyor.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_1144ffbe454157973201",
+        "sup_fe43ae2c7a1f002f404f"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:mercy-name-authority",
+      "origin_candidate_id": "cand_58603b17b89655f952b7",
+      "represented_candidate_ids": [],
+      "title": "Merhamet adı yetkiyi çerçeveler",
+      "claim": "Şefaat kuralı al-Rahman adı altında kurulur; bu ad merhameti, covenant şartını tanıyan ilahi yetkinin işitilebilir niteliği yapar.",
+      "mechanism": "Özel adın rahmet alanıyla bağı, covenantın al-Rahman huzuruna yerleştirildiği ve şefaat sahipliğinin sınırlandığı clause ile temas eder; böylece merci nötr bir etiket olarak kalmaz.",
+      "reader_payoff": "Kısıtlı erişim kuralının aynı zamanda merhamet adıyla ilişkilendirildiği fark edilir.",
+      "containment": "İlahi ad tek başına covenant şartını kaldırmaz ve covenantın içeriğini söylemez.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_7e7368ce1631a3df208a",
+        "sup_fe43ae2c7a1f002f404f",
+        "sup_6912734474610870ae35"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:8:2"
+          ],
+          "trigger_refs": [
+            "19:87:4:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:8:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ adı rahmet ve etkin iyilik alanını taşır.",
+          "independent_trigger": "İstisna parçacığı ile covenant nesnesi, merhamet adını erişim şartının merciine bağlar.",
+          "activation": "Rahmet dalı, covenant koşulunu koyan adlandırılmış ilahi merciyle karşılaşınca kuralı merhametle ilişkili bir düzenleme olarak renklendirir.",
+          "resulting_reading": "Şefaat sınırı, al-Rahman adıyla kurulan covenant şartı içinde duyulur.",
+          "boundary": "Bu core facet ilahi kullanım uzmanlaşmasına zemin verir; merhamet adı koşulu tek başına ortadan kaldırmaz."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:8:2"
+          ],
+          "trigger_refs": [
+            "19:87:4:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:8:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ adı Tanrı için kullanılan rahmet adıdır.",
+          "independent_trigger": "İstisnanın covenant şartı ve al-Rahman huzuru aynı cümlede birleşir.",
+          "activation": "İlahi kullanımdaki geniş merhamet facet'i, şefaatin sahipsiz güç değil covenant şartıyla ilişkili bir alan oluşunu çerçeveler.",
+          "resulting_reading": "Yetki, rahmet adı taşıyan merciye bağlanır.",
+          "boundary": "Bu facet al-Rahman adının yerel etkisidir; bütün şefaatlerin sonucunu tek başına belirlemez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:proper-name-locus",
+      "origin_candidate_id": "cand_efd160dda39c2c1b5a2e",
+      "represented_candidate_ids": [],
+      "title": "Özel adla belirtilen merci",
+      "claim": "Genitif biçimdeki الرَّحْمَٰنِ, عِندَ edatının yönettiği özel ilahi addır ve covenantın tanınma merciini adlandırır.",
+      "mechanism": "QAC özel ad ve genitif konumunu ayırır; case ilişkisi merhamet sıfatı gibi okunan bir tanımlama yerine adı verilmiş özneyi phrase'in tamamlayıcısı yapar.",
+      "reader_payoff": "Okur covenantın soyut bir niteliğin yanında değil, belirli ilahi adın huzurunda kurulduğunu fark eder.",
+      "containment": "İsim covenantın içeriğini vermez ve aynı zamanda bağımsız bir sıfat cümlesi kurmaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_171c3a8104df749b18c9",
+        "sup_fe43ae2c7a1f002f404f"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:binding-covenant",
+      "origin_candidate_id": "cand_7cd74968fbb24d001b51",
+      "represented_candidate_ids": [],
+      "title": "Bağlayıcı söz ve güvence",
+      "claim": "عَهْد, istisna içinde korunan ve uyulması beklenen bağlayıcı söz ya da güvence statüsünü taşır.",
+      "mechanism": "Covenant ismi, istisna yükleminin doğrudan nesnesi olarak şefaat erişiminin şartını kurar; ilahi huzur ilişkisi bu şartı özel bir kişinin özel vaadi olmaktan çıkarır.",
+      "reader_payoff": "Okur şartı sıradan kişisel sözden daha tanınmış ve yükümlülük taşıyan bir statü olarak algılar.",
+      "containment": "Bu bulgu, covenantın tam metnini veya hangi tarafların nasıl yükümlendiğini açıklamaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_33615a4021d41d426dd1",
+        "sup_c3c487095cc2119751f5",
+        "sup_bbc3f35caa4eabb0dbb9"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Tarafların uyması ve koruması gereken bağlayıcı söz, ant veya sözleşme.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:4:1",
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا, korunup uyulacak bağlayıcı bir covenant nesnesi olarak gelir.",
+          "independent_trigger": "İstisna yapısı bu sözü yetki sınıfının koşulu yapar; al-Rahman phrase'i onun tanınma merciini verir.",
+          "activation": "Bağlayıcı covenant dalı, erişim istisnası içinde belirleyici nesne olarak kullanılır.",
+          "resulting_reading": "Şefaat istisnası, bağlayıcı covenant statüsünü önkoşul olarak gösterir.",
+          "boundary": "Bu dal covenant kategorisini taşır; yerel yüzey covenantın tüm içeriğini söylemez."
+        },
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Bağlayıcı sözün taraflara sağladığı güvence, dokunulmazlık veya koruma statüsü.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:4:1",
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا, bağlayıcı sözün güvence ve koruma statüsünü de taşıyabilir.",
+          "independent_trigger": "İstisna parçacığı covenantı erişim şartı yapar; ilahi ad da onun huzurundaki statüyü belirler.",
+          "activation": "Ahd, yalnız söylenen söz değil, istisna içinde korunan tanınmış bir konum olarak belirir.",
+          "resulting_reading": "Metin bu güvenceyi hangi ayrıntılı yükümlülüklerin oluşturduğunu belirtmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:final-condition",
+      "origin_candidate_id": "cand_17b1c97339ae86390d6a",
+      "represented_candidate_ids": [],
+      "title": "Cümleyi kapatan covenant şartı",
+      "claim": "Son sözcük olan عَهْدًا hem اتَّخَذَ fiilinin doğrudan nesnesi hem de olumsuzluk-istisna yapısının yerel sonuç noktasıdır.",
+      "mechanism": "Cümle, tamamlanmış alma eylemini nesnesiyle birlikte sona yerleştirir; bu son konum önceki inkârı hangi şartın sınırladığını duyurur.",
+      "reader_payoff": "Okur ayetin sonuç vurgusunu covenant şartında bulur.",
+      "containment": "19:78'deki tekrar veya surah-wide phrase düzeni bu micro bulgusuna katılmıyor.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Yerel dayanak korunuyor; ancak bağlamsal sınır veya legacy_unbound HFT provenance iddianın erişimini daraltıyor."
+      },
+      "support_ids": [
+        "sup_96a960b715dfd0a8ef50",
+        "sup_c3c487095cc2119751f5"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:indefinite-status",
+      "origin_candidate_id": "cand_a08af7dee67e780d0338",
+      "represented_candidate_ids": [],
+      "title": "İçeriği açık, koşulu belirgin",
+      "claim": "Belirsiz covenant adı içeriğini söylemeden bir covenant statüsünü istisnanın gerekli koşulu yapar.",
+      "mechanism": "Belirsiz accusative doğrudan nesne olarak kalır; عِندَ الرَّحْمَٰنِ ilahi ilişkiyi kurar ama covenantı construct possession içinde al-Rahman'a ait diye belirlemez.",
+      "reader_payoff": "Okur hangi tür statünün arandığını görürken metnin söylemediği sözleri doldurmaz.",
+      "containment": "Ahdin içeriği, süresi veya belirli bir formülü çıkarılamaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_9a731dbca92b021b2d3f",
+        "sup_c3c487095cc2119751f5"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:whole-rule-convergence",
+      "origin_candidate_id": "cand_9d3f7cbc05c5de7493ea",
+      "represented_candidate_ids": [],
+      "title": "Kuralı kuran hareketler",
+      "claim": "Olumsuzluk, istisna parçacığı, tamamlanmış alma ve son covenant nesnesi birlikte şefaat üzerindeki sahipliği reddedip tek belirtilmiş şartı kurar.",
+      "mechanism": "لَا yüklemi kapatır; إِلَّا istisnayı aynı kapsama bağlar; اتَّخَذَ completed eylemi, عَهْدًا ise o eylemin doğrudan nesnesini verir.",
+      "reader_payoff": "Okur covenantı rastgele bir son ayrıntı değil, cümlenin erişim kuralını çözen nesne olarak duyar.",
+      "containment": "Bu sentez yalnız 19:87'nin sözdizim ve biçim ilişkilerini anlatır; başka ayetlerdeki authorization biçimlerini karşılaştırmaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_8a0f5459adbc7c8776c4",
+        "sup_c3c487095cc2119751f5"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:covenant-object",
+      "origin_candidate_id": "cand_187273f756aebc541f8c",
+      "represented_candidate_ids": [],
+      "title": "Alınan nesne covenant",
+      "claim": "عَهْدًا, اتَّخَذَ fiilinin accusative doğrudan nesnesi olarak failin edindiği şeyi verir.",
+      "mechanism": "Fiil ile isim arasındaki geçişli ilişki covenantı uzak bir arka plan öğesi olmaktan çıkarıp istisna eyleminin nesnesi yapar.",
+      "reader_payoff": "Okur kuralı anarken covenant alma fiilinin neye yöneldiğini doğrudan izleyebilir.",
+      "containment": "Bu ilişki nesnenin içeriğini açıklamaz ve alındığı sözcükleri uydurmaz.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": [
+          "trusted"
+        ],
+        "reason": "Odak yüzeyi, hizalanmış QAC/word-analysis kanıtı ve yerel ilişki iddiayı doğrudan taşıyor."
+      },
+      "support_ids": [
+        "sup_761b54895746b2213ef2",
+        "sup_c3c487095cc2119751f5"
+      ],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:authorized-disposition",
+      "origin_candidate_id": "cand_86147da72059ba036396",
+      "represented_candidate_ids": [],
+      "title": "Covenant standing as authorized access",
+      "claim": "İntercession burada bağımsızca sahip olunan bir etki değil; tasarruf inkârı içinden, al-Rahman huzurunda edinilmiş covenant statüsüne bağlı bir erişim olarak da okunur.",
+      "mechanism": "HFT'nin önceki okuması, bazı faillerin şefaati bir güç gibi elinde tutmasıdır. Focus'taki sahiplik fiilinin doğrudan şefaat nesnesiyle olumsuzlanması bu görüntüyü değiştirir; şefaat için ikinci ses olma, kendisi için covenant edinme, huzur, merhamet ve güvence öğeleri aynı istisnada buluşur. Böylece erişim özel tasarruftan covenantla tanınan duruma döner.",
+      "reader_payoff": "Okur, istisnanın inkârı gevşetmek yerine yetkiyi hangi ilişki ve şart içinde kurduğunu görür.",
+      "containment": "Ahdin içeriği ve tek tek hangi aracının konuştuğu söylenmez. HFT okur kimliği legacy_unbound; odak sözcük ve kök koordinatları sağlanan QAC ile eşleştiği için ilişki qualified tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Yerel dayanak korunuyor; ancak bağlamsal sınır veya legacy_unbound HFT provenance iddianın erişimini daraltıyor."
+      },
+      "support_ids": [
+        "sup_8b15d67747eca2ed9da5",
+        "sup_5b3cc67370c5afe2dff9",
+        "sup_0f06d7d467edcc7573e8",
+        "sup_62da564f3027b37050ac",
+        "sup_686be46ceb60f6ec1725",
+        "sup_6912734474610870ae35",
+        "sup_bbc3f35caa4eabb0dbb9",
+        "sup_a05942d42f04fc831e23",
+        "sup_90e7c86212509351a935",
+        "sup_a1b6915907c5a4c80412",
+        "sup_d8979a9b79b610753997",
+        "sup_fe43ae2c7a1f002f404f",
+        "sup_c3c487095cc2119751f5"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:2:1"
+          ],
+          "trigger_refs": [
+            "19:87:3:2"
+          ],
+          "focus_return_refs": [
+            "19:87:2:1"
+          ],
+          "carrier": "يَمْلِكُونَ sahiplik ve tasarruf yetkisini taşır.",
+          "independent_trigger": "الشَّفَاعَةَ, fiilin doğrudan nesnesi olarak bu yetkinin alanını verir.",
+          "activation": "Sahiplik dalı, şefaat nesnesinin olumsuzlanmasıyla özerk kontrol okumasına dönüşür.",
+          "resulting_reading": "Şefaat kimsenin bağımsızca elinde tuttuğu bir mülk gibi değildir.",
+          "boundary": "Bu yalnızca şefaat sahipliği yüklemini sınırlar; ilahi yetkinin tüm biçimlerini tarif etmez."
+        },
+        {
+          "branch_ref": "root_000802/B002",
+          "facet_id": "F001",
+          "branch_gloss": "başkası adına aracılık edip destek olma",
+          "facet_statement": "Bir başkasının gereksinimi için onun adına istekte bulunmayı ve ona destek olmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:3:2"
+          ],
+          "trigger_refs": [
+            "19:87:2:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:3:2"
+          ],
+          "carrier": "الشَّفَاعَةَ başkasının adına dilekte bulunup destek olmayı taşır.",
+          "independent_trigger": "Olumsuz sahiplik fiili ve istisnadaki covenant nesnesi, aracılığın kendi kendine sahip olunan güç değil düzenlenen bir ilişki olduğunu gösterir.",
+          "activation": "Aracılık dalı, tasarrufu reddedilen şefaat nesnesi ve covenant şartı ile karşılaşır.",
+          "resulting_reading": "Şefaat, yetkisi sınırlandırılan kişiler arası bir destek ilişkisidir.",
+          "boundary": "Ayet belirli bir advocate veya beneficiary adını ve covenantın içeriğini vermez."
+        },
+        {
+          "branch_ref": "root_000018/B010",
+          "facet_id": "F001",
+          "branch_gloss": "kendisi için edinip kazanma",
+          "facet_statement": "Bir şeyi kendisi için edinip kendine ait hale getirmeyi anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:6:1"
+          ],
+          "trigger_refs": [
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:6:1"
+          ],
+          "carrier": "اتَّخَذَ kendisi için edinme eylemini taşır.",
+          "independent_trigger": "عَهْدًا, fiilin açık nesnesi olarak edinilen şartı verir.",
+          "activation": "Kendine yönelik edinme dalı, covenant nesnesiyle birleşince yetkinin edinilmiş bir standing olmasını sağlar.",
+          "resulting_reading": "Ahd statüsü doğuştan sahip olunan değil, alınmış bir konumdur.",
+          "boundary": "Bu ilişki covenant içeriğini veya statünün başka koşullarını belirtmez."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yakınında veya birinin değerlendirmesinde bulunma",
+          "facet_statement": "Bir şey başka bir şeyin yer veya zaman bakımından yakınında bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:7:1"
+          ],
+          "trigger_refs": [
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:7:1"
+          ],
+          "carrier": "عِندَ yakınlık ve huzur ilişkisini taşır.",
+          "independent_trigger": "الرَّحْمَٰنِ genitif tamlayanı, bu ilişkinin ilahi merciini adlandırır.",
+          "activation": "Yakınlık dalı al-Rahman adıyla tamamlanınca covenantın durduğu tanınmış locus görünür olur.",
+          "resulting_reading": "Ahd, al-Rahman huzurunda duran bir şart olarak duyulur.",
+          "boundary": "Fiziksel bir mekân veya covenantın tam metni ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "F002",
+          "branch_gloss": "yakınında veya birinin değerlendirmesinde bulunma",
+          "facet_statement": "İlişki, birinin düşüncesine veya değerlendirmesine göre olmayı ve onun gözündeki değer ya da dereceyi bildirebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:7:1"
+          ],
+          "trigger_refs": [
+            "19:87:8:2",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:7:1"
+          ],
+          "carrier": "عِندَ bir merci nezdindeki durumu da anlatabilir.",
+          "independent_trigger": "Al-Rahman adı merciyi, covenant nesnesi ise değerlendirilen statüyü verir.",
+          "activation": "Presence phrase'i covenant koşuluyla karşılaşınca yalnız yerde bulunma değil tanınmış ilahi statü yönünü de taşır.",
+          "resulting_reading": "İntercession istisnası al-Rahman nezdindeki covenant statüsüne bağlanır.",
+          "boundary": "Bu genişleme bütün ilahi değerlendirme ölçütlerini veya sonucu açıklamaz."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:8:2"
+          ],
+          "trigger_refs": [
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:8:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ adı etkin esirgeme ve iyilik alanını taşır.",
+          "independent_trigger": "Ahd şartı, merhamet adının ilişki kurduğu erişim kuralını verir.",
+          "activation": "Merhamet dalı covenantla şartlanan mediation ile buluşunca kural özel leverage yerine rahmet adlı merci altında duyulur.",
+          "resulting_reading": "Ahd şartı merhamet adıyla kurulan ilahi alanda yer alır.",
+          "boundary": "Merhamet adı kendi başına erişim şartını kaldırmaz."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:8:2"
+          ],
+          "trigger_refs": [
+            "19:87:4:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:8:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ, Tanrı için kullanılan geniş merhamet adıdır.",
+          "independent_trigger": "إِلَّا ile açılan covenant istisnası, bu adı erişim şartının merciine bağlar.",
+          "activation": "İlahi kullanım facet'i, sahiplik inkârı içindeki covenant kuralını rahmet adı taşıyan bir düzenleme olarak yeniden renklendirir.",
+          "resulting_reading": "Kısıtlı erişim, merhamet adıyla adlandırılan merci içindedir.",
+          "boundary": "Bu ad istisnanın koşulunu silmez ve tek başına her intercession sonucunu belirlemez."
+        },
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Tarafların uyması ve koruması gereken bağlayıcı söz, ant veya sözleşme.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:4:1",
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا bağlayıcı söz veya covenant kategorisini taşır.",
+          "independent_trigger": "İstisna yapısı bu sözün alınmasını şefaat şartına çevirir; ilahi ad da onun merciini gösterir.",
+          "activation": "Covenant dalı, reddedilmiş sahiplik alanının içindeki sınırlı erişim ölçütü olur.",
+          "resulting_reading": "Yetkili şefaat şartı covenant statüsüne bağlanır.",
+          "boundary": "Ayet covenantın içeriğini açıklamaz."
+        },
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Bağlayıcı sözün taraflara sağladığı güvence, dokunulmazlık veya koruma statüsü.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:4:1",
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا bağlayıcı sözün güvence statüsünü de taşıyabilir.",
+          "independent_trigger": "Ahdin istisna içindeki koşul konumu ve al-Rahman huzuru, bu güvence yönünü tetikler.",
+          "activation": "Bağlayıcı söz yalnız söylenen ifade değil, yetki istisnasına giriş sağlayan korunan statü olarak okunur.",
+          "resulting_reading": "Şefaat için kabul edilen yol covenantla tanınan duruma bağlanır.",
+          "boundary": "Bu okuma ayrıntılı yükümlülük, garanti kapsamı veya covenant içeriği belirlemez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:maintained-joinder",
+      "origin_candidate_id": "cand_e4b05a559bc050c91c80",
+      "represented_candidate_ids": [],
+      "title": "Yakınlıkta sürdürülen birleşme",
+      "claim": "Ahd, bağlayıcı statü anlamını korurken, eşleştirme ve koruma sözcükleriyle temasında birini ötekine bağlayan ve süreklilikle tutulan bir ilişki olarak da okunabilir.",
+      "mechanism": "Şefaatin çiftleme dalı ikinci bir unsuru ilişkiye katar; ملك dalındaki bir arada durma ve عهد dalındaki yeniden koruma bu eklenmenin devamlılığını verir. عِندَ yakınlığı, الرَّحْمَٰنِ ise bakım ve merhamet alanını sağlar. Böylece ilk bakışta sabit bir yeterlik işareti olan ahd, yakınlık içinde yenilenen bir bağ olarak da okunur.",
+      "reader_payoff": "Okur covenant şartının bir ilişkiyi taşıyan ve şefaate katılmayı mümkün kılan bakım biçimi olarak da işleyebileceğini görür.",
+      "containment": "Bu, metnin covenant içeriğini veya belirli bir ritüeli anlatmaz. Kaynak HFT kimliği legacy_unbound; doğrulanan odak eşleşmelerine rağmen sentez qualified tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Yerel dayanak korunuyor; ancak bağlamsal sınır veya legacy_unbound HFT provenance iddianın erişimini daraltıyor."
+      },
+      "support_ids": [
+        "sup_f4aebb8f468c6e3e8a9e",
+        "sup_5b3cc67370c5afe2dff9",
+        "sup_0f06d7d467edcc7573e8",
+        "sup_686be46ceb60f6ec1725",
+        "sup_6912734474610870ae35",
+        "sup_bbc3f35caa4eabb0dbb9",
+        "sup_a05942d42f04fc831e23",
+        "sup_90e7c86212509351a935",
+        "sup_d8979a9b79b610753997",
+        "sup_fe43ae2c7a1f002f404f",
+        "sup_c3c487095cc2119751f5"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B001",
+          "facet_id": "F001",
+          "branch_gloss": "güçlü ve tutarlı biçimde bir arada durma",
+          "facet_statement": "Bir şey, parçaları çözülmeden bir arada duracak güç ve iç tutarlılık taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:2:1"
+          ],
+          "trigger_refs": [
+            "19:87:3:2",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:2:1"
+          ],
+          "carrier": "يَمْلِكُونَ elde tutma ve tasarruf fiilini taşır.",
+          "independent_trigger": "Şefaatteki pairing imgesi ve covenantın yenileyerek korunması, elde tutulan ilişkinin sürekliliğine ayrı bir tetik sağlar.",
+          "activation": "Bir arada durma dalı, pairing ve bakım anlamlarıyla temas ederek şefaat ilişkisine cohesion yönü katar.",
+          "resulting_reading": "Şefaatte tarafları bir arada tutan bir ilişki imgesi belirir.",
+          "boundary": "Bu kök dalı yerel bir ilişki imgesidir; sahiplik fiilinin düz anlamını ortadan kaldırmaz."
+        },
+        {
+          "branch_ref": "root_000802/B001",
+          "facet_id": "F001",
+          "branch_gloss": "benzerini ekleyerek çiftleştirme",
+          "facet_statement": "Tek duran bir şeye bir benzerini ekleyip onu çift duruma getirmeyi ve bu yolla artırmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:3:2"
+          ],
+          "trigger_refs": [
+            "19:87:2:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:3:2"
+          ],
+          "carrier": "الشَّفَاعَةَ pairing ve bir ikinci unsur ekleme imgesini taşır.",
+          "independent_trigger": "Tasarruf inkârı aracılığın özerk güç olmadığını; covenant nesnesi de eklenen desteğin korunan ilişki şartına bağlandığını gösterir.",
+          "activation": "Çiftleme dalı, tasarruf ve covenant ilişkileriyle karşılaşınca bir tarafın diğerine bağlanması olarak okunur.",
+          "resulting_reading": "Bir taraf diğerine şefaat ilişkisiyle katılır.",
+          "boundary": "Bu branch literal ikili sayı veya birden çok covenant listesi iddiası değildir."
+        },
+        {
+          "branch_ref": "root_001052/B004",
+          "facet_id": "F001",
+          "branch_gloss": "yakınında veya birinin değerlendirmesinde bulunma",
+          "facet_statement": "Bir şey başka bir şeyin yer veya zaman bakımından yakınında bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:7:1"
+          ],
+          "trigger_refs": [
+            "19:87:8:2",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:7:1"
+          ],
+          "carrier": "عِندَ yakınlık ve huzur konumunu taşır.",
+          "independent_trigger": "Al-Rahman adı ve korunmuş covenant, ilişkinin uzak bir entitlement değil huzurda duran bağ olmasını sağlar.",
+          "activation": "Locative dal, covenant ve mercy adıyla temas ederek bağın yakınlık içinde sürmesi imgesini taşır.",
+          "resulting_reading": "Birinin diğeriyle bağı al-Rahman yakınlığında yer alır.",
+          "boundary": "Bu yalnızca yerel yakınlık imgesidir; fiziksel mesafe ölçüsü vermez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:8:2"
+          ],
+          "trigger_refs": [
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:8:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ bakım ve iyilik eden merhamet adını taşır.",
+          "independent_trigger": "Ahdin korunup yenilenmesi, bakımın ilişkide süreklilik bulduğu ayrı bir tetikleyicidir.",
+          "activation": "Merhamet dalı korunmuş covenantla birleşerek yakınlığın bakım boyutunu verir.",
+          "resulting_reading": "Ahdle kurulan bağ süreklilik taşıyan merhamet ilişkisi olarak duyulur.",
+          "boundary": "Bu facet belirli bir covenant edimini veya merhametin tek sonucunu söylemez."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:8:2"
+          ],
+          "trigger_refs": [
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:8:2"
+          ],
+          "carrier": "الرَّحْمَٰنِ ilahi kullanımda geniş merhamet adıdır.",
+          "independent_trigger": "Ahd ve süreklilik dalı, merhamet alanındaki ilişkinin hangi odak sözcükleriyle sürdüğünü gösterir.",
+          "activation": "Tanrı hakkındaki facet, yenilenen covenant bağının bulunduğu alanı adlandırır.",
+          "resulting_reading": "Yakınlıkta sürdürülen bağ al-Rahman'ın merhamet adı altında durur.",
+          "boundary": "İlahi merhamet facet'i core etkin iyilik facet'iyle birlikte tutulur; covenant içeriğini belirlemez."
+        },
+        {
+          "branch_ref": "root_001055/B001",
+          "facet_id": "F001",
+          "branch_gloss": "yenileyerek koruyup gözetme",
+          "facet_statement": "Bir şeyin korunması, durumunun yeniden yeniden yoklanması ve bakımının süreklilik içinde sürdürülmesi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:3:2",
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا, korunup gözetilen bir bağ anlamını taşıyabilir.",
+          "independent_trigger": "Şefaatin pairing dalı bir tarafı diğerine bağlar; mercy adı bu ilişkiyi bakım çerçevesine yerleştirir.",
+          "activation": "Yenileyerek koruma dalı, şefaatteki katılma ve merhamet sözcükleriyle temas edince static status'tan sürdürülen ilişkiye geçiş sağlar.",
+          "resulting_reading": "Ahd bir kez verilmiş işaret değil, gözetilerek tutulan bağ olarak da duyulur.",
+          "boundary": "Bu yerel dal covenantın ayrıntılı içeriğini veya ritüel yenileme uygulamasını ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001055/B001",
+          "facet_id": "F002",
+          "branch_gloss": "yenileyerek koruyup gözetme",
+          "facet_statement": "Daha önce kurulmuş ilgi veya sorumluluğun unutulmayıp her seferinde tazelenmesi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:3:2",
+            "19:87:8:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا, önceki sorumluluğun korunması ve tazelenmesi yönünü taşıyabilir.",
+          "independent_trigger": "Pairing ilişkisi ile mercy bakım alanı, tazelenen ilginin focus içindeki temaslarını verir.",
+          "activation": "Ahd dalı eşleştirme ve bakım tetikleriyle süreklilik boyutu kazanır.",
+          "resulting_reading": "Ahd, tanınmış ve tekrar gözetilen bağ olarak okunabilir.",
+          "boundary": "Bu, HFT'nin süreklilik okumasıdır; focus phrase'in doğrudan tanımladığı şart yine covenant almadır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:two-slot-exception",
+      "origin_candidate_id": "cand_748d3c81f43083a8544a",
+      "represented_candidate_ids": [],
+      "title": "İstisnanın iki ilişkisel konumu",
+      "claim": "Ahd alan kişi istisnada belirir; sözler onu açıkça aracı diye adlandırmadığı için şefaatin konuşanı ya da yararlanıcısı olma olasılığı sınırlı biçimde açık kalır.",
+      "mechanism": "Şefaatin aracılık dalı hem talep eden hem adına talepte bulunulan iki konum kurar; مَن kişi kapısını, عَهْدَانın koruma statüsü de bu ilişki içindeki uygunluğu verir. Sahiplik olumsuzluğu iki konumun da bağımsız tasarruf sahibi olduğu okumasını sınırlar. HFT'nin önceki tek-konum okuması böylece iki rolü de mümkün gören, fakat hiçbirini seçmeyen bir okumaya açılır.",
+      "reader_payoff": "Okur covenant koşulunun hem aracının yetkisine hem de şefaatten yararlanma ehliyetine temas edebileceğini görür.",
+      "containment": "Yararlanıcı yorumu yüzeyde açıkça adlandırılmıyor; HFT rolü bu olasılığı kuruyor. Cümle kimin şefaat ettiğini kesinleştirmez ve iki rolü sıralamaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Yerel ilişki mümkün, ancak özellikle rol dağılımı yüzeyde açıkça adlandırılmadığından exploratory tutuluyor."
+      },
+      "support_ids": [
+        "sup_ee12fbd7bff37c7e4873",
+        "sup_5b3cc67370c5afe2dff9",
+        "sup_0f06d7d467edcc7573e8",
+        "sup_bbc3f35caa4eabb0dbb9",
+        "sup_a05942d42f04fc831e23",
+        "sup_90e7c86212509351a935",
+        "sup_c3c487095cc2119751f5"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001444/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sahiplik ve tasarruf yetkisi",
+          "facet_statement": "Bir kişi, mal veya hak üzerinde sahiplikten doğan elinde bulundurma ve tasarruf yetkisine sahiptir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:2:1"
+          ],
+          "trigger_refs": [
+            "19:87:3:2",
+            "19:87:5:1"
+          ],
+          "focus_return_refs": [
+            "19:87:2:1"
+          ],
+          "carrier": "يَمْلِكُونَ sahiplik ve tasarruf yetkisini taşır.",
+          "independent_trigger": "Şefaat ilişkisi ile onu istisnaya sokan مَن yapısı, kimin hangi rolde bulunduğu sorusunu açar.",
+          "activation": "Tasarruf dalı, iki ilişkisel konum bulunsa da şefaatin özel mülk olmadığı sınırını korur.",
+          "resulting_reading": "Hiçbir katılımcı şefaati bağımsızca elinde tutan egemen güç olarak gösterilmez.",
+          "boundary": "Bu dal iki rolü kendiliğinden çözmez; yalnız tasarruf sınırını verir."
+        },
+        {
+          "branch_ref": "root_000802/B002",
+          "facet_id": "F001",
+          "branch_gloss": "başkası adına aracılık edip destek olma",
+          "facet_statement": "Bir başkasının gereksinimi için onun adına istekte bulunmayı ve ona destek olmayı anlatır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:3:2"
+          ],
+          "trigger_refs": [
+            "19:87:5:1",
+            "19:87:9:1"
+          ],
+          "focus_return_refs": [
+            "19:87:3:2"
+          ],
+          "carrier": "الشَّفَاعَةَ başkası adına talep ve desteği taşır.",
+          "independent_trigger": "مَن ile tanımlanan covenant alan kişi ve عَهْدًا nesnesi, aracılık ilişkisine girebilecek tarafları ayrı ayrı görünür kılar.",
+          "activation": "Aracılık dalı, istisnadaki kişi tanımıyla buluşunca covenant şartının konuşana mı yoksa yararlanıcıya mı uzandığı sorusunu açar.",
+          "resulting_reading": "Yetkili konuşan ve şefaate uygun yararlanıcı iki olası konum olarak kalır.",
+          "boundary": "Ayet yararlanıcıyı açık bir nesneyle adlandırmaz; bu ikinci konum HFT'nin qualified olasılığıdır."
+        },
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": "F001",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Tarafların uyması ve koruması gereken bağlayıcı söz, ant veya sözleşme.",
+          "application_mode": "lexical",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:5:1",
+            "19:87:3:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا bağlayıcı covenantı taşır.",
+          "independent_trigger": "مَن istisna kişisini, şefaat kelimesi ise ilişkinin olası konuşan ve yararlanıcı konumlarını verir.",
+          "activation": "Ahd, şefaat ilişkisindeki kişiyi sınırlayan bağlayıcı statü olur.",
+          "resulting_reading": "Bağlayıcı söz iki olası ilişkisel konumdan birine uygunluk verebilir.",
+          "boundary": "Cümle covenant alan kişiyi tanımlar ama hangi ilişki rolünü tuttuğunu açıkça adlandırmaz."
+        },
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": "F002",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Bağlayıcı sözün taraflara sağladığı güvence, dokunulmazlık veya koruma statüsü.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:5:1",
+            "19:87:3:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا taraflara koruma sağlayan covenant statüsünü de taşıyabilir.",
+          "independent_trigger": "Şefaatteki iki rol ve مَن ile kurulan istisna kişi tanımı, bu korumanın kim için geçerli olabileceğini açık bırakır.",
+          "activation": "Güvence facet'i, konuşan veya yararlanıcı konumundaki kişi için uygunluk düşüncesini mümkün kılar.",
+          "resulting_reading": "Ahd, iki konumdan biri için korunmuş uygunluk statüsü olabilir.",
+          "boundary": "Bu olasılık, yararlanıcı okumasını kanıtlamaz; HFT'nin sınırlandırılmış alternatifinde tutar."
+        },
+        {
+          "branch_ref": "root_001055/B003",
+          "facet_id": "F003",
+          "branch_gloss": "bağlayıcı söz ve güvence",
+          "facet_statement": "Bu bağlayıcı güvenceye taraf olan veya onun koruması altında bulunan kişi ve topluluk.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:87:9:1"
+          ],
+          "trigger_refs": [
+            "19:87:5:1",
+            "19:87:3:2"
+          ],
+          "focus_return_refs": [
+            "19:87:9:1"
+          ],
+          "carrier": "عَهْدًا covenanta taraf olma ya da onun korumasında bulunma statüsünü taşıyabilir.",
+          "independent_trigger": "مَن yapısı bir kişiyi istisnanın konusu yapar; şefaatin kendi iki taraflı yapısı onun olası ilişkisel yerini sorulur kılar.",
+          "activation": "Güvence altında olan kişi anlamı, istisna kişisinin yalnız aracı değil yararlanıcı olabilmesi ihtimalini açar.",
+          "resulting_reading": "Ahd alan kişi şefaatin yetkili konuşanı ya da korunan yararlanıcısı olarak kalabilir.",
+          "boundary": "F003 uzantısı temel covenant ve güvence anlamlarıyla birlikte tutulur; sözdizimi tek bir rol seçmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "focus_word_alignment tüm 9/9 analysis word birimini QAC'a kabul edilmiş biçimde bağlar; unresolved join yok. Altı QAC root occurrence kimliği, HFT'nin focus word index ve root rollerini denetlemek için kullanıldı; tek başlarına branch activation sayılmadılar.",
+    "Üç HFT kaydının reader identity durumu legacy_unbound ve HFT anchor zarfı hedef morfolojiyi kendisinin sağlamadığını söylüyor. Yine de tüm trace koordinatları 19:87'nin sağlanan QAC kök oluşumlarına uyuyor; bu nedenle kayıtlar dışlanmadı, fakat qualified/exploratory statü ve açık sınırlarla taşındı.",
+    "Micro packet'te lane_context_refs ve connection_registry boş. 19:86, 19:78, 19:88 ve daha geniş paralelleri gerektiren aday katkıları, focus-local bulgulara daraltıldı veya bu lane'de dışlandı; bu dış bağlam iddiaları micro taşıyıcı ya da tetikleyicisi olarak kullanılmadı."
+  ]
+}

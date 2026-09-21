@@ -1,0 +1,252 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:77",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_de82a2d01019ac15f3a0",
+      "decision": "accept",
+      "reason": "Güvenilir yayın kaydı, dört odağa ait dalı 19:77:3, :6, :7 ve :8 yüzeylerine bağlıyor. 18:34/36/46 mal ve evlat iddiasıyla, gelecekteki dönüş beklentisiyle ve bu malların dünya süsü oluşuyla somut bir geniş bağ kuruyor; 52:41 gayb bilgisi iddiasını soruya açıyor. Dört dalın F001 çekirdekleri bu bağlantılarda ayrı ayrı karşılık buluyor; başka aday dalı veya yüzü dışarıda bırakılmıyor.",
+      "finding_refs": ["global:future-entitlement"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1bbc73f2480b9c71cbc2",
+      "decision": "reject",
+      "reason": "Kayıt, 19:78'in övünmeyi gaybı bilme veya ahit güvencesi olmadan yapılmış bir iddia olarak çevirdiğini söylüyor; fakat HFT kaydında anchor_refs ve branch_refs boştur, anchor_evidence_coverage da hiç hedef bağlantısı sağlamaz. 19:78'e ait kelime dizini, kök, atfedilen rol ve odağa dönüş izi olmadığından, 52:41'in ayrı bağlantısı bu özel 19:78 izleğini geriye dönük olarak doğrulayamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "19:78", "reason": "HFT özeti bu ayeti anıyor ancak ayete ait kelime/kök izi veya odağa dönüş sağlamıyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1923af6852fcd5965758",
+      "decision": "reject",
+      "reason": "Özet, 19:79-80'i kayıtlı sorumluluk, miras kalan mülk ve tek başına geliş olarak yorumluyor; ancak bu HFT kaydının anchor_refs ve branch_refs alanları boş, hedef kanıt kapsamı da sıfır bağlantı gösteriyor. Her iki bağlam ayeti için kelime dizini/kök/atfedilen rol ve odağa dönen temas bulunmadığından, özetin önce/sonra değişimi ve containment'ı değerlendirilemiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "19:79", "reason": "Özet aralık içinde ayeti anıyor ancak ayete ait kelime/kök izi veya odağa dönüş sağlamıyor."},
+        {"context_ref": "19:80", "reason": "Özet aralık içinde ayeti anıyor ancak ayete ait kelime/kök izi veya odağa dönüş sağlamıyor."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2ec4b9b23e81daaef66a",
+      "decision": "reject",
+      "reason": "Özet, 19:93-95'te verilme kökünün geliş eylemine döndüğünü ve tasarlanan alıcının tek tek sayılan bir kula dönüştüğünü iddia ediyor. Tam HFT izi bu özette yoktur: HFT anchor_refs/branch_refs boş, hedef ayetlerde kelime indeksi, kök ve atfedilen rol sağlanmamıştır. Odağa dönüş ilişkisinin eksikliği nedeniyle bunu attributed bağlamsal aktivasyon olarak kabul etmek mümkün değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "19:93", "reason": "Aralıkta anılıyor ancak ilgili sözcük, kök ve odağa dönüş izi verilmemiş."},
+        {"context_ref": "19:94", "reason": "Aralıkta anılıyor ancak ilgili sözcük, kök ve odağa dönüş izi verilmemiş."},
+        {"context_ref": "19:95", "reason": "Aralıkta anılıyor ancak ilgili sözcük, kök ve odağa dönüş izi verilmemiş."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e22e5fcacbc2603e252e",
+      "decision": "reject",
+      "reason": "Bu reader-summary kaydı gelecek iddiasının, artışın, mirasın ve verilme/geliş kökünün bağlamda birbirine cevap verdiğini söylüyor; fakat belirli bir bağlam ayeti, kelime indeksi, kök, atfedilen rol veya odağa dönüş izi içermiyor. Bu nedenle değişen okuma, taşıyıcı-temas mekanizması ve containment packet içinde sınanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_0a77ea8cb0a53d399331",
+      "decision": "reject",
+      "reason": "Özet, mal ve evladın sürüp devam etmesi yorumunu kendisi de dilbilgisel olarak açık olmayan bir çıkarım diye niteliyor; fakat bağımsız bir bağlam tetikleyicisi veya HFT kelime/kök/rol/odağa dönüş izi sunmuyor. Odaktaki belirsiz nesneler bu süreklilik iddiasını tek başına değiştirilmiş bir okuma haline getirmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1bdc01266d85ee2ab3ea",
+      "decision": "reject",
+      "reason": "Özet, vaat edilen sevginin odağın mallarını doğrudan yeniden değerlendirebileceği ya da yan yana duran bağımsız bir karşıtlık olabileceği arasında kararsız kalıyor. Bu iki olasılığı ayıracak somut ayet/kelime tetikleyicisi veya odağa dönüş izi verilmediğinden, ilişki mekanizması ve değişmiş okuma doğrulanamıyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1483a2d7037f354d82d2",
+      "decision": "reject",
+      "reason": "Özet, ilerideki evlat polemiğinin odağa sözlüksel baskı uyguladığını ve insanî iddiayla ilahî iddianın eşitlenmemesi gerektiğini söylüyor; ancak hangi ayet, kelime, kök ve rolün bu teması taşıdığını ya da odağa nasıl döndüğünü belirtmiyor. Eşitlememe uyarısı bir sınırdır, tek başına aktivasyon kanıtı değildir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:future-entitlement",
+      "origin_candidate_id": "cand_de82a2d01019ac15f3a0",
+      "represented_candidate_ids": [],
+      "title": "Mal ve evlat iddiasının geleceğe taşan güvencesi",
+      "claim": "19:77'de ayetleri reddeden kişinin mal ve evlat alacağını kesin dille söylemesi, 18:34'te mal ve toplumsal üstünlükle övünen ve 18:36'da dönüşte daha iyisini bekleyen konuşmayla yankılanır. 18:46 bu malları dünya hayatının süsü sayarken 52:41 benzeri iddia sahiplerinin gaybı bilip bilmediğini sorar; böylece odağın gelecekteki payı, verilmiş ya da verilmesi kesinleşmiş bir lütuf kanıtı değil, dayanağı gösterilmemiş bir güvence olarak okunur.",
+      "mechanism": "Odaktaki taşıyıcılar, dinî gerçeği reddeden كَفَرَ (19:77:3:1), edilgen gelecek أُوتَيَ (19:77:6:2), mal مَالًا (19:77:7:1) ve evlat وَلَدًا (19:77:8:2) biçimleridir. 18:34 mal ve toplumsal üstünlük övünmesini, 18:36 saatten kuşku duyarken Rabbe dönüşte daha iyisini bulma beklentisini, 18:46 mal ve oğulları dünya süsü diye niteler; 52:41 ise gaybın onların yanında olup olmadığını sorar. Bu ayrı metinler taşıyıcıların iddiayla temas ederek geleceğe dair kesinliği kanıt olmaktan çıkarıp sınanması gereken bir beklentiye çevirir.",
+      "reader_payoff": "Okur, mal ve evlat sözünü yalnızca beklenen iki nimet olarak değil, bunların bugünkü varlığından veya kesin konuşmaktan gelecek payın hak edildiği sonucunu çıkaran bir iddia olarak görür. Açılıştaki أَفَرَءَيْتَ sorusu da 52:41'in gayb sorusuyla birlikte, bu iddianın neye dayanarak kurulacağını düşünmeye çağırır.",
+      "containment": "Bu yankı 19:77'deki kişinin 18. sûredeki kişiyle aynı olduğunu söylemez; 19:77'nin mal ve evlat beklentisini ahiret vaadine dönüştürmez. 52:41 ile 18:34-46'nın hedef morfolojisi ve sözlüksel çözümlemesi verilmediği için bağlantı ayet düzeyinde tutulur. İddia, malların gerçekten verilmeyeceğini değil, focus sözünün tek başına bunu güvenceye bağlamadığını gösterir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Dört odak dalı trusted yayın kaydında yüzey konumlarıyla bağlıdır; 18:34/36/46 ve 52:41 bağlantılarının hedef Arapçası sağlanır. Bununla birlikte hedef morfolojisi/lexical analizi yoktur ve connection etiketleri karar sayılmaz; ilişki ayet düzeyinde nitelendirilmiştir."
+      },
+      "support_ids": ["sup_255d9e06f233eb9de71a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000009/B002",
+          "facet_id": "F001",
+          "branch_gloss": "vermek; getirip sunmak",
+          "facet_statement": "Bir şey bir alıcıya verilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:77:6:2"],
+          "trigger_refs": ["18:36", "52:41", "conn_4e77abd00d695d3c5809", "conn_b0449ffe9be7d5d59e8a"],
+          "focus_return_refs": ["19:77:6:2"],
+          "carrier": "أُوتَيَ, konuşan kişiyi gelecekte bir şeyin alıcısı olarak kuran edilgen verilme biçimidir; alıntıda veren adlandırılmaz.",
+          "independent_trigger": "18:36 saatten kuşkuya rağmen Rabbe dönerse daha iyisini bulacağını kesinleyerek söyler; 52:41 iddia sahiplerinin gaybı bilip bilmediğini sorar. Her iki hedef ayetin tam Arapça yüzeyi ve bağlantı notu packet'te vardır.",
+          "activation": "Focus'taki 'mutlaka verileceğim' iddiası, dış metinlerdeki daha iyi bir dönüş beklentisi ve gayb bilgisi sorusuyla temas eder; gelecek alıcılığı, kaynağı ve bilgisi gösterilmemiş bir hak iddiası olarak görünür.",
+          "resulting_reading": "Edilgen gelecek biçiminin kesinliği, geleceğin bilindiğine dair kanıt değil, sorgulanabilir bir beklenti olur.",
+          "boundary": "Bağlantı edilgen biçimin vereni söylemediğini kaydeder; konuşanın kasıtlı olarak vereni inkâr ettiğini veya mal ve evladın verilmeyeceğini ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001307/B003",
+          "facet_id": "F001",
+          "branch_gloss": "dinî gerçeği reddetme",
+          "facet_statement": "İnancın karşıtı olarak dinî gerçeği, birliği, dinî hükmü veya peygamberliği reddetme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:77:3:1"],
+          "trigger_refs": ["18:36", "52:41", "conn_4e77abd00d695d3c5809", "conn_b0449ffe9be7d5d59e8a"],
+          "focus_return_refs": ["19:77:3:1"],
+          "carrier": "كَفَرَ بِآيَاتِنَا, focus'ta dinî gerçeği reddetme ve bunu ilahî ayetlere yöneltme anlamını taşır.",
+          "independent_trigger": "18:36'da konuşan saatten kuşku duyarken Rabbe dönüşte daha iyi karşılık bekler; 52:41 bağlantı notu doğrudan inkârcıların gayb bilgisine sahip olup olmadığını sorar.",
+          "activation": "Dış metinlerdeki saat/gayb soruları, odağın ayetleri reddetme fiiline dönerek aynı kişinin geleceğe dair beklentisinin dinî bilgiyle temelsiz biçimde bağlanıp bağlanmadığını görünür kılar.",
+          "resulting_reading": "Mal ve evlat iddiası, ayetleri reddeden konuşanın geleceğe dair bir bilgisi varmış gibi kurduğu söz olarak duyulur.",
+          "boundary": "Bu temas inkârın focus'taki açık dinî nesnesini değiştirmez ve iki metindeki konuşanların aynı kişi olduğunu ileri sürmez."
+        },
+        {
+          "branch_ref": "root_001457/B001",
+          "facet_id": "F001",
+          "branch_gloss": "varlık; edinme, çoğalma ve başkasına kazandırma",
+          "facet_statement": "Kişinin sahip olduğu ve değer taşıyan varlıkların bütünü bu dalın ad çekirdeğini oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:77:7:1"],
+          "trigger_refs": ["18:34", "18:46", "conn_f092ac8e7c515dd15cfe", "conn_beffc79cb8ef2dc2542a"],
+          "focus_return_refs": ["19:77:7:1"],
+          "carrier": "مَالًا focus'ta değer taşıyan ve sahip olunması beklenen varlığı bildirir.",
+          "independent_trigger": "18:34'ün supplied Arabic'i konuşanın مال ile övündüğünü, bağlantı notu bunu toplumsal üstünlük iddiasına bağladığını gösterir; 18:46 malı ve oğulları dünya hayatının süsü diye adlandırır.",
+          "activation": "Sahip olunan mal sözü, bir dış sahnede üstünlük gösterisi ve başka bir dış ayette kalıcı olmayan dünya süsü olarak karşılanır; bu temas odağın mal beklentisini güvence kanıtı olmaktan çıkarır.",
+          "resulting_reading": "مالًا, kişinin gelecekte almayı beklediği değerli varlık olarak kalırken, statü ve kalıcılık garantisi diye okunamaz.",
+          "boundary": "Hedef ayetlerin morfolojisi verilmediğinden, focus sözcüğüyle kök veya biçim çapraz eşleştirmesi iddia edilmez; verilen bağ maddî içerik düzeyindedir."
+        },
+        {
+          "branch_ref": "root_001683/B001",
+          "facet_id": "F001",
+          "branch_gloss": "ana babadan doğan kişi veya kişiler",
+          "facet_statement": "Temel gönderim, bir ana babadan doğmuş kişidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:77:8:2"],
+          "trigger_refs": ["18:46", "conn_beffc79cb8ef2dc2542a"],
+          "focus_return_refs": ["19:77:8:2"],
+          "carrier": "وَلَدًا, focus'ta konuşanın alacağını ileri sürdüğü evladı bildirir.",
+          "independent_trigger": "18:46'nın supplied Arabic'i مال ve البنون çiftini verir; bağlantı notu mal ve çocukları dünya süsü, kalıcı iyi işleri ise daha hayırlı diye açıkça karşılaştırır.",
+          "activation": "Focus'taki evlat beklentisi, dış ayette mal ile birlikte anılıp dünya süsü ve kalıcı olmayan değer olarak çerçevelenir; bu, evladı geleceğe dair sahiplik güvencesi gibi sunmanın sınırını görünür kılar.",
+          "resulting_reading": "Evlat beklentisi sözü, kalıcı ödül veya hak edişin kanıtına dönüşmez.",
+          "boundary": "Hedefteki oğullar ifadesi focus'taki evladın cinsiyetini veya sayısını belirlemez; yalnızca sağlanan maddî/ailesel karşılaştırma kullanılır."
+        },
+        {
+          "branch_ref": "root_000615/B004",
+          "facet_id": "F001",
+          "branch_gloss": "enine boyuna düşünüp değerlendirme",
+          "facet_statement": "Belirli bir iş üzerinde bakışları tartarak düşünmek ve değerlendirmek temel çekirdektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:77:1:3"],
+          "trigger_refs": ["52:41", "conn_b0449ffe9be7d5d59e8a"],
+          "focus_return_refs": ["19:77:1:3"],
+          "carrier": "أَفَرَءَيْتَ odağa alınan kişiyi değerlendirmeye çağıran sabit soru formülüdür; surface evidence bunun basit görme olmadığını belirtir.",
+          "independent_trigger": "52:41'in sağlanan Arapça sorusu, iddia sahiplerinin gaybı yanında bulundurup yazıp yazmadığını sorar.",
+          "activation": "Odaktaki değerlendirme sorusu, geniş metindeki gayb sorusuyla temas ederek okuru yalnız kişiye bakmaya değil, mal ve evlat alacağına ilişkin kesinliğin hangi bilgiye dayandığını tartmaya yöneltir.",
+          "resulting_reading": "Açılış sorusu, geleceği bildiğini ima eden iddianın dayanağını incelemeye dönük bir çağrı olarak da işitir.",
+          "boundary": "Hedef ayetin morfolojik çözümlemesi sağlanmadığından iki soru arasında dilbilgisel özdeşlik kurulmaz; qualified dal, sabit focus formülünün yerini almaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_f092ac8e7c515dd15cfe",
+        "conn_4e77abd00d695d3c5809",
+        "conn_beffc79cb8ef2dc2542a",
+        "conn_b0449ffe9be7d5d59e8a"
+      ],
+      "context_refs": ["18:34", "18:36", "18:46", "52:41"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:gift-and-craving",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "Verilmiş nimet, daha fazlasını isteme ve ayetlere direnme",
+      "claim": "74:12-16'da bir denere bol mal ve oğullar verilmiş, kendisine imkân açılmış, o yine de artış istemiş ve ilahî ayetlere direnmiştir. Bu daha geniş sahne 19:77'nin ayetleri reddeden ve gelecekte mal ile evlat alacağını söyleyen taşıyıcısına dönerek aynı K-F-R sözcüğünde nimet karşısında şükrü yerine getirmeme yönünü de duyurur; açık yerel nesne yine ayetlerdir.",
+      "mechanism": "Odaktaki carrier كَفَرَ بِآيَاتِنَا (19:77:3:1), dalın yerel dinî reddetme anlamını açıkça taşır. 74:12'deki ilahî 'ona mal verdim' sözü, 74:13'teki hazır oğullar, 74:15'teki daha çok isteme ve 74:16'daki ayetlere direnme, bağımsız bağlam tetikleyicisini oluşturur. Bu sahne, focus'taki edilgen 'mutlaka verileceğim' biçimiyle yan yana geldiğinde, aynı taşıyıcının ayrı nimet-yadsıma dalını bağlamsal bir yankı olarak açar.",
+      "reader_payoff": "Okur, ayetleri reddetme ile mal ve evlat arzusunun yan yana gelişinde, verilmiş nimetin kaynağını tanımadan daha fazlasını isteme ihtimalini de fark eder; focus fiilinin yerel anlamı korunurken istek, şükür ilişkisine karşı duyarsızlıkla renklenecek bir bağ kazanır.",
+      "containment": "74:12-16'daki kişiyle 19:77'deki kişinin aynı olduğu söylenmez. Focus fiilinin açık nesnesi 'ayetlerimiz'dir; nimeti yadsıma dalı fiilin doğrudan nesnesi malmış gibi sunulmaz. Bu, verilmiş mal/evlat ve ayetlere direnme sahnelerinin kurduğu atfedilmiş bağlamsal yankıdır; konuşanın gerçekten nankör olduğunu veya malın verilmeyeceğini kanıtlamaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["trusted"],
+        "reason": "Focus carrier ve aday yayınındaki relation trusted olarak sağlanmıştır; 74:12-16'nın tam Arapça yüzeyleri ve bağlantı notları vardır. Buna karşılık hedef morfolojisi yoktur ve nimete karşı tutum, focus fiilinin açık nesnesi değil bu sahneyle kurulan çok adımlı bir contextual resonance'tır."
+      },
+      "support_ids": ["sup_255d9e06f233eb9de71a"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001307/B004",
+          "facet_id": "F001",
+          "branch_gloss": "nimeti yadsıma",
+          "facet_statement": "Bir nimeti yadsıma veya şükrünü yerine getirmeyerek değerini örtme.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:77:3:1"],
+          "trigger_refs": [
+            "74:12", "74:13", "74:14", "74:15", "74:16",
+            "conn_25b16d856acb2bc3b25d", "conn_426798aded7cbd0031c5",
+            "conn_5765582e1f2faea99620", "conn_1fec2ba97bc380868a50",
+            "conn_a6683c552c8e1bd9c889"
+          ],
+          "focus_return_refs": ["19:77:3:1", "19:77:6:2", "19:77:7:1", "19:77:8:2"],
+          "carrier": "كَفَرَ بِآيَاتِنَا focus'ta ilahî işaretleri reddetme anlamındadır; bu ayrı dal, nimete karşı yadsıma/şükrü yerine getirmeme kullanımını sağlar.",
+          "independent_trigger": "74:12'de Tanrı konuşan kişi için bol mal yaptığını söyler, 74:13 oğullarını anımsatır, 74:14 ona geniş imkân verildiğini, 74:15 daha fazlasını istediğini, 74:16 ise ayetlere direnç gösterdiğini bildirir.",
+          "activation": "Focus'un edilgen gelecek alıcılığı ve mal/evlat nesneleri, başka bir metinde ilahî veriş, artış arzusu ve ayetlere direnme ile karşılaşır. Bu temas, yerel dinî reddetmenin yanına verilmiş nimet karşısında tanımazlık yankısını ekler; edilgen focus biçiminde adı verilmeyen vereni S74'ün açık ilahî veren cümlesi görünür kılar.",
+          "resulting_reading": "İnkâr sözcüğü ayetlere yönelmiş açık anlamını korurken, daha fazlasını talep edip verilmiş nimetin kaynağını tanımama olasılığıyla da duyulur.",
+          "boundary": "S74 sahnesiyle focus öznesi özdeşleştirilmez; 'nimeti yadsıma' focus cümlesinin sözlüksel doğrudan nesnesi değildir, dış sahnenin açtığı atfedilmiş yankıdır."
+        }
+      ],
+      "connection_refs": [
+        "conn_25b16d856acb2bc3b25d",
+        "conn_426798aded7cbd0031c5",
+        "conn_5765582e1f2faea99620",
+        "conn_1fec2ba97bc380868a50",
+        "conn_a6683c552c8e1bd9c889"
+      ],
+      "context_refs": ["74:12", "74:13", "74:14", "74:15", "74:16"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Yedi HFT reader-summary adayı legacy_unbound durumundadır; kayıtlarında anchor_refs/branch_refs ve HFT anchor evidence yoktur. Özet metinler 19:78, 19:79-80 ve 19:93-95 gibi bağlamları anıyor, ancak kelime indeksi, kök, atfedilen rol, önce/sonra okuması ve focus'a dönen temas izi sağlamıyor. Bu yüzden hiçbiri yalnızca legacy_unbound olduğu için değil, gerekli somut aktivasyon izi bulunmadığı için retained edilmedi.",
+    "Packet'teki inter-sura connection satırları hedef ayetlerin tam Arapça yüzeylerini sağlar; qualification alanı hedef morfolojisi ve sözlüksel çözümlemesinin verilmediğini, eski yön etiketlerinin karar olmadığını açıkça belirtir. Bu nedenle bağlantılar ayet düzeyinde tetik olarak kullanıldı; hedef kök kimliği veya QAC çapraz eşleştirmesi ileri sürülmedi.",
+    "Candidate inventory'de ayrı semantic_obligations dizisi yoktur; yalnız commentary_obligation statüleri vardır. Bu artifact yapılandırılmış ve adreslenebilir yükümlülük refleri uydurmamış, HFT claim içeriklerini karar gerekçelerinde tek tek ele almıştır."
+  ]
+}

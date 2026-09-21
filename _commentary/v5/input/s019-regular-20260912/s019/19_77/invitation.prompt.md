@@ -1,0 +1,185 @@
+# V5 reading invitation — 19:77
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_77/19_77.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_77/19_77.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## İncelemeye açılan vaka
+
+19:77, muhataptan bir vakayı tartmasını isteyen bir soruyla başlar. Bağlayıcı {ar:فَ, tr:fa, gloss:bağlayıcı edat} ile soru edatı {ar:أَ, tr:ʾa, gloss:soru edatı} açılışı kopuk bir bildirim olmaktan çıkarıp yanıt bekleyen, sonuca yönelen bir soruya dönüştürür. Tam kalıp {ar:أَفَرَءَيْتَ, tr:ʾa-fa-raʾayta, gloss:bana söyle, bir düşün} sıradan bir görme fiilinden çok “bir düşün, değerlendir” çağrısıdır. İkinci tekil hitap okuru da bu incelemeye tanık eder; belirli bir tarihî şahidi adlandırmaz. Kabul edilmiş kıraat farklılıkları bu kalıbın durak, hemze ağırlığı ve ünlü uzunluğunu değiştirir, fakat bildirilen temel değerlendirme işlevi aynı kalır; ayrı bir sözdizimi kurulmaz. İddianın hükmü 19:77 içinde verilmez. Bu askıda kalış ayetin kendi açılışına dayanır, önceki ayetle bir sınır karşılaştırmasına değil (19:76).
+
+Sorunun önüne önce {ar:ٱلَّذِى, tr:alladhī, gloss:o kişi} getirilir; eylemleri henüz söylenmeden muhatabın dikkatini somut bir hedefte toplar (19:77). Kişi belirli, fakat özel adı ve yaşam öyküsü açıklanmamıştır. Onu tanıtan davranışlar, bu tek vakayı incelemeye açarken aynı tarifi karşılayan kişilere de kapı bırakır.
+
+Bu kişinin iki tamamlanmış eylemi {ar:كَفَرَ, tr:kafara, gloss:inkâr etti} ve {ar:قَالَ, tr:qāla, gloss:dedi} aynı özneye bağlanır (19:77). Aradaki {ar:وَ, tr:wa, gloss:ve} reddi sözle tek portrede buluşturur; tek başına biri ötekine sebep olduğunu söylemez. {ar:وَقَالَ, tr:wa-qāla, gloss:ve dedi} biçimindeki bitişik bağlaç, sözün başka bir kişiye ya da bağımsız bir sahneye ait olmadığını, aynı kişinin davranışının sürdüğünü gösterir. Özne yinelenmese de fiilin üçüncü tekil çekimi ve bağlanışı iddiayı bu kişiye yükler, ona özel bir kimlik vermez.
+
+İlk eylem, neyin reddedildiğini açıkça söyler: {ar:كَفَرَ بِـَٔايَٰتِنَا, tr:kafara bi-ʾāyātinā, gloss:ayetlerimizi reddetti} (19:77). Açılıştaki {ar:أَفَرَءَيْتَ, tr:ʾa-fa-raʾayta, gloss:bana söyle, bir düşün} çağrısı bu inkârla yan yana gelince muhatap reddedilen işaretleri incelemeye çağrılır. Olağan anlamı dinî gerçeği reddetmektir; aynı kökün bir nesneyi görünmez kılacak biçimde örtme kullanımı da görünür belirti anlamı taşıyan {ar:ءَايَاتِنَا, tr:ʾāyātinā, gloss:işaretlerimiz} ile temas eder. Böylece inkâr, açığa çıkaran işaretlerin üstünü örtermiş gibi duyulur. Örtme bu bağlantıda mecazi bir imge olarak kalırken fiilin yerel “inkâr” anlamı korunur.
+
+Bağlı {ar:بِ, tr:bi, gloss:-e karşı} harfi işaretleri inkâr fiiline yönetir; tamamlanmış fiil de genel bilgisizlikten çok belirli bir hedefe yönelmiş reddi anlatır (19:77). {ar:ءَايَاتِنَا, tr:ʾāyātinā, gloss:işaretlerimiz/ayetlerimiz} çoğuluyla tek bir belirti değil, bir işaretler alanı açılır; her biri ayrı ayrı adlandırılmaz. Sonundaki {ar:نَا, tr:nā, gloss:bizim} bu işaretlerin sahibini bildirir. Fiil bu tamamlanmış reddi kurar, kişinin bütün geçmişini ya da güdüsünü açıklamaz (19:77).
+
+Aynı kökün nimet karşısında tanımazlığa açılan yönü, 19:77’deki “işaretleri reddetme” anlamını genişletebilir. Müddessir’de başka bir kişiye bol mal, yanında bulunan oğullar ve geniş imkân verilir; o daha fazlasını umar ve işaretlere direnir (74:12, 74:13, 74:14, 74:15, 74:16). Bu sahnedeki nimet, artış arzusu ve direnç, odaktaki {ar:كَفَرَ بِـَٔايَٰتِنَا, tr:kafara bi-ʾāyātinā, gloss:ayetlerimizi reddetti} fiilinin belirli nesnesini değiştirmeden, nimetin değerini örtme ve şükrü yerine getirmeme olasılığını ekler. Bu olasılık Müddessir’deki ayrı kişiye aittir; 19:77’nin odağında yalnız işaretleri reddetme vardır, nimet verilmesi ya da nankörlük bildirilmez (19:77; 74:12, 74:13, 74:14, 74:15, 74:16).
+
+İşaretleri reddeden kişinin ardından konuşması, iki eylemi geleceğe dair iddiasında karşı karşıya getirir. {ar:قَالَ, tr:qāla, gloss:dedi} sözü dışa vurur ve doğrudan alıntı onu bu kişiye bağlar; anlatıcı söyleyişi aktarır, onaylamaz: {ar:لَأُوتَيَنَّ مَالًا وَوَلَدًا, tr:la-ʾūtayanna mālan wa-waladan, gloss:mutlaka bana mal ve evlat verilecek} (19:77). Böylece ayetleri reddeden kişi, görünmeyen gelecekte kendisine verilecek bir paydan emin konuşur. Soru, işaretleri reddedişle gelecekteki paydan kesin emin oluşu karşı karşıya getirir; payın gerçekleşip gerçekleşmeyeceği ve güvenin güdüsü açık bırakılır.
+
+İddianın biçimi konuşanı verilmenin alıcısı yapar: {ar:لَأُوتَيَنَّ, tr:la-ʾūtayanna, gloss:mutlaka verileceğim} birinci tekil edilgen gelecek çekimidir (19:77). IV. biçimdeki {ar:أُوتَيَنَّ, tr:ʾūtayanna, gloss:bana verilecek}, burada alıcıya bir şey verme dalını taşır; aynı kökün “gelmek, varmak” anlamını değil. Başa eklenen {ar:لَـ, tr:la, gloss:vurgu edatı} ile ağır son nūn, beklenen verilme üzerindeki kesinliği üst üste bindirir. İddia yemin edercesi bir güvenle sunulur; bu güçlü vurgu ayrı bir yemin ya da doğruluk güvencesi kurmaz.
+
+Edilgen kuruluş alıcıyı öne çıkarırken vereni adsız bırakır. Biraz önceki {ar:ءَايَاتِنَا, tr:ʾāyātinā, gloss:işaretlerimiz} işaretlerin sahibini açıkça belirtmişti; beklenen payda ise fail söylenmez (19:77). Bu asimetri, kesin iddiayla kimin vereceği arasındaki boşluğu görünür kılar. Sağlanan biçim bu edilgen verilme okumasını destekler; başka kuruluşlarla sıklık karşılaştırması sunmaz.
+
+Beklenen ilk şey {ar:مَالًا, tr:mālan, gloss:mal/varlık}, kişinin nakit dâhil sahip olduğu değerli varlıklardır (19:77). Belirsiz mansup biçim miktarı, kaynağı ve sınırı açık bırakır; dolayısıyla ifade sınırsız serveti belirlemez. Sağlanan sözlük açıklamasındaki “yönelinen, arzulanan şey” nüansı düz anlamı değiştirmez; aynı gelecek iddiasında ikinci nesne evlatla buluşunca malın arzu edilen bir pay olarak duyulmasını hafifçe güçlendirir.
+
+İkinci nesne {ar:وَلَدًا, tr:waladan, gloss:çocuk/evlat}, ana babadan doğmuş çocuktur; aynı edilgen verilme altında mal ile eş düzeyde beklenir (19:77). Standart biçim tekil ve belirsizdir; cinsiyet, yaş, kaç çocuk olduğu veya belirli bir mirasçı belirtilmez. Kolektif kapsam yalnız aktarılan kıraat varyantı koşulunda açılır; varyantların ayrı biçimleri burada verilmez. Bu cümlede kişi kendi evladını umar; Rahman’a çocuk isnadı ise ayrı bir bağlamdır (19:77; 19:88, 19:91, 19:92).
+
+İki nesnenin benzer mansup sonları ve ikinci bağlacı kısa, işitilir bir ikili kurar: {ar:مَالًا وَوَلَدًا, tr:mālan wa-waladan, gloss:mal ve evlat} statü formülü gibi tınlar; bu ritim belirli bir vezin iddiası değildir (19:77). İkinci {ar:وَ, tr:wa, gloss:ve}, evladı malla eş düzeyde bağlar ve aynı edilgen fiil ikisini tek alıcıya bağlayarak gelecekte beklenen tahsisler yapar. Maddi kaynakla soy çizgisinin birleşimi, konuşanın varlığını ve etkisini iki yoldan sürdürme hayalini kurar; bu, sözün sunduğu devamlılık imgesidir, gerçek bir gelecek garantisi değil. İlk bağlaç ise inkârla sözü eşlemişti: ikisi ayrı düzeylerde çalışır ve kişinin davranışıyla umduğu payları aynı söyleyişe yerleştirir. 19:80’deki devralma ve tek başına varış bu ilk ikiliye sonradan yeni bir karşılık getirir (19:77; 19:80).
+
+## Kesinliğin dayanağı
+
+Kehf’teki iki sahne, mal ve evlat beklentisine ayrı katkılar yapar. 18:34’te başka bir konuşan malını ve çevresini üstünlük işareti yapar: {ar:أَنَا أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا, tr:anā aktharu minka mālan wa-aʿazzu nafaran, gloss:senden daha çok malım ve çevrem daha güçlü} (18:34). 18:46’da mal ile oğullar geçici dünyanın süsü, kalıcı iyi işlerse daha hayırlıdır: {ar:ٱلْمَالُ وَٱلْبَنُونَ, tr:al-mālu wa-l-banūn, gloss:mal ve oğullar} (18:46). İlk sahne malı toplumsal itibarla, ikincisi mal ve evladı geçicilikle ilişkilendirir; birlikte bu iki temas 19:77’de bugünkü varlıktan veya kendinden emin sözden hak edilmiş gelecek payı çıkarma hamlesini görünür kılar, dayanağını sağlamaz (19:77; 18:34; 18:46). Odaktaki {ar:مَالًا, tr:mālan, gloss:mal} ve {ar:وَلَدًا, tr:waladan, gloss:evlat} kendi anlamlarını korur; 18:46’daki oğullar odak evladın cinsiyetini ya da sayısını belirlemez, Kehf’teki konuşan da 19:77’deki kişi değildir (19:77; 18:46).
+
+Gelecek iddiasının bilgiye dayanağı da ayrıca sınanır. Kehf 18:36’da saatin gelişinden kuşku duyan başka bir konuşan, Rabbine döndüğünde mutlaka daha iyisini bulacağını söyler: {ar:لَأَجِدَنَّ خَيْرًا مِّنْهَا مُنقَلَبًا, tr:la-ajidanna khayran minhā munqalaban, gloss:dönüşte mutlaka daha iyisini bulacağım} (18:36). Tûr 52:41 ise iddia sahiplerinin gaybı bilip bilmediğini sorar: {ar:أَمْ عِندَهُمُ ٱلْغَيْبُ, tr:am ʿindahumu l-ghayb, gloss:gayb yanlarında mı?} (52:41). Bu iki ayrı temas 19:77’deki {ar:كَفَرَ بِـَٔايَٰتِنَا, tr:kafara bi-ʾāyātinā, gloss:ayetlerimizi reddetti} fiiline döndüğünde, {ar:مَالًا, tr:mālan, gloss:mal} ve {ar:وَلَدًا, tr:waladan, gloss:evlat} iddiasının dinî bilgiye dayanıp dayanmadığını sorgulatır; edilgen alıcılık bu temas içinde kanıtlanmış bilgi değil, dayanağı sorulan bir beklenti olarak görünür. Gayb sorusu, açılıştaki {ar:أَفَرَءَيْتَ, tr:ʾa-fa-raʾayta, gloss:bana söyle, bir düşün} çağrısını da gelecekteki payın hangi bilgiye dayandığını tartmaya yöneltir (19:77; 18:36; 52:41). Bu karşılaştırmanın katkısı, yalnızca ayet düzeyinde, iddianın bilgi dayanağını sorgulamaktır; Kehf’teki konuşan ayrı kişidir, bu nedenle odak söz ahiret vaadine çevrilmez ve maddi payın sonucu belirlenmez.
+
+Dış temasların açtığı dayanak sorusu 19:78’de doğrudan sorulur: kişi gayba mı bakıp çıkmıştır, yoksa Rahman’la bir ahit mi edinmiştir? {ar:أَطَّلَعَ ٱلْغَيْبَ, tr:aṭṭalaʿa al-ġayba, gloss:gayba bakıp görmüş mü} sorusunda {ar:ٱلْغَيْبَ, tr:al-ġayba, gloss:gizli olan}, ileri sürülen geleceğin görünmeyen oluşuyla temas eder (19:78). {ar:أَطَّلَعَ, tr:aṭṭalaʿa, gloss:inceleyerek baktı} fiilini gizliyi inceleyip açığa çıkarma imgesiyle duymak, iddianın hangi bilgiye dayandığını sordurur. Fiilin başka bir mekânsal imgesi yüksekçe bir erişim noktasından bakıştır; bu da görünmeyen geleceğe erişme arzusunu resmeder. İki imge aynı soruda farklı katkılar yapar: biri inceleyip açığa çıkarmayı, öteki bakışın mekânsal konumunu canlandırır. Bu mekânsal bağlantı fiziksel tırmanış ya da gerçek bir gözetleme yöntemi ileri sürmez; ayet geleceği bilmenin yolunu belirlemeden soruyu açık tutar (19:78).
+
+Aynı sorudaki {ar:عَهْدًا, tr:ʿahdan, gloss:ahit} tutulmuş vaat veya koruyucu bağlılık olarak duyulunca, beklenen mal ve evladın arkasındaki güvenceyi yoklar (19:78). Talebi teminat altına alan belge imgesi bu özel bağlantıyla sınırlıdır: ayet ticari işlem, kusur ya da yazılı sözleşme anlatmaz. Soru ahit bulunup bulunmadığını sorar, bu kişide hiç ahit olmadığına hükmetmez; böylece kesinlik iddiasının dayanağını açık bırakır (19:78).
+
+## Beklentinin karşılığı
+
+19:79’da önce söz kayda alınır, sonra azabın ona uzatılması bildirilir: {ar:سَنَكْتُبُ مَا يَقُولُ, tr:sa-naktubu mā yaqūlu, gloss:söylediğini yazacağız} ve {ar:وَنَمُدُّ لَهُ مِنَ ٱلْعَذَابِ مَدًّا, tr:wa-namuddu lahu mina l-ʿadhābi maddan, gloss:ona azaptan uzatacağız} (19:79). Böylece odaktaki {ar:قَالَ, tr:qāla, gloss:dedi} ile dile gelen iddia yazılacak söyleyişe dönüşür. Yazmayı ceza hükmünün yanında bağlayıcı kayıt ya da yargı gibi duymak, düz “yazmak” anlamına eklenen bir imgedir; evrakın biçimi veya fiziksel bir mahkeme belgesi tasvir edilmez (19:77; 19:79).
+
+Ceza cümlesinde {ar:نَمُدُّ, tr:namuddu, gloss:uzatırız/artırırız} fiili ile aynı kökten {ar:مَدًّا, tr:maddan, gloss:uzatma} isim-fiili yan yana gelir; {ar:لَهُ, tr:lahu, gloss:ona} yönelmesi ve {ar:ٱلْعَذَابِ, tr:al-ʿadhābi, gloss:azap} nesnesi artışı doğrudan ona yöneltir (19:79). Birine destek ya da ek sağlama gibi bağlı artış imgesi bu kez cezaya uygulanır; 19:77’de beklenen {ar:مَالًا, tr:mālan, gloss:mal/varlık} ve {ar:وَلَدًا, tr:waladan, gloss:çocuk/evlat} verilmesinin karşısına ona uzatılan azap çıkar (19:77; 19:79). Uzatma süre yönünden de okunabilir; ayet artışın miktarını ya da mühletini belirlemez. İki biçimin birbirine bağlı duyulması bu bağlama özgü bir okumadır, kök için ayrı ve kesin bir sözlük anlamı değil; yanıt da burada alıntılanan kişinin iddiasıyla sınırlıdır (19:77; 19:79).
+
+19:80’de odaktaki mülk beklentisi devralma ve tek başına varışla değişir. {ar:وَنَرِثُهُ مَا يَقُولُ, tr:wa-narithuhu mā yaqūlu, gloss:söylediğini devralacağız} sözünün ardından onun Rahman’a gelişi anılır: {ar:وَيَأْتِينَا فَرْدًا, tr:wa-yaʾtīnā fardan, gloss:bize tek başına gelir} (19:80). Devralma önceki tutandan sonraki alana geçişi düşündürür; bu aktarım öne sürülen mülkün kalıcı olmadığını gösterirken “söylediği şey” 19:77’deki {ar:مَالًا, tr:mālan, gloss:mal/varlık} ve {ar:وَلَدًا, tr:waladan, gloss:çocuk/evlat} ikilisinden daha geniş olabilir. Bu bağlam bir yasal mirasçı ya da çocukların yokluğu hakkında hüküm vermez (19:77; 19:80). Odaktaki edilgen {ar:أُوتَيَنَّ, tr:ʾūtayanna, gloss:bana verilecek} ile 19:80’deki etkin {ar:يَأْتِينَا, tr:yaʾtīnā, gloss:bize gelir} aynı kökün ayrı dallarıdır: önce kişi verilecek şeyin alıcısı olarak konuşur, sonra kendisi Rahman’a gelir. {ar:فَرْدًا, tr:fardan, gloss:tek başına} mülk ve soyun yanına bireysel varışı ekler; burada yeni bir sözlük anlamı değil, odaktaki sahiplik beklentisini sınırlayan bir bağlam imgesi vardır (19:77; 19:80).
+
+19:80’deki tek başına varışın ardından 19:81 ve 19:82 başka bir topluluğun güvenlik arayışına geçer (19:80; 19:81; 19:82). 19:81’de bir grup Allah dışında ilahları kendilerine itibar ve destek olsun diye edinir: {ar:وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةً لِّيَكُونُوا لَهُمْ عِزًّا, tr:wa-ttakhadhū min dūni llāhi ālihatan li-yakūnū lahum ʿizzan, gloss:Allah dışında kendilerine itibar olsun diye ilahlar edindiler}. 19:82’de bu varlıklar onlara kulluk edilmesini reddeder ve karşıt kesilir: {ar:سَيَكْفُرُونَ بِعِبَادَتِهِمْ وَيَكُونُونَ عَلَيْهِمْ ضِدًّا, tr:sayakfurūna bi-ʿibādatihim wa-yakūnūna ʿalayhim ḍiddan, gloss:kulluklarını reddedip onlara karşı çıkacaklar} (19:81, 19:82). Böylece aranan destek muhalefete döner. Bu sahne başka bir grubu ve onların seçtiği dayanağı anlatır; bu bağlantı odak kişinin malını ya da evladını ilahlarla özdeşleştirmez, maddi varlıkları genel olarak mahkûm etmez (19:77; 19:81, 19:82).
+
+19:87’de ahit bu kez şefaat bağlamında koşul olarak belirir: {ar:لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًا, tr:lā yamlikūna al-shafāʿata illā man ittakhadha ʿinda al-Raḥmāni ʿahdan, gloss:Rahman’la ahdi olan dışında kimse şefaate sahip olamaz} (19:87). Bu dönüş, 19:78’de dayanak diye sorulan {ar:عَهْدًا, tr:ʿahdan, gloss:ahit} kavramını somut bir şefaat şartı olarak açar; şartın varlığı odaktaki kişiyi tanımlamaz, onun ahit durumunu da belirlemez (19:77; 19:78; 19:87).
+
+19:88, 19:91 ve 19:92’de aynı {ar:وَلَدًا, tr:waladan, gloss:çocuk/evlat} sözcüğü bu kez Rahman’a çocuk isnadında döner; 19:92 isnadı reddeder (19:88, 19:91, 19:92). Sözcüğün insan evladı anlamı sürerken özne ve hedef değişir; bu ortak kategori iki iddiayı birleştirmeden, evladın kişinin konumunu her bağlamda doğrulayan bir nişan olmadığını düşündürür (19:77; 19:88, 19:91, 19:92). Reddin çevresinde 19:90 göklerin neredeyse parçalanmasını, yerin yarılmasını ve dağların yıkılırcasına düşmesini anlatır: {ar:تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا, tr:takādu al-samāwātu yatafaṭṭarna minhu wa-tanshaqqu al-arḍu wa-takhirru al-jibālu haddan, gloss:gökler neredeyse parçalanır, yer yarılır, dağlar yıkılır} (19:90). Bu kozmik yıkım imgesi, bir okumada çevresindeki ilahî isnadın reddine maddi kuvvet katar. Yıkım tasviri insan çocuğunun akıbetini belirlemez; 19:77’deki kişisel beklenti kendi sınırında kalır (19:77; 19:90).
+
+19:93, 19:94 ve 19:95, alıcılık iddiasını ortak bir insanî varış ve sayılma ufkuna taşır. 19:93’te herkes Rahman’a kul olarak gelir: {ar:آتِي ٱلرَّحْمَٰنِ عَبْدًا, tr:ātī al-Raḥmāni ʿabdan, gloss:Rahman’a kul olarak gelen} (19:93). Odaktaki edilgen “bana verilecek”in karşısındaki etkin geliş biçimi, alıcıyı Rahman’a gelen kişiye çevirir; aynı kökün gevşek yankısı olarak okunması da mümkündür. {ar:عَبْدًا, tr:ʿabdan, gloss:kul} bağımlılık ve kulluk ilişkisini, bağlam içinde sahiplik boyutuna açılabilecek biçimde duyurur (19:77; 19:93). 19:94’te herkes kuşatılıp sayılır: {ar:أَحْصَىٰهُمْ وَعَدَّهُمْ عَدًّا, tr:aḥṣāhum wa-ʿaddahum ʿaddan, gloss:onları kuşatıp saydı} (19:94). İki sayma biçimi kişileri sayımın konusu yapar; tek tek ve eksiksiz sayılma vurgusu bağlamın okumasıdır, ayrı bir sözlük anlamı değil. 19:95’te herkes ona tek başına gelir: {ar:آتِيهِ يَوْمَ ٱلْقِيَٰمَةِ فَرْدًا, tr:ātīhi yawma al-qiyāmati fardan, gloss:diriliş günü ona tek başına gelir} (19:95). Bu bireysel varış 19:80’deki imgeyi genişletir; sıra odak kişiye özel bir sonu değil, herkesin ortak geliş ve hesap durumunu gösterir (19:80; 19:93, 19:94, 19:95).
+
+Bağımlılık ve yardım isteme karşıtlığını Fâtiha 1:5’teki dua açık bir edime dönüştürür: {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāka naʿbudu wa-iyyāka nastaʿīn, gloss:Yalnız Sana kulluk eder, yalnız Senden yardım isteriz} (1:5). Karşılaştırmanın katkısı, sahip olacağını ileri süren söz ile açık yardım isteyen kulluk edimini ayırmasıdır. Fâtiha’daki ayrı dua odaktaki kişinin alıntısı ya da yanıtı değildir; aynı konuşur veya kronolojik devam olarak da kurulmaz. 19:93’te herkesin Rahman’a kul olarak gelişi bu bağımlılık ilişkisinin yerel zeminini sağlar (19:77; 19:93; 1:5).
+
+Sonraki vaat, iyiliği sahip olunacak miktarın ötesinde ilişkisel bir değer olarak kurar. 19:96’da Rahman, iman edip iyi işler yapanlar için sevgi var eder: {ar:ٱلَّذِينَ ءَامَنُوا وَعَمِلُوا ٱلصَّالِحَات, tr:alladhīna āmanū wa-ʿamilū al-ṣāliḥāt, gloss:iman edip iyi işler yapanlar} ve {ar:سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّا, tr:sayajʿalu lahumu al-Raḥmānu wuddan, gloss:Rahman onlara sevgi var edecektir} (19:96). 19:77’de edilgen {ar:لَأُوتَيَنَّ, tr:la-ʾūtayanna, gloss:mutlaka verileceğim} alıcılığı verireni adsız bırakırken, burada {ar:ٱلرَّحْمَٰنُ, tr:al-Raḥmānu, gloss:Rahman} açık fail, {ar:سَيَجْعَلُ, tr:sayajʿalu, gloss:var edecektir} etkin meydana getirendir (19:77; 19:96). Odaktaki mal ve evlat sahip olunan varlık ve doğmuş çocuk anlamını korur; {ar:وُدًّا, tr:wuddan, gloss:sevgi, muhabbet} ise miktar değil, kişiler arasındaki ilişkisel iyiliktir; çocukla özdeşleşmez (19:77; 19:96). Rahman adının merhamet çağrışımı ve “var etme”nin bir hâl meydana getirmesi, kesinleşmiş sözlük anlamından çok bu bağlama özgü bir okuma katmanıdır; wudd’ün katkısı sevgiyi yalnız toplumsal beğeniye indirgemeden kişiler arasındaki iyiliği adlandırmasıdır. Bu karşılaştırma ayrı bir vaatle yan yana okumaya dayanır; 19:96 bağımsız da durabilir. İki okuma da mal ve evladın verilmeyeceği hükmünü kurmaz (19:77; 19:96).
+
+</editorial_prose>

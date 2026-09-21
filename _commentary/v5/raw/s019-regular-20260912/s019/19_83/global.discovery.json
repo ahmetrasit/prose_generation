@@ -1,0 +1,380 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:83",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_3665afc2ae658b212226",
+      "decision": "narrow",
+      "reason": "İlahi gönderme ile şeytanî kışkırtmanın bağımsız bir egemenlik değil, insanların cevabı ve ittifakı içinde işleyen yönünü koruyorum. root_000796/B001 odak kullanımında etkinleşen bir uzaklık anlamı değildir; root_000796/B004 F002 ise adın türeyişine ilişkin etimolojik bir kullanımdır ve kâfirlerin seçtiği uzaklık ilişkisini kanıtlamaz. Adayın sayılı süre iddiasını da doğrudan 19:84 yüzeyi verilmediği ve 51:60 bağlantısının karşı okuması gün/count ilişkisini yalnız kanal düzeyinde tuttuğu için bulguya almıyorum.",
+      "finding_refs": [
+        "global:dispatch-response-boundary"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000796/B001",
+          "reason": "Dal fiziksel uzaklık/uzaklaştırma anlamını taşır; 19:83'teki şeytan adı ve 14:22/16:100'deki çağrıya cevap veya ittifak ilişkisi bu uzaklık dalını etkinleştirmez."
+        }
+      ],
+      "facet_exclusions": [
+        {
+          "branch_ref": "root_000796/B004",
+          "facet_id": "F002",
+          "reason": "Bu faset şeytan adının uzaklaşmayla açıklanan türeyişini bildirir; odak kullanımı kâfirlerin seçtiği uzaklığı ya da bu etimolojinin canlı anlam olduğunu göstermiyor."
+        }
+      ],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_86be37a877abb2e0f112",
+      "decision": "accept",
+      "reason": "Kaynayan çalkantı imgesi, ayetin sözlük anlamı diye değil, yinelenen kışkırtmanın 17:64'teki sesle dürtme buyruğuyla temasından doğan sınırlı bir analoji olarak korunabilir. Bu bağımsız ses tetikleyicisi, açık anlamı aşan imgenin sınırını koruyarak adayın tam iddiasını taşır.",
+      "finding_refs": [
+        "global:boiling-voice-analogy"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b5348c3db93b0c0ee8aa",
+      "decision": "reject",
+      "reason": "HFT özeti عِزًّا→ضِدًّا→أَزًّا zincirini ileri sürüyor; ancak bu öğenin anchor_refs ve branch_refs alanları boş, 19:81/19:82 için tam yüzey veya sözcük koordinatı packet içinde yok ve bu zinciri 19:83'e döndüren bağımsız bağlantı da sağlanmıyor. Bu nedenle umulan patronajın düşmanca basınca dönüşmesi burada denetlenebilir bir global aktivasyon değil.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_504e34ec580f933c36ab",
+      "decision": "narrow",
+      "reason": "19:75 bağlantısının sağladığı genişletilme ve vaat ufkunu koruyorum: bu, odaktaki kışkırtmayı uzatılmış bir zaman aralığı içinde konumlandırıyor. HFT özetindeki öznel hızlanma ve 19:84'te sayma iddiasını dışarıda bırakıyorum; exact HFT trace yok ve 19:84'ün tam yüzeyi packet'e yansıtılmamış.",
+      "finding_refs": [
+        "global:pressure-within-extension"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_77c5c807dee640da9594",
+      "decision": "reject",
+      "reason": "Topluca kuşatılmanın sonra tek tek sayılma ve yalnız hesap verme biçiminde tersine çevrilmesi 19:95'in içeriğini gerektiriyor; packet yalnızca bu context koordinatını listeliyor, tam yüzeyini veya bir HFT taşıyıcı/trigger trace'ini vermiyor. 19:83'teki çoğul özneler bu sonraki tekillik iddiasını tek başına etkinleştirmiyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_63c3597bc3c90b67c98e",
+      "decision": "reject",
+      "reason": "Bu özetin R-W-Y ve Q-L-L'yi odakta formdan uzak kök aktivasyonları olarak sunması packet ile uyuşmuyor: focus_word_alignment dokuz sözcüğün tümünü çözüyor, unresolved alanı boş ve HFT split_root_mappings da boş. Bu HFT öğesinde daha geniş basınç/taşıma formülünü bu geçersiz kök atamalarından bağımsızlaştıracak koordinat veya trace bulunmuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_611ca66ad032a5c41366",
+      "decision": "represented",
+      "reason": "أَرْسَلْنَا'nın gönderme/serbest bırakma alanını koruyup ilahi eylemi izin, yetkilendirme veya basit sevk seçeneklerinden biri diye seçmeme sınırı global:dispatch-response-boundary bulgusunda açıkça yer alıyor. Adayın branch, context veya semantic obligation ref'i yok; hiçbir ek semantik düşmüyor.",
+      "finding_refs": [
+        "global:dispatch-response-boundary"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b101fd94ade3c0b39c30",
+      "decision": "reject",
+      "reason": "Bu özet paired sight prompts iddiası taşıyor, fakat odak yüzeyinde yalnız bir ألم ترَ algı sorusu var ve HFT girdisinde ikinci prompt için anchor/word/root/role bilgisi yok. Tek odak soru, belirli bir övüngeni mi yoksa daha geniş bir sınıfı mı teşhis ettiğini global bağlamda çözmüyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_39e369f42c8d62162b6b",
+      "decision": "represented",
+      "reason": "Basınç kabı ve akustik kıvrımların branch-temelli analoji olduğu ve neden/gerçek olay diye sunulmaması gerektiği global:boiling-voice-analogy bulgusunda bütünüyle taşınıyor. Adayın ayrıca hesaba katılması gereken branch, context veya obligation ref'i yok.",
+      "finding_refs": [
+        "global:boiling-voice-analogy"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:dispatch-response-boundary",
+      "origin_candidate_id": "cand_3665afc2ae658b212226",
+      "represented_candidate_ids": [
+        "cand_611ca66ad032a5c41366"
+      ],
+      "title": "Gönderilmiş basıncın karşılıkla sınırlandırılması",
+      "claim": "Odaktaki ilahi gönderme, kâfirlere yöneltilen şeytanları etkin kışkırtıcılar olarak kurar; 14:22'deki çağrıya cevap ve 16:100'deki ittifak, bu basıncı bağımsız şeytanî egemenlikten çok insanların karşılık verdiği bir ilişki olarak sınırlar.",
+      "mechanism": "أَرْسَلْنَا gönderme/serbest bırakma eylemini, ٱلشَّيَاطِينَ fail nesnesini ve تَؤُزُّهُمْ süren kışkırtmayı bir araya getirir. 17:64'te sesle dürtme ve kuvvetleri harekete geçirme, 14:22'de yalnız çağırma ve cevap alma, 16:100'de ise şeytanî yetkinin onu dost edinme ilişkisine bağlanması bağımsız tetikleyicilerdir. Bunlar odaktaki gönderme ve hedef ilişkisine dönerek baskının nasıl işlediğini, insan cevabına ve ittifakına bağlı kılar.",
+      "reader_payoff": "Okur, ayetin ilahi gönderme iddiasını korurken şeytanî basıncın çağrı, cevap ve ittifak üzerinden nasıl işlediğini görür.",
+      "containment": "Bu bağlantı أَرْسَلْنَا'yı yalnızca 'izin verdi' diye yeniden adlandırmaz; odaktaki gönderme/serbest bırakma alanı ve ilahi fail korunur. Packet, gönderme eylemini authorization, permission veya basit dispatch seçeneklerinden biri olarak çözmüyor; sınırlanan şey şeytanın bağımsız zorlayıcı egemenliğidir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Odak sözcükleri ve 14:22, 16:100, 17:64'ün tam Arapça yüzeyi sağlanıyor; çapraz-ayet bağlantıları basınç ve cevap mekanizmasını destekliyor. Temsil edilen HFT notu legacy_unbound ve anchorsız olduğu, ilahi göndermenin modal açıklaması da açık kaldığı için bulgu qualified tutuluyor."
+      },
+      "support_ids": [
+        "sup_e272e345c88b822162c3",
+        "sup_416ac2f4dad7164be5a8"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000563/B001",
+          "facet_id": "F001",
+          "branch_gloss": "bir şeyi gönderme veya serbest bırakma",
+          "facet_statement": "Temel işlem, bir varlığı durduğu veya tutulduğu konumdan çıkarıp ileri yöneltmektir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:83:4:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_d490d705309a5968df4d",
+            "conn_ev_f5b7ff9602135bd54077"
+          ],
+          "focus_return_refs": [
+            "19:83:4:1"
+          ],
+          "carrier": "أَرْسَلْنَا, şeytanları bir hedefe gönderen/serbest bırakan odak fiilidir.",
+          "independent_trigger": "17:64'te Şeytan'ın sesle kışkırtması ve kuvvetlerini yöneltmesi; 14:22'de ise kendi gücünü yalnızca çağrıya ve çağrıya verilen cevaba bağlaması.",
+          "activation": "İki ayrı geniş bağlam, odağın gönderme fiiline ve onun hedefe yönelen failine temas eder; gönderme böylece etkin kışkırtıcı güçlerin belirli bir hedefe sevki olarak okunur, bağımsız cebir olarak değil.",
+          "resulting_reading": "İlahi gönderme açık kalırken şeytanlar insan cevabına ulaşan etkin kışkırtıcı aracılar olarak görünür.",
+          "boundary": "Bu okuma gönderme eylemini yalnız izin veya yalnız görev verme diye seçmez; odağın ilahi failini de silmez."
+        },
+        {
+          "branch_ref": "root_000563/B001",
+          "facet_id": "F002",
+          "branch_gloss": "bir şeyi gönderme veya serbest bırakma",
+          "facet_statement": "Bir kişi görev veya haber için, rüzgar ve yağmur gibi güçler de etkilerini göstermek üzere gönderilebilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:83:4:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_d490d705309a5968df4d"
+          ],
+          "focus_return_refs": [
+            "19:83:4:1"
+          ],
+          "carrier": "أَرْسَلْنَا fail olan şeytanları, etkilerini gösterecekleri hedefe yöneltir.",
+          "independent_trigger": "17:64'te şeytanın sesini ve kuvvetlerini kullanarak insanları kışkırtması tasvir edilir.",
+          "activation": "Görev veya etki için gönderilme faseti, 17:64'ün ayrı ayette tasvir ettiği kışkırtıcı kuvvetlerle buluşur; odaktaki gönderme bir işlev ve hedef kazanır.",
+          "resulting_reading": "Gönderilmiş şeytanlar, kâfirler üzerindeki kışkırtıcı etkiyi yürüten aracılardır.",
+          "boundary": "17:64 bir paralel mekanizma sağlar; odaktaki fiilin izin, yetki veya görevlendirme olarak metafizik açıklamasını belirlemez."
+        },
+        {
+          "branch_ref": "root_000796/B004",
+          "facet_id": "F001",
+          "branch_gloss": "azgın ve başkaldıran kötü varlık",
+          "facet_statement": "Ad, türü ne olursa olsun azgın, taşkın ve başkaldıran varlığı belirtir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:83:5:2"
+          ],
+          "trigger_refs": [
+            "conn_ev_f5b7ff9602135bd54077",
+            "conn_ev_950821cda78d483ef525"
+          ],
+          "focus_return_refs": [
+            "19:83:5:2"
+          ],
+          "carrier": "ٱلشَّيَٰطِينَ, başkaldıran ve karşı duran kötü varlıkları odak cümlesinde gönderilen failler olarak adlandırır.",
+          "independent_trigger": "14:22'de Şeytan'ın insanları çağırıp karşılık aldığını söylemesi; 16:100'de şeytanî yetkinin onu dost edinenlerle ilişkilendirilmesi.",
+          "activation": "Odağın gönderilmiş şeytanları kâfirlerin karşısına koyması, bu iki bağımsız bağlamdaki çağrı/cevap ve ittifak ilişkisiyle buluşur; adlandırılmış isyankârlar böylece kendi başına hükmeden güçlerden çok insan bağlılığı üzerinden işleyen kışkırtıcılar olarak görünür.",
+          "resulting_reading": "Şeytanlar gerçek, başkaldıran kışkırtıcı faillerdir; fakat etkileri bağımsız bir egemenlik değil, karşılık ve bağlılık ilişkisidir.",
+          "boundary": "Bu, sözcüğün bu kullanımda fiziksel uzaklık anlamına geldiğini veya ilahi gönderme iddiasının silindiğini söylemez."
+        }
+      ],
+      "connection_refs": [
+        "conn_e7c01d9298d9e2d33410",
+        "conn_6c16674acc2b58fdfd30",
+        "conn_4a7d6e09d2c236de894a"
+      ],
+      "context_refs": [
+        "14:22",
+        "16:100",
+        "17:64"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:boiling-voice-analogy",
+      "origin_candidate_id": "cand_86be37a877abb2e0f112",
+      "represented_candidate_ids": [
+        "cand_39e369f42c8d62162b6b"
+      ],
+      "title": "Kışkırtmanın fokurdayan ses analojisi",
+      "claim": "تَؤُزُّهُمْ أَزًّا içindeki yinelenen kışkırtma, 17:64'teki sesle dürtme buyruğuyla buluşunca fokurdayan bir basınç imgesi olarak duyulabilir.",
+      "mechanism": "Odaktaki kışkırtma fiili ve onu yoğunlaştıran aynı kökten masdar güçlü hareketi taşır; 17:64 ise Şeytan'ın insanları sesiyle dürtmesini ayrıca söyler. Bu temas, kökün fokurdama/tıslama dalını gerçek kaynama değil, işitilir ve çalkantılı basınca dair bir analoji olarak etkinleştirir.",
+      "reader_payoff": "Kışkırtmanın yoğunluğu soyut bir ayartı olarak kalmaz; okur onu duyulur ve bedensel bir basınç olarak da düşünebilir.",
+      "containment": "19:83 tencere, kaynama veya gerçek bir ses olayı adlandırmaz. Bu ilişki ses ve basınç analojisidir; odak sözcüğün sözlük anlamı, fiziksel nedensellik ya da yerleşik bir olay diye sunulmaz.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Trusted çapraz-yayın imgeyi açık anlamı aşan bir benzetme olarak işaretliyor; 17:64'ün sağlanan ses tetikleyicisi analojiyi destekliyor. HFT akustik notu legacy_unbound ve anchorsız olduğu için literal okuma veya neden iddiası yapılmıyor."
+      },
+      "support_ids": [
+        "sup_4c75ee64e1089f559ca1",
+        "sup_2a7ae8cd9e70704c0b23"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000028/B002",
+          "facet_id": "F001",
+          "branch_gloss": "şiddetli kaynama ve fokurtulu sesi",
+          "facet_statement": "Tencere içeriğinin şiddetle kaynaması ve kaynarken belirgin bir fokurtu ya da tıslama sesi çıkarması çekirdeği oluşturur.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "19:83:8:1",
+            "19:83:9:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_d490d705309a5968df4d"
+          ],
+          "focus_return_refs": [
+            "19:83:8:1",
+            "19:83:9:1"
+          ],
+          "carrier": "تَؤُزُّهُمْ أَزًّا, aynı kökten fiil ve masdarla yoğun bir kışkırtma hareketi taşır; kaynama dalı bu eylemin benzetmeli taşıyıcısıdır.",
+          "independent_trigger": "17:64'teki بِصَوْتِكَ, Şeytan'ın insanları sesiyle dürtmesini açıkça belirtir.",
+          "activation": "Odaktaki yinelenen yoğun hareket, 17:64'teki ayrı ses eylemiyle buluşunca güçlü fokurdama ve tıslama imgesi kışkırtmayı işitilir bir basınç gibi resmeder.",
+          "resulting_reading": "Kışkırtma, fokurdayan ve ses çıkaran bir basınç benzetmesiyle daha somut algılanır.",
+          "boundary": "Bu, ayette bir tencere veya gerçek kaynama bulunduğunu iddia etmez; çekirdek faset yalnız analojik düzeyde taşınır."
+        },
+        {
+          "branch_ref": "root_000028/B002",
+          "facet_id": "F002",
+          "branch_gloss": "şiddetli kaynama ve fokurtulu sesi",
+          "facet_statement": "Kaynamaya benzer güçlü ses, gök gürültüsünü ve yoğun ağlamayla içten gelen uğultuyu anlatacak biçimde genişler.",
+          "application_mode": "analogical",
+          "carrier_refs": [
+            "19:83:8:1",
+            "19:83:9:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_d490d705309a5968df4d"
+          ],
+          "focus_return_refs": [
+            "19:83:8:1",
+            "19:83:9:1"
+          ],
+          "carrier": "Odaktaki تَؤُزُّهُمْ أَزًّا güçlü ve yinelemeli kışkırtmayı taşır.",
+          "independent_trigger": "17:64, şeytanî kışkırtmanın sesle gerçekleşebildiği bağımsız bir bağlam sunar.",
+          "activation": "Güçlü ve tekrar edilen hareket, odak dışındaki açık ses tetikleyicisiyle temas ederek sesli kaynama dalının akustik uzantısını çağrıştırır.",
+          "resulting_reading": "Kışkırtmanın kuvveti sesli, çalkantılı bir nitelik kazanır.",
+          "boundary": "Bu uzantı duyulur bir analojidir; 19:83'te gerçek uğultu, gök gürültüsü veya ağlama sesi anlatılmaz."
+        }
+      ],
+      "connection_refs": [
+        "conn_e7c01d9298d9e2d33410"
+      ],
+      "context_refs": [
+        "17:64"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:pressure-within-extension",
+      "origin_candidate_id": "cand_504e34ec580f933c36ab",
+      "represented_candidate_ids": [],
+      "title": "Uzatılan vaat ufkunda süren basınç",
+      "claim": "19:75'te sapkınlık içindekiler vaadi görene dek uzatılır; bu bağ, 19:83'teki kışkırtmayı bekletilen ufuk içinde süren bir basınç olarak okutur.",
+      "mechanism": "19:75'in sağlanan yüzeyi الرحمن'ın sapkınlık içindekilere مَدًّا verdiğini ve vaat edilen şeyi görene dek uzattığını söyler. Packet bağlantısı bunu odaktaki basınç ve sabit sonuçla açıkça buluşturur; odaktaki تَؤُزُّهُمْ taşıyıcısı bu uzatılmış aralığa döner.",
+      "reader_payoff": "Kışkırtmanın şiddeti, sonucu hemen kapatan bir olay değil, vaat edilen ufka doğru uzayan süre içinde işleyen basınç olarak görünür.",
+      "containment": "Yalnız uzatma ve vaat ufku korunuyor. Bu bulgu öznel zaman hızlanması çıkarmaz; HFT özetindeki عَدًّا basamağını veya 19:84'ün sayılı ufkunu doğrudan yüzey kanıtı gibi kullanmaz.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "HFT adayının sequence iddiası anchorsız ve legacy_unbound; fakat packet'teki 19:75 tam Arapça yüzeyi ile odak basıncına dönen bağlantı, daraltılmış uzatma ilişkisini bağımsızca destekliyor."
+      },
+      "support_ids": [
+        "sup_25913bd107c5b9ed7ba7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000028/B001",
+          "facet_id": "F001",
+          "branch_gloss": "güçlü hareket, harekete geçirme ve kışkırtma",
+          "facet_statement": "Bir kişi ya da şey güçlü biçimde hareket eder veya dış etkiyle güçlü biçimde hareket ettirilip bir yöne sevk edilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:83:8:1",
+            "19:83:9:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_d30fe4a4b2f7224dccc2"
+          ],
+          "focus_return_refs": [
+            "19:83:8:1"
+          ],
+          "carrier": "تَؤُزُّهُمْ أَزًّا kâfirleri güçlü biçimde harekete iten kışkırtma eylemidir.",
+          "independent_trigger": "19:75, sapkınlık içindekilerin vaat edilen şeyi görene kadar uzatıldığını açıkça söyler.",
+          "activation": "Odaktaki güçlü kışkırtma ile 19:75'teki uzatma aynı sonuç ufkunda buluşur; böylece hareket baskısı vaat öncesinde uzatılmış bir aralık içine yerleşir.",
+          "resulting_reading": "Kışkırtma, geciktirilmiş vaat ufku içinde süren yöneltici baskıdır.",
+          "boundary": "Bağlantı bu aralığın sayısını veya öznel hızlanma hissini kanıtlamaz."
+        },
+        {
+          "branch_ref": "root_000028/B001",
+          "facet_id": "F002",
+          "branch_gloss": "güçlü hareket, harekete geçirme ve kışkırtma",
+          "facet_statement": "İnsan üzerinde gerçekleştiğinde rahatsız ederek, özendirerek veya ince bir yönlendirmeyle bir işi yaptırma anlamı taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:83:8:1"
+          ],
+          "trigger_refs": [
+            "conn_ev_d30fe4a4b2f7224dccc2"
+          ],
+          "focus_return_refs": [
+            "19:83:8:1"
+          ],
+          "carrier": "تَؤُزُّهُمْ insanları bir eyleme iten ve huzursuz ederek yönelten kışkırtmadır.",
+          "independent_trigger": "19:75'teki uzatma, bu kışkırtmanın vaat edilen sonuç gelmeden önce sürdüğü aralığı verir.",
+          "activation": "Odaktaki insan yöneltme eylemi, 19:75'in geciktirilmiş vaat ufkuyla buluşunca yalnız anlık dürtü değil, uzatılmış süre içinde işleyen baskı olarak okunur.",
+          "resulting_reading": "İnsanları yönelten kışkırtma, sonucun beklendiği aralık boyunca sürer.",
+          "boundary": "Bu ilişki uzamış zamanı gösterir; kışkırtmanın insan iradesini zorla ortadan kaldırdığını ileri sürmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_94f53931df97a625ee92"
+      ],
+      "context_refs": [
+        "19:75"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT kaynağı legacy_unbound; yedi özetin her birinde anchor_refs ve branch_refs boş, supplied anchor count sıfır. Bu nedenle hiçbirinde HFT'ye atfedilen bir activation trace kabul edilmedi; daraltılarak tutulan okumalar ancak bağımsız yüzey/connection kanıtıyla kuruldu.",
+    "19:81/19:82 patronaj-zıtlık zinciri ve 19:95 tek başına hesap iddialarının tam Arapça yüzeyleri packet'te yok; 19:84 yalnız context koordinatı olarak listelenmiş. Bu eksikler yüzünden ilgili HFT zincirleri, yalnızca koordinatların mevcut olmasına dayanarak genişletilmedi.",
+    "conn_fd12926dbb93e44fb75a 51:60'taki vaat edilen günü 19:83'ün hemen sonraki sayımıyla ilişkilendiriyor; aynı bağlantının reciprocal counterevidence kaydı bu basınç/sayım ilişkisinin yerel gün iddiası değil, kanal ölçeğinde olduğunu söylüyor. Bu nedenle sayılı süre, global bulguda kesin yerel sonuç olarak kullanılmadı.",
+    "أَرْسَلْنَا'nın ilahi gönderme, izin veya yetkilendirme bakımından hangi modal terimle açıklanacağı açık kalıyor. 14:22 ve 16:100 şeytanın kendi yetki alanını sınırlar; ilahi gönderme eylemini yeniden tanımlamaz."
+  ]
+}

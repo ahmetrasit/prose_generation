@@ -1,0 +1,205 @@
+# V5 reading invitation — 17:75
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p04-with-fatiha/s017/17_75/17_75.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p04-with-fatiha/s017/17_75/17_75.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Koşullu cevap ve tattırma
+
+Âyetin hareketi, muhataba hayat ve ölüm alanlarında katlanmış azap tattırılacağı, ardından da “bize karşı” bir yardımcı bulamayacağı yönündedir. Tanvinli {ar:إِذًا, tr:idhan, gloss:öyleyse} burada basit bir zaman sırası kurmaktan çok cevabı sonuca bağlar; 17:75'in koşullu cevabı bu yüzden belirgindir, fakat bağlandığı önceki koşulun ayrıntısı açık kalır.
+
+Şeddeli cevap lâmıyla başlayan {ar:لَّأَذَقْنَٰكَ, tr:la-adhāqnāka, gloss:cevap lâmıyla sana tattırırdık} ifadesinde lâm ettirgen fiile bitişir ve sonucu işitilir biçimde vurgular. Geçmiş biçimli fiil, varsayımsal cevabın eylemini tamamlanmış ve kesinleşmiş gibi duyurur; bu kesinlik koşullu kiplik içinde kalır, koşul gerçekleşmiş olay olarak sunulmaz. Tek sözcükte birinci çoğul özne sonucu uygulayan “biz”i, ikinci tekil nesne eki ise onu alan “sen”i gösterir.
+
+Ettirgen tatma, olağan tatma imgesi üzerinden kötü sonucu muhatabın doğrudan yaşantısına taşır: ceza yalnızca bildirilen bir hüküm değil, bizzat çekilen bir deneyim olur. İki kat ölçüsünün hem hayat hem ölüm alanına bağlanması bu kişisel deneyim vurgusunu sürdürür.
+
+## Katlanan ölçü, hayat ve ölüm
+
+İki kez yinelenen {ar:ضِعْفَ, tr:ḍiʿfa, gloss:katlanmış ölçü}, başlangıçtakine eşini ekleyen bir çoğalma kurar. İlk tekil biçim eşlenik bir pay beklentisi doğurur; aynı biçimin dönüşü ölçüyü ikinci alana da uygular ve artışı işittirir. Bu tekrar eşlenik artışı destekler; tam iki kat mı yoksa daha geniş bir artış mı olduğu açık kalır, üçüncü bir kat ya da kesin toplam kurmaz.
+
+Belirli {ar:ٱلْحَيَوٰةِ, tr:al-ḥayāti, gloss:hayat} ilk ölçünün alanını canlı kalma ve sürüp gitme yönünde belirler; ardından gelen belirli {ar:ٱلْمَمَاتِ, tr:al-mamāti, gloss:ölüm/ölme hâli} ölçüyü ölüm ve ölme alanına taşır. Aradaki {ar:وَ, tr:wa, gloss:ve}, iki tamlamayı aynı fiilin eşit dilbilgisel nesneleri olarak bağlar; böylece karşıt uçlar dengeli bir kadans içinde yerel bir çift kurar. Bu çift iki adlandırılmış alanı çerçeveler, bütün olası hâlleri saymaz. Tatma ve algılamanın buradaki duyusal katkısı yaşayan muhatabın deneyimidir; bu yakınlık hayat sözüne utanç ya da yerel bir ahiret anlamı yüklemez.
+
+{ar:ٱلْمَمَاتِ, tr:al-mamāti, gloss:ölüm/ölme hâli} başındaki mîmli masdar biçimiyle ölüm olayını, ölme durumunu ya da sürecini adlandırabilir; böylece ikinci alan hem olay hem durum yönü kazanır. 17:75’teki yinelenen ölçü bu alana uygulanır, fakat ölümün birden çok kez gerçekleştiğini veya belirli bir ahiret kronolojisi kurulduğunu göstermez. Hayat yaşayan kutup olarak kalırken ölüm canlılığın sona erişini karşıt uçta tamamlar.
+
+{ar:ضِعْفَ, tr:ḍiʿfa, gloss:katlanmış ölçü} aynı kelime ailesinin güçsüzlük ve güçten düşme yönünü de ihtiyatlı biçimde yankılayabilir. Bu ikinci katkı, bedensel ya da bedensel olmayan güç kaybı ihtimalini açar; temel çoğalma ölçüsünden ayrı kalır. 17:74’te sağlamlaştırma ve az meyil karşısında bu zayıflık yankısı belirginleşir. Küçük girdinin katlanmış sonucu ile güç kaybı arasındaki bağ keşifseldir; iki vurgu bağımsız da olabilir.
+
+## Küçük meyil ve sınama
+
+Bu yakın bağlam, küçük ve varsayımsal bir meyille genişleyen sonucun karşıtlığını belirginleştirir. 17:73’te vahiyden başka söz söyletmeye dönük baskı ve yakın dostluk vaadi vardır; 17:74’te önce sağlamlaştırma, ardından çok az diye sınırlanan meyil ihtimali gelir. {ar:ثَبَّتْنَٰكَ, tr:thabbattnaka, gloss:seni sağlamlaştırdık} direnç ve desteği, {ar:تَرْكَنُ, tr:tarkanu, gloss:meyledersin} dayanağa yönelmeyi, {ar:قَلِيلًا, tr:qalilan, gloss:çok az} olası yönelişin küçüklüğünü belirtir. 17:75’teki {ar:إِذًا, tr:idhan, gloss:öyleyse} ile yinelenen {ar:ضِعْفَ, tr:ḍiʿfa, gloss:katlanmış ölçü}, bu küçük hareketi hayat ve ölümde genişleyen sonuçla yan yana getirir. Bu bağlantı 17:75’in önceki koşulunu açıklamaz; 17:74’teki meyil de gerçekleşmiş davranış değil, önlenen bir ihtimaldir.
+
+Yay sınaması imgesi, ettirgen tatma fiilinin ayrı bir teknik kullanımından doğar: kiriş çekilirken yayın sertliği, esnekliği ve çekişe verdiği karşılık yoklanır. 17:73’teki {ar:لَيَفْتِنُونَكَ, tr:layaftinunaka, gloss:seni sınamaya çalışırlar} baskı ifadesinin sınama yönü bu imgeyi tetikleyebilir; aynı sınama sözü metalin ya da bir kişinin yoklanmasını da anlatabilir. Bu bağlantıda yay, çekişe verilen tepkinin gözlenip ölçülmesini sağlar; 17:74’te sağlamlaştırma direnç ve desteği, dayanağa meyil ise yönelişi aynı gerilim çerçevesine taşır. Yinelenen iki {ar:ضِعْفَ, tr:ḍiʿfa, gloss:katlanmış ölçü} bu okumada sınamanın ölçülmüş sonucu gibi duyulur. Benzetme keşifseldir ve kelimeyle bağlam arasındaki bu özel bağlantıyla sınırlıdır: 17:75’te yay ya da kiriş anılmaz, şartlı cezanın tattırılması temel okuma olarak kalır.
+
+35:37, ceza buyruğuyla tattırmayı ve hemen ardından yardımcı yokluğunu art arda getirerek yaşanan sonuçtan desteksiz kalmaya uzanan bir kapanış örneği sunar. 17:75’le bağlantı bu sıra ve kapanış düzenindedir; kişiler, olay ve ceza ortamı özdeş değildir.
+
+16:94’te sağlam duruştan ayağın kaymasına, Allah’ın yolundan döndürülmeye ve kötü sonucu tatmaya uzanan sıra, 17:75’teki tattırmayı izlenen bir tutumun ardından gelen sonuç gibi işittirir. Bağlantı sıra ve anlam düzeyindedir: 16:94’te karşılaştırılan fiilin biçimi belirtilmediğinden biçim özdeşliği kurulmaz ve 17:75’in söylenmemiş koşulu bu sırayla tamamlanmaz.
+
+## Korunan hayat ve ölüm ufku
+
+Yakın deniz ve taşıma sahneleri, hayat-ölüm çiftine korunma ile bedensel kırılganlık boyutunu ekler. 17:67’de deniz tehlikesinden kurtarılma hayatın korunma kutbudur; 17:69’da denize geri götürülme ve boğulma, gerçekleşmiş olay değil ihtimal ve tehdit olarak sunulan kayıp kutbudur. 17:70’te insanların kara ve denizde taşınması ise yaşayan, kırılgan insanlara sunulan desteği görünür kılar. Birlikte bu ayrıntılar hayatı korunmaya değer bir yarar, boğulmayı da ölümün bu bağlamdaki bedensel bir örneği olarak duyurur. Bu bağlantıda boğulma 17:75’teki ölüm adının eşanlamı değildir; taşıma da önceki desteğin geri çekildiği anlamına gelmez ve hayat sözcüğünü kurtarma eylemiyle özdeşleştirmez.
+
+3:56, dünya ve ahiret cezasını birlikte anarak iki ufuklu bir yük imgesi sunar. 41:16 ise dünya hayatındaki tattırmayı daha aşağılayıcı sonraki cezaya ve yardımcı bulunmayan sona bağlar; bu kapanış 17:75’teki sonucu karşılıksız ve denkleştirilemez gibi duyurabilir. Bu yapısal yankı 17:75’in eksik koşulunu açıklamaz ve söz konusu grupları ya da olayları özdeşleştirmez.
+
+29:64, ahireti gerçek hayat diye niteleyerek {ar:ٱلْحَيَوٰةِ, tr:al-ḥayāti, gloss:hayat} sözüne canlı kalmanın ötesinde kalıcı ve gerçek yaşam ufku açar. Bu ayrı yankı olağan hayat anlamını korurken 17:75’in hayat alanını yalnız ahirete daraltmaz. 29:57’de her canın ölümü tatması ve Allah’a dönmesi, {ar:ٱلْمَمَاتِ, tr:al-mamāti, gloss:ölüm/ölme hâli} sözünün olay ve durum boyutlarını, ayrıca dönüşü içeren ayrı bir ölüm ufkunu belirginleştirir. Bu paralellik 17:75’te tek bir ölüm olayını zorunlu kılmaz; 29:57’deki dönüşü de odak cümleye taşımaz.
+
+22:66’da hayatın verilmesi, ölümün gelmesi ve yeniden hayat verilmesi iki karşıt adı ardışık evreler olarak duyurur; gemi yolculuğu bu sıranın anlatıldığı çevredir. 22:66’nın 17:75’e katkısı hayatla ölüm arasındaki bu ardışık hareket ufkudur; yolculuk ve yeniden dirilme sahnesi o bağlantının parçası değildir. 4:75’te zulüm altındaki erkekler, kadınlar ve çocukların baskıcı şehirden çıkarılma, koruyucu ve yardımcı bulma duası ise hayatı korunmaya değer bir iyilik; kurtarmayı da insanları yok oluştan çıkaran eylem olarak gösterir. 4:75’in bu katkısı 17:75’teki hayatı kurtuluşla eşitlemez; kişiler ve sahneler ayrıdır.
+
+## Ölçü ve hesap
+
+Bu karşılaştırmalar {ar:ضِعْفَ, tr:ḍiʿfa, gloss:katlanmış ölçü} sözünün nicel katkısını öne çıkarır. 9:101’de önce iki kez cezalandırılma, ardından daha büyük bir cezaya geçiş; 33:68’de ise çift ceza dileği vardır. Bu kalıplar artışı belirsiz bir şiddet sıfatına indirgemeden, odaktaki ölçünün tam iki kat mı yoksa daha geniş mi olduğunu açık bırakır.
+
+33:68’de çift ceza dileğinin başkalarını saptıran önderlerle birlikte anılması, tekrarlı ölçüye rol kaynaklı hesap verebilirlik yankısı katabilir. Bu, 33:68’in önderlik çerçevesinden doğan sınırlı bir olasılıktır; 17:75 muhatabını önder diye tanımlamaz.
+
+17:71, sağ elden verilen ve okunan {ar:كِتَٰبَهُۥ, tr:kitabahu, gloss:kitabını} ile {ar:كِتَٰبَهُمْ, tr:kitabahum, gloss:kitaplarını} üzerinden kayıtlı ve hassas hesap imgesi sunar. 17:71’deki {ar:وَلَا يُظْلَمُونَ, tr:wa-la yuzlamuna, gloss:haksızlığa uğratılmazlar} hak eksiltmeyi dışarıda bırakırken {ar:فَتِيلًا, tr:fatilan, gloss:ince lif} ölçüyü en küçük ayrıntıya indirir. Bu imge 17:75’teki ağır sonucu ölçülü bir hesap çerçevesinde duyurur; bağlantı yaptırımın 17:71’deki kitaba yazıldığını ileri sürmez.
+
+## Tattırmadan sonra arama
+
+{ar:ثُمَّ, tr:thumma, gloss:sonra}, ikiz /m/ sesiyle işitilir bir eşik kurar: 17:75’te tamamlanan tattırmayı sonraki aramadan ayırır ve iki hareketi sıralar. Bu sıra belirli bir zaman aralığı tayin etmez. İlk fiilde sonucu alan “sen”, ardından {ar:تَجِدُ, tr:tajidu, gloss:bulursun} fiilinin arayan öznesi olur; özne değişimi muhataba sonuç üzerinde denetim vermez. {ar:إِذًا, tr:idhan, gloss:öyleyse} ile açılan koşullu cevap, {ar:ثُمَّ, tr:thumma, gloss:sonra} sonrasında {ar:لَا تَجِدُ, tr:lā tajidu, gloss:bulamazsın} aramasının olumsuzlanmasıyla aynı varsayımsal sonuç içinde kapanır.
+
+17:75’te iki alana yayılan ölçü ile başarısız arayış birlikte, “bize karşı” etkili desteğin bulunmadığı karşılıksız bir sonuç kurar. Bu yerel bileşim yardımın kendisini ikinci kez katlamaz; sonucu söz konusu karşıtlık ve koşullu ilişkiyle sınırlar, her tür arkadaşlık ya da her koşuldaki yardımla ilgili genel bir hükme dönüştürmez.
+
+{ar:لَا, tr:lā, gloss:olumsuzluk}, ikinci tekil {ar:تَجِدُ, tr:tajidu, gloss:bulursun} fiilini ve belirsiz nesnesi {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı} adını birlikte olumsuzlar. Belirsiz ad, tek bir tanıdık yoldaştan çok {ar:عَلَيْنَا, tr:ʿalaynā, gloss:bize karşı} uygun düşecek her yardımcıyı aramaya açar; olumsuzluğun sınırı bu karşıtlık ilişkisidir. Muzari biçim, başarısız aramayı varsayımsal sonucun seyri boyunca yinelenebilir kılar; hükmün kapsamı bütün zaman ve koşullar değildir.
+
+17:75’te {ar:تَجِدُ, tr:tajidu, gloss:bulursun} öncelikle arayıp bulmayı ya da erişmeyi anlatır; kelimenin var olma ve ufukta görünme yönü de ihtiyatlı bir yankı sunar. Olumsuzlukla belirsiz yardımcı ve “bize karşı” yönü birleşince, bu yankı yalnızca ilgili destek alanında yardımın görünmeyişini belirginleştirir; genel ya da metafizik yokluk iddiası değildir.
+
+Bulma cümlesindeki {ar:لَكَ, tr:laka, gloss:senin için}, tattırma fiilinin nesnesi olan aynı muhatabı bu kez yardımın yararlanıcısı yapar; sonuç kişisel kalır. 17:75’teki “senin için” → “bize karşı” → “bir yardımcı” sırası önce beklenen yararı açar, sonra yönü ve aranan rolü belirler. Bu dilbilgisel açılma yardımın bulunduğunu vaat etmez. Muhatap deneyimi alan, yararlanması umulan ve sonunda arayan özne rollerini üstlenir; bu geçişler sonuç üzerindeki denetimi ona vermez.
+
+{ar:عَلَيْنَا, tr:ʿalaynā, gloss:bize karşı} içindeki birinci çoğul eki ilk fiildeki “biz”i yeniden duyurarak konuşmacı sürekliliğini dilbilgisel düzeyde taşır; bu biçimsel bağdan ayrıca teolojik bir iddia çıkmaz. Edatın “üzerine/yukarıya” yönü burada {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı} arayışının karşıtlık yönü olur; bu kullanıma dikey bir sahne eşlik etmez. {ar:عَلَيْنَا, tr:ʿalaynā, gloss:bize karşı} sonundaki /n/ ile hemen ardından gelen {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı} başındaki /n/ sesçe bağ kurar, sözcüklerin görevini değil. Başlangıçtaki {ar:إِذًا, tr:idhan, gloss:öyleyse} ve kapanıştaki {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı} tanvini de cevabı bulunamayan destekle ses çerçevesine alır.
+
+Faʿīl kalıbındaki {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı}, güvenilir ve süreğen savunucu ya da destek rolünü belirginleştirir. 17:75’te “bize karşı” yönü bu rolü belirli ilişki içinde erişilmez kılar; bağlantı her tür yardımı dışlamaz. Aranan savunma muhatabın konuşmacıya karşı üstün gelmesini sağlayacak türdedir, ancak 17:75 gerçek bir çatışma ya da zafer sahnesi kurmaz.
+
+## Yardımın yönü
+
+17:73’teki baskı sonrası dostluk vaadi, 17:75’teki başarısız yardımcı arayışına bir sosyal yakınlık yankısı ekler. 17:73’te {ar:لَّٱتَّخَذُوكَ, tr:la-ittakhadhuka, gloss:seni dost edinirlerdi} yeni ilişkiye almayı, {ar:خَلِيلًا, tr:khalilan, gloss:içten yakın dost} içten yakınlığı anlatır; 17:75’te aranan etkin savunucu {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı} bu yakın rolden ayrıdır. Dostluk teklifinin 17:73’te yalnızca ödül olarak sunulması da mümkündür; bu nedenle başarısız alışveriş okuması bir olasılık olarak kalır. Bağlantı, yakınlığın bu koşullu sonuçta “bize karşı” etkili desteğe dönüşmemesiyle sınırlıdır.
+
+17:65, düşmanın kullar üzerinde otorite kuramaması ve Rabbin yeterli gözetici oluşuyla olumlu bir koruma kutbu sunar. {ar:سُلْطَٰنٌۭ, tr:sultan, gloss:otorite} düşmanın gücünü, {ar:كَفَىٰ, tr:kafa, gloss:yeter} Rabbin yeterliliğini, {ar:وَكِيلًا, tr:wakilan, gloss:gözetici} gözetim ve koruma rolünü adlandırır. Bu koruma 17:75’teki {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı} ile aynı rol değildir: odaktaki olumsuz arayış Allah’a karşı etkili savunmayla sınırlıdır, her yönden desteği kaldırmaz.
+
+17:68 ve 17:69’daki tehlike sahneleri bulamama kuruluşunu farklı rollerle yineler: 17:68’de güvenliği gözetecek {ar:وَكِيلًا, tr:wakilan, gloss:gözetici}, 17:69’da olası hak takipçisi ya da davacı {ar:تَبِيعًا, tr:tabian, gloss:takipçi} aranır. 17:69’daki ikinci rolün davacı mı iz sürücü mü olduğu belirsizdir; iki ayetteki tehlike sonuçları da ayrıdır. 17:75’te {ar:نَصِيرًا, tr:naṣīran, gloss:yardımcı} bu dizide etkin savunmayı ekler; gözetim, hak arayışı ve savunma farklı müdahale rolleridir. Tekrarlanan başarısız arama daha geniş bir müdahale alanı düşündürebilir, ancak bu bağlantıda kalıplaşmış ifade olasılığı da korunur.
+
+17:80’de Rabbe doğru giriş-çıkışın doğruluğu ve destekleyici bir otorite için dua edilmesi, 17:75’teki Allah’a karşı yardım arayışının yönünü tersine çevirir. Bu karşıt yön, olumsuz hükmü belirli ilişkiyle sınırlar; 17:80 dua olarak kalır, kabulü ya da aynı koşulları bildirmez. 17:86’da vahyin geri alınması ihtimalinin ardından vekil bulamama kuruluşu gelmesi de başarısız aramayı yapısal olarak yankılar. 17:86’daki vekil odaktaki yardımcıyla farklı sözcüktür; bağlantı arama kuruluşundadır ve 17:77 hakkında bir sonuç vermez.
+
+17:76’daki {ar:يَسْتَفِزُّونَكَ, tr:yastafizzunaka, gloss:seni yerinden etmeye çalışırlar} ve {ar:لِيُخْرِجُوكَ مِنْهَا, tr:li-yukhrijuka minha, gloss:seni oradan çıkarmak için}, muhaliflerin elçiyi bulunduğu yerden çıkarma girişimini öne çıkarır. 17:77’deki {ar:سُنَّةَ, tr:sunnata, gloss:yerleşik yol} ve {ar:لِسُنَّتِنَا, tr:li-sunnatina, gloss:yolumuza} ise elçiler arasında değişmeyen uygulamayı vurgular. 17:77’deki {ar:وَلَا تَجِدُ, tr:wa-la tajidu, gloss:ve bulamazsın}, 17:75’teki {ar:تَجِدُ, tr:tajidu, gloss:bulursun} aramasını daha uzun bir süreklilik örüntüsüne bağlayabilir. Bağlantı ihtimalli kalır: 17:77 yalnızca 17:76’daki kovma girişimini açıklıyor olabilir.
+
+Bir şeyi bütününden kesip ayırma, {ar:تَجِدُ, tr:tajidu, gloss:bulursun} için uzak ve ayrı bir anlamdır. Bu uzak yankı, 17:76’daki çıkarma girişimiyle 17:77’deki değişmezliği karşı karşıya koyarak kesintisizlik ya da kopmama imgesini ekleyebilir. Bağlantı keşifseldir: 17:75’te arayıp bulma anlamı temel kalır; 17:76’daki çıkarma girişimi müttefiklerin sağladığı kaçışa dönüşmez, 17:77’deki uygulamanın sürekliliği ise bu belirli imgeyi taşır.
+
+</editorial_prose>

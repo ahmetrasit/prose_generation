@@ -1,0 +1,173 @@
+# V5 reading invitation — 19:75
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s019-regular-20260912/s019/19_75/19_75.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s019-regular-20260912/s019/19_75/19_75.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Sapma içindeki süre
+
+Ayetin başındaki {ar:قُلْ, tr:qul, gloss:söyle} buyruğu, koşuldan başlayıp mühlete, görmeye ve son değerlendirmeye varan sözleri iletilecek bir uyarı çerçevesine alır; hangi önceki itiraza cevap verdiğini belirtmez. Koşulu açan {ar:مَن, tr:man, gloss:her kim} biçimce tekildir, fakat anlamca bu durumda bulunan herkesi kapsar. Ardından gelen görme ve bilme fiillerinin çoğul oluşu karşılaşmayı toplu tanıklığa taşır; belli bir toplumsal grubu adlandırmaz. {ar:كَانَ, tr:kāna, gloss:bulunur halde olmak}, tek bir yanılma anından çok, sapma içinde sürmekte olan hâli kurar. {ar:فِي ٱلضَّلَٰلَةِ, tr:fī aḍ-ḍalālati, gloss:sapma içinde} öbeğindeki yer bildirimi de yanlışı kişiye yapıştırılmış bir sıfattan ziyade içinde kalınan yön kaybı olarak düşündürür. Edatın yer dili sapmayı bu alanda kalınan hâl gibi kurar; belirli tanımlıkla gelen masdar da bu alanı uzatmanın süreceği tanınır koşul yapar. Bu yer imgesi fiziksel bir noktaya taşınmaz.
+
+Koşula karşılığı bağlayan {ar:فَ, tr:fa, gloss:öyleyse, ardından}, sonraki sözü bağımsız bir gözlem değil, bu durumda olana verilen cevap yapar. {ar:فَلْيَمْدُدْ, tr:fa-l-yamdud, gloss:öyleyse uzatsın} içindeki emir lâmı fiili cezm kipine sokar; yapı bir dilekten çok gerçekleşmesine izin verilen buyruklu bir hüküm gibi duyulur. Sürenin öznesi {ar:ٱلرَّحْمَٰنُ, tr:ar-Raḥmān, gloss:Rahmân} olduğundan emir, ayetin kurduğu hükümde zaman tanıyan failin sözüdür; insanın Tanrı'ya yönelttiği bir emir değildir. {ar:يَمْدُدْ, tr:yamdud, gloss:süreyi uzatsın} koşuldaki kişiye zaman tanırken, aynı kökten gelen {ar:مَدًّا, tr:maddan, gloss:uzatma} mastarı bu uzatma hareketini belirginleştirir; kısa bir aradan çok, hissedilir biçimde süren bir mühlet belirir. {ar:لَهُۥ, tr:lahu, gloss:onun için} ilk koşuldaki kişiyi uzatmanın alıcısı yapar; ayetin kurduğu yarar ilişkisi bu kişiye tanınan süreyle sınırlıdır.
+
+Uzatmanın öznesi olan Rahmân adı, başkasının hâline duyulan yakınlık ve esirgemeyi, Tanrı hakkında da yaratılmışlara ulaşan iyiliği taşır. Bu adın mühletle buluşması süreyi merhamet altında verilen bir aralık olarak renklendirirken, ardından anılan {ar:ٱلْعَذَابَ, tr:al-ʿadhāb, gloss:azap} veya {ar:ٱلسَّاعَةَ, tr:as-sāʿa, gloss:Kıyamet ve diriliş günü} tehdidi aralığın içinde tutar. Aynı ad ve vaat dili başka bir sonuçla da buluşur: kullarına gaybda vaat edilen Adn cennetleri Rahmân adıyla anılır (19:61): {ar:جَنَّٰتِ عَدْنٍ ٱلَّتِى وَعَدَ ٱلرَّحْمَٰنُ عِبَادَهُۥ بِٱلْغَيْبِ, tr:jannāti ʿadnin allatī waʿada ar-Raḥmānu ʿibādahu bil-ghaybi, gloss:Rahmân'ın kullarına gaybda vaat ettiği Adn cennetleri}. Bu ortak ad ve vaat dili, odaktaki süreyi sonuç gelmeden önceki aralık olarak derinleştirir; burada vaat edilen cennetlerin muhatapları ve sonucu odaktakinden ayrıdır.
+
+Süre anlamı yerinde kalırken, {ar:مَدّ, tr:madd, gloss:uzatma} kökünün {ar:لَهُۥ, tr:lahu, gloss:onun için} ile alıcıya yardım, kaynak veya miktar eklemeyi anlatabilen kolu, bu sürenin hangi akışa katkı sunabileceğini düşündürür. Bunun somut zemini 19:59'daki sıra: namazı zayi etme, arzuların peşinden gitme ve sonunda sapmayla karşılaşma ({ar:أَضَاعُوا۟ ٱلصَّلَوٰةَ, tr:aḍāʿū ṣ-ṣalāta, gloss:namazı zayi ettiler}; {ar:وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ, tr:wa-ttabaʿū sh-shahawāti, gloss:arzuların peşinden gittiler}; {ar:غَيًّا, tr:ghayyan, gloss:sapma}). Kayıptan arzu izlemeye, oradan sapmaya ilerleyen bu dizi, odaktaki mühletle buluşunca davranışın tanınan zaman içinde yinelenebileceğini düşündürür. Bu geri besleme, 19:59'daki eylem ve sonucun sıralanışından çıkarılan bir ihtimaldir; ayet aralarında zorunlu bir nedensellik kurmaz. 19:60'taki tövbe ve dönüş olanağı da akışın kaçınılmaz olmadığını açık tutar. Bakara'da uzatma azgınlık ve bocalamayla birlikte anılır (2:15): {ar:وَيَمُدُّهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ, tr:wa-yamudduhum fī ṭughyānihim yaʿmahūn, gloss:azgınlıklarında uzatılıp bocalarlar}. Bu bağ, odağın tanınan zamanını süren sapmayla yan yana getirir.
+
+## Görme eşiği
+
+Uzatılmış sürenin eşiği, {ar:حَتَّىٰ, tr:ḥattā, gloss:-e kadar} ile vaat edilenin görülmesine bağlanır; bu yüzden bekleyişin bir sonu vardır, ancak olayın tarihi verilmez. Ardından gelen {ar:إِذَا, tr:idhā, gloss:-dığı zaman}, görmeyi varsayımsal ihtimal olmaktan çıkarıp gerçekleşmesi beklenen kesin bir zaman olayı yapar. İlk koşuldaki tekil {ar:مَن, tr:man, gloss:her kim}, bu noktada {ar:رَأَوْا۟, tr:raʾaw, gloss:gördüklerinde} biçimindeki çoğul özneye dönüşür; iza içindeki geçmiş biçim beklenen görmeyi olmuş bir tanıklık gibi sunarak koşuldaki kişiyi toplu karşılaşmaya açar. Buradaki görme gözle algılama veya benzer bir içsel kavrayış olabilir; vaat edilen sonuca tanıklık belirgindir, onun görünüşü ve tarihi değil. Görme fiilinin nesnesi olan {ar:مَا, tr:mā, gloss:ne, şey} önce açık bırakılır; sonraki iki seçenek onu tamamlar. Edilgen {ar:يُوعَدُونَ, tr:yuʿadūna, gloss:kendilerine vaat edilen} vaat edeni adlandırmadan, gerçekleşmesi beklenen tehdidi öne çıkarır.
+
+Bu sonu görülebilen aralık, başka ayetlerdeki geciktirme imgeleriyle aydınlanır. Yanlış yapanların bakışların donakalacağı güne dek ertelenmesi anılır (14:42): {ar:إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍۢ تَشْخَصُ فِيهِ ٱلْأَبْصَٰرُ, tr:innamā yuʾakhkhiruhum li-yawmin tashkhaṣu fīhi al-abṣār, gloss:ancak bakışların donakalacağı güne dek erteler}. Bu son gün imgesi odaktaki {ar:حَتَّىٰ, tr:ḥattā, gloss:-e kadar} eşiğini keskinleştirir; insan ömrü veya mühlet miktarını ise bu bağlantı belirlemez. Azabın acele gelmesini isteyenlere Allah'ın vaadini bozmayacağı güvencesi de verilir (22:47): {ar:وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُۥ, tr:wa-lan yukhlifa Allāhu waʿdahu, gloss:Allah vaadini bozmayacaktır}. Bu güvence odaktaki {ar:يُوعَدُونَ, tr:yuʿadūna, gloss:kendilerine vaat edilen} ifadesinin beklentisini kesinleştirir. Aynı ayetin Rabbin katındaki bir günü insanların saydığı bin yılla karşılaştırması, o ayetin kendi zaman ölçüsünü ekler: {ar:وَإِنَّ يَوْمًا عِندَ رَبِّكَ كَأَلْفِ سَنَةٍۢ مِّمَّا تَعُدُّونَ, tr:wa-inna yawman ʿinda rabbika ka-alfi sanatin mimmā taʿuddūn, gloss:Rabbin katındaki bir gün, saydıklarınızdan bin yıl gibidir}. Bu karşılaştırma 19:75'teki mühlet için yıl hesabı veya süre miktarı vermez.
+
+İlk karşılık {ar:إِمَّا, tr:immā, gloss:ya} ile gelen {ar:ٱلْعَذَابَ, tr:al-ʿadhāb, gloss:azap, ağır ceza}dır: ağır acı ya da cezalandırma, uzatılan mühletin hangi sonuca dek sürdüğünü somutlaştırır; cezanın biçimi burada daha ileri ayrıntılanmaz. Ardından gelen {ar:وَإِمَّا, tr:wa-immā, gloss:veya}, {ar:ٱلسَّاعَةَ, tr:as-sāʿa, gloss:Kıyamet ve diriliş günü} adını aynı vaat nesnesinin ikinci eşi yapar. İki seçenek birlikte kalır; aralarında tercih veya derece kurulmaz. Saat adının süre ve belirli bir kesit çağrışımı, uzatılmış aralığın karşısında gündelik bir saat ölçüsünü değil, eskatolojik sonu duyurur. Vaat kökünün sayma, belirli dönem ve bilinen aralıklarla yeniden belirme kolları da burada ikincil bir çağrışım açar: iki sonuç adı, {ar:يَمْدُدْ, tr:yamdud, gloss:uzatsın} ve {ar:مَدًّا, tr:maddan, gloss:uzatma}daki yineleme, ayrıca {ar:حَتَّىٰ, tr:ḥattā, gloss:-e kadar} sınırı sonuca doğru ilerleyen bir geri sayım hissi verebilir. Bu çağrışım sözlük bağlantısının sınırında kalır; {ar:يُوعَدُونَ, tr:yuʿadūna, gloss:kendilerine vaat edilen} olağan vaat anlamını taşır, sayı sayma ya da düzenli yineleme bildirmez. Ayetin bu zaman dokusu gerçek bir takvim veya ölçülmüş vade belirlemeden, iki açık ihtimalden birine doğru uzayan sınırlı bekleyişi duyurur.
+
+Görme eşiğine çevredeki toplama ve varış imgeleri son bir karşılaşma niteliği kazandırabilir. Toplama ve hazır etme, ardından çevresinde bulunma düzeni kurulur (19:68): {ar:لَنَحْشُرَنَّهُمْ, tr:la-naḥshurannahum, gloss:onları mutlaka toplayacağız}, {ar:لَنُحْضِرَنَّهُمْ, tr:la-nuḥḍirannahum, gloss:onları mutlaka hazır edeceğiz}, {ar:حَوْلَ, tr:ḥawla, gloss:çevresinde}. Daha sonra varış ve bağlayıcı son nokta anılır (19:71): {ar:وَارِدُهَا, tr:wāriduhā, gloss:ona varan}, {ar:حَتْمًا مَّقْضِيًّا, tr:ḥatman maqḍiyyan, gloss:kesin hükme bağlanmış}. Bu toplama, çevreleme ve varış dizisi, odaktaki {ar:حَتَّىٰٓ إِذَا رَأَوْا۟, tr:ḥattā idhā raʾaw, gloss:gördükleri ana kadar} ifadesini vaat edilenle karşılaşma eşiği gibi duyurur; fiilin nesnesi vaattir, dolayısıyla bu bağlantı kişilerin birbirini gördüğünü söylemez. Bağlam bir yaklaşma hissi verir ama ayrıntılı güzergâh çizmez; sıradan gecikme okuması da bu özel karşılaşma imgesiyle birlikte açık kalır.
+
+## Görülen sonucun tanınması
+
+Görmenin ardından gelen {ar:فَ, tr:fa, gloss:bunun üzerine}, bilme fiilini karşılaşmanın sonucuna bağlar. {ar:سَيَعْلَمُونَ, tr:sa-yaʿlamūna, gloss:yakında bilecekler} gerçekleşmeden sonra gelecek tanımayı bildirir: kim daha kötü mevki ve daha zayıf topluluktadır? Sondaki {ar:مَن, tr:man, gloss:kim}, bilme fiilinin dolaylı sorusunu açarak hedefi son karşılaştırmaya dek bekletir; bağımsız duran {ar:هُوَ, tr:huwa, gloss:odur, kendisi} da karşılaştırmadan önce hedefi vurgular. Vurgu söz dizimindeki yerinden gelir.
+
+Bu sonradan bilme, daha önce kurulan yargı sırasıyla çevrelenir. Önce Rahmân'a başkaldırıda en ileri olanlar ayrılır: {ar:أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا, tr:ashaddu ʿalā ar-Raḥmāni ʿitiyyan, gloss:Rahmân'a başkaldırıda en ileri olanlar} (19:69); ardından ateşe kimin daha layık olduğunun bilindiği söylenir: {ar:أَعْلَمُ بِٱلَّذِينَ هُمْ أَوْلَىٰ بِهَا صِلِيًّا, tr:aʿlamu bi-lladhīna hum awlā bihā ṣiliyyan, gloss:ateşe girmeye daha layık olanları en iyi bilmek} (19:70). Sakınanların kurtarılması ve zalimlerin orada diz üstü bırakılması bu ayrımı somutlaştırır: {ar:نُنَجِّي ٱلَّذِينَ ٱتَّقَوا۟ وَنَذَرُ ٱلظَّٰلِمِينَ فِيهَا جِثِيًّا, tr:nunajjī alladhīna ittaqaw wa-nadharu aẓ-ẓālimīna fīhā jithiyyan, gloss:sakınanları kurtarıp zalimleri orada diz üstü bırakmak} (19:72). Bu sıra, odaktaki bilgiyi görülmüş sonucun geç tanınması olarak çerçeveler; bağlantı ayetlerin perikop içindeki düzeninden gelir ve anılan toplulukları odaktaki belirsiz taraflarla özdeşleştirmez.
+
+Son karşılaştırmanın ilk ölçüsü {ar:شَرٌّ, tr:sharr, gloss:daha kötü} ile kurulur: sözcük genel bir kötüleme değil, karşılaştırmalı bir hüküm bildirir. {ar:مَكَانًا, tr:makānan, gloss:yer, mevki} bu hükmün yerini ve kime göre ölçüldüğünü belirtir. Açılıştaki {ar:كَانَ, tr:kāna, gloss:bulunur halde olmak} bir durumda bulunmayı, kapanıştaki “yer” ise aynı kök yankısı üzerinden yeri ve kişinin başkası yanındaki duruşunu adlandırır. Böylece fiziksel yer anlamı korunurken karşılaştırma göreli mevkiye genişler. Bu temasın yakın bir örneğinde “daha kötü yer” doğru yoldan uzak olmakla eşlenir (5:60): {ar:أُو۟لَٰٓئِكَ شَرٌّۭ مَّكَانًا وَأَضَلُّ عَن سَوَآءِ ٱلسَّبِيلِ, tr:ulāʾika sharrun makānan wa-aḍallu ʿan sawāʾi al-sabīl, gloss:onlar yerce daha kötü ve doğru yoldan daha uzaktır}. Bu ifade {ar:فِي ٱلضَّلَٰلَةِ, tr:fī aḍ-ḍalālati, gloss:sapma içinde} koşulunu son konum yargısına bağlar; bu karşılaştırma Maide'deki grubu odaktaki belirsiz kişilerle özdeşleştirmez ve onlara ayet dışı bir toplumsal rütbe tayin etmez.
+
+Bu yer hükmünün yakındaki zemini iki topluluk arasındaki önceki kıyastır: iyilik ve seçkinlik iddiası, konum ve meclis ölçüleriyle dile gelir (19:73): {ar:خَيْرٌۭ, tr:khayrun, gloss:iyilik ve seçkinlik}, {ar:مَّقَامًا, tr:maqāman, gloss:konum ve durak}, {ar:نَدِيًّا, tr:nadiyyan, gloss:meclis ve topluluk}. Odaktaki {ar:شَرٌّ, tr:sharr, gloss:daha kötü} ve {ar:مَكَانًا, tr:makānan, gloss:bulunulan yer}, bu üstünlük iddiasını sonuçtaki yer ve dayanak bakımından yeniden tartar; gerçek yer anlamı kişiler arasındaki göreli duruşu da taşır. Önceki {ar:مَّقَامًا, tr:maqāman, gloss:konum ve durak}ın kökünde değer biçme ve fiyatlama kullanımı bulunduğundan, iyilik-kötülük karşılaştırması değerleme imgesi kazanır; bu kök bağlantısı benzetmeli kalır, ayette alışveriş veya fiyatlama eylemi yoktur. Meclisin görünür statüsü, odaktaki {ar:جُندًا, tr:jundan, gloss:destek topluluğu} için bağlamsal bir tetikleyicidir: ortak toplanmışlık imgesi, desteğin işe yararlılığını sınamaya zemin hazırlar. Bu temas sözcükleri ve grupları özdeşleştirmez; yalnızca görünür toplanmışlığın odaktaki desteğin gücüyle nasıl karşılaştırıldığını gösterir.
+
+Meclisin görünür statüsüne eşya ve dış görünüş de eklenir: ev eşyası ve bolluk ile göze görünen hâl, daha iyi imkânlara sahipken helâk edilen toplulukların maddi ayrıntılarıdır (19:74): {ar:أَثَٰثًا, tr:athāthan, gloss:ev eşyası ve bol mal}, {ar:رِءْيًا, tr:riʾyan, gloss:görünüş}. Böylece karşılaştırma meclisten sahip olunanlara ve dışarıdan görünen hâle genişler. Bu ayrıntılar odaktaki {ar:مَكَانًا, tr:makānan, gloss:yer} ve {ar:أَضْعَفُ جُندًا, tr:aḍʿafu jundan, gloss:ordusu daha güçsüz} ölçüleriyle bir araya gelince, görünür bolluk ve statü gerçek yer ile işleyen desteğe göre yeniden tartılır. Eşyadaki bolluk, zayıf destek kıyasına maddi yoğunluk imgesi ekleyebilir; bu daha ihtiyatlı çağrışım sözcüğün tek başına sayısal yığın bildirdiği anlamına gelmez. Dış görünüşü anlatan {ar:رِءْيًا, tr:riʾyan, gloss:görünüş} ile odaktaki {ar:رَأَوْا۟, tr:raʾaw, gloss:gördüklerinde} fiilinin görme teması da ölçüyü değiştirir: vaat edilen {ar:ٱلْعَذَابَ, tr:al-ʿadhāb, gloss:azap} veya {ar:ٱلسَّاعَةَ, tr:as-sāʿa, gloss:Kıyamet ve diriliş günü} görüldüğünde önceki görünüş tek başına üstünlüğü kanıtlayamaz. Bu yakınlık, 19:73 ve 19:74'teki iddiaları odaktaki son ölçüyle karşılaştıran yerel bir uyarı kurar; gruplar özdeşleştirilmez, görünür her avantaj da mahkûm edilmez.
+
+## Mevki ve dayanak
+
+Son hükmü bağlayan {ar:وَ, tr:wa, gloss:ve}, mevkiyle toplu kuvveti iki ayrı karşılaştırma ölçüsü olarak birlikte tutar. {ar:أَضْعَفُ, tr:aḍʿafu, gloss:daha güçsüz} olağan karşılaştırmalı anlamıyla daha az gücü bildirir; {ar:جُندًا, tr:jundan, gloss:ordu, destek topluluğu} ise ölçünün tek kişi değil, ortak bağla toplanıp birbirine arka çıkabilen bir grup olduğunu gösterir. Ordu ve yardımcılar bu topluluğun somutlaşma biçimleridir; soru, grubun varlığından çok sağlayabildiği desteğin gücünü tartar. Böylece toplu dayanağın işe yararlılığı, kötü mevkiyle yan yana duran ayrı bir karşılaştırma ölçüsü olur.
+
+{ar:ض ع ف, tr:ḍ-ʿ-f, gloss:güçsüzlük ve katlama} kökünün eşit miktar veya daha fazlasını ekleyerek katlama kullanımı, görünür meclis kalabalığıyla eşya bolluğuna miktar imgesi ekler: {ar:نَدِيًّا, tr:nadiyyan, gloss:meclis ve topluluk} (19:73) ve {ar:أَثَٰثًا, tr:athāthan, gloss:ev eşyası ve bol mal} (19:74). Odaktaki {ar:جُندًا, tr:jundan, gloss:destek topluluğu} ise bu toplamı fiilen sağlanabilen destek bakımından tartar. Bu temas, birikmiş miktarın etkili desteği garanti etmediğini düşündürür; {ar:أَضْعَفُ, tr:aḍʿafu, gloss:daha güçsüz} olağan karşılaştırması yerinde kalır, kalabalık veya servet tek başına işe yarar kuvvet sayılmaz. Bağlantı miktar imgesiyle sınırlıdır: gerçek bir katlama hesabı ya da her topluluğun güçsüz olduğu iddiası kurmaz.
+
+Rahmân'dan başka yardım edecek ordunun kim olduğu sorulur (67:20); böylece odaktaki {ar:جُندًا, tr:jundan, gloss:destek topluluğu} ile daha önce geçen {ar:ٱلرَّحْمَٰنُ, tr:ar-Raḥmān, gloss:Rahmân} adı, ordunun varlığından çok fiilen yardım edip edememesi üzerinden buluşur: {ar:أَمَّنْ هَٰذَا ٱلَّذِى هُوَ جُندٌۭ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَٰنِ, tr:am-man hādhā alladhī huwa jundun lakum yanṣurukum min dūni ar-Raḥmān, gloss:Rahmân'dan başka size yardım edecek ordunuz kim}. Fâtiha'daki “Yalnız Senden yardım isteriz” duası, yardımın yöneltildiği kaynağı belirtir (1:5): {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa-iyyāka nastaʿīn, gloss:Yalnız Senden yardım isteriz}. Bu iki temasın biri toplu dayanağın fiilî gücünü, diğeri yardımın kaynağını açar; benzetme doğrudan gönderme ya da aynı konuşan topluluk iddiası taşımaz.
+
+## Devamın yönü
+
+Sonraki ayet devamın başka bir yönünü açar (19:76). Odaktaki {ar:ٱلضَّلَٰلَةِ, tr:aḍ-ḍalālati, gloss:sapkınlık}, doğru yoldan sapma anlamını korurken, {ar:فَلْيَمْدُدْ لَهُ مَدًّا, tr:fa-l-yamdud lahu maddan, gloss:ona süre uzatsın} belirli hâl içindeki sürenin uzatılmasını anlatır; hidayette olanlar için kullanılan {ar:يَزِيدُ, tr:yazīdu, gloss:artırır} ise ayrı bir artış yönü kurar. {ar:ٱهْتَدَوْا۟ هُدًۭى, tr:ihtadaw hudan, gloss:hidayete yönelenler} bu artışın muhatabını belirtir. Odakta süreyi yöneten aynı {ar:ٱلرَّحْمَٰنُ, tr:ar-Raḥmān, gloss:Rahmân} adı sapmaya onay verildiğini göstermez; iki devamın yönü ve sonucu ayrı kalır, ortak bir nedensellik kuralı kurulmaz. Kalıcı iyilikler, karşılık ve dönüş (19:76) de devamın başka sonuç ölçülerini getirir: {ar:ٱلْبَاقِيَٰتُ, tr:al-bāqiyātu, gloss:kalıcı iyilikler}, {ar:ثَوَابًا, tr:thawāban, gloss:karşılık}, {ar:مَرَدًّا, tr:maraddan, gloss:dönüş}. Bunlar odakta görülecek {ar:ٱلْعَذَابَ, tr:al-ʿadhāb, gloss:azap} veya {ar:ٱلسَّاعَةَ, tr:as-sāʿa, gloss:Kıyamet ve diriliş günü} ile aynı sonuca işaret etmez.
+
+</editorial_prose>

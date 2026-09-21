@@ -1,0 +1,209 @@
+# V5 reading invitation — 17:67
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p04-with-fatiha/s017/17_67/17_67.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p04-with-fatiha/s017/17_67/17_67.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Denizdeki temas
+
+Deniz yolculuğunun merhametle sürdüğü önceki sahneye ayetin başındaki {ar:وَ, tr:wa, gloss:ve} eklenir (17:66); aynı {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} şimdi nimetin yanında kırılganlığın da ortamıdır. {ar:إِذَا, tr:idhā, gloss:-dığında} ile açılan koşulda {ar:مَسَّكُمُ, tr:massakumu, gloss:size dokundu} zarar muhataplara erişir. Deniz içinde yaşanan bu temas, bedensel, ruhsal ya da maddi kayba açık bir kriz gibi duyulur. Koşulun katkısı durumun yinelenebilirliğidir; tekrar sayısı belirtilmez.
+
+{ar:مَسَّكُمُ, tr:massakumu, gloss:size dokundu} biçimindeki -kum eki grubu zararın adından önce duyurur; etki, {ar:ٱلضُّرُّ, tr:aḍ-ḍurru, gloss:zarar} diye adlandırılmadan önce onlara ulaşır. Fiilin olağan kullanımı iyi ya da kötü bir etkinin kişiye veya malına erişip iz bırakmasıdır; belirli biçimde gelen zarar ise yararın karşıtı olan zararı ve yaşanan eksilmeyi adlandırır. Fiil etkiyi bedene erişen bir temas gibi hissettirir; burada el teması ya da denizin iradeli fail oluşu ileri sürülmez. Çağrılanların zararı gideremeyeceği önceki ayette söylenmişti; bu sınır şimdi zarar ile çağrılanların kayboluşu arasındaki ilişkide yaşanır (17:56). Kimin çağrıldığı henüz belirlenmez.
+
+Bu temasın ayrı sözlük kullanımı, yalnızca {ar:حَاجَةٌ مَاسَّةٌ, tr:ḥājatun māssatun, gloss:ivedi ihtiyaç} ve {ar:مَسَّتْ إِلَيْهِ الْحَاجَةُ, tr:massat ilayhi al-ḥājatu, gloss:ona ihtiyaç dokundu} gibi sınırlı kalıplarda ivedi gereksinimi anlatır. Sıkıntı değince Rabbe yönelme de aynı basıncı çağrıştırır (39:8). Bu karşılaştırma, odaktaki zarar-deniz-temas birleşiminin seçenekleri daraltan etkisini duyurur; gereklilik çağrışımı kalıplarla sahnenin birleşiminden doğarken fiilin buradaki olağan anlamı “dokunmak” olarak kalır.
+
+Sıkıntının yeri de bu daralmayı belirler: {ar:فِي, tr:fī, gloss:içinde} zararı {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} içinde konumlandırır, sebebini bildirmez. Ayetin hareketinde deniz ile {ar:ٱلْبَرِّ, tr:al-barri, gloss:kuru kara} iki ayrı uçtur; {ar:نَجَّاكُمْ, tr:najjākum, gloss:sizi kurtardı} ve {ar:إِلَىٰ, tr:ilā, gloss:-e/-a} denizden karaya yönelen çıkışı kurar. Böylece deniz yalnız fon değil, kurtuluşun karşı kutbudur. Deniz köküne bağlı genişleme ve derinleşme kullanımı, kayıp ve erişilemeyen dayanakla birleşerek çevreyi uçsuz bir kırılganlık alanı gibi büyütür. Bu kök yankısı sahnenin ölçeğini genişletir; {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} yer bildiren anlamını korur.
+
+## Kaybolan çağrı
+
+Deniz krizinde ilk eksilen, çağrılan dayanağa erişimdir. {ar:ضَلَّ, tr:ḍalla, gloss:kayboldu} fiilinin {ar:مَن, tr:man, gloss:kimseler} zamirinden önce gelmesi, okura önce yokluğu duyurur; çağrılan kimselerin hangi sınıf olduğu açık kalır. Aynı kimseler hem kaybolma fiilinin öznesi hem {ar:تَدْعُونَ, tr:tadʿūna, gloss:çağırıyorsunuz} fiilinin nesnesidir; {ar:مَن تَدْعُونَ, tr:man tadʿūna, gloss:çağırdıklarınız} ifadesi kaybolanlarla çağrılanları aynı kümede birleştirir. Olağan yitirme ya da yerini bulamama anlamı burada pratik erişilemezliğe dönüşür: kriz anında çağrılan destekler işe yaramaz. Kanın karşılıksız kalmasına ilişkin kullanım kendi özel bağlamına aittir; odaktaki fiil çağrılan desteğin erişilememesini anlatır.
+
+{ar:ضَلَّ, tr:ḍalla, gloss:kayboldu} için başka bir sözlük yüzü, bir şeyin gizlenip algılanamaz biçimde gözden yitmesidir. Bir sıvının başka bir sıvıya karışıp seçilemez olması ile ölünün gömülerek görünmez kılınması, bu örtülme resmini iki ayrı maddi işlemle kurar. Benimsenen aracıların sınanınca kendilerini benimseyenlerden yok oluşu da görünmezlik yankısını bağımsızca açar (46:28). Ayrı bir kullanımda bir şey sahibinden gider ve nerede olduğu bilinmez; bu dal çağıranların dayanaklarına erişememesini duyurur. Karışma ve gömülme nesneyi görünmez kılarken, sahibinden yitme onu bulunamaz yapar; bu ayetle kurulan bağda üç dalın ortak katkısı kriz sırasında çağrılan desteğe erişememektir. (46:28)'deki görünmezlik yankısı söz ve olay düzeyinde kalır; odak fiziksel yok oluşu ya da fiilin biçimbilimini ileri sürmez.
+
+Erişememe sürerken sesleniş devam eder: {ar:تَدْعُونَ, tr:tadʿūna, gloss:çağırıyorsunuz} olağan olarak ses ve sözle bir muhataba yönelmeyi anlatır. Yemeğe çağırma ya da belirli bir yere yöneltme gibi kullanımlar kendi özel yapılarıyla sınırlıdır. Çağrılanların kaybolmasına rağmen çağrının sürmesi ve ardından tek bir istisnanın gelmesi, bu sahnede cevap beklentisi kurar; çağrı beklentiyi doğurur ama sonucu güvenceye bağlamaz. Çoğul muhataptaki şimdiki-geniş biçim, {ar:إِذَا, tr:idhā, gloss:-dığında} ile açılan yinelenebilir koşul boyunca çağıranları eylemde tutar; ayet tekrar sayısı vermez.
+
+İstisnanın yapısı bu beklentiyi tek bir muhataba daraltır. {ar:مَن تَدْعُونَ, tr:man tadʿūna, gloss:çağırdıklarınız} yan cümlesi {ar:إِلَّآ, tr:illā, gloss:hariç} gelmeden tamamlandığından, istisna yalnız açık bir ad öbeğinin değil, çağrılanlar kümesinin tümünün üzerine gelir. Bağımsız nesne zamiri {ar:إِيَّاهُ, tr:iyyāhu, gloss:Yalnız O'nu} çağrılan kümeden kalan tek muhatabı biçimce öne çıkarır. Önceki ayette anılan Rab, bu zamirin bilinen karşılığını ve sonraki kurtuluşun örtük tekil failini verir (17:66). Kurtuluş fiilindeki -kum ise eylemin yöneldiği kurtarılan grubu gösterir.
+
+## Karaya kurtarılış
+
+Tek muhataba daralan çağrıdan sonraki basamağa {ar:فَ, tr:fa, gloss:ardından} geçirir. Gerçekleşmiş “olunca” eşiğini bildiren {ar:لَمَّا, tr:lammā, gloss:olunca}, tamamlanmış {ar:نَجَّاكُمْ, tr:najjākum, gloss:sizi kurtardı} ve {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} eylemleriyle birlikte okunduğunda sıra belirginleşir: kurtuluş önce, yüz çevirme sonra gelir. İki olay arasındaki süre belirtilmez.
+
+{ar:نَجَّاكُمْ, tr:najjākum, gloss:sizi kurtardı} tehlikeli ya da bağlayıcı bir durumdan ayrılıp çıkma yönü taşır; ikinci bâbdaki ettirgen biçim kurtarma eylemini gruba yöneltir, -kum eki de kurtarılanları belirtir. {ar:إِلَىٰ ٱلْبَرِّ, tr:ilā al-barri, gloss:karaya} varış, ayrılmanın yönünü ve bitiş noktasını birlikte verir: kara kurtarıcı değil, ulaşılan hedeftir. Ayrılma ve ettirgenlik açık denizdeki zarardan bu noktaya geçişi yumuşak bir yer değişikliğinden daha güçlü, yönlü bir çıkarılma gibi duyurur. Bu biçimin katkısı yönlü kurtarılmadır; hız anlamı taşımaz, yükseklik ise aşağıda ele alınan ayrı kök çağrışımına aittir. Failin kimliği önceki Rab anışı ve istisnayla bağlamda sabitlenir (17:66).
+
+Bu çıkarılma dokunsal bir görüntü de kurar. {ar:مَسَّكُمُ, tr:massakumu, gloss:size dokundu} etkinin bedene erişmesini, çevreleyen su kütlesi {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} kuşatmayı verir. {ar:نَجَّاكُمْ, tr:najjākum, gloss:sizi kurtardı} kökünün bağlı bulunduğu yerden ayırıp çıkarma ve deri ya da kabuk bağlamında soyup sıyırma kullanımları, bu teması kuşatan ortamdan çekilip çıkarılma hissine dönüştürür. Hemen sonraki {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} yan dönme görüntüsüyle maddi çıkarılıştan beden ve dikkatin geri çevrilişine geçirir. Sıyırma ayrılma imgesini yoğunlaştırır; burada gerçek deri yüzme, yaralanma ya da belirli bir beden parçası anlatılmaz.
+
+Karaya varışın ardından yüz çevirme, varışın bağımlılık ilişkisini kendiliğinden sürdürmediğini gösterir. Yakın bağlam iki ortamda da koruyucu ilişkiyi açık tutar: Rabbin kulları üzerindeki korumasının yeterli oluşu (17:65), geminin denizde yolcuları taşıması ve ayetin merhametle kapanması alışılmış yolculuğun da kendi kendine yetmediğini düşündürür (17:66). Odaktaki kurtuluş gerçekleşmiştir; devamındaki sorular tehlikenin iki ortamda da sürebileceği ihtimalini açar. Karaya ulaşanların kendilerini güven içinde sanması sorusu, kara parçasının çökmesini tehdit olarak getirir ve yolcuların gerçek kanaatini açık bırakır (17:68). Denize geri çevrilip boğulma sorusu ise deniz tehlikesini ayrı bir karşı-olasılık olarak ekler (17:69). Bu ayetlerle kurulan bağ, gerçekleşmiş ikinci bir yolculuk ya da boğulma haberi değil, kara ve denizdeki kırılganlığa ilişkin iki uyarıdır.
+
+## Yönelişin dönüşü
+
+Kurtarılmanın gruba yönelişi ile yüz çevirmenin öznesi aynı kişiler olarak sürer. {ar:مَسَّكُمُ, tr:massakumu, gloss:size dokundu} ve {ar:نَجَّاكُمْ, tr:najjākum, gloss:sizi kurtardı} içindeki -kum önce grubu etkinin ve kurtarılmanın nesnesi yapmıştı; {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} içindeki -tum şimdi aynı grubu yönelişini geri çeken özneye dönüştürür. Dördüncü bâbın tamamlanmış ikinci çoğul biçimi, nesnesi belirtilmeyen uzaklaşmayı bildirir; olağan anlamı bir kişiden ya da konudan ilgiyi kesmektir. Kökün yana dönüp yanını gösterme kullanımı bu ilgisizliği görünür bir beden duruşuna çevirir.
+
+Bu beden yönelişi başka bir odak pasajında nimet sonrasındaki yüz çevirmeyle, yana dönmeyle ve zarar gelince ümitsizliğe düşmeyle karşılaştırılır (17:83). Bağ, açılıştaki {ar:مَسَّكُمُ, tr:massakumu, gloss:size dokundu} etkisini krizin yalnızca başlangıcı olmaktan çıkarır; sıkıntıya erişilmesinden kurtuluş sonrasında yönelişin geri çekilmesine uzanan hareketin ilk halkası yapar. Benzer biçimde nimetin ardından yüz çevirip yana uzaklaşma, kötülüğün dokunmasıyla geniş bir duaya geçişten önce gelir (41:51). Yanını gösterme imgesi bu karşılaştırmada geri çekilişi bedenselleştirir; her ayetin kendi fiil biçimi ve olay sırası korunur.
+
+Yönelişin nasıl etkilendiği sorusu, önceki pasajla başka bir karşılaştırma açar. Secdeye boyun eğme ile İblis'in reddi yan yana gelir (17:61); ardından sarsmaya dönük bir çağrı, mallara ve çocuklara ortak olma, yinelenen vaatler ve aldanma içeren bir baskı kampanyası kurulur (17:64). Bu kampanyanın Allah'ın kulları üzerinde hüküm kurma yetkisi taşımadığı da belirtilir (17:65): yöneliş etkilenebilir, ama zorlanmış değildir. Bu karşılaştırmanın katkısı etkilenme ile kişinin kendi yönelişini birlikte görünür kılmaktır. İki pasajın kişileri ve olayları ayrı kaldığından, odaktaki tamamlanmış {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} önceki kampanyanın sonucu olarak açıklanmaz; yolcuların alışılmış tutumlarına dönüşü de olası yorumlardan biri olarak açık kalır.
+
+Baskı sahnesi, çağrı fiilinin ayrı bir sözlük kolunu da görünür kılar. {ar:تَدْعُونَ, tr:tadʿūna, gloss:çağırıyorsunuz} odakta seslenip yardım istemeyi anlatırken, aynı sözlük alanının başka kullanımları bir varlığı itip yerinden oynatır; sertçe sürme anlamı yalnızca belirli yapılarda geçerlidir. Önceki ayetteki sarsıcı çağrı bu itme görüntüsünü benzetme olarak harekete geçirir (17:64). Böylece bu sözlük kolu, rahatlıkta davranışı etkileyebilen baskı ağını kriz anındaki deniz çağrısından ayırır: {ar:ضَلَّ, tr:ḍalla, gloss:kayboldu} çağrılan desteklerin erişilmezliğini, {ar:إِلَّآ إِيَّاهُ, tr:illā iyyāhu, gloss:O'ndan başkası hariç} ise geriye kalan tek muhatabı gösterir. Bu imge etkileme gücü ile krizden kurtarma gücü arasındaki farkı açar; baskı kampanyasının özneleri denizde çağrılan dayanaklardan ayrıdır ve odaktaki fiilin olağan sesleniş anlamı korunur.
+
+Bu sözcüksel kollar korkulu yakarıştan kurtuluş sonrasındaki uzaklaşmaya uzanan akışı kurar. Zararın muhataba dokunması, çağrılan desteklerin erişilmezleşmesi ve çağrının sürmesi seçenekleri art arda daraltır; istisnada kalan tek muhatap bu koşullarda zorunlu merci gibi duyulur. {ar:ٱلضُّرُّ, tr:aḍ-ḍurru, gloss:zarar} olağan zarar anlamını taşır; kökün mecbur bırakan koşula ilişkin ayrı kullanımı temas, destek kaybı ve süren çağrının bileşiminden etkinleşir. Gereklilik bu özel bağın katkısıdır, sözcüğün doğrudan karşılığı değil; çağrı da tek muhataba yönelen bir beklenti kurar. Kurtarılmanın ardından yönelişin geri çekilmesiyle kapanıştaki {ar:كَفُورًا, tr:kafūrā, gloss:nankör}, rahatlama sonrasında alınan yararın tanınmamasını adlandırır. Bu ayet özelindeki sıra yoğun ihtiyaç ile sonrasındaki uzaklaşmayı ilişkilendirir; herkese ait değişmez bir yasa ileri sürmez.
+
+## İnsan ve nimeti örtme
+
+Son {ar:وَ, tr:wa, gloss:ve}, çoğul muhatapların yüz çevirmesini kopuk bir özdeyiş olarak bırakmayıp insan hakkındaki hükme bağlar. {ar:كَانَ, tr:kāna, gloss:oldu}, özne olan belirli tekil {ar:ٱلْإِنسَٰنُ, tr:al-insānu, gloss:insan} ile nitelik yüklemi {ar:كَفُورًا, tr:kafūrā, gloss:nankör} arasındaki durumu kurar. Böylece hitap edilen grup daha genel bir insan tipinin içinde görünür. Belirsiz yüklemin ayet sonundaki konumu cümleyi hem gramer hem ses bakımından kapatır; {ar:كَانَ, tr:kāna, gloss:oldu} tepkiyi tek geçmiş ana değil, anlatıda yerleşen bir niteliğe bağlar. Bu ayetteki genelleme insanın yerleşik bir eğilimini bildirir; her bireyin her koşuldaki davranışını evrensel kurala dönüştürmez. Benzer yüklem kalıpları da bu kapanış biçimini başka yerlerde duyurur (17:11, 17:100).
+
+{ar:ٱلْإِنسَٰنُ, tr:al-insānu, gloss:insan} olağan anlamıyla insan tipini adlandırır. Aynı kökün yabancılık duymadan yakınlık ve rahatlık bulma alanı, kriz anındaki sesleniş ile kurtuluş sonrasındaki yüz çevirme arasına ilişkisel bir kırılma yerleştirir: çağrı yakınlık ararken son eylem yönelişi geri alır. Yakınlık yankısı bu bağlantıda insan sözcüğünü başka bir sözlük anlamına çevirmeden çağrı ile uzaklaşma arasındaki mesafeyi duyurur.
+
+{ar:كَفُورًا, tr:kafūrā, gloss:nankör} nimeti yadsıyıp şükrünü yerine getirmemeyi ve değerini örtmeyi anlatır. Yoğun niteleme, kurtuluşun sağladığı fayda ile ardından gelen geri çekilme birleşince tek anlık kayıtsızlıktan yerleşik bir nankörlük eğilimine uzanır; ayetin insan hakkındaki hükmü budur. Bu bağlantıda nankörlük, alınan iyiliği tanımama üzerinden belirginleşir; terim yalnızca belirli bir inanç reddiyle sınırlı değildir.
+
+Kökün çiftçiye ilişkin kullanımı örtmeyi maddi bir süreçte gösterir: çiftçi tohumu toprağa yerleştirip örter. Bu görüntü, kurtuluşun açığa çıkardığı bağımlılığın yüz çevirme sonrasında yeniden örtülmesini düşündürür; çiftçi, tohum ve gömme ayetteki olaylar değil, kök yankısının benzetmeli taşıyıcılarıdır. Nesnenin üzerini kapatıp görünmez kılma kullanımı başka bir katkı sunar: görünür nimetin değerini saklama imgesi. Biri tohumu toprağa yerleştirip örtmeyi, diğeri bir nesneyi görünmez kılmayı taşır; iki süreç nankörlüğün örtme yönünü ayrı ayrı somutlaştırır.
+
+Kökün ilişkiyi koparıp reddetme yönündeki kullanımı belirli, bağlı yapılara özgüdür. Bu ayetle kurulan bağlantıda Rabbin koruyucu olarak anılması (17:65), geriye kalan tek muhatap ve kurtuluş sonrasındaki yüz çevirme, kurtarıcıyla süren ilişkiden uzaklaşma yankısı verir. Bu bağlamsal yankı, {ar:كَفُورًا, tr:kafūrā, gloss:nankör} sözcüğünün doğrudan nankörlük anlamına eklenir; kendi başına iman reddi ya da açıklanmamış bir iç neden ileri sürmez ve başka okuma seçeneklerini kapatmaz.
+
+Karaya varış da bu hükmün hemen öncesinde anlamlı bir karşıtlık kurar. {ar:ٱلْبَرِّ, tr:al-barri, gloss:kara} denizin karşıtı olan kara anlamını taşır; kökün doğruluk ve kapsamlı iyilik yankısı, ardından gelen {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} ve {ar:كَفُورًا, tr:kafūrā, gloss:nankör} ile ince bir ironi oluşturur: sağlam yere erişim, ahlaki yönelişin geri çekilişine bitişir. Bu bağlantıda iyilik yankısı kara anlamının yerini almaz; karşıtlığı keskinleştirir.
+
+Denizden karaya geçiş, bu karşıtlığa algısal bir eşik de ekler. Zararın erişmesi ve çağrılan dayanakların kaybolması, deniz kökünün korku, sarsılma ya da şaşkınlık karşısında donakalma kullanımını {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} üzerinde etkinleştirir: deniz çevresi yön duygusunu bozan, insanı şaşkın bırakan bir yer gibi hissedilir. Kurtuluş kökünün su yüzeyinin üstünde kalan yüksek yer kullanımı, bu kuşatıcı ortamdan çıkarılıp karaya ulaşmayı güvenli eşiği aşma imgesine dönüştürür. Fiilin yönü ve gerçek bitiş noktası {ar:إِلَىٰ ٱلْبَرِّ, tr:ilā al-barri, gloss:karaya} varıştır; yükseklik kök yankısının algısal katkısıdır, varış yerinin anlamı değil. Fail önceki bağlamdaki Rab olarak kalır (17:66).
+
+Bu yeni ortamda {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} yana dönüp yanını gösterme görüntüsüyle bedenin ve dikkatin yönünü tersine çevirir; örtme kullanımı biraz önce açığa çıkan bağımlılığın üzerini kapatma imgesini ekler. Bu iki son hareket, denizin yön bozucu kuşatıcılığından kurtarılış eşiğine, oradan da bağımlılığı görünmez kılan geri çekilmeye geçişi kurar. Bu özel bağlantı karaya varışı yüz çevirmenin nedeni yapmaz; yana dönme de belirli bir uzuv ya da gerçek örtme eylemi anlatmaz.
+
+## Yolculuk ve hesap ufku
+
+İnsanların onurlandırılması, karada ve denizde taşınması ve iyi şeylerle rızıklandırılması, tekil kurtuluşu daha geniş nimet alanına yerleştirir (17:70). {ar:نَجَّاكُمْ, tr:najjākum, gloss:sizi kurtardı} belirli bir deniz tehlikesinden çıkarılmayı adlandırırken, taşıma ve rızıklandırma insanın tek kazadan büyük bir lütuf içinde yaşadığını gösterir. Böylece nankörlük hükmünün örttüğü iyilik, yalnız o anda kurtarılmakla sınırlı kalmaz.
+
+Sonraki ayette çağrının yönü ve ölçeği değişir: odakta insanlar bir muhataba seslenirken, topluluklar burada önderleriyle çağrılır ve bağlı olunan önderler hesap sahnesine biçim verir (17:71). Yazılı kayıt davranışları sonradan hesaba taşır (17:71). Bu karşılaştırma acil çağrıyı topluluk aidiyeti ve hesap ufkuyla yan yana getirir; odaktaki çağrı aynı sözce ya da kayda geçtiği bildirilen bir eylem değildir. Ardından iki kez bildirilen körlük, nimeti fark edememeyi ve yönünü bulamamayı ayrı eksenlerde açar (17:72). Belirli tekil “insan” adı burada görmeyi değil, insan tipini adlandırır; işitme, sezme ya da çevreyi araştırma uzantıları kendi bağlamlarında değerlendirilir. Yolunu şaşırma ifadesi {ar:ضَلَّ, tr:ḍalla, gloss:kayboldu} ile yönsel temas kurar: odakta çağrılan destekler erişilmezken burada insanın kendi yön kaybı görünür. Bu yan yanalık daha geniş bir hesap ufku açar; sonraki sahneyi odağın önceden bildirdiği bir olay hâline getirmez.
+
+Denizden karaya hareket, daha açık fırtına sahneleriyle karşılaştırılınca çağrının nasıl sıkıştığını somutlaştırır. İnsanların karada ve denizde taşınması, fırtına rüzgârı ve her yönden gelen dalgalar tehlikeyi görünür kılar; kuşatılanlar yalnız Allah'a yönelip kurtarılırlarsa şükredeceklerine söz verir (10:22). Kurtuluşun ardından karadaki taşkın davranış bu örneğin sonraki hareketidir (10:23); odağa katkısı kurtuluş sonrası tepkiyi karşılaştırmaya açmaktır. Buradaki taşkınlık, odaktaki yüz çevirmenin sözlük anlamı ya da kıyıya çıkışın nedeni olarak kullanılmaz. Denizden karaya kurtarılışı yeniden ortak koşmanın izlemesi de başka bir sonuç sırası sunar (29:65).
+
+Dalgaların gölgelikler gibi üzerlerine gelişi, Allah'a yöneliş ve karaya kurtarılma başka bir deniz sahnesinde de kuşatılmışlık ile çağrıyı birleştirir; ardından kimilerinin ölçülü kaldığı, ayetleri yadsıyanların ise hain ve nankör olarak nitelenen bir grupta bulunduğu bildirilir (31:32). Bu sahne, kurtuluştan sonraki tepkilere ölçülülük ve nankörlük ayrımını ekler. Daha geniş karada-denizde yolculuk bağlamında odaktaki kara bu yolculuğun varış yeridir; yan ayetler varıştan sonra yeni bir deniz seferi başlatmaz (17:66, 17:68, 17:69, 17:70).
+
+Zarar, yöneliş ve nimet sonrasındaki tepki bu ayetlerde farklı ayrıntılarla açılır. Sıkıntı değince Rabbine yönelen kişinin nimetle önceki yakarışını unutması, odaktaki temasın ivedilik basıncını ve rahatlama sonrasındaki dönüşü çağrıştırır (39:8). Nimetten sonra yüz çevirip yanını gösteren kişiye kötülük değince geniş bir duaya geçilmesi, temasla beden yönelişini aynı sırada buluşturur (41:51). Rahmet tattırılınca sevinme, yaptıkları yüzünden kötülük erişince nankörleşme ve elçinin yalnızca iletmekle yükümlü oluşu, bu tepki dizisine elçinin sınırını ve farklı bir nimet-sonrası sonucu ekler (42:48). Yüz çevirme ve yana dönmeyi zarardaki ümitsizlikle karşılaştıran ayet (17:83), herkesin kendi yönelişine göre davranıp kimin doğru yolda olduğunu Rabbin bildirdiği ayet (17:84) ise yön boyutunu genişletir. Bu bağlantı odaktaki karşıtlığı farklı örneklerle derinleştirir; güdüleri tekleştirmez ve tepkiyi kaçınılmaz bir kurala dönüştürmez.
+
+Yöneliş karşılaştırması, hemen sonraki pasajda baskıya direnme meselesine geçer. Doğru olandan saptırmaya dönük baskı belirir (17:73); meyletme ihtimalini aynı ayetteki sağlamlaştırma önler (17:74). Bu pasaj, gerçekleşmiş yüz çevirmenin karşısına engellenmiş bir yakınlaşmayı koyar. Sarsma ve yerinden çıkarma tehdidi, karaya varmış olmanın tek başına son güvence olmadığını gösterir (17:76); odaktaki {ar:ٱلْبَرِّ, tr:al-barri, gloss:kara} ise hâlâ denizin karşıtı olan kara yeridir. Yinelenen süreğen yol ve değişmezlik, bir kez tamamlanmış dönüşü kalıcı doğrultuyla karşılaştırır (17:77). Muhataplar da ayrıdır: odakta çoğul yolcular, sonraki pasajda tekil peygamber vardır. Bu nedenle bağlantı, baskı altında yönelişi sürdürme sorusunu açar; ortak olay ya da neden-sonuç bağı kurmaz.
+
+## Dua ve yön
+
+Fâtiha'da kulluk ve yardım isteme tek bir muhataba açıkça yönelir: {ar:إِيَّاكَ نَعْبُدُ, tr:iyyāka naʿbudu, gloss:Yalnız Sana kulluk ederiz} ve {ar:وَإِيَّاكَ نَسْتَعِينُ, tr:wa-iyyāka nastaʿīnu, gloss:Yalnız Senden yardım dileriz} (1:5). Odaktaki {ar:تَدْعُونَ, tr:tadʿūna, gloss:çağırıyorsunuz} ses ve sözle çağırmayı, {ar:إِلَّآ إِيَّاهُ, tr:illā iyyāhu, gloss:O'ndan başkası hariç} çağrılanlar arasından tek muhatabın ayrılmasını, kurtuluş sonrasındaki {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} ise bu bağımlılık ilişkisinden geri çekilmeyi gösterir. Bu karşılaştırma kriz içindeki yakarışı açık kulluk ve yardım isteme diliyle genişletir. Zamirlerin dilbilgisel kişileri ayrıdır: odaktaki çoğul muhataplar üçüncü tekil “O'na”, Fâtiha'daki hitap ikinci tekil “Sana” yönelir; ortaklık biçimde değil, ilahî muhataba yöneliştedir. Yankı Fâtiha'nın bu ayetindeki sözlerle sınırlıdır; tüm sûreyi odak ayetin çerçevesine dönüştürmez.
+
+Fâtiha'da nimet verilenlerin yolu ile sapmışların yolu karşı karşıya gelir: {ar:صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ, tr:ṣirāṭa alladhīna anʿamta ʿalayhim, gloss:kendilerine nimet verilenlerin yolu} ve {ar:وَلَا ٱلضَّآلِّينَ, tr:wa-lā aḍ-ḍāllīn, gloss:sapmış olanların da değil} (1:7). Buradaki yol, {ar:ضَلَّ, tr:ḍalla, gloss:kayboldu} fiilinin odakta çağrılanların erişilemez oluşuna yönünü bulamama yankısı ekler; nimet verilenlerin anılması da kurtuluştan sonra nimeti tanımama ihtimalini keskinleştirir. Bu keşfedici yankı yol ve nimet yüzeylerinde kalır: odaktaki çağrılanlar ile sapmışlar, kurtarılanlar ile nimet verilenler ayrı gruplardır. Böylece 1:7'deki yön ve nimet karşıtlığı, odaktaki dönüşü şükür ve doğru yöneliş sorusu karşısında daha belirgin kılar.
+
+</editorial_prose>

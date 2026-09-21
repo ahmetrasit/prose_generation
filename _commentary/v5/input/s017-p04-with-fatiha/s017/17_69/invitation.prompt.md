@@ -1,0 +1,195 @@
+# V5 reading invitation — 17:69
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p04-with-fatiha/s017/17_69/17_69.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p04-with-fatiha/s017/17_69/17_69.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+17:69, muhatapların bedensel emniyetlerini kesinleşmiş saymalarını sorgulayan tek bir ihtimal zinciri kurar. {ar:أَمْ, tr:am, gloss:yoksa} ile açılan {ar:أَمِنتُمْ, tr:amintum, gloss:güvende olduğunuzu mu sandınız?} hitabı, güveni sanki çoktan edinilmiş bir sonuç gibi önlerine koyar. Tamamlanmış ikinci çoğul fiil, gelecekte güvende olup olmayacaklarını değil, şimdiden bu güvene vardıkları varsayımını sorar; soru bilgi istemekten çok meydan okumadır. {ar:أَن, tr:an, gloss:-diğini} ile açılan önerme dönüşü, rüzgârın gönderilmesini, boğulmayı ve ardından bir talepçi bulamamayı aynı koşullu tehdidin içine alır. Ayet yaşanmış bir seferi anlatmaz; gerçekleşebilir tehlikeyi sorunun içeriği yapar. Buradaki güven, öncelikle bedenin tehlikeden emin oluşudur.
+
+## Kara ve Deniz
+
+Bu güven sorusu hemen önce, 17:68'de karanın yanına yöneltilir: {ar:أَفَأَمِنتُمْ, tr:afa-amintum, gloss:güvende olduğunuzu mu sandınız?} sorusunun ardından {ar:جَانِبَ ٱلْبَرِّ, tr:jāniba l-barri, gloss:karanın yanı} zeminin {ar:يَخْسِفَ, tr:yakhṣifa, gloss:çöktürmesi} ya da {ar:حَاصِبًا, tr:ḥāṣiban, gloss:taş savuran yel} gelmesi ihtimali belirir (17:68). Tehdit karanın belirli bir yanına yönelir: zemin ayakların altından alınabilir ya da taş savuran bir yel gelebilir (17:68). 17:69'daki ikinci {ar:أَمْ, tr:am, gloss:yoksa} bu kez tehlike ihtimalini denize taşır: {ar:فِيهِ, tr:fīhi, gloss:onun içinde} zamiri, 17:66'da adı geçen {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} içinde yeniden bulunmaya bağlanır (17:66). Odağın rüzgâr ve boğulma tehdidi de bu alanı belirginleştirir. Karada zeminin kaybı ile denizde boğulma ayrı tehlikeler olarak kalır; bu karşıtlık bir ortamı ötekine karşı kendiliğinden güvenli sığınak sayma varsayımını sarsar. Yeryüzünün insanları yutması tehdidi 67:16'da da güven sorusunu izler; oradaki zemin, burada deniz ve rüzgâr değişirken emniyet tek bir ortama bağlanamaz (67:16).
+
+Denize dönüşün çevresindeki taşıma anlatımı, güven ile tehlike arasındaki farkı somutlaştırır. 17:66'da Rabbin gemiyi denizde yumuşakça ilerletmesi, insanların O'nun lütfunu araması ve O'nun merhametiyle birlikte anılır: {ar:يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ, tr:yuzjī lakumu l-fulka fī l-baḥri, gloss:gemiyi denizde sizin için ilerletmek} ve {ar:رَّحِيمًۭا, tr:raḥīman, gloss:merhamet eden} (17:66). 17:67'de deniz sıkıntısından karaya kurtarılışın ardından yüz çevirme gelir: {ar:نَجَّىٰكُمْ إِلَى ٱلْبَرِّ, tr:najjākum ilā l-barri, gloss:sizi karaya kurtardı} ve {ar:أَعْرَضْتُمْ, tr:aʿraḍtum, gloss:yüz çevirdiniz} (17:67). Odağın {ar:يُعِيدَكُمْ, tr:yuʿīdukum, gloss:sizi geri döndürmesi} aynı denize dönüşü bu kez kırıcı rüzgâr ve boğulma ihtimaliyle karşılaştırır. Böylece odaktaki tehdit, daha önce taşıyan yolun tersine dönebilen yüzünü açar; yakın bağlamdaki merhamet ve kurtuluş, geniş çerçevedeki taşıma ve onurlandırma da yerini korur (17:66, 17:67, 17:70). İnsanların karada ve denizde taşınması ve onurlandırılması şu sözlerle belirir: {ar:وَحَمَلْنَاهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ, tr:wa-ḥamalnāhum fī l-barri wa-l-baḥri, gloss:onları karada ve denizde taşıdık} ve {ar:كَرَّمْنَا, tr:karramnā, gloss:onurlandırdık} (17:70). Odaktaki dönüş bu iki sahnenin ardından duyulur: 17:66 merhametli taşımayı, 17:67 ise denizden kurtarıldıktan sonra yüz çevirmeyi verir (17:66, 17:67).
+
+## Yeniden Dönüş
+
+{ar:أَن يُعِيدَكُمْ, tr:an yuʿīdukum, gloss:sizi geri döndürmesi} içindeki dördüncü bâb fiili, muhatapları ayrıldıkları yere yeniden getirmeyi anlatır; hemen arkasındaki {ar:فِيهِ, tr:fīhi, gloss:onun içinde} hedefi bir iç alan olarak kurup denizi yeniden adlandırmadan taşır. Deniz yolculuğu ve ardından gelen boğulma tehdidi bu gönderimi yerel olarak anlaşılır kılar. {ar:تَارَةً, tr:tāratan, gloss:bir vakit, bir kez} olayın vaktini bildiren belirsiz bir zaman adıdır, nesne değildir; dişil {ar:أُخْرَىٰ, tr:ukhrā, gloss:başka, sonraki} bu vakti niteler. Dönüş fiiliyle “bir kez daha” anlamındaki zaman ifadesi birleşince denize yeniden dönme, tehlikenin yenilenen bir karşılaşması olur. Önceki ayrılışın nasıl gerçekleştiği odak ayette açıklanmaz; tekrar da düzenli aralıklarla işleyen bir döngü kurmaz.
+
+Bu yenilenen karşılaşmanın tehlikesi, ayrı bir deniz yolculuğuyla daha görünür olur. 10:22'de elverişli rüzgârla yol alanlar sevinirken fırtına çıkar ve dalgalar gemiyi her yönden kuşatır; yolcular kurtulurlarsa şükredeceklerini söyler (10:22). 10:23 aynı yolcuları kurtuluşun ardından yeryüzünde taşkınlık ederken gösterir (10:23). Bu topluluk 17:69'un muhataplarından ayrıdır (10:22, 10:23). Yine de {ar:يُعِيدَكُمْ, tr:yuʿīdukum, gloss:sizi geri döndürmesi} ile {ar:تَارَةً أُخْرَىٰ, tr:tāratan ukhrā, gloss:başka bir vakit} yan yana duyulduğunda, daha önce taşıyan bir yolun yeniden açıldığında tehlikeyi de taşıyabileceği belirginleşir. 10:22'de dalgaların gemiyi her yönden sarması, suyun çevrede kuru yer bırakmayan bir alan oluşunu somutlaştırır (10:22). Bu imge odağın boğulma tehdidine çevresi kalmamış suyu taşır; 10:22 ve 10:23'teki sahne ise kurtuluş ve sonrasındaki taşkınlığı anlatır, boğulmayı değil (10:22, 10:23).
+
+“Başka, sonraki” anlamındaki {ar:أُخْرَىٰ, tr:ukhrā, gloss:başka, sonraki} daha uzak bir sonrasılık ufkuna da açılabilir. Sözcük ailesinin dünyadan sonraki varoluşu adlandıran kullanımı, kıyamet gününe (17:62), herkesin önderiyle çağrılacağı güne (17:71) ve açıkça anılan ahirete (17:72) değdiğinde hesap ve sonrasılık yankısı kazanır: {ar:يَوْمِ ٱلْقِيَٰمَةِ, tr:yawmi l-qiyāmati, gloss:kıyamet günü}, {ar:يَوْمَ نَدْعُوا۟ كُلَّ أُنَاسٍ بِإِمَٰمِهِمْ, tr:yawma nadʿū kulla unāsin bi-imāmihim, gloss:her topluluğu önderiyle çağıracağımız gün} ve {ar:ٱلْءَاخِرَةِ, tr:al-ākhirah, gloss:ahiret}. {ar:يُعِيدَكُمْ, tr:yuʿīdukum, gloss:sizi geri döndürmesi} fiilinin ayrı bir kullanımı da son varış yerini ya da nihai dönüşü adlandırabilir; çevredeki çağrılma ve hesap imgeleri bu yankıya zemin verir (17:62, 17:71, 17:72). “Bir kez daha” ile günleri buluşturan dönemsel dönüş kullanımı da vardır; bu kullanım belirli bir aralık ya da takvim vermez. Odak cümledeki dişil {ar:أُخْرَىٰ, tr:ukhrā, gloss:başka, sonraki}, {ar:تَارَةً, tr:tāratan, gloss:bir vakit, bir kez} kelimesini niteleyerek yakın anlamı başka bir vakitte denize dönmek olarak tutar; daha uzak sonrasılık yankısı bu anlamın yerini almaz. 17:64'teki vaat de dönüş bağlantısını kurmaz: vaat etmek ile birini geri döndürmek ayrı eylemlerdir (17:64).
+
+## Gönderilen Rüzgâr
+
+Dönüş ihtimalini izleyen {ar:فَيُرْسِلَ, tr:fa-yursila, gloss:ardından göndermesi} dördüncü bâb biçimiyle bir kuvveti bulunduğu yerden muhataplara yöneltir. {ar:قَاصِفًا, tr:qāṣifan, gloss:kırıcı olan} gönderilen kuvvetin kırıcı niteliğini, {ar:ٱلرِّيحِ, tr:al-rīḥi, gloss:rüzgâr} fiziksel taşıyıcıyı belirginleştirir; {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} ise aynı muhatapları bu sevkin hedefi yapar. 17:68'deki {ar:يُرْسِلَ عَلَيْكُمْ حَاصِبًا, tr:yursila ʿalaykum ḥāṣiban, gloss:üzerinize taş savuran bir yel göndermek} de hedefe doğru gönderme ilişkisini kurar (17:68). Paralellik hedefe yöneltilmiş kuvvet ilişkisindedir: 17:68'de taşlı yel kara tehdidi, odakta kırıcı rüzgâr deniz tehdididir (17:68). Böylece sevk yapısı ortak kalırken tehditlerin alanı ayrışır. Burada gönderilen bir elçi ya da mesaj değil, yıkıcı kuvvettir.
+
+Mansup etken ortaç {ar:قَاصِفًا, tr:qāṣifan, gloss:kırıcı olan}, kıran ya da kırılmaya yol açan kuvveti niteler; parçaların bütünden tümüyle ayrılması gerekmez. {ar:مِنَ الرِّيحِ, tr:min al-rīḥ, gloss:rüzgârdan} bu niteliğin kaynağını gösterebilir ya da onu rüzgârla açıklayabilir; her iki kuruluşta da söz fiziksel rüzgârdır. Sözcüğün daha özel kullanımında sert rüzgâr karşılaştığı gemiyi, ağacı ya da yapıyı kırabilir. Deniz alanı ile 17:66'da ilerletilen gemi birleşince gemi olası kırılma nesnesi olarak belirir (17:66); ayet nesneyi açık bırakır, dolayısıyla bu cümle bir gemi enkazı anlatmaz. Bu belirsizlik dönüş yolunun kırılabilirliğini duyururken kırılan şeyin seçimini askıda tutar.
+
+Kırılma imgesi ses ve sözlük yankısıyla iki ayrı yönden keskinleşir. Tek örnekli, sıkışık ünsüzlü {ar:قَاصِفًا, tr:qāṣifan, gloss:kırıcı olan} biçimi ardından gelen rüzgâra sert bir işitsel kenar verir. Sözcüğün yüksek, gürültülü ses ve gök gürültüsü yönündeki ayrı kullanımı da 17:68'deki taş savuran yel ile 10:22'deki fırtınayı işitsel alana taşır (17:68, 10:22). Biçimin sert sesi kırılma ânını keskinleştirirken sözlüksel yankı fırtınanın gürültüsünü duyurur; bu bağlantı işitseldir ve odağa ayrı bir gök gürültüsü olayı eklemez.
+
+Belirli tekil {ar:ٱلرِّيحِ, tr:al-rīḥi, gloss:rüzgâr} hareket eden havadır; bu hava hafif esintiden sert yele uzanabilir. Burada yıkıcı niteliği {ar:قَاصِفًا, tr:qāṣifan, gloss:kırıcı olan} ile hemen sonraki boğulma tehdidi seçer. Rüzgâr için çoğul okuyuşlar da aktarılmıştır, ancak biçimleri verilmediğinden açıklama odaktaki tekil biçime dayanır. Aynı kelime ailesindeki dinlenme kolu, 10:22'de yolcuları sevindiren elverişli rüzgârla açılır (10:22): dinlenme yorgunluğu hafifletir, soluğu düzenler ve gücü yeniden toplar. Bu kol odağın yıkıcı rüzgârına karşıt bir esenlik ölçüsü sunar; biri gücü tazelerken öteki kırılma ve boğulma tehdidini taşır.
+
+Boğulmanın canlı bedeni tehdit etmesi, aynı kelime ailesinin hayat veren iç varlık kolunu da çağırır. {ar:يُغْرِقَكُمْ, tr:yughriqukum, gloss:sizi boğması} ile temas, odağın fiziksel rüzgârına bedenin hayatı üzerine bir yankı ekler. Böylece hava anlamı sürerken boğulmanın neyi tehlikeye soktuğu duyulur; iç varlık anlamı rüzgârın çevirisi değil, aynı ailede açılan ayrı bir çağrışımdır.
+
+Rüzgârı izleyen ikinci {ar:فَيُغْرِقَكُمْ, tr:fa-yughriqukum, gloss:ardından sizi boğması} doğrudan bedensel sonuca geçer. Dördüncü bâb fiili muhatapları suda boğulmanın alıcısı yapar: {ar:فِيهِ, tr:fīhi, gloss:onun içinde} deniz alanını, {ar:قَاصِفًا, tr:qāṣifan, gloss:kırıcı olan} ara yıkıcı niteliği, rüzgâr da fiziksel kuvveti taşır. Sıra doğrudan suda boğulmayı adlandırır ve sevk edilen kuvvetten kırıcı niteliğe, oradan bedensel sonuca ilerler. Kırıcı rüzgârın bir tekneyi parçalama ihtimali bu zincire olası bir ara taşıyıcı düşündürür; ayet tekneyi ara neden olarak adlandırmaz ve boğulmanın mekaniğini açıklamaz. Aktarılan okuyuşların bazıları rüzgârı fail olarak öne çıkarabilir, bazılarıysa ilahî birinci çoğul sesi belirginleştirebilir; dönüş fiili için de birinci çoğul sesi açan bir okuyuş aktarılır. Son bölümdeki {ar:عَلَيْنَا, tr:ʿalaynā, gloss:bize karşı} bu sese ayetin içinden temas kurar. Okuyuş biçimleri verilmediği için açıklama odağın üçüncü şahıslı dönüş ve ettirgen boğma biçimlerine dayanır.
+
+## Boğulma ve İnkâr
+
+{ar:بِمَا كَفَرْتُمْ, tr:bi-mā kafartum, gloss:inkârınız sebebiyle} boğulmayı inkâra bağlar. İçindeki {ar:كَفَرْتُمْ, tr:kafartum, gloss:inkâr ettiniz} odakta dinî gerçeği reddetmedir; {ar:بِمَا, tr:bi-mā, gloss:sebebiyle, ... ile} bu tamamlanmış eylemi boğulmanın nedeni olarak kurabilir ya da sonuçla araç/içerik ilişkisi içinde bağlayabilir. Her iki okumada da inkâr, boğulma cümlesinin gerekçesi ya da araç ilişkisi olarak kalır. Tehdit dizisi muhataplara açıkça yüklenen tamamlanmış insan eylemiyle sorumluluğu görünür kılar; başka durum veya tepkiler hakkında hüküm vermez. Başlangıçtaki güven bedenin emniyetine, bu eylem ise dinî ve ahlaki sorumluluğa ilişkindir.
+
+Bu inkârın yanına yakın deniz bağlamı bir nankörlük yankısı ekler. Merhametli taşıma 17:66'da, denizden kurtarılış ve ardından yüz çevirme 17:67'de yer alır; bunlar {ar:كَفَرْتُمْ, tr:kafartum, gloss:inkâr ettiniz} için nimeti tanımama ve şükrü örtme yönünü açar (17:66, 17:67). Başka bir topluluk 10:22'de kurtulursa şükredeceğini söyler, 10:23'te kurtuluşun ardından taşkınlık eder (10:22, 10:23). Bu bağlam, dinî reddedişi nankörlük yankısıyla genişletir; odak cümlesi belirli bir nimeti adlandırmadığı için yankı doğrudan reddedişin tek karşılığı olmaz. Bu iki ayetteki topluluk 17:69'un muhataplarından ayrıdır (10:22, 10:23).
+
+{ar:كَفَرْتُمْ, tr:kafartum, gloss:inkâr ettiniz} örtme ve görünmez kılma anlam kolunu da taşır. Hemen ardından gelen {ar:يُغْرِقَكُمْ, tr:yughriqukum, gloss:sizi boğması} suyun bedeni kaplamasını anlattığından bu kol fiziksel boğulmaya mecazî bir örtülme imgesi ekler. Elçileri yalanlayan başka bir topluluğun boğulması 25:37'de ayrı bir sahnede iki imgeyi yan yana getirir (25:37). Bu bağlantı sözlüksel ve mecazîdir: odakta dinî inkâr ile boğulma bağı korunur, suyun örttüğü belirli bir eşya ise adlandırılmaz.
+
+Karadan uzaklaştırma ile su içinde ölme arasındaki mekânsal tersine dönüş, Firavun'un insanları ülkeden sürmeye kalkışması ve kendisinin yanındakilerle birlikte boğulmasıyla 17:103'te somutlaşır (17:103). Bu ayrı sahnenin odağa katkısı, kara ile deniz arasındaki yer değiştirmeyi görünür kılmasıdır; benzer hareket 17:69'daki deniz tehdidini duyurur, ancak oradaki koşullu soruyu gerçekleşmiş yolculuk olarak sunmaz.
+
+## Bulunamayan Talepçi
+
+İlk {ar:فَيُرْسِلَ, tr:fa-yursila, gloss:ardından göndermesi} dönüşü gönderilen kuvvete, ikinci {ar:فَيُغْرِقَكُمْ, tr:fa-yughriqukum, gloss:ardından sizi boğması} kuvveti boğulma sonucuna hızla bağlar; bu iki fa fiziksel tehdit zincirini ileri taşır. {ar:بِمَا كَفَرْتُمْ, tr:bi-mā kafartum, gloss:inkârınız sebebiyle} boğulmayı inkârla ilişkilendirdikten sonra {ar:ثُمَّ, tr:thumma, gloss:sonra} başka bir aşamaya, tehlike ardından talepçi bulamamaya geçirir. Bu geçiş fiziksel zincire göreli bir gecikme ekler, fakat ölçülmüş bir zaman aralığı vermez; başvuru imkânının kapanışı aynı koşullu uyarıda kalır.
+
+{ar:لَا تَجِدُوا۟, tr:lā tajidū, gloss:bulamayacaksınız} bulunamama sonucunu verir; olumsuzluk aramanın kendisini değil, erişilebilir bir kişinin yokluğunu kapsar. Altındaki belirsiz tekil {ar:تَبِيعًا, tr:tabīʿan, gloss:takipçi, talepçi}, bu konuda muhataplar adına başvurulabilecek herhangi bir kişiyi gösterir; yokluk bütün insanların varlığına yayılmaz. {ar:لَكُمْ, tr:lakum, gloss:sizin için} talepçinin yararlanacağı tarafı, {ar:عَلَيْنَا, tr:ʿalaynā, gloss:bize karşı} karşı tarafı kurar. Başlangıçtaki {ar:عَلَيْكُمْ, tr:ʿalaykum, gloss:üzerinize} rüzgârın yöneldiği kişileri gösterirken {ar:عَلَيْنَا, tr:ʿalaynā, gloss:bize karşı} talebin yönünü karşı tarafa çevirir; üçüncü şahıslı gönderme ve boğulma anlatımı burada ilahî birinci çoğul sese döner. Böylece cümle fiziksel eylem zincirinden, muhataplar adına kime karşı başvurulacağı sorusuna geçer.
+
+{ar:بِهِ, tr:bihi, gloss:bu konuda} bulunamayan kişiyi belirli bir meseleye bağlar; zamirin kapsamı ise açık kalır. Öncesindeki boğulma, inkâr ve diğer tehdit eylemleri nedeniyle atıf boğulmaya, inkâra, bildirilen cezaya ya da tehdit dizisinin tümüne uzanabilir. Zamir hem {ar:لَا تَجِدُوا۟, tr:lā tajidū, gloss:bulamayacaksınız} fiiline hem {ar:تَبِيعًا, tr:tabīʿan, gloss:takipçi, talepçi} isim öbeğine tutunabilir. Böylece başvurunun konusu metinde yerini alır, kapsamı tek bir öncüle sabitlenmez.
+
+{ar:تَبِيعًا, tr:tabīʿan, gloss:takipçi, talepçi} gündelik anlamıyla ardından giden kişiyi taşır; söz ailesi bir kişiyi ya da kişileri adlandırabilir, odaktaki belirsiz tekil ise herhangi bir kişiyi aratır. Daha seyrek hukukî kullanımda bir hak, alacak, kan bedeli ya da karşılık için talep peşine düşen kişi belirir. “Sizin için, bize karşı, bu konuda” ilişkileri bu hukukî kolu ayette somutlaştırır: muhataplar adına karşı taraftan hak isteyecek biri aranır. Bu özel yankı genel bir yardımcıyı değil, talebin peşini süren kişiyi gösterir; ayet gerçek bir dava yürütüldüğünü bildirmez. Gündelik takipçi anlamı da aynı isimde yaşamayı sürdürür.
+
+17:63'te şeytanın peşinden gidenlere eksiksiz karşılık bildirilir: {ar:تَبِعَكَ, tr:tabiʿaka, gloss:sana uyan} ve {ar:جَزَاؤُكُمْ جَزَاءً مَّوْفُورًا, tr:jazāʾukum jazāʾan mawfūran, gloss:eksiksiz karşılığınız} (17:63). Bu sahne takip ilişkisinin sonucunu öne çıkarır; odaktaki isim biçiminin takipçiden talepçiye açılması ise yönü bir otoritenin ardından gitmekten Allah'a karşı hak istemeye çevirir. Bağlantı aynı kelime ailesindedir: odaktaki isim fiilin aynısı değildir ve iki kullanımı bağımsız okumak da mümkündür. Böylece yankı takip anlamını silmeden talepçi anlamının nasıl belirdiğini gösterir.
+
+Aynı kelime ailesinin bir başka kolu, eylemden sonra kişide kalan yükümlülük ya da olumsuz sonucu anlatır. {ar:كَفَرْتُمْ, tr:kafartum, gloss:inkâr ettiniz} ile {ar:عَلَيْنَا, tr:ʿalaynā, gloss:bize karşı} yan yana duyulduğunda bu kol, eylem sonrasındaki sonucu muhataplarla ilişkilendirir; Allah'a karşı yeni bir borç kurmaz. 17:63'teki eksiksiz karşılık da eylemden sonra kalan yük yönünü yankılar (17:63). Bu temas odağın yükümlülük kolunu çağırırken, odaktaki belirsiz mansup isim kişiyi, yani talepçiyi adlandırır; ayrıca belirli bir ceza türü seçilmez.
+
+Ardından gitme ile sorumluluk arasındaki soru, 40:47'de önderlerinin peşinden gidenlerin azaptan bir payın hafifletilmesini istemesiyle ayrı bir sahnede somutlaşır (40:47). Bu sahne, izlenen otorite ile sonradan taşınan sorumluluğu yan yana getirir; odağa bağı aynı kök ya da dilbilgisel kuruluş değil, takip ve sonuç arasındaki bu sorudur. Böylece başkasını izleme, sonuçta kalan yükü kendiliğinden devretmeyen bir bağlılık olarak duyulur.
+
+Vekâlet, yardım ve erişim imgeleri odaktaki başvuru kapanışını ayrı yönlerden çerçeveler. 17:65'te Rabbin vekil olarak yetmesi olumlu koruma sunar (17:65); 17:68'de tehlike sonrasında vekil bulunamaz (17:68). 17:75'te ceza tehdidinden sonra yardımcı yoktur (17:75), 17:77'de yerleşik yolda değişiklik bulunamaz (17:77). Bu örnekler koruyucu temsilciyi, dış yardımı ve değişmez düzeni ayrı ayrı duyurur; 17:68, 17:75 ve 17:77'deki bulma kalıbı erişim sorusunu odağa yaklaştırırken, her cümlenin nesnesi ve kuruluşu kendi bağlamında kalır.
+
+17:86'da vahiy hakkında Allah'a karşı vekil bulunamaması, odaktaki başvuruya işlevsel bir temsil yankısı ekler (17:86); mesele vahiy, odaktaki kişi ise talepçidir. 71:25'te boğulma ile birlikte yardımcıların bulunamaması fiziksel tehlikeyi dış yardımın yokluğuyla tamamlar (71:25). Yardımcı ve hukukî talepçi farklı roller olduğundan bu sahneler, odağın “sizin için, bize karşı” ilişkisini silmek yerine başvuru ile yardım arasındaki ayrımı belirginleştirir.
+
+{ar:أُخْرَىٰ, tr:ukhrā, gloss:başka, sonraki} sözcüğünün bazı kullanımları bir topluluğun son kesimini ya da ardından başka bir şey gelmeyen son varlığı anlatır. Odaktaki “başka vakit” anlamı, {ar:ثُمَّ, tr:thumma, gloss:sonra} ve bulunamayan talepçiyle yan yana gelince sınırlı bir kapanış yankısı kazanır: yenilenen tehlikenin ardından talep sürdürülemez. Bu katkı sonlanma hissini taşır; odaktaki sözcüğün yakın anlamı başka vakit olmaya devam eder, ahiret terimine ya da kesin bir son olaya dönüşmez.
+
+Zamanı veren {ar:تَارَةً, tr:tāratan, gloss:bir vakit, bir kez}, kırıcı kuvveti veren {ar:قَاصِفًا, tr:qāṣifan, gloss:kırıcı olan} ve bulunamayan kişiyi veren {ar:تَبِيعًا, tr:tabīʿan, gloss:takipçi, talepçi} benzer “-an / -atan” ses kapanışları taşır. Bu ritim vakti, rüzgârın maddi yükünü ve son cümlenin kişisini tek bir işitsel hat üzerinde toplar; her kelime kendi anlamını ve işlevini korur.
+
+Son olarak, {ar:لَا تَجِدُوا۟, tr:lā tajidū, gloss:bulamayacaksınız} içindeki bulma fiili olağan anlamıyla bulmayı ve erişmeyi anlatır. Kelime ailesindeki su kıyısı ya da kenar anlamı, 17:66'daki deniz, 17:68'deki kara tehdidi ve odağın boğulma görüntüsüyle bir sınır imgesi kurar (17:66, 17:68). Suyun bedeni kaplamasıyla kıyı ve ayak basılacak zemin silinir; bu, kıyı anlamının çekimli fiilin dilbilgisel karşılığı olduğu ya da ayette somut bir kıyı olayının anlatıldığı anlamına gelmez, bu özel temasın sınırıdır. Hukukî anlamdaki {ar:تَبِيعًا, tr:tabīʿan, gloss:takipçi, talepçi} de talep ileri sürecek kişiyi tutunacağı bir sınırla birlikte duyurur. Böylece bulunamayan kişiyle birlikte, onun dayanacağı yerin de boğulma imgesinde ortadan kalkışı işitilir.
+
+</editorial_prose>

@@ -1,0 +1,302 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:94",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_f5f7ad0e885df323075d",
+      "decision": "narrow",
+      "reason": "21:26'da oğul iddiasının reddedilmesi ve değer verilmiş kullardan söz edilmesi, 19:94'ün eksiksiz sayımıyla birlikte bu sınıfın üyelerini tek tek görünür kılan bir paralel kuruyor. Ancak supplied 21:26 metni 19:94'teki zamirin aynı kişilere gönderdiğini veya evrensel kapsamı tek başına kanıtlamıyor; adayın evrensellik iddiası bu nedenle daraltıldı. İki ekli dal bulgudaki kesin facetlerle korunuyor; adayın ayrıca eklenmiş branch facet, context ref veya semantic obligation kaydı yok.",
+      "finding_refs": ["global:servant-class-individuals"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bde4a0010ecfc8dc7a40",
+      "decision": "reject",
+      "reason": "Özet 19:84'teki geciktirilmiş sayımdan 19:94'teki tamamlanmış sayım etkisine geçiş öneriyor; ancak HFT kaydı kesin context surface, word index, attributed role ve focus return sağlamıyor. Adlandırılan 19:84 aynı sûrenin perikope bağlamıdır ve bu yüzden global lane'in wider trigger'ı değildir; ayrıca o ayetin yüzeyi bu packet'te verilmemiştir.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "19:84",
+          "reason": "Aynı perikopeye ait olduğu için macro kapsamındadır; HFT özeti exact word trace veya bu lane'de kullanılabilir context surface sağlamaz."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_452de60510479409a145",
+      "decision": "reject",
+      "reason": "Kull ve fardan sözcükleri arasındaki dizi ilişkisi yalnızca aynı perikope içindeki bir bracket okumasını öne sürüyor. HFT desteği bunların exact ayah ve word koordinatlarını, kökünü, rolünü ve focus'a dönüş temasını vermiyor; bu nedenle global bir wider-trigger ilişkisi kurulamaz.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bf63a66c80db72aeb8ee",
+      "decision": "narrow",
+      "reason": "Yalnızca 6:94'te kişilerin tek başına gelişi ve iddia edilen aracıların geride kalmasıyla, odaktaki tam sayım arasında packet'te doğrudan bulunan daha dar paralel korunuyor. HFT özeti exact trace sunmadığından sayımın iddiaları fiilen ortadan kaldırdığı, bütün yanlış bağları çözdüğü veya filial rank'i sildiği biçimindeki geniş nedensel okuma taşınmıyor; genel inflated-claim ve yönlendirme iddiaları da bu bağlantıyla kanıtlanmıyor. Adayda ekli branch, facet, context ref veya semantic obligation kaydı yok.",
+      "finding_refs": ["global:count-and-individual-return"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f17d86de415fea4e07b2",
+      "decision": "narrow",
+      "reason": "Sayımın kalıcı kayıtla ve kişilerin unuttuğu amellerin de Allah tarafından sayılmasıyla buluşan ledger/hatırda tutma çekirdeği, 78:29 ve 58:6'nın exact metinleriyle bağımsız biçimde destekleniyor. Temporal closure, muster, categorical equalizer, whole-to-singleton hinge ile mercy/erasure çerçeveleri bu iki wider trigger'dan çıkmıyor; aynı perikopeye ait olan veya ek iz taşımayan parçalar kapsam dışında bırakıldı. HFT özeti exact trace değil; adayda ayrıca ekli branch, facet, context ref veya semantic obligation kaydı yok.",
+      "finding_refs": ["global:enumeration-as-retained-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d3915247b7d9a3973279",
+      "decision": "reject",
+      "reason": "Kişiler, ameller ve günler alternatifleri unanchored HFT özetinde sıralanıyor; focus yüzeyinde verilen çoğul nesne zamiri kişileri gösteriyor ve cognate accusative aynı sayma eylemini güçlendiriyor. 58:6 veya zaman sayımıyla ilgili bağlantılar kendi farklı nesnelerini anlatır; bunlar focus zamirinin gönderimini değiştiren bir wider trigger oluşturmaz. Alternatifler göz ardı edilmedi, fakat global reading olarak temellendirilemedi.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_95c4e3f7c198a6ab13c7",
+      "decision": "reject",
+      "reason": "Bu kayıt bir reading değil, routing ve ilişkisel okumaların dizi oklarından geldiğine dair yöntemsel bir belirsizlik bildiriyor. HFT desteği değerlendirilebilir bir focus word, exact context coordinate veya bağımsız temas vermiyor; bu nedenle global finding'e dönüşmüyor ve sınırlama friction'da korunuyor.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b43435bbeca3665a7f48",
+      "decision": "reject",
+      "reason": "HFT özeti çakıl ve su noktası çağrışımlarını anchor'sız ileri sürüyor. Mevcut yerel çözümleme أَحْصَىٰهُمْ biçimini exhaustive counting, عَدَّهُمْ عَدًّا yapısını ise sayma fiilinin doğrudan cognate accusative'i olarak seçiyor; dışarıdan bağımsız çakıl veya su tetikleyicisi yok.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000332/B001",
+          "reason": "Bu dal küçük çakıl ve çakıllı arazi adlarını kapsıyor ve saymayı dışlıyor; odak taşıyıcısı ise bu kökün Form IV sayma fiilidir. Kök eşleşmesi dışında çakıl anlamını etkinleştiren bağımsız tetikleyici yok."
+        },
+        {
+          "branch_ref": "root_000989/B004",
+          "reason": "Bu dal kalıcı su veya su yeridir; odaktaki عَدَّهُمْ ve onun cognate accusative'i sayma eylemini açıkça kurar ve packet'te suyla ilgili bağımsız wider trigger yok."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:servant-class-individuals",
+      "origin_candidate_id": "cand_f5f7ad0e885df323075d",
+      "represented_candidate_ids": [],
+      "title": "Kulluk sınıfını tek tek saymak",
+      "claim": "21:26'daki onurlandırılmış kullar sınıfı ile birlikte duyulduğunda 19:94'ün eksiksiz sayımı, ortak kulluk niteliğini belirsiz bir yığın olmaktan çıkarıp her üyeyi sayımda ayrı ayrı tutan bir paralel kurar.",
+      "mechanism": "أَحْصَاهُمْ taşıyıcısının bütün birimleri kuşatan sayma anlamı ve عَدَّهُمْ عَدًّا ile açıkça yinelenen sayım, 21:26'da oğul iddiasının reddedilip onurlandırılmış kullardan söz edilmesiyle buluşur. Bu ayrı sınıf ifadesi, odaktaki sayımı ortak bir topluluğun üyelerini tek tek kapsama yönünde değiştirir.",
+      "reader_payoff": "Okur, ortak kulluk niteliğinin kişileri anonimleştirmediğini; topluluk halinde anılsalar da her birinin tam sayım içinde kaldığını görür.",
+      "containment": "21:26 ayrı bir pasajın paralelidir; iki ayetteki zamirlerin aynı kişilere döndüğü veya bu odak âyetinin tek başına tüm varlıklar için evrensel kulluk bildirdiği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "Cross-run desteği iki odak dalını doğrudan sabitliyor; wider trigger ise ters yönden gelen bir bağlantı adaylığı ve exact Arapça yüzey sunuyor, fakat aynı-referent ilişkisi ile hedef morfolojisi verilmediğinden sonuç paralel okuma olarak sınırlandırıldı."
+      },
+      "support_ids": ["sup_b96ffb12cfa1c6cafb47"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:94:2:1"],
+          "trigger_refs": ["21:26"],
+          "focus_return_refs": ["19:94:2:1"],
+          "carrier": "Form IV أَحْصَىٰهُمْ fiili, çoğul nesnesini eksiksiz sayıp sayısını bilme anlamını taşır.",
+          "independent_trigger": "21:26'nın sağlanan yüzeyi oğul iddiasını reddeder ve çoğulu onurlandırılmış kullar olarak adlandırır.",
+          "activation": "Dış pasajdaki kullar sınıfı, odak fiilinin tam sayımıyla buluşur; paralel okumada ortak sınıfın her üyesi sayımda ayrı ayrı tutulur.",
+          "resulting_reading": "Onurlandırılmış kullar olarak paylaşılan nitelik, tam sayım içinde her kişiyi ayrı ayrı görünür kılar.",
+          "boundary": "Bağlantı iki pasaj arasında paraleldir; 19:94 zamirinin 21:26'daki aynı referentlere döndüğünü kanıtlamaz."
+        },
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
+          "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:94:3:2"],
+          "trigger_refs": ["21:26"],
+          "focus_return_refs": ["19:94:3:2"],
+          "carrier": "Form I عَدَّهُمْ fiili ve ardından gelen عَدًّا cognate accusative'i, çoğul nesnenin sayılmasını açıkça kurar.",
+          "independent_trigger": "21:26'nın sağlanan yüzeyi onurlandırılmış kulları bir topluluk olarak anıyor.",
+          "activation": "Bu topluluk tanımı, odak fiilinin sayma işlemiyle temas ederek ortak sınıftaki üyelerin tek tek hesaba katılmasını belirginleştirir.",
+          "resulting_reading": "Sayım hem miktarı belirler hem de ortak sınıftaki kişileri içeride tutar.",
+          "boundary": "Odak ayette açık bir among-complement yoktur; sınıfa katma ilişkisi yalnızca wider paralel olarak okunur."
+        },
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F003",
+          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
+          "facet_statement": "Sayıca çokluğu belirtme veya birini belirli bir topluluğun üyeleri arasında sayma.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:94:3:2"],
+          "trigger_refs": ["21:26"],
+          "focus_return_refs": ["19:94:3:2"],
+          "carrier": "عَدَّهُمْ biçimi kişileri doğrudan sayımın nesnesi yapar; cognate accusative sayma eylemini pekiştirir.",
+          "independent_trigger": "21:26'da oğul iddiasının yerine onurlandırılmış kullardan oluşan bir sınıf sunulur.",
+          "activation": "Dışarıdaki bu sınıf ifadesi, sayma fiilinin bir kişiyi topluluk üyeleri arasında sayma uzantısını odak nesnesine bağlar.",
+          "resulting_reading": "Kulluk sınıfı soyut kalmaz; her kişi bu ortak nitelik içinde sayılan bir üye olarak duyulur.",
+          "boundary": "Bu, 21:26 ile 19:94 arasında sınırlı bir paraleldir; özdeş referent veya odak ayette açıkça söylenmiş bir sınıf tümleci değildir."
+        }
+      ],
+      "connection_refs": ["conn_6b23817a4df31758e5db"],
+      "context_refs": ["21:26"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:count-and-individual-return",
+      "origin_candidate_id": "cand_bf63a66c80db72aeb8ee",
+      "represented_candidate_ids": [],
+      "title": "Tam sayım ve tek tek geliş",
+      "claim": "19:94'ün tam sayımı, 6:94'te kişilerin tek tek gelip mallarını ve iddia ettikleri aracıları geride bıraktığı sahneyle yan yana gelince, sayılan çoğul her kişinin ayrı ayrı hesaba katıldığı bir dönüş olarak okunabilir.",
+      "mechanism": "أَحْصَاهُمْ ile عَدَّهُمْ عَدًّا tüm nesneyi ve sayım eylemini taşır; 6:94'ün kişilerin tek başına gelişi ve sahip olduklarını geride bırakması bu eyleme bireysel bir karşılık verir. Temas, sayımı yalnızca toplam miktar olmaktan çıkarıp her kişinin ayrı konumunu düşündürür.",
+      "reader_payoff": "Sayılmış çoğulun içinde her kişi seçilebilir hale gelir; dış pasajdaki geliş sahnesi, kişisel dönüşü iddia edilen desteklerden bağımsız olarak görünür kılar.",
+      "containment": "6:94 ayrı bir pasajın paralelidir ve 19:94'teki zamirin aynı kişileri gösterdiğini kanıtlamaz; odak âyetinin kendi başına aracıları veya amelleri kaydettiği ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "Sağlanan 6:94 Arapça yüzeyi tek tek geliş ve geride kalan iddiaları gösteriyor; aday HFT özeti legacy_unbound ve anchor trace içermiyor, bu nedenle yalnız bağlantıdan bağımsız biçimde temellendirilebilen paralel korundu."
+      },
+      "support_ids": ["sup_85441d0c64e6eb660cdf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:94:2:1"],
+          "trigger_refs": ["6:94"],
+          "focus_return_refs": ["19:94:2:1"],
+          "carrier": "أَحْصَىٰهُمْ bütün çoğul nesneyi eksiksiz sayma anlamını taşır.",
+          "independent_trigger": "6:94 kişilerin Allah'a tek tek gelişini ve iddia ettikleri yardımcıların yanlarında olmayışını anlatır.",
+          "activation": "Kişisel geliş sahnesi, odaktaki tam sayımla temas ederek sayılanların tek bir yığın değil ayrı ayrı hesaba katılan kişiler olduğu okumasını açar.",
+          "resulting_reading": "Tam sayım, her kişinin ayrı gelişini taşıyabilecek bir bireysel hesap görüntüsüne dönüşür.",
+          "boundary": "İki pasaj arasındaki paralel aynı kişiler olduklarını veya 19:94'teki sayımın amelleri kaydettiğini söylemez."
+        },
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
+          "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:94:3:2", "19:94:4:1"],
+          "trigger_refs": ["6:94"],
+          "focus_return_refs": ["19:94:3:2", "19:94:4:1"],
+          "carrier": "عَدَّهُمْ fiili çoğul kişileri sayar; عَدًّا cognate accusative'i aynı sayma eylemini yoğunlaştırır.",
+          "independent_trigger": "6:94'te muhatapların tek tek gelişi ve yanlarında iddia ettikleri aracılar bulunmaması.",
+          "activation": "Tek tek geliş, odaktaki doğrudan sayımın çoğul nesnesini bireysel birimlere açar.",
+          "resulting_reading": "Sayımın toplamı her kişinin ayrı ayrı hesaba dahil oluşu olarak duyulur.",
+          "boundary": "Bu wider paralel, 6:94'te bir sayma fiili bulunduğunu veya iki ayetin nesnelerinin özdeş olduğunu ileri sürmez."
+        }
+      ],
+      "connection_refs": ["conn_75288d405619b7016305"],
+      "context_refs": ["6:94"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:enumeration-as-retained-account",
+      "origin_candidate_id": "cand_f17d86de415fea4e07b2",
+      "represented_candidate_ids": [],
+      "title": "Sayımın kalıcı hesapla buluşması",
+      "claim": "78:29'da her şeyin bir kayda geçirilerek sayılması ve 58:6'da kişilerin unuttuğu amellerin Allah tarafından sayılmış olması, 19:94'ün eksiksiz sayımını geçici bir toplamdan çok kalıcı bir hesap olarak duyurur.",
+      "mechanism": "Odaktaki أَحْصَىٰهُمْ tam sayım taşıyıcısı, bir yerde sayımın kitapla birlikte anılması ve başka bir yerde unutulmuş amellerin de sayılmış olduğunun söylenmesiyle temas eder. Bu iki wider tetikleyici, sayımın kapsamını kalıcılık ve insan belleğinin ötesinde bilgi yönünde genişletir.",
+      "reader_payoff": "Okur, sayımı yalnızca bir toplamın çıkarılması değil, insanların unuttuğu şeyleri de kaybetmeyen bir ilahî hesap görüntüsü olarak algılar.",
+      "containment": "19:94'te doğrudan sayılan nesne kişilerdir; kitap veya ameller odak ayetin açık tamamlayıcısı değildir. Dış pasajlar benzer sayımın kayıt ve unutulan amellerle ilişkisini açar, odak zamirinin gönderimini değiştirmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "78:29 ve 58:6'nın sağlanan Arapça yüzeyleri ile bağlantı kayıtları kalıcı kayıt ve unutulan ameller temasını somutlaştırıyor. Aday HFT özeti legacy_unbound ve exact trace içermediğinden yalnız bu iki bağımsız bağlantıyla doğrulanabilen kayıt boyutu tutuldu."
+      },
+      "support_ids": ["sup_99c36fa6b0ed07280f70"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:94:2:1"],
+          "trigger_refs": ["58:6", "78:29"],
+          "focus_return_refs": ["19:94:2:1"],
+          "carrier": "أَحْصَىٰهُمْ çoğul nesneyi eksiksiz sayıp bilgisinde kuşatma anlamını taşır.",
+          "independent_trigger": "78:29 eksiksiz sayımı kitapla birlikte verir; 58:6 ise insanların unuttuğu amellerin Allah tarafından sayıldığını söyler.",
+          "activation": "Kayıt ve unutulan amel örnekleri, odaktaki eksiksiz sayımla birleşerek sayımı anlık toplamın ötesinde kalıcı tutulmuş bilgi gibi duyurur.",
+          "resulting_reading": "Sayım, kişileri kapsayan ve insan belleği unuttuğunda da kaybolmayan bir hesap görüntüsüne açılır.",
+          "boundary": "Bu bağlantı odak ayetin doğrudan amelleri veya yazılı kitabı saydığını değil, wider pasajların benzer ilahî sayımı bu boyutlarla ilişkilendirdiğini gösterir."
+        }
+      ],
+      "connection_refs": ["conn_da23258bbc27d97bbb13", "conn_d4a85d555207c5dde7ec"],
+      "context_refs": ["58:6", "78:29"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:human-counting-limits",
+      "origin_candidate_id": null,
+      "represented_candidate_ids": [],
+      "title": "İnsan ölçüsü ve tam sayım",
+      "claim": "14:34 ve 16:18'de insanın Allah'ın nimetlerini sayamaması, 18:12'de ise iki topluluğun uyuyanların kaldığı süreyi hangisinin daha iyi saydığının sorulması, 19:94'teki eksiksiz ilahî sayımı insan ölçüsünün erişim sınırıyla karşılaştırır.",
+      "mechanism": "أَحْصَىٰهُمْ taşıyıcısının tam kapsamlı sayımı; insanın nimetleri kuşatamadığını bildiren iki wider metin ve belli bir süreyi karşılaştırmalı sayma sorusuyla buluşur. Temas, focus sayımını yalnız nicelik olarak değil, insanın erişemediği kapsamı kuşatan bilgi olarak belirginleştirir.",
+      "reader_payoff": "Odaktaki sayımın tamlığı, insanın nimetleri bütünüyle sayamaması ve tek bir süre üzerinde ölçü karşılaştırması yapması yanında yeni bir ölçek kazanır.",
+      "containment": "Dış pasajların nesneleri nimetler ve uyuyanların süresidir; 19:94'te sayılan kişilerdir. Bu paralel insanların hiçbir şeyi sayamayacağını veya focus ayetin nimetleri ya da süreyi saydığını ileri sürmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [],
+        "reason": "14:34, 16:18 ve 18:12'nin exact Arapça yüzeyleri ile odak yönündeki bağlantı notları somut karşılaştırma sağlıyor; hedef morfolojisi verilmediği için ilişki sözcük çözümlemesi değil, sınırlı bağlamsal karşıtlık olarak tutuldu."
+      },
+      "support_ids": [],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["19:94:2:1"],
+          "trigger_refs": ["14:34", "16:18", "18:12"],
+          "focus_return_refs": ["19:94:2:1"],
+          "carrier": "أَحْصَىٰهُمْ Form IV sayma fiiliyle çoğul nesneyi bütünüyle kapsar.",
+          "independent_trigger": "14:34 ve 16:18 insanların Allah'ın nimetlerini sayamamasını bildirirken, 18:12 iki topluluğun uyuyanların kalış süresini hangisinin daha iyi saydığını sorar.",
+          "activation": "İnsanların nimetler karşısındaki sayamaması ve tek bir süre üzerindeki karşılaştırmalı ölçüsü, odaktaki bütün kişileri kapsayan sayımla temas eder; değişen şey sayımın nesnesi değil, eriştiği kapsamın ölçeğidir.",
+          "resulting_reading": "19:94'ün sayımı insanın sınırlı veya karşılaştırmalı sayımının karşısında tam bir ilahî kuşatıcılık olarak belirir.",
+          "boundary": "Bu ayetler focus'un kişilerini değil nimetleri ve süreyi konu eder; bağlantı nesne özdeşliği ya da genel insan yetersizliği iddiası değildir."
+        }
+      ],
+      "connection_refs": [
+        "conn_a08e9a3a478e7ef935d1",
+        "conn_50771844e1c8810e9d71",
+        "conn_c7ca909ce172a10ec0ed"
+      ],
+      "context_refs": ["14:34", "16:18", "18:12"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "Focus word alignment tamdır (6/6); buna karşılık yedi legacy_unbound HFT reader-summary kaydının anchor evidence sayısı sıfırdır ve hiçbirinde exact context word index, root/role trace veya focus return verilmemiştir. 19:84 sayım yayı, kull-fardan bracket'i ve geniş yönlendirme iddiaları HFT özetlerinden tek başına etkinleştirilemedi.",
+    "Tutulan HFT aday parçaları yalnız 6:94, 58:6 ve 78:29 gibi packet içinde tam metni bulunan bağımsız bağlantılarla sınırlandırıldı; uygulama HFT trace'ine attributed edilmedi. Wider bağlantıların hedef morfolojisi eksik ve bazıları ters yönlü nomination olduğundan hepsi qualified paralel olarak yazıldı.",
+    "Çakıl ve kalıcı su branch'leri için focus dışından bağımsız bir tetikleyici yok; sağlanan yerel çözümleme Form IV sayımı ve cognate accusative sayma yapısını seçiyor."
+  ]
+}

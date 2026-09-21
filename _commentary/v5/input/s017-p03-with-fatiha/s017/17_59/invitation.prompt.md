@@ -1,0 +1,191 @@
+# V5 reading invitation — 17:59
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_59/17_59.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_59/17_59.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Alıkoymanın Sebebi
+
+Ayet başındaki {ar:وَ, tr:wa, gloss:ve}, ayetin kendi hareketini sürdürür: önce işaret göndermenin alıkonma sebebi, sonra Semûd'e verilen belirli işaret, en sonunda gönderimin süren amacı gelir. Baştaki ve sondaki {ar:مَا ... إِلَّا, tr:mā ... illā, gloss:ancak ...} aynı yapıyı paylaşır, fakat ayrı görevler üstlenir: ilki sebebi, sonuncusu amacı sınırlar. Aralarındaki deve sahnesi, soyut açıklamayı yaşayan bir işaretle karşılaşmaya dönüştürür ve iki gönderme cümlesini birbirine bağlar.
+
+İlk {ar:أَنْ نُرْسِلَ, tr:an nursila, gloss:göndermemiz}, {ar:مَنَعَنَا, tr:manaʿanā, gloss:bizi alıkoydu} fiilinin yönettiği tamamlayıcıdır: alıkonma işaretlerin varlığına değil, onları gönderme eylemine ilişkindir. Mastarlaştırıcı {ar:أَنْ, tr:an, gloss:-me}, Form IV fiili mansub ve bağımlı biçimde bu engellemenin konusu yapar; burada ayrı bir gönderme olayı kurulmaz. Form I'deki geçmiş {ar:مَنَعَنَا, tr:manaʿanā, gloss:bizi alıkoydu} engelleme eylemini tamamlanmış sunar, süresinin ötesini belirlemez. Bildirilen bir varyant bu alıkoyma tonunu ağırlaştırabilir; ayetin ana yüzeyi Form I olarak kalır. Form IV de işaretleri yöneltilmiş bir gönderme eyleminin ürünü kılar; bu belirleme gönderme fiiline aittir, her türlü görünmenin yönetildiği anlamına gelmez.
+
+İstisnadan sonraki {ar:أَنْ كَذَّبَ بِهَا, tr:an kadhdhaba bihā, gloss:onları yalanlamaları} alıkoymanın sebebini yalanlama eylemine bağlar. {ar:أَنْ, tr:an, gloss:-me} hem eylemi hem de yalanlamanın gerçekleşmiş olmasını öne çıkarabilir; bu iki açık çözümleme geçmiş olayı şimdiki gerekçeye bağlar. Fiilin ayetteki biçimi {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalan saydı}, Form II'nin işaretleri yanlış ve asılsız ilan eden etkin reddidir. Hemen ardından gelen {ar:الْأَوَّلُونَ, tr:al-awwalūn, gloss:öncekiler} çoğul özne bu eylemin insan faillerini gösterir. {ar:بِهَا, tr:bihā, gloss:onlarla} edatı reddi işaretlerle ilişkilendirirken dişil tekil zamir çoğul {ar:الْآيَاتِ, tr:al-āyāti, gloss:işaretler} sınıfını dilbilgisel olarak bir arada tutar.
+
+Belirli çoğul {ar:الْآيَاتِ, tr:al-āyāti, gloss:işaretler}, tek ve belirsiz bir mucizeden ziyade bilinen ayet, kanıt ya da mucize sınıfını adlandırır. {ar:بِالْآيَاتِ, tr:bi-l-āyāti, gloss:işaretler aracılığıyla} içindeki {ar:بِـ, tr:bi, gloss:ile}, işaretleri gönderimin aracı ya da eşlik eden ortamı olarak ilişkilendirir; “işaretlerle” çevirisi bu bağı korur. Aynı belirli çoğulun başlangıçta ve son cümlede yinelenmesi, deve sahnesi ortada gelişirken gönderilen işaret sınıfını sabit tutar. Sonda değişen, bu sınıf değil, gönderme fiilinin görevi ve amacı olacaktır.
+
+Alımlanma, ayetin gönderme kararına ek olarak, işaretin nasıl duyulup kavrandığı sorusunu da açar. Kur'an'daki sunuşların çeşitlenmesinin ardından uzaklaşmanın arttığı belirtilir {ar:صَرَّفْنَا فِي هَٰذَا الْقُرْآنِ, tr:ṣarrafnā fī hādhā al-qurʾān, gloss:bu Kur'an'da türlü biçimlerde sunduk}; {ar:نُفُورًا, tr:nufūran, gloss:uzaklaşma} bu artan karşılığı adlandırır (17:41). Her şey hamd ile tesbihini sürdürürken insanların bunu kavrayamaması ayrı bir bilişsel eşik oluşturur {ar:لَا تَفْقَهُونَ تَسْبِيحَهُمْ, tr:lā tafqahūna tasbīḥahum, gloss:onların tesbihini kavrayamıyorsunuz} (17:44). Bu eşik, devenin görmeyi sağlayan niteliğinin neden tasdikle özdeş olmadığını belirginleştirir. Perde (17:45) görmeye, kulaktaki ağırlık (17:46) işitmeye ilişkin başka engeller getirir. Birlikte alımlanmanın farklı yollarını gösterirler; ayrı topluluk ve bağlamları tek bir nedensel zaman çizgisine dönüştürmezler. 17:59'un açık gerekçesi, bu karşılaştırmalar arasında da önceki toplulukların yalanlamasıdır.
+
+17:48'de benzetmelerin ardından sapma ve yol bulamama gelir: {ar:الْأَمْثَالَ, tr:al-amthāla, gloss:benzetmeler}, {ar:ضَلُّوا, tr:ḍallū, gloss:saptılar} ve {ar:سَبِيلًا, tr:sabīlan, gloss:yol}. Böylece açıklayıcı benzetme, kimi alımlanışta yön kaybının parçasına dönüşebilir; {ar:مَنَعَنَا, tr:manaʿanā, gloss:bizi alıkoydu} da yalnızca sesi kesmek değil, yol bulmayı güçleştirmek yönünde yankılanır (17:48). Bu yol imgesi Fâtiha'nın dosdoğru yola yönelme isteği ve sapanları anmasıyla kesişir {ar:ٱهْدِنَا, tr:ihdinā, gloss:bize yol göster}; {ar:الصِّرَاطَ الْمُسْتَقِيمَ, tr:aṣ-ṣirāṭ al-mustaqīm, gloss:dosdoğru yol} (1:6); {ar:الضَّالِّينَ, tr:aḍ-ḍāllīn, gloss:sapanlar} (1:7). Bu yankı, 17:59'daki işaretleri ve korku uyandırma amacını rehberliğe nasıl karşılık verildiği sorusuna yaklaştırır (17:59); katkısı bu bağlantıyla sınırlı kalır, doğrudan bir yol buyruğu ya da Semûd ile Fâtiha'daki gruplar arasında özdeşlik kurmaz.
+
+Yakındaki dirilme ve çağrı dizisi başka bir soruya döner (17:49, 17:50, 17:51, 17:52). Taş ile demir, dirilmeyi tartışanların tasavvurundaki maddi direnci en uç noktaya taşır {ar:حِجَارَةً, tr:ḥijāratan, gloss:taş}; {ar:حَدِيدًا, tr:ḥadīdan, gloss:demir} (17:50). “Bizi kim geri getirecek?” sorusuna ilk yaratılış yanıt verir {ar:مَن يُعِيدُنَا, tr:man yuʿīdunā, gloss:bizi kim geri getirecek}; {ar:فَطَرَكُمْ أَوَّلَ مَرَّةٍ, tr:faṭarakum awwala marratin, gloss:sizi ilk kez var eden} (17:51). Ardından çağrıya cevap verilmesi bu dirilme çizgisini tamamlar {ar:فَتَسْتَجِيبُونَ, tr:fa-tastajībūna, gloss:karşılık verirsiniz} (17:52). Bu dönüş ve çağrı, gönderme kararını değil diriltme gücünü ele alır; iki ayrı karşılık alanı olarak kalırlar.
+
+{ar:الْأَوَّلُونَ, tr:al-awwalūn, gloss:öncekiler}, geçmişte işaretleri yalanlayan insan faillerini ve zaman bakımından önceliklerini görünür kılar. Ardından gelen {ar:وَ, tr:wa, gloss:ve}, bu genel gerekçeden Semûd'e verilen belirli armağana geçer. Böylece önceki karşılığın tarihsel yeri ile ayetin sıradaki canlı örneği birbirine bağlanır.
+
+## Canlı İşaret
+
+{ar:آتَيْنَا ثَمُودَ النَّاقَةَ, tr:ātaynā thamūda an-nāqata, gloss:Semûd'e dişi deveyi verdik} kuruluşunda Semûd alıcı, dişi deve verilen şeydir. Form IV {ar:آتَيْنَا, tr:ātaynā, gloss:verdik} olağan anlamıyla armağanı alıcıya ulaştırır; iki nesneli kuruluş, fiilin uzak “gelmek, ulaşmak” kullanımını da hafifçe duyurur: canlı işaret Semûd'e varır. Bu ulaşma yankısı hediyenin kendisini hareketli ve alıcıya yönelmiş kılar; temel anlam yine vermektir. Aynı fiil Dâvud'a Zebur'un verildiği ayrı armağanı da kurar {ar:وَآتَيْنَا دَاوُۥدَ زَبُورًا, tr:wa-ātaynā dāwūda zabūran, gloss:Dâvud'a Zebur'u verdik} (17:55). Bu tekrar verme eylemini birbirine bağlarken alıcılarla nesneleri ayrı tutar; Zebur ayet olmaz, iki armağanın karşılığı da eşitlenmez.
+
+Semûd adıyla suyun azalması ya da çekilmesi arasındaki ihtiyatlı etimolojik yankı, hediyenin yanına bir kaynak imgesi ekler; bu çağrışım adın kökenini veya gerçek su koşullarını belirlemez. {ar:النَّاقَةَ, tr:an-nāqata, gloss:dişi deveyi} ise yetişkin, canlı dişi devedir. Hediye oluşu ve hemen ardından görme niteliği alması, adın yıldız topluluğu için kullanılan başka anlamını bu sahnede etkinleştirmez. Ayetin sıralamasında Semûd önce alıcı, sonra {ar:فَظَلَمُوا, tr:fa-ẓalamū, gloss:böylece haksızlık ettiler} fiilinin öznesidir; armağanın ardından gelen karşılık, topluluk hakkında önceden verilmiş bir karakter hükmü değildir.
+
+Dişil etken ortaç {ar:مُبْصِرَةً, tr:mubṣiratan, gloss:görmeyi sağlayan}, yaşayan deveyi göze görünen nesneden görmeyi ve kavramayı açan işarete dönüştürür. Form IV'ten türeyen mansub ortaç, ana biçimde deveye bağlı bir hâli niteler; armağan böylece algılanabilir ve tanınabilir olur. Bildirilen varyantlar bu niteliği daha bağımsız bir yüklem ya da edilgen “görünür” biçiminde okuyabilir; bunlar alternatif çözümlemelerdir, etken ve deveye bağlı ana okumayla birlikte tutulur. Görülebilirlik, alıcının işareti fark etmesine imkân verir ve hemen sonraki karşılığın önemini hazırlar.
+
+Bu görünürlükten karşılığa geçişi kısa {ar:فَـ, tr:fa, gloss:böylece} duyurur. Uzun armağan ve niteleme sözlerinden sonra {ar:فَظَلَمُوا, tr:fa-ẓalamū, gloss:böylece haksızlık ettiler} fiiline beklemeden geçilmesi, hediye ile topluluğun cevabı arasındaki doğrudan sırayı işittirir; aradaki tarihsel ayrıntıları vermez. Çoğul geçmiş biçim tamamlanmış toplu eylemi kurar; davranışın bireylere nasıl dağıldığını veya süregelen bir yatkınlığa dönüşüp dönüşmediğini belirtmez. Doğrudan nesnenin söylenmemesi haksızlığın biçimini açık bırakırken, {ar:بِهَا, tr:bihā, gloss:onunla} eylemi canlı deveye ve onun işaret oluşuna bağlar.
+
+Buradaki {ar:بِـ, tr:bi, gloss:ile} ilişkisinde “onun üzerinden”, “onun yüzünden” ve “ona dair” yakın olasılıklardır; bağlam bunları alternatif tutar. İlk {ar:بِهَا, tr:bihā, gloss:onlarla} çoğul işaretler sınıfını dişil tekil zamirle toplar, sonrakiyse canlı dişi deveye döner. Bu ayrı öncüllerin aynı sesle yinelenmesi, zihinsel reddi yaşayan işarete yapılan muameleye bağlar: hayvanın karşılaştığı davranış işaretin nasıl alındığını görünür kılar, dilbilgisi ise hayvanla işareti bütünüyle özdeşleştirmez.
+
+{ar:ظَلَمُوا بِهَا, tr:ẓalamū bihā, gloss:onunla haksızlık ettiler} ahlaki haksızlığı önde tutarken, hakkı olan yer, pay ya da sınırdan çıkarma anlamını da deve sahnesine taşır. Bu dalın somut biçimi, canlıya veya nesneye uygun zaman, yer ya da koşul dışında müdahaledir. Dişi devenin işaret sayıldığı ve ona zarar vermenin yasaklandığı, ardından ayaklarından kesilip yere serildiğinin anlatıldığı yerde bu maddi karşılık belirginleşir {ar:فَعَقَرُوهَا, tr:fa-ʿaqarūhā, gloss:onu ayaklarından kestiler} (11:64, 11:65). Bu örnek 17:59'daki genel haksızlığın nasıl somut bir zarara dönüşebileceğini gösterir; odak ayet eylemi adlandırmadığı için belirli bir işlem ona taşınmaz. Sınır ihlalinin derecesi değişebilir, fakat hangi zaman, yer veya koşulun çiğnendiği burada açık bırakılır.
+
+Görmeyi açan {ar:مُبْصِرَةً, tr:mubṣiratan, gloss:görmeyi sağlayan} ile {ar:ظَلَمُوا, tr:ẓalamū, gloss:haksızlık ettiler} yan yana geldiğinde, görünürlüğe karşılık gelen etik ve kavrayışsal bir kararma imgesi doğar. Kökün karanlıkla ilgili kullanımları, haksızlığın görünür olanı örtmesini bilgisizlik, Allah'a ortak koşma ve yoldan sapma gibi durumlara bağlar; yoldan sapma 17:48'de de belirir. Buradaki aydınlık-karanlık karşıtlığı fiziksel geceyi değil, ahlaki ve bilişsel örtülmeyi çağrıştırır; temel anlam olan haksızlık bu imge içinde kalır.
+
+54:27'de dişi devenin kendisi {ar:فِتْنَةً, tr:fitnatan, gloss:sınanma} diye nitelenir ve onu gözetip sabretme buyruğu verilir. Bu açık sınanma çerçevesi, 17:59'daki armağan, görmeyi sağlayan nitelik ve {ar:بِهَا, tr:bihā, gloss:onunla} ile deveye bağlanan haksızlığı birlikte duyurur: işaret karşısındaki tutum, yaşayan hayvana davranışta görünür. “Sınanma” adı ve gözetme buyruğu 54:27'ye aittir; bu paralel iki anlatının tarihini birleştirmez, korkunun her durumda taşkınlık doğurduğu sonucunu da vermez.
+
+Gözle algılama ile iç kavrayış arasındaki açıklık, başka bağlamlarda da korunur. 6:25'te işaretler görülür, fakat görme imanı getirmez. Aynı {ar:مُبْصِرَةً, tr:mubṣiratan, gloss:görmeyi sağlayan} yüzey biçimi 27:13'te işaretlere uygulanır ve onlar “apaçık büyü” diye nitelenir {ar:سِحْرٌ مُبِينٌ, tr:siḥrun mubīnun, gloss:apaçık büyü}. 27:14'te ise içlerinde kesin bilgi bulunmasına rağmen inkârcıların kibir ve haksızlıkla reddettikleri anlatılır. Bu ayrı olaylar, göz önündeki açıklığın yorum ve kabulü belirlemediğini gösterir; iç kavrayış ihtimali bedensel görmenin yerini almaz, iki okuma da devenin görme sağlayan niteliği yanında açık kalır.
+
+İşaretlerin sayısı ve sunuluş biçimi, karşılığın tek belirleyicisi değildir. Kur'an'daki örneklerin çeşitlendiği 17:89'da çoğunluk inkârda kalır; 6:25'te görülen her işaret imanı getirmez. Musa'ya dokuz açık işaret verildikten sonra Firavun'un reddi (17:101) ve olağanüstü işaretler ya da meleklerin gelişinin imanı güvenceye almaması (6:111), aynı sınırı ayrı olaylarda gösterir. Birlikte, değişen veya çoğalan hatırlatmaların kabulü zorunlu kılamadığını; işaretlerin anlamını korurken karşılıkların farklı kalabildiğini anlatırlar. Bu örnekler çeşitliliği bıkkınlık, artan uzaklaşma ya da taşkınlığın sebebi olarak kurmaz.
+
+## Uyarı İçin Süren Gönderim
+
+Son {ar:وَ, tr:wa, gloss:ve}, deve örneğinden genel gönderme kuralına döner. İlk cümlede engellenmiş ve {ar:أَنْ, tr:an, gloss:-me} tarafından bağımlı kılınmış {ar:نُرْسِلَ, tr:nursila, gloss:göndermemiz}, burada bağımsız bildirme kipindeki {ar:نُرْسِلُ, tr:nursilu, gloss:gönderiyoruz} olarak yinelenir. Sondaki {ar:مَا, tr:mā, gloss:değil} bu bağımsız fiili olumsuzlar; {ar:إِلَّا, tr:illā, gloss:ancak} ise gönderimin amacını {ar:تَخْوِيفًا, tr:takhwīfan, gloss:korku doğurma} ile belirler. Böylece ayet, işaret gönderimini ortadan kaldırmak yerine süren eylemi uyarı amacıyla sınırlar. İlk {ar:مَا ... إِلَّا, tr:mā ... illā, gloss:ancak ...} alıkoymanın sebebini, son yapı bu cümlenin amacını belirler; kapsamı başka bağlamlardaki tüm gayeleri içermez ve gönderim sıklığını sınırsızlaştırmaz.
+
+Son cümledeki {ar:بِالْآيَاتِ, tr:bi-l-āyāti, gloss:işaretler aracılığıyla}, ilk cümledeki gibi aynı belirli işaret sınıfını gönderimin ortamı olarak taşır. İlk kullanımda Form IV fiil alıkonmuş eylemin parçasıdır; son kullanımda bağımsız fiil bu sınıfla süren gönderimi ve amacını bildirir. Bu değişim, önceki reddin ardından uyarı için gönderimin sürmesini ayetin kendi iki cümlesinde görünür kılar. Alımlanmayı gözeten “ölçülü gönderim” yorumu bu yerel sebep-amaç ilişkisini genişletir; ayetin açıkça adlandırdığı neden geçmiş inkârdır.
+
+Olağan anlamıyla {ar:نُرْسِلُ, tr:nursilu, gloss:gönderiyoruz} “gönderiyoruz” demektir. Fiilin uzak bir kullanımı, gönderenden alıcıya içerik taşıyan iletiyi de çağrıştırır. Burada {ar:بِالْآيَاتِ, tr:bi-l-āyāti, gloss:işaretler aracılığıyla} gönderim aracını, {ar:تَخْوِيفًا, tr:takhwīfan, gloss:korku doğurma} amacı verir; bu iki unsur bir araya gelince işaretler uyarı taşıyan bir ileti gibi duyulur. Bu, gönderme fiilinin “mesaj”a dönüşmesi ya da sözlü bir dil varsayımı değil, aracın ve amacın oluşturduğu ikincil yankıdır.
+
+Devenin iki gönderme cümlesi arasında durması, tekrarlanan fiil ile canlı hayvanı uzak bir süt-akışı imgesinde buluşturur. Form IV'ün uzak sözlük kullanımında hayvan sütü bol ve aralıksız akar; bu dal, iki gönderme sözü arasındaki deveye sürmekte olan bir rızık akışının taşıyıcısı rolünü verir. İlk cümledeki alıkoyma, bu akışın kesilmesine benzer bir duruş düşündürür. Ayrı bir Form II kullanımı olan {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalan saydı} devenin sütünün kesilmesi imgesini ekler: ret, beklenen verimin durmasına benzer. Bir varyantta sütün bir süre daha akacağının beklenip sonra kesilmesi, akışın boşa çıkan devamını belirginleştirir. Bu iki uzak kullanım birlikte akış ve kesilme karşıtlığını kurar; odaktaki fiiller olağan gönderme ve yalanlama anlamlarını korur, benzetme tarihsel bir süt olayı ileri sürmez.
+
+Form II mastarı {ar:تَخْوِيفًا, tr:takhwīfan, gloss:korku doğurma}, başkasında korku oluşturarak tehlikeyi fark edilir kılmayı adlandırır; muhatabın fiilen ne hissettiğini belirtmez. Mansub biçim gönderimin amacı olabilir; işaretlerin korku uyandıran hâlini veya tarzını da niteleyebilir. Elçilerin müjdeleyici ve uyarıcı oluşu bu amacın uyarı yönünü açar (6:48). Ateşle korkutmanın ardından gelen sakınma buyruğu, korkunun önleme yöneltebildiğini somutlaştırır {ar:يُخَوِّفُ اللَّهُ بِهِ عِبَادَهُ, tr:yukhawwifu llāhu bihi ʿibādahu, gloss:Allah bununla kullarını korkutur}; {ar:فَاتَّقُونِ, tr:fa-ttaqūni, gloss:benden sakının} (39:16). Böylece ihtiyat ihtimali, cezalandırıcı uyarı tonuyla birlikte kalır; sonuç her muhatap için garanti edilmez.
+
+Rahmet umudu, azap korkusu ve sakınılacak sonuç birlikte anılır (17:57); ardından yerleşimlerin kıyamet gününden önce yok edilmesi ya da ağır azap görmesi Kitap'ta yazılı bir ufuk olarak belirir (17:58). Yan yana gelen bu imgeler, uyarının sonuçtan önce cevap verme aralığı açabileceğini düşündürür. Bu aralık korunma, tövbe veya kabulü garanti etmez; 17:58'deki her yerleşimi Semûd'le bir tutmaz ve bütün olaylar için tek bir kronoloji kurmaz. Elçi ile ayetlerin horlanmadan önce sunulması da cevap zamanının bu anlamını genişletir (20:134); bu, kaçınılmaz bir sonu ya da herkese aynı koruyucu sonucu bildirmez.
+
+Zorlayıcı işaret ihtimali, alıkoymanın koruyucu bir yankısını açar. Gökten bir ayet inse insanların boyunlarının ona sürekli eğik kalacağının söylendiği bağlamda, olağanüstü sunuş teslimiyeti zorlayabilir (26:4). {ar:مَنَعَنَا, tr:manaʿanā, gloss:bizi alıkoydu} bu yüzden zorlanmış karşılığa karşı set çekme ve koruma gibi duyulabilir; kökün çevreleme, savunma ve destekleme yönleri bu imgeyi besler. Bu olası koruyucu okuma 17:59'un açıkladığı sebebin yerine geçmez: odak ayette alıkoyma önceki inkâra bağlanır.
+
+Alıkoyma ile önceki alımlanma arasındaki bağı, hidayet geldikten sonra insanların eski toplulukların başına gelecekleri veya azabı beklemesinin onları engellediği ayrı anlatım da belirginleştirir (18:55). Bu benzerlik, alıkoymayı önceki işaretlerin nasıl karşılandığı sorusuyla yan yana getirir; 18:55'teki aktörler ve olaylar 17:59'dakilerden ayrıdır.
+
+Gönderme kudreti ile talebin karşılanması arasındaki fark, ayrı örneklerde belirginleşir: Allah'ın işaret göndermeye gücü yettiği halde istenen işaret verilmez (6:37); yeminle istenen işaret de imanı güvenceye almaz (6:109), meleklerin veya olağanüstü delillerin gelişi de imanı zorunlu kılmaz (6:111). Bu bağlamlar, {ar:مَنَعَنَا, tr:manaʿanā, gloss:bizi alıkoydu} fiilinin verilebilir olanı bağlam içinde tutma yönünü etkinleştirir; alıkoyma kudret eksikliği ya da cimrilik değildir. 17:59 bu tek gerekçeyi bütün taleplere genellemez ve işaretlerin hiç gönderilmediğini söylemez. Önceki inkârı sebep, uyarıyı süren gönderimin amacı olarak birlikte okumak, alımlanmayı gözeten ve zorla tasdike yönelmeyen bir uygulama çıkarımına izin verir; bu, ayetin ilan ettiği bir koruma gayesi değil, iki cümlenin ilişkisinden doğan yorumdur.
+
+17:59'da devenin {ar:مُبْصِرَةً, tr:mubṣiratan, gloss:görmeyi sağlayan} niteliği işareti görünür kılar; {ar:كَذَّبَ بِهَا, tr:kadhdhaba bihā, gloss:işaretleri yalan saydı} ile ret, {ar:ظَلَمُوا بِهَا, tr:ẓalamū bihā, gloss:onunla haksızlık ettiler} ile canlıya yönelen davranışta karşılık bulur. Sondaki {ar:تَخْوِيفًا, tr:takhwīfan, gloss:korku doğurma} bu görünürlük ve karşılığı uyarı amacına taşır. 17:60'taki görü ve ağaç, bu ilişkiye ayrı bir sınama örneği ekler: gösterilenler {ar:الرُّءْيَا, tr:ar-ruʾyā, gloss:görü} ve {ar:أَرَيْنَاكَ, tr:araynāka, gloss:sana gösterdik} ifadeleriyle tanıtılır, sonra {ar:فِتْنَةً, tr:fitnatan, gloss:sınanma} diye nitelenir. Bu bağlamda korkutma yinelenir {ar:نُخَوِّفُهُمْ, tr:nukhawwifuhum, gloss:onları korkuturuz}; gösterilenlerin sınanma oluşu büyük taşkınlığı artırır {ar:يَزِيدُهُمْ, tr:yazīduhum, gloss:onları artırır}, sonuç da {ar:طُغْيَانًا كَبِيرًا, tr:ṭughyānan kabīran, gloss:büyük taşkınlık} olur (17:60). Burada korku sakınmaya değil aşırılığın artmasına eşlik eder; bu örnek, daha çarpıcı işaret göndermemenin olumsuz karşılığı sınırlayabileceği ihtimalini açar. Bu okuma, 17:60'taki görü, ağaç ve muhataplarıyla sınırlıdır; başka uyarılar için genel bir hüküm kurmaz.
+
+</editorial_prose>

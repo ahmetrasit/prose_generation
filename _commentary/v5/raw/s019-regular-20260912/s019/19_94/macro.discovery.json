@@ -1,0 +1,1546 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "19:94",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_d53ca4d1920f0f203464",
+      "decision": "narrow",
+      "reason": "Odak çakıl dalı 19:90'daki kozmik kırılmayla, tam sayım ve tekil geliş 19:93-95 ile, sayılı süre ise 19:79 ve 19:84'teki uzatma ve acele etmeme bağlamıyla temas ediyor; 19:79'daki yazılı iddia da sayaç/hesap ilişkisini destekliyor. İnci/boncuk dalı için dizgi, takı ya da inciyi ayrı kılan bağımsız bir tetikleyici yok.",
+      "finding_refs": [
+        "macro:cosmic-granularity",
+        "macro:counted-individuals",
+        "macro:measured-countdown",
+        "macro:claim-counterledger"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001141/B002",
+          "reason": "19:95'teki فردًا tek başına gelişi ve 19:90'daki kozmik parçalanma tekillik/küçük birim temasını destekler; fakat inci veya boncuk olarak ayrı tutulmuş nesne, dizi ya da süs imgesi için bağımsız tetikleyici sağlamaz."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fd5978743bd0d9002b1f",
+      "decision": "represented",
+      "reason": "Aynı karşı-hesap okuması macro:claim-counterledger bulgusunda tam olarak taşınıyor: 19:77'deki mal ve çocuk iddiası, 19:79'da yazıya geçirilmesi, 19:80'de devralınması ve tek başına geliş, 19:94'ün sayımıyla ilişkilendiriliyor. HFT izi ve before/after karşıtlığı bulguda korunuyor; HFT güveni legacy_unbound olduğu için uygulama atfedilmiş olarak kalıyor.",
+      "finding_refs": [
+        "macro:claim-counterledger"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e8eb3879b57b2eaaa891",
+      "decision": "represented",
+      "reason": "19:79'daki uzatma, 19:84'teki acele etmeme ve sürmekte olan sayım ile 19:94'teki tamamlanmış sayımın ölçülü bir aralığı kapatması macro:measured-countdown bulgusunda aynı okumadır. Üç iz dalı ile önce/sonra değişimi orada eksiksiz taşınıyor.",
+      "finding_refs": [
+        "macro:measured-countdown"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f0e25312da0b7a9c1731",
+      "decision": "accept",
+      "reason": "19:81'de beklenen güç, 19:82'de tersine dönen karşıtlık, 19:87'de sahip olunamayan şefaat ve 19:95'teki tekil geliş, odak sayımıyla birlikte destekçi bağların kişiyi hesaptan kurtarmadığı okumasını kuruyor. Bütün bağlam koordinatları ve HFT rolleri yüzeyle uyuşuyor; dallar atfedilmiş bağlamsal kanıt olarak tutuluyor.",
+      "finding_refs": [
+        "macro:affiliation-unbundled"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b7ab623acffc683d9ebf",
+      "decision": "narrow",
+      "reason": "19:85-86'daki toplanma, heyet olarak geliş ve sürülerek varış ile 19:95'te herkesin gelişi, 19:94 sayımının farklı güzergâhlardaki kişilerin eksiksizliğini doğrulaması olarak kalıyor. Odak kelimenin hazırlama dalı dışarıda bırakıldı: sağlanan çözümleme Form I fiilini sayma/hesaplama olarak sınırlar ve hazırlama dalıyla uyumsuz kılar.",
+      "finding_refs": [
+        "macro:routed-muster"
+      ],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000989/B002",
+          "reason": "Bu odak gerçekleşmesinin açık Form I çözümlemesi sayma/hesaplamayı seçer ve hazırlama anlamını dışarıda bırakır; sayımın sözlükçe hazırlık ya da donanım olduğu ileri sürülemez."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_bb0a69d8d0366030c172",
+      "decision": "accept",
+      "reason": "19:92'de çocuk iddiası reddedildikten sonra 19:93 herkesi Rahman'a kul olarak kapsıyor; 19:94'ün eksiksiz sayımı bu evrensel statüye ayrıcalıklı bir soy istisnası bırakmıyor. HFT'nin güçlü güven derecesi legacy_unbound kimliği nedeniyle nitelikli ve atfedilmiş tutuluyor.",
+      "finding_refs": [
+        "macro:category-status"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_432538085da58e66fea3",
+      "decision": "represented",
+      "reason": "Bütünün sayım yoluyla tekil gelişlere çözülmesi ama toplamın kaybolmaması macro:counted-individuals bulgusunda aynen taşınıyor. Odak sayım dalları, iki كُلّ kullanımı, فردًا bağlamı ve HFT'nin önce/sonra okuması orada yer alıyor.",
+      "finding_refs": [
+        "macro:counted-individuals"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_00f6c7bcf9831392db74",
+      "decision": "accept",
+      "reason": "19:93 ve 19:96'da tekrarlanan Rahman öznesi, 19:94'teki eksiksiz sayımı 19:96'nın belirli kişiler için sevgi yaratmasıyla yan yana getiriyor. Bu, sayımı yalnızca kişiliksiz gözetim değil, sonraki farklılaşmış ilişkinin önündeki tam tanınma olarak okumaya imkân veriyor; alternatif bağlantısız vaat olasılığı korunuyor.",
+      "finding_refs": [
+        "macro:individual-recognition"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cfc8ec77d6f060fbffa4",
+      "decision": "accept",
+      "reason": "19:98 önceki kuşakların yok edilmesini, onlardan kimsenin duyumsanıp duyumsanamadığı ve seslerinin işitilip işitilemediği sorularıyla anlatıyor. Tam sayım ile sonradan kalan duyusal izlerin yokluğu arasındaki HFT teması odak yüzeyine dönüyor; ontolojik sonucu nitelikli ve atfedilmiş tutuluyor.",
+      "finding_refs": [
+        "macro:account-outlasts-trace"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_08d732a16b5c60598f39",
+      "decision": "represented",
+      "reason": "19:90'daki göklerin çatlaması, yerin yarılması ve dağların yıkılmasının çakıl dalıyla teması macro:cosmic-granularity bulgusunda aynı kozmik-granüler okuma olarak taşınıyor. Dört dal bağlantısı, keşifsel güven düzeyi, maddi benzetme sınırı ve HFT atfı korunuyor.",
+      "finding_refs": [
+        "macro:cosmic-granularity"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8ec7e31f72e586ac9b23",
+      "decision": "accept",
+      "reason": "19:86'daki sürülme ve varış, odak kökün su kaynağı dalıyla buluştuğunda sayımı sabit varış noktası çevresindeki bir su noktası çizelgesine benzeten somut fakat uzak bir bağ kuruyor. HFT koordinatları yüzeyde mevcut; okuma yalnızca keşifsel ve atfedilmiş bir analoji olarak korunuyor.",
+      "finding_refs": [
+        "macro:waterpoint-analogy"
+      ],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:cosmic-granularity",
+      "origin_candidate_id": "cand_d53ca4d1920f0f203464",
+      "represented_candidate_ids": [
+        "cand_08d732a16b5c60598f39"
+      ],
+      "title": "Kozmik kırılmanın çakıl ölçeği",
+      "claim": "Odaktaki eksiksiz sayım imgesi 19:90'da göklerin çatlaması, yerin yarılması ve dağların yıkılmasıyla karşılaşınca, kozmik ölçekteki bütünün sayılabilir küçük birimlere çözülmesi şeklinde düşünülebilir.",
+      "mechanism": "أَحْصَىٰ odakta sayıp bütünü eksiksiz belirleme anlamını taşır. Bağımsız 19:90 dizisi sağlam kozmik yapının açılmasını ve dağların yıkılmasını verir; bu kırılma, odaktaki çakıl dalıyla temas ederek soyut toplamı küçük parçalar halinde kavranabilir kılar.",
+      "reader_payoff": "Sayımın kapsadığı büyüklük, birim birim düşünülebilir hale gelir.",
+      "containment": "Bu, أَحْصَىٰ için çakıl anlamını temel gloss yapmaz ve insanların literal taşlara dönüştüğünü söylemez; Form IV fiil sayma olarak kalır. 19:90 yalnızca iddianın kozmik sarsıcılığını vurguluyor da olabilir. Maddi ilişki, legacy_unbound HFT yorumunun keşifsel sınırındadır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Çakıl dalının focus kaydında gloss ve core faseti var; fakat bu fasetin 19:90'daki kırılmayla teması yalnızca legacy_unbound HFT izinde açıkça kurulmuş, kaynak dallar da çözülmemiştir."
+      },
+      "support_ids": [
+        "sup_492269051a25d59dbdb7",
+        "sup_745e82b841978b17bbed",
+        "sup_771dbfd3f88544518381"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B001",
+          "facet_id": "F001",
+          "branch_gloss": "çakıl taşı, çakıllar ve çakıllı arazi",
+          "facet_statement": "Temel gönderim, küçük taşların topluluğudur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:94:2:1"
+          ],
+          "trigger_refs": [
+            "19:90:3",
+            "19:90:8",
+            "19:90:9"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "Odaktaki أَحْصَىٰ (19:94:2:1); yerel fiil sayımı taşır, çakıl faseti yalnızca bağlamsal imge olarak etkinleşir.",
+          "independent_trigger": "19:90:3'teki göklerin çatlaması, 19:90:8'deki dağ kütlesi ve 19:90:9'daki yıkılma.",
+          "activation": "Focus çakıl dalı, ayrı ayetteki sağlam kütlenin çözülmesiyle temas eder; böylece sayımın birimleri küçük ve kavranabilir olarak tasavvur edilir.",
+          "resulting_reading": "Kozmik ölçekteki kütle bile sayımın tek tek kuşatabildiği küçük birimlere ayrılmış gibi okunur.",
+          "boundary": "Çakıl, fiilin sözlükte seçtiği temel anlam değil, 19:90 ile tetiklenen maddi yankıdır."
+        },
+        {
+          "branch_ref": "root_001165/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:90:3"
+          ],
+          "trigger_refs": [
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:90:3'teki فَطَرَ kök gerçekleşmesi; HFT onu açılma ve yarılmanın başlangıcı olarak atfediyor.",
+          "independent_trigger": "Odaktaki sayıp eksiksiz belirleme fiilinin çakıl core dalı.",
+          "activation": "HFT'nin bağlam dalına atfettiği yarılma, odak çakıl imgesiyle buluşarak sağlam yapının parçalanmasına bir başlangıç verir.",
+          "resulting_reading": "Kozmik yapının açılması, sayılabilir parçalara dönüşen kütlenin ilk hareketi olarak görünür.",
+          "boundary": "Dal kaydı unresolved; gloss ya da sözlük faseti ileri sürülmüyor, HFT rolü yalnızca atfedilmiş bağlam kanıtıdır."
+        },
+        {
+          "branch_ref": "root_000217/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:90:8"
+          ],
+          "trigger_refs": [
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:90:8'deki dağlar kök gerçekleşmesi; HFT bunu büyük ve sağlam bir kütle olarak atfediyor.",
+          "independent_trigger": "Odaktaki çakıl core dalı ve sayım fiili.",
+          "activation": "Dağ kütlesi imgesi, çakıl fasetinin küçük birimleriyle ölçeksal karşıtlık kurar.",
+          "resulting_reading": "Sayımın maddi yankısı, dağ büyüklüğündeki sağlam toplamı küçük birimlere çözülür halde gösterir.",
+          "boundary": "Dal kaydı unresolved; dağ kütlesi rolü HFT'ye atfedilir ve focus'a dönmeyen bağımsız bir lexical claim değildir."
+        },
+        {
+          "branch_ref": "root_001580/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:90:9"
+          ],
+          "trigger_refs": [
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:90:9'daki هَدًّا gerçekleşmesi; HFT bunu şiddetli kırılma ve yıkılma olarak atfediyor.",
+          "independent_trigger": "Odaktaki sayımın çakıl faseti.",
+          "activation": "Yıkılma, dağ ölçeğindeki bütünlüğü sayılabilir parçalara doğru götürür ve odak sayımla temas eder.",
+          "resulting_reading": "Kırılma sahnesi, eksiksiz sayımın kavrayabileceği granüler bir ölçek açar.",
+          "boundary": "Dal kaydı unresolved; yalnızca HFT'nin atfedilmiş rolü kullanılır, literal dönüşüm ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_46158048806051b83970"
+      ],
+      "context_refs": [
+        "19:90"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:counted-individuals",
+      "origin_candidate_id": "cand_d53ca4d1920f0f203464",
+      "represented_candidate_ids": [
+        "cand_432538085da58e66fea3"
+      ],
+      "title": "Bütünün içindeki tekil geliş",
+      "claim": "19:93'te göklerdeki ve yerdeki herkes Rahman'a kul olarak gelir; 19:95'te yine herkes kıyamet günü tek başına gelir. Aradaki odak sayımı, kapsanan bütünü tek tek kişiler halinde belirlerken toplamın hiçbir üyesini dışarıda bırakmaz.",
+      "mechanism": "أَحْصَىٰ birimlerin eksiksiz kapsanmasını, عَدَّ ise sayısal miktarı belirlemeyi taşır. 19:93 ve 19:95'te tekrarlanan كُلّ kapsamı ve 19:95'teki فَرْدًا, focus sayımına bağımsız tetikleyici sağlar; bütünlük ile tekil geliş aynı sayım ekseninde buluşur.",
+      "reader_payoff": "Herkesin birlikte kapsanması ile her kişinin ayrı gelişi birbirini silmez; sayım toplamı korurken kişiyi de belirginleştirir.",
+      "containment": "Bu, tek başına gelişin sayımın tek sonucu ya da kesin doktrinel hüküm olduğunu iddia etmez. Üç ayet yalnızca evrensel kapsama vurgu yapıyor da olabilir; HFT'nin sayımın bütünü tekillere çözmesi yorumu legacy_unbound atfıdır. İnci/boncuk imgesi bu bulguya alınmamıştır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "Yerel iki odak sayım dalı gloss/faset bakımından kayıtlıdır ve 19:93/95 yüzeyi açıktır; bütünün tekil birimlere çözülmesi HFT'nin legacy_unbound izinde açıkça kurulduğu için niteliklidir."
+      },
+      "support_ids": [
+        "sup_745e82b841978b17bbed",
+        "sup_771dbfd3f88544518381",
+        "sup_f22ff8c332e7c309d89c"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Bir şeyin birimleri sayılarak sayısı belirlenir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:2:1"
+          ],
+          "trigger_refs": [
+            "19:93:2",
+            "19:95:1",
+            "19:95:5"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "Odaktaki أَحْصَىٰهُمْ fiili.",
+          "independent_trigger": "19:93 ve 19:95'teki ayrı كُلّ kullanımları ile 19:95:5'teki فَرْدًا.",
+          "activation": "Odak fiilinin sayım anlamı, evrensel toplam ve her kişinin tek başına gelişiyle karşılaşınca toplamı oluşturan birimler belirginleşir.",
+          "resulting_reading": "Eksiksiz sayım, bütünün üyelerini tek tek belirleyerek kapsar.",
+          "boundary": "F001 yalnızca birimlerin sayısını belirlemeyi söyler; tekil gelişin ilahi hesabın tek maksadı olduğu ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:94:2:1"
+          ],
+          "trigger_refs": [
+            "19:93:2",
+            "19:95:1",
+            "19:95:5"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "Odaktaki أَحْصَىٰهُمْ; F001'in sayım çekirdeği üzerinde tam kapsama uzmanlaşması.",
+          "independent_trigger": "19:93 ve 19:95'teki tekrarlanan كُلّ ve 19:95'teki tekil geliş.",
+          "activation": "Tam sayım faseti, iki uçtaki herkes kapsamıyla birleşince bir bütünün hiçbir üyesini kaybetmeden kişilere ayrılmasını açıklar.",
+          "resulting_reading": "Bütün, tekil gelişler halinde ayrışsa da eksiksiz toplam olarak kalır.",
+          "boundary": "F002, F001'in üzerine eklenen tam kapsama uzmanlaşmasıdır; core F001 korunur ve sayımın ötesinde bir işlem ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
+          "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:94:3:2",
+            "19:94:4:1"
+          ],
+          "trigger_refs": [
+            "19:94:2:1",
+            "19:95:5"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "Odaktaki عَدَّهُمْ ve onu pekiştiren عَدًّا.",
+          "independent_trigger": "Aynı ayetin eksiksiz kuşatma fiili ve hemen sonraki ayetteki فَرْدًا.",
+          "activation": "İkinci sayım ve cognate accusative, kuşatma fiilinin belirlediği bütünü tekil gelen kişilerle eşler.",
+          "resulting_reading": "Toplam sayı yalnız bir kitle değil, ayrı ayrı hesaplanan kişilerden oluşur.",
+          "boundary": "Root B001 sayısal sayım olarak kalır; kişiler arası eşitlik veya hukuki pay anlamı bu bulgunun iddiası değildir."
+        },
+        {
+          "branch_ref": "root_001315/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:93:2",
+            "19:95:1"
+          ],
+          "trigger_refs": [
+            "19:94:2:1",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:93:2 ve 19:95:1'deki كُلّ; HFT bunları bütünlüğü kapalı tutan kullanımlar olarak atfediyor.",
+          "independent_trigger": "Odak sayımının iki ayetin arasına yerleşmesi ve 19:95'teki فردًا.",
+          "activation": "HFT'nin totality rolü, focus sayımının çözdüğü bütünün çevresini belirler.",
+          "resulting_reading": "Tek tek gelişi anlatılanlar, iki kez belirtilen bütünün dışında kalmaz.",
+          "boundary": "Kök/dal kaydı unresolved; gloss veya faset uydurulmaz, bütünlük teması HFT'ye atfedilir."
+        },
+        {
+          "branch_ref": "root_001141/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "single apartness",
+          "facet_statement": "single apartness",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:95:5"
+          ],
+          "trigger_refs": [
+            "19:93:2",
+            "19:94:2:1",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1",
+            "19:94:3:2"
+          ],
+          "carrier": "19:95:5'teki فَرْدًا, tek başına/ayrı geliş imgesi.",
+          "independent_trigger": "Odaktaki eksiksiz kuşatma ve sayım.",
+          "activation": "Ayrı geliş, odak sayımının birimlerini kişisel varışlarla eşleştirir; 19:93'teki كُلّ toplamın korunmasını sağlar.",
+          "resulting_reading": "Her kişi tekil gelir, ancak sayılan herkesin bütünlüğü bozulmaz.",
+          "boundary": "Fard dalı HFT bağlam izleğinde atfedilmiştir; her tür toplumsal veya ontolojik eşitlik ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_2766b8fd2dd4c74798d5",
+        "conn_5268085c674433d367dd"
+      ],
+      "context_refs": [
+        "19:93",
+        "19:95"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:measured-countdown",
+      "origin_candidate_id": "cand_d53ca4d1920f0f203464",
+      "represented_candidate_ids": [
+        "cand_e8eb3879b57b2eaaa891"
+      ],
+      "title": "Acele edilmeyen sayılı aralık",
+      "claim": "19:84'te kendileri için sürmekte olan sayım ve acele ettirmeme, 19:79'daki uzatma ile birlikte okununca, 19:94'te tamamlanmış sayımla kapanan ölçülü bir aralık izlenimi verir.",
+      "mechanism": "19:79'daki uzatma, 19:84'teki تَعْجَلْ yasağı ve نَعُدُّ لَهُمْ عَدًّا biçimindeki sürmekte olan sayım bağımsız zaman işaretleridir. Odaktaki tamamlanmış perfect عَدَّ ve cognate accusative عَدًّا bu aralığı tamamlanmış hesap olarak değiştirir.",
+      "reader_payoff": "Sayı yalnızca kaç kişinin bilindiğini değil, acele ettirilmeyen sürecin 19:94'e gelindiğinde tamamlandığını da duyurabilir.",
+      "containment": "Paket süreyi takvimle ölçmez ve açıkça ne kadar sürdüğünü söylemez. Aynı yapı zaman oku olmaksızın biriken kişi sayımı olarak da okunabilir; bu nedenle belirli bir ceza süresi ya da düzenli tekrar ileri sürülmez.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "19:79, 19:84 ve 19:94 yüzeyleri ile kök gerçekleşmeleri sağlanıyor; süreyi sayım olarak okuma HFT'nin güçlü fakat legacy_unbound kimlikli çıkarımıdır."
+      },
+      "support_ids": [
+        "sup_44df619d72642a9cc326",
+        "sup_745e82b841978b17bbed",
+        "sup_fe204e96d163490de3c7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001407/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:79:5",
+            "19:79:9"
+          ],
+          "trigger_refs": [
+            "19:84:2",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:79:5 ve 19:79:9'daki uzatma kökü gerçekleşmeleri; HFT bunları zamanın genişlemesi olarak atfediyor.",
+          "independent_trigger": "19:84:2'deki acele etmeme ve 19:94'teki tamamlanmış sayım.",
+          "activation": "Uzatma, odakta bitmiş görünen sayımla karşılaştırılınca sayımın ilerlediği bir süre zemini verir.",
+          "resulting_reading": "19:94, uzatılmış aralığın sonunda tamamlanan bir hesaba dönüşür.",
+          "boundary": "Dal unresolved; uzunluğun miktarı ya da cezanın kesin takvimi ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000987/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:84:2"
+          ],
+          "trigger_refs": [
+            "19:79:5",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:84:2'deki تَعْجَلْ; HFT bunu hızlandırma/öne alma olarak atfediyor.",
+          "independent_trigger": "19:79'daki uzatma ile 19:94'teki tamamlanmış count.",
+          "activation": "Acele etmeme talimatı ve uzatılmış süre, sayımın anında değil, ilerleyen bir aralık boyunca yürüdüğü okumasını tetikler.",
+          "resulting_reading": "Tamamlanmış odak sayımı, 19:84'te açık bırakılan zamansal bekleyişi kapatabilir.",
+          "boundary": "Dal unresolved ve yalnızca atfedilmiş roldür; süre ölçüsü üretilmez."
+        },
+        {
+          "branch_ref": "root_000989/B003",
+          "facet_id": "F001",
+          "branch_gloss": "sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi",
+          "facet_statement": "Gün, ay, dönemsel çevrim veya olay sonuyla ölçülüp sınırlandırılmış zaman dilimi.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:94:3:2",
+            "19:94:4:1"
+          ],
+          "trigger_refs": [
+            "19:79:5",
+            "19:79:9",
+            "19:84:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "Odaktaki sayım fiili ve onu pekiştiren cognate accusative.",
+          "independent_trigger": "Uzatılmış ceza, acele etmeme ve daha önce sürmekte olan sayım.",
+          "activation": "Zaman bağlamı, odak sayımına ölçülmüş ve sonuca ulaşan aralık fasetini ekler.",
+          "resulting_reading": "Focus sayımı, başı ve sonu bağlamdaki ayetlerle görünür olan bir süre gibi de duyulur.",
+          "boundary": "Bu, fasetin geniş sayılı zaman çekirdeğidir; kadın bekleme süresi, oruç telafisi veya özel takvim birimi ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000989/B005",
+          "facet_id": "F001",
+          "branch_gloss": "belirli zaman ve bilinen aralıklarla geri gelme",
+          "facet_statement": "Bir şeyin belirlenmiş zamanı, dönemi veya en güçlü evresi.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:3:2",
+            "19:94:4:1"
+          ],
+          "trigger_refs": [
+            "19:84:5",
+            "19:84:7",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "Odaktaki perfect sayım ve cognate accusative; HFT bu aynı sayılmış zaman dalını 19:84 ile ilişkilendiriyor.",
+          "independent_trigger": "19:84'teki imperfect نَعُدُّ ve acele etmeme, odaktaki tamamlanmış perfect ile birleşir.",
+          "activation": "Süren sayım ile bitmiş sayımın aspect karşıtlığı, belirli bir zaman aralığının ölçüldüğü yorumunu tetikler.",
+          "resulting_reading": "Önceden başlayan sayımın 19:94'te tamamlandığı bir aralık görünür olur.",
+          "boundary": "F001 faseti kullanılır; bilinen aralıklarla tekrarlanan olay anlamı ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_6805a7f08660ed1fe04a"
+      ],
+      "context_refs": [
+        "19:79",
+        "19:84"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:claim-counterledger",
+      "origin_candidate_id": "cand_d53ca4d1920f0f203464",
+      "represented_candidate_ids": [
+        "cand_fd5978743bd0d9002b1f"
+      ],
+      "title": "İddianın yazısı ve kişinin sayımı",
+      "claim": "19:77'de gelecekteki mal ve çocuk sahibi olma iddiası ortaya konur, 19:79'da söz yazıya geçirilir, 19:80'de iddia edilen şeylerin devri ve tek başına geliş belirtilir. Bu bağlamda 19:94 sayımı, kişinin kendi gelecek tasarımından ayrı olarak tutulduğu bir karşı-hesap gibi okunabilir.",
+      "mechanism": "Odaktaki eksiksiz kuşatma, servet ve soy iddiasının yazılması, ardından kişinin bunları elinde tutmadan tekil gelmesiyle temas eder. Sayım böylece yalnız bir nüfusu toplamaz; iddiayı söyleyen kişiyi, iddia ettiği uzantılarından ayrı olarak hesaba alır.",
+      "reader_payoff": "Kendini gelecek serveti ve soyuyla büyüten kişi, son sayımda bunlardan bağımsız tekil bir muhatap olarak görünür.",
+      "containment": "HFT'nin karşı-ledger çıkarımı legacy_unbound'dır; 19:94 ayrıca yalnızca eksiksiz ilahi sayımı yineliyor olabilir. Buradaki defter/hesap dili bir benzetmedir: paket resmî bir dava, mülkiyet hukuku, yazılmış bir kişi adı ya da iddianın hukuken geçerli/ geçersiz ilan edildiğini söylemez. Kanal desteğindeki covenant ve property-right formülü bu bulguda yalnızca analojik ufuk olarak tutulur.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound",
+          "trusted"
+        ],
+        "reason": "HFT'nin dört tam Arapça anchor'ı ve altı iz rolü sağlanmış yüzeyle eşleşiyor; sayımın karşı-ledger oluşu açık bir contextual inference olarak, alternatif sayım okuması korunarak tutuluyor."
+      },
+      "support_ids": [
+        "sup_895612bf0775e6016579",
+        "sup_6fc4ee1cfa9bf6de2d17",
+        "sup_745e82b841978b17bbed",
+        "sup_7480124686659f2afda6",
+        "sup_771dbfd3f88544518381",
+        "sup_fe204e96d163490de3c7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Bir şeyin birimleri sayılarak sayısı belirlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:94:2:1"
+          ],
+          "trigger_refs": [
+            "19:77:7",
+            "19:77:8",
+            "19:79:2",
+            "19:80:1",
+            "19:80:5"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "Odaktaki أَحْصَىٰهُمْ; sayım dalının core birim belirleme işlemi.",
+          "independent_trigger": "19:77'deki mal/çocuk iddiası, 19:79'da yazıya geçirilen söz ve 19:80'de devredilen iddia ile tekil geliş.",
+          "activation": "Focus sayımı, önce kayda alınan iddia ve sonrasında kişinin bu iddialarla gelmemesiyle buluşur.",
+          "resulting_reading": "Sayım, kişinin gelecek servet/soy tasarımını çoğaltan değil, kişiyi iddiasından ayrı tutan bir karşı-hesap gibi görünür.",
+          "boundary": "Bu F001 sayımın çekirdeğidir; hukuki borç, tapu veya yazılı kişi sicili ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001457/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:77:7"
+          ],
+          "trigger_refs": [
+            "19:77:8",
+            "19:79:2",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:77:7'deki مَالًا; HFT bunu edinilen ve çoğalan servet iddiası olarak atfediyor.",
+          "independent_trigger": "19:77:8'deki وَلَدًا ile 19:79'da sözün yazılması ve 19:94 sayımı.",
+          "activation": "Servet iddiasının yazıya geçirilmesi ve sayımın kişiyi ayrı tutması, ileri sürülen malı kişinin mevcut hesabıyla özdeşleştirmemeyi sağlar.",
+          "resulting_reading": "Servet, sayılan kişinin kendisi değil, hakkında ileri sürülmüş bir gelecek iddiası olarak kalır.",
+          "boundary": "Dal unresolved; HFT rolü atfedilir, mal dalına sözlük gloss'u eklenmez."
+        },
+        {
+          "branch_ref": "root_001683/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:77:8"
+          ],
+          "trigger_refs": [
+            "19:79:2",
+            "19:80:5",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:77:8'deki وَلَدًا; HFT bunu soyun kişinin beklenen uzantısı oluşu olarak atfediyor.",
+          "independent_trigger": "İddianın yazılması ve 19:80'de kişinin tek başına gelmesi.",
+          "activation": "Odak sayımı, iddia edilen soy uzantısıyla değil, 19:80'de tekil gelen kişiyle döner.",
+          "resulting_reading": "Çocuk sahibi olma beklentisi, sayılan kişinin kendisini çoğaltan bir unsur olarak işlev görmez.",
+          "boundary": "Dal unresolved; yalnızca sağlanan HFT rolü kullanılır ve soy hakkında daha geniş bir iddia kurulmaz."
+        },
+        {
+          "branch_ref": "root_001283/B004",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "inscribing someone into a register or group",
+          "facet_statement": "inscribing someone into a register or group",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:79:2"
+          ],
+          "trigger_refs": [
+            "19:77:5",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:79:2'deki نَكْتُبُ; HFT, yazıyı sözü denetlenebilir kayda sokan bir işlem olarak atfediyor.",
+          "independent_trigger": "19:77'deki kişisel servet/soy iddiası ve 19:94'teki kişinin eksiksiz sayımı.",
+          "activation": "Yazıya geçirilen iddia ile daha sonra yapılan kişi sayımı buluşunca kayıt, sözü sahibinden ayırmadan denetlenebilir kılar.",
+          "resulting_reading": "İddia kayda alınmış bir söz, sayılan ise bu sözü söyleyen ayrı kişi olur.",
+          "boundary": "Kayıt faseti HFT'nin atfedilmiş contextual extension'ıdır; metin kişinin adının resmî bir sicile yazıldığını söylemez."
+        },
+        {
+          "branch_ref": "root_001639/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:80:1"
+          ],
+          "trigger_refs": [
+            "19:77:7",
+            "19:77:8",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:80:1'deki نَرِثُهُ; HFT bunu iddia edilen varlıkların sahibin denetiminden çıkması olarak atfediyor.",
+          "independent_trigger": "19:77'de ileri sürülen mal ve çocuk ile 19:94'ün tam sayımı.",
+          "activation": "Devralınma ifadesi, kişiyi sahip olacağını söylediği şeylerden ayırır; focus sayımı kişinin kendisinde kalır.",
+          "resulting_reading": "İddia edilmiş varlıkların devri, kişinin eksiksiz sayımını kendi hesabına bırakır.",
+          "boundary": "Dal unresolved; devrin nesnesi metindeki ما يقول ifadesinin ötesinde daraltılmaz."
+        },
+        {
+          "branch_ref": "root_001141/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "single apartness",
+          "facet_statement": "single apartness",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:80:5"
+          ],
+          "trigger_refs": [
+            "19:77:7",
+            "19:77:8",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:80:5'teki فَرْدًا; HFT bunu kişinin tek başına gelişi olarak atfediyor.",
+          "independent_trigger": "Önceki servet/çocuk iddiaları ile focus'taki eksiksiz sayım.",
+          "activation": "İddia edilen uzantılarla tekil geliş arasındaki temas, sayımı kişinin iddialarından ayrı bir hesabı olarak gösterir.",
+          "resulting_reading": "Sayımda kalan muhatap, gelecekteki sahiplik iddiası değil, tekil gelen kişidir.",
+          "boundary": "HFT atfı niteliklidir; tek başına gelişin başka ilişki veya mülkiyet anlamlarını dışladığı ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_da178e4b7a583343424a"
+      ],
+      "context_refs": [
+        "19:77",
+        "19:79",
+        "19:80"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:affiliation-unbundled",
+      "origin_candidate_id": "cand_f0e25312da0b7a9c1731",
+      "represented_candidate_ids": [],
+      "title": "Sayımda desteksiz kalan bağlar",
+      "claim": "19:81'de beklenen güç 19:82'de karşıtlığa döner; 19:87'de şefaat birinin sahip olduğu serbest bir destek değildir ve 19:95 herkesin tekil gelişini söyler. Bu dizide odak sayımı, kişiyi beklediği destek ve ortaklıklardan ayrı gösterir.",
+      "mechanism": "Odaktaki عَدَّ için karşılıklı paydaşlık/denk sayılma faseti, bağlamdaki koruyucu ilişki beklentileriyle karşılaşır. İlâhların sağladığı umulan güç tersine döner, şefaat sahip olunabilir görülmez ve tekil gelişte kişi yanında bir müttefik getirmez; sayım böylece ortak desteğin kişiyi birlikte hesaba soktuğu görüntüyü çözer.",
+      "reader_payoff": "Hesap, yalnızca bir topluluğu saymaz; kişinin adına güvence oluşturması beklenen bağların sınırını da gösterir.",
+      "containment": "Bu okuma her türlü ilişkiyi veya merhameti reddetmez ve kişilerin her bakımdan eşit olduğunu ileri sürmez. Yalnızca burada anılan koruyucu ilâhlar, şefaat ve tekil gelişin kişiyi hesaptan çıkarmadığını söyler. Sayım, başarısız bağları kaydediyor ama onları çözmüyor da olabilir; HFT kimliği legacy_unbound'dır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "19:81, 82, 87, 94 ve 95'in koordinatları ve Arapça kök gerçekleşmeleri sağlanıyor; sosyal çözülme mekanizması HFT'nin orta güvenli fakat legacy_unbound izidir."
+      },
+      "support_ids": [
+        "sup_90e0670e468e0f935d9b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000989/B006",
+          "facet_id": "F001",
+          "branch_gloss": "karşılıklı paydaşlık, pay ve denk sayılma",
+          "facet_statement": "Kişilerin sayılabilir bir mal, değer veya üstünlükte karşılıklı paydaş olması.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:3:2",
+            "19:94:4:1"
+          ],
+          "trigger_refs": [
+            "19:81:8",
+            "19:82:6",
+            "19:87:3",
+            "19:95:5"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "Odaktaki عَدَّهُمْ عَدًّا; HFT bu sayımı kişiler arası paydaşlık olasılığıyla karşılaştırıyor.",
+          "independent_trigger": "19:81'de beklenen عِزًّا, 19:82'deki ضِدًّا, 19:87'deki شَفَاعَة ve 19:95'te فَرْدًا.",
+          "activation": "Paydaşlık dalı, destek arayışının tersine dönmesi ve şefaatin sahip olunamamasıyla temas eder.",
+          "resulting_reading": "Kişi ortak güç veya aracı üzerinden değil, kendi başına sayılan bir muhatap olarak kalır.",
+          "boundary": "Bu faset, evrensel toplumsal eşitlik veya bütün ilişkilerin sona erdiği iddiası değildir."
+        },
+        {
+          "branch_ref": "root_000989/B006",
+          "facet_id": "F003",
+          "branch_gloss": "karşılıklı paydaşlık, pay ve denk sayılma",
+          "facet_statement": "Bir kişiyi başka bir kişinin karşılığı, eşi veya dengi sayma.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:3:2"
+          ],
+          "trigger_refs": [
+            "19:81:8",
+            "19:82:6",
+            "19:87:3",
+            "19:95:5"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "Odaktaki sayma fiilinin karşılık/denk sayma extension'ı.",
+          "independent_trigger": "Destek için edinilen ilâhların, erişilemeyen şefaatin ve 19:95'teki tekil gelişin bağlamı.",
+          "activation": "Kişilerin yan yana sayılma ya da ortaklık içindeki eşdeğer konumları, koruyucu ilişki iddialarının başarısızlığıyla yeniden okunur.",
+          "resulting_reading": "Her biri, kendisine eşlik edeceği düşünülen bir destek olmadan hesaba girer.",
+          "boundary": "F003 extension'ı kullanılırken F001 core paydaşlık faseti de korunur; her tür eşitlik hükmü verilmez."
+        },
+        {
+          "branch_ref": "root_001008/B004",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:81:8"
+          ],
+          "trigger_refs": [
+            "19:82:6",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:81:8'deki عِزًّا; HFT bunu beklenen destek ve güç olarak atfediyor.",
+          "independent_trigger": "19:82:6'da bu ilâhların kendilerine karşı ضِدًّا oluşu ve odak sayımı.",
+          "activation": "Beklenen destek tersine döner ve sayımın kişiyi bağlı olduğu varsayılan destekten ayrı tutmasına zemin verir.",
+          "resulting_reading": "Kişiyi çoğaltması beklenen güç, onun dışında kalır.",
+          "boundary": "Dal unresolved; güç rolü yalnızca HFT'ye atfedilir."
+        },
+        {
+          "branch_ref": "root_000905/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:82:6"
+          ],
+          "trigger_refs": [
+            "19:81:8",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:82:6'daki ضِدًّا; HFT bunu destek ilişkisinin tersine çevrilmesi olarak atfediyor.",
+          "independent_trigger": "Bir önceki 19:81:8'deki güç beklentisi ve odak sayımı.",
+          "activation": "Karşıtlığa dönüş, destekçiyle birlikte sayılma beklentisini bozar ve focus hesabına döner.",
+          "resulting_reading": "Önceden dayanak olan bağ, kişiyi koruyan ortaklığa dönüşmez.",
+          "boundary": "Dal unresolved; tersine dönüş rolü HFT atfıdır, başka ayetlere genellenmez."
+        },
+        {
+          "branch_ref": "root_000802/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:87:3"
+          ],
+          "trigger_refs": [
+            "19:94:3:2",
+            "19:95:5"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:87:3'teki ٱلشَّفَٰعَةَ; HFT bunu bir tarafın diğerine katıldığı koruyucu aracı ilişki olarak atfediyor.",
+          "independent_trigger": "Şefaatin sahip olunamaması kaydı, odaktaki eksiksiz sayım ve ardından gelen tekil geliş.",
+          "activation": "Aracıyla birleştirilme imgesi, istisnanın dar oluşuyla sınırlandırılır; odak sayımı kişiyi yine bireysel hesaba bağlar.",
+          "resulting_reading": "Şefaat ilişkisi sayımın dışında ayrıcalıklı bir ortaklık sağlamaz.",
+          "boundary": "Dal unresolved ve atfedilmiştir; 19:87 yalnızca söz konusu istisnayı belirtir."
+        },
+        {
+          "branch_ref": "root_001141/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "single apartness",
+          "facet_statement": "single apartness",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:95:5"
+          ],
+          "trigger_refs": [
+            "19:81:8",
+            "19:87:3",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:95:5'teki فَرْدًا, tek başına geliş.",
+          "independent_trigger": "Beklenen güç ve şefaat bağlarıyla odaktaki sayım.",
+          "activation": "Tekil geliş, destekçi ilişkilerin focus sayımına eşlik etmediği görüntüsünü kurar.",
+          "resulting_reading": "Her kişi koruyucu ortaklardan ayrı olarak sayılmış ve tekil gelmiştir.",
+          "boundary": "Atfedilmiş bağlamsal uygulamadır; her tür ilişkiyi ortadan kaldırdığı iddia edilmez."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "19:81",
+        "19:82",
+        "19:87",
+        "19:95"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:routed-muster",
+      "origin_candidate_id": "cand_b7ab623acffc683d9ebf",
+      "represented_candidate_ids": [],
+      "title": "Sayımın doğruladığı iki güzergâh",
+      "claim": "19:85'te bir grup heyet olarak, 19:86'da başka bir grup sürülerek yönelir; 19:95'te ise hepsinin tekil gelişi söylenir. 19:94'ün sayımı bu farklı varış biçimlerinde kimsenin dışarıda kalmadığını doğrulayan bir toplam gibi okunabilir.",
+      "mechanism": "Focus sayımının olağan sayısal anlamı, çevredeki toplama, heyet olarak varış ve sürülme eylemleriyle temas eder. Farklı güzergâh görüntüleri, tam sayımın yalnızca hazırlanmış bir roster değil, kimlerin iki süreçte de hesaba katıldığını belirleyen bir kapanış olmasını sağlar.",
+      "reader_payoff": "Ayrı varış biçimleri tek tek anlatılsa da toplamın kapsadığı herkes son gelişe bağlanır.",
+      "containment": "Odaktaki fiil hazırlama anlamına alınmaz; sağlanan çözümleme onu sayma/hesaplama ile sınırlar. Sayım, güzergâhları planlamıyor, yalnızca tamamlanmış sayımı bildiriyor da olabilir. HFT izleri legacy_unbound ve bağlamsal olarak atfedilmiştir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "19:85, 19:86, 19:94 ve 19:95 koordinatları doğrulanıyor; güzergâhın sayımla tamamlandığı ilişkisi HFT'nin orta güvenli ve legacy_unbound izidir."
+      },
+      "support_ids": [
+        "sup_559c63fefc6a2665e4e4"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000324/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:85:2"
+          ],
+          "trigger_refs": [
+            "19:94:3:2",
+            "19:95:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:85:2'deki نَحْشُرُ; HFT bunu grubu toplayıp bir varışa sevk etmek olarak atfediyor.",
+          "independent_trigger": "Odaktaki tamamlanmış sayım ve 19:95'te herkesin gelişi.",
+          "activation": "Toplanma eylemi focus sayımıyla buluşunca sonucun bütün üyelerini kapsayıp kapsamadığı belirginleşir.",
+          "resulting_reading": "Toplanan grubun üyeleri tam sayımın kapsadığı kişiler olarak kalır.",
+          "boundary": "Dal unresolved; HFT rolü atfedilir, grubun güzergâhı ya da hedefi genişletilmez."
+        },
+        {
+          "branch_ref": "root_001665/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:85:6"
+          ],
+          "trigger_refs": [
+            "19:85:2",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:85:6'daki وَفْدًا; HFT bunu hükümdara heyet olarak varış diye atfediyor.",
+          "independent_trigger": "Aynı ayetteki toplanma ve 19:94'teki eksiksiz sayım.",
+          "activation": "Heyet olarak geliş, sayılan bütünün bir varış biçimini oluşturur; sayım, üyelerini kaybolmadan kapsar.",
+          "resulting_reading": "Gözetilenler tek tek eksik bırakılmadan heyet görüntüsünde yer alır.",
+          "boundary": "Dal unresolved ve atfedilmiştir; ayrıca bir himaye derecesi veya hak statüsü ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000762/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:86:1"
+          ],
+          "trigger_refs": [
+            "19:85:6",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:86:1'deki نَسُوقُ; HFT bunu sürme/herdetme olarak atfediyor.",
+          "independent_trigger": "19:85'teki farklı heyet biçimi ve odak sayımı.",
+          "activation": "Sürülme, heyet olarak gönüllü varışla karşıt güzergâh oluşturur; odak sayımı iki hareketi tek toplamda tutar.",
+          "resulting_reading": "Hesap, birbirinden farklı geliş yollarını kapsayan tamamlanmış bir liste görünümü kazanır.",
+          "boundary": "Dal unresolved; bu karşıtlık iki bağlam ayetiyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_001640/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:86:5"
+          ],
+          "trigger_refs": [
+            "19:86:1",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:86:5'teki وِرْدًا; HFT bunu sürülen grubun varış noktası olarak atfediyor.",
+          "independent_trigger": "Aynı ayetteki sürülme eylemi ve 19:94 sayımı.",
+          "activation": "Varış noktası, sürülen grubun sayım içinde izlenebilir bir sonuca ulaşmasını sağlar.",
+          "resulting_reading": "Odak sayımı güzergâhın sonuna ulaşanların eksiksizliğini teyit edebilir.",
+          "boundary": "Dal unresolved; varış için paket dışı bir hedef veya su anlamı eklenmez."
+        },
+        {
+          "branch_ref": "root_000009/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:95:2"
+          ],
+          "trigger_refs": [
+            "19:94:3:2",
+            "19:85:2",
+            "19:86:1"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:95:2'deki ءَاتِيهِ; HFT bunu her birinin şahsen gelişi olarak atfediyor.",
+          "independent_trigger": "Focus sayımı ile 19:85-86'daki iki farklı sevk biçimi.",
+          "activation": "Herkesin sonunda gelişi, toplanma ve sürülmenin iki ayrı sürecini aynı tam sayıma bağlar.",
+          "resulting_reading": "Farklı yollarla gelenler 19:94 sayımında eksiksiz kapsanan kişiler olarak görünür.",
+          "boundary": "Dal unresolved; geliş ve rota ilişkisi HFT rolünün atfedilmiş sınırındadır."
+        }
+      ],
+      "connection_refs": [
+        "conn_5268085c674433d367dd"
+      ],
+      "context_refs": [
+        "19:85",
+        "19:86",
+        "19:95"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:category-status",
+      "origin_candidate_id": "cand_bb0a69d8d0366030c172",
+      "represented_candidate_ids": [],
+      "title": "Sayımın dışında soy istisnası kalmaması",
+      "claim": "19:92'de Rahman'a çocuk isnadı reddedilir; 19:93'te göklerde ve yerde olan herkes O'na kul olarak gelir; 19:94'te hepsi eksiksiz sayılır. Böylece sayım, ileri sürülen soy ayrıcalığı dışında kalabilen bir kategori bırakmayan kapsayıcı statüyü destekler.",
+      "mechanism": "Çocuk iddiası ile hemen ardından gelen evrensel kul kategorisi birbirine karşılık gelir. Odaktaki sayım, önceki كُلّ kapsamına bağlanınca her kişiyi bu statü içinde sayar; HFT'nin kategorik kapanış iddiası bu sıradan doğar.",
+      "reader_payoff": "Kişi sayısı tamamlanırken, iddia edilen soy bu toplamın üstünde yeni bir sınıf açmaz.",
+      "containment": "Bu bağ, yalnızca 19:92-94 arasındaki iddia, kulluk ve sayım sırasına dayanır; sayımın tek amacının soy iddiasını reddetmek olduğu söylenmez. Alternatif olarak 19:94, 19:93'te kurulmuş evrensel kapsamı yalnızca doğruluyor olabilir.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Arapça koordinatlar ve HFT rolleri sağlanıyor; dal/root kimlikleri unresolved ve category-adjudication bağı legacy_unbound olduğu için okuma atfedilmiş ve niteliklidir."
+      },
+      "support_ids": [
+        "sup_b29dcc503ead8cc8eca0"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001683/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:92:6"
+          ],
+          "trigger_refs": [
+            "19:93:10",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:92:6'daki وَلَدًا; HFT bunu reddedilen istisnai soy kategorisi olarak atfediyor.",
+          "independent_trigger": "19:93:10'daki عَبْدًا ve focus sayımı.",
+          "activation": "Çocuk kategorisinin reddi, hemen ardından gelen evrensel kul statüsüyle karşılaştırılır ve sayımla focus'a döner.",
+          "resulting_reading": "İleri sürülen soy, sayılan herkesin dışına çıkacak ayrıcalıklı bir sınıf kuramaz.",
+          "boundary": "Dal unresolved; HFT'nin rolü dışında soy yapısı hakkında ek iddia yoktur."
+        },
+        {
+          "branch_ref": "root_001315/B003",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:93:2"
+          ],
+          "trigger_refs": [
+            "19:92:6",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:93:2'deki كُلّ; HFT bunu sonraki statü dışında hiçbir kalan bırakmayan bütünlük olarak atfediyor.",
+          "independent_trigger": "19:92'deki çocuk isnadının reddi ve 19:94 sayımı.",
+          "activation": "Bütünlük, iddia edilen istisnayı ve sonraki tam sayımı bir araya getirir.",
+          "resulting_reading": "Kategorik bütünlük sayımda da tamamlanır.",
+          "boundary": "Dal unresolved; exact gloss/faset verilmemiştir, yalnız HFT rolü korunur."
+        },
+        {
+          "branch_ref": "root_000973/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:93:10"
+          ],
+          "trigger_refs": [
+            "19:92:6",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:93:10'daki عَبْدًا; HFT bunu herkes için ortak kulluk statüsü olarak atfediyor.",
+          "independent_trigger": "19:92'de reddedilen çocuk kategorisi ve 19:94'teki tam sayım.",
+          "activation": "Evrensel statü, iddia edilen soy istisnasıyla yan yana gelince odak sayımının hangi kategoriyi kapsadığını belirginleştirir.",
+          "resulting_reading": "Sayılanlar, evrensel olarak kulluk statüsünde kapsanan kişilerdir.",
+          "boundary": "Dal unresolved; kulluk statüsünün ötesinde toplumsal eşdeğerlik sonucu çıkarılmaz."
+        },
+        {
+          "branch_ref": "root_000989/B001",
+          "facet_id": "F001",
+          "branch_gloss": "sayma, sayı ve sayıya göre bir topluluğa katma",
+          "facet_statement": "Bir şeyin birimlerini sayıp toplam miktarını belirleme işlemi.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:3:2",
+            "19:94:4:1"
+          ],
+          "trigger_refs": [
+            "19:92:6",
+            "19:93:10"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "Odaktaki عَدَّهُمْ عَدًّا, sayıyla kapsam belirleme.",
+          "independent_trigger": "Çocuk iddiasının reddi ve tümünün kul olarak gelmesi.",
+          "activation": "Sayısal kapsam, önceki evrensel kulluk statüsünü tekrar odak nesnesine bağlar.",
+          "resulting_reading": "İddia edilmiş soya rağmen hiçbir kişi evrensel sayım kategorisinin dışında kalmaz.",
+          "boundary": "Sayma anlamı korunur; tek başına sayımın bir yargı kararı olduğu ileri sürülmez."
+        }
+      ],
+      "connection_refs": [
+        "conn_ef4ea43e15aeb24ab61d",
+        "conn_2766b8fd2dd4c74798d5"
+      ],
+      "context_refs": [
+        "19:92",
+        "19:93"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:individual-recognition",
+      "origin_candidate_id": "cand_00f6c7bcf9831392db74",
+      "represented_candidate_ids": [],
+      "title": "Tam sayımdan kişiye özgü ilişkiye",
+      "claim": "19:93 herkesi Rahman'a kul olarak kapsar; odak onları eksiksiz sayar; 19:96 ise inanan ve iyi işler yapanlar için Rahman'ın sevgi yaratacağını söyler. Bu dizide sayım, daha sonra farklılaşmış bir ilişkinin mümkün olduğu kişileri tanınır kılan eşik gibi de okunabilir.",
+      "mechanism": "Odaktaki sayıp kuşatma, önceki ve sonraki Rahman adlandırmasıyla çevrelenir. 19:96'daki يَجْعَلُ ve وُدًّا, eksiksiz sayımdan sonra belirli kişiler için ilişki kurulması fikrini ekler; sayı, kişiliksiz toplamdan sonra gelen farklılaşmış vaade temas eder.",
+      "reader_payoff": "Hesap yalnızca kişileri toplamaz; kapsanan kişinin sonraki ilişkide ayrı tanınabilmesini de düşündürür.",
+      "containment": "Bu, sayımın sevgiyi ürettiğini veya bütün sayılanlara aynı sonucu verdiğini söylemez. 19:96'nın sevgisi belirli bir gruba vaat edilir ve sayımdan bağımsız bir vaat olarak da okunabilir. İlişkiyi hazırlama çıkarımı HFT'nin legacy_unbound bağlam okumasıdır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "19:93-96 yüzey ve kök koordinatları mevcut; sayım ile sonraki sevgi vaadi arasındaki kişiye özgü tanınma ilişkisi HFT'nin orta güvenli contextual inference'ıdır."
+      },
+      "support_ids": [
+        "sup_ea3c30da0963822223fc"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:93:9",
+            "19:96:8"
+          ],
+          "trigger_refs": [
+            "19:94:2:1",
+            "19:96:6",
+            "19:96:9"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:93:9 ve 19:96:8'de tekrarlanan ٱلرَّحْمَٰن; HFT bunu merhamet/şefkat öznesi olarak atfediyor.",
+          "independent_trigger": "Odak sayımı ve 19:96'da sevginin yaratılmasını anlatan ifade.",
+          "activation": "Tekrarlanan özne, sayımın öncesi ve sonrasındaki kişiye yönelik eylemleri aynı bağlamda birleştirir.",
+          "resulting_reading": "Eksiksiz sayım, daha sonra belirli kişilere ilişki yönelten Rahman'ın eylemleri arasında durur.",
+          "boundary": "Dal unresolved; yalnız HFT'nin merhamet rolü kullanılır, sayımın amacı merhamete indirgenmez."
+        },
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Bir şeyin birimleri sayılarak sayısı belirlenir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:2:1"
+          ],
+          "trigger_refs": [
+            "19:93:9",
+            "19:96:6",
+            "19:96:9"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "Odaktaki أَحْصَىٰهُمْ; sayma ve birim belirleme.",
+          "independent_trigger": "Rahman öznesinin devam etmesi, 19:96'daki sevginin belirli kişilere yaratılması.",
+          "activation": "Tam sayılan kişilerin arasından belirli bir grup için ilişki kurulması, sayımı farklılaşmış sonucun öncesine yerleştirir.",
+          "resulting_reading": "Kişi, yalnız toplamın parçası değil, sonraki ilişkinin muhtemel ayrı muhatabı olarak tanınır.",
+          "boundary": "Bu, sayımın sebep olduğu bir seçim iddiası değildir; gruplar ve sonuçlar 19:96'daki ifadeyle sınırlıdır."
+        },
+        {
+          "branch_ref": "root_000248/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:96:6"
+          ],
+          "trigger_refs": [
+            "19:94:2:1",
+            "19:96:9"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:96:6'daki يَجْعَلُ; HFT bunu bir şeyi belirli bir duruma getirme olarak atfediyor.",
+          "independent_trigger": "Odaktaki tam sayım ve 19:96:9'daki وُدًّا.",
+          "activation": "Sayım, sonraki belirli ilişkinin oluşturulmasıyla yan yana gelince tanınma/ayrım fikri doğar.",
+          "resulting_reading": "Herkesin sayılması, sonraki ilişkinin kime yöneltileceğinin bilindiği bir zemin sunabilir.",
+          "boundary": "Dal unresolved; HFT rolünden öte causation ya da ilahi seçim mekanizması ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_001634/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:96:9"
+          ],
+          "trigger_refs": [
+            "19:96:6",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:96:9'daki وُدًّا; HFT bunu sevgi ve muhabbet ilişkisi olarak atfediyor.",
+          "independent_trigger": "Belirli kişiler için sevgi yaratma eylemi ve focus sayımı.",
+          "activation": "Sevgi, herkesin sayıldığı cümlenin arkasından belirli bir gruba yönelir ve tam sayımın kişiyi tekil tanıma yönünü görünür kılar.",
+          "resulting_reading": "Tam sayılmış kişilerin sonraki vaatte farklı bir ilişkiyle karşılaşması düşünülebilir.",
+          "boundary": "Dal unresolved; bu vaat herkese genellenmez ve sayım ile sevgi arasında doğrudan sebep-sonuç kurulmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "19:93",
+        "19:96"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:account-outlasts-trace",
+      "origin_candidate_id": "cand_cfc8ec77d6f060fbffa4",
+      "represented_candidate_ids": [],
+      "title": "Duyusal iz silinse de sayımın kalması",
+      "claim": "19:94'teki eksiksiz sayımın ardından 19:98 önceki kuşakların yok edilişini, onlardan kimsenin duyumsanıp duyumsanamayacağı ya da en hafif seslerinin işitilip işitilemeyeceği sorularıyla kapatır. Böylece sayım, dünyada duyusal iz kalmasına bağlı olmayan bir kayıt gibi de okunabilir.",
+      "mechanism": "Odaktaki ح ص ي tam kuşatma, 19:98'deki helak, duyumsayamama, işitememe ve belli belirsiz ses yokluğu imgeleriyle karşılaşır. Duyusal kanalların hepsi kesilince odaktaki sayımın tamamlığı, geride kalan gözlem izine bağlı olmayan bir hesap olarak yeniden görünür.",
+      "reader_payoff": "İz bırakmayan yok oluş bile sayılmış olanı bilinmeyen bir artığa dönüştürmez şeklinde bir imkan belirir.",
+      "containment": "Bu, açıkça söylenen bir ahiret sicili veya yok edilmiş her kuşağın zamansız hesapta bulunduğu tezi değildir; bağlamsal çıkarımdır. 19:98 yalnızca önceki halkalardan bugün duyusal kanıt kalmamasını soruyor da olabilir. HFT okuması legacy_unbound'dır.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Focus ve 19:98 Arapçası, kökler ve tam anchor kapsamı sağlanıyor; duyusal iz yokluğu ile hesap sürekliliği arasındaki sonuç HFT'nin orta güvenli atfedilmiş çıkarımıdır."
+      },
+      "support_ids": [
+        "sup_3ea5ef1dda76fa0c35f7"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Bir şeyin birimleri sayılarak sayısı belirlenir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": [
+            "19:94:2:1"
+          ],
+          "trigger_refs": [
+            "19:98:2",
+            "19:98:7",
+            "19:98:12",
+            "19:98:14"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "Odaktaki أَحْصَىٰهُمْ fiili; önce birimlerin sayısını belirleyen core anlamı taşır.",
+          "independent_trigger": "19:98'deki yok oluş ve duyusal izlerin kalmaması.",
+          "activation": "Sayma çekirdeği, dünyada algılanabilecek kişilerin kalmamasıyla karşılaşır.",
+          "resulting_reading": "Sayılmış olma, önce sayının eksiksiz belirlenmesi olarak kalır; duyusal kayboluş bu core'u değiştirmez.",
+          "boundary": "F001 core fasetidir; sonraki görünürlükten bağımsızlık çıkarımı F002'de taşınır ve HFT'ye atfedilir."
+        },
+        {
+          "branch_ref": "root_000332/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sayıp sayısını eksiksiz belirleme",
+          "facet_statement": "Sayım, bütün birimlerin eksiksiz kapsanması ve sayının bilgiyle kuşatılması düzeyine ulaşabilir.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:2:1"
+          ],
+          "trigger_refs": [
+            "19:98:2",
+            "19:98:7",
+            "19:98:12",
+            "19:98:14"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "Odaktaki أَحْصَىٰهُمْ; HFT bunu sonraki görünürlükten bağımsız tam hesap olarak atfediyor.",
+          "independent_trigger": "19:98'deki helak, duyumsayamama, işitememe ve en hafif sesin bile duyulmaması.",
+          "activation": "Duyusal yokluk, eksiksiz sayımın geçerliliğini hayatta kalan izlere bağlamayan bir ilişki kurar.",
+          "resulting_reading": "Hesap, daha sonra geriye kalan duyusal kanıttan bağımsız olarak da tamamlanmış olabilir.",
+          "boundary": "F002, F001 sayma çekirdeğinin uzmanlaşmasıdır; bu core korunur. Sonuç HFT atfı olup metafizik ispat olarak sunulmaz."
+        },
+        {
+          "branch_ref": "root_001596/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:98:2"
+          ],
+          "trigger_refs": [
+            "19:94:2:1",
+            "19:98:7",
+            "19:98:12"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:98:2'deki أَهْلَكْنَا; HFT bunu önceki halkaların yok edilmesi olarak atfediyor.",
+          "independent_trigger": "Focus'un tamamlanmış sayımı ve 19:98'de kalan duyusal kanalların kapanması.",
+          "activation": "Yok edilmiş kişilerin algılanamaz oluşu, sayılmış olmanın duyusal varlığa bağlı olup olmadığını düşündürür.",
+          "resulting_reading": "Yok oluş, sayımda kapsananları görünmez kılar ama onları bilinmeyen bırakmayabilir.",
+          "boundary": "Dal unresolved; yok edilme ile hesap sürekliliği arasındaki ilişki HFT yorumudur."
+        },
+        {
+          "branch_ref": "root_000321/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:98:7"
+          ],
+          "trigger_refs": [
+            "19:98:2",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:98:7'deki تُحِسُّ; HFT bunu duyusal algı kanalı olarak atfediyor.",
+          "independent_trigger": "Önceki kuşakların helakı ve focus sayımı.",
+          "activation": "Algılanamama, sayımın duyusal saptanabilirliğe dayanmadığı alternatifini ortaya çıkarır.",
+          "resulting_reading": "Sayılmış olmak için bugün hissedilebilir bir kişi olarak kalmak gerekmeyebilir.",
+          "boundary": "Dal unresolved; duyusal algı rolü yalnız HFT atfı olarak kullanılır."
+        },
+        {
+          "branch_ref": "root_000741/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:98:12"
+          ],
+          "trigger_refs": [
+            "19:98:14",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:98:12'deki تَسْمَعُ; HFT bunu işitme kanalı olarak atfediyor.",
+          "independent_trigger": "19:98:14'teki düşük düzeyli ses ve odaktaki sayım.",
+          "activation": "İşitme kanalının başarısız olması, geriye kalan en zayıf akustik izin bile bulunmadığıyla pekişir.",
+          "resulting_reading": "İşitilebilirlik kalmasa da odaktaki tamamlanmış sayım değişmeden kalabilir.",
+          "boundary": "Dal unresolved; işitme rolünün dışına taşan bir iddia kurulmaz."
+        },
+        {
+          "branch_ref": "root_000591/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:98:14"
+          ],
+          "trigger_refs": [
+            "19:98:12",
+            "19:94:2:1"
+          ],
+          "focus_return_refs": [
+            "19:94:2:1"
+          ],
+          "carrier": "19:98:14'teki رِكْزًا; HFT bunu geriye kalan en hafif ses izi olarak atfediyor.",
+          "independent_trigger": "İşitememe ve odaktaki tam sayım.",
+          "activation": "En küçük işitilebilir iz bile yoksa, odaktaki sayım dünya içi işitmeye dayanmayan bir hesap gibi görünür.",
+          "resulting_reading": "En hafif sesin yokluğu, sayımın eksiksizliğini duyusal kalıntının ötesine taşır.",
+          "boundary": "Dal unresolved; bu karşıtlık packet'in HFT rolüyle sınırlıdır."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "19:98"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:waterpoint-analogy",
+      "origin_candidate_id": "cand_8ec7e31f72e586ac9b23",
+      "represented_candidate_ids": [],
+      "title": "Varış noktasında çizelge",
+      "claim": "19:86'da bir topluluk sürülerek bir varışa yönelir. Bu varış imgesi odak kökün kalıcı su noktası fasetiyle buluşunca, sayım her üyenin payını/belirli gelişini tutan bir su noktası çizelgesine benzetilebilir.",
+      "mechanism": "Odak kelimenin olağan Form I okuması sayımdır; aynı kökün kayıtlı su noktası dalı yalnızca bağlamsal imgeyi sağlar. 19:86'daki sürülme ve HFT'nin varış/pay rolü, bu alternatif imgeye bağımsız lojistik tetikleyici verir; temas sayımı soyut roster'dan belirli bir varış etrafındaki düzene dönüştürür.",
+      "reader_payoff": "Sayım, kişiler için yalnız sayı değil, varışları ve payları izleyen bir düzen gibi de düşünülebilir.",
+      "containment": "Bu keşifsel bir analojidir. 19:86'da açıkça bir kuyu ya da su kaynağı belirtilmez ve focus kelimenin anlamı su değildir; literal gloss sayısal sayımdır. Varış ve pay bağlantısı unresolved HFT izine atfedilir; alternatif, 19:94'ün yalnızca bütün kişileri saymasıdır.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": [
+          "legacy_unbound"
+        ],
+        "reason": "Focus su dalı sözlük kaydında bulunur ve 19:86 kök gerçekleşmeleriyle temas kurulabilir; ancak varış/pay rolleri ve temas mekanizması unresolved HFT branch citations üzerinden gelir."
+      },
+      "support_ids": [
+        "sup_819485644c5f83e7f2ff"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000989/B004",
+          "facet_id": "F001",
+          "branch_gloss": "kaynağı kesilmeyen kalıcı su ve su yeri",
+          "facet_statement": "Doğal olarak bir yerde toplanmış su veya bu suyun bulunduğu yer.",
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:94:3:2",
+            "19:94:4:1"
+          ],
+          "trigger_refs": [
+            "19:86:1",
+            "19:86:5"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "Odaktaki عَدَّهُمْ عَدًّا; literal sayım taşır, su kaynağı ise focus root'un kayıtlı bağlamsal dalıdır.",
+          "independent_trigger": "19:86'da sürülme ve HFT'nin atfettiği varış/pay görüntüsü.",
+          "activation": "Kalıcı varış yeri faseti ile sürülen grubun varışı buluşunca sayım sabit bir su noktası çevresindeki roster benzetmesini alır.",
+          "resulting_reading": "Üyeler, varış yeri ve payı belli bir topluluk gibi sayılabilir.",
+          "boundary": "Dalın focus'taki kullanımı lexical reading değildir; Form I sayımı korunur ve kuyu literal olarak ileri sürülmez."
+        },
+        {
+          "branch_ref": "root_000762/B001",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:86:1"
+          ],
+          "trigger_refs": [
+            "19:86:5",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:86:1'deki نَسُوقُ; HFT bunu sürülme/herdetme olarak atfediyor.",
+          "independent_trigger": "19:86:5'teki وِرْدًا için atfedilen varış/pay rolü ve odak sayımı.",
+          "activation": "Sürülme, varış noktasına yönelme hareketini kurar ve focus'taki su-yeri fasetine yönelir.",
+          "resulting_reading": "Sayım, zorunlu güzergâhtaki gelişleri izleyen bir çizelge gibi okunabilir.",
+          "boundary": "Dal unresolved; yalnız HFT'nin exact role'ü kullanılır."
+        },
+        {
+          "branch_ref": "root_001640/B002",
+          "facet_id": null,
+          "branch_gloss": null,
+          "facet_statement": null,
+          "application_mode": "attributed",
+          "carrier_refs": [
+            "19:86:5"
+          ],
+          "trigger_refs": [
+            "19:86:1",
+            "19:94:3:2"
+          ],
+          "focus_return_refs": [
+            "19:94:3:2"
+          ],
+          "carrier": "19:86:5'teki وِرْدًا; HFT bunu yönlendirilmiş her üyenin varış/pay zamanı olarak atfediyor.",
+          "independent_trigger": "Aynı ayetteki sürülme ve focus sayımının su noktası faseti.",
+          "activation": "HFT'nin varış payı rolü, focus su-yeri imgesiyle buluşarak kayıtlı bir varış düzeni verir.",
+          "resulting_reading": "Sayılan kişi, rota üzerindeki belli varış ve payla ilişkilendirilebilir.",
+          "boundary": "Dal unresolved; verilen Arabic'den bağımsız yeni sözlük gloss'u çıkarılmaz."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [
+        "19:86"
+      ],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "HFT okuyucu kimliği legacy_unbound'dır. Atfedilen kök/branch/rol koordinatları ile bağlam ayetlerinin sağlanan kök gerçekleşmeleri uyuşsa da, unresolved kayıtlar için gloss veya faset doğrulanmış lexical evidence gibi sunulmamıştır.",
+    "Paket adaylarında semantic_obligations dizisi ya da ayrı obligation ref'leri yok; bu nedenle obligation ref uydurulmadı. Her HFT trace rolü ile before/after değişimi ilgili bulguda açıkça taşındı. Ayrı root_branch_options indeksi de sağlanmadığından mevcut branch_registry incelendi.",
+    "Dışarıdan eklenen 1:2-1:7 ayetleri ilk aşamada karantinada tutuldu. İkinci aşamada bunlar, pericope içindeki evrensel kapsam, kıyamet, kulluk ve Rahman bağlamlarının ötesinde focus'a dönen özgül bir yerel temas eklemedi; dış overlay bulgusu tutulmadı.",
+    "Kanal desteğinin mülkiyet hakkı/covenant dili bir defter analojisi olarak sınırlandı; 19:94 paketinde resmî bir hukuk yargılaması veya mülkiyet kararı olarak sunulmadı."
+  ]
+}

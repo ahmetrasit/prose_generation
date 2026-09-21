@@ -11,10 +11,10 @@ prepare
   -> one consolidator merges the three prose drafts without dropping findings
   -> same consolidator writes the editorial version without reducing coverage
   -> same consolidator validates only editorial prose and repairs up to 2 times
-  -> script writes one complete hermetic middle-layer prompt per ayah
-  -> one fresh Luna max agent writes middle prose plus an atomic claim ledger
-  -> same agent receives the fixed generic audit through its workspace path
-  -> orchestrator closes it without inspecting either middle-layer output
+  -> script writes hermetic middle-layer author and reviewer prompts per ayah
+  -> one fresh Luna max agent writes and validates the middle prose
+  -> one second fresh Luna max agent independently reviews and repairs that prose
+  -> orchestrator closes both without inspecting the middle-layer output
   -> one fresh invitation agent writes the separate reading invitation
 ```
 
@@ -35,9 +35,11 @@ context-morphology registry are not part of newly prepared agent inputs. Source
 data and historical expanded packets remain available in the repository.
 
 There is no V5 state machine after `prepare`: no `advance`, no `verify`, no
-manifest audit, and no hidden session registry. The post-editorial middle-layer
-claim ledger is a required reader-artifact companion, not workflow state. After
-the three prompts exist, orchestration is normal agent management and
+manifest audit, and no hidden session registry. New post-editorial middle-layer
+runs persist only their reader prose; inventories, semantic audits, and metrics
+remain transient agent work. Historical V2 claim ledgers and their validator
+remain available as legacy artifacts but are not inputs to new runs. After the
+three scope prompts exist, orchestration is normal agent management and
 Git-visible files. Launch V5 agents with the multiagent spawn tool, not
 `codex exec`.
 
@@ -230,7 +232,7 @@ cycles. After that, the editorial prose is accepted as-is and any remaining
 validator findings are reported. It does not reopen evidence selection or launch
 another agent.
 
-After the final editorial follow-up, render the required middle-layer prompt:
+After the final editorial follow-up, render the required middle-layer prompts:
 
 ```bash
 python3 _commentary/v5/workflow.py prepare-middle \
@@ -238,23 +240,29 @@ python3 _commentary/v5/workflow.py prepare-middle \
   --analysis-id <analysis-id>
 ```
 
-The command atomically writes the complete hermetic prompt and returns two
-short messages. Spawn one fresh `gpt-5.6-luna` max agent and send exactly
-`handoff.launch_message`; it directs the agent to read the generated prompt at
-its workspace path. Never inline, copy, quote, or load that prompt into the
-orchestrator conversation. After the first turn, send exactly
-`handoff.follow_up_message`; it directs the same agent to read the canonical
-`_commentary/v5/prompts/middle-layer-audit-followup.md` from the workspace.
-Never inline that file either.
+The command atomically writes a complete hermetic author prompt and an
+independent-review prompt, then returns two short path-only messages. Spawn one
+fresh `gpt-5.6-luna` max author and send exactly
+`author_handoff.launch_message`. After that agent completes, close it without
+inspecting the prose. Spawn a second fresh `gpt-5.6-luna` max reviewer with no
+inherited conversation and send exactly `review_handoff.launch_message`.
+Never inline, copy, quote, summarize, or load either prompt into the
+orchestrator conversation.
 
-The orchestrator does not inspect, diff, validate, summarize, or customize
-either middle-layer output. It does not retry, rerun, relaunch, or replace the
-agent if the stage fails. The agent runs both validators itself and writes:
+The reviewer directly compares the editorial source with the draft, repairs
+only the prose, and runs both prose validators within its single turn. This is
+the fixed second stage, not a retry. The orchestrator does not inspect, diff,
+validate, summarize, or customize the output and never sends an output-derived
+follow-up. It does not retry, rerun, relaunch, or replace either agent if a
+stage fails. The only new durable middle-layer output is:
 
 ```text
 _commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.prose.middle.tr.md
-_commentary/v5/middle/<analysis-id>/sNNN/S_A/S_A.middle.claims.json
 ```
+
+Existing `*.middle.claims.json` files and
+`validate_middle_layer.py` belong to the legacy V2 workflow. New prompts do not
+read, modify, or recreate them; new prose uses `validate_middle_prose.py`.
 
 The invitation remains derived from final editorial prose, not middle prose.
 

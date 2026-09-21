@@ -1,0 +1,193 @@
+# V5 reading invitation — 17:66
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p04-with-fatiha/s017/17_66/17_66.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p04-with-fatiha/s017/17_66/17_66.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Rabbin Eyleminden Arayışa
+
+Ayet muhataplarına önce {ar:رَبُّكُمُ, tr:rabbukumu, gloss:Rabbiniz} diye seslenir: çoğul iyelik eki onları hitabın içine alıp Rab ile bu topluluk arasındaki bağı kurar; Allah'ı topluluğun mülkü yapmaz. Ardından gelen tekil eril {ar:ٱلَّذِى, tr:alladhī, gloss:ki} ve tekil fiil gemiyi ilerleten özneyi bu Rab olarak belirler; kimin olduğu eylemden önce duyulur, gemiyi yürütme ise Rab oluşunun bir görünümü olarak kalır. Rab başlığının sahiplik ve yönetim tonu, gözetileni adım adım yetiştirip tamamlamaya dönük kök çağrışımıyla birlikte işitir. {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} hareketi, {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu} diye aranan geçim ve son {ar:رَحِيمًۭا, tr:raḥīman, gloss:merhametli} sıfatı bir bakım çizgisi kurar; yetiştirme burada isim çağrışımıdır, ayrı bir besleme ya da büyütme fiili değil. Önceki koruma ve bakım göndermeleri bu açılışa bir halka verir; bu yankı belirtilen göndermeler çerçevesinde kalırken şimdiki gemi yolculuğu gerçek deniz yolculuğudur (17:8, 17:25, 17:65).
+
+İlgi cümlesi bu Rab adından geminin ilerletilmesine, yararlananlara, denize ve arayış amacına uzanır. Birleştirici merkez {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} fiilidir: dördüncü bâbın etken biçimi gemiyi ileri götürür; tekil özne hareket ettireni, {ar:لَكُمُ, tr:lakumu, gloss:sizin için} yararlananları, {ar:ٱلْفُلْكَ, tr:al-fulka, gloss:gemi} ilerletilen aracı, denizi yolculuğun ortamı, insanları da arayışın failleri olarak birbirinden ayırır. Fiilin itip yöneltme çekirdeği gemi ve deniz ortamında ölçülü, yumuşakça ayarlanmış bir geçiş olarak duyulabilir; bu nüans gemiyi yürütme anlamını koruyup geçilebilirlik hissi katar, denizin bütünüyle denetlenebilir veya zararsız olduğunu ileri sürmez. Etken muzari biçim eylemi genel ya da süregiden bir çerçevede sunar; seferlerin sıklığını ve süresini kendi başına belirlemez. Aynı seyrek fiilin bulutları sevk edip bir araya getirmesi hareket ufkunu farklı bir taşıyıcıya açar, odak ayette ilerleyen ise gemidir (24:43). Malların güçlükle taşındığını bildiren edilgen biçim, bu etkenliği karşıtlık yoluyla belirginleştirir; dilsel karşılaştırma kıt erzak bulunduğunu ya da gemiye başka anlam yüklendiğini göstermez (12:88).
+
+Yarar, nesne söylenmeden önce {ar:لَكُمُ, tr:lakumu, gloss:sizin için} ile muhataplara bağlanır; öbek insanları taşıta göre öne çıkarırken fiilin nesnesi gemi olarak kalır. Belirli {ar:ٱلْفُلْكَ, tr:al-fulka, gloss:gemi} tanınabilir bir gemi sınıfı sunar; aynı biçim tek gemiyi de birden çok gemiyi de gösterebildiğinden tekneyle filo arasında kesin seçim yapılmaz. Gemi, etken fiilin doğrudan nesnesi ve ilahî imkânın sonlu, pratik taşıyıcısıdır: Rab hareket ettirir, insanlar yarar görür, araç taşır. Gemi-deniz-rızık sahnesi bu aracı geçim bağının içine yerleştirir; burada ise yerel cümledeki nesne ve yararlanıcı rolleri aynen korunur (2:164). Gemi adının ileri geri çalkalanmayı çağrıştıran kök rengi, deniz ve yürütme fiiliyle temasında çevredeki oynaklığı duyurabilir; bu yankı geminin olağan anlamını dalgaya dönüştürmez.
+
+Taşıtın ardından gelen {ar:فِى, tr:fī, gloss:içinde} {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} terkibi dikkati gemiden onu kuşatan genişliğe taşır. Edat ve genitif durum, denizi sürülen nesne değil, geminin içinde ya da boyunca ilerlediği yer ve ortam yapar; sözdizimsel sıra olay dizisine yenisini eklemek yerine sahneyi taşıttan çevresine açar. Belirli tekil biçim yolculuğu tanınabilir bir deniz alanında toplar, coğrafi ad vermez. Genişleyip derinleşme kök imgesi sonlu gemi ve onu ilerleten fiille karşılaşınca gerçek su kütlesinin açıklığını ve ölçeğini öne çıkarır; yolcuların doğrudan yönetemediği bu genişlik bağımlılık hissi verir. Bu ölçek çağrışımı deniz yolculuğunu mecaza çevirmeden okunur; özel bir tehlike ise komşu ayetin kendi zarar-kurtuluş sahnesinden gelir (17:67).
+
+İki lâmın aynı biçimi taşıması, yarardan amaca doğru yön değişimini kurar. {ar:لَكُمُ, tr:lakumu, gloss:sizin için} yararlanıcıyı gösterirken {ar:لِ, tr:li-, gloss:amacıyla}, {ar:تَبْتَغُوا۟, tr:tabtaghū, gloss:arayasınız} eylemini gemi hareketine bağlı bir amaç yapar. Bağımlı amaç yapısı emretmek yerine muhatapların ortak ve etkin arayışını gösterir: insanlar taşınırken kendileri de arar; ilahî imkân bu emeği mümkün kılar. Sûredeki benzer amaç yapısı, arayışı başka bir hedefli eylemle yan yana getirerek bu yönelişi genişletir; karşılaştırma amaç kuruluşuyla sınırlıdır (17:12).
+
+Arayışın kaynağı {ar:مِنْ, tr:min, gloss:-den} ile, yöneldiği değer ise Allah'a ait {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu} ile belirtilir. Min hem kaynağı hem o kaynaktan erişilen payı düşündürür; iyelik eki kaynağı O'na bağlarken insan emeği etkin kalır. Bu ilişki aranan yararı insanın bütünüyle kendi üretimi veya sahipliği olmaktan çıkarır, payın miktarını ise açık bırakır. Lütuf olağan anlamıyla ihsan ve yükümlülük dışı gönüllü iyiliktir; isimdeki armağan tonu bağış rengini verir, ayrı bir verme fiili ya da tamamlanmış bağış olayı kurmaz. Bu adlandırma genel kârı, belirli bir malı veya ücret ve stok hesabını kurmaz; sıradan geçimi de dışlamaz.
+
+Deniz arayışındaki {ar:مِنْ, tr:min, gloss:-den} {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu} kalıbı, aynı surenin başka lütuf arayışlarını da hatırlatır (17:12, 17:57). Lütuf adı daha geniş bir söz alanı açar: gün işaretleriyle ilişkili arayış bu alanın bir örneğidir (17:12); başka kullanımlar aynı sözcük alanını sürdürür (17:21, 17:55, 17:70); Peygamber'e bildirilen lütuf ise deniz yolunda aranan yarardan ayrılır (17:87). Bu yankılar, her bağlamın eylemini birbirine aktarmadan denizden aranan geçimi suredeki lütuf diliyle ilişkilendirir.
+
+Lütfun ayrı bir nicelik kolu da ölçüyü aşan fazlalığı düşündürür. Allah'ın büyük diye nitelenen ve dilediğine verdiği lütuf, fazlanın arayıcının kendi imkânını aşabileceği bir kaynak olduğunu gösterir (62:4). Namazdan sonra yeryüzüne dağılıp lütuf aramak bu kaynağa yönelen etkin emeği öne çıkarır (62:10); düzenlenmiş gündüz içindeki arayış ise lütufla gündelik hareketi yan yana getirir (17:12). Bu katkılar bolluk ihtimalini açarken miktarı ve sonucu belirlemez; deniz arayışındaki temel anlam yine Allah'ın lütfudur, artakalan bir nesne değil.
+
+Bu bolluk kolu, yeterli imkândan az kaynakla idare edip fazlaya erişmeye uzanan bir geçim imgesi kurabilir. {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} kökündeki az geçimle yaşamı sürdürme anlamı alt eşiği, {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu}nun gereksinim üstü veya artan miktar kolu fazlalık ufkunu verir; {ar:مِنْ, tr:min, gloss:-den} kısmi erişimi, {ar:تَبْتَغُوا۟, tr:tabtaghū, gloss:arayasınız} ise bu iki ölçü arasında yönelen emeği kurar. Önceki ayetin yeterliği bu okumaya bir alt eşik çağrıştırsa da açıkça yiyecek değil Rabbin vekil olarak yeterli oluşudur; sonraki ayetteki pay edilmiş rızık ise geçim imgesine daha sonra dayanak verir (17:65, 17:70). Böylece deniz yolculuğunun olağan anlamı bir yeterden fazlaya erişme imgesiyle genişleyebilir; gerçek kıtlık veya belirli miktar ileri sürülmez, yiyecek ve deniz sevkini ayrı imgeler sayan okuma da geçerlidir.
+
+Önceki ayette Rabbin vekil olarak yeterli oluşu, {ar:رَبُّكُمُ, tr:rabbukumu, gloss:Rabbiniz} adının yinelenmesi ve {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} fiilinin gemiyi fiilen yürütmesiyle seyirdeki koruyucu yönetim olarak görünür (17:65). Rab başlığındaki gözetileni eksikten tamamlanmışlığa yetiştirme tonu bu yeterlik güvencesine özenli bir gelişim boyutu katar. Denizcilik söz alanında unvan, gemiciler topluluğunun başı ve yöneticisi olan kaptanı da dar ama gerçek bir yankı olarak çağrıştırabilir; vekil imgesi bu benzetmede becerikli, koruyucu eşgüdümü belirginleştirir (17:65). Bu benzetme ilahî unvanın yalnızca sefer içindeki yankısıdır; önceki yakınlığı koruma değil nimetin verilmesi diye okuma ihtimali de geçerlidir.
+
+## Taşınan İmkân ve Kırılganlık
+
+Yakın ayette aynı denizde zarar ve kurtuluşun belirmesi, ölçülü geçişi krizden önce işleyen gündelik korunma olarak duyurur; merhamet böylece olağan taşımadan acil kurtarmaya uzanan bir bakım imgesi kazanır (17:67). Kurtuluş sonrasında yüz çevirip nimeti örtme tepkisi de yararın unutulabilirliğini gösterir. Bu tepki komşu ayetteki insanlara aittir; odaktaki yolcuların tamamlanmış davranışı olarak bu bağlantıya taşınmaz (17:67).
+
+Güvenlik soruya açıldığında, aynı denize geri gönderilme ve başka bir sefer ihtimali koşullu biçimde belirir (17:68, 17:69). Odaktaki {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} gemiyi ileri götürür; ayrı geri sevk, kırıcı rüzgâr, hareket eden hava ve boğulma ihtimali bu yönün tersine dönebileceğini gösterir (17:69). Dönüş gerçekleşmiş olay değil tehdittir; bunu yaptırım uyarısı sayan okuma da geçerlidir. Gemi adının dairesel biçimi bu dönüşe bir çevrim çağrışımı verir; {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu}nun artan ya da elde kalan pay anlamı olası çevrime verim tonu, değişmeden süren önceki yol ise yinelenme örüntüsü katar (17:77). Bu ayrıntılar birlikte yolculuğu çevrimsel duyurabilir; ancak bu bağlantı gerçekleşmiş kârlı tekrar ya da kozmolojik döngü kurmaz. Fırtına ve boğulma tehdidi dönüşü belirsiz bırakırken tek seferlik, çizgisel yolculuk okuması da açık kalır.
+
+Denizden geçen tekne, daha geniş insan imkânının bir parçası olarak görünür. İnsanların onurlandırılması, karada ve denizde taşınması, iyi şeylerden ve pay edilmiş rızıktan yararlanması gemideki maddi taşımayı genişletir (17:70). Böylece {ar:ٱلْفُلْكَ, tr:al-fulka, gloss:gemi} ve O'nun lütfundan arayış önceden sağlanmış taşıma içinde gerçekleşir; lütfun kaynağı, insanlara tanınan değer ve taşımanın maddi niteliği birlikte belirir. {ar:رَبُّكُمُ, tr:rabbukumu, gloss:Rabbiniz} unvanındaki besleyip geliştirme çağrışımı da pay edilmiş rızıkla somut geçime yaklaşır. Bu bağ genel insan taşımasını odak ayetteki deniz yolcularıyla özdeşleştirmeyi gerektirmez; 17:70 ayrı nimetleri de anlatabilir.
+
+Taşınma, arayışın önceden sağlanan maddi dayanağını görünür kılar. İhtiyaçlara ulaşma gemilerde taşınmayla, insanların gemiler üzerinde taşınmasıyla açıkça yan yana gelir; böylece {ar:لِتَبْتَغُوا۟, tr:li-tabtaghū, gloss:arayasınız diye} etkin arayışı gösterirken arayışın yolu insanı da taşır (40:80, 23:22). Namazdan sonra yeryüzüne dağılma ile lütfu arama ise hareketin yanı sıra arayan kişinin emeğini öne çıkarır (62:10). Karada ve denizde taşıma ile insan onurunun yinelendiği yönündeki bağ daha dolaylı biçimde bu ilişkiyi genişletir; çabayı ortadan kaldırmaz (17:70). Bu örnekler odaktaki arayışın desteklenmiş ama etkin niteliğini belirginleştirir.
+
+Taşıyan kap imgesi, merhamet sıfatının yakınındaki ayrı bir sözlüksel kolu açar. {ar:رَحِيمًۭا, tr:raḥīman, gloss:merhametli} doğrudan sıfattır; aynı sözcük ailesindeki {ar:رَحِم, tr:raḥim, gloss:rahim}, yavrunun geliştiği ve beden içinde taşındığı ayrı isimdir. İnsanları taşıyan başka kökten fiil içsel taşıma ve gebelik imgesini tetikler (17:70); gemi kırılgan yolcuları dışarıdan taşırken rahim gelişen hayatı içeride taşır. Bu iki taşıma kipinin teması merhameti koruyup içine alan, gelişmeye imkân veren bir benzetmeyle duyurur; gemilerde ihtiyaçlara erişme ve insanların gemilerde taşınması bu dış taşımanın maddi dayanağını verir (40:80, 23:22). Buradaki rahim imgesi sıfatın doğrudan çevirisi değil, ayrı bir kaynak benzetmesidir; denizi rahim yapmadığı gibi gebelikte veya yolculukta mutlak güvenlik de vaat etmez.
+
+Maddi bakım farklı sahnelerde ayrı katkılarla görünür. Allah'ın buyruğuyla ilerleyen gemi ve O'nun lütfunu arama, deniz geçişiyle arayışın amacını aynı tabloda buluşturur (45:12). Deniz yiyecekleri, süsler ve gemiler başka iki örnekte lütuf bağıyla birlikte sunulur (16:14, 35:12); meyve ve rızıkla yan yana gelen deniz yolculuğu bu geçimi karadaki ürünlere de açar (14:32). Merhametin dinlenme ve arayışla buluşması bakımın rahatlatıcı yönünü, rüzgârın gemileri yürütmesi ise hareket içindeki niteliğini gösterir (28:73, 30:46). Bu meyve ve yiyecek imgeleri {ar:رَبُّكُمُ, tr:rabbukumu, gloss:Rabbiniz} başlığındaki yetiştirme çağrışımını somut geçime bağlar; her örnek odak ayetin gerçek deniz yolculuğuna kendi eylemi ve ortamı üzerinden katkı verir.
+
+Kırılgan deniz geçidinde ortam, taşıyıcı ve insan tepkisi ayrı ayrı belirir. {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} rüzgâr ve her yönden gelen dalgalarla kuşatıcı tehlike kazanır (10:22); gemiyle kurtuluşun ardından gelen boğulma, kurtuluşun tek başına kalıcı emniyet olmadığını gösterir (7:64). Gemide yakarıp kurtulduktan sonra yönelişi değişenler, tehlikeden sonra insan tepkisinin de dönüşebileceğini ekler (29:65). Yoksul deniz emekçilerinin gemisinin alınma tehdidi taşıyıcının kendisini kırılgan kılarken, ilahî buyrukla işleyen {ar:ٱلْفُلْكَ, tr:al-fulka, gloss:gemi} {ar:رَحِيمًۭا, tr:raḥīman, gloss:merhametli} niteliğiyle birlikte düşünülebilir (18:79, 22:65). Bu örnekler bakımın tehlike içindeki işleyişini genişletir; her seferin fırtınalı ya da daima güvenli olduğu sonucunu vermez. Odaktaki ayet çevresinde maruz kalma ve tekrar eden taşıma okumaları ise doğrudan cümle anlamından daha ihtiyatlı yankılardır (17:64, 17:65, 17:67, 17:68, 17:69, 17:70).
+
+## Arayışın Ahlaki Yönü
+
+Yakın bölüm iki ayrı insan seferberliğini karşı karşıya getirir. Secdeye baş eğiş reddedilir, izleyicilerin peşinden gitmesi katılımcıları toplar; ardından istikrarı sarsma, atlı ve yaya güçleri harekete geçirme, mallara ve çocuklara ortak olma ve aldatıcı vaatler gelir (17:61, 17:63, 17:64). Buna karşılık {ar:رَبُّكُمُ, tr:rabbukumu, gloss:Rabbiniz} gemiyi {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} ile ölçülü biçimde yürütür ve insanları gerçek kaynağa, {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu}na yönelen arayışta birleştirir. Bu karşıtlık zorlayıcı toplama karşısında geçime açılan bir seferberlik sunar; daha genel aidiyet okuması da açık kalır. Karşılaştırmanın konusu seferberlik biçimleridir, deniz yolcularının İblis'in izleyicileriyle özdeşliği değil.
+
+Aranan {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu}, yakın bölümdeki onur çekişmesi yanında duyulduğunda sözcüğün derece bakımından öne geçme kolunu da açabilir; bağış ve gönüllü iyilik anlamı ise arayışta sürer. Secde reddiyle birlikte İblis'in Âdem'in kendisinden üstün onurlandırıldığını ileri sürmesi statü çekişmesini, insanların pek çok varlığa tercih edilmesi karşılaştırmalı dereceyi ayrı ayrı tetikler (17:61, 17:62, 17:70). Bu yan yankı denizdeki lütuf arayışını onur tartışmasına komşu kılar; İblis'in iddiasını yolculara aktarmaz ve onların üstünlük aradığını ileri sürmez.
+
+Amaç bildiren {ar:لِتَبْتَغُوا۟, tr:li-tabtaghū, gloss:arayasınız diye} biçimi arayıp istemeyi, amaç lâmı ve Allah'ın lütfu ise bu çabanın meşru hedefini belirler. Kökün hak sınırını aşma ve haksızlık etme kolu, mal ve çocuklara ortak olma buyruğu ile aldatıcı vaatlerin bulunduğu başka bir sahnede etkinleşir (17:64). Aynı kökün farklı biçimi olan {ar:بَغْيًا وَعَدْوًا, tr:baghyan wa ʿadwan, gloss:haksızlık ve saldırganlıkla}, Firavun ile ordusunun bir topluluğu denizden geçirerek zorla izlemesini ve ardından boğulmalarını niteler (10:90). Bu deniz karşılaştırması amaçların etik yönünü belirginleştirir: odaktaki arayış meşru hedefe yönelir, 10:90'daki takip ise haksızlık ve saldırganlıktır; ortak kök iki eylemi özdeşleştirmez.
+
+Önderle çağrılma ve amel kaydının okunması, ardından içgörü körlüğü, daha da sapma ve yol imgesi fiziksel ilerlemenin yanında ahlaki sorumluluk alanını açar (17:71, 17:72). Odaktaki {ar:ٱلْفُلْكَ, tr:al-fulka, gloss:gemi} ile {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} maddi güzergâhı taşırken sonraki ayetlerin yol imgesi bu hareketi etik yönden karşılaştırır. İki güzergâhı ayırmak, taşınmanın sorumluluğu ortadan kaldırmadığını gösterir; sonraki hitabın topluluğu değişebileceğinden aynı kişileri varsaymayı gerektirmez.
+
+Odaktaki {ar:يُزْجِى, tr:yuzjī, gloss:ilerletir} fiili denizdeki gemiyi ileri taşırken, {ar:ٱلْبَحْرِ, tr:al-baḥri, gloss:deniz} geniş su kütlesini bildirir; bunun yanındaki karasal örnek Rabbin peygamberi sağlamlaştırmasını ve onun neredeyse başkalarına meylettirilmesini gösterir (17:74). Bu örnek içsel sebatı, peygamberi sarsıp bulunduğu yerden çıkarma ve karadan atma tehdidi dış baskıyı, önceki elçiler hakkındaki değişmez yol ise süreklilik örüntüsünü ekler (17:76, 17:77). Birlikte deniz geçişiyle karadaki sebatı karşılaştırabilirler; odak ayet ile 17:76 tehdidi arasında açık bir temas bulunmadığı için bu bağlantı olasılık olarak kalır, kişiler ve olaylar eşitlenmez.
+
+## Merhamet Cümlesinin Kapanışı
+
+Amaç öbeğindeki {ar:مِنْ, tr:min, gloss:-den} {ar:فَضْلِهِۦٓ, tr:faḍlihi, gloss:O'nun lütfu} arayışı tamamladıktan sonra {ar:إِنَّهُۥ, tr:innahu, gloss:şüphesiz O} yeni bir cümle açar. Araya bağlaç girmeden gelen merhamet bildirimi, insanın lütuf arayışını Rabbin niteliğine yaklaştırır; fakat amaç maddesini uzatmaz, tamamlanmış deniz sahnesini yorumlayan bağımsız bir kapanış kurar. Deniz yolunda aranan lütuf ile Peygamber'e bildirilen lütuf arasındaki ayrım bu geçişte yeniden duyulabilir: biri aranır, öteki bildirilir; karşıtlık zamirin sözlük anlamına değil lütuf cümlesinden kapanışa geçişe aittir (17:87). Bağlı zamir baştaki ilahî özneye döner; vurgu yeni bir fail getirmek yerine aynı Rabbin kapanış niteliğini belirginleştirir.
+
+Kopulatif bildirimde {ar:كَانَ, tr:kāna, gloss:olagelmiştir} ilahî özneyle {ar:بِكُمْ, tr:bikum, gloss:sizinle} içindeki muhatapları ve {ar:رَحِيمًۭا, tr:raḥīman, gloss:merhametli} yüklemini bir araya getirir. Merhamet sıfatının nasb hâli kāna'nın yüklem görevini tamamlar ve ilahî özneyle tekil eril uyumu korur; çoğul muhataplara uymaz, {ar:بِكُمْ, tr:bikum, gloss:sizinle} ise yönetilen ilişki tamamlayıcısıdır. Belirsiz faʿīl kalıbı tek bir yardım olayı veya belirli bir nimet adlandırmadan şefkatle esirgeme ve etkin iyilik bildiren bir nitelik kurar. Geçmiş biçimli kopula bu niteliği tek bir deniz anına hapsetmez; ancak tek başına süre ya da sıklık da belirtmez.
+
+{ar:بِكُمْ, tr:bikum, gloss:sizinle} edatla zamiri tek bağlı öbekte tutar. Muhataplar merhametin doğrudan nesnesi değil, onunla kurulan ilişkinin tamamlayıcısıdır; yöneliş, beraberlik ve yakınlık tonlarından biri zorla seçilmez. Aynı çoğul hitap {ar:رَبُّكُمُ, tr:rabbukumu, gloss:Rabbiniz}, {ar:لَكُمُ, tr:lakumu, gloss:sizin için} ve {ar:بِكُمْ, tr:bikum, gloss:sizinle} biçimlerinde açılıştan yarara ve kapanışa taşınır: dilbilgisel devamlılık aynı topluluğu merhamet ilişkisine bağlar, her aşamada aynı koşulları yaşadıklarını söylemeden. İkinci çoğul kişi alıcıları kişi ve sayı bakımından belirler; kapanış bilinen bir topluluğa yönelir, tek tek üyelerin listesini vermez. Merhametin bir edatla insanlara bağlanması bu niteliği soyut bırakmaz, ama {ar:لَكُمُ, tr:lakumu, gloss:sizin için} ile {ar:بِكُمْ, tr:bikum, gloss:sizinle} edatlarını eş anlamlı yapmaz.
+
+Olma ve bulunma kökü taşıyan {ar:كَانَ, tr:kāna, gloss:olagelmiştir}, {ar:بِكُمْ, tr:bikum, gloss:sizinle} ilişkisiyle yan yana geldiğinde merhametin muhataplara dönük biçimde konumlandığı bir benzetmeye izin verir. Bu çağrışım gerçek bir mekân, derece veya kuşatılma değildir; nitelik Allah'ın o topluluğa yönelik yerleşik merhameti olarak duyulur. Geçmiş kopula ve belirsiz sıfat bu bildirimi tek bir deniz olayından geniş tutar, fakat belirli bir zaman aralığı ya da sıklık ileri sürmez. {ar:رَحِيمًۭا, tr:raḥīman, gloss:merhametli} sıfatının kök alanındaki yakın soy bağı ve ortak köken çağrışımı da {ar:بِكُمْ, tr:bikum, gloss:sizinle} hitabıyla buluşunca merhameti mahrem bir yakınlık gibi işittirebilir; bu benzetme biyolojik bağ veya gerçek akrabalık kurmaz.
+
+Son sıfatın şefkat ve etkin iyilik yönü, gemiyi ilerleten hareketle ve aranan lütufla buluşarak geçişi koruyucu bakım olarak duyurur; bu imge belirli bir kurtarma olayını değil, merhametin eylem niteliğini anlatır. Komşu ayetteki benzer kopula çerçevesi insan nankörlüğünü bildirir; bu karşıtlık merhamet kapanışını hemen sonraki ters yönelişin eşiğinde belirginleştirir (17:67). Benzer merhamet kalıbı karşılıklı rıza ve toplumsal korunma hükümlerinin ardında görünür (4:29); karanlıklardan aydınlığa çıkarılma ise niteliği başka bir eylemle duyurur (33:43). Fatiha'da iki merhamet adı birlikte anılır (1:3). Bu örnekler aynı niteliği ayrı eylemler ve sonuçlar içinde tanıtır, odak ayetin yüklemini değiştirmez.
+
+Sûre başındaki besmele de aynı merhamet adlarını açılışa taşır (S:0). Açılıştaki {ar:رَبُّكُمُ, tr:rabbukumu, gloss:Rabbiniz} ile kapanıştaki {ar:رَحِيمًۭا, tr:raḥīman, gloss:merhametli} arasındaki halka gerçek gemi yolculuğunu mecaza dönüştürmeden onu açılışta duyurulan bakım niteliğinin yaşanan örneği kılar. Bu yankı yolculuğu önceden haber vermez; merhameti deniz yardımına da indirgemez. Suredeki başka bakım eylemleri bu niteliği daha geniş bir söz alanına yerleştirir (17:24, 17:28, 17:57, 17:82, 17:87, 17:100). Son {ar:رَحِيمًۭا, tr:raḥīman, gloss:merhametli} hem yüklemi hem ayeti tamamlar; tanvinli son ses niteliği duyulur bir kapanışa taşır.
+
+</editorial_prose>

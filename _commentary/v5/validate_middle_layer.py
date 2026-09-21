@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate V5 middle-layer prose and its atomic claim ledger."""
+"""Validate historical V2 middle-layer prose/ledger pairs."""
 
 from __future__ import annotations
 
@@ -517,7 +517,7 @@ def _read(path: Path) -> str:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Validate V5 middle-layer prose and atomic claim ledger."
+        description="Validate a legacy V2 middle-layer prose/ledger pair."
     )
     parser.add_argument("--source", required=True, type=Path)
     parser.add_argument("--prose", required=True, type=Path)

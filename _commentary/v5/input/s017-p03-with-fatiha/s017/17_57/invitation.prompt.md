@@ -1,0 +1,217 @@
+# V5 reading invitation — 17:57
+
+You are a fresh reading-invitation writer. Read the complete editorial prose
+before writing. It is your sole semantic source.
+
+Write two to four paragraphs of fluent, contemporary Turkish that reveal a
+surprising reading by following one or two main channels of resonance in the
+ayah. A channel is a connected background of meanings, images, actions, or
+relations through which the ayah can be heard and understood differently.
+Several editorial findings may together develop one channel. Summarize that
+connected movement and its consequence for the ayah's main meaning, rather
+than compressing findings individually. Give the reading's substance now;
+the invitation comes from understanding it, not from a promise of hidden depth.
+
+Before drafting, read the entire editorial prose and silently select the one
+or two channels with the strongest interpretive consequence and enough
+grounding to explain clearly. Favor channels that expand or shift what the
+ayah says, the relation it establishes, or what is at stake in its action or
+image. One fully developed channel is sufficient; add a second only when it
+offers a distinct consequential reading that can be explained within the
+invitation. No finding, channel, or major shift has an individual coverage
+claim. Unselected material may remain entirely in the full commentary.
+
+A channel may develop through grammar, sound, dialogue, a material process,
+time, imagery, or a conceptual relation. Resonance is not limited to acoustic
+effects, and an unusual image alone does not establish a channel. Use only
+connections the editorial prose actually develops. If it supplies no such
+channel, explain its strongest grounded reading without inventing connections
+or surprise.
+
+Begin inside the ayah's own words, images, actions, or relations and reveal a
+selected distinctive reading in the first paragraph. Keep the plain meaning
+reachable with only the orientation needed to understand the change. Do not
+spend an opening paragraph on routine explanation or front-load context about
+the surah, the ayah's position, or the commentary project.
+
+For each selected channel, begin with the expression that opens it, unfold the
+connected background, and show how the ayah reads or sounds against that
+background. Let a detail lead into the next through an intelligible relation
+or process, so the reader experiences the emerging reading. This is a movement
+of thought, not a mandatory sentence pattern or one paragraph per finding.
+Let the reader identify the expression being interpreted,
+where any nonordinary detail comes from, and what that detail changes in the
+reading. Briefly identify the word-family use, restricted form, collocation, or
+context that supplies an essential added detail, and preserve the concrete
+operation that makes the image work. Keep the ordinary reading and necessary
+qualification clear within this explanation; do not repeat them as a fixed
+formula. Preserve the particular object, process, or relation that makes this
+reading distinctive, and state its interpretive consequence for the ayah as a
+whole. Make intelligible what the familiar reading leaves less visible and
+what the expanded or shifted reading now lets the reader understand. Preserve
+the editorial's force: an exploratory possibility remains possible, while a
+developed shift must not be softened into a decorative association or a
+reassurance that everything means the same thing. A concrete
+account of how something is carried, transformed, lost, or restored must not
+shrink to a general statement about care, guidance, dependence, or goodness.
+Keep the details needed to make the selected channel work; omit side findings
+and shorten routine setup. If a channel cannot be explained faithfully from
+the editorial prose, choose another grounded channel or reading.
+
+When a non-focus ayah supplies a contribution used in the invitation, keep its
+reference from the editorial prose beside that contribution.
+
+Do not turn the invitation into a miniature inventory of the commentary's
+conclusions, or flatten distinct channels into a broad theme to include more
+material. Do not repair, extend, or supplement the editorial prose from memory
+or outside knowledge.
+
+Omit technical apparatus. Retain any qualification, source distinction, live
+alternative, or boundary whose absence would change the force or meaning of a
+chosen reading. Express it naturally beside the image or relation it qualifies.
+Favor positive explanations of the relation between layers: what remains in
+the foreground and what the resonance makes audible in the background. State
+how that background reinforces, expands, or shifts the understanding of the
+main meaning, with the source and degree of certainty clear. Reserve explicit
+exclusions for concrete ambiguities or live counter-evidence that need them.
+Repeated "this is not X" endings make a reading sound withdrawn; express the
+substantive qualification through what the reading does contribute wherever
+possible. Use varied, natural language rather than a repeated "second layer"
+formula, and preserve the force of expansions and shifts.
+Do not name branches, candidates, findings, scopes, evidence categories,
+ledgers, or workflow stages, or label the prose as numbered channels. Do not
+list findings serially.
+
+Use the established `{ar:..., tr:..., gloss:...}` syntax, consistent
+Turkish-readable transliteration, and short ordinary glosses. Keep Arabic
+anchors beside the explanations they ground. Within a paragraph, continue with
+the Turkish meaning where clear; provide the necessary local tag when a later
+paragraph interprets the carrier anew. Do not place Arabic script outside a
+valid tag.
+
+Build transitions within a channel through its shared object, action, or
+relation. If two channels are selected, they may occupy separate paragraphs;
+do not invent a link between them. Do not praise the commentary's quality,
+promise what the reader will find, manufacture suspense, recap at the end, or
+add a call to action. End on an image, relation, action, or tension already
+established by the selected reading.
+
+Before finishing, compare the invitation with the entire editorial prose:
+does the chosen channel reveal a consequential reading, or could the text have
+been written from the ordinary translation and a modest explanation alone?
+When the editorial supports a surprising channel, the latter fails this task.
+Can the reader follow the opening expression into a connected background and
+understand how that background expands or shifts the ayah's main meaning?
+Check the selected connections against their editorial explanation: can the
+reader tell where the nonordinary details come from, with the necessary
+qualifications intact? Repair generic explanation, isolated curiosities, or a
+compressed findings list by developing the selected channel. Do not add
+omitted channels merely for coverage. Do not output this check.
+
+Write only the invitation text to:
+
+`_commentary/v5/editorial/s017-p03-with-fatiha/s017/17_57/17_57.invitation.tr.md`
+
+Do not add a heading, wrapper label, index, ledger, evidence file, or any other
+artifact. Do not modify the editorial prose.
+
+After writing the invitation, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/editorial/s017-p03-with-fatiha/s017/17_57/17_57.invitation.tr.md
+```
+
+If validation fails, repair only the reported mechanical file-contract issues
+and rerun it, for at most two repair cycles. Report the final validator result
+in your response.
+
+<editorial_prose>
+## Çağrıdan Arayışa
+
+17:57, insanların Allah'tan başka {ar:يَدْعُونَ, tr:yadʿūna, gloss:çağırdıkları} kimselere döner. Eril çoğul işaret zamiri {ar:أُو۟لَٰٓئِكَ, tr:ulāʾika, gloss:şu kimseler} gerideki topluluğu gösterir; ardından gelen eril çoğul ilgi zamiri {ar:ٱلَّذِينَ, tr:alladhīna, gloss:o kimseler ki} bu topluluğu çağırma ilişkisiyle tanımlar. Bu olağan kuruluşta göreli zamir, çağrılanları {ar:يَدْعُونَ, tr:yadʿūna, gloss:çağırırlar} fiilinin nesnesi olarak verir. Hemen ardından {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} gelir ve aynı çağrılan topluluğu bu kez arayışın öznesi yapar: kendi Rablerine doğru bir vesile ararlar. Çoğul eylem zinciri, bu topluluğu durağan bir unvan yerine etkin özneler olarak gösterir; çağıranların ve çağrılanların tek tek kimlikleri verilmez, buna karşılık çağrılanların arayıcı oluşu açıkça kurulur.
+
+Önceki hitapta (17:56) insanlara {ar:ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُمْ, tr:udʿū alladhīna zaʿamtum, gloss:iddia ettiklerinizi çağırın} denir. {ar:زَعَمْتُمْ, tr:zaʿamtum, gloss:iddia ettikleriniz} sözü, bu kişilere yüklenen gücü doğrulanmış bir nitelik değil iddia olarak çerçeveler. Çağrılanların {ar:كَشْفَ ٱلضُّرِّ, tr:kashfa al-ḍurr, gloss:zararı giderme} ya da {ar:تَحْوِيلًا, tr:taḥwīlan, gloss:başka hâle aktarma} gücü yoktur: ilki zararın üzerindeki örtüyü kaldırır gibi onu gidermeyi, ikincisi bir durumdan başka bir duruma geçirmeyi adlandırır. {ar:فَلَا يَمْلِكُونَ, tr:fa-lā yamlikūna, gloss:ellerinde tutamazlar} ifadesi bu anılan sonuçlar üzerindeki denetimsizliği bildirir. Böylece 17:57'deki {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} eylemi, sonuçları yöneten güç isnadının karşısında Rabbe yönelen talep sahiplerini gösterir; sınır anılan zararın giderilmesi ve aktarılmasıdır, her türlü aracılık ya da devredilmiş eylem hakkında genel bir hüküm değildir.
+
+Çağırmanın odağı sözle seslenmedir. Odaktaki çoğul muzari {ar:يَدْعُونَ, tr:yadʿūna, gloss:çağırırlar}, çağrıyı tek seferlik bir olaydan çok süren bir ilişki olarak duyurur; önceki ayetin (17:56) {ar:ٱدْعُوا۟, tr:udʿū, gloss:çağırın} emri aynı temel anlamı hemen önceden kurar. Buradaki iki kullanım sözlü çağrı anlamını taşır; özel bir yemek daveti ya da belirli bir yere yöneltme kuruluşu değildir.
+
+Bu sözlü çağrı aynı sûrede Allah'ı ya da Rahmân'ı çağırma izninde yeniden duyulur (17:110): {ar:ٱدْعُوا۟, tr:udʿū, gloss:çağırın} fiili odaktaki {ar:يَدْعُونَ, tr:yadʿūna, gloss:çağırırlar} ile seslenme bağını sürdürür; güzel adların O'na ait olduğu vurgusu, çağrılanların Rabbe bağımlılığını öne çıkarır. Bu yankı çağrılanların kimliğini ya da 17:57'nin cümle kuruluşunu belirlemez. İnsan çağrısının aceleyle yanlış yöne gidebilmesi de hatırlatılır (17:11); bu bağlam, çağrılma olgusunu her çağrı eyleminin doğru olduğuna dair bir hükme dönüştürmez.
+
+Seslenme anlamının bir sözlük kullanımı, muhatabı konuşana doğru çağırıp yöneltmektir. Bu imge, {ar:يَدْعُونَ, tr:yadʿūna, gloss:çağırırlar} ile hemen ardından gelen {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:ararlar} arayışı ve açıkça aranan {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesileyi} arasında çağrıdan arayışa bir yön değişimi kurar: çağrılanlar erişimi dağıtan son duraklar değil, kendi Rablerine yönelen arayıcılar olarak belirir; çağıranların bakışı da bu yönelişe çevrilir. Böylece sözlükteki çağıran-yönlendiren çekiş, ayetteki Rabbe dönük arayışa bağlanır.
+
+Bu çekişin daha dar bir sözlük benzetmesinde, sağım sırasında memede bilerek bırakılan küçük bir pay, ardından gelecek süt akışını uyarmak içindir. İmgenin özgül katkısı, genel bir kalıntıyı değil, sonraki akışı özellikle çağıran bu başlangıç payını öne çıkarmasıdır. {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} fiili ve aranan {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesile} ile buluştuğunda bu pay, sonucu depolayan bir kaynak değil, arayıcıyı Rabbine doğru harekete geçiren işaret gibi duyulur. Bu bağlantı sözlükteki özel pay benzetmesine aittir; ayette gerçek bir sağım sahnesi anlatmaz ve sözcüğün kökenini açıklamaz.
+
+## Aranan Vasıta
+
+Arayışın kuruluşu, aranan şeyi yönelinen hedeften ayırır. Sekizinci bâbın çoğul muzari biçimi {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:ararlar}, belirli ve mansup doğrudan nesne {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesileyi} ile ayrı yön tamamlayıcısı {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} {ar:رَبِّهِمُ, tr:rabbihim, gloss:onların Rabbi} öbeğini alır. Yön öbeğinin nesneden önce gelişi, okura önce nereye gidildiğini, sonra neyin arandığını duyurur; Rabbe dönük bu yön, vesileyi yaklaşma aracı olarak kurar. Arayıcılar Rabbin kendisini nesne edinmez; O'na yaklaşmaya yarayan şeyi ararlar ve ne araca ne de hedefe zaten sahip oldukları söylenir. Çok sayıdaki arayıcıyı karşılayan tekil Rabb, çoğul topluluğun yöneldiği biricik hedef olarak belirir.
+
+{ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:ararlar} olağan kullanımıyla bir şeyi, ihtiyacı ya da amacı arayıp ona yönelmektir; açık nesne ve Rabbe doğru yön, bu arayışı hedefli ve çaba isteyen bir takip yapar. Fiilin özel bir kullanımı da çabayı ya da ölçüyü aşacak kadar yoğun istemeyi anlatabilir; bu imge arayışa içten bir gayret tonu katar. Biçim tek başına aşırılık veya başarı bildirmez: çağrılanlar arayanlardır.
+
+Aranan {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesileyi}, bağlantı kurma ve ulaşma alanını çağrıştıran bir yol, araç ya da yakınlık bağıdır; belirli oluşu arayışın sürmekte olduğunu değiştirmez. İnananlardan Allah'a doğru aynı {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesileyi} sözcüğünü aramaları istenir (5:35). Bu bağlam, genel araç anlamına yakınlaşma yolunu da ekler; sözlük imgesi anlamı genişletir, tek bir tanıma indirgemez. Allah dışında ne yarar ne zarar verebilecek olana yakarmayı sınırlayan uyarı (10:106), odaktaki zarar kudreti tartışmasına temas eder; bu bağlantı, izinle sınırlı her aracılık biçimini dışlamaz. İnsan çağrısının aceleyle yanlış yöne gidebildiğini söyleyen bağlam da bu arayışa ölçü katar (17:11), çağrılanların kimliğini belirlemez.
+
+Arayışın içindeki {ar:أَيُّهُمْ, tr:ayyuhum, gloss:hangisi içlerinden} {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} öbeği, bir an için cümlenin yönünü sıralamaya çevirir. Kuruluş soru olarak da bağlı bir ilgi cümlesi olarak da okunabilir; her iki okumada seçim topluluğun içinden yapılır ve {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} gerçek bir karşılaştırma derecesi kurar: biri ötekilerden daha yakın, belki de en yakındır. Hemen peşinden gelen {ar:وَيَرْجُونَ, tr:wa-yarjūna, gloss:ve umut ederler} ve {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} bu dereceyi kuru bir mertebe listesi olmaktan çıkarıp merhamete yönelen arayışın içine alır; kimin daha yakın olduğu açık kalır.
+
+Yakınlık sözcüğünün bir kullanımı, Tanrı'ya bir iş ya da sunu aracılığıyla yaklaşmayı amaçlar. Bu imge {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} ile aranan {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesile} ve etkin {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} fiili arasında amaç bağı kurar: vesile arayışı, Tanrı'ya iş ya da sunu yoluyla yaklaşma yönü kazanır. İmgenin katkısı bu yakınlaşma yoludur; {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} ise sununun adı değil, gerçek bir karşılaştırma derecesi olarak kalır.
+
+Yakınlığın bir başka sözlük kullanımı, yüksek makam sahibine ya da Tanrı'ya mevki ve kabul bakımından yakın olmayı, ayrıcalıklı çevrede bulunmayı anlatır. Allah'a yöneltilmiş vesile arayışı bu olanağı besler (5:35): {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} yalnız bedensel uzaklığı değil, Allah katındaki konumu ve kabulü de düşündürebilir. Aranan vesile ve tekil {ar:رَبِّهِمُ, tr:rabbihim, gloss:onların Rabbi} bu yakınlığı kazanılmış bir ayrıcalık değil, yönelinip aranan bir duruş olarak tutar.
+
+Yakınlık ayrıca Tanrı-insan ilişkisinde bedensel mesafeden çok ruhsal yöneliş ve ilişki olarak açıklanır. {ar:إِلَىٰ, tr:ilā, gloss:-e doğru} {ar:رَبِّهِمُ, tr:rabbihim, gloss:onların Rabbi} yönü, {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} eylemi ve aranan {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesile} bu ilişki boyutunu etkinleştirir. Bu okumanın katkısı Rabbe dönük etkin ilişkiyi duyurmasıdır: yön öbeği ilişkiyi, {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} karşılaştırması dereceyi korur; yakınlık mekânsal ölçüyü aşar, fakat yalnızca içsel bir hâle indirgenmez.
+
+## Yakınlığın Çevresi
+
+Yakınlığın kimin hakkı olduğuna dair iddialar, iki ayrı bağlamda sınanır. Oğullar üzerinden seçilmişlik ve meleklerin dişil sayılması iddiası sorgulanır, söylenen söz ağır diye nitelenir (17:40); bu, miras alınmış ayrıcalık gibi sunulan bir statüyü iddia olarak görünür kılar. Buna karşılık odaktaki {ar:أَيُّهُمْ أَقْرَبُ, tr:ayyuhum aqrabu, gloss:hangisi daha yakındır} sorusu, Rabbe yönelen arayıcılar arasında gerçek bir derece araştırır.
+
+Başka ilahların O'nun yanında bulunması koşulunda onların da mutlaka bir yol arayacağı söylenir (17:42): {ar:لَٱبْتَغَوْا۟, tr:la-ibtaghaw, gloss:elbette ararlardı} fiilinin arama ve ihtiyaç çekirdeği, odaktaki {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arıyorlar} ile buluşur. Bu ortak arayış fiili, koşullu sahnede ilahlık iddiasını Rabbe yol arayan bir konuma çevirir. Varsayılan hedef {ar:إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًا, tr:ilā dhī al-ʿarshi sabīlan, gloss:Arş'ın sahibine bir yol} diye anılır; buradaki yol, {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesile} ile aynı sözcük değildir. 17:40 ve 17:42 birlikte kendinde kutsal statü iddiasından Rabbe yönelen arayışa geçirir. Bu bağlantı koşullu anlatımla sınırlıdır: 17:42'deki özneleri 17:57'de çağrılanların tümüyle özdeşleştirmez ve Arş hakkında ek bir öğreti taşımaz.
+
+Ölçek bu kez çağrılan topluluktan bütün yaratılmışlara genişler. Her şey Allah'ı hamdiyle tesbih eder, fakat insanlar bu tesbihi kavrayamaz (17:44): {ar:وَإِن مِّن شَىْءٍ إِلَّا يُسَبِّحُ بِحَمْدِهِ, tr:wa-in min shayʾin illā yusabbiḥu bi-ḥamdihi, gloss:hiçbir şey yoktur ki O'nu hamdiyle tesbih etmesin} sözü evrensel yönelişi kurar. Bu çerçeve, 17:57'de {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} diye arayan, Rablerine yönelip {ar:يَرْجُونَ رَحْمَتَهُۥ, tr:yarjūna raḥmatahu, gloss:rahmetini umarlar} diyen çağrılanları da yaratılmışlar arasındaki övgüye katılanlar olarak düşünmeye imkân verir; umutla tesbih ayrı eylemlerdir ve her varlığın tesbih biçimi açıklanmaz. Çağıranların bu yönelişi görmemiş olabileceği, insan kavrayışının sınırından doğan bir ihtimaldir; bütün çağıranlar hakkında bir teşhis değildir.
+
+Bu evrensel yönelişin karşısında, Kur'an'a direnen dinleyicilerin erişemeyişi belirir. Okuma sırasında örtülü bir perde konur (17:45): {ar:حِجَابًا مَّسْتُورًا, tr:ḥijāban mastūrā, gloss:örtülü bir perde}. İşitme ağırlaşır (17:46): {ar:وَقْرًا, tr:waqran, gloss:ağırlık}; Rab tek başına anıldığında dinleyiciler arkalarını dönüp uzaklaşır (17:46): {ar:وَلَّوْا عَلَىٰٓ أَدْبَٰرِهِمْ نُفُورًا, tr:wallaw ʿalā adbārihim nufūran, gloss:arkalarını dönüp uzaklaşırlar}. Bu perde, alımlama güçlüğü ve geri çekilme, odaktaki etkin {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} ve {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} yönelişinin karşı kutbunu kurar.
+
+Yol bulamama bu karşıtlığı belirginleştirir: dinleyiciler sapar ve bir yol bulamaz (17:48), {ar:فَضَلُّوا۟ فَلَا يَسْتَطِيعُونَ سَبِيلًا, tr:fa-ḍallū fa-lā yastaṭīʿūna sabīlan, gloss:yoldan saparlar ve bir yol bulamazlar}. Buradaki {ar:سَبِيلًا, tr:sabīlan, gloss:bir yol} ile odaktaki {ar:ٱلْوَسِيلَةَ, tr:al-wasīlata, gloss:vesile} sözlükçe farklıdır; yol bulamama, arayıcıların aradığı vesile ve Rabbe yöneliş karşısında bir karşı-imge kurar. Bu karşıtlık {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} yakınlığını Rabbe dönük alımlayıcı bir ilişki olarak da duyurur: yakınlık mekânsal ölçüyü aşar, fakat yalnızca içsel bir hâle indirgenmez. Direnen dinleyiciler, bu bağlamlarda odaktaki çağrılanlarla özdeşleştirilmez (17:45, 17:46, 17:48).
+
+Yaklaşma bu kez zaman ve çağrı yönünden ele alınır. Gelecek olayın vaktinin yakınlığı {ar:قَرِيبًا, tr:qarīban, gloss:yakın zamanda} ile bildirilir (17:51); zaman yakınlığı, arayıcılar arasında derece kuran {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} karşılaştırmasından ayrıdır ama çağrı ufkunu yakınlaştırır. Ardından Rab topluluğu çağırır (17:52): {ar:يَدْعُوكُمْ, tr:yadʿūkum, gloss:sizi çağırır}; onlar da O'na hamdederek karşılık verir (17:52): {ar:فَتَسْتَجِيبُونَ بِحَمْدِهِ, tr:fa-tastajībūna bi-ḥamdihi, gloss:O'na hamdederek karşılık verirsiniz}. Bu karşılık, 17:57'de insanlardan çağrılanlara uzanan yönü tersine çevirip Rabden yaratılmışlara döndürür; iki kullanımda da sözlü çağrı anlamı sürer. 17:57'de {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} ile vesile arayan ve {ar:يَرْجُونَ, tr:yarjūna, gloss:umut ederler} ile rahmeti uman topluluk, bu cevap veren yaratılmışlar arasında düşünülebilir; bu olasılık hamd ile umudu aynı eylem saymaz.
+
+Okur da Fâtiha'da Allah'a yönelir (1:5): {ar:إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, tr:iyyāka naʿbudu wa-iyyāka nastaʿīnu, gloss:yalnız Sana kulluk eder ve yalnız Senden yardım isteriz}. Buradaki birinci çoğul konuşan, 17:57'de üçüncü çoğul {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:arayış içindedirler} ile anlatılanlardan ayrı bir öznedir ve kullukla yardım isteme fiilleri sözlükçe arayışa eşitlenmez. Yine de ortak Allah'a yöneliş, okuyana çağrılanları başvurunun son durağı değil, kendisi gibi başka talep sahipleri olarak görme imkânı verir; topluluklar birbirine karışmaz.
+
+## Umut ve Korku
+
+Arayıştan sonraki ilk {ar:وَ, tr:wa, gloss:ve}, umudu aynı kişilerin sürmekte olan yönelişine ekler. Daha ilk bağlaç korkudan önce gelecek ikinci {ar:وَ, tr:wa, gloss:ve} için bir eş kurar; {ar:وَيَخَافُونَ, tr:wa-yakhāfūna, gloss:ve korkarlar} geldiğinde çift tamamlanır. {ar:وَيَرْجُونَ, tr:wa-yarjūna, gloss:ve umut ederler} ve {ar:وَيَخَافُونَ, tr:wa-yakhāfūna, gloss:ve korkarlar} aynı çoğul kişi ve muzari düzenini, aynı özneyi paylaşır; farklı nesneleri olan {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} ile {ar:عَذَابَهُۥٓ, tr:ʿadhābahu, gloss:O'nun azabı} bu biçimsel çifti iki karşılıklı yönelişe dönüştürür.
+
+Umut kökü bazı olumsuz kuruluşlarda korkuya yaklaşabilse de buradaki olumlu {ar:وَيَرْجُونَ, tr:wa-yarjūna, gloss:umut ederler} doğrudan {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmetini} nesne alır. Bu, belirsiz bir dilekten çok sevindirici bir sonucun gerçekleşmesini olumlu biçimde beklemektir; aynı öznenin ayrı {ar:وَيَخَافُونَ, tr:wa-yakhāfūna, gloss:korkarlar} fiili korkuyu adlandırır. Bu korku, bilinen ya da sanılan bir belirtiye dayanarak beklenen istenmeyen sonuca yönelir; korkulan azab da her güçlük değil, ağır acı ve cezadır.
+
+Umulan {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} ile korkulan {ar:عَذَابَهُۥٓ, tr:ʿadhābahu, gloss:O'nun azabı} aynı mansup nesne konumunda ve aynı ilahi iyelikle kurulur. Bu paralellik iki sonucu aynı Rabbe bağlar; azabın uyarıda yeniden adlandırılması korku tarafını belirginleştirirken rahmet umudu da sürer. Merhamet sözcüğünün çekirdeği, başkasının hâline karşı yüreğin yumuşaması, acıma ve içten yakınlıktır. İlahi iyelik ve {ar:رَبِّهِمُ, tr:rabbihim, gloss:onların Rabbi} ilişkisi bu şefkati Rabbin esirgeme ve iyiliği olarak, arayıcıların beklediği bakım şeklinde duyurur; bu bakım onların yönettiği bir kudret değildir.
+
+Umut ve korkunun sonuçlarını arayıcılar kendileri belirlemez. Odaktaki {ar:وَيَرْجُونَ رَحْمَتَهُۥ, tr:wa-yarjūna raḥmatahu, gloss:rahmetini umarlar} umudu ve {ar:وَيَخَافُونَ عَذَابَهُۥٓ, tr:wa-yakhāfūna ʿadhābahu, gloss:azabından korkarlar} korkusu, merhamet ile azabın Rabbin dilemesine bağlandığı bağlamda ele alınır (17:54). Elçinin bu topluluk üzerinde vekil olmadığının söylenmesi de yönelişi sonuçları üzerinde yetkisi olmayan bir konumda tutar; elçinin sınırı kendi muhataplarına aittir, her türlü ikincil aracılık hakkında genel hüküm değildir. Peygamberler arasında gerçek derece farkları bulunduğu ve Davud'a Zebur verildiği de bildirilir (17:55): {ar:فَضَّلْنَا بَعْضَ ٱلنَّبِيِّۦنَ عَلَىٰ بَعْضٍ, tr:faḍḍalnā baʿḍa al-nabiyyīna ʿalā baʿḍ, gloss:peygamberlerin bazılarını bazılarından üstün kıldık}, {ar:وَءَاتَيْنَا دَاوُۥدَ زَبُورًا, tr:wa-ātaynā dāwūda zabūran, gloss:Davud'a Zebur'u verdik}. Bu gerçek derece, kendiliğinden sonuçları yönetme gücü değildir; peygamberler de çağrılanlarla aynı topluluk sayılmaz.
+
+Rahmet umudunun şefkatten bakıma açılması, ev sahibi sûrenin başındaki besmeleyle de duyulur (S:0). {ar:ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:al-Raḥmān al-Raḥīm, gloss:Rahmân ve Rahîm} adları, odaktaki {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} için önceden kurulmuş bir ilahi nitelik yankısı verir; Tanrı'ya nispet edilen merhamet yaratılmışlara genişçe ulaşan iyilik olarak belirir. Bu açılış, beklenen rahmeti somutlaştırır ve hemen yanındaki azap korkusunu da yerinde bırakır; belirli bir sonucun gerçekleşeceğini vaat etmez.
+
+Fâtiha'nın Rahmân ve Rahîm adları, şefkat çekirdeğini içten acıma, esirgeme ve iyilik olarak açıp 17:57'de umulan {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} ile bağlar (1:3): {ar:ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:al-Raḥmān al-Raḥīm, gloss:Rahmân ve Rahîm}. Bu bağlantının katkısı adların merhamet yankısıdır; 1:3'te ayrı bir biçimbilgisel çözümleme olmadığından odaktaki cümle kuruluşunu açıklamaz, çağrılanların kimliğini ya da azabın anlamını da belirlemez. Rahmet böylece umut edilen iyiliği derinleştirirken yanındaki {ar:وَيَخَافُونَ عَذَابَهُۥٓ, tr:wa-yakhāfūna ʿadhābahu, gloss:azabından korkarlar} korkusunu güvenceye çevirmeden taşır.
+
+## Bakım ve Kesilme
+
+Rabbe yönelişin hedefi olan {ar:رَبِّهِمُ, tr:rabbihim, gloss:onların Rabbi}, sıradan anlamıyla sahiplik, buyruk yetkisi ve yönetip düzenlemeyi içerir. Rab sözcüğünün ayrı bir kullanımı, gözetilen şeyi eksiklikten tamamlanmışlığa doğru adım adım geliştirmeyi anlatır. Bu yetiştirici imge içinde umulan {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} bakımın sürmesini, yinelenen {ar:عَذَابَ, tr:ʿadhāba, gloss:azabı} bu gelişimin kesilme tehlikesini, son niteleme {ar:مَحْذُورًا, tr:maḥdhūrā, gloss:sakınılması gereken} ise sakınılacak sonucu öne çıkarır. Bu üç unsur birlikte bakıma bağımlı hayatın sürmesi ve kesilmesi riskini duyurur; sözlük yankısı Rabbin olağan anlamlarını silmez ve ayeti biyolojik bir gelişim anlatısına dönüştürmez.
+
+Rab adının ayrı bir sözlük kullanımı, büyüyen varlığı besleyip geliştirmeyi anlatır; bu imge boyca artıştan çok besinle sürüp gelişmeye odaklanır. {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} ile beklenen bakımın sürmesi ve yinelenen {ar:عَذَابَ, tr:ʿadhāba, gloss:azabı} ile kayıp ihtimali bu beslenme imgesi çevresinde karşılaşır. Böylece bu kullanım gelişimin nasıl beslendiğini duyururken, önceki paragraftaki eksikten tamamlanmaya doğru adım adım yetiştirme anlamından ayrı kalır.
+
+Korunan gelişim imgesi, rahmet sözcüğünün bağlı olduğu Arapça sözcük ailesindeki döl yatağı anlamıyla derinleşir; bu aile imgesi gelişen hayatın korunmasını düşündürür. Odaktaki {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} olağan anlamıyla umulan ilahi merhamettir; döl yatağı bu yüzey biçiminin karşılığı değil, ayrı bir sözlük imgesidir. {ar:رَبِّهِمُ, tr:rabbihim, gloss:onların Rabbi} ile taşınan sürdürücü ilişki, {ar:يَرْجُونَ, tr:yarjūna, gloss:umut ederler} beklentisi ve yakındaki {ar:عَذَابَهُۥٓ, tr:ʿadhābahu, gloss:O'nun azabı} bu korunma imgesini bakıma bağımlı hayat benzetmesine katar; bu yankı merhamet sözcüğünü bir organ adına dönüştürmez.
+
+Azabın olağan anlamı ağır acı ve cezadır; buna eşlik eden sözlük imgesi, bir şeyi tüketmekten çok hedefe doğru hareketini durdurmayı anlatır. {ar:عَذَابَهُۥٓ, tr:ʿadhābahu, gloss:O'nun azabı} bu imgeyle, umulan {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} ve Rabbin sürdürücü ilişkisi karşısında bakımın devamı ile yönelişin kesilmesi arasındaki farkı duyurur. Alıkoyma imgesi olağan ceza anlamını kaldırmaz; cezanın nasıl bir kayıp olarak hissedilebileceğini genişletir.
+
+Bu kesilmenin daha özel bir benzetmesi, yavruyu besleyici akıştan sütten keser gibi ayırmaktır. Bu imge, {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} ve Rabbin bakımıyla süren beslenmeyi, yinelenen {ar:عَذَابَ, tr:ʿadhāba, gloss:azabı} ile belirginleşen ayrılma ihtimali karşısına koyar. Böylece kesilme, besleyici bağın yitimi olarak somutlaşır; sözcüğün sıradan ceza anlamı ve biçimi yerinde kalır, bu benzetme köken açıklaması değildir.
+
+Umut fiilinin ayrı bir sözlük kullanımı, gebe bir öznenin yavrunun çıkışına ve doğuma çok yaklaştığı evreyi anlatabilir. {ar:يَرْجُونَ, tr:yarjūna, gloss:umut ederler} burada olağan anlamıyla {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmetini} beklemeyi sürdürür; rahmet ailesindeki döl yatağı imgesi ile bağımsız bir tetikleyici olan {ar:أَقْرَبُ, tr:aqrabu, gloss:daha yakın} karşılaştırması bir araya gelince bu umut, doğuma hemen yaklaşan bir eşik gibi duyulur. Bu sözlük yankısı arayıcıları gebe saymaz ve doğumu gerçekleşmiş kılmaz; kullanım doğumdan hemen önceki evreyle sınırlıdır, erken doğum ya da genel bir gecikme anlamına gelmez.
+
+## Sakınılacak Sonuç
+
+Arayış, umut ve korku dizisinin ardından gelen {ar:إِنَّ, tr:inna, gloss:şüphesiz}, canlı eylemlerden pekiştirilmiş bir uyarıya geçiş kurar. Önce korkunun nesnesi olan {ar:عَذَابَهُۥٓ, tr:ʿadhābahu, gloss:O'nun azabı}, şimdi {ar:عَذَابَ, tr:ʿadhāba, gloss:azabı} biçiminde {ar:إِنَّ, tr:inna, gloss:şüphesiz} edatının mansup ismi olarak yeniden gelir; bu yerel yineleme korkulan sonucu bildirimin odağına taşır. {ar:رَبِّكَ, tr:rabbika, gloss:senin Rabbin} tamlamasındaki ikinci tekil iyelik eki uyarıyı muhatabın Rabbiyle ilişkilendirir. Arayıştaki {ar:رَبِّهِمُ, tr:rabbihim, gloss:onların Rabbi} biçiminden {ar:رَبِّكَ, tr:rabbika, gloss:senin Rabbin} biçimine geçiş, betimlenen çoğul topluluktan doğrudan uyarıya yönelir; Rab adının sahiplik, buyruk ve yönetme çağrışımları bu ilişkide sürer. İyelik eki tamlama içinde kalır ve ayrı bir seslenme kurmaz; bu uyarı Rab ilişkisine dayanır, keyfî bir kudret savı değildir.
+
+Ardından {ar:كَانَ, tr:kāna, gloss:olmuştur} fiilinin tamamlanmışlık görünüşü, süren {ar:يَبْتَغُونَ, tr:yabtaghūna, gloss:ararlar} arayışı, {ar:يَرْجُونَ, tr:yarjūna, gloss:umarlar} umudu ve {ar:يَخَافُونَ, tr:yakhāfūna, gloss:korkarlar} korkusundan sonra {ar:مَحْذُورًا, tr:maḥdhūrā, gloss:sakınılması gereken} niteliğini kurulmuş bir uyarı olarak duyurur; bu tamamlanmışlık bildirilen sakınmayı tek bir geçmiş olayla sınırlamaz. Edilgen ortaç korkan kişileri değil, sakınılması gereken şeyi niteler. Son konumu ve bitiş tanvini uyarıyı işitilir bir kapanışa taşır; bu etki son konum ve tanvinden gelir, ender bir biçimbilgisine ya da başka bir ayetle ses benzerliğine dayanmaz.
+
+Sakınılacak nesne, korkunun duygudan ihtiyata uzanmasına imkân verir. {ar:مَحْذُورًا, tr:maḥdhūrā, gloss:sakınılması gereken} için aktarılan sözlük kullanımı, beklenen tehlike karşısında önceden hazır ve korunmaya donanımlı durmayı kapsar. Bu hazırlık, açık {ar:وَيَخَافُونَ, tr:wa-yakhāfūna, gloss:korkarlar} korkusu, yinelenen {ar:عَذَابَ, tr:ʿadhāba, gloss:azabı} ve umulan {ar:رَحْمَتَهُۥ, tr:raḥmatahu, gloss:O'nun rahmeti} ile birlikte düşünüldüğünde pratik bir sakınma yönü kazanır. Rab korkusunu kötü hesaptan korkuyla yan yana getiren bağlam (13:21) da bu ihtiyatı hesap verebilirlik içine yerleştirir. Böylece bakımın yitimi ihtimali davranışa uzanır; metin belirli bir sakınma eylemi tarif etmez.
+
+Yazılı tehdit, ihtiyatı somut bir tehlike ufkuna taşır. Bir yerleşimin kıyametten önce yok edilmesi ya da şiddetli azaba uğraması ve bunun Kitap'ta yazılı olması anlatılır (17:58): {ar:مُهْلِكُوهَا, tr:muhlikūhā, gloss:onu yok etmek} ya da {ar:مُعَذِّبُوهَا, tr:muʿadhdhibūhā, gloss:ona ceza vermek}; sonuç {ar:عَذَابًا شَدِيدًا, tr:ʿadhāban shadīdan, gloss:şiddetli bir azap}, kayıt ise {ar:فِي ٱلْكِتَٰبِ مَسْطُورًا, tr:fī al-kitābi masṭūran, gloss:Kitap'ta yazılmış} diye belirginleşir. Bu bağlamda 17:57'deki {ar:عَذَابَهُۥٓ, tr:ʿadhābahu, gloss:O'nun azabı} yalnız öznel bir ürperti değil, yazıyla kaydedilip uyarılmış bir tehlikeye karşı dikkat olarak da duyulur; kayıt, her arayıcının sonucunu, vaktini ya da tepkisini tek tek paylaştırmaz.
+
+İşaretlerin korku uyandırma amacıyla gönderilmesi başka bir eylemdir (17:59): {ar:تَخْوِيفًا, tr:takhwīfan, gloss:korkutma ve uyarma}. Bu ettirgen uyarı, odaktaki {ar:يَخَافُونَ عَذَابَهُۥٓ, tr:yakhāfūna ʿadhābahu, gloss:azabından korkarlar} biçimindeki, kötü sonucu bekleyen öznenin kendi korkusundan ayrılır. Uyarı sakınma ve önlem almaya yöneltebilir; her muhatapta aynı karşılığın doğacağını söylemez.
+
+İşaretlerin {ar:فِتْنَةً, tr:fitnatan, gloss:sınama} diye nitelenmesi ve {ar:نُخَوِّفُهُمْ, tr:nukhawwifuhum, gloss:onları korkutuyoruz} denmesi, sınanma ile korku uyandırma eylemini aynı bağlamda kurar (17:60). Buna verilen karşılık, taşkınlığın artmasıdır: {ar:فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًا كَبِيرًا, tr:fa-mā yazīduhum illā ṭughyānan kabīran, gloss:ancak büyük bir taşkınlığı artırır}. Bu farklı tepki, odaktaki {ar:وَيَخَافُونَ عَذَابَهُۥٓ, tr:wa-yakhāfūna ʿadhābahu, gloss:O'nun azabından korkarlar} korkusunun uyarıya zorunlu bir cevap değil, anlamlı bir yöneliş olduğunu gösterir. Taşkınlık biçimine bağlanan ikinci kök eşlemesi görünen yazılı biçimle örtüşmediğinden çözümsüz kalır; yeni bir sözlük anlamı yüklenmez. 17:60'taki sınanan dinleyiciler çağrılanlardan ayrıdır; bu karşı tepki tek tek kişilere ek bir nedensellik yüklemez.
+
+</editorial_prose>

@@ -1,3 +1,8 @@
+# Legacy V2 same-author middle-layer follow-up
+
+This file is retained only for already prepared V2 prompt/ledger runs. New V3
+runs use `middle-layer-review.md` with a fresh independent agent.
+
 Before finalizing, perform a fresh audit of the same middle-layer task. Re-read
 the complete filled prompt, the complete editorial source, and both current
 outputs. Do not treat your earlier report, paragraph citations, validator
