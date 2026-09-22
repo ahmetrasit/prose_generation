@@ -1,0 +1,503 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **101:5**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s101-regular-20260911/s101/101_5/101_5.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `101:5 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(101:5 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s101-regular-20260911/s101/101_5/101_5.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s101-regular-20260911/s101/101_5/101_5.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s101-regular-20260911/s101/101_5/101_5.prose.middle.tr.md \
+  --ayah-ref 101:5
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s101-regular-20260911/s101/101_5/101_5.prose.editorial.tr.md`
+
+<source_prose>
+## Liflere Açılan Kütle
+
+101:5, (101:4)'teki savruluşun aynı olay çerçevesindeki ikinci görüntüsünü açar: insanlar dağınık bir yayılış içinde görünürken dağlar kendi yerleşik ağırlıklarından lifli bir hâle geçer. Cümle başındaki {ar:وَ, tr:wa, gloss:ve}, önceki görüntüyü taşıyıp bu dönüşüme bağlayan kesintisiz bir geçiş kurar. Hemen ardından gelen {ar:تَكُونُ, tr:takūnu, gloss:olacak}, düz bir varlık bildiriminden çok geleceğe dönük gerçekleşmeyi ve bir hâle gelişi öne çıkarır. Böylece iki ayet, art arda duran iki haberden ziyade aynı gün içinde görülen iki değişim olarak okunabilir; bu paralellik iki ayrı öznenin aynı oluş hareketinde karşılaştırılmasını sağlar.
+
+Bu oluşun grameri de görüntünün taşıyıcısını belirler. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} belirli artikelli, kırık çoğul ve yalın durumdaki özne olarak dağlar sınıfını öne alır; cansız kırık çoğulun tekil dişil yüklemle uyuşması, çoğul kütleyi tek bir dilbilgisel birim halinde tutar. Dağlar yün görüntüsünü yapan aktör değil, bu duruma giren öznedir. Böylece belirli kütlenin sağlamlık, taşıyıcılık ve yerleşiklik beklentisi ile işlenmiş liflerin gevşekliği aynı dilsel gövdede karşılaşır (78:7, 31:10). Ses akışı da tok başlayan dağ sözünden yün ve didilme sözlerinin daha yumuşak, sürtünmeli kapanışına geçerek bu dönüşüm sırasına eşlik eder.
+
+Benzetme, dönüşümün maddi niteliğini belirler: {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} dağları yün diye yeniden adlandırmadan, onları yüne benzeterek {ar:تَكُونُ, tr:takūnu, gloss:olacak} fiilinin açık benzetmeli yüklemini kurar. {ar:ٱلْعِهْنِ, tr:al-ʿihni, gloss:yün} burada genel bir yumuşaklık değil, rengi olan ve telleri ayrılabilen dokunabilir bir malzeme sunar. Aynı dağ-yün kuruluşunun görünmesi (70:9), bu az rastlanan seçimi uhrevî bir benzetme kalıbı içinde somutlaştırır. Karşılaştırma, dağın kütlesini silmek yerine onu işlenebilir, renk taşıyan ve iç bağları açılabilir bir madde olarak yeniden görmemizi sağlar.
+
+Son niteleme olan {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış}, yün veya pamuğun dövülüp didiklenerek tellerinin ayrıldığı işlenmiş sonucu taşır. Edilgen ortaç, lifleri açılmış neticeyi öne alırken işlemi yapan eli ve yönü cümlenin dışında bırakır; belirsizlik bu fail ve mekanizma sınırında kalır. Böylece benzetme genel bir yün yumuşaklığından, kabarmış ve dağılmış maddenin belirli kapanışına ilerler. Kelimenin sürtünmeli ve yayılmış sesi de sıkı kütleden ayrılmış liflere geçişi duyurur. Bu kapanış, (101:6)'daki ayırma, tartı ve değer sahnesine geçit verir: önce madde biçimini değiştirir, ardından bu değişimin taşıdığı ağırlık sorusu açılır.
+
+Bu yerel malzeme resmi, dönüşümü küçülen bir kütleden çok içten açılan bir yapı olarak gösterir. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın yüksek ve sert başlangıç kütlesi, {ar:ٱلْعِهْنِ, tr:al-ʿihni, gloss:yün}in kopmadan kırılıp sarkan hâli ve {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış}ın içi seyrekleşen kabarık görünüşüyle art arda temas eder. Önce kütle gevşer, sonra lifler ayrılır; arada biçimini bir süre koruyan, fakat yoğunluğu ve taşıma gücü çöken boşluklu bir beden belirir. (101:4)'teki insanların savruluşu bu maddi çözülüşün topluluk yüzünü açar; iki sahne aynı fail veya zorunlu fiziksel neden ilan etmeden, taşıyıcı bağlar gevşediğinde düzenli görünen yapının dağılıma nasıl açıldığını birlikte duyurur.
+
+Bu yerel alanın deneysel bir uzantısı, dağları yönünü ve gözetimini kaybetmiş büyük bir sürü gibi sezdirir. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın büyük topluluk ve bolluk çağrışımı, {ar:ٱلْعِهْنِ, tr:al-ʿihni, gloss:yün}in hayvan lifi oluşuyla birleşir; {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} için geceleyin çobansız otlağa dağılıp dolaşma sahnesi de yön ve idare kaybına katkı verir (101:4, 101:5, 101:8, 101:9). Bu sosyal-ekolojik bağ, edilgen ve işlenmiş yün görüntüsünün üzerinde sınırlı kalır: gece, çobansızlık ve yayılma yalnız bu görüntünün yön kaybını açıklar.
+
+## Canlı Malzemenin Başka Yüzleri
+
+Yün görüntüsü, organik büyümenin katkısını da görünür bir karşıtlıkla taşır. Taze hurma yaprakları ve meyve salkımının dipteki taşıyıcı sapı, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile temas ederek canlı merkeze yakın bir büyüme düzeni kurar; {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} ifadesinin açtığı yayılan sürgün ve küçük çalıcık ayrıntıları da organik maddenin dallanıp çevreye açılmasını gösterir (101:11, 101:4). {ar:نَارٌ, tr:nār, gloss:ateş} kelimesiyle ilişkilendirilen ağaç çiçeklenmesi ve tomurcuklanması bu büyüme tarafını güçlendirir. Bu rezonans dağları bitkiye çevirmek için değil, oluşan gövdeden işlenmiş ve gevşeyen life uzanan maddi dönüşüm çizgisini görünür kılmak için çalışır.
+
+Lifli alanın ikinci katkısı, geçim imkânını hazırlanmış ve korunan bir mekânda elde tutulur kılmasıdır. {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} kelimesinin koruma ve engelleme ayrıntısı, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile buluştuğunda yünü elde ve erişimde bulunan kullanıma hazır bir malzeme olarak gösterir; {ar:عِيشَةٍ, tr:ʿīsha, gloss:yaşayış} geçim ve yaşama imkânını, {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} ise yayılıp döşenen eşya veya örtü ayrıntısını ekler (101:11, 101:4). Böylece dağların didilmiş yüne benzeyen açık görüntüsü, malzemenin bir sığınak ve geçim çevresinde işe yarar halde tutulduğu ayrı bir ışıkta okunur; odaktaki dönüşüm bu dalın zemininde kalır.
+
+Besleyen merkezin katkısı, korunmuş yuvayı hazır rızkın tutulduğu bir yaşama alanına çevirmesidir. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} kelimesinin doğuran ve büyüten merkez anlamı, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile temas edince çevresini kuran ve yaşama imkânını içinde hazır tutan bir merkez görüntüsü açar. Hazırdaki yün anne-merkezle, {ar:عِيشَةٍ, tr:ʿīsha, gloss:yaşayış} geçimle, {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} ise serilip örtülen eşya ayrıntısıyla birleşir (101:4, 101:7, 101:9). Bu vurgu, önceki koruma görüntüsüne akraba olsa da ısının engellemesinden besleyen merkezin çevresinde hazır rızkın tutulmasına geçer.
+
+Kanat ve örtü hareketi, yayılma ile kabarmayı aynı anda görünür kılar. {ar:ٱلْمَبْثُوثِ, tr:al-mabthūthi, gloss:etrafa saçılmış} kelimesinin bir şeyi yayıp saçma ayrıntısı, {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} ile buluşur; {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} yakınlığındaki yere yakın çırpınan kuş ve {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} yakınlığındaki korku veya titremeyle dikleşen tüyler iki ayrı katkı verir (101:4). Kanat merkezden dışarı açılıp yavrunun üstünde örtü kurar; didilmiş yün ise örtünün liflerine kadar ayrılmış hâlini gösterir. Böylece aynı maddi hareket hem koruyan yüzeyi hem de koruyucu bütünlüğün gevşemiş iç yapısını aydınlatır.
+
+Liflerin çoğalması, görüntüyü topluluğun ve miktarın ölçeğine taşır. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} yakınlığındaki topluluk, sınıf veya tür bildiren ayrıntı {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} ile buluşur; dağların çokluğu da çok sayıdaki insanı veya büyük miktardaki malı düşündüren bir yüz kazanır (101:8, 101:9). {ar:خَفَّتْ, tr:khaffat, gloss:hafifledi} kelimesinin azlık ve miktarın küçülmesi hareketi bu genişliği daraltır. Bu rezonans, dağları topluluğa eşitlemeden, çoğul kütlenin büyüyüp küçülen kolektif ölçeğini 101:5'in liflenme görüntüsüne ekler.
+
+Miktar rezonansı, fiziksel kütleyi karşılaştırmalı bir ölçü düzenine sokar. {ar:ثَقُلَتْ, tr:thaqulat, gloss:ağır geldi} kelimesinin standart ağırlık ve tartma ayrıntısı, {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın büyük kütlesiyle karşılaşır; aynı dağ yüzü {ar:خَفَّتْ, tr:khaffat, gloss:hafifledi} kelimesinin azalan miktarıyla da temas eder (101:6, 101:8). {ar:مَوَازِينُهُ, tr:mawāzīnuhu, gloss:ölçüleri} kelimesinin ağırlıkla veya tahminle ölçme ayrıntısı, hacmi karşılaştırmalı bir ölçeğe bağlar. Kütle liflere ayrıldığında fiziksel ölçekte hafifleyebilir; bu değişim görünür büyüklük ile değerlendirmedeki ağırlığın ayrımını belirginleştirir.
+
+Bu ölçü değişimi, yoksulluk ve sıkıntı görüntüsüne somut bir değer kaybı katkısı verir. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} yakınlığındaki küçük ve önemsiz şey ayrıntısı, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile; {ar:خَفَّتْ, tr:khaffat, gloss:hafifledi} kelimesindeki küçümseme ve hor görme ayrıntısı da aynı yün görüntüsüyle buluşur (101:8, 101:9). Kopmadan kırılıp sarkan yün, merkeze ve {ar:تَكُونُ, tr:takūnu, gloss:olacak} kelimesine bağlanan geceyi kötü bir durumda geçirme ayrıntısıyla birleştiğinde, gevşekliğin küçük ve önemsiz sayılma sıkıntısına doğru okunabilmesini sağlar. Bu dal, uçurum yakınlığında sınanan sınırlı bir yankı olarak kalır; yünün işlenmiş görünümünü doğrudan toplumsal hükme çevirmeden değer yitiminin biçimini açıklar.
+
+Değerin başka bir yüzü seçilmişlik ve mertebedir. {ar:ثَقُلَتْ, tr:thaqulat, gloss:ağır geldi} kelimesindeki değer ve kıymet ağırlığı, {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın toplulukta önderlik ve bilgi bakımından öne çıkan kişi yüzüyle buluşur. {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} yakınlığındaki seçilmiş ve güvenilen kimse, dağların görünür yüksekliğiyle; {ar:مَوَازِينُهُ, tr:mawāzīnuhu, gloss:ölçüleri} yakınlığındaki ağırlık taşıyan mevki ve değerle birleşir (101:1, 101:9, 101:11). Fiziksel miktar bu temas sayesinde hükme, orana, toplumsal itibara veya belirlenmiş mertebeye aktarılabilir; dağların yüne benzemesi, aktarımı taşıyan somut dönüşüm olarak kalır.
+
+Bu mertebe hareketine emanet edilmiş kıymetli kaynak eşlik eder. {ar:ثَقُلَتْ, tr:thaqulat, gloss:ağır geldi} kelimesindeki değer, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} malzemenin iyi gözetilip yönetilmesiyle buluşur. Seçilmiş ve güvenilen kişi ayrıntısı yün aracına bağlandığında, değerli malı koruyan ve kullanımını tartan yetkin kişi görünür; {ar:تَكُونُ, tr:takūnu, gloss:olacak} kelimesinin başkası için sorumluluk alıp güvence olma yüzü bu kişiyi hesaba bağlar. {ar:مَوَازِينُهُ, tr:mawāzīnuhu, gloss:ölçüleri} kelimesindeki ağırlığı olan sağlam hüküm de aynı düzeni tamamlar (101:1, 101:9, 101:11). Bu bağ dağları doğrudan emanet sahibi yapmaz; yün benzetmesinin işlenmiş ve elde tutulur malzeme tarafı üzerinden bir emanet düzenini görünür kılar.
+
+## Yön, Biçim Ve Beden
+
+Yön rezonansı, dağ görüntüsüne rehberlik ve işaret olma katkısını verir. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} kelimesindeki önder, rehber ve örnek ayrıntısı, {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın toplulukta yön veren ve bilgi bakımından öne çıkan kişi yüzüyle buluşur. {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} yakınlığındaki seçilmiş ve güvenilen kişi yönün güven boyutunu; {ar:نَارٌ, tr:nār, gloss:ateş} kelimesinin işaret veren kandil, nirengi veya ışık taşıyıcısı ayrıntısı da yön tayinini taşır (101:1, 101:6, 101:9). Dağın yün gibi oluşu bu işaret yüzünü silmez; çözülmekte olan kütlede, yön veren örnek ile biçimini kaybeden yapı arasındaki gerilimi görünür kılar.
+
+Biçim rezonansı, malzeme sorusunu insan bedeninin tanınabilir kuruluşuna taşır. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} yakınlığındaki beden yapısı, boy ve görünüş ile okuma yazmasız ve doğal haldeki insan ayrıntısı; {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki doğuştan gelen temel yapı ve huyla buluşur (101:6, 101:9). Beden, parçaların rastgele yığını değil, işlevleri birbirine bağlayan tanınabilir bir form olarak görünür. Didilmiş yün bu formun karşı kutbuna katkı verir: biçim hemen yok olmaz, fakat onu tanınır kılan bağlar gevşer.
+
+Biçimin zaman içinde taşınması, oluş görüntüsüne hafıza katkısını ekler. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} kelimesindeki doğal ve yazısız insan hâli, {ar:تَكُونُ, tr:takūnu, gloss:olacak} kelimesinin oluş ve bulunur hâle gelme çekirdeğiyle buluşur. {ar:أَدْرَاكَ, tr:adrāka, gloss:sana bildiren hitap} bilme ve farkındalık ayrıntısını; {ar:يَكُونُ, tr:yakūnu, gloss:olur} ortaya çıkma ve mevcut hâle gelme hareketini; {ar:يَوْمَ, tr:yawma, gloss:gün} ise belirli zaman aralığını taşır (101:4, 101:11). Beden yapısı, topluluğa aidiyet, miras alınan pratik ve ömür boyunca biriken bilgi böylece bir süreklilik kurar; dağların dönüşümü bu insan tarihine çevrilmeden, aynı oluş fiilinin zaman ve hâl basıncını kendi benzetmesi üzerinde duyurur.
+
+Oran rezonansı, beden biçimini uygun ilişkiler içinde tutan ölçüyü açıklar. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} kelimesindeki beden yapısı, boy ve görünüş; {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki irilik, kalınlık ve doğuştan gelen temel yapı ile karşılaşır. {ar:مَوَازِينُهُ, tr:mawāzīnuhu, gloss:ölçüleri} kelimesinin oranlı ve ölçülü şey yüzü, parçaları bir bütün halinde tutar (101:6, 101:9). Dağ kütlesi yüne benzediğinde, oranların yerine liflerin aralıkları, sarkması ve kabarması geçer; bu görüntü şekilsiz bir boşluktan çok başka bir düzen türünün eşiğini açar.
+
+Zemin rezonansı, dağın yüksek kütle, sert katman ve kuyuya açılan derinlik yüzlerini aynı maddi çevrede toplar. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki çevresinden yükselen büyük ve sabit kütle ile kazıda ulaşılan geçilemeyen sert katman, {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} kelimesindeki kuyu duvarını tutan taşlarla buluşur. {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} kelimesinin sert, kazınmış ve çıplak yüzeyi bu kütleyi açıkta duran bir zemin olarak çerçeveler (101:1, 101:11). Yün, yüksek olanı kabartır, sert olanı esnetir ve derin olanı içi seyrekleşen bir hacim olarak duyurur; dağ-yün bağlantısının zeminini bu direnç kaybı verir.
+
+Bedensel parçalar rezonansı, gücün örtme, taşıma ve yere tutunma görevleriyle kurulduğunu gösterir. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki bedensel irilik ve kalınlık, {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} yakınlığındaki bacak kası ve kabarmış etle; aynı kelimenin toynak kenarları ayrıntısıyla birleşir. {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} yakınlığındaki kemik ve metaldeki ince levha veya tabaka, bu kalın parçaların yanında desteklenen sert yüzeyi taşır (101:11, 101:4). Didilmiş lifte örtü, taşıma ve tutunma tek bir kütle halinde kalmaz; malzemenin içindeki görevler ayrılarak bütünün gücünü bağların niteliğine bağlar.
+
+## Zemin, Alet Ve İç Boşluk
+
+Kuruma ve solma rezonansı, canlı dokunun gevşeyip incelmesini farklı organik evrelerle gösterir. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesi kurumuş ağaçla, {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} siyah ve kötü kokulu çamurla, {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} yayılan sürgün ve küçük çalıcıkla, {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} ise kabak ayrıntısıyla buluşur (101:1, 101:11, 101:4). Bu görüntüler sırasıyla kuruma, kararma, yayılma ve içi boşalmaya yaklaşmayı taşır. Yünün lifli yüzeyi, canlılığın taşıdığı doluluğun geride lif ve kabuk bırakacak biçimde çekilmesini düşündürür; dağ bu bağda bitkiye çevrilmeden hafifleyen maddeye dönüşür.
+
+Sert zemin ile sivri araç rezonansı, yönelmiş kuvvetin çarpma, delme ve açma etkisini belirginleştirir. Kazıda ulaşılan geçilemeyen katman, kuyu duvarını tutan taşlar, {ar:أَدْرَاكَ, tr:adrāka, gloss:sana bildiren hitap} kelimesindeki sivri boynuz veya tarak gibi alet ve {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} kelimesindeki sert, kazınmış yüzey bir araya gelir (101:1, 101:11, 101:3). Alet sert yüzeye temas eder; iz, delinme, kırılma veya iç açılması doğar. Bu sıra, dağların didilmiş yüne benzeyen sonucuna direnç kaybı katkısı verir; dağın kendisi bu bağda alet olarak adlandırılmaz.
+
+Soyulmuş yüzey ve iç boşluk rezonansı, dış kabukla iç taşıyıcı arasındaki ayrımı görünür kılar. Kurumuş ağaç ayrıntısı {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} kelimesindeki soyulmuş, çıplak ve boş görünüşle; {ar:هَاوِيَةٌ, tr:hāwiya, gloss:uçurum} kelimesindeki hava, boşluk ve iç oyuk ayrıntısıyla {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın yüzüne bağlanır (101:1, 101:11). Yünün kabarık hacmi uzaktan bütün bir yüzey, yakından aralıkları ve boşlukları gösterir. Böylece liflere açılma dış biçimin kaybına ek olarak iç yoğunluğun ve taşıma işlevinin değiştiği bir hâl kazanır.
+
+## Gün, Yönelme Ve Dağılma
+
+Felaket rezonansı, oluş fiilini belirli bir zaman ve olay içine yerleştirir. {ar:تَكُونُ, tr:takūnu, gloss:olacak} kelimesinin gerçekleşme ve bulunur hâle gelme çekirdeği, {ar:نَارٌ, tr:nār, gloss:ateş} kelimesindeki geceyi kötü bir durumda geçirme ve insanlar arasında alevlenen düşmanlık ayrıntısıyla buluşur; {ar:يَوْمَ, tr:yawma, gloss:gün} şiddetli olay gününü belirler (101:11, 101:4). Dağların yün gibi oluşu böylece yaklaşan ve sonucu duyulan bir felaket süreci kazanır. İnsanlar arasındaki gerilim ile dağların dönüşümü aynı olay çerçevesinde görülebilir; bağlantı, ortak fail veya açık nedensellikten çok oluş fiilinin iki sahneye verdiği paralel zaman düzeniyle sınırlıdır.
+
+Hedef rezonansı, oluşan değişime niyet, güzergâh ve karşılaşma katkısını verir. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} kelimesindeki yönelme, niyet etme ve bir yere doğru gitme ayrıntısı {ar:تَكُونُ, tr:takūnu, gloss:olacak} ile buluşur. {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} koruma veya engelleme olarak hedefe varışın sınırını; {ar:أَدْرَاكَ, tr:adrāka, gloss:sana bildiren hitap} bir şeyi hedefleyip üzerine yönelmeyi; {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} ise bir bedenin veya uzvun bir yere serilmesini taşır (101:11, 101:3, 101:4, 101:9). {ar:تَكُونُ, tr:takūnu, gloss:olacak} kelimesindeki bulunma yeri son konumu kurar. Bu çizgi, dağların yün gibi oluşunu değiştirmeden, çözülme görüntüsüne yönelmiş kuvvet ve savunma sınırı ekler; lifler önceki bütünlüğün izini taşıyan farklı temas noktalarına açılır.
+
+Hızlı yolculuk rezonansı, hedef çizgisine hız, güzergâh ve dağa giriş katkısını ekler. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki dağa varma veya dağa girme ayrıntısı, {ar:خَفَّتْ, tr:khaffat, gloss:hafifledi} kelimesindeki hız, hafiflik ve ayrılmayla buluşur; {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} sert ve kazınmış yüzeyi karşılaşmanın zeminine, {ar:هَاوِيَةٌ, tr:hāwiya, gloss:uçurum} ise hızla ilerleyen veya atılan cismi hareketin hızına bağlar (101:4, 101:9). Kütle bu temaslarda hızla ilerleyen beden, havada kayan yüzey veya içine girilen engel gibi farklı görünümler kazanır. Yerde kalan yün okuması da açık kalır; bu dal yalnız liflerin ayrılmasına yer değiştiren bir hareket ekler.
+
+Üreme rezonansı, dönüşüme içeride taşınan ağırlık ve dışarıya açılan süreklilik katkısını verir. {ar:ثَقُلَتْ, tr:thaqulat, gloss:ağır geldi} kelimesindeki ağırlaşan gebelik, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile; {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} kelimesindeki korunan damızlık deve de aynı malzeme görüntüsüyle buluşur. Yünün bir başka kullanımındaki dişi devenin rahmi içindeki damarlar ve iç bölüm, {ar:ثَقُلَتْ, tr:thaqulat, gloss:ağır geldi} ile birleşerek içeride büyüyen ağırlığı açar. {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} yakınlığındaki küçük veya alçak yük hayvanları ve {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} kelimesindeki aygırın örtme ve çiftleşme darbesi farklı beden ayrıntılarını taşır (101:4, 101:7, 101:9). Dağlar biyolojik bedene çevrilmez; yün aracının iç, taşıyıcı ve işlenebilir madde yüzü bu sınırlı bağlantıyı kurar.
+
+## İşlenmiş Lif, Söz Ve Sürü
+
+İşlenmiş lif rezonansı, dağ görüntüsüne dokuma ve yeniden açılma aşamalarını ekler. {ar:ٱلْمَبْثُوثِ, tr:al-mabthūthi, gloss:etrafa saçılmış} kelimesinin bir şeyi yayıp saçma ve içte saklı olanı açığa çıkarma ayrıntısı, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile buluşur; {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} ise yünün veya pamuğun dövülüp didiklenerek tellerinin ayrıldığı sonucu verir (101:4). Dokuma lifleri seçer, hizalar ve yeniden bağlar; didilme bu sıkı yüzeyin geriye işlenerek gevşek life açıldığı evreyi gösterir. Dağın görünür kütlesi böylece işlenmiş bir yüzeyin kuruluşunu ve o kuruluşun nasıl çözüldüğünü aynı maddi alanda taşır.
+
+Bilme rezonansı, ayrılmış malzemeyi araştırarak ve düzenleyerek kavrama katkısı verir. {ar:ٱلْمَبْثُوثِ, tr:al-mabthūthi, gloss:etrafa saçılmış} kelimesinin meseleyi açığa çıkarma ve araştırarak ortaya koyma ayrıntısı, {ar:أَدْرَاكَ, tr:adrāka, gloss:sana bildiren hitap} kelimesindeki bilme ve farkındalıkla; {ar:مَا هِيَهْ, tr:mā hiya, gloss:nedir o} ifadesindeki soru da aynı dikkatle buluşur (101:4). Renkli malzeme ve lifleri ayıran {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} işlemi, sıkı örgünün gevşek life doğru geriye işlenmesini düşündürür. İğ, büküm ve atölye eşleşmesi bağlam içinde sınanan bir ihtimaldir; dayanağı zayıfladığında bu dokunsal açıklama da kendi sınırlı kapsamı içinde kalır. Buna rağmen dağ-yün cümlesi, bilinmeyeni malzeme işlemini izleyerek kavrama deneyimine açar.
+
+Gece sürüsü rezonansı, liflerin açılmasına yön ve gözetim kaybı katkısını verir. {ar:خَفَّتْ, tr:khaffat, gloss:hafifledi} kelimesindeki tek sıra halinde ilerleyen develer, {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} ile; {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} kelimesindeki küçük veya alçak hayvanlar da gevşek hareketle buluşur. {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} yakınlığındaki hayvanların gece çobansız otlağa dağılıp dolaşması, {ar:خَفَّتْ, tr:khaffat, gloss:hafifledi} ile sıra ve yön duygusunu çözer; {ar:هَاوِيَةٌ, tr:hāwiya, gloss:uçurum} kelimesindeki uzun gece veya zaman aralığı bu dolaşmayı yayar (101:4, 101:8, 101:9). Sürüde her beden ayrı olsa da ortak hareket alanı sürer; bu, dağların doğrudan sürü olması değil, aynı kütleden çıkan liflerin merkez görünmezken dağılmasına eklenen sınırlı sosyal-ekolojik bir ihtimaldir.
+
+İşaret ve ısı rezonansı, küçük bir temasın yüzeyde renkli ve genişleyen bir iz bırakmasına katkı verir. {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} kelimesindeki yakıcı zehir ve sokan güç, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile; {ar:أَدْرَاكَ, tr:adrāka, gloss:sana bildiren hitap} kelimesindeki sivri boynuz veya tarak gibi alet de aynı yün yüzeyiyle buluşur. {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} ile ilişkilendirilen kırmızı çiçekli kır bitkisi, renk ve ısıyı; {ar:نَارٌ, tr:nār, gloss:ateş} kelimesindeki dövme veya sürme isi pigmenti de bedende kalan koyu izi taşır (101:3, 101:11). Böylece sivri kuvvet yüzeyi deler, sıcak zehir veya pigment bırakır; dağ-yün benzetmesi bu iz sahnesinin taşıyıcısı olarak kalır.
+
+İçi boşluk ve boş söz rezonansı, açılmış yüzeyin iç kaybını dile taşır. {ar:ٱلْمَبْثُوثِ, tr:al-mabthūthi, gloss:etrafa saçılmış} kelimesinin içte saklı olanı ortaya çıkarma ayrıntısı, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} kelimesindeki açılmış malzemeyle birleşir. {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} yakınlığındaki kabak, dış yüzeyi görünen fakat içi boşalabilen organik biçimi; {ar:هَاوِيَةٌ, tr:hāwiya, gloss:uçurum} kelimesindeki asılsız ve boş söz ise içeriği kalmamış yayılmayı taşır (101:6, 101:8, 101:9). Kabuğun soyulması, meyvenin içinin boşalması ve sözün ölçüsünü kaybetmesi aynı temas alanında buluşur. Yünün kabarık hacmi, biçim görünürken onu taşıyan yoğunluğun gevşeyebileceğini gösterir.
+
+Darbe rezonansı, gevşemeyi başlatan temasın şiddetini ve malzeme sonucunu belirginleştirir. {ar:ٱلْقَارِعَةُ, tr:al-qāriʿah, gloss:çarpan felaket} kelimesinin darbe, çarpma ve işiteni sarsan azarlama yüzü, dağ kütlesinin dirençli yüzüyle {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} kelimesinin yünü dövüp açan işlemi arasında temas kurar (101:4). Sürekli darbenin dirençli coğrafyada malzeme değişimini başlatması, açık görüntünün kapsamındaki keşif düzeyinde bir ihtimaldir; alternatif okumada darbe iki görüntünün şiddet bakımından birleşmesini taşır. Her iki durumda da cümlede görünen sonuç, sıkışmış liflerin açılmasıdır; işlemi yapan fail ve dağın gerçek bir yün yığını olduğu sonucu bu bağlantının dışında kalır.
+
+## Kütlenin Yeniden Ölçülmesi
+
+İki paralel cümlenin katkısı, insan sahnesi ile arazi sahnesini aynı anda görmeyi sağlamasıdır. İnsanlara ait {ar:ٱلنَّاسُ, tr:an-nāsu, gloss:insanlar} kelimesindeki arkadaşlık ve birlik yüzü, {ar:يَوْمَ, tr:yawma, gloss:gün} ile; {ar:ٱلْمَبْثُوثِ, tr:al-mabthūthi, gloss:etrafa saçılmış} kelimesindeki yayılma da aynı olay günüyle buluşur (101:4). {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın büyük ve sabit kütlesi, {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} kelimesindeki hafif ve kırılgan uçuşla; {ar:يَكُونُ, tr:yakūnu, gloss:olur} kelimesindeki ortaya çıkma ve {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} kelimesindeki lif ayrışmasıyla karşılaşır (101:5). Böylece insan topluluğunun ve arazinin biçimlerini yitirmesi, açıkça anılan iki ayetin (101:4, 101:5) paralel düzeninde aynı çözülme anına bağlanır. Paralellik eşzamanlı iki işaret olarak da okunabilir; ortak fail ve zorunlu nedensellik bu bağlantının kapsamına girmez.
+
+Bilme atölyesi rezonansı, karşılaştırmayı dokunsal bir araştırma hareketine çevirir. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki iyi dokunmuş, ipliği ve bükümü sağlam kumaş; {ar:أَدْرَاكَ, tr:adrāka, gloss:sana bildiren hitap} kelimesindeki sıkıca dönen iğ ve büküm hareketiyle buluşur. {ar:مَا هِيَهْ, tr:mā hiya, gloss:nedir o} ifadesindeki soru bilme ve farkındalığı, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} kelimesindeki renkli malzeme ile {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} kelimesindeki lifleri ayıran işlemi aynı atölyede toplar (101:10). Göz önce büyük kütleyi tanır, ardından gevşeyen yüzeyi, ayrılan lifleri ve çoğalan aralıkları izler. İğ ile benzetme arasındaki eşleşme bağlam içinde sınanan bir ihtimaldir; dayanağı zayıfladığında dokunsal açıklama kendi sınırlı kapsamı içinde kalır. Yine de cümle, bilinmeyeni malzeme işlemini takip ederek kavrama deneyimine açar.
+
+Ağırlığın değer alanına aktarılması, maddi çözülmenin ölçüsel yankısını tamamlar. {ar:ثَقُلَتْ, tr:thaqulat, gloss:ağır geldi} kelimesindeki değer ve kıymet ağırlığı, {ar:مَوَازِينُهُ, tr:mawāzīnuhu, gloss:ölçüleri} kelimesindeki dengeleyen teraziyle ve {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın büyük kütlesiyle buluşur. {ar:خَفَّتْ, tr:khaffat, gloss:hafifledi} kelimesindeki karşıt hafiflik ve küçümseme, {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} kelimesindeki lifleri ayıran sonuçla karşılaşır (101:6, 101:8, 101:9). Görünür kütlenin otoritesi bu temasla soyulurken, sonuç doğuran ağırlık ölçüye, değere ve toplumsal itibara geçer. Jeolojik ağırlık ile ölçüsel veya toplumsal ağırlık arasındaki ayrım bu aktarımın sınırını korur; 83:3'teki ölçüde hile görüntüsü bu ayrımı ayrıca sınar (83:3).
+
+Havada asılı kalan liflerin katkısı, yerden kopmuş bir hareket evresini görünür kılmasıdır. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki büyük ve sabit kütle, {ar:كَٱلْفَرَاشِ, tr:ka-l-farāshi, gloss:kelebekler gibi} yakınlığındaki yere yakın çırpınan kuşla karşılaşır; {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:didilmiş ve kabarmış} kelimesindeki korku veya titremeyle kabaran tüyler, {ar:هَاوِيَةٌ, tr:hāwiya, gloss:uçurum} kelimesindeki hava, boşluk ve iç oyukla birlikte okununca gevşek renkli liflerin askıda kalıp ilerlemesini düşündürür (101:5, 101:9). Uçuruma düşme ve yolculukta hızla ilerleyen veya atılan cisim ayrıntıları bu hareketi düşüşe ve hıza bağlar. Yünün yerde kalan bir benzetme olarak okunması da açıktır; askıda evre, açık dağ-yün cümlesine eklenen sınırlı bir hareket dizisidir.
+
+Barınma yönünün tersine dönmesi, dönüşümün yer ve güvenlik ilişkisine katkısını taşır. {ar:أُمُّهُ, tr:ummuhu, gloss:annesi ve yöneldiği merkez} kelimesindeki başlangıç, toplanma ve dönüş merkezi, {ar:عِيشَةٍ, tr:ʿīsha, gloss:yaşayış} kelimesindeki yaşama imkânıyla buluşur. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın geçilemeyen sert katmanı ve dağa varma veya dağa girme ayrıntısı, {ar:رَاضِيَةٍ, tr:rāḍiya, gloss:hoşnut} kelimesindeki uygunluk ve hoşnutlukla karşılaşır; {ar:تَكُونُ, tr:takūnu, gloss:olacak} kelimesindeki bulunma yeri bu konumu yaşama alanına bağlar. Ardından {ar:هَاوِيَةٌ, tr:hāwiya, gloss:uçurum} kelimesindeki düşüş belirir (101:7, 101:9). Yüksek ve dirençli arazi böylece güvenliği kendiliğinden garanti eden yer olmaktan çıkıp konumu tersine dönen bir yüz kazanabilir. Dağın barınak olarak hiç çağrılmaması ihtimali de korunur; bu bağlantı doğrudan barınak anlamı kurmak yerine yer-güven ilişkisini sınar.
+
+Ateşle renklendirme, gevşek lif alanına ısı ve ışık katkısı verir. {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} kelimesindeki yakıcı zehir ve sokan güç, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} ile; {ar:أَدْرَاكَ, tr:adrāka, gloss:sana bildiren hitap} kelimesindeki sivri boynuz veya tarak gibi alet de aynı yün yüzeyiyle buluşur. {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} ile ilişkilendirilen kırmızı çiçekli kır bitkisi renk ve ısıyı; {ar:نَارٌ, tr:nār, gloss:ateş} kelimesindeki dövme veya sürme isi pigmenti bedende kalan koyu izi taşır (101:11). Sivri kuvvet yüzeyi deler, sıcak zehir veya pigment bırakır; yün görüntüsü bu iz sahnesinin maddi taşıyıcısıdır.
+
+Koruma çağrışımının ateşe taşınması, sıcaklık ve güvenlik ilişkisini aynı malzeme alanında gerer. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} kelimesindeki kazıda ulaşılan sert katman ile sözün tıkanması ve geçişin engellenmesi, {ar:كَٱلْعِهْنِ, tr:ka-l-ʿihni, gloss:yün gibi} kelimesindeki kopmadan kırılıp sarkan malzemeyle buluşur. {ar:حَامِيَةٌ, tr:ḥāmiyah, gloss:kızgın ve ısıtan} kelimesinin ısı ve koruma veya engelleme ayrıntısı, gevşeyen kütleye döner (101:11). Dağ direncini yitirirken güvenlik çağrışımı onu çevreleyen ısının içinde titreşebilir; koruma burada doğrudan ısı anlamının yerine geçmez ve dağın güvenli sığınak olduğu sonucunu kurmaz. Bu, güvenliğin yer değiştirmesini gösteren sınırlı bir bağlantıdır.
+
+70:9'daki tekrar, aynı dağ-yün kuruluşunu bağımsız bir genişlikte görünür kılar. {ar:تَكُونُ, tr:takūnu, gloss:olacak} kelimesinin oluş çerçevesi, 70:9'da insanın ve dağın değişimini aynı görüntü alanında buluşturur (70:9). 101:4'te insanlarda görünen çözülme ile 101:5'te dağlarda görünen dönüşüm, aynı oluş hareketinin iki yüzü gibi okunabilir. Dağların insanlara dönüştüğü veya iki sahnenin ortak bir fail tarafından yürütüldüğü sonucu bu bağlantıya ait değildir; tekrar, gramerdeki dağ öznesini ve yinelenen dağ-yün düzenini birlikte tutar.
+
+Bu tekrar üç maddi taşıyıcının görevini ayırır. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} büyük ve uzun doğal kütleyi, {ar:ٱلْعِهْنِ, tr:al-ʿihni, gloss:boyalı yün} bir veya birkaç renge boyanmış yumuşak malzemeyi, {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:lifleri ayrılmış ve kabarmış} ise yün veya pamuğun dövülüp didiklenmesiyle lifleri ayrılmış sonucu taşır (70:9). Bu üçlü, katı kütlenin iç bağları açılarak gevşek ve ayrılmış liflere dönüşmesini görselleştirir. Dağların gerçek yün olması veya edilgen biçimin işlemi yapan faili ve yönü açıklaması bu görüntünün kapsamına girmez.
+
+Maddi sıra, sağlamlıktan gevşekliğe ve oradan lif ayrışmasına ilerler. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın sabit ve taşıyıcı görünümü (78:7), aynı kelimenin doğuştan gelen ve kolay değişmeyen temel yapı yüzüyle başlangıç bütünlüğünü kurar. İyi dokunmuş, ipliği ve bükümü sağlam kumaş ilişkisi kütleyi sıkı bir kuruluş olarak gösterir. {ar:ٱلْعِهْنِ, tr:al-ʿihni, gloss:yün} kelimesindeki bağlı kırılma ara aşamasında iki parça bütünüyle ayrılmaz; kırılan bölüm bağlı kalır, aşağı sarkar ve gevşer. Sonra {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:lifleri ayrılmış ve kabarmış} yün veya pamuğun dövülüp didiklenmesiyle tellerin ayrıldığı son işlemi verir (70:9). Bu sıra ani yok oluştan çok içten sökülme görüntüsü kazandırır. Sarkmanın yönlü düşme veya havaya yükselme olması bu bağlantının kapsamına girmez; dağların dokuma ürünü veya çubuk olduğu sonucu da aynı sınırda kalır.
+
+Görünür ölçeğin sosyal yankısı, maddi süreci topluluk ve servet imgelerine bağlar. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar} biçiminin büyük topluluk yüzü, 22:18'de dağlar ile insanların aynı geniş varlıklar dizisinde birlikte anılmasıyla tetiklenir. Aynı kelimenin belirli kullanımlarda çok miktarda malı bildiren yüzü, 17:37'de dağlara göre boy ölçüsü ve 83:3'teki tartı diliyle görünür birikimi ölçümden ayırır (22:18, 17:37, 83:3). 17:37'de dağ yüksekliği ile insan statüsünün karşılaştırılması ileri gelenler yüzünü; {ar:ٱلْعِهْنِ, tr:al-ʿihni, gloss:boyalı yün} için elde hazır bulunan mal yüzü de 83:3'teki tartı temasıyla yün aracını görünür servet olarak çerçeveler. Bu temaslar {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:lifleri ayrılmış ve kabarmış} içindeki ayrışmayla birleşince dağ, kalabalık, servet ve ileri gelenlik gibi görünür büyüklüklerin tartı anında aynı güvenceyi taşımayabileceğini düşündürür. Bağlantı analojik ve keşif düzeyindedir; dağın, servetin veya ileri gelenliğin bütünüyle değersiz olduğu hükmünü kurmaz.
+
+Bu karşılaştırmaların alanı maddi, toplumsal ve görünür ölçekler arasında genişler. Lif, beden, sürü, topluluk ve terazi aynı anlama kapanmadan, kütlenin nasıl algılandığını ve nasıl taşındığını farklı yönlerden açar. Bu ağ, odak ayeti sûre özeti yapan veya bütün ayetleri tek bir tez altında toplayan bir açıklamaya çevirmeden, sağlam kütlenin liflere ayrılmasıyla ölçü ve değer sınırlarının birbirine değdiği alanı gösterir. Gece sürüsü, olay günü ve değer-ağırlığı okumaları da kendi ayet bağlarından koparılmadan bu sentezde yalnız ilgili temas noktalarıyla yer alır.
+
+Sağlam inşanın gevşemesi, 101:5'in belirgin yön değişimidir (101:1, 101:11). Sert zemin, koruyan kabuk, biçimli beden ve taşıyıcı kütle, bağları çözülmüş yeni bir madde olarak görünür; liflerin varlığı önceki bütünlüğün izini korur, çoğalan aralıklar ise o bütünlüğün aynı kuvvetle taşınmadığını bildirir. {ar:ٱلْجِبَالُ, tr:al-jibālu, gloss:dağlar}ın yüksek ve sabit kütlesinden {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:lifleri ayrılmış ve kabarmış}ın açık liflerine geçiş, bu yapısal gevşemeyi taşır.
+
+Toplu bağların açılması, maddi çözülmeye sınırlı bir sosyal yankı verir. İnsanların yayılışı (101:4) ile yaratılmışların topluca yönelişi (22:18) yan yana getirildiğinde topluluk, tek bir beden gibi sabitlenmekten çok farklı yönlerde çalışan bağları olan bir birlik olarak görünür. {ar:ٱلْمَنفُوشِ, tr:al-manfūshi, gloss:lifleri ayrılmış ve kabarmış} kelimesinin yün veya pamuğu dövüp didikleyerek telleri ayıran edilgen sonucu bu birliğin çözülüşüne maddi bir eşdeğer ilan etmez; yalnızca taşıyıcı bağlar gevşediğinde görünüşün ve ağırlığın nasıl değişebildiğini duyurur (101:4, 22:18). Dağ görüntüsünün doğrudan insan topluluğu anlamına geçmediği sınırı bu bağlantının içinde kalır.
+
+</source_prose>

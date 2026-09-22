@@ -1,0 +1,75 @@
+discover Quranic ayat relevant to your focus ayah that are absent from
+  the existing inter-ayah list. Treat the existing ledger as an incomplete
+  comparison set, not as a semantic ceiling. Do not assume that an ayah absent
+  from the registry is irrelevant.
+
+  Compare candidates against the exact set of existing records[].target_ref.
+  Distinguish:
+
+  - already present as a target ayah;
+  - present only as context for another target;
+  - genuinely absent from the target list;
+  - considered but rejected after review;
+  - unresolved and requiring manual review.
+
+  Search the whole Quran through several independent channels:
+
+  1. Direct lexical search:
+     - every focus root, surface form, and morphological variant;
+     - normalized and Uthmani spellings;
+     - related verbal forms, nouns, imperatives, passives, and derived forms.
+
+  2. Structural search:
+     - repeated grammatical constructions;
+     - staged sequences;
+     - repeated commands, transitions, contrasts, or paired clauses;
+     - constructions resembling the focus ayah’s process.
+
+  3. Scene and mechanism search:
+     
+
+  4. Reciprocal and contextual search:
+     - ayat that illuminate a focus branch from the opposite direction;
+     - ayat whose surrounding scene changes how focus ayah can be read;
+     - context-only candidates that do not share a direct lexical trigger.
+
+
+  For every candidate, read the target ayah and its immediate context. Record:
+
+  - target_ref;
+  - exact target_arabic;
+  - whether it is already present in the ledger;
+  - Arabic trigger or structural trigger;
+  - trigger type;
+  - activated focus branch and branch_ref;
+  - activation mechanism;
+  - target-context summary;
+  - relationship to focus ayah;
+  - surprise reading;
+  - strength: strong, medium, weak, or context-only;
+  - uncertainty and boundary;
+  - whether the connection is lexical, structural, contextual, reciprocal, or
+    speculative.
+
+  Do not promote every root match into a meaningful connection. Preserve
+  high-recall discovery, but separate direct lexical activation from analogy,
+  scene-level resonance, and speculative possibility.
+  
+    Validate that:
+
+  - every candidate target_ref exists in complete-quran.txt;
+  - every target_arabic value matches the Arabic source exactly;
+  - every activated branch_ref exists in branch_registry;
+  - genuinely absent candidates are not already present as target_ref values;
+  - target_ref values are unique;
+  - direct, contextual, reciprocal, and speculative candidates are clearly
+    distinguished.
+
+  Report search coverage and findings, but do not claim that the Quranic search is
+  exhaustively complete unless the actual search procedure supports that claim.
+  
+  
+  Do not modify the original ledger. Write a separate omission-audit supplement
+  to:
+
+  _commentary/v8_batch/raw/s018-regular-20260912/<surah>/<surah>_<ayah>.global.inter-ayah.gap-audit.json

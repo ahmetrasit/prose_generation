@@ -1,0 +1,68 @@
+Goal:
+
+  For every substantive finding, theme, or interpretive movement already present
+  in the first-pass prose, search the entire Quran for ayat absent from the
+  ledger’s records[].target_ref set that could explain, sharpen, qualify, or
+  limit that existing finding.
+
+  Do not search only for confirming parallels. A useful missing ayah may:
+
+  - clarify the Arabic trigger;
+  - provide a stronger occurrence of the same root or branch;
+  - make the activation mechanism more intelligible;
+  - supply a parallel scene or process;
+  - reveal a boundary, contrast, or counter-example;
+  - distinguish a direct lexical relation from a broader contextual analogy.
+
+  Do not create an unrelated new reading merely because an ayah shares a root.
+  The candidate must make an existing prose finding clearer, stronger, more
+  precise, more qualified, or more surprising.
+
+  Search through:
+
+  - all focus roots, branches, and morphological forms;
+  - repeated grammatical or compositional structures;
+  - parallel material, technical, narrative, and governance scenes;
+  - reciprocal and counter-evidence contexts;
+  - relevant context passages around existing target ayat.
+
+  At minimum, verify the possible missing support passages 15:29, 38:72,
+  3:49, and 5:110, while continuing the search beyond these examples.
+
+  For every candidate, record:
+
+  - candidate target_ref;
+  - exact target_arabic;
+  - prose section or finding supported;
+  - existing ledger status:
+    absent target, context-only, or already present;
+  - Arabic or structural trigger;
+  - activated focus branch and branch_ref;
+  - support mechanism;
+  - exact explanatory contribution;
+  - whether it reinforces, clarifies, qualifies, or complicates the finding;
+  - strength: strong, medium, weak, or context-only;
+  - uncertainty and limits;
+  - recommendation:
+    add to prose, retain as audit-only, or reject.
+
+  Do not modify the existing ledger or prose during this audit. Write a separate
+  supplement to:
+
+  _commentary/v8_batch/raw/s018-regular-20260912/s018/18_96/global.inter-ayah.support-gap-audit.json
+
+  Also write a Turkish report to:
+
+  _commentary/v8_batch/raw/s018-regular-20260912/s018/18_96/global.inter-ayah.support-gap-audit.tr.md
+
+  Do not claim that a candidate was omitted for a known reason unless the
+  registry explicitly states that reason. Validate every candidate against the
+  Arabic source and confirm that every branch_ref exists in branch_registry.
+
+  After the audit, do not insert candidates into the editorial prose
+  automatically. First decide which candidates genuinely improve an existing
+  finding; only then revise the discovery synthesis and run the editorial pass.
+
+  The best workflow is:
+
+  first-pass prose → support-gap audit → evidence-selection revision → editorial pass

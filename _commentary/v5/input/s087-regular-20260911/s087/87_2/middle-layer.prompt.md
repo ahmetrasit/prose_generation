@@ -1,0 +1,511 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **87:2**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s087-regular-20260911/s087/87_2/87_2.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `87:2 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(87:2 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s087-regular-20260911/s087/87_2/87_2.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s087-regular-20260911/s087/87_2/87_2.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s087-regular-20260911/s087/87_2/87_2.prose.middle.tr.md \
+  --ayah-ref 87:2
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s087-regular-20260911/s087/87_2/87_2.prose.editorial.tr.md`
+
+<source_prose>
+## Aynı Fail, İki İş
+
+Âyetin açık sözü kısadır: O yarattı, ardından düzene koydu. Fakat cümle kendi başına yeni bir özne tanıtarak başlamaz. {ar:ٱلَّذِى, tr:ellezî, gloss:o ki} sözü, bir önceki âyette “en yüce Rabbinin adını tesbih et” emriyle tanıtılan Rabbi buraya taşır (87:1). Böylece hitap, doğrudan bir emirden o emrin dayanağını gösteren ilahî işlere geçer; okuyucu başka bir fail aramaz. “O ki” denilen, bilinen o Rabdir ve şimdi yaptığı iki işle tanınır: {ar:خَلَقَ, tr:halaka, gloss:yarattı} ile {ar:فَسَوَّىٰ, tr:fe-sevvâ, gloss:ardından düzene koydu} aynı bağıl cümlenin içinde onu birlikte niteler. Yaratma ile düzenleme, aynı failin birbirine bağlı fakat ayrı iki işi olarak birlikte delil olur.
+
+Bu ayrılık fiillerin biçiminde de görünür. {ar:خَلَقَ, tr:halaka, gloss:yarattı} etkin geçmiş zamandadır: yaratma, ilahî öznenin doğrudan gerçekleştirdiği tamamlanmış bir iş olarak sunulur. Bu dilbilgisel bağlantı, kendiliğinden ilerleyen bir süreç ya da faili gizlenmiş bir olay yerine failin eylemini öne çıkarır. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} da üçüncü tekil eril etkin geçmiş biçimindedir; eylem değişirken özne sabit kalır ve uygunluğu meydana getiren yine odur. Yalın fiil kalıbındaki ilk eylem varlığa getirmeyi, geçişli ve etkin Form II kalıbındaki ikinci eylem ortaya çıkanı ayarlamayı üstlenir. İki biçim böylece aynı failin ayrı işlerini dağıtır: biri yaratır, öteki yaratılmış olanı tamamlar.
+
+Her iki fiilin nesnesi de söylenmez. Bu susuş, {ar:خَلَقَ, tr:halaka, gloss:yarattı} fiilini yalnız insana, bedene ya da adı konmuş tek bir varlığa kapatmadan yaratılan alanı geniş bırakır. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} fiilinin nesnesi de önceki yaratma alanından anlaşılır. Benzer bir dizide nesnenin zamirle belirginleşmesi (82:7), buradaki açıklığı daha iyi duyurur; o âyetin tekil muhatabı buraya taşınmaksızın, 87:2’de zamirin bulunmayışının kapsamı nasıl açık tuttuğu görülür. Fâtiha’daki {ar:رَبِّ الْعَالَمِينَ, tr:rabbi'l-âlemîn, gloss:âlemlerin Rabbi} ifadesi (1:2), dışarıdan bu açıklığa “âlemler” diye sınırlı bir bağlam alanı önerebilir. Fiilin sözlük anlamı yine yaratmaktır; dış çerçeve, nesnesiz yaratmayı dünyalar ufkunda duymaya imkân verir ve yerli cümlenin sırasını korur.
+
+İki eylemin arasındaki küçük {ar:فَ, tr:fe, gloss:ardından ve böylece} bağı, hem yazıda ikinci fiile bitişir hem seste arayı kapatır. Gevşek bir “ve”den daha fazlasını yapar: {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, yaratmanın yakın sonucu ve tamamlayıcı devamı olarak gelir; iki eylem yine de ayrı kalır. Yaratma-düzenleme paralellikleri (75:38, 82:7), ilk fiilin uygunlaştırmayı nasıl açtığını gösterir. Ölçünün ardından yol göstermeyi yine fe ile bağlayan bir sonraki âyet (87:3) de aynı sûre içinde biçimsel bir yankı kurar. Bu yankının kapsamı 87:2’deki somut bağlanma tarzıdır: yaratmadan tamamlanmaya geçen yerel hareketi görünür kılar; kendi başına sûre çapında bir tez kurmaz.
+
+Kulak da bu hareketi izler. {ar:خَلَقَ, tr:halaka, gloss:yarattı} sözünün boğazdan gelen daha dokulu başlangıcından {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözünün daha akıcı kapanışına geçilir. İkinci fiildeki şedde ayarlama işinin etkin baskısını duyururken, uzun son ses cümleyi tamamlanmış bir akışla kapatır. Sesin buradaki rolü destekleyicidir: dilbilgisinin kurduğu yaratmadan düzene geçişi işitilir hâle getirir.
+
+## Ölçülmüş Kuruluş
+
+{ar:خَلَقَ, tr:halaka, gloss:yarattı} öncelikle varlığa getirmeyi söyler. Ardından gelen {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, ilk fiilin ölçme, biçme ve sınırları belirlenmiş bir yapı kurma yönünü etkinleştirir; yaratılan şey rastgele beliren bir kütleden çok, ölçüsü düşünülmüş bir kuruluş gibi görünür. Bu doğrudan bağlantının kapsamı ölçülü var etmedir. Halaka’nın uydurma ve yalan üretme, koku ya da yıpranmış kumaşla ilgili uzak kullanımları buraya taşınmaz; bunlardan bazıları ileride ancak kendilerine özgü bağlamların kurduğu sınırlı benzetmelerde görünür. Geçişli {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} ise yaratılmış olanı eşitlik, doğruluk, uygunluk ve sağlam bütünlük içinde yerli yerine getirir. Sakinleşme, yükselme ve kendiliğinden yönelme ayrıntıları da bu özel bağlantının doğrudan anlamı değil, yalnız onları ayrı ayrı tetikleyen bağlamlarla açılabilecek uzak imkânlardır.
+
+Bu temasın içinde üç işlem ayırt edilebilir. {ar:خَلَقَ, tr:halaka, gloss:yarattı}, önce nesnenin ölçü ve sınırlarının eylemden önce belirlenmiş olmasını duyurur; ölçme yaratmanın tasarı boyutudur. Aynı fiilin varlık kazandırma yönü, tasarının gerçeğe geçirildiğini söyler. Bu bağlantıda kelime üretici ya da yaratılmış için adlaşmaz, etkin fiil olarak kalır. Ardından {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, ortaya çıkmış olanı eğrilikten kurtarıp düzgün ve sağlam bir bütünlüğe ulaştırır. Geçişli yapı, ilahî failin doğrultup tamamlama işini öne çıkararak kendi kendine yerleşme ihtimalini bu özel kullanımdan ayırır. Ölçülmüş tasarım, varlığa geliş ve fiilen uygunlaştırılma böylece aynı açık cümlenin birbirini açıklayan aşamaları olur.
+
+Yaratmanın ardından ölçü verilmesi (25:2), {ar:خَلَقَ, tr:halaka, gloss:ölçüp yarattı} fiilindeki sınır belirleme basıncını görünür kılar. Yaratma, düzenleme ve ayarlamanın ardışıklığı (82:7) ise {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözünün kendi içinde düzgün ve tam kılma yönünü açar. Bu iki dış paralellik odak cümlesini belirli bir varlığa daraltmaz; ölçülmüş kuruluş ile tamamlanma arasındaki ilişkiyi kuvvetlendirir. Allah’ın yaratıp düzenlediğini bildiren birincil anlam, bu temasla yaratmanın nasıl bir kuruluş olduğunu da duyurur.
+
+Ölçünün bir sonucu, kurulmuş varlığın yön gösterilmeye elverişli hâle gelmesidir. Yaratılışın hemen ardından gelen {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} sözü (20:50) ile {ar:قَدَّرَ, tr:kaddera, gloss:ölçüsünü belirledi} ve {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} sırası (87:3), odaktaki iki fiile işlevsel bir paralellik sunar. {ar:خَلَقَ, tr:halaka, gloss:yarattı}, kapasitenin varlığını ve sınırlarını kurmuş; {ar:سَوَّىٰ, tr:sevvâ, gloss:uygunlaştırdı} da o kapasiteyi izlenebilir bir hedefe yönelebilecek hâle getirmiş gibi duyulur. Bu temasın kapsamı işlevsel paralelliktir: dört fiilin olağan anlamları korunur ve ölçülmüş kuruluşun sonraki yönlendirmeye nasıl zemin olduğu görünür olur.
+
+Bu zemin, kelimelerin daha ihtimalli bir buluşmasını da taşır. {ar:خَلَقَ, tr:halaka, gloss:yarattı}, bir kişiyle ona yaraşan iş ya da nitelik arasındaki güçlü uygunluğu düşündürebilir; {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} ise hedefe yönelme ayrıntısıyla bu kapasiteyi işleyeceği doğrultuya çevirir. {ar:فَ, tr:fe, gloss:ardından} bağı, kapasitenin kurulmasıyla yönünün ayarlanmasını peş peşe tutar; âyet hedefi adlandırmadığı için bu okuma da belirli bir hedef seçmez. Güçlükten sonra açılan kolay yol (87:8), hatırlamanın yeniden canlanması ve yararın zarara karşı ölçüt oluşu (87:9), korkuyla karışık huşu (87:10), bu uygunluğu cevap verebilir bir kapasiteye doğru genişletir. Kurulmuş olanın iyi bir yola düşük dirençle girebilmesi ve hatırlatmaya karşılık verebilmesi ihtimali doğar. Kolaylaştırmanın özel bir muhataba verilmiş vaat olarak okunabilmesi de (87:8) bu genellemeyi sınırlar; kapasite okuması mümkün bir sonuç olarak kalır.
+
+## Dış Biçim, İç Yatkınlık
+
+Ölçülmüş kuruluş önce gözle seçilen biçimde belirir. {ar:خَلَقَ, tr:halaka, gloss:yarattı} ile {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu}, dış şeklin tamamlanıp ölçülü hâle gelmesini birlikte duyurur. İnsan biçimlerinin iyileştirilmesi (64:3) ve insanın en iyi ölçülü kuruluşta yaratılması (95:4), bu görünür tamamlığı destekler. Bu paralelliklerin katkısı ölçülü görünüşü belirginleştirmektir; güzellik hükmü vermek ya da açık bırakılmış nesneyi yalnız insan bedenine daraltmak onların kapsamına girmez. Görünür beden, yaratılmış bütünlüğün mümkün yüzlerinden biri hâline gelir ve dış biçim iç karaktere de açık ölçülü bir görünüş olarak okunur.
+
+Yakın çevreden gelen daha dokulu imgeler, bu görünüşün nötr bir siluet olmadığını düşündürür. Kısalık ve tıknazlık dış yapıya yoğunluk, bunlara eşlik eden inat ise görünür yapıyla huy arasındaki ilk bağı kazandırır (87:5). Yüz, biçimin okunabildiği belirgin yüzeyi açar (87:13); türünün olağan sınırını aşan deve biçimi, dış şeklin türle ilişkisini sınar (87:4); bir şeye yönelen irade ile yüzün ve biçimin bozulması da iç yönelişin görünüşü değiştirebilmesini gösterir (87:7). Bu katkılar {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} ve {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözleriyle temas edince, gözle seçilen dış yapı yerleşik huy ve davranış eğilimiyle birlikte okunabilen bir beden olur. İrade ve bozuluş bu özel bağlamsal genişlemenin iç yönünü, yaratma ve düzenleme ise açık anlam zeminini taşır.
+
+Yaratılmış insanın belirli bir iç eğilimle anılması (70:19), {ar:خَلَقَ, tr:halaka, gloss:yarattı} fiilini dış şeklin yanında içte yerleşen huy ve davranış yatkınlığıyla buluşturur. Düzenlemenin ardından yetilerin verilmesi (32:9), {ar:سَوَّىٰ, tr:sevvâ, gloss:düzgün ve tam duruma getirdi} sözünü cevap verebilecek bir iç kapasiteye açar. Kalıcı ve doğru yaradılış düzeni (30:30) de iç karakter ile düzgün kuruluşu yan yana getirir. Her temas ayrı katkısını yaptıktan sonra sevvâ, dış biçim ile iç yatkınlığı uyumlu bir bütün içinde doğrultan tamamlayıcı iş olarak duyulur.
+
+Rabbin yetiştirip tamamlayan adı (87:1) ile arınma hareketi (87:14), bu iç kapasiteye ahlâkî bir ufuk açar. {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:yarattı ve düzene koydu} sözü, insanın hatırlamaya ve arınmaya cevap verebilecek, doğrultulabilir bir iç yapıyla yaratılmış olmasını düşündürür; nesnesi açık yaratma ufku ile insanın arınması arasında böylece bir bağ belirir. Fiillerin doğrudan işi yaratmak ve düzenlemektir; arınma, bu kuruluşun üzerinde çalışabileceği yatkınlığı görünür kılar. Arınma (87:14) ve iyi değer çağrısı (87:17), {ar:خَلَقَ, tr:halaka, gloss:varlığa getirdi} kelimesindeki “iyilikten ayrılmış pay” imgesine değdiğinde dar bir yankı daha oluşur: varlığa geliş, iyiliğe elverişli bir nasip boyutu kazanabilir. Pay çekirdeği korunurken yaratma belirli bir erdemle özdeşleşmez.
+
+Biçimin içe uygunluğu, görünüşün doğruluğu sorusunu da açar. Kökeninden ya da itaattan ayrılma ve uydurup yalan üretme (87:4), kurulan temsilin kaynağından sapabilmesini; irade ve yüz bozumu (87:7), biçimin istekle değişebilmesini; satışta abartı ile aldatma (87:14), görünüşün değer iddiasına göre parlatılabilmesini; ölü ya da boyun eğmiş gibi görünme (87:13) ise dış hâlin gerçeği örtebilmesini getirir. Bu ayrıntılar {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} sözünün uzak “uydurulmuş temsil” yönüyle ve {ar:سَوَّىٰ, tr:sevvâ, gloss:uygunlaştırdı} sözünün biçimi iddiasına uygun gösterme imkânıyla temas eder. Önce bir temsil kurulur, sonra görünüş iddiaya uydurulur; bağlam bu ikisinin hakikate uyup uymadığını sordurur. Bu uzak bağlantının kapsamı ilahî yaratmanın niteliği değil, yaratılmış biçim ile ona sonradan yüklenen yanıltıcı görünüş arasındaki farktır.
+
+## Olgunlaşan Tamamlık
+
+Görünüş ile iç yatkınlığın birlikte kurulması, “tamamlanmış” sözünün zamandaki karşılığını sormaya götürür. {ar:رَبّ, tr:rabb, gloss:yetiştirip gözeten Rab} adı; onarma, yetiştirme, tamamlama, besleme ve büyütme yönlerini taşır (87:1). Onarma bozulanı toparlar, besleme oluşu sürdürür, büyütme onu ileri taşır, yetiştirme ile tamamlama ise uygun son hâle eriştirir. Bu hareket {ar:خَلَقَ, tr:halaka, gloss:başlangıçta yarattı} ile başlangıcı, {ar:سَوَّىٰ, tr:sevvâ, gloss:sağlamlaştırıp tamamladı} ile oluşun sonunda uygun, sesli ve sağlam bir biçime erişmeyi birbirine bağlar. Bilinebilirlik (87:15) tamamlanmış biçimin tanınabilmesini, irade eden özne görüntüsü (87:7) de bu süreçteki fail sürekliliğini ekler. Etkin geçmiş fiillerin bildirdiği yaratma ve ardından düzenleme sırası böylece Rabbin bakımı içinde zaman boyunca yetişen bir tamamlık olarak genişler.
+
+Zaman içindeki oluşun ilk somut resmi, içeride taşınan ve eşiğine yaklaşan biçimdir. Doğumun yaklaşması (87:16); okuma, tilavet ve tilavet öğretimi (87:6); adet ile temizlik çevrimi, belirlenmiş vakit ve tekrar, rahimde toplanma ve taşıma imgeleri, {ar:سَوَّىٰ, tr:sevvâ, gloss:tamamladı} sözünün sonucunu örüntülü bir süreç içinde beliren biçim olarak düşündürür. Tilavet tekrarlı düzeni, bedensel çevrim vakti, rahim ise içeride taşınıp gelişmeyi getirir; bunlar aynı işlem değil, oluş ritminin ayrı katkılarıdır. Sevvâ doğurma ya da okuma fiiline dönüşmeden, yaratılmış biçimin bir eşiğe doğru tamamlanmasını duyurur.
+
+Fâtiha’daki {ar:رَحِم, tr:rahim, gloss:rahim ve akrabalık bağı} ailesinin rahim imgesi (1:3), içeride gelişmeyi merhamet çerçevesine alır. Bu imge {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} çevresindeki kapalı üreme yolu ayrıntısıyla buluşunca, {ar:خَلَقَ, tr:halaka, gloss:oluşturdu} sözü içeride tutulan, korunan ve gelişen bir oluş olarak yeniden duyulur. Dış bağlamın katkısı, rahimde gelişen oluşun nasıl bir korunma içinde düşünülebileceğini açmaktır; yaratma ve düzenleme fiilleri bu çerçevenin dilbilgisel zemini olarak kalır. Kadın bedenindeki kapanma da bu özel bağlantıda anatomik sınırını korur ve genel tıkanıklık ya da her düzgün yüzey için bir anlama dönüşmez.
+
+Olgunlaşmanın daha geniş zaman dili farklı eşiklerden kurulur. Gençlik olgunluğuna erişme ile ayın on üçüncü gecesi, gelişmenin belirgin bir evreye varmasını; şafak öncesi falah öğünü ise günlük çevrim içinde yaklaşan vakti gösterir (87:14). Okuma ile tilavet tekrarı taşır (87:6); dişi devenin kızışma ya da üreme hâli bedensel dönemi, belirlenmiş vakit çevrimin düzenini, yaşlılık ile günün yüksek vakti de sürecin ileri ucunu görünür kılar (87:12). Bu katkılar {ar:سَوَّىٰ, tr:sevvâ, gloss:olgunlaştırıp tamamladı} ile buluştuğunda, tamamlanma tekrarlanan dönemler boyunca doğru vaktine ulaşan bir oluş gibi görünür. Her imge kendi zaman türünü korur ve birlikte “tam olma”nın zamansal bir eşiği bulunduğunu gösterir.
+
+Canlı hayatın çizgisi bu çevrim duygusunu doğumdan yaşlılığa yayar. Canlılık ve doğumdan hemen sonraki tazelik (87:13), gençlik olgunluğu (87:1, 87:15), yaşlılık (87:12), Yasar adıyla anılan genç adam imgesi (87:8), {ar:سَوَّىٰ, tr:sevvâ, gloss:olgunlaştırdı} sözünü canlı bir dizinin gelişme evresi olarak açar. Bir varlık her aşamada kendi içinde tamam görülebilir; düzenleme ayrıca onun zaman boyunca taşıdığı olgunlaşma hareketini de kapsayabilir. Hayat safhaları bu yolla yaratma ile uygun hâle getirme arasındaki tamamlığın zamansal yüzünü görünür kılar.
+
+## İşe Yarayan Yerleşim
+
+Zamanda olgunlaşan biçimin neye göre “uygun” olduğu sorusu, {ar:سَوَّىٰ, tr:sevvâ, gloss:uygun ve dengeli hâle getirdi} sözünün bağlı ayrıntılarını bir araya getirir. Ölçüp sınır belirleme biçimin çerçevesini, bir işi yaparak ustalaşma işlevini, tamamlanmış ve gözle seçilen dış şekil sonucu, bir şeye yaraşma yerindeliği, iki şeyi denk kılma ilişkiyi, eğrilikten kurtulup düzgünleşme iç tutarlılığı, ölçünün bütün kapsama ulaşması yeterliliği, iki uç arasındaki orta değer ise aşırılıklardan uzak uygunluğu getirir. Ölçü, elverişlilik ve beceri ipuçları (87:3, 87:14, 87:16), bu katkıları aynı sahada harekete geçirir. Eşit yüzey bu sahanın yalnız bir parçasıdır; birleşik sonuç, yaratılmış olanın yeri ve işi için ayarlanmış biçimdir.
+
+Bu işlev ilk olarak bir bedeni taşıyan donanımda görünür. Deveye binme çerçevesi ya da onu saran eyer örtüsü (87:5) biniciye yer açar; deri giysi, üzerine çıkıp yerleşme veya egemen olma ve devenin sırtına konan dolgulu örtü (87:1) bu yeri sarıp destekler. Yayılmış uzuv biçimi (87:11) yükü tabana dağıtır; sallanarak ya da destekle yürüme (87:3) ise dengenin hareket içinde korunmasını ister. Bu işlemler {ar:سَوَّىٰ, tr:sevvâ, gloss:yerleştirip dengede tuttu} sözünde birleşince, düzenleme taşıyan beden ile onu sabit tutan donanım arasındaki uygunluk olarak görünür. Binme sahnesi bu işlevsel sonucu anlatan sınırlı bir benzetmedir.
+
+Üstteki destek ve yön aynı görüntüyü statik şekilden beden duruşuna çevirir. Yayılmış uzuvlar (87:11) tabanı kurar; üzerine çıkıp yerleşme ile sonradan eklenen üst parça (87:1) desteği yerleştirir; sallanarak ya da destekle yürüme (87:3) dengeyi sınar; aşağı kıvrılma yahut yüz hizasına yönelme (87:8) duruşun nereye açıldığını belirler. {ar:سَوَّىٰ, tr:sevvâ, gloss:yerleşimi ayarladı} bu katkılarla, düzenlenmiş biçimi hareketi mümkün kılan bir duruş olarak gösterir. Yürüyüş bu özel bağlantıda bağlamsal sınama işini görür; sevvânın sözlükteki düzenleme anlamı yerinde kalır.
+
+Taşınan yük, bu duruşun amacını daha da somutlaştırır. Alet, destek ya da sedye (87:18) yükün altına girer; öne uzanan uzun boyun (87:4) taşıma hattını ileri götürür; devenin sırtındaki dolgulu örtü ile üstte eklenen şey (87:1) yükü yayar; dümeni andıran taşıyıcı (87:14) yönü korur. Bu ayrı işlemler {ar:سَوَّىٰ, tr:sevvâ, gloss:taşıyacak biçimde ayarladı} çevresinde işlevsel tamamlığı kurar. Yapının dış çizgisiyle birlikte neyi üstlendiği ve onu nereye taşıdığı da okunur hâle gelir. Bu bağlantıda taşıyıcı görüntüsü işlevi açıklar; sevvâ ise eyer ya da araç adına dönüşmeden düzenleme anlamını korur.
+
+Yerleşim, canlı biçimin dışarı çıkıp bir hedefe ilerlemesini sağlayan düzeni de açar. Yanında götürme ya da eşlikte tutma (87:11) hareketin bağını korur; gelme, acele etme ve yaklaşma (87:13) varış yönünü belirler; içeriden dışarı çıkma (87:4) başlangıç eşiğini açar; geçim ve dolaşım alanı ile hedefe yönelme (87:1) hareketin kullanılabilir zeminini verir. {ar:سَوَّىٰ, tr:sevvâ, gloss:yönünü ve yerini düzenledi} bu katkılarla, bulunduğu yerde donmayan ve hedefe doğru işleyebilen yörüngeli bir düzeni görünür kılar. Çıkma ve yaklaşma bu bağlantının hareket ayrıntılarıdır; fiilin olağan anlamı düzenlemedir.
+
+Canlı hareketin her zaman uysal olmayışı bu düzenin sınavıdır. Yeni doğmuş ve taze hayvan (87:13), sürü ya da toplanmış yabani sığır (87:1), otlama ile mera (87:15), üzerine çıkıp yerleşme yahut yönetme (87:4), kaçınma, kaçış ve kararsızlık (87:12), {ar:سَوَّىٰ, tr:sevvâ, gloss:yerleştirip düzenledi} sözünü canlıyı yönetilebilir bir konuma yerleştirmek gibi duyurur. Sürünün huzursuzluğu bu sonucu değiştirir: iyi kurulmuş yer, tekdüze hareketsizlik üretmek yerine dirençli ve kaçmaya eğilimli hareketi taşımalıdır. Hayvan yönetimi, düzenin canlı dinamizme yer açmasını gösteren sınırlı analojidir.
+
+Hareketi mümkün kılan yer de biçimin parçasıdır. Geniş yükselti ve bilinmeyen zeminde ilerleme (87:7) yön bulmanın direncini gösterir; dolaşım ile geçim alanı (87:1) zeminin yaşamsal işlevini, geniş açık arazi ve düz yayılım (87:18) ise geçilebilir yüzeyi getirir. Bu ayrıntılar {ar:سَوَّىٰ, tr:sevvâ, gloss:düzleyip geçit verdi} çevresinde tepe ile ova arasında karşıtlık kurar. Açık ve düzgün alan yürümeyi, yaşamayı ve dolaşmayı mümkün kılar. Bu özel arazi görüntüsü, sevvâya peyzaj adı vermek yerine oranlamanın canlıya hareket alanı açan sonucunu gösterir.
+
+Bu araziye eksen eklendiğinde düzen, yönsüz eşitlik olmaktan çıkar. El-Ca‘le adlı yer (87:5) ve Sabbuha adlı yer (87:1), soyut yönü adlandırılmış konumlara bağlar. Hedefe yahut hedefin izlediği yöne yönelme (87:1) varış noktasını belirler; sol taraf ve el yatay ekseni, aşağı doğru kıvrılma ya da yüz hizasına yönelme hareketin doğrultusunu, Yusr/Yasar adlı yer ise bir başka konum işaretini ekler (87:8). {ar:سَوَّىٰ, tr:sevvâ, gloss:yerli yerine koydu} böylece tarafı ve varış noktası bulunan konumlu bir geometri açar. Yer adları ve yönler bu özel mekân benzetmesinin sınırlı işaretleridir; uygunluk her şeye kendi yerini verir. Yukarı yön işareti (87:1) geometriyi dikeyleştirerek uygun kapasitelere sahip varlıkların kararlı seviyelere yerleşmesini düşündürür ve oranlama ile tamamlanmanın mekânsal sonucunu görünür kılar.
+
+## Payın Ölçüsü
+
+Her şeye kendi yerini vermek, ölçünün alıcılar arasında nasıl dağıtıldığı sorusuna geçer. {ar:سَوَّىٰ, tr:sevvâ, gloss:ölçülü hâle getirdi} fiilinin denkleştiren yönü; payların karşılıklı uzlaştırılması (87:4), okları ya da kura paylarını birlikte tutan kılıf ve demet (87:1, 87:15), kişi başına denk mal ile bolluk, ölçünün bir şeyin sınırına ulaşması (87:3) ve kura ile paylaştırılan deve (87:8) görüntüleriyle buluşur. Kılıf payları bir arada tutar, kura onları alıcılara ayırır, ölçünün sınıra varması tahsisin nerede tamamlandığını gösterir. Böylece eşitleme soyut simetriden çıkıp dağıtılan payların görünür işlemi olur; kura sahnesi bu tahsisi açıklayan sınırlı bir benzetme olarak kalır.
+
+Dağıtım, hak ve sorumluluk ilişkisini de görünür kılar. Kişiye ödenmesi gereken mal çıktısı (87:4) hakkın karşılığını, payların uzlaştırılması ile ölçünün bütün kapsama ulaşması (87:3) dağıtımın sınırını, mal ile bakmakla yükümlü olunanları birlikte bildiren qirah kullanımı (87:6) ise payın bağlı olduğu topluluğu getirir. {ar:سَوَّىٰ, tr:sevvâ, gloss:payı ölçülü kıldı} böylece kimin neyi taşıdığını ve neyin kime ait sayıldığını belirginleştiren pratik bir hak düzenine açılır. Bu bağlantı sahiplik ve yükümlülüğün ölçülü ilişkisi kadar konuşur; âyetten vergi ya da mülkiyet hukuku hükmü üretmez.
+
+Çalışma karşılığı belirlenmiş ücret (87:5), ödenmesi gereken çıktı (87:4), mal ile bakmakla yükümlü olunanlar (87:6), kişi başına denk mal, bolluk, refah ve geçim (87:8), aynı ilişkinin iaşe yüzünü kurar. {ar:سَوَّىٰ, tr:sevvâ, gloss:ölçülü dağıttı} artık ölçüyü onu alacak insan grubunun ihtiyaç ve sorumluluklarıyla ilişkilendirir. Ücret emeğin karşılığını, çıktı üretilen payı, mülk ve yükümlülük topluluğu, refah ise yaşamın sürmesini getirir. Her katkı ayrı kalırken, odak fiilin düzenleme anlamı paylaşımın nasıl ölçülü bir sonuç doğurabildiğini gösterir.
+
+Paylaştırmanın adaleti her zaman aynı miktarı vermekle ölçülmez. İki uç arasındaki tarafsız orta; kişi başına denk mal ve bolluk; ölçünün sınıra varması (87:3); az bir ölçüye daralma (87:12); küçüklüğün karşıtı olarak büyüklük ve küçük miktar (87:8), {ar:سَوَّىٰ, tr:sevvâ, gloss:ortayı ve dengeyi kurdu} sözünü fazlalıkla kıtlık arasındaki ayarlı ilişkiye dönüştürür. Büyük ile küçük uçları, daralan ölçü kıtlığı, denk pay ise alıcıya uygun ortayı gösterir. Nicelik, oranlamanın bağlamla açılan yüzüdür; denge de yaratılmış olanın kendisine uygun değeri bulmasıdır.
+
+Uygun değer yalnız şimdiki ana kapanmaz. Yakında olanı seçme (87:16) ile gecikmiş başkalığın, yararın ve kalıcılığın öne çıkması (87:16, 87:17), {ar:سَوَّىٰ, tr:sevvâ, gloss:orantıladı} sözünün adaletini anlık yüzey simetrisinden zaman içindeki değere taşır. Ölçü, neyin hemen elde edildiği kadar neyin korunup sürdüğünü de hesaba katan uzak bir dağılım imgesi kazanır; mekândaki denge bunun zemini olarak kalır. Fâtiha’daki {ar:غَيْرِ, tr:gayri, gloss:başka ve olmayan} sınırı (1:7) da dışarıdan aynı soruya dokunur. Onun başkalığı sevvâ çevresindeki ayırma imgesiyle buluşunca, tamamlanmış düzenin benzer biçimlerin yanı sıra birbirinden ayrı yerler ve sınırlar verdiği görülür. Böylece oranlama, eşitlik ve orta anlamlarını koruyarak farkı da düzen içinde tutabilir.
+
+Uzak bir sınır vakası, kararlı düzenin mahrumiyeti de barındırabileceğini gösterir. Yana ayırma ve sınır koyma, yoksunluk ile bedbahtlığı aynı ara hâlde tutar (87:11); uyuşuk ve ölüm benzeri durgunluk da yararlı hayatın karşısında sabit fakat gelişmeyen bir durum kurar (87:13). Bu ayrıntılar {ar:سَوَّىٰ, tr:sevvâ, gloss:orta ve sabit bir düzen kurdu} ile buluşunca, düzen içinde ortaya çıkan hâlin değeri ayrıca sorulur. Bu özel bağlantıda düzgünlük evrensel rahatlık iddiası taşımaz; sonuçları farklılaşabilen kararlı yerleştirmeyi görünür kılar.
+
+## Yüzey, Sınır ve İşlem
+
+Uygunluğun maddi yüzüne bakıldığında ilk görüntü kumaştır. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzleştirip tamamladı} sözünün düzgün ve yıpranabilir yüzey çağrışımı; deri giysi, sağlam pelerin ve devenin sırtına yerleştirilen dolgulu binme örtüsüyle temas eder (87:1). Engebesiz ve kesintisiz yüzey kullanım için hazırlanır; kullanım onu zamanla eskitip yıpratır, buna rağmen yüzey hizmet vermeyi sürdürebilir. Sınırlı kumaş benzetmesi, yaratma-düzenleme zeminindeki tamamlanmışlığı çıplak geometriden çıkarıp maddi bir kullanım tarihine taşır.
+
+Yüzey yalnız aşınmaz, üzerine sürülen maddeyle de değişebilir. Kısalık, tıknazlık ve inat görüntüsüne eşlik eden hoş kokulu karışım (87:5) yüzeye koku; değersiz atık, dövme ya da sürme için kullanılan is pigmenti ve bedene uygulanan kireç (87:12) renk ve kullanım niteliği kazandırır. Bu işlemler {ar:سَوَّىٰ, tr:sevvâ, gloss:yüzeyi tamamladı} sözünün geometrik tamamlanmasını, üzerine malzeme sürülerek işlenebilen bir yüzeyle genişletir. Koku ve kaplama bu özel maddi benzetmenin ayrıntılarıdır; fiilin doğrudan anlamı yüzeyi uygun hâle getirmektir.
+
+Yüzeyin bittiği yerde sınır, kapanma ve yarık görünür olur. {ar:سَوَّىٰ, tr:sevvâ, gloss:biçimi düzenledi} çevresindeki kapalı üreme yolu imgesi içeriyi tutan sınırı getirir. Sertlik, keskinlik ve kuvvet (87:16) bu sınıra maddi direnç; kılıç izi, parıltı ya da darbe (87:15) belirgin kenar; yarma ve kesme (87:14) ise açılma eşiği kazandırır. Üst dudaktaki yarık görüntüsü de bu eşiği bedende görünür kılar. Kapanma, kenar ve yarık böylece aynı biçimin farklı işlemlerini açıklar: biri içeriyi korur, biri dış çizgiyi belirler, öteki sınıra yaklaşılabilen açıklığı gösterir. Bu bağlamsal bileşim, yaratma-düzenleme zeminindeki biçimlenmişliği dokunulabilir sertlik ve belirgin sınırla genişletir.
+
+Sınırın bedendeki iki yönü, ikinci bir yakınlaşmada daha da belirginleşir. Kuvvetli erkeklik imgesi (87:15) kapalı üreme yolunun bedensel bağını, görünür üst dudak yarığı (87:7) dışarıdan seçilen açıklığı, kesme ve dudağın yarılması (87:14) ise iki tarafın ayrılmasını getirir. {ar:خَلَقَ, tr:halaka, gloss:oluşturdu} ile {ar:سَوَّىٰ, tr:sevvâ, gloss:belirginleştirdi}nin kurduğu bedende hem içeriyi koruyan kapanma hem biçimleri ayıran açıklık seçilir. Bu bağlantının kapsamı anatomik sınırdır: erkeklik ve yarılma ayrıntıları, fiillerin doğrudan karşılığı olmadan yaratılmış bedendeki kapanma ile açıklığı birlikte görünür kılar.
+
+Tamamlamadan önce bozulma bulunabilmesi daha uzak bir ihtimaldir. Yönlendirme çevresinde (87:3), {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} ile ortaya çıkan formun kırılma ya da yıkımdan geçip sonra {ar:سَوَّىٰ, tr:sevvâ, gloss:eğriliğini giderip düzeltti} ile daha sağlam bir hatta alınması düşünülebilir. Bu ihtimalli ara işlem, düzeltmeyi ilk biçimin doğrudan devamı olmanın yanında bozulma sonrasında yeniden doğrultma olarak da gösterir. Kırılma aynı ses alanındaki uzak bir eşlemeden gelir; bu özel bağlantı {ar:هَدَىٰ, tr:hedâ, gloss:yol gösterdi} sözünün yol gösterme anlamını korur ve yıkım imgesini yalnız ara işlemle sınırlar.
+
+Yakıcı ateş (87:12), tamamlamanın maddi gerilimine başka bir yönden katkıda bulunur. Isı, {ar:خَلَقَ, tr:halaka, gloss:ilk biçimi yaptı} ile meydana gelen formu temperleyip {ar:سَوَّىٰ, tr:sevvâ, gloss:ısıl işlemle doğrulttu} ile tamamlayan araç gibi çalışabilir; aynı ateş yakıp yok eden karşı hareketi de taşır. Bu iki sonuç birlikte tutulduğunda benzetmenin sınırı belirginleşir: ısıl işlem, açık yaratma-düzenleme anlamını değiştirmeden tamamlamanın düzeltici imkânını ve yıkıma açıklığını yan yana gösterir.
+
+## Suyu Tutan Zemin
+
+Maddi yüzeyden arazi ölçeğine geçildiğinde düzgünlüğün ilk işi akışı karşılamaktır. {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:var edip düzenledi} sözü çevresindeki kaya oyuğu suyu alır, yeni kuyu onu erişilebilir kılar; kuyunun temizlenmesi (87:7) bu erişimi sürdürür, kapalı su havzaları (87:5) akışı içeride tutar, toplanmış bol su ile büyük birikmiş su kütlesi (87:1, 87:15) düzenin kapasitesini gösterir. Bu işlemler yaratılıp düzenlenen biçimi, akışı alan ve tutan bir yüzey sistemi olarak duyurur. Kuyu ve su yönetimi bu özel arazi benzetmesinin işlevidir; iki fiilin olağan anlamı oluşmuş geometriyi kurmaya devam eder.
+
+Selin taşıdığı yüzen döküntü (87:5), bu sisteme eğim ve hareket ekler. Su tutan kaya oyuğu ya da yeni kuyu, geniş açık zemin ve kapalı toplama alanlarıyla birlikte {ar:خَلَقَ, tr:halaka, gloss:oluşturdu} ve {ar:سَوَّىٰ, tr:sevvâ, gloss:yüzeyi derecelendirdi} sözlerini, suyu ve sürüklenen maddeyi yönlendirip tutan arazi düzeni gibi gösterir. Oyuk alıcı geometriyi kurar; çevredeki düz ya da eğimli alan akışın yönünü belirler; sel döküntüsü bu düzenlemenin taşınan maddeyi de etkilediğini gösterir. Uzak ve maddi bu manzara, yaratma ile düzenlemenin yüzeye kazandırdığı işlevi somutlaştırır.
+
+Akışı tutan zemin canlılık üretmeye elverişli olduğunda görüntünün ölçeği yeniden değişir. Nesnesi söylenmeyen {ar:خَلَقَ, tr:halaka, gloss:yarattı} sözünün düz ve kesintisiz yüzey yönü ile {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} sözünün geniş açık arazi yönü; yaratma, su indirme, ürün çıkarma ve rızık verme zinciriyle temas eder (14:32). Otlağın hemen belirmesi (87:4) bu teması odak çevresine getirir. Bedensel ve kozmik oluşum imkânları açık kalırken yaratma-düzenleme çifti, canlılığın çıkacağı düzgün ve üretken zeminin hazırlanması olarak da duyulur.
+
+Üretkenlik bazen düzgün yüzeyin yarılmasını gerektirir. Kesmeden önce ölçme ve sınırlandırma, geniş açık arazi, toprağın sabanla yarılması ve bu yarılmadan doğan artış (87:14), {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:oluşturup hazırladı} sözünü ekime hazır bir zemin gibi açar. Ölçü alanı belirler, saban yüzeyi yarar, açılan toprak büyümeye imkân verir. Yarılma tamamlanmışlığı ortadan kaldırmak yerine hazırlanmış zeminin üretken kullanımını başlatır. Uzak tarım benzetmesi, odak fiillerin kurduğu zeminin sonradan büyümeye nasıl hizmet edebileceğini gösterir.
+
+Ekolojik yankı, tamamlanmış düzenin değişimi de taşıyabildiğini gösterir. Gizliden ortaya çıkan oluş (87:4) başlangıcı, otlayan canlıya yarar sağlayan madde (87:4) kullanımı, kuru döküntüye dönüşme (87:5) eskimeyi, toplanma ve sınırlandırılma (87:5) ise maddi geri dönüşü getirir. {ar:سَوَّىٰ, tr:sevvâ, gloss:dengeledi} çevresindeki ortayı kurma imgesi, bu ayrı evreleri aynı sistem içinde dengeler. Bu ihtimalli ölçek değişimi statik tamamlanma okumasını geçersiz kılmaz; onun yanına ortaya çıkma, kullanılma, dönüşme ve geri dönme hareketlerini taşıyan düzenli ekolojiyi yerleştirir.
+
+## Okunabilen Biçim
+
+Üretken zeminde beliren şeylerin ayırt edilebilir oluşu, biçimi işaret hâline getirir. {ar:اِسْم, tr:ism, gloss:ad ve işaret} ifadesi (87:1), daha uzak bir çağrışımla adlandırmayı göstergeye, görünür biçimi kimliği seçtiren işarete bağlar. {ar:خَلَقَ, tr:halaka, gloss:biçim verdi} yüzeyi oluşturur; {ar:سَوَّىٰ, tr:sevvâ, gloss:sağlamlaştırdı} onu içten düzgün ve tutarlı hâle getirir. Bu işlemler birleşince varlığın durumu ve kimliği okunabilir olur. Ism sözünün o âyette yalnız söylenmesi emredilen ad olması ihtimali de (87:1) açık kalır; uzak ilişki, odak cümleye kimliğin biçimden okunabilmesi katmanını ekler.
+
+Okunabilirlik, görmenin yanında toplama ve hatırlamayı da ister. Okuma ve ayırt ederek toplama (87:6) görünür farkları bir araya getirir; unutma (87:6) bu birliğin kaybolma ihtimalini açar. Tanımayı yönlendiren ayırt edici işaret, göze görünme ve gizlinin açığa çıkması (87:7) ise farkların yeniden seçilebilmesini sağlar. Bu işlemler {ar:خَلَقَ فَسَوَّىٰ, tr:halaka fe-sevvâ, gloss:oluşturup düzenledi} sözünün tamamlanmış özelliklerini tanınabilen ve hatırda tutulabilen bir işaretler düzenine dönüştürür. Uzak benzetme yaratılmış dünyanın okunabilirliğini açarken, bu özel pasajın vahiy ya da ilahî bilgi hakkındaki okuması da (87:6, 87:7) bütünüyle kullanılabilir kalır.
+
+Yazılı sahifeler (87:18, 87:19), bu işaretler düzenini yüzeye yaklaştırır; kalemle öğretim (96:4) daha geniş bir dış paralellik sağlar. {ar:خَلَقَ, tr:halaka, gloss:var etti} sözünün engebesiz yüzey yönü, üzerine düzenli işaretlerin yerleşebileceği bir hazırlık gibi duyulur. {ar:سَوَّىٰ, tr:sevvâ, gloss:düzene koydu} da işaretlerin okunabilir bir ilişkide kalmasını sağlar. Bu bağlantının katkısı, canlı, bedensel ve araziye ilişkin oluşumların düzenini okunabilir kılan yüzey benzetmesidir. Kapsamı da bu benzetmeyle sınırlıdır: âyetin açık sözü yazı ya da kalem yerine yaratma ve düzenlemeyi bildirir.
+
+Sahifeler yalnız yüzeyi değil, sıralanmış bütünü de gösterir. Yazılı yaprakların toplanması, başlangıç ve bir şeyin ardından başka bir şeyin gelmesi (87:18), {ar:خَلَقَ, tr:halaka, gloss:birimler oluşturdu} ile {ar:سَوَّىٰ, tr:sevvâ, gloss:birimleri hizaladı} sözlerini kompozisyon benzetmesinde buluşturur. Oluşturulan her birim kendi içinde tamam olabilir; ardından gelen birim onu aktarılabilir diziye ekler; hizalama parçaların zaman boyunca örüntü taşımasını sağlar. Tamamlık böylece hem tek tek varlıkların kuruluşunda hem ölçülü birimlerin ardışık bütüne katılmasında görünür olur.
+
+Aktarılabilir biçim, aktarımın kırılganlığını da beraberinde taşır. Kafiye bağından sonra gelen son elif (87:4) sözün biçimsel kuruluşunu, uydurulmuş anlatı (87:4) kurulmuş sözün yanıltıcı kullanımını, yazılı yapraklardan yanlış okuma (87:18) ise aktarım sırasında doğan bozulmayı görünür kılar. Bunlar {ar:خَلَقَ, tr:halaka, gloss:kurdu} ve {ar:سَوَّىٰ, tr:sevvâ, gloss:biçimledi} sözlerinin dilsel yüzünde buluşur: söz özenle kurulup biçimlenebilir, yine de okunurken bozulabilir. Okuma ve tilavet alanı (87:6) bu ihtimali daha da inceltir. Halaka’nın ölçüp paylaştıran yönü planı, sevvânın seçip sıraya koyan yönü bir harfi ya da pasajı dışarıda bırakabilen kompozisyon kararını düşündürür; terk ve ihmal kasıtlı seçimin dışında bir yokluk yolu, yanlış okuma da tasarımın dışında hata ihtimalidir. Bu uzak bağlantının kapsamı aktarım kırılganlığıdır; sahifelerde gerçekten kayıp bulunduğu iddiasını kurmaz. Kurulmuş ve sıralanmış biçimin okunabilirliği böylece onu doğru aktarma sorumluluğunu görünür kılar.
+
+</source_prose>

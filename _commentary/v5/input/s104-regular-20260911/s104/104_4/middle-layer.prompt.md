@@ -1,0 +1,469 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **104:4**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s104-regular-20260911/s104/104_4/104_4.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `104:4 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(104:4 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s104-regular-20260911/s104/104_4/104_4.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s104-regular-20260911/s104/104_4/104_4.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s104-regular-20260911/s104/104_4/104_4.prose.middle.tr.md \
+  --ayah-ref 104:4
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s104-regular-20260911/s104/104_4/104_4.prose.editorial.tr.md`
+
+<source_prose>
+## Hükmün Dönemeçi
+
+Bu kısa âyet, 104:3'te malının kendisini kalıcı kılacağını sanan kişiye dönerek başlar: {ar:كَلَّا, tr:kellâ, gloss:Hayır}. Cümle başındaki durak ve kelimenin sıkı sesi, sonraki hükümden önce reddi işittirir. Kellâ burada gevşek bir bağlaç gibi akmaz; 104:3'teki iç hesaplamayı kesip dayatılmış bir karara geçişi kurar. Muhatabı durduran bir sakındırma tonu da bu reddin içine yerleşir. Tek kelime gerideki kalıcılık iddiasını geri çevirirken ilerideki kesin ceza cümlesinin kapısını açar; hüküm, reddin yerine geçmeden onun ardından gelir.
+
+Bu kesikten sonra {ar:لَ, tr:le-, gloss:yemin cevabı lâmı} ile {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:kesinlikle atılacaktır} birlikte duyulur. Başındaki lâm, serbest duran bir kuvvetlendirme değil, söylenmemiş bir yeminin cevabını başlatan lâm olarak hükmü çerçeveler. Fiilin sonundaki ağır `-nne` de atılma eylemini baştan sona mühürler. Böylece gelecek zamanda gerçekleşmesi beklenen bir ihtimal değil, yeminle sabitlenmiş bir karar işitilir; yeminin söylenmemiş kısmı metne eklenmeden onun kesinliği taşınır. Kellâ'nın reddi bu lâmın açtığı cümlede dışarıdan uygulanan bir hükme dönüşür. Fiilin ağır bitişindeki ses basıncı da kapanışı destekler; daha ince telaffuz ayrıntıları yeni bir anlam kurmadan bu kesinliği sıkılaştırır.
+
+Hükmün hareketini {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:kesinlikle atılacaktır} fiili kurar. Fiil edilgendir; kişi atan taraf olarak değil, başkasının attığı kişi olarak görünür. Üstelik bu, isimsiz ve rastgele birinin sahneye sokulması değildir. 104:3'te kendi kalıcılığını malıyla hesaplayan kişi, aynı kişi olarak denetleyen konumdan hükme uğrayan konuma taşınır. Fiilin arkasındaki {ar:فِى, tr:fî, gloss:içine} bu atılışı boşluğa savrulma olmaktan çıkarıp belirli bir hedefin içine yöneltir. Önce hareket, sonra varış duyulur. Kişi yalnızca bir yerden uzaklaştırılmaz; adı konmuş bir yere doğru gönderilir. Fî'nin bu cümledeki katkısı hedefe girişi belirlemektir; özel içecek veya yanal çekilme sahneleri bu bağlantıya taşınmaz.
+
+Bu edilgen gelecek biçimin seçimi de sahnenin yönünü belirgin tutar. Etken, çoğul veya ikil özne ihtimalleri başka anlatım yollarını görünür kılabilir; burada ise tek kişi edilgen tutulur. Biçimin bu bağlamda seyrek duyulması, pasifliği sıradan bir anlatım olmaktan çıkarıp 104:3'teki kontrol iddiasının tersine dönüşünü öne alır, yeni bir sözlük anlamı üretmez. Basit fiil kalıbı da kendi kendine çekilme veya başkasına attırma gibi ek bir eylem katmanı açmaz: doğrudan birinin atıldığı görülür. Kellâ ile varış adı arasındaki bu fiil, soyut bir kalıcılık hesabını bedenî ve yönlü bir cezaya çeviren orta eştir.
+
+{ar:فِى, tr:fî, gloss:içine} ile {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:Ezici} arasındaki ses akışı, dilbilgisi iki parçayı ayrı tutsa da tek bir içeri giriş hareketi gibi akar. Fî, el-hutame'yi durağan bir konumdan çok içine girişin tamamlayıcısı yapar; cümleye yeni bir fail eklemeden atılmanın güzergâhını tamamlar. Belirli artikel taşıyan ad, fiilden sonra son vuruşu toplar ve belirsiz bir yıkım kuvveti değil, belirli bir varış noktası kurar. El-hutame burada gerçekleşen tek bir ezme eyleminden çok, ezici kimliği adlandıran bir isim gibi çalışır. Cümle sonuna bırakılması, dinleyeni hareketin kendisinden hareketin ulaştığı Ezici ile baş başa bırakır. Adın 104:5'te yeniden sorulacak olması da bu son kelimeyi kapanıştan çok hemen açılacak bir sorunun eşiğine yerleştirir.
+
+El-hutame adının taşıdığı sert veya kuru bir bütünün kırılıp parçalara ayrılması ve geride kuru döküntü bırakması basıncı, burada adın yerleşik Ezici anlamını genişletir. Kırılma sonucundaki döküntü Ezici'nin ürettiği etkiyi görünür kılarken ad, onu meydana getiren kırıcı gücü de taşır. 104:6'da bu adın Allah'a nispet edilen tutuşturulmuş ateşle açıklanması, 104:4'teki hedefe daha sonra açılacak ateş yönünü hazırlar. Böylece 104:4 önce kıran kimliği ve varış noktasıyla duyulur, 104:6'daki açıklama o kimliğin ateşli işleyişini açar. Adın 104:4'teki tehdit dizisinde seyrek ve yoğun kullanımı, onu sıradan bir yer sözcüğünden daha ağır bir hedefe dönüştürür; sesin sert dokusu da bu son basıncı destekler.
+
+## Tutulan Malın Çözülmesi
+
+Atılmanın elden çıkarma yüzü, 70:18'deki {ar:وَجَمَعَ فَأَوْعَىٰ, tr:ve cemea fe ev'â, gloss:topladı ve biriktirdi} sahnesiyle buluştuğunda belirginleşir. 104:2'de {ar:جَمَعَ, tr:cemea, gloss:topladı}, {ar:مَالًا, tr:mâlen, gloss:malı ve serveti} ile {ar:عَدَّدَهُ, tr:addedehû, gloss:onu sayıp döktü} birlikte dağınık olanı toplanmış, sahiplenilmiş ve sayılmış bir bütün hâline getirir. 104:3'teki {ar:يَحْسَبُ أَنَّ مَالَهُ أَخْلَدَهُ, tr:yahsebu enne mâlehu ahledehû, gloss:malı onu kalıcı kılacak sanısı} bu bütünün zihinsel bir süreklilik hesabına bağlandığını gösterir. 70:18'deki toplama ve saklama sahnesi, odaktaki {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılacaktır} fiilinin elden çıkarma, gözden çıkarma ve değeri silme yönleriyle temas eder. Toplayan kişi artık tuttuğu şeylerin sahibi olarak değil, başkasının elinden çıkıp bir yana bırakılan, elde tutulmayan bir girdi olarak görünür. Kelimenin kendi anlamına toplama eklenmez; 70:18'deki toplama, 104:4'teki atılmanın kontrolü tersine çevirmesini görünür kılar.
+
+Bu tersine dönüş, {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:Ezici} adının kuru veya sert bütünü kırma yüzüyle servetin görüntüsüne de uzanır. Dünya hayatının süsü, serveti ve çoğalması 57:20'de parlak bir bütün kurduktan sonra {ar:حُطَامًا, tr:hutâmen, gloss:kuru döküntü} hâline gelir. Bu temas, dayanıklı sanılan serveti ve o servet çevresinde kurulan kimliği kırılabilir bir malzeme gibi gösterir; 104:2'de sayılan birimler de sonunda kuru parçalara ayrılan bir dünya stoğu olarak görünür. Atılma ile Ezici'nin adı aynı cümlede buluştuğunda kişinin katkısı, kırılma sürecine giren bir girdi olarak görünmesidir; kişi kuru bir nesneye çevrilmeden döküntü, kırma işleminin sonucunu görünür kılar. 104:6'daki Allah'a nispet edilmiş ateş, bu dönüşümü yalnızca ekonomik bir mecaza indirgemeden Ezici'nin ateş ufkuna bağlar. Bu ilişki malı mabut diye adlandırmaz; 57:20'deki zenginlikten döküntüye geçiş, 104:4'ün açık Ezici'ye atılma hükmünü derinleştirir.
+
+Toplanmış bütünün karşısında daha ihtiyatlı bir ters-toplama hareketi belirir. {ar:جَمَعَ, tr:cemea, gloss:dağınık parçaları bir araya getirmek} ile 104:2'de kurulmuş düzen, {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılıp bir yana bırakılmak} ve {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:sert bütünü kırıp parçalayan Ezici} ile saçılır, kırılır ve küçük kalan parçalara iner. Atılma kelimesinin küçük ve sınırlı bir parça yönü, fiile doğrudan "küçük olmak" anlamı vermeden bu küçülmüş sonucu duyurur. Atılan şey, 104:3'te yeterli olduğu sanılan bir hazırlık düzeninin bölünüp küçülmüş payı gibi hissedilebilir. 104:9'daki başkasına aktarılan destek ve küçük ölçü görüntüsüyle birlikte {ar:فِي عَمَدٍ مُّمَدَّدَةٍ, tr:fî amedin mümadded(e), gloss:uzatılmış direkler içinde} ifadesi çevresinde düşünülen destek düzeni, sonunda düşük sınıra inmiş bir artık bırakır. Bu benzetme, güvenceye dönüştürülen stoğun düzenli envanterden kırılabilir kalıntıya geçişini taşır; gerçek erzak ve ölçü ayrıntıları bu bağlantıya eklenmez.
+
+Atılma fiilinin başka bir kullanım yüzü, atışın bir aktarımı geri dönülmez biçimde bağladığı satış sahnesini de çağrıştırır. {ar:نَبَذَ, tr:nebeze, gloss:atmak ve elden çıkarmak} ile 104:2'deki servet sahibi arasındaki ilişki düşünüldüğünde, edilgen yapı bir zamanlar envanteri elinde tutan kişiyi gönderen olmaktan çıkarıp gönderilen nesneye yaklaştırır. 104:8'deki kapalı ve sert alan görüntüsüyle birleştiğinde sahip, nesne ve kap yer değiştirir; kişi kendi topladığı stok gibi tutulur. Bu bağlantı, 104:2'nin servet alanından doğan sahip-nesne tersine dönüşünü görünür kılar. Satış işlemi veya gerçek bir depo iddiasına dönüşmeden, 104:4'teki temel hareket kişinin Ezici'ye atılması içinde kalır.
+
+104:3'te malın kişiyi kalıcı kılacağı sanısı, {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:kesinlikle atılacaktır} fiilinin ilişkiyi yana çekip açıkça kesen yönleriyle karşılaşınca, öznenin kendisini tutacağını sandığı destekten zorla sökülmesi gibi görünür. 104:8'deki {ar:إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌ, tr:innehâ aleyhim mu'sade, gloss:onların üzerine kapatılmış} kapanması ve 104:9'daki {ar:فِي عَمَدٍ مُّمَدَّدَةٍ, tr:fî amedin mümadded(e), gloss:uzatılmış direkler içinde} destek-uzanma düzeni, kalıcılığı servetten cezanın kapalı koşuluna aktarır. Servet çözülürken özne tutulur; Ezici'nin kıran yüzü bu tutulmayı süren bir yıpranma gibi karşılar. Direklerin zamanı mı yoksa yalnız mekânı mı bildirdiği açık kalır. Bu ilişki, 104:3'teki güvence vaadinin 104:8 ve 104:9'daki kapanma ve yıpranma koşuluna dönüşmesini düşündürür; sahne bu destekten kopuşu gösterir, onu bir antlaşma veya hukukî çatışma olarak sabitlemez.
+
+## Basıncın Geri Dönüşleri
+
+104:1'deki {ar:كُلِّ, tr:külli, gloss:bütün ve kapsamlı} vurgusu içinde {ar:هُمَزَةٍ, tr:hümeze, gloss:dürtüp iten} ve {ar:لُمَزَةٍ, tr:lümeze, gloss:iterek vuran} nitelemeleri, tek bir hareketten çok tekrarlanan küçük itiş ve vuruşlardan oluşan bir davranış örüntüsü kurar. 104:2'deki toplama görüntüsünün parmakların kapanarak avuç içinin çukurunu oluşturması da bu basınca somut bir el biçimi verir. Sıkma, dürtme ve itme, sonunda nesnenin elden bırakılıp ileriye doğru atılmasına dönüşür. Bu vektörler 104:4'teki edilgen atılış ve Ezici'nin sert bütünü kıran anlamıyla temas ettiğinde, 104:1'de başkasına yönelen küçük baskılar failin bütünlüğünü kıran tek bir yer değiştirmeye geri döner. Bu karşılık, toplumsal basıncın bedensel bir yankısı olarak okunabilir; 104:1'in yalnızca failin niteliğini bildiren sade okuması da yerindedir ve pasif fiil 104:4'te gerçek bir fail eklemez.
+
+Atılma kelimesinin ilişkiyi açıkça kesen yüzü, 8:58'deki {ar:فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ, tr:fenbiz ileyhim alâ sevâ, gloss:karşı tarafa açıkça bildirerek kopar} ifadesindeki sahneyle de görünür olur. 8:58'de kopuş iki tarafa açıkça bildirilir ve örtülü dışlama açık bir reddedişe dönüşür. Bu temas, Ezici'ye atılmayı gizli bir uzaklaştırmanın kesin ve görünür biçimde sona ermesi gibi duyurur. Toplumsal bağın kopuşu fiziksel atılışa eşlik eder; bu bağlantı 104:4'teki hükmü belirli bir hukuk prosedürüne dönüştürmeden, kopuşun açıklığını görünür kılar.
+
+104:1'in bağımlılık yüküyle okunduğunda atılma, yalnız güvenli bir yerden çıkarılmayı değil, kendisini tutan bakım ilişkisinden kopmayı da düşündürür. 104:1'de açılan bağımlılık görüntüsü içinde annesi tarafından bırakılıp başkalarınca bulunabilecek bir çocuk ve sahiplerince gözetilmeyen cılız bir hayvan düşünüldüğünde, atılan özne güven merkezinin dışına düşmüş ama bir alıcı kuvvetin etkisine açık bir varlık hâline gelir. Bu görüntülerin katkısı öznenin türünü belirlemek değil, bakım ilişkisinin kaybını somutlaştırmaktır; kişi çocuk, koyun veya yetim diye tanımlanmaz. Fiziksel atılışın içine bakım ilişkisinin kaybı eklenir; kişi bir yerden çıkarılmış olmanın yanında kendisini taşıyan merkezin dışına bırakılmış gibi görünür.
+
+Başkasının onurunu görmezden gelen küçük baskı ile onu işleyen büyük kuvvet arasındaki temas, 89:17'de yetime değer vermemenin gösterildiği sahne ve 27:18'de büyük gücün küçüğü fark etmeden ezdiği sahneyle genişler. Ezici'nin acımasız sürücü veya çoban kullanımı, 104:1'deki kişinin başkalarını itip inciten davranışının kendisini işleyen kuvvette kaba bir karşılık bulduğunu düşündürür. Bu okumanın katkısı, davranış biçimini cezalandırmadaki kuvvet biçimine yansıyan bir sert muamele olarak göstermesidir; 104:4'ün açık atılma hükmü aynı kalır. 89:17 ve 27:18'deki sahneler bu bağlantıda gerçek bir sürü veya zorunlu bir ahlâk mekanizması kurmadan, küçük sosyal darbeler ile büyük ezme kuvvetini birbirine değdirir.
+
+Toplama hareketinin yoğunlaşıp ilerleyen bir güce dönüşmesi, Ezici'nin ölçeğini de büyütür. 104:2'de dağınık parçaların tek bir hareket içinde toplanması, kırılmayı tek darbeye değil biriken basınca bağlar. {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:karşısına çıkanı ezen Ezici} böylece 104:2'deki yoğunlaşmış hareketin tetiklediği bir kalabalık, sürü veya aslan saldırısı gibi hayal edilebilir. Bu fiziksel benzetmenin katkısı, Ezici'nin ilerleyen kütlesini görünür kılmasıdır; 104:4'teki ad gerçek bir hayvana ya da her yerde geçerli genel bir kuvvet yasasına dönüşmez.
+
+El-hutame'nin kıtlık yılına ve insanla malı birlikte çökertecek kuraklığa açılan kullanımı, 104:6'daki tutuşturulmuş ateşin yaz sıcağının en sert noktasıyla buluşunca bu biriken basıncı çevre ölçeğine taşır. Tek bir nesnenin değil, 104:6'da ateşin çevresinde yaşanan ve sahip olunan bütün çevrenin kuruyup bütünlüğünü yitirmesi görüntüsü doğar. Bu mevsimsel genişlemenin katkısı, ateşin yoğunluğunu maddî ve toplumsal alana yaymasıdır; bu bağlantı gerçek bir takvim yılı veya meteorolojik hüküm tayin etmez. Aynı toplama anlamının insanları bir araya getiren yer, gün veya çağrı görüntüsüyle buluşması ise 104:2'nin yakınlaşmasını başka bir sıkışmaya taşır: Ezici'nin bir yüzü, yoğun kalabalığın bastırdığı belirli bir kutsal yapı bölümü veya duvarı gibi görülebilir. Bu mimari görüntü, 104:2'deki kalabalık ve sınırın adın içindeki basıncı görünür kılar; belirli bir tarihî yapı veya hac mekânı tayin etmez.
+
+## Varışın İçinde
+
+Atılmanın hedefinin katkısı, 104:8'deki kapatılmış alan, 25:13'teki daraltılıp bağlanmış yer ve 90:20'deki mühürlenmiş ateş görüntüleriyle birlikte, Ezici'yi varılıp geride bırakılan bir konumdan içeri alan bir koşula genişletmesidir. {ar:فِى, tr:fî, gloss:içine / içinde} ile kurulan geometri, içeri alınanın dağılamadığı ve basıncın içeride tutulduğu bir koşul açar. 25:13 ve 90:20'deki dar ve mühürlü şartlarda sert sürüş ile karşısına çıkanı ezen kütle aynı kapalı uçta birleşebilir. Kapalı ağıl ve mühürlü kapı görüntüleri bu bağlantının taşıdığı koşulu somutlaştırır; Ezici'yi sözlükte ağıl, gerçek sürü veya salt mekanik düzenek diye sabitlemez.
+
+Atılma ile bu hedefin birleşmesi yeni bir zaman kenarı da açar. {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılacaktır} basit bir uzaklaştırmayla bitmez; kişi sonunda kaçışın kesildiği ve tutulduğu bir hâle varır. Kapanmanın ezmeyi başlatıp başlatmadığı ya da ezme gerçekleştikten sonra yalnızca kaçışı engellediği belirlenmez. Her iki yönde de açık kalan şey, 104:8'deki kapalı koşula ulaşan kişinin Ezici'nin sert yöneten ve önüne geleni ezen yüzleri tarafından sonrasında da işlenebilmesidir. Fî burada yalnızca "içinde" anlamını vermekle kalmaz; hareketi, tutulmuş bir duruma bağlayan kapalı bir süreç hissi verir.
+
+104:6'daki ateş, 104:7'deki içe erişim ve 104:8'deki kapanma, {ar:فِى ٱلْحُطَمَةِ, tr:fî el-hutame, gloss:Ezici'nin içine} sözünü yalnızca bir varış adresinden içine girilen ve işlemeye devam eden bir hâle doğru genişletir. Ezici'nin burada yer, fail, durum veya işleyen bir süreç oluşuna dair ihtimaller, 104:6, 104:7 ve 104:8'de aynı hedefin çevresinde birlikte taşınır. Atılan kişi, bu genişleyen görüntü içinde somut bir bedene indirgenmeden, 104:4'te açıkça söylenen hedefe giren kişi olarak kalır. İçe erişim 104:7'de ayrıntılanabilir; 104:4 ise bu hareketi ayrıntılı bir beden tasvirine kapatmadan açık bırakır.
+
+## Kırmanın İçeri Uzanması
+
+104:5'teki {ar:وَمَا أَدْرَاكَ مَا ٱلْحُطَمَةُ, tr:ve mâ edrâke mâ el-hutame, gloss:Ezici'nin ne olduğunu sana bildiren soru}, 104:4'ün sonundaki adın işlevini açar: soru, Ezici'nin yalnızca nereye atılındığını değil, orada ne yaptığını da görünür kılmaya hazırlanır. Böylece {ar:لَيُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılıp içine yöneltilmek} kişinin yalnız bir hedefe varmasını değil, 104:5'te işleyişi sorulan bir sürecin içine girmesini de düşündürür. Daha uzak bilgi-işlem görüntüsünün katkısı, Ezici'nin kişiyi içine alan yer oluşunu koruyarak bu adı açıklanacak bir işleyişe açmaktır; 104:4'teki varış noktası bu açıklamanın zemini olarak kalır.
+
+104:7'deki {ar:ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ, tr:elletî tattaliu ale'l-ef'ide, gloss:kalplerin üzerine ulaşan} yön, el-hutame'nin sert bütünü kırma ve öğütme yüzüyle buluştuğunda dış yüzeydeki parçalanma iç hedefe doğru ilerleyen bir sürece dönüşür. 104:7'deki açığa çıkarma ve yükselme çağrışımı, atılan şeyin altına ve içine ulaşan bir yol verir; 83:14 ve 4:56'daki ateş temaslarıyla birlikte ısı kalpte biriken bir iz veya oraya yerleşen bir rahatsızlık gibi hissedilebilir ve temas, deri her yenilendiğinde yeniden sürer. Bu katkı, Ezici'nin etkisini dıştan vurup geçen bir darbeden davranışı düzenleyen iç merkeze kadar uzanan bir işleme taşır. Bunun psikolojik bir merkez mi yoksa ateşin bedensel bir organa ulaşması mı olduğu açık bırakılır; 104:4'ün sade kırma ve atılma anlamı bu içe uzanan görüntüyle birlikte canlı kalır.
+
+Atılma fiilinin elden çıkarma ve gözden uzaklaştırma yönü, 104:6'daki ateşin ışığı ve yanık iziyle, 104:7'deki kalplere doğru yükselen bakışla karşılaşınca yıkıcı bir görünürlüğe açılabilir. Atılan özne süreç içinde daha belirgin hâle gelir; yıkım aynı zamanda gizlenmiş olanı açığa çıkaran bir iz bırakır. Bu katkı, 104:6'daki ateşin fiziksel parlaklığını ve 104:4'teki yer değiştirme anlamını koruyarak, elden çıkarılan kişinin işleyen kuvvet içinde görünür kalmasını sağlar. Ateş ve bakış burada ayrıca ahlâkî bir paradoks tayin etmez; görünürlük, bu özel bağlantının taşıdığı yıkıcı açıklık olarak kalır.
+
+## Ateşin İşlediği Oda
+
+104:6'daki {ar:نَارُ ٱللَّهِ ٱلْمُوقَدَةُ, tr:nâru'llâhi el-mûkade, gloss:Allah'ın tutuşturulmuş ateşi}, Ezici'nin öğütüp tüketen yüzüne etkin bir enerji verir. Yakma, dağlama, yakacak, ocak ve hazır kıvılcım imgeleri, {ar:فِى, tr:fî, gloss:içine doğru} ile hedefe giren malzemenin çalışan bir alana alınmasını düşündürür. 104:2'deki toplama anlamının genişlik ve doluluk taşıyan kap görüntüsü, Ezici'nin tüketmesi ve 104:7'de içe yönelen ısıyla birleşince, malzemenin girdiği kapalı bir pişirme ve sindirme odası belirir. Ateşin katkısı kırmayı görünür bir dönüşüme çevirmektir; kap ve iç işleyiş bu dönüşümü taşır. Pişirme ve sindirme dili, 104:2, 104:6 ve 104:7'deki kap, ateş ve iç işleyişten doğan sınırlı bir benzetmedir; ateş ile mekanik işlemi tek bir düzeneğe bağlamaz.
+
+İşleyen oda görüntüsü, 104:6'daki ateşin yakacağı ve 104:9'daki destek ile başkasına aktarılan artış imgeleriyle süreklilik kazanır. {ar:نَبَذَ, tr:nebeze, gloss:bir kaba bırakmak} yüzü, malzemenin sürece girdiği konumu taşır; 104:6'daki yakacak işlemi sürdürür, 104:9'daki uzatılmış direkler ve destek düzeni öğütücüyü ayakta tutar, aktarılan artış da girdiyi yenileyen bir besleme hissi verir. Bu ilişkilerin katkısı, Ezici'yi tek anlık bir darbeden çok içeri alınanı işlemeye devam eden beslenen bir aygıt gibi duyurmaktır. Süreklilik 104:6 ve 104:9'dan doğan bağlamsal bir benzetme olarak kalır; 104:4'teki cümle kişinin Ezici'ye atıldığını söyler ve devam eden zamanı tek başına gramerle kanıtlamaz.
+
+Bu besleme görüntüsünün en ihtiyatlı ucunda, {ar:لَيُنۢبَذَنَّ, tr:leyunbezenne, gloss:işleyen bir ateş alanına atılmak} fiili özneyi 104:6'daki ateşe beslenen olası bir malzeme gibi de düşündürür. Kişi aynı anda Ezici'ye atılan mağdur ve sürecin üzerinde çalıştığı muhtemel girdi olarak kalabilir. 104:6'daki yakacak ve 104:9'daki yenilenme ile kurulan temasın katkısı, bir besleme döngüsünü görünür kılmaktır; gramer özneyi yakıt olarak tanımlamaz. Mağdur olarak atılma açık anlamı yerinde dururken, tüketen düzenek tarafından işlenen girdi görüntüsü ayrı bir ihtimal olarak canlı kalır.
+
+El-hutame'nin önüne geleni çokça tüketen ve yiyeceği öğütüp sindiren varlık görüntüsü, Ezici'nin yalnızca vuran değil, içine atılan stokun ayrımlarını korumadan tüketen bir işlem gibi görünmesini sağlar. 89:19'daki mirasın ayırt etmeden topluca yenmesini anlatan sahne bu tüketme yönünü tetikler. 104:7'deki yukarı çıkan kusmuk imgesiyle birleştiğinde iki aşamalı bir hareket de belirir: {ar:ٱلْحُطَمَةِ, tr:el-hutame, gloss:önündekini yiyip öğüten Ezici} içeri alır, sonra aldığı şeyi geri yükseltip dışarı çıkarır. Bu iki hareket Ezici'yi tek yönlü bir kırma noktasından, alımın şiddetli bir tersine dönüşe uğradığı tüketici bir sürece doğru genişletir. Kişinin yiyecek, Ezici'nin de gerçek bir sindirim organı olması bu bağlantının kapsamına girmez; 89:19'daki tüketme yönü, kırma ve kapatma okumalarını eritmeden ayrıca kalır.
+
+Atılma kelimesinin hurma veya kuru üzümün su içinde bir kaba bırakılarak içecek hazırlanmasını düşündüren yüzü, 104:9'daki başkasına aktarılan karışık suyla temas eder. Dışarı atma bu kez alıcı bir ortama yerleştirme, su da içine gireni dönüştüren bir madde gibi görünür. Bu temasın katkısı, atılma hareketine alıcı ortamda gerçekleşen dönüşüm boyutunu eklemektir; 104:4'teki odak bu özel içecek sahnesini kuracak maddî ayrıntıyı taşımaz. Daha uzak bir sistem görüntüsünde 104:5 çevresindeki su girdabı, 104:9'daki akışı kesen kanal ve beslenen suyla birleşir; öğütme, kap içine alınan malzemenin çevresinde dönen kapalı ve yeniden beslenen bir değirmen gibi hayal edilebilir. Su, girdap ve hidrolik düzenek bu bağlantıda çevreyi kuran benzetmelerdir; 104:4'ün gerçek içeriğinin yerine geçmez.
+
+## Yıpranmanın Çevresi
+
+104:2'deki yoğunlaşan hareket ve 104:9'daki suyu tutup yönlendiren toprak işleri, {ar:يُنۢبَذَنَّ, tr:leyunbezenne, gloss:atılıp çevreye saçılmak} fiilinin delikten çıkıp çevresine saçılan toprakla ilgili özel adlandırma yüzüyle buluşabilir. Bu temas, toplu kuvveti beslenen bir akışa, sıkıştırılmış ıslak toprağa ve akışı kesen kanala bağlar; Ezici'nin hedefi kurulmuş bir akış arazisinde yer değiştiren artık gibi görünür. Suyu tutan sınır basıncı artırır. 104:2 ve 104:9'dan doğan bu çevre benzetmesi, Ezici'nin sözlük anlamını suya, sete veya toprağa taşımaz; özel adlandırmanın bu yüzü, yalnızca bu bağlantının açtığı görüntü olarak kalır.
+
+El-hutame'nin yaşlanma veya zayıflamayla bedenin çöküp gücünü yitirmesine açılan yüzü, 104:9'daki basınçla kabaran yara ve irin üreten yara imgeleriyle birleştiğinde kırmayı zaman içine yayar. Sert bir darbe, yüzey altında süren şişme ve akıntıya uzanan yıpratıcı bir sürece dönüşür; bütünlük bir anda parçalanmak yerine azar azar aşınır. Bu bağlantının katkısı, Ezici'nin çökertici etkisini bedenin içinden ilerleyen ve gücü tüketen bir değişim olarak görünür kılmaktır. Süre ve tıbbî sıra burada bu benzetmenin sınırında kalır; 104:4'ün grameri onları ayrıca belirlemez.
+
+Son hareket, 104:1'deki davranış örüntüsünün yorgunluk ve keskinliğini yitirme yönünü Ezici'nin acımasız sürücü yüzüyle birleştirir. Sürücünün canlı bedenleri birbirine çarptırarak ve dinlenmeden ileri iterek gücü tüketmesi, 104:4'teki atılmayı bir defalık temastan çıkarıp zorla sürdürülen bir baskı gibi hissettirir. Bu bağlantının katkısı, kırmayı bedenî basınç ve tükenişe uzanan bir hareket olarak duyurmaktır; 104:1'den gelen sürü ve sürücü görüntüsü, Ezici'yi gerçek bir insan veya hayvan bakıcısı olarak tayin etmez. Kişi yine Ezici'ye atılan kişidir, fakat ulaştığı kuvvetin içinde durmaksızın ileri sürülen ve gücünü kaybeden bir bedenin yıpranması da duyulur.
+
+</source_prose>

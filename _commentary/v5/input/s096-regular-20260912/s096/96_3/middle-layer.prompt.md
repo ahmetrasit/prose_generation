@@ -1,0 +1,515 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **96:3**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s096-regular-20260912/s096/96_3/96_3.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `96:3 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(96:3 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s096-regular-20260912/s096/96_3/96_3.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s096-regular-20260912/s096/96_3/96_3.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s096-regular-20260912/s096/96_3/96_3.prose.middle.tr.md \
+  --ayah-ref 96:3
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s096-regular-20260912/s096/96_3/96_3.prose.editorial.tr.md`
+
+<source_prose>
+## Hitabın Zemini
+
+Bu ayet önce doğrudan bir sesleniş olarak duyulur: {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} ikinci tekil kişiye yöneltilmiş bir emirdir; ardından {ar:وَ, tr:wa, gloss:ve/bağlaç} ile {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} özne, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} ise onun niteliğini bildiren yüklem olur. Ayetin yalın cümlesi şudur: “Oku; senin Rabbin en cömerttir.” Emir, Rabbin cömertliğine dair bu isim cümlesinin ardından ve onunla birlikte işitilir.
+
+{ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} nesnesi ve edatlı çerçevesi söylenmeden tek başına duran kısa bir ikinci şahıs emridir. Ayet nesneyi açık bırakır; böylece bu bağlantıda okunacak şey belirlenmezken emrin “oku” oluşu korunur. Önceki ayette insan üçüncü şahısla anılırken burada aynı muhataba doğrudan dönülmesi, yaratılış bildirimini canlı bir öğrenme çağrısına çevirir. Emrin hemzeyle kapanan kısa sesi {ar:وَ, tr:wa, gloss:ve/bağlayan bağlaç} gelmeden önce kendi başına tamamlanır; bu ses sınırı anlamı değiştirmeden buyruğun tek vuruşta duyulmasını güçlendirir. İlk ayetteki emir geri çağrılır; ikinci geliş, okuma ile Rabbin anılmasını cömertlik bildiren yeni bir zeminde yeniden buluşturur.
+
+Bu tek kelimelik emirden daha dolgun kimlik cümlesine geçişi {ar:وَ, tr:wa, gloss:ve/bağlaç} kurar. Bağlaç, “ve” anlamını taşır ve cömertlik bildirimini emri çevreleyen durum, devam, basit koordinasyon ve nedensel yakınlık olasılıklarına açar; bu bağlantıların hangisinin öne çıkacağı açık kalır. Önceki yaratılış sahnesinden doğrudan hitap ve öğretim sahnesine geçişi mümkün kılan da bu menteşedir. {ar:وَ, tr:wa, gloss:ve/bağlaç} kelimesinin {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} kelimesine bitişmesi, ayrı bir kapı açmadan akışı özneye bağlar. Böylece kısa emir onu kuşatan Rab kimliğine geçer; emir ile kimlik cümlesi yan yana durur ve aralarındaki bağ bu olasılıkların açıklığını korur.
+
+{ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} bir isim tamlamasıdır: Rab oluşu belirsiz bir varlığa değil, doğrudan muhataba bağlayan ikinci tekil iyelik ekiyle kişisel bir sahiplik ve yakınlık kurar. Emrin gizli muhatabı ile bu kelimedeki “senin” aynı kişiyi taşıdığı için komut ile onu söyleyen kaynak tek bir hitap çizgisinde birleşir. İlk ayetteki {ar:رَبِّكَ, tr:rabbika, gloss:senin Rabbin} adı şimdi {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} biçiminde geri döner ve bu kez okuma emrini açıklayan isim cümlesinin öznesi olur. Rab adı sahip olma, buyurma ve yönetip düzenleme yetkisini taşırken, bu yetki hemen ardından gelen cömertlik niteliğiyle ilişki içinde duyulur.
+
+{ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} belirli tanımlıkla gelen bir üstünlük biçimidir. Cömertlik burada Rabbin kimliğinde duran ve ismi cümle içinde sabitleyen bir nitelik olarak bildirilir. “Senin Rabbin” denerek ilişki kurulur, “en cömert” denerek bu ilişkinin verici ve yücelten yönü belirlenir. Tanımlıkla belirlenmiş üstünlük cömertliği tek bir duruma bağlı karşılaştırmadan daha geniş bir düzeye taşır; yerel gramerin bildirimi “Rabbin en cömerttir” biçiminde kalır. Kelimenin ayet sonundaki yeri, işitilen kapanışı buyruğu kuşatan cömertlikte toplar. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} ile {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} kelimelerinin dengeli ses akışı da özne ile yüklem arasındaki eşleşmeyi işitilebilir kılar.
+
+Önceki ayetin {ar:عَلَقٍ, tr:ʿalaq, gloss:asılıp tutunan şey} sahnesiyle birlikte okunduğunda, maddi bir kökenden doğrudan muhatabı gözeten kişisel bir ilişkiye geçilir. Bu geçiş, yaratılmış insanı Rab adıyla kurulan kişisel ilişki içinde işitmeye zemin hazırlar; kuruluşun anlamı bu ilişkiyle birlikte okunur. Sonraki kalem ve öğretme sözleri de {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} niteliğini maddi vermeyi aşan, öğrenme imkânı sunan ve bilmediğini öğreten bir kaynak olarak açar. Cömertliğin üstünlük, övgüye değer olma, eli açıklık, bağışlayıcılık ve güzel huy yönleri Rab adıyla buluştuğunda soyut bir erdem havada kalmaz; muhatabın Rabbi olan belirli kaynağa bağlanır.
+
+Bu yerel zemin, kelimelerin ayetteki olağan anlamını koruyarak ek duyumların nasıl bağlandığını gösterir. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} bir yandan doğrudan okuma buyruğudur, bir yandan yetkili bir çağrıya verilen karşılık gibi duyulabilir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} sahiplik, buyruk ve düzenleme yönüyle bu çağrının yetkesini; {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} ise çağrıyı mümkün kılan üstün, veren ve kolaylaştıran kaynağı görünür kılar. Bu yankı, emrin fiilini okuma olarak tutar; okuyan kişinin eylemi, onu yönelten ve imkân veren kaynakla ilişki içinde işitilir.
+
+Okumanın başka bir açılımında {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} kelimesindeki toplama ve bir araya getirme yönü, nesnesi söylenmemiş buyruğun dağınık olanı bir bütün altında toplama basıncını sezdirir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} kelimesindeki gözetileni eksikten tamamlanmışa doğru geliştirme, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} kelimesindeki yağmuru bolca verip toprağı verimli kılma görüntüsüyle birleştiğinde, okuma bakım altında gelişen ve ürün veren bir süreç gibi belirir. (55:2, 2:151)'deki öğretme ve biçimlendirme, (74:3)'teki ilahi büyüklük, (56:74)'te bağımlılıktan sonra gelen övgü ve (26:7)'deki verimli büyüme bu temasın ayrı katkılarını taşır. Cömertlik böylece okuyucunun kapasitesini yetiştiren üretken bir ihsan olarak görünür. Yağmur ve tarım görüntüsü bu bağlantıda öğretimin gelişme sağlayan desteğini somutlaştırır; ayetin sözlük anlamı bu görüntüyle değiştirilmez.
+
+Bu gelişme çizgisinde okuma, belirlenmiş zamanda gelen, belli bir tarz ve yön içinde yinelenen bir pratiğe de açılabilir. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için zamanın gelmesi veya gecikmesi, eylemin bir vakit düzenine bağlanmasını; yöntem, örüntü ve yönelmiş yol duyumu ise tekrarın rastgele değil biçimli sürmesini düşündürür. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} kelimesindeki bulunduğu yerde kalıp sürme yönü bu düzeni devamlılığa taşır; {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} kelimesinin verimli zemin çağrışımı da sürdürülen pratiğin sonunda ürün veren bir alan açar. Buradaki düzen ve verim duyumu, “oku” buyruğunu belirli bir takvim hükmüne dönüştürmeden emrin yerel anlamına eklenir.
+
+Okuma emri, onu yerine getiren kişinin oluşumuna da bakar. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için dindar veya bilgili okuyucu yönü, buyruğun yalnız ses çıkarmaya değil, bir okuyucu biçimlenmesine açılmasını sağlar. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} Tanrı bilgisiyle ve dinî konularda sağlam bilgiyle yetişmiş bilgin kişiyi düşündüren kullanımıyla öğretim bağını belirginleştirir. {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} üstünlük ve övgüye değer olma yönüyle bu okuyucunun bilgiyle birlikte nitelik ve onur kazanmasını, eli açıklık ve güzel huy yönüyle de bilgiyi cömertlikle birleştirmesini düşündürür. Bu oluşum, üç kelimenin temasından doğan nitelikli bir yankı olarak belirir; doğrudan okuma buyruğu bu yankının içinde korunur.
+
+## Sözün Elle Tutulur Yolu
+
+Yaratma ile okuma arasındaki bağ, yaratılmış işaretlerin algılanabilir bir bütünde toplanması olarak da görünür. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} emri, (96:1, 96:2)'deki tekrar, adlandırma, ölçülü yaratılış ve {ar:عَلَقٍ, tr:ʿalaq, gloss:asılıp tutunan şey} ile birlikte düşünüldüğünde hazır bir içeriği almanın ötesinde yaratılmış ilişkileri toplar. Ölçü ve oranlama, adı bir tutamak olarak kullanma ve tek tek parçalar yerine bağlanma ilişkilerini fark etme, yaratılmış malzemeyi anlaşılır bir işaretler toplamına dönüştürür. Görme, duyma ve duyumsamayla farkına varma, bu toplamı insanın algısına açan katkıyı verir. Burada (96:1)'deki {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} ile (96:2)'deki bağlı yaratılış birbirine temas eder; yaratma, konuşanın yetkisini kuran yerel zemin olarak kalırken okuma bu zemindeki ilişkileri adlandırılabilir hale getirir.
+
+Bu toplama hareketi, (96:4, 96:5)'teki kalem ve öğretme sahnesiyle maddi bir biçim kazanır. {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğreten} içindeki kalem, sert şeyin kesilip yontulmasıyla işaret bırakmaya hazır hale gelen bir yazı aracıdır; ayırt edici iz, bakanı belirli bir şeye yönlendirir. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için toplama ve sözü tilavet halinde bir araya getirme yönü, bu kesilmiş izleri sesli ve bilinir bilgiye dönüştürür. {ar:عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ, tr:ʿallama al-insāna mā lam yaʿlam, gloss:insana bilmediğini öğreten} ile belirginleşen öğretim, fark edişi tamamlanmış kavrayışa taşır. Yazının maddi izi işareti sabitler, okumanın sesli eylemi onu bilinir bilgiye taşır; iki katkı birlikte ilahi öğretimin somut armağanını görünür kılar.
+
+Bu işaretler aynı zamanda gösterilmek, tutulmak ve doğrulanmak üzere açılır. (96:5)'teki bilinmeyeni öğretme ile (96:7, 96:9), (96:11, 96:13, 96:17)'deki ahlaki karşılaşmalar birlikte düşünüldüğünde, {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} anlam çözmenin yanında, hükümden önce kanıtı elde tutup inceleme hareketini de duyurur. {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için görme, duyma ve duyumsamayla farkına varma; {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} için bir şeyi görünür kılma; {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için kendi başına sesleniyormuş gibi belirginleşme yönleri bu sahneyi kurar. Okuma gizliyi açığa çıkarır, kanıtı denetime sunar ve bu yerel inceleme katmanında “oku” emrini sürdürür.
+
+Bu sözü bir kapta toplanan seçim görüntüsü de eşlik eder. {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} içindeki düz ve pürüzsüz yüzey, seçilecek malzemenin hazırlanmasına elverişli bir zemin düşündürür. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} deri veya bezden kura oklarını bir arada tutan kaba; {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğreten} yontulmuş ve sonuçta kullanılan çubuğa; {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} ise kabın ağzını örten tabak biçimli kapağa değen görüntüler taşır. (96:1, 96:4, 96:8)'in toplama, öğretim ve dönüş temasları bu parçaları aynı düzeneğe yaklaştırır: seçim açıkta dağılmak yerine bir kapta tutulup belirginleşir. Kapta tutma, çubukla seçimi belirginleştirme ve örtüyle sınırlandırma, Rab ve cömertlik bildirimine eklenen bu görüntünün üç katkısıdır; bu bağlantı ayete bir seçim töreni anlamı taşımaz.
+
+## Beslenen, Tutulan, Dönüşen
+
+{ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} ile yaratma arasında kurulan temas, varlığa gelişin tek bir anda bitmeyip biçimlenerek tamamlanmasını düşündürür. {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} var etme ve meydana getirmeyi, tam ve ölçülü biçime ulaşmayı taşır; {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} ise gözetileni eksikten tamamlanmışa adım adım yetiştiren ilişkiyi açar. (96:11)'deki var olma ve zaman içinde bulunma ile (96:8)'deki dönüş bu süreci başlangıçtan sona doğru uzatır. Böylece okuma, oluşmuş varlığın sergilenmesinden önce yetiştirilerek biçimlenen kapasitenin etkinleşmesini görünür kılar; bu genişleme yerel “senin Rabbin” ilişkisini koruyan bağlamsal bir okumadır.
+
+Bu oluşumun bedensel bir karşılığı üreme ve döllenme görüntüsünde belirir. {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} için sürünün üzerine çıkan erkek devenin aşması, oluşumun başlamasını; {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için döllenmenin rahimde tutunması, belirsizlikten sürekliliğe geçişi düşündürür. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} içindeki dişi devenin kızgınlık ve üreme dönemi, süreci belirli bir hazırlık vaktine bağlar. {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için başarısız veya tersine dönmüş döllenme görüntüsü de bu çizgide canlı kalır: oluşum her seferinde aynı sonuca ulaşmaz, dönüş veya geri gönderilme ihtimali korunur. Bu sahne, okuma emrinin yerel sözlük anlamını koruyan ve yaratma-dönüş temasındaki izlenen süreci açıklayan bir benzetme işlevi görür.
+
+Aynı malzeme, gebelik ve doğuma yaklaşan anlam görüntüsünde başka bir işlemi görünür kılar. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için hayız ve temizlik dönemlerinin birbirini izlemesi, {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} için âdet kanı izi ve dışarıdan görülen hayvan gebeliği, içerideki oluşun bedensel belirtilerini verir. Rahmi kuşatan, içine alan, saklayan ve taşıyan kap imgesi, anlamın toplanıp büyüdüğü süreci somutlaştırır. {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için doğuma yaklaşmış hayvan gebeliği, oluşun bir eşiğe vardığını gösterir. (96:1, 96:2), (96:7, 96:9), (96:11, 96:13, 96:19)'daki başlangıç, engelleme, görünürleşme ve yaklaşma temasları bu görüntüyü taşır; anlamın rahimde tutulup doğuma yaklaşması, “oku” emrinin toplama ve ortaya çıkarma yönünü açıklayan bu katmandır; emrin yerel okuma anlamı sürer.
+
+Gebelik görüntüsü bedensel belirtileri verirken, aynı malzeme okumanın kendisini gebelik metaforuyla düşünme imkânını da açar. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} kelimesinin adım adım yetiştirip tamamlama yönü, {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için tutunmuş oluş, {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için kuşatan rahim ve {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için yağmurla verimli hale gelen toprakla temas eder. Anlamın tutulup beslenerek zamanla doğması, onu gelişen bir oluş olarak gösterir. (96:19)'daki eşik ve yaklaşma bu metafora ortaya çıkış yönü verir; bu bağlantıda üreme ve doğum görüntüsü, bu anlam hareketini açıklayan benzetme düzeyinde kalır.
+
+Rab adı, gökten inen ve yeniden dönen bir akışı görünür kılar. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için üst üste binmiş veya aşağıda asılı duran katmanlı bulut, {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} için üstte duran ve örten gök, {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için çiy ve yağmur, yüzeyde kalan ıslaklığı görünür kılar. {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} içindeki geç yağmur, önceki mevsim yağmurunu izleyen ayrı bir iniş; {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} içindeki geri dönen su ise çevrimsel bir akıştır. (96:1, 96:8), (96:13, 96:17)'deki yaratma, dönüş, karşıt cevap ve çağrı temaları, bu bulutun inen, dönen ve yeniden bereket taşıyan bir süreç olarak duyulmasını sağlar. Bu, Rab hitabına eklenen maddi bir bağlam görüntüsüdür.
+
+Yağmurun toprağı değiştirip canlılığa geçmesi, cömertliğin verilişten sonra da canlılık üreten akışını somutlaştırır. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için belirli bir yeşil bitki, {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:ibadet eden kul} için develerin otladığı silyan, {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğreten} için alışılmadık bir bitki adı ve {ar:كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ, tr:kallā la-in lam yantahi la-nasfaʿan bi-l-nāṣiya, gloss:perçemden yakalama tehdidi} için meradaki nasi bitkisi gibi dar adlandırmalar bu canlılığı ayrıntılandırır. {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} yağmur getirip toprağı verimli kılan niteliğiyle bunları üretken bir geçişte buluşturur. Her bitki adı kendi dar sahnesini korur; yağmur ve mera görüntüsü “en cömert” haberinin üretkenlik boyutunu somutlaştırır ve bu boyutla sınırlı kalır.
+
+Bu su görüntüsünün daha elle tutulur bir düzeni kuyuda kurulur. {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} için suyu tutan çukur veya yeni kuyu, bolluğun kaçmadan saklandığı yeri verir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için bol ve toplanmış su, {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için kuyudan suyu kaldıran asılı makara ve {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için kaldırılmış suyu taşıyan kırba, bolluğu üç işlemde görünür kılar: su tutulur, kaldırılır ve başkasına ulaştırılabilir hale gelir. (96:1, 96:2), (96:8, 96:19) bu düzeni okuma ile dönüş arasında bağlar; kuyu ve kırba, Rablik haberinin tutulma, kaldırılma ve ulaştırılma biçimini gösteren sınırlı görüntüdür.
+
+Bulut, kuyu ve mera görüntüleri birlikte su döngüsüyle okuma analojisini kurar. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için katmanlı bulut ve bolca toplanmış su, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için yağmurla verimli toprak, {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için toplama, {ar:كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ, tr:kallā inna al-insāna la-yaṭghā, gloss:insanın sınırı aşması} için sel gibi yükselip sınırı aşan güç ve {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için taşınabilir su kabı aynı devrede buluşur. Okuma, bolluğu toplama, salma ve kaynağına geri döndürme hareketi içinde dolaştıran bir eylem gibi duyulur. (96:6, 96:8, 96:19)'daki taşma, dönüş ve yaklaşma bu devrenin sınırlarını gösterir; maddi dolaşım, bu bağlantıda cömertliğin nasıl verilip geri dönebildiğini açıklayan bir benzetmedir; ayetin sözlük anlamı yerinde kalır.
+
+Rab adının başka bir maddi yankısı, yoğun bir özün ısıyla hazırlanmasıdır. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için koyu meyve özü veya yağ tortusu, {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:ibadet eden kul} için ateş ve ısıyla temas, maddeyi döven taş ve güzel koku havanı görüntüleri bir araya gelir. Koyu malzeme ısı ve kuvvet altında hazırlanır, sert araçla ezilir ve sonunda koku taşıyan bir forma kavuşur. {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} ile {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} bu hazırlama ve dönüş hareketini kuşatır. Isı malzemeyi hazırlar, dövme onu ezer, yoğunluk koku taşıyan forma geçişi sağlar; bu maddi dönüşüm görüntüsü yerel “senin Rabbin” anlamına bağlamsal bir katman ekler.
+
+Kullanımdan aşınmaya ve oradan yeniden kullanıma giden bir başka çizgide {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} için yıpranmış kumaşın tüyü ve yüzeyi aşınır; {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için adım adım yetiştirme bu malzemeyi yeni bir biçime taşır; {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için geri dönen kalıntı yeniden devreye girer. {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğreten} için ayırt edici iz de önceki kullanımın üzerine yeni bir yön verir. (96:1, 96:4), (96:8, 96:14)'ün yaratma, kalem, dönüş ve görme temaları, Rab ilişkisini aşınan malzemenin onarılarak yeniden işe koşulduğu bir süreklilik olarak görünür kılar; bu, bağlamsal bir genişlemedir.
+
+## Bağ, Armağan ve Değer
+
+Bakım görüntüsü, savunmasız olanla onu tehdit eden gücü aynı sahnede tutar. {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-l-taqwā, gloss:takvayı emretme} içindeki küçük koyun veya kuzu korunmaya muhtaç genç hayvanı; {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} içindeki yaban sığırı sürüsü toplu ama savunmasız hayatı; {ar:ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ, tr:alladhī ʿallama bi-l-qalam, gloss:kalemle öğreten} içindeki erkek sırtlan ise sürü alanındaki yırtıcı tehdidi düşündürür. (96:1, 96:4), (96:8, 96:12, 96:14)'teki yaratma, öğretme, korunma ve görme bağlamlarıyla Rablik, savunmasız hayatı ve onu tehdit eden risk alanını birlikte yöneten bir bakım ilişkisi olarak duyulur. Yırtıcı sahnesi, bu bakım ilişkisi içinde cömertlik bildirimine eşlik eden sınırlı bir yankıdır.
+
+Bu bakımın besin tarafı, süt ve ikame edilmiş annelik görüntüsünde daha kırılgan hale gelir. {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için memede daha fazla sütü harekete geçiren süt kalıntısı, az bir izden devamlı beslenmeye geçişi gösterir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için bakımla kurulan üvey aile bağı, biyolojik olmayan fakat üstlenilmiş bir korumayı; {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için kabul eder gibi görünüp süt vermeyen dişi deve, bakım işaretinin içindeki esirgemeyi taşır. {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} için beklenen sürekliliği vermeyen süt, beklentinin boşa çıkabileceğini gösterir. (96:1, 96:2), (96:8, 96:13), (96:16, 96:17)'nin yaratma, ayrılma, dönüş ve karşı koyma temalarıyla bu görüntü, yetiştirmenin, devamı değişebilen bir kaynağı başkasına ulaştırma sorumluluğu olduğunu açar; sahiplik burada sabitlenmez.
+
+Yavru hayvan ve ayrılma görüntüsü bu bakımın zamanını uzatır. {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-l-taqwā, gloss:takvayı emretme} için kuzu, başlangıçtaki tazeliği ve korunmaya muhtaç gençliği; {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için yetiştirip tamamlama, küçük olandan gelişmiş olana geçişi taşır. {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} için yavrunun büyüklerden ayrılması, yetiştirmenin doğum anından sonra da sürdüğünü ve ayrılmanın da düzenlenmiş bir aşama olduğunu düşündürür (96:1, 96:8, 96:12, 96:13) bu sürekliliği taşır; ayrılma görüntüsü, Rab hitabının çevresinde bakımın başlangıçtan ayrılığa uzanan zaman biçimini gösterir; bu bağlantı bir aile tanımı kurmaz.
+
+Geçim ve taşınabilir azık, aynı sorumluluğu evin ve bedenin ihtiyacına indirir. {ar:سَنَدْعُ ٱلزَّبَانِيَةَ, tr:sanadʿu al-zabāniya, gloss:zorlayıcı görevlileri çağırma} için gerekli yiyecek payı, {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için kullanıma veya otlamaya hazır mera, {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için hayatı ancak sürdürmeye yeten azık ve {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için mal ile bakmakla yükümlü olunan kişiler aynı sahaya açılır. Okuma burada bilgi kapasitesini bedenin ve hanenin gerçek ihtiyacına bağlayan bir eylem gibi duyulur; ihtiyacı toplamak ve başkalarının geçimini üstlenmek bu maddi sorumluluk görüntüsünü kurar. (96:1, 96:2), (96:18, 96:19) bu maddi sorumluluk görüntüsünü taşır; bu bağlantı maddi sorumluluk sahasıyla sınırlı kalır ve “oku” emri yerinde durur.
+
+Bakım ve kefalet, birinin durumunu düzenli olarak üstlenme biçimidir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için bakımla kurulmuş üvey aile bağı, {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için mal ve bağımlılarla açılan sorumluluk sahası, {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzerinde bulunma} için kefalet veya birinin adına durma ve {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} için iş ve yetkiyi üstlenme anlamları birleşir. Bu, tek seferlik kurtarmadan sürekli koruyuculuğa geçen bir bakım düzenidir. Aynı ilişkinin koruyucu bakım yüzünde {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:an raʾāhu istaghnā, gloss:kendini yeterli sanma} için yeterli olma, ihtiyacı karşılama veya yerini tutma; {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-l-taqwā, gloss:takvayı emretme} için koruyucu engelle zararı dışarıda tutma görünür olur. (96:1, 96:7), (96:8, 96:11), (96:12, 96:13)'ün destek ve engel temaları, “senin Rabbin” sözünü eksikliği gideren ve güvenliği sürdüren bir ilişki olarak genişletir; bu genişleme cümledeki Rablik ilişkisinin çevresinde kurulan bağlam katmanıdır.
+
+Rablik, soy ve himaye sözleşmesi olarak da işitilebilir. {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için hak veya aidiyet iddiası, {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için bağlayıcı söz ve güvence, {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için akrabalık ve kan bağı, {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} için akrabalık, azatlılık ve komşuluk himayesi bir ilişkiyi bağlayıcı hale getirir. (96:1, 96:8), (96:13, 96:17, 96:19)'daki adlandırma, dönüş, meclis ve yaklaşma görüntüleriyle bu bağ miras alınabilen veya bilinçle üstlenilebilen bir güvence gibi duyulur. Bu nitelikli genişleme, “senin Rabbin” ifadesinin soy ve sözleşme görüntüleriyle ilişkisini açar; ifadeyi bu kelimelere indirgemez.
+
+{ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için armağan görüntüsü, cömertliği alıcısı ve yönü olan canlı bir aktarıma çevirir. Yakın kişiye gönderilen lütuf, birine tahsis edilen şey ve alıcının cevap vermesi ihtimali, {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzerinde bulunma}, {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} ve {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} ile karşılaşır. Verilen imkânın karşısında şükür, yöneliş ve dönüş sorumluluğu belirir. (100:6, 82:6)'daki kopuş ve sorumluluk uyarıları, (14:7, 56:74)'teki şükür ve övgü, (108:1)'de bolluk ardından kulluk ve (2:152)'de hatırlama-şükür çağrısı bu cevap çizgisini belirginleştirir. Buradaki karşılık, cömertlik haberinin içinde sınırlı bir yankı olarak duyulur; verenle alan arasında ticari bir hesap kurmaz.
+
+Bu armağan sahnesinin toplumsal aktarım yüzü evlilikte görünür. {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için karşılık bekleyerek sunma ve övgüyü ödüllendirme, {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzerinde bulunma} için eşine götürülen gelin, {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:an raʾāhu istaghnā, gloss:kendini yeterli sanma} için kocasının veya güzelliğinin desteğiyle kendini yeterli sayan kadın ve korunma sağlayan evlilik görüntüleriyle temas eder. Cömertlik, statü değişimi, yönlendirilme ve armağanla kurulan toplumsal devamlılık içinde duyulur. (96:7, 96:11) bu sahnenin bağımsız tetikleyicileridir; evlilik, olağan “en cömert” niteliğinin aktarım ve toplumsal dönüş boyutunu görünür kılan bağlamsal genişlemesidir.
+
+Değer verilen şeye tutunma ve onu yüceltme, cömertliğin başka bir yönünü açar. {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için sahibinin kopamadığı değerli şey, {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:ibadet eden kul} için onurlandırma ve yüceltme, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için üstün ve övgüye değer kişi, davranış veya seçkin varlık görüntülerine dönüşür. Yakın tutulan değer, sonra kamusal olarak onurlandırılan görünür bir bağlılık olur. (96:2, 96:10)'daki bağlı yaratılış ve ibadet sahneleri bu teması taşır; cömertlik niteliği bu ilişkinin zemini olarak kalır; tutunma ve yüceltme, onun açtığı sınırlı ilişkiyi görünür kılar.
+
+Bu bağlılığın boyunda görünen işareti de ayrı bir görüntüdür. {ar:سَنَدْعُ ٱلزَّبَانِيَةَ, tr:sanadʿu al-zabāniya, gloss:zorlayıcı görevlileri çağırma} için boyundan tutma noktası, bedensel kavrama ve denetimi; {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:ibadet eden kul} için onurlandırma; {ar:خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ, tr:khalaqa al-insāna min ʿalaq, gloss:insanın bağlı maddeden yaratılışı} için sahibinin tutunduğu değerli şey ve {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için boyna takılan kolye, bağlılığın anlamını taşıyan görünür süsü kurar. (96:2, 96:10, 96:18)'deki beden, ibadet ve karşı kuvvet temaları bu kolyeyi cömertlik haberine bağlar; kolye görüntüsü ayetin doğrudan nesnesi olarak değil, bağlılığın görünür işareti olarak bu bağlantıda yer alır.
+
+{ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} kelimesi, iyiliğin alıcıda büyüyerek berekete dönüşmesini de düşündürür. {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-l-taqwā, gloss:takvayı emretme} için büyüme ve bereket, verilen şeyin alıcıda çoğalmasını; {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için gereksinim, sıkı düğüm ve iyilik, ihtiyacın ve iyiliğin aynı biçimde yan yana bulunmasını; {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için cömertçe verme, bolluğun başkasına doğru hareketini taşır. Cömertlik bu sahnede ihtiyacı hafifleten ve başka bir varlığın geçimini mümkün kılan maddi rahatlama olarak duyulur. (96:1, 96:8), (96:12, 96:17) bu bereket katmanını taşır; ihtiyaç, düğüm ve iyilik anlamları aynı biçimde yan yana tutulur; bu temas bunlardan tek bir seçeneği dayatmaz.
+
+Bu değer düzeni insanın kamusal yeterlilik iddiasıyla karşılaşır. {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} için insanlara gösteriş yapma, {ar:ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ, tr:iqraʾ bi-smi rabbika alladhī khalaq, gloss:yaratan Rabbin adıyla okuma çerçevesi} için üstünlük yarışması ve yayılan iyi ün, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için iki kişinin eli açıklıkta birbirini geçmeye çalışması, iyiliğin tanınma ve rekabet baskısına maruz kalabileceğini gösterir. (96:1, 96:7), (96:9, 96:11, 96:13)'ün yaratma, kendine yeterlik, engelleme ve karşılaşma sahneleri bu kamusal iddianın ölçüsünü görünür kılar. (49:13)'te soy ve grup itibarının ötesindeki onur, (89:15)'te verilmiş onurun bir sınama oluşu, (92:8)'de kendini yeterli görme ve (35:15)'te insanın muhtaçlığı birlikte düşünüldüğünde, ilahi cömertlik insanın sonradan kurduğu statü ve yeterlilik yarışından önce belirir. Yarış imgesi burada eli açıklık ve onunla kurulan değer üstünlüğü sahasında kalır; cömertliğin diğer bağlarını bu görüntüye taşımaz.
+
+(49:13)'ün ayrı ve daha dar açılımında {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} kalıtsal statünün ötesindeki ilahi onur ölçüsünü görünür kılar. Değerin ölçüsü, miras alınmış konumdan önce gelen cömertliktir. Bu dar yankı, “en cömert” haberindeki onur ölçüsünü soy ve grup prestijinin önüne taşır; onur boyutu bu bağlantıyla sınırlıdır.
+
+## Karşılaşma ve Dönüş
+
+Rab adı, dönüşü yalnızca yön değiştirmekten ibaret bırakmayan bir yerleşme hareketi olarak da duyulabilir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için bir yerde kalıp sürme, {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için geri dönme veya geri gönderme, {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:an raʾāhu istaghnā, gloss:kendini yeterli sanma} için yerleşik mesken ve {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzerinde bulunma} için yer ve mevki görüntüsü birleşir. (96:1, 96:7), (96:8, 96:11)'deki başlangıç, varlık, kendine yeterlik ve dönüş ilişkileri, Rabbine dönmenin ilişkide kalınan bir yere varma yönünü açar. Bu yerleşme görüntüsü, Rab adının olağan anlamı içindeki dönüşün sürdürme boyutunu açar.
+
+Bolluk, burada sahiplenilip kapanan bir fazlalık olarak değil, kaynağına geri dönen bir akış olarak okunabilir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için artma veya yükselme, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için övgüye değer eli açıklık, {ar:كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ, tr:kallā inna al-insāna la-yaṭghā, gloss:insanın sınırı aşması} için yükselen ve süpüren su, {ar:أَن رَّءَاهُ ٱسْتَغْنَىٰٓ, tr:an raʾāhu istaghnā, gloss:kendini yeterli sanma} için bolluktan çıkarılan bağımsızlık sanısı ve {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için geri dönme veya geri gönderme aynı karşıtlıkta buluşur. (96:6, 96:7, 96:8)'deki taşma, kendine yeterlik ve dönüş, cömertliği doğru kaynağa atfedilerek geri döndürülen bir emanet olarak somutlaştırır. Su ve taşma görüntüsü, cömertliğin akış ve sorumluluk boyutunu canlı bir karşı okumayla açar; yerel “en cömert” niteliği bu bağlantının zemini olarak kalır.
+
+Bu dönüş sorumluluğu, öğrenme kapasitesinin gelişimsel sonuna kadar uzanır. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için adım adım yetiştirme, (96:8)'deki Rabbine dönüş ve (100:11)'de içte olanı bilen Rabb bağlamıyla birleşince okuma başlangıçta verilmiş bir imkândan, sonunda hesabı verilecek bir yetişme sürecine dönüşür. Nesnesi belirtilmemiş {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} emri (17:14)'te kişinin kendi kaydını okuması bağlamına değdiğinde, verilen bilgiyi seslendirmekle kalmayıp kendi eylemlerini onun ışığında okumaya açılır. (17:14) bağlamı, aynı nesnesiz emrin sorumlu alımlama yönünü görünür kılar; bu bağlantı emre yeni bir dilbilgisel nesne yüklemez. Gelişim ve öz-okuma, Rablik ve dönüş ilişkisinin içinde birlikte belirir.
+
+Bu karşılık dili bilmece ve cevap görüntüsünde daha küçük bir toplumsal alışverişe dönüşür. {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için hemen açılmayan bilmece gibi çağrı, {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} için dikkatle bakmaya ve soruşturmaya çağıran “görmedin mi” kalıbı, {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için önceki hitaba dönen cevap ve {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için memnuniyetle kabul veya saygı bildiren kalıp yanıt bir araya gelir. Emir, anlamanın toplumsal mesafeyi kapattığı bir cevap alışverişi gibi duyulur; bilmece görüntüsü burada cömertlik haberinin kendisi değil, onunla ilişkilenen toplumsal karşılık biçimidir.
+
+Selam ve karşılık da bu alışverişin başka bir biçimidir. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için kalıp sözle selam iletme ve dindar ya da bilgili okuyucu, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için kabul ve saygı bildiren yanıt, {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için de dönen cevapla temas eder. {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} içindeki dikkat çağrısı, sözün karşısındaki kişiyi de ilişkiye çeker. Böylece emir tek taraflı bir seslenişin yanında karşılık bekleyen zarif bir hitap gibi duyulur; selamlaşma görüntüsü okuma buyruğu ile “en cömert” bildirimini karşılık alanına açar.
+
+Adı konmuş Rablik, bu hitabın egemenlik ile hizmeti aynı ilişkide toplamasını sağlar. Rahmetle başlayan adlandırma olan {ar:بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ, tr:bismillāhi al-raḥmāni al-raḥīm, gloss:rahmetle başlayan adlandırma} ibadet ve ibadet edileni, yemin ve yakarışlarda sabit Allah adını taşır. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} sahip olup yönetme; {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:ibadet eden kul} yakarış, övgü, merhamet, ibadet ve boyun eğen itaat; {ar:أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ, tr:a-lam yaʿlam bi-anna Allāha yarā, gloss:Allah'ın gördüğünü bilme} ilahi görme ve hesap; {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} ise geri dönülebilir bir son taşır. (96:0, 96:1), (96:8, 96:10, 96:14)'ün yanı sıra rahmetle başlayan adlandırma, ibadet ve dönüş bağlamları düşünüldüğünde, “senin Rabbin” sözü insanın ibadetle verdiği cevabı kuşatan adı konmuş bir egemenlik olarak derinleşir. Bu ilişki, olağan Rab anlamını koruyan nitelikli bir bağlamsal okumadır.
+
+Bu bağın maddi ve toplumsal devamlılığı evlilik aktarımıyla birleştiğinde, armağan statü değişimini taşır; soy, himaye ve sözleşme görüntüsü de bu aktarımın kalıcı bir güvence aradığını gösterir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için bağlayıcı söz, {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için büyük insan topluluğu ve aidiyet iddiası, {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için kan bağı, {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} için akrabalık, azatlılık ve komşuluk velayeti bir araya gelir. (96:1, 96:8), (96:13, 96:17, 96:19)'un adlandırma, dönüş, meclis ve yaklaşma temalarıyla Rablik, yukarıdan gelen bir ad olmanın yanında miras alınabilen veya bilinçle üstlenilebilen bir bağlılık gibi duyulur. Sözleşme ve soy görüntüsü bu bağlılığın sınırlarını anlatır; bu bağlılık görüntüsü temel cümledeki Rabbin cömertliğine bağlanır.
+
+## Ses, Çağrı, Beden
+
+Okuma, belirli bir örüntü içinde yükselen ve iki taraf arasında değiş tokuş edilen söz yolu gibi de duyulabilir. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için vaktin gelmesi veya gecikmesi, yöntem ve yönelmiş yol, şiirsel örüntü veya tarz; {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için yükseltilmiş ses ve çağrı; {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzerinde bulunma} için şiir sunma veya karşılıklı şiirleşme görüntüleriyle buluşur. (96:1, 96:11, 96:17)'deki emir, karşılaşma ve kamusal ses bu biçimi destekler. Ritim ve karşılıklı söz, “oku” emrinin sesli ve biçimli eylem boyutunu açar; bu bağlantı ayrı bir tür hükmü kurmaz.
+
+Toplama basıncı bu kez kamusal çağrıya dönüşür. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için parçaları ve sözü bir araya getirme, {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için sesle yaklaştırma çağrısı, büyük insan topluluğu ve uzaklara taşınan yükseltilmiş ses bir araya gelir. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için büyük topluluk ve yönetme yetkisi, {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için çağrının sonunda hesaba dönen yön belirir. (96:1, 96:8, 96:17)'nin bağlamında emir, izole dinleyiciye içerik iletme işleviyle birlikte çekişmeli bir ortamda topluluk kuran kamusal bir ses gibi duyulur. Bu görüntü, okumanın yerel anlamını koruyan nitelikli bir çağrı katmanıdır.
+
+Rakip meclise karşı çağrı bu toplumsal sesi somut bir kuvvetle karşılaştırır. {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} ve {ar:سَنَدْعُ ٱلزَّبَانِيَةَ, tr:sanadʿu al-zabāniya, gloss:zorlayıcı görevlileri çağırma} için sesle veya sözle yaklaştırılan topluluk ve zorlayıcı görevlilerin çağrısı; {ar:كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ, tr:kallā la-in lam yantahi la-nasfaʿan bi-l-nāṣiya, gloss:perçemden yakalama tehdidi} için perçemden yakalama, itme ve engellemeyi kıran karşı kuvvet görünür olur. Meclis toplanmış rakip toplumsal bedeni, perçem ise çatışmayı bedenin savunmasız ön kısmına yerleştirir. (96:15, 96:17, 96:18)'deki yakalama, meclis ve karşı çağrı sahneleri, “oku” emrinin karşısında somut bir kamusal güç gösterir; bu güç ayetin başındaki okuma ve cömertlik bildirimine karşıt sahnede yer alır.
+
+Okumayı engelleyen bedensel ve toplumsal baskı, akciğer ve salgın sahnesinde başka bir kırılganlık görüntüsü kazanır. {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} için akciğer ve onun hastalanması, {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için varıştan sonra ortaya çıkan yerel salgın, {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzerinde bulunma} için donuk, zayıf ve ağır kimse, {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-l-taqwā, gloss:takvayı emretme} için kendini korunma altına alma görüntüleri bir araya gelir. (96:1, 96:7), (96:9, 96:11), (96:12, 96:13)'ün yaratma, kendine yeterlik, engelleme ve korunma bağlamları, görünmeyen kırılganlığın bedensel belirtiye, oradan korunma ihtiyacına ilerlemesini düşündürür. Akciğer, salgın ve tedbir görüntüsü, gizli zayıflığı görünür kılan sınırlı bir bağlam katmanıdır; “oku” emrinin doğrudan anlamı bu katmanın zemini olarak kalır.
+
+Çekişme altında bedensel rehberlik, bu emrin sürdürülmüş ve başkalarına yönelen biçimini açar. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} sahip olup yönetme yetkisini; {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:ibadet eden kul} bedensel ve iradi boyun eğen itaati; {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} sesli iletişimi; {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} kısıtlama ve yasaklamayı; {ar:أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ, tr:araʾayta in kāna ʿalā al-hudā, gloss:hidayet üzerinde bulunma} yola ve hakikate işaret etmeyi; {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-l-taqwā, gloss:takvayı emretme} ise isteği bağlayıcı buyruğa ve zararı dışarıda tutan koruyucu engele taşır. (96:9, 96:10), (96:11, 96:12)'deki karşıtlık, başka bir otoritenin durdurma girişimi altında bile rehberliğin sürdüğünü görünür kılar; okuma buyruğu bu bedensel ve yönlendirici yankıda süreklilik kazanır.
+
+Okurun kendisi de okunan sahaya dahil olur. {ar:أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ, tr:a-lam yaʿlam bi-anna Allāha yarā, gloss:Allah'ın gördüğünü bilme} içindeki ibadet ve ibadet edilen yönü, görme ve kavrayışın yalnız dışarıya bakmadığını; bakmak isteyen kişiyi de gözlenen biri yaptığını düşündürür. {ar:أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ, tr:araʾayta alladhī yanhā, gloss:okumayı engelleyen kişiyi gördün mü} dikkatle bakmaya çağırır; {ar:أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ, tr:araʾayta in kadhdhaba wa-tawallā, gloss:yalanlama ve geri dönme} için hakikati yalanlama başarısız bir okuma, arkasını dönme ise kanıt ve hitaptan kaçıştır. (96:9, 96:13, 96:14)'ün engelleme, dönüş ve ilahi görme bağlamlarıyla, {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} dışarıdan anlam çözen kişiyi aynı zamanda görülen ve hesabı sorulan tanığa dönüştürür. Okuma burada okurun da görülen ve hesabı sorulan tanık olduğunu açığa çıkarır; sahnenin dışında kalan güvenli konum sürmez.
+
+Bu karşılaşmanın beden üzerindeki yükü, cömertlik niteliğini karın, yan, sırt ve kalça boyunca izlenen bir ağrı haritasına da açar. {ar:عَبْدًا إِذَا صَلَّىٰٓ, tr:ʿabdan idhā ṣallā, gloss:ibadet eden kul} için sırtın arka yanı, {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için bedenin yan tarafı, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için uyluk kemiğinin kalça yuvasındaki yuvarlak başı, {ar:كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ, tr:kallā la-in lam yantahi la-nasfaʿan bi-l-nāṣiya, gloss:perçemden yakalama tehdidi} için rahatsız edici karın sancısı ve {ar:أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ, tr:aw amara bi-l-taqwā, gloss:takvayı emretme} için tırnak ağrısı yüzünden sakınarak yürüme görünür olur. (96:10, 96:12), (96:15, 96:19)'daki ibadet, yasak, yakalama ve yaklaşma temaları, soyut niteliği yükün yerleştiği, hareketin de bu yükle başa çıktığı bedensel bir düzende görünür kılar. Bu beden haritası, “en cömert” haberine eklenen sınırlı bir yük ve hareket görüntüsüdür.
+
+Son olarak okuma, bedensel bir yoldan yakınlığa ilerleyen disiplin gibi de duyulur. {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için alçalma ve tevazu, engelleyici buyruğa hizalanmayı bırakma, Tanrı'ya sunu yoluyla yaklaşma ve yakınlığı güzergâhın sonuna koyma yönleri açılır. {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} için dindar veya bilgili okuyucu ve yöntem, bu hareketin yalnız bilgi biriktiren teknik değil, belirli bir usulle sürdürülen bir karşılaşma olmasını düşündürür. (96:19)'daki reddetme, secde ve yaklaşma vektörü okuma emrini bedensel tevazu ve ilişki içindeki yakınlık yönünde tamamlar.
+
+İlk hitap ile sonradan gelen cevaplar arasında bir armağan asimetrisi de belirir. {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için karşılık bekleyerek sunma, {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için bağlayıcı söz ve güvence, {ar:إِنَّ إِلَىٰ رَبِّكَ ٱلرُّجْعَىٰٓ, tr:inna ilā rabbika al-rujʿā, gloss:Rabbe dönüş} için önceki hitaba dönen cevap, {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} için toplumsal hediye ekonomisi, {ar:كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩, tr:kallā lā tuṭiʿhu wa-sjud wa-qtarib, gloss:itaat etmeme secde ve yaklaşma} için de verenle alanı eşitlemeden sunuyla yaklaşma görüntüsü taşır. Okuma, önce verilen hitap ve kapasiteye selam, söz ve yaklaşmayla dönen canlı bir ilişki gibi işitilir. Bu dönüşte veren ile alan arasındaki yön korunur; ilişki ticari bir eşitlik kurmaz.
+
+İkinci {ar:ٱقْرَأْ, tr:iqraʾ, gloss:oku/tilavet et} bu armağan zemininde yenilenmiş bir alımlama ve söyleme çağrısı gibi duyulur. İlk emrin toplama ve sözü tilavet halinde bir araya getirme yönü, (75:17)'deki toplanmış vahiy ve (55:2)'deki öğretim bağlamıyla buluşur. İkinci emir, verilmiş imkânı yeniden derleyip seslendiren bir karşılık olarak yaşanabilir; bu yüzden ilk emrin mekanik bir tekrarı olarak kalmaz. {ar:رَبُّكَ, tr:rabbuka, gloss:senin Rabbin} için yetki ve öğretme, {ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} için soyun ötesindeki onur, bağımlılık sonrası övgü, insanın kendini yeterli sanması ve muhtaçlığı bu yenilenmiş sesi çerçeveler. Aynı ikinci emir, (96:1, 96:2)'deki yaratılış ve bağlı başlangıçtan sonra “ikinci toplama” olarak da duyulabilir: köken fark edildikten sonra anlam yeniden düzenlenip seslendirilir. Toplama ve tilavet görüntüleri bu ikinci gelişin nasıl yenilendiğini aydınlatır; olağan “oku” emri bu bağlantının dilsel zemini olarak kalır.
+
+{ar:ٱلْأَكْرَمُ, tr:al-akramu, gloss:en cömert} başlangıçtaki öğretim armağanından (96:17, 96:18)'deki iki çağrı sahnesine uzanır. İnsan tarafı {ar:فَلْيَدْعُ نَادِيَهُۥ, tr:fal-yadʿu nādiyahu, gloss:meclisini çağırsın} ile kendi meclisini çağırırken ilahi taraf {ar:سَنَدْعُ ٱلزَّبَانِيَةَ, tr:sanadʿu al-zabāniya, gloss:zorlayıcı görevlileri çağırma} ile uzaklaştırıcı görevlileri çağırır. “En cömert” adı burada insanın karşı çağrısı ile önceki ilahi armağan ve buyruk arasındaki asimetrik yetke farkını görünür kılar. İnsan meclisinin çağrısı ile ilahi görevlilerin çağrısı arasındaki fark, cömertlik bildirimini insanın kurduğu kamusal kuvvetle eşitlenmeyen bir yetke çerçevesinde sonlandırır.
+
+</source_prose>

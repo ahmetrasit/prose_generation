@@ -1,0 +1,461 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **90:19**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s090-regular-20260912/s090/90_19/90_19.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `90:19 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(90:19 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s090-regular-20260912/s090/90_19/90_19.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s090-regular-20260912/s090/90_19/90_19.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s090-regular-20260912/s090/90_19/90_19.prose.middle.tr.md \
+  --ayah-ref 90:19
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s090-regular-20260912/s090/90_19/90_19.prose.editorial.tr.md`
+
+<source_prose>
+## Hükmün Kuruluşu
+
+Bu âyet, ayetlerimizi inkâr edenlerin sol tarafın insanları olduğunu bildirir. İlk bakışta yaptığı iş, bir topluluğu davranışıyla tanımlayıp ona bir hüküm adı vermektir. {ar:وَ, tr:wa, gloss:ve} (90:18)'deki sağ taraf hükmüne bağlanır; sıradan bağlama görevi sürerken iki yan başlığını yan yana getirerek karşıt düzeni duyurur. {ar:ٱلَّذِينَ, tr:ellezîne, gloss:o kimseler ki} bilinen bir grubu gösterir, ardından o grubun hangi davranışla tanımlandığını açar: {ar:كَفَرُوا۟ بِـَٔايَٰتِنَا, tr:keferû bi-âyâtinâ, gloss:ayetlerimizi inkâr edenler}. Böylece (90:18)'deki kısa gösterme biçimi burada ölçütü açıklayan, daha kanıtlayıcı bir sunuma dönüşür; sol taraf adı tek başına bırakılmaz, kime ve hangi eylem üzerine verildiği görünür. Çoğul biçimler hükmü soyut bir inkâr fikrinden çıkarıp kendi eylemiyle sorumluluk taşıyan bir topluluğa bağlar.
+
+Fiilin tamamlanmış çoğul biçimi olan {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler}, başlık gelmeden önce gerçekleşmiş ortak bir tutumu duyurur. Bu birinci bâb fiil, doğrudan grubun yaptığı reddi taşır; başkasına inkâr ettirme ya da reddi yoğunlaştırma anlamı bu bağlantının parçası değildir. Yanındaki {ar:بِـ, tr:bi-, gloss:ile ve -e bağlayan edat} suçlamayı belirsiz bir inkâr olmaktan çıkarıp belirli bir alana yöneltir. {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} ile birlikte kurulan bu edatlı yapı, yazıda iki unsur gibi görünse de anlam bakımından tek bir tümleçtir: reddin nesnesi ve fiilin temas noktası aynı yerde toplanır. Bu yakınlık, inkârı delilden uzak bir zihinsel tavırdan ziyade delilin hemen yanında kurulan bir karşı koyuş gibi duyurur; sözdizimsel basınç burada maddi bir örtme sahnesi değil, reddin nesnesine bitişik kurulmuş karşı koyuşun anlam etkisidir.
+
+{ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} fiilin yöneldiği çoğul nesnedir ve davranıştan son hükme geçişi taşır. Âyetleri, delilleri, harikaları ve bir şeyi tanıtan okunabilir göstergeleri aynı işaret alanında buluşturur. İşaret adının ufuklarda ve insanın kendi içinde görülen açıklayıcı belirtileri hatırlatan genişliği, burada reddedilen nesnenin kapsamını belirler. Sonundaki birinci çoğul kişi eki, bunları anonim veriler olarak değil, konuşanın sunduğu ve sahipliğinde bulunan açıklamalar olarak gösterir. Bu yüzden işaretler hâlâ mevcut ve açıklayıcıdır; cümle, birkaç görünür delilin aynı reddin içinde hedef alınmasını kurar. Aynı kelime için kaynaklarda aktarılan dönüş ve sığınak ilişkisi, bu cümlede işaret adının açık görevine eklenen ihtilaflı ve sınırlı bir yankı olarak kalır; bağımsız bir sahne kurmaz. İşaretlerin reddedilmesinden sonra gelen arkadaşlık başı da cümleyi davranıştan hükme ilerleyen bir düzene sokar.
+
+İşaretleri inkâr eden topluluk, hükme geçilmeden hemen önce {ar:هُمْ, tr:hum, gloss:onlar} zamiriyle yeniden göz önüne getirilir. Bu kısa unsur suçlama ile sonuç arasındaki kimlik menteşesidir: az önce tanımlanan kişiler, biraz sonra gelecek adlandırmanın taşıyıcısıdır. Çoğul zamir, {ar:ٱلَّذِينَ, tr:ellezîne, gloss:o kimseler ki} ile başlayan çoğulluğu fiilden son başlığa kadar kesintisiz taşır. Ses bakımından da bu kısa durak, açık arkadaşlık başından önce hükmü bir an belirginleştirir; katkısı yereldir ve gramerin kurduğu menteşeyi destekler.
+
+{ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} zamirden sonra gelen isim cümlesinin yüklem başıdır ve kendisinden sonraki tamlamayı yönetir. Sıradan yakınlık ve eşlik anlamı, son ad alanıyla birleştiğinde geçici bir karşılaşmadan çok süreğen bir mensubiyet duyurur. Kırık çoğul biçim tek bir arkadaşın değil, aynı ad altında toplanan bir sınıfın adını kurar. (90:18)'deki ortak baş, iki hükmü aynı mimari içinde tutar; değişen son unsur ise kutbu ve değeri belirler. Böylece arkadaşlar ifadesi, işaretlerin reddedilmesinden kopuk bir isim değil, az önce anlatılan davranışın vardığı hüküm olarak duyulur.
+
+Son tamlayan olan {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} belirli dişil tekil biçimiyle başlığı tanınabilir bir alana bağlar: sağın karşısındaki sol yan, uğursuzluğu, kötü talihi ve olumsuz payı aynı adlandırmada toplar. Arkadaşlık başı bu alanı grubun süreğen mensubiyeti olarak etkinleştirir; son alanın kötü talih içeriği de bu mensubiyet içinde grubun üzerine kapanan bir alan gibi duyulur. 56:9'daki sol taraftakiler ve 69:25'te kitabı sol elinden alan kişiyle ilgili sahneler, bu son adın sol kutup ve olumsuz pay çağrışımlarını hatırlatabilir; bu iki sahne burada sınırlı yankı olarak kalır ve mevcut tamlamanın bütün anlatılarını taşımaz. Kelimenin son konumu ve seyrek kullanımı kapanışı alışılmış bir ceza sözünden ayrılan belirgin bir başlıkla yoğunlaştırır. Hemzeli ve şeddeli okuyuşların ses dokusu içten kırılmış ya da sıkışmış bir kapanış hissi verebilir; okuyuş değişse de sol taraf ve olumsuzluk hükmü yerinde kalır. Bu ses ve sonluk vurgusu âyet içindeki kapanışı belirginleştirir; kapsamı bu kapanışla sınırlıdır ve tek başına bütün sûrenin anlamını taşımaz.
+
+## İşaretle Karşılaşma
+
+Aynı kelimelerin birbirine değmesi, açık sınıflandırmanın içinde işaretleri örten ve grubu sola bağlayan yerel bir süreç görüntüsü kurar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} dinî gerçeği reddetme anlamını taşır ve görünür olanı örten, kapalı duruma getiren yönüyle {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} kelimesine bağlanır. İşaretler bu temasta yalnızca adı verilmiş âyetler değil, insanı yönlendiren mevcut belirtiler olarak iş görür; inkâr, onları yok eden bir güçten ziyade olması gereken yönü kapatan etkin bir tavır gibi görünür. {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} bu eylemi geçici bir karardan kalıcı bir yakınlığa çevirir, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise bu birlikteliğe yön verir. Böylece grup, işaretleri örten bir süreç içinde sola bağlanmış olarak duyulur. Sözdizimsel yakınlığın taşıdığı örtme rengi, bu yerel bağlantıda fiziksel bir sahne kurmadan hükmü derinleştirir.
+
+İşaret adı, somut bir bakım talebine yön veren görünür açıklamalar olarak çalışabilir. {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} içindeki işaret adı, (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek}, (90:14)'teki {ar:إِطْعَٰمٌ, tr:iṭʿâmun, gloss:besleme} ve (90:17)'deki {ar:ٱلْمَرْحَمَةِ, tr:el-merḥameti, gloss:merhamet} ile temas ettiğinde üç bakım katkısını bir araya getirir: fekku başka birinin hâlini özgürleştirmeyi, iṭʿâmun doyurmayı, merḥameti ise merhametle düzeltmeyi düşündürür. Bu üç hareket, inkârı cevaplanabilir bir talebi örten bir hareket olarak hissettirir; cümlenin düz anlamındaki işaret reddi böylece pratik sonucu olan bir açıklamanın reddine doğru genişler. Bu bağlantının kapsamı, işaretlerle bakım eylemleri arasındaki yön gösterme ilişkisidir; işaret kelimesinin her sözlük dalını veya çevredeki her eylemi tek bir sisteme dönüştürmez.
+
+İşaret-kaynak teması, alınmış bir iyiliğin değerini örtüp şükrünü yerine getirmeme yönünü düşündürebilir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} bu bağlamda nimet yadsıma rengini alırken, {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} alınmış kaynağı ve onun görünür talebini taşır. (90:6)'daki tükenmiş veya üst üste yığılmış servet söylemi kaynağın bir yüzünü, (90:14)'teki açlık içinde besleme ise karşılanması gereken bakım talebini gösterir. Bu iki ayrıntı bir araya geldiğinde, elde edileni ihtiyaç içindeki başkasına ulaştırıp ulaştırmadığı sorusu ve iyiliğin dışarıya, karşılık bekleyen kişiye geçmesi gereken akışın kesildiği görüntü belirir. Bu, işaret inkârının yanına eklenen sınırlı bir nankörlük ve aktarım okumasıdır. Kaynağın başka bir yere harcanmış olma ihtimali bu bağlantıda açık kalır; bu yüzden eleştiri zorunlu olarak istiflemeye veya tek bir uğursuzluk sebebine bağlanmaz. Açık sol taraf hükmü ve onun ihtiyatı korunur.
+
+Kelime buluşması, ortak reddin topluluğu aynı ad altında nasıl topladığını görünür kılar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} belirli bir bağdan uzaklaşma rengini taşır; {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} bu uzaklaşmanın çevresinde oluşan ortaklığı görünür kılar. Aynı reddin tekrarı, süreğen eşliği sosyal bir tutkal gibi kurar; {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} da bu beraberliğin sol ve olumsuz yönünü verir. Böylece inkâr, hazır bir sınıfın yalnızca belirtisi olmaktan çıkıp o sınıfı sürekli biçimde oluşturan bir bağ olarak görünür. Bu okuma, taraf adlarının önceden verilmiş sınıflandırmalar olduğu ve önceki pratiklerin yalnızca üyeleri belirlediği ihtimalini de açık bırakır.
+
+## Güçlüğün İçinden
+
+Yakın bölümün güçlük sahnesi, bu ortaklığın yönünü bir geçit arazisi olarak renklendirir. (90:11)'deki {ar:ٱقْتَحَمَ, tr:iktaḥame, gloss:güçlüğe daldı} güçlüğün içine atılmayı ve insanın içine sürüklendiği tehlikeli yeri; (90:12)'deki {ar:ٱلْعَقَبَةَ, tr:el-akabe, gloss:sarp geçit} çıkılması güç, öne çıkmış kayayı veya geçidi; (90:17)'deki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:dayanma} ise kolay kaçışı olmayan ağır sıkıntı altında sürmeyi duyurur. Odaktaki {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ayetleri reddeden düz anlamını taşır; bu fiil için aktarılan örtülü geçit ve dağlar arasındaki geçit baskısı, bu üç ayrı zeminle birleşince reddeden topluluğu bir geçidin eşiğinde gösterir. Önceki âyetlerdeki ahlaki güçlük üzerinde ilerlenen araziye, sol taraf da geçilmesi zor yöne dönüşür. Bu geçit görüntüsü (90:11, 90:12, 90:17) bağlamında kurulan bir okumadır; ayetleri inkâr edenlerin sol tarafın insanları olduğu ana hüküm bu bağlantı içinde korunur.
+
+Taraf adları, bu arazi görüntüsünün ardından sonuca doğru işleyen yön levhaları gibi çalışır. {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} bir belirtiyi, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} iyi talihin karşıtı olan yönü taşır; (90:18)'deki {ar:ٱلْمَيْمَنَةِ, tr:el-meymeneti, gloss:sağ taraf} bereket ve iyi talih kutbunu kurar. (90:11)'deki geçit sözüyle birlikte düşünüldüğünde, güçlüğün ardından hangi sonuca varıldığı tarafların yön duygusuyla hissedilir. Sol taraf böylece hem kimlerin bir sınıfa konduğunu hem de o sınıfın hangi olumsuz yöne doğru yerleştiğini düşündürür. Bu ileriye dönük temas, işaret ve uğursuzluk çekirdeklerini sağ-sol karşıtlığı içinde tutar; bu bağlantının kapsamı yön duygusudur ve ana hükmü bağımsız bir kehanete taşımaz.
+
+İşaret kelimesi, tanınması geciken bir eşiğin basıncını taşıyabilir. {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} yakın olduğu hâlde henüz tanınmayan bir açıklık noktası gibi duyulur. (90:13)'teki {ar:رَقَبَةٍ, tr:rakabe, gloss:boyun} beklenen gelişe dikkat kesilen duruşu, (90:15)'teki {ar:مَقْرَبَةٍ, tr:makrabe, gloss:yakınlık} tamamlanmaya yaklaşan zamanı, {ar:يَتِيمًا, tr:yetîmen, gloss:yetim} ise bakımın ya da hareketin yavaşlamasıyla ağırlaşan kırılganlığı aynı alana bağlar. Bu üç ayrıntı birlikte, inkâr edilen işareti reddedilmiş bir nesnenin yanında yakında belirecek veya karşılanacak bir talep gibi duyurur. Bu bağlantıda işaret adı zaman kelimesi hâline gelmez; asli işaret anlamı korunur, gecikme görüntüsü (90:13, 90:15) içindeki bir yankı olarak ona eklenir.
+
+Bekleyişin ardından geri çekilme görüntüsü, aynı reddin temas kesen bir karşılığını sunabilir. (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek} ayrılma imkânını, yanındaki {ar:رَقَبَةٍ, tr:rakabe, gloss:boyun} korunmuş bir mesafeyi taşır. (90:11, 90:12)'deki {ar:ٱلْعَقَبَةَ, tr:el-akabe, gloss:sarp geçit} zorlu eşiğin, hatta topuk üzerinde dönülen geri dönüş noktasının görüntüsünü; (90:20)'deki {ar:نَارٌ, tr:nârun, gloss:ateş} ise kaçınma ve ürkme havasını verir. Bu ayrıntılar bir araya geldiğinde {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ayetleri reddeden düz anlamını korurken, kurulmuş bir itaati itaatsizliğe çeviren ve zorlanan ilişkiden geri çekilen bir hareket de sezdirir. Bu bağlantı isteyerek veya zorlanarak gerçekleşen tek bir nedeni seçmez; geri çekilme görüntüsü (90:11, 90:12, 90:13, 90:20) içinde tamamlanır.
+
+Yakın çevrenin bir başka katkısı, örtmeyi bir bitkinin büyüme döngüsündeki geç aşamayla buluşturmasıdır. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:dayanma} âyetteki sabır ve dayanma anlamını korur; aynı yüzey için ayrıca aktarılan ekşi meyve baskısı, meyve veren bir oluşumun başka bir ayrıntısını açar. {ar:ٱلْعَقَبَةَ, tr:el-akabe, gloss:sarp geçit} (90:11, 90:12) bağlamında kuruyarak geride kalan izi ve sararan gövdeyi, {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ise gelişen çiçek veya meyveyi dıştan kaplayan bitkisel kılıfı düşündürür. Bu ayrıntılar, meyveye yaklaşan hayatın sararıp kuruması ve geride iz bırakması üzerinden ayetleri örtmeyi tanınmadan önce kapanan bir imkân gibi gösterir. Bu bitki kılıfı, fiilin açık inkâr anlamının yanında duran biçimden uzak bir mecazdır; bu bağlantı her işaretin gerçek anlamda tohum veya meyve olduğunu ileri sürmez.
+
+İşaretlerin yön duygusu, soyut bir reddin somut toplumsal eylemlerden uzak durma biçimini görünür kılabilir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} odakta reddi, {ar:ءَايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} üzeri örtülen göstergeleri, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} bu örtmenin vardığı yönü kurar. (90:11, 90:12)'deki {ar:ٱقْتَحَمَ ٱلْعَقَبَةَ, tr:iktaḥame el-akabe, gloss:sarp geçide dalmak} bedeli olan eşiği, (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek} kapalı olanı serbest bırakmayı, (90:14)'teki {ar:إِطْعَٰمٌ, tr:iṭʿâmun, gloss:besleme} ve (90:16)'daki {ar:مَتْرَبَةٍ, tr:matrabe, gloss:toprak ve toz} ise işaretlerin yöneldiği somut ihtiyacı görünür kılar. Bu dört ayrıntı, sol tarafı salıverme ve besleme gibi bedeli olan eylemlerin işaretleri örtüldükten sonra oluşan yön olarak duyurur. Bu ilişkinin kapsamı, çevredeki eylemlerle kurulmuş atfedilmiş bir bağdır; ana ayetin inkârını tek başına tanımlayan yeni bir sözlük hükmü kurmaz.
+
+Sol taraf adı, başa gelen bir sonuç kadar insanların birbirine dönük ilişkilerinde oluşan bir durumu da düşündürebilir. (90:14)'teki açlık ve tükeniş, (90:15)'te bakım veren bağından kopmuş yetim, (90:16)'da aşağılanmış yoksul ve toprağa yapışmış yoksulluk, bu son ada maddi yüzler verir. {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} bu yüzleri aynı olumsuz alanda toplar; {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} onlarla geçici değil devamlı bir ilişkiyi, {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} ise görünür ihtiyacın bağlayıcı talep hâline gelmesini reddeden örtmeyi anlatır. Böylece ihtiyacı örten topluluğun açlık, kopmuş bakım ve toprak yoksulluğunun sürmesine yardım ettiği bir sosyal görüntü belirir. Son kelimenin kendi hükmünü adlandırması ve bu bağlantıda başkalarının zararında etkenlik taşımaması da canlıdır; bu bağın gücü ihtiyatlıdır. Bu sınır başka okumaları geçersiz kılmaz. Sol taraf sınıflandırması sabit kalır.
+
+{ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} kelimesi burada pratikle oluşan toplulukları karşılaştıran süreğen eşlik alanını görünür kılar. (90:17)'de iki kez geçen {ar:تَوَاصَوْا, tr:tevâsav, gloss:birbirine öğüt verdiler} karşılıklı alışverişi, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:dayanma} sürekliliği, {ar:ٱلْمَرْحَمَةِ, tr:el-merḥameti, gloss:merhamet} ise ihtiyaç sahibine dönük yumuşak gücü taşır; (90:18)'deki {ar:أَصْحَٰبُ ٱلْمَيْمَنَةِ, tr:ashâbu el-meymeneti, gloss:sağ tarafın arkadaşları} bu pratiğin kurduğu beraberliği gösterir. Odaktaki {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} belirli bir bağın dışında kalmayı, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise bunun karşılığındaki beraberliğin yönünü taşır; aynı {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} kelimesi iki tarafı ortak bir eşlik yapısında buluşturur. Böylece bir taraf karşılıklı sabır ve merhametle, diğeri ortak bir uzaklaşmayla biçimlenen sosyal oluşumlar olarak okunabilir. Bu sosyal oluşum görüntüsü bu bağlantıyla sınırlıdır: kelimenin iki sabit nüfusun adı olarak okunmasını, taraf adlarının sonradan verilmiş sınıflandırmalar olmasını ve önceki pratiklerin yalnızca üyeleri belirlemesini dışlamaz; ana cümlenin sınıflandırması yerinde kalır.
+
+## Yakınlık ve Kapanma
+
+Örtme eylemine maddi karşılığı (90:20)'deki {ar:نَارٌ, tr:nârun, gloss:ateş} çevreleyen ortam ve {ar:مُّؤْصَدَةٌ, tr:muʾṣade, gloss:sıkıca kapanmış} içeridekilerin üstüne kapanan mühürlü çevre verir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} düzlemde gerçeği reddetmeyi, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} grubun devamlı beraberliğini, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise bu beraberliğin niteliğini taşır. Bu katkılar temas edince önce durum adı olan sol taraf arkadaşlığı, sonra örtme eylemine cevap veren ateş ve kapanma görüntüsüne dönüşür: örtenler kapanmanın altında kalanlar olur. Bu bağ, (90:20)'deki cümleyi odaktaki örtme hareketine cevap veren bir sonuç gibi duyurur; bu tersine dönüş bu bağlantının bağlamsal karşılığıdır, kapanmanın yalnızca cezayı yoğunlaştırdığı karşı okuma da yerini korur.
+
+Keşifsel tohum görüntüsü, aynı örtmeyi toprağa gömülen bir işaret tohumu olarak açar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} burada çiftçinin tohumu örten hareketini düşündürür; {ar:َٔايَٰتِنَا, tr:âyâtinâ, gloss:ayetlerimiz} tanınması gereken belirtiyi taşır. (90:13)'teki {ar:فَكُّ, tr:fekku, gloss:bağı çözmek} serbest kalma imkânını, (90:14)'teki {ar:إِطْعَٰمٌ, tr:iṭʿâmun, gloss:besleme} verimli sonucu, (90:16)'daki {ar:مَتْرَبَةٍ, tr:matrabe, gloss:toprak ve toz} ise potansiyelin gömüldüğü zemini kurar. Bu üç ayrıntı birlikte, işaretlerin tanınması, serbest bırakılması ve beslemeye dönüşmesi mümkünken üzeri örtülen tohumlar gibi görünmesini sağlar; inkâr, bu imkânın yüzeye çıkmadan yer altında tutulmasıdır. Bu tarımsal görüntü fiilin biçiminden uzak bir mecaz olarak bu bağlantıda kalır; her işaretin gerçek anlamda tohum olduğunu söylemez ve açık inkâr anlamını da yerinden etmez.
+
+Eşlik görüntüsü, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} kelimesinin koruyucu bir refakat yönünü öne çıkarır. {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} bu refakatin olumsuz yoldaşını, (90:20)'deki {ar:نَارٌ, tr:nârun, gloss:ateş} ve {ar:مُّؤْصَدَةٌ, tr:muʾṣade, gloss:sıkıca kapanmış} ise onu çevreleyen ortamı verir. Önce grup uğursuzluğun mensupları olarak görünür; ardından uğursuzluk, onu yanında tutan ve ateşin içinde muhafaza eden bir refakatçi gibi iş görür. Koruyucu eşlik ile hapsedici kapanma arasındaki değer değişimi bu görüntünün hareketidir. Bu tersine dönüş keşifseldir: dilbilgisi uğursuzluğu açıkça kişileştirmez, koruyucu eşlik de normalde olumlu bir yön taşır. Bu bağlantının yanında düz anlamdaki olumsuz sınıflandırma ve ateş cümlesi birlikte yaşar.
+
+## Görünür Olanın Sınırı
+
+Bu uzamsal bağlantıda {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} fiilindeki uzak arazi veya insanlardan kopuk yer yönü, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} ile kurulan toplu eşlik ve {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ile verilen yönle buluşur. (90:15)'teki yakın ve korunmaya muhtaç ilişki bu uzaklıkla karşılaşınca, yakın olan bir yükümlülük işlevsel olarak uzak ve görünmez gösterilerek cevapsız bırakılmış gibi görünür. Bu uzamsal renk, bu bağlantıda fiili gerçek bir yer adına veya coğrafyaya dönüştürmez; işaret reddinin yanında sorumluluğu erişilmez kılan toplu bir çekilmeyi duyurur.
+
+Görme ve denetim görüntüsü, (90:7)'deki “biri görür mü” varsayımı ile (90:8)'deki göz bağlamının temasından doğabilir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} görme imkânı verildikten sonra erişilebilir açıklamayı bastıran etkin bir örtme gibi duyulur; {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} görünen belirti anlamıyla bedensel, vahyedilmiş veya her ikisi olabilecek açıklamaların görünürlük alanını taşır. Bu iki katkı, inkârı yalnızca bilgiye erişememe olmaktan öte, kanıtın kimse tarafından geri kazanılamayacağını varsayan bir görünürlük yönetimi gibi gösterir; {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} de bu tavrın bağlandığı yönü verir. Aynı göz bağlamı gözetilme ve hesap verebilirlik okumasını canlı tutar: örtülen işaretler yine geri kazanılabilir ve bakışın denetimi altında kalır. Bu görme-denetim bağlantısı, inkâr edenlerin psikolojisini kesinleştirmeden olağan işaret reddini nitelendirir.
+
+Açılıştaki sınırlı alan temasları, sol tarafın bir istasyon veya ayrılmış pay gibi duyulmasına katkı verir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} dinî gerçeği reddeden davranışı, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} sınırları belirlenmiş yerde kalıcı topluluğu, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} da o alandaki yönü ve ahlâkî konumu taşır. (90:1)'deki bölüşüm ve sınırlı ortak alan bir payın sınırlarını, (90:2)'deki yasaktan çıkış teması ise o alandan ayrılma baskısını görünür kılar; iki ayrıntı birlikte, bir topluluğun ayrılmış bir yerde ve belirli bir statü içinde durduğu görüntüyü verir. Bu yerleştirme bu mekânsal bağlantı için ihtiyatlıdır: açılıştaki şehir veya alan sahneyi ağırlaştırıyor olabilir; bu bağ, şehrin bütün sakinlerini sınıflandıran bağımsız bir iddia kurmaz. Sol tarafın pay ve istasyon gibi duyulması, davranışın verdiği sınıflandırmayı mekânsal ve hukukî bir biçimde renklendirir.
+
+Yakınlık ve refakat sorusu, nesiller arasındaki bakım tarihi içinde görünür olur. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} bağını reddedip uzaklaşma rengini, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} ise sürekli eşlik imkânını taşır. (90:3)'teki ebeveyn-evlat ilişkisi, (90:15)'te bakım vereninden kopmuş ve korunmaya muhtaç yetim, (90:17)'de akrabalıkla birleşen merhamet bu imkânın tarihini görünür kılar. Bu ayrıntılar, eşliğin soy bağından olgunlaşmış bir refakate dönüşebileceğini; dönüşüm kırıldığında ise {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ile adlandırılan olumsuz sonucun geride kaldığını düşündürür. Bu aile ve merhamet alanı, bu bağlantıda açık bir aile sözlüğü kurmaz; işaret inkârı ile sol taraf sınıflandırmasının yerini almaz, yalnızca topluluğun oluşumunu kırılmış bir bakım tarihi içinden düşündürür.
+
+İşaretlerin bakım talebine dönük yönü, eldeki kaynakların rahatlatmaya akıp akmadığını soran bir akış görüntüsü kurar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} nimeti yadsıma rengiyle, {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} kaynağın ve karşılanmamış ihtiyacın okunabilir belirtileriyle, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ise akış başarısız olduğunda biriken mahrumiyetle buluşur. (90:6)'daki tükenmiş veya üst üste yığılmış servet söylemi kaynağın bu yüzünü, (90:14)'teki açlık içinde besleme ise rahatlatmaya akması gereken yönü görünür kılar. Bu iki ayrıntı, tüketilmiş görünen kaynağın gerçekten kimin yükünü hafiflettiğini sordurur. Bolluk başka birinin gıdasına dönüşmemiş maddî bir tabaka, açlık ise görünür alıcı taraf olarak belirir; işaretler bu iki taraf arasında yol gösterir. Kaynağın başka bir yere harcanmış olma ihtimali bu bağlantıda açık kaldığı için eleştiri zorunlu olarak istiflemeye bağlanmaz; engellenmiş akışla kendine dönük aktarım ihtimali birlikte düşünülür. Yaşanan kötü sonuç ile insanların ürettiği sonuç arasında da bu bağlantı içinde hüküm verilmez.
+
+İşaretlerin bedensel bir tanıma ve karşılık verme düzeni içinde duyulması da mümkündür. {ar:بِـَٔايَٰتِنَا, tr:bi-âyâtinâ, gloss:ayetlerimize} görünen belirti anlamını taşır: (90:8)'deki gözler görme imkânını, (90:9)'daki konuşma organı ve çift dudaklar dile getirme imkânını, (90:10)'daki iki açık yola yönlendirme ise seçme imkânını görünür kılar. Okuyucu bu bağlamda işaretleri görme, dile getirme ve seçme imkânlarının içinden gelen açıklamalar olarak algılar. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} da kendisine verilmiş bu kapasitenin açığa çıkardığı talebe yine o kapasiteyle direnme biçimini düşündürür; cevap soyut bir karar olmaktan çıkıp bedensel ve kamusal bir karşılık kazanır. Bu bedensel bağlantı, işaretlerin kendisinin bedensel imkânlar olduğunu kesinleştirmez; göz, konuşma, dudak ve iki yol, olağan işaret reddini sorumluluk taşıyan bir karşılaşma olarak renklendirir.
+
+Bu görünürlük ve sınır görüntüleri, toplu bir kendini dışlama resmi içinde birleşebilir. (90:1)'deki sınırlı ortak alan başlangıçtaki sınırı, (90:20)'deki dağlar arasındaki kapalı yer son kuşatmayı verir. {ar:كَفَرُوا۟, tr:keferû, gloss:inkâr ettiler} fiilindeki örtme ve uzaklaşma, {ar:أَصْحَٰبُ, tr:ashâbu, gloss:eşlik edenler} ile kurulan topluluk ve {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} ile verilen istikamet, bu iki sınır görüntüsünü aynı uzamsal cevapta buluşturur. Topluluk kendi örttüğü alandan çekildikçe uzaklığın ve kapanmanın ürettiği yere yerleşmiş gibi görünür; saklı alan sonunda topluluğun üzerine kapanan bir çevriliğe karşılık verir. Bu resmin kapsamı bu uzamsal bağlantıyla sınırlıdır: gerçek bir coğrafya veya fiilin literal yer karşılığı değildir; sınırlı alan içinden dışarı çekilen ve sonunda kapalı bir yerde toplanan topluluğun keşifsel görüntüsünü sunar.
+
+Eklenen Fâtiha bağlamı, {ar:ٱلْمَشْـَٔمَةِ, tr:el-meşʾemeti, gloss:sol taraf} adını istenen dosdoğru yolun yön karşı kutbu olarak duyurabilir. (1:6)'daki {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinâ es-sırâṭ el-mustakîm, gloss:bizi dosdoğru yola ilet} istenen yolu açıkça kurar; (1:7)'deki {ar:صِرَٰطَ, tr:sırâṭ, gloss:yol} yolun kendisini, {ar:أَنْعَمْتَ, tr:enʿamte, gloss:nimet verdiklerin} bereketli tarafını, {ar:ٱلضَّآلِّينَ, tr:ed-dâllîn, gloss:yolunu kaybedenler} ise kayıp karşıtını gösterir. Bu üç katkı birlikte, sol taraf adını yalnızca sonradan verilmiş olumsuz bir sınıflandırma olmaktan çıkarıp yönelinen dosdoğru yolun karşı kutbu gibi algılatır. Bu son temas, açıkça eklenen yol ayetlerinin sağladığı belirli bir yön karşıtlığıdır; bu bağlantı, 90:19'un ayetleri inkâr edenleri sol tarafın insanları olarak sınıflandıran anlamını korurken başka bir bütün-sûre hükmü kurmaz.
+
+</source_prose>

@@ -1,0 +1,475 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **94:1**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s094-regular-20260912/s094/94_1/94_1.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `94:1 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(94:1 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s094-regular-20260912/s094/94_1/94_1.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s094-regular-20260912/s094/94_1/94_1.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s094-regular-20260912/s094/94_1/94_1.prose.middle.tr.md \
+  --ayah-ref 94:1
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s094-regular-20260912/s094/94_1/94_1.prose.editorial.tr.md`
+
+<source_prose>
+{ar:أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ, tr:ʾa-lam nashraḥ laka ṣadraka, gloss:Senin için göğsünü açmadık mı?} Bu ayet, muhatabın göğsünün daha önce açılmış olduğunu hatırlatan bir iyiliği soru biçiminde önümüze getirir. Açıklığın doğrudan nesnesi belirli bir göğüstür; aşağıdaki bütün temaslar bu bedensel ve muhataba yönelmiş iyilik zemininde duyulur.
+
+## Tanımaya Çağıran Soru
+
+Birleşik {ar:أَلَمْ, tr:ʾa-lam, gloss:tanımayı isteyen soru} ifadesinin içindeki {ar:لَمْ, tr:lam, gloss:cezm eden olumsuzluk}, ardından gelen fiilin biçimini yönetir. Olumsuz soru, yapılmamış bir eylemi düzçe bildirmek yerine gerçekleşmiş açmayı muhatabın tanımasına sunar. Böylece kısa cümle, hem geçmiş bir iyiliği hatırlatır hem de o iyiliğin tanınmasını ister; göğüs açma anlamı sorunun içinde açıkça kalır.
+
+Kelime dizisi bu tanımayı adım adım kurar: {ar:أَلَمْ, tr:ʾa-lam, gloss:soru çerçevesi} tanıma çerçevesini açar, {ar:نَشْرَحْ, tr:nashraḥ, gloss:açma eylemi} müdahaleyi getirir, {ar:لَكَ, tr:laka, gloss:senin için} yararlanıcıyı öne alır ve {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} açılan kişisel nesneyi cümlenin sonunda gösterir. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak} birinci bâbın etken biçimiyle, eylemi belirli bir nesneye yönelten failin işini görünür kılar; başındaki birinci çoğul kişi uyumu, açıkça adlandırılmayan ilahî özneyi taşır. {ar:لَمْ, tr:lam, gloss:cezm eden olumsuzluk} fiili cezm ettiği için {ar:نَشْرَحْ, tr:nashraḥ, gloss:açma eylemi} bağımsız bir bildirme fiili gibi durmaz; sonundaki biçimsel düşüş, eylemin negatif-soru çerçevesine bağlılığını duyurur.
+
+## Açılmanın Yeri
+
+Ses de bu kısa harekete ihtiyatlı bir yankı verir. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak} kelimesinin sonundaki {ar:ح, tr:ḥāʾ, gloss:boğaz sesi}, boğazda daralıp bırakılan bir ses gibi açılma anlamına gerilimden çözülmeye giden işitsel bir eşlik sunar. Bu ses yeni bir sözlük anlamı kurmadan genişlemenin nasıl duyulabileceğini sezdirir. Fiil {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} ile buluştuğunda kapalı olanı görünür ve anlaşılır kılan açılma ile içi ferahlatan kabul kapasitesi aynı yerel dönüşümde birbirine yaklaşır; kabulün içeriği bu ayette açık bırakılır.
+
+{ar:لَكَ, tr:laka, gloss:senin için} fiil ile doğrudan nesne arasına yerleşerek önce kimin yarar gördüğünü duyurur; açılan şey yine {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} olur. Bu iki kelimedeki aynı ikinci kişi eki, muhatabı hem iyiliğin yararlanıcısı hem de dönüşen iç merkezin sahibi olarak izler. {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} tekil mansup doğrudan nesne olduğunda açma, belirsiz bir atmosfere değil tek bir kişinin göğüs alanına uygulanır. Fayda, sahiplik ve nesneli dönüşüm böylece aynı cümlede birbirinden ayrılmadan kurulur.
+
+{ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} boyun altındaki somut göğüs bölgesini taşırken anlayışın, niyetin ve kararlılığın kişisel iç merkezi olarak da duyulur. Sonundaki ek, genel bir göğüs adını doğrudan hitap edilen kişinin kendi alanına çevirir. Ayetin sonunda bu kelimenin durması, soru ve eylemden sonra bakışı açılmış iç alanda toplar. Göğüs böylece bedenin önde duran yüzü ile sözün, nefesin veya cevabın içeriden çıkabileceği kaynak noktayı bir araya getirir. Bu yerel beden-kaynak ilişkisi, göğsün kişisel nesne ve iç merkez oluşunu aydınlatır.
+
+## İç Kaynaktan Dışarı
+
+{ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak} burada kapalı olanın anlaşılır hâle gelmesine de imkân verir. Sözlüklerdeki bir kullanımında gizli veya belirsiz olanı görünür ve anlaşılır kılmayı taşır; {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} ise bu açıklığın uygulandığı bedensel ve iç yeri verir. Açıklık böylece soyut bir söz açıklamasında kalmayıp muhatabın iç kaynağına yerleşir. Musa'nın duasında göğsün açılması, işin kolaylaşması, konuşmadaki düğümün çözülmesi ve sözün anlaşılması peş peşe gelir (20:25, 20:26, 20:27, 20:28); bu sıra, iç kaynak ile anlaşılır söz arasındaki teması görünür kılar.
+
+Bu iç açıklıkta 94:4'teki {ar:ذِكْرَكَ, tr:zikraka, gloss:anılışını} dilde dolaşan anılış, adlandırma ve hatırlanma olarak duyulur. Açılmış alan, içeride çözülen anlamın söz ve eylem biçiminde dışarıya ulaşabildiği bir başlangıç kazanır; 94:5 ve 94:6'daki kolaylık vurgusu da bu geçişin önündeki sıkışmanın açılabildiği bir zemin sunar. Açma burada yüzey hazırlayan, sözdeki açıklık ise içerik taşıyan ayrı katkılarla içten dışa doğru bir okuma kurar. Hedef ifadelerin bütün biçim ayrıntıları burada verilmediğinden bu iletişimsel akış nitelikli bir bağlantı olarak kalır.
+
+Açılan göğüs, bu maddi temasla işlenebilir ve bakımla kullanılabilir bir yüzey olarak da belirir. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak ve yaymak} için yayımlanmış sözlüklerde yer alan bir kullanım, eti veya organı kemikten ayırıp yaymayı ve inceltmeyi anlatır; {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} ile temas ettiğinde açılma, yüzeyin çalışılabilir hâle gelmesini düşündürür. 94:8'de {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} çevresindeki koyu onarıcı sıvıyla bir şeyi tedavi edip güçlendirme imgesi bu yüzeye bakım temasını ekler. Böylece açılan alan yalnızca genişlemez, bakımdan geçirilerek kullanılabilir hâle gelir; sonrasında beliren anlaşılır söz, basınç altında yer açan maddi işlemin içerik taşıyan iç açıklıkla nasıl yan yana gelebileceğini gösterir. İki katkı kendi işlevlerini koruyarak birleşir.
+
+## Üretken Ve Korunan Alan
+
+Açılmış göğüs, bu biçim ve bağlam temaslarında üretken bir kapasite olarak da görünür. Açma fiilinin belirli ve form ile sınırlı bir kullanımında cinsel birleşme, bekâretin bozulması ve örtmece bir organ adlandırması duyulur. 94:4 çevresinde {ar:ذِكْرَكَ, tr:zikraka, gloss:anılışını} etrafında erkek ile dişi ayrımının görünmesi, 94:7'de {ar:فَرَغْتَ, tr:faraghta, gloss:boşaldığında} çevresindeki meni imgesi ve 94:5'te {ar:يُسْرًا, tr:yusran, gloss:kolaylık} çevresindeki Yâsir adlı genç erkek imgesi birbirinden bağımsız temaslar kurar. Birlikte duyulduklarında göğsün açılması gebe kalmaya ve erkek çocukla sonuçlanan üretken bir kapasiteye doğru genişler. Bu şaşırtıcı bağ, 94:1'deki doğrudan göğüs açma sorusuna eklenen ve kendi biçim ile bağlam sınırları içinde kalan üretkenlik görüntüsüdür.
+
+Açıklık burada korunarak gelişen bir kapasiteye dönüşür. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açılanı gözetmek} fiilinin koruma ve koruyucu gözetim kullanımı, {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} içinden eylem çıkabilecek kapasite olarak duyulduğunda, yeni açılan alanın bakım altında gelişmesini düşündürür. Önceki bağlamdaki ilahî lütuf ve yetimlikten sonra sığınak verilmesi (93:4, 93:6) bu görüntüyü bağımsız biçimde tetikler. Göğüs böylece iyiliği veya gerçeği kabul edecek alanın korunarak açıldığı bir gelişim yeri olur; bu bağdaki koruma genel gözetim ve zarar görmeden gelişme ölçeğinde işler.
+
+Bu koruma, bilgiyi ve hatırlamayı elde tutan bir kapasiteye de dönüşür. 94:4'te {ar:ذِكْرَكَ, tr:zikraka, gloss:anılışını} yokluktan sonra zihne getirme ve hatırlatma, 94:3'te {ar:ظَهْرَكَ, tr:ẓahraka, gloss:sırtını} ise bir şeyi arkaya koyup unutma ve kayda geçmemiş hafıza imgesiyle temas eder. 94:8'de {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} çevresindeki bakım, besleme ve bilgiyle ilişkilenen görüntü bu hatırlananı yaşatır. Koruyucu gözetim, içte oluşanı erişilebilir tutar; açılmış göğüs öğrenmenin, hatırlamanın ve sonra dışarı çıkarabilmenin alanına dönüşür. Hatırlama burada {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} için tek bir sözlük karşılığı değil, bu bağlamların açtığı nitelikli bir harekettir.
+
+Göğüs burada emanet taşıyan ve sorumluluk üstlenen bir alan olarak da belirir. {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} için başka bir sözlük teması, ödeme veya güvence yükümlülüğü konmuş bir alanı düşündürür. 94:4'te {ar:ذِكْرَكَ, tr:zikraka, gloss:anılışını} hak belgesi ya da hukuki senet gibi, 94:8'de {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} bağlayıcı bir akit gibi, 94:3'te {ar:أَنقَضَ, tr:enkada, gloss:gıcırdatmak} sabitleneni bozma gibi, 94:2'de {ar:وَوَضَعْنَا, tr:ve vada'nâ, gloss:yerleştirdik} ise emanet bırakma ve bir işi karara bağlama gibi duyulduğunda, açılan göğüs korunan ve ihlal edilebilen bir sorumluluk alanı kazanır. Sözleşme ve emanet görüntüsü, bedenî ve yarar bildiren anlama nitelikli bir sorumluluk boyutu ekler; kapsamı bu bağlamsal temasla sınırlıdır.
+
+## Yön Ve Hareket
+
+Açılan kapasite yönünü bulan bir arzu alanı olarak da belirir. {ar:نَشْرَحْ, tr:nashraḥ, gloss:genişleme} fiilinin sınırlı bir sözlük kullanımında istek dünya malına doğru güçlü biçimde açılır; {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} ise eylem ve arzunun çıkabileceği iç kaynak olarak bu açılmayı taşır. 94:8'deki {ar:فَٱرْغَبْ, tr:farghab, gloss:arzu yönelt} bir şeye yönelmeyi, ondan uzaklaşmayı ve iştahın genişlemesini ayrı temaslar hâlinde getirir. 13:37'de hidayet ile arzular arasındaki sınır bu yönelişi ayrıca sınar. Dünya malına yönelen istek, sözlükteki sınırlı kullanımın katkısı olarak kalır; odaktaki göğüs, yönü belirlenebilen ve Rabbe çevrilebilen geniş bir arzu kapasitesini görünür kılar. Hedef ve sonuç açık bırakılır.
+
+Açılma bir çıkışın başlangıcını ve bu çıkışın sürdürülebilir hareketini de görünür kılar. {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} için bir yerden veya girilmiş bir durumdan ayrılıp geri yönelme teması, {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak} ile birleştiğinde bu başlangıcı kurar. 94:8'de {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} yanında kalma ve sürme, 94:4'te {ar:وَرَفَعْنَا, tr:ve rafa'nâ, gloss:yükselttik} ülkeler boyunca yukarı ilerleme, 94:3'te {ar:ظَهْرَكَ, tr:ẓahraka, gloss:sırtını} kara yolu ve dış bölge, 94:7'de {ar:فَٱنصَبْ, tr:fansab, gloss:çaba göster} tam gün süren kolay yürüyüş imgeleri bu çıkışa ayrı yönler verir. Açılan göğüs böylece sürekliliği, güzergâhı, konaklamayı ve yönelmiş varışı taşıyabilen bir hareket kapasitesi olarak duyulur.
+
+Bu hareket, ileriye doğru akışla birlikte hizanın korunması sorununu da açar. 94:3'te {ar:ظَهْرَكَ, tr:ẓahraka, gloss:sırtını} karşılıklı sırt dönmeyi, 94:5 ve 94:6'da tekrarlanan {ar:ٱلْعُسْرِ, tr:el-usri, gloss:güçlüğün} ise dağılmış ve art arda gelen grupları düşündüren temaslar taşır. Basınçtan çıkış bir akış açarken hizanın kaybolup parçalanması tehlikesini de duyurur. Bu bağlamsal gerilim, yön kazanmanın düzen ile dağılma arasındaki karşılığını gösteren yerel bir görüntü olarak kalır.
+
+Açılma, daralmış imkânların yeniden kullanılabilir hâle gelmesi şeklinde de duyulur. {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} için ödeme ve güvence yükümlülüğü, 94:3'te {ar:ظَهْرَكَ, tr:ẓahraka, gloss:sırtını} karşılıksız veya fazladan verme, 94:5'te {ar:ٱلْعُسْرِ, tr:el-usri, gloss:güçlüğün} geçim darlığı ve borçluyu sıkıştırma, 94:2'de {ar:وَوَضَعْنَا, tr:ve vada'nâ, gloss:yerleştirdik} kayıpla sermayeyi azaltma, 94:5'te {ar:يُسْرًا, tr:yusran, gloss:kolaylık} ise bolluk ve imkân imgeleriyle buluşur. Tüketilmiş kapasitenin geri kazanılması, bedenî iyiliğin yanında duran ekonomik bir görüntü olarak belirir; 94:1'in doğrudan sorusu bu görüntünün taşıyıcısıdır.
+
+## Payın Ve Emeğin Biçimi
+
+Açılma, ezici bir bütünü çalışılabilir yüzeylere ve paylara ayırarak taşınabilir kılan bir işlemi de görünürleştirir. Bir şeyin bölümü veya içindeki küme anlamı {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} için açıldığında, {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak ve yaymak} genişlemenin bölümlere ayırma yoluyla gerçekleşebileceğini gösterir. 94:8'de {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} çevresindeki ok demeti, 94:7'de {ar:فَٱنصَبْ, tr:fansab, gloss:çaba göster} çevresindeki atanmış pay, sabit taban, başlangıç, sap veya eşik imgesi, 94:5'te {ar:يُسْرًا, tr:yusran, gloss:kolaylık} çevresindeki kura ve paylaştırılmış deve bu işlemi ayrı ayrı tetikler. Bu sınırlı analoji, sıradan göğüs açılışının yanında kapasitenin neyi taşınabilir kıldığını gösterir.
+
+Kesip yayma ile bölüm ve pay imgeleri birlikte düşünüldüğünde, yükün yönetilebilir parçalara ayrılması daha belirgin kılınır. 94:5 çevresindeki kura ve paylaştırılmış deve görüntüsü, ağır olanın anlaşılır ve taşınabilir ölçeklere bölünmesini destekler. Açılma burada yalnız yüzeyin genişlemesi değil, kapasiteyi sonuç doğuracak kullanıma hazırlayan deneysel bir malzeme hareketidir.
+
+Açıklık, sunu için malzemenin yayılması, boşaltılması ve paylaştırılması hazırlığını da görünür kılar. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak ve yaymak} içindeki eti kesip yayarak parça veya dilim elde etme ayrıntısı, {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} ile hazırlanan bir yüzey kurar. 94:7'de {ar:فَرَغْتَ, tr:faraghta, gloss:boşaldığında} bir kabın içini boşaltıp dökmeyi, {ar:فَٱنصَبْ, tr:fansab, gloss:çaba göster} ibadet veya kesim için dikilen taşı, 94:5'te {ar:يُسْرًا, tr:yusran, gloss:kolaylık} çevresindeki kura ve bölüştürülmüş deveyi getirir. Bu bağda kurban, ayetin çevirisi değil, açılmış kapasitenin sonuç doğuracak kullanıma hazırlanmasını somutlaştıran görüntüdür.
+
+Boşaltılan yer, {ar:فَٱنصَبْ, tr:fansab, gloss:çaba göster} içindeki dikilme, belirginleşme ve yorucu emeğin harcanmasıyla yeniden kullanılabilir bir kapasiteye dönüşür. Açılmış göğüs yeniden dikilmek, bağlanmak ve harcanmak üzere açılmış yenilenebilir bir imkândır; 94:7'nin rahatlamadan sonra gelen eylem çağrısı, açılmayı kapasitenin yeni bir döngüsüne bağlar. Bu temas, boşalma ile dikilme arasındaki geçişi gösteren bağlamsal hareket olarak kalır.
+
+## Yükün Önü Ve Geçilebilir Güçlük
+
+Açılan göğüs, 94:2 ve 94:3'teki yük diliyle birlikte arkadaki baskının yeniden dağıldığı rahatlayan bir taşıma alanı olarak belirir. 94:2'de {ar:وَوَضَعْنَا, tr:ve vada'nâ, gloss:indirdik} ağır olanı aşağıya veya yerine koymayı, {ar:وِزْرَكَ, tr:vizraka, gloss:yükünü} yükü, 94:3'te {ar:أَنقَضَ, tr:enkada, gloss:gıcırdatmak} ise yük altında zorlanan yapıyı duyurur. {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} bedenin ön yüzü, {ar:ظَهْرَكَ, tr:ẓahraka, gloss:sırtını} onun karşısındaki ve yük taşıyan destek olarak okunduğunda, daralan göğsü açıkça karşısına alan görüntüler (6:125, 15:97) sıkışma ile açılma arasındaki ilişkiyi besler. Eğrilmiş göğsün yükün etkisini göstermesi, ağırlığın kaldırılmasıyla açılmayı basınçtan boşalmaya bağlar. Bu bedensel nedensellik ihtiyatlı bir benzetme düzeyinde kalır; aynı açılış manevi rahatlama duygusunu da taşır.
+
+Önden açılma, arkadaki zorlanmaya karşı bir karşı-gerilim gibi duyulur. Kesip yayma imgesi 94:3'te {ar:أَنقَضَ ظَهْرَكَ, tr:enkada ẓahraka, gloss:sırtını gıcırdatan} yük altında gıcırdayan sırta, {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} ise sırtın karşısındaki anatomik öne temas eder. Gıcırdama gizli baskıyı işitilir kılar; açılan ön yüz bu baskıya yer açar. Gövdenin ön ve arka çiftinin taşıdığı retorik paralellik böylece belirir; fizyolojik işleyişe dair belirleme bu görüntünün kapsamına girmez.
+
+94:5 ve 94:6'da tekrarlanan {ar:ٱلْعُسْرِ, tr:el-usri, gloss:güçlüğün} içinden geçilebilir bir açıklık da belirir. 94:5'teki bükülme ve dayatılmış zorluk, aynı ayetteki {ar:يُسْرًا, tr:yusran, gloss:kolaylık} karşı alanı, 94:6'da aynı kolaylığın hafiflik ve uyumlu hareketi, {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} bu geçişin taşıma yeri yapar. Açıklık, kolaylığı güçlüğün içinden geçen bir kapasite olarak kurar; zorluğu izleyen zamansal kolaylık okuması da ayrıca canlı kalır.
+
+## Biçimden Kaynağa
+
+Göğüs burada eylemlerin türediği temel, bir işin çıkış yeri veya zamanı olarak da duyulur. {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} için taşınan bu kaynak teması, {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak} fiili onu açılan doğrudan nesne yaptığında anlamların düzenli biçimde dışarı çıkabileceği bir başlangıç kurar. 94:4'te {ar:وَرَفَعْنَا, tr:ve rafa'nâ, gloss:yükselttik} çevresindeki dilbilgisel yükselme ve adlık durumu, 94:7'de {ar:فَٱنصَبْ, tr:fansab, gloss:çaba göster} çevresindeki yükleme durumu, 94:3'te {ar:أَنقَضَ, tr:enkada, gloss:gıcırdatmak} çevresindeki sabitleneni bozma imgesi, biçimlerin birbirinden sorumlu olduğu bir kaynak düzeni düşündürür. Analojinin sınırı, 94:1'in sözdizimini yeniden kurmak yerine açılan iç merkezin söz, eylem ve biçimlerin çıkış noktası olarak duyulmasıdır.
+
+## Açıklığın Yaşattığı Döngü
+
+Açıklık, suyu alan ve büyümeyi sürdüren doğal bir döngü olarak da görünür. 94:8'de {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} çevresindeki alçak ve katmanlı bulut, adlandırılmış bitki ve birikmiş bol su; 94:4'te {ar:وَرَفَعْنَا, tr:ve rafa'nâ, gloss:yükselttik} çevresindeki ürünü kaldırıp toplama; 94:3'te {ar:ظَهْرَكَ, tr:ẓahraka, gloss:sırtını} çevresindeki üst veya dış yüzey ve {ar:أَنقَضَ, tr:enkada, gloss:gıcırdatmak} çevresindeki yerin mantar için yarılması ayrı temaslar kurar. Göğüs açıklığı bu deneysel doğa görüntüsünde suyu alan, büyümeyi besleyen, ürünü koruyan ve hasadı kaldıran canlı bir döngüye dönüşür. Hava ve tarım dili burada açılmış kapasitenin nasıl yaşatıldığını aydınlatır; 94:1'in doğrudan anlamı bedenî açılma olarak kalır.
+
+İç kaynağın dışarı verilmesi bu döngünün iletişimsel yönünü açar. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak} gizli anlamı açıklığa çıkaran bir geçit, {ar:صَدْرَكَ, tr:ṣadraka, gloss:biçimlerin çıktığı iç kaynak} onun taşıyıcısı olarak duyulduğunda, 94:4'teki {ar:وَرَفَعْنَا لَكَ ذِكْرَكَ, tr:ve rafa'nâ laka zikraka, gloss:anılışını yükselttik} raporun yayılmasını ve sosyal olarak taşınan işareti görünür kılar. Açılmış iç alan, anlaşılır sözün ve anılışın dışarı çıkmasına hazırlık olur. Bu iletişimsel akış, 94:4'teki yükseltilmiş anılışın bağımsız nimet boyutuyla birlikte okunan ihtiyatlı bir bağdır.
+
+## Açılmanın Geriye Dönüşü
+
+Bu açılma yürüyüşünde birleşmiş bir yüzeyin yeniden açılması da ayrı bir topolojik yankı kurar. {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak ve yaymak} işlemi {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğsünü} anatomik gövdesine uygulanır ve 94:3'te {ar:أَنقَضَ, tr:enkada, gloss:gıcırdatmak} çevresindeki birleşmiş bir şeyin yeniden açıklığa dönmesi imgesiyle temas eder. Göğüs, daraltıcı bir dikiş veya kapanma yeniden ayrılarak hayatı taşıyabilecek hâle gelen bir yer gibi duyulur. Bu ihtimal, açılan yüzeyin yeniden canlılık taşıyabilmesini düşündüren bağlamsal bir görüntü olarak kalır; açılmanın ilk kez gerçekleştiği veya önceki iyileşmenin bozulduğu yönünde bir hüküm taşımaz.
+
+Açılan göğüs, daha dolu bir nefesin yükseldiği canlı bir beden duyusu da verir. 94:8'de {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} çevresindeki yükselen ve kabaran nefes imgesi ile {ar:فَٱرْغَبْ, tr:farghab, gloss:arzu yönelt} çevresindeki geniş oyuk ve uzam, {ar:نَشْرَحْ, tr:nashraḥ, gloss:açmak ve yaymak} içindeki yayma ve {ar:صَدْرَكَ, tr:ṣadraka, gloss:solunum yeri} içindeki göğüsle buluşur. Daha dolu bir nefesin açılan göğüs odasına yükselmesi, yönelmiş arzuyu taşıyan bedensel bir duyum oluşturur. Nefes imgesi burada {ar:رَبِّكَ, tr:rabbika, gloss:Rabbin} kelimesinin sözlük anlamı olarak değil, ana göğüs açılışını duyulur kılan bağımsız bir deneysel çağrışım olarak çalışır.
+
+94:2 ve 94:3'te yük arkada belirirken, 94:4'te söz ve anılış dışarıya taşınır; 94:5 ve 94:6'da zorluğun içinden geçilebilir bir açıklık, 94:7'de boşalmadan sonra dikilip çaba gösterme imkânı, 94:8'de ise yön verilmiş arzu görünür. Bu hareket boyunca {ar:صَدْرَكَ, tr:ṣadraka, gloss:ön ve başlangıç bölümü} kelimesi gövdenin önünü ve anlamın başlangıç noktasını birlikte düşündürür. 93:6, 20:28 ve 13:37 bağlamlarıyla birlikte düşünülen bu temaslar, korunan iç gelişim, bölünen malzeme, dışarı çıkan söz ve Rabbe çevrilen isteğin her seferinde odaktaki açılmayı nasıl değiştirdiğini gösterir. Maddi yayılma göğsün önünü açan somut temas, iç kaynak ise söz ve eylemin dışarı çıkabildiği açıklık olarak yerini korur.
+
+Açılmanın iyileştirici yüzü de {ar:صَدْرَكَ, tr:ṣadraka, gloss:göğüs bölgesi} üzerinden belirir. Bu taşıyıcı, kinin kaldırıldığı (15:47), göğüslerde bulunanın iyileştirildiği (10:57) ve bir topluluğun göğüslerinin rahatlatıldığı (9:14, 9:15) görüntülerle temas eder. Açılma böylece birikmiş basıncın giderilebildiği, içte taşınanın iyileşebildiği ve rahatlamanın başkalarıyla paylaşılabildiği bir alan olarak genişler. Bedensel soru ve muhataba yönelen iyilik bu iyileştirici görüntünün içinde de yerini korur.
+
+</source_prose>

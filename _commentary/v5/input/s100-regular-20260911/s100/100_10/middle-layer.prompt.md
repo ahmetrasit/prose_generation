@@ -1,0 +1,457 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **100:10**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s100-regular-20260911/s100/100_10/100_10.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `100:10 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(100:10 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s100-regular-20260911/s100/100_10/100_10.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s100-regular-20260911/s100/100_10/100_10.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s100-regular-20260911/s100/100_10/100_10.prose.middle.tr.md \
+  --ayah-ref 100:10
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s100-regular-20260911/s100/100_10/100_10.prose.editorial.tr.md`
+
+<source_prose>
+Bu âyet, dışarıdaki örtünün açılmasının ardından dikkati insanın içine çevirir: {ar:وَحُصِّلَ مَا فِى ٱلصُّدُورِ, tr:wa-ḥuṣṣila mā fī al-ṣudūr, gloss:ve göğüslerde olanlar ortaya çıkarıldığında}. Açık anlamıyla göğüslerde bulunan ne varsa ortaya çıkarılır. Başlangıçtaki {ar:وَ, tr:wa, gloss:ve} önceki âyette mezarların içindekinin açığa çıkarılmasıyla (100:9) kurulan açıklama hareketine eklenir; yeni cümle, öncekinin yanına bırakılmış kopuk bir bildirim gibi değil, aynı açılmanın içeriye yaklaşan devamı gibi işitilir. Bu bağ, iki komşu âyetin yerel sınırında aynı açıklama hareketini sürdürür; zaman sırası ve ekleme biçimi cümlenin bütünü içinde açık kalır. Fiile bitişen kısa başlangıç da dinleyene yeni işlemin önceki hareketten ayrılmadan geldiğini duyurur.
+
+Bu devamın içinde {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:ayırtılıp ortaya çıkarıldı} fiili, yapılmış ve tamamlanmış bir işlemin sonucunu öne alır. Edilgen II. kalıp, adı verilmeyen failden önce ortaya çıkarılan malzemeye dikkat çeker; işlem uygulanıp bitirilmiş bir ayırma ve belirginleştirme işi olarak duyulur. Fiilin şeddeli, kısa vuruşu işlemi sıkıştırır; ardından gelen daha uzun göğüs ifadesi bu sıkışık hareketin açıldığı iç alanı genişletir. Böylece ses biçimi, sözlükte ayrıca bir anlam kurmadan yoğunlaştırılmış bir işleme duygusu verir. Bu biçimin Kur’an’daki verilen kök dağılımında tek oluşu da seçimi sıradan bir açıklamadan daha işaretli hissettirir. Biçimin karşısındaki kendiliğinden belirme ve adı konmuş etkin çıkarıcı yönleri bu yüzeyde yer almaz; işaretlilik kullanımları birbirine üstün kılmaz ve kökün bütün anlam çevresini aynı anda âyete taşımaz.
+
+Fiilin ardından gelen {ar:مَا, tr:mā, gloss:ne varsa veya o şey} bu edilgen olayın açık öznesidir: çıkarılan şey “ne varsa” diye kapsamını korur. Buradaki {ar:مَا, tr:mā, gloss:ne varsa veya o şey}, soru ve olumsuzluk yerine içeriği sınıflara ayırmadan açık bırakan ilişkisel bir kuruluştur. İlhamlar, sırlar, inançlar ve başka iç içerikler bu açıklığın içine örnek olarak düşünülebilir; bu örnekler kapsamı tüketmez. Sonra gelen {ar:فِى ٱلصُّدُورِ, tr:fī al-ṣudūr, gloss:göğüslerin içinde} birimi, bu açık öznenin nerede bulunduğunu tamamlar. Okur önce işlemi, sonra neyin çıkarıldığını, en sonunda o şeyin taşıyıcı kabını duyar. Önceki âyetteki {ar:مَا فِى, tr:mā fī, gloss:içinde olan ne varsa} kuruluşunun (100:9) yeniden duyulmasıyla tanıdık söz dizimi korunur, kap da mezardan göğse yaklaşır. {ar:فِى, tr:fī, gloss:içinde} edatı iki âyetteki içeri-dışarı çerçevesini sabit tutar: göğüsler, çıkarılan malzemenin içinde bulunduğu bedensel alandır. Cümlenin sonunda bırakılan göğüs ifadesi öznenin tamamlanmasını bir an geciktirir ve açıklamayı soyut bir “içerik” hükmünde değil, mahrem kabın üzerinde kapatır.
+
+Bu son kabın sesinde belirlilik eki de çalışır: {ar:ٱل, tr:al, gloss:belirlilik eki} güneş harfiyle kaynaşarak {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} adının başlangıcını sıkıştırır. Belirli kırık çoğul, her bir kişide ayrı bulunan göğüsleri ortak bir insan içi alanında toplar; bu dağılım açığa çıkacak içeriği genellerken sabit bir kişi sayısı belirlemez ve her göğsün mahremiyetini korur. Bu tanıdık bedensel adın özel basıncı nadirliğinden gelmez; tanıdık kap, yoğun bir çıkarma fiiliyle yan yana geldiği için etkin bir işleme mekânına dönüşür. Cümle böylece bir kabı ve içindekini birbirine karıştırmadan, belirlenmiş göğüs alanında bulunan açık uçlu malzemeyi görünür kılar.
+
+{ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} kelimesinin bedensel ön, üst ya da başlangıç bölgesini çağrıştıran yönü de bu içeri-dışarı ilişkisine temas eder. {ar:فِى, tr:fī, gloss:içinde} ile içeride kurulan alan ve {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:ayırtılıp ortaya çıkarıldı} ile dışarı alınan malzeme birleşince, göğüs yalnızca kapalı bir yer değil, içindekinin görünürleşmeye doğru öne geldiği bedenî yüz gibi hissedilebilir. Buradaki öne çıkış, göğsün içinden görünürleşen malzemeye ait yerel bir nitelemedir; başka bir ön-konum sahnesi kurmadan cümlenin bedensel içeri-dışarı ilişkisiyle sınırlı kalır. Önceki mezar kabıyla bu göğüs kabı arasındaki eşleşen kadans (100:9), gizliliği dışarıdaki mezardan kişinin daha içteki göğsüne taşır. 100:9 ile 100:10 arasındaki bu yakınlık, sonraki âyetteki eksiksiz bilginin malzemesini de hazırlar: burada kap ve içindekiler görünür olur, 100:11'de bu malzeme tam bilginin altına alınır. Bu sıra, komşu âyetlerin sağladığı yerel bir hazırlık olarak kalır.
+
+## Örtüden Çekirdeğe
+
+Bu işlemin başka bir yüzü, dışarı açılan şeyin içeride yeniden derlenerek belirli bir sonuca ulaşmasıdır. {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:derlenip ortaya çıkarıldı} fiili, parçaları bir bütün halinde toplama ve iş tamamlandığında geriye sabit bir sonuç bırakma yönlerini birlikte taşır. 100:9'daki kabirlerin açığa çıkışı, 3:154'teki içe dönük sınanma ve 99:6'daki işlerin ortaya konmasıyla temas ettiğinde, dışarıda açılan içerik içeride okunabilir bir bütüne bağlanır. Bu sonuç yine insan gövdesinin boyun altındaki iç alanda, {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} içinde belirir. Fiilin derleme hareketi sonucun görünür ve belirli hale gelmesini sağlar; onun değerini ve niteliğini ise bu bağlantı açık bırakır.
+
+Ayrıştırma imgesi de bu sonuca eklenir. {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:özünü ayırıp ortaya çıkardı} içteki farklılaşmış bölümü onu saran kaplamadan ayıran bir işlem gibi duyulduğunda, “göğüslerde olanlar” düz ve tek parça bir içerik olmaktan çıkar; çevresine erişilir, sonra içeride tutulan bölüm dışarı alınır. Kabuktan iç kısmı ya da samandan taneyi ayırma örüntüsü, önce çevrenin ayrılmasını sonra içerideki bölümün görünmesini somutlaştırır. 100:8 ve 100:9'daki tohum, kalp ve gizlenmiş kabir imgeleriyle 94:1 ve 15:47'deki açma-çıkarma temasları, göğüs içini çevreleyen bir sınırın ardından farklılaşmış bir merkeze varmayı mümkün kılar. Bu benzetmenin işi çevre ile iç bölümü ayıran işlemi görünür kılmaktır: bedensel göğüs ve içindeki açık uçlu içerik zemin olarak kalır, içteki bölümün değerini ise bu bağlantı belirlemez.
+
+Ayrıştırma görüntüsü elde kalan tortuyu da taşır. Öteki parçalar çekildiğinde geride posa ya da ince bir artık kalabilir; 100:8'deki kısır zemin ile tohum karşıtlığı ve 99:8'deki küçük ya da ters sonuç, {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:ayırtılıp ortaya çıkarıldı} fiilinin bu kalan yönünü bağımsız biçimde açar. Böylece göğüslerdeki sonuç, işe yarar bir çekirdekle elverişsiz bir dip ihtimalini birlikte taşır ve iki ihtimal arasında bir değer hükmü kurmaz. 100:9'da {ar:بُعْثِرَ, tr:buʿthira, gloss:altüst edilip saçıldı} ile dağılan gömü malzemesi, 100:5'te {ar:جَمْعًا, tr:jamʿan, gloss:bir araya toplanmış bütün} ile bir bütünde toplanır; 100:8'de yüzeyde sevgi olan {ar:حُبِّ, tr:ḥubb, gloss:sevgi} kelimesinin ayrı tohum-tane kullanımı da faydalı çekirdeği elle tutulur hale getirir. Bu temaslar, içtekinin seçilip çıkarılan verimle ayırmadan sonra kalan tortuyu aynı açıklama içinde taşımasını sağlar.
+
+100:9'daki dış çözülme ile 100:10'daki iç toplama, yönleri farklı iki tamamlayıcı hareket olarak duyulur. {ar:قُبُورِ, tr:qubūr, gloss:mezarlar} dış muhafazayı ve içe gömülmüşlüğü, {ar:بُعْثِرَ, tr:buʿthira, gloss:altüst edilip saçıldı} yerleşmiş olanı altüst edip dağıtmayı taşır. {ar:أَثَرْ, tr:athar, gloss:iz bırakan hareket} kelimesine bağlanan yerinden oynatma yönü bu kazıyı başlatan sarsıntıyı verir; {ar:مُورِيَٰتِ, tr:mūriyāt, gloss:örtülü olanı görünmez kılan} kelimesine bağlanan örtülülük yönü ise sonradan görünecek malzemenin başlangıçta gözden uzak tutulmasını duyurur. Böylece önce gömülü olan serbest kalıp saçılır, ardından {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} onu içeride toplar, ayırır ve belirgin bir sonuca getirir. İki ardışık {ar:مَا فِى, tr:mā fī, gloss:içinde bulunan şey} kuruluşu dış kapla iç kap arasında mekânsal bir karşılaştırma kurar; her hareket kendi sahnesinde kalırken göğüs, ikinci hareketin olağan bedensel taşıyıcısı olur.
+
+Dışta kabir, onun içinde göğüs, göğsün içinde de seçilip çıkarılan bir çekirdek gibi üç katmanlı bir görüntü belirir. {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:özünü ayırıp ortaya çıkardı} fiili çevrelenmiş bir şeyin içinden parçayı alma hareketini, {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} ise bu hareketin ikinci iç kabını sağlar. 100:8'deki tohum tanesi ve kalbin iç çekirdeği, geniş göğüs alanının içinde daha küçük ve yoğun bir merkezin duyulmasına yardım eder. Böylece örtü açıldıkça doğrudan boş bir alana değil, saklı olanın içinden ayrışan bir merkeze ulaşılır. Bu üç katmanlı görüntü, göğsün bedensel taşıyıcısını ve kalbin iç merkezini birlikte düşünmeye açılan maddi bir benzetmedir; bedenin bileşimini ya da kalbin gerçek anatomik yerini yeniden tanımlamaz.
+
+Bu çekirdek-artık ikiliği, 100:1'deki ısı, kararma ve kül temasında başka bir görünüm kazanır. Yüzeyde atların soluklanmasını bildiren {ar:ضَبْحًا, tr:ḍabḥan, gloss:soluk soluğa oluş} kelimesine bağlanan ayrı kararma resmi siyaha dönmeyi ara aşama, kül resmi ise dönüşümden sonra elle tutulur kalan ince parçayı verir. Bu kalıntı, {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} fiilinin artık yönünü aydınlatır; göğüslerde açığa çıkan sonuç, başka maddeler çekildikten sonra kalan bir bölüm olarak da duyulur. Bu temasın sınırı açıktır: 100:1'deki kararma ve kül, fiile görsel bir dönüşüm aşaması ekler; göğüslerin yanması ya da fiilin kararma ve kül diye çevrilmesi bu bağlantının kapsamına girmez. Çekirdek ile kül, verim ile posa gibi farklı yönler aynı açıklama içinde canlı kalır.
+
+## Açılmadan İç İşleme
+
+100:1, 100:2, 100:3, 100:4 ve 100:5'teki hareket, bu iç işlemin öncesindeki kuvveti de hissettirir. 100:1'deki {ar:عَٰدِيَٰتِ, tr:ʿādiyāt, gloss:koşanlar} hızlı koşu başlangıç kuvvetini, 100:2'deki {ar:مُورِيَٰتِ, tr:mūriyāt, gloss:kıvılcım çıkaranlar} çakmaktaşından doğan gizli ateşi, {ar:قَدْحًا, tr:qadḥan, gloss:kıvılcım çakma} ise bu ateşi açığa çıkaran sürtünmeyi verir. 100:3'teki {ar:مُغِيرَاتِ, tr:mughīrāt, gloss:baskın yapanlar} kelimesine bağlanan biçim değiştirme veya yerine koyma yönü görünür olmayı dönüşüme taşır; {ar:صُبْحًا, tr:ṣubḥan, gloss:sabah} kelimesinin ilk ışık yönü saklı kuvveti görünürlük eşiğine geçirir. 100:4'teki {ar:أَثَرْ, tr:athar, gloss:iz bırakan hareket} yerleşmiş olanı sarsar, {ar:نَقْعًا, tr:naqʿan, gloss:toz} da bu sarsıntıyla kalkan geçici toz bulutunu kurar. Böylece koşu kuvveti ateşi doğurur, sürtünme onu görünür eder, dönüşüm kuvveti eşiği değiştirir, sarsıntı malzemeyi yerinden oynatır ve toz geçici karışıklığı görünür kılar. Bu ilişki, 100:1, 100:2, 100:3 ve 100:4'teki at, ateş, sabah ve toz sahnelerine eklenen yerel bir süreçtir; bu yüzey sahneleri kendi anlamlarını korurken sonradan gelen iç çıkarma işlemine hareket kazandırır.
+
+Hareketin sonraki durağında 100:5'teki {ar:وَسَطْ, tr:wasaṭ, gloss:orta} merkeze giriş yönü, dış yüzeyden içteki merkeze geçişi hazırlar; aynı âyetteki {ar:جَمْعًا, tr:jamʿan, gloss:bir araya toplanmış bütün} dağınık parçaları bütünde birleştirerek hazırlığı tamamlar. Sonra {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} içteki özü onu örten maddeden ayırır ve {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} bu işlemin bedenî odağını verir. Böylece dış kuvvet merkeze girer, dağınık parçalar bir bütün olur, ardından içteki öz ayrışarak görünür hale gelir. Bu ilişki (100:1, 100:2, 100:3, 100:4, 100:5) içindeki ardışık temasların kurduğu yerel bir süreçtir; dış sahnelerin yüzey anlamı korunurken fiile tek ânlık teşhirden önce gelen bir işleme geçmişi kazandırır.
+
+{ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} kelimesinin çıkış yeri ve eylemin türediği temel yönü çağrıştıran tarafı, bu hareketi başka bir yönden de tamamlar. 100:3'teki sabahın ilk ışığı, saklı kuvvetten görünürlüğe geçiş için bir eşik olur; {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} fiilinin bütün oluşturan sonucu ile göğüslerin iç kaynak yönü birleşince, içerideki şey değişimden sonra sonuç olarak ışığa çıkar. Burada {ar:صُبْحًا, tr:ṣubḥan, gloss:sabah} zaman bildiren isimdir; sabahın ışık eşiği oluşu bu zaman anlamını korur. Kaynak ve geçiş yankısı, fiilin anlamını göğüslerdeki açığa çıkarma işlemine bağlar ve ona ayrıca “olmak” anlamı yüklemeden iç kaynaktan sonuca geçişi görünür kılar.
+
+Aynı kaynak hareketi su başına varma, dolma ve ayrılma görüntüsüyle somutlaşır. Göğüs kelimesine bağlanan su başına gelenin geldiği yerden ayrılıp dönmesi yönü, 100:3, 100:4 ve 100:8'deki içme, dolma ve susuzluğu giderme temalarıyla buluşur. Yüzeyde sevgi olan {ar:حُبِّ, tr:ḥubb, gloss:sevgi} kelimesinin suyla dolma kullanımı iç kapasiteyi, {ar:صُبْحًا, tr:ṣubḥan, gloss:sabah} kelimesinin sabah içimi kullanımı alım anını, {ar:نَقْعًا, tr:naqʿan, gloss:toz} kelimesinin susuzluğu yatıştıran su kullanımı ise dolmayı anlamlı kılan değişimi verir. Böylece önce iç kapasite dolar, sabahın alım anı bu dolmayı zamana yerleştirir, susuzluğu gideren su da dolu kaynağın dışarı verebildiği sonucu görünür kılar. Su başından ayrılıp dönme yönüyle birleşen bu görüntü, göğüs içindeki şeyi bir kaynakta tamamlanan alımdan sonra dışarı yönelen içerik gibi duyurur; kuyu ve fiziksel su sahnesi bu bağlantının kapsamı dışında kalır. Daha keşifsel bir temas, {ar:عَٰدِيَٰتِ, tr:ʿādiyāt, gloss:koşanlar} kelimesine bağlanan bol ve kalıcı su kaynağını, {ar:نَقْعًا, tr:naqʿan, gloss:toz} kelimesine bağlanan durulmuş su ve içine işleyen maddeyi, {ar:خَبِيرٌ, tr:khabīr, gloss:her şeyden haberdar} kelimesine bağlanan yumuşak ve suyu alan zemini yan yana getirir. Akışın ardından çöken tortu ve onu tutan alıcı çevre böylece görünür olur; bu tortu, göğsün bedensel anlamına eklenen bağlamsal bir sonuçtur.
+
+## Biriken Geçmiş
+
+Göğüslerdeki sonuç, yalnızca işlem sonunda bulunan bir nesne değil, oluşum geçmişi olan bir ürün gibi de okunabilir. {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} fiilinin sonucu, tohumdan bitkiye, körpe sürgünden erken meyveye uzanan bir gelişim aşamasıyla temas eder. 100:5'teki {ar:جَمْعًا, tr:jamʿan, gloss:bir araya toplanmış bütün} kelimesine bağlanan tohumdan yetişmiş karışık hurma korusu toplama sonucuna canlı ve karma bir başlangıç tarihi verir. Yüzeyde sevgi anlamındaki {ar:حُبِّ, tr:ḥubb, gloss:sevgi} kelimesinin ayrı tohum-tane kullanımı ürün verme potansiyelini, {ar:رَبِّ, tr:rabbī, gloss:Rabbim} kelimesine bağlanan bitki veya ot kullanımı yetiştirilmiş oluşum alanını taşır. {ar:عَٰدِيَٰتِ, tr:ʿādiyāt, gloss:koşanlar} kelimesine bağlanan yaz otu ile {ar:قَدْحًا, tr:qadḥan, gloss:kıvılcım çakma} kelimesine bağlanan körpe bitki uçları da tohumu yaşam döngüsüne ve henüz sertleşmemiş ara evreye yerleştirir. Böylece göğüslerdeki şey, bitmiş bir sırın yanında geçmişi ve tanınabilir bir oluşum aşaması bulunan iç meyve gibi görünür. Bu botanik temas fiile erken bir sonuç evresi kazandırır; fiil göğüslerde olanı ortaya çıkarma işini sürdürür, göğüs de bedensel taşıyıcı olarak kalır. Hurma meyvesi fiilin sözlük karşılığına, insanın içi de gerçek bir bitkiye dönüşmez.
+
+Bu gelişim ölçüsü olgunlaşma ile yarıda kalmayı birlikte açık tutar. {ar:رَبِّ, tr:rabbī, gloss:Rabbim} kelimesinin olağan Rabb anlamından hareket eden yetiştirme ilişkisi, içteki meyvenin beslenip olgunlaşabileceğini düşündürür; {ar:كَنُودٌ, tr:kanūd, gloss:nankör} kelimesine bağlanan ürün vermeyen toprak ve bereketi reddetme yönü ise aynı ilişkinin karşısında kısırlaşmış veya yarıda kalmış bir sonuç açar. {ar:حُبِّ, tr:ḥubb, gloss:sevgi} kelimesinin tohum kullanımı başlangıçtaki potansiyeli, {ar:شَدِيدٌ, tr:shadīd, gloss:şiddetli} kelimesinin ayrı olgunluk kullanımı sertleşmiş son noktayı sağlar. Bu temaslar erken meyveyi nasip, olgunluk ya da kısıtlanmış oluş yönlerine açar; büyüme ile kısırlık aynı açıklama içinde kalır ve aralarında bir değer sıralaması kurulmaz. Olağan bedensel kuşatma bu süreci kişinin göğsünde tutar; gelişim analojisi taşıyıcı göğüs anlamını genişletir, onun yerine geçmez.
+
+İçerik bir beslenme tarihi gibi de görünür. {ar:جَمْعًا, tr:jamʿan, gloss:bir araya toplanmış bütün} içte biriktirilen malzemenin geçmişini, {ar:حُبِّ, tr:ḥubb, gloss:sevgi} kelimesinin tohum-tane yönü tekrar tekrar alınan taneyi, fiilin kuşun yuttuğu besinin toplandığı ve tutulduğu kursak kullanımı ise depolama mekanizmasını duyurur. {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} bu mekanizmanın geniş bedensel kuşatması olarak kalır. Böylece göğüslerdeki sonuç, zaman içinde seçilip alınmış malzemeyi biriktiren iç depoya benzer; kursak görüntüsü bu birikim mekanizmasını somutlaştırır ve insan göğsünün bedensel anlamını ayrı tutar. Bu görüntü 100:5'teki toplama ve 100:8'deki tohum-tane temaslarıyla sınırlıdır ve dağınık tercihlerden birikmiş bir iç verim fikrini, olağan taşıyıcı anlamının yanında tutar.
+
+Bu verim, bir ilişkinin tarihini de taşıyabilir. 100:6'daki {ar:إِنسَٰنَ, tr:insān, gloss:insan} hesap verebilir özneyi, {ar:رَبِّ, tr:rabbī, gloss:Rabbim} onarma, yetiştirme ve tamamlanma ilişkisini, {ar:كَنُودٌ, tr:kanūd, gloss:nankör} ise bağın kesilmesi ve bereketin inkârı yönünü çağrıştırır. {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} bu dağınık ilişki tarihini göğüslerde görünür bir sonuca toplar. Yetiştirme ile nankörlüğün buluştuğu yerde sonuç iki yönde açılır: bir yanda büyüyüp verim veren meyve, öte yanda bakım karşısında duran ve meyve vermeden kalan tortu. Bireysel insan öznesi bu ilişkide korunur; 100:6'nın insan-Rabb-nankörlük kuruluşu bağlamında hangi sonucun kesin olduğu ve ahlaken hangisinin üstün bulunduğu ayrıca belirlenmez.
+
+Bir başka iç düzen görüntüsünde yüzeyde sevgi olan {ar:حُبِّ, tr:ḥubb, gloss:sevgi} sürekli bağlılık ve kalp çekirdeğini, {ar:خَيْرِ, tr:khayr, gloss:iyilik ve fayda} yararlı sayılana yönelmeyi, {ar:شَدِيدٌ, tr:shadīd, gloss:şiddetli} ise sıkı bağ ve malı tutmayı duyurur. {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} geniş kabı ve eylemlerin çıktığı iç kaynağı korurken, {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} fiili dağınık davranışların yönünü veren bağlı değeri ayırıp görünür kılar. Bu katkılar birleştiğinde birçok davranışı yönlendiren bağlı bir tercih merkezi belirir; göğüslerde tek bir güdü bulunduğu sonucu bu bağlantının kapsamı dışındadır. Sevgi, fayda ve sıkı tutma temasının 100:8'deki bağı, motivasyonun içten dış davranışa nasıl geçtiğini yerel olarak görünür kılar.
+
+## İç Hesaba Dönüş
+
+Göğüslerin ön, üst ya da başlangıç bölgesi olarak duyulması, içte açığa çıkan sonucu düzenlenmiş bir yapıda öne alınmış konum gibi de renklendirir. {ar:رَبِّ, tr:rabbī, gloss:Rabbim} kelimesinin otorite kullanımı bu konuma düzen veren yönetimi, {ar:شَدِيدٌ, tr:shadīd, gloss:şiddetli} kelimesinin sıkı bağ kullanımı düzenin kalıcı tutulmasını, {ar:وَسَطْ, tr:wasaṭ, gloss:orta} kelimesinin iki yan arasındaki merkez kullanımı ise ön ile merkez arasındaki mekânsal sırayı sağlar. Bu üç katkı, içte açığa çıkan sonucu yönsüz bir boşalma yerine yönetilen bir bütün içinde yerleşmiş bir sonuç olarak duyurur; bedensel göğüs ve edilgen açığa çıkarma zemini aynı anda görünür kalır. Aynı kelime, ayrı bir kullanımın etkisiyle komuta edilen bütün içindeki belirlenmiş bölüm ya da küme gibi de duyulabilir. {ar:رَبِّ, tr:rabbī, gloss:Rabbim} kelimesine bağlanan denizciler başı bölünmüş parçaları yöneten şefi, {ar:وَسَطْ, tr:wasaṭ, gloss:orta} kelimesine bağlanan ikiye kesme kullanımı ise bu parçanın oluşumunu verir. Sonuç örgütlü bir bütün içindeki ayrılmış pay gibi algılanabilir; bu bölüm ve denizcilik görüntüsü 100:5, 100:6 ve 100:11'deki bölme, komuta ve otorite temalarıyla sınırlıdır, göğüsün bedensel taşıyıcısı da bu çerçevede sürer.
+
+Göğüs, aynı zamanda dış davranışın geriye doğru izlenebildiği bir kaynak olarak duyulur. {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} kelimesinin bedensel iç bölge anlamı önde kalırken, dönme ve çıkış yeri ya da zamanı yönü görünen eylemden onu doğuran iç noktaya dönüş rotası açar. 100:8'deki davranış penceresi ile 31:23 ve 40:19'daki dönüş ve eylem ilişkileri, dışarıda görülenin nereden çıktığına doğru bu geri okumayı destekler. Bu bağlantı, eylemin her durumda göğüsten nedensel olarak çıktığını belirlemekten çok, bedensel kabı eylemin kaynağına ve geri dönülen iç noktaya doğru renklendirir.
+
+İzden kaynağa giden çizgi, {ar:أَثَرْ, tr:athar, gloss:iz bırakan hareket} kelimesine bağlanan geride kalmış belirtiyle başlar; {ar:شَهِيدٌ, tr:shahīd, gloss:tanık} kelimesine bağlanan tanıklık taşıyan işaret bu belirtiyi hesap verilebilir bir ifadeye çevirir. 100:9'daki {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} ayırt edici belirti, işaretten tanınan iç örüntüye geçişi sağlar; 100:11'deki {ar:خَبِيرٌ, tr:khabīr, gloss:her şeyden haberdar} haber ve işin iç yüzüne dair bilgi bu geriye doğru kuruluşu tamamlar. {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} fiilinin dağınık delilleri bir bütünde birleştiren yönü, iz, tanıklık, tanıma ve bilgiyi göğüslerdeki kaynak örüntüsüne toplar. Bu, 100:4, 100:7, 100:9 ve 100:11'in yerel temaslarıyla kurulan bağlamsal bir yeniden kurmadır; işaretlerden kaynağa giden bu çizgi, modern bir soruşturma yöntemi ya da insan çıkarımıyla ilahî bilginin tam açıklaması olarak genişletilmez.
+
+İçerik böylece tanıklık taşıyan ve sınanabilen bir iç hesap görüntüsü kazanır. {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:derlenip belirginleştirildi} fiili ile {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} birlikte düşünüldüğünde, dış örtünün bozulmasından sonra göğüste kalan malzeme belirsiz bir yığın olmaktan çıkar; incelenebilir, kanıt taşıyabilir ve tanıklığa konu olabilir bir bütün haline gelir. 100:7'deki tanıklık, 100:9'daki açığa çıkış, 100:11'deki iç bilgi ile 2:284, 18:49 ve 86:9'daki hesap ve gizlinin ortaya konması ilişkileri bu görüntüyü besler. {ar:خَبِيرٌ, tr:khabīr, gloss:her şeyden haberdar} içten sınanarak veya haberle bilinen bilgiyi, {ar:شَهِيدٌ, tr:shahīd, gloss:tanık} ise bilgiden tanıklık edebilen delili duyurur. İç hesap görüntüsü, bedensel içeriğe eklenen incelenebilirlik ve tanıklık niteliğini taşır; gerçek bir defter ya da tek bir tanıklık biçimi kurmadan göğüslerdeki içeriğin açığa çıkmasını denetlenebilir bir bütün olarak duyurur.
+
+Bu hesap, işlem sırasında üretilen yeni bir bilgi olarak değil, önceden içeride bulunan ve açıklanmaya hazır bir çekirdek olarak da okunabilir. 100:8'deki kalp çekirdeğiyle 100:11'deki sınanmış iç bilgi buluştuğunda, {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:içte olanı derleyip açığa çıkardığında} fiili zaten tutulmuş olanı örtüsünden ayırıp çözümleme yönüne döner. 100:11'deki {ar:خَبِيرٌ, tr:khabīr, gloss:her şeyden haberdar} ve 100:9'daki {ar:يَعْلَمُ, tr:yaʿlamu, gloss:bilir} bu sonucu iki yönden tamamlar: biri içeriğin iç yüzünün bilinirliğini, diğeri gizliden bilinene geçişi verir. 3:29 ve 86:9'daki gizlinin ve saklı olanın ortaya konması da bu mevcut hesabın açığa çıkışına temas eder. Böylece fiil, “göğüslerde olanlar çıkarılır” temelini koruyarak çıkarılan şeyin açığa çıkarılmak üzere içeride bulunduğunu hissettirir; yeni veri üretimi ve fail tayini bu bağlantının kapsamı dışında kalır.
+
+İçteki sonuç dış davranışın yükümlülük hesabı olarak da belirginleşebilir. 100:1'deki telafi talebi, 100:7'deki tanıklık, 100:11'deki iç bilgi ve 100:3'teki tazmin alanı, {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} kelimesine bağlanan ödeme ve güvence yükümlülüğü yönüyle birleşir. {ar:شَهِيدٌ, tr:shahīd, gloss:tanık} bilgiden bir meseleyi açıklayan tanıklığı, {ar:خَيْرِ, tr:khayr, gloss:iyilik ve fayda} cömertlik ve vermeyi, {ar:شَدِيدٌ, tr:shadīd, gloss:şiddetli} ise ağır cimrilik ve alıkoymayı karşılıklı davranışlar olarak açar. {ar:خَبِيرٌ, tr:khabīr, gloss:her şeyden haberdar} verilen ya da tutulan şeyden içteki güdüye ulaşmayı, göğüslerin yükümlülük yönü de davranışı hesap verebilir hale getirmeyi sağlar. {ar:عَٰدِيَٰتِ, tr:ʿādiyāt, gloss:koşanlar} kelimesine bağlanan hakkını arama iddiayı, {ar:مُغِيرَاتِ, tr:mughīrāt, gloss:baskın yapanlar} kelimesine bağlanan misilleme yerine tazmin kullanımı ise yerleşimi verir. Sonra {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} bu iddia, delil, verme, alıkoyma ve bilgiyi belirli bir bakiyeye toplar. Böylece gizli niyetin de hesabın parçası olabileceği bir hesaplaşma görüntüsü oluşur; bu bağ, 100:10'daki içeriği parasal bir hüküm ya da dışarıdan kurulmuş bir mahkeme sahnesi olarak genişletmeden yükümlülük ve hesap ilişkisini görünür kılar.
+
+Dışarı çıkanların yeniden iç hesaba dönmesi, sayılmış unsurlar görüntüsüyle de duyulabilir. 100:1'deki {ar:عَٰدِيَٰتِ, tr:ʿādiyāt, gloss:koşanlar} kelimesine bağlanan sayma kullanımı, {ar:حُصِّلَ, tr:ḥuṣṣila, gloss:toplanıp ortaya çıkarıldı} fiilinin açık bir bütün kuran sonucu ve {ar:ٱلصُّدُورِ, tr:al-ṣudūr, gloss:göğüsler} kelimesinin kaynak tarafıyla buluşur. Dış davranış böylece iç hesapta sayılabilir girişlere dönüşür; ayrılan şey çıktığı yere doğru geri bağlanır. Bu sayma ve dönüş, 100:1'in bağlamsal temasından doğan bir renklenmedir ve yüzeydeki koşanlar görüntüsüne iç hesaba dönen bir yön ekler.
+
+Bu kaynak-dönüş görüntüsüne, Fâtiha'daki (1:5, 1:6, 1:7) {ar:اهْدِنَا, tr:ihdinā, gloss:bizi hidayet et}, {ar:ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:aṣ-ṣirāṭ al-mustaqīm, gloss:dosdoğru yol} ve {ar:صِرَاطَ, tr:ṣirāṭ, gloss:yol} kelimelerinin yöneltme ve yol boyunca ilerleme temasları da dışarıdan temas eder. Göğüslerdeki içerik bu kez yalnızca depolanmış madde ya da güdü değil, davranışın çıktığı ve kişinin yönlendirildiği istikamet gibi duyulabilir: bir yerden ayrılma, sonra geri dönme ve bir yola yönelme aynı odak kelimesinde buluşur. Bu dış örtüşme, Fâtiha'nın bütün yol kuruluşunu değil, yöneltme ve istikamet temasını 100:10'daki kaynak-dönüş görüntüsüyle buluşturur; göğüs kelimesi bedensel anlamını korur ve harfî olarak yol bildirmez. İçerik, yönlendirilen bir güzergâh gibi renklenirken âyetin yaptığı temel iş değişmez: göğüslerde olan ne varsa, adı verilmeyen failin önünde, uygulanmış ve tamamlanmış bir işlemle açığa çıkarılır.
+
+</source_prose>

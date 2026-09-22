@@ -1,0 +1,443 @@
+# Commentary V5 lossless middle-layer consolidator
+
+You are the middle-layer consolidator for **92:9**. Transform the
+supplied final editorial commentary into prose that is materially shorter and
+easier to follow while preserving every distinct semantic finding, mechanism,
+detail, qualification, boundary, uncertainty, and live alternative.
+
+This is semantic consolidation, not ordinary summarization and not a new
+evidence-selection stage. The editorial source below is the complete evidence
+boundary. Do not inspect upstream materials, add knowledge or interpretations,
+strengthen a claim, settle an uncertainty, or silently drop material because
+it is difficult or peripheral.
+
+Write exactly one durable output:
+
+`_commentary/v5/middle/s092-regular-20260912/s092/92_9/92_9.prose.middle.tr.md`
+
+Do not write a claim ledger, inventory, audit report, metrics file, span map,
+manifest, scratch file, or any other sidecar. The rigorous inventory,
+clustering plan, structural metrics, and audit below are private working
+procedures only; keep them transient and do not persist them. Modify neither
+the editorial source nor any other file.
+
+Work afresh from the editorial source. Do not read or reuse a pre-existing
+middle prose, legacy `*.middle.claims.json` file, or other earlier audit
+artifact even if one is present at the target location.
+
+## Source paragraph numbering
+
+Number the source before analysing it:
+
+- Split the complete Markdown source at blank lines into nonempty blocks.
+- Exclude Markdown headings beginning with `#` from the count.
+- Number every other block from `1` in reader order. A multiline block is one
+  paragraph.
+- Refer to a source paragraph as `92:9 ¶N`.
+
+Headings, sentences, visual line wrapping, and future output paragraphs do not
+change this numbering.
+
+## Governing distinction
+
+Compression may remove repeated expression, but it may not remove semantic
+content.
+
+A distinct semantic unit is the smallest independently preservable assertion
+or interpretive movement whose omission would erase or weaken something a
+careful reader could recover from the source. Do not fragment a relation into
+topic labels: if an assertion depends on contact between a carrier and a
+trigger, retain that contact inside the unit. In a multi-branch construction,
+inventory each branch-specific contribution separately and inventory the
+composite interaction separately when the source gives that interaction an
+additional meaning.
+
+One source paragraph can contain many units. Never treat one citation as
+coverage of the whole paragraph without identifying all of its units.
+
+## What must survive
+
+Preserve every independently meaningful contribution a careful reader can
+recover from the editorial source, including:
+
+- the ordinary foreground meaning and its carrier;
+- each lexical or contextual branch and any restriction on it;
+- each trigger, comparison, contextual anchor, or non-focus ayah and the
+  particular role it performs;
+- the contact or mechanism connecting a carrier with a trigger;
+- each branch-specific contribution and any additional composite effect;
+- every changed reading, consequence, contrast, sequence, or interaction;
+- every distinguishing image, action, material feature, spatial relation,
+  pathology, example, or before/after shift;
+- negation, agency, referent, attribution, confidence, possibility,
+  conditionality, scope, qualification, stopping boundary, and live
+  alternative.
+
+Two passages are duplicates only when all of those dimensions are equivalent.
+The same conclusion reached through different mechanisms is not a duplicate;
+a broad claim is not a duplicate of its narrower development; a qualification
+is not a duplicate of the claim it limits. When uncertain, preserve the
+distinction.
+
+## Required working sequence
+
+Complete these stages in order. Do not draft the reader prose before stages
+1–3 are complete. Keep every working note in memory or other transient agent
+reasoning; do not save or report an inventory, ledger, cluster map, metrics
+file, or audit artifact.
+
+### 1. Atomic inventory
+
+Read every numbered source paragraph and extract all of its distinct semantic
+units. Give the units temporary working references in source order, such as
+`p001.u01`, `p001.u02`, and `p002.u01`, so that none disappears during
+clustering. These references are private scaffolding and must not appear in or
+beside the reader prose.
+
+For each unit, formulate the complete assertion rather than a topic label, and
+identify every applicable carrier, trigger, contact or mechanism, changed
+reading, branch contribution, concrete detail, contextual-ayah role,
+qualification, boundary, alternative, and truth status. Preserve the words or
+suffixes controlling negation, uncertainty, restriction, comparison,
+attribution, and conditionality.
+
+If a source paragraph is wholly transitional or wholly repeats earlier
+content, classify it privately and identify the exact unit or units it
+restates. Do not use “transition” or “duplicate” as a loophole for a paragraph
+containing even one new detail, restriction, example, mechanism, or change of
+emphasis.
+
+### 2. Equivalence and overlap audit
+
+Compare units across the whole ayah before deciding what can be said once.
+Classify their relationship privately as:
+
+- `unique`;
+- `exact_duplicate`;
+- `overlapping_complement`; or
+- `related_distinct`.
+
+Two units may be deduplicated only as exact duplicates. Test equivalence on:
+
+1. carrier or referent;
+2. trigger, source relation, or contextual anchor;
+3. contact, operation, or mechanism;
+4. contribution, changed reading, or reader consequence;
+5. concrete details and examples; and
+6. modality, attribution, scope, boundary, and live alternatives.
+
+If any material dimension differs, the units are not duplicates. The same
+conclusion reached through different mechanisms is not a duplicate. A broad
+claim and its narrower development are not duplicates. Different branches in
+one composite image are not duplicates. A qualification is not a duplicate of
+the claim it limits. When uncertain, preserve the distinction.
+
+Exact duplicates may receive one prose landing that cites every occurrence.
+Overlapping complements should normally enter the same synthesis movement when
+their shared setup can be stated once and their distinct contributions remain
+traceable. Keep them apart only when combining them would blur a different
+mechanism, effect, modality, boundary, sequence, or object of attention.
+
+### 3. Synthesis clustering and coverage plan
+
+Do not use the source paragraphs as the output outline. Before drafting, build
+private synthesis clusters around developing reader questions or semantic
+movements.
+
+For each cluster:
+
+1. Name the dominant question, carrier, image, contrast, mechanism, sequence,
+   or consequence.
+2. Gather units from every source paragraph that helps develop it.
+3. Identify the shared setup or conclusion and plan to state it once.
+4. List every remaining unique trigger, mechanism, branch contribution,
+   concrete detail, change, qualification, boundary, and alternative.
+5. Order them so the construction is intelligible—normally carrier or
+   foreground, trigger, contact or mechanism, changed reading, and boundary,
+   unless a supported causal, temporal, spatial, or argumentative order is
+   more appropriate.
+6. Decide whether the cluster fits one readable paragraph or needs several
+   connected paragraphs. Split when the operations would otherwise become an
+   inventory or overload the reader.
+7. Assign every temporary unit one exact planned substantive landing and
+   ensure every source paragraph will be cited where its contribution lands.
+
+Several source paragraphs may therefore converge in one output paragraph, and
+one complex source paragraph may contribute to several output paragraphs. A
+cluster may also span connected paragraphs: state its shared setup once, then
+carry forward a named object or question rather than restarting it.
+
+Arrange clusters in reader-facing order rather than automatically preserving
+source order. Preserve source order only where order itself carries supported
+causal, temporal, spatial, or argumentative meaning. Adjacent clusters should
+carry forward a specific object, action, question, contrast, or consequence,
+or make an honest change of perspective.
+
+Treat source mirroring as a diagnostic failure, not a neutral default. If the
+draft retains nearly the same paragraph count and order as the source and most
+output paragraphs cite only the same-position source paragraph, stop and redo
+the clustering. Accept that structure only after a unit-by-unit audit shows
+that the source was already irreducibly organized and you can state a concrete
+semantic non-merging reason for every standalone movement. “It was a separate
+source paragraph” and “it is a different topic” are not sufficient reasons.
+
+After the first complete draft, compute these transient structural metrics:
+
+- source and output whitespace-delimited word counts;
+- output prose paragraphs divided by source prose paragraphs;
+- the number and share of output paragraphs citing more than one distinct
+  source paragraph;
+- the number of same-position singleton paragraphs.
+
+When the source has at least ten prose paragraphs, return to the clustering
+stage for a mandatory adversarial synthesis challenge if any warning signal
+appears:
+
+- retained word ratio is greater than `0.80`;
+- output/source paragraph ratio is greater than `0.75`; or
+- fewer than `0.40` of output prose paragraphs are multi-source.
+
+These are review triggers, not compression targets, quality scores, or
+validator limits. During the challenge, inspect every repeated setup, recap,
+defensive qualification, and run of single-source paragraphs developing the
+same carrier, question, image, mechanism, or consequence. Privately write the
+strongest continuous merged alternative, then compare it unit by unit with the
+current form. Adopt it only when every distinct unit remains explicit, every
+modality and boundary stays visible, citations remain local, and the Turkish
+becomes easier rather than merely shorter. If it fails, retain the separation
+for its concrete semantic reason. Never delete, generalize, or bury a unit to
+cross a metric boundary.
+
+Before drafting, confirm privately that:
+
+- every source paragraph has been assessed;
+- every substantive unit has a planned landing;
+- every exact duplicate is mapped to its shared landing;
+- every overlapping complement either shares a cluster or has a specific
+  semantic reason to remain apart;
+- every boundary remains attached to the interpretation it limits;
+- every branch in a composite reading remains distinguishable; and
+- the planned structure is not the source paragraph sequence with shorter
+  sentences.
+
+### 4. Reader prose
+
+Write fluent Turkish prose that is materially shorter because repeated setup,
+preview, recap, conclusion, and defensive phrasing have been removed. Do not
+seek the smallest possible word count and do not write toward a fixed
+compression ratio. Never shorten by generalizing, burying, or deleting a
+distinct contribution.
+
+Use a small number of well-shaped sentences rather than one overloaded
+sentence or a citation-separated inventory. State genuinely parallel examples
+compactly while naming what differs among them. Attach a repeated
+qualification once only when it still clearly governs every claim it limits.
+Carry a named object or question into the next paragraph instead of restarting
+its setup.
+
+Do not create one sentence or paragraph per temporary unit. Conversely, do not
+hide many units beneath a broad thematic label, an inventory of nouns, or an
+unexplained conclusion. Do not let local citations turn the prose into a
+serial rhythm of tiny assertion, citation, tiny assertion, citation. Join
+compatible claims with explicit logical or grammatical relations.
+
+Each paragraph must have one dominant movement and enough semantic clues for a
+reader to decide whether to open its cited editorial paragraphs. Whenever the
+source supplies them, make recoverable:
+
+- the Arabic carrier, expression, contextual ayah, or concrete image;
+- the trigger or comparison that activates the reading;
+- the operative contact or mechanism, not merely a common topic;
+- what the movement changes, clarifies, complicates, or leaves open;
+- the detail that distinguishes it from neighbouring movements;
+- the qualification, uncertainty, alternative, or stopping boundary.
+
+A citation alone is not a clue. Avoid paragraph openings whose vague `bu`,
+`böylece`, or `aynı imge` requires a distant passage to identify the object.
+When citations are hidden, the result must still read as continuous,
+grammatically sound Turkish rather than as an annotated claim list.
+
+Treat 180 whitespace-delimited words as the mechanical upper bound for one
+prose paragraph. Split an overloaded movement into connected paragraphs
+without deleting content or repeating its shared setup. Do not lengthen a
+paragraph toward this ceiling.
+
+## Citation contract
+
+Attach source-paragraph citations exactly where their content is used, with
+this syntax:
+
+`(92:9 ¶12, ¶15, ¶16, ¶17)`
+
+Apply all of these rules:
+
+- Write every paragraph number explicitly; never use a range.
+- Place a citation after the smallest complete sentence or clause supported by
+  those paragraphs.
+- A multi-paragraph citation is valid only when the preceding assertion truly
+  synthesizes all the listed paragraphs.
+- When separately sourced clauses share a sentence, cite each clause locally.
+- Cite every source paragraph at least once. Exact duplicate occurrences may
+  share one landing that lists every occurrence.
+- Every output prose paragraph must contain at least one valid citation.
+- Do not cite a paragraph merely because it is topically related.
+- Keep source citations distinct from Quran references such as `(29:41)`.
+
+Citation coverage is only navigational evidence. The actual words beside a
+citation must preserve the source contribution and give the reader a useful
+clue about the detail available there.
+
+## Language and format
+
+- Write fluent Turkish Markdown.
+- Use short level-2 headings (`##`) only for substantial transitions. When the
+  prose has more than roughly twelve paragraphs or at least three major
+  movements, normally use three to seven headings. Do not create one heading
+  per paragraph, and do not use a generic wrapper heading.
+- Preserve truth conditions, polarity, agency, referents, sequence, modality,
+  attribution, confidence, and scope. Verify the actual Turkish negative and
+  modal suffixes after sentence fusion.
+- Keep uncertainty and live alternatives visible without resolving or ranking
+  them unless the source does so.
+- Preserve the particular role of every retained non-focus ayah reference.
+- List Quran references explicitly, for example `(1:1, 1:2, 1:3)`. Never use
+  interval shorthand such as `(1:1–3)`, `(1:1-3)`, `(1:1–1:3)`, or
+  `(1:1-1:3)`.
+- Do not expose workflow terminology, source numbering outside citations,
+  internal checklists, lane names, branch IDs, or QAC coordinates.
+- Do not add information from memory or external sources.
+
+When Arabic performs interpretive work, preserve the project display syntax:
+
+`{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`
+
+Tags are paragraph-local. Repeat the complete tag when the same Arabic item
+does interpretive work in a later paragraph. Keep the gloss short and place
+mechanisms or qualifications in the surrounding prose. Do not leave Arabic
+script outside a valid tag.
+
+## Mandatory final semantic audit
+
+Audit the finished prose directly against the source and your transient
+inventory, not merely against paragraph citations.
+
+For every source paragraph, ask what would disappear if that paragraph were
+removed. Confirm that every answer has an explicit substantive prose landing
+or is demonstrably an exact duplicate. For every prose claim, locate its
+actual source support and remove additions or overstatement.
+
+Then perform four separate passes:
+
+1. **Synthesis pass:** inspect every overlap group and cluster. Confirm that
+   repeated setup is said once, complementary contributions interact, and each
+   standalone movement has a concrete semantic reason. Recompute the
+   structural metrics and investigate any near one-to-one source/output
+   pattern. Perform the mandatory diagnostic challenge whenever a warning
+   signal is present.
+2. **Truth-condition pass:** compare every unit with its prose landing word by
+   word for negation, possibility, attribution, conditionality, agency,
+   referent, sequence, and scope. Verify the actual Turkish suffixes and
+   auxiliaries after sentence fusion.
+3. **Reader-clue pass:** read only the prose and citations. For each paragraph,
+   verify that a reader can identify the carrier or image, why the cited
+   sources matter, what changes in the reading, the distinguishing detail, and
+   where the claim stops.
+4. **Turkish prose pass:** hide citations mentally and read the prose as
+   continuous Turkish. Repair broken coordination, case-suffix attachment,
+   subject-predicate mismatch, dangling or ambiguous pronouns, repeated
+   locatives, overloaded sentences, and citation-driven fragments. Restore
+   and recheck every citation after editing.
+
+Reject and revise the draft if any of the following is true:
+
+- a source paragraph is cited but one of its units has no landing;
+- several branches have collapsed into only their shared conclusion;
+- a contextual ayah remains named but its particular role has disappeared;
+- a concrete example or image has become a general category;
+- a qualification, modality, scope, or live alternative has become implicit;
+- a negative, possibility, attribution, or condition has changed polarity;
+- compatible source movements remain same-position singleton paragraphs only
+  because they were separate in the source;
+- a paragraph lacks enough clues to guide the reader into its cited source;
+- the prose reads as a citation-separated inventory; or
+- shortening depends on removing semantic content rather than repeated
+  expression.
+
+The final prose must be both meaningfully easier to read and semantically
+complete. Paragraph citations, shorter length, and validator success do not by
+themselves establish that result.
+
+## Mechanical validation
+
+After writing the prose, run:
+
+```bash
+python3 _commentary/v5/validate_prose.py _commentary/v5/middle/s092-regular-20260912/s092/92_9/92_9.prose.middle.tr.md
+python3 -B _commentary/v5/validate_middle_prose.py \
+  --source _commentary/v5/editorial/s092-regular-20260912/s092/92_9/92_9.prose.editorial.tr.md \
+  --prose _commentary/v5/middle/s092-regular-20260912/s092/92_9/92_9.prose.middle.tr.md \
+  --ayah-ref 92:9
+```
+
+Within this first turn, repair every reported mechanical finding and rerun the
+affected command until both report `ok`. These checks do not prove semantic
+preservation, synthesis quality, or Turkish fluency; complete the full semantic
+audit as well. Report the final word and structural metrics, validator results,
+and any unresolved concern, but write only the prose file.
+
+## Input
+
+Editorial source path: `_commentary/v5/editorial/s092-regular-20260912/s092/92_9/92_9.prose.editorial.tr.md`
+
+<source_prose>
+{ar:وَكَذَّبَ بِٱلْحُسْنَىٰ, tr:wa-kadhdhaba bi'l-husnā, gloss:ve en güzeli yalanlarsa} sözü, 92:8'deki olumsuz tutumların ardından aynı kişi hakkında açık bir hüküm getirir: kişi en güzeli yalanlar. Başındaki {ar:وَ, tr:wa, gloss:önceki akışı sürdüren ve bağlayan} bu eylemi 92:8'de cimrilik edip kendini yeterli gören aynı kişiye bağlar; böylece "kim bunu yaparsa" diye açılan koşul sürerken üçüncü bir hareket eklenir. Dışarıya yönelmeyen tutum, kendine yeterlik iddiası ve şimdi iyiyi yalanlama, davranıştan hakikat hakkında verilmiş hükme doğru sıkılaşan bir dizi kurar. {ar:وَكَذَّبَ, tr:wa-kadhdhaba, gloss:ve yalanladı} içindeki hafif bağlayıcı sesin ardından gelen şeddeli fiil akışı ağırlaştırır; bu işitsel basınç yalanlama eyleminin cümledeki ağırlığını duyurur ve katkısı bu yoğunlaştırmayla sınırlı kalır. Ayetin düz ve geri dönülebilir yüzü bu yüzden açıktır: "ve en güzeli yalanlarsa".
+
+## Fiilin ve İyinin Biçimi
+
+Bu hükmün iç yapısında {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin sonlu, etkin geçmiş biçimi yapanı ve tamamlanmış hareketi birlikte gösterir. Okur edilgen bir söylentiyle değil, önceki cümledeki kişinin gerçekleştirdiği belirli bir yalanlamayla karşılaşır. Fiilin şeddeli ikinci kalıp biçimi, {ar:بِ, tr:bi, gloss:reddedilen içeriği gösteren edat} ile birleşince eylemi bir içeriği geçersiz sayma yönünde toplar. Bu içerik {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} ile yerel olarak belirginleşir: soyut bir yalanlama değil, iyilik olarak adlandırılmış belirli bir şeyin reddi öne çıkar. 92:8'deki {ar:وَٱسْتَغْنَىٰ, tr:wa-staghnā, gloss:kendini yeterli gördü} tavrının hemen ardından gelen bu fiil, kendine yeterlik iddiasının hakikati ve iyiyi kabul etmeme yönüne devrildiğini düşündürür. Fiil 92:9'da hükmü tamamlar; 92:10'daki zorlu karşılık ve 92:16'daki aynı kişiyi tanıtan eylem izi bu tamamlanmış hükmün yakın bağlamdaki yankılarıdır. 92:9'un grameri kendi içinde tamamlanır; sonraki sonuçlar cümlede ayrıca kurulmadan, hükmün önünde görünür.
+
+Yalanlamanın yönünü küçük bir edat kesinleştirir. {ar:بِ, tr:bi, gloss:reddedilen içeriği gösteren edat}, {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilini onun hükmettiği içeriğe bağlar; ardından gelen {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} bu nedenle yalnızca cümlenin konusu değil, doğrudan yalanlanan şeydir. Edatın bu bağlantıdaki katkısı içerik ilişkisidir; araç bildiren bir "ile" anlamı burada geri planda kalır. Tek harflik bu bağ, ağır fiili iyinin adına aynı değerlik menteşesiyle bağlar. {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} da edatın yönelttiği soyut nesne olarak durur; biçim, iyiyi sahiplik ilişkisine değil fiilin içerik ilişkisine bağlar. Bu kullanım, 92:6'daki {ar:وَصَدَّقَ بِٱلْحُسْنَىٰ, tr:wa-saddaqa bi'l-husnā, gloss:ve en güzeli doğruladı} ile aynı edat-isim çerçevesini kurar. Aynı iyilik sözü 92:6'da doğrulamanın, 92:9'da yalanlamanın nesnesidir; karşıtlık nesnenin değişmesinden değil, ona verilen hükümden doğar.
+
+Nesne belirlendikten sonra iyinin adının biçimi açılır. Başındaki {ar:ٱلْ, tr:al, gloss:belirlik takısı} ile dişil üstünlük biçimindeki {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} birleşince sıradan bir güzellik değil, belirli ve en üstün bir iyilik standardı adlaşır. Bu ad, kişiden veya tek bir iyilik hareketinden çok ödül, en iyi söz, cennet ufku ya da soyut iyilik gibi alanları açık tutan bir nitelik standardı olarak gelir. Onu yöneten {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiili bu açıklığı yerel yalanlama hükmüne bağlar. Kelimenin bağlı olduğu dil alanında güzelleştirme, işi iyi yapma, iyilik etme, güzel olma ve yetkinlik birbirine değen kullanımlardır. Burada bu alan, yalanlama fiiliyle karşılaşınca reddedilen bir nitelik standardı olarak duyulur; adlaşmış biçim yine "en güzel olan"ı taşır. 92:6 ile 92:9'da aynı dişil üstünlük biçiminin tekrarlanması, iki karşıt hükmün aynı bilinen iyiye yöneldiğini gösterir. 92:8'deki kendine yeterlik tavrı bu adla karşılaşınca ihtiyaç duyulan iyiliğe yer bırakmayan bir kapanma gibi belirir.
+
+Bu karşıtlık kulağa da yerleşir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin sert, çiftlenmiş orta sesi, {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} kelimesinin uzun ve akıcı sonlanmasına çarpar; reddin sert başlangıcı ile iyinin uzayan adı arasında ikincil bir ses teması oluşur. Aynı şeddeli kuvvet, 92:6'daki {ar:صَدَّقَ, tr:saddaqa, gloss:doğruladı} ile 92:9'daki yalanlamada ters yönlere dağılır. Böylece iki ifade arasında biçimsel ve işitsel bir ayna kurulur; üçüncü {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} yüklem de önceki tutumların yanına yalnızca yeni bir davranış eklemeyip kişinin hakikat karşısındaki duruşunu görünür kılan bir hüküm doruğu kurar. {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} kelimesinin uzun sonu, reddedilen iyinin akustik kapanışı olur. İyinin reddedilmesi 92:10'da beliren zorlu karşılığı hazırlar; 92:15'teki {ar:نَارًا تَلَظَّىٰ, tr:nāran talazzā, gloss:alevlenen bir ateş} bu sonuca sınırlı bir ileri yankı verir. Bu iki ayet, 92:9'un kapanışına yakın bağlamdan gelen sonuç yankısı ekler; cümlenin grameri ise yalanlama hükmüyle tamamlanır.
+
+Bu biçimsel zemin üzerinde ilk yankı, yalanlamanın hedefini keskinleştirir. İhtiyatlı bir sözlük kullanımında {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} bir şeyi yalan sayma veya birini yalancı bulma yönünü taşırken, {ar:حُسْنَىٰ, tr:husnā, gloss:güzel ve beğenilir olan} akla, eğilime ya da duyulara göre güzel bulunanı duyurur. Bu iki kullanım temas ettiğinde kişi yalnızca bir öneriyi reddetmiş gibi görünmez; güzeli veya iyiyi bizzat yanlış sayan etkin bir hüküm de belirir. Böylece yalanlama, değer olarak karşısına konan şeyi yanlış ilan eden bir duruş gibi hissedilir. Bu ihtiyatlı yankının kapsamı, fiilin içerik reddeden olağan anlamı ve iyinin cümledeki nesne oluşu içinde kalır.
+
+Bu temas, yalanlamanın eylemde tamamlanamayan bir iddiaya dönüşmesini görünür kılar. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin şeddeli ikinci kalıbıyla ilişkilendirilen özel kullanım, saldırıya geçmiş olanın durmasını, geride kalmasını veya işi sonuna kadar taşıyamamasını anlatır. {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} kelimesinin bir şeyi güzelleştirme, iyi yapma veya başkasına iyilik etme yönü bu hareketle buluşunca, en iyi olana yönelen pratik iddia tamamlanmayan bir hamle gibi görünür. Bu özel kullanımın somut katkısı bir savaş sahnesi kurmak değil, iyinin eyleme geçişindeki başarısızlığı duyurmaktır. Aynı eylem sınaması 92:14'teki {ar:فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ, tr:fa-andhartukum nāran talazzā, gloss:sizi alevlenen ateşle uyardım} uyarısı ile 92:16'daki {ar:كَذَّبَ وَتَوَلَّىٰ, tr:kadhdhaba wa-tawallā, gloss:yalanladı ve yüz çevirdi} dönüşünde bağımsız bir davranış kaydı kazanır: sözdeki güç sonuç ve yüz çevirme anında sınanır, kurs tamamlanamaz. Bu bağlam, içerik reddinin davranışta nasıl taşındığını ve nerede kırıldığını gösterir.
+
+## Kırılan Hareket
+
+Kesilme duygusu daha uzak ve daha düşük kesinlikli bir sözlük temasında, iyi sonucun beklenmedik biçimde kesilmesi olarak belirir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiilinin özel bir kullanımında dişi devenin sütünün kesilmesi veya beklenenden önce tükenmesi anlamı bulunur; {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} ile temas ettiğinde iyinin sürmesi beklenirken güvenin kesildiği bir an duyulur. Süt görüntüsünün katkısı bu bekleyiş kırılmasını somutlaştırmaktır; bu bağlantı gerçek bir süt sahnesi kurmadan, biçimle ilişkilendirilen ihtiyatlı bir imge olarak kalır. Karşı yönden {ar:حُسْنَىٰ, tr:husnā, gloss:en güzel olan} kelimesinin bir işteki en yüksek çabayı ve ulaşılabilecek son sınırı anlatan kullanımı, reddin erişilebilir en iyi sonuca ve erişim sınırına yöneldiği hissini açar. Doğrudan yalanlama hükmü bu iki düşük kesinlikli temasın içinde bekleyişin kırılması ve varılabilir sınırın geri çevrilmesi boyutlarını da düşündürür.
+
+Bu kesilme, çabanın hedefe ulaşmadan geri çekilmesini kuran başka bir somut hareket dizisinde görünür bir seyre dönüşür. {ar:كَذَّبَ, tr:kadhdhaba, gloss:koşup sonra duran ve geriye bakan canlı imgesi} için kaydedilen özel kollokasyon, yaban hayvanının bir mesafe koştuktan sonra durup geride kalana bakmasını anlatır; {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en yüksek çaba ve erişilebilir son sınır} koşunun erişmesi gereken ufku verir. 92:4'teki {ar:إِنَّ سَعْيَكُمْ لَشَتَّىٰ, tr:inna sa'yakum la-shattā, gloss:çabanızın yönleri ayrıdır} bu koşuya ilk momentumu verir. 92:10'daki {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fa-sanuyassiruhu lil-'usrā, gloss:onun zorluğa gidişini kolaylaştıracağız} eşikten sonra akışın zorluğa doğru kolaylaşmasını, 92:11'deki {ar:وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ, tr:wa-mā yughnī 'anhu māluhu idhā taraddā, gloss:düşüşe yuvarlandığında malı ona yetmez} kopan hareketin düşüşünü gösterir. 92:16'daki {ar:الَّذِي كَذَّبَ وَتَوَلَّىٰ, tr:alladhī kadhdhaba wa-tawallā, gloss:yalanlayan ve yüz çeviren} geri dönüşü ve geri çekilmeyi görünür kılar. Bu dört bağlam kaydı koşuyu başlangıçtan kırılmaya taşır: 92:4 momentum verir, 92:10 akışı ters hedefe kolaylaştırır, 92:11 düşüşte hareketi çözer, 92:16 onu geri çekilmeyle kapatır. Hayvan görüntüsü bu bağlantıda "yalanladı" fiilinin doğrudan çevirisi olarak değil, reddin davranış içinde yarıda kalan seyrini açan uzak ve keşifsel bir imge olarak iş görür.
+
+Kırılan hareketin ardından dikkat görünürlüğe döner: bu temas, görünür hâle gelmiş iyinin üzerine yeniden kapanan örtüyü görünür kılar. {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰ, tr:wa-l-layli idhā yaghshā, gloss:örttüğünde gece} ifadesi karanlığı ve görünürlüğün geri çekildiği zemini kurar. Buradaki {ar:يَغْشَىٰ, tr:yaghshā, gloss:üzerini örter} yukarıdan yükselen bir örtünün bir şeyin üzerini kapatmasını duyurur. Karşısındaki {ar:وَٱلنَّهَارِ إِذَا تَجَلَّىٰ, tr:wa-n-nahāri idhā tajallā, gloss:açığa çıktığında gündüz} günün ışıkla açılmasını getirir; {ar:تَجَلَّىٰ, tr:tajallā, gloss:görünür hâle gelir} görünürlüğü durağan bir özellik değil, ortaya çıkma olayı yapar. Gece ve gündüzün bu iki hareketi {ar:كَذَّبَ, tr:kadhdhaba, gloss:yalanladı} fiiliyle ve {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en güzel olan} adıyla temas ettiğinde, görünür hâle gelmiş bir iyinin üzerine yeniden kapanabilen etkin bir örtü görüntüsü oluşur. Gece geri çekilen tarafı, gündüz açığa çıkan tarafı taşır (92:1, 92:2); yalanlama da iyiyi yanlış hükme bağlayan söz olmanın yanında görünür iyiyi örten bir işlem gibi hissedilir. Bu, ana anlamı koruyan ve 92:1 ile 92:2'deki gece-gündüz karşıtlığının belirli nesneye eklediği ihtiyatlı bir genişlemedir.
+
+Görünür olan iyinin farklılaşmış çabalar karşısında ortak bir ölçü ve yön imkânı gibi duyulması, 92:3 ve 92:4'teki iki ayrı görüntünün temasından doğar. {ar:وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ, tr:wa-mā khalaqa adh-dhakar wa-l-unthā, gloss:erkeği ve dişiyi yaratması} farkları ölçü ve oran içinde koruyan bir zemin gösterir. {ar:ٱلذَّكَرَ, tr:adh-dhakar, gloss:erkek} çiftin bir kutbunu, {ar:ٱلْأُنثَىٰٓ, tr:al-unthā, gloss:dişi} onu tamamlayan öteki kutbu adlandırır; ikisinin birlikte anılması ayrımı korur ve birini diğerinin içinde eritmez (92:3). Ardından {ar:إِنَّ سَعْيَكُمْ لَشَتَّىٰ, tr:inna sa'yakum la-shattā, gloss:çabanız gerçekten farklı yönlerdedir} içindeki çaba belli bir hedefe yönelen amaçlı hareketi taşır; {ar:لَشَتَّىٰ, tr:la-shattā, gloss:dağınık ve birbirinden ayrılmış} ise bu yönlerin ortak bir hatta toplanmayıp ayrı kurslar oluşturduğunu söyler (92:4). Bu iki görüntü birleşince {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:bilinen en iyi olan} farklı çabaların karşısında ortak bir ölçü ve yön imkânı taşıyan değere dönüşür; onu yalanlamak, yönleri bulunan fakat ortak ölçüde birleşmeyen gayretlerin karşısında gerçekleşen bir reddediş gibi okunur. 92:3'teki yaratılış ayrımı ve 92:4'teki çaba dağılması bu özel bağlantıyı kurar; kendi başlarına odak cümlesinin hükmünü vermezler.
+
+## İyinin Eylemde Görünmesi
+
+Bu karşılaştırmanın katkısı, iyiyi sözde bir onaydan çıkarıp verme, korunma ve gerçekleştirme içinde sınanabilen bir değere dönüştürmesidir. 92:5'teki {ar:فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ, tr:fa-ammā man a'tā wa-ttaqā, gloss:veren ve sakınan kimse} dizisinde verme, bir şeyi elden çıkarıp başkasına ulaştıran dış hareketi kurar; sakınma ise kişiyi koruyucu bir sınır içinde tutan iç disiplini getirir. Bu iki hareket iyinin hem dışarıya uzanan hem içeride düzenlenen yüzünü hazırlar. Ardından 92:6'daki {ar:وَصَدَّقَ بِٱلْحُسْنَىٰ, tr:wa-saddaqa bi'l-husnā, gloss:ve en güzeli doğruladı} ifadesinde doğrulama, yalnızca sözle kabul değil, bir vaadi veya işi gerçekleştirerek doğru çıkarmaya dönüşür. Buna karşılık 92:8'deki {ar:وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ, tr:wa-ammā man bakhila wa-staghnā, gloss:cimrilik edip kendini yeterli sayan kimse} dizisinde cimrilik iyinin dışarıya ulaşacağı aktarımı keser, kendine yeterlik ise ilişkiyi ve armağanı gereksiz gören bir bağımsızlık tavrı kurar. Aynı iyinin bir yanda verilerek ve gerçekleştirilerek doğrulanması, öte yanda aktarımı kesen bir tutumla fiilen yalanlanması, odak cümlesine davranışta görünen bir karşı-performans boyutu ekler. Davranışlar önceden benimsenmiş hükmün belirtisi olarak da okunabilir; bu yalın açıklama, eylemdeki okumanın yanında yerini korur.
+
+İyinin başkasına yönelmiş ve arındırıcı bir eylem olarak görünmesi 92:18'deki {ar:يُؤْتِي مَالَهُ يَتَزَكَّىٰ, tr:yu'tī mālahu yatazakkā, gloss:malını verir ve arınır} dizisinde belirir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:içeriği yalan sayıp reddetti} fiili, {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:güzel ve beğenilir olan} adının başkasına yarar sağlayan iyilik etme yönüyle karşılaşınca, reddedilen şey soyut bir değer olmaktan çıkar; malı kendinden dışarıya yönelterek başkasında etkili olan ve vereni arındıran bir düzen görünür. Güzel olma, hoş bir nitelik olarak asılı kalmayıp yaşanmış bir verme içinde iş görür. 92:18'de mal vermenin arınmayı somut bir eylem olarak göstermesi, iyinin başkasına yönelmiş aktarım içinde görünmesini sağlar. Bu bağlantı 92:18'deki somut verme ve arınma hareketiyle sınırlıdır; "yalanladı"nın olağan içeriğe yönelik anlamı sadaka için genel bir karşılığa veya kapsamlı bir ahlak tezine dönüşmez.
+
+Bu karşıt kolaylaştırmanın katkısı, yalanlamayı iki sonucun önünde duran bir yol eşiği olarak duyurmaktır. 92:7'deki {ar:فَسَنُيَسِّرُهُۥ لِلْيُسْرَىٰ, tr:fa-sanuyassiruhu lil-yusrā, gloss:onu kolaylık yoluna kolaylaştıracağız} olumlu yola açılmayı ve orada ilerlemenin giderek hafiflemesini taşır. Aynı kolaylaştırma hareketi 92:10'daki {ar:فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ, tr:fa-sanuyassiruhu lil-'usrā, gloss:onu zorluk yoluna kolaylaştıracağız} ifadesinde ters hedefe yönelir. {ar:لِلْعُسْرَىٰ, tr:lil-'usrā, gloss:zorluk ve engel yönüne} burulma, karşı koyma ve engel niteliğinde bir son noktayı duyurur; hareketin kolaylığı ile vardığı zorluk aynı yapıda birleşir. 92:7'deki kolaylık ile 92:10'daki zorluk, 92:9'u iki ayrı sonuçtan önce duran bir eşik hâline getirir. Bu yakın sıra içinde yalanlama, kendini engelleyen bir rotaya giriş ve o rotayı sürdürmenin kolaylaşması olarak okunabilir. Bağ 92:7 ve 92:10'un yakın sırasına aittir; zorluğun bağımsız biçimde uygulanan bir sonuç oluşu ve alışkanlık ya da kader hakkında daha geniş bir hüküm de kendi yerini korur.
+
+Bu yolun bir başka katkısı, reddedilen iyinin yerine konan dayanağın 92:11'de nasıl sınandığını göstermesidir. {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:güzel ve beğenilir olan} reddedilen iyi olarak dururken, 92:8'deki {ar:وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ, tr:wa-ammā man bakhila wa-staghnā, gloss:cimrilik edip kendini yeterli sayan kimse} kişinin dışarıdan gelecek iyiliğe ihtiyaç duymadığını ileri süren konumunu gösterir. Kendine yeterlik, güvenin başka bir dayanağa aktarılmasının başlangıcı olur. 92:11'deki {ar:وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّىٰ, tr:wa-mā yughnī 'anhu māluhu idhā taraddā, gloss:düştüğünde malı ona yetmez} ifadesi bu iddiayı karar anında sınar: mal, soyut bağımsızlık tavrının güvenilen maddi karşılığıdır; düşme ve yıkıma sürüklenme, bu dayanağın beklenen korumayı sağlayamadığı anı gösterir. Böylece iyi güvenin boşaldığı ilk yer, mal ise onun yerine konan fakat düşüşte beklentiyi karşılamayan destek olarak belirir. Yalanlama, güvenin bir nesneden diğerine aktarılması ve maddi ikamenin sonunda başarısız olmasıyla örülen bir beklenti tersine dönüşü gibi duyulur. Bu özel bağlantı 92:8 ile 92:11'deki ardışıklığa dayanır; doğrudan uyarı okuması da aynı anda canlıdır.
+
+Bu bağlantının katkısı, reddedilen iyiyi başlangıcı ve sonu görünen bir yönün ufku olarak duyurmaktır. {ar:كَذَّبَ بِٱلْحُسْنَىٰ, tr:kadhdhaba bi'l-husnā, gloss:en güzeli içerik olarak reddetti} cümlesindeki fiil reddetmeyi, iyinin adı yalanlanan içeriği söyler. Buna rağmen 92:12'deki {ar:إِنَّ عَلَيْنَا لَلْهُدَىٰ, tr:inna 'alaynā la-l-hudā, gloss:yol göstermenin bize ait olması} ifadesi yönlendirmeyi yola veya hakikate doğru nazikçe işaret etme şeklinde duyurur. Buradaki {ar:ٱلْهُدَىٰ, tr:al-hudā, gloss:yol gösteren ve yönlendiren} sevilen birine sunulan veya armağan edilen istikamet imgesini de açar. 92:13'teki {ar:وَإِنَّ لَنَا لَلْآخِرَةَ وَٱلْأُولَىٰ, tr:wa-inna lanā la-l-ākhira wa-l-ūlā, gloss:son da başlangıç da bize aittir} ifadesi {ar:ٱلْآخِرَةَ, tr:al-ākhira, gloss:sonraki ve son olan} ile {ar:ٱلْأُولَىٰ, tr:al-ūlā, gloss:ilk ve başlangıç olan}ı karşı karşıya getirir. Bu başlangıç-son çerçevesi, iyi ufkunu tek bir noktadan başlangıcı ve sonu görünen bir seyre genişletir (92:12, 92:13). {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:en yüksek çaba ve ulaşılabilir son sınır} desteklenmemiş bir vaat olarak değil, yönlendirmeyle açılan ve son sınıra kadar uzanan bir hedef gibi görünür. Bu bağlantıda yol ve ufuk, reddedilen iyinin bağlamla derinleşen katmanıdır; odak fiilinin kendisi bağımsız bir "yön" anlamı taşımaz.
+
+Bu yönün katkısı, iki ayrı bağlam kaydını aynı ufuk üzerinde ardışık hâle getirmesidir: 92:12'de yön teklif edilir, 92:14'te sonuçtan sakındıran uyarıya dönüşür. {ar:كَذَّبَ, tr:kadhdhaba, gloss:reddedilen içeriğe direnmek} ile {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:ulaşılacak en yüksek iyi} birlikte düşünüldüğünde 92:12'deki {ar:إِنَّ عَلَيْنَا لَلْهُدَىٰ, tr:inna 'alaynā la-l-hudā, gloss:yol gösterme bize aittir} nazik yönlendirmeyi, 92:14'teki {ar:فَأَنذَرْتُكُمْ, tr:fa-andhartukum, gloss:sizi uyardım} ise bu yönün sertleşen sonuç kaydını taşır. Bu birleşim sözlükte tek bir rehberlik-tehdit anlamı kurmaz; 92:12 ve 92:14'teki ayrı bağlam taşıyıcıları reddedilen ufukla temas eder. Davet olarak başlayan yön, 92:14'teki uyarıyla korunmaya götüren bir doğrultu gibi belirir; yalanlama ise o doğrultudan yüz çeviren hareket olarak duyulur.
+
+Uyarının bedensel katkısı, yönün tehlikeden korunmaya uzanan hareketini adım adım görünür kılmasıdır. 92:14'teki {ar:فَأَنذَرْتُكُمْ, tr:fa-andhartukum, gloss:sizi sakındırdım} sözü, {ar:نَارًا تَلَظَّىٰ, tr:nāran talazzā, gloss:alevlenen ve kızışan ateş} ile birleşerek iyinin reddinden ihtiyata ve korunmaya açılabilecek yolu gösterir; ateşin tutuşan ve yoğunlaşan yüzü tehlikenin derecesini artırır. 92:15'teki {ar:لَا يَصْلَىٰهَا, tr:lā yaṣlāhā, gloss:ateşe temas edip yanmamak} tehlikeyi uzaktaki bir işaretten bedensel temasa çevirir. 92:16'daki {ar:وَتَوَلَّىٰ, tr:wa-tawallā, gloss:geri dönüp yüz çevirdi} bu temasın yanına geri çekilmeyi koyar; reddin yönü soyut hükümden taşıyışa dönüşür. Buna karşılık 92:17'deki {ar:وَسَيُجَنَّبُهَا ٱلْأَتْقَىٰ, tr:wa-sayujannabuhā al-atqā, gloss:ondan en sakınan uzak tutulacak} yana çekilme, zararı savuşturma ve korunma imkânını görünür kılar. 92:14, 92:15, 92:16 ve 92:17'deki ateş, temas, geri dönüş ve uzak tutulma dizisi, reddedilen iyinin sonuçlarını aynı yön bağlantısı içinde birbirine bağlar. Okur reddi, uyarının korumaya götürebileceği doğrultudan yüz çevirip tehlikeye açık kalmak şeklinde bedensel olarak hisseder. Bu özel bağlantı 92:14, 92:15, 92:16 ve 92:17'deki bağlamla sınırlı, başkasına atfedilen nitelikli bir yön çağrışımıdır; gerçek bir mekân tarifi veya hukukî sonuç olarak kurulmaz.
+
+## Karşılıksız Veriş
+
+Bu bağlamın katkısı, iyiyi denk alışverişi aşan bir verme eylemi olarak görünür kılmasıdır. {ar:كَذَّبَ, tr:kadhdhaba, gloss:reddedilen içeriği eylemde boşa çıkardı} fiilinin saldırıdan sonra duraklayan ve işi sonuna kadar taşıyamayan özel kullanımı, {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:başkasına yönelen güzel iyilik} adının başkasına yarar sağlayan eylem yönüyle buluşur. Bu temas, denk bir alışverişi aşan iyiliği eyleme geçirmeyi reddetmek gibi duyulur. 92:18'deki {ar:يُؤْتِي مَالَهُ يَتَزَكَّىٰ, tr:yu'tī mālahu yatazakkā, gloss:malını verir ve arınarak büyür} verme hareketini dışarıya yöneltir; birikmiş mal kendine kapalı hâlden çıkar ve bırakma eksilme değil arınarak büyüme olur. 92:19'daki {ar:مِن نِّعْمَةٍ تُجْزَىٰ, tr:min ni'matin tujzā, gloss:karşılığı ödenecek bir iyilik} ise alınmış lütufla doğabilecek borcu ve ona denk karşılığı sahneye getirir. Bu temas, iyiyi eşleşen bir iade ekonomisine sığdırmayan karşılıksız veriş düzenini gösterir; ana cümledeki yalanlama hükmü bu bağlamın içinde korunur.
+
+Bu verme düzeni 92:20'deki {ar:إِلَّا ٱبْتِغَاءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:illā ibtighā'a wajhi rabbihi al-a'lā, gloss:yalnız yüce Rabbin yönünü arayarak} ifadesinde karşılık ödemesinin yerine geçen bir arayışa dönüşür. {ar:وَجْهِ, tr:wajh, gloss:yüz ve yön} insan ortağıyla yatay bir alışverişten başka bir istikamet açar; {ar:رَبِّهِ, tr:rabbihi, gloss:besleyen ve tamamlayan Rabbi} büyüten ve onaran bir ilişkiyi, {ar:ٱلْأَعْلَىٰ, tr:al-a'lā, gloss:daha yüce} ise bu yönün alışverişin üstüne yükselmesini duyurur. Sonunda 92:21'deki {ar:وَلَسَوْفَ يَرْضَىٰ, tr:wa-la-sawfa yarḍā, gloss:sonunda hoşnut olacaktır} kapanışı, verme seyrini borcun kapatılmasıyla değil yaşanan bir tamamlanma ve hoşnutlukla bitirir. 92:18'deki verme ve arınma, 92:19'daki denk karşılık, 92:20'deki daha yüce yöneliş ve 92:21'deki hoşnutluk birlikte, iyiyi serveti serbest bırakan, yatay borç hesabını aşan ve tamamlanmaya yönelen bir armağan düzeni olarak gösterir. Bu görüntü 92:18, 92:19, 92:20 ve 92:21'deki verme dizisinin açtığı nitelikli bağlam katmanıdır; cümlenin olağan iyiyi veya ödülü reddetme anlamı bu katmanın içinde yerini korur.
+
+Bu maddi görüntünün katkısı, güzel görünen yüzey ile gizlenen karşıtlık arasındaki ilişkiyi elle tutulur hâle getirmesidir. {ar:كَذَّبَ, tr:kadhdhaba, gloss:aldatıcı görünüş taşıyan boyalı kumaş} fiilinin kabul edilmiş bir kollokasyonu, boya ve desenleriyle dokunmuş izlenimi veren fakat görünüşüyle şartını yanıltan bir kumaşı taşır; {ar:ٱلْحُسْنَىٰ, tr:al-husnā, gloss:çekici güzellik} bu yüzeyde sunulan güzel ve beğenilir niteliği sağlar. Örtme hareketi 92:1'deki {ar:وَٱلَّيْلِ إِذَا يَغْشَىٰ, tr:wa-l-layli idhā yaghshā, gloss:gece örtüp kapladığında} ifadesinden gelir; çekici yüzeyin altındaki durumu saklar. 92:2'deki {ar:وَٱلنَّهَارِ إِذَا تَجَلَّىٰ, tr:wa-n-nahāri idhā tajallā, gloss:gündüz açığa çıktığında} ise örtünün sakladığı karşıt durumu görünür hâle getirir. 92:20'deki {ar:وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ, tr:wajhi rabbihi al-a'lā, gloss:yüce Rabbin yönü} birbiriyle bağdaşmayan yönleri aynı toplumsal yüzeyde sunabilen iki-yüzlülük için ayrı bir benzetme alanı açar. Örtme yüzeyi saklar, açığa çıkma onu ele verir, uyumsuz yöneliş ise aynı yüzeyde iki ayrı yönün sunulabildiğini gösterir (92:1, 92:2, 92:20). Böylece güzel görünen yüzey kendi karşıtını saklayıp ifşa anında ele verebilir; görünüşün anlamı açığa çıkma olayıyla değişir. Bu özel bağlantının kapsamı, kabul edilmiş kumaş kollokasyonundan 92:1, 92:2 ve 92:20'deki örtme, görünür olma ve yön sahnelerine uzanan keşifsel maddi benzetmedir; cümlenin fiili ve adı burada doğrudan çeviri işleviyle değil, bu benzetmenin taşıyıcıları olarak çalışır. Cümlenin zemini yine kişinin {ar:وَكَذَّبَ بِٱلْحُسْنَىٰ, tr:wa-kadhdhaba bi'l-husnā, gloss:ve en güzeli yalanlarsa} ile en güzel olanı yalanlamasıdır.
+
+</source_prose>
