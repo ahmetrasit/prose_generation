@@ -1615,29 +1615,22 @@ or evidence.
 </focus_context_brief>
 
 <micro_scope_prose>
-Âyetin yalın hükmü şudur: İnsan gerçekten kayıp içindedir.
+Bu kısa âyetin açık hükmü şudur: {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} gerçekten {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} içindedir. Öncesindeki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemini burada cevabını bulur; {ar:إِنَّ, tr:inna, gloss:gerçekten} yemin cevabı olarak hükmü başlatır. Bu parçacık yalnız bir giriş vurgusu değildir: insanı ve kayıp içindeki oluşunu taşıyan bütün önermeyi yönetir. İddia iki yerde pekişir; baştaki inna ile yüklemin başına gelen lâm, doğrulamayı doğrudan kayıp hükmünün üzerine taşır. Yazıdaki şedde ve iki n sesi, insan adı gelmeden önce sözü tutup sıkıştırır; böylece hüküm, öznesi ve yüklemi açılmadan önce bastırılmış bir sesle duyulur.
 
-Başlangıçtaki {ar:إِنَّ, tr:inna, gloss:gerçekten} şeddeli n sesiyle sözü bir an tutar; ardından {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} içindeki n aynı sesi sürdürür, böylece özne daha adlandırılmadan hükmün sesi sıkışıp toplanır ve bu yerel bir ses etkisi olarak kalır. Başlangıçtaki {ar:إِنَّ, tr:inna, gloss:gerçekten} önermeyi açar, {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} içindeki bağlı lâm vurguyu yüklemde yeniden kurar; iki işaret aynı kayıp hükmünü kuvvetle duyurur, sözlük anlamına yeni bir anlam eklemeden. {ar:إِنَّ, tr:inna, gloss:gerçekten}, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} öznesini ve {ar:لَفِى خُسْرٍ, tr:la-fī khusrin, gloss:kayıp içindedir} yüklemini birlikte yönetir; böylece açılış önermenin tamamını bildirir ve bu dilbilgisel saptama hükmün kesinliğine ayrı bir ölçü eklemez.
+{ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} tekil ve belirli görünür; fakat buradaki belirli isim bir kişiyi değil, insan türünü bir sınıf olarak toplar ve bu geniş sınıf kapsamı 103:3'teki istisnanın neden gerekli olduğunu da açıklar. Bu isim, inna'nın yönettiği öğe olarak cümlenin yapanı değil, kendisine bir durum yüklenen insanlığı gösterir; insan, kaybeden bir işi yapan failden önce kayıp içindeki varlık olarak yerleştirilir. Zaman tanıklığından insan hükmüne geçiş böylece hemen gerçekleşir: önce zaman gösterilir, ardından o tanıklığın altında insanın durumu ilan edilir. Ses de bu bağı taşır; açılıştaki burun sesi insan adında sürer, ardından gelen kayıp kelimesinin sızıcı sesiyle özne ve yüklem tek bir hüküm gibi birbirine bağlanır. İnsan ile kayıp, bu kısa cümlede birlikte görülen belirgin bir hüküm çifti olarak yoğunlaşır. 22:11, 46:18 ve 41:25'teki hüküm bağlamlarında da görülen bu eşleşme, iki kelimeyi rastlantılı bir yan yana geliş olmaktan çıkarır. İnsan kelimesinin taşıdığı sosyal yakınlık alanı ile klasik türetimlerde görülen unutma baskısı da burada sınırlı bir gerilim oluşturur: sonraki âyetin istisnası, sosyal olarak kurulmuş ve unutmaya açık insanın karşısına iman, iyi iş ve karşılıklı öğüdü çıkarır; bu gerilim, yerel insan anlamının yerine geçmeden hükmün açtığı ihtiyacı görünür kılar.
 
-Önceki âyetteki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemini burada yanıtını bulur: {ar:إِنَّ, tr:inna, gloss:gerçekten} yanıtı açar ve {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} öznesini kayıp yüklemine bağlayarak zaman tanıklığını insanın hâline yöneltir; bu bağlantı komşu âyetler arasında kalır. Bu cevapta {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} öznesinin görünmesi yeminin zaman tanıklığından antropolojik hükme geçişi sağlar; odak insan sınıfına döner ve bu yerel geçiş surenin bütün savını kurmaz. {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} sözü insan türünü, topluluğu ya da tek kişiyi görünmeyen varlıklar sınıfının karşısında adlandırır; önceki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemini ve {ar:إِنَّ, tr:inna, gloss:gerçekten} ile açılan yanıt bu sınıf adını hükmün hedefi yapar, kelimenin insan anlamını değiştirmeden.
+{ar:لَفِى, tr:la-fī, gloss:kayıp içindedir} sözü, {ar:فِى, tr:fī, gloss:içinde} ile kaybı insanın yanında duran gevşek bir nesne gibi değil, insanın içinde bulunduğu bir durum alanı gibi kurar. Lâm ile fî'nin aynı kısa yüzeyde birleşmesi, doğrulama ile kuşatmayı arka arkaya değil, kayıp kelimesi gelmeden birlikte duyurur. Lâm'ın yükleme yerleşmesi de vurguyu cümlenin kenarında bırakmaz; doğrulama tam olarak insanın hangi durumda bulunduğunu söyleyen yükleme ulaşır. Önceki zaman yemini bu yüzden uzakta duran bir tanıklık olarak kalmaz; lâmın yemin cevabını taşıması ve fî'nin insanı kaybın içine yerleştirmesiyle zaman baskısı, burada bir durumun mekânına dönüşür.
 
-Belirli tekil {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} bütün insan türünü hükmün kapsamına toplar; sözcük topluluğu da tek kişiyi de adlandırabilir ve sonraki istisna bu geniş kapsamın içinden bir sınır açarken insan anlamı yerinde kalır. Sonraki âyetteki istisna bu insan türü adına geri döner ve kapsamını içeriden ayırır; böylece geniş hüküm korunurken istisnanın yaptığı iş de görünür olur. Arapça cümlede {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} inna'nın mansup öznesidir, {ar:لَفِى خُسْرٍ, tr:la-fī khusrin, gloss:kayıp içindedir} ise onun edatlı haberidir; insan kaybetme eyleminin faili değil, kendisine bir durum yüklenen öznedir ve bu ayrım kişilerin tek tek yaşantısını belirlemez. Böylece {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} ile {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} insanı kayıp durumuyla tek bir sınıf yargısında buluşturur; bu insan-kayıp ikilisinin başka yargı bağlamlarında da tekrarlandığı aktarılır, fakat öteki bağlamların sözleri burada görünmediğinden yalnız odaktaki ilişki yorumlanır.
+Son kelime {ar:خُسْرٍ, tr:khusrin, gloss:kayıp}, bir insanın yaptığı tek bir kaybetme olayını değil, fî'nin yönettiği soyut bir durumun adını verir. Bu biçim, geniş kayıp alanını çıplak bir isim-fiil yoğunluğunda toplar. Kökün eksilme, anapara yitimi, ölçüde azalma ve yıkım yönleri, 103:1'deki zaman yemininin ardından bu kısa kelimenin çevresinde basınç oluşturur; yine de cümlenin grameri burada ticaret işlemini ya da ölçüde eksiltmeyi tek başına seçmez. Kelimenin belirsiz oluşu da hükmün sınırını çizmez: belirli bir nesneye, miktara veya tek bir kayba işaret etmeyen açık uçlu bir kayıp alanı bırakır. Standart kısa biçim âyeti keskin biçimde kapatırken, kaynakta aktarılan daha uzun biçimler aynı kayıp inişine daha ağır bir ses verir; bu karşılaştırma standart yüzeyi açıklığa kavuşturur, onun yerine başka bir okuma koymaz. Kayıp kelimesi böylece hem hükmün son anlamsal durağı hem de 103:1, 103:2 ve 103:3'ün r ile kapanan ses zincirinin halkası olur. Geniş insan hükmü burada tamamlanırken, sonraki âyetin istisna zincirine de basınç verir; iman, iyi iş ve karşılıklı öğüt, şimdi ilan edilen kayıp durumuna cevap verecek bir açılım olarak belirir.
 
-{ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} yine insanları adlandırır, fakat aynı kelime ailesindeki toplumsallık ve aşinalık alanı sonraki âyetin karşılıklı öğüt verişiyle yan yana gelir; klasik türetim tartışmasında unutkanlık da ihtiyatlı bir karşı-okuma olarak kalır ve yerel insan anlamının yerine geçmez. Bu insan adı türü, insan topluluğunu ya da tek kişiyi görünmeyen varlıklar sınıfından ayırabilir; topluluğun birbirine öğüt vermesi ayrı tetik olarak bu kolektif yanı etkinleştirir ve kayıp hükmünün yanına ilişkisel bir topluluk pratiği koyar, unutkanlık ise tartışmalı türetim düzeyinde kalır. {ar:إِنَّ, tr:inna, gloss:gerçekten} ve {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} içindeki burun sesi son {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin sibilantına doğru ilerler; işitsel sıra iddia, özne ve yüklemi bağlar ve bu yerel ses ilişkisi köke yeni anlam yüklemez.
+Bu açık cümle yerinde kalırken, aktarılmış bir yerel okuma {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} adının insan sınıfını, {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin genel eksilmeyi taşıması arasındaki temastan şu görüntüyü çıkarır: insan, zaman zaman kayıp yaşayan biri olmaktan ibaret değil, kuşatıcı bir eksilme koşulunun içindedir. İnsan adı burada insan türünü taşıyan sözcüktür; onu etkinleştiren ayrı temas, kaybı içine alan {ar:لَفِى, tr:la-fī, gloss:kayıp içindedir} ile iki vurgunun kurduğu insan-kayıp ilişkisidir. Kayıp kelimesi de genel eksilmeyi taşıyan kapanış olarak insan sınıfıyla buluşur; insan adının özne oluşu ve fî'nin onu bu durumun içine yerleştirmesi, eksilmeyi kuşatıcı bir koşul haline getirir. Bu temas, insan türünün mutlaka yalnızca böyle açıklanması gerektiğini söylemez; açık insanın kayıp içindeki hükmünü koruyan, sınırı belirli bir genişlemedir.
 
-{ar:فِى, tr:fī, gloss:içinde} sözü {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesini insan öznesinin haberi yaparak içinde bulunulan durum gibi kurar; kayıp böylece iliştirilmiş bir eşya değil, yüklemin çevrelediği soyut hâl olur. Kayıp sözü burada miktarından, bütünlüğünden ya da değerinden bir bölümün yitimini taşır; ayrı {ar:فِى, tr:fī, gloss:içinde} ve insan öznesi bu anlamı olaydan kuşatan duruma çevirir, bedenin bulunduğu fiziksel bir yer anlamına değil. {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} yazımında bağlı lâm ile fī tek yüzeyde birleşir; vurgu ve içine-alma yükleme varmadan aynı kısa eşikte buluşur, bu sıkışıklık yeni bir kök anlamı yaratmaz. Başlangıçtaki {ar:إِنَّ, tr:inna, gloss:gerçekten} önermeyi kurduğu için {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} içindeki lâm vurguyu yeniden yükleme taşır; insan-kayıp hükmü hem girişte hem tamamlandığı yerde belirginleşir ve lâm burada bağımsız edat değil pekiştirme işidir. Önceki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemininin zamansal tanıklığı {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} içindeki yer bildiren fī ile yanıtlanır ve {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} insanın içine yerleştirildiği hâli adlandırır; mekânsal yön dilbilgiseldir ve zamanı gerçek bir kap saymaz. {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} bir miktar, bütünlük ya da değer yitimi taşıyan kelimedir; ayrı zaman yemini bu eksilmeyi baskı altında duyururken fī onu kuşatan hâl yapar, ancak zaman kaybın nedeni ya da sözün gerçek karşılığı ilan edilmez.
+Aynı açık hüküm, yine aktarılmış fakat sınırı belirli başka bir okumada, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} insan varlığını yeterli karşılık üretmeyen bir hesapta harcanan anapara gibi görünür. İnsan kelimesinin insan varlığını taşıması, {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin ticari kayıp veya anaparanın korunamaması anlamıyla buluşur; {ar:لَفِى, tr:la-fī, gloss:kayıp içindedir} ile kurulan ve çift vurguyla doğrulanan bu insan, hesabın yatırılmış sermayesi gibi düşünülür. Kayıp kelimesi bu temas içinde beklenen kazancın doğmamasını ya da anaparadan yitirmeyi taşır; böylece soyut durum, karşılıksız harcanan bir hayat hesabı görüntüsüne dönüşür. Hesap görüntüsü yerel ve atıflı bir benzetmedir; âyetin açık kayıp hükmünü genişletir, fakat gerçek bir ticaret işlemi veya kişinin mali durumu hakkında doğrudan iddia kurmaz.
 
-Standart {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} biçimi kısa bir sesle âyeti kapatırken, daha dolgun bildirilen {ar:خُسُرٍ, tr:khusurin, gloss:kayıp} aynı kayıp sözünü uzatıp ağırlaştırır; bu işitsel karşılaştırma standart yüzeyi korur ve anlamını değiştirmez. Son {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} hem âyetin son sözü hem kayıp hükmünün inişidir; önceki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} ile sonraki {ar:ٱلصَّبْرِ, tr:al-ṣabr, gloss:sabır} da r sesiyle kapanır ve bu üçlü ses bağı kaybı aradaki orta iniş yaparken sözler ayrı anlamlarını korur. {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin taşıdığı miktar, bütünlük ya da değer yitimi iki yandaki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} ve {ar:ٱلصَّبْرِ, tr:al-ṣabr, gloss:sabır} kapanışlarının r sesiyle tetiklenir; odak kelime böylece zaman yeminiyle sabır sözü arasındaki işitsel orta iniş olur, komşu sözler eş anlamlılaşmadan.
+Bir başka, daha keşifsel aktarılmış temas, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} kelimesini algılayan ve değerlendiren yönüyle ele alır: insanın kavradığı, değer biçtiği veya ortaya koyduğu şey, daha baştan kısa ölçü içinde kalabilir. İnsan kelimesinin görüp fark eden insanı taşıyan yönü, {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin ölçü ve tartıda eksiltme baskısıyla ve insanı içine alan {ar:فِى, tr:fī, gloss:içinde} ile buluştuğunda, eksiklik yalnızca sonradan gelen dış bir sonuç olmaktan çıkarak algılama ve değerlendirme biçimine dokunur. Bu okuma, her insan algısının kusurlu olduğunu veya burada gerçek bir tartma işlemi bulunduğunu ileri sürmez; açık insan-kayıp hükmünü koruyan, ihtimal derecesi belirgin bir yerel temas olarak kalır.
 
-{ar:خُسْرٍ, tr:khusrin, gloss:kayıp} burada {ar:فِى, tr:fī, gloss:içinde} altında soyut masdar olarak genel kaybı taşır; aynı kelime ailesinde alışverişte anaparadan yitirme, ölçü-tartıda eksik bırakma ve doğru yoldan sapıp iyilikleri yitirerek yıkıma düşme anlamları da bulunur, ancak odak masdar piyasa ya da tartı sahnesi kurmaz. Kayıp adının genel kolu, bir şeyin miktarından, bütünlüğünden veya değerinden parça yitirmesidir; önceki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemini ile fī bu eksilmeyi baskı altındaki bir hâl yapar, sonraki iman, iyi iş ve karşılıklı öğüt istisnası da ayrı bir etik tetik olarak doğru yoldan sapıp iyiliği kaybetme ve yıkıma düşme nüansını açar, genel kaybı koruyup belirli bir cezaya bağlamadan. {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} ile bildirilen genel durumun kapsamı sonraki âyette iman, iyi işler ve karşılıklı öğütle gelen istisnaya doğru açılır; kayıp hükmü böylece yanıt gerektiren bir alan olur, istisna genel cümleyi silmez ve bağlantı bu kapsam ilişkisiyle sınırlıdır. Kayıp kelimesi miktar, bütünlük ya da değerden bir parçanın yitimini taşır; sonraki istisna ayrı bir tetik olarak buna yanıt verdiğinde genel durumun kapsamı açık kalır ve içindeki yol görünür olur.
+Âyetin sonunda elde kalan hüküm yine açıktır: insan, gerçekten kayıp içindedir. Fakat bu hüküm artık yalnızca genel bir cümle olarak değil, yeminle açılan, iki vurguyla pekişen, insan türünü tek bir isimde toplayan ve kaybı içinde bulunulan bir duruma dönüştüren sıkı bir yapı olarak duyulur. Aynı yapı içinde kuşatıcı eksilme, karşılıksız hesap ve kısa ölçüde kalan algı görüntüleri, açık hükmü yerinden etmeden kendi temasları ve sınırlarıyla canlı kalır; sonraki istisnanın neden gerekli olduğu da bu açıklığın içinden anlaşılır.
 
-{ar:خُسْرٍ, tr:khusrin, gloss:kayıp} insanın yaptığı bir kaybetme eyleminden çok içinde bulunduğu soyut masdar durumunu adlandırır; {ar:فِى, tr:fī, gloss:içinde} onu yüklem içinde özneye bağlar, böylece insan kayıp içindeki hâliyle görünür ve söz etkin bir kaybeden etiketi olmaz. Kelimenin taşıdığı miktar, bütünlük veya değer eksilmesi ayrı {ar:فِى, tr:fī, gloss:içinde} edatıyla birleşerek özneye yüklenen duruma dönüşür; kuşatma burada dilbilgiseldir, fiziksel bir çevre değildir. Soyut masdar, kayıp ailesinin geniş alanını {ar:فِى, tr:fī, gloss:içinde} sonrasında tek bir duruma yoğunlaştırır; başka türemiş biçimler bu yerel cümlenin ek anlamları gibi çalışmaz ve kısa isim insanı kuşatan anlamı taşır. Tenvinli belirsiz {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yüklemin sonunda yer alır, {ar:إِنَّ, tr:inna, gloss:gerçekten} ile {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} de hükmü pekiştirir; kapsamı adı konmuş bir sınır olmadan genişletir ama her olası kaybı ya da sonu tanımlamaz. Genel kayıp sözü miktar, bütünlük ya da değer yitimini taşırken, ayrı {ar:إِنَّ, tr:inna, gloss:gerçekten}, bağlı lâm ve {ar:فِى, tr:fī, gloss:içinde} belirsiz ismi vurgulu bir kuşatma içine alır; insan çevresindeki ölçüsü konmamış durum duyulur, belirli bir son tayin edilmez.
-
-İnsan adının ayrı kayıp yüklemi ve {ar:فِى, tr:fī, gloss:içinde} ilişkisiyle buluşmasından hareket eden ihtiyatlı bir okuma, insanı yalnız zaman zaman kayba uğrayan tek tek kişiler olarak değil, insan türünün kendisini geniş bir eksilme koşulunda yerleşmiş halde duyar; hüküm böylece sınıfa yayılır, her bireyin aynı sonuca ulaştığını söylemeden. {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} sözü insan türünü, topluluğu ya da tek kişiyi görünmeyen varlıklar sınıfının karşısında adlandırır; bu kök çağrışımında görünür insanın sınıf olarak belirişi, ayrı {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yükleminin tetiklemesiyle öne çıkar, fakat görünürlük sözcüğün tek başına yeni bir sözlük anlamı olmaz. Kayıp adı miktar, bütünlük ya da değerden bir bölümün eksilmesini taşır; ayrı insan öznesi, fī ve açılışla yüklemdeki vurgu bu genel eksilmeyi tekil bir olay değil, insan sınıfını kuşatan bir durum gibi duyurur.
-
-Bir benzetme olarak, insan varlığı {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} kayıp yüklemi içinde dururken belirsiz zarardan, tükenebilen anapara ve dönmeyebilen beklenen getiri hesabına dönüşür; bu ihtiyatlı imge âyetin gerçek bir ticaretten söz ettiği anlamına gelmez. İnsan türünü ya da topluluğu adlandıran insan sözü benzetmenin taşıyıcısı olur; ayrı {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yüklemi ve fī'nin kurduğu ilişki, insan varlığını kaybın içinde duran sermaye gibi düşündürür. {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} sözünün ticari kullanımı, işlem sonunda başlangıç anaparasının bir bölümünü yitirmeyi ve beklenen kazancın doğmamasını anlatır; ayrı insan öznesi bu imgeye sermayeyi, fī ilişkisi ise onu kuşatan kayıp hâlini sağlar.
-
-Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} yalnız sonradan dışarıdan kayba uğrayan nötr bir özne değil, algılayan insan olarak düşünülebilir; böylece eksiklik dış zarardan algılama ve değer biçmeye taşınır, fakat her yargının kusurlu olduğu ileri sürülmez. İnsan adı için görerek fark etme ve seçme kullanımı, bu ihtiyatlı okumada algılayan insan merceğini sağlar; ayrı {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yüklemiyle buluşması eksikliği dışarıdan uğranan zarardan kavrayışa ve değer biçmeye taşır. Kayıp adı için ölçü veya tartı sonucunu olması gerekenden az bırakma kullanımı da ayrı bir sözlük kaynağıdır; insanın özne olarak bu eksik ölçüyle buluşması algı ve değerlemenin yetersiz kalabileceğini düşündürür, ancak gerçek bir tartı eylemi ya da bütün algıların eksikliği anlamına gelmez.
 </micro_scope_prose>
 
 <micro_scope_ledger>
@@ -1647,32 +1640,32 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
   "lane": "micro",
   "findings": [
     {
-      "finding_ref": "micro:opening-sound",
+      "finding_ref": "micro:opening-sound-compression",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Başlangıçtaki {ar:إِنَّ, tr:inna, gloss:gerçekten} şeddeli n sesiyle sözü bir an tutar; ardından {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} içindeki n aynı sesi sürdürür, böylece özne daha adlandırılmadan hükmün sesi sıkışıp toplanır ve bu yerel bir ses etkisi olarak kalır."
+          "paragraph": 1,
+          "anchor": "Yazıdaki şedde ve iki n sesi, insan adı gelmeden önce sözü tutup sıkıştırır; böylece hüküm, öznesi ve yüklemi açılmadan önce bastırılmış bir sesle duyulur."
         }
       ]
     },
     {
-      "finding_ref": "micro:double-emphasis",
+      "finding_ref": "micro:double-emphasis-frame",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Başlangıçtaki {ar:إِنَّ, tr:inna, gloss:gerçekten} önermeyi açar, {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} içindeki bağlı lâm vurguyu yüklemde yeniden kurar; iki işaret aynı kayıp hükmünü kuvvetle duyurur, sözlük anlamına yeni bir anlam eklemeden."
+          "paragraph": 1,
+          "anchor": "İddia iki yerde pekişir; baştaki inna ile yüklemin başına gelen lâm, doğrulamayı doğrudan kayıp hükmünün üzerine taşır."
         }
       ]
     },
     {
-      "finding_ref": "micro:proposition-scope",
+      "finding_ref": "micro:emphasis-governs-proposition",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "{ar:إِنَّ, tr:inna, gloss:gerçekten}, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} öznesini ve {ar:لَفِى خُسْرٍ, tr:la-fī khusrin, gloss:kayıp içindedir} yüklemini birlikte yönetir; böylece açılış önermenin tamamını bildirir ve bu dilbilgisel saptama hükmün kesinliğine ayrı bir ölçü eklemez."
+          "paragraph": 1,
+          "anchor": "Bu parçacık yalnız bir giriş vurgusu değildir: insanı ve kayıp içindeki oluşunu taşıyan bütün önermeyi yönetir."
         }
       ]
     },
@@ -1680,34 +1673,29 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "finding_ref": "micro:oath-answer",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "context:103:1"],
-          "paragraph": 3,
-          "anchor": "Önceki âyetteki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemini burada yanıtını bulur: {ar:إِنَّ, tr:inna, gloss:gerçekten} yanıtı açar ve {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} öznesini kayıp yüklemine bağlayarak zaman tanıklığını insanın hâline yöneltir; bu bağlantı komşu âyetler arasında kalır."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:1"],
+          "paragraph": 1,
+          "anchor": "Öncesindeki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemini burada cevabını bulur; {ar:إِنَّ, tr:inna, gloss:gerçekten} yemin cevabı olarak hükmü başlatır."
         }
       ]
     },
     {
-      "finding_ref": "micro:species-exception",
+      "finding_ref": "micro:generic-human-scope",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Belirli tekil {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} bütün insan türünü hükmün kapsamına toplar; sözcük topluluğu da tek kişiyi de adlandırabilir ve sonraki istisna bu geniş kapsamın içinden bir sınır açarken insan anlamı yerinde kalır."
-        },
-        {
-          "movement_refs": ["activation:0", "context:103:3"],
-          "paragraph": 4,
-          "anchor": "Sonraki âyetteki istisna bu insan türü adına geri döner ve kapsamını içeriden ayırır; böylece geniş hüküm korunurken istisnanın yaptığı iş de görünür olur."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:3"],
+          "paragraph": 2,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} tekil ve belirli görünür; fakat buradaki belirli isim bir kişiyi değil, insan türünü bir sınıf olarak toplar ve bu geniş sınıf kapsamı 103:3'teki istisnanın neden gerekli olduğunu da açıklar."
         }
       ]
     },
     {
-      "finding_ref": "micro:human-subject",
+      "finding_ref": "micro:humanity-in-condition",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Arapça cümlede {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} inna'nın mansup öznesidir, {ar:لَفِى خُسْرٍ, tr:la-fī khusrin, gloss:kayıp içindedir} ise onun edatlı haberidir; insan kaybetme eyleminin faili değil, kendisine bir durum yüklenen öznedir ve bu ayrım kişilerin tek tek yaşantısını belirlemez."
+          "paragraph": 2,
+          "anchor": "Bu isim, inna'nın yönettiği öğe olarak cümlenin yapanı değil, kendisine bir durum yüklenen insanlığı gösterir; insan, kaybeden bir işi yapan failden önce kayıp içindeki varlık olarak yerleştirilir."
         }
       ]
     },
@@ -1716,68 +1704,58 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "Böylece {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} ile {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} insanı kayıp durumuyla tek bir sınıf yargısında buluşturur; bu insan-kayıp ikilisinin başka yargı bağlamlarında da tekrarlandığı aktarılır, fakat öteki bağlamların sözleri burada görünmediğinden yalnız odaktaki ilişki yorumlanır."
+          "paragraph": 2,
+          "anchor": "İnsan ile kayıp, bu kısa cümlede birlikte görülen belirgin bir hüküm çifti olarak yoğunlaşır."
         }
       ]
     },
     {
-      "finding_ref": "micro:oath-human-verdict",
+      "finding_ref": "micro:time-to-human",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "context:103:1"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:1"],
+          "paragraph": 2,
+          "anchor": "Zaman tanıklığından insan hükmüne geçiş böylece hemen gerçekleşir: önce zaman gösterilir, ardından o tanıklığın altında insanın durumu ilan edilir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:social-forgetful-tension",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:3"],
+          "paragraph": 2,
+          "anchor": "İnsan kelimesinin taşıdığı sosyal yakınlık alanı ile klasik türetimlerde görülen unutma baskısı da burada sınırlı bir gerilim oluşturur: sonraki âyetin istisnası, sosyal olarak kurulmuş ve unutmaya açık insanın karşısına iman, iyi iş ve karşılıklı öğüdü çıkarır; bu gerilim, yerel insan anlamının yerine geçmeden hükmün açtığı ihtiyacı görünür kılar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:nasal-sibilant-thread",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Ses de bu bağı taşır; açılıştaki burun sesi insan adında sürer, ardından gelen kayıp kelimesinin sızıcı sesiyle özne ve yüklem tek bir hüküm gibi birbirine bağlanır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:loss-as-space",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 3,
-          "anchor": "Bu cevapta {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} öznesinin görünmesi yeminin zaman tanıklığından antropolojik hükme geçişi sağlar; odak insan sınıfına döner ve bu yerel geçiş surenin bütün savını kurmaz."
+          "anchor": "{ar:لَفِى, tr:la-fī, gloss:kayıp içindedir} sözü, {ar:فِى, tr:fī, gloss:içinde} ile kaybı insanın yanında duran gevşek bir nesne gibi değil, insanın içinde bulunduğu bir durum alanı gibi kurar."
         }
       ]
     },
     {
-      "finding_ref": "micro:sociality-and-counsel",
+      "finding_ref": "micro:fused-predicate-compression",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} yine insanları adlandırır, fakat aynı kelime ailesindeki toplumsallık ve aşinalık alanı sonraki âyetin karşılıklı öğüt verişiyle yan yana gelir; klasik türetim tartışmasında unutkanlık da ihtiyatlı bir karşı-okuma olarak kalır ve yerel insan anlamının yerine geçmez."
-        },
-        {
-          "movement_refs": ["activation:0", "context:103:3"],
-          "paragraph": 5,
-          "anchor": "Bu insan adı türü, insan topluluğunu ya da tek kişiyi görünmeyen varlıklar sınıfından ayırabilir; topluluğun birbirine öğüt vermesi ayrı tetik olarak bu kolektif yanı etkinleştirir ve kayıp hükmünün yanına ilişkisel bir topluluk pratiği koyar, unutkanlık ise tartışmalı türetim düzeyinde kalır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:sound-thread",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "{ar:إِنَّ, tr:inna, gloss:gerçekten} ve {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} içindeki burun sesi son {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin sibilantına doğru ilerler; işitsel sıra iddia, özne ve yüklemi bağlar ve bu yerel ses ilişkisi köke yeni anlam yüklemez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:loss-predicate-space",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "{ar:فِى, tr:fī, gloss:içinde} sözü {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesini insan öznesinin haberi yaparak içinde bulunulan durum gibi kurar; kayıp böylece iliştirilmiş bir eşya değil, yüklemin çevrelediği soyut hâl olur."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 6,
-          "anchor": "Kayıp sözü burada miktarından, bütünlüğünden ya da değerinden bir bölümün yitimini taşır; ayrı {ar:فِى, tr:fī, gloss:içinde} ve insan öznesi bu anlamı olaydan kuşatan duruma çevirir, bedenin bulunduğu fiziksel bir yer anlamına değil."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:fused-predicate",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "{ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} yazımında bağlı lâm ile fī tek yüzeyde birleşir; vurgu ve içine-alma yükleme varmadan aynı kısa eşikte buluşur, bu sıkışıklık yeni bir kök anlamı yaratmaz."
+          "paragraph": 3,
+          "anchor": "Lâm ile fî'nin aynı kısa yüzeyde birleşmesi, doğrulama ile kuşatmayı arka arkaya değil, kayıp kelimesi gelmeden birlikte duyurur."
         }
       ]
     },
@@ -1786,53 +1764,48 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 6,
-          "anchor": "Başlangıçtaki {ar:إِنَّ, tr:inna, gloss:gerçekten} önermeyi kurduğu için {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} içindeki lâm vurguyu yeniden yükleme taşır; insan-kayıp hükmü hem girişte hem tamamlandığı yerde belirginleşir ve lâm burada bağımsız edat değil pekiştirme işidir."
+          "paragraph": 3,
+          "anchor": "Lâm'ın yükleme yerleşmesi de vurguyu cümlenin kenarında bırakmaz; doğrulama tam olarak insanın hangi durumda bulunduğunu söyleyen yükleme ulaşır."
         }
       ]
     },
     {
-      "finding_ref": "micro:temporal-to-spatial",
+      "finding_ref": "micro:time-to-location",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "context:103:1"],
-          "paragraph": 6,
-          "anchor": "Önceki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemininin zamansal tanıklığı {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} içindeki yer bildiren fī ile yanıtlanır ve {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} insanın içine yerleştirildiği hâli adlandırır; mekânsal yön dilbilgiseldir ve zamanı gerçek bir kap saymaz."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:1"],
+          "paragraph": 3,
+          "anchor": "Önceki zaman yemini bu yüzden uzakta duran bir tanıklık olarak kalmaz; lâmın yemin cevabını taşıması ve fî'nin insanı kaybın içine yerleştirmesiyle zaman baskısı, burada bir durumun mekânına dönüşür."
         }
       ]
     },
     {
-      "finding_ref": "micro:clipped-form",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 7,
-          "anchor": "Standart {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} biçimi kısa bir sesle âyeti kapatırken, daha dolgun bildirilen {ar:خُسُرٍ, tr:khusurin, gloss:kayıp} aynı kayıp sözünü uzatıp ağırlaştırır; bu işitsel karşılaştırma standart yüzeyi korur ve anlamını değiştirmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:r-closure",
+      "finding_ref": "micro:clipped-loss-closure",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 7,
-          "anchor": "Son {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} hem âyetin son sözü hem kayıp hükmünün inişidir; önceki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} ile sonraki {ar:ٱلصَّبْرِ, tr:al-ṣabr, gloss:sabır} da r sesiyle kapanır ve bu üçlü ses bağı kaybı aradaki orta iniş yaparken sözler ayrı anlamlarını korur."
-        },
-        {
-          "movement_refs": ["activation:0", "context:103:1", "context:103:3"],
-          "paragraph": 7,
-          "anchor": "{ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin taşıdığı miktar, bütünlük ya da değer yitimi iki yandaki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} ve {ar:ٱلصَّبْرِ, tr:al-ṣabr, gloss:sabır} kapanışlarının r sesiyle tetiklenir; odak kelime böylece zaman yeminiyle sabır sözü arasındaki işitsel orta iniş olur, komşu sözler eş anlamlılaşmadan."
+          "paragraph": 4,
+          "anchor": "Standart kısa biçim âyeti keskin biçimde kapatırken, kaynakta aktarılan daha uzun biçimler aynı kayıp inişine daha ağır bir ses verir; bu karşılaştırma standart yüzeyi açıklığa kavuşturur, onun yerine başka bir okuma koymaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:deficit-and-ruin",
+      "finding_ref": "micro:loss-final-landing",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "context:103:1", "context:103:3"],
-          "paragraph": 8,
-          "anchor": "Kayıp adının genel kolu, bir şeyin miktarından, bütünlüğünden veya değerinden parça yitirmesidir; önceki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} yemini ile fī bu eksilmeyi baskı altındaki bir hâl yapar, sonraki iman, iyi iş ve karşılıklı öğüt istisnası da ayrı bir etik tetik olarak doğru yoldan sapıp iyiliği kaybetme ve yıkıma düşme nüansını açar, genel kaybı koruyup belirli bir cezaya bağlamadan."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:1", "context:103:3"],
+          "paragraph": 4,
+          "anchor": "Kayıp kelimesi böylece hem hükmün son anlamsal durağı hem de 103:1, 103:2 ve 103:3'ün r ile kapanan ses zincirinin halkası olur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:deficit-ruin-pressure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:1"],
+          "paragraph": 4,
+          "anchor": "Kökün eksilme, anapara yitimi, ölçüde azalma ve yıkım yönleri, 103:1'deki zaman yemininin ardından bu kısa kelimenin çevresinde basınç oluşturur; yine de cümlenin grameri burada ticaret işlemini ya da ölçüde eksiltmeyi tek başına seçmez."
         }
       ]
     },
@@ -1840,9 +1813,19 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "finding_ref": "micro:exception-pressure",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "context:103:3"],
-          "paragraph": 8,
-          "anchor": "{ar:خُسْرٍ, tr:khusrin, gloss:kayıp} ile bildirilen genel durumun kapsamı sonraki âyette iman, iyi işler ve karşılıklı öğütle gelen istisnaya doğru açılır; kayıp hükmü böylece yanıt gerektiren bir alan olur, istisna genel cümleyi silmez ve bağlantı bu kapsam ilişkisiyle sınırlıdır."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "context:103:3"],
+          "paragraph": 4,
+          "anchor": "Geniş insan hükmü burada tamamlanırken, sonraki âyetin istisna zincirine de basınç verir; iman, iyi iş ve karşılıklı öğüt, şimdi ilan edilen kayıp durumuna cevap verecek bir açılım olarak belirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:human-loss-recurrence",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 2,
+          "anchor": "22:11, 46:18 ve 41:25'teki hüküm bağlamlarında da görülen bu eşleşme, iki kelimeyi rastlantılı bir yan yana geliş olmaktan çıkarır."
         }
       ]
     },
@@ -1851,23 +1834,18 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 9,
-          "anchor": "{ar:خُسْرٍ, tr:khusrin, gloss:kayıp} insanın yaptığı bir kaybetme eyleminden çok içinde bulunduğu soyut masdar durumunu adlandırır; {ar:فِى, tr:fī, gloss:içinde} onu yüklem içinde özneye bağlar, böylece insan kayıp içindeki hâliyle görünür ve söz etkin bir kaybeden etiketi olmaz."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 9,
-          "anchor": "Kelimenin taşıdığı miktar, bütünlük veya değer eksilmesi ayrı {ar:فِى, tr:fī, gloss:içinde} edatıyla birleşerek özneye yüklenen duruma dönüşür; kuşatma burada dilbilgiseldir, fiziksel bir çevre değildir."
+          "paragraph": 4,
+          "anchor": "Son kelime {ar:خُسْرٍ, tr:khusrin, gloss:kayıp}, bir insanın yaptığı tek bir kaybetme olayını değil, fî'nin yönettiği soyut bir durumun adını verir."
         }
       ]
     },
     {
-      "finding_ref": "micro:maṣdar-concentration",
+      "finding_ref": "micro:gerund-concentration",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 9,
-          "anchor": "Soyut masdar, kayıp ailesinin geniş alanını {ar:فِى, tr:fī, gloss:içinde} sonrasında tek bir duruma yoğunlaştırır; başka türemiş biçimler bu yerel cümlenin ek anlamları gibi çalışmaz ve kısa isim insanı kuşatan anlamı taşır."
+          "paragraph": 4,
+          "anchor": "Bu biçim, geniş kayıp alanını çıplak bir isim-fiil yoğunluğunda toplar."
         }
       ]
     },
@@ -1876,13 +1854,8 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 9,
-          "anchor": "Tenvinli belirsiz {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yüklemin sonunda yer alır, {ar:إِنَّ, tr:inna, gloss:gerçekten} ile {ar:لَفِى, tr:la-fī, gloss:gerçekten içinde} de hükmü pekiştirir; kapsamı adı konmuş bir sınır olmadan genişletir ama her olası kaybı ya da sonu tanımlamaz."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 9,
-          "anchor": "Genel kayıp sözü miktar, bütünlük ya da değer yitimini taşırken, ayrı {ar:إِنَّ, tr:inna, gloss:gerçekten}, bağlı lâm ve {ar:فِى, tr:fī, gloss:içinde} belirsiz ismi vurgulu bir kuşatma içine alır; insan çevresindeki ölçüsü konmamış durum duyulur, belirli bir son tayin edilmez."
+          "paragraph": 4,
+          "anchor": "Kelimenin belirsiz oluşu da hükmün sınırını çizmez: belirli bir nesneye, miktara veya tek bir kayba işaret etmeyen açık uçlu bir kayıp alanı bırakır."
         }
       ]
     },
@@ -1890,19 +1863,24 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "finding_ref": "micro:hft-encompassing-deficit",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 10,
-          "anchor": "İnsan adının ayrı kayıp yüklemi ve {ar:فِى, tr:fī, gloss:içinde} ilişkisiyle buluşmasından hareket eden ihtiyatlı bir okuma, insanı yalnız zaman zaman kayba uğrayan tek tek kişiler olarak değil, insan türünün kendisini geniş bir eksilme koşulunda yerleşmiş halde duyar; hüküm böylece sınıfa yayılır, her bireyin aynı sonuca ulaştığını söylemeden."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "Bu açık cümle yerinde kalırken, aktarılmış bir yerel okuma {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} adının insan sınıfını, {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin genel eksilmeyi taşıması arasındaki temastan şu görüntüyü çıkarır: insan, zaman zaman kayıp yaşayan biri olmaktan ibaret değil, kuşatıcı bir eksilme koşulunun içindedir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Bu temas, insan türünün mutlaka yalnızca böyle açıklanması gerektiğini söylemez; açık insanın kayıp içindeki hükmünü koruyan, sınırı belirli bir genişlemedir."
         },
         {
           "movement_refs": ["activation:0"],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} sözü insan türünü, topluluğu ya da tek kişiyi görünmeyen varlıklar sınıfının karşısında adlandırır; bu kök çağrışımında görünür insanın sınıf olarak belirişi, ayrı {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yükleminin tetiklemesiyle öne çıkar, fakat görünürlük sözcüğün tek başına yeni bir sözlük anlamı olmaz."
+          "paragraph": 5,
+          "anchor": "İnsan adı burada insan türünü taşıyan sözcüktür; onu etkinleştiren ayrı temas, kaybı içine alan {ar:لَفِى, tr:la-fī, gloss:kayıp içindedir} ile iki vurgunun kurduğu insan-kayıp ilişkisidir."
         },
         {
           "movement_refs": ["activation:1"],
-          "paragraph": 10,
-          "anchor": "Kayıp adı miktar, bütünlük ya da değerden bir bölümün eksilmesini taşır; ayrı insan öznesi, fī ve açılışla yüklemdeki vurgu bu genel eksilmeyi tekil bir olay değil, insan sınıfını kuşatan bir durum gibi duyurur."
+          "paragraph": 5,
+          "anchor": "Kayıp kelimesi de genel eksilmeyi taşıyan kapanış olarak insan sınıfıyla buluşur; insan adının özne oluşu ve fî'nin onu bu durumun içine yerleştirmesi, eksilmeyi kuşatıcı bir koşul haline getirir."
         }
       ]
     },
@@ -1910,19 +1888,24 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "finding_ref": "micro:hft-human-account",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 11,
-          "anchor": "Bir benzetme olarak, insan varlığı {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} kayıp yüklemi içinde dururken belirsiz zarardan, tükenebilen anapara ve dönmeyebilen beklenen getiri hesabına dönüşür; bu ihtiyatlı imge âyetin gerçek bir ticaretten söz ettiği anlamına gelmez."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 6,
+          "anchor": "Aynı açık hüküm, yine aktarılmış fakat sınırı belirli başka bir okumada, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} insan varlığını yeterli karşılık üretmeyen bir hesapta harcanan anapara gibi görünür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 6,
+          "anchor": "Hesap görüntüsü yerel ve atıflı bir benzetmedir; âyetin açık kayıp hükmünü genişletir, fakat gerçek bir ticaret işlemi veya kişinin mali durumu hakkında doğrudan iddia kurmaz."
         },
         {
           "movement_refs": ["activation:0"],
-          "paragraph": 11,
-          "anchor": "İnsan türünü ya da topluluğu adlandıran insan sözü benzetmenin taşıyıcısı olur; ayrı {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yüklemi ve fī'nin kurduğu ilişki, insan varlığını kaybın içinde duran sermaye gibi düşündürür."
+          "paragraph": 6,
+          "anchor": "İnsan kelimesinin insan varlığını taşıması, {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin ticari kayıp veya anaparanın korunamaması anlamıyla buluşur; {ar:لَفِى, tr:la-fī, gloss:kayıp içindedir} ile kurulan ve çift vurguyla doğrulanan bu insan, hesabın yatırılmış sermayesi gibi düşünülür."
         },
         {
           "movement_refs": ["activation:1"],
-          "paragraph": 11,
-          "anchor": "{ar:خُسْرٍ, tr:khusrin, gloss:kayıp} sözünün ticari kullanımı, işlem sonunda başlangıç anaparasının bir bölümünü yitirmeyi ve beklenen kazancın doğmamasını anlatır; ayrı insan öznesi bu imgeye sermayeyi, fī ilişkisi ise onu kuşatan kayıp hâlini sağlar."
+          "paragraph": 6,
+          "anchor": "Kayıp kelimesi bu temas içinde beklenen kazancın doğmamasını ya da anaparadan yitirmeyi taşır; böylece soyut durum, karşılıksız harcanan bir hayat hesabı görüntüsüne dönüşür."
         }
       ]
     },
@@ -1930,53 +1913,56 @@ Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-
       "finding_ref": "micro:hft-short-measure",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 12,
-          "anchor": "Kök çağrışımı düzeyinde ve ihtiyatla, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} yalnız sonradan dışarıdan kayba uğrayan nötr bir özne değil, algılayan insan olarak düşünülebilir; böylece eksiklik dış zarardan algılama ve değer biçmeye taşınır, fakat her yargının kusurlu olduğu ileri sürülmez."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 7,
+          "anchor": "Bir başka, daha keşifsel aktarılmış temas, {ar:ٱلْإِنسَٰنَ, tr:al-insāna, gloss:insan} kelimesini algılayan ve değerlendiren yönüyle ele alır: insanın kavradığı, değer biçtiği veya ortaya koyduğu şey, daha baştan kısa ölçü içinde kalabilir."
         },
         {
-          "movement_refs": ["activation:0"],
-          "paragraph": 12,
-          "anchor": "İnsan adı için görerek fark etme ve seçme kullanımı, bu ihtiyatlı okumada algılayan insan merceğini sağlar; ayrı {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} yüklemiyle buluşması eksikliği dışarıdan uğranan zarardan kavrayışa ve değer biçmeye taşır."
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 7,
+          "anchor": "Bu okuma, her insan algısının kusurlu olduğunu veya burada gerçek bir tartma işlemi bulunduğunu ileri sürmez; açık insan-kayıp hükmünü koruyan, ihtimal derecesi belirgin bir yerel temas olarak kalır."
         },
         {
-          "movement_refs": ["activation:1"],
-          "paragraph": 12,
-          "anchor": "Kayıp adı için ölçü veya tartı sonucunu olması gerekenden az bırakma kullanımı da ayrı bir sözlük kaynağıdır; insanın özne olarak bu eksik ölçüyle buluşması algı ve değerlemenin yetersiz kalabileceğini düşündürür, ancak gerçek bir tartı eylemi ya da bütün algıların eksikliği anlamına gelmez."
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 7,
+          "anchor": "İnsan kelimesinin görüp fark eden insanı taşıyan yönü, {ar:خُسْرٍ, tr:khusrin, gloss:kayıp} kelimesinin ölçü ve tartıda eksiltme baskısıyla ve insanı içine alan {ar:فِى, tr:fī, gloss:içinde} ile buluştuğunda, eksiklik yalnızca sonradan gelen dış bir sonuç olmaktan çıkarak algılama ve değerlendirme biçimine dokunur."
         }
       ]
     }
   ]
 }
+
 </micro_scope_ledger>
 
 <macro_scope_prose>
-Sûrenin ana cümlesindeki {ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:inna al-insāna la-fī khusr, gloss:insan gerçekten kayıp içindedir} hükmü, insan türünü genel bir eksilme ve değer yitimi içinde gösterir; açılıştaki {ar:الرَّحْمَٰنِ الرَّحِيمِ, tr:al-Raḥmān al-Raḥīm, gloss:Rahmân ve Rahîm} bu hükmün merhamet içinde dile getirildiği bir çerçeve kurar, fakat kaybın nasıl çözüleceğini, kime istisna tanınacağını ya da sonucun ne olacağını bildirmez. Burada {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} miktar, bütünlük ya da değer yitimi anlamındaki olağan kayıp taşıyıcısıdır; 103:0'daki merhamet adları ile 103:2'deki kayıp hükmü art arda gelerek hükmün ağırlığını şefkatli bir açılış içinde duyurur, onu hafifletmez.
-Bu genel kayba karşı 103:3'ün istisnası, içten tasdikten bilinçli eyleme ve hakikate yönelen düzgün işlere uzanan bütünlüklü bir karşılık sunar; böylece kayıp, tek başına açıklanmayan geniş bir eksilme hükmü olarak kalırken ona karşı koyan bir pratik görünür olur, ama bu sıralama her kaybın sebebini tüketmez. {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} kalbin yatıştığı tasdiki başlangıç noktası yapar; {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve eyleyip işlediler} fiili kasıtlı yapıp etmeyi dışa taşır, ancak biçimi ücret alan işçiyi ya da el emeği mesleğini bildiren bir ad değildir; {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} kayıptaki değer azalmasına karşı düzgünlük ve iyiliği, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat ve doğruluk üzere} eylemin yöneldiği hakikati sağlar; 103:3'ün olağan sabır öğüdü de bu cevabı sürdürür, fakat belirli bir önerme veya ihtilaf göstermez.
+Âyetin düz anlamı, `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:zamanın akışı}` üzerine yeminle açılır; hemen ardından `{ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:innel-insânu lefî husrin, gloss:İnsan gerçekten kayıp içindedir}` denir. `{ar:إِنَّ, tr:inne, gloss:gerçekten}` ile pekiştirilen `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` sözü, insan türünü ve tek tek insanı, `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` sözü de insanın içinde bulunduğu genel eksilmeyi ve değer yitimini birlikte gösterir. `{ar:لَفِى, tr:lefî, gloss:kesinlikle ... içindedir}` kuruluşu kaybı dışarıdan ilişen tek bir olay değil, insanın içine yerleşmiş bir durum olarak duyurur.
 
-Ticari kayıp imgesiyle okunduğunda {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} yitirilen anapara ya da elde edilemeyen kazancı taşıyabilir; açılış yeminindeki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} olağan zaman anlamı, birbirini izleyen süreler olarak düşünüldüğünde bu hesabı her aralıkta biraz daha eksilen bir insan sermayesine dönüştürür, fakat metin matematiksel bir birikim veya buna sebep olan bir fail belirtmez. Bu öneride ticari kayıp dalı sermaye ve kazançtan, 103:1'deki yemin ismi ise birbirini izleyen zaman aralıklarından gelir; ikisinin teması açığın sabit bir bakiyeden zamanla derinleşebilen bir hesaba dönüşmesini düşündürür, ancak zaman kaybı doğurmak yerine ona çerçeve veya tanıklık da edebilir.
-Aynı {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} sözü için önerilen tutma, geri çekme ya da alıkoyma kullanımı, {ar:خُسْرٍ, tr:khusr, gloss:eksilme} ile karşılaşınca bir yararın alıcısına ulaşmadan kesilmesi ihtimalini açar; bu yalnızca soyut bir akışın durmasıdır, adı konmuş bir malı, alıcıyı, geri alma fiilini veya ölçülü teslimatı anlatmaz. Taşıyıcı, zaman üzerine yemin içindeki isim biçimidir; alıkoyma imgesi bu biçimin olağan zaman okumasını silmez, bağımsız tetikleyici ise odaktaki genel azalmadır, dolayısıyla somut bir işlem değil, yoksun kalınan faydaya dair sınırlı bir ikinci okuma sunar.
+`{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` burada yalnız ticari bir zarara ya da tek bir ölçü hatasına indirgenmez; bir şeyin miktarından, bütünlüğünden veya değerinden parça yitirmesini karşılayan geniş bir sözdür. Bu yüzden hükmün ilk zemini, herkes için geçerli genel bir insanlık durumudur. Bununla birlikte `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:zamanın akışı}` ardışık süreleri öne çıkarınca, geri dönüş üretmeyen her aralıkta anaparadan yiyen ve geciktikçe derinleşen bir hesap imgesi belirir. Zamanın kendisi kaybın tek sebebi ilan edilmez; süre, kaybın nasıl birikerek görünür olabileceğini açan bir temas olarak kalır. `103:1`deki süre ile `103:2`deki kayıp arasındaki bağ, beklemenin hesabı ağırlaştırabileceğini düşündürürken, doğrulanmamış başka bir kullanım bu sahneye yalnızca ihtiyatlı bir arka plan sağlar.
 
-İnsan kapasitesi ile ticari kayıp yan yana düşünüldüğünde istisnadaki çalışma, kapasitenin gerçek bir sonuca çevrilmesi ve insan hayatının bir getiri üretmesi şeklinde okunabilir; bu ekonomik bağlantı yorumlayıcı bir benzetmedir, ayet ücret söylemez ve kaybın iç ekonomisini tanımlamaz. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan türü ve insan} olağan anlamıyla sermaye değil, kapasitesi kullanılan ya da harcanan insandır; {ar:خُسْرٍ, tr:khusr, gloss:ticari kayıp} yitirilen ana değeri, 103:3'teki {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:iş yaptılar} ise kasıtlı eylem ve çalışmayı sağlar; fiile iliştirilen ücret veya karşılık imgesi, bu ticari açığın bağımsız tetikleyicisiyle bir getiri tarafı kurar, ama geçmiş zamanlı çoğul fiil ne ücret adı ne de gerçek bir ödeme olayıdır.
-Bu hesap imgesi, kaybedilen ana değer, beklenen getiri ve güç ya da acılık taşıyan bir dönüşü bir araya getirerek kaybın risk altındaki değerini hissettirir; alıcı, satış, sözleşme, miktar veya mülkiyet devri verilmediğinden sahne gerçek bir alışveriş değildir. {ar:خُسْرٍ, tr:khusr, gloss:ticari kayıp} kaybedilen anaparayı taşırken 103:1'deki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} olağan zaman anlamının yanında çıkarılmış ürün ve getiri imgesine açılır; 103:3'teki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat ve hak} isim biçimi hakikati, ayrıca bu hesapta riske girebilecek bir hak iddiasını düşündürür; {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ise olağan bağlamda sabır adıdır, fakat aynı lafzın sert taşlı zemin ve acı aloe benzeri özüt kullanımları, bağımsız getiri/kayıp çerçevesiyle buluştuğunda dönüşü dirençli ve nahoş kılar, sabır anlamının yerine geçmez.
+Hükmün ardından gelen istisna, kaybı inkâr etmeden onun karşısına hangi yönelişin konduğunu gösterir. `{ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar}` ile güvenip tasdik etmek, kayba karşı içte sağlam bir kabul kurar; `{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak}` ile yanlışın karşısında gerçeği ayakta tutmak bu kabulün yönünü belirler. `{ar:عَمِلُوا۟, tr:amilû, gloss:amaçlı işler yaptılar}` sözü, niyetli bir yapıp-etmeyi; `{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyi ve yerinde işler}` ise bozulmayı artırmayan, yerli yerinde ve sağlam sonuçlar doğuran işleri ekler. Böylece genel kayıp, yalnızca içsel bir inançla değil, gerçeğe yönelen tasdik ve dışarıda gerçekleşen yerinde eylemle karşılanan bir süreç olarak okunur. Bu karşılık, kayıp sözünü imanla eşitlemez veya her insanı tek bir sınıfa kapatmaz; burada kurulan bağ, birinci hükmün açıklığını koruyarak onun karşısındaki tutarlı hayat yönünü gösterir.
 
-İnsan ve kayıp imgesi, basit bir eksikten ziyade basınç altında açığa çıkan bir yetersizlik olarak da canlandırılabilir; bu maddi benzetme 103:1'i zaman yerine zorunlu olarak sıkma diye okumaz ve insanın gerçekten işlendiğini ya da bir kuvvetin kayba sebep olduğunu söylemez. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} insan türünü veya bir insanı, {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} ise miktar, bütünlük ya da değer azalmasını adlandırır; açılış yeminindeki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} isim biçimine bağlanan “sıkarak sıvı çıkarma” ve “çıkan verim” imgeleri, odaktaki insan ve eksilme durumunu bağımsız bir basınç/yield sahnesiyle buluşturur: basınç açığı görünür kılar, verim ise latent yetersizliği açığa çıkaran sonuç olur, ama bu yemin biçiminin olağan anlamı zaman olarak kalır.
-Ölçü imgesi bu süreci daha somutlaştırır: kayıp, üretimden çıkan verimin olması gerekenden kısa teslim edilmesi gibi görülebilir; burada gerçekten kullanılan bir terazi, satıcı, alet ya da eksik ölçme olayı ileri sürülmez. {ar:خُسْرٍ, tr:khusr, gloss:zarar ve ölçüde eksiltme} bir ölçü sonucunu gerekenden aza indirme kolunu taşır; bağımsız üretim tetikleyicileri 103:1'deki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} için sıkma ve sıvı çıkarma imgesi, 103:3'teki {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:işlediler} fiiline bağlanan kullanıma koyma/işletme imgesi ve {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} sözüne bağlanan yığın hâlinde yiyecek imgesidir; sonuncunun ayetteki isim biçimi olağan olarak sabırdır, bu dal ise üretim ve miktar ipucuyla buluşunca kısa payı düşündürür.
-Basınçtan çıkan ürünün acı olması da kaybı kansız bir eksiltmeden, dayanmayla taşınan buruk bir kalıntıya dönüştürebilir; bu duyusal-mekanik imge keşif niteliğindedir ve iki bağlam sözcüğü burada bütün sıkma sürecini veya gerçek bir acı maddeyi adlandırmaz. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan türü ve insan} bu benzetmede sıradan insan hayatını; {ar:خُسْرٍ, tr:khusr, gloss:eksilme} eksilen durumu taşır; 103:1'deki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} için önerilen sıvı çıkana kadar sıkma imgesi bağımsız basınç tetikleyicisi, 103:3'te olağan anlamı sabır olan {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} için önerilen acı aloe benzeri özüt imgesi ise tadı veren ayrı tetikleyicidir; ikisi buluşunca sabır kaybın acı tadını hemen yok etmeden taşıyabilir, gündelik zaman ve sabır anlamları korunur.
+İnsan emeğinin kayba dönüşmesi de aynı genel hüküm içinde belirginleşir: insanın ortaya koyduğu iş, hak edilmiş bir karşılığa ve çekilip alınabilir bir ürüne dönüşemediğinde emek ile dönüş arasında bir açık kalır. `{ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak edilen pay ve gerçek}` sözü 103:3 bağlamında yalnız soyut doğruluğu değil, bir kimseye düşen ve savunulabilir olan payı da düşündürür. `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:zamanın akışı}` ile önceki yemin, üretimden çıkan ve alınabilen getiriyi; `{ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar}` ise işi yapan kişinin çabasını öne çıkarır. Bu fiil doğrudan “ücret” demek değildir, fakat işin karşılığı olarak ödenen pay ve emeğin yürüttüğü ekipler gibi kullanımlar, kaybı gerçekleşmiş emeğin eksik geri dönüşü şeklinde somutlaştırır. Böylece insanın taşıdığı yetenek, amaçlı eyleme çevrilmediğinde sermaye gibi eksilebilir; amaçlı iş ve emeğin karşılığı ise bu eksilmeyi tersine çevirebilecek somut kanallar olarak görünür. Bu okuma, hükmü yalnız ekonomik üretkenliğe kapatmaz; insanın emeğiyle hak ettiği sonucu arasındaki bağın kopmasını görünür kılar. Bu çerçeve, emeği yalnız ücret hesabına hapsetmeden, insanın eylemiyle hak ettiği dönüş arasındaki teması korur.
 
-İçsel güven açısından bakıldığında genel insan kaybı, teminatı olmayan bir açıklık gibi düşünülebilir; 103:3'teki iman, bu açıklığa daha yerleşik bir zemin sunar, ancak iman yalnızca kayıp hükmünün istisnası da olabilir ve kaybın tek sebebi güvensizlik değildir. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} burada da türü veya kişiyi bildiren olağan isimdir; yakınlık, rahatlık ve yabancılığın kalkmasıyla ilgili bir dal olası bir rahatlık imgesi verir, {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} geniş açığı taşır, {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} ise bağlamda tasdik fiilidir ve güvenli, kalbi yatıştıran tasdik kullanımıyla bu açığa karşı gelir; bu yüzden güvenlik içsel bir alternatif olur, insan adı doğrudan “yoldaş” anlamına gelmez.
-Benzer biçimde insan hayatındaki kayıp, ilişkilerde yabancılaşma veya işlerin amaçlarına uymaması olarak da hissedilebilir; 103:3'teki iyi işler ilişkiyi onarma ve uygunluk imgesini tetikler, fakat metin kaybın nedenini tek başına bu uyumsuzlukla açıklamaz. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} için yakınlık ve arkadaşlık imgesi, {ar:خُسْرٍ, tr:khusr, gloss:eksilme} içinse azalma anlamı taşıyıcıdır; 103:3'teki {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} dişil çoğul isim biçimi olağan olarak iyi işleri adlandırır, uzlaşma ve uygunluk ise bu ilişki/işlev okumasını açan ayrı kullanımlardır: insan ve kayıp taşıyıcılarına dönmeleri, kırılmış bağın veya işlevsel uyumsuzluğun görülebilmesini sağlar, ancak “iyi işler” sözcük biçimi bir uzlaşma olayı bildirmez.
+`{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` ölçme ve tartma alanına taşındığında, olması gereken miktarın aşağı çekilmesi ve teslim edilen payın kısa tutulması anlamını kazanır. `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:sıkıştıran zaman ve baskı}` için kullanılan sıkma yönü, bir şeyden sıvı çıkana kadar bastırma hareketini çağrıştırır; böylece baskı, gizli açığı ölçülebilir bir eksiklik halinde dışarı çıkarır. `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır}` bağlamındaki sofra yaygısı ve üzerine yığılmış yiyecek imgesi, birikmiş miktarın sayılabilir ve dağıtılabilir hale gelişini taşır. `{ar:عَمِلُوا۟, tr:amilû, gloss:işe koşup kullandılar}` sözü de bir şeyi işe koşma ve kullanma yönüyle, baskının altında kalan kapasitenin gerçekten işletilip işletilmediğini sorar. Aynı `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:verimi tutup geri alma}` sözü, akışın durdurulması ve bir yararın tutulup geri alınması imgesine de değebilir; bu durumda kayıp, malın veya faydanın dolaşıma girmeyip bir yerde alıkonmasıyla oluşan ölçülebilir açık olur. Sıkma, yığın ve kısa teslim görüntüleri burada ana hükmün yerine geçmez; kaybın baskı altında nasıl belirginleştiğini ve dolaşım kesildiğinde nasıl büyüdüğünü anlatan bağlamsal sahnelerdir.
 
-İstisnanın sosyal boyutunda genel insan topluluğu, hakikati birbirine hatırlatan çoğul öznelere dönüşür; böylece hakikat ortak yaşamda korunacak bir ölçü, karşılık ise yalnızca özel niteliklerin listesi değil müşterek bir uygulama olur, fakat karşıt davacılar, dava ya da yargılama gösterilmez. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan türü ve topluluk} türü veya insan topluluğunu adlandırır; 103:3'te iki kez geçen {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} karşılıklı öğütleşmeyi açıkça kurar, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat üzere} ise olağan isim biçimindeki hakikati ortak standart olarak verir; hakikati ayakta tutma kullanımı, bağımsız tetikleyici olan karşılıklı öğütle etkinleşir, ama bu temas bir hukuk düzeni veya ispat süreci değildir.
-Aynı karşılıklı öğütleşme insan yakınlığını, güveni ve kendini toparlayabilen sabrı bir araya getirerek kayıp karşısında birlikte ayakta kalma biçimi sunar; buradaki yakınlık okuması insan sözcüğünün yerine geçmez ve ayet panikten açıkça söz etmez. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} için yakınlık/rahatlık ve yabancılığı gideren yoldaş imgesi, 103:3'ün tekrar edilen {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilindeki karşılıklı ilişkiyle tetiklenir; {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} güven ve kalbi yatıştıran tasdik, {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ise olağan isim biçimindeki sabrın yanında paniğe kapılmaktan kendini tutma imgesi verir; böylece güven, arkadaşlık ve özdenetim, insanların birbirine eşlik edebildiği bir toplumsal karşılıkta birleşir.
-Karşılıklı öğüdün ağ gibi işleyen bir koruma mekanizması olduğu da önerilebilir: doğruya uyan söz insanlar arasında dolaşır, sürdürülen bağlılık bu standardı zaman içinde etkin tutar ve bireysel eksik ölçü ortak bir korunma pratiğine dönüşür; bu, metinde kurulmuş bir kurum değil, paralel erdemlerin birlikte işlemesinden çıkarılan ihtimalli bir açıklamadır. Bu okumada {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan topluluğu} yakınlığın ortamı, {ar:خُسْرٍ, tr:khusr, gloss:eksik ölçü} ağın düzeltmeye çalıştığı durumdur; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:karşılıklı öğütleşme} birleştirme ve karşılıklılık imgesiyle standardı kişiler arasında taşır, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikatle} gerçekliğe uygun hakikati, ayrıca güvenilir biçimde kurulmuş sözü düşündürür, {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ise bir yükümlülükte kalmayı ve zaman içinde sürdürmeyi; son iki ayrıntı sözlük biçiminin açıkça söylediği fiiller değil, tekrarlanan öğüt ve eksik ölçüyle kurulan sınırlı yorumlardır, dört öğüt başlığının paralel erdemler olarak okunması da mümkündür.
+Kayıp, bu sahnelerin yanında sert bir alışveriş hesabı gibi de hissedilebilir. `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}`, alım satım sonunda başlangıç anaparasından bir bölümün yitirilmesini anlatan kullanımla temas ettiğinde, insanın elindeki sermayenin beklenen dönüşe ulaşamamasını görünür kılar. `{ar:ٱلْحَقِّ, tr:el-hakk, gloss:sahip olunan hak}` burada belirli bir kimsenin sahip olduğu ve geri alınması gereken hakkı; `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:çıkan verim}` bir şeyden çekilip alınan getiriyi; `{ar:عَمِلُوا۟, tr:amilû, gloss:insanlar arası işlem yaptılar}` ise kişiler arasındaki iş görme ve işlemleşmeyi çağrıştırır. `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sert taşlı zemin ve acı öz}` içindeki sert taşlı zemin, verimin kolayca alınmadığı bir direnç; acı aloe benzeri öz ise geri dönüşün tatsız ve yakıcı olabileceği bir yoğunlaşma resmi verir. Bu ticari ve maddi görüntüler, ayetin zorunlu tek anlamı değildir; genel insan kaybını, hakkın ve emeğin gerçek bir dönüş beklediği sert bir hesap alanına yaklaştıran sınırlı benzetmelerdir.
 
-Hukuki-hesap imgesi, genel azalmayı bir borç veya karşılık bekleyen hak iddiası gibi genişletir; bu, sorumluluk hakkında keşif niteliğinde bir benzetmedir, belirli bir alacaklı, yargıç, yetkili ya da infaz olayı ileri sürmez. {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} azalmanın taşıyıcısıdır; 103:3'te {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğruluk üzere} olağan hakikat isminin borç/due claim kolu, {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} olağan sabır adınınsa hukuki karşılık/ceza koluyla temas eder; kayıp ile ödenmesi gereken hak bu alternatif çerçeveyi tetikler, ancak bir hukuk usulü veya fiilî cezalandırma bildirilmez.
+İnsanlar arasındaki kayıp, ortak bir hakkın sınanıp onarılmadığı yerde toplumsal bir biçim alır. `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan ve insanlar topluluğu}` yalnız görünmeyen varlıkların karşısındaki insan türünü değil, bu türün tek üyelerini ve aralarındaki topluluğu da adlandırır. `{ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak ve gerçek}` bir iddianın haklılığı üzerinde çekişmeyi ve gerçeği ayakta tutmayı; `{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:ıslah eden ve uygun işler}` insanlar arasındaki barıştırma ve uzlaştırmayı düşündürür. `{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler}` ise tek taraflı bir ilan değil, insanların birbirine yönelttiği karşılıklı sözü taşır. Bu temaslar, kaybı belirli bir dava veya hukuk kararı diye tanımlamaz; ortak ölçünün bozulduğu yerde gerçeğin, hak edilen payın ve onarıcı ilişkinin yeniden kurulabileceği bir sosyal hareket gösterir. `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve hukuki karşılık}` sözü de kayba uğrayan bir hakkın karşısına orantılı karşılık veya hukuki ödetme sahnesini getirebilir; bu, bağlamın açtığı bir cevap yönüdür, ayetin tek başına verdiği bir hüküm değildir. Orantılı karşılık, hak edilen payın geri verilmesini ve kaybın sınırsız bir cezaya dönüşmemesini gerektirir.
 
-İnsan, gözde alınan küçük bir suret olarak da tasarlanabilir; {ar:خُسْرٍ, tr:khusr, gloss:ölçüde eksiltme} bu sureti orantısız biçimde küçültürken 103:3'teki hakikat olası bir düzeltme getirir, fakat bu keşifsel bir temsil modelidir, gerçek bir gözlemciyi anlatmaz ve olağan insan/kayıp okumasını korur. {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} sözcüğünün sınırlı bir sözlük kullanımında göz bebeğinin kara bölümündeki küçük insan biçimli yansıma kastedilebilir; bu, ayette gerçekten bulunan insan adıdır, fakat ayette göz sözcüğü yoktur, bu yüzden bağımsız tetikleyici {ar:خُسْرٍ, tr:khusr, gloss:eksik ölçü} için sunulan ölçüde eksiltme koludur; 103:3'teki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat üzere} de hakikati açığa çıkarma/ayakta tutma imgesiyle olası bir düzeltici olur, fiziksel bir ölçme olayı veya kesin düzeltme değil.
+İstisnanın gücü, tek tek erdemlerin yan yana dizilmesinden çok, insanı taşıyan karşılıklı bir ağ kurmasından gelir. `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` karşısında yabancılık ve ürküntünün kalkıp yakınlık ve rahatlığa dönüşmesi, insanın kayba karşı yalnız bırakılmadığını hissettirir. `{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene yerleştiler}` yerleşmiş güveni ve tasdiki; `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:panişe kapılmayıp kendini tuttu}` ise baskı anında paniğe kapılmadan kendini tutmayı taşır. Tekrarlanan `{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler}` sözü hem insanları birbirine bağlayan yakınlığı hem de karşılıklı öğüdü, gerçeğe uygun sözü ve sabrı sürdürme yükünü birlikte kurar. `{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçeğe uygun ölçü}` ile `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:dayanmayı sürdüren söz}` yan yana geldiğinde, ölçü bir kişinin iç dünyasında saklı kalmaz; doğru söz birinden diğerine aktarılır ve zor zamanda taşınır. Bu kısa bağlamda sözün sıkı kurulması, yükümlülüğün sürdürülmesi ve insanların birbirine katılması, ana hükmü iptal etmeyen yerel bir dayanıklılık resmi olarak belirir. Bu ağ, insanın kayıp karşısındaki eksilmesini ortak ölçü, gerçek söz ve sürdürülen sabırla birlikte taşır. Sözün sıkı kurulması, gerçeğin aktarılırken bozulmamasını ve ortak ölçünün korunmasını da ister. Dayanmayı sürdürme yükü, bu paylaşımın anlık bir rahatlık değil, taşınan bir sorumluluk olduğunu hatırlatır. Karşılıklı öğüt ve bağlanma, insanları aynı ölçüyü korumaya çağırır. Ağ paylaşılmadığında insanın kaybı tek başına taşınır ve ortak ölçü bozulur. Bu kısa bağlamda bu ağ, ana hükmü değiştirmeyen yerel bir dayanıklılık olarak kalır. Bu ortaklık, doğru sözün ve sabrın ölçüyü koruyan ortak bir temas olduğunu gösterir.
 
-Açıkça belirtilen Fâtiha bağlantısında kaybın yalnız bir kolu, 1:4'teki hesap ve karşılık günüyle buluşarak değerlendirmeye çıkan bir sonuç gibi okunabilir; bu dış bağlam 103:2'nin kendi başına kıyamet gününü adlandırdığı veya her kaybın aynı anlama geldiği iddiası değildir. Taşıyıcı {ar:خُسْرٍ, tr:khusr, gloss:iyilikten uzaklaşıp yıkıma düşme} için önerilen manevi yıkım kolu, bağımsız tetikleyici {ar:يَوْمِ ٱلدِّينِ, tr:yawmi d-dīn, gloss:karşılık ve hesap günü} ile, yalnızca 1:4'ün sağladığı sınırlı çerçevede birleşir ve kaybın hesap edileceği bir zaman ufku ekler; bütün sûreyi tek bir açıklama gibi içeri taşımaz.
-Aynı dış bağlantıdaki 1:6'nın doğru yola yönelme isteği ve 1:7'nin sapmış olanları anması, kaybın bir türünü yönünü şaşırıp iyilikten uzaklaşma olarak canlandırır; bu da rehberliği karşı yön olarak gösteren, fakat 103:2'nin sözlük anlamını “sapma” diye değiştirmeyen sınırlı bir Fâtiha katmanıdır. Burada {ar:خُسْرٍ, tr:khusr, gloss:doğru yönden sapıp yıkıma düşme} için sunulan manevi kayıp dalına bağımsız tetikleyiciler {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā ṣ-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} (1:6) ve {ar:وَلَا ٱلضَّآلِّينَ, tr:wa-lā ḍ-ḍāllīn, gloss:sapanlar değil} (1:7) olur; bunlar yalnız bu iki ayrı ayetin yön ve sapma karşıtlığını kayıpla buluşturur, bütün kaybı tanımlamaz ve bütün Fâtiha'yı içe aktarmaya izin vermez.
+Yakınlık bozulduğunda kayıp yalnız miktarın azalması değil, insan ile yaptığı iş veya ilişki arasındaki uyumsuzluk olarak da görünür. `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` sözüne eşlik eden yabancılık duygusunun kalkması, bir kişiyle bir şeyin birbirine uygun ve tanıdık hale gelmesini anlatır. `{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:uygun ve ıslah edici işler}` ile 103:3teki uzlaşma yönü, insanların yeniden birbirine elverişli bir ilişki içinde durmasını düşündürür. Bu temas altında `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` insanın ilişki içinde yerini bulamamasına, yaptığı eylemin amacına uymamasına ve bu uyumsuzluğun yakınlığı aşındırmasına bağlanabilir. İşin veya ilişkinin uygunluğu burada kelimenin tek ve zorunlu karşılığı değildir; fakat barışma ve uygun düşme yönü, kaybın her zaman toplumsal olmayan bir eksilme olmadığını gösteren ihtiyatlı bir imkân sunar.
+
+Sabır da yalnız gönüllü dayanma olarak kalmaz; insanın iradesi dışarıdan tutulup bir işi yapmaya veya bir yemini yerine getirmeye zorlandığında, aynı sözün zorlayıcı bir gözetim görüntüsü belirir. `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` böylece sakin biçimde kendini tutan özne kadar, başkasının elinde alıkonulan kişiyi de sahneye getirir. `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:zorla tutulma ve yemin için alıkonma}` içindeki zorunlu tutma, infaz veya yemin için kişinin iradesini sıkıştıran bir gözetim olarak okunabilir. Önceki `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:alıkoyup geri alma}` imgesiyle birleşince, insanın hareket alanı ve hakkı geri verilmeyerek baskı altında tutulur. Bu, belirli bir olayın veya hukuki kimliğin haberi değildir; genel kaybı, dışarıdan dayatılan tutmanın öznenin eyleme gücünü nasıl daralttığını gösterecek kadar somutlaştırır.
+
+Tanıdık bir yakınlık görüntüsü, güvenli bir zeminin gerçekten kurulmuş olduğu anlamına da gelmeyebilir. `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan ve yakınlık kuran kişi}` ile rahatlık hissi yan yana geldiğinde, insanın sosyal olarak gevşemiş görünmesi mümkündür. Buna karşılık `{ar:ءَامَنُوا۟, tr:âmenû, gloss:sağlam güvenle tasdik ettiler}` sözü, yalnız alışkanlık değil, yerleşmiş güven ve doğrulayan bir iç kabul ister; `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` bu zemin kurulmadığında tanıdık rahatlığın arkasındaki açığı açığa çıkarabilir. Bu karşıtlık, her tanıdık ilişkinin kusurlu veya her imanın eksiksiz olduğu iddiası değildir; bağlam, dışarıdan güvenli görünen yakınlığın altında teminatsız bir açıklık kalabileceğini yalnızca nitelikli bir okuma olarak düşündürür.
+
+İnsan imgesi, ölçünün başkasının görüşünde küçülmesi şeklinde daha görünür bir resme de yaklaşır. `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:göz bebeğinde görülen küçük insan sureti}` göz bebeğinin karanlık bölümünde görülen küçük insan biçimli yansımayı çağrıştırdığında, bir insanın başka birinin görüş alanında olduğundan küçük veya eksik temsil edilmesi düşünülebilir. `{ar:خُسْرٍ, tr:husrin, gloss:ölçüde eksilme}` bu küçülmeyi niceliksel bir kayıp gibi; `{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçeği ayakta tutmak}` ise gerçeğe uygun sözün bu çarpılmış temsili düzeltme gücü gibi tamamlar. Bu küçülen suret, ortak ölçü ve doğru sözle yeniden görünür hale getirilebilecek bir insanlık payını temsil eder. Buradaki görüntü, “insan” sözünün doğrudan “gözdeki suret” demesi değildir; kayıp, ölçü ve hak arasındaki temasın açtığı deneysel bir temsil modelidir.
+
+Baskı altında insanın içindeki eksik de yüzeye çıkabilir: `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` ve `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` yan yana geldiğinde, sıkıştırılan hayatın gizli açığını yetersiz veya boşa giden bir ürün halinde gösteren bir sahne oluşur. `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:sıkarak verim çıkarma}` sözü, baskıyı bir şeyden öz çıkarana kadar yoğunlaştırır; aynı zamanda süre içinde birikmiş açığın baskıyla görünür hale gelmesini düşündürür. `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:verim çıkaran sıkma}` ile `{ar:خُسْرٍ, tr:husrin, gloss:eksilen getiri}` birlikte okunduğunda, insan emeğinin ve yaşantısının değerli bir dönüşe çevrilip çevrilmediği sorusu ortaya çıkar. `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:acı aloe benzeri öz}` içindeki acı yoğunluk, baskıdan geriye kalan tortunun tatsızlığını; aynı sözün dayanma yönü ise bu acının altında ayakta kalma çabasını taşır. Baskının insan hayatını sıkıştırıp geriye acı bir öz bırakması, kaybın nasıl hissedildiğini somutlaştırır. Bu acı ve sıkışma, ana kayıp hükmünü yalnız duyusal bir görüntüye indirmeden onun basıncını hissettirir. Baskı, insanın içinde saklı kalan açığı görünür kılan bir sınama gibi işler. Bu sıkıştırma hareketi, zamanın akışında biriken eksiği zorla dışarı çıkaran bir basınç olarak okunabilir. Sıkma ve acı öz görüntüsü duyusal bir benzetme olarak kalır; ne zaman kelimesi tek başına borç defteridir ne de sabır sözü tek başına acı bir maddeyi adlandırır. Bu duyusal bağ, önceki süre ve sabır temaslarına bağlı bir benzetme olarak kalır.
+
+Bütün bu temaslar, ilk cümleyi başka bir cümleyle değiştirmez. `{ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:innel-insânu lefî husrin, gloss:İnsan gerçekten kayıp içindedir}` sözü önce insanın genel ve sürmekte olan kayıp halini kurar; güven, gerçek, yerinde iş, karşılıklı öğüt ve sabır ise bu halin içinden çıkışın nasıl yaşayabileceğini gösterir. Zamanın birikimi, emeğin dönüşü, hakkın onarılması, dolaşımın açılması ve baskının açığı görünür kılması, aynı hükmün farklı temaslarda kazandığı somut yüzlerdir. Hiçbiri insanı yalnız tüccara, yalnız davalıya, yalnız çalışan kişiye veya yalnız bir surete indirgemez; asıl anlam zemini korunurken her sahne kendi sınırında kalır.
+
 </macro_scope_prose>
 
 <macro_scope_ledger>
@@ -1986,551 +1972,756 @@ Aynı dış bağlantıdaki 1:6'nın doğru yola yönelme isteği ve 1:7'nin sapm
   "lane": "macro",
   "findings": [
     {
-      "finding_ref": "macro:opening_mercy_frame",
+      "finding_ref": "macro:conviction-realized-as-sound-action",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 1,
-          "anchor": "Sûrenin ana cümlesindeki {ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:inna al-insāna la-fī khusr, gloss:insan gerçekten kayıp içindedir} hükmü, insan türünü genel bir eksilme ve değer yitimi içinde gösterir; açılıştaki {ar:الرَّحْمَٰنِ الرَّحِيمِ, tr:al-Raḥmān al-Raḥīm, gloss:Rahmân ve Rahîm} bu hükmün merhamet içinde dile getirildiği bir çerçeve kurar, fakat kaybın nasıl çözüleceğini, kime istisna tanınacağını ya da sonucun ne olacağını bildirmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "context:103:0"
-          ],
-          "paragraph": 1,
-          "anchor": "Burada {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} miktar, bütünlük ya da değer yitimi anlamındaki olağan kayıp taşıyıcısıdır; 103:0'daki merhamet adları ile 103:2'deki kayıp hükmü art arda gelerek hükmün ağırlığını şefkatli bir açılış içinde duyurur, onu hafifletmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:conviction_to_sound_action",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:sup_06ef58761ebccefd8193",
-            "obligation:sup_2b9e49e3b9ebb5d9c885",
-            "obligation:sup_3fb3d310c948d6402940",
-            "obligation:sup_57908c304642c593d85d",
-            "obligation:sup_9da99906d0561b0d0a6f"
-          ],
-          "paragraph": 1,
-          "anchor": "Bu genel kayba karşı 103:3'ün istisnası, içten tasdikten bilinçli eyleme ve hakikate yönelen düzgün işlere uzanan bütünlüklü bir karşılık sunar; böylece kayıp, tek başına açıklanmayan geniş bir eksilme hükmü olarak kalırken ona karşı koyan bir pratik görünür olur, ama bu sıralama her kaybın sebebini tüketmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
-          "paragraph": 1,
-          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} kalbin yatıştığı tasdiki başlangıç noktası yapar; {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve eyleyip işlediler} fiili kasıtlı yapıp etmeyi dışa taşır, ancak biçimi ücret alan işçiyi ya da el emeği mesleğini bildiren bir ad değildir; {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} kayıptaki değer azalmasına karşı düzgünlük ve iyiliği, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat ve doğruluk üzere} eylemin yöneldiği hakikati sağlar; 103:3'ün olağan sabır öğüdü de bu cevabı sürdürür, fakat belirli bir önerme veya ihtilaf göstermez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:time_compounds_loss",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_4b389cb7f5567efd717d",
-            "obligation:sup_9573649decbf975f3027"
-          ],
-          "paragraph": 2,
-          "anchor": "Ticari kayıp imgesiyle okunduğunda {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} yitirilen anapara ya da elde edilemeyen kazancı taşıyabilir; açılış yeminindeki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} olağan zaman anlamı, birbirini izleyen süreler olarak düşünüldüğünde bu hesabı her aralıkta biraz daha eksilen bir insan sermayesine dönüştürür, fakat metin matematiksel bir birikim veya buna sebep olan bir fail belirtmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "connection:conn_c067ac87a9a4d3dba3a6",
-            "context:103:1"
-          ],
-          "paragraph": 2,
-          "anchor": "Bu öneride ticari kayıp dalı sermaye ve kazançtan, 103:1'deki yemin ismi ise birbirini izleyen zaman aralıklarından gelir; ikisinin teması açığın sabit bir bakiyeden zamanla derinleşebilen bir hesaba dönüşmesini düşündürür, ancak zaman kaybı doğurmak yerine ona çerçeve veya tanıklık da edebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:pressure_exposes_deficit",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_4ced833cc050ffc9855b",
-            "obligation:sup_8aa9216fc74688d31133"
-          ],
-          "paragraph": 4,
-          "anchor": "İnsan ve kayıp imgesi, basit bir eksikten ziyade basınç altında açığa çıkan bir yetersizlik olarak da canlandırılabilir; bu maddi benzetme 103:1'i zaman yerine zorunlu olarak sıkma diye okumaz ve insanın gerçekten işlendiğini ya da bir kuvvetin kayba sebep olduğunu söylemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_c067ac87a9a4d3dba3a6",
-            "context:103:1"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} insan türünü veya bir insanı, {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} ise miktar, bütünlük ya da değer azalmasını adlandırır; açılış yeminindeki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} isim biçimine bağlanan “sıkarak sıvı çıkarma” ve “çıkan verim” imgeleri, odaktaki insan ve eksilme durumunu bağımsız bir basınç/yield sahnesiyle buluşturur: basınç açığı görünür kılar, verim ise latent yetersizliği açığa çıkaran sonuç olur, ama bu yemin biçiminin olağan anlamı zaman olarak kalır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:trust_grounded_exposure",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_e234d29177fc8d3bbc3c",
-            "obligation:sup_c90e0f3a588649a039ed"
-          ],
-          "paragraph": 5,
-          "anchor": "İçsel güven açısından bakıldığında genel insan kaybı, teminatı olmayan bir açıklık gibi düşünülebilir; 103:3'teki iman, bu açıklığa daha yerleşik bir zemin sunar, ancak iman yalnızca kayıp hükmünün istisnası da olabilir ve kaybın tek sebebi güvensizlik değildir."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} burada da türü veya kişiyi bildiren olağan isimdir; yakınlık, rahatlık ve yabancılığın kalkmasıyla ilgili bir dal olası bir rahatlık imgesi verir, {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} geniş açığı taşır, {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} ise bağlamda tasdik fiilidir ve güvenli, kalbi yatıştıran tasdik kullanımıyla bu açığa karşı gelir; bu yüzden güvenlik içsel bir alternatif olur, insan adı doğrudan “yoldaş” anlamına gelmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:work_converts_human_capacity",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_67f7cbeb1fb112ac4688",
-            "obligation:sup_b38d25750f9bf403c7c0"
-          ],
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
           "paragraph": 3,
-          "anchor": "İnsan kapasitesi ile ticari kayıp yan yana düşünüldüğünde istisnadaki çalışma, kapasitenin gerçek bir sonuca çevrilmesi ve insan hayatının bir getiri üretmesi şeklinde okunabilir; bu ekonomik bağlantı yorumlayıcı bir benzetmedir, ayet ücret söylemez ve kaybın iç ekonomisini tanımlamaz."
+          "anchor": "Hükmün ardından gelen istisna, kaybı inkâr etmeden onun karşısına hangi yönelişin konduğunu gösterir."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
+          "movement_refs": ["discovery:reader_payoff"],
           "paragraph": 3,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan türü ve insan} olağan anlamıyla sermaye değil, kapasitesi kullanılan ya da harcanan insandır; {ar:خُسْرٍ, tr:khusr, gloss:ticari kayıp} yitirilen ana değeri, 103:3'teki {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:iş yaptılar} ise kasıtlı eylem ve çalışmayı sağlar; fiile iliştirilen ücret veya karşılık imgesi, bu ticari açığın bağımsız tetikleyicisiyle bir getiri tarafı kurar, ama geçmiş zamanlı çoğul fiil ne ücret adı ne de gerçek bir ödeme olayıdır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:relational_functional_misfit",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_88fc8cad5d04a982964d",
-            "obligation:sup_8a773f44052143f9b8c8"
-          ],
-          "paragraph": 5,
-          "anchor": "Benzer biçimde insan hayatındaki kayıp, ilişkilerde yabancılaşma veya işlerin amaçlarına uymaması olarak da hissedilebilir; 103:3'teki iyi işler ilişkiyi onarma ve uygunluk imgesini tetikler, fakat metin kaybın nedenini tek başına bu uyumsuzlukla açıklamaz."
+          "anchor": "Böylece genel kayıp, yalnızca içsel bir inançla değil, gerçeğe yönelen tasdik ve dışarıda gerçekleşen yerinde eylemle karşılanan bir süreç olarak okunur."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} için yakınlık ve arkadaşlık imgesi, {ar:خُسْرٍ, tr:khusr, gloss:eksilme} içinse azalma anlamı taşıyıcıdır; 103:3'teki {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} dişil çoğul isim biçimi olağan olarak iyi işleri adlandırır, uzlaşma ve uygunluk ise bu ilişki/işlev okumasını açan ayrı kullanımlardır: insan ve kayıp taşıyıcılarına dönmeleri, kırılmış bağın veya işlevsel uyumsuzluğun görülebilmesini sağlar, ancak “iyi işler” sözcük biçimi bir uzlaşma olayı bildirmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:truth_as_shared_practice",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:sup_19b40eb0c3f819842f91",
-            "obligation:sup_22b8ba301ee3b82e4899"
-          ],
-          "paragraph": 6,
-          "anchor": "İstisnanın sosyal boyutunda genel insan topluluğu, hakikati birbirine hatırlatan çoğul öznelere dönüşür; böylece hakikat ortak yaşamda korunacak bir ölçü, karşılık ise yalnızca özel niteliklerin listesi değil müşterek bir uygulama olur, fakat karşıt davacılar, dava ya da yargılama gösterilmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan türü ve topluluk} türü veya insan topluluğunu adlandırır; 103:3'te iki kez geçen {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} karşılıklı öğütleşmeyi açıkça kurar, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat üzere} ise olağan isim biçimindeki hakikati ortak standart olarak verir; hakikati ayakta tutma kullanımı, bağımsız tetikleyici olan karşılıklı öğütle etkinleşir, ama bu temas bir hukuk düzeni veya ispat süreci değildir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:mutual_counsel_steadiness",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:sup_38038a0e4779dc954dcc",
-            "obligation:sup_4ebfc942f81eb5caa9d0",
-            "obligation:sup_ad93c95cab0869304ad8",
-            "obligation:sup_bb4b3397b39808a1120e",
-            "obligation:sup_eab492bf86396066b14f"
-          ],
-          "paragraph": 6,
-          "anchor": "Aynı karşılıklı öğütleşme insan yakınlığını, güveni ve kendini toparlayabilen sabrı bir araya getirerek kayıp karşısında birlikte ayakta kalma biçimi sunar; buradaki yakınlık okuması insan sözcüğünün yerine geçmez ve ayet panikten açıkça söz etmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} için yakınlık/rahatlık ve yabancılığı gideren yoldaş imgesi, 103:3'ün tekrar edilen {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilindeki karşılıklı ilişkiyle tetiklenir; {ar:ءَامَنُوا۟, tr:āmanū, gloss:inandılar} güven ve kalbi yatıştıran tasdik, {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ise olağan isim biçimindeki sabrın yanında paniğe kapılmaktan kendini tutma imgesi verir; böylece güven, arkadaşlık ve özdenetim, insanların birbirine eşlik edebildiği bir toplumsal karşılıkta birleşir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:transaction_hard_return",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:sup_38f9c7f6ce31617d3130",
-            "obligation:sup_405d22ede51ce897cd3a",
-            "obligation:sup_58989475e714595334a9",
-            "obligation:sup_bce3bbd7aa322c336a8d",
-            "obligation:sup_e01b45b6e5d0a0a0fe41"
-          ],
+          "movement_refs": ["discovery:containment"],
           "paragraph": 3,
-          "anchor": "Bu hesap imgesi, kaybedilen ana değer, beklenen getiri ve güç ya da acılık taşıyan bir dönüşü bir araya getirerek kaybın risk altındaki değerini hissettirir; alıcı, satış, sözleşme, miktar veya mülkiyet devri verilmediğinden sahne gerçek bir alışveriş değildir."
+          "anchor": "Bu karşılık, kayıp sözünü imanla eşitlemez veya her insanı tek bir sınıfa kapatmaz; burada kurulan bağ, birinci hükmün açıklığını koruyarak onun karşısındaki tutarlı hayat yönünü gösterir."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "connection:conn_c067ac87a9a4d3dba3a6",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:1",
-            "context:103:3"
-          ],
+          "movement_refs": ["activation:0"],
+          "paragraph": 1,
+          "anchor": "`{ar:إِنَّ, tr:inne, gloss:gerçekten}` ile pekiştirilen `{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` sözü, insan türünü ve tek tek insanı, `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` sözü de insanın içinde bulunduğu genel eksilmeyi ve değer yitimini birlikte gösterir."
+        },
+        {
+          "movement_refs": ["activation:1", "activation:2"],
           "paragraph": 3,
-          "anchor": "{ar:خُسْرٍ, tr:khusr, gloss:ticari kayıp} kaybedilen anaparayı taşırken 103:1'deki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} olağan zaman anlamının yanında çıkarılmış ürün ve getiri imgesine açılır; 103:3'teki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat ve hak} isim biçimi hakikati, ayrıca bu hesapta riske girebilecek bir hak iddiasını düşündürür; {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ise olağan bağlamda sabır adıdır, fakat aynı lafzın sert taşlı zemin ve acı aloe benzeri özüt kullanımları, bağımsız getiri/kayıp çerçevesiyle buluştuğunda dönüşü dirençli ve nahoş kılar, sabır anlamının yerine geçmez."
+          "anchor": "`{ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar}` ile güvenip tasdik etmek, kayba karşı içte sağlam bir kabul kurar; `{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak}` ile yanlışın karşısında gerçeği ayakta tutmak bu kabulün yönünü belirler."
+        },
+        {
+          "movement_refs": ["activation:3", "activation:4", "connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 3,
+          "anchor": "`{ar:عَمِلُوا۟, tr:amilû, gloss:amaçlı işler yaptılar}` sözü, niyetli bir yapıp-etmeyi; `{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyi ve yerinde işler}` ise bozulmayı artırmayan, yerli yerinde ve sağlam sonuçlar doğuran işleri ekler."
         }
       ]
     },
     {
-      "finding_ref": "macro:pressed_yield_short_measure",
+      "finding_ref": "macro:labor-crew-and-earned-provision",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:sup_21fcb9b2565079a4d41d",
-            "obligation:sup_6d90f3b0583c4ff85171",
-            "obligation:sup_72535433df013ae2cb9d",
-            "obligation:sup_90544d4dc18d818e7aba",
-            "obligation:sup_d0a702de1e65502136c9"
-          ],
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
           "paragraph": 4,
-          "anchor": "Ölçü imgesi bu süreci daha somutlaştırır: kayıp, üretimden çıkan verimin olması gerekenden kısa teslim edilmesi gibi görülebilir; burada gerçekten kullanılan bir terazi, satıcı, alet ya da eksik ölçme olayı ileri sürülmez."
+          "anchor": "İnsan emeğinin kayba dönüşmesi de aynı genel hüküm içinde belirginleşir"
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_c067ac87a9a4d3dba3a6",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:1",
-            "context:103:3"
-          ],
+          "movement_refs": ["discovery:reader_payoff"],
           "paragraph": 4,
-          "anchor": "{ar:خُسْرٍ, tr:khusr, gloss:zarar ve ölçüde eksiltme} bir ölçü sonucunu gerekenden aza indirme kolunu taşır; bağımsız üretim tetikleyicileri 103:1'deki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} için sıkma ve sıvı çıkarma imgesi, 103:3'teki {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:işlediler} fiiline bağlanan kullanıma koyma/işletme imgesi ve {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} sözüne bağlanan yığın hâlinde yiyecek imgesidir; sonuncunun ayetteki isim biçimi olağan olarak sabırdır, bu dal ise üretim ve miktar ipucuyla buluşunca kısa payı düşündürür."
+          "anchor": "kaybı gerçekleşmiş emeğin eksik geri dönüşü şeklinde somutlaştırır"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu okuma, hükmü yalnız ekonomik üretkenliğe kapatmaz"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 1,
+          "anchor": "kuruluşu kaybı dışarıdan ilişen tek bir olay değil, insanın içine yerleşmiş bir durum olarak duyurur."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 4,
+          "anchor": "`{ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak edilen pay ve gerçek}` sözü 103:3 bağlamında yalnız soyut doğruluğu değil, bir kimseye düşen ve savunulabilir olan payı da düşündürür."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 4,
+          "anchor": "ile önceki yemin, üretimden çıkan ve alınabilen getiriyi"
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 4,
+          "anchor": "fakat işin karşılığı olarak ödenen pay"
+        },
+        {
+          "movement_refs": ["activation:4"],
+          "paragraph": 4,
+          "anchor": "ve emeğin yürüttüğü ekipler gibi kullanımlar"
+        },
+        {
+          "movement_refs": ["connection:conn_c067ac87a9a4d3dba3a6", "connection:conn_26711320054a0f6530b1", "context:103:1", "context:103:3"],
+          "paragraph": 14,
+          "anchor": "Zamanın birikimi, emeğin dönüşü, hakkın onarılması, dolaşımın açılması ve baskının açığı görünür kılması"
         }
       ]
     },
     {
-      "finding_ref": "macro:loss_as_claimed_requital",
+      "finding_ref": "macro:contested-right-reconciled-by-deliberation",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:sup_02916934a03c97053af2",
-            "obligation:sup_37f60ab418f87e3a1c53",
-            "obligation:sup_a90196998422e1f6df82",
-            "obligation:sup_e64c695a61665f7c8dda",
-            "obligation:sup_e81399c547d24265b474"
-          ],
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
           "paragraph": 7,
-          "anchor": "Hukuki-hesap imgesi, genel azalmayı bir borç veya karşılık bekleyen hak iddiası gibi genişletir; bu, sorumluluk hakkında keşif niteliğinde bir benzetmedir, belirli bir alacaklı, yargıç, yetkili ya da infaz olayı ileri sürmez."
+          "anchor": "İnsanlar arasındaki kayıp, ortak bir hakkın sınanıp onarılmadığı yerde toplumsal bir biçim alır."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
+          "movement_refs": ["discovery:reader_payoff"],
           "paragraph": 7,
-          "anchor": "{ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} azalmanın taşıyıcısıdır; 103:3'te {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğruluk üzere} olağan hakikat isminin borç/due claim kolu, {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} olağan sabır adınınsa hukuki karşılık/ceza koluyla temas eder; kayıp ile ödenmesi gereken hak bu alternatif çerçeveyi tetikler, ancak bir hukuk usulü veya fiilî cezalandırma bildirilmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:withheld_benefit_shortfall",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:sup_2f8422dfb90445efd19e",
-            "obligation:sup_a10e5122a2014f820903",
-            "obligation:sup_a8788be0a2b0284c1a75",
-            "obligation:sup_ad354cb31ab6195490e3",
-            "obligation:sup_f42bd533568ddda71751"
-          ],
-          "paragraph": 2,
-          "anchor": "Aynı {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} sözü için önerilen tutma, geri çekme ya da alıkoyma kullanımı, {ar:خُسْرٍ, tr:khusr, gloss:eksilme} ile karşılaşınca bir yararın alıcısına ulaşmadan kesilmesi ihtimalini açar; bu yalnızca soyut bir akışın durmasıdır, adı konmuş bir malı, alıcıyı, geri alma fiilini veya ölçülü teslimatı anlatmaz."
+          "anchor": "ortak ölçünün bozulduğu yerde gerçeğin, hak edilen payın ve onarıcı ilişkinin yeniden kurulabileceği bir sosyal hareket gösterir"
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "connection:conn_c067ac87a9a4d3dba3a6",
-            "context:103:1"
-          ],
-          "paragraph": 2,
-          "anchor": "Taşıyıcı, zaman üzerine yemin içindeki isim biçimidir; alıkoyma imgesi bu biçimin olağan zaman okumasını silmez, bağımsız tetikleyici ise odaktaki genel azalmadır, dolayısıyla somut bir işlem değil, yoksun kalınan faydaya dair sınırlı bir ikinci okuma sunar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:reciprocal_measure_network",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_48e1f953270cf0e83715",
-            "obligation:sup_6e745f4b4aad20e31853"
-          ],
-          "paragraph": 6,
-          "anchor": "Karşılıklı öğüdün ağ gibi işleyen bir koruma mekanizması olduğu da önerilebilir: doğruya uyan söz insanlar arasında dolaşır, sürdürülen bağlılık bu standardı zaman içinde etkin tutar ve bireysel eksik ölçü ortak bir korunma pratiğine dönüşür; bu, metinde kurulmuş bir kurum değil, paralel erdemlerin birlikte işlemesinden çıkarılan ihtimalli bir açıklamadır."
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 7,
+          "anchor": "Bu temaslar, kaybı belirli bir dava veya hukuk kararı diye tanımlamaz"
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "activation:6",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
-          "paragraph": 6,
-          "anchor": "Bu okumada {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan topluluğu} yakınlığın ortamı, {ar:خُسْرٍ, tr:khusr, gloss:eksik ölçü} ağın düzeltmeye çalıştığı durumdur; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:karşılıklı öğütleşme} birleştirme ve karşılıklılık imgesiyle standardı kişiler arasında taşır, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikatle} gerçekliğe uygun hakikati, ayrıca güvenilir biçimde kurulmuş sözü düşündürür, {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ise bir yükümlülükte kalmayı ve zaman içinde sürdürmeyi; son iki ayrıntı sözlük biçiminin açıkça söylediği fiiller değil, tekrarlanan öğüt ve eksik ölçüyle kurulan sınırlı yorumlardır, dört öğüt başlığının paralel erdemler olarak okunması da mümkündür."
+          "movement_refs": ["activation:0"],
+          "paragraph": 7,
+          "anchor": "`{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan ve insanlar topluluğu}` yalnız görünmeyen varlıkların karşısındaki insan türünü değil, bu türün tek üyelerini ve aralarındaki topluluğu da adlandırır."
+        },
+        {
+          "movement_refs": ["activation:1", "activation:2", "activation:3"],
+          "paragraph": 7,
+          "anchor": "`{ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak ve gerçek}` bir iddianın haklılığı üzerinde çekişmeyi ve gerçeği ayakta tutmayı; `{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:ıslah eden ve uygun işler}` insanlar arasındaki barıştırma ve uzlaştırmayı düşündürür."
+        },
+        {
+          "movement_refs": ["activation:4", "connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 7,
+          "anchor": "`{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler}` ise tek taraflı bir ilan değil, insanların birbirine yönelttiği karşılıklı sözü taşır."
         }
       ]
     },
     {
-      "finding_ref": "macro:reduced_human_image",
+      "finding_ref": "macro:reciprocal-counsel-as-communal-steadiness",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_d50b03b2b28ca7c87e47",
-            "obligation:sup_1e4e0cda2516e2f3501d"
-          ],
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
           "paragraph": 8,
-          "anchor": "İnsan, gözde alınan küçük bir suret olarak da tasarlanabilir; {ar:خُسْرٍ, tr:khusr, gloss:ölçüde eksiltme} bu sureti orantısız biçimde küçültürken 103:3'teki hakikat olası bir düzeltme getirir, fakat bu keşifsel bir temsil modelidir, gerçek bir gözlemciyi anlatmaz ve olağan insan/kayıp okumasını korur."
+          "anchor": "İstisnanın gücü, tek tek erdemlerin yan yana dizilmesinden çok, insanı taşıyan karşılıklı bir ağ kurmasından gelir."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:3"
-          ],
+          "movement_refs": ["discovery:reader_payoff"],
           "paragraph": 8,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} sözcüğünün sınırlı bir sözlük kullanımında göz bebeğinin kara bölümündeki küçük insan biçimli yansıma kastedilebilir; bu, ayette gerçekten bulunan insan adıdır, fakat ayette göz sözcüğü yoktur, bu yüzden bağımsız tetikleyici {ar:خُسْرٍ, tr:khusr, gloss:eksik ölçü} için sunulan ölçüde eksiltme koludur; 103:3'teki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hakikat üzere} de hakikati açığa çıkarma/ayakta tutma imgesiyle olası bir düzeltici olur, fiziksel bir ölçme olayı veya kesin düzeltme değil."
+          "anchor": "ölçü bir kişinin iç dünyasında saklı kalmaz"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 8,
+          "anchor": "Bu kısa bağlamda sözün sıkı kurulması, yükümlülüğün sürdürülmesi ve insanların birbirine katılması"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 8,
+          "anchor": "karşısında yabancılık ve ürküntünün kalkıp yakınlık ve rahatlığa dönüşmesi"
+        },
+        {
+          "movement_refs": ["activation:1", "activation:2"],
+          "paragraph": 8,
+          "anchor": "`{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene yerleştiler}` yerleşmiş güveni ve tasdiki; `{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:panişe kapılmayıp kendini tuttu}` ise baskı anında paniğe kapılmadan kendini tutmayı taşır."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 8,
+          "anchor": "Tekrarlanan `{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler}` sözü hem insanları birbirine bağlayan yakınlığı hem de karşılıklı öğüdü"
+        },
+        {
+          "movement_refs": ["connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 8,
+          "anchor": "ana hükmü iptal etmeyen yerel bir dayanıklılık resmi olarak belirir"
         }
       ]
     },
     {
-      "finding_ref": "macro:bitter_yield_under_pressure",
+      "finding_ref": "macro:transaction-capital-and-the-hard-return",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "obligation:hft_24ea3433919f0914b547",
-            "obligation:sup_294924e282d27f65c2da"
-          ],
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 6,
+          "anchor": "Kayıp, bu sahnelerin yanında sert bir alışveriş hesabı gibi de hissedilebilir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 6,
+          "anchor": "insanın elindeki sermayenin beklenen dönüşe ulaşamamasını görünür kılar"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 6,
+          "anchor": "Bu ticari ve maddi görüntüler, ayetin zorunlu tek anlamı değildir"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 6,
+          "anchor": "alım satım sonunda başlangıç anaparasından bir bölümün yitirilmesini anlatan kullanımla temas ettiğinde"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 6,
+          "anchor": "belirli bir kimsenin sahip olduğu ve geri alınması gereken hakkı"
+        },
+        {
+          "movement_refs": ["activation:2", "activation:3"],
+          "paragraph": 6,
+          "anchor": "`{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sert taşlı zemin ve acı öz}` içindeki sert taşlı zemin, verimin kolayca alınmadığı bir direnç; acı aloe benzeri öz ise geri dönüşün tatsız ve yakıcı olabileceği bir yoğunlaşma resmi verir."
+        },
+        {
+          "movement_refs": ["activation:4", "activation:5"],
+          "paragraph": 6,
+          "anchor": "bir şeyden çekilip alınan getiriyi; `{ar:عَمِلُوا۟, tr:amilû, gloss:insanlar arası işlem yaptılar}` ise kişiler arasındaki iş görme ve işlemleşmeyi çağrıştırır"
+        },
+        {
+          "movement_refs": ["connection:conn_c067ac87a9a4d3dba3a6", "connection:conn_26711320054a0f6530b1", "context:103:1", "context:103:3"],
+          "paragraph": 6,
+          "anchor": "genel insan kaybını, hakkın ve emeğin gerçek bir dönüş beklediği sert bir hesap alanına yaklaştıran sınırlı benzetmelerdir"
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:coercive-custody-and-compelled-oath",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 10,
+          "anchor": "Sabır da yalnız gönüllü dayanma olarak kalmaz; insanın iradesi dışarıdan tutulup bir işi yapmaya veya bir yemini yerine getirmeye zorlandığında, aynı sözün zorlayıcı bir gözetim görüntüsü belirir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 10,
+          "anchor": "genel kaybı, dışarıdan dayatılan tutmanın öznenin eyleme gücünü nasıl daralttığını gösterecek kadar somutlaştırır"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 10,
+          "anchor": "Bu, belirli bir olayın veya hukuki kimliğin haberi değildir"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 10,
+          "anchor": "`{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` böylece sakin biçimde kendini tutan özne kadar, başkasının elinde alıkonulan kişiyi de sahneye getirir."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 10,
+          "anchor": "`{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:zorla tutulma ve yemin için alıkonma}` içindeki zorunlu tutma, infaz veya yemin için kişinin iradesini sıkıştıran bir gözetim olarak okunabilir."
+        },
+        {
+          "movement_refs": ["activation:2", "connection:conn_c067ac87a9a4d3dba3a6", "connection:conn_26711320054a0f6530b1", "context:103:1", "context:103:3"],
+          "paragraph": 10,
+          "anchor": "Önceki `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:alıkoyup geri alma}` imgesiyle birleşince, insanın hareket alanı ve hakkı geri verilmeyerek baskı altında tutulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:pressed-yield-and-short-measure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 5,
+          "anchor": "`{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` ölçme ve tartma alanına taşındığında, olması gereken miktarın aşağı çekilmesi"
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "kaybın baskı altında nasıl belirginleştiğini ve"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Sıkma, yığın ve kısa teslim görüntüleri burada ana hükmün yerine geçmez"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 5,
+          "anchor": "teslim edilen payın kısa tutulması anlamını kazanır"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 5,
+          "anchor": "bağlamındaki sofra yaygısı ve üzerine yığılmış yiyecek imgesi"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 5,
+          "anchor": "sıkma yönü, bir şeyden sıvı çıkana kadar bastırma hareketini çağrıştırır"
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 5,
+          "anchor": "`{ar:عَمِلُوا۟, tr:amilû, gloss:işe koşup kullandılar}` sözü de bir şeyi işe koşma ve kullanma yönüyle, baskının altında kalan kapasitenin gerçekten işletilip işletilmediğini sorar."
+        },
+        {
+          "movement_refs": ["connection:conn_c067ac87a9a4d3dba3a6"],
+          "paragraph": 5,
+          "anchor": "böylece baskı, gizli açığı ölçülebilir bir eksiklik halinde dışarı çıkarır"
+        },
+        {
+          "movement_refs": ["connection:conn_26711320054a0f6530b1", "context:103:1", "context:103:3"],
+          "paragraph": 5,
+          "anchor": "birikmiş miktarın sayılabilir ve dağıtılabilir hale gelişini taşır"
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:requital-satisfying-a-claim",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 7,
+          "anchor": "sözü de kayba uğrayan bir hakkın karşısına"
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 7,
+          "anchor": "orantılı karşılık veya hukuki ödetme sahnesini getirebilir"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 7,
+          "anchor": "bu, bağlamın açtığı bir cevap yönüdür, ayetin tek başına verdiği bir hüküm değildir."
+        },
+        {
+"movement_refs": ["activation:0"],
+"paragraph": 2,
+"anchor": "Bu yüzden hükmün ilk zemini, herkes için geçerli genel bir insanlık durumudur."
+        },
+        {
+          "movement_refs": ["activation:1", "activation:2"],
+          "paragraph": 7,
+          "anchor": "Orantılı karşılık, hak edilen payın geri verilmesini ve kaybın sınırsız bir cezaya dönüşmemesini gerektirir."
+        },
+        {
+"movement_refs": ["connection:conn_26711320054a0f6530b1", "context:103:3"],
+"paragraph": 14,
+"anchor": "Bütün bu temaslar, ilk cümleyi başka bir cümleyle değiştirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:withheld-property-and-recoverable-shortfall",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 5,
+          "anchor": "Aynı `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:verimi tutup geri alma}` sözü"
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "bu durumda kayıp, malın veya faydanın dolaşıma girmeyip bir yerde alıkonmasıyla oluşan ölçülebilir açık olur"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 14,
+          "anchor": "asıl anlam zemini korunurken her sahne kendi sınırında kalır"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 2,
+          "anchor": "`{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` burada yalnız ticari bir zarara ya da tek bir ölçü hatasına indirgenmez"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 2,
+          "anchor": "bir şeyin miktarından, bütünlüğünden veya değerinden parça yitirmesini karşılayan geniş bir sözdür"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 5,
+          "anchor": "akışın durdurulması ve bir yararın tutulup geri alınması"
+        },
+        {
+          "movement_refs": ["connection:conn_c067ac87a9a4d3dba3a6"],
+          "paragraph": 5,
+          "anchor": "dolaşım kesildiğinde nasıl büyüdüğünü anlatan bağlamsal sahnelerdir"
+        },
+        {
+"movement_refs": ["context:103:1"],
+"paragraph": 14,
+"anchor": "aynı hükmün farklı temaslarda kazandığı somut yüzlerdir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:time-compounds-the-human-account",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 2,
+          "anchor": "Bununla birlikte `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:zamanın akışı}` ardışık süreleri öne çıkarınca"
+        },
+        {
+"movement_refs": ["discovery:reader_payoff"],
+"paragraph": 1,
+"anchor": "Âyetin düz anlamı, `{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:zamanın akışı}` üzerine yeminle açılır; hemen ardından `{ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:innel-insânu lefî husrin, gloss:İnsan gerçekten kayıp içindedir}` denir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Zamanın kendisi kaybın tek sebebi ilan edilmez"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 2,
+          "anchor": "geri dönüş üretmeyen her aralıkta anaparadan yiyen ve geciktikçe derinleşen bir hesap imgesi belirir"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 2,
+          "anchor": "doğrulanmamış başka bir kullanım bu sahneye yalnızca ihtiyatlı bir arka plan sağlar."
+        },
+        {
+          "movement_refs": ["connection:conn_c067ac87a9a4d3dba3a6", "context:103:1"],
+          "paragraph": 2,
+          "anchor": "süre, kaybın nasıl birikerek görünür olabileceğini açan bir temas olarak kalır"
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:pressure-exposes-latent-deficit",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 13,
+          "anchor": "Baskı, insanın içinde saklı kalan açığı görünür kılan bir sınama gibi işler."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 13,
+          "anchor": "aynı zamanda süre içinde birikmiş açığın baskıyla görünür hale gelmesini düşündürür"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 13,
+          "anchor": "Sıkma ve acı öz görüntüsü duyusal bir benzetme olarak kalır"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 13,
+          "anchor": "Baskı altında insanın içindeki eksik de yüzeye çıkabilir"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 13,
+          "anchor": "sıkıştırılan hayatın gizli açığını yetersiz veya boşa giden bir ürün halinde gösteren bir sahne oluşur"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 13,
+          "anchor": "`{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:sıkarak verim çıkarma}` sözü, baskıyı bir şeyden öz çıkarana kadar yoğunlaştırır"
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 13,
+          "anchor": "insan emeğinin ve yaşantısının değerli bir dönüşe çevrilip çevrilmediği sorusu ortaya çıkar"
+        },
+        {
+          "movement_refs": ["connection:conn_c067ac87a9a4d3dba3a6", "context:103:1"],
+          "paragraph": 13,
+          "anchor": "ne zaman kelimesi tek başına borç defteridir ne de sabır sözü tek başına acı bir maddeyi adlandırır"
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:unsecured-exposure-behind-familiar-comfort",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 11,
+          "anchor": "Tanıdık bir yakınlık görüntüsü, güvenli bir zeminin gerçekten kurulmuş olduğu anlamına da gelmeyebilir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 11,
+          "anchor": "bağlam, dışarıdan güvenli görünen yakınlığın altında teminatsız bir açıklık kalabileceğini yalnızca nitelikli bir okuma olarak düşündürür"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 11,
+          "anchor": "Bu karşıtlık, her tanıdık ilişkinin kusurlu veya her imanın eksiksiz olduğu iddiası değildir"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 11,
+          "anchor": "`{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan ve yakınlık kuran kişi}` ile rahatlık hissi yan yana geldiğinde, insanın sosyal olarak gevşemiş görünmesi mümkündür."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 11,
+          "anchor": "tanıdık rahatlığın arkasındaki açığı açığa çıkarabilir"
+        },
+        {
+          "movement_refs": ["activation:2", "activation:3", "connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 11,
+          "anchor": "Buna karşılık `{ar:ءَامَنُوا۟, tr:âmenû, gloss:sağlam güvenle tasdik ettiler}` sözü, yalnız alışkanlık değil, yerleşmiş güven ve doğrulayan bir iç kabul ister"
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:work-converts-or-wastes-capital",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
           "paragraph": 4,
-          "anchor": "Basınçtan çıkan ürünün acı olması da kaybı kansız bir eksiltmeden, dayanmayla taşınan buruk bir kalıntıya dönüştürebilir; bu duyusal-mekanik imge keşif niteliğindedir ve iki bağlam sözcüğü burada bütün sıkma sürecini veya gerçek bir acı maddeyi adlandırmaz."
+          "anchor": "Böylece insanın taşıdığı yetenek, amaçlı eyleme çevrilmediğinde sermaye gibi eksilebilir"
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "connection:conn_c067ac87a9a4d3dba3a6",
-            "connection:conn_26711320054a0f6530b1",
-            "context:103:1",
-            "context:103:3"
-          ],
+          "movement_refs": ["discovery:reader_payoff"],
           "paragraph": 4,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan türü ve insan} bu benzetmede sıradan insan hayatını; {ar:خُسْرٍ, tr:khusr, gloss:eksilme} eksilen durumu taşır; 103:1'deki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} için önerilen sıvı çıkana kadar sıkma imgesi bağımsız basınç tetikleyicisi, 103:3'te olağan anlamı sabır olan {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} için önerilen acı aloe benzeri özüt imgesi ise tadı veren ayrı tetikleyicidir; ikisi buluşunca sabır kaybın acı tadını hemen yok etmeden taşıyabilir, gündelik zaman ve sabır anlamları korunur."
+          "anchor": "bu eksilmeyi tersine çevirebilecek somut kanallar olarak görünür"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu çerçeve, emeği yalnız ücret hesabına hapsetmeden, insanın eylemiyle hak ettiği dönüş arasındaki teması korur."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 14,
+          "anchor": "Hiçbiri insanı yalnız tüccara, yalnız davalıya, yalnız çalışan kişiye veya yalnız bir surete indirgemez"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 4,
+          "anchor": "insanın ortaya koyduğu iş, hak edilmiş bir karşılığa ve çekilip alınabilir bir ürüne dönüşemediğinde emek ile dönüş arasında bir açık kalır"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 4,
+          "anchor": "ise işi yapan kişinin çabasını öne çıkarır"
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 4,
+          "anchor": "amaçlı iş ve emeğin karşılığı ise"
+        },
+        {
+          "movement_refs": ["connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 4,
+          "anchor": "insanın emeğiyle hak ettiği sonucu arasındaki bağın kopmasını görünür kılar"
         }
       ]
     },
     {
-      "finding_ref": "macro:judgment_day_overlay",
+      "finding_ref": "macro:loss-as-misfit-and-estrangement",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
           "paragraph": 9,
-          "anchor": "Açıkça belirtilen Fâtiha bağlantısında kaybın yalnız bir kolu, 1:4'teki hesap ve karşılık günüyle buluşarak değerlendirmeye çıkan bir sonuç gibi okunabilir; bu dış bağlam 103:2'nin kendi başına kıyamet gününü adlandırdığı veya her kaybın aynı anlama geldiği iddiası değildir."
+          "anchor": "Yakınlık bozulduğunda kayıp yalnız miktarın azalması değil, insan ile yaptığı iş veya ilişki arasındaki uyumsuzluk olarak da görünür."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "context:1:4"
-          ],
+          "movement_refs": ["discovery:reader_payoff"],
           "paragraph": 9,
-          "anchor": "Taşıyıcı {ar:خُسْرٍ, tr:khusr, gloss:iyilikten uzaklaşıp yıkıma düşme} için önerilen manevi yıkım kolu, bağımsız tetikleyici {ar:يَوْمِ ٱلدِّينِ, tr:yawmi d-dīn, gloss:karşılık ve hesap günü} ile, yalnızca 1:4'ün sağladığı sınırlı çerçevede birleşir ve kaybın hesap edileceği bir zaman ufku ekler; bütün sûreyi tek bir açıklama gibi içeri taşımaz."
+          "anchor": "ve bu uyumsuzluğun yakınlığı aşındırmasına bağlanabilir"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 9,
+          "anchor": "İşin veya ilişkinin uygunluğu burada kelimenin tek ve zorunlu karşılığı değildir"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 9,
+          "anchor": "`{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` sözüne eşlik eden yabancılık duygusunun kalkması, bir kişiyle bir şeyin birbirine uygun ve tanıdık hale gelmesini anlatır."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 9,
+          "anchor": "Bu temas altında `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` insanın ilişki içinde yerini bulamamasına, yaptığı eylemin amacına uymamasına"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 9,
+          "anchor": "`{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:uygun ve ıslah edici işler}` ile 103:3teki uzlaşma yönü, insanların yeniden birbirine elverişli bir ilişki içinde durmasını düşündürür."
+        },
+        {
+          "movement_refs": ["activation:3", "connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 9,
+          "anchor": "fakat barışma ve uygun düşme yönü, kaybın her zaman toplumsal olmayan bir eksilme olmadığını gösteren ihtiyatlı bir imkân sunar"
         }
       ]
     },
     {
-      "finding_ref": "macro:path_guidance_overlay",
+      "finding_ref": "macro:reciprocal-network-preserves-measure",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 9,
-          "anchor": "Aynı dış bağlantıdaki 1:6'nın doğru yola yönelme isteği ve 1:7'nin sapmış olanları anması, kaybın bir türünü yönünü şaşırıp iyilikten uzaklaşma olarak canlandırır; bu da rehberliği karşı yön olarak gösteren, fakat 103:2'nin sözlük anlamını “sapma” diye değiştirmeyen sınırlı bir Fâtiha katmanıdır."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 8,
+          "anchor": "Bu ağ, insanın kayıp karşısındaki eksilmesini ortak ölçü, gerçek söz ve sürdürülen sabırla birlikte taşır."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "context:1:6",
-            "context:1:7"
-          ],
-          "paragraph": 9,
-          "anchor": "Burada {ar:خُسْرٍ, tr:khusr, gloss:doğru yönden sapıp yıkıma düşme} için sunulan manevi kayıp dalına bağımsız tetikleyiciler {ar:ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, tr:ihdinā ṣ-ṣirāṭ al-mustaqīm, gloss:bizi dosdoğru yola ilet} (1:6) ve {ar:وَلَا ٱلضَّآلِّينَ, tr:wa-lā ḍ-ḍāllīn, gloss:sapanlar değil} (1:7) olur; bunlar yalnız bu iki ayrı ayetin yön ve sapma karşıtlığını kayıpla buluşturur, bütün kaybı tanımlamaz ve bütün Fâtiha'yı içe aktarmaya izin vermez."
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 8,
+          "anchor": "Bu kısa bağlamda bu ağ, ana hükmü değiştirmeyen yerel bir dayanıklılık olarak kalır."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 8,
+          "anchor": "insanın kayba karşı yalnız bırakılmadığını hissettirir"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 8,
+          "anchor": "doğru söz birinden diğerine aktarılır ve zor zamanda taşınır"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 8,
+          "anchor": "Sözün sıkı kurulması, gerçeğin aktarılırken bozulmamasını ve ortak ölçünün korunmasını da ister."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 8,
+          "anchor": "Ağ paylaşılmadığında insanın kaybı tek başına taşınır ve ortak ölçü bozulur."
+        },
+        {
+          "movement_refs": ["activation:4"],
+          "paragraph": 8,
+          "anchor": "Dayanmayı sürdürme yükü, bu paylaşımın anlık bir rahatlık değil, taşınan bir sorumluluk olduğunu hatırlatır."
+        },
+        {
+          "movement_refs": ["activation:5", "activation:6"],
+          "paragraph": 8,
+          "anchor": "Karşılıklı öğüt ve bağlanma, insanları aynı ölçüyü korumaya çağırır."
+        },
+        {
+          "movement_refs": ["connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 8,
+          "anchor": "Bu ortaklık, doğru sözün ve sabrın ölçüyü koruyan ortak bir temas olduğunu gösterir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:human-image-reduced-in-measure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 12,
+          "anchor": "İnsan imgesi, ölçünün başkasının görüşünde küçülmesi şeklinde daha görünür bir resme de yaklaşır."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 12,
+          "anchor": "Bu küçülen suret, ortak ölçü ve doğru sözle yeniden görünür hale getirilebilecek bir insanlık payını temsil eder."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 12,
+          "anchor": "Buradaki görüntü, “insan” sözünün doğrudan “gözdeki suret” demesi değildir"
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 12,
+          "anchor": "`{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:göz bebeğinde görülen küçük insan sureti}` göz bebeğinin karanlık bölümünde görülen küçük insan biçimli yansımayı çağrıştırdığında, bir insanın başka birinin görüş alanında olduğundan küçük veya eksik temsil edilmesi düşünülebilir."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 12,
+          "anchor": "`{ar:خُسْرٍ, tr:husrin, gloss:ölçüde eksilme}` bu küçülmeyi niceliksel bir kayıp gibi"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 12,
+          "anchor": "`{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçeği ayakta tutmak}` ise gerçeğe uygun sözün bu çarpılmış temsili düzeltme gücü gibi tamamlar"
+        },
+        {
+          "movement_refs": ["connection:conn_26711320054a0f6530b1", "context:103:3"],
+          "paragraph": 12,
+          "anchor": "kayıp, ölçü ve hak arasındaki temasın açtığı deneysel bir temsil modelidir"
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:bitter-yield-under-pressure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 13,
+          "anchor": "Baskının insan hayatını sıkıştırıp geriye acı bir öz bırakması, kaybın nasıl hissedildiğini somutlaştırır."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 13,
+          "anchor": "aynı sözün dayanma yönü ise bu acının altında ayakta kalma çabasını taşır"
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 13,
+          "anchor": "Bu acı ve sıkışma, ana kayıp hükmünü yalnız duyusal bir görüntüye indirmeden onun basıncını hissettirir."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 13,
+          "anchor": "`{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan}` ve `{ar:خُسْرٍ, tr:husrin, gloss:kayıp}` yan yana geldiğinde"
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 13,
+          "anchor": "`{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:verim çıkaran sıkma}` ile `{ar:خُسْرٍ, tr:husrin, gloss:eksilen getiri}` birlikte okunduğunda"
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 13,
+          "anchor": "Bu sıkıştırma hareketi, zamanın akışında biriken eksiği zorla dışarı çıkaran bir basınç olarak okunabilir."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 13,
+          "anchor": "içindeki acı yoğunluk, baskıdan geriye kalan tortunun tatsızlığını"
+        },
+        {
+          "movement_refs": ["connection:conn_c067ac87a9a4d3dba3a6", "connection:conn_26711320054a0f6530b1", "context:103:1", "context:103:3"],
+          "paragraph": 13,
+          "anchor": "Bu duyusal bağ, önceki süre ve sabır temaslarına bağlı bir benzetme olarak kalır."
         }
       ]
     }
   ]
 }
+
 </macro_scope_ledger>
 
 <global_scope_prose>
-Ayetin açık ve vurgulu hükmü, insanın kayıp içinde olduğudur: {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} insan türünü ya da tek bir kişiyi, {ar:خُسْرٍ, tr:khusr, gloss:eksilme ve değer yitimi} ise miktar, bütünlük veya değerden eksilme durumunu adlandırır. Türü ya da tek kişiyi adlandıran insan, 104:2–3’te malını biriktirip sayan ve bunun onu ölümsüz kılacağını sanan kişiyle temas eder; aynı odaktaki genel eksilme, 10:45’te dünya ömrünün bir günün saati kadar görünmesine değince, birikimin koruyamadığı harcanmış hayatın hesabına dönüşür. Böylece birikim hanesi dolarken yaşamın harcanan vakti geri alınamaz bir değer kaybı olarak görünür. Bu hesap imgesi, insan ya da kayıp sözcüklerini servet veya ticaret anlamına çevirmeyen bağlamsal bir benzetmedir; hüküm her insanın bilinçli hesap yaptığını söylemez. İnsanı türü ve tekil üyeyi adlandıran taşıyıcı, 104:2–3’teki yığma ve sayma sahnesiyle birleşerek, kayıp hükmündeki özneyi görünür bir hesaba yerleştirir. {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} ile bildirilen durum ise birikmiş servetin ömrü koruyamaması ve 10:45’te sürenin daralmasıyla, harcanmış zaman karşılığında tutulamayan değer hâlini alır. Bu hesabın iki dış dayanağı, 104:2–3’te biriktirilen servetin sayılması ve ölümsüzlük sanısı ile 10:45’te bütün dünya ömrünün bir günün saati kadar görünmesidir. {ar:خُسْرٍ, tr:khusr, gloss:kayıp} sözü ticari yitimi de çağrıştırabilir: 104:2–3’teki servet hesabı ile 10:45’teki kısa süre, bir alışverişte anaparanın azalması ya da anapara korunsa bile umulan kazancın doğmamasıyla temas eder. Bu bakışta zaman da geri alınamayan bir sermayedir ve onu harcamak beklenen getiriyi güvenceye almaz. Ticari sonuç, genel eksilmeyle yan yana duran bir açılımdır; 103:2 alışveriş, piyasa faili ya da tek bir kayıp nedeni belirtmez. Ticari yitimin anapara yönünde, bir işlem sonunda eldekinin bir bölümü gider; 104:2–3’te sayılan varlık bu sermaye kaybı imgesine ayrı bir taşıyıcı olur. Anapara bütünüyle duruyor olsa bile, 10:45’te dünya süresinin bir saate inmesi harcanan zamanın karşılığını alamama düşüncesini açar. Bu ticari yankının kaynakları 104:2–3’te servetin birikmesi, sayılması ve kalıcı sanılması; 10:45’te ise dünya hayatının bir saat kadar sürmüş gibi anılmasıdır.
+Âyet önce yalın ve sarsılmaz bir hüküm verir: {ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:inne'l-insânu lefî husrin, gloss:İnsan gerçekten kayıp içindedir} — insan gerçekten kayıp içindedir. {ar:إِنَّ, tr:inne, gloss:gerçekten} ve ardından gelen vurgu lâmı hükmü pekiştirir; {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} belirli tekil biçimiyle insan türünü, insan topluluğunu ve o topluluğun tek kişisini önümüze getirir. {ar:لَفِى, tr:le-fî, gloss:elbette içindedir} içeri yerleştiren edatla {ar:خُسْرٍ, tr:husr, gloss:kayıp} belirli bir nesnenin kaybından önce genel bir eksilme ve değer yitimi durumunu gösterir. Böylece hüküm, insanı tek bir zarara indirgemeden, onu kuşatan bir kayıp hâlinde gösterir.
 
-{ar:خُسْرٍ, tr:khusr, gloss:kayıp} taşıyıcısı, eksik ölçme eyleminin doğurduğu sonuçla temas edince kayıp, yalnız kişinin kendisinden eksilen değil başkasına olması gerekenden az bırakılan değer olarak da görünür. Böylece hüküm etik bir kenar kazanır: birinin kaybı, başkasının hakkının teslim edilmemesiyle birlikte düşünülebilir. Bu açılım odaktaki sözcüğü eylem ya da fail yapmaz; her kaybı kasıtlı hile saymaz. 83:3’te başkalarına ölçü verirken eksiltme, 55:9’da teraziyi adaletle kurup eksiltmeme, 26:181’de ölçüyü tam verme, kayıp adını eksik teslimin olası sonucuna bağlar. 103:3’teki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve hakikat üzere} taşıyıcısı, 83:3, 55:9 ve 26:181’deki ölçme-verme sahnelerine değince doğruya uygun bir standart kurar; onun borç yönü teslim edilmesi gereken alacağı, sahibine ait belirli hak yönü ise bu eksilen payın muhatabını düşündürür, ancak hak sahibinin kim olduğu söylenmez. Kısa ölçünün örnekleri 83:3, adil terazinin emri 55:9, tam ölçü talebi 26:181’dir; 103:3’teki hak sözü ise bu eylemlere hakikat ve hak yönü kazandırır.
+İnsan kelimesinin türü ve topluluğu adlandıran yüzü, 104:3'teki servetin kalıcılığı yanılgısını anlatan bağ ile buluştuğunda, zamanın içinden görünen bir toplumsal tablo belirir. Buradaki {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} insanı görünür bir insan varlığı olarak taşır; {ar:خُسْرٍ, tr:husr, gloss:eksilme} ise miktar, bütünlük veya değerin bir bölümünü yitiren eksilme anlamını taşır. 104:3'ün servetin kalıcılığı sanısını keskinleştiren bağlantı bu iki taşıyıcıya döndüğünde, insanın durumu zaman boyunca aşınan ve giderek fark edilebilir hâle gelen bir değer kaybı olarak genişler. Bu bağlantı, kaybın tek sebebini zamana bağlamadan, insanın kayıp içindeki oluşunu zamanla görünürleşen bir eksilme olarak okumaya imkân verir.
 
-İnsan adı, algılayıp fark edebilen bir özneyi de düşündürür; kendini yeterli görerek taşan insanın 96:6’daki tasviri ile 75:14’te kendi nefsine karşı tanık olması, bu yetinin kendi kaybını her zaman göremeyebileceğini açar. Genel eksilme, kendini yeterli sayıp sınırı aşma ve başkasına eksik ölçme sahneleriyle birleşince hem yaşanan hem başkasına uygulanan bir eksiklik olabilir; ölçüde eksiltme ise bu eksiği somut, fark edilip düzeltilebilir bir sonuca çevirir. Tanı, yalnız dışarıda sayılan bir eksiği değil, kişinin kendi durumunu görme sorununu da içerir. Bu algı çağrışımı, insan adının olası sözlük alanlarından gelir; odaktaki insan sözcüğü tek başına “algılayan” demek değildir, kendine tanıklık sahnesi de içsel fark edişi başkasının öğüdü yanında canlı tutar. Görerek fark etme ve seçme yönü, odaktaki {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} adının sözlük alanıyla gelir; 96:6’da kendini yeterli sanan ve 75:14’te kendine karşı tanık olan insan bu algılama imgesini açar. {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} 96:6’daki taşma ve 83:3’teki eksik ölçme ile temas ederek hem kişinin yaşadığı hem başkasına uyguladığı eksikliğe döner; ölçüde eksiltme anlamı da 83:3 ve 55:9’daki karşıt ölçü sahneleriyle sosyal kaybı elle tutulur kılar. 103:3’teki {ar:ءَامَنُوا, tr:āmanū, gloss:iman ettiler} olağan olarak inanmayı bildirir; 90:17’deki karşılıklı öğüt ve 96:6’daki kendini yeterli sayanın taşması yanında, güvenip doğru sözü dinlemeye açıklık ve bir haberi içtenlikle doğrulama yönleri de çağrışır. Bu ikinci yön, kaybın tanınmasını dışarıdan gelen sözün güvenle kabul edilebilmesine bağlar. Aynı istisna içindeki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve hakikat üzere} sözü de 90:17’deki karşılıklı öğüt ve 83:3’te açığa çıkan eksik ölçüyle temas ederek doğru sözün kaybı görünür kılabilecek toplumsal bir işaret olmasını sağlar; buradan bir başkasının gerçekten neyi fark ettiğine dair kesin bir iddia çıkmaz. Bu algı çizgisinin geniş tanıkları 96:6 ve 75:14, ölçü örnekleri 83:3 ile 55:9, karşılıklı öğüt sahnesi 90:17’dir; bağlamdaki iman ve hak sözleri ise 103:3’te yer alır.
+Zaman ve birikim yarışı, {ar:خُسْرٍ, tr:husr, gloss:kayıp} kelimesinin ticari yüzünü de açar: 102:1'deki biriktirme yarışı, zamanın tüketilmesini doğrudan kayıp alanına bağlayan ayrı bir temas kurar. 102:1'deki bu temasın açtığı kullanımda kelime, alım satım sonunda başlangıç anaparasının bir bölümünü yitiren işlemi düşündürür; anapara yerinde kalsa bile beklenen kazanç doğmadığında işlem yine kayıp sayılır. Böylece insan, kullanılan zamanın karşılık üretmediği ve sermayeyi koruyamadığı bir pazarlığın içinde bulunuyor gibi görünür. Bu ticari görüntü, âyetin genel kayıp hükmünü genişletir; âyet parayı, piyasayı veya her kaybın ticari olduğunu söylemez.
 
-İnsanı olağan anlamıyla adlandıran {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan}, tanıdıklık ve rahatlık içinde yakınlık kurabilen bir varlığı da düşündürebilir. 2:27’de bağları koparmanın kaybedenlerle ilişkilendirilmesi ve 90:17’de insanların birbirine sabırla merhameti öğütlemesi, bu yakınlık yönünü kayıp ve onarım sahnelerine taşır. Böylece kayıp, insan ilişkilerinde yabancılaşma ve yakınlığın zayıflaması olarak da belirir; karşı hareketi birlikte taşınabilir. Yakınlık çizgisi herkeste yalnızlık bulunduğu iddiasına dönüşmez; sabırdan “kefalet” anlamı çıkarmak için de yeterli dayanak yoktur, çünkü burada toplumsal onarımı açıkça taşıyan şey karşılıklı öğüt eylemidir. İnsan adı yakınlık ve rahatlık kapasitesiyle, kopmuş bağlar ve karşılıklı öğüt sahnelerine değerek sosyal yönden okunur; {ar:خُسْرٍ, tr:khusr, gloss:eksilme ve değer yitimi} ile bildirilen genel eksilme ise 2:27’de kaybedenlerle bağlanan kopuş sayesinde ilişkilerin de yitirilmesi olur. 103:3’teki {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} eylemi, 90:17’deki sabır ve merhamet yönündeki öğütle; 2:27’deki kopmuş bağlara karşı insanların birbirine taşıdığı bir onarım hareketi olarak temas eder. Bu sosyal çizginin dış sahneleri bağları kesenlerin kaybeden sayıldığı 2:27 ve sabırla merhametin karşılıklı öğüt edildiği 90:17’dir; 103:3’teki istisna da bu öğüt eylemini açıkça adlandırır. Aynı insan adı tekil-genel kullanımıyla bireyi aşarak insan türünün ortak durumunu da adlandırabilir: 2:27’de koparılan bağların kaybedenlerle ilişkilendirilmesi ve 90:17’de insanların birbirine öğüt vermesi, insanın kaybını topluluk düzeyinde düşündürür. Böylece tekil hüküm, insan topluluğunun paylaşılan durumuna da bakar; cevap ise insanların birlikte kurduğu ilişkilerde görünür. Bu, tekil biçimi çoğul yapmaz ve herkese aynı toplumsal nedeni yüklemez; türü adlandıran genelin bağlamsal kapsamını genişletir. İnsan türünü ve üyelerini adlandıran insan sözü ile genel eksilme anlamındaki kayıp, kopmuş bağ ve karşılıklı öğüt sahneleriyle buluşunca tekil-genel hüküm ortak bir insanlık durumuna açılır. Bu ortaklık okumasının somut dış dayanakları 2:27’de kaybedenlerle koparılan bağlar ve 90:17’de topluluk içinde karşılıklı öğüttür.
+Bu ticari görüntü 104:2'deki malı yığıp sayma görüntüsüyle bir hesap düzenine bağlanır. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} bu hesaba giren görünen özneyi, {ar:خُسْرٍ, tr:husr, gloss:eksilme} genel değer yitimini, aynı kelimenin ticari kullanımı ise anaparanın geri dönmemesini taşır. 102:1'deki birikim yarışı ve 104:2'deki yığma-sayma teması, {ar:لَفِى, tr:le-fî, gloss:içinde} sözünün hareketini negatif bir bakiyenin içine yerleşmiş hayat gibi duyurur. Bu hesap imgesi açıklayıcı bir çerçevedir; hüküm gerçek bir muhasebe defteri kurmaz ve hesap görüntüsü öteki kayıp biçimlerini ortadan kaldırmaz.
 
-{ar:لَفِي خُسْرٍ, tr:la-fī khusr, gloss:kesinlikle kayıp içinde} olağan olarak insanın kayıp durumunda olduğunu söyler; içindeki fī ilişkisi, bu kaybı bir hayatın içinde yaşanan çevreleyici baskı gibi hissettirebilir. 90:4 insan hayatını zorluk içinde tasvir ederken 90:17 sabır ve karşılıklı öğüdü birlikte anarak aynı odak çevresinde baskı ve dayanma sahneleri kurar. Okur, kaybı yalnız eksilen bir şey değil, insanı kuşatan bir yaşantı gibi görebilir; sabırlı ortak destek de başka bir tutunma biçimi açar. Zorluk ayeti kaybı değil zorluğu söyler; bu temas iki durumu eşitlemez ve sabrın odak hükmünü ortadan kaldırdığını ileri sürmez. Odaktaki fī, genel eksilme taşıyan kaybı bir hayatın “içinde” bulunulan hâle çevirir; 90:4’teki zorlukla 90:17’deki ortak sabır bu yer ilişkisine değerek kayıp çevresindeki baskıyı görünür kılar. 103:3’teki {ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabr, gloss:sabır üzere} olağan anlamıyla sabırlı dayanmayı adlandırır; kaynak anlamın zor ve çıkışı güç durumlara uzanan yönü, 90:4’teki sıkıntı ve odaktaki fī ilişkisiyle temas ederek sabrın hangi baskı içinde taşındığını da düşündürür. Bu, sabrın burada doğrudan “felaket” demesi değil; sabır ve karşılıklı öğüdün, zorluk içindeki ortak tutunmayı görünür kılmasıdır. Baskı çizgisinin dış sahneleri insanın zorluk içinde oluşunu söyleyen 90:4 ve karşılıklı sabır öğüdünü veren 90:17’dir; 103:3’te sabır, istisnanın eylemlerinden biri olarak geçer. Kayıp, ölçüde eksiltme yoluyla başkasına ait bir hakkın teslim edilmemesi olarak da okunabilir; istisnadaki sabır ise fī'nin kurduğu “içinde olma” ilişkisini ortak dayanma imgesine doğru genişletir. Böylece eksik ölçünün etik ağırlığı ile baskı altında birlikte tutunma, birbirine indirgenmeden aynı kayıp çevresinde durur. Ölçme ve dayanma çizgileri farklı kalır: sabır zorlukla eş anlamlı değildir ve kayıp koşulunun yok olduğunu söylemez. Kayıp anlamındaki {ar:خُسْرٍ, tr:khusr, gloss:eksilme} 83:3’teki eksik teslim ve 55:9’daki adil teraziyle kısa ölçünün sonucuna değinir; 103:3’teki hak sözü ise eksiltilmemesi gereken borç ve sahibine ait belirli pay yönünü açar. 103:3’teki sabır, 90:17’de karşılıklı öğütle ve odaktaki fī ilişkisiyle buluşunca, ölçüde eksilme yanında baskı içinde ortak bir tutunma olarak duyulur; bu temas kefalet veya çaresizlik iddiası kurmaz. Bu iki yönün dayanakları eksik ölçüyü söyleyen 83:3, teraziyi adaletle koruyan 55:9, karşılıklı sabrı anan 90:17 ve istisnanın hak ile sabır sözlerini taşıyan 103:3’tür.
+Kaybın bir başka yüzü, 83:3'teki açık ölçü bağlantısıyla belirir. {ar:خُسْرٍ, tr:husr, gloss:kayıp} burada ölçülen sonucu olması gerekenden daha az yapan eylemi ve teslim edilen miktardaki açığı taşıyabilir; 83:3'ün verdiği temas kaybı başkasının hakkını kısa vermek olarak somutlaştırır. Okur böylece kaybı yalnız eldekinin azalması değil, borçlu olunanla teslim edilen arasındaki fark olarak görür. Ölçünün hangi mala, kime veya hangi ölçeğe ait olduğu açık bırakılır; kısa ölçü, sıradan insanın kayıp hükmünün içine yerleşen bir görünürlük kazanır.
 
-Odaktaki {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} insanın kayıp içinde olduğu genel hükmü bildirirken, 103:3’teki istisna bu teşhisin yanında sınırlı bir karşılık da verir: iman, iyi işler, hak üzere karşılıklı öğüt ve sabır, eksilmeye cevap veren tutumlar olarak belirir. Kayıp anlamı 103:3’teki istisnayla; 28:67’de tövbe, iman ve iyi işlerin kurtuluşa bağlanmasıyla; 90:17’de sabır ve merhametin karşılıklı öğüdüyle temas eder, böylece teşhis tek nedene indirgenmeden cevap alanı kazanır. Okur kayıp hükmünü korurken ona verilen karşılıkları da görebilir. İstisnadaki dört unsur her kaybın eksiksiz nedensel açıklaması değildir; bu yanıt alanı ana hükmün yerini almaz. Odaktaki {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme}, 103:3’teki istisna ve 28:67’de tövbe, iman, iyi işle kurtuluş umudu ile 90:17’deki karşılıklı sabır ve merhamet öğüdüyle karşılaşınca, kayıp tek nedeni açıklanmayan ama yanıta açık bir teşhis olarak okunur. Bu çizginin sahneleri 103:3’te açıkça sıralanan istisna, 28:67’de tövbe ve iyi işle umulan kurtuluş, 90:17’de sabır ve merhamet için karşılıklı öğüttür.
+Bu ölçü görüntüsü 26:181'deki tam ölçü buyruğuyla da aydınlanır: {ar:خُسْرٍ, tr:husr, gloss:kayıp} kelimesi, karşısına konmuş bir doğruluk standardına göre verilmesi gerekenden azını verme hâlini taşıyabilir. Geniş bağdan gelen bu okuma ihtiyat payını korur; âyetin içinde hazır bir tartı sahnesi kurmadan, tam ölçü buyruğu genel kaybı düzeltilebilir bir kısa teslim olarak görünür kılar. Böylece kayıp, hakikate ve başkasına verilmesi gerekeni eksik bırakmanın adı olarak da duyulur.
 
-Son olarak {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan}’ın {ar:خُسْرٍ, tr:khusr, gloss:kayıp} içinde oluşu, 51:56’daki {ar:إِلَّا لِيَعْبُدُونِ, tr:illā li-yaʿbudūn, gloss:ancak kulluk etsinler diye} yönüyle de duyulabilir; insanın yaratılış amacı, adlandırılan durumla amaçlanan yön arasında olası bir açıklık kurar. Bu temas, genel eksilmeyi yalnız miktar azalması değil, verilmiş yönelişin gerçekleşmemesi ihtimali olarak çerçeveler. Böylece okur, odak teşhisinin çevresinde amaç taşıyan bir ufuk da görür. Bu, iki sözü amaç cümlesiyle yan yana getirmenin açtığı keşfî bir okumadır; ayet her insanın bilinçli biçimde bu amacı reddettiğini veya kaybın zorunlu nedenini söylemez. İnsanı tür olarak adlandıran söz ile genel eksilme, 51:56’da insanın yaratılış amacıyla temas edince, kayıp verilmiş yönelişten uzaklaşma ihtimali olarak da duyulur. Bu olası amaç bağı, 51:56’da insanların kulluk için yaratıldığını bildiren ifadeye dayanır.
+103:3'ün daha sonra açtığı karşılıklı alan, daha önce genel kalan kaybı geriye dönük olarak ölçülebilir kılar. 83:3'teki eksik ölçü ile 90:17'deki sabra karşılıklı öğüt, verilen miktarın ve onu düzeltme sorumluluğunun birlikte düşünülmesini sağlar; {ar:خُسْرٍ, tr:husr, gloss:kısa düşen teslim} kelimesinin teslim edilen miktardaki açığı bildiren yüzü bu ilişkide belirginleşir. Bu değişim, kaybı kısa teslim ve topluca hesap verilebilir bir açık olarak görürken, ilk hükmü yerinden oynatmaz.
+
+Bu yüzden 83:3'ün hak ve ölçü teması 90:17'nin karşılıklı öğüt temasıyla birleştiğinde, kayıp iki kişi arasındaki dengesizliğe ve onu onarmaya çalışan ortak bir pratiğe açılır. {ar:خُسْرٍ, tr:husr, gloss:ölçüde eksiltme} kelimesi ölçülen sonucu olması gerekenden az yapan eylemi ve teslimdeki açığı taşırken, 83:3 ve 90:17'den gelen karşılıklı öğüt bu açığın birlikte gözetilmesini sağlar. Burada özel bir borçlu ya da ölçü belirlenmez; ortak düzeltme, kayıp hükmünün yanında duran bir imkân olarak kalır.
+
+İnsan kelimesinin algılayan yüzü 79:35'teki hatırlatma ve uyarı ihtiyacıyla karşılaştığında, kendi kaybı başka birinin doğru sözüyle görünür hâle gelebilen bir durum kazanır. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:algılayan insan} bir şeyi görüp fark eden varlığı taşır; 79:35'teki uyarı teması bu taşıyıcıya ayrı bir temas olarak döner ve insanın içinde bulunduğu kaybı fark etme imkânını açar. Okuma, uyarıyı kaybın tek sebebi saymadan, kayıp hükmünün algılanabilir bir teşhis hâline gelmesini sağlar.
+
+75:14'teki insanın kendi kendine tanıklığı, aynı algı taşıyıcısını içten bir fark edişe bağlar. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:fark eden insan} burada bir durumu görüp seçebilen kapasiteyi taşırken, {ar:خُسْرٍ, tr:husr, gloss:değer yitimi} genel eksilmeyi taşır; 75:14'teki bu kendi kendine tanıklık teması, iki taşıyıcıyı insanın yaşadığı kaybı kendi sorumluluk alanında görebilmesiyle buluşturur. Böylece hüküm, yaşanan bir durumu bildirmekle birlikte, o durumun insanın bilincine yerleşmesini de mümkün kılar; fark ediş tek başına iyileşme sözü değildir.
+
+90:17'deki karşılıklı sabır öğüdü ile 79:35'teki uyarı teması birlikte düşünüldüğünde, algılama bireysel bir iç hareketin yanında karşılıklı sözle çalışan bir işleve dönüşür. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:algılayan insan} kaybı fark edebilen taşıyıcıdır; 90:17 ve 79:35'ten gelen iki ayrı dış temas, uyarının ve karşılıklı hitabın bu fark edişi görünür kılabileceğini gösterir. Bu ihtiyatlı okuma, kaybı tek başına görmenin imkânsız olduğunu değil, başka bir insanın doğru sözüyle daha açık seçilebilir hâle gelebildiğini söyler.
+
+İnsan kelimesinin yabancılık ve ürkme duygusunun kalkıp yakınlık doğuran yüzü, 59:16'da görülen yabancılaştırıcı telkinle karşılaştığında, kayıp insanın başkalarıyla kurduğu tanıdık yakınlığın aşınması olarak da duyulur. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:yakınlık kurabilen insan} burada yalnız bir tür adı değil, yakınlık taşıyabilen bir varlık olarak renklenir; 59:16'daki yabancılaştırma teması bu kapasitenin karşısındaki basıncı sağlar. Kayıp böylece insanı yakınlık ve rahatlık kurma yetisinden uzaklaştıran bir yabancılaşma görünümü kazanır; kelimenin sıradan tür anlamı bu yeni görüntünün zemininde korunur.
+
+Aynı 59:16 teması ile 90:17'deki karşılıklı sabır öğüdü bir araya geldiğinde, yabancılaşan yakınlığın yeniden işler hâle gelmesi için ortak bir alan belirir. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:yakınlık ve rahatlık taşıyan insan} yabancılığı gideren yakınlık kapasitesini taşır; 59:16 ve 90:17'den gelen karşılıklı temas, bu kapasitenin insanlar tarafından birbirine destek verilerek çalıştırılabileceğini gösterir. Bu sosyal hareket, kayıp hükmüne eklenen bir onarım yolu gibi görünür; insan kelimesi yine de yalnızca arkadaşlık anlamına indirgenmez.
+
+Bu iki temas, insanın birlikte olma kapasitesini ayrıca görünür kılar: 59:16 yabancılaştırmanın ilişkiyi bozduğunu, 90:17 ise karşılıklı öğüdün ilişkiyi yeniden taşıyabildiğini gösterir. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:birlikte yaşama kapasitesi taşıyan insan} kelimesinin yakınlık yüzü bu yüzden 59:16 ve 90:17'nin birlikte açtığı toplumsal alanda kayıp içindeki insanı, bağları zayıflamış bir varlık olarak hissettirir. Bu, 59:16 ve 90:17'nin açtığı geniş bağlamdan gelen ihtiyatlı bir sosyal okumadır; birlikte olma kaybı, âyetin açıkça söylediği genel kayıp hükmünün yanına yerleşir.
+
+{ar:لَفِى, tr:le-fî, gloss:içindedir} sözünün içeri yerleştiren hareketi, 90:4'te insan hayatının zorluğuna verilen temasla birleşince {ar:خُسْرٍ, tr:husr, gloss:eksilme} kelimesini baskı altında kuşatan bir ortam gibi duyurur. Genel eksilme, zorluğun içinde değer ve bütünlük yitiren bir insan görüntüsüne dönüşür; 90:4 bu görüntüye bağımsız bir güçlük teması getirir. 90:17'deki sabra karşılıklı öğüt ise aynı kayıp alanının içinde, eksilmenin yalnız bir tartıda görülen miktara bağlı kalmadığını duyuran başka bir tutunma biçimi açar: 90:17'nin karşılıklı sabır teması, kayıp hükmü korunurken karşılıklı dayanmanın onu içeriden taşımasını sağlar. 90:4'teki güçlük ve 90:17'deki karşılıklı sabır, biri kaybı baskı altında duyuran, diğeri o basınç içinde tutunma açan iki ayrı temas olarak birlikte çalışır; {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} taşıyıcısı bu iki temasla hem baskıyı hem de tartıya bağlı kalmayan tutunmayı taşır. Buradaki yön ihtiyatla tutulur; zamanın kaybı doğurduğu, yalnızca kaybı açığa çıkardığı veya onu çerçevelediği kesinleştirilmez.
+
+28:67'de tövbe, iman ve salih amel ile başarı arasındaki karşıtlık, {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} kelimesinin şiddetli ama teşhis edilebilir bir açık olarak okunmasını sağlar. Bu bağlantı, kayıp hâlinin karşısına onu onarabilecek kapasiteleri çıkarır; insanın hüküm altında oluşu böylece adı konulabilir bir noksanlık gibi belirir. Okuma ihtiyatlıdır: 28:67'nin iyileşme düzeni bu âyetin içine sözlük anlamı olarak taşınmaz, fakat genel kaybın yanında bir toparlanma karşılığı görünür.
+
+Şimdiye kadar açılan temaslar, tek bir kısa hükümde birbirini silmeden duran dört ayrı hareket gösterir. 102:1'deki birikim yarışı {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:görünür insan türü} taşıyıcısına dönerek insanı zaman içinde eksilen bir varlık olarak gösterir. 79:35'teki uyarı ihtiyacı aynı insan kelimesinin fark eden yüzüne dönerek kaybı sözle görünür kılar. 90:4'teki güçlük, {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} taşıyıcısına dönerek kaybı kuşatan bir basınç kurar. 104:2'deki yığıp sayma görüntüsü ise aynı kelimenin ticari yüzünü hesapta geri dönmeyen sermaye olarak belirginleştirir.
+
+Bu dört hareket birlikte okunduğunda, okur aynı hükmü farklı yönlerden görme imkânı kazanır: görünür insan, algılayan insan, baskı altındaki eksilme ve işlem biçimindeki kayıp birbirine karışmadan aynı cümlenin etrafında durur. 102:1, 79:35, 90:4 ve 104:2'den gelen dört ayrı bağlantı, bu görüntüleri kendi taşıyıcılarına geri döndürerek her birinin değişen anlamı nerede kurduğunu gösterir. Bu bileşik görüntü bir kazanan anlam seçmez; her hareket kendi taşıyıcısı, dış teması ve sınırı içinde kalır. Güvenlik, belirli bir mülkiyet hakkı veya kaçışı olmayan ağır sıkıntı gibi aday anlamlar, bu hükümde ayrıca kurulmuş taşıyıcılar olarak yer almaz; böylece mevcut görüntülerin sınırı da korunur.
+
+75:14'teki iç tanıklık ile 83:3'teki hak ve ölçü bağlantısı yan yana geldiğinde, kayıp hem insanın kendi içinde görebileceği hem de başkasına ulaşan miktarla sınanabileceği bir durum hâline gelir. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:fark eden insan} içten fark edişi, {ar:خُسْرٍ, tr:husr, gloss:ölçüde eksiltme} ise verilmesi gerekenin altında kalan dış sonucu taşır; 75:14 ve 83:3'ten gelen iki temas, kaybı bilinebilir ve sınanabilir kılar. Bu sentez, ne öz-tanıklığı ne de ölçüyü kaybın bütünü sayar; ikisi, genel hükmün iki ayrı görünürlük yolu olarak birlikte kalır.
+
+Âyetin ilk cümlesi bu genişlemelerin hepsini taşıyacak kadar yalındır: insan gerçekten kayıp içindedir. Cümle, insanı zamanla aşınan toplumsal bir varlık, karşılık vermeyen bir işlemin içindeki özne, hakkı eksik teslim eden bir ölçü, kendi kaybını fark etmeye çağrılan bir bilinç, yakınlıktan uzaklaşan bir insan, baskı altında tutulan bir değer ve onarılabilir bir açık olarak yeniden gösterebilir. Bu görüntülerden her biri hükmün içine kendi temasından girer; hüküm ise bütün bu yollar boyunca kayıp hâlini bildiren zemin olarak yerinde kalır.
+
 </global_scope_prose>
 
 <global_scope_ledger>
@@ -2540,534 +2731,361 @@ Son olarak {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan}’ın {ar:خُ
   "lane": "global",
   "findings": [
     {
-      "finding_ref": "global:human_loss_account",
+      "finding_ref": "global:visible-human-depletion",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 1,
-          "anchor": "Türü ya da tek kişiyi adlandıran insan, 104:2–3’te malını biriktirip sayan ve bunun onu ölümsüz kılacağını sanan kişiyle temas eder; aynı odaktaki genel eksilme, 10:45’te dünya ömrünün bir günün saati kadar görünmesine değince, birikimin koruyamadığı harcanmış hayatın hesabına dönüşür."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 2,
+          "anchor": "İnsan kelimesinin türü ve topluluğu adlandıran yüzü, 104:3'teki servetin kalıcılığı yanılgısını anlatan bağ ile buluştuğunda, zamanın içinden görünen bir toplumsal tablo belirir."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 1,
-          "anchor": "Böylece birikim hanesi dolarken yaşamın harcanan vakti geri alınamaz bir değer kaybı olarak görünür."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Bu bağlantı, kaybın tek sebebini zamana bağlamadan, insanın kayıp içindeki oluşunu zamanla görünürleşen bir eksilme olarak okumaya imkân verir."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 1,
-          "anchor": "Bu hesap imgesi, insan ya da kayıp sözcüklerini servet veya ticaret anlamına çevirmeyen bağlamsal bir benzetmedir; hüküm her insanın bilinçli hesap yaptığını söylemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 1,
-          "anchor": "İnsanı türü ve tekil üyeyi adlandıran taşıyıcı, 104:2–3’teki yığma ve sayma sahnesiyle birleşerek, kayıp hükmündeki özneyi görünür bir hesaba yerleştirir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 1,
-          "anchor": "{ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} ile bildirilen durum ise birikmiş servetin ömrü koruyamaması ve 10:45’te sürenin daralmasıyla, harcanmış zaman karşılığında tutulamayan değer hâlini alır."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c9d032e143ed48a098a8",
-            "connection:conn_0f79cc5bb8fb1898108f",
-            "connection:conn_de0828fda1e54d013d42",
-            "context:10:45",
-            "context:104:2",
-            "context:104:3"
-          ],
-          "paragraph": 1,
-          "anchor": "Bu hesabın iki dış dayanağı, 104:2–3’te biriktirilen servetin sayılması ve ölümsüzlük sanısı ile 10:45’te bütün dünya ömrünün bir günün saati kadar görünmesidir."
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_0f79cc5bb8fb1898108f", "context:104:3"],
+          "paragraph": 2,
+          "anchor": "104:3'ün servetin kalıcılığı sanısını keskinleştiren bağlantı bu iki taşıyıcıya döndüğünde, insanın durumu zaman boyunca aşınan ve giderek fark edilebilir hâle gelen bir değer kaybı olarak genişler."
         }
       ]
     },
     {
-      "finding_ref": "global:time_trade_loss",
+      "finding_ref": "global:trade-loss-time",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 1,
-          "anchor": "{ar:خُسْرٍ, tr:khusr, gloss:kayıp} sözü ticari yitimi de çağrıştırabilir: 104:2–3’teki servet hesabı ile 10:45’teki kısa süre, bir alışverişte anaparanın azalması ya da anapara korunsa bile umulan kazancın doğmamasıyla temas eder."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 3,
+          "anchor": "Zaman ve birikim yarışı, {ar:خُسْرٍ, tr:husr, gloss:kayıp} kelimesinin ticari yüzünü de açar: 102:1'deki biriktirme yarışı, zamanın tüketilmesini doğrudan kayıp alanına bağlayan ayrı bir temas kurar."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 1,
-          "anchor": "Bu bakışta zaman da geri alınamayan bir sermayedir ve onu harcamak beklenen getiriyi güvenceye almaz."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 3,
+          "anchor": "Bu ticari görüntü, âyetin genel kayıp hükmünü genişletir; âyet parayı, piyasayı veya her kaybın ticari olduğunu söylemez."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 1,
-          "anchor": "Ticari sonuç, genel eksilmeyle yan yana duran bir açılımdır; 103:2 alışveriş, piyasa faili ya da tek bir kayıp nedeni belirtmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 1,
-          "anchor": "Ticari yitimin anapara yönünde, bir işlem sonunda eldekinin bir bölümü gider; 104:2–3’te sayılan varlık bu sermaye kaybı imgesine ayrı bir taşıyıcı olur."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 1,
-          "anchor": "Anapara bütünüyle duruyor olsa bile, 10:45’te dünya süresinin bir saate inmesi harcanan zamanın karşılığını alamama düşüncesini açar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c9d032e143ed48a098a8",
-            "connection:conn_0f79cc5bb8fb1898108f",
-            "connection:conn_de0828fda1e54d013d42",
-            "context:10:45",
-            "context:104:2",
-            "context:104:3"
-          ],
-          "paragraph": 1,
-          "anchor": "Bu ticari yankının kaynakları 104:2–3’te servetin birikmesi, sayılması ve kalıcı sanılması; 10:45’te ise dünya hayatının bir saat kadar sürmüş gibi anılmasıdır."
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_3b7102f8c49b85495844", "context:102:1"],
+          "paragraph": 3,
+          "anchor": "102:1'deki bu temasın açtığı kullanımda kelime, alım satım sonunda başlangıç anaparasının bir bölümünü yitiren işlemi düşündürür; anapara yerinde kalsa bile beklenen kazanç doğmadığında işlem yine kayıp sayılır."
         }
       ]
     },
     {
-      "finding_ref": "global:loss_as_short_measure",
+      "finding_ref": "global:short-measure",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:خُسْرٍ, tr:khusr, gloss:kayıp} taşıyıcısı, eksik ölçme eyleminin doğurduğu sonuçla temas edince kayıp, yalnız kişinin kendisinden eksilen değil başkasına olması gerekenden az bırakılan değer olarak da görünür."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 5,
+          "anchor": "Kaybın bir başka yüzü, 83:3'teki açık ölçü bağlantısıyla belirir."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 2,
-          "anchor": "Böylece hüküm etik bir kenar kazanır: birinin kaybı, başkasının hakkının teslim edilmemesiyle birlikte düşünülebilir."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Ölçünün hangi mala, kime veya hangi ölçeğe ait olduğu açık bırakılır; kısa ölçü, sıradan insanın kayıp hükmünün içine yerleşen bir görünürlük kazanır."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 2,
-          "anchor": "Bu açılım odaktaki sözcüğü eylem ya da fail yapmaz; her kaybı kasıtlı hile saymaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 2,
-          "anchor": "83:3’te başkalarına ölçü verirken eksiltme, 55:9’da teraziyi adaletle kurup eksiltmeme, 26:181’de ölçüyü tam verme, kayıp adını eksik teslimin olası sonucuna bağlar."
-        },
-        {
-          "movement_refs": [
-            "activation:1",
-            "activation:2",
-            "activation:3"
-          ],
-          "paragraph": 2,
-          "anchor": "103:3’teki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve hakikat üzere} taşıyıcısı, 83:3, 55:9 ve 26:181’deki ölçme-verme sahnelerine değince doğruya uygun bir standart kurar; onun borç yönü teslim edilmesi gereken alacağı, sahibine ait belirli hak yönü ise bu eksilen payın muhatabını düşündürür, ancak hak sahibinin kim olduğu söylenmez."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_900c4d491c04580546f8",
-            "connection:conn_e92ed0bc99f50cd34ca6",
-            "connection:conn_f8b91e05c8ac9a5f150a",
-            "context:103:3",
-            "context:26:181",
-            "context:55:9",
-            "context:83:3"
-          ],
-          "paragraph": 2,
-          "anchor": "Kısa ölçünün örnekleri 83:3, adil terazinin emri 55:9, tam ölçü talebi 26:181’dir; 103:3’teki hak sözü ise bu eylemlere hakikat ve hak yönü kazandırır."
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_900c4d491c04580546f8", "context:83:3"],
+          "paragraph": 5,
+          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp} burada ölçülen sonucu olması gerekenden daha az yapan eylemi ve teslim edilen miktardaki açığı taşıyabilir; 83:3'ün verdiği temas kaybı başkasının hakkını kısa vermek olarak somutlaştırır."
         }
       ]
     },
     {
-      "finding_ref": "global:human_perceives_the_shortfall",
+      "finding_ref": "global:perception-warning",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 3,
-          "anchor": "İnsan adı, algılayıp fark edebilen bir özneyi de düşündürür; kendini yeterli görerek taşan insanın 96:6’daki tasviri ile 75:14’te kendi nefsine karşı tanık olması, bu yetinin kendi kaybını her zaman göremeyebileceğini açar."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 9,
+          "anchor": "İnsan kelimesinin algılayan yüzü 79:35'teki hatırlatma ve uyarı ihtiyacıyla karşılaştığında, kendi kaybı başka birinin doğru sözüyle görünür hâle gelebilen bir durum kazanır."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 3,
-          "anchor": "Tanı, yalnız dışarıda sayılan bir eksiği değil, kişinin kendi durumunu görme sorununu da içerir."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 9,
+          "anchor": "Okuma, uyarıyı kaybın tek sebebi saymadan, kayıp hükmünün algılanabilir bir teşhis hâline gelmesini sağlar."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Bu algı çağrışımı, insan adının olası sözlük alanlarından gelir; odaktaki insan sözcüğü tek başına “algılayan” demek değildir, kendine tanıklık sahnesi de içsel fark edişi başkasının öğüdü yanında canlı tutar."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "Görerek fark etme ve seçme yönü, odaktaki {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan} adının sözlük alanıyla gelir; 96:6’da kendini yeterli sanan ve 75:14’te kendine karşı tanık olan insan bu algılama imgesini açar."
-        },
-        {
-          "movement_refs": [
-            "activation:1",
-            "activation:2"
-          ],
-          "paragraph": 3,
-          "anchor": "Genel eksilme, kendini yeterli sayıp sınırı aşma ve başkasına eksik ölçme sahneleriyle birleşince hem yaşanan hem başkasına uygulanan bir eksiklik olabilir; ölçüde eksiltme ise bu eksiği somut, fark edilip düzeltilebilir bir sonuca çevirir."
-        },
-        {
-          "movement_refs": [
-            "activation:3",
-            "activation:4"
-          ],
-          "paragraph": 3,
-          "anchor": "103:3’teki {ar:ءَامَنُوا, tr:āmanū, gloss:iman ettiler} olağan olarak inanmayı bildirir; 90:17’deki karşılıklı öğüt ve 96:6’daki kendini yeterli sayanın taşması yanında, güvenip doğru sözü dinlemeye açıklık ve bir haberi içtenlikle doğrulama yönleri de çağrışır."
-        },
-        {
-          "movement_refs": [
-            "activation:5"
-          ],
-          "paragraph": 3,
-          "anchor": "Aynı istisna içindeki {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve hakikat üzere} sözü de 90:17’deki karşılıklı öğüt ve 83:3’te açığa çıkan eksik ölçüyle temas ederek doğru sözün kaybı görünür kılabilecek toplumsal bir işaret olmasını sağlar; buradan bir başkasının gerçekten neyi fark ettiğine dair kesin bir iddia çıkmaz."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_88dbe9df4a82bb4609bf",
-            "connection:conn_e551fcaecdc57e7c20e0",
-            "connection:conn_c216f88ddab67edbbea1",
-            "connection:conn_900c4d491c04580546f8",
-            "connection:conn_e92ed0bc99f50cd34ca6",
-            "context:103:3",
-            "context:55:9",
-            "context:75:14",
-            "context:83:3",
-            "context:90:17",
-            "context:96:6"
-          ],
-          "paragraph": 3,
-          "anchor": "Bu algı çizgisinin geniş tanıkları 96:6 ve 75:14, ölçü örnekleri 83:3 ile 55:9, karşılıklı öğüt sahnesi 90:17’dir; bağlamdaki iman ve hak sözleri ise 103:3’te yer alır."
+          "movement_refs": ["activation:0", "connection:conn_2d217207a130ec210078", "context:79:35"],
+          "paragraph": 9,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:algılayan insan} bir şeyi görüp fark eden varlığı taşır; 79:35'teki uyarı teması bu taşıyıcıya ayrı bir temas olarak döner ve insanın içinde bulunduğu kaybı fark etme imkânını açar."
         }
       ]
     },
     {
-      "finding_ref": "global:human_companionship_in_loss",
+      "finding_ref": "global:social-estrangement",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 4,
-          "anchor": "2:27’de bağları koparmanın kaybedenlerle ilişkilendirilmesi ve 90:17’de insanların birbirine sabırla merhameti öğütlemesi, bu yakınlık yönünü kayıp ve onarım sahnelerine taşır."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 12,
+          "anchor": "İnsan kelimesinin yabancılık ve ürkme duygusunun kalkıp yakınlık doğuran yüzü, 59:16'da görülen yabancılaştırıcı telkinle karşılaştığında, kayıp insanın başkalarıyla kurduğu tanıdık yakınlığın aşınması olarak da duyulur."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 4,
-          "anchor": "Böylece kayıp, insan ilişkilerinde yabancılaşma ve yakınlığın zayıflaması olarak da belirir; karşı hareketi birlikte taşınabilir."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 12,
+          "anchor": "Kayıp böylece insanı yakınlık ve rahatlık kurma yetisinden uzaklaştıran bir yabancılaşma görünümü kazanır; kelimenin sıradan tür anlamı bu yeni görüntünün zemininde korunur."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "Yakınlık çizgisi herkeste yalnızlık bulunduğu iddiasına dönüşmez; sabırdan “kefalet” anlamı çıkarmak için de yeterli dayanak yoktur, çünkü burada toplumsal onarımı açıkça taşıyan şey karşılıklı öğüt eylemidir."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "İnsan adı yakınlık ve rahatlık kapasitesiyle, kopmuş bağlar ve karşılıklı öğüt sahnelerine değerek sosyal yönden okunur; {ar:خُسْرٍ, tr:khusr, gloss:eksilme ve değer yitimi} ile bildirilen genel eksilme ise 2:27’de kaybedenlerle bağlanan kopuş sayesinde ilişkilerin de yitirilmesi olur."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 4,
-          "anchor": "103:3’teki {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} eylemi, 90:17’deki sabır ve merhamet yönündeki öğütle; 2:27’deki kopmuş bağlara karşı insanların birbirine taşıdığı bir onarım hareketi olarak temas eder."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_91fb9a31763d03d097b9",
-            "connection:conn_c216f88ddab67edbbea1",
-            "context:103:3",
-            "context:2:27",
-            "context:90:17"
-          ],
-          "paragraph": 4,
-          "anchor": "Bu sosyal çizginin dış sahneleri bağları kesenlerin kaybeden sayıldığı 2:27 ve sabırla merhametin karşılıklı öğüt edildiği 90:17’dir; 103:3’teki istisna da bu öğüt eylemini açıkça adlandırır."
+          "movement_refs": ["activation:0", "connection:conn_0ab2487e81656478f064", "context:59:16"],
+          "paragraph": 12,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:yakınlık kurabilen insan} burada yalnız bir tür adı değil, yakınlık taşıyabilen bir varlık olarak renklenir; 59:16'daki yabancılaştırma teması bu kapasitenin karşısındaki basıncı sağlar."
         }
       ]
     },
     {
-      "finding_ref": "global:loss_as_enclosing_pressure",
+      "finding_ref": "global:loss-pressure-holding",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:لَفِي خُسْرٍ, tr:la-fī khusr, gloss:kesinlikle kayıp içinde} olağan olarak insanın kayıp durumunda olduğunu söyler; içindeki fī ilişkisi, bu kaybı bir hayatın içinde yaşanan çevreleyici baskı gibi hissettirebilir."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 15,
+          "anchor": "{ar:لَفِى, tr:le-fî, gloss:içindedir} sözünün içeri yerleştiren hareketi, 90:4'te insan hayatının zorluğuna verilen temasla birleşince {ar:خُسْرٍ, tr:husr, gloss:eksilme} kelimesini baskı altında kuşatan bir ortam gibi duyurur."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 5,
-          "anchor": "Okur, kaybı yalnız eksilen bir şey değil, insanı kuşatan bir yaşantı gibi görebilir; sabırlı ortak destek de başka bir tutunma biçimi açar."
-        },
-        {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "Zorluk ayeti kaybı değil zorluğu söyler; bu temas iki durumu eşitlemez ve sabrın odak hükmünü ortadan kaldırdığını ileri sürmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 5,
-          "anchor": "Odaktaki fī, genel eksilme taşıyan kaybı bir hayatın “içinde” bulunulan hâle çevirir; 90:4’teki zorlukla 90:17’deki ortak sabır bu yer ilişkisine değerek kayıp çevresindeki baskıyı görünür kılar."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 5,
-          "anchor": "103:3’teki {ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabr, gloss:sabır üzere} olağan anlamıyla sabırlı dayanmayı adlandırır; kaynak anlamın zor ve çıkışı güç durumlara uzanan yönü, 90:4’teki sıkıntı ve odaktaki fī ilişkisiyle temas ederek sabrın hangi baskı içinde taşındığını da düşündürür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_35c8f23284126d0982fd",
-            "connection:conn_c216f88ddab67edbbea1",
-            "context:103:3",
-            "context:90:17",
-            "context:90:4"
-          ],
-          "paragraph": 5,
-          "anchor": "Baskı çizgisinin dış sahneleri insanın zorluk içinde oluşunu söyleyen 90:4 ve karşılıklı sabır öğüdünü veren 90:17’dir; 103:3’te sabır, istisnanın eylemlerinden biri olarak geçer."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "connection:conn_35c8f23284126d0982fd", "connection:conn_c216f88ddab67edbbea1", "context:90:4", "context:90:17"],
+          "paragraph": 15,
+          "anchor": "90:4'teki güçlük ve 90:17'deki karşılıklı sabır, biri kaybı baskı altında duyuran, diğeri o basınç içinde tutunma açan iki ayrı temas olarak birlikte çalışır; {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} taşıyıcısı bu iki temasla hem baskıyı hem de tartıya bağlı kalmayan tutunmayı taşır."
         }
       ]
     },
     {
-      "finding_ref": "global:specified_response_to_deficit",
+      "finding_ref": "global:loss-account",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 4,
+          "anchor": "Bu ticari görüntü 104:2'deki malı yığıp sayma görüntüsüyle bir hesap düzenine bağlanır."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu hesap imgesi açıklayıcı bir çerçevedir; hüküm gerçek bir muhasebe defteri kurmaz ve hesap görüntüsü öteki kayıp biçimlerini ortadan kaldırmaz."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "connection:conn_3b7102f8c49b85495844", "connection:conn_c9d032e143ed48a098a8", "context:102:1", "context:104:2"],
+          "paragraph": 4,
+          "anchor": "102:1'deki birikim yarışı ve 104:2'deki yığma-sayma teması, {ar:لَفِى, tr:le-fî, gloss:içinde} sözünün hareketini negatif bir bakiyenin içine yerleşmiş hayat gibi duyurur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:social-reciprocity",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 13,
+          "anchor": "Aynı 59:16 teması ile 90:17'deki karşılıklı sabır öğüdü bir araya geldiğinde, yabancılaşan yakınlığın yeniden işler hâle gelmesi için ortak bir alan belirir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 13,
+          "anchor": "Bu sosyal hareket, kayıp hükmüne eklenen bir onarım yolu gibi görünür; insan kelimesi yine de yalnızca arkadaşlık anlamına indirgenmez."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_0ab2487e81656478f064", "connection:conn_c216f88ddab67edbbea1", "context:59:16", "context:90:17"],
+          "paragraph": 13,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:yakınlık ve rahatlık taşıyan insan} yabancılığı gideren yakınlık kapasitesini taşır; 59:16 ve 90:17'den gelen karşılıklı temas, bu kapasitenin insanlar tarafından birbirine destek verilerek çalıştırılabileceğini gösterir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:truth-remeasures-loss",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
           "paragraph": 6,
-          "anchor": "Odaktaki {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme} insanın kayıp içinde olduğu genel hükmü bildirirken, 103:3’teki istisna bu teşhisin yanında sınırlı bir karşılık da verir: iman, iyi işler, hak üzere karşılıklı öğüt ve sabır, eksilmeye cevap veren tutumlar olarak belirir."
+          "anchor": "Bu ölçü görüntüsü 26:181'deki tam ölçü buyruğuyla da aydınlanır: {ar:خُسْرٍ, tr:husr, gloss:kayıp} kelimesi, karşısına konmuş bir doğruluk standardına göre verilmesi gerekenden azını verme hâlini taşıyabilir."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment", "activation:0", "connection:conn_f8b91e05c8ac9a5f150a", "context:26:181"],
           "paragraph": 6,
-          "anchor": "Okur kayıp hükmünü korurken ona verilen karşılıkları da görebilir."
-        },
-        {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "İstisnadaki dört unsur her kaybın eksiksiz nedensel açıklaması değildir; bu yanıt alanı ana hükmün yerini almaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 6,
-          "anchor": "Odaktaki {ar:خُسْرٍ, tr:khusr, gloss:genel eksilme}, 103:3’teki istisna ve 28:67’de tövbe, iman, iyi işle kurtuluş umudu ile 90:17’deki karşılıklı sabır ve merhamet öğüdüyle karşılaşınca, kayıp tek nedeni açıklanmayan ama yanıta açık bir teşhis olarak okunur."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_50cb7410deea2126764d",
-            "connection:conn_c216f88ddab67edbbea1",
-            "context:103:3",
-            "context:28:67",
-            "context:90:17"
-          ],
-          "paragraph": 6,
-          "anchor": "Bu çizginin sahneleri 103:3’te açıkça sıralanan istisna, 28:67’de tövbe ve iyi işle umulan kurtuluş, 90:17’de sabır ve merhamet için karşılıklı öğüttür."
+          "anchor": "Geniş bağdan gelen bu okuma ihtiyat payını korur; âyetin içinde hazır bir tartı sahnesi kurmadan, tam ölçü buyruğu genel kaybı düzeltilebilir bir kısa teslim olarak görünür kılar."
         }
       ]
     },
     {
-      "finding_ref": "global:collective_human_loss",
+      "finding_ref": "global:perceiving-deficit",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 4,
-          "anchor": "Aynı insan adı tekil-genel kullanımıyla bireyi aşarak insan türünün ortak durumunu da adlandırabilir: 2:27’de koparılan bağların kaybedenlerle ilişkilendirilmesi ve 90:17’de insanların birbirine öğüt vermesi, insanın kaybını topluluk düzeyinde düşündürür."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 10,
+          "anchor": "75:14'teki insanın kendi kendine tanıklığı, aynı algı taşıyıcısını içten bir fark edişe bağlar."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 4,
-          "anchor": "Böylece tekil hüküm, insan topluluğunun paylaşılan durumuna da bakar; cevap ise insanların birlikte kurduğu ilişkilerde görünür."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 10,
+          "anchor": "Böylece hüküm, yaşanan bir durumu bildirmekle birlikte, o durumun insanın bilincine yerleşmesini de mümkün kılar; fark ediş tek başına iyileşme sözü değildir."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "Bu, tekil biçimi çoğul yapmaz ve herkese aynı toplumsal nedeni yüklemez; türü adlandıran genelin bağlamsal kapsamını genişletir."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "İnsan türünü ve üyelerini adlandıran insan sözü ile genel eksilme anlamındaki kayıp, kopmuş bağ ve karşılıklı öğüt sahneleriyle buluşunca tekil-genel hüküm ortak bir insanlık durumuna açılır."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_91fb9a31763d03d097b9",
-            "connection:conn_c216f88ddab67edbbea1",
-            "context:2:27",
-            "context:90:17"
-          ],
-          "paragraph": 4,
-          "anchor": "Bu ortaklık okumasının somut dış dayanakları 2:27’de kaybedenlerle koparılan bağlar ve 90:17’de topluluk içinde karşılıklı öğüttür."
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_e551fcaecdc57e7c20e0", "context:75:14"],
+          "paragraph": 10,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:fark eden insan} burada bir durumu görüp seçebilen kapasiteyi taşırken, {ar:خُسْرٍ, tr:husr, gloss:değer yitimi} genel eksilmeyi taşır; 75:14'teki bu kendi kendine tanıklık teması, iki taşıyıcıyı insanın yaşadığı kaybı kendi sorumluluk alanında görebilmesiyle buluşturur."
         }
       ]
     },
     {
-      "finding_ref": "global:short_measure_and_shared_holding",
+      "finding_ref": "global:retrospective-measure",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 5,
-          "anchor": "Kayıp, ölçüde eksiltme yoluyla başkasına ait bir hakkın teslim edilmemesi olarak da okunabilir; istisnadaki sabır ise fī'nin kurduğu “içinde olma” ilişkisini ortak dayanma imgesine doğru genişletir."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 7,
+          "anchor": "103:3'ün daha sonra açtığı karşılıklı alan, daha önce genel kalan kaybı geriye dönük olarak ölçülebilir kılar."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 5,
-          "anchor": "Böylece eksik ölçünün etik ağırlığı ile baskı altında birlikte tutunma, birbirine indirgenmeden aynı kayıp çevresinde durur."
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 7,
+          "anchor": "Bu değişim, kaybı kısa teslim ve topluca hesap verilebilir bir açık olarak görürken, ilk hükmü yerinden oynatmaz."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "Ölçme ve dayanma çizgileri farklı kalır: sabır zorlukla eş anlamlı değildir ve kayıp koşulunun yok olduğunu söylemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1"
-          ],
-          "paragraph": 5,
-          "anchor": "Kayıp anlamındaki {ar:خُسْرٍ, tr:khusr, gloss:eksilme} 83:3’teki eksik teslim ve 55:9’daki adil teraziyle kısa ölçünün sonucuna değinir; 103:3’teki hak sözü ise eksiltilmemesi gereken borç ve sahibine ait belirli pay yönünü açar."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 5,
-          "anchor": "103:3’teki sabır, 90:17’de karşılıklı öğütle ve odaktaki fī ilişkisiyle buluşunca, ölçüde eksilme yanında baskı içinde ortak bir tutunma olarak duyulur; bu temas kefalet veya çaresizlik iddiası kurmaz."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_900c4d491c04580546f8",
-            "connection:conn_e92ed0bc99f50cd34ca6",
-            "connection:conn_c216f88ddab67edbbea1",
-            "context:103:3",
-            "context:55:9",
-            "context:83:3",
-            "context:90:17"
-          ],
-          "paragraph": 5,
-          "anchor": "Bu iki yönün dayanakları eksik ölçüyü söyleyen 83:3, teraziyi adaletle koruyan 55:9, karşılıklı sabrı anan 90:17 ve istisnanın hak ile sabır sözlerini taşıyan 103:3’tür."
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_900c4d491c04580546f8", "connection:conn_c216f88ddab67edbbea1", "context:83:3", "context:90:17"],
+          "paragraph": 7,
+          "anchor": "83:3'teki eksik ölçü ile 90:17'deki sabra karşılıklı öğüt, verilen miktarın ve onu düzeltme sorumluluğunun birlikte düşünülmesini sağlar; {ar:خُسْرٍ, tr:husr, gloss:kısa düşen teslim} kelimesinin teslim edilen miktardaki açığı bildiren yüzü bu ilişkide belirginleşir."
         }
       ]
     },
     {
-      "finding_ref": "global:human_purpose_gap",
+      "finding_ref": "global:composite-loss-field",
       "landings": [
         {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism"
-          ],
-          "paragraph": 7,
-          "anchor": "Son olarak {ar:ٱلْإِنسَٰنَ, tr:al-insān, gloss:insan}’ın {ar:خُسْرٍ, tr:khusr, gloss:kayıp} içinde oluşu, 51:56’daki {ar:إِلَّا لِيَعْبُدُونِ, tr:illā li-yaʿbudūn, gloss:ancak kulluk etsinler diye} yönüyle de duyulabilir; insanın yaratılış amacı, adlandırılan durumla amaçlanan yön arasında olası bir açıklık kurar."
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 17,
+          "anchor": "Şimdiye kadar açılan temaslar, tek bir kısa hükümde birbirini silmeden duran dört ayrı hareket gösterir."
         },
         {
-          "movement_refs": [
-            "discovery:reader_payoff"
-          ],
-          "paragraph": 7,
-          "anchor": "Böylece okur, odak teşhisinin çevresinde amaç taşıyan bir ufuk da görür."
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 18,
+          "anchor": "Bu dört hareket birlikte okunduğunda, okur aynı hükmü farklı yönlerden görme imkânı kazanır: görünür insan, algılayan insan, baskı altındaki eksilme ve işlem biçimindeki kayıp birbirine karışmadan aynı cümlenin etrafında durur."
         },
         {
-          "movement_refs": [
-            "discovery:containment"
-          ],
-          "paragraph": 7,
-          "anchor": "Bu, iki sözü amaç cümlesiyle yan yana getirmenin açtığı keşfî bir okumadır; ayet her insanın bilinçli biçimde bu amacı reddettiğini veya kaybın zorunlu nedenini söylemez."
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 18,
+          "anchor": "Bu bileşik görüntü bir kazanan anlam seçmez; her hareket kendi taşıyıcısı, dış teması ve sınırı içinde kalır."
         },
         {
-          "movement_refs": [
-            "activation:0",
-            "activation:1"
-          ],
-          "paragraph": 7,
-          "anchor": "İnsanı tür olarak adlandıran söz ile genel eksilme, 51:56’da insanın yaratılış amacıyla temas edince, kayıp verilmiş yönelişten uzaklaşma ihtimali olarak da duyulur."
+          "movement_refs": ["activation:0"],
+          "paragraph": 17,
+          "anchor": "102:1'deki birikim yarışı {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:görünür insan türü} taşıyıcısına dönerek insanı zaman içinde eksilen bir varlık olarak gösterir."
         },
         {
-          "movement_refs": [
-            "connection:conn_4c5f712483378be664ed",
-            "context:51:56"
-          ],
-          "paragraph": 7,
-          "anchor": "Bu olası amaç bağı, 51:56’da insanların kulluk için yaratıldığını bildiren ifadeye dayanır."
+          "movement_refs": ["activation:1"],
+          "paragraph": 17,
+          "anchor": "79:35'teki uyarı ihtiyacı aynı insan kelimesinin fark eden yüzüne dönerek kaybı sözle görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 17,
+          "anchor": "90:4'teki güçlük, {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} taşıyıcısına dönerek kaybı kuşatan bir basınç kurar."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 17,
+          "anchor": "104:2'deki yığıp sayma görüntüsü ise aynı kelimenin ticari yüzünü hesapta geri dönmeyen sermaye olarak belirginleştirir."
+        },
+        {
+          "movement_refs": ["connection:conn_3b7102f8c49b85495844", "connection:conn_2d217207a130ec210078", "connection:conn_35c8f23284126d0982fd", "connection:conn_c9d032e143ed48a098a8", "context:102:1", "context:79:35", "context:90:4", "context:104:2"],
+          "paragraph": 18,
+          "anchor": "102:1, 79:35, 90:4 ve 104:2'den gelen dört ayrı bağlantı, bu görüntüleri kendi taşıyıcılarına geri döndürerek her birinin değişen anlamı nerede kurduğunu gösterir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:reciprocal-measure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 8,
+          "anchor": "Bu yüzden 83:3'ün hak ve ölçü teması 90:17'nin karşılıklı öğüt temasıyla birleştiğinde, kayıp iki kişi arasındaki dengesizliğe ve onu onarmaya çalışan ortak bir pratiğe açılır."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 8,
+          "anchor": "Burada özel bir borçlu ya da ölçü belirlenmez; ortak düzeltme, kayıp hükmünün yanında duran bir imkân olarak kalır."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_900c4d491c04580546f8", "connection:conn_c216f88ddab67edbbea1", "context:83:3", "context:90:17"],
+          "paragraph": 8,
+          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:ölçüde eksiltme} kelimesi ölçülen sonucu olması gerekenden az yapan eylemi ve teslimdeki açığı taşırken, 83:3 ve 90:17'den gelen karşılıklı öğüt bu açığın birlikte gözetilmesini sağlar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:remediable-deficit",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 16,
+          "anchor": "28:67'de tövbe, iman ve salih amel ile başarı arasındaki karşıtlık, {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} kelimesinin şiddetli ama teşhis edilebilir bir açık olarak okunmasını sağlar."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff"],
+          "paragraph": 16,
+          "anchor": "Bu bağlantı, kayıp hâlinin karşısına onu onarabilecek kapasiteleri çıkarır; insanın hüküm altında oluşu böylece adı konulabilir bir noksanlık gibi belirir."
+        },
+        {
+          "movement_refs": ["discovery:containment", "activation:0", "connection:conn_50cb7410deea2126764d", "context:28:67"],
+          "paragraph": 16,
+          "anchor": "Okuma ihtiyatlıdır: 28:67'nin iyileşme düzeni bu âyetin içine sözlük anlamı olarak taşınmaz, fakat genel kaybın yanında bir toparlanma karşılığı görünür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:reciprocal-perception",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 11,
+          "anchor": "90:17'deki karşılıklı sabır öğüdü ile 79:35'teki uyarı teması birlikte düşünüldüğünde, algılama bireysel bir iç hareketin yanında karşılıklı sözle çalışan bir işleve dönüşür."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 11,
+          "anchor": "Bu ihtiyatlı okuma, kaybı tek başına görmenin imkânsız olduğunu değil, başka bir insanın doğru sözüyle daha açık seçilebilir hâle gelebildiğini söyler."
+        },
+        {
+          "movement_refs": ["activation:0", "connection:conn_c216f88ddab67edbbea1", "connection:conn_2d217207a130ec210078", "context:90:17", "context:79:35"],
+          "paragraph": 11,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:algılayan insan} kaybı fark edebilen taşıyıcıdır; 90:17 ve 79:35'ten gelen iki ayrı dış temas, uyarının ve karşılıklı hitabın bu fark edişi görünür kılabileceğini gösterir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:social-capacity",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 14,
+          "anchor": "Bu iki temas, insanın birlikte olma kapasitesini ayrıca görünür kılar: 59:16 yabancılaştırmanın ilişkiyi bozduğunu, 90:17 ise karşılıklı öğüdün ilişkiyi yeniden taşıyabildiğini gösterir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 14,
+          "anchor": "Bu, 59:16 ve 90:17'nin açtığı geniş bağlamdan gelen ihtiyatlı bir sosyal okumadır; birlikte olma kaybı, âyetin açıkça söylediği genel kayıp hükmünün yanına yerleşir."
+        },
+        {
+          "movement_refs": ["activation:0", "connection:conn_0ab2487e81656478f064", "connection:conn_c216f88ddab67edbbea1", "context:59:16", "context:90:17"],
+          "paragraph": 14,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:birlikte yaşama kapasitesi taşıyan insan} kelimesinin yakınlık yüzü bu yüzden 59:16 ve 90:17'nin birlikte açtığı toplumsal alanda kayıp içindeki insanı, bağları zayıflamış bir varlık olarak hissettirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:perception-and-measure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "paragraph": 19,
+          "anchor": "75:14'teki iç tanıklık ile 83:3'teki hak ve ölçü bağlantısı yan yana geldiğinde, kayıp hem insanın kendi içinde görebileceği hem de başkasına ulaşan miktarla sınanabileceği bir durum hâline gelir."
+        },
+        {
+          "movement_refs": ["discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 19,
+          "anchor": "Bu sentez, ne öz-tanıklığı ne de ölçüyü kaybın bütünü sayar; ikisi, genel hükmün iki ayrı görünürlük yolu olarak birlikte kalır."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_e551fcaecdc57e7c20e0", "connection:conn_900c4d491c04580546f8", "context:75:14", "context:83:3"],
+          "paragraph": 19,
+          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:fark eden insan} içten fark edişi, {ar:خُسْرٍ, tr:husr, gloss:ölçüde eksiltme} ise verilmesi gerekenin altında kalan dış sonucu taşır; 75:14 ve 83:3'ten gelen iki temas, kaybı bilinebilir ve sınanabilir kılar."
         }
       ]
     }
   ]
 }
+
 </global_scope_ledger>

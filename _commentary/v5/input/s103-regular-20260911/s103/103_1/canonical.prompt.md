@@ -1615,17 +1615,26 @@ or evidence.
 </focus_context_brief>
 
 <micro_scope_prose>
-Ayetin yalın sözü, “Zamana yemin olsun”dur. Sûrenin başındaki {ar:وَ, tr:wa, gloss:yemin edatı}, burada sıradan bir bağlaç değil, açılışı yemin olarak kuran edattır; hemen ardından gelen {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} onun yönettiği yemin nesnesi olur. Bu kalıp, yemin etme fiilini ayrıca söylemeden edatla nesneyi bir araya getirir; eylem örtük kalırken yemin bu kısa formda tamamlanır, fakat kalıp hangi belirli fiilin söylenmediğini seçmez. İfade, hükmü bu açılışın içinde vermediğinden okuru cevabı bekleyen, henüz açık bir yemin çerçevesinde tutar; bu yerel bekleyiş cevabın hangi ayette verildiğini tek başına belirlemez. وَ ile الْعَصْرِnin bitişmesi, alif-i vasl üzerinden ses bağlantısı da kurar; yemin ilişkisi böylece tek ve sıkı bir başlangıç birimi gibi duyulur, ses de zaten kurulmuş sözdizimini pekiştirir.
+Bu kısa âyetin düz anlamı şudur: Zamana yemin olsun. Başlangıçtaki {ar:وَ, tr:wa-, gloss:yemin edatı}, surenin ilk sesi olarak bağlayıcı bir “ve” değil, yemin çerçevesini kuran edattır; hemen ardından gelen {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman} bu edatın yemin edilen tanığı olur. İlk kelime hükmü aynı anda kapatmak yerine yeminle gelecek cevabı sonraya bırakır; böylece bu tek âyet, cevabı bekleyen bir açılış gibi nefes alır. Yemin etme fiili de formülde söylenmeden bırakılmıştır: edat ile ona bağlı isim, yemin eylemini sıkıştırılmış bir açılışta taşır ve âyetin içinde tamamlanmış bir iddia yerine cevabı bekleyen bir başlangıç duyurur. {ar:وَ, tr:wa-, gloss:yemin edatı}nın bağımlı ön ek olarak {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman}a yazıda ve seste yapışması da bu bağı kurar; yemin ilişkisi açıklanmadan önce bile tek, sıkı bir birim olarak görülür ve duyulur.
 
-Buradaki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} biçiminde belirli tanımlık, tekil yapı ve soyut isim oluşu, bir anı saymaktan çok zamanı tek ve kuşatıcı bir alan olarak yemin konusu yapar; biçim tek başına ikindiyi ya da belli bir dönemi seçmez. Başındaki {ar:وَ, tr:wa, gloss:yemin edatı}, bu belirli ismi yemin tanığı konumuna çağırır; Arapçadaki çekim de onu bir işin ne zaman olduğunu bildiren zarf değil, yeminin dayanağı olan isim yapar. Kur'an'daki kullanım dağılımında bu kökün daha somut ya da oluş bildiren biçimlerine karşı soyut isim kullanımı seyrektir; burada tanık seçilen şey belirli bir işlem değil, zamanın kendisidir. Âyet tam bu tek isimde kapanır; ardından sıfat ya da açıklama getirmemesi yemin nesnesine kısa açılışın bütün son vurgusunu yükler.
+Bu ismin başındaki “el-” belirli artikelini, tekil oluşu ise parçaları saymak yerine bir bütünü toplama biçimini gösterir; soyut isim yapısıyla birlikte {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman} herhangi bir anı değil, devir, çağ veya vakit olarak tek bir yemin alanı kurar. Genitif hâli, bu belirli zaman alanını olayın ne zaman olduğunu bildiren bir zarf gibi değil, yeminle çağrılan nesne ve tanık olarak öne çıkarır. Kelimenin bağlı olduğu biçimlerin Kur’an içindeki seyrek soyut isim kullanımı da seçimi belirginleştirir: burada kök, sıkma ya da işlem bildiren biçimlerden ayrılarak soyut bir zaman adı olarak yer alır. Bu yüzden zaman anlamı önde kalırken, süreye değen basınç hissi onun üzerine eklenen sınırlı bir renktir; yemin edilen tanık hâlâ zamandır.
 
-Düzensiz bir seslendirme olan {ar:وَالْعِصْرِ, tr:wa-l-ʿiṣri, gloss:ip ya da ahit çağrışımı taşıyan varyant}, ip veya ahit bağını açar; bu çağrışım varyantın seslendirmesinden gelir ve alınmış {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} biçiminin zaman anlamının yerini almaz. Daha genişletilmiş şaz bir okuyuş, zamanın belalarını açıkça adlandırır; karşısında alınmış {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} biçimi zamanın sarsıntısını tek isimde örtülü tutar, böylece genişletme karşı-okuma olarak duyulur ve kanonik yemin ismini değiştirmez. Kanonik {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} sözcüğünün sonundaki ünsüzler araya ünlü girmeden sıkı kümelenir; yardımcı ünlülü düzensiz okuyuşlar kısa akışı gevşetip heceleri ayırır, bu yüzden kapanışın sıkılığı kulağa gelir ve varyantlar anlamdan çok ritmi değiştirir.
+Aynı kelime ailesindeki sıkma, yağmur üretimi ve döner rüzgâr kullanımları bu basınç renginin nereden geldiğini gösterir: kelimenin zaman anlamı, içinde bulunanı sıkan, ondan bir şey çıkaran ve sonucu görünür kılan bir alan gibi hissedilebilir; yerel isim biçimi ise bu teması anlam rengi olarak sınırlar. Sıkı ünsüz kümesi de bu yoğunluğu işitmeye taşır; alınmış yüzeydeki kısa, kapalı akış sıkıştırılmış bir ses etkisi verir, yardımcı ünlülerle değişen telaffuzlar ise yalnızca akışı gevşeten bir karşılaştırma sunar. Başka bir seslendirmedeki {ar:وَالْعِصْرِ, tr:wa-l-ʿiṣri, gloss:bağ veya ahit çağrışımı} biçimi, küçük bir ses değişiminin bağ veya ahit yolunu açabildiğini gösterir; alınmış {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman} biçiminin zamansal yemin alanı ise yerinde kalır. Genişletilmiş, alışılmadık bir okuma zamanın darbelerini açıkça dile getirirken, alınmış kısa biçim bu baskıyı tek bir isimde katlı tutar; böylece karşılaştırma, alınmış metnin neyi sıkıştırdığını görünür kılar.
 
-Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanımındaki “bir şeyi bastırıp içindeki sıvıyı çıkarma” işini yapan fiil değil, belirli soyut bir zaman adıdır; baştaki yemin edatı {ar:وَ, tr:wa, gloss:yemin edatı} bu vakti tanık konumuna çağırınca, sıkma imgesi zamanın anlamını değiştirmeden süreye sınama basıncı ekler ve vakit olup biteni tartan bir aralık gibi duyulur. Yemin nesnesinin grameri ve belirli tekil soyut biçimi, baştaki {ar:وَ, tr:wa, gloss:yemin edatı}nın tanık çağrısıyla kökün “bir şeyi bastırıp içindeki sıvıyı çıkarma” kullanımını aynı ada toplar; sıkı son ünsüzler bu yoğunluğu işitsel olarak tamamlar, böylece vakit sınama basıncıyla duyulur ve yine vakit olarak kalır.
+Bu parçalar birlikte açılışın tek bir yoğun tanık etrafında toplandığını gösterir: yemin edatı tanığı çağırır, belirli tekil soyut isim zamanı bir alan halinde toplar, aileden gelen basınç rengi onu sınayıcı kılar, sıkı ses bu yoğunluğu duyurur ve âyet açıklamasız isimde durur. Son kelimenin bir sıfat ya da açıklama olmadan tek başına âyeti kapatması, yemin çerçevesini sınırda asılı tutar; böylece kısa âyetin bütün ağırlığı tek ismin üzerinde toplanır. Bu birleşme yeni bir gizli sözlük anlamı seçmez; zamana yemin etmenin gramerini, biçimini, sesini ve bekleyişini aynı açılışta birbirine bağlar.
 
-{ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit ve devir} bir zaman aralığını taşır; baştaki {ar:وَ, tr:wa, gloss:yemin edatı} onu tanık diye çağırınca devirlerin art arda gelişi bu aralıkta neyin yaşandığını gösteren bir tanıklık alanı gibi duyulur; kelimenin vakit anlamı ve yemin bağı açıktır, dönüşleri tanıklık saymak ise daha ihtimalli bir yorumdur ve zamanı konuşan bir özneye dönüştürmez.
+Zamanı tek bir yemin alanı olarak kuran {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesi, yine {ar:وَ, tr:wa-, gloss:yemin edatı}nın tanık çağrısıyla duyulduğunda devirlerin ardışıklığını ve geri dönüşünü de taşır. Yemin edilen zaman bu temasla yalnızca geçen bir çizgi gibi değil, içinden geçenleri tekrar tekrar açığa çıkaran bir alan gibi görünür; değişim ve dönüş, zamanın tanıklığını etkinleştirir. Bu, zaman anlamından türeyen nitelikli bir yerel açılımdır: zaman burada bağımsız bir fail ya da genel bir öğretiye dönüşmeden, yemin içinde açıklayıcı bir tanık işlevi kazanır.
 
-{ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} burada sıradan anlamıyla bir zaman aralığıdır; kökün bir kullanımı bir şeyi bastırıp içindeki sıvıyı dışarı çıkaran sıkmadır ve baştaki {ar:وَ, tr:wa, gloss:yemin edatı} bu vakti tanık tuttuğunda aralık içinde birikeni baskıyla çıkarıp gizli verimi ya da verimsizliği gösteren bir sınama gibi okunabilir—bu ihtimalli benzetmede isim vakit olarak kalır, gerçek bir pres ya da kesin bir kazanç bildirmez. Aynı kök ailesinde birine ulaşan bağış, iyilik ya da yarar da anlatılır; yeminle tanık kılınan zamanın bu basıncı içinde açığa çıkan şey olası bir kazanım veya yarar olarak duyulabilir. Kök ailesinin ürün yönü ise alınan payı, ürünü, tarımsal geliri ya da başka kazancı kapsar; tanık tutulan sürenin içindekini sıkıp açığa çıkarma imgesi böylece birikmiş ürünün ortaya çıkışına uzanır.
+Zaman anlamının içine başka bir temas da girer: {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin “bir şeyi bastırıp sıkarak içindeki sıvıyı çıkarma” kullanımı, {ar:وَ, tr:wa-, gloss:yemin edatı}nın çağırdığı tanık alanına uygulandığında süreyi bir basınç ve çıkarma süreci gibi duyurur. Sıkma işleminin sonucu olan öz, pay, ürün ya da gelir yönü de bu sürecin ne çıkardığını görünür kılar; süre, içinde tuttuğunu bastırıp gizli verimini veya verimsizliğini ortaya çıkaran bir alan gibi okunur. Bu temasın form sınırı açıktır: kelime burada soyut bir zaman genitifi olarak kalır, somut pres, su veya ürün görüntüsü ise zamana eklenen nitelikli bir sonuç resmi olarak kalır.
+
+Kelime ailesinin tutunarak sığınma ve kurtuluş arayan kullanımı ile bir şeyi alıkoyma, geri alma ve elde tutma kullanımı da aynı yemin alanında karşı karşıya gelir. {ar:وَ, tr:wa-, gloss:yemin edatı}nın tanık olarak çağırdığı {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit}, bir yandan sıkılaşan bir tutuşu, öte yandan o tutuş içinde dayanılacak yeri düşündürür: zamanın baskısı, tutunmayı bir kurtuluş biçimi olarak görünür kılar. Böylece aynı yerel imge hem alıkoyan bir güç hem de sığınılan bir alanı birlikte taşır; bu okuma zaman tanığının üzerine kurulan nitelikli bir ilişkidir. Asli karşılık zamana tanıklık etmeyi korur; sığınak ve mal geri alma ayrıntıları bu ilişkinin nitelikli sınırları içinde kalır.
+
+Aynı {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin başka bir kullanımında genç kızın çocukluktan ergenlik eşiğine ulaşması, bir diğerinde ekinin başak kılıflarına girip korunması anlatılır. {ar:وَ, tr:wa-, gloss:yemin edatı}nın zaman alanını tanık olarak kurması bu iki ayrıntıyı buluşturunca, süre yalnız tüketen bir akış olmaktan çıkarak içindekini olgunlaştıran ve koruyan bir kuşatma evresi gibi duyulur. Eşik ve kılıf imgeleri gelişimin iki yüzünü açar: biri olgunluğa varışı, diğeri oluşmakta olanın koruyucu bir örtü içinde tutulmasını görünür kılar. Bu, kelime biçimi soyut zaman adı olarak kalırken açılan nitelikli bir olgunlaşma görüntüsüdür; biyolojik eşik ve kılıf ilişkisi kendi sınırları içinde kalır.
+
+Bir başka nitelikli temas, {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin yağmur taşıyan, yağışı boşaltmaya hazır bulut kullanımından ve tozu döne döne sütun gibi yükselten rüzgâr görüntüsünden gelir. {ar:وَ, tr:wa-, gloss:yemin edatı} bu zaman alanını tanık olarak çağırdığında, bulutta biriken sıkışma ve dönen sütunda görülen dolaşım, zamanı düz bir çizgi yerine kuvvet toplayıp açılmaya yaklaşan bir alan gibi düşündürür. Yağmurun gelişi birikimin boşalmasını, dönen toz sütunu ise doğrusal olmayan hareketi somutlaştırır; böylece yemin edilen zamanın içeriği açığa çıkarmaya yaklaşan bir basınç taşıdığı duyulur. Bu atmosfer resmi yerel ve nitelikli bir benzetme olarak kalır; kelimenin soyut zaman tanıklığı korunur.
+
+Sonunda elde kalan düz zemin açıktır: âyet zamanı yemin edilen tanık olarak kurar. Söz dizimi bekleyişi, tekil soyut biçim bütünlüğü, kelime ailesinin basınç ve üretim temasları, sesin sıkılığı ve yerel açılımların tanıklığı farklı yönlerden görünür kılar. Zamanın kendisi hâlâ ilk cümledeki zamandır; ardışıklık, çıkarma, sığınma, olgunlaşma ve atmosfer imgeleri bu tanıklığı kendi sınırları içinde derinleştirir. Böylece kısa açılış, bütün bu temasları taşıyan ve cevabı bekleyen bir yemin olarak okunabilirliğini korur.
+
 </micro_scope_prose>
 
 <micro_scope_ledger>
@@ -1635,32 +1644,32 @@ Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanı
   "lane": "micro",
   "findings": [
     {
-      "finding_ref": "micro:compressed-oath",
+      "finding_ref": "micro:compressed-oath-verb",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 1,
-          "anchor": "Bu kalıp, yemin etme fiilini ayrıca söylemeden edatla nesneyi bir araya getirir; eylem örtük kalırken yemin bu kısa formda tamamlanır, fakat kalıp hangi belirli fiilin söylenmediğini seçmez."
+          "anchor": "Yemin etme fiili de formülde söylenmeden bırakılmıştır: edat ile ona bağlı isim, yemin eylemini sıkıştırılmış bir açılışta taşır ve âyetin içinde tamamlanmış bir iddia yerine cevabı bekleyen bir başlangıç duyurur."
         }
       ]
     },
     {
-      "finding_ref": "micro:deferred-oath",
+      "finding_ref": "micro:deferred-oath-frame",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 1,
-          "anchor": "İfade, hükmü bu açılışın içinde vermediğinden okuru cevabı bekleyen, henüz açık bir yemin çerçevesinde tutar; bu yerel bekleyiş cevabın hangi ayette verildiğini tek başına belirlemez."
+          "anchor": "İlk kelime hükmü aynı anda kapatmak yerine yeminle gelecek cevabı sonraya bırakır; böylece bu tek âyet, cevabı bekleyen bir açılış gibi nefes alır."
         }
       ]
     },
     {
-      "finding_ref": "micro:oath-scope",
+      "finding_ref": "micro:oath-particle-scope",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 1,
-          "anchor": "Sûrenin başındaki {ar:وَ, tr:wa, gloss:yemin edatı}, burada sıradan bir bağlaç değil, açılışı yemin olarak kuran edattır; hemen ardından gelen {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} onun yönettiği yemin nesnesi olur."
+          "anchor": "Başlangıçtaki {ar:وَ, tr:wa-, gloss:yemin edatı}, surenin ilk sesi olarak bağlayıcı bir “ve” değil, yemin çerçevesini kuran edattır; hemen ardından gelen {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman} bu edatın yemin edilen tanığı olur."
         }
       ]
     },
@@ -1670,17 +1679,17 @@ Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanı
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 1,
-          "anchor": "وَ ile الْعَصْرِnin bitişmesi, alif-i vasl üzerinden ses bağlantısı da kurar; yemin ilişkisi böylece tek ve sıkı bir başlangıç birimi gibi duyulur, ses de zaten kurulmuş sözdizimini pekiştirir."
+          "anchor": "{ar:وَ, tr:wa-, gloss:yemin edatı}nın bağımlı ön ek olarak {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman}a yazıda ve seste yapışması da bu bağı kurar; yemin ilişkisi açıklanmadan önce bile tek, sıkı bir birim olarak görülür ve duyulur."
         }
       ]
     },
     {
-      "finding_ref": "micro:totalized-time",
+      "finding_ref": "micro:abstract-totalization",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 2,
-          "anchor": "Buradaki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} biçiminde belirli tanımlık, tekil yapı ve soyut isim oluşu, bir anı saymaktan çok zamanı tek ve kuşatıcı bir alan olarak yemin konusu yapar; biçim tek başına ikindiyi ya da belli bir dönemi seçmez."
+          "anchor": "Bu ismin başındaki “el-” belirli artikelini, tekil oluşu ise parçaları saymak yerine bir bütünü toplama biçimini gösterir; soyut isim yapısıyla birlikte {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman} herhangi bir anı değil, devir, çağ veya vakit olarak tek bir yemin alanı kurar."
         }
       ]
     },
@@ -1690,7 +1699,7 @@ Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanı
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 3,
-          "anchor": "Düzensiz bir seslendirme olan {ar:وَالْعِصْرِ, tr:wa-l-ʿiṣri, gloss:ip ya da ahit çağrışımı taşıyan varyant}, ip veya ahit bağını açar; bu çağrışım varyantın seslendirmesinden gelir ve alınmış {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} biçiminin zaman anlamının yerini almaz."
+          "anchor": "Başka bir seslendirmedeki {ar:وَالْعِصْرِ, tr:wa-l-ʿiṣri, gloss:bağ veya ahit çağrışımı} biçimi, küçük bir ses değişiminin bağ veya ahit yolunu açabildiğini gösterir; alınmış {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:zaman} biçiminin zamansal yemin alanı ise yerinde kalır."
         }
       ]
     },
@@ -1700,7 +1709,7 @@ Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanı
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 3,
-          "anchor": "Kanonik {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} sözcüğünün sonundaki ünsüzler araya ünlü girmeden sıkı kümelenir; yardımcı ünlülü düzensiz okuyuşlar kısa akışı gevşetip heceleri ayırır, bu yüzden kapanışın sıkılığı kulağa gelir ve varyantlar anlamdan çok ritmi değiştirir."
+          "anchor": "Sıkı ünsüz kümesi de bu yoğunluğu işitmeye taşır; alınmış yüzeydeki kısa, kapalı akış sıkıştırılmış bir ses etkisi verir, yardımcı ünlülerle değişen telaffuzlar ise yalnızca akışı gevşeten bir karşılaştırma sunar."
         }
       ]
     },
@@ -1708,39 +1717,49 @@ Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanı
       "finding_ref": "micro:convergent-oath-force",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 4,
-          "anchor": "Yemin nesnesinin grameri ve belirli tekil soyut biçimi, baştaki {ar:وَ, tr:wa, gloss:yemin edatı}nın tanık çağrısıyla kökün “bir şeyi bastırıp içindeki sıvıyı çıkarma” kullanımını aynı ada toplar; sıkı son ünsüzler bu yoğunluğu işitsel olarak tamamlar, böylece vakit sınama basıncıyla duyulur ve yine vakit olarak kalır."
+          "anchor": "Bu parçalar birlikte açılışın tek bir yoğun tanık etrafında toplandığını gösterir: yemin edatı tanığı çağırır, belirli tekil soyut isim zamanı bir alan halinde toplar, aileden gelen basınç rengi onu sınayıcı kılar, sıkı ses bu yoğunluğu duyurur ve âyet açıklamasız isimde durur."
         }
       ]
     },
     {
-      "finding_ref": "micro:definite-witness",
+      "finding_ref": "micro:genitive-witness",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 2,
-          "anchor": "Başındaki {ar:وَ, tr:wa, gloss:yemin edatı}, bu belirli ismi yemin tanığı konumuna çağırır; Arapçadaki çekim de onu bir işin ne zaman olduğunu bildiren zarf değil, yeminin dayanağı olan isim yapar."
+          "anchor": "Genitif hâli, bu belirli zaman alanını olayın ne zaman olduğunu bildiren bir zarf gibi değil, yeminle çağrılan nesne ve tanık olarak öne çıkarır."
         }
       ]
     },
     {
-      "finding_ref": "micro:single-noun-landing",
+      "finding_ref": "micro:pressure-family-color",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Âyet tam bu tek isimde kapanır; ardından sıfat ya da açıklama getirmemesi yemin nesnesine kısa açılışın bütün son vurgusunu yükler."
+          "paragraph": 3,
+          "anchor": "Aynı kelime ailesindeki sıkma, yağmur üretimi ve döner rüzgâr kullanımları bu basınç renginin nereden geldiğini gösterir: kelimenin zaman anlamı, içinde bulunanı sıkan, ondan bir şey çıkaran ve sonucu görünür kılan bir alan gibi hissedilebilir; yerel isim biçimi ise bu teması anlam rengi olarak sınırlar."
         }
       ]
     },
     {
-      "finding_ref": "micro:rare-abstract",
+      "finding_ref": "micro:final-noun-landing",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Son kelimenin bir sıfat ya da açıklama olmadan tek başına âyeti kapatması, yemin çerçevesini sınırda asılı tutar; böylece kısa âyetin bütün ağırlığı tek ismin üzerinde toplanır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:rare-abstract-slot",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 2,
-          "anchor": "Kur'an'daki kullanım dağılımında bu kökün daha somut ya da oluş bildiren biçimlerine karşı soyut isim kullanımı seyrektir; burada tanık seçilen şey belirli bir işlem değil, zamanın kendisidir."
+          "anchor": "Kelimenin bağlı olduğu biçimlerin Kur’an içindeki seyrek soyut isim kullanımı da seçimi belirginleştirir: burada kök, sıkma ya da işlem bildiren biçimlerden ayrılarak soyut bir zaman adı olarak yer alır."
         }
       ]
     },
@@ -1750,7 +1769,7 @@ Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanı
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 3,
-          "anchor": "Daha genişletilmiş şaz bir okuyuş, zamanın belalarını açıkça adlandırır; karşısında alınmış {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} biçimi zamanın sarsıntısını tek isimde örtülü tutar, böylece genişletme karşı-okuma olarak duyulur ve kanonik yemin ismini değiştirmez."
+          "anchor": "Genişletilmiş, alışılmadık bir okuma zamanın darbelerini açıkça dile getirirken, alınmış kısa biçim bu baskıyı tek bir isimde katlı tutar; böylece karşılaştırma, alınmış metnin neyi sıkıştırdığını görünür kılar."
         }
       ]
     },
@@ -1758,64 +1777,110 @@ Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanı
       "finding_ref": "micro:temporal-pressure",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
-          "paragraph": 4,
-          "anchor": "Ayetteki {ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit}, kökün ayrı kullanımındaki “bir şeyi bastırıp içindeki sıvıyı çıkarma” işini yapan fiil değil, belirli soyut bir zaman adıdır; baştaki yemin edatı {ar:وَ, tr:wa, gloss:yemin edatı} bu vakti tanık konumuna çağırınca, sıkma imgesi zamanın anlamını değiştirmeden süreye sınama basıncı ekler ve vakit olup biteni tartan bir aralık gibi duyulur."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Bu yüzden zaman anlamı önde kalırken, süreye değen basınç hissi onun üzerine eklenen sınırlı bir renktir; yemin edilen tanık hâlâ zamandır."
         }
       ]
     },
     {
-      "finding_ref": "micro:recurring-witness",
+      "finding_ref": "micro:recurring-time-witness",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
           "paragraph": 5,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit ve devir} bir zaman aralığını taşır; baştaki {ar:وَ, tr:wa, gloss:yemin edatı} onu tanık diye çağırınca devirlerin art arda gelişi bu aralıkta neyin yaşandığını gösteren bir tanıklık alanı gibi duyulur; kelimenin vakit anlamı ve yemin bağı açıktır, dönüşleri tanıklık saymak ise daha ihtimalli bir yorumdur ve zamanı konuşan bir özneye dönüştürmez."
+          "anchor": "Yemin edilen zaman bu temasla yalnızca geçen bir çizgi gibi değil, içinden geçenleri tekrar tekrar açığa çıkaran bir alan gibi görünür; değişim ve dönüş, zamanın tanıklığını etkinleştirir."
         }
       ]
     },
     {
-      "finding_ref": "micro:pressure-yield",
+      "finding_ref": "micro:pressure-extraction",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1"],
           "paragraph": 6,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:vakit} burada sıradan anlamıyla bir zaman aralığıdır; kökün bir kullanımı bir şeyi bastırıp içindeki sıvıyı dışarı çıkaran sıkmadır ve baştaki {ar:وَ, tr:wa, gloss:yemin edatı} bu vakti tanık tuttuğunda aralık içinde birikeni baskıyla çıkarıp gizli verimi ya da verimsizliği gösteren bir sınama gibi okunabilir—bu ihtimalli benzetmede isim vakit olarak kalır, gerçek bir pres ya da kesin bir kazanç bildirmez."
-        },
+          "anchor": "Zaman anlamının içine başka bir temas da girer: {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin “bir şeyi bastırıp sıkarak içindeki sıvıyı çıkarma” kullanımı, {ar:وَ, tr:wa-, gloss:yemin edatı}nın çağırdığı tanık alanına uygulandığında süreyi bir basınç ve çıkarma süreci gibi duyurur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:constraining-refuge",
+      "landings": [
         {
-          "movement_refs": ["activation:1"],
-          "paragraph": 6,
-          "anchor": "Aynı kök ailesinde birine ulaşan bağış, iyilik ya da yarar da anlatılır; yeminle tanık kılınan zamanın bu basıncı içinde açığa çıkan şey olası bir kazanım veya yarar olarak duyulabilir."
-        },
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1"],
+          "paragraph": 7,
+          "anchor": "{ar:وَ, tr:wa-, gloss:yemin edatı}nın tanık olarak çağırdığı {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit}, bir yandan sıkılaşan bir tutuşu, öte yandan o tutuş içinde dayanılacak yeri düşündürür: zamanın baskısı, tutunmayı bir kurtuluş biçimi olarak görünür kılar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:enclosed-maturation",
+      "landings": [
         {
-          "movement_refs": ["activation:2"],
-          "paragraph": 6,
-          "anchor": "Kök ailesinin ürün yönü ise alınan payı, ürünü, tarımsal geliri ya da başka kazancı kapsar; tanık tutulan sürenin içindekini sıkıp açığa çıkarma imgesi böylece birikmiş ürünün ortaya çıkışına uzanır."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1"],
+          "paragraph": 8,
+          "anchor": "{ar:وَ, tr:wa-, gloss:yemin edatı}nın zaman alanını tanık olarak kurması bu iki ayrıntıyı buluşturunca, süre yalnız tüketen bir akış olmaktan çıkarak içindekini olgunlaştıran ve koruyan bir kuşatma evresi gibi duyulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:atmospheric-release",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1"],
+          "paragraph": 9,
+          "anchor": "{ar:وَ, tr:wa-, gloss:yemin edatı} bu zaman alanını tanık olarak çağırdığında, bulutta biriken sıkışma ve dönen sütunda görülen dolaşım, zamanı düz bir çizgi yerine kuvvet toplayıp açılmaya yaklaşan bir alan gibi düşündürür."
         }
       ]
     }
   ]
 }
+
 </micro_scope_ledger>
 
 <macro_scope_prose>
-Başlangıçtaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana yemin} olağan anlamıyla zaman üzerine yemini açıkça kurar; sonraki yankılar bu temel okumayı silmek yerine ona ayrı dokular ekler. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman ve devir} sözcüğünün süre veya devir anlamı, 103:3'te yinelenen {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} ile karşılaşınca bağlantılı aralıklar gibi duyulur: sözcük zamanı taşır, sağlanan “bir şeyi ötekine bağlama” kullanımı ise tekrar eden öğütleşmeyle görünür olur; pratikler böylece yeminin işaret ettiği süre içinde birbirine eklenir ve zaman boş bir kap olmaktan çıkar, fakat bu bağlam içi görüntü kronoloji kanıtlamaz; tekrar yalnızca iki görevi birbirine bağlayabilir.
+Bu âyet, {ar:وَ, tr:wa-, gloss:yemin edatı} ile açılır; burada bu ses sıradan bir bağlama işinden çok, ardından gelen ismi yemin çerçevesine alan bir edat gibi çalışır. Ardından gelen {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir, vakit ve günün geç bölümü} belirli ve tekil bir isimdir; zamanın, bir devrin ya da günün geç bölümünün tanıklığına yönelir. Âyetin açık yüzü bu yüzden yalındır: Zamana yemin olsun. Bu biçim, cümlenin kendi içinde ikindi namazı veya gecikmiş geliş gibi özel kullanımları ayrıca seçmez; okuyucunun ilk dayanağı, belirli bir zaman kesitine edilen yemindir.
 
-Bu süre, 103:3'teki iş ve hak ile 103:2'deki kayıp yan yana geldiğinde bir getiri beklentisi de taşır. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; ürün veya kazanç yankısı} olağan biçimde zamanı bildirirken, sözcüğe bağlanan ürün/kazanç dalı; {ar:عَمِلُوا, tr:ʿamilū, gloss:iş yaptılar} fiilinin gerçek iş yapma anlamı, {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak ve doğru} sözcüğünün eda edilmesi gereken hak/borç çağrışımı ve {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} ile temas eder: iş beklenen bir çıktı, hak onun karşılığı, kayıp ise dönmeyen pay olur; bu yüzden istisna içindeki ameller zaman içinde sonuç doğuran emek gibi görünür, ama ücret bir isim olarak geçmez, ekip ya da el emeği de söylenmez ve fiilin ahlaki anlamı yerinde kalır. Aynı bağlantı, {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; elde edilen ürün} için muhtemel getiriyi 103:2'deki {ar:خُسْرٍ, tr:khusr, gloss:kayıp; ticari zarar yankısı} ve 103:3'teki {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak ve doğru; sahibine ait hak} ile karşı karşıya getirir; iş ve karşılıklı öğütleşme kişiler arası muameleyi, eldeki ürünün bir hak iddiası altında kazanılıp yitirilebileceği sınırlı bir alışveriş görüntüsüne dönüştürür, fakat âyet satıştan veya sermayeden söz etmez.
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} sözü 103:3'te iki kez geçen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirine öğüt vermek} ile buluştuğunda zaman boş bir kap gibi değil, birbirine eklenen aralıklar gibi görünür. İki öğütleşme, bir şeyi başka bir şeye bağlayan bir süreklilik görüntüsü verir; ardışık zaman parçaları birbirinin yanına gelip bir sonraki parçaya geçer. Böylece 103:2'nin hemen ardından gelen kayıp ve istisna ilişkisi, zamanın dışından eklenmiş bir tablo olmaktan çıkarak yeminle çerçevelenen bir akış kazanır; bu, zamana edilen yemini ortadan kaldırmayan, onun iç bağlantısını görünür kılan ihtiyatlı bir okumadır. Aynı çerçevede {ar:إِنسَٰنَ, tr:insân, gloss:insan} kelimesi yalnızca kayıp cümlesinin öznesi olarak kalmayıp, bir şeyi görme, duyma veya sezme yoluyla fark eden insan görüntüsünü de çağırır. İnsan, göz bebeğinde beliren bir suret gibi düşünüldüğünde, zaman dışarıdan olaylara bakan bir tanık olmaktan çıkar ve insan hâlinin içinde görünürleştiği bir alana dönüşür. Bu görsel temas, insan kelimesinin yalnızca cümlenin öznesi olarak okunmasını silmez; o okumaya, insan durumunun tekrarlanan zaman içinde belirginleşmesi ihtimalini ekler.
 
-Kayıp bu yüzden birden fazla biçimde okunur, tek bir hukuki hükme indirgenmez. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; alıkoyma veya geri alma yankısı} olağan zaman anlamını korurken, alıkoyma/geri alma kullanımı 103:2'deki {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} ile birleşince beklenen yararın kesilmesi ve ölçülebilir bir eksiğin kalması imgesini verir; bu, 103:1-2'de adı konmuş bir malı, devri veya hak sahibini varsaymaz ve kayıp önceki bir alacak olmadan da anlaşılabilir. Daha belirgin bir hesap görüntüsünde aynı alıkoyma, 103:2'deki eksik ölçüyle ve 103:3'teki {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak, borç ve korunacak gerçek} ile temas eder: hak hem bağlayıcı bir borç/iddia hem sahibine ait talep olur, sağlanan başka çağrışımda korunması gereken bir gerçek olarak da okunur; eksik ölçü normu, hak da alacaklıyı belirlediği için süre sanki eksik teslim edilmiş ya da hâlâ ödenmesi gereken şeyi açığa çıkaran bir hesap aralığına dönüşür, fakat bu hukuki-ekonomik ve özellikle “korunacak gerçek” katmanı atfedilmiş bir bağlamsal okumadır, zamanın hukuk uygulayan bir fail olduğu iddiası değildir; ahlaki muhasebe karşı-okuması açıktır. Buna karşılık daha dar bir ölçme-sınama imgesinde {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; bastırıp özünü çıkarma} sözcüğüne bağlanan baskı ve çıkarım ile ürün/getiri dalının elde edileni taşıması, 103:2'deki {ar:خُسْرٍ, tr:khusr, gloss:kayıp; eksik tartı ve ticari zarar} görüntüsüyle buluşur; çıkarılmış sonuç ölçülebilir bir eksik teslimle sınanır, böylece zaman yansız süre olmaktan çıkıp beklenen ürünün ne kadarının döndüğünü gösteren bir deneye benzer; terazi, mal veya gerçek ticaret âyette yoktur, bu ölçme bağlantısı atfedilmiş ve başka bir şekilde kaybın yalnızca zamanla birikmesi diye okunabilir.
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin ürün veya elde edilen kazanç yönü, 103:3'teki {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} ile buluştuğunda zaman, emeğin ürüne dönüştüğü bir üretim aralığı gibi okunabilir; 103:2'deki {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} ise bu çıktının eksik kalışını görünür kılar. {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} sözü, bu sahnede yalnızca bir eylemi değil, el emeğiyle çalışan bir topluluğun malzemeye iş vermesini de düşündürür. Aynı çalışma, karşılığını alan işçi görüntüsüyle ücret veya geçim payına bağlanır; zamanın ürünü böylece emeğin karşılıksız kalmadığı bir dönüş beklentisi kazanır. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak edilen pay} kelimesi bu dönüşe ölçü koyar: işin ve ürünün karşılığında birinin hak ettiği, borçlu olunan bir pay vardır. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} ise üretim ve hak beklentisinin yanında genel eksilme olarak durur; ürün ortaya çıksa bile beklenen paya ulaşmayan bir süreç hayal edilebilir. Bu sahne, âyetin lafzen işçi, ücret veya ticari sözleşme adlandırdığı iddiasına dönüşmez; bunlar zamana edilen yeminin içinde beliren sınırlı emek ve karşılık görüntüleridir.
 
-Bu hesap imgelerinden ayrı olarak zaman, olgunlaşıp işe elverişli hâle gelme süreci gibi de düşünülebilir. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; gelişme eşiği yankısı} sözcüğünün olağan süre anlamı, sağlanan sözlük dalındaki çocukluktan ergenliğe geçiş eşiğiyle; 103:3'teki {ar:عَمِلُوا, tr:ʿamilū, gloss:iş yaptılar}, {ar:الصَّالِحَاتِ, tr:al-ṣāliḥāt, gloss:iyi ve sağlam işler} ve {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak ve doğru; zamanı gelmiş deve imgesi} ile karşılaşınca salt süreyi kapasiteye erişmeye doğru genişletir: yaşı dolmuş devenin taşıma/kullanıma elverişliliği ayrı bir sözlük görüntüsü, salihatın sağlamlık ve bozulmaya karşı doğruluğu da işe uygunluk ölçüsüdür; âyet ergenlikten veya deveden söz etmez, at yürüyüşüne ilişkin dalın da burada dayanağı yoktur, dolayısıyla bunlar ahlaki amelleri ve zamana yemini koruyan sınırlı çağrışımlardır. Bir başka tarımsal hat, {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; ürün ve korunan tane} ile 103:3'teki {ar:عَمِلُوا, tr:ʿamilū, gloss:bilerek emek verdiler} ve {ar:الصَّالِحَاتِ, tr:al-ṣāliḥāt, gloss:sağlamlık ve amaca uygunluk} arasında kurulur: ürün dalı ile tanenin kılıfına girip korunması görüntüsü, çalışmanın geliştirdiği ve bozulmadan saklanan bir mahsule dönüşür; emek için ücret ve eylemin malzemesine uygunluğu ise kısmen atfedilmiş eklemelerdir, yüzeyde ücret adı veya gerçek tarım yoktur ve ahlaki iyi işler, korunan ürün ve kazanç ayrı imgeler olarak da kalabilir. Aynı ürünün kılıf içinde korunması, {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; serili yemek ve yığın} sözcüğüne bağlanan yemek örtüsü/sergisi, yığılmış yiyecek ve bir şeyin üstü-kenarı çağrışımlarıyla birleştiğinde, büyüyen ürünün toplanıp sınırı belli bir erzak yığınına dönüşmesini sağlar; burada olağan anlam sabırdır, bu yerel sözlük yankısı âyetin hasat anlattığını veya sure boyunca tekrarlanan bir tarım düzenini göstermez.
+Bu üretim çizgisinde {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:elde edilen ürün} kelimesi, {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:düzgün ve ıslah edici işler} ile yan yana geldiğinde yetiştirme ve koruma hareketi kazanır. Zamanın ürün yönü, başağın kılıflarına girerek korunması görüntüsüyle buluşur; böylece çıkarılan kazançtan önce, henüz gelişmekte olan ürünün bozulmadan tutulduğu bir evre belirir. {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} burada pasifçe beklemekten farklı olarak niyetli ve yönelmiş çalışmayı taşır; eldeki malzemeye yapılan iş, ürünün ortaya çıkışına katılır. Aynı kelimenin iş karşılığı ve işçinin geçim payı, yetiştirmenin emeği destekleyen bir dönüşe bağlandığını gösterir. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:düzgün ve ıslah edici işler} bozulmanın karşısında sağlamlık ve onarma görüntüsünü getirir; üretim, yalnız çıkarmakla değil, gelişen şeyi bozulmadan tutmakla tamamlanır. Bu sağlamlık, eylemin malzemesine ve amacına uygun düşmesiyle birleştiğinde, ürünün verimli olmasını sağlayan bir uygunluk ölçüsü ortaya çıkar. Bu iki üretim görüntüsü, zamana edilen açık yemini korur; yalnızca zamanın kendiliğinden ürün verdiğini değil, ürünün emek, uygunluk ve korunma içinde geliştiğini duyurur.
 
-İstisnadaki güven ve karşılıklı destek, zamanın baskı alanı olduğu kadar tutunulacak yer de olabileceğini düşündürür. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; tutunulan sığınak yankısı} sözcüğünün olağan süre anlamı içindeki “bir şeye tutunup güvenlik edinme” görüntüsü, 103:3'teki {ar:ءَامَنُوا, tr:āmanū, gloss:inandılar ve güvendiler} için sağlanan kalbin güven ve emniyet içinde yerleşmesi anlamıyla sağlamlaşır; {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; birine dayanma ve kefil olma yankısı} ile yinelenen öğütleşme de sığınağı başkalarının yanında kalınan bir güven ilişkisine genişletir, iman sözcüğüne atfedilen “rahatlatıcı tasdik” bu tutunmayı korkulu kavrayış değil emanet edilmiş bağlılık gibi duyurur, ancak bu ek yorum çözümlenmemiştir; iman ve sabır olağan ahlaki anlamlarını korur. Bununla birlikte sığınak tekil bir kaçış değildir: aynı {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:ardışık zaman ve sığınak} ile 103:3'te iki kez gelen {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:karşılıklı öğütleştiler} kişiler arasında birbirine bağlama ve karşılıklı aktarım görüntülerini açar; bu buluşmada sığınak, koruyucu içeriği bir kişiden ötekine ve bir zaman aralığından sonrakine taşıyan bir röleye dönüşür, fakat aralıklar boyunca aktarım ihtiyatlı bir çıkarım olarak kalır—iki fiil yalnızca iki öğüdü pekiştiriyor da olabilir.
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin genç kızın ergenlik eşiğine ulaşması olarak da kullanılan yönü, 103:3'teki iş, sağlamlık ve hak edilmiş olgunluk görüntüleriyle temas edince zaman bir yaş sayacı olmaktan çıkıp işleve ulaşma aralığı gibi görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak edilmiş olgunluk} içindeki deve imgesi, taşıma veya çiftleşme yaşına varmış, artık kendisinden beklenen işi kaldırabilecek hayvanı hatırlatır. Aynı kelimenin atın adımını denk tutması veya bedenen sertleşmesiyle ilgili görüntüsü, olgunluğu yalnız yaşla değil, göreve uygun güç ve uyumla ölçer. {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} kelimesinin iş görmeye doğal yatkınlık taşıyan kullanımı, bu eşiği görünür davranışa bağlar; varılan yaş, yük taşıyabilme veya iş görebilme kapasitesinde kendini gösterir. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:sağlamlık ve uygunluk} da bu kapasitenin bozulmadan ve yerli yerinde oluşmasını şart koşar. Buradaki gelişim görüntüsü, tek bir biyolojik olayı kesinleştirmez; ergenlik eşiği, hayvanın taşıma yaşı, denk adım ve sağlam iş görme gibi ihtimalleri aynı zaman aralığında tutar.
 
-Sıkışma imgesi bu sosyal aktarımı bedensel bir ölçüye çevirir. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; boğaza takılan lokmayı küçük yudumlarla geçirme yankısı} olağan zaman anlamını korurken, sağlanan nadir kullanım boğazda kalan yiyeceği azar azar yudumlayarak geçirmeyi anlatır; 103:3'teki {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler}, {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hakikat ve sağlam gerçek} ve {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır ve paniği dizginleme} ile temas edince hakikat, tekrarlanan destekle küçük dozlarda sunulan içerik; sabır da bu geçişi aceleye getirip kişiyi boğmayan ölçü olur; karşılıklı doz, gerçek ve panik karşısında kendini tutma rolleri atfedilmiş, keşif niteliğinde bir beden benzetmesidir, âyet susuzluk, su veya boğazdan söz etmez ve zaman sözcüğü öğüt anlamına dönüşmez.
+Aynı {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinde taşınan üst, kenar ve sınır görüntüleri, başağın kılıfında korunan ürünün daha sonra bir yüzey üzerinde toplanıp yığıldığı sahneyi tamamlar. Kılıf, gelişen şeyi ilk aşamada sarar; geniş sergi veya sofra yüzeyi, yığın ve dolmuş kenar ise onu sonradan tutulabilir bir erzak hâline getirir. Böylece zamanın korunan ürünü, kapalı gelişmeden sınırı görülen bir birikime doğru ilerler; bu, zamana edilen yeminin yerine geçen bir tarla açıklaması değil, onun ürün ve saklama yönünü somutlaştıran yerel bir görüntüdür.
 
-Benzer basınç bu kez içeriğin kaçmasını önleyen ortak bir kap gibi belirir. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; sıkarak öz çıkarma} ile gelen baskı, 103:3'teki {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:karşılıklı öğütleşme ve ortak bakım} ve {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; atfedilen özdenetim yankısı} ile buluşunca, toplulukça sürdürülen destek ve özdenetim basıncı patlamadan verime kadar taşıyan bir kap oluşturur; sabır için atfedilen testi/kuyu tıpası imgesi, gerilim altında içeriğin kaçmamasını somutlaştırır, ama bu çözümlenmemiş bir çağrışımdır ve benzetme sözlük anlamı değil, sabır da yalnızca ahlaki dayanma olarak okunabilir.
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:bir ağaç türü} kelimesinin yalnızca bir ağacı adlandıran yalın kullanımı, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} çevresinde beliren ekşi meyve ve acı ilaç özsuyu ile karşılaştığında canlı bir kaynak görüntüsü kazanır. Ağaç, acı tıbbi özsuyun çıktığı bitkisel kaynak olarak düşünülebilir; bu ayrıntı, kaynağın yalnız yiyecek değil, tadı zor fakat tedavi edici bir ürün de verebildiğini gösterir. Aynı kaynak ekşi, buruk bir meyve ve kırmızı çekirdek görüntüsüyle başka bir ürün de taşır; ekşilik ile acılık, aynı bitkisel kaynaktan çıkan ürünleri birbirinden ayırır. Burada yalnız ağacın varlığı güvenle korunur; türü, görünüşü ve ürünlerinin kesin botanik kimliği bu kelimeye eklenmez.
 
-Zamanın çevresinde iki ayrı maddi doğa yankısı daha vardır. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; yağmur taşıyan bulut yankısı} için sağlanan dal, boşalmaya hazır yağmur bulutunu taşır; 103:3'teki {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; beyaz katmanlı bulut yankısı} bu bulutu üst üste biriken katmanlarla karşılar, böylece süre birikmiş hava basıncından yağışa doğru açılır; sabır sözcüğünün olağan anlamı sabırdır, bulut dalı biçimce uzak ve keşif niteliğinde olduğu için görüntü yalnızca olası maddi bir yankıdır, gerçek hava tasviri veya çeviri değildir. Ayrı bir bitkisel sahnede {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; türü belirtilmemiş ağaç yankısı} taşıyıcı olurken, olağan sabır anlamındaki {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; ekşi meyve ve acı öz} için sağlanan dallar demirhindi benzeri mayhoş meyveyi ve aloe benzeri acı, ilaçlık özü verir; ağaçla bu iki bitki ürünü kaynak ile meyve/öz ilişkisi kurar, ancak yüzeyde tür, hasat veya ilaç yoktur ve bu yerel bitkisel temas olağan yemin ile sabrı değiştirmez.
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:sıkarak özünü çıkaran basınç} kelimesi, 103:2'deki eksik ölçüyle buluştuğunda zaman, içinden bir sonuç çıkarılan ve sonucu ölçülen bir basınç gibi okunur. Sıkma görüntüsü, 103:2'deki kısa ölçüyle karşılaşınca soyut kayıp, eksik doldurulmuş bir miktar hâline gelir. 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinin sofra yaygısı ve yığılmış yiyecek görüntüsü, ölçülebilen çıktıya görünür bir kütle verir; yığın yine de dolu veya eksik olabilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bir şeyi işe koşmak} kelimesinin bir aracı veya şeyi çalıştırma yönü, basıncın kendiliğinden değil, işe koşulmuş bir işlem olarak gerçekleştiğini gösterir. Bu sıkıştırılmış çıktı, bir hesap defterinde beklenen getiri ile gerçekleşen miktar arasındaki ticari zararı da gösterir; basınç, eksik teslimi görünür yapan bir kayıt gibi çalışır. Bu kayıt, sıkmanın ürettiği miktarı beklenen ticari dönüşle karşılaştırır; kısa ölçü ve ticari zarar, kaybı soyut bir duygu olmaktan çıkarıp bastırılmış bir sonuç olarak gösterir. Böylece zamanın açık yemin anlamı korunurken, onun içinden çıkan sonucun ölçülebilir olduğu ve kaybın eksik miktar olarak fark edilebildiği ihtiyatlı bir üretim görüntüsü açılır.
 
-Son olarak, 103:2'deki {ar:الْإِنسَانَ, tr:al-insān, gloss:insan} olağan anlamıyla kayıp önermesinin öznesidir; zamanın tekrarlanan açıklık alanı olma görüntüsü, insanın görerek, hissederek veya işiterek algılaması ve insan imgesinin gözbebeğinde belirişi rollerini yükleyen, fakat kaynağı çözümlenmemiş bir okumayla birleşince insanlık hâlini zaman içinde görünür kılar; optik ve duyusal roller yalnızca atfedilmiş bağlamsal malzemedir, alternatif olarak insan sadece önermenin öznesi olabilir. Bu görünürlük, 103:1'deki zaman yemini 1:4'ün açık {ar:يَوْمِ الدِّينِ, tr:yawm al-dīn, gloss:hesap ve karşılık günü} ile yan yana konduğunda bir hesap ufkuna da açılır: zaman aralığı, kayıp ve ifşanın sonunda adı konmuş bir karşılık gününe doğru okunabilir; bu yalnızca dışarıdan, 1:4'ten gelen bir ektir, al-ʿaṣr'ın o günü adlandırdığı, iki ifadenin sözlükçe özdeş olduğu veya bütün surenin bu çerçevede kurulduğu iddiası değildir.
+Bu ölçü görüntüsü, aynı zamanda {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:elde edilen ürün veya getiri} kelimesinin ticari dönüşünü de görünür kılar: değer dolaşıma konur ve geri dönüş ya korunmuş bir değer ya da zararla karşılaşır. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:sahibine ait hak} sözü bu dönüşü belirli bir sahibin alacağı olarak keskinleştirir; ürün yalnızca ortaya çıkan bir madde değil, birinin payına bağlanan bir değerdir. 103:2'deki {ar:خُسْرٍ, tr:husr, gloss:ticari zarar} bu değerin kâra dönüşmemesini, 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sert taş ve çakıllı zemin} ise geri dönüşün dirençli ve zor çıkarılır olmasını hissettirir. Aynı kelimenin acı ilaç özsuyu olarak duyulan yönü, zor dönüşe hoş olmayan fakat işe yarayabilecek bir tat ekler. {ar:عَمِلُوا۟, tr:amilû, gloss:insanlar arasındaki işlem} kelimesi, işi ve getiriyi insanlar arasındaki bir alışverişe bağlar; zaman içinde dolaşan değer, başka birinin hakkı ve riskiyle birlikte düşünülür. Bu ticari ve duyusal görüntüler, zamana edilen yemini bir pazarlık cümlesine dönüştürmez; yalnızca kaybı, dolaşıma giren değerin beklenen biçimde geri dönmemesi olarak açıklayan ayrı bir temas kurar.
+
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:alıkoyma ve geri alma} kelimesinin başka bir yönü, 103:2'deki genel eksilme ve kısa ölçüyle buluştuğunda kaybın yönünü belirginleştirir. Burada bir yararın dolaşıma girmesi gerekirken tutulması, geri alınması veya karşı tarafa ulaşmadan kesilmesi düşünülebilir; eksilme böylece yalnız bir sonuç değil, akışı durduran bir işlem kazanır. 103:2'deki {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} bu tutulmanın azalttığı kalanı gösterir; aynı kelimenin kısa ölçü görüntüsü, beklenen miktardan eksilen parçaya sınır çizer. Bu okuma belirli bir fail, ticari olay veya hukuki çözüm seçmez; zamana edilen açık yemini koruyarak, kaybın bazen beklenen faydanın kesilmiş dolaşımı olarak görülebileceğini ekler.
+
+Bu alıkoyma görüntüsü 103:2'nin kayıp cümlesiyle, 103:3'teki {ar:ٱلْحَقِّ, tr:el-hakk, gloss:borçlu olunan ve korunması gereken hak} ile birlikte bir hesaplaşma şekli de alır. Zaman, eksik ölçüyü ortaya çıkaran ve birinin hakkına ait olan şeyi geri çağıran bir hesap aralığı gibi düşünülebilir. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:alıkoyma ve geri alma} burada tutulmuş malı veya geri çevrilmiş bağışı taşır; 103:2'deki kısa ölçü, hesabın eksik teslim tarafını görünür kılar. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:borçlu olunan şey} bir yükümlülüğü ve hak edilmiş payı gösterir; eksik miktarın varacağı normatif bir yer vardır. Aynı kelime sahibine ait belirli bir hakkı da duyurur, böylece mesele soyut doğruluktan çıkıp birine ait olan değere bağlanır. Onun korunması gereken gerçeklik olarak duyulan yönü, hesabın yalnız o ana ait olmadığını, zaman boyunca hak olarak kalan bir içeriği taşıdığını düşündürür. Bu hesap imgesi ihtiyatlı ve ilişkiseldir; kaybın mutlaka mahkeme, ticaret veya tek bir hukuki eylem olduğunu söylemeden, zamanın eksikliği ve hakkı aynı çerçevede görünür kılmasına izin verir.
+
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:soy kökü ve köken} kelimesi 103:2'deki insan görüntüsü ve 103:3'teki topluluk görüntüsüyle buluştuğunda, zaman içinde ilerleyen şey yalnızca bireysel bir ömür değil, kökene dönen bir aidiyet zinciri olarak da görünür. İnsan, görünür bir varlık olarak gizli veya yabanıl olanın karşısında bu zincirin taşıyıcısıdır; sabır kelimesinin bir topluluk adı olarak duyulan yönü ise ona kolektif bir beden verir. Aynı kelimenin bağlılar arasındaki göreli alt konumu anlatan yönü, bu zincirde farklı mevkilerin bulunduğunu gösterir; bu, genel bir değersizlik değil, aidiyet ilişkisi içindeki göreli bir konumdur. Böylece zamana edilen yemin, insanı köken, topluluk ve bağlılık içinden geçen sosyal bir süreklilikle birlikte düşündürür; bu sosyal görüntü temel zaman anlamının yanında kalır.
+
+Yakın fakat ayrı bir çizgide, {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:soylu köken} kelimesi aynı 103:2 insanını yakın bir öz veya yoldaş, 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:klan adı} kelimesini de miras alınmış bir topluluk olarak düşündürür. Burada odak, bağlılar arasındaki alt konumdan çok, kişinin seçkin bir soya ve ortak bir köke yerleşmesidir. İnsan kelimesinin yakınlık ve kişinin kendi çevresi görüntüsü, bu mirası soyut bir soyağacı olmaktan çıkarıp yaşanan bir aidiyete çevirir. Klan görüntüsü, bireyin çevresindeki kalabalığı ve miras alınan duruşu tamamlar; yine de bu, her insan için evrensel bir üstünlük iddiası değildir ve zamana edilen yemin bu soy görüntüsü tarafından değiştirilmez.
+
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:tutunarak sığınma} kelimesinin güvenlik yönü, 103:3'teki {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene erdiler} ile buluştuğunda, aynı zaman alanının içinde bir sığınak da belirir. Güven, kalbin emniyet içinde yerleşmesini ve tutunmanın korkuyla savrulan bir kavrayış değil, güvenilen bir dayanak olmasını sağlar. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:birinin yanında durmak ve kefil olmak} kelimesi bu sığınağı ilişkiye açar; korunma, bir kişinin veya grubun yanında durmasıyla sürer. Bu görüntü, zamana edilen yeminle kurulan baskı fikrini silmez; onun içinde içsel güven ve ilişkisel dayanma imkânını görünür kılar.
+
+Aynı sığınma yönü, imanın güven veren ve tasdikle kalbi yatıştıran kullanımıyla daha dar bir temas da kurar. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:tutunarak kurtuluş arama} burada güvenilen bir dayanağa bağlanır; iman, bu bağlanmayı ürkek bir tutuş olmaktan çıkarıp emanet edilmiş bir karara dönüştürür. Bu ikinci temas, sabırdaki grup içinde durma görüntüsünü değil, güven ve iç huzurla etkinleşen sığınma yönünü öne çıkarır; her ikisi de sıradan zaman anlamını koruyan ihtiyatlı ek okumalardır.
+
+Sığınma ve zaman, 103:3'teki iki {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:karşılıklı öğütleştiler} ile buluştuğunda, destek tek kişinin tutunması olmaktan çıkar ve kişiler arasında gidip gelen bir aktarım gibi görünür. Zaman ardışık aralıkları, sığınma ise taşınan güveni sağlar; birbirine bağlama görüntüsü bir aralığı ötekine, bir kişiyi ötekine ekler. Karşılıklı öğüt, bu aktarımı tek yönlü bir emirden ayırır ve iki ayrı temas noktasıyla sürdürür. Böylece güvenilir sığınak, zamanın içinden geçen bir dayanışma aktarımına dönüşebilir; tekrarın yalnızca iki görevi güçlendiren bir yapı olarak kalması ihtimali de bu görüntünün yanında açıktır.
+
+{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:bastırıp öz çıkaran basınç} kelimesi, karşılıklı öğüt ve {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:içten kendini tutma} ile birlikte düşünüldüğünde, basınç altında korunabilen bir kap görüntüsü açar. Karşılıklı aktarım, bu kapta tutulma işini tek bir kişinin omzundan alıp paylaşır; kendini taşkınlıktan alıkoyma ise basıncın yarılmaya dönüşmesini engeller. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:şişe veya kuyunun tıpası} kelimesi bu dayanmayı somut bir kapanışla tamamlar: içerideki şey, gerilim altında dışarı kaçmasın diye sınırda tutulur. Bu, zamana edilen yemini değiştiren gerçek bir kap iddiası değil, sabrın basıncı verime dönüşene kadar kuvveti tutabilmesini anlatan ihtiyatlı bir maddi benzetmedir.
+
+Basınç altında geçişe ilişkin başka bir görüntüde {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:boğaza takılanı küçük yudumlarla geçirme} kelimesi, bir kerede aşılması zor bir sıkışmanın küçük ve tekrarlanan rahatlamalarla geçilmesini taşır. Susuzluktan kurumuş dil, bu geçişin bedenî darlığını ve küçük yudumların neden tekrarlandığını görünür kılar; acı ilaç özsuyu ise rahatlamanın hoş olmayan fakat işe yarayabilecek bir araçla sağlanabileceğini ekler. 103:3'teki karşılıklı öğüt, bu yudumları tek seferlik bir kurtarış olmaktan çıkarıp kişiler arasında tekrarlanan bir aktarım gibi düşündürür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçeklikle örtüşen sabitlik} kelimesi, bu küçük aktarımın içeriğini; {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:panikten kendini alıkoyma} ise geçişin temposunu sağlar. Böylece sıkışan şey, gerçeklik ve ölçülü dayanma küçük dozlar hâlinde geldikçe geçebilir. Bu bedenî görüntü, zamanın ve sabrın açık anlamlarını koruyan keşif niteliğinde bir benzetmedir; bu kelimenin sözlükte öğüt veya hakikati küçük dozlar hâlinde vermek anlamına geldiğini ileri sürmez.
+
+Yağmur taşıyan bulut görüntüsü de aynı kelimenin başka bir basınç ve boşalma biçimini açar: {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:yağmur yüklü bulut} biriken nemi taşır ve boşaltmaya hazırlanır. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:beyaz ve kat kat bulut} bu taşıyıcıyı üst üste biriken, sabırla yoğunlaşan bir kütle hâline getirir; birikimden sonra yağmur gibi bir boşalma mümkün olur. Bu hava görüntüsü, zamana edilen yemin için malzeme ve gecikmiş verim duygusu veren keşif niteliğinde bir yankıdır; bu kelimeyi yalnızca bulut veya yağmur diye çevirmeye dönüşmez.
+
+Yemin çerçevesi, alıkoyma ve insan görüntüsüyle birleştiğinde daha sert bir tutulma sahnesi de taşır. {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:alıkoymak ve tutmak} burada insanı sabitleyen bir zaman aralığı gibi; {ar:وَ, tr:wa-, gloss:yemin çerçevesi} ise sözü bağlayan bir başlangıç olarak duyulur. 103:2'deki insan, gizli veya yabanıl olanın karşısında görünen ve bu tutulmanın bedensel hedefini veren bir varlık olarak belirir; 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:zorla tutma veya ettirilmiş yemin} kelimesi, bedeni yerinde tutma ve konuşmayı dış baskı altında sabitleme görüntüsünü ekler. Bu sahne, âyetin yeminini gerçekten zorla ettirilmiş bir yemin diye hükme bağlamaz; olağan zaman yemininin içine, tutulmuş beden ve baskı altında sabitlenmiş söz ihtimalini yerleştiren sınırlı bir yankı olarak kalır.
+
+Bütün bu görüntüler, âyetin ilk ve açık cümlesini yerinden oynatmadan ona farklı temas noktaları açar. Zaman burada hâlâ üzerine yemin edilen belirli bir devir ve vakittir; birbirine eklenen aralıklar, görünürleşen insan, emek ve getiri, korunmuş ürün, ölçülen eksik, sığınak, karşılıklı aktarım, kapta tutulan basınç, küçük yudumlarla geçilen sıkışma, kat kat bulut ve baskı altında sabitlenen söz, bu yemin cümlesinin çevresinde ayrı ayrı canlı kalır. Okuyucu, zamana yemin edildiğini kaybetmeden, zamanın insanı, ürünü, hakkı ve dayanmayı nasıl görünür kılabildiğini de birlikte görebilir.
+
 </macro_scope_prose>
 
 <macro_scope_ledger>
@@ -1825,187 +1890,597 @@ Son olarak, 103:2'deki {ar:الْإِنسَانَ, tr:al-insān, gloss:insan} ol
   "lane": "macro",
   "findings": [
     {
-      "finding_ref": "macro:joined_spans",
+      "finding_ref": "macro:joined-spans-of-time",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
-          "paragraph": 1,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman ve devir} sözcüğünün süre veya devir anlamı, 103:3'te yinelenen {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} ile karşılaşınca bağlantılı aralıklar gibi duyulur: sözcük zamanı taşır, sağlanan “bir şeyi ötekine bağlama” kullanımı ise tekrar eden öğütleşmeyle görünür olur; pratikler böylece yeminin işaret ettiği süre içinde birbirine eklenir ve zaman boş bir kap olmaktan çıkar, fakat bu bağlam içi görüntü kronoloji kanıtlamaz; tekrar yalnızca iki görevi birbirine bağlayabilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:earned_provision",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "connection:conn_24fcad8ac353b64248fd", "context:103:2", "context:103:3"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
           "paragraph": 2,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; ürün veya kazanç yankısı} olağan biçimde zamanı bildirirken, sözcüğe bağlanan ürün/kazanç dalı; {ar:عَمِلُوا, tr:ʿamilū, gloss:iş yaptılar} fiilinin gerçek iş yapma anlamı, {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak ve doğru} sözcüğünün eda edilmesi gereken hak/borç çağrışımı ve {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} ile temas eder: iş beklenen bir çıktı, hak onun karşılığı, kayıp ise dönmeyen pay olur; bu yüzden istisna içindeki ameller zaman içinde sonuç doğuran emek gibi görünür, ama ücret bir isim olarak geçmez, ekip ya da el emeği de söylenmez ve fiilin ahlaki anlamı yerinde kalır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:layered_cloud",
-      "landings": [
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} sözü 103:3'te iki kez geçen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirine öğüt vermek} ile buluştuğunda zaman boş bir kap gibi değil, birbirine eklenen aralıklar gibi görünür."
+        },
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; yağmur taşıyan bulut yankısı} için sağlanan dal, boşalmaya hazır yağmur bulutunu taşır; 103:3'teki {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; beyaz katmanlı bulut yankısı} bu bulutu üst üste biriken katmanlarla karşılar, böylece süre birikmiş hava basıncından yağışa doğru açılır; sabır sözcüğünün olağan anlamı sabırdır, bulut dalı biçimce uzak ve keşif niteliğinde olduğu için görüntü yalnızca olası maddi bir yankıdır, gerçek hava tasviri veya çeviri değildir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:working_capacity",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; gelişme eşiği yankısı} sözcüğünün olağan süre anlamı, sağlanan sözlük dalındaki çocukluktan ergenliğe geçiş eşiğiyle; 103:3'teki {ar:عَمِلُوا, tr:ʿamilū, gloss:iş yaptılar}, {ar:الصَّالِحَاتِ, tr:al-ṣāliḥāt, gloss:iyi ve sağlam işler} ve {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak ve doğru; zamanı gelmiş deve imgesi} ile karşılaşınca salt süreyi kapasiteye erişmeye doğru genişletir: yaşı dolmuş devenin taşıma/kullanıma elverişliliği ayrı bir sözlük görüntüsü, salihatın sağlamlık ve bozulmaya karşı doğruluğu da işe uygunluk ölçüsüdür; âyet ergenlikten veya deveden söz etmez, at yürüyüşüne ilişkin dalın da burada dayanağı yoktur, dolayısıyla bunlar ahlaki amelleri ve zamana yemini koruyan sınırlı çağrışımlardır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:refuge_attachment",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; tutunulan sığınak yankısı} sözcüğünün olağan süre anlamı içindeki “bir şeye tutunup güvenlik edinme” görüntüsü, 103:3'teki {ar:ءَامَنُوا, tr:āmanū, gloss:inandılar ve güvendiler} için sağlanan kalbin güven ve emniyet içinde yerleşmesi anlamıyla sağlamlaşır; {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; birine dayanma ve kefil olma yankısı} ile yinelenen öğütleşme de sığınağı başkalarının yanında kalınan bir güven ilişkisine genişletir, iman sözcüğüne atfedilen “rahatlatıcı tasdik” bu tutunmayı korkulu kavrayış değil emanet edilmiş bağlılık gibi duyurur, ancak bu ek yorum çözümlenmemiştir; iman ve sabır olağan ahlaki anlamlarını korur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:transactional_return",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "connection:conn_24fcad8ac353b64248fd", "context:103:2", "context:103:3"],
+          "movement_refs": ["discovery:containment"],
           "paragraph": 2,
-          "anchor": "Aynı bağlantı, {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; elde edilen ürün} için muhtemel getiriyi 103:2'deki {ar:خُسْرٍ, tr:khusr, gloss:kayıp; ticari zarar yankısı} ve 103:3'teki {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak ve doğru; sahibine ait hak} ile karşı karşıya getirir; iş ve karşılıklı öğütleşme kişiler arası muameleyi, eldeki ürünün bir hak iddiası altında kazanılıp yitirilebileceği sınırlı bir alışveriş görüntüsüne dönüştürür, fakat âyet satıştan veya sermayeden söz etmez."
+          "anchor": "Böylece 103:2'nin hemen ardından gelen kayıp ve istisna ilişkisi, zamanın dışından eklenmiş bir tablo olmaktan çıkarak yeminle çerçevelenen bir akış kazanır; bu, zamana edilen yemini ortadan kaldırmayan, onun iç bağlantısını görünür kılan ihtiyatlı bir okumadır."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 2,
+          "anchor": "İki öğütleşme, bir şeyi başka bir şeye bağlayan bir süreklilik görüntüsü verir; ardışık zaman parçaları birbirinin yanına gelip bir sonraki parçaya geçer."
         }
       ]
     },
     {
-      "finding_ref": "macro:crop_store",
+      "finding_ref": "macro:labor-crew-earned-provision",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
-          "paragraph": 4,
-          "anchor": "Aynı ürünün kılıf içinde korunması, {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; serili yemek ve yığın} sözcüğüne bağlanan yemek örtüsü/sergisi, yığılmış yiyecek ve bir şeyin üstü-kenarı çağrışımlarıyla birleştiğinde, büyüyen ürünün toplanıp sınırı belli bir erzak yığınına dönüşmesini sağlar; burada olağan anlam sabırdır, bu yerel sözlük yankısı âyetin hasat anlattığını veya sure boyunca tekrarlanan bir tarım düzenini göstermez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:pressed_short_measure",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_24fcad8ac353b64248fd", "context:103:2"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
           "paragraph": 3,
-          "anchor": "Buna karşılık daha dar bir ölçme-sınama imgesinde {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; bastırıp özünü çıkarma} sözcüğüne bağlanan baskı ve çıkarım ile ürün/getiri dalının elde edileni taşıması, 103:2'deki {ar:خُسْرٍ, tr:khusr, gloss:kayıp; eksik tartı ve ticari zarar} görüntüsüyle buluşur; çıkarılmış sonuç ölçülebilir bir eksik teslimle sınanır, böylece zaman yansız süre olmaktan çıkıp beklenen ürünün ne kadarının döndüğünü gösteren bir deneye benzer; terazi, mal veya gerçek ticaret âyette yoktur, bu ölçme bağlantısı atfedilmiş ve başka bir şekilde kaybın yalnızca zamanla birikmesi diye okunabilir."
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin ürün veya elde edilen kazanç yönü, 103:3'teki {ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} ile buluştuğunda zaman, emeğin ürüne dönüştüğü bir üretim aralığı gibi okunabilir; 103:2'deki {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} ise bu çıktının eksik kalışını görünür kılar."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 3,
+          "anchor": "Bu sahne, âyetin lafzen işçi, ücret veya ticari sözleşme adlandırdığı iddiasına dönüşmez; bunlar zamana edilen yeminin içinde beliren sınırlı emek ve karşılık görüntüleridir."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 3,
+          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} sözü, bu sahnede yalnızca bir eylemi değil, el emeğiyle çalışan bir topluluğun malzemeye iş vermesini de düşündürür."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 3,
+          "anchor": "Aynı çalışma, karşılığını alan işçi görüntüsüyle ücret veya geçim payına bağlanır; zamanın ürünü böylece emeğin karşılıksız kalmadığı bir dönüş beklentisi kazanır."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 3,
+          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak edilen pay} kelimesi bu dönüşe ölçü koyar: işin ve ürünün karşılığında birinin hak ettiği, borçlu olunan bir pay vardır."
+        },
+        {
+          "movement_refs": ["activation:4", "connection:conn_24fcad8ac353b64248fd", "connection:conn_ead017e6328b56ff46ee", "context:103:2", "context:103:3"],
+          "paragraph": 3,
+          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} ise üretim ve hak beklentisinin yanında genel eksilme olarak durur; ürün ortaya çıksa bile beklenen paya ulaşmayan bir süreç hayal edilebilir."
         }
       ]
     },
     {
-      "finding_ref": "macro:incremental_relief",
+      "finding_ref": "macro:layered-rain-bearing-cloud",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 19,
+          "anchor": "Yağmur taşıyan bulut görüntüsü de aynı kelimenin başka bir basınç ve boşalma biçimini açar: {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:yağmur yüklü bulut} biriken nemi taşır ve boşaltmaya hazırlanır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 19,
+          "anchor": "Bu hava görüntüsü, zamana edilen yemin için malzeme ve gecikmiş verim duygusu veren keşif niteliğinde bir yankıdır; bu kelimeyi yalnızca bulut veya yağmur diye çevirmeye dönüşmez."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 19,
+          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:beyaz ve kat kat bulut} bu taşıyıcıyı üst üste biriken, sabırla yoğunlaşan bir kütle hâline getirir; birikimden sonra yağmur gibi bir boşalma mümkün olur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:maturity-working-capacity",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 5,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:devir ve vakit} kelimesinin genç kızın ergenlik eşiğine ulaşması olarak da kullanılan yönü, 103:3'teki iş, sağlamlık ve hak edilmiş olgunluk görüntüleriyle temas edince zaman bir yaş sayacı olmaktan çıkıp işleve ulaşma aralığı gibi görünür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 5,
+          "anchor": "Buradaki gelişim görüntüsü, tek bir biyolojik olayı kesinleştirmez; ergenlik eşiği, hayvanın taşıma yaşı, denk adım ve sağlam iş görme gibi ihtimalleri aynı zaman aralığında tutar."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 5,
+          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:hak edilmiş olgunluk} içindeki deve imgesi, taşıma veya çiftleşme yaşına varmış, artık kendisinden beklenen işi kaldırabilecek hayvanı hatırlatır."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 5,
+          "anchor": "Aynı kelimenin atın adımını denk tutması veya bedenen sertleşmesiyle ilgili görüntüsü, olgunluğu yalnız yaşla değil, göreve uygun güç ve uyumla ölçer."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 5,
+          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} kelimesinin iş görmeye doğal yatkınlık taşıyan kullanımı, bu eşiği görünür davranışa bağlar; varılan yaş, yük taşıyabilme veya iş görebilme kapasitesinde kendini gösterir."
+        },
+        {
+          "movement_refs": ["activation:4", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 5,
+          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:sağlamlık ve uygunluk} da bu kapasitenin bozulmadan ve yerli yerinde oluşmasını şart koşar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:lineage-clan-affiliation",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 12,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:soy kökü ve köken} kelimesi 103:2'deki insan görüntüsü ve 103:3'teki topluluk görüntüsüyle buluştuğunda, zaman içinde ilerleyen şey yalnızca bireysel bir ömür değil, kökene dönen bir aidiyet zinciri olarak da görünür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 12,
+          "anchor": "Böylece zamana edilen yemin, insanı köken, topluluk ve bağlılık içinden geçen sosyal bir süreklilikle birlikte düşündürür; bu sosyal görüntü temel zaman anlamının yanında kalır."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_24fcad8ac353b64248fd", "connection:conn_ead017e6328b56ff46ee", "context:103:2", "context:103:3"],
+          "paragraph": 12,
+          "anchor": "İnsan, görünür bir varlık olarak gizli veya yabanıl olanın karşısında bu zincirin taşıyıcısıdır; sabır kelimesinin bir topluluk adı olarak duyulan yönü ise ona kolektif bir beden verir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:security-refuge-attachment",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 14,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:tutunarak sığınma} kelimesinin güvenlik yönü, 103:3'teki {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene erdiler} ile buluştuğunda, aynı zaman alanının içinde bir sığınak da belirir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 14,
+          "anchor": "Bu görüntü, zamana edilen yeminle kurulan baskı fikrini silmez; onun içinde içsel güven ve ilişkisel dayanma imkânını görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 14,
+          "anchor": "Güven, kalbin emniyet içinde yerleşmesini ve tutunmanın korkuyla savrulan bir kavrayış değil, güvenilen bir dayanak olmasını sağlar."
+        },
+        {
+          "movement_refs": ["activation:2", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 14,
+          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:birinin yanında durmak ve kefil olmak} kelimesi bu sığınağı ilişkiye açar; korunma, bir kişinin veya grubun yanında durmasıyla sürer."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:transaction-capital-hard-return",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 9,
+          "anchor": "Bu ölçü görüntüsü, aynı zamanda {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:elde edilen ürün veya getiri} kelimesinin ticari dönüşünü de görünür kılar: değer dolaşıma konur ve geri dönüş ya korunmuş bir değer ya da zararla karşılaşır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 9,
+          "anchor": "Bu ticari ve duyusal görüntüler, zamana edilen yemini bir pazarlık cümlesine dönüştürmez; yalnızca kaybı, dolaşıma giren değerin beklenen biçimde geri dönmemesi olarak açıklayan ayrı bir temas kurar."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 9,
+          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:sahibine ait hak} sözü bu dönüşü belirli bir sahibin alacağı olarak keskinleştirir; ürün yalnızca ortaya çıkan bir madde değil, birinin payına bağlanan bir değerdir."
+        },
+        {
+          "movement_refs": ["activation:2", "activation:3"],
+          "paragraph": 9,
+          "anchor": "103:2'deki {ar:خُسْرٍ, tr:husr, gloss:ticari zarar} bu değerin kâra dönüşmemesini, 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sert taş ve çakıllı zemin} ise geri dönüşün dirençli ve zor çıkarılır olmasını hissettirir."
+        },
+        {
+          "movement_refs": ["activation:4"],
+          "paragraph": 9,
+          "anchor": "Aynı kelimenin acı ilaç özsuyu olarak duyulan yönü, zor dönüşe hoş olmayan fakat işe yarayabilecek bir tat ekler."
+        },
+        {
+          "movement_refs": ["activation:5", "connection:conn_24fcad8ac353b64248fd", "connection:conn_ead017e6328b56ff46ee", "context:103:2", "context:103:3"],
+          "paragraph": 9,
+          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:insanlar arasındaki işlem} kelimesi, işi ve getiriyi insanlar arasındaki bir alışverişe bağlar; zaman içinde dolaşan değer, başka birinin hakkı ve riskiyle birlikte düşünülür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:clan-noble-stock",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 13,
+          "anchor": "Yakın fakat ayrı bir çizgide, {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:soylu köken} kelimesi aynı 103:2 insanını yakın bir öz veya yoldaş, 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:klan adı} kelimesini de miras alınmış bir topluluk olarak düşündürür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 13,
+          "anchor": "Klan görüntüsü, bireyin çevresindeki kalabalığı ve miras alınan duruşu tamamlar; yine de bu, her insan için evrensel bir üstünlük iddiası değildir ve zamana edilen yemin bu soy görüntüsü tarafından değiştirilmez."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "connection:conn_24fcad8ac353b64248fd", "connection:conn_ead017e6328b56ff46ee", "context:103:2", "context:103:3"],
+          "paragraph": 13,
+          "anchor": "Burada odak, bağlılar arasındaki alt konumdan çok, kişinin seçkin bir soya ve ortak bir köke yerleşmesidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:coercive-custody-compelled-oath",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 20,
+          "anchor": "Yemin çerçevesi, alıkoyma ve insan görüntüsüyle birleştiğinde daha sert bir tutulma sahnesi de taşır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 20,
+          "anchor": "Bu sahne, âyetin yeminini gerçekten zorla ettirilmiş bir yemin diye hükme bağlamaz; olağan zaman yemininin içine, tutulmuş beden ve baskı altında sabitlenmiş söz ihtimalini yerleştiren sınırlı bir yankı olarak kalır."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 20,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:alıkoymak ve tutmak} burada insanı sabitleyen bir zaman aralığı gibi; {ar:وَ, tr:wa-, gloss:yemin çerçevesi} ise sözü bağlayan bir başlangıç olarak duyulur."
+        },
+        {
+          "movement_refs": ["activation:1", "activation:2", "connection:conn_24fcad8ac353b64248fd", "connection:conn_ead017e6328b56ff46ee", "context:103:2", "context:103:3"],
+          "paragraph": 20,
+          "anchor": "103:2'deki insan, gizli veya yabanıl olanın karşısında görünen ve bu tutulmanın bedensel hedefini veren bir varlık olarak belirir; 103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:zorla tutma veya ettirilmiş yemin} kelimesi, bedeni yerinde tutma ve konuşmayı dış baskı altında sabitleme görüntüsünü ekler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:encased-crop-piled-food",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
           "paragraph": 6,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; boğaza takılan lokmayı küçük yudumlarla geçirme yankısı} olağan zaman anlamını korurken, sağlanan nadir kullanım boğazda kalan yiyeceği azar azar yudumlayarak geçirmeyi anlatır; 103:3'teki {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler}, {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hakikat ve sağlam gerçek} ve {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır ve paniği dizginleme} ile temas edince hakikat, tekrarlanan destekle küçük dozlarda sunulan içerik; sabır da bu geçişi aceleye getirip kişiyi boğmayan ölçü olur; karşılıklı doz, gerçek ve panik karşısında kendini tutma rolleri atfedilmiş, keşif niteliğinde bir beden benzetmesidir, âyet susuzluk, su veya boğazdan söz etmez ve zaman sözcüğü öğüt anlamına dönüşmez."
+          "anchor": "Aynı {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinde taşınan üst, kenar ve sınır görüntüleri, başağın kılıfında korunan ürünün daha sonra bir yüzey üzerinde toplanıp yığıldığı sahneyi tamamlar."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 6,
+          "anchor": "Böylece zamanın korunan ürünü, kapalı gelişmeden sınırı görülen bir birikime doğru ilerler; bu, zamana edilen yeminin yerine geçen bir tarla açıklaması değil, onun ürün ve saklama yönünü somutlaştıran yerel bir görüntüdür."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 6,
+          "anchor": "Kılıf, gelişen şeyi ilk aşamada sarar; geniş sergi veya sofra yüzeyi, yığın ve dolmuş kenar ise onu sonradan tutulabilir bir erzak hâline getirir."
         }
       ]
     },
     {
-      "finding_ref": "macro:tree_sap",
+      "finding_ref": "macro:pressed-yield-short-measure",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
           "paragraph": 8,
-          "anchor": "Ayrı bir bitkisel sahnede {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; türü belirtilmemiş ağaç yankısı} taşıyıcı olurken, olağan sabır anlamındaki {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; ekşi meyve ve acı öz} için sağlanan dallar demirhindi benzeri mayhoş meyveyi ve aloe benzeri acı, ilaçlık özü verir; ağaçla bu iki bitki ürünü kaynak ile meyve/öz ilişkisi kurar, ancak yüzeyde tür, hasat veya ilaç yoktur ve bu yerel bitkisel temas olağan yemin ile sabrı değiştirmez."
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:sıkarak özünü çıkaran basınç} kelimesi, 103:2'deki eksik ölçüyle buluştuğunda zaman, içinden bir sonuç çıkarılan ve sonucu ölçülen bir basınç gibi okunur."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 8,
+          "anchor": "Böylece zamanın açık yemin anlamı korunurken, onun içinden çıkan sonucun ölçülebilir olduğu ve kaybın eksik miktar olarak fark edilebildiği ihtiyatlı bir üretim görüntüsü açılır."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 8,
+          "anchor": "Sıkma görüntüsü, 103:2'deki kısa ölçüyle karşılaşınca soyut kayıp, eksik doldurulmuş bir miktar hâline gelir."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 8,
+          "anchor": "103:3'teki {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} kelimesinin sofra yaygısı ve yığılmış yiyecek görüntüsü, ölçülebilen çıktıya görünür bir kütle verir; yığın yine de dolu veya eksik olabilir."
+        },
+        {
+          "movement_refs": ["activation:3", "connection:conn_24fcad8ac353b64248fd", "connection:conn_ead017e6328b56ff46ee", "context:103:2", "context:103:3"],
+          "paragraph": 8,
+          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bir şeyi işe koşmak} kelimesinin bir aracı veya şeyi çalıştırma yönü, basıncın kendiliğinden değil, işe koşulmuş bir işlem olarak gerçekleştiğini gösterir."
         }
       ]
     },
     {
-      "finding_ref": "macro:withheld_shortfall",
+      "finding_ref": "macro:thirst-choking-incremental-relief",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "connection:conn_24fcad8ac353b64248fd", "context:103:2"],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; alıkoyma veya geri alma yankısı} olağan zaman anlamını korurken, alıkoyma/geri alma kullanımı 103:2'deki {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} ile birleşince beklenen yararın kesilmesi ve ölçülebilir bir eksiğin kalması imgesini verir; bu, 103:1-2'de adı konmuş bir malı, devri veya hak sahibini varsaymaz ve kayıp önceki bir alacak olmadan da anlaşılabilir."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 18,
+          "anchor": "Basınç altında geçişe ilişkin başka bir görüntüde {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:boğaza takılanı küçük yudumlarla geçirme} kelimesi, bir kerede aşılması zor bir sıkışmanın küçük ve tekrarlanan rahatlamalarla geçilmesini taşır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 18,
+          "anchor": "Bu bedenî görüntü, zamanın ve sabrın açık anlamlarını koruyan keşif niteliğinde bir benzetmedir; bu kelimenin sözlükte öğüt veya hakikati küçük dozlar hâlinde vermek anlamına geldiğini ileri sürmez."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 18,
+          "anchor": "Susuzluktan kurumuş dil, bu geçişin bedenî darlığını ve küçük yudumların neden tekrarlandığını görünür kılar; acı ilaç özsuyu ise rahatlamanın hoş olmayan fakat işe yarayabilecek bir araçla sağlanabileceğini ekler."
         }
       ]
     },
     {
-      "finding_ref": "macro:human_visibility",
+      "finding_ref": "macro:tree-sour-fruit-bitter-sap",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "connection:conn_24fcad8ac353b64248fd", "context:103:2"],
-          "paragraph": 9,
-          "anchor": "Son olarak, 103:2'deki {ar:الْإِنسَانَ, tr:al-insān, gloss:insan} olağan anlamıyla kayıp önermesinin öznesidir; zamanın tekrarlanan açıklık alanı olma görüntüsü, insanın görerek, hissederek veya işiterek algılaması ve insan imgesinin gözbebeğinde belirişi rollerini yükleyen, fakat kaynağı çözümlenmemiş bir okumayla birleşince insanlık hâlini zaman içinde görünür kılar; optik ve duyusal roller yalnızca atfedilmiş bağlamsal malzemedir, alternatif olarak insan sadece önermenin öznesi olabilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cultivated_yield",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "activation:4", "activation:5", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
-          "paragraph": 4,
-          "anchor": "Bir başka tarımsal hat, {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; ürün ve korunan tane} ile 103:3'teki {ar:عَمِلُوا, tr:ʿamilū, gloss:bilerek emek verdiler} ve {ar:الصَّالِحَاتِ, tr:al-ṣāliḥāt, gloss:sağlamlık ve amaca uygunluk} arasında kurulur: ürün dalı ile tanenin kılıfına girip korunması görüntüsü, çalışmanın geliştirdiği ve bozulmadan saklanan bir mahsule dönüşür; emek için ücret ve eylemin malzemesine uygunluğu ise kısmen atfedilmiş eklemelerdir, yüzeyde ücret adı veya gerçek tarım yoktur ve ahlaki iyi işler, korunan ürün ve kazanç ayrı imgeler olarak da kalabilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:reciprocal_relay",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
-          "paragraph": 5,
-          "anchor": "Bununla birlikte sığınak tekil bir kaçış değildir: aynı {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:ardışık zaman ve sığınak} ile 103:3'te iki kez gelen {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:karşılıklı öğütleştiler} kişiler arasında birbirine bağlama ve karşılıklı aktarım görüntülerini açar; bu buluşmada sığınak, koruyucu içeriği bir kişiden ötekine ve bir zaman aralığından sonrakine taşıyan bir röleye dönüşür, fakat aralıklar boyunca aktarım ihtiyatlı bir çıkarım olarak kalır—iki fiil yalnızca iki öğüdü pekiştiriyor da olabilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:due_settlement",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "activation:4", "connection:conn_ead017e6328b56ff46ee", "connection:conn_24fcad8ac353b64248fd", "context:103:2", "context:103:3"],
-          "paragraph": 3,
-          "anchor": "Daha belirgin bir hesap görüntüsünde aynı alıkoyma, 103:2'deki eksik ölçüyle ve 103:3'teki {ar:الْحَقِّ, tr:al-ḥaqq, gloss:hak, borç ve korunacak gerçek} ile temas eder: hak hem bağlayıcı bir borç/iddia hem sahibine ait talep olur, sağlanan başka çağrışımda korunması gereken bir gerçek olarak da okunur; eksik ölçü normu, hak da alacaklıyı belirlediği için süre sanki eksik teslim edilmiş ya da hâlâ ödenmesi gereken şeyi açığa çıkaran bir hesap aralığına dönüşür, fakat bu hukuki-ekonomik ve özellikle “korunacak gerçek” katmanı atfedilmiş bir bağlamsal okumadır, zamanın hukuk uygulayan bir fail olduğu iddiası değildir; ahlaki muhasebe karşı-okuması açıktır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:communal_pressure_vessel",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
           "paragraph": 7,
-          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman; sıkarak öz çıkarma} ile gelen baskı, 103:3'teki {ar:تَوَاصَوْا, tr:tawāṣaw, gloss:karşılıklı öğütleşme ve ortak bakım} ve {ar:الصَّبْرِ, tr:al-ṣabr, gloss:sabır; atfedilen özdenetim yankısı} ile buluşunca, toplulukça sürdürülen destek ve özdenetim basıncı patlamadan verime kadar taşıyan bir kap oluşturur; sabır için atfedilen testi/kuyu tıpası imgesi, gerilim altında içeriğin kaçmamasını somutlaştırır, ama bu çözümlenmemiş bir çağrışımdır ve benzetme sözlük anlamı değil, sabır da yalnızca ahlaki dayanma olarak okunabilir."
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:bir ağaç türü} kelimesinin yalnızca bir ağacı adlandıran yalın kullanımı, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır} çevresinde beliren ekşi meyve ve acı ilaç özsuyu ile karşılaştığında canlı bir kaynak görüntüsü kazanır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 7,
+          "anchor": "Burada yalnız ağacın varlığı güvenle korunur; türü, görünüşü ve ürünlerinin kesin botanik kimliği bu kelimeye eklenmez."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 7,
+          "anchor": "Ağaç, acı tıbbi özsuyun çıktığı bitkisel kaynak olarak düşünülebilir; bu ayrıntı, kaynağın yalnız yiyecek değil, tadı zor fakat tedavi edici bir ürün de verebildiğini gösterir."
+        },
+        {
+          "movement_refs": ["activation:2", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 7,
+          "anchor": "Aynı kaynak ekşi, buruk bir meyve ve kırmızı çekirdek görüntüsüyle başka bir ürün de taşır; ekşilik ile acılık, aynı bitkisel kaynaktan çıkan ürünleri birbirinden ayırır."
         }
       ]
     },
     {
-      "finding_ref": "macro:day_of_recompense_overlay",
+      "finding_ref": "macro:withheld-property-recoverable-shortfall",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "context:1:4"],
-          "paragraph": 9,
-          "anchor": "Bu görünürlük, 103:1'deki zaman yemini 1:4'ün açık {ar:يَوْمِ الدِّينِ, tr:yawm al-dīn, gloss:hesap ve karşılık günü} ile yan yana konduğunda bir hesap ufkuna da açılır: zaman aralığı, kayıp ve ifşanın sonunda adı konmuş bir karşılık gününe doğru okunabilir; bu yalnızca dışarıdan, 1:4'ten gelen bir ektir, al-ʿaṣr'ın o günü adlandırdığı, iki ifadenin sözlükçe özdeş olduğu veya bütün surenin bu çerçevede kurulduğu iddiası değildir."
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 10,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:alıkoyma ve geri alma} kelimesinin başka bir yönü, 103:2'deki genel eksilme ve kısa ölçüyle buluştuğunda kaybın yönünü belirginleştirir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 10,
+          "anchor": "Bu okuma belirli bir fail, ticari olay veya hukuki çözüm seçmez; zamana edilen açık yemini koruyarak, kaybın bazen beklenen faydanın kesilmiş dolaşımı olarak görülebileceğini ekler."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 10,
+          "anchor": "Burada bir yararın dolaşıma girmesi gerekirken tutulması, geri alınması veya karşı tarafa ulaşmadan kesilmesi düşünülebilir; eksilme böylece yalnız bir sonuç değil, akışı durduran bir işlem kazanır."
+        },
+        {
+          "movement_refs": ["activation:1", "activation:2", "connection:conn_24fcad8ac353b64248fd", "context:103:2"],
+          "paragraph": 10,
+          "anchor": "103:2'deki {ar:خُسْرٍ, tr:husr, gloss:genel eksilme} bu tutulmanın azalttığı kalanı gösterir; aynı kelimenin kısa ölçü görüntüsü, beklenen miktardan eksilen parçaya sınır çizer."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:human-visibility",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 2,
+          "anchor": "Aynı çerçevede {ar:إِنسَٰنَ, tr:insân, gloss:insan} kelimesi yalnızca kayıp cümlesinin öznesi olarak kalmayıp, bir şeyi görme, duyma veya sezme yoluyla fark eden insan görüntüsünü de çağırır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Bu görsel temas, insan kelimesinin yalnızca cümlenin öznesi olarak okunmasını silmez; o okumaya, insan durumunun tekrarlanan zaman içinde belirginleşmesi ihtimalini ekler."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "connection:conn_24fcad8ac353b64248fd", "context:103:2"],
+          "paragraph": 2,
+          "anchor": "İnsan, göz bebeğinde beliren bir suret gibi düşünüldüğünde, zaman dışarıdan olaylara bakan bir tanık olmaktan çıkar ve insan hâlinin içinde görünürleştiği bir alana dönüşür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:loss-ledger-press",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 8,
+          "anchor": "Bu sıkıştırılmış çıktı, bir hesap defterinde beklenen getiri ile gerçekleşen miktar arasındaki ticari zararı da gösterir; basınç, eksik teslimi görünür yapan bir kayıt gibi çalışır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 21,
+          "anchor": "Bütün bu görüntüler, âyetin ilk ve açık cümlesini yerinden oynatmadan ona farklı temas noktaları açar."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "activation:3", "connection:conn_24fcad8ac353b64248fd", "context:103:2"],
+          "paragraph": 8,
+          "anchor": "Bu kayıt, sıkmanın ürettiği miktarı beklenen ticari dönüşle karşılaştırır; kısa ölçü ve ticari zarar, kaybı soyut bir duygu olmaktan çıkarıp bastırılmış bir sonuç olarak gösterir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:trusted-refuge",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 15,
+          "anchor": "Aynı sığınma yönü, imanın güven veren ve tasdikle kalbi yatıştıran kullanımıyla daha dar bir temas da kurar."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 15,
+          "anchor": "Bu ikinci temas, sabırdaki grup içinde durma görüntüsünü değil, güven ve iç huzurla etkinleşen sığınma yönünü öne çıkarır; her ikisi de sıradan zaman anlamını koruyan ihtiyatlı ek okumalardır."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 15,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:tutunarak kurtuluş arama} burada güvenilen bir dayanağa bağlanır; iman, bu bağlanmayı ürkek bir tutuş olmaktan çıkarıp emanet edilmiş bir karara dönüştürür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:cultivated-yield",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 4,
+          "anchor": "Bu üretim çizgisinde {ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:elde edilen ürün} kelimesi, {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:düzgün ve ıslah edici işler} ile yan yana geldiğinde yetiştirme ve koruma hareketi kazanır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu iki üretim görüntüsü, zamana edilen açık yemini korur; yalnızca zamanın kendiliğinden ürün verdiğini değil, ürünün emek, uygunluk ve korunma içinde geliştiğini duyurur."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 4,
+          "anchor": "Zamanın ürün yönü, başağın kılıflarına girerek korunması görüntüsüyle buluşur; böylece çıkarılan kazançtan önce, henüz gelişmekte olan ürünün bozulmadan tutulduğu bir evre belirir."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 4,
+          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:iş yaptılar} burada pasifçe beklemekten farklı olarak niyetli ve yönelmiş çalışmayı taşır; eldeki malzemeye yapılan iş, ürünün ortaya çıkışına katılır."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 4,
+          "anchor": "Aynı kelimenin iş karşılığı ve işçinin geçim payı, yetiştirmenin emeği destekleyen bir dönüşe bağlandığını gösterir."
+        },
+        {
+          "movement_refs": ["activation:4"],
+          "paragraph": 4,
+          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:düzgün ve ıslah edici işler} bozulmanın karşısında sağlamlık ve onarma görüntüsünü getirir; üretim, yalnız çıkarmakla değil, gelişen şeyi bozulmadan tutmakla tamamlanır."
+        },
+        {
+          "movement_refs": ["activation:5", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 4,
+          "anchor": "Bu sağlamlık, eylemin malzemesine ve amacına uygun düşmesiyle birleştiğinde, ürünün verimli olmasını sağlayan bir uygunluk ölçüsü ortaya çıkar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:reciprocal-relay",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 16,
+          "anchor": "Sığınma ve zaman, 103:3'teki iki {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:karşılıklı öğütleştiler} ile buluştuğunda, destek tek kişinin tutunması olmaktan çıkar ve kişiler arasında gidip gelen bir aktarım gibi görünür."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 16,
+          "anchor": "Böylece güvenilir sığınak, zamanın içinden geçen bir dayanışma aktarımına dönüşebilir; tekrarın yalnızca iki görevi güçlendiren bir yapı olarak kalması ihtimali de bu görüntünün yanında açıktır."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2"],
+          "paragraph": 16,
+          "anchor": "Zaman ardışık aralıkları, sığınma ise taşınan güveni sağlar; birbirine bağlama görüntüsü bir aralığı ötekine, bir kişiyi ötekine ekler."
+        },
+        {
+          "movement_refs": ["activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 16,
+          "anchor": "Karşılıklı öğüt, bu aktarımı tek yönlü bir emirden ayırır ve iki ayrı temas noktasıyla sürdürür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:due-settlement",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 11,
+          "anchor": "Bu alıkoyma görüntüsü 103:2'nin kayıp cümlesiyle, 103:3'teki {ar:ٱلْحَقِّ, tr:el-hakk, gloss:borçlu olunan ve korunması gereken hak} ile birlikte bir hesaplaşma şekli de alır."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 11,
+          "anchor": "Bu hesap imgesi ihtiyatlı ve ilişkiseldir; kaybın mutlaka mahkeme, ticaret veya tek bir hukuki eylem olduğunu söylemeden, zamanın eksikliği ve hakkı aynı çerçevede görünür kılmasına izin verir."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 11,
+          "anchor": "Zaman, eksik ölçüyü ortaya çıkaran ve birinin hakkına ait olan şeyi geri çağıran bir hesap aralığı gibi düşünülebilir."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 11,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:alıkoyma ve geri alma} burada tutulmuş malı veya geri çevrilmiş bağışı taşır; 103:2'deki kısa ölçü, hesabın eksik teslim tarafını görünür kılar."
+        },
+        {
+          "movement_refs": ["activation:2"],
+          "paragraph": 11,
+          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:borçlu olunan şey} bir yükümlülüğü ve hak edilmiş payı gösterir; eksik miktarın varacağı normatif bir yer vardır."
+        },
+        {
+          "movement_refs": ["activation:3"],
+          "paragraph": 11,
+          "anchor": "Aynı kelime sahibine ait belirli bir hakkı da duyurur, böylece mesele soyut doğruluktan çıkıp birine ait olan değere bağlanır."
+        },
+        {
+          "movement_refs": ["activation:4", "connection:conn_24fcad8ac353b64248fd", "connection:conn_ead017e6328b56ff46ee", "context:103:2", "context:103:3"],
+          "paragraph": 11,
+          "anchor": "Onun korunması gereken gerçeklik olarak duyulan yönü, hesabın yalnız o ana ait olmadığını, zaman boyunca hak olarak kalan bir içeriği taşıdığını düşündürür."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:communal-pressure-vessel",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 17,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-ʿaṣr, gloss:bastırıp öz çıkaran basınç} kelimesi, karşılıklı öğüt ve {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:içten kendini tutma} ile birlikte düşünüldüğünde, basınç altında korunabilen bir kap görüntüsü açar."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 17,
+          "anchor": "Bu, zamana edilen yemini değiştiren gerçek bir kap iddiası değil, sabrın basıncı verime dönüşene kadar kuvveti tutabilmesini anlatan ihtiyatlı bir maddi benzetmedir."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1", "activation:2"],
+          "paragraph": 17,
+          "anchor": "Karşılıklı aktarım, bu kapta tutulma işini tek bir kişinin omzundan alıp paylaşır; kendini taşkınlıktan alıkoyma ise basıncın yarılmaya dönüşmesini engeller."
+        },
+        {
+          "movement_refs": ["activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 17,
+          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:şişe veya kuyunun tıpası} kelimesi bu dayanmayı somut bir kapanışla tamamlar: içerideki şey, gerilim altında dışarı kaçmasın diye sınırda tutulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:sips-through-constriction",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff"],
+          "paragraph": 18,
+          "anchor": "Böylece sıkışan şey, gerçeklik ve ölçülü dayanma küçük dozlar hâlinde geldikçe geçebilir."
+        },
+        {
+          "movement_refs": ["discovery:containment"],
+          "paragraph": 21,
+          "anchor": "Okuyucu, zamana yemin edildiğini kaybetmeden, zamanın insanı, ürünü, hakkı ve dayanmayı nasıl görünür kılabildiğini de birlikte görebilir."
+        },
+        {
+          "movement_refs": ["activation:0", "activation:1"],
+          "paragraph": 18,
+          "anchor": "103:3'teki karşılıklı öğüt, bu yudumları tek seferlik bir kurtarış olmaktan çıkarıp kişiler arasında tekrarlanan bir aktarım gibi düşündürür."
+        },
+        {
+          "movement_refs": ["activation:2", "activation:3", "connection:conn_ead017e6328b56ff46ee", "context:103:3"],
+          "paragraph": 18,
+          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçeklikle örtüşen sabitlik} kelimesi, bu küçük aktarımın içeriğini; {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:panikten kendini alıkoyma} ise geçişin temposunu sağlar."
         }
       ]
     }
   ]
 }
+
 </macro_scope_ledger>
 
 <global_scope_prose>
-Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} ifadesindeki wa- sıradan bağlaç değil yemin edatıdır; onu izleyen {ar:العصر, tr:al-ʿaṣr, gloss:zaman ve devir} belirli tekil, mecrur bir isim olarak olağan anlamda zamana, çağa ya da bir vakte yemindir (ikindi kullanımı özel tekil kalıba, gece-gündüz kullanımı ikili biçime bağlıdır), ve bu zaman taşıyıcısı 82:10’daki amelleri kaydeden koruyucularla 82:12’deki eylemleri bilmeyi, 17:13’te kişinin boynuna bağlanan kayıtla 17:14’te onu kendi okuyuşunu, 99:7’de zerre kadar iyiliği ve 99:8’deki kötülüğü görmeyi bir araya getirince, eylemlerin birikerek açığa çıktığı tanık-benzeri bir süre ufku kurar; 103:2’deki kayıp ifadesini 103:3’teki iman, iyi iş ve hak ile sabır konusunda karşılıklı öğütle aynı insan yörüngesine bağlayan ek adım önceki açıklamada ayet düzeyinde aktarılmıştır ve 103:2 için sözcük ya da biçim düzeyinde doğrulanmış bir eşleme yoktur, dolayısıyla dış kayıt sahneleri zamanı gerçek bir kayıt tutucu yapmaz, olağan zaman okumasına benzetmeli ikinci bir katman ekler. {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} için olağan zaman taşıyıcısı, 57:20’de bitkinin büyüyüp sararması ve sonra kırılıp dağılmasıyla, önceki açıklamanın 103:2’ye atfettiği genel eksilme imgesine ve 103:3’teki devamına temas eder; böylece sıradan insan kaybı tek bir hükümden çok geçip giden süre içinde görünen tükeniş olarak okunabilir, ancak 103:2’deki bağ sözcük düzeyinde doğrulanmamış ayet-atfı, 57:20’deki büyüme-çöküş döngüsü ise daha geniş bir benzetmedir, ne yemin sözcüğüne hasat anlamı verir ne de her zaman aralığının aynı sonuca çıkacağını söyler.
+Zamana yemin olsun. Başındaki {ar:وَ, tr:ve, gloss:yemin edatı} sıradan bir bağlaç gibi iki unsuru birleştirmez; ardından gelen {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} belirli bir zaman, devir veya yinelenen aralık üzerine yemin çerçevesi kurar. İnsan eylemlerini kayda geçiren meleklerle ilgili temas (82:10) ve başka bir zamansal yemin (93:1) bu zaman alanını, insanın eksilişini ve davranışının yönünü görünür kılan tanık benzeri bir kayıt olarak açar; ancak dehri helakin tek sebebi sayan karşı söz (45:24), zamanı kendi başına işleyen bir fail değil yorumlayıcı bir tanıklık alanı olarak tutmamızı gerektirir. Bu aynı zaman, dünya hayatının büyüme, solma ve yok oluş döngüsünü karşılaştıran temasla (57:20) birleştiğinde, insan kaybının ölçülebilir hale geldiği kapsayıcı aralık olur; kayıp burada kelimenin taşıyıcısı değil, zaman içinde biriken bağımsız sonuçtur ve zaman onu yapan bir özneye dönüşmez.
 
-{ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} olağan anlamıyla zaman üzerine yemindir; sözlük aynı ailede {ar:العصر, tr:al-ʿaṣr, gloss:sıkma işlemi} adını {ar:عصرت العنب, tr:ʿaṣartu al-ʿinab, gloss:üzümü sıktım} gibi üzüm ve zeytin örnekleriyle basınç uygulayıp sıvı çıkarma işinin eylem adı olarak verirken, {ar:العصارة, tr:al-ʿuṣāra, gloss:sıkılarak çıkan öz} biçimi çıkan sıvı ya da posayı adlandırır, {ar:العصر العطية, tr:al-ʿaṣr al-ʿaṭiyya, gloss:bağış ve iyilik} verme yönünü ve {ar:العصارة الغلة, tr:al-ʿuṣāra al-ghulla, gloss:ürün ve gelir} elde edilen payı kendi kalıplarında tutar; bağımsız 12:49 sahnesindeki adlandırılmış yıl ve insanların sıkımı ile 101:6’daki ağır ve 101:8’deki hafif tartı, bu işlem ve sonuç imgelerini zaman aralığına bağlayarak neyin basınçtan çıktığını ve bir dönemin ne kazandırıp ne eksilttiğini düşündürür, önceki açıklama da 103:2’deki kayıp ifadesini ticari zarar, 103:3’teki yerel örüntüyü emek ve işlem diye atfetmiştir, ancak 12:49’daki ilgili kelimenin biçimi burada çözümlenmediğinden ve 103:2 için sözcük düzeyinde doğrulanmış bir eşleme bulunmadığından bu hesap resmi sözlük anlamı değil, zamanı koruyan bir çağrışımdır. Aynı çok aşamalı basınç imgesinde 12:49’daki yıl ve sıkım ile 101:6 ve 101:8’deki karşıt tartı sonuçları, 103:2’ye önceki açıklamada ayet düzeyinde atfedilen ticari kayıpla buluşur; sözlükte {ar:العصر الملجأ, tr:al-ʿaṣr al-maljaʾ, gloss:sığınak} ve {ar:اعتصرت بفلان, tr:iʿtaṣartu bi-fulān, gloss:birine sığındım} ayrı kalıpları tutunma ve sığınma yönünü verirken, 10:103’te uyarıdan sonra inananların kurtarılması ve 103:3’teki karşılıklı öğüt bu odağa bağımsız bir kurtuluş ve ortak eylem sahnesi ekler; böylece zaman hem bir hayatın getirisini sınayan hem de olası bir açığın yanında sığınma yolunu açık bırakan basınç imgesine dönüşür, fakat 10:103’e eşlik eden karşı okuma kurtarma sahnesinin yeminle maddi bağını reddeder ve 103:2’nin sözcük çözümlemesi doğrulanmamıştır, bu yüzden yarar ve kurtuluş ilişkileri benzetmeli, derecelendirilmemiş bağlantılar olarak kalır.
+Bu kayıt alanı, {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} kelimesini bir şeyi bastırıp sıkarak içinden sıvı çıkarma hareketiyle yan yana getiren bağlamsal bir basınç imgesine de açar. Yağmur basıncını ve adı konmuş üretken döngüyü birlikte düşündüren temaslar (78:14; 12:49), zamanın insan hayatını ne ürettiğini sınayan bir baskıya dönüşmesini sağlar; bu baskı birine ulaşan iyiliği, kaynaktan çıkan payı veya ürünü ve açığa çıkan açığı gösterebilir, fakat sıradan zaman okumasını silmez ve kelimeyi doğrudan hediye ya da teknik muhasebe adı yapmaz. Biriktirmenin insanı oyalayıp tüketmesini ve tartının başarıyla kaybı ayırmasını hatırlatan temaslar (102:1; 7:8), bu sıkmayı ne çıkarıldığı ve neyin karşılıksız tüketildiği kayda geçen bir hesaba çevirir; elde edilen ürün veya birine ulaşan yarar, açığın yanında görülebilir, ama elde olmayan ticaret-kaybı kolunu etkinleştirmeden bu muhasebe yalnızca sınırlı bir yorumlayıcı benzetme olarak kalır.
 
-{ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} olağan zaman anlamını korurken, sözlükte {ar:المعصرات, tr:al-muʿṣirāt, gloss:yağmur yüklü bulutlar} gibi belirli çoğul kalıplar yağmur taşıyan bulutları, başka özel kullanımlar da yağmurun bir topluluğa gelişini anlatır; bu sözlük kaynağını ayrı olarak 78:14’te bulutlardan bol yağış indirilmesi sahnesi tetikler, ama ilgili bağlantıda kelimenin hedef biçimi çözümlenmemiştir ve karşı notun hatırlattığı üzere oradaki açık özne bulut değil zamandır, dolayısıyla temas imgesel ve keşifseldir, önceki açıklamanın 103:0’daki gök-merhamet işareti de sözcük düzeyinde doğrulanmamış atıf, 103:3’teki ses eylemleri ise yağışın boşalmasını yararlı insan eylemine benzeten ayrı bir yerel tetikleyicidir. Sözlükteki {ar:عصر الزرع صار في أكمامه, tr:ʿaṣr al-zarʿ ṣāra fī akmāmihi, gloss:ekin başak kılıflarına girip korundu} kullanımı yalnız ekinin başak kılıfları belirince onların içine girip korunmasını anlatan ekinli kalıba bağlıdır; 78:14’teki yağmur taşıyan bulut imgesiyle ve 12:47’de yedi yıl ekim yapıp hasadı az bir kısmı dışında başağında saklama talimatıyla, 103:3’ün önceki açıklamada atfedilen yerel tarım imgesi bir araya gelince, zaman yağıştan sonra ürünün kılıfında gelişip korunduğu bir mevsim aralığı olarak da duyulur, ancak 12:47’ye eşlik eden karşı okuma yeminin o ayetin tarım yönergelerini açıklamadığını belirtir, bu yüzden hasat ve korunma sahnesi de olağan zaman anlamını değiştiren bir sözlük karşılığı değil, sınırlı bir geniş bağlam benzetmesidir.
+Basıncın açığa çıkardığı açık, tutunma ve sakınarak elde tutma hareketleriyle karşılanabilir. {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} kelimesinin tutunarak sığınma ve kurtuluş arama yönü, karşılıklı iyiliği ve sabrı hatırlatan öğüt, uyarıdan sonra gelen kurtuluş ve kendine yeterlik yolunda alıkoyma temaslarıyla (90:17; 10:103; 92:8) birleştiğinde, baskı bölgesinde bağlılık ve karşılıklı destekten oluşan bir sığınak açar; bu sığınak zamanın yerine geçen sözlük tanımı değildir ve malı geri alma gibi özel anlamları taşımayı gerektirmez. Aynı {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} alanında karşılıklı öğütleşmenin bağlılığı ile kendine yeterlik yönündeki alıkoyma (90:17; 92:8), güvenliği dışarıdan hazır bir nesne gibi değil, baskı altında tutunulan ve kaybolmaması için elde tutulan bir şey olarak görünür kılar; burada ayrı bir güvenlik kolu değil, odak kelimenin sığınma ve alıkoyma çekirdeklerinin bağlamsal yankısı korunur. Bu nedenle {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} içindeki sığınma çekirdeği, karşılıklı öğüt ve kurtuluş temaslarıyla (90:17; 10:103) sıkışmanın içinde bir çıkış yolu olarak kalır; onu ilaç, acılık veya tıbbi bir iddia haline getirmeden, doğrudan sözlük tanımı değil bağlı bir kurtuluş imgesi olarak okumak gerekir.
 
-{ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} zaman üzerine olağan yemindir; sözlükte {ar:العصر الملجأ, tr:al-ʿaṣr al-maljaʾ, gloss:sığınak} sığınak anlamını, {ar:اعتصرت بفلان, tr:iʿtaṣartu bi-fulān, gloss:birine sığındım} gibi ayrı fiil kalıpları birine tutunup korunma aramayı, {ar:العصر الحبس, tr:al-ʿaṣr al-ḥabs, gloss:alıkoyma ve engelleme} ise destek ya da hakkı tutmayı anlatır; bağımsız 10:103 kurtarılan inananları, 107:7 esirgenen yardımı gösterirken, yerel 103:2’deki kayıp 103:3’teki istisna ve karşılıklı öğütle karşılanır, böylece odak sözcüğün tutunma/sığınak uzantısı ile alıkoyma anlamı, olağan zaman okumasının yanına baskı altında aranan sığınak ve tutulmuş destekten oluşan karşıt bir çift ekler, ancak 10:103’ün yeminle maddi bağı ve 107:7’nin sığınma ya da yardım yolu oluşturduğu iddiası karşı notlarla sınırlanmıştır, bu nedenle çift keşifsel benzetme düzeyinde kalır. Aynı sığınma yönünün daha dar uzantısında, önceki açıklamanın 103:3’teki istisna ve tekrar eden karşılıklı öğüdü bir sığınma yolu olarak atfetmesi, bağımsız 10:103 kurtarma sahnesiyle birlikte tutunma çekirdeğini bir dayanak ve kurtuluş güzergâhına genişletir; bu bağlantı 10:103’ün yeminle maddi ilişki kurmadığını söyleyen karşı okuma altında analojik kalır ve daha geniş bağlamda acı ilaç, geçme yuvası ya da tıpa anlamlarını tetikleyecek bir ipucu yoktur, böylece kurtuluş imgesi zaman yemininin yerini almadan ve daha uzak sözlük uzantıları etkinleştirilmeden son bulur.
+Basınç yalnız tutan ve tüketen bir kuvvet değildir; salıverebilir de. {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} yağmur taşıyan ve yağışını boşaltmaya hazır bulut görüntüsüyle, basınçtan hayat veren bir yararın salınabileceği bir kutup açar; yağmur ile basıncın kesiştiği temas (78:14) bu okuma için keşifsel bir malzeme benzetmesi sunar, kaynaklarda doğrudan onaylanan bir sözlük anlamı değil ve olağan zaman yeminini ortadan kaldırmaz. Aynı yağmur imgesi, başağın kılıfları içine girerek korunan ekin ve büyümenin ardından ani azalma temasına (78:14; 10:24) bağlandığında, baskı alanı olası ürünü olgunlaşana kadar tutan ama sonucunu yine kayıp ya da hasada açık bırakan koruyucu bir döngü gibi görünür; bu sınırlı, keşifsel görüntü her kabı veya her büyüme metaforunu kelimenin anlamına dönüştürmez.
+
+Bu döngünün insan bedenindeki karşılığı, daralmanın tek hamlede değil, ölçülü tekrarlarla aşılmasıdır. {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} boğaza takılan lokmayı küçük yudumlarla geçirme görüntüsünü, tekrarlanan karşılıklı öğüt ve sabır temasına (90:17) bağlayarak, sıkışan anın geçişi mümkün kılan küçük ve sürdürücü desteklerle rahatlayabileceğini düşündürür; bu keşifsel benzetme, kaynağı çözülememiş sabır bağlantısını bağımsız bir dal yapmaz ve yemin cümlesinin olağan zaman zeminini korur.
+
+Buraya kadar zaman, basınç, salıveriş ve sığınak birbirini silmeden aynı odakta durur. {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} bu dört ayrı teması birlikte canlı tutar: kaydı ve yinelenmeyi taşıyan zaman, sıkarak ürün ya da açığı açığa çıkaran basınç, yağmurla faydayı salıveren sıkışma ve tutunma-kurtuluşla kurulan sığınak; kayda geçirme ile zamansal yemin, yağmur ile üretken döngü, karşılıklı öğüt ile kurtuluş temasları (82:10; 93:1; 78:14; 12:49; 90:17; 10:103) bu hatları destekler, fakat kelimeye doğrudan bir bulut veya işlem anlamı yüklemeden, hiçbiri tek başına galip ilan edilmez, yağmur keşifsel ve hesap ile sığınak bağlamsal kalır.
+
+Bu dört çizginin toplumsal karşılığı, kaybın içinden kurtuluşa doğru bir düzeltme hareketidir. {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} tutunarak sığınmayı, birine ulaşan iyiliği ve bir kaynaktan elde edilen payı, uyarı sonrasında kurtuluş, karşılıklı öğüt, üretken döngü ve tartıyla (10:103; 90:17; 12:49; 7:8) buluşturur; böylece istisna, açığı inkâr ederek değil, baskı içinden bağlılık ve değerlendirilebilir bir iyi sonuç çıkararak kaybın tek sonuç olmasını düzeltir, ancak bu hareket teknik bir ticaret hesabına dönüşmez ve zamanın asli yemin anlamını ortadan kaldırmaz.
+
+Son olarak basıncın yıkıcı yüzü de görünür. {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} rüzgârın kaldırdığı, dönen ve sütun gibi yükselen toz görüntüsünü, ekili büyümeyi vuran ateşli döner rüzgâr sahnesiyle (2:266) yan yana getirerek, kuvvetin yetiştirilen şeyi de savurup kaybı görünür kılabileceğini düşündürür; hedefteki kelime biçimi genişletilmeden bu keşifsel karşılık, çıkarma, salıverme ve sığınakla birlikte duran bir yan basınç olarak kalır ve yemin için tek anlam iddiasına dönüşmez.
+
 </global_scope_prose>
 
 <global_scope_ledger>
@@ -2025,48 +2500,19 @@ Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yem
             "discovery:containment",
             "activation:0",
             "connection:conn_d9cacafbacd936d169ff",
-            "connection:conn_dffc1287d9b3256737f7",
-            "connection:conn_05aa9250381655e62505",
-            "connection:conn_5199b18401832bb25a82",
-            "connection:conn_7a781bc1a8acab407808",
-            "connection:conn_982bc9dc07dbb8321414",
+            "connection:conn_0967c76dcabfbea74d5b",
+            "connection:conn_585a4a14c26bbca6d689",
             "context:82:10",
-            "context:82:12",
-            "context:17:13",
-            "context:17:14",
-            "context:99:7",
-            "context:99:8",
-            "context:103:2",
-            "context:103:3"
+            "context:93:1",
+            "context:45:24"
           ],
           "paragraph": 1,
-          "anchor": "Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} ifadesindeki wa- sıradan bağlaç değil yemin edatıdır; onu izleyen {ar:العصر, tr:al-ʿaṣr, gloss:zaman ve devir} belirli tekil, mecrur bir isim olarak olağan anlamda zamana, çağa ya da bir vakte yemindir (ikindi kullanımı özel tekil kalıba, gece-gündüz kullanımı ikili biçime bağlıdır), ve bu zaman taşıyıcısı 82:10’daki amelleri kaydeden koruyucularla 82:12’deki eylemleri bilmeyi, 17:13’te kişinin boynuna bağlanan kayıtla 17:14’te onu kendi okuyuşunu, 99:7’de zerre kadar iyiliği ve 99:8’deki kötülüğü görmeyi bir araya getirince, eylemlerin birikerek açığa çıktığı tanık-benzeri bir süre ufku kurar; 103:2’deki kayıp ifadesini 103:3’teki iman, iyi iş ve hak ile sabır konusunda karşılıklı öğütle aynı insan yörüngesine bağlayan ek adım önceki açıklamada ayet düzeyinde aktarılmıştır ve 103:2 için sözcük ya da biçim düzeyinde doğrulanmış bir eşleme yoktur, dolayısıyla dış kayıt sahneleri zamanı gerçek bir kayıt tutucu yapmaz, olağan zaman okumasına benzetmeli ikinci bir katman ekler."
+          "anchor": "İnsan eylemlerini kayda geçiren meleklerle ilgili temas (82:10) ve başka bir zamansal yemin (93:1) bu zaman alanını, insanın eksilişini ve davranışının yönünü görünür kılan tanık benzeri bir kayıt olarak açar; ancak dehri helakin tek sebebi sayan karşı söz (45:24), zamanı kendi başına işleyen bir fail değil yorumlayıcı bir tanıklık alanı olarak tutmamızı gerektirir."
         }
       ]
     },
     {
-      "finding_ref": "global:time-loss-cycle",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "connection:conn_db6cd6999e5d34125208",
-            "context:57:20",
-            "context:103:2",
-            "context:103:3"
-          ],
-          "paragraph": 1,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} için olağan zaman taşıyıcısı, 57:20’de bitkinin büyüyüp sararması ve sonra kırılıp dağılmasıyla, önceki açıklamanın 103:2’ye atfettiği genel eksilme imgesine ve 103:3’teki devamına temas eder; böylece sıradan insan kaybı tek bir hükümden çok geçip giden süre içinde görünen tükeniş olarak okunabilir, ancak 103:2’deki bağ sözcük düzeyinde doğrulanmamış ayet-atfı, 57:20’deki büyüme-çöküş döngüsü ise daha geniş bir benzetmedir, ne yemin sözcüğüne hasat anlamı verir ne de her zaman aralığının aynı sonuca çıkacağını söyler."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:pressure-yield-account",
+      "finding_ref": "global:pressure-yield",
       "landings": [
         {
           "movement_refs": [
@@ -2077,24 +2523,120 @@ Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yem
             "activation:0",
             "activation:1",
             "activation:2",
-            "activation:3",
-            "activation:4",
+            "connection:conn_5d52a7196243d22629c0",
             "connection:conn_153f55ffbab78d718842",
-            "connection:conn_beaaf7bf840cbf97eed6",
-            "connection:conn_e52956f7740ae1647d6d",
-            "context:12:49",
-            "context:101:6",
-            "context:101:8",
-            "context:103:2",
-            "context:103:3"
+            "context:78:14",
+            "context:12:49"
           ],
           "paragraph": 2,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} olağan anlamıyla zaman üzerine yemindir; sözlük aynı ailede {ar:العصر, tr:al-ʿaṣr, gloss:sıkma işlemi} adını {ar:عصرت العنب, tr:ʿaṣartu al-ʿinab, gloss:üzümü sıktım} gibi üzüm ve zeytin örnekleriyle basınç uygulayıp sıvı çıkarma işinin eylem adı olarak verirken, {ar:العصارة, tr:al-ʿuṣāra, gloss:sıkılarak çıkan öz} biçimi çıkan sıvı ya da posayı adlandırır, {ar:العصر العطية, tr:al-ʿaṣr al-ʿaṭiyya, gloss:bağış ve iyilik} verme yönünü ve {ar:العصارة الغلة, tr:al-ʿuṣāra al-ghulla, gloss:ürün ve gelir} elde edilen payı kendi kalıplarında tutar; bağımsız 12:49 sahnesindeki adlandırılmış yıl ve insanların sıkımı ile 101:6’daki ağır ve 101:8’deki hafif tartı, bu işlem ve sonuç imgelerini zaman aralığına bağlayarak neyin basınçtan çıktığını ve bir dönemin ne kazandırıp ne eksilttiğini düşündürür, önceki açıklama da 103:2’deki kayıp ifadesini ticari zarar, 103:3’teki yerel örüntüyü emek ve işlem diye atfetmiştir, ancak 12:49’daki ilgili kelimenin biçimi burada çözümlenmediğinden ve 103:2 için sözcük düzeyinde doğrulanmış bir eşleme bulunmadığından bu hesap resmi sözlük anlamı değil, zamanı koruyan bir çağrışımdır."
+          "anchor": "Yağmur basıncını ve adı konmuş üretken döngüyü birlikte düşündüren temaslar (78:14; 12:49), zamanın insan hayatını ne ürettiğini sınayan bir baskıya dönüşmesini sağlar; bu baskı birine ulaşan iyiliği, kaynaktan çıkan payı veya ürünü ve açığa çıkan açığı gösterebilir, fakat sıradan zaman okumasını silmez ve kelimeyi doğrudan hediye ya da teknik muhasebe adı yapmaz."
         }
       ]
     },
     {
-      "finding_ref": "global:harvest-season",
+      "finding_ref": "global:refuge-and-restraint",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "connection:conn_6729a74b35a5787282ec",
+            "connection:conn_44939300e8fc61e4a491",
+            "connection:conn_6f6ff4fbafb7c34e3c71",
+            "context:90:17",
+            "context:10:103",
+            "context:92:8"
+          ],
+          "paragraph": 3,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} kelimesinin tutunarak sığınma ve kurtuluş arama yönü, karşılıklı iyiliği ve sabrı hatırlatan öğüt, uyarıdan sonra gelen kurtuluş ve kendine yeterlik yolunda alıkoyma temaslarıyla (90:17; 10:103; 92:8) birleştiğinde, baskı bölgesinde bağlılık ve karşılıklı destekten oluşan bir sığınak açar; bu sığınak zamanın yerine geçen sözlük tanımı değildir ve malı geri alma gibi özel anlamları taşımayı gerektirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:rain-release",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "connection:conn_5d52a7196243d22629c0",
+            "context:78:14"
+          ],
+          "paragraph": 4,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} yağmur taşıyan ve yağışını boşaltmaya hazır bulut görüntüsüyle, basınçtan hayat veren bir yararın salınabileceği bir kutup açar; yağmur ile basıncın kesiştiği temas (78:14) bu okuma için keşifsel bir malzeme benzetmesi sunar, kaynaklarda doğrudan onaylanan bir sözlük anlamı değil ve olağan zaman yeminini ortadan kaldırmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:time-loss-core",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "connection:conn_db6cd6999e5d34125208",
+            "context:57:20"
+          ],
+          "paragraph": 1,
+          "anchor": "Bu aynı zaman, dünya hayatının büyüme, solma ve yok oluş döngüsünü karşılaştıran temasla (57:20) birleştiğinde, insan kaybının ölçülebilir hale geldiği kapsayıcı aralık olur; kayıp burada kelimenin taşıyıcısı değil, zaman içinde biriken bağımsız sonuçtur ve zaman onu yapan bir özneye dönüşmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:pressure-ledger-core",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_f40eb8294fd03843195a",
+            "connection:conn_b5276e5895fa25f8002b",
+            "context:102:1",
+            "context:7:8"
+          ],
+          "paragraph": 2,
+          "anchor": "Biriktirmenin insanı oyalayıp tüketmesini ve tartının başarıyla kaybı ayırmasını hatırlatan temaslar (102:1; 7:8), bu sıkmayı ne çıkarıldığı ve neyin karşılıksız tüketildiği kayda geçen bir hesaba çevirir; elde edilen ürün veya birine ulaşan yarar, açığın yanında görülebilir, ama elde olmayan ticaret-kaybı kolunu etkinleştirmeden bu muhasebe yalnızca sınırlı bir yorumlayıcı benzetme olarak kalır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:refuge-security-core",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "connection:conn_6729a74b35a5787282ec",
+            "connection:conn_6f6ff4fbafb7c34e3c71",
+            "context:90:17",
+            "context:92:8"
+          ],
+          "paragraph": 3,
+          "anchor": "Aynı {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} alanında karşılıklı öğütleşmenin bağlılığı ile kendine yeterlik yönündeki alıkoyma (90:17; 92:8), güvenliği dışarıdan hazır bir nesne gibi değil, baskı altında tutunulan ve kaybolmaması için elde tutulan bir şey olarak görünür kılar; burada ayrı bir güvenlik kolu değil, odak kelimenin sığınma ve alıkoyma çekirdeklerinin bağlamsal yankısı korunur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:rain-growth-enclosure",
       "landings": [
         {
           "movement_refs": [
@@ -2105,42 +2647,17 @@ Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yem
             "activation:0",
             "activation:1",
             "connection:conn_5d52a7196243d22629c0",
-            "connection:conn_8884320d7b87412bed8d",
+            "connection:conn_14e46165eb4b6e32372f",
             "context:78:14",
-            "context:12:47",
-            "context:103:3"
-          ],
-          "paragraph": 3,
-          "anchor": "Sözlükteki {ar:عصر الزرع صار في أكمامه, tr:ʿaṣr al-zarʿ ṣāra fī akmāmihi, gloss:ekin başak kılıflarına girip korundu} kullanımı yalnız ekinin başak kılıfları belirince onların içine girip korunmasını anlatan ekinli kalıba bağlıdır; 78:14’teki yağmur taşıyan bulut imgesiyle ve 12:47’de yedi yıl ekim yapıp hasadı az bir kısmı dışında başağında saklama talimatıyla, 103:3’ün önceki açıklamada atfedilen yerel tarım imgesi bir araya gelince, zaman yağıştan sonra ürünün kılıfında gelişip korunduğu bir mevsim aralığı olarak da duyulur, ancak 12:47’ye eşlik eden karşı okuma yeminin o ayetin tarım yönergelerini açıklamadığını belirtir, bu yüzden hasat ve korunma sahnesi de olağan zaman anlamını değiştiren bir sözlük karşılığı değil, sınırlı bir geniş bağlam benzetmesidir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:constraint-refuge-pair",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "connection:conn_44939300e8fc61e4a491",
-            "connection:conn_0efbed8e9dcbfb7be8e1",
-            "context:10:103",
-            "context:107:7",
-            "context:103:2",
-            "context:103:3"
+            "context:10:24"
           ],
           "paragraph": 4,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} zaman üzerine olağan yemindir; sözlükte {ar:العصر الملجأ, tr:al-ʿaṣr al-maljaʾ, gloss:sığınak} sığınak anlamını, {ar:اعتصرت بفلان, tr:iʿtaṣartu bi-fulān, gloss:birine sığındım} gibi ayrı fiil kalıpları birine tutunup korunma aramayı, {ar:العصر الحبس, tr:al-ʿaṣr al-ḥabs, gloss:alıkoyma ve engelleme} ise destek ya da hakkı tutmayı anlatır; bağımsız 10:103 kurtarılan inananları, 107:7 esirgenen yardımı gösterirken, yerel 103:2’deki kayıp 103:3’teki istisna ve karşılıklı öğütle karşılanır, böylece odak sözcüğün tutunma/sığınak uzantısı ile alıkoyma anlamı, olağan zaman okumasının yanına baskı altında aranan sığınak ve tutulmuş destekten oluşan karşıt bir çift ekler, ancak 10:103’ün yeminle maddi bağı ve 107:7’nin sığınma ya da yardım yolu oluşturduğu iddiası karşı notlarla sınırlanmıştır, bu nedenle çift keşifsel benzetme düzeyinde kalır."
+          "anchor": "Aynı yağmur imgesi, başağın kılıfları içine girerek korunan ekin ve büyümenin ardından ani azalma temasına (78:14; 10:24) bağlandığında, baskı alanı olası ürünü olgunlaşana kadar tutan ama sonucunu yine kayıp ya da hasada açık bırakan koruyucu bir döngü gibi görünür; bu sınırlı, keşifsel görüntü her kabı veya her büyüme metaforunu kelimenin anlamına dönüştürmez."
         }
       ]
     },
     {
-      "finding_ref": "global:refuge-route",
+      "finding_ref": "global:choking-relief",
       "landings": [
         {
           "movement_refs": [
@@ -2149,18 +2666,16 @@ Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yem
             "discovery:reader_payoff",
             "discovery:containment",
             "activation:0",
-            "activation:1",
-            "connection:conn_44939300e8fc61e4a491",
-            "context:10:103",
-            "context:103:3"
+            "connection:conn_6729a74b35a5787282ec",
+            "context:90:17"
           ],
-          "paragraph": 4,
-          "anchor": "Aynı sığınma yönünün daha dar uzantısında, önceki açıklamanın 103:3’teki istisna ve tekrar eden karşılıklı öğüdü bir sığınma yolu olarak atfetmesi, bağımsız 10:103 kurtarma sahnesiyle birlikte tutunma çekirdeğini bir dayanak ve kurtuluş güzergâhına genişletir; bu bağlantı 10:103’ün yeminle maddi ilişki kurmadığını söyleyen karşı okuma altında analojik kalır ve daha geniş bağlamda acı ilaç, geçme yuvası ya da tıpa anlamlarını tetikleyecek bir ipucu yoktur, böylece kurtuluş imgesi zaman yemininin yerini almadan ve daha uzak sözlük uzantıları etkinleştirilmeden son bulur."
+          "paragraph": 5,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} boğaza takılan lokmayı küçük yudumlarla geçirme görüntüsünü, tekrarlanan karşılıklı öğüt ve sabır temasına (90:17) bağlayarak, sıkışan anın geçişi mümkün kılan küçük ve sürdürücü desteklerle rahatlayabileceğini düşündürür; bu keşifsel benzetme, kaynağı çözülememiş sabır bağlantısını bağımsız bir dal yapmaz ve yemin cümlesinin olağan zaman zeminini korur."
         }
       ]
     },
     {
-      "finding_ref": "global:pressure-rescue-yield",
+      "finding_ref": "global:refuge-medicine-core",
       "landings": [
         {
           "movement_refs": [
@@ -2169,30 +2684,18 @@ Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yem
             "discovery:reader_payoff",
             "discovery:containment",
             "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "activation:6",
-            "connection:conn_e52956f7740ae1647d6d",
-            "connection:conn_153f55ffbab78d718842",
-            "connection:conn_beaaf7bf840cbf97eed6",
+            "connection:conn_6729a74b35a5787282ec",
             "connection:conn_44939300e8fc61e4a491",
-            "context:103:2",
-            "context:103:3",
-            "context:12:49",
-            "context:101:6",
-            "context:101:8",
+            "context:90:17",
             "context:10:103"
           ],
-          "paragraph": 2,
-          "anchor": "Aynı çok aşamalı basınç imgesinde 12:49’daki yıl ve sıkım ile 101:6 ve 101:8’deki karşıt tartı sonuçları, 103:2’ye önceki açıklamada ayet düzeyinde atfedilen ticari kayıpla buluşur; sözlükte {ar:العصر الملجأ, tr:al-ʿaṣr al-maljaʾ, gloss:sığınak} ve {ar:اعتصرت بفلان, tr:iʿtaṣartu bi-fulān, gloss:birine sığındım} ayrı kalıpları tutunma ve sığınma yönünü verirken, 10:103’te uyarıdan sonra inananların kurtarılması ve 103:3’teki karşılıklı öğüt bu odağa bağımsız bir kurtuluş ve ortak eylem sahnesi ekler; böylece zaman hem bir hayatın getirisini sınayan hem de olası bir açığın yanında sığınma yolunu açık bırakan basınç imgesine dönüşür, fakat 10:103’e eşlik eden karşı okuma kurtarma sahnesinin yeminle maddi bağını reddeder ve 103:2’nin sözcük çözümlemesi doğrulanmamıştır, bu yüzden yarar ve kurtuluş ilişkileri benzetmeli, derecelendirilmemiş bağlantılar olarak kalır."
+          "paragraph": 3,
+          "anchor": "Bu nedenle {ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} içindeki sığınma çekirdeği, karşılıklı öğüt ve kurtuluş temaslarıyla (90:17; 10:103) sıkışmanın içinde bir çıkış yolu olarak kalır; onu ilaç, acılık veya tıbbi bir iddia haline getirmeden, doğrudan sözlük tanımı değil bağlı bir kurtuluş imgesi olarak okumak gerekir."
         }
       ]
     },
     {
-      "finding_ref": "global:rain-beneficial-release",
+      "finding_ref": "global:fourfold-pressure-field",
       "landings": [
         {
           "movement_refs": [
@@ -2201,16 +2704,71 @@ Surenin başındaki {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yem
             "discovery:reader_payoff",
             "discovery:containment",
             "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "connection:conn_d9cacafbacd936d169ff",
             "connection:conn_5d52a7196243d22629c0",
+            "connection:conn_153f55ffbab78d718842",
+            "connection:conn_6729a74b35a5787282ec",
+            "connection:conn_44939300e8fc61e4a491",
+            "context:82:10",
+            "context:93:1",
             "context:78:14",
-            "context:103:0",
-            "context:103:3"
+            "context:12:49",
+            "context:90:17",
+            "context:10:103"
           ],
-          "paragraph": 3,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣri, gloss:asra yemin} olağan zaman anlamını korurken, sözlükte {ar:المعصرات, tr:al-muʿṣirāt, gloss:yağmur yüklü bulutlar} gibi belirli çoğul kalıplar yağmur taşıyan bulutları, başka özel kullanımlar da yağmurun bir topluluğa gelişini anlatır; bu sözlük kaynağını ayrı olarak 78:14’te bulutlardan bol yağış indirilmesi sahnesi tetikler, ama ilgili bağlantıda kelimenin hedef biçimi çözümlenmemiştir ve karşı notun hatırlattığı üzere oradaki açık özne bulut değil zamandır, dolayısıyla temas imgesel ve keşifseldir, önceki açıklamanın 103:0’daki gök-merhamet işareti de sözcük düzeyinde doğrulanmamış atıf, 103:3’teki ses eylemleri ise yağışın boşalmasını yararlı insan eylemine benzeten ayrı bir yerel tetikleyicidir."
+          "paragraph": 6,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} bu dört ayrı teması birlikte canlı tutar: kaydı ve yinelenmeyi taşıyan zaman, sıkarak ürün ya da açığı açığa çıkaran basınç, yağmurla faydayı salıveren sıkışma ve tutunma-kurtuluşla kurulan sığınak; kayda geçirme ile zamansal yemin, yağmur ile üretken döngü, karşılıklı öğüt ile kurtuluş temasları (82:10; 93:1; 78:14; 12:49; 90:17; 10:103) bu hatları destekler, fakat kelimeye doğrudan bir bulut veya işlem anlamı yüklemeden, hiçbiri tek başına galip ilan edilmez, yağmur keşifsel ve hesap ile sığınak bağlamsal kalır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:loss-refuge-yield",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_44939300e8fc61e4a491",
+            "connection:conn_6729a74b35a5787282ec",
+            "connection:conn_153f55ffbab78d718842",
+            "connection:conn_b5276e5895fa25f8002b",
+            "context:10:103",
+            "context:90:17",
+            "context:12:49",
+            "context:7:8"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} tutunarak sığınmayı, birine ulaşan iyiliği ve bir kaynaktan elde edilen payı, uyarı sonrasında kurtuluş, karşılıklı öğüt, üretken döngü ve tartıyla (10:103; 90:17; 12:49; 7:8) buluşturur; böylece istisna, açığı inkâr ederek değil, baskı içinden bağlılık ve değerlendirilebilir bir iyi sonuç çıkararak kaybın tek sonuç olmasını düzeltir, ancak bu hareket teknik bir ticaret hesabına dönüşmez ve zamanın asli yemin anlamını ortadan kaldırmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:uncandidate-whirlwind",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "connection:conn_4dcec439408a75b6d684",
+            "context:2:266"
+          ],
+          "paragraph": 8,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:el-asr, gloss:devir ve vakit} rüzgârın kaldırdığı, dönen ve sütun gibi yükselen toz görüntüsünü, ekili büyümeyi vuran ateşli döner rüzgâr sahnesiyle (2:266) yan yana getirerek, kuvvetin yetiştirilen şeyi de savurup kaybı görünür kılabileceğini düşündürür; hedefteki kelime biçimi genişletilmeden bu keşifsel karşılık, çıkarma, salıverme ve sığınakla birlikte duran bir yan basınç olarak kalır ve yemin için tek anlam iddiasına dönüşmez."
         }
       ]
     }
   ]
 }
+
 </global_scope_ledger>

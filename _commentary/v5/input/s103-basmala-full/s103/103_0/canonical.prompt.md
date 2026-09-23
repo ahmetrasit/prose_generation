@@ -1103,21 +1103,26 @@ later, but the active editorial-only workflow does not depend on them.
 </focus_context_brief>
 
 <micro_scope_prose>
-Âyet {ar:بِسْمِ, tr:bi-smi, gloss:adıyla} diye açılır: “Merhameti sınırsız, merhamet eden Allah'ın adıyla.” Kısa söz, Allah'ın adı anılarak başlanmasını bildirir. Başlangıçtaki {ar:بِ, tr:bi, gloss:ile}, hemen ardından gelen {ar:ٱسْمِ, tr:ismi, gloss:ad} ile tek bir bağlı vuruş oluşturur; edat isme yaslandığı için söz, daha ilk anda isme bağlanan bir ilişki olarak duyulur. Bu {ar:بِ, tr:bi, gloss:ile}, araçla yapma, bir yerde bulunma, eşlik ve bağlanma duyumlarını tek bir yönetilen ad öbeğinde toplar; böylece başlama edimi adla kurulur ve bu duyumlar ayrı eylemlere dönüşmez. Fiil söylenmeden bırakıldığı için, bu isim öbeği söyleyenin başlama ya da okuma edimini {ar:ٱللَّهِ, tr:Allah, gloss:Allah} adı üzerinden yürütür; basmala böylece söylenen bir anlam kadar yapılan bir başlangıçtır.
+Besmele'de {ar:بِ, tr:bi, gloss:ile / aracılığıyla} hemen ardından gelen {ar:سْمِ, tr:smi, gloss:ad} sözcüğünü yöneterek daha ilk seste açılışı tamamlanmış bir fiil bildirimi değil, adı bekleyen bir ilişki olarak kurar; okur formülün ilk sesinden itibaren açılışın ada bağlı olduğunu duyar ve biçim, metinde söylenmeyen açık bir fiil eklemez. Bu {ar:بِ, tr:bi, gloss:ile / aracılığıyla} araç, yer, eşlik ve bağlanma çağrışımlarını, yönettiği isim ve sonraki tamlamayla tek bir isimli açılış ilişkisine toplar; okur olası karşılıkların aynı çerçevede kaldığını görür, bâ tek bir Türkçe karşılığa indirgenmese de bu çağrışımlar dört ayrı önerme ya da fiil oluşturmaz. Açık bir fiil bulunmayınca {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} bağı, okurun o andaki başlama, tilavet ya da dua eylemini söylemeden bırakıp ad üzerinden yöneltir; bu yüzden formül tamamlanmış bir bildirimden çok yönelmiş bir başlangıç gibi yaşanır ve örtük eylem bu çevrede kalır.
 
-{ar:ٱسْمِ, tr:ismi, gloss:ad} soldaki {ar:بِ, tr:bi, gloss:ile} tarafından yönetilir ve sağda {ar:ٱللَّهِ, tr:Allah, gloss:Allah} ile izafet kurar; iki temas adı, başlangıç ediminin Allah'a ulaştığı aracı yapar. {ar:ٱللَّهِ, tr:Allah, gloss:Allah} tek ve belirli bir varlığı gösteren özel ad olarak kalır; dilbilgisi onu önceki {ar:ٱسْمِ, tr:ismi, gloss:ad} isim öbeğine izafetle bağlayınca, o varlığa isim yoluyla ulaşılır. {ar:بِ, tr:bi, gloss:ile}den isme, isimden Allah'a, oradan iki merhamet sıfatına ilerleyen sıra, ismi açılıştaki ilişki ile sonundaki nitelemeler arasında geçiş noktası yapar. {ar:ٱسْمِ, tr:ismi, gloss:ad}in temel anlamı bir varlığı tanıtıp ondan söz etmeyi sağlayan addır; adın anılanı yükselterek belirgin kıldığı yönündeki sözlük açıklaması, burada onu yöneten {ar:بِ, tr:bi, gloss:ile} ve ardından gelen {ar:ٱللَّهِ, tr:Allah, gloss:Allah} özel adıyla temas eder, böylece isim Allah'ı başlangıçta yönelinen belirgin varlık yaparken yerel “ad” anlamını korur ve okuyucu adı hem tanıtma hem belirginleştirme ilişkisiyle duyar.
+Burada {ar:سْمِ, tr:ismi, gloss:ad / adlandırma} olağan adlandırma anlamını korur; sağındaki {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı belirli referansı sağladığında, ad kökenini açıklayan sözlük kullanımı adı anmayı yükseltip anılanı belirgin kılma etkisini bu referansa taşır, fakat bu kaynaklı vurgu fiziksel bir yükselme veya gök imgesi değildir. Sözdiziminde {ar:سْمِ, tr:ismi, gloss:ad} solda {ar:بِ, tr:bi, gloss:ile} tarafından yönetilir, sağda {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} tamlayanı ile kurulur; böylece isim bağımsız bir etiket değil, açılış ilişkisini Allah referansına taşıyan ara halkadır, yalnızca yerel bir tamlama olarak kalır ve açık fiil eklemez. Bu yapıdaki {ar:سْمِ, tr:ismi, gloss:ad} aynı zamanda {ar:بِ, tr:bi, gloss:ile} ile başlayan bağı {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adına, ardından da {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} biçimindeki iki genitif rahmet sıfatına bağlayan eşiktir; açılış adlandırmadan Allah'ın niteliklerine ilerler, sıfatlar isme değil Allah'a aittir ve dışarıdan yeni bir eylem çıkarılmaz.
 
-{ar:ٱللَّهِ, tr:Allah, gloss:Allah}'ın özel adı, ardından gelen {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} sıfatlarını aynı tekil varlığa bağlar; iki merhamet sözü böylece adı taşıyan varlığı niteler. Bu {ar:ٱللَّهِ, tr:Allah, gloss:Allah} adı {ar:ٱسْمِ, tr:ismi, gloss:ad} ile izafette sesçe sıkı birime toplanır; yakın ilişki, Allah adını açılış formülünün içinde yoğun duyulan bir ses birimi gibi kurar.
+Bu formülde {ar:سْمِ, tr:ismi, gloss:ad / isim} kökün soyut adlandırma anlamını seçer—bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz ya da anlam—; onu yöneten {ar:بِ, tr:bi, gloss:ile} ile tamlayan {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı bu işlevi belirli referans üzerinde görünür kılar, böylece okur yerel anlamın soyut ad olduğunu görür; kökün gök ve örtü alanındaki başka kullanımları burada yalnızca söz varlığı karşılaştırması sağlar ve yüzeyde bu imgeleri tetikleyecek ayrı bir sözcük yoktur. Raporlanan alternatif kök yönlendirmesi, yerel isim okumasının sınırını karşılaştırmayla daha belirgin kılar; görünen {ar:سْمِ, tr:ismi, gloss:ad} biçimi adlandırma anlamında kalır ve bu rapor ikinci bir kök ya da yeni bir anlamı yerel okumaya taşımaz.
 
-İlk {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} Allah'ın özel adına bağlı belirli bir sıfattır; başındaki belirlilik ve Allah'a bağlanma biçimi merhamet nitelemesini aynı ada verir. Rivayet edilen başka sonlanışlar bu {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} sözü yüklem ya da nesne konumuna taşıyabilir; bu yüzeydeki son “-i” ise onu Allah'ı niteleyen sıfat zincirinde tutar.
+Tamlamanın referansı {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} olarak kurulur, ardından gelen {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} bu tek ada bağlı iki belirli genitif sıfat olur; i‘rab bağı merhameti aynı referansa yükler, böylece okur önce adı konan, sonra nitelenen tek varlığı görür ve sıfatları bağımsız adlara ayırmaz. Ses akışında {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} önceki isim tamlamasını tamamlayıp iki genitif niteliğe geçiş yapan yoğun orta halka gibi duyulur; bu sıkılık yalnızca yerel besmele formülündedir, sonraki hamd sözündeki olası tekrar için burada ayrı bağlam yoktur. Bu genitif zincirde {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} belirli ilahi özel addır; önceki {ar:سْمِ, tr:ismi, gloss:ad} tamlaması onu referans kılar, bu yüzden kısa yapı genel bir ilah sınıfına ya da açık fiilin eyleyen öznesine değil, adı verilmiş tekil referansa ulaşır.
 
-İlk {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} biçimi merhameti genişlik taşıyan bir niteleme gibi açar; hemen arkasındaki {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} aynı anlam ailesini başka bir biçimde sürdürerek ilk sözü sonrakinin ayrımına hazırlar. {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan}'ın başındaki çift duyulan başlangıç, yanındaki {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}'in yakın kadansıyla buluşur; belirlilik, tekrar ve ses akışı ilk sıfatı bağlı bir çiftin üyesi gibi duyurur.
+{ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı belirli ilahi referans olarak kalır; ancak {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} ile kurulan örtük başlama, tilavet veya dua ilişkisi bu adı ibadet yönelimli bir odak yapar, okurun başlangıç eylemini ona yöneltir ama açık fiil ya da kesin bir özlem duygusu eklemez. Sözlükteki eylem kullanımı bir varlığa tapınmayı ve kişinin kendini bu ibadete vermesini anlatır; {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} ile açılan örtük tilavet ya da dua {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adıyla taşınan mabut referansına yönelince başlangıç ibadet doğrultusu kazanır, açık bir fiile dönüşmeden. Eylemden türeyen ad kullanımı da tapınılan varlığı veya ibadet nesnesini gösterebilir; burada bâ ile isim yapısının açtığı dua yönelimi {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adını mabut konumuna getirir, fakat özel ad bir sınıf adı, nida veya yemin hâline gelmez.
 
-Yerel {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} sıfatı Allah'a dönük merhamet anlamını taşır; aynı anlam ailesindeki ayrı kullanım olan {ar:رَحِم, tr:raḥim, gloss:döl yatağı}, yavrunun oluşup geliştiği ve karın içinde taşındığı iç organdır. Yanındaki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} biçimi bu ayrı döl yatağı kullanımını bağımsız olarak tetikler; yavrunun oluşup geliştiği ve taşındığı koruyucu kap imgesi, yerel {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} sıfatının merhamet anlamına kuşatıcı bir basınç katar, anlam merhamet olarak kalırken ayet bedensel organı adlandırmaz.
+Aktarılan i‘rab seçenekleri, {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} sözcüğünün haber ya da mef‘ul gibi başka işlevlerde de kurulabileceğini gösterir; yine de burada görünen cerli biçim onu {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adına bağlı sıfat olarak sabitler, okur alternatif baskıyı fark ederken yerel çözümlemeyi değiştirmez. Bu yüzden ilk belirli genitif {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} doğrudan {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adını niteler: cer merhamet sıfatını adı verilmiş referansa yükler, sıfat ilişkisini korur ve Allah adının yerini almaz.
 
-İkinci {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} önceki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} ile aynı anlam ailesinden yankılanır; biçim değişikliği bu yankıyı düz tekrardan çıkarıp merhametin gerçekleşen ve süreklilik taşıyan niteliğine doğru inceltir. Önündeki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} belirli unvanıyla karşılaştırıldığında, {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}'in merhameti başkasının davranışında da nitelenebilen bir nitelik olarak taşıma imkânı görünür; bu basmalada iki kelime de Allah'a bağlı sıfattır.
+Allah'a bağlı ilk sıfat {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} geniş bir rahmet alanı açar; hemen ardından aynı kökü başka kalıpta taşıyan {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} bu niteliği düz eşanlamlı tekrara dönüştürmek yerine iki sıfatın işlevini ayırır, böylece okur ilk sıfatın genişliğini ve ikincinin tekrardan fazlası oluşunu görür, fakat genişlik nicel bir ölçü ya da üstünlük sıralaması değildir. Sözlükteki merhamet kullanımı, acıma duyulanı esirgemeyi ve ona iyilik etmeyi gerektiren etkin bir yöneliştir; ilk {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} bunu taşırken, hemen ardındaki farklı kalıplı {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} bu etkin iyiliği geniş bir alana açar, bağımsız fiil veya sıralama iddiası kurmadan. {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı sıfatın ilahi kullanımını belirleyince {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} dalındaki esirgeme ve iyilik yaratılmışlara ulaşan genişlik olarak görünür; bu Tanrı hakkındaki özelleşmiş bir kullanımdır, ölçülebilir nicelik ya da tek anlam iddiası değildir. Belirlilik, ortak kökün ses tekrarı ve ezgi, {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} sözcüğünü hemen sonraki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} ile bağlı çiftin ilk üyesi gibi işittirir; okur anlam farkını çözmeden ses bağını duyar, fakat bu benzerlik iki sıfatı eşanlamlı ilan etmez.
 
-Son {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} önceki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} sıfatını belirginleştirerek formülü tamamlar ve iki merhamet niteliğini Allah'ın adıyla aynı zincirde tutar. En sonda gelen {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} merhameti kalıcı ve gerçekleşen nitelik olarak formülün son anlam birimine yerleştirir. {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}'in eşlenen kadansı, son kelimeyi açılışın ses mührü yapar; böylece merhamet çifti anlamı kurarken kapanışı da duyurur. Başlangıçta duyulan anlam — Allah'ın adıyla başlamak — bütün bu bağlılık ve ses hareketlerinin içinde açık kalır.
+Yerel merhamet anlamındaki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} Allah'a bağlı sıfat olarak kalır; sözlükte rahim, dişi bedende yavrunun oluşup geliştiği ve onu karın içinde taşıyan iç kap olan döl yatağıdır, bu taşıma ve koruma imgesini aynı zincirde ikinci ve farklı kalıptaki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} tetikler ve rahmeti kuşatan bakım gibi renklendirir—bu analojik bir basınçtır, gerçek organ, beden ya da annelik bildirmez. İki sıfatın ritmik eşleşmesi, sondaki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} biçimini formülün işitsel mührü yapar; okur son sözcükte kapanışı duyar, bu kapanış yerel formülle sınırlıdır ve sonraki bir dönüşü ileriye taşımak için burada seçilmiş bağlam yoktur.
+
+Genitif zincirin sonundaki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adına bağlı ikinci belirli sıfat olarak rahmet çiftini tamamlar; önceki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile birlikte son sözcük tek referansa bağlı kapanışı kurar ve başka bir referansa yüklenmez. Aynı merhamet kökünü yineleyen ama başka kalıpta gelen {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, önceki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} biçimini düz eşanlamla tekrar etmez; ortak kök bağı korunurken biçim farkı son sıfatı öncekinin süreğen, işleyen bir uzantısı gibi duyurur ve iki nitelik arasında seçim yaptırmaz. Bu son biçimin sözlük alanında acıma duyulanı esirgemeyi ve ona iyilik etmeyi gerektiren etkin rahmet vardır; onu önceleyen geniş {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} bu etkinliğin karşılaştırma noktası olunca {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} yinelenen etiket değil, devam eden bir etki gibi belirginleşir, ama iki biçim de Allah'a bağlı kalır. Son anlamsal birim olan {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, rahmeti süreğen ve işleyen nitelik olarak formülü kapatır; bu yerel biçim farkı ilk geniş sıfatı geçersiz kılmaz ve yalnızca son biçime özgü tek anlam iddia etmez.
+
+Son genitif {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} biçimine ilişkin aktarılan durak ve i‘rab seçenekleri tilavet ile sözdiziminde başka sınırlar kurma baskısı yaratır; mevcut cer ise rahmet sıfatları zincirini kapatır, okur alternatifleri yerel çözümlemeyi kaybetmeden fark eder ve sonraki hamd ifadesine köprü kurmak için seçilmiş bağlam bulunmadığını da görür.
+
 </micro_scope_prose>
 
 <micro_scope_ledger>
@@ -1127,102 +1132,142 @@ Son {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} önceki {ar:ٱ�
   "lane": "micro",
   "findings": [
     {
-      "finding_ref": "micro:bound-opening-beat",
+      "finding_ref": "micro:fused-opening-beat",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 1,
-          "anchor": "Başlangıçtaki {ar:بِ, tr:bi, gloss:ile}, hemen ardından gelen {ar:ٱسْمِ, tr:ismi, gloss:ad} ile tek bir bağlı vuruş oluşturur; edat isme yaslandığı için söz, daha ilk anda isme bağlanan bir ilişki olarak duyulur."
+          "anchor": "Besmele'de {ar:بِ, tr:bi, gloss:ile / aracılığıyla} hemen ardından gelen {ar:سْمِ, tr:smi, gloss:ad} sözcüğünü yöneterek daha ilk seste açılışı tamamlanmış bir fiil bildirimi değil, adı bekleyen bir ilişki olarak kurar; okur formülün ilk sesinden itibaren açılışın ada bağlı olduğunu duyar ve biçim, metinde söylenmeyen açık bir fiil eklemez."
         }
       ]
     },
     {
-      "finding_ref": "micro:particle-relational-range",
+      "finding_ref": "micro:bound-particle-range",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 1,
-          "anchor": "Bu {ar:بِ, tr:bi, gloss:ile}, araçla yapma, bir yerde bulunma, eşlik ve bağlanma duyumlarını tek bir yönetilen ad öbeğinde toplar; böylece başlama edimi adla kurulur ve bu duyumlar ayrı eylemlere dönüşmez."
+          "anchor": "Bu {ar:بِ, tr:bi, gloss:ile / aracılığıyla} araç, yer, eşlik ve bağlanma çağrışımlarını, yönettiği isim ve sonraki tamlamayla tek bir isimli açılış ilişkisine toplar; okur olası karşılıkların aynı çerçevede kaldığını görür, bâ tek bir Türkçe karşılığa indirgenmese de bu çağrışımlar dört ayrı önerme ya da fiil oluşturmaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:compressed-opening-act",
+      "finding_ref": "micro:elliptical-invocation",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 1,
-          "anchor": "Fiil söylenmeden bırakıldığı için, bu isim öbeği söyleyenin başlama ya da okuma edimini {ar:ٱللَّهِ, tr:Allah, gloss:Allah} adı üzerinden yürütür; basmala böylece söylenen bir anlam kadar yapılan bir başlangıçtır."
+          "anchor": "Açık bir fiil bulunmayınca {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} bağı, okurun o andaki başlama, tilavet ya da dua eylemini söylemeden bırakıp ad üzerinden yöneltir; bu yüzden formül tamamlanmış bir bildirimden çok yönelmiş bir başlangıç gibi yaşanır ve örtük eylem bu çevrede kalır."
         }
       ]
     },
     {
-      "finding_ref": "micro:raised-name-designation",
+      "finding_ref": "micro:marked-designation",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0", "activation:1"],
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
           "paragraph": 2,
-          "anchor": "{ar:ٱسْمِ, tr:ismi, gloss:ad}in temel anlamı bir varlığı tanıtıp ondan söz etmeyi sağlayan addır; adın anılanı yükselterek belirgin kıldığı yönündeki sözlük açıklaması, burada onu yöneten {ar:بِ, tr:bi, gloss:ile} ve ardından gelen {ar:ٱللَّهِ, tr:Allah, gloss:Allah} özel adıyla temas eder, böylece isim Allah'ı başlangıçta yönelinen belirgin varlık yaparken yerel “ad” anlamını korur ve okuyucu adı hem tanıtma hem belirginleştirme ilişkisiyle duyar."
+          "anchor": "Burada {ar:سْمِ, tr:ismi, gloss:ad / adlandırma} olağan adlandırma anlamını korur; sağındaki {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı belirli referansı sağladığında, ad kökenini açıklayan sözlük kullanımı adı anmayı yükseltip anılanı belirgin kılma etkisini bu referansa taşır, fakat bu kaynaklı vurgu fiziksel bir yükselme veya gök imgesi değildir."
         }
       ]
     },
     {
-      "finding_ref": "micro:construct-name-binding",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "{ar:ٱسْمِ, tr:ismi, gloss:ad} soldaki {ar:بِ, tr:bi, gloss:ile} tarafından yönetilir ve sağda {ar:ٱللَّهِ, tr:Allah, gloss:Allah} ile izafet kurar; iki temas adı, başlangıç ediminin Allah'a ulaştığı aracı yapar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:designation-hinge",
+      "finding_ref": "micro:name-construct",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 2,
-          "anchor": "{ar:بِ, tr:bi, gloss:ile}den isme, isimden Allah'a, oradan iki merhamet sıfatına ilerleyen sıra, ismi açılıştaki ilişki ile sonundaki nitelemeler arasında geçiş noktası yapar."
+          "anchor": "Sözdiziminde {ar:سْمِ, tr:ismi, gloss:ad} solda {ar:بِ, tr:bi, gloss:ile} tarafından yönetilir, sağda {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} tamlayanı ile kurulur; böylece isim bağımsız bir etiket değil, açılış ilişkisini Allah referansına taşıyan ara halkadır, yalnızca yerel bir tamlama olarak kalır ve açık fiil eklemez."
         }
       ]
     },
     {
-      "finding_ref": "micro:mercy-chain-anchor",
+      "finding_ref": "micro:designation-mercy-hinge",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 2,
+          "anchor": "Bu yapıdaki {ar:سْمِ, tr:ismi, gloss:ad} aynı zamanda {ar:بِ, tr:bi, gloss:ile} ile başlayan bağı {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adına, ardından da {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} biçimindeki iki genitif rahmet sıfatına bağlayan eşiktir; açılış adlandırmadan Allah'ın niteliklerine ilerler, sıfatlar isme değil Allah'a aittir ve dışarıdan yeni bir eylem çıkarılmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:name-branch-in-root-field",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
+          "paragraph": 3,
+          "anchor": "Bu formülde {ar:سْمِ, tr:ismi, gloss:ad / isim} kökün soyut adlandırma anlamını seçer—bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz ya da anlam—; onu yöneten {ar:بِ, tr:bi, gloss:ile} ile tamlayan {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı bu işlevi belirli referans üzerinde görünür kılar, böylece okur yerel anlamın soyut ad olduğunu görür; kökün gök ve örtü alanındaki başka kullanımları burada yalnızca söz varlığı karşılaştırması sağlar ve yüzeyde bu imgeleri tetikleyecek ayrı bir sözcük yoktur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:reported-root-routing",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 3,
-          "anchor": "{ar:ٱللَّهِ, tr:Allah, gloss:Allah}'ın özel adı, ardından gelen {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} sıfatlarını aynı tekil varlığa bağlar; iki merhamet sözü böylece adı taşıyan varlığı niteler."
+          "anchor": "Raporlanan alternatif kök yönlendirmesi, yerel isim okumasının sınırını karşılaştırmayla daha belirgin kılar; görünen {ar:سْمِ, tr:ismi, gloss:ad} biçimi adlandırma anlamında kalır ve bu rapor ikinci bir kök ya da yeni bir anlamı yerel okumaya taşımaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:construct-name-density",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 3,
-          "anchor": "Bu {ar:ٱللَّهِ, tr:Allah, gloss:Allah} adı {ar:ٱسْمِ, tr:ismi, gloss:ad} ile izafette sesçe sıkı birime toplanır; yakın ilişki, Allah adını açılış formülünün içinde yoğun duyulan bir ses birimi gibi kurar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:proper-name-dependency",
-      "landings": [
-        {
-          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 2,
-          "anchor": "{ar:ٱللَّهِ, tr:Allah, gloss:Allah} tek ve belirli bir varlığı gösteren özel ad olarak kalır; dilbilgisi onu önceki {ar:ٱسْمِ, tr:ismi, gloss:ad} isim öbeğine izafetle bağlayınca, o varlığa isim yoluyla ulaşılır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "micro:variant-case-pressure",
+      "finding_ref": "micro:name-anchors-mercy",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 4,
-          "anchor": "Rivayet edilen başka sonlanışlar bu {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} sözü yüklem ya da nesne konumuna taşıyabilir; bu yüzeydeki son “-i” ise onu Allah'ı niteleyen sıfat zincirinde tutar."
+          "anchor": "Tamlamanın referansı {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} olarak kurulur, ardından gelen {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} bu tek ada bağlı iki belirli genitif sıfat olur; i‘rab bağı merhameti aynı referansa yükler, böylece okur önce adı konan, sonra nitelenen tek varlığı görür ve sıfatları bağımsız adlara ayırmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:construct-sound-density",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Ses akışında {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} önceki isim tamlamasını tamamlayıp iki genitif niteliğe geçiş yapan yoğun orta halka gibi duyulur; bu sıkılık yalnızca yerel besmele formülündedir, sonraki hamd sözündeki olası tekrar için burada ayrı bağlam yoktur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:proper-name-as-referent",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 4,
+          "anchor": "Bu genitif zincirde {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} belirli ilahi özel addır; önceki {ar:سْمِ, tr:ismi, gloss:ad} tamlaması onu referans kılar, bu yüzden kısa yapı genel bir ilah sınıfına ya da açık fiilin eyleyen öznesine değil, adı verilmiş tekil referansa ulaşır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:worship-directed-name",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 5,
+          "anchor": "{ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı belirli ilahi referans olarak kalır; ancak {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} ile kurulan örtük başlama, tilavet veya dua ilişkisi bu adı ibadet yönelimli bir odak yapar, okurun başlangıç eylemini ona yöneltir ama açık fiil ya da kesin bir özlem duygusu eklemez."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 5,
+          "anchor": "Sözlükteki eylem kullanımı bir varlığa tapınmayı ve kişinin kendini bu ibadete vermesini anlatır; {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} ile açılan örtük tilavet ya da dua {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adıyla taşınan mabut referansına yönelince başlangıç ibadet doğrultusu kazanır, açık bir fiile dönüşmeden."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 5,
+          "anchor": "Eylemden türeyen ad kullanımı da tapınılan varlığı veya ibadet nesnesini gösterebilir; burada bâ ile isim yapısının açtığı dua yönelimi {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adını mabut konumuna getirir, fakat özel ad bir sınıf adı, nida veya yemin hâline gelmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:case-variant-pressure",
+      "landings": [
+        {
+          "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
+          "paragraph": 6,
+          "anchor": "Aktarılan i‘rab seçenekleri, {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} sözcüğünün haber ya da mef‘ul gibi başka işlevlerde de kurulabileceğini gösterir; yine de burada görünen cerli biçim onu {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adına bağlı sıfat olarak sabitler, okur alternatif baskıyı fark ederken yerel çözümlemeyi değiştirmez."
         }
       ]
     },
@@ -1231,48 +1276,58 @@ Son {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} önceki {ar:ٱ�
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 4,
-          "anchor": "İlk {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} Allah'ın özel adına bağlı belirli bir sıfattır; başındaki belirlilik ve Allah'a bağlanma biçimi merhamet nitelemesini aynı ada verir."
+          "paragraph": 6,
+          "anchor": "Bu yüzden ilk belirli genitif {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} doğrudan {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adını niteler: cer merhamet sıfatını adı verilmiş referansa yükler, sıfat ilişkisini korur ve Allah adının yerini almaz."
         }
       ]
     },
     {
-      "finding_ref": "micro:expansive-mercy-first",
+      "finding_ref": "micro:expansive-first-mercy",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "İlk {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} biçimi merhameti genişlik taşıyan bir niteleme gibi açar; hemen arkasındaki {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} aynı anlam ailesini başka bir biçimde sürdürerek ilk sözü sonrakinin ayrımına hazırlar."
+          "paragraph": 7,
+          "anchor": "Allah'a bağlı ilk sıfat {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} geniş bir rahmet alanı açar; hemen ardından aynı kökü başka kalıpta taşıyan {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} bu niteliği düz eşanlamlı tekrara dönüştürmek yerine iki sıfatın işlevini ayırır, böylece okur ilk sıfatın genişliğini ve ikincinin tekrardan fazlası oluşunu görür, fakat genişlik nicel bir ölçü ya da üstünlük sıralaması değildir."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 7,
+          "anchor": "Sözlükteki merhamet kullanımı, acıma duyulanı esirgemeyi ve ona iyilik etmeyi gerektiren etkin bir yöneliştir; ilk {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} bunu taşırken, hemen ardındaki farklı kalıplı {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} bu etkin iyiliği geniş bir alana açar, bağımsız fiil veya sıralama iddiası kurmadan."
+        },
+        {
+          "movement_refs": ["activation:1"],
+          "paragraph": 7,
+          "anchor": "{ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı sıfatın ilahi kullanımını belirleyince {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} dalındaki esirgeme ve iyilik yaratılmışlara ulaşan genişlik olarak görünür; bu Tanrı hakkındaki özelleşmiş bir kullanımdır, ölçülebilir nicelik ya da tek anlam iddiası değildir."
         }
       ]
     },
     {
-      "finding_ref": "micro:paired-mercy-onset",
+      "finding_ref": "micro:paired-onset",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan}'ın başındaki çift duyulan başlangıç, yanındaki {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}'in yakın kadansıyla buluşur; belirlilik, tekrar ve ses akışı ilk sıfatı bağlı bir çiftin üyesi gibi duyurur."
+          "paragraph": 7,
+          "anchor": "Belirlilik, ortak kökün ses tekrarı ve ezgi, {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} sözcüğünü hemen sonraki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} ile bağlı çiftin ilk üyesi gibi işittirir; okur anlam farkını çözmeden ses bağını duyar, fakat bu benzerlik iki sıfatı eşanlamlı ilan etmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:protective-mercy-pressure",
+      "finding_ref": "micro:protective-mercy",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment", "activation:0"],
-          "paragraph": 6,
-          "anchor": "Yanındaki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} biçimi bu ayrı döl yatağı kullanımını bağımsız olarak tetikler; yavrunun oluşup geliştiği ve taşındığı koruyucu kap imgesi, yerel {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} sıfatının merhamet anlamına kuşatıcı bir basınç katar, anlam merhamet olarak kalırken ayet bedensel organı adlandırmaz."
+          "paragraph": 8,
+          "anchor": "Yerel merhamet anlamındaki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} Allah'a bağlı sıfat olarak kalır; sözlükte rahim, dişi bedende yavrunun oluşup geliştiği ve onu karın içinde taşıyan iç kap olan döl yatağıdır, bu taşıma ve koruma imgesini aynı zincirde ikinci ve farklı kalıptaki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} tetikler ve rahmeti kuşatan bakım gibi renklendirir—bu analojik bir basınçtır, gerçek organ, beden ya da annelik bildirmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:closing-mercy-cadence",
+      "finding_ref": "micro:paired-cadence",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
           "paragraph": 8,
-          "anchor": "{ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} ile {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}'in eşlenen kadansı, son kelimeyi açılışın ses mührü yapar; böylece merhamet çifti anlamı kurarken kapanışı da duyurur."
+          "anchor": "İki sıfatın ritmik eşleşmesi, sondaki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} biçimini formülün işitsel mührü yapar; okur son sözcükte kapanışı duyar, bu kapanış yerel formülle sınırlıdır ve sonraki bir dönüşü ileriye taşımak için burada seçilmiş bağlam yoktur."
         }
       ]
     },
@@ -1281,51 +1336,66 @@ Son {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} önceki {ar:ٱ�
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 8,
-          "anchor": "Son {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} önceki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} sıfatını belirginleştirerek formülü tamamlar ve iki merhamet niteliğini Allah'ın adıyla aynı zincirde tutar."
+          "paragraph": 9,
+          "anchor": "Genitif zincirin sonundaki {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} adına bağlı ikinci belirli sıfat olarak rahmet çiftini tamamlar; önceki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile birlikte son sözcük tek referansa bağlı kapanışı kurar ve başka bir referansa yüklenmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:shared-root-refinement",
+      "finding_ref": "micro:root-echo-refinement",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 7,
-          "anchor": "İkinci {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} önceki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} ile aynı anlam ailesinden yankılanır; biçim değişikliği bu yankıyı düz tekrardan çıkarıp merhametin gerçekleşen ve süreklilik taşıyan niteliğine doğru inceltir."
+          "paragraph": 9,
+          "anchor": "Aynı merhamet kökünü yineleyen ama başka kalıpta gelen {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, önceki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} biçimini düz eşanlamla tekrar etmez; ortak kök bağı korunurken biçim farkı son sıfatı öncekinin süreğen, işleyen bir uzantısı gibi duyurur ve iki nitelik arasında seçim yaptırmaz."
+        },
+        {
+          "movement_refs": ["activation:0"],
+          "paragraph": 9,
+          "anchor": "Bu son biçimin sözlük alanında acıma duyulanı esirgemeyi ve ona iyilik etmeyi gerektiren etkin rahmet vardır; onu önceleyen geniş {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} bu etkinliğin karşılaştırma noktası olunca {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} yinelenen etiket değil, devam eden bir etki gibi belirginleşir, ama iki biçim de Allah'a bağlı kalır."
         }
       ]
     },
     {
-      "finding_ref": "micro:shareable-mercy-quality",
+      "finding_ref": "micro:enacted-mercy-closure",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 7,
-          "anchor": "Önündeki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti genişlik taşıyan} belirli unvanıyla karşılaştırıldığında, {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden}'in merhameti başkasının davranışında da nitelenebilen bir nitelik olarak taşıma imkânı görünür; bu basmalada iki kelime de Allah'a bağlı sıfattır."
+          "paragraph": 9,
+          "anchor": "Son anlamsal birim olan {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm}, rahmeti süreğen ve işleyen nitelik olarak formülü kapatır; bu yerel biçim farkı ilk geniş sıfatı geçersiz kılmaz ve yalnızca son biçime özgü tek anlam iddia etmez."
         }
       ]
     },
     {
-      "finding_ref": "micro:enacted-mercy-landing",
+      "finding_ref": "micro:variant-pause-boundary",
       "landings": [
         {
           "movement_refs": ["discovery:claim", "discovery:mechanism", "discovery:reader_payoff", "discovery:containment"],
-          "paragraph": 8,
-          "anchor": "En sonda gelen {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} merhameti kalıcı ve gerçekleşen nitelik olarak formülün son anlam birimine yerleştirir."
+          "paragraph": 10,
+          "anchor": "Son genitif {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} biçimine ilişkin aktarılan durak ve i‘rab seçenekleri tilavet ile sözdiziminde başka sınırlar kurma baskısı yaratır; mevcut cer ise rahmet sıfatları zincirini kapatır, okur alternatifleri yerel çözümlemeyi kaybetmeden fark eder ve sonraki hamd ifadesine köprü kurmak için seçilmiş bağlam bulunmadığını da görür."
         }
       ]
     }
   ]
 }
+
 </micro_scope_ledger>
 
 <macro_scope_prose>
-Başlangıçtaki {ar:بِسْمِ, tr:bi-ismi, gloss:adıyla} {ar:اللَّهِ, tr:Allah, gloss:Allah'ın} sözü, Allah'ın adıyla yapılan bir yakarışı bildirir; buradaki *ism* bir varlığı tanıtan ve ondan söz etmeyi sağlayan addır. Bu sûrede bu adlandırma, hemen ardından gelen yemin, kayıp teşhisi ve istisnayı aynı kısa uyarı-cevap söyleyişinde bir araya getirerek ilahî adı baştaki çerçeveye dönüştürür. Böylece uyarı, Allah'ın adıyla açılmış ve ilahî muhataba yöneltilmiş bir söz olarak duyulur; açılış, sadece bağımsız bir etiket olarak kalmaz. Basmala olağan anlamıyla yakarıştır, yemin değildir ve bu diziliş tek başına hukuki otorite kurmaz. *İsm*in “adlandırma” anlamı, {ar:وَٱلْعَصْرِ, tr:ve'l-asr, gloss:zamana ant olsun} yeminiyle başlayan, {ar:لَفِى خُسْرٍ, tr:le-fî ḫusr, gloss:kayıp içinde} teşhisine ve 103:3'teki istisnaya uzanan bağımsız dizide, bu sözün ayrı bir ad etiketi değil söyleyişi başlatan bir sesleniş olarak işlemesini sağlar. Adın, adlandırılanı anılmada yükseltip belirgin kıldığına ilişkin köken açıklaması, bu adın yemin ve hükümden önce duruşuna ikinci bir vurgu ekler; bu, tam da bu kullanımın kesin etimolojisi değil, konumdan doğan nitelikli bir yankıdır. Allah adının Yaratıcı'yı başkalarından ayıran özel ad niteliği, bir sonraki ayetin zaman yemini, ardından gelen kayıp teşhisi ve istisnayla birlikte formül söyleyişini belirginleştirir; yine de basmala ant değil, ant 103:1'deki ayrı zaman yeminidir.
+Besmele’deki {ar:سْمِ, tr:ismi, gloss:adı} sözü anılanı tanıtır, {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı çağrılan belirli mercii verir; ardından gelen {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana ant olsun} yemini, insanı {ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:inna l-insāna la-fī khusr, gloss:insan ziyan içindedir} gösteren hüküm ve {ar:إِلَّا ٱلَّذِينَ, tr:illā llaḏīna, gloss:ancak o kimseler...} diye açılan istisna, adlandırmayı sonraki uyarı ve kurtuluş dizisine bağlar; böylece Allah’ın özel adı ile adlandırma sözü yemin ve hükmü çağrılan merci altında duyuran etkin bir başlangıç kurar, ayrılabilir bir başlıkta kalmaz, fakat bu ilişki suredeki sıralamadan yapılan bir çıkarımdır: besmeleyi yemin yapmaz ve sonraki sözlerin Allah’a sözdizimsel olarak açıkça isnat edildiğini ileri sürmez; burada `ism` gök ya da yükseklik değil adlandırmadır.
+Besmele’de adı anılan {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı dua ve tilavet yönelişinin belirli referansıdır; Arapça sözlük alanındaki eylem kullanımı bir varlığa tapınmayı ve kişinin kendini ibadete vermesini, eylemden türeyen kullanım ise tapınılan varlığı anlatır, bu nedenle ardından 103:3’te {ar:ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ, tr:āmanū wa-ʿamilū ṣ-ṣāliḥāt, gloss:iman edip iyi işler yaptılar} diye sayılan koşullar aynen kalırken iman ve iyi işler çağrılmış olana yönelen bir cevap gibi duyulabilir; besmele’de açık bir ibadet fiili yoktur ve bu yöneliş tek saik olarak ileri sürülmez.
 
-Başlangıçtaki {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} biçimleri Allah'ın merhamet sıfatlarıdır; birlikte, içten acımayı ve bu yönelişin esirgeme ile iyilik etme sonucunu taşırlar. Bu iki sıfat, insanlığın kayıpta oluşu ile 103:3'teki inanç, iyi iş ve karşılıklı öğüt istisnasını, başta adlandırılmış etkin bir iyilik çerçevesinde okutur. Merhametin acıyana dönük etkin sonucu olan esirgeme ve iyilik, {ar:لَفِى خُسْرٍ, tr:le-fî ḫusr, gloss:kayıp içinde} teşhisiyle 103:3'teki ortak karşılık yan yana gelince, cevap hareketi kayıp içindeki insanlara yönelik bir iyilik olarak okunur. Allah hakkında kullanıldığında bu merhamet esirgemenin genişliğini ve yaratılmışlara iyilik olarak erişmesini de belirgin kılar; insanlığa yönelik teşhis ile çoğul istisna böylece aynı ufka girer. Bu birliktelik, sert kayıp hükmünü ve topluluğun yolunu ayrık bir kontrol listesi değil, adı başta konmuş bir bakım ilişkisi içinde duyurur. Yine de metin merhametin her koşulu doğurduğunu ya da kurtuluşu kendiliğinden garanti ettiğini söylemez; açılıştaki iki biçim yalın merhamet anlamını korur. Aynı kökün ayrı bir isim kullanımı olan {ar:رَحِم, tr:raḥim, gloss:döl yatağı}, yavrunun oluşup geliştiği ve karın içinde taşındığı dişi bedenin iç organını anlatır; odaktaki er-Rahmân ve er-Rahîm ise ad değil, merhamet bildiren sıfat biçimleridir. Bağımsız mekân ipucu, {ar:لَفِى خُسْرٍ, tr:le-fî ḫusr, gloss:kayıp içinde} sözündeki “içinde” ilişkisidir; rahmin oluşma, gelişme ve karın içinde taşıma imgesi kayıp içindeki insan teşhisiyle karşılaşınca merhamet hayat taşıyan bir karşıt kuşatma gibi sezilebilir, 103:3'teki istisna da o sıkışıklıktan çıkış ihtimalini açar. Bu uzamsal yankı, kayıp teşhisini somutlaştırıp açılıştaki merhameti üretici bir çevre olarak genişletebilir; sonraki istisna da bu kapanımdan çıkış ihtimalini görünür kılar. Örtü imgesini de ekleyen daha geniş yorum burada tutulmaz: açılıştaki taşıyıcı *ism* için ayrı bir örtü ipucu yoktur; yalnız rahim imgesi, keşif düzeyinde bir benzetme olarak kalır ve sıfatlar yine rahim veya kurtuluş değil merhamet bildirir.
+Allah’a bağlı {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} sıfatları yerel olarak ilahî merhameti bildirir; aynı kökün sözlükteki etkin kullanımı acınanı esirgemeyi ve ona iyilik etmeyi anlatır, bu yüzden önden gelen merhamet {ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:inna l-insāna la-fī khusr, gloss:insan ziyan içindedir} ile bildirilen kayıp teşhisi ve {ar:إِلَّا ٱلَّذِينَ, tr:illā llaḏīna, gloss:ancak o kimseler...} ardından sıralanan iman, iyi iş, hakkı ve sabrı karşılıklı öğütleme koşullarına değince, bu koşullar yerinde kalırken kayıptan çıkış rahmet içinde sunulan bir iyilik yolu olarak da duyulur; yine de ayetler rahmeti bu koşulların açık dilbilgisel nedeni ilan etmez.
+Bu iki sıfatın ortak r-ḥ-m kökü, sözlükteki {ar:رَحِم, tr:raḥim, gloss:döl yatağı} kullanımıyla dişi bedendeki iç organı—yavrunun oluşup geliştiği ve karın içinde taşındığı yeri—de anlatır; besmeledeki biçimler isim değil merhamet sıfatları olarak kalırken, {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} insanlığı kaybın içine yerleştirir ve 103:3’ün istisnası çıkış yönü verir, böylece kökün yaşam taşıyan kabı kuşatıcı kayba karşı koruyucu bir imge olur—bu yalnızca keşifsel bir kök benzetmesidir, döl yatağı anlamı sıfatların yerel anlamını değiştirmez ve gerçek gebelik ya da yeni doğuş ileri sürmez.
+Bu birleşik koruyucu çerçevenin yaşam taşıyan yüzü yine {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} sıfatlarının taşıdığı kökün {ar:رَحِم, tr:raḥim, gloss:döl yatağı} sözlük kullanımından gelir: bu dişi iç organ yavrunun oluşup geliştiği ve karın içinde taşındığı yerdir, oysa besmele’deki biçimler sıfattır; 103:2’de insanın {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} oluşu ve 103:3’teki çoğul istisna bu yaşam taşıyan imgeyi çıkışla ilişkilendirir.
+Başlangıçtaki {ar:سْمِ, tr:ismi, gloss:ad} sözü, {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} yapısında yerel olarak addır; bu kökün sözlük alanındaki üstte yükselip örten gök, tavan ya da üst yan kullanımı, 103:2’de {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} sözüyle kurulan ayrı kuşatılma imgesine ve ardından 103:3’teki istisnaya değince besmeleyi uyarının üzerine gelen koruyucu bir üst örtü gibi duyurur, ancak `ism` gök veya tavan anlamına gelmez.
+Rahmân ve Rahîm sıfatlarının taşıyıcı-kap imgesi ile ad anlamındaki {ar:سْمِ, tr:ismi, gloss:ad} sözcüğünün örten-üst çerçeve imgesi, {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} insanı içine alan kayıp ve 103:3’teki çıkış yönü karşısında besmeleyi yaşamı taşıyan ve üstten saran koruyucu bir karşı-çerçeve olarak duyurabilir; iki ayrı okuma denemesinin ileri sürdüğü bu birleşik analoji keşifsel kalır ve yayımlanmış bir değerlendirmede karşılık bulmaz, çünkü yerel sözcükler merhamet sıfatı ile addır: gerçek rahim, doğum veya çatı ve metinde açıklanmış bir kurtuluş nedeni ileri sürülmez.
 
-Merhamet adları {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} burada da yalın merhamet anlamını korur; aynı kök çevresindeki yakın soy ilişkisi, istisna topluluğunun karşılıklı bağını okumak için ikinci ve analojik bir katman açar. Arapçada yakın soy bağı anlamındaki {ar:الرَّحِم, tr:er-raḥim, gloss:yakın soy bağı}, ortak soydan gelen kişiler arasındaki yakın ve kalıcı ilişkiyi anlatır; 103:3'te iki kez geçen {ar:وَتَوَاصَوْا۟, tr:ve tevâsav, gloss:birbirlerine öğüt verdiler} eylemi bu kaynağı bağımsız olarak harekete geçirir. Soy bağını sürdürme ya da koparma, ilişkinin kendisinden çok ona karşı eylemli tutumu anlattığından, bu yinelenen öğüt topluluk bağını ayakta tutan karşılıklı bakım gibi duyulur. Böylece istisna, belirtilen inanç ve iyi işlerin yanı sıra devam eden sorumlulukla birbirine bağlı bir topluluk olarak görünür. Bu bağ benzetmedir: topluluğun ortak atadan geldiği söylenmez ve merhamet sıfatları burada sözlük anlamıyla akrabalık bildirmez. Başlangıçtaki {ar:اللَّهِ, tr:Allah, gloss:Allah'ın} özel adının ardından 103:3'te inanan ve iyi iş yapanların gelişi, bu eylemleri çağrılan ilahî muhataba yönelen bir cevap olarak okumaya imkân verir. Allah adıyla açılan yakarışın söz alanı, hem kişinin kendini tapınmaya vermesini hem de tapınılan varlığı kapsar; 103:3'te {ar:ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ, tr:âmenû ve amilû's-sâlihât, gloss:inandılar ve iyi işler yaptılar} diye anılan inanç ve iyi iş bu tapınılan muhataba yönelen insani karşılık olarak duyulur. Böylece istisna, önceden yönelinen Allah'la ilişkisi içinde anlam kazanır; yalnızca ahlaki niteliklerin sıralandığı bir liste olmaktan çıkar. Bu sıra bir yöneliş ve ilişki gösterir, fakat her eylemin açıkça tapınma diye adlandırıldığını ya da tek ve zorunlu bir güdü taşıdığını söylemez; insanın eyleme katılımını da ortadan kaldırmaz.
+Besmele’deki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} sıfatlarının ortak r-ḥ-m kökünün {ar:رَحِم, tr:raḥim, gloss:yakın akrabalık bağı} sözlük kullanımı ortak soydan gelmenin kişiler arasında yakın ve kalıcı bağ kurmasını anlatır; ayrı toplumsal tetik olan {ar:وَتَوَاصَوْا۟ بِٱلْحَقِّ, tr:wa-tawāṣaw bi-l-ḥaqq, gloss:hakkı birbirlerine öğütlediler} ve {ar:وَتَوَاصَوْا۟ بِٱلصَّبْرِ, tr:wa-tawāṣaw bi-ṣ-ṣabr, gloss:sabrı birbirlerine öğütlediler} diye iki kez yinelenen öğüt, istisna edilen çoğul grubu yalıtılmış kişiler yerine akrabalık benzeri dayanıklı bir bağla tutulan topluluk gibi gösterir; bu merhamet sıfatlarını değiştirmeyen bir benzetmedir, gerçek ortak soy iddiası değildir.
+Merhamet kökünün akrabalık ve yaşam taşıyan kap imgeleri birlikte ele alındığında, 103:2’de insanlığın {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} olmasıyla 103:3’te istisna edilen topluluğun birbirine tekrar tekrar öğüt vermesi buluşur; böylece istisna yalnız bireysel koşullar dizisi olarak değil, kayıp kuşatmasından karşılıklı bakımla çıkan bir topluluk olarak da görünür, ancak ayetlerin açıkça söylediği iman, iyi amel, hak ve sabır koşulları aynen durur, akrabalık ve rahim ise kök benzetmeleridir. Soy bağı okumasının yayımlanmış dayanağı bulunsa da yaşam taşıyan kapla birlikte kurulan bu sosyal-koruyucu sonuç daha keşifsel bir benzetme olarak kalır.
+Bu topluluk bağının soydaşlık çağrışımı, besmeledeki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} merhamet sıfatlarının paylaştığı kökün {ar:رَحِم, tr:raḥim, gloss:yakın akrabalık bağı} sözlük kullanımından gelir; 103:3’te {ar:تَوَاصَوْا۟ بِٱلْحَقِّ, tr:tawāṣaw bi-l-ḥaqq, gloss:hakkı birbirlerine öğütlediler} ve {ar:تَوَاصَوْا۟ بِٱلصَّبْرِ, tr:tawāṣaw bi-ṣ-ṣabr, gloss:sabrı birbirlerine öğütlediler} ile yinelenen karşılıklı eylem bu bağı toplumsal analojiye taşır, fakat soy ortaklığını metnin söylediği hale getirmez.
+Karşılıklı bakımın yaşam taşıyan yanı da aynı sıfatların kök alanındaki {ar:رَحِم, tr:raḥim, gloss:döl yatağı} sözlük kullanımıdır: dişi bedenindeki bu iç organ yavrunun oluşup geliştiği ve karın içinde taşındığı yerdir, oysa besmele’de Rahmân ile Rahîm sıfatları yer alır; 103:2’nin {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} insanı kuşatan imgesi 103:3’teki istisna ve karşılıklı öğütle buluşunca, topluluğun kayıp kuşatmasından birlikte çıkışı koruyucu bir kap imgesiyle duyulur, ama bu gerçek anatomi veya yeni doğuş değildir.
+
 </macro_scope_prose>
 
 <macro_scope_ledger>
@@ -1335,164 +1405,166 @@ Merhamet adları {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti s�
   "lane": "macro",
   "findings": [
     {
-      "finding_ref": "macro:opening_invocation_frames_warning",
+      "finding_ref": "macro:invocation-authorizes-sequence",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "context:103:1",
+            "context:103:2",
+            "context:103:3"
+          ],
           "paragraph": 1,
-          "anchor": "Bu sûrede bu adlandırma, hemen ardından gelen yemin, kayıp teşhisi ve istisnayı aynı kısa uyarı-cevap söyleyişinde bir araya getirerek ilahî adı baştaki çerçeveye dönüştürür."
-        },
-        {
-          "movement_refs": ["discovery:reader_payoff"],
-          "paragraph": 1,
-          "anchor": "Böylece uyarı, Allah'ın adıyla açılmış ve ilahî muhataba yöneltilmiş bir söz olarak duyulur; açılış, sadece bağımsız bir etiket olarak kalmaz."
-        },
-        {
-          "movement_refs": ["discovery:containment"],
-          "paragraph": 1,
-          "anchor": "Basmala olağan anlamıyla yakarıştır, yemin değildir ve bu diziliş tek başına hukuki otorite kurmaz."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 1,
-          "anchor": "*İsm*in “adlandırma” anlamı, {ar:وَٱلْعَصْرِ, tr:ve'l-asr, gloss:zamana ant olsun} yeminiyle başlayan, {ar:لَفِى خُسْرٍ, tr:le-fî ḫusr, gloss:kayıp içinde} teşhisine ve 103:3'teki istisnaya uzanan bağımsız dizide, bu sözün ayrı bir ad etiketi değil söyleyişi başlatan bir sesleniş olarak işlemesini sağlar."
-        },
-        {
-          "movement_refs": ["activation:1"],
-          "paragraph": 1,
-          "anchor": "Adın, adlandırılanı anılmada yükseltip belirgin kıldığına ilişkin köken açıklaması, bu adın yemin ve hükümden önce duruşuna ikinci bir vurgu ekler; bu, tam da bu kullanımın kesin etimolojisi değil, konumdan doğan nitelikli bir yankıdır."
-        },
-        {
-          "movement_refs": ["activation:2", "context:103:1", "context:103:2", "context:103:3"],
-          "paragraph": 1,
-          "anchor": "Allah adının Yaratıcı'yı başkalarından ayıran özel ad niteliği, bir sonraki ayetin zaman yemini, ardından gelen kayıp teşhisi ve istisnayla birlikte formül söyleyişini belirginleştirir; yine de basmala ant değil, ant 103:1'deki ayrı zaman yeminidir."
+          "anchor": "Besmele’deki {ar:سْمِ, tr:ismi, gloss:adı} sözü anılanı tanıtır, {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı çağrılan belirli mercii verir; ardından gelen {ar:وَٱلْعَصْرِ, tr:wa-l-ʿaṣr, gloss:zamana ant olsun} yemini, insanı {ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:inna l-insāna la-fī khusr, gloss:insan ziyan içindedir} gösteren hüküm ve {ar:إِلَّا ٱلَّذِينَ, tr:illā llaḏīna, gloss:ancak o kimseler...} diye açılan istisna, adlandırmayı sonraki uyarı ve kurtuluş dizisine bağlar; böylece Allah’ın özel adı ile adlandırma sözü yemin ve hükmü çağrılan merci altında duyuran etkin bir başlangıç kurar, ayrılabilir bir başlıkta kalmaz, fakat bu ilişki suredeki sıralamadan yapılan bir çıkarımdır: besmeleyi yemin yapmaz ve sonraki sözlerin Allah’a sözdizimsel olarak açıkça isnat edildiğini ileri sürmez; burada `ism` gök ya da yükseklik değil adlandırmadır."
         }
       ]
     },
     {
-      "finding_ref": "macro:mercy_frames_diagnosis_and_exception",
+      "finding_ref": "macro:mercy-frames-exit",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "context:103:2",
+            "context:103:3"
+          ],
           "paragraph": 2,
-          "anchor": "Bu iki sıfat, insanlığın kayıpta oluşu ile 103:3'teki inanç, iyi iş ve karşılıklı öğüt istisnasını, başta adlandırılmış etkin bir iyilik çerçevesinde okutur."
-        },
-        {
-          "movement_refs": ["discovery:reader_payoff"],
-          "paragraph": 2,
-          "anchor": "Bu birliktelik, sert kayıp hükmünü ve topluluğun yolunu ayrık bir kontrol listesi değil, adı başta konmuş bir bakım ilişkisi içinde duyurur."
-        },
-        {
-          "movement_refs": ["discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Yine de metin merhametin her koşulu doğurduğunu ya da kurtuluşu kendiliğinden garanti ettiğini söylemez; açılıştaki iki biçim yalın merhamet anlamını korur."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 2,
-          "anchor": "Merhametin acıyana dönük etkin sonucu olan esirgeme ve iyilik, {ar:لَفِى خُسْرٍ, tr:le-fî ḫusr, gloss:kayıp içinde} teşhisiyle 103:3'teki ortak karşılık yan yana gelince, cevap hareketi kayıp içindeki insanlara yönelik bir iyilik olarak okunur."
-        },
-        {
-          "movement_refs": ["activation:1", "context:103:2", "context:103:3"],
-          "paragraph": 2,
-          "anchor": "Allah hakkında kullanıldığında bu merhamet esirgemenin genişliğini ve yaratılmışlara iyilik olarak erişmesini de belirgin kılar; insanlığa yönelik teşhis ile çoğul istisna böylece aynı ufka girer."
+          "anchor": "Allah’a bağlı {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} sıfatları yerel olarak ilahî merhameti bildirir; aynı kökün sözlükteki etkin kullanımı acınanı esirgemeyi ve ona iyilik etmeyi anlatır, bu yüzden önden gelen merhamet {ar:إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ, tr:inna l-insāna la-fī khusr, gloss:insan ziyan içindedir} ile bildirilen kayıp teşhisi ve {ar:إِلَّا ٱلَّذِينَ, tr:illā llaḏīna, gloss:ancak o kimseler...} ardından sıralanan iman, iyi iş, hakkı ve sabrı karşılıklı öğütleme koşullarına değince, bu koşullar yerinde kalırken kayıptan çıkış rahmet içinde sunulan bir iyilik yolu olarak da duyulur; yine de ayetler rahmeti bu koşulların açık dilbilgisel nedeni ilan etmez."
         }
       ]
     },
     {
-      "finding_ref": "macro:reciprocal_care_as_kinship_analogy",
+      "finding_ref": "macro:mercy-as-kinship-like-care",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "context:103:3"
+          ],
           "paragraph": 3,
-          "anchor": "Merhamet adları {ar:ٱلرَّحْمَٰنِ, tr:er-Rahmân, gloss:merhameti sınırsız} ve {ar:ٱلرَّحِيمِ, tr:er-Rahîm, gloss:merhamet eden} burada da yalın merhamet anlamını korur; aynı kök çevresindeki yakın soy ilişkisi, istisna topluluğunun karşılıklı bağını okumak için ikinci ve analojik bir katman açar."
-        },
-        {
-          "movement_refs": ["discovery:reader_payoff"],
-          "paragraph": 3,
-          "anchor": "Böylece istisna, belirtilen inanç ve iyi işlerin yanı sıra devam eden sorumlulukla birbirine bağlı bir topluluk olarak görünür."
-        },
-        {
-          "movement_refs": ["discovery:containment"],
-          "paragraph": 3,
-          "anchor": "Bu bağ benzetmedir: topluluğun ortak atadan geldiği söylenmez ve merhamet sıfatları burada sözlük anlamıyla akrabalık bildirmez."
-        },
-        {
-          "movement_refs": ["activation:0"],
-          "paragraph": 3,
-          "anchor": "Arapçada yakın soy bağı anlamındaki {ar:الرَّحِم, tr:er-raḥim, gloss:yakın soy bağı}, ortak soydan gelen kişiler arasındaki yakın ve kalıcı ilişkiyi anlatır; 103:3'te iki kez geçen {ar:وَتَوَاصَوْا۟, tr:ve tevâsav, gloss:birbirlerine öğüt verdiler} eylemi bu kaynağı bağımsız olarak harekete geçirir."
-        },
-        {
-          "movement_refs": ["activation:1", "context:103:3"],
-          "paragraph": 3,
-          "anchor": "Soy bağını sürdürme ya da koparma, ilişkinin kendisinden çok ona karşı eylemli tutumu anlattığından, bu yinelenen öğüt topluluk bağını ayakta tutan karşılıklı bakım gibi duyulur."
+          "anchor": "Besmele’deki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} sıfatlarının ortak r-ḥ-m kökünün {ar:رَحِم, tr:raḥim, gloss:yakın akrabalık bağı} sözlük kullanımı ortak soydan gelmenin kişiler arasında yakın ve kalıcı bağ kurmasını anlatır; ayrı toplumsal tetik olan {ar:وَتَوَاصَوْا۟ بِٱلْحَقِّ, tr:wa-tawāṣaw bi-l-ḥaqq, gloss:hakkı birbirlerine öğütlediler} ve {ar:وَتَوَاصَوْا۟ بِٱلصَّبْرِ, tr:wa-tawāṣaw bi-ṣ-ṣabr, gloss:sabrı birbirlerine öğütlediler} diye iki kez yinelenen öğüt, istisna edilen çoğul grubu yalıtılmış kişiler yerine akrabalık benzeri dayanıklı bir bağla tutulan topluluk gibi gösterir; bu merhamet sıfatlarını değiştirmeyen bir benzetmedir, gerçek ortak soy iddiası değildir."
         }
       ]
     },
     {
-      "finding_ref": "macro:mercy_as_counter_enclosure",
+      "finding_ref": "macro:womb-countercontainer",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism"],
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "context:103:2",
+            "context:103:3"
+          ],
           "paragraph": 2,
-          "anchor": "Aynı kökün ayrı bir isim kullanımı olan {ar:رَحِم, tr:raḥim, gloss:döl yatağı}, yavrunun oluşup geliştiği ve karın içinde taşındığı dişi bedenin iç organını anlatır; odaktaki er-Rahmân ve er-Rahîm ise ad değil, merhamet bildiren sıfat biçimleridir."
-        },
-        {
-          "movement_refs": ["discovery:reader_payoff"],
-          "paragraph": 2,
-          "anchor": "Bu uzamsal yankı, kayıp teşhisini somutlaştırıp açılıştaki merhameti üretici bir çevre olarak genişletebilir; sonraki istisna da bu kapanımdan çıkış ihtimalini görünür kılar."
-        },
-        {
-          "movement_refs": ["discovery:containment"],
-          "paragraph": 2,
-          "anchor": "Örtü imgesini de ekleyen daha geniş yorum burada tutulmaz: açılıştaki taşıyıcı *ism* için ayrı bir örtü ipucu yoktur; yalnız rahim imgesi, keşif düzeyinde bir benzetme olarak kalır ve sıfatlar yine rahim veya kurtuluş değil merhamet bildirir."
-        },
-        {
-          "movement_refs": ["activation:0", "context:103:2", "context:103:3"],
-          "paragraph": 2,
-          "anchor": "Bağımsız mekân ipucu, {ar:لَفِى خُسْرٍ, tr:le-fî ḫusr, gloss:kayıp içinde} sözündeki “içinde” ilişkisidir; rahmin oluşma, gelişme ve karın içinde taşıma imgesi kayıp içindeki insan teşhisiyle karşılaşınca merhamet hayat taşıyan bir karşıt kuşatma gibi sezilebilir, 103:3'teki istisna da o sıkışıklıktan çıkış ihtimalini açar."
+          "anchor": "Bu iki sıfatın ortak r-ḥ-m kökü, sözlükteki {ar:رَحِم, tr:raḥim, gloss:döl yatağı} kullanımıyla dişi bedendeki iç organı—yavrunun oluşup geliştiği ve karın içinde taşındığı yeri—de anlatır; besmeledeki biçimler isim değil merhamet sıfatları olarak kalırken, {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} insanlığı kaybın içine yerleştirir ve 103:3’ün istisnası çıkış yönü verir, böylece kökün yaşam taşıyan kabı kuşatıcı kayba karşı koruyucu bir imge olur—bu yalnızca keşifsel bir kök benzetmesidir, döl yatağı anlamı sıfatların yerel anlamını değiştirmez ve gerçek gebelik ya da yeni doğuş ileri sürmez."
         }
       ]
     },
     {
-      "finding_ref": "macro:faith_and_action_under_the_invoked_name",
+      "finding_ref": "macro:worship-as-response",
       "landings": [
         {
-          "movement_refs": ["discovery:claim", "discovery:mechanism"],
-          "paragraph": 3,
-          "anchor": "Başlangıçtaki {ar:اللَّهِ, tr:Allah, gloss:Allah'ın} özel adının ardından 103:3'te inanan ve iyi iş yapanların gelişi, bu eylemleri çağrılan ilahî muhataba yönelen bir cevap olarak okumaya imkân verir."
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "context:103:3"
+          ],
+          "paragraph": 1,
+          "anchor": "Besmele’de adı anılan {ar:اللَّهِ, tr:Allāhi, gloss:Allah’ın} özel adı dua ve tilavet yönelişinin belirli referansıdır; Arapça sözlük alanındaki eylem kullanımı bir varlığa tapınmayı ve kişinin kendini ibadete vermesini, eylemden türeyen kullanım ise tapınılan varlığı anlatır, bu nedenle ardından 103:3’te {ar:ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ, tr:āmanū wa-ʿamilū ṣ-ṣāliḥāt, gloss:iman edip iyi işler yaptılar} diye sayılan koşullar aynen kalırken iman ve iyi işler çağrılmış olana yönelen bir cevap gibi duyulabilir; besmele’de açık bir ibadet fiili yoktur ve bu yöneliş tek saik olarak ileri sürülmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:protective-frame-through-womb-and-cover",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 2,
+          "anchor": "Rahmân ve Rahîm sıfatlarının taşıyıcı-kap imgesi ile ad anlamındaki {ar:سْمِ, tr:ismi, gloss:ad} sözcüğünün örten-üst çerçeve imgesi, {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} insanı içine alan kayıp ve 103:3’teki çıkış yönü karşısında besmeleyi yaşamı taşıyan ve üstten saran koruyucu bir karşı-çerçeve olarak duyurabilir; iki ayrı okuma denemesinin ileri sürdüğü bu birleşik analoji keşifsel kalır ve yayımlanmış bir değerlendirmede karşılık bulmaz, çünkü yerel sözcükler merhamet sıfatı ile addır: gerçek rahim, doğum veya çatı ve metinde açıklanmış bir kurtuluş nedeni ileri sürülmez."
         },
         {
-          "movement_refs": ["discovery:reader_payoff"],
-          "paragraph": 3,
-          "anchor": "Böylece istisna, önceden yönelinen Allah'la ilişkisi içinde anlam kazanır; yalnızca ahlaki niteliklerin sıralandığı bir liste olmaktan çıkar."
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 2,
+          "anchor": "Bu birleşik koruyucu çerçevenin yaşam taşıyan yüzü yine {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ile {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} sıfatlarının taşıdığı kökün {ar:رَحِم, tr:raḥim, gloss:döl yatağı} sözlük kullanımından gelir: bu dişi iç organ yavrunun oluşup geliştiği ve karın içinde taşındığı yerdir, oysa besmele’deki biçimler sıfattır; 103:2’de insanın {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} oluşu ve 103:3’teki çoğul istisna bu yaşam taşıyan imgeyi çıkışla ilişkilendirir."
         },
         {
-          "movement_refs": ["discovery:containment"],
+          "movement_refs": [
+            "activation:1",
+            "context:103:2",
+            "context:103:3"
+          ],
+          "paragraph": 2,
+          "anchor": "Başlangıçtaki {ar:سْمِ, tr:ismi, gloss:ad} sözü, {ar:بِسْمِ, tr:bi-smi, gloss:Allah’ın adıyla} yapısında yerel olarak addır; bu kökün sözlük alanındaki üstte yükselip örten gök, tavan ya da üst yan kullanımı, 103:2’de {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} sözüyle kurulan ayrı kuşatılma imgesine ve ardından 103:3’teki istisnaya değince besmeleyi uyarının üzerine gelen koruyucu bir üst örtü gibi duyurur, ancak `ism` gök veya tavan anlamına gelmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:reciprocal-care-with-countercontainer",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
           "paragraph": 3,
-          "anchor": "Bu sıra bir yöneliş ve ilişki gösterir, fakat her eylemin açıkça tapınma diye adlandırıldığını ya da tek ve zorunlu bir güdü taşıdığını söylemez; insanın eyleme katılımını da ortadan kaldırmaz."
+          "anchor": "Merhamet kökünün akrabalık ve yaşam taşıyan kap imgeleri birlikte ele alındığında, 103:2’de insanlığın {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} olmasıyla 103:3’te istisna edilen topluluğun birbirine tekrar tekrar öğüt vermesi buluşur; böylece istisna yalnız bireysel koşullar dizisi olarak değil, kayıp kuşatmasından karşılıklı bakımla çıkan bir topluluk olarak da görünür, ancak ayetlerin açıkça söylediği iman, iyi amel, hak ve sabır koşulları aynen durur, akrabalık ve rahim ise kök benzetmeleridir."
         },
         {
-          "movement_refs": ["activation:0", "activation:1", "context:103:3"],
+          "movement_refs": [
+            "activation:0"
+          ],
           "paragraph": 3,
-          "anchor": "Allah adıyla açılan yakarışın söz alanı, hem kişinin kendini tapınmaya vermesini hem de tapınılan varlığı kapsar; 103:3'te {ar:ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ, tr:âmenû ve amilû's-sâlihât, gloss:inandılar ve iyi işler yaptılar} diye anılan inanç ve iyi iş bu tapınılan muhataba yönelen insani karşılık olarak duyulur."
+          "anchor": "Bu topluluk bağının soydaşlık çağrışımı, besmeledeki {ar:الرَّحْمَٰنِ, tr:ar-Raḥmāni, gloss:Rahmân} ve {ar:الرَّحِيمِ, tr:ar-Raḥīmi, gloss:Rahîm} merhamet sıfatlarının paylaştığı kökün {ar:رَحِم, tr:raḥim, gloss:yakın akrabalık bağı} sözlük kullanımından gelir; 103:3’te {ar:تَوَاصَوْا۟ بِٱلْحَقِّ, tr:tawāṣaw bi-l-ḥaqq, gloss:hakkı birbirlerine öğütlediler} ve {ar:تَوَاصَوْا۟ بِٱلصَّبْرِ, tr:tawāṣaw bi-ṣ-ṣabr, gloss:sabrı birbirlerine öğütlediler} ile yinelenen karşılıklı eylem bu bağı toplumsal analojiye taşır, fakat soy ortaklığını metnin söylediği hale getirmez."
+        },
+        {
+          "movement_refs": [
+            "activation:1",
+            "context:103:2",
+            "context:103:3"
+          ],
+          "paragraph": 3,
+          "anchor": "Karşılıklı bakımın yaşam taşıyan yanı da aynı sıfatların kök alanındaki {ar:رَحِم, tr:raḥim, gloss:döl yatağı} sözlük kullanımıdır: dişi bedenindeki bu iç organ yavrunun oluşup geliştiği ve karın içinde taşındığı yerdir, oysa besmele’de Rahmân ile Rahîm sıfatları yer alır; 103:2’nin {ar:فِى خُسْرٍ, tr:fī khusr, gloss:kayıp içinde} insanı kuşatan imgesi 103:3’teki istisna ve karşılıklı öğütle buluşunca, topluluğun kayıp kuşatmasından birlikte çıkışı koruyucu bir kap imgesiyle duyulur, ama bu gerçek anatomi veya yeni doğuş değildir."
         }
       ]
     }
   ]
 }
+
 </macro_scope_ledger>
 
 <global_scope_prose>
-Basmala’nın olağan ve eksiksiz karşılığı “Merhameti sınırsız, merhamet eden Allah’ın adıyla”dır: {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismi Allāhi al-Raḥmāni al-Raḥīm, gloss:Merhameti sınırsız ve merhamet eden Allah’ın adıyla}. Buradaki {ar:ٱسْم, tr:ism, gloss:ad ve adlandırma}, olağan anlamıyla Allah’ı tanıtan addır; Allah’ı yahut Rahmân’ı çağırma ve güzel adlarla O’na seslenme bağlamları, adı basit bir etiketten yöneliş vasıtasına doğru genişletir, böylece “Allah’ın adıyla” sözü Allah’a isim yoluyla yönelen bir açılış olarak da duyulur, fakat kendi edatlı yapısı doğrudan nida ya da belirli bir istek değildir. Adın bir varlığı tanıtıp ondan söz etmeyi sağlaması, 17:110’da Allah’a veya Rahmân’a çağrı ve O’nun güzel adlarının anılması, 7:180’de de O’na güzel adlarıyla çağrı buyruğuyla temas eder; ad bu kullanımda yalnızca tanımlamaz, hitabın yolunu da açar.
+{ar:بِسْمِ ٱللَّهِ الرَّحْمَٰنِ الرَّحِيمِ, tr:bi-smi llāhi r-raḥmāni r-raḥīmi, gloss:Merhameti sınırsız ve merhamet eden Allah'ın adıyla} ifadesi, Allah'ın adını iki rahmet sıfatıyla birlikte anan olağan açılıştır. Odaktaki {ar:ٱسْم, tr:ism, gloss:ad} sözcüğünün adlandırma anlamı, 27:30'da Süleyman'dan geldiği belirtilen söz içindeki tam {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bi-smi llāhi r-raḥmāni r-raḥīmi, gloss:Merhameti sınırsız ve merhamet eden Allah'ın adıyla} dizisiyle ve 11:41'de gemiye binme emrinden sonra seyrin ve demirlemenin anılışına eşlik eden {ar:بِسْمِ ٱللَّهِ, tr:bi-smi llāhi, gloss:Allah'ın adıyla} ifadesiyle temas eder; bu iki farklı bağlam, odaktaki “Allah'ın adıyla” açılışını söz ve yolculuğa eşlik eden bir başlangıç olarak da düşündürür. {ar:ٱسْم, tr:ism, gloss:ad}, bir varlığı tanıtan ve ondan söz etmeyi sağlayan sözcüktür; bu sıradan adlandırma, 27:30'daki tam basmala dizisinin bir sözde kullanılması ve 11:41'de Allah'ın adının gemiye binme, seyir ve demirlemeyle birlikte anılmasıyla odaktaki ad ilişkisini söylem ve yolculuğa açar. Odaktaki {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah özel adı} ise {ar:بِسْمِ, tr:bi-smi, gloss:Allah'ın adıyla} kuruluşunda “ad”a tamlama yoluyla bağlanan, Yaratıcı'yı başkalarından ayırıp yalnız ona özgü olan belirli ilahî özel addır; 27:30 onu Rahman ve Rahim ile Süleyman'dan geldiği belirtilen sözün içinde, 11:41 ise Allah adıyla ibareyi gemiye binme buyruğu ve seyir-demirleme sözleriyle yan yana getirir, böylece bu özel ad farklı eylemlere eşlik eden bir anışın odağında kalır. Bu sınırlı yankı, olağan “Merhameti sınırsız, merhamet eden Allah'ın adıyla” anlamını ve iki rahmet sıfatını yerinde tutar; dayanağı 27:30'daki tam tekrar ile 11:41'de Allah adı ve seyir-demirlemenin birlikte anılmasıdır, yorum da sınırını bu iki görünür kullanımdan alır.
 
-İsm’in saygınlık tonu da olası bir ikinci katmandır: Rabbin adıyla kurulan aynı olağan ifade, dış bağlamın etkisiyle nötr bir adlandırmadan hürmet uyandıran bir ada doğru genişleyebilir; bu yükseliş basmala’nın düz sözlük anlamı değil, kaynak açıklaması ile bağlamın birlikte düşündürdüğü bir yankıdır. Bir sözlük açıklaması adın kökenini, adı verilenin anılmasını yükseltip onu belirgin kılmasıyla ilişkilendirir; 55:78’de Rabbin adının kutlu sayılması ve celal ile ikramla yan yana anılması bu açıklamayla buluşur, ama etimolojik açıklama {ar:ٱسْم, tr:ism, gloss:ad} kelimesinin burada “yücelik” demek olduğunu göstermez. Adın birini tanıtan söz oluşu ve aynı adı taşıyan iki kişinin birbirinin adaşı sayılması da, 19:65’te kulluk buyruğunun ardından “O’nun adaşı var mı?” sorusuyla başka bir yön kazanır: {ar:سَمِيًّا, tr:samiyyan, gloss:adaşı} sorusu, Allah’ın adıyla anılanı adaşı bulunmayan, eşsiz biri olarak duyurur; bu ayırt edicilik dış sorudan gelir, basmala’nın tek başına dile getirdiği bir önerme değildir.
-
-Basmala’nın olağan anlamı yine “Merhameti sınırsız, merhamet eden Allah’ın adıyla”dır: {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismi Allāhi al-Raḥmāni al-Raḥīm, gloss:Merhameti sınırsız ve merhamet eden Allah’ın adıyla}. Aynı formül, Süleyman’ın mektubunun içine yerleşir (27:30); Nuh’un gemiye binme buyruğunda geminin seyri ve demirlemesi Allah’ın adıyla ilişkilendirilir (11:41); Allah’ın adı anılmış olanlardan yeme izni de adı bir eylemin eşiğine getirir (6:118). Bu ayrı kullanımlar, basmala’yı mesaj ya da işe başlarken Allah’a yönelen, söze ve eyleme eşlik edebilen bir açılış olarak genişletir; odak ayetin kendisi belirli bir mektuba, yolculuğa veya yemeğe gönderme yapmaz. Basmala’daki {ar:ٱلرَّحْمَٰن, tr:ar-Raḥmān, gloss:merhameti geniş olan} sıfatı da 43:45’te “Rahmân’dan başka tanrılar” ve onlara kulluk edilmesi sorusunun içinde anılır; bu temas, merhamet bildiren sıfatı ibadetin kime yöneleceğini ayıran ilahî bir ad olarak da duyurur, ama basmala’yı kulluk buyruğuna dönüştürmez.
-
-Basmala’nın olağan karşılığı—{ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismi Allāhi al-Raḥmāni al-Raḥīm, gloss:Merhameti sınırsız ve merhamet eden Allah’ın adıyla}—merhamet adlarının olağan anlamını korurken onlara iki ayrı ilişki yankısı ekleyebilir. Odaktaki {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} biçimi olağan anlamıyla “merhamet eden”dir; kökün başka bir sözlük kullanımı olan {ar:رَحِم, tr:raḥim, gloss:döl yatağı}, dişi bedende yavrunun oluşup geliştiği ve karın içinde taşındığı iç organdır; 22:5’in rahimden çocuğa uzanan sahnesi bu ayrıntıya yaslanarak odağın merhametini hayatı taşıyan bir kap imgesiyle genişletebilir, ancak bu yalnızca keşifsel bir kök yankısıdır, sözcüğün sözlük anlamı ya da ilahî bir beden tasviri değildir. 22:5’teki {ar:ٱلْأَرْحَام, tr:al-arḥām, gloss:rahimler} ifadesi, belirlenmiş süre boyunca rahimlerde tutulan yaşamın sonra çocuk olarak çıkarılmasını anlatır; bu bağımsız sahne sözlükteki rahim kullanımının yavrunun oluşup geliştiği ve karında taşındığı iç organ ayrıntısını merhamet adına taşınan hayat imgesine dönüştürür, fakat odaktaki eril sıfat ile ayetteki çoğul anatomi adı ayrı biçimlerdir ve kaynak yönündeki karşı kanıt bu kök yankısını zayıf, keşifsel tutar. Kökün ortak soydan gelenler arasında yakın ve kalıcı bağ kuran başka kullanımı ise 24:22’de {ar:أُولِي الْقُرْبَىٰ, tr:ulī al-qurbā, gloss:yakın akrabalar} için yardımın, bağışlama ve hoş görme çağrısıyla birlikte anılmasında sosyal bir yankı bulur: ayet aynı kökten bir akrabalık adı kullanmaz, fakat yakınları gözetmeyi ve affetmeyi Allah’ın “bağışlayıcı, merhametli” oluşuyla ilişkilendirir; böylece odaktaki {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} sıfatı akrabalık içindeki bakım ve bağışta somutlaşır, kendisi akraba anlamına gelmez.
-
-Basmala’nın olağan anlamı “Merhameti sınırsız, merhamet eden Allah’ın adıyla”dır: {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bismi Allāhi al-Raḥmāni al-Raḥīm, gloss:Merhameti sınırsız ve merhamet eden Allah’ın adıyla}. Merhametin acıma duyulanı esirgeme ve ona iyilik etme yönü, basmala’daki {ar:ٱلرَّحْمَٰن, tr:ar-Raḥmān, gloss:merhameti geniş olan} ve {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} adlarla birlikte 2:64’te lütuf ve merhamet olmasa muhatapların kaybedenlerden olacağı açık karşılaştırmada kurtarıcı etkin iyilik olarak belirir; 6:12’de merhametin Allah tarafından kendine yazılması, kıyamet günü toplama ve sonra kendilerini ziyana uğratanlardan söz edilmesi bu bağı daha geniş bir diziye taşır, fakat kayıptan sakınmayı yalnızca 2:64 açıkça ilişkilendirir ve odakla aynı olay için vaat kurmaz. Merhametin acıma duyulanı esirgeme ve iyilik etme oluşu ile Tanrı hakkında kullanımda bu iyiliğin genişleyip yaratılmışlara ulaşması, 7:156’da Allah’ın merhametinin her şeyi kuşatıp sakınan, zekât veren ve ayetlere inananlar için yazılacağının bildirilmesiyle somutlaşır; böylece odaktaki {ar:ٱلرَّحْمَٰن, tr:ar-Raḥmān, gloss:merhameti geniş olan} ve {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} adları geniş erişim ve insan hayatında eyleme dönüşen iyilik olarak da duyulabilir, ancak bu ayetteki alıcılar ve koşullar basmala’ya aktarılmaz.
 </global_scope_prose>
 
 <global_scope_ledger>
@@ -1502,199 +1574,45 @@ Basmala’nın olağan anlamı “Merhameti sınırsız, merhamet eden Allah’�
   "lane": "global",
   "findings": [
     {
-      "finding_ref": "global:mercy-as-generative-vessel",
+      "finding_ref": "global:name-as-threshold",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:reader_payoff"
           ],
-          "paragraph": 4,
-          "anchor": "Odaktaki {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} biçimi olağan anlamıyla “merhamet eden”dir; kökün başka bir sözlük kullanımı olan {ar:رَحِم, tr:raḥim, gloss:döl yatağı}, dişi bedende yavrunun oluşup geliştiği ve karın içinde taşındığı iç organdır; 22:5’in rahimden çocuğa uzanan sahnesi bu ayrıntıya yaslanarak odağın merhametini hayatı taşıyan bir kap imgesiyle genişletebilir, ancak bu yalnızca keşifsel bir kök yankısıdır, sözcüğün sözlük anlamı ya da ilahî bir beden tasviri değildir."
+          "paragraph": 1,
+          "anchor": "Odaktaki {ar:ٱسْم, tr:ism, gloss:ad} sözcüğünün adlandırma anlamı, 27:30'da Süleyman'dan geldiği belirtilen söz içindeki tam {ar:بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ, tr:bi-smi llāhi r-raḥmāni r-raḥīmi, gloss:Merhameti sınırsız ve merhamet eden Allah'ın adıyla} dizisiyle ve 11:41'de gemiye binme emrinden sonra seyrin ve demirlemenin anılışına eşlik eden {ar:بِسْمِ ٱللَّهِ, tr:bi-smi llāhi, gloss:Allah'ın adıyla} ifadesiyle temas eder; bu iki farklı bağlam, odaktaki “Allah'ın adıyla” açılışını söz ve yolculuğa eşlik eden bir başlangıç olarak da düşündürür."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "connection:conn_6b7d5fd4a926c1e41e4f",
-            "context:22:5"
-          ],
-          "paragraph": 4,
-          "anchor": "22:5’teki {ar:ٱلْأَرْحَام, tr:al-arḥām, gloss:rahimler} ifadesi, belirlenmiş süre boyunca rahimlerde tutulan yaşamın sonra çocuk olarak çıkarılmasını anlatır; bu bağımsız sahne sözlükteki rahim kullanımının yavrunun oluşup geliştiği ve karında taşındığı iç organ ayrıntısını merhamet adına taşınan hayat imgesine dönüştürür, fakat odaktaki eril sıfat ile ayetteki çoğul anatomi adı ayrı biçimlerdir ve kaynak yönündeki karşı kanıt bu kök yankısını zayıf, keşifsel tutar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:mercy-as-rescue-from-loss",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "connection:conn_109bb655fb252d6965d8",
-            "connection:conn_d29bd33f43262ef4e2d8",
-            "context:2:64",
-            "context:6:12"
-          ],
-          "paragraph": 5,
-          "anchor": "Merhametin acıma duyulanı esirgeme ve ona iyilik etme yönü, basmala’daki {ar:ٱلرَّحْمَٰن, tr:ar-Raḥmān, gloss:merhameti geniş olan} ve {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} adlarla birlikte 2:64’te lütuf ve merhamet olmasa muhatapların kaybedenlerden olacağı açık karşılaştırmada kurtarıcı etkin iyilik olarak belirir; 6:12’de merhametin Allah tarafından kendine yazılması, kıyamet günü toplama ve sonra kendilerini ziyana uğratanlardan söz edilmesi bu bağı daha geniş bir diziye taşır, fakat kayıptan sakınmayı yalnızca 2:64 açıkça ilişkilendirir ve odakla aynı olay için vaat kurmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:mercy-as-kinship-care",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "connection:conn_fab928c25abf7af86caa",
-            "context:24:22"
-          ],
-          "paragraph": 4,
-          "anchor": "Kökün ortak soydan gelenler arasında yakın ve kalıcı bağ kuran başka kullanımı ise 24:22’de {ar:أُولِي الْقُرْبَىٰ, tr:ulī al-qurbā, gloss:yakın akrabalar} için yardımın, bağışlama ve hoş görme çağrısıyla birlikte anılmasında sosyal bir yankı bulur: ayet aynı kökten bir akrabalık adı kullanmaz, fakat yakınları gözetmeyi ve affetmeyi Allah’ın “bağışlayıcı, merhametli” oluşuyla ilişkilendirir; böylece odaktaki {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} sıfatı akrabalık içindeki bakım ve bağışta somutlaşır, kendisi akraba anlamına gelmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:mercy-as-wide-beneficence",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "connection:conn_645972f0b92bc874d6dc",
-            "context:7:156"
-          ],
-          "paragraph": 5,
-          "anchor": "Merhametin acıma duyulanı esirgeme ve iyilik etme oluşu ile Tanrı hakkında kullanımda bu iyiliğin genişleyip yaratılmışlara ulaşması, 7:156’da Allah’ın merhametinin her şeyi kuşatıp sakınan, zekât veren ve ayetlere inananlar için yazılacağının bildirilmesiyle somutlaşır; böylece odaktaki {ar:ٱلرَّحْمَٰن, tr:ar-Raḥmān, gloss:merhameti geniş olan} ve {ar:ٱلرَّحِيم, tr:ar-Raḥīm, gloss:merhamet eden} adları geniş erişim ve insan hayatında eyleme dönüşen iyilik olarak da duyulabilir, ancak bu ayetteki alıcılar ve koşullar basmala’ya aktarılmaz."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:name-as-raised-designation",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 2,
-          "anchor": "İsm’in saygınlık tonu da olası bir ikinci katmandır: Rabbin adıyla kurulan aynı olağan ifade, dış bağlamın etkisiyle nötr bir adlandırmadan hürmet uyandıran bir ada doğru genişleyebilir; bu yükseliş basmala’nın düz sözlük anlamı değil, kaynak açıklaması ile bağlamın birlikte düşündürdüğü bir yankıdır."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "connection:conn_005c9b5a6bfc283d9b07",
-            "context:55:78"
-          ],
-          "paragraph": 2,
-          "anchor": "Bir sözlük açıklaması adın kökenini, adı verilenin anılmasını yükseltip onu belirgin kılmasıyla ilişkilendirir; 55:78’de Rabbin adının kutlu sayılması ve celal ile ikramla yan yana anılması bu açıklamayla buluşur, ama etimolojik açıklama {ar:ٱسْم, tr:ism, gloss:ad} kelimesinin burada “yücelik” demek olduğunu göstermez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:name-without-namesake",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "activation:0",
-            "activation:1",
-            "connection:conn_cad121c43eea258ba11b",
-            "context:19:65"
-          ],
-          "paragraph": 2,
-          "anchor": "Adın birini tanıtan söz oluşu ve aynı adı taşıyan iki kişinin birbirinin adaşı sayılması da, 19:65’te kulluk buyruğunun ardından “O’nun adaşı var mı?” sorusuyla başka bir yön kazanır: {ar:سَمِيًّا, tr:samiyyan, gloss:adaşı} sorusu, Allah’ın adıyla anılanı adaşı bulunmayan, eşsiz biri olarak duyurur; bu ayırt edicilik dış sorudan gelir, basmala’nın tek başına dile getirdiği bir önerme değildir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:name-as-invocable",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
             "discovery:containment"
           ],
           "paragraph": 1,
-          "anchor": "Buradaki {ar:ٱسْم, tr:ism, gloss:ad ve adlandırma}, olağan anlamıyla Allah’ı tanıtan addır; Allah’ı yahut Rahmân’ı çağırma ve güzel adlarla O’na seslenme bağlamları, adı basit bir etiketten yöneliş vasıtasına doğru genişletir, böylece “Allah’ın adıyla” sözü Allah’a isim yoluyla yönelen bir açılış olarak da duyulur, fakat kendi edatlı yapısı doğrudan nida ya da belirli bir istek değildir."
+          "anchor": "Bu sınırlı yankı, olağan “Merhameti sınırsız, merhamet eden Allah'ın adıyla” anlamını ve iki rahmet sıfatını yerinde tutar; dayanağı 27:30'daki tam tekrar ile 11:41'de Allah adı ve seyir-demirlemenin birlikte anılmasıdır, yorum da sınırını bu iki görünür kullanımdan alır."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "connection:conn_db61f60b6f53a48bf624",
-            "connection:conn_3dfd5bd7bf7f00c9be36",
-            "context:17:110",
-            "context:7:180"
+            "activation:0"
           ],
           "paragraph": 1,
-          "anchor": "Adın bir varlığı tanıtıp ondan söz etmeyi sağlaması, 17:110’da Allah’a veya Rahmân’a çağrı ve O’nun güzel adlarının anılması, 7:180’de de O’na güzel adlarıyla çağrı buyruğuyla temas eder; ad bu kullanımda yalnızca tanımlamaz, hitabın yolunu da açar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:basmala-at-action-thresholds",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Bu ayrı kullanımlar, basmala’yı mesaj ya da işe başlarken Allah’a yönelen, söze ve eyleme eşlik edebilen bir açılış olarak genişletir; odak ayetin kendisi belirli bir mektuba, yolculuğa veya yemeğe gönderme yapmaz."
+          "anchor": "{ar:ٱسْم, tr:ism, gloss:ad}, bir varlığı tanıtan ve ondan söz etmeyi sağlayan sözcüktür; bu sıradan adlandırma, 27:30'daki tam basmala dizisinin bir sözde kullanılması ve 11:41'de Allah'ın adının gemiye binme, seyir ve demirlemeyle birlikte anılmasıyla odaktaki ad ilişkisini söylem ve yolculuğa açar."
         },
         {
           "movement_refs": [
-            "connection:conn_2dafdda049e4a649774d",
-            "connection:conn_b729addf54f3e803b493",
-            "connection:conn_14ce6ff02ab13e49835d",
-            "context:6:118",
+            "activation:1",
+            "connection:conn_c9ae3c6a55554363ccc5",
+            "connection:conn_627520cec1690a30a7e3",
             "context:11:41",
             "context:27:30"
           ],
-          "paragraph": 3,
-          "anchor": "Aynı formül, Süleyman’ın mektubunun içine yerleşir (27:30); Nuh’un gemiye binme buyruğunda geminin seyri ve demirlemesi Allah’ın adıyla ilişkilendirilir (11:41); Allah’ın adı anılmış olanlardan yeme izni de adı bir eylemin eşiğine getirir (6:118)."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:al_rahman-in-worship-boundary",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment",
-            "connection:conn_c1195f97cae6972b4fa5",
-            "context:43:45"
-          ],
-          "paragraph": 3,
-          "anchor": "Basmala’daki {ar:ٱلرَّحْمَٰن, tr:ar-Raḥmān, gloss:merhameti geniş olan} sıfatı da 43:45’te “Rahmân’dan başka tanrılar” ve onlara kulluk edilmesi sorusunun içinde anılır; bu temas, merhamet bildiren sıfatı ibadetin kime yöneleceğini ayıran ilahî bir ad olarak da duyurur, ama basmala’yı kulluk buyruğuna dönüştürmez."
+          "paragraph": 1,
+          "anchor": "Odaktaki {ar:ٱللَّهِ, tr:Allāhi, gloss:Allah özel adı} ise {ar:بِسْمِ, tr:bi-smi, gloss:Allah'ın adıyla} kuruluşunda “ad”a tamlama yoluyla bağlanan, Yaratıcı'yı başkalarından ayırıp yalnız ona özgü olan belirli ilahî özel addır; 27:30 onu Rahman ve Rahim ile Süleyman'dan geldiği belirtilen sözün içinde, 11:41 ise Allah adıyla ibareyi gemiye binme buyruğu ve seyir-demirleme sözleriyle yan yana getirir, böylece bu özel ad farklı eylemlere eşlik eden bir anışın odağında kalır."
         }
       ]
     }
   ]
 }
+
 </global_scope_ledger>
