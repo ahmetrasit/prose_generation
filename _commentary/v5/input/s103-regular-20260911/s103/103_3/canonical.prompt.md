@@ -1615,28 +1615,25 @@ or evidence.
 </focus_context_brief>
 
 <micro_scope_prose>
-Bu âyet, insanın kayıp içinde olduğunu bildiren hükmün ardından, o hükmün dışında kalanları sayar: inanan, iyi işler yapan, birbirlerine gerçeği ve sabrı tavsiye edenler. Âyetin başındaki {ar:إِلَّا, tr:illâ, gloss:ancak/hariç}, önceki duraklamadan sonra hem sesli bir yeniden başlangıç yapar hem de istisnanın kapısını açar; bu ses vurgusu, kelimenin olağan bağlama işlevini destekler. Aynı kelime, önceki hükme dayanarak âyeti geriye bağlar ve hükmü yeni bir sınıfa çevirir; böylece burada bağımsız bir liste değil, önceki teşhise dönen bir dönemeç duyulur. Bu istisna, kayıptan çıkışı belirsiz bir ihtimal olarak bırakmaz; {ar:إِلَّا, tr:illâ, gloss:ancak/hariç} sonrasında sayılan şartları adı konmuş çıkış yolu yapar ve bütün zinciri açık tutar. Üstelik {ar:إِلَّا, tr:illâ, gloss:ancak/hariç} yalnız hemen arkasındaki {ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} kelimesine değil, güvenmekten sabra uzanan dört yükleme birden hükmeder; bu yüzden her şart aynı istisna çatısında kalır. {ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} bir kabile veya sabit etiket bildirmek yerine, kimlerin istisnaya girdiğini ardından gelen fiillerin belirleyeceği bir ilgi cümlesi açar; okur grubu davranışlarıyla tanır. Bu çoğul çerçeve cevabı tek kişinin iç durumuna kapatmaz; şartlar topluluk içinde paylaşılan bir pratiğe dönüşür ve yine de her üyenin eylemini korur. Böylece güvenme, çalışma ve iki karşılıklı tavsiye fiili havada duran dört parça değil, tek bir ilgi başının ve tek istisnanın altında biriken dört yüklem olur; her biri ayrı iş görür. Önceki genel insan teşhisinin tekil havası, {ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} ile çoğul bir sınıfa açılır; sınıfın adı önceden verilmez, ortak davranışla kurulur.
+Son bağlayıcı {ar:وَ, tr:wa, gloss:ve}, olağan eşgüdüm görevini korurken, yinelenen karşılıklı fiili ve sonundaki sabır öbeğini yan yana getirir; böylece sabır dördüncü koşul olarak eklenir ve {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat} ile {ar:ٱلصَّبْرِ, tr:aṣ-ṣabr, gloss:sabır} yüzeydeki paralellik sayesinde sıkı bir çift oluşturur. Birikimli dizideki bu son wa, üçüncü bağlayıcı olarak son karşılıklı cümleden hemen önce duyulur; sayım vuruşu koşulların ritmini belirginleştirir ama bağlacın “ve” anlamını değiştirmez. Aynı bağlaç, sabır içeriğini hakikat ifadesinin içine katmak yerine ikinci karşılıklı yükleme ayrı bir eşgüdümlü cümle olarak bağlar. {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt vermek} fiilinin aynı çoğul özne altında yinelenmesi, dayanmayı tek kişinin niteliği olmaktan çıkarıp ortak bir davranışa yerleştirir. Bu tekrar, dayanmayı karşılıklı öğüdün ikinci içeriği yapar: İlkinde hakikat, ikincisinde sabır konuşulur. İkinci fiilin tam biçimi yeniden söylenince, dayanma için ayrı ve bütünüyle seslendirilen bir karşılıklı eylem kurulur. Fiildeki yinelenen ıslıklı ses çerçevesi kulağı son sabır ismine taşır; bu, söz dizimine eşlik eden işitsel bir izlenimdir. Karşılaştırmada sunulan emir biçimlerine rağmen, burada görünen Form VI biçimi karşılıklı öğüt ve yükümlendirme anlamını korur; emir biçimleri bu yerel formun yerine geçirilmez. Son cümle, aynı karşılıklı eyleyiciliği dayanma içeriği için yeniden başlatır. {ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} biçimindeki belirli mastar, önceki bâ’lı hakikat öbeğini yankılayan son içerik olarak karşılıklı fiile bağlanır; böylece sabır baskı altında etkin kendini tutma olarak duyulur, edilgin bekleyiş olarak değil. Belirlilik, sabrı öğüdün taşınan niteliği halinde sunar; bu nitelik ayrı bir konu değil, ikinci karşılıklı yüklemin içeriğidir. Bâ’lı sabır öbeği dilbilgisel olarak ikinci tawāṣaw fiilinin son tamamlayıcısıdır. Sunulan hareke varyasyonları, yerel olarak seçilen dayanma anlamının çevresinde bir sınanma ve baskı ihtimalini duyurur, fakat burada öne çıkan okuma yine sabır ve kendini tutmadır. Sondaki bu kelime, koşul dizisini ölçülü dayanmayla kapatır; önceki hakikat öbeğine paralel son konumu iki içeriği eşleşmiş bir çift gibi okumayı destekler. Hakikat ile sabır bu nedenle dizinin sonunda aynı karşılıklı eylemin yerel olarak eşleşen iki içeriği gibi durur.
 
-{ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} açık bir nesne almadan geldiği için önce inanılan şeyi değil, güven ve emniyet hâlini öne çıkarır; okur bağlılığı adı konmamış bir nesneye değil, yerleşmiş duruma bağlar. Fiilin geçmiş biçimi ve çoğul sonu bu güven hâlini {ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} grubuna bağlar; istisna ihtimali değil, gerçekleşmiş bir grubun ilk şartı olarak duyulur. Bu ilk fiil, ardından gelen çalışma ve karşılıklı yükleme hareketleriyle birlikte okununca güveni tek başına duran bir etiket olmaktan çıkarıp eyleme ve ortak pratiğe açan bir başlangıç yapar; bu genişleme yine âyetin kendi dizisiyle sınırlıdır. Önceki kayıp hükmüyle temasında {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} ilk cevabı verir: aynı insan çerçevesi şimdi güven şartına yönelir, fakat sonraki şartlar bu cevabı tamamlamaya devam eder. Kelimenin güvenlik, güvenilirlik ve bağlanma alanı, nesnesi söylenmeyen bu biçimde yerleşmiş bir güven taahhüdü hissi verir; böylece tercümedeki “inanma” sözü güvene kavuşmuş bir hâli de taşır, ayrı bir tasdik dalını değil. {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} önceki isim hükmünden sonra gelen ilk tamamlanmış çoğul fiil olarak kaçış zincirini başlatır; sesin açılıp burun kapanışına yerleşmesi, bu ilk hareketin güvene oturmasını da duyurur.
+{ar:إِلَّا, tr:illā, gloss:ancak; hariç} edatı ayet sınırından sonra hamzalı başlangıcıyla işitilir bir dönüş yapar. Bu istisna, hemen ardından gelen bağıl sınıfa açılır. İstisna edatı, arkasından gelen bağıl zamiri ve onun yüklemlerini kapsayarak dışarıda kalan grubu belirtilen koşullarla sınırlar. Bu nedenle kapsam yalnız ilk isme değil, bağıl cümlenin tamamına ve onun eşgüdümlü yüklemlerine uzanır. {ar:ٱلَّذِينَ, tr:alladhīna, gloss:o kimseler} başı, üyeliği ardından gelen eylemlerle tarif edilen tek bir çoğul sınıf kurar. Çoğul bağıl baş ile dört koşul, istisnayı tekil bir erdem listesi değil, ortaklaşa yaşanan bir pratik sınıfı haline getirir. Bu başın altında dört yüklemin de aynı bağıl cümlede kalması, fiillerin bağımsız ve sınıfsız hükümler gibi havada durmasını önler. Böylece alladhīna, üyeleri sonradan sıralanan yüklemlerle belirlenen genel bir çoğul grubu açar; bu, başın yerel sözdizimsel işidir.
 
-İlk {ar:وَ, tr:ve, gloss:ve} hem güveni ve işi eşit düzeyde bağlar hem de sıralanışta güvenden işe doğru bir hareket hissettirir; bu hareket bağlacın kendi zaman anlamı değil, kelimelerin düzenidir. Aynı bağlaç, {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} fiilini {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} fiiline eş koşar; çalışma imanın içine eritilmez, istisnanın ayrı bir şartı olarak eklenir. Güvenle iş arasındaki bu küçük {ar:وَ, tr:ve, gloss:ve}, tanınabilir güven-eylem dizisinin menteşesidir; iki fiili birleştirirken anlamlarını tek fiile indirmez. {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} tamamlanmış ve nesne alan bir fiildir; hemen ardından gelen {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} işi belirsiz bir faaliyetten belirli bir iyileştirme yönüne çevirir. Bu komşuluk, güveni onarıcı işle bağlayan yerleşik bir ilişki kurar: güven burada dışarıdan görülen bir işe, iş de rastgele eyleme değil, ıslah yönüne bağlanır; iki yüklem yine ayrı kalır. İkinci fiilin güvenden dışarıya dönük oluşu, tamamlanmış çoğul sonunun sonraki fiillerle sürdürdüğü ses çizgisinde belirir; grup ne olduğunu söylemekle kalmaz, bir şeyi yapar. {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} kök alanının bilinçli yapma ve üretme baskısıyla grubu bu işin doğrudan faili kılar; faydalanan pasif bir topluluk değil, nesnesine yönelen yapanlardır. Fiilin çoğul öznesi önceki {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} ile aynıdır; aynı ilgi grubu güveni taşıdığı gibi işi de yapar ve şartlar kopuk örnekler hâline gelmez.
+{ar:ءَامَنُوا۟, tr:āmanū, gloss:inanıp güvenmek} nesnesi belirtilmemiş yerleşik bir güven koşulunu bildirir. Bağıl başa bağlı geçmiş/perfekt çoğul yüklem bu durumu aynı grubun niteliği olarak sabitler. Güven burada daha geniş bir şart dizisinin açılışıdır, kendi başına tamamlanmış bir bütün değil. İstisna sınıfının ilk adı geçen yüklemi olması, grubun odağını önce güvene çevirir ve ardından gelecek çalışma koşuluna zemin hazırlar. أمن ailesinin güvenlik ve emin olma alanı, Form IV’ün kurduğu yerleşik iman/güven durumuna renk katar; yine de fiil bu cümlede bir iman nesnesi adlandırmaz. Kelimenin başlangıçtaki uzun açılışı ve sondaki nazal kapanışı, şart dizisini ses bakımından açıp yatıştıran bir izlenim verir; bu işitsel etki gramerdeki çoğul geçmiş yüklem okumasının yerine geçmez.
 
-{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} çalışmanın nesnesi olarak güven-eylem dizisini onarım yönünde sabitler; iyi ve düzgün hâle getirme, önceki fiilin açtığı işi tamamlar. Bu kelimenin belirli dişil çoğul ortak-iştirakçi biçimi, insanları adlandırmaz; çalışmanın yöneldiği bilinen iyileştirici işler sınıfını adlandırır. İlk belirli içerik adı olan bu kelime, biraz sonra gelecek belirli hak ve sabır adlarını önceden biçimsel olarak hazırlar; başındaki birleşmiş belirteç de okunuşu sıkılaştırır, fakat üç isim aynı görevde değildir. Böylece kayıp teşhisine verilen cevap, yalnızca iyi işlerin listesi değil, bozulmuş olanı düzgün ve sağlam hâle getiren eylem olarak görünür; onarım ilişkisi güveni ve diğer şartları silmez. Sıfat kökenli kelimenin doğrudan nesne olması, çalışmanın “iyi olan” bir niteliğe yöneldiğini gösterir; gizli bir “işler” kategorisi bu tekil kalite kelimesinin içinde yoğunlaşır.
+Güven yükleminden sonraki {ar:وَ, tr:wa, gloss:ve} yeni koşulu eklerken dizilişi güven durumundan dışa dönük işe doğru ilerletir. Bağlaç, işi güvenin içine eritmez; onu onunla eşgüdümlenmiş ayrı bir koşul yapar. Böylece güven ile çalışma, birbirinden kopuk iki fiil değil, sıralı bir çift olarak duyulur. {ar:عَمِلُوا۟, tr:ʿamilū, gloss:iş yaptılar} belirli onarıcı eylemleri doğrudan nesne alan yerleşik bir iş yüklemidir; ikinci koşul belirsiz bir meşguliyet değil, yöneltilmiş çalışmadır. Güven, iş ve onarıcı eylemler bu ayette tanıdık bir yerel birliktelik halinde sıkıştırılır. Eylem, içteki güveni dışarıda gerçekleşen onarıcı işe taşır; birbirine uyan çoğul geçmiş ekleri koşullar zincirini aynı özne çevresinde birleştirir. Fiilin açık öznesi istisna edilen gruptur: grup, işin edilgin yararlanıcısı değil, amaçlı eylemin doğrudan failidir. Bu iş yükleminin çoğul öznesi de ilk güven koşulunda kurulan aynı gruptur.
 
-İkinci {ar:وَ, tr:ve, gloss:ve} bu zincirin ortasında işitilen bir eştir; yeni bir yüklem açar ve önceki güven-iş ikilisinden topluluk içi yüklemelere geçişi duyurur. Bu bağlaçtan sonra gelen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} gerçeği tavsiye etmeyi üçüncü, kendi başına eklenmiş bir şart yapar; iş cümlesinin açıklaması değildir. Yerinin ürettiği 2+2 düzeninde ilk iki şart güven ve iştir, son iki şart ise birbirine yönelen uygulamalardır; orta bağlaç bireysel olandan toplumsal olana dönerken tek ilgi cümlesini korur. İlk {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} sonraki tekrarın yankısını hazırlar; aynı karşılıklı fiil iki ayrı içeriği taşıyacağı için ilk tavsiye kapanıştan önce tamamlanmış değil, devamı olan bir eylem gibi işitilir. Bu fiilin biçimi, öğüdü bir yönden aşağıya indiren emirden daha bağlayıcı bir karşılıklı emanet ve bağlantı hareketi kurar; grup hem iletir hem de kendisine iletileni alır. Buradaki yerleşik karşılıklılık, buyurma tonuna yaklaşan farklı bir aktarım biçimiyle karşılaştırıldığında daha belirginleşir; varyant yalnızca bu yatay danışma çerçevesini aydınlatır, asıl yüzeyi değiştirmez. Fiilin içine yerleşen taraflar ile ardından gelen {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} birbirinden ayrıdır: fiil kimlerin karşılıklı yüklediğini, bāʾlı tamlama ise neyin taşındığını gösterir. Bu seyrek ve tekrarlı karşılıklı yükleme biçimi, ilk topluluk cümlesine özel bir ağırlık verir; biçimsel işaret açıklayıcıdır, olağan birbirine tavsiye anlamı yerinde kalır. İlk tavsiye fiilindeki karşılıklılık, her üyeyi hem tavsiye eden hem tavsiyeyi alan yapar; topluluk tek bir sesin pasif dinleyicisi değil, yükü birlikte dolaştıran bir özne olur.
+{ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:onarıcı ve düzgün işler} amaçlı çalışmaya yön verdiği gibi, belirli müennes çoğul sıfat-isim olarak iş fiilinin doğrudan nesnesi konumundadır; böylece çalışma için onarıcı nesne sağlar. Belirli müennes çoğul biçim insanları değil, bilinen bir onarıcı işler sınıfını adlandırır. Nesne konumundaki bu işler, daha sonra gelen belirli hakikat ve sabır içeriklerini önden haber verir; şemsî harfin benzeşmesi de telaffuzda belirli artikelin başlangıcını sıkılaştırır. Sözcüğün yerel anlam alanı bozulmanın karşıtı olan düzelme ve onarımdır; bu anlam iş fiilinin nesnesinde korunur. Başka deyişle, soyut bir nitelik değil, onarıcı niteliğin kendisi ʿamilū fiilinin nesne yuvasını doldurur. Bu koşullardan sonra gelen orta bağlaç, toplulukla ilgili cümlelere geçmeden önce ritmik ve işitsel bir koşul vuruşu oluşturur. Böylece hakikatle karşılıklı öğüt, önceki güven-iş çiftinin ardından ayrı ve birikimli bir koşul olarak eklenir. Bu bağlacın dönüşü, ayetin güven ve işi topluluk içindeki karşılıklı uygulamaya bağlayan 2+2 hareketini görünür kılar.
 
-{ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} içindeki bāʾ, hakikati ilk karşılıklı yüklemenin içeriği ve ona ulaşmanın yolu olarak bağlar; “gerçek” burada insanlar hakkında gevşek bir niteleme değil, aralarında taşınan şeydir. Belirli artikel ile gelen bu isim, karşılıklı eylemin önüne belirsiz bir kanaat değil, tanınan ve sınırları olan bir hakikat-hak alanı koyar; kesinlik ve yükümlülük tonları bu alanın içindedir. Aynı bāʾlı yer, biraz sonra sabırla yineleneceği için hakikat ve sabır iki ayrı fakat eşlenmiş topluluk görevi olarak görünür; paralellik ikisini birbirine eritmez. Bāʾ ve belirtecin kelimeyi tek bir sıkı ses birimine bağlaması, hakikat yükünü başlangıçtaki güvene geri bağlayan bir işitsel ve anlamsal halka kurar; bu halka hakikatin kendi anlamını korur. {ar:حَقِّ, tr:hakk, gloss:gerçek, hak ve borç} sözü doğruluğu taşırken aynı anda sahibine ait payı, yerine getirilmesi gereken hakkı ve bağlayıcı borcu da duyurabilir; bu genişleme ilk anlamın içine eklenir, onun yerine geçmez.
+İlk {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt ve yükümlülük vermek}, kendisinden sonra gelen bâ’lı hakikat içeriğini taşımaya hazırlanırken, son cümlede aynı fiil farklı bir içerikle eşleşir. Bu Form VI çoğul karşılıklılık biçimi, grubun üyeleri arasında aktarılan bir öğüt ya da yükümlülük kurar. Sunulan kanonik biçim, yukarıdan aşağıya emirden çok karşılıklı öğüt ve yükümlendirmeyi öne çıkarır. Fiilin karşılıklı katılımcıları kendi içinde taşınır; arkasından gelen bâ’lı öbek ise bu eylemin içeriğini verir. İlk karşılıklı yükümlendirme bu ayetin sonunda yinelenerek ikinci bir tur kazanır. Bu karşılıklı koşulda grubun her üyesi hem verir hem alır; eylem tek yönlü tavsiye değildir. {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:hakikat ve hak ile} öbeği, öğüdün ilk belirli içeriği olarak hakikati ve hakkı taşır; bâ’lı kuruluşun araç anlamı da mümkün kalır, fakat içerik okuması daha doğrudandır. Belirli hakikat/hak öbeği, topluluk içinde aktarılabilir ve sınırları çizilebilir bir yükümlülük içeriği sunar. Yinelenen karşılıklı fiillerden sonra hakikat ve sabrın aynı bâ’lı yuvada gelmesi, onları eşleşmiş yerel içerikler olarak kurar. İlk bâ’lı öbek, tek bir edatlı birim halinde karşılıklı fiile bağlanır ve başlangıçtaki güven koşuluna geri uzanarak güven ile hakikati yakınlaştırır. {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat, gerçek, hak ve borç} sözcüğünün anlam aralığı doğrulukla birlikte kişiye düşen hak, alacak ve bağlayıcı yükümlülüğü de taşır; burada belirli öbek ortaklaşa aktarılabilir içeriktir, adı konmuş bir hukukî talep değil.
 
-Son bağlaç, {ar:وَ, tr:ve, gloss:ve} dördüncü şartı eklerken iki bāʾlı cümleyi sıkı bir çift hâlinde de tutar; böylece ekleme ve eşleşme aynı anda duyulur, biri ötekini seçmez. Bu son {ar:وَ, tr:ve, gloss:ve}, şartlar zincirinin üçüncü ve son sayım vuruşudur; ikinci karşılıklı cümleyi başlatır ve olağan bağlama işlevini ritmik bir kapanış hazırlığıyla tamamlar. Aynı bağlaç sabır şartını ilk tavsiyeye ekler; sabır hakikat cümlesinin içine saklanmaz, ayrı bir karşılıklı yükleme olarak yerini alır. İkinci {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} yalıtılmış kayıp teşhisine toplumsal bir cevap verir; aynı hareket sabrı insanlar arasında dolaşıma sokarak çıkışı birlikte sürdürülen bir pratiğe dönüştürür. Bu ikinci fiilin bāʾlı tamamlayıcısı {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} olduğundan, sabır karşılıklı yüklemenin taşınan içeriğidir ve son cümlenin neyi ilettiğini açıkça belirler. Fiilin tam biçiminin yeniden kurulması, hakikat ve sabır için tek fiil altında sıkıştırılmış iki nesne değil, aynı mekanizmanın iki ayrı karşılıklı eylemini verir. İkinci fiilin tekrarlanan sibilantlı sesi kulağı son isme kadar taşır; böylece kapanış, fiilin olağan tekrarından doğan bir gecikmeyle hazırlanır, salt ses gösterisiyle açıklanmaz. Karşılıklı yükleme biçiminin seyrekliği ve farklı bir aktarım biçimiyle kurduğu sınırlı karşıtlık, standart danışma çerçevesini keskinleştirir; varyant, kanonik ifadeyi yerinden etmez. Tekrar edilen fiilin çoğul karşılıklılığı, sabırda da her üyenin hem yükleyen hem yüklenen olduğunu yeniden kurar; sabır böylece kişide duran değil, kişiler arasında yenilenen bir dayanmadır. {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} son yük olarak sabrı sarsıntı ve yakınma dürtüsüne karşı kendini tutma, doğru çizgide kalma ve çözülmeyi önleme şeklinde somutlaştırır; beklemekten daha etkin bir dayanma duyulur. Sabır adının belirli fiilimsi isim biçimi, emredilen bir buyruğu değil, karşılıklı olarak taşınan bilinen bir niteliği anlatır; bāʾlı yapı onu fiile bağlı tutar. Bu yüzden sabır, ikinci karşılıklı yüklemenin son içeriği olarak doğrudan fiile bağlanır; cümleye sonradan iliştirilmiş bağımsız bir erdem adı değildir. Kabul edilmiş farklı hareke aktarımı son kelimeye sınanma ve baskı altında dayanma rengi katabilir; yerel tamlama yine sabır ve kendini tutma anlamını korur, varyant bunu değiştirmez. Âyetin ve sûrenin son kelimesi olan {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla}, güven, iş, onarım ve hakikatten sonra şartlar dizisini dayanıklı bir tutunmayla yere bastırır; bu son konum diğer şartları dışarıda bırakmaz. Hakikat ve sabır aynı bāʾlı kalıpta kapanınca, biri yönü ve bağlayıcılığı, diğeri o yönü baskı altında sürdürecek dayanmayı taşır; eşleşme iki ayrı yükü birlikte görünür kılar.
+Ayet önce istisna edilenlerin olağan biçimde dört niteliğini sıralar; bu sıra, güvenin onarıcı işe dönüşüp hakikat ile kendini tutma üzerine karşılıklı öğüt sayesinde sürdüğü, yalnız bu yerel dizilişe atfedilen bir devre olarak da okunabilir. {ar:ءَامَنُوا۟, tr:āmanū, gloss:inanıp güvenmek} için “bir haberi veya sözü doğru saymak” anlamı kaynak oluştururken, ardından gelen {ar:عَمِلُوا۟, tr:ʿamilū, gloss:işe koyulmak} ve ortak öğüt, içteki güveni dışa vurup sürdürme tetikleyicisidir; bu okuma iman nesnesini belirlemez. {ar:عَمِلُوا۟, tr:ʿamilū, gloss:bilerek iş yapmak} olağan kasıtlı eylem anlamını korur; onarıcı işler nesnesiyle hakikat içeriğinin bağımsız teması bu işi kapasite, düşünce ve sözü işe koşma gibi duyurur, ancak bu genişleme sıralamadan çıkarılan bir benzetmedir. {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:düzgün ve onarıcı işler} bozukluğun karşıtı olan düzgünlük ve onarımı taşır; çalışmanın fiili ile hakikat yükü kesişince yapılan iş onarıma yönelir, fakat sözcük yine onarıcı işleri adlandırır. {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt vermek} içindeki topluluğa bildirilen veya öğütlenen şey anlamı, iki ayrı bâ’lı içerikle bağımsızca tetiklenir; karşılıklı bakım böylece grup üyeleri arasında dağılmış ve yinelenen bir eylem gibi belirir, yalnız bu iki cümleyle sınırlı kalır. {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:gerçeğe uygun olan ve hak} gerçeğe uygun düşeni taşıyan yerel hakikat içeriğidir; tekrarlanan karşılıklı yüklemler onu ortak yön tayin eden bir ölçüye dönüştürür, bu yönelim ise metnin sözcük anlamına eklenen bir benzetmedir. {ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabır ve kendini tutma ile} sarsıntı ve yakınma dürtüsüne karşı kendini tutmayı adlandırır; çalışma ve hakikat içeriği bu niteliğe düzenlenecek bir süreç verdiği için sabır, ortak işi baskı altında dağılmaktan koruyan ölçü gibi okunabilir, edilgin bekleyiş anlamı çıkarılmaz.
 
-İhtiyat payı taşıyan bir başka yerel okumada, ilk bakışta dört niteliği sıralayan istisna cümlesi, {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} ile başlayan güvenin işi ve onarımı doğurup hak ve sabır yüklemeleriyle ayakta tutulduğu, kendi kendini sürdüren bir düzenek olarak da görünür; bu imge olağan dört şartı korur. Burada {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} kelimesindeki doğru sayıp kabul etme yönü, hemen yanındaki {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} fiilinin dışa dönük işiyle buluşur; güven, topluluğun uygulamaya koyduğu iç taahhüt hâline gelir. {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} kelimesindeki bilerek yapılan iş, {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} nesnesiyle karşılaşınca, becerilerin rastgele kullanımı değil, onarıma yönelen amaçlı müdahale okunur. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} kelimesindeki iyi ve düzgün hâle getirme, önündeki iş fiilinden aldığı temasla bozulmaya karşı onarım yönü kazanır; imge, iyiliği yalnız nitelemekle kalmaz, sağlamlaştırır. İki {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} fiili, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} ve {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} yüklerini insanlar arasında dolaştırır; böylece bakım tek kişinin işi değil, üyelerin birbirine tekrar tekrar aktardığı bir düzen olur. {ar:حَقِّ, tr:hakk, gloss:gerçek ve sağlam olan} kelimesindeki gerçeğe uygun sağlamlık, sabrın aynı kalıptaki dönüşüyle buluştuğunda, ortak düzenin neye göre yönleneceğini belirleyen bir doğruluk ekseni kurar. Son {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} kelimesindeki kendini tutarak dayanma, hakikatin yön verdiği işi sarsıntı altında sürdürür ve güven-iş-onarım halkasının dağılmasını önler; bu imge güvenlik dalını değil, özdenetimi taşır.
+Bir başka sınırlı toplumsal okumada, olağan “birbirine doğru şeyleri öğütler, bireysel olarak sabrederler” anlamı korunur; karşılıklı öğüt, hakikat ve somut hakların birbirine emanet edilmesini, sabır da kişiler arası sorumluluğu düşündürür. {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:karşılıklı öğüt} için başkasına bırakılan talimat ya da istek anlamı, hakikat ve sabır yüklerinin bâ’lı iki içerik olarak verilmesiyle temas eder; böylece öğüt sıradan sözden çok aktarılan bir emanet gibi duyulur, vasiyet veya ölüm sonrası talimat anlamı ileri sürülmez. Aynı fiilin çoğul karşılıklılığı, eylemi topluluk içinde hem verilip hem alınan bir sorumluluğa dağıtır; bu, cümlenin yerel karşılıklılığından öteye genellenmez. {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hak ve kişiye ait pay} içindeki sahip olunan ve sahibince istenebilen özel hak anlamı, tekrar edilen karşılıklı fiillerle tetiklenince soyut hakikat yanında somut alacak ve hakları da düşündürür; belirli bir hukukî talep adlandırılmaz. Hak sözcüğünün korunması gereken görev ve borç alanı, karşılıklı öğüdün yinelenmesiyle başkasının hakkını gözetme sorumluluğu gibi işler; korunacak nesne veya yaptırım türü belirtilmez. {ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} için başkasının yükümlülüğüne güvence verip maddi yükü üstlenme anlamı, çoğul karşılıklı eylemle temas ettiğinde dayanmayı yalnız başına katlanmak değil, başkasının yükünü taşımaya hazır olma olarak genişletir; gerçek bir kefalet veya hukukî bağ ileri sürülmez. {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:onarıcı işler} içindeki çatışmış kişiler arasındaki olumsuzluğu giderme ve uzlaşma anlamı, hakların karşılıklı gözetimle dolaşıma girmesiyle tetiklenir; barışma bu yüzden olası bir toplumsal sonuçtur, garanti edilmiş bir sonuç değil.
 
-Başka bir ihtiyatlı okumada, önce “doğru şeyleri birbirine tavsiye eden ve ayrı ayrı sabredenler” diye duran topluluk, şimdi hakikatin, kişiye ait payların ve birbirinin dayanma gücünün karşılıklı emanetçisi olarak da görünür; bu ek görüntü sıradan tavsiyeyi muhafaza eder. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} kelimesindeki başkasına bırakılan iş talimatı yönü, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} ile birleşince tavsiyeyi bir işin sorumluluğunu birbirine emanet etmeye yaklaştırır; miras veya yetki devri anlamı kurulmaz. Aynı {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} kelimesinin birbirine öğüt iletme çekirdeği, {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} ile buluşarak dayanmayı üyelerin hem verdiği hem aldığı bir yük yapar; iletişim bütün biçimlere genişletilmez. {ar:حَقِّ, tr:hakk, gloss:gerçek, hak ve pay} kelimesindeki sahibine bağlı pay, iki karşılıklı yükleme fiilinin arasında belirince, hakikat sözü başkalarının korunacak talebini ve ondan istenebilecek payı da taşır; belirli bir hukuk vakası varsayılmaz. Aynı {ar:حَقِّ, tr:hakk, gloss:gerçek, hak ve pay}, karşılıklı tavsiyenin nesnesi olduğunda korunması gereken bir hak görünümü kazanır; doğruluk anlamı yerinde dururken topluluk onu çiğnetmemeyi de üstlenir. {ar:صَبْرِ, tr:sabr, gloss:sabır ve dayanma} kelimesinin yükümlülük için güvence veren kişi yönü, onu önceleyen karşılıklı fiille temas edince, sabrı başkasının yükünü birlikte taşıma olarak genişletir; tek başına borç iddiası kurulmaz. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} kelimesinin onarım alanı, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} ile korunan iddialarla buluştuğunda, doğruluğu korurken çatışmayı ilişkiyi yeniden kuran bir iyileşmeye çevirebilir; bu yalnızca ihtiyatlı bir sosyal sonuçtur.
+Onarım dizisi olağan dört koşulu koruyarak, kapasiteyi işe koşan, bozukluğu düzelten, söz yoluyla hakikati sağlamlaştıran ve düzeltmenin gücünü sabırla düzenleyen ortak bir atölye süreci olarak da duyulabilir; bu atfedilmiş ilişki ayetin ötesinde bir sistem iddiası taşımaz. {ar:عَمِلُوا۟, tr:ʿamilū, gloss:işe koşmak} için birini ya da bir şeyi kullanma anlamı, onarıcı işler nesnesi ve hakikat yüküyle bağımsızca buluşur; böylece eylem düşünceyi, sözü ve kapasiteyi uygulamaya sokar, ama fiil olağan kasıtlı iş yapma anlamında kalır. {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve düzgün işler} bozulma ve kötülüğün karşıtı olan yararlı durumu adlandırır; çalışma ve hakikatle teması işi bozukluğu teşhis edip onarmaya yöneltir, atölye yalnızca bir benzetmedir. {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat} bir şeyin doğru olduğunu belirleme ve onaylama çekirdeğini taşır; iş ile yinelenen öğüt, hakikati sınama ve doğrulama sürecini çağrıştırır, oysa ayetteki biçim isimdir ve yerel anlamı hakikat/haktır. Hakikat için verilen sıkı dokunmuş kumaş kullanımı, öğüt cümlelerinin söz ortamı tetikleyici olduğunda sonucun bir arada tutulmasına maddi bir imge katar; taşıyıcı yine kumaşı niteleyen sıfat değil, {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat} ismidir ve dokuma ilişkisi yalnız atfedilmiş bir söz benzetmesidir. {ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} sarsıntıya ve yakınma dürtüsüne karşı tutunmayı taşır; işe ve hakikat içeriğine eşlik ettiğinde düzeltmenin kuvvetini ve süresini düzenler, edilgin beklemeyi değil.
 
-Daha imgesel ve ihtiyatlı bir okumada, “iyi işler yapıp gerçeği söyleyenler” diye okunan cümle, kapasitelerin işe koşulduğu, bozulmanın onarıldığı, doğruluğun sınanıp sağlamlaştırıldığı ve sabrın düzeltmenin kuvvetini düzenlediği bir çalışma düzeni olarak da belirir; bu somut atölye resmi lafzî bir işlik sahnesi değildir. {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} fiilinin işe koşma ve kullanma yönü, {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} nesnesinin onarım yönüyle buluşunca, kapasite bir sonuca uygulanır ve iş genel hareket olmaktan çıkar. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} içindeki düzeltme anlamı, aynı iş fiilinin bilinçli eylemiyle temas ederek bozulmuş olanı yeniden düzgün hâle getiren bir işlem görüntüsü kurar; uzlaşma dalı bunun zorunlu sonucu değildir. {ar:حَقِّ, tr:hakk, gloss:gerçek ve hak} sözünün doğruluğu belirleme ve gösterme yönü, iş fiilinin amaçlı hareketiyle buluştuğunda, topluluğun hakikati yalnız adlandırmayıp görünür kılmaya çalıştığı okunur; sıradan “hak” anlamı korunur. {ar:حَقِّ, tr:hakk, gloss:gerçek ve hak} kelimesinin sıkı dokunmuş veya sağlam kurulmuş kullanımı, onarıcı işin yanında hakikati bir arada tutan maddi bir benzetme verir; âyette kumaş ya da sözün gerçek sahnesi kurulmadığı için bu bağ ihtiyatlı bir imgedir. Son {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} kelimesindeki kendini tutarak dayanma, düzeltme işinin şiddetini ve süresini düzenleyen fren gibi çalışır; sabır yine içsel özdenetimdir, dıştan zorlama değildir.
-
-En ihtiyatlı, malzeme duyarlı okumada, “iyi işler” ile “birbirlerine tavsiye” arasındaki cümle, uygun parçaların bağlandığı, hakikatin eklem noktası olduğu ve sabrın kenar ile mühür gibi bütünü tuttuğu bir mimariyi de çağrıştırır; bu görüntü olağan anlamları askıya almaz. {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} kelimesindeki sana uygun olma yönü, ilk {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} fiilinin bağlama hareketiyle temas edince, her iyileştirici işin yöneldiği ihtiyaca oturan bir parça gibi görünür; belirli bir alıcı atanmaz. İki {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} fiilindeki bir şeyi başka şeye bağlama yönü, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} yükünü ortak nokta yaparak cümle parçalarını bitişik sürdürür; bitki veya arazi sürekliliği ileri sürülmez. {ar:حَقِّ, tr:hakk, gloss:sınırlı bir adlandırma içindeki eklem yeri} kelimesinin sınırlı adlandırma kümesindeki eklem yeri, ilk karşılıklı fiilin bağlantısıyla buluştuğunda hakikati iki parçanın döndüğü bir eklem gibi hissettirir; bu, genel sözlük anlamı değil, bağlı bir imgedir. {ar:صَبْرِ, tr:sabr, gloss:sabır ve dayanma} kelimesindeki üst ya da yan sınır, hakikat etrafında kurulan bu birleşime bir çalışma kenarı verir; âyet gerçek bir kap veya duvar anlatmadığı için mekânsal ayrıntı yalnız imgesel düzeydedir. Aynı {ar:صَبْرِ, tr:sabr, gloss:sabır ve dayanma} kelimesinin şişe ağzını kapatan tıkaç yönü, son yük konumuyla buluşunca sabrı birleşmiş bütünü taşırmadan kapatan mühür gibi duyurur; gerçek bir şişe sahnesi kurulmaz.
-
+Son olarak, olağan şart dizisi fit olmuş bir bütünün benzetmesine de açılır: onarıcı iş ihtiyaca uygunluk, iki karşılıklı öğüt bağlanma, ortadaki hakikat eklem, son sabır ise sınır ve kapama izlenimi verir; bu ihtiyatlı okuma bütün ayete dair bir iddia değildir. {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:uygun ve onarıcı işler} için bir şeyle yöneldiği kişi arasındaki uygunluk anlamı, hakikat ve dayanma içeriklerinin hangi ihtiyacı karşıladığına bakarak tetiklenir; her eylemin karşılık geldiği bir ihtiyaçla uyumu böylece düşünülebilir, ancak metin ihtiyacı açıkça adlandırmaz. {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt vermek} kökünün bir şeyi başka şeye bağlama anlamı, iki bâ’lı içeriğin aynı karşılıklı fiile bağlanmasıyla temas eder; iki cümle arasında kurulan bağ, olağan karşılıklı öğüde eklenen bir kök çağrışımıdır. {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat ve hak} için iki kemiğin birleştiği eklem kullanımı, sözcüğün iki yinelenen öğüt arasında durmasıyla tetiklenir; hakikat bu benzetmede bağlantının döndüğü eklem olur, fakat sözlükte seçilen anlam yine hakikat/haktır. {ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} için bir bütünün üst ya da yan sınırı anlamı, hakikat yükünün iki yanındaki karşılıklı cümlelerle etkinleşir; sabır ilişkiye çalışır bir sınır kazandırır ama sözcüğün yerel anlamı dayanmadır. Aynı sabır sözcüğünün şişe ağzını kapatan tıkaç kullanımı, birleşmiş cümleleri ve son konumdaki kapanışı tetikleyerek dayanmayı bütünü dağılmaktan koruyan bir mühür gibi duyurur; bu yerel bir benzetmedir, ayet şişeden söz etmez ve tıkaç sabrın sözlük anlamı değildir.
 </micro_scope_prose>
 
 <micro_scope_ledger>
@@ -1645,124 +1642,1206 @@ En ihtiyatlı, malzeme duyarlı okumada, “iyi işler” ile “birbirlerine ta
   "ayah_ref": "103:3",
   "lane": "micro",
   "findings": [
-    {"finding_ref":"micro:103-3-10-additive-pair","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Son bağlaç, {ar:وَ, tr:ve, gloss:ve} dördüncü şartı eklerken iki bāʾlı cümleyi sıkı bir çift hâlinde de tutar; böylece ekleme ve eşleşme aynı anda duyulur, biri ötekini seçmez."}]},
-    {"finding_ref":"micro:103-3-10-final-beat","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Bu son {ar:وَ, tr:ve, gloss:ve}, şartlar zincirinin üçüncü ve son sayım vuruşudur; ikinci karşılıklı cümleyi başlatır ve olağan bağlama işlevini ritmik bir kapanış hazırlığıyla tamamlar."}]},
-    {"finding_ref":"micro:103-3-10-endurance-clause","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Aynı bağlaç sabır şartını ilk tavsiyeye ekler; sabır hakikat cümlesinin içine saklanmaz, ayrı bir karşılıklı yükleme olarak yerini alır."}]},
-    {"finding_ref":"micro:103-3-11-connective-answer","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"İkinci {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} yalıtılmış kayıp teşhisine toplumsal bir cevap verir; aynı hareket sabrı insanlar arasında dolaşıma sokarak çıkışı birlikte sürdürülen bir pratiğe dönüştürür."}]},
-    {"finding_ref":"micro:103-3-11-endurance-content","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Bu ikinci fiilin bāʾlı tamamlayıcısı {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} olduğundan, sabır karşılıklı yüklemenin taşınan içeriğidir ve son cümlenin neyi ilettiğini açıkça belirler."}]},
-    {"finding_ref":"micro:103-3-11-own-verb","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Fiilin tam biçiminin yeniden kurulması, hakikat ve sabır için tek fiil altında sıkıştırılmış iki nesne değil, aynı mekanizmanın iki ayrı karşılıklı eylemini verir."}]},
-    {"finding_ref":"micro:103-3-11-delayed-closure","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"İkinci fiilin tekrarlanan sibilantlı sesi kulağı son isme kadar taşır; böylece kapanış, fiilin olağan tekrarından doğan bir gecikmeyle hazırlanır, salt ses gösterisiyle açıklanmaz."}]},
-    {"finding_ref":"micro:103-3-11-rare-formula","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Karşılıklı yükleme biçiminin seyrekliği ve farklı bir aktarım biçimiyle kurduğu sınırlı karşıtlık, standart danışma çerçevesini keskinleştirir; varyant, kanonik ifadeyi yerinden etmez."}]},
-    {"finding_ref":"micro:103-3-11-reciprocity","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Tekrar edilen fiilin çoğul karşılıklılığı, sabırda da her üyenin hem yükleyen hem yüklenen olduğunu yeniden kurar; sabır böylece kişide duran değil, kişiler arasında yenilenen bir dayanmadır."}]},
-    {"finding_ref":"micro:103-3-12-active-restraint","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"{ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} son yük olarak sabrı sarsıntı ve yakınma dürtüsüne karşı kendini tutma, doğru çizgide kalma ve çözülmeyi önleme şeklinde somutlaştırır; beklemekten daha etkin bir dayanma duyulur."}]},
-    {"finding_ref":"micro:103-3-12-carried-quality","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Sabır adının belirli fiilimsi isim biçimi, emredilen bir buyruğu değil, karşılıklı olarak taşınan bilinen bir niteliği anlatır; bāʾlı yapı onu fiile bağlı tutar."}]},
-    {"finding_ref":"micro:103-3-12-final-payload","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Bu yüzden sabır, ikinci karşılıklı yüklemenin son içeriği olarak doğrudan fiile bağlanır; cümleye sonradan iliştirilmiş bağımsız bir erdem adı değildir."}]},
-    {"finding_ref":"micro:103-3-12-variant-pressure","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Kabul edilmiş farklı hareke aktarımı son kelimeye sınanma ve baskı altında dayanma rengi katabilir; yerel tamlama yine sabır ve kendini tutma anlamını korur, varyant bunu değiştirmez."}]},
-    {"finding_ref":"micro:103-3-12-final-landing","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Âyetin ve sûrenin son kelimesi olan {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla}, güven, iş, onarım ve hakikatten sonra şartlar dizisini dayanıklı bir tutunmayla yere bastırır; bu son konum diğer şartları dışarıda bırakmaz."}]},
-    {"finding_ref":"micro:103-3-12-truth-endurance","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":7,"anchor":"Hakikat ve sabır aynı bāʾlı kalıpta kapanınca, biri yönü ve bağlayıcılığı, diğeri o yönü baskı altında sürdürecek dayanmayı taşır; eşleşme iki ayrı yükü birlikte görünür kılar."}]},
-    {"finding_ref":"micro:103-3-1-audible-break","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"Âyetin başındaki {ar:إِلَّا, tr:illâ, gloss:ancak/hariç}, önceki duraklamadan sonra hem sesli bir yeniden başlangıç yapar hem de istisnanın kapısını açar; bu ses vurgusu, kelimenin olağan bağlama işlevini destekler."}]},
-    {"finding_ref":"micro:103-3-1-boundary-turn","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"Aynı kelime, önceki hükme dayanarak âyeti geriye bağlar ve hükmü yeni bir sınıfa çevirir; böylece burada bağımsız bir liste değil, önceki teşhise dönen bir dönemeç duyulur."}]},
-    {"finding_ref":"micro:103-3-1-named-exit","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"Bu istisna, kayıptan çıkışı belirsiz bir ihtimal olarak bırakmaz; {ar:إِلَّا, tr:illâ, gloss:ancak/hariç} sonrasında sayılan şartları adı konmuş çıkış yolu yapar ve bütün zinciri açık tutar."}]},
-    {"finding_ref":"micro:103-3-1-scoped-exception","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"Üstelik {ar:إِلَّا, tr:illâ, gloss:ancak/hariç} yalnız hemen arkasındaki {ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} kelimesine değil, güvenmekten sabra uzanan dört yükleme birden hükmeder; bu yüzden her şart aynı istisna çatısında kalır."}]},
-    {"finding_ref":"micro:103-3-2-behavior-class","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"{ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} bir kabile veya sabit etiket bildirmek yerine, kimlerin istisnaya girdiğini ardından gelen fiillerin belirleyeceği bir ilgi cümlesi açar; okur grubu davranışlarıyla tanır."}]},
-    {"finding_ref":"micro:103-3-2-communal-scale","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"Bu çoğul çerçeve cevabı tek kişinin iç durumuna kapatmaz; şartlar topluluk içinde paylaşılan bir pratiğe dönüşür ve yine de her üyenin eylemini korur."}]},
-    {"finding_ref":"micro:103-3-2-one-clause","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"Böylece güvenme, çalışma ve iki karşılıklı tavsiye fiili havada duran dört parça değil, tek bir ilgi başının ve tek istisnanın altında biriken dört yüklem olur; her biri ayrı iş görür."}]},
-    {"finding_ref":"micro:103-3-2-plural-class","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":1,"anchor":"Önceki genel insan teşhisinin tekil havası, {ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} ile çoğul bir sınıfa açılır; sınıfın adı önceden verilmez, ortak davranışla kurulur."}]},
-    {"finding_ref":"micro:103-3-3-absolute-trust","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":2,"anchor":"{ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} açık bir nesne almadan geldiği için önce inanılan şeyi değil, güven ve emniyet hâlini öne çıkarır; okur bağlılığı adı konmamış bir nesneye değil, yerleşmiş duruma bağlar."}]},
-    {"finding_ref":"micro:103-3-3-established-predicate","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":2,"anchor":"Fiilin geçmiş biçimi ve çoğul sonu bu güven hâlini {ar:ٱلَّذِينَ, tr:ellezîne, gloss:kimseler ki} grubuna bağlar; istisna ihtimali değil, gerçekleşmiş bir grubun ilk şartı olarak duyulur."}]},
-    {"finding_ref":"micro:103-3-3-wider-formula","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":2,"anchor":"Bu ilk fiil, ardından gelen çalışma ve karşılıklı yükleme hareketleriyle birlikte okununca güveni tek başına duran bir etiket olmaktan çıkarıp eyleme ve ortak pratiğe açan bir başlangıç yapar; bu genişleme yine âyetin kendi dizisiyle sınırlıdır."}]},
-    {"finding_ref":"micro:103-3-3-loss-answer","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":2,"anchor":"Önceki kayıp hükmüyle temasında {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} ilk cevabı verir: aynı insan çerçevesi şimdi güven şartına yönelir, fakat sonraki şartlar bu cevabı tamamlamaya devam eder."}]},
-    {"finding_ref":"micro:103-3-3-security-commitment","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":2,"anchor":"Kelimenin güvenlik, güvenilirlik ve bağlanma alanı, nesnesi söylenmeyen bu biçimde yerleşmiş bir güven taahhüdü hissi verir; böylece tercümedeki “inanma” sözü güvene kavuşmuş bir hâli de taşır, ayrı bir tasdik dalını değil."}]},
-    {"finding_ref":"micro:103-3-3-escape-sequence","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":2,"anchor":"{ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} önceki isim hükmünden sonra gelen ilk tamamlanmış çoğul fiil olarak kaçış zincirini başlatır; sesin açılıp burun kapanışına yerleşmesi, bu ilk hareketin güvene oturmasını da duyurur."}]},
-    {"finding_ref":"micro:103-3-4-ordered-progression","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"İlk {ar:وَ, tr:ve, gloss:ve} hem güveni ve işi eşit düzeyde bağlar hem de sıralanışta güvenden işe doğru bir hareket hissettirir; bu hareket bağlacın kendi zaman anlamı değil, kelimelerin düzenidir."}]},
-    {"finding_ref":"micro:103-3-4-faith-work","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"Aynı bağlaç, {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} fiilini {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} fiiline eş koşar; çalışma imanın içine eritilmez, istisnanın ayrı bir şartı olarak eklenir."}]},
-    {"finding_ref":"micro:103-3-4-formula-hinge","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"Güvenle iş arasındaki bu küçük {ar:وَ, tr:ve, gloss:ve}, tanınabilir güven-eylem dizisinin menteşesidir; iki fiili birleştirirken anlamlarını tek fiile indirmez."}]},
-    {"finding_ref":"micro:103-3-5-directed-work","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"{ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} tamamlanmış ve nesne alan bir fiildir; hemen ardından gelen {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} işi belirsiz bir faaliyetten belirli bir iyileştirme yönüne çevirir."}]},
-    {"finding_ref":"micro:103-3-5-trust-repair-formula","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"Bu komşuluk, güveni onarıcı işle bağlayan yerleşik bir ilişki kurar: güven burada dışarıdan görülen bir işe, iş de rastgele eyleme değil, ıslah yönüne bağlanır; iki yüklem yine ayrı kalır."}]},
-    {"finding_ref":"micro:103-3-5-outward-pivot","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"İkinci fiilin güvenden dışarıya dönük oluşu, tamamlanmış çoğul sonunun sonraki fiillerle sürdürdüğü ses çizgisinde belirir; grup ne olduğunu söylemekle kalmaz, bir şeyi yapar."}]},
-    {"finding_ref":"micro:103-3-5-purposeful-agency","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"{ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} kök alanının bilinçli yapma ve üretme baskısıyla grubu bu işin doğrudan faili kılar; faydalanan pasif bir topluluk değil, nesnesine yönelen yapanlardır."}]},
-    {"finding_ref":"micro:103-3-5-same-subject","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":3,"anchor":"Fiilin çoğul öznesi önceki {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} ile aynıdır; aynı ilgi grubu güveni taşıdığı gibi işi de yapar ve şartlar kopuk örnekler hâline gelmez."}]},
-    {"finding_ref":"micro:103-3-6-repair-formula","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":4,"anchor":"{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} çalışmanın nesnesi olarak güven-eylem dizisini onarım yönünde sabitler; iyi ve düzgün hâle getirme, önceki fiilin açtığı işi tamamlar."}]},
-    {"finding_ref":"micro:103-3-6-definite-deed-class","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":4,"anchor":"Bu kelimenin belirli dişil çoğul ortak-iştirakçi biçimi, insanları adlandırmaz; çalışmanın yöneldiği bilinen iyileştirici işler sınıfını adlandırır."}]},
-    {"finding_ref":"micro:103-3-6-payload-parallel","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":4,"anchor":"İlk belirli içerik adı olan bu kelime, biraz sonra gelecek belirli hak ve sabır adlarını önceden biçimsel olarak hazırlar; başındaki birleşmiş belirteç de okunuşu sıkılaştırır, fakat üç isim aynı görevde değildir."}]},
-    {"finding_ref":"micro:103-3-6-repair-answer","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":4,"anchor":"Böylece kayıp teşhisine verilen cevap, yalnızca iyi işlerin listesi değil, bozulmuş olanı düzgün ve sağlam hâle getiren eylem olarak görünür; onarım ilişkisi güveni ve diğer şartları silmez."}]},
-    {"finding_ref":"micro:103-3-6-substantive-object","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":4,"anchor":"Sıfat kökenli kelimenin doğrudan nesne olması, çalışmanın “iyi olan” bir niteliğe yöneldiğini gösterir; gizli bir “işler” kategorisi bu tekil kalite kelimesinin içinde yoğunlaşır."}]},
-    {"finding_ref":"micro:103-3-7-condition-beat","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"İkinci {ar:وَ, tr:ve, gloss:ve} bu zincirin ortasında işitilen bir eştir; yeni bir yüklem açar ve önceki güven-iş ikilisinden topluluk içi yüklemelere geçişi duyurur."}]},
-    {"finding_ref":"micro:103-3-7-reciprocal-condition","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"Bu bağlaçtan sonra gelen {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} gerçeği tavsiye etmeyi üçüncü, kendi başına eklenmiş bir şart yapar; iş cümlesinin açıklaması değildir."}]},
-    {"finding_ref":"micro:103-3-7-communal-pivot","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"Yerinin ürettiği 2+2 düzeninde ilk iki şart güven ve iştir, son iki şart ise birbirine yönelen uygulamalardır; orta bağlaç bireysel olandan toplumsal olana dönerken tek ilgi cümlesini korur."}]},
-    {"finding_ref":"micro:103-3-8-echo-pair","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"İlk {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} sonraki tekrarın yankısını hazırlar; aynı karşılıklı fiil iki ayrı içeriği taşıyacağı için ilk tavsiye kapanıştan önce tamamlanmış değil, devamı olan bir eylem gibi işitilir."}]},
-    {"finding_ref":"micro:103-3-8-connective-charge","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"Bu fiilin biçimi, öğüdü bir yönden aşağıya indiren emirden daha bağlayıcı bir karşılıklı emanet ve bağlantı hareketi kurar; grup hem iletir hem de kendisine iletileni alır."}]},
-    {"finding_ref":"micro:103-3-8-counsel-contrast","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"Buradaki yerleşik karşılıklılık, buyurma tonuna yaklaşan farklı bir aktarım biçimiyle karşılaştırıldığında daha belirginleşir; varyant yalnızca bu yatay danışma çerçevesini aydınlatır, asıl yüzeyi değiştirmez."}]},
-    {"finding_ref":"micro:103-3-8-payload-separation","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"Fiilin içine yerleşen taraflar ile ardından gelen {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} birbirinden ayrıdır: fiil kimlerin karşılıklı yüklediğini, bāʾlı tamlama ise neyin taşındığını gösterir."}]},
-    {"finding_ref":"micro:103-3-8-rare-formula","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"Bu seyrek ve tekrarlı karşılıklı yükleme biçimi, ilk topluluk cümlesine özel bir ağırlık verir; biçimsel işaret açıklayıcıdır, olağan birbirine tavsiye anlamı yerinde kalır."}]},
-    {"finding_ref":"micro:103-3-8-reciprocal-charge","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":5,"anchor":"İlk tavsiye fiilindeki karşılıklılık, her üyeyi hem tavsiye eden hem tavsiyeyi alan yapar; topluluk tek bir sesin pasif dinleyicisi değil, yükü birlikte dolaştıran bir özne olur."}]},
-    {"finding_ref":"micro:103-3-9-ba-payload","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":6,"anchor":"{ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} içindeki bāʾ, hakikati ilk karşılıklı yüklemenin içeriği ve ona ulaşmanın yolu olarak bağlar; “gerçek” burada insanlar hakkında gevşek bir niteleme değil, aralarında taşınan şeydir."}]},
-    {"finding_ref":"micro:103-3-9-bounded-payload","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":6,"anchor":"Belirli artikel ile gelen bu isim, karşılıklı eylemin önüne belirsiz bir kanaat değil, tanınan ve sınırları olan bir hakikat-hak alanı koyar; kesinlik ve yükümlülük tonları bu alanın içindedir."}]},
-    {"finding_ref":"micro:103-3-9-truth-endurance","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":6,"anchor":"Aynı bāʾlı yer, biraz sonra sabırla yineleneceği için hakikat ve sabır iki ayrı fakat eşlenmiş topluluk görevi olarak görünür; paralellik ikisini birbirine eritmez."}]},
-    {"finding_ref":"micro:103-3-9-truth-link","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":6,"anchor":"Bāʾ ve belirtecin kelimeyi tek bir sıkı ses birimine bağlaması, hakikat yükünü başlangıçtaki güvene geri bağlayan bir işitsel ve anlamsal halka kurar; bu halka hakikatin kendi anlamını korur."}]},
-    {"finding_ref":"micro:103-3-9-right-due","landings":[{"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":6,"anchor":"{ar:حَقِّ, tr:hakk, gloss:gerçek, hak ve borç} sözü doğruluğu taşırken aynı anda sahibine ait payı, yerine getirilmesi gereken hakkı ve bağlayıcı borcu da duyurabilir; bu genişleme ilk anlamın içine eklenir, onun yerine geçmez."}]},
-    {"finding_ref":"micro:hft-reciprocal-maintenance","landings":[
-      {"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":8,"anchor":"İhtiyat payı taşıyan bir başka yerel okumada, ilk bakışta dört niteliği sıralayan istisna cümlesi, {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} ile başlayan güvenin işi ve onarımı doğurup hak ve sabır yüklemeleriyle ayakta tutulduğu, kendi kendini sürdüren bir düzenek olarak da görünür; bu imge olağan dört şartı korur."},
-      {"movement_refs":["activation:0"],"paragraph":8,"anchor":"Burada {ar:ءَامَنُوا۟, tr:âmenû, gloss:inandılar ve güvene girdiler} kelimesindeki doğru sayıp kabul etme yönü, hemen yanındaki {ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} fiilinin dışa dönük işiyle buluşur; güven, topluluğun uygulamaya koyduğu iç taahhüt hâline gelir."},
-      {"movement_refs":["activation:1"],"paragraph":8,"anchor":"{ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} kelimesindeki bilerek yapılan iş, {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} nesnesiyle karşılaşınca, becerilerin rastgele kullanımı değil, onarıma yönelen amaçlı müdahale okunur."},
-      {"movement_refs":["activation:2"],"paragraph":8,"anchor":"{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} kelimesindeki iyi ve düzgün hâle getirme, önündeki iş fiilinden aldığı temasla bozulmaya karşı onarım yönü kazanır; imge, iyiliği yalnız nitelemekle kalmaz, sağlamlaştırır."},
-      {"movement_refs":["activation:3"],"paragraph":8,"anchor":"İki {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} fiili, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} ve {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} yüklerini insanlar arasında dolaştırır; böylece bakım tek kişinin işi değil, üyelerin birbirine tekrar tekrar aktardığı bir düzen olur."},
-      {"movement_refs":["activation:4"],"paragraph":8,"anchor":"{ar:حَقِّ, tr:hakk, gloss:gerçek ve sağlam olan} kelimesindeki gerçeğe uygun sağlamlık, sabrın aynı kalıptaki dönüşüyle buluştuğunda, ortak düzenin neye göre yönleneceğini belirleyen bir doğruluk ekseni kurar."},
-      {"movement_refs":["activation:5"],"paragraph":8,"anchor":"Son {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} kelimesindeki kendini tutarak dayanma, hakikatin yön verdiği işi sarsıntı altında sürdürür ve güven-iş-onarım halkasının dağılmasını önler; bu imge güvenlik dalını değil, özdenetimi taşır."}
-    ]},
-    {"finding_ref":"micro:hft-custody-of-due-claims","landings":[
-      {"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":9,"anchor":"Başka bir ihtiyatlı okumada, önce “doğru şeyleri birbirine tavsiye eden ve ayrı ayrı sabredenler” diye duran topluluk, şimdi hakikatin, kişiye ait payların ve birbirinin dayanma gücünün karşılıklı emanetçisi olarak da görünür; bu ek görüntü sıradan tavsiyeyi muhafaza eder."},
-      {"movement_refs":["activation:0"],"paragraph":9,"anchor":"{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} kelimesindeki başkasına bırakılan iş talimatı yönü, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} ile birleşince tavsiyeyi bir işin sorumluluğunu birbirine emanet etmeye yaklaştırır; miras veya yetki devri anlamı kurulmaz."},
-      {"movement_refs":["activation:1"],"paragraph":9,"anchor":"Aynı {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} kelimesinin birbirine öğüt iletme çekirdeği, {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} ile buluşarak dayanmayı üyelerin hem verdiği hem aldığı bir yük yapar; iletişim bütün biçimlere genişletilmez."},
-      {"movement_refs":["activation:2"],"paragraph":9,"anchor":"{ar:حَقِّ, tr:hakk, gloss:gerçek, hak ve pay} kelimesindeki sahibine bağlı pay, iki karşılıklı yükleme fiilinin arasında belirince, hakikat sözü başkalarının korunacak talebini ve ondan istenebilecek payı da taşır; belirli bir hukuk vakası varsayılmaz."},
-      {"movement_refs":["activation:3"],"paragraph":9,"anchor":"Aynı {ar:حَقِّ, tr:hakk, gloss:gerçek, hak ve pay}, karşılıklı tavsiyenin nesnesi olduğunda korunması gereken bir hak görünümü kazanır; doğruluk anlamı yerinde dururken topluluk onu çiğnetmemeyi de üstlenir."},
-      {"movement_refs":["activation:4"],"paragraph":9,"anchor":"{ar:صَبْرِ, tr:sabr, gloss:sabır ve dayanma} kelimesinin yükümlülük için güvence veren kişi yönü, onu önceleyen karşılıklı fiille temas edince, sabrı başkasının yükünü birlikte taşıma olarak genişletir; tek başına borç iddiası kurulmaz."},
-      {"movement_refs":["activation:5"],"paragraph":9,"anchor":"{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} kelimesinin onarım alanı, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} ile korunan iddialarla buluştuğunda, doğruluğu korurken çatışmayı ilişkiyi yeniden kuran bir iyileşmeye çevirebilir; bu yalnızca ihtiyatlı bir sosyal sonuçtur."}
-    ]},
-    {"finding_ref":"micro:hft-repair-verification-workshop","landings":[
-      {"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":10,"anchor":"Daha imgesel ve ihtiyatlı bir okumada, “iyi işler yapıp gerçeği söyleyenler” diye okunan cümle, kapasitelerin işe koşulduğu, bozulmanın onarıldığı, doğruluğun sınanıp sağlamlaştırıldığı ve sabrın düzeltmenin kuvvetini düzenlediği bir çalışma düzeni olarak da belirir; bu somut atölye resmi lafzî bir işlik sahnesi değildir."},
-      {"movement_refs":["activation:0"],"paragraph":10,"anchor":"{ar:عَمِلُوا۟, tr:amilû, gloss:yaptılar ve iş gördüler} fiilinin işe koşma ve kullanma yönü, {ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} nesnesinin onarım yönüyle buluşunca, kapasite bir sonuca uygulanır ve iş genel hareket olmaktan çıkar."},
-      {"movement_refs":["activation:1"],"paragraph":10,"anchor":"{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} içindeki düzeltme anlamı, aynı iş fiilinin bilinçli eylemiyle temas ederek bozulmuş olanı yeniden düzgün hâle getiren bir işlem görüntüsü kurar; uzlaşma dalı bunun zorunlu sonucu değildir."},
-      {"movement_refs":["activation:2"],"paragraph":10,"anchor":"{ar:حَقِّ, tr:hakk, gloss:gerçek ve hak} sözünün doğruluğu belirleme ve gösterme yönü, iş fiilinin amaçlı hareketiyle buluştuğunda, topluluğun hakikati yalnız adlandırmayıp görünür kılmaya çalıştığı okunur; sıradan “hak” anlamı korunur."},
-      {"movement_refs":["activation:3"],"paragraph":10,"anchor":"{ar:حَقِّ, tr:hakk, gloss:gerçek ve hak} kelimesinin sıkı dokunmuş veya sağlam kurulmuş kullanımı, onarıcı işin yanında hakikati bir arada tutan maddi bir benzetme verir; âyette kumaş ya da sözün gerçek sahnesi kurulmadığı için bu bağ ihtiyatlı bir imgedir."},
-      {"movement_refs":["activation:4"],"paragraph":10,"anchor":"Son {ar:بِٱلصَّبْرِ, tr:bi's-sabr, gloss:sabırla ve dayanmayla} kelimesindeki kendini tutarak dayanma, düzeltme işinin şiddetini ve süresini düzenleyen fren gibi çalışır; sabır yine içsel özdenetimdir, dıştan zorlama değildir."}
-    ]},
-    {"finding_ref":"micro:hft-fit-join-contain","landings":[
-      {"movement_refs":["discovery:claim","discovery:mechanism","discovery:reader_payoff","discovery:containment"],"paragraph":11,"anchor":"En ihtiyatlı, malzeme duyarlı okumada, “iyi işler” ile “birbirlerine tavsiye” arasındaki cümle, uygun parçaların bağlandığı, hakikatin eklem noktası olduğu ve sabrın kenar ile mühür gibi bütünü tuttuğu bir mimariyi de çağrıştırır; bu görüntü olağan anlamları askıya almaz."},
-      {"movement_refs":["activation:0"],"paragraph":11,"anchor":"{ar:ٱلصَّٰلِحَٰتِ, tr:sâlihât, gloss:iyileştirici ve düzgün işler} kelimesindeki sana uygun olma yönü, ilk {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} fiilinin bağlama hareketiyle temas edince, her iyileştirici işin yöneldiği ihtiyaca oturan bir parça gibi görünür; belirli bir alıcı atanmaz."},
-      {"movement_refs":["activation:1"],"paragraph":11,"anchor":"İki {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine tavsiye ettiler} fiilindeki bir şeyi başka şeye bağlama yönü, {ar:بِٱلْحَقِّ, tr:bi'l-hakk, gloss:gerçek ve hak} yükünü ortak nokta yaparak cümle parçalarını bitişik sürdürür; bitki veya arazi sürekliliği ileri sürülmez."},
-      {"movement_refs":["activation:2"],"paragraph":11,"anchor":"{ar:حَقِّ, tr:hakk, gloss:sınırlı bir adlandırma içindeki eklem yeri} kelimesinin sınırlı adlandırma kümesindeki eklem yeri, ilk karşılıklı fiilin bağlantısıyla buluştuğunda hakikati iki parçanın döndüğü bir eklem gibi hissettirir; bu, genel sözlük anlamı değil, bağlı bir imgedir."},
-      {"movement_refs":["activation:3"],"paragraph":11,"anchor":"{ar:صَبْرِ, tr:sabr, gloss:sabır ve dayanma} kelimesindeki üst ya da yan sınır, hakikat etrafında kurulan bu birleşime bir çalışma kenarı verir; âyet gerçek bir kap veya duvar anlatmadığı için mekânsal ayrıntı yalnız imgesel düzeydedir."},
-      {"movement_refs":["activation:4"],"paragraph":11,"anchor":"Aynı {ar:صَبْرِ, tr:sabr, gloss:sabır ve dayanma} kelimesinin şişe ağzını kapatan tıkaç yönü, son yük konumuyla buluşunca sabrı birleşmiş bütünü taşırmadan kapatan mühür gibi duyurur; gerçek bir şişe sahnesi kurulmaz."}
-    ]}
+    {
+      "finding_ref": "micro:cand_dcf0ff1a232180905487",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_1bcf99a04dd2b4b297c1",
+            "obligation:sup_1f7152655012daec177f"
+          ],
+          "paragraph": 1,
+          "anchor": "Son bağlayıcı {ar:وَ, tr:wa, gloss:ve}, olağan eşgüdüm görevini korurken, yinelenen karşılıklı fiili ve sonundaki sabır öbeğini yan yana getirir; böylece sabır dördüncü koşul olarak eklenir ve {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat} ile {ar:ٱلصَّبْرِ, tr:aṣ-ṣabr, gloss:sabır} yüzeydeki paralellik sayesinde sıkı bir çift oluşturur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_5e0f464417c259f85134",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_1f7152655012daec177f",
+            "obligation:sup_d31a97f535b59e7d0a22"
+          ],
+          "paragraph": 1,
+          "anchor": "Birikimli dizideki bu son wa, üçüncü bağlayıcı olarak son karşılıklı cümleden hemen önce duyulur; sayım vuruşu koşulların ritmini belirginleştirir ama bağlacın “ve” anlamını değiştirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_6eea651b58e5d9be0416",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_1f7152655012daec177f",
+            "obligation:sup_60de97af4e6a8a2bce32"
+          ],
+          "paragraph": 1,
+          "anchor": "Aynı bağlaç, sabır içeriğini hakikat ifadesinin içine katmak yerine ikinci karşılıklı yükleme ayrı bir eşgüdümlü cümle olarak bağlar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_9975a5a3495e6f3fbc29",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_be95909d596d26d8a43b"
+          ],
+          "paragraph": 1,
+          "anchor": "{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt vermek} fiilinin aynı çoğul özne altında yinelenmesi, dayanmayı tek kişinin niteliği olmaktan çıkarıp ortak bir davranışa yerleştirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_25f7d994d43fd77338d3",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_9eca6831d18fef624982",
+            "obligation:sup_be95909d596d26d8a43b"
+          ],
+          "paragraph": 1,
+          "anchor": "Bu tekrar, dayanmayı karşılıklı öğüdün ikinci içeriği yapar: İlkinde hakikat, ikincisinde sabır konuşulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_b65e0940956d9f84dec4",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_2162f6c1ee1132e04e97",
+            "obligation:sup_be95909d596d26d8a43b"
+          ],
+          "paragraph": 1,
+          "anchor": "İkinci fiilin tam biçimi yeniden söylenince, dayanma için ayrı ve bütünüyle seslendirilen bir karşılıklı eylem kurulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_dc9e24318cb778bdaf26",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_3690ae68efd33ca73ebf",
+            "obligation:sup_be95909d596d26d8a43b"
+          ],
+          "paragraph": 1,
+          "anchor": "Fiildeki yinelenen ıslıklı ses çerçevesi kulağı son sabır ismine taşır; bu, söz dizimine eşlik eden işitsel bir izlenimdir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_0e9b01e82a3e897ff514",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_776895f42afae6b0e994",
+            "obligation:sup_be95909d596d26d8a43b"
+          ],
+          "paragraph": 1,
+          "anchor": "Karşılaştırmada sunulan emir biçimlerine rağmen, burada görünen Form VI biçimi karşılıklı öğüt ve yükümlendirme anlamını korur; emir biçimleri bu yerel formun yerine geçirilmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_84c68480fb32d69cd9bc",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_be95909d596d26d8a43b",
+            "obligation:sup_fb7ac74fe2f1e88afbaf"
+          ],
+          "paragraph": 1,
+          "anchor": "Son cümle, aynı karşılıklı eyleyiciliği dayanma içeriği için yeniden başlatır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_6d6c46f81a8c216aea86",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_1ab51a1af9723ec28707",
+            "obligation:sup_8408729e64b3974d2b59"
+          ],
+          "paragraph": 1,
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} biçimindeki belirli mastar, önceki bâ’lı hakikat öbeğini yankılayan son içerik olarak karşılıklı fiile bağlanır; böylece sabır baskı altında etkin kendini tutma olarak duyulur, edilgin bekleyiş olarak değil."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_bd763dd804526e086cf4",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_6c67e798c701bd6beae0",
+            "obligation:sup_8408729e64b3974d2b59"
+          ],
+          "paragraph": 1,
+          "anchor": "Belirlilik, sabrı öğüdün taşınan niteliği halinde sunar; bu nitelik ayrı bir konu değil, ikinci karşılıklı yüklemin içeriğidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_2dac91d3e273efb3255e",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_8408729e64b3974d2b59",
+            "obligation:sup_b8807a4760015dffbdef"
+          ],
+          "paragraph": 1,
+          "anchor": "Bâ’lı sabır öbeği dilbilgisel olarak ikinci tawāṣaw fiilinin son tamamlayıcısıdır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_a5f2039eae3fbf2dae44",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_7798c7c8cd4a3246f501",
+            "obligation:sup_8408729e64b3974d2b59"
+          ],
+          "paragraph": 1,
+          "anchor": "Sunulan hareke varyasyonları, yerel olarak seçilen dayanma anlamının çevresinde bir sınanma ve baskı ihtimalini duyurur, fakat burada öne çıkan okuma yine sabır ve kendini tutmadır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_fe00f04a954ea13ad34f",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_1eefbd9b17b05fceeca1",
+            "obligation:sup_8408729e64b3974d2b59"
+          ],
+          "paragraph": 1,
+          "anchor": "Sondaki bu kelime, koşul dizisini ölçülü dayanmayla kapatır; önceki hakikat öbeğine paralel son konumu iki içeriği eşleşmiş bir çift gibi okumayı destekler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_48061c078b383f1da949",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_4bfc04eceeaaba80755a",
+            "obligation:sup_8408729e64b3974d2b59"
+          ],
+          "paragraph": 1,
+          "anchor": "Hakikat ile sabır bu nedenle dizinin sonunda aynı karşılıklı eylemin yerel olarak eşleşen iki içeriği gibi durur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_10c54cba25ec9365a8d7",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_553097204ef9bfdaa06f",
+            "obligation:sup_fbf43bc8d7e2edb79db4"
+          ],
+          "paragraph": 2,
+          "anchor": "{ar:إِلَّا, tr:illā, gloss:ancak; hariç} edatı ayet sınırından sonra hamzalı başlangıcıyla işitilir bir dönüş yapar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_41b39472c6f726ee5d6e",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_fbf43bc8d7e2edb79db4"
+          ],
+          "paragraph": 2,
+          "anchor": "Bu istisna, hemen ardından gelen bağıl sınıfa açılır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_e6f17a8067fd487265a9",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_fbf43bc8d7e2edb79db4"
+          ],
+          "paragraph": 2,
+          "anchor": "İstisna edatı, arkasından gelen bağıl zamiri ve onun yüklemlerini kapsayarak dışarıda kalan grubu belirtilen koşullarla sınırlar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_8f2c10300c3d61ae3e30",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_f21c3ebb7de8d3c485cc",
+            "obligation:sup_fbf43bc8d7e2edb79db4"
+          ],
+          "paragraph": 2,
+          "anchor": "Bu nedenle kapsam yalnız ilk isme değil, bağıl cümlenin tamamına ve onun eşgüdümlü yüklemlerine uzanır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_f1a403d8ce391dc77e04",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_b056aad2edd1420e6e61",
+            "obligation:sup_f6f15e8d1f93bcb48751"
+          ],
+          "paragraph": 2,
+          "anchor": "{ar:ٱلَّذِينَ, tr:alladhīna, gloss:o kimseler} başı, üyeliği ardından gelen eylemlerle tarif edilen tek bir çoğul sınıf kurar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_cc44e40b5ade99f458d8",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_a01fbc689a8a8a2a9be2",
+            "obligation:sup_f6f15e8d1f93bcb48751"
+          ],
+          "paragraph": 2,
+          "anchor": "Çoğul bağıl baş ile dört koşul, istisnayı tekil bir erdem listesi değil, ortaklaşa yaşanan bir pratik sınıfı haline getirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_4eb8c1e027fbf54e4494",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_66a41bd732a30aee5743",
+            "obligation:sup_f6f15e8d1f93bcb48751"
+          ],
+          "paragraph": 2,
+          "anchor": "Bu başın altında dört yüklemin de aynı bağıl cümlede kalması, fiillerin bağımsız ve sınıfsız hükümler gibi havada durmasını önler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_ae344a6c538b13b75b91",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_f6f15e8d1f93bcb48751"
+          ],
+          "paragraph": 2,
+          "anchor": "Böylece alladhīna, üyeleri sonradan sıralanan yüklemlerle belirlenen genel bir çoğul grubu açar; bu, başın yerel sözdizimsel işidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_fafcd21cd803534c296f",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_197e1e3695f55e1e768a",
+            "obligation:sup_23d35cb27bf96a1eaeb6"
+          ],
+          "paragraph": 3,
+          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:inanıp güvenmek} nesnesi belirtilmemiş yerleşik bir güven koşulunu bildirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_cdf087850184c502eebc",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_23d35cb27bf96a1eaeb6",
+            "obligation:sup_b409d4331c17025a34b9"
+          ],
+          "paragraph": 3,
+          "anchor": "Bağıl başa bağlı geçmiş/perfekt çoğul yüklem bu durumu aynı grubun niteliği olarak sabitler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_47d90e9e800fa8dd2ec2",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_23d35cb27bf96a1eaeb6",
+            "obligation:sup_d09e0f1d5c41efadd1f9"
+          ],
+          "paragraph": 3,
+          "anchor": "Güven burada daha geniş bir şart dizisinin açılışıdır, kendi başına tamamlanmış bir bütün değil."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_d371b5473462b40bc406",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_23d35cb27bf96a1eaeb6"
+          ],
+          "paragraph": 3,
+          "anchor": "İstisna sınıfının ilk adı geçen yüklemi olması, grubun odağını önce güvene çevirir ve ardından gelecek çalışma koşuluna zemin hazırlar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_5b306c0c1cc03d4f392d",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_23d35cb27bf96a1eaeb6",
+            "obligation:sup_cc6f05bf221ef366aaab"
+          ],
+          "paragraph": 3,
+          "anchor": "أمن ailesinin güvenlik ve emin olma alanı, Form IV’ün kurduğu yerleşik iman/güven durumuna renk katar; yine de fiil bu cümlede bir iman nesnesi adlandırmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_2086d2aaf93d21cb37cd",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_23d35cb27bf96a1eaeb6",
+            "obligation:sup_e26699bf72d7d1dc38e1"
+          ],
+          "paragraph": 3,
+          "anchor": "Kelimenin başlangıçtaki uzun açılışı ve sondaki nazal kapanışı, şart dizisini ses bakımından açıp yatıştıran bir izlenim verir; bu işitsel etki gramerdeki çoğul geçmiş yüklem okumasının yerine geçmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_c6d2b1d7f9b171bad697",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_178015d2973b3825cf1c",
+            "obligation:sup_de38b1b521ac2565acf4"
+          ],
+          "paragraph": 4,
+          "anchor": "Güven yükleminden sonraki {ar:وَ, tr:wa, gloss:ve} yeni koşulu eklerken dizilişi güven durumundan dışa dönük işe doğru ilerletir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_59ef14565fde64c2d57b",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_178015d2973b3825cf1c",
+            "obligation:sup_17dae24fb9c104c887ff"
+          ],
+          "paragraph": 4,
+          "anchor": "Bağlaç, işi güvenin içine eritmez; onu onunla eşgüdümlenmiş ayrı bir koşul yapar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_68d7dc813ed4892f700f",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_178015d2973b3825cf1c",
+            "obligation:sup_5bd17ef051504b69eda2"
+          ],
+          "paragraph": 4,
+          "anchor": "Böylece güven ile çalışma, birbirinden kopuk iki fiil değil, sıralı bir çift olarak duyulur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_77f717388726b9ae57ea",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_69db668967cb9e281790",
+            "obligation:sup_9d3c1916126e1ef38b9b"
+          ],
+          "paragraph": 4,
+          "anchor": "{ar:عَمِلُوا۟, tr:ʿamilū, gloss:iş yaptılar} belirli onarıcı eylemleri doğrudan nesne alan yerleşik bir iş yüklemidir; ikinci koşul belirsiz bir meşguliyet değil, yöneltilmiş çalışmadır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_70beda1250fcc2504cb9",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_5fd0b2f81b9ea305dffd",
+            "obligation:sup_9d3c1916126e1ef38b9b"
+          ],
+          "paragraph": 4,
+          "anchor": "Güven, iş ve onarıcı eylemler bu ayette tanıdık bir yerel birliktelik halinde sıkıştırılır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_9fc80777eb58ce6d6491",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_0db2c799267bc98d4c23",
+            "obligation:sup_9d3c1916126e1ef38b9b"
+          ],
+          "paragraph": 4,
+          "anchor": "Eylem, içteki güveni dışarıda gerçekleşen onarıcı işe taşır; birbirine uyan çoğul geçmiş ekleri koşullar zincirini aynı özne çevresinde birleştirir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_05b89b10948dd1532f68",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_9d3c1916126e1ef38b9b",
+            "obligation:sup_f02073f7ddd8c523965b"
+          ],
+          "paragraph": 4,
+          "anchor": "Fiilin açık öznesi istisna edilen gruptur: grup, işin edilgin yararlanıcısı değil, amaçlı eylemin doğrudan failidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_6b725685ceb88a8c0149",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_0d1baa2f46d9f03ada29",
+            "obligation:sup_9d3c1916126e1ef38b9b"
+          ],
+          "paragraph": 4,
+          "anchor": "Bu iş yükleminin çoğul öznesi de ilk güven koşulunda kurulan aynı gruptur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_0638367de030d5949612",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_bdd3437d811ba6a12c19",
+            "obligation:sup_e3fa6fe0fb93df02c462"
+          ],
+          "paragraph": 5,
+          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:onarıcı ve düzgün işler} amaçlı çalışmaya yön verdiği gibi, belirli müennes çoğul sıfat-isim olarak iş fiilinin doğrudan nesnesi konumundadır; böylece çalışma için onarıcı nesne sağlar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_9ebea49e53f66b848d7d",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_e3fa6fe0fb93df02c462",
+            "obligation:sup_f3deac4aa1dd3a6b1257"
+          ],
+          "paragraph": 5,
+          "anchor": "Belirli müennes çoğul biçim insanları değil, bilinen bir onarıcı işler sınıfını adlandırır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_47359b5e1a9916864b74",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_d6b4425ed0d0a7836a67",
+            "obligation:sup_e3fa6fe0fb93df02c462"
+          ],
+          "paragraph": 5,
+          "anchor": "Nesne konumundaki bu işler, daha sonra gelen belirli hakikat ve sabır içeriklerini önden haber verir; şemsî harfin benzeşmesi de telaffuzda belirli artikelin başlangıcını sıkılaştırır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_a0d34e8d9f6f681cdf90",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_e3fa6fe0fb93df02c462"
+          ],
+          "paragraph": 5,
+          "anchor": "Sözcüğün yerel anlam alanı bozulmanın karşıtı olan düzelme ve onarımdır; bu anlam iş fiilinin nesnesinde korunur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_6229e3ed01ee3958f9f0",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_e3fa6fe0fb93df02c462",
+            "obligation:sup_e9774ccde0ff8013bc68"
+          ],
+          "paragraph": 5,
+          "anchor": "Başka deyişle, soyut bir nitelik değil, onarıcı niteliğin kendisi ʿamilū fiilinin nesne yuvasını doldurur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_64b5364ae066c65bb598",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_57b68c96869bf38bf97d",
+            "obligation:sup_bf0ee50018c13fe6e0e2"
+          ],
+          "paragraph": 5,
+          "anchor": "Bu koşullardan sonra gelen orta bağlaç, toplulukla ilgili cümlelere geçmeden önce ritmik ve işitsel bir koşul vuruşu oluşturur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_7c0ca3da2e913ba77767",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_370b8dfe5fcf48f14ce1",
+            "obligation:sup_bf0ee50018c13fe6e0e2"
+          ],
+          "paragraph": 5,
+          "anchor": "Böylece hakikatle karşılıklı öğüt, önceki güven-iş çiftinin ardından ayrı ve birikimli bir koşul olarak eklenir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_eac5dd9e17a63e7912be",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_325fccfa070c1a2f83d1",
+            "obligation:sup_bf0ee50018c13fe6e0e2"
+          ],
+          "paragraph": 5,
+          "anchor": "Bu bağlacın dönüşü, ayetin güven ve işi topluluk içindeki karşılıklı uygulamaya bağlayan 2+2 hareketini görünür kılar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_764b98bff78b385be422",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_52733c66825a077d3f6f",
+            "obligation:sup_59da99df723e4bef8031"
+          ],
+          "paragraph": 6,
+          "anchor": "İlk {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt ve yükümlülük vermek}, kendisinden sonra gelen bâ’lı hakikat içeriğini taşımaya hazırlanırken, son cümlede aynı fiil farklı bir içerikle eşleşir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_3ce657dd0d55980701d3",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_59da99df723e4bef8031",
+            "obligation:sup_8791c120f54ac67fc80f"
+          ],
+          "paragraph": 6,
+          "anchor": "Bu Form VI çoğul karşılıklılık biçimi, grubun üyeleri arasında aktarılan bir öğüt ya da yükümlülük kurar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_5c91af03e3d079b70d33",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_474643b2d0f694adc67e",
+            "obligation:sup_59da99df723e4bef8031"
+          ],
+          "paragraph": 6,
+          "anchor": "Sunulan kanonik biçim, yukarıdan aşağıya emirden çok karşılıklı öğüt ve yükümlendirmeyi öne çıkarır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_4afaed720146fe073b70",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_59da99df723e4bef8031",
+            "obligation:sup_82699ab740fded504e50"
+          ],
+          "paragraph": 6,
+          "anchor": "Fiilin karşılıklı katılımcıları kendi içinde taşınır; arkasından gelen bâ’lı öbek ise bu eylemin içeriğini verir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_8bac5b1e89ac116fe979",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_311a03d56c8509c63b33",
+            "obligation:sup_59da99df723e4bef8031"
+          ],
+          "paragraph": 6,
+          "anchor": "İlk karşılıklı yükümlendirme bu ayetin sonunda yinelenerek ikinci bir tur kazanır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_6a0d35ec4d933ff7f9ac",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_59da99df723e4bef8031",
+            "obligation:sup_8581f87611dc97fee5f6"
+          ],
+          "paragraph": 6,
+          "anchor": "Bu karşılıklı koşulda grubun her üyesi hem verir hem alır; eylem tek yönlü tavsiye değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_57e6a964beef9fdad9ab",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_3ba41d006e6f57e092dd",
+            "obligation:sup_550905811d5985dc3008"
+          ],
+          "paragraph": 6,
+          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:hakikat ve hak ile} öbeği, öğüdün ilk belirli içeriği olarak hakikati ve hakkı taşır; bâ’lı kuruluşun araç anlamı da mümkün kalır, fakat içerik okuması daha doğrudandır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_c4f06c8a3a97b564281b",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_2ccb45928bfd3a954ee8",
+            "obligation:sup_3ba41d006e6f57e092dd"
+          ],
+          "paragraph": 6,
+          "anchor": "Belirli hakikat/hak öbeği, topluluk içinde aktarılabilir ve sınırları çizilebilir bir yükümlülük içeriği sunar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_57e5ac6320693b673bb3",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_3ba41d006e6f57e092dd",
+            "obligation:sup_fca96444d8928c76744d"
+          ],
+          "paragraph": 6,
+          "anchor": "Yinelenen karşılıklı fiillerden sonra hakikat ve sabrın aynı bâ’lı yuvada gelmesi, onları eşleşmiş yerel içerikler olarak kurar."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_d712ffb02d88106ac05c",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_3ba41d006e6f57e092dd",
+            "obligation:sup_866cb054e739faa8d271"
+          ],
+          "paragraph": 6,
+          "anchor": "İlk bâ’lı öbek, tek bir edatlı birim halinde karşılıklı fiile bağlanır ve başlangıçtaki güven koşuluna geri uzanarak güven ile hakikati yakınlaştırır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_e5272fe2910e4f40fee0",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_3288dc9418c753113f43",
+            "obligation:sup_3ba41d006e6f57e092dd"
+          ],
+          "paragraph": 6,
+          "anchor": "{ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat, gerçek, hak ve borç} sözcüğünün anlam aralığı doğrulukla birlikte kişiye düşen hak, alacak ve bağlayıcı yükümlülüğü de taşır; burada belirli öbek ortaklaşa aktarılabilir içeriktir, adı konmuş bir hukukî talep değil."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_6634ca660d80f6546456",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_77b35e24a9d48332522c"
+          ],
+          "paragraph": 7,
+          "anchor": "Ayet önce istisna edilenlerin olağan biçimde dört niteliğini sıralar; bu sıra, güvenin onarıcı işe dönüşüp hakikat ile kendini tutma üzerine karşılıklı öğüt sayesinde sürdüğü, yalnız bu yerel dizilişe atfedilen bir devre olarak da okunabilir."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:inanıp güvenmek} için “bir haberi veya sözü doğru saymak” anlamı kaynak oluştururken, ardından gelen {ar:عَمِلُوا۟, tr:ʿamilū, gloss:işe koyulmak} ve ortak öğüt, içteki güveni dışa vurup sürdürme tetikleyicisidir; bu okuma iman nesnesini belirlemez."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:عَمِلُوا۟, tr:ʿamilū, gloss:bilerek iş yapmak} olağan kasıtlı eylem anlamını korur; onarıcı işler nesnesiyle hakikat içeriğinin bağımsız teması bu işi kapasite, düşünce ve sözü işe koşma gibi duyurur, ancak bu genişleme sıralamadan çıkarılan bir benzetmedir."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:düzgün ve onarıcı işler} bozukluğun karşıtı olan düzgünlük ve onarımı taşır; çalışmanın fiili ile hakikat yükü kesişince yapılan iş onarıma yönelir, fakat sözcük yine onarıcı işleri adlandırır."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt vermek} içindeki topluluğa bildirilen veya öğütlenen şey anlamı, iki ayrı bâ’lı içerikle bağımsızca tetiklenir; karşılıklı bakım böylece grup üyeleri arasında dağılmış ve yinelenen bir eylem gibi belirir, yalnız bu iki cümleyle sınırlı kalır."
+        },
+        {
+          "movement_refs": [
+            "activation:4"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:gerçeğe uygun olan ve hak} gerçeğe uygun düşeni taşıyan yerel hakikat içeriğidir; tekrarlanan karşılıklı yüklemler onu ortak yön tayin eden bir ölçüye dönüştürür, bu yönelim ise metnin sözcük anlamına eklenen bir benzetmedir."
+        },
+        {
+          "movement_refs": [
+            "activation:5"
+          ],
+          "paragraph": 7,
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabır ve kendini tutma ile} sarsıntı ve yakınma dürtüsüne karşı kendini tutmayı adlandırır; çalışma ve hakikat içeriği bu niteliğe düzenlenecek bir süreç verdiği için sabır, ortak işi baskı altında dağılmaktan koruyan ölçü gibi okunabilir, edilgin bekleyiş anlamı çıkarılmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_4a52d7fec83ed679ab8e",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_e2720e59cf8fdf61c5df"
+          ],
+          "paragraph": 8,
+          "anchor": "Bir başka sınırlı toplumsal okumada, olağan “birbirine doğru şeyleri öğütler, bireysel olarak sabrederler” anlamı korunur; karşılıklı öğüt, hakikat ve somut hakların birbirine emanet edilmesini, sabır da kişiler arası sorumluluğu düşündürür."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 8,
+          "anchor": "{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:karşılıklı öğüt} için başkasına bırakılan talimat ya da istek anlamı, hakikat ve sabır yüklerinin bâ’lı iki içerik olarak verilmesiyle temas eder; böylece öğüt sıradan sözden çok aktarılan bir emanet gibi duyulur, vasiyet veya ölüm sonrası talimat anlamı ileri sürülmez."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 8,
+          "anchor": "Aynı fiilin çoğul karşılıklılığı, eylemi topluluk içinde hem verilip hem alınan bir sorumluluğa dağıtır; bu, cümlenin yerel karşılıklılığından öteye genellenmez."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 8,
+          "anchor": "{ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hak ve kişiye ait pay} içindeki sahip olunan ve sahibince istenebilen özel hak anlamı, tekrar edilen karşılıklı fiillerle tetiklenince soyut hakikat yanında somut alacak ve hakları da düşündürür; belirli bir hukukî talep adlandırılmaz."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 8,
+          "anchor": "Hak sözcüğünün korunması gereken görev ve borç alanı, karşılıklı öğüdün yinelenmesiyle başkasının hakkını gözetme sorumluluğu gibi işler; korunacak nesne veya yaptırım türü belirtilmez."
+        },
+        {
+          "movement_refs": [
+            "activation:4"
+          ],
+          "paragraph": 8,
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} için başkasının yükümlülüğüne güvence verip maddi yükü üstlenme anlamı, çoğul karşılıklı eylemle temas ettiğinde dayanmayı yalnız başına katlanmak değil, başkasının yükünü taşımaya hazır olma olarak genişletir; gerçek bir kefalet veya hukukî bağ ileri sürülmez."
+        },
+        {
+          "movement_refs": [
+            "activation:5"
+          ],
+          "paragraph": 8,
+          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:onarıcı işler} içindeki çatışmış kişiler arasındaki olumsuzluğu giderme ve uzlaşma anlamı, hakların karşılıklı gözetimle dolaşıma girmesiyle tetiklenir; barışma bu yüzden olası bir toplumsal sonuçtur, garanti edilmiş bir sonuç değil."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_1866556d8b6cfd5a6b3c",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_dccd8d04d9308bdb5729"
+          ],
+          "paragraph": 9,
+          "anchor": "Onarım dizisi olağan dört koşulu koruyarak, kapasiteyi işe koşan, bozukluğu düzelten, söz yoluyla hakikati sağlamlaştıran ve düzeltmenin gücünü sabırla düzenleyen ortak bir atölye süreci olarak da duyulabilir; bu atfedilmiş ilişki ayetin ötesinde bir sistem iddiası taşımaz."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 9,
+          "anchor": "{ar:عَمِلُوا۟, tr:ʿamilū, gloss:işe koşmak} için birini ya da bir şeyi kullanma anlamı, onarıcı işler nesnesi ve hakikat yüküyle bağımsızca buluşur; böylece eylem düşünceyi, sözü ve kapasiteyi uygulamaya sokar, ama fiil olağan kasıtlı iş yapma anlamında kalır."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 9,
+          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve düzgün işler} bozulma ve kötülüğün karşıtı olan yararlı durumu adlandırır; çalışma ve hakikatle teması işi bozukluğu teşhis edip onarmaya yöneltir, atölye yalnızca bir benzetmedir."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 9,
+          "anchor": "{ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat} bir şeyin doğru olduğunu belirleme ve onaylama çekirdeğini taşır; iş ile yinelenen öğüt, hakikati sınama ve doğrulama sürecini çağrıştırır, oysa ayetteki biçim isimdir ve yerel anlamı hakikat/haktır."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 9,
+          "anchor": "Hakikat için verilen sıkı dokunmuş kumaş kullanımı, öğüt cümlelerinin söz ortamı tetikleyici olduğunda sonucun bir arada tutulmasına maddi bir imge katar; taşıyıcı yine kumaşı niteleyen sıfat değil, {ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat} ismidir ve dokuma ilişkisi yalnız atfedilmiş bir söz benzetmesidir."
+        },
+        {
+          "movement_refs": [
+            "activation:4"
+          ],
+          "paragraph": 9,
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} sarsıntıya ve yakınma dürtüsüne karşı tutunmayı taşır; işe ve hakikat içeriğine eşlik ettiğinde düzeltmenin kuvvetini ve süresini düzenler, edilgin beklemeyi değil."
+        }
+      ]
+    },
+    {
+      "finding_ref": "micro:cand_09e71340cf040aafef1f",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_f2f8cee26a3d011a95a5"
+          ],
+          "paragraph": 10,
+          "anchor": "Son olarak, olağan şart dizisi fit olmuş bir bütünün benzetmesine de açılır: onarıcı iş ihtiyaca uygunluk, iki karşılıklı öğüt bağlanma, ortadaki hakikat eklem, son sabır ise sınır ve kapama izlenimi verir; bu ihtiyatlı okuma bütün ayete dair bir iddia değildir."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 10,
+          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:uygun ve onarıcı işler} için bir şeyle yöneldiği kişi arasındaki uygunluk anlamı, hakikat ve dayanma içeriklerinin hangi ihtiyacı karşıladığına bakarak tetiklenir; her eylemin karşılık geldiği bir ihtiyaçla uyumu böylece düşünülebilir, ancak metin ihtiyacı açıkça adlandırmaz."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 10,
+          "anchor": "{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine öğüt vermek} kökünün bir şeyi başka şeye bağlama anlamı, iki bâ’lı içeriğin aynı karşılıklı fiile bağlanmasıyla temas eder; iki cümle arasında kurulan bağ, olağan karşılıklı öğüde eklenen bir kök çağrışımıdır."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 10,
+          "anchor": "{ar:ٱلْحَقِّ, tr:al-ḥaqq, gloss:hakikat ve hak} için iki kemiğin birleştiği eklem kullanımı, sözcüğün iki yinelenen öğüt arasında durmasıyla tetiklenir; hakikat bu benzetmede bağlantının döndüğü eklem olur, fakat sözlükte seçilen anlam yine hakikat/haktır."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 10,
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bi-ṣ-ṣabri, gloss:sabırla} için bir bütünün üst ya da yan sınırı anlamı, hakikat yükünün iki yanındaki karşılıklı cümlelerle etkinleşir; sabır ilişkiye çalışır bir sınır kazandırır ama sözcüğün yerel anlamı dayanmadır."
+        },
+        {
+          "movement_refs": [
+            "activation:4"
+          ],
+          "paragraph": 10,
+          "anchor": "Aynı sabır sözcüğünün şişe ağzını kapatan tıkaç kullanımı, birleşmiş cümleleri ve son konumdaki kapanışı tetikleyerek dayanmayı bütünü dağılmaktan koruyan bir mühür gibi duyurur; bu yerel bir benzetmedir, ayet şişeden söz etmez ve tıkaç sabrın sözlük anlamı değildir."
+        }
+      ]
+    }
   ]
 }
-
 </micro_scope_ledger>
 
 <macro_scope_prose>
-Âyet, önceki insanın kayıp içinde oluşuna {ar:إِلَّا, tr:illâ, gloss:ancak ve hariç} diyerek bir sınır çizer; istisnayı tek bir iç nitelik olarak değil, birbirine bağlı bir topluluk olarak kurar. {ar:ٱلَّذِينَ, tr:ellezîne, gloss:o kimseler} ardından gelen çoğul yüklemlerin öznesidir. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} açık bir nesne almadan yerleşmiş güven ve kabulleniş halini, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} bilinçli eylemi, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} ise bilinen ve onarıcı iyi işler sınıfını gösterir. Aradaki {ar:وَ, tr:ve, gloss:ve} bağları bu unsurları birbirinden koparmadan sıralar. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} iki kez gelen karşılıklı bir fiildir; Türkçedeki tek yönlü “tavsiye” sesini genişleterek herkesin birbirine söz ve sorumluluk iletmesini kurar. İlk {ar:بِٱلْحَقِّ, tr:bil-hakk, gloss:gerçek ve hak ile} ortak yüklem gerçeği, hakkı ve bağlayıcı olanı bu karşılıklı aktarımın içeriği yapar; ikinci {ar:بِٱلصَّبْرِ, tr:bis-sabr, gloss:sabır ve dayanma ile} aynı yapıyı dayanma ve kendini tutma içeriğiyle tekrarlar. Belirlilik, söz konusu olanın herhangi bir gerçek veya herhangi bir sabır değil, topluluğun birbirine taşıdığı bilinen yükler olduğunu hissettirir. {ar:إِلَّا, tr:illâ, gloss:ancak ve hariç} başta gelerek önceki hükmü keser, Türkçede sona gelen “hariç” ise bu sınırı cümlenin sonunda yeniden kapatır. Böylece açık zemin şudur: inanan, iyi ve onarıcı işler yapan, gerçeği ve sabrı birbirine karşılıklı olarak taşıyanlar kayıp hükmünün dışında tutulur.
+Önce pasajın kendi çerçevesi korunmalı: {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zamana yemin} ile açılan yemin, önceki {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} hükmündeki genel insan kaybını izler; {ar:إِلَّا, tr:illā, gloss:ancak} istisnası bu hükmü iman eden, iyi işler yapan, hakkı ve sabrı birbirine tavsiye eden gruba daraltır, böylece hemen önceki kayıp önermesine kesin bir karşılık verirken pasajda bulunmayan bir çekim açıklaması ileri sürmez. İstisnanın içeriğinde {ar:ءَامَنُوا۟, tr:āmanū, gloss:inanıp güvenenler} bir sözü ya da hakikati doğru sayıp kabul etme yönüyle {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:bilinçli işler yaptılar} ve {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzeltici işler} ile temas eder; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçekliğe uygun doğruluk} bu işleri, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:özdenetimli sabır} yönündeki dayanmayı birbirine bağlar, önceki genel eksilme karşısındaki iman böylece özel bir iç hâl değil, doğruluk ve sabır için karşılıklı sorumluluk taşıyan onarıcı eylem hâline gelir.
 
-Bu zeminin içinde birkaç ayrı ilişki aynı âyetin uygulama alanını genişletir. Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür; güven, bilinçli iş, iyilik ve gerçeklik aynı çizgide buluştuğunda içteki kabul dışarıda onarıcı bir işe dönüşür; okur, istisnayı kayba sonradan eklenen soyut nitelikler değil, kayba karşı işleyen bir bütün olarak görür; bu bağlamsal okuma olağan istisna anlamını korur ve inancı yalnızca güvenlik haline kapatmaz. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada dogru sayip kabul etme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada gerçekliğe uygun, kesin doğruluk anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gerçekte var olana uygun düşen şey doğru ve sağlamdır. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada genel eksilme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; genel eksilme. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada bilerek yapılan iş veya eylem anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür. Hemen önceki kayıp hükmü, inançtan onarıcı eyleme geçiş içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, inançtan onarıcı eyleme geçiş okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür. Tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır; önceki zaman görüntüsü, iki kez yinelenen karşılıklılık fiiliyle birleşerek bağlı süreleri ortak bir aktarım çizgisine dönüştürür; iki öğütleşme, bir anda sahip olunan özellikler olmaktan çıkıp zaman geçtikçe yenilenen bir bağlılık olarak görünür; bu zaman aktarımı olağan karşılıklı öğütleşmeye eklenen bir katmandır; eylemlerin yalnız aynı anda gerçekleştiği okuma da açıktır. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada yaş veya ardışık zaman anlamını taşırken, {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yaş veya ardışık zaman. Böylece zaman boyunca bağlanan süreklilik, Tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece zaman boyunca bağlanan süreklilik, Tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır. Yeminle açılan zaman çerçevesi, zaman boyunca bağlanan süreklilik için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak zaman boyunca bağlanan süreklilik okumasına döner: tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır. Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir; gerçeğin eklem ve yuva görüntüsü ilişkiye uygun bir yer verir; sabrın sınır ve tıkaç görüntüsü bu yerleşimi kapatır; son iki yüklem, yan yana duran iki erdemden çok, bir bütünü kurup koruyan parçalar halinde duyulur; bu maddi yapı iki odak kelimesinin benzetmesidir; onların olağan anlamlarını gerçek bir kaba indirgemez. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada özel adlandırma kümesi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım iki kemiğin birleştiği eklem yerini gösterir. Böylece uygun yuva ve kapanış, Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada üst ya da yan sınır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir bütünün üstteki bölümü veya yan sınırı belirtilir. Böylece uygun yuva ve kapanış, Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada şişe tıkacı ve tıkama anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Parça, şişe benzeri kabın ağzındaki açıklığı kapatır. Böylece uygun yuva ve kapanış, Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir. İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir; çalışan eller, ücret, çıkarılan ürün, hak ve önceki kayıp, gayretten karşılığa uzanan tek bir zincir kurar; iyi iş, değerini onu yapanın ve karşılığını bekleyenin hakkını taşıyan hesap verebilir bir emek olarak gösterir; ekonomik görüntü bağlamsal bir benzetmedir; ahlaki istisnanın olağan anlamı bu emek ve karşılık katmanıyla birlikte kalır. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bağlayıcı gereklilik ve hak ediş anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin gerekli hale gelmesi, artık kaçınılamayan bir bağlayıcılık doğurur. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada genel eksilme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; genel eksilme. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada verme, ürün ve çıkarılan kazanç anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; verme, ürün ve çıkarılan kazanç. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada iş ücreti anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; İş karşılığı verilen ücret veya çalışanın payı ana anlamdır. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada el işçileri anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ellerini kullanarak çeşitli ağır işleri yapan insan topluluğu ana anlamdır. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir. Yeminle açılan zaman çerçevesi, emek ve hak edilmiş karşılık için önceki kayıp ile bu istisna arasındaki zemini kurar. Hemen önceki kayıp hükmü, emek ve hak edilmiş karşılık içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, emek ve hak edilmiş karşılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak emek ve hak edilmiş karşılık okumasına döner: i̇stisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir. Sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir; odaktaki katmanlı bulut ayrıntısı, önceki zaman âyetindeki yağmur taşıyan görüntüyle buluşarak dayanmayı biriken ve çevresine salınan kapasiteye çevirir; dayanma, yalnız katlanmak değil, biriktirmek, yoğunlaştırmak ve sonunda besleyici bir sonuç bırakmak olarak görünür; bu ekolojik görüntü bağlamdan gelen çözümlenmemiş bir taşıyıcıyla kurulur ve sabrın sözlük karşılığı değildir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada katmanlı beyaz bulut anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gönderge beyaz bir buluttur. Böylece biriken bulut ve salınan bereket, Sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada yağmura dönüşen yağmur bulutları anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yağmura dönüşen yağmur bulutları. Böylece biriken bulut ve salınan bereket, Sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir. Yeminle açılan zaman çerçevesi, biriken bulut ve salınan bereket için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak biriken bulut ve salınan bereket okumasına döner: sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir.
+İnsanı adlandıran {ar:إِنسَٰنَ, tr:insān, gloss:insan} görme, duyma ya da sezme yoluyla farkına varan bir algılayıcıyı; iman ise güvenli olmanın değil, doğru sayıp kabul etmenin yönünü taşır ve bu iki dal, çoğul grubun birbirine tavsiyesi, yapılan işler ile {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçekliğe uygun doğruluk} içindeki doğruluğu belirleme ve gösterme anlamı sayesinde izlenimden doğrulanmış hakikate doğru bir okuma kurar, ancak ayet belirli bir duyu aracı, haber ya da resmî kanıtlama usulü belirtmez. Başka bir yerdeki {ar:ٱهْدِنَا, tr:ihdinā, gloss:bize yol göster}, yani çoğul yönlendirilme isteği, burada {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine tavsiyede bulundular} ile kurulan yatay karşılıklı aktarımın yanında düşünülünce ortak bir yöneliş ekler; insanın birbirine verdiği öğüt ile Allah'tan istenen hidayet birbirine eşitlenmeden, bu yakınlık yalnızca hak ve sabır tavsiyesinin paylaşılan bir yola dönük duyulmasını sağlar.
 
-Aynı çoğul özne, işi ve güveni beden, gelişim ve sorumluluk görüntüleriyle birlikte taşır. İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir; zamanın gelişim eşiği, odaktaki olgun deve, güçlenmiş beden, sağlamlık ve işe yatkınlık görüntüleriyle temas eder; iyi işler, hesaba eklenen ağırlıklar değil, tamamlanmış bir kapasitenin yerinde kullanılması olarak duyulur; bu gelişim sahnesi ayrı kelime görüntülerinin odak içi bir benzetmesidir ve iyi işlerin olağan çağrısını korur. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada dördüncü yaşındaki yük taşımaya elverişli deve anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Deve üç yaşını tamamlayıp dördüncü yaşına girerek yük ve binme için elverişli hale gelir. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada terlemeyen veya art ayağını ön ayak izine basan at anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Başka açıklamada at art ayağını ön ayağının bıraktığı izin üzerine basar. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada gençliğe veya ergenliğe ulaşan kız anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gençliğe veya ergenliğe ulaşan kız. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe yatkın ve dayanıklı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; İşe yatkın ve çalışmaya elverişli olma niteliği ana anlamdır. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir. Yeminle açılan zaman çerçevesi, olgunluk ve işe elverişlilik için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak olgunluk ve işe elverişlilik okumasına döner: i̇stisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir. İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür; önceki insan görüntüsü, odaktaki güven ve iyileşme ile bağlanır; yakın arkadaş görüntüsü çoğul gruba tanınabilir bir çevre verir; kayıptan istisnaya geçiş, tek başına kurtulmadan güvenilir bir beraberliğe geçiş olarak belirginleşir; bu ilişkisel okuma insan ve odak kelimelerinden çıkar; istisnayı akrabalık şartına indirgemez. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece güvenilir kişi ve yakın çevre, İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yakınlığın kişide veya yakın arkadaşta görünen biçimi anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yakınlığın kişide veya yakın arkadaşta görünen biçimi. Böylece güvenilir kişi ve yakın çevre, İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada kişi adı olan kök türevleri anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Salih, Suleyh ve Muslih biçimleri kişilere özel ad olarak verilir. Böylece güvenilir kişi ve yakın çevre, İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür. Hemen önceki kayıp hükmü, güvenilir kişi ve yakın çevre içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, güvenilir kişi ve yakın çevre okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür. Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür; önceki insanın görme, duyma ve duyumsama görüntüsü, odaktaki kabul ve kanıtla gösterme ayrıntılarına temas eder; karşılıklı öğütleşme, zaten bütünüyle görülmüş bir bilgiyi aktarmaktan çok, gerçeği birlikte görünür ve sınanabilir tutar; duyusal görüntüler bağlamsal olarak temkinle taşınır; gerçek yükleminin olağan anlamı zemin olarak kalır. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada dogru sayip kabul etme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir. Böylece algı, kabul ve doğrulama, Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada görme, duyma veya duyumsamayla bir şeyi fark edilir kılma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; görme, duyma veya duyumsamayla bir şeyi fark edilir kılma. Böylece algı, kabul ve doğrulama, Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece algı, kabul ve doğrulama, Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür. Hemen önceki kayıp hükmü, algı, kabul ve doğrulama içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, algı, kabul ve doğrulama okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür. Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır; sarsıntıya karşı özdenetim, çıkışsız durum, kış ayazı, yorucu tempo ve zahmet odaktaki dayanma kelimesinde birleşir; son yüklem, pasif bekleyişten çok bedenin ve iradenin işi sürdürecek biçimde tutulmasını gösterir; bu sıkıntı görüntüleri odak içindeki ayrı yüzlerdir; sabrı yalnız acıya veya yalnız beklemeye indirmez. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bineği gücünü aşacak biçimde sert sürme anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bu sürüş bineğin sırtını yorar ve hayvanı gücünün yetmediği işe zorlar. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada çıkışsız ağır durum anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişi ya da topluluk ağır ve büyük bir durumun içine düşer. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kışın ayazı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Soğuk olağan düzeyi aşan güçlü bir şiddet taşır. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada zahmete girmek anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir iş uğruna zahmete girme ve kendini yorma ana anlamdır. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır. Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler; i̇letilen talimat, bağlayıcı hak, korunacak emanet, görevlendirilmiş kişi ve kefillik tek bir sorumluluk zinciri kurar; öğüt, etkisini bir taşıyıcısı, yerine getirme görevi ve arkasında duran bir güvencesi olduğu için sürdüren bir emanet haline gelir; hukuki görüntü odak kelimelerinin bağlamsal bir sentezidir; âyeti hukuk formülüne çevirmeden karşılıklı öğüt anlamını korur. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bağlayıcı gereklilik ve hak ediş anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin gerekli hale gelmesi, artık kaçınılamayan bir bağlayıcılık doğurur. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada korunması ve savunulması gereken şey anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişiye düşen görev, kendisine bağlı olan şeyi korumak ve savunmaktır. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada yükümlülüğe güvence veren kişi anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, bir başkasının yükümlülüğü için güvence verir ve doğabilecek maddi yükü üstlenir. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe görevli kılma veya görev üstlenme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir iş üzerinde görev ve yetki üstlenme ana anlamdır. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada başkasına bırakılan iş talimatı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir işin yapılması için başkasına bırakılan talimat veya istek. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler.
+Yemindeki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:çağ ve yinelenen zaman} art arda gelen zaman aralıklarını, iki kez yinelenen {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine tavsiyede bulundular} ise bir şeyi ötekine bağlayıp kesintisiz sürdürmeyi düşündürür; hak ve sabır tavsiyeleri bu iki dalı birbirine ekleyerek grubun cevabını zaman içinde yenilenen bir pratiğe dönüştürür, fakat buradan ayrı tarih çağlarında yaşadıkları sonucu çıkmaz. Zaman sözcüğünün olağan yemin anlamı yerinde kalırken {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:yağmur getiren bulut ve rüzgâr} için verilen ayrı kullanım, tekrarlanan karşılıklı tavsiyelerle; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:katmanlı beyaz bulut} dalı da iş ve hakikatin baskısıyla temas ederek bulutun birikmesi, sıkışıp yağmur bırakması ve süreklilik içinde büyümeyi beslemesi imgesini açar, ancak burada gerçek bir yağmur sahnesi ya da bu yan anlamların doğrudan çeviri olduğu ileri sürülmez. Zamanı anlatan {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:gençliğe ve ergenliğe ulaşma} kullanımı tekrarlanan tavsiye ile; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:dördüncü yaşında yük ve binmeye elverişli deve} ile aynı sözcük ailesindeki terlemeyen, arka ayağını ön ayağının izine basan at ve ayrı bir fiilde zayıflayan at kullanımları ise iş, düzgünlük ve sabırla temas ederek olgunluğu yalnız yaş değil, doğru işe yük taşıyabilen kapasite olarak sezdirir, fakat ergenlik, deve yaşı ve atın çalışma niteliği biçimce uzak kaynak imgeleridir, ayetin gerçek hayvanları ya da odağına ait çekim bilgisi değildir.
 
-İlişkinin nasıl kurulup korunduğu, hak, merkez, soy ve sığınak görüntülerinde farklı yüzler kazanır. Gerçek ile sabır, birinin eklemde ilişkiyi tutup diğerinin büyük bir kütlenin merkezini belirlediği taşıyıcı bir yapı gibi düşünülebilir; gerçeğin eklem görüntüsü uygun birleşme noktasını, sabrın dağ ortası görüntüsü geniş yapıyı düzenleyen merkezi sağlar; son iki yüklem, yalnızca nitelik bildirmekle kalmayıp bir bütünün nerede birleştiğini ve nerede durduğunu gösterir; bu maddi benzetme odak kelimelerinin belirli yüzlerine dayanır; kelimelerin burada gerçek anlamıyla anatomi veya coğrafya adlandırdığını söylemez. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada özel adlandırma kümesi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım iki kemiğin birleştiği eklem yerini gösterir. Böylece eklem ve merkez, Gerçek ile sabır, birinin eklemde ilişkiyi tutup diğerinin büyük bir kütlenin merkezini belirlediği taşıyıcı bir yapı gibi düşünülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada dağ ya da dağların orta kesimi anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özelleşmiş kullanım dağların orta kesimini belirtir. Böylece eklem ve merkez, Gerçek ile sabır, birinin eklemde ilişkiyi tutup diğerinin büyük bir kütlenin merkezini belirlediği taşıyıcı bir yapı gibi düşünülebilir. İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür; çekişme ve doğrulama görüntüleri, barışma ve karşılıklı iletişimle birleşerek anlaşmazlığı silmeden ilişkiyi düzeltir; karşılıklı öğüt, tartışmayı bastıran bir emir değil, hakkı koruyarak yeniden uyum kuran bir yol haline gelir; bu uzlaşma sahnesi bağlamsal bir süreçtir; gerçek ve iyiliğin tek anlamı olarak seçilmez. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğru taraf olma savıyla çekişme anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Taraflar karşılıklı olarak çekişir ve her biri kendi savının doğru olduğunu ileri sürer. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada barışma ve uzlaşma anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür. Hemen önceki kayıp hükmü, çekişen hakkın uzlaşmayla onarılması içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, çekişen hakkın uzlaşmayla onarılması okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür. İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir; odaktaki boy adı, önceki insan topluluğu ile zamanın kaynak, soyluluk ve alt bağlılık görüntülerinden bağımsız tetik alır; çoğul özne, kopuk bireylerin toplamı değil, geçmişten taşınan ilişkiler içinde yer alan bir topluluk olarak belirginleşir; bu bağlamsal kimlik görüntüsü soy üstünlüğü iddiası kurmaz ve olağan istisnayı nesebe bağlamaz. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada bir Arap boyunun adı anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ad, belirli bir Arap boyunu öteki topluluklardan ayırt eder. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada köken, soy ve soylu kaynak anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; köken, soy ve soylu kaynak. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada alt bağlılık veya düşük konum anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; alt bağlılık veya düşük konum. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir. Yeminle açılan zaman çerçevesi, soy, boy ve bağlılık için önceki kayıp ile bu istisna arasındaki zemini kurar. Hemen önceki kayıp hükmü, soy, boy ve bağlılık içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, soy, boy ve bağlılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak soy, boy ve bağlılık okumasına döner: i̇stisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir. Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür; odaktaki güven, kendini tutma ve karşılıklı iletme, önceki insanın yabancılığı gideren beraberlik görüntüsüyle temas eder; iki kez yinelenen fiil, topluluğun biçimsel bir özelliği olmaktan çıkıp süreklilik sağlayan canlı bir ilişki kurar; bu katman olağan karşılıklı öğüt ve sabır anlamını derinleştirir; grubu kapalı bir kurum olarak tanımlamaz. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yabancılığı gideren tanıdık yakınlık anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yabancılığı gideren tanıdık yakınlık. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür. Hemen önceki kayıp hükmü, öğütleşmeyle korunan topluluk içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, öğütleşmeyle korunan topluluk okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür. Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir; önceki zaman görüntüsündeki sığınma ve tutunma, odaktaki güven, kefillik ve karşılıklı bağlanmayla birleşir; istisna, kayıptan tek başına kaçış değil, insanların birbirini koruduğu bir emniyet alanı olarak görünür; sığınak görüntüsü bağlamsal bir okumadır; güven, öğüt ve sabrın olağan anlamları birlikte korunur. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece sığınak ve bağlılık ağı, Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada yükümlülüğe güvence veren kişi anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, bir başkasının yükümlülüğü için güvence verir ve doğabilecek maddi yükü üstlenir. Böylece sığınak ve bağlılık ağı, Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada sığınak, kurtuluş ve tutunma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; sığınak, kurtuluş ve tutunma. Böylece sığınak ve bağlılık ağı, Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir. Yeminle açılan zaman çerçevesi, sığınak ve bağlılık ağı için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak sığınak ve bağlılık ağı okumasına döner: dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir. Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir; otlakla sürü arasındaki uygunluk, beslenerek dolgunlaşma, iyilik, güvenilirlik ve karşılıklı ilişki odakta tek bir yetiştirme sahnesi kurar; iyi işler ve öğütleşme, bakım, uygunluk, beslenme ve güvenilir hizmet üreten bir süreç halinde duyulur; bu ekolojik benzetme odak yüzlerinden oluşur; hiçbir tek kelimeyi otlak veya hayvancılık karşılığına çevirmez. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada devenin veya sürünün iyice semirmesi anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Dişi deve beslenme döneminde yağlanıp semiz hale gelir. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada sana uygun olma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şey ile yöneldiği kişi arasında uygunluk ve uyma ilişkisi bulunur. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada otlağın sürüye bolca elverişli olması anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Otlak, otlayan hayvanların ihtiyacına uygun düşer. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir.
+{ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:iki kemiği bağlayan eklem ve yerine oturan yuva} için kaydedilmiş ayrı adlandırmalar, doğru iş ve sabırla; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:üst ya da yan sınır ve kap tıkacı} kullanımları ise hakla ve bilinçli eylemle temas ederek parçaları birleştiren eklem, sınırlı bir açıklığa oturan bölüm ve ağzı kapatan tıkaçtan oluşan bir yapı benzetmesi kurar, böylece karşılıklı uygulama yerinde durup dağılmayan bir biçim kazanır ama hak ve sabrın sözlük karşılıklarını eklem ya da şişe yapmaz. Aynı yapısal çağrışımı başka yönden genişleten {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:eklem ve yuva için özel adlandırma} ile {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:dağ ve dağın orta kesimi} dalları birbirine temas ettiğinde hakikati taşıyan bir eklem ya da oturmuş merkez ile baskı altında duran dağ kütlesi arasında formca uzak, keşif niteliğinde bir benzerlik doğar; çalışma bu yapıya yön verir, fakat ayet ne anatomi ne de coğrafya anlatır. {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:sıkı dokunmuş kumaş ve kesin söz} için aktarılan sınırlı kullanımlar, iyi işin ve sabrın; bilinçli çalışmanın işe koşma anlamı ise aynı maddi temasın içinde buluştuğunda, dokunmuş ya da kurulmuş malzemenin tutarlılığı ile karşılıklı aktarılan sağlam söz ve tamamlanmış iş arasında bir dayanıklılık benzetmesi kurulur, fakat bunu genel doğruluk, her tür sağlamlaştırma, gerçek bir yapı ya da örümcek ağı diye genişletmek doğru olmaz.
 
-Topluluk fikri, gözün, alışverişin, mirasın ve zoraki tutulmanın maddi sahnelerine de açılır. Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir; önceki insanın görünen sureti ve göz bebeği görüntüsü, odaktaki iş gören beden parçasına temas eder; insan, eylemi yapan soyut bir özne olmaktan çıkıp hem gören hem görünen bir beden olarak belirginleşir; optik sahne bağlamsal bir benzetmedir; insan ve eylem kelimelerinin olağan anlamlarını yerinden etmez. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece gören göz ve görünen insan, Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada göz bebeğindeki küçük insan sureti anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; göz bebeğindeki küçük insan sureti. Böylece gören göz ve görünen insan, Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada iş gören beden parçası anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kalıplı kullanımlarda bedenin iş gören parçasını adlandırma ortak çerçevedir. Böylece gören göz ve görünen insan, Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir. Hemen önceki kayıp hükmü, gören göz ve görünen insan içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, gören göz ve görünen insan okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir. İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir; karşılıklı işlem, sahibine ait pay, ticari kayıp, dolaşıma giren ürün, sert taş ve acı öz aynı değiş tokuş sahnesinde buluşur; kayıp soyut bir eksilme olmaktan çıkıp, başkasının hakkını gözetmeyi gerektiren somut bir karşılık riskine dönüşür; ticari ve duyusal görüntüler odak-bağlam sentezidir; etik istisnanın olağan anlamını daraltmaz. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada ticari kayıp anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; ticari kayıp. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sert taş ve taşlı arazi anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sert, kalın veya düz taşlar belirtilir. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada verme, ürün ve çıkarılan kazanç anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; verme, ürün ve çıkarılan kazanç. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada karşılıklı işlem anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişiyle karşılıklı işlem yürütme ana anlamdır. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. Yeminle açılan zaman çerçevesi, alışverişte risk ve karşılık için önceki kayıp ile bu istisna arasındaki zemini kurar. Hemen önceki kayıp hükmü, alışverişte risk ve karşılık içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, alışverişte risk ve karşılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak alışverişte risk ve karşılık okumasına döner: i̇stisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir. İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir; odaktaki boy adı, önceki insanın yakın çevresi ile zamanın soy ve soylu kaynak görüntülerine temas eder; topluluk, yalnız bugünkü bireylerden değil, geçmişten taşınan bir aidiyet çizgisinden oluşmuş gibi görünür; bu kimlik görüntüsü bağlamsaldır; miras alınan konumu kurtuluşun veya istisnanın şartı ilan etmez. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yakınlığın kişide veya yakın arkadaşta görünen biçimi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yakınlığın kişide veya yakın arkadaşta görünen biçimi. Böylece boy ve miras alınan konum, İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada bir Arap boyunun adı anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ad, belirli bir Arap boyunu öteki topluluklardan ayırt eder. Böylece boy ve miras alınan konum, İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada köken, soy ve soylu kaynak anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; köken, soy ve soylu kaynak. Böylece boy ve miras alınan konum, İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir. Yeminle açılan zaman çerçevesi, boy ve miras alınan konum için önceki kayıp ile bu istisna arasındaki zemini kurar. Hemen önceki kayıp hükmü, boy ve miras alınan konum içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, boy ve miras alınan konum okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇nsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak boy ve miras alınan konum okumasına döner: i̇nsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir. Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir; odaktaki alıkoyma yüzü, önceki insan ve zaman görüntülerindeki tutma ve geri çekme ayrıntılarıyla temas ederek bedenin aynı tutulma dilini iki yöne açar; sabır, baskıyla tutulmak değil, baskı altında bile kendini doğru çizgide tutmak olarak daha keskin duyulur; bu bağlamsal karşıtlık sabrın çevirisi değildir ve âyette zorlamanın gerçekleştiğine hükmetmez. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece seçilmiş dayanma ve zoraki tutulma, Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada zorla alıkoyma anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişi ya da canlı dışarıdan uygulanan güçle alıkonur ve çıkışı engellenir. Böylece seçilmiş dayanma ve zoraki tutulma, Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada alıkoyma, geri tutma ve geri alma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; alıkoyma, geri tutma ve geri alma. Böylece seçilmiş dayanma ve zoraki tutulma, Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir. Yeminle açılan zaman çerçevesi, seçilmiş dayanma ve zoraki tutulma için önceki kayıp ile bu istisna arasındaki zemini kurar. Hemen önceki kayıp hükmü, seçilmiş dayanma ve zoraki tutulma içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, seçilmiş dayanma ve zoraki tutulma okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak seçilmiş dayanma ve zoraki tutulma okumasına döner: sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir. Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir; önceki zaman görüntüsündeki kabuklu ekin, odaktaki çevre, yiyecek yaygısı, yığın ve dolma sınırıyla birleşir; sabır, değeri koruyup olgunlaşmasını ve sonunda paylaşılabilir bir birikime dönüşmesini sağlayan koşul olur; ürün ve azık sahnesi bağlamsal bir benzetmedir; odaktaki yüklemlerin olağan anlamı zemin olarak kalır. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada üst ya da yan sınır anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir bütünün üstteki bölümü veya yan sınırı belirtilir. Böylece korunan ürün ve biriken azık, Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sofra yaygısı ya da yiyecek yığını anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım, yiyeceğin altına serilen geniş ve ince parçayı belirtir. Böylece korunan ürün ve biriken azık, Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada kabuğuyla çevrili ekin anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; kabuğuyla çevrili ekin. Böylece korunan ürün ve biriken azık, Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir. Yeminle açılan zaman çerçevesi, korunan ürün ve biriken azık için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak korunan ürün ve biriken azık okumasına döner: uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir.
+{ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:bilerek iş yaptılar} bilinçli emek olarak kalırken, aynı sözcüğün iş karşılığı ücret ve elle çalışan işçiler kullanımları iyi işler ve sabırla; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:bağlayıcı gereklilik ve hak edilmiş pay} ise doğruluk ve dayanmayla temas eder, önceki genel kayıp ile {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:verim, sunulan nimet ve çıkarılmış kazanç} dalının üretken getirisi emeğin karşılığını adil biçimde verme düşüncesi ekler, ancak ayet doğrudan ücret, mülkiyet ya da pazar adlandırmaz. Önceki {ar:خُسْرٍ, tr:khusr, gloss:sermayeyi yitiren alışveriş zararı} ticari zarar anlamıyla, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:kişiler arası karşılıklı işlem} dalı iyi davranışla temas edince bir işlem düzeni düşündürür; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:sahibinin isteyebileceği özel pay} o düzenin hakkını, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:sert taş ve acı ağaç özü} ise bedelini belirginleştirir, {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sunulan nimet, verim ve çıkarılmış kazanç} da getiriyi ekler, fakat bu yalnızca hakka dayalı işlem benzetmesidir; gerçek satış ya da para defteri değildir. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:üzüm ve yağın sıvısı çıkana dek sıkılması} kolu tekrarlanan tavsiyeyle, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:bir aracı işe koşup kullanmak} kolu iyi iş ve sabırla buluşur; önceki {ar:خُسْرٍ, tr:khusr, gloss:ölçü ya da tartıda eksiltme} ile hak ve sabrın sofra yaygısı, yiyecek yığını ve tartmadan toplu satış kullanımları verim, ölçü, eksik pay ve düzeltme ilişkisini somutlaştırır, ancak ayet gerçek bir pres, terazi ya da pazar bildirmez.
 
-Eylemin karşılığı, ölçüsü, yönü, etkisi ve kuruluş biçimi birbirinden ayrılmadan görünür olur. Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar; önceki zamanın sıkıştırma ve çıkarma görüntüsü, önceki kaybın eksik ölçüsüyle ve odaktaki kullanma, yığın ve dayanma yüzleriyle temas eder; istisna, çabanın hak edilen karşılığa ulaşmasını ve başkasının payının kısaltılmamasını isteyen bir cevap olarak belirginleşir; maddi ticaret görüntüsü temkinli bir benzetmedir; kaybı veya sabrı yalnız ticarete kapatmaz. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada ölçü ve tartıyı eksik tutma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; ölçü ve tartıyı eksik tutma. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sofra yaygısı ya da yiyecek yığını anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım, yiyeceğin altına serilen geniş ve ince parçayı belirtir. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada sıvı çıkana kadar sıkıştırma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; sıvı çıkana kadar sıkıştırma. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe koşmak veya kullanmak anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birini veya bir şeyi işe koşma ve kullanma ana anlamdır. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar. Yeminle açılan zaman çerçevesi, sıkıştırılan ürün ve eksik ölçü için önceki kayıp ile bu istisna arasındaki zemini kurar. Hemen önceki kayıp hükmü, sıkıştırılan ürün ve eksik ölçü içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, sıkıştırılan ürün ve eksik ölçü okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak sıkıştırılan ürün ve eksik ölçü okumasına döner: baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar. Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir; i̇nsana dönük yan, iş gören uzuvlar, mızrak ve at izi; odaktaki birleştirme, bilinçli iş, gerçek ve sabırla temas eder; uygulamalar, doğru yön, uygun birleşme ve tekrarlanan uyum sayesinde etkili olan bedensel bir koordinasyon kazanır; bu maddi sahne odak yüzleri ve bağlamsal insan görüntüsünden oluşan keşifsel bir benzetmedir; âyeti gerçek bir sefer sahnesine çevirmez. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yakın veya insana dönük yan anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yakın veya insana dönük yan. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada terlemeyen veya art ayağını ön ayak izine basan at anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Başka açıklamada at art ayağını ön ayağının bıraktığı izin üzerine basar. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada üst ya da yan sınır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir bütünün üstteki bölümü veya yan sınırı belirtilir. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada mızrak ucunun alt bölümü anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Mızrağın sivri ucuna yakın ön gövde bölümü ana anlamdır. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada iş gören beden parçası anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kalıplı kullanımlarda bedenin iş gören parçasını adlandırma ortak çerçevedir. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir. Hemen önceki kayıp hükmü, yönelmiş beden ve uyumlu araç içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, yönelmiş beden ve uyumlu araç okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir. Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir; odaktaki mızrak önü, düz saplanış ve çıkışsız sıkıntı görüntüleri önceki yıkım ve odaktaki işleme temasıyla birleşir; gerçek sözünün etkisi ve sonucu belirginleşirken sabır, zararsız bir sakinlikten çok baskı altında yönü koruma olarak duyulur; zarar mekanizması bağlamsal bir benzetmedir; gerçek ve sabır yüklemlerini şiddete indirgemez. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada iç boşluğa ulaşan düz saplanış anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Saplanan şey yüzeyde kalmayıp bedenin iç boşluğuna ulaşır. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada kaybın ve aşağılığın türemiş biçimleri anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; kaybın ve aşağılığın türemiş biçimleri. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada çıkışsız ağır durum anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişi ya da topluluk ağır ve büyük bir durumun içine düşer. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada mızrak ucunun alt bölümü anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Mızrağın sivri ucuna yakın ön gövde bölümü ana anlamdır. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir. Hemen önceki kayıp hükmü, doğrudan ulaşan hak ve çıkışsız zarar içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, doğrudan ulaşan hak ve çıkışsız zarar okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir. İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür; odaktaki sıkı dokuma ve sağlam söz yüzleri, malzemeyi işe koşan eylem görüntüsüyle temas eder; tutarlılık, yalnızca söylenen bir nitelik değil, emekle kurulmuş ve dayanmış bir biçim olarak hissedilir; dokuma ve işçilik görüntüleri odak içinde kurulan bir benzetmedir; eylem ve gerçek anlamlarını korur. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sıkı dokunmuş veya sağlam kurulmuş anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kumaş söz öbeğinde ipliklerin sıkı ve düzgün biçimde dokunmuş olması anlatılır. Böylece sıkı dokunmuş söz ve iş, İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada özel adlandırma kümesi anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım iki kemiğin birleştiği eklem yerini gösterir. Böylece sıkı dokunmuş söz ve iş, İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe koşmak veya kullanmak anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birini veya bir şeyi işe koşma ve kullanma ana anlamdır. Böylece sıkı dokunmuş söz ve iş, İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür. Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir; önceki eksilme görüntüsü, odaktaki hak ve kısasa dayalı karşılık görüntüleriyle birleşerek mahrumiyet ile cevabı aynı sürecin iki aşaması yapar; hak kelimesi, yalnızca bir ilke değil, kaybolan şeyin karşılığını talep eden somut bir sonuç kazanır; hukuki karşılık sahnesi bağlamsal bir benzetmedir; hukuk hükmü kurmaz ve sabırla hakkın tek anlamını seçmez. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bağlayıcı gereklilik ve hak ediş anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin gerekli hale gelmesi, artık kaçınılamayan bir bağlayıcılık doğurur. Böylece kaybın doğurduğu karşılık, Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada genel eksilme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; genel eksilme. Böylece kaybın doğurduğu karşılık, Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada öldürmeye karşılık ölüm cezası anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Önceki bir öldürmeye karşılık denk bir ölüm cezası söz konusudur. Böylece kaybın doğurduğu karşılık, Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir. Hemen önceki kayıp hükmü, kaybın doğurduğu karşılık içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, kaybın doğurduğu karşılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir.
+İnsanı görünür ve hazır bulunan varlık diye karşıtlarından ayıran {ar:إِنسَٰنَ, tr:insān, gloss:orada bulunan insan} topluluğu kurar; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:aynı doğru ya da pay iddiası üzerinde çekişme ve doğruluğu belirleme} ile {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:insanlar arasındaki soğukluğu gideren uzlaşma} birbirine, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:karşılıklı öğüt ve talimat} da taraflar arasında temas eder; böylece iddia silinmeden onarılmış bir ortaklık ve müzakere imgesi belirir, fakat bu bir mahkeme, hâkim, dava ya da zorunlu yargı usulü değildir. İnsan ve yakın kişiyi anlatan {ar:إِنسَٰنَ, tr:insān, gloss:insan ve mahrem yoldaş} kullanımları odaktaki çoğul insan grubu ve birbirine tavsiyeyle, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:adı anılan Gassân boyu} ile; {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:soy, köken ve seçkin nesep} dalı ise tekrarlanan karşılıklı öğütle bağlanarak kişiyi zaman içinde süren bir soy, köken ve boy aidiyeti içinde gösterir; nūn eklenmiş biçim olarak açıklanan {ar:عُنْصُر, tr:ʿunṣur, gloss:soy unsuru} kullanımı da bu kaynakla sınırlı bağını korur, ancak alt sınıf bağlılığı veya hiyerarşi için tetikleyici bulunmadığından bu çağrışım kurtuluş şartına çevrilemez. Buradaki {ar:ءَامَنُوا۟, tr:āmanū, gloss:güvende olma ve güven verme} iman ve dua cevabından ayrı bir güvenilirlik; {ar:إِنسَٰنَ, tr:insān, gloss:yabancılığı gideren yakınlık} tanışıklık—yakın yoldaş, rahatlık veren şey, hoş sohbet ve ısırmayan evcil hayvanın ehliliği de bu çevrededir; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:kendini tutarak dayanma} ise içsel özdenetim taşır; bunlar odaktaki bilinçli iş ve hak payloadıyla, iki kez yinelenen {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine öğüt iletme} biçiminin karşılıklılığıyla birleşerek güvenli ve tanıdık mevcudiyeti korur, fakat güven ya da yakınlık tawāṣaw’ın sözlük anlamı değildir ve biçim karşılıklılığı tek yönlü buyruğa indirgenmez. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sığınak bulma, kurtuluş ve bağlılık} dalı—zaman bağlamındaki bir yere ya da kişiye sığınma, kurtuluş ve bağlılık—{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenlik ve güvenilirlik}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine bağlanma ve tavsiye}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:korunması gereken hak} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:başkası için yükümlülük üstlenen kefil} ile temas ederek mekânsal ve ilişkisel bir sığınma ağı düşündürür, ama bu sınırlı benzetme gerçek bir barınak, hukukî bağ veya teminat kurmaz ve imanı sığınmaya indirgemez.
 
-Bu hareketin başka bir maddi yüzünde sabır, daralmış bedene rahatlama ve canlı kaynağın ürünleriyle buluşur. Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir; önceki zaman görüntüsündeki susuz dil ve küçük yudum, odaktaki acı ilaç yüzüyle birleşerek dayanmayı tedrici bir açılma olarak kurar; sabır, yalnızca sonucu beklemek değil, daralmış geçişi mümkün kılan ölçülü bir vasıta olur; bu bedensel sahne çözümlenmemiş bağlam görüntüsüyle kurulan keşifsel bir benzetmedir; sabrın biçimsel karşılığı değildir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece boğazı açan ölçülü rahatlama, Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada boğazdaki lokmayı geçirmek için küçük yudum alma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; boğazdaki lokmayı geçirmek için küçük yudum alma. Böylece boğazı açan ölçülü rahatlama, Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada susuzluktan kurumuş dil anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; susuzluktan kurumuş dil. Böylece boğazı açan ölçülü rahatlama, Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir. Yeminle açılan zaman çerçevesi, boğazı açan ölçülü rahatlama için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak boğazı açan ölçülü rahatlama okumasına döner: sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir. Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir; önceki zaman görüntüsündeki ağaç, odaktaki ekşi meyve ve acı öz yüzleriyle temas ederek besin ile ilacı aynı canlı kaynağa bağlar; sabır, büyüme, ürün, acılık ve faydayı birbirine bağlayan maddi bir geçmiş kazanır; botanik sahne keşifsel bir odak-bağlam benzetmesidir; sabrın sözlük karşılığı olarak kullanılmaz. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece acı meyve ve şifalı öz, Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada demirhindi meyvesi anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gönderge bir ağacın meyvesidir. Böylece acı meyve ve şifalı öz, Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada el-Asra adı verilen ağaç anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; el-Asra adı verilen ağaç. Böylece acı meyve ve şifalı öz, Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir. Yeminle açılan zaman çerçevesi, acı meyve ve şifalı öz için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak acı meyve ve şifalı öz okumasına döner: sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir.
+Güven anlamındaki {ar:ءَامَنُوا۟, tr:āmanū, gloss:emin ve güvenilir olma}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:deve ya da sürünün en dolgun hâle gelmesi} ile; iyi ve düz olmanın yanı sıra kişiye uygun olma anlamındaki {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve kişiye uygun işler} da {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:sürüye elverişli otlak} koluyla temas edince, güvenilir koşullarda beslenen topluluğun yararı için bir otlak benzetmesi doğar, fakat bu sözcüklerin karşılıklı tavsiye ya da ayetin kendisinin sözlük karşılığı değil, formca uzak ve hayvancılığa dair keşif bir imge olarak kalır. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:tanesinin kabuk ya da kılıf içine girmesi} dalı, tekrarlanan karşılıklı eylemlerle; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:üst ya da yan sınır, sofra yaygısı ve yiyecek yığını} kullanımları ise iş ve hakla temas ederek korunan tahıl, geniş sergi ve birikmiş yiyecek imgelerini bir araya getirir, böylece ortak iyilik geçici bir dürtü değil saklanıp biriken bir ürün gibi anlaşılır ama gerçek bir ambar ya da sabrın düz çevirisi ileri sürülmez. Zaman anlamı korunurken {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} anlamı yerinde kalır; {ar:ٱلْعَصْرَة, tr:al-ʿaṣara, gloss:ağaç adı} biçimce uzak bir kullanım olarak devreye girer ve bunu tekrarlanan karşılıklı tavsiye tetikler; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:demirhindi meyvesi ve acı ilaç özü} için verilen ekşi meyve, kızıl çekirdek ve acı aloe benzeri öz kullanımları işin onarıcı niteliğiyle temas ederek beslenme ve iyileşmenin tek canlı kaynakta buluştuğu bir botanik benzetme kurar, ancak burada gerçek bir ağaçtan ya da al-ʿaṣr ve al-ṣabr için sözlük çevirisinden söz edilmez.
 
-Şimdi önceki insan ve kayıp hükmünün odak istisnasında açtığı bağlamsal hareket belirginleşir. İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür; önceki ardışık zaman, iki kez yinelenen karşılıklı fiille birleşerek bağlılığı bireysel hafızadan kişiler ve aralıklar arasında çalışan bir aktarıma çevirir; okur, nitelikler listesinin zaman geçtikçe yeniden kurulan bir devreye dönüştüğünü görür; bu bağlamsal okuma âyetin olağan istisnasını korur; iki karşılıklı fiilin yalnız eşzamanlı öğütleşme olduğu ihtimali de açıktır. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Ardışık zaman, odak uygulamalarının taşınacağı sürekliliği sağlar anlamını taşırken, {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ardışık zaman, odak uygulamalarının taşınacağı sürekliliği sağlar. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür. Yeminle açılan zaman çerçevesi, zaman içinde yenilenen aktarım için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak zaman içinde yenilenen aktarım okumasına döner: i̇stisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür. Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir; önceki sıkıştırma, odaktaki bilinçli iş ve özdenetimle temas eder; çıkarılan ürün, onarılmış koşullar ve doğrulanmış gerçek olarak görünür; okur, gerçeğin iyi işten sonra eklenen bir erdem değil, baskı altında ortaya çıkan uygulanmış bir sonuç olduğunu fark eder; bu atıflı bağlamsal okuma, zamanın sıradan ardışıklık anlamını korur ve baskı mekanizmasını tek mümkün okuma saymaz. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Sıvı çıkana kadar bastırma, çalışmanın ne üretebildiğini açığa çıkaran baskıyı sağlar anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sıvı çıkana kadar bastırma, çalışmanın ne üretebildiğini açığa çıkaran baskıyı sağlar. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Sıkıştırılarak elde edilen ürün, baskı altında üretilen olumlu sonucu sağlar anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sıkıştırılarak elde edilen ürün, baskı altında üretilen olumlu sonucu sağlar. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada bilerek yapılan iş veya eylem anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir. Yeminle açılan zaman çerçevesi, zaman baskısında açığa çıkan sonuç için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak zaman baskısında açığa çıkan sonuç okumasına döner: zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir. İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar; önceki sığınma görüntüsü, odaktaki güven, bağlanma, savunulacak hak ve kefillikle birleşerek korumayı tek kişinin kaçışı olmaktan çıkarır; istisnanın toplumsal bir emniyet ağı kurarak gerçekleştiği görünür; bu atıflı görüntü olağan istisnayı içerir; kurumsal veya hukuki bir yapıyı âyetin tek anlamı olarak ilan etmez. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Sığınak, kurtuluş ve korunmaya sığınma, istisnayı mekânsal ve toplumsal olarak okumayı açar anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sığınak, kurtuluş ve korunmaya sığınma, istisnayı mekânsal ve toplumsal olarak okumayı açar. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada korunması ve savunulması gereken şey anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişiye düşen görev, kendisine bağlı olan şeyi korumak ve savunmaktır. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada yükümlülüğe güvence veren kişi anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, bir başkasının yükümlülüğü için güvence verir ve doğabilecek maddi yükü üstlenir. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar. Yeminle açılan zaman çerçevesi, birbirini koruyan güven ağı için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak birbirini koruyan güven ağı okumasına döner: i̇nsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar. Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür; önceki tekil insan görüntüsü, odaktaki güven, uzlaşma ve iki kez tekrarlanan karşılıklı hitapla temas eder; toplumsallık, istisnanın dış görünüşü değil, insanın kayıptan çıkmasını sağlayan hareketin kendisi olur; bu atıflı ilişkisel okuma insan kelimesini yalnızca tür adı sayan ihtimali açık bırakır ve olağan çoğul istisnayı korur. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada İnsanın görünür ve yabanıl olmayan varlığı, insanlaşma ile yabancılaşmış yalnızlık arasındaki karşıtlığı taşır anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; İnsanın görünür ve yabanıl olmayan varlığı, insanlaşma ile yabancılaşmış yalnızlık arasındaki karşıtlığı taşır. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada Yabancılığı gideren tanıdık mevcudiyet, odak metnin yöneldiği ilişkisel koşulu sağlar anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Yabancılığı gideren tanıdık mevcudiyet, odak metnin yöneldiği ilişkisel koşulu sağlar. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada barışma ve uzlaşma anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür. Hemen önceki kayıp hükmü, yalnız insandan güvenilir topluluğa geçiş içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, yalnız insandan güvenilir topluluğa geçiş okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür. Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder; önceki insan görüntüsündeki algılama ve suret, odaktaki gerçeklik ve kanıtla bir araya gelerek özel izlenimi ortak doğrulamaya çevirir; gerçek, zaten bütünüyle elde bulunan bir önerme değil, kör noktalar arasında birlikte korunan görünürlük olarak duyulur; bu atıflı algı okuması göz görüntüsünü sözlük artığı saymayan bir olasılık taşır; gerçek yükleminin olağan anlamını yerinden etmez. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada Görme, duyma veya duyumsama yoluyla fark ediş, gerçeğin görünür olmasını sağlayan algı eylemini taşır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Görme, duyma veya duyumsama yoluyla fark ediş, gerçeğin görünür olmasını sağlayan algı eylemini taşır. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder. {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada Göz bebeğindeki küçük insan sureti, bir kişinin diğerini görünür kıldığı sınırlı ayna görüntüsünü taşır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Göz bebeğindeki küçük insan sureti, bir kişinin diğerini görünür kıldığı sınırlı ayna görüntüsünü taşır. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada gerçekliğe uygun, kesin doğruluk anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gerçekte var olana uygun düşen şey doğru ve sağlamdır. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder. Hemen önceki kayıp hükmü, gerçeğin ortaklaşa görünür tutulması içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, gerçeğin ortaklaşa görünür tutulması okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder. İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar; önceki ticari kayıp, odaktaki güven, karşılıklı işlem, onarım, sahip olunan hak ve akran denetimiyle bir hesap ilişkisine bağlanır; okur, kaybı soyut bir ruhsal eksilme olarak değil, tarafların hakkını ve karşılığını taşıyan bir hesap olarak da görebilir; bu atıflı ticari okuma genel ruhsal kayıp ihtimalini korur; adil alışverişi âyetin tek konusu ilan etmez. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada Ticari kayıp, eylem, hak ve açığın ilişkilendirilebildiği bir hesap düzeni kurar anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ticari kayıp, eylem, hak ve açığın ilişkilendirilebildiği bir hesap düzeni kurar. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar. {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada karşılıklı işlem anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişiyle karşılıklı işlem yürütme ana anlamdır. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar. Hemen önceki kayıp hükmü, kayıp ve hak hesabı içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, kayıp ve hak hesabı okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar.
+{ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:kendini tutarak dayanma ve çıkışsız ağır durum} ile {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:kalıplı söyleyişlerde zahmet çekme} hak ve iyi eylemle birleşir; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:bineği gücünü aşacak kadar sert sürme} kolu da bu ilişkiye yorucu tempo ekleyerek sabrı edilgin bekleyişten çok sınav ve emek içindeki özdenetim hâline getirir, fakat sıradan yolculuk ya da şiddetli kış soğuğu için bağlamsal tetikleyici yoktur. {ar:إِنسَٰنَ, tr:insān, gloss:bineğin, yayın ya da eşlenik şeyin insana dönük yanı} insanı işleten taraf olarak; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:önceki izlere basan, terlemeyen ya da ayrı kullanımdaki zayıflayan at}, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:üst ya da yan yüz}, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:mızrak ucunun alt bölümü ve iş gören beden parçası} ile {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:bir şeyi ötekine bitiştirip sürdürme} arasında, insanın binek ve araçla amaca yönelip direnç içinde adımını eşleştirdiği bir düzen kurar, fakat bu son derece keşif niteliğinde bir koordinasyon benzetmesidir, gerçek hayvan, silah veya beden parçası tasviri değildir. {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:yüzeyi geçip iç boşluğa ulaşan düz mızrak saplanışı} doğruluğun savunulan yüzeye erişmesini, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:çıkışsız ağır durum} ve {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:mızrak ucuna yakın gövde bölümü} ise bu temasın baskı ve yönünü verir; iyi işin onarıcı amacı zararı sınırlandırsa da benzetme silahı gerçek olay kılmaz ve {ar:خُسْرٍ, tr:khusr, gloss:kayıp} biçimiyle uyuşmayan başka bir kökün ek harfli türevini kayıp anlamına katmaz.
 
-Bu bağlamsal hareket ölçü ve eksilme üzerinde iki ayrı ama temas eden biçim alır. İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur; önceki eksik ölçü, odaktaki gerçeklik, hak, onarım ve karşılıklı öğütleşmeyle birleşir; sabır fırsatçı eksiltmeyi ve aceleci aşırı düzeltmeyi sınırlar; okur, öğütleşmenin yalnız doğruyu söylemek değil, ölçüyü birlikte ayarlamak olduğunu fark eder; bu atıflı kalibrasyon görüntüsü kısa ölçüyü kaybın tek örneği saymaz ve olağan gerçek-sabır ikilisini korur. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada Eksik ölçü veya tartı, başkasının açığını doğuran somut ayar hatasını taşır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Eksik ölçü veya tartı, başkasının açığını doğuran somut ayar hatasını taşır. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada gerçekliğe uygun, kesin doğruluk anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gerçekte var olana uygun düşen şey doğru ve sağlamdır. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur. Hemen önceki kayıp hükmü, ölçünün karşılıklı düzeltilmesi içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki insan ve kayıp hükmü, ölçünün karşılıklı düzeltilmesi okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇nsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur. İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür; önceki zaman ve genel eksilme, odaktaki uygunluk, bağlama, sıkı kurulum ve tıkaç görüntüleriyle bir koruma düzenine dönüşür; okur, iyi işlerin kaybı telafi edecek miktar olarak birikmesinden çok, değerin kaçmasını önleyen bir tutma biçimi olduğunu görür; bu keşifsel koruma modeli, ayrı maddi görüntülerin birlikte okunmasına dayanır ve olağan istisna anlamını dışlamaz. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Ardışık zaman, kurulmuş iyiliğin aşınabileceği veya korunabileceği süreyi açar anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ardışık zaman, kurulmuş iyiliğin aşınabileceği veya korunabileceği süreyi açar. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür. {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada Genel eksilme, odak yapısının karşı koyduğu sızıntı ve aşınmayı taşır anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Genel eksilme, odak yapısının karşı koyduğu sızıntı ve aşınmayı taşır. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada sana uygun olma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şey ile yöneldiği kişi arasında uygunluk ve uyma ilişkisi bulunur. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sıkı dokunmuş veya sağlam kurulmuş anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kumaş söz öbeğinde ipliklerin sıkı ve düzgün biçimde dokunmuş olması anlatılır. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada şişe tıkacı ve tıkama anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Parça, şişe benzeri kabın ağzındaki açıklığı kapatır. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür. Yeminle açılan zaman çerçevesi, eksilmeye karşı tutulan yapı için önceki kayıp ile bu istisna arasındaki zemini kurar. Hemen önceki kayıp hükmü, eksilmeye karşı tutulan yapı içinde bu istisnanın cevap verdiği basıncı açıklar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak eksilmeye karşı tutulan yapı okumasına döner: i̇stisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür. Önceki insan ve kayıp hükmü, eksilmeye karşı tutulan yapı okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür.
+{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:susuzluktan kuruyan dil ve boğaza takılan lokmayı azar azar suyla geçirme} kullanımları tekrarlanan tavsiyeyle; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:acı ağaç özü ve ondan yapılan ilaç} ise hak ve iş ile temas ederek güç yutulan fakat tıkanmayı açan bir doz imgesi kurar, böylece rahatlama bir kerede değil güç ama ölçülü adımlarla gelir; susuzluk ya da boğulma gerçek olay değil, sabrın veya tavsiyenin sözlük karşılığı da değildir.
 
-Son üç görüntü daha şaşırtıcı benzetmeler taşır; her biri kendi sınırı içinde tutulur. Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür; önceki ardışık zaman, odaktaki işlek yol, birleşme, iz üzerine basan at ve sert taş görüntüleriyle temas eder; iyi iş ve sabır, ayrı kişilerin taşıdığı özellikler olmaktan çıkıp koordineli ilerlemeyi mümkün kılan ortak pratiğe dönüşür; bu maddi yolculuk yalnızca koordineli süreklilik için bir benzetmedir; odak kelimelerinin sözlük çevirisi veya gerçek bir sefer anlatısı değildir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Ardışık zaman, topluluğun tek eylemden yolculuğa uzanan hareketini açar anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ardışık zaman, topluluğun tek eylemden yolculuğa uzanan hareketini açar. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür. {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işlek yol anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Yürünmüş ve işlek hale gelmiş yol ana anlamdır. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada terlemeyen veya art ayağını ön ayak izine basan at anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Başka açıklamada at art ayağını ön ayağının bıraktığı izin üzerine basar. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sert taş ve taşlı arazi anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sert, kalın veya düz taşlar belirtilir. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür. Yeminle açılan zaman çerçevesi, birlikte yürüyen topluluk için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak birlikte yürüyen topluluk okumasına döner: keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür. Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür; önceki yağmur bulutu, odaktaki uygunluk, otlak-sürü elverişliliği, karşılıklı eylem ve katmanlı bulut görüntüsüyle birleşir; iyi işler ile öğütleşme, yalnız buyruk aktarmak değil, canlıların gelişeceği koşulları birlikte sürdürmek olarak duyulur; bu sahne biçimden uzak otlak ve bulut yüzlerini içeren keşifsel bir ekolojik benzetmedir; öğütleşmenin veya sabrın çevirisi değildir. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Yağmur taşıyan bulut, ekili bir alanı mümkün kılan çevresel girdiyi sağlar anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Yağmur taşıyan bulut, ekili bir alanı mümkün kılan çevresel girdiyi sağlar. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada sana uygun olma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şey ile yöneldiği kişi arasında uygunluk ve uyma ilişkisi bulunur. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada otlağın sürüye bolca elverişli olması anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Otlak, otlayan hayvanların ihtiyacına uygun düşer. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada katmanlı beyaz bulut anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gönderge beyaz bir buluttur. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür. Yeminle açılan zaman çerçevesi, ortakça yetiştirilen yaşam alanı için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak ortakça yetiştirilen yaşam alanı okumasına döner: keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür. Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür; önceki küçük yudum görüntüsü, odaktaki acı öz, içe ulaşan düz saplanış, karşılıklı iletme ve düzeltmeyle birleşir; zor gerçek, yaralayıcı bir darbe değil, karşılıklı alınan ve iyileştirmeye yönelen ölçülü bir geçiş olarak duyulur; bu özellikle şaşırtıcı sahne deneyimsel bir benzetmedir; biçim bilgisi veya öğreti olarak sunulmaz. {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Boğazdaki tıkanıklığı geçiren küçük yudum, ölçülü kolaylaştırıcı dozu taşır anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Boğazdaki tıkanıklığı geçiren küçük yudum, ölçülü kolaylaştırıcı dozu taşır. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür. {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür. {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada iç boşluğa ulaşan düz saplanış anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Saplanan şey yüzeyde kalmayıp bedenin iç boşluğuna ulaşır. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür. {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür. {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür. Yeminle açılan zaman çerçevesi, daralmayı aşan acı doz için önceki kayıp ile bu istisna arasındaki zemini kurar. Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak daralmayı aşan acı doz okumasına döner: keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür.
+Yemin zamanı {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:ardışık zaman} ile birleştirme, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:kişileri ve aralıkları birbirine bağlama ile ortak aktarım} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:değişen aralıklarda sebat} yüzeylerinin bu okumaya verdiği formca doğrulanmamış ama yüzey temasına bağlı rollerde, sabit nitelikler olarak görülen istisna zaman içinde tekrar taşınan bir bağlılığa dönüşür; bu, eşzamanlı öğüdün tek başına anlatıldığı canlı seçeneği dışlamayan bir yorumdur, sözcüklerin yeni bir sözlük anlamı değildir. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sıvı çıkana dek baskı} ve elde edilen verim, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:baskı sınamasına giren kasıtlı iş}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:ayakta duran ve görünür kılınmış hakikat} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:baskıyı paniğe değil üretime yönelten özdenetim} için biçimsel değil yüzeysel temas rolleriyle birleşince, erdemlerin işe sonradan eklenmesi okuması görünür onarıma ve kanıta dönüşür; sıradan ardışık zamanın bu sıkıştırma mekanizmasını taşımadığı yönündeki karşı okuma da geçerlidir.
 
-Bütün bu görüntüler, âyetin açık cümlesini yerinden etmeden onun nasıl işlediğini çoğaltır: istisna, güveni eylemle, eylemi onarımla, gerçeği karşılıklı taşıma ile ve sabrı sürdürme gücüyle birlikte kurar. Maddi ve toplumsal benzetmeler bu zemine farklı yönlerden temas eder; her biri kendi sınırı içinde kaldığında okur hem âyetin açıkça söylediğini hem de kelimelerin taşıdığı ek hareketleri aynı anda duyabilir.
+{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sığınma ve kurtuluş}, {ar:ءَامَنُوا۟, tr:āmanū, gloss:ağ içindeki güven}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine eklenme}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:korunan hak}, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:başkası için kefil olup sorumluluk alma} yüzeylerine bağlanan sınırlı roller tek tek erdem sahibi olmaktan birbirinin hakkını ve emniyetini koruyan bir sığınma ağına geçiş önerir, ancak bu yorumun canlı alternatifi kişisel bir sığınak imgesidir ve hiçbir sözcüğe burada hukukî ya da sözlükçe yeni anlam yüklenmez. {ar:إِنسَٰنَ, tr:insān, gloss:insan ve yabani olmayan görünür varlık}, tanışıklık ve yakınlık anlamlarıyla; {ar:ءَامَنُوا۟, tr:āmanū, gloss:tehdit oluşturmayan güven}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:uzlaşmayla giderilen soğukluk} ve {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:kişiden kişiye yinelenen temas} için belirtilen yüzey rolleriyle birleşince, insanlığın tekil üyeleri güvenilir bir çoğulluğa dönüşür; bu, tür adı olarak insan okumasına karşı formca sınırlı bir çıkarımdır, iman ve tavsiye yüzeylerinin kendisi yabani ya da samimi anlamını taşımaz.
 
+{ar:إِنسَٰنَ, tr:insān, gloss:görerek, duyarak ya da sezerek algılayan kişi ve göz bebeğindeki insan imgesi}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçekliğe uygunluk ve doğruluğu görünür kılma} ile {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:fark etmeyi ve teyidi karşılıklı dağıtma} için sunulan yüzey temaslarında, başkalarının kör noktasını gideren ortak tanıklığa dönüşür; “insan gözü” imgesinin yalnızca sözlük artığı olduğu seçeneği canlı kalır, bu yüzden yorum hakikatin zaten bütünüyle görüldüğü iddiası değil, sınanıp kamusal görünürlük kazanmasıdır.
+
+{ar:خُسْرٍ, tr:khusr, gloss:ticari sermaye kaybı}, {ar:ءَامَنُوا۟, tr:āmanū, gloss:alışverişin güven kredisi}, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:kişiler arası işlem}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:bozuk muameleyi onarma}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:kişinin somut hakkı} ve {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:akran denetimi} yüzeylerine bağlanan roller, bireyin soyut kaybını erdemlerle kapatmak yerine başkasının hakkını kendi kazancına çevirmeyen, karşılıklı olarak denetlenebilir bir işlem düzeni önerir; soyut manevi kayıp şeklindeki canlı alternatif korunur ve burada gerçek bir pazar ya da hesap defteri iddia edilmez. Eksik tartma anlamındaki {ar:خُسْرٍ, tr:khusr, gloss:ölçüde eksiltme}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçeklik standardı ve sahibine ait pay}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:bozulmayı onarma}, iki tarafın da birbirini düzelttiği {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:karşılıklı ayarlama} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:ölçüsüz karşılığı engelleyen özdenetim} ile temas ederek yalnızca doğruyu ve sabrı ayrı ayrı söylemekten karşılıklı ölçü düzeltmeye geçer; buna rağmen kısa tartı yalnız bir kayıp örneği olarak kalabilir ve belirli bir terazi sahnesi zorunlu değildir.
+
+Zamanı süren {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:değerin korunacağı süre}, genel eksilme olan {ar:خُسْرٍ, tr:khusr, gloss:sızıntı ve aşınma}, işe uyan onarım {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:kayıp noktasına uygun düzeltme}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:kişiler ve eylemler arasında bağ}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:çözülmeye direnen sıkı dokuma} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:kaçışı kapatan tıkaç} için formca uzak ama uyumlu imgeler biriktikçe, istisna kaybı erdemlerle tartıp aşan bir toplamdan zaman boyunca değer ve ilişkiyi sızıntıdan koruyan yapıya kayar; bu birleştirme bağımsız malzeme imgelerini tek kapta toplama riskini taşır, dolayısıyla sınırlı bir benzetmedir.
+
+Ardışık {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:yolculuğu uzatan zaman}, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:tekrar yürünerek kalıcılaşan yol}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:yol arkadaşlarını bağlı tutma}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:öncekinin izine basan eşleşmiş toynak} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:sert taşlı zemin} için biçimce uzak, yüzeyle sınırlı temas rollerinde, ayrı kişilerin nitelikleri koordineli biçimde dirençli zemini geçen bir yolcu topluluğuna dönüşür; bu şaşırtıcı maddi benzetme sözlük çevirisi değil, tekrarlı dayanışmanın bir tasviridir. {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:ekili alanı mümkün kılan yağmur bulutu}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:canlı ihtiyaca uygunluk}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:sürüyü besleyen otlak ve karşılıklı yetiştirme} ile {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:birikimi sürdüren katmanlı bulut} için yüzeyle sınırlı roller, komut iletmekten çok ortak yaşamı besleyen bir otlak tasavvuruna geçer; otlak anlamının tawāṣaw’a, bulut anlamının sabra sözlükçe ait olmadığı ve gerçek hayvancılık anlatılmadığı özellikle korunur.
+
+{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:boğaza takılan lokmayı geçiren küçük yudum}, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:alması zor acı ilaç özü}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:savunulan yüzeyi delen doğru hamle}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:dozu karşılıklı verme ve alma} ve {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:yaralamak yerine iyileştiren onarım} için kasıtlı olarak sıra dışı tutulmuş yüzey rolleri, sabırla katlanılan hakikat okumayı karşılıklı verilen güç ama onarıcı bir düzeltme dozuna kaydırır; boğulma, ilaç ve saplanma gerçek sahne, çekim ya da öğreti değil, zor düzeltici söz için deneyim benzetmesidir. Olağan kendini tutarak dayanma anlamını koruyan {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:özdenetimli sabır}, önceki kayıp ve {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:beklenen doğruluk} ile karşılaşınca belirli bir sonucun beklenmesi yönünde sınırlı bir katman da taşır; bu, kayıp baskısı altında disiplinli beklentiyi açık kılar, ancak gerçek bir mahkeme, hâkim, hüküm ya da hukuk süreci gerektirmez.
 </macro_scope_prose>
 
 <macro_scope_ledger>
@@ -1772,2375 +2851,907 @@ Bütün bu görüntüler, âyetin açık cümlesini yerinden etmeden onun nasıl
   "lane": "macro",
   "findings": [
     {
-      "finding_ref": "macro:cand_ef1aa9afbc967e0187d3",
+      "finding_ref": "macro:conviction-as-sound-action",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "obligation:sup_06ef58761ebccefd8193",
+            "obligation:sup_2b9e49e3b9ebb5d9c885",
+            "obligation:sup_3fb3d310c948d6402940",
+            "obligation:sup_57908c304642c593d85d",
+            "obligation:sup_9da99906d0561b0d0a6f",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:2"
           ],
-          "paragraph": 2,
-          "anchor": "Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür; güven, bilinçli iş, iyilik ve gerçeklik aynı çizgide buluştuğunda içteki kabul dışarıda onarıcı bir işe dönüşür; okur, istisnayı kayba sonradan eklenen soyut nitelikler değil, kayba karşı işleyen bir bütün olarak görür; bu bağlamsal okuma olağan istisna anlamını korur ve inancı yalnızca güvenlik haline kapatmaz."
-        },
+          "paragraph": 1,
+          "anchor": "İstisnanın içeriğinde {ar:ءَامَنُوا۟, tr:āmanū, gloss:inanıp güvenenler} bir sözü ya da hakikati doğru sayıp kabul etme yönüyle {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:bilinçli işler yaptılar} ve {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzeltici işler} ile temas eder; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçekliğe uygun doğruluk} bu işleri, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:özdenetimli sabır} yönündeki dayanmayı birbirine bağlar, önceki genel eksilme karşısındaki iman böylece özel bir iç hâl değil, doğruluk ve sabır için karşılıklı sorumluluk taşıyan onarıcı eylem hâline gelir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:joined-spans-of-time",
+      "landings": [
         {
           "movement_refs": [
-            "activation:0"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_227c411676e87b09195b",
+            "obligation:sup_2d6a805df674811785d0",
+            "obligation:sup_d07dfccb3a896e9ca3d0",
+            "obligation:sup_f01aff110af636fcc2e9",
+            "obligation:sup_f49f4865c26c20082601",
+            "activation:0",
+            "activation:1",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
           ],
-          "paragraph": 2,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada dogru sayip kabul etme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür."
-        },
+          "paragraph": 3,
+          "anchor": "Yemindeki {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:çağ ve yinelenen zaman} art arda gelen zaman aralıklarını, iki kez yinelenen {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine tavsiyede bulundular} ise bir şeyi ötekine bağlayıp kesintisiz sürdürmeyi düşündürür; hak ve sabır tavsiyeleri bu iki dalı birbirine ekleyerek grubun cevabını zaman içinde yenilenen bir pratiğe dönüştürür, fakat buradan ayrı tarih çağlarında yaşadıkları sonucu çıkmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:joint-socket-and-sealed-vessel",
+      "landings": [
         {
           "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada gerçekliğe uygun, kesin doğruluk anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gerçekte var olana uygun düşen şey doğru ve sağlamdır. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür."
-        },
-        {
-          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_19df590e5919fb7c8ca2",
+            "obligation:sup_5fdc23fd5aefaa9df00e",
+            "obligation:sup_8c17807b5978a7058de4",
+            "obligation:sup_c190739a7aad14b671b7",
+            "obligation:sup_e816478f12bec15adcd8",
+            "activation:0",
+            "activation:1",
             "activation:2"
           ],
-          "paragraph": 2,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada genel eksilme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; genel eksilme. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür."
-        },
+          "paragraph": 4,
+          "anchor": "{ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:iki kemiği bağlayan eklem ve yerine oturan yuva} için kaydedilmiş ayrı adlandırmalar, doğru iş ve sabırla; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:üst ya da yan sınır ve kap tıkacı} kullanımları ise hakla ve bilinçli eylemle temas ederek parçaları birleştiren eklem, sınırlı bir açıklığa oturan bölüm ve ağzı kapatan tıkaçtan oluşan bir yapı benzetmesi kurar, böylece karşılıklı uygulama yerinde durup dağılmayan bir biçim kazanır ama hak ve sabrın sözlük karşılıklarını eklem ya da şişe yapmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:labor-crew-and-earned-provision",
+      "landings": [
         {
           "movement_refs": [
-            "activation:3"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_246b1cde23cd80884dd6",
+            "obligation:sup_7b84424a3e2239ed726a",
+            "obligation:sup_ac506fc1969fd7ca2b48",
+            "obligation:sup_b38dbe3c290f683ef74b",
+            "obligation:sup_d395e70a21df55fd67ac",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:2",
+            "context:103:1"
+          ],
+          "paragraph": 5,
+          "anchor": "{ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:bilerek iş yaptılar} bilinçli emek olarak kalırken, aynı sözcüğün iş karşılığı ücret ve elle çalışan işçiler kullanımları iyi işler ve sabırla; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:bağlayıcı gereklilik ve hak edilmiş pay} ise doğruluk ve dayanmayla temas eder, önceki genel kayıp ile {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:verim, sunulan nimet ve çıkarılmış kazanç} dalının üretken getirisi emeğin karşılığını adil biçimde verme düşüncesi ekler, ancak ayet doğrudan ücret, mülkiyet ya da pazar adlandırmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:layered-rain-bearing-cloud",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_3f51012134579ab9a6d7",
+            "obligation:sup_8f49f5c639fda8c132cb",
+            "obligation:sup_9ff553ac227d44ca8b69",
+            "obligation:sup_b7faffd4811d1a18a1f3",
+            "obligation:sup_be1bb90e0dd35e087172",
+            "activation:0",
+            "activation:1",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
+          ],
+          "paragraph": 3,
+          "anchor": "Zaman sözcüğünün olağan yemin anlamı yerinde kalırken {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:yağmur getiren bulut ve rüzgâr} için verilen ayrı kullanım, tekrarlanan karşılıklı tavsiyelerle; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:katmanlı beyaz bulut} dalı da iş ve hakikatin baskısıyla temas ederek bulutun birikmesi, sıkışıp yağmur bırakması ve süreklilik içinde büyümeyi beslemesi imgesini açar, ancak burada gerçek bir yağmur sahnesi ya da bu yan anlamların doğrudan çeviri olduğu ileri sürülmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:maturity-into-working-capacity",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_2ce2b6d8345d811dc18c",
+            "obligation:sup_7ffa81f15630b2f75050",
+            "obligation:sup_8e2b46470927232b81ce",
+            "obligation:sup_bed2d80e1172a6e4c6eb",
+            "obligation:sup_d30d11b32ef277e31dde",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
+          ],
+          "paragraph": 3,
+          "anchor": "Zamanı anlatan {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:gençliğe ve ergenliğe ulaşma} kullanımı tekrarlanan tavsiye ile; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:dördüncü yaşında yük ve binmeye elverişli deve} ile aynı sözcük ailesindeki terlemeyen, arka ayağını ön ayağının izine basan at ve ayrı bir fiilde zayıflayan at kullanımları ise iş, düzgünlük ve sabırla temas ederek olgunluğu yalnız yaş değil, doğru işe yük taşıyabilen kapasite olarak sezdirir, fakat ergenlik, deve yaşı ve atın çalışma niteliği biçimce uzak kaynak imgeleridir, ayetin gerçek hayvanları ya da odağına ait çekim bilgisi değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:sensing-assent-and-verification",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_18931fd9a34bc4a5badd",
+            "obligation:sup_1c1e73b258b6673a4105",
+            "obligation:sup_2dcd2b28966168f01797",
+            "obligation:sup_868bf0d58eb05aae2aab",
+            "obligation:sup_96c2bd64c8b78309fbb2",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:2"
           ],
           "paragraph": 2,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür."
-        },
+          "anchor": "İnsanı adlandıran {ar:إِنسَٰنَ, tr:insān, gloss:insan} görme, duyma ya da sezme yoluyla farkına varan bir algılayıcıyı; iman ise güvenli olmanın değil, doğru sayıp kabul etmenin yönünü taşır ve bu iki dal, çoğul grubun birbirine tavsiyesi, yapılan işler ile {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçekliğe uygun doğruluk} içindeki doğruluğu belirleme ve gösterme anlamı sayesinde izlenimden doğrulanmış hakikate doğru bir okuma kurar, ancak ayet belirli bir duyu aracı, haber ya da resmî kanıtlama usulü belirtmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:steadfastness-through-ordeal-and-toil",
+      "landings": [
         {
           "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_054ebdaa3bf0320d5093",
+            "obligation:sup_33f84129a1d23efe1a1a",
+            "obligation:sup_7becae89b6a369405b0c",
+            "obligation:sup_b94c056b849fb9646972",
+            "obligation:sup_d6978135abebdf2776f0",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3"
+          ],
+          "paragraph": 8,
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:kendini tutarak dayanma ve çıkışsız ağır durum} ile {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:kalıplı söyleyişlerde zahmet çekme} hak ve iyi eylemle birleşir; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:bineği gücünü aşacak kadar sert sürme} kolu da bu ilişkiye yorucu tempo ekleyerek sabrı edilgin bekleyişten çok sınav ve emek içindeki özdenetim hâline getirir, fakat sıradan yolculuk ya da şiddetli kış soğuğu için bağlamsal tetikleyici yoktur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:articulated-and-geographic-centers",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_0eaff470f7e97e24a585",
+            "obligation:sup_2140c2c74bd84c4fe6b0",
+            "obligation:sup_6a0338c7376f49ae6314",
+            "obligation:sup_9593bff5c1d9c47a60b1",
+            "obligation:sup_c47a1016c765573ebcf5",
+            "activation:0",
+            "activation:1"
+          ],
+          "paragraph": 4,
+          "anchor": "Aynı yapısal çağrışımı başka yönden genişleten {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:eklem ve yuva için özel adlandırma} ile {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:dağ ve dağın orta kesimi} dalları birbirine temas ettiğinde hakikati taşıyan bir eklem ya da oturmuş merkez ile baskı altında duran dağ kütlesi arasında formca uzak, keşif niteliğinde bir benzerlik doğar; çalışma bu yapıya yön verir, fakat ayet ne anatomi ne de coğrafya anlatır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:contested-right-reconciled-by-deliberation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_347757163b0f5cc55a1c",
+            "obligation:sup_45d1709515a426900763",
+            "obligation:sup_628aeec5e5abd467e8b8",
+            "obligation:sup_735ba6b882977905f227",
+            "obligation:sup_bd80c0470187db85344e",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:2"
+          ],
+          "paragraph": 6,
+          "anchor": "İnsanı görünür ve hazır bulunan varlık diye karşıtlarından ayıran {ar:إِنسَٰنَ, tr:insān, gloss:orada bulunan insan} topluluğu kurar; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:aynı doğru ya da pay iddiası üzerinde çekişme ve doğruluğu belirleme} ile {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:insanlar arasındaki soğukluğu gideren uzlaşma} birbirine, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:karşılıklı öğüt ve talimat} da taraflar arasında temas eder; böylece iddia silinmeden onarılmış bir ortaklık ve müzakere imgesi belirir, fakat bu bir mahkeme, hâkim, dava ya da zorunlu yargı usulü değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:lineage-clan-and-affiliation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_1e7796d540c5bdb03e47",
+            "obligation:sup_2ec2a05b475fb2d54207",
+            "obligation:sup_d428c283240a6bc0eb57",
+            "obligation:sup_d6989c2f754dfb6d80a6",
+            "obligation:sup_fefeae09dfca67ac89be",
+            "obligation:sup_0e99d583dbddd2430f39",
+            "obligation:sup_385d02cd3939f6e5f70b",
+            "obligation:sup_84f60a83d994961a7737",
+            "obligation:sup_9f4c3800ed6257efc74a",
+            "obligation:sup_c4bf5c310beec37d33d3",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:2",
+            "context:103:1"
+          ],
+          "paragraph": 6,
+          "anchor": "İnsan ve yakın kişiyi anlatan {ar:إِنسَٰنَ, tr:insān, gloss:insan ve mahrem yoldaş} kullanımları odaktaki çoğul insan grubu ve birbirine tavsiyeyle, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:adı anılan Gassân boyu} ile; {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:soy, köken ve seçkin nesep} dalı ise tekrarlanan karşılıklı öğütle bağlanarak kişiyi zaman içinde süren bir soy, köken ve boy aidiyeti içinde gösterir; nūn eklenmiş biçim olarak açıklanan {ar:عُنْصُر, tr:ʿunṣur, gloss:soy unsuru} kullanımı da bu kaynakla sınırlı bağını korur, ancak alt sınıf bağlılığı veya hiyerarşi için tetikleyici bulunmadığından bu çağrışım kurtuluş şartına çevrilemez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:reciprocal-counsel-as-communal-steadiness",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_38038a0e4779dc954dcc",
+            "obligation:sup_4ebfc942f81eb5caa9d0",
+            "obligation:sup_ad93c95cab0869304ad8",
+            "obligation:sup_bb4b3397b39808a1120e",
+            "obligation:sup_eab492bf86396066b14f",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:2"
+          ],
+          "paragraph": 6,
+          "anchor": "Buradaki {ar:ءَامَنُوا۟, tr:āmanū, gloss:güvende olma ve güven verme} iman ve dua cevabından ayrı bir güvenilirlik; {ar:إِنسَٰنَ, tr:insān, gloss:yabancılığı gideren yakınlık} tanışıklık—yakın yoldaş, rahatlık veren şey, hoş sohbet ve ısırmayan evcil hayvanın ehliliği de bu çevrededir; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:kendini tutarak dayanma} ise içsel özdenetim taşır; bunlar odaktaki bilinçli iş ve hak payloadıyla, iki kez yinelenen {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine öğüt iletme} biçiminin karşılıklılığıyla birleşerek güvenli ve tanıdık mevcudiyeti korur, fakat güven ya da yakınlık tawāṣaw’ın sözlük anlamı değildir ve biçim karşılıklılığı tek yönlü buyruğa indirgenmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:security-through-refuge-and-attachment",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_0368b392afc83f8378be",
+            "obligation:sup_a28e3e282aa145805b2c",
+            "obligation:sup_bdd345e45cbe9c50f372",
+            "obligation:sup_c65c7b981086fe190fe1",
+            "obligation:sup_d2d0584024376b1e523f",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
+          ],
+          "paragraph": 6,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sığınak bulma, kurtuluş ve bağlılık} dalı—zaman bağlamındaki bir yere ya da kişiye sığınma, kurtuluş ve bağlılık—{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenlik ve güvenilirlik}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine bağlanma ve tavsiye}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:korunması gereken hak} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:başkası için yükümlülük üstlenen kefil} ile temas ederek mekânsal ve ilişkisel bir sığınma ağı düşündürür, ama bu sınırlı benzetme gerçek bir barınak, hukukî bağ veya teminat kurmaz ve imanı sığınmaya indirgemez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:suitable-pasture-and-full-animal-condition",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_08ab1a866662c7107259",
+            "obligation:sup_1e4bd6a57b5d2e044890",
+            "obligation:sup_77b9f236b356b4ce454e",
+            "obligation:sup_8d373760a45d96a3ad02",
+            "obligation:sup_dc0a93eeecea7f399009",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
             "activation:4"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada bilerek yapılan iş veya eylem anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir. Böylece inançtan onarıcı eyleme geçiş, Bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 2,
-          "anchor": "Hemen önceki kayıp hükmü, inançtan onarıcı eyleme geçiş içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 2,
-          "anchor": "Önceki insan ve kayıp hükmü, inançtan onarıcı eyleme geçiş okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: bu istisna, inancı insanın eksilmesine karşı duran sağlam bir eyleme dönüştürür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_ccd62a4c4eb6901d7e90",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 2,
-          "anchor": "Tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır; önceki zaman görüntüsü, iki kez yinelenen karşılıklılık fiiliyle birleşerek bağlı süreleri ortak bir aktarım çizgisine dönüştürür; iki öğütleşme, bir anda sahip olunan özellikler olmaktan çıkıp zaman geçtikçe yenilenen bir bağlılık olarak görünür; bu zaman aktarımı olağan karşılıklı öğütleşmeye eklenen bir katmandır; eylemlerin yalnız aynı anda gerçekleştiği okuma da açıktır."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada yaş veya ardışık zaman anlamını taşırken, {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yaş veya ardışık zaman. Böylece zaman boyunca bağlanan süreklilik, Tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece zaman boyunca bağlanan süreklilik, Tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 2,
-          "anchor": "Yeminle açılan zaman çerçevesi, zaman boyunca bağlanan süreklilik için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 2,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak zaman boyunca bağlanan süreklilik okumasına döner: tekrarlanan karşılıklı eylem, istisnayı birbirine eklenen zaman aralıkları boyunca taşır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_67432e31513b3983bc18",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 2,
-          "anchor": "Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir; gerçeğin eklem ve yuva görüntüsü ilişkiye uygun bir yer verir; sabrın sınır ve tıkaç görüntüsü bu yerleşimi kapatır; son iki yüklem, yan yana duran iki erdemden çok, bir bütünü kurup koruyan parçalar halinde duyulur; bu maddi yapı iki odak kelimesinin benzetmesidir; onların olağan anlamlarını gerçek bir kaba indirgemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada özel adlandırma kümesi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım iki kemiğin birleştiği eklem yerini gösterir. Böylece uygun yuva ve kapanış, Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada üst ya da yan sınır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir bütünün üstteki bölümü veya yan sınırı belirtilir. Böylece uygun yuva ve kapanış, Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada şişe tıkacı ve tıkama anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Parça, şişe benzeri kabın ağzındaki açıklığı kapatır. Böylece uygun yuva ve kapanış, Gerçek ve sabır, topluluğu yerinde tutan eklem, sınır ve kapanış olarak birlikte görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_863cba9d84cea3dd59b4",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 2,
-          "anchor": "İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir; çalışan eller, ücret, çıkarılan ürün, hak ve önceki kayıp, gayretten karşılığa uzanan tek bir zincir kurar; iyi iş, değerini onu yapanın ve karşılığını bekleyenin hakkını taşıyan hesap verebilir bir emek olarak gösterir; ekonomik görüntü bağlamsal bir benzetmedir; ahlaki istisnanın olağan anlamı bu emek ve karşılık katmanıyla birlikte kalır."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bağlayıcı gereklilik ve hak ediş anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin gerekli hale gelmesi, artık kaçınılamayan bir bağlayıcılık doğurur. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada genel eksilme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; genel eksilme. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada verme, ürün ve çıkarılan kazanç anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; verme, ürün ve çıkarılan kazanç. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada iş ücreti anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; İş karşılığı verilen ücret veya çalışanın payı ana anlamdır. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada el işçileri anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ellerini kullanarak çeşitli ağır işleri yapan insan topluluğu ana anlamdır. Böylece emek ve hak edilmiş karşılık, İstisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 2,
-          "anchor": "Yeminle açılan zaman çerçevesi, emek ve hak edilmiş karşılık için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 2,
-          "anchor": "Hemen önceki kayıp hükmü, emek ve hak edilmiş karşılık içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 2,
-          "anchor": "Önceki insan ve kayıp hükmü, emek ve hak edilmiş karşılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 2,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak emek ve hak edilmiş karşılık okumasına döner: i̇stisna, emeğin bir karşılık ve hak ürettiği üretken bir süreç olarak da okunabilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_fde5eeef425ffd8e9dbf",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 2,
-          "anchor": "Sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir; odaktaki katmanlı bulut ayrıntısı, önceki zaman âyetindeki yağmur taşıyan görüntüyle buluşarak dayanmayı biriken ve çevresine salınan kapasiteye çevirir; dayanma, yalnız katlanmak değil, biriktirmek, yoğunlaştırmak ve sonunda besleyici bir sonuç bırakmak olarak görünür; bu ekolojik görüntü bağlamdan gelen çözümlenmemiş bir taşıyıcıyla kurulur ve sabrın sözlük karşılığı değildir."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada katmanlı beyaz bulut anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gönderge beyaz bir buluttur. Böylece biriken bulut ve salınan bereket, Sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 2,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada yağmura dönüşen yağmur bulutları anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yağmura dönüşen yağmur bulutları. Böylece biriken bulut ve salınan bereket, Sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 2,
-          "anchor": "Yeminle açılan zaman çerçevesi, biriken bulut ve salınan bereket için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 2,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak biriken bulut ve salınan bereket okumasına döner: sabır, yağmuru taşıyıp bırakan, katman katman biriken bir bulut görüntüsünü de alabilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_ced03acf7b8ae556ddc6",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir; zamanın gelişim eşiği, odaktaki olgun deve, güçlenmiş beden, sağlamlık ve işe yatkınlık görüntüleriyle temas eder; iyi işler, hesaba eklenen ağırlıklar değil, tamamlanmış bir kapasitenin yerinde kullanılması olarak duyulur; bu gelişim sahnesi ayrı kelime görüntülerinin odak içi bir benzetmesidir ve iyi işlerin olağan çağrısını korur."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada dördüncü yaşındaki yük taşımaya elverişli deve anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Deve üç yaşını tamamlayıp dördüncü yaşına girerek yük ve binme için elverişli hale gelir. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada terlemeyen veya art ayağını ön ayak izine basan at anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Başka açıklamada at art ayağını ön ayağının bıraktığı izin üzerine basar. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada gençliğe veya ergenliğe ulaşan kız anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gençliğe veya ergenliğe ulaşan kız. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe yatkın ve dayanıklı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; İşe yatkın ve çalışmaya elverişli olma niteliği ana anlamdır. Böylece olgunluk ve işe elverişlilik, İstisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 3,
-          "anchor": "Yeminle açılan zaman çerçevesi, olgunluk ve işe elverişlilik için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 3,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak olgunluk ve işe elverişlilik okumasına döner: i̇stisna, büyümenin sağlam ve kullanılabilir bir çalışma gücüne erişmesiyle birlikte düşünülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_2672360f27e9218ff561",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür; önceki insan görüntüsü, odaktaki güven ve iyileşme ile bağlanır; yakın arkadaş görüntüsü çoğul gruba tanınabilir bir çevre verir; kayıptan istisnaya geçiş, tek başına kurtulmadan güvenilir bir beraberliğe geçiş olarak belirginleşir; bu ilişkisel okuma insan ve odak kelimelerinden çıkar; istisnayı akrabalık şartına indirgemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece güvenilir kişi ve yakın çevre, İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yakınlığın kişide veya yakın arkadaşta görünen biçimi anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yakınlığın kişide veya yakın arkadaşta görünen biçimi. Böylece güvenilir kişi ve yakın çevre, İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada kişi adı olan kök türevleri anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Salih, Suleyh ve Muslih biçimleri kişilere özel ad olarak verilir. Böylece güvenilir kişi ve yakın çevre, İstisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 3,
-          "anchor": "Hemen önceki kayıp hükmü, güvenilir kişi ve yakın çevre içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 3,
-          "anchor": "Önceki insan ve kayıp hükmü, güvenilir kişi ve yakın çevre okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisnaya giren insan, yalnız bir ad olarak değil, güvenilir yakınlık içinde toplumsal bir konum olarak görünür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_c730920cb03e342b892b",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür; önceki insanın görme, duyma ve duyumsama görüntüsü, odaktaki kabul ve kanıtla gösterme ayrıntılarına temas eder; karşılıklı öğütleşme, zaten bütünüyle görülmüş bir bilgiyi aktarmaktan çok, gerçeği birlikte görünür ve sınanabilir tutar; duyusal görüntüler bağlamsal olarak temkinle taşınır; gerçek yükleminin olağan anlamı zemin olarak kalır."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada dogru sayip kabul etme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek bir haberin, sozun veya hakikatin dogru sayilmasidir. Böylece algı, kabul ve doğrulama, Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada görme, duyma veya duyumsamayla bir şeyi fark edilir kılma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; görme, duyma veya duyumsamayla bir şeyi fark edilir kılma. Böylece algı, kabul ve doğrulama, Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece algı, kabul ve doğrulama, Gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 3,
-          "anchor": "Hemen önceki kayıp hükmü, algı, kabul ve doğrulama içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 3,
-          "anchor": "Önceki insan ve kayıp hükmü, algı, kabul ve doğrulama okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: gerçek, insanlar arasında algılanan, kabul edilen ve kanıtla ayakta tutulan bir süreç olarak görünür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_e687ef6acce65368a5ea",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır; sarsıntıya karşı özdenetim, çıkışsız durum, kış ayazı, yorucu tempo ve zahmet odaktaki dayanma kelimesinde birleşir; son yüklem, pasif bekleyişten çok bedenin ve iradenin işi sürdürecek biçimde tutulmasını gösterir; bu sıkıntı görüntüleri odak içindeki ayrı yüzlerdir; sabrı yalnız acıya veya yalnız beklemeye indirmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bineği gücünü aşacak biçimde sert sürme anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bu sürüş bineğin sırtını yorar ve hayvanı gücünün yetmediği işe zorlar. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada çıkışsız ağır durum anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişi ya da topluluk ağır ve büyük bir durumun içine düşer. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kışın ayazı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Soğuk olağan düzeyi aşan güçlü bir şiddet taşır. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada zahmete girmek anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir iş uğruna zahmete girme ve kendini yorma ana anlamdır. Böylece sıkıntı altında etkin dayanma, Sabır, ağır sıkıntı ve zahmet içinden sürdürmeyi sağlayan etkin bir kendini tutma olarak açılır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_3110b28bcfd98df2b863",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler; i̇letilen talimat, bağlayıcı hak, korunacak emanet, görevlendirilmiş kişi ve kefillik tek bir sorumluluk zinciri kurar; öğüt, etkisini bir taşıyıcısı, yerine getirme görevi ve arkasında duran bir güvencesi olduğu için sürdüren bir emanet haline gelir; hukuki görüntü odak kelimelerinin bağlamsal bir sentezidir; âyeti hukuk formülüne çevirmeden karşılıklı öğüt anlamını korur."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bağlayıcı gereklilik ve hak ediş anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin gerekli hale gelmesi, artık kaçınılamayan bir bağlayıcılık doğurur. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada korunması ve savunulması gereken şey anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişiye düşen görev, kendisine bağlı olan şeyi korumak ve savunmaktır. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada yükümlülüğe güvence veren kişi anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, bir başkasının yükümlülüğü için güvence verir ve doğabilecek maddi yükü üstlenir. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe görevli kılma veya görev üstlenme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir iş üzerinde görev ve yetki üstlenme ana anlamdır. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler."
-        },
-        {
-          "movement_refs": [
-            "activation:5"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada başkasına bırakılan iş talimatı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir işin yapılması için başkasına bırakılan talimat veya istek. Böylece emanet edilen görev ve güvence, Karşılıklı cümleler, bir hakkı koruyacak kişilere bırakılan bağlayıcı bir görev ve güvence olarak da işler."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_7f2cf89f16643d8b09ac",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "Gerçek ile sabır, birinin eklemde ilişkiyi tutup diğerinin büyük bir kütlenin merkezini belirlediği taşıyıcı bir yapı gibi düşünülebilir; gerçeğin eklem görüntüsü uygun birleşme noktasını, sabrın dağ ortası görüntüsü geniş yapıyı düzenleyen merkezi sağlar; son iki yüklem, yalnızca nitelik bildirmekle kalmayıp bir bütünün nerede birleştiğini ve nerede durduğunu gösterir; bu maddi benzetme odak kelimelerinin belirli yüzlerine dayanır; kelimelerin burada gerçek anlamıyla anatomi veya coğrafya adlandırdığını söylemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada özel adlandırma kümesi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım iki kemiğin birleştiği eklem yerini gösterir. Böylece eklem ve merkez, Gerçek ile sabır, birinin eklemde ilişkiyi tutup diğerinin büyük bir kütlenin merkezini belirlediği taşıyıcı bir yapı gibi düşünülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada dağ ya da dağların orta kesimi anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özelleşmiş kullanım dağların orta kesimini belirtir. Böylece eklem ve merkez, Gerçek ile sabır, birinin eklemde ilişkiyi tutup diğerinin büyük bir kütlenin merkezini belirlediği taşıyıcı bir yapı gibi düşünülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_1163e75426e7e3142a53",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür; çekişme ve doğrulama görüntüleri, barışma ve karşılıklı iletişimle birleşerek anlaşmazlığı silmeden ilişkiyi düzeltir; karşılıklı öğüt, tartışmayı bastıran bir emir değil, hakkı koruyarak yeniden uyum kuran bir yol haline gelir; bu uzlaşma sahnesi bağlamsal bir süreçtir; gerçek ve iyiliğin tek anlamı olarak seçilmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğru taraf olma savıyla çekişme anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Taraflar karşılıklı olarak çekişir ve her biri kendi savının doğru olduğunu ileri sürer. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada barışma ve uzlaşma anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece çekişen hakkın uzlaşmayla onarılması, İstisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 4,
-          "anchor": "Hemen önceki kayıp hükmü, çekişen hakkın uzlaşmayla onarılması içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 4,
-          "anchor": "Önceki insan ve kayıp hükmü, çekişen hakkın uzlaşmayla onarılması okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, karşılıklı hak iddialarının dile getirildiği, doğrulandığı ve uzlaşmayla onarıldığı bir süreç olarak da görünür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_7cc12c8064bb7e7d8a98",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir; odaktaki boy adı, önceki insan topluluğu ile zamanın kaynak, soyluluk ve alt bağlılık görüntülerinden bağımsız tetik alır; çoğul özne, kopuk bireylerin toplamı değil, geçmişten taşınan ilişkiler içinde yer alan bir topluluk olarak belirginleşir; bu bağlamsal kimlik görüntüsü soy üstünlüğü iddiası kurmaz ve olağan istisnayı nesebe bağlamaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada bir Arap boyunun adı anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ad, belirli bir Arap boyunu öteki topluluklardan ayırt eder. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada köken, soy ve soylu kaynak anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; köken, soy ve soylu kaynak. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada alt bağlılık veya düşük konum anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; alt bağlılık veya düşük konum. Böylece soy, boy ve bağlılık, İstisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 4,
-          "anchor": "Yeminle açılan zaman çerçevesi, soy, boy ve bağlılık için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 4,
-          "anchor": "Hemen önceki kayıp hükmü, soy, boy ve bağlılık içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 4,
-          "anchor": "Önceki insan ve kayıp hükmü, soy, boy ve bağlılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 4,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak soy, boy ve bağlılık okumasına döner: i̇stisnaya giren topluluk, kimliği zaman boyunca taşıyan soy, boy ve bağlılık sürekliliği içinde de görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_52a59002b8286e37ed06",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür; odaktaki güven, kendini tutma ve karşılıklı iletme, önceki insanın yabancılığı gideren beraberlik görüntüsüyle temas eder; iki kez yinelenen fiil, topluluğun biçimsel bir özelliği olmaktan çıkıp süreklilik sağlayan canlı bir ilişki kurar; bu katman olağan karşılıklı öğüt ve sabır anlamını derinleştirir; grubu kapalı bir kurum olarak tanımlamaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yabancılığı gideren tanıdık yakınlık anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yabancılığı gideren tanıdık yakınlık. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece öğütleşmeyle korunan topluluk, Karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 4,
-          "anchor": "Hemen önceki kayıp hükmü, öğütleşmeyle korunan topluluk içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 4,
-          "anchor": "Önceki insan ve kayıp hükmü, öğütleşmeyle korunan topluluk okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: karşılıklı öğüt, güven ve sabır sayesinde dağılmayan bir topluluk pratiği olarak görünür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_7f93bde5fe1c2d77859d",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir; önceki zaman görüntüsündeki sığınma ve tutunma, odaktaki güven, kefillik ve karşılıklı bağlanmayla birleşir; istisna, kayıptan tek başına kaçış değil, insanların birbirini koruduğu bir emniyet alanı olarak görünür; sığınak görüntüsü bağlamsal bir okumadır; güven, öğüt ve sabrın olağan anlamları birlikte korunur."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece sığınak ve bağlılık ağı, Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada yükümlülüğe güvence veren kişi anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, bir başkasının yükümlülüğü için güvence verir ve doğabilecek maddi yükü üstlenir. Böylece sığınak ve bağlılık ağı, Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada sığınak, kurtuluş ve tutunma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; sığınak, kurtuluş ve tutunma. Böylece sığınak ve bağlılık ağı, Dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 4,
-          "anchor": "Yeminle açılan zaman çerçevesi, sığınak ve bağlılık ağı için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 4,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak sığınak ve bağlılık ağı okumasına döner: dört uygulama, güveni, bağlılığı ve birbirinin yanında kalmayı koruyucu bir sığınak ağına dönüştürebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_934c81616dd6f61899fd",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 4,
-          "anchor": "Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir; otlakla sürü arasındaki uygunluk, beslenerek dolgunlaşma, iyilik, güvenilirlik ve karşılıklı ilişki odakta tek bir yetiştirme sahnesi kurar; iyi işler ve öğütleşme, bakım, uygunluk, beslenme ve güvenilir hizmet üreten bir süreç halinde duyulur; bu ekolojik benzetme odak yüzlerinden oluşur; hiçbir tek kelimeyi otlak veya hayvancılık karşılığına çevirmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada devenin veya sürünün iyice semirmesi anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Dişi deve beslenme döneminde yağlanıp semiz hale gelir. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada sana uygun olma anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şey ile yöneldiği kişi arasında uygunluk ve uyma ilişkisi bulunur. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 4,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada otlağın sürüye bolca elverişli olması anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Otlak, otlayan hayvanların ihtiyacına uygun düşer. Böylece uygun ortam ve beslenen canlı, Uygulamalar, canlı bir topluluğu uygun bir ortamda besleyip güvenilir hale getiren koşullar olarak da görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_b7ff18bebef15c811ca6",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir; önceki insanın görünen sureti ve göz bebeği görüntüsü, odaktaki iş gören beden parçasına temas eder; insan, eylemi yapan soyut bir özne olmaktan çıkıp hem gören hem görünen bir beden olarak belirginleşir; optik sahne bağlamsal bir benzetmedir; insan ve eylem kelimelerinin olağan anlamlarını yerinden etmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece gören göz ve görünen insan, Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada göz bebeğindeki küçük insan sureti anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; göz bebeğindeki küçük insan sureti. Böylece gören göz ve görünen insan, Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada iş gören beden parçası anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kalıplı kullanımlarda bedenin iş gören parçasını adlandırma ortak çerçevedir. Böylece gören göz ve görünen insan, Eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 5,
-          "anchor": "Hemen önceki kayıp hükmü, gören göz ve görünen insan içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki insan ve kayıp hükmü, gören göz ve görünen insan okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: eylem, insan suretini alan, yansıtan ve yönünü belirleyen çalışan bir gözün sahnesi olarak da görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_fa1c3f3f9fecc159a107",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir; karşılıklı işlem, sahibine ait pay, ticari kayıp, dolaşıma giren ürün, sert taş ve acı öz aynı değiş tokuş sahnesinde buluşur; kayıp soyut bir eksilme olmaktan çıkıp, başkasının hakkını gözetmeyi gerektiren somut bir karşılık riskine dönüşür; ticari ve duyusal görüntüler odak-bağlam sentezidir; etik istisnanın olağan anlamını daraltmaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada ticari kayıp anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; ticari kayıp. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sert taş ve taşlı arazi anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sert, kalın veya düz taşlar belirtilir. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada verme, ürün ve çıkarılan kazanç anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; verme, ürün ve çıkarılan kazanç. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:5"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada karşılıklı işlem anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişiyle karşılıklı işlem yürütme ana anlamdır. Böylece alışverişte risk ve karşılık, İstisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 5,
-          "anchor": "Yeminle açılan zaman çerçevesi, alışverişte risk ve karşılık için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 5,
-          "anchor": "Hemen önceki kayıp hükmü, alışverişte risk ve karşılık içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki insan ve kayıp hükmü, alışverişte risk ve karşılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak alışverişte risk ve karşılık okumasına döner: i̇stisna, sermayenin, mülkiyetin ve karşılığın zor bir kayıp ihtimali altında kaldığı güvenilir bir alışveriş olarak da okunabilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_b8ed1c2135102ea4566a",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir; odaktaki boy adı, önceki insanın yakın çevresi ile zamanın soy ve soylu kaynak görüntülerine temas eder; topluluk, yalnız bugünkü bireylerden değil, geçmişten taşınan bir aidiyet çizgisinden oluşmuş gibi görünür; bu kimlik görüntüsü bağlamsaldır; miras alınan konumu kurtuluşun veya istisnanın şartı ilan etmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yakınlığın kişide veya yakın arkadaşta görünen biçimi anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yakınlığın kişide veya yakın arkadaşta görünen biçimi. Böylece boy ve miras alınan konum, İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada bir Arap boyunun adı anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ad, belirli bir Arap boyunu öteki topluluklardan ayırt eder. Böylece boy ve miras alınan konum, İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada köken, soy ve soylu kaynak anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; köken, soy ve soylu kaynak. Böylece boy ve miras alınan konum, İnsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 5,
-          "anchor": "Yeminle açılan zaman çerçevesi, boy ve miras alınan konum için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 5,
-          "anchor": "Hemen önceki kayıp hükmü, boy ve miras alınan konum içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki insan ve kayıp hükmü, boy ve miras alınan konum okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇nsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak boy ve miras alınan konum okumasına döner: i̇nsan, adlandırılmış bir boyun içinde, geçmişten miras kalan bir toplumsal konuma yerleşmiş olarak da görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_3f27911be6e2855310c8",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir; odaktaki alıkoyma yüzü, önceki insan ve zaman görüntülerindeki tutma ve geri çekme ayrıntılarıyla temas ederek bedenin aynı tutulma dilini iki yöne açar; sabır, baskıyla tutulmak değil, baskı altında bile kendini doğru çizgide tutmak olarak daha keskin duyulur; bu bağlamsal karşıtlık sabrın çevirisi değildir ve âyette zorlamanın gerçekleştiğine hükmetmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada gizli veya yabanıl olana karşı görünür insan varlığı anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; gizli veya yabanıl olana karşı görünür insan varlığı. Böylece seçilmiş dayanma ve zoraki tutulma, Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada zorla alıkoyma anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişi ya da canlı dışarıdan uygulanan güçle alıkonur ve çıkışı engellenir. Böylece seçilmiş dayanma ve zoraki tutulma, Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada alıkoyma, geri tutma ve geri alma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; alıkoyma, geri tutma ve geri alma. Böylece seçilmiş dayanma ve zoraki tutulma, Sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 5,
-          "anchor": "Yeminle açılan zaman çerçevesi, seçilmiş dayanma ve zoraki tutulma için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 5,
-          "anchor": "Hemen önceki kayıp hükmü, seçilmiş dayanma ve zoraki tutulma içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki insan ve kayıp hükmü, seçilmiş dayanma ve zoraki tutulma okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak seçilmiş dayanma ve zoraki tutulma okumasına döner: sabırdaki gönüllü kendini tutma, dışarıdan uygulanan alıkoyma ve zoraki sözü görünür kılan karşıt bir görüntünün yanında daha da belirginleşir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_2d11e1cfb62429a15046",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir; önceki zaman görüntüsündeki kabuklu ekin, odaktaki çevre, yiyecek yaygısı, yığın ve dolma sınırıyla birleşir; sabır, değeri koruyup olgunlaşmasını ve sonunda paylaşılabilir bir birikime dönüşmesini sağlayan koşul olur; ürün ve azık sahnesi bağlamsal bir benzetmedir; odaktaki yüklemlerin olağan anlamı zemin olarak kalır."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada üst ya da yan sınır anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir bütünün üstteki bölümü veya yan sınırı belirtilir. Böylece korunan ürün ve biriken azık, Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sofra yaygısı ya da yiyecek yığını anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım, yiyeceğin altına serilen geniş ve ince parçayı belirtir. Böylece korunan ürün ve biriken azık, Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada kabuğuyla çevrili ekin anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; kabuğuyla çevrili ekin. Böylece korunan ürün ve biriken azık, Uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 5,
-          "anchor": "Yeminle açılan zaman çerçevesi, korunan ürün ve biriken azık için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 5,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak korunan ürün ve biriken azık okumasına döner: uygulamalar, büyürken korunan, sonra toplanıp sınırına kadar biriktirilen bir ürün gibi de görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_00d694102f0b6334ae65",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar; önceki zamanın sıkıştırma ve çıkarma görüntüsü, önceki kaybın eksik ölçüsüyle ve odaktaki kullanma, yığın ve dayanma yüzleriyle temas eder; istisna, çabanın hak edilen karşılığa ulaşmasını ve başkasının payının kısaltılmamasını isteyen bir cevap olarak belirginleşir; maddi ticaret görüntüsü temkinli bir benzetmedir; kaybı veya sabrı yalnız ticarete kapatmaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada ölçü ve tartıyı eksik tutma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; ölçü ve tartıyı eksik tutma. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sofra yaygısı ya da yiyecek yığını anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım, yiyeceğin altına serilen geniş ve ince parçayı belirtir. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada sıvı çıkana kadar sıkıştırma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; sıvı çıkana kadar sıkıştırma. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe koşmak veya kullanmak anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birini veya bir şeyi işe koşma ve kullanma ana anlamdır. Böylece sıkıştırılan ürün ve eksik ölçü, Baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 6,
-          "anchor": "Yeminle açılan zaman çerçevesi, sıkıştırılan ürün ve eksik ölçü için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 6,
-          "anchor": "Hemen önceki kayıp hükmü, sıkıştırılan ürün ve eksik ölçü içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 6,
-          "anchor": "Önceki insan ve kayıp hükmü, sıkıştırılan ürün ve eksik ölçü okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 6,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak sıkıştırılan ürün ve eksik ölçü okumasına döner: baskı ve ölçü, emeğin üretken karşılığının hangi noktada mahrumiyete döndüğünü görünür kılar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_23bff74c386a941f583a",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir; i̇nsana dönük yan, iş gören uzuvlar, mızrak ve at izi; odaktaki birleştirme, bilinçli iş, gerçek ve sabırla temas eder; uygulamalar, doğru yön, uygun birleşme ve tekrarlanan uyum sayesinde etkili olan bedensel bir koordinasyon kazanır; bu maddi sahne odak yüzleri ve bağlamsal insan görüntüsünden oluşan keşifsel bir benzetmedir; âyeti gerçek bir sefer sahnesine çevirmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada yakın veya insana dönük yan anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; yakın veya insana dönük yan. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada terlemeyen veya art ayağını ön ayak izine basan at anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Başka açıklamada at art ayağını ön ayağının bıraktığı izin üzerine basar. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada üst ya da yan sınır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir bütünün üstteki bölümü veya yan sınırı belirtilir. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada mızrak ucunun alt bölümü anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Mızrağın sivri ucuna yakın ön gövde bölümü ana anlamdır. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada iş gören beden parçası anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kalıplı kullanımlarda bedenin iş gören parçasını adlandırma ortak çerçevedir. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:5"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece yönelmiş beden ve uyumlu araç, Çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 6,
-          "anchor": "Hemen önceki kayıp hükmü, yönelmiş beden ve uyumlu araç içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 6,
-          "anchor": "Önceki insan ve kayıp hükmü, yönelmiş beden ve uyumlu araç okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: çoğul eylem, yönü, bedeni, bineği ve aracı birbirine uyan bir çalışma düzeni olarak da görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_d2e459fdfb8eb747b959",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir; odaktaki mızrak önü, düz saplanış ve çıkışsız sıkıntı görüntüleri önceki yıkım ve odaktaki işleme temasıyla birleşir; gerçek sözünün etkisi ve sonucu belirginleşirken sabır, zararsız bir sakinlikten çok baskı altında yönü koruma olarak duyulur; zarar mekanizması bağlamsal bir benzetmedir; gerçek ve sabır yüklemlerini şiddete indirgemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada iç boşluğa ulaşan düz saplanış anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Saplanan şey yüzeyde kalmayıp bedenin iç boşluğuna ulaşır. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada kaybın ve aşağılığın türemiş biçimleri anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; kaybın ve aşağılığın türemiş biçimleri. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada çıkışsız ağır durum anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişi ya da topluluk ağır ve büyük bir durumun içine düşer. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada mızrak ucunun alt bölümü anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Mızrağın sivri ucuna yakın ön gövde bölümü ana anlamdır. Böylece doğrudan ulaşan hak ve çıkışsız zarar, Gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 6,
-          "anchor": "Hemen önceki kayıp hükmü, doğrudan ulaşan hak ve çıkışsız zarar içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 6,
-          "anchor": "Önceki insan ve kayıp hükmü, doğrudan ulaşan hak ve çıkışsız zarar okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: gerçek, yüzeyde kalmadan sonucuna ulaşan düz bir saplanış; sabır da kaçışı zor ağır durum karşısında tutunma olarak görülebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_639f83c0c1fdf4a6f249",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür; odaktaki sıkı dokuma ve sağlam söz yüzleri, malzemeyi işe koşan eylem görüntüsüyle temas eder; tutarlılık, yalnızca söylenen bir nitelik değil, emekle kurulmuş ve dayanmış bir biçim olarak hissedilir; dokuma ve işçilik görüntüleri odak içinde kurulan bir benzetmedir; eylem ve gerçek anlamlarını korur."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sıkı dokunmuş veya sağlam kurulmuş anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kumaş söz öbeğinde ipliklerin sıkı ve düzgün biçimde dokunmuş olması anlatılır. Böylece sıkı dokunmuş söz ve iş, İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada özel adlandırma kümesi anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kullanım iki kemiğin birleştiği eklem yerini gösterir. Böylece sıkı dokunmuş söz ve iş, İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işe koşmak veya kullanmak anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birini veya bir şeyi işe koşma ve kullanma ana anlamdır. Böylece sıkı dokunmuş söz ve iş, İyi iş ve gerçek, işlenmiş malzeme ile sağlam kurulmuş sözün gevşemeden bir arada durması gibi de görünür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_1f7887a571ac773547e3",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir; önceki eksilme görüntüsü, odaktaki hak ve kısasa dayalı karşılık görüntüleriyle birleşerek mahrumiyet ile cevabı aynı sürecin iki aşaması yapar; hak kelimesi, yalnızca bir ilke değil, kaybolan şeyin karşılığını talep eden somut bir sonuç kazanır; hukuki karşılık sahnesi bağlamsal bir benzetmedir; hukuk hükmü kurmaz ve sabırla hakkın tek anlamını seçmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada bağlayıcı gereklilik ve hak ediş anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin gerekli hale gelmesi, artık kaçınılamayan bir bağlayıcılık doğurur. Böylece kaybın doğurduğu karşılık, Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada genel eksilme anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; genel eksilme. Böylece kaybın doğurduğu karşılık, Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada öldürmeye karşılık ölüm cezası anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Önceki bir öldürmeye karşılık denk bir ölüm cezası söz konusudur. Böylece kaybın doğurduğu karşılık, Kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 6,
-          "anchor": "Hemen önceki kayıp hükmü, kaybın doğurduğu karşılık içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2"
-          ],
-          "paragraph": 6,
-          "anchor": "Önceki insan ve kayıp hükmü, kaybın doğurduğu karşılık okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: kayıp, orantılı bir karşılık isteyen hak edilmiş bir isteme dönüşebilir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_3d95e8bf3911bcff1ab5",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
           ],
           "paragraph": 7,
-          "anchor": "Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir; önceki zaman görüntüsündeki susuz dil ve küçük yudum, odaktaki acı ilaç yüzüyle birleşerek dayanmayı tedrici bir açılma olarak kurar; sabır, yalnızca sonucu beklemek değil, daralmış geçişi mümkün kılan ölçülü bir vasıta olur; bu bedensel sahne çözümlenmemiş bağlam görüntüsüyle kurulan keşifsel bir benzetmedir; sabrın biçimsel karşılığı değildir."
-        },
+          "anchor": "Güven anlamındaki {ar:ءَامَنُوا۟, tr:āmanū, gloss:emin ve güvenilir olma}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:deve ya da sürünün en dolgun hâle gelmesi} ile; iyi ve düz olmanın yanı sıra kişiye uygun olma anlamındaki {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve kişiye uygun işler} da {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:sürüye elverişli otlak} koluyla temas edince, güvenilir koşullarda beslenen topluluğun yararı için bir otlak benzetmesi doğar, fakat bu sözcüklerin karşılıklı tavsiye ya da ayetin kendisinin sözlük karşılığı değil, formca uzak ve hayvancılığa dair keşif bir imge olarak kalır."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:transaction-capital-and-hard-return",
+      "landings": [
         {
           "movement_refs": [
-            "activation:0"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_1641d0b1e2015f443f87",
+            "obligation:sup_2fe3e390be5445ea40ce",
+            "obligation:sup_4b6ab2db46bf0fbde0b4",
+            "obligation:sup_4c5b5af9c4e9271dc5ac",
+            "obligation:sup_84cce4b9d193563a4be6",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:2",
+            "context:103:1"
           ],
-          "paragraph": 7,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece boğazı açan ölçülü rahatlama, Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir."
-        },
+          "paragraph": 5,
+          "anchor": "Önceki {ar:خُسْرٍ, tr:khusr, gloss:sermayeyi yitiren alışveriş zararı} ticari zarar anlamıyla, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:kişiler arası karşılıklı işlem} dalı iyi davranışla temas edince bir işlem düzeni düşündürür; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:sahibinin isteyebileceği özel pay} o düzenin hakkını, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:sert taş ve acı ağaç özü} ise bedelini belirginleştirir, {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sunulan nimet, verim ve çıkarılmış kazanç} da getiriyi ekler, fakat bu yalnızca hakka dayalı işlem benzetmesidir; gerçek satış ya da para defteri değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:encased-crop-and-piled-food",
+      "landings": [
         {
           "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 7,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada boğazdaki lokmayı geçirmek için küçük yudum alma anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; boğazdaki lokmayı geçirmek için küçük yudum alma. Böylece boğazı açan ölçülü rahatlama, Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 7,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada susuzluktan kurumuş dil anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; susuzluktan kurumuş dil. Böylece boğazı açan ölçülü rahatlama, Sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 7,
-          "anchor": "Yeminle açılan zaman çerçevesi, boğazı açan ölçülü rahatlama için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_24faac75dea7c71d7bd3",
+            "obligation:sup_63420d356719c7cd0946",
+            "obligation:sup_a401e58b7ec701c9bcf5",
+            "obligation:sup_a96376a12c329bec96df",
+            "obligation:sup_adf8770f0db675acf1d7",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_c7717ec5593d6be4fa14",
             "context:103:1"
           ],
           "paragraph": 7,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak boğazı açan ölçülü rahatlama okumasına döner: sabır, susamış veya boğazı tıkanmış kişinin küçük ve ölçülü rahatlamalarla ilerlemesini sağlayan zor bir araç gibi de duyulabilir."
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:tanesinin kabuk ya da kılıf içine girmesi} dalı, tekrarlanan karşılıklı eylemlerle; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:üst ya da yan sınır, sofra yaygısı ve yiyecek yığını} kullanımları ise iş ve hakla temas ederek korunan tahıl, geniş sergi ve birikmiş yiyecek imgelerini bir araya getirir, böylece ortak iyilik geçici bir dürtü değil saklanıp biriken bir ürün gibi anlaşılır ama gerçek bir ambar ya da sabrın düz çevirisi ileri sürülmez."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_bedc03c22fdd2bb151b9",
+      "finding_ref": "macro:pressed-yield-and-short-measure",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 7,
-          "anchor": "Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir; önceki zaman görüntüsündeki ağaç, odaktaki ekşi meyve ve acı öz yüzleriyle temas ederek besin ile ilacı aynı canlı kaynağa bağlar; sabır, büyüme, ürün, acılık ve faydayı birbirine bağlayan maddi bir geçmiş kazanır; botanik sahne keşifsel bir odak-bağlam benzetmesidir; sabrın sözlük karşılığı olarak kullanılmaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 7,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece acı meyve ve şifalı öz, Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 7,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada demirhindi meyvesi anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gönderge bir ağacın meyvesidir. Böylece acı meyve ve şifalı öz, Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 7,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada el-Asra adı verilen ağaç anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; el-Asra adı verilen ağaç. Böylece acı meyve ve şifalı öz, Sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 7,
-          "anchor": "Yeminle açılan zaman çerçevesi, acı meyve ve şifalı öz için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
+            "discovery:containment",
+            "obligation:sup_128ee45e876ae45e619f",
+            "obligation:sup_180949cd5bb5c6399266",
+            "obligation:sup_546d0a71617b3b2c651d",
+            "obligation:sup_a832264981933eff6848",
+            "obligation:sup_c3ddd27c2cc2b3fa7d49",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:2",
             "context:103:1"
           ],
-          "paragraph": 7,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak acı meyve ve şifalı öz okumasına döner: sabır, keskin tatlı ürünler ve ilaçlık öz veren adlandırılmış bir ağacın büyüme sahnesiyle de buluşabilir."
+          "paragraph": 5,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:üzüm ve yağın sıvısı çıkana dek sıkılması} kolu tekrarlanan tavsiyeyle, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:bir aracı işe koşup kullanmak} kolu iyi iş ve sabırla buluşur; önceki {ar:خُسْرٍ, tr:khusr, gloss:ölçü ya da tartıda eksiltme} ile hak ve sabrın sofra yaygısı, yiyecek yığını ve tartmadan toplu satış kullanımları verim, ölçü, eksik pay ve düzeltme ilişkisini somutlaştırır, ancak ayet gerçek bir pres, terazi ya da pazar bildirmez."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_1e01dfc03ed9623b712a",
+      "finding_ref": "macro:rider-bow-spear-and-working-limbs",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür; önceki ardışık zaman, iki kez yinelenen karşılıklı fiille birleşerek bağlılığı bireysel hafızadan kişiler ve aralıklar arasında çalışan bir aktarıma çevirir; okur, nitelikler listesinin zaman geçtikçe yeniden kurulan bir devreye dönüştüğünü görür; bu bağlamsal okuma âyetin olağan istisnasını korur; iki karşılıklı fiilin yalnız eşzamanlı öğütleşme olduğu ihtimali de açıktır."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Ardışık zaman, odak uygulamalarının taşınacağı sürekliliği sağlar anlamını taşırken, {ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ardışık zaman, odak uygulamalarının taşınacağı sürekliliği sağlar. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece zaman içinde yenilenen aktarım, İstisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 8,
-          "anchor": "Yeminle açılan zaman çerçevesi, zaman içinde yenilenen aktarım için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 8,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak zaman içinde yenilenen aktarım okumasına döner: i̇stisna, zaman aralıkları boyunca güveni, onarıcı işi, gerçeği ve dayanmayı yeniden birbirine aktaran sürdürülen bir başarı olarak görünür."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_5dac5ccff1e67a038d20",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir; önceki sıkıştırma, odaktaki bilinçli iş ve özdenetimle temas eder; çıkarılan ürün, onarılmış koşullar ve doğrulanmış gerçek olarak görünür; okur, gerçeğin iyi işten sonra eklenen bir erdem değil, baskı altında ortaya çıkan uygulanmış bir sonuç olduğunu fark eder; bu atıflı bağlamsal okuma, zamanın sıradan ardışıklık anlamını korur ve baskı mekanizmasını tek mümkün okuma saymaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Sıvı çıkana kadar bastırma, çalışmanın ne üretebildiğini açığa çıkaran baskıyı sağlar anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sıvı çıkana kadar bastırma, çalışmanın ne üretebildiğini açığa çıkaran baskıyı sağlar. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Sıkıştırılarak elde edilen ürün, baskı altında üretilen olumlu sonucu sağlar anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sıkıştırılarak elde edilen ürün, baskı altında üretilen olumlu sonucu sağlar. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada bilerek yapılan iş veya eylem anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir yapanın bilerek ortaya koyduğu iş veya eylem anlamı çekirdektir. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece zaman baskısında açığa çıkan sonuç, Zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 8,
-          "anchor": "Yeminle açılan zaman çerçevesi, zaman baskısında açığa çıkan sonuç için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 8,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak zaman baskısında açığa çıkan sonuç okumasına döner: zaman baskısı altında disiplinli iş, görünür bir kanıta ve ayakta duran bir gerçeğe sıkıştırılmış sonuç olarak belirir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_ceae4eaf04628eaf1643",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar; önceki sığınma görüntüsü, odaktaki güven, bağlanma, savunulacak hak ve kefillikle birleşerek korumayı tek kişinin kaçışı olmaktan çıkarır; istisnanın toplumsal bir emniyet ağı kurarak gerçekleştiği görünür; bu atıflı görüntü olağan istisnayı içerir; kurumsal veya hukuki bir yapıyı âyetin tek anlamı olarak ilan etmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Sığınak, kurtuluş ve korunmaya sığınma, istisnayı mekânsal ve toplumsal olarak okumayı açar anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sığınak, kurtuluş ve korunmaya sığınma, istisnayı mekânsal ve toplumsal olarak okumayı açar. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada korunması ve savunulması gereken şey anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişiye düşen görev, kendisine bağlı olan şeyi korumak ve savunmaktır. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada yükümlülüğe güvence veren kişi anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, bir başkasının yükümlülüğü için güvence verir ve doğabilecek maddi yükü üstlenir. Böylece birbirini koruyan güven ağı, İnsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 8,
-          "anchor": "Yeminle açılan zaman çerçevesi, birbirini koruyan güven ağı için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 8,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak birbirini koruyan güven ağı okumasına döner: i̇nsanlar, güven, korunmuş hak ve karşılıklı sorumlulukla birbirleri için bağlı bir sığınak kurar."
-        }
-      ]
-    },
-    {
-      "finding_ref": "macro:cand_bed3452508f3359f55f7",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür; önceki tekil insan görüntüsü, odaktaki güven, uzlaşma ve iki kez tekrarlanan karşılıklı hitapla temas eder; toplumsallık, istisnanın dış görünüşü değil, insanın kayıptan çıkmasını sağlayan hareketin kendisi olur; bu atıflı ilişkisel okuma insan kelimesini yalnızca tür adı sayan ihtimali açık bırakır ve olağan çoğul istisnayı korur."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada İnsanın görünür ve yabanıl olmayan varlığı, insanlaşma ile yabancılaşmış yalnızlık arasındaki karşıtlığı taşır anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; İnsanın görünür ve yabanıl olmayan varlığı, insanlaşma ile yabancılaşmış yalnızlık arasındaki karşıtlığı taşır. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada Yabancılığı gideren tanıdık mevcudiyet, odak metnin yöneldiği ilişkisel koşulu sağlar anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Yabancılığı gideren tanıdık mevcudiyet, odak metnin yöneldiği ilişkisel koşulu sağlar. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada barışma ve uzlaşma anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Birbirinden uzaklaşmış veya çatışmış insanlar arasındaki olumsuz ilişki giderilir. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece yalnız insandan güvenilir topluluğa geçiş, Genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 8,
-          "anchor": "Hemen önceki kayıp hükmü, yalnız insandan güvenilir topluluğa geçiş içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
+            "discovery:containment",
+            "obligation:sup_0844370b2438fe3b91c8",
+            "obligation:sup_2c44874afa3484f4211f",
+            "obligation:sup_504e7456c31def704617",
+            "obligation:sup_887dd02cc07438db04d9",
+            "obligation:sup_d8899f4e8b71d9d97548",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5",
+            "connection:conn_fc6eeb5891231e3f2404",
             "context:103:2"
           ],
           "paragraph": 8,
-          "anchor": "Önceki insan ve kayıp hükmü, yalnız insandan güvenilir topluluğa geçiş okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: genel insan, güven ve onarıcı karşılıklılık yoluyla yabancılaşmadan çıkıp güvenilir bir çoğulluğa yeniden kurulmuş olarak görünür."
+          "anchor": "{ar:إِنسَٰنَ, tr:insān, gloss:bineğin, yayın ya da eşlenik şeyin insana dönük yanı} insanı işleten taraf olarak; {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:önceki izlere basan, terlemeyen ya da ayrı kullanımdaki zayıflayan at}, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:üst ya da yan yüz}, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:mızrak ucunun alt bölümü ve iş gören beden parçası} ile {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:bir şeyi ötekine bitiştirip sürdürme} arasında, insanın binek ve araçla amaca yönelip direnç içinde adımını eşleştirdiği bir düzen kurar, fakat bu son derece keşif niteliğinde bir koordinasyon benzetmesidir, gerçek hayvan, silah veya beden parçası tasviri değildir."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_76c6f8d8b60e83e8a786",
+      "finding_ref": "macro:straight-penetration-and-inescapable-harm",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder; önceki insan görüntüsündeki algılama ve suret, odaktaki gerçeklik ve kanıtla bir araya gelerek özel izlenimi ortak doğrulamaya çevirir; gerçek, zaten bütünüyle elde bulunan bir önerme değil, kör noktalar arasında birlikte korunan görünürlük olarak duyulur; bu atıflı algı okuması göz görüntüsünü sözlük artığı saymayan bir olasılık taşır; gerçek yükleminin olağan anlamını yerinden etmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada Görme, duyma veya duyumsama yoluyla fark ediş, gerçeğin görünür olmasını sağlayan algı eylemini taşır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Görme, duyma veya duyumsama yoluyla fark ediş, gerçeğin görünür olmasını sağlayan algı eylemini taşır. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) yüzeyi burada Göz bebeğindeki küçük insan sureti, bir kişinin diğerini görünür kıldığı sınırlı ayna görüntüsünü taşır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Göz bebeğindeki küçük insan sureti, bir kişinin diğerini görünür kıldığı sınırlı ayna görüntüsünü taşır. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada gerçekliğe uygun, kesin doğruluk anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gerçekte var olana uygun düşen şey doğru ve sağlamdır. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada doğruluğunu belirleme ve gösterme anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Doğruluğu kanıtlarla açığa çıkarıp bir savı geçerli kılma işlemin gösterme yönüdür. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:ٱلْإِنسَٰنَ, tr:el-insân, gloss:insan} (insanın görünürlüğü ve yakınlığı) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece gerçeğin ortaklaşa görünür tutulması, Karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 8,
-          "anchor": "Hemen önceki kayıp hükmü, gerçeğin ortaklaşa görünür tutulması içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
+            "discovery:containment",
+            "obligation:sup_01a62e0d0dfa0a82cb81",
+            "obligation:sup_992b16e21524606f67c4",
+            "obligation:sup_aad2819e3e459d3c2bf0",
+            "obligation:sup_ae324195dc397dcb0ad8",
+            "obligation:sup_f2000ce2636546ab61f6",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_fc6eeb5891231e3f2404",
             "context:103:2"
           ],
           "paragraph": 8,
-          "anchor": "Önceki insan ve kayıp hükmü, gerçeğin ortaklaşa görünür tutulması okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: karşılıklı öğüt, sınırlı insanların gerçeği fark etmesine, sınamasına ve ortak alanda görünür tutmasına yardım eder."
+          "anchor": "{ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:yüzeyi geçip iç boşluğa ulaşan düz mızrak saplanışı} doğruluğun savunulan yüzeye erişmesini, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:çıkışsız ağır durum} ve {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:mızrak ucuna yakın gövde bölümü} ise bu temasın baskı ve yönünü verir; iyi işin onarıcı amacı zararı sınırlandırsa da benzetme silahı gerçek olay kılmaz ve {ar:خُسْرٍ, tr:khusr, gloss:kayıp} biçimiyle uyuşmayan başka bir kökün ek harfli türevini kayıp anlamına katmaz."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_3084bc5d72c42e75351f",
+      "finding_ref": "macro:tight-weave-firm-speech-and-worked-material",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar; önceki ticari kayıp, odaktaki güven, karşılıklı işlem, onarım, sahip olunan hak ve akran denetimiyle bir hesap ilişkisine bağlanır; okur, kaybı soyut bir ruhsal eksilme olarak değil, tarafların hakkını ve karşılığını taşıyan bir hesap olarak da görebilir; bu atıflı ticari okuma genel ruhsal kayıp ihtimalini korur; adil alışverişi âyetin tek konusu ilan etmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada Ticari kayıp, eylem, hak ve açığın ilişkilendirilebildiği bir hesap düzeni kurar anlamını taşırken, {ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ticari kayıp, eylem, hak ve açığın ilişkilendirilebildiği bir hesap düzeni kurar. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ءَامَنُوا۟, tr:âmenû, gloss:güvene bağlananlar} (güven ve kabul) yüzeyi burada guven ve guvenilirlik anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Temel cekirdek korkuya karsi guven, ic yatiskinligi ve tehlikeden emin olma halidir. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar."
-        },
-        {
-          "movement_refs": [
+            "discovery:containment",
+            "obligation:sup_4f00e6d3863a027b0596",
+            "obligation:sup_5b9f5cbb72ef581f2cfd",
+            "obligation:sup_7bad06482b5d77872a94",
+            "obligation:sup_7db6c5839927f61c6457",
+            "obligation:sup_d616702c6f8ec166f998",
+            "activation:0",
+            "activation:1",
             "activation:2"
           ],
-          "paragraph": 8,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada karşılıklı işlem anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir kişiyle karşılıklı işlem yürütme ana anlamdır. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar."
-        },
+          "paragraph": 4,
+          "anchor": "{ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:sıkı dokunmuş kumaş ve kesin söz} için aktarılan sınırlı kullanımlar, iyi işin ve sabrın; bilinçli çalışmanın işe koşma anlamı ise aynı maddi temasın içinde buluştuğunda, dokunmuş ya da kurulmuş malzemenin tutarlılığı ile karşılıklı aktarılan sağlam söz ve tamamlanmış iş arasında bir dayanıklılık benzetmesi kurulur, fakat bunu genel doğruluk, her tür sağlamlaştırma, gerçek bir yapı ya da örümcek ağı diye genişletmek doğru olmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:thirst-choking-and-incremental-relief",
+      "landings": [
         {
           "movement_refs": [
-            "activation:3"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_5821c5d2a4c2611ce153",
+            "obligation:sup_c94dcc4efb2a60ed789a",
+            "obligation:sup_de8ff77b0c7e121a8c04",
+            "obligation:sup_e9c03a881aeee15f489e",
+            "obligation:sup_eb8e6a6341b010fd2682",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
           ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar."
-        },
+          "paragraph": 9,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:susuzluktan kuruyan dil ve boğaza takılan lokmayı azar azar suyla geçirme} kullanımları tekrarlanan tavsiyeyle; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:acı ağaç özü ve ondan yapılan ilaç} ise hak ve iş ile temas ederek güç yutulan fakat tıkanmayı açan bir doz imgesi kurar, böylece rahatlama bir kerede değil güç ama ölçülü adımlarla gelir; susuzluk ya da boğulma gerçek olay değil, sabrın veya tavsiyenin sözlük karşılığı da değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:tree-sour-fruit-and-bitter-sap",
+      "landings": [
         {
           "movement_refs": [
-            "activation:4"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_0d75cb1a6e199e1aacbd",
+            "obligation:sup_229868d65a3f1ae83695",
+            "obligation:sup_76b47b87f9789cfb7f42",
+            "obligation:sup_ae20f338da282c15e8e6",
+            "obligation:sup_d4c2120b752807433f0c",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
           ],
-          "paragraph": 8,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar."
-        },
+          "paragraph": 7,
+          "anchor": "Zaman anlamı korunurken {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zaman} anlamı yerinde kalır; {ar:ٱلْعَصْرَة, tr:al-ʿaṣara, gloss:ağaç adı} biçimce uzak bir kullanım olarak devreye girer ve bunu tekrarlanan karşılıklı tavsiye tetikler; {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:demirhindi meyvesi ve acı ilaç özü} için verilen ekşi meyve, kızıl çekirdek ve acı aloe benzeri öz kullanımları işin onarıcı niteliğiyle temas ederek beslenme ve iyileşmenin tek canlı kaynakta buluştuğu bir botanik benzetme kurar, ancak burada gerçek bir ağaçtan ya da al-ʿaṣr ve al-ṣabr için sözlük çevirisinden söz edilmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:hft-delta-time-relay",
+      "landings": [
         {
           "movement_refs": [
-            "activation:5"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_460bde00b52aef22017e",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
           ],
-          "paragraph": 8,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece kayıp ve hak hesabı, İstisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar."
-        },
+          "paragraph": 10,
+          "anchor": "Yemin zamanı {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:ardışık zaman} ile birleştirme, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:kişileri ve aralıkları birbirine bağlama ile ortak aktarım} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:değişen aralıklarda sebat} yüzeylerinin bu okumaya verdiği formca doğrulanmamış ama yüzey temasına bağlı rollerde, sabit nitelikler olarak görülen istisna zaman içinde tekrar taşınan bir bağlılığa dönüşür; bu, eşzamanlı öğüdün tek başına anlatıldığı canlı seçeneği dışlamayan bir yorumdur, sözcüklerin yeni bir sözlük anlamı değildir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:hft-delta-pressure-extracts-proof",
+      "landings": [
         {
           "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_a397fa71097960c8da0c",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
           ],
-          "paragraph": 8,
-          "anchor": "Hemen önceki kayıp hükmü, kayıp ve hak hesabı içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
+          "paragraph": 10,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sıvı çıkana dek baskı} ve elde edilen verim, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:baskı sınamasına giren kasıtlı iş}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:ayakta duran ve görünür kılınmış hakikat} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:baskıyı paniğe değil üretime yönelten özdenetim} için biçimsel değil yüzeysel temas rolleriyle birleşince, erdemlerin işe sonradan eklenmesi okuması görünür onarıma ve kanıta dönüşür; sıradan ardışık zamanın bu sıkıştırma mekanizmasını taşımadığı yönündeki karşı okuma da geçerlidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:hft-delta-refuge-network",
+      "landings": [
         {
           "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_21f41ba39d0ead01425e",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
+          ],
+          "paragraph": 11,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:sığınma ve kurtuluş}, {ar:ءَامَنُوا۟, tr:āmanū, gloss:ağ içindeki güven}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine eklenme}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:korunan hak}, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:başkası için kefil olup sorumluluk alma} yüzeylerine bağlanan sınırlı roller tek tek erdem sahibi olmaktan birbirinin hakkını ve emniyetini koruyan bir sığınma ağına geçiş önerir, ancak bu yorumun canlı alternatifi kişisel bir sığınak imgesidir ve hiçbir sözcüğe burada hukukî ya da sözlükçe yeni anlam yüklenmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:hft-delta-humanization-by-mutual-presence",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_63dfb59a8c3371aefc3f",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_fc6eeb5891231e3f2404",
             "context:103:2"
           ],
-          "paragraph": 8,
-          "anchor": "Önceki insan ve kayıp hükmü, kayıp ve hak hesabı okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, başkasının hakkının kişinin kazancına çevrilmediği, güvenilir ve onarıcı bir alışveriş düzeni kurar."
+          "paragraph": 11,
+          "anchor": "{ar:إِنسَٰنَ, tr:insān, gloss:insan ve yabani olmayan görünür varlık}, tanışıklık ve yakınlık anlamlarıyla; {ar:ءَامَنُوا۟, tr:āmanū, gloss:tehdit oluşturmayan güven}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:uzlaşmayla giderilen soğukluk} ve {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:kişiden kişiye yinelenen temas} için belirtilen yüzey rolleriyle birleşince, insanlığın tekil üyeleri güvenilir bir çoğulluğa dönüşür; bu, tür adı olarak insan okumasına karşı formca sınırlı bir çıkarımdır, iman ve tavsiye yüzeylerinin kendisi yabani ya da samimi anlamını taşımaz."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_30fc1a3f4094a28a2f3d",
+      "finding_ref": "macro:hft-delta-collective-perception-of-truth",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 9,
-          "anchor": "İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur; önceki eksik ölçü, odaktaki gerçeklik, hak, onarım ve karşılıklı öğütleşmeyle birleşir; sabır fırsatçı eksiltmeyi ve aceleci aşırı düzeltmeyi sınırlar; okur, öğütleşmenin yalnız doğruyu söylemek değil, ölçüyü birlikte ayarlamak olduğunu fark eder; bu atıflı kalibrasyon görüntüsü kısa ölçüyü kaybın tek örneği saymaz ve olağan gerçek-sabır ikilisini korur."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada Eksik ölçü veya tartı, başkasının açığını doğuran somut ayar hatasını taşır anlamını taşırken, {ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Eksik ölçü veya tartı, başkasının açığını doğuran somut ayar hatasını taşır. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada gerçekliğe uygun, kesin doğruluk anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gerçekte var olana uygun düşen şey doğru ve sağlamdır. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sahibine bağlı pay ve istem yetkisi anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Özel pay veya yetki belirli bir sahibine bağlıdır ve onun tarafından istenebilir. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur."
-        },
-        {
-          "movement_refs": [
-            "activation:5"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada kendini tutarak dayanma anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, sarsıntı ve yakınma dürtüsüne karşı kendini tutar. Böylece ölçünün karşılıklı düzeltilmesi, İnsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 9,
-          "anchor": "Hemen önceki kayıp hükmü, ölçünün karşılıklı düzeltilmesi içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
+            "discovery:containment",
+            "obligation:sup_97b127d9b76e37ca22cc",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_fc6eeb5891231e3f2404",
             "context:103:2"
           ],
-          "paragraph": 9,
-          "anchor": "Önceki insan ve kayıp hükmü, ölçünün karşılıklı düzeltilmesi okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇nsanlar gerçekliği ve hak sahipliğini birbirleri için tekrar tekrar ölçüp düzeltirken, sabır düzeltmenin kendisini de taşkınlıktan korur."
+          "paragraph": 12,
+          "anchor": "{ar:إِنسَٰنَ, tr:insān, gloss:görerek, duyarak ya da sezerek algılayan kişi ve göz bebeğindeki insan imgesi}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçekliğe uygunluk ve doğruluğu görünür kılma} ile {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:fark etmeyi ve teyidi karşılıklı dağıtma} için sunulan yüzey temaslarında, başkalarının kör noktasını gideren ortak tanıklığa dönüşür; “insan gözü” imgesinin yalnızca sözlük artığı olduğu seçeneği canlı kalır, bu yüzden yorum hakikatin zaten bütünüyle görüldüğü iddiası değil, sınanıp kamusal görünürlük kazanmasıdır."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_23412660cc7b5884197a",
+      "finding_ref": "macro:hft-delta-loss-ledger",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 9,
-          "anchor": "İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür; önceki zaman ve genel eksilme, odaktaki uygunluk, bağlama, sıkı kurulum ve tıkaç görüntüleriyle bir koruma düzenine dönüşür; okur, iyi işlerin kaybı telafi edecek miktar olarak birikmesinden çok, değerin kaçmasını önleyen bir tutma biçimi olduğunu görür; bu keşifsel koruma modeli, ayrı maddi görüntülerin birlikte okunmasına dayanır ve olağan istisna anlamını dışlamaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Ardışık zaman, kurulmuş iyiliğin aşınabileceği veya korunabileceği süreyi açar anlamını taşırken, {ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ardışık zaman, kurulmuş iyiliğin aşınabileceği veya korunabileceği süreyi açar. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:خُسْرٍ, tr:husr, gloss:kayıp ve eksilme} (kayıp ve eksilme) yüzeyi burada Genel eksilme, odak yapısının karşı koyduğu sızıntı ve aşınmayı taşır anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Genel eksilme, odak yapısının karşı koyduğu sızıntı ve aşınmayı taşır. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada sana uygun olma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şey ile yöneldiği kişi arasında uygunluk ve uyma ilişkisi bulunur. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada sıkı dokunmuş veya sağlam kurulmuş anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kumaş söz öbeğinde ipliklerin sıkı ve düzgün biçimde dokunmuş olması anlatılır. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:5"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada şişe tıkacı ve tıkama anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Parça, şişe benzeri kabın ağzındaki açıklığı kapatır. Böylece eksilmeye karşı tutulan yapı, İstisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 9,
-          "anchor": "Yeminle açılan zaman çerçevesi, eksilmeye karşı tutulan yapı için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_fc6eeb5891231e3f2404"
-          ],
-          "paragraph": 9,
-          "anchor": "Hemen önceki kayıp hükmü, eksilmeye karşı tutulan yapı içinde bu istisnanın cevap verdiği basıncı açıklar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 9,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak eksilmeye karşı tutulan yapı okumasına döner: i̇stisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
-        },
-        {
-          "movement_refs": [
+            "discovery:containment",
+            "obligation:sup_4af6b9bcd249b77df5bd",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5",
+            "connection:conn_fc6eeb5891231e3f2404",
             "context:103:2"
           ],
-          "paragraph": 9,
-          "anchor": "Önceki insan ve kayıp hükmü, eksilmeye karşı tutulan yapı okumasında istisnanın cevap verdiği insanlık ve eksilme zeminini taşır: i̇stisna, zaman içinde değerin ve ilişkinin sızıp dağılmasını azaltan, uygun eylemle kurulmuş ve sabırla kapatılmış bir yapı olarak da görünür."
+          "paragraph": 13,
+          "anchor": "{ar:خُسْرٍ, tr:khusr, gloss:ticari sermaye kaybı}, {ar:ءَامَنُوا۟, tr:āmanū, gloss:alışverişin güven kredisi}, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:kişiler arası işlem}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:bozuk muameleyi onarma}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:kişinin somut hakkı} ve {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:akran denetimi} yüzeylerine bağlanan roller, bireyin soyut kaybını erdemlerle kapatmak yerine başkasının hakkını kendi kazancına çevirmeyen, karşılıklı olarak denetlenebilir bir işlem düzeni önerir; soyut manevi kayıp şeklindeki canlı alternatif korunur ve burada gerçek bir pazar ya da hesap defteri iddia edilmez."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_418929e421c0c97d06bf",
+      "finding_ref": "macro:hft-delta-measure-calibration",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "obligation:sup_9c0ccb370be5c97f049b",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:2"
           ],
-          "paragraph": 10,
-          "anchor": "Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür; önceki ardışık zaman, odaktaki işlek yol, birleşme, iz üzerine basan at ve sert taş görüntüleriyle temas eder; iyi iş ve sabır, ayrı kişilerin taşıdığı özellikler olmaktan çıkıp koordineli ilerlemeyi mümkün kılan ortak pratiğe dönüşür; bu maddi yolculuk yalnızca koordineli süreklilik için bir benzetmedir; odak kelimelerinin sözlük çevirisi veya gerçek bir sefer anlatısı değildir."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Ardışık zaman, topluluğun tek eylemden yolculuğa uzanan hareketini açar anlamını taşırken, {ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Ardışık zaman, topluluğun tek eylemden yolculuğa uzanan hareketini açar. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:عَمِلُوا۟, tr:amilû, gloss:bilerek yaptılar} (bilinçli eylem) yüzeyi burada işlek yol anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Yürünmüş ve işlek hale gelmiş yol ana anlamdır. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada bir şeyi başka şeyle bağlama veya bitişik sürdürme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şeyin başka bir şeye bağlanması veya onunla bitişik hale gelmesi. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada terlemeyen veya art ayağını ön ayak izine basan at anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Başka açıklamada at art ayağını ön ayağının bıraktığı izin üzerine basar. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada sert taş ve taşlı arazi anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Sert, kalın veya düz taşlar belirtilir. Böylece birlikte yürüyen topluluk, Keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 10,
-          "anchor": "Yeminle açılan zaman çerçevesi, birlikte yürüyen topluluk için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 10,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak birlikte yürüyen topluluk okumasına döner: keşifsel olarak çoğul özne, tekrarlanan eylemin yol açtığı, birbirine bağlı adımlarla taşlı zemini geçen bir yolcu topluluğu gibi de görünür."
+          "paragraph": 13,
+          "anchor": "Eksik tartma anlamındaki {ar:خُسْرٍ, tr:khusr, gloss:ölçüde eksiltme}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:gerçeklik standardı ve sahibine ait pay}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:bozulmayı onarma}, iki tarafın da birbirini düzelttiği {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:karşılıklı ayarlama} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:ölçüsüz karşılığı engelleyen özdenetim} ile temas ederek yalnızca doğruyu ve sabrı ayrı ayrı söylemekten karşılıklı ölçü düzeltmeye geçer; buna rağmen kısa tartı yalnız bir kayıp örneği olarak kalabilir ve belirli bir terazi sahnesi zorunlu değildir."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_2cc54f7604c00c031791",
+      "finding_ref": "macro:hft-delta-anti-diminution-container",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "obligation:sup_005a94292937138e5f9f",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "activation:5",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:1",
+            "context:103:2"
           ],
-          "paragraph": 10,
-          "anchor": "Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür; önceki yağmur bulutu, odaktaki uygunluk, otlak-sürü elverişliliği, karşılıklı eylem ve katmanlı bulut görüntüsüyle birleşir; iyi işler ile öğütleşme, yalnız buyruk aktarmak değil, canlıların gelişeceği koşulları birlikte sürdürmek olarak duyulur; bu sahne biçimden uzak otlak ve bulut yüzlerini içeren keşifsel bir ekolojik benzetmedir; öğütleşmenin veya sabrın çevirisi değildir."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Yağmur taşıyan bulut, ekili bir alanı mümkün kılan çevresel girdiyi sağlar anlamını taşırken, {ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Yağmur taşıyan bulut, ekili bir alanı mümkün kılan çevresel girdiyi sağlar. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada sana uygun olma anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Bir şey ile yöneldiği kişi arasında uygunluk ve uyma ilişkisi bulunur. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada otlağın sürüye bolca elverişli olması anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Otlak, otlayan hayvanların ihtiyacına uygun düşer. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada katmanlı beyaz bulut anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Gönderge beyaz bir buluttur. Böylece ortakça yetiştirilen yaşam alanı, Keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 10,
-          "anchor": "Yeminle açılan zaman çerçevesi, ortakça yetiştirilen yaşam alanı için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
-            "context:103:1"
-          ],
-          "paragraph": 10,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak ortakça yetiştirilen yaşam alanı okumasına döner: keşifsel olarak topluluk, uygun bir ortak otlakta doğrulukla bağ kurup biriken dayanmayla hayatı besleyen bir yetiştirme düzeni gibi görünür."
+          "paragraph": 14,
+          "anchor": "Zamanı süren {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:değerin korunacağı süre}, genel eksilme olan {ar:خُسْرٍ, tr:khusr, gloss:sızıntı ve aşınma}, işe uyan onarım {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:kayıp noktasına uygun düzeltme}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:kişiler ve eylemler arasında bağ}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:çözülmeye direnen sıkı dokuma} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:kaçışı kapatan tıkaç} için formca uzak ama uyumlu imgeler biriktikçe, istisna kaybı erdemlerle tartıp aşan bir toplamdan zaman boyunca değer ve ilişkiyi sızıntıdan koruyan yapıya kayar; bu birleştirme bağımsız malzeme imgelerini tek kapta toplama riskini taşır, dolayısıyla sınırlı bir benzetmedir."
         }
       ]
     },
     {
-      "finding_ref": "macro:cand_38c643dd162d62e2bea3",
+      "finding_ref": "macro:hft-outlier-traveling-cohort",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 10,
-          "anchor": "Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür; önceki küçük yudum görüntüsü, odaktaki acı öz, içe ulaşan düz saplanış, karşılıklı iletme ve düzeltmeyle birleşir; zor gerçek, yaralayıcı bir darbe değil, karşılıklı alınan ve iyileştirmeye yönelen ölçülü bir geçiş olarak duyulur; bu özellikle şaşırtıcı sahne deneyimsel bir benzetmedir; biçim bilgisi veya öğreti olarak sunulmaz."
-        },
-        {
-          "movement_refs": [
-            "activation:0"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) yüzeyi burada Boğazdaki tıkanıklığı geçiren küçük yudum, ölçülü kolaylaştırıcı dozu taşır anlamını taşırken, {ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Boğazdaki tıkanıklığı geçiren küçük yudum, ölçülü kolaylaştırıcı dozu taşır. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:1"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلصَّبْرِ, tr:es-sabr, gloss:sabır ve dayanma} (kendini tutarak dayanma) yüzeyi burada acı ağaç özü anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Tadı acıdır ve ilaç olarak kullanılır. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:2"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلْحَقِّ, tr:el-hakk, gloss:gerçek ve hak} (gerçeklik ve hak) yüzeyi burada iç boşluğa ulaşan düz saplanış anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Saplanan şey yüzeyde kalmayıp bedenin iç boşluğuna ulaşır. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:3"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tevâsav, gloss:birbirlerine öğüt verdiler} (karşılıklı iletme) yüzeyi burada birbirine öğüt veya talimat iletmek anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi veya öğüt vermesi. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "activation:4"
-          ],
-          "paragraph": 10,
-          "anchor": "{ar:ٱلصَّٰلِحَٰتِ, tr:es-sâlihât, gloss:iyi ve onarıcı işler} (iyilik, onarım ve uygunluk) yüzeyi burada iyi ve düzgün olma; düzeltme anlamını taşırken, {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} (ardışık zaman ve oluşum zemini) bağımsız tetikleyici olarak bu taşıyıcıyla temas eder; Kişi, iş veya şey bozukluğun ve kötülüğün karşıtı olan iyi, düzgün ve yararlı bir durumda bulunur. Böylece daralmayı aşan acı doz, Keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_c7717ec5593d6be4fa14"
-          ],
-          "paragraph": 10,
-          "anchor": "Yeminle açılan zaman çerçevesi, daralmayı aşan acı doz için önceki kayıp ile bu istisna arasındaki zemini kurar."
-        },
-        {
-          "movement_refs": [
+            "discovery:containment",
+            "obligation:sup_fcc171687838a94edf3a",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_c7717ec5593d6be4fa14",
             "context:103:1"
           ],
-          "paragraph": 10,
-          "anchor": "Önceki {ar:وَٱلْعَصْرِ, tr:vel-asr, gloss:ardışık zaman} bağlamı, zaman ve oluşum zemini olarak daralmayı aşan acı doz okumasına döner: keşifsel olarak karşılıklı sabır, içe işleyen gerçeğin daralmadan geçip onarıcı hale gelmesini sağlayan acı ve ölçülü bir doz gibi görünür."
+          "paragraph": 15,
+          "anchor": "Ardışık {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:yolculuğu uzatan zaman}, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:tekrar yürünerek kalıcılaşan yol}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:yol arkadaşlarını bağlı tutma}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:öncekinin izine basan eşleşmiş toynak} ve {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:sert taşlı zemin} için biçimce uzak, yüzeyle sınırlı temas rollerinde, ayrı kişilerin nitelikleri koordineli biçimde dirençli zemini geçen bir yolcu topluluğuna dönüşür; bu şaşırtıcı maddi benzetme sözlük çevirisi değil, tekrarlı dayanışmanın bir tasviridir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:hft-outlier-cultivated-pasture",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_6a3c019831e7746674b4",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
+          ],
+          "paragraph": 15,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:ekili alanı mümkün kılan yağmur bulutu}, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:canlı ihtiyaca uygunluk}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:sürüyü besleyen otlak ve karşılıklı yetiştirme} ile {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:birikimi sürdüren katmanlı bulut} için yüzeyle sınırlı roller, komut iletmekten çok ortak yaşamı besleyen bir otlak tasavvuruna geçer; otlak anlamının tawāṣaw’a, bulut anlamının sabra sözlükçe ait olmadığı ve gerçek hayvancılık anlatılmadığı özellikle korunur."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:hft-outlier-bitter-dose-through-constriction",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "obligation:sup_51ec3136f1df33d730d6",
+            "activation:0",
+            "activation:1",
+            "activation:2",
+            "activation:3",
+            "activation:4",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "context:103:1"
+          ],
+          "paragraph": 16,
+          "anchor": "{ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:boğaza takılan lokmayı geçiren küçük yudum}, {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:alması zor acı ilaç özü}, {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:savunulan yüzeyi delen doğru hamle}, {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:dozu karşılıklı verme ve alma} ve {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:yaralamak yerine iyileştiren onarım} için kasıtlı olarak sıra dışı tutulmuş yüzey rolleri, sabırla katlanılan hakikat okumayı karşılıklı verilen güç ama onarıcı bir düzeltme dozuna kaydırır; boğulma, ilaç ve saplanma gerçek sahne, çekim ya da öğreti değil, zor düzeltici söz için deneyim benzetmesidir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:patience-awaiting-judgment",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "activation:1",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:2"
+          ],
+          "paragraph": 16,
+          "anchor": "Olağan kendini tutarak dayanma anlamını koruyan {ar:بِٱلصَّبْرِ, tr:bil-ṣabr, gloss:özdenetimli sabır}, önceki kayıp ve {ar:بِٱلْحَقِّ, tr:bil-ḥaqq, gloss:beklenen doğruluk} ile karşılaşınca belirli bir sonucun beklenmesi yönünde sınırlı bir katman da taşır; bu, kayıp baskısı altında disiplinli beklentiyi açık kılar, ancak gerçek bir mahkeme, hâkim, hüküm ya da hukuk süreci gerektirmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:pericope-loss-exception",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "connection:conn_c7717ec5593d6be4fa14",
+            "connection:conn_fc6eeb5891231e3f2404",
+            "context:103:1",
+            "context:103:2"
+          ],
+          "paragraph": 1,
+          "anchor": "Önce pasajın kendi çerçevesi korunmalı: {ar:ٱلْعَصْرِ, tr:al-ʿaṣr, gloss:zamana yemin} ile açılan yemin, önceki {ar:خُسْرٍ, tr:khusr, gloss:kayıp ve eksilme} hükmündeki genel insan kaybını izler; {ar:إِلَّا, tr:illā, gloss:ancak} istisnası bu hükmü iman eden, iyi işler yapan, hakkı ve sabrı birbirine tavsiye eden gruba daraltır, böylece hemen önceki kayıp önermesine kesin bir karşılık verirken pasajda bulunmayan bir çekim açıklaması ileri sürmez."
+        }
+      ]
+    },
+    {
+      "finding_ref": "macro:external-guidance-to-mutual-counsel",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0",
+            "context:1:6"
+          ],
+          "paragraph": 2,
+          "anchor": "Başka bir yerdeki {ar:ٱهْدِنَا, tr:ihdinā, gloss:bize yol göster}, yani çoğul yönlendirilme isteği, burada {ar:وَتَوَاصَوْا۟, tr:wa-tawāṣaw, gloss:birbirine tavsiyede bulundular} ile kurulan yatay karşılıklı aktarımın yanında düşünülünce ortak bir yöneliş ekler; insanın birbirine verdiği öğüt ile Allah'tan istenen hidayet birbirine eşitlenmeden, bu yakınlık yalnızca hak ve sabır tavsiyesinin paylaşılan bir yola dönük duyulmasını sağlar."
         }
       ]
     }
   ]
 }
-
 </macro_scope_ledger>
 
 <global_scope_prose>
-103:3'ün olağan anlamı, kayıp hükmünden iman eden, iyi işler yapan, hakkı ve sabrı birbirine tavsiye edenlerin istisna edilmesidir; bu sıralı yapı, öğeleri birbirini yeniden kayba dönmekten koruyan bir uygulama düzeni olarak da duyulabilir, fakat bu sistem oku düz istisna cümlesinin yerine geçmeyen ve her sözlük dalını etkinleştirmeyen bir yorum olarak kalır.
-Bu zincirin ilk halkasında {ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin olağan güven hali, bir haberin, sözün veya hakikatin doğru sayılıp kabul edilmesiyle ikinci bir yön kazanır ve 103:1-2 ile 95:6'daki iman ve iyi eylem paraleli bu yönü işe giren bir tutum haline getirir; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} biçiminin bilerek yapılan eylem anlamı, doğrudan ardından gelen {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} ile sınırlandığı halde, 94:7'deki sürdürülmüş çaba bağlantısıyla işi bir şeyi işe koşup kullanmaya dönüştürür; aynı salihât yüzeyinin bozukluğun karşıtı olan iyi, düzgün ve yararlı durum dalı, 29:36'nın bozulmayı önleyen çağrısıyla onarımı kaybı durduran bir ölçü yapar; iki kez gelen {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} Form VI karşılıklılığı, 90:17'nin karşılıklı sabır ve merhamet pratiğiyle hakikatin ve sabrın özelde tutulmayıp dolaşıma girmesini sağlar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} belirli b ile gelen hak payload'ı, 42:17'deki ölçülü gerçeklik standardıyla uygulamanın kendisini sınar; son olarak {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} içindeki b ile belirlenen sabır, 31:17'deki iyiye çağırma ve kötülüğü engelleme pratiğiyle sarsıntı ve yakınma dürtüsüne karşı kendini tutarak bu düzenin kayba geri düşmesini önler.
-Bu altı temasın bağımsız temas noktaları 95:6'daki iman ve iyi eylem istisnası, 94:7'de tamamlanan işin ardından çabanın sürmesi, 29:36'da bozulmayı önleyen kulluk, 90:17'de imanla karşılıklı sabır ve merhamet, 42:17'de hak ile ölçünün birlikte anılması ve 31:17'de dua, iyiyi emretme, kötüyü engelleme ve sabır kümesidir.
-Bu okumayı taşıyan bağlam 103:1-2'nin baskı ve kayıp zeminiyle birlikte 95:6, 94:7, 29:36, 90:17, 42:17 ve 31:17'deki eylem, doğruluk ve dayanma dönüşleridir.
+103:3’ün istisna cümlesi iman, amel, salih işler, hak ve sabır için karşılıklı öğüt koşullarını korur; 90:17 imanı sabır ve merhametle, 5:2 iyilikte yardımlaşmayı, 8:1 ilişki onarımını, 2:213 ihtilafın hakla ölçülmesini, 3:104 topluluğun kamusal çağrısını, 3:200 ise ortak sebatı öne çıkararak bu koşulları birbirini besleyen pratikler olarak görünür kılar, fakat her birinin ötekini zorunlu kıldığı tek bir sureler-arası düzen kurmaz. 90:17’de iman, karşılıklı sabır ve merhametle topluluk içinde anılır; 103:3’teki {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} ise bir haberin, sözün ya da hakikatin doğru sayılmasını taşıyarak ortak pratik içinde yaşanan bir yöneliş gibi duyulur. 5:2’de iyilik ve takvâ için yardımlaşma çağrısı, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve iş yaptılar} sözündeki işe koyma ve eyleme geçirme anlamına temas eder; böylece yapılan iş, belli bir araç, meslek ya da kurum değil, ortak iyiliğe fiilî katılım olarak genişler. 8:1’de inananlara insanlar arasını düzeltmeleri söylenmesi, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} taşıyıcısındaki yararlı ve düzgün olma anlamını ilişki onarımına açar; iyi işler böylece kişiler arasındaki bozulmayı gidermeyi de kapsar, ama yalnızca uzlaşmaya indirgenmez. 8:1’deki ilişkiyi düzeltme emri, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} alanını kişiler arasındaki ıslaha da açar. 3:104’ün topluluğu iyiliğe çağırıp kötülüğü sınırlama görevi, {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilinin üyelerin birbirine yapılacak şeyi bildirmesi anlamıyla buluşur ve öğüdü özel bir nasihatten kamusal ortak sorumluluğa genişletir; iki ayetin sözleri ve kapsamı aynı değildir. 2:213’te topluluk içindeki ayrılığın hak ölçüsünde yargılanması, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana göre} ifadesini soyut bir addan ortak hakikat ölçüsüne taşır; burada belirli bir dava ya da mahkeme adı verilmez. 3:200’de sabırla birlikte karşılıklı sebat ve gözetim yer alır; {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ifadesindeki sarsıntı ve yakınma dürtüsüne karşı kendini tutma, böylece üyelerin birlikte sürdürdüğü bir dayanma pratiği olur, fakat o ayetteki bütün görevler buraya aktarılmaz. Bu geniş okumada iyi işlerin ilişkiyi onarması, 8:1’in insanlar arasını düzeltme çağrısının 103:3’e sunduğu somut bir uygulamadır; belirli bir çatışma veya çözüm biçimi ise belirtilmez. Bu ilk yankıların her biri başka bir yanı açar: 90:17 imanı sabır ve merhametle, 5:2 ortak iyi için yardımlaşmayı, 8:1 insanlar arasını düzeltmeyi, 3:104 iyiyi çağırıp kötüyü sınırlamayı, 2:213 ayrılığı hakla yargılamayı, 3:200 ise karşılıklı sebat ve gözetimi öne çıkarır. Özellikle 8:1’deki ilişki onarımı, yararlı işlerin toplumsal sonucunu görünür kılar.
 
-Bu olağan istisna, yalnız tek tek güvenli kişilerden oluşan özel bir sığınak değil, üyelerinin birbirleri için ürettiği bir toplumsal barınak olarak da okunabilir; güvenilir kaynaklı bu ilişki, yorumlayıcı olsa da, inanç, iş ve tavsiye sırasını silmeden karşılıklı güveni görünür kılar.
-{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} taşıyıcısındaki korkunun kalkması ve iç yatışıklığı, 90:17'deki imanla karşılıklı sabır ve merhamet paraleliyle grubun güven koşuluna dönüşür; iki ayrı {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin bağlama ve bitişik sürdürme dalı, aynı paralelde insanları ve yükümlülükleri tek bir sürekliliğe ekler; bu fiilin topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi dalı, tavsiyeyi tek yönlü bir buyruk değil sığınağı ayakta tutan karşılıklı alışveriş yapar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısındaki başkasının yükümlülüğü için güvence verme ve doğacak maddi yükü üstlenme ayrıntısı da aynı 90:17 temasında sabrı birbirinin yükünü taşıyan bir kefalet biçimine genişletir.
-Bu buluşmanın bağımsız dayanağı 90:17'dir: iman, karşılıklı sabır ve merhamet birlikte anıldığı için güven, bağlanma, nasihat ve kefalet tek yönlü bir koruma değil, üretilen bir sığınak ilişkisi olarak temas eder.
-Bu buluşma için kaydedilen tek bağlam 90:17'dir; ayetin çoğul grubu bu paralelde birbirinin güvenliğini taşıyan bir ilişki alanı olarak görünür.
-İyi işler ile iki karşılıklı tavsiye, önceki kayıp çerçevesine karşı bir karşı-defter gibi işleyebilir: emek, başkasına ait hak, bağlayıcı borç ve devredilen talimat aynı hesabın farklı yüzleridir; güvenilir kaynak bu ekonomik oku desteklese de belirli bir alacak, işlem veya kişi icat etmez.
-{ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin iş karşılığı ücret veya çalışanın payı dalı, 2:195'te harcama ve ihsanın eyleme maddi-toplumsal biçim vermesiyle emeğe karşılık doğurur; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} için gerekli hale gelen ve artık kaçınılamayan bağlayıcılık dalı, 103:2 ve 70:24'te servet içindeki bilinen hakkı başkasına ait ödenebilir bir borç gibi duyurur; aynı hak taşıyıcısının belirli sahibine bağlı pay ve istem yetkisi dalı, 70:24'te bu borca talep edilebilir bir alıcı kazandırır; {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin bir işi yapılması için başkasına bırakılan talimat dalı, 2:180'deki vasiyet ve tanınmış hak ilişkisiyle yükü bir başkasına devredilebilir kılar; fiilin birbirine öğüt veya talimat iletme dalı ise 90:17'de bu sorumluluğun karşılıklı taşınmasıyla defteri açık tutar.
-Bu karşı-defterin temas noktaları 2:195'teki maddi ihsan, 70:24'te başkasına ait bilinen hak, 2:180'de akrabalık ve hakla çevrili bağlayıcı vasiyet ve 90:17'de karşılıklı tavsiyedir; bunlar defter imgesini kurar, fakat belirli bir dava kurmaz.
-Bu buluşmanın zemini 103:2'nin kayıp baskısı, 70:24, 2:195, 2:180 ve 90:17'nin sırasıyla hak, karşılık, emanet ve karşılıklı taşıma bağlamlarıdır.
+İstisna edilen grup, {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} fiilinin inanma anlamını korurken korkudan emin olma ve güvenilirlik yönünden de işitilebilir: 106:4’te korkudan güvene çıkarılan bir topluluk tasviri, güven taşıyan insanların ortak bir emniyet koşuluna katılabileceği ikinci katmanı açar; bu, iman fiilini siyasi ya da maddi güvenceye dönüştürmez. 3:103’te dağılmamak üzere bir arada tutulan ve düşmanlık sonrasında kalpleri uzlaştırılan insanlar, {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilinin bağ kurma yönüyle buluşur; karşılıklı öğüt böylece sığınağı toplumsal bir bağ olarak düşündürür, ayette gerçek bir ipten söz edilmez. 9:71’de inanan kadınlarla erkeklerin birbirlerinin müttefiki olarak iyiyi öğütleyip kötüyü engellemesi de bu karşılıklı öğüdü müttefikler arasında paylaşılan sorumluluk olarak genişletir; üyeliklerin iki ayette özdeş olduğu ileri sürülmez. {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} sözcüğünün dayandığı kökün bir başka sözlük kullanımı, başkasının yükümlülüğüne kefil olup doğabilecek maddi yükü üstlenen kişidir; 33:72’de insanlığın emaneti yüklenmesi bu ayrıntıyı harekete geçirerek sabrı yalnızca bireysel sükûnet değil, başkalarıyla birlikte taşınan sorumluluk olarak düşündürür, ancak burada hukuki kefalet veya belirli bir borç yoktur. Bu sığınak okuması iman, karşılıklı öğüt ve sabrı birlikte tutar; 106:4 korkudan güveni, 9:71 karşılıklı müttefikliği, 3:103 ayrılık sonrası birleşmeyi, 33:72 ise üstlenilmiş emaneti sağlar, kefalet benzetmesi de yalnızca sorumluluk taşıma düzeyindedir.
 
-İyi işler ve hak cümlesi, kayıp ya da eksik teslim sonrasında kişiler arasındaki ölçüyü yeniden kuran bağlama uygun bir onarım süreci olarak da duyulabilir; burada düz iyi eylem ve doğruluk anlamına, güvenilir kaynaklı fakat yine de çıkarımsal bir iade mekanizması eklenir.
-{ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin karşılıklı işlem yürütme dalı, 103:2 ve 6:152'deki adil ölçü, adil söz ve ahdi tamamlama çizgisiyle iyi işi eksik bırakılmış bir alışverişi onaran eyleme çevirir; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin çatışmış insanlar arasındaki olumsuz ilişkiyi gideren barışma dalı, 4:128'deki gerilmiş ilişkiye doğrudan bir uygulama alanı bulur; aynı salihâtın bir şey ile yöneldiği kişi arasındaki uygunluk dalı, 47:5'teki hidayet ve halin ıslahıyla onarımın herkese aynı biçimde uygulanmayıp kişiye ve duruma uymasını sağlar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin bağlayıcı gereklilik dalı, 70:24 ile restorasyonun neyi gerektirdiğini belirler; onun sahibine bağlı pay ve istem yetkisi dalı da aynı ayetle geri dönüşün hakkı kime ait olduğunu gösterir.
-Bu onarım hareketine 6:152'deki adil ölçü ve söz, 4:128'deki uzlaşma, 47:5'teki yönlendirme ve ıslah, 70:24'teki bağlayıcı hak temas eder; temasın sonucu soyut bir iyilik değil, ilişkide ölçüyü yerine koyan uygun bir iadedir.
-Bu buluşmanın bağlamları 103:2, 6:152, 4:128, 47:5 ve 70:24'tür; belirli bir hukuki talep verilmediği için onarımın alıcısı ve miktarı açık bırakılır.
+Bu ortaklık, kelimelerin olağan anlamlarını koruyarak bir yapı benzetmesine de açılır: yapılan işler ortak iyiliğe katılır, yararlı işler ayrılığı onarır, karşılıklı öğüt üyeleri bağlar, hak içerikli söz bağı sağlamlaştırır, sabır da onun yükünü taşımaya yardım eder; 5:2, 3:103 ve 33:72 bu ilişkileri farklı açılardan destekler, fakat 103:3 bir bina, dokuma ya da hukuki teminat tarif etmez. 5:2’nin iyilik ve takvâda birlikte çalışma çağrısı, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve iş yaptılar} fiilindeki eylemi bir grubun ortaklaşa yürüttüğü işe yaklaştırır; burada belirli bir ekipman veya meslek kurulmaz. 3:103’te düşmanlıktan sonra kalplerin kardeş kılınması ve topluluğun birlikte tutulması, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} içindeki onarıcı iyiliğe ayrı bir temas verir: iyi işler bölünmüş bir topluluğu bütünleştirebilir, fakat sözcük yalnızca uzlaşmayı anlatmaz. Aynı ayetin bir arada tutma ve bölünmeme imgesi, {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} biçimindeki tekrarlı karşılıklılığı üyeleri birbirine bağlayan bir eylem gibi gösterir; odak ayet bir ipi ya da önceden yaşanmış bir düşmanlığı adlandırmaz. {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana dair} odağın olağan doğruluk ve hak anlamını taşır; aynı sözlük ailesindeki dokuma kullanımı ipliklerin sıkı ve düzgün örülmesini anlatır. 3:103’ün topluca tutulan bağ imgesi bu malzeme ayrıntısını etkinleştirince, hak sözü o bağ içindeki sıkı bir tel gibi tasarlanabilir; odak ayette dokuma sözcüğü veya dokuma kalıbı bulunmadığından bu bir kök çağrışımına dayalı benzetmedir. Aynı sözlük kolunun söz için verdiği “sağlam, tutarlı ve iyi kurulmuş” kullanım, 3:103’teki bağ imgesiyle hak içerikli öğüdün topluluğu bir arada tutan sağlam bir söz olabileceğini düşündürür; 103:3 belirli bir söz kalıbını kullanmaz. {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} sözcüğünün dayandığı kökün bir başka kullanımı bir bütünün üst ya da yan sınırıdır; 3:103’te grubun çukurun kıyısındaki tehlikeden kurtarılıp birlikte tutulması, sabrı topluluğu tutan yapının kenarlarından biri gibi imgelemeye imkân verir, ama odak ayet bir kenar ya da çukurdan söz etmez. Sabır, 33:72’de insanlığın yüklendiği emanetle birlikte düşünüldüğünde ortak bağın taşıyıcı yükü olur; bu maddi kefalet değil, sorumluluğu birlikte üstlenme benzetmesidir. Bu yapısal yankıların dayanakları 5:2’de ortak iyilik, 3:103’te tutulma, uzlaşma ve tehlike kıyısı, 33:72’de taşınan emanettir.
 
-{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} içindeki hak payload'ı, karşılıklı tavsiyeyi rakip iddiaları bir ölçüye getiren disiplinli bir doğruluk süreci olarak da açabilir; bu, aynı anda anlaşmayı garanti etmeyen ve belirli bir davaya indirgenmeyen sınırlı bir yankıdır.
-Hak taşıyıcısının tarafların karşılıklı çekişip her birinin doğru taraf olduğunu ileri sürmesi dalı, 4:135'te adalet için şahitlik eden sorumlu iddia ile temas ederek tavsiyeyi rakip savların yüzleşmesi yapar; yine hakta bulunan bir şeyin doğru olduğunu belirleyip doğru diye onaylama dalı, 49:6'da haberin doğrulanmasıyla kanıt üzerinden gösterme işlevi kazanır; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin sarsıntı ve yakınma dürtüsüne karşı kendini tutma dalı, 31:17'de çekişmenin kopuşa dönüşmesini engeller; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin barışma dalı, 4:128'de sınanmış iddianın ardından toplumsal bağı onarır; iki kez tekrarlanan {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin karşılıklı bildirme dalı ise 90:17'de doğruluk sınamasını tek kişinin hükmü olmaktan çıkarır.
-Bu disiplinin temas noktaları 4:135'te adalet adına şahitlik, 49:6'da haber doğrulama, 31:17'de sabır, 4:128'de uzlaşma ve 90:17'de karşılıklı tavsiyedir; böylece hak, yalnız doğruyu söylemek değil, iddiayı sınamak ve bağı korumak için yürütülen bir işleme dönüşür.
-Bu süreç 4:135, 49:6, 31:17, 4:128 ve 90:17 bağlamlarının birlikte açtığı sorumluluk, doğrulama, sabır ve uzlaşma alanında kalır.
-Tekrarlanan tavsiye fiilleri, aynı yükümlülüğü kişiler ve zaman aralıkları boyunca birbirine devreden kalıcı bir taşıma zinciri kurabilir; güvenilir kaynaklı bu süreklilik, tekrarın yalnız ses güzelliği değil, sorumluluğu ileriye aktaran bir işlev olduğunu düşündürür.
-{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin bir şeyi başka şeyle bağlama veya bitişik sürdürme dalı, 17:106'daki aşamalı ve kamusal aktarım temasında bir yükümlülüğü sonraki ana ekler; aynı fiilin başkasına bırakılan iş talimatı dalı, 2:180'deki vasiyet biçimiyle görevi başka bir taşıyıcıya bırakır; karşılıklı öğüt veya talimat iletme dalı da 90:17'de bu bırakmayı tek seferlik emir olmaktan çıkarıp karşılıklı sürdürülen bir emanet haline getirir.
-Bu sürekliliğin bağımsız temasları 17:106'daki aşamalı aktarım, 2:180'deki başkasına bırakılan vasiyet ve 90:17'deki karşılıklı taşıyıcı ilişkidir; iki ayrı payload aynı karşılıklı fiile bağlandığı için birinci tavsiye ikincisini dışlamaz.
-Bu okuma 17:106, 2:180 ve 90:17 bağlamlarıyla sınırlıdır; ayet bir kurum adlandırmıyor, fakat tekrarın sorumluluk taşıma etkisini görünür kılıyor.
+{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana dair} ifadesi doğruluğu korurken, 70:24’te mal içinde bilinen bir hak olarak beliren alacak ve sahibine bağlı pay yönünü de duyurabilir; karşılıklı öğüt böylece başkasının isteyebileceği bir borcu gözetmeye açılır, ancak 103:3 belirli bir meblağ, kişi veya mali hüküm vermez. 70:24’te mal içindeki bilinen hak, ödenmesi gereken bir payı ve bu payın sahibini görünür kılar; bu dış örnek, hak sözünün bağlayıcı bir borç anlamını da taşımasına imkân verir. Aynı sahnedeki hak, ayrıca belirli bir sahibin isteyebileceği pay ilişkisini öne çıkarır; 103:3’te mülkiyet, miras veya miktar belirtilmediği için bu, hakka eklenen sınırlı bir toplumsal kapsamdır. 70:24 bu okumaya bilinen bir mali hakkı örnek verir; belirli bir alacaklı ya da miktar odak ayetin içinde bulunmaz. Karşılıklı {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} öğüdün bağlayıcı bir kişilerarası göreve dönüşmesi de mümkündür: hak, yerine getirilmesi gereken şeyi; öğüt ise bu görevi başkalarına aktarmayı taşır, 6:152’nin adil ölçü, adil söz, ahdi gözetme ve talimat ilişkileri bunu besler, fakat burada mahkeme, vasiyet veya belirli bir davacı tanımlanmaz. 6:152’de ölçüde adalet, doğru söz ve ahdi yerine getirme yükümlülükleri birlikte yer alır; bu görevler hak anlamını ilişkilerde gözetilecek bir gereklilik olarak etkinleştirir. Aynı ayetin buyrukları “size bildirilen” talimatlar olarak sunması, karşılıklı öğüdün ortak ilişkileri yöneten talimatı üstlenme yönünü açar; odaktaki ilişki karşılıklı öğüttür, tek yönlü bir ilahi talimat değil. 6:152’nin talimat ve adalet yükümlülükleri bu hukuki-toplumsal yankının dayanağıdır; belirli bir kuralı 103:3’e aktarmak gerekmez. Hak sözünün koruma ve savunma yönü de 6:152’de yetim malına özen, adil ölçü, doğru söz ve ahdi yerine getirme çağrısıyla temas eder; böylece ortak hak öğüdü, sahibine bağlı bir şeyi onun adına koruma görevini de kapsayabilir, fakat 103:3 bir yetimden veya özel mal kuralından söz etmez. 6:152’de yetim malının korunması somut bir örnektir; bu, hak sözünü başkasının hakkını savunmaya bağlar, ama odağa belirli bir yetim ya da mülkiyet davası yerleştirmez.
 
-Son sabır payload'ı, yalnız sakinlik değil, zor zeminde ve bedensel-toplumsal bir maliyet altında sürdürülen etkin bir dayanma olarak genişler; kaynak ilişkileri bunu desteklese de sabrı tek bir maddi imgeye indirgemeyen keşifsel bir bileşim söz konusudur.
-{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} taşıyıcısında yer alan bineği gücünü aşacak biçimde sert sürme dalı, 90:11'deki aşılması zor yokuşla birleşerek doğruluk payload'ına bedeli olan bir tırmanış imgesi verir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin kendini tutarak dayanma dalı, 31:17'de duygusal çekilmeyi etkin denetim olarak korur; aynı sabır kökünün sert taş ve taşlı arazi dalı, 94:5'te sıkıntının yanında gelen kolaylıkla, dayanmayı dirençli bir zeminde ilerleme haline getirir; sabrın çıkışsız ağır durum dalı, 2:214'te rahatlamadan önceki ağır sınavı taşır; kışın ayazı dalı, 14:12'de zarara rağmen güvenerek sabretmenin keskin dış rahatsızlığını ekler; acı ve ilaç olarak kullanılan ağaç özü dalı, 10:109'da vahyi hüküm gelene kadar izleme temasına bağlanarak sabrı zor ama yolu sürdüren bir ilaç gibi duyurur; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin zahmete girme dalı da 94:7'de çabanın bizzat dayanma emeği olduğunu gösterir.
-Bu yedi temas 90:11'deki zor tırmanış, 31:17'deki pratik sabır, 94:5'te kolaylık-sıkıntı çifti, 2:214'te ağır sınav, 14:12'de zarara rağmen dayanma, 10:109'da hüküm gelene dek izleme ve 94:7'de sürdürülen zahmettir; bunlar sabrın farklı maliyetlerini yan yana getirir.
-Bu genişlemenin bağlamları 90:11, 31:17, 94:5, 2:214, 14:12, 10:109 ve 94:7'dir; sabır burada ne yalnız iç huzuruna ne de yalnız bir taş, soğuk veya ilaca eşitlenir.
-İstisna grubu, kaybı tersine çeviren bir güvenlik ekonomisi olarak da okunabilir: güven aktörleri sabitler, kasıtlı eylem ve onarım eksikliği giderir, hak bağlayıcılık getirir, karşılıklı tavsiye dolaşımı sürdürür ve sabır paniğin yeniden kayıp üretmesini önler; ticari kayıp dalı için taşıyıcı bulunmadığından bu okuma eldeki odaklarla sınırlıdır.
-{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin korkuya karşı güven ve güvenilirlik dalı, 103:1-2 ile 106:4'te korkudan güvenli bir toplumsal ufuk bulur; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} içindeki bağlayıcı gereklilik dalı, 70:24'te kayba karşı hâlâ istenebilir bir hak bırakır; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} içindeki kendini tutma dalı, 31:17'de paniğin kaybı yeniden üretmesini önler; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin iyi ve düzgün olma dalı, 29:36'da bozuluşu onarır; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin bilerek yapılan iş dalı, 99:7'de en küçük eylemin bile görünür bir karşılığı olduğunu hatırlatır; {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin karşılıklı bildirme dalı ise 90:17'de bu onarımı toplumsal dolaşımda tutar.
-Bu güvenlik ekonomisinin temasları 106:4'te korkudan güven, 70:24'te başkasına ait hak, 31:17'de sabır, 29:36'da onarım, 99:7'de eylem hesabı ve 90:17'de karşılıklı tavsiyedir; güvenli alan böylece pasif koruma değil, kaybı azaltan bir uygulama olur.
-Bu okuma 103:1, 103:2, 106:4, 70:24, 31:17, 29:36, 99:7 ve 90:17 bağlamlarında geri döner.
+Odaktaki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} tek başına iyi bir sonucu garanti etmez: 51:53’te insanlar birbirlerine günahı aktarırken, 3:104 bir topluluğa iyiyi çağırma ve kötüyü engelleme görevi verir; 103:3’te öğüdün yönünü {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana göre} ve {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} belirler, yine de belirli bir ihtilafı veya her zaman uzlaşma doğacağını söylemez. 2:213’te topluluk içindeki ayrılık hak ile yargılanır; hak sözlüğündeki bir kullanım, tarafların çekişirken her birinin kendi savını doğru göstermesidir, böylece ortak öğüt yalnızca tartışmasız bir ilkeyi değil, çekişmeli iddiaları da muhatap alabilir, fakat belli bir dava veya yargıç belirlenmez. Aynı 2:213 sahnesinde hak, doğru olanı belirleyip onaylayan bir ölçü gibi işler; bu temas, karşılıklı öğüdün doğruluğu ortaklaşa sınama imkânını açar, ama belirli bir kitap ya da mahkeme adı vermez. Hak kelimesi burada bir isimdir; sözlükteki kanıtlarla doğruluğu açığa çıkarıp bir savı geçerli kılma genişlemesi, onu odakta bir ispat fiiline dönüştürmez. Yine de 2:213’ün ihtilafı görünür doğruluk karşısında ele alması, karşılıklı öğüdün kanıtlı bir savı ayakta tutma yolu olabileceği benzetmesini destekler; her savın kanıtlanacağı vaat edilmez. 3:200’deki karşılıklı sebat ve gözetim, sabrı sarsıntı ve yakınma dürtüsüne karşı etkin özdenetim olarak bu hak arayışının sürmesini sağlar; bu, o ayetin bütün sorumluluklarını buraya taşımak değildir. Bu okumadaki örnekler birbirinden farklıdır: 51:53 karşılıklı aktarımın günaha da hizmet edebildiğini, 3:104 ortak iyiyi çağırmayı, 2:213 ihtilafı hakla yargılamayı, 3:200 toplu dayanma ve gözetimi gösterir.
 
-Çoğul istisna, güven, amaçlı eylem, uzlaşma, kefalet ve bağlanma sayesinde birbirini onaran bir insan ağı olarak görünür; okuyucu yürüyüşünden gelen bu ilişki keşfi, adlandırılamayan ayrı düşme dalını dışarıda bırakırken kalan odak ilişkilerini korur.
-{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin güvenilirlik dalı, 90:17'de grubun üyelerine güven veren bir zemin olur; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin bilerek yapılan iş dalı, 99:7'de ağı kasıtlı eylemle kurar; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin barışma ve uzlaşma dalı, 49:10'da kardeşlik ve uzlaştırmayla sosyal hasarı giderir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısındaki yükümlülüğe güvence veren kişi dalı, 90:17'de üyelerin birbirinin borcunu ve yükünü taşımasını sağlar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin gerçekliğe uygun kesin doğruluk dalı, yine 90:17'de onarım ve yükümlülükler için ortak bir gerçeklik standardı kurar; iki kez tekrarlanan {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin bağlama ve bitişik sürdürme dalı da aynı temasla ağı sürekli kılar.
-Bu ağın temasları 90:17'de iman, sabır, merhamet ve karşılıklı tavsiye, 99:7'de en küçük kasıtlı iş, 49:10'da kardeşlik ve uzlaşmadır; ortak gerçeklik bu onarım ve kefaletleri ölçülebilir kılar.
-Bu ilişkinin bağlamları 103:2, 49:10 ve 90:17'dir; ayrı düşme için bağımsız bir taşıyıcı bulunmadığı için ağ okuması güven, eylem, uzlaşma, kefalet, doğruluk ve bağlanma ile sınırlı tutulur.
-103:1'in baskı ufkunda iyi iş, uygunluk, sıkı kuruluş ve sınırlar birlikte düşünüldüğünde istisna, basınç altında dağılmayan bir düzenek gibi okunabilir; bu maddi ilişki keşifsel okuyucudan gelir ve sıkı dokuma dalının sınırlı söz öbeği kullanımını gerçek bir makineye dönüştürmez.
-{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} taşıyıcısının kumaş ipliklerinin sıkı ve düzgün dokunması dalı, 103:1 ve 90:9 temasında ahlaki sıraya yük taşıyan bir kuruluş biçimi verir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin bir bütünün üstteki bölümü veya yan sınırı dalı, 103:1 ve 94:5'te basıncın dağıtacağı şeyi çevreleyen bir kenar kurar; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin uygunluk dalı, 47:5'te her parçanın kendi kişisine ve durumuna uymasını sağlar; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin işe koşup kullanma dalı da 94:7'de düzeneğin çalışan hareketi olur.
-Bu düzenek imgesinin temas noktaları 90:9'daki verilen dil ve dudakların yük taşıyan kuruluşu, 94:5'te sıkıntı karşısındaki kolaylık, 47:5'te uygun onarım ve 94:7'de sürdürülen iştir; yapı, parçaların birbirine uyması sayesinde basınçta tutulur.
-Bu okuma 103:1, 94:5, 94:7, 47:5 ve 90:9 bağlamlarına dayanır; sıkı kuruluş ve sınır somut bir makine değil, odak anlamlarını görünür kılan bir analojidir.
+İki kez yinelenen öğüt, bir defalık nasihatten daha dayanıklı bir sorumluluk aktarımı olarak da okunabilir: karşılıklılık kişileri ve iki öğüt cümlesini bağlar, farklı surelerdeki emanet, vasiyet ve aralıklı aktarım imgeleri bu bağı genişletir, fakat odak ayet vasiyet ya da toplu tilavet tarif etmez ve sureler arasında tek bir aktarım kanalı kurmaz. {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilinin bağlama ve bir şeyi başka şeye bitiştirme yönü, 17:106’da insanlara aralıklarla sunulan tilavetle buluşunca, iki öğüt cümlesi zaman boyunca sürdürülen bir aktarım gibi duyulur. 103:1’deki zaman vurgusu da bu süreklilik fikrine eşlik edebilir; bu yalnızca perikop içindeki ihtiyatlı bir yankıdır, fiilin bağımsız sözlük anlamı değildir. 2:180’de yakınlara bırakılan bağlayıcı vasiyet, öğüdün bir başkasının eline bırakılan talimat anlamına temas eder; oradaki aktarım tek yönlü, odaktaki öğüt karşılıklı olduğu için ilişki özdeşlik değil benzerliktir. 90:17’de karşılıklı öğüdün sabır ve merhamet gibi farklı içeriklerle tekrarlanması, eylemin sabit kalıp içeriğin değişebildiğini gösterir; böylece iki cümle aktarılabilir bir toplumsal pratiğe dönüşür. 17:106’daki aralıklı duyuru, 2:180’de yakınlara bırakılan yükümlülük ve 90:17’de değişen öğüt içerikleri aktarım benzetmesini kurar; 103:1’in zaman çağrışımıysa daha ihtiyatlı bir eşliktir.
 
-İki karşılıklı yükümlülük, emanet edilmiş iş, bağlayıcı hak, zorunlu dayanma ve birbirine bırakılan talimat üzerinden hukuki ve vasiyetli bir düzen olarak da duyulabilir; kaynak yürüyüşü bu kurumsal analojiyi destekleyen odaklar sunsa da ortada belirli bir mahkeme, tereke veya dava yoktur.
-{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin güvenilirlik dalı, 103:2 ve 33:72'de emanet taşıyan tarafı sorumlu kılar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin bağlayıcı gereklilik dalı, 70:24'te hakkı uygulanabilir bir borca çevirir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısının dış güçle alıkoyma dalı, 2:180'de vasiyet ve tanınmış hakla görevi bağlayıcı bir tutma biçimine sokar; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin bir iş üzerinde görev ve yetki üstlenme dalı aynı 2:180 temasında işi idare edilen sorumluluk yapar; {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin başkasına bırakılan talimat dalı da iki tavsiye cümlesini devam eden vekâletler gibi duyurur.
-Bu düzenin temasları 33:72'de emanet sorumluluğu, 70:24'te hak ve borç, 2:180'de akrabalıkla çevrili vasiyet ve görevlendirmedir; hukuki imge, olağan ahlaki anlamın yanına hesap verilebilirlik ekler.
-Bu buluşma 103:2, 33:72, 70:24 ve 2:180 bağlamlarıyla sınırlıdır; belirli bir mahkeme, malvarlığı veya uyuşmazlık ileri sürülmez.
-Odak terimleri, kayıptan kurtuluşu yalnız bir anda gerçekleşen çıkarılma değil, uygun mevsimde olgunlaşan bir yetişme ve verim süreci olarak da gösterebilir; bu okuyucu yürüyüşü keşifsel ve analojiktir, yağmur bulutu dalı için yeterli taşıyıcı bulunmadığından imge eldeki odaklarla tutulur.
-{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin üç yaşı tamamlayıp dördüncü yaşında yük taşımaya elverişli deve dalı, 103:1 ve 94:7'de sonuca hazır hale gelen bir olgunluk gösterir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin yoğun bir tabaka üstünde düz duran veya basamak gibi yığılan beyaz bulut dalı, 103:1'de sabrı zaman içinde biriken imkânın tutulması olarak resmeder; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin bir şeye ve yöneldiği kişiye uygun olma dalı, 103:1 ve 47:5'te büyümeyi alıcısına uygun kılar; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin otlağın sürüye bolca elverişli olması dalı, 103:1 ve 94:5'te topluluğu besleyen alan ile topluluk arasında bir uygunluk ve provision ilişkisi kurar.
-Bu yetişme imgesinin bağımsız temasları 47:5'te hidayetle ıslah, 94:5'te sıkıntı yanında kolaylık ve 103:1'deki asr ufkudur; deve olgunluğu, katmanlı bulut ve sürüye elverişli otlak aynı verim hareketinin farklı yüzleri olarak kalır.
-Bu okuma 103:1, 94:5 ve 94:7 bağlamlarında tutulur; iyi iş literal ürün, sabır literal bulut ve tavsiye literal otlak değildir.
+Odaktaki {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} burada sessiz bir sükûnetten çok, ağır bir durumda sarsıntı ve yakınma dürtüsünü tutarak birlikte devam edebilme gücü olarak duyulur; 3:200’ün kolektif sebatı ve 2:214’ün sıkıntıdan ferahlığa uzanan aralığı bu okumayı açar, ama 103:3 belirli bir sınavı veya aynı sonucu vaat etmez. 3:200 sabrı karşılıklı sebat ve gözetimle birleştirir; odaktaki sabır da böylece yalnızca bireyin içine kapanması değil, öğütleşen grubun ortak özdenetimi olur. 2:214’te sıkıntı ve darlık ferahlık gelmeden önce yaşanır; sabrın ağır bir durum içindeki dayanma anlamı bu baskıyla temas eder ve anlık bir rahatsızlıktan daha uzun bir sınavı düşündürür, ancak 103:3’te belirli bir savaş ya da sıkıntı adı yoktur. Aynı 2:214 sahnesinde yardım gelene dek çıkışın henüz görünmemesi, sabrı basıncı hemen kaldırmayan bir aralık içinde hissettirir; bu benzetme odakta aynı zaman çizelgesinin veya sonucun vaat edildiğini söylemez. 3:200’deki birlikte dayanma ile 2:214’teki yardım öncesi sıkıntı, sabrın ortak ve sürmekte olan baskı altındaki yönünü besler.
 
-Tekrarlanan tavsiye, sabrı topluca verilen ve topluca taşınan acı bir ilaç gibi hissettirebilir; bu keşifsel ve analojik imge, zor hakikatin bir grubun birbirine aldırdığı bir doz oluşunu öne çıkarırken sabrı tek başına acılığa eşitlemez.
-{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin topluluk üyelerinin birbirine yapılacak şeyi bildirmesi dalı, 90:17'de zor içeriği tekrar tekrar taşınabilir yapan idare ilişkisini kurar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin tadı acı ve ilaç olarak kullanılan ağaç özü dalı, 10:109'da vahyi hüküm gelene kadar izleme ve 31:17'de pratik sabırla birleşerek dayanmayı zor ama sürdürücü bir madde gibi duyurur.
-Bu ilacın temas noktaları 90:17'de karşılıklı tavsiye, 10:109'da hüküm gelene kadar izleme ve 31:17'de sabırla birlikte eylemdir; topluluk, zor hakikati birbirine aldıran ve taşıyan aracı olur.
-Bu buluşmanın bağlamları 10:109, 31:17 ve 90:17'dir; eldeki sabır dalı acı ilaç imgesini taşır, fakat çözülmeyen lokma gibi başka bir dal bu okumanın parçası değildir.
-Daha geniş okuma, güven, sağlam gerçek, sıkı kuruluş, ağır şart, işe koşulan emek, karşılık ve karşılıklı tavsiyeyi kayba karşı birlikte çalışan eksiksiz bir kurtuluş düzeni halinde bir araya getirir; bu kompozit sistem güvenilir bir odak zemini olmayan iki aday dalı kullanmadan, kalan temaslardan çıkarılan nitelikli bir bütündür.
-{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin güvenlik dalı 103:2 ve 90:17 ile kurtuluşu güvenilir bir koşulla başlatır; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin gerçekliğe uygun kesin doğruluk dalı 42:17 ile sisteme sabit bir gerçeklik standardı verir ve sıkı dokunmuş veya sağlam kurulmuş dalı 90:9 ile parçaların yükü birlikte taşımasını sağlar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin çıkışsız ağır durum dalı 2:214 ile düzenin dayanması gereken zor şartı belirler; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin işe koşup kullanma dalı 94:7 ile çalışan hareketi, iş ücreti dalı 2:195 ile emeğin somut karşılığını ekler; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin karşılıklı bildirme dalı da 90:17 ile parçaları toplumsal olarak etkin tutar.
-Bu eksiksiz düzenin temasları 90:17'de güven ve karşılıklı taşıma, 42:17'de hak ve ölçü, 90:9'da kuruluş, 2:214'te ağır sınav, 94:7'de iş, 2:195'te karşılık ve yeniden 90:17'de toplumsal tavsiyedir; kurtuluş böylece tek bir erdem değil, birbirini koruyan parçaların çalışması olur.
-Bu sistem 103:1-2, 90:17, 42:17, 90:9, 2:214, 94:7 ve 2:195 bağlamlarının birlikte kurduğu kayıp karşıtlığında kalır; genel kayıp ve sıkıştırma için ayrı bir taşıyıcı bulunmadığı için onların yerine geçmez.
-
-Fiillerin sırası ve iki kez yinelenen karşılıklılık, kabullenişin yön verdiği, eylemin işlettiği, iyiliğin niteliği denetlediği, hakikatin kalibre ettiği, tavsiyenin dolaştırdığı ve sabrın gerilim altında kapattığı nedensel bir uygulama devresi olarak da okunabilir; bu ok, sıra ve paralellikten çıkarıldığı için keşifseldir ve tek bir cümleyi tek neden ilan etmez.
-{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin sözü doğru sayıp kabul etme dalı 61:2'de söylenenle yapılan arasındaki uyumsuzluk uyarısıyla eyleme yön verir; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin işe koşup kullanma dalı aynı 61:2 temasında bu yönü işletir; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin iyi ve düzgün olma dalı 29:36'da bozulmayı önleyen bir kalite koşulu sağlar; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin karşılıklı bildirme dalı 90:17'de düzeltmeyi grup içinde dolaştırır; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin kesin doğruluk dalı 42:17'de devreyi sağlam bir ölçüyle kalibre eder; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin kendini tutma dalı 31:17'de gerilim altında bu kalibrasyonu sürdürür.
-Bu devrenin bağımsız temasları 61:2'de söz-eylem hesabı, 29:36'da bozulmaya karşı ıslah, 90:17'de karşılıklı tavsiye, 42:17'de hak ve ölçü ve 31:17'de sabırdır; sıralama bu nedenle düz bir liste olmaktan çıkıp kendini sürdüren bir işleyiş kazanır.
-Bu okuma 61:2, 29:36, 90:17 ve 42:17 bağlamlarında, sabrın 31:17'de gerilim altında devreyi kapattığı sınırlı bir paralellik olarak kalır.
-Kayıp ve kısa ölçü baskısı altında karşılıklı işlem, uzlaşma, uygunluk, bağlayıcı hak ve sahibine ait pay birlikte düşünüldüğünde, iyi işler ile hakikatin kişiler arasında tam ölçüyü iade ettiği pratik bir restitüsyon süreci belirir; bu da keşifsel bir çıkarımdır ve aday kısa ölçü dalının yokluğu nedeniyle belirli miktarlar söylemez.
-{ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin karşılıklı işlem dalı 103:2 ve 6:152'de ölçünün yeniden kurulacağı alışveriş alanını açar; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin barışma ve uzlaşma dalı 4:128'de ilişkinin kendisini onarır; aynı yüzeyin uygunluk dalı 47:5'te eylemi kişiye ve duruma uydurur; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin bağlayıcı gereklilik dalı 70:24'te tam ölçünün neyi zorunlu kıldığını söyler ve sahibine bağlı pay ve istem yetkisi dalı aynı ayette onarımın kime döneceğini belirler.
-Bu iadenin temasları 6:152'de adil ölçü, 4:128'de uzlaşma, 47:5'te uygun ıslah ve 70:24'te bağlayıcı hak ile hak sahibidir; ölçü, soyut bir denge değil, ilişkide yerine ulaşan bir karşılık olur.
-Bu okuma 103:2, 6:152, 4:128, 47:5 ve 70:24 bağlamlarının kısa ölçü ve kayıp karşısındaki pratik ilişkisiyle sınırlıdır.
-
-Tekrarlanan cümleler, odak hakikat ve sabır yüklerini birbirine bağlayan, sıkı örülmüş ve daha geniş toplumsal yükü taşıyan iplikler gibi de duyulabilir; bu keşifsel analoji, sıkı kuruluş dalının sınırlı söz öbeği kaynağını korur ve ayeti literal kumaş ya da kap yapmaz.
-{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin kumaş ipliklerinin sıkı ve düzgün dokunması dalı, 90:17 ve 94:5 temasında karşılıklı bağın basınca dayanacak yük taşıyan biçimini verir; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin başka şeyle bağlanıp bitişik sürdürme dalı, 90:17'de iplikleri sürekliliğe katar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısının başkasının yükümlülüğü için güvence verme dalı, yine 90:17'de yükü üstlenen kefil ipliğini oluşturur.
-Bu örmenin temas noktaları 90:17'de karşılıklı iman, sabır ve merhamet ile 94:5'te sıkıntı yanında gelen kolaylıktır; güç tek tek iplikte değil, bağlanmış ve yükü paylaşan yapıda görünür.
-Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve sabır anlamlarının yanında duran bir maddi görüntüdür.
-
+Yapılan iş, insanlar arasındaki ölçülü alışveriş ve muameleler içinde de duyulabilir: 7:8’de doğru tartı ile esenlik ve kayıp yan yana gelir, bu da iş fiilini ölçünün önemli olduğu toplumsal işlemlere genişletir; 103:3 belirli bir pazar veya eksik tartma suçu adlandırmaz. {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve iş yaptılar} ifadesinin gündelik eylem anlamı korunur; bu kök için verilen karşılıklı işlem kullanımı, 7:8’in doğru tartı ve kayıp/esensizlik ilişkisiyle etkinleşerek salih işi ölçünün önem taşıdığı muameleleri de kapsayacak biçimde düşündürür. 7:8 bu işlem benzetmesine tartı, esenlik ve kayıp ilişkisini sağlar; 103:3’te pazar ya da eksik tartma isnadı bulunmaz.
 </global_scope_prose>
 
 <global_scope_ledger>
@@ -4150,7 +3761,7 @@ Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve s
   "lane": "global",
   "findings": [
     {
-      "finding_ref": "global:anti-loss-practice-system",
+      "finding_ref": "global:integrated_practice",
       "landings": [
         {
           "movement_refs": [
@@ -4160,89 +3771,123 @@ Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve s
             "discovery:containment"
           ],
           "paragraph": 1,
-          "anchor": "103:3'ün olağan anlamı, kayıp hükmünden iman eden, iyi işler yapan, hakkı ve sabrı birbirine tavsiye edenlerin istisna edilmesidir; bu sıralı yapı, öğeleri birbirini yeniden kayba dönmekten koruyan bir uygulama düzeni olarak da duyulabilir, fakat bu sistem oku düz istisna cümlesinin yerine geçmeyen ve her sözlük dalını etkinleştirmeyen bir yorum olarak kalır."
+          "anchor": "103:3’ün istisna cümlesi iman, amel, salih işler, hak ve sabır için karşılıklı öğüt koşullarını korur; 90:17 imanı sabır ve merhametle, 5:2 iyilikte yardımlaşmayı, 8:1 ilişki onarımını, 2:213 ihtilafın hakla ölçülmesini, 3:104 topluluğun kamusal çağrısını, 3:200 ise ortak sebatı öne çıkararak bu koşulları birbirini besleyen pratikler olarak görünür kılar, fakat her birinin ötekini zorunlu kıldığı tek bir sureler-arası düzen kurmaz."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
+            "activation:0"
+          ],
+          "paragraph": 1,
+          "anchor": "90:17’de iman, karşılıklı sabır ve merhametle topluluk içinde anılır; 103:3’teki {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} ise bir haberin, sözün ya da hakikatin doğru sayılmasını taşıyarak ortak pratik içinde yaşanan bir yöneliş gibi duyulur."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 1,
+          "anchor": "5:2’de iyilik ve takvâ için yardımlaşma çağrısı, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve iş yaptılar} sözündeki işe koyma ve eyleme geçirme anlamına temas eder; böylece yapılan iş, belli bir araç, meslek ya da kurum değil, ortak iyiliğe fiilî katılım olarak genişler."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 1,
+          "anchor": "8:1’deki ilişkiyi düzeltme emri, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} alanını kişiler arasındaki ıslaha da açar."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 1,
+          "anchor": "3:104’ün topluluğu iyiliğe çağırıp kötülüğü sınırlama görevi, {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilinin üyelerin birbirine yapılacak şeyi bildirmesi anlamıyla buluşur ve öğüdü özel bir nasihatten kamusal ortak sorumluluğa genişletir; iki ayetin sözleri ve kapsamı aynı değildir."
+        },
+        {
+          "movement_refs": [
+            "activation:4"
+          ],
+          "paragraph": 1,
+          "anchor": "2:213’te topluluk içindeki ayrılığın hak ölçüsünde yargılanması, {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana göre} ifadesini soyut bir addan ortak hakikat ölçüsüne taşır; burada belirli bir dava ya da mahkeme adı verilmez."
+        },
+        {
+          "movement_refs": [
             "activation:5"
           ],
           "paragraph": 1,
-          "anchor": "Bu zincirin ilk halkasında {ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin olağan güven hali, bir haberin, sözün veya hakikatin doğru sayılıp kabul edilmesiyle ikinci bir yön kazanır ve 103:1-2 ile 95:6'daki iman ve iyi eylem paraleli bu yönü işe giren bir tutum haline getirir; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} biçiminin bilerek yapılan eylem anlamı, doğrudan ardından gelen {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} ile sınırlandığı halde, 94:7'deki sürdürülmüş çaba bağlantısıyla işi bir şeyi işe koşup kullanmaya dönüştürür; aynı salihât yüzeyinin bozukluğun karşıtı olan iyi, düzgün ve yararlı durum dalı, 29:36'nın bozulmayı önleyen çağrısıyla onarımı kaybı durduran bir ölçü yapar; iki kez gelen {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} Form VI karşılıklılığı, 90:17'nin karşılıklı sabır ve merhamet pratiğiyle hakikatin ve sabrın özelde tutulmayıp dolaşıma girmesini sağlar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} belirli b ile gelen hak payload'ı, 42:17'deki ölçülü gerçeklik standardıyla uygulamanın kendisini sınar; son olarak {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} içindeki b ile belirlenen sabır, 31:17'deki iyiye çağırma ve kötülüğü engelleme pratiğiyle sarsıntı ve yakınma dürtüsüne karşı kendini tutarak bu düzenin kayba geri düşmesini önler."
+          "anchor": "3:200’de sabırla birlikte karşılıklı sebat ve gözetim yer alır; {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} ifadesindeki sarsıntı ve yakınma dürtüsüne karşı kendini tutma, böylece üyelerin birlikte sürdürdüğü bir dayanma pratiği olur, fakat o ayetteki bütün görevler buraya aktarılmaz."
         },
         {
           "movement_refs": [
-            "connection:conn_da78adeb48b6b5a1b8b5",
-            "connection:conn_4858d294118f7cffe643",
-            "connection:conn_d735382cb186620441ec",
             "connection:conn_65135d8157c9ce2af5df",
-            "connection:conn_0af60fc1dc078acd871e",
-            "connection:conn_4f6e1b1d83b84017ca94"
-          ],
-          "paragraph": 1,
-          "anchor": "Bu altı temasın bağımsız temas noktaları 95:6'daki iman ve iyi eylem istisnası, 94:7'de tamamlanan işin ardından çabanın sürmesi, 29:36'da bozulmayı önleyen kulluk, 90:17'de imanla karşılıklı sabır ve merhamet, 42:17'de hak ile ölçünün birlikte anılması ve 31:17'de dua, iyiyi emretme, kötüyü engelleme ve sabır kümesidir."
-        },
-        {
-          "movement_refs": [
-            "context:103:1",
-            "context:103:2",
-            "context:95:6",
-            "context:94:7",
-            "context:29:36",
+            "connection:conn_c7b6a007dc810ca238ae",
+            "connection:conn_ec5d112de1f66d6689af",
+            "connection:conn_4030c3bbf31fc4303921",
+            "connection:conn_6fe252707025be4adb79",
+            "connection:conn_4dcb2b088f8009c43bf2",
             "context:90:17",
-            "context:42:17",
-            "context:31:17"
+            "context:5:2",
+            "context:8:1",
+            "context:3:104",
+            "context:2:213",
+            "context:3:200"
           ],
           "paragraph": 1,
-          "anchor": "Bu okumayı taşıyan bağlam 103:1-2'nin baskı ve kayıp zeminiyle birlikte 95:6, 94:7, 29:36, 90:17, 42:17 ve 31:17'deki eylem, doğruluk ve dayanma dönüşleridir."
+          "anchor": "Bu ilk yankıların her biri başka bir yanı açar: 90:17 imanı sabır ve merhametle, 5:2 ortak iyi için yardımlaşmayı, 8:1 insanlar arasını düzeltmeyi, 3:104 iyiyi çağırıp kötüyü sınırlamayı, 2:213 ayrılığı hakla yargılamayı, 3:200 ise karşılıklı sebat ve gözetimi öne çıkarır."
         }
       ]
     },
     {
-      "finding_ref": "global:mutual-refuge",
+      "finding_ref": "global:mutual_security_refuge",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "activation:0"
           ],
           "paragraph": 2,
-          "anchor": "Bu olağan istisna, yalnız tek tek güvenli kişilerden oluşan özel bir sığınak değil, üyelerinin birbirleri için ürettiği bir toplumsal barınak olarak da okunabilir; güvenilir kaynaklı bu ilişki, yorumlayıcı olsa da, inanç, iş ve tavsiye sırasını silmeden karşılıklı güveni görünür kılar."
+          "anchor": "İstisna edilen grup, {ar:ءَامَنُوا۟, tr:āmanū, gloss:iman ettiler} fiilinin inanma anlamını korurken korkudan emin olma ve güvenilirlik yönünden de işitilebilir: 106:4’te korkudan güvene çıkarılan bir topluluk tasviri, güven taşıyan insanların ortak bir emniyet koşuluna katılabileceği ikinci katmanı açar; bu, iman fiilini siyasi ya da maddi güvenceye dönüştürmez."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
+            "activation:1"
+          ],
+          "paragraph": 2,
+          "anchor": "3:103’te dağılmamak üzere bir arada tutulan ve düşmanlık sonrasında kalpleri uzlaştırılan insanlar, {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilinin bağ kurma yönüyle buluşur; karşılıklı öğüt böylece sığınağı toplumsal bir bağ olarak düşündürür, ayette gerçek bir ipten söz edilmez."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 2,
+          "anchor": "9:71’de inanan kadınlarla erkeklerin birbirlerinin müttefiki olarak iyiyi öğütleyip kötüyü engellemesi de bu karşılıklı öğüdü müttefikler arasında paylaşılan sorumluluk olarak genişletir; üyeliklerin iki ayette özdeş olduğu ileri sürülmez."
+        },
+        {
+          "movement_refs": [
             "activation:3"
           ],
           "paragraph": 2,
-          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} taşıyıcısındaki korkunun kalkması ve iç yatışıklığı, 90:17'deki imanla karşılıklı sabır ve merhamet paraleliyle grubun güven koşuluna dönüşür; iki ayrı {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin bağlama ve bitişik sürdürme dalı, aynı paralelde insanları ve yükümlülükleri tek bir sürekliliğe ekler; bu fiilin topluluğun üyelerinin birbirine yapılacak şeyi bildirmesi dalı, tavsiyeyi tek yönlü bir buyruk değil sığınağı ayakta tutan karşılıklı alışveriş yapar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısındaki başkasının yükümlülüğü için güvence verme ve doğacak maddi yükü üstlenme ayrıntısı da aynı 90:17 temasında sabrı birbirinin yükünü taşıyan bir kefalet biçimine genişletir."
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} sözcüğünün dayandığı kökün bir başka sözlük kullanımı, başkasının yükümlülüğüne kefil olup doğabilecek maddi yükü üstlenen kişidir; 33:72’de insanlığın emaneti yüklenmesi bu ayrıntıyı harekete geçirerek sabrı yalnızca bireysel sükûnet değil, başkalarıyla birlikte taşınan sorumluluk olarak düşündürür, ancak burada hukuki kefalet veya belirli bir borç yoktur."
         },
         {
           "movement_refs": [
-            "connection:conn_65135d8157c9ce2af5df"
+            "connection:conn_44a83b00409dd86667dd",
+            "connection:conn_8bfab0572718808c1ddf",
+            "connection:conn_65c1e7cc8b034725c9bd",
+            "connection:conn_3749217afa25b0c2c161",
+            "context:106:4",
+            "context:9:71",
+            "context:3:103",
+            "context:33:72"
           ],
           "paragraph": 2,
-          "anchor": "Bu buluşmanın bağımsız dayanağı 90:17'dir: iman, karşılıklı sabır ve merhamet birlikte anıldığı için güven, bağlanma, nasihat ve kefalet tek yönlü bir koruma değil, üretilen bir sığınak ilişkisi olarak temas eder."
-        },
-        {
-          "movement_refs": [
-            "context:90:17"
-          ],
-          "paragraph": 2,
-          "anchor": "Bu buluşma için kaydedilen tek bağlam 90:17'dir; ayetin çoğul grubu bu paralelde birbirinin güvenliğini taşıyan bir ilişki alanı olarak görünür."
+          "anchor": "Bu sığınak okuması iman, karşılıklı öğüt ve sabrı birlikte tutar; 106:4 korkudan güveni, 9:71 karşılıklı müttefikliği, 3:103 ayrılık sonrası birleşmeyi, 33:72 ise üstlenilmiş emaneti sağlar, kefalet benzetmesi de yalnızca sorumluluk taşıma düzeyindedir."
         }
       ]
     },
     {
-      "finding_ref": "global:counter-ledger",
+      "finding_ref": "global:owed_right",
       "landings": [
         {
           "movement_refs": [
@@ -4251,91 +3896,35 @@ Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve s
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 2,
-          "anchor": "İyi işler ile iki karşılıklı tavsiye, önceki kayıp çerçevesine karşı bir karşı-defter gibi işleyebilir: emek, başkasına ait hak, bağlayıcı borç ve devredilen talimat aynı hesabın farklı yüzleridir; güvenilir kaynak bu ekonomik oku desteklese de belirli bir alacak, işlem veya kişi icat etmez."
+          "paragraph": 4,
+          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana dair} ifadesi doğruluğu korurken, 70:24’te mal içinde bilinen bir hak olarak beliren alacak ve sahibine bağlı pay yönünü de duyurabilir; karşılıklı öğüt böylece başkasının isteyebileceği bir borcu gözetmeye açılır, ancak 103:3 belirli bir meblağ, kişi veya mali hüküm vermez."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4"
+            "activation:0"
           ],
-          "paragraph": 2,
-          "anchor": "{ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin iş karşılığı ücret veya çalışanın payı dalı, 2:195'te harcama ve ihsanın eyleme maddi-toplumsal biçim vermesiyle emeğe karşılık doğurur; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} için gerekli hale gelen ve artık kaçınılamayan bağlayıcılık dalı, 103:2 ve 70:24'te servet içindeki bilinen hakkı başkasına ait ödenebilir bir borç gibi duyurur; aynı hak taşıyıcısının belirli sahibine bağlı pay ve istem yetkisi dalı, 70:24'te bu borca talep edilebilir bir alıcı kazandırır; {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin bir işi yapılması için başkasına bırakılan talimat dalı, 2:180'deki vasiyet ve tanınmış hak ilişkisiyle yükü bir başkasına devredilebilir kılar; fiilin birbirine öğüt veya talimat iletme dalı ise 90:17'de bu sorumluluğun karşılıklı taşınmasıyla defteri açık tutar."
+          "paragraph": 4,
+          "anchor": "70:24’te mal içindeki bilinen hak, ödenmesi gereken bir payı ve bu payın sahibini görünür kılar; bu dış örnek, hak sözünün bağlayıcı bir borç anlamını da taşımasına imkân verir."
         },
         {
           "movement_refs": [
-            "connection:conn_fc878e0c6449521529ed",
+            "activation:1"
+          ],
+          "paragraph": 4,
+          "anchor": "Aynı sahnedeki hak, ayrıca belirli bir sahibin isteyebileceği pay ilişkisini öne çıkarır; 103:3’te mülkiyet, miras veya miktar belirtilmediği için bu, hakka eklenen sınırlı bir toplumsal kapsamdır."
+        },
+        {
+          "movement_refs": [
             "connection:conn_3087d53004da588260db",
-            "connection:conn_821f8bbc1fdd4655459b",
-            "connection:conn_65135d8157c9ce2af5df"
-          ],
-          "paragraph": 2,
-          "anchor": "Bu karşı-defterin temas noktaları 2:195'teki maddi ihsan, 70:24'te başkasına ait bilinen hak, 2:180'de akrabalık ve hakla çevrili bağlayıcı vasiyet ve 90:17'de karşılıklı tavsiyedir; bunlar defter imgesini kurar, fakat belirli bir dava kurmaz."
-        },
-        {
-          "movement_refs": [
-            "context:103:2",
-            "context:70:24",
-            "context:2:195",
-            "context:2:180",
-            "context:90:17"
-          ],
-          "paragraph": 2,
-          "anchor": "Bu buluşmanın zemini 103:2'nin kayıp baskısı, 70:24, 2:195, 2:180 ve 90:17'nin sırasıyla hak, karşılık, emanet ve karşılıklı taşıma bağlamlarıdır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:restorative-due",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 3,
-          "anchor": "İyi işler ve hak cümlesi, kayıp ya da eksik teslim sonrasında kişiler arasındaki ölçüyü yeniden kuran bağlama uygun bir onarım süreci olarak da duyulabilir; burada düz iyi eylem ve doğruluk anlamına, güvenilir kaynaklı fakat yine de çıkarımsal bir iade mekanizması eklenir."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4"
-          ],
-          "paragraph": 3,
-          "anchor": "{ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin karşılıklı işlem yürütme dalı, 103:2 ve 6:152'deki adil ölçü, adil söz ve ahdi tamamlama çizgisiyle iyi işi eksik bırakılmış bir alışverişi onaran eyleme çevirir; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin çatışmış insanlar arasındaki olumsuz ilişkiyi gideren barışma dalı, 4:128'deki gerilmiş ilişkiye doğrudan bir uygulama alanı bulur; aynı salihâtın bir şey ile yöneldiği kişi arasındaki uygunluk dalı, 47:5'teki hidayet ve halin ıslahıyla onarımın herkese aynı biçimde uygulanmayıp kişiye ve duruma uymasını sağlar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin bağlayıcı gereklilik dalı, 70:24 ile restorasyonun neyi gerektirdiğini belirler; onun sahibine bağlı pay ve istem yetkisi dalı da aynı ayetle geri dönüşün hakkı kime ait olduğunu gösterir."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_144e6142a416b608bffb",
-            "connection:conn_aca042309ea4e247b48c",
-            "connection:conn_e3847d13bd0d0c4d9f7f",
-            "connection:conn_3087d53004da588260db"
-          ],
-          "paragraph": 3,
-          "anchor": "Bu onarım hareketine 6:152'deki adil ölçü ve söz, 4:128'deki uzlaşma, 47:5'teki yönlendirme ve ıslah, 70:24'teki bağlayıcı hak temas eder; temasın sonucu soyut bir iyilik değil, ilişkide ölçüyü yerine koyan uygun bir iadedir."
-        },
-        {
-          "movement_refs": [
-            "context:103:2",
-            "context:4:128",
-            "context:47:5",
             "context:70:24"
           ],
-          "paragraph": 3,
-          "anchor": "Bu buluşmanın bağlamları 103:2, 6:152, 4:128, 47:5 ve 70:24'tür; belirli bir hukuki talep verilmediği için onarımın alıcısı ve miktarı açık bırakılır."
+          "paragraph": 4,
+          "anchor": "70:24 bu okumaya bilinen bir mali hakkı örnek verir; belirli bir alacaklı ya da miktar odak ayetin içinde bulunmaz."
         }
       ]
     },
     {
-      "finding_ref": "global:truth-contest-discipline",
+      "finding_ref": "global:relational_repair",
       "landings": [
         {
           "movement_refs": [
@@ -4344,88 +3933,135 @@ Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve s
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 4,
-          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} içindeki hak payload'ı, karşılıklı tavsiyeyi rakip iddiaları bir ölçüye getiren disiplinli bir doğruluk süreci olarak da açabilir; bu, aynı anda anlaşmayı garanti etmeyen ve belirli bir davaya indirgenmeyen sınırlı bir yankıdır."
+          "paragraph": 1,
+          "anchor": "Bu geniş okumada iyi işlerin ilişkiyi onarması, 8:1’in insanlar arasını düzeltme çağrısının 103:3’e sunduğu somut bir uygulamadır; belirli bir çatışma veya çözüm biçimi ise belirtilmez."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4"
+            "activation:0"
           ],
-          "paragraph": 4,
-          "anchor": "Hak taşıyıcısının tarafların karşılıklı çekişip her birinin doğru taraf olduğunu ileri sürmesi dalı, 4:135'te adalet için şahitlik eden sorumlu iddia ile temas ederek tavsiyeyi rakip savların yüzleşmesi yapar; yine hakta bulunan bir şeyin doğru olduğunu belirleyip doğru diye onaylama dalı, 49:6'da haberin doğrulanmasıyla kanıt üzerinden gösterme işlevi kazanır; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin sarsıntı ve yakınma dürtüsüne karşı kendini tutma dalı, 31:17'de çekişmenin kopuşa dönüşmesini engeller; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin barışma dalı, 4:128'de sınanmış iddianın ardından toplumsal bağı onarır; iki kez tekrarlanan {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin karşılıklı bildirme dalı ise 90:17'de doğruluk sınamasını tek kişinin hükmü olmaktan çıkarır."
+          "paragraph": 1,
+          "anchor": "8:1’de inananlara insanlar arasını düzeltmeleri söylenmesi, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} taşıyıcısındaki yararlı ve düzgün olma anlamını ilişki onarımına açar; iyi işler böylece kişiler arasındaki bozulmayı gidermeyi de kapsar, ama yalnızca uzlaşmaya indirgenmez."
         },
         {
           "movement_refs": [
-            "connection:conn_0a3f036cc064a37e0d31",
-            "connection:conn_006743bc66b8317f1ee5",
-            "connection:conn_4f6e1b1d83b84017ca94",
-            "connection:conn_aca042309ea4e247b48c",
-            "connection:conn_65135d8157c9ce2af5df"
+            "connection:conn_ec5d112de1f66d6689af",
+            "context:8:1"
           ],
-          "paragraph": 4,
-          "anchor": "Bu disiplinin temas noktaları 4:135'te adalet adına şahitlik, 49:6'da haber doğrulama, 31:17'de sabır, 4:128'de uzlaşma ve 90:17'de karşılıklı tavsiyedir; böylece hak, yalnız doğruyu söylemek değil, iddiayı sınamak ve bağı korumak için yürütülen bir işleme dönüşür."
-        },
-        {
-          "movement_refs": [
-            "context:4:135",
-            "context:49:6",
-            "context:31:17",
-            "context:4:128",
-            "context:90:17"
-          ],
-          "paragraph": 4,
-          "anchor": "Bu süreç 4:135, 49:6, 31:17, 4:128 ve 90:17 bağlamlarının birlikte açtığı sorumluluk, doğrulama, sabır ve uzlaşma alanında kalır."
+          "paragraph": 1,
+          "anchor": "Özellikle 8:1’deki ilişki onarımı, yararlı işlerin toplumsal sonucunu görünür kılar."
         }
       ]
     },
     {
-      "finding_ref": "global:transmitted-responsibility",
+      "finding_ref": "global:truth_in_dispute",
       "landings": [
         {
           "movement_refs": [
             "discovery:claim",
             "discovery:mechanism",
             "discovery:reader_payoff",
-            "discovery:containment"
+            "discovery:containment",
+            "activation:0"
           ],
-          "paragraph": 4,
-          "anchor": "Tekrarlanan tavsiye fiilleri, aynı yükümlülüğü kişiler ve zaman aralıkları boyunca birbirine devreden kalıcı bir taşıma zinciri kurabilir; güvenilir kaynaklı bu süreklilik, tekrarın yalnız ses güzelliği değil, sorumluluğu ileriye aktaran bir işlev olduğunu düşündürür."
+          "paragraph": 5,
+          "anchor": "Odaktaki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} tek başına iyi bir sonucu garanti etmez: 51:53’te insanlar birbirlerine günahı aktarırken, 3:104 bir topluluğa iyiyi çağırma ve kötüyü engelleme görevi verir; 103:3’te öğüdün yönünü {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana göre} ve {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} belirler, yine de belirli bir ihtilafı veya her zaman uzlaşma doğacağını söylemez."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
+            "activation:1"
+          ],
+          "paragraph": 5,
+          "anchor": "2:213’te topluluk içindeki ayrılık hak ile yargılanır; hak sözlüğündeki bir kullanım, tarafların çekişirken her birinin kendi savını doğru göstermesidir, böylece ortak öğüt yalnızca tartışmasız bir ilkeyi değil, çekişmeli iddiaları da muhatap alabilir, fakat belli bir dava veya yargıç belirlenmez."
+        },
+        {
+          "movement_refs": [
             "activation:2"
           ],
-          "paragraph": 4,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin bir şeyi başka şeyle bağlama veya bitişik sürdürme dalı, 17:106'daki aşamalı ve kamusal aktarım temasında bir yükümlülüğü sonraki ana ekler; aynı fiilin başkasına bırakılan iş talimatı dalı, 2:180'deki vasiyet biçimiyle görevi başka bir taşıyıcıya bırakır; karşılıklı öğüt veya talimat iletme dalı da 90:17'de bu bırakmayı tek seferlik emir olmaktan çıkarıp karşılıklı sürdürülen bir emanet haline getirir."
+          "paragraph": 5,
+          "anchor": "Aynı 2:213 sahnesinde hak, doğru olanı belirleyip onaylayan bir ölçü gibi işler; bu temas, karşılıklı öğüdün doğruluğu ortaklaşa sınama imkânını açar, ama belirli bir kitap ya da mahkeme adı vermez."
+        },
+        {
+          "movement_refs": [
+            "activation:3"
+          ],
+          "paragraph": 5,
+          "anchor": "Yine de 2:213’ün ihtilafı görünür doğruluk karşısında ele alması, karşılıklı öğüdün kanıtlı bir savı ayakta tutma yolu olabileceği benzetmesini destekler; her savın kanıtlanacağı vaat edilmez."
+        },
+        {
+          "movement_refs": [
+            "activation:4"
+          ],
+          "paragraph": 5,
+          "anchor": "3:200’deki karşılıklı sebat ve gözetim, sabrı sarsıntı ve yakınma dürtüsüne karşı etkin özdenetim olarak bu hak arayışının sürmesini sağlar; bu, o ayetin bütün sorumluluklarını buraya taşımak değildir."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_432730de96f12dacd5ac",
+            "connection:conn_4030c3bbf31fc4303921",
+            "connection:conn_6fe252707025be4adb79",
+            "connection:conn_4dcb2b088f8009c43bf2",
+            "context:51:53",
+            "context:3:104",
+            "context:2:213",
+            "context:3:200"
+          ],
+          "paragraph": 5,
+          "anchor": "Bu okumadaki örnekler birbirinden farklıdır: 51:53 karşılıklı aktarımın günaha da hizmet edebildiğini, 3:104 ortak iyiyi çağırmayı, 2:213 ihtilafı hakla yargılamayı, 3:200 toplu dayanma ve gözetimi gösterir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:durable_transmission",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 6,
+          "anchor": "İki kez yinelenen öğüt, bir defalık nasihatten daha dayanıklı bir sorumluluk aktarımı olarak da okunabilir: karşılıklılık kişileri ve iki öğüt cümlesini bağlar, farklı surelerdeki emanet, vasiyet ve aralıklı aktarım imgeleri bu bağı genişletir, fakat odak ayet vasiyet ya da toplu tilavet tarif etmez ve sureler arasında tek bir aktarım kanalı kurmaz."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 6,
+          "anchor": "{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} fiilinin bağlama ve bir şeyi başka şeye bitiştirme yönü, 17:106’da insanlara aralıklarla sunulan tilavetle buluşunca, iki öğüt cümlesi zaman boyunca sürdürülen bir aktarım gibi duyulur."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 6,
+          "anchor": "2:180’de yakınlara bırakılan bağlayıcı vasiyet, öğüdün bir başkasının eline bırakılan talimat anlamına temas eder; oradaki aktarım tek yönlü, odaktaki öğüt karşılıklı olduğu için ilişki özdeşlik değil benzerliktir."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 6,
+          "anchor": "90:17’de karşılıklı öğüdün sabır ve merhamet gibi farklı içeriklerle tekrarlanması, eylemin sabit kalıp içeriğin değişebildiğini gösterir; böylece iki cümle aktarılabilir bir toplumsal pratiğe dönüşür."
         },
         {
           "movement_refs": [
             "connection:conn_5cd180ac13340309da30",
             "connection:conn_821f8bbc1fdd4655459b",
-            "connection:conn_65135d8157c9ce2af5df"
-          ],
-          "paragraph": 4,
-          "anchor": "Bu sürekliliğin bağımsız temasları 17:106'daki aşamalı aktarım, 2:180'deki başkasına bırakılan vasiyet ve 90:17'deki karşılıklı taşıyıcı ilişkidir; iki ayrı payload aynı karşılıklı fiile bağlandığı için birinci tavsiye ikincisini dışlamaz."
-        },
-        {
-          "movement_refs": [
+            "connection:conn_65135d8157c9ce2af5df",
             "context:17:106",
             "context:2:180",
-            "context:90:17"
+            "context:90:17",
+            "context:103:1"
           ],
-          "paragraph": 4,
-          "anchor": "Bu okuma 17:106, 2:180 ve 90:17 bağlamlarıyla sınırlıdır; ayet bir kurum adlandırmıyor, fakat tekrarın sorumluluk taşıma etkisini görünür kılıyor."
+          "paragraph": 6,
+          "anchor": "17:106’daki aralıklı duyuru, 2:180’de yakınlara bırakılan yükümlülük ve 90:17’de değişen öğüt içerikleri aktarım benzetmesini kurar; 103:1’in zaman çağrışımıysa daha ihtiyatlı bir eşliktir."
         }
       ]
     },
     {
-      "finding_ref": "global:pressured-endurance",
+      "finding_ref": "global:joined_structure",
       "landings": [
         {
           "movement_refs": [
@@ -4434,472 +4070,157 @@ Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve s
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 5,
-          "anchor": "Son sabır payload'ı, yalnız sakinlik değil, zor zeminde ve bedensel-toplumsal bir maliyet altında sürdürülen etkin bir dayanma olarak genişler; kaynak ilişkileri bunu desteklese de sabrı tek bir maddi imgeye indirgemeyen keşifsel bir bileşim söz konusudur."
+          "paragraph": 3,
+          "anchor": "Bu ortaklık, kelimelerin olağan anlamlarını koruyarak bir yapı benzetmesine de açılır: yapılan işler ortak iyiliğe katılır, yararlı işler ayrılığı onarır, karşılıklı öğüt üyeleri bağlar, hak içerikli söz bağı sağlamlaştırır, sabır da onun yükünü taşımaya yardım eder; 5:2, 3:103 ve 33:72 bu ilişkileri farklı açılardan destekler, fakat 103:3 bir bina, dokuma ya da hukuki teminat tarif etmez."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "activation:6"
+            "activation:0"
           ],
-          "paragraph": 5,
-          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} taşıyıcısında yer alan bineği gücünü aşacak biçimde sert sürme dalı, 90:11'deki aşılması zor yokuşla birleşerek doğruluk payload'ına bedeli olan bir tırmanış imgesi verir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin kendini tutarak dayanma dalı, 31:17'de duygusal çekilmeyi etkin denetim olarak korur; aynı sabır kökünün sert taş ve taşlı arazi dalı, 94:5'te sıkıntının yanında gelen kolaylıkla, dayanmayı dirençli bir zeminde ilerleme haline getirir; sabrın çıkışsız ağır durum dalı, 2:214'te rahatlamadan önceki ağır sınavı taşır; kışın ayazı dalı, 14:12'de zarara rağmen güvenerek sabretmenin keskin dış rahatsızlığını ekler; acı ve ilaç olarak kullanılan ağaç özü dalı, 10:109'da vahyi hüküm gelene kadar izleme temasına bağlanarak sabrı zor ama yolu sürdüren bir ilaç gibi duyurur; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin zahmete girme dalı da 94:7'de çabanın bizzat dayanma emeği olduğunu gösterir."
+          "paragraph": 3,
+          "anchor": "5:2’nin iyilik ve takvâda birlikte çalışma çağrısı, {ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve iş yaptılar} fiilindeki eylemi bir grubun ortaklaşa yürüttüğü işe yaklaştırır; burada belirli bir ekipman veya meslek kurulmaz."
         },
         {
           "movement_refs": [
-            "connection:conn_7bccdbab0c3af0ff472e",
-            "connection:conn_4f6e1b1d83b84017ca94",
-            "connection:conn_8de5ad18b69173f86c38",
-            "connection:conn_2e78e66ffddbee03fd63",
-            "connection:conn_3b55277beed439f6a7a1",
-            "connection:conn_75fb8ceb38bc6d6e783f",
-            "connection:conn_4858d294118f7cffe643"
-          ],
-          "paragraph": 5,
-          "anchor": "Bu yedi temas 90:11'deki zor tırmanış, 31:17'deki pratik sabır, 94:5'te kolaylık-sıkıntı çifti, 2:214'te ağır sınav, 14:12'de zarara rağmen dayanma, 10:109'da hüküm gelene dek izleme ve 94:7'de sürdürülen zahmettir; bunlar sabrın farklı maliyetlerini yan yana getirir."
-        },
-        {
-          "movement_refs": [
-            "context:90:11",
-            "context:31:17",
-            "context:94:5",
-            "context:2:214",
-            "context:14:12",
-            "context:10:109",
-            "context:94:7"
-          ],
-          "paragraph": 5,
-          "anchor": "Bu genişlemenin bağlamları 90:11, 31:17, 94:5, 2:214, 14:12, 10:109 ve 94:7'dir; sabır burada ne yalnız iç huzuruna ne de yalnız bir taş, soğuk veya ilaca eşitlenir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:anti-loss-security",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 5,
-          "anchor": "İstisna grubu, kaybı tersine çeviren bir güvenlik ekonomisi olarak da okunabilir: güven aktörleri sabitler, kasıtlı eylem ve onarım eksikliği giderir, hak bağlayıcılık getirir, karşılıklı tavsiye dolaşımı sürdürür ve sabır paniğin yeniden kayıp üretmesini önler; ticari kayıp dalı için taşıyıcı bulunmadığından bu okuma eldeki odaklarla sınırlıdır."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5"
-          ],
-          "paragraph": 5,
-          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin korkuya karşı güven ve güvenilirlik dalı, 103:1-2 ile 106:4'te korkudan güvenli bir toplumsal ufuk bulur; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} içindeki bağlayıcı gereklilik dalı, 70:24'te kayba karşı hâlâ istenebilir bir hak bırakır; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} içindeki kendini tutma dalı, 31:17'de paniğin kaybı yeniden üretmesini önler; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin iyi ve düzgün olma dalı, 29:36'da bozuluşu onarır; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin bilerek yapılan iş dalı, 99:7'de en küçük eylemin bile görünür bir karşılığı olduğunu hatırlatır; {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin karşılıklı bildirme dalı ise 90:17'de bu onarımı toplumsal dolaşımda tutar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_44a83b00409dd86667dd",
-            "connection:conn_3087d53004da588260db",
-            "connection:conn_4f6e1b1d83b84017ca94",
-            "connection:conn_d735382cb186620441ec",
-            "connection:conn_8e832663244565dab476",
-            "connection:conn_65135d8157c9ce2af5df"
-          ],
-          "paragraph": 5,
-          "anchor": "Bu güvenlik ekonomisinin temasları 106:4'te korkudan güven, 70:24'te başkasına ait hak, 31:17'de sabır, 29:36'da onarım, 99:7'de eylem hesabı ve 90:17'de karşılıklı tavsiyedir; güvenli alan böylece pasif koruma değil, kaybı azaltan bir uygulama olur."
-        },
-        {
-          "movement_refs": [
-            "context:103:1",
-            "context:103:2",
-            "context:106:4",
-            "context:70:24",
-            "context:31:17",
-            "context:29:36",
-            "context:99:7",
-            "context:90:17"
-          ],
-          "paragraph": 5,
-          "anchor": "Bu okuma 103:1, 103:2, 106:4, 70:24, 31:17, 29:36, 99:7 ve 90:17 bağlamlarında geri döner."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:repaired-human-network",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "Çoğul istisna, güven, amaçlı eylem, uzlaşma, kefalet ve bağlanma sayesinde birbirini onaran bir insan ağı olarak görünür; okuyucu yürüyüşünden gelen bu ilişki keşfi, adlandırılamayan ayrı düşme dalını dışarıda bırakırken kalan odak ilişkilerini korur."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin güvenilirlik dalı, 90:17'de grubun üyelerine güven veren bir zemin olur; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin bilerek yapılan iş dalı, 99:7'de ağı kasıtlı eylemle kurar; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin barışma ve uzlaşma dalı, 49:10'da kardeşlik ve uzlaştırmayla sosyal hasarı giderir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısındaki yükümlülüğe güvence veren kişi dalı, 90:17'de üyelerin birbirinin borcunu ve yükünü taşımasını sağlar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin gerçekliğe uygun kesin doğruluk dalı, yine 90:17'de onarım ve yükümlülükler için ortak bir gerçeklik standardı kurar; iki kez tekrarlanan {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin bağlama ve bitişik sürdürme dalı da aynı temasla ağı sürekli kılar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_65135d8157c9ce2af5df",
-            "connection:conn_8e832663244565dab476",
-            "connection:conn_3886c0f151a24b5f0ef1"
-          ],
-          "paragraph": 6,
-          "anchor": "Bu ağın temasları 90:17'de iman, sabır, merhamet ve karşılıklı tavsiye, 99:7'de en küçük kasıtlı iş, 49:10'da kardeşlik ve uzlaşmadır; ortak gerçeklik bu onarım ve kefaletleri ölçülebilir kılar."
-        },
-        {
-          "movement_refs": [
-            "context:103:2",
-            "context:49:10",
-            "context:90:17"
-          ],
-          "paragraph": 6,
-          "anchor": "Bu ilişkinin bağlamları 103:2, 49:10 ve 90:17'dir; ayrı düşme için bağımsız bir taşıyıcı bulunmadığı için ağ okuması güven, eylem, uzlaşma, kefalet, doğruluk ve bağlanma ile sınırlı tutulur."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:pressure-fitted-apparatus",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 6,
-          "anchor": "103:1'in baskı ufkunda iyi iş, uygunluk, sıkı kuruluş ve sınırlar birlikte düşünüldüğünde istisna, basınç altında dağılmayan bir düzenek gibi okunabilir; bu maddi ilişki keşifsel okuyucudan gelir ve sıkı dokuma dalının sınırlı söz öbeği kullanımını gerçek bir makineye dönüştürmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3"
-          ],
-          "paragraph": 6,
-          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} taşıyıcısının kumaş ipliklerinin sıkı ve düzgün dokunması dalı, 103:1 ve 90:9 temasında ahlaki sıraya yük taşıyan bir kuruluş biçimi verir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin bir bütünün üstteki bölümü veya yan sınırı dalı, 103:1 ve 94:5'te basıncın dağıtacağı şeyi çevreleyen bir kenar kurar; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin uygunluk dalı, 47:5'te her parçanın kendi kişisine ve durumuna uymasını sağlar; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin işe koşup kullanma dalı da 94:7'de düzeneğin çalışan hareketi olur."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_50a6c25dff84d335ec4e",
-            "connection:conn_8de5ad18b69173f86c38",
-            "connection:conn_e3847d13bd0d0c4d9f7f",
-            "connection:conn_4858d294118f7cffe643"
-          ],
-          "paragraph": 6,
-          "anchor": "Bu düzenek imgesinin temas noktaları 90:9'daki verilen dil ve dudakların yük taşıyan kuruluşu, 94:5'te sıkıntı karşısındaki kolaylık, 47:5'te uygun onarım ve 94:7'de sürdürülen iştir; yapı, parçaların birbirine uyması sayesinde basınçta tutulur."
-        },
-        {
-          "movement_refs": [
-            "context:103:1",
-            "context:94:5",
-            "context:94:7",
-            "context:47:5",
-            "context:90:9"
-          ],
-          "paragraph": 6,
-          "anchor": "Bu okuma 103:1, 94:5, 94:7, 47:5 ve 90:9 bağlamlarına dayanır; sıkı kuruluş ve sınır somut bir makine değil, odak anlamlarını görünür kılan bir analojidir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:legal-testamentary-order",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 7,
-          "anchor": "İki karşılıklı yükümlülük, emanet edilmiş iş, bağlayıcı hak, zorunlu dayanma ve birbirine bırakılan talimat üzerinden hukuki ve vasiyetli bir düzen olarak da duyulabilir; kaynak yürüyüşü bu kurumsal analojiyi destekleyen odaklar sunsa da ortada belirli bir mahkeme, tereke veya dava yoktur."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4"
-          ],
-          "paragraph": 7,
-          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin güvenilirlik dalı, 103:2 ve 33:72'de emanet taşıyan tarafı sorumlu kılar; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin bağlayıcı gereklilik dalı, 70:24'te hakkı uygulanabilir bir borca çevirir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısının dış güçle alıkoyma dalı, 2:180'de vasiyet ve tanınmış hakla görevi bağlayıcı bir tutma biçimine sokar; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin bir iş üzerinde görev ve yetki üstlenme dalı aynı 2:180 temasında işi idare edilen sorumluluk yapar; {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin başkasına bırakılan talimat dalı da iki tavsiye cümlesini devam eden vekâletler gibi duyurur."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_3749217afa25b0c2c161",
-            "connection:conn_3087d53004da588260db",
-            "connection:conn_821f8bbc1fdd4655459b"
-          ],
-          "paragraph": 7,
-          "anchor": "Bu düzenin temasları 33:72'de emanet sorumluluğu, 70:24'te hak ve borç, 2:180'de akrabalıkla çevrili vasiyet ve görevlendirmedir; hukuki imge, olağan ahlaki anlamın yanına hesap verilebilirlik ekler."
-        },
-        {
-          "movement_refs": [
-            "context:103:2",
-            "context:33:72",
-            "context:70:24",
-            "context:2:180"
-          ],
-          "paragraph": 7,
-          "anchor": "Bu buluşma 103:2, 33:72, 70:24 ve 2:180 bağlamlarıyla sınırlıdır; belirli bir mahkeme, malvarlığı veya uyuşmazlık ileri sürülmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:cultivated-yield",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 7,
-          "anchor": "Odak terimleri, kayıptan kurtuluşu yalnız bir anda gerçekleşen çıkarılma değil, uygun mevsimde olgunlaşan bir yetişme ve verim süreci olarak da gösterebilir; bu okuyucu yürüyüşü keşifsel ve analojiktir, yağmur bulutu dalı için yeterli taşıyıcı bulunmadığından imge eldeki odaklarla tutulur."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3"
-          ],
-          "paragraph": 7,
-          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin üç yaşı tamamlayıp dördüncü yaşında yük taşımaya elverişli deve dalı, 103:1 ve 94:7'de sonuca hazır hale gelen bir olgunluk gösterir; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin yoğun bir tabaka üstünde düz duran veya basamak gibi yığılan beyaz bulut dalı, 103:1'de sabrı zaman içinde biriken imkânın tutulması olarak resmeder; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin bir şeye ve yöneldiği kişiye uygun olma dalı, 103:1 ve 47:5'te büyümeyi alıcısına uygun kılar; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin otlağın sürüye bolca elverişli olması dalı, 103:1 ve 94:5'te topluluğu besleyen alan ile topluluk arasında bir uygunluk ve provision ilişkisi kurar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_e3847d13bd0d0c4d9f7f",
-            "connection:conn_8de5ad18b69173f86c38"
-          ],
-          "paragraph": 7,
-          "anchor": "Bu yetişme imgesinin bağımsız temasları 47:5'te hidayetle ıslah, 94:5'te sıkıntı yanında kolaylık ve 103:1'deki asr ufkudur; deve olgunluğu, katmanlı bulut ve sürüye elverişli otlak aynı verim hareketinin farklı yüzleri olarak kalır."
-        },
-        {
-          "movement_refs": [
-            "context:103:1",
-            "context:94:5",
-            "context:94:7"
-          ],
-          "paragraph": 7,
-          "anchor": "Bu okuma 103:1, 94:5 ve 94:7 bağlamlarında tutulur; iyi iş literal ürün, sabır literal bulut ve tavsiye literal otlak değildir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:bitter-medicine",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "Tekrarlanan tavsiye, sabrı topluca verilen ve topluca taşınan acı bir ilaç gibi hissettirebilir; bu keşifsel ve analojik imge, zor hakikatin bir grubun birbirine aldırdığı bir doz oluşunu öne çıkarırken sabrı tek başına acılığa eşitlemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
             "activation:1"
           ],
-          "paragraph": 8,
-          "anchor": "{ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} fiilinin topluluk üyelerinin birbirine yapılacak şeyi bildirmesi dalı, 90:17'de zor içeriği tekrar tekrar taşınabilir yapan idare ilişkisini kurar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin tadı acı ve ilaç olarak kullanılan ağaç özü dalı, 10:109'da vahyi hüküm gelene kadar izleme ve 31:17'de pratik sabırla birleşerek dayanmayı zor ama sürdürücü bir madde gibi duyurur."
+          "paragraph": 3,
+          "anchor": "3:103’te düşmanlıktan sonra kalplerin kardeş kılınması ve topluluğun birlikte tutulması, {ar:ٱلصَّٰلِحَٰتِ, tr:al-ṣāliḥāt, gloss:iyi ve düzgün işler} içindeki onarıcı iyiliğe ayrı bir temas verir: iyi işler bölünmüş bir topluluğu bütünleştirebilir, fakat sözcük yalnızca uzlaşmayı anlatmaz."
         },
         {
           "movement_refs": [
-            "connection:conn_65135d8157c9ce2af5df",
-            "connection:conn_4f6e1b1d83b84017ca94"
+            "activation:2"
           ],
-          "paragraph": 8,
-          "anchor": "Bu ilacın temas noktaları 90:17'de karşılıklı tavsiye, 10:109'da hüküm gelene kadar izleme ve 31:17'de sabırla birlikte eylemdir; topluluk, zor hakikati birbirine aldıran ve taşıyan aracı olur."
+          "paragraph": 3,
+          "anchor": "Aynı ayetin bir arada tutma ve bölünmeme imgesi, {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} biçimindeki tekrarlı karşılıklılığı üyeleri birbirine bağlayan bir eylem gibi gösterir; odak ayet bir ipi ya da önceden yaşanmış bir düşmanlığı adlandırmaz."
         },
         {
           "movement_refs": [
-            "context:10:109",
-            "context:31:17",
-            "context:90:17"
+            "activation:3"
           ],
-          "paragraph": 8,
-          "anchor": "Bu buluşmanın bağlamları 10:109, 31:17 ve 90:17'dir; eldeki sabır dalı acı ilaç imgesini taşır, fakat çözülmeyen lokma gibi başka bir dal bu okumanın parçası değildir."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:complete-rescue-system",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 8,
-          "anchor": "Daha geniş okuma, güven, sağlam gerçek, sıkı kuruluş, ağır şart, işe koşulan emek, karşılık ve karşılıklı tavsiyeyi kayba karşı birlikte çalışan eksiksiz bir kurtuluş düzeni halinde bir araya getirir; bu kompozit sistem güvenilir bir odak zemini olmayan iki aday dalı kullanmadan, kalan temaslardan çıkarılan nitelikli bir bütündür."
+          "paragraph": 3,
+          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqq, gloss:hak ve doğru olana dair} odağın olağan doğruluk ve hak anlamını taşır; aynı sözlük ailesindeki dokuma kullanımı ipliklerin sıkı ve düzgün örülmesini anlatır."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5",
-            "activation:6"
-          ],
-          "paragraph": 8,
-          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin güvenlik dalı 103:2 ve 90:17 ile kurtuluşu güvenilir bir koşulla başlatır; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin gerçekliğe uygun kesin doğruluk dalı 42:17 ile sisteme sabit bir gerçeklik standardı verir ve sıkı dokunmuş veya sağlam kurulmuş dalı 90:9 ile parçaların yükü birlikte taşımasını sağlar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin çıkışsız ağır durum dalı 2:214 ile düzenin dayanması gereken zor şartı belirler; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin işe koşup kullanma dalı 94:7 ile çalışan hareketi, iş ücreti dalı 2:195 ile emeğin somut karşılığını ekler; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin karşılıklı bildirme dalı da 90:17 ile parçaları toplumsal olarak etkin tutar."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_65135d8157c9ce2af5df",
-            "connection:conn_0af60fc1dc078acd871e",
-            "connection:conn_50a6c25dff84d335ec4e",
-            "connection:conn_2e78e66ffddbee03fd63",
-            "connection:conn_4858d294118f7cffe643",
-            "connection:conn_fc878e0c6449521529ed"
-          ],
-          "paragraph": 8,
-          "anchor": "Bu eksiksiz düzenin temasları 90:17'de güven ve karşılıklı taşıma, 42:17'de hak ve ölçü, 90:9'da kuruluş, 2:214'te ağır sınav, 94:7'de iş, 2:195'te karşılık ve yeniden 90:17'de toplumsal tavsiyedir; kurtuluş böylece tek bir erdem değil, birbirini koruyan parçaların çalışması olur."
-        },
-        {
-          "movement_refs": [
-            "context:103:1",
-            "context:103:2",
-            "context:90:17",
-            "context:42:17",
-            "context:90:9",
-            "context:2:214",
-            "context:94:7",
-            "context:2:195"
-          ],
-          "paragraph": 8,
-          "anchor": "Bu sistem 103:1-2, 90:17, 42:17, 90:9, 2:214, 94:7 ve 2:195 bağlamlarının birlikte kurduğu kayıp karşıtlığında kalır; genel kayıp ve sıkıştırma için ayrı bir taşıyıcı bulunmadığı için onların yerine geçmez."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:causal-practice-circuit",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 9,
-          "anchor": "Fiillerin sırası ve iki kez yinelenen karşılıklılık, kabullenişin yön verdiği, eylemin işlettiği, iyiliğin niteliği denetlediği, hakikatin kalibre ettiği, tavsiyenin dolaştırdığı ve sabrın gerilim altında kapattığı nedensel bir uygulama devresi olarak da okunabilir; bu ok, sıra ve paralellikten çıkarıldığı için keşifseldir ve tek bir cümleyi tek neden ilan etmez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
-            "activation:4",
-            "activation:5"
-          ],
-          "paragraph": 9,
-          "anchor": "{ar:ءَامَنُوا۟, tr:āmanū, gloss:güvenip inanmak} yüzeyinin sözü doğru sayıp kabul etme dalı 61:2'de söylenenle yapılan arasındaki uyumsuzluk uyarısıyla eyleme yön verir; {ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin işe koşup kullanma dalı aynı 61:2 temasında bu yönü işletir; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin iyi ve düzgün olma dalı 29:36'da bozulmayı önleyen bir kalite koşulu sağlar; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin karşılıklı bildirme dalı 90:17'de düzeltmeyi grup içinde dolaştırır; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin kesin doğruluk dalı 42:17'de devreyi sağlam bir ölçüyle kalibre eder; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} yüzeyinin kendini tutma dalı 31:17'de gerilim altında bu kalibrasyonu sürdürür."
-        },
-        {
-          "movement_refs": [
-            "connection:conn_7cc2c5104b1b51ca9524",
-            "connection:conn_d735382cb186620441ec",
-            "connection:conn_65135d8157c9ce2af5df",
-            "connection:conn_0af60fc1dc078acd871e",
-            "connection:conn_4f6e1b1d83b84017ca94"
-          ],
-          "paragraph": 9,
-          "anchor": "Bu devrenin bağımsız temasları 61:2'de söz-eylem hesabı, 29:36'da bozulmaya karşı ıslah, 90:17'de karşılıklı tavsiye, 42:17'de hak ve ölçü ve 31:17'de sabırdır; sıralama bu nedenle düz bir liste olmaktan çıkıp kendini sürdüren bir işleyiş kazanır."
-        },
-        {
-          "movement_refs": [
-            "context:61:2",
-            "context:29:36",
-            "context:90:17",
-            "context:42:17"
-          ],
-          "paragraph": 9,
-          "anchor": "Bu okuma 61:2, 29:36, 90:17 ve 42:17 bağlamlarında, sabrın 31:17'de gerilim altında devreyi kapattığı sınırlı bir paralellik olarak kalır."
-        }
-      ]
-    },
-    {
-      "finding_ref": "global:restored-measure",
-      "landings": [
-        {
-          "movement_refs": [
-            "discovery:claim",
-            "discovery:mechanism",
-            "discovery:reader_payoff",
-            "discovery:containment"
-          ],
-          "paragraph": 9,
-          "anchor": "Kayıp ve kısa ölçü baskısı altında karşılıklı işlem, uzlaşma, uygunluk, bağlayıcı hak ve sahibine ait pay birlikte düşünüldüğünde, iyi işler ile hakikatin kişiler arasında tam ölçüyü iade ettiği pratik bir restitüsyon süreci belirir; bu da keşifsel bir çıkarımdır ve aday kısa ölçü dalının yokluğu nedeniyle belirli miktarlar söylemez."
-        },
-        {
-          "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2",
-            "activation:3",
             "activation:4"
           ],
-          "paragraph": 9,
-          "anchor": "{ar:عَمِلُوا۟, tr:ʿamilū, gloss:eylemek ve çalışmak} yüzeyinin karşılıklı işlem dalı 103:2 ve 6:152'de ölçünün yeniden kurulacağı alışveriş alanını açar; {ar:ٱلصَّٰلِحَٰتِ, tr:aṣ-ṣāliḥāti, gloss:iyi ve onarıcı işler} yüzeyinin barışma ve uzlaşma dalı 4:128'de ilişkinin kendisini onarır; aynı yüzeyin uygunluk dalı 47:5'te eylemi kişiye ve duruma uydurur; {ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin bağlayıcı gereklilik dalı 70:24'te tam ölçünün neyi zorunlu kıldığını söyler ve sahibine bağlı pay ve istem yetkisi dalı aynı ayette onarımın kime döneceğini belirler."
+          "paragraph": 3,
+          "anchor": "Aynı sözlük kolunun söz için verdiği “sağlam, tutarlı ve iyi kurulmuş” kullanım, 3:103’teki bağ imgesiyle hak içerikli öğüdün topluluğu bir arada tutan sağlam bir söz olabileceğini düşündürür; 103:3 belirli bir söz kalıbını kullanmaz."
+        },
+        {
+          "movement_refs": [
+            "activation:5"
+          ],
+          "paragraph": 3,
+          "anchor": "Sabır, 33:72’de insanlığın yüklendiği emanetle birlikte düşünüldüğünde ortak bağın taşıyıcı yükü olur; bu maddi kefalet değil, sorumluluğu birlikte üstlenme benzetmesidir."
+        },
+        {
+          "movement_refs": [
+            "activation:6"
+          ],
+          "paragraph": 3,
+          "anchor": "{ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} sözcüğünün dayandığı kökün bir başka kullanımı bir bütünün üst ya da yan sınırıdır; 3:103’te grubun çukurun kıyısındaki tehlikeden kurtarılıp birlikte tutulması, sabrı topluluğu tutan yapının kenarlarından biri gibi imgelemeye imkân verir, ama odak ayet bir kenar ya da çukurdan söz etmez."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_c7b6a007dc810ca238ae",
+            "connection:conn_65c1e7cc8b034725c9bd",
+            "connection:conn_3749217afa25b0c2c161",
+            "context:5:2",
+            "context:3:103",
+            "context:33:72"
+          ],
+          "paragraph": 3,
+          "anchor": "Bu yapısal yankıların dayanakları 5:2’de ortak iyilik, 3:103’te tutulma, uzlaşma ve tehlike kıyısı, 33:72’de taşınan emanettir."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:endurance_under_strain",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 7,
+          "anchor": "Odaktaki {ar:بِٱلصَّبْرِ, tr:bi-l-ṣabr, gloss:sabırla} burada sessiz bir sükûnetten çok, ağır bir durumda sarsıntı ve yakınma dürtüsünü tutarak birlikte devam edebilme gücü olarak duyulur; 3:200’ün kolektif sebatı ve 2:214’ün sıkıntıdan ferahlığa uzanan aralığı bu okumayı açar, ama 103:3 belirli bir sınavı veya aynı sonucu vaat etmez."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 7,
+          "anchor": "3:200 sabrı karşılıklı sebat ve gözetimle birleştirir; odaktaki sabır da böylece yalnızca bireyin içine kapanması değil, öğütleşen grubun ortak özdenetimi olur."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 7,
+          "anchor": "2:214’te sıkıntı ve darlık ferahlık gelmeden önce yaşanır; sabrın ağır bir durum içindeki dayanma anlamı bu baskıyla temas eder ve anlık bir rahatsızlıktan daha uzun bir sınavı düşündürür, ancak 103:3’te belirli bir savaş ya da sıkıntı adı yoktur."
+        },
+        {
+          "movement_refs": [
+            "activation:2"
+          ],
+          "paragraph": 7,
+          "anchor": "Aynı 2:214 sahnesinde yardım gelene dek çıkışın henüz görünmemesi, sabrı basıncı hemen kaldırmayan bir aralık içinde hissettirir; bu benzetme odakta aynı zaman çizelgesinin veya sonucun vaat edildiğini söylemez."
+        },
+        {
+          "movement_refs": [
+            "connection:conn_4dcb2b088f8009c43bf2",
+            "connection:conn_2e78e66ffddbee03fd63",
+            "context:3:200",
+            "context:2:214"
+          ],
+          "paragraph": 7,
+          "anchor": "3:200’deki birlikte dayanma ile 2:214’teki yardım öncesi sıkıntı, sabrın ortak ve sürmekte olan baskı altındaki yönünü besler."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:legal_obligation",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment"
+          ],
+          "paragraph": 4,
+          "anchor": "Karşılıklı {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirlerine öğüt verdiler} öğüdün bağlayıcı bir kişilerarası göreve dönüşmesi de mümkündür: hak, yerine getirilmesi gereken şeyi; öğüt ise bu görevi başkalarına aktarmayı taşır, 6:152’nin adil ölçü, adil söz, ahdi gözetme ve talimat ilişkileri bunu besler, fakat burada mahkeme, vasiyet veya belirli bir davacı tanımlanmaz."
+        },
+        {
+          "movement_refs": [
+            "activation:0"
+          ],
+          "paragraph": 4,
+          "anchor": "6:152’de ölçüde adalet, doğru söz ve ahdi yerine getirme yükümlülükleri birlikte yer alır; bu görevler hak anlamını ilişkilerde gözetilecek bir gereklilik olarak etkinleştirir."
+        },
+        {
+          "movement_refs": [
+            "activation:1"
+          ],
+          "paragraph": 4,
+          "anchor": "Aynı ayetin buyrukları “size bildirilen” talimatlar olarak sunması, karşılıklı öğüdün ortak ilişkileri yöneten talimatı üstlenme yönünü açar; odaktaki ilişki karşılıklı öğüttür, tek yönlü bir ilahi talimat değil."
         },
         {
           "movement_refs": [
             "connection:conn_144e6142a416b608bffb",
-            "connection:conn_aca042309ea4e247b48c",
-            "connection:conn_e3847d13bd0d0c4d9f7f",
-            "connection:conn_3087d53004da588260db"
+            "context:6:152"
           ],
-          "paragraph": 9,
-          "anchor": "Bu iadenin temasları 6:152'de adil ölçü, 4:128'de uzlaşma, 47:5'te uygun ıslah ve 70:24'te bağlayıcı hak ile hak sahibidir; ölçü, soyut bir denge değil, ilişkide yerine ulaşan bir karşılık olur."
-        },
-        {
-          "movement_refs": [
-            "context:103:2",
-            "context:6:152",
-            "context:4:128",
-            "context:47:5",
-            "context:70:24"
-          ],
-          "paragraph": 9,
-          "anchor": "Bu okuma 103:2, 6:152, 4:128, 47:5 ve 70:24 bağlamlarının kısa ölçü ve kayıp karşısındaki pratik ilişkisiyle sınırlıdır."
+          "paragraph": 4,
+          "anchor": "6:152’nin talimat ve adalet yükümlülükleri bu hukuki-toplumsal yankının dayanağıdır; belirli bir kuralı 103:3’e aktarmak gerekmez."
         }
       ]
     },
     {
-      "finding_ref": "global:weave-structure",
+      "finding_ref": "global:transactional_work",
       "landings": [
         {
           "movement_refs": [
@@ -4908,37 +4229,50 @@ Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve s
             "discovery:reader_payoff",
             "discovery:containment"
           ],
-          "paragraph": 10,
-          "anchor": "Tekrarlanan cümleler, odak hakikat ve sabır yüklerini birbirine bağlayan, sıkı örülmüş ve daha geniş toplumsal yükü taşıyan iplikler gibi de duyulabilir; bu keşifsel analoji, sıkı kuruluş dalının sınırlı söz öbeği kaynağını korur ve ayeti literal kumaş ya da kap yapmaz."
+          "paragraph": 8,
+          "anchor": "Yapılan iş, insanlar arasındaki ölçülü alışveriş ve muameleler içinde de duyulabilir: 7:8’de doğru tartı ile esenlik ve kayıp yan yana gelir, bu da iş fiilini ölçünün önemli olduğu toplumsal işlemlere genişletir; 103:3 belirli bir pazar veya eksik tartma suçu adlandırmaz."
         },
         {
           "movement_refs": [
-            "activation:0",
-            "activation:1",
-            "activation:2"
+            "activation:0"
           ],
-          "paragraph": 10,
-          "anchor": "{ar:بِٱلْحَقِّ, tr:bi-l-ḥaqqi, gloss:gerçek, hak ve gerekli olan} yüzeyinin kumaş ipliklerinin sıkı ve düzgün dokunması dalı, 90:17 ve 94:5 temasında karşılıklı bağın basınca dayanacak yük taşıyan biçimini verir; iki {ar:تَوَاصَوْا۟, tr:tawāṣaw, gloss:birbirine tavsiye etmek} yüzeyinin başka şeyle bağlanıp bitişik sürdürme dalı, 90:17'de iplikleri sürekliliğe katar; {ar:بِٱلصَّبْرِ, tr:biṣ-ṣabri, gloss:sabır ve dayanma} taşıyıcısının başkasının yükümlülüğü için güvence verme dalı, yine 90:17'de yükü üstlenen kefil ipliğini oluşturur."
+          "paragraph": 8,
+          "anchor": "{ar:وَعَمِلُوا۟, tr:wa-ʿamilū, gloss:ve iş yaptılar} ifadesinin gündelik eylem anlamı korunur; bu kök için verilen karşılıklı işlem kullanımı, 7:8’in doğru tartı ve kayıp/esensizlik ilişkisiyle etkinleşerek salih işi ölçünün önem taşıdığı muameleleri de kapsayacak biçimde düşündürür."
         },
         {
           "movement_refs": [
-            "connection:conn_65135d8157c9ce2af5df",
-            "connection:conn_8de5ad18b69173f86c38"
+            "connection:conn_755d83be0eba98bf642b",
+            "context:7:8"
           ],
-          "paragraph": 10,
-          "anchor": "Bu örmenin temas noktaları 90:17'de karşılıklı iman, sabır ve merhamet ile 94:5'te sıkıntı yanında gelen kolaylıktır; güç tek tek iplikte değil, bağlanmış ve yükü paylaşan yapıda görünür."
+          "paragraph": 8,
+          "anchor": "7:8 bu işlem benzetmesine tartı, esenlik ve kayıp ilişkisini sağlar; 103:3’te pazar ya da eksik tartma isnadı bulunmaz."
+        }
+      ]
+    },
+    {
+      "finding_ref": "global:protected_due",
+      "landings": [
+        {
+          "movement_refs": [
+            "discovery:claim",
+            "discovery:mechanism",
+            "discovery:reader_payoff",
+            "discovery:containment",
+            "activation:0"
+          ],
+          "paragraph": 4,
+          "anchor": "Hak sözünün koruma ve savunma yönü de 6:152’de yetim malına özen, adil ölçü, doğru söz ve ahdi yerine getirme çağrısıyla temas eder; böylece ortak hak öğüdü, sahibine bağlı bir şeyi onun adına koruma görevini de kapsayabilir, fakat 103:3 bir yetimden veya özel mal kuralından söz etmez."
         },
         {
           "movement_refs": [
-            "context:90:17",
-            "context:94:5"
+            "connection:conn_144e6142a416b608bffb",
+            "context:6:152"
           ],
-          "paragraph": 10,
-          "anchor": "Bu analoji 90:17 ve 94:5 bağlamlarıyla sınırlıdır; sıkı dokuma, hak ve sabır anlamlarının yanında duran bir maddi görüntüdür."
+          "paragraph": 4,
+          "anchor": "6:152’de yetim malının korunması somut bir örnektir; bu, hak sözünü başkasının hakkını savunmaya bağlar, ama odağa belirli bir yetim ya da mülkiyet davası yerleştirmez."
         }
       ]
     }
   ]
 }
-
 </global_scope_ledger>

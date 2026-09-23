@@ -1,0 +1,452 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "103:0",
+  "lane": "macro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_acb1e47129c13091d688",
+      "decision": "accept",
+      "reason": "The trusted publication and the supplied retrospective evidence support a bounded reading of the opening name as an invocation framing the oath, diagnosis, and exception. The basmala remains an invocation; it is not recast as an oath.",
+      "finding_refs": ["macro:opening_invocation_frames_warning"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_de677da3d6e476ac56e3",
+      "decision": "represented",
+      "reason": "Its mercy-frame reading is an exact semantic duplicate of the finding that retains the relation between the two mercy epithets, the loss diagnosis, and the exception.",
+      "finding_refs": ["macro:mercy_frames_diagnosis_and_exception"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b34442a9c81ed95eac76",
+      "decision": "represented",
+      "reason": "Its kinship-like bond reading is an exact semantic duplicate of the finding in which the doubled mutual exhortation of 103:3 activates that analogy.",
+      "finding_refs": ["macro:reciprocal_care_as_kinship_analogy"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_710d330d99e24152411a",
+      "decision": "narrow",
+      "reason": "The supplied reading joins a womb image to the spatial enclosure of loss. Retain that form-limited, explicitly analogical core as exploratory, since the reader-walk evidence names the adjective-form limitation and the context supplies an independent spatial trigger. Exclude the covering branch: its own boundary excludes name, the actual carrier in this phrase.",
+      "finding_refs": ["macro:mercy_as_counter_enclosure"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000745/B004",
+          "reason": "The focus carrier is the name term ismi; this branch's supplied boundary explicitly excludes the name, and the context supplies no separate sky or covering carrier."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_6d8fd44a0295e0eac41b",
+      "decision": "accept",
+      "reason": "The Allah carrier in the invocation precedes the supplied description of believers and their good action in 103:3. The sequence supports a qualified orientation-to-God reading, bounded so it does not claim an exclusive motive for those actions.",
+      "finding_refs": ["macro:faith_and_action_under_the_invoked_name"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_a759e4469745037ab167",
+      "decision": "narrow",
+      "reason": "This reader-walk record bundles several distinct macro readings. Retain its mercy-frame contribution here; the invocation and faith/action relations have their own findings, and its womb contribution is retained under the bounded counter-enclosure finding.",
+      "finding_refs": ["macro:mercy_frames_diagnosis_and_exception"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000047/B001",
+          "reason": "The worship-and-trust relation is outside this bounded mercy finding and is separately retained in macro:faith_and_action_under_the_invoked_name."
+        },
+        {
+          "branch_ref": "root_000552/B003",
+          "reason": "The womb-image relation is separately retained, with its form restriction and exploratory status, in macro:mercy_as_counter_enclosure."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "reason": "The invocation and raised-designation relation is separately retained in macro:opening_invocation_frames_warning."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "103:1",
+          "reason": "The oath trigger supports the separate invocation finding, not this bounded mercy-frame finding."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_434929384c1236e202da",
+      "decision": "represented",
+      "reason": "Its retrospective womb-as-counter-container reading is an exact semantic duplicate of the bounded exploratory finding that retains that image.",
+      "finding_refs": ["macro:mercy_as_counter_enclosure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_17c1e4cbcfd640009b19",
+      "decision": "represented",
+      "reason": "Its governing-designation reading is an exact semantic duplicate of the finding on the opening invocation and the following oath-and-warning sequence.",
+      "finding_refs": ["macro:opening_invocation_frames_warning"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f05bca68f5610e11fa38",
+      "decision": "represented",
+      "reason": "Its mercy-as-rescue-frame reading is an exact semantic duplicate of the finding that relates the opening mercy epithets to the loss diagnosis and exception.",
+      "finding_refs": ["macro:mercy_frames_diagnosis_and_exception"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cc8f8637b88b7f0e2197",
+      "decision": "narrow",
+      "reason": "The source bundles the kinship analogy with a womb counter-enclosure. Retain the kinship relation here; the distinct womb reading is carried by its own bounded finding under cand_710d330d99e24152411a.",
+      "finding_refs": ["macro:reciprocal_care_as_kinship_analogy"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000552/B003",
+          "reason": "This candidate's distinct womb-image component is accounted for in macro:mercy_as_counter_enclosure; this finding retains only the relation between kinship and reciprocal exhortation."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "103:2",
+          "reason": "The loss-enclosure cue belongs to the omitted womb-image component; the retained kinship analogy is triggered by 103:3."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_93c453c1c8bfd4c132cc",
+      "decision": "represented",
+      "reason": "Its womb-as-counter-container reading is an exact semantic duplicate of the bounded exploratory finding that retains that image.",
+      "finding_refs": ["macro:mercy_as_counter_enclosure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cbb75dff197d027af6c6",
+      "decision": "represented",
+      "reason": "Its retrospective reading of the divine name as an invocation within the following formulaic sequence is an exact semantic duplicate of the opening-invocation finding.",
+      "finding_refs": ["macro:opening_invocation_frames_warning"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "macro:opening_invocation_frames_warning",
+      "origin_candidate_id": "cand_acb1e47129c13091d688",
+      "represented_candidate_ids": [
+        "cand_17c1e4cbcfd640009b19",
+        "cand_cbb75dff197d027af6c6"
+      ],
+      "title": "The invocation frames the oath and warning",
+      "claim": "The divine name in the opening invocation takes on a framing force in this pericope: the utterance proceeds from that naming formula through an oath, a diagnosis of loss, and an exception that names a way through it.",
+      "mechanism": "Ismi carries the ordinary sense of a name or designation, and Allah is the Creator's unique name. The immediately following oath by time, then the diagnosis and exception, places the invoked designation at the head of a compact warning-and-response utterance. The naming branch's source-image of raising a name can color that position as an elevated designation.",
+      "reader_payoff": "The opening phrase becomes part of how the warning speaks: the name is invoked before the oath and judgment, so the short pericope opens under an addressed divine name.",
+      "containment": "The primary sense remains an invocation in Allah's name. This is a qualified reading of rhetorical sequence; it does not turn the basmala into an oath or establish legal authority.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The supplied context gives the oath and warning sequence, and trusted publication evidence agrees with legacy retrospective readings. The framing and raised-designation relation remain interpretive."
+      },
+      "support_ids": [
+        "sup_ae8b678681fcf3116186",
+        "sup_3ea96c436cf34d5b05c6",
+        "sup_26e71a1fe9d45be8cfea"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F001",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Ad, bir varlığı tanıtan ve ondan söz etmeyi sağlayan söz veya anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["103:1", "103:2", "103:3"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "The stem ismi, governed by bi, ordinarily names or designates the one being invoked.",
+          "independent_trigger": "The following context begins with an oath by time in 103:1, then gives the loss diagnosis and exception in 103:2-3.",
+          "activation": "The designation in the opening invocation meets the immediately following oath-and-warning sequence, making its role in this pericope more than a detached label: it heads the utterance as an invocation.",
+          "resulting_reading": "The opening name frames the oath, diagnosis, and exception as an utterance begun in Allah's name.",
+          "boundary": "The naming word keeps its ordinary sense; the pericope supplies a rhetorical frame, not a claim that the word itself means oath or legal authorization."
+        },
+        {
+          "branch_ref": "root_000745/B005",
+          "facet_id": "F005",
+          "branch_gloss": "ad, adlandırma ve ad ya da nitelik bakımından denklik",
+          "facet_statement": "Kaynaklar adın kökenini, adı verilen şeyin anılmasını yükseltmesi ve onu belirgin kılmasıyla açıklar.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:1:2"],
+          "trigger_refs": ["103:1", "103:2", "103:3"],
+          "focus_return_refs": ["1:1:1:2"],
+          "carrier": "The focus phrase places the name before the ensuing speech.",
+          "independent_trigger": "The oath and compressed judgment that follow give the name's opening position a public, declarative setting.",
+          "activation": "The source-image of a name raising what it designates meets the name's placement before an oath and verdict; this lets the name's prominence color the speech act without changing the lexical gloss.",
+          "resulting_reading": "The invoked name is heard as the elevated designation under which the pericope voices its warning and exception.",
+          "boundary": "This is attributed rhetorical elevation, not physical rising and not an independent claim about the etymology of this exact occurrence."
+        },
+        {
+          "branch_ref": "root_000047/B002",
+          "facet_id": "F001",
+          "branch_gloss": "Yaratıcıya özgü ad ile seslenme ve ant biçimleri",
+          "facet_statement": "Dalın merkezinde, Yaratıcıyı başkalarından ayırarak gösteren ve yalnız ona özgü sayılan özel ad bulunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["103:1", "103:2", "103:3"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Allah is the unique proper name named in the invocation.",
+          "independent_trigger": "The immediately following sequence uses an oath and then states a universal diagnosis and exception.",
+          "activation": "A divine proper name in an invocation meets the next ayah's oath form, making formulaic speech salient across the opening and letting the name frame the ensuing declaration.",
+          "resulting_reading": "The basmala functions as the invocation at the head of a sequence of forceful speech.",
+          "boundary": "The basmala itself is not treated as the oath; the oath is the separate act in 103:1."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["103:1", "103:2", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy_frames_diagnosis_and_exception",
+      "origin_candidate_id": "cand_a759e4469745037ab167",
+      "represented_candidate_ids": [
+        "cand_de677da3d6e476ac56e3",
+        "cand_f05bca68f5610e11fa38"
+      ],
+      "title": "Mercy frames loss and its exception",
+      "claim": "The two mercy epithets frame the diagnosis of human loss and the exception that follows as a course of beneficence already named at the opening.",
+      "mechanism": "The paired focus adjectives carry divine mercy as both inward compassion and active sparing and good-doing. They precede the human's placement in loss in 103:2 and the believing, good action, and mutual support of 103:3, so the pericope's diagnosis and response are read within that opening mercy.",
+      "reader_payoff": "The severe diagnosis and the communal way out belong to one mercy-framed utterance; the exception becomes legible within a named relation of care, not as a detached checklist.",
+      "containment": "The opening retains its plain mercy sense. The sequence supports a framing relation, not a claim that the text explicitly says mercy caused every condition or makes rescue automatic.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The two focus carriers and the diagnosis/exception sequence are supplied directly. The frame is supported by a trusted publication and attributed reader-walk evidence, while its causal reach is limited."
+      },
+      "support_ids": [
+        "sup_d87509b24f880edb1eea",
+        "sup_d6f13a9ed5e9aa697a3e",
+        "sup_dd4a33c7e3a42e26379f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F002",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Bu iç yöneliş, acınan kişiyi esirgemeyi ve ona iyilikte bulunmayı gerektiren etkin bir sonuç taşır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["103:2", "103:3"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "Al-Rahman and al-Rahim are the two mercy epithets attached to Allah in the focus phrase.",
+          "independent_trigger": "The context first places humankind in loss and then names the exception through belief, good action, and mutual exhortation.",
+          "activation": "The branch's active sparing and beneficence meet the loss-and-exception sequence, making the later response readable within the mercy announced at the opening.",
+          "resulting_reading": "The warning and the exception unfold inside an opening frame of mercy that acts as beneficence.",
+          "boundary": "The sequence does not state that the basmala mechanically causes the exception or guarantees an outcome."
+        },
+        {
+          "branch_ref": "root_000552/B001",
+          "facet_id": "F005",
+          "branch_gloss": "acıma duygusuyla esirgeyip iyilik etme",
+          "facet_statement": "Tanrı hakkında kullanıldığında esirgemenin genişliği ve yaratılmışlara iyilik olarak ulaşması belirginleşir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["103:2", "103:3"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "The two mercy adjectives describe Allah in the invocation.",
+          "independent_trigger": "The pericope's following diagnosis includes humankind, while its exception describes a group and its shared acts.",
+          "activation": "The broad divine-mercy facet meets the universal diagnosis and plural exception, coloring the whole movement as an address of beneficence toward those under that diagnosis.",
+          "resulting_reading": "The opening mercy reaches across the collective diagnosis and the communal response that follows.",
+          "boundary": "This remains a contextual frame; the focus adjectives do not lexically enumerate the later acts."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["103:2", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:reciprocal_care_as_kinship_analogy",
+      "origin_candidate_id": "cand_cc8f8637b88b7f0e2197",
+      "represented_candidate_ids": ["cand_b34442a9c81ed95eac76"],
+      "title": "Reciprocal exhortation gives the exception a kinship-like bond",
+      "claim": "The repeated mercy names can color the excepted group as a bond-oriented collective: the kinship association of mercy meets the doubled mutual exhortation of 103:3.",
+      "mechanism": "Both mercy forms carry the same focus root, while 103:3 repeats a reciprocal act among the exception group. Their contact lets the kinship relation be heard by analogy as a bond maintained through mutual care.",
+      "reader_payoff": "The exception becomes perceptible as a community joined by ongoing responsibility, in addition to the stated belief and good action of its members.",
+      "containment": "The group is not said to share literal ancestry, and the mercy epithets do not literally mean kinship here. This is an attributed analogy activated by the later reciprocal relation.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The later reciprocal exhortation is directly present in the context and both a trusted publication and a legacy reader walk identify the kinship analogy. The bridge from mercy to a non-genealogical group bond remains inferential."
+      },
+      "support_ids": [
+        "sup_ad02c7dbe36b05615d44",
+        "sup_4cbd6e1feef73f03f16a"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F001",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Ortak soydan gelme, kişiler arasında yakın ve kalıcı bir soy ilişkisi kurar.",
+          "application_mode": "analogical",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["103:3"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "The paired mercy adjectives provide the focus carrier for a relational association from the same root.",
+          "independent_trigger": "The exception in 103:3 is identified through repeated mutual exhortation among its members.",
+          "activation": "The kinship relation contacts the later reciprocal act as an explicit analogy: repeated mutual care gives the group a bond-like form while the focus remains the divine mercy names.",
+          "resulting_reading": "The excepted group can be seen as linked by a durable, care-bearing relation as well as by its stated beliefs and actions.",
+          "boundary": "The analogy does not claim literal descent, nor does it assert that the adjectives lexically name a family bond."
+        },
+        {
+          "branch_ref": "root_000552/B002",
+          "facet_id": "F003",
+          "branch_gloss": "yakın soy bağı",
+          "facet_statement": "Soy bağını sürdürmek veya koparmak, ilişkinin kendisini değil ona karşı takınılan eylemli tutumu anlatır.",
+          "application_mode": "analogical",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["103:3"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "The paired mercy adjectives keep the opening relational field in view.",
+          "independent_trigger": "The later group is told to exhort one another twice, making maintenance of a relation an enacted activity.",
+          "activation": "The act of reciprocal exhortation meets the branch's relation-maintaining facet and supplies the social operation that the opening kinship image alone would not provide.",
+          "resulting_reading": "The kinship-like bond appears as something enacted through mutual care, not simply as a static group label.",
+          "boundary": "This remains a contextual analogy; the verse does not call the group kin or use the kinship term."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:mercy_as_counter_enclosure",
+      "origin_candidate_id": "cand_710d330d99e24152411a",
+      "represented_candidate_ids": [
+        "cand_434929384c1236e202da",
+        "cand_93c453c1c8bfd4c132cc"
+      ],
+      "title": "A womb image as a counter-enclosure to loss",
+      "claim": "The paired mercy names can carry an exploratory womb-like image of a place where life forms and develops; placed before the human is described as being in loss, that image offers a counter-enclosure with a later exception in view.",
+      "mechanism": "The focus adjectives are the ordinary mercy forms, and the same supplied root has a womb branch whose core image is a containing place for development. The independent spatial cue in 103:2 locates the human in loss, and 103:3 gives an exception. Their contact supports an analogy between generative enclosure and enclosure in loss.",
+      "reader_payoff": "The loss diagnosis becomes spatial, while the opening mercy can also be sensed as a generative frame around that condition; the later exception then reads as a possible way out of the enclosure.",
+      "containment": "The adjectives continue to mean mercy. This is a root-based, attributed analogy, not a claim that the basmala literally names a womb, pregnancy, or a stated rescue process. A trusted cross-run source rejects the broader womb-and-cover claim, so only the womb facet is retained with exploratory status.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Two legacy reader-walk supports propose the womb counter-container and explicitly flag the adjective form; a trusted cross-run publication carries the broader womb-and-cover reading with grade reject. The packet leaves this bounded analogy unresolved."
+      },
+      "support_ids": [
+        "sup_984175174162f3e26280",
+        "sup_91151bfb02da39bbb649",
+        "sup_d87509b24f880edb1eea",
+        "sup_e5b3da51a2c6c6307844"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000552/B003",
+          "facet_id": "F001",
+          "branch_gloss": "döl yatağı",
+          "facet_statement": "Dişi bedenindeki bu iç organ, yavrunun oluşup geliştiği yer ve onu karın içinde taşıyan kap işlevindedir.",
+          "application_mode": "analogical",
+          "carrier_refs": ["1:1:3:2", "1:1:4:2"],
+          "trigger_refs": ["103:2", "103:3"],
+          "focus_return_refs": ["1:1:3:2", "1:1:4:2"],
+          "carrier": "The focus carriers are the two mercy adjectives, not a noun meaning womb; their shared root supplies the image only as an attributed secondary association.",
+          "independent_trigger": "The context places the human in loss with a spatial construction in 103:2 and follows it with an exception in 103:3.",
+          "activation": "The root's generative-container image meets the independent inside-loss construction; the contrast lets mercy be imagined as a life-bearing counter-enclosure while the exception supplies an exit movement.",
+          "resulting_reading": "The opening mercy can be sensed as a generative frame set against being enclosed in loss, with the exception showing a possible movement beyond that condition.",
+          "boundary": "This is exploratory analogy only. The surface forms remain mercy adjectives, and neither a womb nor a literal protected enclosure is stated."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["103:2", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "macro:faith_and_action_under_the_invoked_name",
+      "origin_candidate_id": "cand_6d8fd44a0295e0eac41b",
+      "represented_candidate_ids": [],
+      "title": "Faith and action under the invoked name",
+      "claim": "The Allah named in the opening invocation gives the later description of believers and their good action a directed relation: their faith and work are read under the name toward which the invocation turns.",
+      "mechanism": "The focus carrier names Allah as the worshipped one, while 103:3 introduces believers and good deeds. Their pericope order brings the worship relation carried by the name into contact with the later acts, making those acts legible as an entrusted response.",
+      "reader_payoff": "The exception's belief and work appear within a prior orientation toward Allah, so the group is more than a detached list of moral qualifications.",
+      "containment": "The context supports an orientation and sequence, not an exclusive motive, a claim that every act is explicitly called worship, or a denial of human agency.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus name and later belief/action sequence are present in the supplied records, and trusted publication evidence states this connection. The description of those actions as a response to the invocation remains a contextual inference."
+      },
+      "support_ids": [
+        "sup_e6e1b7ef7eef52447619",
+        "sup_d87509b24f880edb1eea"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F001",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Temel eylem, bir varlığa tapınmak ve kişinin kendini bu tapınmaya vermesidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["103:3"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Allah is the named object toward whom the basmala's invocation is directed.",
+          "independent_trigger": "The exception in 103:3 identifies people through belief and intentional good action.",
+          "activation": "The focus name's worship relation meets the later believer-and-action description, giving those actions a contextual direction toward the invoked Allah.",
+          "resulting_reading": "The later faith and work are seen as conduct within an orientation of devotion.",
+          "boundary": "The context does not label each action worship or state an exclusive motive for it."
+        },
+        {
+          "branch_ref": "root_000047/B001",
+          "facet_id": "F002",
+          "branch_gloss": "tapınma ve tapınılan varlık",
+          "facet_statement": "Eylemden türeyen varlık anlamı, kendisine tapınılan varlığı veya tapınma konusu sayılan nesneyi gösterir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["1:1:2:1"],
+          "trigger_refs": ["103:3"],
+          "focus_return_refs": ["1:1:2:1"],
+          "carrier": "Allah is the unique name of the one addressed in the invocation.",
+          "independent_trigger": "The later exception is described through belief and good action.",
+          "activation": "The worshipped-one facet identifies the direction already named in the focus, while the later acts supply a human response in the same pericope.",
+          "resulting_reading": "Belief and good action become perceptible as response in relation to the named divine addressee.",
+          "boundary": "This relation is supplied by order and invocation; no wording in 103:3 explicitly says that these deeds are performed for Allah."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": ["103:3"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The packet marks HFT as absent and the prefatory basmala as lacking a native focus run. No staged baseline or exact before/after trace is available, so the macro relations from reader walks remain attributed contextual evidence.",
+    "The womb counter-enclosure is supported by legacy reader-walk material, while a trusted cross-run publication records the broader womb-and-cover reading with grade reject. The bounded womb analogy remains exploratory because the packet supplies no adjudication between those records.",
+    "No candidate record supplies semantic_obligations or explicitly nominated required_branch_facets, so there are no attached obligation or nominated-facet exclusions to carry forward.",
+    "The connection registry is empty. The retained macro relations therefore rest on the supplied ordered pericope records and candidate supports rather than a separate typed connection record."
+  ]
+}

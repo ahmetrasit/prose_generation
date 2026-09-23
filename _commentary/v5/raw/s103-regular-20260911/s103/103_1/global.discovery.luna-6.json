@@ -1,0 +1,929 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "103:1",
+  "lane": "global",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_a06937c302a5dbbe93e7",
+      "decision": "represented",
+      "reason": "The trusted time-as-witness claim is carried exactly by global:time-witness, whose temporal carrier meets the wider record-and-deed contexts. Its sole branch_ref lands there and no branch, context, facet, or semantic obligation is excluded.",
+      "finding_refs": ["global:time-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9412557807d6aafaf8d6",
+      "decision": "represented",
+      "reason": "Its pressure and extracted-yield reading is an exact semantic duplicate of global:pressure-yield-account. Both nominated focus branches, including their core facets, land in that finding.",
+      "finding_refs": ["global:pressure-yield-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2ae3d2db9ba762fe4765",
+      "decision": "represented",
+      "reason": "The paired constriction and refuge reading is carried by global:constraint-refuge-pair. Both supplied focus branches land there with their distinct triggers and no attached branch or obligation is omitted.",
+      "finding_refs": ["global:constraint-refuge-pair"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2a8a46ce0e343077b6de",
+      "decision": "represented",
+      "reason": "Its pressure-to-rain benefit reading is an exact semantic duplicate of global:rain-beneficial-release. The B003 core facet is activated there by the supplied rain-bearing cloud text at 78:14, with the missing target morphology left explicit.",
+      "finding_refs": ["global:rain-beneficial-release"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_e734eb53ab27d8978bba",
+      "decision": "accept",
+      "reason": "The walk supplies both the focus time branch and a contextual general-deficiency carrier at 103:2; 57:20 adds a concrete wider cycle of growth, yellowing, and breakage. Their contact makes loss legible as an outcome measured across a span. The contextual loss carrier remains attributed because the packet has no word-level context join.",
+      "finding_refs": ["global:time-loss-cycle"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ae70ed3435a0aa00953b",
+      "decision": "represented",
+      "reason": "The candidate's trade-loss carrier at 103:2 and its focus pressure/yield branches all land in global:pressure-yield-account. That finding preserves the legacy source's attribution and its missing word-level join, so the complete candidate is represented without dropping a branch.",
+      "finding_refs": ["global:pressure-yield-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_96783299b27673e7c08c",
+      "decision": "narrow",
+      "reason": "The focus branches for withholding and refuge survive with wider, concrete withholding and rescue cues. The nominated security/trust branch is omitted: its carrier is only attributed to 103:3 without a word-level occurrence join, while the supplied 19:96 connection explicitly limits itself to a downstream human outcome rather than a reading of the oath.",
+      "finding_refs": ["global:constraint-refuge-pair"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000054/B001",
+          "reason": "The legacy walk attributes this security/trust branch to context, but no exact context word occurrence or QAC join is supplied; the available wider affection connection is explicitly downstream rather than a focus-oath trigger."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c4c04d659224a1bcb150",
+      "decision": "narrow",
+      "reason": "The focus rain-cloud and crop-in-husk branches form a bounded weather-and-harvest cycle through 78:14 and 12:47. The contextual white-cloud branch is omitted because its 103:3 carrier is only attributed in the legacy walk and lacks an exact context word occurrence.",
+      "finding_refs": ["global:harvest-season"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000840/B010",
+          "reason": "The white-layered-cloud carrier is attributed to 103:3 in the walk but has no exact context word/QAC occurrence in this packet; the focus B003 and B010 branches have their own exact carriers and wider triggers."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d752af7d7f519444ed36",
+      "decision": "reject",
+      "reason": "B008 requires food lodged in the throat and small sips intended to pass it. The candidate's local counsel/patience sequence does not supply that global trigger, and the 75:29 connection offers only a generic terminal constriction. The unresolved ṣ-b-r/B001 citation has no registered branch or exact carrier.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001019/B008",
+          "reason": "No supplied wider trigger matches the branch's defining stuck-food-and-sip mechanism; generic bodily constriction does not activate it."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_672ab4275092230b639d",
+      "decision": "narrow",
+      "reason": "The refuge/clinging branch survives as global:refuge-route through the exception and the wider rescue scene. The bitter-drug branch has no wider medicinal or bitter-extract trigger; the source's additional fitted-socket and stopper citations are unresolved and are not promoted to branches.",
+      "finding_refs": ["global:refuge-route"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_000840/B008",
+          "reason": "The bitter aloe-like drug is named only in the legacy reading; no wider trigger for bitter medicine or an extract is supplied."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_4754c908c56d07118765",
+      "decision": "narrow",
+      "reason": "Only the recurring-time witness reading is retained from this four-part source: it has a focus carrier and wider record-and-deed triggers. The press, rain, and refuge readings are separately assessed under other candidates. The source's ṣ-b-r/B001 citation is unresolved and supplies no exact branch.",
+      "finding_refs": ["global:time-witness"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001019/B002",
+          "reason": "The pressure-and-yield reading is omitted from this narrowed candidate and assessed under global:pressure-yield-account."
+        },
+        {
+          "branch_ref": "root_001019/B003",
+          "reason": "The rain-cloud reading is omitted from this narrowed candidate and assessed under global:rain-beneficial-release."
+        },
+        {
+          "branch_ref": "root_001019/B005",
+          "reason": "The refuge reading is omitted from this narrowed candidate and assessed under global:constraint-refuge-pair or global:refuge-route."
+        },
+        {
+          "branch_ref": "root_000840/B010",
+          "reason": "The white-cloud cue has no exact context word occurrence in the packet and is not needed for the retained time-witness reading."
+        },
+        {
+          "branch_ref": "root_001046/B005",
+          "reason": "The transaction cue is attributed to context without an exact word occurrence and is not needed for the retained time-witness reading."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "103:0",
+          "reason": "The opening mercy/sky cue belongs to the omitted weather reading; its asserted s-m-w/B004 occurrence is not mapped to an exact surface in the packet."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92267ec1be63cd0ee5ab",
+      "decision": "narrow",
+      "reason": "The press-and-accounting core tied to B002 is retained. Its refuge and cloud/rain readings are separately reviewed under their own candidates; the cited s-m-w/B004 branch is unresolved and has no registered branch record or exact context occurrence.",
+      "finding_refs": ["global:pressure-yield-account"],
+      "branch_exclusions": [
+        {
+          "branch_ref": "root_001019/B005",
+          "reason": "The refuge interpretation is omitted from this press-only narrowing and is reviewed under separate candidates."
+        },
+        {
+          "branch_ref": "root_001019/B003",
+          "reason": "The cloud/rain interpretation is omitted from this press-only narrowing and is reviewed under separate candidates."
+        },
+        {
+          "branch_ref": "root_000840/B010",
+          "reason": "The white-cloud citation belongs to the omitted rain reading and lacks an exact context word occurrence here."
+        }
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {
+          "context_ref": "103:0",
+          "reason": "The support's basmala cue is tied to the omitted rain reading; its stated s-m-w/B004 occurrence is not mapped to an exact surface in the packet."
+        }
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_90258e57e713f6b20fa0",
+      "decision": "represented",
+      "reason": "The accumulating-ledger claim is the same time-as-witness relation carried by global:time-witness. Its 103:2 and 103:3 sequence is included there as local context, alongside the wider recording and deed-result triggers.",
+      "finding_refs": ["global:time-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cfc5ddee3446fd06fcca",
+      "decision": "represented",
+      "reason": "Its press-and-yield reading is carried exactly by global:pressure-yield-account, with the same focus branches and the wider named-year and weighed-outcome triggers.",
+      "finding_refs": ["global:pressure-yield-account"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_9f39a882c7dc11c0b6ed",
+      "decision": "represented",
+      "reason": "The refuge/clinging claim is an exact semantic duplicate of global:refuge-route. That finding carries the B005 core and extension facets, the 103:3 context attributed by the walk, and the wider rescue trigger.",
+      "finding_refs": ["global:refuge-route"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_b8e71661cbdc29ee9f7e",
+      "decision": "represented",
+      "reason": "Its pressure-to-rain benefit reading is an exact semantic duplicate of global:rain-beneficial-release. The legacy sky/basmalah cue is retained as an attributed context signal, while 78:14 supplies the independent wider rain trigger.",
+      "finding_refs": ["global:rain-beneficial-release"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_04ccd0e99f6420fc451a",
+      "decision": "accept",
+      "reason": "The supplied loss carrier in 103:2 meets the focus pressure, yield, and refuge branches; wider named-year pressing, weighed outcomes, and rescue make the linked possibilities materially distinct. The rain-release extension is also retained as its own bounded finding. Context word identity remains attributed where no QAC join is supplied.",
+      "finding_refs": ["global:pressure-rescue-yield", "global:rain-beneficial-release"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_1564976d066bbb210ee5",
+      "decision": "reject",
+      "reason": "The summary's assay/ledger claim has no anchor_refs, branch_refs, exact context word index, attributed role, or focus-return trace in its assigned HFT record. Similar pressure-yield readings survive only through separately grounded non-HFT candidates; this HFT summary adds no independently attributable activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c11bf620ba8ed9a1b945",
+      "decision": "reject",
+      "reason": "The refuge-and-work summary has no exact HFT context ayah/word/root trace, attributed role, before/after reading, or return to the focus word. Its semantic direction is reviewed through the attributed reader-walk and connection evidence instead.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_cb4bfdaa1d2d8db84547",
+      "decision": "reject",
+      "reason": "The mutual-counsel relay is an unanchored summary claim: its assigned HFT record supplies no exact word coordinate, root, attributed role, changed-reading trace, or focus return. The local counsel context alone cannot establish a global activation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_561544130a59108d1f01",
+      "decision": "reject",
+      "reason": "The settlement reading supplies no branch, focus/context anchor, or HFT trace connecting the temporal carrier to a wider settlement interval. Its metaphorical accounting claim is therefore not an independently activated global finding.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_44f8b20f331d150f06eb",
+      "decision": "reject",
+      "reason": "This umbrella summary lists witness, press, refuge, weather, and settlement mechanisms without an exact anchor or one bounded activation relation. Its individual lines are adjudicated only where separate packet evidence supplies a carrier, trigger, and focus return.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8a3afcb292cb1843a99c",
+      "decision": "reject",
+      "reason": "This item records uncertainty about branch synchronicity rather than a changed semantic reading, and the HFT record supplies no exact activation trace. The uncertainty remains visible in the finding boundaries and friction notes.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_77259a469c0e361e0f85",
+      "decision": "reject",
+      "reason": "The accounting/settlement note is a qualification about metaphoric agency, not a separately grounded global reading; it has no exact HFT anchors or focus-return trace. Its caution is preserved in the relevant findings' containment.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f2443335afa11f353df3",
+      "decision": "reject",
+      "reason": "The cloud-reservoir and sipping summary supplies no exact branch, context word index, role, or focus return. The rain branch is retained only through the independently supplied 78:14 connection; the sip branch fails its defining-trigger test.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_52e8b7d5513695fce516",
+      "decision": "reject",
+      "reason": "The claim that several models coexist is a meta-summary rather than a distinct activated reading. The assigned HFT record has no anchor, exact trace, role, changed-reading pair, or focus return.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "global:time-witness",
+      "origin_candidate_id": "cand_4754c908c56d07118765",
+      "represented_candidate_ids": [
+        "cand_a06937c302a5dbbe93e7",
+        "cand_90258e57e713f6b20fa0"
+      ],
+      "title": "Time as the record of a human trajectory",
+      "claim": "The oath's ordinary temporal sense remains while wider images of recorded deeds let al-asr carry time as the span in which a human trajectory becomes observable.",
+      "mechanism": "The temporal carrier at 103:1 meets wider scenes of guardians recording and knowing actions, a person carrying and reading an attached record, and even the smallest deed being seen. The time branch therefore becomes a witness-like interval in which conduct accumulates and is disclosed.",
+      "reader_payoff": "The oath can be heard as pointing to the span across which human action leaves a legible course, not merely to a notable moment or hour.",
+      "containment": "The noun still swears by time, era, or a period. The wider record imagery supplies a parallel for what becomes visible across time; it does not make time a literal recording agent or replace the temporal reading.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus occurrence and temporal facet are exact, and the packet supplies the wider Arabic scenes. The witnesses-and-record analogy is interpretive, while the legacy source's trajectory arrow remains attributed."
+      },
+      "support_ids": [
+        "sup_dccbea0b7534d2781c3f",
+        "sup_f67a673e50bf991f6b8f",
+        "sup_fdbc5f38e23bfde8a05b"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B001",
+          "facet_id": "F001",
+          "branch_gloss": "devir, vakit ve günün geç bölümü",
+          "facet_statement": "Temel anlam, devir, süre veya belirli bir vakit olarak zamandır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": [
+            "conn_d9cacafbacd936d169ff",
+            "conn_dffc1287d9b3256737f7",
+            "conn_05aa9250381655e62505",
+            "conn_5199b18401832bb25a82",
+            "conn_7a781bc1a8acab407808",
+            "conn_982bc9dc07dbb8321414",
+            "sup_dccbea0b7534d2781c3f",
+            "sup_fdbc5f38e23bfde8a05b",
+            "82:10",
+            "82:12",
+            "17:13",
+            "17:14",
+            "99:7",
+            "99:8",
+            "103:2",
+            "103:3"
+          ],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The definite genitive noun al-asr carries the locally selected temporal oath-object; this facet keeps its ordinary time sense intact.",
+          "independent_trigger": "The supplied wider verses depict guardians recording actions, a person's attached record, and deeds of the smallest measure being seen.",
+          "activation": "The record and deed-result images meet the temporal span at the oath word: actions occurring through that span become the material that is recorded and disclosed, making time function as a witness-like horizon.",
+          "resulting_reading": "The oath points to time as the interval across which a person's actions gather into an observable trajectory.",
+          "boundary": "The external verses are analogical context, not a lexical definition of al-asr; the temporal oath remains recoverable."
+        }
+      ],
+      "connection_refs": [
+        "conn_d9cacafbacd936d169ff",
+        "conn_dffc1287d9b3256737f7",
+        "conn_05aa9250381655e62505",
+        "conn_5199b18401832bb25a82",
+        "conn_7a781bc1a8acab407808",
+        "conn_982bc9dc07dbb8321414"
+      ],
+      "context_refs": [
+        "82:10",
+        "82:12",
+        "17:13",
+        "17:14",
+        "99:7",
+        "99:8",
+        "103:2",
+        "103:3"
+      ],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:time-loss-cycle",
+      "origin_candidate_id": "cand_e734eb53ab27d8978bba",
+      "represented_candidate_ids": [],
+      "title": "Loss measured across a passing span",
+      "claim": "When the temporal oath meets a wider cycle of worldly growth and decay, the human-loss image reads as an outcome unfolding across a span rather than as an isolated verdict.",
+      "mechanism": "The focus time carrier meets 57:20's crop that grows, yellows, and breaks, while the legacy walk attributes the general-deficiency image to the loss term in 103:2. The wider cycle gives the temporal carrier a concrete process through which deficiency becomes visible.",
+      "reader_payoff": "Loss becomes legible as a trajectory whose depletion develops over time, alongside a worldly cycle that visibly rises and falls.",
+      "containment": "The reading keeps the focus noun's temporal sense and the ordinary human-loss clause. The comparison does not claim that the external verse explains 103:1 or that the contextual word's unprovided morphology has been independently verified.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The temporal focus carrier and 57:20 Arabic are supplied directly; the general-deficiency carrier at 103:2 is attributed from a legacy walk without a word-level context join."
+      },
+      "support_ids": ["sup_bbc0494ce7c2d63e9762"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B001",
+          "facet_id": "F001",
+          "branch_gloss": "devir, vakit ve günün geç bölümü",
+          "facet_statement": "Temel anlam, devir, süre veya belirli bir vakit olarak zamandır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_db6cd6999e5d34125208", "sup_bbc0494ce7c2d63e9762", "57:20", "103:2", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The oath noun carries the temporal interval selected by its local form.",
+          "independent_trigger": "The wider life-cycle passage describes growth followed by yellowing and breakage, and the walk places the human-loss clause after the oath.",
+          "activation": "The temporal span contacts an explicit cycle of growth and decay alongside the reported loss clause, making time the process within which diminution can be seen.",
+          "resulting_reading": "The human-loss statement can be heard as depletion becoming visible over a passing worldly span.",
+          "boundary": "The crop cycle is a wider analogy; it does not establish that al-asr lexically means harvest or that every temporal span has one outcome."
+        },
+        {
+          "branch_ref": "root_000409/B001",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "general deficiency",
+          "facet_statement": "general deficiency",
+          "application_mode": "attributed",
+          "carrier_refs": ["103:2"],
+          "trigger_refs": ["conn_db6cd6999e5d34125208", "sup_bbc0494ce7c2d63e9762", "57:20", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The legacy walk attributes the loss term in 103:2 to this general-deficiency image; the packet does not supply a context word or QAC occurrence join.",
+          "independent_trigger": "The wider 57:20 cycle makes decline and breakage concrete, while the supplied walk connects the loss clause back to the focus temporal noun.",
+          "activation": "The contextual deficiency carrier meets the wider growth-to-decay image and returns through the focus time word, so loss is read as a condition that unfolds within a span.",
+          "resulting_reading": "The loss clause becomes a measured depletion within time rather than a free-standing label.",
+          "boundary": "The contextual branch assignment is attributed, not a verified word-level analysis; no claim about the external verse's interpretation of the oath is made."
+        }
+      ],
+      "connection_refs": ["conn_db6cd6999e5d34125208"],
+      "context_refs": ["57:20", "103:2", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:pressure-yield-account",
+      "origin_candidate_id": "cand_92267ec1be63cd0ee5ab",
+      "represented_candidate_ids": [
+        "cand_9412557807d6aafaf8d6",
+        "cand_ae70ed3435a0aa00953b",
+        "cand_cfc5ddee3446fd06fcca"
+      ],
+      "title": "Pressure exposes what a span produces",
+      "claim": "The oath's temporal carrier can also be felt as a pressure test: wider scenes of pressing after a named year and weighing outcomes make both extracted gain and deficit perceptible.",
+      "mechanism": "The focus noun's pressing facet meets the year-and-press scene at 12:49; its extracted-yield facet meets the heavy and light scales at 101:6 and 101:8. The legacy walks also attribute a trade-loss carrier to 103:2 and labor or transaction cues to 103:3. These contacts turn the time span into an assay of what is produced or depleted.",
+      "reader_payoff": "The oath can carry an accounting image in which the course of a life yields something or exposes a deficit, while its plain temporal meaning remains intact.",
+      "containment": "The pressure and accounting image is an added resonance around the time oath. It does not claim that the noun literally means commerce, that the external weighing scenes define this ayah, or that the attributed 103:2 word join has been morphologically verified.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus branches and wider Arabic contexts are supplied. The press-to-human-output arrow and the 103:2 trade-loss carrier are interpretive or attributed, so the finding remains bounded."
+      },
+      "support_ids": [
+        "sup_119d049eb526f27d2c23",
+        "sup_742b2fff6b01fe53802f",
+        "sup_60dbfdefe2f78d2e601c",
+        "sup_e65a192fa42e2b85f24f"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_153f55ffbab78d718842", "sup_119d049eb526f27d2c23", "sup_60dbfdefe2f78d2e601c", "12:49", "103:2", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun remains the temporal object of the oath; this facet adds the operation of pressing until something is released.",
+          "independent_trigger": "The wider 12:49 scene places a named year beside people pressing, and the supplied walk connects the loss and work sequence to extraction under pressure.",
+          "activation": "The year-and-press image gives the focus noun's pressure facet a concrete wider scene, changing the temporal span into a process that tests what comes out.",
+          "resulting_reading": "The oath can sound like a pressure test through which a life's output becomes visible.",
+          "boundary": "The target morphology at 12:49 is not supplied; the connection is contextual, and the temporal oath remains the recoverable primary reading."
+        },
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "İşlemden çıkan sıvı, öz veya geride kalan posa sonuç adı olarak kullanılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_153f55ffbab78d718842", "sup_60dbfdefe2f78d2e601c", "12:49"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The same focus noun carries the pressure operation and its possible extracted result.",
+          "independent_trigger": "The named-year pressing scene and the following weighed outcomes supply an independent process-and-result frame.",
+          "activation": "The process image and its visible result meet in the wider contexts, allowing the focus word's extraction facet to make the later gain-or-deficit language feel like what a span yields.",
+          "resulting_reading": "Time is pictured as a span from which an outcome can be drawn.",
+          "boundary": "This remains an image of yield around a temporal oath; no literal press or fixed causal doctrine is asserted."
+        },
+        {
+          "branch_ref": "root_001019/B007",
+          "facet_id": "F001",
+          "branch_gloss": "bağış, iyilik veya elde edilen ürün",
+          "facet_statement": "Birine ulaşan bağış, iyilik veya yarar dalın verme yönünü oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_beaaf7bf840cbf97eed6", "conn_e52956f7740ae1647d6d", "sup_742b2fff6b01fe53802f", "101:6", "101:8", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The oath noun carries the possibility of benefit reaching someone as one pole of the yield image.",
+          "independent_trigger": "The wider heavy-scale and light-scale scenes give contrasting result states after human action.",
+          "activation": "The contrast between weighty and light outcomes meets the focus word's benefit pole, making gain a possible result of the span alongside loss.",
+          "resulting_reading": "The temporal oath can open onto a span whose outcome is received benefit or depletion.",
+          "boundary": "The scales are an external parallel, not a gloss for al-asr; the branch does not displace the ordinary time sense."
+        },
+        {
+          "branch_ref": "root_001019/B007",
+          "facet_id": "F002",
+          "branch_gloss": "bağış, iyilik veya elde edilen ürün",
+          "facet_statement": "Bir şeyden alınan pay, ürün, tarımsal gelir veya başka kazanç elde etme yönünü oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_153f55ffbab78d718842", "conn_beaaf7bf840cbf97eed6", "conn_e52956f7740ae1647d6d", "12:49", "101:6", "101:8"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The same focus word can carry the result side of pressing as product, share, or gain.",
+          "independent_trigger": "The wider year-and-press scene and the weighed outcomes independently depict production followed by a result.",
+          "activation": "The production scene meets the focus word's extracted-gain facet, while the scales show that outcomes can differ; the contact makes the oath an assay of what a span yields.",
+          "resulting_reading": "The human interval can be heard as yielding a return or exposing a shortfall.",
+          "boundary": "The productive reading is an analogy supported by wider scenes; it does not assert that the focus noun literally denotes commerce or harvest."
+        },
+        {
+          "branch_ref": "root_000409/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "trade loss",
+          "facet_statement": "trade loss",
+          "application_mode": "attributed",
+          "carrier_refs": ["103:2"],
+          "trigger_refs": ["conn_e52956f7740ae1647d6d", "sup_e65a192fa42e2b85f24f", "101:8", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The legacy walk identifies the 103:2 loss term as commercial loss; this context carrier is cited at ayah level because no word-level QAC join is supplied.",
+          "independent_trigger": "The wider light-scale outcome supplies a concrete loss-side result, and the walk explicitly contacts the contextual loss term with the focus pressing and yield branches.",
+          "activation": "The attributed trade-loss carrier meets the focus pressure and extracted-gain facets, so the time span can be pictured as exposing an unprofitable return.",
+          "resulting_reading": "The pressure-and-yield image contains both a possible gain and a commercial shortfall.",
+          "boundary": "The trade-loss branch is attributed from a legacy walk, not independently established as a word-level analysis of 103:2."
+        }
+      ],
+      "connection_refs": [
+        "conn_153f55ffbab78d718842",
+        "conn_beaaf7bf840cbf97eed6",
+        "conn_e52956f7740ae1647d6d"
+      ],
+      "context_refs": ["12:49", "101:6", "101:8", "103:2", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:harvest-season",
+      "origin_candidate_id": "cand_c4c04d659224a1bcb150",
+      "represented_candidate_ids": [],
+      "title": "A season of rain and protected grain",
+      "claim": "The focus noun can also open a bounded weather-and-harvest cycle: a rain-bearing cloud and grain entering its husk make a span of time perceptible as rainfall followed by protected maturation.",
+      "mechanism": "The focus B003 cloud/rain facet meets the wider rain-bearing cloud scene at 78:14, while the focus B010 crop-in-husk facet meets the seven-year cultivation and stored-grain scene at 12:47. The legacy walk supplies the local agricultural context in 103:3; the two wider scenes connect rain, harvest, and preservation without making every available branch active.",
+      "reader_payoff": "The oath can carry a seasonal image in which time is the interval for rain to arrive and a crop to mature under protective husks.",
+      "containment": "The ordinary oath by time remains intact. The 12:47 connection includes a reciprocal note that the oath does not explain that verse's farming instructions; this finding uses the verse only as a trigger for the focus crop facet, not as an interpretation of 12:47 or proof of lexical identity.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The focus branches are supplied, but the weather-and-harvest integration is a legacy analogy. The 12:47 connection has explicit reciprocal counterevidence, which remains live."
+      },
+      "support_ids": ["sup_a715f0b4aef876fb97c8"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B003",
+          "facet_id": "F001",
+          "branch_gloss": "yağmur yüklü bulut ve yağmurun gelişi",
+          "facet_statement": "Yağmur taşıyan ve yağışını boşaltmaya hazır bulut temel görüntüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_5d52a7196243d22629c0", "sup_a715f0b4aef876fb97c8", "78:14", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun carries the time branch locally; the B003 facet adds a rain-bearing cloud image to that same surface.",
+          "independent_trigger": "The supplied 78:14 Arabic depicts rain sent down from rain-bearing clouds, and the legacy walk places that image beside crop maturation.",
+          "activation": "The wider rainfall scene contacts the focus cloud facet and joins the crop facet, making the oath's span resemble a weather interval rather than only an abstract duration.",
+          "resulting_reading": "The oath can be heard through a rain-bearing season whose pressure gives way to rainfall.",
+          "boundary": "The 78:14 row lacks target morphology and includes a contrast note that its overt subject is time rather than clouds; the contact remains an image-level resonance."
+        },
+        {
+          "branch_ref": "root_001019/B010",
+          "facet_id": "F001",
+          "branch_gloss": "ekinin başak kılıflarına girip korunması",
+          "facet_statement": "Ekin, başağın kılıfları belirginleşince onların içine girip korunur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_8884320d7b87412bed8d", "sup_a715f0b4aef876fb97c8", "12:47", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The same focus noun carries the specific crop stage in which grain enters its protective husk.",
+          "independent_trigger": "The wider 12:47 scene names years of cultivation and instructs that harvested grain remain in its ear.",
+          "activation": "The storage-in-ear image meets the focus crop-in-husk facet and, with the rain context, turns the temporal span into a period of protected maturation.",
+          "resulting_reading": "Time becomes imaginable as the span in which a crop develops and is conserved before it is used.",
+          "boundary": "The reciprocal source says the oath does not materially explain 12:47; the verse is used only as a wider trigger for the focus image, with that contrary reading preserved."
+        }
+      ],
+      "connection_refs": ["conn_5d52a7196243d22629c0", "conn_8884320d7b87412bed8d"],
+      "context_refs": ["78:14", "12:47", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:constraint-refuge-pair",
+      "origin_candidate_id": "cand_96783299b27673e7c08c",
+      "represented_candidate_ids": ["cand_2ae3d2db9ba762fe4765"],
+      "title": "The same span as restraint and refuge",
+      "claim": "Alongside its temporal sense, al-asr can hold a paired pressure image: something is held back, while clinging to a refuge opens a route out of loss.",
+      "mechanism": "The focus B006 facet of withholding meets the wider act of withholding aid at 107:7; the focus B005 facet of clinging refuge meets the rescue of believers at 10:103. The legacy walk connects these opposed poles to the exception and reciprocal counsel in 103:3, returning both through the focus word.",
+      "reader_payoff": "The oath can carry both the felt constraint of what is withheld and the possibility of shelter through what people hold to together.",
+      "containment": "This is a paired contextual image around the ordinary oath by time. The connection records reciprocal notes that 10:103 has no material link to the oath and 107:7 adds no route to withholding; those counterreadings remain live, so neither verse is treated as a lexical proof.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "Both focus facets and the wider Arabic acts are supplied, but the rows contain direct reciprocal counterevidence and the social route is an interpretive contact."
+      },
+      "support_ids": ["sup_6490cb8bb4ad4a1e3acb", "sup_40a21334016bb12427c1"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B005",
+          "facet_id": "F001",
+          "branch_gloss": "tutunarak sığınma ve kurtuluş arama",
+          "facet_statement": "Bir şeye tutunma ve onu güvenlik dayanağı edinme anlamın çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_44939300e8fc61e4a491", "sup_6490cb8bb4ad4a1e3acb", "sup_40a21334016bb12427c1", "10:103", "103:2", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun carries the temporal oath sense and the latent image of clinging to a secure support.",
+          "independent_trigger": "The wider 10:103 scene depicts believers being rescued after warning; the legacy walk also points to reciprocal counsel in 103:3.",
+          "activation": "The rescue scene gives the focus clinging facet a concrete wider counterpart, while the local exception and mutual counsel connect that refuge to the oath word.",
+          "resulting_reading": "The temporal span can also be sensed as a pressured setting in which refuge is sought through attachment.",
+          "boundary": "The 10:103 connection has an explicit reciprocal no-link note; the rescue parallel remains exploratory and does not replace the temporal oath."
+        },
+        {
+          "branch_ref": "root_001019/B005",
+          "facet_id": "F002",
+          "branch_gloss": "tutunarak sığınma ve kurtuluş arama",
+          "facet_statement": "Sığınılan kişi veya yer, sığınak ve kurtuluş yolu olarak adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_44939300e8fc61e4a491", "sup_6490cb8bb4ad4a1e3acb", "10:103", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun can carry not only the act of clinging but the refuge or rescue route sought through it.",
+          "independent_trigger": "The wider rescue scene supplies a concrete deliverance image, and the supplied 103:3 walk describes the exception as a refuge-route.",
+          "activation": "The external deliverance image meets the focus refuge extension and the exception's social pattern, making rescue a possible result within the pressured span.",
+          "resulting_reading": "The oath can hold a route of shelter alongside the condition of constraint.",
+          "boundary": "The extension remains a contextual resonance; the reciprocal no-link evidence for 10:103 is preserved."
+        },
+        {
+          "branch_ref": "root_001019/B006",
+          "facet_id": "F001",
+          "branch_gloss": "alıkoyma, malı alma veya geri alma",
+          "facet_statement": "Bir şeyi engelleme, tutma veya hak sahibinden alıkoyma çekirdek anlamdır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_0efbed8e9dcbfb7be8e1", "sup_6490cb8bb4ad4a1e3acb", "sup_40a21334016bb12427c1", "107:7", "103:2", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun carries the locally selected temporal sense and, as a second image, the act of holding or withholding.",
+          "independent_trigger": "The wider 107:7 scene explicitly depicts aid being withheld; the legacy walk sets that cue against the exception and reciprocal counsel.",
+          "activation": "The withholding act meets the focus B006 facet and gives the pressure image a held-back pole, which stands beside the separate B005 refuge route.",
+          "resulting_reading": "The temporal oath can carry a constrained interval in which withheld support and sought refuge remain opposed possibilities.",
+          "boundary": "The 107:7 connection is qualified by a reciprocal note that it adds no route to the focus; this remains an exploratory analogy, not a lexical equation."
+        }
+      ],
+      "connection_refs": ["conn_44939300e8fc61e4a491", "conn_0efbed8e9dcbfb7be8e1"],
+      "context_refs": ["10:103", "107:7", "103:2", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:refuge-route",
+      "origin_candidate_id": "cand_672ab4275092230b639d",
+      "represented_candidate_ids": ["cand_9f39a882c7dc11c0b6ed"],
+      "title": "A refuge carried inside the oath word",
+      "claim": "The focus word can also carry a refuge image: the exception and reciprocal counsel make clinging a route out of loss, while a wider rescue scene gives that route an external counterpart.",
+      "mechanism": "The focus B005 clinging facet and its refuge extension meet the rescue of believers in 10:103. The legacy walk names reciprocal counsel and restraint in 103:3 as the local social shape through which the refuge returns to al-asr.",
+      "reader_payoff": "The word can hold the possibility of shelter within the very temporal setting that frames human vulnerability.",
+      "containment": "The wider 10:103 connection has reciprocal counterevidence stating that the oath provides no material link. The rescue scene is therefore a qualified analogy; the focus word's plain temporal oath remains fully in place.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The focus refuge branch and local exception are supplied, but the wider rescue contact is opposed by an explicit reciprocal no-link note."
+      },
+      "support_ids": ["sup_c63f4bdddad6ebb7d8be", "sup_e16fbe4fd7017bdacbc2"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B005",
+          "facet_id": "F001",
+          "branch_gloss": "tutunarak sığınma ve kurtuluş arama",
+          "facet_statement": "Bir şeye tutunma ve onu güvenlik dayanağı edinme anlamın çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_44939300e8fc61e4a491", "sup_c63f4bdddad6ebb7d8be", "sup_e16fbe4fd7017bdacbc2", "10:103", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The oath noun carries its temporal sense and the additional core image of clinging to a secure support.",
+          "independent_trigger": "The wider 10:103 scene describes rescue after warning; the supplied walk connects the local exception and repeated mutual counsel to a refuge-route.",
+          "activation": "The rescue image meets the focus clinging facet and returns through the exception's social pattern, making refuge perceptible within the temporal oath.",
+          "resulting_reading": "Al-asr can be heard as a span in which clinging support becomes a route toward rescue.",
+          "boundary": "The source's bitter-drug, fitted-socket, and stopper extensions are excluded from this finding; the wider rescue link remains contested and analogical."
+        },
+        {
+          "branch_ref": "root_001019/B005",
+          "facet_id": "F002",
+          "branch_gloss": "tutunarak sığınma ve kurtuluş arama",
+          "facet_statement": "Sığınılan kişi veya yer, sığınak ve kurtuluş yolu olarak adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_44939300e8fc61e4a491", "sup_e16fbe4fd7017bdacbc2", "10:103", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus word can carry the refuge or rescue route sought by clinging.",
+          "independent_trigger": "The wider verse depicts a concrete rescue, and the legacy walk attributes the local exception to the refuge extension.",
+          "activation": "The external rescue scene makes the focus extension's refuge route perceptible through the return from loss described in the local exception.",
+          "resulting_reading": "A way of rescue remains imaginable inside the span named by the oath.",
+          "boundary": "The connection's reciprocal no-link note remains active; no claim is made that 10:103 interprets 103:1."
+        }
+      ],
+      "connection_refs": ["conn_44939300e8fc61e4a491"],
+      "context_refs": ["10:103", "103:3"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:pressure-rescue-yield",
+      "origin_candidate_id": "cand_04ccd0e99f6420fc451a",
+      "represented_candidate_ids": [],
+      "title": "Pressure with both deficit and a way through",
+      "claim": "A wider trade-loss cue meets the focus word's pressure, extracted-gain, and refuge poles: the temporal span can expose a deficit while also making productive return and shared rescue perceptible.",
+      "mechanism": "The legacy walk attributes commercial loss to the 103:2 carrier and connects it to the focus B002 pressing facet. The named-year pressing scene at 12:49 and the heavy/light outcomes at 101:6 and 101:8 activate the focus yield facets; the rescue at 10:103 activates the focus refuge facet, with 103:3's mutual practices supplying the local social contact.",
+      "reader_payoff": "The pressure image is not only consuming: it can test what a life yields and leave open a route of shelter through shared action.",
+      "containment": "The temporal oath remains recoverable throughout. Trade loss at 103:2 is attributed without a word-level QAC join, and the wider rescue connection carries reciprocal evidence that it has no material link to the oath. The productive and rescue arrows remain analogical and unranked.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound"],
+        "reason": "The legacy walk supplies a multi-step reading and the packet supplies explicit wider pressing, weighing, and rescue scenes. Its context carrier is attributed, and the rescue route is contested."
+      },
+      "support_ids": ["sup_342aa4319329896fc216"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_000409/B002",
+          "facet_id": "SOURCE_IMAGE",
+          "branch_gloss": "trade loss",
+          "facet_statement": "trade loss",
+          "application_mode": "attributed",
+          "carrier_refs": ["103:2"],
+          "trigger_refs": ["conn_e52956f7740ae1647d6d", "sup_342aa4319329896fc216", "101:8"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The legacy walk attributes the 103:2 loss term to commercial loss; the packet supplies the ayah reference but no context word/QAC join.",
+          "independent_trigger": "The wider light-scale scene supplies a concrete loss-side result, and the supplied walk connects that loss carrier back to the focus pressure and yield images.",
+          "activation": "The attributed commercial-deficit carrier meets the focus word's pressing and extracted-yield facets, making the span a setting in which an unprofitable result can be exposed.",
+          "resulting_reading": "The oath's pressure image includes a trade-like deficit as one possible outcome.",
+          "boundary": "The word-level carrier is attributed, not independently verified; this does not make al-asr a commercial term."
+        },
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_153f55ffbab78d718842", "sup_342aa4319329896fc216", "12:49", "103:2", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus temporal noun can carry the pressure operation as an additional image.",
+          "independent_trigger": "The wider 12:49 text places a named year beside people pressing, and the walk explicitly uses the press facet.",
+          "activation": "The year-and-press scene meets the focus pressure facet, linking the temporal span to a process that reveals an outcome.",
+          "resulting_reading": "The oath can suggest a pressure test across time.",
+          "boundary": "The connection's target morphology is not supplied; this is a contextual image, not a new primary gloss."
+        },
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F002",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "İşlemden çıkan sıvı, öz veya geride kalan posa sonuç adı olarak kullanılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_153f55ffbab78d718842", "conn_beaaf7bf840cbf97eed6", "sup_342aa4319329896fc216", "12:49", "101:6"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus word can carry the result side of pressure as a released product.",
+          "independent_trigger": "The wider pressing scene and the weighed-result verses supply process and outcome images.",
+          "activation": "The product that follows pressing meets the gain/loss scale, so the focus span becomes a setting where an outcome is drawn out.",
+          "resulting_reading": "Pressure can expose what a human interval has produced.",
+          "boundary": "No literal pressing or certain causal result is asserted."
+        },
+        {
+          "branch_ref": "root_001019/B005",
+          "facet_id": "F001",
+          "branch_gloss": "tutunarak sığınma ve kurtuluş arama",
+          "facet_statement": "Bir şeye tutunma ve onu güvenlik dayanağı edinme anlamın çekirdeğidir.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_44939300e8fc61e4a491", "sup_342aa4319329896fc216", "10:103", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun carries the temporal oath sense alongside the possibility of clinging to a secure support.",
+          "independent_trigger": "The wider 10:103 scene depicts rescue after warning; the legacy walk links security and mutual practices in 103:3 to the focus refuge branch.",
+          "activation": "The rescue image meets the focus clinging facet and the local mutual-practice pattern, adding a possible route through the pressured span.",
+          "resulting_reading": "The temporal setting can also carry the possibility of seeking refuge through shared action.",
+          "boundary": "The connection has reciprocal no-link evidence, so the rescue relation remains exploratory and does not define the oath."
+        },
+        {
+          "branch_ref": "root_001019/B005",
+          "facet_id": "F002",
+          "branch_gloss": "tutunarak sığınma ve kurtuluş arama",
+          "facet_statement": "Sığınılan kişi veya yer, sığınak ve kurtuluş yolu olarak adlandırılır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_44939300e8fc61e4a491", "sup_342aa4319329896fc216", "10:103", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus word can carry a refuge or rescue route as an extension of the clinging image.",
+          "independent_trigger": "The wider verse supplies an explicit rescue scene, and the walk connects the local exception to that route.",
+          "activation": "The external deliverance image meets the focus refuge extension and gives the exception's social practices a possible shelter outcome.",
+          "resulting_reading": "The span can contain a route toward rescue alongside its pressure and loss.",
+          "boundary": "The wider link is contested and analogical; the temporal oath remains intact."
+        },
+        {
+          "branch_ref": "root_001019/B007",
+          "facet_id": "F001",
+          "branch_gloss": "bağış, iyilik veya elde edilen ürün",
+          "facet_statement": "Birine ulaşan bağış, iyilik veya yarar dalın verme yönünü oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_beaaf7bf840cbf97eed6", "conn_e52956f7740ae1647d6d", "sup_342aa4319329896fc216", "101:6", "101:8", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus word carries the possibility of benefit reaching a person as one outcome of the span.",
+          "independent_trigger": "The wider heavy and light scales contrast favorable and unfavorable results after human action.",
+          "activation": "The result contrast meets the focus benefit facet, so pressure can be heard as exposing a gain as well as a deficit.",
+          "resulting_reading": "The temporal span may yield benefit or expose loss.",
+          "boundary": "The scales remain a contextual parallel and do not establish a fixed reading."
+        },
+        {
+          "branch_ref": "root_001019/B007",
+          "facet_id": "F002",
+          "branch_gloss": "bağış, iyilik veya elde edilen ürün",
+          "facet_statement": "Bir şeyden alınan pay, ürün, tarımsal gelir veya başka kazanç elde etme yönünü oluşturur.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["conn_153f55ffbab78d718842", "conn_beaaf7bf840cbf97eed6", "sup_342aa4319329896fc216", "12:49", "101:6", "103:3"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun can carry an extracted product or gain as the result of pressure.",
+          "independent_trigger": "The wider year-and-press scene and weighed outcomes provide separate images of production and its result.",
+          "activation": "The productive scene meets the focus extracted-gain facet, while the scales leave both favorable and unfavorable outcomes live.",
+          "resulting_reading": "The time span can be heard as testing what it yields, with gain and deficit both possible.",
+          "boundary": "The relation remains analogical; no harvest or commercial sense replaces the temporal oath."
+        }
+      ],
+      "connection_refs": [
+        "conn_e52956f7740ae1647d6d",
+        "conn_153f55ffbab78d718842",
+        "conn_beaaf7bf840cbf97eed6",
+        "conn_44939300e8fc61e4a491"
+      ],
+      "context_refs": ["103:2", "103:3", "12:49", "101:6", "101:8", "10:103"],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "global:rain-beneficial-release",
+      "origin_candidate_id": "cand_04ccd0e99f6420fc451a",
+      "represented_candidate_ids": [
+        "cand_2a8a46ce0e343077b6de",
+        "cand_b8e71661cbdc29ee9f7e"
+      ],
+      "title": "Pressure that releases rain and benefit",
+      "claim": "The temporal oath can also carry the image of rain-bearing pressure released as rainfall, with the local exception's sound action making that release available as an analogy for benefit.",
+      "mechanism": "The focus B003 cloud-and-rain facet meets the wider 78:14 rain-bearing-cloud scene. The legacy source also attributes an overhead sky/mercy cue to the opening and links the focus pressure image to sound action in the exception; that additional arrow remains attributed.",
+      "reader_payoff": "The oath's pressure image can be felt as capable of releasing life-giving rain, so pressure is not only depletion but can open onto benefit.",
+      "containment": "The focus form still selects time. The 78:14 row supplies exact Arabic surface but no target morphology and includes a reciprocal distinction that its overt subject is time rather than clouds. The opening sky/root cue is an attributed legacy signal, not independently verified here.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus branch and wider rain text are supplied, but the beneficial-action arrow is explicitly analogical, target morphology is absent, and one publication carried an earlier reject grade that is not treated as a verdict."
+      },
+      "support_ids": [
+        "sup_342aa4319329896fc216",
+        "sup_40ccc7834820008fef35",
+        "sup_d9b1bf15b19f1b2adffd"
+      ],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B003",
+          "facet_id": "F001",
+          "branch_gloss": "yağmur yüklü bulut ve yağmurun gelişi",
+          "facet_statement": "Yağmur taşıyan ve yağışını boşaltmaya hazır bulut temel görüntüdür.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": [
+            "conn_5d52a7196243d22629c0",
+            "sup_342aa4319329896fc216",
+            "sup_40ccc7834820008fef35",
+            "sup_d9b1bf15b19f1b2adffd",
+            "78:14",
+            "103:0",
+            "103:3"
+          ],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun remains the temporal oath-object and carries the additional B003 image of a rain-bearing cloud ready to release its rain.",
+          "independent_trigger": "The wider 78:14 Arabic supplies a rain-bearing-cloud and pouring-rain scene. The legacy records add an attributed opening sky/mercy cue and the exception's sound actions as a benefit context.",
+          "activation": "The wider rainfall image meets the focus cloud facet; the legacy action cue then supplies an explicit, exploratory analogy from released rain to beneficial human output.",
+          "resulting_reading": "The pressure image can be heard as a release that yields rain and, by analogy, benefit through sound action.",
+          "boundary": "The 78:14 morphology is not supplied, the target row distinguishes time from clouds, and the opening root cue has no exact word join. These support an image-level resonance, not a lexical equation."
+        }
+      ],
+      "connection_refs": ["conn_5d52a7196243d22629c0"],
+      "context_refs": ["78:14", "103:0", "103:3"],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The focus word-analysis/QAC bridge resolves both supplied analysis units; no focus reading was discarded for an unresolved join. By contrast, selected_context_units is empty, so reader-walk root assignments to 103:2 or 103:3 are retained only as attributed ayah-level carriers where used, never presented as verified word/QAC morphology.",
+    "All nine assigned legacy_unbound HFT records have empty anchor_refs and branch_refs and are summary claims rather than exact activation traces. None names the required supplied context ayah, word index, root, attributed role, changed-reading pair, and focus return together; each was explicitly reviewed and rejected as an independent global activation.",
+    "The 78:14 connection supplies exact target Arabic but no target morphology. Its reciprocal note keeps the overt-time-versus-cloud distinction visible; rain-pressure readings remain exploratory and image-level.",
+    "The 12:47, 10:103, and 107:7 connections carry reciprocal counterevidence against a material link or route. Those counterreadings remain in the relevant containment fields; they were not used as automatic filters.",
+    "The 19:96 connection explicitly says its faith-and-affection image adds a downstream human outcome rather than a reading of the oath. The nominated security/trust branch was therefore excluded from cand_96783299b27673e7c08c rather than used as a focus trigger.",
+    "Unresolved citations ṣ-b-r/B001, ḥ-q-q/B011, ṣ-b-r/B018, and s-m-w/B004 lack registered branch records in the packet. They are accounted for in candidate decisions and are not converted into branch refs or facets.",
+    "No candidate supplies a semantic_obligations array or an explicit required_branch_facets list. The corresponding exclusion arrays are empty; every supplied candidate branch ref is either activated at an exact facet or specifically excluded."
+  ]
+}

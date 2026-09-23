@@ -1,0 +1,622 @@
+{
+  "schema_version": "commentary-v5-scope-discovery-v1",
+  "ayah_ref": "103:1",
+  "lane": "micro",
+  "coverage_complete": true,
+  "candidate_decisions": [
+    {
+      "candidate_id": "cand_f6c172602983ed476c16",
+      "decision": "accept",
+      "reason": "The opening oath particle governs the genitive noun while the conventional swearing verb remains unspoken; the compact particle-plus-object formula is directly supported by the local attachment evidence.",
+      "finding_refs": ["micro:compressed-oath"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_c7dfbd17c573925fc886",
+      "decision": "narrow",
+      "reason": "Retain the local effect: the opening particle starts an oath frame whose asserted answer is still pending when this short focus clause ends. The packet's explicit completion reference to 103:2 belongs to pericope context and is excluded from this micro finding.",
+      "finding_refs": ["micro:deferred-oath"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "103:2", "reason": "The answer's placement in the next ayah is pericope-context evidence; this finding retains only the locally open oath frame."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_776ddf0dd0f6df4a9c1b",
+      "decision": "accept",
+      "reason": "The packet identifies وَ as the initiated oath particle at surah onset and supplies its syntactic government of the following genitive noun, distinguishing this relation from ordinary coordination.",
+      "finding_refs": ["micro:oath-scope"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_2aac5d667b4e1181526e",
+      "decision": "accept",
+      "reason": "The bound particle meets the following definite noun in one compact surface unit; the supplied sound and attachment evidence supports this audible reinforcement of the syntactic bond.",
+      "finding_refs": ["micro:proclitic-fusion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_832b4598c38388a22f34",
+      "decision": "accept",
+      "reason": "The definite singular abstract noun gathers time as one invoked domain; the claim is supported by its supplied morphology and form analysis without activating a specific time-of-day specialization.",
+      "finding_refs": ["micro:totalized-time"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_820cd93ba5e40b90ffe4",
+      "decision": "accept",
+      "reason": "The bond association is retained as a reading exposed by the supplied irregular vowel variant, with its variant status and the received temporal form kept explicit as the boundary.",
+      "finding_refs": ["micro:bond-variant"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_ee8c32540bd94f37d901",
+      "decision": "accept",
+      "reason": "The compact consonant cluster belongs to the received surface and supports an acoustic-compression reading; irregular phonetic forms are retained only as a contrast in pacing, not as the canonical sound.",
+      "finding_refs": ["micro:compressed-sound"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_25af9ca928d22033d706",
+      "decision": "accept",
+      "reason": "This is a distinct synthesis claim: the oath-object grammar, definite singular form, bounded pressure coloring, and compact sound converge in the same final noun. Its root-pressure component is retained with the temporal sense intact.",
+      "finding_refs": ["micro:convergent-oath-force"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d882096250b28dd1348e",
+      "decision": "accept",
+      "reason": "The local form is a definite genitive noun governed by the oath particle, so it functions as the sworn-by witness rather than as an indefinite time expression or temporal adverb.",
+      "finding_refs": ["micro:definite-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_f7488be0328ae2d5b2c1",
+      "decision": "represented",
+      "reason": "Its bounded semantic claim—root-family pressure colors the temporal oath noun without controlling its parse—is an exact duplicate of micro:temporal-pressure. That finding carries this candidate's support and preserves the same form restriction; no branch, facet, context, or obligation is omitted.",
+      "finding_refs": ["micro:temporal-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_32c414dcbc2a2682e09c",
+      "decision": "narrow",
+      "reason": "Retain the focus-local landing: the ayah ends on one unexplained lexical noun, concentrating the oath's weight at its close. The cross-boundary carry-forward into 103:2 is pericope context and is excluded here.",
+      "finding_refs": ["micro:single-noun-landing"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [
+        {"context_ref": "103:2", "reason": "The following-ayah continuation is outside the focus-local micro finding."}
+      ],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_fbfa0c2fe639ff594e3c",
+      "decision": "accept",
+      "reason": "The supplied distribution profile supports markedness for this abstract noun use; the finding treats rarity as a feature of the selected form, not as proof that unrelated root branches are active.",
+      "finding_refs": ["micro:rare-abstract"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_25e58e2b7140347c49eb",
+      "decision": "accept",
+      "reason": "The expanded shawadhdh wording explicitly names time's calamities and is retained as counter-reading apparatus; its anomalous form does not replace the received oath noun.",
+      "finding_refs": ["micro:calamity-expansion"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_d7f6ba2be38f9aa8f44e",
+      "decision": "narrow",
+      "reason": "Retain branch B002's pressure image as coloring on the temporal noun, activated by the independent oath relation. The noun remains a time-object; the packet does not support replacing it with a physical press, a concrete extraction event, rain, or whirlwind.",
+      "finding_refs": ["micro:temporal-pressure"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_023f365b1bc0f10d78cb",
+      "decision": "reject",
+      "reason": "This candidate is a QAC root-occurrence provenance row, not an activated semantic claim. Its supplied morpheme ref remains carrier evidence for retained findings; it creates no separate reader-facing meaning or semantic obligation.",
+      "finding_refs": [],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_57e4ad124fd696d5bc0e",
+      "decision": "accept",
+      "reason": "The trace's focus ayah, word index, and root agree with the supplied noun. The independent oath particle makes the temporal core function as witness, supporting a qualified reading of recurring succession as evidence; the HFT source identity remains legacy_unbound.",
+      "finding_refs": ["micro:recurring-witness"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_aeeec94145555ecea4c7",
+      "decision": "accept",
+      "reason": "The focus noun and root coordinates agree with the surface. The oath act independently makes the temporal span evidentiary; the supplied pressing branch then yields an exploratory pressure-to-output analogy, with both attached branches and their stated roles retained. The HFT source identity remains legacy_unbound.",
+      "finding_refs": ["micro:pressure-yield"],
+      "branch_exclusions": [],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_8ac68e84bce74f717e19",
+      "decision": "reject",
+      "reason": "The trace's focus coordinate and root match the surface, and its before/after claim is a polarity between withholding and refuge. But the focus supplies no independent attachment, rescue, withholding, or reclamation cue: both attached branches are available only through the same root noun. The claimed changed reading therefore lacks an activating contact in this focus.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_001019/B005", "reason": "The oath particle and temporal noun provide no independent refuge, attachment, or rescue trigger for this branch."},
+        {"branch_ref": "root_001019/B006", "reason": "The focus provides no independent withholding or reclamation trigger; the branch is nominated only by the same root inventory."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_92acfc78e23f28655524",
+      "decision": "reject",
+      "reason": "The trace moves from aging to a maturation chamber, but the supplied focus has no growth, youth-threshold, seed, or protective-sheath trigger independent of the root noun. The changed reading is not activated by this oath phrase.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_001019/B009", "reason": "No independent development or threshold cue in the focus activates maturation."},
+        {"branch_ref": "root_001019/B010", "reason": "No grain, sheath, or protective-containment cue in the focus activates this branch."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    },
+    {
+      "candidate_id": "cand_36b4f292edc9ca347330",
+      "decision": "reject",
+      "reason": "The trace changes a fixed time-marker into atmospheric accumulation and release, but the focus has no cloud, rain, wind, or circulation cue independent of the root noun. The weather mechanism and changed reading therefore remain branch availability rather than local activation.",
+      "finding_refs": [],
+      "branch_exclusions": [
+        {"branch_ref": "root_001019/B003", "reason": "No independent rainfall or rain-bearing-cloud trigger occurs in the focus."},
+        {"branch_ref": "root_001019/B004", "reason": "No independent wind, dust, or rising-column trigger occurs in the focus."}
+      ],
+      "facet_exclusions": [],
+      "context_exclusions": [],
+      "semantic_obligation_exclusions": []
+    }
+  ],
+  "findings": [
+    {
+      "finding_ref": "micro:compressed-oath",
+      "origin_candidate_id": "cand_f6c172602983ed476c16",
+      "represented_candidate_ids": [],
+      "title": "The oath compressed into particle and object",
+      "claim": "The opening وَ governs the following genitive noun as an oath object while leaving the conventional act of swearing unspoken, so the noun alone carries the compact formula.",
+      "mechanism": "The proclitic marks an oath relation and attaches directly to its governed noun; with no swearing verb on the surface, the oath is compressed to particle plus sworn-by object.",
+      "reader_payoff": "The short opening is heard as a complete oath act whose verbal action is implicit in its construction.",
+      "containment": "The construction supplies an omitted oath verb as a licensed formula; it does not identify a different hidden verb or alter the temporal noun.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "QAC and attachment evidence directly support the oath particle, its genitive object, and the licensed omission."
+      },
+      "support_ids": ["sup_1cb35e932cee7f6cec99", "sup_fcadbbc7205ddee31d02"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:deferred-oath",
+      "origin_candidate_id": "cand_c7dfbd17c573925fc886",
+      "represented_candidate_ids": [],
+      "title": "The oath frame holds its answer open",
+      "claim": "The opening particle starts a sworn frame whose assertion remains pending when this focus clause ends.",
+      "mechanism": "The oath particle governs the noun but the focus surface contains no asserted proposition, so the reader is left holding an initiated oath frame rather than a completed statement.",
+      "reader_payoff": "The opening is perceived as an intentional suspension that prepares an answer beyond the phrase.",
+      "containment": "This finding describes the locally open frame only; it does not locate or interpret the answer in another ayah.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The local oath construction and its supplied attachment analysis support the pending-frame effect."
+      },
+      "support_ids": ["sup_1cb35e932cee7f6cec99", "sup_3c0a93ecb9edfc8c23b3"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:oath-scope",
+      "origin_candidate_id": "cand_776ddf0dd0f6df4a9c1b",
+      "represented_candidate_ids": [],
+      "title": "The opening وَ governs the noun",
+      "claim": "At surah onset, وَ functions as the oath particle and makes الْعَصْرِ the noun sworn by, so the relation is invocation rather than ordinary joining.",
+      "mechanism": "The particle's initial position and its forced syntactic attachment put the following genitive noun in the complement role of an oath.",
+      "reader_payoff": "The first word changes how the only noun is read: it is called as witness rather than joined to an earlier clause.",
+      "containment": "The claim is limited to this supplied surah-opening construction and does not generalize to every وَ.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The packet supplies the QAC particle analysis and syntactically forced attachment."
+      },
+      "support_ids": ["sup_1cb35e932cee7f6cec99", "sup_76866130b227fdd5e382"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:proclitic-fusion",
+      "origin_candidate_id": "cand_2aac5d667b4e1181526e",
+      "represented_candidate_ids": [],
+      "title": "The oath relation arrives as one compact sound",
+      "claim": "The bound oath particle runs directly into the noun it governs, making the dependency perceptible as one compact opening unit.",
+      "mechanism": "Proclitic attachment and liaison across the following alif of wasl bind وَ and الْعَصْرِ in both the visible and heard form.",
+      "reader_payoff": "The oath is encountered as an attached act rather than as two loosely adjacent words.",
+      "containment": "The sound reinforces the supplied syntactic parse; it does not create a separate grammatical relation.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The local surface and cited sound evidence support the bound form and liaison."
+      },
+      "support_ids": ["sup_1cb35e932cee7f6cec99", "sup_acb659acf10bd5b993d6"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:totalized-time",
+      "origin_candidate_id": "cand_832b4598c38388a22f34",
+      "represented_candidate_ids": [],
+      "title": "One definite temporal field",
+      "claim": "The definite singular abstract noun gathers time as one invoked domain rather than presenting a set of individually counted moments.",
+      "mechanism": "Its article, singular form, abstract noun class, and genitive oath role converge on a totalized temporal object for the oath.",
+      "reader_payoff": "The reader can hear the oath as naming time in its breadth, not merely pointing to one unspecified instant.",
+      "containment": "The form leaves the exact temporal span broad and does not by itself select afternoon, a particular era, or a concrete event.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The supplied morphology and form analysis directly support definiteness, singularity, and abstraction."
+      },
+      "support_ids": ["sup_6f95654e08eebac6b2ff", "sup_bbfd79b78cee56e86285"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:bond-variant",
+      "origin_candidate_id": "cand_820cd93ba5e40b90ffe4",
+      "represented_candidate_ids": [],
+      "title": "A variant opens a bond association",
+      "claim": "The supplied irregular vowel variant وَالْعِصْرِ exposes a rope or covenant association, while the received الْعَصْرِ remains the temporal noun governed by the oath particle.",
+      "mechanism": "The variant changes the vocalized form that carries the bond association; that contact creates a counter-reading beside, rather than inside, the received local parse.",
+      "reader_payoff": "The reader can see what the variant makes available and why it does not control the canonical surface.",
+      "containment": "This is a variant-only apparatus reading; it does not claim that the received surface means rope or covenant.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The packet preserves the irregular vocalization as variant evidence and explicitly distinguishes it from the received form."
+      },
+      "support_ids": ["sup_530eaccbc895843f0471", "sup_bbfd79b78cee56e86285"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:compressed-sound",
+      "origin_candidate_id": "cand_ee8c32540bd94f37d901",
+      "represented_candidate_ids": [],
+      "title": "The final cluster makes compression audible",
+      "claim": "The received word's tight final consonant cluster gives the oath noun a compact acoustic landing; irregular helping-vowel forms show how added pacing can loosen that compactness.",
+      "mechanism": "The canonical consonant sequence is articulated without an intervening vowel, while the supplied phonetic variants add pacing and thereby contrast with the received cluster.",
+      "reader_payoff": "The short sound of the noun reinforces the concentrated force of an oath that ends on one word.",
+      "containment": "The contrast is phonetic and bounded: irregular readings do not change the canonical lexical identity or establish a different meaning.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The form and variant evidence are supplied, while the experience of acoustic compression remains an interpretive effect."
+      },
+      "support_ids": ["sup_96b60c13faf86d74b614", "sup_bbfd79b78cee56e86285"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:convergent-oath-force",
+      "origin_candidate_id": "cand_25af9ca928d22033d706",
+      "represented_candidate_ids": [],
+      "title": "One noun concentrates grammar, form, pressure, and sound",
+      "claim": "The single noun gathers the oath's witness role, a totalized temporal field, a bounded pressure coloring, and a compact sound into one concentrated opening.",
+      "mechanism": "The oath particle makes the definite genitive noun a witness; its abstract singular form gathers the temporal domain, the separate oath act activates a restrained pressing image, and the ending's consonant cluster echoes that compression acoustically.",
+      "reader_payoff": "The opening's grammatical, lexical, and sonic work becomes legible as one concentrated act instead of separate observations.",
+      "containment": "Time remains the noun's local reading. The pressure image colors its oath role and supplies no physical press, extracted substance, or competing parse.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The grammatical and formal components are directly supported; their combined pressure-and-sound effect is a bounded synthesis."
+      },
+      "support_ids": ["sup_bbd9666b7cae983b2dc6", "sup_bbfd79b78cee56e86285", "sup_4faa9f1830823bc89cca", "sup_76866130b227fdd5e382", "sup_9edc117efd40b328d2bf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["103:1:1:1"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun locally carries time as the interval invoked by the oath.",
+          "independent_trigger": "The separate proclitic وَ marks an oath act that calls the following noun as witness.",
+          "activation": "The oath's evidentiary relation lets the pressure-to-extraction image color the temporal interval as a testing span, while the noun itself remains temporal.",
+          "resulting_reading": "Time is invoked as a witness whose passage presses and tests what unfolds within it.",
+          "boundary": "The contact is a bounded pressure coloring; the focus does not name a physical press, liquid, or extraction event."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:definite-witness",
+      "origin_candidate_id": "cand_d882096250b28dd1348e",
+      "represented_candidate_ids": [],
+      "title": "The definite noun is the sworn-by witness",
+      "claim": "الْعَصْرِ is a definite genitive noun invoked as the oath's witness, not a temporal adverb telling when an unstated action occurs.",
+      "mechanism": "The oath particle governs the noun in the genitive, and the article presents the temporal object as a definite referent within that oath relation.",
+      "reader_payoff": "The reader sees time occupying the witness position in the sentence, rather than serving as background timing.",
+      "containment": "The witness role belongs to the oath construction; it does not make time a literal speaking agent.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "QAC and attachment evidence directly identify the definite genitive noun and its oath-object role."
+      },
+      "support_ids": ["sup_83139b50d2d6690c60ca", "sup_bbfd79b78cee56e86285", "sup_9edc117efd40b328d2bf"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:single-noun-landing",
+      "origin_candidate_id": "cand_32c414dcbc2a2682e09c",
+      "represented_candidate_ids": [],
+      "title": "The ayah lands on one noun",
+      "claim": "The focus ayah closes on its only lexical noun, leaving the sworn-by object as the concentrated and unexplained landing of the short oath.",
+      "mechanism": "No adjective or predicate follows the genitive noun in the focus surface, so the word itself carries the verse's terminal weight.",
+      "reader_payoff": "The reader feels the oath stop on its witness rather than resolve within this short opening.",
+      "containment": "The finding concerns the focus ayah's local closure; the cross-boundary carry-forward is excluded from this lane.",
+      "epistemic": {
+        "status": "grounded",
+        "source_trust": ["trusted"],
+        "reason": "The focus surface and supplied attachment analysis establish the noun's position and the following response as outside this local landing claim."
+      },
+      "support_ids": ["sup_3b0ad47c86862d09bc81", "sup_bbfd79b78cee56e86285", "sup_9edc117efd40b328d2bf"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:rare-abstract",
+      "origin_candidate_id": "cand_fbfa0c2fe639ff594e3c",
+      "represented_candidate_ids": [],
+      "title": "The abstract noun is a marked choice",
+      "claim": "The oath's use of an abstract temporal noun stands out against the supplied profile of more concrete or process-like root forms, making the chosen time-object marked.",
+      "mechanism": "The abstract noun form occupies a rare distributional slot in the supplied profile, so its appearance as the definite oath witness is perceptible as a deliberate lexical selection.",
+      "reader_payoff": "The reader notices that the oath names an encompassing temporal object in a form unlike the root's more concrete and eventive uses.",
+      "containment": "Distributional rarity marks the form's selection but does not prove that every related root meaning is active here.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The packet supplies the distributional characterization, while the claim is limited to markedness rather than lexical activation."
+      },
+      "support_ids": ["sup_b43766012100d199e0ce", "sup_bbfd79b78cee56e86285"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:calamity-expansion",
+      "origin_candidate_id": "cand_25e58e2b7140347c49eb",
+      "represented_candidate_ids": [],
+      "title": "An expanded variant names time's shocks",
+      "claim": "The supplied expanded shawadhdh wording makes calamities of time explicit, while the received oath keeps that temporal pressure folded into one noun.",
+      "mechanism": "The expanded variant spells out the affliction associated with time; its contrast makes the received form's compressed temporal witness more noticeable.",
+      "reader_payoff": "The counter-reading shows what the received noun leaves compressed without replacing its local temporal meaning.",
+      "containment": "This is anomalous variant apparatus, not the governing wording of the received focus surface.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The packet preserves the expanded wording but identifies it as anomalous and non-governing for the canonical form."
+      },
+      "support_ids": ["sup_8437c692c18b3b5aa19d", "sup_bbfd79b78cee56e86285"],
+      "branch_activations": [],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:temporal-pressure",
+      "origin_candidate_id": "cand_d7f6ba2be38f9aa8f44e",
+      "represented_candidate_ids": ["cand_f7488be0328ae2d5b2c1"],
+      "title": "Pressure colors the temporal witness",
+      "claim": "The noun remains a temporal oath-object while the root's pressing image colors that interval as a span that tests and compresses what unfolds within it.",
+      "mechanism": "The noun carries the ordinary meaning of time; the separate oath act calls it as witness, allowing the root's pressure-to-extraction image to meet the evidentiary role without changing the noun into a physical press or process verb.",
+      "reader_payoff": "The temporal oath can be heard as more than a clock reference: its span bears a restrained pressure that makes time feel testing.",
+      "containment": "The local form is a definite abstract noun, not Form IV, a concrete press, or a process verb. Pressure remains semantic coloring; rain, whirlwind, extracted liquid, and other root branches are not asserted as active here.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["trusted"],
+        "reason": "The temporal and pressure branches are supplied, and the oath relation supplies an independent local trigger; the pressure contact remains a bounded inference under the form restriction."
+      },
+      "support_ids": ["sup_4faa9f1830823bc89cca", "sup_c6b7024980e18b74ddae", "sup_bbfd79b78cee56e86285", "sup_76866130b227fdd5e382", "sup_9edc117efd40b328d2bf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["103:1:1:1"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun locally names time as the object called into the oath.",
+          "independent_trigger": "The separate oath particle وَ makes the noun an evidentiary witness.",
+          "activation": "The witness relation gives the pressing branch a local contact: the named temporal span can be heard as a testing pressure while its primary time sense stays recoverable.",
+          "resulting_reading": "Time is invoked as a witness whose span presses and tests what unfolds within it.",
+          "boundary": "The form remains an abstract temporal noun; no concrete pressing action, liquid, rain, or whirlwind is asserted."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:recurring-witness",
+      "origin_candidate_id": "cand_57e4ad124fd696d5bc0e",
+      "represented_candidate_ids": [],
+      "title": "Recurring time bears witness",
+      "claim": "The oath can invoke recurring temporal succession itself as witness, so return and passage make time an evidentiary field rather than an unspecified time-unit.",
+      "mechanism": "The noun carries the branch's core meaning of time, and the separate oath particle calls that temporal field as the sworn-by object; the HFT trace adds recurrence and alternation as what makes passage disclose what occurs within it.",
+      "reader_payoff": "The reader can perceive temporal succession as an active witness to what occupies it, while retaining the ordinary reading of time.",
+      "containment": "This is a qualified local interpretation of the oath relation, not a claim that time literally speaks or that a recurring surah-wide system has been established.",
+      "epistemic": {
+        "status": "qualified",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The focus coordinate and root align, and the oath trigger is independently grounded; the HFT reader identity remains legacy_unbound, so its added recurrence effect is qualified."
+      },
+      "support_ids": ["sup_f3f25600e6d4c151d6c4", "sup_76866130b227fdd5e382", "sup_9edc117efd40b328d2bf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B001",
+          "facet_id": "F001",
+          "branch_gloss": "devir, vakit ve günün geç bölümü",
+          "facet_statement": "Temel anlam, devir, süre veya belirli bir vakit olarak zamandır.",
+          "application_mode": "lexical",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["103:1:1:1"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The focus noun carries time as a span and recurring succession.",
+          "independent_trigger": "The distinct oath particle وَ calls the temporal noun as witness.",
+          "activation": "The oath's witness relation meets recurring temporal passage, making successive returns evidence of what occurs within the span.",
+          "resulting_reading": "The oath names recurring time itself as the field that bears witness through its succession.",
+          "boundary": "The lexical meaning remains time; this does not assert literal personification or a wider recurring system."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    },
+    {
+      "finding_ref": "micro:pressure-yield",
+      "origin_candidate_id": "cand_aeeec94145555ecea4c7",
+      "represented_candidate_ids": [],
+      "title": "The temporal span as pressure that discloses yield",
+      "claim": "The oath's temporal span can be pictured as a press that draws out what it contains until a hidden yield or lack of yield becomes manifest.",
+      "mechanism": "The independent oath particle calls the temporal noun as evidence; the root's pressure branch supplies an extraction operation, and the separately supplied product branch gives that operation a possible output of gain or yield.",
+      "reader_payoff": "Time's passage becomes a testing process that can expose what has accumulated within it, not merely a neutral marker that passes over its contents.",
+      "containment": "The ordinary temporal oath remains intact. Pressing and yield form an exploratory analogy, not a physical event, a claim about a specific liquid, or an outcome supplied by this focus verse.",
+      "epistemic": {
+        "status": "exploratory",
+        "source_trust": ["legacy_unbound", "trusted"],
+        "reason": "The HFT trace is coordinate-aligned and both lexical branches are supplied, but its reader identity is legacy_unbound and the pressure-to-yield transfer is an analogy rather than the local noun's selected parse."
+      },
+      "support_ids": ["sup_07abbe7d9d7ffa9abe85", "sup_4faa9f1830823bc89cca", "sup_76866130b227fdd5e382", "sup_9edc117efd40b328d2bf"],
+      "branch_activations": [
+        {
+          "branch_ref": "root_001019/B002",
+          "facet_id": "F001",
+          "branch_gloss": "sıkarak sıvısını çıkarma",
+          "facet_statement": "Çekirdek işlem, bir şeyi bastırıp sıkarak içindeki sıvıyı dışarı çıkarmaktır.",
+          "application_mode": "contextual_resonance",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["103:1:1:1"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The noun locally names a temporal span that can contain unfolding events.",
+          "independent_trigger": "The separate oath act calls the temporal span as evidence, giving the root's pressure image an evaluative contact.",
+          "activation": "The oath relation makes the interval evidentiary; the pressing branch then supplies a mechanism by which what the interval contains can be drawn out.",
+          "resulting_reading": "The span presses what it contains until its hidden yield or lack of yield becomes manifest.",
+          "boundary": "The pressure mechanism is an interpretive coloring on time, not a literal action or a claim that the noun denotes a press."
+        },
+        {
+          "branch_ref": "root_001019/B007",
+          "facet_id": "F001",
+          "branch_gloss": "bağış, iyilik veya elde edilen ürün",
+          "facet_statement": "Birine ulaşan bağış, iyilik veya yarar dalın verme yönünü oluşturur.",
+          "application_mode": "analogical",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["103:1:1:1"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The temporal noun is the field being invoked; the benefit branch contributes a possible result image, not its ordinary local gloss.",
+          "independent_trigger": "The oath particle makes the temporal field evidentiary, while the pressure-to-extraction mechanism supplies the separate contact through which an output becomes relevant.",
+          "activation": "Once the interval is heard as a press, the root's benefit or gain branch can name what that pressure may disclose as its outcome.",
+          "resulting_reading": "The disclosed yield can be heard as gain or benefit within the oath's temporal test.",
+          "boundary": "This is an analogical possible output; the focus does not assert that time necessarily produces benefit."
+        },
+        {
+          "branch_ref": "root_001019/B007",
+          "facet_id": "F002",
+          "branch_gloss": "bağış, iyilik veya elde edilen ürün",
+          "facet_statement": "Bir şeyden alınan pay, ürün, tarımsal gelir veya başka kazanç elde etme yönünü oluşturur.",
+          "application_mode": "analogical",
+          "carrier_refs": ["103:1:1:3"],
+          "trigger_refs": ["103:1:1:1"],
+          "focus_return_refs": ["103:1:1:3"],
+          "carrier": "The temporal span remains the focus carrier; product or acquired gain is an extended image for what its pressure might reveal.",
+          "independent_trigger": "The oath's evidentiary act and the distinct pressure-to-extraction mechanism make a possible extracted result relevant to the temporal noun.",
+          "activation": "The pressure image contacts the product facet as a multi-step analogy: a span tests what it contains, and what is drawn out can be named as a yield.",
+          "resulting_reading": "Time can be heard as a span whose pressure brings its accumulated product into view.",
+          "boundary": "The product facet remains analogical and possible; it does not replace time with a harvest or assert a definite gain."
+        }
+      ],
+      "connection_refs": [],
+      "context_refs": [],
+      "semantic_obligation_refs": []
+    }
+  ],
+  "friction_notes": [
+    "The focus_word_alignment resolves both analysis words (2/2); no unresolved analysis-to-QAC join remains in this packet.",
+    "The micro packet supplies no selected_context_units and an empty connection_registry. Its supports mention the 103:2 answer and remote Quranic comparanda, but this artifact uses no context text; the specific answer placement and noun carry-forward are excluded from micro findings.",
+    "All five assigned HFT records are baseline models anchored to focus word 1 and root ع ص ر, with reader identity marked legacy_unbound. The temporal-witness and pressure-to-yield claims are retained with qualified or exploratory status; the refuge, maturation, and atmospheric shifts lack independent focus triggers and are rejected."
+  ]
+}
