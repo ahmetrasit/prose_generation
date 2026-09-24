@@ -48,9 +48,9 @@ NEO = QS / "artifacts" / "corpus_ensemble"
 
 WINDOW = 7          # near window for pairs and bridges (ayat)
 K_SAME, K_NEAR, K_FAR, K_FATIHA = 3, 3, 2, 3
-BRIDGES_MAX = 120
+BRIDGES_MAX = 60
+CONCEPT_TARGETS = 10  # concept paths kept per focus root, richest first
 RARE_LEMMA = 20     # usage profile lists every occurrence at or below this count
-CONCEPTS_MAX = 60
 
 csv.field_size_limit(10**9)
 
@@ -149,7 +149,8 @@ class Sources:
             row = self.gateway.get(key)
             if row:
                 ident += row["rootIds"]
-                echo += [(t, "withheld observed target") for t in row["withheldTargetIds"]]
+                echo += [(t, "withheld observed target") for t in row["withheldTargetIds"]
+                         if t not in [e[0] for e in echo]]
             for rid, occ in self.rootmap.execute(
                     "select furuq_root_id, occurrences from qac_furuq_targets "
                     "where qac_root_join_key=? and is_dominant=0", (key,)):
@@ -193,7 +194,7 @@ class Sources:
         out = np.zeros(len(pool), dtype=np.float32)
         for k, (w, _) in enumerate(self.ranks):
             r_ab = ra[k][idx]
-            r_ba = np.array([self._row(p)[k][self.net_ix[a]] for p in pool], dtype=np.float32)
+            r_ba = np.asarray(self.ranks[k][1][idx, self.net_ix[a]]).astype(np.float32)
             aff = 0.5 * (1 / (10 + r_ab) + 1 / (10 + r_ba))
             aff[r_ab == 0] = 0
             out += w * aff
@@ -216,7 +217,7 @@ def top_fast(src: Sources, a: str, pool: list[str], k: int, shortlist: int = 60)
         return []
     fwd = src._row(a)
     idx = np.array([src.net_ix[p] for p in pool])
-    score = sum(w / (10 + fwd[i][idx]) for i, (w, _) in enumerate(src.ranks))
+    score = sum(np.where(fwd[i][idx] == 0, 0, w / (10 + fwd[i][idx])) for i, (w, _) in enumerate(src.ranks))
     cand = [pool[i] for i in np.argsort(-score)[:shortlist]]
     aff = src.affinity(a, cand)
     seen, out = set(), []
@@ -232,7 +233,8 @@ def top_fast(src: Sources, a: str, pool: list[str], k: int, shortlist: int = 60)
 
 def top_distinct(src: Sources, a: str, pool: list[tuple[str, str]], k: int) -> list[tuple[str, str, float]]:
     """pool: (node_id, where). Top-k by affinity, one per partner root, excluding a's root."""
-    pool = [(n, where) for n, where in pool if root_of(n) != root_of(a) and n in src.net_ix]
+    pool = list({n: (n, where) for n, where in reversed(pool)
+                 if root_of(n) != root_of(a) and n in src.net_ix}.values())[::-1]
     if not pool:
         return []
     aff = src.affinity(a, [n for n, _ in pool])
@@ -291,20 +293,22 @@ def section_dictionary(src: Sources, ref: str) -> str:
              "Identity roots come from the quran-data gateway. Word-scoped alternatives are cited analyses of this",
              "exact word. **Echo roots** are observed but withheld mappings: sound-family candidates, not identity.", ""]
     done = set()
-    for w in src.words(ref):
-        r = src.word_roots(w)
+    analysed = [(w, src.word_roots(w)) for w in src.words(ref)]
+    for w, r in analysed:
         for rid in r["identity"]:
             if rid in done:
                 continue
             done.add(rid)
             lines += [f"## {src.root_name.get(rid, rid)} ({rid}) — identity root of {w['surface']} (w{w['w']})", ""]
             lines += dict_lines(src, rid)
+    for w, r in analysed:
         for rid, why in r["alternatives"]:
             if rid in done:
                 continue
             done.add(rid)
             lines += [f"## {src.root_name.get(rid, rid)} ({rid}) — documented alternative for {w['surface']}: {clip(why, 160)}", ""]
             lines += dict_lines(src, rid)
+    for w, r in analysed:
         for rid, why in r["echo"]:
             if rid in done:
                 continue
@@ -365,6 +369,8 @@ def section_pairs(src: Sources, ref: str, focus: list[tuple[str, dict]], surah_c
     same = [(n, f"{ref} {w['surface']}") for n, w in focus]
     near = [(n, f"{r} {w['surface']}") for r, bl in surah_ctx.items() if r != ref and abs(int(r.split(':')[1]) - a) <= WINDOW for n, w in bl]
     far = [(n, f"{r} {w['surface']}") for r, bl in surah_ctx.items() if abs(int(r.split(':')[1]) - a) > WINDOW for n, w in bl]
+    near.sort(key=lambda x: abs(int(x[1].split()[0].split(":")[1]) - a))  # a repeated branch is labelled
+    far.sort(key=lambda x: abs(int(x[1].split()[0].split(":")[1]) - a))   # by its nearest occurrence
     lines = ["# Branch-image pairs (global network, gateway roots; top by distinct partner root)", "",
              f"For every branch of every focus root: partners in the same ayah (top {K_SAME}), within ±{WINDOW} ayat "
              f"(top {K_NEAR}), and elsewhere in the surah (top {K_FAR}). A pair is a candidate only; judge whether it opens a reading.", ""]
@@ -373,7 +379,8 @@ def section_pairs(src: Sources, ref: str, focus: list[tuple[str, dict]], surah_c
         by_root[root_of(n)].append((n, w))
     count = 0
     for rid, items in by_root.items():
-        lines += [f"## {src.root_name.get(rid, rid)} ({items[0][1]['surface']})", ""]
+        surfaces = ", ".join(dict.fromkeys(w["surface"] for _, w in items))
+        lines += [f"## {src.root_name.get(rid, rid)} ({surfaces})", ""]
         for n in dict.fromkeys(nn for nn, _ in items):
             lines.append(f"- **{n.split(':')[-1]}** {src.gloss(n) or '—'} / {src.image(n) or '—'}")
             for lab, pool, k in (("same", same, K_SAME), ("near", near, K_NEAR), ("far", far, K_FAR)):
@@ -494,7 +501,15 @@ def concept_tokens(text: str) -> set[str]:
 
 
 _GENERIC = set("""قال كان جعل امر شيء قوم رجل الله اله ناس انسان فعل عمل اخذ اتي جاء راي علم قول يوم ارض سماء
-نفس حق كتاب بعض كل احد مثل خير شر اهل عبد رب ملك دين كفر امن""".split())
+نفس حق كتاب بعض كل احد مثل خير شر اهل عبد رب ملك دين كفر امن
+اسم معروف حال بعد جمع وكل حين حيث لما قدر وقت ذكر اخر كثير قليل قل نسب حسن وصف معني اصل""".split())  # definitional filler
+
+
+def _lemma_form(t: str, lemmas: set[str]) -> str:
+    n = _norm(t)
+    if n not in lemmas and t[0] in "لبكفو" and len(t) >= 4 and _norm(t[1:]) in lemmas:
+        return _norm(t[1:])
+    return n
 
 
 def _norm(t: str) -> str:
@@ -513,7 +528,7 @@ def section_concepts(src: Sources, ref: str, focus: list, surah_ctx: dict, targe
     df = Counter()
     card_tokens = {}
     for nid, c in src.cards.items():
-        toks = {t for t in (_norm(x) for x in concept_tokens(
+        toks = {t for t in (_lemma_form(x, lemmas) for x in concept_tokens(
             " ".join((c["branch_image_ar"], c["what_is_ar"], c["source_phrase_ar"])))) if t in lemmas}
         card_tokens[nid] = toks
         df.update(toks)
@@ -546,37 +561,26 @@ def section_concepts(src: Sources, ref: str, focus: list, surah_ctx: dict, targe
                 near_by_token[t].append((r, n, w))
     lines = ["# Shared-concept links (components shared by branch definitions)", "",
              "Not image pairs: a concept word (e.g. ليل night, عين eye, نسج weaving) that two branches' definitions share.",
-             "Each focus branch: its closest image partners among inter-ayah target ayat, and for each partner the",
-             "most specific concept it shares with a branch in a nearby ayah (focus → target → nearby).", ""]
+             "Grouped by focus root. Each line: focus branch → its image partner in an inter-ayah target ayah ⇒ concept",
+             "words that partner shares with branches in nearby ayat (focus → target → nearby). The richest",
+             f"{CONCEPT_TARGETS} lines per root are kept.", ""]
     total = 0
-    for f in dict.fromkeys(n for n, _ in focus):
-        per_target = []
-        for tnode, _aff in top_fast(src, f, list(targets_b), 6):
+    by_root = defaultdict(list)
+    for n, _w in focus:
+        if n not in by_root[root_of(n)]:
+            by_root[root_of(n)].append(n)
+    for rid, branches in by_root.items():
+        best_via = {}  # target branch -> (affinity, focus branch)
+        for f in branches:
+            for tnode, aff in top_fast(src, f, list(targets_b), 6):
+                if aff > best_via.get(tnode, (-1, None))[0]:
+                    best_via[tnode] = (aff, f)
+        rows = []
+        for tnode, (_aff, f) in sorted(best_via.items(), key=lambda kv: kv[1][0], reverse=True):
             cands = []
             for t in card_tokens.get(tnode, ()):
                 if df[t] > 800 or any(is_root_form(t, src.root_name.get(root_of(x), "")) for x in (tnode, f)):
                     continue
-                for r, n, w in near_by_token.get(t, []):
-                    if root_of(n) in (root_of(f), root_of(tnode)) or is_root_form(t, src.root_name.get(root_of(n), "")):
-                        continue
-                    cands.append((math.log(n_cards / df[t]), t, r, n, w))
-            cands.sort(key=lambda x: x[0], reverse=True)
-            best, seen_t = [], set()
-            for c in cands:
-                if c[1] not in seen_t:
-                    seen_t.add(c[1])
-                    best.append(c)
-                if len(best) == 7:
-                    break
-            if best:
-                per_target.append((tnode, best))
-        if not per_target:
-            continue
-        lines.append(f"- **{src.label(f)}**")
-        for tnode, best in per_target:
-            tr_, tw = targets_b[tnode]
-            parts = []
-            for _, t, _r, _n, _w in best:
                 hits, roots_seen = [], set()
                 for r, n, w in sorted(near_by_token.get(t, []), key=lambda x: abs(int(x[0].split(":")[1]) - a)):
                     if root_of(n) in roots_seen or root_of(n) in (root_of(f), root_of(tnode)):
@@ -585,13 +589,23 @@ def section_concepts(src: Sources, ref: str, focus: list, surah_ctx: dict, targe
                         continue
                     roots_seen.add(root_of(n))
                     hits.append(f"{r} {w['surface']} {src.root_name.get(root_of(n), '')} {n.split(':')[2]}")
-                    if len(hits) == 3:
+                    if len(hits) == 5:
                         break
-                parts.append(f"[{t}] " + ", ".join(hits))
-            links = "; ".join(parts)
-            lines.append(f"  - → {tr_} {tw['surface']} {short(src, tnode)} ⇒ {links}")
-            total += 1
-    lines.insert(5, f"Paths listed: {total}.")
+                if hits:
+                    cands.append((math.log(n_cards / df[t]), t, hits))
+            cands.sort(key=lambda x: x[0], reverse=True)
+            if cands:
+                tr_, tw = targets_b[tnode]
+                links = "; ".join(f"[{t}] " + ", ".join(h) for _, t, h in cands[:7])
+                score = sum(x[0] for x in cands[:7])
+                rows.append((score, f"  - {f.split(':')[2]} ({src.gloss(f) or '—'}) → {tr_} {tw['surface']} {short(src, tnode)} ⇒ {links}"))
+        rows = [r for _, r in sorted(rows, key=lambda x: x[0], reverse=True)[:CONCEPT_TARGETS]]
+        if rows:
+            word = ", ".join(dict.fromkeys(w["surface"] for n, w in focus if root_of(n) == rid))
+            lines.append(f"- **{src.root_name.get(rid, rid)} ({word})**")
+            lines += rows
+            total += len(rows)
+    lines.insert(6, f"Paths listed: {total}.")
     return "\n".join(lines) + "\n"
 
 
@@ -601,18 +615,16 @@ def short(src: Sources, node_id: str) -> str:
 
 
 def is_root_form(token: str, root_name: str) -> bool:
-    """True when the token looks like a form of the given root (its strong radicals in order)."""
+    """True when the token looks like a form of the given root (its strong radicals in order, at most one
+    letter apart)."""
     strong = [c for c in root_name.replace(" ", "") if c not in "اويىءأإآؤئ"]
+    strong = [c for i, c in enumerate(strong) if i == 0 or c != strong[i - 1]]
     if len(strong) < 2:
         return False
-    i = 0
-    for ch in token:
-        if i < len(strong) and ch == strong[i]:
-            i += 1
-    return i == len(strong)
+    return re.search(".?".join(strong), token) is not None
 
 
-def section_fatiha(src: Sources, ref: str, focus: list, surah_ctx: dict) -> str:
+def section_fatiha(src: Sources, ref: str, focus: list) -> str:
     lines = ["# Fatiha lens (recited in every salah; standing context)", ""]
     fat = []
     for i in range(1, 8):
@@ -668,13 +680,17 @@ def section_inter_ayah(src: Sources, ref: str) -> tuple[str, list[str]]:
 
     def text_lines(t, neighbours=True):
         ts, ta = t.split(":")
+        neighbours = neighbours and any(
+            (r["focus_direction_label"] if r["record_type"] == "directional_review" else r["source_direction_label"])
+            == "strong" for r in by_target[t])
         rng = (int(ta) - 1, int(ta), int(ta) + 1) if neighbours else (int(ta),)
         return [f"  - {'**' + f'{ts}:{n}' + '**' if n == int(ta) else f'{ts}:{n}'} {src.quran[f'{ts}:{n}']}"
                 for n in rng if f"{ts}:{n}" in src.quran and n > 0]
 
     lines = [f"# Inter-ayah rows (reciprocal) — {len(rows)} records, {len(by_target)} target ayat", "",
              "Labels are earlier review judgements, not decisions. Targets that share ≥3 focus roots are grouped as",
-             "one formula: the first member carries neighbouring ayat, the rest only their own text.", ""]
+             "one formula: the first member carries neighbouring ayat, the rest only their own text. Only targets with a strong",
+             "row carry neighbouring ayat.", ""]
     i = 0
     for sig, ts in sorted(groups.items(), key=lambda kv: (kv[0][0] == "single", -len(kv[1]))):
         if sig[0] != "single":
@@ -721,7 +737,7 @@ def prepare(ref: str, bundles: Path, out: Path) -> dict:
         "04_bridges.md": section_bridges(src, ref, focus, surah_ctx),
         "05_usage.md": section_usage(src, ref),
         "06_concepts.md": section_concepts(src, ref, focus, surah_ctx, targets),
-        "07_fatiha.md": section_fatiha(src, ref, focus, surah_ctx),
+        "07_fatiha.md": section_fatiha(src, ref, focus),
         "08_surah.md": section_surah(src, ref),
         "09_inter_ayah.md": inter_text,
         "10_leads.md": section_leads(bundle),

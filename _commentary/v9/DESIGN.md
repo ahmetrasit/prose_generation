@@ -150,7 +150,7 @@ signature barely groups (needs similarity clustering). Opus-lane brief: `prompts
 
 1. Sonnet code-review agent is reviewing `prepare.py` (launched in-session; handle saved in session scratchpad
    `reviewer.txt`). When it reports: fix findings, send the patch to the SAME reviewer for re-review.
-2. Then: reduce package (below), regenerate 29:38 v2, commit **and push** (user: push before the cold run).
+2. DONE: reduce package (below), regenerate 29:38 v2. NEXT: commit **and push** (user: push before the cold run).
 3. Then: cold-instance Opus run (Agent tool, model opus, fresh) with `prompts/opus_reader.md` on
    `input/v2/s029/29_38/`, outputs to `pilot/29_38-v2/` (notes.md, 29_38.reading.tr.md, 29_38.harvest.md).
    **Monitor its token usage** (user request) and report it.
@@ -161,13 +161,19 @@ Package 844 KB ≈ 370k tokens (Arabic/Turkish ≈ 2.3 bytes/token). Agent reads
 re-sending growing context: ≈ 370k cache-write (~$1.9) + ~4M cache-read (~$0.8) + ~60k output incl. thinking
 (~$1.2) ≈ **$4 per ayah** API-equivalent (≈ $8k for 2,000 ayat). Reduced package (~450 KB) ≈ $2.3/ayah.
 
-### Package reduction plan (keep recall for an Opus reader)
-- 09_inter_ayah (240 KB): neighbour ayat only for strong/medium rows; weak/no-value rows → one line
-  (label, note, target text). ~-100 KB.
-- 06_concepts (262 KB): group by focus ROOT, not branch (84 branches → 11 roots share most lines); dedupe
-  identical target/concept/hit lines; keep ≤8 targets per root × ≤7 concepts. ~-150 KB; must keep
-  43:36 عشو ⇒ [ليل] 29:41 بيت path.
-- 04_bridges: 120 → 60. 03_pairs: keep. 01_dictionary: keep.
+### Package reduction (done 2026-09-24; 844 KB → 600 KB ≈ 260k tokens ≈ $3/ayah)
+Measured, not the planned figures:
+- 06_concepts 262 → 106 KB. Root grouping and deduping alone saved only ~10%, because each branch finds
+  different targets. The real savings came from two changes: definitional filler added to `_GENERIC`
+  (اسم معروف حال بعد جمع…), and ranking rows by summed concept idf, `CONCEPT_TARGETS = 10` per root.
+  Ranking by affinity instead dropped the عشو path. Hits per concept went 3 → 5, so 29:41 بيت stays on
+  the [ليل] hit list. Invariant: بصر → 43:36 يعش ع ش و B006 ⇒ [ليل] … 29:41 بيت B001.
+- 09_inter_ayah 239 → 167 KB. Neighbour ayat were first kept for strong+medium rows, but those are 263 of
+  350 rows, so that saved only 26 KB. Neighbours are now kept only for targets with a strong row.
+- 04_bridges 39 → 19 KB (`BRIDGES_MAX = 60`). 01_dictionary (91 KB) and 03_pairs (98 KB) are unchanged.
+Code-review fixes: rank-0 sentinel in `top_fast`; identity-first dictionary; vectorised reverse ranks
+(runtime 20 s → 5 s); deduped `top_distinct` pool labelled by nearest occurrence; tighter `is_root_form`;
+one-letter proclitics via `_lemma_form`.
 
 ## Open items / next steps
 
