@@ -146,6 +146,29 @@ Verified on 29:38: ECHO ع د د for عادا; eye-film → spider still first n
 Weak spots: concepts file is large (262 KB) and noisy; bridges noisy; formula grouping by exact root
 signature barely groups (needs similarity clustering). Opus-lane brief: `prompts/opus_reader.md`.
 
+## CURRENT STEP (2026-09-24, before compaction)
+
+1. Sonnet code-review agent is reviewing `prepare.py` (launched in-session; handle saved in session scratchpad
+   `reviewer.txt`). When it reports: fix findings, send the patch to the SAME reviewer for re-review.
+2. Then: reduce package (below), regenerate 29:38 v2, commit **and push** (user: push before the cold run).
+3. Then: cold-instance Opus run (Agent tool, model opus, fresh) with `prompts/opus_reader.md` on
+   `input/v2/s029/29_38/`, outputs to `pilot/29_38-v2/` (notes.md, 29_38.reading.tr.md, 29_38.harvest.md).
+   **Monitor its token usage** (user request) and report it.
+4. User reviews; compare with `pilot/29_38/` (in-session reading).
+
+### Cost estimate (Opus 5.5: $4/M in, $20/M out, cache reads $0.20/M, cache writes ~1.25× input)
+Package 844 KB ≈ 370k tokens (Arabic/Turkish ≈ 2.3 bytes/token). Agent reads in ~25k chunks (~15-20 steps),
+re-sending growing context: ≈ 370k cache-write (~$1.9) + ~4M cache-read (~$0.8) + ~60k output incl. thinking
+(~$1.2) ≈ **$4 per ayah** API-equivalent (≈ $8k for 2,000 ayat). Reduced package (~450 KB) ≈ $2.3/ayah.
+
+### Package reduction plan (keep recall for an Opus reader)
+- 09_inter_ayah (240 KB): neighbour ayat only for strong/medium rows; weak/no-value rows → one line
+  (label, note, target text). ~-100 KB.
+- 06_concepts (262 KB): group by focus ROOT, not branch (84 branches → 11 roots share most lines); dedupe
+  identical target/concept/hit lines; keep ≤8 targets per root × ≤7 concepts. ~-150 KB; must keep
+  43:36 عشو ⇒ [ليل] 29:41 بيت path.
+- 04_bridges: 120 → 60. 03_pairs: keep. 01_dictionary: keep.
+
 ## Open items / next steps
 
 1. Pull quran-data (user allowed; ask on conflicts); build packager v2.
