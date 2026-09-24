@@ -110,10 +110,10 @@ Validator: `_commentary/v5/validate_prose.py` (no commas in tr fields, no colons
   type = withheld_observed_target | shared_two_radicals_weak | metathesis | documented_jinas,
   evidence, status "resonance candidate, not identity"). V9 shows it in its own package section;
   writer may use it only as a sound-echo note unless a classical source supports a semantic link.
-- **quran-data pull blocked** (2026-09-24): local main 22 behind origin, 0 ahead; uncommitted local
-  work (reciprocal prefatory aliases, READY.json, schema, tests) and INVENTORY/README/STATUS/
-  inter-ayah README/MANIFEST differ from upstream. Waiting for the user. Meanwhile read gateway files via
-  `git show origin/main:<path>` (no working-tree changes).
+- **quran-data pulled** (2026-09-24, by user): HEAD 2a4e17469, level with origin/main. Gateway files
+  are in the working tree (`data/bridges/qac-dictionary-root-resolutions.json`,
+  `qac-dictionary-word-root-analyses.json`). Remaining uncommitted local work is the prefatory-alias
+  set (112 TSVs + docs/schemas/scripts/tests); numbered `reciprocal/focus_S_A` files used by V9 are clean.
 
 ## Open items / next steps
 
