@@ -150,7 +150,7 @@ signature barely groups (needs similarity clustering). Opus-lane brief: `prompts
 
 1. Sonnet code-review agent is reviewing `prepare.py` (launched in-session; handle saved in session scratchpad
    `reviewer.txt`). When it reports: fix findings, send the patch to the SAME reviewer for re-review.
-2. DONE: reduce package (below), regenerate 29:38 v2. NEXT: commit **and push** (user: push before the cold run).
+2. DONE: reduce package (below), regenerate 29:38 v2, commit and push. 3. DONE: cold run (see below) (user: push before the cold run).
 3. Then: cold-instance Opus run (Agent tool, model opus, fresh) with `prompts/opus_reader.md` on
    `input/v2/s029/29_38/`, outputs to `pilot/29_38-v2/` (notes.md, 29_38.reading.tr.md, 29_38.harvest.md).
    **Monitor its token usage** (user request) and report it.
@@ -174,6 +174,22 @@ Measured, not the planned figures:
 Code-review fixes: rank-0 sentinel in `top_fast`; identity-first dictionary; vectorised reverse ranks
 (runtime 20 s → 5 s); deduped `top_distinct` pool labelled by nearest occurrence; tighter `is_root_form`;
 one-letter proclitics via `_lemma_form`.
+
+### Cold Opus run on the v2 package (2026-09-24; `pilot/29_38-v2/`)
+Opus 5.5 subagent, cold (read only the brief and the package). Interrupted once by the plan's session
+limit and resumed with its context. Read every file to the end; the harvest accounts for all 15 HFT
+records; `validate_prose` ok. Reading ≈ 4,500 words, 6 thread sections.
+Usage: 46 calls, 736k cache write, 12.2M cache read, peak context 466k, 37k output (thinking ≈ 5–11k,
+estimated) ≈ **$6.9 API-equivalent**. The cost is dominated by re-reading a 300–460k context every call:
+about 30 Bash calls went to checking Arabic quotes.
+Recall against the user's checks:
+- Present: eye film (spider's-web veil), kohl in ص د د, the Ād ↔ ع د د sound echo (once, as echo),
+  29:41 spider house, the سكن ⇐ night sense (جعل الليل سكنا).
+- Missing: the 43:36 night-blindness ⇒ بيت night-dwelling ⇒ "sees by day, not at night" path
+  (43:36 is cited only plainly); the salla second-horse link.
+- Partial: the Fātiḥa road (its own section) and the worn-road section do not meet.
+Cost levers: reading in bigger chunks (fewer calls); a cheap script to check Arabic quotes instead of
+agent Bash loops; putting 09 earlier or splitting it off.
 
 ## Open items / next steps
 
