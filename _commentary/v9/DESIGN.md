@@ -133,6 +133,19 @@ Validator: `_commentary/v5/validate_prose.py` (no commas in tr fields, no colons
      section. For 29:38: 29:45 prayer = daily recitation of اهدنا الصراط; 7:16 صراطك المستقيم; Fātiḥa asks for a
      road defined by who walked it (صراط الذين أنعمت عليهم) — a walked road, but of the favoured.
 
+## Packager v2 (built 2026-09-24; `prepare.py`, output `input/v2/s029/29_38/`, ~844 KB)
+
+Files: 00_ayah, 01_dictionary (identity / documented alternative / ECHO roots), 02_hft, 03_pairs (±7),
+04_bridges, 05_usage (concordance, rare-lemma occurrences + co-occurring roots, hapax, near-synonyms),
+06_concepts (concept paths), 07_fatiha, 08_surah (whole surah), 09_inter_ayah (formula groups ≥2), 10_leads.
+Affinities are computed from the global quran-slm rank maps (rows only; fusion 0.35 E5 / 0.35 Neo / 0.30 char)
+over gateway-based activations — the old surah views and their alignment table are no longer used.
+Verified on 29:38: ECHO ع د د for عادا; eye-film → spider still first near partner; new same-ayah عمل B010
+(working organ / far-seeing eye); Fatiha: سبيل B001 → صراط B001 (1:6), اهدنا, ملك B006 "middle of the road";
+مستبصرين hapax; concept path 43:36 عشو B006 ⇒ [ليل] 29:41 بيت B001, [نهار] 29:37 فأصبحوا, [ضعف] 29:41 أوهن.
+Weak spots: concepts file is large (262 KB) and noisy; bridges noisy; formula grouping by exact root
+signature barely groups (needs similarity clustering). Opus-lane brief: `prompts/opus_reader.md`.
+
 ## Open items / next steps
 
 1. Pull quran-data (user allowed; ask on conflicts); build packager v2.
