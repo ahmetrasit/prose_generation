@@ -93,6 +93,28 @@ citations `(S:A)` beside claims (no ranges) → closing → `## Ek Notlar` (one 
 but unthreaded finding). Certainty by wording; limits stated once where they matter.
 Validator: `_commentary/v5/validate_prose.py` (no commas in tr fields, no colons in gloss).
 
+## Findings log
+
+- **Luna-6 surah chain run** (`pilot/luna6-chains/`, ~38 min, redid S1 after compaction):
+  opened all 69 ayah pages / 226 roots / 1,951 branches for S29, yet missed 29:38 eye-film
+  (سبل B010), kohl (صدد B013) and 29:45 second horse (صلو B006). Found other real catalog
+  activations (بيت B003 verse-line ↔ 29:43 أمثال; ندو B006 herd between water and pasture;
+  غشو B005 fainting; حرم B005 sacred month). Chains are mostly contextual-sense thematic maps.
+  → False negatives are attention, not access: supports precomputed pair lists + per-pair verdicts.
+- **Root identity gateway** (quran-data origin/main e523a206c): 1,642 QAC root rows; 11 composite;
+  103 rows with 116 withheld observational targets (policy: discovery evidence only, not identity).
+  عود → root_001058 only (ع د د root_000989 withheld); اسم → سمو primary, وسم word-scoped alternative.
+  Assessment: correct for identity; but consumers following the rule lose sound-family evidence
+  that latent-reading work uses (classical ishtiqāq kabīr / jinās). Proposed fix: a separate typed,
+  word-level, non-identity layer (e.g. `qac-root-sound-echoes.json`: selector qacRef|lemma, echo root,
+  type = withheld_observed_target | shared_two_radicals_weak | metathesis | documented_jinas,
+  evidence, status "resonance candidate, not identity"). V9 shows it in its own package section;
+  writer may use it only as a sound-echo note unless a classical source supports a semantic link.
+- **quran-data pull blocked** (2026-09-24): local main 22 behind origin, 0 ahead; uncommitted local
+  work (reciprocal prefatory aliases, READY.json, schema, tests) and INVENTORY/README/STATUS/
+  inter-ayah README/MANIFEST differ from upstream. Waiting for the user. Meanwhile read gateway files via
+  `git show origin/main:<path>` (no working-tree changes).
+
 ## Open items / next steps
 
 1. Pull quran-data (user allowed; ask on conflicts); build packager v2.
