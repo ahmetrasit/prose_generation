@@ -115,6 +115,24 @@ Validator: `_commentary/v5/validate_prose.py` (no commas in tr fields, no colons
   `qac-dictionary-word-root-analyses.json`). Remaining uncommitted local work is the prefatory-alias
   set (112 TSVs + docs/schemas/scripts/tests); numbered `reciprocal/focus_S_A` files used by V9 are clean.
 
+- **User review of 29:38 reading (2026-09-24): "great / excellent analysis and prose".** Gaps raised:
+  1. بيت = night shelter (Tahdhīb: سمي بيتا لأنه يبات فيه; Mufradāt: مأوى الإنسان بالليل; B004 night
+     action/raid; B007 grave) ↔ عشو B006 "sees by day, not at night" (43:36) ↔ مستبصرين. Missed in pilot.
+     Global image network: عشو B006 → بصر B001 rank 10, but → بيت B001/B004 rank 399/371: the link is a
+     shared component (night), not image similarity. Fix: **shared-concept (motif) links** — index content
+     lemmas/concepts in branch definitions (ليل, عين, طريق, ماء, نسج…) with rarity weighting, plus a small
+     complementary-relation table (ليل↔نهار/صبح); check quran-data `analysis/channels/network-v3` motifs as a source.
+     Context support: 29:37 فَأَصْبَحُوا (morning), 15:83 مصبحين, 37:137-138 morning and night.
+  2. Ād / ع د د: user wants it kept (gateway withholds root_000989 for عود). V9 packager v2: for each focus
+     word, include withheld/observed targets from the occurrence map as **echo roots** with full branches,
+     flagged as non-identity; recover all such cases, not only Ād.
+  3. Fātiḥa road (اهدنا الصراط المستقيم / صراط الذين أنعمت عليهم / الضالين) should resonate with §3; missing
+     because 29:38's inter-ayah rows contain no S1 target and the pair network is surah-local. User adds
+     Fātiḥa to every ayah analysis (recited in ṣalāt). Fix: **Fātiḥa lens** as a standing package section
+     (S1 text, focus×S1 branch pairs, context×S1 bridges, near-synonym سبيل↔صراط); writer weaves or gives a
+     section. For 29:38: 29:45 prayer = daily recitation of اهدنا الصراط; 7:16 صراطك المستقيم; Fātiḥa asks for a
+     road defined by who walked it (صراط الذين أنعمت عليهم) — a walked road, but of the favoured.
+
 ## Open items / next steps
 
 1. Pull quran-data (user allowed; ask on conflicts); build packager v2.
