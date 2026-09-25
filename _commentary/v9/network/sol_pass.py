@@ -25,6 +25,7 @@ sys.path.insert(0, str(V9 / "luna"))
 import run as R  # noqa: E402  (codex runner with reasoning effort max, output splitting, guarded repair)
 
 SOL = "gpt-6-sol"
+REPAIR = "gpt-6-luna"  # localized quote/format repairs: bounded, script-checked (reasoning effort max)
 
 
 OUT_DIR = "sol"  # output folder under network/out/S_A/ (--dir); the backbone is always sol/backbone.md
@@ -150,7 +151,7 @@ def check(ref: str) -> None:
         if not problems:
             break
         print(f"check {attempt}: {len(problems)} problem(s): " + "; ".join(problems[:6]))
-        status = R.repair_reading(SOL, p["reading"], p["pkg"], p["pkg"], problems, flagged,
+        status = R.repair_reading(REPAIR, p["reading"], p["pkg"], p["pkg"], problems, flagged,
                                   p["sol"] / f"repair{attempt}.log.jsonl")
         if status.startswith("repair reverted"):
             break
