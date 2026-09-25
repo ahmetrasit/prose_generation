@@ -146,15 +146,16 @@ Verified on 29:38: ECHO ع د د for عادا; eye-film → spider still first n
 Weak spots: concepts file is large (262 KB) and noisy; bridges noisy; formula grouping by exact root
 signature barely groups (needs similarity clustering). Opus-lane brief: `prompts/opus_reader.md`.
 
-## CURRENT STEP (2026-09-24, before compaction)
+## CURRENT STEP (updated 2026-09-24 evening)
 
-1. Sonnet code-review agent is reviewing `prepare.py` (launched in-session; handle saved in session scratchpad
-   `reviewer.txt`). When it reports: fix findings, send the patch to the SAME reviewer for re-review.
-2. DONE: reduce package (below), regenerate 29:38 v2, commit and push. 3. DONE: cold run (see below) (user: push before the cold run).
-3. Then: cold-instance Opus run (Agent tool, model opus, fresh) with `prompts/opus_reader.md` on
-   `input/v2/s029/29_38/`, outputs to `pilot/29_38-v2/` (notes.md, 29_38.reading.tr.md, 29_38.harvest.md).
-   **Monitor its token usage** (user request) and report it.
-4. User reviews; compare with `pilot/29_38/` (in-session reading).
+1. DONE: packager v2 + review fixes + reduction; cold Opus run (`pilot/29_38-v2/`); Opus brief fixed
+   (`prompts/writer_rules.md` shared by all writers; `opus_reader.md` slimmed; `verify_ar.py`).
+2. DONE: Luna findings lane built and run on 29:38 (section "Luna findings lane" below).
+3. DONE: writers on Luna's findings — `pilot/29_38-gpt-6-sol/`, `pilot/29_38-gpt-6-luna/`,
+   `pilot/29_38-opus-findings/` (Opus 5.5 subagent). NEXT: Opus 5.5 review of outputs and plan.
+4. NEXT: compare the three readings (Opus cold, Sol, Luna) against the user's goal and the key findings;
+   the user decides whether Sol/Luna come close enough to Opus. Quality verdict comes before more building.
+5. THEN (user agreed): push → script pass → grep-based repair (below); shared-trigger index in merge.
 
 ### Cost estimate (Opus 5.5: $4/M in, $20/M out, cache reads $0.20/M, cache writes ~1.25× input)
 Package 844 KB ≈ 370k tokens (Arabic/Turkish ≈ 2.3 bytes/token). Agent reads in ~25k chunks (~15-20 steps),
@@ -190,6 +191,120 @@ Recall against the user's checks:
 - Partial: the Fātiḥa road (its own section) and the worn-road section do not meet.
 Cost levers: reading in bigger chunks (fewer calls); a cheap script to check Arabic quotes instead of
 agent Bash loops; putting 09 earlier or splitting it off.
+
+## Luna findings lane (built 2026-09-24; `luna/`, prompts `luna_worker.md`, `findings_writer.md`)
+
+User rules for this lane: all GPT runs at max reasoning (Luna 6 max, Sol 6 max); do not squeeze input or
+output for its own sake — only for attention (dilution, skipping); V9 may cost more than V5 if it performs
+better. No trimming of Luna's inputs (concept paths stay): the risk is Luna skipping, not size.
+
+- `worklists.py`: package → `context.md` (ayah, Fatiha, surah) + bundles ≤40 KB: W1 one item per focus
+  branch (dictionary line + all its pairs, concept paths, Fatiha pairs, bridges as numbered lines) and one
+  usage item per root; W2 HFT + leads; W3 inter-ayah targets (formula groups kept together).
+  29:38: 397 items, 1,234 numbered lines, 17 bundles (W1 11, W2 1, W3 5), ≈190k tokens (o200k).
+- Luna returns per item a verdict; per numbered line a code (- n r); every n/r line its own full record
+  (`<item>.<k>`). "A miss costs more than a false alarm": the partner/concept word is the trigger; the
+  other ayah need not spell the image out. Extra findings `X<n>`.
+- `check_records.py`: every id, code counts, n/r sub-records, Arabic in the cited ayah, no repeated
+  sentences. `merge.py`: compact `findings.md` (readings with image, reason, branch sense; notes one line;
+  cited ayat) + `records_index.md`. `run.py`: discover / write / usage (Codex JSON logs).
+- Pilot lesson: inlining brief + context + bundle in the prompt (stdin) cut a bundle from 966k to 184k
+  input and from 16 to 2 tool steps, and (with the miss rule) turned the 43:36 night path from `-` into a
+  reading.
+
+Measured on 29:38 (Luna discovery, 17 sessions): 5.14M input (4.19M cached), 494k output (379k reasoning,
+≈115k visible ≈ the records). Largest single request 92k (none near the 272k double-price threshold).
+Luna-price cost (V8 COSTS.md rates, $0.20/$1.20; cached assumed 10%): ≈$0.87/ayah ($1.62 without cache
+discount); W1 ≈70%. V5 S12 measured: discovery ≈$0.31/ayah, discovery+composition ≈$0.61/ayah.
+Records: 627 (274 readings, 285 notes, 68 none). Caught: kohl (ص د د B013), عين قائمة ذاهبة البصر,
+43:36 night-blindness → بيت, eye film / web veil, worn road (عمل B011), Ād ↔ ع د د; the four road branches
+(عود B009, عمل B011, صدد B004, سبيل B001) all converge on ٱلسَّبِيلِ and ٱلصِّرَٰطَ (1:6) — found separately,
+joined only in synthesis. Weakness: generous on inter-ayah (plain-sense "readings").
+
+Writers (inlined: findings_writer + writer_rules + context + findings ≈85k tokens):
+- gpt-6-sol: 31 calls, 4.58M input (4.41M cached), 40k output (12k reasoning), peak call 172k; Sol $4/$20
+  → ≈$3.2 (cached at 10%), ≈$19 without discount. ~25 of 31 calls were mechanical self-repair
+  (verify/validate/python edits/re-reading own file), each re-sending 100–170k.
+- gpt-6-luna: 63 calls, 10.69M input (10.24M cached), 178k output (104k reasoning), peak call 243k
+  (near the 272k threshold); ≈$0.50 at Luna prices (cached 10%). Prose: concordance essay, weakest.
+- Opus 5.5 on the same findings (Claude Code subagent): 32 calls, 5.88M cache read, 594k cache write, peak
+  context 341k, ≈$4.3–5; 9,289 words (cold Opus 4,518), 262 of 274 readings used, 22 of 285 notes.
+- My assessment (prose): cold Opus > Sol > Luna writer. Sol: best recall of user-flagged items (night
+  path, road join) but catalogue rhythm, forced weak links, repeated hedging; missed kohl, عين قائمة,
+  grammar/irony insights. Luna writer: lists (history, زين concordance), weakest notes got paragraphs,
+  scope errors (27:24 and 41:25 called "in this surah"), missed the night path and kohl.
+- Cause (shared): 559 unranked records framed as obligations ("every reading must reach the prose");
+  ~80–120 carry the reading (112 of 133 global readings are plain parallels); the pipeline's briefs are
+  Opus-shaped (abstract rules) while GPT writers need concrete procedure and examples.
+
+Effort test (one bundle, W1_branches_7 ص د د, single runs — production runs each bundle once): high kept
+12 lines vs max 20 (agree on 139/150), ≈1/3 the tokens; dropped 5 weak links (ṣayḥa noise path, ifk,
+bridge, mirror-water, veil-janna) but also 3 valuable ones (Fātiḥa ٱهْدِنَا → road-to-water; kohl →
+إنسان العين pupil image; أَنْعَمْتَ → eye-joy) and upgraded 2 weak أولياء lines; demoted prayer تنهى ↔ صدّ.
+Reading: max's extra is mostly notes; fix over-finding at ranking, not effort. xhigh test running.
+
+### Next iteration (agreed with the user; build after the comparison)
+- **Push, then script pass, then grep-based repair.** The first session (Luna judge or writer) gets everything pushed and returns its
+  output as the final message (one call). The runner writes files, runs the mechanical fixers
+  (`verify_ar.py --fix`, `validate_prose.py`, `check_records.py`), and sends only residual problems to a
+  FRESH small repair session that greps the same content (worklist items by id, findings, package, Quran
+  via scripts) instead of resuming the big session. Guards: readings — only flagged lines may change
+  (diff check), unmatched quotes corrected from source, never dropped; records — codes never downgraded
+  from r/n to -, coded lines never lose their record; judgement questions go back to the original session.
+  Expected: Sol writer ≈0.2M input (≈$1.3), Luna discovery ≈0.8–1.0M input.
+- **Shared-trigger index** in `merge.py` (pushed to the writer): triggers hit by records from ≥2 roots,
+  with their records (e.g. ٱلسَّبِيلِ, ٱلصِّرَٰطَ). Writer brief: each cluster → a thread or an explicit join.
+- Harvest: writer lists only used records (section) and rejected readings (reason); `records_index.md`
+  covers the rest mechanically.
+- Worklist: print a code template per item (`lines: ________ (16)`) to cut count errors.
+- Luna records get a strength field (1–3) set at judging time.
+- `merge.py` builds the writer input as ranked clusters: 8–12 threads from shared triggers/images; core =
+  strength ≥2 readings + HFT + X + 15–25 representative global parallels; reserve (notes, strength 1, other
+  parallels) pullable by id, not pushed.
+- Recall checklist for 29:38 (script over any reading): night path, kohl, عين قائمة, eye film, worn road,
+  road ↔ ṣirāṭ join, Ād/ع د د, 29:40 accusative resolution, تَبَيَّنَ/زَيَّنَ, zayn/shayn, 8:48 "I see
+  what you do not see".
+- Drop the Luna writer. Writer choice after review: Opus on findings vs Sol with a GPT-specific brief
+  (explicit procedure: cluster → thesis → supporting records → write → drop images that do not meet the
+  thesis, never hedge; one non-overfitting example paragraph from outside 29:38).
+- GPT briefs (Luna judge and Sol writer) must counter GPT conservatism explicitly: this is
+  hypothesis-generating discovery prose — propose and develop bold readings when both keys hold, do not
+  retreat to the safe plain sense, do not hedge a reading you keep (user, 2026-09-24).
+- Test the selective framing ("most of this is noise; choose what carries the reading") with Sol and Luna
+  writers again, on the ranked input (user, 2026-09-24).
+- Verify: rerun 29:38 end to end (recall checklist, prose ≥ best so far, no call >~150k, token report),
+  then a second, longer ayah from another surah.
+
+### Opus 5.5 review of the four readings and the plan (2026-09-24 night)
+Rank / checklist (14 items): cold Opus 12.5 > Opus-on-findings 10.5 > Sol 6.5 > Luna writer 4.
+- Opus-on-findings: widest recall of Luna items (night path, kohl, eye film, roads ↔ ṣirāṭ, 8:48, صدّ ↔
+  تنهى) + new finds (29:37 repeats Thamūd's formula 7:78/11:67; خسف = sunken eye; 3:99 عوجا ↔ شطن) but
+  ~43% of words in 11 catalogue paragraphs (8–20 citations each).
+- Sol and Luna writers actively REJECTED kohl / night path on literal grounds ("no mirror named", "no
+  night cue") — writer re-judging undoes Luna's miss rule. Luna writer also has scope/attribution errors.
+- CORRECTION to "Caught" above: عين قائمة is coded `-` in most places and survives only as note
+  R08.B010.12; road-to-water (صدد B004) only notes; zayn/shayn serpent only a note; night sense of سكن a
+  note. merge.py printed notes as one line without dictionary source phrase, so writers never saw them.
+- Missing everywhere: the Fatiha eye cluster vs مستبصرين (ٱلْمُسْتَقِيمَ ق و م B021, أَنْعَمْتَ ن ع م
+  B013, ٱلْمَغْضُوبِ غ ض ب B006, خسف eye sunk); "sees by day, not at night" vs 29:37 فَأَصْبَحُوا; kohl →
+  إنسان العين via 29:43; عود B004 habit ↔ الدين (1:4) habit road; deep well in two roots (ب ي ن B006 بئر
+  بائنة, ش ط ن B001 بئر شطون); ب ي ن B012 irrevocable divorce vs عاد "return"; 17:59 ثمود الناقة مبصرة —
+  not in the package at all (no same-people × focus-root index).
+- Plan risks: a Luna-set strength field + pull-only reserve would bury exactly the rare, low-confidence
+  finds the user values. Rank on latency (rare branch vs plain restatement) × key strength; push all
+  rare-branch notes compactly with their Arabic source phrase; collapse plain global parallels (112/133)
+  into formula clusters; cluster by image as well as trigger.
+- Remove writer re-judging ("verify every record … drop"): scripts verify Arabic; the writer rejects only
+  for a stated factual error.
+- Grammar/rhetoric insights (accusatives, لكم/لهم, تبين/زين, الزين نقيض الشين) come only from an
+  ayah-internal pass: give the writer 00_ayah + focus roots' dictionary (source phrases) and require it.
+- Replace "every reading must reach the prose" with "every cluster reaches the prose via representatives";
+  add a catalogue detector (paragraphs with ≥8 citations), mechanical harvest (script maps tags to ids;
+  writer lists only rejections), W3 formula clustering before Luna judges, same-people × focus-root index.
+- Recommended: Luna (max) → merge clusters → Opus writer, one pushed call (~130–150k in, 30–40k out,
+  estimated ≈$1.4–1.6) → script pass → fresh repair. ≈$2–2.7/ayah API-equivalent (estimate).
+- Repair guards to add: a repair may fix the citation, not only the quote; diff-log verify_ar --fix
+  rewrites; set output format/size for final-message outputs (Codex final-message length unverified).
 
 ## Open items / next steps
 
