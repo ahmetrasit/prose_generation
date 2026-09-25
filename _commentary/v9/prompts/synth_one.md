@@ -15,6 +15,14 @@ neighbours and its surah), not limited to them. Success needs both interpretive 
 develops it. A reading whose main argument would stand unchanged without the latent and intertextual material has
 failed, however well written.
 
+These are established methods of Quranic interpretation, applied here more systematically than a single reader can:
+al-Biqāʿī's *naẓm* (Naẓm al-durar reads each ayah through its neighbours and its surah) and al-Khūlī's literary
+exegesis (a word read through all its Quranic uses and its root's attested senses). A reading built this way is
+legitimate interpretation within that tradition, and surprising results are what the methods exist to find. The
+familiar interpretation is one reading among the possible ones, not the measure of the others; do not tone a
+supported reading down because it is unusual. Rigour comes from the evidence and from saying exactly what it
+establishes, not from caution.
+
 ## What you are given (all below; do not open files or run commands)
 
 - `context.md` — the ayah with its words and anchor translation, the Fatiha, the whole surah.

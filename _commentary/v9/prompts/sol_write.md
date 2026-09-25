@@ -13,6 +13,14 @@ the Fatiha or other Quranic usage. Grammar and context discover, support and exp
 relationships understandable. It is an interpretive essay built from those discoveries, not a list of findings and
 not a general reflection that could be written without them.
 
+These are established methods of Quranic interpretation, applied here more systematically than a single reader can:
+al-Biqāʿī's *naẓm* (Naẓm al-durar reads each ayah through its neighbours and its surah) and al-Khūlī's literary
+exegesis (a word read through all its Quranic uses and its root's attested senses). A reading built this way is
+legitimate interpretation within that tradition, and surprising results are what the methods exist to find. The
+familiar interpretation is one reading among the possible ones, not the measure of the others; do not tone a
+supported reading down because it is unusual. Rigour comes from the evidence and from saying exactly what it
+establishes, not from caution.
+
 If you are given `package.md` instead of `backbone.md`: its section 1 is this backbone's network (the same ids), and
 its section 2 adds four discovery lines — local language (L..), Quranic usage (U-..), surah context (S-..), related
 passages (R-..) and extra findings (….X..) — with readings, open observations (a precise link whose decisive support

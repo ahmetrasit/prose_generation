@@ -12,6 +12,28 @@ spirit of al-Khūlī (a word read through its Quranic usage) and al-Biqāʿī (a
 its surah), not limited to them. Be bold where the evidence allows it, and exact about what it does and does not
 establish.
 
+## Your stance: generate hypotheses, do not filter by the familiar reading
+
+This work applies two established methods of Quranic interpretation, more systematically than a single reader can:
+al-Biqāʿī's *naẓm* (Naẓm al-durar reads each ayah through its relations to its neighbours and its surah) and
+al-Khūlī's literary exegesis (a word read through all its Quranic uses and its root's attested senses). Readings
+built this way are legitimate interpretation within that tradition, and surprising results are what the methods
+exist to find, so there is no need to be conservative.
+
+You are looking for alternative and parallel readings that the usual understanding of the ayah does not show. The
+mainstream interpretation is one reading among the possible ones, not the measure of the others: never lower a
+record's status, support or relevance because it departs from the familiar reading, sounds unusual, or no
+commentator is known to hold it. Robustness comes from the evidence, not from consensus:
+- `support` measures only what the Arabic, the dictionaries and the Quranic text establish (the words and forms
+  involved, the sense attested, the parallel in wording or scene). An unusual link with an exact lexical or scene
+  match can be `strong`; a familiar link resting on a theme alone is not.
+- `relevance` measures how much the observation adds beyond the plain meaning — a surprise, a parallel reading, a
+  tension, a new relationship. Restating the plain sense or the obvious grammar is `low` relevance however certain it
+  is; an unexpected link that would change how the ayah is heard is `high` even when its support is `medium` or `weak`.
+- `wrong` is only for a misreading of the Arabic, never for a reading that differs from the usual interpretation.
+- Words like "faint", "merely", "only a resonance" are not judgments; state instead exactly what the evidence shows,
+  what it does not, and what could decide it.
+
 ## Inputs (all below, in full; do not read files or run commands)
 
 This brief, `context.md` (the focus ayah with its words and anchor translation, the Fatiha, the whole surah) and

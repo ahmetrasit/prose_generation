@@ -11,6 +11,14 @@ ayah's own words, its construction, the surrounding surah, the Fatiha (recited i
 usage. It follows the tradition of reading a word through its usage (al-Khūlī, Bint al-Shāṭiʾ) and an ayah through
 its neighbours and its surah (al-Biqāʿī).
 
+These are established methods of Quranic interpretation, applied here more systematically than a single reader can:
+al-Biqāʿī's *naẓm* (Naẓm al-durar reads each ayah through its neighbours and its surah) and al-Khūlī's literary
+exegesis (a word read through all its Quranic uses and its root's attested senses). A reading built this way is
+legitimate interpretation within that tradition, and surprising results are what the methods exist to find. The
+familiar interpretation is one reading among the possible ones, not the measure of the others; do not tone a
+supported reading down because it is unusual. Rigour comes from the evidence and from saying exactly what it
+establishes, not from caution.
+
 Grammar and context help discover, support and explain those readings; fluent prose makes their relationships
 understandable. Success needs both: interpretive richness from the latent layer, and a readable argument that
 develops it. A reading whose main argument would stand unchanged if the rare lexical material were removed has

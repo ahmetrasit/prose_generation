@@ -2,7 +2,7 @@
 """Run the V9 discovery lines for one ayah: one Luna session per worklist bundle (gpt-6-luna, reasoning effort max,
 everything pushed, records returned as the final message), then check the records.
 
-  python3 _commentary/v9/lines/run.py run 18:86 [--parallel 4] [--only usage]
+  python3 _commentary/v9/lines/run.py run 18:86 [--parallel 4] [--only usage,related_2]
   python3 _commentary/v9/lines/run.py check 18:86
   python3 _commentary/v9/lines/run.py usage 18:86      token usage per session
 
@@ -134,13 +134,15 @@ def main() -> None:
     ap.add_argument("step", choices=("run", "check", "usage"))
     ap.add_argument("ref")
     ap.add_argument("--parallel", type=int, default=4)
-    ap.add_argument("--only", default="", help="only bundles of this line (local, usage, surah, related)")
+    ap.add_argument("--only", default="", help="only these lines or bundles, comma-separated (usage, related_2 …)")
     a = ap.parse_args()
     if a.step == "usage":
         return usage(a.ref)
     w = work(a.ref)
     q = quran()
-    names = sorted(p.name for p in w.glob("*_*.md") if not a.only or p.name.startswith(a.only + "_"))
+    only = [o for o in a.only.split(",") if o]
+    names = sorted(p.name for p in w.glob("*_*.md")
+                   if not only or any(p.stem == o or p.name.startswith(o + "_") for o in only))
     if a.step == "check":
         for n in names:
             print(n, check_bundle(w, n, q)[:5])

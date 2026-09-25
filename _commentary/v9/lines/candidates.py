@@ -236,7 +236,7 @@ def build(ref: str) -> None:
     for r, ks in shared.items():
         if len(ks) >= 2:
             groups[tuple(sorted(ks))].append(r)
-    for sig, rs in sorted(groups.items(), key=lambda kv: (-len(kv[0]), -len(kv[1]))):
+    for sig, rs in sorted(groups.items(), key=lambda kv: (-len(kv[0]), -len(kv[1]), kv[0])):
         rs.sort(key=lambda r: tuple(map(int, r.split(":"))))
         body = "\n".join(passage(r, 0) for r in rs[:4])
         items["related"].append((f"R-f-{'-'.join(sig)}", f"### R-f-{'-'.join(sig)} formula family "
@@ -245,6 +245,8 @@ def build(ref: str) -> None:
     # ---------------------------------------------------------------- write bundles
     tsv = []
     for line, its in items.items():
+        for old in out.glob(f"{line}_*.md"):  # a rebuild may produce fewer bundles
+            old.unlink()
         n, cur, size = 1, [], 0
         for iid, text in its:
             if cur and size + len(text.encode()) > BUNDLE_BYTES:
