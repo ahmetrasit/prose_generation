@@ -1,0 +1,1939 @@
+# Package for 29:38
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### H1 ٱلسَّبِيلِ — 6 roots converge
+Plain sense of ٱلسَّبِيلِ: yol ve bir amaca ulaştıran yol (طريق ممتد يسلك)
+- **H1.1** [dictionary] ص د د B004 «suya giden yol» طريق إلى الماء — word فَصَدَّهُمْ (2 dictionaries); source: الصَّداد الطريق إلى الماء (maqayis;sihah)
+  - evidence: lex/image: طريق names the plain image of ٱلسَّبِيلِ || rel/near_synonym: س ب ل B001 (yol) || Luna (same): The way they were turned from can sound like a practical route to water.
+- **H1.2** [dictionary] ع م ل B011 «işlek yol» الطريق المعمل — word أَعْمَٰلَهُمْ (1 dictionaries, sole attestation); source: طريق معمل أي لحب مسلوك (sihah) (also L1.10)
+  - evidence: lex/image: طريق names the plain image of ٱلسَّبِيلِ || Luna (same): The path can be heard as a route already worn by travel. That makes the blocked way feel familiar and physical, not merely abstract.
+- **H1.3** [dictionary] ع م ل B012 «yaya yolcular» بنو العمل من المشاة — word أَعْمَٰلَهُمْ (1 dictionaries, sole attestation); source: المسافرون إذا مشوا على أرجلهم يسمون بني العمل (tahdhib)
+  - evidence: rel/near_synonym: س ب ل B002 (yaya yolcular ile yolcular) || Luna (complement): The way they were turned from becomes a road with walkers on it, not just an abstract course.
+- **H1.4** [dictionary] ع و د B009 «eski yol ve köklü geçmiş» قدم وطريق عود — word وَعَادًا (5 dictionaries); source: العود الطريق القديم (ayn)؛ رحم عودة يعني قديمة (ayn)؛ السودد العود (maqayis)؛ الطريق القديم عود (maqayis)؛ العود الطريق القديم (sihah)؛ سودد عود أي قديم (sihah)؛ طريق عود إذا كان عاديا (tahdhib)؛ العود الطريق القديم الذي يعود إليه السفر (mufradat)
+  - evidence: lex/image: وطريق names the plain image of ٱلسَّبِيلِ || Luna (same): The path can be heard as an old, established road. Its obstruction then makes the people’s departure from a familiar course sharper.
+- **H1.5** [judged] ب ص ر B004 «kan izi» بصيرة الدم — word مُسْتَبْصِرِينَ (6 dictionaries); source: البصيرة القطعة من الدم إذا وقعت بالأرض استدارت (maqayis;jamhara)؛ بصائر الدماء طرائقها على الجسد (ayn)؛ البصيرة من الدم ما كان على الأرض وشيء من الدم يستدل به على الرمية (sihah)؛ بصيرة من دم والجدية منها على الأرض والبص… (also L3.3)
+  - evidence: Luna (image): The way acquires the vivid image of a trail across a surface.
+- **H1.6** [judged] ب ص ر B006 «kalın kenar ve ek yeri» غلظ الحافة ووصل الشقتين — word مُسْتَبْصِرِينَ (6 dictionaries); source: بصر الشيء غلظه والبصر هو أن يضم أديم إلى أديم يخاطان والبصيرة ما بين شقتي البيت (maqayis)؛ البصر غلظ الشيء نحو بصر الجبل والسماء والحائط (ayn)؛ بصر كل شيء جلده الظاهر وثوب ذو بصر إذا كان غليظا وثيجا (jamhara)؛ البصر أن …
+  - evidence: Luna (image): The way can be pictured as a joining line between separated sides.
+- **H1.7** [judged] ب ي ن B001 «ayrılıp kopma» انفصال الشيء وافتراقه — word تَّبَيَّنَ (5 dictionaries); source: البين الفراق (maqayis;sihah)؛ البينونة مصدر بأن يبين بينا وبينونة أي قطع (ayn)؛ البين مصدر بان يبين بينا (jamhara)؛ بان كذا أي انفصل (mufradat)
+  - evidence: Luna (opposite): Separation from the path becomes palpable against the way that joins a traveler to a goal.
+- **H1.8** [judged] ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين — word تَّبَيَّنَ (2 dictionaries); source: بين بمعنى وسط (sihah)؛ بين موضوع للخلالة بين الشيئين ووسطهما (mufradat)؛ لا يستعمل بين إلا فيما كان له مسافة أو له عدد ما اثنان فصاعدا (mufradat) (also T4)
+  - evidence: Luna (image): The path gives the idea of an interval a traversable shape.
+- **H1.9** [judged] ب ي ن B003 «arayı bağlayan ilişki» الوصلة القائمة بين الأطراف — word تَّبَيَّنَ (3 dictionaries); source: البين الوصل (ayn;sihah)؛ لقد تقطع بينكم أي وصلكم (mufradat)؛ ذات بينكم أي الأحوال التي تجمعكم من القرابة والوصلة والمودة (mufradat)
+  - evidence: Luna (image): The way takes on the image of a line joining separated places.
+- **H1.10** [judged] ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر — word تَّبَيَّنَ (3 dictionaries); source: البين قطعة من الأرض قدر مد البصر (maqayis)؛ البين الغلظ من الأرض (jamhara)؛ البين بالكسر القطعة من الأرض قدر منتهى البصر (sihah)؛ البين أيضا الناحية (sihah) (also H2.1, T6)
+  - evidence: Luna (image): A way crosses a stretch of land reaching as far as sight. The verse's path can be pictured against an open tract.
+- **H1.11** [judged] ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه — word تَّبَيَّنَ (2 dictionaries); source: بانت يد الناقة عن جنبها (ayn)؛ قوس بائن وهي التي بان وترها عن كبدها (ayn)؛ ضربه فأبان رأسه من جسده وفصله (sihah)؛ البائنة القوس التي بانت عن وترها كثيرا (sihah) (also L1.3)
+  - evidence: Luna (complement): The rare branch pictures something detaching from what it touches. Here the people are turned away from the path, so their obstruction reads as a break from the
+- **H1.12** [judged] س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار — word مَّسَٰكِنِهِمْ (5 dictionaries); source: السكن الأهل الذين يسكنون الدار؛ السكن السكان؛ السكن جزم العيال وهم أهل البيت؛ السكن أهل الدار؛ سكان الدار (also L2.2, L6.3)
+  - evidence: Luna (image): The residents belong to their homes, while the path is a course of travel. The verse sets their dwellings beside the way from which they were turned away.
+- **H1.13** [judged] س ك ن B008 «geminin kıçındaki dengeleyici yöneltme aracı» تسكين السفينة بالسكان — word مَّسَٰكِنِهِمْ (5 dictionaries); source: سكان السفينة سمى لأنه يسكنها عن الاضطراب؛ السكان ذنب السفينة الذي به تعدل؛ السكان أيضا ذنب السفينة؛ السكان وهو الكوثل؛ سكان السفينة ما يسكن به
+  - evidence: Luna (image): A ship's steering tail guides it along a route. In the verse's path language, that tool makes a picture of direction and course.
+- **H1.14** [judged] ص د د B003 «karşıda ve yakında bulunma» مقابلة وقرب — word فَصَدَّهُمْ (4 dictionaries); source: الصدد ما استقبل؛ الصدد القرب (maqayis); الصدد ما استقبلك؛ هذه الدار على صدد هذه أي قبالتها (ayn); الصدد القرب؛ داري صدد داره أي قبالتها (sihah); تتعرض له وتميل إليه وتقبل عليه؛ تصديت له أي أقبلت عليه؛ أصله من الصدد وهو … (also L2.4)
+  - evidence: Luna (image): The path appears before them as a course within reach, which makes their being turned away sharper.
+- **H1.15** [judged] ص د د B005 «engel oluşturan dağ» جبل حاجز — word فَصَدَّهُمْ (3 dictionaries); source: الصَّدّ الجبل (maqayis;sihah); الصَّدّ من الجبل ما يحول (mufradat)
+  - evidence: Luna (image): The obstruction becomes a mountain across the route.
+- **H1.16** [judged] ع و د B002 «dönüş yeri ve son varış» مصير ومرجع ومعاد — word وَعَادًا (4 dictionaries); source: المعاد كل شيء إليه المصير (maqayis)؛ والآخرة معاد للناس (maqayis)؛ الحج معاد الحاج (ayn)؛ لرادك إلى معاد يعني مكة (ayn)؛ المعاد المصير والمرجع (sihah)؛ الآخرة معاد الخلق (sihah)؛ المعاد يقال للعود وللزمان الذي يعود فيه … (also L4.4)
+  - evidence: Luna (complement): A way leads somewhere, and the root echo in عَادًا can name the destination of that journey. Their being turned from the path thus sounds like being diverted fr
+- **H1.17** [judged] ع و د B004 «tekrarla alışkanlık ve yatkınlık kazanma» عادة ودرَبة ومواظبة — word وَعَادًا (4 dictionaries); source: العادة الدربة والتمادي في شيء حتى يصير له سجية (maqayis;ayn)؛ المواظب على الشيء المعاود (maqayis;ayn)؛ بطل معاود (maqayis;ayn)؛ العادة معروفة والجمع عاد وعادات (sihah)؛ عاده واعتاده وتعوده (sihah)؛ عود كلبه الصيد فتعوده… (also L6.4)
+  - evidence: Luna (image): Repeated habit makes a track. The people have a way before them, yet are turned away from it.
+- surah ayat these members touch (chain material): 29:8 (ع و د B002) → 29:12 (ص د د B004, ع م ل B012) → 29:15 (س ك ن B008) → 29:21 (ع و د B009) → 29:22 (ب ي ن B002) → 29:25 (ب ي ن B003) → 29:29 (ص د د B004, ع م ل B012) → 29:32 (س ك ن B003) → 29:33 (س ك ن B003) → 29:34 (س ك ن B003) → 29:37 (س ك ن B003) → 29:40 (س ك ن B008) → 29:41 (ب ي ن B002, س ك ن B003) → 29:55 (ع م ل B012) → 29:63 (ص د د B004) → 29:64 (س ك ن B003) → 29:69 (ص د د B004, ع م ل B012)
+
+### H2 مُسْتَبْصِرِينَ — 4 roots converge
+Plain sense of مُسْتَبْصِرِينَ: iç kavrayış (بصيرة القلب)
+- **H2.1** [dictionary] ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر — word تَّبَيَّنَ (3 dictionaries); source: as H1.10 (also H1.10, T6)
+  - evidence: lex/src: بصر → root ب ص ر || lex/src: بصر names the plain image of مُسْتَبْصِرِينَ || Luna (same): The tract is measured by how far the eye reaches, while the closing word names inward perception. The pair moves from sight of land to sight of the heart.
+- **H2.2** [dictionary] س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word ٱلسَّبِيلِ (1 dictionaries, sole attestation); source: السبل داء في العين شبه غشاوة كأنها نسج العنكبوت بعروق حمر (sihah) (also L1.6, L3.4, T1)
+  - evidence: lex/image: عين names the plain image of مُسْتَبْصِرِينَ || Luna (opposite): The eye’s opacity stands in tension with the insight they possessed.
+- **H2.3** [dictionary] ص د د B013 «aynada hazırlanmış göz boyası» كحل المرآة — word فَصَدَّهُمْ (1 dictionaries); source: الصُّدود ما دلكته على مرآة ثم كحلت به عينا (tahdhib) (also T2)
+  - evidence: lex/src: عينا names the plain image of مُسْتَبْصِرِينَ || Luna (image): The outwardly adorned eye sits beside the inward discernment they possessed.
+- **H2.4** [dictionary] ع م ل B010 «iş gören beden parçası» الجارحة العاملة — word أَعْمَٰلَهُمْ (1 dictionaries, sole attestation); source: عوامل الدابة قوائمه واحدها عاملة (tahdhib); وترقبه بعاملة قذوف أي ترقبه بعين بعيدة النظر (tahdhib) (also T3)
+  - evidence: lex/src: بعين names the plain image of مُسْتَبْصِرِينَ || Luna (complement): The root’s rare عامل sense can denote a working bodily member, including an eye that watches at a distance. مُسْتَبْصِرِينَ shifts from bodily sight to inward d
+- **H2.5** [judged] ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word تَّبَيَّنَ (4 dictionaries); source: أبين من فلان أي أوضح كلاما منه (maqayis)؛ البين من الرجال الفصيح (ayn)؛ البيان الفصاحة واللسن (sihah)؛ البيان الكشف عن الشيء وهو أعم من النطق (mufradat) (also L4.1, L5.1, T7)
+  - evidence: Luna (complement): The evidence is outside them, while insight is an inward capacity. The verse sharpens its irony: they had insight, yet were drawn from the way despite the visib
+- surah ayat these members touch (chain material): 29:18 (ب ي ن B005) → 29:29 (ب ي ن B005) → 29:41 (س ب ل B010) → 29:60 (ع م ل B010)
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 فَصَدَّهُمْ — 6 roots converge
+Plain sense of فَصَدَّهُمْ: yüz çevirme ve alıkoyma (إعراض وصرف)
+- **L1.1** [judged] ب ص ر B001 «gözle görme» إبصار العين — word مُسْتَبْصِرِينَ (6 dictionaries); source: أبصرته إذا رأيته (maqayis)؛ البصر العين (ayn;tahdhib)؛ البصر حاسة الرؤية وأبصرت الشيء رأيته والبصير خلاف الضرير (sihah)؛ والبصر معروف أبصر يبصر إبصارا فهو مبصر وبصير (jamhara)؛ الجارحة الناظرة والباصرة (mufradat)؛ رأيته… (also L3.2)
+  - evidence: Luna (image): The obstruction can be heard as redirecting their gaze as well as their course.
+- **L1.2** [judged] ب ص ر B005 «koruyucu savaş gereci» بصيرة السلاح — word مُسْتَبْصِرِينَ (5 dictionaries); source: البصيرة الترس فيما يقال (maqayis)؛ البصيرة الدرع وما لبس من السلاح فهو بصائر السلاح (ayn;tahdhib)؛ البصيرة في هذا البيت الترس أو الدرع (sihah)؛ الترس اللامع (mufradat)
+  - evidence: Luna (image): The turning away gains a physical image of force intercepted and turned aside.
+- **L1.3** [judged] ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه — word تَّبَيَّنَ (2 dictionaries); source: as H1.11 (also H1.11)
+  - evidence: Luna (same): The rare image is something pulled away from its attachment. Turning people away from a course is a human version of that break, so diversion sounds like separa
+- **L1.4** [judged] ب ي ن B012 «geri dönüşsüz boşanma» طلاق يقطع الرجعة — word تَّبَيَّنَ (1 dictionaries, sole attestation); source: تطليقة بائنة وهي فاعلة بمعنى مفعولة (sihah)
+  - evidence: Luna (same): The divorce branch is an irreversible severing of a bond. Turning people away from a course echoes that severance, making the obstruction feel definitive.
+- **L1.5** [judged] ز ي ن B003 «bezenmeye yarayan nitelik ve şeylerin bütünü» الزينة التي يتزين بها — word وَزَيَّنَ (3 dictionaries); source: الزينة جامع لكل ما يتزين به (ayn)؛ الزينة اسم جامع لكل شيء يتزين به (tahdhib)؛ الزينة بالقول المجمل ثلاث: زينة نفسية وزينة بدنية وزينة خارجية (mufradat)؛ فهي الزينة الدنيوية من المال والأثاث والجاه (mufradat) (also L4.2)
+  - evidence: Luna (image): Adornment can catch attention and pull a traveler off course. Here the beautified deeds immediately precede the turning away, so decoration becomes the lure in 
+- **L1.6** [judged] س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word ٱلسَّبِيلِ (1 dictionaries, sole attestation); source: as H2.2 (also H2.2, L3.4, T1)
+  - evidence: Luna (image): The diversion takes on the image of sight obstructed by a film.
+- **L1.7** [judged] ش ط ن B001 «uzaklaşma ve uzaklaştırma» البعد والانقطاع — word ٱلشَّيْطَٰنُ (4 dictionaries); source: أصل مطرد صحيح يدل على البعد (maqayis)؛ شطن عنه بعد وأشطنه أبعده وبئر شطون بعيدة القعر ونوى شطون بعيدة (sihah)؛ غزوة شطون أي بعيدة وشطنت الدار شطونا إذا بعدت (tahdhib)؛ الشيطان من شطن أي تباعد (mufradat) (also L2.3, L3.5)
+  - evidence: Luna (image): The adversary’s name evokes distance, and the verb says that he turned them away. Together they picture one act of drawing people off course.
+- **L1.8** [judged] ش ط ن B003 «yönünden ayırma ve bağlama göre eğrilik ya da çetinlik» المخالفة والعوج والشدة — word ٱلشَّيْطَٰنُ (2 dictionaries); source: شطنه يشطنه شطنا إذا خالفه عن نية وجهه (sihah)؛ خالفه عن نيته ووجهه وألية شطون إذا كانت مائلة في شق وبئر شطون ملتوية عوجاء وحرب شطون عسرة شديدة ورمح شطون طويل أعوج (tahdhib) (also L3.6)
+  - evidence: Luna (same): The root sense of deviation is carried into the act of turning them away. The two words make the obstruction feel like a departure from the intended course.
+- **L1.9** [judged] ش ط ن B005 «çirkin yılan ve bitki adıyla ürkütücü baş benzetmesi» القبيح المسمى شيطانا — word ٱلشَّيْطَٰنُ (4 dictionaries); source: الحية تسمى شيطانا (maqayis)؛ العرب تسمي الحية شيطانا ونبت قبيح يسمى رءوس الشياطين (sihah)؛ بعض الحيات شيطانا وهو حية ذو عرف قبيح المنظر والشيطان نبت قبيح يسمى برؤوس الشياطين (tahdhib)؛ كأنه رؤوس الشياطين قيل هي حية خفيف… (also L5.3)
+  - evidence: Luna (image): The repulsive creature image makes the people’s turning away bodily visible. The ugly shaytan and فَصَدَّهُمْ become one picture of revulsion carried into diver
+- **L1.10** [judged] ع م ل B011 «işlek yol» الطريق المعمل — word أَعْمَٰلَهُمْ (1 dictionaries, sole attestation); source: as H1.2 (also H1.2)
+  - evidence: Luna (complement): A road already worn by travel is something from which travelers can be turned. The well-used track and their diversion form a concrete scene.
+- surah ayat these members touch (chain material): 29:19 (ب ص ر B001) → 29:29 (ب ي ن B012) → 29:41 (س ب ل B010) → 29:53 (ش ط ن B005) → 29:58 (ب ص ر B005) → 29:63 (ش ط ن B001) → 29:67 (ب ص ر B001)
+
+### L2 وَعَادًا — 5 roots converge
+Plain sense of وَعَادًا: geri dönme ve yeniden yapma (رجوع بعد انصراف وتثنية بعد بدء)
+- **L2.1** [judged] س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه — word ٱلسَّبِيلِ (6 dictionaries); source: السابلة المختلفة في السبل جائية وذاهبة (maqayis)؛ السابلة المختلفة في الطرقات للحوائج (ayn)؛ السابلة هم الذين يسلكون السبل (jamhara)؛ السابلة أبناء السبيل المختلفة في الطرقات (sihah)؛ ابن السبيل المسافر الذي انقطع به (t… (also L4.3, L6.1)
+  - evidence: Luna (image): The ruined peoples’ name gains an echo of travelers returning along the road.
+- **L2.2** [judged] س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار — word مَّسَٰكِنِهِمْ (5 dictionaries); source: as H1.12 (also H1.12, L6.3)
+  - evidence: Luna (same): The household sense names people who live in a place, while وَعَادًا names the people of ʿĀd. Their ruined homes remain a trace of those people.
+- **L2.3** [judged] ش ط ن B001 «uzaklaşma ve uzaklaştırma» البعد والانقطاع — word ٱلشَّيْطَٰنُ (4 dictionaries); source: as L1.7 (also L1.7, L3.5)
+  - evidence: Luna (opposite): The name ʿĀd carries a return echo, while the adversary’s root names remoteness. Against the ruin frame, the return echo does not save them from being drawn awa
+- **L2.4** [judged] ص د د B003 «karşıda ve yakında bulunma» مقابلة وقرب — word فَصَدَّهُمْ (4 dictionaries); source: as H1.14 (also H1.14)
+  - evidence: Luna (same): The name’s return-root brushes against a sense of coming near again.
+- **L2.5** [judged] ع م ل B004 «iş ücreti» أجر العمل ورزق العامل — word أَعْمَٰلَهُمْ (4 dictionaries); source: العمالة أجر ما عمل (maqayis); العمالة بالضم رزق العامل (sihah); العمالة رزق العامل (tahdhib); العملة والعمالة أجر العمل (tahdhib); العمالة أجرته (mufradat)
+  - evidence: Luna (complement): Their deeds can sound like labor for which a return is due. The return echo in the name makes the ruin account carry a faint sense of reckoning.
+- **L2.6** [judged] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس — word أَعْمَٰلَهُمْ (2 dictionaries); source: المعاملة مصدر من قولك عاملته وأنا أعامله معاملة (maqayis); عاملت الرجل أعامله معاملة في المبايعة وغيرها (tahdhib)
+  - evidence: Luna (complement): Their deeds can be heard as exchanges between people, each act answered by a return. The root echo of ʿĀd gives those acts a faint reciprocal circuit.
+- surah ayat these members touch (chain material): 29:10 (ع م ل B004) → 29:15 (ع م ل B004) → 29:27 (ع م ل B004) → 29:32 (س ب ل B002, س ك ن B003) → 29:33 (س ب ل B002, س ك ن B003) → 29:34 (س ب ل B002, س ك ن B003) → 29:37 (س ك ن B003) → 29:41 (س ك ن B003) → 29:58 (ع م ل B004) → 29:63 (ش ط ن B001) → 29:64 (س ك ن B003)
+
+### L3 تَّبَيَّنَ — 5 roots converge
+Plain sense of تَّبَيَّنَ: açığa çıkıp belirginleşme (ظهور الشيء وانكشافه)
+- **L3.1** [dictionary] ز ي ن B001 «ayıptan uzak güzellik» حسن الشيء ونقاؤه من الشين — word وَزَيَّنَ (4 dictionaries); source: الزين نقيض الشين (maqayis;ayn;tahdhib)؛ زانه الحسن يزينه زينا (ayn;tahdhib)؛ الزينة الحقيقية ما لا يشين الإنسان (mufradat) (also T5)
+  - evidence: sound/contrast: contrast word شين ~ تَّبَيَّنَ (one letter apart)
+- **L3.2** [judged] ب ص ر B001 «gözle görme» إبصار العين — word مُسْتَبْصِرِينَ (6 dictionaries); source: as L1.1 (also L1.1)
+  - evidence: Luna (image): The established clarity becomes something seen with the eyes.
+- **L3.3** [judged] ب ص ر B004 «kan izi» بصيرة الدم — word مُسْتَبْصِرِينَ (6 dictionaries); source: as H1.5 (also H1.5)
+  - evidence: Luna (image): The visible trace turns clarity into evidence of what happened.
+- **L3.4** [judged] س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word ٱلسَّبِيلِ (1 dictionaries, sole attestation); source: as H2.2 (also H2.2, L1.6, T1)
+  - evidence: Luna (opposite): An opaque eye stands against the clarity the verb names.
+- **L3.5** [judged] ش ط ن B001 «uzaklaşma ve uzaklaştırma» البعد والانقطاع — word ٱلشَّيْطَٰنُ (4 dictionaries); source: as L1.7 (also L1.7, L2.3)
+  - evidence: Luna (opposite): The evidence becomes clear to the audience, while the root of ٱلشَّيْطَٰنُ names distance. The verse sets manifest evidence beside the adversary’s drawing peopl
+- **L3.6** [judged] ش ط ن B003 «yönünden ayırma ve bağlama göre eğrilik ya da çetinlik» المخالفة والعوج والشدة — word ٱلشَّيْطَٰنُ (2 dictionaries); source: as L1.8 (also L1.8)
+  - evidence: Luna (opposite): The evidence becomes plain while the adversarial root can mean crooked deviation. The clear evidence stands against the bent direction that leads them from the 
+- **L3.7** [judged] ع م ل B002 «işe koşmak veya kullanmak» إعمال الشيء واستعماله — word أَعْمَٰلَهُمْ (3 dictionaries); source: يستعمل غيره ويعمل رأيه أو كلامه أو رمحه؛ والبناء يستعمل اللبن (maqayis); أعمله غيره واستعمله بمعنى؛ واستعمله أيضا أي طلب إليه العمل (sihah); أعمل فلان ذهنه في كذا وكذا إذا دبره بفهمه (tahdhib)
+  - evidence: Luna (part): The deeds can carry an echo of applying the mind to something with understanding. That mental effort is one stage by which what is hidden can become clear, thou
+- surah ayat these members touch (chain material): 29:7 (ز ي ن B001) → 29:8 (ز ي ن B001) → 29:19 (ب ص ر B001) → 29:41 (س ب ل B010) → 29:46 (ز ي ن B001) → 29:63 (ش ط ن B001) → 29:67 (ب ص ر B001)
+
+### L4 مَّسَٰكِنِهِمْ — 5 roots converge
+Plain sense of مَّسَٰكِنِهِمْ: hareketin dinip durulması (ذهاب الحركة); bir yere yerleşip orada yaşama (استيطان المنزل); sabit yer ve konum bildiren özel kullanımlar (موضع الاستقرار)
+- **L4.1** [judged] ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word تَّبَيَّنَ (4 dictionaries); source: as H2.5 (also H2.5, L5.1, T7)
+  - evidence: Luna (image): The branch means making a meaning clear through speech or a sign. The ruined dwellings become a visible sign that explains what befell their people.
+- **L4.2** [judged] ز ي ن B003 «bezenmeye yarayan nitelik ve şeylerin bütünü» الزينة التي يتزين بها — word وَزَيَّنَ (3 dictionaries); source: as L1.5 (also L1.5)
+  - evidence: Luna (part): The ornament branch includes furnishings and worldly goods used for display. Such things can furnish or adorn dwellings, making their homes a setting for that d
+- **L4.3** [judged] س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه — word ٱلسَّبِيلِ (6 dictionaries); source: as L2.1 (also L2.1, L6.1)
+  - evidence: Luna (complement): The surviving houses mark the settled destination set against people on the roads.
+- **L4.4** [judged] ع و د B002 «dönüş yeri ve son varış» مصير ومرجع ومعاد — word وَعَادًا (4 dictionaries); source: as H1.16 (also H1.16)
+  - evidence: Luna (same): The dwellings can be heard as the place to which the people return. Their ruined homes make the return-place echo concrete as visible evidence.
+- **L4.5** [judged] ع و د B003 «tek söz söylememek» سكوت لا يبدئ ولا يعيد — word وَعَادًا (2 dictionaries); source: رأيت فلانا ما يبدئ وما يعيد أي ما يتكلم ببادية ولا عادية (ayn)؛ ما يبدئ وما يعيد أي ما يتكلم ببادئة ولا عائدة (maqayis)
+  - evidence: Luna (image): The dwellings stand still and unspeaking. The quiet of ruined homes makes the rare silence sense audible beside their settlement.
+- **L4.6** [judged] ع و د B012 «biçime bağlı adlandırmalar» عاد وأعلام منسوبة إليها — word وَعَادًا (3 dictionaries); source: عاد قبيلة وهم قوم هود (sihah)؛ شيء عادي أي قديم كأنه منسوب إلى عاد (sihah)؛ عادياء اسم رجل (sihah)؛ العيدية نجائب منسوبة قالوا نسبت إلى عاد (maqayis)؛ العيدية إبل منسوبة إلى فحل يقال له عيد (mufradat)
+  - evidence: Luna (complement): The name ʿĀd identifies the people whose homes remain as evidence. The pairing gives the ruined dwellings a human owner and history.
+- **L4.7** [judged] ك و ن B002 «bulunma yeri ve konum değeri» المكان والمكانة من الكون — word وَكَانُوا۟ (3 dictionaries); source: المكان اشتقاقه من كان يكون؛ تمكن (ayn;maqayis); فلان مني مكان هذا؛ موضع العمامة (ayn); المكانة المنزلة؛ مكين عند فلان بين المكانة؛ المكان والمكانة الموضع؛ تمكن (sihah)
+  - evidence: Luna (same): Their being is heard as located in the very dwellings that remain as evidence.
+- surah ayat these members touch (chain material): 29:8 (ع و د B002) → 29:18 (ب ي ن B005) → 29:29 (ب ي ن B005) → 29:32 (س ب ل B002) → 29:33 (س ب ل B002) → 29:34 (س ب ل B002)
+
+### L5 وَزَيَّنَ — 4 roots converge
+Plain sense of وَزَيَّنَ: güzelleştirme ve güzelliğini görünür kılma (إظهار الحسن وتحسين الشيء)
+- **L5.1** [judged] ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word تَّبَيَّنَ (4 dictionaries); source: as H2.5 (also H2.5, L4.1, T7)
+  - evidence: Luna (same): The verse places two forms of showing beside one another. The dwellings clarify the warning, while Satan makes the deeds appear beautiful.
+- **L5.2** [judged] س ك ن B006 «yoksulluk, güçsüzlük ve ezilmişlik» ذل المسكنة — word مَّسَٰكِنِهِمْ (3 dictionaries); source: المسكنة مصدر فعل المسكين؛ المسكين الفقير وقد يكون بمعنى الذلة والضعف؛ تمسكن إذا خضع لله وهي المسكنة للذلة؛ استكان أي خضع وذل
+  - evidence: Luna (opposite): The rare branch of مَّسَٰكِنِهِمْ names poverty, weakness, or abasement. وَزَيَّنَ makes deeds appear beautiful, setting apparent beauty against humiliation.
+- **L5.3** [judged] ش ط ن B005 «çirkin yılan ve bitki adıyla ürkütücü baş benzetmesi» القبيح المسمى شيطانا — word ٱلشَّيْطَٰنُ (4 dictionaries); source: as L1.9 (also L1.9)
+  - evidence: Luna (opposite): The foul serpent or plant image gives the adversary an ugly form, while وَزَيَّنَ says that he makes the deeds appear beautiful. An ugly source stands behind a 
+- **L5.4** [judged] ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة — word وَكَانُوا۟ (1 dictionaries, sole attestation); source: الكينة في قولهم بات فلان بكينة سوء أي بحال سوء فأصله الكون فعلة من الكون (maqayis) (also T9)
+  - evidence: Luna (opposite): The beautified surface is set against the bad state beneath it, exposing the deception.
+- surah ayat these members touch (chain material): 29:18 (ب ي ن B005) → 29:29 (ب ي ن B005) → 29:53 (ش ط ن B005)
+
+### L6 أَعْمَٰلَهُمْ — 4 roots converge
+Plain sense of أَعْمَٰلَهُمْ: bilerek yapılan iş veya eylem (الفعل المقصود والعمل)
+- **L6.1** [dictionary] س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه — word ٱلسَّبِيلِ (6 dictionaries); source: as L2.1 (also L2.1, L4.3)
+  - evidence: rel/near_neighbor: ع م ل B012 (yaya yolcular)
+- **L6.2** [dictionary] ع و د B008 «gücü kalmış yaşlı deve» عود مسن فيه بقايا قوة — word وَعَادًا (5 dictionaries); source: الجمل المسن فهو يسمى عودا (maqayis)؛ كأنه عاود الأسفار والرحل مرة بعد مرة (maqayis)؛ العود الجمل المسن وفيه سورة أي بقية (ayn)؛ العود المسن من الإبل (sihah)؛ زاحم بعود أو دع (sihah)؛ العود الجمل المسن الذي فيه بقية قوة (tahdhib)؛ عود الرجل تعويدا إذا أسن (tahdhib)؛ لا يقال عود إلا لبعير أو لشاة (tahdhib)؛ أنثى عودة (tahdhib)؛ البعير المسن اعتبارا بمعاودته السير والعمل (mufradat)
+  - evidence: lex/src: عمل → root ع م ل
+- **L6.3** [judged] س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار — word مَّسَٰكِنِهِمْ (5 dictionaries); source: as H1.12 (also H1.12, L2.2)
+  - evidence: Luna (complement): The household sense supplies the people, and their deeds are what those people do. The verse's possessive pronouns tie the works to the inhabitants.
+- **L6.4** [judged] ع و د B004 «tekrarla alışkanlık ve yatkınlık kazanma» عادة ودرَبة ومواظبة — word وَعَادًا (4 dictionaries); source: as H1.17 (also H1.17)
+  - evidence: Luna (same): The deeds can be heard as settled repetitions, the customs one repeats until they become easy. Their beautification then shows how ingrained conduct can be mist
+- **L6.5** [judged] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word وَكَانُوا۟ (2 dictionaries); source: الكيانة الكفالة؛ كنت على فلان أكون كونا أي تكفلت به؛ اكتنت به اكتيانا مثله (sihah); كنت على فلان أكون عليه إذا كفلت به؛ اكتنت أيضا اكتيانا (maqayis)
+  - evidence: Luna (complement): The standing state can be heard with a responsibility for the deeds they undertook.
+- surah ayat these members touch (chain material): 29:12 (ك و ن B003) → 29:13 (ك و ن B003) → 29:32 (س ب ل B002, س ك ن B003) → 29:33 (س ب ل B002, س ك ن B003) → 29:34 (س ب ل B002, س ك ن B003) → 29:37 (س ك ن B003) → 29:41 (س ك ن B003) → 29:60 (ك و ن B003) → 29:64 (س ك ن B003)
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ب ي ن B003 «arayı bağlayan ilişki» الوصلة القائمة بين الأطراف — word تَّبَيَّنَ (3 dictionaries); source: البين الوصل (ayn;sihah)؛ لقد تقطع بينكم أي وصلكم (mufradat)؛ ذات بينكم أي الأحوال التي تجمعكم من القرابة والوصلة والمودة (mufradat) (also H1.9) — img/fatiha: fatiha: ر ح م B002 الرَّحِم والقرابة ← ٱلرَّحْمَٰنِ
+- **F2** ز ي ن B001 «ayıptan uzak güzellik» حسن الشيء ونقاؤه من الشين — word وَزَيَّنَ (4 dictionaries); source: الزين نقيض الشين (maqayis;ayn;tahdhib)؛ زانه الحسن يزينه زينا (ayn;tahdhib)؛ الزينة الحقيقية ما لا يشين الإنسان (mufradat) (also L3.1, T5) — img/fatiha: fatiha: و س م B005 حسن عليه أثر الجمال ← بِسْمِ
+- **F3** س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه — word ٱلسَّبِيلِ (6 dictionaries); source: السابلة المختلفة في السبل جائية وذاهبة (maqayis)؛ السابلة المختلفة في الطرقات للحوائج (ayn)؛ السابلة هم الذين يسلكون السبل (jamhara)؛ السابلة أبناء السبيل المختلفة في الطرقات (sihah)؛ ابن السبيل المسافر الذي انقطع به (t… (also L2.1, L4.3, L6.1) — img/fatiha: fatiha: س م و B006 الخروج للصيد ← بِسْمِ
+- **F4** س ب ل B005 «yağan yağmur» مطر سابل بين السحاب والأرض — word ٱلسَّبِيلِ (6 dictionaries); source: السبل المطر الجود (maqayis)؛ السبل المطر (ayn)؛ والسبل المطر (jamhara)؛ السبل بالتحريك المطر؛ المطر بين السحاب والأرض (sihah)؛ السبل المطر المسبل؛ السبلة المطرة الواسعة؛ السبل المطر بين السحاب والأرض (tahdhib)؛ سبل المط… (also T8) — img/fatiha: fatiha: س م و B004 السماء وما علا فأظل ← بِسْمِ || img/fatiha: fatiha: و س م B003 مطر أول يسم الأرض بالنبات ← بِسْمِ
+- **F5** ش ط ن B001 «uzaklaşma ve uzaklaştırma» البعد والانقطاع — word ٱلشَّيْطَٰنُ (4 dictionaries); source: أصل مطرد صحيح يدل على البعد (maqayis)؛ شطن عنه بعد وأشطنه أبعده وبئر شطون بعيدة القعر ونوى شطون بعيدة (sihah)؛ غزوة شطون أي بعيدة وشطنت الدار شطونا إذا بعدت (tahdhib)؛ الشيطان من شطن أي تباعد (mufradat) (also L1.7, L2.3, L3.5) — img/fatiha: fatiha: ر ح م B002 الرَّحِم والقرابة ← ٱلرَّحْمَٰنِ
+- **F6** ص د د B005 «engel oluşturan dağ» جبل حاجز — word فَصَدَّهُمْ (3 dictionaries); source: الصَّدّ الجبل (maqayis;sihah); الصَّدّ من الجبل ما يحول (mufradat) (also H1.15) — img/fatiha: fatiha: و س م B004 موسم معلم يجتمع إليه الناس ← بِسْمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F7** ب ص ر B004 «kan izi» بصيرة الدم — word مُسْتَبْصِرِينَ (6 dictionaries); source: البصيرة القطعة من الدم إذا وقعت بالأرض استدارت (maqayis;jamhara)؛ بصائر الدماء طرائقها على الجسد (ayn)؛ البصيرة من الدم ما كان على الأرض وشيء من الدم يستدل به على الرمية (sihah)؛ بصيرة من دم والجدية منها على الأرض والبص… (also H1.5, L3.3) — img/fatiha: fatiha: ع ل م B002 أثر يميز الشيء ويهدي إليه ← ٱلْعَٰلَمِينَ
+- **F8** ب ص ر B005 «koruyucu savaş gereci» بصيرة السلاح — word مُسْتَبْصِرِينَ (5 dictionaries); source: البصيرة الترس فيما يقال (maqayis)؛ البصيرة الدرع وما لبس من السلاح فهو بصائر السلاح (ayn;tahdhib)؛ البصيرة في هذا البيت الترس أو الدرع (sihah)؛ الترس اللامع (mufradat) (also L1.2) — img/fatiha: fatiha: ع ل م B002 أثر يميز الشيء ويهدي إليه ← ٱلْعَٰلَمِينَ
+- **F9** ب ص ر B006 «kalın kenar ve ek yeri» غلظ الحافة ووصل الشقتين — word مُسْتَبْصِرِينَ (6 dictionaries); source: بصر الشيء غلظه والبصر هو أن يضم أديم إلى أديم يخاطان والبصيرة ما بين شقتي البيت (maqayis)؛ البصر غلظ الشيء نحو بصر الجبل والسماء والحائط (ayn)؛ بصر كل شيء جلده الظاهر وثوب ذو بصر إذا كان غليظا وثيجا (jamhara)؛ البصر أن … (also H1.6) — img/fatiha: fatiha: ع ل م B004 شق ظاهر في الشفة العليا ← ٱلْعَٰلَمِينَ
+- **F10** ب ي ن B001 «ayrılıp kopma» انفصال الشيء وافتراقه — word تَّبَيَّنَ (5 dictionaries); source: البين الفراق (maqayis;sihah)؛ البينونة مصدر بأن يبين بينا وبينونة أي قطع (ayn)؛ البين مصدر بان يبين بينا (jamhara)؛ بان كذا أي انفصل (mufradat) (also H1.7) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F11** ب ي ن B003 «arayı bağlayan ilişki» الوصلة القائمة بين الأطراف — word تَّبَيَّنَ (3 dictionaries); source: البين الوصل (ayn;sihah)؛ لقد تقطع بينكم أي وصلكم (mufradat)؛ ذات بينكم أي الأحوال التي تجمعكم من القرابة والوصلة والمودة (mufradat) (also H1.9, F1) — img/fatiha: fatiha: ر ب ب B016 رُبَى حاجة وعقدة ونعمة ← رَبِّ
+- **F12** ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word تَّبَيَّنَ (4 dictionaries); source: أبين من فلان أي أوضح كلاما منه (maqayis)؛ البين من الرجال الفصيح (ayn)؛ البيان الفصاحة واللسن (sihah)؛ البيان الكشف عن الشيء وهو أعم من النطق (mufradat) (also H2.5, L4.1, L5.1, T7) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F13** ب ص ر B005 «koruyucu savaş gereci» بصيرة السلاح — word مُسْتَبْصِرِينَ (5 dictionaries); source: البصيرة الترس فيما يقال (maqayis)؛ البصيرة الدرع وما لبس من السلاح فهو بصائر السلاح (ayn;tahdhib)؛ البصيرة في هذا البيت الترس أو الدرع (sihah)؛ الترس اللامع (mufradat) (also L1.2, F8) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F14** ب ي ن B001 «ayrılıp kopma» انفصال الشيء وافتراقه — word تَّبَيَّنَ (5 dictionaries); source: البين الفراق (maqayis;sihah)؛ البينونة مصدر بأن يبين بينا وبينونة أي قطع (ayn)؛ البين مصدر بان يبين بينا (jamhara)؛ بان كذا أي انفصل (mufradat) (also H1.7, F10) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F15** ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word تَّبَيَّنَ (4 dictionaries); source: أبين من فلان أي أوضح كلاما منه (maqayis)؛ البين من الرجال الفصيح (ayn)؛ البيان الفصاحة واللسن (sihah)؛ البيان الكشف عن الشيء وهو أعم من النطق (mufradat) (also H2.5, L4.1, L5.1, T7, F12) — img/fatiha: fatiha: د ي ن B001 الطاعة والانقياد ← ٱلدِّينِ
+- **F16** ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر — word تَّبَيَّنَ (3 dictionaries); source: البين قطعة من الأرض قدر مد البصر (maqayis)؛ البين الغلظ من الأرض (jamhara)؛ البين بالكسر القطعة من الأرض قدر منتهى البصر (sihah)؛ البين أيضا الناحية (sihah) (also H1.10, H2.1, T6) — img/fatiha: fatiha: د ي ن B005 العادة والشأن ← ٱلدِّينِ
+- **F17** ب ي ن B012 «geri dönüşsüz boşanma» طلاق يقطع الرجعة — word تَّبَيَّنَ (1 dictionaries, sole attestation); source: تطليقة بائنة وهي فاعلة بمعنى مفعولة (sihah) (also L1.4) — img/fatiha: fatiha: د ي ن B006 مدينة الطاعة ← ٱلدِّينِ || img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F18** ز ي ن B003 «bezenmeye yarayan nitelik ve şeylerin bütünü» الزينة التي يتزين بها — word وَزَيَّنَ (3 dictionaries); source: الزينة جامع لكل ما يتزين به (ayn)؛ الزينة اسم جامع لكل شيء يتزين به (tahdhib)؛ الزينة بالقول المجمل ثلاث: زينة نفسية وزينة بدنية وزينة خارجية (mufradat)؛ فهي الزينة الدنيوية من المال والأثاث والجاه (mufradat) (also L1.5, L4.2) — img/fatiha: fatiha: د ي ن B001 الطاعة والانقياد ← ٱلدِّينِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F19** ب ي ن B011 «iki arada kalmış hal» حالة متوسطة بين طرفين — word تَّبَيَّنَ (1 dictionaries, sole attestation); source: هذا الشيء بين بين أي بين الجيد والرديء (sihah)؛ الهمزة المخففة تسمى بين بين (sihah)؛ يسقط بين بينا أي يتساقط ضعيفا غير معتد به (sihah) — rel/near_neighbor: ع و ن B002 (orta yaşlı) → نَسْتَعِينُ
+- **F20** ب ص ر B006 «kalın kenar ve ek yeri» غلظ الحافة ووصل الشقتين — word مُسْتَبْصِرِينَ (6 dictionaries); source: بصر الشيء غلظه والبصر هو أن يضم أديم إلى أديم يخاطان والبصيرة ما بين شقتي البيت (maqayis)؛ البصر غلظ الشيء نحو بصر الجبل والسماء والحائط (ayn)؛ بصر كل شيء جلده الظاهر وثوب ذو بصر إذا كان غليظا وثيجا (jamhara)؛ البصر أن … (also H1.6, F9) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F21** ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين — word تَّبَيَّنَ (2 dictionaries); source: بين بمعنى وسط (sihah)؛ بين موضوع للخلالة بين الشيئين ووسطهما (mufradat)؛ لا يستعمل بين إلا فيما كان له مسافة أو له عدد ما اثنان فصاعدا (mufradat) (also H1.8, T4) — img/fatiha: fatiha: ع و ن B002 العَوان بين السنين ← نَسْتَعِينُ
+- **F22** ب ي ن B003 «arayı bağlayan ilişki» الوصلة القائمة بين الأطراف — word تَّبَيَّنَ (3 dictionaries); source: البين الوصل (ayn;sihah)؛ لقد تقطع بينكم أي وصلكم (mufradat)؛ ذات بينكم أي الأحوال التي تجمعكم من القرابة والوصلة والمودة (mufradat) (also H1.9, F1, F11) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F23** ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه — word تَّبَيَّنَ (2 dictionaries); source: بانت يد الناقة عن جنبها (ayn)؛ قوس بائن وهي التي بان وترها عن كبدها (ayn)؛ ضربه فأبان رأسه من جسده وفصله (sihah)؛ البائنة القوس التي بانت عن وترها كثيرا (sihah) (also H1.11, L1.3) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F24** ز ي ن B003 «bezenmeye yarayan nitelik ve şeylerin bütünü» الزينة التي يتزين بها — word وَزَيَّنَ (3 dictionaries); source: الزينة جامع لكل ما يتزين به (ayn)؛ الزينة اسم جامع لكل شيء يتزين به (tahdhib)؛ الزينة بالقول المجمل ثلاث: زينة نفسية وزينة بدنية وزينة خارجية (mufradat)؛ فهي الزينة الدنيوية من المال والأثاث والجاه (mufradat) (also L1.5, L4.2, F18) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F25** س ب ل B001 «yol ve bir amaca ulaştıran yol» طريق ممتد يسلك — word ٱلسَّبِيلِ (6 dictionaries); source: السبيل وهو الطريق سمي بذلك لامتداده (maqayis)؛ والسبيل يذكر ويؤنث وجمعه سبل (ayn)؛ السبيل معروف تذكر وتؤنث والجمع سبل وهي الطرق (jamhara)؛ السبيل الطريق؛ أي سببا ووصلة (sihah)؛ السبيل الطريق؛ لا يستطيعون في أمرك حيلة (t… — rel/near_synonym: ص ر ط B001 (düz ve doğru yol) → ٱلصِّرَٰطَ
+- **F26** س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word ٱلسَّبِيلِ (1 dictionaries, sole attestation); source: السبل داء في العين شبه غشاوة كأنها نسج العنكبوت بعروق حمر (sihah) (also H2.2, L1.6, L3.4, T1) — rel/same_field: ق و م B021 (göz perdesi ile kör göz) → ٱلْمُسْتَقِيمَ
+- **F27** word مُسْتَبْصِرِينَ — form: form X participle: مُسْتَقِيمَ
+- **F28** ب ص ر B001 «gözle görme» إبصار العين — word مُسْتَبْصِرِينَ (6 dictionaries); source: أبصرته إذا رأيته (maqayis)؛ البصر العين (ayn;tahdhib)؛ البصر حاسة الرؤية وأبصرت الشيء رأيته والبصير خلاف الضرير (sihah)؛ والبصر معروف أبصر يبصر إبصارا فهو مبصر وبصير (jamhara)؛ الجارحة الناظرة والباصرة (mufradat)؛ رأيته… (also L1.1, L3.2) — img/fatiha: fatiha: ق و م B021 عين قائمة ذاهبة البصر ← ٱلْمُسْتَقِيمَ
+- **F29** ب ص ر B005 «koruyucu savaş gereci» بصيرة السلاح — word مُسْتَبْصِرِينَ (5 dictionaries); source: البصيرة الترس فيما يقال (maqayis)؛ البصيرة الدرع وما لبس من السلاح فهو بصائر السلاح (ayn;tahdhib)؛ البصيرة في هذا البيت الترس أو الدرع (sihah)؛ الترس اللامع (mufradat) (also L1.2, F8, F13) — img/fatiha: fatiha: ص ر ط B001 الطريق المستقيم ← ٱلصِّرَٰطَ
+- **F30** ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين — word تَّبَيَّنَ (2 dictionaries); source: بين بمعنى وسط (sihah)؛ بين موضوع للخلالة بين الشيئين ووسطهما (mufradat)؛ لا يستعمل بين إلا فيما كان له مسافة أو له عدد ما اثنان فصاعدا (mufradat) (also H1.8, T4, F21) — img/fatiha: fatiha: ه د ي B008 مشي التهادي مع الاعتماد والتمايل ← ٱهْدِنَا
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F31** س ب ل B001 «yol ve bir amaca ulaştıran yol» طريق ممتد يسلك — word ٱلسَّبِيلِ (6 dictionaries); source: السبيل وهو الطريق سمي بذلك لامتداده (maqayis)؛ والسبيل يذكر ويؤنث وجمعه سبل (ayn)؛ السبيل معروف تذكر وتؤنث والجمع سبل وهي الطرق (jamhara)؛ السبيل الطريق؛ أي سببا ووصلة (sihah)؛ السبيل الطريق؛ لا يستطيعون في أمرك حيلة (t… (also F25) — rel/near_synonym: ص ر ط B001 (düz ve doğru yol) → صِرَٰطَ
+- **F32** ع و د B006 «kişiye dönen yarar ve iyilik» عائدة ومعروف يرجع — word وَعَادًا (5 dictionaries); source: عاد فلان بمعروفه إذا أحسن ثم زاد (ayn)؛ العائدة وهو المعروف والصلة (maqayis)؛ ما أكثر عائدة فلان علينا (maqayis)؛ العائدة العطف والمنفعة (sihah)؛ هذا الشيء أعود عليك من كذا أي أنفع (sihah)؛ هذا الأمر أعود عليك أي أرفق ب… — rel/near_neighbor: ن ع م B001 (esenlik ve nimet) → أَنْعَمْتَ
+- **F33** ب ص ر B001 «gözle görme» إبصار العين — word مُسْتَبْصِرِينَ (6 dictionaries); source: أبصرته إذا رأيته (maqayis)؛ البصر العين (ayn;tahdhib)؛ البصر حاسة الرؤية وأبصرت الشيء رأيته والبصير خلاف الضرير (sihah)؛ والبصر معروف أبصر يبصر إبصارا فهو مبصر وبصير (jamhara)؛ الجارحة الناظرة والباصرة (mufradat)؛ رأيته… (also L1.1, L3.2, F28) — img/fatiha: fatiha: ن ع م B013 نعم الله بك عينا وقرة العين ← أَنْعَمْتَ || img/fatiha: fatiha: غ ض ب B006 تورم العين وما حولها ← ٱلْمَغْضُوبِ
+- **F34** ب ص ر B004 «kan izi» بصيرة الدم — word مُسْتَبْصِرِينَ (6 dictionaries); source: البصيرة القطعة من الدم إذا وقعت بالأرض استدارت (maqayis;jamhara)؛ بصائر الدماء طرائقها على الجسد (ayn)؛ البصيرة من الدم ما كان على الأرض وشيء من الدم يستدل به على الرمية (sihah)؛ بصيرة من دم والجدية منها على الأرض والبص… (also H1.5, L3.3, F7) — img/fatiha: fatiha: غ ي ر B002 الغَيْر في الدية ← غَيْرِ || img/fatiha: fatiha: ن ع م B007 ما سمي نعامة تشبيها بالهيئة ← أَنْعَمْتَ
+- **F35** ب ص ر B006 «kalın kenar ve ek yeri» غلظ الحافة ووصل الشقتين — word مُسْتَبْصِرِينَ (6 dictionaries); source: بصر الشيء غلظه والبصر هو أن يضم أديم إلى أديم يخاطان والبصيرة ما بين شقتي البيت (maqayis)؛ البصر غلظ الشيء نحو بصر الجبل والسماء والحائط (ayn)؛ بصر كل شيء جلده الظاهر وثوب ذو بصر إذا كان غليظا وثيجا (jamhara)؛ البصر أن … (also H1.6, F9, F20) — img/fatiha: fatiha: غ ض ب B008 جلد صلب أو مطوي كدرقة ← ٱلْمَغْضُوبِ
+- **F36** ب ي ن B001 «ayrılıp kopma» انفصال الشيء وافتراقه — word تَّبَيَّنَ (5 dictionaries); source: البين الفراق (maqayis;sihah)؛ البينونة مصدر بأن يبين بينا وبينونة أي قطع (ayn)؛ البين مصدر بان يبين بينا (jamhara)؛ بان كذا أي انفصل (mufradat) (also H1.7, F10, F14) — img/fatiha: fatiha: غ ي ر B005 السوى والخلاف والاستثناء والنفي ← غَيْرِ
+
+### 5. Triangles [T]
+
+- **T1** س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word ٱلسَّبِيلِ (1 dictionaries, sole attestation); source: السبل داء في العين شبه غشاوة كأنها نسج العنكبوت بعروق حمر (sihah) (also H2.2, L1.6, L3.4, F26)
+  - → 1:6 [fatiha]: rel/same_field: ق و م B021 (göz perdesi ile kör göz) → ٱلْمُسْتَقِيمَ
+  - → مُسْتَبْصِرِينَ: lex/image: عين names the plain image of مُسْتَبْصِرِينَ || Luna (opposite): The eye’s opacity stands in tension with the insight they possessed.
+  - 1:6 [fatiha] ↔ مُسْتَبْصِرِينَ: form: form X participle: مُسْتَقِيمَ
+- **T2** ص د د B013 «aynada hazırlanmış göz boyası» كحل المرآة — word فَصَدَّهُمْ (1 dictionaries); source: الصُّدود ما دلكته على مرآة ثم كحلت به عينا (tahdhib) (also H2.3)
+  - → 1:6 [fatiha]: image similarity only
+  - → مُسْتَبْصِرِينَ: lex/src: عينا names the plain image of مُسْتَبْصِرِينَ || Luna (image): The outwardly adorned eye sits beside the inward discernment they possessed.
+  - 1:6 [fatiha] ↔ مُسْتَبْصِرِينَ: form: form X participle: مُسْتَقِيمَ
+- **T3** ع م ل B010 «iş gören beden parçası» الجارحة العاملة — word أَعْمَٰلَهُمْ (1 dictionaries, sole attestation); source: عوامل الدابة قوائمه واحدها عاملة (tahdhib); وترقبه بعاملة قذوف أي ترقبه بعين بعيدة النظر (tahdhib) (also H2.4)
+  - → 11:56 [people]: lex/src-rare: دابا → دَآبَّةٍ
+  - → مُسْتَبْصِرِينَ: lex/src: بعين names the plain image of مُسْتَبْصِرِينَ || Luna (complement): The root’s rare عامل sense can denote a working bodily member, including an eye that watches at a distance. مُسْتَبْصِرِينَ shifts from bodily sight to inward d
+  - 11:56 [people] ↔ مُسْتَبْصِرِينَ: form: form X participle: مُّسْتَقِيمٍ
+- **T4** ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين — word تَّبَيَّنَ (2 dictionaries); source: بين بمعنى وسط (sihah)؛ بين موضوع للخلالة بين الشيئين ووسطهما (mufradat)؛ لا يستعمل بين إلا فيما كان له مسافة أو له عدد ما اثنان فصاعدا (mufradat) (also H1.8, F21, F30)
+  - → 29:41 [surah]: rel/antonym: و ل ي B001 (yakın olma) → أَوْلِيَآءَ
+  - → مُسْتَبْصِرِينَ: image similarity only
+  - 29:41 [surah] ↔ مُسْتَبْصِرِينَ: frame: كَانُ مُسْتَبْصِرِينَ ~ كَانُ يَعْلَمُ
+- **T5** ز ي ن B001 «ayıptan uzak güzellik» حسن الشيء ونقاؤه من الشين — word وَزَيَّنَ (4 dictionaries); source: الزين نقيض الشين (maqayis;ayn;tahdhib)؛ زانه الحسن يزينه زينا (ayn;tahdhib)؛ الزينة الحقيقية ما لا يشين الإنسان (mufradat) (also L3.1, F2)
+  - → 29:7 [surah]: rel/near_synonym: ح س ن B001 (ayıpsız güzellik ile genel güzellik) → أَحْسَنَ
+  - → مُسْتَبْصِرِينَ: image similarity only
+  - 29:7 [surah] ↔ مُسْتَبْصِرِينَ: frame: كَانُ مُسْتَبْصِرِينَ ~ كَانُ يَعْمَلُ
+- **T6** ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر — word تَّبَيَّنَ (3 dictionaries); source: البين قطعة من الأرض قدر مد البصر (maqayis)؛ البين الغلظ من الأرض (jamhara)؛ البين بالكسر القطعة من الأرض قدر منتهى البصر (sihah)؛ البين أيضا الناحية (sihah) (also H1.10, H2.1, F16)
+  - → 1:6 [fatiha]: image similarity only
+  - → مُسْتَبْصِرِينَ: lex/src: بصر → root ب ص ر || lex/src: بصر names the plain image of مُسْتَبْصِرِينَ || Luna (same): The tract is measured by how far the eye reaches, while the closing word names inward perception. The pair moves from sight of land to sight of the heart.
+  - 1:6 [fatiha] ↔ مُسْتَبْصِرِينَ: form: form X participle: مُسْتَقِيمَ
+- **T7** ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة — word تَّبَيَّنَ (4 dictionaries); source: أبين من فلان أي أوضح كلاما منه (maqayis)؛ البين من الرجال الفصيح (ayn)؛ البيان الفصاحة واللسن (sihah)؛ البيان الكشف عن الشيء وهو أعم من النطق (mufradat) (also H2.5, L4.1, L5.1, F12, F15)
+  - → 1:6 [fatiha]: image similarity only
+  - → مُسْتَبْصِرِينَ: Luna (complement): The evidence is outside them, while insight is an inward capacity. The verse sharpens its irony: they had insight, yet were drawn from the way despite the visib
+  - 1:6 [fatiha] ↔ مُسْتَبْصِرِينَ: form: form X participle: مُسْتَقِيمَ
+- **T8** س ب ل B005 «yağan yağmur» مطر سابل بين السحاب والأرض — word ٱلسَّبِيلِ (6 dictionaries); source: السبل المطر الجود (maqayis)؛ السبل المطر (ayn)؛ والسبل المطر (jamhara)؛ السبل بالتحريك المطر؛ المطر بين السحاب والأرض (sihah)؛ السبل المطر المسبل؛ السبلة المطرة الواسعة؛ السبل المطر بين السحاب والأرض (tahdhib)؛ سبل المط… (also F4)
+  - → 46:24 [people]: rel/near_synonym: م ط ر B001 (gökten inen yağmur) → مُّمْطِرُنَا
+  - → مُسْتَبْصِرِينَ: image similarity only
+  - 46:24 [people] ↔ مُسْتَبْصِرِينَ: form: form X participle: مُّسْتَقْبِلَ
+- **T9** ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة — word وَكَانُوا۟ (1 dictionaries, sole attestation); source: الكينة في قولهم بات فلان بكينة سوء أي بحال سوء فأصله الكون فعلة من الكون (maqayis) (also L5.4)
+  - → تَّبَيَّنَ: image similarity only
+  - → وَزَيَّنَ: Luna (opposite): The beautified surface is set against the bad state beneath it, exposing the deception.
+  - تَّبَيَّنَ ↔ وَزَيَّنَ: sound: ب ي ن ~ ز ي ن
+- **T10** ص د د B008 «türü tartışmalı küçük hayvan» دويبة صغيرة — word فَصَدَّهُمْ (4 dictionaries); source: الصَّداد ضرب من الجرذان ويقال من دواب الأرض (ayn); الصَّداد الوزغ؛ الجمع صداديد (jamhara); الصَّداد دويبة وهي من جنس الجرذان؛ سام أبرص (sihah); الصَّداد سام أبرص؛ ضرب من الجرذان (tahdhib)
+  - → 11:56 [people]: lex/src-rare: دواب → دَآبَّةٍ
+  - → مُسْتَبْصِرِينَ: image similarity only
+  - 11:56 [people] ↔ مُسْتَبْصِرِينَ: form: form X participle: مُّسْتَقِيمٍ
+
+### 6. Bridges (touch two hubs) [J]
+
+- **J1** 29:41 [surah] joins H1, H2, L1, L2, L3, L6
+- **J2** 29:29 [surah] joins H1, H2, L1, L4, L5
+- **J3** 29:32 [surah] joins H1, L2, L4, L6
+- **J4** 29:33 [surah] joins H1, L2, L4, L6
+- **J5** 29:34 [surah] joins H1, L2, L4, L6
+- **J6** 29:63 [surah] joins H1, L1, L2, L3
+- **J7** 1:6 [fatiha] joins H2, L1, L3
+- **J8** 29:18 [surah] joins H2, L4, L5
+- **J9** 29:37 [surah] joins H1, L2, L6
+- **J10** 29:64 [surah] joins H1, L2, L6
+- **J11** 29:8 [surah] joins H1, L3, L4
+- **J12** 29:12 [surah] joins H1, L6
+- **J13** 29:15 [surah] joins H1, L2
+- **J14** 29:60 [surah] joins H2, L6
+- **J15** ٱلشَّيْطَٰنُ joins H1, L3
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** sound: تَّبَيَّنَ ~ وَزَيَّنَ: ب ي ن ~ ز ي ن
+- **G2** frame: مُسْتَبْصِرِينَ ~ 29:7: كَانُ مُسْتَبْصِرِينَ ~ كَانُ يَعْمَلُ
+- **G3** frame: مُسْتَبْصِرِينَ ~ 29:13: كَانُ مُسْتَبْصِرِينَ ~ كَانُ يَفْتَرُ
+- **G4** frame: مُسْتَبْصِرِينَ ~ 29:31: كَانُ مُسْتَبْصِرِينَ ~ كَانُ ظَٰلِمِينَ
+- **G5** frame: مُسْتَبْصِرِينَ ~ 29:34: كَانُ مُسْتَبْصِرِينَ ~ كَانُ يَفْسُقُ
+- **G6** frame: مُسْتَبْصِرِينَ ~ 29:39: كَانُ مُسْتَبْصِرِينَ ~ كَانُ سَٰبِقِينَ
+- **G7** frame: مُسْتَبْصِرِينَ ~ 29:40: كَانُ مُسْتَبْصِرِينَ ~ كَانُ أَنفُسَ
+- **G8** frame: مُسْتَبْصِرِينَ ~ 29:41: كَانُ مُسْتَبْصِرِينَ ~ كَانُ يَعْلَمُ
+- **G9** frame: مُسْتَبْصِرِينَ ~ 29:64: كَانُ مُسْتَبْصِرِينَ ~ كَانُ يَعْلَمُ
+- **G10** form: مُسْتَبْصِرِينَ ~ 1:6: form X participle: مُسْتَقِيمَ
+- **G11** form: مُسْتَبْصِرِينَ ~ 2:213: form X participle: مُّسْتَقِيمٍ
+- **G12** form: مُسْتَبْصِرِينَ ~ 7:16: form X participle: مُسْتَقِيمَ
+- **G13** form: مُسْتَبْصِرِينَ ~ 11:56: form X participle: مُّسْتَقِيمٍ
+- **G14** form: مُسْتَبْصِرِينَ ~ 12:18: form X participle: مُسْتَعَانُ
+- **G15** form: مُسْتَبْصِرِينَ ~ 46:24: form X participle: مُّسْتَقْبِلَ
+- **G16** form: مُسْتَبْصِرِينَ ~ 54:19: form X participle: مُّسْتَمِرٍّ
+- **G17** form: مُسْتَبْصِرِينَ ~ 1:6: form X participle: مُسْتَقِيمَ
+- **G18** word note: 29:38:1 وَ: opening conjunction that carries the named peoples into an already-running destruction frame — topics: opening connector carries prior governance
+- **G19** word note: 29:38:2 عَادًۭا: proper name for the people of ʿAd as an accusative carried object; tanwin keeps it fully declinable beside its paired name — topics: accusative tanwin marks carried object and full declension; paired proper name activates a known ruined-peoples field; return-root pressure creates c…
+- **G20** word note: 29:38:3 وَ: coordinating conjunction that binds Thamud to ʿAd under the same recovered governance — topics: second conjunction locks the name-pair together
+- **G21** word note: 29:38:4 ثَمُودَ: proper name for Thamud as an accusative paired object; base diptote shape remains visible beside a leveling tanwin variant — topics: diptote base shape remains a live formal pressure point; proper name activates visible dwelling traditions; depletion image colors the ruin name caut…
+- **G22** word note: 29:38:5 وَ: connector introducing the certified evidence parenthesis and the shift toward direct address — topics: connector opens the certified evidence parenthesis
+- **G23** word note: 29:38:6 قَدْ: certification particle before a perfect verb, marking the clarity as established rather than tentative — topics: certification particle fixes completed evidential clarity
+- **G24** word note: 29:38:7 تَبَيَّنَ: Form V perfect of becoming clear or distinct; the evidence has self-manifested to the audience from the ruins — topics: perfect verb and broad subject make evidence already clear; Form V makes clarity emerge from the evidence itself; clarity for the audience frames failed insight…
+- **G25** word note: 29:38:8 لَكُمْ: prepositional phrase routing the manifest evidence to the addressed audience as witnesses — topics: dative suffix turns audience into accountable witnesses
+- **G26** word note: 29:38:9 مِنْ: source preposition that makes the dwellings the origin, medium, or sample of the evidential clarity — topics: source preposition turns dwellings into evidence-channel; attachment ambiguity remains controlled by local syntax
+- **G27** word note: 29:38:10 مَسَاكِنِهِمْ: possessed plural dwelling-places governed by the source phrase; ruined habitation becomes visible evidence — topics: base source governance with variant agency pressure; dwelling-root becomes still ruin testimony; dwellings recur as the surviving witness after destruction
+- **G28** word note: 29:38:11 وَ: resumptive conjunction returning from the evidence parenthesis to the causal narrative — topics: resumptive conjunction returns to causal narration
+- **G29** word note: 29:38:12 زَيَّنَ: Form II active beautifying or adorning of deeds, with recipient and object separated and the agent named — topics: active verb separates agent, recipients, and object; Form II turns moral judgment into worked-over surface; beautification formula leads into path obstruction
+- **G30** word note: 29:38:13 لَهُمُ: prepositional recipient phrase for beautification, ironically marking the harmed group as those for whom the deeds were made attractive — topics: benefactive-looking lām marks harmful affectedness
+- **G31** word note: 29:38:14 هُمُ: bound plural pronoun carrying the named peoples forward as one affected group — topics: plural pronoun keeps one affected group across roles
+- **G32** word note: 29:38:15 ٱلشَّيْطَانُ: definite nominative adversarial agent who beautifies the deeds; remoteness pressure fits the later separation from the path — topics: definite nominative subject exposes the adversarial agent; remoteness root fits distance from the path; shaytan participates in recurring beau…
+- **G33** word note: 29:38:16 أَعْمَالَهُمْ: their collected deeds or works as the object made attractive and the hinge toward diversion — topics: accusative plural construct gathers their practice-field; neutral action-root becomes dangerous under beautification; beautified deeds pivot into path obstruction
+- **G34** word note: 29:38:17 فَ: causal-sequential particle making the obstruction follow from the beautification — topics: fa turns beautification into immediate consequence
+- **G35** word note: 29:38:18 صَدَّهُمْ: completed transitive obstruction or turning-away of the named peoples from the path, without erasing the path itself — topics: attached object makes the peoples acted upon; blocking turns people away without destroying the way; causal sequence and way-collocation make diversion …
+- **G36** word note: 29:38:19 عَنِ: separation preposition completing the obstruction frame by marking what they are turned away from — topics: preposition supplies the away-from target of obstruction
+- **G37** word note: 29:38:20 ٱلسَّبِيلِ: the definite singular way or proper course, governed after the separation preposition and targeted by obstruction — topics: definite singular path is the recognized course; genitive noun is locked under the away-from frame; path range carries course and flow pressure; path is t…
+- **G38** word note: 29:38:21 وَ: final conjunction that adds the closing state and, in context, makes it concessive — topics: final conjunction joins and concessively sharpens the paradox
+- **G39** word note: 29:38:22 كَانُوا: past auxiliary/copular verb establishing the plural subjects in an already-held state of insight — topics: plural verb keeps the named doublet active; auxiliary plus participle marks a standing state; auxiliary-participle pattern carries into the next ayah
+- **G40** word note: 29:38:23 مُسْتَبْصِرِينَ: Form X masculine plural active participle of insight, seeking, possessing, or claiming clear perception in the ayah closing — topics: accusative participle names a shared perceptual state; Form X heightens insight while keeping multiple readings open; closing insight seals…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+13 readings and open observations, 4 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L07** [reading; support strong, relevance high] word 7: مَّسَٰكِنِهِمْ — lemma مَسْكَن, root س ك ن, pos N;PRON
+  - finding: تَّبَيَّنَ presents the matter as having become clear, without naming an explainer. That emerging clarity is framed against the closing مُسْتَبْصِرِينَ, and recalls the clear sign left for people who reason in 29:35.
+  - evidence: 29:35 «وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The ayah opens its evidence clause with what has become clear to the listeners, then closes by assigning insight to the people who were diverted.
+  - limits: The juxtaposition does not establish that تَبَيَّنَ and مُسْتَبْصِرِينَ are equivalent terms or that insight alone should have prevented their fate.
+- **L08** [reading; support strong, relevance high] word 8: وَزَيَّنَ — lemma زَيَّنَ, root ز ي ن, pos CONJ;V
+  - finding: لَكُم makes the addressed audience the recipients of the disclosure from the dwellings, placing them as witnesses to evidence that the named peoples did not follow.
+  - evidence: 29:38 «تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The direct second-person plural contrasts with the third-person group whose deeds are beautified and who are turned away.
+  - limits: The grammar addresses the audience with the evidence; it does not establish that every listener personally saw those dwellings.
+- **L12** [reading; support strong, relevance high] word 12: فَصَدَّهُمْ — lemma صَدَّ, root ص د د, pos CONJ;V;PRON
+  - finding: زَيَّنَ casts diversion as the active beautifying of the people’s own أَعْمَالَهُمْ: the verb names the agent, the affected recipients, and the object whose appearance is worked on.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ»
+  - activation: The following فَصَدَّهُمْ makes the beautification the immediate lead-in to turning them from the path.
+  - limits: The noun أَعْمَالَهُمْ does not itself mean evil deeds; the danger described is their beautification and the resulting diversion.
+- **L13** [reading; support strong, relevance high] word 13: عَنِ — lemma عَن, root —, pos P
+  - finding: لَهُمُ marks the people as recipients of the beautification, while the outcome turns that apparently favorable “for them” relation into harm: they are diverted from the path.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The recipient phrase is followed by a result in which the same people become the objects of صَدَّهُمْ.
+  - limits: The lām marks the recipient; a beneficial meaning is not grammatically required, so the irony comes from the stated outcome.
+- **L16** [reading; support strong, relevance high] word 16: مُسْتَبْصِرِينَ — lemma مُسْتَبْصِرِين, root ب ص ر, pos N
+  - finding: أَعْمَالَهُمْ presents the deeds as the people’s own accumulated practice, while the sequence locates the danger in how those deeds are made attractive and then used to divert them.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The possessive suffix ties the deeds to the people, and فَ connects their beautification to their being turned from the path.
+  - limits: The ayah does not identify which particular deeds are meant or say that every one of their deeds was evil.
+- **L10** [reading; support medium, relevance high] word 10: ٱلشَّيْطَٰنُ — lemma شَيْطَٰن, root ش ط ن, pos DET;PN
+  - finding: مَسَاكِنِهِمْ makes former habitation the surviving channel of evidence. The preceding account ends with people lying in their dwelling, so the sequence moves from their fate in a home to clarity drawn from the dwellings of earlier peoples.
+  - evidence: 29:37 «فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: The dwelling vocabulary links the punishment scene in 29:37 to the remains that disclose the earlier peoples’ fate in 29:38.
+  - limits: The text does not state that the dwellings are physically empty or that مَسَاكِن itself means ruin; their evidential role comes from the surrounding clause.
+- **local_1.X1** [reading; support medium, relevance high] 
+  - finding: The path-diversion in 29:38 can be heard alongside the Fatiha’s communal request for guidance: the prayer asks for the straight path and distance from those gone astray, while this ayah shows a people turned away from al-sabīl despite their insight.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The Fatiha’s plural petition for guidance and its mention of those astray meet the focus ayah’s account of a plural people being turned away from the path.
+  - limits: The Fatiha uses صِرَاط rather than سَبِيل, so this is a thematic path-and-guidance relation, not an exact lexical echo.
+- **L01** [open; support medium, relevance high] word 1: وَعَادًا — lemma عَاد2, root ع و د, pos CONJ;PN
+  - finding: عَادًا and ثَمُودَا۟ appear as accusatives without a governing verb in this clause. The surrounding sequence supplies a judgment frame, but does not identify the omitted verb.
+  - evidence: 29:37 «فَأَخَذَتْهُمُ ٱلرَّجْفَةُ»; 29:38 «وَعَادًۭا وَثَمُودَا۟»; 29:40 «فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ»
+  - missing: The syntax or a fuller passage would need to establish whether the names recover a verb such as “destroyed,” “remember,” or another governing verb; 29:40 groups the punishments but does not supply that verb locally.
+- **L02** [open; support medium, relevance high] word 2: وَثَمُودَا۟ — lemma ثَمُود, root —, pos CONJ;PN
+  - finding: The paired names show a formal difference in the base reading: عَادًا has tanwīn while ثَمُودَا۟ does not; the listed tanwīn variant for Thamūd levels that difference. A possible irony between the name ʿĀd and the root sense of return could color the repeated destruction theme, but the pairing itself does not establish that wordplay.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟»
+  - missing: A dictionary account establishing that the proper name ʿĀd derives from or carries the return sense, plus Quranic usage that activates that sense here, could decide the proposed irony. The supplied variant also needs a qirāʾāt source to establish its status independently.
+- **L15** [open; support medium, relevance high] word 15: وَكَانُوا۟ — lemma كَانَ, root ك و ن, pos CONJ;V;PRON
+  - finding: The clause explicitly makes ٱلشَّيْطَٰنُ the beautifying agent. A further wordplay reading could hear the proposed remoteness sense of شطن alongside the following turning-away عَنِ ٱلسَّبِيلِ.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - missing: The supplied root sense makes the association possible, but evidence that this derivation is active in Quranic use—such as a dictionary discussion and parallels linking the name شَيْطَان with distance language—would be needed to establish deliberate wordplay.
+- **L05** [reading; support strong, relevance medium] word 5: لَكُم — lemma —, root —, pos P;PRON
+  - finding: The وَ before قَد turns from the paired names to a clause addressed directly to the audience: the dwellings make the past visible to them within the list of peoples.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The names are followed by قَدْ تَبَيَّنَ لَكُمْ, shifting attention from the peoples to what their dwellings disclose.
+  - limits: The conjunction marks a transition; whether the clause is best parsed as parenthetical, circumstantial, or resumptive is not settled by وَ alone.
+- **L09** [reading; support strong, relevance medium] word 9: لَهُمُ — lemma —, root —, pos P;PRON
+  - finding: مِن links the clarity to the dwellings as its evidential source: what is clear to the audience comes from مَسَاكِنِهِمْ.
+  - evidence: 29:38 «تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The source phrase follows the verb of becoming clear and precedes the account of the peoples’ deeds.
+  - limits: The source relation is clear in the base syntax, while finer distinctions such as source versus partitive nuance are not resolved by this phrase alone.
+- **L04** [reading; support medium, relevance medium] word 4: تَّبَيَّنَ — lemma تَبَيَّنَ, root ب ي ن, pos V
+  - finding: In the base form, ثَمُودَا۟ has a different declensional surface from عَادًا; the listed tanwīn variant removes that asymmetry. The variation changes the formal hearing of the name pair, not its coordination.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟»
+  - activation: The two names share the same accusative position but appear with different endings in the base form.
+  - limits: The morphological contrast does not establish a semantic difference between the peoples.
+
+Notes:
+- L06 [support strong, relevance medium] قَدْ with the perfect تَّبَيَّنَ presents the clarity as already realized, strengthening the contrast between evidence available to the audience and the peoples’ misperception.
+- L11 [support medium, relevance medium] The وَ before زَيَّنَ resumes the account after the clause about visible evidence and shifts from what the audience can see to how the peoples were diverted.
+- L03 [support strong, relevance low] The second وَ coordinates ثَمُودَا۟ with عَادًا as one paired mention; the conjunction binds the names but does not itself specify their shared fate.
+- L14 [support strong, relevance low] The attached plural pronoun carries the named peoples across their dwellings, their deeds, and the obstruction that acts upon them, keeping the same group in view through the sequence.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+10 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-بين** [reading; support strong, relevance high] root ب ي ن (focus word تَّبَيَّنَ: تَبَيَّنَ V form V) — 484 occurrences in 454 ayat; same form 17, other forms 467
+  - finding: The close pairing of dwellings with تَبَيَّنَ لَكُمْ in 14:45 returns here, but 29:38 makes the dwellings themselves the source of clarity. Elsewhere, تَبَيَّنَ لَهُمُ الْهُدَى is followed by Satanic inducement or by turning from the path (47:25, 47:32). The focus routes evidence to its audience, then says the past peoples were مُسْتَبْصِرِينَ: diversion follows available insight.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ ۖ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 14:45 «وَسَكَنتُمْ فِى مَسَٰكِنِ ٱلَّذِينَ ظَلَمُوٓا۟ أَنفُسَهُمْ وَتَبَيَّنَ لَكُمْ كَيْفَ فَعَلْنَا بِهِمْ»; 47:25 «مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ»; 47:32 «وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ وَشَآقُّوا۟ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَىٰ»
+  - activation: The focus directs clarity to لَكُم through مِن مَّسَٰكِنِهِمْ, then attributes مُسْتَبْصِرِينَ to the diverted group, joining public witness with failed guidance.
+  - limits: The parallel wording shows a recurring pattern, but the other passages concern different people; it does not establish exactly what each group knew or prove a direct allusion.
+- **U-سكن** [reading; support strong, relevance high] root س ك ن (focus word مَّسَٰكِنِهِمْ: مَسْكَن N) — 69 occurrences in 66 ayat; same form 12, other forms 57
+  - finding: مَسَاكِن recurs as what remains after inhabitants disappear: in 46:25, specifically after ʿĀd’s destruction, only their dwellings are seen; 28:58 says destroyed towns’ dwellings were scarcely inhabited afterward. Here those houses become testimony, since clarity comes مِن مَّسَٰكِنِهِمْ.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 46:25 «فَأَصْبَحُوا۟ لَا يُرَىٰٓ إِلَّا مَسَٰكِنُهُمْ»; 28:58 «فَتِلْكَ مَسَٰكِنُهُمْ لَمْ تُسْكَن مِّنۢ بَعْدِهِمْ إِلَّا قَلِيلًۭا»
+  - activation: The possessive suffix marks the houses as theirs, while مِن makes them a source of evidence for the addressed audience; ʿĀd is named in the focus and in the destruction scene at 46:25.
+  - limits: These parallels establish dwellings as traces of vanished inhabitants, not that both peoples left identical remains. The noun مَسَاكِن does not by itself activate stillness or rest senses of other سكن forms.
+- **U-زين** [reading; support strong, relevance high] root ز ي ن (focus word وَزَيَّنَ: زَيَّنَ V form II) — 45 occurrences in 43 ayat; same form 26, other forms 19
+  - finding: The active Form II in 29:38 reproduces 27:24’s sequence: Satan beautifies their deeds and turns them from the path. Where 27:24 concludes that they are unguided, this verse says they were مُسْتَبْصِرِينَ. In 8:48, beautifying deeds accompanies a tactical promise that collapses when the battle lines meet; here insight and diversion coexist.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 27:24 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ فَهُمْ لَا يَهْتَدُونَ»; 8:48 «وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى جَارٌۭ لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيْهِ وَقَالَ إِنِّى بَرِىٓءٌ مِّنكُمْ إِنِّىٓ أَرَىٰ مَا لَا تَرَوْنَ إِنِّىٓ أَخَافُ ٱللَّهَ ۚ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ»
+  - activation: The focus repeats the agent, object, and path-obstruction chain, then closes with مُسْتَبْصِرِينَ instead of the parallel’s لَا يَهْتَدُونَ.
+  - limits: The repeated formula and the scene in 8:48 do not make these the same episode or identify the deeds in 29:38; مُسْتَبْصِرِينَ states insight without specifying how fully they grasped the consequences.
+- **U-شطن** [reading; support strong, relevance high] root ش ط ن (focus word ٱلشَّيْطَٰنُ: شَيْطَٰن PN) — 82 occurrences in 78 ayat; same form 74, other forms 8
+  - finding: The focus names ٱلشَّيْطَٰنُ as the agent in a sequence that recurs word for word in 27:24: he beautifies their أعمالهم, then فصدهم عن السبيل. That parallel presents the diversion of ʿĀd and Thamūd as another instance of Satan’s beautification leading directly to obstruction.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 27:24 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus explicitly names Satan and joins beautification to turning the named peoples from the path with فَ.
+  - limits: The parallel establishes a repeated sequence, but not that the two peoples committed the same acts or faced identical circumstances.
+- **U-عمل** [reading; support strong, relevance high] root ع م ل (focus word أَعْمَٰلَهُمْ: عَمَل N) — 354 occurrences in 313 ayat; same form 68, other forms 286
+  - finding: The focus leaves أَعْمَٰلَهُمْ unqualified as a plural field of deeds, while 40:37 describes Pharaoh’s سُوٓءُ عَمَلِهِۦ and likewise follows beautification with turning from the path. Since 29:39 names Pharaoh immediately after the focus, that parallel makes the broad plural deeds of 29:38 sit beside another historical case of beautified action and diversion.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 40:37 «وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ»; 29:39 «وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ»
+  - activation: The focus makes deeds the object of beautification, and the next verse names Pharaoh among the figures in the continuing catalogue.
+  - limits: 40:37 uses a singular deed explicitly called evil and a passive obstruction verb; it does not name Satan or establish that every case in the catalogue works identically.
+- **U-صدد** [reading; support strong, relevance high] root ص د د (focus word فَصَدَّهُمْ: صَدَّ V) — 42 occurrences in 41 ayat; same form 37, other forms 5
+  - finding: The focus makes ٱلشَّيْطَٰنُ the subject of فَصَدَّهُمْ: the named peoples are the ones turned away. Many Quranic uses instead make disbelieving groups the agents who صدوا عن سبيل الله, as in 4:167; 43:37 offers a closer participant contrast, with one group turning another away while the latter think they are guided.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 4:167 «إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ قَدْ ضَلُّوا۟ ضَلَٰلًۢا بَعِيدًا»; 43:37 «وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»
+  - activation: The focus’s object suffix ـهُمْ assigns ʿĀd and Thamūd the affected role, while the preceding clause identifies the obstructing agent.
+  - limits: The syntax foregrounds Satan’s agency but does not erase the peoples’ responsibility or make the groups in these other verses identical to them.
+- **usage_2.X1** [reading; support strong, relevance high] 
+  - finding: The preceding Lot episode says a clear sign was left for people who reason; the focus then says the dwellings of ʿĀd and Thamūd have become clear to its audience. The repeated ب ي ن root shifts from a surviving sign to ruined dwellings as evidence, while the focus’s closing مُسْتَبْصِرِينَ makes the gap between evidence available to later hearers and the former peoples’ perception sharper.
+  - evidence: 29:35 «وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The verses are adjacent, repeat the ب ي ن root in sign and clarity language, and both connect ruined places with what later audiences can perceive.
+  - limits: The verses concern separate peoples and places; their placement and wording establish an echo, not identical events or a claim that the traces are the same sign.
+- **U-سبل** [reading; support medium, relevance high] root س ب ل (focus word ٱلسَّبِيلِ: سَبِيل N) — 168 occurrences in 164 ayat; same form 168, other forms 0
+  - finding: Surah 29 presents competing claims around سبيل: disbelievers urge others to follow سبيلنا in 29:12, while the ending promises guidance to سبلنا for those who strive for God in 29:69. Between them, the focus’s definite singular ٱلسَّبِيلِ names the route from which ʿĀd and Thamūd are turned, sharpening the surah’s concern with whose way is followed.
+  - evidence: 29:12 «ٱتَّبِعُوا۟ سَبِيلَنَا»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 29:69 «لَنَهْدِيَنَّهُمْ سُبُلَنَا»
+  - activation: The focus occurs between the disbelievers’ invitation to follow their way and the surah’s closing promise of divine guidance.
+  - limits: The focus has a definite singular noun, while the surrounding claims use possessive forms and the closing promise is plural; the wording suggests a surah-level contrast without proving exact co-reference.
+- **U-بصر** [reading; support medium, relevance high] root ب ص ر (focus word مُسْتَبْصِرِينَ: مُسْتَبْصِرِين N form X) — 148 occurrences in 139 ayat; same form 1, other forms 147
+  - finding: The focus closes with the rare Form X participle مُسْتَبْصِرِينَ, placing an insight-state beside the prior diversion from ٱلسَّبِيلِ. In 7:201, people touched by Satan remember and become مُبْصِرُونَ; in 12:108, the call to ٱللَّه is explicitly joined to سَبِيلِىٓ and بَصِيرَةٍ. These distinct forms and settings make the focus’s pairing of path and insight especially pointed.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 7:201 «إِنَّ ٱلَّذِينَ ٱتَّقَوْا۟ إِذَا مَسَّهُمْ طَٰٓئِفٌۭ مِّنَ ٱلشَّيْطَٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبْصِرُونَ»; 12:108 «هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى»
+  - activation: The focus places its bṣr-root participle immediately after the path-obstruction clause and has already named Satan as the beautifier.
+  - limits: The Form X, Form IV, and noun forms occur in different settings; these parallels do not establish that the peoples had the same kind of insight as the guided or that their insight was saving.
+- **U-عود** [open; support weak, relevance high] root ع و د (focus word وَعَادًا: عَاد2 PN) — 62 occurrences in 58 ayat; same form 24, other forms 38
+  - finding: The same-form uses treat عَاد as a people-name, often paired with ثَمُود in catalogues of earlier peoples; that pairing recurs in 25:38 and here. Since the assigned root also supplies Qur’anic forms for return, the repeated name could make the warning sound as if it returns, but the names alone do not show a wordplay.
+  - evidence: 25:38 «وَعَادًۭا وَثَمُودَا۟ وَأَصْحَٰبُ ٱلرَّسِّ»; 29:38 «وَعَادًۭا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 28:85 «إِنَّ ٱلَّذِى فَرَضَ عَلَيْكَ ٱلْقُرْءَانَ لَرَآدُّكَ إِلَىٰ مَعَادٍۢ»; 44:15 «إِنَّكُمْ عَآئِدُونَ»
+  - activation: The verse opens with this recurring name-pair amid Surah 29’s accounts of earlier peoples; the root’s return-related forms make a recurrence reading worth checking.
+  - missing: A dictionary account connecting the proper name عَاد to the return sense, or an independent return cue in this surah or the focus wording, would help decide whether the root is active here.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+21 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The sequence moves from Lot’s surviving clear sign (29:35), through Madyan’s dead in their dwelling (29:37), to ʿĀd and Thamūd whose dwellings disclose evidence (29:38); Moses’ clear proofs then carry the account from material traces to delivered signs (29:39).
+  - evidence: 29:35 «وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ»; 29:37 «فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:39 «وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ»
+  - activation: The focus places dwellings between one account of a surviving sign and another of proofs met with arrogance.
+  - limits: The sequence aligns different prophetic episodes; it does not make their peoples or punishments identical.
+- **S-بين** [reading; support strong, relevance high] root ب ي ن elsewhere in the surah (7)
+  - finding: The root ب ي ن spans clear delivery by the Messenger (18), a surviving clear sign (35), the dwellings becoming evident (38), and Moses’ manifest proofs (39). In the focus, تَّبَيَّنَ applies this disclosure pattern to physical remains; the forms differ, but the surah repeatedly presents evidence as available to be seen or heard.
+  - evidence: 29:18 «وَمَا عَلَى ٱلرَّسُولِ إِلَّا ٱلْبَلَٰغُ ٱلْمُبِينُ»; 29:35 «ءَايَةًۢ بَيِّنَةًۭ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:39 «جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ»
+  - activation: The focus itself uses the verb تَّبَيَّنَ and names the dwellings as the source of what is evident.
+  - limits: Shared root does not make the verb, adjective, and plural noun grammatically interchangeable or prove a single evidentiary mechanism.
+- **S-سبل** [reading; support strong, relevance high] root س ب ل elsewhere in the surah (3)
+  - finding: The focus’s definite singular ٱلسَّبِيلِ is one contested course: disbelievers earlier urge people to follow سَبِيلَنَا, while the surah closes with God guiding strivers to سُبُلَنَا. Diversion in 29:38 sits between a socially claimed route and a divinely guided plurality of ways.
+  - evidence: 29:12 «ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَٰيَٰكُمْ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 29:69 «لَنَهْدِيَنَّهُمْ سُبُلَنَا»
+  - activation: The shared س ب ل root links an invitation to follow, the obstruction of a path, and the surah’s closing promise of guidance.
+  - limits: The text does not say the people in 29:38 heard the speakers of 29:12 or that every occurrence names the identical course.
+- **S-عمل** [reading; support strong, relevance high] root ع م ل elsewhere in the surah (6)
+  - finding: The focus makes their أعمال object to Shaytan’s beautification, while the surah uses the same root for both evil conduct (4) and righteous works (7). The root names action broadly; its moral direction is supplied by its context, and here that action becomes the material through which they are diverted.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 29:4 «ٱلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ»; 29:7 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus has the plural noun أَعْمَالَهُمْ, with a named agent altering how those deeds appear.
+  - limits: The other occurrences are verbs and do not establish that every deed of ʿĀd and Thamūd was evil or attractive in the same way.
+- **S-hft-baseline_evidence_insight_gap** [reading; support strong, relevance high] (baseline_model)
+  - finding: The dwellings’ evidence is already clear to the audience, yet the people are called مُسْتَبْصِرِينَ and still turned from the path. The ayah holds external disclosure and human discernment alongside failed orientation, so its problem is not simply unavailable evidence.
+  - evidence: 29:35 «ءَايَةًۢ بَيِّنَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus places the audience’s clear evidence before the beautification and path-diversion clause, then closes with the people’s discernment.
+  - limits: The text does not specify the inner process by which discernment failed to govern conduct.
+- **S-hft-baseline_valuation_capture** [reading; support strong, relevance high] (baseline_model)
+  - finding: Beautification leads directly, through فَ, to diversion: the sequence makes altered valuation a means of redirecting conduct. The surah’s earlier question about people who do evil deeds sharpens the focus on their own actions as the object that is made attractive.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 29:4 «ٱلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ»
+  - activation: The active verb names Shaytan as agent, their deeds as object, and فَ connects beautification to the resulting obstruction.
+  - limits: The wording says they were turned from the path; it does not say they stopped acting or that every action was attractive to them.
+- **S-hft-baseline_settlement_reversal** [reading; support strong, relevance high] (baseline_model)
+  - finding: The adjacent histories repeatedly make inhabited places part of the aftermath: a clear sign remains from Lot’s town, Madyan’s people are found in their dwelling, and ʿĀd and Thamūd’s dwellings disclose evidence. The former setting of habitation is now legible as testimony after its inhabitants’ destruction.
+  - evidence: 29:35 «تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةًۭ»; 29:37 «فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus explicitly directs the audience to the peoples’ dwellings as evidence, after nearby accounts of places and their aftermath.
+  - limits: The passages do not say that the dwellings themselves caused the downfall or that every named people left the same kind of ruin.
+- **S-hft-delta_rival_path_and_burden_transfer** [reading; support strong, relevance high] (context_delta)
+  - finding: The focus names path-diversion without describing its social script; 29:12 supplies one, as disbelievers recruit others to their path and promise to carry their errors, a promise exposed as false, while 29:13 says they will carry added burdens. Diversion can thus work through recruitment backed by imagined transfer of liability.
+  - evidence: 29:12 «ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَٰيَٰكُمْ وَمَا هُم بِحَٰمِلِينَ مِنْ خَطَٰيَٰهُم مِّن شَىْءٍ»; 29:13 «وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًۭا مَّعَ أَثْقَالِهِمْ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The repeated path root links the focus’s diversion to an earlier invitation to follow a claimed route.
+  - limits: The surah does not identify the earlier recruiters as Shaytan or say that these named peoples received that exact promise.
+- **S-hft-delta_dwellings_as_field_evidence** [reading; support strong, relevance high] (context_delta)
+  - finding: The surah tells its audience to travel through the land and inspect how creation began, then calls a surviving trace from Lot’s town a clear sign; the focus likewise says the dwellings of ʿĀd and Thamūd have become evident to its audience. Historical remains fit the surah’s invitation to encounter evidence through observation.
+  - evidence: 29:20 «قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ»; 29:35 «وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The direct address لَكُم and the prior command to inspect the land frame visible traces as evidence for the audience.
+  - limits: The text does not report that the addressees personally visited these specific dwellings.
+- **S-hft-delta_effort_opens_paths** [reading; support strong, relevance high] (context_delta)
+  - finding: The surah ends by joining striving to divine guidance along plural paths. Against 29:38’s people turned from the definite singular path, the closing promise makes committed movement the condition paired with guidance into further ways.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 29:69 «وَٱلَّذِينَ جَٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا»
+  - activation: The repeated س ب ل root sets the obstruction near the historical account against the surah’s final promise of guidance.
+  - limits: The closing verse does not say that the plural ways are a direct grammatical gloss of the focus’s singular path.
+- **S-hft-delta_discernment_under_assay** [reading; support medium, relevance high] (context_delta)
+  - finding: The surah opens by asking whether a claim of belief can go untested, then distinguishes the truthful from the false; against that frame, 29:38’s مُسْتَبْصِرِينَ makes discernment a capacity whose practical force is exposed by what follows.
+  - evidence: 29:2 «أَن يَقُولُوٓا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ»; 29:3 «فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟ وَلَيَعْلَمَنَّ ٱلْكَٰذِبِينَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The opening’s claim-and-test frame makes the focus’s contrast between insight and being turned away consequential rather than decorative.
+  - limits: The opening test addresses professed believers; the text does not say ʿĀd and Thamūd underwent that same test in identical terms.
+- **S-hft-delta_embodied_inhibition** [reading; support medium, relevance high] (context_delta)
+  - finding: Later, prayer is said to restrain indecency and wrong; read beside deeds made attractive and then redirected, this gives the surah an action-level counterpoint to beautification: a practice can check conduct where insight alone did not determine movement.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 29:45 «إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ»
+  - activation: Both passages concern deeds and wrong conduct, while the later verse explicitly assigns a restraining role to prayer.
+  - limits: The surah does not say that prayer would have prevented these ancient peoples’ diversion or describe their worship practices here.
+- **S-hft-delta_nonbinding_knowledge** [reading; support medium, relevance high] (context_delta)
+  - finding: The surah later places clear signs within the breasts of people given knowledge, yet also describes people who answer correctly that God is creator while most do not reason. This supports hearing مُسْتَبْصِرِينَ as real discernment that need not bind inference or allegiance.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 29:49 «ءَايَٰتٌۢ بَيِّنَٰتٌۭ فِى صُدُورِ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ»; 29:63 «لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ»
+  - activation: The focus itself pairs a term for discernment with the consequence of being turned away, while later verses separate possessing or voicing truth from acting on it.
+  - limits: These later audiences are not identified as ʿĀd or Thamūd, so they establish a surah-wide pattern rather than shared participants.
+- **S-hft-delta_security_belief_collision** [reading; support medium, relevance high] (context_delta)
+  - finding: In 29:67, the secure sanctuary and the question of believing in falsehood share the أ م ن root; the verse also asks whether its audience sees the contrast with people being snatched nearby. Alongside مُسْتَبْصِرِينَ, this sharpens the possibility that recognizing evidence and assigning trust are separate acts.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 29:67 «أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا ءَامِنًۭا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ»
+  - activation: The later verse binds granted security and believing with the same root while putting visible protection beside surrounding danger.
+  - limits: The focus’s ب ص ر and the later verse’s ر أ ي are different roots, and the people addressed in 29:67 are not identified with the earlier nations.
+- **S-hft-delta_socialized_obstruction** [open; support medium, relevance high] (context_delta)
+  - finding: A social reading of beautified deeds is possible: elsewhere the surah joins fabricated falsehood, mutual affection around idols, and public conduct that cuts the path. Together these scenes suggest how attractive conduct can gain communal reinforcement and become obstruction for others.
+  - evidence: 29:17 «وَتَخْلُقُونَ إِفْكًا»; 29:25 «مَّوَدَّةَ بَيْنِكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا»; 29:29 «وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - missing: The focus does not identify its deeds with the idolatry of 29:17 and 25 or the assembly conduct of 29:29; an explicit lexical or narrative link would establish that communal sequence for these peoples.
+- **S-hft-delta_false_stability_architecture** [open; support medium, relevance high] (context_delta)
+  - finding: The sequence may connect historical settlement to the later image of a weak house: Madyan’s people remain in their dwelling, the next ayah points to the dwellings of ʿĀd and Thamūd, and the spider’s house is called the weakest of houses. This could make failed worldly security a larger structural thread.
+  - evidence: 29:37 «فِى دَارِهِمْ جَٰثِمِينَ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»; 29:41 «وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ لَبَيْتُ ٱلْعَنكَبُوتِ»
+  - missing: A stated comparison or clearer lexical bridge between these historical dwellings and the spider’s house could confirm that the juxtaposition is intentional; the sequence alone leaves the analogy undecided.
+- **S-hft-delta_state_dependent_salience** [open; support medium, relevance high] (context_delta)
+  - finding: At sea, people call on God sincerely, then after rescue to land return to association; this gives the surah a scene where orientation shifts with circumstance. It could illuminate how discernment in 29:38 coexists with conduct drawn elsewhere.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 29:65 «دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ»; 29:66 «لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَٰهُمْ وَلِيَتَمَتَّعُوا۟»
+  - missing: An explicit link between the focus’s beautification and this sea-rescue change of state is absent; a shared term or stated causal connection could show whether the later scene explains the earlier one.
+- **S-عود** [open; support weak, relevance high] root ع و د elsewhere in the surah (1)
+  - finding: The supplied root assignment makes the name عَادًا formally resonate with يُعِيدُهُ in 29:19, where creation is brought back. If the proper name remains lexically transparent, the historical name list could sound against the surah’s return-to-life theme.
+  - evidence: 29:38 «وَعَادًۭا»; 29:19 «ثُمَّ يُعِيدُهُۥٓ»
+  - missing: A dictionary or other lexical evidence is needed to show that عَادًا is heard through the root ع و د as ‘return’; the shared root assignment alone cannot establish an intentional name-pun.
+- **S-hft-outlier_webbed_path** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: If سَبِيلٌ bears the proposed rare sense of a fine ocular film, its pairing with مُسْتَبْصِرِينَ and the later spider’s web could suggest a fragile veil over perception: deeds look attractive while discernment remains. This would recast obstruction as visual covering as well as redirection.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 29:41 «بَيْتَ ٱلْعَنكَبُوتِ»
+  - missing: A dictionary attestation that سَبِيلٌ can mean an ocular film, plus a clearer textual cue joining that sense to the spider image, is needed to establish the proposed veil reading.
+- **S-hft-outlier_counted_case_ledger** [reading; support strong, relevance medium] (surprising_valid_outlier)
+  - finding: The paired names in 29:38 enter a larger roster that 29:40 sorts distributively: كُلًّا links each case to its offense, then مِنْهُم distinguishes different outcomes. This makes the focus’s name-pair part of a case ledger; the name’s proposed counting resonance is not needed for that structure.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟»; 29:40 «فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًۭا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ»
+  - activation: The following ayah gathers the preceding peoples under كُلًّا and sorts them by distinct forms of punishment.
+  - limits: This case-by-case framing does not establish that عَادًا carries a lexical sense of counting or that the name itself signals a ledger.
+- **S-كون** [reading; support medium, relevance medium] root ك و ن elsewhere in the surah (18)
+  - finding: The focus reports the people as كَانُوا۟ مُسْتَبْصِرِينَ, placing discernment in a past condition. The nearby judgment summary says the peoples were taken for their sins and that they wronged themselves (40), so being described as discerning does not function as immunity from consequence.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 29:40 «فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ»; 29:40 «وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ»
+  - activation: The plural subject in 29:40’s judgment summary includes the named peoples and places their past state beside their accountability.
+  - limits: The frequent verb كَانَ has varied uses across the surah; this local comparison does not assign one fixed nuance to every occurrence.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+210 readings and open observations, 56 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 36, 'same-as': 3}.
+
+- **R-2:68** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:68 asks Moses to make the matter clear (يُبَيِّن لَّنَا); 29:38 says the evidence has become clear (تَّبَيَّنَ لَكُم) from the dwellings. The contrast puts a request for explanation beside a completed, visible disclosure.
+  - evidence: 2:68 «يُبَيِّن لَّنَا مَا هِىَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus directly addresses its audience with لَكُم and names the dwellings as the source of clarity, making the contrast between requested and already manifest clarification apt.
+  - limits: The verses share the b-y-n root, but differ in form and subject; this does not establish that the cow episode is an allusion to the ruined peoples.
+- **R-2:75** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:75 describes people altering what they heard after understanding it and while knowing; this parallels 29:38’s unsettling claim that people could be مُسْتَبْصِرِينَ and still be diverted.
+  - evidence: 2:75 «ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus’s closing description of perceptive people activates 2:75’s explicit knowledge and understanding before wrongdoing.
+  - limits: 2:75 concerns a group’s treatment of God’s speech; it does not attribute their action to Satan or say they were turned from a path.
+- **R-2:208** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:208 warns believers against following Satan’s steps and names him as a clear enemy; 29:38 narrates what that adversarial influence does, beautifying deeds and turning people from the way.
+  - evidence: 2:208 «وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus names Satan as the agent, while 2:208 speaks directly to an audience about following his steps.
+  - limits: The warning does not specify beautification as the means, and its addressed believers are not identified with ʿAd or Thamud.
+- **R-2:211** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:211 places changing a blessing after a clear sign has come; 29:38 places diversion alongside evidence that has become clear from the dwellings. Together they show wrongdoing after a sign is available, while leaving the agents’ circumstances distinct.
+  - evidence: 2:211 «كَمْ ءَاتَيْنَٰهُم مِّنْ ءَايَةٍۭ بَيِّنَةٍۢ»; 2:211 «وَمَن يُبَدِّلْ نِعْمَةَ ٱللَّهِ مِنۢ بَعْدِ مَا جَآءَتْهُ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus places وَقَد تَّبَيَّنَ beside Satan’s successful diversion, and 2:211 supplies a parallel pattern of conduct after clear evidence.
+  - limits: 2:211 speaks of changing a divine blessing, not of Satan adorning deeds or of the dwellings of ʿAd and Thamud.
+- **R-2:212** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared زين root connects two different objects of attraction: ٱلْحَيَوٰةُ ٱلدُّنْيَا is beautified for disbelievers in 2:212, while Satan beautifies أَعْمَٰلَهُمْ in 29:38. The distinction keeps worldly attraction and attractive deeds from collapsing into one claim.
+  - evidence: 2:212 «زُيِّنَ لِلَّذِينَ كَفَرُوا۟ ٱلْحَيَوٰةُ ٱلدُّنْيَا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus explicitly names the beautifying action and its object, inviting comparison with the passive construction and named object in 2:212.
+  - limits: The agent is explicit in 29:38 but not in 2:212; the latter does not say that deeds are beautified.
+- **R-2:256** [reading; support strong, relevance high] inter-ayah target
+  - finding: The close construction قَد تَّبَيَّنَ … مِن makes 2:256 a parallel to the focus’s قَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ. There, guidance is distinguished from error; here, the dwellings make evidence clear while the people are diverted from ٱلسَّبِيلِ.
+  - evidence: 2:256 «قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus pairs a completed clarification with diversion from the way, making the guidance/error distinction in 2:256 directly relevant.
+  - limits: 2:256 names no dwellings or Satan, and the parallel does not prove that the ruins themselves are identified with ٱلرُّشْدُ.
+- **R-2:259** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages put a ruined place into a question about what its condition shows. In 2:259, a passerby questions how the dead town could be revived and clarity comes after a divine demonstration; in 29:38, dwellings themselves already make the historical evidence clear.
+  - evidence: 2:259 «مَرَّ عَلَىٰ قَرْيَةٍۢ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا»; 2:259 «فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعْلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: مَّسَٰكِنِهِمْ and the completed تَّبَيَّنَ make ruined habitation and the knowledge it yields central in the focus.
+  - limits: The town in 2:259 is used in a demonstration of resurrection; it is not identified with the peoples or warning in 29:38.
+- **R-3:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: 3:14 also uses زُيِّنَ, but its object is love of worldly desires, whereas 29:38 names deeds as the object and Satan as the active beautifier. This parallel makes the focus’s specific object and attribution stand out.
+  - evidence: 3:14 «زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus’s verb زَيَّنَ and its explicit object أَعْمَٰلَهُمْ invite comparison with the other construction.
+  - limits: 3:14 does not name the beautifier as Satan, and its list of desires is not the focus’s deeds.
+- **R-3:99** [reading; support strong, relevance high] inter-ayah target
+  - finding: 3:99 gives an active human counterpart to the focus: it accuses people of turning believers away from سبيل الله while seeking to make the way crooked. The focus instead says Satan turns ʿAd and Thamud from ٱلسَّبِيلِ.
+  - evidence: 3:99 «لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًۭا وَأَنتُمْ شُهَدَآءُ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The shared ص د د + عن + سبيل construction makes the focus’s diversion formula the point of comparison.
+  - limits: 3:99’s human agents hinder believers and seek a crooked way; the focus names Satan as the agent acting on the ancient peoples.
+- **R-3:137** [reading; support strong, relevance high] inter-ayah target
+  - finding: 3:137 tells its audience to travel and observe the outcome of deniers; 29:38 supplies specific peoples and says their dwellings have become clear evidence. The focus can thus be heard as an instance of the commanded historical looking.
+  - evidence: 3:137 «فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ»; 29:38 «وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus names past peoples and makes their dwellings visible to the addressed audience, matching the travel-and-observe instruction.
+  - limits: 3:137 does not name ʿAd or Thamud, and the connection does not establish that its instruction refers only to their dwellings.
+- **R-4:44** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:44 describes people who purchase misguidance and want others to stray from the way; it parallels the outcome in 29:38, where Satan’s beautification ends in turning people from ٱلسَّبِيلِ.
+  - evidence: 4:44 «يَشْتَرُونَ ٱلضَّلَٰلَةَ وَيُرِيدُونَ أَن تَضِلُّوا۟ ٱلسَّبِيلَ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus’s final obstruction phrase calls up 4:44’s explicit desire to make others stray from the way.
+  - limits: 4:44 describes people seeking to mislead others; it does not name Satan or describe deeds being made attractive.
+- **R-4:115** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:115 joins clarity, departure from the way, and consequence: someone opposes the Messenger after guidance becomes clear and follows another way. It is a close parallel to the focus’s clear evidence, diversion, and perceptive people.
+  - evidence: 4:115 «مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus combines تبين, a way, and the state مستبصرين; 4:115 places clear guidance immediately before following a different way.
+  - limits: 4:115 describes opposition and following another way; it does not assign that choice to Satan’s beautification.
+- **R-4:117** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:117 gives a sharper account of human relation to Satan: the speakers are said to invoke a rebellious Satan. Beside 29:38, where Satan acts upon them, this raises the possibility that those presented as targets of his influence are also bound to his worship.
+  - evidence: 4:117 «وَإِن يَدْعُونَ إِلَّا شَيْطَٰنًۭا مَّرِيدًۭا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus makes Satan the named agent; 4:117 explicitly places people in a relation of invocation to him.
+  - limits: The passages concern different groups, and 29:38 does not say that ʿAd or Thamud invoked Satan.
+- **R-4:118** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 4:118 Satan declares an intention to take a share of God’s servants; 29:38 narrates a means by which that influence operates, making deeds attractive and turning people from the way.
+  - evidence: 4:118 «لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًۭا مَّفْرُوضًۭا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus’s explicit Satanic agency can be read alongside Satan’s first-person claim to a portion of humanity.
+  - limits: 4:118 states his intention but does not specify beautification or the path as his method.
+- **R-4:119** [reading; support strong, relevance high] inter-ayah target
+  - finding: Satan’s first-person pledge to mislead people in 4:119 gives an announced intention whose realization resembles the focus’s account of him turning people from the way.
+  - evidence: 4:119 «وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both passages give Satan agency over human direction; one states his plan and the other narrates its effect.
+  - limits: The pledge in 4:119 does not name ʿAd or Thamud, and its listed acts are not identical to the focus’s beautification.
+- **R-4:161** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:160 places turning people away from God’s way among the community’s acts, then 4:161 adds usury and unjust taking as further charges. This makes a human group the grammatical agent of obstruction, unlike the focus’s Satan acting upon the peoples.
+  - evidence: 4:160 «وَبِصَدِّهِمْ عَن سَبِيلِ ٱللَّهِ كَثِيرًۭا»; 4:161 «وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The repeated ص د د عن سبيل wording gives the focus a direct comparison, while the neighboring charge shows the act set around it.
+  - limits: The related passage names God’s way and identifies the people as obstructers; the focus presents them as the ones Satan diverts.
+- **R-4:167** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 4:167, disbelievers themselves turn others away from God’s way and are then described as far astray. The focus reverses the verb’s agency pattern: Satan turns ʿAd and Thamud away from the way.
+  - evidence: 4:167 «إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ قَدْ ضَلُّوا۟ ضَلَٰلًۢا بَعِيدًا»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The shared ص د د عن سبيل phrase makes the shift between obstructing others and being diverted from the way especially visible.
+  - limits: 4:167 does not mention Satan or say that its people are being acted upon by another agent.
+- **R-5:77** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:77 describes a chain in which a people who strayed from the way also led many astray. It complements the focus by showing human transmitters of misguidance where 29:38 names Satan as the agent who diverts people.
+  - evidence: 5:77 «وَلَا تَتَّبِعُوٓا۟ أَهْوَآءَ قَوْمٍۢ قَدْ ضَلُّوا۟ مِن قَبْلُ وَأَضَلُّوا۟ كَثِيرًۭا وَضَلُّوا۟ عَن سَوَآءِ ٱلسَّبِيلِ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus’s path obstruction is illuminated by the related passage’s sequence from earlier straying to leading others astray.
+  - limits: 5:77 warns against following a people’s desires; it does not say that their influence is Satan’s beautification.
+- **R-5:91** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:91 names Satan, his effort to create enmity through wine and gambling, and his turning people away from remembrance and prayer. It supplies concrete targets for the focus’s broader statement that Satan turns people from the way.
+  - evidence: 5:91 «إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The matching Satanic agent and ص د د عن construction connect the focused historical account to this explicit practical instance.
+  - limits: The specific distractions in 5:91 are wine and gambling; 29:38 does not name them.
+- **R-6:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: 6:11 commands its audience to travel through the land and look at the outcome of deniers; 29:38 names ʿAd and Thamud and identifies their dwellings as visible evidence. The focus enacts that invitation to observe historical outcomes.
+  - evidence: 6:11 «قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ ثُمَّ ٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ»; 29:38 «وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus’s address to those for whom the dwellings have become clear matches 6:11’s instruction to travel and observe.
+  - limits: 6:11 does not name these two peoples or state that dwellings are the sole evidence of their outcome.
+- **R-6:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same sequence appears after the people fail to humble themselves under affliction: hearts harden, then Satan beautifies their deeds. This supplies an earlier stage for the focus’s beautification and turning away.
+  - evidence: 6:43 «فَلَوْلَآ إِذْ جَآءَهُم بَأْسُنَا تَضَرَّعُوا۟ وَلَٰكِن قَسَتْ قُلُوبُهُمْ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ مَا كَانُوا۟ يَعْمَلُونَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus names the same agent and beautifying action, then adds the outcome: فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ.
+  - limits: 6:43 describes failure to respond to affliction and hardened hearts; it does not name ʿĀd or Thamūd or state that they were turned from the path.
+- **R-6:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s definite ٱلشَّيْطَٰنُ appears here as شَيَٰطِينَ ٱلْإِنسِ وَٱلْجِنِّ: adversaries communicate embellished speech as deception. This broadens the focus’s account of beautification to a network of human and jinn agents working through words.
+  - evidence: 6:112 «شَيَٰطِينَ ٱلْإِنسِ وَٱلْجِنِّ يُوحِى بَعْضُهُمْ إِلَىٰ بَعْضٍۢ زُخْرُفَ ٱلْقَوْلِ غُرُورًۭا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus pairs the named Satan with زَيَّنَ and أَعْمَٰلَهُمْ; 6:112 pairs devils with زخرف and غرور.
+  - limits: 6:112 concerns embellished speech and does not say that these speakers beautify deeds or turn people from the path.
+- **R-6:113** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage gives the receiving side of satanic deception: hearts incline to the embellished message, accept it, and commit what they commit. The focus leaves that reception implicit when it says the deeds were beautified and the people turned away.
+  - evidence: 6:112 «زُخْرُفَ ٱلْقَوْلِ غُرُورًۭا»; 6:113 «وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا۟ مَا هُم مُّقْتَرِفُونَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ»
+  - activation: In both passages, an external satanic influence is followed by human uptake and action.
+  - limits: 6:113 identifies people who do not believe in the Hereafter; it does not identify them with ʿĀd or Thamūd or mention the path.
+- **R-6:121** [reading; support strong, relevance high] inter-ayah target
+  - finding: The adjacent sequence joins satanic whispering and obedience to the beautification of deeds: devils incite allies to dispute, and the next verse says the deeds of disbelievers were made attractive. It makes the focus’s mechanism concrete as persuasion followed by adopted practice.
+  - evidence: 6:121 «وَإِنَّ ٱلشَّيَٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوْلِيَآئِهِمْ لِيُجَٰدِلُوكُمْ ۖ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ»; 6:122 «كَذَٰلِكَ زُيِّنَ لِلْكَٰفِرِينَ مَا كَانُوا۟ يَعْمَلُونَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus explicitly names Satan, beautification, and deeds; 6:121–122 places devilish persuasion beside beautified practice.
+  - limits: The example concerns disputation over food and does not explicitly say that the devils block people from the path.
+- **R-7:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: Iblis describes himself as lying in wait on God’s straight path. This makes the focus’s ٱلسَّبِيلِ a target of deliberate opposition, not simply a route from which people happen to turn.
+  - evidence: 7:16 «قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus names Satan as agent and the path as the object of turning away; 7:16 puts Iblis directly against the straight path.
+  - limits: 7:16 is Iblis’s declared strategy and does not identify its targets with ʿĀd or Thamūd.
+- **R-7:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse makes explicit a paradox left compressed in the focus: people take devils as allies yet think they are guided. It gives مُسْتَبْصِرِينَ a parallel in which felt or claimed guidance coexists with actual misguidance.
+  - evidence: 7:30 «إِنَّهُمُ ٱتَّخَذُوا۟ ٱلشَّيَٰطِينَ أَوْلِيَآءَ مِن دُونِ ٱللَّهِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: Both passages place satanic influence beside a state that might be taken for guidance or insight.
+  - limits: The focus says they were discerning; it does not state that they thought themselves guided or explicitly call them Satan’s allies.
+- **R-7:74** [reading; support strong, relevance high] inter-ayah target
+  - finding: The address to Thamūd describes palaces on the plains and houses hewn from mountains. This gives material specificity to مَّسَٰكِنِهِمْ in the focus: at least for Thamūd, the dwellings that witness the past were deliberately made.
+  - evidence: 7:74 «تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًۭا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًۭا»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus names Thamūd and makes their dwellings a source of evidence; 7:74 describes their houses and construction.
+  - limits: 7:74 addresses Thamūd before their destruction; it does not say that every visible dwelling in the focus was mountain-hewn.
+- **R-7:78** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamūd are seized and found collapsed in their own dwelling. That close pairing of fate and abode grounds the focus’s claim that their dwellings make their history clear.
+  - evidence: 7:78 «فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus identifies Thamūd and cites their dwelling places; 7:78 locates their destruction in their home.
+  - limits: 7:78 describes the moment of destruction, while 29:38 addresses later viewers of the dwellings.
+- **R-7:146** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse depicts people who see the path of right guidance but do not take it, and see the path of error and take it. It gives مُسْتَبْصِرِينَ a sharp parallel: discernment of a way does not guarantee choosing it.
+  - evidence: 7:146 «وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًۭا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًۭا»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: Both passages bring perception and a path into the same account of misdirection.
+  - limits: 7:146 attributes this response to arrogance and rejection of signs; the focus attributes the turning to Satan’s beautification and does not name the same group.
+- **R-7:175** [reading; support strong, relevance high] inter-ayah target
+  - finding: A recipient is given signs, sheds them, and is followed by Satan until he joins the strayers; the next verse says he clings to earth and follows desire. This offers a vivid parallel for discernment that does not prevent diversion.
+  - evidence: 7:175 «ءَاتَيْنَٰهُ ءَايَٰتِنَا فَٱنسَلَخَ مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَٰنُ فَكَانَ مِنَ ٱلْغَاوِينَ»; 7:176 «وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ»
+  - activation: The focus says Satan turned people away despite their مُسْتَبْصِرِينَ state; 7:175–176 joins prior signs, Satan, and straying.
+  - limits: 7:175–176 recounts one individual and does not say that ʿĀd or Thamūd received the same signs or followed the same sequence.
+- **R-7:200** [reading; support strong, relevance high] inter-ayah target
+  - finding: The next verse gives a contrasting response to Satan’s touch: the God-fearing remember and become perceptive. Its مُبْصِرُونَ echoes the focus’s مُسْتَبْصِرِينَ while showing perception restored through remembrance rather than overcome by diversion.
+  - evidence: 7:200 «وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌۭ فَٱسْتَعِذْ بِٱللَّهِ»; 7:201 «إِنَّ ٱلَّذِينَ ٱتَّقَوْا۟ إِذَا مَسَّهُمْ طَٰٓئِفٌۭ مِّنَ ٱلشَّيْطَٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبْصِرُونَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus names Satan and a perceptive state; 7:200–201 joins Satanic contact to a response that restores sight.
+  - limits: 7:201 describes the God-fearing and does not identify them or their situation with the destroyed peoples in the focus.
+- **R-8:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: The beautification formula is embedded in a scene of false confidence: Satan promises that no one can overcome the group and that he is their protector, then retreats when the two forces meet. This makes the focus’s تزيين a possible source of misplaced security before the turn from the path.
+  - evidence: 8:48 «وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى جَارٌۭ لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيْهِ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus and 8:48 share the same agent, verb, recipient phrase, and object; 8:48 supplies a concrete scene and consequence.
+  - limits: 8:48 describes a battle and Satan’s abandonment; it does not state that this was the experience of ʿĀd or Thamūd.
+- **R-9:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here people turn others away from God’s path by trading His signs for a small price. The shared صَدُّوا۟ عَن سَبِيلِ construction shows that obstruction of the path can be a deliberate human and economic act as well as the Satanic mechanism named in the focus.
+  - evidence: 9:9 «ٱشْتَرَوْا۟ بِـَٔايَٰتِ ٱللَّهِ ثَمَنًۭا قَلِيلًۭا فَصَدُّوا۟ عَن سَبِيلِهِۦٓ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus’s verb and path complement recur in 9:9, where a transaction over signs precedes the obstruction.
+  - limits: 9:9 describes a different agent and cause; it does not attribute the act to Satan or to ʿĀd and Thamūd.
+- **R-9:34** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse assigns obstruction of God’s path to many religious authorities who consume people’s wealth wrongfully. It gives the focus’s path-blocking a social and institutional counterpart without collapsing those authorities into Satan.
+  - evidence: 9:34 «إِنَّ كَثِيرًۭا مِّنَ ٱلْأَحْبَارِ وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The same صَدَّ and عن سبيل frame occurs, but 9:34 identifies human institutions and a material practice.
+  - limits: 9:34 does not mention Satanic beautification or the peoples named in the focus.
+- **R-9:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: A communal calendar practice is described as misguidance, with evil deeds made attractive to its participants. This closely parallels the focus’s beautification clause while showing that the attractive practice can involve a public reclassification of what God forbids.
+  - evidence: 9:37 «يُضَلُّ بِهِ ٱلَّذِينَ كَفَرُوا۟ يُحِلُّونَهُۥ عَامًۭا وَيُحَرِّمُونَهُۥ عَامًۭا لِّيُوَاطِـُٔوا۟ عِدَّةَ مَا حَرَّمَ ٱللَّهُ فَيُحِلُّوا۟ مَا حَرَّمَ ٱللَّهُ ۚ زُيِّنَ لَهُمْ سُوٓءُ أَعْمَٰلِهِمْ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: Both passages join beautification to أعمال; 9:37 gives an identifiable communal practice as its object.
+  - limits: 9:37 uses a passive construction and does not name Satan as agent or say its people were turned from the path in this verse.
+- **R-9:114** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ibrahim acts once his father’s enmity to God becomes clear; the next verse states that God does not lead a people astray after guidance until He clarifies what they should beware. This frames the focus’s clear evidence and مُسْتَبْصِرِينَ as knowledge with consequences, even though the people remain diverted.
+  - evidence: 9:114 «فَلَمَّا تَبَيَّنَ لَهُۥٓ أَنَّهُۥ عَدُوٌّۭ لِّلَّهِ تَبَرَّأَ مِنْهُ»; 9:115 «وَمَا كَانَ ٱللَّهُ لِيُضِلَّ قَوْمًۢا بَعْدَ إِذْ هَدَىٰهُمْ حَتَّىٰ يُبَيِّنَ لَهُم مَّا يَتَّقُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: Each passage connects clarification to the people’s knowledge and subsequent stance.
+  - limits: Ibrahim’s family case and the general statement in 9:115 do not identify the focus’s peoples or explain Satan’s action there.
+- **R-11:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: Hūd’s ʿĀd deny that he brought a clear proof, and the later account says they rejected their Lord’s signs. The focus reverses the vantage point: later viewers can see evidence from their dwellings where the people themselves denied proof.
+  - evidence: 11:53 «يَٰهُودُ مَا جِئْتَنَا بِبَيِّنَةٍۢ»; 11:59 «وَتِلْكَ عَادٌۭ ۖ جَحَدُوا۟ بِـَٔايَٰتِ رَبِّهِمْ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The named people recur, and the contrast is between their denial of proof and the later audience’s clear evidence from their dwellings.
+  - limits: Neither account says the dwellings themselves were the proof Hūd presented to ʿĀd.
+- **R-11:59** [reading; support strong, relevance high] inter-ayah target
+  - finding: The account of ʿĀd adds a human chain of allegiance: they reject signs, disobey messengers, and follow every tyrannical, stubborn leader. This complements the focus’s Satanic beautification with a social route by which a people can be turned from the way.
+  - evidence: 11:59 «جَحَدُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَعَصَوْا۟ رُسُلَهُۥ وَٱتَّبَعُوٓا۟ أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍۢ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus names ʿĀd and describes their diversion; 11:59 names their rejection and following of tyrannical command.
+  - limits: 11:59 does not identify the leaders with Satan or say that following them is the specific action meant by أَعْمَٰلَهُمْ.
+- **R-11:67** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamūd’s punishment leaves them collapsed in their own homes; the next verse names Thamūd. This makes the focus’s مَسَٰكِنِهِمْ a witness tied directly to the place of their downfall.
+  - evidence: 11:67 «فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ»; 11:68 «أَلَآ إِنَّ ثَمُودَا۟ كَفَرُوا۟ رَبَّهُمْ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus names Thamūd and makes their dwellings the source of evidence; 11:67–68 identifies the people and locates their end in their homes.
+  - limits: The two verses describe the moment of ruin, while the focus speaks of what later viewers can discern from the dwellings.
+- **R-11:68** [reading; support strong, relevance high] inter-ayah target
+  - finding: After describing Thamūd collapsed in their homes, the passage says it is as though they had never lived there. Against the focus’s evidence from their dwellings, this gives the ruins a double force: the site remains, yet its people have been erased.
+  - evidence: 11:67 «فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ»; 11:68 «كَأَن لَّمْ يَغْغَوْا۟ فِيهَآ ۗ أَلَآ إِنَّ ثَمُودَا۟ كَفَرُوا۟ رَبَّهُمْ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The shared references to Thamūd and their dwellings put visible remains beside the image of absence.
+  - limits: 11:68 does not describe what physical traces remained or how later viewers interpreted them.
+- **R-11:89** [reading; support strong, relevance high] inter-ayah target
+  - finding: Shuʿayb warns his people against the fate of Noah’s, Hūd’s, and Ṣāliḥ’s people, naming the same prophetic line behind the focus’s ʿĀd and Thamūd. In Surah 29, this warning is especially pointed: Midian rejects Shuʿayb and is seized just before the focus names those earlier peoples.
+  - evidence: 11:89 «أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَٰلِحٍۢ»; 29:36 «وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًۭا فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ»; 29:37 «فَكَذَّبُوهُ فَأَخَذَتْهُمُ ٱلرَّجْفَةُ»; 29:38 «وَعَادًا وَثَمُودَا۟»
+  - activation: The focus immediately follows the account of Shuʿayb and Midian with the very peoples named as warnings in 11:89.
+  - limits: 11:89 does not mention the dwellings or Satanic diversion; its link is the warning and sequence of destroyed peoples.
+- **R-12:109** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse urges travel through the land to look at the outcome of earlier peoples. It frames the focus’s dwellings as one instance of that evidentiary practice: the land and its remains can be read as a record of what happened before.
+  - evidence: 12:109 «أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both passages join looking across the land with knowledge of the fate of earlier peoples.
+  - limits: 12:109 does not name ʿĀd or Thamūd or specify dwellings as the means of seeing the outcome.
+- **R-13:33** [reading; support strong, relevance high] inter-ayah target
+  - finding: This repeats the focus’s paired pattern of beautification and path obstruction, but describes the object as the disbelievers’ plot and leaves the agent implicit. The repeated structure suggests that Satanic adornment and being turned from the way belong to a broader Quranic pattern.
+  - evidence: 13:33 «بَلْ زُيِّنَ لِلَّذِينَ كَفَرُوا۟ مَكْرُهُمْ وَصُدُّوا۟ عَنِ ٱلسَّبِيلِ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both clauses use زُيِّنَ/زَيَّنَ and صُدُّوا/فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ.
+  - limits: 13:33 describes a plot and uses passive verbs without naming Satan; it does not identify its people with ʿĀd or Thamūd.
+- **related_2.X1** [reading; support strong, relevance high] 
+  - finding: The recent account of Lot’s town says a clear sign was left from it; the focus then says clarity has come to the audience from the dwellings of ʿĀd and Thamūd. The sequence presents ruined settlements as repeated material signs across distinct destruction narratives.
+  - evidence: 29:35 «وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus follows the Midian episode and resumes the theme of evidence from destroyed places; both verses use the b-y-n field for a material sign made clear.
+  - limits: 29:35 refers to Lot’s settlement and does not say that its sign and the dwellings in the focus are the same site or the same kind of remains.
+- **related_2.X2** [reading; support strong, relevance high] 
+  - finding: The focus’s paired names sit inside a larger catalogue: the next verse names Qārūn, Pharaoh, and Hāmān, then 29:40 summarizes that each was seized for sin. This frames the focus’s Satanic diversion and visible dwellings as part of a surah-wide account of varied peoples and their punishments.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:39 «وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ فَٱسْتَكْبَرُوا۟»; 29:40 «فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ»
+  - activation: The names and explanatory clauses in 29:38–39 are gathered by the inclusive فَكُلًّا أَخَذْنَا in 29:40.
+  - limits: 29:40 does not repeat the focus’s details about Satan, insight, or dwellings, and the listed peoples receive different punishments.
+- **R-14:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same ʿĀd–Thamūd pair is presented as a history of messengers bringing clear proofs that their people rejected; 29:38 adds their dwellings as evidence visible to later hearers.
+  - evidence: 14:9 «أَلَمْ يَأْتِكُمْ نَبَؤُا۟ ٱلَّذِينَ مِن قَبْلِكُمْ قَوْمِ نُوحٍۢ وَعَادٍۢ وَثَمُودَ ۛ وَٱلَّذِينَ مِنۢ بَعْدِهِمْ»; 14:9 «جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ فَرَدُّوٓا۟ أَيْدِيَهُمْ فِىٓ أَفْوَٰهِهِمْ»; 29:38 «وَعَادًۭا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The named peoples recur, while the focus shifts from rejected proofs to the surviving evidence of their dwellings.
+  - limits: 14:9 does not specify dwellings or Satan’s role in their rejection.
+- **R-14:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: Where 29:38 says Satan turned them away from the path, 14:30 attributes misleading from God’s path to people who set up rivals for Him; together the verses show both Satanic and human agency in deviation.
+  - evidence: 14:30 «وَجَعَلُوا۟ لِلَّهِ أَندَادًۭا لِّيُضِلُّوا۟ عَن سَبِيلِهِۦ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The shared path language and the focus’s explicit Satanic agent invite comparison with 14:30’s human agents.
+  - limits: The verses do not identify the actors as the same people or say that Satan directly causes the acts in 14:30.
+- **R-14:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: 14:45 closely repeats the focus’s pairing of dwellings and evidence: people lived in the dwellings of wrongdoers, saw what God did to them, and received examples. The ruins in 29:38 are part of an argument built around legible traces of past outcomes.
+  - evidence: 14:45 «وَسَكَنتُمْ فِى مَسَٰكِنِ ٱلَّذِينَ ظَلَمُوٓا۟ أَنفُسَهُمْ»; 14:45 «وَتَبَيَّنَ لَكُمْ كَيْفَ فَعَلْنَا بِهِمْ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The repeated مساکن and تبيّن wording directly links dwelling places with knowledge of what happened to their former inhabitants.
+  - limits: The wording establishes a parallel in evidentiary function, not that the passages refer to the same dwellings or audience event.
+- **R-15:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared ز ي ن verb places two unlike adornments side by side: God adorns the sky for observers, while Satan adorns people’s deeds and turns them from the path. The contrast makes adornment itself context-dependent rather than inherently deceptive.
+  - evidence: 15:16 «وَزَيَّنَّٰهَا لِلنَّٰظِرِينَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The exact verb root recurs, but its object and agent change from the sky and God to deeds and Satan.
+  - limits: The shared verb does not make the two acts equivalent or imply that all adornment is misleading.
+- **R-15:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus depicts the action Satan declares in 15:39: he vows to adorn things for people, and the focus says he adorned their deeds. Its following clause, “I will surely mislead them all,” also anticipates their being turned from the path.
+  - evidence: 15:39 «لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both verses pair adornment for them with Satanic misguidance; the focus supplies a concrete instance of the declared plan.
+  - limits: 15:39 is a vow in Iblis’s speech, not a direct identification of the earlier peoples in 29:38.
+- **R-15:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: 15:42 qualifies Satan’s reach: he has no authority over God’s servants except those who follow him among the misled. This adds a limit to the focus’s statement that Satan turned the named people from the path.
+  - evidence: 15:42 «إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus names Satan’s action; 15:42 specifies who falls within his authority.
+  - limits: 15:42 does not say these particular peoples consciously followed Satan or explain how their deeds were made attractive.
+- **R-16:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: 16:36 turns historical aftermath into an instruction: travel the earth and look at the end of those who denied. The focus names particular peoples whose dwellings make that kind of evidence clear.
+  - evidence: 16:36 «فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The command to inspect the outcome of deniers gives the focus’s visible dwellings an explicit instructional parallel.
+  - limits: 16:36 does not identify the deniers as ʿĀd or Thamūd or say their dwellings are the object of inspection.
+- **R-16:63** [reading; support strong, relevance high] inter-ayah target
+  - finding: 16:63 repeats the focus’s distinctive formula: Satan adorned the deeds of earlier communities. It adds that he is their ally in the present and that punishment awaits them.
+  - evidence: 16:63 «فَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَهُوَ وَلِيُّهُمُ ٱلْيَوْمَ وَلَهُمْ عَذَابٌ أَلِيمٌۭ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The agent, recipient phrase, and object recur nearly word for word, making this a direct parallel rather than a theme-only link.
+  - limits: 16:63 does not name ʿĀd or Thamūd, or repeat the focus’s statement about being turned from the path.
+- **R-16:88** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same صَدَّ عن سبيل الله pattern appears with the agency reversed: 29:38 says Satan turned the people from the path, while 16:88 describes people who turn others away from it and receive added punishment.
+  - evidence: 16:88 «ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ زِدْنَٰهُمْ عَذَابًۭا فَوْقَ ٱلْعَذَابِ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The shared root and path complement are exact, while the focus’s object pronoun and 16:88’s active plural mark different roles.
+  - limits: The verses do not say the focus’s people also obstructed others, nor that the two groups are identical.
+- **R-18:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: 18:7 calls what is on earth an adornment made as a test of conduct. Alongside the focus, this distinguishes the created adornment that tests people from Satan’s adornment of their deeds that leads them away from the path.
+  - evidence: 18:7 «إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةًۭ لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًۭا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The shared adornment root and the explicit reference to deeds in both verses invite a contrast of function.
+  - limits: 18:7 does not call worldly adornment false or equate it with Satan’s action.
+- **R-20:128** [reading; support strong, relevance high] inter-ayah target
+  - finding: 20:128 directly links walking among the dwellings of destroyed generations with signs for people of understanding. It closely matches the focus’s dwelling evidence and its closing description of the people as discerning.
+  - evidence: 20:128 «أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ»; 20:128 «إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلنُّهَىٰ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ ۖ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The shared مساکن term is joined in both passages to signs or clear evidence and to human understanding.
+  - limits: 20:128 does not name ʿĀd or Thamūd or attribute their fate to Satan’s action.
+- **R-22:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: 22:46 distinguishes physical sight from the blindness of hearts. It can sharpen مُسْتَبْصِرِينَ in the focus: the relevant failure may concern inner recognition even where outward evidence is available.
+  - evidence: 22:46 «فَإِنَّهَا لَا تَعْمَى ٱلْأَبْصَٰرُ وَلَٰكِن تَعْمَى ٱلْقُلُوبُ ٱلَّتِى فِى ٱلصُّدُورِ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus joins evidence visible from dwellings to a closing word of insight; 22:46 locates a possible limit of seeing within the heart.
+  - limits: 22:46 does not explicitly interpret مُسْتَبْصِرِينَ or mention these earlier peoples.
+- **related_3.X1** [reading; support strong, relevance high] 
+  - finding: The accusation in 14:10 reverses the focus’s attribution: opponents say the messengers would صَدُّونَا from ancestral worship, while 29:38 says Satan صَدَّهُمْ عن السبيل. The same root and عن construction relocate the obstructing agency from messengers to Satan.
+  - evidence: 14:10 «تُرِيدُونَ أَن تَصُدُّونَا عَمَّا كَانَ يَعْبُدُ ءَابَآؤُنَا»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The focus’s صَدَّهم عن phrase closely echoes the opponents’ claim, but assigns the action to a different agent and target.
+  - limits: The excerpts do not establish that these speakers are the same people or that the two targets—ancestral worship and the path—are identical.
+- **R-25:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: 25:29 links Satan with leading someone away from remembrance after it arrived; this makes the focus’s diversion sound like betrayal in the presence of guidance.
+  - evidence: 25:29 «لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى ۗ وَكَانَ ٱلشَّيْطَٰنُ لِلْإِنسَٰنِ خَذُولًۭا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both passages name Satan and describe a turn away from guidance.
+  - limits: 25:29 is a speaker’s lament about a companion; it does not describe the named peoples or the beautification of deeds.
+- **R-25:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: The line after the names says each listed people received examples and was utterly ruined; it places the focus’s testimony from dwellings within a warning-and-destruction sequence.
+  - evidence: 25:38 «وَعَادًۭا وَثَمُودَا۟»; 25:39 «وَكُلًّۭا ضَرَبْنَا لَهُ ٱلْأَمْثَٰلَ ۖ وَكُلًّۭا تَبَّرْنَا تَتْبِيرًۭا»; 29:38 «قَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The preceding verse names Âd and Thamud, and the focus points to their dwellings as evidence.
+  - limits: 25:39 does not specify which examples were given or identify the dwellings mentioned in 29:38.
+- **R-25:40** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage warns that seeing a ruined town does not ensure its lesson is received: its observers see it, yet do not expect resurrection. This sharpens the focus’s claim that the dwellings are clear evidence while the peoples themselves were diverted.
+  - evidence: 25:40 «أَفَلَمْ يَكُونُوا۟ يَرَوْنَهَا ۚ بَلْ كَانُوا۟ لَا يَرْجُونَ نُشُورًۭا»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ ۖ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: Both passages bring visible remains together with a failure of moral or eschatological response.
+  - limits: 25:40 does not identify its town or its observers with Âd and Thamud.
+- **R-26:123** [reading; support strong, relevance high] inter-ayah target
+  - finding: The separate account of Âd states directly that they denied the messengers, adding prophetic rejection to the focus’s description of their diversion from the way.
+  - evidence: 26:123 «كَذَّبَتْ عَادٌ ٱلْمُرْسَلِينَ»; 29:38 «وَعَادًۭا وَثَمُودَا۟»
+  - activation: The same named people appear in both passages, while the focus leaves their specific response unstated.
+  - limits: 26:123 names Âd but supplies neither the focus’s Satan language nor its dwellings as evidence.
+- **R-26:135** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the Âd episode, Hud warns of a great day, and they answer that admonition makes no difference. This gives a concrete form to the gap between the focus’s مُسْتَبْصِرِينَ and their being turned from the way.
+  - evidence: 26:123 «كَذَّبَتْ عَادٌ ٱلْمُرْسَلِينَ»; 26:135 «إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍۢ»; 26:136 «قَالُوا۟ سَوَآءٌ عَلَيْنَآ أَوَعَظْتَ أَمْ لَمْ تَكُن مِّنَ ٱلْوَٰعِظِينَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The target people are Âd, and the focus itself juxtaposes their perception with their diversion.
+  - limits: The response to Hud’s warning does not explain the focus’s attribution of their diversion to Satan.
+- **R-26:141** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud’s account likewise opens with rejection of the messengers, giving the focus’s paired names a shared history of prophetic denial.
+  - evidence: 26:141 «كَذَّبَتْ ثَمُودُ ٱلْمُرْسَلِينَ»; 29:38 «وَثَمُودَا۟»
+  - activation: The focus names Thamud alongside Âd, and this passage names their response to messengers.
+  - limits: The shared rejection formula does not prove the two peoples had identical histories or offences.
+- **R-26:149** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s reference to Thamud’s dwellings gains a specific architectural counterpart: Salih addresses people who carve skillfully made houses from mountains.
+  - evidence: 26:149 «وَتَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًۭا فَٰرِهِينَ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both passages point to built habitation associated with Thamud.
+  - limits: 26:149 describes the houses while occupied; it does not itself say they survived as ruins.
+- **R-26:157** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud violate the explicit warning about the she-camel and then become remorseful; this portrays recognition arriving after the decisive act, a counterpoint to the focus’s perceptive yet diverted people.
+  - evidence: 26:156 «وَلَا تَمَسُّوهَا بِسُوٓءٍۢ فَيَأْخُذَكُمْ عَذَابُ يَوْمٍ عَظِيمٍۢ»; 26:157 «فَعَقَرُوهَا فَأَصْبَحُوا۟ نَٰدِمِينَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: Both accounts concern Thamud and the relationship between awareness and action.
+  - limits: The focus does not mention the she-camel or say that remorse followed its events.
+- **R-26:158** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud’s punishment is explicitly called a sign; this adds a second description of their aftermath as evidence beside the focus’s testimony from their dwellings.
+  - evidence: 26:158 «فَأَخَذَهُمُ ٱلْعَذَابُ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The same community’s punished outcome is evidence in both passages.
+  - limits: 26:158 does not specify that the sign is the dwellings themselves.
+- **R-27:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage repeats the pairing زَيَّنَ لَهُمُ أَعْمَٰلَهُمْ but attributes the beautification to “We” and says the result is wandering; it confirms the wording’s pattern while showing that 29:38’s explicit Satan attribution is not built into the verb itself.
+  - evidence: 27:4 «إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ زَيَّنَّا لَهُمْ أَعْمَٰلَهُمْ فَهُمْ يَعْمَهُونَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The shared formula makes the different grammatical agents and consequences audible.
+  - limits: 27:4 addresses people who disbelieve in the Hereafter; it does not identify them with Âd and Thamud or explain the divine attribution.
+- **R-27:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: This is a near-verbatim parallel to the focus’s Satan-beautifies-deeds-and-turns-them-from-the-way formula. Its ending says “they are not guided,” while 29:38 ends paradoxically with “they were perceptive.”
+  - evidence: 27:24 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ فَهُمْ لَا يَهْتَدُونَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The identical wording invites the closing clauses to be compared directly.
+  - limits: The first passage concerns the Queen of Sheba and her people; the shared formula does not make them the historical groups named in the focus.
+- **R-27:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the Thamud sequence, a plot is followed by the destruction of the plotters and their people; the next verse makes their empty houses visible. This supplies a narrated route from hostile action to the sort of dwelling evidence named in the focus.
+  - evidence: 27:45 «وَلَقَدْ أَرْسَلْنَآ إِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا»; 27:51 «فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ مَكْرِهِمْ أَنَّا دَمَّرْنَٰهُمْ وَقَوْمَهُمْ أَجْمَعِينَ»; 27:52 «فَتِلْكَ بُيُوتُهُمْ خَاوِيَةًۢ بِمَا ظَلَمُوٓا۟»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: The Thamud story supplies both the destruction and the visible houses that the focus condenses into a reminder.
+  - limits: 27:51 attributes the outcome to plotting and wrongdoing, not to the focus’s specific Satan-beautification wording.
+- **R-27:52** [reading; support strong, relevance high] inter-ayah target
+  - finding: The empty houses left because their inhabitants did wrong are a close counterpart to the focus’s dwellings, which make the fate of Âd and Thamud clear to later observers.
+  - evidence: 27:45 «إِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا»; 27:52 «فَتِلْكَ بُيُوتُهُمْ خَاوِيَةًۢ بِمَا ظَلَمُوٓا۟ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَعْلَمُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both passages make abandoned habitation a sign of a community’s outcome.
+  - limits: 27:52’s referent is Thamud in its narrative; it does not identify the focus’s separate traces from Âd.
+- **R-28:58** [reading; support strong, relevance high] inter-ayah target
+  - finding: Another passage links a town’s destroyed prosperity to dwellings left largely uninhabited; its shared مَسَاكِنُ language makes the focus’s houses part of a wider image of habitation surviving its people.
+  - evidence: 28:58 «وَكَمْ أَهْلَكْنَا مِن قَرْيَةٍۭ بَطِرَتْ مَعِيشَتَهَا ۖ فَتِلْكَ مَسَٰكِنُهُمْ لَمْ تُسْكَن مِّنۢ بَعْدِهِمْ إِلَّا قَلِيلًۭا»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus’s dwellings occur in a destruction context, as do the dwellings in 28:58.
+  - limits: 28:58 does not name Âd or Thamud; its explanation of ruined prosperity cannot be assigned to them from this passage alone.
+- **R-28:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: The warning not to be turned away from God’s signs uses the same صَدَّ عن construction as the focus. It recasts diversion as a danger the Messenger must resist after revelation has come.
+  - evidence: 28:87 «وَلَا يَصُدُّنَّكَ عَنْ ءَايَٰتِ ٱللَّهِ بَعْدَ إِذْ أُنزِلَتْ إِلَيْكَ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The shared verb and separation phrase connect the imperative warning to the focus’s past account of people turned away.
+  - limits: The focus names Satan and the path as agent and target; 28:87 leaves the agent implicit and names God’s signs as the target.
+- **R-29:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: Lot’s people are charged with cutting off ٱلسَّبِيلَ, while the focus says Satan turned Âd and Thamud عَنِ ٱلسَّبِيلِ. The shared definite “way” lets the sequence set literal obstruction of travel beside diversion from a path.
+  - evidence: 29:29 «وَتَقْطَعُونَ ٱلسَّبِيلَ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both passages use the same definite noun within accounts of wrongdoing and judgment.
+  - limits: The wording does not establish that the phrases have the same sense: one charges Lot’s people with cutting off a way, the other describes being turned away from it.
+- **R-29:35** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lot account says a clear sign was left for people who reason; this is a close local precedent for the focus’s claim that dwellings make the outcome of Âd and Thamud evident.
+  - evidence: 29:35 «وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both refer to clear evidence left from a destroyed community for later observers.
+  - limits: 29:35 refers to the Lot account’s sign, not the dwellings of Âd and Thamud.
+- **R-29:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: The immediately preceding account shows Midian’s people denying their messenger and ending collapsed in their homes; the focus then points to the dwellings of other peoples as evidence of their fate.
+  - evidence: 29:37 «فَكَذَّبُوهُ فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The transition is from one punished people found in their dwelling to a reminder from other peoples’ dwellings.
+  - limits: 29:37 does not say that Midian’s dwelling remained as a visible sign or that its punishment had the focus’s cause.
+- **R-29:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: The catalogue after Âd and Thamud adds a group who received clear proofs but became arrogant; this places their perceptiveness beside another failure to respond rightly to evidence.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 29:39 «وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ»
+  - activation: The adjacent catalogue moves from the focus’s perceptive Âd and Thamud to recipients of Moses’s manifest proofs.
+  - limits: 29:39 concerns Qarun, Pharaoh, and Haman; it does not say they were diverted by Satan in the same manner.
+- **R-29:40** [reading; support strong, relevance high] inter-ayah target
+  - finding: The next verse says every listed group was seized for its own sin and wronged itself; it gives a judgment frame for the focus’s Satanic diversion without transferring responsibility away from the people.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟»; 29:39 «وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ»; 29:40 «فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًۭا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ وَمِنْهُم مَّنْ خَسَفْنَا بِهِ ٱلْأَرْضَ وَمِنْهُم مَّنْ أَغْرَقْنَا»; 29:40 «وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ»
+  - activation: The verse generalizes over the communities just named, including Âd and Thamud.
+  - limits: It gives no individual punishment or specific sin for the two peoples named in the focus.
+- **R-32:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared phrase about dwellings makes 32:26 a close counterpart: people walk through the homes of destroyed generations, while 29:38 says the evidence has become clear from those homes.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 32:26 «يَمْشُونَ فِى مَسَٰكِنِهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ»
+  - activation: The focus’s plural مسَٰكِنِهِمْ is repeated in a scene of visitors moving through earlier peoples’ dwellings.
+  - limits: 32:26 does not identify the visitors or say they are viewing the same sites as in 29:38.
+- **R-34:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: Sabaa’s dwelling is itself a sign, carried by its gardens and provision; the following refusal to heed the call changes those gardens. This lets the dwellings in 29:38 be heard as witnesses to a people’s history, not just as empty ruins.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 34:15 «لَقَدْ كَانَ لِسَبَإٍۢ فِى مَسْكَنِهِمْ ءَايَةٌۭ»; 34:16 «فَأَعْرَضُوا۟ فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ ٱلْعَرِمِ»
+  - activation: The same dwelling word occurs with an explicit sign, followed by a refusal and changed conditions.
+  - limits: Sabaa’s gardens and the flood are a different history; the passage does not equate its sign with the remains of ʿĀd and Thamūd.
+- **R-35:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus narrates Satan’s work among past peoples; 35:6 turns that history into a warning to the present audience to treat him as an enemy, since he calls his party toward the Fire.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 35:6 «إِنَّ ٱلشَّيْطَٰنَ لَكُمْ عَدُوٌّۭ فَٱتَّخِذُوهُ عَدُوًّا ۚ إِنَّمَا يَدْعُوا۟ حِزْبَهُۥ لِيَكُونُوا۟ مِنْ أَصْحَٰبِ ٱلسَّعِيرِ»
+  - activation: Both passages name Satan, and 35:6 makes the enemy relation and destination explicit.
+  - limits: 35:6 does not identify ʿĀd and Thamūd as Satan’s party or repeat the focus’s beautifying mechanism.
+- **R-36:60** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus depicts Satan turning people from the way; 36:60–61 states the corresponding choice and alternative directly: do not serve Satan, serve God, and follow the straight path.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 36:60 «أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَٰنَ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ»; 36:61 «هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The named Satan and path language in the focus reappear as an explicit warning and its positive alternative.
+  - limits: 36:60–61 does not identify the earlier peoples or say that their beautified deeds amounted to worshiping Satan.
+- **R-36:62** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the sequence begun by the warning about Satan, 36:62 says he led many astray and asks whether they would reason. It makes the focus’s pairing of diversion and insight a direct warning about failed judgment.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 36:60 «إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ»; 36:62 «وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّۭا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا۟ تَعْقِلُونَ»
+  - activation: The preceding verses identify the devil and the straight path; this verse links his leading astray with a failure to reason.
+  - limits: 36:62 does not name ʿĀd or Thamūd, and its verb for leading astray is not the focus’s verb for turning people away.
+- **R-37:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same beautifying verb has sharply different objects and agents: God adorns the sky with stars, while Satan adorns people’s deeds. The next verse’s protection from rebellious devils sharpens the contrast between ordered beauty and deceptive appeal.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 37:6 «إِنَّا زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِزِينَةِ ٱلْكَوَاكِبِ»; 37:7 «وَحِفْظًۭا مِّن كُلِّ شَيْطَٰنٍۢ مَّارِدٍۢ»
+  - activation: The exact root ز ي ن and the following mention of devils place the two kinds of adornment in a revealing contrast.
+  - limits: 37:6 does not describe its adornment as moral guidance, and it does not say the sky and deeds have the same function.
+- **R-37:137** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lot passage makes ruined geography a recurring public witness: people pass by the destroyed group, then are asked to reason. This closely matches the focus’s claim that the dwellings of ʿĀd and Thamūd have become clear evidence.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 37:136 «ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ»; 37:137 «وَإِنَّكُمْ لَتَمَرُّونَ عَلَيْهِم مُّصْبِحِينَ»
+  - activation: Both passages address people who can encounter the traces of an earlier destroyed community.
+  - limits: 37:137 does not name dwellings, and the focus does not identify the people passing by those in the Lot narrative.
+- **R-38:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s paired ʿĀd and Thamūd reappear across 38:12–13 within a larger roster called the parties; 38:14 supplies the shared pattern of denying messengers and incurring punishment.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟»; 38:12 «وَعَادٌۭ وَفِرْعَوْنُ ذُو ٱلْأَوْتَادِ»; 38:13 «وَثَمُودُ وَقَوْمُ لُوطٍۢ وَأَصْحَٰبُ لْـَٔيْكَةِ ۚ أُو۟لَٰٓئِكَ ٱلْأَحْزَابُ»; 38:14 «إِن كُلٌّ إِلَّا كَذَّبَ ٱلرُّسُلَ فَحَقَّ عِقَابِ»
+  - activation: The same two names are joined across a list whose conclusion groups them with other rejecting communities.
+  - limits: This roster does not specify the focus’s Satanic mechanism or say that all listed communities had identical histories.
+- **R-40:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus opens onto a second case in the next verse: 29:39 names Qarun, Pharaoh, and Haman, while 40:24–25 repeats that trio and recounts Pharaoh’s followers answering Moses’ truth with violence.
+  - evidence: 29:39 «وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ»; 40:24 «إِلَىٰ فِرْعَوْنَ وَهَٰمَٰنَ وَقَٰرُونَ»; 40:25 «فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ»
+  - activation: The full Surah 29 context places the focus immediately before its Pharaoh group and the arrival of Moses with clear signs.
+  - limits: This parallel expands the adjacent group’s response; it does not explain ʿĀd and Thamūd’s particular diversion in 29:38.
+- **R-40:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s beautifying-and-obstructing pattern recurs for Pharaoh in the same roots, but both actions are passive here: 29:38 names Satan as agent, whereas 40:37 leaves the beautifier and the one turning Pharaoh aside unexpressed. The believer then offers a different path in 40:38.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 40:37 «وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ»; 40:38 «أَتَّبِعُونِ أَهْدِكُمْ سَبِيلَ ٱلرَّشَادِ»
+  - activation: The paired roots ز ي ن and ص د د and the definite سبيل recur, with a marked shift in grammatical agency.
+  - limits: 40:37 does not explicitly name Satan as Pharaoh’s beautifier, and it treats Pharaoh rather than the paired peoples of 29:38.
+- **R-41:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: Divine adornment of the sky stands opposite Satan’s adornment of deeds; the next verse names the same ʿĀd–Thamūd pair as a warning, placing the contrast next to the focus’s historical example.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 41:12 «وَزَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَحِفْظًۭا»; 41:13 «مِّثْلَ صَٰعِقَةِ عَادٍۢ وَثَمُودَ»
+  - activation: The same ز ي ن root is followed immediately in 41:13 by a warning about the focus’s two peoples.
+  - limits: The adornment of the sky is not called deceptive; the contrast comes from its object, agent, and surrounding warning.
+- **R-41:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: The pair named in the focus is reused as a direct warning example: if the audience turns away, they are told to expect a calamity like that of ʿĀd and Thamūd.
+  - evidence: 29:38 «وَعَادًۭا وَثَمُودَا۟»; 41:13 «فَإِنْ أَعْرَضُوا۟ فَقُلْ أَنذَرْتُكُمْ صَٰعِقَةًۭ مِّثْلَ صَٰعِقَةِ عَادٍۢ وَثَمُودَ»
+  - activation: Both passages name the same two peoples together, and 41:13 explicitly makes their fate a warning to current rejecters.
+  - limits: 41:13 emphasizes calamity and turning away, not the focus’s dwellings or Satanic beautification.
+- **R-41:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The account of ʿĀd specifies a form their misjudgment could take: confidence in superior strength alongside denial of God’s signs. This gives a concrete case of discernment failing to govern action.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 41:15 «فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَقَالُوا۟ مَنْ أَشَدُّ مِنَّا قُوَّةً»
+  - activation: The focus’s closing description of insight sits beside 41:15’s report of boastful strength and rejection of signs.
+  - limits: 41:15 speaks of ʿĀd alone and does not say Satan caused their arrogance.
+- **R-41:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: The wind episode supplies a concrete account of ʿĀd’s end behind the focus’s compressed naming and visible dwellings: the land evidence follows a destructive wind sent against them.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 41:16 «فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا صَرْصَرًۭا فِىٓ أَيَّامٍۢ نَّحِسَاتٍۢ»
+  - activation: The focus names ʿĀd among peoples whose dwellings testify, while 41:16 states the means of ʿĀd’s destruction.
+  - limits: The wind account concerns ʿĀd only and does not describe the surviving dwellings themselves.
+- **R-41:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamūd are said to have preferred blindness over guidance after being guided. That wording sharpens the focus’s paradox: being mustabsirīn does not ensure that people choose the path they can discern.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 41:17 «فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ»
+  - activation: Both passages concern Thamūd and set perceptual capacity against a refusal of guidance.
+  - limits: 41:17 does not mention Satan or claim that its blindness is the exact sense of the focus’s obstruction.
+- **R-41:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus says clarity has already emerged from the dwellings; 41:53 promises that signs will continue to appear until their truth becomes clear. Together they place visible evidence within a longer process of recognition.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 41:53 «حَتَّىٰ يَتَبَيَّنَ لَهُمْ أَنَّهُ ٱلْحَقُّ»
+  - activation: The same ب ي ن root frames clarity from ruins in the focus and clarity reached through signs in 41:53.
+  - limits: The signs in 41:53 are not identified with the dwellings of ʿĀd and Thamūd.
+- **R-43:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Turning away from remembrance is followed by assignment of a devil as companion; the next verse says the companions turn people from the path while those people think they are guided. This gives a fuller process behind the focus’s Satanic diversion.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 43:36 «وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ»; 43:37 «وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The sequence names Satan, then repeats the focus’s exact path-obstruction phrase and adds self-perceived guidance.
+  - limits: The people in 43:36–37 are not identified as ʿĀd or Thamūd, and the stated antecedent is turning away from remembrance.
+- **R-43:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: This is a close counterpart to the focus’s fَصَدَّهُمْ عَنِ ٱلسَّبِيلِ: companions turn people from the same definite path, even as those people reckon themselves guided. It raises whether mustabsirīn describes capacity rather than reliable self-knowledge.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 43:37 «وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»
+  - activation: The repeated ص د د عن السبيل formula is joined to an explicit claim that the diverted people think themselves guided.
+  - limits: The pronouns in 43:37 refer to that passage’s companions and people; they do not identify the focus’s communities.
+- **R-43:62** [reading; support strong, relevance high] inter-ayah target
+  - finding: After identifying the straight path, 43:62 directly warns its audience not to let Satan obstruct them from it. The focus is the past instance of the danger that this later command addresses.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 43:61 «هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»; 43:62 «وَلَا يَصُدَّنَّكُمُ ٱلشَّيْطَٰنُ»
+  - activation: Satan, the obstruction verb, and path language align across the two passages.
+  - limits: 43:62 gives a present warning, not an account of how the earlier peoples were diverted.
+- **R-46:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: ʿĀd see an approaching cloud and call it rain, but it is the punishment they had demanded; this is a concrete case of seeing while misreading, beside 29:38's claim that they were مُسْتَبْصِرِينَ.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 46:24 «فَلَمَّا رَأَوْهُ عَارِضًۭا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا۟ هَٰذَا عَارِضٌۭ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا ٱسْتَعْجَلْتُم بِهِۦ»
+  - activation: The people named as ʿĀd in the focus are shown perceiving a visible sign but assigning it the wrong meaning.
+  - limits: 46:24 does not say that Satan caused this misreading or equate it with the focus’s beautification of deeds.
+- **R-46:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared word مَسَٰكِن links 29:38's evidence from dwellings to the aftermath of ʿĀd’s destruction, when only their dwellings could be seen.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 46:25 «فَأَصْبَحُوا۟ لَا يُرَىٰٓ إِلَّا مَسَٰكِنُهُمْ»
+  - activation: The focus explicitly makes the dwellings a source of evidence, and 46:25 describes them as the surviving visible trace of ʿĀd.
+  - limits: 46:25 describes ʿĀd; it does not establish that the same aftermath applied to Thamud.
+- **R-46:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The account of ʿĀd says that hearing, sight, and hearts did not benefit them because they denied God’s signs; this clarifies how having insight need not lead to a right response.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 46:26 «وَجَعَلْنَا لَهُمْ سَمْعًۭا وَأَبْصَٰرًۭا وَأَفْـِٔدَةًۭ فَمَآ أَغْنَىٰ عَنْهُمْ سَمْعُهُمْ وَلَآ أَبْصَٰرُهُمْ وَلَآ أَفْـِٔدَتُهُم مِّن شَىْءٍ إِذْ كَانُوا۟ يَجْحَدُونَ بِـَٔايَٰتِ ٱللَّهِ»
+  - activation: Both passages concern ʿĀd and join perception with failure to heed signs.
+  - limits: 46:26 does not use مُسْتَبْصِرِينَ or explain the focus’s claim about Satan’s role.
+- **R-47:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The pairing of blocking the way with an adverse outcome for the blockers’ deeds parallels the focus’s sequence from أَعْمَٰلَهُمْ to obstruction from ٱلسَّبِيلِ.
+  - evidence: 29:38 «أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 47:1 «ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ أَضَلَّ أَعْمَٰلَهُمْ»
+  - activation: Both passages place أعمال beside صَدُّوا عن سبيل الله.
+  - limits: 47:1 does not describe beautification or identify its people as ʿĀd or Thamud.
+- **R-47:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: The contrast between one on clear proof and one whose bad deed is beautified and who follows desire closely parallels the focus’s juxtaposition of insight with Satan’s beautification of deeds.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 47:14 «أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّهِۦ كَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ وَٱتَّبَعُوٓا۟ أَهْوَآءَهُم»
+  - activation: The same beautification verb زُيِّنَ appears alongside clear proof, making the focus’s pairing of perception and deception especially legible.
+  - limits: 47:14 does not name Satan or connect its people to ʿĀd and Thamud.
+- **R-47:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequence “after guidance became clear” followed by Satan’s prompting closely parallels the focus’s “it became clear to you” and Satan’s beautifying deeds before turning the people from the way.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ ۖ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 47:25 «مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ»
+  - activation: The repeated تبين, Satan, and لَهُم sequence links clear evidence with subsequent temptation.
+  - limits: 47:25 describes another group and uses سَوَّلَ rather than زَيَّنَ.
+- **R-47:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse explicitly joins obstruction from God’s way with rejection after guidance became clear, giving a close parallel for the focus’s diverted people who had been مُسْتَبْصِرِينَ.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 47:32 «وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ وَشَآقُّوا۟ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَىٰ»
+  - activation: Both passages put path obstruction beside clear prior evidence or guidance.
+  - limits: 47:32 does not mention Satan or the dwellings of earlier peoples.
+- **R-48:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus names Satan as beautifier of deeds; 48:12 uses the same beautification verb for a bad expectation settled in people’s hearts, suggesting that the Qur’anic image can describe inner framing as well as attractive actions.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 48:12 «وَزُيِّنَ ذَٰلِكَ فِى قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ ٱلسَّوْءِ»
+  - activation: The repeated زَيَّنَ form activates a comparison between beautified deeds and beautified suspicion.
+  - limits: 48:12 is passive and does not identify Satan as the agent; its object is bad suspicion, not deeds.
+- **R-51:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: After Lot’s people are destroyed, a sign is left for those who fear punishment; this parallels the focus’s surviving dwellings as readable traces of judgment.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 51:37 «وَتَرَكْنَا فِيهَآ ءَايَةًۭ لِّلَّذِينَ يَخَافُونَ ٱلْعَذَابَ ٱلْأَلِيمَ»
+  - activation: Both passages connect the aftermath of a destroyed community with evidence available to later observers.
+  - limits: 51:37 does not say that the remaining sign was a dwelling or identify its audience with the focus’s addressees.
+- **R-51:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud are told to enjoy themselves only until a set time; the following verse says they defied the command and were seized while looking, joining warning, defiance, and perception.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 51:43 «وَفِى ثَمُودَ إِذْ قِيلَ لَهُمْ تَمَتَّعُوا۟ حَتَّىٰ حِينٍۢ»; 51:44 «فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ وَهُمْ يَنظُرُونَ»
+  - activation: The focus names Thamud and describes them as discerning; this passage shows their punishment arriving while they look after a warning.
+  - limits: Looking at the punishment does not itself establish inner discernment or the focus’s Satanic mechanism.
+- **R-51:44** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud are seized by the thunderbolt while they look, a sharp image of perception present at the moment of punishment that complicates the focus’s مُسْتَبْصِرِينَ.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 51:44 «فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ وَهُمْ يَنظُرُونَ»
+  - activation: The same people are named in the focus and the related scene explicitly says they looked as judgment came.
+  - limits: 51:44 establishes visible punishment, not that they understood its meaning beforehand.
+- **R-52:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question “is this magic, or do you not perceive?” turns failed recognition into an explicit issue at the sight of punishment, resonating with the focus’s claim that the punished people had been مُسْتَبْصِرِينَ.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 52:15 «أَفَسِحْرٌ هَٰذَآ أَمْ أَنتُمْ لَا تُبْصِرُونَ»
+  - activation: Both passages use the b-ṣ-r root to frame whether people truly perceive what is before them.
+  - limits: 52:15 addresses people facing the afterlife punishment and does not name ʿĀd or Thamud.
+- **R-59:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people expelled from their homes wrongly trust their fortresses, then ruin their own houses; the command to take heed, “people of insight,” makes this a close parallel for dwellings as evidence and perception’s accountability.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 59:2 «وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟»; 59:2 «يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ»
+  - activation: Both passages join homes, mistaken judgment, and an audience called to read the consequences.
+  - limits: 59:2 concerns a different community and does not attribute its mistaken confidence to Satan’s beautification.
+- **R-59:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: This parable shows Satan urging a person to disbelieve and then disavowing him, complementing the focus’s account of Satan making deeds attractive before their consequences unfold.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 59:16 «كَمَثَلِ ٱلشَّيْطَٰنِ إِذْ قَالَ لِلْإِنسَٰنِ ٱكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌۭ مِّنكَ»
+  - activation: Both passages name Satan and portray his relation to human wrongdoing and its outcome.
+  - limits: 59:16 describes an invitation and disavowal, not the beautification of deeds or the historical peoples in the focus.
+- **R-63:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact formula صَدُّوا عَن سَبِيلِ ٱللَّهِ recurs, here with oaths used as a shield; it supplies a social form of concealment beside the focus’s beautified deeds and obstruction.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 63:2 «ٱتَّخَذُوٓا۟ أَيْمَٰنَهُمْ جُنَّةًۭ فَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ»
+  - activation: The repeated صَدُّوا عن سبيل phrase connects the acts of obstruction; the shield image provides a distinct means.
+  - limits: 63:2 does not attribute obstruction to Satan or describe deeds being beautified.
+- **R-69:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud and ʿĀd recur together, here explicitly as peoples who denied the overwhelming event; the paired names in the focus thus carry a shared history of rejection as well as visible aftermath.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟»; 69:4 «كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ»
+  - activation: The two named groups recur together in reverse order and are explicitly joined by denial.
+  - limits: 69:4 does not mention their dwellings or explain Satan’s role in their conduct.
+- **related_6.X1** [reading; support strong, relevance high] 
+  - finding: The passage from Midian through the focus and on to Qarun, Pharaoh, and Haman builds a sequence of rejected calls and destruction; 29:40 then gathers the cases under the claim that each was seized for its sin. The focus’s beautification and obstruction is one distinct profile within that sequence.
+  - evidence: 29:37 «فَكَذَّبُوهُ فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 29:39 «وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ»; 29:40 «فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ»
+  - activation: The focus is positioned between two accounts of rejection and followed by an inclusive summary of distinct punishments.
+  - limits: 29:40 links each group to its own sin; it does not say that all shared the focus’s specific Satanic mechanism.
+- **R-84:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus calls the people مُسْتَبْصِرِينَ, while 84:15 says their Lord was بَصِيرًا toward a person. This juxtaposes human insight with divine sight, which need not be complete or reliable just because it is present.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 84:15 «بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًۭا»
+  - activation: The focus closes with a perception word after describing how Satan turned the people from ٱلسَّبِيلِ.
+  - limits: The forms and subjects differ: 84:15 predicates sight of God, while 29:38 attributes مُسْتَبْصِرِينَ to the people.
+- **R-89:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: 89:9 says Thamud cut through rock in the valley. This gives the focus’s مَسَٰكِنِهِمْ a material setting: the visible evidence may include their rock-cut habitation.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 89:9 «وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ»
+  - activation: The focus names Thamud and makes their dwellings the channel of clear evidence.
+  - limits: 89:9 mentions cutting rock but does not state that every such cut was a dwelling or that these are the specific remains seen by the audience.
+- **R-89:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 89:11–13, the named peoples’ transgression and corruption lead into the Lord’s punishment. This supplies an outcome behind the focus’s visible evidence from ʿAd’s and Thamud’s dwellings.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟»; 89:12 «فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ»; 89:13 «فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ»
+  - activation: The focus names these peoples and points to their dwellings after their ruin.
+  - limits: The pronoun عَلَيْهِمْ in 89:13 gathers the preceding passage’s groups; the verse does not single out only ʿAd and Thamud.
+- **R-91:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: 91:11 attributes Thamud’s denial to their طَغْوَىٰهَا, adding a human transgression layer to the focus’s account of Satan beautifying their deeds and turning them from the way.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 91:11 «كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ»
+  - activation: Both passages name Thamud and describe a departure from right response.
+  - limits: 91:11 does not identify طَغْوَىٰهَا with the specific أعمالهم beautified in 29:38.
+- **R-91:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: 91:13–14 gives the specific rejection and camel-killing followed by the Lord’s destruction of Thamud for their sin. It makes explicit the punitive outcome that the focus’s ruined dwellings attest.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 91:13 «فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا»; 91:14 «فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا»
+  - activation: The focus names Thamud and points to their dwellings after their destruction.
+  - limits: 91:14 supplies the episode’s outcome but does not mention the dwellings or the focus’s claim about their insight.
+- **R-7:73** [reading; support strong, relevance high] passage naming ثَمُود
+  - finding: 7:73–74 gives Thamud a messenger, a clear sign, and a warning, then recalls their settling after ʿAd and their carving of mountain houses. The focus’s dwellings thus stand against a prior history of guidance and substantial habitation.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 7:73 «وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا»; 7:73 «قَدْ جَآءَتْكُم بَيِّنَةٌۭ مِّن رَّبِّكُمْ»; 7:74 «وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا»
+  - activation: Both passages name Thamud, and 7:74 directly describes their houses and settlement.
+  - limits: 7:73–74 does not say these particular houses are the remains visible to the focus’s audience.
+- **R-11:61** [reading; support strong, relevance high] passage naming ثَمُود
+  - finding: Thamud are told that God brought them from the earth and established them there before being called to seek forgiveness and return. Their dwellings in the focus can therefore be heard as habitation granted within a relation of obligation and return.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 11:61 «هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا»; 11:61 «فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ»
+  - activation: Both passages concern Thamud, and 11:61 directly links their earthly settlement with a call to turn back.
+  - limits: 11:61 does not state that their dwellings are the particular ruins cited in 29:38.
+- **R-17:59** [reading; support strong, relevance high] passage naming ثَمُود
+  - finding: 17:59 calls Thamud’s she-camel مُبْصِرَةً and says they wronged themselves through it. The b-ṣ-r root links a perceivable sign to the focus’s مُسْتَبْصِرِينَ: insight or visibility did not secure a right response.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 17:59 «وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةًۭ فَظَلَمُوا۟ بِهَا»
+  - activation: Both verses name Thamud and connect them with b-ṣ-r language and a failed response to evidence.
+  - limits: مُبْصِرَةً describes the sign; مُسْتَبْصِرِينَ describes the people, so the forms and grammatical roles remain distinct.
+- **R-40:31** [reading; support strong, relevance high] passage naming ثَمُود
+  - finding: 40:31 warns through the pattern of Noah’s people, ʿAd, and Thamud, then denies that God intends injustice. The focus’s next verse makes the same accountability point: each was seized for its sin and they wronged themselves.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟»; 40:31 «مِثْلَ دَأْبِ قَوْمِ نُوحٍۢ وَعَادٍۢ وَثَمُودَ»; 40:31 «وَمَا ٱللَّهُ يُرِيدُ ظُلْمًۭا لِّلْعِبَادِ»; 29:40 «وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ»
+  - activation: The peoples named in 29:38 recur in a warning that closely matches the justice claim in 29:40.
+  - limits: 40:31 does not attribute their acts to Satan; it frames the outcome through their precedent and divine justice.
+- **R-11:60** [reading; support strong, relevance high] passage naming عَاد2
+  - finding: 11:59–60 says ʿAd rejected signs, disobeyed messengers, followed tyrants, and met disgrace. This gives the focus’s account of Satanic beautification and diversion a concrete history of choices and consequences.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ»; 11:59 «جَحَدُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَعَصَوْا۟ رُسُلَهُۥ وَٱتَّبَعُوٓا۟ أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍۢ»; 11:60 «أَلَآ إِنَّ عَادًا كَفَرُوا۟ رَبَّهُمْ»; 11:60 «أَلَا بُعْدًۭا لِّعَادٍۢ قَوْمِ هُودٍ»
+  - activation: The named ʿAd are the focus’s first people, and the adjacent account in Hūd describes their conduct and aftermath.
+  - limits: 11:59–60 does not say that Satan’s beautification is the cause of each listed choice.
+- **R-f-سبل-صدد-عمل** [reading; support strong, relevance high] formula family (س ب ل + ص د د + ع م ل; 2 ayat: 2:217, 8:47)
+  - finding: The formula family joins صَدٌّ/يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ with deeds and their accounting. In the focus the role reverses: Satan turns the people away, while these passages show people acting as blockers of others.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 2:217 «وَصَدٌّ عَن سَبِيلِ ٱللَّهِ»; 2:217 «حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ»; 8:47 «وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ»
+  - activation: The focus uses the same ṣ-d-d plus ʿan al-sabil frame and immediately mentions the people’s deeds.
+  - limits: The other verses describe people obstructing others; they do not identify those agents with the people turned away in 29:38.
+- **R-f-بصر-سبل-عمل** [reading; support strong, relevance high] formula family (ب ص ر + س ب ل + ع م ل; 1 ayat: 8:72)
+  - finding: 8:72 joins action and struggle فِى سَبِيلِ ٱللَّهِ with the statement that God sees what people do. It supplies a positive counterpart to the focus’s deeds and path: being on the way is expressed through action under divine sight.
+  - evidence: 29:38 «أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 8:72 «وَجَٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ»; 8:72 «وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ»
+  - activation: The focus links works, a way, and perception; 8:72 gathers the same themes in a faithful community.
+  - limits: بَصِيرٌۭ in 8:72 describes God’s sight, whereas مُسْتَبْصِرِينَ describes the people in the focus.
+- **R-f-بصر-عمل** [reading; support strong, relevance high] formula family (ب ص ر + ع م ل; 20 ayat: 2:96, 2:110, 2:233, 2:237, 2:265, 3:156, 3:163, 8:39, 11:112, 14:42)
+  - finding: A recurring Quranic formula says that God is بَصِيرٌۭ بِمَا تَعْمَلُونَ. Beside the focus’s مُسْتَبْصِرِينَ and أَعْمَٰلَهُمْ, this contrasts human insight with the divine sight that encompasses their deeds.
+  - evidence: 29:38 «أَعْمَٰلَهُمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 2:110 «إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌۭ»
+  - activation: The focus closes by attributing perception to the people after naming their works.
+  - limits: The b-ṣ-r forms differ, and 2:110 predicates sight of God rather than describing the people’s own perception.
+- **R-f-سبل-صدد** [reading; support strong, relevance high] formula family (س ب ل + ص د د; 9 ayat: 4:160, 7:45, 7:86, 8:36, 11:19, 14:3, 16:94, 22:25, 58:16)
+  - finding: Across these passages صَدَّ عَن سَبِيلِ ٱللَّهِ repeatedly describes people blocking others from the way. Against that pattern, the focus makes Satan the agent and the named peoples the ones turned away.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 7:86 «وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ بِهِۦ»; 8:36 «يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ»
+  - activation: The focus shares the obstruction verb and preposition with the recurring Quranic way formula.
+  - limits: The examples include different human agents and targets, and the focus does not explicitly say سَبِيلِ ٱللَّهِ.
+- **R-f-سبل-عمل** [reading; support strong, relevance high] formula family (س ب ل + ع م ل; 7 ayat: 3:195, 4:94, 9:120, 17:84, 31:15, 47:4, 57:10)
+  - finding: 17:84 directly links each person’s عمل to the path on which they are best guided; 3:195 depicts good work in God’s way. Together they make the focus’s أَعْمَٰلَهُمْ and ٱلسَّبِيلِ a question of the direction deeds take, not deeds alone.
+  - evidence: 29:38 «أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 17:84 «كُلٌّۭ يَعْمَلُ عَلَىٰ شَاكِلَتِهِۦ فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًۭا»; 3:195 «وَأُوذُوا۟ فِى سَبِيلِى»
+  - activation: The focus makes deeds the object of beautification and then names the way from which the people are diverted.
+  - limits: These passages concern different people and do not say that the focus’s deeds were performed in God’s way.
+- **R-f-زين-عمل** [reading; support strong, relevance high] formula family (ز ي ن + ع م ل; 4 ayat: 6:108, 6:122, 10:12, 35:8)
+  - finding: The Quran repeats the construction of beautifying deeds, but varies its surface agent: 6:108 says زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ, while 35:8 uses a passive and says the person sees the bad deed as good. The focus’s explicit ٱلشَّيْطَٰنُ and the people’s مُسْتَبْصِرِينَ sharpen agency and perception within this recurring formula.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 6:108 «كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ»; 35:8 «أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًا»
+  - activation: The focus uses the same z-y-n plus ʿ-m-l construction and closes with a perception term.
+  - limits: The other passages use different agents or passive wording; they do not erase the focus’s explicit attribution to Satan.
+- **R-f-بصر-سبل** [reading; support strong, relevance high] formula family (ب ص ر + س ب ل; 2 ayat: 3:13, 12:108)
+  - finding: 12:108 joins the Prophet’s سبيل with عَلَىٰ بَصِيرَةٍ. Against the focus, where مُسْتَبْصِرِينَ are nevertheless turned عنِ ٱلسَّبِيلِ, this sharpens the distinction between having perception and directing it along the right way.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 12:108 «هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ عَلَىٰ بَصِيرَةٍ»
+  - activation: Both passages bring the way and b-ṣ-r perception into the same statement.
+  - limits: 12:108 uses the noun بَصِيرَةٍ for the Prophet and his followers, while the focus uses the active participle مُسْتَبْصِرِينَ for the past peoples.
+- **R-f-سبل-شطن** [reading; support strong, relevance high] formula family (س ب ل + ش ط ن; 2 ayat: 4:76, 18:63)
+  - finding: 4:76 places the way of God opposite the way of ṭāghūt and names Satan’s allies; this gives the focus’s ٱلسَّبِيلِ an ethical route contrast. 18:63 also shows سَبِيلَهُۥ can mean a literal route, so the focus’s moral sense comes from its context rather than the noun alone.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 4:76 «يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱلطَّٰغُوتِ»; 4:76 «فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ»; 18:63 «وَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ عَجَبًا»
+  - activation: The focus places Satan beside a definite way from which people are turned.
+  - limits: The focus does not include the explicit genitive ٱللَّهِ found in 4:76, and 18:63 concerns a physical route.
+- **R-f-بصر-شطن** [reading; support strong, relevance high] formula family (ب ص ر + ش ط ن; 1 ayat: 7:201)
+  - finding: 7:201 describes the God-conscious remembering when touched by Satan and then becoming مُبْصِرُونَ. This is a counter-response to the focus: there Satan’s beautification and diversion occur although the people are مُسْتَبْصِرِينَ.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 7:201 «إِذَا مَسَّهُمْ طَٰٓئِفٌۭ مِّنَ ٱلشَّيْطَٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبْصِرُونَ»
+  - activation: Both verses join Satan with b-ṣ-r perception, but narrate different responses.
+  - limits: 7:201 speaks of the God-conscious and does not say that remembrance is the response of the peoples in 29:38.
+- **R-f-زين-سبل** [reading; support strong, relevance high] formula family (ز ي ن + س ب ل; 1 ayat: 10:88)
+  - finding: 10:88 joins worldly زِينَةٌۭ with لِيُضِلُّوا۟ عَن سَبِيلِكَ. The focus makes a close parallel in verbal form: Satan beautifies deeds, فَصَدَّهُمْ away from the way.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 10:88 «ءَاتَيْتَ فِرْعَوْنَ وَمَلَأَهُۥ زِينَةًۭ وَأَمْوَٰلًۭا»; 10:88 «لِيُضِلُّوا۟ عَن سَبِيلِكَ»
+  - activation: Both lines place adornment and deviation from a way in one causal frame.
+  - limits: 10:88 speaks of Pharaoh and his elite, uses زِينَةٌۭ as a noun, and does not identify their adornment with the focus’s beautified deeds.
+- **R-f-زين-شطن** [reading; support strong, relevance high] formula family (ز ي ن + ش ط ن; 1 ayat: 67:5)
+  - finding: 67:5 says God adorned the nearest heaven with lamps and made them missiles against devils. This reverses the focus’s arrangement: Satan beautifies human deeds to divert, while divine adornment becomes a defense against devils.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 67:5 «وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ»; 67:5 «وَجَعَلْنَٰهَا رُجُومًۭا لِّلشَّيَٰطِينِ»
+  - activation: Both passages combine z-y-n and the sh-y-ṭ-n root, but assign them opposing roles.
+  - limits: 67:5 adorns the heaven, not deeds, and names devils as the target rather than the agent of beautification.
+- **R-27:45** [open; support strong, relevance high] inter-ayah target
+  - finding: The focus speaks of Thamud collectively as diverted, while this account says they were two disputing factions; the pairing may complicate how uniform the focus’s judgment sounds.
+  - evidence: 27:45 «وَلَقَدْ أَرْسَلْنَآ إِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ فَإِذَا هُمْ فَرِيقَانِ يَخْتَصِمُونَ»; 29:38 «وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - missing: The passage does not identify which faction was diverted or whether the focus’s plural generalizes over both; the ensuing account of Salih’s opponents and followers could clarify the scope.
+- **R-4:120** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:120 calls Satan’s promises and hopes delusion, offering a possible mechanism for how deeds might come to seem attractive in 29:38.
+  - evidence: 4:120 «يَعِدُهُمْ وَيُمَنِّيهِمْ ۖ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus’s account of Satan making deeds seem attractive makes his false promises a relevant companion explanation.
+  - limits: 4:120 does not use the beautification verb or mention obstruction from the way, so the proposed mechanism remains interpretive.
+- **R-5:30** [reading; support medium, relevance high] inter-ayah target
+  - finding: In 5:30, a person’s own self makes the killing of his brother tractable; in 29:38, Satan beautifies people’s deeds before turning them from the way. These passages allow an inward counterpart to the focus’s external adversarial agency.
+  - evidence: 5:30 «فَطَوَّعَتْ لَهُۥ نَفْسُهُۥ قَتْلَ أَخِيهِ فَقَتَلَهُۥ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: Both passages depict a wrongful act being made easier or more attractive before it is carried out.
+  - limits: 5:30 names the self, not Satan, as the immediate agent and does not describe a departure from a path.
+- **R-5:71** [reading; support medium, relevance high] inter-ayah target
+  - finding: 5:71 says people become blind and deaf after supposing no trial would come, then says God sees what they do. Against the focus’s مُسْتَبْصِرِينَ who are nevertheless diverted, it contrasts claimed or available perception with failure to respond to warning.
+  - evidence: 5:71 «وَحَسِبُوٓا۟ أَلَّا تَكُونَ فِتْنَةٌۭ فَعَمُوا۟ وَصَمُّوا۟»; 5:71 «وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus closes on a word of perception despite misdirection; 5:71 makes impaired perception the stated consequence of misjudgment.
+  - limits: The Arabic uses different perception terms and does not identify either community with the other.
+- **R-15:77** [reading; support medium, relevance high] inter-ayah target
+  - finding: The destroyed place in 15:76 lies on an established route, and 15:77 calls that a sign for believers. This parallels the focus’s dwelling places as evidence encountered by later people.
+  - evidence: 15:76 «وَإِنَّهَا لَبِسَبِيلٍۢ مُّقِيمٍ»; 15:77 «إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّلْمُؤْمِنِينَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both passages connect a place associated with a destroyed people to a sign available to later observers.
+  - limits: 15:77 does not name ʿĀd or Thamūd, and its sign is not explicitly identified as their dwellings.
+- **R-16:100** [reading; support medium, relevance high] inter-ayah target
+  - finding: 16:100 locates Satan’s authority among those who take him as an ally and associate him with God. This makes the focus’s account of Satanic adornment compatible with a relation of allegiance, rather than depicting influence without any human attachment.
+  - evidence: 16:99 «إِنَّهُۥ لَيْسَ لَهُۥ سُلْطَٰنٌ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ»; 16:100 «إِنَّمَا سُلْطَٰنُهُۥ عَلَى ٱلَّذِينَ يَتَوَلَّوْنَهُۥ وَٱلَّذِينَ هُم بِهِۦ مُشْرِكُونَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus names Satan as the agent; the neighboring verses describe the people over whom his authority holds.
+  - limits: 16:100 does not identify the earlier communities or explain what allegiance looked like in their case.
+- **R-17:36** [reading; support medium, relevance high] inter-ayah target
+  - finding: 17:36 makes hearing, sight, and heart accountable for what a person follows. Beside the focus’s مُسْتَبْصِرِينَ, it supports a reading in which perceptual capacity does not by itself ensure sound direction.
+  - evidence: 17:36 «إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُو۟لَٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًۭا»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus closes with a word of insight, while 17:36 names sight and the heart among faculties for which people answer.
+  - limits: 17:36 states a general accountability principle and does not refer to the named peoples or their dwellings.
+- **R-17:63** [reading; support medium, relevance high] inter-ayah target
+  - finding: 17:63 links following Iblis to Hell as the followers’ recompense. This provides an outcome for the kind of diversion from the path described in the focus.
+  - evidence: 17:62 «لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًۭا»; 17:63 «فَمَن تَبِعَكَ مِنْهُمْ فَإِنَّ جَهَنَّمَ جَزَآؤُكُمْ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both passages concern Satan’s effect on people and what follows from their relation to him.
+  - limits: 17:63 does not describe beautification or identify its followers with ʿĀd and Thamūd.
+- **R-17:64** [reading; support medium, relevance high] inter-ayah target
+  - finding: 17:64 details Satan’s methods as incitement, participation in wealth and children, and promises that amount to delusion. It gives a broader account of the adversarial influence that the focus summarizes as adorning deeds and turning people from the path.
+  - evidence: 17:64 «وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ وَعِدْهُمْ»; 17:64 «وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus names Satan’s beautifying action; 17:64 gives several forms of his influence.
+  - limits: 17:64 does not say that these particular methods operated on the communities named in the focus.
+- **R-19:83** [reading; support medium, relevance high] inter-ayah target
+  - finding: 19:83 depicts Satans sent against unbelievers, driving them on; this supplies a forceful parallel to the focus’s Satanic action while leaving its particular mechanism—beautifying deeds—distinct.
+  - evidence: 19:83 «أَنَّآ أَرْسَلْنَا ٱلشَّيَٰطِينَ عَلَى ٱلْكَٰفِرِينَ تَؤُزُّهُمْ أَزًّۭا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both passages make Satanic agents responsible for exerting influence on people described as unbelievers or misdirected.
+  - limits: 19:83 does not name the focus’s communities or specify adornment and path diversion.
+- **R-20:125** [reading; support medium, relevance high] inter-ayah target
+  - finding: The speaker in 20:125 claims to have once been seeing, but the next verse answers that God’s signs came and were forgotten. This echoes the focus’s tension between people described as مُسْتَبْصِرِينَ and their being turned from the path.
+  - evidence: 20:125 «قَالَ رَبِّ لِمَ حَشَرْتَنِىٓ أَعْمَىٰ وَقَدْ كُنتُ بَصِيرًۭا»; 20:126 «قَالَ كَذَٰلِكَ أَتَتْكَ ءَايَٰتُنَا فَنَسِيتَهَا»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: Both passages juxtapose a claim or state of sight with the failure to respond rightly to signs.
+  - limits: 20:125–126 concern an individual’s afterlife encounter, not the named historical peoples; بصير and مستبصرين are distinct forms.
+- **R-22:4** [reading; support medium, relevance high] inter-ayah target
+  - finding: 22:4 says that whoever takes a rebellious Satan as an ally is misled and led toward punishment. This parallels the focus’s account of Satan turning people from the path and spells out a consequence.
+  - evidence: 22:3 «وَيَتَّبِعُ كُلَّ شَيْطَٰنٍۢ مَّرِيدٍۢ»; 22:4 «مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: The nearby antecedent in 22:3 identifies the “him” in 22:4 as a rebellious Satan; both passages describe his misguiding effect.
+  - limits: 22:4 does not mention beautifying deeds or identify its people with the named communities in the focus.
+- **R-22:16** [reading; support medium, relevance high] inter-ayah target
+  - finding: 22:16 puts clear revealed signs beside the statement that God guides whom He wills. Read with the focus, it makes room for visible evidence to be clear without compelling every observer to take the path.
+  - evidence: 22:16 «وَكَذَٰلِكَ أَنزَلْنَٰهُ ءَايَٰتٍۭ بَيِّنَٰتٍۢ وَأَنَّ ٱللَّهَ يَهْدِى مَن يُرِيدُ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus says the evidence from dwellings has become clear; 22:16 distinguishes clear signs from the act of being guided.
+  - limits: 22:16 concerns the revelation in its own context, not the dwellings or past peoples named in 29:38.
+- **R-22:45** [reading; support medium, relevance high] inter-ayah target
+  - finding: 22:45 depicts a destroyed town through collapsed buildings, an abandoned well, and a raised palace; 22:46 follows by locating blindness in hearts rather than eyes. Together these verses parallel the focus’s material traces and the problem of insight.
+  - evidence: 22:45 «فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌۭ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍۢ مُّعَطَّلَةٍۢ وَقَصْرٍۢ مَّشِيدٍ»; 22:46 «فَإِنَّهَا لَا تَعْمَى ٱلْأَبْصَٰرُ وَلَٰكِن تَعْمَى ٱلْقُلُوبُ ٱلَّتِى فِى ٱلصُّدُورِ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: Both sequences place the aftermath of a destroyed settlement beside a question of whether people truly perceive its lesson.
+  - limits: 22:45–46 do not identify the settlement as ʿĀd or Thamūd or say that its inhabitants were مُسْتَبْصِرِينَ.
+- **R-24:34** [reading; support medium, relevance high] inter-ayah target
+  - finding: 24:34 describes the revelation as clear signs, an example from people who passed before, and an admonition. This gives a direct scriptural frame for reading the focus’s past communities and their visible dwellings as instruction for later hearers.
+  - evidence: 24:34 «وَلَقَدْ أَنزَلْنَآ إِلَيْكُمْ ءَايَٰتٍۢ مُّبَيِّنَٰتٍۢ وَمَثَلًۭا مِّنَ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُمْ وَمَوْعِظَةًۭ لِّلْمُتَّقِينَ»; 29:38 «وَعَادًۭا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both passages bring together clarity and examples drawn from earlier peoples.
+  - limits: 24:34 does not identify its example with ʿĀd or Thamūd or specifically mention ruins.
+- **R-25:23** [reading; support medium, relevance high] inter-ayah target
+  - finding: 25:23 says that deeds can be made scattered dust. Beside the focus’s Satan-adorned أَعْمَالَهُمْ, it raises a consequential tension: attractive or abundant works need not stand as valuable deeds in the end.
+  - evidence: 25:23 «وَقَدِمْنَآ إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍۢ فَجَعَلْنَٰهُ هَبَآءًۭ مَّنثُورًا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: Both passages center on عمل; the focus marks deeds as Satan-adorned, while 25:23 gives a possible final fate for deeds.
+  - limits: 25:23 does not identify these deeds with those of ʿĀd or Thamūd or say that Satan adorned them.
+- **R-26:128** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus’s أَعْمَالَهُمْ may include monumental building: Hud challenges Âd for raising landmarks on every height for amusement and making works as though they would last. Their visible dwelling traces can thus expose the impermanence of impressive works.
+  - evidence: 26:128 «أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ»; 26:129 «وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - activation: The focus names Âd and points to their dwellings; Hud’s address describes Âd’s building activity.
+  - limits: The focus does not specify that أَعْمَالَهُمْ means these buildings or that the visible dwellings are the exact structures in Hud’s rebuke.
+- **R-27:69** [reading; support medium, relevance high] inter-ayah target
+  - finding: The command to travel and inspect the end of criminals presents observation of past outcomes as a way to learn; the focus enacts that method by directing its audience to dwellings where the fate has become clear.
+  - evidence: 27:69 «قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُجْرِمِينَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both address an audience invited to learn from the visible history of earlier peoples.
+  - limits: 27:69 names no particular people or dwellings, so it does not identify the sites mentioned in the focus.
+- **R-29:43** [reading; support medium, relevance high] inter-ayah target
+  - finding: The surah says its parables are understood only by the knowledgeable; this casts its preceding histories, including the focus’s dwelling evidence, as examples whose significance depends on understanding rather than sight alone.
+  - evidence: 29:43 «وَتِلْكَ ٱلْأَمْثَٰلُ نَضْرِبُهَا لِلنَّاسِ ۖ وَمَا يَعْقِلُهَآ إِلَّا ٱلْعَٰلِمُونَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus is one of the surah’s recent historical examples, and it joins manifest traces to a description of the peoples’ perception.
+  - limits: The text does not equate مُسْتَبْصِرِينَ with ٱلْعَٰلِمُونَ or state that the former understood these parables.
+- **related_4.X1** [reading; support medium, relevance high] 
+  - finding: The Fatiha’s repeated plea for guidance and its naming of the astray provide a daily counter-scene to people turned from the way despite being perceptive: perception alone does not remove the need for guidance.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: Both passages concern the way and the danger of going astray; the Fatiha is recited in every salah.
+  - limits: The path terms differ, and the Fatiha does not identify these historical peoples.
+- **R-30:9** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus makes the dwellings of ʿĀd and Thamūd an evidence source; 30:9 widens that into a journey of inspection, where the fate of earlier peoples can be read from the land they worked.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 30:9 «أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ»
+  - activation: Both passages join travel or surviving sites to seeing what became of earlier peoples.
+  - limits: 30:9 does not name ʿĀd or Thamūd, and its reference to cultivated land does not identify the dwellings in 29:38.
+- **R-35:44** [reading; support medium, relevance high] inter-ayah target
+  - finding: The call to inspect the fate of earlier peoples adds a power reversal to the focus’s visible evidence: those who were stronger still could not outlast their end.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 35:44 «أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ وَكَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةًۭ»
+  - activation: The focus presents evidence in the land; 35:44 links looking across the land with the failed strength of earlier peoples.
+  - limits: 35:44 does not name ʿĀd or Thamūd, and it does not specify their dwellings as the evidence.
+- **R-36:66** [reading; support medium, relevance high] inter-ayah target
+  - finding: The shared root of mustabsirīn and yubsirūn invites a contrast between moral discernment and physical sight: 36:66 imagines people unable to see the path, while the focus says its people had insight and still were diverted.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 36:66 «فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ»
+  - activation: Both passages join seeing language to a path, but the focus describes discernment and 36:66 describes erased sight.
+  - limits: The shared root does not establish that mustabsirīn means literal eyesight in 29:38.
+- **R-37:30** [reading; support medium, relevance high] inter-ayah target
+  - finding: The denial of having authority over the followers qualifies how to hear the focus’s claim that Satan turned people aside: influence is narrated, but a later exchange assigns transgression to the people themselves.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ»; 37:30 «وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًۭا طَٰغِينَ»
+  - activation: The focus’s attached object pronoun and closing description of the people permit a question about coercion and responsibility.
+  - limits: The speakers in 37:30 are not identified here as Satan, and their episode is separate from the focus’s peoples.
+- **R-40:21** [reading; support medium, relevance high] inter-ayah target
+  - finding: The earth’s آثار become evidence of a former people’s strength and collapse; the focus’s visible dwellings can be heard within that wider argument that power leaves traces but no protection from judgment.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 40:21 «كَانُوا۟ هُمْ أَشَدَّ مِنْهُمْ قُوَّةًۭ وَءَاثَارًۭا فِى ٱلْأَرْضِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ»
+  - activation: The focus points to dwellings as evidence, while 40:21 names land traces and greater strength before seizure.
+  - limits: 40:21 does not name the focus’s peoples or equate آثار with their dwellings.
+- **R-40:82** [reading; support medium, relevance high] inter-ayah target
+  - finding: The passage links visible traces and former strength to the failure of what a people earned; this broadens the focus’s dwellings and beautified deeds into a warning that material achievement cannot save its makers.
+  - evidence: 29:38 «أَعْمَٰلَهُمْ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»; 40:82 «كَانُوٓا۟ أَكْثَرَ مِنْهُمْ وَأَشَدَّ قُوَّةًۭ وَءَاثَارًۭا فِى ٱلْأَرْضِ فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ»
+  - activation: The focus juxtaposes works with surviving dwellings, while 40:82 makes land traces and acquired works fail together.
+  - limits: The verses do not use the same term for deeds, and 40:82 does not identify the peoples it recalls.
+- **R-41:25** [reading; support medium, relevance high] inter-ayah target
+  - finding: Beautification recurs through a different agent arrangement: assigned companions beautify what lies before and behind their people, and the judgment falls among earlier nations. This expands the focus’s Satan-and-deeds pattern into a broader social reach.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 41:25 «وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ»
+  - activation: Both passages use زَيَّنَ with a recipient phrase and connect it to people among earlier nations.
+  - limits: 41:25 calls the agents companions rather than Satan and does not repeat the focus’s path obstruction or identify its communities.
+- **R-45:20** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Qur’an is described as basāʾir and guidance for people of certainty; beside the focus, this separates possession of insight from following guidance, since its people were mustabsirīn yet diverted from the way.
+  - evidence: 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 45:20 «هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُوقِنُونَ»
+  - activation: The shared بص ر root and explicit pairing of insight with guidance make a contrast available.
+  - limits: 45:20 does not state that the focus’s people encountered this revelation or explain their particular misguidance.
+- **related_6.X2** [reading; support medium, relevance high] 
+  - finding: The focus gives a historical example of being turned from a path, beside the Fatiha’s repeated petition for guidance to the straight path and exclusion from the paths of error.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The focus’s obstruction from ٱلسَّبِيلِ can be heard beside the worshippers’ request for guidance and avoidance of error.
+  - limits: The Fatiha uses الصِّرَاط rather than السَّبِيل and does not identify ʿĀd or Thamud with any named group in its closing verse.
+- **related_6.X3** [reading; support medium, relevance high] 
+  - finding: Earlier in the same surah, disbelievers invite believers to follow their path and falsely offer to carry their sins; this gives a social example of an attractive but deceptive path beside the focus’s account of Satan beautifying deeds and diverting people.
+  - evidence: 29:12 «ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَٰيَٰكُمْ وَمَا هُم بِحَٰمِلِينَ مِنْ خَطَٰيَٰهُم مِّن شَىْءٍ ۖ إِنَّهُمْ لَكَٰذِبُونَ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - activation: Both scenes involve a path offered to people and a deceptive influence that leads toward wrongdoing.
+  - limits: 29:12 concerns the surah’s contemporary disbelievers and does not identify their invitation as Satan’s work or equate them with ʿĀd and Thamud.
+- **R-89:7** [reading; support medium, relevance high] inter-ayah target
+  - finding: The sequence in 89:6–7 identifies ʿAd with Iram of the pillars. Read alongside the focus’s مَسَٰكِنِهِمْ, this can make the visible remains traces of a monumental built world.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 89:6 «بِعَادٍ»; 89:7 «إِرَمَ ذَاتِ ٱلْعِمَادِ»
+  - activation: The focus names ʿAd and points directly to their dwellings as visible evidence.
+  - limits: The verses do not explicitly equate Iram’s pillars with the dwellings mentioned in 29:38.
+- **R-91:10** [reading; support medium, relevance high] inter-ayah target
+  - finding: 91:9–11 moves from purification and failure of the soul to Thamud’s denial through transgression. This offers an inward moral diagnosis alongside the focus’s account of Satan beautifying deeds and turning the people away.
+  - evidence: 91:9 «قَدْ أَفْلَحَ مَن زَكَّىٰهَا»; 91:10 «وَقَدْ خَابَ مَن دَسَّىٰهَا»; 91:11 «كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - activation: The focus names Thamud, while the adjacent verses in Sūrat al-Shams move from a general account of moral failure to Thamud’s case.
+  - limits: 91:10 does not name Thamud or mention Satan; the connection depends on the sequence into 91:11.
+- **R-114:4** [reading; support medium, relevance high] inter-ayah target
+  - finding: 114:4–5 describes a whisperer working within people’s breasts; this supplies an inward channel that can accompany the focus’s outward sequence of beautifying deeds and turning people from the way.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ»; 114:4 «مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ»; 114:5 «ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ»
+  - activation: The focus explicitly names ٱلشَّيْطَٰنُ as the agent, and the later passage describes covert whispering that affects people inwardly.
+  - limits: 114:4 does not use the word ٱلشَّيْطَٰنُ; the connection is through the adversarial function, not a shared designation.
+- **R-114:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: The closing phrase مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ extends the source of whispering to jinn and humans. It allows the focus’s satanic diversion to be heard alongside human whisperers who can perform a similar misleading role.
+  - evidence: 29:38 «ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ»; 114:5 «ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ»; 114:6 «مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ»
+  - activation: The focus depicts a group being turned away; the closing surah names both jinn and humans as sources of whispering.
+  - limits: 114:6 does not say that human whisperers beautify deeds or use the exact act of صَدَّ.
+- **R-11:95** [reading; support medium, relevance high] passage naming ثَمُود
+  - finding: 11:95 compares Thamud’s disappearance with Madyan, whose place is described as if they had never flourished there. Against this, the focus says Thamud’s dwellings still make the evidence clear, sharpening the tension between erased habitation and surviving testimony.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 11:95 «كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ»; 11:95 «كَمَا بَعِدَتْ ثَمُودُ»
+  - activation: Both passages connect Thamud with the disappearance of settled peoples.
+  - limits: كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ describes Madyan in the preceding context, not Thamud directly.
+- **R-6:103** [open; support medium, relevance high] inter-ayah target
+  - finding: In 6:103–104, eyes do not encompass God, while the next verse speaks of بصائر from the Lord and distinguishes seeing from blindness. Beside the focus’s مُسْتَبْصِرِينَ, this raises whether their insight is their own discernment or a response to signs.
+  - evidence: 6:103 «لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَٰرَ»; 6:104 «قَدْ جَآءَكُم بَصَآئِرُ مِن رَّبِّكُمْ ۖ فَمَنْ أَبْصَرَ فَلِنَفْسِهِۦ ۖ وَمَنْ عَمِىَ فَعَلَيْهَا»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - missing: The focus does not say what the people discerned or whether their insight came from signs. That detail, or broader Quranic usage distinguishing sight from insight in this root, could decide how close the connection is.
+- **R-7:202** [open; support medium, relevance high] inter-ayah target
+  - finding: The passage may add sustained social reinforcement to the focus’s diversion: a group’s “brothers” extend them in error and do not stop, after the preceding verse describes the God-fearing becoming perceptive when touched by Satan.
+  - evidence: 7:201 «إِذَا مَسَّهُمْ طَٰٓئِفٌۭ مِّنَ ٱلشَّيْطَٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبْصِرُونَ»; 7:202 «وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - missing: The antecedent of إخوانهم is not settled by these excerpts, and the focus does not mention companions or an ongoing group influence. Wider context establishing who extends whom, and whether that relation is human or demonic, could decide the link.
+- **R-11:15** [open; support medium, relevance high] inter-ayah target
+  - finding: 11:15 pairs desire for worldly life and its زِينَتَهَا with deeds carried out in that life. This may illuminate the attraction of أَعْمَٰلَهُمْ in the focus as worldly ornament, but the focus does not name worldly desire.
+  - evidence: 11:15 «مَن كَانَ يُرِيدُ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا نُوَفِّ إِلَيْهِمْ أَعْمَٰلَهُمْ فِيهَا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - missing: The connection is between زِينَتَهَا, a noun for worldly adornment, and the focus’s verb زَيَّنَ; they are distinct forms, and the focus gives no worldly object or motive. A further focus detail or Quranic usage tying these works to worldly ornament could decide the link.
+- **R-15:41** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus’s definite path may be heard beside 15:41’s “straight path,” which follows Satan’s vow to adorn and mislead; this places Satan’s action against a divinely stated path.
+  - evidence: 15:39 «لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ»; 15:41 «قَالَ هَٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - missing: The referent and force of “this is a straight path upon Me” are not settled by these excerpts; its interpretation could determine how directly it names the path in 29:38.
+- **R-15:81** [open; support medium, relevance high] inter-ayah target
+  - finding: The people called أصحاب الحجر are said to have received signs and turned away from them, a possible parallel to the focus’s clear evidence and the people who were مُسْتَبْصِرِينَ.
+  - evidence: 15:80 «وَلَقَدْ كَذَّبَ أَصْحَٰبُ ٱلْحِجْرِ ٱلْمُرْسَلِينَ»; 15:81 «وَءَاتَيْنَٰهُمْ ءَايَٰتِنَا فَكَانُوا۟ عَنْهَا مُعْرِضِينَ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - missing: The connection depends on identifying أصحاب الحجر with the focus’s Thamūd; an explicit naming of that group could confirm it.
+- **R-15:82** [open; support medium, relevance high] inter-ayah target
+  - finding: 15:82 describes the أصحاب الحجر as carving secure houses from mountains, which could specify the kind of dwellings that remain evidence in the focus.
+  - evidence: 15:82 «وَكَانُوا۟ يَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا ءَامِنِينَ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - missing: The excerpt does not name the mountain-house builders as Thamūd; an explicit identification would connect these houses to the focus’s dwellings.
+- **R-26:97** [open; support medium, relevance high] inter-ayah target
+  - finding: A possible reversal sets the focus’s description of the peoples as مُسْتَبْصِرِينَ beside condemned speakers who confess they were in manifest error; the pairing could distinguish perceptive capacity from a rightly directed path.
+  - evidence: 26:97 «تَٱللَّهِ إِن كُنَّا لَفِى ضَلَٰلٍۢ مُّبِينٍ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - missing: A lexical account of مُسْتَبْصِرِينَ and an explicit link between these different condemned groups could decide whether this is a meaningful contrast or just a shared theme of error.
+- **R-26:222** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus’s singular ٱلشَّيْطَٰنُ may connect to the plural devils who descend on every lying sinner, extending the scene from an agent of beautification to a wider satanic company.
+  - evidence: 26:222 «تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍۢ»; 26:221 «هَلْ أُنَبِّئُكُمْ عَلَىٰ مَن تَنَزَّلُ ٱلشَّيَٰطِينُ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - missing: The text does not connect Âd or Thamud to these receivers of satanic descent, and the mechanism here is descent rather than beautification; a textual link between the episodes would decide the comparison.
+- **R-28:63** [open; support medium, relevance high] inter-ayah target
+  - finding: Here human leaders say they led others astray as they themselves strayed, which may complement the focus’s account of Satanic diversion with a social chain of misguidance.
+  - evidence: 28:63 «هَٰٓؤُلَاءِ ٱلَّذِينَ أَغْوَيْنَآ أَغْوَيْنَٰهُمْ كَمَا غَوَيْنَا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - missing: The passages do not identify the speakers in 28:63 with Âd or Thamud or say how human leaders’ influence relates to Satan’s beautification; a direct narrative link could establish whether these describe joined levels of agency.
+- **R-37:162** [open; support medium, relevance high] inter-ayah target
+  - finding: The statement that the addressees cannot be fātinīn, followed by an exception in 37:163, may qualify the focus’s account of Satanic diversion by limiting who can be led astray.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 37:162 «مَآ أَنتُمْ عَلَيْهِ بِفَٰتِنِينَ»
+  - missing: The excerpt does not identify the speaker or clarify the object of عَلَيْهِ; the surrounding passage, especially 37:158–163, and a lexical comparison of فَاتِنِينَ with صَدَّ could establish whether this is a comparable kind of misleading.
+- **R-38:82** [open; support medium, relevance high] inter-ayah target
+  - finding: The speaker’s oath to lead a group astray could state an intention whose historical enactment is shown in the focus, but the excerpt alone does not identify that speaker.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 38:82 «قَالَ فَبِعِزَّتِكَ لَأُغْوِيَنَّهُمْ أَجْمَعِينَ»; 38:83 «إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ»
+  - missing: The preceding exchange in 38:76–81 could establish who says قَالَ and who the pronoun هُمْ denotes; that would decide whether the vow belongs to the same adversary named in 29:38.
+- **R-43:57** [open; support medium, relevance high] inter-ayah target
+  - finding: The root ص د د appears again when the people turn or react to the example of the son of Maryam. If يَصِدُّونَ means turning away here, it could echo the focus’s diversion; if it denotes noisy reaction, the link changes.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 43:57 «وَلَمَّا ضُرِبَ ٱبْنُ مَرْيَمَ مَثَلًا إِذَا قَوْمُكَ مِنْهُ يَصِدُّونَ»
+  - missing: A dictionary sense and Quranic usage comparison for يَصِدُّونَ, alongside the response described in 43:58, could determine whether the shared root carries the focus’s sense of turning away or another sense.
+- **R-50:27** [open; support medium, relevance high] inter-ayah target
+  - finding: The companion’s denial that he made a person transgress, alongside the person’s distant error, may offer a scene of disputed agency relevant to the focus’s attribution of diversion to Satan.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 50:27 «قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَٰكِن كَانَ فِى ضَلَٰلٍۭ بَعِيدٍۢ»
+  - missing: The passage does not identify the قَرِين as Satan or connect his denial to beautifying deeds; a Quranic usage parallel or context identifying this companion could decide the link.
+- **R-53:51** [open; support medium, relevance high] inter-ayah target
+  - finding: The phrase فَمَآ أَبْقَىٰ after Thamud may invite a question about what was left, since 29:38 says their dwellings remain available as evidence.
+  - evidence: 29:38 «تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 53:51 «وَثَمُودَا۟ فَمَآ أَبْقَىٰ»
+  - missing: The object of أَبْقَىٰ is not stated here; context or a parallel use could establish whether it means no people were spared or whether it also concerns material traces, deciding how this relates to the visible dwellings.
+- **R-69:39** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus joins dwellings that have become clear to an audience with Satan as the agent behind the people’s deeds; the paired oath on what is seen and unseen may offer a frame for hearing these visible and hidden dimensions together.
+  - evidence: 29:38 «تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ ۖ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 69:38 «فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ»; 69:39 «وَمَا لَا تُبْصِرُونَ»
+  - missing: The verses do not identify what is seen or unseen as the focus’s dwellings and Satanic agency; a surrounding textual link or Quranic parallel assigning these referents could establish the connection.
+- **R-80:20** [open; support medium, relevance high] inter-ayah target
+  - finding: The shared ٱلسَّبِيلَ permits a contrast: 80:20 says the way was made easy, while 29:38 says the people were turned away from it. If both mean a moral course, this makes their diversion a rejection of an available way.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 80:20 «ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ»
+  - missing: The wider context of 80:19–21 or a Quranic parallel establishing whether ٱلسَّبِيلَ there means a moral course rather than a bodily passage could decide whether the two uses name the same kind of way.
+- **R-89:8** [open; support medium, relevance high] inter-ayah target
+  - finding: If 89:8 continues the description of Iram or its structures, its claim of unmatched stature could make the dwellings in 29:38 remnants of an exceptional built environment.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 89:7 «إِرَمَ ذَاتِ ٱلْعِمَادِ»; 89:8 «ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ»
+  - missing: The antecedent of ٱلَّتِى and the referent of مِثْلُهَا need to be established from the passage or a grammatical reading before the claim can be tied specifically to Iram’s structures or the focus’s dwellings.
+- **R-91:12** [open; support medium, relevance high] inter-ayah target
+  - finding: 91:11–12 narrows Thamud’s story to the moment when أَشْقَىٰهَا rises. This could show how a group’s diversion reaches a decisive individual action.
+  - evidence: 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 91:11 «كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ»; 91:12 «إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا»
+  - missing: A textual link identifying this individual as the agent or embodiment of the group’s beautified deeds could supply the missing bridge between the focus’s collective diversion and 91:12’s single actor.
+- **R-f-بصر-زين** [open; support medium, relevance high] formula family (ب ص ر + ز ي ن; 1 ayat: 24:31)
+  - finding: 24:31 pairs controlled gazes with visible adornment, while the focus pairs beautifying deeds with the people’s مُسْتَبْصِرِينَ. This may extend the focus’s beauty-and-perception language into a bodily register.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 24:31 «يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ»; 24:31 «وَلَا يُبْدِينَ زِينَتَهُنَّ»
+  - missing: A Quranic parallel linking bodily adornment and gaze to the beautification of deeds could show whether the shared roots invite this contrast rather than simply occurring in distinct topics.
+- **R-15:80** [open; support weak, relevance high] inter-ayah target
+  - finding: If أصحاب الحجر are the Thamūd named in the focus, 15:80 supplies a specific account of their rejecting the messengers.
+  - evidence: 15:80 «وَلَقَدْ كَذَّبَ أَصْحَٰبُ ٱلْحِجْرِ ٱلْمُرْسَلِينَ»; 29:38 «وَعَادًۭا وَثَمُودَا۟»
+  - missing: These excerpts do not explicitly equate أصحاب الحجر with Thamūd; an explicit identification elsewhere would secure the connection.
+- **R-15:83** [open; support weak, relevance high] inter-ayah target
+  - finding: The next verse says the people of al-Ḥijr were seized by a blast, potentially giving the destruction behind the focus’s surviving dwellings a concrete form.
+  - evidence: 15:82 «وَكَانُوا۟ يَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا ءَامِنِينَ»; 15:83 «فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُصْبِحِينَ»; 29:38 «وَعَادًۭا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - missing: The offered excerpts do not explicitly identify the people of al-Ḥijr as the focus’s Thamūd; that identification would make the ruin account specific.
+- **R-29:41** [open; support weak, relevance high] inter-ayah target
+  - finding: The spider’s house may echo the focus’s dwellings as a contrast between structures and the protection people expect from them: one set remains as evidence after its people are gone, while the other is explicitly the weakest house.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 29:41 «وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ لَبَيْتُ ٱلْعَنكَبُوتِ»
+  - missing: There is no shared dwelling term or explicit link between the ruined settlements and the spider-house parable; a surah-level connection between these images could establish whether the contrast is intended.
+- **R-2:187** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The phrase حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ links perceptual distinction to a threshold that becomes clear to the audience. It gives a concrete comparison for 29:38, where the dwellings make evidence discernible.
+  - evidence: 2:187 «حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ»; 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»
+  - activation: Both formulations pair تبين with لكم and مِن, joining clarity for an audience to a distinguishing source or boundary.
+  - limits: The first concerns recognizing dawn’s boundary and does not refer to ruined dwellings or moral guidance.
+- **R-3:75** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 3:75 depicts people lying about God while they know; it gives an explicit instance of wrongdoing with awareness beside the focus’s claim that the diverted peoples were مُسْتَبْصِرِينَ.
+  - evidence: 3:75 «وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»
+  - activation: The focus’s closing word for their perceptive state makes the knowingly committed falsehood in 3:75 a relevant parallel.
+  - limits: 3:75 concerns a different group and a lie about God, not Satan’s beautification or diversion from the way.
+- **R-46:21** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The command to remember ʿAd as a people who were warned makes their ruins in 29:38 part of a history of warning and response.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 46:21 «وَٱذْكُرْ أَخَا عَادٍ إِذْ أَنذَرَ قَوْمَهُۥ بِٱلْأَحْقَافِ»
+  - activation: The shared name ʿĀd connects the visible dwellings to a prophet’s warning to that people.
+  - limits: 46:21 speaks of ʿĀd alone and does not mention the dwellings or Thamud.
+- **R-53:50** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The passage names ʿĀd and then Thamud as consecutive destruction cases, repeating the focus’s pair in the same order within a wider account of earlier peoples.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟»; 53:50 «وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ»; 53:51 «وَثَمُودَا۟ فَمَآ أَبْقَىٰ»
+  - activation: The exact pair recurs across adjacent verses in a retrospective account of destruction.
+  - limits: This passage does not describe the dwellings as evidence or mention Satanic beautification.
+- **R-58:19** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Satan’s domination and causing people to forget God’s remembrance gives another account of inner diversion alongside the focus’s beautification of deeds and turning from the way.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»; 58:19 «ٱسْتَحْوَذَ عَلَيْهِمُ ٱلشَّيْطَٰنُ فَأَنسَىٰهُمْ ذِكْرَ ٱللَّهِ»
+  - activation: Both passages name Satan and describe an effect on a group through a causal sequence.
+  - limits: 58:19 describes forgetting remembrance, not beautification or obstruction from a path.
+- **R-85:18** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 85:18 pairs Thamud with Pharaoh; 29:38–39 names Thamud and then Pharaoh among successive past examples. The pairing makes the focus’s list part of a wider Quranic roster of resistant peoples.
+  - evidence: 29:38 «وَثَمُودَا۟»; 29:39 «وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ»; 85:18 «فِرْعَوْنَ وَثَمُودَ»
+  - activation: Thamud closes the names in 29:38, and Pharaoh follows at the start of 29:39.
+  - limits: 85:18 names the pair but does not itself describe their dwellings or the cause of their outcomes.
+- **R-89:6** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 89:6 asks what the Lord did to ʿAd; 29:38 says the evidence is clear from their dwellings. Together they make the visible homes a prompt to recall the divine act behind their condition.
+  - evidence: 29:38 «وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَٰكِنِهِمْ»; 89:6 «أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ»
+  - activation: Both passages name ʿAd, and the focus explicitly presents their dwellings as evidence.
+  - limits: 89:6 does not specify dwellings; that evidentiary link comes from 29:38.
+- **R-9:70** [reading; support strong, relevance medium] passage naming ثَمُود
+  - finding: 9:70 lists ʿAd and Thamud among peoples reached by messengers with clear proofs, then says they wronged themselves. This places the focus’s satanic diversion beside a broader account of human responsibility and divine justice.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟»; 9:70 «قَوْمِ نُوحٍۢ وَعَادٍۢ وَثَمُودَ»; 9:70 «أَتَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ»
+  - activation: The same two peoples are named in both passages; the focus describes their diversion, and 9:70 includes them in a messenger-and-accountability frame.
+  - limits: 9:70 groups several peoples and does not isolate the particular deeds or Satanic agency in 29:38.
+- **R-22:42** [reading; support strong, relevance medium] passage naming ثَمُود
+  - finding: 22:42 places Thamud and ʿAd among earlier peoples who denied the messenger addressed in the verse. This makes the focus’s dwelling evidence part of a warning about a repeated pattern of rejection.
+  - evidence: 29:38 «وَعَادًا وَثَمُودَا۟»; 22:42 «وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍۢ وَعَادٌۭ وَثَمُودُ»
+  - activation: The same paired peoples appear in a direct warning about denial.
+  - limits: 22:42 does not supply the focus’s details about their deeds, insight, or dwellings.
+- **R-f-شطن-عمل** [reading; support strong, relevance medium] formula family (ش ط ن + ع م ل; 3 ayat: 5:90, 21:82, 28:15)
+  - finding: 5:90 calls certain acts work of Satan, and 28:15 has Moses identify an act that way; 21:82 also says devils perform work for Solomon. The focus differs by making Satan the agent who beautifies people’s own works, so the shared words do not make every ʿamal in the family the same kind of act.
+  - evidence: 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»; 5:90 «رِجْسٌۭ مِّنْ عَمَلِ ٱلشَّيْطَٰنِ»; 28:15 «قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ»; 21:82 «وَيَعْمَلُونَ عَمَلًا دُونَ ذَٰلِكَ»
+  - activation: The focus combines the Satan and work roots in a distinctive agent-object construction.
+  - limits: The cited verses distinguish acts sourced from Satan from work performed by devils; they do not specify that the focus’s deeds are identical to either.
+- **R-2:61** [open; support medium, relevance medium] inter-ayah target
+  - finding: 2:61 uses ٱلْمَسْكَنَةُ for an imposed condition, while 29:38 uses مَّسَٰكِنِهِمْ for dwelling places; their shared root could connect abasement with the remains of habitation.
+  - evidence: 2:61 «وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ»; 29:38 «مِّن مَّسَٰكِنِهِمْ»
+  - missing: The shared root is visible, but these passages do not establish a semantic bridge between the condition in 2:61 and the dwellings in 29:38. A dictionary account of the root’s attested senses or a surah-level parallel could establish whether that bridge matters.
+- **R-4:55** [open; support medium, relevance medium] inter-ayah target
+  - finding: 4:55 shares the ص د د root and عن construction with the focus, but its phrasing presents someone turning away from “him/it” rather than someone being turned away from the way. This could offer a parallel response to guidance, depending on the pronoun’s referent.
+  - evidence: 4:54 «فَقَدْ ءَاتَيْنَآ ءَالَ إِبْرَٰهِيمَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ»; 4:55 «فَمِنْهُم مَّنْ ءَامَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ»; 29:38 «فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ»
+  - missing: The referent of بِهِۦ and عَنْهُ is not settled by 4:55 alone. The preceding passage’s referent or an account of its syntax could establish whether the verse describes turning away from a revelation or favor, making the comparison to the focus’s path obstruction more specific.
+- **R-15:17** [open; support medium, relevance medium] inter-ayah target
+  - finding: The mention of Satan immediately after the sky is adorned for observers could frame the focus’s Satan as operating within a divine order that also guards the sky.
+  - evidence: 15:16 «وَزَيَّنَّٰهَا لِلنَّٰظِرِينَ»; 15:17 «وَحَفِظْنَٰهَا مِن كُلِّ شَيْطَٰنٍۢ رَّجِيمٍ»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ»
+  - missing: The passage does not connect protection of the sky to Satan’s influence on human perception; another text linking these two activities could establish the relation.
+- **R-f-بصر-سكن** [open; support medium, relevance medium] formula family (ب ص ر + س ك ن; 4 ayat: 10:67, 27:86, 28:72, 40:61)
+  - finding: 10:67 pairs night with rest and day with مُبْصِرًا. Alongside the focus’s مَسَٰكِنِهِمْ and مُسْتَبْصِرِينَ, this could set visible surroundings against human perception.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 29:38 «وَكَانُوا۟ مُسْتَبْصِرِينَ»; 10:67 «لِتَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا»
+  - missing: A further Quranic parallel or lexical evidence connecting external visibility and dwellings to the focus’s human insight could establish whether this shared b-ṣ-r/s-k-n pairing shapes the reading.
+- **R-f-سبل-سكن-عمل** [open; support weak, relevance medium] formula family (س ب ل + س ك ن + ع م ل; 1 ayat: 9:60)
+  - finding: 9:60 places the needy, those working over charity, and those in God’s way together. The possible link to the focus is a shift from ruined settlements and their deeds to people’s needs and activity on a way.
+  - evidence: 29:38 «مِّن مَّسَٰكِنِهِمْ»; 29:38 «أَعْمَٰلَهُمْ»; 9:60 «وَٱلْمَسَٰكِينِ وَٱلْعَٰمِلِينَ عَلَيْهَا»; 9:60 «وَفِى سَبِيلِ ٱللَّهِ»
+  - missing: A lexical or Quranic bridge between مَسَٰكِن (dwellings) and ٱلْمَسَٰكِين (needy people), or contextual evidence connecting 9:60’s charity categories with the focus’s ruins, could make this more than shared roots and nearby themes.
+- **R-f-عمل-عود** [open; support weak, relevance medium] formula family (ع م ل + ع و د; 2 ayat: 10:4, 58:3)
+  - finding: The focus’s وَعَادًا visually recalls return forms in passages that also mention deeds, including 58:3. If the ethnonym ʿAd activates an attested return sense, the name could add a return motif to the people’s deviation.
+  - evidence: 29:38 «وَعَادًا»; 58:3 «ثُمَّ يَعُودُونَ لِمَا قَالُوا۟»; 10:4 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: A dictionary attestation or Quranic usage showing that the people-name عَاد carries the verb’s return sense is needed to establish an intentional root echo.
+- **R-f-سكن-عود** [open; support weak, relevance medium] formula family (س ك ن + ع و د; 1 ayat: 5:95)
+  - finding: 5:95 uses مَسَاكِينَ for people receiving food and عَادَ for someone who repeats a prohibited act. The focus has مَسَٰكِنِهِمْ for dwellings and وَعَادًا for the people-name, allowing a possible pairing of root echoes but not yet a settled reading.
+  - evidence: 29:38 «وَعَادًا»; 29:38 «مِّن مَّسَٰكِنِهِمْ»; 5:95 «طَعَامُ مَسَٰكِينَ»; 5:95 «وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ»
+  - missing: Lexical evidence establishing an intentional link between the ethnonym عَاد and the verb عاد, and between the different forms مَسْكَن and مِسْكِين, could determine whether the pair matters beyond shared roots.
+- **R-f-شطن-عود** [open; support weak, relevance medium] formula family (ش ط ن + ع و د; 1 ayat: 2:275)
+  - finding: 2:275 places Satan’s touch beside a warning about whoever عَادَ, or returns, after admonition. Since the focus names ʿAd beside Satan, an echo is possible if the ethnonym activates the return sense.
+  - evidence: 29:38 «وَعَادًا»; 29:38 «وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ»; 2:275 «يَتَخَبَّطُهُ ٱلشَّيْطَٰنُ مِنَ ٱلْمَسِّ»; 2:275 «وَمَنْ عَادَ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ»
+  - missing: A dictionary attestation or Quranic use showing that the name عَاد carries the return meaning is needed before connecting the people’s name to the verb in 2:275.
+
+Notes:
+- R-6:119 [support strong, relevance medium] Here many people mislead others through their desires without knowledge, a distinct route to misguidance alongside the focus’s Satanic beautification. The focus calls its diverted people مُسْتَبْصِرِينَ, sharpening the contrast with بغير علم.
+- R-7:69 [support strong, relevance medium] The address to ʿĀd recalls that they succeeded Noah’s people and were given added stature. Their later place among the ruined peoples therefore follows a remembered position of succession and blessing.
+- R-8:52 [support strong, relevance medium] A broader precedent is given for the focus’s ruined peoples: Pharaoh’s people and those before them disbelieved in God’s signs and were seized for their sins. The passage reinforces the historical pattern without identifying the earlier peoples as ʿĀd or Thamūd.
+- R-9:113 [support strong, relevance medium] The same تَبَيَّنَ لَهُمْ construction marks a point at which the people’s status as companions of the Fire becomes clear, after which seeking forgiveness for them is ruled out. It lets the focus’s clarity from dwellings carry a possible judgmental force beyond visibility.
+- R-18:50 [support strong, relevance medium] 18:50 explicitly calls Iblis and his progeny enemies of human beings and warns against taking them as allies. This sharpens the adversarial force of the focus’s named shaytan.
+- R-25:38 [support strong, relevance medium] Al-Furqan repeats the exact pair Âd and Thamud within a wider catalogue of judged peoples; it situates the focus’s names in that catalogue without explaining their dwellings or diversion.
+- R-41:36 [support strong, relevance medium] The focus describes Satanic influence as a cause in past history; 41:36 gives the prophet a response to Satan’s incitement, adding a practical countermeasure without repeating the focus’s mechanism.
+- R-47:34 [support strong, relevance medium] The repeated formula كَفَرُوا وَصَدُّوا عَن سَبِيلِ ٱللَّهِ adds the outcome of dying in disbelief and not being forgiven to the focus’s account of obstruction.
+- R-50:13 [support strong, relevance medium] The next verse names ʿĀd after 50:12 has named Thamud, placing both focus peoples within the same wider list of past deniers.
+- R-54:18 [support strong, relevance medium] The focus names ʿĀd among visible precedents; this passage states directly that ʿĀd denied the warnings and asks the audience to consider the resulting punishment.
+- R-54:23 [support strong, relevance medium] Thamud are explicitly said to have denied the warnings, supplying a response to warning that the focus’s brief naming does not state.
+- R-12:18 [support medium, relevance medium] Jacob attributes the brothers’ affair to their own selves having made it seem appealing. This offers an inner-rationalization parallel to the focus’s beautified deeds, while keeping the agent distinction visible.
+- R-26:95 [support medium, relevance medium] The phrase “all the armies of Iblis” places satanic affiliation among those cast into Hell, extending the focus’s picture of Satan’s activity toward an end-state among the condemned.
+- R-26:142 [support medium, relevance medium] Salih’s appeal to Thamud asks whether they will not be mindful of God, giving the focus’s “way” a concrete prophetic summons in this account.
+- R-26:150 [support medium, relevance medium] The account places a demand to fear God and obey Salih immediately after its description of Thamud’s mountain houses, setting skilled habitation beside a prophetic obligation.
+- R-29:28 [support medium, relevance medium] The preceding Lot account identifies its people by an act described as unprecedented, while the focus gives no specific deed for Âd or Thamud; the sequence cautions against treating every destroyed community as guilty of the same offence.
+- R-29:31 [support medium, relevance medium] The focus follows a recent announcement that Lot’s town will be destroyed for wrongdoing, and the account soon says a clear sign was left there; it joins the focus’s list to a locally narrated case of judgment and surviving evidence.
+- R-29:34 [support medium, relevance medium] The Lot episode attributes the town’s coming punishment to its people’s defiance; the focus then moves from this cause-and-judgment account to further named peoples and their visible dwelling evidence.
+- R-29:36 [support medium, relevance medium] Shuʿayb calls Midian to worship God and expect the Last Day; after their rejection and punishment, the focus moves to Âd and Thamud. The transition follows a narrated refusal with a more compressed historical reminder.
+- R-36:24 [support medium, relevance medium] The speaker in 36:24 calls his rejected course manifest misguidance, a countervoice to the focus’s people who were mustabsirīn yet turned from the way.
+- R-44:13 [support medium, relevance medium] The question of how people can receive admonition after a clarifying messenger came echoes the focus’s tension between available evidence and failure to follow it; the next verse reports that the people turned away.
+- R-46:27 [support medium, relevance medium] The focus’s visible dwellings sit within a wider picture of destroyed settlements around the audience, whose signs were repeatedly shown in hope that people would return.
+- R-47:8 [support medium, relevance medium] The focus links deeds to obstruction; 47:8–9 gives a related outcome in which the deeds of disbelievers are brought to nothing after their rejection.
+- R-47:10 [support medium, relevance medium] The call to travel and see the fate of earlier peoples complements the focus’s presentation of dwellings as evidence for an addressed audience.
+- R-47:23 [support medium, relevance medium] The focus presents ʿĀd and Thamud as مُسْتَبْصِرِينَ, while 47:23 depicts people whose sight is blinded; the contrast raises the difference between misused discernment and lost capacity.
+- R-50:36 [support medium, relevance medium] The destruction of powerful earlier generations is presented as a reminder for a receptive heart or attentive listener, complementing the focus’s evidence from surviving dwellings.
+- R-51:20 [support medium, relevance medium] The focus’s visible dwellings exemplify the broader statement that signs are present on earth for those who are certain.
+- R-51:21 [support medium, relevance medium] The question أَفَلَا تُبْصِرُونَ makes perception an expected response to signs within oneself, beside the focus’s paradox that a people could be مُسْتَبْصِرِينَ yet diverted.
+- R-60:1 [support medium, relevance medium] This verse presents a different route to straying: misplaced affection for enemies ends in deviation from the right way, alongside the focus’s account of people turned from the way.
+- R-68:7 [support medium, relevance medium] The distinction between one who strays from God’s way and the guided offers a concise parallel to the focus’s claim that people were turned from the way despite their discernment.
+- R-69:7 [support medium, relevance medium] The aftermath of ʿĀd is made visible through fallen bodies like hollow palm trunks, a bodily counterpart to the focus’s surviving dwellings as traces of destruction.
+- R-11:50 [support medium, relevance medium] 11:50 records Hud’s direct call to ʿAd to worship God. It supplies the course they were urged to follow before the focus says Satan turned them from ٱلسَّبِيلِ.
+- R-7:65 [support strong, relevance low] This passage identifies ʿĀd as the people addressed by the prophet Hūd, supplying the prophetic setting behind one of the focus’s named peoples.
+- R-10:75 [support strong, relevance low] The focus is followed by 29:39’s mention of Pharaoh; 10:75 supplies part of that adjacent catalogue’s story, where Moses and Aaron bring signs and Pharaoh’s circle responds with arrogance. This extends the historical sequence around the focus but does not explain its named pair.
+- R-12:1 [support strong, relevance low] The same b-y-n root appears in تَبَيَّنَ in the focus and ٱلْمُبِينِ for the Book here, letting textual clarity and clarity from dwellings sit in the same lexical field.
+- R-17:17 [support strong, relevance low] 17:17 places the destruction of generations after Noah within a broad recurring warning about past peoples, but it gives no names or material traces that sharpen the focus’s account.
+- R-19:44 [support strong, relevance low] 19:44 characterizes Satan as disobedient to the Merciful, giving a moral frame for the hostile beautifying action attributed to him in the focus.
+- R-26:30 [support strong, relevance low] Moses speaks of bringing Pharaoh a manifest proof, paralleling the focus’s description of evidence as already clear from the dwellings.
+- R-50:12 [support strong, relevance low] Thamud appears among earlier peoples who denied, placing one of the focus’s named groups within a broader catalogue of rejection.
+- R-51:41 [support strong, relevance low] The passage gives a further account of ʿĀd’s destruction by a barren wind, with the next verse depicting what the wind did to whatever it struck.
+- R-54:31 [support strong, relevance low] The Thamud episode describes a single cry leaving the people like dry brush, a compact account of punishment for one of the focus’s named peoples.
+- R-58:10 [support strong, relevance low] The same named agent, Satan, is also linked to a different tactic: secret conversation that grieves believers.
+- R-69:5 [support strong, relevance low] The next verses specify different fates for the pair: Thamud are destroyed by الطاغية, giving a compact account of the punishment behind the focus’s historical reference.
+- R-69:6 [support strong, relevance low] The account identifies a different punishment for ʿĀd: destruction by a violent wind.
+- R-18:59 [support medium, relevance low] 18:59 gives a general account of towns destroyed when they acted unjustly; this fits the focus’s setting among ruined peoples but adds no account of their visible remains.
+- R-35:26 [support medium, relevance low] The brief statement that God seized disbelievers adds a general punishment refrain to the focus’s evidence of past peoples’ fate.
+- R-36:29 [support medium, relevance low] The single cry followed by a community left extinguished offers a compact destruction image beside the focus’s surviving evidence of past peoples.
+- R-37:82 [support medium, relevance low] Noah’s drowning of the others adds another instance of a destroyed generation behind the focus’s paired names, but it supplies no particular account of their dwellings or diversion.
+- R-37:175 [support medium, relevance low] The command to witness now and the promise that others will see later offers a small echo of the focus’s sight language, but it concerns future recognition rather than the former peoples’ discernment.
+- R-43:2 [support medium, relevance low] The adjective المبين shares the focus’s ب ي ن root of becoming clear, offering a small lexical echo between a manifest Book and evidence that has become clear from dwellings.
+- R-43:30 [support medium, relevance low] The rejection of truth when it arrives echoes the focus’s people failing to follow what was available to them, though 43:30 names a different response: calling the truth sorcery.
+- R-53:17 [support medium, relevance low] The statement that sight neither swerved nor overstepped offers a limited contrast with the focus’s discernment language and the people’s being turned from the way.
+- R-54:20 [support medium, relevance low] The passage depicts ʿĀd’s punishment as people pulled out like uprooted palm trunks, adding a bodily image to the destruction associated with the focus’s named people.
+- R-54:51 [support medium, relevance low] The reminder to heed the destruction of earlier counterparts extends the focus’s historical warning into a broader appeal to remember past communities.
+- R-68:5 [support medium, relevance low] The promise that the Prophet and his opponents will see, followed by a question about who is afflicted, makes contested perception a recurring issue beside the focus’s claim of insight.
+- R-74:49 [support medium, relevance low] The people turning away from the reminder offers a response parallel to being turned from the way in the focus.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:61 وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍۢ وَٰحِدٍۢ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًۭا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ
+- 2:68 قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌۭ لَّا فَارِضٌۭ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ
+- 2:75 ۞ أَفَتَطْمَعُونَ أَن يُؤْمِنُوا۟ لَكُمْ وَقَدْ كَانَ فَرِيقٌۭ مِّنْهُمْ يَسْمَعُونَ كَلَٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ
+- 2:110 وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 2:187 أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌۭ لَّكُمْ وَأَنتُمْ لِبَاسٌۭ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ
+- 2:208 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱدْخُلُوا۟ فِى ٱلسِّلْمِ كَآفَّةًۭ وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ
+- 2:211 سَلْ بَنِىٓ إِسْرَٰٓءِيلَ كَمْ ءَاتَيْنَٰهُم مِّنْ ءَايَةٍۭ بَيِّنَةٍۢ ۗ وَمَن يُبَدِّلْ نِعْمَةَ ٱللَّهِ مِنۢ بَعْدِ مَا جَآءَتْهُ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
+- 2:212 زُيِّنَ لِلَّذِينَ كَفَرُوا۟ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَيَسْخَرُونَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ ۘ وَٱلَّذِينَ ٱتَّقَوْا۟ فَوْقَهُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَٱللَّهُ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍۢ
+- 2:213 كَانَ ٱلنَّاسُ أُمَّةًۭ وَٰحِدَةًۭ فَبَعَثَ ٱللَّهُ ٱلنَّبِيِّۦنَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ ٱلْكِتَٰبَ بِٱلْحَقِّ لِيَحْكُمَ بَيْنَ ٱلنَّاسِ فِيمَا ٱخْتَلَفُوا۟ فِيهِ ۚ وَمَا ٱخْتَلَفَ فِيهِ إِلَّا ٱلَّذِينَ أُوتُوهُ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ بَغْيًۢا بَيْنَهُمْ ۖ فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ ۗ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍ
+- 2:217 يَسْـَٔلُونَكَ عَنِ ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍۢ فِيهِ ۖ قُلْ قِتَالٌۭ فِيهِ كَبِيرٌۭ ۖ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفْرٌۢ بِهِۦ وَٱلْمَسْجِدِ ٱلْحَرَامِ وَإِخْرَاجُ أَهْلِهِۦ مِنْهُ أَكْبَرُ عِندَ ٱللَّهِ ۚ وَٱلْفِتْنَةُ أَكْبَرُ مِنَ ٱلْقَتْلِ ۗ وَلَا يَزَالُونَ يُقَٰتِلُونَكُمْ حَتَّىٰ يَرُدُّوكُمْ عَن دِينِكُمْ إِنِ ٱسْتَطَٰعُوا۟ ۚ وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِۦ فَيَمُتْ وَهُوَ كَافِرٌۭ فَأُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ وَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 2:256 لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ
+- 2:259 أَوْ كَٱلَّذِى مَرَّ عَلَىٰ قَرْيَةٍۢ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحْىِۦ هَٰذِهِ ٱللَّهُ بَعْدَ مَوْتِهَا ۖ فَأَمَاتَهُ ٱللَّهُ مِا۟ئَةَ عَامٍۢ ثُمَّ بَعَثَهُۥ ۖ قَالَ كَمْ لَبِثْتَ ۖ قَالَ لَبِثْتُ يَوْمًا أَوْ بَعْضَ يَوْمٍۢ ۖ قَالَ بَل لَّبِثْتَ مِا۟ئَةَ عَامٍۢ فَٱنظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ ۖ وَٱنظُرْ إِلَىٰ حِمَارِكَ وَلِنَجْعَلَكَ ءَايَةًۭ لِّلنَّاسِ ۖ وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًۭا ۚ فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعْلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 2:275 ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌۭ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 3:14 زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ
+- 3:75 ۞ وَمِنْ أَهْلِ ٱلْكِتَٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍۢ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍۢ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًۭا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّۦنَ سَبِيلٌۭ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ
+- 3:99 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًۭا وَأَنتُمْ شُهَدَآءُ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ
+- 3:137 قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٌۭ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ
+- 3:195 فَٱسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّى لَآ أُضِيعُ عَمَلَ عَٰمِلٍۢ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّنۢ بَعْضٍۢ ۖ فَٱلَّذِينَ هَاجَرُوا۟ وَأُخْرِجُوا۟ مِن دِيَٰرِهِمْ وَأُوذُوا۟ فِى سَبِيلِى وَقَٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ثَوَابًۭا مِّنْ عِندِ ٱللَّهِ ۗ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلثَّوَابِ
+- 4:44 أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًۭا مِّنَ ٱلْكِتَٰبِ يَشْتَرُونَ ٱلضَّلَٰلَةَ وَيُرِيدُونَ أَن تَضِلُّوا۟ ٱلسَّبِيلَ
+- 4:54 أَمْ يَحْسُدُونَ ٱلنَّاسَ عَلَىٰ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۖ فَقَدْ ءَاتَيْنَآ ءَالَ إِبْرَٰهِيمَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَءَاتَيْنَٰهُم مُّلْكًا عَظِيمًۭا
+- 4:55 فَمِنْهُم مَّنْ ءَامَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا
+- 4:76 ٱلَّذِينَ ءَامَنُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱلطَّٰغُوتِ فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ ۖ إِنَّ كَيْدَ ٱلشَّيْطَٰنِ كَانَ ضَعِيفًا
+- 4:115 وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا
+- 4:117 إِن يَدْعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَٰثًۭا وَإِن يَدْعُونَ إِلَّا شَيْطَٰنًۭا مَّرِيدًۭا
+- 4:118 لَّعَنَهُ ٱللَّهُ ۘ وَقَالَ لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًۭا مَّفْرُوضًۭا
+- 4:119 وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّۭا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًۭا مُّبِينًۭا
+- 4:120 يَعِدُهُمْ وَيُمَنِّيهِمْ ۖ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا
+- 4:160 فَبِظُلْمٍۢ مِّنَ ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا عَلَيْهِمْ طَيِّبَٰتٍ أُحِلَّتْ لَهُمْ وَبِصَدِّهِمْ عَن سَبِيلِ ٱللَّهِ كَثِيرًۭا
+- 4:161 وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًۭا
+- 4:167 إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ قَدْ ضَلُّوا۟ ضَلَٰلًۢا بَعِيدًا
+- 5:30 فَطَوَّعَتْ لَهُۥ نَفْسُهُۥ قَتْلَ أَخِيهِ فَقَتَلَهُۥ فَأَصْبَحَ مِنَ ٱلْخَٰسِرِينَ
+- 5:71 وَحَسِبُوٓا۟ أَلَّا تَكُونَ فِتْنَةٌۭ فَعَمُوا۟ وَصَمُّوا۟ ثُمَّ تَابَ ٱللَّهُ عَلَيْهِمْ ثُمَّ عَمُوا۟ وَصَمُّوا۟ كَثِيرٌۭ مِّنْهُمْ ۚ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ
+- 5:77 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ غَيْرَ ٱلْحَقِّ وَلَا تَتَّبِعُوٓا۟ أَهْوَآءَ قَوْمٍۢ قَدْ ضَلُّوا۟ مِن قَبْلُ وَأَضَلُّوا۟ كَثِيرًۭا وَضَلُّوا۟ عَن سَوَآءِ ٱلسَّبِيلِ
+- 5:90 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْخَمْرُ وَٱلْمَيْسِرُ وَٱلْأَنصَابُ وَٱلْأَزْلَٰمُ رِجْسٌۭ مِّنْ عَمَلِ ٱلشَّيْطَٰنِ فَٱجْتَنِبُوهُ لَعَلَّكُمْ تُفْلِحُونَ
+- 5:91 إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ ۖ فَهَلْ أَنتُم مُّنتَهُونَ
+- 5:95 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌۭ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًۭا فَجَزَآءٌۭ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍۢ مِّنكُمْ هَدْيًۢا بَٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّٰرَةٌۭ طَعَامُ مَسَٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًۭا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌۭ ذُو ٱنتِقَامٍ
+- 6:11 قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ ثُمَّ ٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ
+- 6:43 فَلَوْلَآ إِذْ جَآءَهُم بَأْسُنَا تَضَرَّعُوا۟ وَلَٰكِن قَسَتْ قُلُوبُهُمْ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ مَا كَانُوا۟ يَعْمَلُونَ
+- 6:103 لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَٰرَ ۖ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ
+- 6:104 قَدْ جَآءَكُم بَصَآئِرُ مِن رَّبِّكُمْ ۖ فَمَنْ أَبْصَرَ فَلِنَفْسِهِۦ ۖ وَمَنْ عَمِىَ فَعَلَيْهَا ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍۢ
+- 6:108 وَلَا تَسُبُّوا۟ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ فَيَسُبُّوا۟ ٱللَّهَ عَدْوًۢا بِغَيْرِ عِلْمٍۢ ۗ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِم مَّرْجِعُهُمْ فَيُنَبِّئُهُم بِمَا كَانُوا۟ يَعْمَلُونَ
+- 6:112 وَكَذَٰلِكَ جَعَلْنَا لِكُلِّ نَبِىٍّ عَدُوًّۭا شَيَٰطِينَ ٱلْإِنسِ وَٱلْجِنِّ يُوحِى بَعْضُهُمْ إِلَىٰ بَعْضٍۢ زُخْرُفَ ٱلْقَوْلِ غُرُورًۭا ۚ وَلَوْ شَآءَ رَبُّكَ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ
+- 6:113 وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا۟ مَا هُم مُّقْتَرِفُونَ
+- 6:119 وَمَا لَكُمْ أَلَّا تَأْكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ وَقَدْ فَصَّلَ لَكُم مَّا حَرَّمَ عَلَيْكُمْ إِلَّا مَا ٱضْطُرِرْتُمْ إِلَيْهِ ۗ وَإِنَّ كَثِيرًۭا لَّيُضِلُّونَ بِأَهْوَآئِهِم بِغَيْرِ عِلْمٍ ۗ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِٱلْمُعْتَدِينَ
+- 6:121 وَلَا تَأْكُلُوا۟ مِمَّا لَمْ يُذْكَرِ ٱسْمُ ٱللَّهِ عَلَيْهِ وَإِنَّهُۥ لَفِسْقٌۭ ۗ وَإِنَّ ٱلشَّيَٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوْلِيَآئِهِمْ لِيُجَٰدِلُوكُمْ ۖ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ
+- 6:122 أَوَمَن كَانَ مَيْتًۭا فَأَحْيَيْنَٰهُ وَجَعَلْنَا لَهُۥ نُورًۭا يَمْشِى بِهِۦ فِى ٱلنَّاسِ كَمَن مَّثَلُهُۥ فِى ٱلظُّلُمَٰتِ لَيْسَ بِخَارِجٍۢ مِّنْهَا ۚ كَذَٰلِكَ زُيِّنَ لِلْكَٰفِرِينَ مَا كَانُوا۟ يَعْمَلُونَ
+- 7:16 قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ
+- 7:30 فَرِيقًا هَدَىٰ وَفَرِيقًا حَقَّ عَلَيْهِمُ ٱلضَّلَٰلَةُ ۗ إِنَّهُمُ ٱتَّخَذُوا۟ ٱلشَّيَٰطِينَ أَوْلِيَآءَ مِن دُونِ ٱللَّهِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ
+- 7:65 ۞ وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًۭا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۚ أَفَلَا تَتَّقُونَ
+- 7:69 أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌۭ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍۢ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍۢ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةًۭ ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ
+- 7:73 وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًۭا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌۭ مِّن رَّبِّكُمْ ۖ هَٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةًۭ ۖ فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ ۖ وَلَا تَمَسُّوهَا بِسُوٓءٍۢ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌۭ
+- 7:74 وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍۢ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًۭا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًۭا ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ
+- 7:78 فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ
+- 7:86 وَلَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍۢ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًۭا ۚ وَٱذْكُرُوٓا۟ إِذْ كُنتُمْ قَلِيلًۭا فَكَثَّرَكُمْ ۖ وَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُفْسِدِينَ
+- 7:146 سَأَصْرِفُ عَنْ ءَايَٰتِىَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ ءَايَةٍۢ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًۭا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًۭا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ
+- 7:175 وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱلَّذِىٓ ءَاتَيْنَٰهُ ءَايَٰتِنَا فَٱنسَلَخَ مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَٰنُ فَكَانَ مِنَ ٱلْغَاوِينَ
+- 7:176 وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ
+- 7:200 وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌۭ فَٱسْتَعِذْ بِٱللَّهِ ۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ
+- 7:201 إِنَّ ٱلَّذِينَ ٱتَّقَوْا۟ إِذَا مَسَّهُمْ طَٰٓئِفٌۭ مِّنَ ٱلشَّيْطَٰنِ تَذَكَّرُوا۟ فَإِذَا هُم مُّبْصِرُونَ
+- 7:202 وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ
+- 8:36 إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ فَسَيُنفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةًۭ ثُمَّ يُغْلَبُونَ ۗ وَٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ يُحْشَرُونَ
+- 8:47 وَلَا تَكُونُوا۟ كَٱلَّذِينَ خَرَجُوا۟ مِن دِيَٰرِهِم بَطَرًۭا وَرِئَآءَ ٱلنَّاسِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۚ وَٱللَّهُ بِمَا يَعْمَلُونَ مُحِيطٌۭ
+- 8:48 وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى جَارٌۭ لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيْهِ وَقَالَ إِنِّى بَرِىٓءٌۭ مِّنكُمْ إِنِّىٓ أَرَىٰ مَا لَا تَرَوْنَ إِنِّىٓ أَخَافُ ٱللَّهَ ۚ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ
+- 8:52 كَدَأْبِ ءَالِ فِرْعَوْنَ ۙ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ ۗ إِنَّ ٱللَّهَ قَوِىٌّۭ شَدِيدُ ٱلْعِقَابِ
+- 8:72 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ ۚ وَٱلَّذِينَ ءَامَنُوا۟ وَلَمْ يُهَاجِرُوا۟ مَا لَكُم مِّن وَلَٰيَتِهِم مِّن شَىْءٍ حَتَّىٰ يُهَاجِرُوا۟ ۚ وَإِنِ ٱسْتَنصَرُوكُمْ فِى ٱلدِّينِ فَعَلَيْكُمُ ٱلنَّصْرُ إِلَّا عَلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌۭ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 9:9 ٱشْتَرَوْا۟ بِـَٔايَٰتِ ٱللَّهِ ثَمَنًۭا قَلِيلًۭا فَصَدُّوا۟ عَن سَبِيلِهِۦٓ ۚ إِنَّهُمْ سَآءَ مَا كَانُوا۟ يَعْمَلُونَ
+- 9:34 ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ كَثِيرًۭا مِّنَ ٱلْأَحْبَارِ وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍۢ
+- 9:37 إِنَّمَا ٱلنَّسِىٓءُ زِيَادَةٌۭ فِى ٱلْكُفْرِ ۖ يُضَلُّ بِهِ ٱلَّذِينَ كَفَرُوا۟ يُحِلُّونَهُۥ عَامًۭا وَيُحَرِّمُونَهُۥ عَامًۭا لِّيُوَاطِـُٔوا۟ عِدَّةَ مَا حَرَّمَ ٱللَّهُ فَيُحِلُّوا۟ مَا حَرَّمَ ٱللَّهُ ۚ زُيِّنَ لَهُمْ سُوٓءُ أَعْمَٰلِهِمْ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ
+- 9:60 ۞ إِنَّمَا ٱلصَّدَقَٰتُ لِلْفُقَرَآءِ وَٱلْمَسَٰكِينِ وَٱلْعَٰمِلِينَ عَلَيْهَا وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةًۭ مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ
+- 9:70 أَلَمْ يَأْتِهِمْ نَبَأُ ٱلَّذِينَ مِن قَبْلِهِمْ قَوْمِ نُوحٍۢ وَعَادٍۢ وَثَمُودَ وَقَوْمِ إِبْرَٰهِيمَ وَأَصْحَٰبِ مَدْيَنَ وَٱلْمُؤْتَفِكَٰتِ ۚ أَتَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ
+- 9:113 مَا كَانَ لِلنَّبِىِّ وَٱلَّذِينَ ءَامَنُوٓا۟ أَن يَسْتَغْفِرُوا۟ لِلْمُشْرِكِينَ وَلَوْ كَانُوٓا۟ أُو۟لِى قُرْبَىٰ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمْ أَنَّهُمْ أَصْحَٰبُ ٱلْجَحِيمِ
+- 9:114 وَمَا كَانَ ٱسْتِغْفَارُ إِبْرَٰهِيمَ لِأَبِيهِ إِلَّا عَن مَّوْعِدَةٍۢ وَعَدَهَآ إِيَّاهُ فَلَمَّا تَبَيَّنَ لَهُۥٓ أَنَّهُۥ عَدُوٌّۭ لِّلَّهِ تَبَرَّأَ مِنْهُ ۚ إِنَّ إِبْرَٰهِيمَ لَأَوَّٰهٌ حَلِيمٌۭ
+- 9:115 وَمَا كَانَ ٱللَّهُ لِيُضِلَّ قَوْمًۢا بَعْدَ إِذْ هَدَىٰهُمْ حَتَّىٰ يُبَيِّنَ لَهُم مَّا يَتَّقُونَ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ
+- 10:4 إِلَيْهِ مَرْجِعُكُمْ جَمِيعًۭا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ إِنَّهُۥ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ بِٱلْقِسْطِ ۚ وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ شَرَابٌۭ مِّنْ حَمِيمٍۢ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ
+- 10:67 هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِتَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَسْمَعُونَ
+- 10:75 ثُمَّ بَعَثْنَا مِنۢ بَعْدِهِم مُّوسَىٰ وَهَٰرُونَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ بِـَٔايَٰتِنَا فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًۭا مُّجْرِمِينَ
+- 10:88 وَقَالَ مُوسَىٰ رَبَّنَآ إِنَّكَ ءَاتَيْتَ فِرْعَوْنَ وَمَلَأَهُۥ زِينَةًۭ وَأَمْوَٰلًۭا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا رَبَّنَا لِيُضِلُّوا۟ عَن سَبِيلِكَ ۖ رَبَّنَا ٱطْمِسْ عَلَىٰٓ أَمْوَٰلِهِمْ وَٱشْدُدْ عَلَىٰ قُلُوبِهِمْ فَلَا يُؤْمِنُوا۟ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ
+- 11:15 مَن كَانَ يُرِيدُ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا نُوَفِّ إِلَيْهِمْ أَعْمَٰلَهُمْ فِيهَا وَهُمْ فِيهَا لَا يُبْخَسُونَ
+- 11:50 وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ إِنْ أَنتُمْ إِلَّا مُفْتَرُونَ
+- 11:53 قَالُوا۟ يَٰهُودُ مَا جِئْتَنَا بِبَيِّنَةٍۢ وَمَا نَحْنُ بِتَارِكِىٓ ءَالِهَتِنَا عَن قَوْلِكَ وَمَا نَحْنُ لَكَ بِمُؤْمِنِينَ
+- 11:56 إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 11:59 وَتِلْكَ عَادٌۭ ۖ جَحَدُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَعَصَوْا۟ رُسُلَهُۥ وَٱتَّبَعُوٓا۟ أَمْرَ كُلِّ جَبَّارٍ عَنِيدٍۢ
+- 11:60 وَأُتْبِعُوا۟ فِى هَٰذِهِ ٱلدُّنْيَا لَعْنَةًۭ وَيَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَآ إِنَّ عَادًۭا كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًۭا لِّعَادٍۢ قَوْمِ هُودٍۢ
+- 11:61 ۞ وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌۭ مُّجِيبٌۭ
+- 11:67 وَأَخَذَ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ
+- 11:68 كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَآ إِنَّ ثَمُودَا۟ كَفَرُوا۟ رَبَّهُمْ ۗ أَلَا بُعْدًۭا لِّثَمُودَ
+- 11:89 وَيَٰقَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِىٓ أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَٰلِحٍۢ ۚ وَمَا قَوْمُ لُوطٍۢ مِّنكُم بِبَعِيدٍۢ
+- 11:95 كَأَن لَّمْ يَغْنَوْا۟ فِيهَآ ۗ أَلَا بُعْدًۭا لِّمَدْيَنَ كَمَا بَعِدَتْ ثَمُودُ
+- 12:1 الٓر ۚ تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ٱلْمُبِينِ
+- 12:18 وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 12:108 قُلْ هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى ۖ وَسُبْحَٰنَ ٱللَّهِ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ
+- 12:109 وَمَآ أَرْسَلْنَا مِن قَبْلِكَ إِلَّا رِجَالًۭا نُّوحِىٓ إِلَيْهِم مِّنْ أَهْلِ ٱلْقُرَىٰٓ ۗ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۗ وَلَدَارُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ٱتَّقَوْا۟ ۗ أَفَلَا تَعْقِلُونَ
+- 13:33 أَفَمَنْ هُوَ قَآئِمٌ عَلَىٰ كُلِّ نَفْسٍۭ بِمَا كَسَبَتْ ۗ وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ قُلْ سَمُّوهُمْ ۚ أَمْ تُنَبِّـُٔونَهُۥ بِمَا لَا يَعْلَمُ فِى ٱلْأَرْضِ أَم بِظَٰهِرٍۢ مِّنَ ٱلْقَوْلِ ۗ بَلْ زُيِّنَ لِلَّذِينَ كَفَرُوا۟ مَكْرُهُمْ وَصُدُّوا۟ عَنِ ٱلسَّبِيلِ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ
+- 14:9 أَلَمْ يَأْتِكُمْ نَبَؤُا۟ ٱلَّذِينَ مِن قَبْلِكُمْ قَوْمِ نُوحٍۢ وَعَادٍۢ وَثَمُودَ ۛ وَٱلَّذِينَ مِنۢ بَعْدِهِمْ ۛ لَا يَعْلَمُهُمْ إِلَّا ٱللَّهُ ۚ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ فَرَدُّوٓا۟ أَيْدِيَهُمْ فِىٓ أَفْوَٰهِهِمْ وَقَالُوٓا۟ إِنَّا كَفَرْنَا بِمَآ أُرْسِلْتُم بِهِۦ وَإِنَّا لَفِى شَكٍّۢ مِّمَّا تَدْعُونَنَآ إِلَيْهِ مُرِيبٍۢ
+- 14:10 ۞ قَالَتْ رُسُلُهُمْ أَفِى ٱللَّهِ شَكٌّۭ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يَدْعُوكُمْ لِيَغْفِرَ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرَكُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى ۚ قَالُوٓا۟ إِنْ أَنتُمْ إِلَّا بَشَرٌۭ مِّثْلُنَا تُرِيدُونَ أَن تَصُدُّونَا عَمَّا كَانَ يَعْبُدُ ءَابَآؤُنَا فَأْتُونَا بِسُلْطَٰنٍۢ مُّبِينٍۢ
+- 14:30 وَجَعَلُوا۟ لِلَّهِ أَندَادًۭا لِّيُضِلُّوا۟ عَن سَبِيلِهِۦ ۗ قُلْ تَمَتَّعُوا۟ فَإِنَّ مَصِيرَكُمْ إِلَى ٱلنَّارِ
+- 14:45 وَسَكَنتُمْ فِى مَسَٰكِنِ ٱلَّذِينَ ظَلَمُوٓا۟ أَنفُسَهُمْ وَتَبَيَّنَ لَكُمْ كَيْفَ فَعَلْنَا بِهِمْ وَضَرَبْنَا لَكُمُ ٱلْأَمْثَالَ
+- 15:16 وَلَقَدْ جَعَلْنَا فِى ٱلسَّمَآءِ بُرُوجًۭا وَزَيَّنَّٰهَا لِلنَّٰظِرِينَ
+- 15:17 وَحَفِظْنَٰهَا مِن كُلِّ شَيْطَٰنٍۢ رَّجِيمٍ
+- 15:39 قَالَ رَبِّ بِمَآ أَغْوَيْتَنِى لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ
+- 15:41 قَالَ هَٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ
+- 15:42 إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ
+- 15:76 وَإِنَّهَا لَبِسَبِيلٍۢ مُّقِيمٍ
+- 15:77 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّلْمُؤْمِنِينَ
+- 15:80 وَلَقَدْ كَذَّبَ أَصْحَٰبُ ٱلْحِجْرِ ٱلْمُرْسَلِينَ
+- 15:81 وَءَاتَيْنَٰهُمْ ءَايَٰتِنَا فَكَانُوا۟ عَنْهَا مُعْرِضِينَ
+- 15:82 وَكَانُوا۟ يَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا ءَامِنِينَ
+- 15:83 فَأَخَذَتْهُمُ ٱلصَّيْحَةُ مُصْبِحِينَ
+- 16:36 وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍۢ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّٰغُوتَ ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ ۚ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ
+- 16:63 تَٱللَّهِ لَقَدْ أَرْسَلْنَآ إِلَىٰٓ أُمَمٍۢ مِّن قَبْلِكَ فَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَهُوَ وَلِيُّهُمُ ٱلْيَوْمَ وَلَهُمْ عَذَابٌ أَلِيمٌۭ
+- 16:88 ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ زِدْنَٰهُمْ عَذَابًۭا فَوْقَ ٱلْعَذَابِ بِمَا كَانُوا۟ يُفْسِدُونَ
+- 16:99 إِنَّهُۥ لَيْسَ لَهُۥ سُلْطَٰنٌ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ
+- 16:100 إِنَّمَا سُلْطَٰنُهُۥ عَلَى ٱلَّذِينَ يَتَوَلَّوْنَهُۥ وَٱلَّذِينَ هُم بِهِۦ مُشْرِكُونَ
+- 17:17 وَكَمْ أَهْلَكْنَا مِنَ ٱلْقُرُونِ مِنۢ بَعْدِ نُوحٍۢ ۗ وَكَفَىٰ بِرَبِّكَ بِذُنُوبِ عِبَادِهِۦ خَبِيرًۢا بَصِيرًۭا
+- 17:36 وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۚ إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُو۟لَٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًۭا
+- 17:59 وَمَا مَنَعَنَآ أَن نُّرْسِلَ بِٱلْءَايَٰتِ إِلَّآ أَن كَذَّبَ بِهَا ٱلْأَوَّلُونَ ۚ وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةًۭ فَظَلَمُوا۟ بِهَا ۚ وَمَا نُرْسِلُ بِٱلْءَايَٰتِ إِلَّا تَخْوِيفًۭا
+- 17:62 قَالَ أَرَءَيْتَكَ هَٰذَا ٱلَّذِى كَرَّمْتَ عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًۭا
+- 17:63 قَالَ ٱذْهَبْ فَمَن تَبِعَكَ مِنْهُمْ فَإِنَّ جَهَنَّمَ جَزَآؤُكُمْ جَزَآءًۭ مَّوْفُورًۭا
+- 17:64 وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ وَعِدْهُمْ ۚ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا
+- 17:84 قُلْ كُلٌّۭ يَعْمَلُ عَلَىٰ شَاكِلَتِهِۦ فَرَبُّكُمْ أَعْلَمُ بِمَنْ هُوَ أَهْدَىٰ سَبِيلًۭا
+- 18:7 إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةًۭ لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًۭا
+- 18:50 وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ كَانَ مِنَ ٱلْجِنِّ فَفَسَقَ عَنْ أَمْرِ رَبِّهِۦٓ ۗ أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوْلِيَآءَ مِن دُونِى وَهُمْ لَكُمْ عَدُوٌّۢ ۚ بِئْسَ لِلظَّٰلِمِينَ بَدَلًۭا
+- 18:59 وَتِلْكَ ٱلْقُرَىٰٓ أَهْلَكْنَٰهُمْ لَمَّا ظَلَمُوا۟ وَجَعَلْنَا لِمَهْلِكِهِم مَّوْعِدًۭا
+- 18:63 قَالَ أَرَءَيْتَ إِذْ أَوَيْنَآ إِلَى ٱلصَّخْرَةِ فَإِنِّى نَسِيتُ ٱلْحُوتَ وَمَآ أَنسَىٰنِيهُ إِلَّا ٱلشَّيْطَٰنُ أَنْ أَذْكُرَهُۥ ۚ وَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ عَجَبًۭا
+- 19:44 يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ ۖ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّۭا
+- 19:83 أَلَمْ تَرَ أَنَّآ أَرْسَلْنَا ٱلشَّيَٰطِينَ عَلَى ٱلْكَٰفِرِينَ تَؤُزُّهُمْ أَزًّۭا
+- 20:125 قَالَ رَبِّ لِمَ حَشَرْتَنِىٓ أَعْمَىٰ وَقَدْ كُنتُ بَصِيرًۭا
+- 20:126 قَالَ كَذَٰلِكَ أَتَتْكَ ءَايَٰتُنَا فَنَسِيتَهَا ۖ وَكَذَٰلِكَ ٱلْيَوْمَ تُنسَىٰ
+- 20:128 أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّأُو۟لِى ٱلنُّهَىٰ
+- 21:82 وَمِنَ ٱلشَّيَٰطِينِ مَن يَغُوصُونَ لَهُۥ وَيَعْمَلُونَ عَمَلًۭا دُونَ ذَٰلِكَ ۖ وَكُنَّا لَهُمْ حَٰفِظِينَ
+- 22:3 وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَيَتَّبِعُ كُلَّ شَيْطَٰنٍۢ مَّرِيدٍۢ
+- 22:4 كُتِبَ عَلَيْهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ
+- 22:16 وَكَذَٰلِكَ أَنزَلْنَٰهُ ءَايَٰتٍۭ بَيِّنَٰتٍۢ وَأَنَّ ٱللَّهَ يَهْدِى مَن يُرِيدُ
+- 22:42 وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍۢ وَعَادٌۭ وَثَمُودُ
+- 22:45 فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌۭ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍۢ مُّعَطَّلَةٍۢ وَقَصْرٍۢ مَّشِيدٍ
+- 22:46 أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَتَكُونَ لَهُمْ قُلُوبٌۭ يَعْقِلُونَ بِهَآ أَوْ ءَاذَانٌۭ يَسْمَعُونَ بِهَا ۖ فَإِنَّهَا لَا تَعْمَى ٱلْأَبْصَٰرُ وَلَٰكِن تَعْمَى ٱلْقُلُوبُ ٱلَّتِى فِى ٱلصُّدُورِ
+- 24:31 وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ
+- 24:34 وَلَقَدْ أَنزَلْنَآ إِلَيْكُمْ ءَايَٰتٍۢ مُّبَيِّنَٰتٍۢ وَمَثَلًۭا مِّنَ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُمْ وَمَوْعِظَةًۭ لِّلْمُتَّقِينَ
+- 25:23 وَقَدِمْنَآ إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍۢ فَجَعَلْنَٰهُ هَبَآءًۭ مَّنثُورًا
+- 25:29 لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى ۗ وَكَانَ ٱلشَّيْطَٰنُ لِلْإِنسَٰنِ خَذُولًۭا
+- 25:37 وَقَوْمَ نُوحٍۢ لَّمَّا كَذَّبُوا۟ ٱلرُّسُلَ أَغْرَقْنَٰهُمْ وَجَعَلْنَٰهُمْ لِلنَّاسِ ءَايَةًۭ ۖ وَأَعْتَدْنَا لِلظَّٰلِمِينَ عَذَابًا أَلِيمًۭا
+- 25:38 وَعَادًۭا وَثَمُودَا۟ وَأَصْحَٰبَ ٱلرَّسِّ وَقُرُونًۢا بَيْنَ ذَٰلِكَ كَثِيرًۭا
+- 25:39 وَكُلًّۭا ضَرَبْنَا لَهُ ٱلْأَمْثَٰلَ ۖ وَكُلًّۭا تَبَّرْنَا تَتْبِيرًۭا
+- 25:40 وَلَقَدْ أَتَوْا۟ عَلَى ٱلْقَرْيَةِ ٱلَّتِىٓ أُمْطِرَتْ مَطَرَ ٱلسَّوْءِ ۚ أَفَلَمْ يَكُونُوا۟ يَرَوْنَهَا ۚ بَلْ كَانُوا۟ لَا يَرْجُونَ نُشُورًۭا
+- 26:30 قَالَ أَوَلَوْ جِئْتُكَ بِشَىْءٍۢ مُّبِينٍۢ
+- 26:94 فَكُبْكِبُوا۟ فِيهَا هُمْ وَٱلْغَاوُۥنَ
+- 26:95 وَجُنُودُ إِبْلِيسَ أَجْمَعُونَ
+- 26:97 تَٱللَّهِ إِن كُنَّا لَفِى ضَلَٰلٍۢ مُّبِينٍ
+- 26:123 كَذَّبَتْ عَادٌ ٱلْمُرْسَلِينَ
+- 26:128 أَتَبْنُونَ بِكُلِّ رِيعٍ ءَايَةًۭ تَعْبَثُونَ
+- 26:129 وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ
+- 26:135 إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍۢ
+- 26:136 قَالُوا۟ سَوَآءٌ عَلَيْنَآ أَوَعَظْتَ أَمْ لَمْ تَكُن مِّنَ ٱلْوَٰعِظِينَ
+- 26:141 كَذَّبَتْ ثَمُودُ ٱلْمُرْسَلِينَ
+- 26:142 إِذْ قَالَ لَهُمْ أَخُوهُمْ صَٰلِحٌ أَلَا تَتَّقُونَ
+- 26:149 وَتَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًۭا فَٰرِهِينَ
+- 26:150 فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ
+- 26:151 وَلَا تُطِيعُوٓا۟ أَمْرَ ٱلْمُسْرِفِينَ
+- 26:156 وَلَا تَمَسُّوهَا بِسُوٓءٍۢ فَيَأْخُذَكُمْ عَذَابُ يَوْمٍ عَظِيمٍۢ
+- 26:157 فَعَقَرُوهَا فَأَصْبَحُوا۟ نَٰدِمِينَ
+- 26:158 فَأَخَذَهُمُ ٱلْعَذَابُ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:221 هَلْ أُنَبِّئُكُمْ عَلَىٰ مَن تَنَزَّلُ ٱلشَّيَٰطِينُ
+- 26:222 تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍۢ
+- 27:4 إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ زَيَّنَّا لَهُمْ أَعْمَٰلَهُمْ فَهُمْ يَعْمَهُونَ
+- 27:24 وَجَدتُّهَا وَقَوْمَهَا يَسْجُدُونَ لِلشَّمْسِ مِن دُونِ ٱللَّهِ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ فَهُمْ لَا يَهْتَدُونَ
+- 27:45 وَلَقَدْ أَرْسَلْنَآ إِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ فَإِذَا هُمْ فَرِيقَانِ يَخْتَصِمُونَ
+- 27:51 فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ مَكْرِهِمْ أَنَّا دَمَّرْنَٰهُمْ وَقَوْمَهُمْ أَجْمَعِينَ
+- 27:52 فَتِلْكَ بُيُوتُهُمْ خَاوِيَةًۢ بِمَا ظَلَمُوٓا۟ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَعْلَمُونَ
+- 27:69 قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُجْرِمِينَ
+- 28:15 وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍۢ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَٰثَهُ ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّۭ مُّضِلٌّۭ مُّبِينٌۭ
+- 28:58 وَكَمْ أَهْلَكْنَا مِن قَرْيَةٍۭ بَطِرَتْ مَعِيشَتَهَا ۖ فَتِلْكَ مَسَٰكِنُهُمْ لَمْ تُسْكَن مِّنۢ بَعْدِهِمْ إِلَّا قَلِيلًۭا ۖ وَكُنَّا نَحْنُ ٱلْوَٰرِثِينَ
+- 28:63 قَالَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ رَبَّنَا هَٰٓؤُلَآءِ ٱلَّذِينَ أَغْوَيْنَآ أَغْوَيْنَٰهُمْ كَمَا غَوَيْنَا ۖ تَبَرَّأْنَآ إِلَيْكَ ۖ مَا كَانُوٓا۟ إِيَّانَا يَعْبُدُونَ
+- 28:85 إِنَّ ٱلَّذِى فَرَضَ عَلَيْكَ ٱلْقُرْءَانَ لَرَآدُّكَ إِلَىٰ مَعَادٍۢ ۚ قُل رَّبِّىٓ أَعْلَمُ مَن جَآءَ بِٱلْهُدَىٰ وَمَنْ هُوَ فِى ضَلَٰلٍۢ مُّبِينٍۢ
+- 28:87 وَلَا يَصُدُّنَّكَ عَنْ ءَايَٰتِ ٱللَّهِ بَعْدَ إِذْ أُنزِلَتْ إِلَيْكَ ۖ وَٱدْعُ إِلَىٰ رَبِّكَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ
+- 30:9 أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةًۭ وَأَثَارُوا۟ ٱلْأَرْضَ وَعَمَرُوهَآ أَكْثَرَ مِمَّا عَمَرُوهَا وَجَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ
+- 32:26 أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ ۖ أَفَلَا يَسْمَعُونَ
+- 34:15 لَقَدْ كَانَ لِسَبَإٍۢ فِى مَسْكَنِهِمْ ءَايَةٌۭ ۖ جَنَّتَانِ عَن يَمِينٍۢ وَشِمَالٍۢ ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌۭ طَيِّبَةٌۭ وَرَبٌّ غَفُورٌۭ
+- 34:16 فَأَعْرَضُوا۟ فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ ٱلْعَرِمِ وَبَدَّلْنَٰهُم بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَىْ أُكُلٍ خَمْطٍۢ وَأَثْلٍۢ وَشَىْءٍۢ مِّن سِدْرٍۢ قَلِيلٍۢ
+- 35:6 إِنَّ ٱلشَّيْطَٰنَ لَكُمْ عَدُوٌّۭ فَٱتَّخِذُوهُ عَدُوًّا ۚ إِنَّمَا يَدْعُوا۟ حِزْبَهُۥ لِيَكُونُوا۟ مِنْ أَصْحَٰبِ ٱلسَّعِيرِ
+- 35:8 أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًۭا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۖ فَلَا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَٰتٍ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا يَصْنَعُونَ
+- 35:26 ثُمَّ أَخَذْتُ ٱلَّذِينَ كَفَرُوا۟ ۖ فَكَيْفَ كَانَ نَكِيرِ
+- 35:44 أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ وَكَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةًۭ ۚ وَمَا كَانَ ٱللَّهُ لِيُعْجِزَهُۥ مِن شَىْءٍۢ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ عَلِيمًۭا قَدِيرًۭا
+- 36:24 إِنِّىٓ إِذًۭا لَّفِى ضَلَٰلٍۢ مُّبِينٍ
+- 36:29 إِن كَانَتْ إِلَّا صَيْحَةًۭ وَٰحِدَةًۭ فَإِذَا هُمْ خَٰمِدُونَ
+- 36:60 ۞ أَلَمْ أَعْهَدْ إِلَيْكُمْ يَٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَٰنَ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ
+- 36:61 وَأَنِ ٱعْبُدُونِى ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 36:62 وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّۭا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا۟ تَعْقِلُونَ
+- 36:66 وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ
+- 37:6 إِنَّا زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِزِينَةٍ ٱلْكَوَاكِبِ
+- 37:7 وَحِفْظًۭا مِّن كُلِّ شَيْطَٰنٍۢ مَّارِدٍۢ
+- 37:30 وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًۭا طَٰغِينَ
+- 37:82 ثُمَّ أَغْرَقْنَا ٱلْءَاخَرِينَ
+- 37:136 ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ
+- 37:137 وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِم مُّصْبِحِينَ
+- 37:162 مَآ أَنتُمْ عَلَيْهِ بِفَٰتِنِينَ
+- 37:175 وَأَبْصِرْهُمْ فَسَوْفَ يُبْصِرُونَ
+- 38:12 كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍۢ وَعَادٌۭ وَفِرْعَوْنُ ذُو ٱلْأَوْتَادِ
+- 38:13 وَثَمُودُ وَقَوْمُ لُوطٍۢ وَأَصْحَٰبُ لْـَٔيْكَةِ ۚ أُو۟لَٰٓئِكَ ٱلْأَحْزَابُ
+- 38:14 إِن كُلٌّ إِلَّا كَذَّبَ ٱلرُّسُلَ فَحَقَّ عِقَابِ
+- 38:82 قَالَ فَبِعِزَّتِكَ لَأُغْوِيَنَّهُمْ أَجْمَعِينَ
+- 38:83 إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ
+- 40:21 ۞ أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ كَانُوا۟ مِن قَبْلِهِمْ ۚ كَانُوا۟ هُمْ أَشَدَّ مِنْهُمْ قُوَّةًۭ وَءَاثَارًۭا فِى ٱلْأَرْضِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ وَمَا كَانَ لَهُم مِّنَ ٱللَّهِ مِن وَاقٍۢ
+- 40:24 إِلَىٰ فِرْعَوْنَ وَهَٰمَٰنَ وَقَٰرُونَ فَقَالُوا۟ سَٰحِرٌۭ كَذَّابٌۭ
+- 40:25 فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ وَٱسْتَحْيُوا۟ نِسَآءَهُمْ ۚ وَمَا كَيْدُ ٱلْكَٰفِرِينَ إِلَّا فِى ضَلَٰلٍۢ
+- 40:31 مِثْلَ دَأْبِ قَوْمِ نُوحٍۢ وَعَادٍۢ وَثَمُودَ وَٱلَّذِينَ مِنۢ بَعْدِهِمْ ۚ وَمَا ٱللَّهُ يُرِيدُ ظُلْمًۭا لِّلْعِبَادِ
+- 40:37 أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًۭا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍۢ
+- 40:38 وَقَالَ ٱلَّذِىٓ ءَامَنَ يَٰقَوْمِ ٱتَّبِعُونِ أَهْدِكُمْ سَبِيلَ ٱلرَّشَادِ
+- 40:82 أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَانُوٓا۟ أَكْثَرَ مِنْهُمْ وَأَشَدَّ قُوَّةًۭ وَءَاثَارًۭا فِى ٱلْأَرْضِ فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ
+- 41:12 فَقَضَىٰهُنَّ سَبْعَ سَمَٰوَاتٍۢ فِى يَوْمَيْنِ وَأَوْحَىٰ فِى كُلِّ سَمَآءٍ أَمْرَهَا ۚ وَزَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَحِفْظًۭا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ
+- 41:13 فَإِنْ أَعْرَضُوا۟ فَقُلْ أَنذَرْتُكُمْ صَٰعِقَةًۭ مِّثْلَ صَٰعِقَةِ عَادٍۢ وَثَمُودَ
+- 41:15 فَأَمَّا عَادٌۭ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَقَالُوا۟ مَنْ أَشَدُّ مِنَّا قُوَّةً ۖ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَهُمْ هُوَ أَشَدُّ مِنْهُمْ قُوَّةًۭ ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ
+- 41:16 فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا صَرْصَرًۭا فِىٓ أَيَّامٍۢ نَّحِسَاتٍۢ لِّنُذِيقَهُمْ عَذَابَ ٱلْخِزْىِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَعَذَابُ ٱلْءَاخِرَةِ أَخْزَىٰ ۖ وَهُمْ لَا يُنصَرُونَ
+- 41:17 وَأَمَّا ثَمُودُ فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ فَأَخَذَتْهُمْ صَٰعِقَةُ ٱلْعَذَابِ ٱلْهُونِ بِمَا كَانُوا۟ يَكْسِبُونَ
+- 41:25 ۞ وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍۢ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ
+- 41:36 وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌۭ فَٱسْتَعِذْ بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 41:53 سَنُرِيهِمْ ءَايَٰتِنَا فِى ٱلْءَافَاقِ وَفِىٓ أَنفُسِهِمْ حَتَّىٰ يَتَبَيَّنَ لَهُمْ أَنَّهُ ٱلْحَقُّ ۗ أَوَلَمْ يَكْفِ بِرَبِّكَ أَنَّهُۥ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدٌ
+- 43:2 وَٱلْكِتَٰبِ ٱلْمُبِينِ
+- 43:30 وَلَمَّا جَآءَهُمُ ٱلْحَقُّ قَالُوا۟ هَٰذَا سِحْرٌۭ وَإِنَّا بِهِۦ كَٰفِرُونَ
+- 43:36 وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ
+- 43:37 وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ
+- 43:57 ۞ وَلَمَّا ضُرِبَ ٱبْنُ مَرْيَمَ مَثَلًا إِذَا قَوْمُكَ مِنْهُ يَصِدُّونَ
+- 43:61 وَإِنَّهُۥ لَعِلْمٌۭ لِّلسَّاعَةِ فَلَا تَمْتَرُنَّ بِهَا وَٱتَّبِعُونِ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 43:62 وَلَا يَصُدَّنَّكُمُ ٱلشَّيْطَٰنُ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ
+- 44:13 أَنَّىٰ لَهُمُ ٱلذِّكْرَىٰ وَقَدْ جَآءَهُمْ رَسُولٌۭ مُّبِينٌۭ
+- 44:14 ثُمَّ تَوَلَّوْا۟ عَنْهُ وَقَالُوا۟ مُعَلَّمٌۭ مَّجْنُونٌ
+- 44:15 إِنَّا كَاشِفُوا۟ ٱلْعَذَابِ قَلِيلًا ۚ إِنَّكُمْ عَآئِدُونَ
+- 45:20 هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُوقِنُونَ
+- 46:21 ۞ وَٱذْكُرْ أَخَا عَادٍ إِذْ أَنذَرَ قَوْمَهُۥ بِٱلْأَحْقَافِ وَقَدْ خَلَتِ ٱلنُّذُرُ مِنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦٓ أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍۢ
+- 46:24 فَلَمَّا رَأَوْهُ عَارِضًۭا مُّسْتَقْبِلَ أَوْدِيَتِهِمْ قَالُوا۟ هَٰذَا عَارِضٌۭ مُّمْطِرُنَا ۚ بَلْ هُوَ مَا ٱسْتَعْجَلْتُم بِهِۦ ۖ رِيحٌۭ فِيهَا عَذَابٌ أَلِيمٌۭ
+- 46:25 تُدَمِّرُ كُلَّ شَىْءٍۭ بِأَمْرِ رَبِّهَا فَأَصْبَحُوا۟ لَا يُرَىٰٓ إِلَّا مَسَٰكِنُهُمْ ۚ كَذَٰلِكَ نَجْزِى ٱلْقَوْمَ ٱلْمُجْرِمِينَ
+- 46:26 وَلَقَدْ مَكَّنَّٰهُمْ فِيمَآ إِن مَّكَّنَّٰكُمْ فِيهِ وَجَعَلْنَا لَهُمْ سَمْعًۭا وَأَبْصَٰرًۭا وَأَفْـِٔدَةًۭ فَمَآ أَغْنَىٰ عَنْهُمْ سَمْعُهُمْ وَلَآ أَبْصَٰرُهُمْ وَلَآ أَفْـِٔدَتُهُم مِّن شَىْءٍ إِذْ كَانُوا۟ يَجْحَدُونَ بِـَٔايَٰتِ ٱللَّهِ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ
+- 46:27 وَلَقَدْ أَهْلَكْنَا مَا حَوْلَكُم مِّنَ ٱلْقُرَىٰ وَصَرَّفْنَا ٱلْءَايَٰتِ لَعَلَّهُمْ يَرْجِعُونَ
+- 47:1 ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ أَضَلَّ أَعْمَٰلَهُمْ
+- 47:8 وَٱلَّذِينَ كَفَرُوا۟ فَتَعْسًۭا لَّهُمْ وَأَضَلَّ أَعْمَٰلَهُمْ
+- 47:9 ذَٰلِكَ بِأَنَّهُمْ كَرِهُوا۟ مَآ أَنزَلَ ٱللَّهُ فَأَحْبَطَ أَعْمَٰلَهُمْ
+- 47:10 ۞ أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ دَمَّرَ ٱللَّهُ عَلَيْهِمْ ۖ وَلِلْكَٰفِرِينَ أَمْثَٰلُهَا
+- 47:14 أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّهِۦ كَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ وَٱتَّبَعُوٓا۟ أَهْوَآءَهُم
+- 47:23 أُو۟لَٰٓئِكَ ٱلَّذِينَ لَعَنَهُمُ ٱللَّهُ فَأَصَمَّهُمْ وَأَعْمَىٰٓ أَبْصَٰرَهُمْ
+- 47:25 إِنَّ ٱلَّذِينَ ٱرْتَدُّوا۟ عَلَىٰٓ أَدْبَٰرِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ
+- 47:32 إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ وَشَآقُّوا۟ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَىٰ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًۭٔا وَسَيُحْبِطُ أَعْمَٰلَهُمْ
+- 47:34 إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ ثُمَّ مَاتُوا۟ وَهُمْ كُفَّارٌۭ فَلَن يَغْفِرَ ٱللَّهُ لَهُمْ
+- 48:12 بَلْ ظَنَنتُمْ أَن لَّن يَنقَلِبَ ٱلرَّسُولُ وَٱلْمُؤْمِنُونَ إِلَىٰٓ أَهْلِيهِمْ أَبَدًۭا وَزُيِّنَ ذَٰلِكَ فِى قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ ٱلسَّوْءِ وَكُنتُمْ قَوْمًۢا بُورًۭا
+- 50:12 كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍۢ وَأَصْحَٰبُ ٱلرَّسِّ وَثَمُودُ
+- 50:13 وَعَادٌۭ وَفِرْعَوْنُ وَإِخْوَٰنُ لُوطٍۢ
+- 50:27 ۞ قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَٰكِن كَانَ فِى ضَلَٰلٍۭ بَعِيدٍۢ
+- 50:36 وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَشَدُّ مِنْهُم بَطْشًۭا فَنَقَّبُوا۟ فِى ٱلْبِلَٰدِ هَلْ مِن مَّحِيصٍ
+- 50:37 إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِمَن كَانَ لَهُۥ قَلْبٌ أَوْ أَلْقَى ٱلسَّمْعَ وَهُوَ شَهِيدٌۭ
+- 51:20 وَفِى ٱلْأَرْضِ ءَايَٰتٌۭ لِّلْمُوقِنِينَ
+- 51:21 وَفِىٓ أَنفُسِكُمْ ۚ أَفَلَا تُبْصِرُونَ
+- 51:37 وَتَرَكْنَا فِيهَآ ءَايَةًۭ لِّلَّذِينَ يَخَافُونَ ٱلْعَذَابَ ٱلْأَلِيمَ
+- 51:41 وَفِى عَادٍ إِذْ أَرْسَلْنَا عَلَيْهِمُ ٱلرِّيحَ ٱلْعَقِيمَ
+- 51:42 مَا تَذَرُ مِن شَىْءٍ أَتَتْ عَلَيْهِ إِلَّا جَعَلَتْهُ كَٱلرَّمِيمِ
+- 51:43 وَفِى ثَمُودَ إِذْ قِيلَ لَهُمْ تَمَتَّعُوا۟ حَتَّىٰ حِينٍۢ
+- 51:44 فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ وَهُمْ يَنظُرُونَ
+- 52:15 أَفَسِحْرٌ هَٰذَآ أَمْ أَنتُمْ لَا تُبْصِرُونَ
+- 53:17 مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ
+- 53:50 وَأَنَّهُۥٓ أَهْلَكَ عَادًا ٱلْأُولَىٰ
+- 53:51 وَثَمُودَا۟ فَمَآ أَبْقَىٰ
+- 54:18 كَذَّبَتْ عَادٌۭ فَكَيْفَ كَانَ عَذَابِى وَنُذُرِ
+- 54:19 إِنَّآ أَرْسَلْنَا عَلَيْهِمْ رِيحًۭا صَرْصَرًۭا فِى يَوْمِ نَحْسٍۢ مُّسْتَمِرٍّۢ
+- 54:20 تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍۢ مُّنقَعِرٍۢ
+- 54:23 كَذَّبَتْ ثَمُودُ بِٱلنُّذُرِ
+- 54:31 إِنَّآ أَرْسَلْنَا عَلَيْهِمْ صَيْحَةًۭ وَٰحِدَةًۭ فَكَانُوا۟ كَهَشِيمِ ٱلْمُحْتَظِرِ
+- 54:51 وَلَقَدْ أَهْلَكْنَآ أَشْيَاعَكُمْ فَهَلْ مِن مُّدَّكِرٍۢ
+- 58:3 وَٱلَّذِينَ يُظَٰهِرُونَ مِن نِّسَآئِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُوا۟ فَتَحْرِيرُ رَقَبَةٍۢ مِّن قَبْلِ أَن يَتَمَآسَّا ۚ ذَٰلِكُمْ تُوعَظُونَ بِهِۦ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ
+- 58:10 إِنَّمَا ٱلنَّجْوَىٰ مِنَ ٱلشَّيْطَٰنِ لِيَحْزُنَ ٱلَّذِينَ ءَامَنُوا۟ وَلَيْسَ بِضَآرِّهِمْ شَيْـًٔا إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ
+- 58:19 ٱسْتَحْوَذَ عَلَيْهِمُ ٱلشَّيْطَٰنُ فَأَنسَىٰهُمْ ذِكْرَ ٱللَّهِ ۚ أُو۟لَٰٓئِكَ حِزْبُ ٱلشَّيْطَٰنِ ۚ أَلَآ إِنَّ حِزْبَ ٱلشَّيْطَٰنِ هُمُ ٱلْخَٰسِرُونَ
+- 59:2 هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ
+- 59:16 كَمَثَلِ ٱلشَّيْطَٰنِ إِذْ قَالَ لِلْإِنسَٰنِ ٱكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌۭ مِّنكَ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ
+- 60:1 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّخِذُوا۟ عَدُوِّى وَعَدُوَّكُمْ أَوْلِيَآءَ تُلْقُونَ إِلَيْهِم بِٱلْمَوَدَّةِ وَقَدْ كَفَرُوا۟ بِمَا جَآءَكُم مِّنَ ٱلْحَقِّ يُخْرِجُونَ ٱلرَّسُولَ وَإِيَّاكُمْ ۙ أَن تُؤْمِنُوا۟ بِٱللَّهِ رَبِّكُمْ إِن كُنتُمْ خَرَجْتُمْ جِهَٰدًۭا فِى سَبِيلِى وَٱبْتِغَآءَ مَرْضَاتِى ۚ تُسِرُّونَ إِلَيْهِم بِٱلْمَوَدَّةِ وَأَنَا۠ أَعْلَمُ بِمَآ أَخْفَيْتُمْ وَمَآ أَعْلَنتُمْ ۚ وَمَن يَفْعَلْهُ مِنكُمْ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ
+- 63:2 ٱتَّخَذُوٓا۟ أَيْمَٰنَهُمْ جُنَّةًۭ فَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّهُمْ سَآءَ مَا كَانُوا۟ يَعْمَلُونَ
+- 67:5 وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَجَعَلْنَٰهَا رُجُومًۭا لِّلشَّيَٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ
+- 68:5 فَسَتُبْصِرُ وَيُبْصِرُونَ
+- 68:6 بِأَييِّكُمُ ٱلْمَفْتُونُ
+- 68:7 إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ
+- 69:4 كَذَّبَتْ ثَمُودُ وَعَادٌۢ بِٱلْقَارِعَةِ
+- 69:5 فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ
+- 69:6 وَأَمَّا عَادٌۭ فَأُهْلِكُوا۟ بِرِيحٍۢ صَرْصَرٍ عَاتِيَةٍۢ
+- 69:7 سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍۢ وَثَمَٰنِيَةَ أَيَّامٍ حُسُومًۭا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍۢ
+- 69:38 فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ
+- 69:39 وَمَا لَا تُبْصِرُونَ
+- 74:49 فَمَا لَهُمْ عَنِ ٱلتَّذْكِرَةِ مُعْرِضِينَ
+- 80:20 ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ
+- 84:15 بَلَىٰٓ إِنَّ رَبَّهُۥ كَانَ بِهِۦ بَصِيرًۭا
+- 85:18 فِرْعَوْنَ وَثَمُودَ
+- 89:6 أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ
+- 89:7 إِرَمَ ذَاتِ ٱلْعِمَادِ
+- 89:8 ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ
+- 89:9 وَثَمُودَ ٱلَّذِينَ جَابُوا۟ ٱلصَّخْرَ بِٱلْوَادِ
+- 89:12 فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ
+- 89:13 فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ
+- 91:9 قَدْ أَفْلَحَ مَن زَكَّىٰهَا
+- 91:10 وَقَدْ خَابَ مَن دَسَّىٰهَا
+- 91:11 كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ
+- 91:12 إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا
+- 91:13 فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا
+- 91:14 فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا
+- 114:4 مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ
+- 114:5 ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ
+- 114:6 مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ

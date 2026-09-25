@@ -12,6 +12,12 @@ rare sense that one word carries in its root is *heard* against another word of 
 dictionary allows it, and state plainly what the pair makes. A miss costs more than a false alarm: a later writer
 and scripts check every record, and nobody can recover a link you did not record.
 
+This applies established methods of Quranic interpretation more systematically than a single reader can: al-Khūlī's
+literary exegesis (a word read through its root's attested senses and its Quranic uses) and al-Biqāʿī's *naẓm* (an
+ayah read through the relations of its parts and neighbours). Readings built this way are legitimate interpretation
+within that tradition; the familiar reading of the ayah is one reading among the possible ones, not the measure of
+a link. Never downgrade a link because it is unusual; judge only what the two senses make together.
+
 ## Inputs (all in the launch message; do not read files or run commands)
 
 `context.md` (the ayah with its words and anchor translation, the Fatiha, the whole surah) and the worklist. Each

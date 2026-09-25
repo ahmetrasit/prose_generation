@@ -1,0 +1,1721 @@
+# Package for 18:86
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### H1 عَيْنٍ — 10 roots converge
+Plain sense of عَيْنٍ: gören göz (العين الناظرة); akan su kaynağı (منبع الماء الجاري)
+- **H1.1** [dictionary] ء خ ذ B004 «büyüsel yolla etkileyip engelleme» رقية تمسك وتحبس — word تَتَّخِذَ (4 dictionaries); source: الأخذة رقية تأخذ العين ونحوها والمؤخذ الرجل كأنه حبس (maqayis)؛ الأخذة رقية تأخذ العين ورجل مؤخذ عن النساء (ayn)؛ الأخذة رقية كالسحر أو خرزة تؤخذ بها النساء الرجال من التأخيذ (sihah)؛ التأخيذ حيل من السحر تمنع الزوج من جماع غيرها (tahdhib) (also H7.1)
+  - evidence: lex/src: عين → root ع ي ن
+- **H1.2** [dictionary] ء خ ذ B006 «su tutan çukur veya havuz» موضع يمسك الماء — word تَتَّخِذَ (4 dictionaries); source: الإخاذ مجمع الماء شبيه بالغدير (maqayis)؛ الإخاذة والإخذ ما حفرت لنفسك كهيئة الحوض تمسك الماء أياما (ayn)؛ الاخاذة شئ كالغدير والجمع إخاذ (sihah)؛ الإخذ صنع الماء يجتمع فيه (tahdhib) (also H2.15, H3.1, H4.1)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (complement): A spring supplies water and a catchment holds it. The pair sharpens the scene into source and gathered water.
+- **H1.3** [dictionary] ج د د B001 «değer ve konum yüceliği» عظمة القدر وعلوه — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: العظمة (maqayis)؛ جد ربنا عظمته (ayn)؛ تعالى جد ربنا أي عظمة ربنا؛ جد في عيني أي عظم (sihah)؛ جد ربنا جلال ربنا؛ جل قدره وعظم (tahdhib)؛ جد ربنا أي فيضه وقيل عظمته (mufradat)
+  - evidence: lex/src: عيني → root ع ي ن
+- **H1.4** [dictionary] ج د د B001 «değer ve konum yüceliği» عظمة القدر وعلوه — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: as H1.3 (also L7.2)
+  - evidence: lex/src: عيني → root ع ي ن
+- **H1.5** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَجَدَهَا (echo root, sound family only; 4 dictionaries); source: جدة النهر أي ما قرب من الأرض؛ الجدة ساحل البحر بمكة (ayn)؛ جدة النهر حافته وكذلك الوادي (jamhara)؛ جدة بلد على الساحل (sihah)؛ الجدة شاطىء النهر؛ الجدة ساحل البحر بحذاء مكة (tahdhib) (also H2.19, H3.2, H4.2)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (part): The spring can be heard with its bank beside it. The rare river-edge sense supplies the boundary of the water source.
+- **H1.6** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَوَجَدَ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H2.20, H3.3, H4.3)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (part): The spring opens into a fuller waterside scene, with its edge present alongside its source. The sun seems to sink into a bounded pool rather than an abstract po
+- **H1.7** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: الجداء الأرض التي لا ماء بها؛ الجدود والجداء من الضان التي جف لبنها ويبس ضرعها (maqayis)؛ الجدود كل أنثى يبس لبنها؛ الجداء مفازة يابسة؛ شاة جداء يابسة اللبن (ayn)؛ فلاة جداء لا ماء بها؛ الجدود النعجة التي قل لبنها؛ الجداء التي ذهب لبنها (sihah)؛ ناقة جدود؛ نعجة جدود؛ الجداء الناقة التي قد انقطع لبنها (tahdhib)؛ الجدود والجداء من الضأن التي انقطع لبنها (mufradat) (also H3.4, H4.4)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (opposite): The dry place stands against a flowing spring. The contrast makes the water at this setting seem especially present.
+- **H1.8** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: as H1.7 (also H3.5, H4.5)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (opposite): A water source appears against the rare image of land without water or a dried-up udder. The spring's presence makes that dryness more sharply felt.
+- **H1.9** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word وَوَجَدَ (echo root, sound family only; 2 dictionaries); source: جدة موضع؛ جدود موضع بالبادية (ayn)؛ جدة بلد على الساحل؛ جدود موضع فيه ماء (sihah) (also H3.6, H4.6)
+  - evidence: lex/src: ماء names the plain image of عَيْنٍ
+- **H1.10** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word وَجَدَهَا (echo root, sound family only; 2 dictionaries); source: as H1.9 (also H3.7, H4.7)
+  - evidence: lex/src: ماء names the plain image of عَيْنٍ
+- **H1.11** [dictionary] ش م س B007 «güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri» التسمية بالشمس وما نسب إليها — word ٱلشَّمْسِ (3 dictionaries); source: عبد شمس (maqayis;sihah)؛ الشمس صنم قديم (maqayis)؛ شمس عين ماء معروفة (maqayis)؛ عبشمس وعبشمي (maqayis;sihah)؛ تعبشم الرجل (sihah)؛ الشموس هضبة معروفة (tahdhib)؛ الشميستان جنتان بإزاء الفردوس (tahdhib) (also H2.4, H3.8, H4.8, H5.4)
+  - evidence: lex/src: عين → root ع ي ن || lex/src: ماء names the plain image of عَيْنٍ || Luna (same): The spring can be heard as the named source Shams. The rare place-name turns the open-ended عين into a specific water source.
+- **H1.12** [dictionary] ع ذ ب B001 «tatlı ve kolay tüketilen yiyecek ya da içecek» العذوبة والطيب في الماء والمطعوم — word تُعَذِّبَ (6 dictionaries); source: عذب الماء عذوبة فهو عذب طيب (maqayis;ayn;tahdhib)؛ العذب ضد الملح وكل مستسيغ من طعام أو شراب (jamhara)؛ ماء عذب طيب بارد (mufradat)؛ استعذب القوم ماءهم إذا استقوه عذبا (sihah) (also H3.9)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (complement): The spring can be heard as a source of pleasant drinking water. That sweetness sits beneath the verse’s darker image of a muddy spring.
+- **H1.13** [dictionary] غ ر ب B003 «kuyuda dökülen su ve su taşkınlığı» ماء البئر المنصب وكثرته — word تَغْرُبُ (3 dictionaries); source: الغرب ما انصب من الماء عند البئر فتغيرت رائحته (maqayis)؛ الزغرب وهو الماء الكثير؛ زيدت فيه الزاء والأصل راجع إلى الغرب (maqayis)؛ الغرب ما يقطر من الدلاء عند البئر من الماء فيتغير سريعا ريحه؛ إذا أفاض جوانب الحوض قيل أغرب الحوض (ayn)؛ الغرب الماء الذي يقطر من الدلاء بين البئر والحوض وتتغير ريحه سريعا (sihah) (also H3.11, H4.10)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (image): The rare غرب names well water spilling out and turning stale, while عَيْنٍ is a running source. The spring becomes not only a source but a place where water spi
+- **H1.14** [dictionary] غ ر ب B003 «kuyuda dökülen su ve su taşkınlığı» ماء البئر المنصب وكثرته — word مَغْرِبَ (3 dictionaries); source: as H1.13 (also H3.12, H4.11)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ || Luna (image): The spring is heard beside water spilling around a well. The source becomes an overflowing pool at the edge of the scene.
+- **H1.15** [dictionary] غ ر ب B004 «gözyaşı yolları, akışı ve göz pınarı rahatsızlığı» مجاري الدمع وأطراف العين — word تَغْرُبُ (4 dictionaries); source: الغربان من العين مقدمها ومؤخرها؛ الغروب مجاري العين؛ الغرب الورم في المأق؛ الغرب عرق يسقي ولا ينقطع (maqayis)؛ كل فيضة من الدمع غرب؛ فاضت غروب العين؛ الغربان مؤخر العين ومقدمها؛ الغرب خراج يخرج في العين (ayn)؛ غرب الدمع مسيله؛ الغرب بثرة تكون في العين (jamhara)؛ الغروب مجاري الدمع؛ لعينه غرب إذا كانت تسيل ولا تنقطع دموعها؛ الغرب عرق في مجرى الدمع (sihah) (also H2.6)
+  - evidence: lex/image: عين → root ع ي ن || Luna (part): الغروب can name the channels of tears and edges of the eye; عَيْنٍ can mean an eye. Heard beneath the spring sense, the locus becomes an eye with channels throu
+- **H1.16** [dictionary] غ ر ب B004 «gözyaşı yolları, akışı ve göz pınarı rahatsızlığı» مجاري الدمع وأطراف العين — word مَغْرِبَ (4 dictionaries); source: as H1.15 (also H5.6)
+  - evidence: lex/image: عين → root ع ي ن || Luna (part): عَيْنٍ names a spring here but also means an eye. The rare tear ducts and tear-flow sense turn the spring's water into an ocular stream.
+- **H1.17** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word مَغْرِبَ (3 dictionaries); source: غروب الأسنان ماؤها (maqayis)؛ غروب الأسنان الماء الذي يجري عليها؛ غروب الأسنان أطرافها (ayn)؛ الغروب حدة الأسنان وماؤها واحدها غرب (sihah) (also H3.13, H4.12, H5.7)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ
+- **H1.18** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word تَغْرُبُ (3 dictionaries); source: as H1.17 (also H2.7, H3.14, H4.13)
+  - evidence: lex/image: ماء names the plain image of عَيْنٍ
+- **H1.19** [dictionary] غ ر ب B009 «üst sırt, yüksek tepe ve serbest bırakma» الغارب أعلى الظهر والموج — word تَغْرُبُ (5 dictionaries); source: الغارب أعلى الظهر والسنام؛ ألقى حبله على غاربه إذا خلاه (maqayis)؛ الغارب أعلى الموج وأعلى الظهر؛ حبلك على غاربك (ayn)؛ غارب البعير ما انحدر من سنامه إلى عنقه؛ غارب كل شيء أعلاه (jamhara)؛ الغارب ما بين السنام والعنق؛ حبلك على غاربك؛ غوارب الماء أعالي موجه (sihah)؛ غارب السنام لبعده عن المنال (mufradat) (also H3.15, H4.14)
+  - evidence: lex/src: ماء names the plain image of عَيْنٍ
+- **H1.20** [dictionary] غ ر ب B009 «üst sırt, yüksek tepe ve serbest bırakma» الغارب أعلى الظهر والموج — word مَغْرِبَ (5 dictionaries); source: as H1.19 (also H3.16, H4.15)
+  - evidence: lex/src: ماء names the plain image of عَيْنٍ
+- **H1.21** [dictionary] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word تَغْرُبُ (5 dictionaries); source: المغرب الأبيض الأشفار من كل شيء (maqayis)؛ المغرب الأبيض الأشفار من كل صنف؛ الشعرة الغريبة لأنها حدث في الرأس (ayn)؛ يسمى البرد غرابا لبياضه؛ الفرس المغرب تتسع غرته حتى تجاوز عينيه وتبيض أشفاره؛ الرجل المغرب الذي يبياض شعر رأسه ولحيته من خلقة (jamhara)؛ المغرب الأبيض؛ المغرب الأبيض الأشفار من كل شيء؛ أغرب الفرس إذا فشت غرته حتى تأخذ العينين فتبيض الأشفار (sihah)؛ المغرب الأبيض الأشفار كأنما أغربت عينه في ذلك البياض (mufradat) (also H2.10, H3.25, H6.2)
+  - evidence: lex/src: عينين → root ع ي ن || Luna (part): The rare المغرب is whiteness spreading across eyelashes and around an eye; عَيْنٍ can mean the eye itself. The spring locus briefly becomes an eye edged in pale
+- **H1.22** [dictionary] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word مَغْرِبَ (5 dictionaries); source: as H1.21 (also H3.26, H5.10, H6.3)
+  - evidence: lex/src: عينين → root ع ي ن || Luna (part): The eye at the spring carries a precise detail: its lashes can be heard as whitened. The rare image brings the visible rim of the eye into the scene.
+- **H1.23** [dictionary] ق ل ل B003 «büyük küp» القُلَّة الجرة الكبيرة — word قُلْنَا (echo root, sound family only; 4 dictionaries); source: القلة التي جاءت في الحديث مثل قلال هجر هي جرار عظام (jamhara)؛ القلة إناء للعرب كالجرة الكبيرة؛ قلال هجر شبيهة بالحباب (sihah)؛ قلتين يعني هذه الحباب العظام واحدتها قلة؛ قلال هجر؛ القلة منها تأخذ مزادة من الماء (tahdhib)؛ القلة ما أقله الإنسان من جرة وحب (mufradat) (also H3.17, H4.16, H6.4)
+  - evidence: lex/src: ماء names the plain image of عَيْنٍ || Luna (complement): The sun is found setting into عَيْنٍ, a spring or water source, while قُلّة is a large water jar. Source and vessel complete one water image, as though the spri
+- **H1.24** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوْمًا (4 dictionaries); source: القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر؛ قائم السيف مقبضه؛ قائمة السرير والخوان والدابة (ayn)؛ القامة البكرة بأداتها؛ قائم السيف وقائمته مقبضه؛ القائمة واحدة قوائم الدواب؛ المقوم الخشبة التي يمسكها الحراث (sihah)؛ القامة البكرة التي يستقى بها الماء؛ النعامة الخشبة المعترضة ثم تعلق القامة؛ قائم السيف مقبضه وما سوى ذلك فهو قائمة (tahdhib)؛ القامة البكرة بأداتها (maqayis) (also H3.18, H4.17, H6.12)
+  - evidence: lex/src: ماء names the plain image of عَيْنٍ || Luna (complement): The sun is found setting in an عَيْنٍ that can mean a spring or water source. The rare قامة as a pulley for drawing water makes that source part of a working we
+- **H1.25** [dictionary] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قَوْمًا (2 dictionaries); source: قام الماء جمد؛ قامت الدابة وقفت (sihah)؛ قامت لفلان دابته إذا كلت أو عيت فلم تسر (tahdhib) (also H3.19, H4.18)
+  - evidence: lex/src: ماء names the plain image of عَيْنٍ || Luna (opposite): عَيْنٍ can be a flowing spring, while the rare قَوْمًا sense describes water that has frozen or stopped. The spring’s source and the still water stand against o
+- **H1.26** [dictionary] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word قَوْمًا (2 dictionaries); source: عين قائمة ذهب بصرها والحدقة صحيحة (ayn)؛ العين القائمة أن يذهب بصرها والحدقة صحيحة (tahdhib) (also H2.24, H6.13)
+  - evidence: lex/image: عين → root ع ي ن || Luna (opposite): The rare قَوْمًا sense is an eye whose sight has vanished despite its intact pupil; عَيْنٍ can mean a seeing eye. The word is read as a spring in the scene, but
+- **H1.27** [judged] ج د د B009 «büyükanne ve büyükbaba» أبوة الأجداد — word وَوَجَدَ (echo root, sound family only; 3 dictionaries); source: الجد أبو الأب وأبو الأم (sihah)؛ الجد أب الأب؛ أم الأم وأم الأب يقال لها جدة (tahdhib)؛ الجد أبو الأب وأبو الأم (mufradat)
+  - evidence: Luna (image): The muddy spring becomes a kind of family wellspring beside the people he finds. The image links the source of water with the roots of a lineage.
+- **H1.28** [judged] ج د د B010 «otlak kuyusu» بئر في موضع كلأ — word وَوَجَدَ (echo root, sound family only; 4 dictionaries); source: الجد البئر؛ البئر تقطع لها الأرض قطعا (maqayis)؛ الجد البئر تكون في موضع الكلأ (ayn)؛ الجد بالضم البئر التي تكون في موضع كثير الكلا (sihah)؛ الجد بلا هاء البئر الجيدة الموضع من الكلأ (tahdhib) (also H3.20)
+  - evidence: Luna (same): The spring can be heard as one water source beside another: an eye of water and a grazing well. The encounter gains a plain landscape of wells and springs.
+- **H1.29** [judged] ج د د B010 «otlak kuyusu» بئر في موضع كلأ — word وَجَدَهَا (echo root, sound family only; 4 dictionaries); source: as H1.28 (also H3.21)
+  - evidence: Luna (same): The rare well and the spring are both water sources. The encounter with عَيْنٍ can therefore carry the image of a well in a grassy place.
+- **H1.30** [judged] ح س ن B001 «akla, eğilime veya duyulara göre güzel ve beğenilir olma» الحسن ضد القبح — word حُسْنًا (5 dictionaries); source: الحسن ضد القبح (maqayis;sihah)؛ حسن الشيء فهو حسن (ayn)؛ الحسن نعت لما حسن (tahdhib)؛ كل مبهج مرغوب فيه (mufradat)؛ مستحسن من جهة العقل ومستحسن من جهة الهوى ومستحسن من جهة الحس (mufradat)؛ رجل حسن وامرأة حسناء وحسانة (m… (also L6.3)
+  - evidence: Luna (image): The spring in the scene also carries the word عين's sense of eye. The muddy water becomes an eye-like feature whose beauty is brought into hearing by حُسْنًا.
+- **H1.31** [judged] ع ذ ب B004 «gökyüzüne karşı örtüsüz» العذوب المكشوف للسماء — word تُعَذِّبَ (2 dictionaries); source: العذوب الذي ليس بينه وبين السماء ستر وكذلك العاذب (maqayis;tahdhib)؛ فبات عذوبا للسماء كأنه سهيل (maqayis;tahdhib) (also H2.22, T4)
+  - evidence: Luna (image): The spring can be pictured as an opening exposed to the sky. That open aperture deepens the image of the sun setting into the water-source.
+- **H1.32** [judged] ع ن د B003 «sıvının yana yönelerek veya kesilmeden akması» سيلان عاند جانح — word عِندَهَا (3 dictionaries); source: العرق العاند الذي يتفجر منه الدم فلا يكاد يرقأ (maqayis)؛ عند العرق سال ولم يرقأ وهو عرق عاند (sihah)؛ أعند في قيئه إذا لم ينقطع (maqayis)؛ أعند الرجل في قيئه إذا أتبع بعضه بعضا (sihah;tahdhib)؛ عند الدم إذا سال في جانب…
+  - evidence: Luna (same): The spring is heard as a steady stream of water. The rare flowing sense makes the source feel active rather than still.
+- **H1.33** [judged] ع ن د B005 «başka seçenek, kaçınma payı veya çıkış yolu» انعدام البد والحيلة — word عِندَهَا (3 dictionaries); source: ما عنه عِنْدَد أي ما عنه ميل ولا حيدودة (maqayis)؛ مالي منه عِنْدَد ومُعْلَنْدَد أي بد (sihah;tahdhib)؛ العندد الحيلة (tahdhib)؛ ما وجدت إلى كذا معلنددا أي سبيلا (sihah)
+  - evidence: Luna (image): The spring can faintly look like an outlet in the earth, an opening through which water escapes. The setting gains a small image of passage out.
+- **H1.34** [judged] غ ر ب B002 «büyük kuyu kovası ve onunla su alma» الغرب الدلو العظيمة والراوية — word مَغْرِبَ (5 dictionaries); source: الغرب الدلو العظيمة؛ الغرب بفتح الراء الراوية (maqayis)؛ الغرب أعظم من الدلو وهو دلو تام؛ الغرب الراوية؛ أغرب الساقي أي أكثر الغرب (ayn)؛ الغرب دلو عظيمة (jamhara)؛ الغرب الدلو العظيمة؛ أغربت السقاء ملأته (sihah)؛ سمي ا…
+  - evidence: Luna (part): The spring can be pictured as a source from which a great bucket draws water. The rare bucket sense gives the water scene a working tool.
+- **H1.35** [judged] غ ر ب B002 «büyük kuyu kovası ve onunla su alma» الغرب الدلو العظيمة والراوية — word تَغْرُبُ (5 dictionaries); source: as H1.34
+  - evidence: Luna (part): The rare غرب sense is a great bucket used to draw water; عَيْنٍ can mean a running spring. The image brings the bucket to the source, as though the spring is be
+- **H1.36** [judged] غ ر ب B011 «sağrı çukurları ve çok sıkı bağ» هيئة الغراب في الأعضاء والعقد — word مَغْرِبَ (5 dictionaries); source: الغرابان نقرتان عند صلوى العجز من الفرس؛ رجل الغراب نوع من الصر (maqayis)؛ الغرابان نقرتان في العجز؛ رجل الغراب وهو أشد صرارا؛ صر عليه رجل الغراب (ayn)؛ غرابا الفرس والبعير حرفا الوركين (jamhara)؛ غرابا الفرس والبعير حد… (also L5.8)
+  - evidence: Luna (image): The spring is heard as both a water source and a hollow. The horse’s paired hollows give عَيْنٍ a second, recess-like shape.
+- **H1.37** [judged] غ ر ب B013 «kaynağı bilinmeyen ok ve hedefsiz bakış» سهم غرب ونظر غرب — word مَغْرِبَ (5 dictionaries); source: أتاه سهم غرب إذا لم يدر من رماه به (maqayis)؛ سهم غرب لا يعرف راميه (ayn)؛ أتاه سهم غرب إذا جاءه من حيث لا يدري به (jamhara)؛ أصابه سهم غرب إذا كان لا يدرى من رماه (sihah)؛ سهم غرب لا يدرى من رماه؛ نظر غرب ليس بقاصد (mu… (also L6.5, L7.5)
+  - evidence: Luna (part): The eye is not only a spring in this layered scene; it is the organ behind a gaze. The rare image adds the possibility of looking without aim.
+- **H1.38** [judged] غ ر ب B013 «kaynağı bilinmeyen ok ve hedefsiz bakış» سهم غرب ونظر غرب — word تَغْرُبُ (5 dictionaries); source: as H1.37 (also L6.6, L7.6)
+  - evidence: Luna (part): غرب can name an aimless look, and عَيْنٍ can mean the eye that sees. The eye and glance make a small picture of seeing without a fixed target.
+- **H1.39** [judged] ق و ل B002 «konuşma organı» اللسان آلة القول — word قُلْنَا (3 dictionaries); source: المقول اللسان (maqayis;ayn;sihah)
+  - evidence: Luna (complement): The rare قَوْل sense is the tongue, the organ of speech, while عَيْنٍ can mean the eye. In the ayah, the setting is found and then speech follows, so seeing and
+- **H1.40** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قَوْمًا (1 dictionaries, sole attestation); source: قام بي ظهري أي أوجعني؛ قامت بي عيناي؛ كل ما أوجعك من جسدك فقد قام بك (tahdhib) (also H4.28)
+  - evidence: Luna (part): The rare قَوْمًا sense names pain borne by a body part, including the eyes. Since عَيْنٍ can mean an eye, the muddy spring can briefly carry an embodied eye-ima
+- surah ayat these members touch (chain material): 18:6 (ق ل ل B003) → 18:7 (ح س ن B001) → 18:19 (ع ذ ب B001, غ ر ب B013) → 18:28 (ح س ن B001, غ ر ب B004, ق و م B021) → 18:29 (ء خ ذ B006, ج د د B006, ج د د B011, ع ذ ب B001, غ ر ب B003, غ ر ب B005) → 18:41 (ء خ ذ B006, ج د د B006, ج د د B011, ع ذ ب B001, غ ر ب B003, غ ر ب B005) → 18:45 (ء خ ذ B006, ج د د B006, ج د د B011, ع ذ ب B001, غ ر ب B003, غ ر ب B005) → 18:46 (ح س ن B001) → 18:55 (ء خ ذ B004) → 18:57 (غ ر ب B005) → 18:59 (غ ر ب B005) → 18:60 (ء خ ذ B006) → 18:61 (ء خ ذ B006) → 18:63 (ج د د B006) → 18:79 (ج د د B006) → 18:80 (ج د د B009) → 18:87 (غ ر ب B005) → 18:90 (ع ذ ب B004) → 18:93 (ع ن د B003) → 18:101 (غ ر ب B004, ق و م B021) → 18:109 (ج د د B006)
+
+### H2 مَغْرِبَ — 10 roots converge
+Plain sense of مَغْرِبَ: güneşin batması, batı yönü ve batış yeri (غروب الشمس والمغرب)
+- **H2.1** [dictionary] ش م س B002 «ürküp kaçınma, durulmama ve güçlük çıkarma» الشماس والشموس في الدابة والخلق — word ٱلشَّمْسِ (5 dictionaries); source: الشموس من الدواب الذي لا يكاد يستقر (maqayis)؛ الشمس والشموس من الدواب الذي إذا نخس لم يستقر (ayn;tahdhib)؛ شمس الفرس شموسا وشماسا أي منع ظهره (sihah)؛ رجل شموس عسر (ayn;tahdhib)؛ رجل شموس صعب الخلق (sihah)؛ امرأة شموس إذا كانت تنفر من الريبة (maqayis)؛ شمس فلان شماسا إذا ند ولم يستقر (mufradat) (also H5.1, L3.3, T9)
+  - evidence: lex/src: شمس names the plain image of مَغْرِبَ
+- **H2.2** [dictionary] ش م س B003 «birine düşmanlığını açıkça göstermek» إبداء العداوة — word ٱلشَّمْسِ (4 dictionaries); source: شمس لي فلان إذا أبدى لك عداوته (maqayis;sihah)؛ شمس لي فلان إذا أبدى لك عدواته (ayn)؛ شمس لي فلان إذا أبدى لك عداوته كأنه قد هم أن يفعل (tahdhib) (also H4.22, H5.2, L1.7, L3.4)
+  - evidence: lex/src: شمس names the plain image of مَغْرِبَ
+- **H2.3** [dictionary] ش م س B004 «kolye sarkıtları ya da bir kolye türü» شموس القلائد — word ٱلشَّمْسِ (3 dictionaries); source: الشموس معاليق القلائد (ayn;tahdhib)؛ الشمس ضرب من القلائد (sihah) (also H5.3, L5.3)
+  - evidence: lex/src: شمس names the plain image of مَغْرِبَ
+- **H2.4** [dictionary] ش م س B007 «güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri» التسمية بالشمس وما نسب إليها — word ٱلشَّمْسِ (3 dictionaries); source: as H1.11 (also H1.11, H3.8, H4.8, H5.4)
+  - evidence: lex/image: شمس names the plain image of مَغْرِبَ
+- **H2.5** [dictionary] ع ي ن B008 «güneş yuvarlağı» عين الشمس — word عَيْنٍ (4 dictionaries); source: عين الشمس مشبه بعين الإنسان (maqayis); عين الشمس صيخدها (ayn); العين: عين الشمس (sihah); طلعت العين وغابت العين، أي الشمس (tahdhib) (also H5.5, H8.1, T3)
+  - evidence: lex/image: شمس names the plain image of مَغْرِبَ || Luna (image): The sun’s eye reaches its setting place. The distant sunset becomes the visible passage of the solar disk toward the horizon.
+- **H2.6** [dictionary] غ ر ب B004 «gözyaşı yolları, akışı ve göz pınarı rahatsızlığı» مجاري الدمع وأطراف العين — word تَغْرُبُ (4 dictionaries); source: as H1.15 (also H1.15)
+  - evidence: lex/src: غروب names the plain image of مَغْرِبَ
+- **H2.7** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word تَغْرُبُ (3 dictionaries); source: as H1.17 (also H1.18, H3.14, H4.13)
+  - evidence: lex/image: غروب names the plain image of مَغْرِبَ
+- **H2.8** [dictionary] غ ر ب B007 «yurttan uzaklaşma ve uzaklaştırma» الغربة والبعد والتنحي — word تَغْرُبُ (5 dictionaries); source: الغربة البعد عن الوطن؛ شأو مغرب أي بعيد؛ مغربة خبر؛ إذا أمعنت الكلاب في طلب الصيد قيل غربت وفيه نظر (maqayis)؛ الغربة الاغتراب من الوطن؛ غرب فلان عنا أي تنحى؛ أغربته وغربته أي نحيته؛ غربة النوى؛ أغرب القوم انتووا؛ غربت الكلاب أمعنت (ayn)؛ غرب الرجل تغريبا إذا بعد؛ اغرب عني أي ابعد؛ مغربة خبر؛ المصدر الغربة (jamhara)؛ الغربة الاغتراب؛ الغرباء الأباعد؛ التغريب النفي عن البلد؛ اغرب عني أي تباعد؛ نوى غربة (sihah)؛ لكل متباعد غريب؛ الغراب سمي لكونه م…
+  - evidence: lex/src: مغرب names the plain image of مَغْرِبَ || Luna (image): The rare غرب sense is exile or distance from home, and مَغْرِبَ is the western setting place. The horizon becomes a remote, estranging edge for the traveler.
+- **H2.9** [dictionary] غ ر ب B008 «nadir, benzersiz veya anlaşılması güç» الغريب النادر والغامض — word تَغْرُبُ (4 dictionaries); source: الغريب الغامض من الكلام؛ غربت الكلمة؛ صاحبه مغرب (ayn)؛ الغريب من هذا والمصدر الغربة (jamhara)؛ أغرب الرجل جاء بشيء غريب (sihah)؛ لكل شيء فيما بين جنسه عديم النظير غريب؛ العلماء غرباء لقلتهم (mufradat) (also H7.11)
+  - evidence: lex/src: مغرب names the plain image of مَغْرِبَ || Luna (image): A strange or unfamiliar quality attaches to the western setting place. The sunset horizon becomes the unfamiliar edge of the journey.
+- **H2.10** [dictionary] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word تَغْرُبُ (5 dictionaries); source: as H1.21 (also H1.21, H3.25, H6.2)
+  - evidence: lex/image: مغرب names the plain image of مَغْرِبَ
+- **H2.11** [dictionary] غ ر ب B014 «uzak uçan söylence kuşu veya büyük felaket» عنقاء مغرب طائر بعيد أو داهية — word تَغْرُبُ (3 dictionaries); source: العنقاء المغرب ويقال المغربة وإغرابها في طيرانها (ayn)؛ عنقاء مغرب طائر وليس بثبت غير أنهم يسمون الداهية عنقاء مغرب (jamhara)؛ عنقاء مغرب وصف بذلك لأنه كان طيرا تناول جارية فأغرب بها (mufradat) (also H4.24, L2.8, T7)
+  - evidence: lex/image: مغرب names the plain image of مَغْرِبَ || Luna (image): The rare branch names عنقاء مغرب, a far-flying legendary bird; مَغْرِبَ is the western setting place. The horizon becomes the bird’s distant country, giving the
+- **H2.12** [dictionary] غ ر ب B015 «belirli bir ağaç, kırmızı reçinesi veya boyası» الغرب شجر وصمغ وصبغ أحمر — word تَغْرُبُ (5 dictionaries); source: الغرب شجر؛ الغربي صبغ أحمر (maqayis)؛ الغربي شجر تصيبه الشمس بحرها عند الأفول؛ الغربي صمغ أحمر؛ الغرب شجرة (ayn)؛ الغرب شجرة (jamhara)؛ الغرب ضرب من الشجر (sihah)؛ الغرب شجر لا يثمر لتباعده من الثمرات (mufradat) (also H8.2, T11)
+  - evidence: lex/src: شمس names the plain image of مَغْرِبَ || Luna (image): The rare الغرب is a red-resin tree exposed to the sun’s heat at setting; مَغْرِبَ is the sun’s western disappearance place. The tree’s red trace makes the reach
+- **H2.13** [dictionary] ق ر ن B006 «boynuz veya boynuz biçimli çıkıntı» نتوء قوي كقرن الرأس — word ٱلْقَرْنَيْنِ (4 dictionaries); source: القرن للشاة وغيرها وهو ناتىء قوي؛ الذوائب قرونا؛ ذات القرون؛ القرن جبيل صغير منفرد (maqayis)؛ قرن الثور معروف وموضعه من رأس الإنسان قرن أيضا؛ لكل رأس قرنان؛ القرن جبل صغير منفرد؛ القرنان ما يبنى على رأس البئر؛ الأقرن والقرناء من الشاء ذات القرون؛ سمي ذا القرنين لأنه ضرب ضربتين على قرنيه (ayn)؛ القرن للثور وغيره؛ القرن الخصلة من الشعر؛ القرن جبيل صغير منفرد؛ قرن الشمس أعلاها وأول ما يبدو منها؛ القرنة الطرف الشاخص من كل شئ؛ ذو القرنين لقب إسكندر ا… (also H5.13, H8.4)
+  - evidence: lex/src: شمس names the plain image of مَغْرِبَ
+- **H2.14** [dictionary] ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word قَوْمًا (2 dictionaries); source: قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib) (also H5.14, H8.5, T1)
+  - evidence: lex/src: شمس names the plain image of مَغْرِبَ || Luna (opposite): The rare قَوْمًا sense places the sun at noon, while مَغْرِبَ names its setting place or time. The pair stretches from the sun’s height at midday to its disappe
+- **H2.15** [judged] ء خ ذ B006 «su tutan çukur veya havuz» موضع يمسك الماء — word تَتَّخِذَ (4 dictionaries); source: as H1.2 (also H1.2, H3.1, H4.1)
+  - evidence: Luna (image): The sun’s setting-place can be pictured as a basin that holds water. The rare sense makes the western scene feel like a hollow receiving what descends into it.
+- **H2.16** [judged] ب ل غ B007 «atı hızlandırmak için dizgini ileri verme» مد الفارس عنانه لزيادة العدو — word بَلَغَ (2 dictionaries); source: بلغ الفارس يراد به أنه يمد يده بعنان فرسه ليزيد في عدوه (maqayis)؛ بلغ الفارس إذا مد يده بعنان فرسه ليزيد في جريه (sihah)
+  - evidence: Luna (complement): The journey to the sun's western setting can be heard as a mounted charge. The reins are stretched to hurry the rider toward that endpoint.
+- **H2.17** [judged] ج د د B003 «kesme ve ayırma» قطع وصرم — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: جددت الشيء جدا وهو مجدود وجديد أي مقطوع؛ الجداد صرام النخل (maqayis)؛ جداد النخل صرامه؛ جد ثدي أمك اذدعي عليه بالقطيعة (ayn)؛ جددت الشيء أجده جدا قطعته؛ جد النخل أي صرمه؛ جدت أخلاف الناقة (sihah)؛ جد التمرة؛ الجداد الصر…
+  - evidence: Luna (image): The sun reaches its western setting as though the day were cut off at the edge of the world. That severing image makes the horizon feel final.
+- **H2.18** [judged] ج د د B003 «kesme ve ayırma» قطع وصرم — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: as H2.17
+  - evidence: Luna (image): The sun’s setting can be heard as the day being cut off. The rare severing image gives the western limit a sharper sense of ending.
+- **H2.19** [judged] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَجَدَهَا (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H3.2, H4.2)
+  - evidence: Luna (image): The western setting is an edge of the sun’s path. The rare riverbank makes that endpoint echo the edge of a body of water.
+- **H2.20** [judged] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَوَجَدَ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.6, H3.3, H4.3)
+  - evidence: Luna (image): The sun sets at a water's edge, where western horizon and shore meet. The rare shoreline sense turns the setting place into a coastlike boundary.
+- **H2.21** [judged] ج د د B013 «cırcır böceği» دويبة الجُدجُد — word وَوَجَدَ (echo root, sound family only; 2 dictionaries); source: الجدجد دويبة على خلقة الجندب (ayn)؛ الجدجد صرار الليل وفيه شبه من الجراد (sihah) (also H8.8, T14)
+  - evidence: Luna (complement): At sunset, a night cricket can be imagined beginning its call. The rare animal sense supplies a sound for the evening scene.
+- **H2.22** [judged] ع ذ ب B004 «gökyüzüne karşı örtüsüz» العذوب المكشوف للسماء — word تُعَذِّبَ (2 dictionaries); source: as H1.31 (also H1.31, T4)
+  - evidence: Luna (image): The setting-place can be pictured as an open expanse under the sky. The rare sense adds an unobstructed horizon to the scene of sunset.
+- **H2.23** [judged] ق و ل B016 «teknik tanım» قول الشيء حده — word قُلْنَا (1 dictionaries, sole attestation); source: يستعمله المنطقيون في معنى الحد فيقولون قول الجوهر كذا وقول العرض كذا أي حدهما (mufradat) (also L2.10)
+  - evidence: Luna (image): The west is heard as the sun’s boundary, the place where its course meets an edge. The traveler reaches that edge as though arriving at a definition of the hori
+- **H2.24** [judged] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word قَوْمًا (2 dictionaries); source: as H1.26 (also H1.26, H6.13)
+  - evidence: Luna (image): The rare قَوْمًا sense is an eye that has lost its sight although its pupil remains. Beside مَغْرِبَ, the sun’s disappearance at the west supplies an image for 
+- surah ayat these members touch (chain material): 18:17 (ع ي ن B008, غ ر ب B015, ق ر ن B006, ق و م B017) → 18:28 (غ ر ب B004, ق و م B021) → 18:29 (ء خ ذ B006, ج د د B006, ش م س B002, غ ر ب B005) → 18:32 (ج د د B003) → 18:34 (ش م س B002) → 18:41 (ء خ ذ B006, ج د د B006, غ ر ب B005, غ ر ب B007) → 18:45 (ء خ ذ B006, ج د د B006, غ ر ب B005) → 18:47 (ق ر ن B006) → 18:50 (ب ل غ B007) → 18:53 (ش م س B002) → 18:55 (ش م س B002) → 18:57 (غ ر ب B005) → 18:59 (غ ر ب B005) → 18:60 (ء خ ذ B006) → 18:61 (ء خ ذ B006) → 18:63 (ج د د B006, غ ر ب B007) → 18:73 (ش م س B002) → 18:79 (ج د د B006) → 18:87 (غ ر ب B005) → 18:90 (ع ذ ب B004, ع ي ن B008, غ ر ب B015, ق ر ن B006, ق و م B017) → 18:93 (ش م س B002, ق و م B017) → 18:96 (ش م س B002, ق و ل B016) → 18:101 (غ ر ب B004, ق و م B021) → 18:105 (ق و م B017) → 18:109 (ج د د B006)
+
+### H3 حَمِئَةٍ — 8 roots converge
+Plain sense of حَمِئَةٍ: kara, kötü kokulu su çamuru (الحمأة السوداء في الماء)
+- **H3.1** [dictionary] ء خ ذ B006 «su tutan çukur veya havuz» موضع يمسك الماء — word تَتَّخِذَ (4 dictionaries); source: as H1.2 (also H1.2, H2.15, H4.1)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (image): The water-holding hollow gathers the black mud of the spring. The scene becomes a dark pool rather than a clear source.
+- **H3.2** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَجَدَهَا (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H2.19, H4.2)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (image): The muddy spring can be pictured at a water’s edge. The rare bank sense gives the dark water a shoreline.
+- **H3.3** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَوَجَدَ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.6, H2.20, H4.3)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (image): The spring's shore gathers the dark mud at its margin. Together the words make a muddy waterside scene.
+- **H3.4** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: as H1.7 (also H1.7, H4.4)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (opposite): The rare dry land or animal contrasts with the muddy water. The dark spring appears as the opposite of what has run dry.
+- **H3.5** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: as H1.7 (also H1.8, H4.5)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (opposite): The muddy water stands against the rare sense of a dry, waterless place. The adjective makes the scene's moisture and mud vivid by contrast.
+- **H3.6** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word وَوَجَدَ (echo root, sound family only; 2 dictionaries); source: as H1.9 (also H1.9, H4.6)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ
+- **H3.7** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word وَجَدَهَا (echo root, sound family only; 2 dictionaries); source: as H1.9 (also H1.10, H4.7)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ
+- **H3.8** [dictionary] ش م س B007 «güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri» التسمية بالشمس وما نسب إليها — word ٱلشَّمْسِ (3 dictionaries); source: as H1.11 (also H1.11, H2.4, H4.8, H5.4)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ || Luna (image): The rare named spring can be pictured with the mud that darkens this water. The name Shams becomes part of the scene of a muddy source.
+- **H3.9** [dictionary] ع ذ ب B001 «tatlı ve kolay tüketilen yiyecek ya da içecek» العذوبة والطيب في الماء والمطعوم — word تُعَذِّبَ (6 dictionaries); source: as H1.12 (also H1.12)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (opposite): Sweet, pleasant water is set against black foul mud. The spring holds both the pull of drink and the image of something dark and altered.
+- **H3.10** [dictionary] ع ي ن B007 «su sızdıran ince delik» عين الجلد والسقاء — word عَيْنٍ (5 dictionaries); source: عين السقاء (maqayis); تعين السقاء أي بلي ورق منه مواضع (ayn); بالجلد عين، وهي دوائر رقيقة (sihah); سقاء عين إذا رق فلم يمسك الماء (tahdhib); الثقب في المزادة تشبيها بها في الهيئة وفي سيلان الماء (mufradat) (also H4.9)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ || Luna (image): The muddy spring can be pictured as a worn waterskin opening, leaking dark water. The setting scene gains a rough, porous edge instead of a smooth pool.
+- **H3.11** [dictionary] غ ر ب B003 «kuyuda dökülen su ve su taşkınlığı» ماء البئر المنصب وكثرته — word تَغْرُبُ (3 dictionaries); source: as H1.13 (also H1.13, H4.10)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (image): The rare غرب is water spilled beside a well that quickly turns foul; حَمِئَةٍ names black, foul mud. Together they thicken the spring into a dark pool whose wat
+- **H3.12** [dictionary] غ ر ب B003 «kuyuda dökülen su ve su taşkınlığı» ماء البئر المنصب وكثرته — word مَغْرِبَ (3 dictionaries); source: as H1.13 (also H1.14, H4.11)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (image): The dark mud sits in the same image as water spilled and altered around a well. The scene gains a sense of stagnant, fouled water.
+- **H3.13** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word مَغْرِبَ (3 dictionaries); source: as H1.17 (also H1.17, H4.12, H5.7)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ
+- **H3.14** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word تَغْرُبُ (3 dictionaries); source: as H1.17 (also H1.18, H2.7, H4.13)
+  - evidence: lex/image: ماء names the plain image of حَمِئَةٍ || Luna (opposite): غروب can mean the moisture or gleam at the sharp edges of teeth; حَمِئَةٍ is black, foul mud. The bright edge against dark water makes the setting feel like a l
+- **H3.15** [dictionary] غ ر ب B009 «üst sırt, yüksek tepe ve serbest bırakma» الغارب أعلى الظهر والموج — word تَغْرُبُ (5 dictionaries); source: as H1.19 (also H1.19, H4.14)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ || Luna (image): غارب can mean the crest of a wave, while حَمِئَةٍ names black muddy water. Together they let the setting sun sink among dark wave crests, animating the pool’s s
+- **H3.16** [dictionary] غ ر ب B009 «üst sırt, yüksek tepe ve serbest bırakma» الغارب أعلى الظهر والموج — word مَغْرِبَ (5 dictionaries); source: as H1.19 (also H1.20, H4.15)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ || Luna (image): A crest rises from dark, muddy water. The spring scene becomes a picture of a wave lifting above a foul pool.
+- **H3.17** [dictionary] ق ل ل B003 «büyük küp» القُلَّة الجرة الكبيرة — word قُلْنَا (echo root, sound family only; 4 dictionaries); source: as H1.23 (also H1.23, H4.16, H6.4)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ || Luna (image): A large قُلّة can hold the water named by حَمِئَةٍ, the dark muddy spring. The jar brings the sun’s strange setting close as a vessel filled at a muddy source.
+- **H3.18** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوْمًا (4 dictionaries); source: as H1.24 (also H1.24, H4.17, H6.12)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ || Luna (image): The traveler reaches a حَمِئَةٍ spring of black mud, with the rare قامة as a pulley at the well. The practical water-drawing image sets the dark, muddy horizon 
+- **H3.19** [dictionary] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قَوْمًا (2 dictionaries); source: as H1.25 (also H1.25, H4.18)
+  - evidence: lex/src: ماء names the plain image of حَمِئَةٍ || Luna (image): The rare قَوْمًا sense is water standing still, and حَمِئَةٍ names black, muddy water. Together they make a picture of a stagnant dark pool at the sun’s setting
+- **H3.20** [judged] ج د د B010 «otlak kuyusu» بئر في موضع كلأ — word وَوَجَدَ (echo root, sound family only; 4 dictionaries); source: as H1.28 (also H1.28)
+  - evidence: Luna (image): The dark spring can take the shape of a muddy pasture well. The two senses make the water source feel set in grazing country.
+- **H3.21** [judged] ج د د B010 «otlak kuyusu» بئر في موضع كلأ — word وَجَدَهَا (echo root, sound family only; 4 dictionaries); source: as H1.28 (also H1.29)
+  - evidence: Luna (image): The well in a grassy place can be pictured with muddy water. The rare well sense gives the black mud a water source nearby.
+- **H3.22** [judged] ع ي ن B009 «göze benzer çukur, yer veya eğim» النقرة أو الموضع العيني — word عَيْنٍ (4 dictionaries); source: عين الركية وهما عينان كأنهما نقرتان في مقدمها (maqayis); عين الركبة (ayn;sihah;tahdhib); في الميزان عين إذا رجحت إحدى كفتيه (tahdhib); عين القوس التي يقع فيها البندق (tahdhib)
+  - evidence: Luna (image): The dark mud seems to fill an eye-like hollow. The sun’s setting is pictured in a notch or bowl made heavy with silt.
+- **H3.23** [judged] غ ر ب B010 «karga ve karga gibi kapkara» الغراب وسواد الغراب — word تَغْرُبُ (5 dictionaries); source: الغراب معروف؛ الغربيب الأسود مشتق من لون الغراب (maqayis)؛ جمع الغراب غربان والعدد أغربة؛ الغربيب الأسود (ayn)؛ الغراب الطائر المعروف والجمع غربان وأغرب وغرب وأغربة؛ الغربيب الأسود (jamhara)؛ الغراب واحد الغربان؛ جمع ال… (also H8.11)
+  - evidence: Luna (same): غرب can denote raven-blackness, and حَمِئَةٍ is black, foul mud. The spring takes on a raven-dark color as the sun goes down.
+- **H3.24** [judged] غ ر ب B010 «karga ve karga gibi kapkara» الغراب وسواد الغراب — word مَغْرِبَ (5 dictionaries); source: as H3.23 (also H8.12)
+  - evidence: Luna (same): The muddy spring's blackness takes on the crow's color. The water scene is heard as dark as a crow's plumage.
+- **H3.25** [judged] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word تَغْرُبُ (5 dictionaries); source: as H1.21 (also H1.21, H2.10, H6.2)
+  - evidence: Luna (opposite): The rare المغرب is a white blaze or pale eyelids; حَمِئَةٍ is black, foul mud. Their opposition gives the scene a sharp pale-on-black edge, like the sun’s last 
+- **H3.26** [judged] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word مَغْرِبَ (5 dictionaries); source: as H1.21 (also H1.22, H5.10, H6.3)
+  - evidence: Luna (opposite): The muddy spring is dark, while the rare image of المغرب is white-lashed. The color contrast sharpens the blackness of the water.
+- surah ayat these members touch (chain material): 18:6 (ق ل ل B003) → 18:11 (غ ر ب B010) → 18:19 (ع ذ ب B001) → 18:29 (ء خ ذ B006, ج د د B006, ج د د B011, ع ذ ب B001, غ ر ب B003, غ ر ب B005) → 18:41 (ء خ ذ B006, ج د د B006, ج د د B011, ع ذ ب B001, غ ر ب B003, غ ر ب B005) → 18:45 (ء خ ذ B006, ج د د B006, ج د د B011, ع ذ ب B001, غ ر ب B003, غ ر ب B005) → 18:57 (غ ر ب B005) → 18:59 (غ ر ب B005) → 18:60 (ء خ ذ B006) → 18:61 (ء خ ذ B006) → 18:63 (ج د د B006) → 18:79 (ج د د B006) → 18:87 (غ ر ب B005) → 18:109 (ج د د B006)
+
+### H4 تُعَذِّبَ — 9 roots converge
+Plain sense of تُعَذِّبَ: ağır acı çektirme ve cezalandırma (العذاب إيلام وعقوبة)
+- **H4.1** [dictionary] ء خ ذ B006 «su tutan çukur veya havuz» موضع يمسك الماء — word تَتَّخِذَ (4 dictionaries); source: as H1.2 (also H1.2, H2.15, H3.1)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.2** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَجَدَهَا (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H2.19, H3.2)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.3** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word وَوَجَدَ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.6, H2.20, H3.3)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.4** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: as H1.7 (also H1.7, H3.4)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.5** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: as H1.7 (also H1.8, H3.5)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.6** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word وَوَجَدَ (echo root, sound family only; 2 dictionaries); source: as H1.9 (also H1.9, H3.6)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.7** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word وَجَدَهَا (echo root, sound family only; 2 dictionaries); source: as H1.9 (also H1.10, H3.7)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.8** [dictionary] ش م س B007 «güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri» التسمية بالشمس وما نسب إليها — word ٱلشَّمْسِ (3 dictionaries); source: as H1.11 (also H1.11, H2.4, H3.8, H5.4)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.9** [dictionary] ع ي ن B007 «su sızdıran ince delik» عين الجلد والسقاء — word عَيْنٍ (5 dictionaries); source: as H3.10 (also H3.10)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.10** [dictionary] غ ر ب B003 «kuyuda dökülen su ve su taşkınlığı» ماء البئر المنصب وكثرته — word تَغْرُبُ (3 dictionaries); source: as H1.13 (also H1.13, H3.11)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.11** [dictionary] غ ر ب B003 «kuyuda dökülen su ve su taşkınlığı» ماء البئر المنصب وكثرته — word مَغْرِبَ (3 dictionaries); source: as H1.13 (also H1.14, H3.12)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.12** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word مَغْرِبَ (3 dictionaries); source: as H1.17 (also H1.17, H3.13, H5.7)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.13** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word تَغْرُبُ (3 dictionaries); source: as H1.17 (also H1.18, H2.7, H3.14)
+  - evidence: lex/image: ماء names the plain image of تُعَذِّبَ
+- **H4.14** [dictionary] غ ر ب B009 «üst sırt, yüksek tepe ve serbest bırakma» الغارب أعلى الظهر والموج — word تَغْرُبُ (5 dictionaries); source: as H1.19 (also H1.19, H3.15)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.15** [dictionary] غ ر ب B009 «üst sırt, yüksek tepe ve serbest bırakma» الغارب أعلى الظهر والموج — word مَغْرِبَ (5 dictionaries); source: as H1.19 (also H1.20, H3.16)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.16** [dictionary] ق ل ل B003 «büyük küp» القُلَّة الجرة الكبيرة — word قُلْنَا (echo root, sound family only; 4 dictionaries); source: as H1.23 (also H1.23, H3.17, H6.4)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.17** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوْمًا (4 dictionaries); source: as H1.24 (also H1.24, H3.18, H6.12)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.18** [dictionary] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قَوْمًا (2 dictionaries); source: as H1.25 (also H1.25, H3.19)
+  - evidence: lex/src: ماء names the plain image of تُعَذِّبَ
+- **H4.19** [judged] ء خ ذ B002 «suçundan sorumlu tutma» المؤاخذة بالذنب — word تَتَّخِذَ (1 dictionaries, sole attestation); source: آخذه بذنبه مؤاخذة (sihah) (also L1.3)
+  - evidence: Luna (part): Holding someone accountable for sin can lead into punishment. The rare sense makes the punitive branch sound like an answer to culpability.
+- **H4.20** [judged] ء خ ذ B003 «yakalayıp tutsak etme» القبض والأسر — word تَتَّخِذَ (2 dictionaries); source: الأخيذ الأسير والمرأة أخيذة (sihah)؛ ومن هنا قيل للأسير أخيذ وقد أخذ فلان إذا أسر وخذوهم معناه ائسروهم (tahdhib)
+  - evidence: Luna (part): Capturing people can become one form of punitive treatment. The rare branch gives the punishment option a sharper image of confinement.
+- **H4.21** [judged] ب ل غ B011 «başa gelen ağır ve yıkıcı büyük olay» البُلغين الداهية — word بَلَغَ (1 dictionaries, sole attestation); source: البُلغين الداهية؛ بلغت منا البُلغين (sihah)
+  - evidence: Luna (same): Punishment can be heard as the kind of overwhelming calamity named by the rare sense. The option of inflicting pain takes on the weight of a destructive event.
+- **H4.22** [judged] ش م س B003 «birine düşmanlığını açıkça göstermek» إبداء العداوة — word ٱلشَّمْسِ (4 dictionaries); source: as H2.2 (also H2.2, H5.2, L1.7, L3.4)
+  - evidence: Luna (part): The rare sense gives the punitive option a hostile face. The expressed enmity stands just before its harmful act.
+- **H4.23** [judged] غ ر ب B007 «yurttan uzaklaşma ve uzaklaştırma» الغربة والبعد والتنحي — word مَغْرِبَ (5 dictionaries); source: as H2.8 (also H5.8)
+  - evidence: Luna (part): Exile can be heard as one concrete form of punishment. The punitive branch gains the possibility of banishing those who resist.
+- **H4.24** [judged] غ ر ب B014 «uzak uçan söylence kuşu veya büyük felaket» عنقاء مغرب طائر بعيد أو داهية — word تَغْرُبُ (3 dictionaries); source: as H2.11 (also H2.11, L2.8, T7)
+  - evidence: Luna (part): The rare غرب sense can mean a great calamity; تُعَذِّبَ names punishment. The punitive option now carries the scale of a disaster visited on the people.
+- **H4.25** [judged] غ ر ب B014 «uzak uçan söylence kuşu veya büyük felaket» عنقاء مغرب طائر بعيد أو داهية — word مَغْرِبَ (3 dictionaries); source: as H2.11 (also H5.11, T6)
+  - evidence: Luna (image): Punishment becomes an oncoming calamity for the people. The rare image gives the punitive choice the scale of a great misfortune.
+- **H4.26** [judged] غ ر ب B017 «şiddetli ağrı veya koyunda tüy döken hastalık» الوجع والداء في البدن أو الشاة — word مَغْرِبَ (1 dictionaries, sole attestation); source: أغرب الرجل إذا اشتد وجعه؛ الغرب في الشاة داء يتمعط منه خرطومها ويسقط منه شعر عينيها (sihah) (also L2.9)
+  - evidence: Luna (same): The punitive branch makes the rare pain sense audible. Punishment is experienced as severe bodily suffering.
+- **H4.27** [judged] ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word قَوْمًا (4 dictionaries); source: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat)
+  - evidence: Luna (part): The punishment option falls under the shadow of a day when people stand before God for judgment. The rare sense of قَوْمًا makes this choice echo the larger rec
+- **H4.28** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قَوْمًا (1 dictionaries, sole attestation); source: as H1.40 (also H1.40)
+  - evidence: Luna (part): The rare sense describes pain lodged in a bodily member, while تُعَذِّبَ is the act of inflicting punishment. The offered punishment is heard through the pain i
+- **H4.29** [judged] و ج د B004 «üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak» وجدان الحزن والمحبة — word وَوَجَدَ (4 dictionaries); source: الوجد من الخزن (ayn)؛ الوجد: الحب؛ وجدت به أجد وجدا (jamhara)؛ وجد في الحزن وجدا؛ توجدت لفلان أي حزنت له (sihah)؛ وجود بقوة الشهوة؛ يعبر عن الحزن والحب بالوجد (mufradat)
+  - evidence: Luna (part): The punishment option carries the sorrow and pain that the rare finding-sense can name. The emotional consequence of the act comes into view beside the threat i
+- **H4.30** [judged] و ج د B005 «öfke duymak ve birine kızmak» الموجدة والغضب — word وَوَجَدَ (5 dictionaries); source: وجدت في الغضب وجدانا (maqayis)؛ الموجدة من الغضب (ayn)؛ وجدت على الرجل موجدة (jamhara)؛ وجد عليه في الغضب موجدة ووجدانا (sihah)؛ يعبر عن الغضب بالموجدة (mufradat)
+  - evidence: Luna (image): The punishment branch can sound like anger taking punitive form. That hearing gives the first option a portrait of wrath.
+- surah ayat these members touch (chain material): 18:6 (ق ل ل B003) → 18:12 (ق و م B013) → 18:19 (ق و م B013) → 18:20 (و ج د B005) → 18:21 (ق و م B013) → 18:29 (ء خ ذ B006, ج د د B006, ج د د B011, غ ر ب B003, غ ر ب B005) → 18:35 (و ج د B005) → 18:36 (ق و م B013) → 18:39 (و ج د B004) → 18:41 (ء خ ذ B006, ج د د B006, ج د د B011, غ ر ب B003, غ ر ب B005, غ ر ب B007) → 18:45 (ء خ ذ B006, ج د د B006, ج د د B011, غ ر ب B003, غ ر ب B005) → 18:57 (غ ر ب B005, و ج د B005) → 18:59 (غ ر ب B005) → 18:60 (ء خ ذ B006) → 18:61 (ء خ ذ B006) → 18:63 (ج د د B006, غ ر ب B007) → 18:79 (ج د د B006) → 18:87 (ب ل غ B011, غ ر ب B005) → 18:88 (ب ل غ B011) → 18:95 (و ج د B004) → 18:109 (ج د د B006) → 18:110 (ب ل غ B011)
+
+### H5 تَغْرُبُ — 8 roots converge
+Plain sense of تَغْرُبُ: güneşin batması, batı yönü ve batış yeri (غروب الشمس والمغرب)
+- **H5.1** [dictionary] ش م س B002 «ürküp kaçınma, durulmama ve güçlük çıkarma» الشماس والشموس في الدابة والخلق — word ٱلشَّمْسِ (5 dictionaries); source: as H2.1 (also H2.1, L3.3, T9)
+  - evidence: lex/src: شمس names the plain image of تَغْرُبُ || Luna (image): The setting sun can be heard as a restless creature still in motion. It disappears without ever seeming to settle.
+- **H5.2** [dictionary] ش م س B003 «birine düşmanlığını açıkça göstermek» إبداء العداوة — word ٱلشَّمْسِ (4 dictionaries); source: as H2.2 (also H2.2, H4.22, L1.7, L3.4)
+  - evidence: lex/src: شمس names the plain image of تَغْرُبُ
+- **H5.3** [dictionary] ش م س B004 «kolye sarkıtları ya da bir kolye türü» شموس القلائد — word ٱلشَّمْسِ (3 dictionaries); source: as H2.3 (also H2.3, L5.3)
+  - evidence: lex/src: شمس names the plain image of تَغْرُبُ
+- **H5.4** [dictionary] ش م س B007 «güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri» التسمية بالشمس وما نسب إليها — word ٱلشَّمْسِ (3 dictionaries); source: as H1.11 (also H1.11, H2.4, H3.8, H4.8)
+  - evidence: lex/image: شمس names the plain image of تَغْرُبُ
+- **H5.5** [dictionary] ع ي ن B008 «güneş yuvarlağı» عين الشمس — word عَيْنٍ (4 dictionaries); source: as H2.5 (also H2.5, H8.1, T3)
+  - evidence: lex/image: شمس names the plain image of تَغْرُبُ || Luna (complement): What is setting is heard as the solar disk itself. The verb’s subject becomes a visible round orb descending from view.
+- **H5.6** [dictionary] غ ر ب B004 «gözyaşı yolları, akışı ve göz pınarı rahatsızlığı» مجاري الدمع وأطراف العين — word مَغْرِبَ (4 dictionaries); source: as H1.15 (also H1.16)
+  - evidence: lex/src: غروب names the plain image of تَغْرُبُ || Luna (image): The verb تَغْرُبُ can be shadowed by tears running along the ducts named by the rare sense. The setting sun seems to pour downward like a tear across the horizo
+- **H5.7** [dictionary] غ ر ب B005 «dişlerin suyu, parlaklığı ve keskin uçları» غروب الأسنان ماء وحدّة — word مَغْرِبَ (3 dictionaries); source: as H1.17 (also H1.17, H3.13, H4.12)
+  - evidence: lex/image: غروب names the plain image of تَغْرُبُ
+- **H5.8** [dictionary] غ ر ب B007 «yurttan uzaklaşma ve uzaklaştırma» الغربة والبعد والتنحي — word مَغْرِبَ (5 dictionaries); source: as H2.8 (also H4.23)
+  - evidence: lex/src: مغرب names the plain image of تَغْرُبُ || Luna (complement): As the sun sets, the rare sense of distance and departure is heard in its disappearance. The western scene makes the setting sun seem to withdraw far away.
+- **H5.9** [dictionary] غ ر ب B008 «nadir, benzersiz veya anlaşılması güç» الغريب النادر والغامض — word مَغْرِبَ (4 dictionaries); source: as H2.9 (also H7.12)
+  - evidence: lex/src: مغرب names the plain image of تَغْرُبُ
+- **H5.10** [dictionary] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word مَغْرِبَ (5 dictionaries); source: as H1.21 (also H1.22, H3.26, H6.3)
+  - evidence: lex/image: مغرب names the plain image of تَغْرُبُ
+- **H5.11** [dictionary] غ ر ب B014 «uzak uçan söylence kuşu veya büyük felaket» عنقاء مغرب طائر بعيد أو داهية — word مَغْرِبَ (3 dictionaries); source: as H2.11 (also H4.25, T6)
+  - evidence: lex/image: مغرب names the plain image of تَغْرُبُ || Luna (image): The setting sun can be pictured beside عنقاء مغرب, the far-flying bird. Its flight extends the western horizon into a scene of distance.
+- **H5.12** [dictionary] غ ر ب B015 «belirli bir ağaç, kırmızı reçinesi veya boyası» الغرب شجر وصمغ وصبغ أحمر — word مَغْرِبَ (5 dictionaries); source: as H2.12 (also H8.3, T10)
+  - evidence: lex/src: شمس names the plain image of تَغْرُبُ || Luna (image): The setting is the moment when the rare غرب tree is heated by the sun. The dictionary image places that tree directly in the sunset scene.
+- **H5.13** [dictionary] ق ر ن B006 «boynuz veya boynuz biçimli çıkıntı» نتوء قوي كقرن الرأس — word ٱلْقَرْنَيْنِ (4 dictionaries); source: as H2.13 (also H2.13, H8.4)
+  - evidence: lex/src: شمس names the plain image of تَغْرُبُ || Luna (opposite): The sun’s first-visible horn stands beside its setting. The title carries an image of the sun’s beginning while تَغْرُبُ names its withdrawal.
+- **H5.14** [dictionary] ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word قَوْمًا (2 dictionaries); source: as H2.14 (also H2.14, H8.5, T1)
+  - evidence: lex/src: شمس names the plain image of تَغْرُبُ || Luna (opposite): The rare sense sets the sun at midday, while تَغْرُبُ names its setting. The two moments mark opposing directions in the ayah’s movement across the sun’s course
+- **H5.15** [judged] ء خ ذ B008 «ay konaklarının yıldızları» أخذ القمر في منازله — word تَتَّخِذَ (3 dictionaries); source: نجوم الأخذ منازل القمر لأن القمر يأخذ كل ليلة في منزل (maqayis)؛ نجوم الأخذ منازل القمر لأن القمر يأخذ كل ليلة في منزل منها (sihah)؛ نجوم الأخذ هي نجوم منازل القمر لأخذ القمر في منازلها (tahdhib) (also H8.6)
+  - evidence: Luna (complement): The sun is setting as stars mark the moon's nightly stations. The scene joins the day's descent to the lunar route that follows it.
+- **H5.16** [judged] ح س ن B004 «yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı» أسماء الحسن للمواضع والأجسام — word حُسْنًا (4 dictionaries); source: الحسن جبل وحبل من حبال الرمل (maqayis)؛ الحسن من الذراع النصف الذي يلي الكوع (maqayis)؛ حسن اسم رملة لنبي سعد (ayn)؛ الحاسن القمر (sihah)؛ الحسن اسم رملة لبنى سعد (sihah)؛ الحسن نقا في ديار بني تميم (tahdhib)؛ أحسن الرج… (also H8.10, T8)
+  - evidence: Luna (complement): As the sun sets, the moon named by the rare sense supplies the other side of the sky's cycle. The image links solar descent with the moon's place among the star
+- **H5.17** [judged] ع ن د B002 «ortak doğrultudan yana sapıp ayrı durma» ميل إلى ناحية وانفراد عن الجماعة — word عِندَهَا (4 dictionaries); source: العنود من الإبل الذي لا يخالط الإبل إنما هو في ناحية (maqayis;ayn;tahdhib)؛ رجل عنود لا يخالط الناس (maqayis;ayn)؛ طريق عاند أي مائل (maqayis)؛ العند بالتحريك الجانب (sihah)؛ العاند البعير الذي يجور عن الطريق ويعدل عن ا…
+  - evidence: Luna (image): The sun withdraws at its setting while the rare sense of عِنْدَهَا gives the departure a sideways bend. The image is of light veering out of sight.
+- **H5.18** [judged] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قَوْمًا (5 dictionaries); source: القومة ما بين الركعتين من القيام؛ قمت قياما؛ منها هامد ومنها قائم (ayn;tahdhib)؛ قام الرجل قياما؛ القومة المرة الواحدة؛ قامت الدابة وقفت (sihah)؛ قيام بالشخص إما بتسخير أو اختيار؛ ساجدا وقائما؛ تركتموها قائمة على أصولها…
+  - evidence: Luna (opposite): The sun goes down while the rare sense of standing upright evokes the opposite vertical motion. The setting feels like a descent from a standing position.
+- surah ayat these members touch (chain material): 18:16 (ع ن د B002) → 18:17 (ع ي ن B008, غ ر ب B015, ق ر ن B006, ق و م B017) → 18:18 (ح س ن B004) → 18:28 (غ ر ب B004) → 18:29 (ش م س B002, غ ر ب B005) → 18:34 (ش م س B002) → 18:41 (غ ر ب B005, غ ر ب B007) → 18:45 (غ ر ب B005) → 18:47 (ح س ن B004, ق ر ن B006) → 18:48 (ق و م B002) → 18:53 (ش م س B002) → 18:55 (ش م س B002) → 18:57 (غ ر ب B005) → 18:59 (غ ر ب B005) → 18:63 (غ ر ب B007) → 18:73 (ش م س B002) → 18:87 (غ ر ب B005) → 18:90 (ع ي ن B008, غ ر ب B015, ق ر ن B006, ق و م B017) → 18:93 (ش م س B002, ق و م B017) → 18:96 (ش م س B002) → 18:101 (غ ر ب B004) → 18:105 (ق و م B017)
+
+### H6 تَتَّخِذَ — 8 roots converge
+Plain sense of تَتَّخِذَ: kendisi için edinip kazanma (الاتخاذ والاكتساب)
+- **H6.1** [dictionary] ع ن د B006 «sözü dinleyeni almaya veya tutmaya yönelten buyruk» إغراء عندك بالأخذ — word عِندَهَا (2 dictionaries); source: وقد يغرى بها تقول عندك زيدا أي خذه (sihah)؛ العرب تأمر من الصفات بعليك وعندك ودونك وإليك (tahdhib)
+  - evidence: lex/image: اخذ → root ء خ ذ || rel/near_neighbor: ء خ ذ B001 (alma buyruğu ile alma eylemi) || Luna (same): The second option becomes a kind of taking up: he may adopt goodness among the people. The rare command to take echoes the verb's constructive choice.
+- **H6.2** [dictionary] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word تَغْرُبُ (5 dictionaries); source: as H1.21 (also H1.21, H2.10, H3.25)
+  - evidence: lex/src: تاخذ → root ء خ ذ
+- **H6.3** [dictionary] غ ر ب B012 «beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren» المغرب بياض في الشفر والشعر — word مَغْرِبَ (5 dictionaries); source: as H1.21 (also H1.22, H3.26, H5.10)
+  - evidence: lex/src: تاخذ → root ء خ ذ
+- **H6.4** [dictionary] ق ل ل B003 «büyük küp» القُلَّة الجرة الكبيرة — word قُلْنَا (echo root, sound family only; 4 dictionaries); source: as H1.23 (also H1.23, H3.17, H4.16)
+  - evidence: lex/src: تاخذ → root ء خ ذ
+- **H6.5** [dictionary] ق ل ل B005 «korku veya öfkeden titreme» القِلُّ رعدة واضطراب — word قُلْنَا (echo root, sound family only; 3 dictionaries); source: القل الرعدة والانتفاض؛ أخذ فلانا القل إذا أخذته رعدة من فزع (jamhara)؛ القل بالكسر شبه الرعدة؛ أخذه قل من الغضب (sihah)؛ القل الرعدة؛ أخذه قل إذا أرعد من الغضب؛ إذا غضب قد استقل (tahdhib)
+  - evidence: lex/src: اخذ → root ء خ ذ
+- **H6.6** [dictionary] ق و م B020 «koyunun bacaklarını tutan hastalık» قوام في قوائم الشاة — word قَوْمًا (2 dictionaries); source: القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)؛ أخذها قوام وهو داء يأخذها في قوائمها تقوم منه (tahdhib)
+  - evidence: lex/src: ياخذ → root ء خ ذ
+- **H6.7** [judged] ب ل غ B006 «düşüncesizliğine karşın istediğine ulaşan kişi» إدراك المراد مع الحمق — word بَلَغَ (3 dictionaries); source: هو أحمق بلغ وبلغ أي إنه مع حماقته يبلغ ما يريده (maqayis)؛ أحمق بلغ أي أحمق يبلغ ما يريد (jamhara)؛ أحمق بلغ أي هو مع حماقته يبلغ ما يريده (sihah) (also L6.1, L7.1)
+  - evidence: Luna (same): The goodness branch is still something the ruler takes up for himself. The rare sense shadows that act of acquisition with the question of what one chooses to a
+- **H6.8** [judged] ج د د B002 «iyi yazgı ve varlık payı» حظ وغنى يناله الإنسان — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: الغني والحظ؛ لا ينفع ذا الجد منك الجد (maqayis)؛ جد الرجل بخته (ayn)؛ الجد الحظ والبخت؛ لا ينفع ذا الجد منك الجد أي لا ينفع ذا الغنى (sihah)؛ الجد الغنى والحظ في الرزق؛ صاعد الجد؛ رجل جديد إذا كان ذا حظ (tahdhib)؛ الحظو… (also L7.3)
+  - evidence: Luna (part): The act of taking can turn a fortunate share into something possessed. Acquisition becomes the step by which wealth is held.
+- **H6.9** [judged] ع ذ ب B003 «vazgeçme veya alıkoyma» الكف والمنع والفطام عن الشيء — word تُعَذِّبَ (5 dictionaries); source: أعذب عن الشيء إذا لها عنه وتركه (maqayis)؛ أعذب عن الشيء إذا امتنع عنه (jamhara;tahdhib)؛ أعذبته عن الأمر إذا منعته عنه (sihah)؛ عذبته تعذيبا كقولك فطمته عن هذا الأمر (ayn;tahdhib)
+  - evidence: Luna (opposite): One branch can be heard as holding back, while the other adopts goodness. The alternatives then sound like withholding set against taking up a good course.
+- **H6.10** [judged] ق ل ل B004 «yük kaldırma, yükselme ve yola koyulma» الإقلال والاستقلال حملا ونهوضا — word قُلْنَا (echo root, sound family only; 3 dictionaries); source: أقل الجرة أطاق حملها؛ استقلت السماء ارتفعت؛ استقل القوم مضوا وارتحلوا (sihah)؛ أقل الرجل الشيء واستقله إذا احتمله؛ استقل الطائر إذا نهض للطيران؛ استقل النبات أناف؛ استقل القوم إذا احتملوا ظاعنين؛ أقلت سحابا ثقالا أي حمل… (also H7.15)
+  - evidence: Luna (image): تَتَّخِذَ is to adopt or acquire, while the rare sense can be to lift and carry something. The goodness offered to the people can appear as something they take 
+- **H6.11** [judged] ق و ل B006 «sözü üzerine alma» اجترار القول إلى النفس — word قُلْنَا (1 dictionaries, sole attestation); source: اقتال قولا أي اجتر إلى نفسه قولا من خير أو شر (ayn)
+  - evidence: Luna (same): The rare قَوْل sense is drawing a saying into oneself, and تَتَّخِذَ is taking or adopting something for oneself. The option to adopt goodness can therefore sou
+- **H6.12** [judged] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوْمًا (4 dictionaries); source: as H1.24 (also H1.24, H3.18, H4.17)
+  - evidence: Luna (part): The option is to adopt goodness, and تَتَّخِذَ also carries the sense of taking or acquiring. A handle is the part by which something is taken hold of, so goodn
+- **H6.13** [judged] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word قَوْمًا (2 dictionaries); source: as H1.26 (also H1.26, H2.24)
+  - evidence: Luna (opposite): The rare sense describes the loss of sight, while تَتَّخِذَ carries taking or acquiring. The option to adopt goodness can sound like a gain set against the eye’
+- surah ayat these members touch (chain material): 18:6 (ق ل ل B003) → 18:11 (ع ذ ب B003) → 18:19 (ج د د B002) → 18:28 (ق و م B021) → 18:32 (ع ذ ب B003) → 18:45 (ع ذ ب B003, ق ل ل B004) → 18:51 (ق ل ل B005) → 18:54 (ج د د B002) → 18:84 (ق ل ل B005) → 18:90 (ع ن د B006) → 18:93 (ع ن د B006) → 18:94 (ق ل ل B005) → 18:101 (ق و م B021) → 18:102 (ع ن د B006)
+
+### H7 قَوْمًا — 7 roots converge
+Plain sense of قَوْمًا: erkekler topluluğu ve yakın çevresi (جماعة الناس والرجال); sürekli gözetip yönetme (رعاية وحفظ وولاية)
+- **H7.1** [dictionary] ء خ ذ B004 «büyüsel yolla etkileyip engelleme» رقية تمسك وتحبس — word تَتَّخِذَ (4 dictionaries); source: as H1.1 (also H1.1)
+  - evidence: lex/src: رجال names the plain image of قَوْمًا
+- **H7.2** [dictionary] ش م س B006 «arkasındakini koruma, topluluğunu savunma ve iyiliğini esirgeme» التشمس بالمنع والبخل — word ٱلشَّمْسِ (1 dictionaries, sole attestation); source: المتشمس من الرجال الذي يمنع ما وراء ظهره (tahdhib)؛ وهو الشديد القومية (tahdhib)؛ البخيل أيضا متشمس (tahdhib)؛ تشمس علينا أي بخل (tahdhib) (also L1.8)
+  - evidence: lex/src: رجال names the plain image of قَوْمًا || Luna (complement): The people appear as a group that can be guarded and defended. The rare protective sense supplies a figure who stands for them.
+- **H7.3** [dictionary] ع ي ن B003 «koruyup gözetme» عين الحفظ والرعاية — word عَيْنٍ (3 dictionaries); source: أنت على عيني، في الإكرام والحفظ جميعا (sihah); على عيني قصدت زيدا يريدون الإشفاق (tahdhib); فلان بعيني أي أحفظه وأراعيه (mufradat); بحيث نرى ونحفظ (mufradat) (also L1.10, T2)
+  - evidence: lex/src: ونحفظ names the plain image of قَوْمًا || Luna (same): The rare عَيْن sense is protective keeping and oversight; قَوْمًا names a social body with a secondary sense of care and governance. The people can be heard not
+- **H7.4** [dictionary] ق ل ل B001 «azlık» القِلَّة والضآلة — word قُلْنَا (echo root, sound family only; 4 dictionaries); source: القل القليل؛ رماه الله بالقل والذل أي بالقلة والذلة (jamhara)؛ شيء قليل وجمعه قلل؛ قل الشيء يقل قلة؛ قلله في عينه؛ أقل افتقر؛ استقله عده قليلا (sihah)؛ قل الشيء يقل قلة فهو قليل وقلال؛ القل من الرجال الخسيس الدنيء؛ قليلة ولا كثيرة؛ قليلا ما يؤمنون؛ قاللت لفلان؛ تقاللت ما أعطاني (tahdhib)؛ القلة والكثرة يستعملان في الأعداد؛ يكنى بالقلة عن الذلة؛ يكنى بها تارة عن العزة؛ قليل يعبر به عن النفي (mufradat)
+  - evidence: lex/src: رجال names the plain image of قَوْمًا
+- **H7.5** [judged] ء خ ذ B009 «bir topluluğun yolunu ve özelliklerini benimseme» الأخذ بالسيرة والشكل — word تَتَّخِذَ (2 dictionaries); source: لو كنت منا لأخذت بإخذنا أي بخلائقنا وشكلنا (sihah)؛ لأخذت بإخذنا أي بشكلنا وهدينا ومن أخذ إخذهم أي من سار سيرهم (tahdhib)
+  - evidence: Luna (same): The people he encounters become the model whose way might be adopted. The decision about them can also be heard as a decision about whether to take on their cus
+- **H7.6** [judged] ء خ ذ B011 «güreşte kavrayıp kilitleme» أخذة المصارعة — word تَتَّخِذَ (2 dictionaries); source: ائتخذوا في القتال أي أخذ بعضهم بعضا (sihah)؛ ائتخذ القوم إذا تصارعوا فأخذ كل واحد على مصارعه أخذة يعتقله بها (tahdhib) (also T13)
+  - evidence: Luna (image): The people he meets can be pictured as a group caught in a wrestler's lock. The choice of what to do among them carries a physical hold beneath its political se
+- **H7.7** [judged] ش م س B005 «başı ortadan tıraşlı, kiliseye bağlı Hristiyan önder din görevlisi» الشماس النصراني — word ٱلشَّمْسِ (2 dictionaries); source: الشماس من رؤساء النصارى الذي يحلق وسط رأسه لازما للبيعة (ayn;tahdhib)؛ الجميع الشمامسة (ayn;tahdhib) (also T15)
+  - evidence: Luna (part): The encountered people can be heard as a congregation with a religious leader among them. The rare cleric sense adds a social role to the collective.
+- **H7.8** [judged] ع ي ن B005 «haber toplayan gizli gözcü» العين الجاسوسة — word عَيْنٍ (5 dictionaries); source: العين الذي تبعثه يتجسس الخبر (maqayis); العين الذي تبعثه لتجسس الخبر (ayn); العين: الديدبان، والجاسوس (sihah); بعثنا عينا أي طليعة (tahdhib); قيل للمتجسس عين (mufradat)
+  - evidence: Luna (complement): The encounter takes on the cast of reconnaissance: a scout’s eye discovers a people. Their presence becomes the news being gathered at the journey’s edge.
+- **H7.9** [judged] ع ي ن B015 «önde gelen kişiler veya anne baba bir kardeşler» أعيان القوم والإخوة — word عَيْنٍ (5 dictionaries); source: أعيان القوم أي أشرافهم (maqayis;sihah;tahdhib); هؤلاء أعيان إخوتهم (maqayis); الأعيان: الأخوة بنو أب واحد وأم واحدة (sihah); أعيان بني الأم يتوارثون (tahdhib); أعيان القوم لأفاضلهم، وأعيان الإخوة (mufradat) (also L5.5)
+  - evidence: Luna (part): The encounter brings a community into view with its notable persons implicitly within it. The choice that follows can be heard as set over both the people and t
+- **H7.10** [judged] ع ي ن B017 «kimse veya orada bulunan insanlar» العين بمعنى الناس الحاضرون — word عَيْنٍ (3 dictionaries); source: ما بها عين متحركة الياء تريد أحدا له عين (maqayis); ما بها عائن، وكذلك ما بها عين، أي أحد (sihah); العين، بالتحريك: أهل الدار (sihah); العين: أهل الدار (tahdhib); جاء فلان في عين، أي في جماعة (sihah)
+  - evidence: Luna (same): The finding echoes the people’s presence twice: the rare eye sense can itself mean people who are there. The discovery thus sounds like finding a group already 
+- **H7.11** [judged] غ ر ب B008 «nadir, benzersiz veya anlaşılması güç» الغريب النادر والغامض — word تَغْرُبُ (4 dictionaries); source: as H2.9 (also H2.9)
+  - evidence: Luna (image): The rare الغريب can mean an outsider or something rare among its kind; قَوْمًا names the people encountered. They can be heard as strangers at the far edge of t
+- **H7.12** [judged] غ ر ب B008 «nadir, benzersiz veya anlaşılması güç» الغريب النادر والغامض — word مَغْرِبَ (4 dictionaries); source: as H2.9 (also H5.9)
+  - evidence: Luna (image): The group at the horizon can be heard as strangers, rare among their kind. Their encounter becomes more uncanny than a simple meeting with a community.
+- **H7.13** [judged] ق ر ن B004 «bir şeyin üstesinden gelebilen» مطيق صار قرنا لما يواجهه — word ٱلْقَرْنَيْنِ (4 dictionaries); source: فلان مقرن لكذا أي مطيق له؛ وما كنا له مقرنين؛ يجوز أن يكون قرنا له (maqayis)؛ أقرنت لهذا البعير أو البرذون أي أطعته؛ وما كنا له مقرنين أي مطيقين (ayn)؛ أقرن له أي أطاقه وقوي عليه؛ وما كنا له مقرنين أي مطيقين (sihah)؛ أق…
+  - evidence: Luna (complement): The title’s rare sense gives Dhul-Qarnayn the capacity to face what confronts him. Here the people are the ones over whom he must exercise that capacity.
+- **H7.14** [judged] ق ر ن B005 «aynı çağın insanları veya kuşak dönemi» قوم مقترنون في زمن واحد — word ٱلْقَرْنَيْنِ (5 dictionaries); source: القرن الأمة من الناس والجمع قرون؛ وقرونا بين ذلك كثيرا (maqayis)؛ القرن الأمة؛ قرن بعد قرن؛ عمر كل قرن ستون سنة (ayn)؛ القرن من الناس أهل زمان واحد؛ القرن أيضا ثمانون سنة ويقال ثلاثون سنة (sihah)؛ القرن أهل كل مدة؛ الذي… (also T12)
+  - evidence: Luna (same): The rare sense of a generation brings the title close to the people he encounters. The community can be heard as a people joined in one time.
+- **H7.15** [judged] ق ل ل B004 «yük kaldırma, yükselme ve yola koyulma» الإقلال والاستقلال حملا ونهوضا — word قُلْنَا (echo root, sound family only; 3 dictionaries); source: as H6.10 (also H6.10)
+  - evidence: Luna (complement): The rare sense includes the phrase استقل القوم, “the people set out,” while قَوْمًا names the people. Beside Dhu al-Qarnayn’s journey to this endpoint, the grou
+- **H7.16** [judged] ق و ل B004 «sözü geçen yönetici unvanı» القيل صاحب القول النافذ — word قُلْنَا (2 dictionaries); source: المقول بلغة أهل اليمن القيل وهم المقاولة والأقيال والأقوال والواحد القيل (ayn)؛ القيل ملك من ملوك حمير دون الملك الأعظم والمرأة قيلة (sihah)؛ كأنه الذي له قول أي ينفذ قوله (sihah)
+  - evidence: Luna (complement): The rare قيل is a ruler whose word carries authority, while قَوْمًا names a people. The choice of how to treat them becomes a scene of authority exercised over 
+- **H7.17** [judged] ق و ل B010 «hükmünü dayatma» اقتالة الحكم على غيره — word قُلْنَا (1 dictionaries, sole attestation); source: اقتال عليه تحكم (sihah) (also L1.12)
+  - evidence: Luna (image): The divine speech sounds like a judgment placed in the ruler’s hands. The people are the ones over whom that judgment will be carried out.
+- **H7.18** [judged] ق و ل B015 «içten önemseme» العناية الصادقة بالشيء — word قُلْنَا (1 dictionaries, sole attestation); source: للعناية الصادقة بالشيء كقولك فلان يقول بكذا (mufradat)
+  - evidence: Luna (same): The people become recipients of care, not merely an encountered crowd. The choice places responsibility for them at the center of the address.
+- surah ayat these members touch (chain material): 18:21 (ق و ل B010) → 18:25 (ق ر ن B005) → 18:26 (ق و ل B010) → 18:34 (ق و ل B004) → 18:37 (ق و ل B004) → 18:45 (ق ل ل B004) → 18:47 (ء خ ذ B009) → 18:55 (ء خ ذ B004, ش م س B006, ق ر ن B004) → 18:79 (ش م س B006, ق و ل B004) → 18:87 (ء خ ذ B009) → 18:88 (ء خ ذ B009) → 18:99 (ق ر ن B005) → 18:109 (ق ر ن B004) → 18:110 (ء خ ذ B009)
+
+### H8 ٱلشَّمْسِ — 7 roots converge
+Plain sense of ٱلشَّمْسِ: güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma (الشمس والضح)
+- **H8.1** [dictionary] ع ي ن B008 «güneş yuvarlağı» عين الشمس — word عَيْنٍ (4 dictionaries); source: as H2.5 (also H2.5, H5.5, T3)
+  - evidence: lex/image: شمس → root ش م س || Luna (same): The rare “eye of the sun” sense names the same sun that appears in the phrase. The wording lets its disk-like eye echo the celestial body already on the scene.
+- **H8.2** [dictionary] غ ر ب B015 «belirli bir ağaç, kırmızı reçinesi veya boyası» الغرب شجر وصمغ وصبغ أحمر — word تَغْرُبُ (5 dictionaries); source: as H2.12 (also H2.12, T11)
+  - evidence: lex/src: شمس → root ش م س || Luna (image): The rare الغرب is a tree touched by the sun’s heat as it sets; ٱلشَّمْسِ names the sun itself. The pair supplies a small image of a sun-heated, red-resin tree a
+- **H8.3** [dictionary] غ ر ب B015 «belirli bir ağaç, kırmızı reçinesi veya boyası» الغرب شجر وصمغ وصبغ أحمر — word مَغْرِبَ (5 dictionaries); source: as H2.12 (also H5.12, T10)
+  - evidence: lex/src: شمس → root ش م س || Luna (image): The sun strikes the rare غرب tree with its heat. The tree’s name brings the sun’s force into the material scene.
+- **H8.4** [dictionary] ق ر ن B006 «boynuz veya boynuz biçimli çıkıntı» نتوء قوي كقرن الرأس — word ٱلْقَرْنَيْنِ (4 dictionaries); source: as H2.13 (also H2.13, H5.13)
+  - evidence: lex/src: شمس → root ش م س || Luna (part): The title can faintly cast the sun as a body with a horn or crest. The sun’s upper edge becomes part of the image carried by the title.
+- **H8.5** [dictionary] ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word قَوْمًا (2 dictionaries); source: as H2.14 (also H2.14, H5.14, T1)
+  - evidence: lex/src: شمس → root ش م س || Luna (part): The rare قَوْمًا sense is the moment when the sun stands overhead at noon. Hearing it beside ٱلشَّمْسِ brings the sun’s daily arc into view, from its high point
+- **H8.6** [judged] ء خ ذ B008 «ay konaklarının yıldızları» أخذ القمر في منازله — word تَتَّخِذَ (3 dictionaries); source: as H5.15 (also H5.15)
+  - evidence: Luna (complement): The choice is framed beneath two celestial measures: the sun and the moon's stations. The scene gains the scale of solar and lunar cycles.
+- **H8.7** [judged] ج د د B004 «yeni olma ve yenilenme» جِدّة وحدوث بعد قطع — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: ثوب جديد؛ سمي كل شيء لم تأت عليه الأيام جديدا؛ الليل والنهار الجديدين والأجدين (maqayis)؛ الجدة مصدر الجديد؛ الجديدان الليل والنهار (ayn)؛ صار جديدا؛ تجدد الشيء صار جديدا؛ الجديدان والأجدان الليل والنهار (sihah)؛ ثوب جد…
+  - evidence: Luna (complement): The setting sun belongs to a cycle of renewal. Each disappearance makes room for another new day.
+- **H8.8** [judged] ج د د B013 «cırcır böceği» دويبة الجُدجُد — word وَوَجَدَ (echo root, sound family only; 2 dictionaries); source: as H2.21 (also H2.21, T14)
+  - evidence: Luna (complement): The sun is going down as the rare night cricket enters the soundscape. The daylight image and nocturnal creature meet at the threshold of evening.
+- **H8.9** [judged] ج د د B013 «cırcır böceği» دويبة الجُدجُد — word وَجَدَهَا (echo root, sound family only; 2 dictionaries); source: as H2.21
+  - evidence: Luna (complement): A night chirper answers the sun as daylight gives way to darkness. The setting scene gains a small sound at the edge of night.
+- **H8.10** [judged] ح س ن B004 «yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı» أسماء الحسن للمواضع والأجسام — word حُسْنًا (4 dictionaries); source: as H5.16 (also H5.16, T8)
+  - evidence: Luna (complement): The sun shares the sky with the moon named in the rare حُسْن sense. The scene's sunset can be heard against the other celestial body.
+- **H8.11** [judged] غ ر ب B010 «karga ve karga gibi kapkara» الغراب وسواد الغراب — word تَغْرُبُ (5 dictionaries); source: as H3.23 (also H3.23)
+  - evidence: Luna (opposite): The rare غرب sense carries the raven’s blackness; ٱلشَّمْسِ names the sun and its light. Their opposition makes sunset a meeting of the last light and encroachi
+- **H8.12** [judged] غ ر ب B010 «karga ve karga gibi kapkara» الغراب وسواد الغراب — word مَغْرِبَ (5 dictionaries); source: as H3.23 (also H3.24)
+  - evidence: Luna (opposite): Crow-blackness stands against the sun's light. As the sun sets, the scene can darken toward that black image.
+- surah ayat these members touch (chain material): 18:6 (ج د د B004) → 18:11 (غ ر ب B010) → 18:17 (ع ي ن B008, غ ر ب B015, ق ر ن B006, ق و م B017) → 18:18 (ح س ن B004) → 18:47 (ح س ن B004, ق ر ن B006) → 18:70 (ج د د B004) → 18:90 (ع ي ن B008, غ ر ب B015, ق ر ن B006, ق و م B017) → 18:93 (ق و م B017) → 18:105 (ق و م B017)
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 حُسْنًا — 8 roots converge
+Plain sense of حُسْنًا: bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme (الإحسان فعل حسن)
+- **L1.1** [dictionary] ق و ل B007 «dolaşımdaki söz» القول الفاشي بين الناس — word قُلْنَا (2 dictionaries); source: انتشرت له قالة حسنة أو قبيحة في الناس (ayn)؛ القالة القول الفاشي في الناس (ayn)؛ كثر فيه القيل والقال (ayn)؛ كثرت قالة الناس (sihah)؛ كثر القيل والقال (sihah)
+  - evidence: lex/src: حسنا → root ح س ن || Luna (image): The rare sense includes a حسن saying that spreads among people, while حُسْنًا is goodness or kind conduct. The good treatment offered here can become good speec
+- **L1.2** [dictionary] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قَوْمًا (5 dictionaries); source: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب القامة (mufradat)؛ القوام الطول الحسن؛ القومية القوام والقامة (maqayis)
+  - evidence: lex/src: وحسن → root ح س ن || Luna (image): The rare قَوْمًا sense evokes a person’s handsome, well-formed stature, while حُسْنًا names goodness and excellence. The choice of goodness among the people can
+- **L1.3** [judged] ء خ ذ B002 «suçundan sorumlu tutma» المؤاخذة بالذنب — word تَتَّخِذَ (1 dictionaries, sole attestation); source: as H4.19 (also H4.19)
+  - evidence: Luna (opposite): Responsibility for sin stands against the good conduct offered as the other course. The choice makes blame and goodness opposing moral outcomes.
+- **L1.4** [judged] ب ل غ B005 «bir şeyi ulaşılabilir en ileri dereceye götürme» الجودة البالغة — word بَلَغَ (3 dictionaries); source: شيء بالغ أي جيد؛ المبالغة أن تبلغ من العمل جهدك (ayn)؛ شيء بالغ أي جيد؛ بلغ في الجودة مبلغا؛ أمر الله بلغ أي بالغ؛ بالغ فلان في أمري إذا لم يقصر فيه (sihah)؛ أيمان علينا بالغة أي منتهية في التوكيد (mufradat)
+  - evidence: Luna (same): The goodness offered is heard as an excellence brought to its fullest degree. The rare sense turns the choice toward quality as well as moral goodness.
+- **L1.5** [judged] ب ل غ B010 «birini kötüleyici bildirimler» البلاغات الوشايات — word بَلَغَ (1 dictionaries, sole attestation); source: البلاغات كالوشايات (sihah)
+  - evidence: Luna (opposite): Slanderous reports stand against the goodness offered in the choice. The ayah's constructive branch acquires a sharper moral edge beside that rare bad-report se
+- **L1.6** [judged] ح م ء B002 «birine öfkelenmek» الغضب المهموز — word حَمِئَةٍ (2 dictionaries); source: حمئت عليه غضبت (sihah)؛ حمئت عليه حمأ مهموز وغير مهموز أي غضبت (tahdhib)؛ حمئت في الغضب بالهمز (tahdhib)
+  - evidence: Luna (opposite): The muddy spring carries a faint note of anger, set against the goodness offered to the people. The choice can sound like a turn from wrath to good treatment.
+- **L1.7** [judged] ش م س B003 «birine düşmanlığını açıkça göstermek» إبداء العداوة — word ٱلشَّمْسِ (4 dictionaries); source: as H2.2 (also H2.2, H4.22, H5.2, L3.4)
+  - evidence: Luna (opposite): The choice between hostility and goodness becomes stark. Open enmity stands against doing good to the people.
+- **L1.8** [judged] ش م س B006 «arkasındakini koruma, topluluğunu savunma ve iyiliğini esirgeme» التشمس بالمنع والبخل — word ٱلشَّمْسِ (1 dictionaries, sole attestation); source: as H7.2 (also H7.2)
+  - evidence: Luna (opposite): The protective withholding sense stands against the offered goodness. The second branch opens generosity where the rare sense holds back.
+- **L1.9** [judged] ع ذ ب B008 «iyi ve cömert huylu» العذبي كريم الأخلاق — word تُعَذِّبَ (1 dictionaries); source: العذبي الكريم الأخلاق (sihah)
+  - evidence: Luna (same): Generous character and doing good fall under the same moral light. The goodness branch can sound like the outward form of that generosity.
+- **L1.10** [judged] ع ي ن B003 «koruyup gözetme» عين الحفظ والرعاية — word عَيْنٍ (3 dictionaries); source: as H7.3 (also H7.3, T2)
+  - evidence: Luna (part): The rare عَيْن sense is attentive protection and care; حُسْنًا is goodness or beneficent treatment. Taking goodness among the people becomes a concrete way of h
+- **L1.11** [judged] ع ي ن B014 «bir şeyin en iyi ve seçkin bölümü» العين خيار الشيء — word عَيْنٍ (5 dictionaries); source: عينة كل شيء خياره (maqayis); العينة: خيار الشيء (tahdhib); عين الشئ: خياره (sihah); عينة المال أيضا: خياره (sihah); العين تشبيها بها في كونها أفضل الجواهر (mufradat)
+  - evidence: Luna (same): The constructive option becomes the choice portion of the scene, not merely an abstract good. It is heard as the encounter’s finest form.
+- **L1.12** [judged] ق و ل B010 «hükmünü dayatma» اقتالة الحكم على غيره — word قُلْنَا (1 dictionaries, sole attestation); source: as H7.17 (also H7.17)
+  - evidence: Luna (part): Good treatment is one judgment he may impose. The choice makes goodness a concrete outcome of the authority granted to him.
+- surah ayat these members touch (chain material): 18:20 (ح م ء B002) → 18:21 (ق و ل B010) → 18:26 (ق و ل B010) → 18:35 (ح م ء B002) → 18:55 (ش م س B006) → 18:57 (ح م ء B002) → 18:79 (ش م س B006) → 18:104 (ب ل غ B010)
+
+### L2 بَلَغَ — 7 roots converge
+Plain sense of بَلَغَ: bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme (الوصول إلى الغاية)
+- **L2.1** [dictionary] غ ر ب B001 «keskin uç ve uç noktaya varan yoğunluk» الحد والحِدّة وبلوغ الغاية — word مَغْرِبَ (5 dictionaries); source: الغرب حد الشيء؛ كففت من غربه؛ استغرب الرجل إذا بالغ في الضحك (maqayis)؛ الغرب التمادي وهو اللجاجة؛ كف من غربك أي من حدتك؛ استغرب الرجل إذا لج في الضحك (ayn)؛ غرب كل شيء حده وكذلك غراب كل شيء؛ الغراب حد السكين والفأس (jamhara)؛ غراب الفأس حدها؛ غرب كل شيء حده؛ في لسانه غرب؛ غرب الفرس حدته وأول جريه (sihah)؛ غرب السيف؛ فلان غرب اللسان (mufradat) (also L3.5, L4.3)
+  - evidence: lex/src: بالغ → root ب ل غ || Luna (same): The west is the edge reached by the traveler. Its setting-place becomes the endpoint that بَلَغَ names directly.
+- **L2.2** [dictionary] غ ر ب B001 «keskin uç ve uç noktaya varan yoğunluk» الحد والحِدّة وبلوغ الغاية — word تَغْرُبُ (5 dictionaries); source: as L2.1
+  - evidence: lex/src: بالغ → root ب ل غ || Luna (same): The setting becomes a sharp edge at the limit of the journey. Reaching the west now feels like arriving at the very extreme of the sun’s course.
+- **L2.3** [dictionary] ق و م B010 «değer biçme ve belirlenen bedel» قيمة وتقويم وتسعير — word قَوْمًا (5 dictionaries); source: القيمة ثمن الشيء بالتقويم؛ تقاوموا فيما بينهم (ayn)؛ قومت السلعة؛ استقمت السلعة؛ القيمة واحدة القيم (sihah)؛ القيمة ثمن الشيء بالتقويم؛ تقاوموه فيما بينهم؛ استقمت المتاع أي قومته؛ قامت الأمة مائة دينار أي بلغت قيمتها (tahdhib)؛ تقويم السلعة بيان قيمتها (mufradat)؛ قومت الشيء تقويما؛ أصل القيمة الواو (maqayis)
+  - evidence: lex/src: بلغت → root ب ل غ
+- **L2.4** [judged] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: الجد في الأمر والمبالغة فيه؛ أجدك تفعل كذا أي أجدا منك أصريمة منك أعزيمة منك (maqayis)؛ الجد نقيض الهزل؛ جد فلان في أمره وسيره (ayn)؛ الجد نقيض الهزل؛ الجد الاجتهاد في الأمور؛ جاد مجد (sihah)؛ الجد إنما هو الاجتهاد في ا… (also L6.2)
+  - evidence: Luna (part): His determined journey brings him to the sun's western limit. The rare sense gives the arrival the feel of serious effort completed.
+- **L2.5** [judged] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: as L2.4
+  - evidence: Luna (part): Reaching the endpoint can be heard as the result of serious effort. The journey’s arrival carries the labor that brought it there.
+- **L2.6** [judged] ح س ن B005 «bir işteki en yüksek çabası ve erişebileceği son sınır» حُسَيْناء الغاية والجهد — word حُسْنًا (1 dictionaries, sole attestation); source: حُسَيْناؤه أن يفعل كذا وحُسَيْناه مثله أي جهده وغايته (tahdhib)
+  - evidence: Luna (same): Goodness becomes the utmost effort one can reach. The endpoint of the journey echoes the highest limit named by the rare sense.
+- **L2.7** [judged] ع ن د B004 «yakınında veya birinin değerlendirmesinde bulunma» قرب وحضور عند الشيء — word عِندَهَا (4 dictionaries); source: عند فحضور الشيء ودنوه (sihah)؛ عند لفظ موضوع للقرب (mufradat)؛ يستعمل في المكان وفي الاعتقاد وفي الزلفى والمنزلة (mufradat)؛ عند حرف صفة يكون موضعا لغيره ولفظه نصب (tahdhib)؛ في التقريب شبه اللزق (tahdhib)؛ مال عن الناس…
+  - evidence: Luna (complement): He reaches the sunset-place and finds people near it. The paired arrival and nearness draw the endpoint into a close, inhabited scene.
+- **L2.8** [judged] غ ر ب B014 «uzak uçan söylence kuşu veya büyük felaket» عنقاء مغرب طائر بعيد أو داهية — word تَغْرُبُ (3 dictionaries); source: as H2.11 (also H2.11, H4.24, T7)
+  - evidence: Luna (image): The rare غرب sense gives a far-flying mythical bird; بَلَغَ names reaching the endpoint. Together they make the journey resemble a vast flight finally reaching 
+- **L2.9** [judged] غ ر ب B017 «şiddetli ağrı veya koyunda tüy döken hastalık» الوجع والداء في البدن أو الشاة — word مَغْرِبَ (1 dictionaries, sole attestation); source: as H4.26 (also H4.26)
+  - evidence: Luna (part): Reaching a limit can be heard as reaching the height of an ache. The arrival frame gives the rare pain an endpoint of intensity.
+- **L2.10** [judged] ق و ل B016 «teknik tanım» قول الشيء حده — word قُلْنَا (1 dictionaries, sole attestation); source: as H2.23 (also H2.23)
+  - evidence: Luna (same): Reaching the setting-place sounds like arriving at a defined boundary. The rare sense lets the endpoint feel both reached and named.
+- **L2.11** [judged] ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word قَوْمًا (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا…
+  - evidence: Luna (part): He reaches the western limit, which can also be heard as a place to stand or stay. The journey's endpoint briefly becomes a station in the landscape.
+- **L2.12** [judged] و ج د B004 «üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak» وجدان الحزن والمحبة — word وَجَدَهَا (4 dictionaries); source: as H4.29
+  - evidence: Luna (part): The western endpoint becomes the moment a strong desire is fulfilled. Arrival now carries longing answered, giving the discovery an inward pull.
+- surah ayat these members touch (chain material): 18:1 (ح س ن B005) → 18:18 (ح س ن B005) → 18:19 (ق و م B006) → 18:22 (ق و م B010) → 18:25 (ق و م B006, ق و م B010) → 18:26 (ق و م B006) → 18:39 (و ج د B004) → 18:48 (ع ن د B004) → 18:49 (ع ن د B004) → 18:82 (ق و م B010) → 18:90 (ق و م B010) → 18:93 (ق و م B010) → 18:95 (و ج د B004) → 18:96 (غ ر ب B001, ق و ل B016)
+
+### L3 عِندَهَا — 5 roots converge
+Plain sense of عِندَهَا: doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma (عدول عن الاستقامة وممانعة للحق)
+- **L3.1** [judged] ج د د B005 «belirgin şerit veya ana yol» طرائق وخطط ظاهرة — word وَجَدَهَا (echo root, sound family only; 6 dictionaries); source: كل جدة طريقة؛ جادة الطريق سواؤه (maqayis)؛ الجدد والجديد وجه الأرض؛ الزم الطريق الجدد؛ الجادة الطريق (ayn)؛ الجدة الخطة؛ كل خط جدة؛ جدد بيض أي طرائق تخالف لون الجبل (jamhara)؛ الجدة الطريقة؛ جادة الطريق؛ كساء مجدد فيه خ…
+  - evidence: Luna (opposite): The clear road contrasts with the turning away from what is straight. The rare path sense makes the deviation in عِندَهَا especially visible.
+- **L3.2** [judged] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: الجدجد الأرض المستوية؛ الجدد مثل الجدجد؛ الجديد وجه الأرض (maqayis)؛ الجدد والجديد وجه الأرض؛ الجدجد الفيف الأملس (ayn)؛ الجدد الأرض الصلبة؛ الجدجد الأرض الصلبة المستوية (sihah)؛ الأرض المستوية التي ليس فيها رمل ولا اخت…
+  - evidence: Luna (opposite): The level ground opposes the turning aside from a straight course. The rare landscape image makes the moral deviation more concrete.
+- **L3.3** [judged] ش م س B002 «ürküp kaçınma, durulmama ve güçlük çıkarma» الشماس والشموس في الدابة والخلق — word ٱلشَّمْسِ (5 dictionaries); source: as H2.1 (also H2.1, H5.1, T9)
+  - evidence: Luna (same): Defiance meets a difficult, resistant temperament. The people near the scene can be heard against a spirit that refuses to yield.
+- **L3.4** [judged] ش م س B003 «birine düşmanlığını açıkça göstermek» إبداء العداوة — word ٱلشَّمْسِ (4 dictionaries); source: as H2.2 (also H2.2, H4.22, H5.2, L1.7)
+  - evidence: Luna (same): The rare image of declared enmity echoes the resistance in عِندَهَا. Both senses turn toward opposition rather than agreement.
+- **L3.5** [judged] غ ر ب B001 «keskin uç ve uç noktaya varan yoğunluk» الحد والحِدّة وبلوغ الغاية — word مَغْرِبَ (5 dictionaries); source: as L2.1 (also L2.1, L4.3)
+  - evidence: Luna (complement): The west supplies an edge, while defiance is heard as resistance that crosses a boundary. The journey's endpoint echoes the moral act of overstepping.
+- **L3.6** [judged] ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته — word قُلْنَا (2 dictionaries); source: تقول باطلا أي قال ما لم يكن (ayn)؛ قولتني ما لم أقل وأقولتني ما لم أقل أي ادعيته علي (sihah)؛ تقول عليه أي كذب عليه (sihah) (also T5)
+  - evidence: Luna (same): The rare sense of قُلْنَا includes falsely attributing words to someone, while عِندَهَا is glossed as resisting what is right. Both can be heard as refusals of 
+- **L3.7** [judged] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوْمًا (4 dictionaries); source: رمح قويم ورجل قويم؛ القيمة الملة المستقيمة؛ إذا انقاد واستمرت طريقته فقد استقام (ayn)؛ الاستقامة الاعتدال؛ استقام له الأمر؛ قومت الشيء فهو قويم أي مستقيم؛ القوام العدل؛ دينا قيما (sihah)؛ الاستقامة على الطاعة؛ القيم هو …
+  - evidence: Luna (opposite): The rare sense of قَوْمًا as uprightness meets عِندَهَا as turning away from what is right. The people’s setting can carry a moral tension between standing stra
+- **L3.8** [judged] ق و م B014 «karşılıklı direnip mücadele etme» مقاومة ومنازلة — word قَوْمًا (3 dictionaries); source: قاومته في كذا أي نازلته (ayn)؛ قاومه في المصارعة وغيرها؛ تقاوموا في الحرب أي قام بعضهم لبعض (sihah)؛ ما زلت أقاوم فلانا في هذا الأمر أي أنازله (tahdhib)
+  - evidence: Luna (same): The rare sense of قَوْمًا carries mutual resistance, while عِندَهَا is glossed as opposition to what is right. The encounter is colored by resistance before the
+- surah ayat these members touch (chain material): 18:5 (ق و ل B005) → 18:15 (ق و ل B005) → 18:28 (ج د د B007) → 18:29 (ج د د B005, ج د د B007, ش م س B002) → 18:34 (ش م س B002) → 18:47 (ج د د B005) → 18:53 (ش م س B002) → 18:55 (ش م س B002) → 18:56 (ق و ل B005) → 18:73 (ش م س B002) → 18:93 (ش م س B002) → 18:96 (ش م س B002, غ ر ب B001)
+
+### L4 قُلْنَا — 5 roots converge
+Plain sense of قُلْنَا: söze dökme (إخراج القول بالنطق)
+- **L4.1** [judged] ب ل غ B004 «amacını açık ve etkili sözle anlatma yetkinliği» الفصاحة التي تبلغ المراد — word بَلَغَ (4 dictionaries); source: البلاغة التي يمدح بها الفصيح اللسان لأنه يبلغ بها ما يريده (maqayis)؛ رجل بلغ بليغ وقد بلغ بلاغة (ayn)؛ كلام بلغ وبليغ؛ بلغ الرجل بلاغة إذا صار بليغا (jamhara)؛ البلاغة الفصاحة؛ بلغ الرجل أي صار بليغا (sihah)
+  - evidence: Luna (same): The authoritative saying can be heard as eloquent speech that reaches its purpose. The verbal choice is given force by the clarity of its expression.
+- **L4.2** [judged] ع ذ ب B006 «ince uç veya sarkan bağlı parça» العذبة طرف أو علاقة متدلية — word تُعَذِّبَ (4 dictionaries); source: عذبة السوط طرفه (maqayis;tahdhib)؛ عذبة الرمح الخرقة التي تشد على رأسه (jamhara)؛ عذبة اللسان طرفه (jamhara;sihah;tahdhib)؛ عذبة الميزان الخيط الذي يرفع به (sihah;tahdhib)؛ عذبة الشجر غصنه (sihah;tahdhib)؛ عذبة شراك الن… (also L5.4)
+  - evidence: Luna (part): The rare sense locates the utterance at the tip of the tongue. The tongue’s small end becomes the instrument of saying.
+- **L4.3** [judged] غ ر ب B001 «keskin uç ve uç noktaya varan yoğunluk» الحد والحِدّة وبلوغ الغاية — word مَغْرِبَ (5 dictionaries); source: as L2.1 (also L2.1, L3.5)
+  - evidence: Luna (image): The divine saying can carry the edge of a sharp tongue. The westward limit's sharpness becomes verbal force in the decision that follows.
+- **L4.4** [judged] ق ر ن B009 «bedene bağlı iç benlik» نفس مقترنة بالبدن أو مطاوعة — word ٱلْقَرْنَيْنِ (5 dictionaries); source: القرينة نفس الإنسان؛ سامحته قرينته وقرونته وقرونه أي نفسه (maqayis)؛ القرون النفس؛ قرينته وقرينه قهرها (ayn)؛ أسمحت قرينه وقرونه وقرونته وقرينته أي ذلت نفسه وتابعته على الأمر (sihah)؛ سامحت قرونه وهي النفس؛ أسمحت قرونته…
+  - evidence: Luna (complement): The inner self is joined to the body, while the divine utterance is expressed outwardly. Heard together, inward being and spoken word form two sides of the scen
+- **L4.5** [judged] ق و م B003 «bir işe kararlılıkla girişme» عزم ونهوض إلى الأمر — word قَوْمًا (2 dictionaries); source: قام بمعنى العزيمة؛ قام بهذا الأمر إذا اعتنقه؛ قيام عزم (maqayis)؛ القيام الذي هو العزم؛ إذا قمتم إلى الصلاة (mufradat)
+  - evidence: Luna (part): The resolve behind the people's treatment is given voice in the divine address. The speech turns an undertaking into a stated choice.
+- surah ayat these members touch (chain material): 18:34 (ع ذ ب B006) → 18:42 (ع ذ ب B006) → 18:96 (غ ر ب B001)
+
+### L5 ٱلْقَرْنَيْنِ — 5 roots converge
+Plain sense of ٱلْقَرْنَيْنِ: bir şeyi başka bir şeye katıp bağlama (جمع شيء إلى شيء وربطه به)
+- **L5.1** [judged] ج د د B012 «düğümlü ipler ve dolaşık kalıntılar» خيوط معقودة وبقايا متشابكة — word وَجَدَهَا (echo root, sound family only; 3 dictionaries); source: جدادها الخيوط التي تعقد بالخيمة؛ جداد الخيمة الخيوط؛ الجداد صغار الشجر (maqayis)؛ الجداد الخلقان من الثياب؛ كل شيء تعقد بعضه في بعض من الخيوط وأغصان الشجر فهو جداد (sihah)؛ الجداد خيوط المظلة؛ الجداد بالنبطية الخيوط الم…
+  - evidence: Luna (same): The rare image of وَجَدَهَا is knotted cords and things tangled together. Beside ٱلْقَرْنَيْنِ as joining or binding, the title’s paired identity feels fastened
+- **L5.2** [judged] ج د د B012 «düğümlü ipler ve dolaşık kalıntılar» خيوط معقودة وبقايا متشابكة — word وَوَجَدَ (echo root, sound family only; 3 dictionaries); source: as L5.1
+  - evidence: Luna (same): The title's joining sense echoes the knots and ties carried by the rare branch. The paired sounds make binding feel present in the address.
+- **L5.3** [judged] ش م س B004 «kolye sarkıtları ya da bir kolye türü» شموس القلائد — word ٱلشَّمْسِ (3 dictionaries); source: as H2.3 (also H2.3, H5.3)
+  - evidence: Luna (same): The dual title evokes things joined together. A necklace does the same through its linked ornaments.
+- **L5.4** [judged] ع ذ ب B006 «ince uç veya sarkan bağlı parça» العذبة طرف أو علاقة متدلية — word تُعَذِّبَ (4 dictionaries); source: as L4.2 (also L4.2)
+  - evidence: Luna (part): A hanging strap or small attached end can be heard beside the title’s sense of joining. The loose piece becomes part of what binds things together.
+- **L5.5** [judged] ع ي ن B015 «önde gelen kişiler veya anne baba bir kardeşler» أعيان القوم والإخوة — word عَيْنٍ (5 dictionaries); source: as H7.9 (also H7.9)
+  - evidence: Luna (image): The title acquires a kinship image: siblings joined by their shared parents beside a paired or joined form. It adds a family-bond resonance to the addressee’s t
+- **L5.6** [judged] ع ي ن B016 «geniş ve güzel gözlü olma» سعة العين وحسنها — word عَيْنٍ (5 dictionaries); source: توصف البقرة بسعة العين فيقال بقرة عيناء (maqayis); العين بقر الوحش (ayn;sihah;tahdhib); العين عظم سواد العين في سعتها (ayn); رجل أعين واسع العين (sihah;tahdhib); قاصرات الطرف عين؛ وحور عين (mufradat)
+  - evidence: Luna (image): The twofold title takes on a living face: broad eyes beneath a pair of horns. The rare eye sense turns the title into a compact animal image.
+- **L5.7** [judged] غ ر ب B011 «sağrı çukurları ve çok sıkı bağ» هيئة الغراب في الأعضاء والعقد — word تَغْرُبُ (5 dictionaries); source: as H1.36
+  - evidence: Luna (same): The rare الغراب branch includes an especially tight binding; ٱلْقَرْنَيْنِ carries joining or binding. The paired title feels fastened into one identity, adding
+- **L5.8** [judged] غ ر ب B011 «sağrı çukurları ve çok sıkı bağ» هيئة الغراب في الأعضاء والعقد — word مَغْرِبَ (5 dictionaries); source: as H1.36 (also H1.36)
+  - evidence: Luna (same): The title’s paired identity carries a sense of things joined. The rare image of a tightly bound knot makes that joining more tangible.
+- surah ayat these members touch (chain material): 18:31 (ج د د B012) → 18:34 (ع ذ ب B006) → 18:42 (ع ذ ب B006)
+
+### L6 وَجَدَهَا — 5 roots converge
+Plain sense of وَجَدَهَا: bulma ve duyusal ya da zihinsel olarak algılama (إلفاء الشيء وإصابته)
+- **L6.1** [judged] ب ل غ B006 «düşüncesizliğine karşın istediğine ulaşan kişi» إدراك المراد مع الحمق — word بَلَغَ (3 dictionaries); source: as H6.7 (also H6.7, L7.1)
+  - evidence: Luna (same): Finding the setting sun echoes the rare sense of attaining what one seeks. The first discovery in the ayah becomes an arrival at its object.
+- **L6.2** [judged] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: as L2.4 (also L2.4)
+  - evidence: Luna (part): The traveler's sustained effort ends in finding the sun at its setting. The two findings can sound like discoveries earned by a deliberate journey.
+- **L6.3** [judged] ح س ن B001 «akla, eğilime veya duyulara göre güzel ve beğenilir olma» الحسن ضد القبح — word حُسْنًا (5 dictionaries); source: as H1.30 (also H1.30)
+  - evidence: Luna (image): The found sunset can be heard as a beautiful sight. The discovery carries an aesthetic coloring alongside the report of what the sun is doing.
+- **L6.4** [judged] ع ي ن B002 «gözle görüp kesin biçimde tanıma» المشاهدة بالعين — word عَيْنٍ (4 dictionaries); source: رأيت الشيء عيانا أي معاينة (maqayis); لا أطلب أثرا بعد عين أي بعد معاينة (ayn;sihah;tahdhib); عيانا أي مواجهة (tahdhib); فعلت ذلك عمد عين (sihah) (also L7.4)
+  - evidence: Luna (same): The rare عيان is direct seeing or face-to-face confirmation; وَجَدَهَا is finding or perceiving. The discovery of the setting becomes eyewitness knowledge rathe
+- **L6.5** [judged] غ ر ب B013 «kaynağı bilinmeyen ok ve hedefsiz bakış» سهم غرب ونظر غرب — word مَغْرِبَ (5 dictionaries); source: as H1.37 (also H1.37, L7.5)
+  - evidence: Luna (same): The traveler’s finding can carry the feel of an unexpected encounter. What he comes upon arrives as suddenly as the stray arrow.
+- **L6.6** [judged] غ ر ب B013 «kaynağı bilinmeyen ok ve hedefsiz bakış» سهم غرب ونظر غرب — word تَغْرُبُ (5 dictionaries); source: as H1.37 (also H1.38, L7.6)
+  - evidence: Luna (part): The rare غرب sense includes an unfocused glance; وَجَدَهَا is finding or perceiving. The setting reveals itself in an incidental look, making the discovery feel
+- surah ayat these members touch (chain material): 18:7 (ح س ن B001) → 18:19 (غ ر ب B013) → 18:28 (ح س ن B001) → 18:46 (ح س ن B001)
+
+### L7 وَوَجَدَ — 4 roots converge
+Plain sense of وَوَجَدَ: bulma ve duyusal ya da zihinsel olarak algılama (إلفاء الشيء وإصابته)
+- **L7.1** [judged] ب ل غ B006 «düşüncesizliğine karşın istediğine ulaşan kişi» إدراك المراد مع الحمق — word بَلَغَ (3 dictionaries); source: as H6.7 (also H6.7, L6.1)
+  - evidence: Luna (same): The second finding, of a people, also carries the sense of attaining an object. The repeated discovery makes the rare attainment sense answer twice in the ayah.
+- **L7.2** [judged] ج د د B001 «değer ve konum yüceliği» عظمة القدر وعلوه — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: as H1.3 (also H1.4)
+  - evidence: Luna (sound): The repeated finding carries a small sound echo of majesty. The second encounter can thus hold an undertone of greatness.
+- **L7.3** [judged] ج د د B002 «iyi yazgı ve varlık payı» حظ وغنى يناله الإنسان — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: as H6.8 (also H6.8)
+  - evidence: Luna (complement): The second finding can open onto the discovery of good fortune. The encountered people become the setting for a share of worldly abundance.
+- **L7.4** [judged] ع ي ن B002 «gözle görüp kesin biçimde tanıma» المشاهدة بالعين — word عَيْنٍ (4 dictionaries); source: as L6.4 (also L6.4)
+  - evidence: Luna (part): The rare عيان is seeing something directly; وَوَجَدَ is encountering. The people are found face to face, making the encounter an act of direct recognition.
+- **L7.5** [judged] غ ر ب B013 «kaynağı bilinmeyen ok ve hedefsiz bakış» سهم غرب ونظر غرب — word مَغْرِبَ (5 dictionaries); source: as H1.37 (also H1.37, L6.5)
+  - evidence: Luna (same): The second finding also becomes an encounter with what arrives unexpectedly. The unknown arrow’s suddenness colors the people’s appearance at the spring.
+- **L7.6** [judged] غ ر ب B013 «kaynağı bilinmeyen ok ve hedefsiz bakış» سهم غرب ونظر غرب — word تَغْرُبُ (5 dictionaries); source: as H1.37 (also H1.38, L6.6)
+  - evidence: Luna (part): The rare غرب sense includes an aimless glance or an arrow of unknown origin; وَوَجَدَ is encountering. The discovery of the people feels unforeseen, arriving wi
+- surah ayat these members touch (chain material): 18:19 (ج د د B002, غ ر ب B013) → 18:54 (ج د د B002)
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ح س ن B004 «yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı» أسماء الحسن للمواضع والأجسام — word حُسْنًا (4 dictionaries); source: الحسن جبل وحبل من حبال الرمل (maqayis)؛ الحسن من الذراع النصف الذي يلي الكوع (maqayis)؛ حسن اسم رملة لنبي سعد (ayn)؛ الحاسن القمر (sihah)؛ الحسن اسم رملة لبنى سعد (sihah)؛ الحسن نقا في ديار بني تميم (tahdhib)؛ أحسن الرج… (also H5.16, H8.10, T8) — lex/image: اسماء → بِسْمِ
+- **F2** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قَوْمًا (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… — lex/src-rare: اسماء → بِسْمِ
+- **F3** ء خ ذ B011 «güreşte kavrayıp kilitleme» أخذة المصارعة — word تَتَّخِذَ (2 dictionaries); source: ائتخذوا في القتال أي أخذ بعضهم بعضا (sihah)؛ ائتخذ القوم إذا تصارعوا فأخذ كل واحد على مصارعه أخذة يعتقله بها (tahdhib) (also H7.6, T13) — img/fatiha: fatiha: س م و B007 المساماة والمباراة ← بِسْمِ
+- **F4** ج د د B001 «değer ve konum yüceliği» عظمة القدر وعلوه — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: العظمة (maqayis)؛ جد ربنا عظمته (ayn)؛ تعالى جد ربنا أي عظمة ربنا؛ جد في عيني أي عظم (sihah)؛ جد ربنا جلال ربنا؛ جل قدره وعظم (tahdhib)؛ جد ربنا أي فيضه وقيل عظمته (mufradat) (also H1.3) — kw/shared: eminence (shared) → بِسْمِ || img/fatiha: fatiha: س م و B001 العلو والارتفاع ← بِسْمِ
+- **F5** ج د د B001 «değer ve konum yüceliği» عظمة القدر وعلوه — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: العظمة (maqayis)؛ جد ربنا عظمته (ayn)؛ تعالى جد ربنا أي عظمة ربنا؛ جد في عيني أي عظم (sihah)؛ جد ربنا جلال ربنا؛ جل قدره وعظم (tahdhib)؛ جد ربنا أي فيضه وقيل عظمته (mufradat) (also H1.4, L7.2) — kw/shared: eminence (shared) → بِسْمِ || img/fatiha: fatiha: س م و B001 العلو والارتفاع ← بِسْمِ
+- **F6** ج د د B003 «kesme ve ayırma» قطع وصرم — word وَوَجَدَ (echo root, sound family only; 5 dictionaries); source: جددت الشيء جدا وهو مجدود وجديد أي مقطوع؛ الجداد صرام النخل (maqayis)؛ جداد النخل صرامه؛ جد ثدي أمك اذدعي عليه بالقطيعة (ayn)؛ جددت الشيء أجده جدا قطعته؛ جد النخل أي صرمه؛ جدت أخلاف الناقة (sihah)؛ جد التمرة؛ الجداد الصر… (also H2.17) — img/fatiha: fatiha: ر ح م B004 وجع الرَّحِم بعد الولادة ← ٱلرَّحْمَٰنِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F7** ح س ن B005 «bir işteki en yüksek çabası ve erişebileceği son sınır» حُسَيْناء الغاية والجهد — word حُسْنًا (1 dictionaries, sole attestation); source: حُسَيْناؤه أن يفعل كذا وحُسَيْناه مثله أي جهده وغايته (tahdhib) (also L2.6) — rel/near_synonym: ح م د B004 (ulaşılması övülen son sınır) → ٱلْحَمْدُ
+- **F8** ء خ ذ B006 «su tutan çukur veya havuz» موضع يمسك الماء — word تَتَّخِذَ (4 dictionaries); source: الإخاذ مجمع الماء شبيه بالغدير (maqayis)؛ الإخاذة والإخذ ما حفرت لنفسك كهيئة الحوض تمسك الماء أياما (ayn)؛ الاخاذة شئ كالغدير والجمع إخاذ (sihah)؛ الإخذ صنع الماء يجتمع فيه (tahdhib) (also H1.2, H2.15, H3.1, H4.1) — img/fatiha: fatiha: ع ل م B005 ماء كثير مجتمع في عيلم ← ٱلْعَٰلَمِينَ || img/fatiha: fatiha: ر ب ب B013 ماء رَبَب كثير ← رَبِّ
+- **F9** ب ل غ B004 «amacını açık ve etkili sözle anlatma yetkinliği» الفصاحة التي تبلغ المراد — word بَلَغَ (4 dictionaries); source: البلاغة التي يمدح بها الفصيح اللسان لأنه يبلغ بها ما يريده (maqayis)؛ رجل بلغ بليغ وقد بلغ بلاغة (ayn)؛ كلام بلغ وبليغ؛ بلغ الرجل بلاغة إذا صار بليغا (jamhara)؛ البلاغة الفصاحة؛ بلغ الرجل أي صار بليغا (sihah) (also L4.1) — img/fatiha: fatiha: ح م د B004 حماداك الغاية المحمودة ← ٱلْحَمْدُ || img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F10** ب ل غ B005 «bir şeyi ulaşılabilir en ileri dereceye götürme» الجودة البالغة — word بَلَغَ (3 dictionaries); source: شيء بالغ أي جيد؛ المبالغة أن تبلغ من العمل جهدك (ayn)؛ شيء بالغ أي جيد؛ بلغ في الجودة مبلغا؛ أمر الله بلغ أي بالغ؛ بالغ فلان في أمري إذا لم يقصر فيه (sihah)؛ أيمان علينا بالغة أي منتهية في التوكيد (mufradat) (also L1.4) — kw/shared: evaluation (shared) → ٱلْحَمْدُ || img/fatiha: fatiha: ح م د B004 حماداك الغاية المحمودة ← ٱلْحَمْدُ || img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F11** ب ل غ B006 «düşüncesizliğine karşın istediğine ulaşan kişi» إدراك المراد مع الحمق — word بَلَغَ (3 dictionaries); source: هو أحمق بلغ وبلغ أي إنه مع حماقته يبلغ ما يريده (maqayis)؛ أحمق بلغ أي أحمق يبلغ ما يريد (jamhara)؛ أحمق بلغ أي هو مع حماقته يبلغ ما يريده (sihah) (also H6.7, L6.1, L7.1) — img/fatiha: fatiha: ح م د B004 حماداك الغاية المحمودة ← ٱلْحَمْدُ
+- **F12** ب ل غ B007 «atı hızlandırmak için dizgini ileri verme» مد الفارس عنانه لزيادة العدو — word بَلَغَ (2 dictionaries); source: بلغ الفارس يراد به أنه يمد يده بعنان فرسه ليزيد في عدوه (maqayis)؛ بلغ الفارس إذا مد يده بعنان فرسه ليزيد في جريه (sihah) (also H2.16) — img/fatiha: fatiha: ع ل م B002 أثر يميز الشيء ويهدي إليه ← ٱلْعَٰلَمِينَ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F13** ع ذ ب B008 «iyi ve cömert huylu» العذبي كريم الأخلاق — word تُعَذِّبَ (1 dictionaries); source: العذبي الكريم الأخلاق (sihah) (also L1.9) — kw/shared: kindness (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F14** ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word قَوْمًا (5 dictionaries); source: هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقوم… — rel/near_synonym: م ل ك B005 (temel dayanak) → مَٰلِكِ
+- **F15** ء خ ذ B002 «suçundan sorumlu tutma» المؤاخذة بالذنب — word تَتَّخِذَ (1 dictionaries, sole attestation); source: آخذه بذنبه مؤاخذة (sihah) (also H4.19, L1.3) — img/fatiha: fatiha: د ي ن B006 مدينة الطاعة ← ٱلدِّينِ
+- **F16** ء خ ذ B006 «su tutan çukur veya havuz» موضع يمسك الماء — word تَتَّخِذَ (4 dictionaries); source: الإخاذ مجمع الماء شبيه بالغدير (maqayis)؛ الإخاذة والإخذ ما حفرت لنفسك كهيئة الحوض تمسك الماء أياما (ayn)؛ الاخاذة شئ كالغدير والجمع إخاذ (sihah)؛ الإخذ صنع الماء يجتمع فيه (tahdhib) (also H1.2, H2.15, H3.1, H4.1, F8) — img/fatiha: fatiha: م ل ك B007 الماء مَلَك الأمر ← مَٰلِكِ
+- **F17** ب ل غ B006 «düşüncesizliğine karşın istediğine ulaşan kişi» إدراك المراد مع الحمق — word بَلَغَ (3 dictionaries); source: هو أحمق بلغ وبلغ أي إنه مع حماقته يبلغ ما يريده (maqayis)؛ أحمق بلغ أي أحمق يبلغ ما يريد (jamhara)؛ أحمق بلغ أي هو مع حماقته يبلغ ما يريده (sihah) (also H6.7, L6.1, L7.1, F11) — img/fatiha: fatiha: م ل ك B005 مِلاك الأمر وعِماده ← مَٰلِكِ
+- **F18** ب ل غ B010 «birini kötüleyici bildirimler» البلاغات الوشايات — word بَلَغَ (1 dictionaries, sole attestation); source: البلاغات كالوشايات (sihah) (also L1.5) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F19** ب ل غ B011 «başa gelen ağır ve yıkıcı büyük olay» البُلغين الداهية — word بَلَغَ (1 dictionaries, sole attestation); source: البُلغين الداهية؛ بلغت منا البُلغين (sihah) (also H4.21) — img/fatiha: fatiha: ي و م B002 مدة من الزمان ← يَوْمِ || img/fatiha: fatiha: د ي ن B005 العادة والشأن ← ٱلدِّينِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F20** ء خ ذ B003 «yakalayıp tutsak etme» القبض والأسر — word تَتَّخِذَ (2 dictionaries); source: الأخيذ الأسير والمرأة أخيذة (sihah)؛ ومن هنا قيل للأسير أخيذ وقد أخذ فلان إذا أسر وخذوهم معناه ائسروهم (tahdhib) (also H4.20) — kw/shared: captivity (shared) → نَعْبُدُ || img/fatiha: fatiha: ع ب د B001 الرق والملك ← نَعْبُدُ
+- **F21** ء خ ذ B009 «bir topluluğun yolunu ve özelliklerini benimseme» الأخذ بالسيرة والشكل — word تَتَّخِذَ (2 dictionaries); source: لو كنت منا لأخذت بإخذنا أي بخلائقنا وشكلنا (sihah)؛ لأخذت بإخذنا أي بشكلنا وهدينا ومن أخذ إخذهم أي من سار سيرهم (tahdhib) (also H7.5) — img/fatiha: fatiha: ع ب د B004 التعبيد والاستعباد ← نَعْبُدُ
+- **F22** ء خ ذ B011 «güreşte kavrayıp kilitleme» أخذة المصارعة — word تَتَّخِذَ (2 dictionaries); source: ائتخذوا في القتال أي أخذ بعضهم بعضا (sihah)؛ ائتخذ القوم إذا تصارعوا فأخذ كل واحد على مصارعه أخذة يعتقله بها (tahdhib) (also H7.6, T13, F3) — img/fatiha: fatiha: ع ب د B004 التعبيد والاستعباد ← نَعْبُدُ
+- **F23** ب ل غ B007 «atı hızlandırmak için dizgini ileri verme» مد الفارس عنانه لزيادة العدو — word بَلَغَ (2 dictionaries); source: بلغ الفارس يراد به أنه يمد يده بعنان فرسه ليزيد في عدوه (maqayis)؛ بلغ الفارس إذا مد يده بعنان فرسه ليزيد في جريه (sihah) (also H2.16, F12) — img/fatiha: fatiha: ع ب د B009 قلة اللبث وسرعة العدو ← نَعْبُدُ
+- **F24** ب ل غ B010 «birini kötüleyici bildirimler» البلاغات الوشايات — word بَلَغَ (1 dictionaries, sole attestation); source: البلاغات كالوشايات (sihah) (also L1.5, F18) — img/fatiha: fatiha: ع ب د B012 صَلاءة الطيب ← نَعْبُدُ
+- **F25** ج د د B004 «yeni olma ve yenilenme» جِدّة وحدوث بعد قطع — word وَجَدَهَا (echo root, sound family only; 5 dictionaries); source: ثوب جديد؛ سمي كل شيء لم تأت عليه الأيام جديدا؛ الليل والنهار الجديدين والأجدين (maqayis)؛ الجدة مصدر الجديد؛ الجديدان الليل والنهار (ayn)؛ صار جديدا؛ تجدد الشيء صار جديدا؛ الجديدان والأجدان الليل والنهار (sihah)؛ ثوب جد… (also H8.7) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F26** ء خ ذ B002 «suçundan sorumlu tutma» المؤاخذة بالذنب — word تَتَّخِذَ (1 dictionaries, sole attestation); source: آخذه بذنبه مؤاخذة (sihah) (also H4.19, L1.3, F15) — img/fatiha: fatiha: ق و م B020 قوام في قوائم الشاة ← ٱلْمُسْتَقِيمَ
+- **F27** ء خ ذ B003 «yakalayıp tutsak etme» القبض والأسر — word تَتَّخِذَ (2 dictionaries); source: الأخيذ الأسير والمرأة أخيذة (sihah)؛ ومن هنا قيل للأسير أخيذ وقد أخذ فلان إذا أسر وخذوهم معناه ائسروهم (tahdhib) (also H4.20, F20) — img/fatiha: fatiha: ه د ي B007 هدي الحرمة والأسير ← ٱهْدِنَا || img/fatiha: fatiha: ق و م B001 جماعة الناس والرجال ← ٱلْمُسْتَقِيمَ
+- **F28** ء خ ذ B004 «büyüsel yolla etkileyip engelleme» رقية تمسك وتحبس — word تَتَّخِذَ (4 dictionaries); source: الأخذة رقية تأخذ العين ونحوها والمؤخذ الرجل كأنه حبس (maqayis)؛ الأخذة رقية تأخذ العين ورجل مؤخذ عن النساء (ayn)؛ الأخذة رقية كالسحر أو خرزة تؤخذ بها النساء الرجال من التأخيذ (sihah)؛ التأخيذ حيل من السحر تمنع الزوج من … (also H1.1, H7.1) — img/fatiha: fatiha: ق و م B001 جماعة الناس والرجال ← ٱلْمُسْتَقِيمَ
+- **F29** ء خ ذ B008 «ay konaklarının yıldızları» أخذ القمر في منازله — word تَتَّخِذَ (3 dictionaries); source: نجوم الأخذ منازل القمر لأن القمر يأخذ كل ليلة في منزل (maqayis)؛ نجوم الأخذ منازل القمر لأن القمر يأخذ كل ليلة في منزل منها (sihah)؛ نجوم الأخذ هي نجوم منازل القمر لأخذ القمر في منازلها (tahdhib) (also H5.15, H8.6) — img/fatiha: fatiha: ق و م B020 قوام في قوائم الشاة ← ٱلْمُسْتَقِيمَ || img/fatiha: fatiha: ه د ي B007 هدي الحرمة والأسير ← ٱهْدِنَا
+- **F30** ء خ ذ B009 «bir topluluğun yolunu ve özelliklerini benimseme» الأخذ بالسيرة والشكل — word تَتَّخِذَ (2 dictionaries); source: لو كنت منا لأخذت بإخذنا أي بخلائقنا وشكلنا (sihah)؛ لأخذت بإخذنا أي بشكلنا وهدينا ومن أخذ إخذهم أي من سار سيرهم (tahdhib) (also H7.5, F21) — img/fatiha: fatiha: ه د ي B002 جهة الأمر وسيرته وقصده ← ٱهْدِنَا
+- **F31** ء خ ذ B011 «güreşte kavrayıp kilitleme» أخذة المصارعة — word تَتَّخِذَ (2 dictionaries); source: ائتخذوا في القتال أي أخذ بعضهم بعضا (sihah)؛ ائتخذ القوم إذا تصارعوا فأخذ كل واحد على مصارعه أخذة يعتقله بها (tahdhib) (also H7.6, T13, F3, F22) — img/fatiha: fatiha: ق و م B014 مقاومة ومنازلة ← ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F32** ق ل ل B001 «azlık» القِلَّة والضآلة — word قُلْنَا (echo root, sound family only; 4 dictionaries); source: القل القليل؛ رماه الله بالقل والذل أي بالقلة والذلة (jamhara)؛ شيء قليل وجمعه قلل؛ قل الشيء يقل قلة؛ قلله في عينه؛ أقل افتقر؛ استقله عده قليلا (sihah)؛ قل الشيء يقل قلة فهو قليل وقلال؛ القل من الرجال الخسيس الدنيء؛ قليل… (also H7.4) — lex/image: ضالا → ٱلضَّآلِّينَ
+- **F33** و ج د B001 «bulma ve duyusal ya da zihinsel olarak algılama» إلفاء الشيء وإصابته — word وَوَجَدَ (5 dictionaries); source: الشيء يلفيه (maqayis)؛ وجدت الضالة وجدانا (maqayis;sihah)؛ الوجدان والجدة من قولك وجدت الشيء أي أصبته (ayn)؛ وجدت الشيء أجده وجدانا (jamhara)؛ وجد مطلوبه يجده وجودا (sihah)؛ الوجود أضرب: وجود بإحدى الحواس الخمس ... ووجو… — lex/src-rare: ضالا → ٱلضَّآلِّينَ
+- **F34** و ج د B001 «bulma ve duyusal ya da zihinsel olarak algılama» إلفاء الشيء وإصابته — word وَجَدَهَا (5 dictionaries); source: الشيء يلفيه (maqayis)؛ وجدت الضالة وجدانا (maqayis;sihah)؛ الوجدان والجدة من قولك وجدت الشيء أي أصبته (ayn)؛ وجدت الشيء أجده وجدانا (jamhara)؛ وجد مطلوبه يجده وجودا (sihah)؛ الوجود أضرب: وجود بإحدى الحواس الخمس ... ووجو… — lex/src-rare: ضالا → ٱلضَّآلِّينَ
+- **F35** ء خ ذ B002 «suçundan sorumlu tutma» المؤاخذة بالذنب — word تَتَّخِذَ (1 dictionaries, sole attestation); source: آخذه بذنبه مؤاخذة (sihah) (also H4.19, L1.3, F15, F26) — img/fatiha: fatiha: غ ض ب B003 المراغمة والمخالفة ← ٱلْمَغْضُوبِ
+- **F36** ء خ ذ B004 «büyüsel yolla etkileyip engelleme» رقية تمسك وتحبس — word تَتَّخِذَ (4 dictionaries); source: الأخذة رقية تأخذ العين ونحوها والمؤخذ الرجل كأنه حبس (maqayis)؛ الأخذة رقية تأخذ العين ورجل مؤخذ عن النساء (ayn)؛ الأخذة رقية كالسحر أو خرزة تؤخذ بها النساء الرجال من التأخيذ (sihah)؛ التأخيذ حيل من السحر تمنع الزوج من … (also H1.1, H7.1, F28) — img/fatiha: fatiha: غ ض ب B006 تورم العين وما حولها ← ٱلْمَغْضُوبِ || img/fatiha: fatiha: ن ع م B013 نعم الله بك عينا وقرة العين ← أَنْعَمْتَ
+- **F37** ء خ ذ B008 «ay konaklarının yıldızları» أخذ القمر في منازله — word تَتَّخِذَ (3 dictionaries); source: نجوم الأخذ منازل القمر لأن القمر يأخذ كل ليلة في منزل (maqayis)؛ نجوم الأخذ منازل القمر لأن القمر يأخذ كل ليلة في منزل منها (sihah)؛ نجوم الأخذ هي نجوم منازل القمر لأخذ القمر في منازلها (tahdhib) (also H5.15, H8.6, F29) — img/fatiha: fatiha: ن ع م B007 ما سمي نعامة تشبيها بالهيئة ← أَنْعَمْتَ
+
+### 5. Triangles [T]
+
+- **T1** ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word قَوْمًا (2 dictionaries); source: قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib) (also H2.14, H5.14, H8.5)
+  - → 18:90 [surah]: lex/src-rare: شمس → ٱلشَّمْسِ
+  - → مَغْرِبَ: lex/src: شمس names the plain image of مَغْرِبَ || Luna (opposite): The rare قَوْمًا sense places the sun at noon, while مَغْرِبَ names its setting place or time. The pair stretches from the sun’s height at midday to its disappe
+  - 18:90 [surah] ↔ مَغْرِبَ: frame: بَلَغَ مَغْرِبَ ~ بَلَغَ مَطْلِعَ
+- **T2** ع ي ن B003 «koruyup gözetme» عين الحفظ والرعاية — word عَيْنٍ (3 dictionaries); source: أنت على عيني، في الإكرام والحفظ جميعا (sihah); على عيني قصدت زيدا يريدون الإشفاق (tahdhib); فلان بعيني أي أحفظه وأراعيه (mufradat); بحيث نرى ونحفظ (mufradat) (also H7.3, L1.10)
+  - → قَوْمًا: lex/src: ونحفظ names the plain image of قَوْمًا || Luna (same): The rare عَيْن sense is protective keeping and oversight; قَوْمًا names a social body with a secondary sense of care and governance. The people can be heard not
+  - → قُلْنَا: image similarity only
+  - قَوْمًا ↔ قُلْنَا: sound: ق و م ~ ق و ل
+- **T3** ع ي ن B008 «güneş yuvarlağı» عين الشمس — word عَيْنٍ (4 dictionaries); source: عين الشمس مشبه بعين الإنسان (maqayis); عين الشمس صيخدها (ayn); العين: عين الشمس (sihah); طلعت العين وغابت العين، أي الشمس (tahdhib) (also H2.5, H5.5, H8.1)
+  - → 18:90 [surah]: lex/image: شمس → ٱلشَّمْسِ || lex/src-rare: طلعت → تَطْلُعُ
+  - → مَغْرِبَ: lex/image: شمس names the plain image of مَغْرِبَ || Luna (image): The sun’s eye reaches its setting place. The distant sunset becomes the visible passage of the solar disk toward the horizon.
+  - 18:90 [surah] ↔ مَغْرِبَ: frame: بَلَغَ مَغْرِبَ ~ بَلَغَ مَطْلِعَ
+- **T4** ع ذ ب B004 «gökyüzüne karşı örtüsüz» العذوب المكشوف للسماء — word تُعَذِّبَ (2 dictionaries); source: العذوب الذي ليس بينه وبين السماء ستر وكذلك العاذب (maqayis;tahdhib)؛ فبات عذوبا للسماء كأنه سهيل (maqayis;tahdhib) (also H1.31, H2.22)
+  - → 18:90 [surah]: lex/src-rare: ستر → سِتْرًا
+  - → مَغْرِبَ: Luna (image): The setting-place can be pictured as an open expanse under the sky. The rare sense adds an unobstructed horizon to the scene of sunset.
+  - 18:90 [surah] ↔ مَغْرِبَ: frame: بَلَغَ مَغْرِبَ ~ بَلَغَ مَطْلِعَ
+- **T5** ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته — word قُلْنَا (2 dictionaries); source: تقول باطلا أي قال ما لم يكن (ayn)؛ قولتني ما لم أقل وأقولتني ما لم أقل أي ادعيته علي (sihah)؛ تقول عليه أي كذب عليه (sihah) (also L3.6)
+  - → 18:90 [surah]: image similarity only
+  - → عِندَهَا: Luna (same): The rare sense of قُلْنَا includes falsely attributing words to someone, while عِندَهَا is glossed as resisting what is right. Both can be heard as refusals of 
+  - 18:90 [surah] ↔ عِندَهَا: frame: وَجَدَ عِندَهَا ~ وَجَدَ تَطْلُعُ
+- **T6** غ ر ب B014 «uzak uçan söylence kuşu veya büyük felaket» عنقاء مغرب طائر بعيد أو داهية — word مَغْرِبَ (3 dictionaries); source: العنقاء المغرب ويقال المغربة وإغرابها في طيرانها (ayn)؛ عنقاء مغرب طائر وليس بثبت غير أنهم يسمون الداهية عنقاء مغرب (jamhara)؛ عنقاء مغرب وصف بذلك لأنه كان طيرا تناول جارية فأغرب بها (mufradat) (also H4.25, H5.11)
+  - → 18:90 [surah]: image similarity only
+  - → تَغْرُبُ: lex/image: مغرب names the plain image of تَغْرُبُ || Luna (image): The setting sun can be pictured beside عنقاء مغرب, the far-flying bird. Its flight extends the western horizon into a scene of distance.
+  - 18:90 [surah] ↔ تَغْرُبُ: frame: وَجَدَ تَغْرُبُ ~ وَجَدَ تَطْلُعُ
+- **T7** غ ر ب B014 «uzak uçan söylence kuşu veya büyük felaket» عنقاء مغرب طائر بعيد أو داهية — word تَغْرُبُ (3 dictionaries); source: العنقاء المغرب ويقال المغربة وإغرابها في طيرانها (ayn)؛ عنقاء مغرب طائر وليس بثبت غير أنهم يسمون الداهية عنقاء مغرب (jamhara)؛ عنقاء مغرب وصف بذلك لأنه كان طيرا تناول جارية فأغرب بها (mufradat) (also H2.11, H4.24, L2.8)
+  - → 18:90 [surah]: image similarity only
+  - → مَغْرِبَ: lex/image: مغرب names the plain image of مَغْرِبَ || Luna (image): The rare branch names عنقاء مغرب, a far-flying legendary bird; مَغْرِبَ is the western setting place. The horizon becomes the bird’s distant country, giving the
+  - 18:90 [surah] ↔ مَغْرِبَ: frame: بَلَغَ مَغْرِبَ ~ بَلَغَ مَطْلِعَ
+- **T8** ح س ن B004 «yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı» أسماء الحسن للمواضع والأجسام — word حُسْنًا (4 dictionaries); source: الحسن جبل وحبل من حبال الرمل (maqayis)؛ الحسن من الذراع النصف الذي يلي الكوع (maqayis)؛ حسن اسم رملة لنبي سعد (ayn)؛ الحاسن القمر (sihah)؛ الحسن اسم رملة لبنى سعد (sihah)؛ الحسن نقا في ديار بني تميم (tahdhib)؛ أحسن الرج… (also H5.16, H8.10, F1)
+  - → 18:90 [surah]: image similarity only
+  - → تَغْرُبُ: Luna (complement): As the sun sets, the moon named by the rare sense supplies the other side of the sky's cycle. The image links solar descent with the moon's place among the star
+  - 18:90 [surah] ↔ تَغْرُبُ: frame: وَجَدَ تَغْرُبُ ~ وَجَدَ تَطْلُعُ
+- **T9** ش م س B002 «ürküp kaçınma, durulmama ve güçlük çıkarma» الشماس والشموس في الدابة والخلق — word ٱلشَّمْسِ (5 dictionaries); source: الشموس من الدواب الذي لا يكاد يستقر (maqayis)؛ الشمس والشموس من الدواب الذي إذا نخس لم يستقر (ayn;tahdhib)؛ شمس الفرس شموسا وشماسا أي منع ظهره (sihah)؛ رجل شموس عسر (ayn;tahdhib)؛ رجل شموس صعب الخلق (sihah)؛ امرأة شموس … (also H2.1, H5.1, L3.3)
+  - → 18:90 [surah]: image similarity only
+  - → عِندَهَا: Luna (same): Defiance meets a difficult, resistant temperament. The people near the scene can be heard against a spirit that refuses to yield.
+  - 18:90 [surah] ↔ عِندَهَا: frame: وَجَدَ عِندَهَا ~ وَجَدَ تَطْلُعُ
+- **T10** غ ر ب B015 «belirli bir ağaç, kırmızı reçinesi veya boyası» الغرب شجر وصمغ وصبغ أحمر — word مَغْرِبَ (5 dictionaries); source: الغرب شجر؛ الغربي صبغ أحمر (maqayis)؛ الغربي شجر تصيبه الشمس بحرها عند الأفول؛ الغربي صمغ أحمر؛ الغرب شجرة (ayn)؛ الغرب شجرة (jamhara)؛ الغرب ضرب من الشجر (sihah)؛ الغرب شجر لا يثمر لتباعده من الثمرات (mufradat) (also H5.12, H8.3)
+  - → 18:90 [surah]: lex/src-rare: شمس → ٱلشَّمْسِ
+  - → تَغْرُبُ: lex/src: شمس names the plain image of تَغْرُبُ || Luna (image): The setting is the moment when the rare غرب tree is heated by the sun. The dictionary image places that tree directly in the sunset scene.
+  - 18:90 [surah] ↔ تَغْرُبُ: frame: وَجَدَ تَغْرُبُ ~ وَجَدَ تَطْلُعُ
+- **T11** غ ر ب B015 «belirli bir ağaç, kırmızı reçinesi veya boyası» الغرب شجر وصمغ وصبغ أحمر — word تَغْرُبُ (5 dictionaries); source: الغرب شجر؛ الغربي صبغ أحمر (maqayis)؛ الغربي شجر تصيبه الشمس بحرها عند الأفول؛ الغربي صمغ أحمر؛ الغرب شجرة (ayn)؛ الغرب شجرة (jamhara)؛ الغرب ضرب من الشجر (sihah)؛ الغرب شجر لا يثمر لتباعده من الثمرات (mufradat) (also H2.12, H8.2)
+  - → 18:90 [surah]: lex/src-rare: شمس → ٱلشَّمْسِ
+  - → مَغْرِبَ: lex/src: شمس names the plain image of مَغْرِبَ || Luna (image): The rare الغرب is a red-resin tree exposed to the sun’s heat at setting; مَغْرِبَ is the sun’s western disappearance place. The tree’s red trace makes the reach
+  - 18:90 [surah] ↔ مَغْرِبَ: frame: بَلَغَ مَغْرِبَ ~ بَلَغَ مَطْلِعَ
+- **T12** ق ر ن B005 «aynı çağın insanları veya kuşak dönemi» قوم مقترنون في زمن واحد — word ٱلْقَرْنَيْنِ (5 dictionaries); source: القرن الأمة من الناس والجمع قرون؛ وقرونا بين ذلك كثيرا (maqayis)؛ القرن الأمة؛ قرن بعد قرن؛ عمر كل قرن ستون سنة (ayn)؛ القرن من الناس أهل زمان واحد؛ القرن أيضا ثمانون سنة ويقال ثلاثون سنة (sihah)؛ القرن أهل كل مدة؛ الذي… (also H7.14)
+  - → قَوْمًا: Luna (same): The rare sense of a generation brings the title close to the people he encounters. The community can be heard as a people joined in one time.
+  - → قُلْنَا: image similarity only
+  - قَوْمًا ↔ قُلْنَا: sound: ق و م ~ ق و ل
+- **T13** ء خ ذ B011 «güreşte kavrayıp kilitleme» أخذة المصارعة — word تَتَّخِذَ (2 dictionaries); source: ائتخذوا في القتال أي أخذ بعضهم بعضا (sihah)؛ ائتخذ القوم إذا تصارعوا فأخذ كل واحد على مصارعه أخذة يعتقله بها (tahdhib) (also H7.6, F3, F22, F31)
+  - → قَوْمًا: Luna (image): The people he meets can be pictured as a group caught in a wrestler's lock. The choice of what to do among them carries a physical hold beneath its political se
+  - → قُلْنَا: image similarity only
+  - قَوْمًا ↔ قُلْنَا: sound: ق و م ~ ق و ل
+- **T14** ج د د B013 «cırcır böceği» دويبة الجُدجُد — word وَوَجَدَ (echo root, sound family only; 2 dictionaries); source: الجدجد دويبة على خلقة الجندب (ayn)؛ الجدجد صرار الليل وفيه شبه من الجراد (sihah) (also H2.21, H8.8)
+  - → 18:90 [surah]: image similarity only
+  - → مَغْرِبَ: Luna (complement): At sunset, a night cricket can be imagined beginning its call. The rare animal sense supplies a sound for the evening scene.
+  - 18:90 [surah] ↔ مَغْرِبَ: frame: بَلَغَ مَغْرِبَ ~ بَلَغَ مَطْلِعَ
+- **T15** ش م س B005 «başı ortadan tıraşlı, kiliseye bağlı Hristiyan önder din görevlisi» الشماس النصراني — word ٱلشَّمْسِ (2 dictionaries); source: الشماس من رؤساء النصارى الذي يحلق وسط رأسه لازما للبيعة (ayn;tahdhib)؛ الجميع الشمامسة (ayn;tahdhib) (also H7.7)
+  - → قَوْمًا: Luna (part): The encountered people can be heard as a congregation with a religious leader among them. The rare cleric sense adds a social role to the collective.
+  - → قُلْنَا: image similarity only
+  - قَوْمًا ↔ قُلْنَا: sound: ق و م ~ ق و ل
+
+### 6. Bridges (touch two hubs) [J]
+
+- **J1** 18:45 [surah] joins H1, H2, H3, H4, H5, H6, H7
+- **J2** 18:87 [surah] joins H1, H2, H3, H4, H5, H7
+- **J3** 18:93 [surah] joins H1, H2, H5, H6, H8, L2, L3
+- **J4** 18:29 [surah] joins H1, H2, H3, H4, H5, L3
+- **J5** 18:57 [surah] joins H1, H2, H3, H4, H5, L1
+- **J6** 18:79 [surah] joins H1, H2, H3, H4, H7, L1
+- **J7** 18:90 [surah] joins H1, H2, H5, H6, H8, L2
+- **J8** 18:109 [surah] joins H1, H2, H3, H4, H7
+- **J9** 18:41 [surah] joins H1, H2, H3, H4, H5
+- **J10** 18:59 [surah] joins H1, H2, H3, H4, H5
+- **J11** 18:6 [surah] joins H1, H3, H4, H6, H8
+- **J12** 18:63 [surah] joins H1, H2, H3, H4, H5
+- **J13** 18:19 [surah] joins H1, H3, H4, H6, L2, L6, L7
+- **J14** 18:28 [surah] joins H1, H2, H5, H6, L3, L6
+- **J15** 18:55 [surah] joins H1, H2, H5, H7, L1, L3
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** sound: قَوْمًا ~ قُلْنَا: ق و م ~ ق و ل
+- **G2** frame: مَغْرِبَ ~ 18:90: بَلَغَ مَغْرِبَ ~ بَلَغَ مَطْلِعَ
+- **G3** frame: تَغْرُبُ ~ 18:90: وَجَدَ تَغْرُبُ ~ وَجَدَ تَطْلُعُ
+- **G4** frame: عِندَهَا ~ 18:90: وَجَدَ عِندَهَا ~ وَجَدَ تَطْلُعُ
+- **G5** word note: 18:86:1 حَتَّىٰٓ: terminative particle marking the journey's endpoint, with goal-pressure subordinated to temporal arrival — topics: terminative scope over the arrival frame; endpoint with goal-pressure; Kahf journey formula and verse-boundary handoff
+- **G6** word note: 18:86:2 إِذَا: scene-opening temporal adverb for a realized arrival, retaining conditional shape inside the decision frame — topics: realized temporal scene, not repeated hypothetical; temporal frame with conditional coloring; protasis resolved through discovery and speech
+- **G7** word note: 18:86:3 بَلَغَ: completed reaching of a named spatial limit, with threshold and communicative pressure kept secondary — topics: perfect Form I reaches a direct object; reaching selected from broader attainment range; three journey endpoints open with reaching
+- **G8** word note: 18:86:4 مَغْرِبَ: reached setting-place/time of the sun, relationally definite through construct, with west as disappearance and unfamiliar edge — topics: accusative construct locale as reached endpoint; west as disappearance and estrangement; root reprise with the setting verb; hard horizon cadence
+- **G9** word note: 18:86:5 ٱلشَّمْسِ: the known sun as genitive partner defining the setting-place and later retrieved by feminine reference — topics: definite genitive sun completes the destination; solar body selected over name or loose image; sun frames the Kahf spatial arc; article assimilation binds definiteness…
+- **G10** word note: 18:86:6 وَجَدَهَا: perceptual finding of a feminine referent in a circumstantial setting state, from the traveler's reached vantage point — topics: pronoun object plus circumstantial clause; finding as experienced reality, not cosmic claim; first finding in endpoint formula
+- **G11** word note: 18:86:7 تَغْرُبُ: ongoing setting within the finding scene, located through a following prepositional frame — topics: imperfect state inside the finding clause; setting plus withdrawal beyond familiarity; act echoes the destination noun; throat-heavy descent into the spring phrase
+- **G12** word note: 18:86:8 فِى: preposition locating the setting in or into the spring-like locus — topics: preposition governs the spring complement; containment with motion-into pressure; locative phrase keeps the visual scene open
+- **G13** word note: 18:86:9 عَيْنٍ: indefinite spring or source governed by the preposition, with eye/aperture pressure under the visual scene — topics: genitive indefinite locus after the preposition; spring selected with eye-aperture pressure; muddy spring contrasted with clear spring registers; guttural spring phra…
+- **G14** word note: 18:86:10 حَمِئَةٍۢ: genitive indefinite adjective qualifying the spring as dark, altered, muddy, with accepted hot-spring variant pressure — topics: adjective agrees with the spring; rare creation-mud material at the horizon; muddy reading held with hot variant pressure; hamza roughens the adjective
+- **G15** word note: 18:86:11 وَ: coordinating conjunction that restarts finding and pivots from cosmic observation to human encounter — topics: coordination of the second finding clause; coordination with circumstantial pressure; pivot from cosmic sight to human encounter; wa-wajada restart cadence
+- **G16** word note: 18:86:12 وَجَدَ: second perfect finding, now an encounter with an overt human collective — topics: bare verb reopens the object slot; finding becomes social encounter; double finding architecture
+- **G17** word note: 18:86:13 عِنْدَهَا: locative adverb with feminine suffix placing the people near the same scene without putting them inside the spring — topics: locative adverb before the object; adjacency rather than containment; open feminine referent keeps the scene layered
+- **G18** word note: 18:86:14 قَوْمًۭا: unknown collective people as overt object of finding and later moral object/domain — topics: indefinite accusative collective object; standing social body capable of governance; human object pivots the ayah to speech; tanwīn links people to goodness
+- **G19** word note: 18:86:15 قُلْنَا: completed first-person-plural divine saying that authorizes the quoted decision frame — topics: first-person plural speech verb; saying narrowed to authoritative declaration; narration pivots into address
+- **G20** word note: 18:86:16 يَٰ: vocative particle opening direct address and focusing attention on the titled addressee — topics: vocative scope opener; attention before content; three-part vocative chain begins; open-vowel address cadence
+- **G21** word note: 18:86:17 ذَا: vocative form of the possessor noun, making the following dual title the addressee's characterization — topics: vocative five-noun form with genitive complement; possession as identity-marker; title refrain across narrative nodes
+- **G22** word note: 18:86:18 ٱلْقَرْنَيْنِ: definite dual genitive title complement, carrying paired horns/peaks/epochs and twofold identity pressure — topics: definite dual genitive completes the title; dense qarn range inside the title; dual title prepares binary choice
+- **G23** word note: 18:86:19 إِمَّآ: first disjunctive particle opening the either-branch and making punishment one option inside a binary — topics: first particle opens disjunctive scope; either-force with conditional coloring; paired particle anticipates the second branch; geminated mīm locks the choice
+- **G24** word note: 18:86:20 أَنْ: subjunctive complementizer turning punishing into the content-unit of the first option — topics: complementizer governs the first subjunctive verb; action nominalized as an option-unit; first template for the repeated complementizer
+- **G25** word note: 18:86:21 تُعَذِّبَ: subjunctive second-person Form II punitive action, with the people implied as patient inside the first option — topics: subjunctive second-person action with implied object; punitive action selected over generic harm; punishment branch answered in the next ayah; gemination makes…
+- **G26** word note: 18:86:22 وَ: connector inside the disjunctive pair, pivoting from punishment to the constructive alternative — topics: connector inside wa-immā disjunction; binding and dividing at once; pivot from punishment to goodness; balanced binary cadence
+- **G27** word note: 18:86:23 إِمَّآ: second disjunctive particle closing the paired frame and introducing the constructive branch — topics: second particle closes the disjunctive scope; constructive option as alternative, not supplement; mirrored particle, different content; paired gemination brackets the alternatives
+- **G28** word note: 18:86:24 أَنْ: second complementizer giving the adoption branch the same subjunctive dependency as the punishment branch — topics: second complementizer governs adoption; adopting packaged as an option-unit; complementizer symmetry across branches
+- **G29** word note: 18:86:25 تَتَّخِذَ: subjunctive Form VIII adopting or instituting goodness among the people, not seizing them as object — topics: verb takes domain phrase plus abstract object; adoption selected over seizure; authorized taking within the Kahf motif
+- **G30** word note: 18:86:26 فِيهِمْ: preposition plus plural suffix marking the people as the domain in which or concerning which goodness is adopted — topics: domain complement, not direct object; among and concerning both fit the action; second fī shifts from cosmic to social containment
+- **G31** word note: 18:86:27 حُسْنًۭا: indefinite verbal noun object of adoption, naming open-ended goodness, beauty, and excellence as the constructive option — topics: maṣdar object of adoption; beauty and moral goodness fused; goodness branch balances punishment and is taken up forward; tanwīn cadence links people …
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+20 readings and open observations, 4 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L03** [reading; support strong, relevance high] word 3: بَلَغَ — lemma بَلَغَ, root ب ل غ, pos V
+  - finding: بَلَغَ makes the named place the reached limit of this leg of travel. Repetition at the next two stations divides Dhū al-Qarnayn’s movement into successive endpoint scenes.
+  - evidence: 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:90 «بَلَغَ مَطْلِعَ ٱلشَّمْسِ»; 18:93 «بَلَغَ بَيْنَ ٱلسَّدَّيْنِ»
+  - activation: The same verb opens each of the three station scenes, while its object changes from sunset-place to sunrise-place to the space between barriers.
+  - limits: The repeated verb establishes a narrative pattern of arrival, not that the three destinations have identical significance.
+- **L05** [reading; support strong, relevance high] word 5: ٱلشَّمْسِ — lemma شَمْس, root ش م س, pos DET;N
+  - finding: ٱلشَّمْسِ fixes the destination as the setting-place of the known sun, and the feminine suffix in وَجَدَهَا retrieves that same noun. The eastern station later completes a west-to-east solar frame in the travel narrative.
+  - evidence: 18:86 «مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا»; 18:90 «مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ»
+  - activation: The definite sun is the genitive partner in the first construct and the most direct antecedent of هَا; the next endpoint names its rising place.
+  - limits: The wording frames the journey through sunset and sunrise; it does not specify a complete itinerary between them.
+- **L06** [reading; support strong, relevance high] word 6: وَجَدَهَا — lemma وَجَدَ, root و ج د, pos V;PRON
+  - finding: وَجَدَهَا makes the setting report a finding from the traveler’s scene: the sun is found while تَغْرُبُ. The parallel وَجَدَهَا تَطْلُعُ at the eastern station repeats this perspectival construction.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 18:90 «وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ»
+  - activation: The attached feminine object is followed by a verbal clause describing the state in which the sun is found.
+  - limits: This construction presents the scene as perceived at the endpoint; it does not independently settle the physical or cosmological interpretation of the image.
+- **L10** [reading; support strong, relevance high] word 10: حَمِئَةٍ — lemma حَمِئَة, root ح م ء, pos ADJ
+  - finding: حَمِئَةٍ describes the spring as muddy or darkened; the supplied variant حَامِيَةٍ instead makes heat salient. The two forms alter the material image at this endpoint.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ»
+  - activation: The adjective agrees with عَيْنٍ, so the variant changes the quality assigned to the spring, not to the sun.
+  - limits: The printed form here is حَمِئَةٍ; the variant does not combine mud and heat into one adjective in this wording.
+- **L11** [reading; support strong, relevance high] word 11: وَوَجَدَ — lemma وَجَدَ, root و ج د, pos CONJ;V
+  - finding: وَوَجَدَ restarts the finding with a new object: after the sun and its setting state, the traveler finds a people. This is the hinge from the horizon scene to a human encounter.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ»; 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا»
+  - activation: The repeated verb changes from an attached feminine object to the overt collective قَوْمًا.
+  - limits: The coordination orders two discoveries; it does not state that the people witnessed the sunset.
+- **L12** [reading; support strong, relevance high] word 12: عِندَهَا — lemma عِند, root ع ن د, pos LOC;PRON
+  - finding: عِندَهَا places the people near the preceding scene, whereas the earlier فِى locates the setting within the spring. The change marks adjacency without putting the people inside the spring.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»
+  - activation: The locative follows the sunset-in-a-spring phrase and introduces the second finding.
+  - limits: The suffix هَا can point to the spring or to the wider scene; the wording does not resolve its precise antecedent.
+- **L13** [reading; support strong, relevance high] word 13: قَوْمًا — lemma قَوْم, root ق و م, pos N
+  - finding: قَوْمًا enters as the overt object of the second finding, a collective treated as a group. The following options concern that group, with them understood as the object of تُعَذِّبَ and stated as the domain in فِيهِمْ.
+  - evidence: 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The collective object is followed directly by options about treatment, one with an implied object and one with an explicit plural suffix.
+  - limits: The verse does not identify this people or specify their prior conduct here.
+- **L14** [reading; support strong, relevance high] word 14: قُلْنَا — lemma قَالَ, root ق و ل, pos V;PRON
+  - finding: قُلْنَا changes the narrative into direct divine address, placing the two courses of action within an authorized decision frame for Dhū al-Qarnayn.
+  - evidence: 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 18:87 «قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - activation: The first-person plural speech verb introduces a vocative and second-person options; the next verse gives his response.
+  - limits: The verb establishes who speaks in the narrative frame; it does not alone specify how the authority was communicated.
+- **L16** [reading; support strong, relevance high] word 16: ٱلْقَرْنَيْنِ — lemma قَرْن, root ق ر ن, pos DET;N
+  - finding: The dual form ٱلْقَرْنَيْنِ sits immediately before إِمَّا … وَإِمَّا, giving the title’s grammatical twoness a formal echo in the two branches.
+  - evidence: 18:86 «يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ»
+  - activation: The dual title and the paired alternatives occur consecutively in the same address.
+  - limits: The adjacency supports a formal echo; it does not assign one branch to each of the title’s two parts or establish the title’s intended etymology.
+- **L17** [reading; support strong, relevance high] word 17: إِمَّآ — lemma إِمَّا, root —, pos EXL
+  - finding: The first إِمَّا opens a choice whose paired second branch prevents تُعَذِّبَ from reading as a standalone command. The second-person form leaves the addressee as the agent of either course.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «قَالَ أَمَّا مَن ظَلَمَ»
+  - activation: The repeated disjunctive frame and Dhū al-Qarnayn’s ensuing reply make the first action one available branch.
+  - limits: The form offers alternatives but does not by itself explain why one branch would be chosen for a particular person.
+- **L19** [reading; support strong, relevance high] word 19: تُعَذِّبَ — lemma عَذَّبَ, root ع ذ ب, pos V
+  - finding: تُعَذِّبَ assigns the first punitive action to the addressed ruler, with قَوْمًا recoverable as its object. The next verse shifts to first-person plural punishment and then the Lord’s punishment, placing earthly action within a larger judgment.
+  - evidence: 18:86 «قَوْمًۭا قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 18:87 «فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ»
+  - activation: The second-person singular verb is answered by a response that names a first punishment and then a return to the Lord.
+  - limits: The sequence establishes distinct agents and stages; it does not specify the legal form or severity of Dhū al-Qarnayn’s action.
+- **L22** [reading; support strong, relevance high] word 22: تَتَّخِذَ — lemma ٱتَّخَذَ, root ء خ ذ, pos V
+  - finding: تَتَّخِذَ has حُسْنًا as its object while فِيهِمْ marks the social domain: the offered course is to adopt goodness among or toward the people, not to take the people as the object. Elsewhere in the surah the verb takes concrete objects such as a mosque or gods.
+  - evidence: 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:15 «ٱتَّخَذُوا۟ مِن دُونِهِۦٓ ءَالِهَةًۭ»; 18:21 «لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًۭا»
+  - activation: The prepositional phrase and abstract object differ from the surah’s examples where a concrete entity follows the verb.
+  - limits: The wording identifies goodness as the adopted course but leaves its specific practices unstated.
+- **L23** [reading; support strong, relevance high] word 23: فِيهِمْ — lemma فِى, root —, pos P;PRON
+  - finding: فِيهِمْ marks the people as the field or concern of the adopted goodness. It also shifts فِى from the physical spring phrase to a social domain.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:86 «تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The same preposition first locates the sunset and later introduces the people as the domain of the second option.
+  - limits: فِيهِمْ can be heard as among or concerning them; the phrase does not specify a particular policy or recipient-by-recipient distribution.
+- **L24** [reading; support strong, relevance high] word 24: حُسْنًا — lemma حُسْن, root ح س ن, pos N
+  - finding: حُسْنًا is the direct object naming an indefinite, open-ended good course. The same root appears in the response as ٱلْحُسْنَىٰ, linking the offered treatment to the believer’s good recompense without equating the two phrases.
+  - evidence: 18:86 «تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:88 «فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The indefinite object completes the second option, and the following answer uses the same root for a reward.
+  - limits: The shared root links goodness of conduct and goodness of recompense; it does not establish that the adopted course and the reward are identical.
+- **L09** [reading; support medium, relevance high] word 9: عَيْنٍ — lemma عَيْن, root ع ي ن, pos N
+  - finding: عَيْنٍ names the muddy water source, while its eye or aperture sense is activated by the nearby finding and seeing scene: the place of disappearance is expressed with a word that can also name an eye.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»
+  - activation: وَجَدَهَا and تَغْرُبُ frame a perceived disappearance, and حَمِئَةٍ describes the locus as muddy.
+  - limits: The adjective and locative syntax select a spring as the phrase’s sense; they do not establish a literal eye or a second simultaneous referent.
+- **L01** [reading; support strong, relevance medium] word 1: حَتَّىٰٓ — lemma حَتَّىٰ, root —, pos INC
+  - finding: حَتَّىٰٓ carries the motion from the preceding route into a reached endpoint; the scene opens as the next stage of travel, not as a detached tableau.
+  - evidence: 18:85 «فَأَتْبَعَ سَبَبًا»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:90 «ثُمَّ أَتْبَعَ سَبَبًا»
+  - activation: The opening ḥattā follows the route-taking in 18:85 and introduces the arrival frame.
+  - limits: The particle marks the transition to an endpoint; it does not identify the route or make the endpoint a metaphysical boundary.
+- **L02** [reading; support strong, relevance medium] word 2: إِذَا — lemma إِذَا, root —, pos T
+  - finding: إِذَا stages a particular arrival, with perfect بَلَغَ followed by successive findings and speech; the scene is narrated as an event rather than a habitual journey.
+  - evidence: 18:86 «إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ»
+  - activation: The perfect arrival verb and the sequence of discoveries and address fill out this temporal frame.
+  - limits: The frame gives the scene an eventive reading; it does not by itself settle the scope of the conditional coloring in إِذَا.
+- **L04** [reading; support strong, relevance medium] word 4: مَغْرِبَ — lemma مَغْرِب, root غ ر ب, pos N
+  - finding: مَغْرِبَ names the setting-place in the construct مَغْرِبَ ٱلشَّمْسِ, then تَغْرُبُ repeats the same root as an action. The reached place and the sun’s disappearance are bound together in the wording.
+  - evidence: 18:86 «مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ»
+  - activation: The place noun is immediately followed by a verb from the same غ ر ب root.
+  - limits: The root reprise links the destination with the setting action; it does not add an independent meaning such as exile to the passage.
+- **L07** [reading; support strong, relevance medium] word 7: تَغْرُبُ — lemma غَرَبَت, root غ ر ب, pos V
+  - finding: تَغْرُبُ presents sunset as underway within the finding scene. The imperfect keeps the action open as the following phrase locates it in فِى عَيْنٍ حَمِئَةٍۢ.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»
+  - activation: The imperfect verb occurs as the setting state inside وَجَدَهَا, with a locative phrase directly after it.
+  - limits: The form sustains the scene in progress; it does not establish that the setting is a recurring or habitual event.
+- **L08** [reading; support strong, relevance medium] word 8: فِى — lemma فِى, root —, pos P
+  - finding: فِى makes the spring-like locus part of how the sunset is seen: the verb is not left as unlocated disappearance. The preposition allows a contained scene but does not itself require a motion-into reading.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»
+  - activation: فِى directly governs the indefinite noun عَيْنٍ and its adjective.
+  - limits: Containment is supported by the phrase; direction of motion into the spring is not encoded by فِى alone.
+
+Notes:
+- L15 [support strong, relevance medium] يَٰ opens a vocative before the title and before either course is stated, directing the alternatives to a named addressee.
+- L18 [support strong, relevance medium] The first أَن places تُعَذِّبَ under the first option; its repetition before تَتَّخِذَ gives the two actions matching grammatical packaging.
+- L20 [support strong, relevance medium] وَإِمَّا introduces the second branch as the counterpart to punishment, completing the either-or frame rather than adding a second action to the first.
+- L21 [support strong, relevance medium] The second أَن mirrors the first complementizer, so adopting goodness is packaged as an option on the same syntactic level as punishment.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+12 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 1}.
+
+- **U-بلغ** [reading; support strong, relevance high] root ب ل غ (focus word بَلَغَ: بَلَغَ V) — 75 occurrences in 73 ayat; same form 38, other forms 37
+  - finding: The repeated frame حَتَّىٰٓ إِذَا بَلَغَ marks three successive route thresholds: the sun’s setting place, its rising place, and the space between the barriers. Reaching each limit opens a new scene with a different people or task.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ»
+  - activation: The focus shares this exact Form I verb and opening formula with the next two journey scenes.
+  - limits: The pattern makes بَلَغَ a narrative threshold here; it does not by itself mean conquest or moral achievement.
+- **U-غرب** [reading; support strong, relevance high] root غ ر ب (focus word مَغْرِبَ: مَغْرِب N) — 19 occurrences in 17 ayat; same form 10, other forms 9
+  - finding: Surah 18 first uses the غ ر ب root for sunset as it relates to the sleepers and their cave; here مَغْرِبَ and تَغْرُبُ make sunset a reached horizon and the setting for an encounter with people. The same-root return shifts sunset from a relation to shelter into a journey boundary where rule must be exercised.
+  - evidence: 18:17 «وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ»; 18:86 «مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»
+  - activation: Both scenes attach the same root to the sun, while 18:86 makes the western setting an arrival followed by a decision about the people there.
+  - limits: The echo does not establish a physical connection between the cave and the spring or settle the geography of the setting.
+- **U-شمس** [reading; support strong, relevance high] root ش م س (focus word ٱلشَّمْسِ: شَمْس N) — 33 occurrences in 32 ayat; same form 33, other forms 0
+  - finding: A Qur’anic cosmic pairing of sun and moon in 10:5 contrasts with the sun’s narrative role here and at its eastern counterpart: it becomes an axis for encounters with different peoples. The western scene leads to a choice over the people; at sunrise the sun rises upon a people with no covering.
+  - evidence: 10:5 «هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءًۭ وَٱلْقَمَرَ نُورًۭا»; 18:86 «مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»
+  - activation: The definite ٱلشَّمْس anchors the focus’s western destination, and 18:90 pairs that destination with sunrise and another people.
+  - limits: This narrative function does not make a claim about the sun’s physical trajectory or displace its Qur’anic role as a created sign.
+- **U-وجد** [reading; support strong, relevance high] root و ج د (focus word وَجَدَهَا: وَجَدَ V) — 102 occurrences in 99 ayat; same form 101, other forms 1
+  - finding: The two occurrences of وَجَدَ move from observation to encounter: first the traveler finds the sun in the state of setting, then people near it. In 18:90 one finding clause joins the sun’s rising directly to a people; in 18:93 the discovery centers on a people beyond the barriers.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ»; 18:93 «وَجَدَ مِن دُونِهِمَا قَوْمًۭا»
+  - activation: The focus repeats وَجَدَ with two different objects, then the next route episodes vary how the sun and people enter the finding clause.
+  - limits: The sequence supports a narrative movement from seeing a celestial scene to meeting people; it does not settle the scene’s cosmography.
+- **U-حمء** [reading; support strong, relevance high] root ح م ء (focus word حَمِئَةٍ: حَمِئَة ADJ) — 4 occurrences in 4 ayat; same form 1, other forms 3
+  - finding: The other three Quranic uses of ح م ء are the noun حَمَإٍ in one repeated creation episode, where it names material from which the human is formed. That root echo lets the destination عين حمئة carry a primordial human-origin association immediately before the encounter with قومًا.
+  - evidence: 18:86 «عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 15:26 «خَلَقْنَا ٱلْإِنسَٰنَ مِن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ»; 15:28 «خَٰلِقٌۢ بَشَرًۭا مِّن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ»; 15:33 «بَشَرٍ خَلَقْتَهُۥ مِن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ»
+  - activation: حَمِئَةٍ describes the spring at the journey’s endpoint, and the next clause finds people at that same scene.
+  - limits: The focus uses the adjective حَمِئَةٍ, while the creation passage uses the noun حَمَإٍ. The text does not identify this spring with the material of human creation or say its people originate from it.
+- **U-قوم** [reading; support strong, relevance high] root ق و م (focus word قَوْمًا: قَوْم N) — 643 occurrences in 597 ayat; same form 369, other forms 274
+  - finding: Within Dhu al-Qarnayn’s journey, قَوْمًا first names people found beside the sunset scene, whose treatment is framed as his choice. At the third endpoint the same noun introduces another people, described as scarcely understanding speech yet making a detailed petition; he declines their payment and asks for their strength in building protection. The encounters shift from unilateral judgment toward petition and shared work.
+  - evidence: 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:93 «وَجَدَ مِن دُونِهِمَا قَوْمًۭا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا»; 18:94 «قَالُوا۟ يَٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»
+  - activation: The same indefinite collective noun introduces both encounters, but its surrounding speech and action change the people’s role in each scene.
+  - limits: These are distinct groups; the text does not identify the first people with the people by the barriers or say Dhu al-Qarnayn applies one policy to both. The later group scarcely understands speech, not necessarily all speech.
+- **U-عذب** [reading; support strong, relevance high] root ع ذ ب (focus word تُعَذِّبَ: عَذَّبَ V form II) — 364 occurrences in 336 ayat; same form 39, other forms 325
+  - finding: The punishment verb sits in an either-or frame that elsewhere marks divine decision: 9:106 says إِمَّا يُعَذِّبُهُمْ وَإِمَّا يَتُوبُ عَلَيْهِمْ. Here the choice is addressed to Dhu al-Qarnayn and pairs punishment with adopting goodness; his answer then places his punishment of the wrongdoer before that person’s return to his Lord and the Lord’s own punishment. This frames his action as local governance under divine judgment.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 9:106 «إِمَّا يُعَذِّبُهُمْ وَإِمَّا يَتُوبُ عَلَيْهِمْ»; 18:87 «فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ»
+  - activation: The focus pairs إِمَّا branches around second-person تُعَذِّبَ, and the following ayah distinguishes Dhu al-Qarnayn’s response from the Lord’s later punishment.
+  - limits: The shared disjunctive wording does not establish that Dhu al-Qarnayn has the same authority or circumstances as the group in 9:106. The passage specifies the outcome for a wrongdoer, not a universal rule for every person he encounters.
+- **U-ءخذ** [reading; support strong, relevance high] root ء خ ذ (focus word تَتَّخِذَ: ٱتَّخَذَ V form VIII) — 265 occurrences in 244 ayat; same form 122, other forms 143
+  - finding: Form VIII elsewhere in the surah takes a chosen support or an institution as its object; here حُسْنًا is the object adopted, and فِيهِمْ names its social domain. The distinct Form III يُؤَاخِذُ in 18:58 means taking to account, but does not give تتخذ that sense.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:21 «لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًۭا»; 18:51 «وَمَا كُنتُ مُتَّخِذَ ٱلْمُضِلِّينَ عَضُدًۭا»; 18:58 «لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ»
+  - activation: The two options in 18:86 make adopting goodness the alternative to punishing the people; the surah’s other Form VIII uses supply contrasts in what is adopted.
+  - limits: These parallels establish a pattern of deliberate adoption, but not the precise acts meant by حُسْنًا. The Form III use in 18:58 is a distinct form and sense.
+- **U-حسن** [reading; support strong, relevance high] root ح س ن (focus word حُسْنًا: حُسْن N) — 192 occurrences in 177 ayat; same form 13, other forms 179
+  - finding: The exact noun حُسْنًا elsewhere names what is said to people and what is prescribed toward parents. With فِيهِمْ here, those uses support hearing the option as good treatment or conduct among the people. The definite feminine حُسْنَىٰ in 18:88 names a later reward and should not be collapsed with this indefinite noun.
+  - evidence: 18:86 «تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 2:83 «وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا»; 29:8 «بِوَٰلِدَيْهِ حُسْنًۭا»; 18:88 «فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The focus ayah sets حُسْنًا against punishment and places it among the people; the other occurrences show the noun in interpersonal settings.
+  - limits: These uses do not specify one particular good act in 18:86 or establish that its حُسْنًا is identical to the reward حُسْنَىٰ in 18:88.
+- **U-عين** [open; support medium, relevance high] root ع ي ن (focus word عَيْنٍ: عَيْن N) — 64 occurrences in 63 ayat; same form 56, other forms 8
+  - finding: The spring sense of عَيْنٍ may carry an echo of the same root’s bodily-eye sense: the sun is found setting in this عين just as the surah later speaks of eyes and seeing. That could render the spring as an eye-like opening at the horizon.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 18:28 «وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ»; 18:101 «ٱلَّذِينَ كَانَتْ أَعْيُنُهُمْ فِى غِطَآءٍ عَن ذِكْرِى»
+  - missing: The verses attest the spring reading in the focus and bodily-eye uses elsewhere, but do not establish that both senses are active together here. A lexicon account linking the spring and eye images, or another Qur’anic instance pairing عَيْنٍ with a gaze or sunset cue, could decide the link.
+- **usage_1.X1** [open; support medium, relevance high] 
+  - finding: مَغْرِبَ ٱلشَّمْسِ may recall Ibrahim’s challenge to a ruler to bring the sun from the west. In 2:258 the western solar boundary exposes a ruler’s inability to command the sun; here Dhu al-Qarnayn reaches that boundary and is given a choice over the people he finds there. Read together, the scenes could contrast failed cosmic sovereignty with bounded authority over a community.
+  - evidence: 18:86 «مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 2:258 «فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ ٱلْمَغْرِبِ»
+  - activation: Both passages join the sun to the east-west axis; in the focus, the western phrase is immediately followed by divine speech assigning a decision about a people.
+  - missing: The passages share the solar-west boundary and a ruler scene, but no direct quotation or explicit cross-reference connects them. Further Qur’anic wording or a repeated sovereignty motif could establish whether the contrast is an active echo.
+- **U-قرن** [open; support medium, relevance high] root ق ر ن (focus word ٱلْقَرْنَيْنِ: قَرْن N) — 35 occurrences in 34 ayat; same form 23, other forms 12
+  - finding: Elsewhere قَرْن and قُرُون often name past generations or communities, frequently in accounts of their destruction. Against that usage, the repeated title ذِي ٱلْقَرْنَيْنِ raises a possible temporal reading: a figure spanning or joining two eras or communities. His encounters with successive قوم activate the association, but do not settle the title’s sense.
+  - evidence: 18:83 «عَن ذِى ٱلْقَرْنَيْنِ»; 18:86 «يَٰذَا ٱلْقَرْنَيْنِ»; 6:6 «أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍۢ مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ»; 10:13 «أَهْلَكْنَا ٱلْقُرُونَ مِن قَبْلِكُمْ لَمَّا ظَلَمُوا۟»
+  - missing: A lexical attestation or Quranic parallel showing that the fixed dual title can carry the generation/community sense, along with an internal clue identifying two eras or communities as its referent, would decide this reading.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+22 readings and open observations, 1 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The preceding Moses episode ends by disclosing the hidden meaning of actions that had tested his patience; here Dhu al-Qarnayn is given an explicit choice, followed by another journey encounter at the sunrise boundary.
+  - evidence: 18:82 «ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلَعَ ٱلشَّمْسِ»
+  - activation: The transition from the Moses story to Dhu al-Qarnayn puts hidden reasons beside a stated exercise of authority.
+  - limits: The text does not explicitly contrast the two men’s knowledge or say that Dhu al-Qarnayn’s choices are easier to understand.
+- **S-ءخذ** [reading; support strong, relevance high] root ء خ ذ elsewhere in the surah (14)
+  - finding: Across the surah, Form VIII from ء خ ذ often marks an adopted affiliation or stance; here the object is حُسْنًا, so the act of adopting is directed toward goodness among people.
+  - evidence: 18:15 «قَوْمُنَا ٱتَّخَذُوا۟ مِن دُونِهِۦٓ ءَالِهَةًۭ»; 18:50 «أَفَتَتَّخِذُونَهُۥ وَذُرِّيَّتَهُۥٓ أَوْلِيَآءَ مِن دُونِى»; 18:86 «تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The focus places the same verb form beside an abstract good and the people among whom it is adopted.
+  - limits: The other objects taken are not morally equivalent to goodness, and the verb alone does not establish how long the good is maintained.
+- **S-بلغ** [reading; support strong, relevance high] root ب ل غ elsewhere in the surah (6)
+  - finding: In the surah’s travel narratives, بَلَغَ marks a threshold after which the scene changes: Moses reaches the meeting of the seas before the fish’s escape, while Dhu al-Qarnayn repeatedly arrives and encounters new people or conditions.
+  - evidence: 18:60 «حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ»; 18:61 «فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا»; 18:86 «إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:93 «إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ»
+  - activation: The focus uses the same arrival verb in the recurring journey frame, with a new place and a human encounter after arrival.
+  - limits: The root also describes reaching maturity or an excuse elsewhere in the surah; not every occurrence denotes a geographic boundary.
+- **S-حسن** [reading; support strong, relevance high] root ح س ن elsewhere in the surah (6)
+  - finding: حُسْنًا names the constructive option as a broad quality or practice; the following account gives it conduct-based content through faith, righteous action, good recompense, and ease.
+  - evidence: 18:2 «أَجْرًا حَسَنًۭا»; 18:7 «أَيُّهُمْ أَحْسَنُ عَمَلًۭا»; 18:86 «حُسْنًۭا»; 18:88 «فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The next ayah contrasts the good option with the treatment of the wrongdoer and specifies the believer’s reward and ease.
+  - limits: The forms differ: the focus has an indefinite noun, while the other verses include adjectives, a comparative, and a definite reward term.
+- **S-شمس** [reading; support strong, relevance high] root ش م س elsewhere in the surah (2)
+  - finding: The west and east journeys frame Dhu al-Qarnayn’s route with paired sunset and sunrise scenes. The sun’s movement is narrated through what he finds at each boundary, and each scene introduces a people in a different condition.
+  - evidence: 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ»; 18:90 «بَلَغَ مَطْلَعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ»; 18:17 «وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ»
+  - activation: The focus’s setting scene is answered later by an arrival at the sun’s rising place; the cave passage supplies another setting event with a distinct effect on people.
+  - limits: The text does not give a complete astronomical map or identify these scenes as a literal route traced along the sun’s path.
+- **S-عذب** [reading; support strong, relevance high] root ع ذ ب elsewhere in the surah (3)
+  - finding: The punishment option is assigned to Dhu al-Qarnayn, but the next ayah adds a second reckoning: the wrongdoer is returned to his Lord, who also punishes him.
+  - evidence: 18:86 «أَن تُعَذِّبَ»; 18:87 «فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»
+  - activation: The following response repeats the same root first with a plural subject and then for the Lord’s punishment.
+  - limits: The passage does not specify the precise relation between Dhu al-Qarnayn’s punishment and the later divine punishment.
+- **S-قرن** [reading; support strong, relevance high] root ق ر ن elsewhere in the surah (2)
+  - finding: The title ذُو ٱلْقَرْنَيْنِ moves from the question that introduces the account to God’s address at the first decision, then to the people’s address when they ask for a barrier. Its repetition links the ruler’s first judgment with his later public service.
+  - evidence: 18:83 «وَيَسْـَٔلُونَكَ عَن ذِى ٱلْقَرْنَيْنِ»; 18:86 «يَٰذَا ٱلْقَرْنَيْنِ»; 18:94 «يَٰذَا ٱلْقَرْنَيْنِ»
+  - activation: The same title frames the account’s opening question and both encounters with people.
+  - limits: The repeated title does not establish what the two قرنين refer to or why he bears it.
+- **S-قول** [reading; support strong, relevance high] root ق و ل elsewhere in the surah (46)
+  - finding: The surah places two different choices inside speech: in 18:29 the hearers choose whether to believe, while in the focus divine speech gives Dhu al-Qarnayn a choice about how to govern those he finds. The shift makes the ruler answerable for his use of power.
+  - evidence: 18:29 «فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both passages use speech to present a paired choice, but assign the decision to different parties.
+  - limits: The choices concern different matters; the parallel does not equate individual belief with a ruler’s treatment of others.
+- **S-قوم** [reading; support strong, relevance high] root ق و م elsewhere in the surah (8)
+  - finding: The first people Dhu al-Qarnayn finds are unnamed and unqualified; later encounters specify people with no shelter from the sun and people who scarcely understand speech. The itinerary progressively makes the conditions of each community visible.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»; 18:93 «قَوْمًۭا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا»
+  - activation: The repeated encounters with قَوْمًا occur at successive endpoints, but each later scene adds a condition absent from the focus.
+  - limits: The text does not say that the western people lack the vulnerabilities described of the later groups.
+- **S-وجد** [reading; support strong, relevance high] root و ج د elsewhere in the surah (11)
+  - finding: The focus’s two findings first register the sun’s setting and then the people beside the scene; later endpoint passages reuse وَجَدَهَا or وَجَدَ with the sun and people. The repeated verb makes arrival a transition from landscape to encounter.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ»; 18:93 «وَجَدَ مِن دُونِهِمَا قَوْمًۭا»
+  - activation: The focus itself repeats the finding verb, and the next endpoints repeat its sun-and-people pairing.
+  - limits: The verb marks finding or encountering; the pattern does not prove that every encounter has the same purpose.
+- **S-hft-b_boundary_jurisdiction** [reading; support strong, relevance high] (baseline_model)
+  - finding: The west is a threshold where Dhu al-Qarnayn’s geographic reach becomes a decision about people: after being enabled and following a means, he arrives, finds a community, and is addressed with alternatives for governing it.
+  - evidence: 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ»; 18:85 «فَأَتْبَعَ سَبَبًا»; 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ»
+  - activation: The sequence joins granted capacity, a followed route, arrival, social encounter, and direct address.
+  - limits: The ayah does not define the borders or legal scope of his jurisdiction.
+- **S-hft-d_enabled_reach** [reading; support strong, relevance high] (context_delta)
+  - finding: The account presents Dhu al-Qarnayn’s arrival as enabled and methodical: God grants him means, he follows a means, and then he reaches the western endpoint. His authority at the horizon grows out of directed reach.
+  - evidence: 18:84 «وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 18:85 «فَأَتْبَعَ سَبَبًا»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»
+  - activation: The immediate lead-in ties the endpoint frame to empowerment and following a means.
+  - limits: The passage does not identify the route or say that the means alone grants moral authority.
+- **S-hft-d_criterion_bound_rule** [reading; support strong, relevance high] (context_delta)
+  - finding: The next ayat resolve the paired options by conduct: the wrongdoer receives punishment and is returned to his Lord, while the believer who acts righteously receives good recompense and ease.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The response immediately repeats the two-branch structure and names the criteria for each branch.
+  - limits: The passage describes the stated rule but does not report a judgment on any particular person in the western community.
+- **S-عين** [reading; support medium, relevance high] root ع ي ن elsewhere in the surah (2)
+  - finding: عَيْنٍ حَمِئَةٍۢ specifies a spring, while the surah also uses عَيْن for the seeing eye. Beside وَجَدَهَا تَغْرُبُ, the word permits the spring to remain a visual aperture in the scene as well as its physical setting.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ»; 18:28 «وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ»
+  - activation: The sun is something Dhu al-Qarnayn finds setting, and the focus locates that observed event in عين.
+  - limits: The adjective حمئة and preposition في establish the spring reading; the text does not say explicitly that عين is a deliberate eye metaphor.
+- **S-hft-b_situated_horizon** [reading; support medium, relevance high] (baseline_model)
+  - finding: The horizon is narrated through what Dhu al-Qarnayn finds, then the eastern scene is followed by the statement that God has encompassed what he knows. This keeps the horizon report situated in the traveler’s encounter; عَيْن also allows an aperture resonance beside the literal spring.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 18:28 «وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ»; 18:90 «وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ»; 18:91 «وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبْرًۭا»
+  - activation: The finding verbs frame both solar scenes, and the eye sense elsewhere in the surah makes the focus’s عين available to a visual reading.
+  - limits: The text does not state that the reports are incomplete or explicitly identify عين as an eye metaphor.
+- **S-hft-b_instituted_good** [reading; support medium, relevance high] (baseline_model)
+  - finding: The second option is phrased as adopting حُسْنًا فيهم: goodness is something enacted within or concerning the people, not merely a description of their condition. The later reply gives this option a social shape through recompense and ease.
+  - evidence: 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:88 «فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا»
+  - activation: The verb takes an abstract good as its object and locates the action among the people; the following ayah supplies an example of constructive treatment.
+  - limits: Neither phrase specifies a permanent institution or says that the western people receive the exact treatment described in 18:88.
+- **S-hft-d_contrastive_exposure** [reading; support medium, relevance high] (context_delta)
+  - finding: The west places the setting sun in a dark spring, while the eastern scene says the people have no screen against the rising sun. The repeated endpoint frame contrasts a materially mediated sunset scene with explicit exposure at sunrise.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 18:90 «قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»
+  - activation: Both scenes repeat arrival, finding, and sun, while only the east explicitly names the people’s lack of cover.
+  - limits: The west is not said to shelter its people, and the text does not say that the spring physically alters the sun.
+- **S-hft-d_cooperative_good** [reading; support medium, relevance high] (context_delta)
+  - finding: At the later encounter, constructive rule takes the form of protection made with the people: Dhu al-Qarnayn declines payment, asks for their strength, builds a barrier, and calls it mercy from his Lord.
+  - evidence: 18:94 «فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»
+  - activation: This is the next encounter with a people after the focus presents goodness among people as an alternative to punishment.
+  - limits: The later community is distinct, and the passage does not explicitly equate the barrier with the earlier option of حُسْنًا.
+- **S-hft-d_provisional_good** [open; support medium, relevance high] (context_delta)
+  - finding: The later barrier is called mercy, yet Dhu al-Qarnayn says it will be leveled when his Lord’s promise comes; this may qualify constructive protection as effective but provisional, and could shade how حُسْنًا is heard in the focus.
+  - evidence: 18:86 «حُسْنًۭا»; 18:98 «هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - missing: The passage does not explicitly connect the goodness offered in 18:86 to the later barrier or say that the first community’s treatment is provisional; a direct verbal or narrative link between these acts could establish the reading.
+- **S-hft-o_restraining_discipline** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: A root-level restraint or withholding sense has been proposed for تُعَذِّبَ alongside its punitive force. In this surah, the following uses make punishment explicit, so restraint could be a contained purpose rather than the action’s primary sense.
+  - evidence: 18:86 «أَن تُعَذِّبَ»; 18:87 «فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»
+  - missing: A dictionary citation establishing the restraint sense for this root and evidence that it applies to Form II تُعَذِّبَ would be needed to decide whether that purpose is active here.
+- **S-hft-o_material_boundary_arc** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The pericope may move from a natural boundary described with dark mud and water to a later breach closed with gathered iron, fire, and poured copper; the two scenes offer a possible arc from encountered matter to shaped protection.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ»; 18:96 «حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًۭا قَالَ ءَاتُونِىٓ أُفْرِغْ عَلَيْهِ قِطْرًۭا»
+  - missing: No shared root or explicit transition ties the western spring to the northern construction; a verbal echo or clearer narrative cue between the material scenes could strengthen the arc.
+- **S-غرب** [reading; support strong, relevance medium] root غ ر ب elsewhere in the surah (1)
+  - finding: مَغْرِبَ names the destination while تَغْرُبُ names the sun’s act there, repeating the same root as place and event. Elsewhere the surah uses sunset to describe how the sun passes the cave, giving the focus a distinct setting scene at a journey’s limit.
+  - evidence: 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ»; 18:17 «وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ»
+  - activation: The destination noun and observed verb occur together in the focus, while 18:17 supplies the surah’s other sunset usage.
+  - limits: The root repetition links the destination to the event but does not itself establish a hidden meaning for west.
+
+Notes:
+- S-عند [support medium, relevance low] عِندَهَا places the people beside the western scene; elsewhere, عِند can mark proximity to or source from God, as in the finding of the servant. The shared wording connects two kinds of nearness without making them the same relation.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+114 readings and open observations, 38 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 49, 'plain': 1, 'same-as': 4}.
+
+- **R-2:231** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus gives Dhu al-Qarnayn an either-or decision over a people. 2:231 similarly places people under another’s power in a choice between retaining and releasing them, and expressly bars harmful retention. This supplies a Quranic ethical parallel for hearing the focus’s discretion as bounded by good conduct.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 2:231 «فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍۢ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًۭا لِّتَعْتَدُوا۟»
+  - activation: Both passages frame a powerful party’s choice of how to treat people; the focus names حسنًا, while 2:231 repeats بِمَعْرُوفٍ and prohibits harm.
+  - limits: The divorce rule does not directly govern Dhu al-Qarnayn’s encounter, and the verses do not equate either branch of his choice with retaining or releasing.
+- **R-3:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: 3:37 joins حَسَنٍ and حَسَنًا with repeated provision found عِندَهَا; the focus pairs حُسْنًا as care offered among a people with وَجَدَ عِندَهَا قَوْمًا. Together they let Dhu al-Qarnayn’s constructive option sound as communal care following an encounter, alongside Maryam’s divinely supplied care.
+  - evidence: 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 3:37 «فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍۢ وَأَنۢبَتَهَا نَبَاتًا حَسَنًۭا»; 3:37 «كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًۭا»
+  - activation: The focus has both the root ح س ن in its goodness option and the phrase وَجَدَ عِندَهَا at the encounter.
+  - limits: 3:37 uses حسن as an adjective while the focus uses حُسْنًا as a noun; it does not directly describe political governance.
+- **R-4:58** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:58 makes justice the standard for judging between people. It supplies an ethical frame for the discretion offered to Dhu al-Qarnayn; the next verses distinguish those who ظلم from those who believe and act rightly, giving his alternatives morally differentiated outcomes.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»; 4:58 «وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا۟ بِٱلْعَدْلِ»
+  - activation: The focus places a ruler before a people and gives him discretion over their treatment; the following verses state criteria for the alternatives.
+  - limits: 4:58 does not name Dhu al-Qarnayn or declare its legal instruction to be the rule governing this narrative scene.
+- **R-4:110** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:110 places an alternative completion behind the focus’s punishment of one who ظلم: a wrongdoer who then seeks forgiveness يجد الله غفورًا رحيمًا. Its “finds” verb also shifts the focus’s repeated وَجَدَ from discovering a scene to finding divine pardon, while leaving repentance as a condition absent from the Dhu al-Qarnayn episode.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»; 4:110 «وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُۥ ثُمَّ يَسْتَغْفِرِ ٱللَّهَ يَجِدِ ٱللَّهَ غَفُورًۭا رَّحِيمًۭا»
+  - activation: The focus repeats وَجَدَ and then narrates punishment for wrongdoing; 4:110 shares ظلم and connects seeking forgiveness with finding God merciful.
+  - limits: The focus does not mention repentance, and 4:110 does not remove the punishment Dhu al-Qarnayn says he will carry out.
+- **related_1.X1** [reading; support strong, relevance high] 
+  - finding: The focus’s إِمَّا … وَإِمَّا binary is answered immediately by the paired أَمَّا … وَأَمَّا in 18:87–88: punishment corresponds to ظلم, while the constructive branch is followed by faith, righteous action, الجزاء الحسنى, and ease. The next verses turn the ruler’s open choice into morally differentiated outcomes.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا»
+  - activation: The adjacent verses mirror the focus’s two-part structure with paired conditionals and stated outcomes.
+  - limits: The parallel maps the alternatives onto the next verses’ categories but does not say that every person must fit only one of those two descriptions.
+- **related_1.X2** [reading; support strong, relevance high] 
+  - finding: The focus opens a three-part journey pattern: at each destination Dhu al-Qarnayn reaches, a finding introduces a different people or condition. The sunset encounter and its ethical choice is the first episode in a sequence that continues with people exposed to the sun and people between the barriers who barely understand speech.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًۭا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا»
+  - activation: The repeated حتى إذا بلغ… وجد… clauses connect the focus’s endpoint with the later journey scenes.
+  - limits: The repeated structure establishes a sequence of encounters, but only the first gives the explicit choice between punishment and حسنًا.
+- **R-4:173** [reading; support strong, relevance high] inter-ayah target
+  - finding: The paired أَمَّا outcomes in 4:173 closely echo how 18:87–88 unfolds the two options in the focus: people are divided by their stance, with punishment for one group and reward for believers.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»; 4:173 «فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًا»
+  - activation: The focus's either-or speech is immediately expanded into two groups and their outcomes in the next two ayat.
+  - limits: 4:173 describes divine recompense and names arrogance and refusal; it does not define the people at the spring or the limits of Dhul-Qarnayn's rule.
+- **R-6:78** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham's sunset scene provides a close solar counterpart: he sees the sun set and rejects its divinity, supporting a reading of 18:86's setting as the traveler's observed horizon rather than a claim about the sun's physical destination.
+  - evidence: 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 6:78 «فَلَمَّا رَءَا ٱلشَّمْسَ بَازِغَةًۭ قَالَ هَٰذَا رَبِّى هَٰذَآ أَكْبَرُ ۖ فَلَمَّآ أَفَلَتْ»
+  - activation: Both passages join the sun with an observed setting; Abraham's response makes that observation part of a human test of interpretation.
+  - limits: The verbs differ, and the two scenes do not establish that the same sunset or physical location is involved.
+- **R-8:33** [reading; support strong, relevance high] inter-ayah target
+  - finding: Against the punishment option given to Dhul-Qarnayn, 8:33 depicts restraint as an active divine response while the Prophet is among a people or while they seek forgiveness; it keeps withholding punishment visible alongside the exercise of punitive power.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 8:33 «وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ»; 8:33 «وَمَا كَانَ ٱللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ»
+  - activation: Both passages make punishment or its withholding consequential for a people in a specific setting.
+  - limits: 8:33 speaks of God's action under conditions not stated for Dhul-Qarnayn; it does not establish those conditions for the people at the spring.
+- **R-12:75** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the Joseph episode, a penalty is assigned to whoever is found with the property and described as recompense for wrongdoers; beside 18:87, this links punishment to conduct established after the initial finding of a people.
+  - evidence: 12:75 «جَزَٰٓؤُهُۥ مَن وُجِدَ فِى رَحْلِهِۦ فَهُوَ جَزَٰٓؤُهُۥ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ»; 18:86 «وَجَدَ عِندَهَا قَوْمًا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - activation: The focus moves from finding a collective near the spring to the next ayah's conditional punishment of whoever does wrong.
+  - limits: 12:75 belongs to a specific theft plot and does not identify Dhul-Qarnayn's people with the brothers or prescribe his rule.
+- **R-12:79** [reading; support strong, relevance high] inter-ayah target
+  - finding: Joseph refuses to seize anyone except the person found with the property and calls broader seizure ظلم; the focus's عِندَهَا locates a people near the spring without charging them, and 18:87 likewise makes punishment conditional on wrongdoing.
+  - evidence: 12:79 «أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًا لَّظَٰلِمُونَ»; 18:86 «وَجَدَ عِندَهَا قَوْمًا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - activation: The repeated وجد/عند construction makes a useful distinction between someone's location and evidence of wrongdoing.
+  - limits: The Joseph episode concerns a specific legal seizure; the shared wording does not make the two situations identical.
+- **related_2.X1** [reading; support strong, relevance high] 
+  - finding: The focus begins a three-scene pattern in which حَتَّىٰ إِذَا بَلَغَ is followed by وَجَدَ: at the western limit Dhul-Qarnayn finds the setting sun and a people, at the eastern limit he finds the sun rising on a people, and between the barriers he finds another people; the first encounter uniquely opens with a choice of treatment.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًا»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًا»
+  - activation: The repeated arrival-and-finding frame is present in the focus and in the two later travel scenes.
+  - limits: The repeated structure does not make the three peoples alike or show that the first scene's options govern the later encounters.
+- **R-18:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The cave episode supplies another observed sunset in this surah: the sun’s setting is described through what happens beside the sleepers, while 18:86 places Dhu al-Qarnayn’s observed sunset at a spring. Together they make the solar wording part of narrated landscape scenes.
+  - evidence: 18:17 «وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ»; 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»
+  - activation: Both scenes name the sun and use the root غ ر ب for its setting; both describe what is seen at a particular place.
+  - limits: The cave passage describes the sun’s relation to the cave, not a spring or Dhu al-Qarnayn’s destination.
+- **R-18:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus repeats the surah’s travel sequence of reaching a place and then finding something there: Moses and his companion reach the confluence and the fish takes an unexpected path; Dhu al-Qarnayn reaches the west and finds a sunset scene and a people.
+  - evidence: 18:61 «فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ سَرَبًۭا»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا»
+  - activation: The sequence بلغ followed by وجد is explicit in both journey scenes.
+  - limits: The focus has two findings and a governing choice; 18:61 concerns the fish and the travelers’ forgotten sign.
+- **R-18:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: The account of Khidr closes by stating that he did not act on his own command; the next account has God address Dhu al-Qarnayn and give him two options. The transition contrasts hidden divine direction with an explicit grant of choice.
+  - evidence: 18:82 «وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The preceding story ends with Khidr’s explanation of his actions, and the focus begins the Dhu al-Qarnayn account with divine speech.
+  - limits: The focus does not describe the basis or extent of Dhu al-Qarnayn’s authority beyond the offered options.
+- **R-18:84** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s journey and encounter follow the statement that God established Dhu al-Qarnayn in the land and gave him means. The western arrival is part of a divinely enabled itinerary that also carries authority over people.
+  - evidence: 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»
+  - activation: The account names Dhu al-Qarnayn in 18:84 and immediately narrates his following a means and reaching the west.
+  - limits: The passage does not identify the specific means by which he reached this place.
+- **R-18:85** [reading; support strong, relevance high] inter-ayah target
+  - finding: The short statement that Dhu al-Qarnayn followed a means leads directly into the focus’s first reached destination. It frames the sunset scene as the result of movement along the means given to him.
+  - evidence: 18:85 «فَأَتْبَعَ سَبَبًا»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»
+  - activation: The focus continues the itinerary without introducing a new journey between following the means and reaching the west.
+  - limits: The phrase does not say what the means was or how the destination was reached.
+- **R-18:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: The next verse specifies the punishment option and restricts its stated human target to one who ظلم; that person is then returned to his Lord for a further punishment. The focus’s broad choice thus receives a moral category and a limit.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»
+  - activation: The focus offers punishment or goodness, and 18:87 begins its answer with the wrongdoer.
+  - limits: The passage does not define all forms of ظلم or state a procedure for deciding who qualifies.
+- **R-18:88** [reading; support strong, relevance high] inter-ayah target
+  - finding: The second option is carried forward as treatment for one who believes and acts righteously: the verse pairs a good reward with an easy word from Dhu al-Qarnayn’s authority.
+  - evidence: 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا»
+  - activation: The paired أمّا branch in 18:88 answers the focus’s second إمّا branch.
+  - limits: 18:88 names reward and easy speech but does not give a specific form of حسن treatment in 18:86.
+- **R-18:89** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the two response branches, Dhu al-Qarnayn follows another means and the narrative repeats the arrival-and-people pattern in the east. This makes the focus one completed stop in a continuing itinerary.
+  - evidence: 18:88 «وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا»; 18:89 «ثُمَّ أَتْبَعَ سَبَبًا»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ»
+  - activation: The next movement follows immediately after Dhu al-Qarnayn’s stated response to the western people.
+  - limits: The text does not say whether the eastern people receive the same kind of choice or judgment.
+- **R-18:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: The eastern episode closely repeats the focus’s arrival-and-sun-and-people frame, making the western scene one half of a paired itinerary. The eastern people are described by their exposure to the sun, while the western people’s encounter leads into a moral decision.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»
+  - activation: The two episodes repeat حتى إذا بلغ, a solar verb, and وجد in connection with a people.
+  - limits: The eastern account gives no parallel choice between punishment and حسن treatment.
+- **R-18:92** [reading; support strong, relevance high] inter-ayah target
+  - finding: A third “followed a means” restarts the same movement pattern after the eastward scene. The focus therefore belongs to a sequence of journeys that repeatedly ends in contact with people.
+  - evidence: 18:92 «ثُمَّ أَتْبَعَ سَبَبًا»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًۭا»
+  - activation: The third itinerary follows the same short travel formula used before the focus and before the eastern arrival.
+  - limits: The next people present a request about a barrier, whereas the focus begins with divine instruction about punishment or goodness.
+- **R-18:93** [reading; support strong, relevance high] inter-ayah target
+  - finding: The third arrival closely echoes the focus: Dhu al-Qarnayn reaches a boundary and finds a people. The mountain passes replace the sunset place, and these people are distinguished by their difficulty understanding speech.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًۭا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا»
+  - activation: Both use the same arrival-and-finding sequence, followed by the presence of a people.
+  - limits: The third encounter opens with a community request; the western encounter opens with a divine offer of choice.
+- **R-18:94** [reading; support strong, relevance high] inter-ayah target
+  - finding: The later people address Dhu al-Qarnayn themselves and ask him to build a barrier. This contrasts with the focus, where God addresses him and presents the initial choice, showing another source of direction for his authority.
+  - evidence: 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 18:94 «قَالُوا۟ يَٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا»
+  - activation: Both scenes address him by the same title; the later community states a public danger and makes a request.
+  - limits: The focus does not present the western people as petitioners, and the later request does not repeat its punishment-or-goodness choice.
+- **R-18:95** [reading; support strong, relevance high] inter-ayah target
+  - finding: Dhu al-Qarnayn later grounds his capacity in what his Lord has given him, refuses the offered payment, and asks the people to help build protection. This develops the focus’s divinely authorized rule into practical public service with communal participation.
+  - evidence: 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ»; 18:94 «فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»; 18:95 «قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا»
+  - activation: The same title and divinely given capacity recur in the later encounter with a community.
+  - limits: The barrier protects a different community from a named threat; the focus does not specify the form of حسن treatment offered to its people.
+- **R-18:98** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the barrier succeeds, Dhu al-Qarnayn calls it mercy from his Lord and says it will fall when the divine promise comes. This frames his public power as granted and temporary, echoing the divine instruction that opens the focus’s choice.
+  - evidence: 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 18:98 «قَالَ هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ»
+  - activation: The focus places Dhu al-Qarnayn’s decision after divine speech; the later account explicitly attributes his work to his Lord’s mercy and sets its limit.
+  - limits: The focus does not call its two options mercy, and 18:98 refers directly to the barrier.
+- **R-19:75** [reading; support strong, relevance high] inter-ayah target
+  - finding: The paired إمّا construction also appears in a warning where the alternatives are punishment or the Hour. Unlike the focus’s options for Dhu al-Qarnayn, these are outcomes people are promised and cannot choose between; the shared form does not erase the difference in agency.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 19:75 «إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ»
+  - activation: Both passages use a paired إمّا to present alternatives, but only the focus addresses an empowered decision-maker.
+  - limits: The alternatives in 19:75 are promised outcomes, not policy choices offered to a ruler.
+- **R-20:65** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact إمّا أن … وإمّا أن frame also offers Moses and the magicians a choice about who casts first. That procedural choice contrasts with the focus’s moral and governing options, showing the paired form can carry different kinds of agency.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 20:65 «إِمَّآ أَن تُلْقِىَ وَإِمَّآ أَن نَّكُونَ أَوَّلَ مَنْ أَلْقَىٰ»
+  - activation: Both use paired disjunctions with an أن clause under each branch.
+  - limits: The magicians’ choice concerns contest order, not the treatment of a community.
+- **related_3.X1** [reading; support strong, relevance high] 
+  - finding: The surah first gives people a choice about believing, then gives Dhu al-Qarnayn a choice about how to respond to them. Read with 18:87–88, the focus places human moral choice beside the ruler’s response to wrongdoing or faith.
+  - evidence: 18:29 «فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «أَمَّا مَن ظَلَمَ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا»
+  - activation: Both passages use explicit alternatives, and the following verses in Dhu al-Qarnayn’s account sort people by their conduct.
+  - limits: 18:29 addresses the hearers’ choice of faith; it does not say Dhu al-Qarnayn’s delegated choice is the same kind of choice.
+- **R-24:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated arrival-and-finding frame turns the focus into a possible counter-scene to the thirsty man's failed search: Dhu al-Qarnayn finds the sun setting in a spring and people nearby, while the traveler finds no water and finds God with his reckoning.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 24:39 «حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًۭٔا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥ»
+  - activation: Both passages use حتى إذا and وجد, and each makes an encounter at a reached place decisive; the focus adds a spring and a human community.
+  - limits: The parallel does not make the spring a mirage or establish that Dhu al-Qarnayn's scene is illusory.
+- **R-27:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: The description of Dhu al-Qarnayn closely echoes Solomon's account: both are said to have been given مِن كل شيء. This places Dhu al-Qarnayn's authority and journeys in the Quran's register of divinely supplied Solomonic capability.
+  - evidence: 18:84 «وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 27:16 «وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The focus follows the same account of being given means as 18:84, then presents a choice about how to govern people.
+  - limits: The shared gift formula does not identify Dhu al-Qarnayn with Solomon or establish that their authority works in the same way.
+- **R-28:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses arrives at water, finds a crowd watering and two women held back, then waters for them. The focus likewise places a traveler at a water source, where a repeated finding pivots from the landscape to people and a decision about their treatment.
+  - evidence: 28:23 «وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةًۭ مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ»; 28:24 «فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ»; 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»
+  - activation: Both scenes bring arrival, a water setting, and two acts of finding together; the focus then explicitly raises punishment or good treatment.
+  - limits: Moses gives practical aid in a personal encounter, whereas Dhu al-Qarnayn is addressed as an authority over the people; the scenes do not establish identical circumstances.
+- **R-34:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: Solomon is given عين القطر, a source of molten copper, and jinn work under God's permission, with punishment for those who deviate. The shared عين and divinely controlled resources place Dhu al-Qarnayn's spring-and-authority scene beside another ruler's extraordinary provision and enforcement.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 34:12 «وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌۭ وَرَوَاحُهَا شَهْرٌۭ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ»
+  - activation: The focus pairs a spring with a ruler's discretion over a people; 34:12 pairs a named source with Solomon's commanded workers and their punishment for deviation.
+  - limits: The two عين refer to different materials, and Solomon's punishment concerns jinn disobeying an order rather than a people's moral status.
+- **R-38:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: David is made a successor in the land and commanded to judge people by truth rather than desire. This offers a direct Quranic measure for Dhu al-Qarnayn's discretion over a people: authority carries a requirement of just judgment.
+  - evidence: 38:26 «يَٰدَاوُۥدُ إِنَّا جَعَلْنَٰكَ خَلِيفَةًۭ فِى ٱلْأَرْضِ فَٱحْكُم بَيْنَ ٱلنَّاسِ بِٱلْحَقِّ وَلَا تَتَّبِعِ ٱلْهَوَىٰ»; 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ»; 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - activation: Both accounts combine divine empowerment in the land with conduct toward people; the focus's sequel sorts Dhu al-Qarnayn's response by wrongdoing.
+  - limits: The focus does not use خَلِيفَة or explicitly state David's rule as its governing law, and the later verses are needed to see Dhu al-Qarnayn's criterion.
+- **R-38:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: After Solomon's jinn are described as fettered, the next verse gives him a choice to grant or withhold from his gift. That discretionary either-or parallels the choice offered to Dhu al-Qarnayn, though Solomon's choice concerns his bounty rather than these people's treatment.
+  - evidence: 38:38 «وَءَاخَرِينَ مُقَرَّنِينَ فِى ٱلْأَصْفَادِ»; 38:39 «هَٰذَا عَطَآؤُنَا فَٱمْنُنْ أَوْ أَمْسِكْ بِغَيْرِ حِسَابٍۢ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both scenes put a divinely endowed ruler before a stated choice about what to do with his authority or resources.
+  - limits: Granting or withholding a gift is not the same act as punishing or treating people well; the parallel is in discretionary alternatives.
+- **R-40:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Dhu al-Qarnayn follows a means that God gave him and reaches a horizon; Pharaoh boasts that he will reach the means to ascend toward the heavens and see Moses' God. The shared أسباب and يبلغ language contrasts an enabled journey with a self-aggrandizing project.
+  - evidence: 18:84 «وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 18:85 «فَأَتْبَعَ سَبَبًا»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 40:36 «وَقَالَ فِرْعَوْنُ يَٰهَٰمَٰنُ ٱبْنِ لِى صَرْحًۭا لَّعَلِّىٓ أَبْلُغُ ٱلْأَسْبَٰبَ»
+  - activation: The focus's journey is explicitly organized by سبب, and Pharaoh's boast uses أبلغ الأسباب; the next verse identifies his intended ascent and delusion.
+  - limits: The focus does not say Dhu al-Qarnayn sought heaven or directly contrast him with Pharaoh; the contrast arises from the source and aim of their respective reach.
+- **R-45:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages organize the response around contrasting groups: the focus's sequel distinguishes the wrongdoer from the believer who does good, and this passage contrasts believers receiving mercy with disbelievers who have rejected the signs. The repeated أما branches make the focus's offered alternatives part of a wider Quranic pattern of differentiated outcomes.
+  - evidence: 18:87 «قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»; 45:30 «فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ»; 45:31 «وَأَمَّا ٱلَّذِينَ كَفَرُوٓا۟ أَفَلَمْ تَكُنْ ءَايَٰتِى تُتْلَىٰ عَلَيْكُمْ»
+  - activation: The focus itself begins with إما alternatives and immediately continues with أما branches that assign different outcomes to kinds of people.
+  - limits: 45:30–31 speaks of final divine reward and rebuke, not Dhu al-Qarnayn's local decision or the same moral categories in identical terms.
+- **related_4.X1** [reading; support strong, relevance high] 
+  - finding: The next verse picks up the focus's حُسْنًا with ٱلْحُسْنَىٰ as the reward for the believer who does good. This gives the focus's constructive branch an immediate narrative outcome alongside punishment for the wrongdoer.
+  - evidence: 18:86 «وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا»
+  - activation: The focus's alternative uses the root حسن, and the next verse names ٱلْحُسْنَىٰ in the branch for a believer who acts well.
+  - limits: The next verse specifies the beneficiary and reward but does not exhaust what good treatment in the focus entails.
+- **related_4.X2** [reading; support strong, relevance high] 
+  - finding: Earlier in the surah, sunset is described as turning away from the cave sleepers; at the western endpoint, Dhu al-Qarnayn sees the sun setting in a spring and then finds people. The same solar event shifts from a measure of shelter to the far edge of his journey.
+  - evidence: 18:17 «وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍۢ مِّنْهُ»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»
+  - activation: The same surah uses the sunset root in both scenes, and both place the sun's movement in relation to people and their location.
+  - limits: The surah does not explicitly explain the two sunset scenes as one motif or say that Dhu al-Qarnayn's encounter is protective like the cave scene.
+- **R-51:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both scenes narrate finding people in a place, but 51:36 specifies that only a Muslim household was found there. In the focus, `قوما` is initially unclassified; 18:87–88 later divide the people by conduct. The parallel cautions against hearing the whole group as morally uniform from the outset.
+  - evidence: 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا»; 51:36 «فَمَا وَجَدْنَا فِيهَا غَيْرَ بَيْتٍۢ مِّنَ ٱلْمُسْلِمِينَ»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا»
+  - activation: The repeated `وجد` and the movement from a place to its inhabitants connect the scenes; the focus’s following verses classify individuals within the group.
+  - limits: The two populations and their outcomes are not identified with one another; 51:36 concerns a different scene and a household of believers.
+- **R-55:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus makes the sun’s west a reached endpoint; 55:17 speaks of the Lord of the two Wests. This places Dhu al-Qarnayn’s western horizon within a Quranic image of paired horizons governed by God, just before God addresses the ruler.
+  - evidence: 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 55:17 «رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ»
+  - activation: The shared غ ر ب root names the focus’s destination and one side of the paired compass in 55:17; `قُلْنَا` follows the focus’s arrival.
+  - limits: The dual in 55:17 does not specify which western regions are meant, and neither verse explicitly refers to the other.
+- **R-56:83** [reading; support strong, relevance high] inter-ayah target
+  - finding: 56:83 and 75:26 use `بلغ` for a bodily threshold at death, while 18:86 uses it for Dhu al-Qarnayn reaching a geographic limit. The shared verb links two kinds of decisive arrival: one opens a scene of choice and governance, the others mark a final bodily passage.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 56:83 «فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ»; 75:26 «كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ»
+  - activation: The repeated verb marks the threshold in each scene, while the subjects and destinations distinguish travel from death.
+  - limits: The shared verb does not make the scenes equivalent: the focus describes travel and delegated action, while the other passages describe death.
+- **R-57:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: 57:25 joins the Book and Balance for establishing justice with iron’s force and benefits. In the focus, Dhu al-Qarnayn is offered punishment or goodness; later he uses iron to build a barrier and calls it mercy from his Lord. Together these scenes frame his power as a means that can serve a moral purpose.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 57:25 «لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌۭ شَدِيدٌۭ وَمَنَٰفِعُ لِلنَّاسِ»; 18:96 «ءَاتُونِى زُبَرَ ٱلْحَدِيدِ»; 18:98 «قَالَ هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى»
+  - activation: The same Dhu al-Qarnayn narrative moves from the choice of treatment in 18:86 to iron construction in 18:96–98; 57:25 expressly joins iron’s force and benefits to justice.
+  - limits: 18:86 does not mention iron or name justice, and 57:25 does not identify Dhu al-Qarnayn or allude explicitly to his story.
+- **R-f-حسن-عذب-عند** [reading; support strong, relevance high] formula family (ح س ن + ع ذ ب + ع ن د; 2 ayat: 9:52, 41:50)
+  - finding: 9:52 names one of two outcomes `الحسنيين` while pairing the conflict with punishment from God or by human hands; 18:86 instead offers Dhu al-Qarnayn punishment or goodness among the people. 41:50 adds a counterexample: claiming `الحسنى` with God does not secure it when the claimant rejects the Hour. The focus’s goodness branch is an action toward people, while its next verse names a reward for those who believe and act rightly.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 9:52 «إِحْدَى ٱلْحُسْنَيَيْنِ ۖ وَنَحْنُ نَتَرَبَّصُ بِكُمْ أَن يُصِيبَكُمُ ٱللَّهُ بِعَذَابٍۢ مِّنْ عِندِهِۦٓ أَوْ بِأَيْدِينَا»; 41:50 «إِنَّ لِى عِندَهُۥ لَلْحُسْنَىٰ ۚ فَلَنُنَبِّئَنَّ ٱلَّذِينَ كَفَرُوا۟ بِمَا عَمِلُوا۟ وَلَنُذِيقَنَّهُم مِّنْ عَذَابٍ غَلِيظٍۢ»; 18:88 «فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The focus explicitly pairs punishment and `حسنا`; its following verse distinguishes conduct among the people from the reward given afterward.
+  - limits: `الحسنيين` in 9:52 refers to that passage’s own conflict outcomes, and 41:50 depicts a boastful claim; neither identifies Dhu al-Qarnayn’s scene.
+- **R-f-بلغ-حسن-عند** [reading; support strong, relevance high] formula family (ب ل غ + ح س ن + ع ن د; 1 ayat: 17:23)
+  - finding: 17:23 makes parents’ arrival at old age `عندك` activate gentle conduct, including `إحسانا` and gracious speech. The focus likewise begins with arrival, then offers a choice about how to treat a people: punish them or `تتخذ فيهم حسنا`. This parallel makes active, humane treatment a concrete way to hear the focus’s `حسنا`.
+  - evidence: 17:23 «وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا»; 17:23 «إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّۢ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًۭا كَرِيمًۭا»; 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both passages join arrival with conduct toward people; `إحسانا` and `حسنا` share the حسن root.
+  - limits: 17:23 concerns care for parents and uses a different construction and حسن form; it does not prescribe Dhu al-Qarnayn’s decision.
+- **R-f-ءخذ-عذب** [reading; support strong, relevance high] formula family (ء خ ذ + ع ذ ب; 23 ayat: 2:165, 4:25, 4:161, 5:41, 6:70, 7:73, 7:165, 8:68, 11:64, 16:94)
+  - finding: Several verses in this family associate taking or adopting with punishment; 2:165 is explicit about people who `يتخذ` rivals and God’s severe punishment. In the focus, the same Form VIII verb takes a positive object, `حسنا`, while punishment is the alternative. The unusual positive object changes the sound of `تتخذ` from taking a rival or ally to instituting good treatment.
+  - evidence: 2:165 «وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ أَندَادًۭا»; 2:165 «وَأَنَّ ٱللَّهَ شَدِيدُ ٱلْعَذَابِ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The focus places the same Form VIII root beside an explicit punishment branch but gives its object as `حسنا`.
+  - limits: The verses in the family use different forms and constructions of أخذ; their co-occurrence with punishment does not establish a fixed formula or a direct allusion.
+- **R-f-ءخذ-حسن** [reading; support strong, relevance high] formula family (ء خ ذ + ح س ن; 10 ayat: 2:83, 2:229, 4:125, 5:12, 7:95, 7:145, 9:50, 9:107, 12:78, 51:16)
+  - finding: 2:83 places good conduct toward people within a covenantal program, including the exact noun `حسنا` for how to speak to them. This gives `تتخذ فيهم حسنا` a social and behavioral register: goodness enacted among a community, not just a favorable result.
+  - evidence: 2:83 «وَإِذْ أَخَذْنَا مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ»; 2:83 «وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا»; 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The focus has `حسنا` as the object of an action toward people; 2:83 uses the same noun in a command about speaking to people and places it among social duties.
+  - limits: 2:83 does not use the focus’s `تتخذ` construction, and its covenant is a different setting.
+- **R-f-ءخذ-وجد** [reading; support strong, relevance high] formula family (ء خ ذ + و ج د; 6 ayat: 4:89, 4:91, 5:89, 9:5, 18:77, 38:44)
+  - finding: In 18:77, Moses and Khidr find a wall after a town refuses them hospitality, and Moses says Khidr could have taken a wage for repairing it. Later, Dhu al-Qarnayn finds a people and is offered the choice of punishment or goodness among them. The repeated finding and taking roots set a question of response to an encountered community beside one another, with `أجرا` and `حسنا` as different possible objects.
+  - evidence: 18:77 «فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًۭا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًۭا»; 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both travel narratives move from finding a social or human situation to a question of what action to take; each contains a form of أخذ.
+  - limits: Moses’s suggestion is not Dhu al-Qarnayn’s instruction, and the towns and outcomes are distinct.
+- **R-f-حسن-عذب** [reading; support strong, relevance high] formula family (ح س ن + ع ذ ب; 5 ayat: 2:178, 2:201, 7:156, 39:55, 39:58)
+  - finding: 2:178 makes pardon, payment in good manner, and punishment for later aggression part of a measured account of retaliation. Beside the focus’s choice between punishing and taking goodness among a people, it supplies a Quranic legal scene where restraint and punishment are both present but bounded by justice.
+  - evidence: 2:178 «فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌۭ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍۢ»; 2:178 «فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌۭ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both passages pair punishment with a حسن-root form of good treatment or forbearance in an authority setting.
+  - limits: The legal rules of retaliation in 2:178 do not define Dhu al-Qarnayn’s authority or the people’s conduct.
+- **R-f-عذب-وجد** [reading; support strong, relevance high] formula family (ع ذ ب + و ج د; 4 ayat: 2:96, 9:79, 31:21, 58:4)
+  - finding: Earlier in the surah, wrongdoers see the Fire and `لم يجدوا عنها مصرفا`—they find no way to turn away from it. At the focus, Dhu al-Qarnayn finds a people and receives alternatives for their treatment; the next verses distinguish those who are punished from those who receive goodness. The repeated finding and punishment roots contrast a final state with no escape against an encounter that opens a choice.
+  - evidence: 18:53 «وَرَءَا ٱلْمُجْرِمُونَ ٱلنَّارَ فَظَنُّوٓا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمْ يَجِدُوا۟ عَنْهَا مَصْرِفًۭا»; 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The surah repeats وجد and عذب across scenes, while 18:87–88 resolve the focus’s alternatives by conduct.
+  - limits: The scenes differ in time, subject, and stakes; this contrast does not imply that Dhu al-Qarnayn’s people face the Fire scene in 18:53.
+- **R-f-عند-وجد** [reading; support strong, relevance high] formula family (ع ن د + و ج د; 2 ayat: 7:157, 18:65)
+  - finding: The surah’s earlier travel story says Moses and his companion `فوجدا عبدا` who has been given mercy and knowledge from God; the focus says Dhu al-Qarnayn `وجد عندها قوما` and then receives divine instruction about their treatment. Both findings turn travel into an encounter that opens a new relation. 7:157 uses a different finding construction for people who find the Messenger written among them, showing that the root can also mark recognition rather than mere arrival at a location.
+  - evidence: 18:65 «فَوَجَدَا عَبْدًۭا مِّنْ عِبَادِنَآ ءَاتَيْنَٰهُ رَحْمَةًۭ مِّنْ عِندِنَا»; 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ»; 7:157 «ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ»
+  - activation: The focus shares the finding verb with both passages; its `عندها` marks the location of the people, while 18:65 also uses `عند` for divine source.
+  - limits: The objects and senses differ: Dhu al-Qarnayn encounters a group, Moses encounters a servant, and 7:157 concerns recognizing a written description.
+- **R-f-ءخذ-غرب** [reading; support strong, relevance high] formula family (ء خ ذ + غ ر ب; 1 ayat: 73:9)
+  - finding: 73:9 pairs the Lord of the East and West with the command `فَٱتَّخِذْهُ وَكِيلًا`. The focus reaches the sun’s west and then uses the same Form VIII verb for Dhu al-Qarnayn’s possible action, with goodness as its object. The pairing sets his local act within a wider image of divine east-west sovereignty and makes `تتخذ` sound like an entrusted action, not a seizure.
+  - evidence: 73:9 «رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًۭا»; 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both verses join the غرب root to the Form VIII أخذ verb; the focus places the westward endpoint before the divine address.
+  - limits: 73:9 commands taking God as trustee, while the focus offers goodness among people; it does not explicitly allude to Dhu al-Qarnayn.
+- **related_5.X1** [reading; support strong, relevance high] 
+  - finding: The alternatives in 18:86 are immediately recast as a rule for different people: the wrongdoer is punished, while the believer who acts rightly receives `جزاء الحسنى` and ease. The shift from `إما … وإما` to `أما … وأما` makes Dhu al-Qarnayn’s choice ethically differentiated rather than indiscriminate.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُ مِنْ أَمْرِنَا يُسْرًۭا»
+  - activation: The paired particles and opposing conduct categories immediately following the focus resolve its two branches.
+  - limits: The verses specify the narrated policy but do not identify what Dhu al-Qarnayn actually did to each person beyond these stated terms.
+- **related_5.X2** [reading; support strong, relevance high] 
+  - finding: The focus begins a three-part sequence of arrivals: Dhu al-Qarnayn reaches the sun’s west and finds a people, reaches its rising place and finds another people, then reaches the space between the barriers and finds a third group. The focus’s choice of punishment or goodness is the first response in a sequence of encounters; at the third, the people themselves ask him to build a barrier.
+  - evidence: 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»; 18:93 «حَتَّىٰٓ إِذَا بَلَغَ بَيْنَ ٱلسَّدَّيْنِ وَجَدَ مِن دُونِهِمَا قَوْمًۭا لَّا يَكَادُونَ يَفْقَهُونَ قَوْلًۭا»; 18:94 «قَالُوا۟ يَٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّۭا»
+  - activation: All three scenes repeat the arrival-and-finding structure and end with a different human condition or request.
+  - limits: The repeated scene pattern does not make the places or Dhu al-Qarnayn’s responses identical, and it does not establish a physical account of the sun’s movement.
+- **related_5.X3** [reading; support strong, relevance high] 
+  - finding: The earlier travel story includes a town that refuses hospitality, followed by Khidr repairing an orphans’ wall; Moses says he could have taken a wage. The later focus makes treatment of an encountered people explicit, offering punishment or goodness. This sets an act whose purpose is concealed from Moses beside a ruler’s stated discretion over a community.
+  - evidence: 18:77 «فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًۭا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًۭا»; 18:82 «فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both travel narratives turn an encounter with people into a question of action; the focus’s `تتخذ` also echoes Moses’s suggestion `لاتخذت` in the wall scene.
+  - limits: Khidr’s concealed purpose for the orphans is not Dhu al-Qarnayn’s policy, and the focus does not say which option he chooses for each person.
+- **R-f-شمس-عذب** [reading; support strong, relevance high] formula family (ش م س + ع ذ ب; 1 ayat: 22:18)
+  - finding: 22:18 places the sun among those that prostrate, then distinguishes many people from many upon whom punishment is due. In 18:86 the sun, a people, and an option to punish meet in sequence; this lets DQ’s decision sound within a Quranic contrast between submission and liability.
+  - evidence: 22:18 «وَٱلشَّمْسُ وَٱلْقَمَرُ وَٱلنُّجُومُ وَٱلْجِبَالُ وَٱلشَّجَرُ وَٱلدَّوَآبُّ وَكَثِيرٌۭ مِّنَ ٱلنَّاسِ ۖ وَكَثِيرٌ حَقَّ عَلَيْهِ ٱلْعَذَابُ»; 18:86 «مَغْرِبَ ٱلشَّمْسِ»; 18:86 «وَجَدَ عِندَهَا قَوْمًۭا»; 18:86 «إِمَّآ أَن تُعَذِّبَ»
+  - activation: The focus places the sun, the encountered people, and punishment within one scene.
+  - limits: 22:18 does not identify DQ’s people with either group or make the sun’s motion a judgment on them.
+- **related_6.X1** [reading; support strong, relevance high] 
+  - finding: The surah repeatedly places people at solar endpoints and varies their exposure: the cave youths are screened by the sun’s path, DQ reaches the sunset and meets a people, and at sunrise another people have no screen from it. The western encounter becomes part of a pattern joining solar movement with human shelter and vulnerability.
+  - evidence: 18:17 «وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍۢ مِّنْهُ»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»
+  - activation: The focus shares the repeated sunset endpoint with 18:17 and the reaching-sunrise frame with 18:90; both surrounding scenes explicitly describe how people meet the sun.
+  - limits: The text does not say the spring protects DQ’s people or identify them with the cave youths or the eastern people.
+- **related_6.X2** [reading; support strong, relevance high] 
+  - finding: The either-or in 18:86 is specified in 18:87–88: wrongdoing leads to DQ’s punishment and then a further punishment from God, while belief and righteous action lead to جزاء الحسنى and ease. The continuation turns the choice into moral sorting and places final judgment with God.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا»
+  - activation: The two repeated إما branches in 18:86 are answered by matching أما branches in the next two ayat.
+  - limits: The continuation establishes outcomes for the branches but does not explain whether حسن in 18:86 refers to a particular policy or form of conduct.
+- **R-27:24** [open; support strong, relevance high] inter-ayah target
+  - finding: Another Quranic scene joins finding a woman and her people to sun worship. Since the focus first finds the sun setting and then finds a people beside it, that scene raises the possibility of a solar-cult association for the unnamed people.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 27:24 «وَجَدتُّهَا وَقَوْمَهَا يَسْجُدُونَ لِلشَّمْسِ مِن دُونِ ٱللَّهِ»
+  - missing: The focus never says these people worship the sun. A description of their worship, or an adjacent passage identifying them, could decide whether the shared sun-and-people scene carries that association.
+- **R-2:110** [reading; support medium, relevance high] inter-ayah target
+  - finding: The choice of حُسْنًا among the people can be heard beside 2:110’s promise that good advanced for oneself will be found with God. The shared تَجِدُوهُ عِندَ frame shifts finding from an encounter at a place to the return of a good deed.
+  - evidence: 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 2:110 «وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ»
+  - activation: The focus pairs وَجَدَ عِندَهَا with the option of taking goodness among the people.
+  - limits: خير and حُسْنًا are different words, and 2:110 does not say that Dhu al-Qarnayn’s choice earns this promised return.
+- **R-2:251** [reading; support medium, relevance high] inter-ayah target
+  - finding: Read beside Dhu al-Qarnayn’s later mission, David’s passage links God-given kingship with دفع that prevents فساد: 18:94 calls the people at the barrier corruptors, and 18:95–98 recounts Dhu al-Qarnayn building against them. This frames the focus’s first exercise of authority within a broader Quranic pattern of governance responding to disorder.
+  - evidence: 2:251 «وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍۢ لَّفَسَدَتِ ٱلْأَرْضُ»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:94 «إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ»
+  - activation: The focus begins Dhu al-Qarnayn’s sequence of encounters; the surah later narrates his response to people explicitly described as causing فساد.
+  - limits: The sunset people are not identified as corruptors, and 2:251 does not name Dhu al-Qarnayn.
+- **R-4:64** [reading; support medium, relevance high] inter-ayah target
+  - finding: The punishment branch for one who ظلم has a Quranic counter-scene: those who wrong themselves, come to the Messenger, and seek forgiveness find God relenting and merciful. This places repentance and mercy alongside the focus’s response to wrongdoing.
+  - evidence: 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»; 4:64 «وَلَوْ أَنَّهُمْ إِذ ظَّلَمُوٓا۟ أَنفُسَهُمْ جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًۭا رَّحِيمًۭا»
+  - activation: The focus’s next verse singles out wrongdoing and sends the wrongdoer back to God after punishment.
+  - limits: 4:64 includes coming to the Messenger and seeking forgiveness, neither of which the focus says its punished people do; it does not cancel Dhu al-Qarnayn’s stated action.
+- **R-4:94** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus first presents the encountered people without a moral label; 4:94 warns against declaring a person unbelieving and seeking worldly gain before establishing the facts. The following verses classify Dhu al-Qarnayn’s subjects by ظلم or faith and righteous action, making discernment central to how his choice unfolds.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»; 4:94 «فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَٰمَ لَسْتَ مُؤْمِنًۭا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا»
+  - activation: The focus moves from finding an unclassified group to alternatives whose next-verse outcomes distinguish wrongdoing from belief and good action.
+  - limits: 4:94 concerns a military encounter and a person offering peace; the focus does not report such a greeting or identify its scene as combat.
+- **R-4:135** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:135 supplies an impartiality test for the authority exercised in 18:86: the response to the encountered قَوْمًا is measured by قِسْط even when personal or social interests pull the judge.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The focus places a choice of treatment over a people, and 18:87 specifies wrongdoers as one class receiving punishment.
+  - limits: This cross-ayah criterion does not establish that the people at the spring are kin, rich, poor, or otherwise tied to the ruler.
+- **R-6:152** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus's حُسْنًا can be heard beside the command to protect an orphan's property only by what is أَحْسَنُ and to speak justly; the root links goodness with a standard for conduct toward vulnerable people.
+  - evidence: 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 6:152 «وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ»; 6:152 «وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟ وَلَوْ كَانَ ذَا قُرْبَىٰ»
+  - activation: The focus names good treatment among the encountered people as one available response.
+  - limits: 6:152 addresses orphan property and truthful speech, not rule over a people; the shared حسن root does not specify a particular policy for Dhul-Qarnayn.
+- **R-11:3** [reading; support medium, relevance high] inter-ayah target
+  - finding: 11:3 pairs مَتَاعًا حَسَنًا for those who turn back with عَذَاب for those who turn away; beside the focus's حُسْنًا and punishment options and the classifications in 18:87–88, this makes the choice sound responsive to moral stance.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 11:3 «يُمَتِّعْكُم مَّتَٰعًا حَسَنًا»; 11:3 «وَإِن تَوَلَّوْا فَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - activation: The focus's two alternatives share the key ideas of goodness and punishment that 11:3 links to turning back or turning away.
+  - limits: 11:3 is a prophetic warning about repentance, not a report that the people at the spring repented or turned away; the wording حَسَنًا modifies مَتَاعًا there.
+- **R-16:90** [reading; support medium, relevance high] inter-ayah target
+  - finding: 16:90 commands both العدل and الإحسان, giving a Quranic frame in which justice and excellence can stand together; beside 18:86's punishment and حُسْنًا options, this allows punishment of wrongdoing to remain distinct from beneficent treatment of others.
+  - evidence: 16:90 «إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The next two ayat distinguish the wrongdoer from the believer, giving content to the two kinds of response named in the focus.
+  - limits: 16:90 states a general command, not a direct gloss of the alternatives or a rule specific to Dhul-Qarnayn.
+- **R-21:78** [reading; support medium, relevance high] inter-ayah target
+  - finding: The judgment of David and Solomon over damage to a field gives a prophetic parallel to Dhu al-Qarnayn’s decision over a people. Both are public exercises of judgment, though the focus offers two broad responses while 21:78 concerns a specific dispute.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 21:78 «وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ»
+  - activation: The focus gives Dhu al-Qarnayn authority over a people’s treatment; the other passage explicitly describes rulers judging a public matter.
+  - limits: The agricultural dispute concerns restitution for damage, and the text does not equate its judgment with Dhu al-Qarnayn’s options.
+- **related_3.X2** [reading; support medium, relevance high] 
+  - finding: The surah opens by calling worldly life a test of who is best in deed; the focus’s حسن option and its continuation’s categories of wrongdoing, faith, and righteous action make Dhu al-Qarnayn’s encounter a local scene of moral assessment.
+  - evidence: 18:7 «لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًۭا»; 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:88 «مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا»
+  - activation: The surah’s opening test, the focus’s حسن, and the next verse’s righteous action share the moral vocabulary of good conduct.
+  - limits: The focus does not call Dhu al-Qarnayn’s encounter a test or state that he knows the people’s deeds by divine revelation.
+- **R-24:55** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Quran also frames rule in the land as a trust tied to faith, righteous work, worship, and security. Beside Dhu al-Qarnayn's divinely granted means, this makes his choice over the people legible as stewardship under God.
+  - evidence: 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 24:55 «وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَيَسْتَخْلِفَنَّهُمْ فِى ٱلْأَرْضِ كَمَا ٱسْتَخْلَفَ ٱلَّذِينَ مِن قَبْلِهِمْ وَلَيُمَكِّنَنَّ لَهُمْ دِينَهُمُ ٱلَّذِى ٱرْتَضَىٰ لَهُمْ وَلَيُبَدِّلَنَّهُم مِّنۢ بَعْدِ خَوْفِهِمْ أَمْنًۭا»; 24:55 «يَعْبُدُونَنِى لَا يُشْرِكُونَ بِى شَيْـًۭٔا»
+  - activation: The focus's preceding account says God empowered Dhu al-Qarnayn, and the focus immediately gives him discretion over a people.
+  - limits: 24:55 addresses a believing community; 18:86 does not identify Dhu al-Qarnayn's faith or state this covenant as the rule for his decision.
+- **R-28:4** [reading; support medium, relevance high] inter-ayah target
+  - finding: Pharaoh's rule supplies a contrary model of power over a people: he divides and oppresses them, while Dhu al-Qarnayn is presented with a choice between punishment and good treatment. The contrast makes the quality of rule, rather than possession of power alone, salient.
+  - evidence: 28:4 «إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًۭا يَسْتَضْعِفُ طَآئِفَةًۭ مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both passages place a ruler's conduct toward a people at the center of the scene; the focus explicitly offers alternatives for that conduct.
+  - limits: The focus has not yet specified Dhu al-Qarnayn's criterion or outcome here, and the two rulers are not equated.
+- **R-34:10** [reading; support medium, relevance high] inter-ayah target
+  - finding: David receives divine favor and the means to make armor, immediately followed by commands to work righteously. Beside Dhu al-Qarnayn's granted means and choice over people, this links empowerment with accountable action.
+  - evidence: 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 34:10 «وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ مِنَّا فَضْلًۭا ۖ يَٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ»; 34:11 «أَنِ ٱعْمَلْ سَٰبِغَٰتٍۢ وَقَدِّرْ فِى ٱلسَّرْدِ ۖ وَٱعْمَلُوا۟ صَٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ بَصِيرٌۭ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: Both rulers' accounts start with God-given capacity, and the focus makes the use of that capacity a live question.
+  - limits: The passage about David specifies righteous work; the focus has not yet named an explicit rule for Dhu al-Qarnayn's decision.
+- **R-42:40** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Quranic response to harm is framed as proportionate repayment, while pardon and repair carry reward. Beside Dhu al-Qarnayn's punishment-or-goodness alternatives, this makes restraint and constructive treatment a consequential option without erasing the wrongdoer's accountability.
+  - evidence: 42:40 «وَجَزَٰٓؤُا۟ سَيِّئَةٍۢ سَيِّئَةٌۭ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُۥ عَلَى ٱللَّهِ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - activation: The focus explicitly juxtaposes punishment and good treatment, and its next verse applies punishment to the one who wrongs.
+  - limits: 42:40 addresses how a victim responds to harm, while Dhu al-Qarnayn's account concerns governance of a people; it does not dictate which branch he should choose in advance.
+- **R-44:22** [reading; support medium, relevance high] inter-ayah target
+  - finding: Moses calls his addressed group criminal, whereas Dhu al-Qarnayn's following ruling divides the people by conduct, punishing whoever wrongs and treating the believer who does good differently. This contrast makes the focus's individualized moral sorting salient.
+  - evidence: 44:22 «فَدَعَا رَبَّهُۥٓ أَنَّ هَٰٓؤُلَاءِ قَوْمٌۭ مُّجْرِمُونَ»; 18:87 «قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 18:88 «وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ»
+  - activation: The focus's next two verses distinguish responses by what individuals do, contrasting with the collective description قوم مجرمون.
+  - limits: Moses speaks about Pharaoh's people in a different crisis; the contrast does not establish that Dhu al-Qarnayn's people are criminals.
+- **R-49:9** [reading; support medium, relevance high] inter-ayah target
+  - finding: 49:9 pairs force with a stopping condition and then requires reconciliation by justice. Beside Dhu al-Qarnayn’s punishment-or-goodness choice, it makes measured authority over a group a Quranic problem of when force ends and fair treatment begins.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 49:9 «فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ»
+  - activation: Both passages address how authority should respond to a community’s conduct; 18:87–88 then distinguishes the wrongdoer from the believer who acts rightly.
+  - limits: 49:9 concerns two fighting groups and explicitly commands reconciliation; it does not identify Dhu al-Qarnayn’s people or prescribe his particular choice.
+- **R-f-ءخذ-عذب-وجد** [reading; support medium, relevance high] formula family (ء خ ذ + ع ذ ب + و ج د; 1 ayat: 18:58)
+  - finding: 18:58 clusters divine taking to account, punishment, and finding no refuge. The focus uses the same roots in different forms and relations: Dhu al-Qarnayn may `تتخذ` goodness, may punish, and first `وجد` a people. This places his immediate authority within the surah’s wider contrast between delayed divine judgment and an appointed punishment.
+  - evidence: 18:58 «لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌۭ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًۭا»; 18:86 «وَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًۭا نُّكْرًۭا»
+  - activation: The roots occur in both passages, and the focus’s next verse explicitly distinguishes local punishment from punishment by the Lord.
+  - limits: The forms and arguments differ: `تتخذ` means adopting or instituting, while `يؤاخذ` concerns taking to account. The verses do not declare a deliberate formula.
+- **R-f-بلغ-عذب** [reading; support medium, relevance high] formula family (ب ل غ + ع ذ ب; 1 ayat: 48:25)
+  - finding: In 48:25, a blocked offering’s destination and conditional punishment appear in a scene where unknown believers are among the opposing group. Beside 18:86’s arrival and punishment option, then 18:87’s criterion من ظلم, this raises the question of how a ruler distinguishes people within a collective before punishing.
+  - evidence: 48:25 «أَن يَبْلُغَ مَحِلَّهُۥ»; 48:25 «وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍۢ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا»; 18:86 «وَجَدَ عِندَهَا قَوْمًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - activation: The unknown قوم are the object of the alternatives, and the next ayah specifies wrongdoing as the punishment criterion.
+  - limits: 48:25 concerns a blocked pilgrimage offering and danger to hidden believers; it does not establish that the people at the western spring include hidden believers.
+- **R-f-حسن-غرب** [reading; support medium, relevance high] formula family (ح س ن + غ ر ب; 1 ayat: 7:137)
+  - finding: 7:137 joins the inheritance of the earth’s east and west by a people once weakened with the fulfillment of God’s good word for the Israelites. Alongside reaching مغرب الشمس and the option of حسن in 18:86, it opens a Quranic pattern in which western reach and good for a vulnerable people meet.
+  - evidence: 7:137 «وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟»; 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - activation: The focus pairs a western endpoint with the offer of حسن toward the people found there.
+  - limits: The text does not identify the people in 18:86 with the Israelites or say that their land is inherited.
+- **R-f-شمس-غرب** [reading; support medium, relevance high] formula family (ش م س + غ ر ب; 1 ayat: 2:258)
+  - finding: In 2:258, Abraham answers a king’s claim to give life and death by challenging him to bring the sun from the west. DQ reaches مغرب الشمس and is given authority over how to treat the people there. With 18:84’s account of God enabling him, the western horizon can frame human authority as delegated within a solar order.
+  - evidence: 2:258 «رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحْىِۦ وَأُمِيتُ ۖ قَالَ إِبْرَٰهِۦمُ فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ ٱلْمَغْرِبِ فَبُهِتَ ٱلَّذِى كَفَرَ»; 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ»
+  - activation: The focus names both the sun’s western setting and DQ’s authority to choose how to treat the people he finds.
+  - limits: The verses do not identify DQ with the king in 2:258 or say DQ controls the sun.
+- **R-f-عند-قرن** [reading; support medium, relevance high] formula family (ع ن د + ق ر ن; 1 ayat: 28:78)
+  - finding: Qarun’s عندي claim attributes his wealth to his own knowledge, while the destroyed القرون are a warning against confidence in worldly power. DQ’s account instead credits God with enabling him, and DQ later says what his Lord enabled him to do is better. The shared roots in عندها and ذو القرنين let the focus stand beside this contrast of self-claimed and God-given authority.
+  - evidence: 28:78 «إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍ عِندِىٓ ۚ أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ مِن قَبْلِهِۦ مِنَ ٱلْقُرُونِ»; 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»; 18:86 «وَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ»; 18:95 «قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ»
+  - activation: The focus’s title and locative phrase are activated by 28:78’s عندي and القرون, while 18:84 and 18:95 explicitly frame DQ’s power as granted by God.
+  - limits: The verses do not establish that the title ذو القرنين means generations or that DQ intentionally recalls Qarun.
+- **R-2:190** [open; support medium, relevance high] inter-ayah target
+  - finding: The ban on transgression in 2:190 could bound how the focus’s punishment option is heard. In the focus sequence, punishment is directed at whoever ظلم, while 2:190 names fighting aggressors as the condition for fighting.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»; 2:190 «وَقَٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ ٱلَّذِينَ يُقَٰتِلُونَكُمْ وَلَا تَعْتَدُوٓا۟»
+  - missing: The focus does not say that the people fought Dhu al-Qarnayn. Evidence identifying this encounter as armed conflict would be needed to apply 2:190’s rule directly to his choice.
+- **R-5:8** [open; support medium, relevance high] inter-ayah target
+  - finding: 5:8 bars enmity with a people from preventing justice, which could constrain the punishment option if the people found by Dhul-Qarnayn are adversaries; the focus does not describe hostility.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 5:8 «وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟»
+  - missing: An indication that this people are hostile, or that their encounter involves enmity, could establish whether this specific restraint is activated.
+- **R-5:45** [open; support medium, relevance high] inter-ayah target
+  - finding: The law of equal retaliation paired with waiving a claim offers a possible frame for hearing punishment and good treatment as measured responses, rather than arbitrary choices.
+  - evidence: 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 5:45 «فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌۭ لَّهُۥ»
+  - missing: The focus gives no victim, injury, or claim of retaliation. A statement that the people had harmed Dhul-Qarnayn or others, or that his punishment is retribution, could decide whether this legal pattern applies.
+- **R-8:61** [open; support medium, relevance high] inter-ayah target
+  - finding: If the people at the spring are a hostile counterpart who leans toward peace, 8:61 would constrain the punishment option by directing a reciprocal turn toward peace; the focus reports no such overture.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 8:61 «وَإِن جَنَحُوا۟ لِلسَّلْمِ فَٱجْنَحْ لَهَا»
+  - missing: Evidence that the encounter involves conflict and that the people incline toward peace could establish whether this command bears directly on Dhul-Qarnayn's choice.
+- **R-9:123** [open; support medium, relevance high] inter-ayah target
+  - finding: 9:123 commands force and severity toward nearby disbelievers, a sharp contrast with the options offered at the sunset boundary if Dhul-Qarnayn's people are such opponents.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 9:123 «قَٰتِلُوا۟ ٱلَّذِينَ يَلُونَكُم مِّنَ ٱلْكُفَّارِ وَلْيَجِدُوا۟ فِيكُمْ غِلْظَةًۭ»
+  - missing: The focus does not identify the people as disbelievers, nearby enemies, or combatants. Their status or a conflict scene could establish the relevance of this contrasting command.
+- **R-13:14** [open; support medium, relevance high] inter-ayah target
+  - finding: 13:14 sets a frustrated attempt to make water reach the mouth beside Dhul-Qarnayn's completed arrival at a spring; this may contrast futile reaching with a journey enabled by means.
+  - evidence: 18:84 «وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًا»; 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ»; 13:14 «إِلَى ٱلْمَآءِ لِيَبْلُغَ فَاهُ وَمَا هُوَ بِبَٰلِغِهِۦ»
+  - missing: The focus does not mention thirst, prayer, or failed access to water. A further textual cue tying its spring or journey to the frustrated water image could establish an intentional contrast.
+- **R-15:26** [open; support medium, relevance high] inter-ayah target
+  - finding: The muddy spring's حَمِئَةٍ shares the ح م ء root with the mud named as humanity's material in 15:26; because قَوْمًا appears immediately after the muddy locus, that creation phrase may make the landscape resonate with human origin.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًا»; 15:26 «خَلَقْنَا ٱلْإِنسَٰنَ مِن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ»
+  - missing: 18:86 contains no explicit creation or human-origin language. Another cue linking the muddy setting or its people to creation could determine whether this is an allusion.
+- **R-15:28** [open; support medium, relevance high] inter-ayah target
+  - finding: 15:28 joins divine speech, a human being, and the same حَمَإ mud root; in 18:86 a muddy locus and people precede قُلْنَا, creating a possible but unconfirmed echo of the creation announcement.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا»; 15:28 «إِنِّى خَٰلِقٌۢ بَشَرًا مِّن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ»
+  - missing: The shared elements are mud and divine speech, but 18:86 does not name human creation. An explicit creation cue or description of the people as linked to this origin could establish the echo.
+- **R-17:15** [open; support medium, relevance high] inter-ayah target
+  - finding: 17:15 says God does not punish until a messenger has been sent, raising whether the punishment option in 18:86 presumes prior communication or accountability for the people; the focus quotes God's authorization without reporting such a message to them.
+  - evidence: 17:15 «وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًا»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ»; 18:87 «أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - missing: 18:87 identifies wrongdoing but not whether the people were warned or what notice a human ruler must give. A report of their prior instruction or response could clarify whether 17:15 bears on this delegated punishment.
+- **R-21:69** [open; support medium, relevance high] inter-ayah target
+  - finding: If حمئة is heard with the hot-spring reading, the focus’s spring could be set beside Ibrahim’s fire, which God commands to become cool and safe. That would make both scenes turn on divine control of heat.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 21:69 «قُلْنَا يَٰنَارُ كُونِى بَرْدًۭا وَسَلَٰمًا عَلَىٰٓ إِبْرَٰهِيمَ»
+  - missing: The written focus excerpt does not establish the hot-spring reading. A recitational or lexical source confirming that reading here would decide whether the heat-and-cooling parallel is activated.
+- **R-38:20** [open; support medium, relevance high] inter-ayah target
+  - finding: David's strengthened kingship is joined to wisdom and decisive speech, which could supply a model for hearing Dhu al-Qarnayn's choice as a test of judgment. The focus itself does not name his wisdom or how his decision is reasoned.
+  - evidence: 38:20 «وَشَدَدْنَا مُلْكَهُۥ وَءَاتَيْنَٰهُ ٱلْحِكْمَةَ وَفَصْلَ ٱلْخِطَابِ»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - missing: An explicit judgment or wisdom marker in Dhu al-Qarnayn's account could establish this as more than a parallel between empowered rulers.
+- **R-42:48** [open; support medium, relevance high] inter-ayah target
+  - finding: The passages may distinguish a Messenger's limited task from Dhu al-Qarnayn's local discretion: here the Messenger is not a keeper over those who turn away and must convey, while Dhu al-Qarnayn is addressed about how to treat a people.
+  - evidence: 42:48 «فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ»; 18:86 «قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - missing: The focus does not identify Dhu al-Qarnayn as a ruler in contrast to a Messenger, or explain whether his authority is political or missionary. An explicit statement of his office or commission could decide the role contrast.
+- **R-48:16** [open; support medium, relevance high] inter-ayah target
+  - finding: This passage also places people under an authority's sharply stated alternatives and connects obedience with reward and turning away with punishment. It may broaden the focus's decision into a Quranic pattern of governance under divine direction, though the scenarios differ.
+  - evidence: 48:16 «سَتُدْعَوْنَ إِلَىٰ قَوْمٍ أُو۟لِى بَأْسٍۢ شَدِيدٍۢ تُقَٰتِلُونَهُمْ أَوْ يُسْلِمُونَ ۖ فَإِن تُطِيعُوا۟ يُؤْتِكُمُ ٱللَّهُ أَجْرًا حَسَنًۭا ۖ وَإِن تَتَوَلَّوْا۟ كَمَا تَوَلَّيْتُم مِّن قَبْلُ يُعَذِّبْكُمْ عَذَابًا أَلِيمًۭا»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»; 18:87 «قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ»
+  - missing: A shared indicator of war, submission, or the same kind of delegated authority could establish a closer relation; 48:16 concerns a military summons, while the focus presents discretion over treatment.
+- **R-88:5** [open; support medium, relevance high] inter-ayah target
+  - finding: 88:5 describes a spring as `آنية`, a heated source, while the focus calls its spring `حمئة`; this may keep the focus’s hot-spring variant in view. The shared spring setting does not establish that `حمئة` itself means hot.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 88:5 «تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ»
+  - missing: A reading or lexical source connecting the focus’s word `حمئة` to heat, or a stronger contextual cue that activates the hot variant, is needed; 88:5 uses a different adjective.
+- **R-f-حسن-قرن** [open; support medium, relevance high] formula family (ح س ن + ق ر ن; 1 ayat: 19:74)
+  - finding: 19:74 speaks of destroyed generations who were أحسن in furnishings and appearance. Beside ذو القرنين and the offered حسنا, it opens a contrast between generations ranked by visible goods and goodness enacted toward people.
+  - evidence: 19:74 «وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَٰثًۭا وَرِءْيًۭا»; 18:86 «يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - missing: These ayat do not establish that the title ذو القرنين means generations or that the people in 18:86 recall those destroyed generations. A lexical account of the title or a narrative link to generational cycles could decide whether this root-level juxtaposition carries that contrast.
+- **R-f-حسن-وجد** [open; support medium, relevance high] formula family (ح س ن + و ج د; 1 ayat: 9:91)
+  - finding: 9:91 joins people who لا يجدون ما ينفقون with the statement that no blame falls on المحسنين. Beside DQ’s finding of a people and the حسن option, this places inability and good conduct in a possible shared ethical frame.
+  - evidence: 9:91 «وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُوا۟ لِلَّهِ وَرَسُولِهِۦ»; 9:91 «مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍۢ»; 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - missing: The focus does not describe its people as poor or unable to contribute. An indication of their material need, or another passage linking their status to the حسن option, could establish this connection.
+- **R-f-عين-وجد** [open; support medium, relevance high] formula family (ع ي ن + و ج د; 1 ayat: 9:92)
+  - finding: In 9:92, people’s eyes overflow as they grieve that they cannot find what to spend. Alongside the focus’s repeated وجد and its عين, this offers a possible compassionate frame for DQ’s encounter and حسن option.
+  - evidence: 9:92 «وَأَعْيُنُهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ»; 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ وَوَجَدَ عِندَهَا قَوْمًۭا»; 18:86 «أَن تَتَّخِذَ فِيهِمْ حُسْنًۭا»
+  - missing: The focus does not describe the people as grieving or needy. Evidence of their vulnerability, or a Quranic link between this kind of encounter and relief for those lacking means, could establish the compassionate frame.
+- **R-15:33** [open; support weak, relevance high] inter-ayah target
+  - finding: Iblis invokes the human's mud origin to refuse prostration, while 18:86 places a muddy spring beside a people whose treatment is at issue; this could set contempt for human material against the option of taking حُسْنًا among them.
+  - evidence: 18:86 «وَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 15:33 «لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُۥ مِن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ»
+  - missing: 18:86 does not connect its people with Adam's origin or signal contempt for them. A cue that the mud is being used to characterize human worth could decide whether this contrast matters.
+- **R-102:7** [open; support weak, relevance high] inter-ayah target
+  - finding: 102:7 uses `عين اليقين` for certainty by sight; the focus places `عين` in a scene of seeing the sun set and finding a spring. This permits a possible eye-and-spring resonance, but the focus’s syntax presents `عين حمئة` as a location.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 102:7 «ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ»
+  - missing: A dictionary sense or contextual cue showing that the focus activates the eye or sight sense of `عين`, rather than simply naming a spring, would be needed to establish wordplay.
+- **R-f-عذب-عين** [open; support weak, relevance high] formula family (ع ذ ب + ع ي ن; 1 ayat: 54:37)
+  - finding: The focus names a spring as عين and makes punishment one possible response to the people there. In 54:37, people’s eyes are blinded before punishment is announced; the shared ع-ي-ن root opens an eye-and-spring counter-image in a scene of possible collective punishment.
+  - evidence: 18:86 «تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 18:86 «إِمَّآ أَن تُعَذِّبَ»; 54:37 «فَطَمَسْنَآ أَعْيُنَهُمْ فَذُوقُوا۟ عَذَابِى وَنُذُرِ»
+  - missing: The spring in 18:86 and the bodily eyes in 54:37 are distinct uses, and the verses do not connect their peoples. A cue to sight or eyes in the focus, or another Quranic passage linking springs, eyes, and a community’s judgment, could establish more than the root-level image.
+- **R-18:60** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Moses’s resolve to reach the meeting of the seas is another purposeful journey to a limit in the surah. His destination leads toward a search for knowledge; Dhu al-Qarnayn’s western arrival leads into a public decision.
+  - evidence: 18:60 «لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»
+  - activation: Both journeys are built around reaching a named destination, and the focus proceeds from reaching to a new encounter.
+  - limits: Moses seeks a meeting point and knowledge; the focus describes Dhu al-Qarnayn’s travel and authority over a people.
+- **R-18:71** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The repeated حتى إذا formula marks a travel hinge in both accounts. In the focus, arrival opens a scene and a decision; in the ship episode, boarding leads to Khidr’s act and Moses’s objection.
+  - evidence: 18:71 «فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»
+  - activation: Both passages use حتى إذا to turn ongoing travel into a consequential scene.
+  - limits: The ship episode is not a meeting with a people or a choice given by God to Dhu al-Qarnayn.
+- **R-12:22** [reading; support medium, relevance medium] inter-ayah target
+  - finding: Joseph's reaching maturity is followed by حكمًا and عِلْمًا, so the shared verb بَلَغَ can mark a threshold before a new capacity or action; in 18:86 a spatial arrival likewise opens an encounter and decision.
+  - evidence: 18:86 «إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 12:22 «وَلَمَّا بَلَغَ أَشُدَّهُۥٓ ءَاتَيْنَٰهُ حُكْمًا وَعِلْمًا»
+  - activation: The focus's completed reaching immediately precedes the finding of a people and the choice of how to treat them.
+  - limits: The direct objects differ: 12:22 describes maturity, whereas 18:86 names a place; the parallel does not turn the western endpoint into a maturity metaphor.
+- **R-17:34** [reading; support medium, relevance medium] inter-ayah target
+  - finding: Both passages use a hatta threshold with the root ب ل غ: reaching maturity in 17:34 precedes a change in the orphan’s status, while reaching the sunset limit in 18:86 opens a decision about the people Dhu al-Qarnayn finds.
+  - evidence: 17:34 «حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ»; 18:86 «حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ»
+  - activation: The focus begins with a journey endpoint and moves directly from arrival to encountering a people and choosing how to treat them.
+  - limits: The focus uses a completed arrival in a temporal scene; 17:34 uses a subjunctive verb for the orphan’s future maturity. The passages do not state the same kind of threshold.
+- **R-12:54** [open; support medium, relevance medium] inter-ayah target
+  - finding: The king calls Joseph مَكِينٌ أَمِينٌ after speaking with him, offering a model of authority explicitly joined to trust; this contrasts with Dhul-Qarnayn's granted power as he faces a choice over people.
+  - evidence: 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»; 12:54 «فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌۭ»
+  - missing: The focus does not state whether Dhul-Qarnayn's authority rests on a quality like Joseph's trustworthiness. A direct characterization of his fitness for rule could establish whether this contrast develops the focus.
+- **R-12:55** [open; support medium, relevance medium] inter-ayah target
+  - finding: Joseph asks for stewardship of the land's storehouses on the stated grounds that he is حَفِيظٌ عَلِيمٌ, a concrete pairing of care and knowledge that could illuminate the responsibilities implicit in Dhul-Qarnayn's power.
+  - evidence: 12:55 «قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ»; 18:84 «وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًا»; 18:86 «إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا»
+  - missing: 18:84–86 grants means and presents a choice but does not state the qualities that govern Dhul-Qarnayn's stewardship. A description of his care, knowledge, or decision process could make the comparison decisive.
+- **R-20:130** [open; support medium, relevance medium] inter-ayah target
+  - finding: 20:130 marks a recurring time for praise before sunset, while the focus names مغرب الشمس as a reached destination. This may distinguish the focus’s place-oriented journey scene from ordinary sunset timing.
+  - evidence: 18:86 «بَلَغَ مَغْرِبَ ٱلشَّمْسِ»; 20:130 «قَبْلَ غُرُوبِهَا»
+  - missing: A dictionary or further Quranic usage showing whether مغرب here denotes a place, a time, or both could decide how much the contrast with the time noun غروب matters.
+- **R-26:134** [open; support medium, relevance medium] inter-ayah target
+  - finding: The gardens and springs in this passage belong to a catalogue of settled abundance, while the focus has a single muddy spring at a travel endpoint. This could contrast livelihood landscapes, but the focus does not say whether the people depend on or cultivate the spring.
+  - evidence: 26:133 «أَمَدَّكُم بِأَنْعَٰمٍۢ وَبَنِينَ»; 26:134 «وَجَنَّٰتٍۢ وَعُيُونٍ»; 18:86 «فِى عَيْنٍ حَمِئَةٍۢ»
+  - missing: Evidence that the people found by Dhu al-Qarnayn live from this spring, or that the spring marks their abundance or deprivation, could establish the landscape contrast.
+- **R-26:147** [open; support medium, relevance medium] inter-ayah target
+  - finding: Here springs appear with gardens, crops, and date palms in a landscape described as secure. Set beside the focus's lone muddy spring, that may mark a shift from cultivated settlement to a remote edge, if the focus's people are similarly defined by their surroundings.
+  - evidence: 26:146 «أَتُتْرَكُونَ فِى مَا هَٰهُنَآ ءَامِنِينَ»; 26:147 «فِى جَنَّٰتٍۢ وَعُيُونٍۢ»; 26:148 «وَزُرُوعٍۢ وَنَخْلٍۢ طَلْعُهَا هَضِيمٌۭ»; 18:86 «فِى عَيْنٍ حَمِئَةٍۢ»
+  - missing: A description of the focus people's settlement, food, or use of the spring could decide whether the contrast is socially meaningful rather than just a difference in landscape wording.
+- **R-27:15** [open; support medium, relevance medium] inter-ayah target
+  - finding: David and Solomon explicitly respond with praise after receiving knowledge; Dhu al-Qarnayn is likewise described as receiving means from God. Their response could frame how granted capacity is received, but the focus gives no expression of gratitude.
+  - evidence: 27:15 «وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ وَسُلَيْمَٰنَ عِلْمًۭا ۖ وَقَالَا ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ»; 18:84 «إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍۢ سَبَبًۭا»
+  - missing: A statement of Dhu al-Qarnayn's gratitude, or another link identifying his response with David and Solomon's, could establish this as more than a parallel in divine bestowal.
+- **R-37:5** [open; support medium, relevance medium] inter-ayah target
+  - finding: The focus takes Dhu al-Qarnayn to the sun's western setting, while another passage names God as Lord of the eastern points; the same surah later narrates his reaching the sun's rising-place. This could frame the itinerary's horizons within divine sovereignty.
+  - evidence: 18:86 «مَغْرِبَ ٱلشَّمْسِ»; 18:90 «حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ»; 37:5 «رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ»
+  - missing: 37:5 names the eastern points but not the west or Dhu al-Qarnayn; a passage explicitly placing both horizons under God's lordship, or another cue in this journey, could establish the connection.
+- **R-21:53** [open; support weak, relevance medium] inter-ayah target
+  - finding: A possible contrast links the focus’s encounter with a people to Ibrahim’s exchange with a community that says it found its ancestors worshipping the statues. Both use وجد in a people-centered scene, but one is a ruler finding a community and the other a community appealing to inherited practice.
+  - evidence: 18:86 «وَوَجَدَ عِندَهَا قَوْمًۭا»; 21:52 «مَا هَٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا عَٰكِفُونَ»; 21:53 «قَالُوا۟ وَجَدْنَآ ءَابَآءَنَا لَهَا عَٰبِدِينَ»
+  - missing: A passage identifying the western people’s beliefs or their response to Dhu al-Qarnayn could establish whether this parallel bears on the focus’s decision rather than just sharing a common verb and community setting.
+- **R-f-ءخذ-عين** [open; support weak, relevance medium] formula family (ء خ ذ + ع ي ن; 1 ayat: 20:39)
+  - finding: 20:39 pairs an أخذ-root action with `على عيني`, an expression of divine care; the focus has the same عين root in a spring scene framed by finding and seeing the sun set. This raises a possible eye or oversight resonance, but the focus’s construction names a spring and 20:39’s phrase has a different sense.
+  - evidence: 18:86 «وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍۢ»; 20:39 «يَأْخُذْهُ عَدُوٌّۭ لِّى وَعَدُوٌّۭ لَّهُۥ ۚ وَأَلْقَيْتُ عَلَيْكَ مَحَبَّةًۭ مِّنِّى وَلِتُصْنَعَ عَلَىٰ عَيْنِىٓ»
+  - missing: A dictionary sense and a contextual cue showing that the focus activates the eye or divine-oversight sense of `عين`, rather than only the spring sense, would be needed to establish an echo.
+- **R-37:48** [open; support medium, relevance low] inter-ayah target
+  - finding: The focus uses عين for a spring, while عِين describes large-eyed companions here. Since the focus is a scene of seeing, the shared root may keep the eye sense available beneath the spring noun.
+  - evidence: 18:86 «فِى عَيْنٍ حَمِئَةٍۢ»; 37:48 «وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ عِينٌۭ»
+  - missing: A dictionary account establishing the relation between the spring and eye senses, and a stronger cue in the focus tying its عين to sight, would decide whether this is more than shared root letters.
+
+Notes:
+- R-17:33 [support medium, relevance high] 17:33 offers a restraint parallel: the following verse limits the focus’s punishment to “من ظلم,” while 17:33 bars excess even for a victim’s guardian. This places punishment beside a demand for justice.
+- R-7:115 [support strong, relevance medium] The exact إِمَّا أَنْ … وَإِمَّا أَنْ frame also introduces a choice in 7:115, but there it is about who casts first; the shared form marks alternatives without making their contents ethically alike.
+- R-11:40 [support strong, relevance medium] Both scenes use حَتَّىٰ إِذَا to mark an arrival and then قُلْنَا to introduce a divine command: Noah receives instructions at the flood threshold, while Dhul-Qarnayn receives a choice at the western limit.
+- R-16:67 [support strong, relevance medium] The verb تتخذون and حسن root also occur together in 16:67, where people derive a good provision from fruit; the focus instead makes حُسْنًا the object adopted فِيهِمْ, placing goodness among the people rather than describing a provision.
+- R-18:50 [support strong, relevance medium] The focus’s تتخذ فيهم حسنا can be heard alongside the surah’s use of اتخذ for adopting a relationship: 18:50 warns against taking Iblis and his descendants as protectors. The verb carries a choice of affiliation or course, not just physical seizure.
+- R-18:96 [support strong, relevance medium] The later account shows Dhu al-Qarnayn turning an offer to help into organized construction, directing people through successive stages. It gives a practical example of how his authority can operate after the focus’s moral choice.
+- R-23:32 [support strong, relevance medium] The phrase فأرسلنا فيهم رسولا shows فيهم marking a community as the social domain of an action. It supports hearing Dhu al-Qarnayn’s تتخذ فيهم حسنا as goodness carried out among or toward the people.
+- R-28:14 [support strong, relevance medium] Moses reaches maturity and then receives judgment and knowledge; Dhu al-Qarnayn reaches a geographic threshold and then receives a decision frame. The shared بلغ-before-consequence sequence makes both arrivals transitions into responsibility.
+- R-46:15 [support strong, relevance medium] Both use the hinge حتى إذا بلغ before a consequential response: here a person reaches full strength and asks to act righteously, while Dhu al-Qarnayn reaches the sun's setting-place and faces a choice about people. The repeated threshold syntax makes arrival a transition into responsibility.
+- R-50:39 [support strong, relevance medium] The focus names the sun’s setting with the غ ر ب root; 50:39 uses the same root for a time before sunset in a cycle of praise. The shared sunset wording lets the focus’s horizon scene sit beside a recurring devotional marker.
+- R-55:50 [support strong, relevance medium] 55:50 and 55:66 describe paired garden springs as flowing or gushing; the focus has one spring qualified as `حمئة`. This contrast foregrounds how strongly the focus qualifies its spring against Quranic images of abundant garden water.
+- R-88:12 [support strong, relevance medium] 88:12 has the same spring noun in a `فيها عين` construction but qualifies the spring as flowing. Alongside the focus’s `عين حمئة`, it gives a clear Quranic contrast in spring quality and setting.
+- R-f-حسن-عند [support strong, relevance medium] In 3:195, `حسن` names reward from God; in the focus, `حسنا` is something Dhu al-Qarnayn may enact `فيهم`. The focus’s next verse then uses `الحسنى` for reward. This distinction keeps immediate good treatment separate from the later recompense.
+- R-2:247 [support medium, relevance medium] Talut’s kingship is presented as God’s appointment and selection, a parallel to the focus’s divinely enabled ruler receiving discretion over a people.
+- R-4:54 [support medium, relevance medium] 4:54 presents عظيما ملكًا as a gift from God to Abraham’s family; 18:84 likewise says God established Dhu al-Qarnayn in the land and gave him means. This places his authority in a Quranic pattern of bestowed capacity.
+- R-12:94 [support medium, relevance medium] In 12:94, وَجَدَ takes a scent as its object, a sensory perception of an absent person; this fits the perceptual frame of وَجَدَهَا تَغْرُبُ in 18:86 without settling what the sunset image claims.
+- R-18:49 [support medium, relevance medium] The local encounter and choice sit within a surah that later depicts people finding their deeds present before them. That scene places Dhu al-Qarnayn’s immediate judgment beside the final accounting.
+- R-18:53 [support medium, relevance medium] The surah places Dhu al-Qarnayn’s punitive authority before a later scene where criminals see the Fire and find no way out. The contrast can mark his punishment as an immediate human judgment distinct from the final one.
+- R-18:91 [support medium, relevance medium] After the eastern scene, the narrator says God encompasses what Dhu al-Qarnayn has with him in knowledge. This places the focus’s journey and judgment within a larger frame of divine knowledge.
+- R-18:97 [support medium, relevance medium] The barrier’s result is that its intended opponents cannot climb over it or breach it. This supplies a concrete protective outcome for Dhu al-Qarnayn’s later public action, alongside the focus’s option of حسن treatment.
+- R-20:44 [support medium, relevance medium] Moses and Aaron are told to speak gently even when sent to Pharaoh, a merciful approach to a ruler described as having transgressed. This offers a parallel to the focus’s constructive option alongside punishment.
+- R-21:79 [support medium, relevance medium] God says He gave David and Solomon judgment and knowledge, offering a parallel to the focus’s divine address that grants Dhu al-Qarnayn a choice in ruling. The surah thus presents more than one form of divinely supported authority.
+- R-29:14 [support medium, relevance medium] Noah's people are taken by the flood while wrongdoers; the focus's sequel uses the same wrongdoing category when Dhu al-Qarnayn sets out whom he will punish. This places his response beside Quranic accounts of consequences for unjust communities, though his is a differentiated human judgment.
+- R-42:15 [support medium, relevance medium] The Messenger is commanded to stand firm and act justly among people; that supplies a broad Quranic norm beside Dhu al-Qarnayn's authority to choose how to deal with a people. The focus's later sorting into wrongdoers and believers makes the comparison sharper.
+- R-43:38 [support medium, relevance medium] The focus's western endpoint and later eastern endpoint give the journey a directional span; 43:38 turns the distance between the two east points into an image of separation between companions. This lets the surah's travel imagery sit beside a Quranic metaphor of estrangement.
+- R-70:1 [support medium, relevance medium] 70:1–2 presents punishment as an event that will occur and cannot be averted; 18:86 presents punishing as one branch of a ruler’s choice, then 18:87 distinguishes it from punishment by the Lord. The shared ع ذ ب root sets contingent human enforcement beside an unavoidable divine judgment.
+- R-2:196 [support strong, relevance low] Both passages use حتى with بلغ to mark arrival at a limit before a next act: the offering must reach its destination before shaving, while Dhu al-Qarnayn reaches the sun’s setting place before the encounter and choice.
+- R-2:234 [support strong, relevance low] In both scenes, reaching a stated endpoint precedes a decision about what follows: the focus moves from reaching the sun’s setting place to encountering a people, while 2:234 moves from the women reaching their term to what they may do بِٱلْمَعْرُوفِ.
+- R-2:235 [support strong, relevance low] The formula حتى يبلغ marks a deadline that governs when an action may occur: in 2:235, a marriage bond must wait until its term, while in the focus, arrival at the setting place opens the next scene.
+- R-5:104 [support strong, relevance low] The shared verb وَجَدَ has different complements: 18:86 finds the sun setting and people near it, while 5:104 says people found their ancestors adhering to a practice, showing that the root can describe finding a group in a state as well as encountering one.
+- R-18:76 [support strong, relevance low] The same root ب ل غ can mark nonspatial attainment in the surah: Moses says his companion has reached the point of giving him an excuse. This places the focus’s geographical reaching within a wider threshold vocabulary.
+- R-18:83 [support strong, relevance low] After the explanation of Khidr’s actions, the surah opens a distinct account prompted by questions about Dhu al-Qarnayn. The title in the focus answers that opening frame.
+- R-19:8 [support strong, relevance low] The root ب ل غ also describes Zechariah reaching an extreme of old age. The focus uses the same root for reaching a geographical limit, so the surah’s literal journey verb belongs to a broader vocabulary of attained bounds.
+- R-24:59 [support strong, relevance low] Both use بلغ to mark crossing a threshold: children reach puberty here, while Dhu al-Qarnayn reaches the sun's setting-place. The shared verb links attainment across domains but does not make the scenes alike.
+- R-25:45 [support strong, relevance low] The sun is called a دليل for tracking the shadow here, placing the focus's sunset observation beside Quranic use of solar movement as a visible marker. The focus itself does not call the sunset a دليل.
+- R-18:99 [support medium, relevance low] The barrier story ends by moving into the gathering of people for the Hour. It puts Dhu al-Qarnayn’s work within an account whose scale finally passes from his public action to divine gathering and judgment.
+- R-37:102 [support medium, relevance low] Ibrahim's son reaches the stage of striving alongside his father before being asked to consider a grave command; Dhu al-Qarnayn reaches a geographic limit before being offered a consequential choice. The repeated بلغ threshold structure is suggestive, though the tests differ.
+- R-f-عند-عين [support medium, relevance low] Noah pairs عندي with the audience’s أعينكم when denying possession and correcting their judgment of people. The focus places عندها before the people and عين after a report of seeing the sun set, giving the two root-pairs a compact spatial and visual correspondence.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:83 وَإِذْ أَخَذْنَا مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًۭا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًۭا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ
+- 2:110 وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 2:165 وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ أَندَادًۭا يُحِبُّونَهُمْ كَحُبِّ ٱللَّهِ ۖ وَٱلَّذِينَ ءَامَنُوٓا۟ أَشَدُّ حُبًّۭا لِّلَّهِ ۗ وَلَوْ يَرَى ٱلَّذِينَ ظَلَمُوٓا۟ إِذْ يَرَوْنَ ٱلْعَذَابَ أَنَّ ٱلْقُوَّةَ لِلَّهِ جَمِيعًۭا وَأَنَّ ٱللَّهَ شَدِيدُ ٱلْعَذَابِ
+- 2:178 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌۭ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍۢ ۗ ذَٰلِكَ تَخْفِيفٌۭ مِّن رَّبِّكُمْ وَرَحْمَةٌۭ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌۭ
+- 2:190 وَقَٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ ٱلَّذِينَ يُقَٰتِلُونَكُمْ وَلَا تَعْتَدُوٓا۟ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْمُعْتَدِينَ
+- 2:196 وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًۭى مِّن رَّأْسِهِۦ فَفِدْيَةٌۭ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍۢ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌۭ كَامِلَةٌۭ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
+- 2:231 وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍۢ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًۭا لِّتَعْتَدُوا۟ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ وَلَا تَتَّخِذُوٓا۟ ءَايَٰتِ ٱللَّهِ هُزُوًۭا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَٰبِ وَٱلْحِكْمَةِ يَعِظُكُم بِهِۦ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 2:234 وَٱلَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَٰجًۭا يَتَرَبَّصْنَ بِأَنفُسِهِنَّ أَرْبَعَةَ أَشْهُرٍۢ وَعَشْرًۭا ۖ فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَلَا جُنَاحَ عَلَيْكُمْ فِيمَا فَعَلْنَ فِىٓ أَنفُسِهِنَّ بِٱلْمَعْرُوفِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ
+- 2:235 وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًۭا مَّعْرُوفًۭا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌۭ
+- 2:247 وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ ٱللَّهَ قَدْ بَعَثَ لَكُمْ طَالُوتَ مَلِكًۭا ۚ قَالُوٓا۟ أَنَّىٰ يَكُونُ لَهُ ٱلْمُلْكُ عَلَيْنَا وَنَحْنُ أَحَقُّ بِٱلْمُلْكِ مِنْهُ وَلَمْ يُؤْتَ سَعَةًۭ مِّنَ ٱلْمَالِ ۚ قَالَ إِنَّ ٱللَّهَ ٱصْطَفَىٰهُ عَلَيْكُمْ وَزَادَهُۥ بَسْطَةًۭ فِى ٱلْعِلْمِ وَٱلْجِسْمِ ۖ وَٱللَّهُ يُؤْتِى مُلْكَهُۥ مَن يَشَآءُ ۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌۭ
+- 2:251 فَهَزَمُوهُم بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍۢ لَّفَسَدَتِ ٱلْأَرْضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَٰلَمِينَ
+- 2:258 أَلَمْ تَرَ إِلَى ٱلَّذِى حَآجَّ إِبْرَٰهِۦمَ فِى رَبِّهِۦٓ أَنْ ءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ إِذْ قَالَ إِبْرَٰهِۦمُ رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحْىِۦ وَأُمِيتُ ۖ قَالَ إِبْرَٰهِۦمُ فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ ٱلْمَغْرِبِ فَبُهِتَ ٱلَّذِى كَفَرَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- 3:37 فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍۢ وَأَنۢبَتَهَا نَبَاتًا حَسَنًۭا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًۭا ۖ قَالَ يَٰمَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ
+- 3:195 فَٱسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّى لَآ أُضِيعُ عَمَلَ عَٰمِلٍۢ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّنۢ بَعْضٍۢ ۖ فَٱلَّذِينَ هَاجَرُوا۟ وَأُخْرِجُوا۟ مِن دِيَٰرِهِمْ وَأُوذُوا۟ فِى سَبِيلِى وَقَٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ثَوَابًۭا مِّنْ عِندِ ٱللَّهِ ۗ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلثَّوَابِ
+- 4:54 أَمْ يَحْسُدُونَ ٱلنَّاسَ عَلَىٰ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۖ فَقَدْ ءَاتَيْنَآ ءَالَ إِبْرَٰهِيمَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَءَاتَيْنَٰهُم مُّلْكًا عَظِيمًۭا
+- 4:58 ۞ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا۟ ٱلْأَمَٰنَٰتِ إِلَىٰٓ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا۟ بِٱلْعَدْلِ ۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ سَمِيعًۢا بَصِيرًۭا
+- 4:64 وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ ٱللَّهِ ۚ وَلَوْ أَنَّهُمْ إِذ ظَّلَمُوٓا۟ أَنفُسَهُمْ جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًۭا رَّحِيمًۭا
+- 4:94 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَٰمَ لَسْتَ مُؤْمِنًۭا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا فَعِندَ ٱللَّهِ مَغَانِمُ كَثِيرَةٌۭ ۚ كَذَٰلِكَ كُنتُم مِّن قَبْلُ فَمَنَّ ٱللَّهُ عَلَيْكُمْ فَتَبَيَّنُوٓا۟ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا
+- 4:110 وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُۥ ثُمَّ يَسْتَغْفِرِ ٱللَّهَ يَجِدِ ٱللَّهَ غَفُورًۭا رَّحِيمًۭا
+- 4:135 ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ ۚ إِن يَكُنْ غَنِيًّا أَوْ فَقِيرًۭا فَٱللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا۟ ٱلْهَوَىٰٓ أَن تَعْدِلُوا۟ ۚ وَإِن تَلْوُۥٓا۟ أَوْ تُعْرِضُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا
+- 4:173 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًۭا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّۭا وَلَا نَصِيرًۭا
+- 5:8 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ
+- 5:45 وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ وَٱلْأَنفَ بِٱلْأَنفِ وَٱلْأُذُنَ بِٱلْأُذُنِ وَٱلسِّنَّ بِٱلسِّنِّ وَٱلْجُرُوحَ قِصَاصٌۭ ۚ فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌۭ لَّهُۥ ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ
+- 5:104 وَإِذَا قِيلَ لَهُمْ تَعَالَوْا۟ إِلَىٰ مَآ أَنزَلَ ٱللَّهُ وَإِلَى ٱلرَّسُولِ قَالُوا۟ حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ ءَابَآءَنَآ ۚ أَوَلَوْ كَانَ ءَابَآؤُهُمْ لَا يَعْلَمُونَ شَيْـًۭٔا وَلَا يَهْتَدُونَ
+- 6:6 أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍۢ مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًۭا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ
+- 6:78 فَلَمَّا رَءَا ٱلشَّمْسَ بَازِغَةًۭ قَالَ هَٰذَا رَبِّى هَٰذَآ أَكْبَرُ ۖ فَلَمَّآ أَفَلَتْ قَالَ يَٰقَوْمِ إِنِّى بَرِىٓءٌۭ مِّمَّا تُشْرِكُونَ
+- 6:152 وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۖ وَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟ وَلَوْ كَانَ ذَا قُرْبَىٰ ۖ وَبِعَهْدِ ٱللَّهِ أَوْفُوا۟ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَذَكَّرُونَ
+- 7:115 قَالُوا۟ يَٰمُوسَىٰٓ إِمَّآ أَن تُلْقِىَ وَإِمَّآ أَن نَّكُونَ نَحْنُ ٱلْمُلْقِينَ
+- 7:137 وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ
+- 7:157 ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ ءَامَنُوا۟ بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 8:33 وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ وَمَا كَانَ ٱللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ
+- 8:61 ۞ وَإِن جَنَحُوا۟ لِلسَّلْمِ فَٱجْنَحْ لَهَا وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 9:52 قُلْ هَلْ تَرَبَّصُونَ بِنَآ إِلَّآ إِحْدَى ٱلْحُسْنَيَيْنِ ۖ وَنَحْنُ نَتَرَبَّصُ بِكُمْ أَن يُصِيبَكُمُ ٱللَّهُ بِعَذَابٍۢ مِّنْ عِندِهِۦٓ أَوْ بِأَيْدِينَا ۖ فَتَرَبَّصُوٓا۟ إِنَّا مَعَكُم مُّتَرَبِّصُونَ
+- 9:91 لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُوا۟ لِلَّهِ وَرَسُولِهِۦ ۚ مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍۢ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 9:92 وَلَا عَلَى ٱلَّذِينَ إِذَا مَآ أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لَآ أَجِدُ مَآ أَحْمِلُكُمْ عَلَيْهِ تَوَلَّوا۟ وَّأَعْيُنُهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ
+- 9:106 وَءَاخَرُونَ مُرْجَوْنَ لِأَمْرِ ٱللَّهِ إِمَّا يُعَذِّبُهُمْ وَإِمَّا يَتُوبُ عَلَيْهِمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ
+- 9:123 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ قَٰتِلُوا۟ ٱلَّذِينَ يَلُونَكُم مِّنَ ٱلْكُفَّارِ وَلْيَجِدُوا۟ فِيكُمْ غِلْظَةًۭ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ
+- 10:5 هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءًۭ وَٱلْقَمَرَ نُورًۭا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍۢ يَعْلَمُونَ
+- 10:13 وَلَقَدْ أَهْلَكْنَا ٱلْقُرُونَ مِن قَبْلِكُمْ لَمَّا ظَلَمُوا۟ ۙ وَجَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ وَمَا كَانُوا۟ لِيُؤْمِنُوا۟ ۚ كَذَٰلِكَ نَجْزِى ٱلْقَوْمَ ٱلْمُجْرِمِينَ
+- 11:3 وَأَنِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُمَتِّعْكُم مَّتَٰعًا حَسَنًا إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى وَيُؤْتِ كُلَّ ذِى فَضْلٍۢ فَضْلَهُۥ ۖ وَإِن تَوَلَّوْا۟ فَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍۢ كَبِيرٍ
+- 11:31 وَلَآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ إِنِّى مَلَكٌۭ وَلَآ أَقُولُ لِلَّذِينَ تَزْدَرِىٓ أَعْيُنُكُمْ لَن يُؤْتِيَهُمُ ٱللَّهُ خَيْرًا ۖ ٱللَّهُ أَعْلَمُ بِمَا فِىٓ أَنفُسِهِمْ ۖ إِنِّىٓ إِذًۭا لَّمِنَ ٱلظَّٰلِمِينَ
+- 11:40 حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّۢ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ ءَامَنَ ۚ وَمَآ ءَامَنَ مَعَهُۥٓ إِلَّا قَلِيلٌۭ
+- 12:22 وَلَمَّا بَلَغَ أَشُدَّهُۥٓ ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ
+- 12:54 وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌۭ
+- 12:55 قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ
+- 12:75 قَالُوا۟ جَزَٰٓؤُهُۥ مَن وُجِدَ فِى رَحْلِهِۦ فَهُوَ جَزَٰٓؤُهُۥ ۚ كَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ
+- 12:79 قَالَ مَعَاذَ ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًۭا لَّظَٰلِمُونَ
+- 12:94 وَلَمَّا فَصَلَتِ ٱلْعِيرُ قَالَ أَبُوهُمْ إِنِّى لَأَجِدُ رِيحَ يُوسُفَ ۖ لَوْلَآ أَن تُفَنِّدُونِ
+- 13:14 لَهُۥ دَعْوَةُ ٱلْحَقِّ ۖ وَٱلَّذِينَ يَدْعُونَ مِن دُونِهِۦ لَا يَسْتَجِيبُونَ لَهُم بِشَىْءٍ إِلَّا كَبَٰسِطِ كَفَّيْهِ إِلَى ٱلْمَآءِ لِيَبْلُغَ فَاهُ وَمَا هُوَ بِبَٰلِغِهِۦ ۚ وَمَا دُعَآءُ ٱلْكَٰفِرِينَ إِلَّا فِى ضَلَٰلٍۢ
+- 15:26 وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ مِن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ
+- 15:28 وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى خَٰلِقٌۢ بَشَرًۭا مِّن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ
+- 15:33 قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُۥ مِن صَلْصَٰلٍۢ مِّنْ حَمَإٍۢ مَّسْنُونٍۢ
+- 16:67 وَمِن ثَمَرَٰتِ ٱلنَّخِيلِ وَٱلْأَعْنَٰبِ تَتَّخِذُونَ مِنْهُ سَكَرًۭا وَرِزْقًا حَسَنًا ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَعْقِلُونَ
+- 16:90 ۞ إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ
+- 17:15 مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ ۗ وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًۭا
+- 17:23 ۞ وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّۢ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًۭا كَرِيمًۭا
+- 17:33 وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۗ وَمَن قُتِلَ مَظْلُومًۭا فَقَدْ جَعَلْنَا لِوَلِيِّهِۦ سُلْطَٰنًۭا فَلَا يُسْرِف فِّى ٱلْقَتْلِ ۖ إِنَّهُۥ كَانَ مَنصُورًۭا
+- 17:34 وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۚ وَأَوْفُوا۟ بِٱلْعَهْدِ ۖ إِنَّ ٱلْعَهْدَ كَانَ مَسْـُٔولًۭا
+- 19:8 قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌۭ وَكَانَتِ ٱمْرَأَتِى عَاقِرًۭا وَقَدْ بَلَغْتُ مِنَ ٱلْكِبَرِ عِتِيًّۭا
+- 19:74 وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَٰثًۭا وَرِءْيًۭا
+- 19:75 قُلْ مَن كَانَ فِى ٱلضَّلَٰلَةِ فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّا ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّۭ مَّكَانًۭا وَأَضْعَفُ جُندًۭا
+- 20:39 أَنِ ٱقْذِفِيهِ فِى ٱلتَّابُوتِ فَٱقْذِفِيهِ فِى ٱلْيَمِّ فَلْيُلْقِهِ ٱلْيَمُّ بِٱلسَّاحِلِ يَأْخُذْهُ عَدُوٌّۭ لِّى وَعَدُوٌّۭ لَّهُۥ ۚ وَأَلْقَيْتُ عَلَيْكَ مَحَبَّةًۭ مِّنِّى وَلِتُصْنَعَ عَلَىٰ عَيْنِىٓ
+- 20:43 ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ
+- 20:44 فَقُولَا لَهُۥ قَوْلًۭا لَّيِّنًۭا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ
+- 20:65 قَالُوا۟ يَٰمُوسَىٰٓ إِمَّآ أَن تُلْقِىَ وَإِمَّآ أَن نَّكُونَ أَوَّلَ مَنْ أَلْقَىٰ
+- 20:130 فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ
+- 21:52 إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا هَٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا عَٰكِفُونَ
+- 21:53 قَالُوا۟ وَجَدْنَآ ءَابَآءَنَا لَهَا عَٰبِدِينَ
+- 21:69 قُلْنَا يَٰنَارُ كُونِى بَرْدًۭا وَسَلَٰمًا عَلَىٰٓ إِبْرَٰهِيمَ
+- 21:78 وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ
+- 21:79 فَفَهَّمْنَٰهَا سُلَيْمَٰنَ ۚ وَكُلًّا ءَاتَيْنَا حُكْمًۭا وَعِلْمًۭا ۚ وَسَخَّرْنَا مَعَ دَاوُۥدَ ٱلْجِبَالَ يُسَبِّحْنَ وَٱلطَّيْرَ ۚ وَكُنَّا فَٰعِلِينَ
+- 22:18 أَلَمْ تَرَ أَنَّ ٱللَّهَ يَسْجُدُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ وَٱلشَّمْسُ وَٱلْقَمَرُ وَٱلنُّجُومُ وَٱلْجِبَالُ وَٱلشَّجَرُ وَٱلدَّوَآبُّ وَكَثِيرٌۭ مِّنَ ٱلنَّاسِ ۖ وَكَثِيرٌ حَقَّ عَلَيْهِ ٱلْعَذَابُ ۗ وَمَن يُهِنِ ٱللَّهُ فَمَا لَهُۥ مِن مُّكْرِمٍ ۚ إِنَّ ٱللَّهَ يَفْعَلُ مَا يَشَآءُ ۩
+- 23:32 فَأَرْسَلْنَا فِيهِمْ رَسُولًۭا مِّنْهُمْ أَنِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ
+- 24:39 وَٱلَّذِينَ كَفَرُوٓا۟ أَعْمَٰلُهُمْ كَسَرَابٍۭ بِقِيعَةٍۢ يَحْسَبُهُ ٱلظَّمْـَٔانُ مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًۭٔا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥ ۗ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ
+- 24:55 وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَيَسْتَخْلِفَنَّهُمْ فِى ٱلْأَرْضِ كَمَا ٱسْتَخْلَفَ ٱلَّذِينَ مِن قَبْلِهِمْ وَلَيُمَكِّنَنَّ لَهُمْ دِينَهُمُ ٱلَّذِى ٱرْتَضَىٰ لَهُمْ وَلَيُبَدِّلَنَّهُم مِّنۢ بَعْدِ خَوْفِهِمْ أَمْنًۭا ۚ يَعْبُدُونَنِى لَا يُشْرِكُونَ بِى شَيْـًۭٔا ۚ وَمَن كَفَرَ بَعْدَ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْفَٰسِقُونَ
+- 24:59 وَإِذَا بَلَغَ ٱلْأَطْفَٰلُ مِنكُمُ ٱلْحُلُمَ فَلْيَسْتَـْٔذِنُوا۟ كَمَا ٱسْتَـْٔذَنَ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَٰتِهِۦ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ
+- 25:45 أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ ٱلظِّلَّ وَلَوْ شَآءَ لَجَعَلَهُۥ سَاكِنًۭا ثُمَّ جَعَلْنَا ٱلشَّمْسَ عَلَيْهِ دَلِيلًۭا
+- 26:133 أَمَدَّكُم بِأَنْعَٰمٍۢ وَبَنِينَ
+- 26:134 وَجَنَّٰتٍۢ وَعُيُونٍ
+- 26:146 أَتُتْرَكُونَ فِى مَا هَٰهُنَآ ءَامِنِينَ
+- 26:147 فِى جَنَّٰتٍۢ وَعُيُونٍۢ
+- 26:148 وَزُرُوعٍۢ وَنَخْلٍۢ طَلْعُهَا هَضِيمٌۭ
+- 27:15 وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ وَسُلَيْمَٰنَ عِلْمًۭا ۖ وَقَالَا ٱلْحَمْدُ لِلَّهِ ٱلَّذِى فَضَّلَنَا عَلَىٰ كَثِيرٍۢ مِّنْ عِبَادِهِ ٱلْمُؤْمِنِينَ
+- 27:16 وَوَرِثَ سُلَيْمَٰنُ دَاوُۥدَ ۖ وَقَالَ يَٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا مَنطِقَ ٱلطَّيْرِ وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ
+- 27:24 وَجَدتُّهَا وَقَوْمَهَا يَسْجُدُونَ لِلشَّمْسِ مِن دُونِ ٱللَّهِ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ فَهُمْ لَا يَهْتَدُونَ
+- 28:4 إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًۭا يَسْتَضْعِفُ طَآئِفَةًۭ مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ
+- 28:14 وَلَمَّا بَلَغَ أَشُدَّهُۥ وَٱسْتَوَىٰٓ ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ
+- 28:23 وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةًۭ مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌۭ كَبِيرٌۭ
+- 28:24 فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ فَقَالَ رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍۢ فَقِيرٌۭ
+- 28:78 قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍ عِندِىٓ ۚ أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ مِن قَبْلِهِۦ مِنَ ٱلْقُرُونِ مَنْ هُوَ أَشَدُّ مِنْهُ قُوَّةًۭ وَأَكْثَرُ جَمْعًۭا ۚ وَلَا يُسْـَٔلُ عَن ذُنُوبِهِمُ ٱلْمُجْرِمُونَ
+- 29:8 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ حُسْنًۭا ۖ وَإِن جَٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ فَلَا تُطِعْهُمَآ ۚ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 29:14 وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًۭا فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَٰلِمُونَ
+- 34:10 ۞ وَلَقَدْ ءَاتَيْنَا دَاوُۥدَ مِنَّا فَضْلًۭا ۖ يَٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ
+- 34:11 أَنِ ٱعْمَلْ سَٰبِغَٰتٍۢ وَقَدِّرْ فِى ٱلسَّرْدِ ۖ وَٱعْمَلُوا۟ صَٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 34:12 وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌۭ وَرَوَاحُهَا شَهْرٌۭ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ
+- 37:5 رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا وَرَبُّ ٱلْمَشَٰرِقِ
+- 37:48 وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ عِينٌۭ
+- 37:102 فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ
+- 38:20 وَشَدَدْنَا مُلْكَهُۥ وَءَاتَيْنَٰهُ ٱلْحِكْمَةَ وَفَصْلَ ٱلْخِطَابِ
+- 38:26 يَٰدَاوُۥدُ إِنَّا جَعَلْنَٰكَ خَلِيفَةًۭ فِى ٱلْأَرْضِ فَٱحْكُم بَيْنَ ٱلنَّاسِ بِٱلْحَقِّ وَلَا تَتَّبِعِ ٱلْهَوَىٰ فَيُضِلَّكَ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّ ٱلَّذِينَ يَضِلُّونَ عَن سَبِيلِ ٱللَّهِ لَهُمْ عَذَابٌۭ شَدِيدٌۢ بِمَا نَسُوا۟ يَوْمَ ٱلْحِسَابِ
+- 38:38 وَءَاخَرِينَ مُقَرَّنِينَ فِى ٱلْأَصْفَادِ
+- 38:39 هَٰذَا عَطَآؤُنَا فَٱمْنُنْ أَوْ أَمْسِكْ بِغَيْرِ حِسَابٍۢ
+- 40:36 وَقَالَ فِرْعَوْنُ يَٰهَٰمَٰنُ ٱبْنِ لِى صَرْحًۭا لَّعَلِّىٓ أَبْلُغُ ٱلْأَسْبَٰبَ
+- 41:50 وَلَئِنْ أَذَقْنَٰهُ رَحْمَةًۭ مِّنَّا مِنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ هَٰذَا لِى وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةًۭ وَلَئِن رُّجِعْتُ إِلَىٰ رَبِّىٓ إِنَّ لِى عِندَهُۥ لَلْحُسْنَىٰ ۚ فَلَنُنَبِّئَنَّ ٱلَّذِينَ كَفَرُوا۟ بِمَا عَمِلُوا۟ وَلَنُذِيقَنَّهُم مِّنْ عَذَابٍ غَلِيظٍۢ
+- 42:15 فَلِذَٰلِكَ فَٱدْعُ ۖ وَٱسْتَقِمْ كَمَآ أُمِرْتَ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ ۖ وَقُلْ ءَامَنتُ بِمَآ أَنزَلَ ٱللَّهُ مِن كِتَٰبٍۢ ۖ وَأُمِرْتُ لِأَعْدِلَ بَيْنَكُمُ ۖ ٱللَّهُ رَبُّنَا وَرَبُّكُمْ ۖ لَنَآ أَعْمَٰلُنَا وَلَكُمْ أَعْمَٰلُكُمْ ۖ لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ ۖ ٱللَّهُ يَجْمَعُ بَيْنَنَا ۖ وَإِلَيْهِ ٱلْمَصِيرُ
+- 42:40 وَجَزَٰٓؤُا۟ سَيِّئَةٍۢ سَيِّئَةٌۭ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُۥ عَلَى ٱللَّهِ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلظَّٰلِمِينَ
+- 42:48 فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةًۭ فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌۭ
+- 43:38 حَتَّىٰٓ إِذَا جَآءَنَا قَالَ يَٰلَيْتَ بَيْنِى وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ فَبِئْسَ ٱلْقَرِينُ
+- 44:22 فَدَعَا رَبَّهُۥٓ أَنَّ هَٰٓؤُلَآءِ قَوْمٌۭ مُّجْرِمُونَ
+- 45:30 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْمُبِينُ
+- 45:31 وَأَمَّا ٱلَّذِينَ كَفَرُوٓا۟ أَفَلَمْ تَكُنْ ءَايَٰتِى تُتْلَىٰ عَلَيْكُمْ فَٱسْتَكْبَرْتُمْ وَكُنتُمْ قَوْمًۭا مُّجْرِمِينَ
+- 46:15 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًۭا وَوَضَعَتْهُ كُرْهًۭا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةًۭ قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ
+- 48:16 قُل لِّلْمُخَلَّفِينَ مِنَ ٱلْأَعْرَابِ سَتُدْعَوْنَ إِلَىٰ قَوْمٍ أُو۟لِى بَأْسٍۢ شَدِيدٍۢ تُقَٰتِلُونَهُمْ أَوْ يُسْلِمُونَ ۖ فَإِن تُطِيعُوا۟ يُؤْتِكُمُ ٱللَّهُ أَجْرًا حَسَنًۭا ۖ وَإِن تَتَوَلَّوْا۟ كَمَا تَوَلَّيْتُم مِّن قَبْلُ يُعَذِّبْكُمْ عَذَابًا أَلِيمًۭا
+- 48:25 هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍۢ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا
+- 49:9 وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ
+- 50:39 فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ ٱلْغُرُوبِ
+- 51:36 فَمَا وَجَدْنَا فِيهَا غَيْرَ بَيْتٍۢ مِّنَ ٱلْمُسْلِمِينَ
+- 54:37 وَلَقَدْ رَٰوَدُوهُ عَن ضَيْفِهِۦ فَطَمَسْنَآ أَعْيُنَهُمْ فَذُوقُوا۟ عَذَابِى وَنُذُرِ
+- 55:17 رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ
+- 55:50 فِيهِمَا عَيْنَانِ تَجْرِيَانِ
+- 55:66 فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ
+- 56:83 فَلَوْلَآ إِذَا بَلَغَتِ ٱلْحُلْقُومَ
+- 57:25 لَقَدْ أَرْسَلْنَا رُسُلَنَا بِٱلْبَيِّنَٰتِ وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَٰبَ وَٱلْمِيزَانَ لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌۭ شَدِيدٌۭ وَمَنَٰفِعُ لِلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ مَن يَنصُرُهُۥ وَرُسُلَهُۥ بِٱلْغَيْبِ ۚ إِنَّ ٱللَّهَ قَوِىٌّ عَزِيزٌۭ
+- 70:1 سَأَلَ سَآئِلٌۢ بِعَذَابٍۢ وَاقِعٍۢ
+- 70:2 لِّلْكَٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌۭ
+- 73:9 رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًۭا
+- 75:26 كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ
+- 88:5 تُسْقَىٰ مِنْ عَيْنٍ ءَانِيَةٍۢ
+- 88:12 فِيهَا عَيْنٌۭ جَارِيَةٌۭ
+- 102:7 ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ

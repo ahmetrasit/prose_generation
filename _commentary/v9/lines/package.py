@@ -38,6 +38,24 @@ def quran() -> dict[str, str]:
     return q
 
 
+MEMBER = re.compile(r"^(- \*\*(\S+?)\*\* \[\w+\] (.+?) (B\d+) «[^»]*».*?); source: (.*?)((?: \(also [^)]*\))?)$", re.M)
+
+
+def dedupe_sources(text: str) -> str:
+    """A root sense recurs across hubs and across ayah words of one root: give its dictionary source text in full at
+    its first member only, and point later members to that one (lossless; the ids stay)."""
+    first: dict[tuple[str, str], str] = {}
+
+    def rep(m: re.Match) -> str:
+        key = (m.group(3).strip(), m.group(4))
+        if key in first:
+            return f"{m.group(1)}; source: as {first[key]}{m.group(6)}"
+        first[key] = m.group(2)
+        return m.group(0)
+
+    return MEMBER.sub(rep, text)
+
+
 def main() -> None:
     ref = sys.argv[1]
     s, a = ref.split(":")
@@ -76,7 +94,7 @@ def main() -> None:
             n = int(re.match(r"## (\d+)\.", parts[i]).group(1))
             if 2 <= n <= 7:
                 keep.append(parts[i].replace("## ", "### ", 1) + parts[i + 1])
-        body = "".join(keep)
+        body = dedupe_sources("".join(keep))
         cited |= set(re.findall(r"\b(\d{1,3}:\d{1,3})\b", body))
         L += ["## 1. Lexical network", "", body.strip(), ""]
     else:
