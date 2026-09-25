@@ -59,6 +59,10 @@ NEAREST = 3           # per (branch, edge type, target root) and zone: the neare
 # article in a dictionary word rules them out (البعد is 'distance', not 'after')
 ADVERBIAL = {"بَعْد", "قَبْل", "بَيْن", "فَوْق", "تَحْت", "دُون", "عِند", "عِنْد", "حَوْل", "خَلْف", "أَمَام", "لَدُن", "لَدَى"}
 RARE_FORMS = {"V", "VI", "VII", "IX", "X", "XI", "XII"}
+QNET_KEYWORDS = P.PROJECTS / "quran-roots" / "_corpus" / "activation" / "Qnet" / "v2" / "network" / "incidence_full" \
+    / "branch_keywords.tsv"
+KW_DF_MAX = 150       # an English concept keyword on more branches than this (p99) is a field word (time, motion …)
+KW_RARE = 40          # a shared keyword on at most this many branches is a strong motif link
 HUB_MIN = 3
 HUBS_PER_ZONE = 6     # context hubs shown per zone (surah, Fatiha, people, inter), by evidence score
 CONTRAST = {"antonym", "polarity_pair"}
@@ -204,9 +208,55 @@ class Net:
         self.adj[b][a].append(e)
 
 
+class Concepts:
+    """English concept keywords per branch (Qnet, every root: core keywords and bridge keywords with ≥2 votes) and,
+    when NLTK WordNet is installed, antonym and synonym relations between keywords. Nothing ayah-specific."""
+
+    def __init__(self) -> None:
+        raw = defaultdict(set)
+        with QNET_KEYWORDS.open(encoding="utf-8") as fh:
+            head = fh.readline().rstrip("\n").split("\t")
+            for line in fh:
+                r = dict(zip(head, line.rstrip("\n").split("\t")))
+                if r["keyword_type"] == "core" or int(r["replicate_votes"]) >= 2:
+                    raw[f"quranic:{r['root_id']}:{r['branch_id']}"].add(r["keyword"])
+        self.df = Counter(k_ for ks in raw.values() for k_ in ks)
+        self.kw = {n: {k_ for k_ in ks if self.df[k_] <= KW_DF_MAX} for n, ks in raw.items()}
+        try:
+            from nltk.corpus import wordnet as wn
+            wn.synsets("night")
+            self.wn = wn
+        except Exception:  # WordNet optional: shared keywords still work
+            self.wn = None
+        self._syn, self._ant = {}, {}
+
+    def synonyms(self, k_: str) -> set[str]:
+        if k_ not in self._syn:
+            self._syn[k_] = {l.name().replace("_", " ").lower() for s_ in self.wn.synsets(k_.replace(" ", "_"))
+                             for l in s_.lemmas()} - {k_} if self.wn else set()
+        return self._syn[k_]
+
+    def antonyms(self, k_: str) -> set[str]:
+        if k_ not in self._ant:
+            out = set()
+            if self.wn:
+                for s_ in self.wn.synsets(k_.replace(" ", "_")):
+                    for l in s_.lemmas():
+                        for a in l.antonyms():
+                            out |= {x.name().replace("_", " ").lower() for x in a.synset().lemmas()}
+            self._ant[k_] = out
+        return self._ant[k_]
+
+    def related(self, k_: str) -> list[tuple[str, str]]:
+        """(keyword, relation) pairs a keyword reaches: itself (shared), its antonyms, its synonyms."""
+        out = [(k_, "shared")] + [(a, "antonym") for a in sorted(self.antonyms(k_))]
+        return out + [(s_, "synonym") for s_ in sorted(self.synonyms(k_)) if s_ in self.df and self.df[s_] <= KW_DF_MAX]
+
+
 def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
     src = P.Sources()
     lex = Lexicon(src)
+    con = Concepts()
     surah, ayah = (int(x) for x in ref.split(":"))
     bundle = json.loads((P.PG / "bundles" / f"s{surah:03d}" / f"{surah}_{ayah}.ayah.json").read_text(encoding="utf-8"))
     net = Net()
@@ -229,6 +279,7 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
     fkeys = {}                      # F id → QAC root join keys
     froot_ids = {}                  # F id → gateway identity root ids
     plain_tokens = {}               # F id → Arabic tokens naming the word's plain sense
+    plain_kw = {}                   # F id → English concept keywords of the word's plain sense
     for w in focus_words:
         f = net.node(f"F:{w['w']}", type="F", surface=w["surface"], w=w["w"], lemma=w["lemmas"], pos=w["pos"])
         roots = src.word_roots(w)
@@ -242,6 +293,7 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
             toks |= {t.lstrip("!") for t in ar_tokens(src.image(f"quranic:{rid}:{bid}"))}
         for rid in roots["identity"][:1]:
             toks |= {t.lstrip("!") for t in ar_tokens(src.image(f"quranic:{rid}:B001"))}
+        plain_kw[f] = set().union(*[con.kw.get(f"quranic:{rid}:{bid}", set()) for rid, bid in plain]) if plain else set()
         plain_tokens[f] = {lex.lemma(t) for t in toks
                            if lex.lemma(t) and lex.lemma_df.get(lex.lemma(t), 0) <= PLAIN_DF_MAX
                            and not any(root_dist(bare(t), k_) == 0 for k_ in fkeys[f])}
@@ -281,10 +333,19 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
     if inter:  # targets of the reciprocal inter-ayah rows (quran-data), not already in scope
         rows = (P.RECIPROCAL_DIR / f"focus_{surah}_{ayah}_cutoff_100.tsv").read_text(encoding="utf-8").splitlines()
         head = rows[0].split("\t")
+        strong_targets = set()
         for line in rows[1:]:
-            r = dict(zip(head, line.split("\t"))).get("target_ref", "")
+            row = dict(zip(head, line.split("\t")))
+            r = row.get("target_ref", "")
             if r and r != ref:
                 zone.setdefault(r, "inter")
+                if "strong" in (row.get("focus_direction_label"), row.get("source_direction_label")):
+                    strong_targets.add(r)
+        for r in strong_targets:  # the ayah before and after a strongly linked target (read in context)
+            s_, a_ = (int(x) for x in r.split(":"))
+            for nb in (f"{s_}:{a_ - 1}", f"{s_}:{a_ + 1}"):
+                if nb in src.quran and nb != ref:
+                    zone.setdefault(nb, "inter")
     words_of = {r: src.words(r) for r in zone}
     for r, z in zone.items():
         net.node(f"A:{r}", type="A", ref=r, zone=z)
@@ -293,6 +354,8 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
         s, a = (int(x) for x in r.split(":"))
         return (0, abs(a - ayah)) if s == surah else ((1, a) if s == 1 else (2, s, a))  # order within a zone
 
+    key_index = defaultdict(list)    # QAC root key → [(ayah ref, surface)]
+    kw_index = defaultdict(list)     # English keyword of a context word's plain branch (B001) → [(ayah ref, surface)]
     lemma_index = defaultdict(list)  # lemma → [(ayah ref, surface)]
     rid_index = defaultdict(list)    # gateway root id → [(ayah ref, surface)]
     for r, ws in words_of.items():
@@ -300,8 +363,11 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
             for lem in (x for x in w["lemmas"].split(";") if x):
                 lemma_index[lraw(lem)].append((r, w["surface"]))
             for key in (x for x in w["roots"].split(";") if x):
+                key_index[key].append((r, w["surface"]))
                 for rid in lex.gw.get(key, []):
                     rid_index[rid].append((r, w["surface"]))
+                    for k_ in con.kw.get(f"quranic:{rid}:B001", ()):
+                        kw_index[k_].append((r, w["surface"]))
 
     def nearest(hits: list[tuple[str, str]]) -> list[tuple[str, list[str]]]:
         """The nearest NEAREST occurrences in each zone (surah, Fatiha, people passages)."""
@@ -344,6 +410,10 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
                     net.edge(b, f, "lex", f"{t} names the plain image of {net.nodes[f]['surface']}", sub or field)
             # a context ayah: the same Quranic lemma occurs there (lemma-level; common lemmas skipped)
             lem = tl
+            if lem is None and key and not own and lex.df.get(key, 0) <= LEMMA_DF_MAX and ("A", key) not in seen:
+                seen.add(("A", key))  # the word is not one Quranic lemma, but all its readings share one root
+                for r, surfs in nearest(key_index.get(key, [])):
+                    net.edge(b, f"A:{r}", "lex", f"{t} → root {P.spaced(key)}: {' '.join(dict.fromkeys(surfs))}", "root")
             if lem and not own and lex.lemma_df.get(lem, 0) <= LEMMA_DF_MAX and ("A", lem) not in seen:
                 seen.add(("A", lem))
                 rare_src = lex.lemma_df.get(lem, 0) <= SRC_RARE_DF
@@ -370,6 +440,34 @@ def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
                 net.edge(b, frid_of[rid], "rel", ev, rtype)
             for r, surfs in nearest(rid_index.get(rid, [])):
                 net.edge(b, f"A:{r}", "rel", f"{ev} → {' '.join(dict.fromkeys(surfs))}", rtype)
+
+    # ---- kw edges: English concept keywords (shared, antonym, synonym) to focus words and context ayat
+    for b in B:
+        d = net.nodes[b]
+        K = con.kw.get(d["node_id"], set())
+        for k_ in sorted(K):
+            for k2, relation in con.related(k_):
+                ev = k_ if relation == "shared" else f"{k_} ↔ {k2}"
+                for f, pk in plain_kw.items():
+                    if f != d["word"] and k2 in pk:
+                        net.edge(b, f, "kw", f"{ev} ({relation}) — plain sense of {net.nodes[f]['surface']}", relation)
+                # context ayat: a rare shared keyword, or an antonym (weak: chain material only); WordNet synonyms and
+                # common keywords are far too broad outside the focus ayah (measured on 29:38: ~8k edges)
+                if relation == "synonym" or (relation == "shared" and con.df[k_] > KW_RARE):
+                    continue
+                for r, surfs in nearest(kw_index.get(k2, [])):
+                    if r in zone:
+                        net.edge(b, f"A:{r}", "kw", f"{ev} ({relation}) → {' '.join(dict.fromkeys(surfs))}", relation)
+
+    # ---- same-root leaves: a context ayah repeating a focus word's root (plain parallels; never counted in hubs)
+    for f, keys in fkeys.items():
+        for key in keys:
+            if lex.df.get(key, 0) <= ROOT_DF_MAX:
+                by = defaultdict(list)
+                for r, surf in key_index.get(key, []):
+                    by[r].append(surf)
+                for r, surfs in by.items():
+                    net.edge(f, f"A:{r}", "root", f"{P.spaced(key)}: {' '.join(dict.fromkeys(surfs))}", "leaf")
 
     # ---- img edges (quran-slm), top-k by distinct partner root per pool
     focus_pool = []
@@ -482,7 +580,12 @@ def weight(e: dict) -> float:
         return 2.0
     if k in ("frame", "form"):
         return 1.0
-    return 0.0
+    if k == "kw":
+        # English concept layer (Qnet keywords + WordNet): weak everywhere. Measured on 29:38: as evidence it turned
+        # 2 focus hubs into 7 (WordNet synonymy: covering~track, middle~heart) and doubled context hubs, for one
+        # extra gold link. Kept as candidate lines for Luna to judge.
+        return 0.0
+    return 0.0  # img (image similarity), root (same-root leaves), hft
 
 
 def strong(e: dict) -> bool:
@@ -492,7 +595,7 @@ def strong(e: dict) -> bool:
 def structures(net: Net) -> dict:
     N = net.nodes
     rare = {n for n, d in N.items() if d["type"] == "B" and d["rare"]}
-    CORE = {"lex", "rel", "img", "sound"}
+    CORE = {"lex", "rel", "img", "sound", "kw"}
 
     def targets(b, strong_only=False):
         return {t for t, es in net.adj[b].items() if N[t]["type"] in "FA" and t != N[b]["word"]

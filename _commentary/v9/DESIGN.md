@@ -416,6 +416,30 @@ are plain parallels (43:37 يصدونهم عن السبيل, 47:1, 53:50, 36:60)
 Opus-link recall unchanged (17/19). Cost: 598 nodes, 911 strong edges, 42 hubs; inter targets now show as hubs
 (3:99 تصدون عن سبيل الله … عوجا — the ش ط ن crookedness link Opus-on-findings found). Context hubs are listed per zone.
 
+Round 2 (2026-09-25; generic only, nothing tuned to 29:38):
+- Built: ±1 neighbours of strongly linked inter targets; `root` leaf edges (F → A same focus root, weight 0);
+  root fallback when a dictionary word is ambiguous over lemmas of one root; an English concept layer (`kw`) from
+  Qnet branch keywords (`quran-roots/_corpus/activation/Qnet/v2/network/incidence_full/branch_keywords.tsv`, all
+  11,275 branches; core + bridge ≥2 votes; df ≤150 = p99) with WordNet antonyms/synonyms (NLTK in
+  `_commentary/v9/.venv`, optional). Qnet keywords do carry the three misses (سكن B004 night ↔ صبح day/daylight;
+  شطن B005 ugliness ↔ زين beauty; شطن B003 deviation ~ صدد diversion).
+- Measured: as evidence the concept layer is too broad. Into context ayat, WordNet synonyms gave ~8k edges (return ~
+  fall, path ~ course); into the focus ayah, 2 focus hubs became 7 (covering ~ track, middle ~ heart, sign ~ house),
+  and ugly ↔ beauty still failed (HFT's plain sense of زيّن is B002, whose keywords lack "beauty"). Decision: `kw`
+  edges are weak everywhere (candidate lines for Luna), no further tuning.
+- Result (k3 + inter): 712 nodes, 46 hubs (focus hubs back to road and eye), 613 triangles; Opus links 17/19 strong,
+  the 3 meaning-level links present as weak candidate lines; all 56 out-of-surah Opus ayat now in the network
+  (21 strong, 31 weak/leaf, 4 no edge; before inter: 42 absent).
+- Luna W0 (dictionary-only open discovery, v3 run) produced 13 records and none of the three meaning-level links.
+
+Conclusion: the script is good at lexical/structural evidence (shared words, dictionary relations, sound, form,
+frame, people, formulas) and should stop there. Meaning-level links (antonymy, synonymy, complement) need a reader,
+but not the old 1,234-line worklist: weak lines into focus + surah + Fatiha are 1,155 (same cost). Proposed
+complement: (a) a bounded Luna pass over rare branch × other focus words (240 lines on 29:38; English keyword hints
+shown as prompts) — kept lines become `luna` edges and structures are recomputed; (b) surah-level meaning links are
+expansion work for Sol inside a structure the network already seeds (e.g. the dwelling chain: سكن B001 antonym رجف
+29:37 is a strong dictionary edge; night ↔ morning is its expansion).
+
 Next:
 0. Keep `--inter` on; add ±1 neighbours of inter targets with a strong row; `same-root` leaf edges (F → A, plain
    parallels, never counted in hubs); lemma-ambiguity fallback to root; root guess for non-Quranic dictionary words.
