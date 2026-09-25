@@ -26,7 +26,6 @@ The package directory is given in the launch message. Files:
 - `08_surah.md` — the whole host surah.
 - `09_inter_ayah.md` — earlier reviewed inter-ayah rows (labels are not decisions), with target text.
 - `10_leads.md` — reader walks when present.
-- `11_people.md` — every other ayah naming the same people (proper nouns of the focus ayah).
 
 Read long files in consecutive chunks with `offset`, each as large as the Read tool allows, until the
 end. Do not skip parts. Do not read anything outside the package directory, the two brief files and the

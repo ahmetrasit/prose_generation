@@ -708,37 +708,6 @@ def section_inter_ayah(src: Sources, ref: str) -> tuple[str, list[str]]:
     return "\n".join(lines) + "\n", list(by_target)
 
 
-def section_people(src: Sources, ref: str, targets: list[str]) -> str:
-    """Every other ayah naming the same people (QAC proper nouns of the focus ayah); shared focus roots are
-    shown as a hint, not used as a filter."""
-    s, a = (int(x) for x in ref.split(":"))
-    q = src.qac.execute
-    focus_keys = {k for (k,) in q("select distinct root_join_key from qac_morphemes where surah=? and ayah=? "
-                                  "and root_join_key!=''", (s, a))}
-    lines = ["# Same people elsewhere (every ayah naming a proper noun of the focus ayah)", "",
-             "Every other ayah that names a person or people of the focus ayah, with any other focus roots it shares",
-             "(a hint only). Rows marked [inter-ayah] are already in 09_inter_ayah.md; the others appear only here.", ""]
-    seen_pn = set()
-    for lemma, own, surface in q("select lemma_ar, root_join_key, surface_ar from qac_morphemes where surah=? and "
-                                 "ayah=? and pos='PN' order by word_index", (s, a)):
-        if lemma in seen_pn:
-            continue
-        seen_pn.add(lemma)
-        refs = sorted({(x, y) for x, y in q("select distinct surah, ayah from qac_morphemes where pos='PN' and "
-                                              "lemma_ar=?", (lemma,)) if (x, y) != (s, a)})
-        rows = []
-        for x, y in refs:
-            hits = [(w, k) for w, k in q("select surface_ar, root_join_key from qac_morphemes where surah=? and "
-                                         "ayah=? and root_join_key!=''", (x, y)) if k in focus_keys and k != own]
-            r = f"{x}:{y}"
-            shared = ", ".join(dict.fromkeys(f"{w} ({spaced(k)})" for w, k in hits)) or "no other focus root"
-            mark = " [inter-ayah]" if r in targets else ""
-            rows.append(f"- **{r}**{mark} — shares {shared}\n  - {src.quran.get(r, '')}")
-        if rows:
-            lines += [f"## {surface} ({lemma}) — {len(rows)} ayat", ""] + rows + [""]
-    return "\n".join(lines) + "\n"
-
-
 def section_leads(bundle: dict) -> str:
     lines = ["# Other precomputed leads (not available for every surah)", ""]
     for key in ("v12_reader_walks", "v12_reader_walks_wide"):
@@ -772,7 +741,6 @@ def prepare(ref: str, bundles: Path, out: Path) -> dict:
         "08_surah.md": section_surah(src, ref),
         "09_inter_ayah.md": inter_text,
         "10_leads.md": section_leads(bundle),
-        "11_people.md": section_people(src, ref, targets),
     }
     report = {}
     for name, text in files.items():

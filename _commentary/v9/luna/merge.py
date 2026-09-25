@@ -5,7 +5,7 @@ content, no image lexicon, and every kept record is pushed (nothing is held back
   findings.md        1. findings on the ayah's words (branch, usage, dictionary, HFT, lead and extra records),
                         grouped by focus word: readings with the image, Luna's reason and the branch's
                         dictionary sense (gloss, Arabic image, source phrase); notes compact, with the sense
-                     2. whole-Quran parallels (inter-ayah and same-people records), compact, by focus word
+                     2. whole-Quran parallels (inter-ayah records), compact, by focus word
                      3. shared triggers: the same Arabic trigger in the same ayah hit by records of two or
                         more roots (a mechanical join signal)
                      4. the full text of every cited ayah outside the surah and the Fatiha

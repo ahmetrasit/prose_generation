@@ -23,7 +23,7 @@ worklist from its first item to its last.
 
 An item proposes that something activates a latent sense in the focus ayah: a dictionary branch with its
 image partners (R…B…), a word's Quranic usage (R….U), a precomputed hypothesis (H…), a lead (L…),
-another ayah (G…), another ayah naming the same people (P…), or — in the dictionary worklist — a focus
+another ayah (G…), or — in the dictionary worklist — a focus
 root's full dictionary entry (D…).
 
 - **reading** — two keys hold: (1) a sense the dictionary gives (or the Quranic usage shows), and (2) an
@@ -42,8 +42,7 @@ or `r`. Do not require the other ayah to spell the image out; that the image is 
 reason for `-`. Keep `-` for pairings whose images do not meet.
 
 For inter-ayah items (G…) the review labels are earlier judgements, not decisions: judge whether the
-other ayah's actual words activate or move something in the focus ayah. For same-people items (P…) judge
-whether that ayah's picture of the same people activates or moves something in a focus word. For HFT items (H…) check each trace step against the Arabic. An echo root is a
+other ayah's actual words activate or move something in the focus ayah. For HFT items (H…) check each trace step against the Arabic. An echo root is a
 sound-family candidate, never the word's identity.
 
 **Dictionary worklist (D…).** Each item is one focus root's full dictionary entry, with no pairs. Read the

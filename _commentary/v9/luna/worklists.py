@@ -7,8 +7,7 @@
   W1_branches_N.md  one item per focus branch: its dictionary line + pairs (03) + concept paths (06) +
                     Fatiha pairs (07) + bridges (04) that point at it; one usage item per focus root (05)
   W2_hft.md         one item per HFT record (02) and per precomputed lead (10)
-  W3_global_N.md    one item per inter-ayah target (09); formula groups stay together; plus one item per
-                    same-people ayah (11) that is not already an inter-ayah target
+  W3_global_N.md    one item per inter-ayah target (09); formula groups stay together
   items.tsv         every item id with its worklist (the checker's reference)
 
 Usage: python3 _commentary/v9/luna/worklists.py PACKAGE_DIR OUT_DIR
@@ -148,19 +147,6 @@ def dictionary_items(pkg: Path) -> list[tuple[str, str]]:
             for i, (head, body) in enumerate(blocks(read(pkg, "01"), "## "), 1)]
 
 
-def people_units(pkg: Path) -> list[list[tuple[str, str]]]:
-    units, n = [], 0
-    for head, body in blocks(read(pkg, "11"), "## "):
-        for line_no, line in enumerate(body):
-            m = re.match(r"^- \*\*(\d+:\d+)\*\*(?! \[inter-ayah\]) — (.*)$", line)
-            if m:
-                n += 1
-                text = body[line_no + 1].strip().removeprefix("- ") if line_no + 1 < len(body) else ""
-                units.append([(f"P{n:02d}", f"### P{n:02d} — {m.group(1)} (same people: {head[3:]})\n"
-                                            f"- {m.group(2)}\n- text: {text}")])
-    return units
-
-
 def pack(units: list[list[tuple[str, str]]]) -> list[list[tuple[str, str]]]:
     files, cur, size = [], [], 0
     for unit in units:
@@ -188,11 +174,10 @@ def main() -> None:
     by_root = defaultdict(list)
     for iid, text in b_items:
         by_root[iid.split(".")[0]].append((iid, text))
-    people = people_units(pkg) if list(pkg.glob("11_*.md")) else []
     plan = [("W0_dictionary", [dictionary_items(pkg)]),
             ("W1_branches", pack(list(by_root.values()))),
             ("W2_hft", [hft_items(pkg)]),
-            ("W3_global", pack(global_units(pkg) + people))]
+            ("W3_global", pack(global_units(pkg)))]
     index = []
     for stem, files in plan:
         for k, items in enumerate(files, 1):
