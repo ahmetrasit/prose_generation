@@ -338,6 +338,80 @@ Changes in this build (from the Opus review and the user):
 - `check_reading.py`: catalogue report (paragraphs citing ≥10 ayat; report only) + automatic harvest.
 - Kept outside the pipeline: the 29:38 recall checklist (a test, never shown to agents).
 
+## Diagnosis: why prose on Luna's findings fell below cold Opus (2026-09-25)
+
+Task drift: after the cold Opus reading, success was measured by a 29:38 recall checklist and by cost; each miss
+added input (echo roots, concepts, Fatiha lens, people index, W0) and coverage rules to the briefs. The writer's
+job changed from discovering to accounting. Evidence (same model, Opus 5.5):
+- `findings_writer.md` at `c05ac06ec`: "every record marked reading must reach the prose"; the harvest had to place
+  every record id; `writer_rules.md` added "no length cuts … add a thread or a sentence" and "harvest every real
+  finding". Input: 274 readings, ~112 of the 133 global ones plain parallels, grouped by focus word, English reasons.
+- Result: 9,289 words vs 4,518; 184 distinct ayat cited vs 83; paragraphs citing 16–20 ayat (cold max 8); 262 of 274
+  readings used. Paragraph 4 is G050, G062, G102, G105, G111, G122, G123 in harvest order.
+- The writer never read `01_dictionary` (added only in v3), so the ayah-internal insights (الزين نقيض الشين,
+  لكم/لهم, تبين/زين, the kānū chain) disappeared.
+v3 softened the obligation but still pushes every record (≈93k tokens) and keeps the coverage wording in
+`writer_rules.md`.
+
+Cost note: Sol is priced like Opus per token ($4/$20); both lanes were expensive because of agentic loops
+(re-reading 100–460k contexts per call), not the model. User decision (2026-09-25): optimise towards Luna + Sol.
+
+## Ayah network (built 2026-09-25; `network/network.py`, test `network/eval_29_38.py`)
+
+Idea (user, 2026-09-25): Sol benefits from well-defined instructions; give it a theme backbone. Make the pair set a
+network; a script finds the structures; Luna judges edges and names structures; Sol expands each structure and
+ignores the rest. HFT stays the surah-level (al-Biqāʿī) backbone: its 15 records for 29:38 are all in-surah
+mechanisms (59 of 89 trace steps on B001/B002, none outside the surah, 2 rare-branch outliers).
+
+Why a network: cold Opus's sections are subgraphs — road = hub on ٱلسَّبِيلِ (four roots' road branches), eye =
+hub on مُسْتَبْصِرِينَ (kohl, eye film, far-seeing eye, eye-reach land) with the triangle eye film ↔ مستبصرين ↔
+29:41 spider, §2 = triangle تبين/زين ↔ الزين نقيض الشين ↔ ugly snake, §3 = chain (stillness → 29:37 → morning →
+29:41 house → 29:64), §6 = bridge (Fatiha ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ joins road and eye). §1 (names in the accusative,
+resolved at 29:40) is grammar, not a graph structure.
+
+Nodes: F focus word; B branch of a focus root (plain = HFT focus-only baseline branch, else B001; rare otherwise);
+A context ayah (surah, Fatiha, people passages = ayat naming the focus proper nouns ±3, names in >60 ayat excluded);
+M HFT record. Edges, each carrying its Arabic evidence:
+- `lex` — a word of the branch's Arabic image or source phrases: a form of a focus word's root, a Quranic lemma naming
+  a focus word's plain image (≤120 ayat), or the same Quranic lemma in a context ayah (≤150 ayat; from source phrases
+  strong only when ≤40). Vowelled lemma identity (بَعْد ≠ بُعْد); an article excludes adverbial nouns; defective
+  nouns merged (وَاد/وَادِي). Words after نقيض/ضد/خلاف are marked contrast.
+- `rel` — the dictionary's own `neighbor_distinctions` (synonym, near_synonym, antonym, polarity_pair: strong;
+  thematic: medium; same_field/near_neighbor only into the focus ayah or the Fatiha).
+- `img` — quran-slm top-k by distinct root (same ayah, ±7, surah, Fatiha, people). Weak: extends, never makes.
+- `sound` — focus roots one letter apart; a contrast-marked definition word one letter from a focus root.
+- `frame` — same governing verb and inflection before a focus word and a surah word (kānū + predicate).
+- `form` — shared rare measure (V–XII) and participle status (Form X مستبصرين ~ ٱلْمُسْتَقِيمَ).
+Structures: hubs (rare branches of ≥3 roots by strong edges; focus-word hubs first, then context ayat by weighted
+score), triangles (≥2 strong edges), convergence ranking, bridges, chain material (surah order), formula groups
+(other ayat sharing ≥2 focus roots, leaves), HFT mechanisms and the hubs they touch.
+
+29:38 results (no model; 13 s): 394 nodes, ~1.9k edges (530 strong), 24 hubs, 253 triangles at top-3.
+- Cold Opus links: 17/19 by a strong edge. Hubs: ٱلسَّبِيلِ (road branches exactly), مُسْتَبْصِرِينَ (the four eye
+  branches exactly), context 7:74 (Thamud mountains/houses/بَعْدِ عَادٍ), 29:41 (spider). Eye-film triangle present.
+  Also found: تبين~زين, Form X مستبصرين~المستقيم, kānū chain to 29:41 يعلمون, 11:68 بُعْدًا, 89:9 بالواد, 46:24 rain,
+  zayn/shayn contrast, eye film → 1:6 (ق و م "blind eye").
+- Weak only: ugly snake ↔ زيّن, turning-from-direction ↔ صدّ (same-ayah image similarity; no shared word or relation).
+  Missed: night as rest ↔ morning in 29:37 (weak at k=8; needs a complement table ليل/صبح/نهار).
+- Control (knife ↔ 29:29 cutting, rejected by Opus) is linked by near_synonym: the network proposes, Luna judges.
+- Top-k: k=5 adds ~900 image edges and +60% triangles with no new gold; k=8 turns 2 misses into weak links at 2.2×
+  edges. Keep k=3.
+- Luna's earlier 112 branch readings: 54% linked (most misses are plain-branch readings, concept paths through
+  inter-ayah targets outside the network's scope, and item-level verdicts).
+- Rarity: sole-attested branches were used by Opus at 40% (4/10) vs 7–27% for 2–6 sources: a ranking signal, not a
+  filter. The convergence ranking is weak (6 of 16 Opus branches in its top 20); hub membership is the better signal.
+  "Plain" from the HFT baseline mislabels some plain senses (بصر B001 counted rare); a one-time per-root pass
+  (Quranic-usage branches) would generalise it.
+
+Next:
+1. Complement table (ليل/نهار/صبح, نور/ظلمة, حياة/موت …) as a lex sub-type; A–A concept edges for two-step chains
+   (43:36 night-blindness path); treat top-1 same-ayah image partner as medium.
+2. Luna brief on the network: judge each hub member and triangle edge (keep / drop / reason) and name each structure
+   (image + thesis) — small, local judgments; records as final message.
+3. Sol brief: backbone document = HFT mechanisms × attached structures + one-hop candidates + grammar/sound list;
+   plan → write; no coverage rule; catalogue check in scripts.
+4. Second ayah from another surah before trusting thresholds.
+
 ## Open items / next steps
 
 1. Pull quran-data (user allowed; ask on conflicts); build packager v2.
