@@ -27,12 +27,16 @@ import run as R  # noqa: E402  (codex runner with reasoning effort max, output s
 SOL = "gpt-6-sol"
 
 
+OUT_DIR = "sol"  # output folder under network/out/S_A/ (--dir); the backbone is always sol/backbone.md
+
+
 def paths(ref: str) -> dict[str, Path]:
     s, a = ref.split(":")
     sa = f"{s}_{a}"
-    sol = V9 / "network" / "out" / sa / "sol"
+    sol = V9 / "network" / "out" / sa / OUT_DIR
+    sol.mkdir(parents=True, exist_ok=True)
     return {"sol": sol, "sa": Path(sa), "context": V9 / "luna" / "work" / sa / "context.md",
-            "backbone": sol / "backbone.md", "plan": sol / "plan.md", "pkg": V9 / "input" / "v2" / f"s{int(s):03d}" / sa,
+            "backbone": V9 / "network" / "out" / sa / "sol" / "backbone.md", "plan": sol / "plan.md", "pkg": V9 / "input" / "v2" / f"s{int(s):03d}" / sa,
             "reading": sol / f"{sa}.reading.tr.md", "work": V9 / "luna" / "work" / sa}
 
 
@@ -158,10 +162,14 @@ def check(ref: str) -> None:
 
 
 def main() -> None:
+    global SOL, OUT_DIR
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("step", choices=("plan", "write", "check", "all"))
     ap.add_argument("ref")
+    ap.add_argument("--model", default=SOL, help="writer model (default gpt-6-sol; e.g. gpt-6-luna)")
+    ap.add_argument("--dir", default="sol", help="output folder under network/out/S_A/")
     a = ap.parse_args()
+    SOL, OUT_DIR = a.model, a.dir
     steps = ("plan", "write", "check") if a.step == "all" else (a.step,)
     for s in steps:
         {"plan": plan, "write": write, "check": check}[s](a.ref)
