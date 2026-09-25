@@ -2,10 +2,13 @@
 """Split a V9 package into Luna worklists: small files of numbered items, each judged on its own.
 
   context.md        the ayah (00), the Fatiha text, the whole surah (08) — read first in every session
+  W0_dictionary.md  one item per focus root with its full dictionary entry and no pairs: open discovery
+                    from the entries alone (cross-root images and contrasts, sound play, grammar)
   W1_branches_N.md  one item per focus branch: its dictionary line + pairs (03) + concept paths (06) +
                     Fatiha pairs (07) + bridges (04) that point at it; one usage item per focus root (05)
   W2_hft.md         one item per HFT record (02) and per precomputed lead (10)
-  W3_global_N.md    one item per inter-ayah target (09); formula groups stay together
+  W3_global_N.md    one item per inter-ayah target (09); formula groups stay together; plus one item per
+                    same-people ayah (11) that is not already an inter-ayah target
   items.tsv         every item id with its worklist (the checker's reference)
 
 Usage: python3 _commentary/v9/luna/worklists.py PACKAGE_DIR OUT_DIR
@@ -108,7 +111,8 @@ def branch_items(pkg: Path) -> tuple[list[str], list[tuple[str, str]]]:
 def numbered(title: str, head: list[str], lines: list[str]) -> str:
     """An item whose evidence lines are numbered [1]…[n]; Luna returns one code per line."""
     body = [f"[{k}] {l.strip().removeprefix('- ')}" for k, l in enumerate(lines, 1)]
-    return "\n".join([f"### {title} — lines: {len(body)}"] + head + body)
+    template = [f"codes: {'_' * len(body)} ({len(body)})"] if body else []
+    return "\n".join([f"### {title} — lines: {len(body)}"] + head + template + body)
 
 
 def hft_items(pkg: Path) -> list[tuple[str, str]]:
@@ -139,6 +143,24 @@ def global_units(pkg: Path) -> list[list[tuple[str, str]]]:
     return units
 
 
+def dictionary_items(pkg: Path) -> list[tuple[str, str]]:
+    return [(f"D{i:02d}", "\n".join([f"### D{i:02d} — {head[3:]}"] + [l for l in body if l.strip()]))
+            for i, (head, body) in enumerate(blocks(read(pkg, "01"), "## "), 1)]
+
+
+def people_units(pkg: Path) -> list[list[tuple[str, str]]]:
+    units, n = [], 0
+    for head, body in blocks(read(pkg, "11"), "## "):
+        for line_no, line in enumerate(body):
+            m = re.match(r"^- \*\*(\d+:\d+)\*\*(?! \[inter-ayah\]) — (.*)$", line)
+            if m:
+                n += 1
+                text = body[line_no + 1].strip().removeprefix("- ") if line_no + 1 < len(body) else ""
+                units.append([(f"P{n:02d}", f"### P{n:02d} — {m.group(1)} (same people: {head[3:]})\n"
+                                            f"- {m.group(2)}\n- text: {text}")])
+    return units
+
+
 def pack(units: list[list[tuple[str, str]]]) -> list[list[tuple[str, str]]]:
     files, cur, size = [], [], 0
     for unit in units:
@@ -166,9 +188,11 @@ def main() -> None:
     by_root = defaultdict(list)
     for iid, text in b_items:
         by_root[iid.split(".")[0]].append((iid, text))
-    plan = [("W1_branches", pack(list(by_root.values()))),
+    people = people_units(pkg) if list(pkg.glob("11_*.md")) else []
+    plan = [("W0_dictionary", [dictionary_items(pkg)]),
+            ("W1_branches", pack(list(by_root.values()))),
             ("W2_hft", [hft_items(pkg)]),
-            ("W3_global", pack(global_units(pkg)))]
+            ("W3_global", pack(global_units(pkg) + people))]
     index = []
     for stem, files in plan:
         for k, items in enumerate(files, 1):

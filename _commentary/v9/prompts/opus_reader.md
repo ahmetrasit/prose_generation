@@ -21,11 +21,12 @@ The package directory is given in the launch message. Files:
 - `05_usage.md` — concordance, Quran-wide lemma counts, every occurrence of rare lemmas with co-occurring
   roots (a word "loaded" by its Quranic usage), hapax flags, near-synonym contrasts.
 - `06_concepts.md` — shared-concept paths: focus branch → its image partner in an inter-ayah target ayah →
-  concept words (night, eye, weakness…) shared with branches in nearby ayat. Components, not images.
+  concept words shared with branches in nearby ayat. Components, not images.
 - `07_fatiha.md` — the Fatiha (recited in every salah) with focus × Fatiha branch pairs. A standing lens.
 - `08_surah.md` — the whole host surah.
 - `09_inter_ayah.md` — earlier reviewed inter-ayah rows (labels are not decisions), with target text.
 - `10_leads.md` — reader walks when present.
+- `11_people.md` — every other ayah naming the same people (proper nouns of the focus ayah).
 
 Read long files in consecutive chunks with `offset`, each as large as the Read tool allows, until the
 end. Do not skip parts. Do not read anything outside the package directory, the two brief files and the
@@ -45,4 +46,6 @@ threads you plan, and which images join which threads.
 - `S_A.harvest.md` — accountability: every HFT record, the pairs/concepts/rows you used (with the section
   they landed in and the image the prose states), notes-only items, and not-used items grouped by reason.
 
-Then run the two checking commands from `writer_rules.md`.
+Then run, from the repository root, `python3 _commentary/v9/verify_ar.py <reading> <package dir> --fix` and
+`python3 _commentary/v5/validate_prose.py <reading>`, fix what they report, and run them once more. If a
+problem remains after that, list it in your final message instead of looping.

@@ -267,6 +267,11 @@ Reading: max's extra is mostly notes; fix over-finding at ranking, not effort. x
 - Drop the Luna writer. Writer choice after review: Opus on findings vs Sol with a GPT-specific brief
   (explicit procedure: cluster → thesis → supporting records → write → drop images that do not meet the
   thesis, never hedge; one non-overfitting example paragraph from outside 29:38).
+- W0 dictionary-only Luna bundle (user, 2026-09-24: cold Luna given dictionary entries performs better;
+  balance script-generated pairs with the entries alone): Luna gets context (ayah, Fatiha, surah) + the full
+  01_dictionary of all focus roots, no pairs; open discovery (cross-root contrasts/images, sound play,
+  grammar that changes meaning, rare branches the ayah/surah calls) → X records. Compare which findings
+  came only from W0 vs only from scripted pairs to set the balance.
 - GPT briefs (Luna judge and Sol writer) must counter GPT conservatism explicitly: this is
   hypothesis-generating discovery prose — propose and develop bold readings when both keys hold, do not
   retreat to the safe plain sense, do not hedge a reading you keep (user, 2026-09-24).
@@ -305,6 +310,33 @@ Rank / checklist (14 items): cold Opus 12.5 > Opus-on-findings 10.5 > Sol 6.5 > 
   estimated ≈$1.4–1.6) → script pass → fresh repair. ≈$2–2.7/ayah API-equivalent (estimate).
 - Repair guards to add: a repair may fix the citation, not only the quote; diff-log verify_ar --fix
   rewrites; set output format/size for final-message outputs (Codex final-message length unverified).
+
+## Pipeline v3 (built 2026-09-24 night; one command per ayah)
+
+`python3 _commentary/v9/luna/run.py ayah S:A [--writer opus] [--writer gpt-6-sol]` runs every stage and
+skips work already done: package (prepare.py, now with `11_people.md`) → worklists (archived and rebuilt
+when the package changes) → Luna discovery (pushed prompt, records as final message, script check, fresh
+guarded repair) → merge → writer(s) (Opus via headless Claude Code `claude -p`; GPT via Codex, output as
+final message) → checks (verify_ar --fix, validate_prose, check_reading) → fresh guarded repair → usage.
+Outputs: `output/sSSS/S_A/<writer>/`. `run.py usage S:A` reports tokens (Codex events + Claude JSON).
+
+Changes in this build (from the Opus review and the user):
+- Generic only: no 29:38 images or examples in any brief; no image lexicon; agents decide what joins.
+- `11_people.md`: every other ayah naming the focus ayah's proper nouns (no filter; shared focus roots shown
+  as a hint). 29:38: 115 ayat, 55 new → P items in W3.
+- W0 dictionary-only bundle: all focus roots' full entries, no pairs; D items + X records (balance with
+  scripted pairs; compare what only W0 finds).
+- Luna brief: hypothesis-generating discovery, bold; generic miss rule; records returned as final message;
+  `luna_repair.md` for fresh repair sessions (never downgrade or delete a finding).
+- Worklists print a `codes:` template per item.
+- merge.py: every kept record pushed (no reserve): ayah-level findings with reason (readings) and
+  dictionary sense incl. Arabic source phrase (readings and notes); whole-Quran parallels compact; shared
+  triggers across roots; cited ayat. 29:38 (old records): 92.6k tokens.
+- Writer brief: reads 01_dictionary itself and starts from the ayah; Luna's material is support, the writer
+  chooses; rejects only for a stated factual error; short harvest (sections → ids, rejections).
+  `findings_writer_gpt.md`: bold, no hedging, explicit work order, output as final message.
+- `check_reading.py`: catalogue report (paragraphs citing ≥10 ayat; report only) + automatic harvest.
+- Kept outside the pipeline: the 29:38 recall checklist (a test, never shown to agents).
 
 ## Open items / next steps
 

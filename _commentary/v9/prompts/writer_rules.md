@@ -17,16 +17,15 @@ Harvest every real finding, but integrate: no ledger, no paragraph per item, no 
   independent trigger in the ayah, the surah, the Fatiha or the Quran activates it. A branch with no
   trigger is at most a harvest note, not an Ek Notlar line. Rare, surprising and multi-step readings are
   welcome when both keys hold; do not discard them for being unusual.
-- **No length cuts.** There is no length limit. Never leave out a finding because the reading is long;
-  add a thread or a sentence instead. "Too long" is not a valid not-used reason.
+- **No length limit, and no length cuts.** Choose findings by what they add to the reading, never by how
+  long the reading has become; a finding that adds something gets a thread or a sentence. "Too long" is
+  not a valid reason to leave one out, and "it was in the list" is not a reason to put one in.
 - **Say the image, not just the reference.** When a finding reaches another ayah through a shared image
   (a concept path, a pair, a row), the prose must state that image and the Arabic word that carries it.
-  A bare citation of the other ayah is not use. Example: if a path runs from the focus word to a target
-  word whose branch is night-blindness and on to a nearby "night" word, the prose names the night-blindness
-  and the night, not only the target ayah's plain sense.
-- **Join threads that share an image.** When two threads carry the same image or word (a road in the
-  ayah's roots and the Fatiha's road; an eye in one thread and a veil in another), connect them explicitly,
-  in one of the threads or in the Kapanış. Parallel sections that never meet lose the resonance.
+  A bare citation of the other ayah is not use.
+- **Join threads that share an image.** When two threads carry the same image or word, connect them
+  explicitly, in one of the threads or in the Kapanış. Parallel sections that never meet lose the
+  resonance.
 - **Whole-Quran layer.** Show the actual Arabic of other ayat, not only their references. Many rows repeat
   one formula; pick the representative that adds a movement.
 - **Echo roots** may appear as a sound-echo (never as etymology), stated once.
@@ -46,7 +45,7 @@ Harvest every real finding, but integrate: no ledger, no paragraph per item, no 
 Fluent Turkish for a non-specialist; explain grammar only where it changes meaning. Convey certainty
 through wording ("düşündürür", "yankılanır", "bu kökte duran bir imgedir"). State a real limit once, at
 its first use, inside the sentence that makes the claim; never end a paragraph with a boundary disclaimer
-("bu bir çeviri değil…", "ama ayet onu çağırır" as a closing line). No internal IDs (root_…, B00x, row
+. No internal IDs (root_…, B00x, row
 numbers) in the prose.
 
 Arabic doing interpretive work uses the tag `{ar:ARABIC, tr:transliteration, gloss:Turkish gloss}`,
@@ -54,9 +53,9 @@ repeated in each paragraph where the word works again. No commas inside `tr`, no
 Cite every inter-ayah or contextual claim right after its quote as `(S:A)`; list ayat individually,
 never ranges.
 
-## Checking (two commands, run from the repository root, in this order)
+## Checking
 
-1. `python3 _commentary/v9/verify_ar.py <reading> <package dir> --fix` — rewrites near-miss Arabic quotes
-   to the exact source form and reports quotes that are missing or not in their cited ayah. Fix those by
-   hand and rerun until it exits 0. Do not check quotes any other way.
-2. `python3 _commentary/v5/validate_prose.py <reading>` — tag and format rules; fix until it reports ok.
+Two scripts check every reading: `_commentary/v9/verify_ar.py` (every Arabic quote against its source and
+its cited ayah; `--fix` restores near-miss quotes to the exact source form) and
+`_commentary/v5/validate_prose.py` (tag and format rules). Your lane brief says whether you run them
+yourself or the pipeline runs them after you.

@@ -576,13 +576,13 @@ def section_concepts(src: Sources, ref: str, focus: list, surah_ctx: dict, targe
                 if aff > best_via.get(tnode, (-1, None))[0]:
                     best_via[tnode] = (aff, f)
         rows = []
-        for tnode, (_aff, f) in sorted(best_via.items(), key=lambda kv: kv[1][0], reverse=True):
+        for tnode, (_aff, f) in sorted(best_via.items(), key=lambda kv: (-kv[1][0], kv[0])):
             cands = []
             for t in card_tokens.get(tnode, ()):
                 if df[t] > 800 or any(is_root_form(t, src.root_name.get(root_of(x), "")) for x in (tnode, f)):
                     continue
                 hits, roots_seen = [], set()
-                for r, n, w in sorted(near_by_token.get(t, []), key=lambda x: abs(int(x[0].split(":")[1]) - a)):
+                for r, n, w in sorted(near_by_token.get(t, []), key=lambda x: (abs(int(x[0].split(":")[1]) - a), x[0], x[1])):
                     if root_of(n) in roots_seen or root_of(n) in (root_of(f), root_of(tnode)):
                         continue
                     if is_root_form(t, src.root_name.get(root_of(n), "")):
@@ -593,13 +593,13 @@ def section_concepts(src: Sources, ref: str, focus: list, surah_ctx: dict, targe
                         break
                 if hits:
                     cands.append((math.log(n_cards / df[t]), t, hits))
-            cands.sort(key=lambda x: x[0], reverse=True)
+            cands.sort(key=lambda x: (-x[0], x[1]))
             if cands:
                 tr_, tw = targets_b[tnode]
                 links = "; ".join(f"[{t}] " + ", ".join(h) for _, t, h in cands[:7])
                 score = sum(x[0] for x in cands[:7])
                 rows.append((score, f"  - {f.split(':')[2]} ({src.gloss(f) or '—'}) → {tr_} {tw['surface']} {short(src, tnode)} ⇒ {links}"))
-        rows = [r for _, r in sorted(rows, key=lambda x: x[0], reverse=True)[:CONCEPT_TARGETS]]
+        rows = [r for _, r in sorted(rows, key=lambda x: (-x[0], x[1]))[:CONCEPT_TARGETS]]
         if rows:
             word = ", ".join(dict.fromkeys(w["surface"] for n, w in focus if root_of(n) == rid))
             lines.append(f"- **{src.root_name.get(rid, rid)} ({word})**")
@@ -708,6 +708,37 @@ def section_inter_ayah(src: Sources, ref: str) -> tuple[str, list[str]]:
     return "\n".join(lines) + "\n", list(by_target)
 
 
+def section_people(src: Sources, ref: str, targets: list[str]) -> str:
+    """Every other ayah naming the same people (QAC proper nouns of the focus ayah); shared focus roots are
+    shown as a hint, not used as a filter."""
+    s, a = (int(x) for x in ref.split(":"))
+    q = src.qac.execute
+    focus_keys = {k for (k,) in q("select distinct root_join_key from qac_morphemes where surah=? and ayah=? "
+                                  "and root_join_key!=''", (s, a))}
+    lines = ["# Same people elsewhere (every ayah naming a proper noun of the focus ayah)", "",
+             "Every other ayah that names a person or people of the focus ayah, with any other focus roots it shares",
+             "(a hint only). Rows marked [inter-ayah] are already in 09_inter_ayah.md; the others appear only here.", ""]
+    seen_pn = set()
+    for lemma, own, surface in q("select lemma_ar, root_join_key, surface_ar from qac_morphemes where surah=? and "
+                                 "ayah=? and pos='PN' order by word_index", (s, a)):
+        if lemma in seen_pn:
+            continue
+        seen_pn.add(lemma)
+        refs = sorted({(x, y) for x, y in q("select distinct surah, ayah from qac_morphemes where pos='PN' and "
+                                              "lemma_ar=?", (lemma,)) if (x, y) != (s, a)})
+        rows = []
+        for x, y in refs:
+            hits = [(w, k) for w, k in q("select surface_ar, root_join_key from qac_morphemes where surah=? and "
+                                         "ayah=? and root_join_key!=''", (x, y)) if k in focus_keys and k != own]
+            r = f"{x}:{y}"
+            shared = ", ".join(dict.fromkeys(f"{w} ({spaced(k)})" for w, k in hits)) or "no other focus root"
+            mark = " [inter-ayah]" if r in targets else ""
+            rows.append(f"- **{r}**{mark} — shares {shared}\n  - {src.quran.get(r, '')}")
+        if rows:
+            lines += [f"## {surface} ({lemma}) — {len(rows)} ayat", ""] + rows + [""]
+    return "\n".join(lines) + "\n"
+
+
 def section_leads(bundle: dict) -> str:
     lines = ["# Other precomputed leads (not available for every surah)", ""]
     for key in ("v12_reader_walks", "v12_reader_walks_wide"):
@@ -741,6 +772,7 @@ def prepare(ref: str, bundles: Path, out: Path) -> dict:
         "08_surah.md": section_surah(src, ref),
         "09_inter_ayah.md": inter_text,
         "10_leads.md": section_leads(bundle),
+        "11_people.md": section_people(src, ref, targets),
     }
     report = {}
     for name, text in files.items():
