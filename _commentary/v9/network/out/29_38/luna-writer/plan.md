@@ -1,0 +1,75 @@
+===== S_A.plan.md =====
+## Tensions
+- Ayet, yurtlardan okura açıkça belli olan kanıtı bildirirken aynı topluluğun yoldan çevrildiğini söyler; dışarıdaki açıklıkla içerideki yöneliş nasıl bir arada durur?
+- Yerleşik hayatın izi olarak yurtlar ayakta kalıp tanıklığa dönüşürken yol kapanmaz, fakat insanlar ondan çevrilir; kalıcılık iddiası nasıl tersine döner?
+- Şeytan onların kendi işlerini güzel gösterir ve hemen ardından onları yoldan çevirir; insanın kendi ameliyle şeytanın yönlendirmesi arasındaki bağ nasıl kurulur?
+- Kapanıştaki مُسْتَبْصِرِينَ gerçek kavrayışa, kavrayış arayışına ya da kendini kavrayış sahibi saymaya açıkken, bu sıfat neden doğru yolda kalmalarını sağlamaz?
+- Fatiha’da okur “bize doğru yolu göster” diye dua ederken ayet, kavrayış sahibi görünenlerin yoldan çevrilişini anlatır; dua eden okur bu anlatının neresinde durur?
+
+## Question and central claim
+question: Yurtlardan görülebilen kanıtla içgörü aynı anda mevcutken insanlar nasıl yoldan çevrilir?
+claim: Ayetin teşhisi bilgi eksikliği değil, görülen kanıtın ve mevcut kavrayışın değerlendirmeyi ve davranışı yönetememesidir: amellerin güzelleştirilmesi, insanları hâlâ geçilebilir olan yoldan saptırır. Fatiha’nın rehberlik duası ve surenin sonundaki gayret-hidayet bağı, okuru yalnızca geçmişi gören tanık değil, yönünü dua ve eylemle sınayan kişi olarak konumlandırır.
+
+## Section 1: Yurtların tanıklığı
+claim: Ayet, geçmiş toplulukların yurtlarını rivayetten görülebilen kanıta dönüştürür ve bu kanıtı doğrudan bugünkü okura yöneltir.
+steps:
+- 1. 29:37’de Şuayb’ın halkı yurtlarında yere serilmiş halde kalır; 38’deki ardışık vavlar ve mansup ʿĀd ile Semûd adları yıkım dizisini genişletir, 29:40’taki “her birini suçuyla yakaladık” sözü de onları aynı tarihsel hüküm altında toplar → bu adlar bağımsız bir isim listesi değil, incelenebilir yıkım örnekleridir [G18, G19, G20, G21, M8, M15].
+- 2. قَدْ ile perfect تَبَيَّنَ açıklığın gerçekleşmiş ve yerleşmiş olduğunu bildirirken لَكُمْ okuru bu kanıtın tanığı yapar; مِنْ مَسَاكِنِهِمْ yurtları açıklığın kaynağı veya kanalı gösterir → “açıkça belli olma” işitilmiş bir iddiadan araziye bakılarak sınanabilir bir bilgiye dönüşür [G22, G23, G24, G25, G26, G27, M7].
+- 3. س ك ن kökünün yerleşip durulma çağrışımı, artık sahiplerini geride bırakmış yurtlarla yan yana gelir; 29:19–20’de yeryüzünde gezip bakma çağrısı ve 29:35’te akledenler için bırakılmış açık işaret bu kalıntıların nasıl okunacağını gösterir → yerleşmenin izleri, kalıcılık vaadi değil, düşünmeye çağıran sahadır [M3, M7].
+- 4. 7:74’te ʿĀd’dan sonra yeryüzüne yerleştirilenlerin ovalarda saraylar kurup dağlarda evler yontması anlatılır → görkemli yerleşim de yıkımdan muafiyet sağlamaz; 29:38’in yurt imgesi surenin yerleşim ve güvenlik tartışmasına bağlanır [C4, M3, M8].
+adds: Bu bölüm, ayetin kanıtını soyut bir uyarıdan okurun görebileceği ve akılla yorumlayabileceği bir iz alanına çevirir.
+alternatives: مِنْ مساكنهم ifadesinde yurtları kanıtın kaynağı ve açıklığın ortaya çıktığı mecra olarak birlikte tut; bunu تبيّن fiilinden kopuk, yalnızca “yurtlarının içinde” anlamında okumak yerel bağın kanıt işlevini zayıflatır.
+
+## Section 2: Açık işaret, işlemeyen içgörü
+claim: Dış kanıt ile içgörü ayette birlikte bulunur, fakat ikisi de kendi başına doğru davranışı güvence altına almaz.
+steps:
+- 1. “Size açıkça belli oldu” cümlesinden sonra وَكَانُوا مُسْتَبْصِرِينَ gelir; son vavın bağlamdaki ödünleyici etkisi ve kānū ile mansup, durum bildiren çoğul sıfat, içgörünün onlarda zaten mevcut olduğunu öne çıkarır → çelişki bilgi yokluğunda değil, bilginin davranışı yönetememesindedir [M1, G38, G39, G40].
+- 2. مُسْتَبْصِرِينَ Form X etkin ortaçtır ve kavrayış sahibi olma, kavrayış arama veya kendini açık görüşlü sayma anlamlarını açık bırakır; ayrıca ب ي ن kökünün sözlükte gözün eriştiği mesafeye yayılan arazi anlamı, görünen yurtlarla içsel görme arasında maddi bir eşik kurar → kapanış, görülebilir çevreyle içsel değerlendirmeyi tek bir görme sorusunda buluşturur [G40, H2.1, H2.5].
+- 3. Surenin ilerleyen ayetlerinde işaretlerin insanların göğüslerinde bulunduğu hâlde inkârın sürdüğü, yaratılış hakkında doğru cevap verenlerin de başka bir işaretten akıl yürütmeyebildiği görülür → 29:38’deki kavrayış, kendiliğinden bağlılık veya çıkarım üretmeyen bir kapasite olarak okunur [M10].
+adds: İlk bölümün dış kanıtını insanın iç kapasitesiyle karşılaştırır ve başarısızlığın yerini davranışa geçişte bulur.
+alternatives: مُسْتَبْصِرِينَ için gerçek kavrayış ve etkin biçimde kavrama çabasını yan yana tut; “yalnızca kendilerini bilge sanıyorlardı” diye çözme, çünkü ayet onlarda mevcut olan bir durumu bildirir. Kendinden eminlik çağrışımını ise olası bir renk olarak koru.
+brief_mentions: H2.2’de سَبِيل için kaydedilen ağsı göz perdesi, H2.3’te صَدّ için aynada hazırlanmış sürme, H2.4’te عَمَل için uzaktan gözeten çalışan göz sözlük çağrışımlarıdır; ayetin doğrudan anlamı değil, görme ve süslemenin algıyı etkileyebileceğine dair ihtiyatlı imgeler olarak anılabilir.
+
+## Section 3: Güzelleştirilmiş amelden sapmaya
+claim: Ayetin fiil düzeni, yön kaybını bir anda gerçekleşen kopuş değil, süslenmiş amelin yol açtığı bir sonuç olarak kurar.
+steps:
+- 1. زَيَّنَ etkin Form II fiilinde şeytan açık özne, onların amelleri nesne, لَهُمُ ise alıcıdır; lâm yarar bildirir gibi duyulsa da hemen ardından gelen فَصَدَّهُمْ bu alımlı sunumun zararını açığa çıkarır → fail, alıcı ve nesne ayrımı, çekimin nasıl kurulduğunu gösterir [G29, G30, G31, G32, G33, G34, M2].
+- 2. صَدَّهُمْ fiili insanları nesne konumuna alır, عَنْ ayrılmanın yönünü belirler, belirli tekil ٱلسَّبِيل ise tanınan yolu hedef olarak korur → engellenen yol yok edilmez; insanlar ondan çevrilir [G35, G36, G37, M2].
+- 3. Sözlükte ص د د’nin suya giden yol, ع م ل’nin işlek ve yürünmüş yol, bu kökün bir başka kolunun da yaya yolcular anlamına gelmesi; س ب ل için kaydedilen yol kullanıcılarıyla birlikte düşünüldüğünde geçilebilir bir güzergâh imgesi verir → yön kaybı soyut bir hüküm olmaktan çıkıp yolcuların alışılmış bir rotadan çevrilmesi gibi duyulur [H1.1, H1.2, H1.3, L6.1].
+- 4. 27:24’te güneşe secde eden kraliçe ve topluluğu için aynı “güzelleştirme—yoldan çevirme” dizisi kullanılır ve ayet hidayet bulmamalarıyla biter → 29:38’deki yapı, tek bir kavmin hikâyesine özgü değil, başka bir sahnede de görülen bir saptırma düzenidir [P1].
+adds: Bu bölüm, kanıt ve içgörü arasındaki boşluğu, amellerin nasıl çekici kılındığına ve yolun nasıl hedef alındığına bağlar.
+brief_mentions: H1.4’te ع و د için kaydedilen “eski yol” anlamı ʿĀd adında hafif bir yol yankısı oluşturabilir, ancak bu bir özel ad kökeni iddiası değildir; L6.2’deki yaşlı ve sefer tekrarından güç kalmış deve anlamı da sözlükteki ayrı bir çağrışımdır, halkın amelleri hakkında doğrudan çıkarım vermez. L3.1’de güzelliğin ayıp ve lekeden arınmışlıkla ilişkilendirilmesi, زَيَّنَ fiilinin değerlendirme yüzeyine odaklanmasını destekler.
+
+## Section 4: Sapmanın toplumsal yolu
+claim: Surenin yakın bağlamında yoldan çevirme, ortaklaşa benimsenen değerler ve toplumsal pratikler üzerinden de işler.
+steps:
+- 1. 29:12’de inkârcılar “bizim yolumuza uyun” der ve başkalarının hatalarını yükleneceklerini vaat eder; 29:13 bu yükü gerçekten taşıyamayacaklarını ve kendi yüklerine ek yük alacaklarını söyler → yanlış yol yalnızca çekici görünmez, başkalarının sonuçları üstleneceği yanılsamasıyla da pazarlanır [C2, M5].
+- 2. 29:17’de putlara bağlılık için bir şeyler uydurma, 29:25’te bu putların dünya hayatında aralarındaki sevgiyle ilişkilendirilmesi ve 29:29’da toplantı yerindeki kamusal davranış yan yana gelir → değer atfetme, ortak aidiyet ve görünür pratik kazanabilir [M6].
+- 3. 29:29’da “yolu kesme” aynı topluluğun başka davranışları ve toplantı yerindeki eylemleriyle birlikte anılır → yoldan sapma, bireyin iç dünyasında kalmayıp başkalarının yolunu da kesen ortak bir davranışa dönüşebilir [C1, M6].
+adds: Bu bölüm, ayetin teşhisini toplumsal olarak üretilen ve yeniden yayılan bir çekim biçimine genişletir; sorumluluğu da ortadan kaldırmaz.
+brief_mentions: 29:40’ın her topluluğun kendi suçu yüzünden yakalandığını vurgulaması, toplumsal yönlendirmenin kişisel sorumluluğu silmediğini hatırlatır [M8].
+
+## Section 5: Fatiha’nın rehberlik duası
+claim: Fatiha, ayetteki yolu okurun ortaklaşa istediği rehberliğe dönüştürür ve görmenin yön bulmaya yetmediğini hissettirir.
+steps:
+- 1. Fatiha’nın “bize hidayet et” çağrısı, düz ve doğru yol olan الصِّرَاط’a yönelir; سَبِيل ile الصِّرَاط arasındaki yakın anlam bağı, iki metindeki yol imgelerini ilişkilendirir → Fatiha yolu kendiliğinden bilinen bir şey gibi değil, talep edilen rehberlik olarak kurar [F25, F31].
+- 2. مُسْتَبْصِرِينَ ile مُسْتَقِيمَ aynı Form X ortaç kalıbını paylaşır ama kökleri ve sözlük anlamları farklıdır → biçimsel yankı, içgörüyle doğrultuyu karşılaştırmaya izin verirken onları eş anlamlı yapmaz; içgörü sahibi olmak doğrultuda kalmış olmak değildir [F27, G10, G40].
+- 3. Fatiha 1:7 yolu nimet verilenlere bağlar, gazaba uğrayanları ve sapmışları dışarıda bırakır; 29:38’in geçmiş topluluğu bu dua edilen ayrımın uyarıcı karşı-sahnesini sunar → namazda “bize” diyen okur, onları uzaktan değerlendirmekle yetinemez [F31].
+adds: Ayetin tarihsel tanıklığını her namazda tekrarlanan birinci çoğul şahıs duasına bağlayarak okuru doğrudan argümanın içine alır.
+alternatives: سَبِيل ile صِرَاط arasındaki ilişkiyi sözlükteki yakın anlam üzerinden kur, tam sözcüksel özdeşlik iddia etme; Form X ortaklığı da yalnızca biçimsel yankıdır, iki kökün anlamını birleştirmez.
+
+## Section 6: Görüşü davranışa taşımak
+claim: Surenin devamı, içgörünün davranışa bağlanması için tekrar eden pratik ve gayret gerektirdiğini gösterir.
+steps:
+- 1. 29:64–65 dünya hayatını oyalayıcı oyun ve eğlence diye niteler; denizde tehlike içindeyken Allah’a içten yönelenler kurtulunca yeniden ortak koşar → dikkat krizle değişebilir ve mevcut bilgi gündelik salience içinde yeniden etkisizleşebilir [M11].
+- 2. 29:67’de insanlar güvenli haremle çevresinde yakalanıp götürülenleri aynı anda görür, yine de batıla inanırlar → gözün kaydettiği fark, güvenin nereye verileceğini tek başına belirlemez [M12].
+- 3. 29:45’te namazın hayasızlıktan ve kötülükten alıkoyduğu, Allah’ın insanların yaptıklarını bildiği söylenir → beden ve tekrar üzerinden işleyen ibadet, süslemenin çekici kıldığı davranışı sınırlayabilecek bir pratik sunar [M9].
+- 4. Surenin kapanışında Allah yolunda gayret edenlere kendi yollarını göstereceği bildirilir; tekil الْسَّبِيلِ’den çoğul سُبُلَنَا’ya geçiş, çevrilmiş yola karşı gayretle açılan yolları koyar → sezgi tek başına değil, bağlı hareket içinde hidayete dönüşür [M13].
+adds: Önceki bölümlerin teşhisini surenin kendi karşılığından tamamlar: algı bir başlangıçtır, yöneliş ise dua, pratik ve gayretle sürdürülür.
+
+## Kapanış
+Bölümler birlikte, yıkıntıların açık bir kanıt olduğunu, fakat kanıtın ve içgörünün tek başına doğru hareketi güvence altına almadığını gösterir. Şeytanın süslediği ameller yolu görünmez kılmaz; insanları onu izlemekten çevirebilir ve bu çevriliş toplumsal alışkanlıklarla güçlenebilir. Ayet, Fatiha’da “bize” diye hidayet isteyen okuru, yalnızca geçmişi gören tanık değil, gördüğünü davranışına ve gayretine taşıması gereken kişi olarak karşısına alır.
+
+## Ek Notlar
+
+## Rejected
