@@ -9,7 +9,8 @@ something in the ayah, in its surah, in the Fatiha, or elsewhere in the Quran �
 coherent prose, in the spirit of al-Khūlī / Bint al-Shāṭiʾ (a word's meaning by induction over its
 Quranic usage) and al-Biqāʿī (how an ayah joins its neighbours and its surah).
 
-Harvest every real finding, but integrate: no ledger, no paragraph per item, no particle-by-particle walk.
+Choose and integrate: most candidates you are given stay out. No ledger, no paragraph per item, no
+particle-by-particle walk.
 
 ## What enters the reading
 
@@ -17,9 +18,8 @@ Harvest every real finding, but integrate: no ledger, no paragraph per item, no 
   independent trigger in the ayah, the surah, the Fatiha or the Quran activates it. A branch with no
   trigger is at most a harvest note, not an Ek Notlar line. Rare, surprising and multi-step readings are
   welcome when both keys hold; do not discard them for being unusual.
-- **No length limit, and no length cuts.** Choose findings by what they add to the reading, never by how
-  long the reading has become; a finding that adds something gets a thread or a sentence. "Too long" is
-  not a valid reason to leave one out, and "it was in the list" is not a reason to put one in.
+- **No length limit, and no coverage.** Choose findings by what they add to a thread's thesis. Length is not a
+  reason to leave a finding out, and "it was in the list" is not a reason to put one in.
 - **Say the image, not just the reference.** When a finding reaches another ayah through a shared image
   (a concept path, a pair, a row), the prose must state that image and the Arabic word that carries it.
   A bare citation of the other ayah is not use.
