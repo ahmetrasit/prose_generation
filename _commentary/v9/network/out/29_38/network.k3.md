@@ -95,13 +95,6 @@ Edges: {'lex': 277, 'rel': 231, 'sound': 3, 'img': 1350, 'form': 11, 'frame': 8,
 - ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ أَعْمَٰلَهُمْ — lex/src-rare: ناقا → نَاقَةُ; lex/src: بينا → بَيِّنَةٌ; img/people: people: ن و ق B002 النّاقة وصورتها ← نَاقَةُ
 - ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة (rare, 1 src, sole) @ وَكَانُوا۟ — lex/image: سوء → بِسُوٓءٍ; img/people: people: س و ء B003 الآفة والبرص ← بِسُوٓءٍ
 
-### 7:77 [people] — 4 roots, score 6.5
-  فَعَقَرُوا۟ ٱلنَّاقَةَ وَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا۟ يَٰصَٰلِحُ ٱئْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلْمُرْسَلِينَ
-- ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه (rare, 2 src) @ تَّبَيَّنَ — lex/src-rare: ناقا → ٱلنَّاقَةَ
-- س ب ل B007 «kap kenarı veya hayvanın boğaz kesim yeri» حافة أو مخرج متقدم (rare, 4 src) @ ٱلسَّبِيلِ — lex/src-rare: ناقا → ٱلنَّاقَةَ
-- ع د د B006 «karşılıklı paydaşlık, pay ve denk sayılma» نظير يعد مع غيره (echo rare, 3 src) @ وَعَادًا — lex/image: يعد → تَعِدُنَآ
-- ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ أَعْمَٰلَهُمْ — lex/src-rare: ناقا → ٱلنَّاقَةَ
-
 ### 29:32 [surah] — 3 roots, score 6.0
   قَالَ إِنَّ فِيهَا لُوطًا قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَٰبِرِينَ
 - س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — lex/image: اهل → وَأَهْلَهُۥٓ
@@ -113,13 +106,6 @@ Edges: {'lex': 277, 'rel': 231, 'sound': 3, 'img': 1350, 'form': 11, 'frame': 8,
 - س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — lex/image: اهل → وَأَهْلَكَ
 - س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار (rare, 5 src) @ مَّسَٰكِنِهِمْ — lex/image: اهل → وَأَهْلَكَ; rel/near_synonym: ء ه ل B001 (ev halkı ile bağlı topluluk) → وَأَهْلَكَ
 - ص د د B009 «bir kadın adı» اسم امرأة (rare, 2 src) @ فَصَدَّهُمْ — lex/image: امراا → ٱمْرَأَتَكَ
-
-### 29:63 [surah] — 3 roots, score 6.0
-  وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ قُلِ ٱلْحَمْدُ لِلَّهِ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ
-- ش ط ن B001 «uzaklaşma ve uzaklaştırma» البعد والانقطاع (rare, 4 src) @ ٱلشَّيْطَٰنُ — rel/near_synonym: ب ع د B001 (uzaklık ve uzaklaşma) → بَعْدِ; img/surah: surah: ب ع د B004 البعد هلاكا ولعنا ← بَعْدِ
-- ص د د B004 «suya giden yol» طريق إلى الماء (rare, 2 src) @ فَصَدَّهُمْ — lex/image: ماء → مَآءً
-- ص د د B010 «tatlı sulu bir kuyunun adı» ماء مسمى (rare, 2 src) @ فَصَدَّهُمْ — lex/image: ماء → مَآءً; img/surah: surah: م و ه B001 الماء المعروف وأصل اسمه ← مَآءً
-- ع د د B004 «kaynağı kesilmeyen kalıcı su ve su yeri» الماء العد (echo rare, 6 src) @ وَعَادًا — lex/image: ماء → مَآءً
 
 ## Triangles (top 40)
 
@@ -298,15 +284,15 @@ Edges: {'lex': 277, 'rel': 231, 'sound': 3, 'img': 1350, 'form': 11, 'frame': 8,
 - 3 kinds, 23 targets: ش ط ن B001 «uzaklaşma ve uzaklaştırma» البعد والانقطاع (rare, 4 src) @ ٱلشَّيْطَٰنُ — img, lex, rel
 - 3 kinds, 22 targets: ع د د B004 «kaynağı kesilmeyen kalıcı su ve su yeri» الماء العد (echo rare, 6 src) @ وَعَادًا — img, lex, rel
 - 3 kinds, 22 targets: س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — img, lex, rel
-- 3 kinds, 21 targets: ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — img, lex, rel
 - 3 kinds, 21 targets: ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة (rare, 1 src, sole) @ وَكَانُوا۟ — img, lex, rel
-- 3 kinds, 21 targets: ع د د B006 «karşılıklı paydaşlık, pay ve denk sayılma» نظير يعد مع غيره (echo rare, 3 src) @ وَعَادًا — img, lex, rel
+- 3 kinds, 21 targets: ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — img, lex, rel
 - 3 kinds, 21 targets: ب ي ن B003 «arayı bağlayan ilişki» الوصلة القائمة بين الأطراف (rare, 3 src) @ تَّبَيَّنَ — img, lex, rel
+- 3 kinds, 21 targets: ع د د B006 «karşılıklı paydaşlık, pay ve denk sayılma» نظير يعد مع غيره (echo rare, 3 src) @ وَعَادًا — img, lex, rel
 - 3 kinds, 21 targets: ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ أَعْمَٰلَهُمْ — img, lex, rel
 - 3 kinds, 21 targets: ب ص ر B006 «kalın kenar ve ek yeri» غلظ الحافة ووصل الشقتين (rare, 6 src) @ مُسْتَبْصِرِينَ — img, lex, rel
 - 3 kinds, 20 targets: س ك ن B010 «yerinde kalmayı sağlayan geçimlik ve bol otlak» قوت يثبت المقام (rare, 1 src) @ مَّسَٰكِنِهِمْ — img, lex, rel
-- 3 kinds, 20 targets: ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان (rare, 2 src) @ وَكَانُوا۟ — img, lex, rel
 - 3 kinds, 20 targets: ص د د B004 «suya giden yol» طريق إلى الماء (rare, 2 src) @ فَصَدَّهُمْ — img, lex, rel
+- 3 kinds, 20 targets: ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان (rare, 2 src) @ وَكَانُوا۟ — img, lex, rel
 - 3 kinds, 20 targets: ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة (rare, 4 src) @ تَّبَيَّنَ — img, lex, rel
 - 3 kinds, 20 targets: س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار (rare, 5 src) @ مَّسَٰكِنِهِمْ — img, lex, rel
 - 3 kinds, 19 targets: ع م ل B006 «el işçileri» العملة العاملون بالأيدي (rare, 2 src) @ أَعْمَٰلَهُمْ — img, lex, rel
@@ -314,9 +300,9 @@ Edges: {'lex': 277, 'rel': 231, 'sound': 3, 'img': 1350, 'form': 11, 'frame': 8,
 - 3 kinds, 19 targets: ع م ل B004 «iş ücreti» أجر العمل ورزق العامل (rare, 4 src) @ أَعْمَٰلَهُمْ — img, lex, rel
 - 3 kinds, 19 targets: ب ص ر B005 «koruyucu savaş gereci» بصيرة السلاح (rare, 5 src) @ مُسْتَبْصِرِينَ — img, lex, rel
 - 3 kinds, 18 targets: ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر (rare, 3 src) @ تَّبَيَّنَ — img, lex, rel
-- 3 kinds, 18 targets: ش ط ن B002 «uzun kuyu ipi ve onunla bağlama» الحبل الطويل والشد (rare, 4 src) @ ٱلشَّيْطَٰنُ — img, lex, rel
 - 3 kinds, 18 targets: ع و د B004 «tekrarla alışkanlık ve yatkınlık kazanma» عادة ودرَبة ومواظبة (rare, 4 src) @ وَعَادًا — img, lex, rel
 - 3 kinds, 18 targets: ع و د B002 «dönüş yeri ve son varış» مصير ومرجع ومعاد (rare, 4 src) @ وَعَادًا — img, lex, rel
+- 3 kinds, 18 targets: ش ط ن B002 «uzun kuyu ipi ve onunla bağlama» الحبل الطويل والشد (rare, 4 src) @ ٱلشَّيْطَٰنُ — img, lex, rel
 - 3 kinds, 17 targets: ع و د B007 «yeniden gelen özel gün veya hâl» عيد وحال يعاود (rare, 3 src) @ وَعَادًا — img, lex, rel
 - 3 kinds, 17 targets: ص د د B008 «türü tartışmalı küçük hayvan» دويبة صغيرة (rare, 4 src) @ فَصَدَّهُمْ — img, lex, rel
 - 3 kinds, 17 targets: س ك ن B008 «geminin kıçındaki dengeleyici yöneltme aracı» تسكين السفينة بالسكان (rare, 5 src) @ مَّسَٰكِنِهِمْ — img, lex, rel
@@ -325,7 +311,7 @@ Edges: {'lex': 277, 'rel': 231, 'sound': 3, 'img': 1350, 'form': 11, 'frame': 8,
 - 2 kinds, 21 targets: ز ي ن B003 «bezenmeye yarayan nitelik ve şeylerin bütünü» الزينة التي يتزين بها (rare, 3 src) @ وَزَيَّنَ — img, lex
 - 2 kinds, 20 targets: ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه (rare, 2 src) @ تَّبَيَّنَ — img, lex
 - 2 kinds, 19 targets: ك و ن B002 «bulunma yeri ve konum değeri» المكان والمكانة من الكون (rare, 3 src) @ وَكَانُوا۟ — img, rel
-- 2 kinds, 19 targets: ش ط ن B005 «çirkin yılan ve bitki adıyla ürkütücü baş benzetmesi» القبيح المسمى شيطانا (rare, 4 src) @ ٱلشَّيْطَٰنُ — img, lex
+- 2 kinds, 19 targets: ص د د B003 «karşıda ve yakında bulunma» مقابلة وقرب (rare, 4 src) @ فَصَدَّهُمْ — img, lex
 
 ## Bridges (linked to members of two or more hubs)
 
@@ -505,27 +491,27 @@ Edges: {'lex': 277, 'rel': 231, 'sound': 3, 'img': 1350, 'form': 11, 'frame': 8,
 - ز ي ن + س ب ل + ص د د + ع م ل (1): 40:37
 - س ب ل + ص د د + ع م ل (7): 2:217, 3:99, 8:47, 9:9, 47:1, 47:32, 63:2
 - ز ي ن + ش ط ن + ع م ل (3): 6:43, 8:48, 16:63
-- ز ي ن + س ب ل + ص د د (1): 13:33
 - س ب ل + س ك ن + ع م ل (1): 9:60
 - ب ص ر + س ب ل + ع م ل (1): 8:72
+- ز ي ن + س ب ل + ص د د (1): 13:33
 - ب ص ر + ع م ل (23): 2:96, 2:110, 2:233, 2:237, 2:265, 3:156, 3:163, 5:71
 - س ب ل + ص د د (14): 4:160, 4:167, 7:45, 7:86, 8:36, 9:34, 11:19, 14:3
-- ز ي ن + ع م ل (9): 6:108, 6:122, 9:37, 10:12, 11:15, 18:7, 27:4, 35:8
 - س ب ل + س ك ن (9): 2:177, 2:215, 4:36, 8:41, 9:24, 17:26, 24:22, 30:38
+- ز ي ن + ع م ل (9): 6:108, 6:122, 9:37, 10:12, 11:15, 18:7, 27:4, 35:8
 - س ب ل + ع م ل (7): 3:195, 4:94, 9:120, 17:84, 31:15, 47:4, 57:10
 - ب ص ر + س ك ن (4): 10:67, 27:86, 28:72, 40:61
 - ش ط ن + ع م ل (3): 5:90, 21:82, 28:15
-- ب ص ر + س ب ل (2): 3:13, 12:108
-- س ب ل + ش ط ن (2): 4:76, 18:63
-- ع م ل + ع و د (2): 10:4, 58:3
 - ش ط ن + ص د د (2): 5:91, 43:62
-- ز ي ن + س ب ل (1): 10:88
-- ب ص ر + ز ي ن (1): 24:31
-- ز ي ن + ش ط ن (1): 67:5
-- س ك ن + ع م ل (1): 18:79
+- س ب ل + ش ط ن (2): 4:76, 18:63
+- ب ص ر + س ب ل (2): 3:13, 12:108
+- ع م ل + ع و د (2): 10:4, 58:3
 - ب ص ر + ش ط ن (1): 7:201
 - ش ط ن + ع و د (1): 2:275
+- ز ي ن + ش ط ن (1): 67:5
 - س ك ن + ع و د (1): 5:95
+- س ك ن + ع م ل (1): 18:79
+- ب ص ر + ز ي ن (1): 24:31
+- ز ي ن + س ب ل (1): 10:88
 
 ## HFT mechanisms and the hubs they touch
 
@@ -534,13 +520,13 @@ Edges: {'lex': 277, 'rel': 231, 'sound': 3, 'img': 1350, 'form': 11, 'frame': 8,
 - baseline_settlement_reversal [baseline_models] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 29:32 [surah]
 - delta_discernment_under_assay [context_deltas] → 11:52 [people]
 - delta_rival_path_and_burden_transfer [context_deltas] → مُسْتَبْصِرِينَ (w16); 29:12 [surah]; 29:41 [surah]
-- delta_socialized_obstruction [context_deltas] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 7:73 [people]; 7:77 [people]
+- delta_socialized_obstruction [context_deltas] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 7:73 [people]; 29:33 [surah]
 - delta_dwellings_as_field_evidence [context_deltas] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 29:32 [surah]
 - delta_false_stability_architecture [context_deltas] → مُسْتَبْصِرِينَ (w16); 29:41 [surah]
-- delta_embodied_inhibition [context_deltas] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 7:73 [people]; 7:77 [people]
-- delta_nonbinding_knowledge [context_deltas] → 11:52 [people]; 29:41 [surah]; 29:63 [surah]
+- delta_embodied_inhibition [context_deltas] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 7:73 [people]; 29:33 [surah]
+- delta_nonbinding_knowledge [context_deltas] → 11:52 [people]; 29:41 [surah]
 - delta_state_dependent_salience [context_deltas] → مُسْتَبْصِرِينَ (w16); 7:73 [people]; 29:33 [surah]
 - delta_security_belief_collision [context_deltas] → 11:52 [people]
 - delta_effort_opens_paths [context_deltas] → 29:29 [surah]; 29:41 [surah]; 29:33 [surah]
 - outlier_webbed_path [surprising_valid_outliers] → مُسْتَبْصِرِينَ (w16); 7:74 [people]; 29:41 [surah]
-- outlier_counted_case_ledger [surprising_valid_outliers] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 7:73 [people]; 7:77 [people]
+- outlier_counted_case_ledger [surprising_valid_outliers] → مُسْتَبْصِرِينَ (w16); 29:29 [surah]; 7:73 [people]; 29:32 [surah]

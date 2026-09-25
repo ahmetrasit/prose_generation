@@ -60,7 +60,7 @@ NEAREST = 3           # per (branch, edge type, target root) and zone: the neare
 ADVERBIAL = {"بَعْد", "قَبْل", "بَيْن", "فَوْق", "تَحْت", "دُون", "عِند", "عِنْد", "حَوْل", "خَلْف", "أَمَام", "لَدُن", "لَدَى"}
 RARE_FORMS = {"V", "VI", "VII", "IX", "X", "XI", "XII"}
 HUB_MIN = 3
-HUBS_SHOWN = 16       # focus-word hubs first, then context hubs by evidence score
+HUBS_PER_ZONE = 6     # context hubs shown per zone (surah, Fatiha, people, inter), by evidence score
 CONTRAST = {"antonym", "polarity_pair"}
 
 DIAC = re.compile(r"[ؐ-ًؚ-ٟۖ-ۭـ]")
@@ -204,7 +204,7 @@ class Net:
         self.adj[b][a].append(e)
 
 
-def build(ref: str, k: int) -> tuple[Net, dict]:
+def build(ref: str, k: int, inter: bool = False) -> tuple[Net, dict]:
     src = P.Sources()
     lex = Lexicon(src)
     surah, ayah = (int(x) for x in ref.split(":"))
@@ -278,13 +278,20 @@ def build(ref: str, k: int) -> tuple[Net, dict]:
                     r = f"{s}:{a2}"
                     if r in src.quran and r != ref:
                         zone.setdefault(r, "people")
+    if inter:  # targets of the reciprocal inter-ayah rows (quran-data), not already in scope
+        rows = (P.RECIPROCAL_DIR / f"focus_{surah}_{ayah}_cutoff_100.tsv").read_text(encoding="utf-8").splitlines()
+        head = rows[0].split("\t")
+        for line in rows[1:]:
+            r = dict(zip(head, line.split("\t"))).get("target_ref", "")
+            if r and r != ref:
+                zone.setdefault(r, "inter")
     words_of = {r: src.words(r) for r in zone}
     for r, z in zone.items():
         net.node(f"A:{r}", type="A", ref=r, zone=z)
 
     def dist(r: str) -> tuple:
         s, a = (int(x) for x in r.split(":"))
-        return (0, abs(a - ayah)) if s == surah else ((1, a) if s == 1 else (2, s, a))
+        return (0, abs(a - ayah)) if s == surah else ((1, a) if s == 1 else (2, s, a))  # order within a zone
 
     lemma_index = defaultdict(list)  # lemma → [(ayah ref, surface)]
     rid_index = defaultdict(list)    # gateway root id → [(ayah ref, surface)]
@@ -585,7 +592,14 @@ def report(net: Net, meta: dict, st: dict) -> str:
          f"Edges: {dict(kinds)}.", ""]
     targets = st["targets"]
     L += ["## Hubs (rare branches of ≥3 roots point here)", ""]
-    for score, h, members, n_roots in st["hubs"][:HUBS_SHOWN]:
+    shown, per_zone = [], Counter()
+    for hub in st["hubs"]:  # focus-word hubs all; context hubs up to HUBS_PER_ZONE per zone (surah, people, inter …)
+        z = "focus" if N[hub[1]]["type"] == "F" else N[hub[1]]["zone"]
+        if z == "focus" or per_zone[z] < HUBS_PER_ZONE:
+            per_zone[z] += 1
+            shown.append(hub)
+    st["shown"] = shown
+    for score, h, members, n_roots in shown:
         L.append(f"### {label(net, h)} — {n_roots} roots, score {score}")
         if N[h]["type"] == "A":
             L.append(f"  {meta['words_of'].get(N[h]['ref'], '')}")
@@ -619,7 +633,7 @@ def report(net: Net, meta: dict, st: dict) -> str:
     for keys, refs in sorted(meta["groups"].items(), key=lambda kv: (-len(kv[0]), -len(kv[1])))[:30]:
         L.append(f"- {' + '.join(P.spaced(k_) for k_ in keys)} ({len(refs)}): {', '.join(sorted(refs, key=lambda r: tuple(map(int, r.split(':'))))[:8])}")
     L += ["", "## HFT mechanisms and the hubs they touch", ""]
-    hubsets = {h: set(m) | {h} for _, h, m, _n in st["hubs"][:HUBS_SHOWN]}
+    hubsets = {h: set(m) | {h} for _, h, m, _n in st["shown"]}
     for m, d in N.items():
         if d["type"] != "M":
             continue
@@ -634,14 +648,16 @@ def main() -> None:
     ap.add_argument("ref")
     ap.add_argument("--k", type=int, default=3)
     ap.add_argument("--out", default="")
+    ap.add_argument("--inter", action="store_true", help="add the inter-ayah target ayat as a context zone")
     a = ap.parse_args()
     s, n = a.ref.split(":")
     out = Path(a.out) if a.out else V9 / "network" / "out" / f"{s}_{n}"
     out.mkdir(parents=True, exist_ok=True)
-    net, meta = build(a.ref, a.k)
+    net, meta = build(a.ref, a.k, a.inter)
     st = structures(net)
-    (out / f"network.k{a.k}.md").write_text(report(net, meta, st), encoding="utf-8")
-    (out / f"network.k{a.k}.json").write_text(json.dumps(
+    tag = f"k{a.k}" + ("-inter" if a.inter else "")
+    (out / f"network.{tag}.md").write_text(report(net, meta, st), encoding="utf-8")
+    (out / f"network.{tag}.json").write_text(json.dumps(
         {"nodes": net.nodes, "edges": net.edges,
          "hubs": [(n_, h, m, r_) for n_, h, m, r_ in st["hubs"]],
          "triangles": [(k_, b, x, y) for k_, b, x, y, _ in st["triangles"]],

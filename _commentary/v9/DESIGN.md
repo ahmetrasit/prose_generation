@@ -403,7 +403,22 @@ score), triangles (≥2 strong edges), convergence ranking, bridges, chain mater
   "Plain" from the HFT baseline mislabels some plain senses (بصر B001 counted rare); a one-time per-root pass
   (Quranic-usage branches) would generalise it.
 
+Why the three misses (dictionary text checked): night-as-rest (س ك ن B004 جعل الليل سكنا) ↔ 29:37 is a complement
+(night ↔ morning), and ليل is in 75 ayat (> SRC_RARE_DF 40); ugly snake (شطن B005 قبيح) ↔ زين B002 (الحسن) is an
+antonym with no shared word — قبيح is not a Quranic form and حسن is ambiguous over three lemmas (lookup needs a root
+fallback); turning-from-direction (شطن B003 خالفه عن نية وجهه) ↔ صدّ is a meaning-only synonym (image similarity only).
+The whole surah is in the network (all 68 other ayat); ±7 only names the image pool (near vs surah).
+
+Inter-ayah zone (`--inter`: reciprocal targets as context ayat; 204 added). Opus cited 56 ayat outside the surah and
+the Fatiha: strong 7 → 23, weak 6 → 14, in network without an edge 1 → 9, not in network 42 → 10. The 10 still out are
+mostly ±1 neighbours of targets that Opus read in context (14:44, 18:8, 26:129, 36:61, 15:79). The 9 without an edge
+are plain parallels (43:37 يصدونهم عن السبيل, 47:1, 53:50, 36:60): same focus root, plain sense → a `same-root` leaf edge.
+Opus-link recall unchanged (17/19). Cost: 598 nodes, 911 strong edges, 42 hubs; inter targets now show as hubs
+(3:99 تصدون عن سبيل الله … عوجا — the ش ط ن crookedness link Opus-on-findings found). Context hubs are listed per zone.
+
 Next:
+0. Keep `--inter` on; add ±1 neighbours of inter targets with a strong row; `same-root` leaf edges (F → A, plain
+   parallels, never counted in hubs); lemma-ambiguity fallback to root; root guess for non-Quranic dictionary words.
 1. Complement table (ليل/نهار/صبح, نور/ظلمة, حياة/موت …) as a lex sub-type; A–A concept edges for two-step chains
    (43:36 night-blindness path); treat top-1 same-ayah image partner as medium.
 2. Luna brief on the network: judge each hub member and triangle edge (keep / drop / reason) and name each structure
