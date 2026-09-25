@@ -30,8 +30,11 @@ import prepare as P  # noqa: E402
 
 QIRAAT = P.PROJECTS / "study" / "_project_corpus" / "qiraat.tsv"
 BUNDLE_BYTES = 40_000
-ROOT_FULL_MAX = 60      # a root family with at most this many occurrences is listed in full
-LEMMA_LIST_MAX = 40     # otherwise the focus lemma's occurrences, up to this many
+ROOT_SKIP_AYAT = 600    # a root in more ayat than this …
+FORM_SKIP = 150         # … whose focus form occurs more than this is function-like (qāla, kāna, ilāh): no usage item
+TIER_LIST_MAX = 40      # tier 1 (same form) listed in full up to this many occurrences, else counted
+RARE_FORM_MAX = 10      # tier 2: a form with at most this many occurrences is listed in full …
+TIER2_LIST_MAX = 40     # … up to this many tier-2 lines per root
 PEOPLE_MAX = 60         # a name in more ayat than this is not a people anchor (Allah, Shaytan …)
 ROOT_DF_MAX = 400       # formula families use content roots in at most this many ayat
 NEAR = 7
@@ -101,9 +104,15 @@ def build(ref: str) -> None:
                     lines.append(f"- {kind} {src.root_name.get(rid, rid)} branches: " + "; ".join(br))
         items["local"].append((f"L{w['w']:02d}", "\n".join(lines)))
 
-    # ---------------------------------------------------------------- usage
+    # ---------------------------------------------------------------- usage (two tiers, QAC)
+    # tier 1: the same form as the focus word (lemma + part of speech + verb form); tier 2: the root's other forms.
+    # Function-like roots (in > ROOT_SKIP_AYAT ayat with a focus form of > FORM_SKIP occurrences: qāla, kāna, ilāh …)
+    # get no usage item; common forms are counted, not listed; rare forms are listed in full.
     seen_keys = set()
     for w in content:
+        wm = {row[0]: row for row in src.qac.execute(
+            "select root_join_key, lemma_ar, pos, measure from qac_morphemes where qac_word_ref=? and "
+            "morpheme_role='STEM'", (w["ref"],))}
         for key in (k for k in w["roots"].split(";") if k):
             if key in seen_keys:
                 continue
@@ -111,32 +120,47 @@ def build(ref: str) -> None:
             occ = list(src.qac.execute(
                 "select distinct surah, ayah, surface_ar, lemma_ar, pos, measure from qac_morphemes "
                 "where root_join_key=? and morpheme_role='STEM' order by surah, ayah", (key,)))
-            by_lemma = defaultdict(list)
-            for os_, oa, surf, lem, pos, meas in occ:
-                by_lemma[(lem, pos, meas)].append((f"{os_}:{oa}", surf))
-            n_ayat = len({r for grp in by_lemma.values() for r, _ in grp})
-            focus_lemma = w["lemmas"].split(";")[-1]
-            lines = [f"### U-{key} root {P.spaced(key)} (focus word {w['surface']}, lemma {focus_lemma}) — "
-                     f"{len(occ)} occurrences in {n_ayat} ayat"]
-            lines.append("- forms: " + "; ".join(f"{lem or '—'} {pos}{(' ' + meas) if meas else ''}: {len(v)}"
-                                               for (lem, pos, meas), v in sorted(by_lemma.items(), key=lambda kv: -len(kv[1]))))
-            show = []
-            if len(occ) <= ROOT_FULL_MAX:
-                show = sorted(by_lemma.items(), key=lambda kv: (kv[0][0] != focus_lemma, -len(kv[1])))
-            else:
-                show = [(k, v) for k, v in by_lemma.items() if k[0] == focus_lemma]
-                lines.append(f"- frequent root: only the focus lemma's occurrences are listed (up to {LEMMA_LIST_MAX})")
-            co = Counter()
-            for (lem, pos, meas), occs in show:
-                lines.append(f"- {lem or '—'} ({pos}{(' form ' + meas) if meas else ''}):")
-                for r, surf in occs[:LEMMA_LIST_MAX]:
+            n_ayat = len({(x, y) for x, y, *_ in occ})
+            _, f_lem, f_pos, f_meas = wm.get(key, (key, w["lemmas"].split(";")[-1], "", ""))
+            same = [(f"{x}:{y}", sf) for x, y, sf, lem, pos, meas in occ if (lem, pos, meas) == (f_lem, f_pos, f_meas)]
+            if n_ayat > ROOT_SKIP_AYAT and len(same) > FORM_SKIP:
+                continue  # function-like root: occurrences carry no usage signal worth Luna's attention
+            other = defaultdict(list)
+            for x, y, sf, lem, pos, meas in occ:
+                if (lem, pos, meas) != (f_lem, f_pos, f_meas):
+                    other[(lem, pos, meas)].append((f"{x}:{y}", sf))
+            label = f"{f_lem} {f_pos}{(' form ' + f_meas) if f_meas else ''}"
+            lines = [f"### U-{key} root {P.spaced(key)} (focus word {w['surface']}: {label}) — {len(occ)} occurrences "
+                     f"in {n_ayat} ayat; same form {len(same)}, other forms {sum(len(v) for v in other.values())}"]
+            listed = []
+
+            def show(rows_, tag):
+                for r, sf in rows_:
                     here = " ◀ focus" if r == ref else (" [same surah]" if r.startswith(f"{s}:") else "")
-                    lines.append(f"  - {r}{here} {surf} | {clip(src.quran.get(r, ''), 220)}")
-                    if r != ref:
-                        for ww in src.words(r):
-                            for k2 in ww["roots"].split(";"):
-                                if k2 and k2 != key:
-                                    co[k2] += 1
+                    lines.append(f"  - {r}{here} {sf} | {clip(src.quran.get(r, ''), 200)}")
+                    listed.append(r)
+
+            if len(same) <= TIER_LIST_MAX:
+                lines.append(f"- tier 1, same form ({label}): {len(same)}")
+                show(same, "same")
+            else:
+                lines.append(f"- tier 1, same form ({label}): {len(same)} — common form, not listed")
+            if other:
+                lines.append("- tier 2, other forms: " + "; ".join(
+                    f"{lem or '—'} {pos}{(' form ' + meas) if meas else ''} {len(v)}"
+                    for (lem, pos, meas), v in sorted(other.items(), key=lambda kv: len(kv[1]))))
+                budget = TIER2_LIST_MAX
+                for (lem, pos, meas), v in sorted(other.items(), key=lambda kv: len(kv[1])):
+                    if len(v) <= RARE_FORM_MAX and budget >= len(v):
+                        lines.append(f"- rare form {lem or '—'} ({pos}{(' form ' + meas) if meas else ''}):")
+                        show(v, "rare")
+                        budget -= len(v)
+            co = Counter()
+            for r in set(listed) - {ref}:
+                for ww in src.words(r):
+                    for k2 in ww["roots"].split(";"):
+                        if k2 and k2 != key:
+                            co[k2] += 1
             shared = [f"{P.spaced(k)} ({c})" for k, c in co.most_common(14) if c >= 2]
             if shared:
                 lines.append("- roots co-occurring across the listed ayat: " + ", ".join(shared))
