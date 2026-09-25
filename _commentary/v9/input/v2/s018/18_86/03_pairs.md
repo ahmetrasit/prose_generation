@@ -1,0 +1,1454 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 1248.
+## ب ل غ (بَلَغَ)
+
+- **B001** bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme / الوصول إلى الغاية
+  - same: ع ن د B004 yakınında veya birinin değerlendirmesinde bulunma / قرب وحضور عند الشيء ← 18:86 عِندَهَا
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:82 أَشُدَّهُمَا
+  - near: ح و ط B004 bir şeyi bütünüyle bilme veya elde etme / تمام الإحاطة علما وإحرازا ← 18:91 أَحَطْنَا
+  - near: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 18:90 دُونِهَا
+  - far: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:2 شَدِيدًا
+  - far: و ل ي B012 ele geçirip hedefe ulaşma / استيلاء وبلوغ غاية ← 18:102 أَوْلِيَآءَ
+- **B002** bir şeyi, özellikle iletiyi, hedefine ulaştırma / إيصال الرسالة
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - same: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 18:86 قَوْمًا
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:82 أَشُدَّهُمَا
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 18:88 أَمْرِنَا
+  - far: ر س ل B002 haber taşıyıcısı veya taşınan haber / الرسول والرسالة ← 18:106 وَرُسُلِى
+  - far: ن ب ء B002 bilgi taşıyan haber / الخبر الآتي المبلَّغ ← 18:78 سَأُنَبِّئُكَ
+- **B003** yaşamı sürdürmeye yetecek ölçü ve geçim aracı / الكفاية التي يتبلغ بها
+  - same: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 18:86 قَوْمًا
+  - same: ق ر ن B003 yaşça ya da güççe denk kişi / كفء يساوي قرنه ← 18:86 ٱلْقَرْنَيْنِ
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - near: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 18:82 فَكَانَ
+  - near: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 18:90 قَوْمٍ
+  - near: ص ب ر B003 yükümlülüğe güvence veren kişi / تحمل الكفالة والملازمة ← 18:82 صَبْرًا
+  - far: ح س ب B003 gereksinimi karşılayacak kadar yetmek / الكفاية والإغناء ← 18:102 أَفَحَسِبَ
+  - far: ك ف ف B007 fazlasız yeter geçimlik / الكفاف بلا فضل ← 18:42 كَفَّيْهِ
+- **B004** amacını açık ve etkili sözle anlatma yetkinliği / الفصاحة التي تبلغ المراد
+  - same: ق و ل B002 konuşma organı / اللسان آلة القول ← 18:86 قُلْنَا
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - near: ب ي ن B005 anlamı açıkça ortaya koyma / كشف المعنى بالقول أو العلامة ← 18:93 بَيْنَ
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:82 أَشُدَّهُمَا
+  - near: ق و ل B002 konuşma organı / اللسان آلة القول ← 18:87 قَالَ
+  - far: ب ي ن B005 anlamı açıkça ortaya koyma / كشف المعنى بالقول أو العلامة ← 18:78 بَيْنِى
+  - far: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:2 شَدِيدًا
+- **B005** bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 18:86 وَجَدَهَا
+  - same: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 18:86 قُلْنَا
+  - same: ح س ن B005 bir işteki en yüksek çabası ve erişebileceği son sınır / حُسَيْناء الغاية والجهد ← 18:86 حُسْنًا
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:82 أَشُدَّهُمَا
+  - near: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 18:87 قَالَ
+  - near: ح س ن B005 bir işteki en yüksek çabası ve erişebileceği son sınır / حُسَيْناء الغاية والجهد ← 18:88 ٱلْحُسْنَىٰ
+  - far: ع ذ ر B004 kınanmayacak ölçüde elinden geleni yapmak veya uyarmak / الإعذار والبلوغ ← 18:76 عُذْرًا
+  - far: ء م د B001 son sinir ve varis noktasi / الأَمَد غاية الشيء ومنتهاه ← 18:12 أَمَدًا
+- **B006** düşüncesizliğine karşın istediğine ulaşan kişi / إدراك المراد مع الحمق
+  - same: ق و ل B006 sözü üzerine alma / اجترار القول إلى النفس ← 18:86 قُلْنَا
+  - same: ح م ء B003 kocanın erkek akrabası için ağızsal ad / الحَمْء من قرابة الزوج ← 18:86 حَمِئَةٍ
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - near: ء م ر B008 zayıf görüşlü kişi / ضعيف الرأي التابع ← 18:88 أَمْرِنَا
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:82 أَشُدَّهُمَا
+  - near: ف ق ه B001 bir şeyi anlayıp bilme / إدراك الشيء وفهمه ← 18:93 يَفْقَهُونَ
+  - far: س م ع B011 duyulsun ama bana ulaşmasın / سَمْع لا بَلَغ ← 18:101 سَمْعًا
+  - far: ر د م B003 ateşli hastalığın sürüp kişiyi bırakmaması / إطباق الحمى وملازمتها ← 18:95 رَدْمًا
+- **B007** atı hızlandırmak için dizgini ileri verme / مد الفارس عنانه لزيادة العدو
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - same: ش م س B003 birine düşmanlığını açıkça göstermek / إبداء العداوة ← 18:86 ٱلشَّمْسِ
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - near: ق ر ب B014 atın dörtnaldan yavaş özel koşusu / تقريب الفرس في العدو ← 18:81 وَأَقْرَبَ
+  - near: خ ر ج B013 uzun boyunlu at niteliği / عنق خارج يغتال العنان ← 18:82 وَيَسْتَخْرِجَا
+  - near: ك و د B001 bir şeyi biraz güçlükle aramak / طلب بعناء ← 18:93 يَكَادُونَ
+  - far: ب غ ي B007 atın koşarken çalımlı ve neşeli davranması / اختيال الفرس ومرحه في العدو ← 18:64 نَبْغِ
+  - far: ط ع م B009 atın ağız bölümü ve koşma talebi / مستطعم الفرس وطلب جريه ← 18:77 ٱسْتَطْعَمَآ
+- **B008** yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة
+  - same: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:86 قُلْنَا
+  - same: ق ل ل B001 azlık / القِلَّة والضآلة ← 18:86 قُلْنَا
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:86 قَوْمًا
+  - near: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:87 قَالَ
+  - near: غ ل م B003 içeceğin sertleşip keskinleşmesi / اشتداد الشراب ← 18:82 لِغُلَٰمَيْنِ
+  - near: ح و ط B006 karşı konulmaz bir güçle kuşatılıp yıkıma sürüklenme / إحاطة الغلبة والهلاك ← 18:91 أَحَطْنَا
+  - far: ع س ي B004 gecenin iyice kararması / اشتداد ظلمة الليل ← 18:40 فَعَسَىٰ
+  - far: غ ف ل B005 dalgınlığından yararlanarak kandırma / اهتبال غفلة الآخر ← 18:28 أَغْفَلْنَا
+- **B009** üzücü olayı duyup ondan uzak kalmayı dileme / سماع المكروه بلا بلوغ
+  - same: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 18:86 قُلْنَا
+  - same: غ ر ب B013 kaynağı bilinmeyen ok ve hedefsiz bakış / سهم غرب ونظر غرب ← 18:86 مَغْرِبَ
+  - same: ع ي ن B005 haber toplayan gizli gözcü / العين الجاسوسة ← 18:86 عَيْنٍ
+  - near: ء م ن B003 duada kabul istegi sozu / قول آمين طلبا للاستجابة ← 18:88 ءَامَنَ
+  - near: ء ب و B002 babaya seslenme ve bağlama göre övgü ya da ağır yergi bildiren hitap kalıpları / خطاب الأب ومثله ← 18:82 أَبُوهُمَا
+  - near: د و ن B003 başkası ya da daha aşağıda olan / السوى والغير ← 18:90 دُونِهَا
+  - far: س م ع B011 duyulsun ama bana ulaşmasın / سَمْع لا بَلَغ ← 18:101 سَمْعًا
+  - far: د ع و B004 Tanrı'nın birine istemediği bir sıkıntıyı vermesi / الدعاء بالمكروه النازل ← 18:57 تَدْعُهُمْ
+- **B010** birini kötüleyici bildirimler / البلاغات الوشايات
+  - same: ق و ل B002 konuşma organı / اللسان آلة القول ← 18:86 قُلْنَا
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 18:86 وَجَدَهَا
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - near: س ب ب B014 asılsız sözler ve saçmalıklar / البَسابِس أباطيل ← 18:85 سَبَبًا
+  - near: ك ل ل B009 topluluklar, kümeler / الكلاكل جماعات ← 18:84 كُلِّ
+  - near: ق و ل B002 konuşma organı / اللسان آلة القول ← 18:87 قَالَ
+  - far: ج و ز B013 bir tür dokuma üstlük / التجاويز من البرود ← 18:62 جَاوَزَا
+  - far: ف ر ط B011 özel bir haberciyi tek başına göndermek / إرسال رسول خاص في حاجة ← 18:28 فُرُطًا
+- **B011** başa gelen ağır ve yıkıcı büyük olay / البُلغين الداهية
+  - same: غ ر ب B014 uzak uçan söylence kuşu veya büyük felaket / عنقاء مغرب طائر بعيد أو داهية ← 18:86 مَغْرِبَ
+  - same: ع ي ن B017 kimse veya orada bulunan insanlar / العين بمعنى الناس الحاضرون ← 18:86 عَيْنٍ
+  - same: ق و ل B002 konuşma organı / اللسان آلة القول ← 18:86 قُلْنَا
+  - near: ن ك ر B002 uyanıklık ve ince kavrayış / الدَّهاء والفطنة ← 18:87 نُّكْرًا
+  - near: ص ب ر B006 çıkışsız ağır durum / الوقوع في شدة لا منفذ منها ← 18:82 صَبْرًا
+  - near: ذ ك ر B002 sert, keskin ve güçlü olma / صلابة الذكر وحدته وشدته ← 18:83 ذِكْرًا
+  - far: ز ب ر B005 ağır felaket / الزبير أو الزوبر للداهية ← 18:96 زُبَرَ
+  - far: ب غ ي B008 ordudan önce ilerleyen öncüler / البغايا الطلائع ← 18:64 نَبْغِ
+
+## غ ر ب (مَغْرِبَ, تَغْرُبُ)
+
+- **B001** keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية
+  - same: ب ل غ B001 bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme / الوصول إلى الغاية ← 18:86 بَلَغَ
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - same: ق و ل B016 teknik tanım / قول الشيء حده ← 18:86 قُلْنَا
+  - near: ك ل ل B001 körelip güçten düşme / الكَلال وخلاف الحدة ← 18:84 كُلِّ
+  - near: ق ر ب B010 kılıç kını veya deri dış kabı / قراب السيف ووعاؤه ← 18:81 وَأَقْرَبَ
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 18:82 أَشُدَّهُمَا
+  - far: ح د د B006 sertlik, atılgan güç ve öfkeli taşkınlık / حدة البأس والشراب والغضب ← 18:96 ٱلْحَدِيدِ
+  - far: ك ل ل B001 körelip güçten düşme / الكَلال وخلاف الحدة ← 18:54 كُلِّ
+- **B002** büyük kuyu kovası ve onunla su alma / الغرب الدلو العظيمة والراوية
+  - same: ق ل ل B003 büyük küp / القُلَّة الجرة الكبيرة ← 18:86 قُلْنَا
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:86 قَوْمًا
+  - same: ع ي ن B007 su sızdıran ince delik / عين الجلد والسقاء ← 18:86 عَيْنٍ
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 18:91 خُبْرًا
+  - near: ق ر ب B009 su tulumu / القربة وعاء الماء ← 18:81 وَأَقْرَبَ
+  - near: ب ي ن B006 geniş uzaklık / بعد المسافة واتساع الفجوة ← 18:93 بَيْنَ
+  - far: ق و ي B005 dolu kovadaki suyu birlikte eğilip içme / تقاوي الدلو بشرب مائها ← 18:95 بِقُوَّةٍ
+  - far: س م ع B008 taşıma kabının sap veya denge parçası / مِسمع الدلو والغرب ← 18:101 سَمْعًا
+- **B003** kuyuda dökülen su ve su taşkınlığı / ماء البئر المنصب وكثرته
+  - same: ع ي ن B006 akan su kaynağı / منبع الماء الجاري ← 18:86 عَيْنٍ
+  - same: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 18:86 تَتَّخِذَ
+  - same: ق و ل B014 durumuyla belli etme / قول الشيء دلالته ← 18:86 قُلْنَا
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 18:87 رَبِّهِۦ
+  - near: ب ح ر B001 genis büyük su kütlesi / الماء الواسع الكثير ← 18:79 ٱلْبَحْرِ
+  - near: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 18:87 يُرَدُّ
+  - far: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 18:66 تُعَلِّمَنِ
+  - far: ف ر غ B002 dökerek boşaltma veya akıp dökülme / الصب وإخلاء الوعاء ← 18:96 أُفْرِغْ
+- **B004** gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين
+  - same: ع ي ن B007 su sızdıran ince delik / عين الجلد والسقاء ← 18:86 عَيْنٍ
+  - same: ع ن د B003 sıvının yana yönelerek veya kesilmeden akması / سيلان عاند جانح ← 18:86 عِندَهَا
+  - same: ق ر ن B010 bir terleme nöbeti veya çabuk terleyen at / دفعة عرق أو حلبته ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: خ ر ج B004 bedende çıkan irinli şişlik veya yara / قُرْح يخرج في الجسد ← 18:82 وَيَسْتَخْرِجَا
+  - near: ق ر ن B010 bir terleme nöbeti veya çabuk terleyen at / دفعة عرق أو حلبته ← 18:83 ٱلْقَرْنَيْنِ
+  - far: ن ظ ر B008 biçime bağlı adlandırmalar / العين وموضع النظر فيها ← 18:19 فَلْيَنظُرْ
+  - far: غ ر ق B003 gözün yaşla, toprağın suyla dolması / امتلاء العين أو الأرض بالماء ← 18:71 لِتُغْرِقَ
+- **B005** dişlerin suyu, parlaklığı ve keskin uçları / غروب الأسنان ماء وحدّة
+  - same: ع ي ن B006 akan su kaynağı / منبع الماء الجاري ← 18:86 عَيْنٍ
+  - same: ح م ء B001 kara, kötü kokulu su çamuru / الحمأة السوداء في الماء ← 18:86 حَمِئَةٍ
+  - same: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 18:86 تَتَّخِذَ
+  - near: ظ ل م B005 dislerde su gibi parilti / ماء الأسنان وبريق الثغر ← 18:87 ظَلَمَ
+  - near: ق ر ب B009 su tulumu / القربة وعاء الماء ← 18:81 وَأَقْرَبَ
+  - near: ء م ر B011 mızrağa uç takma / تسليح القناة بسنان ← 18:88 أَمْرِنَا
+  - far: ظ ل م B005 dislerde su gibi parilti / ماء الأسنان وبريق الثغر ← 18:59 ظَلَمُوا۟
+  - far: س ن ن B004 diş; diş gelişimiyle belirlenen yaş ve olgunluk / سن ناتئ وعمر ظاهر ← 18:55 سُنَّةُ
+- **B006** güneşin batması, batı yönü ve batış yeri / غروب الشمس والمغرب
+  - same: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:86 ٱلشَّمْسِ
+  - same: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:86 عَيْنٍ
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 18:86 قَوْمًا
+  - near: ط ل ع B001 güneşin, ayın, yıldızın veya tanın doğması; doğuş olayı ve yeri / طلوع النير وموضعه ← 18:90 مَطْلِعَ
+  - near: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:90 ٱلشَّمْسِ
+  - near: ك ف ر B002 örten karanlık veya enginlik / غمر ساتر ← 18:80 وَكُفْرًا
+  - far: غ و ر B004 güneşin ufukta batıp kaybolması / غيبوبة الشمس في الأفق ← 18:41 غَوْرًا
+  - far: ش ف ق B002 gün batımı kızıllığı / حمرة الشفق عند مغيب الشمس ← 18:49 مُشْفِقِينَ
+- **B007** yurttan uzaklaşma ve uzaklaştırma / الغربة والبعد والتنحي
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - same: ع ن د B004 yakınında veya birinin değerlendirmesinde bulunma / قرب وحضور عند الشيء ← 18:86 عِندَهَا
+  - same: ق ل ل B001 azlık / القِلَّة والضآلة ← 18:86 قُلْنَا
+  - near: ء ت ي B006 topluluğa yabancı kimse / الغريب الداخل في غير قومه ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ق ر ب B001 yakın olma, yaklaşma veya yaklaştırma / الدنو وخلاف البعد ← 18:81 وَأَقْرَبَ
+  - near: ب ي ن B006 geniş uzaklık / بعد المسافة واتساع الفجوة ← 18:93 بَيْنَ
+  - far: ش ط ن B001 uzaklaşma ve uzaklaştırma / البعد والانقطاع ← 18:63 ٱلشَّيْطَٰنُ
+  - far: ب ع د B003 uzaklastirma / إحداث البعد والمباعدة ← 18:76 بَعْدَهَا
+- **B008** nadir, benzersiz veya anlaşılması güç / الغريب النادر والغامض
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:86 قَوْمًا
+  - same: ع ن د B004 yakınında veya birinin değerlendirmesinde bulunma / قرب وحضور عند الشيء ← 18:86 عِندَهَا
+  - near: ء ت ي B006 topluluğa yabancı kimse / الغريب الداخل في غير قومه ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ن ك ر B003 çetin ve yadırgatıcı durum / الأمر الصعب الشديد الغريب ← 18:87 نُّكْرًا
+  - near: ء ر ض B004 yabancı kimse / ابن الأرض الغريب ← 18:84 ٱلْأَرْضِ
+  - far: ء ت ي B006 topluluğa yabancı kimse / الغريب الداخل في غير قومه ← 18:77 أَتَيَآ
+  - far: ن ك ر B003 çetin ve yadırgatıcı durum / الأمر الصعب الشديد الغريب ← 18:74 نُّكْرًا
+- **B009** üst sırt, yüksek tepe ve serbest bırakma / الغارب أعلى الظهر والموج
+  - same: ق ل ل B002 bir şeyin tepesi veya başı / قُلَّة الشيء ورأسه ← 18:86 قُلْنَا
+  - same: ج د د B006 su kıyısı / حافة الماء وساحله ← 18:86 وَجَدَهَا
+  - same: ق ر ن B006 boynuz veya boynuz biçimli çıkıntı / نتوء قوي كقرن الرأس ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 18:87 يُرَدُّ
+  - near: ق ر ب B015 böğür, bedenin yan bölgesi / قُرْب الفرس والخاصرة ← 18:81 وَأَقْرَبَ
+  - near: ص ب ر B004 üst ya da yan sınır / أعلى الشيء وجوانبه ← 18:82 صَبْرًا
+  - far: ذ ر و B001 doruk ve saygınlığı överek yüceltme / الذروة والعلو المشرف ← 18:45 تَذْرُوهُ
+  - far: ش ط ط B003 su veya vadi kıyısı ile hörgücün yanı / الجانب والشق المنحاز ← 18:14 شَطَطًا
+- **B010** karga ve karga gibi kapkara / الغراب وسواد الغراب
+  - same: ح م ء B001 kara, kötü kokulu su çamuru / الحمأة السوداء في الماء ← 18:86 حَمِئَةٍ
+  - same: ج د د B013 cırcır böceği / دويبة الجُدجُد ← 18:86 وَجَدَهَا
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - near: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 18:87 رَبِّهِۦ
+  - near: ن ك ر B003 çetin ve yadırgatıcı durum / الأمر الصعب الشديد الغريب ← 18:87 نُّكْرًا
+  - near: خ ر ج B007 iki renkli ya da yer yer kesintili görünüm / اختلاف لونين في الشيء ← 18:82 وَيَسْتَخْرِجَا
+  - far: خ ض ر B001 yeşil ve karaya çalan koyu yeşil renk / اللون الأخضر وما يسود من شدة الخضرة ← 18:31 خُضْرًا
+  - far: ع ق ب B013 kartal ve ona benzetilen büyük sancak / العقاب الجارح والراية ← 18:44 عُقْبًا
+- **B011** sağrı çukurları ve çok sıkı bağ / هيئة الغراب في الأعضاء والعقد
+  - same: ع ي ن B009 göze benzer çukur, yer veya eğim / النقرة أو الموضع العيني ← 18:86 عَيْنٍ
+  - same: ج د د B013 cırcır böceği / دويبة الجُدجُد ← 18:86 وَجَدَهَا
+  - same: ق ر ن B006 boynuz veya boynuz biçimli çıkıntı / نتوء قوي كقرن الرأس ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ب د ل B004 el ve ayak agrisi / وجع اليدين والرجلين ← 18:81 يُبْدِلَهُمَا
+  - near: ق ر ب B014 atın dörtnaldan yavaş özel koşusu / تقريب الفرس في العدو ← 18:81 وَأَقْرَبَ
+  - near: ن ك ر B003 çetin ve yadırgatıcı durum / الأمر الصعب الشديد الغريب ← 18:87 نُّكْرًا
+  - far: ر ج ل B009 ayak benzetmeli özel adlar / رجل القوس والميسم ← 18:37 رَجُلًا
+  - far: ع ز ز B010 atın iki kalça ucu arasındaki bölge / العزيزاء من الفرس ← 18:34 وَأَعَزُّ
+- **B012** beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren / المغرب بياض في الشفر والشعر
+  - same: ق ر ن B006 boynuz veya boynuz biçimli çıkıntı / نتوء قوي كقرن الرأس ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 18:86 تَتَّخِذَ
+  - same: ح م ء B001 kara, kötü kokulu su çamuru / الحمأة السوداء في الماء ← 18:86 حَمِئَةٍ
+  - near: ص ب ر B010 katmanlı beyaz bulut / سحاب أبيض متراكم ← 18:82 صَبْرًا
+  - near: ق ر ن B006 boynuz veya boynuz biçimli çıkıntı / نتوء قوي كقرن الرأس ← 18:83 ٱلْقَرْنَيْنِ
+  - near: س ب ب B007 sarkan perçem, yele veya kuyruk kılı / السَّبيب شعر متدل ← 18:85 سَبَبًا
+  - far: ر ج ل B005 bir bacağı beyaz hayvan / بياض رجل الدابة ← 18:37 رَجُلًا
+  - far: ن ق ب B011 dış renk ve görünüş / لون الوجه وهيئته وما يظهر منه ← 18:97 نَقْبًا
+- **B013** kaynağı bilinmeyen ok ve hedefsiz bakış / سهم غرب ونظر غرب
+  - same: ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 18:86 قَوْمًا
+  - same: ب ل غ B009 üzücü olayı duyup ondan uzak kalmayı dileme / سماع المكروه بلا بلوغ ← 18:86 بَلَغَ
+  - same: ع ي ن B004 kötü bakışla zarar verme / الإصابة بالعين ← 18:86 عَيْنٍ
+  - near: ط ل ع B010 okun nişan alınan yerin üstünden geçip arkasına düşmesi / سهم يطلع فوق الغرض ← 18:90 مَطْلِعَ
+  - near: ء ت ي B005 başka bölgeden gelen sel / السيل الآتي من غير البلد ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ب ح ر B005 acikta karsilasmak / الظهور في الفضاء ← 18:79 ٱلْبَحْرِ
+  - far: ن ب ء B005 okun hedefi çizmeden başka yere düşmesi / السهم يعدل ولا يخدش ← 18:78 سَأُنَبِّئُكَ
+  - far: ط ل ع B010 okun nişan alınan yerin üstünden geçip arkasına düşmesi / سهم يطلع فوق الغرض ← 18:18 ٱطَّلَعْتَ
+- **B014** uzak uçan söylence kuşu veya büyük felaket / عنقاء مغرب طائر بعيد أو داهية
+  - same: ب ل غ B011 başa gelen ağır ve yıkıcı büyük olay / البُلغين الداهية ← 18:86 بَلَغَ
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - same: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 18:86 عِندَهَا
+  - near: ب ل غ B011 başa gelen ağır ve yıkıcı büyük olay / البُلغين الداهية ← 18:82 يَبْلُغَآ
+  - near: ن ك ر B002 uyanıklık ve ince kavrayış / الدَّهاء والفطنة ← 18:87 نُّكْرًا
+  - near: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 18:90 دُونِهَا
+  - far: ع ق ب B013 kartal ve ona benzetilen büyük sancak / العقاب الجارح والراية ← 18:44 عُقْبًا
+  - far: ع ش و B004 öğle sonrasından gecenin başına uzanan akşam vakti / وقت العشي والعشاء ← 18:28 وَٱلْعَشِىِّ
+- **B015** belirli bir ağaç, kırmızı reçinesi veya boyası / الغرب شجر وصمغ وصبغ أحمر
+  - same: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:86 ٱلشَّمْسِ
+  - same: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:86 عَيْنٍ
+  - same: ج د د B012 düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة ← 18:86 وَجَدَهَا
+  - near: ص ب ر B009 demirhindi meyvesi / الصبار حمل الشجرة الحامض ← 18:82 صَبْرًا
+  - near: ظ ل م B007 siniri asan uzun surgunlu bitki / شجر الظلام المتجاوز ← 18:87 ظَلَمَ
+  - near: ج د ر B004 yeni çıkmış bitki; bitkinin, yaprağın veya meyvenin belirmesi / النبات الناتئ ← 18:82 ٱلْجِدَارُ
+  - far: غ ف ر B007 ağaçtan çıkan veya toplanan ürün / مغافير الشجر الحلوة ← 18:58 ٱلْغَفُورُ
+  - far: ص ب ر B009 demirhindi meyvesi / الصبار حمل الشجرة الحامض ← 18:78 صَبْرًا
+- **B016** hurma mayalaması veya şarap / الغربي الفضيخ والخمر
+  - same: ع ذ ب B001 tatlı ve kolay tüketilen yiyecek ya da içecek / العذوبة والطيب في الماء والمطعوم ← 18:86 تُعَذِّبَ
+  - same: ء خ ذ B003 yakalayıp tutsak etme / القبض والأسر ← 18:86 تَتَّخِذَ
+  - same: ع ي ن B011 hemen elde bulunan para / النقد الحاضر ← 18:86 عَيْنٍ
+  - near: ص ب ر B009 demirhindi meyvesi / الصبار حمل الشجرة الحامض ← 18:82 صَبْرًا
+  - near: خ ش ي B004 kuruyup sertleşmiş veya buruşup niteliğini yitirmiş olma / الحشف واليبس ← 18:80 فَخَشِينَآ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 18:87 رَبِّهِۦ
+  - far: ر و ح B015 üzümden yapılan sarhoş edici içki / الراح الخمر ← 18:45 ٱلرِّيَٰحُ
+  - far: ق ل ب B015 kızarmış ham hurma / القالب البسر الأحمر ← 18:57 قُلُوبِهِمْ
+- **B017** şiddetli ağrı veya koyunda tüy döken hastalık / الوجع والداء في البدن أو الشاة
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:86 قَوْمًا
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 18:86 تَتَّخِذَ
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - near: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:90 قَوْمٍ
+  - near: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 18:79 يَأْخُذُ
+  - near: ب ح ر B014 sudan kanmayacak kadar susamak / اشتداد العطش مع عدم الرِّيّ ← 18:79 ٱلْبَحْرِ
+  - far: ل ق ي B001 yüzü veya ağız köşesini eğrilten hastalık / عوج يأخذ الوجه ← 18:74 لَقِيَا
+  - far: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:77 فَأَقَامَهُۥ
+- **B018** gümüş, altın veya bunlardan yapılmış değerli kap / الفضة والذهب والإناء النفيس
+  - same: ع ي ن B011 hemen elde bulunan para / النقد الحاضر ← 18:86 عَيْنٍ
+  - same: ق ر ن B007 yaya bağlı ok kılıfı ve silahlı taşıyıcısı / جعبة تقرن بالقوس وسلاح معها ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ش م س B004 kolye sarkıtları ya da bir kolye türü / شموس القلائد ← 18:86 ٱلشَّمْسِ
+  - near: ح و ط B007 yuvarlak veya hilal biçimli gümüş süs / الحوط حلية مستديرة ← 18:91 أَحَطْنَا
+  - near: ك ل ل B011 dişleri görünerek gülümseme ve bulutun şimşekle gülümser gibi olması / الانكلال تبسما ولمعا ← 18:84 كُلِّ
+  - near: ء ر ض B004 yabancı kimse / ابن الأرض الغريب ← 18:84 ٱلْأَرْضِ
+  - far: ذ ه ب B001 altın ve altından bir parça / الذَّهَب المعدن ← 18:31 ذَهَبٍ
+  - far: م و ه B005 başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme / كسوة المعدن بماء الذهب أو الفضة ← 18:45 كَمَآءٍ
+
+## ش م س (ٱلشَّمْسِ)
+
+- **B001** güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح
+  - same: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:86 عَيْنٍ
+  - same: غ ر ب B006 güneşin batması, batı yönü ve batış yeri / غروب الشمس والمغرب ← 18:86 مَغْرِبَ
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 18:86 قَوْمًا
+  - near: ط ل ع B001 güneşin, ayın, yıldızın veya tanın doğması; doğuş olayı ve yeri / طلوع النير وموضعه ← 18:90 مَطْلِعَ
+  - near: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 18:90 قَوْمٍ
+  - near: ك ف ر B002 örten karanlık veya enginlik / غمر ساتر ← 18:80 وَكُفْرًا
+  - far: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:101 أَعْيُنُهُمْ
+  - far: ن ه ر B002 şafaktan gün batımına aydınlık gündüz / انفتاح النهار بالضياء ← 18:33 نَهَرًا
+- **B002** ürküp kaçınma, durulmama ve güçlük çıkarma / الشماس والشموس في الدابة والخلق
+  - same: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:86 عَيْنٍ
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - same: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 18:86 قَوْمًا
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 18:82 أَشُدَّهُمَا
+  - near: ن ك ر B003 çetin ve yadırgatıcı durum / الأمر الصعب الشديد الغريب ← 18:87 نُّكْرًا
+  - near: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 18:90 قَوْمٍ
+  - far: ع ر ض B012 yana saparak ilerleme / السير عارضا وصعوبة الاستقامة ← 18:100 وَعَرَضْنَا
+  - far: ن و ر B006 ürkmek, kaçınmak ve uzaklaştırmak / النِّفار وقلة الثبات ← 18:96 نَارًا
+- **B003** birine düşmanlığını açıkça göstermek / إبداء العداوة
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - same: ج د د B004 yeni olma ve yenilenme / جِدّة وحدوث بعد قطع ← 18:86 وَجَدَهَا
+  - same: ح س ن B005 bir işteki en yüksek çabası ve erişebileceği son sınır / حُسَيْناء الغاية والجهد ← 18:86 حُسْنًا
+  - near: ط ل ع B002 bir topluluğun karşısına çıkmak; ayrı kuruluşta onlardan gözden kaybolmak / ظهور المقبل على القوم ← 18:90 مَطْلِعَ
+  - near: ء ر ض B007 karşısına çıkıp kendini ortaya koymak / التعرض والتصدي ← 18:84 ٱلْأَرْضِ
+  - near: ن ك ر B007 karşılıklı düşmanlık ve çatışma / المناكرة قتال وعداوة ← 18:87 نُّكْرًا
+  - far: ن ص ب B008 birine savaş veya düşmanlıkla karşı çıkma / مواجهة العداوة والحرب ← 18:62 نَصَبًا
+  - far: ع د و B003 düşmanlık ve düşman / العَدُوّ والعداوة ← 18:50 عَدُوٌّۢ
+- **B004** kolye sarkıtları ya da bir kolye türü / شموس القلائد
+  - same: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:86 عَيْنٍ
+  - same: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:86 قُلْنَا
+  - same: غ ر ب B015 belirli bir ağaç, kırmızı reçinesi veya boyası / الغرب شجر وصمغ وصبغ أحمر ← 18:86 مَغْرِبَ
+  - near: ت ب ع B008 biçime bağlı adlandırmalar / التابع الحسي ← 18:85 فَأَتْبَعَ
+  - near: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:87 قَالَ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - far: ن خ ل B005 bir tanıklıkta hurma biçimli takı türü / حلي على صورة النخل ← 18:32 بِنَخْلٍ
+  - far: ق ل ب B008 tek parça bilezik veya halka süs / القلب من الأسورة ← 18:57 قُلُوبِهِمْ
+- **B005** başı ortadan tıraşlı, kiliseye bağlı Hristiyan önder din görevlisi / الشماس النصراني
+  - same: ق ل ل B002 bir şeyin tepesi veya başı / قُلَّة الشيء ورأسه ← 18:86 قُلْنَا
+  - same: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 18:86 قُلْنَا
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:86 قَوْمًا
+  - near: ر ب ب B017 gemicilerin başı / رباني الملاحين ← 18:87 رَبِّهِۦ
+  - near: ج د ر B003 doğal yapı veya huy / الطبيعة اللازمة ← 18:82 ٱلْجِدَارُ
+  - near: ت ب ع B009 eski güneybatı Arabistan hükümdar unvanı / تُبَّع وملوكه ← 18:85 فَأَتْبَعَ
+  - far: ن ص ر B006 Hristiyanlık ve Hristiyan olma ya da yapma / النصرانية نسبة وملة ← 18:43 يَنصُرُونَهُۥ
+  - far: ر ب ب B017 gemicilerin başı / رباني الملاحين ← 18:95 رَبِّى
+- **B006** arkasındakini koruma, topluluğunu savunma ve iyiliğini esirgeme / التشمس بالمنع والبخل
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 18:86 قَوْمًا
+  - same: ج د د B002 iyi yazgı ve varlık payı / حظ وغنى يناله الإنسان ← 18:86 وَجَدَهَا
+  - same: ء خ ذ B009 bir topluluğun yolunu ve özelliklerini benimseme / الأخذ بالسيرة والشكل ← 18:86 تَتَّخِذَ
+  - near: ش د د B006 eli sıkılık / شدة البخل ← 18:82 أَشُدَّهُمَا
+  - near: ن ك ر B003 çetin ve yadırgatıcı durum / الأمر الصعب الشديد الغريب ← 18:87 نُّكْرًا
+  - near: ظ ل م B008 paydan alikoyma / المنع والحبس عن الحق ← 18:87 ظَلَمَ
+  - far: ش د د B006 eli sıkılık / شدة البخل ← 18:2 شَدِيدًا
+  - far: م ن ع B001 vermeme ve esirgeme / كف اليد عن العطاء ← 18:55 مَنَعَ
+- **B007** güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri / التسمية بالشمس وما نسب إليها
+  - same: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:86 عَيْنٍ
+  - same: ج د د B014 kıyı ve kır yer adları / مواضع مسماة ← 18:86 وَجَدَهَا
+  - same: غ ر ب B006 güneşin batması, batı yönü ve batış yeri / غروب الشمس والمغرب ← 18:86 مَغْرِبَ
+  - near: ح س ن B004 yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام ← 18:88 ٱلْحُسْنَىٰ
+  - near: ط ل ع B007 bir alanı sınırına kadar doldurma; ayrı aktarımda güneşin gördüğü yeryüzü / امتلاء مستوعب ← 18:90 مَطْلِعَ
+  - near: ص ل ح B005 bir kent ve bir nehir için özel adlar / صلاح والصلح علمان لمواضع ← 18:88 صَٰلِحًا
+  - far: ن ه ر B007 kişi, yer ve yıldızlara ait özel adlar / أعلام وأسماء خاصة ← 18:33 نَهَرًا
+  - far: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:101 أَعْيُنُهُمْ
+
+## و ج د (وَجَدَهَا, وَوَجَدَ)
+
+- **B001** bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته
+  - same: ع ن د B005 başka seçenek, kaçınma payı veya çıkış yolu / انعدام البد والحيلة ← 18:86 عِندَهَا
+  - same: ج د د B003 kesme ve ayırma / قطع وصرم ← 18:86 وَجَدَهَا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - near: ش ي ء B002 — / المشيئة المتعلّقة بالشيء ← 18:84 شَىْءٍ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:79 يَأْخُذُ
+  - far: ط ل ب B001 bir şeyi bulmaya yönelik arayış / ابتغاء الشيء والبحث عنه ← 18:41 طَلَبًا
+  - far: ص د ف B004 birine rastlamak veya onu bulmak / المصادفة واللقاء ← 18:96 ٱلصَّدَفَيْنِ
+- **B002** varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود
+  - same: ق و ل B012 içte kalmış söz / قول في النفس لم يظهر ← 18:86 قُلْنَا
+  - same: ع ي ن B013 şeyin bizzat kendisi ve belirlenmiş olanı / عين الشيء نفسه ← 18:86 عَيْنٍ
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - near: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 18:90 نَجْعَل
+  - near: ك و ن B001 gerçekleşme, bulunma ve olma bildirimi / وقوع الشيء وحضوره في زمان ← 18:82 فَكَانَ
+  - near: ش ي ء B001 — / الشيء المعلوم المخبر عنه ← 18:84 شَىْءٍ
+  - far: ح د ث B001 yokken var olma, var etme veya gerçekleşme / كون الشيء بعد أن لم يكن ← 18:70 أُحْدِثَ
+  - far: ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه ← 18:94 نَجْعَلُ
+- **B003** varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى
+  - same: ج د د B002 iyi yazgı ve varlık payı / حظ وغنى يناله الإنسان ← 18:86 وَجَدَهَا
+  - same: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:86 بَلَغَ
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - near: ي س ر B003 maddi bolluk ve varlıklı olma / سعة وغنى ← 18:88 يُسْرًا
+  - near: م ك ن B005 güç yetirme, olanak sağlama ve denetim kazanma / اقتدار وتمكين ← 18:84 مَكَّنَّا
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - far: ق د ر B003 bir şeyi yapmaya veya ona egemen olmaya elveren güç / تمكن يبلغ بصاحبه الفعل والملك ← 18:45 مُّقْتَدِرًا
+  - far: ت ر ب B003 varlıklı hale gelmek / الغنى بكثرة التراب ← 18:37 تُرَابٍ
+- **B004** üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak / وجدان الحزن والمحبة
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 18:86 وَجَدَهَا
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - same: ع ن د B005 başka seçenek, kaçınma payı veya çıkış yolu / انعدام البد والحيلة ← 18:86 عِندَهَا
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 18:82 أَشُدَّهُمَا
+  - near: س د د B002 açığı ya da gereksinimi kapatan şey / ما يسد به الخلل والحاجة ← 18:93 ٱلسَّدَّيْنِ
+  - far: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 18:102 عِبَادِى
+  - far: ء س ف B001 güçlü üzüntü; yitirilene yönelik kullanımda hayıflanma / الفوت والتلهف ← 18:6 أَسَفًا
+- **B005** öfke duymak ve birine kızmak / الموجدة والغضب
+  - same: ح م ء B002 birine öfkelenmek / الغضب المهموز ← 18:86 حَمِئَةٍ
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 18:86 وَجَدَهَا
+  - same: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 18:86 قُلْنَا
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 18:82 أَشُدَّهُمَا
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: س ك ن B001 hareketin dinip durulması / ذهاب الحركة ← 18:79 لِمَسَٰكِينَ
+  - far: ء م د B002 ofke ve birine ofkelenme / الأَمَد غضب يقع على الإنسان ← 18:12 أَمَدًا
+  - far: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 18:102 عِبَادِى
+
+## ج د د (وَجَدَهَا, وَوَجَدَ)
+
+- **B001** değer ve konum yüceliği / عظمة القدر وعلوه
+  - same: ع ي ن B016 geniş ve güzel gözlü olma / سعة العين وحسنها ← 18:86 عَيْنٍ
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:86 بَلَغَ
+  - near: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:90 وَجَدَهَا
+  - near: ط ل ع B009 bir insanın görülüşü ve göz önündeki görünüşü / طلعة مرئية ← 18:90 مَطْلِعَ
+  - near: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:82 يَبْلُغَآ
+  - far: ك ب ر B006 ululuk ve kendini üstün görme / العظمة والكبرياء ← 18:49 كَبِيرَةً
+  - far: ع ز ز B001 güçlü, yenilmez ve saygın olma / العزة والقوة بعد الذل ← 18:34 وَأَعَزُّ
+- **B002** iyi yazgı ve varlık payı / حظ وغنى يناله الإنسان
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ش م س B006 arkasındakini koruma, topluluğunu savunma ve iyiliğini esirgeme / التشمس بالمنع والبخل ← 18:86 ٱلشَّمْسِ
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - near: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:90 وَجَدَهَا
+  - near: ي س ر B003 maddi bolluk ve varlıklı olma / سعة وغنى ← 18:88 يُسْرًا
+  - near: ج د ر B001 duvar, yükseltilmiş set ve duvarla çevrili yer / الجدار المرتفع ← 18:82 ٱلْجِدَارُ
+  - far: ر ز ق B006 iyi talih sahibi olma / الحظ والجَد ← 18:19 بِرِزْقٍ
+  - far: ء ك ل B003 verilen pay ve geçimlik / النصيب والرزق المطعوم ← 18:33 أُكُلَهَا
+- **B003** kesme ve ayırma / قطع وصرم
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - near: س ب ب B001 kesme ve bağı koparma / القَطْع والعَقْر ← 18:85 سَبَبًا
+  - near: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:90 وَجَدَهَا
+  - near: ج د ر B001 duvar, yükseltilmiş set ve duvarla çevrili yer / الجدار المرتفع ← 18:82 ٱلْجِدَارُ
+  - far: ج ر م B001 kesip ayırma / القطع والصرام ← 18:53 ٱلْمُجْرِمُونَ
+  - far: ق ر ض B001 dişle ya da küçük bir araçla kesmek / قطع الشيء وإبانة فضلاته ← 18:17 تَّقْرِضُهُمْ
+- **B004** yeni olma ve yenilenme / جِدّة وحدوث بعد قطع
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ش م س B003 birine düşmanlığını açıkça göstermek / إبداء العداوة ← 18:86 ٱلشَّمْسِ
+  - same: ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 18:86 قَوْمًا
+  - near: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:90 وَجَدَهَا
+  - near: ج د ر B001 duvar, yükseltilmiş set ve duvarla çevrili yer / الجدار المرتفع ← 18:82 ٱلْجِدَارُ
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 18:82 أَشُدَّهُمَا
+  - far: ح د ث B001 yokken var olma, var etme veya gerçekleşme / كون الشيء بعد أن لم يكن ← 18:70 أُحْدِثَ
+  - far: ف ت ي B005 gece ile gündüz birbirini izledikçe / اختلاف الفتيان ← 18:62 لِفَتَىٰهُ
+- **B005** belirgin şerit veya ana yol / طرائق وخطط ظاهرة
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 18:86 قَوْمًا
+  - near: ع م ل B011 işlek yol / الطريق المعمل ← 18:88 وَعَمِلَ
+  - near: ر و د B004 gidip gelme / التردد والاختلاف جيئة وذهابا ← 18:82 فَأَرَادَ
+  - near: م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 18:79 مَّلِكٌ
+  - far: ش ر ك B005 yolun ana yatağı, izleri ve küçük kolları / شِرك الطريق ← 18:110 يُشْرِكْ
+  - far: س ب ل B002 yol kullanan kişi veya yolcu / أهل الطريق وسالكوه ← 18:63 سَبِيلَهُۥ
+- **B006** su kıyısı / حافة الماء وساحله
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ق ل ل B002 bir şeyin tepesi veya başı / قُلَّة الشيء ورأسه ← 18:86 قُلْنَا
+  - same: غ ر ب B009 üst sırt, yüksek tepe ve serbest bırakma / الغارب أعلى الظهر والموج ← 18:86 مَغْرِبَ
+  - near: ب ح ر B006 yer ve su cukuru adi / الأرض الجامعة للماء ← 18:79 ٱلْبَحْرِ
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ك ف ر B002 örten karanlık veya enginlik / غمر ساتر ← 18:80 وَكُفْرًا
+  - far: ش ط ط B003 su veya vadi kıyısı ile hörgücün yanı / الجانب والشق المنحاز ← 18:14 شَطَطًا
+  - far: ف و ه B004 yerin ağzı, girişi, çıkışı veya başlangıcı / فوهة الموضع ومخرجه ← 18:5 أَفْوَٰهِهِمْ
+- **B007** düz ve sert yer yüzeyi / وجه الأرض المستوي
+  - same: ع ن د B002 ortak doğrultudan yana sapıp ayrı durma / ميل إلى ناحية وانفراد عن الجماعة ← 18:86 عِندَهَا
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ح س ن B004 yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام ← 18:86 حُسْنًا
+  - near: س ب ب B008 geniş ve çorak ıssız arazi / السَّبْسَب أرض قفر ← 18:85 سَبَبًا
+  - near: ء ر ض B002 yumuşak ve verimli toprak / الأرض اللينة المنبتة ← 18:84 ٱلْأَرْضِ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 18:91 خُبْرًا
+  - far: ص ع د B004 yeryüzü veya toprak yüzeyi / صعيد وجه الأرض ← 18:40 صَعِيدًا
+  - far: ج د ل B004 sert zemin / الجَدالة الأرض الصلبة ← 18:56 وَيُجَٰدِلُ
+- **B008** şakadan uzak kararlı çaba / عزم واجتهاد
+  - same: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:86 بَلَغَ
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 18:86 قَوْمًا
+  - near: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:82 يَبْلُغَآ
+  - near: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:90 وَجَدَهَا
+  - near: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 18:88 أَمْرِنَا
+  - far: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:76 بَلَغْتَ
+  - far: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:77 فَوَجَدَا
+- **B009** büyükanne ve büyükbaba / أبوة الأجداد
+  - same: ع ي ن B015 önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة ← 18:86 عَيْنٍ
+  - same: ح م ء B003 kocanın erkek akrabası için ağızsal ad / الحَمْء من قرابة الزوج ← 18:86 حَمِئَةٍ
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - near: ء ب و B001 babalık, besleyip yetiştirme ve oluşuma ya da iyileşmeye kaynaklık etme / الأبوة والتربية ← 18:82 أَبُوهُمَا
+  - near: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:90 وَجَدَهَا
+  - near: ك ل ل B004 üstsoy ve altsoy dışı mirasçılık / الكَلالة قرابة عارضة ← 18:84 كُلِّ
+  - far: و ل د B002 öz ana baba / أبوان من جهة الولادة ← 18:39 وَوَلَدًا
+  - far: ء ب و B001 babalık, besleyip yetiştirme ve oluşuma ya da iyileşmeye kaynaklık etme / الأبوة والتربية ← 18:5 لِءَابَآئِهِمْ
+- **B010** otlak kuyusu / بئر في موضع كلأ
+  - same: ح م ء B001 kara, kötü kokulu su çamuru / الحمأة السوداء في الماء ← 18:86 حَمِئَةٍ
+  - same: ح س ن B004 yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام ← 18:86 حُسْنًا
+  - same: غ ر ب B003 kuyuda dökülen su ve su taşkınlığı / ماء البئر المنصب وكثرته ← 18:86 مَغْرِبَ
+  - near: ب ح ر B006 yer ve su cukuru adi / الأرض الجامعة للماء ← 18:79 ٱلْبَحْرِ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 18:91 خُبْرًا
+  - near: ك ف ر B012 uzak arazi; köy, uzak yer halkı veya mezar / موضع منقطع ← 18:80 وَكُفْرًا
+  - far: ك ل و B004 yerdeki kuru ya da yaş ot / كَلأ الأرض وعشبها ← 18:33 كِلْتَا
+  - far: ر ج ل B013 kuyuya iple indirilmeden inmek / نزول البئر بلا تدلية ← 18:37 رَجُلًا
+- **B011** susuz yer veya sütü kesilmiş dişi hayvan / انقطاع ماء أو لبن
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - same: ق ر ن B008 uzuvları veya hareketleri eşleşen binek / أعضاء أو حركات تقارن بعضها ← 18:86 ٱلْقَرْنَيْنِ
+  - same: غ ر ب B017 şiddetli ağrı veya koyunda tüy döken hastalık / الوجع والداء في البدن أو الشاة ← 18:86 مَغْرِبَ
+  - near: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 18:87 يُرَدُّ
+  - near: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 18:87 رَبِّهِۦ
+  - near: ج د ر B001 duvar, yükseltilmiş set ve duvarla çevrili yer / الجدار المرتفع ← 18:82 ٱلْجِدَارُ
+  - far: ع س ي B006 sütü kesilmiş ya da sütü olup olmadığı belirsiz deve; kesilmede geri dönüş umulur / رجاء عودة اللبن ← 18:40 فَعَسَىٰ
+  - far: ع ز ز B006 dar kanallı ve güç sağılan olma / ضيق الإحليل وقلة الدر ← 18:34 وَأَعَزُّ
+- **B012** düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة
+  - same: ع ذ ب B006 ince uç veya sarkan bağlı parça / العذبة طرف أو علاقة متدلية ← 18:86 تُعَذِّبَ
+  - same: ش م س B004 kolye sarkıtları ya da bir kolye türü / شموس القلائد ← 18:86 ٱلشَّمْسِ
+  - same: غ ر ب B015 belirli bir ağaç, kırmızı reçinesi veya boyası / الغرب شجر وصمغ وصبغ أحمر ← 18:86 مَغْرِبَ
+  - near: ع ذ ب B006 ince uç veya sarkan bağlı parça / العذبة طرف أو علاقة متدلية ← 18:87 نُعَذِّبُهُۥ
+  - near: ج د ر B001 duvar, yükseltilmiş set ve duvarla çevrili yer / الجدار المرتفع ← 18:82 ٱلْجِدَارُ
+  - near: ء و ل B008 araç ve taşıyıcı düzen / الآلة الحاملة أو الأداة ← 18:82 تَأْوِيلُ
+  - far: غ د ر B007 saç örgüsü, sarkık tutam veya uzamaya bırakılmış saç / غدائر شعر متروكة ← 18:49 يُغَادِرُ
+  - far: ع ذ ب B006 ince uç veya sarkan bağlı parça / العذبة طرف أو علاقة متدلية ← 18:58 ٱلْعَذَابَ
+- **B013** cırcır böceği / دويبة الجُدجُد
+  - same: غ ر ب B011 sağrı çukurları ve çok sıkı bağ / هيئة الغراب في الأعضاء والعقد ← 18:86 مَغْرِبَ
+  - same: ش م س B003 birine düşmanlığını açıkça göstermek / إبداء العداوة ← 18:86 ٱلشَّمْسِ
+  - same: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 18:86 قَوْمًا
+  - near: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 18:90 نَجْعَل
+  - near: ء ر ض B010 odun yiyen küçük canlı / الأَرَضَة آكلة الخشب ← 18:84 ٱلْأَرْضِ
+  - near: خ ر ج B008 erkek deve yapısında doğmuş dişi deve / خروج الخلقة عن نوعها ← 18:82 وَيَسْتَخْرِجَا
+  - far: خ ل د B005 gözsüz faremsi küçük hayvan / دويبة عمياء تشبه الجرذ ← 18:108 خَٰلِدِينَ
+  - far: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 18:94 نَجْعَلُ
+- **B014** kıyı ve kır yer adları / مواضع مسماة
+  - same: ش م س B007 güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri / التسمية بالشمس وما نسب إليها ← 18:86 ٱلشَّمْسِ
+  - same: و ج د B003 varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak / السعة والجدة والغنى ← 18:86 وَجَدَهَا
+  - same: ح س ن B004 yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام ← 18:86 حُسْنًا
+  - near: س ت ر B003 bir yer ya da dağ adı ile iki vadinin adı / موضع باسم السِّتار ← 18:90 سِتْرًا
+  - near: غ ل م B005 bir yer adı / موضع اسمه الغيلم ← 18:82 لِغُلَٰمَيْنِ
+  - near: ش م س B007 güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri / التسمية بالشمس وما نسب إليها ← 18:90 ٱلشَّمْسِ
+  - far: ت ر ب B008 belirli yer adları / مواضع تسمى بترب ← 18:37 تُرَابٍ
+  - far: ع ث ر B005 bir yer veya kent adı / الموضع المسمى عَثَر ← 18:21 أَعْثَرْنَا
+
+## ع ي ن (عَيْنٍ)
+
+- **B001** gören göz / العين الناظرة
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:90 قَوْمٍ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 18:88 وَعَمِلَ
+  - far: ب ص ر B001 gözle görme / إبصار العين ← 18:26 أَبْصِرْ
+  - far: ن ظ ر B008 biçime bağlı adlandırmalar / العين وموضع النظر فيها ← 18:19 فَلْيَنظُرْ
+- **B002** gözle görüp kesin biçimde tanıma / المشاهدة بالعين
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:90 قَوْمٍ
+  - near: ط ل ع B009 bir insanın görülüşü ve göz önündeki görünüşü / طلعة مرئية ← 18:90 مَطْلِعَ
+  - far: ر ء ي B001 gözle ya da içsel kavrayışla görme / رؤية العين والبصيرة ← 18:63 أَرَءَيْتَ
+  - far: ش ه د B001 hazır bulunup görme / الحضور مع المشاهدة ← 18:51 أَشْهَدتُّهُمْ
+- **B003** koruyup gözetme / عين الحفظ والرعاية
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 18:86 قَوْمًا
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - near: ح و ط B002 koruyup gözetme / الحفظ والحياطة ← 18:91 أَحَطْنَا
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 18:90 قَوْمٍ
+  - near: ذ ك ر B003 akılda tutma ve yeniden hatırlama / استحضار الشيء بعد النسيان أو مع الحفظ ← 18:83 ذِكْرًا
+  - far: ك ل و B001 gözeterek koruma / حفظ بمراقبة ونظر ← 18:33 كِلْتَا
+  - far: ح و ط B002 koruyup gözetme / الحفظ والحياطة ← 18:68 تُحِطْ
+- **B004** kötü bakışla zarar verme / الإصابة بالعين
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 18:86 قَوْمًا
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - near: ع ي ب B001 kusur; kusurlu olma, kılma veya kusur bulma / العيب والنقص ← 18:79 أَعِيبَهَا
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 18:88 وَعَمِلَ
+  - far: ن ف س B003 kem gözle zarar verme / إصابة العين بالنفس ← 18:74 نَفْسًا
+  - far: ع ض د B003 üst kola vurma veya üst koldan tutma / إصابة العَضُد أو أخذه ← 18:51 عَضُدًا
+- **B005** haber toplayan gizli gözcü / العين الجاسوسة
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - near: ط ل ع B004 düşmanı gözlemek için önden gönderilen gözcü veya gözcü birliği / طليعة تستكشف العدو ← 18:90 مَطْلِعَ
+  - near: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 18:91 خُبْرًا
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - far: ط ل ع B004 düşmanı gözlemek için önden gönderilen gözcü veya gözcü birliği / طليعة تستكشف العدو ← 18:18 ٱطَّلَعْتَ
+  - far: ن ف س B003 kem gözle zarar verme / إصابة العين بالنفس ← 18:74 نَفْسًا
+- **B006** akan su kaynağı / منبع الماء الجاري
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 18:86 تَتَّخِذَ
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ب ح ر B001 genis büyük su kütlesi / الماء الواسع الكثير ← 18:79 ٱلْبَحْرِ
+  - near: ظ ل م B005 dislerde su gibi parilti / ماء الأسنان وبريق الثغر ← 18:87 ظَلَمَ
+  - far: ع د د B004 kaynağı kesilmeyen kalıcı su ve su yeri / الماء العد ← 18:22 بِعِدَّتِهِم
+  - far: ظ ه ر B009 çıkık göz / العين الظاهرة ← 18:97 يَظْهَرُوهُ
+- **B007** su sızdıran ince delik / عين الجلد والسقاء
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 18:86 تَتَّخِذَ
+  - same: ع ن د B003 sıvının yana yönelerek veya kesilmeden akması / سيلان عاند جانح ← 18:86 عِندَهَا
+  - near: ق ر ب B009 su tulumu / القربة وعاء الماء ← 18:81 وَأَقْرَبَ
+  - near: ع ي ب B003 suyun kıyıyı delip dışarı çıkması / خرق الماء للشط ← 18:79 أَعِيبَهَا
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 18:87 رَبِّهِۦ
+  - far: س ر ب B003 sıvının akması, sızması veya damlaması / جريان الماء وتسربه وتقطره ← 18:61 سَرَبًا
+  - far: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:17 غَرَبَت
+- **B008** güneş yuvarlağı / عين الشمس
+  - same: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:86 ٱلشَّمْسِ
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: غ ر ب B006 güneşin batması, batı yönü ve batış yeri / غروب الشمس والمغرب ← 18:86 مَغْرِبَ
+  - near: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:90 ٱلشَّمْسِ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ط ل ع B007 bir alanı sınırına kadar doldurma; ayrı aktarımda güneşin gördüğü yeryüzü / امتلاء مستوعب ← 18:90 مَطْلِعَ
+  - far: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:17 ٱلشَّمْسَ
+  - far: غ و ر B004 güneşin ufukta batıp kaybolması / غيبوبة الشمس في الأفق ← 18:41 غَوْرًا
+- **B009** göze benzer çukur, yer veya eğim / النقرة أو الموضع العيني
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ح م ء B001 kara, kötü kokulu su çamuru / الحمأة السوداء في الماء ← 18:86 حَمِئَةٍ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:90 قَوْمٍ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ط ل ع B007 bir alanı sınırına kadar doldurma; ayrı aktarımda güneşin gördüğü yeryüzü / امتلاء مستوعب ← 18:90 مَطْلِعَ
+  - far: ظ ه ر B009 çıkık göz / العين الظاهرة ← 18:97 يَظْهَرُوهُ
+  - far: ن ظ ر B008 biçime bağlı adlandırmalar / العين وموضع النظر فيها ← 18:19 فَلْيَنظُرْ
+- **B010** belirli yönden gelen bulut veya dinmeyen yağmur / عين السحاب والمطر
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: ع ن د B003 sıvının yana yönelerek veya kesilmeden akması / سيلان عاند جانح ← 18:86 عِندَهَا
+  - near: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 18:87 رَبِّهِۦ
+  - near: خ ر ج B005 bulutun ilk kez oluşup belirmesi / ظهور السحاب وانكشاف السماء ← 18:82 وَيَسْتَخْرِجَا
+  - near: ء ت ي B005 başka bölgeden gelen sel / السيل الآتي من غير البلد ← 18:84 وَءَاتَيْنَٰهُ
+  - far: ع ز ل B007 yağmursuz bulut / السحاب الأعزل بلا مطر ← 18:16 ٱعْتَزَلْتُمُوهُمْ
+  - far: س ب ل B005 yağan yağmur / مطر سابل بين السحاب والأرض ← 18:63 سَبِيلَهُۥ
+- **B011** hemen elde bulunan para / النقد الحاضر
+  - same: ق و م B015 tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل ← 18:86 قَوْمًا
+  - same: غ ر ب B018 gümüş, altın veya bunlardan yapılmış değerli kap / الفضة والذهب والإناء النفيس ← 18:86 مَغْرِبَ
+  - same: ع ن د B004 yakınında veya birinin değerlendirmesinde bulunma / قرب وحضور عند الشيء ← 18:86 عِندَهَا
+  - near: ك ن ز B001 mal varlığını biriktirip koruma; biriktirilmiş mal varlığı ve onu koruyan kap / المال المحفوظ المدخر ← 18:82 كَنزٌ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ق و م B015 tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل ← 18:90 قَوْمٍ
+  - far: ع ت د B001 el altında bulunma, önceden hazırlama ve gereksinim için saklanan gereç veya kap / الحاضر المهيأ ← 18:102 أَعْتَدْنَا
+  - far: ع ر ض B008 dünya malı, nakit dışı eşya ve mal karşılığı / العرض متاع وبدل وحظ من الدنيا ← 18:100 وَعَرَضْنَا
+- **B012** ertelenmiş ödemeli alımla para edinme / العينة والسلف
+  - same: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 18:86 قَوْمًا
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - near: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 18:90 قَوْمٍ
+  - near: ت ب ع B012 sağlamlaştırmak, uyumlu olmak veya iyi duruma getirmek / الإحكام والتناسب ← 18:85 فَأَتْبَعَ
+  - near: ع ي ب B001 kusur; kusurlu olma, kılma veya kusur bulma / العيب والنقص ← 18:79 أَعِيبَهَا
+  - far: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 18:77 فَأَقَامَهُۥ
+  - far: ي د ي B007 elden ele verme, peşin ödeme ve iki fiyatlı satış / اليَد المناولة ← 18:57 يَدَاهُ
+- **B013** şeyin bizzat kendisi ve belirlenmiş olanı / عين الشيء نفسه
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - near: ح و ط B008 eksik para tutarını tamamlayan ek miktar / حوط الدراهم الناقصة ← 18:91 أَحَطْنَا
+  - near: ش ي ء B001 — / الشيء المعلوم المخبر عنه ← 18:84 شَىْءٍ
+  - near: ف ق ه B003 açıklayarak anlamasını sağlama / إفهام الشيء وبيانه ← 18:93 يَفْقَهُونَ
+  - far: ن ف س B012 şeyin kendisi ve bütün öz varlığı / عين الشيء وذاته ← 18:74 نَفْسًا
+  - far: م ث ل B004 nitelik veya hakkında verilen bilgi / المثل صفة وخبر ← 18:109 بِمِثْلِهِۦ
+- **B014** bir şeyin en iyi ve seçkin bölümü / العين خيار الشيء
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - near: خ ي ر B002 iyi ve seçkin olma / فضل الصلاح والاصطفاء ← 18:81 خَيْرًا
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:90 قَوْمٍ
+  - far: ن ف س B012 şeyin kendisi ve bütün öz varlığı / عين الشيء وذاته ← 18:74 نَفْسًا
+  - far: خ ي ر B002 iyi ve seçkin olma / فضل الصلاح والاصطفاء ← 18:95 خَيْرٌ
+- **B015** önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة
+  - same: ج د د B009 büyükanne ve büyükbaba / أبوة الأجداد ← 18:86 وَجَدَهَا
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:86 قَوْمًا
+  - same: ح م ء B003 kocanın erkek akrabası için ağızsal ad / الحَمْء من قرابة الزوج ← 18:86 حَمِئَةٍ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:90 قَوْمٍ
+  - near: د و ن B005 kayıt defteri ve kayıtları düzenleme / تدوين الدواوين ← 18:90 دُونِهَا
+  - near: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 18:88 وَعَمِلَ
+  - far: و ج ه B006 toplumsal itibar, yüksek mevki ve önde gelen kişi / الوجاهة والجاه ← 18:29 ٱلْوُجُوهَ
+  - far: ء م ل B004 yardımcılar topluluğu / أعوان الرجل ← 18:46 أَمَلًا
+- **B016** geniş ve güzel gözlü olma / سعة العين وحسنها
+  - same: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:86 قَوْمًا
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - same: ق ر ن B006 boynuz veya boynuz biçimli çıkıntı / نتوء قوي كقرن الرأس ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 18:90 قَوْمٍ
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 18:87 رَبِّهِۦ
+  - far: ح و ر B001 göz akıyla göz karasının güçlü karşıtlığı / حَوَر العين ← 18:37 يُحَاوِرُهُۥٓ
+  - far: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 18:31 نِعْمَ
+- **B017** kimse veya orada bulunan insanlar / العين بمعنى الناس الحاضرون
+  - same: ق ر ن B005 aynı çağın insanları veya kuşak dönemi / قوم مقترنون في زمن واحد ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:86 قَوْمًا
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: س ك ن B003 ev halkı ve orada yaşayanlar / أهل الدار ← 18:79 لِمَسَٰكِينَ
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 18:88 أَمْرِنَا
+  - far: ن ف س B003 kem gözle zarar verme / إصابة العين بالنفس ← 18:74 نَفْسًا
+  - far: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 18:31 نِعْمَ
+
+## ح م ء (حَمِئَةٍ)
+
+- **B001** kara, kötü kokulu su çamuru / الحمأة السوداء في الماء
+  - same: ج د د B010 otlak kuyusu / بئر في موضع كلأ ← 18:86 وَجَدَهَا
+  - same: ع ي ن B007 su sızdıran ince delik / عين الجلد والسقاء ← 18:86 عَيْنٍ
+  - same: غ ر ب B010 karga ve karga gibi kapkara / الغراب وسواد الغراب ← 18:86 مَغْرِبَ
+  - near: ظ ل م B005 dislerde su gibi parilti / ماء الأسنان وبريق الثغر ← 18:87 ظَلَمَ
+  - near: ب ح ر B007 derinlikten gelen koyu kirmizilik / العمق والحمرة الخالصة ← 18:79 ٱلْبَحْرِ
+  - near: س د د B009 suyu uzun süre tutan taşlık vadiler / أودية الحجارة التي تمسك الماء ← 18:93 ٱلسَّدَّيْنِ
+  - far: ز ب ر B008 çamurlu balçık veya bulanıklık / الزبير حمأة وكدر ← 18:96 زُبَرَ
+  - far: ح و ل B013 yumuşak toprak veya kara çamur / الحال من تراب أو طين ← 18:108 حِوَلًا
+- **B002** birine öfkelenmek / الغضب المهموز
+  - same: و ج د B005 öfke duymak ve birine kızmak / الموجدة والغضب ← 18:86 وَجَدَهَا
+  - same: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 18:86 قُلْنَا
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - near: و ج د B005 öfke duymak ve birine kızmak / الموجدة والغضب ← 18:90 وَجَدَهَا
+  - near: ش ي ء B004 — / الإعجاب والسرور ← 18:84 شَىْءٍ
+  - near: ء ت ي B012 dişi devenin çiftleşmek istemesi / استئتاء الناقة ← 18:84 وَءَاتَيْنَٰهُ
+  - far: ء ب د B009 öfkelenmek veya birine öfkelenmek / الغضب والغضب عليه ← 18:57 أَبَدًا
+  - far: و ج د B005 öfke duymak ve birine kızmak / الموجدة والغضب ← 18:77 فَوَجَدَا
+- **B003** kocanın erkek akrabası için ağızsal ad / الحَمْء من قرابة الزوج
+  - same: ج د د B009 büyükanne ve büyükbaba / أبوة الأجداد ← 18:86 وَجَدَهَا
+  - same: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 18:86 قُلْنَا
+  - same: ع ي ن B015 önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة ← 18:86 عَيْنٍ
+  - near: ق ر ب B003 akrabalık ve yakın akraba / قرابة الرحم والنسب ← 18:81 وَأَقْرَبَ
+  - near: ر ح م B002 yakın soy bağı / الرَّحِم والقرابة ← 18:82 رَحْمَةً
+  - near: ي ت م B005 evlilikle sona erip ermediği tartışmalı kadın adlandırması / انفراد المرأة عن الزوج ← 18:82 يَتِيمَيْنِ
+  - far: ح د د B007 eş için süsten kaçınarak yas tutma / إحداد المرأة وترك الزينة ← 18:96 ٱلْحَدِيدِ
+  - far: ث و ب B005 evlilikte cinsel birliktelik yaşamış kişi / الثيب: من زالت بكارته أو رجع عن الزوج ← 18:46 ثَوَابًا
+
+## ع ن د (عِندَهَا)
+
+- **B001** doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 18:86 قَوْمًا
+  - same: ش م س B002 ürküp kaçınma, durulmama ve güçlük çıkarma / الشماس والشموس في الدابة والخلق ← 18:86 ٱلشَّمْسِ
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - near: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 18:90 قَوْمٍ
+  - near: ط غ ي B001 itaatsizlikte veya ölçüde sınırı aşma / مجاوزة الحد في العصيان ← 18:80 طُغْيَٰنًا
+  - near: ن ك ر B001 tanımama ve tanınmış saymama / خلاف المعرفة والاعتراف ← 18:87 نُّكْرًا
+  - far: ل ح د B001 haktan ve doğru yoldan sapma / الميل عن الاستقامة والحق ← 18:27 مُلْتَحَدًا
+  - far: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 18:77 فَأَقَامَهُۥ
+- **B002** ortak doğrultudan yana sapıp ayrı durma / ميل إلى ناحية وانفراد عن الجماعة
+  - same: ج د د B007 düz ve sert yer yüzeyi / وجه الأرض المستوي ← 18:86 وَجَدَهَا
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 18:86 قَوْمًا
+  - same: غ ر ب B007 yurttan uzaklaşma ve uzaklaştırma / الغربة والبعد والتنحي ← 18:86 مَغْرِبَ
+  - near: خ ر ج B006 yerleşik konumdan ayrılarak öne çıkma veya itaatten kopma / خروج عن الأصل أو الطاعة ← 18:82 وَيَسْتَخْرِجَا
+  - near: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 18:87 يُرَدُّ
+  - near: خ ي ر B001 arzulanan iyilik / الميل إلى الخير النافع ← 18:81 خَيْرًا
+  - far: ع ض د B006 yanda kalma veya yana yönelme / العاضد ملازم الجانب ← 18:51 عَضُدًا
+  - far: ز و ر B001 yönünden sapma ve yana eğilme / الميل والعدول ← 18:17 تَّزَٰوَرُ
+- **B003** sıvının yana yönelerek veya kesilmeden akması / سيلان عاند جانح
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ق ر ن B010 bir terleme nöbeti veya çabuk terleyen at / دفعة عرق أو حلبته ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ع ي ن B010 belirli yönden gelen bulut veya dinmeyen yağmur / عين السحاب والمطر ← 18:86 عَيْنٍ
+  - near: ن ك ر B005 kanlı ya da irinli bedensel akıntı / النُّكْرة الخارجة من الجوف ← 18:87 نُّكْرًا
+  - near: ط غ ي B002 ölçüyü aşarak kabarıp bastırma / علو الماء والقوة الجارفة ← 18:80 طُغْيَٰنًا
+  - near: ء ت ي B005 başka bölgeden gelen sel / السيل الآتي من غير البلد ← 18:84 وَءَاتَيْنَٰهُ
+  - far: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:17 غَرَبَت
+  - far: ن ط ف B003 sıvının akması veya damlaması / قطر وسيلان وبلل ممتد ← 18:37 نُّطْفَةٍ
+- **B004** yakınında veya birinin değerlendirmesinde bulunma / قرب وحضور عند الشيء
+  - same: ق و ل B013 görüş benimseme / القول اعتقاد ومذهب ← 18:86 قُلْنَا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ب ل غ B001 bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme / الوصول إلى الغاية ← 18:86 بَلَغَ
+  - near: ق ر ب B001 yakın olma, yaklaşma veya yaklaştırma / الدنو وخلاف البعد ← 18:81 وَأَقْرَبَ
+  - near: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 18:82 فَكَانَ
+  - near: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 18:90 دُونِهَا
+  - far: ق ر ب B001 yakın olma, yaklaşma veya yaklaştırma / الدنو وخلاف البعد ← 18:24 لِأَقْرَبَ
+  - far: ح ض ر B001 gelip yakında hazır bulunma ve görülme / حضور ومشاهدة وقرب ← 18:49 حَاضِرًا
+- **B005** başka seçenek, kaçınma payı veya çıkış yolu / انعدام البد والحيلة
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - same: ع ذ ب B003 vazgeçme veya alıkoyma / الكف والمنع والفطام عن الشيء ← 18:86 تُعَذِّبَ
+  - same: ش م س B003 birine düşmanlığını açıkça göstermek / إبداء العداوة ← 18:86 ٱلشَّمْسِ
+  - near: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:90 وَجَدَهَا
+  - near: ك و د B003 vermeyi ya da yapmayı kesin biçimde reddetmek / امتناع بصيغة النفي ← 18:93 يَكَادُونَ
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 18:84 وَءَاتَيْنَٰهُ
+  - far: ح و ل B003 gizli yoldan amaca ulaşma ve güç yetirme / حيلة وقوة على التصرف ← 18:108 حِوَلًا
+  - far: ن ف د B004 çıkış yolu ve hareket alanı / المندوحة والسعة عن الشيء ← 18:109 لَنَفِدَ
+- **B006** sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - same: ع ي ن B003 koruyup gözetme / عين الحفظ والرعاية ← 18:86 عَيْنٍ
+  - near: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 18:90 دُونِهَا
+  - near: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 18:88 أَمْرِنَا
+  - near: ء ب و B002 babaya seslenme ve bağlama göre övgü ya da ağır yergi bildiren hitap kalıpları / خطاب الأب ومثله ← 18:82 أَبُوهُمَا
+  - far: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 18:102 دُونِىٓ
+  - far: ك ذ ب B003 onu üstlen; sana düşer / كذب عليك بمعنى الزم وعليك به ← 18:15 كَذِبًا
+
+## ق و م (قَوْمًا)
+
+- **B001** erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال
+  - same: ع ي ن B015 önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة ← 18:86 عَيْنٍ
+  - same: ق ر ن B005 aynı çağın insanları veya kuşak dönemi / قوم مقترنون في زمن واحد ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 18:86 قُلْنَا
+  - near: ت ب ع B011 kadınların peşinden cinsel amaçla gitmek / اتباع النساء ← 18:85 فَأَتْبَعَ
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 18:88 أَمْرِنَا
+  - near: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 18:88 وَعَمِلَ
+  - far: ء ه ل B001 yakın çevre ve bağlı topluluk / جماعة القرب والانتماء ← 18:77 أَهْلَ
+  - far: ط ل ب B003 arayanlar ya da kovalayanlar topluluğu / جماعة الطالبين واللحقاء ← 18:41 طَلَبًا
+- **B002** ayağa kalkma ve dik durma / انتصاب وقيام بالبدن
+  - same: ش م س B002 ürküp kaçınma, durulmama ve güçlük çıkarma / الشماس والشموس في الدابة والخلق ← 18:86 ٱلشَّمْسِ
+  - same: ق و ل B001 söze dökme / إخراج القول بالنطق ← 18:86 قُلْنَا
+  - same: ق ر ن B009 bedene bağlı iç benlik / نفس مقترنة بالبدن أو مطاوعة ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ك ل ل B011 dişleri görünerek gülümseme ve bulutun şimşekle gülümser gibi olması / الانكلال تبسما ولمعا ← 18:84 كُلِّ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ب د ل B001 yerine gecme ve yerine koyma / قيام شيء مقام شيء آخر ← 18:81 يُبْدِلَهُمَا
+  - far: م ث ل B005 ayağa kalkıp dik durma / المثول والانتصاب ← 18:109 بِمِثْلِهِۦ
+  - far: ن ص ب B001 dikme, dik durma ve yükselme / إقامة الشيء منتصبا بارزا ← 18:62 نَصَبًا
+- **B003** bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 18:86 وَجَدَهَا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ق ل ل B004 yük kaldırma, yükselme ve yola koyulma / الإقلال والاستقلال حملا ونهوضا ← 18:86 قُلْنَا
+  - near: ء م ر B002 buyrukla yükümlü kılma / الطلب والإلزام ← 18:88 أَمْرِنَا
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: م ك ن B005 güç yetirme, olanak sağlama ve denetim kazanma / اقتدار وتمكين ← 18:84 مَكَّنَّا
+  - far: ج م ع B003 düşünüp kesin bir tutuma bağlanma / عزم محكم جمع الرأي بعد تفرقه ← 18:99 فَجَمَعْنَٰهُمْ
+  - far: ب ر ز B007 seyahate çıkmaya kesin karar verme / إبراز السفر والعزم عليه ← 18:47 بَارِزَةً
+- **B004** sürekli gözetip yönetme / رعاية وحفظ وولاية
+  - same: ع ي ن B003 koruyup gözetme / عين الحفظ والرعاية ← 18:86 عَيْنٍ
+  - same: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 18:86 قُلْنَا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 18:79 مَّلِكٌ
+  - near: ء و ل B004 iyi yönetip düzene koyma / إيالة الأمر بإصلاحه وسياسته ← 18:82 تَأْوِيلُ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 18:87 رَبِّهِۦ
+  - far: و ل ي B003 bir işi üstlenip yönetme / تولي الأمر والقيام عليه ← 18:102 أَوْلِيَآءَ
+  - far: ح س ب B006 işi gözetme, kötü davranışı sorgulama ve kamusal denetim / الحسبة والنظر في الأمر ← 18:102 أَفَحَسِبَ
+- **B006** bir yerde kalma ve kalınan yer / مقام وإقامة في موضع
+  - same: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 18:86 قُلْنَا
+  - same: ق ر ن B005 aynı çağın insanları veya kuşak dönemi / قوم مقترنون في زمن واحد ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ب ل غ B001 bir yere, şeye veya son sınıra ulaşma; bağlama göre yaklaşma ya da olgunluğa erme / الوصول إلى الغاية ← 18:86 بَلَغَ
+  - near: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 18:82 فَكَانَ
+  - near: م د ن B002 bir yerde kalıp yerleşmek / الإقامة بالمكان ← 18:82 ٱلْمَدِينَةِ
+  - near: س ك ن B009 sabit yer ve konum bildiren özel kullanımlar / موضع الاستقرار ← 18:79 لِمَسَٰكِينَ
+  - far: ر ب ع B006 yerleşme ve yerleşik kalma / الإقامة والربع المسكون ← 18:22 رَّابِعُهُمْ
+  - far: ك و ن B002 bulunma yeri ve konum değeri / المكان والمكانة من الكون ← 18:98 وَكَانَ
+- **B007** başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره
+  - same: ق و ل B010 hükmünü dayatma / اقتالة الحكم على غيره ← 18:86 قُلْنَا
+  - same: ع ي ن B013 şeyin bizzat kendisi ve belirlenmiş olanı / عين الشيء نفسه ← 18:86 عَيْنٍ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - near: ب د ل B001 yerine gecme ve yerine koyma / قيام شيء مقام شيء آخر ← 18:81 يُبْدِلَهُمَا
+  - near: ج ز ي B002 yerini tutup yükümlülüğü karşılama / قيام الشيء مقام غيره ← 18:88 جَزَآءً
+  - near: ع ي ب B001 kusur; kusurlu olma, kılma veya kusur bulma / العيب والنقص ← 18:79 أَعِيبَهَا
+  - far: ب د ل B001 yerine gecme ve yerine koyma / قيام شيء مقام شيء آخر ← 18:50 بَدَلًا
+  - far: ج ز ي B002 yerini tutup yükümlülüğü karşılama / قيام الشيء مقام غيره ← 18:106 جَزَآؤُهُمْ
+- **B008** düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - same: ق ل ل B004 yük kaldırma, yükselme ve yola koyulma / الإقلال والاستقلال حملا ونهوضا ← 18:86 قُلْنَا
+  - same: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 18:86 حُسْنًا
+  - near: س د د B003 doğru amacı tutturma ve düzgünlük / إصابة القصد والاستقامة ← 18:93 ٱلسَّدَّيْنِ
+  - near: ت ب ع B012 sağlamlaştırmak, uyumlu olmak veya iyi duruma getirmek / الإحكام والتناسب ← 18:85 فَأَتْبَعَ
+  - near: س ك ن B009 sabit yer ve konum bildiren özel kullanımlar / موضع الاستقرار ← 18:79 لِمَسَٰكِينَ
+  - far: س و ي B002 kendi içinde düzgün ve tam duruma gelme / استقامة وتمام في الذات ← 18:96 سَاوَىٰ
+  - far: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:65 عِندِنَا
+- **B009** ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش
+  - same: ب ل غ B003 yaşamı sürdürmeye yetecek ölçü ve geçim aracı / الكفاية التي يتبلغ بها ← 18:86 بَلَغَ
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 18:86 وَجَدَهَا
+  - near: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 18:79 مَّلِكٌ
+  - near: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 18:87 يُرَدُّ
+  - near: ب ل غ B003 yaşamı sürdürmeye yetecek ölçü ve geçim aracı / الكفاية التي يتبلغ بها ← 18:82 يَبْلُغَآ
+  - far: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 18:50 لِلْمَلَٰٓئِكَةِ
+  - far: ع ر ش B006 işin, iktidarın ve saygınlığın dayanağı / قوام الأمر والعز إذا ثبت أو ثل ← 18:42 عُرُوشِهَا
+- **B010** değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير
+  - same: ع ي ن B012 ertelenmiş ödemeli alımla para edinme / العينة والسلف ← 18:86 عَيْنٍ
+  - same: ق و ل B009 müzakere etme / المقاولة في الأمر ← 18:86 قُلْنَا
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - near: ب د ل B001 yerine gecme ve yerine koyma / قيام شيء مقام شيء آخر ← 18:81 يُبْدِلَهُمَا
+  - near: ر د د B004 geri isteme veya karşılıklı geri verme / الاسترداد والتراد في البيع ← 18:87 يُرَدُّ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - far: ث م ن B001 satış karşılığı ve değer / العوض والقيمة في البيع ← 18:22 وَثَامِنُهُمْ
+  - far: ق و ي B004 ortak malı değerleyerek veya fiyat artırarak tek ortağa bırakma / تقاو في ثمن المشترك حتى يأخذه أحدهم ← 18:95 بِقُوَّةٍ
+- **B011** insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول
+  - same: ق و ل B003 çok sözlü kişi / كثرة القول في صاحبه ← 18:86 قُلْنَا
+  - same: ش م س B006 arkasındakini koruma, topluluğunu savunma ve iyiliğini esirgeme / التشمس بالمنع والبخل ← 18:86 ٱلشَّمْسِ
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - near: ي س ر B005 yumuşak başlı ve harekette uyumlu olma / خفة وانقياد في الحركة ← 18:88 يُسْرًا
+  - near: ق و ل B003 çok sözlü kişi / كثرة القول في صاحبه ← 18:87 قَالَ
+  - near: س د د B003 doğru amacı tutturma ve düzgünlük / إصابة القصد والاستقامة ← 18:93 ٱلسَّدَّيْنِ
+  - far: ب س ط B011 uzak mesafe ve tam uzanma erişimi / الطول والبعد ومدى اليد ← 18:18 بَٰسِطٌ
+  - far: م ث ل B005 ayağa kalkıp dik durma / المثول والانتصاب ← 18:109 بِمِثْلِهِۦ
+- **B012** düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم
+  - same: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:86 قُلْنَا
+  - same: ق ر ن B007 yaya bağlı ok kılıfı ve silahlı taşıyıcısı / جعبة تقرن بالقوس وسلاح معها ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 18:86 تَتَّخِذَ
+  - near: ء و ل B008 araç ve taşıyıcı düzen / الآلة الحاملة أو الأداة ← 18:82 تَأْوِيلُ
+  - near: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 18:88 وَعَمِلَ
+  - near: س ف ن B002 yontma aleti veya kabzaya geçirilen kaba deri / أداة الحك وموضع الخشونة ← 18:79 ٱلسَّفِينَةُ
+  - far: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 18:31 نِعْمَ
+  - far: ك ل ب B007 kanca, tutucu çivi, kavrama aleti veya pençe / الكلاب والكلوب الماسك ← 18:22 كَلْبُهُمْ
+- **B013** ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة
+  - same: ق و ل B007 dolaşımdaki söz / القول الفاشي بين الناس ← 18:86 قُلْنَا
+  - same: ق ر ن B005 aynı çağın insanları veya kuşak dönemi / قوم مقترنون في زمن واحد ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - near: و ر ي B008 yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض ← 18:79 وَرَآءَهُم
+  - near: ك و ن B003 birini güvenceyle üstlenme / الكفالة والقيام على فلان ← 18:82 فَكَانَ
+  - near: ج ز ي B002 yerini tutup yükümlülüğü karşılama / قيام الشيء مقام غيره ← 18:88 جَزَآءً
+  - far: ح ش ر B001 topluluğu sevk ederek toplama / سوق الجماعة وجمعها إلى مقصد ← 18:47 وَحَشَرْنَٰهُمْ
+  - far: و ق ع B002 ağır felaket / الواقعة النازلة الشديدة ← 18:53 مُّوَاقِعُوهَا
+- **B014** karşılıklı direnip mücadele etme / مقاومة ومنازلة
+  - same: ء خ ذ B011 güreşte kavrayıp kilitleme / أخذة المصارعة ← 18:86 تَتَّخِذَ
+  - same: ق و ل B009 müzakere etme / المقاولة في الأمر ← 18:86 قُلْنَا
+  - same: ق ر ن B003 yaşça ya da güççe denk kişi / كفء يساوي قرنه ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ء خ ذ B011 güreşte kavrayıp kilitleme / أخذة المصارعة ← 18:79 يَأْخُذُ
+  - near: ق و ل B009 müzakere etme / المقاولة في الأمر ← 18:87 قَالَ
+  - near: ن ك ر B007 karşılıklı düşmanlık ve çatışma / المناكرة قتال وعداوة ← 18:87 نُّكْرًا
+  - far: ء خ ذ B011 güreşte kavrayıp kilitleme / أخذة المصارعة ← 18:77 لَتَّخَذْتَ
+  - far: ن ز ل B007 savaşmak için karşı karşıya inme / النزول للمبارزة ← 18:102 نُزُلًا
+- **B015** tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل
+  - same: ع ي ن B011 hemen elde bulunan para / النقد الحاضر ← 18:86 عَيْنٍ
+  - same: ق و ل B001 söze dökme / إخراج القول بالنطق ← 18:86 قُلْنَا
+  - same: ع ذ ب B002 yemeden içmeden durma / العذوب امتناع الجسد عن الأكل والشرب ← 18:86 تُعَذِّبَ
+  - near: ك ف ر B013 dağ geçidi; iri dağ veya alçak duvar / ثنية مستورة ← 18:80 وَكُفْرًا
+  - near: ق و ل B001 söze dökme / إخراج القول بالنطق ← 18:87 قَالَ
+  - near: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 18:81 وَأَقْرَبَ
+  - far: و ز ن B007 toplumsal değer; eksiksiz ağırlıktaki para / قدر ومنزلة لها وزن ← 18:105 وَزْنًا
+  - far: ص ر ف B005 para değiştirme ve değer farkı / مصارفة وفضل نقد ← 18:54 صَرَّفْنَا
+- **B016** donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال
+  - same: ع ذ ب B002 yemeden içmeden durma / العذوب امتناع الجسد عن الأكل والشرب ← 18:86 تُعَذِّبَ
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - same: ء خ ذ B006 su tutan çukur veya havuz / موضع يمسك الماء ← 18:86 تَتَّخِذَ
+  - near: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 18:90 نَجْعَل
+  - near: ك ل ل B001 körelip güçten düşme / الكَلال وخلاف الحدة ← 18:84 كُلِّ
+  - near: ر د د B009 düşmeyi önleyen dayanak, sırt veya yük devesi / العماد وما يحمل ويرد عن السقوط ← 18:87 يُرَدُّ
+  - far: ع ب د B011 bineği yüzünden yolda kalma veya güçlükle direnen deve / العطب والانقطاع ← 18:102 عِبَادِى
+  - far: ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان ← 18:94 نَجْعَلُ
+- **B017** güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة
+  - same: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:86 ٱلشَّمْسِ
+  - same: ع ي ن B008 güneş yuvarlağı / عين الشمس ← 18:86 عَيْنٍ
+  - same: ج د د B004 yeni olma ve yenilenme / جِدّة وحدوث بعد قطع ← 18:86 وَجَدَهَا
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 18:82 أَشُدَّهُمَا
+  - near: ظ ل م B003 haksizliga karsi yakinma ve geri istem / الظلامة وطلب الإنصاف ← 18:87 ظَلَمَ
+  - near: ش م س B001 güneş, güneş diski ve ışığı; güneşli olma ve güneşe çıkma / الشمس والضح ← 18:90 ٱلشَّمْسِ
+  - far: و ز ن B004 günün tam ortasına gelmesi / قيام ميزان النهار في وسطه ← 18:105 وَزْنًا
+  - far: ظ ه ر B004 öğle vakti ve ona bağlı eylemler / وقت الظهر والظهيرة ← 18:97 يَظْهَرُوهُ
+- **B018** pazarın canlanıp satışların artması / نفاق السوق
+  - same: ق و ل B009 müzakere etme / المقاولة في الأمر ← 18:86 قُلْنَا
+  - same: غ ر ب B013 kaynağı bilinmeyen ok ve hedefsiz bakış / سهم غرب ونظر غرب ← 18:86 مَغْرِبَ
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - near: ق و ل B009 müzakere etme / المقاولة في الأمر ← 18:87 قَالَ
+  - near: س د د B006 ufku kaplayan yoğun çekirge ya da bulut kütlesi / ما يملأ الأفق فيسده ← 18:93 ٱلسَّدَّيْنِ
+  - near: ح و ط B003 eşeğin sürüsünü bir araya toplaması / جمع العانة وحوطها ← 18:91 أَحَطْنَا
+  - far: ص ن ع B011 pazar yeri / الصنع سوق والسوق أصناع ← 18:104 صُنْعًا
+  - far: ن ف ق B001 tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma / ذهاب الشيء وانقطاعه ← 18:42 أَنفَقَ
+- **B019** bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو
+  - same: غ ر ب B017 şiddetli ağrı veya koyunda tüy döken hastalık / الوجع والداء في البدن أو الشاة ← 18:86 مَغْرِبَ
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - same: ع ي ن B017 kimse veya orada bulunan insanlar / العين بمعنى الناس الحاضرون ← 18:86 عَيْنٍ
+  - near: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:87 نُعَذِّبُهُۥ
+  - near: ب د ل B004 el ve ayak agrisi / وجع اليدين والرجلين ← 18:81 يُبْدِلَهُمَا
+  - near: ت ب ع B010 insanı her yerde izleyen dişi doğaüstü eşlikçi / الجنية التابعة ← 18:85 فَأَتْبَعَ
+  - far: ظ ه ر B002 sırt ve arka yüz / الظهر وخلاف البطن ← 18:97 يَظْهَرُوهُ
+  - far: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 18:31 نِعْمَ
+- **B020** koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة
+  - same: غ ر ب B017 şiddetli ağrı veya koyunda tüy döken hastalık / الوجع والداء في البدن أو الشاة ← 18:86 مَغْرِبَ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 18:86 تَتَّخِذَ
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - near: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 18:79 يَأْخُذُ
+  - near: س د د B005 burun yolunu kapatan hastalık / انسداد الأنف والكظم ← 18:93 ٱلسَّدَّيْنِ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 18:79 مَّلِكٌ
+  - far: ر ك ب B010 koyunlarda sırtı etkileyen hastalık / الراكب داء الظهر في الغنم ← 18:71 رَكِبَا
+  - far: غ ر ب B017 şiddetli ağrı veya koyunda tüy döken hastalık / الوجع والداء في البدن أو الشاة ← 18:17 غَرَبَت
+- **B021** göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر
+  - same: ع ي ن B001 gören göz / العين الناظرة ← 18:86 عَيْنٍ
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ج د د B001 değer ve konum yüceliği / عظمة القدر وعلوه ← 18:86 وَجَدَهَا
+  - near: ر و د B007 gozde dolasan bozukluk / عوار العين الرائد ← 18:82 فَأَرَادَ
+  - near: ع م ل B010 iş gören beden parçası / الجارحة العاملة ← 18:88 وَعَمِلَ
+  - near: ط ل ع B009 bir insanın görülüşü ve göz önündeki görünüşü / طلعة مرئية ← 18:90 مَطْلِعَ
+  - far: ع ي ن B001 gören göz / العين الناظرة ← 18:101 أَعْيُنُهُمْ
+  - far: ر ء ي B001 gözle ya da içsel kavrayışla görme / رؤية العين والبصيرة ← 18:63 أَرَءَيْتَ
+
+## ق و ل (قُلْنَا)
+
+- **B001** söze dökme / إخراج القول بالنطق
+  - same: ق و م B015 tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل ← 18:86 قَوْمًا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ب ل غ B010 birini kötüleyici bildirimler / البلاغات الوشايات ← 18:86 بَلَغَ
+  - near: ب ي ن B005 anlamı açıkça ortaya koyma / كشف المعنى بالقول أو العلامة ← 18:93 بَيْنَ
+  - near: ذ ك ر B004 bir şeyi sözle anma / جريان الذكر على اللسان ← 18:83 ذِكْرًا
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 18:88 أَمْرِنَا
+  - far: ك ل م B002 anlam taşıyan tek söz birimi / لفظة مفهمة تتسع لعبارة أو قول ← 18:109 لِّكَلِمَٰتِ
+  - far: ب ي ن B005 anlamı açıkça ortaya koyma / كشف المعنى بالقول أو العلامة ← 18:78 بَيْنِى
+- **B002** konuşma organı / اللسان آلة القول
+  - same: ب ل غ B010 birini kötüleyici bildirimler / البلاغات الوشايات ← 18:86 بَلَغَ
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ع ذ ب B006 ince uç veya sarkan bağlı parça / العذبة طرف أو علاقة متدلية ← 18:86 تُعَذِّبَ
+  - near: ذ ك ر B004 bir şeyi sözle anma / جريان الذكر على اللسان ← 18:83 ذِكْرًا
+  - near: ء و ل B007 içinde bulunulan durum / آلة الحال التي يكون عليها الشيء ← 18:82 تَأْوِيلُ
+  - near: ب ل غ B010 birini kötüleyici bildirimler / البلاغات الوشايات ← 18:82 يَبْلُغَآ
+  - far: ذ ك ر B004 bir şeyi sözle anma / جريان الذكر على اللسان ← 18:101 ذِكْرِى
+  - far: ح ص ي B004 dilin sivri ve keskin oluşu / حصاة اللسان وذرابته ← 18:49 أَحْصَىٰهَا
+- **B003** çok sözlü kişi / كثرة القول في صاحبه
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 18:86 قَوْمًا
+  - same: ق ر ن B004 bir şeyin üstesinden gelebilen / مطيق صار قرنا لما يواجهه ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ق ل ل B001 azlık / القِلَّة والضآلة ← 18:86 قُلْنَا
+  - near: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 18:90 قَوْمٍ
+  - near: س ء ل B001 bilgi sormak veya bir şey istemek / السؤال والطلب ← 18:83 وَيَسْـَٔلُونَكَ
+  - near: ذ ك ر B004 bir şeyi sözle anma / جريان الذكر على اللسان ← 18:83 ذِكْرًا
+  - far: ك ث ر B003 kişiye bağlı çokluk nitelemeleri / كثرة في صاحب أو كلام أو مطالب ← 18:54 أَكْثَرَ
+  - far: ف و ه B003 söz söyleme, konuşma gücü ve arkadan çekiştirme / فتح الفم بالكلام ← 18:5 أَفْوَٰهِهِمْ
+- **B004** sözü geçen yönetici unvanı / القيل صاحب القول النافذ
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 18:86 قَوْمًا
+  - same: ح م ء B003 kocanın erkek akrabası için ağızsal ad / الحَمْء من قرابة الزوج ← 18:86 حَمِئَةٍ
+  - same: ج د د B009 büyükanne ve büyükbaba / أبوة الأجداد ← 18:86 وَجَدَهَا
+  - near: ت ب ع B009 eski güneybatı Arabistan hükümdar unvanı / تُبَّع وملوكه ← 18:85 فَأَتْبَعَ
+  - near: م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 18:79 مَّلِكٌ
+  - near: ق ر ب B004 ayrıcalıklı yakın çevre / حظوة المقربين وخاصة الملك ← 18:81 وَأَقْرَبَ
+  - far: ت ب ع B009 eski güneybatı Arabistan hükümdar unvanı / تُبَّع وملوكه ← 18:70 ٱتَّبَعْتَنِى
+  - far: ع ذ ر B019 bölgesel kullanımda perdeler veya örtüler / المعاذير الستور ← 18:76 عُذْرًا
+- **B005** yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - same: ق ل ل B001 azlık / القِلَّة والضآلة ← 18:86 قُلْنَا
+  - same: ء خ ذ B010 kendisi için edinip kazanma / الاتخاذ والاكتساب ← 18:86 تَتَّخِذَ
+  - near: ت ل و B009 hakkında yalan söylemek / قول كذب على غيره ← 18:83 سَأَتْلُوا۟
+  - near: د و ن B003 başkası ya da daha aşağıda olan / السوى والغير ← 18:90 دُونِهَا
+  - near: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:82 يَبْلُغَآ
+  - far: ش ر ب B010 yapmadığını kişinin üzerine atmak / دعوى ما لم يشرب ← 18:29 ٱلشَّرَابُ
+  - far: ت ل و B009 hakkında yalan söylemek / قول كذب على غيره ← 18:27 وَٱتْلُ
+- **B006** sözü üzerine alma / اجترار القول إلى النفس
+  - same: ق ر ن B009 bedene bağlı iç benlik / نفس مقترنة بالبدن أو مطاوعة ← 18:86 ٱلْقَرْنَيْنِ
+  - same: و ج د B005 öfke duymak ve birine kızmak / الموجدة والغضب ← 18:86 وَجَدَهَا
+  - same: ء خ ذ B005 sahiplenilip işletilen arazi / أرض مأخوذة للنفس ← 18:86 تَتَّخِذَ
+  - near: ط و ع B006 iç benliğin işi kolay gösterip yöneltmesi / تسهيل النفس للأمر ← 18:82 تَسْطِع
+  - near: ك ف ر B007 itaatsizliğe zorlamak / إلجاء إلى العصيان ← 18:80 وَكُفْرًا
+  - near: ذ ك ر B004 bir şeyi sözle anma / جريان الذكر على اللسان ← 18:83 ذِكْرًا
+  - far: ل ق ي B007 iyilik ya da kötülükle karşılaşma / ما يلقاه المرء من خير أو شر ← 18:74 لَقِيَا
+  - far: ء م د B003 dolu olma niteligi / الآمِد امتلاء الشيء ← 18:12 أَمَدًا
+- **B007** dolaşımdaki söz / القول الفاشي بين الناس
+  - same: ق ل ل B001 azlık / القِلَّة والضآلة ← 18:86 قُلْنَا
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 18:86 قَوْمًا
+  - same: ق ر ن B005 aynı çağın insanları veya kuşak dönemi / قوم مقترنون في زمن واحد ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ذ ك ر B004 bir şeyi sözle anma / جريان الذكر على اللسان ← 18:83 ذِكْرًا
+  - near: ص ل ح B002 barışma ve uzlaşma / الصلح إزالة النفار بين الناس ← 18:88 صَٰلِحًا
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 18:88 أَمْرِنَا
+  - far: و ق ع B013 arkasından kötülemek ve ayıplamak / الوقيعة في الناس ← 18:53 مُّوَاقِعُوهَا
+  - far: ح د ث B004 insanların dilinde anlatı konusu olma / صيرورة المرء حديث الناس ← 18:70 أُحْدِثَ
+- **B008** oyun sopası / عود القال لضرب القلة
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:86 قَوْمًا
+  - same: ق ل ل B003 büyük küp / القُلَّة الجرة الكبيرة ← 18:86 قُلْنَا
+  - near: ء و ل B008 araç ve taşıyıcı düzen / الآلة الحاملة أو الأداة ← 18:82 تَأْوِيلُ
+  - near: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:82 يَبْلُغَآ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:90 قَوْمٍ
+  - far: ع و د B010 tahta parçası, tütsülük odun veya telli çalgı / عود من خشب وطيب وآلة ← 18:20 يُعِيدُوكُمْ
+  - far: ح و ر B007 dönme mili ve döndürerek biçim verme / الدوران على محور ← 18:37 يُحَاوِرُهُۥٓ
+- **B009** müzakere etme / المقاولة في الأمر
+  - same: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:86 قَوْمًا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ج د د B008 şakadan uzak kararlı çaba / عزم واجتهاد ← 18:86 وَجَدَهَا
+  - near: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:90 قَوْمٍ
+  - near: س ء ل B004 birbirine soru sormak / السؤال المتبادل ← 18:83 وَيَسْـَٔلُونَكَ
+  - near: ء م ر B007 danışıp görüş oluşturma / المشاورة وتدبير الرأي ← 18:88 أَمْرِنَا
+  - far: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:77 فَأَقَامَهُۥ
+  - far: و ض ع B011 karşılıklı anlaşma ve görüşme / مواضعة الأمر بين اثنين ← 18:49 وَوُضِعَ
+- **B010** hükmünü dayatma / اقتالة الحكم على غيره
+  - same: ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 18:86 قَوْمًا
+  - same: ء خ ذ B011 güreşte kavrayıp kilitleme / أخذة المصارعة ← 18:86 تَتَّخِذَ
+  - same: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 18:86 حُسْنًا
+  - near: ت ل و B009 hakkında yalan söylemek / قول كذب على غيره ← 18:83 سَأَتْلُوا۟
+  - near: ن ك ر B007 karşılıklı düşmanlık ve çatışma / المناكرة قتال وعداوة ← 18:87 نُّكْرًا
+  - near: س ء ل B003 birinin isteğini yerine getirmek / قضاء المسألة ← 18:83 وَيَسْـَٔلُونَكَ
+  - far: ح ك م B005 karar verme yetkisini başkasına bırakmak / التفويض والتحكيم ← 18:26 حُكْمِهِۦٓ
+  - far: ت ل و B009 hakkında yalan söylemek / قول كذب على غيره ← 18:27 وَٱتْلُ
+- **B011** sanma işlevli söyleme / قول يجري مجرى الظن
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:86 قَوْمًا
+  - same: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 18:86 عِندَهَا
+  - same: غ ر ب B005 dişlerin suyu, parlaklığı ve keskin uçları / غروب الأسنان ماء وحدّة ← 18:86 مَغْرِبَ
+  - near: ع م ل B012 yaya yolcular / بنو العمل من المشاة ← 18:88 وَعَمِلَ
+  - near: ج ع ل B004 bir eylemi yapmaya başlama / الشروع في الفعل أو ملازمته ← 18:90 نَجْعَل
+  - near: م ك ن B006 çekime girebilen ad / تمكن الاسم في الإعراب ← 18:84 مَكَّنَّا
+  - far: س و ء B006 ne kötü! / ساء بمعنى بئس ← 18:29 وَسَآءَتْ
+  - far: ر ء ي B013 söyler misin, bir düşün / أرأيتك للتنبيه والاستخبار ← 18:63 أَرَءَيْتَ
+- **B012** içte kalmış söz / قول في النفس لم يظهر
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 18:86 وَجَدَهَا
+  - same: ق ر ن B009 bedene bağlı iç benlik / نفس مقترنة بالبدن أو مطاوعة ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ع ي ن B013 şeyin bizzat kendisi ve belirlenmiş olanı / عين الشيء نفسه ← 18:86 عَيْنٍ
+  - near: ب ح ر B005 acikta karsilasmak / الظهور في الفضاء ← 18:79 ٱلْبَحْرِ
+  - near: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 18:90 وَجَدَهَا
+  - near: ص ب ر B001 kendini tutarak dayanma / حبس النفس عن الجزع ← 18:82 صَبْرًا
+  - far: ن ف س B013 iç düşünce, niyet ve ayırt etme gücü / ما في النفس من عقل وروع ← 18:74 نَفْسًا
+  - far: ز و ر B006 önceden hazırlayıp düzeltme ve süsleme / تزوير الكلام وتقويمه ← 18:17 تَّزَٰوَرُ
+- **B013** görüş benimseme / القول اعتقاد ومذهب
+  - same: ع ن د B004 yakınında veya birinin değerlendirmesinde bulunma / قرب وحضور عند الشيء ← 18:86 عِندَهَا
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 18:86 وَجَدَهَا
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - near: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 18:88 وَعَمِلَ
+  - near: ج ع ل B004 bir eylemi yapmaya başlama / الشروع في الفعل أو ملازمته ← 18:90 نَجْعَل
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - far: ظ ن ن B001 belirtiye dayanıp kesin bilgiye varan güçlü inanış / يقين بعد أمارة ← 18:53 فَظَنُّوٓا۟
+  - far: ه و ي B010 asılsız ve boş sözler / هواهي القول الباطل ← 18:28 هَوَىٰهُ
+- **B014** durumuyla belli etme / قول الشيء دلالته
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ع ن د B004 yakınında veya birinin değerlendirmesinde bulunma / قرب وحضور عند الشيء ← 18:86 عِندَهَا
+  - same: غ ر ب B003 kuyuda dökülen su ve su taşkınlığı / ماء البئر المنصب وكثرته ← 18:86 مَغْرِبَ
+  - near: ذ ك ر B004 bir şeyi sözle anma / جريان الذكر على اللسان ← 18:83 ذِكْرًا
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:79 يَأْخُذُ
+  - far: ح ي ي B009 bir şeye gelmeye çağırma / حي على بمعنى هلم وأقبل ← 18:104 ٱلْحَيَوٰةِ
+  - far: ج ب ل B009 sözün tıkanması veya engelleme / عسر ومنع ← 18:47 ٱلْجِبَالَ
+- **B015** içten önemseme / العناية الصادقة بالشيء
+  - same: ع ي ن B003 koruyup gözetme / عين الحفظ والرعاية ← 18:86 عَيْنٍ
+  - same: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:86 بَلَغَ
+  - same: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 18:86 عِندَهَا
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ج د ر B003 doğal yapı veya huy / الطبيعة اللازمة ← 18:82 ٱلْجِدَارُ
+  - near: س ء ل B002 istenen şey / السُّؤل المطلوب ← 18:83 وَيَسْـَٔلُونَكَ
+  - far: ء ث ر B011 alışarak kavrayıp ustalaşmak / حذق الشيء بالممارسة ← 18:64 ءَاثَارِهِمَا
+  - far: خ ل ل B003 içten dostluk ve yakın arkadaşlık / مودة تتخلل النفس ← 18:33 خِلَٰلَهُمَا
+- **B016** teknik tanım / قول الشيء حده
+  - same: و ج د B002 varlığa gelme, var olma ve var etme / ثبوت الشيء في الوجود ← 18:86 وَجَدَهَا
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - near: ع م ل B002 işe koşmak veya kullanmak / إعمال الشيء واستعماله ← 18:88 وَعَمِلَ
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ب ي ن B005 anlamı açıkça ortaya koyma / كشف المعنى بالقول أو العلامة ← 18:93 بَيْنَ
+  - far: ح د د B001 ayıran ve kapsamı belirleyen sınır / الحاجز والغاية المميزة ← 18:96 ٱلْحَدِيدِ
+  - far: ع م ل B002 işe koşmak veya kullanmak / إعمال الشيء واستعماله ← 18:103 أَعْمَٰلًا
+
+## ق ل ل (قُلْنَا)
+
+- **B001** azlık / القِلَّة والضآلة
+  - same: ب ل غ B008 yokluk veya hastalığın kişiyi iyice sıkıştırması / اشتداد العلة أو القلة ← 18:86 بَلَغَ
+  - same: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:86 قُلْنَا
+  - same: ع ي ن B014 bir şeyin en iyi ve seçkin bölümü / العين خيار الشيء ← 18:86 عَيْنٍ
+  - near: ي س ر B002 az miktar veya kısa süre / قلة يسيرة ← 18:88 يُسْرًا
+  - near: س ك ن B006 yoksulluk, güçsüzlük ve ezilmişlik / ذل المسكنة ← 18:79 لِمَسَٰكِينَ
+  - near: د و ن B002 değersiz, önemsiz veya aşağı olma / الخسة والحقارة ← 18:90 دُونِهَا
+  - far: ك ث ر B001 çokluk ve sayıca artma / الكثرة ونماء العدد ← 18:54 أَكْثَرَ
+  - far: ع ز ز B003 çok kıt ve güç bulunur olma / العزة بمعنى الندرة وصعوبة المنال ← 18:34 وَأَعَزُّ
+- **B002** bir şeyin tepesi veya başı / قُلَّة الشيء ورأسه
+  - same: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:86 قُلْنَا
+  - same: ق ر ن B006 boynuz veya boynuz biçimli çıkıntı / نتوء قوي كقرن الرأس ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:86 قَوْمًا
+  - near: ص ب ر B004 üst ya da yan sınır / أعلى الشيء وجوانبه ← 18:82 صَبْرًا
+  - near: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:87 قَالَ
+  - near: ك ل ل B001 körelip güçten düşme / الكَلال وخلاف الحدة ← 18:84 كُلِّ
+  - far: ق ر ي B012 mızrak ucunun sivri tepesi ve keskin kenar / طرف حاد كقارية السنان ← 18:77 قَرْيَةٍ
+  - far: ذ ر و B001 doruk ve saygınlığı överek yüceltme / الذروة والعلو المشرف ← 18:45 تَذْرُوهُ
+- **B003** büyük küp / القُلَّة الجرة الكبيرة
+  - same: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:86 قُلْنَا
+  - same: ق ر ن B007 yaya bağlı ok kılıfı ve silahlı taşıyıcısı / جعبة تقرن بالقوس وسلاح معها ← 18:86 ٱلْقَرْنَيْنِ
+  - same: غ ر ب B002 büyük kuyu kovası ve onunla su alma / الغرب الدلو العظيمة والراوية ← 18:86 مَغْرِبَ
+  - near: ق ر ب B009 su tulumu / القربة وعاء الماء ← 18:81 وَأَقْرَبَ
+  - near: ق و ل B008 oyun sopası / عود القال لضرب القلة ← 18:87 قَالَ
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 18:91 خُبْرًا
+  - far: ق ر ب B009 su tulumu / القربة وعاء الماء ← 18:24 لِأَقْرَبَ
+  - far: ص خ ر B001 iri ve sert kaya / الصخر الصلب العظيم ← 18:63 ٱلصَّخْرَةِ
+- **B004** yük kaldırma, yükselme ve yola koyulma / الإقلال والاستقلال حملا ونهوضا
+  - same: ق ر ن B004 bir şeyin üstesinden gelebilen / مطيق صار قرنا لما يواجهه ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 18:86 قَوْمًا
+  - same: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 18:86 قُلْنَا
+  - near: ر ه ق B003 ağır bir yükümlülüğü zorla yükleme / إعنات وتكليف بما يثقل ← 18:80 يُرْهِقَهُمَا
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 18:82 أَشُدَّهُمَا
+  - near: ق ر ن B004 bir şeyin üstesinden gelebilen / مطيق صار قرنا لما يواجهه ← 18:83 ٱلْقَرْنَيْنِ
+  - far: و ض ع B006 yerleştirilmiş topluluk, kayıtlı asker ya da yük / أقوام أو أثقال موضوعة في موضع مقرر ← 18:49 وَوُضِعَ
+  - far: ر ب ع B007 kaldırma ve birlikte yük taşıma / إشالة الحجر والحمل ← 18:22 رَّابِعُهُمْ
+- **B005** korku veya öfkeden titreme / القِلُّ رعدة واضطراب
+  - same: و ج د B005 öfke duymak ve birine kızmak / الموجدة والغضب ← 18:86 وَجَدَهَا
+  - same: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 18:86 تَتَّخِذَ
+  - same: ح م ء B002 birine öfkelenmek / الغضب المهموز ← 18:86 حَمِئَةٍ
+  - near: ء ر ض B008 titreme veya ürperme / الأَرْض الرعدة ← 18:84 ٱلْأَرْضِ
+  - near: و ج د B005 öfke duymak ve birine kızmak / الموجدة والغضب ← 18:90 وَجَدَهَا
+  - near: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 18:79 يَأْخُذُ
+  - far: ء ر ض B008 titreme veya ürperme / الأَرْض الرعدة ← 18:94 ٱلْأَرْضِ
+  - far: ء م د B002 ofke ve birine ofkelenme / الأَمَد غضب يقع على الإنسان ← 18:12 أَمَدًا
+
+## ق ر ن (ٱلْقَرْنَيْنِ)
+
+- **B001** bir şeyi başka bir şeye katıp bağlama / جمع شيء إلى شيء وربطه به
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ق ل ل B001 azlık / القِلَّة والضآلة ← 18:86 قُلْنَا
+  - same: غ ر ب B009 üst sırt, yüksek tepe ve serbest bırakma / الغارب أعلى الظهر والموج ← 18:86 مَغْرِبَ
+  - near: ق ر ب B016 bir ölçü veya sınıra yaklaşık olma / القراب والمقاربة في المقدار ← 18:81 وَأَقْرَبَ
+  - near: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:79 يَأْخُذُ
+  - near: ح و ط B003 eşeğin sürüsünü bir araya toplaması / جمع العانة وحوطها ← 18:91 أَحَطْنَا
+  - far: ق ر ء B001 — / جمع واجتماع ← 18:54 ٱلْقُرْءَانِ
+  - far: ق ر ء B001 — / جمع اللفظ وقراءته ← 18:54 ٱلْقُرْءَانِ
+- **B002** yalıtık adlandırmalar / صاحب مقترن بصاحبه
+  - same: ح م ء B003 kocanın erkek akrabası için ağızsal ad / الحَمْء من قرابة الزوج ← 18:86 حَمِئَةٍ
+  - same: ع ي ن B004 kötü bakışla zarar verme / الإصابة بالعين ← 18:86 عَيْنٍ
+  - same: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 18:86 قُلْنَا
+  - near: ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 18:87 رَبِّهِۦ
+  - near: ت ب ع B010 insanı her yerde izleyen dişi doğaüstü eşlikçi / الجنية التابعة ← 18:85 فَأَتْبَعَ
+  - near: ن ك ر B002 uyanıklık ve ince kavrayış / الدَّهاء والفطنة ← 18:87 نُّكْرًا
+  - far: ص ح ب B001 süreğen eşlik ve yakın birliktelik / الصُّحبة والملازمة ← 18:76 تُصَٰحِبْنِى
+  - far: ق ت ل B008 düşman veya denk rakip / عدو أو قرين يقابل صاحبه ← 18:74 فَقَتَلَهُۥ
+- **B003** yaşça ya da güççe denk kişi / كفء يساوي قرنه
+  - same: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:86 قَوْمًا
+  - same: ب ل غ B003 yaşamı sürdürmeye yetecek ölçü ve geçim aracı / الكفاية التي يتبلغ بها ← 18:86 بَلَغَ
+  - same: غ ر ب B001 keskin uç ve uç noktaya varan yoğunluk / الحد والحِدّة وبلوغ الغاية ← 18:86 مَغْرِبَ
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 18:82 أَشُدَّهُمَا
+  - near: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:90 قَوْمٍ
+  - near: ب ل غ B003 yaşamı sürdürmeye yetecek ölçü ve geçim aracı / الكفاية التي يتبلغ بها ← 18:82 يَبْلُغَآ
+  - far: و ل د B006 yaşıt / قرين في سن الولادة ← 18:39 وَوَلَدًا
+  - far: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 18:2 شَدِيدًا
+- **B004** bir şeyin üstesinden gelebilen / مطيق صار قرنا لما يواجهه
+  - same: ق ل ل B004 yük kaldırma, yükselme ve yola koyulma / الإقلال والاستقلال حملا ونهوضا ← 18:86 قُلْنَا
+  - same: ق و ل B003 çok sözlü kişi / كثرة القول في صاحبه ← 18:86 قُلْنَا
+  - same: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:86 قَوْمًا
+  - near: ر ه ق B003 ağır bir yükümlülüğü zorla yükleme / إعنات وتكليف بما يثقل ← 18:80 يُرْهِقَهُمَا
+  - near: ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ط و ع B004 yapabilir hale gelmek için kendini zorlama / تكلف الاستطاعة ← 18:82 تَسْطِع
+  - far: ع ر ض B011 hedef olarak ortaya koyma veya bir işe hazır olma / العرضة نصب وقوة للتعرض ← 18:100 وَعَرَضْنَا
+  - far: ص و ر B004 üfleme boynuzu / قرن النفخ ← 18:99 ٱلصُّورِ
+- **B005** aynı çağın insanları veya kuşak dönemi / قوم مقترنون في زمن واحد
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:86 قَوْمًا
+  - same: ع ي ن B017 kimse veya orada bulunan insanlar / العين بمعنى الناس الحاضرون ← 18:86 عَيْنٍ
+  - same: ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ ← 18:86 قُلْنَا
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:90 قَوْمٍ
+  - near: و ر ي B008 yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض ← 18:79 وَرَآءَهُم
+  - near: ء م ر B001 konu ve hal / الشأن والحال ← 18:88 أَمْرِنَا
+  - far: ص و ر B004 üfleme boynuzu / قرن النفخ ← 18:99 ٱلصُّورِ
+  - far: ح ق ب B004 uzunluğu değişebilen zaman dilimi / امتداد الحقبة ← 18:60 حُقُبًا
+- **B006** boynuz veya boynuz biçimli çıkıntı / نتوء قوي كقرن الرأس
+  - same: ع ي ن B016 geniş ve güzel gözlü olma / سعة العين وحسنها ← 18:86 عَيْنٍ
+  - same: ق ل ل B002 bir şeyin tepesi veya başı / قُلَّة الشيء ورأسه ← 18:86 قُلْنَا
+  - same: غ ر ب B012 beyaz kirpikli, yaygın ak alınlıklı veya sonradan beliren / المغرب بياض في الشفر والشعر ← 18:86 مَغْرِبَ
+  - near: ي ت م B002 tek kalmış ya da benzeri zor bulunan şey / انفراد الشيء وانقطاع نظيره ← 18:82 يَتِيمَيْنِ
+  - near: س ب ب B007 sarkan perçem, yele veya kuyruk kılı / السَّبيب شعر متدل ← 18:85 سَبَبًا
+  - near: ط غ ي B003 yanlış yolun önderi, tapınılan sahte varlık veya saptırıcı zorba güç / الطاغوت رأس الضلالة ← 18:80 طُغْيَٰنًا
+  - far: ص و ر B004 üfleme boynuzu / قرن النفخ ← 18:99 ٱلصُّورِ
+  - far: ص د ف B003 dağ yanı, yüksek dağ kesimi veya yüksek yapı / جانب الجبل والناحية المرتفعة ← 18:96 ٱلصَّدَفَيْنِ
+- **B007** yaya bağlı ok kılıfı ve silahlı taşıyıcısı / جعبة تقرن بالقوس وسلاح معها
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:86 قَوْمًا
+  - same: ق ل ل B003 büyük küp / القُلَّة الجرة الكبيرة ← 18:86 قُلْنَا
+  - same: ء خ ذ B012 kancalı aracın tutamağı / مقبض الشيء المأخوذ به ← 18:86 تَتَّخِذَ
+  - near: ق ر ب B010 kılıç kını veya deri dış kabı / قراب السيف ووعاؤه ← 18:81 وَأَقْرَبَ
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 18:87 رَبِّهِۦ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:90 قَوْمٍ
+  - far: ك ن ن B004 küçük, kapalı okluk / الكِنانة للسهام ← 18:57 أَكِنَّةً
+  - far: ق ر ب B010 kılıç kını veya deri dış kabı / قراب السيف ووعاؤه ← 18:24 لِأَقْرَبَ
+- **B008** uzuvları veya hareketleri eşleşen binek / أعضاء أو حركات تقارن بعضها
+  - same: ش م س B002 ürküp kaçınma, durulmama ve güçlük çıkarma / الشماس والشموس في الدابة والخلق ← 18:86 ٱلشَّمْسِ
+  - same: ع ي ن B009 göze benzer çukur, yer veya eğim / النقرة أو الموضع العيني ← 18:86 عَيْنٍ
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:86 قَوْمًا
+  - near: ء ت ي B009 devenin ön ayaklarını geri getirişi / رجع يدي الناقة في السير ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ق ر ب B013 yakında tutulan ve binmeye hazırlanan hayvan / الخيل والإبل المقربة ← 18:81 وَأَقْرَبَ
+  - near: ب ي ن B003 arayı bağlayan ilişki / الوصلة القائمة بين الأطراف ← 18:93 بَيْنَ
+  - far: ف ر ق B007 beden yapısında doğuştan ayrıklık veya eşitsizlik / تباعد وافتراق في الخلقة ← 18:78 فِرَاقُ
+  - far: ص ف ف B002 bir sağımda birden çok kabı dolduran ya da ön ayaklarını hizalayan dişi deve / ناقة تجمع محالبها ← 18:48 صَفًّا
+- **B009** bedene bağlı iç benlik / نفس مقترنة بالبدن أو مطاوعة
+  - same: ق و ل B012 içte kalmış söz / قول في النفس لم يظهر ← 18:86 قُلْنَا
+  - same: ع ي ن B013 şeyin bizzat kendisi ve belirlenmiş olanı / عين الشيء نفسه ← 18:86 عَيْنٍ
+  - same: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 18:86 قَوْمًا
+  - near: ط و ع B006 iç benliğin işi kolay gösterip yöneltmesi / تسهيل النفس للأمر ← 18:82 تَسْطِع
+  - near: ر و د B001 dileyip yonelme / الإرادة والمشيئة ← 18:82 فَأَرَادَ
+  - near: ق و ل B012 içte kalmış söz / قول في النفس لم يظهر ← 18:87 قَالَ
+  - far: ط و ع B006 iç benliğin işi kolay gösterip yöneltmesi / تسهيل النفس للأمر ← 18:78 تَسْتَطِع
+  - far: ن ف س B011 bedene yaşam veren can / النفس التي بها الحياة ← 18:74 نَفْسًا
+- **B010** bir terleme nöbeti veya çabuk terleyen at / دفعة عرق أو حلبته
+  - same: غ ر ب B004 gözyaşı yolları, akışı ve göz pınarı rahatsızlığı / مجاري الدمع وأطراف العين ← 18:86 مَغْرِبَ
+  - same: ع ن د B003 sıvının yana yönelerek veya kesilmeden akması / سيلان عاند جانح ← 18:86 عِندَهَا
+  - same: ش م س B002 ürküp kaçınma, durulmama ve güçlük çıkarma / الشماس والشموس في الدابة والخلق ← 18:86 ٱلشَّمْسِ
+  - near: ر د د B007 sütün, suyun veya bedensel sıvının birikip çoğalması / امتلاء الضرع وتجمع الماء ← 18:87 يُرَدُّ
+  - near: ق ر ب B015 böğür, bedenin yan bölgesi / قُرْب الفرس والخاصرة ← 18:81 وَأَقْرَبَ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 18:87 رَبِّهِۦ
+  - far: ب ر ز B003 saflardan çıkıp teke tek dövüşme / المبارزة والانفراد للقتال ← 18:47 بَارِزَةً
+  - far: ص و ر B004 üfleme boynuzu / قرن النفخ ← 18:99 ٱلصُّورِ
+
+## ع ذ ب (تُعَذِّبَ)
+
+- **B001** tatlı ve kolay tüketilen yiyecek ya da içecek / العذوبة والطيب في الماء والمطعوم
+  - same: ح س ن B001 akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح ← 18:86 حُسْنًا
+  - same: ع ي ن B006 akan su kaynağı / منبع الماء الجاري ← 18:86 عَيْنٍ
+  - same: غ ر ب B003 kuyuda dökülen su ve su taşkınlığı / ماء البئر المنصب وكثرته ← 18:86 مَغْرِبَ
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 18:87 رَبِّهِۦ
+  - near: ظ ل م B005 dislerde su gibi parilti / ماء الأسنان وبريق الثغر ← 18:87 ظَلَمَ
+  - near: ب ح ر B004 suyun tuzlu olmasi / الملوحة ← 18:79 ٱلْبَحْرِ
+  - far: م ر ر B003 acı tat ve acılaşma / المرارة ضد الحلاوة ← 18:48 مَرَّةٍۭ
+  - far: ش ر ب B005 tadı bozuk ama içilebilir su / ماء يشرب مع كراهة ← 18:29 ٱلشَّرَابُ
+- **B002** yemeden içmeden durma / العذوب امتناع الجسد عن الأكل والشرب
+  - same: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 18:86 قَوْمًا
+  - same: ش م س B002 ürküp kaçınma, durulmama ve güçlük çıkarma / الشماس والشموس في الدابة والخلق ← 18:86 ٱلشَّمْسِ
+  - same: ء خ ذ B007 bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم ← 18:86 تَتَّخِذَ
+  - near: ب ح ر B014 sudan kanmayacak kadar susamak / اشتداد العطش مع عدم الرِّيّ ← 18:79 ٱلْبَحْرِ
+  - near: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 18:90 قَوْمٍ
+  - near: ش م س B002 ürküp kaçınma, durulmama ve güçlük çıkarma / الشماس والشموس في الدابة والخلق ← 18:90 ٱلشَّمْسِ
+  - far: ش ر ب B005 tadı bozuk ama içilebilir su / ماء يشرب مع كراهة ← 18:29 ٱلشَّرَابُ
+  - far: ب ح ر B014 sudan kanmayacak kadar susamak / اشتداد العطش مع عدم الرِّيّ ← 18:63 ٱلْبَحْرِ
+- **B003** vazgeçme veya alıkoyma / الكف والمنع والفطام عن الشيء
+  - same: ء خ ذ B001 ele geçirip edinme / حوز الشيء وتناوله ← 18:86 تَتَّخِذَ
+  - same: ع ن د B001 doğruyu bile bile geri çevirerek karşı koyma ve sınırı aşma / عدول عن الاستقامة وممانعة للحق ← 18:86 عِندَهَا
+  - same: ق و ل B015 içten önemseme / العناية الصادقة بالشيء ← 18:86 قُلْنَا
+  - near: ظ ل م B008 paydan alikoyma / المنع والحبس عن الحق ← 18:87 ظَلَمَ
+  - near: ر د د B002 yönünden çevirip engelleme / صرف الشيء ودفعه ومنعه ← 18:87 يُرَدُّ
+  - near: ذ ك ر B003 akılda tutma ve yeniden hatırlama / استحضار الشيء بعد النسيان أو مع الحفظ ← 18:83 ذِكْرًا
+  - far: ك ف ف B002 geri durmak veya alıkoymak / الكف والمنع ← 18:42 كَفَّيْهِ
+  - far: ن ز ع B003 vazgeçip geri durma / الكف بعد تعلق ← 18:21 يَتَنَٰزَعُونَ
+- **B004** gökyüzüne karşı örtüsüz / العذوب المكشوف للسماء
+  - same: ج د د B006 su kıyısı / حافة الماء وساحله ← 18:86 وَجَدَهَا
+  - same: غ ر ب B006 güneşin batması, batı yönü ve batış yeri / غروب الشمس والمغرب ← 18:86 مَغْرِبَ
+  - same: ع ي ن B007 su sızdıran ince delik / عين الجلد والسقاء ← 18:86 عَيْنٍ
+  - near: ء ر ض B001 yer ve yere bakan alt bölüm / السفل المقابل للسماء ← 18:84 ٱلْأَرْضِ
+  - near: س ت ر B005 iki kişi arasında elçilik yapan aracı / السِّترة بين شخصين ← 18:90 سِتْرًا
+  - near: ك ف ر B002 örten karanlık veya enginlik / غمر ساتر ← 18:80 وَكُفْرًا
+  - far: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 18:51 ٱلسَّمَٰوَٰتِ
+  - far: ك ذ ب B008 iç benlik / النفس الكذوب ← 18:15 كَذِبًا
+- **B005** ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة
+  - same: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 18:86 تَتَّخِذَ
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 18:86 قَوْمًا
+  - same: و ج د B004 üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak / وجدان الحزن والمحبة ← 18:86 وَجَدَهَا
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 18:82 أَشُدَّهُمَا
+  - near: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 18:79 يَأْخُذُ
+  - near: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 18:90 قَوْمٍ
+  - far: ع ق ب B007 suçtan sonra verilen kötü karşılık / العقوبة بعد الذنب ← 18:44 عُقْبًا
+  - far: ب ء س B001 zorlayıcı sert güç / البأس شدة قاهرة ← 18:50 بِئْسَ
+- **B006** ince uç veya sarkan bağlı parça / العذبة طرف أو علاقة متدلية
+  - same: ج د د B012 düğümlü ipler ve dolaşık kalıntılar / خيوط معقودة وبقايا متشابكة ← 18:86 وَجَدَهَا
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:86 قَوْمًا
+  - same: ق و ل B002 konuşma organı / اللسان آلة القول ← 18:86 قُلْنَا
+  - near: ح و ط B007 yuvarlak veya hilal biçimli gümüş süs / الحوط حلية مستديرة ← 18:91 أَحَطْنَا
+  - near: ع م ل B009 mızrak ucunun alt bölümü / عامل الرمح ← 18:88 وَعَمِلَ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:90 قَوْمٍ
+  - far: ث م ر B005 kamci ucu dugumu / ثمرة الطرف ← 18:42 بِثَمَرِهِۦ
+  - far: ش ر ك B004 sandal kayışı ve sandala kayış takma / شِراك النعل ← 18:110 يُشْرِكْ
+- **B008** iyi ve cömert huylu / العذبي كريم الأخلاق
+  - same: ق و ل B002 konuşma organı / اللسان آلة القول ← 18:86 قُلْنَا
+  - same: ج د د B003 kesme ve ayırma / قطع وصرم ← 18:86 وَجَدَهَا
+  - same: ب ل غ B011 başa gelen ağır ve yıkıcı büyük olay / البُلغين الداهية ← 18:86 بَلَغَ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 18:81 خَيْرًا
+  - near: ر ه ق B006 konukların ve yardım isteyenlerin sık uğradığı cömert kişi / كثرة من يغشى الرجل من ضيفان وسؤال ← 18:80 يُرْهِقَهُمَا
+  - near: ب ح ر B013 büyük karinli / عظم البطن ← 18:79 ٱلْبَحْرِ
+  - far: ن ق ب B010 övülesi özellik veya davranış / المنقبة خصلة كريمة ← 18:97 نَقْبًا
+  - far: ف ت ي B003 cömertlik ya da yetkin erkeklik bakımından övülme / الفتوة والكرم ← 18:62 لِفَتَىٰهُ
+- **B009** biçime bağlı adlandırmalar / العذابة والرحم والخرج بعد الولد
+  - same: ع ن د B002 ortak doğrultudan yana sapıp ayrı durma / ميل إلى ناحية وانفراد عن الجماعة ← 18:86 عِندَهَا
+  - same: و ج د B005 öfke duymak ve birine kızmak / الموجدة والغضب ← 18:86 وَجَدَهَا
+  - same: ح س ن B004 yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام ← 18:86 حُسْنًا
+  - near: ر ح م B003 döl yatağı / رَحِم الأنثى ← 18:82 رَحْمَةً
+  - near: ن ك ر B005 kanlı ya da irinli bedensel akıntı / النُّكْرة الخارجة من الجوف ← 18:87 نُّكْرًا
+  - near: و ر ي B007 torun / ولد الولد يأتي من وراء الابن ← 18:79 وَرَآءَهُم
+  - far: ر ح م B003 döl yatağı / رَحِم الأنثى ← 18:98 رَحْمَةٌ
+  - far: ح و ل B008 doğumla çıkan zar ya da su / الحَوْلاء الخارجة مع الولد ← 18:108 حِوَلًا
+
+## ء خ ذ (تَتَّخِذَ)
+
+- **B001** ele geçirip edinme / حوز الشيء وتناوله
+  - same: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 18:86 عِندَهَا
+  - same: ق و ل B014 durumuyla belli etme / قول الشيء دلالته ← 18:86 قُلْنَا
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - near: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 18:90 دُونِهَا
+  - near: غ ص ب B001 bir şeyi sahibinden haksız yere zorla alma / أخذ الشيء ظلما وقهرا ← 18:79 غَصْبًا
+  - near: ق ر ب B001 yakın olma, yaklaşma veya yaklaştırma / الدنو وخلاف البعد ← 18:81 وَأَقْرَبَ
+  - far: ط ع م B001 tatma, yeme ve yenilen besin / ذوق الشيء وتناوله ← 18:77 ٱسْتَطْعَمَآ
+  - far: د و ن B004 buyur, bunu al / الإغراء بالتناول ← 18:102 دُونِىٓ
+- **B002** suçundan sorumlu tutma / المؤاخذة بالذنب
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - same: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 18:86 قُلْنَا
+  - same: ح س ن B002 bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن ← 18:86 حُسْنًا
+  - near: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:87 نُعَذِّبُهُۥ
+  - near: ع م ل B005 karşılıklı işlem / المعاملة بين الناس ← 18:88 وَعَمِلَ
+  - near: ك ف ر B007 itaatsizliğe zorlamak / إلجاء إلى العصيان ← 18:80 وَكُفْرًا
+  - far: ج و ز B004 kusuru bağışlayıp hesap sormama / ترك المؤاخذة والعفو ← 18:62 جَاوَزَا
+  - far: ع ق ب B007 suçtan sonra verilen kötü karşılık / العقوبة بعد الذنب ← 18:44 عُقْبًا
+- **B003** yakalayıp tutsak etme / القبض والأسر
+  - same: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:86 تُعَذِّبَ
+  - same: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 18:86 قُلْنَا
+  - same: ع ي ن B015 önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة ← 18:86 عَيْنٍ
+  - near: ي س ر B004 sol el veya sol yön / الجهة اليسرى واليد اليسرى ← 18:88 يُسْرًا
+  - near: ي ت م B004 yavaşlama veya gecikme / إبطاء السير والبر ← 18:82 يَتِيمَيْنِ
+  - near: ع ذ ب B005 ağır acı çektirme ve cezalandırma / العذاب إيلام وعقوبة ← 18:87 نُعَذِّبُهُۥ
+  - far: ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 18:57 ٱلْهُدَىٰ
+  - far: ط ل ق B001 bağdan kurtarıp serbest bırakma / تخلية من قيد وإرسال ← 18:77 فَٱنطَلَقَا
+- **B004** büyüsel yolla etkileyip engelleme / رقية تمسك وتحبس
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:86 قَوْمًا
+  - same: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 18:86 عِندَهَا
+  - same: ح م ء B003 kocanın erkek akrabası için ağızsal ad / الحَمْء من قرابة الزوج ← 18:86 حَمِئَةٍ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 18:90 قَوْمٍ
+  - near: خ ر ج B002 bir şeyi çıkarma, elde etme veya yetiştirme / إخراج الشيء من خفائه ← 18:82 وَيَسْتَخْرِجَا
+  - near: ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل ← 18:84 وَءَاتَيْنَٰهُ
+  - far: ص ر ف B009 gönlü çevirdiğine inanılan boncuk / خرزة تصرف القلب ← 18:54 صَرَّفْنَا
+  - far: ق ب ل B016 asılan boncuk veya makara biçimli takı / خرزة تقبل وجها إلى وجه ← 18:109 قَبْلَ
+- **B005** sahiplenilip işletilen arazi / أرض مأخوذة للنفس
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:86 قَوْمًا
+  - same: ق و ل B006 sözü üzerine alma / اجترار القول إلى النفس ← 18:86 قُلْنَا
+  - same: ق ر ن B009 bedene bağlı iç benlik / نفس مقترنة بالبدن أو مطاوعة ← 18:86 ٱلْقَرْنَيْنِ
+  - near: ء ر ض B006 yere çökercesine ağırlaşıp oyalanmak / لزوم الأرض والتثاقل إليها ← 18:84 ٱلْأَرْضِ
+  - near: ص ب ر B012 öldürmeye karşılık ölüm cezası / الإقصاص والقود ← 18:82 صَبْرًا
+  - near: خ ب ر B003 üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة ← 18:91 خُبْرًا
+  - far: ض ي ع B003 geçim işi ve kazanç yolu / الضيعة حرفة المرء وكسبه ← 18:30 نُضِيعُ
+  - far: ص ن ع B010 çağrılı yemek ve bunun için yiyecek hazırlama / مصنعة الدعوة والطعام ← 18:104 صُنْعًا
+- **B006** su tutan çukur veya havuz / موضع يمسك الماء
+  - same: غ ر ب B003 kuyuda dökülen su ve su taşkınlığı / ماء البئر المنصب وكثرته ← 18:86 مَغْرِبَ
+  - same: ع ي ن B007 su sızdıran ince delik / عين الجلد والسقاء ← 18:86 عَيْنٍ
+  - same: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 18:86 قَوْمًا
+  - near: ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله ← 18:84 وَءَاتَيْنَٰهُ
+  - near: ج د ر B001 duvar, yükseltilmiş set ve duvarla çevrili yer / الجدار المرتفع ← 18:82 ٱلْجِدَارُ
+  - near: ء و ل B010 içecek olgunlaştırma kabı / الإيال وعاء الشراب حتى يجود ← 18:82 تَأْوِيلُ
+  - far: ج ي ء B003 — / مجتمع الماء في هبطة أو حول حصن ← 18:74 جِئْتَ
+  - far: ج ي ء B002 — / الجِيأة مجتمع الماء ← 18:74 جِئْتَ
+- **B007** bedende bir durumun baş gösterip etkisini göstermesi / حال تأخذ في الجسم
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:86 قَوْمًا
+  - same: غ ر ب B017 şiddetli ağrı veya koyunda tüy döken hastalık / الوجع والداء في البدن أو الشاة ← 18:86 مَغْرِبَ
+  - same: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 18:86 قُلْنَا
+  - near: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:90 قَوْمٍ
+  - near: ب ح ر B011 verem gibi zayiflatici hastalik / الداء المورث للسُّل وذهاب اللحم ← 18:79 ٱلْبَحْرِ
+  - near: ك ل ل B001 körelip güçten düşme / الكَلال وخلاف الحدة ← 18:84 كُلِّ
+  - far: ع ض د B007 devenin üst kolunu tutan hastalık / العَضَد داء في عضد البعير ← 18:51 عَضُدًا
+  - far: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:77 فَأَقَامَهُۥ
+- **B008** ay konaklarının yıldızları / أخذ القمر في منازله
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:86 قَوْمًا
+  - same: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 18:86 عِندَهَا
+  - same: ح س ن B004 yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام ← 18:86 حُسْنًا
+  - near: ك ل ل B005 çevresini kuşak gibi saran oluşum / الإكليل وما يحيط ← 18:84 كُلِّ
+  - near: س ك ن B004 insanı rahatlatıp içini yatıştıran dayanak / مأنس السكون ← 18:79 لِمَسَٰكِينَ
+  - near: ك ف ر B002 örten karanlık veya enginlik / غمر ساتر ← 18:80 وَكُفْرًا
+  - far: غ ف ر B006 Ay'ın konaklarından olan üç küçük yıldız / منزل قمري من ثلاثة أنجم ← 18:58 ٱلْغَفُورُ
+  - far: ق ل ب B010 Akrep'in Yüreği yıldızı / قلب العقرب النجم ← 18:57 قُلُوبِهِمْ
+- **B009** bir topluluğun yolunu ve özelliklerini benimseme / الأخذ بالسيرة والشكل
+  - same: ع ن د B006 sözü dinleyeni almaya veya tutmaya yönelten buyruk / إغراء عندك بالأخذ ← 18:86 عِندَهَا
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 18:86 قَوْمًا
+  - same: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 18:86 قُلْنَا
+  - near: ي ت م B004 yavaşlama veya gecikme / إبطاء السير والبر ← 18:82 يَتِيمَيْنِ
+  - near: س ب ب B013 yumuşak bir yürüyüşle ilerleme / سَبْسَب سير لين ← 18:85 سَبَبًا
+  - near: ء ت ي B009 devenin ön ayaklarını geri getirişi / رجع يدي الناقة في السير ← 18:84 وَءَاتَيْنَٰهُ
+  - far: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 18:57 ٱلْهُدَىٰ
+  - far: س ي ر B002 izlenen yol ve içinde bulunulan durum / السيرة والطريقة ← 18:47 نُسَيِّرُ
+- **B010** kendisi için edinip kazanma / الاتخاذ والاكتساب
+  - same: ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته ← 18:86 قُلْنَا
+  - same: ب ل غ B003 yaşamı sürdürmeye yetecek ölçü ve geçim aracı / الكفاية التي يتبلغ بها ← 18:86 بَلَغَ
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - near: خ ي ر B003 daha iyi olanı seçme / طلب الخير بالاختيار والاستخارة ← 18:81 خَيْرًا
+  - near: ج ع ل B004 bir eylemi yapmaya başlama / الشروع في الفعل أو ملازمته ← 18:90 نَجْعَل
+  - near: ت ب ع B012 sağlamlaştırmak, uyumlu olmak veya iyi duruma getirmek / الإحكام والتناسب ← 18:85 فَأَتْبَعَ
+  - far: ك س ب B002 birine para ya da iyilik kazandırma / إكساب غيره خيرا أو مالا ← 18:58 كَسَبُوا۟
+  - far: م و ل B001 varlık; edinme, çoğalma ve başkasına kazandırma / اتخاذ المال وكثرته ← 18:46 ٱلْمَالُ
+- **B011** güreşte kavrayıp kilitleme / أخذة المصارعة
+  - same: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:86 قَوْمًا
+  - same: ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب ← 18:86 قُلْنَا
+  - same: ع ذ ب B003 vazgeçme veya alıkoyma / الكف والمنع والفطام عن الشيء ← 18:86 تُعَذِّبَ
+  - near: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:90 قَوْمٍ
+  - near: غ ص ب B001 bir şeyi sahibinden haksız yere zorla alma / أخذ الشيء ظلما وقهرا ← 18:79 غَصْبًا
+  - near: ن ك ر B007 karşılıklı düşmanlık ve çatışma / المناكرة قتال وعداوة ← 18:87 نُّكْرًا
+  - far: ط ع م B012 boğazından yakalayıp sıkmak / الأخذ بالمطعمة عند الخنق ← 18:77 ٱسْتَطْعَمَآ
+  - far: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 18:77 فَأَقَامَهُۥ
+- **B012** kancalı aracın tutamağı / مقبض الشيء المأخوذ به
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:86 قَوْمًا
+  - same: ق ر ن B007 yaya bağlı ok kılıfı ve silahlı taşıyıcısı / جعبة تقرن بالقوس وسلاح معها ← 18:86 ٱلْقَرْنَيْنِ
+  - same: ع ذ ب B006 ince uç veya sarkan bağlı parça / العذبة طرف أو علاقة متدلية ← 18:86 تُعَذِّبَ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 18:90 قَوْمٍ
+  - near: ق ر ن B007 yaya bağlı ok kılıfı ve silahlı taşıyıcısı / جعبة تقرن بالقوس وسلاح معها ← 18:83 ٱلْقَرْنَيْنِ
+  - near: غ ص ب B001 bir şeyi sahibinden haksız yere zorla alma / أخذ الشيء ظلما وقهرا ← 18:79 غَصْبًا
+  - far: ي د ي B013 bir nesnenin tutacağı, ucu ya da uzantısı / يَد الشيء ← 18:57 يَدَاهُ
+  - far: م ن ع B006 bir şey üzerinde karşılıklı engelleşme / ممانعة في الشيء ← 18:55 مَنَعَ
+
+## ح س ن (حُسْنًا)
+
+- **B001** akla, eğilime veya duyulara göre güzel ve beğenilir olma / الحسن ضد القبح
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 18:86 قَوْمًا
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - same: ع ي ن B016 geniş ve güzel gözlü olma / سعة العين وحسنها ← 18:86 عَيْنٍ
+  - near: خ ي ر B001 arzulanan iyilik / الميل إلى الخير النافع ← 18:81 خَيْرًا
+  - near: ش ي ء B001 — / الشيء المعلوم المخبر عنه ← 18:84 شَىْءٍ
+  - near: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 18:88 وَعَمِلَ
+  - far: س و ء B001 çirkinlik ve kötülük / القبح والرداءة ← 18:29 وَسَآءَتْ
+  - far: ز ي ن B001 ayıptan uzak güzellik / حسن الشيء ونقاؤه من الشين ← 18:46 زِينَةُ
+- **B002** bir şeyi güzelleştirme, işi iyi yapma veya başkasına iyilik etme / الإحسان فعل حسن
+  - same: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:86 بَلَغَ
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 18:86 قَوْمًا
+  - same: ء خ ذ B002 suçundan sorumlu tutma / المؤاخذة بالذنب ← 18:86 تَتَّخِذَ
+  - near: ص ل ح B001 iyi ve düzgün olma; düzeltme / الصلاح ضد الفساد والطلاح ← 18:88 صَٰلِحًا
+  - near: ع م ل B001 bilerek yapılan iş veya eylem / الفعل المقصود والعمل ← 18:88 وَعَمِلَ
+  - near: ج ز ي B001 iyiliğe ya da kötülüğe denk karşılık verme / مقابلة الفعل بجزائه ← 18:88 جَزَآءً
+  - far: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 18:31 نِعْمَ
+  - far: س و ء B002 birini üzme veya ona kötülük etme / المساءة وما يسوء ← 18:29 وَسَآءَتْ
+- **B004** yer, gök cismi ve beden bölümü adları ile kum tepesine oturma kullanımı / أسماء الحسن للمواضع والأجسام
+  - same: ش م س B007 güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri / التسمية بالشمس وما نسب إليها ← 18:86 ٱلشَّمْسِ
+  - same: ج د د B010 otlak kuyusu / بئر في موضع كلأ ← 18:86 وَجَدَهَا
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 18:86 قَوْمًا
+  - near: ك ف ر B013 dağ geçidi; iri dağ veya alçak duvar / ثنية مستورة ← 18:80 وَكُفْرًا
+  - near: ص ب ر B017 dağ ya da dağların orta kesimi / الجبل ووسطه ← 18:82 صَبْرًا
+  - near: ش م س B007 güneş kökünden kişi, topluluk, put ve yer adları ile bağlılık türetmeleri / التسمية بالشمس وما نسب إليها ← 18:90 ٱلشَّمْسِ
+  - far: ن ه ر B007 kişi, yer ve yıldızlara ait özel adlar / أعلام وأسماء خاصة ← 18:33 نَهَرًا
+  - far: ذ ر ع B013 kol adı verilen gök, yer ve yapı öğeleri / أعلام وأجزاء تسمى بالذراع ← 18:18 ذِرَاعَيْهِ
+- **B005** bir işteki en yüksek çabası ve erişebileceği son sınır / حُسَيْناء الغاية والجهد
+  - same: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:86 بَلَغَ
+  - same: ش م س B003 birine düşmanlığını açıkça göstermek / إبداء العداوة ← 18:86 ٱلشَّمْسِ
+  - same: و ج د B001 bulma ve duyusal ya da zihinsel olarak algılama / إلفاء الشيء وإصابته ← 18:86 وَجَدَهَا
+  - near: ش ي ء B001 — / المشيئة ← 18:84 شَىْءٍ
+  - near: ب ل غ B005 bir şeyi ulaşılabilir en ileri dereceye götürme / الجودة البالغة ← 18:82 يَبْلُغَآ
+  - near: د و ن B001 yakın, aşağı ya da hedefin gerisinde olma / القرب دون الغاية ← 18:90 دُونِهَا
+  - far: ح م د B004 övülesi işin varılabilecek en ileri sınırı / حماداك الغاية المحمودة ← 18:1 ٱلْحَمْدُ
+  - far: د ك ك B009 birleşmede beden ağırlığıyla zorlama / إلقاء الثقل في المخالطة ← 18:98 دَكَّآءَ
+
