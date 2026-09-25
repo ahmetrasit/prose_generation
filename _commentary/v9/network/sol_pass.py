@@ -34,16 +34,17 @@ REPAIR = "gpt-6-luna"
 REVIEWER = "gpt-6-luna"  # editorial review, report only (reasoning effort max)  # localized quote/format repairs: bounded, script-checked (reasoning effort max)
 
 
-OUT_DIR = "sol"  # output folder under network/out/S_A/ (--dir); the backbone is always sol/backbone.md
+OUT_DIR = "sol"  # output folder under network/out/S_A/ (--dir; a value with "/" is a path under _commentary/v9)
+BACKBONE = ""    # --backbone: evidence document in place of network/out/S_A/sol/backbone.md (e.g. a lines package)
 
 
 def paths(ref: str) -> dict[str, Path]:
     s, a = ref.split(":")
     sa = f"{s}_{a}"
-    sol = V9 / "network" / "out" / sa / OUT_DIR
+    sol = (V9 / OUT_DIR.format(sa=sa)) if "/" in OUT_DIR else V9 / "network" / "out" / sa / OUT_DIR
     sol.mkdir(parents=True, exist_ok=True)
     return {"sol": sol, "sa": Path(sa), "context": V9 / "luna" / "work" / sa / "context.md",
-            "backbone": V9 / "network" / "out" / sa / "sol" / "backbone.md", "plan": sol / "plan.md", "pkg": V9 / "input" / "v2" / f"s{int(s):03d}" / sa,
+            "backbone": (V9 / BACKBONE.format(sa=sa)) if BACKBONE else V9 / "network" / "out" / sa / "sol" / "backbone.md", "plan": sol / "plan.md", "pkg": V9 / "input" / "v2" / f"s{int(s):03d}" / sa,
             "reading": sol / f"{sa}.reading.tr.md", "work": V9 / "luna" / "work" / sa}
 
 
@@ -220,14 +221,17 @@ def review(ref: str) -> None:
 
 
 def main() -> None:
-    global SOL, OUT_DIR
+    global SOL, OUT_DIR, BACKBONE
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("step", choices=("plan", "write", "check", "review", "all"))
     ap.add_argument("ref")
     ap.add_argument("--model", default=SOL, help="writer model (default gpt-6-sol; e.g. gpt-6-luna)")
-    ap.add_argument("--dir", default="sol", help="output folder under network/out/S_A/")
+    ap.add_argument("--dir", default="sol", help="output folder under network/out/S_A/, or a path under _commentary/v9 "
+                                                 "containing '/' ({sa} = ayah reference, e.g. lines/work/{sa}/synth/sol2)")
+    ap.add_argument("--backbone", default="", help="evidence document under _commentary/v9 in place of the backbone "
+                                                   "({sa} allowed, e.g. lines/work/{sa}/package.md)")
     a = ap.parse_args()
-    SOL, OUT_DIR = a.model, a.dir
+    SOL, OUT_DIR, BACKBONE = a.model, a.dir, a.backbone
     steps = ("plan", "write", "check", "review") if a.step == "all" else (a.step,)
     for s in steps:
         {"plan": plan, "write": write, "check": check, "review": review}[s](a.ref)

@@ -13,6 +13,12 @@ the Fatiha or other Quranic usage. Grammar and context discover, support and exp
 relationships understandable. It is an interpretive essay built from those discoveries, not a list of findings and
 not a general reflection that could be written without them.
 
+If you are given `package.md` instead of `backbone.md`: its section 1 is this backbone's network (the same ids), and
+its section 2 adds four discovery lines — local language (L..), Quranic usage (U-..), surah context (S-..), related
+passages (R-..) and extra findings (….X..) — with readings, open observations (a precise link whose decisive support
+is missing in its own line; another line may supply it), notes and rejected misreadings. Use them as evidence in the
+same way; connected readings may join members from the network and from the lines.
+
 ## What you must preserve
 
 - **The connected readings are the substance.** Every core reading in the plan is developed in the body: its

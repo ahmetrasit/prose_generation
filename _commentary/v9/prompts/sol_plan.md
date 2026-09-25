@@ -30,6 +30,12 @@ failed, however well written.
   - **G** word level: sound, rare verb forms, repeated frames, grammar notes on every word.
   - the full text of every cited ayah outside the surah and the Fatiha.
   "(also …)" after an item lists the other ids of the same sense.
+  If you are given `package.md` instead of `backbone.md`: its section 1 is this backbone's network (the same ids), and
+  its section 2 adds four discovery lines — local language (L..), Quranic usage (U-..), surah context (S-..), related
+  passages (R-..) and extra findings (….X..) — with readings, open observations (a precise link whose decisive support
+  is missing in its own line; another line may supply it), notes and rejected misreadings. Use them as evidence in the
+  same way; connected readings may join members from the network and from the lines.
+
 
 ## Principles
 
