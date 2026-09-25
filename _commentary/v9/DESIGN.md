@@ -440,6 +440,21 @@ shown as prompts) — kept lines become `luna` edges and structures are recomput
 expansion work for Sol inside a structure the network already seeds (e.g. the dwelling chain: سكن B001 antonym رجف
 29:37 is a strong dictionary edge; night ↔ morning is its expansion).
 
+Bounded Luna pass (built and run 2026-09-25; `network/luna_pass.py`, brief `prompts/luna_network.md`):
+worklist = every rare branch × the other focus words it already touches by any edge (29:38: 78 items, 253 lines, 3
+bundles ≤40 KB); gpt-6-luna at reasoning effort max, everything pushed, records as final message; checker (1 problem:
+N01.3 code without record — left as is). Usage: 97k input (33k cached), 65k output (51k reasoning) ≈ $0.10 at Luna
+prices, vs ≈ $0.87 for the full Luna discovery.
+- Luna kept 122 of 253 lines (≈62 readings, ≈60 notes). Both ayah-internal misses were found: N20.3 ugly snake ↔ زيّن
+  (opposite: "an ugly source stands behind a fabricated beauty"), N19.3 turning-from-direction ↔ فصدّهم (same act).
+  Also Opus's زين B001 ↔ الشيطان irony (N77.2), eye film ↔ تبيّن (opposite, opacity vs clarity), habit ↔ road (N09.3;
+  listed as missing everywhere in the Opus review), barrier mountain across the road.
+- With `--luna` (readings weight 2, notes weak): Opus links 18/18 strong (night ↔ 29:37 remains weak: surah-level,
+  outside this pass). Luna is generous (rudder, seam, blood trace ↔ road), so every focus word became a hub. Fix:
+  two tiers — backbone hub = ≥3 roots by script evidence (29:38: road, eye — exactly Opus's two clusters); hubs made only
+  by Luna readings are listed as Luna hubs (فصدّهم, عادا, تبيّن, مساكن, زيّن, أعمال); inside a hub, script-backed members
+  come first, Luna-only members after.
+
 Next:
 0. Keep `--inter` on; add ±1 neighbours of inter targets with a strong row; `same-root` leaf edges (F → A, plain
    parallels, never counted in hubs); lemma-ambiguity fallback to root; root guess for non-Quranic dictionary words.

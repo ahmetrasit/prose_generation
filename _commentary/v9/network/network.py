@@ -580,6 +580,8 @@ def weight(e: dict) -> float:
         return 2.0
     if k in ("frame", "form"):
         return 1.0
+    if k == "luna":  # a meaning link judged by Luna on the bounded network worklist (luna_pass.py)
+        return 2.0 if sub.startswith("reading") else 0.0  # Luna's notes stay candidate lines
     if k == "kw":
         # English concept layer (Qnet keywords + WordNet): weak everywhere. Measured on 29:38: as evidence it turned
         # 2 focus hubs into 7 (WordNet synonymy: covering~track, middle~heart) and doubled context hubs, for one
@@ -595,7 +597,7 @@ def strong(e: dict) -> bool:
 def structures(net: Net) -> dict:
     N = net.nodes
     rare = {n for n, d in N.items() if d["type"] == "B" and d["rare"]}
-    CORE = {"lex", "rel", "img", "sound", "kw"}
+    CORE = {"lex", "rel", "img", "sound", "kw", "luna"}
 
     def targets(b, strong_only=False):
         return {t for t, es in net.adj[b].items() if N[t]["type"] in "FA" and t != N[b]["word"]
@@ -606,13 +608,19 @@ def structures(net: Net) -> dict:
         if d["type"] not in "FA":
             continue
         members = [b for b in rare if h in targets(b, strong_only=True)]
-        best = defaultdict(float)
+        best, best_script = defaultdict(float), defaultdict(float)
         for b in members:
             if not (d["type"] == "F" and N[b]["word"] == h):
-                best[N[b]["root_id"]] = max(best[N[b]["root_id"]], max(weight(e) for e in net.adj[b][h]))
+                rid = N[b]["root_id"]
+                best[rid] = max(best[rid], max(weight(e) for e in net.adj[b][h]))
+                w_script = max((weight(e) for e in net.adj[b][h] if e["kind"] != "luna"), default=0.0)
+                if w_script > 0:
+                    best_script[rid] = max(best_script[rid], w_script)
         if len(best) >= HUB_MIN:
+            # backbone hub: ≥3 roots by script evidence; a hub made only by Luna's readings is a second tier
+            N[h]["tier"] = "backbone" if len(best_script) >= HUB_MIN else "luna"
             hubs.append((round(sum(best.values()), 1), h, members, len(best)))
-    hubs.sort(key=lambda x: (N[x[1]]["type"] != "F", -x[0], x[1]))
+    hubs.sort(key=lambda x: (N[x[1]]["type"] != "F", N[x[1]]["tier"] != "backbone", -x[0], x[1]))
 
     # triangles: a rare branch and two of its targets that are linked to each other (directly, or through another
     # branch of the target word by lex/rel — a "lifted" link), plus rare-rare-target triangles
@@ -703,10 +711,11 @@ def report(net: Net, meta: dict, st: dict) -> str:
             shown.append(hub)
     st["shown"] = shown
     for score, h, members, n_roots in shown:
-        L.append(f"### {label(net, h)} — {n_roots} roots, score {score}")
+        L.append(f"### {label(net, h)} — {N[h]['tier']} hub, {n_roots} roots, score {score}")
         if N[h]["type"] == "A":
             L.append(f"  {meta['words_of'].get(N[h]['ref'], '')}")
-        for b in sorted(members, key=lambda b: (N[b]["root"], N[b]["bid"])):
+        for b in sorted(members, key=lambda b: (all(e["kind"] == "luna" or not strong(e) for e in net.adj[b][h]),
+                                                N[b]["root"], N[b]["bid"])):
             if N[h]["type"] == "F" and N[b]["word"] == h:
                 continue
             L.append(f"- {label(net, b)} — {ev(net, b, h)}")
@@ -752,13 +761,26 @@ def main() -> None:
     ap.add_argument("--k", type=int, default=3)
     ap.add_argument("--out", default="")
     ap.add_argument("--inter", action="store_true", help="add the inter-ayah target ayat as a context zone")
+    ap.add_argument("--luna", default="", help="luna_pass.py output dir: kept lines become luna edges")
     a = ap.parse_args()
     s, n = a.ref.split(":")
     out = Path(a.out) if a.out else V9 / "network" / "out" / f"{s}_{n}"
     out.mkdir(parents=True, exist_ok=True)
     net, meta = build(a.ref, a.k, a.inter)
+    if a.luna:
+        mapping = json.loads((Path(a.luna) / "map.json").read_text(encoding="utf-8"))
+        added = 0
+        for f in sorted(Path(a.luna).glob("records_*.jsonl")):
+            for line in f.read_text(encoding="utf-8").splitlines():
+                r = json.loads(line) if line.strip().startswith("{") else {}
+                m = mapping.get(r.get("id", ""))
+                if m and r.get("verdict") in ("reading", "note") and m["b"] in net.nodes:
+                    net.edge(m["b"], m["f"], "luna", f"{r.get('relation', '')}: {r.get('after', '')[:160]}",
+                             f"{r['verdict']}/{r.get('relation', '')}")
+                    added += 1
+        print(f"luna: {added} edges added")
     st = structures(net)
-    tag = f"k{a.k}" + ("-inter" if a.inter else "")
+    tag = f"k{a.k}" + ("-inter" if a.inter else "") + ("-luna" if a.luna else "")
     (out / f"network.{tag}.md").write_text(report(net, meta, st), encoding="utf-8")
     (out / f"network.{tag}.json").write_text(json.dumps(
         {"nodes": net.nodes, "edges": net.edges,

@@ -5,19 +5,19 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 
 ## Hubs (rare branches of ≥3 roots point here)
 
-### ٱلسَّبِيلِ (w14) — 3 roots, score 6.0
+### ٱلسَّبِيلِ (w14) — backbone hub, 3 roots, score 6.0
 - ص د د B004 «suya giden yol» طريق إلى الماء (rare, 2 src) @ فَصَدَّهُمْ — lex/image: طريق names the plain image of ٱلسَّبِيلِ; rel/near_synonym: س ب ل B001 (yol); kw/shared: access (shared) — plain sense of ٱلسَّبِيلِ; kw/shared: navigation (shared) — plain sense of ٱلسَّبِيلِ; kw/shared: path (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ course (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ route (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ track (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ way (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: road (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: road ↔ route (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: route (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: route ↔ path (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: route ↔ road (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: track (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: track ↔ course (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: track ↔ path (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: way (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: way ↔ means (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: way ↔ path (synonym) — plain sense of ٱلسَّبِيلِ; img/same: same: س ب ل B001 طريق ممتد يسلك
 - ع م ل B011 «işlek yol» الطريق المعمل (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — lex/image: طريق names the plain image of ٱلسَّبِيلِ; kw/shared: path (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ course (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ route (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ track (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ way (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: road (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: road ↔ route (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: route (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: route ↔ path (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: route ↔ road (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: track (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: track ↔ course (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: track ↔ path (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: trail ↔ track (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: way (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: way ↔ means (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: way ↔ path (synonym) — plain sense of ٱلسَّبِيلِ; img/same: same: س ب ل B001 طريق ممتد يسلك
 - ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — rel/near_synonym: س ب ل B002 (yaya yolcular ile yolcular); kw/shared: road (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: road ↔ route (synonym) — plain sense of ٱلسَّبِيلِ; img/same: same: س ب ل B002 أهل الطريق وسالكوه
 - ع و د B009 «eski yol ve köklü geçmiş» قدم وطريق عود (rare, 5 src) @ وَعَادًا — lex/image: وطريق names the plain image of ٱلسَّبِيلِ; kw/shared: path (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ course (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ route (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ track (synonym) — plain sense of ٱلسَّبِيلِ; kw/synonym: path ↔ way (synonym) — plain sense of ٱلسَّبِيلِ; kw/shared: road (shared) — plain sense of ٱلسَّبِيلِ; kw/synonym: road ↔ route (synonym) — plain sense of ٱلسَّبِيلِ; img/same: same: س ب ل B001 طريق ممتد يسلك
 
-### مُسْتَبْصِرِينَ (w16) — 4 roots, score 5.0
+### مُسْتَبْصِرِينَ (w16) — backbone hub, 4 roots, score 5.0
 - ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر (rare, 3 src) @ تَّبَيَّنَ — lex/src: بصر → root ب ص ر; lex/src: بصر names the plain image of مُسْتَبْصِرِينَ; img/same: same: ب ص ر B004 بصيرة الدم
 - س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج (rare, 1 src, sole) @ ٱلسَّبِيلِ — lex/image: عين names the plain image of مُسْتَبْصِرِينَ; kw/synonym: eye ↔ heart (synonym) — plain sense of مُسْتَبْصِرِينَ; img/same: same: ب ص ر B004 بصيرة الدم
 - ص د د B013 «aynada hazırlanmış göz boyası» كحل المرآة (rare, 1 src) @ فَصَدَّهُمْ — lex/src: عينا names the plain image of مُسْتَبْصِرِينَ; kw/synonym: eye ↔ heart (synonym) — plain sense of مُسْتَبْصِرِينَ; img/same: same: ب ص ر B005 بصيرة السلاح
 - ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — lex/src: بعين names the plain image of مُسْتَبْصِرِينَ; kw/synonym: eye ↔ heart (synonym) — plain sense of مُسْتَبْصِرِينَ; img/same: same: ب ص ر B001 إبصار العين
 
-### 3:13 [inter] — 5 roots, score 10.0
+### 3:13 [inter] — backbone hub, 5 roots, score 10.0
   قَدْ كَانَ لَكُمْ ءَايَةٌ فِى فِئَتَيْنِ ٱلْتَقَتَا فِئَةٌ تُقَٰتِلُ فِى سَبِيلِ ٱللَّهِ وَأُخْرَىٰ كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ وَٱللَّهُ يُؤَيِّدُ بِنَصْرِهِۦ مَن يَشَآءُ إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّأُو۟لِى ٱلْأَبْصَٰرِ
 - ب ص ر B001 «gözle görme» إبصار العين (rare, 6 src) @ مُسْتَبْصِرِينَ — lex/image: عين → ٱلْعَيْنِ; rel/near_neighbor: ع ي ن B001 (görme alanı ve göz organı) → ٱلْعَيْنِ; rel/near_synonym: ر ء ي B001 (gözle görme ve algılama) → يَرَوْنَهُم رَأْىَ; kw/shared: eyesight (shared) → يَرَوْنَهُم رَأْىَ ٱلْأَبْصَٰرِ; kw/shared: observation (shared) → يَرَوْنَهُم رَأْىَ ٱلْعَيْنِ ٱلْأَبْصَٰرِ; kw/shared: seeing (shared) → ٱلْأَبْصَٰرِ
 - س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج (rare, 1 src, sole) @ ٱلسَّبِيلِ — lex/image: عين → ٱلْعَيْنِ
@@ -25,7 +25,7 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — rel/near_synonym: س ب ل B002 (yaya yolcular ile yolcular) → سَبِيلِ
 - ع و د B002 «dönüş yeri ve son varış» مصير ومرجع ومعاد (rare, 4 src) @ وَعَادًا — rel/near_synonym: ء و ل B002 (varılan sonuç ve akıbet) → لِّأُو۟لِى
 
-### 3:75 [inter] — 5 roots, score 10.0
+### 3:75 [inter] — backbone hub, 5 roots, score 10.0
   وَمِنْ أَهْلِ ٱلْكِتَٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّۦنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ
 - س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — lex/image: اهل → أَهْلِ
 - س ب ل B005 «yağan yağmur» مطر سابل بين السحاب والأرض (rare, 6 src) @ ٱلسَّبِيلِ — lex/src-rare: دام → دُمْتَ
@@ -35,7 +35,7 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — rel/near_synonym: س ب ل B002 (yaya yolcular ile yolcular) → سَبِيلٌ
 - ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان (rare, 2 src) @ وَكَانُوا۟ — lex/image: قيام → قَآئِمًا
 
-### 3:99 [inter] — 5 roots, score 10.0
+### 3:99 [inter] — backbone hub, 5 roots, score 10.0
   قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًا وَأَنتُمْ شُهَدَآءُ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ
 - س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — lex/image: اهل → يَٰٓأَهْلَ; rel/near_neighbor: ع م ل B012 (yaya yolcular) → تَعْمَلُونَ
 - س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار (rare, 5 src) @ مَّسَٰكِنِهِمْ — lex/image: اهل → يَٰٓأَهْلَ; rel/near_synonym: ء ه ل B001 (ev halkı ile bağlı topluluk) → يَٰٓأَهْلَ; kw/shared: kin (shared) → يَٰٓأَهْلَ; kw/shared: resident (shared) → يَٰٓأَهْلَ
@@ -44,7 +44,7 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ص د د B011 «alkışlamak» تصفيق (rare, 1 src) @ فَصَدَّهُمْ — lex/src-rare: يصدي → تَصُدُّونَ
 - ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — rel/near_synonym: س ب ل B002 (yaya yolcular ile yolcular) → سَبِيلِ
 
-### 29:29 [surah] — 5 roots, score 9.5
+### 29:29 [surah] — backbone hub, 5 roots, score 9.5
   أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ
 - ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة (rare, 4 src) @ تَّبَيَّنَ — lex/src-rare: رجال → ٱلرِّجَالَ; kw/shared: statement (shared) → ٱلصَّٰدِقِينَ
 - ب ي ن B012 «geri dönüşsüz boşanma» طلاق يقطع الرجعة (rare, 1 src, sole) @ تَّبَيَّنَ — lex/image: يقطع → وَتَقْطَعُونَ; kw/shared: repudiation (shared) → ٱلْمُنكَرَ
@@ -53,7 +53,7 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — rel/near_synonym: ر ج ل B003 (yaya yolcular ile yayalar) → ٱلرِّجَالَ; rel/near_synonym: س ب ل B002 (yaya yolcular ile yolcular) → ٱلسَّبِيلَ
 - ع و د B005 «hasta veya yas ziyareti» عيادة ومعادة وزيارة راجعة (rare, 4 src) @ وَعَادًا — lex/src-rare: رجال → ٱلرِّجَالَ
 
-### 7:74 [people] — 5 roots, score 9.5
+### 7:74 [people] — backbone hub, 5 roots, score 9.5
   وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ
 - ب ص ر B006 «kalın kenar ve ek yeri» غلظ الحافة ووصل الشقتين (rare, 6 src) @ مُسْتَبْصِرِينَ — lex/src: بيت → بُيُوتًا; lex/src-rare: جبل → ٱلْجِبَالَ
 - ب ص ر B007 «yumuşak parlak taş» حجارة بصرة رخوة (rare, 6 src) @ مُسْتَبْصِرِينَ — lex/root: باء → root ب و ء: وَبَوَّأَكُمْ; lex/src-rare: جبل → ٱلْجِبَالَ; kw/antonym: softness ↔ hardness (antonym) → وَتَنْحِتُونَ
@@ -63,7 +63,7 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ص د د B005 «engel oluşturan dağ» جبل حاجز (rare, 3 src) @ فَصَدَّهُمْ — lex/image: جبل → ٱلْجِبَالَ; img/people: people: ج ب ل B001 تجمع مرتفع صلب ← ٱلْجِبَالَ
 - ع م ل B004 «iş ücreti» أجر العمل ورزق العامل (rare, 4 src) @ أَعْمَٰلَهُمْ — rel/near_synonym: ج ع ل B005 (iş ücreti ile vaatli ödül) → جَعَلَكُمْ; kw/shared: compensation (shared) → خُلَفَآءَ; img/people: people: ج ع ل B005 أجر مجعول على عمل ← جَعَلَكُمْ
 
-### 14:10 [people] — 5 roots, score 8.5
+### 14:10 [people] — backbone hub, 5 roots, score 8.5
   قَالَتْ رُسُلُهُمْ أَفِى ٱللَّهِ شَكٌّ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ يَدْعُوكُمْ لِيَغْفِرَ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرَكُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى قَالُوٓا۟ إِنْ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا تُرِيدُونَ أَن تَصُدُّونَا عَمَّا كَانَ يَعْبُدُ ءَابَآؤُنَا فَأْتُونَا بِسُلْطَٰنٍ مُّبِينٍ
 - س ب ل B004 «aşağı doğru salmak» إرخاء من علو إلى سفل (rare, 6 src) @ ٱلسَّبِيلِ — lex/src-rare: ذنب → ذُنُوبِكُمْ; img/people: people: ذ ن ب B002 ذنب الشيء وآخره ← ذُنُوبِكُمْ
 - س ك ن B008 «geminin kıçındaki dengeleyici yöneltme aracı» تسكين السفينة بالسكان (rare, 5 src) @ مَّسَٰكِنِهِمْ — lex/src-rare: ذنب → ذُنُوبِكُمْ
@@ -72,21 +72,21 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ص د د B011 «alkışlamak» تصفيق (rare, 1 src) @ فَصَدَّهُمْ — lex/src-rare: يصدي → تَصُدُّونَا
 - ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ أَعْمَٰلَهُمْ — lex/src-rare: سلطان → بِسُلْطَٰنٍ; kw/shared: appointment (shared) → أَجَلٍ
 
-### 11:52 [people] — 4 roots, score 8.0
+### 11:52 [people] — backbone hub, 4 roots, score 8.0
   وَيَٰقَوْمِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُرْسِلِ ٱلسَّمَآءَ عَلَيْكُم مِّدْرَارًا وَيَزِدْكُمْ قُوَّةً إِلَىٰ قُوَّتِكُمْ وَلَا تَتَوَلَّوْا۟ مُجْرِمِينَ
 - ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين (rare, 2 src) @ تَّبَيَّنَ — rel/antonym: و ل ي B001 (yakın olma) → تَتَوَلَّوْا۟
 - س ك ن B010 «yerinde kalmayı sağlayan geçimlik ve bol otlak» قوت يثبت المقام (rare, 1 src) @ مَّسَٰكِنِهِمْ — lex/image: قوت → قُوَّةً قُوَّتِكُمْ
 - ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ أَعْمَٰلَهُمْ — lex/src: توليا → تَتَوَلَّوْا۟; rel/near_synonym: و ل ي B003 (iş görevi ile yönetim) → تَتَوَلَّوْا۟
 - ع و د B008 «gücü kalmış yaşlı deve» عود مسن فيه بقايا قوة (rare, 5 src) @ وَعَادًا — lex/image: قوا → قُوَّةً قُوَّتِكُمْ
 
-### 4:168 [inter] — 4 roots, score 8.0
+### 4:168 [inter] — backbone hub, 4 roots, score 8.0
   إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَظَلَمُوا۟ لَمْ يَكُنِ ٱللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ طَرِيقًا
 - س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — lex/image: طريق → طَرِيقًا; kw/shared: visitor (shared) → طَرِيقًا; img/inter: inter: ط ر ق B002 المسلك الممتد ← طَرِيقًا
 - ص د د B004 «suya giden yol» طريق إلى الماء (rare, 2 src) @ فَصَدَّهُمْ — lex/image: طريق → طَرِيقًا
 - ع م ل B011 «işlek yol» الطريق المعمل (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — lex/image: طريق → طَرِيقًا; img/inter: inter: ط ر ق B002 المسلك الممتد ← طَرِيقًا
 - ع و د B009 «eski yol ve köklü geçmiş» قدم وطريق عود (rare, 5 src) @ وَعَادًا — lex/image: وطريق → طَرِيقًا
 
-### 4:43 [inter] — 4 roots, score 8.0
+### 4:43 [inter] — backbone hub, 4 roots, score 8.0
   يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا
 - ص د د B002 «vadinin iki yanı» جانبان مائلان (rare, 3 src) @ فَصَدَّهُمْ — rel/near_synonym: ج ن ب B001 (iki yan) → جُنُبًا; kw/shared: bank (shared) → جُنُبًا; kw/antonym: side ↔ bottom (antonym) → ٱلْغَآئِطِ
 - ص د د B004 «suya giden yol» طريق إلى الماء (rare, 2 src) @ فَصَدَّهُمْ — lex/image: ماء → مَآءً
@@ -97,7 +97,7 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ع و د B009 «eski yol ve köklü geçmiş» قدم وطريق عود (rare, 5 src) @ وَعَادًا — lex/src-rare: سفر → سَفَرٍ
 - ع و د B010 «tahta parçası, tütsülük odun veya telli çalgı» عود من خشب وطيب وآلة (rare, 3 src) @ وَعَادًا — lex/image: وطيب → طَيِّبًا
 
-### 7:145 [inter] — 4 roots, score 8.0
+### 7:145 [inter] — backbone hub, 4 roots, score 8.0
   وَكَتَبْنَا لَهُۥ فِى ٱلْأَلْوَاحِ مِن كُلِّ شَىْءٍ مَّوْعِظَةً وَتَفْصِيلًا لِّكُلِّ شَىْءٍ فَخُذْهَا بِقُوَّةٍ وَأْمُرْ قَوْمَكَ يَأْخُذُوا۟ بِأَحْسَنِهَا سَأُو۟رِيكُمْ دَارَ ٱلْفَٰسِقِينَ
 - ب ص ر B001 «gözle görme» إبصار العين (rare, 6 src) @ مُسْتَبْصِرِينَ — rel/near_synonym: ر ء ي B001 (gözle görme ve algılama) → سَأُو۟رِيكُمْ
 - ز ي ن B001 «ayıptan uzak güzellik» حسن الشيء ونقاؤه من الشين (rare, 4 src) @ وَزَيَّنَ — rel/near_synonym: ح س ن B001 (ayıpsız güzellik ile genel güzellik) → بِأَحْسَنِهَا
@@ -105,21 +105,21 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - س ك ن B010 «yerinde kalmayı sağlayan geçimlik ve bol otlak» قوت يثبت المقام (rare, 1 src) @ مَّسَٰكِنِهِمْ — lex/image: قوت → بِقُوَّةٍ
 - ع و د B008 «gücü kalmış yaşlı deve» عود مسن فيه بقايا قوة (rare, 5 src) @ وَعَادًا — lex/image: قوا → بِقُوَّةٍ
 
-### 29:12 [surah] — 4 roots, score 7.5
+### 29:12 [surah] — backbone hub, 4 roots, score 7.5
   وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوا۟ ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَٰيَٰكُمْ وَمَا هُم بِحَٰمِلِينَ مِنْ خَطَٰيَٰهُم مِّن شَىْءٍ إِنَّهُمْ لَكَٰذِبُونَ
 - ص د د B004 «suya giden yol» طريق إلى الماء (rare, 2 src) @ فَصَدَّهُمْ — rel/near_synonym: س ب ل B001 (yol) → سَبِيلَنَا; kw/shared: track (shared) → سَبِيلَنَا; kw/shared: way (shared) → سَبِيلَنَا; img/surah: surah: س ب ل B001 طريق ممتد يسلك ← سَبِيلَنَا
 - ع د د B003 «sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi» مدة العدة المعدودة (echo rare, 5 src) @ وَعَادًا — lex/src-rare: حمل → وَلْنَحْمِلْ
 - ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — rel/near_synonym: س ب ل B002 (yaya yolcular ile yolcular) → سَبِيلَنَا; kw/antonym: foot ↔ head (antonym) → وَلْنَحْمِلْ بِحَٰمِلِينَ; img/surah: surah: س ب ل B002 أهل الطريق وسالكوه ← سَبِيلَنَا
 - ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان (rare, 2 src) @ وَكَانُوا۟ — rel/near_synonym: ح م ل B004 (üstlenme ve yük taşıma) → وَلْنَحْمِلْ بِحَٰمِلِينَ
 
-### 29:41 [surah] — 4 roots, score 7.5
+### 29:41 [surah] — backbone hub, 4 roots, score 7.5
   مَثَلُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ كَمَثَلِ ٱلْعَنكَبُوتِ ٱتَّخَذَتْ بَيْتًا وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ لَبَيْتُ ٱلْعَنكَبُوتِ لَوْ كَانُوا۟ يَعْلَمُونَ
 - ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين (rare, 2 src) @ تَّبَيَّنَ — rel/antonym: و ل ي B001 (yakın olma) → أَوْلِيَآءَ; img/near: near: و ل ي B001 قرب ودنو بلا فاصل ← أَوْلِيَآءَ
 - س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج (rare, 1 src, sole) @ ٱلسَّبِيلِ — lex/src-rare: عنكبوت → ٱلْعَنكَبُوتِ; kw/shared: web (shared) → ٱلْعَنكَبُوتِ; img/near: near: ع ن ك ب B001 العنكبوت الدويبة الناسجة ← ٱلْعَنكَبُوتِ
 - س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار (rare, 5 src) @ مَّسَٰكِنِهِمْ — lex/src: بيت → بَيْتًا ٱلْبُيُوتِ لَبَيْتُ; rel/near_synonym: ب ي ت B002 (ev halkı ve aile çevresi) → بَيْتًا ٱلْبُيُوتِ لَبَيْتُ; img/near: near: ب ي ت B002 أهل البيت وعياله ← بَيْتًا
 - ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ أَعْمَٰلَهُمْ — lex/src: ولي → أَوْلِيَآءَ; rel/near_synonym: و ل ي B003 (iş görevi ile yönetim) → أَوْلِيَآءَ; img/near: near: و ل ي B003 تولي الأمر والقيام عليه ← أَوْلِيَآءَ
 
-### 9:71 [people] — 4 roots, score 7.0
+### 9:71 [people] — backbone hub, 4 roots, score 7.0
   وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ أُو۟لَٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ
 - ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين (rare, 2 src) @ تَّبَيَّنَ — rel/antonym: و ل ي B001 (yakın olma) → أَوْلِيَآءُ
 - ع د د B003 «sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi» مدة العدة المعدودة (echo rare, 5 src) @ وَعَادًا — lex/src-rare: معروفا → بِٱلْمَعْرُوفِ
@@ -127,34 +127,34 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - ع و د B004 «tekrarla alışkanlık ve yatkınlık kazanma» عادة ودرَبة ومواظبة (rare, 4 src) @ وَعَادًا — lex/src-rare: معروفا → بِٱلْمَعْرُوفِ
 - ع و د B009 «eski yol ve köklü geçmiş» قدم وطريق عود (rare, 5 src) @ وَعَادًا — lex/src-rare: رحم → سَيَرْحَمُهُمُ
 
-### 11:64 [people] — 4 roots, score 6.5
+### 11:64 [people] — backbone hub, 4 roots, score 6.5
   وَيَٰقَوْمِ هَٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةً فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ وَلَا تَمَسُّوهَا بِسُوٓءٍ فَيَأْخُذَكُمْ عَذَابٌ قَرِيبٌ
 - ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه (rare, 2 src) @ تَّبَيَّنَ — lex/src-rare: ناقا → نَاقَةُ
 - س ب ل B007 «kap kenarı veya hayvanın boğaz kesim yeri» حافة أو مخرج متقدم (rare, 4 src) @ ٱلسَّبِيلِ — lex/src-rare: ناقا → نَاقَةُ
 - ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ أَعْمَٰلَهُمْ — lex/src-rare: ناقا → نَاقَةُ
 - ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة (rare, 1 src, sole) @ وَكَانُوا۟ — lex/image: سوء → بِسُوٓءٍ; kw/shared: badness (shared) → بِسُوٓءٍ
 
-### 29:60 [surah] — 4 roots, score 6.5
+### 29:60 [surah] — backbone hub, 4 roots, score 6.5
   وَكَأَيِّن مِّن دَآبَّةٍ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
 - ص د د B008 «türü tartışmalı küçük hayvan» دويبة صغيرة (rare, 4 src) @ فَصَدَّهُمْ — lex/src-rare: دواب → دَآبَّةٍ
 - ع د د B003 «sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi» مدة العدة المعدودة (echo rare, 5 src) @ وَعَادًا — lex/src-rare: حمل → تَحْمِلُ
 - ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — lex/src-rare: دابا → دَآبَّةٍ
 - ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان (rare, 2 src) @ وَكَانُوا۟ — rel/near_synonym: ح م ل B004 (üstlenme ve yük taşıma) → تَحْمِلُ
 
-### 7:73 [people] — 4 roots, score 6.5
+### 7:73 [people] — backbone hub, 4 roots, score 6.5
   وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ هَٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةً فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ وَلَا تَمَسُّوهَا بِسُوٓءٍ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌ
 - ب ي ن B008 «bağlı yerinden ayrılma» انفراج العضو أو الشيء عن ملاصقه (rare, 2 src) @ تَّبَيَّنَ — lex/src-rare: ناقا → نَاقَةُ; kw/shared: detachment (shared) → فَذَرُوهَا
 - س ب ل B007 «kap kenarı veya hayvanın boğaz kesim yeri» حافة أو مخرج متقدم (rare, 4 src) @ ٱلسَّبِيلِ — lex/src-rare: ناقا → نَاقَةُ
 - ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ أَعْمَٰلَهُمْ — lex/src-rare: ناقا → نَاقَةُ; lex/src: بينا → بَيِّنَةٌ; img/people: people: ن و ق B002 النّاقة وصورتها ← نَاقَةُ
 - ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة (rare, 1 src, sole) @ وَكَانُوا۟ — lex/image: سوء → بِسُوٓءٍ; kw/shared: badness (shared) → بِسُوٓءٍ; kw/antonym: badness ↔ goodness (antonym) → صَٰلِحًا; kw/antonym: evil ↔ goodness (antonym) → صَٰلِحًا; img/people: people: س و ء B003 الآفة والبرص ← بِسُوٓءٍ
 
-### 29:32 [surah] — 3 roots, score 6.0
+### 29:32 [surah] — backbone hub, 3 roots, score 6.0
   قَالَ إِنَّ فِيهَا لُوطًا قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَٰبِرِينَ
 - س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — lex/image: اهل → وَأَهْلَهُۥٓ
 - س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار (rare, 5 src) @ مَّسَٰكِنِهِمْ — lex/image: اهل → وَأَهْلَهُۥٓ; rel/near_synonym: ء ه ل B001 (ev halkı ile bağlı topluluk) → وَأَهْلَهُۥٓ; kw/shared: kin (shared) → وَأَهْلَهُۥٓ; kw/shared: resident (shared) → وَأَهْلَهُۥٓ
 - ص د د B009 «bir kadın adı» اسم امرأة (rare, 2 src) @ فَصَدَّهُمْ — lex/image: امراا → ٱمْرَأَتَهُۥ; kw/antonym: woman ↔ man (antonym) → ٱمْرَأَتَهُۥ; img/near: near: م ر ء B001 المرء والمرأة ← ٱمْرَأَتَهُۥ; img/near: near: م ر ء B001 المَرْء والمرأة ← ٱمْرَأَتَهُۥ
 
-### 29:33 [surah] — 3 roots, score 6.0
+### 29:33 [surah] — backbone hub, 3 roots, score 6.0
   وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَٰبِرِينَ
 - س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — lex/image: اهل → وَأَهْلَكَ
 - س ك ن B003 «ev halkı ve orada yaşayanlar» أهل الدار (rare, 5 src) @ مَّسَٰكِنِهِمْ — lex/image: اهل → وَأَهْلَكَ; rel/near_synonym: ء ه ل B001 (ev halkı ile bağlı topluluk) → وَأَهْلَكَ; kw/shared: kin (shared) → وَأَهْلَكَ; kw/shared: resident (shared) → وَأَهْلَكَ
@@ -357,8 +357,8 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - 4 kinds, 40 targets: ش ط ن B002 «uzun kuyu ipi ve onunla bağlama» الحبل الطويل والشد (rare, 4 src) @ ٱلشَّيْطَٰنُ — img, kw, lex, rel
 - 4 kinds, 40 targets: ب ي ن B001 «ayrılıp kopma» انفصال الشيء وافتراقه (rare, 5 src) @ تَّبَيَّنَ — img, kw, lex, rel
 - 4 kinds, 40 targets: س ب ل B002 «yol kullanan kişi veya yolcu» أهل الطريق وسالكوه (rare, 6 src) @ ٱلسَّبِيلِ — img, kw, lex, rel
-- 4 kinds, 39 targets: ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين (rare, 2 src) @ تَّبَيَّنَ — img, kw, lex, rel
 - 4 kinds, 39 targets: ش ط ن B003 «yönünden ayırma ve bağlama göre eğrilik ya da çetinlik» المخالفة والعوج والشدة (rare, 2 src) @ ٱلشَّيْطَٰنُ — img, kw, lex, rel
+- 4 kinds, 39 targets: ب ي ن B002 «arada olma» الخلالة والوسط بين شيئين (rare, 2 src) @ تَّبَيَّنَ — img, kw, lex, rel
 - 4 kinds, 39 targets: ع د د B005 «belirli zaman ve bilinen aralıklarla geri gelme» عداد الوقت ومعاودته (echo rare, 5 src) @ وَعَادًا — img, kw, lex, rel
 - 4 kinds, 38 targets: ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ أَعْمَٰلَهُمْ — img, kw, lex, rel
 - 4 kinds, 38 targets: س ب ل B006 «üst dudak ve sakal önündeki sarkan kıl» شعر منسدل عند الفم واللحية (rare, 6 src) @ ٱلسَّبِيلِ — img, kw, lex, rel
@@ -700,71 +700,71 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - 59:2 [inter] joins 7:74 [people], 4:43 [inter], 7:145 [inter], 11:64 [people], 7:73 [people], 7:77 [people], 2:187 [inter], 32:27 [inter], 50:9 [people], 15:82 [inter], 26:149 [inter], 22:41 [people], 4:114 [inter], 9:67 [people]
 - 59:16 [inter] joins 7:145 [inter], 2:259 [inter], 2:187 [inter]
 - 74:49 [inter] joins 11:89 [inter], 4:167 [inter], 4:116 [inter]
-- 11:54 [inter] joins 11:64 [people], 7:73 [people], 9:37 [inter]
-- 6:42 [inter] joins 29:29 [surah], 4:43 [inter], 9:36 [inter], 9:37 [inter], 12:109 [inter], 22:27 [inter]
-- 6:44 [inter] joins 3:13 [inter], 7:74 [people], 7:145 [inter], 29:12 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 29:32 [surah], 29:33 [surah], 15:82 [inter], 26:149 [inter], 9:37 [inter], 22:41 [people], 29:14 [surah], 4:114 [inter], 9:67 [people]
-- 26:127 [inter] joins مُسْتَبْصِرِينَ (w16), 7:74 [people], 2:259 [inter], 2:187 [inter], 29:14 [surah], 4:114 [inter]
-- 26:129 [inter] joins 3:13 [inter], 4:43 [inter], 9:36 [inter], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 41:15 [people], 4:115 [inter], 9:69 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 22:47 [inter] joins 2:259 [inter], 2:187 [inter], 29:14 [surah]
+- 43:61 [inter] joins 7:74 [people], 15:82 [inter], 26:149 [inter]
+- 6:114 [inter] joins 7:74 [people], 11:64 [people], 7:73 [people], 7:77 [people], 15:82 [inter], 26:149 [inter]
 - 4:54 [inter] joins 3:13 [inter], 7:74 [people], 14:10 [people], 11:52 [people], 29:41 [surah], 9:36 [inter], 9:71 [people], 4:115 [inter], 15:82 [inter], 26:149 [inter], 8:52 [inter]
 - 4:56 [inter] joins مُسْتَبْصِرِينَ (w16), 3:13 [inter], 7:74 [people], 14:10 [people], 4:43 [inter], 29:41 [surah], 2:259 [inter], 29:63 [surah], 2:187 [inter], 32:27 [inter], 50:9 [people], 15:82 [inter], 26:149 [inter], 22:41 [people], 29:14 [surah]
-- 27:23 [inter] joins 29:32 [surah], 29:33 [surah]
-- 27:25 [inter] joins 9:36 [inter], 32:27 [inter], 9:37 [inter]
-- 7:176 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 4:168 [inter], 29:12 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 7:77 [people], 2:187 [inter], 4:115 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 27:44 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
-- 18:6 [inter] joins 29:29 [surah], 4:43 [inter], 2:259 [inter], 9:36 [inter], 9:37 [inter], 12:109 [inter], 22:27 [inter], 29:14 [surah]
-- 18:8 [inter] joins 14:10 [people], 2:187 [inter], 50:9 [people], 8:52 [inter]
-- 43:61 [inter] joins 7:74 [people], 15:82 [inter], 26:149 [inter]
-- 32:27 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 14:10 [people], 4:168 [inter], 4:43 [inter], 29:12 [surah], 29:63 [surah], 50:9 [people], 40:29 [people]
-- 43:38 [inter] joins 7:74 [people], 11:89 [inter], 4:167 [inter], 29:63 [surah], 4:116 [inter]
-- 35:7 [inter] joins 7:74 [people], 2:259 [inter], 2:187 [inter], 29:14 [surah], 4:114 [inter]
-- 26:148 [inter] joins مُسْتَبْصِرِينَ (w16), 9:36 [inter], 11:64 [people], 7:73 [people], 7:77 [people], 32:27 [inter], 41:15 [people], 9:69 [people]
-- 59:15 [inter] joins 3:75 [inter], 7:74 [people], 14:10 [people], 15:82 [inter], 26:149 [inter], 8:52 [inter]
-- 22:47 [inter] joins 2:259 [inter], 2:187 [inter], 29:14 [surah]
-- 47:15 [inter] joins مُسْتَبْصِرِينَ (w16), 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 4:168 [inter], 4:43 [inter], 11:89 [inter], 4:167 [inter], 29:32 [surah], 29:33 [surah], 32:27 [inter], 4:116 [inter], 15:82 [inter], 26:149 [inter], 22:41 [people]
-- 47:7 [inter] joins 11:52 [people], 7:145 [inter], 41:15 [people], 9:69 [people]
-- 7:79 [inter] joins 3:13 [inter], 3:75 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 11:52 [people], 29:41 [surah], 9:71 [people], 4:115 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 12:109 [inter], 22:27 [inter], 27:44 [people], 4:114 [inter], 8:52 [inter]
-- 8:47 [inter] joins 3:75 [inter], 3:99 [inter], 7:74 [people], 7:145 [inter], 11:89 [inter], 29:41 [surah], 4:167 [inter], 11:64 [people], 7:73 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 32:27 [inter], 4:116 [inter], 15:82 [inter], 26:149 [inter], 9:37 [inter]
-- 8:49 [inter] joins 3:75 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 11:52 [people], 4:43 [inter], 29:41 [surah], 9:36 [inter], 9:71 [people], 4:115 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 4:114 [inter]
-- 16:62 [inter] joins 29:29 [surah], 2:259 [inter], 2:187 [inter], 12:109 [inter], 22:27 [inter], 27:44 [people], 29:14 [surah]
-- 15:15 [inter] joins مُسْتَبْصِرِينَ (w16), 29:29 [surah], 2:259 [inter], 2:187 [inter], 29:14 [surah]
-- 2:213 [inter] joins ٱلسَّبِيلِ (w14), مُسْتَبْصِرِينَ (w16), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 4:168 [inter], 4:43 [inter], 7:145 [inter], 11:89 [inter], 29:12 [surah], 29:41 [surah], 2:259 [inter], 4:167 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 2:187 [inter], 32:27 [inter], 41:15 [people], 4:116 [inter], 50:9 [people], 9:69 [people], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 27:44 [people], 29:14 [surah], 4:114 [inter], 8:52 [inter], 9:67 [people]
-- 4:43 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 4:168 [inter], 11:89 [inter], 29:12 [surah], 4:167 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 7:73 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 32:27 [inter], 4:116 [inter], 50:9 [people], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 27:44 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
-- 4:45 [inter] joins 3:75 [inter], 14:10 [people], 11:52 [people], 29:12 [surah], 29:41 [surah], 9:36 [inter], 9:71 [people], 29:60 [surah], 4:115 [inter], 13:33 [inter], 4:114 [inter]
-- 14:44 [inter] joins 3:75 [inter], 14:10 [people], 11:52 [people], 29:12 [surah], 29:41 [surah], 9:36 [inter], 9:71 [people], 29:60 [surah], 4:115 [inter], 13:33 [inter], 9:37 [inter], 22:41 [people], 4:114 [inter], 9:67 [people]
-- 14:46 [inter] joins 7:74 [people], 4:43 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people]
-- 15:43 [inter] joins 2:259 [inter], 9:37 [inter], 29:14 [surah]
-- 15:84 [inter] joins 7:74 [people], 2:259 [inter], 4:114 [inter]
-- 15:38 [inter] joins 3:13 [inter], 29:12 [surah], 9:36 [inter], 9:71 [people], 29:60 [surah], 4:115 [inter], 9:37 [inter], 22:41 [people], 29:14 [surah], 4:114 [inter], 8:52 [inter], 9:67 [people]
-- 13:34 [inter] joins 7:74 [people], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people]
-- 89:14 [inter] joins 9:36 [inter], 9:37 [inter]
-- 28:57 [inter] joins 29:60 [surah], 32:27 [inter], 22:41 [people]
-- 3:13 [inter] joins ٱلسَّبِيلِ (w14), مُسْتَبْصِرِينَ (w16), 3:75 [inter], 3:99 [inter], 29:29 [surah], 11:52 [people], 4:168 [inter], 4:43 [inter], 7:145 [inter], 11:89 [inter], 29:12 [surah], 29:41 [surah], 4:167 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 7:77 [people], 29:63 [surah], 32:27 [inter], 4:115 [inter], 4:116 [inter], 50:9 [people], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
-- 3:15 [inter] joins 3:13 [inter], 7:145 [inter], 2:259 [inter], 11:64 [people], 7:73 [people], 7:77 [people], 2:187 [inter], 4:115 [inter], 50:9 [people], 9:37 [inter], 22:41 [people], 29:14 [surah], 8:52 [inter]
-- 20:127 [inter] joins 3:75 [inter], 14:10 [people], 11:52 [people], 29:41 [surah], 9:71 [people], 4:115 [inter], 13:33 [inter], 4:114 [inter]
-- 20:129 [inter] joins 14:10 [people], 4:43 [inter], 29:63 [surah], 32:27 [inter], 50:9 [people]
-- 27:50 [inter] joins 2:259 [inter], 2:187 [inter]
-- 18:60 [inter] joins 29:29 [surah], 7:74 [people], 2:259 [inter], 15:82 [inter], 26:149 [inter], 9:37 [inter], 12:109 [inter], 22:27 [inter], 27:44 [people], 29:14 [surah]
+- 26:127 [inter] joins مُسْتَبْصِرِينَ (w16), 7:74 [people], 2:259 [inter], 2:187 [inter], 29:14 [surah], 4:114 [inter]
+- 26:129 [inter] joins 3:13 [inter], 4:43 [inter], 9:36 [inter], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 41:15 [people], 4:115 [inter], 9:69 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
 - 9:36 [inter] joins 29:29 [surah], 11:52 [people], 4:43 [inter], 29:12 [surah], 29:41 [surah], 9:71 [people], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 41:15 [people], 4:115 [inter], 9:69 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 27:44 [people], 4:114 [inter], 9:67 [people]
+- 47:7 [inter] joins 11:52 [people], 7:145 [inter], 41:15 [people], 9:69 [people]
+- 15:43 [inter] joins 2:259 [inter], 9:37 [inter], 29:14 [surah]
 - 7:29 [inter] joins ٱلسَّبِيلِ (w14), 11:52 [people], 4:168 [inter], 4:43 [inter], 11:89 [inter], 29:41 [surah], 9:36 [inter], 9:71 [people], 4:115 [inter], 22:41 [people]
 - 7:31 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 14:10 [people], 11:52 [people], 29:12 [surah], 29:41 [surah], 2:259 [inter], 9:71 [people], 2:187 [inter], 32:27 [inter], 4:115 [inter], 13:33 [inter], 40:29 [people], 12:109 [inter], 4:114 [inter]
-- 40:83 [inter] joins 2:259 [inter], 9:37 [inter], 29:14 [surah]
-- 11:88 [inter] joins 3:75 [inter], 7:74 [people], 14:10 [people], 11:52 [people], 7:145 [inter], 29:41 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 7:73 [people], 7:77 [people], 41:15 [people], 4:115 [inter], 9:69 [people], 13:33 [inter], 22:41 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
-- 7:145 [inter] joins 3:13 [inter], 3:75 [inter], 3:99 [inter], 7:74 [people], 14:10 [people], 11:52 [people], 11:89 [inter], 29:41 [surah], 4:167 [inter], 11:64 [people], 7:73 [people], 7:77 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 41:15 [people], 4:116 [inter], 9:69 [people], 15:82 [inter], 26:149 [inter], 9:37 [inter]
-- 7:147 [inter] joins 3:99 [inter], 11:52 [people], 7:145 [inter], 11:89 [inter], 29:12 [surah], 4:167 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 41:15 [people], 4:116 [inter], 9:69 [people], 9:37 [inter], 22:41 [people], 4:114 [inter], 9:67 [people]
-- 47:24 [inter] joins 3:13 [inter], 29:12 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 2:187 [inter], 32:27 [inter], 4:115 [inter], 9:37 [inter], 22:41 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 27:23 [inter] joins 29:32 [surah], 29:33 [surah]
+- 27:25 [inter] joins 9:36 [inter], 32:27 [inter], 9:37 [inter]
+- 15:84 [inter] joins 7:74 [people], 2:259 [inter], 4:114 [inter]
 - 28:62 [inter] joins 3:75 [inter], 29:12 [surah], 29:60 [surah], 2:187 [inter], 50:9 [people], 13:33 [inter]
+- 35:7 [inter] joins 7:74 [people], 2:259 [inter], 2:187 [inter], 29:14 [surah], 4:114 [inter]
+- 11:54 [inter] joins 11:64 [people], 7:73 [people], 9:37 [inter]
+- 11:88 [inter] joins 3:75 [inter], 7:74 [people], 14:10 [people], 11:52 [people], 7:145 [inter], 29:41 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 7:73 [people], 7:77 [people], 41:15 [people], 4:115 [inter], 9:69 [people], 13:33 [inter], 22:41 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
 - 4:114 [inter] joins مُسْتَبْصِرِينَ (w16), 3:75 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 11:52 [people], 4:43 [inter], 7:145 [inter], 29:12 [surah], 29:41 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 29:32 [surah], 29:33 [surah], 2:187 [inter], 41:15 [people], 4:115 [inter], 9:69 [people], 13:33 [inter], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 27:44 [people], 29:14 [surah], 8:52 [inter], 9:67 [people]
 - 4:116 [inter] joins مُسْتَبْصِرِينَ (w16), 3:75 [inter], 3:99 [inter], 7:74 [people], 4:168 [inter], 11:89 [inter], 4:167 [inter], 29:60 [surah], 29:32 [surah], 29:33 [surah], 29:63 [surah]
-- 27:5 [inter] joins 11:64 [people], 7:73 [people], 9:37 [inter]
-- 19:84 [inter] joins 9:36 [inter], 9:37 [inter], 27:44 [people]
+- 41:54 [inter] joins 7:74 [people], 15:82 [inter], 26:149 [inter]
+- 89:14 [inter] joins 9:36 [inter], 9:37 [inter]
+- 14:44 [inter] joins 3:75 [inter], 14:10 [people], 11:52 [people], 29:12 [surah], 29:41 [surah], 9:36 [inter], 9:71 [people], 29:60 [surah], 4:115 [inter], 13:33 [inter], 9:37 [inter], 22:41 [people], 4:114 [inter], 9:67 [people]
+- 14:46 [inter] joins 7:74 [people], 4:43 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people]
+- 16:62 [inter] joins 29:29 [surah], 2:259 [inter], 2:187 [inter], 12:109 [inter], 22:27 [inter], 27:44 [people], 29:14 [surah]
+- 8:47 [inter] joins 3:75 [inter], 3:99 [inter], 7:74 [people], 7:145 [inter], 11:89 [inter], 29:41 [surah], 4:167 [inter], 11:64 [people], 7:73 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 32:27 [inter], 4:116 [inter], 15:82 [inter], 26:149 [inter], 9:37 [inter]
+- 8:49 [inter] joins 3:75 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 11:52 [people], 4:43 [inter], 29:41 [surah], 9:36 [inter], 9:71 [people], 4:115 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 4:114 [inter]
 - 41:26 [inter] joins 29:12 [surah], 9:36 [inter], 9:71 [people], 29:60 [surah], 9:37 [inter], 22:41 [people], 4:114 [inter], 9:67 [people]
+- 3:13 [inter] joins ٱلسَّبِيلِ (w14), مُسْتَبْصِرِينَ (w16), 3:75 [inter], 3:99 [inter], 29:29 [surah], 11:52 [people], 4:168 [inter], 4:43 [inter], 7:145 [inter], 11:89 [inter], 29:12 [surah], 29:41 [surah], 4:167 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 7:77 [people], 29:63 [surah], 32:27 [inter], 4:115 [inter], 4:116 [inter], 50:9 [people], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 3:15 [inter] joins 3:13 [inter], 7:145 [inter], 2:259 [inter], 11:64 [people], 7:73 [people], 7:77 [people], 2:187 [inter], 4:115 [inter], 50:9 [people], 9:37 [inter], 22:41 [people], 29:14 [surah], 8:52 [inter]
+- 47:24 [inter] joins 3:13 [inter], 29:12 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 2:187 [inter], 32:27 [inter], 4:115 [inter], 9:37 [inter], 22:41 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 13:34 [inter] joins 7:74 [people], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people]
+- 7:79 [inter] joins 3:13 [inter], 3:75 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 11:52 [people], 29:41 [surah], 9:71 [people], 4:115 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 12:109 [inter], 22:27 [inter], 27:44 [people], 4:114 [inter], 8:52 [inter]
+- 59:15 [inter] joins 3:75 [inter], 7:74 [people], 14:10 [people], 15:82 [inter], 26:149 [inter], 8:52 [inter]
+- 7:176 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 4:168 [inter], 29:12 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 7:77 [people], 2:187 [inter], 4:115 [inter], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 27:44 [people], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 20:127 [inter] joins 3:75 [inter], 14:10 [people], 11:52 [people], 29:41 [surah], 9:71 [people], 4:115 [inter], 13:33 [inter], 4:114 [inter]
+- 20:129 [inter] joins 14:10 [people], 4:43 [inter], 29:63 [surah], 32:27 [inter], 50:9 [people]
 - 4:166 [inter] joins 7:74 [people], 14:10 [people], 15:82 [inter], 26:149 [inter], 8:52 [inter]
 - 4:168 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 4:43 [inter], 11:89 [inter], 29:12 [surah], 2:259 [inter], 4:167 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 29:32 [surah], 29:33 [surah], 29:63 [surah], 32:27 [inter], 4:116 [inter], 50:9 [people], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 27:44 [people], 29:14 [surah], 4:114 [inter], 9:67 [people]
+- 15:38 [inter] joins 3:13 [inter], 29:12 [surah], 9:36 [inter], 9:71 [people], 29:60 [surah], 4:115 [inter], 9:37 [inter], 22:41 [people], 29:14 [surah], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 19:84 [inter] joins 9:36 [inter], 9:37 [inter], 27:44 [people]
+- 47:15 [inter] joins مُسْتَبْصِرِينَ (w16), 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 4:168 [inter], 4:43 [inter], 11:89 [inter], 4:167 [inter], 29:32 [surah], 29:33 [surah], 32:27 [inter], 4:116 [inter], 15:82 [inter], 26:149 [inter], 22:41 [people]
+- 43:38 [inter] joins 7:74 [people], 11:89 [inter], 4:167 [inter], 29:63 [surah], 4:116 [inter]
 - 58:11 [inter] joins 14:10 [people], 22:41 [people], 8:52 [inter]
+- 6:42 [inter] joins 29:29 [surah], 4:43 [inter], 9:36 [inter], 9:37 [inter], 12:109 [inter], 22:27 [inter]
+- 6:44 [inter] joins 3:13 [inter], 7:74 [people], 7:145 [inter], 29:12 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 29:32 [surah], 29:33 [surah], 15:82 [inter], 26:149 [inter], 9:37 [inter], 22:41 [people], 29:14 [surah], 4:114 [inter], 9:67 [people]
+- 7:145 [inter] joins 3:13 [inter], 3:75 [inter], 3:99 [inter], 7:74 [people], 14:10 [people], 11:52 [people], 11:89 [inter], 29:41 [surah], 4:167 [inter], 11:64 [people], 7:73 [people], 7:77 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 41:15 [people], 4:116 [inter], 9:69 [people], 15:82 [inter], 26:149 [inter], 9:37 [inter]
+- 7:147 [inter] joins 3:99 [inter], 11:52 [people], 7:145 [inter], 11:89 [inter], 29:12 [surah], 4:167 [inter], 9:36 [inter], 9:71 [people], 29:60 [surah], 41:15 [people], 4:116 [inter], 9:69 [people], 9:37 [inter], 22:41 [people], 4:114 [inter], 9:67 [people]
+- 40:83 [inter] joins 2:259 [inter], 9:37 [inter], 29:14 [surah]
 - 14:31 [inter] joins مُسْتَبْصِرِينَ (w16), 7:74 [people], 11:52 [people], 29:41 [surah], 2:259 [inter], 9:36 [inter], 9:71 [people], 4:115 [inter], 4:114 [inter]
-- 41:54 [inter] joins 7:74 [people], 15:82 [inter], 26:149 [inter]
+- 2:213 [inter] joins ٱلسَّبِيلِ (w14), مُسْتَبْصِرِينَ (w16), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 4:168 [inter], 4:43 [inter], 7:145 [inter], 11:89 [inter], 29:12 [surah], 29:41 [surah], 2:259 [inter], 4:167 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 29:60 [surah], 7:73 [people], 7:77 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 2:187 [inter], 32:27 [inter], 41:15 [people], 4:116 [inter], 50:9 [people], 9:69 [people], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 22:41 [people], 27:44 [people], 29:14 [surah], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 18:6 [inter] joins 29:29 [surah], 4:43 [inter], 2:259 [inter], 9:36 [inter], 9:37 [inter], 12:109 [inter], 22:27 [inter], 29:14 [surah]
+- 18:8 [inter] joins 14:10 [people], 2:187 [inter], 50:9 [people], 8:52 [inter]
+- 28:57 [inter] joins 29:60 [surah], 32:27 [inter], 22:41 [people]
+- 26:148 [inter] joins مُسْتَبْصِرِينَ (w16), 9:36 [inter], 11:64 [people], 7:73 [people], 7:77 [people], 32:27 [inter], 41:15 [people], 9:69 [people]
+- 4:43 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 7:74 [people], 14:10 [people], 4:168 [inter], 11:89 [inter], 29:12 [surah], 2:259 [inter], 4:167 [inter], 9:36 [inter], 9:71 [people], 11:64 [people], 7:73 [people], 29:32 [surah], 29:33 [surah], 29:63 [surah], 2:187 [inter], 32:27 [inter], 4:116 [inter], 50:9 [people], 13:33 [inter], 15:82 [inter], 26:149 [inter], 40:29 [people], 9:37 [inter], 12:109 [inter], 22:27 [inter], 27:44 [people], 29:14 [surah], 4:114 [inter], 8:52 [inter], 9:67 [people]
+- 4:45 [inter] joins 3:75 [inter], 14:10 [people], 11:52 [people], 29:12 [surah], 29:41 [surah], 9:36 [inter], 9:71 [people], 29:60 [surah], 4:115 [inter], 13:33 [inter], 4:114 [inter]
 - 48:11 [inter] joins 29:29 [surah], 12:109 [inter], 22:27 [inter], 27:44 [people]
 - 48:13 [inter] joins 9:36 [inter], 9:37 [inter]
-- 6:114 [inter] joins 7:74 [people], 11:64 [people], 7:73 [people], 7:77 [people], 15:82 [inter], 26:149 [inter]
+- 27:50 [inter] joins 2:259 [inter], 2:187 [inter]
+- 18:60 [inter] joins 29:29 [surah], 7:74 [people], 2:259 [inter], 15:82 [inter], 26:149 [inter], 9:37 [inter], 12:109 [inter], 22:27 [inter], 27:44 [people], 29:14 [surah]
+- 32:27 [inter] joins ٱلسَّبِيلِ (w14), 3:13 [inter], 3:75 [inter], 3:99 [inter], 29:29 [surah], 14:10 [people], 4:168 [inter], 4:43 [inter], 29:12 [surah], 29:63 [surah], 50:9 [people], 40:29 [people]
+- 27:5 [inter] joins 11:64 [people], 7:73 [people], 9:37 [inter]
+- 15:15 [inter] joins مُسْتَبْصِرِينَ (w16), 29:29 [surah]
 
 ## Chain material (per hub: surah ayat its members touch, in surah order)
 
@@ -793,17 +793,17 @@ Edges: {'lex': 674, 'rel': 431, 'sound': 3, 'kw': 2231, 'root': 210, 'img': 1620
 - س ب ل + ع م ل (7): 3:195, 4:94, 9:120, 17:84, 31:15, 47:4, 57:10
 - ب ص ر + س ك ن (4): 10:67, 27:86, 28:72, 40:61
 - ش ط ن + ع م ل (3): 5:90, 21:82, 28:15
+- ع م ل + ع و د (2): 10:4, 58:3
 - ش ط ن + ص د د (2): 5:91, 43:62
 - س ب ل + ش ط ن (2): 4:76, 18:63
-- ع م ل + ع و د (2): 10:4, 58:3
 - ب ص ر + س ب ل (2): 3:13, 12:108
-- ب ص ر + ش ط ن (1): 7:201
-- ش ط ن + ع و د (1): 2:275
-- ز ي ن + ش ط ن (1): 67:5
-- س ك ن + ع م ل (1): 18:79
 - س ك ن + ع و د (1): 5:95
-- ب ص ر + ز ي ن (1): 24:31
+- ش ط ن + ع و د (1): 2:275
+- س ك ن + ع م ل (1): 18:79
+- ب ص ر + ش ط ن (1): 7:201
+- ز ي ن + ش ط ن (1): 67:5
 - ز ي ن + س ب ل (1): 10:88
+- ب ص ر + ز ي ن (1): 24:31
 
 ## HFT mechanisms and the hubs they touch
 
