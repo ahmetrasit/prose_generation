@@ -1,0 +1,46 @@
+## Thread 1: Geride kalan evin dili
+thesis: Geride kalan meskenler, dağa oyulmuş evler de dâhil, yolculuk edip bakan okura sahiplerinin akıbetini izden okutur ve örümcek eviyle güven iddiasının kırılganlığını açar.
+carry: M3, M7, M8, L4.1, H1.5, C4
+support: G23, G24, G25, G26, G27, L4.4, L2.2, C3
+joins: Thread 2 — تَبَيَّنَ ve مَسَٰكِنِهِمْ; Thread 3 — بَيْت ve ٱلْعَنكَبُوتِ; Thread 6 — عَادًا
+
+## Thread 2: Görüşün sınavı
+thesis: Göz erimine dek açılan dış delil ile içeride hazır bulunan basiret eşzamanlıdır; sûre, bu bilginin işe ve bağlılığa hükmedip etmediğini sınar.
+carry: H2.1, H2.5, T6, M1, M4, M10, M12
+support: T7, L3.3, G38, G39, G40, P12, G2, G8
+joins: Thread 1 — تَبَيَّنَ; Thread 3 — مُسْتَبْصِرِينَ ve göz; Thread 4 — تَبَيَّنَ / زَيَّنَ; Thread 5 — ٱلسَّبِيلِ; Thread 6 — görülen buluttan çıkarılan hüküm
+
+## Thread 3: Gözü örten örümcek ağı
+thesis: سَبِيل kökündeki ağsı göz perdesi ve sûrenin örümcek evi, mevcut basireti silmeden yön seçimini örtebilen ince ve dayanıksız bir ağ resmi kurar.
+carry: H2.2, T1, C3, M14
+support: G10, J1, J7
+joins: Thread 1 — örümcek evi; Thread 2 — مُسْتَبْصِرِينَ; Thread 5 — ٱلسَّبِيلِ
+
+## Thread 4: Cilanın işlediği amel
+thesis: تَبَيَّنَ ile زَيَّنَ arasındaki ses yakınlığı, şeytanın tekrar edilen ve toplumca onaylanan amelleri sahici iyilik gibi parlatıp insanı yoldan çeviren değer yanılsamasını işittirir.
+carry: M2, M6, L5.1, T5, G1, P1, G34
+support: L5.3, L6.4, L6.3, M9, M11, G29, C1, P9
+joins: Thread 2 — تَبَيَّنَ / زَيَّنَ; Thread 5 — زَيَّنَ ardından فَصَدَّهُمْ
+
+## Thread 5: Yol dururken yolcunun çevrilmesi
+thesis: Suya çıkan işlek ve eski yol imgesi, şeytanın insanı erişilebilir güzergâhtan sahte yük devri vaat eden rakip yola çevirdiğini, sûrenin sonundaki cehdin ise yeniden yollar açtığını duyurur.
+carry: H1.1, H1.2, H1.4, H1.7, L1.7, M5, M13
+support: H1.3, H1.14, H1.15, H1.16, G35, G36, G37, C2, C9, P10
+joins: Thread 3 — ٱلسَّبِيلِ ve göz perdesi; Thread 4 — فَصَدَّهُمْ; Thread 6 — suya giden yol
+
+## Thread 6: Yağmur sanılan azap
+thesis: Âd'ın yağmur sandığı azap bulutu, Hûd'un tövbeye bağladığı yağmur vaadiyle ve سَبِيل'in yağmur, صَدّ'ın su yolu anlamlarıyla birleşerek yanlış hükmün hayat arayışını nasıl ters yöne çevirdiğini işittirir.
+carry: C6, T8, H1.1, J6
+support: M11, H1.13, L3.2
+joins: Thread 1 — عَادًا ve geride kalan meskenler; Thread 2 — görmek ile doğru hüküm vermek; Thread 5 — suya giden yol
+
+## Kapanış
+Meskenlerin tanıklığı ile işlemeyen basiret تَبَيَّنَ / مُسْتَبْصِرِينَ bağında birleşir; örümcek ağı hem eve hem göze uzanır. زَيَّنَ ile فَصَدَّهُمْ arasındaki فَ, cilalanmış ameli suya çıkan yoldan kopuşa bağlar; Âd'ın yağmur sandığı bulut bu yanlış okumanın tarihî yüzüdür. Sûrenin sonundaki جَٰهَدُوا۟ / لَنَهْدِيَنَّهُمْ سُبُلَنَا bağı, görüşün kararlı hareketle yol bulmasını karşılık olarak duyurur.
+
+## Ek Notlar
+- C5: Elçileri “bizi çevirmek istiyorsunuz” diye suçlayan söz, فَصَدَّهُمْ fiilinin gerçek failini ters göstermenin ayrı bir örneğidir.
+- G6: Hemen sonraki وَمَا كَانُوا۟ سَٰبِقِينَ, وَكَانُوا۟ مُسْتَبْصِرِينَ kalıbını yineler; görüş kaçış sağlamaz.
+
+## Rejected
+- C7: 3:13'teki لِأُو۟لِى ٱلْأَبْصَٰرِ “basiret sahipleri” demektir; أُولِي burada “akıbet, dönüş yeri” anlamındaki ء و ل bağına dayanak olmaz.
+- G7: 29:40'ta أَنفُسَهُمْ, كَانُوا۟'nun haberi değil, يَظْلِمُونَ fiilinin nesnesidir.

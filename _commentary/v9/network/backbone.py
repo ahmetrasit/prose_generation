@@ -6,7 +6,8 @@ Sections (ids in brackets are what the plan and harvest cite):
   2 [H]  backbone hubs — images that rare branches of ≥3 roots converge on by script evidence; members with their
          dictionary sense, source phrase and evidence (script edges, Luna's judged reading)
   3 [L]  Luna hubs — the same, made by Luna's readings only (second tier)
-  4 [T]  triangles — three nodes pairwise linked (the image confirms itself)
+  4 [F]  the Fatiha — standing lens: links from the ayah's words and branches to each Fatiha ayah
+  5 [T]  triangles — three nodes pairwise linked (the image confirms itself)
   5 [J]  bridges — nodes that touch two hubs (joins, Kapanış)
   6 [G]  word level — sound, rare form, frame links, and the precomputed word notes (grammar that changes meaning)
   7 [C]  context hubs — surah, people passages, Fatiha, inter-ayah ayat that several rare branches point to
@@ -32,6 +33,7 @@ from network import weight  # noqa: E402
 QURAN = V9.parents[2] / "quran-data" / "data" / "text" / "quran-uthmani.tsv"
 MAX_TRIANGLES = 15
 MAX_BRIDGES = 15
+FATIHA_PER_AYAH = 6
 CONTEXT_HUBS_PER_ZONE = 3
 
 
@@ -82,12 +84,23 @@ def main() -> None:
                 parts.append(f"{e['kind']}{'/' + e['sub'] if e['sub'] else ''}: {clip(e['evidence'], 150)}")
         return " || ".join(dict.fromkeys(parts)) or "image similarity only"
 
-    def branch_line(b):
+    def backing(b, h):
+        """[dictionary]: a script edge (shared word, dictionary relation, sound, form) links b and h;
+        [judged]: only Luna's reading does."""
+        return "[dictionary]" if any(e["kind"] != "luna" and weight(e) > 0 for e in adj[b][h]) else "[judged]"
+
+    def branch_line(b, full=False):
         x = N[b]
         flags = ("echo root, sound family only; " if x["root_kind"] == "echo" else "") + \
                 (f"{x['n_sources']} dictionaries" + (", sole attestation" if x["sole"] else ""))
         return (f"{x['root']} {x['bid']} «{x['gloss']}» {x['image']} — word {fw(x['word'])} ({flags}); "
-                f"source: {clip(x['src'], 220)}")
+                f"source: {clip(x['src'], 450 if full else 220)}")
+
+    ids_of = defaultdict(list)  # branch node → every id it appears under (cross-references)
+
+    def also(b, own):
+        other = [i for i in ids_of[b] if i != own]
+        return f" (also {', '.join(other[:6])})" if other else ""
 
     def ctx_touch(members):
         touch = defaultdict(set)
@@ -116,6 +129,23 @@ def main() -> None:
         hub_ids[h] = f"H{i}"
     for i, (_, h, _, _) in enumerate([x for x in shown if N[x[1]].get("tier") != "backbone"], 1):
         hub_ids[h] = f"L{i}"
+    hub_members = {}
+    for score, h, members, n in shown:
+        ms = [b for b in members if N[b]["word"] != h]
+        ms.sort(key=lambda b: (backing(b, h) != "[dictionary]", N[b]["root"], N[b]["bid"]))
+        hub_members[h] = ms
+        for k, b in enumerate(ms, 1):
+            ids_of[b].append(f"{hub_ids[h]}.{k}")
+    tri_list, seen_b = [], set()
+    for kinds, b, x, y in d["triangles"]:
+        if b in seen_b or len(tri_list) >= MAX_TRIANGLES:
+            continue
+        xy = [e for e in adj[x].get(y, []) if weight(e) > 0 or e["kind"] in ("img",)]
+        if xy:
+            seen_b.add(b)
+            tri_list.append((b, x, y, xy[0]))
+            ids_of[b].append(f"T{len(tri_list)}")
+
     L += ["## 1. Surah-level arguments (HFT mechanisms) [M]", ""]
     m_i = 0
     for blk in blocks:
@@ -148,10 +178,10 @@ def main() -> None:
                 continue
             hid = hub_ids[h]
             L += [f"### {hid} {fw(h)} — {n} roots converge", f"Plain sense of {fw(h)}: {plain_of(h)}"]
-            ms = [b for b in members if N[b]["word"] != h]
-            ms.sort(key=lambda b: (all(e["kind"] == "luna" or weight(e) == 0 for e in adj[b][h]), N[b]["root"], N[b]["bid"]))
+            ms = hub_members[h]
             for k, b in enumerate(ms, 1):
-                L.append(f"- **{hid}.{k}** {branch_line(b)}")
+                tag = backing(b, h)
+                L.append(f"- **{hid}.{k}** {tag} {branch_line(b, full=tag == '[dictionary]')}{also(b, f'{hid}.{k}')}")
                 L.append(f"  - evidence: {evidence(b, h)}")
             touch = ctx_touch(ms)
             if touch:
@@ -159,28 +189,59 @@ def main() -> None:
             L.append("")
 
     # 4 triangles
-    L += ["## 4. Triangles [T]", ""]
-    seen_b, t_i = set(), 0
-    for kinds, b, x, y in d["triangles"]:
-        if b in seen_b or t_i >= MAX_TRIANGLES:
-            continue
-        xy = [e for e in adj[x].get(y, []) if weight(e) > 0 or e["kind"] in ("img",)]
-        if not xy:
-            continue
-        seen_b.add(b)
+    # Fatiha: a standing lens for every ayah (recited in every prayer)
+    L += ["## 4. The Fatiha [F] (standing lens: recited in every prayer)", ""]
+    f_i = 0
+    for i in range(1, 8):
+        r = f"1:{i}"
+        node = f"A:{r}"
+        links = []
+        for b_or_f, es in adj.get(node, {}).items():
+            kind = N.get(b_or_f, {}).get("type")
+            if kind == "B" and (N[b_or_f]["rare"] or any(e["kind"] in ("rel", "lex", "luna") for e in es)):
+                strong_es = [e for e in es if weight(e) > 0]
+                if strong_es or ids_of.get(b_or_f):
+                    links.append((0 if strong_es else 1, b_or_f, strong_es or es))
+            elif kind == "F":
+                for e in es:
+                    if e["kind"] in ("form", "frame"):
+                        links.append((0, b_or_f, [e]))
+        L.append(f"### {r} {quran.get(r, '')}")
+        seen_lines = set()
+        uniq = []
+        for rank, n_, es in sorted(links, key=lambda t: (t[0], t[1])):
+            key = (n_, tuple(sorted(e["evidence"] for e in es)))
+            if key not in seen_lines:
+                seen_lines.add(key)
+                uniq.append((rank, n_, es))
+        for _, n_, es in uniq[:FATIHA_PER_AYAH]:
+            f_i += 1
+            ev = " || ".join(dict.fromkeys(f"{e['kind']}{'/' + e['sub'] if e['sub'] else ''}: {clip(e['evidence'], 150)}"
+                                           for e in es))
+            if N[n_]["type"] == "B":
+                ids_of[n_].append(f"F{f_i}")
+                L.append(f"- **F{f_i}** {branch_line(n_)}{also(n_, f'F{f_i}')} — {ev}")
+            else:
+                L.append(f"- **F{f_i}** word {fw(n_)} — {ev}")
+    L.append("")
+
+    L += ["## 5. Triangles [T]", ""]
+    t_i = 0
+    for b, x, y, xy0 in tri_list:
+        xy = [xy0]
         t_i += 1
         lab = lambda n_: fw(n_) if n_.startswith("F:") else f"{N[n_]['ref']} [{N[n_]['zone']}]"
         for n_ in (x, y):
             if n_.startswith("A:"):
                 cited.add(N[n_]["ref"])
-        L.append(f"- **T{t_i}** {branch_line(b)}")
+        L.append(f"- **T{t_i}** {branch_line(b)}{also(b, f'T{t_i}')}")
         L.append(f"  - → {lab(x)}: {evidence(b, x)}")
         L.append(f"  - → {lab(y)}: {evidence(b, y)}")
         L.append(f"  - {lab(x)} ↔ {lab(y)}: {xy[0]['kind']}{'/' + xy[0]['sub'] if xy[0]['sub'] else ''}: {clip(xy[0]['evidence'], 150)}")
     L.append("")
 
     # 5 bridges
-    L += ["## 5. Bridges (touch two hubs) [J]", ""]
+    L += ["## 6. Bridges (touch two hubs) [J]", ""]
     members_of = {hub_ids[h]: {m for x in hubs if x[1] == h for m in x[2]} for h in hub_ids}
     cands = []
     for n_, x in N.items():  # bridges inside the ayah, the Fatiha and the surah; most-joining first
@@ -201,7 +262,7 @@ def main() -> None:
     L.append("")
 
     # 6 word level
-    L += ["## 6. Word level: sound, form, frame, grammar [G]", ""]
+    L += ["## 7. Word level: sound, form, frame, grammar [G]", ""]
     g_i = 0
     for e in E:
         if e["kind"] in ("sound", "form", "frame") and e["a"].startswith("F:"):
@@ -218,7 +279,7 @@ def main() -> None:
     L.append("")
 
     # 7 context hubs
-    L += ["## 7. Context hubs [C]", ""]
+    L += ["## 8. Context hubs [C]", ""]
     c_i = 0
     for zone in ("surah", "fatiha", "people", "inter"):
         for score, h, members, n in ctx.get(zone, [])[:CONTEXT_HUBS_PER_ZONE]:
@@ -232,7 +293,7 @@ def main() -> None:
     L.append("")
 
     # 8 formula groups: other ayat repeating focus roots (same-root leaves), grouped by the words they repeat
-    L += ["## 8. Formula groups: other ayat repeating the ayah's own roots [P] (pick representatives)", ""]
+    L += ["## 9. Formula groups: other ayat repeating the ayah's own roots [P] (pick representatives)", ""]
     groups = defaultdict(list)
     for e in E:
         if e["kind"] == "root" and e["b"].startswith("A:") and N[e["b"]]["zone"] in ("inter", "people"):
@@ -248,14 +309,14 @@ def main() -> None:
     L.append("")
 
     # 9 texts
-    L += ["## 9. Text of cited ayat outside the surah and the Fatiha", ""]
+    L += ["## 10. Text of cited ayat outside the surah and the Fatiha", ""]
     for r in sorted({r for r in cited if not r.startswith((f"{s_}:", "1:")) and r in quran},
                     key=lambda r: tuple(map(int, r.split(":")))):
         L.append(f"- {r} {quran[r]}")
     sol = out_dir / "sol"
     sol.mkdir(exist_ok=True)
     (sol / "backbone.md").write_text("\n".join(L) + "\n", encoding="utf-8")
-    print(f"backbone: {m_i} mechanisms, {len(hub_ids)} focus hubs, {t_i} triangles, {j_i} bridges, {g_i} word items, "
+    print(f"backbone: {m_i} mechanisms, {len(hub_ids)} focus hubs, {f_i} Fatiha links, {t_i} triangles, {j_i} bridges, {g_i} word items, "
           f"{c_i} context hubs → {sol / 'backbone.md'} ({len(chr(10).join(L).encode())} bytes)")
 
 

@@ -41,16 +41,19 @@ def check_plan(p: dict) -> list[str]:
     plan = p["plan"].read_text(encoding="utf-8")
     problems = []
     threads = re.split(r"^## Thread \d+", plan, flags=re.M)[1:]
-    if not 4 <= len(threads) <= 7:
-        problems.append(f"{len(threads)} threads (want 4–7)")
+    if not 4 <= len(threads) <= 8:
+        problems.append(f"{len(threads)} threads (want 4–8)")
     for i, t in enumerate(threads, 1):
         if not re.search(r"^thesis:\s*\S", t, re.M):
             problems.append(f"thread {i}: no thesis")
         carry = re.search(r"^carry:\s*(.*)$", t, re.M)
         n = len(re.findall(r"[A-Z]\d+(?:\.\d+)?", carry.group(1))) if carry else 0
-        if not 3 <= n <= 7:
-            problems.append(f"thread {i}: {n} carry ids (want 3–7)")
-    unknown = sorted(set(re.findall(r"\b([HLTJGCPM]\d+(?:\.\d+)?)\b", plan)) - ids)
+        if not 3 <= n <= 10:
+            problems.append(f"thread {i}: {n} carry ids (want 3–10)")
+        for field in ("opening", "turn", "closing"):
+            if not re.search(rf"^{field}:\s*\S", t, re.M):
+                problems.append(f"thread {i}: no {field}")
+    unknown = sorted(set(re.findall(r"\b([HLTJGCPMF]\d+(?:\.\d+)?)\b", plan)) - ids)
     if unknown:
         problems.append(f"ids not in the backbone: {', '.join(unknown[:20])}")
     return problems
