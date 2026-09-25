@@ -37,25 +37,35 @@ def paths(ref: str) -> dict[str, Path]:
 
 
 def check_plan(p: dict) -> list[str]:
-    ids = set(re.findall(r"\*\*([A-Z]\d+(?:\.\d+)?)\*\*", p["backbone"].read_text(encoding="utf-8")))
+    """Shape of the argument plan: tensions, question and claim, 4–8 sections each with a claim and 2–6 steps, known
+    ids; every [dictionary] member of a backbone hub placed somewhere (steps, Ek Notlar or Rejected)."""
+    backbone = p["backbone"].read_text(encoding="utf-8")
+    ids = set(re.findall(r"\*\*([A-Z]\d+(?:\.\d+)?)\*\*", backbone))
     plan = p["plan"].read_text(encoding="utf-8")
     problems = []
-    threads = re.split(r"^## Thread \d+", plan, flags=re.M)[1:]
-    if not 4 <= len(threads) <= 8:
-        problems.append(f"{len(threads)} threads (want 4–8)")
-    for i, t in enumerate(threads, 1):
-        if not re.search(r"^thesis:\s*\S", t, re.M):
-            problems.append(f"thread {i}: no thesis")
-        carry = re.search(r"^carry:\s*(.*)$", t, re.M)
-        n = len(re.findall(r"[A-Z]\d+(?:\.\d+)?", carry.group(1))) if carry else 0
-        if not 3 <= n <= 10:
-            problems.append(f"thread {i}: {n} carry ids (want 3–10)")
-        for field in ("opening", "turn", "closing"):
-            if not re.search(rf"^{field}:\s*\S", t, re.M):
-                problems.append(f"thread {i}: no {field}")
+    if not re.search(r"^## Tensions\s*\n- ", plan, re.M):
+        problems.append("no tensions")
+    if not (re.search(r"^question:\s*\S", plan, re.M) and re.search(r"^## Question and central claim[\s\S]*?^claim:\s*\S", plan, re.M)):
+        problems.append("no question / central claim")
+    sections = re.split(r"^## Section \d+", plan, flags=re.M)[1:]
+    if not 4 <= len(sections) <= 8:
+        problems.append(f"{len(sections)} sections (want 4–8)")
+    for i, t in enumerate(sections, 1):
+        t = t.split("\n## ", 1)[0]
+        if not re.search(r"^claim:\s*\S", t, re.M):
+            problems.append(f"section {i}: no claim")
+        n_steps = len(re.findall(r"^- \d+\.", t, re.M))
+        if not 2 <= n_steps <= 6:
+            problems.append(f"section {i}: {n_steps} steps (want 2–6)")
+        if not re.search(r"^adds:\s*\S", t, re.M):
+            problems.append(f"section {i}: no adds")
     unknown = sorted(set(re.findall(r"\b([HLTJGCPMF]\d+(?:\.\d+)?)\b", plan)) - ids)
     if unknown:
         problems.append(f"ids not in the backbone: {', '.join(unknown[:20])}")
+    dict_members = set(re.findall(r"\*\*(H\d+\.\d+)\*\* \[dictionary\]", backbone))
+    unplaced = sorted(dict_members - set(re.findall(r"\b(H\d+\.\d+)\b", plan)))
+    if unplaced:
+        problems.append(f"[dictionary] hub members not placed: {', '.join(unplaced)}")
     return problems
 
 
@@ -69,7 +79,7 @@ def plan(ref: str) -> None:
     body = parts.get(f"{p['sa']}.plan.md") or text
     p["plan"].write_text(body, encoding="utf-8")
     problems = check_plan(p)
-    print(f"plan: {len(re.findall(r'^## Thread', body, re.M))} threads; problems: {problems or 'none'}")
+    print(f"plan: {len(re.findall(r'^## Section', body, re.M))} sections; problems: {problems or 'none'}")
 
 
 def write(ref: str) -> None:
