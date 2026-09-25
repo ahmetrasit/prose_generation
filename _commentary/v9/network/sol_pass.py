@@ -24,6 +24,11 @@ REPO = V9.parents[1]
 sys.path.insert(0, str(V9 / "luna"))
 import run as R  # noqa: E402  (codex runner with reasoning effort max, output splitting, guarded repair)
 
+
+def outputs(text: str, sa: str) -> dict[str, str]:
+    """Final-message sections; a model that kept the literal placeholder S_A in the markers is accepted too."""
+    return R.split_outputs(re.sub(r"^===== S_A\.", f"===== {sa}.", text, flags=re.M), sa)
+
 SOL = "gpt-6-sol"
 REPAIR = "gpt-6-luna"  # localized quote/format repairs: bounded, script-checked (reasoning effort max)
 
@@ -107,7 +112,7 @@ def plan(ref: str) -> None:
     text = R.codex(SOL, f"Follow the brief below (sol_plan.md) exactly. Ayah {ref}; S_A = {p['sa']}. The brief, "
                         f"context.md and backbone.md follow in full; return the plan as your final message.",
                    p["sol"] / "plan.log.jsonl", stdin=stdin, last=p["sol"] / "plan.last.txt", sandbox="read-only")
-    p["plan"].write_text(R.split_outputs(text, str(p["sa"])).get(f"{p['sa']}.plan.md") or text, encoding="utf-8")
+    p["plan"].write_text(outputs(text, str(p["sa"])).get(f"{p['sa']}.plan.md") or text, encoding="utf-8")
     problems = check_plan(p)
     if problems:  # one bounded repair: a fresh session fixes the listed problems and returns the whole plan
         print(f"plan: problems: {problems}; repairing once")
@@ -118,7 +123,7 @@ def plan(ref: str) -> None:
                             "your final message in the brief's output shape.",
                        p["sol"] / "plan.repair.log.jsonl", stdin=stdin, last=p["sol"] / "plan.repair.last.txt",
                        sandbox="read-only")
-        fixed = R.split_outputs(text, str(p["sa"])).get(f"{p['sa']}.plan.md")
+        fixed = outputs(text, str(p["sa"])).get(f"{p['sa']}.plan.md")
         if fixed:
             p["plan"].write_text(fixed, encoding="utf-8")
         problems = check_plan(p)
@@ -138,13 +143,15 @@ def write(ref: str) -> None:
                         f"context.md, backbone.md and plan.md follow in full; return the reading and the harvest as "
                         f"your final message.", p["sol"] / "write.log.jsonl", stdin=stdin,
                    last=p["sol"] / "write.last.txt", sandbox="read-only")
-    for name, body in R.split_outputs(text, str(p["sa"])).items():
+    for name, body in outputs(text, str(p["sa"])).items():
         (p["sol"] / name).write_text(body, encoding="utf-8")
     print(f"write: {'reading written' if p['reading'].exists() else 'NO READING'}")
 
 
 def check(ref: str) -> None:
     p = paths(ref)
+    if not p["reading"].exists():
+        sys.exit(f"no reading at {p['reading']}; nothing to check")
     status = "checks ok"
     for attempt in (1, 2):
         problems, flagged = R.reading_problems(p["reading"], p["pkg"])

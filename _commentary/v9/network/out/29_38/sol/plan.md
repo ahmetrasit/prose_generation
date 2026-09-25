@@ -1,0 +1,77 @@
+## Tensions
+- Âd ve Semûd mansup adlar olarak, helâk fiili söylenmeden gelir; hemen ardından gelen «size» hitabı kıssanın kişilerinden bugünkü tanıklara geçer.
+- Meskenler yerleşme ve kalıcılık taşır, fakat sahiplerinin yokluğunda onların akıbetini gösteren delile dönüşür.
+- تَبَيَّنَ ile زَيَّنَ sesçe yakındır: ilki izlerden beliren açıklığı, ikincisi işlere bir failin verdiği çekiciliği anlatır.
+- Şeytan onları yoldan çevirmiştir; buna rağmen ayet son sözü onların «müstebsir» oluşuna bırakır.
+- Belirli «yol»dan çevrilme, sûredeki «bizim yolumuza uyun» çağrısıyla birlikte okununca, yanlış yönelişin nasıl ortak bir pratiğe dönüştüğü sorulur.
+
+## Question and central claim
+question: Âd ile Semûd görebilecek durumdayken yoldan nasıl çevrildi ve geride kalan meskenler aynı soruyu bugünkü muhataba nasıl yöneltiyor?
+claim: Ayet, delilin yokluğunu değil, görülenin davranışa hükmedememesini anlatır: onların akıbeti meskenlerinden bize açılırken kendi işleri onlara güzel gösterilmiş, böylece basiretleri yol seçimlerini yönetmemiştir. Kalan iz, gören kişinin de neye değer verdiğini ve hangi yolda yürüdüğünü sınar.
+
+## Section 1: İki adın ardından kalan iz
+claim: Söylenmeyen helâk fiili ile «size belli oldu» ara cümlesi, iki halkın sonunu bugünkü muhatabın okuyacağı bir delile çevirir.
+steps:
+- 1. وَعَادًا وَثَمُودَا mansup iki addır; 29:37’deki yıkım ve 29:40’taki «her birini günahıyla yakaladık» özeti, başta söylenmeyen helâk fiilini tamamlar → ayet bağımsız bir halk listesi kurmaz, sürmekte olan akıbet anlatısına iki örnek daha katar. [G18, G19, G20, G21, M8]
+- 2. وَقَدْ ile tamamlanmış açıklık kesinlenir; تَبَيَّنَ’de neyin açığa çıktığı adlandırılmaz, لَكُمْ muhatabı belirler, مِنْ مَسَاكِنِهِمْ ise açıklığın kaynağını gösterir → evlerin kendisi değil, onlardan anlaşılan akıbet okurun önüne konur. [G22, G23, G24, G25, G26, G27]
+- 3. Sûre 29:20’de yeryüzünde yürüyüp bakmayı ister; yakın Lût anlatısında 29:35, geride bırakılmış «apaçık bir işaret»i akledenlere yöneltir → 29:38’deki meskenler de yalnız aktarılmış bir haber değil, izden sonuca varmayı gerektiren bir tanıklıktır. [M7]
+- 4. Semûd’a ilişkin 7:74, düzlükte sarayları ve dağda oyulmuş evleri anar; 29:37’de insanlar evlerinde yere çöker, 29:41’de seçilen koruyucular örümceğin zayıf eviyle anlatılır → yerleşmenin sağlam görünüşü, içinde yaşayanı güvenceye aldığına delil değildir; mesken sahiplerinden sonra bu yanılgığın şahidi olur. [C4, M3, M8, C3]
+adds: Okur, geçmişte kimlerin yok edildiğini öğrenmekten, önündeki izin neyi ispat ettiğini düşünmeye geçer.
+alternatives: Eksik fiilin tam sözünü «helâk ettik» veya «yakaladık» diye doldurmak mümkündür; gerekli olan ortak yıkım çerçevesidir. مِنْ için çıkış kaynağı ve delilin görüldüğü yer okumalarını birlikte tut; meskenleri تَبَيَّنَ’nin açıkça söylenmiş öznesi sayma.
+image: Kayaya oyulmuş ev durur; içinde yaşamak için onu oyanlar artık orada değildir.
+
+## Section 2: Açığa çıkanla güzel görünen
+claim: Ayet yan yana iki görünür kılma kurar: harabe sonucu açığa çıkarır, şeytan ise insanların kendi işlerine verdikleri değeri değiştirir.
+steps:
+- 1. تَبَيَّنَ ile زَيَّنَ’nin yakın sesi iki fiili birbirine duyurur; birincinin V. biçiminde açıklık izden belirir, ikincinin II. biçiminde adı konmuş fail işleri çekici kılar → mesele yalnız neyin görüldüğü değil, görünenin hangi ölçüyle değerlendirildiğidir. [G1, G24, G29, G32, L5.1, H2.5]
+- 2. ز ي ن için sözlükte ayıptan uzak gerçek güzellik de kayıtlıdır; 29:7 iyi işin karşılığını, 18:7 ise yeryüzü süsünün «kimin daha güzel iş yapacağını» sınamasını anar → bir işin güzel *gösterilmesi*, onun iyi olduğuna hüküm değildir. [L3.1, T5, P6]
+- 3. لَهُمُ görünüşte yarar görenleri, ٱلشَّيْطَانُ faili, أَعْمَٰلَهُمْ ise onların zaten yapmakta oldukları işleri gösterir; فَ sonucu bu düzenlemenin ardından getirir. 8:48’de aynı fail işlerini parlatıp «yanınızdayım» dedikten sonra geri çekilir → çekicilik, yanlış güven de üretebilir; yine de yapılan işler onlara aittir. [G29, G30, G31, G32, G33, G34, P4, M2]
+- 4. Âd’ın 46:24’te vadilerine gelen bulutu «bize yağmur getirecek» diye okuması, ardından onun azap yüklü rüzgâr olduğunun açıklanmasıdır → görünen nesneyi fark etmek, onun kendileri için ne taşıdığını doğru tartmakla aynı şey değildir; س ب ل kökünün «yağmur» kaydı bu sahneyi yalnız yan çağrışım olarak yaklaştırır. [T8, G15]
+- 5. 29:64–65’te tehlike içindeki yolcular Allah’a içten yönelir, kurtulunca yeniden ortak koşar → doğru yöneliş bir anda mümkünken gündelik hayatın çekicilikleri içinde etkisini yitirebilir; müstebsir oluşu sürekli doğru seçimle eşitlememek gerekir. [M11]
+adds: İlk bölümdeki görünür delilin neden tek başına yetmediğini, işlere verilen değerin değişmesiyle açıklar.
+alternatives: ز ي ن kökündeki gerçek güzelliği koru; bu cümlede güzelleştirmenin hemen yol kesmeye varması, söz konusu değerlendirmeyi kuşkulu kılar. Âd’ın bulut sahnesini 29:38’deki şeytan fiilinin bire bir anlatımı sayma; sahne, görünüş ile hüküm arasındaki farkı gösterir.
+
+## Section 3: Ayağın bastığı yol
+claim: فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ yolun silindiğini değil, insanların tanınabilir bir yoldan çevrildiğini söyler; sûre bu çevrilmenin ortaklaşa kurulabildiğini gösterir.
+steps:
+- 1. فَ sonucu bağlar, صَدَّهُمْ insanları nesne yapar, عَنِ ayrıldıkları yönü belirtir; belirli tekil ٱلسَّبِيلِ yerinde kalır → zarar yolun yok olması değil, yolcuların ondan kopmasıdır. ص د د kökünde kayıtlı «suya giden yol» bu kaybı somut bir güzergâh gibi duyurur, fakat ayette yolun varacağı yeri belirlemez. [G34, G35, G36, G37, H1.1]
+- 2. Sözlüklerde ع م ل için işlenerek izi açılmış yol ve yaya yolcular, س ب ل için yolu kullananlar, ع و د için eski yol kayıtlıdır → ٱلسَّبِيلِ bu çağrışımları uyandırdığında yol, yalnız zihinde bilinen bir doğrultu değil, yürünerek tutulan yerleşik bir rota olur; basiretin eyleme dönüşmesi sorusu keskinleşir. [H1.2, H1.3, H1.4, L6.1]
+- 3. 29:12’de «bizim yolumuza uyun» daveti, «hatalarınızı biz taşırız» vaadiyle gelir; 29:13 bu yük devrini reddeder → birini doğru yoldan çevirmek, ona çekici bir başka yol ve sahte bir sorumluluk güvencesi sunarak da işler. [M5, C2, J12]
+- 4. Sûrede 29:17 uydurulmuş değeri, 29:25 onun insanları birbirine bağlayan sevgisini, Lût halkına ilişkin 29:29 ise mecliste sergilenen kötülüğü ve yolun kesilmesini gösterir → beğenilen iş toplu alışkanlığa dönüştüğünde yoldan çevrilen insanlar başkalarının yolunu da kesebilir. [M6, C1, J2]
+- 5. 3:99, Allah’ın yolunu eğri göstermek isteyerek inananları engelleyenlere «siz de şahitsiniz» der → tanıklık ile engelleyicilik aynı kişilerde birleşebilir; 29:38’deki «size belli oldu» hitabı okuru bu ihtimalin dışında bırakmaz. [C9, P3]
+adds: Güzelleştirilmiş işten yol ayrımına, oradan başkalarını etkileyen bir pratiğe geçişi gösterir.
+alternatives: صَدَّ için «alıkoydu» ve «yüzlerini çevirdi» okumalarını birlikte tut; ikisi de عَنِ ile ayrılışı anlatır. Sözlükteki su yolu veya eski yol ayetin doğrudan gösterdiği fiziksel mekân değildir; Âd adındaki kök yankısı da özel adın etimolojisine dair bir iddia değildir.
+
+## Section 4: Basiretin durduğu eşik
+claim: مُسْتَبْصِرِينَ kapanışı halkları bütünüyle kör saymaz; mevcut görme veya kavrama imkânının neden yol seçimine hükmetmediğini asıl soruya dönüştürür.
+steps:
+- 1. Son وَ bağlar, fakat önceki çevrilmeye karşı geldiği için bağlamda «oysa» kuvveti kazanır; كَانُوا ile mansup etkin ortaç geçmişte süren bir durumu bildirir. Sonraki ayetin «kaçıp öne geçebilecek değillerdi» yapısı da كَانُوا kalıbını sürdürür → kavrayış niteliği anlatıya sonradan eklenmiş bir mazeret değil, akıbeti ağırlaştıran bir karşılıktır. [G38, G39, G40, G6]
+- 2. ب ي ن kökünde «gözün eriştiği kadar arazi» kaydı vardır; burada meskenlerin sonucu «size» görünür, مُسْتَبْصِرِينَ ise o halkların iç kavrayışını adlandırır → ayet iki ayrı zamanın ve iki ayrı görmenin arasına yoldan çevrilme fiilini koyar; bugünkü gözün de kendi yönünü sınaması gerekir. [H2.1, T6, G25, M1]
+- 3. Sûrenin başında iman sözü sınanır; 29:4 kötü işler yapanların kurtulacaklarını sanmasını «ne kötü hüküm» diye niteler, 29:7 ise iyi işi karşılıkla anar → kavrayışın doğruluğu yalnız iddiada veya zihinde değil, hükmün işlere geçişinde sınanır. [M4, G2]
+- 4. 29:61 ve 29:63’te insanlar yaratıcı ve yağmuru indiren sorulunca doğru cevap olarak «Allah» der, yine de yönlerinden döner ve gereğini akletmez; 29:67’de güvenli bölgeyi ve çevresindeki tehlikeyi görüp batıla inanırlar → doğru bir bilgi veya algı, güveni doğru yere vermeyi kendiliğinden sağlamaz. [M10, M12]
+- 5. 27:24, güzelleştirme ve yoldan çevirme dizisini neredeyse aynı sözlerle kurup «doğru yolu bulamıyorlar» diye bitirir; 43:37 engellenenlerin kendilerini doğru yolda sandıklarını ekler → 29:38’in «müstebsirlerdi» sonu, gerçek kavrayış imkânının yanı sıra kendinden emin görme iddiasını da düşündürür, fakat onu yalnız iddiaya indirgemez. [P1, P7, G40]
+- 6. 29:39’da açık belgeler karşısında kibir, 29:40’ta herkesin kendi günahıyla yakalanması ve Allah’ın onlara zulmetmemesi gelir → şeytanın fail olarak anılması, insanların seçimini ve sonucunun sorumluluğunu ortadan kaldırmaz. [M8, G6]
+adds: «Gördükleri halde nasıl?» sorusunu, bilgi ile güven, hüküm ve eylem arasındaki kopuş olarak çözer.
+alternatives: Sözdiziminin öne çıkardığı okuma, onların kavrama yetisine sahip oluşudur; etkin ortaçta arayıp kavrama çabası, 43:37 ışığında kendini basiretli sanma ihtimali de yan yana kalabilir. «Hiçbir şey göremiyorlardı» yorumunu kapanışa, «öyleyse doğru yoldaydılar» yorumunu فَصَدَّهُمْ’a aykırı olduğu için dışla.
+
+## Section 5: Duada yeniden istenen yol
+claim: Fâtiha’nın her namazda istenen hidayeti ve sûrenin namaz ile çaba vurgusu, görülen delilin davranışı yönetmesi için sürekli yöneliş gerektiğini gösterir.
+steps:
+- 1. Fâtiha 1:5’te «yalnız sana kulluk eder, yalnız senden yardım isteriz» diye bağlılık ve yardım dileği kurulur; ب ي ن kökünün «iki tarafı bağlayan ilişki» kaydı buna yalnız edebî bir yankı verir → ayetin gösterdiği delili okuyacak kişi, yönünü kendi görüşüne güvenerek değil, seçtiği bağlılık içinde arar. [F22]
+- 2. Ardından 1:6–7 «bizi dosdoğru yola ilet» der ve sapmadan ayrılmayı ister; ٱلسَّبِيلِ ile صراط yol alanında buluşur, مُسْتَبْصِرِينَ ile مُسْتَقِيمَ aynı X. biçiminin ortaçlarıdır → biçim benzerliği anlamlarını eşitlemez, fakat görebilen insanın yine de doğru yolda tutulmayı istemesini duyurur. [F25, F31, F27, G10]
+- 3. 7:16’da şeytan dosdoğru yolun üzerine oturacağını söyler; 7:201’de ona karşı sakınanlar şeytandan bir dokunuş gelince hatırlar ve yeniden görür → yolun başındaki tehlikeye karşı işleyen karşılık, bir kez edinilmiş görme payesi değil, hatırlamayla yenilenen görüştür. [G12, P12]
+- 4. 5:91 şeytanın insanları Allah’ı anmaktan ve namazdan alıkoymak istediğini söyler; 29:45 namazın çirkin ve kötü işlerden alıkoyduğunu bildirir → mücadelenin yeri tam da 29:38’de parlatılan «işler»dir: tekrar edilen ibadet, işin çekiciliğine karşı davranışta bir durdurma gücü olur. [P9, M9]
+- 5. 12:108’de «benim yolum» üzerinde basiretle Allah’a çağrı ve izleme birleşir; sûre 29:69’da uğraşanların Allah’ın yollarına iletileceğini söyler → basiret, yolda yürüyen ve başkasına da o yolu gösteren eyleme dönüştüğünde 29:38’deki kopuşun karşı hareketi belirir. [P10, M13]
+adds: Ayetin bugünkü dinleyiciden istediği karşılığı belirler: delili okumak, yardım istemek ve görüleni işlerin yönüne taşımak.
+
+## Kapanış
+Meskenler geçmişin sonucunu bugüne gösterir; «müstebsirlerdi» sözü, görme imkânının kendi başına doğru yönü korumadığını bildirir. İşleri güzel gösterilenlerin yoldan çevrilmesi, neye güvenildiği ve hangi işin tekrarlandığı sorusunu açar. Ayeti işiten kişi, bu izlerin önünde kendisi için de yol isteyen ve gördüğünü davranışına taşıması gereken bir yolcu olarak durur.
+
+## Ek Notlar
+- H2.2: س ب ل kökünün örümcek ağına benzetilen göz perdesi kaydı 29:41’le ihtiyatlı bir imge kurar; ayette ٱلسَّبِيلِ’in anlamı «yol»dur.
+- H2.3: ص د د kökündeki göz boyası kaydı süs ile görmeyi yan yana getirir; فَصَدَّهُمْ fiiline boya anlamı vermez.
+- H2.4: ع م ل kökündeki iş gören beden parçası ve uzaktan bakan göz kaydı, iş ile bakışın bedensel yakınlığına küçük bir çağrışımdır.
+- L6.2: ع و د kökündeki tekrar yolculuk etmiş, gücü kalmış yaşlı deve kaydı süreklilik imgesi verir; Âd özel adının anlamı olarak kullanılmaz.
+
+## Rejected
+Yok.
