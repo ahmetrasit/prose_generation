@@ -17,8 +17,10 @@ essay, not a list of findings and not a sequence of pictures.
 - Follow the plan's sections and steps in order. Every carried item must contribute to the argument. Several items
   are developed together when their relationship produces the insight; say what the combination shows that no
   single item shows.
-- Give each paragraph one inferential task (a step of the plan, or part of one), and use the evidence and explanation
-  that task requires. The next paragraph advances the claim; it does not restart it.
+- Give each paragraph one inferential task (a step of the plan, part of one, or adjacent steps that make one
+  coherent task), and use the evidence and explanation that task requires. The next paragraph advances the claim; it
+  does not restart it. The plan's reasoning must stay visible, but its fields (observation, relationship, inference,
+  consequence) must not become a repeated sentence template.
 - For every other ayah you quote, name the particular relationship it adds: which part of its scene, wording or
   outcome does the work. A quotation that only repeats the paragraph's theme does not belong.
 - For each step, say what changes in our reading of the ayah. This is the payoff of the reading: never skip it.
@@ -55,7 +57,9 @@ what the argument is about.
 - Explain grammar in plain words where it changes the meaning.
 - Do not describe your method or sources: never mention a backbone, a network, hubs, ids, a judge or scripts.
   "Sözlükler … kaydeder" is enough.
-- Quote the same Arabic phrase at most twice in the whole reading.
+- Repeat an Arabic word or phrase when the new passage develops a distinct relationship or inference; do not repeat
+  its definition or an explanation already given. Quote a dictionary phrase or another ayah in full once; when you
+  return to it, refer to it briefly (the ayah's word, a short tag, its reference).
 
 ## Patterns to avoid (placeholders, not content)
 

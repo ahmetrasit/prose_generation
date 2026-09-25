@@ -66,11 +66,13 @@ The backbone is evidence, not an outline. Its hubs do not decide your sections; 
    - `adds` — what this section adds beyond the sections before it;
    - `alternatives` — for a word or construction with several consequential readings: which you retain side by side,
      which you resolve and how, which you exclude and why (omit when there are none);
+   - `brief_mentions` — optional: ids the section mentions in a clause without making them a step;
    - `image` — optional: an image from the Arabic, a cited scene or an explicit analogy that clarifies the argument.
 
 5. **Placement rules**
-   - Every **[dictionary]** member of a backbone hub is placed somewhere: as evidence in a step, as a brief mention,
-     or in Ek Notlar; or rejected for a factual error. Placement does not earn it a paragraph: give each item the
+   - Every **[dictionary]** member of a backbone hub is placed somewhere: as evidence in a step, in a section's
+     `brief_mentions`, or in Ek Notlar; or rejected for a factual error. (An id that appears only in an `image` or
+     `adds` line is not placed.) Placement does not earn it a paragraph: give each item the
      weight its contribution deserves.
    - **The Fatiha** takes part in the argument: in a section of its own when the F items carry it, or as a step.
    - **Grammar that changes how the ayah is read** (case, word order, particles, a missing governing word, verb form,
@@ -102,6 +104,7 @@ steps:
 - 2. …
 adds: <one sentence>
 alternatives: <retained / resolved / excluded, with reasons>
+brief_mentions: <optional ids>
 image: <optional>
 
 ## Section 2: <title>

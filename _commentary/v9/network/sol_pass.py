@@ -36,37 +36,64 @@ def paths(ref: str) -> dict[str, Path]:
             "reading": sol / f"{sa}.reading.tr.md", "work": V9 / "luna" / "work" / sa}
 
 
-def check_plan(p: dict) -> list[str]:
-    """Shape of the argument plan: tensions, question and claim, 4–8 sections each with a claim and 2–6 steps, known
-    ids; every [dictionary] member of a backbone hub placed somewhere (steps, Ek Notlar or Rejected)."""
-    backbone = p["backbone"].read_text(encoding="utf-8")
+ID = r"\b([HLTJGCPMF]\d+(?:\.\d+)?)\b"
+
+
+def plan_blocks(text: str) -> list[tuple[str, str]]:
+    """(heading, bounded content) for every '## ' heading, in order."""
+    parts = re.split(r"^## (.+)$", text, flags=re.M)
+    return [(parts[i].strip(), parts[i + 1]) for i in range(1, len(parts) - 1, 2)]
+
+
+def field(block: str, name: str) -> str:
+    m = re.search(rf"^{name}:[ \t]*(.*)$", block, re.M)
+    return m.group(1).strip() if m else ""
+
+
+def check_plan_text(plan: str, backbone: str) -> list[str]:
+    """Shape of the argument plan, checked block by block: 3–6 tensions; a question and a central claim; 4–8 sections,
+    each with a claim, 2–6 numbered steps and 'adds'; known ids; every [dictionary] member of a backbone hub placed in a
+    step, a brief_mentions line, Ek Notlar or Rejected (an id only in an image/adds/alternatives line is not placed)."""
     ids = set(re.findall(r"\*\*([A-Z]\d+(?:\.\d+)?)\*\*", backbone))
-    plan = p["plan"].read_text(encoding="utf-8")
+    blocks = plan_blocks(plan)
+    by = {h: b for h, b in blocks}
     problems = []
-    if not re.search(r"^## Tensions\s*\n- ", plan, re.M):
-        problems.append("no tensions")
-    if not (re.search(r"^question:\s*\S", plan, re.M) and re.search(r"^## Question and central claim[\s\S]*?^claim:\s*\S", plan, re.M)):
-        problems.append("no question / central claim")
-    sections = re.split(r"^## Section \d+", plan, flags=re.M)[1:]
+    tensions = by.get("Tensions", "")
+    n_t = len(re.findall(r"^- \S", tensions, re.M))
+    if not 3 <= n_t <= 6:
+        problems.append(f"{n_t} tensions (want 3–6)")
+    qc = by.get("Question and central claim", "")
+    if not field(qc, "question") or not field(qc, "claim"):
+        problems.append("no question / central claim in its own block")
+    sections = [(h, b) for h, b in blocks if re.match(r"Section \d+", h)]
     if not 4 <= len(sections) <= 8:
         problems.append(f"{len(sections)} sections (want 4–8)")
-    for i, t in enumerate(sections, 1):
-        t = t.split("\n## ", 1)[0]
-        if not re.search(r"^claim:\s*\S", t, re.M):
-            problems.append(f"section {i}: no claim")
-        n_steps = len(re.findall(r"^- \d+\.", t, re.M))
-        if not 2 <= n_steps <= 6:
-            problems.append(f"section {i}: {n_steps} steps (want 2–6)")
-        if not re.search(r"^adds:\s*\S", t, re.M):
-            problems.append(f"section {i}: no adds")
-    unknown = sorted(set(re.findall(r"\b([HLTJGCPMF]\d+(?:\.\d+)?)\b", plan)) - ids)
+    placed = set()
+    for h, b in sections:
+        if not field(b, "claim"):
+            problems.append(f"{h}: no claim")
+        steps = re.findall(r"^- \d+\.(.*)$", b, re.M)
+        if not 2 <= len(steps) <= 6:
+            problems.append(f"{h}: {len(steps)} steps (want 2–6)")
+        if not field(b, "adds"):
+            problems.append(f"{h}: no adds")
+        for line in steps:
+            placed |= set(re.findall(ID, line))
+        placed |= set(re.findall(ID, field(b, "brief_mentions")))
+    for name in ("Ek Notlar", "Rejected"):
+        placed |= set(re.findall(ID, by.get(name, "")))
+    unknown = sorted(set(re.findall(ID, plan)) - ids)
     if unknown:
         problems.append(f"ids not in the backbone: {', '.join(unknown[:20])}")
     dict_members = set(re.findall(r"\*\*(H\d+\.\d+)\*\* \[dictionary\]", backbone))
-    unplaced = sorted(dict_members - set(re.findall(r"\b(H\d+\.\d+)\b", plan)))
+    unplaced = sorted(dict_members - placed)
     if unplaced:
-        problems.append(f"[dictionary] hub members not placed: {', '.join(unplaced)}")
+        problems.append(f"[dictionary] hub members not placed (steps, brief_mentions, Ek Notlar, Rejected): {', '.join(unplaced)}")
     return problems
+
+
+def check_plan(p: dict) -> list[str]:
+    return check_plan_text(p["plan"].read_text(encoding="utf-8"), p["backbone"].read_text(encoding="utf-8"))
 
 
 def plan(ref: str) -> None:
@@ -75,15 +102,32 @@ def plan(ref: str) -> None:
     text = R.codex(SOL, f"Follow the brief below (sol_plan.md) exactly. Ayah {ref}; S_A = {p['sa']}. The brief, "
                         f"context.md and backbone.md follow in full; return the plan as your final message.",
                    p["sol"] / "plan.log.jsonl", stdin=stdin, last=p["sol"] / "plan.last.txt", sandbox="read-only")
-    parts = R.split_outputs(text, str(p["sa"]))
-    body = parts.get(f"{p['sa']}.plan.md") or text
-    p["plan"].write_text(body, encoding="utf-8")
+    p["plan"].write_text(R.split_outputs(text, str(p["sa"])).get(f"{p['sa']}.plan.md") or text, encoding="utf-8")
     problems = check_plan(p)
+    if problems:  # one bounded repair: a fresh session fixes the listed problems and returns the whole plan
+        print(f"plan: problems: {problems}; repairing once")
+        stdin = R.inline(V9 / "prompts" / "sol_plan.md", p["context"], p["backbone"], p["plan"])
+        text = R.codex(SOL, f"Follow the brief below (sol_plan.md). Ayah {ref}; S_A = {p['sa']}. plan.md (below) is "
+                            f"your earlier plan; a checker found these problems:\n- " + "\n- ".join(problems) +
+                            "\nFix exactly these problems, keep everything else, and return the whole corrected plan as "
+                            "your final message in the brief's output shape.",
+                       p["sol"] / "plan.repair.log.jsonl", stdin=stdin, last=p["sol"] / "plan.repair.last.txt",
+                       sandbox="read-only")
+        fixed = R.split_outputs(text, str(p["sa"])).get(f"{p['sa']}.plan.md")
+        if fixed:
+            p["plan"].write_text(fixed, encoding="utf-8")
+        problems = check_plan(p)
+    body = p["plan"].read_text(encoding="utf-8")
     print(f"plan: {len(re.findall(r'^## Section', body, re.M))} sections; problems: {problems or 'none'}")
+    if problems:
+        sys.exit("plan still invalid after one repair; not writing")
 
 
 def write(ref: str) -> None:
     p = paths(ref)
+    problems = check_plan(p)
+    if problems:
+        sys.exit(f"plan invalid, not writing: {problems}")
     stdin = R.inline(V9 / "prompts" / "sol_write.md", p["context"], p["backbone"], p["plan"])
     text = R.codex(SOL, f"Follow the brief below (sol_write.md) exactly. Ayah {ref}; S_A = {p['sa']}. The brief, "
                         f"context.md, backbone.md and plan.md follow in full; return the reading and the harvest as "
