@@ -478,3 +478,35 @@ Next:
    concordance, bridges/paths, usage profiles, near-synonym contrasts, optional TR/EN
    channels; build a small recall set of known links (HFT outliers, 29:38 eye-film + kohl,
    29:41 second-horse) and measure every change on false negatives.
+
+## V9 lines (agreed 2026-09-25; user + Astra + Opus): scoped Luna discovery → one synthesizer
+
+Why: runs 1–4 on 29:38 showed separate failure points — evidence retrieved → delivered → relationships
+discovered → developed together → preserved in prose. Sol run 4 synthesizes what it gets (latent layer now in the
+body), but 16 of the 20 ayat that carry cold Opus's inter-surah chains never reached Sol (in 09_inter_ayah, not in the
+backbone), and the usage (al-Khūlī induction) evidence was dropped by the network lane. User's 18:86 case: ح م أ
+occurs 4× (15:26, 15:28, 15:33 = one creation episode, three speakers; 18:86 ḥamiʾa, variant ḥāmiya "hot"); the word
+analysis already retrieves the creation cluster but files it as "narrowed" and never relates it to وَوَجَدَ عِندَهَا
+قَوْمًا — retrieval succeeds, development is missing.
+
+Design:
+- Four Luna lines, each defined by an evidence type with a script-built candidate list (Luna fails at open discovery:
+  W0 13 records; V5 global lane used 0/253 rows), one bounded question, records not prose:
+  - local language: dictionary branches, the network's in-ayah links, word analysis (all topics incl. narrowed),
+    variant readings (study/_project_corpus/qiraat.tsv, mapped to QAC words), grammar;
+  - Quranic usage: root family + lemma/form occurrences (QAC), co-occurring roots, surah; question: what patterns and
+    contrasts appear across the occurrences, which are relevant here, what activates them, what limits them
+    (not "dominant usage decides");
+  - surah context: whole surah, HFT, repeated frames, focus roots' surah occurrences;
+  - related passages: inter-ayah rows, same-people passages, formula families, as coherent passages (±1); Luna may
+    propose multi-ayah chains as open records, the synthesizer builds them.
+- Record codes: reading / note / open (missing link stated) / none; separate fields for source support and local
+  relevance; exact excerpts; Luna may add X records beyond the list.
+- Bundle: rank, never filter by Luna's score: developed findings with excerpts, open observations in full, important
+  counterevidence and rejected alternatives one line each.
+- Synthesis arms on identical bundles: (1) Sol one call (connected readings → plan → reading, plan visible and checked
+  after), (2) Opus one pushed call, no tools, (3) Sol plan → Sol write baseline; later (4) Astra one call. Token usage
+  recomputed from logs at official rates.
+- Evaluation per stage (retrieved / delivered / discovered / developed / preserved), supported recovery and
+  unsupported connections, reader usefulness; discovery targets, not preferred conclusions (cold Opus = reference
+  proposals). Develop on 29:38 and 18:86; then several untouched ayat with criteria fixed beforehand.
