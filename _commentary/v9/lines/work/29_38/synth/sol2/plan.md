@@ -1,0 +1,179 @@
+## Connected readings
+
+### R1: İşlenmiş yol ve yanlış okunan yağmur
+reading: Ayette uzaklaştırıldıkları **السبيل**, sözlük çağrışımlarıyla suya çıkan, ayaklarla işlenmiş, eski bir güzergâh gibi belirir. Âd’ın yağmur sandığı bulutun azap çıkması, görünen şeyi doğru okuyamamanın bu yol kaybına nasıl eşlik ettiğini gösterir.
+members: H1.1, H1.2 (= L1.10), H1.3, H1.4, H1.8, L2.1 (= L6.1), T8, S-سبل, R-29:29, R-46:24, R-46:25
+keys: Sözlükler ص د د için “suya giden yol”, ع م ل için “işlek yol” ve “yaya yolcular”, ع و د için “eski yol”, ب ي ن için “iki şey arasındaki mesafe”, س ب ل için “yağmur” kaydeder. Ayette bu köklerin sözcükleri **أعمالهم فصدهم عن السبيل** dizisinde buluşur; 46:24’te Âd yaklaşan bulutu yağmur sanır, 46:25’te geriye yalnız meskenleri görünür. Bu, kelimelerin ayetteki düz anlamlarını değiştiren bir sözlük karşılığı değil, ayetin ve Âd anlatısının etkinleştirdiği kök ilişkileridir. Âd özel adını da “geri dönenler” diye çevirmemek gerekir.
+together: İş, yürüyüş ve yol aynı sahneye girer: hareket edebilecek insanlar, önlerinde bulunan güzergâhtan kendi işlerinin çekiciliğiyle uzaklaşır; bekledikleri suyun görünüşü bile yön tayinlerinde güvenilir çıkmaz.
+weight: core
+excluded: H1.5: “kan izi” için ayette veya bu yıkım sahnelerinde kan izi yoktur; H1.6: deri dikişi ve kalın kenar için ilgili malzeme yoktur; T4: 29:41’deki velîler ve **كانوا يعلمون** kalıbı, **بين** sözcüğünün mekânsal “ara” anlamıyla ayrıca bir üçgen kurmaz.
+
+### R2: Gören gözün önündeki ağ
+reading: **مستبصرين** gerçek bir kavrayış imkânını bildirirken, yol kökünün göz üzerinde örümcek ağına benzeyen perde anlamı ve engelleme kökünün göze sürülen boya anlamı, görmenin nasıl örtülüp süslenebileceğini düşündürür. Yakındaki örümcek evi benzetmesi bu sözlük görüntüsünü ayetin çevresinde yeniden görünür kılar.
+members: H2.1 (= H1.10, T6), H2.2 (= L1.6, L3.4, T1, F26), H2.3, H2.4, L1.1 (= L3.2), T2, T3, S-hft-outlier_webbed_path, U-بصر, R-27:24, R-29:41
+keys: **بين** gözün eriştiği genişlikte araziyi adlandırır; **السبل**, sözlükte kırmızı damarlı, “örümcek dokuması gibi” bir göz perdesidir; **الصُّدود** aynada hazırlanıp göze sürülen boyadır; **عاملة** çalışan uzuv ve uzaktan gözetleyen göz için kullanılır. Ayetin **مساكنهم**, **زين**, **أعمالهم**, **السبيل** ve **مستبصرين** sözcükleri dış görünüş, iş ve iç kavrayışı yan yana getirir; 29:41’in örümceği perde görüntüsüne özgül bağ sağlar.
+together: Uzak araziyi gören göz, işe koşulan göz, boyanan göz ve ağla örtülen göz bir araya gelince ayetin son sözü “gözleri yoktu” açıklamasına kapanmaz: görme imkânı sürerken görünenin değeri yanlış kurulabilir.
+weight: core
+excluded: T2’nin 1:6 ayağı: göz boyası ile Fâtiha’nın yol duası arasındaki benzerlik tek başına kanıt değildir; H2.3’ün ayet içindeki süs ve göz ilişkisi korunur. T3’ün 11:56 ayağı: “canlı” ve ortak Form X biçimi, oradaki canlıyı bu ayetin “çalışan göz”ü yapmaz; H2.4’ün sözlük görüntüsü ayet içinden desteklenir.
+
+### R3: Sessiz meskenin beyanı
+reading: Eskiden sakinleriyle anılan meskenler, sakinleri çekildikten sonra onlar hakkında konuşmaksızın delil taşır. **تبيّن لكم من مساكنهم** ifadesinde açıklık bir anlatıcının sözü olarak değil, evlerden çıkan işaret olarak kurulur.
+members: H1.12, H2.5 (= L4.1, T7), L4.5, L4.6, L4.7, U-بين, U-سكن, S-near, R-14:45, R-27:52, R-29:35, R-29:37, R-29:39, R-46:25
+keys: س ك ن sözlükte “ev halkı”nı; ب ي ن konuşma yanında işaretle anlamı açmayı; ك و ن yer ve konumu da adlandırır. ع و د alanındaki “ne bir söz başlatır ne tekrar eder” suskunluğu, özel adın tercümesi olarak değil, yok olmuş sakinlerin bıraktığı sessizlikle birlikte duyulan bir çağrışımdır. Ayette **قد تبيّن لكم من مساكنهم** tamamlanmış açıklığı doğrudan muhataplara yöneltir; 46:25 Âd’dan yalnız meskenlerin görüldüğünü, 27:52 Semûd evlerinin boş kaldığını söyler.
+together: “Ev halkı” anlamı yokluğu, “işaretle beyan” anlamı kalan yapının delil oluşunu, “suskunluk” görüntüsü de bu delilin sözsüzlüğünü açar. Üçü, meskenleri yalnız bir yıkım dekoru olmaktan çıkarıp muhataba yönelmiş tarihî tanıklık yapar.
+weight: core
+excluded: L4.2: sözlükte ziynet ev eşyasını da kapsar, fakat ayet süslenen nesnenin mesken veya eşya olduğunu söylemez.
+
+### R4: İşin üstüne çekilen güzellik
+reading: Ayet iki görünür kılmayı karşı karşıya getirir: meskenlerden kendiliğinden belirginleşen sonuç ve şeytanın insanların kendi işlerine verdiği çekici görünüş. Sözlükte kusurdan arı güzellik anlamına gelen **زين**, burada görünüşün doğruluk ölçüsü sanılmasının tehlikesini keskinleştirir.
+members: L3.1 (= T5), L1.5, L1.9 (= L5.3), L3.7, G1, G29, G30, G33, G34, S-عمل, U-زين, R-8:48, R-27:24, R-35:8, R-f-زين-عمل
+keys: Sözlük **زين**i kusurun karşıtı gerçek güzellik ve çeşitli bezeklerin adı olarak verir; **شيطان** için çirkin yılan görüntüsünü de kaydeder; **عمل** zihni kavrayışla çalıştırmak için kullanılabilir. Ayette birbirine sesçe yaklaşan **تبيّن / زيّن** fiillerinin failleri ayrıdır: biri meskenlerden açığa çıkan delil, öteki işleri güzelleştiren şeytandır. **فصدهم** sonucu bu süslemenin işlevini bildirir; 29:4 kötü, 29:7 iyi işler için aynı عمل alanını kullanır.
+together: Çirkin kaynak, çekici yüzey, sahibine ait işler ve işletilmesi gereken kavrayış birleşir: sorun “iş” sözcüğünün kendisinde değil, işin nasıl değerlendirildiğinde ve bu değerin insanı nereye götürdüğündedir.
+weight: core
+excluded: T9 (= L5.4): **كِينة سوء** “kötü durumda gece geçirme”yi anlatır; ayette gece veya bu özel durum yoktur. **تبيّن / زيّن** ses yakınlığı bu eksik bağlamı sağlamaz.
+
+### R5: Yakındaki yoldan koparılmak
+reading: Şeytanın adında duyulan uzaklık ve yönünden saptırma, **فصدهم عن السبيل** eyleminde gerçekleşir; yol ortadan kalkmaz, insanlar onunla ilişkilerinden koparılır. Ayrılma, bağ ve engel imgeleri bu kopuşun hem erişilebilir bir yola yakınken hem de insanın fiilleri içinde yaşanabildiğini gösterir.
+members: H1.7, H1.9, H1.11 (= L1.3), H1.13, H1.14 (= L2.4), H1.15, L1.4, L1.7 (= L2.3, L3.5), L1.8 (= L3.6), G32, G35, G36, G37, R-7:16, R-7:74, R-11:59, R-29:40, R-43:37
+keys: ب ي ن hem ayrılık hem tarafları bağlayan ilişki, ayrıca devenin yanından ayrılan bacak veya yayından uzaklaşan kiriş gibi kopma görüntüleri taşır; ص د د karşıda ve yakında bulunmayı, yolu kesen dağı adlandırır; ش ط ن uzaklaşma ve yönünden sapma anlamları taşır; س ك ن alanındaki **سُكّان** gemiyi doğrultuda tutan dümen parçasıdır. Ayetin **عن السبيل** ayrılma edatı ve engelleme fiili bu ilişkileri etkinleştirir; Semûd’un dağ evleri 7:74’te, gemide ve karada değişen yöneliş ise 29:65’te anlatılır.
+together: Yolun yakınlığı, tarafları bağlayan çizgi, o çizgiden sökülme, önüne çıkan dağ ve doğrultuyu tutan dümen, **صدّ**ı salt bilgi eksikliğinden daha somut kılar: eldeki yön terk edilmiş veya engellenmiştir.
+weight: core
+excluded: none
+
+### R6: Tekrarlanan iş ve dönüşün hesabı
+reading: Âd adının ع و د alanıyla yazı ve ses yakınlığı, eski yol, alışkanlık, dönüş yeri ve tekrarlı seferle yıpranmış ama gücü kalmış deve görüntülerini aynı tarihî sahnede toplar. Bu çağrışım, güzelleştirilmiş işlerin alışkanlığa dönüşmesi ile o işlerin gerçek karşılığının dönmesi arasındaki farkı açar.
+members: H1.16 (= L4.4), H1.17 (= L6.4), L2.5, L2.6, L6.2, L6.5, L4.6, F32, S-عود, R-11:61, R-29:40, S-hft-delta_rival_path_and_burden_transfer, S-hft-delta_effort_opens_paths
+keys: ع و د sözlüklerinde **معاد** varış ve dönüş yeri, **عادة** tekrarla yerleşen huy, **عود** tekrarlı seferler sonunda yaşlanmış fakat gücü kalmış deve; aynı kayıtlar Âd’ı eskiye atfedilen bir kavim adı olarak da tanır. ع م ل alanında ücret ve karşılıklı işlem, ك و ن alanında kefil olma bulunur. Ayette Âd, onların **أعمالهم**i ve uzaklaştırıldıkları yol birliktedir; surenin 29:12–13’ü başkasının günahını üstlenme vaadini boşa çıkarır, 29:40 her topluluğu kendi günahıyla ilişkilendirir, 29:58 çalışanların ödülünü anar.
+together: Eski yola tekrar tekrar giden beden ile tekrarlandıkça huy hâline gelen iş aynı hareketin iki yüzünü verir; ücret, işlem ve kefalet anlamları ise “işlerimin dönüşü kime ait?” sorusunu açar. Yanlış yolun çekiciliği, hesabı başkasına devredemez.
+weight: core
+excluded: U-عود ve S-عود içindeki “Âd adı kasten ‘geri dönüş’ demektir” iddiası: özel adın böyle türediği gösterilmemiştir; okuma adın tercümesine değil, sözlük alanı ile surenin dönüş ve hesap örgüsü arasındaki çağrışıma dayanır.
+
+### R7: Basiret ve hidayet duası
+reading: Fâtiha’nın “bizi dosdoğru yola ilet” duası, ayetin “basiretliydiler, yine de yoldan çevrildiler” sonuna cevap veren sürekli bir yöneliştir. Görme, yolu seçip onda yürümeyle aynı şey olmadığı için dua, davranışı da yönlendirecek hidayeti ister.
+members: F1, F5, F25, F26, F27, F31, F32, F36, G10, R-f-بصر-سبل, R-f-بصر-شطن, local_1.X1, S-hft-delta_embodied_inhibition, S-hft-delta_effort_opens_paths, R-7:201, R-43:36
+keys: Fâtiha’nın **صراط**ı ile ayetin **سبيل**i yol alanında buluşur; **مستقيم** ile **مستبصرين** aynı Form X kalıbındaki sıfatlardır ama ayrı nitelikleri söyler. Fâtiha’nın rahmet ve nimet dili, ع و د alanındaki geri dönen yarar ve ش ط ن alanındaki uzaklıkla ilişki kurar; 43:36 Rahmân’ın zikrinden uzaklaşmaya şeytan yoldaşlığını bağlar. Surenin 29:45’i namazın davranışı alıkoyduğunu, 29:69’u çabanın ilahî yollara hidayetle karşılandığını söyler.
+together: Yol, göz, yakınlık ve iş kökleri dua içinde pratik bir bütün olur: insan görmeyi doğru istikamete, istikameti de tekrarlanan işe dönüştürmek için rehberlik ister.
+weight: core
+excluded: none
+
+## Tensions
+- Ayetin başındaki iki isim aynı yıkım dizisine girer, fakat bu cümlede onları yöneten fiil açıkça söylenmez.
+- Meskenlerden delil **لكم** için belirginleşmiştir; **مستبصرين** diye nitelenenler ise geçmişte yoldan çevrilen başka insanlardır.
+- Şeytan işleri güzelleştirip insanları çevirir; 29:40 yine de her topluluğu kendi günahıyla sorumlu tutar.
+- **أعمالهم** ahlaken nitelendirilmemiştir; olumsuz hüküm, süslemenin **فصدهم عن السبيل** sonucuyla belirir.
+- Ayette yol erişilebilir ve tekildir, fakat 29:12’de rakip bir “bizim yolumuz” çağrısı, 29:69’da ilahî “yollarımız” vaadi vardır.
+- Görünüşün doğruluğu ile görme yetisi ayrılır: Âd yağmur beklediği bulutu yanlış okur; ayet onların basiretli durumunu buna rağmen kaydeder.
+
+## Question and central claim
+question: Açık delil ve basiret varken insan nasıl yoldan uzaklaşır; ayet bunu geriye kalan evler, süslenen işler ve yolun sözlük görüntüleriyle nasıl anlatır?
+claim: Ayet yolu yok olmuş bir imkân gibi değil, suya varan eski ve işlek güzergâh gibi duyurur; şeytan insanların kendi işlerini çekici kılarak onları bu güzergâhtan ayırır ve görmenin üstüne ağ gibi bir perde çeker. Artık suskun kalan meskenler, önceki sakinlerin yanlış okuduğu sonucu sonraki muhataplara açar; Fâtiha’nın hidayet duası, bu açıklığı doğru işe ve istikamete dönüştürme ihtiyacını canlı tutar.
+
+## Section 1: Yolun bedeni
+claim: Uzaklaştırıldıkları yol, ayetin köklerinde yürünmüş, suya yönelmiş ve eskiden beri bilinen bir güzergâh olarak somutlaşır.
+develops: R1, R6
+steps:
+- 1. **وعادًا وثمودا** önceki yıkım anlatısına iki mansup ad ekler; 29:37’nin sarsıntısı ve 29:40’ın **فكلا أخذنا بذنبه** özeti onları hükme uğramış örnekler olarak toplar → anlatı, adları hemen **السبيل** sorusuna taşır → yol bu tarihlerin kaybettikleri yön olarak okunur. [G18, G19, G20, G21, R-29:40]
+- 2. **فصدهم عن السبيل**deki iki kökten ص د د “suya giden yol”u, ع م ل “ayakla işlenmiş yol” ve “yaya yolcular”ı adlandırır; ع و د “eski yol”u, ب ي ن aşılacak arayı ekler → iş, yolcu ve güzergâh tek sahnede birleşir → insanların işlerinin güzelleştirilmesi, hareketlerini bilinen yoldan çeviren bir etki olarak duyulur. [H1.1, H1.2, H1.3, H1.4, H1.8, L2.1, L6.1, G33, G35, G37]
+- 3. س ب ل kökündeki yağmur görüntüsü Âd’ın 46:24’te bulutu **هذا عارض ممطرنا** diye adlandırmasıyla somut bağ bulur; bulut azaptır ve 46:25’te yalnız meskenler görünür → beklenen su ile gelen felaket arasındaki fark, görünüşten hüküm çıkarmanın sınırını gösterir → ayetteki yol kaybının yanında bir yanlış okuma sahnesi belirir. [T8, R-46:24, R-46:25]
+- 4. Surenin 29:29’unda Lût kavmi **السبيل**i keser, 29:12’de başkaları **سبيلنا** diye çağırır, 29:69’da Allah **سبلنا**ya hidayet vaat eder → fiziksel geçiş, rakip çağrı ve doğru yön birbirine temas eder → 29:38’in ahlakî yolu, gerçek yolculuk görüntülerini de taşıyabilir. [R-29:29, S-سبل, S-hft-delta_effort_opens_paths]
+adds: Okurun karşısına soyut bir “yoldan sapma” hükmü yerine yürünüp yanlış okunabilen bir güzergâh koyar.
+alternatives: İsimlerin düşmüş yöneticisi “helâk ettik”, “an” veya başka bir fiil olarak kesinleştirilmez; 29:40 yıkım çerçevesini kesinleştirir. Âd adı geri dönüş fiili diye çevrilmez; kök yakınlığı sonraki bölümdeki çağrışımı taşır.
+image: Suya çıkan, ayaklarla aşınmış eski yolun üstünde yağmur sanılan bulut.
+
+## Section 2: Gözün önündeki dokuma
+claim: Basiretli olma hâli, işlerin çekici görünüşünün algıyı yönlendirmesine ayette engel olmamıştır.
+develops: R2, R7
+steps:
+- 1. **تبين لكم من مساكنهم** dışarıdaki yeri muhatabın önüne açar, **مستبصرين** iç kavrayışı geçmiş insanlara yükler; ب ي ن sözlükte gözün erdiği genişlikte araziyi de adlandırır → görülen arazi ile onu anlamlandıran göz ayrı aşamalardır → ayet delilin görünürlüğünü doğru yönelişle eşitlemez. [H2.1, H1.10, T6, G24, G25, G40]
+- 2. السبل adlı göz hastalığı sözlükte kırmızı damarlı, “örümcek dokuması gibi” perdedir; ayetten üç ayet sonra 29:41 örümceğin evini kurar → aynı kökün yol ve göz-perdesi alanları, ayetin basiret sonuyla yerel bir görüntüde buluşur → **فصدهم عن السبيل** görebilenlerin görüşünün örtülmesini de düşündürür; **السبيل**in sözlük anlamı “göz perdesi” yapılmaz. [H2.2, L1.6, L3.4, T1, F26, R-29:41]
+- 3. ص د د kökündeki aynada hazırlanıp göze sürülen boya, ع م ل kökündeki “iş gören uzuv” ve uzaktan gözetleyen gözle yan yana gelir; ayette şeytan **أعمالهم**i süsler ve insanlara **مستبصرين** denir → göz hem çalışabilir hem boyanabilir → yapılan işlerin görünüşünü beğenmek, onları doğru görmekle karıştırılabilir. [H2.3, H2.4, T2, T3, G29, G33]
+- 4. 27:24 ayetin süsleme ve çevirme dizisini kelimesi kelimesine izleyip **فهم لا يهتدون** ile biter; 29:38 aynı diziyi **وكانوا مستبصرين** ile kapatır → ikinci bitiş, yönsüzlüğe basiret paradoksunu ekler → ayetin son sözü hafifletilmeden okunmalıdır. [R-27:24, U-بصر, G38, G39, G40]
+adds: Yol kaybını, dış kanıtın yokluğu yerine algının ve değerin nasıl kurulduğu üzerinden açıklar.
+alternatives: **مستبصرين** için “yalnızca kendilerini öyle sanıyorlardı” okuması 43:37’deki **ويحسبون** ile karşılaştırma olarak tutulabilir; ayette böyle bir sanma fiili bulunmadığından ana okuma sahip oldukları kavrayış imkânıdır.
+image: Uzaktaki araziye bakan, yüzeyi boyalı ve önünde ince bir ağ bulunan göz.
+
+## Section 3: Sakinleri gitmiş evlerin sözü
+claim: Ayet, geçmişin meskenlerini sonraki muhataplara ulaşan sözsüz bir açıklama kaynağı yapar.
+develops: R3
+steps:
+- 1. **وقد تبين لكم من مساكنهم**da **قد** ve tamamlanmış fiil açıklığın gerçekleştiğini, **لكم** onun kime yöneldiğini, **من** nereden çıktığını bildirir → muhataplar, adları sayılan insanların yerini delil olarak okumaya çağrılır → meskenler süsleyici arka plan değildir. [G22, G23, G24, G25, G26, G27, L05, L08, L09]
+- 2. س ك ن kökündeki “ev halkı” ile **مساكنهم**in iyelik eki bir zamanlar orada bulunanları hatırlatır; 46:25 Âd’dan yalnız evlerin görüldüğünü, 27:52 Semûd evlerinin boş kaldığını söyler → evin adı sahibini korur, ev sahibi artık görünmez → kalıntının delili bu birlikte anılma ve ayrılmadan doğar. [H1.12, L4.6, U-سكن, R-46:25, R-27:52]
+- 3. ب ي ن alanındaki beyan konuşmadan daha geniştir, işaretle de anlam açar; ع و د alanındaki “ne söz başlatır ne tekrar eder” suskunluğu, görünmeyen sakinlerin ardından kalan yere eşlik eder; 14:45 meskenlerle **تبين لكم**u birlikte söyler → suskun evin tarih hakkında açık bir işaret olması mümkün olur → ayet okuyucuya yalnız bakmayı değil, görüneni hükme bağlamayı yükler. [H2.5, L4.1, L4.5, T7, R-14:45]
+- 4. 29:35’te Lût kentinden açık işaret kalır, 29:37’de Medyen halkı kendi evinde yere yığılır, 29:39’da Mûsâ açık deliller getirir → 29:38’deki evler, surenin görünen ve bildirilen deliller zincirinde durur → ayetin **تبين** fiili yerel bir tema taşır. [S-near, R-29:35, R-29:37, R-29:39, U-بين]
+adds: İlk iki bölümün yol ve göz imgelerine, onları sonradan okuyan muhatabın tarihî delilini ekler.
+alternatives: **من** kaynağı veya delilin bir kısmını gösterme inceliğiyle okunabilir; iki durumda da mesken ile açıklık arasındaki ilişki korunur. Muhatapların her birinin evleri bizzat gezdiği ileri sürülmez.
+image: Sahiplerinin adıyla anılan, artık onların yerine tanıklık eden ev.
+
+## Section 4: İşlerin değiştirilmiş yüzü
+claim: Şeytanın müdahalesi insanların kendi işlerini güzel göstermesidir; ayet bu görünüşün yön seçimini değiştirdiğini **فـ** ile belirtir.
+develops: R4, R2
+steps:
+- 1. **تبين** ile **زين** sesçe yaklaşır fakat ayette ilkinde açıklık meskenlerden belirir, ikincisinde şeytan fail olarak işleri güzelleştirir → iki farklı “görünür kılma” biçimi karşılaşır → okur açık delil ile çekici sunumu ayırmalıdır. [G1, G24, G29, H2.5]
+- 2. Sözlükte **زين** kusurun karşıtı gerçek güzelliği de bildirir; sure 29:4’te kötü, 29:7’de iyi işlerden söz eder, ayette ise **أعمالهم**i nitelemez → işlerin beğenilmesi onların iyi olduklarını kanıtlamaz → olumsuz değer, süslemenin yol kaybına varmasından ve 35:8’in kötü işi güzel görme sahnesinden anlaşılır. [L3.1, T5, S-عمل, R-35:8]
+- 3. Ziynetin türlü süsleri kapsaması ve “şeytan” adının sözlükte çirkin bir yılana da verilmesi, güzel yüzün hangi kaynaktan yapıldığını çarpıcı kılar; 8:48’de şeytan işlere güven verip tehlike belirince geri çekilir → cazibe, güvenilir bir hüküm değildir → bu ayette de süslenen şey onların kendi işleridir. [L1.5, L1.9, L5.3, R-8:48, G33]
+- 4. **لهم** süslemenin alıcısını, **أعمالهم** işlerin sahibini, **فصدهم** aynı insanların uğradığı sonucu ayırır; “zihni işleterek kavrama” anlamı da عمل alanında bulunur → kavrayışın bulunması, onun işler hakkında kullanılmasını garanti etmez → güzelleştirme eylemi bu aralığı kullanır. [L3.7, G30, G31, G33, G34, L12, L13, L16]
+adds: Görme paradoksuna nedensel düzen verir: işin yüzü değiştirilir, ardından insanın yolu değişir.
+alternatives: **أعمالهم** “bütün işleri kötüydü” diye genişletilmez; 27:24’ün aynı formülü bu ayetin özgül **مستبصرين** bitişini açıklamak için karşılaştırılır, olaylar birleştirilmez.
+image: Gerçek niteliği ölçülmeden parlatılmış bir işin yüzeyi.
+
+## Section 5: Bağdan uzaklığa
+claim: Engelleme, mevcut yolu silmekten çok insanı ona bağlayan yönü koparır; şeytanın uzaklık alanı ve **عن** edatı bunu birlikte duyurur.
+develops: R5, R1
+steps:
+- 1. **فصدهم عن السبيل**de insan nesnedir, yol **عن** ile ayrıldığı hedeftir; ش ط ن alanı uzaklaşma ve amaçlanan yönden sapmayı kaydeder → şeytanın adı ile yaptığı iş aynı hareketi kurar → ayet yolu görünmez saymadan insanın ondan uzaklaştırılışını anlatır. [L1.7, L1.8, G32, G35, G36, G37]
+- 2. ب ي ن hem ayrılmayı hem iki tarafın bağını bildirir; deve bacağının yanından veya yayın kirişinden ayrılması somut bir kopuştur → yol, insanı varacağı yere bağlayan çizgi olarak duyulur → **عن السبيل** o çizgiden çözülme hâlini keskinleştirir. [H1.7, H1.9, H1.11, L1.3]
+- 3. ص د د alanında “karşıda, yakında” ile “yolu kesen dağ” birlikte bulunur; Semûd’un dağdan ev yontması 7:74’te anlatılır → yol yakınken engel de büyük olabilir → dağ görüntüsü ahlakî engellemeyi duyurur, ayetin fiziksel bir dağı anlattığı iddia edilmez. Tarihî yıkımın kesinliği, “geri dönüşü kesen ayrılık” görüntüsünü de yerleştirir. [H1.14, H1.15, L1.4, R-7:74, R-29:40]
+- 4. س ك ن alanındaki gemiyi doğrultuda tutan **سُكّان**, surenin 29:65’inde gemide samimiyetle Allah’a yönelip karada ortak koşan insanların yön değişimiyle buluşur → insanın bir yönde bulunması o yönü sürekli koruduğunu göstermez → ayetin basireti de sürdürülen istikamet sorusunu açar. [H1.13, S-hft-delta_state_dependent_salience]
+- 5. 11:59 Âd’ın zorba buyruğu izlediğini, 29:40 her topluluğun kendi günahıyla alındığını söyler → şeytanın çevirmesi insanın izlediği emir ve yaptığı işlerle iç içedir → dış etkenin adı sorumluluğu devretmez. [R-11:59, R-29:40]
+adds: Süslemenin sonuç verdiği noktayı, erişilebilir yol ile kopmuş bağ arasındaki somut fark olarak gösterir.
+alternatives: Şeytan adının ش ط ن ile ilişkisi sözlük çağrışımı olarak kullanılır; ayetin kasıtlı bir etimoloji oyunu kurduğu zorunlu kılınmaz.
+image: Karşıda duran yol, önündeki dağ ve doğrultusu elden çıkan gemi.
+
+## Section 6: Dönüş kime ait?
+claim: Eski yola dönme imkânı ile eski işe tekrar tekrar dönme alışkanlığı ayrılır; hesap, işin sahici karşılığını sahibine geri verir.
+develops: R6, R3
+steps:
+- 1. Sözlükte **عود** eski yol, tekrarın yerleştirdiği huy, dönülecek yer ve seferlerle yaşlanmış fakat gücü kalmış devedir; ayet Âd adını, işleri ve yolu bir araya getirir, surenin 29:19’u yaratılışın yeniden getirilişini anar → adın çevresinde dönüş ve tekrar çağrışımı etkinleşir → soru, aynı davranışı yinelemekle doğru yola dönmenin aynı olup olmadığıdır. [H1.4, H1.16, H1.17, L6.2, L6.4, S-عود]
+- 2. “İşlek yol” ve “yaya yolcular” görüntüsüne, eski devenin tekrar tekrar yürüyüp hâlâ güç taşıması eklenir → alışkanlık insanı hareketli tutarken yanlış güzergâhı da derinleştirebilir → **أعمالهم**in çekiciliği bir defalık yanlış görünüşten yerleşik pratiğe uzanır. [H1.2, H1.3, L6.2, H1.17, G33]
+- 3. عمل alanındaki ücret ve karşılıklı işlem, ك و ن alanındaki kefalet, 29:12’nin “yolumuza uyun, hatalarınızı taşıyalım” vaadinde sınanır; 29:13 yükün devredilmediğini, 29:40 her birinin kendi günahıyla alındığını söyler → cazip alışveriş gerçek hesabı değiştirmez → şeytanın süslediği iş yine onu yapanların işidir. [L2.5, L2.6, L6.5, S-hft-delta_rival_path_and_burden_transfer, R-29:40]
+- 4. Mesken dönüş yeri çağrışımı taşır, fakat ayette eski sakinleri yerine kalan evler konuşur; 11:61 Semûd’a Allah’a dönme çağrısını, 29:58 çalışanların iyi karşılığını verir → tarihî eve dönüş ile doğru merciye yöneliş ayrılır → yıkıntı, işin hangi dönüşe hazırlanması gerektiğini sorar. [L4.4, L4.5, R-11:61, F32]
+adds: Yoldan ayrılmanın zaman boyutunu, alışkanlık ve hesabın kime döneceği üzerinden kurar.
+alternatives: Âd özel adının “dönüş” anlamına geldiği veya eski devenin bu topluluğu simgelediği söylenmez; ortak kökün sözlük görüntüleri ayetin iş, yol ve hesap örgüsüne bağlanır.
+image: Çok yol görmüş deve ve artık içine dönülecek sakinleri kalmamış ev.
+
+## Section 7: Görmekten yürümeye
+claim: Fâtiha’nın tekrarlanan hidayet isteği, ayette ayrışan delil, basiret ve davranışı aynı yönde tutma talebine dönüşür.
+develops: R7, R1, R2, R5, R6
+steps:
+- 1. Fâtiha 1:6–7’de topluluk **اهدنا الصراط المستقيم** der; ayet de bir topluluğun **عن السبيل** çevrildiğini bildirir → iki yol sözcüğü yakın anlam alanında buluşur → basiretin bulunması, hidayet istemeyi gereksiz kılmaz. [F25, F31, local_1.X1, G37, G40]
+- 2. **مستقيم** ile **مستبصرين** aynı Form X sıfat biçimini paylaşır; biri yönün doğruluğunu, diğeri görme ve kavrayışı söyler. Gözün ağ gibi perdesi görüntüsü bu farkı elle tutulur kılar → kişi görebilir, fakat yönü tutmak için ayrıca hidayete ihtiyaç duyar. [F26, F27, G10, H2.2, R-f-بصر-سبل]
+- 3. Fâtiha’nın Rahmân’a yönelişi ile ش ط ن alanındaki uzaklaşma, 43:36’da Rahmân’ın zikrinden yüz çevirene şeytanın yoldaş oluşuyla özgül bağ bulur; **غير** ayrımı da ayetin kopuş görüntüsünü hatırlatır → dua, kiminle bağ kurulacağını ve kimden uzaklaşılacağını sorar → yol yalnız görülen çizgi değil, sürdürülen ilişkidir. [F1, F5, F36, R-43:36, H1.7, H1.9, L1.7]
+- 4. 7:201 şeytan dokunduğunda hatırlayıp yeniden görenleri anlatır; sure 29:45 namazın kötü işten alıkoyduğunu, 29:69 çabalayanların ilahî yollara iletileceğini söyler → dua, hatırlama ve eylem kavrayışı işler hâle getirir → okur meskenlerden çıkan açıklığı kendi işlerinin yönüyle sınar. [R-7:201, R-f-بصر-شطن, S-hft-delta_embodied_inhibition, S-hft-delta_effort_opens_paths]
+adds: Tarihî örneğin bugünkü okur için taşıdığı sorumluluğu, surenin namaz ve çaba ayetlerinin kazandırdığı zeminde tamamlar.
+alternatives: Fâtiha’nın **صراط**ı ayetteki **سبيل**in birebir tekrarı değildir; Âd ve Semûd, Fâtiha 1:7’deki gruplarla özdeşleştirilmez.
+image: Her namazda yeniden istenen yol ile onu görmüş olduğu hâlde terk edenlerin evlerinden kalan işaret.
+
+## Kapanış
+Ayetin eski ve işlek yolu hâlâ düşünülebilir; kaybolan, insanların işlerini değerlendirirken o yola bağlı kalmalarıdır. Süslenmiş işlerin ardından geriye kalan meskenler, sahiplerinin göremediği sonucu sonraki gözlere açar. Okur ayete döndüğünde **مستبصرين** sözünü güvence olarak değil, görüleni doğru yöne ve işe bağlama sorusu olarak işitir.
+
+## Ek Notlar
+- L1.2, F29: ب ص ر alanındaki kalkan ve zırh görüntüsü, basiretin tek başına yıkımdan korumadığını 29:40 ışığında düşündürür; göz-perdesi birleşiminin yanında ikincil kalır.
+- L5.2, R-2:61: س ك ن alanındaki düşkünlük ve güçsüzlük, 41:16’nın Âd için andığı aşağılayıcı sonla birlikte güzelleştirilmiş işin vardığı hâli düşündürür; **مساكن**in düz anlamı bu değildir.
+- R-17:59: Semûd’a verilen devenin **مبصرة** bir işaret diye nitelenmesi, ayette insanların **مستبصرين** oluşuyla işaretin görünürlüğü ve cevabın doğruluğunu ayırır.
+- R-40:37: Hemen sonraki ayette adı geçen Firavun için başka yerde “kötü işi süslendi ve yoldan çevrildi” denir; edilgen kuruluş, 29:38’de şeytanın açıkça adlandırılmasını belirginleştirir.
+- R-26:128, R-26:149: Âd’ın yapıları ve Semûd’un dağ evleri, **مساكنهم**e maddi ayrıntı katar; ayet **أعمالهم**i yalnız bu yapılara indirmez.
+
+## Harvest
+- H1.5, F7, F34: “Kan izi” ve kan bedeli eşleşmeleri için ayetin meskenlerinde veya ilgili anlatılarda kan belirtisi yoktur.
+- H1.6, F9, F20, F35: Kalın deri ve iki parçayı diken ek görüntüsünü etkinleştirecek deri, dikiş veya çadır ayrıntısı yoktur.
+- T4, F19, F21, F22, F23, F30: **بين**in ara ve bağ anlamları R1 ile R5’te kullanılır; bu kayıtların Fâtiha’daki orta yaş, güç veya sallanarak yürüme uçları ayrıca desteklenmez.
+- T9, L5.4: “Kötü durumda gece geçirme” için gece koşulu eksiktir; ses benzerliği yeterli değildir.
+- T10: ص د د alanındaki türü tartışmalı küçük hayvana ayette karşılık yoktur; 11:56’nın genel **دابة**si ve biçim benzerliği bağı kurmaz.
+- L4.2, F18, F24: Ziynetin ev eşyası veya dünyevî mal olması mümkün bir alan olsa da bu ayet süslenen nesneyi yalnız **أعمالهم** diye belirtir.
+- L02, L04: Âd ile Semûd’un çekim sonu farkı görülür; Semûd için bildirilen tenvin varyantının bağımsız kıraat kaynağı ve bunun anlamı değiştirdiğine dair delil yoktur.
+- U-عود, S-عود: Adın kökten kasıtlı bir “dönüş” cinası olduğu çözümlenmemiştir; R6 sözlük ve sure bağlamıyla etkinleşen ses ve kök çağrışımını kullanır.
+- F2, F3, F4, F6, F10, F11, F12, F13, F14, F15, F16, F17, F28, F33: Fâtiha sözcüklerine kurulan uzak sözlük eşleşmeleri, yol ve basiret duasının doğrudan ilişkisinin ötesinde belirleyici ayet içi tetikleyici taşımaz.
+- R-15:80, R-15:81, R-15:82, R-15:83: Verilen satırlar **أصحاب الحجر**i Semûd diye açıkça adlandırmaz; Semûd evleri için 7:74 ve 27:52 doğrudan delil sağlar.
+
+## Rejected
+- S-hft-outlier_webbed_path: “**سبيل** sözcüğü göz perdesi anlamına gelir” biçimindeki düz anlam önerisi farklı biçimleri karıştırır; sözlükte hastalığın adı **السبل**dir. R2, aynı kökün ayet ve 29:41 ile etkinleşen çağrışımını korur.
