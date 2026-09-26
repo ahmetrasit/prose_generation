@@ -1,0 +1,1590 @@
+# Package for 1:3
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### 3. Luna hubs (second tier) [L]
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+### 5. Triangles [T]
+
+
+### 6. Bridges (touch two hubs) [J]
+
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** word note: 1:3:1 ٱلرَّحْمَٰنِ: definite divine mercy-name in genitive apposition, carrying broad overflowing mercy and continuing the praise-lordship chain from 1:2 — topics: genitive apposition carries the prior ayah forward; definite proper-name register; overflowing mercy specifies lordship as care; womb a…
+- **G2** word note: 1:3:2 ٱلرَّحِيمِ: definite divine mercy-name in the same genitive pair, carrying enduring and directed mercy as the closing counterpart to the prior breadth — topics: second definite genitive in the same chain; stable mercy lands after breadth; shareable adjective field under a divine name; closure…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+2 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L01** [reading; support strong, relevance high] word 1: ٱلرَّحْمَٰنِ — lemma رَّحْمَٰن, root ر ح م, pos DET;ADJ
+  - finding: ٱلرَّحْمَٰنِ in the genitive continues the divine-epithet chain after رَبِّ ٱلْعَٰلَمِينَ, hearing mercy as a specification of the lordship just praised. The pair’s return at 1:3 after its appearance in the basmala frames the praise in 1:2 with mercy.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: Its genitive form follows رَبِّ, and the exact pair recurs just after 1:2.
+  - limits: The shared genitive does not decide whether ٱلرَّحْمَٰنِ attaches directly to اللَّهِ or to رَبِّ; these verses alone do not establish a distinct 'overflowing' sense from its form.
+- **L02** [reading; support strong, relevance high] word 2: ٱلرَّحِيمِ — lemma رَّحِيم, root ر ح م, pos DET;ADJ
+  - finding: ٱلرَّحِيمِ closes the definite genitive pair, repeating the root of ٱلرَّحْمَٰنِ in a different derived pattern. Its final position completes the mercy pair before مَٰلِكِ يَوْمِ ٱلدِّينِ continues the divine-epithet chain.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The shared root, changed pattern, matching definiteness and case, and sequence into 1:4 give the second word both a pairing role and a closing position.
+  - limits: The form difference does not by itself establish the specific contrast 'enduring and directed' mercy; that needs comparative Quranic usage or dictionary evidence for these forms. Case alone also does not settle whether ٱلرَّحِيمِ apposes ٱلرَّحْمَٰنِ or attaches directly to اللَّهِ.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+2 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-رحم** [reading; support medium, relevance high] root ر ح م (focus word ٱلرَّحْمَٰنِ: رَّحْمَٰن ADJ) — 339 occurrences in 313 ayat; same form 12, other forms 327
+  - finding: In 25:63, ٱلرَّحْمَٰنِ names a community of servants who walk humbly and answer ignorance with peace; in 43:36, it is the name one may turn away from remembering. Since the paired name ٱلرَّحْمَٰنِ ٱلرَّحِيمِ in 1:3 leads into the communal declaration إِيَّاكَ نَعْبُدُ in 1:5, the title can be heard as grounding both belonging and remembrance before worship.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 25:63 «وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًۭا»; 43:36 «وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - activation: The pair at 1:3 and the plural worship declaration at 1:5 activate these uses of the name in communal belonging and remembrance.
+  - limits: These passages do not identify al-Fatiha’s worshippers with the servants described in 25:63 or show that 1:3 prescribes their conduct.
+- **usage_1.X1** [reading; support medium, relevance high] 
+  - finding: The same basmala pair appears in Sulayman’s letter at 27:30, introduced as a message from Sulayman. Al-Fatiha repeats the pair at 1:1 and again at 1:3, immediately before 1:4 names the Malik of Judgment; this lets ٱلرَّحْمَٰنِ resonate in a register of address and sovereignty as well as praise.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 27:30 «إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The exact formula recurs in the royal letter, and in al-Fatiha the repeated pair directly precedes the reference to divine kingship.
+  - limits: The shared formula does not establish an allusion to Sulayman’s letter; that passage has a human royal sender, while 1:4 names divine rule.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+15 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-رحم** [reading; support strong, relevance high] root ر ح م elsewhere in the surah (1)
+  - finding: The wording repeats 1:1 verbatim, making the mercy pair a refrain that returns after praise of Allah and carries the opening invocation into the praise sequence.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The exact pair occurs first within the invocation and then again after ٱلْحَمْدُ لِلَّهِ.
+  - limits: The recurrence establishes a frame, but does not by itself make mercy the only quality through which Allah is known.
+- **S-hft-d-name-discloses-mercy** [reading; support strong, relevance high] (context_delta)
+  - finding: The pair first accompanies بِسْمِ ٱللَّهِ and then returns after the praise of Allah, so the invocation’s mercy names are renewed within the surah’s description of the one praised.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The exact repetition links the naming construction in 1:1 with the praise chain in 1:2–3.
+  - limits: The framing makes mercy a prominent disclosure of divine identity, without establishing that it is the exclusive disclosure.
+- **S-hft-d-mercy-frames-accounting** [reading; support strong, relevance high] (context_delta)
+  - finding: The mercy pair immediately precedes مَٰلِكِ يَوْمِ ٱلدِّينِ, placing mercy before the surah names ownership and the day of recompense.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: Their adjacency makes the mercy names the prior frame for the account of rule and recompense.
+  - limits: This order does not say that mercy cancels judgment or determine how judgment is administered.
+- **S-near** [reading; support medium, relevance high] the surrounding passage (±7)
+  - finding: The pair stands between رَبِّ ٱلْعَٰلَمِينَ and مَٰلِكِ يَوْمِ ٱلدِّينِ; after this praise sequence, the speaker turns to إِيَّاكَ نَعْبُدُ. Mercy thus marks the passage from universal lordship and reckoning to communal address.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - activation: The pair is placed between descriptions of Allah and immediately before the prayer turns to direct address.
+  - limits: The sequence establishes a rhetorical transition, not that mercy determines the outcome of judgment or causes the worship that follows.
+- **S-hft-b-mercy-double-register** [reading; support medium, relevance high] (baseline_model)
+  - finding: The shared root appears in two distinct forms: ٱلرَّحْمَٰنِ can suggest plenitude, while ٱلرَّحِيمِ can suggest enduring beneficence. Together they allow a movement from mercy’s breadth to its continuance.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:1 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The same two forms recur in the same order, making their morphological difference audible within a repeated pair.
+  - limits: The forms support a difference of quality, but do not mark a literal temporal sequence or prove that the two senses are exclusive.
+- **S-hft-d-mercy-enables-dependent-service** [reading; support medium, relevance high] (context_delta)
+  - finding: After the mercy names, the speaker addresses Allah directly as “you,” joining worship to a plea for aid; the sequence presents service and dependence within the same relation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - activation: The repeated إِيَّاكَ and the first-person plural verbs turn the preceding praise into direct address and response.
+  - limits: The order supports a relational reading, but does not establish that mercy causes the worship or that the relation is specifically kinship.
+- **S-hft-d-mercy-guides-and-maintains** [reading; support medium, relevance high] (context_delta)
+  - finding: The mercy pair precedes the petition ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ, placing the request for a straight path after the naming of mercy and allowing guidance to be heard as its practical continuation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The later imperative asks for direction along a specified path, following the praise sequence that includes the mercy pair.
+  - limits: The sequence does not equate the mercy names with guidance or establish ongoing protection of the traveler.
+- **S-hft-d-mercy-softens-against-loss** [open; support medium, relevance high] (context_delta)
+  - finding: The mercy names precede a request for guidance and a distinction between those granted favor, those under anger, and those who stray; this makes a preserving-mercy contrast possible.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: The passage gives the path, favor, anger, and straying, but not a direct link between them and mercy as softness or preservation. Lexical or Quranic evidence for those specific contrasts could decide whether that model fits.
+- **S-hft-b-mercy-as-kinship** [open; support weak, relevance high] (baseline_model)
+  - finding: The kinship sense associated with ر ح م could make the mercy pair name a bond that underlies the later service and plea for help.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - missing: A dictionary sense or Quranic usage connecting these divine mercy adjectives to kinship, plus a kinship cue in this surah, would establish the proposed bond; 1:5 shows dependence and service but names no kin relation.
+- **S-hft-b-mercy-as-womb** [open; support weak, relevance high] (baseline_model)
+  - finding: The root’s womb association could make the pair evoke mercy as an enclosing, life-sustaining condition; رَبِّ ٱلْعَٰلَمِينَ offers a possible world-scale setting for that image.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - missing: A dictionary or Quranic usage showing that the womb sense carries into these derived mercy names, or a local image of enclosure, birth, or nourishment, could substantiate the extension; this passage supplies no such image.
+- **S-hft-d-mercy-as-nurturing-rule** [open; support weak, relevance high] (context_delta)
+  - finding: Placed after رَبِّ ٱلْعَٰلَمِينَ, the mercy pair can specify the manner of universal lordship as beneficent care; the proposed womb-like formation of worlds extends beyond what this sequence states.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - missing: A dictionary or Quranic usage supporting the specific links to womb-like formation, feeding, repair, and manifest completion would be needed; the nearby words name lordship, worlds, and praise but no developmental process.
+- **S-hft-o-mercy-as-visible-mark** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The pair’s repetition within an invocation that names Allah and then within the praise sequence could make mercy a recognizable signature of the named deity.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - missing: A dictionary sense of ٱسْم as a sign or visible mark, or Quranic examples where a name functions that way, could support the proposed mark; the surah gives no ambiguous acts for that mark to identify.
+- **S-hft-o-mercy-enters-the-ledger-as-kinship** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The adjacent day of recompense activates a possible ledger sense of ٱلدِّينِ; combined with a kinship reading of mercy, this could make mercy an obligation-bearing relation at accounting.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - missing: Dictionary or Quranic evidence linking ٱلدِّينِ here to debt, and linking the mercy names to a kinship claim, would establish the proposed ledger relation; the surah itself names recompense but no debt or kinship.
+- **S-hft-o-womb-pathway-delivery** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The womb association of mercy could be joined to ٱلصِّرَٰطِ as a passage and ٱلْمُسْتَقِيمَ as uprightness, yielding a possible image of costly transit toward independent standing.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: Lexical evidence for a transit or swallowing sense of ٱلصِّرَٰطِ, together with Quranic or dictionary evidence connecting the womb sense to the mercy pair and to upright arrival, could support the proposed delivery pattern.
+- **S-hft-o-mercy-as-soothing-performance** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The recited pair returns after the basmala and precedes the later plea for guidance, suggesting a possible performative role in settling the speaker before the request.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: Evidence about the pair’s recitational cadence or Quranic usage linking ه د ي with rocking or calming would be needed to substantiate the soothing mechanism; this text establishes recurrence and a later guidance request, not the emotional effect.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+230 readings and open observations, 9 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 13}.
+
+- **R-1:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The pair in 1:3 repeats the basmala verbatim, now after praise of Allah as Lord of all worlds; the names move from invocation into the praise sequence.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The same two names return immediately after 1:2’s praise and lordship.
+  - limits: The sequence places the names in a new setting but does not state an explicit causal link to praise.
+- **R-1:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The genitive sequence carries praise from Allah to Rabb al-ʿālamīn, al-Rahman al-Rahim, and Malik of the Day of Recompense; the mercy names qualify the Lord before the judgment title.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The case endings and uninterrupted order connect the focus to the lordship named in 1:2 and the title in 1:4.
+  - limits: The sequence does not distinguish which mercy quality belongs to which aspect of lordship.
+- **R-1:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Day of Recompense follows directly after the mercy names, placing judgment within the same divine portrait as mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The titles form one continuous sequence before the prayer begins.
+  - limits: Their order does not say how mercy affects any person’s judgment.
+- **R-2:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: After Adam receives words and God turns to him, ٱلرَّحِيمُ closes التَّوَّابُ الرَّحِيمُ; the focus’s final name thus has a Quranic association with divine response after a fall.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:37 «فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٍۢ فَتَابَ عَلَيْهِ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: The exact epithet ٱلرَّحِيمُ follows the account of Adam’s return.
+  - limits: This passage adds التَّوَّابُ and describes a particular repentance scene; it does not define every use of ٱلرَّحِيمُ.
+- **R-2:54** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the calf episode and a severe communal call to repentance, the formula ends with ٱلتَّوَّابُ ٱلرَّحِيمُ; here Rahim accompanies acceptance after collective breach and reparation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:54 «فَتَابَ عَلَيْكُمْ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: The focus shares its closing name with the epithet following فَتَابَ عَلَيْكُمْ.
+  - limits: The episode’s specific command and outcome do not define the focus pair as a whole.
+- **R-2:105** [reading; support strong, relevance high] inter-ayah target
+  - finding: The mercy root appears in a statement that God singles out whomever He wills for His mercy, making selective bestowal one Quranic articulation of the focus’s mercy field.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:105 «وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ»
+  - activation: The focus’s two names share the root of بِرَحْمَتِهِۦ.
+  - limits: This verse concerns a specific dispute over what is sent down; it does not state that the focus names are exclusive in scope.
+- **R-2:128** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham and Ishmael’s plea for submission, rites, and turning back ends by naming God التَّوَّابُ الرَّحِيمُ; the focus’s Rahim also appears in a prayer for communal return.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:128 «وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: The prayer’s request تُبْ عَلَيْنَآ immediately precedes the shared epithet.
+  - limits: The verse does not say that the focus pair is limited to repentance or prayer.
+- **R-2:143** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the qibla passage, Allah promises not to waste the community’s faith and is called رَءُوفٌ رَّحِيمٌ; Rahim also appears with a different companion in a setting of communal direction and trial.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:143 «وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: The shared final epithet appears after a change of qibla and a statement about preserving faith.
+  - limits: The verse gives no explicit definition of the difference between رَءُوف and رَحْمَٰن.
+- **R-2:160** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exception for those who repent, reform, and clarify ends with وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ; Rahim is linked here to return joined with repair and disclosure.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:160 «إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: The epithet follows three specified acts after concealment.
+  - limits: This is one context for Rahim and does not reduce the focus name to forgiveness.
+- **R-2:163** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact pair follows the declaration that there is no deity but Him; in this passage, the mercy names belong to the confession of the one God.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:163 «وَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ»
+  - activation: The focus pair recurs verbatim after a statement of divine oneness.
+  - limits: The passage does not explain how the two names differ from one another.
+- **R-2:192** [reading; support strong, relevance high] inter-ayah target
+  - finding: When the opposing party ceases, the verse names God غَفُورٌ رَّحِيمٌ; Rahim appears in a conditional setting of ending hostilities.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:192 «فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The conditional cessation directly precedes the shared mercy epithet.
+  - limits: The verse does not equate this conditional response with the focus pair’s full meaning.
+- **R-2:218** [reading; support strong, relevance high] inter-ayah target
+  - finding: Believers who believe, migrate, and strive hope for Allah’s mercy, followed by غَفُورٌ رَّحِيمٌ; mercy is sought amid costly commitment.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:218 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَٰٓئِكَ يَرْجُونَ رَحْمَتَ ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The verse uses both the mercy root and the Rahim epithet present in the focus.
+  - limits: The verse describes hope for mercy; it does not state that these actions guarantee a particular outcome.
+- **R-3:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: After asking God not to let hearts deviate after guidance, the speakers ask for mercy as a gift; the mercy field is something the guided still need to receive.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 3:8 «رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً»
+  - activation: The prayer explicitly joins guidance, the risk of deviation, and a request for mercy.
+  - limits: This prayer does not distinguish the meanings of the focus’s two names.
+- **R-3:74** [reading; support strong, relevance high] inter-ayah target
+  - finding: يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ repeats almost verbatim the formula in 2:105; selective bestowal is a recurring Quranic articulation of mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:105 «وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ»; 3:74 «يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ»
+  - activation: Both passages use the root of the focus’s names in the same selection formula.
+  - limits: The formula addresses particular contexts of divine favor; it does not define the scope of the focus’s names.
+- **R-3:89** [reading; support strong, relevance high] inter-ayah target
+  - finding: After a threat of lasting punishment, the exception is those who repent and reform, followed by غَفُورٌ رَّحِيمٌ; Rahim accompanies a reopening after changed conduct.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 3:88 «خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ»; 3:89 «إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ»
+  - activation: The exception and repentance formula immediately follow the severe warning.
+  - limits: The passage specifies repentance and reform; it does not explain all applications of Rahim.
+- **R-3:107** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the contrast of the two groups on the Day of Resurrection, the saved remain forever in Allah’s mercy; mercy appears as a lasting destination.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 3:106 «فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ»; 3:107 «وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ هُمْ فِيهَا خَٰلِدُونَ»
+  - activation: The shared mercy root is set against the preceding punishment and paired with eternal dwelling.
+  - limits: This passage describes one final outcome and does not define the full scope of the names.
+- **R-3:132** [reading; support strong, relevance high] inter-ayah target
+  - finding: Obedience to Allah and the Messenger is followed by the hope that the people may receive mercy; the focus’s mercy names thus have an ethical horizon in addition to praise.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 3:132 «وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ»; 3:133 «وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ»
+  - activation: The shared mercy root follows a command to obey, and the next verse names forgiveness and the Garden.
+  - limits: The verses do not say that obedience alone exhausts the meaning or conditions of mercy.
+- **R-3:159** [reading; support strong, relevance high] inter-ayah target
+  - finding: Allah’s mercy is made visible as the Prophet’s gentleness; the verse contrasts harshness, which would scatter people, with pardon, seeking forgiveness, and consultation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 3:159 «فَبِمَا رَحْمَةٍۢ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ»
+  - activation: The verse explicitly attributes gentleness and the ensuing relational acts to mercy from Allah.
+  - limits: It presents one human expression of divine mercy, not an exhaustive definition of the focus names.
+- **R-4:96** [reading; support strong, relevance high] inter-ayah target
+  - finding: After distinguishing the striving believers, the passage names degrees, forgiveness, and mercy, then calls Allah غَفُورًا رَّحِيمًا; mercy is included in an account of reward and standing.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 4:96 «دَرَجَٰتٍۢ مِّنْهُ وَمَغْفِرَةًۭ وَرَحْمَةًۭ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا»
+  - activation: The shared Rahim epithet occurs in a passage that explicitly names reward, mercy, and divine judgment of deeds.
+  - limits: The verse concerns a particular reward context and does not assign the focus names a fixed place in that sequence.
+- **R-4:106** [reading; support strong, relevance high] inter-ayah target
+  - finding: An instruction to seek Allah’s forgiveness is followed by غَفُورًا رَّحِيمًا amid correction concerning advocacy for betrayers; Rahim appears alongside admonition and a call to seek pardon.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 4:105 «وَلَا تَكُن لِّلْخَآئِنِينَ خَصِيمًۭا»; 4:106 «وَٱسْتَغْفِرِ ٱللَّهَ ۖ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا»
+  - activation: The command and divine epithet occur inside the passage’s correction of a legal dispute.
+  - limits: The verse does not specify whose forgiveness is sought or explain the relation between the command and the preceding case.
+- **R-4:113** [reading; support strong, relevance high] inter-ayah target
+  - finding: Favor and mercy protect the Prophet from a group’s attempt to mislead him; the passage then names revelation, wisdom, and teaching as gifts. With 4:83, mercy recurs as protection from deviation and a setting for knowledge.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 4:83 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًۭا»; 4:113 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌۭ مِّنْهُمْ أَن يُضِلُّوكَ»; 4:113 «وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ»
+  - activation: Both passages pair divine favor and mercy with protection from misguidance; 4:113 connects that protection to teaching.
+  - limits: These verses use فَضْل and رَحْمَة rather than the focus’s names and do not define their distinction.
+- **R-4:175** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who believe and hold fast to God enter His mercy and favor and are guided to a straight path; this joins the focus’s mercy field to Fatiha’s ensuing request for guidance.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 4:175 «فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍۢ مِّنْهُ وَفَضْلٍۢ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا»
+  - activation: The verse explicitly places entry into mercy beside guidance to a straight path, matching Fatiha’s mercy-to-guidance sequence.
+  - limits: It does not quote the focus’s two names or state that they alone explain the path.
+- **R-5:74** [reading; support strong, relevance high] inter-ayah target
+  - finding: After rejecting a claim that makes God one of three, the passage asks whether its speakers will repent and seek forgiveness, then calls Allah غَفُورٌ رَّحِيمٌ; mercy remains named beside an invitation to return from grave error.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 5:73 «لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ ثَالِثُ ثَلَٰثَةٍۢ ۘ وَمَا مِنْ إِلَٰهٍ إِلَّآ إِلَٰهٌۭ وَٰحِدٌۭ»; 5:74 «أَفَلَا يَتُوبُونَ إِلَى ٱللَّهِ وَيَسْتَغْفِرُونَهُۥ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The repentance question follows the theological rebuke and ends with the shared Rahim epithet.
+  - limits: The passage invites repentance; it does not state its outcome for any particular person.
+- **R-6:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: Allah has written mercy upon Himself immediately before a statement of gathering people for the Day of Resurrection; this joins self-committed mercy to the judgment horizon that follows the focus in Fatiha.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 6:12 «كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ»
+  - activation: The verse places written mercy and final gathering side by side, as Fatiha places mercy names before the Day of Recompense.
+  - limits: The verse does not define the two focus names or say how mercy determines the gathering’s outcome.
+- **R-6:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: Being turned away from punishment on that Day is explicitly described as having been shown mercy; the verse gives mercy a concrete relation to judgment, which follows the focus in Fatiha.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 6:16 «مَّن يُصْرَفْ عَنْهُ يَوْمَئِذٍۢ فَقَدْ رَحِمَهُۥ ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْمُبِينُ»
+  - activation: The shared mercy root is defined by an outcome on the Day of Judgment.
+  - limits: The verse describes one instance of mercy and does not make that outcome an exhaustive definition of Rahman and Rahim.
+- **related_1.X1** [reading; support strong, relevance high] 
+  - finding: Across repentance scenes, ٱلرَّحِيمُ is the stable final epithet in ٱلتَّوَّابُ ٱلرَّحِيمُ; in the focus it also closes a pair, while ٱلرَّحْمَٰنُ supplies a different first name. This gives Rahim a recurring return-oriented resonance without making the focus pair a repentance formula.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 2:37 «إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ»; 2:54 «إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ»; 2:160 «وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: The focus’s final epithet recurs as the final epithet in multiple repentance-and-return scenes.
+  - limits: The recurring pairing shows an association, not that ٱلرَّحِيمُ means repentance or that ٱلرَّحْمَٰنُ is absent from divine mercy in those scenes.
+- **R-6:54** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus names mercy; 6:54 describes it as something the Lord has bound upon Himself, then joins pardon and رحيم to repentance after wrongdoing. This gives the focus’s mercy-name a concrete form as welcome and restored relation.
+  - evidence: 6:54 «كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍۢ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The shared mercy root, the epithet رحيم, and the Fatiha’s movement from رب العالمين to mercy activate the link.
+  - limits: This passage specifies repentance and reform; 1:3 itself gives no such condition.
+- **R-6:133** [reading; support strong, relevance high] inter-ayah target
+  - finding: God is called both self-sufficient and possessor of mercy, with the power to replace a people. In the Fatiha, the mercy names follow رب العالمين; this pairing lets them be heard under sovereign lordship, without implying need or inability to judge.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 6:133 «وَرَبُّكَ ٱلْغَنِىُّ ذُو ٱلرَّحْمَةِ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ»
+  - activation: The focus continues the Fatiha’s naming of God as Lord, and 6:133 puts mercy beside divine sufficiency and choice.
+  - limits: The focus does not itself state that people may be replaced.
+- **R-6:147** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mercy is explicitly called vast alongside a force that cannot be turned away from wrongdoers. This keeps the Fatiha’s mercy names together with its next designation, Master of the Day of Judgment: mercy and consequence belong in the same account of God.
+  - evidence: 6:147 «رَّبُّكُمْ ذُو رَحْمَةٍۢ وَٰسِعَةٍۢ وَلَا يُرَدُّ بَأْسُهُۥ عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The shared mercy root and the focus’s immediate continuation into judgment activate the juxtaposition.
+  - limits: This does not make mercy and punishment equal in scope or specify who receives either.
+- **R-6:154** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here mercy accompanies a book that gives guidance and detail, with belief in meeting the Lord as its aim. Since the Fatiha soon asks for guidance, its mercy names can be heard as framing guidance as one way divine mercy reaches people.
+  - evidence: 6:154 «وَتَفْصِيلًۭا لِّكُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The Fatiha’s request for guidance after its mercy names meets 6:154’s coordination of guidance and mercy.
+  - limits: The focus does not define mercy as a book or as guidance alone.
+- **R-7:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: The scene reverses a human verdict about who could receive mercy: those people enter Paradise despite others’ sworn claim that God would not reach them with it. The focus names mercy without naming its recipients, while this passage shows how mistaken human limits on it can be.
+  - evidence: 7:49 «أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ»
+  - activation: The same mercy root and the explicit entry into Paradise connect the passage to the Fatiha’s mercy names and coming judgment.
+  - limits: This does not establish that mercy reaches everyone in the same way.
+- **R-7:56** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage describes God’s mercy as near to the doers of good, in a setting that calls for both fear and hope. The focus’s paired names can therefore be heard as an invitation to approach God with both trust and moral seriousness.
+  - evidence: 7:56 «وَٱدْعُوهُ خَوْفًۭا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌۭ مِّنَ ٱلْمُحْسِنِينَ»
+  - activation: The shared mercy root and the Fatiha’s movement from mercy to worship and a request for guidance activate this devotional link.
+  - limits: This passage specifies nearness to doers of good; the focus does not state that boundary.
+- **R-7:72** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mercy here rescues Noah and those with him while the deniers are cut off. Read before the Fatiha’s Master of the Day of Judgment, the focus’s mercy names can frame mercy as deliverance that also distinguishes between outcomes.
+  - evidence: 7:72 «فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍۢ مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا»
+  - activation: The shared mercy root, paired rescue and destruction, and 1:4’s judgment language activate this contrast.
+  - limits: The focus does not identify who is rescued or what conduct determines the outcome.
+- **R-7:151** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses asks to be admitted, with his brother, into God’s mercy and calls Him the most merciful of those who show mercy. This makes the focus’s paired names sound like more than descriptions: they are qualities to which a person can appeal after a fractured family encounter.
+  - evidence: 7:151 «قَالَ رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ»
+  - activation: The direct appeal to God, the mercy root, and the Fatiha’s later first-person prayer activate the connection.
+  - limits: This scene does not specify that the focus’s names guarantee a particular outcome for every petitioner.
+- **R-7:153** [reading; support strong, relevance high] inter-ayah target
+  - finding: After wrongdoing, repentance, and belief, the Lord is called forgiving and رحيم. The shared epithet shows mercy working with forgiveness and return; it gives a possible response to the focus’s placement before the Fatiha’s Day of Judgment.
+  - evidence: 7:153 «وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The focus’s رحيم recurs beside غفور, while the Fatiha places mercy before judgment.
+  - limits: This verse gives repentance and belief as its setting; it does not say that 1:3 is restricted to that setting.
+- **R-7:154** [reading; support strong, relevance high] inter-ayah target
+  - finding: The tablets contain guidance and mercy for people who fear their Lord, after Moses’s anger has subsided. This joins mercy to revealed instruction and reverence, resonating with the Fatiha’s later requests for guidance and its address to the Master of Judgment.
+  - evidence: 7:154 «وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًۭى وَرَحْمَةٌۭ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ»
+  - activation: The shared terms for guidance and mercy, followed by the Fatiha’s petition for guidance, activate this reading.
+  - limits: The focus does not say that its mercy names are limited to those who fear.
+- **R-7:156** [reading; support strong, relevance high] inter-ayah target
+  - finding: The claim that mercy encompasses every thing is followed by the decision to write it for people described by their piety, almsgiving, and belief. This lets the focus’s mercy names hold broad scope together with differentiated reception, rather than implying identical outcomes for all.
+  - evidence: 7:156 «وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَٰتِنَا يُؤْمِنُونَ»
+  - activation: The verse states both the extent of mercy and its particular inscription; the Fatiha’s mercy names leave that relation open.
+  - limits: This does not resolve every sense of encompassing or every way mercy may reach others.
+- **R-7:180** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage says God’s beautiful names are to be used in calling upon Him. The focus’s definite mercy names in a recited prayer can thus be heard as names that orient invocation, not just as praise spoken before prayer.
+  - evidence: 7:180 «وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا»
+  - activation: The Fatiha places the mercy names before direct address and the communal petition that follows.
+  - limits: This verse does not list these two names or say that they are the only names appropriate to invoke.
+- **R-7:203** [reading; support strong, relevance high] inter-ayah target
+  - finding: In response to a demand for a sign, revelation is described as insight, guidance, and mercy for believers. The focus’s mercy names can therefore frame Quranic guidance as a form of mercy received by those who believe.
+  - evidence: 7:203 «هَٰذَا بَصَآئِرُ مِن رَّبِّكُمْ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُؤْمِنُونَ»
+  - activation: The Fatiha is itself recited Quran and soon asks for guidance; 7:203 explicitly coordinates guidance and mercy.
+  - limits: This verse identifies believers as recipients here; it does not state that the focus’s names themselves impose that condition.
+- **R-8:75** [reading; support strong, relevance high] inter-ayah target
+  - finding: The word ٱلْأَرْحَامِ names kinship ties and shares the focus’s root ر ح م. Its claim that relatives have priority over one another makes the root’s bodily and relational associations live beside the divine mercy names.
+  - evidence: 8:75 «وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ»
+  - activation: The shared root activates the association, while the verse explicitly concerns kinship and mutual claims.
+  - limits: The root relationship does not make the divine names equivalent to the legal term for relatives or prove that kinship is their intended sense here.
+- **R-9:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mercy is announced as part of the promised welcome to people who believe, migrate, and strive, alongside divine approval and lasting gardens. This gives the focus’s mercy names an eschatological horizon that fits their position before the Fatiha’s Day of Judgment.
+  - evidence: 9:21 «يُبَشِّرُهُمْ رَبُّهُم بِرَحْمَةٍۢ مِّنْهُ وَرِضْوَٰنٍۢ وَجَنَّٰتٍۢ لَّهُمْ فِيهَا نَعِيمٌۭ مُّقِيمٌ»
+  - activation: The mercy root, promised welcome, and Fatiha’s sequence from mercy to judgment activate this relation.
+  - limits: The focus itself does not define mercy as a reward or specify these recipients.
+- **R-9:27** [reading; support strong, relevance high] inter-ayah target
+  - finding: After tranquility for the believers and punishment for the disbelievers, God turns in mercy to whom He wills and is called forgiving, رحيم. Mercy here follows a divided outcome, keeping it in view beside the Fatiha’s coming judgment.
+  - evidence: 9:26 «ثُمَّ أَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَنزَلَ جُنُودًۭا لَّمْ تَرَوْهَا وَعَذَّبَ ٱلَّذِينَ كَفَرُوا۟»; 9:27 «ثُمَّ يَتُوبُ ٱللَّهُ مِنۢ بَعْدِ ذَٰلِكَ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The repeated رحيم and the sequence from punishment to divine turning activate the link.
+  - limits: The verse leaves the choice of recipients to God and does not equate mercy with exemption from every consequence.
+- **R-9:99** [reading; support strong, relevance high] inter-ayah target
+  - finding: Believing people regard their spending as nearness and the messenger’s prayers as blessing; God then admits them into His mercy and is called forgiving, رحيم. This gives the focus’s mercy names a concrete path of approach through faith and giving.
+  - evidence: 9:99 «وَيَتَّخِذُ مَا يُنفِقُ قُرُبَٰتٍ عِندَ ٱللَّهِ وَصَلَوَٰتِ ٱلرَّسُولِ ۚ أَلَآ إِنَّهَا قُرْبَةٌۭ لَّهُمْ ۚ سَيُدْخِلُهُمُ ٱللَّهُ فِى رَحْمَتِهِۦٓ ۗ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The verse shares the رحيم epithet and describes entry into mercy after devotional action.
+  - limits: The focus does not state that spending is the sole means of nearness or entry into mercy.
+- **R-9:104** [reading; support strong, relevance high] inter-ayah target
+  - finding: God’s acceptance of repentance and taking of charities are summarized by the names the Oft-Returning and رحيم. This pairs mercy with receiving people’s return and offerings, rather than leaving it as an abstract quality.
+  - evidence: 9:104 «أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَأْخُذُ ٱلصَّدَقَٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: The focus’s رحيم recurs as the closing name after concrete acts of divine reception.
+  - limits: The focus does not specify repentance or charity as the exclusive setting of mercy.
+- **R-9:117** [reading; support strong, relevance high] inter-ayah target
+  - finding: After a difficult campaign and hearts nearly turning away, God accepts the return of the Prophet, emigrants, and helpers, and is called compassionate and رحيم. The additional name رؤوف gives the focus’s رحيم a close companion of tenderness in a setting of strain and faltering.
+  - evidence: 9:117 «لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍۢ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: The repeated divine رحيم, paired here with رؤوف, activates the focus’s second name.
+  - limits: The verse does not use الرحمن or explain how the two mercy pairs differ.
+- **R-9:118** [reading; support strong, relevance high] inter-ayah target
+  - finding: The three left behind reach a point where the wide earth and their own selves feel constricted, with no refuge from God except in Him; then He accepts their return. The focus’s رحيم can be heard against this movement from isolation to renewed relation.
+  - evidence: 9:118 «حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: The shared رحيم epithet follows a vivid account of distress and renewed return.
+  - limits: This passage does not make all distress a sign of rejection or promise this precise resolution in every case.
+- **R-9:128** [reading; support strong, relevance high] inter-ayah target
+  - finding: The messenger is described as compassionate and رحيم toward believers. The shared رحيم shows that the focus’s name also has a shareable quality expressed in human care, while remaining a divine name in the Fatiha.
+  - evidence: 9:128 «عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: The exact epithet رحيم recurs with رؤوف, and the verse describes care directed toward believers.
+  - limits: This verse neither calls the messenger الرحمن nor says that his care is identical to divine mercy.
+- **R-10:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: People taste mercy after hardship, then scheme against God’s signs, whose recorders write what they do. The Fatiha’s placement of mercy just before the Day of Judgment makes this a pointed reminder that receiving mercy does not erase accountability.
+  - evidence: 10:21 «وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةًۭ مِّنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُمْ إِذَا لَهُم مَّكْرٌۭ فِىٓ ءَايَاتِنَا ۚ قُلِ ٱللَّهُ أَسْرَعُ مَكْرًا ۚ إِنَّ رُسُلَنَا يَكْتُبُونَ مَا تَمْكُرُونَ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The focus’s next phrase names judgment; 10:21 links tasted mercy with recorded conduct.
+  - limits: This warns about one response to relief; it does not say that mercy itself causes ingratitude.
+- **R-10:86** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Fatiha places its mercy names before “You alone we ask for help”; Moses and Aaron’s prayer gives that dependence the form of asking for rescue by God’s mercy.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 10:85 «فَقَالُوا۟ عَلَى ٱللَّهِ تَوَكَّلْنَا رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلْقَوْمِ ٱلظَّٰلِمِينَ»; 10:86 «وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَٰفِرِينَ»
+  - activation: The Fatiha’s request for help and the prayer’s explicit appeal to mercy connect the names to supplication.
+  - limits: The prayer asks for rescue from a particular people; the focus does not specify a rescue request.
+- **R-10:107** [reading; support strong, relevance high] inter-ayah target
+  - finding: God alone removes harm and no one can repel His favor; He is then called forgiving and رحيم. This places mercy beside exclusive divine agency, reinforcing the force of the focus’s address to God before the Fatiha’s worship and appeal.
+  - evidence: 10:107 «وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّۢ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍۢ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ»
+  - activation: The shared رحيم epithet and the Fatiha’s direct address to God activate the link.
+  - limits: This passage specifies divine control of harm and favor; it does not explain the distinction between الرحمن and الرحيم.
+- **R-11:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: The call to seek forgiveness and turn to God is followed by the names رحيم and ودود, joining mercy to loving regard. The focus’s رحيم can therefore be heard with a relational warmth that invites return.
+  - evidence: 11:90 «وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌۭ وَدُودٌۭ»
+  - activation: The shared رحيم epithet is paired with love and follows an invitation to repent.
+  - limits: The focus does not itself name love or restrict mercy to those who repent.
+- **R-11:119** [reading; support strong, relevance high] inter-ayah target
+  - finding: Against the statement that people continue to differ and the following declaration about Hell, those shown mercy by the Lord are set apart. This makes the focus’s mercy names resonate with a real distinction in outcome before the Fatiha names judgment.
+  - evidence: 11:118 «وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةًۭ وَٰحِدَةًۭ ۖ وَلَا يَزَالُونَ مُخْتَلِفِينَ»; 11:119 «إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ»
+  - activation: The mercy exception sits between continuing human difference and the stated filling of Hell; the Fatiha likewise places mercy before judgment.
+  - limits: This does not establish whom the Lord shows mercy to, or settle the referent of وَلِذَٰلِكَ.
+- **R-12:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Fatiha’s mercy names lead into its communal plea for help; Jacob’s response to his sons’ false account supplies a scene for that dependence. He chooses beautiful patience and says God is the one from whom help is sought.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 12:18 «فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ»
+  - activation: The shared root of نستعين and ٱلْمُسْتَعَانُ links the Fatiha’s petition to Jacob’s appeal.
+  - limits: Jacob’s verse does not mention mercy, so it cannot show that his appeal explicitly invokes the focus’s two names.
+- **R-12:56** [reading; support strong, relevance high] inter-ayah target
+  - finding: After Joseph’s appointment over the land, the speaker says that divine mercy is bestowed on whom God wills and that the reward of the good is not lost. This shows mercy as active providence and reward, while leaving the focus’s broad names without a single fixed mode of action.
+  - evidence: 12:55 «قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ»; 12:56 «نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ»
+  - activation: The shared mercy root and the explicit link with doing good activate this account of mercy’s action.
+  - limits: This passage does not make worldly appointment the only form of mercy or the measure of the focus’s names.
+- **R-12:64** [reading; support strong, relevance high] inter-ayah target
+  - finding: After human guardianship failed Joseph, Jacob questions his sons’ new promise and says God is the best guardian and most merciful. The focus’s mercy names can be heard as ground for trust when family care is uncertain.
+  - evidence: 12:63 «فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ»; 12:64 «قَالَ هَلْ ءَامَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ»
+  - activation: The shared mercy root and the contrast between human assurances and divine guardianship activate the connection.
+  - limits: The verse uses a superlative form, not the exact pair الرحمن الرحيم, and does not promise that every loss will be reversed.
+- **R-12:92** [reading; support strong, relevance high] inter-ayah target
+  - finding: Yūsuf releases his brothers and invokes God as أَرْحَمُ ٱلرَّٰحِمِينَ; this makes the focus’s mercy names audible beside a human act of forgiveness.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 12:92 «لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ»
+  - activation: The brothers admit their wrong, Yūsuf grants them amnesty, and he then names God’s surpassing mercy.
+  - limits: The verse uses a comparative form, أَرْحَمُ, rather than the paired names in the focus; it does not equate Yūsuf’s pardon with divine mercy.
+- **R-12:98** [reading; support strong, relevance high] inter-ayah target
+  - finding: The paired predicate ٱلْغَفُورُ ٱلرَّحِيمُ links al-Raḥīm to forgiveness deferred until a later appeal for the brothers.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 12:97 «يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَٰطِـِٔينَ»; 12:98 «سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ»
+  - activation: The sons ask their father for forgiveness; he promises to seek it and describes his Lord with al-Raḥīm.
+  - limits: This supplies one matching epithet alongside ٱلْغَفُورُ, not the focus’s al-Raḥmān–al-Raḥīm pair.
+- **R-13:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The name al-Raḥmān is explicitly rejected by one audience and affirmed by the Prophet as his Lord, linking the focus’s name to contested recognition and worship.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 13:30 «وَهُمْ يَكْفُرُونَ بِٱلرَّحْمَٰنِ ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ»
+  - activation: The focus names al-Raḥmān; this verse says people disbelieve in that name, then answers with lordship, exclusive divinity, and trust.
+  - limits: The verse names al-Raḥmān but not al-Raḥīm, and it does not describe the mercy pair itself.
+- **R-14:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: After distinguishing followers from those who disobey, Abraham addresses God as غَفُورٌ رَّحِيمٌ; al-Raḥīm is thus paired with forgiveness even in a prayer about disobedience.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 14:36 «فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: Abraham includes those who disobey him in his appeal to God’s forgiving and merciful character.
+  - limits: The verse has al-Raḥīm with ٱلْغَفُور, not the focus’s paired names, and leaves the fate of the disobedient unstated here.
+- **R-15:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same epithet al-Raḥīm closes a declaration of forgiveness, immediately before an announcement of painful punishment; mercy and warning occupy adjacent verses.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 15:49 «أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ»; 15:50 «وَأَنَّ عَذَابِى هُوَ ٱلْعَذَابُ ٱلْأَلِيمُ»
+  - activation: The focus’s al-Raḥīm recurs alongside the Forgiving, and the next verse places that assurance beside the warning of punishment.
+  - limits: This passage does not use al-Raḥmān; it does not say that forgiveness cancels the announced punishment.
+- **R-16:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The epithet رَّحِيمٌ describes the Lord in a scene of carrying human burdens toward a destination unreachable without hardship; mercy here accompanies practical provision.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 16:7 «وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍۢ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: The verse names the Lord merciful directly after describing animals carrying loads over difficult distances.
+  - limits: It pairs al-Raḥīm with رَءُوفٌ and presents one provision; it does not define the focus’s two names by this example alone.
+- **R-16:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: The pairing ٱلْغَفُورٌ رَّحِيمٌ follows the claim that God’s blessings cannot be counted, tying al-Raḥīm to both abundant benefaction and human need for forgiveness.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 16:18 «وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The verse places uncountable blessing immediately before the forgiving-and-merciful pair.
+  - limits: It does not say that the inability to count blessings is itself a cause of forgiveness.
+- **R-17:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: The root ر ح م moves from the focus’s divine name al-Raḥīm to a human posture of tenderness toward parents and a prayer that God show them mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 17:24 «وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا»
+  - activation: A human is told to lower a wing of humility out of mercy and ask the Lord to show mercy to parents.
+  - limits: The verse uses a mercy noun and verb, not the focus’s names; it does not explicitly say that people imitate those names.
+- **R-17:57** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who seek nearness to their Lord both hope for His mercy and fear His punishment; this joins mercy to accountability, as the Fātiḥa moves from its mercy names to the Day of Judgment.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 17:57 «وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًۭا»
+  - activation: The neighboring Fātiḥa verses place mercy immediately before the declaration of judgment; this verse holds hope and fear together.
+  - limits: It describes the worshippers’ hopes and fears; it does not specify how mercy and punishment are apportioned.
+- **R-17:66** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord is called merciful while enabling travel and the pursuit of provision; the next verse sets this favor beside human ingratitude.
+  - evidence: 17:66 «رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ رَحِيمًۭا»; 17:67 «فَلَمَّا نَجَّىٰكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ ۚ وَكَانَ ٱلْإِنسَٰنُ كَفُورًا»
+  - activation: The focus’s al-Raḥīm recurs in an explicit account of care, followed by people turning away after rescue.
+  - limits: This is one instance of provision and ingratitude; it does not explain either focus name’s morphology or scope.
+- **R-17:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: The preservation of what was revealed is attributed to mercy from the Lord, making continued access to revelation a particular form of favor.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 17:86 «وَلَئِن شِئْنَا لَنَذْهَبَنَّ بِٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ»; 17:87 «إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًۭا»
+  - activation: The focus names precede the Fātiḥa’s own plea for guidance; this passage names mercy as the exception to taking away revelation.
+  - limits: It identifies a specific favor to the Prophet and does not say that the focus’s paired names are the wording intended here.
+- **R-17:100** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord’s mercy is pictured as stores humans would hoard if they controlled them; the contrast gives the focus’s expansive mercy a sharp human foil.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 17:100 «قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا»
+  - activation: The verse contrasts the Lord’s خزائن رحمة with the human tendency to withhold out of fear of spending.
+  - limits: The verse speaks conditionally about human possession of these stores; it does not enumerate what they contain.
+- **R-17:110** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Raḥmān is named as one of the beautiful names to invoke in prayer; the verse also regulates how prayer is voiced.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 17:110 «قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّۭا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا»
+  - activation: The focus repeats the name used in the opening formula; this verse explicitly permits invoking al-Raḥmān and places that instruction beside ṣalāt.
+  - limits: It names al-Raḥmān but not al-Raḥīm in this passage, and gives no special interpretation of the pair’s order.
+- **R-18:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The youths’ prayer asks for mercy and right guidance together, closely echoing the Fātiḥa’s mercy names before its request for the straight path.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 18:10 «فَقَالُوا۟ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا»
+  - activation: Both prayers address God and bring a request for mercy alongside a request for direction.
+  - limits: The cave youths’ wording is a narrative prayer, not a quotation of the Fātiḥa or a direct identification of its names with their request.
+- **R-18:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: The youths’ earlier request for mercy and right direction is followed by instruction to seek refuge, with the promise that their Lord will spread mercy and prepare ease for them.
+  - evidence: 18:10 «ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا»; 18:16 «فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا»
+  - activation: The repeated mercy-and-preparation language makes the second passage an answer-shaped continuation of the first prayer.
+  - limits: The verses do not explicitly say that every promised outcome is the direct fulfillment of each phrase in the prayer.
+- **R-18:58** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord is called forgiving and possessor of mercy while judgment is delayed; mercy here coexists with a fixed appointment for punishment.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 18:58 «وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌۭ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًۭا»
+  - activation: The focus’s mercy names are followed in the Fātiḥa by the Day of Judgment; this verse makes delayed punishment an explicit setting for mercy.
+  - limits: It describes delay and an appointed reckoning, not pardon from the announced outcome.
+- **R-18:81** [reading; support strong, relevance high] inter-ayah target
+  - finding: The replacement promised for the parents is described as أَقْرَبَ رُحْمًا; the following explanation names protection of the orphans’ treasure as mercy from the Lord, extending the same root across two acts of family care.
+  - evidence: 18:81 «فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًۭا مِّنْهُ زَكَوٰةًۭ وَأَقْرَبَ رُحْمًۭا»; 18:82 «وَكَانَ أَبُوهُمَا صَٰلِحًۭا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ»
+  - activation: The paired names in the focus can be heard against a narrative sequence that uses the root first for parental tenderness and then for God’s protection of orphans.
+  - limits: The two verses use different forms of the root; they do not explicitly say the hoped-for replacement is itself a divine act of mercy.
+- **R-18:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: Protecting the orphan boys’ treasure until they mature is explicitly called mercy from the Lord, a concrete instance of mercy involving delayed preservation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 18:82 «فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ»
+  - activation: The story identifies the Lord’s reason for protecting the treasure as mercy, then says the act was not done on the speaker’s own command.
+  - limits: This explains one act of protection; it does not define the full reach of the focus’s divine names.
+- **R-18:98** [reading; support strong, relevance high] inter-ayah target
+  - finding: A protective barrier is called mercy from the Lord, but its protection is temporary and ends when the Lord’s promise arrives.
+  - evidence: 18:98 «قَالَ هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّۭا»
+  - activation: The focus’s mercy names are set beside an explicit case where mercy takes the form of protection with a stated limit.
+  - limits: The verse attributes mercy to the barrier’s making; it does not say the barrier is the sole or permanent form of mercy.
+- **R-19:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mary invokes al-Raḥmān as refuge from a man who has appeared to her; the same name that marks mercy functions here in a plea for safety.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 19:18 «قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّۭا»
+  - activation: The speaker directly seeks protection by invoking al-Raḥmān.
+  - limits: The verse names al-Raḥmān alone and records Mary’s appeal; the next verse supplies the stranger’s explanation.
+- **R-19:44** [reading; support strong, relevance high] inter-ayah target
+  - finding: Satan is described as disobedient to al-Raḥmān, placing the focus’s mercy-name within a relation of commanded obedience.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 19:44 «إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّۭا»
+  - activation: The verse identifies the same named God as the one against whom Satan rebels.
+  - limits: It does not describe the mercy shown to Satan or explain why the name al-Raḥmān is used in this warning.
+- **R-19:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham warns of punishment coming from al-Raḥmān; the name associated with mercy in the focus is also named as the source of punishment.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 19:45 «إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌۭ مِّنَ ٱلرَّحْمَٰنِ فَتَكُونَ لِلشَّيْطَٰنِ وَلِيًّۭا»
+  - activation: The verse attaches عَذَابٌ to the preposition مِن and names al-Raḥmān as its source.
+  - limits: It is Abraham’s warning about a possible outcome; it does not say that punishment exhausts the meaning of the name.
+- **R-19:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: After Abraham withdraws from his people, God gives his family from divine mercy and grants them lasting good mention; mercy includes gifts and an enduring place in speech.
+  - evidence: 19:49 «فَلَمَّا ٱعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ»; 19:50 «وَوَهَبْنَا لَهُم مِّن رَّحْمَتِنَا وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّۭا»
+  - activation: The focus names mercy; this narrative explicitly attributes prophetic gifts and lasting good mention to divine mercy.
+  - limits: The verse uses the noun رَحْمَتِنَا and does not identify the particular focus epithet responsible for either gift.
+- **R-19:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses receives Aaron as a prophetic brother from divine mercy, presenting companionship and shared prophetic work as a bestowed favor.
+  - evidence: 19:53 «وَوَهَبْنَا لَهُۥ مِن رَّحْمَتِنَآ أَخَاهُ هَٰرُونَ نَبِيًّۭا»
+  - activation: The verse expressly says that Aaron was granted to Moses from divine mercy.
+  - limits: It specifies one gift in Moses’ story and does not use the focus’s names as its wording.
+- **R-19:69** [reading; support strong, relevance high] inter-ayah target
+  - finding: The most defiant members of each group are singled out for punishment because of their opposition to al-Raḥmān; the name marks a line of accountability in this surah.
+  - evidence: 19:44 «إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّۭا»; 19:69 «ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّۭا»
+  - activation: This repeats the earlier description of Satan’s disobedience to al-Raḥmān, now applied to the most rebellious humans in a scene of gathering for judgment.
+  - limits: The verses identify rebellion and punishment but do not detail the rebels’ individual acts here.
+- **R-19:78** [reading; support strong, relevance high] inter-ayah target
+  - finding: A claimant who boasts of future wealth and children is challenged over whether he has a covenant with al-Raḥmān; later, the surah mentions a covenant with al-Raḥmān as the condition for intercession. The repeated wording contrasts presumed entitlement with a stated condition.
+  - evidence: 19:78 «أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا»; 19:87 «لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا»
+  - activation: Both verses use the same phrase, عِندَ ٱلرَّحْمَٰنِ عَهْدًا, but the first challenges a claimant and the second states an exception concerning intercession.
+  - limits: The text does not spell out the covenant’s contents or equate the claimant’s case with the intercession condition.
+- **R-19:85** [reading; support strong, relevance high] inter-ayah target
+  - finding: The mindful are gathered to al-Raḥmān as an honored delegation, immediately contrasted with criminals driven to Hell; the name belongs in a scene of both welcome and separation.
+  - evidence: 19:85 «يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًۭا»; 19:86 «وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًۭا»
+  - activation: The next verse sets the honored approach to al-Raḥmān against the criminals’ being driven to Hell.
+  - limits: The passage does not describe the details of the delegation’s welcome or make a claim about every person’s outcome.
+- **R-19:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: Intercession is unavailable as a free-standing power: the verse restricts it to one who has a covenant with al-Raḥmān.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 19:87 «لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا»
+  - activation: The focus names al-Raḥmān; this verse names Him as the one with whom a covenant must be taken for the stated intercession exception.
+  - limits: It does not specify the covenant’s content or say that the name alone guarantees intercession.
+- **R-19:88** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah reports the claim that al-Raḥmān has taken a child, then answers that all who are in the heavens and earth come to Him as servants; this frames the name against a claim of divine parenthood.
+  - evidence: 19:88 «وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا»; 19:92 «وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا»; 19:93 «إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا»
+  - activation: The repeated name is the object of the false claim, the explicit rejection, and the universal servant relation that follows.
+  - limits: These verses reject divine offspring and affirm servitude; they do not explain why the name al-Raḥmān occurs in the claim.
+- **R-19:91** [reading; support strong, relevance high] inter-ayah target
+  - finding: The claim of a child for al-Raḥmān is presented as the cause of cosmic distress: the heavens nearly tear, the earth splits, and the mountains fall.
+  - evidence: 19:90 «تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا»; 19:91 «أَن دَعَوْا۟ لِلرَّحْمَٰنِ وَلَدًۭا»
+  - activation: The focus’s al-Raḥmān is the same title attached to the claim that the surrounding passage says provokes cosmic rupture.
+  - limits: The passage gives no further account of the physical or theological mechanism behind this cosmic reaction.
+- **R-19:92** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah explicitly says it is not fitting for al-Raḥmān to take a child, placing a boundary against reading the focus’s mercy-name as implying divine parenthood.
+  - evidence: 19:92 «وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا»; 19:93 «إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا»
+  - activation: The rejection is attached directly to the name al-Raḥmān and followed by the universal designation of creatures as servants.
+  - limits: The verse rejects taking a child; it does not offer a full account of the meanings of al-Raḥmān or al-Raḥīm.
+- **R-19:93** [reading; support strong, relevance high] inter-ayah target
+  - finding: Every being in heaven and earth comes to al-Raḥmān as a servant; this joins the focus’s mercy-name to universal lordship and service.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 19:93 «إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا»
+  - activation: The Fātiḥa names the Lord of all worlds before al-Raḥmān; this verse makes all beings’ servitude to al-Raḥmān explicit.
+  - limits: It describes the universal servant relation at arrival; it does not specify how each being is treated afterward.
+- **R-19:96** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Raḥmān will create affection for those who believe and do good, giving the name a communal outcome tied to faithful action.
+  - evidence: 19:96 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا»
+  - activation: The verse makes al-Raḥmān the subject of the act that establishes affection for a specified group.
+  - limits: It does not specify whose affection is created or equate affection with the mercy named in the focus.
+- **R-20:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The name al-Raḥmān appears in a statement about the Throne; beside the Fātiḥa’s Lord of all worlds and King of Judgment, it places the mercy-name within a sovereignty frame.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 20:5 «ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ»
+  - activation: The same title appears in a Throne statement between the Fātiḥa’s declarations of lordship and kingship.
+  - limits: The verse’s wording does not explain the nature of الاستواء; the relation here is the shared name and surrounding sovereignty language.
+- **R-20:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: Aaron names al-Raḥmān as the community’s Lord and immediately commands them to follow and obey him, joining the name to exclusive worship and obedience.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 20:90 «وَإِنَّ رَبَّكُمُ ٱلرَّحْمَٰنُ فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى»
+  - activation: Al-Raḥmān is stated as Lord precisely before the instruction to follow and obey.
+  - limits: The episode concerns the calf and does not explain the focus’s pairing of al-Raḥmān with al-Raḥīm.
+- **R-20:108** [reading; support strong, relevance high] inter-ayah target
+  - finding: On the Day of Judgment, voices are humbled to al-Raḥmān and only a whisper is heard; the mercy-name appears in a scene of awe and silence.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 20:108 «وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًۭا»
+  - activation: The Fātiḥa places the mercy names before its mention of Judgment; this verse names al-Raḥmān in the judgment scene itself.
+  - limits: It describes the humbled voices but does not detail the treatment of each person there.
+- **R-20:109** [reading; support strong, relevance high] inter-ayah target
+  - finding: Intercession on that day benefits only those whom al-Raḥmān permits and whose speech He approves, setting a condition on access to intercession.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 20:109 «لَّا تَنفَعُ ٱلشَّفَٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَرَضِىَ لَهُۥ قَوْلًۭا»
+  - activation: The same title named in the focus is the one whose permission and approval govern intercession on Judgment Day.
+  - limits: The verse states conditions for effective intercession; it does not explain why permission or approval is granted.
+- **R-21:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: A claim that al-Raḥmān has taken a child is answered with exaltation and the description of those concerned as honored servants, a direct cross-surah parallel to the correction in 19:92–93.
+  - evidence: 19:92 «وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا»; 19:93 «إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا»; 21:26 «وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا ۗ سُبْحَٰنَهُۥ ۚ بَلْ عِبَادٌۭ مُّكْرَمُونَ»
+  - activation: Both passages attach the same offspring claim to al-Raḥmān and answer it by affirming servitude; this verse adds that the servants are honored.
+  - limits: The verses reject the claim and identify servants; they do not explain why the name al-Raḥmān was selected for the claim.
+- **R-21:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Raḥmān is named as the one who keeps people through night and day, while they turn away from their Lord’s remembrance; protection persists alongside heedlessness.
+  - evidence: 21:42 «قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ»
+  - activation: The verse asks who protects them from al-Raḥmān and immediately contrasts that protection with their turning away from remembrance.
+  - limits: It poses a rhetorical question about protection and does not specify particular acts of preservation.
+- **R-21:75** [reading; support strong, relevance high] inter-ayah target
+  - finding: Lot is said to have been brought into divine mercy after rescue from a corrupt town; mercy is pictured as an interior one may be admitted into.
+  - evidence: 21:74 «وَلُوطًا ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا وَنَجَّيْنَٰهُ مِنَ ٱلْقَرْيَةِ»; 21:75 «وَأَدْخَلْنَٰهُ فِى رَحْمَتِنَآ ۖ إِنَّهُۥ مِنَ ٱلصَّٰلِحِينَ»
+  - activation: The verb أَدْخَلْنَٰهُ with فِى makes mercy the destination of Lot’s deliverance.
+  - limits: The verse does not define the image further or name either epithet from the focus.
+- **R-21:83** [reading; support strong, relevance high] inter-ayah target
+  - finding: Job calls on his Lord as أَرْحَمُ ٱلرَّٰحِمِينَ; the next verse answers with relief and restoration, so the superlative appeal is followed by a narrated response of mercy.
+  - evidence: 21:83 «وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ»; 21:84 «فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّۢ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنْ عِندِنَا»
+  - activation: Job names God’s surpassing mercy while suffering; the following verse narrates the answer and calls the restoration mercy.
+  - limits: The appeal uses a comparative superlative rather than the focus’s two epithets; the answer is one account of mercy.
+- **related_3.X1** [reading; support strong, relevance high] 
+  - finding: The focus repeats the exact mercy pair from the opening basmala after the verse praising the Lord of all worlds, making the pair both an opening invocation and a return within the Fātiḥa.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The exact sequence in 1:1 recurs in 1:3 after the Fātiḥa names God as Lord of all worlds.
+  - limits: The repetition establishes a textual frame but does not by itself determine why the pair is repeated or assign different meanings to its two occurrences.
+- **R-21:84** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ayyub names God as أَرْحَمَ ٱلرَّٰحِمِينَ, and the answer is relief, restored family, and a reminder; mercy is shown as an answered appeal with concrete effects.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 21:83 «وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ»; 21:84 «وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ»
+  - activation: Ayyub’s invocation in 21:83 is answered by the restoration and explicit رحمة of 21:84.
+  - limits: The episode demonstrates mercy through a particular response; it does not assign separate meanings to the two names in 1:3.
+- **R-21:86** [reading; support strong, relevance high] inter-ayah target
+  - finding: The righteous are brought into divine mercy as a place of admission, making the focus’s mercy names concrete in the language of welcome.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 21:86 «وَأَدْخَلْنَٰهُمْ فِى رَحْمَتِنَآ ۖ إِنَّهُم مِّنَ ٱلصَّٰلِحِينَ»
+  - activation: The verse explicitly names divine mercy and connects entry into it with the servants’ righteousness.
+  - limits: This is a specific statement about these servants; it does not define the full scope of either name in 1:3.
+- **R-21:107** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s mercy names have a public counterpart here: the Prophet’s sending is itself described as mercy for all worlds.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 21:107 «وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةًۭ لِّلْعَٰلَمِينَ»
+  - activation: The verse identifies the sending of the Prophet, rather than a private benefit, with رحمة and gives that mercy the scope of the worlds.
+  - limits: It names the mission as mercy but does not explain how every audience receives or responds to it.
+- **R-21:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: The name ٱلرَّحْمَٰنُ appears in a plea for judgment by truth, with God called the one sought for aid against others’ descriptions; mercy and adjudication occupy the same appeal.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 21:112 «قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ»
+  - activation: The verse couples the exact name ٱلرَّحْمَٰنُ with a request for just judgment and help amid dispute.
+  - limits: It does not mention ٱلرَّحِيمُ or specify the judgment’s outcome.
+- **R-23:75** [reading; support strong, relevance high] inter-ayah target
+  - finding: The counterfactual وَلَوْ رَحِمْنَٰهُمْ joins mercy and relief to continued transgression, complicating any expectation that receiving relief necessarily reforms its recipients.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 23:75 «وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّۢ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ»
+  - activation: The same people are imagined receiving mercy and removal of distress, yet persisting in error.
+  - limits: The verse presents a counterfactual about this group; it does not define all effects of divine mercy.
+- **R-23:76** [reading; support strong, relevance high] inter-ayah target
+  - finding: The adjacent sequence shows both hypothetical relief and actual punishment failing to produce humility in this group, setting a limit on what a reader can infer about recipients’ response from the focus’s mercy names.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 23:75 «وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّۢ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ»; 23:76 «وَلَقَدْ أَخَذْنَٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ»
+  - activation: The pronoun ٱخَذْنَٰهُم continues the people of 23:75, making the two outcomes part of one sequence.
+  - limits: The verses describe this group’s response and do not state that mercy and punishment have the same purpose or effect.
+- **R-23:109** [reading; support strong, relevance high] inter-ayah target
+  - finding: The prayer separates فَٱغْفِرْ لَنَا from وَٱرْحَمْنَا, then calls God the best of the merciful; the focus’s paired mercy names meet a supplication that asks for mercy alongside forgiveness.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 23:109 «رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ»
+  - activation: The verse places a direct request for mercy beside a request for forgiveness and grounds both in God’s character.
+  - limits: The focus’s names are not assigned one-to-one to forgiveness and mercy here.
+- **R-23:118** [reading; support strong, relevance high] inter-ayah target
+  - finding: The closing command to pray moves from calling God Lord to asking forgiveness and mercy, then names Him best of the merciful; the focus’s praise has a direct counterpart in petition.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 23:118 «وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ»
+  - activation: The imperative وَقُل makes forgiveness and mercy the requested response at the surah’s close.
+  - limits: The verse does not repeat the focus’s two names or distinguish their functions.
+- **R-24:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact phrase ٱللَّهَ رَءُوفٌۭ رَّحِيمٌۭ follows the warning about spreading scandal, placing the focus’s second name in a communal setting of restraint and mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 24:19 «إِنَّ ٱلَّذِينَ يُحِبُّونَ أَن تَشِيعَ ٱلْفَٰحِشَةُ فِى ٱلَّذِينَ ءَامَنُوا۟ لَهُمْ عَذَابٌ أَلِيمٌۭ»; 24:20 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ رَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: The warning about communal harm is followed by the repeated favor-and-mercy clause and the explicit name ٱلرَّحِيمُ.
+  - limits: The text does not say that mercy removes accountability for the conduct described.
+- **R-24:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated favor-and-mercy condition is followed by مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا: purification in the community is presented as dependent on divine favor and mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 24:20 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ رَءُوفٌۭ رَّحِيمٌۭ»; 24:21 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًۭا»
+  - activation: The verse repeats the clause of 24:20 and states its consequence through the negative conditional construction.
+  - limits: The passage names divine favor and mercy as necessary; it does not attribute purification to either focus name separately.
+- **R-24:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: The appeal to forgive and overlook others is grounded in the question أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ and ends with غَفُورٌۭ رَّحِيمٌ; divine mercy is set beside a human practice of pardon.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 24:22 «وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌ»
+  - activation: The verse links commands to pardon with the hope of divine forgiveness and the name ٱلرَّحِيمُ.
+  - limits: It does not state that human pardon and divine mercy are identical acts.
+- **R-25:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sovereignty of that day is assigned to ٱلرَّحْمَٰنِ, while the same day is described as hard for disbelievers; the focus’s first name is directly present in a judgment scene.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 25:26 «ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ عَسِيرًۭا»
+  - activation: The name ٱلرَّحْمَٰنِ governs the statement of rightful dominion immediately beside the description of a difficult day for disbelievers.
+  - limits: The verse states both sovereignty and hardship but does not explain their relation.
+- **R-25:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: Winds are sent as good news before divine mercy, and the next verse identifies water that revives dead land; mercy is pictured as a precursor to renewal and provision.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 25:48 «أَرْسَلَ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ»; 25:49 «لِّنُحْۦِىَ بِهِۦ بَلْدَةًۭ مَّيْتًۭا وَنُسْقِيَهُۥ مِمَّا خَلَقْنَآ أَنْعَٰمًۭا وَأَنَاسِىَّ كَثِيرًۭا»
+  - activation: The phrase بَيْنَ يَدَىْ رَحْمَتِهِۦ leads directly to rain and the revival and watering described in 25:49.
+  - limits: This image makes mercy tangible in provision but does not delimit the meanings of the two names in 1:3.
+- **R-25:60** [reading; support strong, relevance high] inter-ayah target
+  - finding: The hearers answer the command to prostrate to ٱلرَّحْمَٰنُ by questioning the name and refusing; this supplies a scene of resistance to the very name recited in the focus.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 25:60 «وَإِذَا قِيلَ لَهُمُ ٱسْجُدُوا۟ لِلرَّحْمَٰنِ قَالُوا۟ وَمَا ٱلرَّحْمَٰنُ أَنَسْجُدُ لِمَا تَأْمُرُنَا وَزَادَهُمْ نُفُورًۭا»
+  - activation: The exact name ٱلرَّحْمَٰنُ is the object of both the command and the hearers’ question.
+  - limits: The verse reports their refusal but does not explain what understanding of the name they rejected.
+- **R-25:63** [reading; support strong, relevance high] inter-ayah target
+  - finding: The servants identified with ٱلرَّحْمَٰنِ are characterized by humility on earth and peaceful replies to ignorant speakers, giving the name a visible social conduct in this passage.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 25:63 «وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًۭا»
+  - activation: The construct عِبَادُ ٱلرَّحْمَٰنِ directly identifies these people by their relation to the focus’s first name.
+  - limits: The verse gives traits of these servants without defining every quality the name carries.
+- **R-26:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: A new reminder from ٱلرَّحْمَٰنِ is met with turning away, placing the name in a scene where mercy’s message reaches people who reject it.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:5 «وَمَا يَأْتِيهِم مِّن ذِكْرٍۢ مِّنَ ٱلرَّحْمَٰنِ مُحْدَثٍ إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ»
+  - activation: The verse explicitly attributes each new reminder to ٱلرَّحْمَٰنِ and pairs its arrival with their turning away.
+  - limits: It does not state why they reject the reminder or what response follows in this verse.
+- **R-26:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah’s repeated refrain pairs ٱلرَّحِيمُ with ٱلْعَزِيزُ after the statement that most did not believe; at the threshold of Moses’ story, mercy is voiced alongside might.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:8 «إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:9 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:10 «وَإِذْ نَادَىٰ رَبُّكَ مُوسَىٰٓ أَنِ ٱئْتِ ٱلْقَوْمَ ٱلظَّٰلِمِينَ»
+  - activation: The unbelief refrain precedes the paired title, and the next verse begins the command to Moses.
+  - limits: This refrain supplies ٱلرَّحِيمُ but not ٱلرَّحْمَٰنُ; the excerpt does not explain the names’ distinct roles.
+- **R-26:68** [reading; support strong, relevance high] inter-ayah target
+  - finding: The ٱلْعَزِيزُ ٱلرَّحِيمُ refrain returns after another sign-and-unbelief statement, closing the Moses section before Abraham’s account begins.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:67 «إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:68 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:69 «وَٱتْلُ عَلَيْهِمْ نَبَأَ إِبْرَٰهِيمَ»
+  - activation: The repeated wording makes this an instance of the refrain first heard at 26:9; 26:69 then opens a new prophetic account.
+  - limits: The formula’s recurrence is clear, while this excerpt does not state a distinct meaning for ٱلرَّحِيمُ in the Moses episode.
+- **R-26:104** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same Mighty-Merciful formula closes Abraham’s account after the sign and the note that most did not believe, making the second name part of the surah’s recurring prophetic refrain.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:103 «إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:104 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:105 «كَذَّبَتْ قَوْمُ نُوحٍ ٱلْمُرْسَلِينَ»
+  - activation: The formula follows the sign-and-belief refrain and precedes the next people’s rejection of messengers.
+  - limits: This occurrence confirms the repeated pattern but does not specify how mercy figures in Abraham’s particular account.
+- **R-26:122** [reading; support strong, relevance high] inter-ayah target
+  - finding: After Noah’s sign and the repeated observation that most were not believers, ٱلرَّحِيمُ again closes the unit in the paired title ٱلْعَزِيزُ ٱلرَّحِيمُ.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:121 «إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:122 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:123 «كَذَّبَتْ عَادٌ ٱلْمُرْسَلِينَ»
+  - activation: The same refrain at the end of the Noah passage precedes the account of ʿĀd.
+  - limits: The formula’s placement supports a recurring pattern but does not say that the same outcome applies to every people named.
+- **R-26:140** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here the refrain follows an explicit report that the people of ʿĀd were destroyed, then the sign-and-unbelief formula; ٱلرَّحِيمُ is voiced in the narrative sequence that includes judgment.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:139 «فَكَذَّبُوهُ فَأَهْلَكْنَٰهُمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:140 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:141 «كَذَّبَتْ ثَمُودُ ٱلْمُرْسَلِينَ»
+  - activation: The destruction statement is immediately followed by the familiar title, which also introduces the next people’s rejection.
+  - limits: The sequence does not explain the relation between the named mercy and the destruction described.
+- **R-26:159** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the people are overtaken by punishment, the refrain names the Lord ٱلْعَزِيزُ ٱلرَّحِيمُ; the surah places mercy beside an explicit punishment outcome.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:158 «فَأَخَذَهُمُ ٱلْعَذَابُ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:159 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:160 «كَذَّبَتْ قَوْمُ لُوطٍ ٱلْمُرْسَلِينَ»
+  - activation: The word ٱلْعَذَابُ in the preceding verse and the repeated title form a tight sequence.
+  - limits: This placement does not resolve why punishment occurs alongside the name ٱلرَّحِيمُ.
+- **R-26:175** [reading; support strong, relevance high] inter-ayah target
+  - finding: The refrain ٱلْعَزِيزُ ٱلرَّحِيمُ appears after the sign-and-unbelief formula for the companions of the thicket, extending the surah’s repeated pairing of might and mercy across another prophetic account.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:174 «إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:175 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:176 «كَذَّبَ أَصْحَٰبُ لْـَٔيْكَةِ ٱلْمُرْسَلِينَ»
+  - activation: This occurrence repeats the title at the boundary between a sign-and-unbelief statement and another messenger story.
+  - limits: The excerpt marks recurrence but does not supply the full account’s specific link between mercy and its outcome.
+- **R-26:191** [reading; support strong, relevance high] inter-ayah target
+  - finding: At the close of the prophetic sign-and-unbelief sequence, the refrain again names ٱلرَّحِيمُ; the next ayah identifies the Qur’an as a revelation from the Lord of the worlds, carrying the title into the revelation passage.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:190 «إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ»; 26:191 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:192 «وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The recurring title closes the narrative pattern immediately before the declaration of the Qur’an’s revelation.
+  - limits: The sequence creates adjacency, but does not explicitly say that the title explains the act of revelation.
+- **R-26:217** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to rely on ٱلْعَزِيزِ ٱلرَّحِيمِ joins the focus’s second name to reliance on God after the Prophet is told to disassociate from disobedient people.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:216 «فَإِنْ عَصَوْكَ فَقُلْ إِنِّى بَرِىٓءٌۭ مِّمَّا تَعْمَلُونَ»; 26:217 «وَتَوَكَّلْ عَلَى ٱلْعَزِيزِ ٱلرَّحِيمِ»
+  - activation: The imperative وَتَوَكَّلْ directly grounds reliance in the two divine names.
+  - limits: The verse does not specify the particular help that reliance will bring.
+- **R-27:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: Solomon asks to be admitted among the righteous by divine mercy after praying to give thanks and do pleasing work; mercy is sought as the means of belonging to that community.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 27:19 «وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ»
+  - activation: The prayer joins gratitude, righteous action, and entry by mercy in a single request.
+  - limits: This is Solomon’s petition and does not state a general condition for admission among the righteous.
+- **R-27:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: Solomon’s letter contains the focus’s exact pair in the basmala, making these names part of the written address that precedes his command to the Queen.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 27:30 «إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The letter’s formula repeats both names in the same order as the focus.
+  - limits: The verse shows the formula in this letter but does not explain whether its use changes the letter’s political force.
+- **R-27:63** [reading; support strong, relevance high] inter-ayah target
+  - finding: Guidance through land and sea darkness and the sending of winds before divine mercy are presented as signs in a repeated challenge to name any god alongside Allah; mercy is embedded in an argument for divine oneness.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 27:63 «أَمَّن يَهْدِيكُمْ فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَٰهٌۭ مَّعَ ٱللَّهِ»
+  - activation: The rhetorical question links guidance and winds before mercy to the challenge أَءِلَٰهٌۭ مَّعَ ٱللَّهِ.
+  - limits: The verse connects these acts to divine oneness without giving separate definitions of the focus’s two names.
+- **R-27:77** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Qur’an itself is called guidance and mercy for believers, giving the focus’s names a counterpart in the revealed message and its audience.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 27:76 «إِنَّ هَٰذَا ٱلْقُرْءَانَ يَقُصُّ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَكْثَرَ ٱلَّذِى هُمْ فِيهِ يَخْتَلِفُونَ»; 27:77 «وَإِنَّهُۥ لَهُدًۭى وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ»
+  - activation: The pronoun وَإِنَّهُۥ follows the statement about the Qur’an, assigning guidance and mercy to it for believers.
+  - limits: The verse identifies the Qur’an as mercy but does not explain the relation between that mercy and either name in 1:3.
+- **R-28:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: After Moses confesses wrongdoing and asks forgiveness, the verse says he was forgiven and names God غَفُورٌ ٱلرَّحِيمُ; the focus’s second name accompanies a specific act of forgiveness.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 28:16 «قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ»
+  - activation: The request فَٱغْفِرْ لِى is immediately answered by فَغَفَرَ لَهُۥ and the paired divine names.
+  - limits: The verse pairs ٱلرَّحِيمُ with ٱلْغَفُورُ rather than ٱلرَّحْمَٰنُ and does not distinguish their roles.
+- **R-28:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Book given to Moses is described as insight, guidance, and mercy for people, making revelation itself a means by which divine mercy reaches an audience.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 28:43 «وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُمْ يَتَذَكَّرُونَ»
+  - activation: The verse predicates رَحْمَةً of the Book and links its purpose to people’s remembrance.
+  - limits: The verse describes the Book’s function but does not identify its mercy with a single focus name.
+- **R-28:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Prophet’s access to the account of Moses is called mercy from his Lord and is directed toward warning people who had no prior warner, linking mercy with warning rather than silence about consequence.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 28:46 «وَمَا كُنتَ بِجَانِبِ ٱلطُّورِ إِذْ نَادَيْنَا وَلَٰكِن رَّحْمَةًۭ مِّن رَّبِّكَ لِتُنذِرَ قَوْمًۭا مَّآ أَتَىٰهُم مِّن نَّذِيرٍۢ مِّن قَبْلِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ»
+  - activation: The verse identifies the communication as mercy and gives warning and remembrance as its stated purpose.
+  - limits: It describes this prophetic communication, not every form or recipient of mercy.
+- **R-28:73** [reading; support strong, relevance high] inter-ayah target
+  - finding: Night and day are gifts from divine mercy that enable rest, seeking bounty, and gratitude, grounding the mercy named in the focus in the recurring structure of human life.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 28:73 «وَمِن رَّحْمَتِهِۦ جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The verse explicitly derives the night-and-day arrangement from mercy and names its human uses.
+  - limits: It presents one created benefit and does not claim that every person responds with gratitude.
+- **R-28:86** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Book’s arrival to the Prophet is called mercy from his Lord, immediately followed by a warning not to support disbelievers; mercy here accompanies a demanding commission.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 28:86 «وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَٰبُ إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًۭا لِّلْكَٰفِرِينَ»
+  - activation: The verse calls the unexpected Book mercy and connects that gift to the command that follows.
+  - limits: It describes the Book as mercy without assigning the command to one of the two names separately.
+- **R-29:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse places يَرْحَمُ beside يُعَذِّبُ, both governed by مَن يَشَآءُ, and ends with return to God; mercy in this passage sits within a frame of will and accountability.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 29:21 «يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ»
+  - activation: The paired verbs and the final statement of return place mercy beside punishment and eventual turning back.
+  - limits: The verse does not identify criteria for either outcome or equate these verbs with the focus’s names.
+- **R-29:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who reject God’s signs and meeting are said to despair of His mercy and face painful punishment; the focus’s mercy names have a sharp counterpart in the possibility of being cut off from hope in mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 29:23 «وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى وَأُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌۭ»
+  - activation: The verse names rejection as the setting for despair of divine mercy and mentions punishment in the same statement.
+  - limits: It describes the rejecters’ state and does not specify that all forms of hope are foreclosed for every person who sins.
+- **R-29:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: The revealed Book, recited to its audience, is called mercy and reminder for believers; the focus’s names thus meet a description of revelation’s effect.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 29:51 «أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَرَحْمَةًۭ وَذِكْرَىٰ لِقَوْمٍۢ يُؤْمِنُونَ»
+  - activation: The verse explicitly joins the recited Book to mercy and reminder, specifying believers as its audience.
+  - limits: The wording does not divide the Book’s mercy between the two names in 1:3.
+- **R-30:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The victory granted by God is followed by ٱلْعَزِيزُ ٱلرَّحِيمُ; the focus’s second name appears alongside divine aid in a political conflict.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 30:5 «بِنَصْرِ ٱللَّهِ ۚ يَنصُرُ مَن يَشَآءُ ۖ وَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»
+  - activation: The verse links victory and God’s choice to grant aid with the paired title ٱلْعَزِيزُ ٱلرَّحِيمُ.
+  - limits: It does not specify a distinct role for mercy in the military outcome.
+- **related_4.X1** [reading; support strong, relevance high] 
+  - finding: The focus repeats the exact mercy pair from the opening basmala, creating a return to the opening formula after the praise of the Lord of the worlds.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The same ordered pair closes 1:1 and stands again in 1:3 after 1:2.
+  - limits: The repetition establishes a literary return but does not by itself prove a distinct meaning for the two occurrences.
+- **R-30:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: The mercy named in the focus is given a tangible scene: winds announce benefit, ships travel by God’s command, and people seek His bounty.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 30:46 «وَلِيُذِيقَكُم مِّن رَّحْمَتِهِۦ»; 30:46 «وَلَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The verse explicitly calls these benefits a tasting of His mercy and links them to gratitude.
+  - limits: It gives particular examples of mercy, not an exhaustive definition of the paired names.
+- **R-30:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: The names of mercy can be heard beside its visible traces: rain revives dead land, which the verse then presents as a sign of God’s power to revive the dead.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 30:50 «فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ»; 30:50 «كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ»
+  - activation: The focus’s abstract mercy names meet the command to look at mercy’s آثار and the movement from death to life.
+  - limits: The verse connects revived land to resurrection by analogy and power; it does not assign either name a separate role.
+- **R-32:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahim also appears outside the focus’s al-Rahman–al-Rahim pair: here it follows the description of God as knower of the unseen and witnessed and al-Aziz.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 32:6 «ذَٰلِكَ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ ٱلرَّحِيمُ»
+  - activation: The exact name al-Rahim closes a different sequence, following divine knowledge and might.
+  - limits: This occurrence shows another pairing for al-Rahim; it does not establish distinct meanings for the two names in the focus.
+- **R-33:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahim is contextualized as mercy toward believers, expressed through bringing them from darkness to light.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 33:43 «لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ»; 33:43 «وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًۭا»
+  - activation: The verse repeats the name al-Rahim and identifies its recipients and an act associated with it.
+  - limits: This occurrence does not establish that al-Rahim always has a narrower scope than al-Rahman.
+- **R-35:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s mercy names can be read beside a sharp claim about agency: whatever mercy God opens cannot be withheld, and whatever He withholds cannot be sent by another.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 35:2 «مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍۢ فَلَا مُمْسِكَ لَهَا»; 35:2 «وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ»
+  - activation: The shared word رحمة is presented as solely under God’s opening and withholding.
+  - limits: The verse concerns God’s control of mercy; it does not distinguish the functions of al-Rahman and al-Rahim.
+- **R-36:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahim qualifies the source of revelation’s descent, giving the focus’s mercy name a role in the arrival of scripture.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:5 «تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ»
+  - activation: The exact name al-Rahim follows al-Aziz in a phrase identifying the revelation’s source.
+  - limits: This verse uses al-Rahim without al-Rahman and does not itself call the revelation mercy.
+- **R-36:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahman is named in connection with fear of God in the unseen, followed by good news of forgiveness and a generous reward.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:11 «وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ»; 36:11 «فَبَشِّرْهُ بِمَغْفِرَةٍۢ وَأَجْرٍۢ كَرِيمٍ»
+  - activation: The focus’s first name is explicitly used as the one whom the follower fears, with forgiveness and reward as the response.
+  - limits: This pairing of fear and good news does not define the full meaning of al-Rahman.
+- **R-36:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the messengers’ town scene, opponents themselves name al-Rahman while denying that He sent anything; the mercy title appears in a contested claim about revelation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:15 «وَمَآ أَنزَلَ ٱلرَّحْمَٰنُ مِن شَىْءٍ»
+  - activation: The same name from the focus is spoken by people rejecting the messengers’ claim to have been sent.
+  - limits: The opponents’ statement is presented as denial, not as the surah’s account of what al-Rahman has done.
+- **R-36:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahman is invoked as the one who may will harm, while the idols cannot avert it or rescue the speaker; the name stands beside sovereign power as well as mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:23 «إِن يُرِدْنِ ٱلرَّحْمَٰنُ بِضُرٍّۢ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًۭٔا وَلَا يُنقِذُونِ»
+  - activation: The verse uses the focus’s first name in a conditional about harm and contrasts God’s will with powerless intercessors.
+  - limits: This argument concerns divine agency; it does not explain why the name al-Rahman is chosen in this sentence.
+- **R-36:44** [reading; support strong, relevance high] inter-ayah target
+  - finding: After describing a drowning from which no one could rescue people, the text makes mercy the exception and pairs it with enjoyment limited to a term.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:43 «وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ»; 36:44 «إِلَّا رَحْمَةًۭ مِّنَّا وَمَتَٰعًا إِلَىٰ حِينٍۢ»
+  - activation: The shared root appears as the exception to threatened destruction, immediately bounded by “إِلَىٰ حِينٍۢ”.
+  - limits: The passage gives one scene of respite; it does not reduce either divine name to temporary worldly benefit.
+- **R-36:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mercy is a possible outcome held before those addressed as they are urged to guard against what lies ahead and behind them.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:45 «وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ»
+  - activation: The shared root occurs as a prospective result of heeding the warning.
+  - limits: The verse says “perhaps”; it does not state that the warning is the only route to mercy.
+- **R-36:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: The resurrection scene moves from the dead rising toward their Lord to their recognition that al-Rahman had promised this event and the messengers spoke truth.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:51 «فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ»; 36:52 «هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ»
+  - activation: The neighboring confession identifies the resurrection that 36:51 depicts as a promise of the focus’s first name.
+  - limits: The scene confirms the promise; it does not specify whether resurrection is the sole referent of that promise.
+- **R-36:52** [reading; support strong, relevance high] inter-ayah target
+  - finding: People confronted with their awakening name al-Rahman as the promiser and affirm the messengers, placing the mercy title in a moment of eschatological recognition.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:52 «هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ»
+  - activation: The same divine name is explicitly attached to the fulfilled promise in the resurrection scene.
+  - limits: The confession identifies the promise but does not state that the name itself denotes resurrection.
+- **R-36:58** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahim’s speech is itself a greeting of peace in the garden, immediately contrasted with the command that criminals separate out.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 36:58 «سَلَٰمٌۭ قَوْلًۭا مِّن رَّبٍّۢ رَّحِيمٍۢ»; 36:59 «وَٱمْتَٰزُوا۟ ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ»
+  - activation: The verse makes peace a spoken word from the Lord named al-Rahim and places it beside a contrasting address to wrongdoers.
+  - limits: The contrast is between two groups in this scene; it does not define the complete reach of mercy.
+- **R-37:118** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s mercy pair precedes the Fatiha’s request for guidance to “ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ”; 37:118 uses the same path phrase for God’s guidance of Moses and Aaron, placing that petition beside a prophetic precedent.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 37:118 «وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The Fatiha moves from the focus’s praise to a request for guidance, and 37:118 gives the same path formula as an act of divine guidance.
+  - limits: 37:118 names neither the mercy pair nor the Fatiha; it does not make the names a direct cause of guidance.
+- **R-38:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question about who possesses the treasures of the Lord’s mercy challenges claims over its distribution; the focus’s names accompany mercy that belongs to God.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 38:9 «أَمْ عِندَهُمْ خَزَآئِنُ رَحْمَةِ رَبِّكَ ٱلْعَزِيزِ ٱلْوَهَّابِ»
+  - activation: The shared word رحمة is framed as treasures of the Lord, with al-Aziz and al-Wahhab as accompanying names.
+  - limits: The question does not specify which blessings count as those treasures or distinguish the focus’s two names.
+- **R-38:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mercy becomes concrete in Job’s restoration: his family and as many again are given as mercy from God, and as a reminder for people of insight.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 38:43 «وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنَّا»; 38:43 «وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ»
+  - activation: The verse names the restoration itself as mercy and gives it a teaching function.
+  - limits: This episode illustrates mercy in one prophetic life, not a general promise of restored losses.
+- **R-39:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: The contrast between God willing harm or mercy and idols being unable to avert or retain either gives the focus’s names an exclusive-agency frame.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 39:38 «أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ»; 39:38 «قُلْ حَسْبِىَ ٱللَّهُ»
+  - activation: The shared root appears in a question about who can keep God’s mercy from reaching someone.
+  - limits: The verse argues against reliance on idols; it does not parse al-Rahman and al-Rahim separately.
+- **R-39:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s al-Rahim appears in an invitation not to despair after wrongdoing, joined to the name al-Ghafur and a declaration of forgiveness.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 39:53 «لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ»; 39:53 «إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ»; 39:54 «وَأَنِيبُوٓا۟ إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا۟ لَهُۥ»
+  - activation: The same mercy root and exact name al-Rahim ground the appeal to people who have wronged themselves.
+  - limits: The following call to turn back and submit remains part of the passage’s appeal.
+- **R-40:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s mercy names meet an explicit pairing of mercy with knowledge, which the bearers of the Throne describe as encompassing all things before asking forgiveness for believers.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 40:7 «وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا»; 40:7 «فَٱغْفِرْ لِلَّذِينَ تَابُوا۟»
+  - activation: The prayer places the noun رحمة beside علم and makes forgiveness a requested consequence.
+  - limits: The prayer’s wording does not map mercy and knowledge onto the two focus names one by one.
+- **R-40:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mercy is described as protection from evils on the Day of Judgment, and that protection is called a great triumph.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 40:9 «وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍۢ فَقَدْ رَحِمْتَهُۥ»; 40:9 «وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ»
+  - activation: The shared root makes eschatological protection an explicit instance of mercy.
+  - limits: This prayer names one effect of mercy; it does not exhaust the focus’s paired names.
+- **R-41:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s exact pair qualifies the source from whom revelation descends, linking its opening praise to the Qur’an’s descent.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 41:2 «تَنزِيلٌۭ مِّنَ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: Both names occur together in the same order in a phrase naming the revelation’s source.
+  - limits: The wording establishes the source and titles, without explaining how each name relates to the act of descent.
+- **R-41:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahim joins al-Ghafur in describing a welcome from God, giving the mercy name a place in the reception promised to those who say their Lord is God and remain upright.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 41:31 «نَحْنُ أَوْلِيَآؤُكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ»; 41:32 «نُزُلًۭا مِّنْ غَفُورٍۢ رَّحِيمٍۢ»
+  - activation: The verse uses the exact name al-Rahim in a welcome linked to the preceding promise of believers’ guardianship.
+  - limits: This occurrence pairs al-Rahim with forgiveness rather than al-Rahman and does not define either pair’s scope.
+- **R-41:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: After mercy is given from God, the recipient claims “this is mine” and discounts the Hour; the passage contrasts divine bestowal with human appropriation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 41:50 «أَذَقْنَٰهُ رَحْمَةًۭ مِّنَّا مِنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُ»; 41:50 «هَٰذَا لِى»
+  - activation: The mercy is explicitly attributed to God, while the human speaker recasts it as his own entitlement.
+  - limits: The passage describes this person’s reaction and does not say every recipient responds this way.
+- **R-42:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: In a cosmic scene where angels seek forgiveness for earth’s inhabitants, God is named al-Ghafur al-Rahim; mercy is set beside intercession on behalf of people.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 42:5 «وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ»; 42:5 «أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ»
+  - activation: The verse repeats al-Rahim in the setting of angels asking forgiveness for people on earth.
+  - limits: It does not state that the angels’ request is the sole means by which mercy reaches people.
+- **R-42:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: Mercy is also a domain into which God admits whom He wills, while the preceding verse has described divided outcomes; the focus’s names do not imply identical reception for everyone.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 42:7 «فَرِيقٌۭ فِى ٱلْجَنَّةِ وَفَرِيقٌۭ فِى ٱلسَّعِيرِ»; 42:8 «وَلَٰكِن يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ»
+  - activation: The shared root is used for entry into mercy within a passage that explicitly distinguishes outcomes.
+  - limits: The passage does not explain the basis of this choosing or divide the act between al-Rahman and al-Rahim.
+- **R-42:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: Rain sent after despair is followed by the spreading of God’s mercy, giving the focus’s mercy names a scene of renewed hope.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 42:28 «وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ»
+  - activation: The verse directly names rain and the ensuing spread of mercy after people have despaired.
+  - limits: The rain scene exemplifies mercy but does not define every use of the name.
+- **R-42:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: The human recipient rejoices when given mercy, yet the passage calls the human being ungrateful when hardship arrives; receiving mercy does not ensure gratitude.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 42:48 «وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةًۭ فَرِحَ بِهَا»; 42:48 «فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌۭ»
+  - activation: The shared root introduces a contrast between receiving mercy and responding to adversity.
+  - limits: This is the passage’s characterization of human conduct, not a judgment that every person is ungrateful.
+- **R-43:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahman is named in a polemic about what people attribute to Him, amid the surrounding argument over daughters and angels; the title appears in a Quranic rejection of such projection.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 43:16 «أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍۢ»; 43:17 «بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًۭا»; 43:19 «وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ ٱلرَّحْمَٰنِ إِنَٰثًا»
+  - activation: The adjacent verses specify that the contested “likeness” concerns daughters and that people call angels female servants of al-Rahman.
+  - limits: This polemic does not derive the name’s meaning from the dispute or connect it to human reproduction.
+- **R-43:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: People invoke al-Rahman’s will to excuse their worship of other beings, but the verse calls this claim unsupported conjecture; the mercy title does not function here as endorsement of their worship.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 43:20 «وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَٰنُ مَا عَبَدْنَٰهُم»; 43:20 «مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ»
+  - activation: The focus’s first name is directly cited in the claim, which the verse immediately rejects as lacking knowledge.
+  - limits: The passage rebuts this particular argument; it does not set out a full account of divine will.
+- **R-43:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question “Do they divide your Lord’s mercy?” contests human claims to allocate it; the verse distinguishes worldly livelihood and rank from the Lord’s mercy, which is better than what people collect.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 43:32 «أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ»; 43:32 «وَرَحْمَتُ رَبِّكَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ»
+  - activation: The phrase “your Lord’s mercy” echoes the focus’s position after praise of the Lord of the worlds.
+  - limits: The verse does not identify this mercy with a particular one of the focus’s two names.
+- **R-43:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Turning away from the remembrance of al-Rahman is followed by assignment of a devil as companion, who obstructs the path while the person thinks he is guided.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 43:36 «وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا»; 43:37 «وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»
+  - activation: The focus’s first name occurs as the one whose remembrance the person neglects.
+  - limits: The passage describes the consequence of turning away; it does not say every mention of al-Rahman has this warning in view.
+- **R-43:81** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahman appears in a conditional argument about a son, followed by glorification of the Lord of the heavens and earth beyond their descriptions; the name is not a license for divine kinship claims.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 43:81 «قُلْ إِن كَانَ لِلرَّحْمَٰنِ وَلَدٌۭ فَأَنَا۠ أَوَّلُ ٱلْعَٰبِدِينَ»; 43:82 «سُبْحَٰنَ رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ»
+  - activation: The focus’s first name is the subject of the hypothetical, while the following verse rejects the descriptions at issue.
+  - limits: The conditional wording and its rhetorical force do not by themselves establish a separate meaning for al-Rahman.
+- **R-44:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: On a day when no ally can help another, those shown mercy by God are the exception; al-Rahim follows al-Aziz in that judgment setting.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 44:41 «يَوْمَ لَا يُغْنِى مَوْلًى عَن مَّوْلًۭى شَيْـًۭٔا وَلَا هُمْ يُنصَرُونَ»; 44:42 «إِلَّا مَن رَّحِمَ ٱللَّهُ ۚ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»
+  - activation: The shared root marks the exception to the absence of mutual aid, and the verse names God al-Rahim.
+  - limits: It identifies an exception without describing who receives mercy or how.
+- **R-45:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Qur’an is described as insight, guidance, and mercy for people of certainty, making mercy an effect of revelation received with a particular response.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 45:20 «هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُوقِنُونَ»
+  - activation: The shared root appears in a description of scripture beside guidance and insight.
+  - limits: The verse does not use the two divine names or distinguish their meanings.
+- **R-45:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: For believers who do good, entry into the Lord’s mercy is presented as the outcome of judgment and as clear success, contrasted in the next verse with the disbelievers.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 45:30 «فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ»; 45:31 «وَأَمَّا ٱلَّذِينَ كَفَرُوٓا۟»
+  - activation: The focus’s mercy root reappears as a domain into which the Lord admits a group after judgment.
+  - limits: The verse gives this outcome for believers who do good; it does not define all recipients or forms of mercy.
+- **R-46:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-Rahim closes a response to the charge of fabrication, after God is named as knower and witness; the mercy name appears within a passage that retains accountability.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 46:8 «هُوَ أَعْلَمُ بِمَا تُفِيضُونَ فِيهِ»; 46:8 «كَفَىٰ بِهِۦ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۖ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ»
+  - activation: The exact name al-Rahim concludes the same statement that calls God knower and witness.
+  - limits: The verse does not make a direct connection between mercy and the accusation itself.
+- **R-46:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both the earlier Book of Moses and the present Arabic book are placed in a chain of guidance and mercy, linking the focus’s divine names with prophetic scripture across time.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 46:12 «وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًۭا وَرَحْمَةًۭ»; 46:12 «وَهَٰذَا كِتَٰبٌۭ مُّصَدِّقٌۭ لِّسَانًا عَرَبِيًّۭا»
+  - activation: The shared root names the earlier book’s function as mercy beside the present book that confirms it.
+  - limits: The verse does not explicitly call the present book mercy in this excerpt or name the two focus epithets.
+- **R-47:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: The kinship word “أَرْحَامَكُمْ” shares the root of the focus’s mercy names, creating an ethical resonance between divine mercy and the warning against severing family ties.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 47:22 «وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ»
+  - activation: The shared root brings mercy names beside a concrete social breach involving kinship.
+  - limits: The verse does not say that the names refer specifically to kinship or derive a family rule from them.
+- **R-48:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: God’s mercy constrains the outcome of the encounter: unseen believing men and women are present, so the believers are spared harming them unknowingly and causing injury.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 48:25 «وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ»; 48:25 «لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ»
+  - activation: The verse explicitly connects entry into mercy with restraint in a scene where believers are hidden among the opposing group.
+  - limits: The passage gives a reason for restraint in this encounter; it does not define every way divine mercy operates.
+- **related_5.X1** [reading; support strong, relevance high] 
+  - finding: The focus repeats the exact mercy pair from the basmala after 1:2’s praise, making the opening invocation return as an internal refrain.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»
+  - activation: The focus reproduces both names in the same order after a verse of praise, echoing the opening formula.
+  - limits: The repetition creates a formal ring but does not establish a distinct meaning for either occurrence.
+- **R-49:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The prospect of being shown mercy is attached to reconciliation: believers are called brothers, told to repair a breach, and urged to fear God so that they may receive mercy.
+  - evidence: 49:10 «إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌۭ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ»
+  - activation: This gives the focus’s paired mercy names a communal setting of restored relations and piety.
+  - limits: The verse uses a verb from ر ح م, not either divine name, and does not define the names by reconciliation alone.
+- **R-50:33** [reading; support strong, relevance high] inter-ayah target
+  - finding: The name ٱلرَّحْمَٰنُ is invoked by someone who fears Him in the unseen; the next verse welcomes this person into Paradise in peace. The name thus stands with awe and welcome together.
+  - evidence: 50:33 «مَّنْ خَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ وَجَآءَ بِقَلْبٍۢ مُّنِيبٍ»; 50:34 «ٱدْخُلُوهَا بِسَلَٰمٍۢ ۖ ذَٰلِكَ يَوْمُ ٱلْخُلُودِ»
+  - activation: The focus’s mercy names are followed in 1:4 by the King of the Day of Requital, so this pairing of mercy with final accountability bears on their placement.
+  - limits: This scene connects the name with fear and welcome but does not explain why the person is admitted or make fear the meaning of mercy.
+- **R-52:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: After being spared the scorching torment, the speakers recall that they used to call upon God and name Him ٱلْبَرُّ ٱلرَّحِيمُ. The focus’s ٱلرَّحِيمِ is associated here with beneficence and deliverance.
+  - evidence: 52:27 «فَمَنَّ ٱللَّهُ عَلَيْنَا وَوَقَىٰنَا عَذَابَ ٱلسَّمُومِ»; 52:28 «إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ ٱلرَّحِيمُ»
+  - activation: The shared name appears in a retrospective prayer and rescue scene, giving the focus’s second epithet an experienced setting.
+  - limits: The speakers connect their earlier invocation with God’s beneficence and mercy, but the text does not specify which name accounts for each part of their rescue.
+- **R-55:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: Surah 55 opens with ٱلرَّحْمَٰنُ alone, then begins a sequence of divine acts. The focus’s first name can therefore be heard as a heading for the gifts and acts that follow in this passage.
+  - evidence: 55:1 «ٱلرَّحْمَٰنُ»; 55:2 «عَلَّمَ ٱلْقُرْءَانَ»; 55:3 «خَلَقَ ٱلْإِنسَٰنَ»
+  - activation: The same name opens the focus’s pair, while this passage isolates it at the head of its own surah.
+  - limits: Surah 55 does not repeat ٱلرَّحِيمُ here or state that these acts exhaust the first name’s meaning.
+- **R-55:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The first deed under the opening name ٱلرَّحْمَٰنُ is teaching the Qur’an. This directly associates the focus’s first epithet with instruction and revelation.
+  - evidence: 55:1 «ٱلرَّحْمَٰنُ»; 55:2 «عَلَّمَ ٱلْقُرْءَانَ»
+  - activation: The sequence places the teaching verb immediately after the name, with no intervening subject.
+  - limits: The verse does not use the root ر ح م for teaching or state that instruction is the name’s sole effect.
+- **R-55:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: Human creation is another act in the sequence opened by ٱلرَّحْمَٰنُ, extending that name’s immediate setting from Qur’an teaching to the creation of humankind.
+  - evidence: 55:1 «ٱلرَّحْمَٰنُ»; 55:3 «خَلَقَ ٱلْإِنسَٰنَ»
+  - activation: The name remains the passage’s opening subject through its list of acts, including the creation of the human being.
+  - limits: The wording links the act to the name in the passage’s sequence but does not specify a distinct sense of mercy in the act of creation.
+- **R-55:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: After creating the human being, the passage names teaching البيان as a further divine gift under its opening ٱلرَّحْمَٰنُ. Mercy’s setting here includes the capacity for expression.
+  - evidence: 55:3 «خَلَقَ ٱلْإِنسَٰنَ»; 55:4 «عَلَّمَهُ ٱلْبَيَانَ»; 55:1 «ٱلرَّحْمَٰنُ»
+  - activation: The pronoun in عَلَّمَهُ returns to the human being just created, extending the act sequence that the name introduces.
+  - limits: This associates communication with the passage’s Rahman heading; it does not equate البيان with mercy or identify it as a meaning of the name.
+- **R-57:27** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here God places رأفة and رحمة in the hearts of Jesus’s followers, while the passage distinguishes those qualities from monasticism they invented and failed to observe properly. The next verse speaks of God’s own mercy and calls Him رحيم. Together the verses place human mercy and the divine name near each other while keeping them distinct.
+  - evidence: 57:27 «وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةًۭ وَرَحْمَةًۭ وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا»; 57:27 «فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا»; 57:28 «يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ»
+  - activation: The occurrence of رحمة in hearts is followed by a promise from His mercy and the epithet رَّحِيمٌۭ, which matches the focus’s second name.
+  - limits: The shared root and adjacent verses do not say that human compassion is identical with God’s attribute or that the failure concerned every follower.
+- **R-57:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: After commands to fear God and believe in His Messenger, the verse promises two shares of His mercy, light, forgiveness, and names Him غَفُورٌۭ رَّحِيمٌۭ. It places the focus’s second name in a setting of promised aid and forgiveness.
+  - evidence: 57:28 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ»; 57:28 «وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The same Rahim epithet closes a sequence in which mercy, light, and forgiveness are given to believers.
+  - limits: The two shares are not identified with the two names in the focus, and the verse does not say that the promise is unconditional.
+- **R-59:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The prayer for forgiveness and for hearts free of rancor toward believers ends by addressing God as رَءُوفٌۭ رَّحِيمٌ. This locates the focus’s second name within an appeal for mercy across communal generations.
+  - evidence: 59:10 «رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ»; 59:10 «وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ»
+  - activation: The same Rahim epithet grounds a prayer about forgiveness and the inner disposition of later believers toward those who came before them.
+  - limits: The verse pairs رحيم with رءوف rather than رحمن, and the prayer does not define either divine name.
+- **R-59:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact pair ٱلرَّحْمَٰنُ ٱلرَّحِيمُ follows a statement that God knows the unseen and the witnessed. The pair thus appears within a portrait that joins mercy to complete knowledge.
+  - evidence: 59:22 «عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ»
+  - activation: This is the same definite pair as in the focus, preceded here by knowledge of what is hidden and what is manifest.
+  - limits: The sequence places the attributes together but does not state a causal relation between knowledge and mercy.
+- **R-60:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The word أَرْحَامُكُمْ names kinship ties through the same ر ح م root as the focus’s two names; the verse says these ties and children will not avail at the Resurrection. With 1:4 immediately after the focus, the mercy names can be heard against the failure of family bonds to secure one at judgment.
+  - evidence: 60:3 «لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَآ أَوْلَٰدُكُمْ ۚ يَوْمَ ٱلْقِيَٰمَةِ يَفْصِلُ بَيْنَكُمْ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The focus is also followed by the Day of Requital, which activates the verse’s scene of kinship failing to avail at the Resurrection.
+  - limits: The shared root and judgment setting do not say that God’s mercy is kinship, that family bonds have no value in life, or that mercy guarantees salvation.
+- **R-64:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: Spouses and children may be a trial or enemy, yet believers are told to pardon, overlook, and forgive; the verse closes with غَفُورٌۭ رَّحِيمٌۭ. The focus’s Rahim name is thus linked to mercy amid family conflict.
+  - evidence: 64:14 «إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَٰدِكُمْ عَدُوًّۭا لَّكُمْ فَٱحْذَرُوهُمْ»; 64:14 «وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ»
+  - activation: The verse couples a difficult family relationship with a command to forgive and the same Rahim epithet as the focus’s second name.
+  - limits: It does not say that every family conflict should be excused or that the divine epithet is limited to forgiving relatives.
+- **R-67:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase خَلْقِ ٱلرَّحْمَٰنِ names the created order as belonging to ٱلرَّحْمَٰنُ and challenges the listener to find any flaw in it. The focus’s first name is thus used in a scene of ordered creation.
+  - evidence: 67:3 «مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍۢ»
+  - activation: The same first focus name directly modifies creation here, following mention of the creation of seven heavens.
+  - limits: The verse describes creation as free of discrepancy but does not define ٱلرَّحْمَٰنُ as an order-term or say that the name is used only in creation passages.
+- **R-67:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: The birds’ holding in flight is attributed to ٱلرَّحْمَٰنُ. The name is presented as active sustaining power in a visible, ongoing scene.
+  - evidence: 67:19 «مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ»
+  - activation: The focus’s first name is used here as the sole agent holding the birds, with the verse adding that He sees everything.
+  - limits: The verse names the agent but does not explicitly call the act mercy or say that bird-flight is the name’s full sense.
+- **R-67:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse asks who could aid people apart from ٱلرَّحْمَٰنُ. This makes the focus’s first name the explicit counterpart to the Fatiha’s later declaration, إِيَّاكَ نَسْتَعِينُ: help is sought from God alone.
+  - evidence: 67:20 «أَمَّنْ هَٰذَا ٱلَّذِى هُوَ جُندٌۭ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَٰنِ»; 1:5 «وَإِيَّاكَ نَسْتَعِينُ»
+  - activation: The focus’s name is followed in the Fatiha by exclusive seeking of help, matching this question about any helper apart from ٱلرَّحْمَٰنُ.
+  - limits: The verse’s challenge concerns reliance on other aid; it does not explain the name’s morphology or equate mercy with military rescue.
+- **R-67:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: The speaker is instructed to say, هُوَ ٱلرَّحْمَٰنُ, then professes belief and reliance upon Him. The first name in the focus is thus used as an anchor for trust in a polemical address.
+  - evidence: 67:29 «قُلْ هُوَ ٱلرَّحْمَٰنُ ءَامَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا»
+  - activation: This combines the same divine name as the focus with declared belief and reliance, themes close to the Fatiha’s worship and request for help.
+  - limits: It does not repeat ٱلرَّحِيمُ or claim that reliance is the only response to the name.
+- **R-76:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse explicitly distinguishes those God admits into His mercy from wrongdoers prepared for painful punishment. The focus’s mercy pair can therefore be read alongside both discretionary admission and judgment.
+  - evidence: 76:31 «يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The focus is immediately followed by the King of the Day of Requital, matching this juxtaposition of mercy and punishment.
+  - limits: The wording does not say that punishment is itself mercy or explain the criteria behind admission into His mercy.
+- **R-78:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord of the heavens, earth, and everything between them is identified as ٱلرَّحْمَٰنُ, while no one controls speech before Him. The focus’s first name is thus joined to cosmic lordship and restricted access.
+  - evidence: 78:37 «رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنُ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًۭا»
+  - activation: The same name as the focus is set in apposition to comprehensive lordship, and the verse immediately limits who can address Him.
+  - limits: The access restriction does not redefine mercy as distance or say that no one will ever be permitted to speak.
+- **R-78:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: On the Day the Spirit and angels stand in rows, no one speaks unless ٱلرَّحْمَٰنُ permits it and the speaker says what is right. The focus’s first name is used here as the authority who governs speech at judgment.
+  - evidence: 78:38 «لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًۭا»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The focus’s mercy names are followed by the title of the Day of Requital’s King; this scene likewise places ٱلرَّحْمَٰنُ in a judgment setting.
+  - limits: Permission is conditional and the verse does not state that everyone receives it or explain how it relates to mercy.
+- **R-90:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The root appears in mutual exhortation to marḥama after mention of feeding a poor person in need. The focus’s divine mercy names have a clear human counterpart here in care urged among believers.
+  - evidence: 90:16 «أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ»; 90:17 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ»
+  - activation: The shared ر ح م root occurs in a phrase of reciprocal exhortation, tied to concrete attention to the needy.
+  - limits: This human practice is not identified as a definition of either divine name in the focus.
+- **R-1:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: The mercy names precede a request for guidance, framing the straight path as the next divine gift sought in the prayer.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The Fatiha moves from praise through worship and seeking help to the imperative ٱهْدِنَا.
+  - limits: The sequence does not explicitly equate guidance with mercy.
+- **R-1:7** [reading; support medium, relevance high] inter-ayah target
+  - finding: The requested path is then described as that of people God favored, in contrast with those under anger or astray; this gives the mercy names a path and favor horizon.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The final verse specifies the path requested immediately after the mercy titles.
+  - limits: The text does not use رحمة for the favor in أَنْعَمْتَ عَلَيْهِمْ.
+- **R-2:64** [reading; support medium, relevance high] inter-ayah target
+  - finding: After the people turn away from the covenant, Allah’s favor and mercy are named as the reason they were not among the losers; mercy is shown as preserving a community after failure.
+  - evidence: 2:64 «ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ»
+  - activation: The counterfactual لَوْلَا follows the report of their turning away.
+  - limits: The verse says فَضْل and رَحْمَة, not the names al-Rahman and al-Rahim.
+- **R-3:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: The mercy names share a root with ٱلْأَرْحَامِ, the wombs in which God shapes people; this lets the focus carry a bodily, life-forming resonance alongside compassion.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 3:6 «هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ»
+  - activation: The focus’s root is repeated in the verse’s explicit womb term and its account of formation.
+  - limits: The shared root does not make every use of the mercy names mean biological wombs.
+- **R-3:101** [reading; support medium, relevance high] inter-ayah target
+  - finding: Fatiha’s request for ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ recurs in 3:101, where holding fast to God leads to it; 3:8 joins guidance with a plea for mercy, linking the focus’s names to divinely sustained guidance.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 3:8 «بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً»; 3:101 «وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The exact path phrase links Fatiha’s request to 3:101, while 3:8 connects guidance and mercy.
+  - limits: The passages do not explicitly identify the focus names as the source of the guidance in 3:101.
+- **R-4:1** [reading; support medium, relevance high] inter-ayah target
+  - finding: The mercy-name root appears as ٱلْأَرْحَامَ, kinship ties, after creation from one soul and its mate; this gives the focus a familial resonance alongside its divine sense.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 4:1 «وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ»
+  - activation: The focus’s root recurs in the kinship term within an account of human origins and family ties.
+  - limits: The shared root does not make the focus an instruction about kinship or settle which sense is primary.
+- **R-4:23** [reading; support medium, relevance high] inter-ayah target
+  - finding: The list of forbidden relationships includes milk mothers and sisters, then closes with غَفُورٌ رَّحِيمٌ; alongside 4:1’s kinship term, this places the focus’s Rahim near the surah’s family-bond material.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 4:1 «وَٱلْأَرْحَامَ»; 4:23 «وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ»; 4:23 «إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا»
+  - activation: Kinship by blood and nursing is central to 4:23, whose closing epithet shares the focus’s Rahim.
+  - limits: The passage does not say that the closing name explains or relaxes the stated prohibitions.
+- **R-4:83** [reading; support medium, relevance high] inter-ayah target
+  - finding: The verse says divine favor and mercy prevent most of the community from following Satan; in Fatiha’s sequence, the mercy names precede the request for the straight path, giving mercy a protective role in guidance.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 4:83 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًۭا»
+  - activation: The shared mercy root appears in a statement about protection from following Satan, beside Fatiha’s guidance request.
+  - limits: The verse does not identify its رَحْمَة with the focus names or specify the mechanism of protection.
+- **R-10:58** [reading; support medium, relevance high] inter-ayah target
+  - finding: People are told to rejoice in God’s bounty and mercy rather than in what they gather. The Fatiha begins with praise before naming mercy, so this passage suggests joy as one fitting response to the focus’s praise and mercy register.
+  - evidence: 10:58 «قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»
+  - activation: The shared mercy root and the Fatiha’s opening praise activate a possible affective response.
+  - limits: The Fatiha does not explicitly command joy or contrast mercy with material gathering.
+- **R-12:111** [reading; support medium, relevance high] inter-ayah target
+  - finding: The close of Yūsuf’s story calls its account guidance and mercy for believers; this gives a narrative instance of mercy conveyed through revelation.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 12:111 «وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ»
+  - activation: The focus’s mercy names stand before the Fātiḥa’s request for guidance, while Yūsuf’s concluding verse joins guidance and mercy in describing the Qur’an’s account.
+  - limits: The closing verse describes the account’s function; it does not identify al-Raḥmān or al-Raḥīm as its specific mechanism.
+- **R-16:64** [reading; support medium, relevance high] inter-ayah target
+  - finding: A verse about revelation joins clarification, guidance, and mercy; beside the Fātiḥa’s mercy names and following plea for guidance, this makes revealed guidance one setting in which mercy is encountered.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 16:64 «إِلَّا لِتُبَيِّنَ لَهُمُ ٱلَّذِى ٱخْتَلَفُوا۟ فِيهِ ۙ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ»
+  - activation: The focus precedes a request for guidance; this verse explicitly names guidance and mercy as purposes of the Book for believers.
+  - limits: The focus itself does not call the Fātiḥa or the Book a mercy; the connection is through their placement and shared guidance-and-mercy language.
+- **R-17:82** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Qur’an is mercy and healing for believers, yet increases wrongdoers only in loss; mercy is presented here with contrasting reception.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 17:82 «وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا»
+  - activation: The Fātiḥa asks for the straight path and distinguishes its recipients from those who stray; this verse differentiates the effects of revelation by audience.
+  - limits: It attributes the contrast to reception of the Qur’an; it does not say the focus’s names themselves produce loss.
+- **R-19:2** [reading; support medium, relevance high] inter-ayah target
+  - finding: A prophetic account is introduced as remembrance of the Lord’s mercy to His servant, making narrated history itself a vehicle for recalling mercy.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 19:2 «ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ»; 19:3 «إِذْ نَادَىٰ رَبَّهُۥ نِدَآءً خَفِيًّۭا»
+  - activation: The focus names divine mercy; this passage opens a story by naming mercy to a servant before recounting his private call.
+  - limits: The excerpt does not yet describe the particular favor to Zachariah, so its form and outcome cannot be specified from these verses alone.
+- **R-30:21** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus names mercy as a divine attribute; 30:21 also places the root ر ح م in a human bond, where mercy joins affection as a sign between spouses.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 30:21 «وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً»
+  - activation: The shared root connects the pair of names with mercy enacted between people.
+  - limits: 30:21 does not identify marital mercy with either divine name or derive one from the other.
+- **R-30:33** [reading; support medium, relevance high] inter-ayah target
+  - finding: Here divine mercy is tasted after distress, yet some recipients then associate partners with their Lord; the focus’s mercy names do not guarantee a faithful response to mercy received.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 30:33 «أَذَاقَهُم مِّنْهُ رَحْمَةً»; 30:33 «بِرَبِّهِمْ يُشْرِكُونَ»
+  - activation: The repeated root appears in a scene where people first turn to their Lord in hardship and then turn away after relief.
+  - limits: This episode describes some people’s response; it does not define the scope or duration of the divine names.
+- **R-44:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: Mercy from the Lord is attached to a passage about sending messengers, and the Lord is then named All-Hearing, All-Knowing; the focus’s mercy names can be heard in a mission of revelation and attentive knowledge.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 44:5 «أَمْرًۭا مِّنْ عِندِنَآ ۚ إِنَّا كُنَّا مُرْسِلِينَ»; 44:6 «رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ»
+  - activation: The verse names the sending as mercy from the Lord and follows it with two attributes.
+  - limits: The paired names from the focus do not occur here, and the verse does not explicitly equate mercy with the sending.
+- **R-78:36** [reading; support medium, relevance high] inter-ayah target
+  - finding: A reward and abundant gift are said to come from “your Lord”; the next verse names the Lord of the heavens and earth ٱلرَّحْمَٰنُ. This sequence places the reward in the setting of the focus’s first mercy name.
+  - evidence: 78:36 «جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا»; 78:37 «رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنُ»
+  - activation: The repeated Lord-reference links the promised reward with the following description of the Lord as ٱلرَّحْمَٰنُ.
+  - limits: The text does not call the reward itself mercy or say that every element of the recompense is a gift.
+- **related_6.X1** [reading; support medium, relevance high] 
+  - finding: Kinship does not secure anyone at resurrection in 60:3, while 64:14 describes spouses and children as potential enemies yet commands pardon and ends with غَفُورٌۭ رَّحِيمٌۭ. With the focus’s mercy pair followed by the King of the Day of Requital, these passages distinguish bloodline protection from mercy expressed through forgiveness amid family conflict.
+  - evidence: 60:3 «لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَآ أَوْلَٰدُكُمْ ۚ يَوْمَ ٱلْقِيَٰمَةِ»; 64:14 «وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The root-level kinship wording, the Rahim formula after pardon, and the focus’s immediate move to judgment combine these scenes.
+  - limits: These separate passages do not say that the focus refers specifically to family ties or that forgiveness guarantees salvation.
+- **R-7:57** [open; support medium, relevance high] inter-ayah target
+  - finding: The passage depicts mercy through rain, fruit, and the bringing out of the dead. It raises the possibility that the focus’s mercy names include renewal and resurrection, especially before the Fatiha’s mention of the Day of Judgment.
+  - evidence: 7:57 «بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًۭا ثِقَالًۭا سُقْنَٰهُ لِبَلَدٍۢ مَّيِّتٍۢ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ»
+  - missing: A passage or lexical evidence linking the focus’s names specifically to rain or revival would show whether this scene clarifies them; 1:3 itself names neither.
+- **R-7:204** [open; support medium, relevance high] inter-ayah target
+  - finding: The command to listen when the Quran is recited is followed by the hope that listeners may receive mercy. Since the focus is part of a Quranic surah recited in prayer, this may connect hearing its names with the posture of attentive reception.
+  - evidence: 7:204 «وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ»
+  - missing: The passage does not identify the Fatiha or its mercy names as the recitation in view; a direct link to this surah or its opening would decide how specifically it applies.
+- **R-9:61** [open; support medium, relevance high] inter-ayah target
+  - finding: The messenger is called a mercy for believers, while those who harm him face painful punishment. This raises the possibility that the focus’s divine mercy can be encountered through prophetic care and mediation.
+  - evidence: 9:61 «يُؤْمِنُ بِٱللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ وَرَحْمَةٌۭ لِّلَّذِينَ ءَامَنُوا۟ مِنكُمْ ۚ وَٱلَّذِينَ يُؤْذُونَ رَسُولَ ٱللَّهِ لَهُمْ عَذَابٌ أَلِيمٌۭ»
+  - missing: The verse calls the messenger a mercy but does not explicitly derive that role from the divine names; another passage joining prophetic mercy to God’s mercy could establish the mediation.
+- **R-11:28** [open; support medium, relevance high] inter-ayah target
+  - finding: Noah says that a mercy from his Lord was obscured to his opponents, whom he cannot compel to accept it. This raises the possibility that divine mercy may be present in a message yet unseen by its hearers.
+  - evidence: 11:28 «وَءَاتَىٰنِى رَحْمَةًۭ مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ»
+  - missing: A passage identifying prophetic revelation or the Fatiha’s mercy names as the mercy obscured here would establish how this scene illuminates 1:3.
+- **R-15:87** [open; support medium, relevance high] inter-ayah target
+  - finding: If the seven oft-repeated are the Fātiḥa, then the focus’s paired names form part of the seven whose recitation is highlighted here.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 15:87 «وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ»
+  - missing: The supplied passage does not identify the seven as this surah. An explicit identification in another passage, or a Quranic use of ٱلْمَثَانِى that anchors it to the Fātiḥa, could establish the link.
+- **R-26:193** [open; support medium, relevance high] inter-ayah target
+  - finding: The trustworthy Spirit’s descent belongs to the revelation passage introduced immediately after the ٱلْعَزِيزُ ٱلرَّحِيمُ refrain, inviting a link between the focus’s mercy name and the Qur’an’s delivery as warning.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:191 «وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ»; 26:192 «وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَٰلَمِينَ»; 26:193 «نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ»
+  - missing: The verses establish sequence but no explicit causal link from ٱلرَّحِيمُ to the descent or warning; a direct statement connecting the revelation to mercy could supply it.
+- **R-33:6** [open; support medium, relevance high] inter-ayah target
+  - finding: The transition from “غَفُورًۭا رَّحِيمًا” to “أُو۟لُوا۟ ٱلْأَرْحَامِ” creates a close root echo between divine mercy and kinship, which could add a family resonance to the focus’s mercy names.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 33:5 «وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا»; 33:6 «وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ»
+  - missing: A dictionary account of the root and broader Quranic examples could establish whether this adjacency activates a womb or kinship resonance here, beyond the clear shared root.
+- **R-26:171** [open; support weak, relevance high] inter-ayah target
+  - finding: The exception of the old woman complicates the surrounding statement that Lot and his family were saved, raising a question about how the focus’s mercy names relate to a divided household outcome.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 26:170 «فَنَجَّيْنَٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ»; 26:171 «إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ»; 26:172 «ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ»
+  - missing: These verses give the exception and outcome but do not name mercy or explain the exception; an explicit account of the woman’s status or a mercy statement elsewhere in Lot’s story could decide whether this is a meaningful test of the focus’s names.
+- **R-22:65** [reading; support strong, relevance medium] inter-ayah target
+  - finding: ٱلرَّحِيمُ is paired with ٱلرَّءُوفُ in a statement about God sustaining the world and caring for people, extending the focus’s second name into a scene of ongoing protection.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 22:65 «إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: The verse names the people as recipients of God’s care and uses the same ٱلرَّحِيمُ found in the focus.
+  - limits: The passage does not distinguish the meanings of ٱلرَّءُوفُ and ٱلرَّحِيمُ or map either one to a particular act.
+- **R-24:10** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Divine favor and mercy appear as a condition in the passage’s oath procedure, followed by the names ٱلتَّوَّابُ ٱلْحَكِيمُ; the focus’s mercy names sit within a framework that also includes return and judgment.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 24:9 «أَنَّ غَضَبَ ٱللَّهِ عَلَيْهَآ إِن كَانَ مِنَ ٱلصَّٰدِقِينَ»; 24:10 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ تَوَّابٌ حَكِيمٌ»
+  - activation: The preceding oath invokes divine anger, while 24:10 places favor and mercy beside the names ٱلتَّوَّابُ ٱلْحَكِيمُ.
+  - limits: The verse does not spell out the omitted consequence or equate mercy with pardon in this procedure.
+- **R-25:59** [reading; support strong, relevance medium] inter-ayah target
+  - finding: ٱلرَّحْمَٰنُ follows a description of creating the heavens and earth and establishing the Throne, linking the focus’s first name with cosmic creation and sovereignty.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 25:59 «ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍۢ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَٰنُ»
+  - activation: The name appears at the end of the creation-and-Throne statement, before the instruction to ask one who knows.
+  - limits: The wording places the name beside creation and sovereignty without explicitly calling creation an act of mercy.
+- **R-60:12** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The request that the Prophet seek forgiveness for women who have pledged ethical commitments closes with غَفُورٌۭ رَّحِيمٌۭ. This makes the focus’s Rahim name part of a covenant and forgiveness setting.
+  - evidence: 60:12 «فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The shared Rahim epithet follows a pledge and an instruction to seek forgiveness for its participants.
+  - limits: The verse repeats the second focus name but not the first, and does not spell out the outcome of the request for forgiveness.
+- **R-85:15** [reading; support medium, relevance medium] inter-ayah target
+  - finding: The sequence moves from ٱلْغَفُورُ ٱلْوَدُودُ to the possessor of the throne, then to the one who does whatever He wills. This resembles the Fatiha’s movement from mercy names to ملكِ يَوْمِ ٱلدِّينِ: mercy-related attributes sit beside sovereignty.
+  - evidence: 85:14 «وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ»; 85:15 «ذُو ٱلْعَرْشِ ٱلْمَجِيدُ»; 85:16 «فَعَّالٌۭ لِّمَا يُرِيدُ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: Both passages place mercy-related divine names immediately before an expression of rule or power.
+  - limits: The sequences are structural parallels, not identical formulations; this passage does not repeat either focus name.
+- **R-78:39** [open; support medium, relevance medium] inter-ayah target
+  - finding: After the preceding verse restricts speech to those permitted by ٱلرَّحْمَٰنُ, this verse calls the Day true and says whoever wills may take a way of return to his Lord. The sequence could connect the Rahman scene with a chosen return.
+  - evidence: 78:38 «لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ»; 78:39 «ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا»
+  - missing: The text does not explicitly say that the chosen return is enabled by mercy or by the permission in 78:38; an explicit parallel elsewhere between divine mercy and return could establish that link.
+
+Notes:
+- R-24:56 [support strong, relevance medium] Prayer, almsgiving, and obedience to the Messenger precede لَعَلَّكُمْ تُرْحَمُونَ, presenting mercy as a hoped-for outcome of communal practice.
+- R-25:6 [support strong, relevance medium] The name رَّحِيمًۭا closes a reply about the Qur’an’s source, after the claim that its sender knows the unseen; mercy is placed beside knowledge of the hidden in this revelation dispute.
+- R-15:56 [support medium, relevance medium] Abraham’s question about despair makes the Lord’s mercy a ground for hope after the angels’ glad tidings.
+- R-17:28 [support medium, relevance medium] When unable to give material help, a person who hopes for mercy from the Lord is still told to answer with gentle words.
+- R-18:65 [support medium, relevance medium] A servant receives mercy from God alongside knowledge taught from Him, presenting mercy and special instruction together in one encounter.
+- R-31:3 [support medium, relevance medium] Mercy appears here as one of the effects of the book: guidance and mercy are directed to those who do good.
+- R-33:59 [support medium, relevance medium] The closing “غَفُورًۭا رَّحِيمًا” accompanies an instruction intended to help women be recognized and not harmed, placing the mercy name in a social-protection setting.
+- R-85:14 [support medium, relevance medium] The divine pair ٱلْغَفُورُ ٱلْوَدُودُ gives a comparison for the focus’s mercy names through forgiveness and love, though this verse uses different names and roots.
+- R-1:5 [support strong, relevance low] The focus ends the praise sequence just before the speaker turns to God directly with إِيَّاكَ twice.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:37 فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٍۢ فَتَابَ عَلَيْهِ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:54 وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:64 ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ
+- 2:105 مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍۢ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ
+- 2:128 رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:143 وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًۭا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 2:160 إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:163 وَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ
+- 2:192 فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 2:218 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَٰٓئِكَ يَرْجُونَ رَحْمَتَ ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 3:6 هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 3:8 رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ
+- 3:74 يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ
+- 3:88 خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ
+- 3:89 إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 3:101 وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 3:106 يَوْمَ تَبْيَضُّ وُجُوهٌۭ وَتَسْوَدُّ وُجُوهٌۭ ۚ فَأَمَّا ٱلَّذِينَ ٱسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُم بَعْدَ إِيمَٰنِكُمْ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ
+- 3:107 وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ هُمْ فِيهَا خَٰلِدُونَ
+- 3:132 وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ
+- 3:133 ۞ وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ
+- 3:159 فَبِمَا رَحْمَةٍۢ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ
+- 4:1 يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًۭا
+- 4:23 حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا
+- 4:83 وَإِذَا جَآءَهُمْ أَمْرٌۭ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًۭا
+- 4:96 دَرَجَٰتٍۢ مِّنْهُ وَمَغْفِرَةًۭ وَرَحْمَةًۭ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا
+- 4:105 إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن لِّلْخَآئِنِينَ خَصِيمًۭا
+- 4:106 وَٱسْتَغْفِرِ ٱللَّهَ ۖ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا
+- 4:113 وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌۭ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍۢ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًۭا
+- 4:175 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍۢ مِّنْهُ وَفَضْلٍۢ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 5:73 لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ ثَالِثُ ثَلَٰثَةٍۢ ۘ وَمَا مِنْ إِلَٰهٍ إِلَّآ إِلَٰهٌۭ وَٰحِدٌۭ ۚ وَإِن لَّمْ يَنتَهُوا۟ عَمَّا يَقُولُونَ لَيَمَسَّنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ
+- 5:74 أَفَلَا يَتُوبُونَ إِلَى ٱللَّهِ وَيَسْتَغْفِرُونَهُۥ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 6:12 قُل لِّمَن مَّا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ
+- 6:16 مَّن يُصْرَفْ عَنْهُ يَوْمَئِذٍۢ فَقَدْ رَحِمَهُۥ ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْمُبِينُ
+- 6:54 وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤْمِنُونَ بِـَٔايَٰتِنَا فَقُلْ سَلَٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍۢ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌۭ رَّحِيمٌۭ
+- 6:133 وَرَبُّكَ ٱلْغَنِىُّ ذُو ٱلرَّحْمَةِ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ كَمَآ أَنشَأَكُم مِّن ذُرِّيَّةِ قَوْمٍ ءَاخَرِينَ
+- 6:147 فَإِن كَذَّبُوكَ فَقُل رَّبُّكُمْ ذُو رَحْمَةٍۢ وَٰسِعَةٍۢ وَلَا يُرَدُّ بَأْسُهُۥ عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ
+- 6:154 ثُمَّ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ تَمَامًا عَلَى ٱلَّذِىٓ أَحْسَنَ وَتَفْصِيلًۭا لِّكُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ
+- 7:49 أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ
+- 7:56 وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًۭا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌۭ مِّنَ ٱلْمُحْسِنِينَ
+- 7:57 وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًۭا ثِقَالًۭا سُقْنَٰهُ لِبَلَدٍۢ مَّيِّتٍۢ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ
+- 7:72 فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍۢ مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ
+- 7:151 قَالَ رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 7:153 وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ
+- 7:154 وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًۭى وَرَحْمَةٌۭ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ
+- 7:156 ۞ وَٱكْتُبْ لَنَا فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْءَاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَٰتِنَا يُؤْمِنُونَ
+- 7:180 وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا ۖ وَذَرُوا۟ ٱلَّذِينَ يُلْحِدُونَ فِىٓ أَسْمَٰٓئِهِۦ ۚ سَيُجْزَوْنَ مَا كَانُوا۟ يَعْمَلُونَ
+- 7:203 وَإِذَا لَمْ تَأْتِهِم بِـَٔايَةٍۢ قَالُوا۟ لَوْلَا ٱجْتَبَيْتَهَا ۚ قُلْ إِنَّمَآ أَتَّبِعُ مَا يُوحَىٰٓ إِلَىَّ مِن رَّبِّى ۚ هَٰذَا بَصَآئِرُ مِن رَّبِّكُمْ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُؤْمِنُونَ
+- 7:204 وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ
+- 8:75 وَٱلَّذِينَ ءَامَنُوا۟ مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ مَعَكُمْ فَأُو۟لَٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ
+- 9:21 يُبَشِّرُهُمْ رَبُّهُم بِرَحْمَةٍۢ مِّنْهُ وَرِضْوَٰنٍۢ وَجَنَّٰتٍۢ لَّهُمْ فِيهَا نَعِيمٌۭ مُّقِيمٌ
+- 9:26 ثُمَّ أَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَنزَلَ جُنُودًۭا لَّمْ تَرَوْهَا وَعَذَّبَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَذَٰلِكَ جَزَآءُ ٱلْكَٰفِرِينَ
+- 9:27 ثُمَّ يَتُوبُ ٱللَّهُ مِنۢ بَعْدِ ذَٰلِكَ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 9:61 وَمِنْهُمُ ٱلَّذِينَ يُؤْذُونَ ٱلنَّبِىَّ وَيَقُولُونَ هُوَ أُذُنٌۭ ۚ قُلْ أُذُنُ خَيْرٍۢ لَّكُمْ يُؤْمِنُ بِٱللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ وَرَحْمَةٌۭ لِّلَّذِينَ ءَامَنُوا۟ مِنكُمْ ۚ وَٱلَّذِينَ يُؤْذُونَ رَسُولَ ٱللَّهِ لَهُمْ عَذَابٌ أَلِيمٌۭ
+- 9:99 وَمِنَ ٱلْأَعْرَابِ مَن يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَيَتَّخِذُ مَا يُنفِقُ قُرُبَٰتٍ عِندَ ٱللَّهِ وَصَلَوَٰتِ ٱلرَّسُولِ ۚ أَلَآ إِنَّهَا قُرْبَةٌۭ لَّهُمْ ۚ سَيُدْخِلُهُمُ ٱللَّهُ فِى رَحْمَتِهِۦٓ ۗ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 9:104 أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَأْخُذُ ٱلصَّدَقَٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 9:117 لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍۢ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌۭ رَّحِيمٌۭ
+- 9:118 وَعَلَى ٱلثَّلَٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 9:128 لَقَدْ جَآءَكُمْ رَسُولٌۭ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ
+- 10:21 وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةًۭ مِّنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُمْ إِذَا لَهُم مَّكْرٌۭ فِىٓ ءَايَاتِنَا ۚ قُلِ ٱللَّهُ أَسْرَعُ مَكْرًا ۚ إِنَّ رُسُلَنَا يَكْتُبُونَ مَا تَمْكُرُونَ
+- 10:58 قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ
+- 10:85 فَقَالُوا۟ عَلَى ٱللَّهِ تَوَكَّلْنَا رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلْقَوْمِ ٱلظَّٰلِمِينَ
+- 10:86 وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 10:107 وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّۢ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍۢ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 11:28 قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةًۭ مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ
+- 11:90 وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌۭ وَدُودٌۭ
+- 11:118 وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةًۭ وَٰحِدَةًۭ ۖ وَلَا يَزَالُونَ مُخْتَلِفِينَ
+- 11:119 إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ
+- 12:18 وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 12:55 قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ
+- 12:56 وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ
+- 12:63 فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ
+- 12:64 قَالَ هَلْ ءَامَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 12:92 قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 12:97 قَالُوا۟ يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَٰطِـِٔينَ
+- 12:98 قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 12:111 لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌۭ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًۭا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ
+- 13:30 كَذَٰلِكَ أَرْسَلْنَٰكَ فِىٓ أُمَّةٍۢ قَدْ خَلَتْ مِن قَبْلِهَآ أُمَمٌۭ لِّتَتْلُوَا۟ عَلَيْهِمُ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَهُمْ يَكْفُرُونَ بِٱلرَّحْمَٰنِ ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ
+- 14:36 رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًۭا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌۭ رَّحِيمٌۭ
+- 15:49 ۞ نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ
+- 15:50 وَأَنَّ عَذَابِى هُوَ ٱلْعَذَابُ ٱلْأَلِيمُ
+- 15:55 قَالُوا۟ بَشَّرْنَٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ ٱلْقَٰنِطِينَ
+- 15:56 قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ
+- 15:87 وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ
+- 16:7 وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍۢ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 16:18 وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌۭ رَّحِيمٌۭ
+- 16:64 وَمَآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ إِلَّا لِتُبَيِّنَ لَهُمُ ٱلَّذِى ٱخْتَلَفُوا۟ فِيهِ ۙ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ
+- 17:24 وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا
+- 17:28 وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍۢ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًۭا مَّيْسُورًۭا
+- 17:57 أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًۭا
+- 17:66 رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ رَحِيمًۭا
+- 17:67 وَإِذَا مَسَّكُمُ ٱلضُّرُّ فِى ٱلْبَحْرِ ضَلَّ مَن تَدْعُونَ إِلَّآ إِيَّاهُ ۖ فَلَمَّا نَجَّىٰكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ ۚ وَكَانَ ٱلْإِنسَٰنُ كَفُورًا
+- 17:82 وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا
+- 17:86 وَلَئِن شِئْنَا لَنَذْهَبَنَّ بِٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ ثُمَّ لَا تَجِدُ لَكَ بِهِۦ عَلَيْنَا وَكِيلًا
+- 17:87 إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًۭا
+- 17:100 قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا
+- 17:110 قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّۭا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًۭا
+- 18:10 إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا
+- 18:16 وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا
+- 18:58 وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌۭ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًۭا
+- 18:65 فَوَجَدَا عَبْدًۭا مِّنْ عِبَادِنَآ ءَاتَيْنَٰهُ رَحْمَةًۭ مِّنْ عِندِنَا وَعَلَّمْنَٰهُ مِن لَّدُنَّا عِلْمًۭا
+- 18:81 فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًۭا مِّنْهُ زَكَوٰةًۭ وَأَقْرَبَ رُحْمًۭا
+- 18:82 وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌۭ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًۭا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا
+- 18:98 قَالَ هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّۭا
+- 19:2 ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ
+- 19:3 إِذْ نَادَىٰ رَبَّهُۥ نِدَآءً خَفِيًّۭا
+- 19:18 قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّۭا
+- 19:44 يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ ۖ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّۭا
+- 19:45 يَٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌۭ مِّنَ ٱلرَّحْمَٰنِ فَتَكُونَ لِلشَّيْطَٰنِ وَلِيًّۭا
+- 19:49 فَلَمَّا ٱعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ ۖ وَكُلًّۭا جَعَلْنَا نَبِيًّۭا
+- 19:50 وَوَهَبْنَا لَهُم مِّن رَّحْمَتِنَا وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّۭا
+- 19:53 وَوَهَبْنَا لَهُۥ مِن رَّحْمَتِنَآ أَخَاهُ هَٰرُونَ نَبِيًّۭا
+- 19:69 ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّۭا
+- 19:78 أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا
+- 19:85 يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًۭا
+- 19:86 وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًۭا
+- 19:87 لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا
+- 19:88 وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا
+- 19:90 تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا
+- 19:91 أَن دَعَوْا۟ لِلرَّحْمَٰنِ وَلَدًۭا
+- 19:92 وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا
+- 19:93 إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا
+- 19:96 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا
+- 20:5 ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ
+- 20:90 وَلَقَدْ قَالَ لَهُمْ هَٰرُونُ مِن قَبْلُ يَٰقَوْمِ إِنَّمَا فُتِنتُم بِهِۦ ۖ وَإِنَّ رَبَّكُمُ ٱلرَّحْمَٰنُ فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى
+- 20:108 يَوْمَئِذٍۢ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ ۖ وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًۭا
+- 20:109 يَوْمَئِذٍۢ لَّا تَنفَعُ ٱلشَّفَٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَرَضِىَ لَهُۥ قَوْلًۭا
+- 21:26 وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا ۗ سُبْحَٰنَهُۥ ۚ بَلْ عِبَادٌۭ مُّكْرَمُونَ
+- 21:42 قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ
+- 21:74 وَلُوطًا ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا وَنَجَّيْنَٰهُ مِنَ ٱلْقَرْيَةِ ٱلَّتِى كَانَت تَّعْمَلُ ٱلْخَبَٰٓئِثَ ۗ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍۢ فَٰسِقِينَ
+- 21:75 وَأَدْخَلْنَٰهُ فِى رَحْمَتِنَآ ۖ إِنَّهُۥ مِنَ ٱلصَّٰلِحِينَ
+- 21:83 ۞ وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 21:84 فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّۢ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ
+- 21:86 وَأَدْخَلْنَٰهُمْ فِى رَحْمَتِنَآ ۖ إِنَّهُم مِّنَ ٱلصَّٰلِحِينَ
+- 21:107 وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةًۭ لِّلْعَٰلَمِينَ
+- 21:112 قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 22:65 أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 23:75 ۞ وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّۢ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ
+- 23:76 وَلَقَدْ أَخَذْنَٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ
+- 23:109 إِنَّهُۥ كَانَ فَرِيقٌۭ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ
+- 23:118 وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ
+- 24:9 وَٱلْخَٰمِسَةَ أَنَّ غَضَبَ ٱللَّهِ عَلَيْهَآ إِن كَانَ مِنَ ٱلصَّٰدِقِينَ
+- 24:10 وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ تَوَّابٌ حَكِيمٌ
+- 24:19 إِنَّ ٱلَّذِينَ يُحِبُّونَ أَن تَشِيعَ ٱلْفَٰحِشَةُ فِى ٱلَّذِينَ ءَامَنُوا۟ لَهُمْ عَذَابٌ أَلِيمٌۭ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ
+- 24:20 وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ رَءُوفٌۭ رَّحِيمٌۭ
+- 24:21 ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًۭا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌۭ
+- 24:22 وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌ
+- 24:56 وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ
+- 25:5 وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةًۭ وَأَصِيلًۭا
+- 25:6 قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ ٱلسِّرَّ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ غَفُورًۭا رَّحِيمًۭا
+- 25:26 ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ عَسِيرًۭا
+- 25:48 وَهُوَ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ طَهُورًۭا
+- 25:49 لِّنُحْۦِىَ بِهِۦ بَلْدَةًۭ مَّيْتًۭا وَنُسْقِيَهُۥ مِمَّا خَلَقْنَآ أَنْعَٰمًۭا وَأَنَاسِىَّ كَثِيرًۭا
+- 25:59 ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍۢ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًۭا
+- 25:60 وَإِذَا قِيلَ لَهُمُ ٱسْجُدُوا۟ لِلرَّحْمَٰنِ قَالُوا۟ وَمَا ٱلرَّحْمَٰنُ أَنَسْجُدُ لِمَا تَأْمُرُنَا وَزَادَهُمْ نُفُورًۭا ۩
+- 25:63 وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًۭا
+- 26:5 وَمَا يَأْتِيهِم مِّن ذِكْرٍۢ مِّنَ ٱلرَّحْمَٰنِ مُحْدَثٍ إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ
+- 26:8 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:9 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:10 وَإِذْ نَادَىٰ رَبُّكَ مُوسَىٰٓ أَنِ ٱئْتِ ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- 26:67 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:68 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:69 وَٱتْلُ عَلَيْهِمْ نَبَأَ إِبْرَٰهِيمَ
+- 26:103 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:104 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:105 كَذَّبَتْ قَوْمُ نُوحٍ ٱلْمُرْسَلِينَ
+- 26:121 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:122 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:123 كَذَّبَتْ عَادٌ ٱلْمُرْسَلِينَ
+- 26:139 فَكَذَّبُوهُ فَأَهْلَكْنَٰهُمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:140 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:141 كَذَّبَتْ ثَمُودُ ٱلْمُرْسَلِينَ
+- 26:158 فَأَخَذَهُمُ ٱلْعَذَابُ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:159 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:160 كَذَّبَتْ قَوْمُ لُوطٍ ٱلْمُرْسَلِينَ
+- 26:170 فَنَجَّيْنَٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ
+- 26:171 إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ
+- 26:172 ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ
+- 26:174 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:175 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:176 كَذَّبَ أَصْحَٰبُ لْـَٔيْكَةِ ٱلْمُرْسَلِينَ
+- 26:190 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:191 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:192 وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَٰلَمِينَ
+- 26:193 نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ
+- 26:216 فَإِنْ عَصَوْكَ فَقُلْ إِنِّى بَرِىٓءٌۭ مِّمَّا تَعْمَلُونَ
+- 26:217 وَتَوَكَّلْ عَلَى ٱلْعَزِيزِ ٱلرَّحِيمِ
+- 27:19 فَتَبَسَّمَ ضَاحِكًۭا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ
+- 27:30 إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 27:63 أَمَّن يَهْدِيكُمْ فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَٰهٌۭ مَّعَ ٱللَّهِ ۚ تَعَٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ
+- 27:76 إِنَّ هَٰذَا ٱلْقُرْءَانَ يَقُصُّ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَكْثَرَ ٱلَّذِى هُمْ فِيهِ يَخْتَلِفُونَ
+- 27:77 وَإِنَّهُۥ لَهُدًۭى وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ
+- 28:16 قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 28:43 وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُمْ يَتَذَكَّرُونَ
+- 28:46 وَمَا كُنتَ بِجَانِبِ ٱلطُّورِ إِذْ نَادَيْنَا وَلَٰكِن رَّحْمَةًۭ مِّن رَّبِّكَ لِتُنذِرَ قَوْمًۭا مَّآ أَتَىٰهُم مِّن نَّذِيرٍۢ مِّن قَبْلِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ
+- 28:73 وَمِن رَّحْمَتِهِۦ جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 28:86 وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَٰبُ إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًۭا لِّلْكَٰفِرِينَ
+- 29:21 يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ
+- 29:23 وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى وَأُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌۭ
+- 29:51 أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَرَحْمَةًۭ وَذِكْرَىٰ لِقَوْمٍۢ يُؤْمِنُونَ
+- 30:5 بِنَصْرِ ٱللَّهِ ۚ يَنصُرُ مَن يَشَآءُ ۖ وَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 30:21 وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَتَفَكَّرُونَ
+- 30:33 وَإِذَا مَسَّ ٱلنَّاسَ ضُرٌّۭ دَعَوْا۟ رَبَّهُم مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُم مِّنْهُ رَحْمَةً إِذَا فَرِيقٌۭ مِّنْهُم بِرَبِّهِمْ يُشْرِكُونَ
+- 30:46 وَمِنْ ءَايَٰتِهِۦٓ أَن يُرْسِلَ ٱلرِّيَاحَ مُبَشِّرَٰتٍۢ وَلِيُذِيقَكُم مِّن رَّحْمَتِهِۦ وَلِتَجْرِىَ ٱلْفُلْكُ بِأَمْرِهِۦ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 30:50 فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ ذَٰلِكَ لَمُحْىِ ٱلْمَوْتَىٰ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 31:3 هُدًۭى وَرَحْمَةًۭ لِّلْمُحْسِنِينَ
+- 32:6 ذَٰلِكَ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 33:5 ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌۭ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا
+- 33:6 ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًۭا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًۭا
+- 33:43 هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًۭا
+- 33:59 يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَٰبِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا
+- 35:2 مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍۢ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 36:5 تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ
+- 36:11 إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍۢ وَأَجْرٍۢ كَرِيمٍ
+- 36:15 قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌۭ مِّثْلُنَا وَمَآ أَنزَلَ ٱلرَّحْمَٰنُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ
+- 36:23 ءَأَتَّخِذُ مِن دُونِهِۦٓ ءَالِهَةً إِن يُرِدْنِ ٱلرَّحْمَٰنُ بِضُرٍّۢ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًۭٔا وَلَا يُنقِذُونِ
+- 36:43 وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ
+- 36:44 إِلَّا رَحْمَةًۭ مِّنَّا وَمَتَٰعًا إِلَىٰ حِينٍۢ
+- 36:45 وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ
+- 36:51 وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ
+- 36:52 قَالُوا۟ يَٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ
+- 36:58 سَلَٰمٌۭ قَوْلًۭا مِّن رَّبٍّۢ رَّحِيمٍۢ
+- 36:59 وَٱمْتَٰزُوا۟ ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ
+- 37:118 وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 38:9 أَمْ عِندَهُمْ خَزَآئِنُ رَحْمَةِ رَبِّكَ ٱلْعَزِيزِ ٱلْوَهَّابِ
+- 38:43 وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنَّا وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ
+- 39:38 وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ
+- 39:53 ۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 39:54 وَأَنِيبُوٓا۟ إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا۟ لَهُۥ مِن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ ثُمَّ لَا تُنصَرُونَ
+- 40:7 ٱلَّذِينَ يَحْمِلُونَ ٱلْعَرْشَ وَمَنْ حَوْلَهُۥ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيُؤْمِنُونَ بِهِۦ وَيَسْتَغْفِرُونَ لِلَّذِينَ ءَامَنُوا۟ رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ
+- 40:9 وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍۢ فَقَدْ رَحِمْتَهُۥ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ
+- 41:2 تَنزِيلٌۭ مِّنَ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 41:31 نَحْنُ أَوْلِيَآؤُكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۖ وَلَكُمْ فِيهَا مَا تَشْتَهِىٓ أَنفُسُكُمْ وَلَكُمْ فِيهَا مَا تَدَّعُونَ
+- 41:32 نُزُلًۭا مِّنْ غَفُورٍۢ رَّحِيمٍۢ
+- 41:50 وَلَئِنْ أَذَقْنَٰهُ رَحْمَةًۭ مِّنَّا مِنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ هَٰذَا لِى وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةًۭ وَلَئِن رُّجِعْتُ إِلَىٰ رَبِّىٓ إِنَّ لِى عِندَهُۥ لَلْحُسْنَىٰ ۚ فَلَنُنَبِّئَنَّ ٱلَّذِينَ كَفَرُوا۟ بِمَا عَمِلُوا۟ وَلَنُذِيقَنَّهُم مِّنْ عَذَابٍ غَلِيظٍۢ
+- 42:5 تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 42:7 وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ قُرْءَانًا عَرَبِيًّۭا لِّتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا وَتُنذِرَ يَوْمَ ٱلْجَمْعِ لَا رَيْبَ فِيهِ ۚ فَرِيقٌۭ فِى ٱلْجَنَّةِ وَفَرِيقٌۭ فِى ٱلسَّعِيرِ
+- 42:8 وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةًۭ وَٰحِدَةًۭ وَلَٰكِن يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّٰلِمُونَ مَا لَهُم مِّن وَلِىٍّۢ وَلَا نَصِيرٍ
+- 42:28 وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ
+- 42:48 فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةًۭ فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌۭ
+- 43:16 أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍۢ وَأَصْفَىٰكُم بِٱلْبَنِينَ
+- 43:17 وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًۭا ظَلَّ وَجْهُهُۥ مُسْوَدًّۭا وَهُوَ كَظِيمٌ
+- 43:19 وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ ٱلرَّحْمَٰنِ إِنَٰثًا ۚ أَشَهِدُوا۟ خَلْقَهُمْ ۚ سَتُكْتَبُ شَهَٰدَتُهُمْ وَيُسْـَٔلُونَ
+- 43:20 وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَٰنُ مَا عَبَدْنَٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَخْرُصُونَ
+- 43:32 أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ ۚ نَحْنُ قَسَمْنَا بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍۢ دَرَجَٰتٍۢ لِّيَتَّخِذَ بَعْضُهُم بَعْضًۭا سُخْرِيًّۭا ۗ وَرَحْمَتُ رَبِّكَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ
+- 43:36 وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ
+- 43:37 وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ
+- 43:81 قُلْ إِن كَانَ لِلرَّحْمَٰنِ وَلَدٌۭ فَأَنَا۠ أَوَّلُ ٱلْعَٰبِدِينَ
+- 43:82 سُبْحَٰنَ رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ
+- 44:5 أَمْرًۭا مِّنْ عِندِنَآ ۚ إِنَّا كُنَّا مُرْسِلِينَ
+- 44:6 رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 44:41 يَوْمَ لَا يُغْنِى مَوْلًى عَن مَّوْلًۭى شَيْـًۭٔا وَلَا هُمْ يُنصَرُونَ
+- 44:42 إِلَّا مَن رَّحِمَ ٱللَّهُ ۚ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 45:20 هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُوقِنُونَ
+- 45:30 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْمُبِينُ
+- 45:31 وَأَمَّا ٱلَّذِينَ كَفَرُوٓا۟ أَفَلَمْ تَكُنْ ءَايَٰتِى تُتْلَىٰ عَلَيْكُمْ فَٱسْتَكْبَرْتُمْ وَكُنتُمْ قَوْمًۭا مُّجْرِمِينَ
+- 46:8 أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَلَا تَمْلِكُونَ لِى مِنَ ٱللَّهِ شَيْـًٔا ۖ هُوَ أَعْلَمُ بِمَا تُفِيضُونَ فِيهِ ۖ كَفَىٰ بِهِۦ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۖ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 46:12 وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًۭا وَرَحْمَةًۭ ۚ وَهَٰذَا كِتَٰبٌۭ مُّصَدِّقٌۭ لِّسَانًا عَرَبِيًّۭا لِّيُنذِرَ ٱلَّذِينَ ظَلَمُوا۟ وَبُشْرَىٰ لِلْمُحْسِنِينَ
+- 47:22 فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ
+- 48:25 هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍۢ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا
+- 49:10 إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌۭ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ
+- 50:33 مَّنْ خَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ وَجَآءَ بِقَلْبٍۢ مُّنِيبٍ
+- 50:34 ٱدْخُلُوهَا بِسَلَٰمٍۢ ۖ ذَٰلِكَ يَوْمُ ٱلْخُلُودِ
+- 52:27 فَمَنَّ ٱللَّهُ عَلَيْنَا وَوَقَىٰنَا عَذَابَ ٱلسَّمُومِ
+- 52:28 إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ ٱلرَّحِيمُ
+- 55:1 ٱلرَّحْمَٰنُ
+- 55:2 عَلَّمَ ٱلْقُرْءَانَ
+- 55:3 خَلَقَ ٱلْإِنسَٰنَ
+- 55:4 عَلَّمَهُ ٱلْبَيَانَ
+- 57:27 ثُمَّ قَفَّيْنَا عَلَىٰٓ ءَاثَٰرِهِم بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةًۭ وَرَحْمَةًۭ وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ ءَامَنُوا۟ مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌۭ مِّنْهُمْ فَٰسِقُونَ
+- 57:28 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًۭا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 59:10 وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ
+- 59:22 هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ
+- 60:3 لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَآ أَوْلَٰدُكُمْ ۚ يَوْمَ ٱلْقِيَٰمَةِ يَفْصِلُ بَيْنَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 60:12 يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًۭٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍۢ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍۢ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 64:14 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَٰدِكُمْ عَدُوًّۭا لَّكُمْ فَٱحْذَرُوهُمْ ۚ وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 67:3 ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍۢ طِبَاقًۭا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍۢ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍۢ
+- 67:19 أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍۢ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ
+- 67:20 أَمَّنْ هَٰذَا ٱلَّذِى هُوَ جُندٌۭ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَٰنِ ۚ إِنِ ٱلْكَٰفِرُونَ إِلَّا فِى غُرُورٍ
+- 67:29 قُلْ هُوَ ٱلرَّحْمَٰنُ ءَامَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَٰلٍۢ مُّبِينٍۢ
+- 76:31 يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا
+- 78:36 جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا
+- 78:37 رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًۭا
+- 78:38 يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّۭا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًۭا
+- 78:39 ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا
+- 85:13 إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ
+- 85:14 وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ
+- 85:15 ذُو ٱلْعَرْشِ ٱلْمَجِيدُ
+- 85:16 فَعَّالٌۭ لِّمَا يُرِيدُ
+- 90:16 أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ
+- 90:17 ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ

@@ -7,6 +7,7 @@
   sol2   baseline: sol_pass.py plan → write (Sol, max) with the package in place of the backbone
   w10-opus-cold   baseline: the same prompt with context.md only (no package)
   w10-opus-dslim  context + dictionary + package.slim.md (Luna usage and related lines only; package.py --slim)
+  w10-opus-dhft   context + dictionary + HFT (input/v2/…/02_hft.md)
   w10-opus-dict   baseline: context.md + the script dictionary (input/v2/…/01_dictionary.md), no Luna
   w10-sol / w10-luna / w10-opus   the v10 writer prompt (_commentary/v10/prompts/write.md) on the same package:
          prose only, no plan; Sol and Luna at max reasoning, Opus at effort high (max spent its whole output on
@@ -51,11 +52,12 @@ def run_w10(ref: str, arm: str) -> None:
     w = V9 / "lines" / "work" / sa
     out = w / "synth" / arm
     out.mkdir(parents=True, exist_ok=True)
-    cold, dic, dslim = arm.endswith("-cold"), arm.endswith("-dict"), arm.endswith("-dslim")
+    cold, dic, dslim, dhft = arm.endswith("-cold"), arm.endswith("-dict"), arm.endswith("-dslim"), arm.endswith("-dhft")
     dictionary = V9 / "input" / "v2" / f"s{int(s):03d}" / sa / "01_dictionary.md"
     stdin = (R.inline(W10, w / "context.md") if cold else
              R.inline(W10, w / "context.md", dictionary) if dic else
              R.inline(W10, w / "context.md", dictionary, w / "package.slim.md") if dslim else
+             R.inline(W10, w / "context.md", dictionary, dictionary.parent / "02_hft.md") if dhft else
              R.inline(W10, w / "context.md", w / "package.md"))
     evidence = ("context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and your own "
                 "knowledge of Arabic and the Quran" if cold else
@@ -66,6 +68,10 @@ def run_w10(ref: str, arm: str) -> None:
                 "(every attested branch of every root of the ayah's words, with the classical dictionaries' source "
                 "phrases) and package.slim.md (discovery results on Quranic usage and related passages; its header "
                 "explains them)" if dslim else
+                "context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah), 01_dictionary.md "
+                "(every attested branch of every root of the ayah's words, with the classical dictionaries' source "
+                "phrases) and 02_hft.md (earlier readers' compositions of the ayah's images; proposals to test, not "
+                "conclusions)" if dhft else
                 "context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and package.md "
                 "(discovery results with internal ids; their own header explains them)")
     prompt = (f"Focus: {ref}. Follow the brief below (write.md) exactly. The evidence is {evidence}. Return only the "
@@ -88,7 +94,7 @@ def run_w10(ref: str, arm: str) -> None:
         sys.exit(f"{arm}: no reading (see {out / 'final.txt'})")
     (out / f"{sa}.reading.tr.md").write_text(text.strip() + "\n", encoding="utf-8")
     # quotes are checked against the evidence the writer saw (the dictionary arm: the script package with 01_dictionary)
-    problems, _ = R.reading_problems(out / f"{sa}.reading.tr.md", dictionary.parent if (dic or dslim) else w)
+    problems, _ = R.reading_problems(out / f"{sa}.reading.tr.md", dictionary.parent if (dic or dslim or dhft) else w)
     body = (out / f"{sa}.reading.tr.md").read_text(encoding="utf-8")
     print(f"{arm}: {len(body.split())} words, {len(set(re.findall(r'(\d{1,3}:\d{1,3})', body)))} distinct refs, "
           f"{body.count('{ar:')} Arabic tags; Arabic/prose problems {len(problems)}"
@@ -152,7 +158,7 @@ def check(ref: str, arm: str) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("ref")
-    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold", "w10-opus-dict", "w10-opus-dslim"))
+    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold", "w10-opus-dict", "w10-opus-dslim", "w10-opus-dhft"))
     ap.add_argument("--check-only", action="store_true")
     a = ap.parse_args()
     if a.check_only:

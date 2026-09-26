@@ -2,3 +2,11 @@
   luna_pass.py run 1:4 --parallel 1
     W_network_1.md: 19 records
 check: 0 problem(s); kept lines 12 of 14
+  run.py run 1:4 --parallel 8
+    related_5.md: 55 records, 0 problem(s)
+surah_1.md: 24 records, 0 problem(s)
+usage_1.md: 4 records, 0 problem(s)
+  run.py check 1:4
+    related_5.md []
+surah_1.md []
+usage_1.md []
