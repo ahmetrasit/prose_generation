@@ -65,6 +65,18 @@ all 11 ayat. Total ≈ $12.35, about $1.12 per ayah.
 Validation (100:1, 100:6, 100:10): cold and dictionary-only Opus readings cite almost nothing the v11 ledger lacks
 (missed: 2:36, 81:18 on 100:1; 47:4 on 100:6).
 
+## Production: API batch with a shared cached prefix (decided 2026-09-26, not built)
+
+`claude -p` sends each ayah's input as one message with its own cache point at the end, so ayat of one surah share
+no cache (every run shows cache_read 0 on its first call) and overlapping content is paid once per ayah. For
+production, call the Messages API directly in **batch mode** (half price) and order each ayah's input as
+**shared prefix first** — system + brief + whole surah + surah branch table + seed sheet, byte-identical for every
+ayah of the surah — then an explicit **cache_control marker**, then the ayah-specific part (its dictionary, digest
+v2, its seed lines). The first ayah writes the prefix, the others read it at ~1/10 of the price. Keep one fresh
+call per ayah (parallel, clean context); one agent walking the surah turn by turn is not cheaper enough to pay for
+its growing context (~500k tokens by ayah 20), homogenisation and serial run time. Rough, 20-ayah surah: no reuse
+≈ $38; shared cached prefix ≈ $30; + batch ≈ $15. Output (mostly thinking) is ~80% of the cost either way.
+
 ## Open
 
 - The user's blind read of v11 vs the best earlier setup on a few ayat.

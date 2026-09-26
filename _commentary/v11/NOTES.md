@@ -45,7 +45,8 @@ Pending the user's yes: seed probe on S29 window 38–63 (≈ $1.3).
    cannot follow what is coming from where"). Also consider telling ayah writers to assume the surah reading exists
    (every S100 ayah reading re-tells the raid scene).
 3. Blind read by the user of v11 vs the best earlier setup on a few ayat.
-4. Cost at scale: `claude -p` bills input as a 1-hour cache write; direct API/batch would cut it.
+4. Cost at scale (user-approved direction, 2026-09-26): production via the Messages API in batch mode, shared
+   surah prefix first + explicit cache_control marker + ayah part last, one fresh call per ayah (README "Production").
 
 ## Results so far (details in README.md)
 - S1 v11 (done): 7 ayat $11.92 + chains $1.06 (18 chains). vs v5 (`compare_s001_v5.md`): 53% of v5 prose refs also
