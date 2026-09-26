@@ -1,0 +1,10 @@
+# local_1.md — 1 items
+
+### L01 word 1: وَٱلْعَصْرِ — lemma عَصْر, root ع ص ر, pos P;DET;N
+- analysis: oath particle at surah onset, not ordinary coordination; it governs the following genitive noun and opens a deferred oath frame
+- analysis prose: {{ar:وَ}} ({{tr:wa-}}) is not functioning here as a simple connective. At the opening of the surah, before any prior clause exists to join, it acts as the initiated oath particle and makes the following noun its genitive sworn-by object; this is the surah-opening oath use of {{ar:وَ}} ({{tr:wa-}}), not a continuing oath link or an oath introduced by another particle. That first particle therefore sets the discourse mode before any lexical predicate appears: the listener enters an oath-frame and waits for the answer in 103:2. The oath act itself remains compressed; Arabic leaves the swearing verb unspoken and gives only particle plus governed noun. Because the particle is a bound proclitic a…
+  - topic [used]: oath particle governs the next noun
+  - topic [used]: opening particle delays the sworn answer
+  - topic [used]: suppressed oath verb compresses the formula
+  - topic [used]: bound particle fuses with the oath noun
+- root ع ص ر branches: B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب; B002 sıkarak sıvısını çıkarma / ضغط حتى يتحلب; B003 yağmur yüklü bulut ve yağmurun gelişi / سحاب يمطر ومطر يعصر; B004 sütun gibi yükselen döner toz rüzgarı / إعصار وغبار مستدير; B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام; B006 alıkoyma, malı alma veya geri alma / حبس ومنع واسترجاع; B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة; B008 boğaza takılan yiyeceği küçük yudumlarla geçirme / شرب قليل لإساغة الغصة; B009 genç kızın ergenlik eşiğine ulaşması / بلوغ الجارية عصر شبابها; B010 ekinin başak kılıflarına girip korunması / زرع يتحرز في أكمامه; B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب; B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة; B013 bir ağaç türü / العصرة شجرة; B014 susuzluktan kurumuş dil / لسان معصور من العطش; B015 bağırsak gazı çıkarma / العصار ريح البطن

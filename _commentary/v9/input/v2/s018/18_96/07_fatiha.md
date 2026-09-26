@@ -1,0 +1,512 @@
+# Fatiha lens (recited in every salah; standing context)
+
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+## Focus branches × Fatiha branches (top 3 by distinct root)
+
+- **ء ت ي B001 gelmek, ulaşmak / الإتيان والمجيء**
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 1:4 ٱلدِّينِ
+- **ء ت ي B002 vermek; getirip sunmak / الإيتاء والإعطاء**
+  - ه د ي B011 övgü veya yergi şiiri sunma ve şiirle yergileşme / إهداء الشعر ومهاداته ← 1:6 ٱهْدِنَا
+  - ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **ء ت ي B003 uygun yoldan ele almak ve elverişli hale gelmek / مأتى الأمر وتهيؤه**
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+- **ء ت ي B004 su kanalı açmak ve akışı yönlendirmek / مجرى الماء وتسليك سبيله**
+  - م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+- **ء ت ي B005 başka bölgeden gelen sel / السيل الآتي من غير البلد**
+  - و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+  - ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+- **ء ت ي B006 topluluğa yabancı kimse / الغريب الداخل في غير قومه**
+  - ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+- **ء ت ي B007 gelişip bol ürün vermek / خروج النماء والنتاج**
+  - ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+- **ء ت ي B008 ödenen vergi; rüşvet / الإتاوة المؤداة**
+  - د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ه د ي B004 incelik göstergesi armağan verme / بعثة لطف وهدية إلى ذي مودة ← 1:6 ٱهْدِنَا
+- **ء ت ي B009 devenin ön ayaklarını geri getirişi / رجع يدي الناقة في السير**
+  - ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 1:7 أَنْعَمْتَ
+  - م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+- **ء ت ي B010 işlek ana yol, son sınır ve karşı hizası / الميتاء طريق ومحاذاة**
+  - م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 1:4 مَٰلِكِ
+  - ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+  - ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+- **ء ت ي B011 felakete uğramak, kaybetmek veya düşmanca ele geçirilmek / إتيان البلاء والهلاك**
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - ع ب د B011 bineği yüzünden yolda kalma veya güçlükle direnen deve / العطب والانقطاع ← 1:5 نَعْبُدُ
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+- **ء ت ي B012 dişi devenin çiftleşmek istemesi / استئتاء الناقة**
+  - ع و ن B005 bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة ← 1:5 نَسْتَعِينُ
+  - س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 1:1 بِسْمِ
+  - غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+- **ء ت ي B013 etkili ve işini yürüten adam / نَفاذ الرجل**
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 1:1 بِسْمِ
+  - ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+- **ز ب ر B001 sağlamlaştırıp sıkıca tutturma / إحكام الشيء وطي البئر بالحجارة**
+  - م ل ك B001 güçlü ve tutarlı biçimde bir arada durma / قوة الشيء وتماسكه ← 1:4 مَٰلِكِ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+- **ز ب ر B002 toplanmış iri parça ya da yoğun kütle / الزبرة قطعة مجتمعة أو كتلة**
+  - غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+- **ز ب ر B003 yazıya geçirme ve yazılı eser / الكتابة والكتاب والزبور**
+  - ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **ز ب ر B004 sertçe azarlayıp alıkoyma / الزجر والانتهار والمنع**
+  - غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+  - ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 1:6 ٱلْمُسْتَقِيمَ
+- **ز ب ر B005 ağır felaket / الزبير أو الزوبر للداهية**
+  - غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+  - ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+- **ز ب ر B006 bir şeyi bütünüyle alma veya sözü eksiksiz yükleme / أخذ الشيء بزوبره كله**
+  - ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+- **ز ب ر B007 tüy ve liflerin kabarıp yüzeyde belirginleşmesi / انتفاش الزئبر ونبات الوبر**
+  - ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 1:2 رَبِّ
+  - ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **ز ب ر B008 çamurlu balçık veya bulanıklık / الزبير حمأة وكدر**
+  - ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 1:1 بِسْمِ
+- **ز ب ر B009 öfkesinin kabarıp şiddetlenmesi / هاجت زبراؤه للغضب**
+  - غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - ه د ي B011 övgü veya yergi şiiri sunma ve şiirle yergileşme / إهداء الشعر ومهاداته ← 1:6 ٱهْدِنَا
+- **ح د د B001 ayıran ve kapsamı belirleyen sınır / الحاجز والغاية المميزة**
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - ح م د B004 övülesi işin varılabilecek en ileri sınırı / حماداك الغاية المحمودة ← 1:2 ٱلْحَمْدُ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **ح د د B002 engelleme ve geri çevirme / المنع والصرف والحظر**
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **ح د د B003 karşı çıkma ve direnme / المحادة والمخالفة**
+  - غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+- **ح د د B004 sert ve dayanıklı demir / الحديد والصلابة الممتنعة**
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+- **ح د د B005 keskin ağız ve nüfuz eden etki / الطرف الحاد والنفاذ**
+  - ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+- **ح د د B006 sertlik, atılgan güç ve öfkeli taşkınlık / حدة البأس والشراب والغضب**
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+  - غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+- **ح د د B007 eş için süsten kaçınarak yas tutma / إحداد المرأة وترك الزينة**
+  - ه د ي B006 gelini eşinin yanına götürme / العروس المهدية إلى زوجها ← 1:6 ٱهْدِنَا
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 1:2 رَبِّ
+- **ح د د B008 demir araç kullanma, tıraş etme ve bileme / الاستحداد بالحديد**
+  - ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+  - ي و م B002 herhangi bir zaman dilimi; bağlama göre devir / مدة من الزمان ← 1:4 يَوْمِ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **س و ي B001 iki şeyi birbirine denk kılma veya denk sayma / مساواة ومعادلة بين شيئين**
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+  - س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 1:1 بِسْمِ
+- **س و ي B002 kendi içinde düzgün ve tam duruma gelme / استقامة وتمام في الذات**
+  - ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ع و ن B005 bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة ← 1:5 نَسْتَعِينُ
+- **س و ي B003 üzerine çıkıp yerleşmek veya egemen olmak / علو واستقرار على شيء**
+  - ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 1:6 ٱلْمُسْتَقِيمَ
+  - س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 1:1 بِسْمِ
+  - ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 1:7 أَنْعَمْتَ
+- **س و ي B004 bir hedefe yönelip onu amaç edinmek / إقبال وقصد إلى جهة**
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 1:6 ٱلْمُسْتَقِيمَ
+- **س و ي B005 gençlik olgunluğuna erişmek / بلوغ وتمام الشباب**
+  - ع و ن B005 bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة ← 1:5 نَسْتَعِينُ
+  - ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 1:6 ٱلْمُسْتَقِيمَ
+  - ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+- **س و ي B006 iki yanın ortasında ve ikisine karşı yansız olma / وسط وعدل ومكان منصف**
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ق و م B015 tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل ← 1:6 ٱلْمُسْتَقِيمَ
+  - م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 1:4 مَٰلِكِ
+- **س و ي B007 başka ve ayrı olan / مباينة وكون الشيء غيره**
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+- **س و ي B008 birinin yöneldiği hedefe yönelmek / قصد نحو شخص أو جهة**
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+- **س و ي B009 geniş ve açık arazi / السِيّ واسع أملس من الأرض**
+  - ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+  - و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+  - س م و B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد ← 1:1 بِسْمِ
+- **س و ي B010 devenin sırtına konan dolgulu binme örtüsü / السَّويّة على ظهر البعير**
+  - غ ض ب B008 belirli hayvan derileri veya kalkan gibi katlanmış deri / جلد صلب أو مطوي كدرقة ← 1:7 ٱلْمَغْضُوبِ
+  - ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 1:2 رَبِّ
+  - ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+- **س و ي B012 ayın on üçüncü gecesi / ليلة استواء القمر**
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - ي و م B001 güneşin doğuşundan batışına kadarki gün / وقت النهار المحدود ← 1:4 يَوْمِ
+  - ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+- **س و ي B013 başına denk mal ve bolluk / سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة**
+  - ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+- **ب ي ن B001 ayrılıp kopma / انفصال الشيء وافتراقه**
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **ب ي ن B002 arada olma / الخلالة والوسط بين شيئين**
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+  - ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+- **ب ي ن B003 arayı bağlayan ilişki / الوصلة القائمة بين الأطراف**
+  - ر ح م B002 yakın soy bağı / الرَّحِم والقرابة ← 1:1 ٱلرَّحْمَٰنِ
+  - ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+- **ب ي ن B004 açığa çıkıp belirginleşme / ظهور الشيء وانكشافه**
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 1:1 بِسْمِ
+- **ب ي ن B005 anlamı açıkça ortaya koyma / كشف المعنى بالقول أو العلامة**
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+- **ب ي ن B006 geniş uzaklık / بعد المسافة واتساع الفجوة**
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+- **ب ي ن B007 göz erimindeki arazi parçası / قطعة أرض تمتد في النظر**
+  - ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ض ب B008 belirli hayvan derileri veya kalkan gibi katlanmış deri / جلد صلب أو مطوي كدرقة ← 1:7 ٱلْمَغْضُوبِ
+  - د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 1:4 ٱلدِّينِ
+- **ب ي ن B008 bağlı yerinden ayrılma / انفراج العضو أو الشيء عن ملاصقه**
+  - ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+- **ب ي ن B009 sol yandan sağan kişi / الحالب من جهة مخصوصة**
+  - ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 1:2 رَبِّ
+  - د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 1:4 ٱلدِّينِ
+- **ب ي ن B010 o sırada / الوقت الواقع أثناء حال أو فعل**
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **ب ي ن B011 iki arada kalmış hal / حالة متوسطة بين طرفين**
+  - ه د ي B009 bön, güçsüz ve ağır kimse / الهداء البليد الضعيف ← 1:6 ٱهْدِنَا
+  - ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **ب ي ن B012 geri dönüşsüz boşanma / طلاق يقطع الرجعة**
+  - ه د ي B006 gelini eşinin yanına götürme / العروس المهدية إلى زوجها ← 1:6 ٱهْدِنَا
+  - د ي ن B006 kent / مدينة الطاعة ← 1:4 ٱلدِّينِ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **ص د ف B001 yana sapma, yüz çevirme ve başka yöne sevk etme / الميل والإعراض**
+  - ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 1:7 ٱلضَّآلِّينَ
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - م ل ك B002 sahiplik ve tasarruf yetkisi / المِلْك والتصرف ← 1:4 مَٰلِكِ
+- **ص د ف B002 inci taşıyabilen çift kapaklı deniz canlısı ve kabuğu / الصَّدَف غشاء البحر**
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+- **ص د ف B003 dağ yanı, yüksek dağ kesimi veya yüksek yapı / جانب الجبل والناحية المرتفعة**
+  - س م و B002 yükselerek uzaktan beliren görünüş / الشخص المرتفع الظاهر ← 1:1 بِسْمِ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+- **ص د ف B004 birine rastlamak veya onu bulmak / المصادفة واللقاء**
+  - ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - ق و م B018 pazarın canlanıp satışların artması / نفاق السوق ← 1:6 ٱلْمُسْتَقِيمَ
+- **ص د ف B005 su yalağında içen sürünün arkasında sıra bekleyen develer / الإبل الصوادف عند الحوض**
+  - ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+- **ق و ل B001 söze dökme / إخراج القول بالنطق**
+  - ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - ق و م B015 tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل ← 1:6 ٱلْمُسْتَقِيمَ
+- **ق و ل B002 konuşma organı / اللسان آلة القول**
+  - ر ب ب B017 gemicilerin başı / رباني الملاحين ← 1:2 رَبِّ
+  - ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:1 ٱللَّهِ
+  - ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ
+- **ق و ل B003 çok sözlü kişi / كثرة القول في صاحبه**
+  - ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 1:6 ٱلْمُسْتَقِيمَ
+  - ح م د B003 övülen veya birçok övülesi niteliği bulunan kimse / المحمود كثير الخصال ← 1:2 ٱلْحَمْدُ
+  - غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+- **ق و ل B004 sözü geçen yönetici unvanı / القيل صاحب القول النافذ**
+  - م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 1:4 مَٰلِكِ
+  - ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+  - ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+- **ق و ل B005 yalan söyleme veya isnat etme / قول ما لم يكن أو نسبته**
+  - ع ب د B009 gecikmeden yapmak veya koşuda biraz hızlanmak / قلة اللبث وسرعة العدو ← 1:5 نَعْبُدُ
+  - ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **ق و ل B006 sözü üzerine alma / اجترار القول إلى النفس**
+  - س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 1:1 بِسْمِ
+  - ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+  - ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+- **ق و ل B007 dolaşımdaki söz / القول الفاشي بين الناس**
+  - س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 1:1 بِسْمِ
+  - ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 1:6 ٱلْمُسْتَقِيمَ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **ق و ل B008 oyun sopası / عود القال لضرب القلة**
+  - ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 1:2 رَبِّ
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+- **ق و ل B009 müzakere etme / المقاولة في الأمر**
+  - ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+- **ق و ل B010 hükmünü dayatma / اقتالة الحكم على غيره**
+  - ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 1:6 ٱلْمُسْتَقِيمَ
+  - د ي ن B002 yargılayıp hesap görerek karşılığını verme / الحساب والجزاء ← 1:4 ٱلدِّينِ
+  - ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:1 ٱللَّهِ
+- **ق و ل B011 sanma işlevli söyleme / قول يجري مجرى الظن**
+  - ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 1:7 أَنْعَمْتَ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **ق و ل B012 içte kalmış söz / قول في النفس لم يظهر**
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 1:6 ٱلْمُسْتَقِيمَ
+- **ق و ل B013 görüş benimseme / القول اعتقاد ومذهب**
+  - ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 1:2 ٱلْعَٰلَمِينَ
+  - ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - ع ب د B006 saygı gösterilip hizmet edilen kişi / التكريم والتعظيم ← 1:5 نَعْبُدُ
+- **ق و ل B014 durumuyla belli etme / قول الشيء دلالته**
+  - س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 1:1 بِسْمِ
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+- **ق و ل B015 içten önemseme / العناية الصادقة بالشيء**
+  - ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 1:7 أَنْعَمْتَ
+  - د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+- **ق و ل B016 teknik tanım / قول الشيء حده**
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 1:7 أَنْعَمْتَ
+  - ح م د B004 övülesi işin varılabilecek en ileri sınırı / حماداك الغاية المحمودة ← 1:2 ٱلْحَمْدُ
+- **ق ل ل B001 azlık / القِلَّة والضآلة**
+  - ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+- **ق ل ل B002 bir şeyin tepesi veya başı / قُلَّة الشيء ورأسه**
+  - ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+- **ق ل ل B003 büyük küp / القُلَّة الجرة الكبيرة**
+  - ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+- **ق ل ل B004 yük kaldırma, yükselme ve yola koyulma / الإقلال والاستقلال حملا ونهوضا**
+  - ن ع م B008 bir topluluğun dağılıp gücünü yitirmesi / طيران النعامة وتفرق القوم ← 1:7 أَنْعَمْتَ
+  - س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 1:1 بِسْمِ
+  - ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+- **ق ل ل B005 korku veya öfkeden titreme / القِلُّ رعدة واضطراب**
+  - غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 1:6 ٱلْمُسْتَقِيمَ
+- **ن ف خ B001 bir şeye hava üfleme / إرسال الريح في الشيء**
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 1:7 أَنْعَمْتَ
+  - غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+- **ن ف خ B002 şişme ve kabarma / انتفاخ الشيء وامتلاؤه بالريح**
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 1:7 أَنْعَمْتَ
+- **ن ف خ B003 yükselip belirginleşme / علو الشيء وربو الأرض**
+  - س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+  - و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+  - ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 1:6 ٱلْمُسْتَقِيمَ
+- **ن ف خ B004 gaz çıkarmak / نفخ بها بمعنى حبق**
+  - ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ
+- **ن ف خ B005 evde hiç kimse olmaması / ما بالدار نافخ ضرمة**
+  - ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+- **ن ف خ B006 kibirli ve böbürlenen kişi / انتفاخ الفخر والكبر**
+  - ع ب د B006 saygı gösterilip hizmet edilen kişi / التكريم والتعظيم ← 1:5 نَعْبُدُ
+  - غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+  - ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+- **ج ع ل B001 bir şeyi yapıp var etme / إحداث الشيء وصنعه**
+  - ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+- **ج ع ل B002 birini veya şeyi belirli bir duruma getirme / تصيير الشيء على حال**
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+  - س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 1:1 بِسْمِ
+- **ج ع ل B004 bir eylemi yapmaya başlama / الشروع في الفعل أو ملازمته**
+  - ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 1:7 أَنْعَمْتَ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+- **ج ع ل B005 iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme / أجر مجعول على عمل**
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 1:6 ٱلْمُسْتَقِيمَ
+- **ج ع ل B006 kısa veya küçük hurma ağaçları / النخل الصغار أو القصار**
+  - ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **ج ع ل B007 sıcak tencereyi indirme bezi ve onunla indirme / خرقة إنزال القدر**
+  - ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 1:2 رَبِّ
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+- **ج ع ل B008 kara küçük yer hayvanı ve bunlarla dolu su / دويبة الجعلان**
+  - ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - ن ع م B006 devekuşu / النعام والنعامة الطائر ← 1:7 أَنْعَمْتَ
+- **ج ع ل B009 dişinin çiftleşmek için erkeği istemesi / اشتهاء الأنثى للفحل**
+  - س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 1:1 بِسْمِ
+  - ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 1:5 نَعْبُدُ
+  - ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 1:7 أَنْعَمْتَ
+- **ج ع ل B010 deve kuşu yavrusu / فرخ النعام**
+  - ن ع م B006 devekuşu / النعام والنعامة الطائر ← 1:7 أَنْعَمْتَ
+  - ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 1:2 ٱلْعَٰلَمِينَ
+  - ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+- **ج ع ل B011 belirtilmemiş bir yer adı / الجَعْلة اسم مكان**
+  - ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 1:2 ٱلْعَٰلَمِينَ
+  - ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ
+- **ج ع ل B012 kısa, şişman ve inatçı olma / قصر مع سمن ولجاج**
+  - ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+- **ن و ر B001 ışık ve aydınlatma / الضياء والإضاءة**
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 1:1 بِسْمِ
+  - د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+- **ن و ر B002 yanan ateş ve ateşle yapılan hayvan damgası / النار المتقدة والسمة بها**
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+- **ن و ر B004 ağaç çiçeği ve çiçeklenme / نور الشجر وزهره**
+  - ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 1:2 رَبِّ
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+- **ن و ر B005 yol gösteren belirgin işaret ve yüksek yapı / المنار والمنارة الظاهرة**
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+- **ن و ر B006 ürkmek, kaçınmak ve uzaklaştırmak / النِّفار وقلة الثبات**
+  - ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+  - ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 1:2 رَبِّ
+- **ن و ر B007 topluluklar arası düşmanlık ve kin / النائرة بين القوم**
+  - غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - ر ح م B002 yakın soy bağı / الرَّحِم والقرابة ← 1:1 ٱلرَّحْمَٰنِ
+- **ن و ر B008 göz boyası ve dövme için kullanılan duman karası / دخان الوشم والكحل**
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - و س م B001 tanıtıcı fiziksel iz koyma, iz ve araç / أثر وسم ظاهر يجعل الشيء معروفا ← 1:1 بِسْمِ
+  - س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 1:1 بِسْمِ
+- **ن و ر B009 bedene sürülen özel karışım ve onu sürünme / النُّورَة المطلية**
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+  - س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 1:1 بِسْمِ
+- **ف ر غ B001 meşguliyetten çıkma veya içi boş kalma / الخلو بعد الشغل**
+  - د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - ع و ن B005 bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة ← 1:5 نَسْتَعِينُ
+  - ح م د B001 yermenin karşıtı olan, iyilik için teşekkürü de kapsayan övgü / الحمد خلاف الذم ← 1:2 ٱلْحَمْدُ
+- **ف ر غ B002 dökerek boşaltma veya akıp dökülme / الصب وإخلاء الوعاء**
+  - ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+  - م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+- **ف ر غ B003 geniş adımlı, geniş izli veya enli olma / السعة في الحركة والأثر**
+  - ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **ف ر غ B004 kanı yerde kalmak / الدم المهدور**
+  - ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 1:7 ٱلضَّآلِّينَ
+  - س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 1:1 بِسْمِ
+  - ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+- **ف ر غ B005 erkeğin döl sıvısı / ماء الرجل**
+  - ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+  - ر ح م B003 döl yatağı / رَحِم الأنثى ← 1:1 ٱلرَّحْمَٰنِ
+  - ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+- **ف ر غ B006 birine veya işe yönelip kendini ona verme / القصد إلى الأمر**
+  - ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 1:6 ٱلْمُسْتَقِيمَ
+  - م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 1:4 مَٰلِكِ
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+- **ق ط ر B001 yan, yön ve dış bölüm / النواحي والجوانب**
+  - ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 1:2 ٱلْعَٰلَمِينَ
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 1:4 مَٰلِكِ
+- **ق ط ر B002 yana devirip düşürmek / الإلقاء على الجنب**
+  - ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - ع ب د B009 gecikmeden yapmak veya koşuda biraz hızlanmak / قلة اللبث وسرعة العدو ← 1:5 نَعْبُدُ
+- **ق ط ر B003 damlama, damla damla akma / سيلان القطرات**
+  - ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+  - م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+- **ق ط ر B004 aynı düzende art arda sıralanma / التتابع في نسق**
+  - ن ع م B008 bir topluluğun dağılıp gücünü yitirmesi / طيران النعامة وتفرق القوم ← 1:7 أَنْعَمْتَ
+  - ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 1:2 رَبِّ
+  - ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+- **ق ط ر B005 ağaçtan elde edilen koyu katran / القَطِران المتحلب**
+  - ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+  - ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+- **ق ط ر B006 erimiş bakır / النحاس المذاب**
+  - ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+  - ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - ن ع م B008 bir topluluğun dağılıp gücünü yitirmesi / طيران النعامة وتفرق القوم ← 1:7 أَنْعَمْتَ
+- **ق ط ر B007 tütsü odunu ve tütsü kabı / عود البخور ومجمرته**
+  - ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 1:2 رَبِّ
+  - ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+  - ع و ن B006 yaban eşeği sürüsü / العانة قطيع الحمر ← 1:5 نَسْتَعِينُ
+- **ق ط ر B008 karada gitmek; birinden geri kalmak / الذهاب في الأرض**
+  - ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 1:7 ٱلضَّآلِّينَ
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - غ ي ر B002 cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية ← 1:7 غَيْرِ
+- **ق ط ر B009 hücuma hazırlanıp konum almak / التهيؤ للقتال**
+  - ع و ن B003 yinelenmiş veya öncülü olan savaş / الحرب العَوان ← 1:5 نَسْتَعِينُ
+  - ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+- **ق ط ر B010 eğilip kurumaya yüz tutmak / تهيؤ النبات لليبس**
+  - ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 1:2 رَبِّ
+  - و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+  - س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+- **ق ط ر B011 örnek hesaba göre toplu ve ölçüsüz satış / البيع جرافا بلا كيل**
+  - ق و م B015 tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - ه د ي B005 kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم ← 1:6 ٱهْدِنَا
+- **ق ط ر B012 gidiş dönüş için kiralamak / الكراء ذهابا وجيئة**
+  - ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - ح م د B004 övülesi işin varılabilecek en ileri sınırı / حماداك الغاية المحمودة ← 1:2 ٱلْحَمْدُ
+- **ق ط ر B013 yer nispetiyle anılan / النسبة إلى قطر**
+  - ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+  - ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - د ي ن B006 kent / مدينة الطاعة ← 1:4 ٱلدِّينِ
+- **ق ط ر B014 koyu renkli belirli bir bitki / نبات قطوراء**
+  - ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 1:2 رَبِّ
+  - و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 1:1 بِسْمِ
+  - ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ

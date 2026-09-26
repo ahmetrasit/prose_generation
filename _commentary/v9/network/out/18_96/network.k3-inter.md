@@ -1,0 +1,632 @@
+# Network for 18:96 (img top-3)
+
+Nodes: Counter({'A': 249, 'B': 159, 'F': 14, 'M': 12}); rare branches 139. Context zones: {'surah': 109, 'fatiha': 7, 'inter': 133}; people anchors: —.
+Edges: {'rel': 367, 'lex': 858, 'kw': 1772, 'root': 94, 'img': 2385, 'frame': 17, 'hft': 81}.
+
+## Hubs (rare branches of ≥3 roots point here)
+
+### جَعَلَهُۥ (w13) — backbone hub, 10 roots, score 14.0
+- ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه (rare, 3 src) @ ءَاتُونِىٓ — lex/src: علي names the plain image of جَعَلَهُۥ
+- ء ت ي B003 «uygun yoldan ele almak ve elverişli hale gelmek» مأتى الأمر وتهيؤه (rare, 3 src) @ ءَاتُونِى — lex/src: علي names the plain image of جَعَلَهُۥ
+- ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد (rare, 5 src) @ ءَاتُونِى — lex/src: علي names the plain image of جَعَلَهُۥ
+- ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد (rare, 5 src) @ ءَاتُونِىٓ — lex/src: علي names the plain image of جَعَلَهُۥ
+- ء ت ي B011 «felakete uğramak, kaybetmek veya düşmanca ele geçirilmek» إتيان البلاء والهلاك (rare, 2 src) @ ءَاتُونِىٓ — lex/src: علي names the plain image of جَعَلَهُۥ
+- ء ت ي B011 «felakete uğramak, kaybetmek veya düşmanca ele geçirilmek» إتيان البلاء والهلاك (rare, 2 src) @ ءَاتُونِى — lex/src: علي names the plain image of جَعَلَهُۥ
+- ب ي ن B010 «o sırada» الوقت الواقع أثناء حال أو فعل (rare, 3 src) @ بَيْنَ — lex/image: حال names the plain image of جَعَلَهُۥ; lex/src: فيجعل → root ج ع ل; img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+- ح د د B007 «eş için süsten kaçınarak yas tutma» إحداد المرأة وترك الزينة (rare, 3 src) @ ٱلْحَدِيدِ — lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B009 اشتهاء الأنثى للفحل
+- ز ب ر B003 «yazıya geçirme ve yazılı eser» الكتابة والكتاب والزبور (rare, 6 src) @ زُبَرَ — lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B009 اشتهاء الأنثى للفحل
+- ز ب ر B006 «bir şeyi bütünüyle alma veya sözü eksiksiz yükleme» أخذ الشيء بزوبره كله (rare, 3 src) @ زُبَرَ — lex/src: علي names the plain image of جَعَلَهُۥ
+- س و ي B003 «üzerine çıkıp yerleşmek veya egemen olmak» علو واستقرار على شيء (rare, 3 src) @ سَاوَىٰ — lex/image: علي names the plain image of جَعَلَهُۥ; kw/shared: elevation (shared) — plain sense of جَعَلَهُۥ; img/same: same: ج ع ل B009 اشتهاء الأنثى للفحل
+- س و ي B004 «bir hedefe yönelip onu amaç edinmek» إقبال وقصد إلى جهة (rare, 3 src) @ سَاوَىٰ — lex/src: علي names the plain image of جَعَلَهُۥ
+- س و ي B008 «birinin yöneldiği hedefe yönelmek» قصد نحو شخص أو جهة (rare, 3 src) @ سَاوَىٰ — lex/src: علي names the plain image of جَعَلَهُۥ
+- س و ي B010 «devenin sırtına konan dolgulu binme örtüsü» السَّويّة على ظهر البعير (rare, 4 src) @ سَاوَىٰ — lex/image: علي names the plain image of جَعَلَهُۥ; lex/src: ويجعل → root ج ع ل; img/same: same: ج ع ل B007 خرقة إنزال القدر
+- ص د ف B005 «su yalağında içen sürünün arkasında sıra bekleyen develer» الإبل الصوادف عند الحوض (rare, 2 src) @ ٱلصَّدَفَيْنِ — lex/src: علي names the plain image of جَعَلَهُۥ
+- ق ط ر B002 «yana devirip düşürmek» الإلقاء على الجنب (rare, 5 src) @ قِطْرًا — lex/image: علي names the plain image of جَعَلَهُۥ
+- ق ط ر B004 «aynı düzende art arda sıralanma» التتابع في نسق (rare, 5 src) @ قِطْرًا — lex/src: علي names the plain image of جَعَلَهُۥ
+- ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل (rare, 1 src, sole) @ قِطْرًا — lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B005 أجر مجعول على عمل
+- ق ط ر B013 «yer nispetiyle anılan» النسبة إلى قطر (rare, 2 src) @ قِطْرًا — lex/src: جعل → root ج ع ل; img/same: same: ج ع ل B010 فرخ النعام
+- ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته (rare, 2 src) @ قَالَ — lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+- ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته (rare, 2 src) @ قَالَ — lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+- ق و ل B010 «hükmünü dayatma» اقتالة الحكم على غيره (rare, 1 src, sole) @ قَالَ — lex/image: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B001 إحداث الشيء وصنعه
+- ق و ل B010 «hükmünü dayatma» اقتالة الحكم على غيره (rare, 1 src, sole) @ قَالَ — lex/image: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B001 إحداث الشيء وصنعه
+- ق و ل B014 «durumuyla belli etme» قول الشيء دلالته (rare, 1 src, sole) @ قَالَ — lex/src: علي names the plain image of جَعَلَهُۥ
+- ق و ل B014 «durumuyla belli etme» قول الشيء دلالته (rare, 1 src, sole) @ قَالَ — lex/src: علي names the plain image of جَعَلَهُۥ
+- ن ف خ B002 «şişme ve kabarma» انتفاخ الشيء وامتلاؤه بالريح (rare, 5 src) @ ٱنفُخُوا۟ — lex/src: علي names the plain image of جَعَلَهُۥ
+- ن و ر B001 «ışık ve aydınlatma» الضياء والإضاءة (rare, 3 src) @ نَارًا — lex/src: علي names the plain image of جَعَلَهُۥ
+- ن و ر B005 «yol gösteren belirgin işaret ve yüksek yapı» المنار والمنارة الظاهرة (rare, 3 src) @ نَارًا — lex/src: علي names the plain image of جَعَلَهُۥ
+- ن و ر B008 «göz boyası ve dövme için kullanılan duman karası» دخان الوشم والكحل (rare, 3 src) @ نَارًا — lex/src: جعلت → root ج ع ل; img/same: same: ج ع ل B007 خرقة إنزال القدر
+
+### 18:45 [surah] — backbone hub, 6 roots, score 12.0
+  وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ ٱلرِّيَٰحُ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِىٓ — lex/image: ماء → كَمَآءٍ
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِى — lex/image: ماء → كَمَآءٍ
+- ء ت ي B008 «ödenen vergi; rüşvet» الإتاوة المؤداة (rare, 3 src) @ ءَاتُونِى — rel/near_synonym: ض ر ب B010 (kişiye veya toprağa konan vergi) → وَٱضْرِبْ
+- ء ت ي B008 «ödenen vergi; rüşvet» الإتاوة المؤداة (rare, 3 src) @ ءَاتُونِىٓ — rel/near_synonym: ض ر ب B010 (kişiye veya toprağa konan vergi) → وَٱضْرِبْ
+- ز ب ر B007 «tüy ve liflerin kabarıp yüzeyde belirginleşmesi» انتفاش الزئبر ونبات الوبر (rare, 5 src) @ زُبَرَ — lex/image: ونبات → نَبَاتُ
+- ف ر غ B005 «erkeğin döl sıvısı» ماء الرجل (rare, 1 src, sole) @ أُفْرِغْ — lex/image: ماء → كَمَآءٍ; rel/near_neighbor: م و ه B004 (döl sıvısı ve rahme bırakılması) → كَمَآءٍ
+- ق ط ر B010 «eğilip kurumaya yüz tutmak» تهيؤ النبات لليبس (rare, 3 src) @ قِطْرًا — lex/image: نبات → نَبَاتُ
+- ق ط ر B014 «koyu renkli belirli bir bitki» نبات قطوراء (rare, 2 src) @ قِطْرًا — lex/image: نبات → نَبَاتُ
+- ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه (echo rare, 4 src) @ قَالَ — rel/near_synonym: ذ ر و B001 (tepe ve doruk) → تَذْرُوهُ; kw/shared: crest (shared) → تَذْرُوهُ; kw/shared: peak (shared) → تَذْرُوهُ; kw/shared: summit (shared) → تَذْرُوهُ; img/surah: surah: ذ ر و B001 الذروة والعلو المشرف ← تَذْرُوهُ
+- ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه (echo rare, 4 src) @ قَالَ — rel/near_synonym: ذ ر و B001 (tepe ve doruk) → تَذْرُوهُ; kw/shared: crest (shared) → تَذْرُوهُ; kw/shared: peak (shared) → تَذْرُوهُ; kw/shared: summit (shared) → تَذْرُوهُ; img/surah: surah: ذ ر و B001 الذروة والعلو المشرف ← تَذْرُوهُ
+- ق ل ل B004 «yük kaldırma, yükselme ve yola koyulma» الإقلال والاستقلال حملا ونهوضا (echo rare, 3 src) @ قَالَ — lex/src-rare: نبات → نَبَاتُ
+- ق ل ل B004 «yük kaldırma, yükselme ve yola koyulma» الإقلال والاستقلال حملا ونهوضا (echo rare, 3 src) @ قَالَ — lex/src-rare: نبات → نَبَاتُ
+- ن ف خ B002 «şişme ve kabarma» انتفاخ الشيء وامتلاؤه بالريح (rare, 5 src) @ ٱنفُخُوا۟ — lex/image: ريح → ٱلرِّيَٰحُ
+
+### 13:17 [inter] — backbone hub, 6 roots, score 11.5
+  أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًا رَّابِيًا وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍ زَبَدٌ مِّثْلُهُۥ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءً وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِىٓ — lex/image: ماء → مَآءً
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِى — lex/image: ماء → مَآءً
+- ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد (rare, 5 src) @ ءَاتُونِى — lex/image: سيل → ٱلسَّيْلُ; rel/near_synonym: س ي ل B001 (akmak ve sel olmak) → فَسَالَتْ ٱلسَّيْلُ; kw/shared: torrent (shared) → فَسَالَتْ ٱلسَّيْلُ
+- ء ت ي B005 «başka bölgeden gelen sel» السيل الآتي من غير البلد (rare, 5 src) @ ءَاتُونِىٓ — lex/image: سيل → ٱلسَّيْلُ; rel/near_synonym: س ي ل B001 (akmak ve sel olmak) → فَسَالَتْ ٱلسَّيْلُ; kw/shared: torrent (shared) → فَسَالَتْ ٱلسَّيْلُ
+- ء ت ي B008 «ödenen vergi; rüşvet» الإتاوة المؤداة (rare, 3 src) @ ءَاتُونِى — rel/near_synonym: ض ر ب B010 (kişiye veya toprağa konan vergi) → يَضْرِبُ
+- ء ت ي B008 «ödenen vergi; rüşvet» الإتاوة المؤداة (rare, 3 src) @ ءَاتُونِىٓ — rel/near_synonym: ض ر ب B010 (kişiye veya toprağa konan vergi) → يَضْرِبُ
+- ف ر غ B004 «kanı yerde kalmak» الدم المهدور (rare, 3 src) @ أُفْرِغْ — lex/src: ذهب → فَيَذْهَبُ; lex/src-rare: باطلا → وَٱلْبَٰطِلَ; rel/near_synonym: ب ط ل B006 (öçsüz ve karşılıksız kalan kan) → وَٱلْبَٰطِلَ; img/inter: inter: ب ط ل B006 ذهاب الدم هدرا بلا ثأر ولا دية ← وَٱلْبَٰطِلَ
+- ف ر غ B005 «erkeğin döl sıvısı» ماء الرجل (rare, 1 src, sole) @ أُفْرِغْ — lex/image: ماء → مَآءً; rel/near_neighbor: م و ه B004 (döl sıvısı ve rahme bırakılması) → مَآءً
+- ق ط ر B002 «yana devirip düşürmek» الإلقاء على الجنب (rare, 5 src) @ قِطْرًا — rel/near_synonym: ج ف ء B002 (yere çalmak ve devirmek) → جُفَآءً; img/inter: inter: ج ف ء B002 الصرع والطرح بالأرض ← جُفَآءً
+- ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل (rare, 1 src, sole) @ قِطْرًا — lex/src-rare: متاع → مَتَٰعٍ
+- ق ل ل B005 «korku veya öfkeden titreme» القِلُّ رعدة واضطراب (echo rare, 3 src) @ قَالَ — rel/near_synonym: ء ر ض B008 (insandaki titreme) → ٱلْأَرْضِ
+- ق ل ل B005 «korku veya öfkeden titreme» القِلُّ رعدة واضطراب (echo rare, 3 src) @ قَالَ — rel/near_synonym: ء ر ض B008 (insandaki titreme) → ٱلْأَرْضِ
+- ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته (rare, 2 src) @ قَالَ — lex/src-rare: باطلا → وَٱلْبَٰطِلَ
+- ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته (rare, 2 src) @ قَالَ — lex/src-rare: باطلا → وَٱلْبَٰطِلَ
+- ن و ر B004 «ağaç çiçeği ve çiçeklenme» نور الشجر وزهره (rare, 3 src) @ نَارًا — rel/near_synonym: ز ب د B003 (ağaç çiçeği) → زَبَدًا زَبَدٌ ٱلزَّبَدُ; img/inter: inter: ز ب د B003 بياض النور والنبت ← زَبَدًا
+
+### 11:43 [inter] — backbone hub, 6 roots, score 11.0
+  قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِىٓ — lex/image: ماء → ٱلْمَآءِ
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِى — lex/image: ماء → ٱلْمَآءِ
+- ب ي ن B010 «o sırada» الوقت الواقع أثناء حال أو فعل (rare, 3 src) @ بَيْنَ — lex/image: حال → وَحَالَ
+- ف ر غ B005 «erkeğin döl sıvısı» ماء الرجل (rare, 1 src, sole) @ أُفْرِغْ — lex/image: ماء → ٱلْمَآءِ; rel/near_neighbor: م و ه B004 (döl sıvısı ve rahme bırakılması) → ٱلْمَآءِ
+- ق ط ر B001 «yan, yön ve dış bölüm» النواحي والجوانب (rare, 5 src) @ قِطْرًا — lex/src-rare: جبل → جَبَلٍ
+- ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه (echo rare, 4 src) @ قَالَ — lex/src-rare: جبل → جَبَلٍ; kw/shared: peak (shared) → جَبَلٍ; kw/shared: summit (shared) → جَبَلٍ
+- ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه (echo rare, 4 src) @ قَالَ — lex/src-rare: جبل → جَبَلٍ; kw/shared: peak (shared) → جَبَلٍ; kw/shared: summit (shared) → جَبَلٍ
+- ن و ر B005 «yol gösteren belirgin işaret ve yüksek yapı» المنار والمنارة الظاهرة (rare, 3 src) @ نَارًا — rel/near_synonym: ء م ر B005 (belirgin yol işareti) → أَمْرِ
+
+### 2:230 [inter] — backbone hub, 5 roots, score 10.0
+  فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعْدُ حَتَّىٰ تَنكِحَ زَوْجًا غَيْرَهُۥ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِ وَتِلْكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ
+- ء ت ي B009 «devenin ön ayaklarını geri getirişi» رجع يدي الناقة في السير (rare, 3 src) @ ءَاتُونِى — rel/near_synonym: ر ج ع B008 (bineğin ayağını geri getirmesi) → يَتَرَاجَعَآ; img/inter: inter: ر ج ع B008 رجع الدابة في السير ← يَتَرَاجَعَآ
+- ء ت ي B009 «devenin ön ayaklarını geri getirişi» رجع يدي الناقة في السير (rare, 3 src) @ ءَاتُونِىٓ — rel/near_synonym: ر ج ع B008 (bineğin ayağını geri getirmesi) → يَتَرَاجَعَآ; img/inter: inter: ر ج ع B008 رجع الدابة في السير ← يَتَرَاجَعَآ
+- ب ي ن B012 «geri dönüşsüz boşanma» طلاق يقطع الرجعة (rare, 1 src, sole) @ بَيْنَ — rel/near_synonym: ط ل ق B002 (boşama) → طَلَّقَهَا; img/inter: inter: ط ل ق B002 فك حبالة النكاح ← طَلَّقَهَا; img/inter: inter: ر ج ع B004 رجعة المرأة في النكاح والأهل ← يَتَرَاجَعَآ
+- س و ي B007 «başka ve ayrı olan» مباينة وكون الشيء غيره (rare, 5 src) @ سَاوَىٰ — rel/near_synonym: غ ي ر B005 (başkalık ve dışarıda bırakma) → غَيْرَهُۥ; img/inter: inter: غ ي ر B005 السوى والخلاف والاستثناء والنفي ← غَيْرَهُۥ; img/inter: inter: ب ع د B006 غير باعد وغير بعيد ← بَعْدُ
+- ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ
+- ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ
+- ن و ر B005 «yol gösteren belirgin işaret ve yüksek yapı» المنار والمنارة الظاهرة (rare, 3 src) @ نَارًا — rel/near_synonym: ع ل م B002 (yol ve sınır işaretleri) → يَعْلَمُونَ
+- ن و ر B009 «bedene sürülen özel karışım ve onu sürünme» النُّورَة المطلية (rare, 2 src) @ نَارًا — rel/thematic: ح د د B008 (beden bakımı) → حُدُودَ حُدُودُ
+
+### 7:74 [inter] — backbone hub, 5 roots, score 9.5
+  وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ
+- ء ت ي B006 «topluluğa yabancı kimse» الغريب الداخل في غير قومه (rare, 5 src) @ ءَاتُونِىٓ — rel/near_synonym: ن ح ت B006 (topluluğa karışmış yabancı) → وَتَنْحِتُونَ; img/inter: inter: ن ح ت B006 النحيت الدخيل في القوم ← وَتَنْحِتُونَ
+- ء ت ي B006 «topluluğa yabancı kimse» الغريب الداخل في غير قومه (rare, 5 src) @ ءَاتُونِى — rel/near_synonym: ن ح ت B006 (topluluğa karışmış yabancı) → وَتَنْحِتُونَ; img/inter: inter: ن ح ت B006 النحيت الدخيل في القوم ← وَتَنْحِتُونَ
+- ج ع ل B012 «kısa, şişman ve inatçı olma» قصر مع سمن ولجاج (rare, 1 src, sole) @ جَعَلَهُۥ — lex/image: قصر → قُصُورًا; kw/shared: shortness (shared) → قُصُورًا
+- ز ب ر B006 «bir şeyi bütünüyle alma veya sözü eksiksiz yükleme» أخذ الشيء بزوبره كله (rare, 3 src) @ زُبَرَ — rel/near_synonym: ء خ ذ B001 (almak ve ele geçirmek) → تَتَّخِذُونَ
+- ق ط ر B001 «yan, yön ve dış bölüm» النواحي والجوانب (rare, 5 src) @ قِطْرًا — lex/src-rare: جبل → ٱلْجِبَالَ
+- ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه (echo rare, 4 src) @ قَالَ — lex/src-rare: جبل → ٱلْجِبَالَ; kw/shared: peak (shared) → ٱلْجِبَالَ; kw/shared: summit (shared) → ٱلْجِبَالَ
+- ق ل ل B002 «bir şeyin tepesi veya başı» قُلَّة الشيء ورأسه (echo rare, 4 src) @ قَالَ — lex/src-rare: جبل → ٱلْجِبَالَ; kw/shared: peak (shared) → ٱلْجِبَالَ; kw/shared: summit (shared) → ٱلْجِبَالَ
+- ق ل ل B005 «korku veya öfkeden titreme» القِلُّ رعدة واضطراب (echo rare, 3 src) @ قَالَ — rel/near_synonym: ء ر ض B008 (insandaki titreme) → ٱلْأَرْضِ
+- ق ل ل B005 «korku veya öfkeden titreme» القِلُّ رعدة واضطراب (echo rare, 3 src) @ قَالَ — rel/near_synonym: ء ر ض B008 (insandaki titreme) → ٱلْأَرْضِ
+
+### 2:187 [inter] — backbone hub, 5 roots, score 9.0
+  أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ
+- ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج (rare, 5 src) @ ءَاتُونِى — rel/near_synonym: ء ك ل B002 (ağaç ve ekin ürünü) → وَكُلُوا۟; img/inter: inter: ء ك ل B002 غلة الشجر والزرع ← وَكُلُوا۟
+- ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج (rare, 5 src) @ ءَاتُونِىٓ — rel/near_synonym: ء ك ل B002 (ağaç ve ekin ürünü) → وَكُلُوا۟; img/inter: inter: ء ك ل B002 غلة الشجر والزرع ← وَكُلُوا۟
+- ز ب ر B003 «yazıya geçirme ve yazılı eser» الكتابة والكتاب والزبور (rare, 6 src) @ زُبَرَ — rel/near_synonym: ك ت ب B002 (yazmak ve yazılı kitap) → كَتَبَ
+- ص د ف B005 «su yalağında içen sürünün arkasında sıra bekleyen develer» الإبل الصوادف عند الحوض (rare, 2 src) @ ٱلصَّدَفَيْنِ — rel/thematic: ق ر ب B008 (su kaynağına doğru ilerleme) → تَقْرَبُوهَا; kw/shared: waiting (shared) → ءَايَٰتِهِۦ
+- ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودُ
+- ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودُ
+- ن و ر B005 «yol gösteren belirgin işaret ve yüksek yapı» المنار والمنارة الظاهرة (rare, 3 src) @ نَارًا — rel/near_synonym: ع ل م B002 (yol ve sınır işaretleri) → عَلِمَ
+- ن و ر B009 «bedene sürülen özel karışım ve onu sürünme» النُّورَة المطلية (rare, 2 src) @ نَارًا — rel/thematic: ح د د B008 (beden bakımı) → حُدُودُ
+
+### 2:229 [inter] — backbone hub, 5 roots, score 9.0
+  ٱلطَّلَٰقُ مَرَّتَانِ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَٰنٍ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ
+- ب ي ن B012 «geri dönüşsüz boşanma» طلاق يقطع الرجعة (rare, 1 src, sole) @ بَيْنَ — lex/image: طلاق → ٱلطَّلَٰقُ; rel/near_synonym: ط ل ق B002 (boşama) → ٱلطَّلَٰقُ; img/inter: inter: س ر ح B002 سراح الطلاق ← تَسْرِيحٌۢ
+- ج ع ل B004 «bir eylemi yapmaya başlama» الشروع في الفعل أو ملازمته (rare, 4 src) @ جَعَلَهُۥ — lex/src-rare: يتعدي → يَتَعَدَّ; kw/shared: continuation (shared) → مَرَّتَانِ
+- ج ع ل B006 «kısa veya küçük hurma ağaçları» النخل الصغار أو القصار (rare, 4 src) @ جَعَلَهُۥ — rel/near_synonym: ش ي ء B006 (küçük hurma ağaçları) → شَيْـًٔا; img/inter: inter: ش ي ء B006 صغار النخل ← شَيْـًٔا; img/inter: inter: ش ي ء B008 صغار النخل ← شَيْـًٔا
+- ج ع ل B009 «dişinin çiftleşmek için erkeği istemesi» اشتهاء الأنثى للفحل (rare, 3 src) @ جَعَلَهُۥ — rel/near_synonym: ء ت ي B012 (dişi devenin erkeği istemesi) → ءَاتَيْتُمُوهُنَّ
+- ز ب ر B006 «bir şeyi bütünüyle alma veya sözü eksiksiz yükleme» أخذ الشيء بزوبره كله (rare, 3 src) @ زُبَرَ — lex/image: اخذ → تَأْخُذُوا۟; rel/near_synonym: ء خ ذ B001 (almak ve ele geçirmek) → تَأْخُذُوا۟; img/inter: inter: ء خ ذ B001 حوز الشيء وتناوله ← تَأْخُذُوا۟
+- ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ; kw/shared: ontology (shared) → شَيْـًٔا
+- ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ; kw/shared: ontology (shared) → شَيْـًٔا
+- ن و ر B009 «bedene sürülen özel karışım ve onu sürünme» النُّورَة المطلية (rare, 2 src) @ نَارًا — rel/thematic: ح د د B008 (beden bakımı) → حُدُودَ حُدُودُ
+
+### 18:74 [surah] — backbone hub, 4 roots, score 8.0
+  فَٱنطَلَقَا حَتَّىٰٓ إِذَا لَقِيَا غُلَٰمًا فَقَتَلَهُۥ قَالَ أَقَتَلْتَ نَفْسًا زَكِيَّةًۢ بِغَيْرِ نَفْسٍ لَّقَدْ جِئْتَ شَيْـًٔا نُّكْرًا
+- ء ت ي B001 «gelmek, ulaşmak» الإتيان والمجيء (rare, 5 src) @ ءَاتُونِىٓ — rel/synonym: ج ي ء B001 (gelmek) → جِئْتَ
+- ء ت ي B001 «gelmek, ulaşmak» الإتيان والمجيء (rare, 5 src) @ ءَاتُونِى — rel/synonym: ج ي ء B001 (gelmek) → جِئْتَ
+- ب ي ن B012 «geri dönüşsüz boşanma» طلاق يقطع الرجعة (rare, 1 src, sole) @ بَيْنَ — rel/near_synonym: ط ل ق B002 (boşama) → فَٱنطَلَقَا; kw/shared: repudiation (shared) → نُّكْرًا
+- س و ي B007 «başka ve ayrı olan» مباينة وكون الشيء غيره (rare, 5 src) @ سَاوَىٰ — rel/near_synonym: غ ي ر B005 (başkalık ve dışarıda bırakma) → بِغَيْرِ; img/surah: surah: غ ي ر B005 السوى والخلاف والاستثناء والنفي ← بِغَيْرِ
+- ن و ر B007 «topluluklar arası düşmanlık ve kin» النائرة بين القوم (rare, 2 src) @ نَارًا — rel/near_synonym: ن ك ر B007 (düşmanlık ve çatışma) → نُّكْرًا
+
+### 18:29 [surah] — backbone hub, 4 roots, score 7.5
+  وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِىٓ — lex/image: ماء → بِمَآءٍ
+- ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِى — lex/image: ماء → بِمَآءٍ
+- ح د د B006 «sertlik, atılgan güç ve öfkeli taşkınlık» حدة البأس والشراب والغضب (rare, 3 src) @ ٱلْحَدِيدِ — lex/image: شراب → ٱلشَّرَابُ
+- س و ي B010 «devenin sırtına konan dolgulu binme örtüsü» السَّويّة على ظهر البعير (rare, 4 src) @ سَاوَىٰ — lex/src-rare: كساء → وَسَآءَتْ
+- ف ر غ B005 «erkeğin döl sıvısı» ماء الرجل (rare, 1 src, sole) @ أُفْرِغْ — lex/image: ماء → بِمَآءٍ; rel/near_neighbor: م و ه B004 (döl sıvısı ve rahme bırakılması) → بِمَآءٍ
+
+### 18:86 [surah] — backbone hub, 4 roots, score 7.5
+  حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْمًا قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا
+- ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة (rare, 4 src) @ بَيْنَ — rel/near_synonym: ب ل غ B004 (etkili açık söz) → بَلَغَ
+- ز ب ر B005 «ağır felaket» الزبير أو الزوبر للداهية (rare, 2 src) @ زُبَرَ — rel/synonym: ب ل غ B011 (ağır felaket) → بَلَغَ
+- ز ب ر B006 «bir şeyi bütünüyle alma veya sözü eksiksiz yükleme» أخذ الشيء بزوبره كله (rare, 3 src) @ زُبَرَ — rel/near_synonym: ء خ ذ B001 (almak ve ele geçirmek) → تَتَّخِذَ
+- ز ب ر B008 «çamurlu balçık veya bulanıklık» الزبير حمأة وكدر (rare, 2 src) @ زُبَرَ — rel/near_synonym: ح م ء B001 (siyah ve kötü kokulu balçık) → حَمِئَةٍ; kw/shared: mire (shared) → حَمِئَةٍ; kw/shared: mud (shared) → حَمِئَةٍ; kw/shared: sediment (shared) → حَمِئَةٍ; kw/shared: sludge (shared) → حَمِئَةٍ; img/surah: surah: ح م ء B001 الحمأة السوداء في الماء ← حَمِئَةٍ
+- س و ي B005 «gençlik olgunluğuna erişmek» بلوغ وتمام الشباب (rare, 3 src) @ سَاوَىٰ — lex/src-rare: بلغ → بَلَغَ
+- ن و ر B006 «ürkmek, kaçınmak ve uzaklaştırmak» النِّفار وقلة الثبات (rare, 3 src) @ نَارًا — rel/near_synonym: ش م س B002 (hayvanın ürkekliği) → ٱلشَّمْسِ
+
+### 18:90 [surah] — backbone hub, 4 roots, score 7.5
+  حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا
+- ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة (rare, 4 src) @ بَيْنَ — rel/near_synonym: ب ل غ B004 (etkili açık söz) → بَلَغَ; img/near: near: ب ل غ B004 الفصاحة التي تبلغ المراد ← بَلَغَ
+- ز ب ر B005 «ağır felaket» الزبير أو الزوبر للداهية (rare, 2 src) @ زُبَرَ — rel/synonym: ب ل غ B011 (ağır felaket) → بَلَغَ; img/near: near: ب ل غ B011 البُلغين الداهية ← بَلَغَ
+- س و ي B005 «gençlik olgunluğuna erişmek» بلوغ وتمام الشباب (rare, 3 src) @ سَاوَىٰ — lex/src-rare: بلغ → بَلَغَ; img/near: near: ب ل غ B001 الوصول إلى الغاية ← بَلَغَ
+- ن و ر B006 «ürkmek, kaçınmak ve uzaklaştırmak» النِّفار وقلة الثبات (rare, 3 src) @ نَارًا — rel/near_synonym: ش م س B002 (hayvanın ürkekliği) → ٱلشَّمْسِ; img/near: near: ش م س B002 الشماس والشموس في الدابة والخلق ← ٱلشَّمْسِ
+
+### 18:31 [surah] — backbone hub, 4 roots, score 7.0
+  أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَيَلْبَسُونَ ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا
+- ح د د B007 «eş için süsten kaçınarak yas tutma» إحداد المرأة وترك الزينة (rare, 3 src) @ ٱلْحَدِيدِ — lex/src-rare: ثياب → ثِيَابًا
+- ز ب ر B004 «sertçe azarlayıp alıkoyma» الزجر والانتهار والمنع (rare, 4 src) @ زُبَرَ — rel/near_synonym: ن ه ر B004 (sert sözle azarlama) → ٱلْأَنْهَٰرُ; img/surah: surah: ن ه ر B004 زجر بكلام مغلظ ← ٱلْأَنْهَٰرُ
+- ق ط ر B013 «yer nispetiyle anılan» النسبة إلى قطر (rare, 2 src) @ قِطْرًا — lex/src-rare: ثياب → ثِيَابًا
+- ق و ل B011 «sanma işlevli söyleme» قول يجري مجرى الظن (rare, 1 src, sole) @ قَالَ — lex/image: يجري → تَجْرِى
+- ق و ل B011 «sanma işlevli söyleme» قول يجري مجرى الظن (rare, 1 src, sole) @ قَالَ — lex/image: يجري → تَجْرِى
+
+## Triangles (top 40)
+
+- [4 kinds] ب ي ن B012 «geri dönüşsüz boşanma» طلاق يقطع الرجعة (rare, 1 src, sole) @ بَيْنَ
+  - → 18:74 [surah]: rel/near_synonym: ط ل ق B002 (boşama) → فَٱنطَلَقَا; kw/shared: repudiation (shared) → نُّكْرًا
+  - → نَارًا (w14): img/same: same: ن و ر B009 النُّورَة المطلية
+  - 18:74 [surah] ↔ نَارًا (w14): lex (via ن و ر B006): غيري → بِغَيْرِ
+- [4 kinds] ج ع ل B012 «kısa, şişman ve inatçı olma» قصر مع سمن ولجاج (rare, 1 src, sole) @ جَعَلَهُۥ
+  - → 2:109 [inter]: rel/near_synonym: ك ل ل B008 (kısa, kalın ve güçlü kişi) → كُلِّ; kw/shared: obstinacy (shared) → عِندِ; kw/shared: stubbornness (shared) → عِندِ
+  - → قَالَ (w9): img/same: same: ق و ل B014 قول الشيء دلالته
+  - 2:109 [inter] ↔ قَالَ (w9): lex (via ق و ل B004): اهل → أَهْلِ
+- [4 kinds] ج ع ل B012 «kısa, şişman ve inatçı olma» قصر مع سمن ولجاج (rare, 1 src, sole) @ جَعَلَهُۥ
+  - → 4:78 [inter]: rel/near_synonym: ك ل ل B008 (kısa, kalın ve güçlü kişi) → كُلٌّ; kw/shared: obstinacy (shared) → عِندِ عِندِكَ; kw/shared: stubbornness (shared) → عِندِ عِندِكَ
+  - → قَالَ (w9): img/same: same: ق و ل B014 قول الشيء دلالته
+  - 4:78 [inter] ↔ قَالَ (w9): lex (via ق ل ل B003): حديث → حَدِيثًا
+- [4 kinds] ج ع ل B012 «kısa, şişman ve inatçı olma» قصر مع سمن ولجاج (rare, 1 src, sole) @ جَعَلَهُۥ
+  - → 7:74 [inter]: lex/image: قصر → قُصُورًا; kw/shared: shortness (shared) → قُصُورًا
+  - → قَالَ (w9): img/same: same: ق و ل B014 قول الشيء دلالته
+  - 7:74 [inter] ↔ قَالَ (w9): rel (via ق و ل B008): ع و د B010 (oyun sopası / tahta nesne) → عَادٍ
+- [4 kinds] ف ر غ B005 «erkeğin döl sıvısı» ماء الرجل (rare, 1 src, sole) @ أُفْرِغْ
+  - → 18:32 [surah]: lex/root: رجل → root ر ج ل: رَّجُلَيْنِ; rel/near_synonym: ز ر ع B004 (döl sıvısı ve tohum benzetmesi) → زَرْعًا; img/surah: surah: ر ج ل B008 رِجْلة الماء ← رَّجُلَيْنِ
+  - → قِطْرًا (w19): kw/shared: fluid (shared) — plain sense of قِطْرًا
+  - 18:32 [surah] ↔ قِطْرًا (w19): lex (via ق ط ر B008): رجل → root ر ج ل: رَّجُلَيْنِ
+- [4 kinds] ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل (rare, 1 src, sole) @ قِطْرًا
+  - → 18:103 [surah]: kw/shared: valuation (shared) → بِٱلْأَخْسَرِينَ; img/near: near: خ س ر B003 إخسار الكيل والميزان ← بِٱلْأَخْسَرِينَ
+  - → جَعَلَهُۥ (w13): lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B005 أجر مجعول على عمل
+  - 18:103 [surah] ↔ جَعَلَهُۥ (w13): rel (via ج ع ل B005): ع م ل B004 (çalışanın ücreti) → أَعْمَٰلًا
+- [4 kinds] ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل (rare, 1 src, sole) @ قِطْرًا
+  - → 18:105 [surah]: lex/root: وزن → root و ز ن: وَزْنًا; rel/near_neighbor: و ز ن B001 (tartmak ve yaklaşık miktar belirlemek) → وَزْنًا; kw/shared: estimate (shared) → وَزْنًا; img/surah: surah: و ز ن B001 تقدير الشيء بوزن أو خرْص ← وَزْنًا
+  - → جَعَلَهُۥ (w13): lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B005 أجر مجعول على عمل
+  - 18:105 [surah] ↔ جَعَلَهُۥ (w13): rel (via ج ع ل B005): ع م ل B004 (çalışanın ücreti) → أَعْمَٰلُهُمْ
+- [4 kinds] ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل (rare, 1 src, sole) @ قِطْرًا
+  - → 18:22 [surah]: kw/shared: sale (shared) → وَثَامِنُهُمْ; kw/shared: valuation (shared) → وَثَامِنُهُمْ; img/surah: surah: ث م ن B001 العوض والقيمة في البيع ← وَثَامِنُهُمْ
+  - → جَعَلَهُۥ (w13): lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B005 أجر مجعول على عمل
+  - 18:22 [surah] ↔ جَعَلَهُۥ (w13): rel (via ج ع ل B007): ث ل ث B007 (tencereyi taşıyan üçüncü taş) → ثَلَٰثَةٌ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 18:110 [surah]: img/surah: surah: و ح د B005 اتحاد الأشياء في جهة واحدة ← وَٰحِدٌ
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 18:110 [surah] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B008): احد → أَحَدًۢا
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 18:2 [surah]: img/surah: surah: ع م ل B002 إعمال الشيء واستعماله ← يَعْمَلُونَ
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 18:2 [surah] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B004): باس → بَأْسًا
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 18:48 [surah]: lex/root: عرض → root ع ر ض: وَعُرِضُوا۟
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 18:48 [surah] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B002): اول → أَوَّلَ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 2:229 [inter]: rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ; kw/shared: ontology (shared) → شَيْـًٔا
+  - → جَعَلَهُۥ (w13): img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+  - 2:229 [inter] ↔ جَعَلَهُۥ (w13): lex (via ج ع ل B004): يتعدي → يَتَعَدَّ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 2:229 [inter]: rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ; kw/shared: ontology (shared) → شَيْـًٔا
+  - → بَيْنَ (w7): img/same: same: ب ي ن B005 كشف المعنى بالقول أو العلامة
+  - 2:229 [inter] ↔ بَيْنَ (w7): lex (via ب ي ن B012): طلاق → ٱلطَّلَٰقُ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 34:12 [inter]: img/inter: inter: ع م ل B002 إعمال الشيء واستعماله ← يَعْمَلُ
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 34:12 [inter] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B007): اشهر → شَهْرٌ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 18:110 [surah]: img/surah: surah: و ح د B005 اتحاد الأشياء في جهة واحدة ← وَٰحِدٌ
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 18:110 [surah] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B008): احد → أَحَدًۢا
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 18:2 [surah]: img/surah: surah: ع م ل B002 إعمال الشيء واستعماله ← يَعْمَلُونَ
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 18:2 [surah] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B004): باس → بَأْسًا
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 18:48 [surah]: lex/root: عرض → root ع ر ض: وَعُرِضُوا۟
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 18:48 [surah] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B002): اول → أَوَّلَ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 2:229 [inter]: rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ; kw/shared: ontology (shared) → شَيْـًٔا
+  - → جَعَلَهُۥ (w13): img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+  - 2:229 [inter] ↔ جَعَلَهُۥ (w13): lex (via ج ع ل B004): يتعدي → يَتَعَدَّ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 2:229 [inter]: rel/near_synonym: ح د د B001 (teknik tanım / sınır) → حُدُودَ حُدُودُ; kw/shared: ontology (shared) → شَيْـًٔا
+  - → بَيْنَ (w7): img/same: same: ب ي ن B005 كشف المعنى بالقول أو العلامة
+  - 2:229 [inter] ↔ بَيْنَ (w7): lex (via ب ي ن B012): طلاق → ٱلطَّلَٰقُ
+- [4 kinds] ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ
+  - → 34:12 [inter]: img/inter: inter: ع م ل B002 إعمال الشيء واستعماله ← يَعْمَلُ
+  - → ٱلْحَدِيدِ (w3): rel/near_synonym: ح د د B001 (teknik tanım / sınır); kw/shared: limit (shared) — plain sense of ٱلْحَدِيدِ; img/same: same: ح د د B001 الحاجز والغاية المميزة
+  - 34:12 [inter] ↔ ٱلْحَدِيدِ (w3): lex (via ح د د B007): اشهر → شَهْرٌ
+- [4 kinds] ن ف خ B005 «evde hiç kimse olmaması» ما بالدار نافخ ضرمة (rare, 1 src, sole) @ ٱنفُخُوا۟
+  - → 59:2 [inter]: lex/image: دار → دِيَٰرِهِمْ; kw/shared: domesticity (shared) → بُيُوتَهُم
+  - → قَالَ (w9): img/same: same: ق و ل B015 العناية الصادقة بالشيء
+  - 59:2 [inter] ↔ قَالَ (w9): rel (via ق و ل B011): ح س ب B002 (sanma işlevi / sanmak) → يَحْتَسِبُوا۟
+- [4 kinds] ز ب ر B008 «çamurlu balçık veya bulanıklık» الزبير حمأة وكدر (rare, 2 src) @ زُبَرَ
+  - → 18:86 [surah]: rel/near_synonym: ح م ء B001 (siyah ve kötü kokulu balçık) → حَمِئَةٍ; kw/shared: mire (shared) → حَمِئَةٍ; kw/shared: mud (shared) → حَمِئَةٍ; kw/shared: sediment (shared) → حَمِئَةٍ; kw/shared: sludge (shared) → حَمِئَةٍ; img/surah: surah: ح م ء B001 الحمأة السوداء في الماء ← حَمِئَةٍ
+  - → ٱنفُخُوا۟ (w10): img/same: same: ن ف خ B004 نفخ بها بمعنى حبق
+  - 18:86 [surah] ↔ ٱنفُخُوا۟ (w10): lex (via ن ف خ B002): اجد → وَجَدَهَا وَوَجَدَ
+- [4 kinds] ز ب ر B008 «çamurlu balçık veya bulanıklık» الزبير حمأة وكدر (rare, 2 src) @ زُبَرَ
+  - → 18:86 [surah]: rel/near_synonym: ح م ء B001 (siyah ve kötü kokulu balçık) → حَمِئَةٍ; kw/shared: mire (shared) → حَمِئَةٍ; kw/shared: mud (shared) → حَمِئَةٍ; kw/shared: sediment (shared) → حَمِئَةٍ; kw/shared: sludge (shared) → حَمِئَةٍ; img/surah: surah: ح م ء B001 الحمأة السوداء في الماء ← حَمِئَةٍ
+  - → قِطْرًا (w19): img/same: same: ق ط ر B014 نبات قطوراء
+  - 18:86 [surah] ↔ قِطْرًا (w19): lex (via ق ط ر B006): عين → عَيْنٍ
+- [4 kinds] س و ي B012 «ayın on üçüncü gecesi» ليلة استواء القمر (rare, 2 src) @ سَاوَىٰ
+  - → 71:16 [inter]: lex/image: قمر → ٱلْقَمَرَ; rel/thematic: ق م ر B001 (ay ve ay ışığı) → ٱلْقَمَرَ; kw/shared: moon (shared) → ٱلْقَمَرَ; img/inter: inter: ق م ر B001 القمر وضوؤه في السماء ← ٱلْقَمَرَ
+  - → نَارًا (w14): img/same: same: ن و ر B009 النُّورَة المطلية
+  - 71:16 [inter] ↔ نَارًا (w14): lex (via ن و ر B005): سراج → سِرَاجًا
+- [4 kinds] س و ي B013 «başına denk mal ve bolluk» سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة (rare, 2 src) @ سَاوَىٰ
+  - → 15:29 [inter]: lex/src-rare: وقع → فَقَعُوا۟; kw/shared: equivalence (shared) → سَوَّيْتُهُۥ; kw/shared: valuation (shared) → سَوَّيْتُهُۥ
+  - → بَيْنَ (w7): img/same: same: ب ي ن B008 انفراج العضو أو الشيء عن ملاصقه
+  - 15:29 [inter] ↔ بَيْنَ (w7): rel (via ب ي ن B007): س و ي B009 (geniş açık yer) → سَوَّيْتُهُۥ
+- [4 kinds] س و ي B013 «başına denk mal ve bolluk» سِيّ الرأس وقدر يوازي الرأس من مال أو نعمة (rare, 2 src) @ سَاوَىٰ
+  - → 38:72 [inter]: lex/src-rare: وقع → فَقَعُوا۟; kw/shared: valuation (shared) → سَوَّيْتُهُۥ
+  - → بَيْنَ (w7): img/same: same: ب ي ن B008 انفراج العضو أو الشيء عن ملاصقه
+  - 38:72 [inter] ↔ بَيْنَ (w7): rel (via ب ي ن B007): س و ي B009 (geniş açık yer) → سَوَّيْتُهُۥ
+- [4 kinds] ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته (rare, 2 src) @ قَالَ
+  - → 4:5 [inter]: kw/shared: fabrication (shared) → جَعَلَ
+  - → جَعَلَهُۥ (w13): lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+  - 4:5 [inter] ↔ جَعَلَهُۥ (w13): rel (via ج ع ل B009): ء ت ي B012 (dişi devenin erkeği istemesi) → تُؤْتُوا۟
+- [4 kinds] ق و ل B005 «yalan söyleme veya isnat etme» قول ما لم يكن أو نسبته (rare, 2 src) @ قَالَ
+  - → 4:5 [inter]: kw/shared: fabrication (shared) → جَعَلَ
+  - → جَعَلَهُۥ (w13): lex/src: علي names the plain image of جَعَلَهُۥ; img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+  - 4:5 [inter] ↔ جَعَلَهُۥ (w13): rel (via ج ع ل B009): ء ت ي B012 (dişi devenin erkeği istemesi) → تُؤْتُوا۟
+- [4 kinds] ء ت ي B009 «devenin ön ayaklarını geri getirişi» رجع يدي الناقة في السير (rare, 3 src) @ ءَاتُونِى
+  - → 18:57 [surah]: lex/image: يدي → يَدَاهُ; kw/shared: step (shared) → قَدَّمَتْ; img/surah: surah: ي د ي B015 اليَدِي الصنّاع ← يَدَاهُ
+  - → قَالَ (w9): img/same: same: ق و ل B006 اجترار القول إلى النفس
+  - 18:57 [surah] ↔ قَالَ (w9): rel (via ق و ل B012): ك ن ن B002 (içte söz / gizleme) → أَكِنَّةً
+- [4 kinds] ء ت ي B009 «devenin ön ayaklarını geri getirişi» رجع يدي الناقة في السير (rare, 3 src) @ ءَاتُونِىٓ
+  - → 18:57 [surah]: lex/image: يدي → يَدَاهُ; kw/shared: step (shared) → قَدَّمَتْ; img/surah: surah: ي د ي B015 اليَدِي الصنّاع ← يَدَاهُ
+  - → قَالَ (w9): img/same: same: ق و ل B006 اجترار القول إلى النفس
+  - 18:57 [surah] ↔ قَالَ (w9): rel (via ق و ل B012): ك ن ن B002 (içte söz / gizleme) → أَكِنَّةً
+- [4 kinds] ب ي ن B006 «geniş uzaklık» بعد المسافة واتساع الفجوة (rare, 3 src) @ بَيْنَ
+  - → 2:109 [inter]: rel/near_neighbor: ب ع د B001 (uzak olma) → بَعْدِ; kw/shared: remoteness (shared) → بَعْدِ; kw/shared: width (shared) → وَٱصْفَحُوا۟
+  - → زُبَرَ (w2): lex/src: بير names the plain image of زُبَرَ; img/same: same: ز ب ر B001 إحكام الشيء وطي البئر بالحجارة
+  - 2:109 [inter] ↔ زُبَرَ (w2): lex (via ز ب ر B002): كاهل → أَهْلِ
+- [4 kinds] ب ي ن B006 «geniş uzaklık» بعد المسافة واتساع الفجوة (rare, 3 src) @ بَيْنَ
+  - → 2:187 [inter]: kw/shared: depth (shared) → لَيْلَةَ ٱلَّيْلِ; img/inter: inter: ق ر ب B001 الدنو وخلاف البعد ← تَقْرَبُوهَا; img/inter: inter: ن ف س B015 سعة ومسافة ومهلة ← أَنفُسَكُمْ
+  - → زُبَرَ (w2): lex/src: بير names the plain image of زُبَرَ; img/same: same: ز ب ر B001 إحكام الشيء وطي البئر بالحجارة
+  - 2:187 [inter] ↔ زُبَرَ (w2): rel (via ز ب ر B003): ك ت ب B002 (yazmak ve yazılı kitap) → كَتَبَ
+- [4 kinds] ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر (rare, 3 src) @ بَيْنَ
+  - → 18:90 [surah]: kw/shared: horizon (shared) → مَطْلِعَ تَطْلُعُ
+  - → سَاوَىٰ (w6): rel/near_neighbor: س و ي B009 (geniş açık yer); img/same: same: س و ي B009 السِيّ واسع أملس من الأرض
+  - 18:90 [surah] ↔ سَاوَىٰ (w6): lex (via س و ي B005): بلغ → بَلَغَ
+- [4 kinds] ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر (rare, 3 src) @ بَيْنَ
+  - → 7:57 [inter]: kw/shared: territory (shared) → لِبَلَدٍ; kw/shared: tract (shared) → لِبَلَدٍ
+  - → سَاوَىٰ (w6): rel/near_neighbor: س و ي B009 (geniş açık yer); img/same: same: س و ي B009 السِيّ واسع أملس من الأرض
+  - 7:57 [inter] ↔ سَاوَىٰ (w6): lex (via س و ي B004): بلد → لِبَلَدٍ
+- [4 kinds] ب ي ن B010 «o sırada» الوقت الواقع أثناء حال أو فعل (rare, 3 src) @ بَيْنَ
+  - → 4:78 [inter]: kw/shared: event (shared) → تَكُونُوا۟ كُنتُمْ حَدِيثًا
+  - → جَعَلَهُۥ (w13): lex/image: حال names the plain image of جَعَلَهُۥ; lex/src: فيجعل → root ج ع ل; img/same: same: ج ع ل B004 الشروع في الفعل أو ملازمته
+  - 4:78 [inter] ↔ جَعَلَهُۥ (w13): rel (via ج ع ل B012): ك ل ل B008 (kısa, kalın ve güçlü kişi) → كُلٌّ
+- [4 kinds] ج ع ل B009 «dişinin çiftleşmek için erkeği istemesi» اشتهاء الأنثى للفحل (rare, 3 src) @ جَعَلَهُۥ
+  - → 6:46 [inter]: rel/near_synonym: ص ر ف B010 (dişi hayvanın erkeği istemesi) → نُصَرِّفُ; img/inter: inter: ص ر ف B010 صراف الحيوان واستحرامه ← نُصَرِّفُ
+  - → نَارًا (w14): kw/shared: heat (shared) — plain sense of نَارًا
+  - 6:46 [inter] ↔ نَارًا (w14): lex (via ن و ر B006): غيري → غَيْرُ
+- [4 kinds] ج ع ل B009 «dişinin çiftleşmek için erkeği istemesi» اشتهاء الأنثى للفحل (rare, 3 src) @ جَعَلَهُۥ
+  - → 6:46 [inter]: rel/near_synonym: ص ر ف B010 (dişi hayvanın erkeği istemesi) → نُصَرِّفُ; img/inter: inter: ص ر ف B010 صراف الحيوان واستحرامه ← نُصَرِّفُ
+  - → قِطْرًا (w19): kw/shared: heat (shared) — plain sense of قِطْرًا
+  - 6:46 [inter] ↔ قِطْرًا (w19): lex (via ق ط ر B011): وياخذ → أَخَذَ
+- [4 kinds] س و ي B003 «üzerine çıkıp yerleşmek veya egemen olmak» علو واستقرار على شيء (rare, 3 src) @ سَاوَىٰ
+  - → 18:22 [surah]: lex/root: ظهر → root ظ ه ر: ظَٰهِرًا
+  - → جَعَلَهُۥ (w13): lex/image: علي names the plain image of جَعَلَهُۥ; kw/shared: elevation (shared) — plain sense of جَعَلَهُۥ; img/same: same: ج ع ل B009 اشتهاء الأنثى للفحل
+  - 18:22 [surah] ↔ جَعَلَهُۥ (w13): rel (via ج ع ل B007): ث ل ث B007 (tencereyi taşıyan üçüncü taş) → ثَلَٰثَةٌ
+- [4 kinds] س و ي B004 «bir hedefe yönelip onu amaç edinmek» إقبال وقصد إلى جهة (rare, 3 src) @ سَاوَىٰ
+  - → 18:57 [surah]: img/surah: surah: ق د م B010 القصد إلى الشيء ← قَدَّمَتْ
+  - → أُفْرِغْ (w17): lex/image: وقصد names the plain image of أُفْرِغْ; kw/shared: intention (shared) — plain sense of أُفْرِغْ; kw/shared: purpose (shared) — plain sense of أُفْرِغْ; img/same: same: ف ر غ B006 القصد إلى الأمر
+  - 18:57 [surah] ↔ أُفْرِغْ (w17): rel (via ف ر غ B006): ق د م B010 (bir işe bilerek yönelmek) → قَدَّمَتْ
+- [4 kinds] س و ي B004 «bir hedefe yönelip onu amaç edinmek» إقبال وقصد إلى جهة (rare, 3 src) @ سَاوَىٰ
+  - → 22:40 [inter]: img/inter: inter: د ف ع B002 دفع الشيء إلى غيره بمعنى إيصاله وإعطائه ← دَفْعُ
+  - → أُفْرِغْ (w17): lex/image: وقصد names the plain image of أُفْرِغْ; kw/shared: intention (shared) — plain sense of أُفْرِغْ; kw/shared: purpose (shared) — plain sense of أُفْرِغْ; img/same: same: ف ر غ B006 القصد إلى الأمر
+  - 22:40 [inter] ↔ أُفْرِغْ (w17): rel (via ف ر غ B004): ه د م B003 (karşılıksız kalıp istenmeyen kan) → لَّهُدِّمَتْ
+
+## Convergence (rare branches by kinds of support; top 40)
+
+- 5 kinds, 39 targets: ب ي ن B005 «anlamı açıkça ortaya koyma» كشف المعنى بالقول أو العلامة (rare, 4 src) @ بَيْنَ — hft, img, kw, lex, rel
+- 5 kinds, 33 targets: ن و ر B005 «yol gösteren belirgin işaret ve yüksek yapı» المنار والمنارة الظاهرة (rare, 3 src) @ نَارًا — hft, img, kw, lex, rel
+- 5 kinds, 30 targets: ز ب ر B003 «yazıya geçirme ve yazılı eser» الكتابة والكتاب والزبور (rare, 6 src) @ زُبَرَ — hft, img, kw, lex, rel
+- 5 kinds, 27 targets: ن و ر B009 «bedene sürülen özel karışım ve onu sürünme» النُّورَة المطلية (rare, 2 src) @ نَارًا — hft, img, kw, lex, rel
+- 4 kinds, 47 targets: ق و ل B011 «sanma işlevli söyleme» قول يجري مجرى الظن (rare, 1 src, sole) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 47 targets: ق و ل B011 «sanma işlevli söyleme» قول يجري مجرى الظن (rare, 1 src, sole) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 40 targets: س و ي B002 «kendi içinde düzgün ve tam duruma gelme» استقامة وتمام في الذات (rare, 5 src) @ سَاوَىٰ — hft, img, kw, lex
+- 4 kinds, 38 targets: ن ف خ B002 «şişme ve kabarma» انتفاخ الشيء وامتلاؤه بالريح (rare, 5 src) @ ٱنفُخُوا۟ — img, kw, lex, rel
+- 4 kinds, 37 targets: س و ي B008 «birinin yöneldiği hedefe yönelmek» قصد نحو شخص أو جهة (rare, 3 src) @ سَاوَىٰ — img, kw, lex, rel
+- 4 kinds, 37 targets: ج ع ل B007 «sıcak tencereyi indirme bezi ve onunla indirme» خرقة إنزال القدر (rare, 4 src) @ جَعَلَهُۥ — img, kw, lex, rel
+- 4 kinds, 36 targets: ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِىٓ — hft, img, kw, lex
+- 4 kinds, 36 targets: ء ت ي B004 «su kanalı açmak ve akışı yönlendirmek» مجرى الماء وتسليك سبيله (rare, 4 src) @ ءَاتُونِى — hft, img, kw, lex
+- 4 kinds, 36 targets: ق ط ر B002 «yana devirip düşürmek» الإلقاء على الجنب (rare, 5 src) @ قِطْرًا — img, kw, lex, rel
+- 4 kinds, 34 targets: ص د ف B004 «birine rastlamak veya onu bulmak» المصادفة واللقاء (rare, 3 src) @ ٱلصَّدَفَيْنِ — img, kw, lex, rel
+- 4 kinds, 34 targets: ز ب ر B004 «sertçe azarlayıp alıkoyma» الزجر والانتهار والمنع (rare, 4 src) @ زُبَرَ — img, kw, lex, rel
+- 4 kinds, 33 targets: ج ع ل B012 «kısa, şişman ve inatçı olma» قصر مع سمن ولجاج (rare, 1 src, sole) @ جَعَلَهُۥ — img, kw, lex, rel
+- 4 kinds, 33 targets: ب ي ن B007 «göz erimindeki arazi parçası» قطعة أرض تمتد في النظر (rare, 3 src) @ بَيْنَ — img, kw, lex, rel
+- 4 kinds, 33 targets: ج ع ل B001 «bir şeyi yapıp var etme» إحداث الشيء وصنعه (rare, 4 src) @ جَعَلَهُۥ — img, kw, lex, rel
+- 4 kinds, 33 targets: ج ع ل B005 «iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme» أجر مجعول على عمل (rare, 4 src) @ جَعَلَهُۥ — img, kw, lex, rel
+- 4 kinds, 33 targets: س و ي B007 «başka ve ayrı olan» مباينة وكون الشيء غيره (rare, 5 src) @ سَاوَىٰ — img, kw, lex, rel
+- 4 kinds, 32 targets: ف ر غ B005 «erkeğin döl sıvısı» ماء الرجل (rare, 1 src, sole) @ أُفْرِغْ — img, kw, lex, rel
+- 4 kinds, 31 targets: ق ط ر B011 «örnek hesaba göre toplu ve ölçüsüz satış» البيع جرافا بلا كيل (rare, 1 src, sole) @ قِطْرًا — img, kw, lex, rel
+- 4 kinds, 31 targets: ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج (rare, 5 src) @ ءَاتُونِى — img, kw, lex, rel
+- 4 kinds, 31 targets: ء ت ي B007 «gelişip bol ürün vermek» خروج النماء والنتاج (rare, 5 src) @ ءَاتُونِىٓ — img, kw, lex, rel
+- 4 kinds, 30 targets: ق و ل B014 «durumuyla belli etme» قول الشيء دلالته (rare, 1 src, sole) @ قَالَ — hft, img, kw, lex
+- 4 kinds, 30 targets: ق و ل B014 «durumuyla belli etme» قول الشيء دلالته (rare, 1 src, sole) @ قَالَ — hft, img, kw, lex
+- 4 kinds, 29 targets: ق و ل B012 «içte kalmış söz» قول في النفس لم يظهر (rare, 1 src, sole) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 29 targets: ق و ل B012 «içte kalmış söz» قول في النفس لم يظهر (rare, 1 src, sole) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 29 targets: ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 29 targets: ق و ل B016 «teknik tanım» قول الشيء حده (rare, 1 src, sole) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 29 targets: ب ي ن B009 «sol yandan sağan kişi» الحالب من جهة مخصوصة (rare, 2 src) @ بَيْنَ — img, kw, lex, rel
+- 4 kinds, 28 targets: ن ف خ B005 «evde hiç kimse olmaması» ما بالدار نافخ ضرمة (rare, 1 src, sole) @ ٱنفُخُوا۟ — img, kw, lex, rel
+- 4 kinds, 28 targets: ص د ف B005 «su yalağında içen sürünün arkasında sıra bekleyen develer» الإبل الصوادف عند الحوض (rare, 2 src) @ ٱلصَّدَفَيْنِ — img, kw, lex, rel
+- 4 kinds, 28 targets: ز ب ر B006 «bir şeyi bütünüyle alma veya sözü eksiksiz yükleme» أخذ الشيء بزوبره كله (rare, 3 src) @ زُبَرَ — img, kw, lex, rel
+- 4 kinds, 28 targets: ص د ف B001 «yana sapma, yüz çevirme ve başka yöne sevk etme» الميل والإعراض (rare, 5 src) @ ٱلصَّدَفَيْنِ — img, kw, lex, rel
+- 4 kinds, 27 targets: ق و ل B003 «çok sözlü kişi» كثرة القول في صاحبه (rare, 3 src) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 27 targets: ح د د B006 «sertlik, atılgan güç ve öfkeli taşkınlık» حدة البأس والشراب والغضب (rare, 3 src) @ ٱلْحَدِيدِ — img, kw, lex, rel
+- 4 kinds, 27 targets: ء ت ي B009 «devenin ön ayaklarını geri getirişi» رجع يدي الناقة في السير (rare, 3 src) @ ءَاتُونِى — img, kw, lex, rel
+- 4 kinds, 27 targets: ق و ل B003 «çok sözlü kişi» كثرة القول في صاحبه (rare, 3 src) @ قَالَ — img, kw, lex, rel
+- 4 kinds, 27 targets: ء ت ي B009 «devenin ön ayaklarını geri getirişi» رجع يدي الناقة في السير (rare, 3 src) @ ءَاتُونِىٓ — img, kw, lex, rel
+
+## Bridges (linked to members of two or more hubs)
+
+- ءَاتُونِى (w1) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 22:40 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 69:13 [inter]
+- زُبَرَ (w2) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 18:74 [surah], 18:29 [surah], 21:81 [inter], 3:184 [inter], 18:34 [surah], 27:31 [inter]
+- ٱلْحَدِيدِ (w3) joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 3:184 [inter], 6:46 [inter], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- سَاوَىٰ (w6) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:31 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:6 [surah], 33:19 [inter], 34:12 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter]
+- بَيْنَ (w7) joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- ٱلصَّدَفَيْنِ (w8) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 40:36 [inter], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- قَالَ (w9) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 22:40 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- ٱنفُخُوا۟ (w10) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 40:36 [inter], 4:78 [inter], 18:82 [surah], 27:31 [inter], 69:13 [inter]
+- جَعَلَهُۥ (w13) joins 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- نَارًا (w14) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 6:46 [inter], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- قَالَ (w15) joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 15:29 [inter], 38:72 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 40:36 [inter], 4:78 [inter], 11:40 [inter], 27:31 [inter], 7:46 [inter]
+- ءَاتُونِىٓ (w16) joins جَعَلَهُۥ (w13), 13:17 [inter], 2:229 [inter], 7:57 [inter], 2:109 [inter], 6:46 [inter], 34:12 [inter]
+- أُفْرِغْ (w17) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 38:72 [inter], 3:184 [inter], 34:12 [inter], 11:40 [inter], 18:57 [surah], 27:31 [inter]
+- قِطْرًا (w19) joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:32 [surah], 18:79 [surah], 22:40 [inter], 2:109 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 18:1 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 18:57 [surah]
+- 18:2 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 38:72 [inter], 18:93 [surah], 33:19 [inter], 40:36 [inter], 18:57 [surah]
+- 18:3 [surah] joins 13:17 [inter], 7:74 [inter], 21:81 [inter]
+- 18:4 [surah] joins جَعَلَهُۥ (w13), 7:74 [inter], 2:229 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 6:46 [inter], 18:6 [surah], 18:93 [surah], 40:36 [inter], 4:78 [inter], 7:46 [inter]
+- 18:5 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 18:32 [surah], 3:184 [inter], 27:31 [inter]
+- 18:6 [surah] joins جَعَلَهُۥ (w13), 2:229 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:34 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter]
+- 18:7 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:31 [surah], 21:81 [inter], 34:12 [inter], 18:57 [surah]
+- 18:9 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:187 [inter], 5:48 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 18:10 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 2:109 [inter], 6:46 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter]
+- 18:11 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 7:74 [inter], 2:229 [inter], 18:86 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 6:46 [inter], 34:12 [inter]
+- 18:12 [surah] joins 13:17 [inter], 7:74 [inter], 18:31 [surah], 21:81 [inter], 33:19 [inter]
+- 18:13 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 15:29 [inter], 38:72 [inter], 3:184 [inter], 34:12 [inter], 11:40 [inter], 27:31 [inter]
+- 18:14 [surah] joins 2:230 [inter], 18:74 [surah], 22:40 [inter], 6:46 [inter]
+- 18:15 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:74 [surah], 15:29 [inter], 18:32 [surah], 38:72 [inter], 3:184 [inter]
+- 18:16 [surah] joins 18:45 [surah], 11:43 [inter], 7:74 [inter], 2:229 [inter], 7:143 [inter], 7:57 [inter], 11:40 [inter], 27:31 [inter]
+- 18:17 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 6:46 [inter], 18:34 [surah], 34:12 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 18:18 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:79 [surah], 6:46 [inter], 18:34 [surah], 18:6 [surah], 11:40 [inter], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 18:19 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:187 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 22:40 [inter], 38:72 [inter], 11:40 [inter], 18:82 [surah], 27:31 [inter]
+- 18:20 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 2:187 [inter], 7:143 [inter], 18:29 [surah], 18:31 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter]
+- 18:21 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:32 [surah], 38:72 [inter], 33:19 [inter], 18:82 [surah]
+- 18:22 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 33:19 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 7:46 [inter]
+- 18:23 [surah] joins 2:230 [inter], 2:229 [inter], 5:48 [inter], 18:74 [surah], 18:32 [surah], 2:109 [inter], 69:13 [inter]
+- 18:24 [surah] joins جَعَلَهُۥ (w13), 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 18:86 [surah], 18:90 [surah], 18:32 [surah], 18:79 [surah], 2:109 [inter], 18:6 [surah], 18:93 [surah], 33:19 [inter], 40:36 [inter], 4:78 [inter], 69:13 [inter], 7:46 [inter]
+- 18:25 [surah] joins 18:74 [surah], 15:29 [inter], 38:72 [inter]
+- 18:26 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 2:187 [inter], 18:31 [surah], 2:109 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 18:27 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 2:187 [inter], 7:143 [inter], 18:74 [surah], 15:29 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 27:31 [inter]
+- 18:28 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:86 [surah], 18:31 [surah], 18:79 [surah], 22:40 [inter], 2:109 [inter], 33:19 [inter], 34:12 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 18:29 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:74 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah], 18:6 [surah], 4:78 [inter], 11:40 [inter]
+- 18:30 [surah] joins 2:230 [inter], 5:48 [inter], 7:57 [inter], 33:19 [inter], 34:12 [inter], 18:57 [surah]
+- 18:31 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 18:34 [surah], 18:6 [surah], 33:19 [inter], 34:12 [inter], 18:82 [surah]
+- 18:32 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 11:40 [inter], 27:31 [inter], 69:13 [inter]
+- 18:33 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:187 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 38:72 [inter], 3:184 [inter], 11:40 [inter]
+- 18:34 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 34:12 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 69:13 [inter], 7:46 [inter]
+- 18:35 [surah] joins جَعَلَهُۥ (w13), 2:230 [inter], 2:187 [inter], 7:143 [inter], 18:74 [surah], 18:31 [surah], 21:81 [inter], 22:40 [inter], 6:46 [inter]
+- 18:36 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 18:32 [surah], 21:81 [inter]
+- 18:37 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 11:40 [inter], 27:31 [inter], 69:13 [inter]
+- 18:39 [surah] joins جَعَلَهُۥ (w13), 15:29 [inter], 18:32 [surah], 38:72 [inter], 18:34 [surah], 18:57 [surah], 7:46 [inter]
+- 18:40 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 18:32 [surah], 21:81 [inter], 2:109 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 18:41 [surah] joins 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:187 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:32 [surah], 38:72 [inter], 18:6 [surah], 4:78 [inter], 11:40 [inter]
+- 18:42 [surah] joins جَعَلَهُۥ (w13), 7:74 [inter], 2:187 [inter], 2:229 [inter], 18:86 [surah], 18:32 [surah], 18:79 [surah], 6:46 [inter], 33:19 [inter], 11:40 [inter], 18:82 [surah]
+- 18:44 [surah] joins 18:45 [surah], 2:230 [inter], 2:187 [inter], 2:229 [inter], 18:74 [surah], 22:40 [inter], 6:46 [inter]
+- 18:45 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 34:12 [inter], 4:78 [inter], 11:40 [inter], 27:31 [inter]
+- 18:46 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 7:74 [inter], 5:48 [inter], 7:143 [inter], 18:31 [surah], 15:29 [inter], 18:79 [surah], 2:109 [inter], 38:72 [inter], 18:34 [surah], 34:12 [inter], 4:78 [inter], 18:57 [surah]
+- 18:47 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 15:29 [inter], 18:79 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 34:12 [inter], 69:13 [inter]
+- 18:48 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 18:74 [surah], 18:31 [surah], 21:81 [inter], 3:184 [inter], 18:57 [surah]
+- 18:49 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:187 [inter], 7:57 [inter], 15:29 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 11:40 [inter], 27:31 [inter], 7:46 [inter]
+- 18:50 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 18:74 [surah], 15:29 [inter], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:6 [surah], 33:19 [inter], 18:57 [surah]
+- 18:51 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 7:74 [inter], 7:57 [inter], 18:31 [surah], 21:81 [inter], 33:19 [inter], 34:12 [inter]
+- 18:52 [surah] joins جَعَلَهُۥ (w13), 5:48 [inter], 15:29 [inter], 18:79 [surah], 38:72 [inter]
+- 18:53 [surah] joins جَعَلَهُۥ (w13), 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 18:54 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:79 [surah], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:6 [surah], 33:19 [inter], 4:78 [inter]
+- 18:55 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 2:187 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 7:46 [inter]
+- 18:56 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:31 [surah], 18:32 [surah], 22:40 [inter], 3:184 [inter], 6:46 [inter]
+- 18:57 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:79 [surah], 2:109 [inter], 38:72 [inter], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 11:40 [inter], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 18:58 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:79 [surah], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 18:59 [surah] joins 18:45 [surah], 11:43 [inter], 7:74 [inter], 7:143 [inter], 18:86 [surah], 18:90 [surah], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 18:60 [surah] joins جَعَلَهُۥ (w13), 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:79 [surah], 38:72 [inter], 18:6 [surah], 18:93 [surah], 40:36 [inter], 4:78 [inter], 69:13 [inter], 7:46 [inter]
+- 18:61 [surah] joins 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 38:72 [inter]
+- 18:62 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:31 [surah], 15:29 [inter], 18:79 [surah], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:82 [surah]
+- 18:63 [surah] joins 18:45 [surah], 13:17 [inter], 11:43 [inter], 5:48 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:79 [surah], 38:72 [inter], 18:6 [surah], 4:78 [inter], 69:13 [inter]
+- 18:64 [surah] joins جَعَلَهُۥ (w13), 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:6 [surah]
+- 18:65 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 18:74 [surah], 18:79 [surah], 2:109 [inter], 3:184 [inter], 6:46 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 18:66 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:109 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 18:68 [surah] joins 18:45 [surah], 18:86 [surah]
+- 18:70 [surah] joins 2:229 [inter], 18:86 [surah], 18:90 [surah], 18:6 [surah], 18:93 [surah], 40:36 [inter], 4:78 [inter]
+- 18:71 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 2:109 [inter], 3:184 [inter], 34:12 [inter]
+- 18:73 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:109 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 18:74 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 2:230 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 69:13 [inter], 7:46 [inter]
+- 18:75 [surah] joins 18:45 [surah], 7:57 [inter], 33:19 [inter], 11:40 [inter], 18:82 [surah], 27:31 [inter]
+- 18:76 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:229 [inter], 5:48 [inter], 18:32 [surah], 2:109 [inter], 69:13 [inter]
+- 18:77 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 18:74 [surah], 18:31 [surah], 18:32 [surah], 2:109 [inter], 3:184 [inter], 6:46 [inter], 33:19 [inter], 34:12 [inter], 18:57 [surah], 69:13 [inter]
+- 18:78 [surah] joins 18:45 [surah], 7:57 [inter], 33:19 [inter], 11:40 [inter], 18:82 [surah], 27:31 [inter]
+- 18:79 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 7:74 [inter], 2:229 [inter], 5:48 [inter], 18:86 [surah], 21:81 [inter], 2:109 [inter], 6:46 [inter], 18:6 [surah], 4:78 [inter], 69:13 [inter]
+- 18:80 [surah] joins جَعَلَهُۥ (w13), 18:32 [surah], 27:31 [inter]
+- 18:81 [surah] joins جَعَلَهُۥ (w13), 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 22:40 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:93 [surah], 33:19 [inter], 40:36 [inter], 4:78 [inter], 69:13 [inter]
+- 18:82 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 2:230 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:31 [surah], 15:29 [inter], 18:32 [surah], 2:109 [inter], 38:72 [inter], 33:19 [inter], 34:12 [inter], 11:40 [inter], 18:57 [surah], 27:31 [inter]
+- 18:83 [surah] joins 2:230 [inter], 7:74 [inter], 5:48 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:79 [surah], 2:109 [inter], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 18:57 [surah]
+- 18:84 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 7:74 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 4:78 [inter], 69:13 [inter]
+- 18:86 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:90 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 69:13 [inter], 7:46 [inter]
+- 18:87 [surah] joins 2:230 [inter], 2:229 [inter], 18:74 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 38:72 [inter]
+- 18:88 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 18:32 [surah], 22:40 [inter], 2:109 [inter], 33:19 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 7:46 [inter]
+- 18:89 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:187 [inter], 5:48 [inter], 18:79 [surah], 22:40 [inter], 2:109 [inter], 3:184 [inter], 69:13 [inter]
+- 18:90 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 18:91 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 7:74 [inter], 2:229 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 6:46 [inter], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter]
+- 18:93 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 18:6 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 18:82 [surah], 7:46 [inter]
+- 18:94 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 3:184 [inter], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 27:31 [inter], 7:46 [inter]
+- 18:95 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah], 18:93 [surah], 33:19 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 18:97 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 18:34 [surah], 34:12 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter]
+- 18:98 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 7:46 [inter]
+- 18:99 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 33:19 [inter], 34:12 [inter], 18:57 [surah], 27:31 [inter], 69:13 [inter]
+- 18:100 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 40:36 [inter], 18:57 [surah], 7:46 [inter]
+- 18:101 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:79 [surah], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 18:82 [surah]
+- 18:102 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 4:78 [inter], 18:57 [surah], 27:31 [inter]
+- 18:103 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 22:40 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 33:19 [inter], 34:12 [inter], 11:40 [inter], 18:82 [surah], 27:31 [inter]
+- 18:104 [surah] joins جَعَلَهُۥ (w13), 2:230 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:31 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 38:72 [inter], 18:34 [surah], 33:19 [inter], 34:12 [inter], 18:57 [surah], 18:82 [surah]
+- 18:105 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 7:74 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:31 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 18:34 [surah], 33:19 [inter], 34:12 [inter], 4:78 [inter]
+- 18:106 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:32 [surah], 18:79 [surah], 22:40 [inter], 6:46 [inter], 33:19 [inter]
+- 18:107 [surah] joins جَعَلَهُۥ (w13), 11:43 [inter], 5:48 [inter], 18:74 [surah], 3:184 [inter]
+- 18:108 [surah] joins جَعَلَهُۥ (w13), 18:45 [surah], 2:229 [inter], 18:29 [surah]
+- 18:109 [surah] joins جَعَلَهُۥ (w13), 5:48 [inter], 18:74 [surah], 15:29 [inter], 18:79 [surah], 38:72 [inter], 3:184 [inter], 18:34 [surah], 33:19 [inter], 18:82 [surah], 69:13 [inter]
+- 18:110 [surah] joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:31 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah]
+- 1:1 [fatiha] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 15:29 [inter], 18:32 [surah], 22:40 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 33:19 [inter], 34:12 [inter], 11:40 [inter], 27:31 [inter]
+- 1:2 [fatiha] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 1:4 [fatiha] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 18:57 [surah], 18:82 [surah], 7:46 [inter]
+- 1:5 [fatiha] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 1:6 [fatiha] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 1:7 [fatiha] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 17:50 [inter] joins 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 18:31 [surah], 21:81 [inter], 18:6 [surah], 4:78 [inter]
+- 28:29 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:229 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 15:29 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 33:19 [inter], 18:57 [surah], 18:82 [surah]
+- 4:9 [inter] joins جَعَلَهُۥ (w13), 2:230 [inter], 2:229 [inter], 18:74 [surah], 18:31 [surah], 22:40 [inter], 6:46 [inter], 33:19 [inter], 34:12 [inter]
+- 22:21 [inter] joins 18:45 [surah], 11:43 [inter], 7:74 [inter], 7:143 [inter]
+- 2:250 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 7:46 [inter]
+- 57:25 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 40:36 [inter], 4:78 [inter], 18:57 [surah], 7:46 [inter]
+- 34:10 [inter] joins جَعَلَهُۥ (w13), 2:230 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 15:29 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah], 34:12 [inter], 18:57 [surah]
+- 7:126 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 38:72 [inter], 3:184 [inter], 6:46 [inter], 33:19 [inter], 11:40 [inter], 18:82 [surah], 27:31 [inter]
+- 23:53 [inter] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 5:48 [inter], 18:29 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 27:7 [inter] joins 18:45 [surah], 22:40 [inter]
+- 11:43 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:32 [surah], 2:109 [inter], 38:72 [inter], 18:6 [surah], 34:12 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 2:230 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 7:143 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 7:74 [inter], 5:48 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 38:72 [inter], 27:31 [inter]
+- 7:38 [inter] joins جَعَلَهُۥ (w13), 2:230 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 15:29 [inter], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 33:19 [inter], 18:82 [surah]
+- 58:20 [inter] joins جَعَلَهُۥ (w13), 7:46 [inter]
+- 11:40 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:32 [surah], 21:81 [inter], 2:109 [inter], 3:184 [inter], 18:34 [surah], 34:12 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 71:16 [inter] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 2:187 [inter], 5:48 [inter], 18:86 [surah], 18:90 [surah], 2:109 [inter], 18:34 [surah], 11:40 [inter], 18:57 [surah], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 2:229 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:6 [surah], 33:19 [inter], 4:78 [inter], 18:82 [surah], 69:13 [inter]
+- 14:50 [inter] joins جَعَلَهُۥ (w13), 11:43 [inter], 7:74 [inter], 7:143 [inter]
+- 4:13 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:229 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 38:72 [inter], 18:34 [surah], 18:6 [surah], 4:78 [inter]
+- 34:12 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:31 [surah], 21:81 [inter], 18:6 [surah], 33:19 [inter], 18:57 [surah]
+- 4:14 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:229 [inter], 7:57 [inter], 18:29 [surah], 18:32 [surah]
+- 2:187 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 34:12 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 7:57 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 5:48 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 38:72 [inter], 18:6 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 27:31 [inter], 7:46 [inter]
+- 4:5 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:187 [inter], 2:229 [inter], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:32 [surah], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 40:36 [inter], 11:40 [inter], 18:57 [surah], 7:46 [inter]
+- 9:97 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 7:74 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 22:40 [inter], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 3:126 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:31 [surah], 18:32 [surah], 18:79 [surah], 2:109 [inter], 3:184 [inter], 4:78 [inter], 11:40 [inter], 27:31 [inter]
+- 15:29 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah]
+- 2:8 [inter] joins 2:230 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 22:40 [inter], 6:46 [inter], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 38:72 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 15:29 [inter], 18:34 [surah]
+- 6:157 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 2:187 [inter], 5:48 [inter], 7:143 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 3:184 [inter], 18:93 [surah], 33:19 [inter], 40:36 [inter], 18:57 [surah], 7:46 [inter]
+- 6:46 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 18:34 [surah], 18:6 [surah], 4:78 [inter], 18:57 [surah], 69:13 [inter], 7:46 [inter]
+- 55:33 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 7:74 [inter], 7:57 [inter], 18:31 [surah], 21:81 [inter], 34:12 [inter]
+- 58:12 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 2:230 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:79 [surah], 21:81 [inter], 18:93 [surah], 34:12 [inter], 40:36 [inter], 18:57 [surah], 7:46 [inter]
+- 33:19 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:229 [inter], 7:57 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 22:40 [inter], 38:72 [inter], 18:34 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 18:82 [surah], 7:46 [inter]
+- 33:14 [inter] joins جَعَلَهُۥ (w13), 11:43 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 18:79 [surah], 69:13 [inter]
+- 50:22 [inter] joins 18:86 [surah], 18:90 [surah], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 16:44 [inter] joins 18:86 [surah], 18:90 [surah], 18:31 [surah], 21:81 [inter], 18:93 [surah], 40:36 [inter]
+- 5:48 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 58:4 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 2:187 [inter], 7:57 [inter], 18:31 [surah], 18:79 [surah], 21:81 [inter], 34:12 [inter]
+- 43:13 [inter] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 18:79 [surah], 2:109 [inter], 38:72 [inter], 18:34 [surah], 33:19 [inter], 34:12 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter]
+- 4:163 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:187 [inter], 15:29 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter]
+- 22:40 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 2:109 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 18:93 [surah], 40:36 [inter], 4:78 [inter], 69:13 [inter], 7:46 [inter]
+- 3:184 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:187 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:32 [surah], 2:109 [inter]
+- 6:9 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 34:12 [inter], 40:36 [inter], 11:40 [inter], 27:31 [inter]
+- 28:10 [inter] joins جَعَلَهُۥ (w13), 11:43 [inter], 2:230 [inter], 2:187 [inter], 5:48 [inter], 7:143 [inter], 18:74 [surah], 15:29 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 33:19 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah]
+- 87:5 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 7:57 [inter], 18:29 [surah], 34:12 [inter]
+- 2:109 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:74 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 34:12 [inter], 4:78 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 69:13 [inter], 7:46 [inter]
+- 11:51 [inter] joins 18:86 [surah], 18:90 [surah], 18:93 [surah], 33:19 [inter], 40:36 [inter]
+- 23:13 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 5:48 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 18:82 [surah], 69:13 [inter]
+- 21:96 [inter] joins 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 38:72 [inter], 27:31 [inter]
+- 21:80 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:229 [inter], 5:48 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 38:72 [inter], 34:12 [inter]
+- 34:11 [inter] joins جَعَلَهُۥ (w13), 2:187 [inter], 7:143 [inter], 15:29 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 18:34 [surah], 33:19 [inter]
+- 57:13 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:32 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 34:12 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter]
+- 61:4 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:57 [inter], 18:29 [surah], 15:29 [inter], 38:72 [inter], 18:6 [surah], 4:78 [inter]
+- 2:127 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:187 [inter], 2:229 [inter], 7:57 [inter], 18:31 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter]
+- 7:74 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 2:229 [inter], 5:48 [inter], 7:143 [inter], 18:74 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 6:46 [inter], 18:93 [surah], 33:19 [inter], 40:36 [inter], 4:78 [inter], 18:82 [surah], 69:13 [inter]
+- 11:37 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 15:29 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 33:19 [inter], 34:12 [inter], 18:82 [surah]
+- 11:38 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:229 [inter]
+- 23:27 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 15:29 [inter], 21:81 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 34:12 [inter]
+- 25:53 [inter] joins 5:48 [inter], 18:79 [surah], 69:13 [inter]
+- 27:61 [inter] joins 18:45 [surah], 13:17 [inter], 11:43 [inter], 5:48 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 18:79 [surah], 38:72 [inter], 69:13 [inter]
+- 34:13 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 5:48 [inter], 18:74 [surah], 15:29 [inter], 18:32 [surah], 38:72 [inter], 18:34 [surah], 7:46 [inter]
+- 55:19 [inter] joins 5:48 [inter], 18:79 [surah], 69:13 [inter]
+- 59:2 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:74 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 22:40 [inter], 38:72 [inter], 18:34 [surah], 34:12 [inter], 69:13 [inter], 7:46 [inter]
+- 59:14 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 7:143 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:93 [surah], 40:36 [inter], 18:57 [surah]
+- 16:81 [inter] joins جَعَلَهُۥ (w13), 7:74 [inter], 2:229 [inter], 5:48 [inter], 18:29 [surah], 18:86 [surah], 18:31 [surah], 15:29 [inter], 18:79 [surah], 21:81 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 33:19 [inter], 69:13 [inter]
+- 8:60 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:229 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:6 [surah], 33:19 [inter]
+- 4:78 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 18:86 [surah], 18:90 [surah], 18:79 [surah], 22:40 [inter], 2:109 [inter], 18:6 [surah], 18:93 [surah], 40:36 [inter]
+- 7:46 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:31 [surah], 15:29 [inter], 18:32 [surah], 18:79 [surah], 21:81 [inter], 22:40 [inter], 38:72 [inter], 6:46 [inter], 18:34 [surah], 18:93 [surah], 33:19 [inter], 34:12 [inter], 40:36 [inter], 11:40 [inter], 18:82 [surah], 27:31 [inter], 69:13 [inter]
+- 16:26 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 7:74 [inter], 7:143 [inter], 27:31 [inter]
+- 23:100 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 2:229 [inter], 7:57 [inter], 18:31 [surah], 33:19 [inter], 34:12 [inter], 11:40 [inter], 27:31 [inter]
+- 28:38 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 2:187 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:31 [surah], 18:32 [surah], 21:81 [inter], 3:184 [inter], 18:93 [surah], 40:36 [inter], 11:40 [inter], 27:31 [inter], 7:46 [inter]
+- 33:26 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 7:143 [inter], 18:29 [surah], 18:86 [surah], 15:29 [inter], 18:79 [surah], 2:109 [inter], 38:72 [inter], 6:46 [inter], 11:40 [inter], 18:57 [surah], 18:82 [surah], 27:31 [inter]
+- 40:36 [inter] joins جَعَلَهُۥ (w13), 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:6 [surah], 18:93 [surah], 4:78 [inter], 7:46 [inter]
+- 40:37 [inter] joins 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 22:40 [inter], 38:72 [inter], 11:40 [inter], 18:57 [surah], 27:31 [inter]
+- 13:17 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 11:43 [inter], 2:230 [inter], 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:74 [surah], 18:29 [surah], 18:86 [surah], 15:29 [inter], 18:32 [surah], 21:81 [inter], 22:40 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter], 6:46 [inter], 18:34 [surah], 18:6 [surah], 33:19 [inter], 34:12 [inter], 4:78 [inter], 11:40 [inter], 18:82 [surah], 27:31 [inter], 69:13 [inter]
+- 15:74 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 7:143 [inter], 7:57 [inter], 18:31 [surah], 11:40 [inter], 27:31 [inter]
+- 23:99 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:230 [inter], 5:48 [inter], 7:57 [inter], 15:29 [inter], 22:40 [inter], 38:72 [inter], 34:12 [inter], 18:57 [surah]
+- 26:42 [inter] joins جَعَلَهُۥ (w13), 2:187 [inter], 7:57 [inter], 18:79 [surah]
+- 27:31 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 7:143 [inter], 7:57 [inter], 11:40 [inter]
+- 32:13 [inter] joins 18:86 [surah], 18:90 [surah], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+- 43:38 [inter] joins جَعَلَهُۥ (w13), 7:74 [inter], 5:48 [inter], 18:79 [surah], 2:109 [inter], 4:78 [inter]
+- 53:6 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:229 [inter]
+- 67:15 [inter] joins 18:45 [surah], 2:187 [inter], 2:229 [inter], 18:32 [surah], 11:40 [inter], 18:57 [surah]
+- 68:15 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 2:187 [inter], 15:29 [inter], 2:109 [inter], 38:72 [inter], 3:184 [inter]
+- 69:13 [inter] joins 2:229 [inter], 5:48 [inter], 18:86 [surah], 18:90 [surah], 18:32 [surah], 18:79 [surah], 2:109 [inter], 18:34 [surah], 18:57 [surah], 7:46 [inter]
+- 83:13 [inter] joins جَعَلَهُۥ (w13), 2:187 [inter], 2:109 [inter], 3:184 [inter]
+- 21:79 [inter] joins جَعَلَهُۥ (w13), 18:29 [surah], 18:86 [surah], 18:90 [surah], 18:93 [surah], 40:36 [inter]
+- 21:81 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 7:74 [inter], 2:229 [inter], 7:57 [inter], 18:31 [surah], 34:12 [inter]
+- 57:12 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 2:229 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 21:81 [inter], 38:72 [inter], 18:6 [surah], 4:78 [inter], 18:82 [surah]
+- 57:14 [inter] joins جَعَلَهُۥ (w13), 18:45 [surah], 13:17 [inter], 11:43 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 18:32 [surah], 18:79 [surah], 34:12 [inter]
+- 21:95 [inter] joins 2:230 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 2:109 [inter], 6:46 [inter], 34:12 [inter], 18:57 [surah]
+- 21:97 [inter] joins جَعَلَهُۥ (w13), 7:74 [inter], 2:187 [inter], 2:229 [inter], 5:48 [inter], 7:57 [inter], 18:86 [surah], 18:90 [surah], 18:32 [surah], 18:79 [surah], 2:109 [inter], 18:93 [surah], 40:36 [inter], 4:78 [inter], 27:31 [inter], 69:13 [inter], 7:46 [inter]
+- 57:24 [inter] joins جَعَلَهُۥ (w13), 13:17 [inter], 5:48 [inter], 7:143 [inter], 7:57 [inter], 18:29 [surah], 18:31 [surah], 15:29 [inter], 38:72 [inter], 34:12 [inter], 27:31 [inter]
+- 57:26 [inter] joins 18:86 [surah], 18:90 [surah], 18:93 [surah], 40:36 [inter], 7:46 [inter]
+
+## Chain material (per hub: surah ayat its members touch, in surah order)
+
+- جَعَلَهُۥ (w13): 18:1 (ز ب ر B003, س و ي B008) → 18:2 (ء ت ي B011, ق ط ر B002) → 18:4 (ز ب ر B006) → 18:5 (ق و ل B005) → 18:6 (ح د د B007) → 18:7 (ح د د B007) → 18:9 (ب ي ن B010, ز ب ر B003, س و ي B008, ق ط ر B004) → 18:10 (ء ت ي B003, ن و ر B005) → 18:11 (ح د د B007, ز ب ر B006) → 18:13 (ء ت ي B005, س و ي B008, ق ط ر B004) → 18:15 (ق و ل B005, ق و ل B010) → 18:17 (ء ت ي B005, ز ب ر B006, س و ي B003, س و ي B010, ق ط ر B013) → 18:18 (ز ب ر B006) → 18:19 (ق ط ر B013) → 18:20 (س و ي B003, س و ي B010, ق ط ر B013, ن و ر B005) → 18:21 (ء ت ي B011, ق ط ر B002, ق و ل B010) → 18:22 (ز ب ر B006, س و ي B003, س و ي B010, ق ط ر B011, ن و ر B005) → 18:24 (ص د ف B005, ق و ل B014) → 18:26 (ق و ل B010, ن و ر B005) → 18:27 (ز ب ر B003, س و ي B003, ق ط ر B002, ق و ل B005, ق و ل B010) → 18:28 (ء ت ي B003, ء ت ي B011, ب ي ن B010, ح د د B007, ق ط ر B011, ق و ل B014, ن و ر B005) → 18:29 (ء ت ي B011, س و ي B010, ق و ل B005, ن و ر B001) → 18:31 (ء ت ي B003, ء ت ي B011, ح د د B007, ق ط ر B013, ن و ر B001) → 18:32 (ء ت ي B011, ن ف خ B002) → 18:33 (ق و ل B005) → 18:34 (ء ت ي B005, ء ت ي B011, ن ف خ B002) → 18:35 (ص د ف B005) → 18:36 (ق و ل B014) → 18:37 (ء ت ي B011, ق ط ر B011, ن ف خ B002, ن و ر B008) → 18:39 (ء ت ي B011) → 18:40 (ق ط ر B004, ن و ر B001, ن و ر B005) → 18:42 (ز ب ر B006, ن و ر B008) → 18:45 (ق ط ر B002, ن ف خ B002, ن و ر B001) → 18:46 (ء ت ي B011, ح د د B007) → 18:47 (ق ط ر B002, ق ط ر B004, ق و ل B014, ن ف خ B002, ن و ر B001) → 18:48 (ق ط ر B004, ق ط ر B011) → 18:49 (ز ب ر B003, ق ط ر B002) → 18:50 (ء ت ي B011, ق ط ر B002) → 18:51 (ن ف خ B002) → 18:52 (س و ي B008) → 18:53 (س و ي B010, ص د ف B005, ق و ل B014, ن و ر B001) → 18:54 (ز ب ر B003, ق ط ر B002) → 18:55 (ح د د B007, س و ي B004, ص د ف B005, ق و ل B010, ق و ل B014) → 18:56 (ق و ل B005) → 18:57 (س و ي B004, س و ي B008, ص د ف B005, ق و ل B014, ن و ر B005) → 18:58 (س و ي B004) → 18:60 (س و ي B004, س و ي B008) → 18:62 (ز ب ر B003, ق ط ر B002, ق ط ر B013, ن و ر B001) → 18:64 (ق و ل B014) → 18:65 (ن و ر B005) → 18:66 (ن و ر B005) → 18:71 (ء ت ي B005, ز ب ر B003, س و ي B010) → 18:73 (ق ط ر B004, ق و ل B010, ن و ر B005) → 18:74 (ق و ل B010, ن ف خ B002) → 18:76 (ب ي ن B010) → 18:77 (ح د د B007, ز ب ر B003) → 18:79 (ز ب ر B006, ق ط ر B011, ن و ر B008) → 18:80 (ق و ل B010) → 18:81 (س و ي B004, س و ي B008, ص د ف B005) → 18:82 (ح د د B007, س و ي B004, س و ي B008, ق ط ر B013, ن و ر B005) → 18:84 (س و ي B004, س و ي B008) → 18:86 (ز ب ر B006, ص د ف B005, ن ف خ B002, ن و ر B001, ن و ر B008) → 18:88 (ء ت ي B003, ن و ر B005) → 18:89 (ز ب ر B003, ص د ف B005, ق ط ر B004) → 18:90 (ح د د B007, س و ي B004, س و ي B008, ص د ف B005, ق ط ر B013, ق و ل B005, ق و ل B010, ن ف خ B002, ن و ر B001, ن و ر B005) → 18:91 (ء ت ي B011, ز ب ر B006, ن ف خ B002, ن و ر B008) → 18:93 (س و ي B008, ص د ف B005, ق و ل B014, ن ف خ B002) → 18:94 (ء ت ي B011, ق و ل B005, ن ف خ B002) → 18:95 (ص د ف B005, ق ط ر B004, ق ط ر B013, ق و ل B005, ق و ل B010) → 18:97 (ء ت ي B003, ب ي ن B010, ح د د B007, س و ي B003, س و ي B010, ق ط ر B002, ق ط ر B011, ن ف خ B002, ن و ر B001, ن و ر B005, ن و ر B008) → 18:98 (ء ت ي B003, ب ي ن B010, س و ي B004, ق ط ر B002, ق ط ر B013, ق و ل B005, ق و ل B010, ق و ل B014, ن و ر B001) → 18:99 (ء ت ي B003, ب ي ن B010, ح د د B007, ز ب ر B006, س و ي B003, ق ط ر B002, ن ف خ B002) → 18:100 (ز ب ر B003, ن و ر B008) → 18:101 (ء ت ي B005, ب ي ن B010, س و ي B008, ق و ل B014) → 18:102 (ء ت ي B005, ء ت ي B011, ز ب ر B003, ز ب ر B006, س و ي B003, س و ي B004, س و ي B010, ق ط ر B004, ق ط ر B011, ق و ل B014, ن و ر B008) → 18:103 (ء ت ي B005, ق ط ر B011, ق و ل B005) → 18:104 (ح د د B007, س و ي B004) → 18:105 (ص د ف B005, ق ط ر B011, ن ف خ B002) → 18:106 (ز ب ر B006, ص د ف B005, ن و ر B008) → 18:107 (ب ي ن B010) → 18:108 (س و ي B010) → 18:109 (س و ي B008, ق و ل B014) → 18:110 (ز ب ر B003, ق ط ر B002)
+- 18:45 [surah]: 18:1 (ف ر غ B005, ق ط ر B010) → 18:5 (ء ت ي B008) → 18:10 (ق ل ل B004) → 18:11 (ء ت ي B008) → 18:13 (ق ل ل B004) → 18:16 (ق ط ر B010, ق ل ل B004) → 18:18 (ز ب ر B007, ق ل ل B004) → 18:19 (ء ت ي B004, ز ب ر B007, ق ل ل B004) → 18:21 (ف ر غ B005) → 18:22 (ء ت ي B008, ز ب ر B007, ق ل ل B004) → 18:29 (ء ت ي B004, ف ر غ B005) → 18:31 (ء ت ي B004, ز ب ر B007) → 18:32 (ء ت ي B004, ء ت ي B008, ف ر غ B005, ق ل ل B004, ن ف خ B002) → 18:33 (ء ت ي B004, ق ل ل B002) → 18:34 (ن ف خ B002) → 18:36 (ف ر غ B005) → 18:37 (ء ت ي B004, ف ر غ B005, ق ط ر B014, ق ل ل B004, ن ف خ B002) → 18:40 (ف ر غ B005, ق ل ل B002) → 18:41 (ء ت ي B004, ف ر غ B005) → 18:44 (ز ب ر B007, ق ط ر B010) → 18:45 (ء ت ي B004, ء ت ي B008, ز ب ر B007, ف ر غ B005, ق ط ر B010, ق ط ر B014, ق ل ل B002, ق ل ل B004, ن ف خ B002) → 18:46 (ز ب ر B007) → 18:47 (ق ل ل B002, ن ف خ B002) → 18:49 (ق ل ل B004) → 18:51 (ن ف خ B002) → 18:54 (ء ت ي B004, ق ل ل B002) → 18:55 (ز ب ر B007) → 18:56 (ف ر غ B005) → 18:58 (ز ب ر B007) → 18:59 (ق ل ل B002) → 18:61 (ء ت ي B004) → 18:63 (ء ت ي B004, ق ط ر B014) → 18:68 (ز ب ر B007) → 18:74 (ن ف خ B002) → 18:75 (ق ل ل B004) → 18:77 (ق ط ر B010, ق ط ر B014) → 18:78 (ق ل ل B004) → 18:82 (ق ل ل B004) → 18:86 (ن ف خ B002) → 18:88 (ء ت ي B008) → 18:90 (ف ر غ B005, ق ط ر B010, ق ط ر B014, ق ل ل B004, ن ف خ B002) → 18:91 (ز ب ر B007, ن ف خ B002) → 18:93 (ق ل ل B002, ن ف خ B002) → 18:94 (ء ت ي B008, ق ط ر B014, ق ل ل B002, ق ل ل B004, ن ف خ B002) → 18:95 (ء ت ي B004, ز ب ر B007, ف ر غ B005, ق ط ر B010, ق ط ر B014) → 18:97 (ق ل ل B002, ق ل ل B004, ن ف خ B002) → 18:98 (ء ت ي B004, ء ت ي B008) → 18:99 (ز ب ر B007, ن ف خ B002) → 18:101 (ء ت ي B004) → 18:102 (ء ت ي B004, ف ر غ B005, ق ط ر B010) → 18:103 (ق ل ل B004) → 18:105 (ن ف خ B002) → 18:106 (ف ر غ B005) → 18:108 (ق ط ر B010)
+- 13:17 [inter]: 18:1 (ف ر غ B005) → 18:2 (ق ط ر B002) → 18:3 (ق ل ل B005) → 18:5 (ء ت ي B008, ق و ل B005) → 18:7 (ق ل ل B005) → 18:11 (ء ت ي B008) → 18:12 (ق ل ل B005) → 18:13 (ء ت ي B005) → 18:15 (ق و ل B005, ن و ر B004) → 18:17 (ء ت ي B005, ف ر غ B004, ن و ر B004) → 18:18 (ن و ر B004) → 18:19 (ء ت ي B004) → 18:21 (ف ر غ B005, ق ط ر B002) → 18:22 (ء ت ي B008, ق ط ر B011) → 18:27 (ق ط ر B002, ق و ل B005) → 18:28 (ق ط ر B011) → 18:29 (ء ت ي B004, ف ر غ B004, ف ر غ B005, ق و ل B005) → 18:31 (ء ت ي B004, ف ر غ B004) → 18:32 (ء ت ي B004, ء ت ي B008, ف ر غ B005) → 18:33 (ء ت ي B004, ق و ل B005, ن و ر B004) → 18:34 (ء ت ي B005) → 18:36 (ف ر غ B005) → 18:37 (ء ت ي B004, ف ر غ B005, ق ط ر B011) → 18:40 (ف ر غ B005) → 18:41 (ء ت ي B004, ف ر غ B005) → 18:45 (ء ت ي B004, ء ت ي B008, ف ر غ B005, ق ط ر B002, ن و ر B004) → 18:47 (ق ط ر B002) → 18:48 (ق ط ر B011) → 18:49 (ق ط ر B002) → 18:50 (ق ط ر B002) → 18:51 (ق ل ل B005) → 18:54 (ء ت ي B004, ق ط ر B002) → 18:56 (ف ر غ B004, ف ر غ B005, ق و ل B005) → 18:61 (ء ت ي B004) → 18:62 (ق ط ر B002) → 18:63 (ء ت ي B004) → 18:71 (ء ت ي B005) → 18:79 (ق ط ر B011, ق ل ل B005) → 18:84 (ق ل ل B005) → 18:88 (ء ت ي B008, ف ر غ B004) → 18:89 (ف ر غ B004) → 18:90 (ف ر غ B005, ق ل ل B005, ق و ل B005, ن و ر B004) → 18:93 (ف ر غ B004) → 18:94 (ء ت ي B008, ف ر غ B004, ق ل ل B005, ق و ل B005, ن و ر B004) → 18:95 (ء ت ي B004, ف ر غ B005, ق و ل B005) → 18:97 (ق ط ر B002, ق ط ر B011) → 18:98 (ء ت ي B004, ء ت ي B008, ق ط ر B002, ق و ل B005) → 18:99 (ق ط ر B002) → 18:100 (ن و ر B004) → 18:101 (ء ت ي B004, ء ت ي B005) → 18:102 (ء ت ي B004, ء ت ي B005, ف ر غ B005, ق ط ر B011, ق ل ل B005) → 18:103 (ء ت ي B005, ق ط ر B011, ق و ل B005) → 18:105 (ف ر غ B004, ق ط ر B011) → 18:106 (ف ر غ B004, ف ر غ B005) → 18:110 (ق ط ر B002)
+- 11:43 [inter]: 18:1 (ف ر غ B005) → 18:9 (ب ي ن B010) → 18:10 (ن و ر B005) → 18:16 (ق ط ر B001) → 18:18 (ق ط ر B001) → 18:19 (ء ت ي B004) → 18:20 (ن و ر B005) → 18:21 (ف ر غ B005) → 18:22 (ن و ر B005) → 18:26 (ن و ر B005) → 18:28 (ب ي ن B010, ن و ر B005) → 18:29 (ء ت ي B004, ف ر غ B005) → 18:31 (ء ت ي B004) → 18:32 (ء ت ي B004, ف ر غ B005, ق ط ر B001) → 18:33 (ء ت ي B004, ق ل ل B002) → 18:36 (ف ر غ B005) → 18:37 (ء ت ي B004, ف ر غ B005) → 18:40 (ف ر غ B005, ق ل ل B002, ن و ر B005) → 18:41 (ء ت ي B004, ف ر غ B005) → 18:45 (ء ت ي B004, ف ر غ B005, ق ل ل B002) → 18:47 (ق ط ر B001, ق ل ل B002) → 18:48 (ق ط ر B001) → 18:54 (ء ت ي B004, ق ل ل B002) → 18:56 (ف ر غ B005) → 18:57 (ن و ر B005) → 18:59 (ق ل ل B002) → 18:61 (ء ت ي B004) → 18:63 (ء ت ي B004) → 18:65 (ن و ر B005) → 18:66 (ن و ر B005) → 18:73 (ن و ر B005) → 18:76 (ب ي ن B010) → 18:82 (ن و ر B005) → 18:88 (ن و ر B005) → 18:90 (ف ر غ B005, ن و ر B005) → 18:93 (ق ل ل B002) → 18:94 (ق ط ر B001, ق ل ل B002) → 18:95 (ء ت ي B004, ف ر غ B005) → 18:97 (ب ي ن B010, ق ل ل B002, ن و ر B005) → 18:98 (ء ت ي B004, ب ي ن B010) → 18:99 (ب ي ن B010) → 18:100 (ق ط ر B001) → 18:101 (ء ت ي B004, ب ي ن B010) → 18:102 (ء ت ي B004, ف ر غ B005) → 18:106 (ف ر غ B005) → 18:107 (ب ي ن B010) → 18:110 (ق ط ر B001)
+- 2:230 [inter]: 18:1 (ء ت ي B009) → 18:2 (ق و ل B016) → 18:7 (ء ت ي B009) → 18:10 (ن و ر B005) → 18:13 (ن و ر B009) → 18:14 (س و ي B007) → 18:15 (ن و ر B009) → 18:18 (ن و ر B009) → 18:20 (ن و ر B005) → 18:22 (ن و ر B005) → 18:23 (ب ي ن B012) → 18:26 (ن و ر B005) → 18:27 (س و ي B007) → 18:28 (ن و ر B005, ن و ر B009) → 18:29 (ب ي ن B012) → 18:30 (ء ت ي B009) → 18:31 (ن و ر B009) → 18:32 (س و ي B007, ن و ر B009) → 18:34 (ء ت ي B009) → 18:35 (س و ي B007) → 18:37 (س و ي B007, ن و ر B009) → 18:40 (ن و ر B005) → 18:44 (س و ي B007, ق و ل B016) → 18:48 (ق و ل B016) → 18:50 (س و ي B007) → 18:56 (س و ي B007, ق و ل B016) → 18:57 (ء ت ي B009, ق و ل B016, ن و ر B005) → 18:62 (ق و ل B016) → 18:64 (ن و ر B009) → 18:65 (ن و ر B005) → 18:66 (ن و ر B005) → 18:71 (ب ي ن B012) → 18:73 (ن و ر B005) → 18:74 (ب ي ن B012, س و ي B007) → 18:77 (ب ي ن B012) → 18:81 (س و ي B007) → 18:82 (ن و ر B005) → 18:83 (ء ت ي B009) → 18:87 (ب ي ن B012) → 18:88 (ن و ر B005) → 18:90 (ب ي ن B012, س و ي B007, ن و ر B005) → 18:93 (ب ي ن B012, ق و ل B016, ن و ر B009) → 18:94 (ء ت ي B009, ق و ل B016) → 18:95 (ق و ل B016) → 18:97 (ن و ر B005, ن و ر B009) → 18:98 (ء ت ي B009, س و ي B007, ق و ل B016) → 18:99 (ب ي ن B012) → 18:100 (ق و ل B016) → 18:102 (ء ت ي B009, ن و ر B009) → 18:103 (س و ي B007, ق و ل B016) → 18:104 (ء ت ي B009) → 18:110 (ق و ل B016)
+- 7:74 [inter]: 18:3 (ق ل ل B005) → 18:4 (ز ب ر B006) → 18:7 (ء ت ي B006, ق ل ل B005) → 18:11 (ز ب ر B006) → 18:12 (ق ل ل B005) → 18:16 (ق ط ر B001) → 18:17 (ء ت ي B006, ز ب ر B006) → 18:18 (ز ب ر B006, ق ط ر B001) → 18:21 (ء ت ي B006) → 18:22 (ز ب ر B006) → 18:24 (ج ع ل B012) → 18:32 (ء ت ي B006, ق ط ر B001) → 18:33 (ق ل ل B002) → 18:34 (ج ع ل B012) → 18:37 (ء ت ي B006) → 18:40 (ق ل ل B002) → 18:42 (ز ب ر B006) → 18:45 (ج ع ل B012, ق ل ل B002) → 18:46 (ج ع ل B012) → 18:47 (ق ط ر B001, ق ل ل B002) → 18:48 (ق ط ر B001) → 18:51 (ق ل ل B005) → 18:54 (ج ع ل B012, ق ل ل B002) → 18:59 (ق ل ل B002) → 18:65 (ج ع ل B012) → 18:71 (ء ت ي B006) → 18:77 (ء ت ي B006) → 18:79 (ج ع ل B012, ز ب ر B006, ق ل ل B005) → 18:81 (ج ع ل B012) → 18:83 (ج ع ل B012) → 18:84 (ج ع ل B012, ق ل ل B005) → 18:86 (ج ع ل B012, ز ب ر B006) → 18:90 (ق ل ل B005) → 18:91 (ز ب ر B006) → 18:93 (ق ل ل B002) → 18:94 (ء ت ي B006, ج ع ل B012, ق ط ر B001, ق ل ل B002, ق ل ل B005) → 18:95 (ج ع ل B012) → 18:97 (ق ل ل B002) → 18:98 (ء ت ي B006) → 18:99 (ز ب ر B006) → 18:100 (ق ط ر B001) → 18:101 (ج ع ل B012) → 18:102 (ز ب ر B006, ق ل ل B005) → 18:105 (ج ع ل B012) → 18:106 (ز ب ر B006) → 18:110 (ق ط ر B001)
+- 2:187 [inter]: 18:1 (ز ب ر B003) → 18:2 (ق و ل B016) → 18:9 (ز ب ر B003) → 18:10 (ن و ر B005) → 18:13 (ن و ر B009) → 18:15 (ن و ر B009) → 18:17 (ء ت ي B007) → 18:18 (ن و ر B009) → 18:19 (ء ت ي B007) → 18:20 (ن و ر B005) → 18:22 (ن و ر B005) → 18:24 (ص د ف B005) → 18:26 (ن و ر B005) → 18:27 (ز ب ر B003) → 18:28 (ن و ر B005, ن و ر B009) → 18:29 (ء ت ي B007) → 18:31 (ن و ر B009) → 18:32 (ء ت ي B007, ن و ر B009) → 18:33 (ء ت ي B007) → 18:34 (ء ت ي B007) → 18:35 (ص د ف B005) → 18:37 (ن و ر B009) → 18:40 (ن و ر B005) → 18:41 (ء ت ي B007) → 18:42 (ء ت ي B007) → 18:44 (ق و ل B016) → 18:45 (ء ت ي B007) → 18:48 (ق و ل B016) → 18:49 (ز ب ر B003) → 18:53 (ص د ف B005) → 18:54 (ز ب ر B003) → 18:55 (ص د ف B005) → 18:56 (ق و ل B016) → 18:57 (ص د ف B005, ق و ل B016, ن و ر B005) → 18:62 (ز ب ر B003, ق و ل B016) → 18:64 (ن و ر B009) → 18:65 (ن و ر B005) → 18:66 (ن و ر B005) → 18:71 (ز ب ر B003) → 18:73 (ن و ر B005) → 18:77 (ز ب ر B003) → 18:81 (ص د ف B005) → 18:82 (ن و ر B005) → 18:86 (ص د ف B005) → 18:88 (ن و ر B005) → 18:89 (ز ب ر B003, ص د ف B005) → 18:90 (ء ت ي B007, ص د ف B005, ن و ر B005) → 18:93 (ص د ف B005, ق و ل B016, ن و ر B009) → 18:94 (ء ت ي B007, ق و ل B016) → 18:95 (ء ت ي B007, ص د ف B005, ق و ل B016) → 18:97 (ء ت ي B007, ن و ر B005, ن و ر B009) → 18:98 (ء ت ي B007, ق و ل B016) → 18:100 (ز ب ر B003, ق و ل B016) → 18:102 (ز ب ر B003, ن و ر B009) → 18:103 (ق و ل B016) → 18:105 (ص د ف B005) → 18:106 (ص د ف B005) → 18:110 (ز ب ر B003, ق و ل B016)
+- 2:229 [inter]: 18:2 (ج ع ل B004, ق و ل B016) → 18:4 (ز ب ر B006) → 18:6 (ج ع ل B004) → 18:10 (ج ع ل B004, ج ع ل B009) → 18:11 (ز ب ر B006) → 18:13 (ن و ر B009) → 18:15 (ن و ر B009) → 18:16 (ج ع ل B004) → 18:17 (ز ب ر B006) → 18:18 (ز ب ر B006, ن و ر B009) → 18:22 (ز ب ر B006) → 18:23 (ب ي ن B012, ج ع ل B006) → 18:24 (ج ع ل B006) → 18:28 (ن و ر B009) → 18:29 (ب ي ن B012) → 18:31 (ج ع ل B004, ن و ر B009) → 18:32 (ج ع ل B006, ن و ر B009) → 18:37 (ن و ر B009) → 18:42 (ز ب ر B006) → 18:44 (ق و ل B016) → 18:45 (ج ع ل B009) → 18:48 (ج ع ل B004, ق و ل B016) → 18:53 (ج ع ل B009) → 18:54 (ج ع ل B009) → 18:56 (ق و ل B016) → 18:57 (ج ع ل B004, ق و ل B016) → 18:60 (ج ع ل B004) → 18:62 (ق و ل B016) → 18:64 (ن و ر B009) → 18:65 (ج ع ل B009) → 18:70 (ج ع ل B004) → 18:71 (ب ي ن B012) → 18:74 (ب ي ن B012) → 18:76 (ج ع ل B006) → 18:77 (ب ي ن B012, ج ع ل B006, ج ع ل B009) → 18:79 (ز ب ر B006) → 18:81 (ج ع ل B006) → 18:84 (ج ع ل B006, ج ع ل B009) → 18:86 (ز ب ر B006) → 18:87 (ب ي ن B012) → 18:88 (ج ع ل B004) → 18:90 (ب ي ن B012, ج ع ل B006) → 18:91 (ز ب ر B006) → 18:93 (ب ي ن B012, ج ع ل B004, ق و ل B016, ن و ر B009) → 18:94 (ق و ل B016) → 18:95 (ق و ل B016) → 18:97 (ن و ر B009) → 18:98 (ج ع ل B004, ج ع ل B009, ق و ل B016) → 18:99 (ب ي ن B012, ج ع ل B004, ج ع ل B006, ز ب ر B006) → 18:100 (ق و ل B016) → 18:102 (ج ع ل B009, ز ب ر B006, ن و ر B009) → 18:103 (ج ع ل B004, ق و ل B016) → 18:104 (ج ع ل B004) → 18:106 (ز ب ر B006) → 18:108 (ج ع ل B004) → 18:110 (ق و ل B016)
+
+## Formula groups (other ayat sharing ≥2 focus roots; leaves, not members)
+
+- ج ع ل + س و ي + ن و ر (1): 13:16
+- ج ع ل + س و ي + ن ف خ (1): 32:9
+- ج ع ل + ن و ر (17): 2:126, 6:1, 6:91, 6:122, 7:47, 10:5, 14:30, 16:62
+- ج ع ل + س و ي (7): 5:60, 9:19, 19:10, 20:58, 22:25, 41:10, 45:21
+- ز ب ر + ن و ر (2): 3:184, 35:25
+- ح د د + ن و ر (2): 4:14, 9:63
+- س و ي + ن ف خ (2): 15:29, 38:72
+- ج ع ل + ن ف خ (1): 21:91
+- ق ط ر + ن و ر (1): 14:50
+- س و ي + ن و ر (1): 59:20
+
+## HFT mechanisms and the hubs they touch
+
+- base_composite_gap_forge [baseline_models] → جَعَلَهُۥ (w13); 18:45 [surah]; 13:17 [inter]; 11:43 [inter]
+- base_boundary_by_connection [baseline_models] → جَعَلَهُۥ (w13); 13:17 [inter]; 11:43 [inter]; 2:230 [inter]
+- base_distributed_command_sequence [baseline_models] → جَعَلَهُۥ (w13); 18:45 [surah]; 13:17 [inter]; 2:187 [inter]
+- ctx_linked_stage_gates [context_deltas] → جَعَلَهُۥ (w13)
+- ctx_capability_exchange [context_deltas] → جَعَلَهُۥ (w13); 18:45 [surah]; 13:17 [inter]; 2:187 [inter]
+- ctx_repairing_corruption [context_deltas] → جَعَلَهُۥ (w13); 2:230 [inter]; 2:187 [inter]; 2:229 [inter]
+- ctx_paired_abutments [context_deltas] → جَعَلَهُۥ (w13); 13:17 [inter]; 11:43 [inter]; 2:230 [inter]
+- ctx_two_failure_modes [context_deltas] → جَعَلَهُۥ (w13); 2:187 [inter]; 18:74 [surah]; 18:29 [surah]
+- ctx_bounded_mercy [context_deltas] → جَعَلَهُۥ (w13); 18:45 [surah]; 11:43 [inter]; 18:90 [surah]
+- out_shell_laminate [surprising_valid_outliers] → جَعَلَهُۥ (w13); 18:45 [surah]; 13:17 [inter]; 11:43 [inter]
+- out_materialized_utterance [surprising_valid_outliers] → جَعَلَهُۥ (w13); 11:43 [inter]; 2:230 [inter]; 2:187 [inter]
+- out_hydraulic_casting [surprising_valid_outliers] → جَعَلَهُۥ (w13); 18:45 [surah]; 13:17 [inter]; 11:43 [inter]

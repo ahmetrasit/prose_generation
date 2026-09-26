@@ -1,0 +1,72 @@
+# Fatiha lens (recited in every salah; standing context)
+
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+## Focus branches × Fatiha branches (top 3 by distinct root)
+
+- **ع ص ر B001 devir, vakit ve günün geç bölümü / دهر ووقت متعاقب**
+  - ي و م B002 herhangi bir zaman dilimi; bağlama göre devir / مدة من الزمان ← 1:4 يَوْمِ
+  - ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **ع ص ر B002 sıkarak sıvısını çıkarma / ضغط حتى يتحلب**
+  - ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+  - غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+- **ع ص ر B003 yağmur yüklü bulut ve yağmurun gelişi / سحاب يمطر ومطر يعصر**
+  - س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+  - ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 1:2 رَبِّ
+  - غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+- **ع ص ر B004 sütun gibi yükselen döner toz rüzgarı / إعصار وغبار مستدير**
+  - ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 1:7 أَنْعَمْتَ
+  - ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 1:2 رَبِّ
+  - ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ
+- **ع ص ر B005 tutunarak sığınma ve kurtuluş arama / ملجأ ومنجاة واعتصام**
+  - ر ح م B002 yakın soy bağı / الرَّحِم والقرابة ← 1:1 ٱلرَّحْمَٰنِ
+  - ه د ي B004 incelik göstergesi armağan verme / بعثة لطف وهدية إلى ذي مودة ← 1:6 ٱهْدِنَا
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **ع ص ر B006 alıkoyma, malı alma veya geri alma / حبس ومنع واسترجاع**
+  - غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+  - ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+- **ع ص ر B007 bağış, iyilik veya elde edilen ürün / عطاء وغلة مستخرجة**
+  - غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+  - ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+- **ع ص ر B008 boğaza takılan yiyeceği küçük yudumlarla geçirme / شرب قليل لإساغة الغصة**
+  - ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+- **ع ص ر B009 genç kızın ergenlik eşiğine ulaşması / بلوغ الجارية عصر شبابها**
+  - ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 1:2 رَبِّ
+  - ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+  - ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **ع ص ر B010 ekinin başak kılıflarına girip korunması / زرع يتحرز في أكمامه**
+  - ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 1:2 ٱلْعَٰلَمِينَ
+  - ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 1:6 ٱلْمُسْتَقِيمَ
+- **ع ص ر B011 soy kökü ve kökene bağlı soyluluk / أصل وحسب ونسب**
+  - ق و م B007 başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+  - د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+- **ع ص ر B012 bağlılar arasındaki alt konumlu kesim / دنية في الموالاة**
+  - ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 1:4 ٱلدِّينِ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **ع ص ر B013 bir ağaç türü / العصرة شجرة**
+  - ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ
+  - و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 1:1 بِسْمِ
+  - ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+- **ع ص ر B014 susuzluktan kurumuş dil / لسان معصور من العطش**
+  - ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - ع ب د B006 saygı gösterilip hizmet edilen kişi / التكريم والتعظيم ← 1:5 نَعْبُدُ
+  - ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+- **ع ص ر B015 bağırsak gazı çıkarma / العصار ريح البطن**
+  - ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ
+  - ر ح م B003 döl yatağı / رَحِم الأنثى ← 1:1 ٱلرَّحْمَٰنِ
+  - ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 1:7 أَنْعَمْتَ
