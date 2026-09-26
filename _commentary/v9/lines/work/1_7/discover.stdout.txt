@@ -3,3 +3,11 @@
     W_network_1.md: 53 records
 check: 1 problem(s); kept lines 34 of 58
 N01: lines 'n-rn' should be 3 codes of r/n/-
+  run.py run 1:7 --parallel 10
+    related_7.md: 43 records, 8 problem(s) — ['R-f-ضلل-غير: no record', 'R-f-ضلل-نعم: no record', 'R-f-غير-نعم: no record']
+surah_1.md: 20 records, 0 problem(s)
+usage_1.md: 5 records, 0 problem(s)
+  run.py check 1:7
+    related_7.md ['R-f-ضلل-غير: no record', 'R-f-ضلل-نعم: no record', 'R-f-غير-نعم: no record', 'R-f-صرط-ضلل: no record', 'R-f-ضلل-غير formula family: not an item of this worklist (extra findings use X1, X2 …)']
+surah_1.md []
+usage_1.md []

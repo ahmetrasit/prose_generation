@@ -1,0 +1,1690 @@
+# Package for 1:7
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 أَنْعَمْتَ — 3 roots converge
+Plain sense of أَنْعَمْتَ: iyi yaşam durumu ve başkasına ulaştırılan iyilik (حسن الحال والنعمة); yumuşamak, rahat yaşamak veya rahat yaşatmak (اللين والنعومة ورفاه العيش); daha da artırmak veya ileri dereceye götürmek (زاد وأنعم في الفعل)
+- **L1.1** [judged] ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة — word ٱلضَّآلِّينَ (3 dictionaries); source: الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn); الضالة ما ضل من البهيمة للذكر والأنثى (sihah); الضالة من الإبل التي بمضيعة لا يعرف لها مالك؛ الجميع الضوال (tahdhib)
+  - evidence: Luna (image): The lost one becomes concrete as livestock that could itself be a form of bestowed provision.
+- **L1.2** [judged] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته — word ٱلْمَغْضُوبِ (3 dictionaries); source: غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis;sihah;mufradat)
+  - evidence: Luna (complement): The favored may also be those for whom anger is raised in their defense.
+- **L1.3** [judged] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة — word ٱلْمَغْضُوبِ (2 dictionaries); source: رجل غضاب إذا كان غليظ الجلد؛ رجل غضب إذا كان أحمر غليظا (jamhara)؛ الغضب الأحمر الشديد الحمرة ويقال أحمر غضب (sihah)
+  - evidence: Luna (opposite): The harsh, thick-skinned image presses against the softness and ease of favor.
+- **L1.4** [judged] غ ض ب B007 «somurtkan, huysuz; iri yılan» العبوس والضجر والعظم في وصف الحيوان أو الشخص — word ٱلْمَغْضُوبِ (4 dictionaries); source: الغضوب الحية العظيمة (maqayis)؛ ناقة غضوب عبوس (ayn)؛ امرأة غضوب أي عبوس (sihah)؛ توصف به الحية والناقة الضجور (mufradat)
+  - evidence: Luna (opposite): The scowling, irritable face opposes the ease and well-being of favor.
+- **L1.5** [judged] غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة — word ٱلْمَغْضُوبِ (2 dictionaries); source: الغضبة جلد المسن من الوعول حين يسلخ (ayn)؛ يسمى جلد السلحفاة الغضب؛ الغضبة قطعة من جلد البعير يطوى بعضها على بعض ويجعل شبيها بالدرقة (jamhara)
+  - evidence: Luna (opposite): A hard, folded hide shield stands against the softness and comfort carried by favor.
+- **L1.6** [judged] غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح — word غَيْرِ (3 dictionaries); source: الغِيرة بالكسر: الميرة (sihah)؛ يميرهم وينفعهم (sihah)؛ غارهم الله تعالى بالغيث أي أصلح شأنهم ونفعهم (maqayis)؛ سقاهم (sihah)؛ يصلحون الرحال (sihah)؛ حط عنه رحله وأصلح من شأنه (tahdhib)
+  - evidence: Luna (same): The favor bestowed is heard as provision, watering, and repair that improve a person’s condition.
+- surah ayat these members touch (chain material): 1:4 (ض ل ل B005)
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة — word أَنْعَمْتَ (4 dictionaries); source: النعامي الريح اللينة (maqayis)؛ النعامى ريح الجنوب لأنها أبل الرياح وأرطبها (sihah)؛ من أسماء الجنوب النعامى (tahdhib)؛ النعامى الريح الجنوب الناعمة الهبوب (mufradat) — lex/src-rare: اسماء → بِسْمِ
+- **F2** غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة — word ٱلْمَغْضُوبِ (2 dictionaries); source: رجل غضاب إذا كان غليظ الجلد؛ رجل غضب إذا كان أحمر غليظا (jamhara)؛ الغضب الأحمر الشديد الحمرة ويقال أحمر غضب (sihah) (also L1.3) — img/near: near: و س م B006 وسمة يخضب بورقها ← بِسْمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F3** ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة — word ٱلضَّآلِّينَ (3 dictionaries); source: الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn); الضالة ما ضل من البهيمة للذكر والأنثى (sihah); الضالة من الإبل التي بمضيعة لا يعرف لها مالك؛ الجميع الضوال (tahdhib) (also L1.1) — kw/shared: owner (shared) → رَبِّ || img/near: near: ر ب ب B015 حرف رب وربما ← رَبِّ
+- **F4** غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته — word ٱلْمَغْضُوبِ (3 dictionaries); source: غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis;sihah;mufradat) (also L1.2) — img/near: near: ح م د B002 وجود الشيء محمودا ← ٱلْحَمْدُ || img/near: near: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F5** غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة — word ٱلْمَغْضُوبِ (2 dictionaries); source: الغضبة جلد المسن من الوعول حين يسلخ (ayn)؛ يسمى جلد السلحفاة الغضب؛ الغضبة قطعة من جلد البعير يطوى بعضها على بعض ويجعل شبيها بالدرقة (jamhara) (also L1.5) — img/near: near: ر ب ب B010 ربابة تجمع القداح ← رَبِّ || img/near: near: ع ل م B004 شق ظاهر في الشفة العليا ← ٱلْعَٰلَمِينَ
+- **F6** غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح — word غَيْرِ (3 dictionaries); source: الغِيرة بالكسر: الميرة (sihah)؛ يميرهم وينفعهم (sihah)؛ غارهم الله تعالى بالغيث أي أصلح شأنهم ونفعهم (maqayis)؛ سقاهم (sihah)؛ يصلحون الرحال (sihah)؛ حط عنه رحله وأصلح من شأنه (tahdhib) (also L1.6) — img/near: near: ر ب ب B006 رُبّ خاثر وإصلاح به ← رَبِّ
+- **F7** ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة — word أَنْعَمْتَ (4 dictionaries); source: النعامي الريح اللينة (maqayis)؛ النعامى ريح الجنوب لأنها أبل الرياح وأرطبها (sihah)؛ من أسماء الجنوب النعامى (tahdhib)؛ النعامى الريح الجنوب الناعمة الهبوب (mufradat) (also F1) — img/near: near: ر ب ب B007 لزوم وإقامة ودوام ← رَبِّ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F8** ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة — word ٱلضَّآلِّينَ (3 dictionaries); source: الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn); الضالة ما ضل من البهيمة للذكر والأنثى (sihah); الضالة من الإبل التي بمضيعة لا يعرف لها مالك؛ الجميع الضوال (tahdhib) (also L1.1, F3) — lex/src-rare: مالك → مَٰلِكِ
+- **F9** غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته — word ٱلْمَغْضُوبِ (3 dictionaries); source: غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis;sihah;mufradat) (also L1.2, F4) — img/near: near: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F10** غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة — word ٱلْمَغْضُوبِ (2 dictionaries); source: رجل غضاب إذا كان غليظ الجلد؛ رجل غضب إذا كان أحمر غليظا (jamhara)؛ الغضب الأحمر الشديد الحمرة ويقال أحمر غضب (sihah) (also L1.3, F2) — img/near: near: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F11** غ ض ب B007 «somurtkan, huysuz; iri yılan» العبوس والضجر والعظم في وصف الحيوان أو الشخص — word ٱلْمَغْضُوبِ (4 dictionaries); source: الغضوب الحية العظيمة (maqayis)؛ ناقة غضوب عبوس (ayn)؛ امرأة غضوب أي عبوس (sihah)؛ توصف به الحية والناقة الضجور (mufradat) (also L1.4) — img/near: near: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F12** غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح — word غَيْرِ (3 dictionaries); source: الغِيرة بالكسر: الميرة (sihah)؛ يميرهم وينفعهم (sihah)؛ غارهم الله تعالى بالغيث أي أصلح شأنهم ونفعهم (maqayis)؛ سقاهم (sihah)؛ يصلحون الرحال (sihah)؛ حط عنه رحله وأصلح من شأنه (tahdhib) (also L1.6, F6) — img/near: near: م ل ك B007 الماء مَلَك الأمر ← مَٰلِكِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F13** ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة — word ٱلضَّآلِّينَ (3 dictionaries); source: الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn); الضالة ما ضل من البهيمة للذكر والأنثى (sihah); الضالة من الإبل التي بمضيعة لا يعرف لها مالك؛ الجميع الضوال (tahdhib) (also L1.1, F3, F8) — img/near: near: ع و ن B002 العَوان بين السنين ← نَسْتَعِينُ
+- **F14** غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته — word ٱلْمَغْضُوبِ (3 dictionaries); source: غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis;sihah;mufradat) (also L1.2, F4, F9) — kw/shared: solidarity (shared) → نَسْتَعِينُ
+- **F15** غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة — word ٱلْمَغْضُوبِ (2 dictionaries); source: رجل غضاب إذا كان غليظ الجلد؛ رجل غضب إذا كان أحمر غليظا (jamhara)؛ الغضب الأحمر الشديد الحمرة ويقال أحمر غضب (sihah) (also L1.3, F2, F10) — img/near: near: ع ب د B008 الأنفة والغضب ← نَعْبُدُ
+- **F16** غ ض ب B007 «somurtkan, huysuz; iri yılan» العبوس والضجر والعظم في وصف الحيوان أو الشخص — word ٱلْمَغْضُوبِ (4 dictionaries); source: الغضوب الحية العظيمة (maqayis)؛ ناقة غضوب عبوس (ayn)؛ امرأة غضوب أي عبوس (sihah)؛ توصف به الحية والناقة الضجور (mufradat) (also L1.4, F11) — img/near: near: ع ب د B007 القوة والصلابة ← نَعْبُدُ || img/near: near: ع و ن B004 النخلة العَوانة القديمة ← نَسْتَعِينُ
+- **F17** غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة — word ٱلْمَغْضُوبِ (2 dictionaries); source: الغضبة جلد المسن من الوعول حين يسلخ (ayn)؛ يسمى جلد السلحفاة الغضب؛ الغضبة قطعة من جلد البعير يطوى بعضها على بعض ويجعل شبيها بالدرقة (jamhara) (also L1.5, F5) — img/near: near: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F18** ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة — word أَنْعَمْتَ (4 dictionaries); source: النعامي الريح اللينة (maqayis)؛ النعامى ريح الجنوب لأنها أبل الرياح وأرطبها (sihah)؛ من أسماء الجنوب النعامى (tahdhib)؛ النعامى الريح الجنوب الناعمة الهبوب (mufradat) (also F1, F7) — img/near: near: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F19** ص ر ط B001 «yol, özellikle düz yol» الطريق المستقيم — word صِرَٰطَ (3 dictionaries); source: الصراط والسراط والزراط: الطريق (sihah)؛ الصراط: الطريق المستقيم؛ ويقال له سراط (mufradat)؛ صرط من باب الإبدال وقد ذكر في السين وهو الطريق (maqayis 2074)؛ بعض أهل العلم يقول السراط مشتق من ذلك لأن الذاهب فيه يغيب (maqayi… — lex/image: مستقيم → ٱلْمُسْتَقِيمَ
+- **F20** غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح — word غَيْرِ (3 dictionaries); source: الغِيرة بالكسر: الميرة (sihah)؛ يميرهم وينفعهم (sihah)؛ غارهم الله تعالى بالغيث أي أصلح شأنهم ونفعهم (maqayis)؛ سقاهم (sihah)؛ يصلحون الرحال (sihah)؛ حط عنه رحله وأصلح من شأنه (tahdhib) (also L1.6, F6, F12) — img/near: near: ق و م B004 رعاية وحفظ وولاية ← ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F21** ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة — word ٱلضَّآلِّينَ (3 dictionaries); source: الضالة من الإبل ما يبقى بمضيعة لا يعرف ربها الذكر والأنثى فيه سواء (ayn); الضالة ما ضل من البهيمة للذكر والأنثى (sihah); الضالة من الإبل التي بمضيعة لا يعرف لها مالك؛ الجميع الضوال (tahdhib) (also L1.1, F3, F8, F13) — img/fatiha: fatiha: ن ع م B005 مال الأنعام والإبل ← أَنْعَمْتَ || img/fatiha: fatiha: غ ض ب B003 المراغمة والمخالفة ← ٱلْمَغْضُوبِ || img/fatiha: fatiha: ص ر ط B002 الغيبة في المرور والبلع ← صِرَٰطَ
+- **F22** غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته — word ٱلْمَغْضُوبِ (3 dictionaries); source: غضبت لفلان إذا كان حيا وغضبت به إذا كان ميتا (maqayis;sihah;mufradat) (also L1.2, F4, F9, F14) — img/fatiha: fatiha: ن ع م B011 موافقة المكان وطيب المقام ← أَنْعَمْتَ || img/fatiha: fatiha: غ ي ر B005 السوى والخلاف والاستثناء والنفي ← غَيْرِ || img/fatiha: fatiha: ض ل ل B002 الغيبوبة والخفاء ← ٱلضَّآلِّينَ
+- **F23** غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة — word ٱلْمَغْضُوبِ (2 dictionaries); source: رجل غضاب إذا كان غليظ الجلد؛ رجل غضب إذا كان أحمر غليظا (jamhara)؛ الغضب الأحمر الشديد الحمرة ويقال أحمر غضب (sihah) (also L1.3, F2, F10, F15) — img/fatiha: fatiha: غ ي ر B004 الغَيْرة على الأهل ← غَيْرِ || img/fatiha: fatiha: ن ع م B002 اللين والنعومة ورفاه العيش ← أَنْعَمْتَ || img/fatiha: fatiha: ض ل ل B001 الضلال عن الهدى والقصد ← ٱلضَّآلِّينَ
+- **F24** غ ض ب B007 «somurtkan, huysuz; iri yılan» العبوس والضجر والعظم في وصف الحيوان أو الشخص — word ٱلْمَغْضُوبِ (4 dictionaries); source: الغضوب الحية العظيمة (maqayis)؛ ناقة غضوب عبوس (ayn)؛ امرأة غضوب أي عبوس (sihah)؛ توصف به الحية والناقة الضجور (mufradat) (also L1.4, F11, F16) — img/fatiha: fatiha: غ ي ر B004 الغَيْرة على الأهل ← غَيْرِ || img/fatiha: fatiha: ن ع م B006 النعام والنعامة الطائر ← أَنْعَمْتَ || img/fatiha: fatiha: ض ل ل B005 الضالّة في المضيعة ← ٱلضَّآلِّينَ
+- **F25** غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة — word ٱلْمَغْضُوبِ (2 dictionaries); source: الغضبة جلد المسن من الوعول حين يسلخ (ayn)؛ يسمى جلد السلحفاة الغضب؛ الغضبة قطعة من جلد البعير يطوى بعضها على بعض ويجعل شبيها بالدرقة (jamhara) (also L1.5, F5, F17) — img/fatiha: fatiha: ن ع م B007 ما سمي نعامة تشبيها بالهيئة ← أَنْعَمْتَ || img/fatiha: fatiha: ص ر ط B001 الطريق المستقيم ← صِرَٰطَ || img/fatiha: fatiha: ض ل ل B005 الضالّة في المضيعة ← ٱلضَّآلِّينَ
+- **F26** غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح — word غَيْرِ (3 dictionaries); source: الغِيرة بالكسر: الميرة (sihah)؛ يميرهم وينفعهم (sihah)؛ غارهم الله تعالى بالغيث أي أصلح شأنهم ونفعهم (maqayis)؛ سقاهم (sihah)؛ يصلحون الرحال (sihah)؛ حط عنه رحله وأصلح من شأنه (tahdhib) (also L1.6, F6, F12, F20) — kw/shared: improvement (shared) → غَيْرِ || kw/shared: restoration (shared) → غَيْرِ || img/fatiha: fatiha: ن ع م B001 حسن الحال والنعمة ← أَنْعَمْتَ || img/fatiha: fatiha: ض ل ل B002 الغيبوبة والخفاء ← ٱلضَّآلِّينَ || img/fatiha: fatiha: غ ض ب B001 اشتداد السخط وثورانه للانتقام ← ٱلْمَغْضُوبِ
+
+### 5. Triangles [T]
+
+
+### 6. Bridges (touch two hubs) [J]
+
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** word note: 1:7:1 صِرَٰطَ: the same requested path from 1:6, now locally specified as the route of a favored community and bounded by exclusions rather than introduced as a new sentence — topics: cross-ayah appositive path specification; roadway and engulfing pressure within the path sense; path cooccurs with …
+- **G2** word note: 1:7:2 ٱلَّذِينَ: definite masculine plural relative pronoun in a genitive construct chain, identifying the path through a group defined by the favor clause that follows — topics: relative pronoun defines the path's people by a clause; received plural keeps a recognizable collective; elided-onset va…
+- **G3** word note: 1:7:3 أَنْعَمْتَ: completed second-person divine bestowal of favor onto the group, with the favor-object compressed and the recipient expressed through the following upon-them phrase — topics: perfect verb sustains direct divine address; favor-object omitted into the upon-them frame; causative form…
+- **G4** word note: 1:7:4 عَلَيْهِمْ: upon-them prepositional complement marking the recipients as the locus of divine favor in the relative clause — topics: upon-them marks recipient locus of favor; upon-direction becomes benefactive in the favor frame; first endpoint prepares the opposite-valence mirror; recipient s…
+- **G5** word note: 1:7:5 غَيْرِ: genitive exceptive boundary marker embedded in the path chain, excluding the following negative classes while allowing the exclusion to qualify either the people or the path relation — topics: genitive case embeds exclusion with live attachment options; alterity selected with affectiv…
+- **G6** word note: 1:7:6 ٱلْمَغْضُوبِ: definite passive participle naming the wrath-incurred class, with the affected recipients foregrounded and the wrath agent left unspoken — topics: definite passive participle foregrounds affected class; heated rising root pressure colors wrath receipt; recurrent formula appears …
+- **G7** word note: 1:7:7 عَلَيْهِمْ: second upon-them complement, completing the passive wrath construction by marking the target on whom wrath is directed — topics: second suffix completes the passive wrath target; same upon-form carries adversarial valence here; repeated endpoint audibly binds blessing and wrath
+- **G8** word note: 1:7:8 وَ: coordinating conjunction that carries the second excluded class under the same restrictive frame rather than starting a new narrative unit — topics: conjunction coordinates the second negative class; coordination and negation arrive as one unit
+- **G9** word note: 1:7:9 لَا: negative particle that carries the prior exclusion across coordination to the final class and keeps that class outside the requested path — topics: negation extends the exclusion to the final class; negation blocks false equivalence with the favored route; canonical particle avoids symme…
+- **G10** word note: 1:7:10 ٱلضَّآلِّينَ: definite genitive masculine plural active participle naming the astray as the final excluded class, with straying left absolute rather than tied to an explicit complement — topics: omitted complement makes straying absolute; genitive active participle remains governed by exclus…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+7 readings and open observations, 1 notes, 1 misreadings rejected; other items with nothing to add: 0.
+
+- **L01** [reading; support strong, relevance high] word 1: صِرَٰطَ — lemma صِرَٰط, root ص ر ط, pos N
+  - finding: The repeated noun `صِرَٰطَ` carries the object of `ٱهْدِنَا` from 1:6 into a specification: the requested path is identified through the people and boundaries named in 1:7.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The same path noun opens 1:7 immediately after the guidance petition, without a new finite verb.
+  - limits: The supplied sīn and ṣād-with-zāy-color variants do not change the path reference; sound alone does not establish a link to `sabīl`. The root list's swallowing or pass-through sense could add an image of a route that carries its entrant, but these ayat give no intake or disappearance cue; a dictionary link specific to the noun `صِرَٰط` would be needed to develop it.
+- **L02** [reading; support strong, relevance high] word 2: ٱلَّذِينَ — lemma ٱلَّذِى, root —, pos REL
+  - finding: `ٱلَّذِينَ` makes the path one associated with a community, then `أَنْعَمْتَ عَلَيْهِمْ` identifies that community through what God did for them. The requested guidance is thus framed through a people marked by divine favor, not just an abstract route.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The relative pronoun opens a clause that defines the plural group by the favor clause.
+  - limits: The verse gives no names or further identity for this group.
+- **L03** [reading; support strong, relevance high] word 3: أَنْعَمْتَ — lemma أَنْعَمَ, root ن ع م, pos V;PRON
+  - finding: `أَنْعَمْتَ` keeps God as the directly addressed agent and uses a perfect verb after the imperative `ٱهْدِنَا`: the speakers ask for guidance by recalling favor already bestowed.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The petition in 1:6 is followed by a second-person perfect verb in 1:7, continuing direct address while identifying the path's people.
+  - limits: The form does not date the act or name the favor. The phrase does not establish that a separate direct-object noun has been omitted.
+- **L05** [reading; support strong, relevance high] word 5: غَيْرِ — lemma غَيْر, root غ ي ر, pos N
+  - finding: The single `غَيْرِ` turns the favored-path description into a boundary: the wrath-incurred and astray classes fall outside the requested path's specification.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The exclusion noun follows the favor clause inside the same path description and governs the two following classes.
+  - limits: Its genitive form embeds the exclusion in this description, but does not by itself settle whether its syntactic attachment is to the favored people or to the path relation. The local wording establishes exclusion, not a separate emotional sense of alterity or change.
+- **L06** [reading; support strong, relevance high] word 6: ٱلْمَغْضُوبِ — lemma مَغْضُوب, root غ ض ب, pos DET;N
+  - finding: `ٱلْمَغْضُوبِ عَلَيْهِمْ` defines the first excluded class by a condition received: the passive participle foregrounds those acted upon and leaves the wrath's agent unspoken.
+  - evidence: 1:7 «ٱلْمَغْضُوبِ عَلَيْهِمْ»
+  - activation: The passive participle is followed by `عَلَيْهِمْ`, naming the class as the target of wrath.
+  - limits: The verse does not name the agent or identify this class with a particular historical group. The root's heat imagery is not independently established by this construction.
+- **L07** [reading; support strong, relevance high] word 7: عَلَيْهِمْ — lemma عَلَىٰ, root —, pos P;PRON
+  - finding: The two `عَلَيْهِمْ` phrases keep the same relational form while reversing its effect: favor rests upon one group, while wrath is directed upon the other. The preposition itself does not carry the reversal; the surrounding predicates do.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»
+  - activation: The exact pronoun phrase recurs after a favor verb and after a passive participle of wrath.
+  - limits: The parallel binds the clauses formally but does not make their groups or conditions equivalent.
+- **L08** [reading; support strong, relevance high] word 8: وَلَا — lemma لَا, root —, pos CONJ;NEG
+  - finding: `وَلَا` brings the astray class under the exclusion already opened by `غَيْرِ`, without repeating that noun. The two exclusions share one boundary but retain distinct descriptions.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The conjunction and negative particle introduce the second class immediately after the first excluded class.
+  - limits: Shared coordination does not make wrath-reception and straying the same condition.
+
+Notes:
+- L04 [support strong, relevance low] In `أَنْعَمْتَ عَلَيْهِمْ`, the prepositional phrase puts the named group at the receiving end of the favor, while God remains the verb's subject.
+
+Rejected as misreadings:
+- L09: wrong 
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+5 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-صرط** [reading; support strong, relevance high] root ص ر ط (focus word صِرَٰطَ: صِرَٰط N) — 45 occurrences in 45 ayat; same form 45, other forms 0
+  - finding: In 1:7, صِرَٰطَ repeats the requested object صِرَٰطَ from 1:6, then identifies the route through people and exclusions rather than merely restating that it is straight.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The immediate repetition carries the request for guidance into a description of the people whose path is sought and the classes excluded from it.
+  - limits: The inventory reports 45 occurrences, all the same noun form, but gives no other ayat; this pair cannot establish the root’s broader Quranic settings.
+- **U-نعم** [reading; support strong, relevance high] root ن ع م (focus word أَنْعَمْتَ: أَنْعَمَ V form IV) — 136 occurrences in 128 ayat; same form 17, other forms 119
+  - finding: The near-formula in 4:69 identifies a company of those God favored as prophets, truthful, witnesses, and righteous. Other uses connect bestowed favor with remembering it and fulfilling a covenant (2:40), and with communal conduct that can change the favor (8:53). Thus الذين أنعمت عليهم can evoke an exemplary, accountable community, while the focus leaves its identity open.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 4:69 «فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ»; 2:40 «ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ»; 8:53 «إِنَّ ٱللَّهَ لَمْ يَكُ مُغَيِّرًۭا نِّعْمَةً أَنْعَمَهَا عَلَىٰ قَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ»
+  - activation: The relative clause defines the path’s people by divine favor, and its plural recipients invite comparison with Quranic descriptions of favored communities.
+  - limits: These passages use different grammatical persons and do not identify the Fatiha’s people or say that its excluded groups changed from this favored class; that application remains an inference.
+- **U-غضب** [reading; support strong, relevance high] root غ ض ب (focus word ٱلْمَغْضُوبِ: مَغْضُوب N) — 22 occurrences in 21 ayat; same form 1, other forms 21
+  - finding: The passive ٱلْمَغْضُوبِ عَلَيْهِمْ leaves the agent unexpressed, but active clauses with the same root and عَلَى explicitly name Allah as the subject (4:93; 48:6). This supports hearing the focus as recipients of divine wrath, while its passive form keeps attention on them.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»; 4:93 «وَغَضِبَ ٱللَّهُ عَلَيْهِ»; 48:6 «وَغَضِبَ ٱللَّهُ عَلَيْهِمْ»; 42:37 «وَإِذَا مَا غَضِبُوا۟ هُمْ يَغْفِرُونَ»
+  - activation: The focus repeats عَلَيْهِمْ in the favor and wrath clauses within a prayer addressed to God, matching the target relation in the active parallels.
+  - limits: The parallel clauses name Allah explicitly while the focus does not, and they do not identify the focus’s group with the people in those passages. The root also describes human anger, as in 42:37.
+- **U-ضلل** [open; support strong, relevance high] root ض ل ل (focus word ٱلضَّآلِّينَ: ضَآلّ N) — 187 occurrences in 170 ayat; same form 11, other forms 176
+  - finding: The same plural participle appears in a before-guidance frame at 2:198 and for people who disbelieved after faith and increased in disbelief at 3:90. In 1:7, the active participle ٱلضَّآلِّينَ follows the passive ٱلْمَغْضُوبِ, inviting a contrast between straying and being acted upon; the grammar does not establish intentionality or nonoverlapping groups.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 2:198 «وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ»; 3:90 «إِنَّ ٱلَّذِينَ كَفَرُوا۟ بَعْدَ إِيمَٰنِهِمْ ثُمَّ ٱزْدَادُوا۟ كُفْرًۭا لَّن تُقْبَلَ تَوْبَتُهُمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلضَّآلُّونَ»
+  - missing: A passage explaining how the two excluded expressions relate, or a parallel that ties this particular use of ٱلضَّآلِّينَ to deliberate choice. These occurrences show a range of settings but do not decide which sense applies here or whether the groups overlap.
+- **U-غير** [open; support medium, relevance high] root غ ي ر (focus word غَيْرِ: غَيْر N) — 152 occurrences in 146 ayat; same form 143, other forms 9
+  - finding: In 1:7, غَيْرِ marks an exclusion beside the clause of divine favor. In 8:53, other forms of the same root describe God not changing a bestowed favor until a people change what is within themselves. The shared root and favor vocabulary raise a possible dynamic reading: the boundary may relate to changing communal states, rather than fixed identities.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 8:53 «إِنَّ ٱللَّهَ لَمْ يَكُ مُغَيِّرًۭا نِّعْمَةً أَنْعَمَهَا عَلَىٰ قَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ»
+  - missing: A lexical source establishing the semantic bridge between غَيْر as an exception and the root’s change forms, plus a passage linking these excluded classes to a change of status. The shared root in 8:53 does not make focus-word غَيْر mean “change.”
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+18 readings and open observations, 1 notes, 0 misreadings rejected; other items with nothing to add: {'same-as': 1}.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The passage moves from praise and divine attributes to the plural petition “guide us,” then specifies that request as a path associated with people marked by favor and two exclusions.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The shift from descriptions of God to first-person plural worship and petition leads directly into the path’s human specification.
+  - limits: The sequence does not identify the groups historically or explain why each is favored, angered, or astray.
+- **S-صرط** [reading; support strong, relevance high] root ص ر ط elsewhere in the surah (1)
+  - finding: The repeated صِرَٰطَ binds 1:7 to the request in 1:6: the route first called ٱلْمُسْتَقِيمَ is then identified through its people and exclusions, shifting its description from a quality to a human relation.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The same path noun recurs immediately across the ayah boundary, with the second occurrence elaborating the first.
+  - limits: The repeated noun establishes continuity and specification; by itself it does not show that the named people maintain or transmit the route.
+- **S-hft-base_embodied_route** [reading; support strong, relevance high] (baseline_model)
+  - finding: The road is specified by a human group: divine favor marks the people whose path is requested, so the route can be heard as a way of life embodied in recipients.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The construct صِرَٰطَ ٱلَّذِينَ directly defines the path through people, and أَنْعَمْتَ عَلَيْهِمْ gives their defining relation to God.
+  - limits: The wording identifies the group by favor but does not describe its members’ lived conduct or say that opposition and straying are departures from their trajectory.
+- **S-hft-base_agency_gradient** [reading; support strong, relevance high] (baseline_model)
+  - finding: The three descriptions distribute grammatical agency differently: أَنْعَمْتَ is an explicit divine act, ٱلْمَغْضُوبِ is passive and leaves its agent unstated, and ٱلضَّآلِّينَ names active strayers. The path’s contrast therefore includes who acts and who bears an action.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 1:7 «ٱلْمَغْضُوبِ عَلَيْهِمْ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - activation: The active verb, passive participle, and active participle occur in one coordinated path description.
+  - limits: The forms distinguish grammatical roles but do not alone establish mutual opposition, moral blame, or the identity of the agent behind ٱلْمَغْضُوبِ.
+- **S-hft-ctx_mercy_bounded_wrath** [reading; support strong, relevance high] (context_delta)
+  - finding: The twice-repeated mercy epithets frame a later contrast in which favor names the positive group and ٱلْمَغْضُوبِ names one excluded class; this makes wrath a marked contrast within the surah’s mercy-first presentation.
+  - evidence: 1:1 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»
+  - activation: The mercy titles are repeated before the prayer, and the focus places benefaction next to an excluded angered class.
+  - limits: This ordering establishes prominence, not that wrath is temporary, caused by resistance to mercy, or bounded in duration.
+- **S-hft-ctx_enacted_road** [reading; support strong, relevance high] (context_delta)
+  - finding: The surah places the path request after “we worship” and “we seek help,” so the route can be heard in the setting of communal practice and dependence on aid, not as direction detached from worship.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ»
+  - activation: The plural worship and help clauses immediately precede a plural request for guidance into the path of a people.
+  - limits: The sequence supports practice as context but does not say worship literally constructs, levels, or wears down a road.
+- **S-hft-ctx_communal_infrastructure** [reading; support strong, relevance high] (context_delta)
+  - finding: Straight guidance is framed communally: the worshippers say “us,” then ask for the path of a plural group, while the excluded classes are plural as well.
+  - evidence: 1:5 «نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: Plural forms govern the petition and the people whose path is requested.
+  - limits: The plural framing does not establish that the community repairs, supplies, or maintains the route as infrastructure.
+- **S-hft-base_decisive_partition** [open; support medium, relevance high] (baseline_model)
+  - finding: The day of recompense in 1:4 could place the path’s divisions under an eventual settlement: favor, being angered, and straying may name distinct outcomes.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: The surah supplies the recompense horizon and the contrasted groups, but no explicit link makes the latter legal claims or unsettled losses; lexical evidence for the proposed cutting and compensation senses, or another passage connecting these categories to reckoning, could decide the link.
+- **S-hft-ctx_accountable_partition** [open; support medium, relevance high] (context_delta)
+  - finding: Because 1:4 names the day of recompense before the request for guidance, the divisions in 1:7 could be heard as trajectories with different standing at a future reckoning.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: No wording in 1:7 explicitly ties these groups to settlement or assigns them legal outcomes. A Quranic parallel making that connection, or lexical evidence for the proposed partition and compensation senses, could decide it.
+- **S-hft-ctx_path_as_transmitted_gift** [open; support medium, relevance high] (context_delta)
+  - finding: The request for guidance in 1:6 is followed by people who have received divine favor in 1:7, allowing the favored people to be imagined as relays through whom the route reaches later petitioners.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: The adjacency supports a relation between guidance and beneficiaries, but no human-to-human transmission is stated. A passage where favored people carry guidance onward, or lexical evidence that connects these forms to transmission, could supply that link.
+- **S-hft-base_successful_and_failed_disappearance** [open; support weak, relevance high] (baseline_model)
+  - finding: The proposed contrast treats passage on the favored road as successful disappearance and straying as loss without destination, but Surah 1 itself names neither disappearance nor concealment.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: Dictionary evidence for the proposed swallowing, softness, hardness, and hiddenness senses, plus Quranic passages that use them to contrast successful transit with lost direction, could support this reading.
+- **S-hft-ctx_cultivated_completion** [open; support weak, relevance high] (context_delta)
+  - finding: The proposed reading makes favor a sustained process of repair, nourishment, and growth toward completion, but Surah 1 does not explicitly narrate such stages.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: Dictionary support for the proposed developmental senses of the roots in 1:2 and for ongoing advancement in أَنْعَمْتَ, along with textual cues linking those senses as stages, could establish this curriculum reading.
+- **S-hft-ctx_growth_with_measure** [open; support weak, relevance high] (context_delta)
+  - finding: The proposal reads favor as growth that must remain calibrated by straightness, but the surah states neither a process of increase nor repeated correction.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: Dictionary evidence for the proposed increase and measure senses, plus a Quranic passage connecting favor-driven growth to correction toward straightness, could support this dynamic reading.
+- **S-hft-out_hydrological_way** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: A watercourse analogy could connect the route, benefaction, exclusion, and straying, but Surah 1 contains no explicit water or flow scene.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: Attested dictionary senses for the proposed water, moisture, rock, and disappearance associations, together with Quranic passages that join these terms in a watercourse scene, could make the analogy evidential.
+- **S-hft-out_gestational_passage** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The proposal hears a hidden gestational interval in the favored path and contrasts it with hiddenness that never emerges, but Surah 1 names neither womb nor birth.
+  - evidence: 1:1 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: The mercy wording and favored path alone do not establish gestation. Lexical evidence linking the mercy terms to womb imagery and Quranic parallels joining enclosure, passage, and emergence could supply the missing support.
+- **S-hft-out_watchful_eye_states** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The proposed visual contrast among delighted sight, burdened sight, and disappearance is not expressed in Surah 1, which has no explicit eye or seeing vocabulary.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: Dictionary evidence for the proposed eye-related senses of favor, anger, and straying, or a Quranic passage that uses these roots in a visual scene, could establish the connection.
+- **S-hft-out_fracture_and_standing** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The straight path in 1:6 followed by the path contrast in 1:7 could be reread as a breaking test and a capacity to stand, but Surah 1 describes no fracture or ordeal.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ»
+  - missing: Attested senses connecting guidance and the path to demolition or cutting, anger to hardened obstruction, and uprightness to standing through an ordeal, plus a Quranic scene combining them, could supply the missing support.
+- **S-hft-ctx_marked_route** [open; support weak, relevance medium] (context_delta)
+  - finding: The opening invocation names God, while 1:7 identifies the path’s people by divine favor; this permits a proposal that the favored condition functions as a recognizable mark of the route.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: Surah 1 does not describe a visible sign or trail mark. Lexical evidence for the proposed sign sense of the opening name, or a Quranic parallel where favor visibly marks a route, could establish the connection.
+
+Notes:
+- S-hft-ctx_mercy_affiliation [support strong, relevance medium] The repeated al-Raḥmān/al-Raḥīm descriptions precede the group favored in 1:7, giving that group’s path a mercy-framed context.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+213 readings and open observations, 49 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 27, 'same-as': 8}.
+
+- **R-1:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The worshippers ask for guidance after declaring worship and dependence, then describe the path by God’s favor toward others: the petition states their devotion, but names divine favor as the path’s defining feature.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The shift from the first-person plural in 1:5 to “those You favored” in 1:7.
+  - limits: The sequence does not deny the value of worship or establish whether the petitioners already belong to the favored group.
+- **R-1:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated صِرَاطَ in 1:7 specifies the path requested in 1:6: it is the way of a favored people, bounded by two excluded classes.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The second صراط follows the request without a new finite verb and elaborates its object.
+  - limits: The specification does not name the people or claim the listed classes exhaust every possible route.
+- **R-2:40** [reading; support strong, relevance high] inter-ayah target
+  - finding: A divine reminder of the same bestowal verb is immediately joined to a covenant command: favor appears as a relation that calls for a response.
+  - evidence: 2:40 «ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ»
+  - activation: The focus also describes its people through the divine act أَنْعَمْتَ عَلَيْهِمْ.
+  - limits: The covenant is explicit in 2:40 but absent from the focus; the passages do not identify their recipients as the same people.
+- **R-2:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse joins wrath to envy of God’s decision to give favor to whom He wills. It permits a reading in which resistance to the distribution of divine favor is one route into the wrath category.
+  - evidence: 2:90 «بَغْيًا أَن يُنَزِّلَ ٱللَّهُ مِن فَضْلِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ فَبَآءُو بِغَضَبٍ عَلَىٰ غَضَبٍۢ»
+  - activation: The focus places أَنْعَمْتَ عَلَيْهِمْ beside ٱلْمَغْضُوبِ عَلَيْهِمْ.
+  - limits: This explains one group’s conduct in its own passage, not the identity or complete cause of the focus’s wrath class.
+- **R-2:108** [reading; support strong, relevance high] inter-ayah target
+  - finding: A person who exchanges disbelief for faith is said to have strayed from the middle of the path. This links deviation to a turn away from the path after a choice between opposed commitments.
+  - evidence: 2:108 «وَمَن يَتَبَدَّلِ ٱلْكُفْرَ بِٱلْإِيمَٰنِ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ»
+  - activation: The focus couples the path with ٱلضَّآلِّينَ, while 2:108 places a form of the same root beside السَّبِيل.
+  - limits: The focus does not specify disbelief, a prior profession of faith, or the exchange described here.
+- **R-2:198** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same definite plural participle ٱلضَّآلِّينَ describes the addressees’ former state before God guided them. Thus the Quranic label can describe a condition that guidance changes, not necessarily a permanent identity.
+  - evidence: 2:198 «وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ»
+  - activation: The focus uses the same form for its final excluded class; this verse explicitly contrasts prior straying with subsequent guidance.
+  - limits: The Hajj context does not establish that its former straying has the same scope or cause as the focus’s category.
+- **R-3:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: Jesus identifies the straight path with worship of the one who is Lord of both him and his hearers. This offers a prophetic example of a path defined by shared worship and divine lordship.
+  - evidence: 3:51 «إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The focus specifies a path by the people favored by God after its immediate context has declared exclusive worship and dependence.
+  - limits: The verse does not say that Jesus’s audience exhausts the focus’s favored group.
+- **R-3:100** [reading; support strong, relevance high] inter-ayah target
+  - finding: The warning that following a faction could turn believers into disbelievers is followed by the assurance that holding fast to God leads to a straight path. The passage presents route fidelity as vulnerable to social pressure and sustained by attachment to God.
+  - evidence: 3:100 «إِن تُطِيعُوا۟ فَرِيقًۭا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ يَرُدُّوكُم بَعْدَ إِيمَٰنِكُمْ كَٰفِرِينَ»; 3:101 «وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus asks for a path and names people who do not belong to it.
+  - limits: The warnings do not identify the faction with the focus’s excluded classes.
+- **R-3:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: The report of incurring divine wrath is tied to named acts, and the next verse says the People of the Book are not all alike. Together these verses make a conduct-based wrath parallel while resisting a blanket identification of an entire community with the focus’s class.
+  - evidence: 3:112 «وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ»; 3:112 «ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ»; 3:113 «لَيْسُوا۟ سَوَآءًۭ ۗ مِّنْ أَهْلِ ٱلْكِتَٰبِ أُمَّةٌۭ قَآئِمَةٌۭ»
+  - activation: The focus uses a plural passive label for wrath’s recipients without naming them.
+  - limits: The wording and historical scene differ; these verses do not specify that the people in 1:7 are the same group.
+- **R-4:60** [reading; support strong, relevance high] inter-ayah target
+  - finding: People seek judgment from the ṭāghūt, and Satan wants to make them stray far. The passage presents straying as something an external agent seeks to induce through a chosen direction of appeal.
+  - evidence: 4:60 «يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّٰغُوتِ»; 4:60 «وَيُرِيدُ ٱلشَّيْطَٰنُ أَن يُضِلَّهُمْ ضَلَٰلًۢا بَعِيدًۭا»
+  - activation: The focus names those astray but leaves their cause and any agent unstated.
+  - limits: The focus does not equate its excluded group with the people in this dispute or say Satan causes every instance of straying.
+- **R-4:68** [reading; support strong, relevance high] inter-ayah target
+  - finding: A straight path is followed immediately by a description of obedience leading into the company of those God favored. This sequence lets the focus’s path of the favored be heard as a way of joining their company through obedience.
+  - evidence: 4:68 «وَلَهَدَيْنَٰهُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا»; 4:69 «فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم»
+  - activation: The focus also joins صراط with the people God favored.
+  - limits: The sequence does not state that 1:7 refers exclusively to the ranks named in 4:69.
+- **R-4:69** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase أَنْعَمَ ٱللَّهُ عَلَيْهِم is followed by four named ranks: prophets, the truthful, martyrs, and the righteous. These provide a concrete Quranic company that can exemplify the focus’s unnamed favored people.
+  - evidence: 4:69 «مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The two verses share the favor verb and the upon-them construction.
+  - limits: The focus does not list these ranks or say they are the complete extent of its favored group.
+- **R-4:93** [reading; support strong, relevance high] inter-ayah target
+  - finding: A deliberate killer is described with God as the agent of anger, alongside curse and punishment. This makes the focus’s passive wrath label compatible with an account of accountable conduct while leaving its cause unstated.
+  - evidence: 4:93 «وَمَن يَقْتُلْ مُؤْمِنًۭا مُّتَعَمِّدًۭا فَجَزَآؤُهُۥ جَهَنَّمُ خَٰلِدًۭا فِيهَا وَغَضِبَ ٱللَّهُ عَلَيْهِ وَلَعَنَهُۥ»
+  - activation: Both passages connect wrath with an عَلَيْهِ recipient construction; 4:93 explicitly names the agent.
+  - limits: The singular case in 4:93 does not define the focus’s plural category or establish that its members share this offense.
+- **R-4:115** [reading; support strong, relevance high] inter-ayah target
+  - finding: Another passage pairs following غير سبيل المؤمنين after guidance has become clear with a disastrous destination. Its compact “other than the believers’ path” construction gives a close Quranic parallel for the focus’s boundary marked by غَيْرِ.
+  - evidence: 4:115 «مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ»
+  - activation: The focus uses غَيْرِ to mark a boundary around the requested صراط.
+  - limits: The construction and referent differ; 1:7 does not name the believers’ path or describe the same consequence.
+- **R-4:116** [reading; support strong, relevance high] inter-ayah target
+  - finding: Associating partners is explicitly described as straying far. This supplies one Quranic instance of conduct named as a form of deviation, expressed with the focus’s root in a verb and an emphatic verbal noun.
+  - evidence: 4:116 «وَمَن يُشْرِكْ بِٱللَّهِ فَقَدْ ضَلَّ ضَلَٰلًۢا بَعِيدًا»
+  - activation: The focus closes with the active participle ٱلضَّآلِّينَ and does not specify a cause.
+  - limits: The verse gives an instance, not a complete definition of the focus’s category; its verbal forms differ from the participle.
+- **R-4:119** [reading; support strong, relevance high] inter-ayah target
+  - finding: Satan’s stated plan links misguidance with promises and commands that people then follow. The passage offers a mechanism for straying as an induced course of conduct, not simply a mistaken turn.
+  - evidence: 4:119 «وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ»; 4:119 «وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّۭا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًۭا مُّبِينًۭا»
+  - activation: The focus names the astray without stating what leads them there.
+  - limits: The focus does not mention Satan or say this mechanism accounts for every person it excludes.
+- **R-4:136** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's `الضالين` can be heard against rejection of core disclosures: 4:136 says that whoever disbelieves in God, His angels, books, messengers, and the Last Day has `ضل ضلالا بعيدا`.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 4:136 «فَقَدْ ضَلَّ ضَلَٰلًۢا بَعِيدًا»
+  - activation: The shared root ض ل ل links the focus's named class to a verse that specifies a path into far-reaching error.
+  - limits: The wording does not identify the focus's whole class with every person described in 4:136.
+- **R-4:167** [reading; support strong, relevance high] inter-ayah target
+  - finding: The `الضالين` can include people whose deviation reaches others: 4:167 joins disbelief and barring people from `سبيل الله` to having gone far astray.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 4:167 «إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ قَدْ ضَلُّوا۟ ضَلَٰلًۢا بَعِيدًا»
+  - activation: The focus names those who stray; this verse applies the same root to people who obstruct God's way for others.
+  - limits: It gives one Quranic instance of straying, without equating its group with every referent of `الضالين`.
+- **R-4:175** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 4:175, `رحمة` and `فضل` accompany guidance to a `صراط مستقيم`; this lets the focus's `أنعمت عليهم` be heard as divine beneficence within a guided route.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 4:175 «فَسَيُدْخِلُهُمْ فِى رَحْمَةٍۢ مِّنْهُ وَفَضْلٍۢ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا»
+  - activation: The shared `صراط` and explicit `يهديهم` connect the focus's favored route to this description of guidance, mercy, and bounty.
+  - limits: The parallel does not name the groups in 1:7 or say they are the same people addressed in 4:175.
+- **R-5:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase `نعمته عليكم` makes favor a bestowal that calls for a response: 5:6 links purification and completion of God's favor with the hope that recipients will give thanks.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The shared root ن ع م and the repeated `على` recipient frame connect the focus's divine favor to a commanded response.
+  - limits: 5:6 addresses believers in a purification ruling; it does not identify them with the focus's favored or excluded groups.
+- **R-5:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: The `نعمة` in 5:11 is protective: God tells believers to remember it when a people meant to reach them with their hands, but He held those hands back.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 5:11 «ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ»; 5:11 «أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ»
+  - activation: The shared favor root and recipient construction give the focus's bestowal a concrete instance of rescue.
+  - limits: The episode does not call the rescued people a straight path or name the focus's excluded classes.
+- **R-5:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:16 brings guidance, following God's approval, passage from darkness to light, and a `صراط مستقيم` together; it presents the focus's favored route as a response to divine guidance.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 5:16 «يَهْدِى بِهِ ٱللَّهُ مَنِ ٱتَّبَعَ رِضْوَٰنَهُۥ سُبُلَ ٱلسَّلَٰمِ وَيُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِهِۦ وَيَهْدِيهِمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus's `صراط` and favor clause meet a verse that explicitly names guidance to a straight path.
+  - limits: 5:16 does not use the root ن ع م or identify its guided people with the group in 1:7.
+- **R-5:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses names prophets, kingship, and gifts as God's `نعمة` upon his people, then commands them to enter the sacred land and not turn back; the passage makes their route a response to received favor.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 5:20 «ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَعَلَ فِيكُمْ أَنۢبِيَآءَ وَجَعَلَكُم مُّلُوكًۭا»; 5:21 «وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ»
+  - activation: The shared favor language is followed by a command that sets faithful forward movement against turning back.
+  - limits: This gives a historical example of a favored community; it does not restrict the focus's group to Moses's people.
+- **R-5:60** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:60 gathers divine anger and straying from the sound way in one description: those said to incur God's anger are also called `أضل عن سواء السبيل`.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 5:60 «مَن لَّعَنَهُ ٱللَّهُ وَغَضِبَ عَلَيْهِ»; 5:60 «وَأَضَلُّ عَن سَوَآءِ ٱلسَّبِيلِ»
+  - activation: The focus coordinates `المغضوب` and `الضالين`; this ayah likewise places anger and straying from the sound way together.
+  - limits: The wording joins these judgments in this passage but does not make the two focus terms synonymous.
+- **R-5:77** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah gives the `الضالين` a public and consequential dimension: people had strayed, misled many, and strayed from the sound way, after a warning against religious excess and following desires.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 5:77 «لَا تَغْلُوا۟ فِى دِينِكُمْ غَيْرَ ٱلْحَقِّ وَلَا تَتَّبِعُوٓا۟ أَهْوَآءَ قَوْمٍۢ قَدْ ضَلُّوا۟ مِن قَبْلُ وَأَضَلُّوا۟ كَثِيرًۭا وَضَلُّوا۟ عَن سَوَآءِ ٱلسَّبِيلِ»
+  - activation: The same straying root appears with a description of both prior deviation and its spread to others.
+  - limits: 5:77 describes a particular warning to the People of the Book; it does not name all the focus's `الضالين`.
+- **R-5:105** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:105 pairs `من ضل` with `اهتديتم`: one person's straying is set beside the addressees' own guidance, which protects them from being harmed by that person's state.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 5:105 «لَا يَضُرُّكُم مَّن ضَلَّ إِذَا ٱهْتَدَيْتُمْ»
+  - activation: The direct pairing of the roots ض ل ل and ه د ي makes the focus's opposed route categories a distinction that can hold between people in the same setting.
+  - limits: 5:105 does not specify the focus's group or say that a guided person bears no other responsibility toward others.
+- **R-6:77** [reading; support strong, relevance high] inter-ayah target
+  - finding: The petition `اهدنا` in 1:6 finds an individual counterfactual in Abraham: without his Lord's guidance, he says, he would be among `القوم الضالين`.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 6:77 «لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ»
+  - activation: The repeated `الضالين` connects the petition's request for guidance with a named group Abraham asks not to join.
+  - limits: Abraham speaks during his argument about celestial bodies; the verse does not identify his group with every focus referent.
+- **R-6:126** [reading; support strong, relevance high] inter-ayah target
+  - finding: The contrast between God guiding one person and making another stray in 6:125 is followed by `وهذا صراط ربك مستقيما`; the passage locates the straight route within that paired horizon of guidance and straying.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 6:125 «فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلُ صَدْرَهُۥ ضَيِّقًا حَرَجًۭا»; 6:126 «وَهَٰذَا صِرَٰطُ رَبِّكَ مُسْتَقِيمًۭا»
+  - activation: The repeated `صراط` and the immediately preceding guide/lead-astray contrast make the focus's route distinction concrete.
+  - limits: 6:126 does not name the groups from 1:7 or equate them with the two people in 6:125.
+- **R-6:140** [reading; support strong, relevance high] inter-ayah target
+  - finding: 6:140 attaches `قد ضلوا وما كانوا مهتدين` to people who killed their children and forbade what God provided without knowledge; straying here is tied to destructive practice as well as belief.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 6:140 «قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ»
+  - activation: The shared root identifies a concrete ethical practice as one setting in which people are described as astray and unguided.
+  - limits: The verse supplies a particular example rather than a complete definition of `الضالين`.
+- **R-6:153** [reading; support strong, relevance high] inter-ayah target
+  - finding: 6:153 commands following God's straight `صراطي` and warns that plural `السبل` scatter people from His way; it gives the focus's route contrast a communal form in which divided paths produce separation.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 6:153 «وَأَنَّ هَٰذَا صِرَٰطِى مُسْتَقِيمًۭا فَٱتَّبِعُوهُ وَلَا تَتَّبِعُوا۟ ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِۦ»
+  - activation: The same path vocabulary appears with an explicit contrast between a singular straight route and routes that divide its followers.
+  - limits: 6:153 does not label those who follow the plural paths `الضالين`.
+- **R-6:161** [reading; support strong, relevance high] inter-ayah target
+  - finding: 6:161 identifies a straight path with an upright religion and Abraham's `ملة`; it offers one Quranic articulation of the content of the route sought in the focus.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 6:161 «هَدَىٰنِى رَبِّىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ دِينًۭا قِيَمًۭا مِّلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا»
+  - activation: The matching `صراط مستقيم` phrase is explicitly glossed by `دينا قيما` and `ملة إبراهيم حنيفا`.
+  - limits: This description does not identify every recipient of favor or excluded group in 1:7 with Abraham's community.
+- **R-7:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: Iblis says he will sit against people on God's straight path; the route named in the Fatiha is thus presented elsewhere as a place of active obstruction.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 7:16 «لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ»
+  - activation: The exact `الصراط المستقيم` wording meets the focus's distinction between the favored way and the excluded ways.
+  - limits: The verse does not say every person who strays is deceived by Iblis or remove human responsibility.
+- **R-7:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: 7:30 divides people into a guided party and one upon whom error has become due, while the latter think they are guided; this adds mistaken self-assessment to the focus's contrast.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 7:30 «فَرِيقًا هَدَىٰ وَفَرِيقًا حَقَّ عَلَيْهِمُ ٱلضَّلَٰلَةُ»; 7:30 «وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»
+  - activation: The focus names favored and astray groups; 7:30 sets guided and error-bound parties in direct opposition.
+  - limits: The verse does not equate the first party with everyone favored in 1:7 or the second party with the full excluded class.
+- **R-7:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the Noah exchange, opponents say `في ضلال مبين` and Noah replies `ليس بي ضلالة`; the shared root can occur as a disputed accusation, so a speaker's label alone does not establish who inhabits the focus's excluded class.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 7:60 «إِنَّا لَنَرَىٰكَ فِى ضَلَٰلٍۢ مُّبِينٍۢ»; 7:61 «لَيْسَ بِى ضَلَٰلَةٌۭ»
+  - activation: The focus uses a root that this passage places in opposed speech by accuser and messenger.
+  - limits: Noah's denial resolves this exchange, not the identities or criteria for all the groups in 1:7.
+- **R-7:86** [reading; support strong, relevance high] inter-ayah target
+  - finding: Shu'ayb describes people sitting by paths to threaten believers, bar them from God's way, and seek to make it crooked; the focus's excluded route can therefore be heard against deliberate communal obstruction.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 7:86 «وَلَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍۢ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًۭا»
+  - activation: Shared path language meets an explicit scene of threats, obstruction, and attempted distortion.
+  - limits: 7:86 addresses a particular people and does not name them with either focus label.
+- **R-7:150** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the people see that they have strayed, Moses returns `غضبان أسفا`; shortly afterward the calf-takers are named as those who will incur anger from their Lord. The story links straying, prophetic anger, and divine wrath as distinct beats.
+  - evidence: 7:149 «وَرَأَوْا۟ أَنَّهُمْ قَدْ ضَلُّوا۟»; 7:150 «وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًۭا»; 7:152 «سَيَنَالُهُمْ غَضَبٌۭ مِّن رَّبِّهِمْ»
+  - activation: The immediate calf narrative places the same root for anger beside an acknowledged episode of straying.
+  - limits: Moses's anger is his own affect; the text names divine anger separately and does not make the two identical.
+- **R-7:152** [reading; support strong, relevance high] inter-ayah target
+  - finding: 7:152 names those who took the calf as people whom anger from their Lord will reach; the next verse follows with a general clause about sinners who repent and believe finding forgiveness.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»; 7:152 «إِنَّ ٱلَّذِينَ ٱتَّخَذُوا۟ ٱلْعِجْلَ سَيَنَالُهُمْ غَضَبٌۭ مِّن رَّبِّهِمْ»; 7:153 «وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٰٔتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The passive anger class in the focus has a close narrative counterpart in those threatened with their Lord's anger.
+  - limits: 7:153 does not explicitly say that the calf-takers repent; it gives a general return condition rather than an outcome for those specific people.
+- **R-7:178** [reading; support strong, relevance high] inter-ayah target
+  - finding: 7:178 sets God's guiding a person and that person's being rightly guided against God's leading another astray and that person's loss; it makes the focus's route distinction explicitly dependent on guidance.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 7:178 «مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى وَمَن يُضْلِلْ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»
+  - activation: The paired verbs `يهد` and `يضلل` supply a direct counterpart to the focus's favored and astray groups.
+  - limits: The verse does not use the focus's route language or detail why these people are guided or led astray.
+- **R-7:186** [reading; support strong, relevance high] inter-ayah target
+  - finding: 7:186 says that one whom God leads astray has no guide and is left wandering in excess; the focus's request for a path stands against this described absence of guidance.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 7:186 «مَن يُضْلِلِ ٱللَّهُ فَلَا هَادِىَ لَهُۥ وَيَذَرُهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ»
+  - activation: The focus's petition for guidance and exclusion of the straying meet the explicit pairing of being led astray with having no guide.
+  - limits: 7:186 does not explain the conditions of this divine leading astray or identify its people with all the focus's `الضالين`.
+- **related_2.X1** [reading; support strong, relevance high] 
+  - finding: The repeated `صراط` makes 1:7 an immediate specification of the request in 1:6: the straight path is described through its favored bearers and the two excluded classes.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The adjacent ayat repeat `صراط`, with 1:7 continuing directly after the petition in 1:6.
+  - limits: The sequence specifies the requested route by its people and boundaries but does not name the historical identities of all three groups.
+- **R-8:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people once given a نعمة can change what is within themselves, after which God changes that favor; favor-receiving is not presented as an immutable communal status.
+  - evidence: 8:53 «لَمْ يَكُ مُغَيِّرًۭا نِّعْمَةً أَنْعَمَهَا عَلَىٰ قَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ»
+  - activation: The focus names a community through أَنْعَمْتَ عَلَيْهِمْ and immediately distinguishes it from excluded groups.
+  - limits: The verse does not say that the people whose favor changes thereby become المغضوب عليهم or الضالين.
+- **R-9:93** [reading; support strong, relevance high] inter-ayah target
+  - finding: The adjacent contrast distinguishes inability from blameworthy refusal: the tearful people unable to contribute are set apart from wealthy people who seek permission to stay behind, upon whom liability falls.
+  - evidence: 9:92 «وَأَعْيُنُهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ»; 9:93 «إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَسْتَـْٔذِنُونَكَ وَهُمْ أَغْنِيَآءُ»
+  - activation: The focus distinguishes the favored path from excluded people without specifying the conduct that separates them.
+  - limits: Here السَّبِيلُ عَلَى marks liability, not a route, and the passage does not name the Fatiha’s classes.
+- **R-9:115** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse places divine misguidance after guidance and after clarification of what the people should avoid, giving an order of disclosure before being led astray.
+  - evidence: 9:115 «وَمَا كَانَ ٱللَّهُ لِيُضِلَّ قَوْمًۢا بَعْدَ إِذْ هَدَىٰهُمْ حَتَّىٰ يُبَيِّنَ لَهُم مَّا يَتَّقُونَ»
+  - activation: The focus addresses God as the one who bestowed favor and names astray people without explaining how they reached that state.
+  - limits: This states a condition of divine misguidance; it does not identify the people named in either passage as the same group.
+- **R-10:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse joins God’s call to the Abode of Peace with guidance to a straight path, a close parallel to the focus’s specification of the requested route.
+  - evidence: 10:25 «وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus completes its request for a path by naming the people associated with it and those outside it.
+  - limits: The verse does not give the same list of people or exclusions as the focus.
+- **R-10:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse sets الضلال against recognized truth and asks how people are turned away, making the focus’s final excluded class part of a sharp truth-versus-deviation contrast.
+  - evidence: 10:32 «فَمَاذَا بَعْدَ ٱلْحَقِّ إِلَّا ٱلضَّلَٰلُ ۖ فَأَنَّىٰ تُصْرَفُونَ»
+  - activation: الضَّآلِّينَ closes the focus with the same root, ض ل ل, as الضَّلَٰلُ here.
+  - limits: The verse does not specify that every use of the root has precisely the same scope or referents.
+- **R-10:108** [reading; support strong, relevance high] inter-ayah target
+  - finding: Guidance benefits the person who follows it, while straying bears upon the person who strays; the route’s distinction has personal consequences.
+  - evidence: 10:108 «فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا»
+  - activation: The focus prays in the plural for a path and ends by excluding ٱلضَّآلِّينَ.
+  - limits: This verse locates consequence with each person but does not explain the focus’s description of divine favor or anger.
+- **R-11:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: One described group actively blocks سبيل الله and seeks to make it crooked; the excluded path’s alternatives can therefore include opposition that tries to alter the route for others.
+  - evidence: 11:19 «ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًۭا»
+  - activation: The focus names a path and excludes groups, while this verse supplies a picture of people working against God’s way.
+  - limits: The focus does not say that all of the excluded people obstruct the path or seek to distort it.
+- **R-11:56** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the setting of God’s grasp of every creature, Hūd says his Lord is upon a straight path; this places straightness also in the Lord’s governing relation to creation.
+  - evidence: 11:56 «مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: This repeats the focus’s path image and the صراط مستقيم wording of the request immediately preceding it in the Fatiha.
+  - limits: The verse predicates this path of the Lord in a statement about His governance; it does not directly define the human community sought in the focus.
+- **R-11:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: Steadfastness as commanded is paired with a ban on overstepping; the following verse warns against inclining toward wrongdoers and names the fire as the consequence.
+  - evidence: 11:112 «فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟»; 11:113 «وَلَا تَرْكَنُوٓا۟ إِلَى ٱلَّذِينَ ظَلَمُوا۟ فَتَمَسَّكُمُ ٱلنَّارُ»
+  - activation: The focus asks for the path and excludes groups; this passage turns uprightness into a commanded practice with a boundary against alliance with wrongdoers.
+  - limits: The imperative اسْتَقِمْ is not the noun صِرَاطَ, and the passage does not equate its wrongdoers with the focus’s named classes.
+- **R-12:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: Joseph’s favor is described as completed upon him and Jacob’s family, with a remembered line reaching Abraham and Isaac; favor can mark a family across generations.
+  - evidence: 12:6 «وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ»
+  - activation: The focus likewise names a plural community through divine favor upon them.
+  - limits: The verse does not identify Jacob’s family with every person meant by ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ.
+- **R-12:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The brothers call their father “in clear error” while plotting to remove Joseph; this shows the ض ل ل root can name an accuser’s mistaken judgment, not solely a settled religious class.
+  - evidence: 12:8 «إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ»; 12:9 «ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا»
+  - activation: The focus ends with the related form ٱلضَّآلِّينَ but leaves the object and manner of their straying unstated.
+  - limits: The narrative use does not determine the intended sense of the focus’s plural label by itself.
+- **R-12:95** [reading; support strong, relevance high] inter-ayah target
+  - finding: Joseph’s brothers call Jacob’s expectation his old ضلال, but the messenger’s arrival and Jacob’s restored sight expose their judgment as mistaken; the root can carry an accusation later overturned by events.
+  - evidence: 12:95 «إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ»; 12:96 «فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا»
+  - activation: As in the focus, the root ض ل ل is used for a classifying judgment about a person, though here it is the brothers’ judgment of their father.
+  - limits: This episode does not establish that every use of ضلال in the Quran is an erroneous accusation.
+- **R-14:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The revelation is said to bring people from darkness into light and then to the path of the Mighty, the Praiseworthy; the route requested in the focus is framed elsewhere as an exit from darkness into divine guidance.
+  - evidence: 14:1 «لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ»
+  - activation: Both passages use صراط, and the focus distinguishes the people associated with that path from excluded groups.
+  - limits: This verse does not list the favored and excluded communities named in the focus.
+- **R-14:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who prefer this life, block God’s way, and seek crookedness are explicitly described as being in distant ضلال; this ties straying to a chosen relation to the path.
+  - evidence: 14:3 «يَسْتَحِبُّونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا عَلَى ٱلْءَاخِرَةِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًا ۚ أُو۟لَٰئِكَ فِى ضَلَٰلٍۭ بَعِيدٍۢ»
+  - activation: The focus couples its path image with the final label ٱلضَّآلِّينَ.
+  - limits: This verse gives a particular profile, not a complete definition of everyone called astray in the focus.
+- **R-14:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses identifies God’s favor upon his people with their rescue from Pharaoh’s oppression, making favor a remembered communal deliverance.
+  - evidence: 14:6 «ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ ءَالِ فِرْعَوْنَ»
+  - activation: The focus uses the verb أَنْعَمْتَ عَلَيْهِمْ for the community on the requested path.
+  - limits: The verse does not equate the rescued Israelites with the entire group intended by the focus.
+- **R-14:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage moves from remembered favor to a conditional response: gratitude brings increase, while disbelief is met with severe punishment.
+  - evidence: 14:6 «ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ»; 14:7 «لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ»
+  - activation: The focus places favor and two excluded classes in one compact description, without narrating what follows receipt of favor.
+  - limits: The passage does not say that every ungrateful person becomes one of the focus’s wrath-incurred or astray.
+- **R-14:27** [reading; support strong, relevance high] inter-ayah target
+  - finding: God’s making believers firm is set against His leading wrongdoers astray, a paired divine action that gives the focus’s contrast a dynamic form.
+  - evidence: 14:27 «يُثَبِّتُ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ بِٱلْقَوْلِ ٱلثَّابِتِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ»
+  - activation: The focus contrasts a favored community with the astray and wrath-incurred, while this verse explicitly sets firmness against misguidance.
+  - limits: The verse names believers and wrongdoers, not the exact classes named in the Fatiha.
+- **R-14:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: A people exchange God’s favor for disbelief and bring their people to a ruinous abode; this supplies a concrete reversal from favor to rejection and loss.
+  - evidence: 14:28 «ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًۭا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ»; 14:29 «جَهَنَّمَ يَصْلَوْنَهَا ۖ وَبِئْسَ ٱلْقَرَارُ»
+  - activation: The focus names people through God’s favor and then marks other classes outside their path.
+  - limits: The passage does not identify its people as the same recipients named in the focus.
+- **R-14:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham says idols have led many astray, distinguishes those who follow him from those who disobey, yet entrusts the disobedient to God’s forgiveness and mercy; disobedience is not here equated automatically with a settled final category.
+  - evidence: 14:36 «رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًۭا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The focus distinguishes a path-associated people from astray and wrath-incurred groups, while Abraham’s prayer holds disobedience and possible mercy together.
+  - limits: Abraham’s appeal does not state that every disobedient person is forgiven or define the focus’s groups.
+- **R-15:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: Satan declares an intention to adorn earthly life and lead people astray, with the next verse excepting God’s sincere servants; the passage depicts a source of misleading influence and a protected exception.
+  - evidence: 15:39 «لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ»; 15:40 «إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ»
+  - activation: The focus excludes ٱلضَّآلِّينَ from the requested path, and this scene names an adversarial effort to lead people astray.
+  - limits: This is Satan’s declared program, not a statement that his account of how he was misled is endorsed.
+- **R-15:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: God’s servants are beyond Satan’s authority except those who follow him among the astray, with Hell named as their promised destination in the next verse.
+  - evidence: 15:42 «إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ»; 15:43 «وَإِنَّ جَهَنَّمَ لَمَوْعِدُهُمْ أَجْمَعِينَ»
+  - activation: The focus both names a sought community and excludes the astray; this passage likewise sets servants apart from followers of the adversary.
+  - limits: The verse does not identify these servants or followers with the Fatiha’s classes.
+- **R-16:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse contrasts the path’s قَصْد with a crooked way and says God could have guided everyone; it presents deviation as a real alternative to an upright course.
+  - evidence: 16:9 «وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌۭ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ»
+  - activation: The focus asks for صراط and excludes those who stray, while this verse explicitly contrasts a directed path with crookedness.
+  - limits: The phrase قَصْدُ ٱلسَّبِيلِ does not itself identify the people named in the focus.
+- **R-16:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: Every favor is from God, yet after distress is removed a group associates partners with Him; receiving divine favor does not guarantee a faithful response.
+  - evidence: 16:53 «وَمَا بِكُم مِّن نِّعْمَةٍۢ فَمِنَ ٱللَّهِ»; 16:54 «ثُمَّ إِذَا كَشَفَ ٱلضُّرَّ عَنكُمْ إِذَا فَرِيقٌۭ مِّنكُم بِرَبِّهِمْ يُشْرِكُونَ»
+  - activation: The focus places the recipients of favor beside classes excluded from the requested path.
+  - limits: The passage does not state that the later associators are the same people as the focus’s favor-receivers.
+- **R-16:76** [reading; support strong, relevance high] inter-ayah target
+  - finding: The person who commands justice is explicitly said to be upon a straight path, associating the path with just conduct.
+  - evidence: 16:76 «وَمَن يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: This repeats the straight-path formula immediately requested before the focus specifies its people.
+  - limits: The verse does not directly state that commanding justice defines every member of the Fatiha’s favored community.
+- **R-16:81** [reading; support strong, relevance high] inter-ayah target
+  - finding: After listing protections and provisions, the verse says God completes His favor upon people so that they may submit; favor is oriented toward a response.
+  - evidence: 16:81 «كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ»
+  - activation: The focus names people through favor bestowed upon them and asks for their path.
+  - limits: The verse expresses a hoped-for response, not that every recipient submits or joins the focus’s favored group.
+- **R-16:106** [reading; support strong, relevance high] inter-ayah target
+  - finding: Anger from God is explicitly attached to one who disbelieves after faith, except when compelled while the heart remains secure in faith; the passage supplies an example where inward assent and coercion matter.
+  - evidence: 16:106 «إِلَّا مَنْ أُكْرِهَ وَقَلْبُهُۥ مُطْمَئِنٌّۢ بِٱلْإِيمَٰنِ وَلَٰكِن مَّن شَرَحَ بِٱلْكُفْرِ صَدْرًۭا فَعَلَيْهِمْ غَضَبٌۭ مِّنَ ٱللَّهِ»
+  - activation: The focus names ٱلْمَغْضُوبِ عَلَيْهِمْ without naming the agent or grounds of the anger.
+  - limits: This is a specific case of divine anger, not a complete definition of the focus’s plural class.
+- **R-16:121** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham is grateful for God’s favors, then chosen and guided to a straight path; gratitude, selection, and guidance occur as one linked portrait.
+  - evidence: 16:121 «شَاكِرًۭا لِّأَنْعُمِهِ ۚ ٱجْتَبَىٰهُ وَهَدَىٰهُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus identifies a path through the people favored by God, while this verse joins favor and guidance to a named exemplar.
+  - limits: Abraham exemplifies the relationship but is not stated to exhaust the focus’s plural community.
+- **related_3.X1** [reading; support strong, relevance high] 
+  - finding: The repeated صراط makes 1:7 an immediate specification of the path requested in 1:6: the prayer moves from asking for a straight path to identifying it through a favored community and exclusions.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The path noun recurs at the head of the next verse, continuing the same petition.
+  - limits: This identifies the relation between the two verses but does not by itself determine the full membership of each named class.
+- **R-17:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: This pairs the guidance petition with the Qur’an’s description of itself as guiding to what is most upright, and links that guidance with believers’ good deeds and reward.
+  - evidence: 17:9 «إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًۭا كَبِيرًۭا»
+  - activation: The focus follows the request for guidance to the straight path in 1:6 with a description of whose path it is.
+  - limits: This passage does not call the way a ṣirāṭ or identify its believers as the complete group in 1:7.
+- **R-17:83** [reading; support strong, relevance high] inter-ayah target
+  - finding: A recipient of divine favor turns away when favor comes, showing that receiving benefaction does not by itself guarantee a continuing response of gratitude or guidance.
+  - evidence: 17:83 «وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ»
+  - activation: The same favor root and upon-recipient frame appear in أَنْعَمْتَ عَلَيْهِمْ in the focus.
+  - limits: This does not identify the human recipient here with either of the focus’s named classes.
+- **R-17:97** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage makes divine guidance and being led astray an explicit division: the guided person is named rightly guided, while the other has no protector apart from God.
+  - evidence: 17:97 «وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ»
+  - activation: The focus names the favored route and those who stray; this passage explicitly attributes guidance and misguidance to God.
+  - limits: It does not use the focus’s path wording or identify the two groups by favor and wrath.
+- **R-18:104** [reading; support strong, relevance high] inter-ayah target
+  - finding: Deviation can be predicated of a person’s striving: their efforts go astray even while they believe they are doing good, separating self-assessment from the judged course.
+  - evidence: 18:104 «ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا»
+  - activation: The focus names people as ٱلضَّآلِّينَ; here the cognate verb describes their effort and contrasts it with their own estimate.
+  - limits: The focus uses a participle for people, while this verse predicates the verb of their striving.
+- **R-19:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Worship of God is explicitly called a straight path, framing the path in the focus as a course of worship and allegiance.
+  - evidence: 19:36 «وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The focus names a ṣirāṭ and occurs after the worship-and-help petition in 1:5.
+  - limits: This passage does not identify the path’s followers with the specific groups named in 1:7.
+- **R-19:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: A messenger offers to guide his father to an even path if he follows him, presenting the path as reached through following a bearer of knowledge.
+  - evidence: 19:43 «يَٰٓأَبَتِ إِنِّى قَدْ جَآءَنِى مِنَ ٱلْعِلْمِ مَا لَمْ يَأْتِكَ فَٱتَّبِعْنِىٓ أَهْدِكَ صِرَٰطًۭا سَوِيًّۭا»
+  - activation: The focus specifies the requested path by reference to a community; this passage connects a path to following a guided speaker.
+  - limits: It uses صِرَٰطًا سَوِيًّا rather than the focus’s exact phrase and does not describe its recipients as favored.
+- **R-19:58** [reading; support strong, relevance high] inter-ayah target
+  - finding: This gives a close textual profile of the favored: prophets and others whom God guided and chose, whose response to the Merciful’s signs is prostration and weeping; the next verse contrasts successors who neglect prayer and follow desires.
+  - evidence: 19:58 «أُو۟لَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ مِن ذُرِّيَّةِ ءَادَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍۢ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُ ٱلرَّحْمَٰنِ خَرُّوا۟ سُجَّدًۭا وَبُكِيًّۭا»; 19:59 «فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا»
+  - activation: The focus’s أَنْعَمْتَ عَلَيْهِمْ formula recurs here as أَنْعَمَ ٱللَّهُ عَلَيْهِمْ, with guidance and selection also named.
+  - limits: The passage supplies exemplary groups and conduct; it does not establish that the focus refers only to prophets or their descendants.
+- **R-20:81** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Israelites receive rescue and provision, then are warned that transgression can bring God’s anger and a fall; benefaction and becoming subject to anger can occur in the history of one community.
+  - evidence: 20:80 «يَٰبَنِىٓ إِسْرَٰٓءِيلَ قَدْ أَنجَيْنَٰكُم مِّنْ عَدُوِّكُمْ وَوَٰعَدْنَٰكُمْ جَانِبَ ٱلطُّورِ ٱلْأَيْمَنَ وَنَزَّلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ»; 20:81 «كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ»
+  - activation: The focus places favor and wrath-incurrence side by side; this passage joins provision, a prohibition, and a warning of anger.
+  - limits: The warning does not identify this community as the exclusive referent of either focus class.
+- **R-20:86** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same people are said to have been led astray by the Samiri, while Moses warns that God’s anger may settle on them after they break an appointment; deviation and threatened wrath meet in one episode.
+  - evidence: 20:85 «قَالَ فَإِنَّا قَدْ فَتَنَّا قَوْمَكَ مِنۢ بَعْدِكَ وَأَضَلَّهُمُ ٱلسَّامِرِىُّ»; 20:86 «فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًۭا ۚ قَالَ يَٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ أَفَطَالَ عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌۭ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى»
+  - activation: The focus places the straying and wrath-incurred groups together; the preceding verse and this warning link both ideas in a single communal scene.
+  - limits: Moses’s question warns of possible anger; the passage does not say that this episode defines the focus’s groups.
+- **R-20:123** [reading; support strong, relevance high] inter-ayah target
+  - finding: Following divine guidance is stated to prevent both straying and misery, giving a direct account of what the guided route averts.
+  - evidence: 20:123 «قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّۭ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ»
+  - activation: The focus asks for a path and excludes ٱلضَّآلِّينَ; this passage directly connects following guidance with not straying.
+  - limits: It does not name the followers as those favored or the source of misery as wrath.
+- **R-20:135** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah closes by asking who belongs to the even path and who is guided, making the path a matter whose adherents will be revealed in the outcome.
+  - evidence: 20:135 «قُلْ كُلٌّۭ مُّتَرَبِّصٌۭ فَتَرَبَّصُوا۟ ۖ فَسَتَعْلَمُونَ مَنْ أَصْحَٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ»
+  - activation: The focus names a path and its people; this ending likewise identifies أصحاب الصراط and the guided.
+  - limits: It does not specify that the path’s adherents are the same groups described in 1:7.
+- **R-21:54** [reading; support strong, relevance high] inter-ayah target
+  - finding: A people defend their inherited practice by citing their fathers, and Abraham diagnoses both generations as being in manifest error; this presents straying as a transmitted communal orientation.
+  - evidence: 21:53 «قَالُوا۟ وَجَدْنَآ ءَابَآءَنَا لَهَا عَٰبِدِينَ»; 21:54 «قَالَ لَقَدْ كُنتُمْ أَنتُمْ وَءَابَآؤُكُمْ فِى ضَلَٰلٍۢ مُّبِينٍۢ»
+  - activation: The focus names ٱلضَّآلِّينَ as a group; this passage explicitly includes both the present people and their ancestors in ضلال.
+  - limits: It does not equate this particular inherited practice with every person meant by the focus.
+- **R-22:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequence begins with arguing without knowledge and following a rebellious devil; the next verse says that allegiance leads the follower astray and toward blazing punishment, portraying deviation as a rival course one follows.
+  - evidence: 22:3 «وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَيَتَّبِعُ كُلَّ شَيْطَٰنٍۢ مَّرِيدٍۢ»; 22:4 «كُتِبَ عَلَيْهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ»
+  - activation: The focus excludes ٱلضَّآلِّينَ; this passage shows following an adversary as one route into deviation.
+  - limits: The passage does not name its followers with the focus’s participle or identify them with its wrath-incurred class.
+- **R-22:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The adversary both misleads and guides his follower to the Fire, so the text presents deviation as having a directing agent and a destination rather than as mere absence of direction.
+  - evidence: 22:4 «كُتِبَ عَلَيْهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ»
+  - activation: The focus’s ٱلضَّآلِّينَ names a straying class; this verse pairs the cognate verb with a competing act of guidance.
+  - limits: The verse describes a particular adversarial relation and does not define every person in the focus’s class.
+- **R-22:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The arrogant man turns aside in order to lead others away from God’s way, adding active misleaders to the picture of deviation.
+  - evidence: 22:9 «ثَانِىَ عِطْفِهِۦ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ ۖ لَهُۥ فِى ٱلدُّنْيَا خِزْىٌۭ»
+  - activation: The focus names the astray, while this passage uses a causative form of the same root and explicitly names God’s way.
+  - limits: This passage concerns someone leading others astray, not simply the state of the focus’s ٱلضَّآلِّينَ.
+- **R-22:54** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those given knowledge recognize the truth, believe, and humble their hearts; God then guides believers to a straight path, giving a positive counterpart to the focus’s favored route.
+  - evidence: 22:54 «وَلِيَعْلَمَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّكَ فَيُؤْمِنُوا۟ بِهِۦ فَتُخْبِتَ لَهُۥ قُلُوبُهُمْ ۗ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus asks for the path of the favored; this passage explicitly joins divine guidance to a straight path and receptive believers.
+  - limits: It does not use the focus’s favor formula or identify the contrasting group as those under wrath.
+- **R-23:73** [reading; support strong, relevance high] inter-ayah target
+  - finding: The summons itself is described as calling people to a straight path, giving a direct account of the way the focus specifies.
+  - evidence: 23:73 «وَإِنَّكَ لَتَدْعُوهُمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus continues the Fatiha’s request for the straight path by naming its people.
+  - limits: This passage does not specify the people of that path by the focus’s favor and exclusion terms.
+- **R-23:74** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who do not believe in the Hereafter are said to bend away from the path; the following verse depicts them persisting in transgression even if shown mercy and relieved of distress.
+  - evidence: 23:74 «وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَٰكِبُونَ»; 23:75 «وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّۢ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ»
+  - activation: The focus contrasts a requested path with excluded groups; this passage names people turning away from the path and their persistence.
+  - limits: It gives disbelief in the Hereafter as its criterion and does not equate that group with every class in 1:7.
+- **R-24:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: God guides whom He wills to a straight path after sending clarifying signs; the next verse shows a group claiming belief and obedience before turning away, complicating any equation of verbal profession with remaining on that path.
+  - evidence: 24:46 «لَّقَدْ أَنزَلْنَآ ءَايَٰتٍۢ مُّبَيِّنَٰتٍۢ ۚ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 24:47 «وَيَقُولُونَ ءَامَنَّا بِٱللَّهِ وَبِٱلرَّسُولِ وَأَطَعْنَا ثُمَّ يَتَوَلَّىٰ فَرِيقٌۭ مِّنْهُم مِّنۢ بَعْدِ ذَٰلِكَ»
+  - activation: The focus asks for the path and distinguishes its people; this passage names divine guidance to a straight path and a subsequent turning away.
+  - limits: The passage does not use the focus’s favor or wrath language, and does not specify the turning group’s final outcome here.
+- **R-25:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: The opponents call the Prophet’s challenge to their gods a near-misguidance, while the next verse describes someone who makes desire his god; the scene shows that claims of deviation depend on which allegiance is treated as the norm.
+  - evidence: 25:42 «إِن كَادَ لَيُضِلُّنَا عَنْ ءَالِهَتِنَا لَوْلَآ أَن صَبَرْنَا عَلَيْهَا»; 25:43 «أَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ»
+  - activation: The focus distinguishes the requested path from straying; this scene uses the same root when idolaters accuse the Prophet of leading them astray.
+  - limits: The passage does not use the focus’s class labels; the accusation is reported as the opponents’ speech.
+- **R-26:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses calls Pharaoh’s claimed نعمة into question by naming the enslavement of the Israelites; the same root as divine favor is here attached to a ruler’s disputed benefaction.
+  - evidence: 26:22 «وَتِلْكَ نِعْمَةٌۭ تَمُنُّهَا عَلَىَّ أَنْ عَبَّدتَّ بَنِىٓ إِسْرَٰٓءِيلَ»
+  - activation: The focus addresses God as the one who أَنْعَمْتَ عَلَيْهِمْ; this exchange uses the same root in a contested claim of favor.
+  - limits: This does not identify Pharaoh’s claim with the divine favor of 1:7 or assign Pharaoh a focus class.
+- **R-26:99** [reading; support strong, relevance high] inter-ayah target
+  - finding: At judgment, speakers say criminals led them astray, shifting attention from the straying person to those blamed for directing the course.
+  - evidence: 26:99 «وَمَآ أَضَلَّنَآ إِلَّا ٱلْمُجْرِمُونَ»; 26:100 «فَمَا لَنَا مِن شَٰفِعِينَ»
+  - activation: The focus names ٱلضَّآلِّينَ; this passage uses the causative form of the same root and assigns the act of leading astray to others.
+  - limits: The statement is the speakers’ blame at judgment and does not establish that their attribution is the full account of their responsibility.
+- **R-27:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: Solomon asks to give thanks for a favor God bestowed on him and his parents, to act righteously, and to be joined to the righteous; this portrays a favored recipient’s response as gratitude and practice.
+  - evidence: 27:19 «فَتَبَسَّمَ ضَاحِكًۭا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ»
+  - activation: The focus names people God favored; this prayer repeats the favor formula and joins it to righteous action and belonging among the righteous.
+  - limits: Solomon’s prayer is an example and does not define the full scope of the focus’s favored group.
+- **R-27:92** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Qur’an is to be recited, and guidance or straying is then assigned to the hearer’s own self; this parallels 17:15 and places personal response beside recitation.
+  - evidence: 27:92 «وَأَنْ أَتْلُوَا۟ ٱلْقُرْءَانَ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَقُلْ إِنَّمَآ أَنَا۠ مِنَ ٱلْمُنذِرِينَ»
+  - activation: The focus asks for the path and names the straying; this passage uses the same guidance/deviation contrast in the context of Qur’an recitation.
+  - limits: It does not identify the reciter’s role with the focus’s requested path or specify the favored group.
+- **R-28:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: Satan is called an evident misleader at the point Moses identifies his killing as satanic work; Moses then confesses wrongdoing and is forgiven, distinguishing an act under a misleader’s influence from a fixed identity as one of the astray.
+  - evidence: 28:15 «قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّۭ مُّضِلٌّۭ مُّبِينٌۭ»; 28:16 «قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ»
+  - activation: The focus names ٱلضَّآلِّينَ; this passage names a مُضِلّ as an agent and then depicts repentance and forgiveness.
+  - limits: The passage does not call Moses one of the focus’s strayers or state that the killing permanently defines him.
+- **R-28:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Musa binds remembered divine favor to a refusal to support criminals, giving the favored path an ethical response as well as a source.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 28:16 «قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ»; 28:17 «قَالَ رَبِّ بِمَآ أَنْعَمْتَ عَلَىَّ فَلَنْ أَكُونَ ظَهِيرًۭا لِّلْمُجْرِمِينَ»
+  - activation: The shared second-person anʿamta construction is explicit; the preceding confession and forgiveness make Musa's refusal a response after mercy.
+  - limits: Musa speaks of a singular, particular favor after repentance; the passage does not identify every focus beneficiary with him or define their whole path.
+- **R-28:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage makes following desire without God's guidance a route into straying and wrongdoing, supplying a possible moral mechanism for the focus's excluded al-ḍāllīn.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 28:50 «وَمَنْ أَضَلُّ مِمَّنِ ٱتَّبَعَ هَوَىٰهُ بِغَيْرِ هُدًۭى مِّنَ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ»
+  - activation: The focus asks for guidance and names those astray; 28:50 explicitly joins astraying with following desire without divine guidance.
+  - limits: The focus does not name desire or wrongdoing as the cause of its final category, and 28:50 addresses a particular dispute over revelation.
+- **R-30:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage depicts wrongdoers following desires without knowledge, then asks who can guide one God has let stray. It gives the focus's guidance and straying contrast a concrete account of how a route can be lost.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 30:29 «بَلِ ٱتَّبَعَ ٱلَّذِينَ ظَلَمُوٓا۟ أَهْوَآءَهُم بِغَيْرِ عِلْمٍۢ ۖ فَمَن يَهْدِى مَنْ أَضَلَّ ٱللَّهُ»
+  - activation: The paired roots of guidance and straying in 30:29 answer the focus's request for the straight path and its exclusion of the astray.
+  - limits: The passage does not identify its wrongdoers as the focus's specific classes or explain the focus's favored group.
+- **R-31:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage names people who deliberately mislead others away from God's path through idle speech, adding active diversion to the focus's picture of straying.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 31:6 «لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌۭ مُّهِينٌۭ»
+  - activation: The focus ends by excluding the astray, while 31:6 explicitly describes an actor who diverts people from God's path and the resulting punishment.
+  - limits: 31:6 describes people who mislead others; it does not establish that all the focus's al-ḍāllīn are active misleaders.
+- **R-33:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Disobeying God and the Messenger is called manifest straying, giving the focus's excluded al-ḍāllīn a concrete connection to refusal of divine command.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 33:36 «وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ ضَلَّ ضَلَٰلًۭا مُّبِينًۭا»
+  - activation: The shared root for straying directly joins the focus's category to the passage's explicit account of disobedience.
+  - limits: The passage names one cause of straying; it does not define every member of the focus's excluded category by that cause.
+- **R-33:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase “the one whom Allah favored and you favored” closely echoes the focus's anʿamta ʿalayhim construction. Here favor describes a named person within a decision-laden prophetic scene, making it a relation rather than a complete moral biography.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 33:37 «لِلَّذِىٓ أَنْعَمَ ٱللَّهُ عَلَيْهِ وَأَنْعَمْتَ عَلَيْهِ»
+  - activation: The shared verb and ʿalā construction are unusually close; 33:37 distinguishes divine favor from the Prophet's favor in the same clause.
+  - limits: The focus addresses God directly and speaks of a plural group; 33:37 addresses the Prophet and names a singular recipient. The passage does not equate them.
+- **R-33:67** [reading; support strong, relevance high] inter-ayah target
+  - finding: People condemned in the afterlife say their leaders led them astray from the path, showing social authority as one route into the focus's excluded class.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 33:67 «إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠»
+  - activation: The focus's plural al-ḍāllīn is illuminated by this plural confession about following leaders away from al-sabīl.
+  - limits: This is the condemned followers' account of their own case; it does not make leadership the cause of all straying.
+- **R-34:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: A speaker's straying is placed upon himself, while his guidance comes through what his Lord reveals. This offers a first-person model of responsibility and revealed guidance alongside the focus's collective path distinction.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 34:50 «إِن ضَلَلْتُ فَإِنَّمَآ أَضِلُّ عَلَىٰ نَفْسِى ۖ وَإِنِ ٱهْتَدَيْتُ فَبِمَا يُوحِىٓ إِلَىَّ رَبِّىٓ»
+  - activation: The paired guidance and straying roots directly meet the focus's request and its named contrast.
+  - limits: The verse speaks about one speaker and does not assign that responsibility model explicitly to the focus's groups.
+- **R-35:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse joins remembering God's favor, excluding any creator beside Him, and asking how people are turned away. It situates the focus's path boundary within recognition of God's benefaction and exclusive divinity.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»; 35:3 «ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ»; 35:3 «هَلْ مِنْ خَٰلِقٍ غَيْرُ ٱللَّهِ يَرْزُقُكُم»; 35:3 «فَأَنَّىٰ تُؤْفَكُونَ»
+  - activation: The focus itself has anʿamta and ghayr; 35:3 places favor, an exclusion marked by ghayr, and turning away together.
+  - limits: The two uses of ghayr exclude different things, and 35:3 addresses humanity broadly rather than identifying the focus's groups.
+- **R-35:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse depicts evil made to look good, then names God's guiding and misguiding. It suggests that straying can involve a distorted moral perception as well as a wrong direction.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 35:8 «زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًۭا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ»
+  - activation: The focus's guidance request and excluded astray meet the explicit guidance-and-misguidance pairing in this verse.
+  - limits: 35:8 does not say that the focus's al-ḍāllīn all mistake evil for good, or specify how divine will relates to their choices.
+- **R-36:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: A messenger is described as being on a straight path, a direct parallel to the path requested in 1:6 and specified in 1:7. The path of the favored can therefore be heard as a prophetic route.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 36:4 «عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The exact sirāt mustaqīm formula in 36:4 follows the focus's request for that path and its identification through a people.
+  - limits: 36:4 speaks of the Messenger and does not say that the focus's favored group consists only of messengers.
+- **R-36:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: Worship of God is explicitly called a straight path, set against the prohibition on worshipping Satan; the next verse says Satan led many astray. This gives the focus's route and exclusions a concrete devotional contrast.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 36:60 «أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَٰنَ»; 36:61 «وَأَنِ ٱعْبُدُونِى ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The focus asks for the straight path, and 36:61 names worship of God as that path; the surrounding verses contrast it with Satan's diversion.
+  - limits: The passage defines its path through worship, but does not name its adherents as the focus's favored group.
+- **R-36:62** [reading; support strong, relevance high] inter-ayah target
+  - finding: Immediately after worship of God is called the straight path, Satan is said to have led many astray. This presents the focus's excluded class as potentially including people drawn off the path by an adversary.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 36:61 «هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»; 36:62 «وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّۭا كَثِيرًا»
+  - activation: The consecutive path-and-straying statements in 36:61–62 mirror the focus's path followed by its excluded astray category.
+  - limits: The passage does not explain whether those led astray are culpable, deceived, or both, and it does not identify them with the focus's class.
+- **R-37:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: The condemned are ironically ordered to be guided to the path of Hell. This reverses the focus's plea for guidance to the straight path and shows that a path can lead to punishment under a command of guidance.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 37:23 «فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ»
+  - activation: Both scenes pair a form of hidaya with sirāt; 37:23 makes the destination explicitly infernal.
+  - limits: The command occurs after judgment and does not suggest that the focus's requested guidance leads to punishment.
+- **R-37:57** [reading; support strong, relevance high] inter-ayah target
+  - finding: A speaker says his Lord's favor kept him from being among those brought for punishment. This closely links received favor with escape from a condemned affiliation, beside the focus's contrast between the favored and excluded.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»; 37:56 «إِن كِدتَّ لَتُرْدِينِ»; 37:57 «وَلَوْلَا نِعْمَةُ رَبِّى لَكُنتُ مِنَ ٱلْمُحْضَرِينَ»
+  - activation: The focus's favor-and-exclusion structure is echoed by the speaker's counterfactual: without his Lord's favor he would join the condemned.
+  - limits: The speaker is singular and speaks of a specific rescue from punishment; the passage does not equate his niʿma with the focus's named class.
+- **R-37:69** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people in this passage found their fathers already astray, then hurried after their footsteps. Straying is presented as an inherited social route, not just an isolated wrong turn.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 37:69 «إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ»; 37:70 «فَهُمْ عَلَىٰٓ ءَاثَٰرِهِمْ يُهْرَعُونَ»
+  - activation: The focus's plural category al-ḍāllīn is mirrored by a community that finds its ancestors astray and follows them.
+  - limits: This scene identifies one mechanism for a particular community; it does not make inherited practice the cause of all straying.
+- **R-37:118** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses and Aaron are explicitly guided to the straight path after receiving the clear Book. This is a direct example of divine guidance placing named people on the path requested and specified in the focus.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 37:117 «وَءَاتَيْنَٰهُمَا ٱلْكِتَٰبَ ٱلْمُسْتَبِينَ»; 37:118 «وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 37:119 «وَتَرَكْنَا عَلَيْهِمَا فِى ٱلْءَاخِرِينَ»
+  - activation: The exact guidance-and-straight-path formula parallels the focus's petition, while the passage names its recipients and the Book preceding their guidance.
+  - limits: The passage does not identify Moses and Aaron as the only members or precise referents of the focus's plural group.
+- **R-38:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: Litigants ask to be guided to the sawaʾ of the path while seeking judgment in a dispute over injustice. This gives the focus's path a concrete register of equitable adjudication.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 38:22 «فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ ٱلصِّرَٰطِ»; 38:23 «وَعَزَّنِى فِى ٱلْخِطَابِ»
+  - activation: The focus petitions for a path; here a request for guidance to the path's right or level course occurs inside a concrete plea for justice.
+  - limits: The litigants speak to David in a specific dispute; the passage does not define the whole focus's path as adjudication.
+- **R-38:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: David is warned that following desire will mislead him from God's way, and those who stray from it face severe punishment. This supplies a direct warning behind the focus's exclusion of the astray.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 38:26 «وَلَا تَتَّبِعِ ٱلْهَوَىٰ فَيُضِلَّكَ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّ ٱلَّذِينَ يَضِلُّونَ عَن سَبِيلِ ٱللَّهِ لَهُمْ عَذَابٌۭ شَدِيدٌۢ»
+  - activation: The shared root for straying and explicit departure from God's way directly connect this warning to the focus's final category.
+  - limits: The focus does not name desire as the cause, and 38:26 addresses David's responsibility as ruler.
+- **R-39:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: A person relieved from hardship receives a niʿma, then forgets his prior prayer and sets up rivals to divert from God's way. The scene shows that receiving a gift and remaining on a guided path can have different outcomes.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 39:8 «ثُمَّ إِذَا خَوَّلَهُۥ نِعْمَةًۭ مِّنْهُ نَسِىَ مَا كَانَ يَدْعُوٓا۟ إِلَيْهِ مِن قَبْلُ وَجَعَلَ لِلَّهِ أَندَادًۭا لِّيُضِلَّ عَن سَبِيلِهِۦ»
+  - activation: The focus's anʿamta and path contrast meet 39:8's niʿma followed by an explicit attempt to mislead from God's way.
+  - limits: 39:8 describes a singular person's worldly gift and does not identify him with the focus's named category of beneficiaries.
+- **R-39:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: God is sufficient for His servant, and when God lets someone stray that person has no guide; the following verse gives the reciprocal case of one God guides. This underscores why the focus addresses its guidance request to God.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 39:36 «وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ»; 39:37 «وَمَن يَهْدِ ٱللَّهُ فَمَا لَهُۥ مِن مُّضِلٍّ»
+  - activation: The focus directly asks God for guidance; 39:36–37 names God as the decisive source of guidance and the absence of another guide.
+  - limits: The passage states divine sovereignty over guidance but does not identify the particular people in the focus's groups.
+- **R-39:41** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage says the one guided benefits himself and the one who strays harms himself, while the Messenger is not their keeper. This frames the focus's group distinction in terms of personal consequence and responsibility.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 39:41 «فَمَنِ ٱهْتَدَىٰ فَلِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ»
+  - activation: The verse explicitly pairs being guided with straying, the same contrast that structures the focus's request and exclusions.
+  - limits: 39:41 does not name the focus's favored or angered communities, and it makes no claim about their causes.
+- **R-39:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: After receiving a niʿma, a person claims it came from his own knowledge; the verse calls it a trial. This warns that a gift can be misread as self-produced achievement rather than evidence of being on the focus's favored path.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 39:49 «ثُمَّ إِذَا خَوَّلْنَٰهُ نِعْمَةًۭ مِّنَّا قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍۭ ۚ بَلْ هِىَ فِتْنَةٌۭ»
+  - activation: The focus names people as recipients of favor; 39:49 explicitly examines how someone interprets a received niʿma.
+  - limits: The verse speaks of a worldly gift and does not equate its recipient with any of the focus's groups.
+- **R-39:64** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question rejecting worship of any other than Allah echoes the Fatiha's declaration of exclusive worship; the warning about shirk in the next verse makes the path petition a continuation of that allegiance.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 39:64 «قُلْ أَفَغَيْرَ ٱللَّهِ تَأْمُرُوٓنِّىٓ أَعْبُدُ أَيُّهَا ٱلْجَٰهِلُونَ»; 39:65 «لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ»
+  - activation: The immediate Fatiha sequence moves from exclusive worship in 1:5 to the request for the path in 1:6–7; 39:64–65 links exclusive worship with rejecting shirk.
+  - limits: 39:64 does not use the focus's path or favor language, and it does not label its opponents as al-ḍāllīn.
+- **R-40:34** [reading; support strong, relevance high] inter-ayah target
+  - finding: People persist in doubt after Yusuf brings clear signs, then deny that another messenger will come; the verse calls God’s misguiding of the profligate doubter a pattern. Straying is linked to sustained rejection rather than a passing wrong turn.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 40:34 «فَمَا زِلْتُمْ فِى شَكٍّۢ مِّمَّا جَآءَكُم بِهِۦ ۖ حَتَّىٰٓ إِذَا هَلَكَ قُلْتُمْ لَن يَبْعَثَ ٱللَّهُ مِنۢ بَعْدِهِۦ رَسُولًۭا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَنْ هُوَ مُسْرِفٌۭ مُّرْتَابٌ»
+  - activation: The focus's al-ḍāllīn is illuminated by a narrative in which repeated doubt and rejection lead into explicit divine misguidance.
+  - limits: This passage describes a particular response to Yusuf and does not define every member of the focus's category by persistent doubt.
+- **related_5.X1** [reading; support strong, relevance high] 
+  - finding: Together, 33:67 and 37:69–70 portray straying as socially transmitted: followers say their elders led them from the path, while another condemned generation found its fathers astray and rushed behind them. This gives the focus's plural al-ḍāllīn a communal depth.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 33:67 «إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠»; 37:69 «إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ»; 37:70 «فَهُمْ عَلَىٰٓ ءَاثَٰرِهِمْ يُهْرَعُونَ»
+  - activation: The focus ends with a plural class; both passages describe communities whose movement away from the path runs through leaders or ancestors.
+  - limits: These are different condemned groups and do not establish that every astray person followed another's lead.
+- **related_5.X2** [reading; support strong, relevance high] 
+  - finding: The two passages repeat a distress-then-gift sequence but show different distortions of the gift: one recipient forgets God and sets up rivals, while another claims the gift came through his own knowledge. Together they distinguish receiving a niʿma from belonging to the focus's guided path.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 39:8 «ثُمَّ إِذَا خَوَّلَهُۥ نِعْمَةًۭ مِّنْهُ نَسِىَ مَا كَانَ يَدْعُوٓا۟ إِلَيْهِ مِن قَبْلُ وَجَعَلَ لِلَّهِ أَندَادًۭا»; 39:49 «ثُمَّ إِذَا خَوَّلْنَٰهُ نِعْمَةًۭ مِّنَّا قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍۭ ۚ بَلْ هِىَ فِتْنَةٌۭ»
+  - activation: The focus's anʿamta ʿalayhim is read beside the repeated niʿma formula in both passages and their diverging responses.
+  - limits: Both passages concern worldly gifts and do not identify their recipients with the focus's category; the comparison marks a distinction without defining the focus's favor.
+- **R-41:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud are first guided, then prefer blindness to guidance; this depicts straying as a chosen refusal after guidance is offered.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 41:17 «فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ»
+  - activation: The focus asks for guidance before excluding the astray, and this verse links those ideas through guidance followed by a preference for blindness.
+  - limits: The episode does not identify Thamud with either excluded class in 1:7 or define every instance of straying as deliberate refusal.
+- **R-42:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse joins divine misguidance with having no سبيل, so the focus’s exclusion of الضالين can be heard against an outcome of lost access to a way.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 42:46 «وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِن سَبِيلٍ»
+  - activation: The focus asks for a path and ends by excluding the astray; 42:46 places misguidance beside the absence of any way.
+  - limits: This verse describes a particular divine act and absence of سبيل; it does not equate its subjects with every group excluded in 1:7.
+- **R-42:52** [reading; support strong, relevance high] inter-ayah target
+  - finding: The guidance request has a Quranic counterpart: revelation is made a light by which God guides whom He wills, and the Prophet guides toward a straight path.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 42:52 «وَلَٰكِن جَعَلْنَٰهُ نُورًۭا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا»; 42:52 «وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus’s opening imperative asks God for guidance to the path; 42:52 names revelation as light and the Prophet as guiding toward that same path description.
+  - limits: The verse does not specify the focus’s three human classes or say that the Prophet and God guide in identical senses.
+- **R-42:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The straight path is explicitly called God’s path, giving the route in 1:7 a divine ownership and destination beyond the community that travels it.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 42:52 «إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 42:53 «صِرَٰطِ ٱللَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ»
+  - activation: The focus specifies the requested path by its people; 42:52–53 names a straight path and then identifies it as God’s path.
+  - limits: The parallel does not establish that every occurrence of صراط has an identical referent or that the focus’s favored people are exhaustively defined here.
+- **R-43:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: The episode links heedlessness toward the Merciful’s remembrance with a satanic companion, obstruction from the way, and a belief that one is guided.
+  - evidence: 43:36 «وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ»; 43:37 «وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»
+  - activation: The focus distinguishes the favored route from the astray; this passage supplies a social and perceptual sequence around leaving the way.
+  - limits: The passage does not name its people as the focus’s الضالين or make this the sole cause of straying.
+- **R-43:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: A person can be obstructed from the way while supposing that they are guided, so felt certainty does not settle the focus’s distinction between guidance and straying.
+  - evidence: 43:37 «لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - activation: The focus names people by their relation to the path; this verse sets obstruction from the way beside an assumption of being guided.
+  - limits: It does not say that everyone who claims guidance is astray or identify these actors with the focus’s groups.
+- **R-43:40** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse questions whether the Prophet can make the deaf hear or guide the blind and those in manifest error; the focus’s plea for guidance is directly addressed to God.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 43:40 «أَفَأَنتَ تُسْمِعُ ٱلصُّمَّ أَوْ تَهْدِى ٱلْعُمْىَ وَمَن كَانَ فِى ضَلَٰلٍۢ مُّبِينٍۢ»
+  - activation: The same guidance and straying vocabulary appears in a question about the limits of prophetic address, against the direct divine petition in the Fatiha.
+  - limits: It does not say that God cannot guide or that those addressed in the focus are deaf or blind.
+- **R-43:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Holding fast to what is revealed is joined to being on a straight path, making revelation a concrete means of remaining on the route requested in the Fatiha.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 43:43 «فَٱسْتَمْسِكْ بِٱلَّذِىٓ أُوحِىَ إِلَيْكَ»; 43:43 «إِنَّكَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The shared straight-path wording and the command to hold to revelation connect the requested route with a revealed message.
+  - limits: The verse addresses the Prophet and does not detail how every member of the focus’s favored group follows revelation.
+- **R-43:59** [reading; support strong, relevance high] inter-ayah target
+  - finding: Jesus is described with the same favor verb and an upon-him complement: a singular recipient of favor is made an example for the Children of Israel.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 43:59 «إِنْ هُوَ إِلَّا عَبْدٌ أَنْعَمْنَا عَلَيْهِ وَجَعَلْنَٰهُ مَثَلًۭا لِّبَنِىٓ إِسْرَٰٓءِيلَ»
+  - activation: The focus identifies a path through those God favored; 43:59 shows a favored individual whose role becomes exemplary for a community.
+  - limits: It does not make Jesus the sole referent of the plural group or define all recipients of favor by his example.
+- **R-43:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: In this address, the command to follow is followed by the declaration that this is a straight path and a warning against Satan’s obstruction.
+  - evidence: 43:61 «وَٱتَّبِعُونِ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»; 43:62 «وَلَا يَصُدَّنَّكُمُ ٱلشَّيْطَٰنُ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The focus asks for a path, while 43:61–62 connects following a messenger with a straight path and resisting obstruction.
+  - limits: This does not establish that the focus’s path is limited to the specific address in 43 or name its excluded classes.
+- **R-43:64** [reading; support strong, relevance high] inter-ayah target
+  - finding: Worship of God, who is Lord of both speaker and audience, is explicitly called a straight path; this echoes the Fatiha’s prior declaration of worship.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 43:64 «إِنَّ ٱللَّهَ هُوَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ»; 43:64 «هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The focus’s path request follows the Fatiha’s exclusive worship declaration; 43:64 expressly names worship as the straight path.
+  - limits: The verse does not give the focus’s full classification of the favored, wrath-incurred, and astray.
+- **R-45:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: Taking desire as a god is paired with being led astray, sealed perception, and the question of who can guide after God; it contrasts with the Fatiha’s exclusive worship and request for guidance.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 45:23 «مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍۢ»; 45:23 «فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ»
+  - activation: The focus addresses God alone for worship and guidance; this verse depicts desire occupying the place of a deity and asks who can guide the person afterward.
+  - limits: It does not equate all people called astray in 1:7 with this particular description or explain the phrase عَلَىٰ عِلْمٍۢ.
+- **R-47:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who reject and obstruct from God’s way have their deeds made to go astray; the verse links opposition to the way with loss beyond a person’s own direction.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 47:1 «ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ أَضَلَّ أَعْمَٰلَهُمْ»
+  - activation: The focus excludes the astray from the requested path; 47:1 names obstruction from God’s way and applies the causative form of the same root to the obstructors’ deeds.
+  - limits: The verse does not say that all the focus’s astray people obstruct others or that their deeds have the same fate.
+- **R-48:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse tightly joins God completing favor upon the addressee with guiding him to a straight path, bringing the focus’s favor and path motifs together in one sequence.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 48:2 «وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا»
+  - activation: The focus names the path through those favored by God; 48:2 places divine favor and guidance to a straight path side by side.
+  - limits: The addressee here is singular, and the verse does not equate him with the whole group of 1:7.
+- **R-48:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: Hypocrites and polytheists who hold evil assumptions about God are named before the exact formula غضب الله عليهم, giving a concrete Quranic instance of people under divine anger.
+  - evidence: 1:7 «ٱلْمَغْضُوبِ عَلَيْهِمْ»; 48:6 «ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ ٱلظَّآنِّينَ بِٱللَّهِ ظَنَّ ٱلسَّوْءِ»; 48:6 «وَغَضِبَ ٱللَّهُ عَلَيْهِمْ»
+  - activation: The focus uses a passive participle for the anger-incurred group; this verse explicitly names God as the agent of anger and identifies people in its scene.
+  - limits: It gives a specified group in this passage, not an exhaustive definition of everyone described by the focus’s participle.
+- **R-53:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: People follow conjecture and desire even though guidance has come to them from their Lord; the passage depicts straying as a response to received guidance, not simply its absence.
+  - evidence: 53:23 «إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ»; 53:23 «وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - activation: The focus distinguishes a guided route from the astray; this verse contrasts guidance from the Lord with following conjecture and desire.
+  - limits: It does not explicitly name these people as the focus’s الضالين or claim that desire explains every case of straying.
+- **R-53:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: The next verse classifies who strayed from the Lord’s way and who was guided; this verse gives a concrete orientation in the episode: turning away from remembrance and wanting only worldly life.
+  - evidence: 53:29 «فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا»; 53:30 «بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ»
+  - activation: The focus is a plea for guidance; this sequence places turning from remembrance immediately before the distinction between straying and being guided.
+  - limits: This passage does not reduce every instance of straying to worldly desire or define the focus’s full set of groups.
+- **R-53:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Lord knows who strayed from His way and who was guided, placing the distinction between the groups under divine knowledge rather than human self-description.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 53:30 «إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ»
+  - activation: The focus distinguishes favored people from the astray; this verse pairs straying from God’s way with being guided and makes God the one who knows both.
+  - limits: It does not map each group in 1:7 onto a separate category in 53:30 or specify their final outcomes.
+- **R-56:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: The addressed people are called both astray and deniers; the pairing shows a Quranic scene where loss of direction is joined to rejection, with punishment following.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 56:51 «ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ»; 56:52 «لَءَاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ»
+  - activation: The focus names the astray as an excluded class; 56:51 pairs the same label with denial and leads into a punishment scene.
+  - limits: The verse does not equate denial with straying in every context or identify these addressees with all the focus’s excluded people.
+- **R-56:92** [reading; support strong, relevance high] inter-ayah target
+  - finding: The individual is placed among the deniers, the astray, with boiling water immediately following as his reception; the label has an explicit afterlife outcome here.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 56:92 «وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ»; 56:93 «فَنُزُلٌۭ مِّنْ حَمِيمٍۢ»
+  - activation: The focus names الضالين as a class; this passage places an individual within that description and specifies what follows.
+  - limits: It does not say that every person described as astray has this exact outcome or settle whether the two labels are coordinated or appositional.
+- **R-58:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact formula غضب الله عليهم refers here to a people whom others turn to as allies; the scene adds knowingly swearing falsely and being neither of the two sides.
+  - evidence: 1:7 «ٱلْمَغْضُوبِ عَلَيْهِمْ»; 58:14 «تَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِمْ»; 58:14 «مَّا هُم مِّنكُمْ وَلَا مِنْهُمْ وَيَحْلِفُونَ عَلَى ٱلْكَذِبِ وَهُمْ يَعْلَمُونَ»
+  - activation: The focus names those under anger, and 58:14 repeats the anger-upon-them formula in a warning about allegiance.
+  - limits: The verse identifies a particular group in its own setting; it does not claim that this scene exhausts the focus’s maghdub class.
+- **R-60:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same anger formula appears in a direct prohibition against taking a people as allies, and their despair of the afterlife is given as a further mark.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»; 60:13 «لَا تَتَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِمْ»; 60:13 «قَدْ يَئِسُوا۟ مِنَ ٱلْءَاخِرَةِ»
+  - activation: The focus excludes the anger-incurred from its path; this address makes social alignment with such a people an explicit prohibition.
+  - limits: The verse does not define all social implications of the focus’s exclusion or equate the addressed believers with the favored group.
+- **R-61:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The episode gives a sequence: Moses’s people deviate, God causes their hearts to deviate, and He does not guide the defiantly disobedient.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 61:5 «فَلَمَّا زَاغُوٓا۟ أَزَاغَ ٱللَّهُ قُلُوبَهُمْ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَٰسِقِينَ»
+  - activation: The focus petitions for guidance and excludes the astray; 61:5 places human deviation before a further divine turning and lack of guidance.
+  - limits: The wording does not equate زاغوا with الضالين or make this sequence a universal account of every person’s misguidance.
+- **R-67:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people later confined to the Blaze recall accusing the warners of great error; their accusation is overturned by their own retrospective failure to listen or reason.
+  - evidence: 67:9 «إِنْ أَنتُمْ إِلَّا فِى ضَلَٰلٍۢ كَبِيرٍۢ»; 67:10 «لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَٰبِ ٱلسَّعِيرِ»
+  - activation: The focus uses الضالين as its final excluded class; this scene shows people in ruin applying a similar label to the warners.
+  - limits: The scene does not say that every human use of ضلال is false or directly identify the warners with the favored path.
+- **R-68:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: A favor from the Lord averts Jonah’s blameworthy expulsion; the next verse says the Lord chose him and made him among the righteous, linking favor with rescue and restored standing.
+  - evidence: 68:49 «لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌۭ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌۭ»; 68:50 «فَٱجْتَبَٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّٰلِحِينَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The focus names people through divine favor; this episode shows a favor that prevents a condemned outcome and is followed by being made righteous.
+  - limits: It does not say Jonah is the sole model for the favored path or that every favor takes the form of rescue from blame.
+- **related_6.X1** [reading; support strong, relevance high] 
+  - finding: Surah 48 places completed favor and guidance to a straight path for the addressee before naming other groups over whom God’s anger rests, echoing the focus’s paired route and boundary.
+  - evidence: 48:2 «وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا»; 48:6 «وَغَضِبَ ٱللَّهُ عَلَيْهِمْ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»
+  - activation: The focus joins favor, path, and anger-incurred people; the two verses in Surah 48 place favor-and-path language and anger-upon-them language within the same surah.
+  - limits: The passages concern distinct addressees and do not explicitly identify them with all the focus’s groups.
+- **related_6.X2** [reading; support strong, relevance high] 
+  - finding: The thought that one is guided can conflict with being obstructed from the way, while other verses leave knowledge of who strayed and who was guided to God.
+  - evidence: 43:37 «وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ»; 53:30 «إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The Fatiha voices a request for guidance, while these passages contrast self-assessment with obstruction and divine knowledge.
+  - limits: They do not say that every claim of guidance is mistaken or specify how people in the focus should judge particular individuals.
+- **R-71:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: Noah’s scene gives straying a social mechanism: idol advocates have led many astray, and the prayer asks that wrongdoers be increased in straying. This offers a possible picture behind the focus’s otherwise unqualified ٱلضَّآلِّينَ.
+  - evidence: 71:23 «وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّۭا وَلَا سُوَاعًۭا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًۭا»; 71:24 «وَقَدْ أَضَلُّوا۟ كَثِيرًۭا ۖ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا ضَلَٰلًۭا»
+  - activation: The focus names a class by ض ل ل without specifying how they came to stray; this passage supplies both human agents and those led astray.
+  - limits: It does not identify Noah’s people with the focus’s ٱلضَّآلِّينَ, and the prayer names wrongdoers as those to be increased in straying.
+- **R-73:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase أُو۟لِى ٱلنَّعْمَةِ names people of worldly ease who are given a short respite before the threat of fetters and fire. It cautions against equating the focus’s divinely favored people with those who merely enjoy privilege.
+  - evidence: 73:11 «وَذَرْنِى وَٱلْمُكَذِّبِينَ أُو۟لِى ٱلنَّعْمَةِ وَمَهِّلْهُمْ قَلِيلًا»; 73:12 «إِنَّ لَدَيْنَآ أَنكَالًۭا وَجَحِيمًۭا»
+  - activation: The shared n-ʿ-m root in أَنْعَمْتَ and ٱلنَّعْمَةِ links divine bestowal with worldly ease, while the passage places the latter among deniers.
+  - limits: The passage does not say that every person of ease is a denier or that its audience is the same as either class in 1:7.
+- **R-74:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage explicitly pairs God’s leading astray with His guiding, placing both outcomes in a test about the Fire. It makes divine agency a live possibility behind the focus’s ٱلضَّآلِّينَ and its contrasting favor.
+  - evidence: 74:31 «كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ»
+  - activation: The focus places those receiving favor beside the straying class; this verse uses the corresponding roots for divine guidance and misguidance.
+  - limits: It does not identify the focus’s classes or explain whether their distinction is caused by this specific test.
+- **R-76:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: Paradise shade is described as near to its recipients, with fruit made accessible. This gives a concrete scene of beneficent nearness around people, alongside the focus’s divine favor عَلَيْهِمْ.
+  - evidence: 76:14 «وَدَانِيَةً عَلَيْهِمْ ظِلَٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًۭا»
+  - activation: The focus repeats عَلَيْهِمْ for the recipients of favor and of wrath; this passage gives the positive side a sheltered, abundant setting.
+  - limits: The syntax of دانِيَةً عَلَيْهِمْ describes nearness, not the same construction as أَنْعَمْتَ عَلَيْهِمْ, and the recipients are not identified as the same group.
+- **R-76:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: Silk clothing, silver bracelets, and a pure drink from their Lord depict favor as material adornment and care received by a community.
+  - evidence: 76:21 «عَٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌۭ وَإِسْتَبْرَقٌۭ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍۢ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًۭا طَهُورًا»
+  - activation: The focus’s أَنْعَمْتَ عَلَيْهِمْ names recipients of divine favor; this verse depicts lavish goods and direct care from their Lord.
+  - limits: The passage does not identify its recipients with the people named in 1:7 or define the path they followed.
+- **R-81:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question أَيْنَ تَذْهَبُونَ turns the passage into a challenge about direction. Read beside the Fatiha’s request for guidance and its named path, it makes the choice of where one is headed the rhetorical issue.
+  - evidence: 81:26 «فَأَيْنَ تَذْهَبُونَ»; 81:27 «إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ»
+  - activation: The focus asks for a route and then defines whose route it is; this passage asks its hearers where they are going after affirming the reminder.
+  - limits: These verses do not name the straight path or specify which groups the focus excludes.
+- **R-82:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: The righteous are placed in bliss while the wicked are placed in Hell. The paired outcomes offer an afterlife counterpart to the focus’s distinction between a favored community and excluded classes.
+  - evidence: 82:13 «إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ»; 82:14 «وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ»
+  - activation: نَعِيمٍ shares the n-ʿ-m root with أَنْعَمْتَ, and the next verse immediately opposes its recipients to another moral class.
+  - limits: The passage does not identify the righteous or wicked with the groups in 1:7; bliss is an outcome, not the same form as divine bestowal.
+- **R-83:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: Wrongdoers call the believers ٱلضَّآلُّونَ, while the next verse says they were not appointed as guardians over them. This shows the label “astray” can be an accusation made by a group whose judgment and authority are themselves in question.
+  - evidence: 83:32 «وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَٰٓؤُلَآءِ لَضَآلُّونَ»; 83:33 «وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ»
+  - activation: The focus names ٱلضَّآلِّينَ as a class outside the requested path; this scene shows the same root used by mockers to mislabel believers.
+  - limits: The verse does not identify the focus’s class with either the mockers or the believers; it establishes a contested use of the label, not a definition of it.
+- **R-84:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: After a warning of painful punishment, an exception is made for those who believe and act rightly, and they receive an unfailing reward. This gives a narrative counterpart to defining a route through who is excluded and who belongs to the positive community.
+  - evidence: 84:24 «فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ»; 84:25 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتَ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ»
+  - activation: The focus’s غَيْر marks a boundary around the path’s excluded classes; here an exception after punishment identifies a positive class and its outcome.
+  - limits: Here غَيْرُ مَمْنُونٍ means an unfailing reward, not an exception marker, and the passage does not identify its groups with those in 1:7.
+- **R-88:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: The messenger is told to remind, but not to dominate over his audience. This places a clear limit on human authority in a passage about warning, relevant to hearing the focus’s request for guidance without making its exclusions a warrant for coercion.
+  - evidence: 88:21 «فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌۭ»; 88:22 «لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ»; 88:23 «إِلَّا مَن تَوَلَّىٰ وَكَفَرَ»
+  - activation: The focus is a communal petition for guidance and names groups by their relation to the path; this passage distinguishes reminding people from controlling them.
+  - limits: It does not explain how God guides or identify the focus’s excluded classes.
+- **R-89:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: A person interprets being honored and given ease as proof that his Lord has honored him; the next verse applies the same testing frame to restricted provision. The passage warns against treating worldly ease as sufficient evidence of the focus’s divine favor.
+  - evidence: 89:15 «فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ»; 89:16 «وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ»
+  - activation: The shared n-ʿ-m root links worldly ease here with the focus’s act of favor, while the repeated test language complicates a simple equation between ease and settled standing.
+  - limits: The passage does not deny divine favor or identify this person with either path-class in 1:7.
+- **R-90:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people of the left are described as having a sealed fire upon them. This gives an adverse, eschatological outcome to compare with the focus’s class marked by wrath عَلَيْهِمْ.
+  - evidence: 90:19 «وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ»; 90:20 «عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ»
+  - activation: The focus’s second عَلَيْهِمْ marks recipients of an adverse state; this passage makes a closed Fire the burden placed upon a named group.
+  - limits: It does not equate the people of the left with ٱلْمَغْضُوبِ عَلَيْهِمْ or use the root غ ض ب.
+- **R-92:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: The giving person is not repaying a favor owed to anyone, but seeks the face of his Lord. This contrasts human reciprocal indebtedness with God-directed action and can refine what a path marked by divine favor involves.
+  - evidence: 92:18 «ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ»; 92:19 «وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ»; 92:20 «إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ»
+  - activation: The focus names divine favor with the n-ʿ-m root; this passage uses the related noun while rejecting repayment to a human benefactor as the giver’s motive.
+  - limits: It does not say that the giver is one of the people described in 1:7 or that every act on their path has this form.
+- **R-93:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The singular ضَآلًّا is followed by فَهَدَىٰ: a state of straying can be followed by divine guidance. This makes straying sound potentially remediable, rather than necessarily a permanent identity.
+  - evidence: 93:7 «وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ»
+  - activation: The focus ends with the plural ٱلضَّآلِّينَ after asking for guidance; this verse directly pairs the same root with guidance as an outcome.
+  - limits: The singular form and its context are distinct from the focus’s plural class; the verse does not identify its addressee with that class or state the same kind of straying.
+- **R-93:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: After a sequence of sheltering, guidance, and sufficiency, the passage commands the Prophet to recount his Lord’s favor. Divine favor appears as a traceable history of care that can be spoken about.
+  - evidence: 93:6 «أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ»; 93:7 «وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ»; 93:8 «وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ»; 93:11 «وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ»
+  - activation: The focus says أَنْعَمْتَ عَلَيْهِمْ; this passage uses the related noun for favor after recounting concrete acts of care, including guidance.
+  - limits: The passage concerns the Prophet in the singular and does not define the full identity or experience of the focus’s plural recipients.
+- **R-95:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: After humanity is returned to the lowest state, believers who act rightly are excepted and promised an unending reward. The verse supplies another model of a positive community distinguished against a general adverse outcome.
+  - evidence: 95:5 «ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ»; 95:6 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ»
+  - activation: The focus defines a path by a positive group and exclusions; here an exception clause distinguishes faithful action from a downward human outcome.
+  - limits: The exception is marked by إِلَّا, and غَيْرُ مَمْنُونٍ means unending rather than repeating the focus’s exceptive use of غَيْر.
+- **R-102:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The blessing becomes an object of questioning on Judgment Day. This casts received ease as an accountable trust, not simply as evidence of favorable standing.
+  - evidence: 102:8 «ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ»
+  - activation: The n-ʿ-m root links ٱلنَّعِيمِ with أَنْعَمْتَ, and the focus names people by the divine favor they receive.
+  - limits: This verse does not identify which blessings are meant or say that its recipients are the focus’s favored group.
+- **R-106:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to worship is grounded in God’s feeding and protection of the community. This makes the path of the favored intelligible as a response to concrete provision and safety.
+  - evidence: 106:3 «فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ»; 106:4 «ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ»
+  - activation: The focus’s favor language follows the Fatiha’s worship and aid petition; this passage explicitly links worship to divine benefaction.
+  - limits: It describes a specific community and does not name the focus’s excluded groups or say that this is the only shape of favor.
+- **R-109:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah draws a non-merging boundary between the speaker’s worship and that of the audience, then concludes with separate religions. This is a structural parallel to the focus’s route defined by community and exclusions.
+  - evidence: 109:2 «لَآ أَعْبُدُ مَا تَعْبُدُونَ»; 109:3 «وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ»; 109:6 «لَكُمْ دِينُكُمْ وَلِىَ دِينِ»
+  - activation: The focus seeks a path of one community and names those outside it; this passage makes religious separation explicit through reciprocal negation.
+  - limits: The passage does not call either worship group favored, wrathful, or astray, and it gives no shared route vocabulary.
+- **R-f-غير-نعم formula family** [reading; support strong, relevance high] 
+  - finding: The completion of God’s favor in 5:3 occurs within a legal passage that also states an exception for someone compelled by famine who does not incline to sin; 5:1 likewise joins covenant obligations with limits on hunting. Together they place favor and boundary language within communal practice.
+  - evidence: 5:1 «أُحِلَّتْ لَكُم بَهِيمَةُ ٱلْأَنْعَٰمِ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ غَيْرَ مُحِلِّى ٱلصَّيْدِ وَأَنتُمْ حُرُمٌ»; 5:3 «ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًۭا»; 5:3 «فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍۢ لِّإِثْمٍۢ»
+  - activation: The focus pairs divine favor with a ghayr boundary around excluded classes; these passages put related favor and restriction language in the life of a religious community.
+  - limits: The two occurrences of غَيْر here do not have the same syntax as 1:7, and these verses do not identify their community with the focus’s path.
+- **R-f-صرط-ضلل formula family** [reading; support strong, relevance high] 
+  - finding: This verse places those who deny signs in darkness and contrasts God’s causing someone to stray with placing someone on a straight path. It closely joins the focus’s path language to the root ض ل ل and divine guidance.
+  - evidence: 6:39 «مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The Fatiha asks for ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ and then names ٱلضَّآلِّينَ; this verse uses both the straight-path phrase and the straying root in one contrast.
+  - limits: The verse’s context concerns deniers of signs and does not identify them with the focus’s excluded classes.
+- **R-f-ضلل-غير formula family** [open; support strong, relevance high] 
+  - finding: These passages describe people misleading others by whims or false claims without knowledge, and one passage says the misleaders carry burdens for those they mislead. They offer a possible social source for people who end up astray, while the focus leaves the cause unstated.
+  - evidence: 6:119 «وَإِنَّ كَثِيرًۭا لَّيُضِلُّونَ بِأَهْوَآئِهِم بِغَيْرِ عِلْمٍ»; 6:144 «لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ»; 16:25 «وَمِنْ أَوْزَارِ ٱلَّذِينَ يُضِلُّونَهُم بِغَيْرِ عِلْمٍ»
+  - missing: A direct link is needed between those misled in these passages and the focus’s active-participle ٱلضَّآلِّينَ; the verses here foreground agents who mislead, not the grammatical category named in 1:7.
+- **R-2:16** [reading; support medium, relevance high] inter-ayah target
+  - finding: This verse depicts deviation as an exchange: people take الضلالة in place of guidance and are then described as not guided. It offers an instance where straying involves a human choice about guidance.
+  - evidence: 2:16 «ٱشْتَرَوُا۟ ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ فَمَا رَبِحَت تِّجَٰرَتُهُمْ وَمَا كَانُوا۟ مُهْتَدِينَ»
+  - activation: The focus ends with the active participle ٱلضَّآلِّينَ, while this verse pairs the related noun الضلالة with الهدى.
+  - limits: The noun in 2:16 is not the focus’s participle, and this account does not define everyone named in 1:7.
+- **R-2:61** [reading; support medium, relevance high] inter-ayah target
+  - finding: Here a demand to substitute what is lower for what is better precedes the report that they incurred wrath. The passage supplies one Quranic account in which a wrath outcome follows resistance and transgression.
+  - evidence: 2:61 «أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ»; 2:61 «وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ»
+  - activation: The focus pairs a class described by passive ٱلْمَغْضُوبِ with a path defined by divine favor.
+  - limits: The focus does not specify this episode, its conduct, or the identity of its participants.
+- **R-2:142** [reading; support medium, relevance high] inter-ayah target
+  - finding: In a dispute about the direction of prayer, guidance to a straight path is followed by a description of a community and a test of following the Messenger. This gives the path a public and directional dimension alongside the focus’s description of a people’s way.
+  - evidence: 2:142 «مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا»; 2:142 «يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 2:143 «جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا»
+  - activation: The focus repeats صراط and defines it through a plural community.
+  - limits: This does not make the focus’s path a literal prayer direction or identify its people with the community of 2:143.
+- **R-2:213** [reading; support medium, relevance high] inter-ayah target
+  - finding: This verse places guidance to a straight path amid disputes over revealed truth, including disputes driven by بغيا. It makes response to revelation and contention one possible frame for the focus’s opposed path groups.
+  - evidence: 2:213 «وَمَا ٱخْتَلَفَ فِيهِ إِلَّا ٱلَّذِينَ أُوتُوهُ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ بَغْيًۢا بَيْنَهُمْ»; 2:213 «فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ ۗ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍ»
+  - activation: The focus joins a straight path to categories whose distinction is not explained within 1:7 itself.
+  - limits: The verse does not identify its disputants or believers with the focus’s people.
+- **R-3:88** [reading; support medium, relevance high] inter-ayah target
+  - finding: The severe punishment in 3:88 is immediately qualified by an exception for those who repent and reform. This shows a Quranic condemned group whose stated outcome has a stated route of return.
+  - evidence: 3:88 «خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ»; 3:89 «إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ»
+  - activation: The focus excludes two classes from the requested path but gives no account of whether that exclusion can change.
+  - limits: These verses do not identify their punished group with either focus category or state that repentance applies to every case in 1:7.
+- **R-5:65** [reading; support medium, relevance high] inter-ayah target
+  - finding: The nearby People of the Book passage reports a curse in 5:64, then says that belief and taqwa would bring forgiveness and gardens in 5:65; it presents a possible change of outcome for a community under censure.
+  - evidence: 5:64 «وَلُعِنُوا۟ بِمَا قَالُوا۟»; 5:65 «وَلَوْ أَنَّ أَهْلَ ٱلْكِتَٰبِ ءَامَنُوا۟ وَٱتَّقَوْا۟»; 5:65 «لَكَفَّرْنَا عَنْهُمْ سَيِّـَٔاتِهِمْ»; 5:65 «وَلَأَدْخَلْنَٰهُمْ جَنَّٰتِ ٱلنَّعِيمِ»
+  - activation: The focus distinguishes favored recipients from those under anger; the neighboring conditional passage shows that a community criticized in the surah is offered a different outcome if it believes and is Godwary.
+  - limits: The focus does not identify its groups as the People of the Book, and 5:65 states a condition rather than reporting that they fulfilled it.
+- **R-6:71** [reading; support medium, relevance high] inter-ayah target
+  - finding: 6:71 imagines reversal after guidance as a bewildered person drawn away in the land while companions call him to guidance; this supplies a scene for what departure from the requested route can look like.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 6:71 «وَنُرَدُّ عَلَىٰٓ أَعْقَٰبِنَا بَعْدَ إِذْ هَدَىٰنَا ٱللَّهُ كَٱلَّذِى ٱسْتَهْوَتْهُ ٱلشَّيَٰطِينُ فِى ٱلْأَرْضِ حَيْرَانَ لَهُۥٓ أَصْحَٰبٌۭ يَدْعُونَهُۥٓ إِلَى ٱلْهُدَى ٱئْتِنَا»
+  - activation: The focus names the straying class, while 6:71 sets a return to old tracks against a call to guidance.
+  - limits: 6:71 does not use the focus's root ض ل ل or identify its bewildered figure as one of the focus's groups.
+- **R-7:140** [reading; support medium, relevance high] inter-ayah target
+  - finding: Moses confronts his people with a pointed contrast: God `فضل` them, yet they seek another deity; the favor language makes their alternative worship a betrayal of received distinction.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 7:140 «أَغَيْرَ ٱللَّهِ أَبْغِيكُمْ إِلَٰهًۭا وَهُوَ فَضَّلَكُمْ عَلَى ٱلْعَٰلَمِينَ»
+  - activation: The focus's bestowal of favor meets Moses's charge that a favored people seek a deity other than God.
+  - limits: The verse uses فضل rather than the focus's root ن ع م, and it does not equate this people with all recipients of favor in 1:7.
+- **R-17:73** [reading; support medium, relevance high] inter-ayah target
+  - finding: The root غ-ي-ر also appears where opponents seek something other than the revelation after trying to turn the messenger away from it; this gives the focus’s exclusion word a possible resonance of guarding against an alternate course.
+  - evidence: 17:73 «وَإِن كَادُوا۟ لَيَفْتِنُونَكَ عَنِ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُۥ»
+  - activation: The focus uses غَيْرِ to mark a boundary around the requested path; this passage uses the same root in a pressure to substitute another message.
+  - limits: The construction and object differ: 1:7 excludes people from the path, while 17:73 concerns a proposed replacement for revelation.
+- **R-24:21** [reading; support medium, relevance high] inter-ayah target
+  - finding: The wrong course is pictured as a sequence of Satan’s steps, while divine favor and mercy are named as what makes purification possible; the contrast gives the focus’s path a process dimension.
+  - evidence: 24:21 «لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًۭا»
+  - activation: The focus asks for a path and excludes people on a contrary course; this passage describes following a sequence of steps and the need for divine favor.
+  - limits: It does not use the focus’s path or favor terminology, and does not label Satan’s followers as the focus’s groups.
+- **R-33:56** [reading; support medium, relevance high] inter-ayah target
+  - finding: The scene places a commanded salutation upon the Prophet beside God's curse on those who harm Him and His Messenger. This gives the focus's favored and angered sides a concrete adjacent contrast of honor and rejection.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ»; 33:56 «إِنَّ ٱللَّهَ وَمَلَٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ»; 33:57 «إِنَّ ٱلَّذِينَ يُؤْذُونَ ٱللَّهَ وَرَسُولَهُۥ لَعَنَهُمُ ٱللَّهُ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ»
+  - activation: The focus juxtaposes favor with incurring anger; these neighboring verses set salutation and curse side by side.
+  - limits: Salat and laʿn are not the focus's words for favor and anger, and the passages do not identify their groups as identical.
+- **R-f-ضلل-نعم formula family** [reading; support medium, relevance high] 
+  - finding: Both verses compare a heedless group to livestock and call them more astray. Since أَنْعَٰمِكُمْ in the focus’s Quranic root family is audible beside أَنْعَمْتَ, the pairing can create a sharp contrast between divine favor and a community described as animal-like and more astray.
+  - evidence: 7:179 «أُو۟لَٰٓئِكَ كَٱلْأَنْعَٰمِ بَلْ هُمْ أَضَلُّ»; 25:44 «إِنْ هُمْ إِلَّا كَٱلْأَنْعَٰمِ ۖ بَلْ هُمْ أَضَلُّ سَبِيلًا»
+  - activation: The focus joins أَنْعَمْتَ and ٱلضَّآلِّينَ; these verses place the livestock term and a form of ض ل ل together in the same comparison.
+  - limits: The livestock noun is not the focus’s verb of favor, and neither verse identifies its group with the focus’s classes or establishes a wordplay between the two forms.
+- **R-2:122** [open; support medium, relevance high] inter-ayah target
+  - finding: The reminder of favor follows a description of people who faithfully recite scripture and precedes another warning of judgment. Its placement could make the favor reminder sound like a test of response to revelation rather than an inherited title.
+  - evidence: 2:121 «أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ»; 2:122 «أَنْعَمْتُ عَلَيْكُمْ وَأَنِّى فَضَّلْتُكُمْ عَلَى ٱلْعَٰلَمِينَ»; 2:123 «وَٱتَّقُوا۟ يَوْمًۭا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍۢ شَيْـًۭٔا»
+  - missing: The sequence does not explicitly identify the scripture-reciting people with the recipients of favor; a parallel passage making that link would establish the proposed relation.
+- **R-4:88** [open; support medium, relevance high] inter-ayah target
+  - finding: In this dispute about the hypocrites, the verse names God as the agent of straying and says no path will be found for one whom He misleads. The focus’s active participle leaves that causal relation unstated.
+  - evidence: 4:88 «أَتُرِيدُونَ أَن تَهْدُوا۟ مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًۭا»
+  - missing: A Quranic passage identifying whether the focus’s ٱلضَّآلِّينَ includes people described as those God misleads could establish how the two descriptions relate.
+- **R-15:41** [open; support medium, relevance high] inter-ayah target
+  - finding: After Satan’s declaration, God says هَٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ, closely joining a straight path with the preceding dispute over misleading and protected servants.
+  - evidence: 15:41 «قَالَ هَٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ»; 15:40 «إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ»
+  - missing: The excerpt does not settle what عَلَيَّ contributes here or what هَٰذَا points back to; grammatical and contextual evidence from the surrounding passage could decide whether the phrase stresses a path under God’s claim, a promise, or another relation.
+- **R-15:87** [open; support medium, relevance high] inter-ayah target
+  - finding: The mention of seven oft-repeated units makes the seven-verse Fatiha a plausible referent; if so, 1:7 closes the named recited unit.
+  - evidence: 15:87 «وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: This verse does not name the seven as the Fatiha; evidence identifying the referent would establish whether the focus functions as the ending of the seven oft-repeated.
+- **R-26:20** [open; support medium, relevance high] inter-ayah target
+  - finding: Moses describes his earlier state as being among ٱلضَّآلِّينَ, then recounts flight and the gift of judgment and prophethood; if the phrase is situational rather than doctrinal, it would make straying a bounded state that can precede favor.
+  - evidence: 26:20 «قَالَ فَعَلْتُهَآ إِذًۭا وَأَنَا۠ مِنَ ٱلضَّآلِّينَ»; 26:21 «فَفَرَرْتُ مِنكُمْ لَمَّا خِفْتُكُمْ فَوَهَبَ لِى رَبِّى حُكْمًۭا وَجَعَلَنِى مِنَ ٱلْمُرْسَلِينَ»
+  - missing: A lexical sense and fuller contextual evidence are needed to decide whether ٱلضَّآلِّينَ here means doctrinally astray, mistaken, or unaware in the earlier incident; that would decide how closely the trajectory bears on 1:7.
+- **R-26:86** [open; support medium, relevance high] inter-ayah target
+  - finding: Abraham calls his father one of ٱلضَّآلِّينَ while asking God to forgive him, placing a plea for a straying relative beside the focus’s excluded class.
+  - evidence: 26:86 «وَٱغْفِرْ لِأَبِىٓ إِنَّهُۥ كَانَ مِنَ ٱلضَّآلِّينَ»
+  - missing: The passage supplied here does not give the outcome of this plea or resolve the father’s final standing; those details could establish how this intercession relates to the focus’s boundary.
+- **R-26:101** [open; support medium, relevance high] inter-ayah target
+  - finding: The lament that there is no intimate friend follows the claim that criminals led the speakers astray and precedes their wish to return as believers; this may connect straying with the loss of companionship at judgment.
+  - evidence: 26:99 «وَمَآ أَضَلَّنَآ إِلَّا ٱلْمُجْرِمُونَ»; 26:101 «وَلَا صَدِيقٍ حَمِيمٍۢ»; 26:102 «فَلَوْ أَنَّ لَنَا كَرَّةًۭ فَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ»
+  - missing: The excerpt does not identify these speakers with the focus’s ٱلضَّآلِّينَ; their identity and the relation between their judgment scene and the focus’s class would decide the connection.
+- **R-26:133** [open; support medium, relevance high] inter-ayah target
+  - finding: The people are supplied with أَنْعَامٍۢ alongside sons, gardens, and springs; the livestock word shares the root shown for أَنْعَمْتَ, potentially giving divine favor a concrete provision association here.
+  - evidence: 26:132 «وَٱتَّقُوا۟ ٱلَّذِىٓ أَمَدَّكُم بِمَا تَعْلَمُونَ»; 26:133 «أَمَدَّكُم بِأَنْعَٰمٍۢ وَبَنِينَ»; 26:134 «وَجَنَّٰتٍۢ وَعُيُونٍ»
+  - missing: A dictionary account of the root’s relation between the favor verb and the livestock noun is needed to establish a lexical resonance rather than a shared-root coincidence.
+- **R-27:58** [open; support medium, relevance high] inter-ayah target
+  - finding: The Lot episode separates those rescued from the wife counted among those left behind, followed by a mention of God’s chosen servants; this scene may supply a narrative shape for favored and excluded outcomes.
+  - evidence: 27:57 «فَأَنجَيْنَٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَٰهَا مِنَ ٱلْغَٰبِرِينَ»; 27:58 «وَأَمْطَرْنَا عَلَيْهِم مَّطَرًۭا ۖ فَسَآءَ مَطَرُ ٱلْمُنذَرِينَ»; 27:59 «قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ»
+  - missing: No path, guidance, favor, or wrath-incurrence term explicitly links the rescued and left-behind people to the focus’s classes; a textual identification elsewhere could strengthen the analogy.
+- **R-31:20** [open; support medium, relevance high] inter-ayah target
+  - finding: The verse places God's abundant favors upon people beside the presence of disputants with neither knowledge nor guidance. This may distinguish receiving worldly favors from belonging to the focus's guided, favored path.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 31:20 «وَأَسْبَغَ عَلَيْكُمْ نِعَمَهُۥ ظَٰهِرَةًۭ وَبَاطِنَةًۭ ۗ وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَلَا هُدًۭى»
+  - missing: The verse does not say whether the disputants are the same people who receive these favors, or whether these favors mean the spiritual favor of 1:7. A passage explicitly linking a favor-recipient to disputation or guidance status could decide whether the juxtaposition is intentional.
+- **R-32:10** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus's al-ḍāllīn and 32:10's ḍalalnā share a root, but the latter describes becoming lost or dispersed in the earth in a question about bodily resurrection. A broader sense of loss may be relevant to how the focus's final word is heard.
+  - evidence: 1:7 «ٱلضَّآلِّينَ»; 32:10 «أَءِذَا ضَلَلْنَا فِى ٱلْأَرْضِ أَءِنَّا لَفِى خَلْقٍۢ جَدِيدٍۭ»
+  - missing: The forms and scenes differ. A dictionary sense or another Quranic occurrence showing the noun al-ḍāllīn used for physical disappearance would establish whether that sense can carry into 1:7.
+- **R-36:66** [open; support medium, relevance high] inter-ayah target
+  - finding: The definite al-ṣirāṭ in 36:66 is something people rush toward but cannot see if their eyes are blotted out. Against the plea for guidance in 1:6, this may make access to the path depend on sight granted by God.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 36:65 «ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ»; 36:66 «فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ»
+  - missing: The immediate context concerns bodily signs and judgment, not explicitly moral guidance. Another passage identifying this ṣirāṭ with the moral straight path or with guidance through sight could establish the connection.
+- **R-46:28** [open; support medium, relevance high] inter-ayah target
+  - finding: After asking why the invoked deities did not help, the verse says بَلْ ضَلُّوا۟ عَنْهُمْ, which may depict the deities as lost or absent from their worshippers; this is a possible nonmoral use beside the focus’s human class ضالين.
+  - evidence: 46:28 «فَلَوْلَا نَصَرَهُمُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ قُرْبَانًا ءَالِهَةًۢ ۖ بَلْ ضَلُّوا۟ عَنْهُمْ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - missing: A dictionary account or additional Quranic examples could establish whether the root’s sense of being lost or absent bears on ضالين in 1:7; this scene alone does not make the deities’ loss equivalent to human misguidance.
+- **R-68:26** [open; support medium, relevance high] inter-ayah target
+  - finding: The orchard owners exclaim لَضَآلُّونَ when they see the expected garden gone, then correct themselves as deprived; the root can describe being lost or mistaken outside a moral classification.
+  - evidence: 68:26 «فَلَمَّا رَأَوْهَا قَالُوٓا۟ إِنَّا لَضَآلُّونَ»; 68:27 «بَلْ نَحْنُ مَحْرُومُونَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - missing: A dictionary sense distinction or more Quranic examples could show whether this lostness or mistaken-recognition sense bears on the focus’s plural participle; this scene alone does not make the orchard owners morally astray.
+- **related_6.X3** [open; support medium, relevance high] 
+  - finding: Thamud receive guidance and choose blindness in 41:17; in 61:5, deviation precedes God turning the people’s hearts and withholding guidance. Together these episodes suggest a sequence from refusal to further loss of direction.
+  - evidence: 41:17 «فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ»; 61:5 «فَلَمَّا زَاغُوٓا۟ أَزَاغَ ٱللَّهُ قُلُوبَهُمْ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَٰسِقِينَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - missing: Both narratives show an order within their own scenes, but neither identifies the people as the focus’s ضالين or مغضوب عليهم. A passage explicitly linking those labels to such a sequence could establish the chain.
+- **R-109:1** [open; support medium, relevance high] inter-ayah target
+  - finding: The surah addresses ٱلْكَٰفِرُونَ before drawing a worship boundary. The audience could overlap with one of the focus’s excluded classes, but the opening does not establish that mapping.
+  - evidence: 109:1 «قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: A passage explicitly connecting disbelievers with ٱلْمَغْضُوبِ عَلَيْهِمْ or ٱلضَّآلِّينَ could establish whether these categories overlap.
+- **R-5:5** [reading; support strong, relevance medium] inter-ayah target
+  - finding: In 5:5, `غير` and `ولا` coordinate two exclusions after `محصنين`; this is a Quranic example of defining a positive state partly by what is excluded, as the focus bounds the favored route by two classes.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 5:5 «مُحْصِنِينَ غَيْرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخْدَانٍۢ»
+  - activation: The focus's `غير ... ولا` construction matches the coordinated exclusion in 5:5.
+  - limits: The parallel is in construction; the conduct and excluded classes in 5:5 are not equated with the focus's groups.
+- **R-17:15** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Guidance benefits the person who follows it, while deviation burdens the person who strays; the focus’s plural class label does not itself assign one person’s guilt to another.
+  - evidence: 17:15 «مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ»
+  - activation: The verse shares the focus’s guidance and deviation vocabulary and explicitly states who bears each outcome.
+  - limits: It does not define the people meant by the focus’s favored and excluded groups.
+- **R-18:17** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The guidance-versus-deviation maxim is placed inside the story of the youths’ refuge, after their appeal for mercy; their shelter gives a narrative instance of divine care alongside the general statement.
+  - evidence: 18:16 «فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ»; 18:17 «مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّۭا مُّرْشِدًۭا»
+  - activation: The focus asks for the path of those favored; this story joins a guidance formula to a group seeking refuge and mercy.
+  - limits: The passage does not call the youths ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ or equate their refuge with the focus’s path.
+- **R-23:23** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Noah’s call makes exclusive worship the recurring prophetic boundary: his people have no deity other than God. Read with the Fatiha’s worship petition, this places the requested route within a repeated monotheistic summons.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 23:23 «وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ»
+  - activation: The focus is the requested way after the Fatiha’s exclusive worship statement; Noah’s call also defines worship by excluding every other deity.
+  - limits: The passage does not call this call a straight path or identify Noah’s audience as the focus’s favored group.
+- **R-23:32** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The same exclusive-worship command recurs when another messenger is sent among a later people, making the prophetic summons a repeated course across communities rather than a single historical appeal.
+  - evidence: 23:23 «فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ»; 23:32 «فَأَرْسَلْنَا فِيهِمْ رَسُولًۭا مِّنْهُمْ أَنِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ»
+  - activation: The focus specifies a route through a favored community; these successive prophetic scenes repeat the exclusive worship call that frames such a route.
+  - limits: The passage does not identify the messengers’ peoples as the focus’s favored group or name a path.
+- **R-88:8** [reading; support medium, relevance medium] inter-ayah target
+  - finding: The pleasant faces are satisfied with their striving. This links the n-ʿ-m family’s comfort with a lived outcome associated here with effort, rather than with worldly luxury alone.
+  - evidence: 88:8 «وُجُوهٌۭ يَوْمَئِذٍۢ نَّاعِمَةٌۭ»; 88:9 «لِّسَعْيِهَا رَاضِيَةٌۭ»
+  - activation: The focus’s أَنْعَمْتَ names divine favor; the related adjective describes a pleasant state alongside satisfaction with striving.
+  - limits: The verses do not say that the pleasant state is itself the focus’s favor or identify these faces with its favored people.
+- **R-2:282** [open; support medium, relevance medium] inter-ayah target
+  - finding: In the witness instructions, the verb تَضِلَّ describes one woman’s lapse, followed by the other reminding her. This root use could broaden how straying is heard, but the construction differs from the focus’s participle naming people.
+  - evidence: 2:282 «أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ»
+  - missing: A dictionary account or another Quranic parallel would be needed to establish whether the lapse sense of this verb informs the semantic range of the focus’s plural participle.
+- **R-6:93** [open; support medium, relevance medium] inter-ayah target
+  - finding: After the false claims and punishment in 6:93, 6:94 says that what the people claimed has `ضل عنكم`—gone from them. The shared root may connect human straying with the loss of supposed supports.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 6:94 «وَضَلَّ عَنكُم مَّا كُنتُمْ تَزْعُمُونَ»
+  - missing: The subject of `ضل` in 6:94 is what the people claimed, not the people themselves. Broader Quranic usage or a dictionary sense showing whether this loss-image informs the human class `الضالين` could establish the connection.
+- **R-10:62** [open; support medium, relevance medium] inter-ayah target
+  - finding: The next verse identifies God’s allies as believers who practice taqwa and describes them as free of fear and grief; this may illuminate the positive community implied by the focus’s favored people.
+  - evidence: 10:62 «أَلَآ إِنَّ أَوْلِيَآءَ ٱللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ»; 10:63 «ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ»
+  - missing: The passage does not identify these allies with ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ; an explicit Quranic link between the two descriptions could establish whether they are parallel groups.
+- **R-37:137** [open; support medium, relevance medium] inter-ayah target
+  - finding: The passage says people pass by those who were destroyed in Lot's story, potentially making condemned peoples visible as historical warnings beside the focus's excluded classes.
+  - evidence: 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 37:136 «ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ»; 37:137 «وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِم مُّصْبِحِينَ»
+  - missing: The passage identifies the people as destroyed but does not call them al-maghdūb or al-ḍāllīn. An ayah explicitly describing their rejection or assigning either label would establish the link.
+- **R-42:42** [open; support medium, relevance medium] inter-ayah target
+  - finding: The verse says liability falls on people who wrong others and transgress in the earth; this may give conduct markers for a failed course alongside the focus’s excluded classes.
+  - evidence: 42:42 «إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَظْلِمُونَ ٱلنَّاسَ وَيَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ»; 42:43 «وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ ٱلْأُمُورِ»
+  - missing: The passage uses السبيل in a liability construction, not as the focus’s requested صراط, and does not identify the wrongdoers as المغضوب عليهم or الضالين. A parallel naming those groups or their path could decide whether this is a substantive connection.
+- **R-47:12** [open; support medium, relevance medium] inter-ayah target
+  - finding: Believers and disbelievers are set beside contrasting outcomes: entry into gardens for the former, and fire as the latter’s home.
+  - evidence: 47:12 «إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍۢ»; 47:12 «وَٱلَّذِينَ كَفَرُوا۟ يَتَمَتَّعُونَ وَيَأْكُلُونَ كَمَا تَأْكُلُ ٱلْأَنْعَٰمُ وَٱلنَّارُ مَثْوًۭى لَّهُمْ»
+  - missing: The contrasting destinations could give an outcome dimension to the focus’s path and exclusions, but this verse does not identify its believers or disbelievers with the three groups in 1:7. A passage making that identification could establish the link.
+- **R-79:33** [open; support medium, relevance medium] inter-ayah target
+  - finding: The noun أَنْعَٰمِكُمْ shares the n-ʿ-m root with أَنْعَمْتَ, but here it names livestock in a provision scene. A root echo could place divine favor beside material sustenance shared with animals.
+  - evidence: 79:33 «مَتَٰعًۭا لَّكُمْ وَلِأَنْعَٰمِكُمْ»
+  - missing: A dictionary or broader Quranic usage evidence is needed to establish whether the livestock term carries a sense connected with ease or favor; this verse alone does not activate that sense.
+- **R-105:2** [open; support medium, relevance medium] inter-ayah target
+  - finding: The root ض ل ل is applied here to a hostile plan placed in تَضْلِيلٍ, followed by the destruction of its owners. This may connect straying with the failure or undoing of a course of action, but the focus names people rather than a plan.
+  - evidence: 105:2 «أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ»; 105:3 «وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ»
+  - missing: A lexical account of تَضْلِيلٍ in this construction could establish whether it means misdirection, failure, or ruin here; the passage does not equate a failed plot with ٱلضَّآلِّينَ.
+- **R-40:79** [open; support weak, relevance medium] inter-ayah target
+  - finding: The shared root raises a possible material echo: 40:79 describes cattle as a divine provision for riding and food, while 1:7 names divine favor.
+  - evidence: 1:7 «أَنْعَمْتَ عَلَيْهِمْ»; 40:79 «ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَنْعَٰمَ لِتَرْكَبُوا۟ مِنْهَا وَمِنْهَا تَأْكُلُونَ»
+  - missing: A dictionary account or further Quranic examples could establish whether the cattle term and the verb of bestowing favor share an active semantic association; this passage calls cattle useful but does not call them favor or connect them to the path.
+- **R-100:3** [open; support weak, relevance medium] inter-ayah target
+  - finding: ٱلْمُغِيرَٰتِ names raiders at dawn and may share a root with غَيْرِ. If so, it could add a form associated with alteration or attack to the focus’s exclusion word, but the scene itself gives no path connection.
+  - evidence: 100:3 «فَٱلْمُغِيرَٰتِ صُبْحًۭا»
+  - missing: A lexical source is needed to establish whether ٱلْمُغِيرَٰتِ belongs to the غ ي ر root and whether its raid sense is related to غَيْرِ. The supplied scene does not decide either point.
+
+Notes:
+- R-2:47 [support strong, relevance medium] The reminder of favor is paired with a claim of distinction, then followed by a warning about the Day when one soul cannot avail another. This keeps favored status from implying immunity from accountability.
+- R-3:69 [support strong, relevance medium] The people who try to mislead believers are said to mislead only themselves. This distinguishes the causative act يُضِلُّونَكُمْ from the focus’s participle naming those who are astray.
+- R-10:15 [support strong, relevance medium] The same word غَيْر marks a requested Quran other than the one recited, while in the focus it marks the excluded classes relative to the requested path.
+- R-14:4 [support strong, relevance medium] Messengers speak in their people’s language to clarify, followed by a statement that God guides whom He wills and leads astray whom He wills.
+- R-16:72 [support strong, relevance medium] Provision of spouses, children, descendants, and good things is followed by a charge that people disbelieve in God’s favor, giving a household scale to failure to acknowledge نعمة.
+- R-17:67 [support strong, relevance medium] Here ضَلَّ is predicated of those the people call upon, who become unavailable in the sea; this verse does not by itself label those invoked as human strayers.
+- R-21:87 [support strong, relevance medium] Jonah is described with a cognate of غ-ض-ب as departing in anger, then calls himself among the wrongdoers and is rescued; that active role differs from the focus’s passive ٱلْمَغْضُوبِ عَلَيْهِمْ.
+- R-24:9 [support strong, relevance medium] This oath names God’s anger upon a woman as a conditional judicial outcome; unlike the focus’s passive participle, it names God as the agent and states the condition.
+- R-26:29 [support strong, relevance medium] Pharaoh threatens Moses for taking a deity other than himself, using غَيْرَ to police allegiance; this is a striking inversion of the focus’s exclusion, though the focus’s boundary serves a different speaker and end.
+- related_4.X1 [support strong, relevance medium] The path requested as ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ in 1:6 is specified in 1:7 through a human company and its exclusions, shifting the description from a quality of the path to who exemplifies and falls outside it.
+- R-42:37 [support strong, relevance medium] Here people who become angry forgive; the shared غضب root therefore does not make human anger itself equivalent to being among the focus’s المغضوب عليهم.
+- R-47:8 [support strong, relevance medium] Here the causative أَضَلَّ again takes deeds as its object, not people; the following verse attributes the outcome to their hatred of what God sent down.
+- R-47:15 [support strong, relevance medium] The passage contrasts a promised garden and forgiveness from the Lord with eternal fire, supplying a destination contrast for the focus’s path language.
+- R-47:38 [support strong, relevance medium] Being called to spend in God’s way makes the way a concrete communal response; some withhold, and turning away leaves room for another people to replace them.
+- R-51:36 [support strong, relevance medium] After a negative statement about finding anyone there, غَيْرَ بَيْتٍ singles out one Muslim household; the same word can mark an exception rather than a condemned quality.
+- R-53:2 [support strong, relevance medium] The revelation-bearing companion is explicitly denied both ضلّ and غوى, a counterexample to treating any human assertion of misguidance as a settled description.
+- R-67:10 [support strong, relevance medium] The condemned speakers say that listening or reasoning would have kept them from the companions of the Blaze, connecting their failed course with neglected perception and thought.
+- R-76:19 [support strong, relevance medium] The blessed recipients have attendants circulating around them. The shared عَلَيْهِمْ keeps attention on people as recipients, though here the preposition describes service around them rather than favor bestowed upon them.
+- R-89:13 [support strong, relevance medium] After describing a people who spread corruption, the passage explicitly names the Lord as pouring punishment upon them. This resembles the affected-person construction in ٱلْمَغْضُوبِ عَلَيْهِمْ while making the agent explicit.
+- R-105:3 [support strong, relevance medium] The elephant narrative makes an adverse act upon a hostile group explicit: the Lord sends birds against them. This is a narrative counterpart to the affected people named by عَلَيْهِمْ in the focus.
+- R-1:3 [support medium, relevance medium] The repeated mercy names stand immediately before ownership of the Day of Recompense, placing the later route distinction within a sequence of mercy and accountability.
+- R-2:152 [support medium, relevance medium] The command to remember God and give thanks names gratitude as a response to divine benefaction, a response left unstated in the focus’s description of favored people.
+- R-7:162 [support medium, relevance medium] The preceding command pairs obedience with forgiveness, while 7:162 says wrongdoers substituted another saying and punishment was sent upon them; this gives a concrete instance of defying guidance with a punitive outcome.
+- R-7:202 [support medium, relevance medium] The verse depicts companions extending others in error without relenting, supplying a social mechanism by which people may remain astray.
+- R-10:23 [support medium, relevance medium] People rescued from danger then act unjustly on earth, showing a change in conduct after a divine deliverance.
+- R-12:57 [support medium, relevance medium] The surah associates a better afterlife reward with people who believe and practice taqwa, offering one profile of a positively rewarded community.
+- R-30:31 [support medium, relevance medium] The adjacent commands to turn to God, practice taqwa and prayer, and avoid shirk give the focus's path boundary a practical orientation; the previous verse calls the religion upright.
+- R-31:31 [support medium, relevance medium] A ship moving by God's favor becomes a sign, and the next verse depicts rescue followed by differing responses. This gives received favor a frame of recognition and gratitude.
+- R-34:13 [support medium, relevance medium] After extraordinary provision and abilities for Solomon, his household is told to work in gratitude. This frames divine gift as something that calls for a response.
+- R-35:20 [support medium, relevance medium] The surrounding passage stacks pairs that do not equal one another: blind and seeing, darkness and light, shade and heat, living and dead. This supplies a sensory pattern for hearing the focus's contrasting path communities.
+- R-35:37 [support medium, relevance medium] Those in the Fire ask to return and do righteous work, but are reminded that they had time and a warner. This gives the focus's path distinction the weight of a choice whose consequences cannot be undone in that scene.
+- R-36:27 [support medium, relevance medium] A man entering Paradise says his Lord forgave him and made him one of the honored. This offers a personal outcome that can sit beside the focus's path of divine favor.
+- R-39:61 [support medium, relevance medium] After the preceding image of darkened faces in Hell, God saves those mindful of Him so evil does not touch them and they do not grieve. This gives the focus's favorable side a concrete rescue outcome.
+- R-43:32 [support medium, relevance medium] The verse rejects human allocation of the Lord’s mercy and distinguishes it from worldly provision and rank, sharpening the focus’s portrayal of favor as something God bestows.
+- R-14:48 [support strong, relevance low] The same word غَيْر appears in a scene where the earth is replaced by another earth, while the focus uses it to delimit the people associated with the path.
+- R-16:18 [support strong, relevance low] God’s favors are beyond enumeration, with forgiveness and mercy named; this broadens the scale of favor but supplies no particular path community.
+- R-23:6 [support strong, relevance low] Here غَيْرُ qualifies the believers as not blameworthy; it shows a negating use of the same word that excludes a class in the focus, though its syntax differs.
+- R-24:29 [support strong, relevance low] غَيْرَ here marks houses as uninhabited, a simple absence of a property rather than exclusion of a human class; it provides a lexical contrast for the focus’s boundary use.
+- R-33:53 [support strong, relevance low] Both verses use ghayr to mark a boundary: the focus excludes a class from its path, while 33:53 restricts entry by describing visitors who are not waiting for a meal.
+- R-42:18 [support strong, relevance low] Those who dispute the Hour are called far astray, while believers are wary of it and know it is true.
+- R-50:31 [support strong, relevance low] In the garden promise, غَيْرَ بَعِيدٍ means the garden is not far; the word’s force depends on its construction and complement, not an inherently hostile sense.
+- R-70:30 [support strong, relevance low] غَيْرُ مَلُومِينَ describes people as not blameworthy; it shares غَيْر followed by a passive participle with the focus, but does not exclude a group from a route.
+- R-74:10 [support strong, relevance low] Here غَيْرُ modifies يَسِيرٍ to describe a day as not easy for disbelievers; it is a negative qualification, unlike the focus’s genitive boundary before a named class.
+- R-77:23 [support strong, relevance low] The formula فَنِعْمَ ٱلْقَٰدِرُونَ uses the n-ʿ-m root in praise of divine power, a distinct form and function from the focus’s verb أَنْعَمْتَ.
+- R-1:4 [support medium, relevance low] The Day of Recompense places the distinction between paths in an accountability horizon.
+- R-21:112 [support medium, relevance low] This is another direct petition to God, asking for judgment by truth and naming the Merciful as the one sought for help; it echoes the prayer register around the focus.
+- R-37:43 [support medium, relevance low] The nearby description of honored people in gardens of bliss gives a concrete reward scene that can accompany the focus's path of divine favor.
+- R-52:17 [support medium, relevance low] The God-conscious are placed in gardens and bliss after the preceding threat of fire, giving a broad reward contrast alongside the focus’s route distinction.
+- R-1:1 [support weak, relevance low] The opening names Allah as al-Raḥmān and al-Raḥīm before the surah reaches its request for a path bounded by favor and wrath.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:16 أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ فَمَا رَبِحَت تِّجَٰرَتُهُمْ وَمَا كَانُوا۟ مُهْتَدِينَ
+- 2:40 يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ وَإِيَّٰىَ فَٱرْهَبُونِ
+- 2:47 يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَنِّى فَضَّلْتُكُمْ عَلَى ٱلْعَٰلَمِينَ
+- 2:48 وَٱتَّقُوا۟ يَوْمًۭا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍۢ شَيْـًۭٔا وَلَا يُقْبَلُ مِنْهَا شَفَٰعَةٌۭ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌۭ وَلَا هُمْ يُنصَرُونَ
+- 2:61 وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍۢ وَٰحِدٍۢ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًۭا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ
+- 2:90 بِئْسَمَا ٱشْتَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ أَن يَكْفُرُوا۟ بِمَآ أَنزَلَ ٱللَّهُ بَغْيًا أَن يُنَزِّلَ ٱللَّهُ مِن فَضْلِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ فَبَآءُو بِغَضَبٍ عَلَىٰ غَضَبٍۢ ۚ وَلِلْكَٰفِرِينَ عَذَابٌۭ مُّهِينٌۭ
+- 2:108 أَمْ تُرِيدُونَ أَن تَسْـَٔلُوا۟ رَسُولَكُمْ كَمَا سُئِلَ مُوسَىٰ مِن قَبْلُ ۗ وَمَن يَتَبَدَّلِ ٱلْكُفْرَ بِٱلْإِيمَٰنِ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ
+- 2:121 ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَتْلُونَهُۥ حَقَّ تِلَاوَتِهِۦٓ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۗ وَمَن يَكْفُرْ بِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 2:122 يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَنِّى فَضَّلْتُكُمْ عَلَى ٱلْعَٰلَمِينَ
+- 2:123 وَٱتَّقُوا۟ يَوْمًۭا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍۢ شَيْـًۭٔا وَلَا يُقْبَلُ مِنْهَا عَدْلٌۭ وَلَا تَنفَعُهَا شَفَٰعَةٌۭ وَلَا هُمْ يُنصَرُونَ
+- 2:142 ۞ سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا ۚ قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 2:143 وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًۭا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 2:152 فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ
+- 2:198 لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًۭا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَٰتٍۢ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ
+- 2:213 كَانَ ٱلنَّاسُ أُمَّةًۭ وَٰحِدَةًۭ فَبَعَثَ ٱللَّهُ ٱلنَّبِيِّۦنَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ ٱلْكِتَٰبَ بِٱلْحَقِّ لِيَحْكُمَ بَيْنَ ٱلنَّاسِ فِيمَا ٱخْتَلَفُوا۟ فِيهِ ۚ وَمَا ٱخْتَلَفَ فِيهِ إِلَّا ٱلَّذِينَ أُوتُوهُ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ بَغْيًۢا بَيْنَهُمْ ۖ فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ ۗ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍ
+- 2:282 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًۭٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 3:51 إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 3:69 وَدَّت طَّآئِفَةٌۭ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ
+- 3:88 خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ
+- 3:89 إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 3:90 إِنَّ ٱلَّذِينَ كَفَرُوا۟ بَعْدَ إِيمَٰنِهِمْ ثُمَّ ٱزْدَادُوا۟ كُفْرًۭا لَّن تُقْبَلَ تَوْبَتُهُمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلضَّآلُّونَ
+- 3:100 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ فَرِيقًۭا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ يَرُدُّوكُم بَعْدَ إِيمَٰنِكُمْ كَٰفِرِينَ
+- 3:101 وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 3:112 ضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ أَيْنَ مَا ثُقِفُوٓا۟ إِلَّا بِحَبْلٍۢ مِّنَ ٱللَّهِ وَحَبْلٍۢ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ وَضُرِبَتْ عَلَيْهِمُ ٱلْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّۢ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ
+- 3:113 ۞ لَيْسُوا۟ سَوَآءًۭ ۗ مِّنْ أَهْلِ ٱلْكِتَٰبِ أُمَّةٌۭ قَآئِمَةٌۭ يَتْلُونَ ءَايَٰتِ ٱللَّهِ ءَانَآءَ ٱلَّيْلِ وَهُمْ يَسْجُدُونَ
+- 4:60 أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ ءَامَنُوا۟ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّٰغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَٰنُ أَن يُضِلَّهُمْ ضَلَٰلًۢا بَعِيدًۭا
+- 4:68 وَلَهَدَيْنَٰهُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 4:69 وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًۭا
+- 4:88 ۞ فَمَا لَكُمْ فِى ٱلْمُنَٰفِقِينَ فِئَتَيْنِ وَٱللَّهُ أَرْكَسَهُم بِمَا كَسَبُوٓا۟ ۚ أَتُرِيدُونَ أَن تَهْدُوا۟ مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًۭا
+- 4:93 وَمَن يَقْتُلْ مُؤْمِنًۭا مُّتَعَمِّدًۭا فَجَزَآؤُهُۥ جَهَنَّمُ خَٰلِدًۭا فِيهَا وَغَضِبَ ٱللَّهُ عَلَيْهِ وَلَعَنَهُۥ وَأَعَدَّ لَهُۥ عَذَابًا عَظِيمًۭا
+- 4:115 وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا
+- 4:116 إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدْ ضَلَّ ضَلَٰلًۢا بَعِيدًا
+- 4:119 وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّۭا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًۭا مُّبِينًۭا
+- 4:136 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ ۚ وَمَن يَكْفُرْ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ وَٱلْيَوْمِ ٱلْءَاخِرِ فَقَدْ ضَلَّ ضَلَٰلًۢا بَعِيدًا
+- 4:167 إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ قَدْ ضَلُّوا۟ ضَلَٰلًۢا بَعِيدًا
+- 4:175 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍۢ مِّنْهُ وَفَضْلٍۢ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 5:1 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَوْفُوا۟ بِٱلْعُقُودِ ۚ أُحِلَّتْ لَكُم بَهِيمَةُ ٱلْأَنْعَٰمِ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ غَيْرَ مُحِلِّى ٱلصَّيْدِ وَأَنتُمْ حُرُمٌ ۗ إِنَّ ٱللَّهَ يَحْكُمُ مَا يُرِيدُ
+- 5:3 حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًۭا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍۢ لِّإِثْمٍۢ ۙ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 5:5 ٱلْيَوْمَ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ ۖ وَطَعَامُ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ حِلٌّۭ لَّكُمْ وَطَعَامُكُمْ حِلٌّۭ لَّهُمْ ۖ وَٱلْمُحْصَنَٰتُ مِنَ ٱلْمُؤْمِنَٰتِ وَٱلْمُحْصَنَٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخْدَانٍۢ ۗ وَمَن يَكْفُرْ بِٱلْإِيمَٰنِ فَقَدْ حَبِطَ عَمَلُهُۥ وَهُوَ فِى ٱلْءَاخِرَةِ مِنَ ٱلْخَٰسِرِينَ
+- 5:6 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ
+- 5:11 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ
+- 5:16 يَهْدِى بِهِ ٱللَّهُ مَنِ ٱتَّبَعَ رِضْوَٰنَهُۥ سُبُلَ ٱلسَّلَٰمِ وَيُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِهِۦ وَيَهْدِيهِمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 5:20 وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَعَلَ فِيكُمْ أَنۢبِيَآءَ وَجَعَلَكُم مُّلُوكًۭا وَءَاتَىٰكُم مَّا لَمْ يُؤْتِ أَحَدًۭا مِّنَ ٱلْعَٰلَمِينَ
+- 5:21 يَٰقَوْمِ ٱدْخُلُوا۟ ٱلْأَرْضَ ٱلْمُقَدَّسَةَ ٱلَّتِى كَتَبَ ٱللَّهُ لَكُمْ وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ
+- 5:60 قُلْ هَلْ أُنَبِّئُكُم بِشَرٍّۢ مِّن ذَٰلِكَ مَثُوبَةً عِندَ ٱللَّهِ ۚ مَن لَّعَنَهُ ٱللَّهُ وَغَضِبَ عَلَيْهِ وَجَعَلَ مِنْهُمُ ٱلْقِرَدَةَ وَٱلْخَنَازِيرَ وَعَبَدَ ٱلطَّٰغُوتَ ۚ أُو۟لَٰٓئِكَ شَرٌّۭ مَّكَانًۭا وَأَضَلُّ عَن سَوَآءِ ٱلسَّبِيلِ
+- 5:64 وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ ۚ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ ۘ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ ۚ وَلَيَزِيدَنَّ كَثِيرًۭا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًۭا وَكُفْرًۭا ۚ وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ كُلَّمَآ أَوْقَدُوا۟ نَارًۭا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ ۚ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًۭا ۚ وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ
+- 5:65 وَلَوْ أَنَّ أَهْلَ ٱلْكِتَٰبِ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَكَفَّرْنَا عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأَدْخَلْنَٰهُمْ جَنَّٰتِ ٱلنَّعِيمِ
+- 5:77 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ غَيْرَ ٱلْحَقِّ وَلَا تَتَّبِعُوٓا۟ أَهْوَآءَ قَوْمٍۢ قَدْ ضَلُّوا۟ مِن قَبْلُ وَأَضَلُّوا۟ كَثِيرًۭا وَضَلُّوا۟ عَن سَوَآءِ ٱلسَّبِيلِ
+- 5:105 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ عَلَيْكُمْ أَنفُسَكُمْ ۖ لَا يَضُرُّكُم مَّن ضَلَّ إِذَا ٱهْتَدَيْتُمْ ۚ إِلَى ٱللَّهِ مَرْجِعُكُمْ جَمِيعًۭا فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 6:39 وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا صُمٌّۭ وَبُكْمٌۭ فِى ٱلظُّلُمَٰتِ ۗ مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 6:71 قُلْ أَنَدْعُوا۟ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُنَا وَلَا يَضُرُّنَا وَنُرَدُّ عَلَىٰٓ أَعْقَابِنَا بَعْدَ إِذْ هَدَىٰنَا ٱللَّهُ كَٱلَّذِى ٱسْتَهْوَتْهُ ٱلشَّيَٰطِينُ فِى ٱلْأَرْضِ حَيْرَانَ لَهُۥٓ أَصْحَٰبٌۭ يَدْعُونَهُۥٓ إِلَى ٱلْهُدَى ٱئْتِنَا ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۖ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ
+- 6:77 فَلَمَّا رَءَا ٱلْقَمَرَ بَازِغًۭا قَالَ هَٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ
+- 6:94 وَلَقَدْ جِئْتُمُونَا فُرَٰدَىٰ كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۢ وَتَرَكْتُم مَّا خَوَّلْنَٰكُمْ وَرَآءَ ظُهُورِكُمْ ۖ وَمَا نَرَىٰ مَعَكُمْ شُفَعَآءَكُمُ ٱلَّذِينَ زَعَمْتُمْ أَنَّهُمْ فِيكُمْ شُرَكَٰٓؤُا۟ ۚ لَقَد تَّقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنكُم مَّا كُنتُمْ تَزْعُمُونَ
+- 6:119 وَمَا لَكُمْ أَلَّا تَأْكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ وَقَدْ فَصَّلَ لَكُم مَّا حَرَّمَ عَلَيْكُمْ إِلَّا مَا ٱضْطُرِرْتُمْ إِلَيْهِ ۗ وَإِنَّ كَثِيرًۭا لَّيُضِلُّونَ بِأَهْوَآئِهِم بِغَيْرِ عِلْمٍ ۗ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِٱلْمُعْتَدِينَ
+- 6:125 فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ ضَيِّقًا حَرَجًۭا كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ ۚ كَذَٰلِكَ يَجْعَلُ ٱللَّهُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يُؤْمِنُونَ
+- 6:126 وَهَٰذَا صِرَٰطُ رَبِّكَ مُسْتَقِيمًۭا ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍۢ يَذَّكَّرُونَ
+- 6:140 قَدْ خَسِرَ ٱلَّذِينَ قَتَلُوٓا۟ أَوْلَٰدَهُمْ سَفَهًۢا بِغَيْرِ عِلْمٍۢ وَحَرَّمُوا۟ مَا رَزَقَهُمُ ٱللَّهُ ٱفْتِرَآءً عَلَى ٱللَّهِ ۚ قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ
+- 6:144 وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ ۗ قُلْ ءَآلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا ۚ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًۭا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- 6:153 وَأَنَّ هَٰذَا صِرَٰطِى مُسْتَقِيمًۭا فَٱتَّبِعُوهُ ۖ وَلَا تَتَّبِعُوا۟ ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِۦ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَتَّقُونَ
+- 6:161 قُلْ إِنَّنِى هَدَىٰنِى رَبِّىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ دِينًۭا قِيَمًۭا مِّلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا ۚ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ
+- 7:16 قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ
+- 7:30 فَرِيقًا هَدَىٰ وَفَرِيقًا حَقَّ عَلَيْهِمُ ٱلضَّلَٰلَةُ ۗ إِنَّهُمُ ٱتَّخَذُوا۟ ٱلشَّيَٰطِينَ أَوْلِيَآءَ مِن دُونِ ٱللَّهِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ
+- 7:60 قَالَ ٱلْمَلَأُ مِن قَوْمِهِۦٓ إِنَّا لَنَرَىٰكَ فِى ضَلَٰلٍۢ مُّبِينٍۢ
+- 7:61 قَالَ يَٰقَوْمِ لَيْسَ بِى ضَلَٰلَةٌۭ وَلَٰكِنِّى رَسُولٌۭ مِّن رَّبِّ ٱلْعَٰلَمِينَ
+- 7:86 وَلَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍۢ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًۭا ۚ وَٱذْكُرُوٓا۟ إِذْ كُنتُمْ قَلِيلًۭا فَكَثَّرَكُمْ ۖ وَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُفْسِدِينَ
+- 7:140 قَالَ أَغَيْرَ ٱللَّهِ أَبْغِيكُمْ إِلَٰهًۭا وَهُوَ فَضَّلَكُمْ عَلَى ٱلْعَٰلَمِينَ
+- 7:149 وَلَمَّا سُقِطَ فِىٓ أَيْدِيهِمْ وَرَأَوْا۟ أَنَّهُمْ قَدْ ضَلُّوا۟ قَالُوا۟ لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ
+- 7:150 وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًۭا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُۥٓ إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا تُشْمِتْ بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ
+- 7:152 إِنَّ ٱلَّذِينَ ٱتَّخَذُوا۟ ٱلْعِجْلَ سَيَنَالُهُمْ غَضَبٌۭ مِّن رَّبِّهِمْ وَذِلَّةٌۭ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُفْتَرِينَ
+- 7:153 وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ
+- 7:161 وَإِذْ قِيلَ لَهُمُ ٱسْكُنُوا۟ هَٰذِهِ ٱلْقَرْيَةَ وَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ وَقُولُوا۟ حِطَّةٌۭ وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًۭا نَّغْفِرْ لَكُمْ خَطِيٓـَٰٔتِكُمْ ۚ سَنَزِيدُ ٱلْمُحْسِنِينَ
+- 7:162 فَبَدَّلَ ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ قَوْلًا غَيْرَ ٱلَّذِى قِيلَ لَهُمْ فَأَرْسَلْنَا عَلَيْهِمْ رِجْزًۭا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَظْلِمُونَ
+- 7:178 مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى ۖ وَمَن يُضْلِلْ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 7:179 وَلَقَدْ ذَرَأْنَا لِجَهَنَّمَ كَثِيرًۭا مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ لَهُمْ قُلُوبٌۭ لَّا يَفْقَهُونَ بِهَا وَلَهُمْ أَعْيُنٌۭ لَّا يُبْصِرُونَ بِهَا وَلَهُمْ ءَاذَانٌۭ لَّا يَسْمَعُونَ بِهَآ ۚ أُو۟لَٰٓئِكَ كَٱلْأَنْعَٰمِ بَلْ هُمْ أَضَلُّ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْغَٰفِلُونَ
+- 7:186 مَن يُضْلِلِ ٱللَّهُ فَلَا هَادِىَ لَهُۥ ۚ وَيَذَرُهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ
+- 7:202 وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ
+- 8:53 ذَٰلِكَ بِأَنَّ ٱللَّهَ لَمْ يَكُ مُغَيِّرًۭا نِّعْمَةً أَنْعَمَهَا عَلَىٰ قَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ ۙ وَأَنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌۭ
+- 9:92 وَلَا عَلَى ٱلَّذِينَ إِذَا مَآ أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لَآ أَجِدُ مَآ أَحْمِلُكُمْ عَلَيْهِ تَوَلَّوا۟ وَّأَعْيُنُهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ
+- 9:93 ۞ إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَسْتَـْٔذِنُونَكَ وَهُمْ أَغْنِيَآءُ ۚ رَضُوا۟ بِأَن يَكُونُوا۟ مَعَ ٱلْخَوَالِفِ وَطَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ فَهُمْ لَا يَعْلَمُونَ
+- 9:115 وَمَا كَانَ ٱللَّهُ لِيُضِلَّ قَوْمًۢا بَعْدَ إِذْ هَدَىٰهُمْ حَتَّىٰ يُبَيِّنَ لَهُم مَّا يَتَّقُونَ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ
+- 10:15 وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَاتُنَا بَيِّنَٰتٍۢ ۙ قَالَ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا ٱئْتِ بِقُرْءَانٍ غَيْرِ هَٰذَآ أَوْ بَدِّلْهُ ۚ قُلْ مَا يَكُونُ لِىٓ أَنْ أُبَدِّلَهُۥ مِن تِلْقَآئِ نَفْسِىٓ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ ۖ إِنِّىٓ أَخَافُ إِنْ عَصَيْتُ رَبِّى عَذَابَ يَوْمٍ عَظِيمٍۢ
+- 10:23 فَلَمَّآ أَنجَىٰهُمْ إِذَا هُمْ يَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۗ يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّمَا بَغْيُكُمْ عَلَىٰٓ أَنفُسِكُم ۖ مَّتَٰعَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ ثُمَّ إِلَيْنَا مَرْجِعُكُمْ فَنُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 10:25 وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 10:32 فَذَٰلِكُمُ ٱللَّهُ رَبُّكُمُ ٱلْحَقُّ ۖ فَمَاذَا بَعْدَ ٱلْحَقِّ إِلَّا ٱلضَّلَٰلُ ۖ فَأَنَّىٰ تُصْرَفُونَ
+- 10:62 أَلَآ إِنَّ أَوْلِيَآءَ ٱللَّهِ لَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 10:63 ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ
+- 10:108 قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنَا۠ عَلَيْكُم بِوَكِيلٍۢ
+- 11:19 ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًۭا وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ
+- 11:56 إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 11:112 فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟ ۚ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 11:113 وَلَا تَرْكَنُوٓا۟ إِلَى ٱلَّذِينَ ظَلَمُوا۟ فَتَمَسَّكُمُ ٱلنَّارُ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ثُمَّ لَا تُنصَرُونَ
+- 12:6 وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌۭ
+- 12:8 إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ
+- 12:9 ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَٰلِحِينَ
+- 12:57 وَلَأَجْرُ ٱلْءَاخِرَةِ خَيْرٌۭ لِّلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ
+- 12:95 قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ
+- 12:96 فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ
+- 14:1 الٓر ۚ كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ
+- 14:3 ٱلَّذِينَ يَسْتَحِبُّونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا عَلَى ٱلْءَاخِرَةِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًا ۚ أُو۟لَٰٓئِكَ فِى ضَلَٰلٍۭ بَعِيدٍۢ
+- 14:4 وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا بِلِسَانِ قَوْمِهِۦ لِيُبَيِّنَ لَهُمْ ۖ فَيُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 14:6 وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌۭ مِّن رَّبِّكُمْ عَظِيمٌۭ
+- 14:7 وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ
+- 14:27 يُثَبِّتُ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ بِٱلْقَوْلِ ٱلثَّابِتِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ ۚ وَيَفْعَلُ ٱللَّهُ مَا يَشَآءُ
+- 14:28 ۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًۭا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ
+- 14:29 جَهَنَّمَ يَصْلَوْنَهَا ۖ وَبِئْسَ ٱلْقَرَارُ
+- 14:36 رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًۭا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌۭ رَّحِيمٌۭ
+- 14:48 يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَٰوَٰتُ ۖ وَبَرَزُوا۟ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ
+- 15:39 قَالَ رَبِّ بِمَآ أَغْوَيْتَنِى لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ
+- 15:40 إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ
+- 15:41 قَالَ هَٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ
+- 15:42 إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ
+- 15:43 وَإِنَّ جَهَنَّمَ لَمَوْعِدُهُمْ أَجْمَعِينَ
+- 15:87 وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ
+- 16:9 وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌۭ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ
+- 16:18 وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌۭ رَّحِيمٌۭ
+- 16:25 لِيَحْمِلُوٓا۟ أَوْزَارَهُمْ كَامِلَةًۭ يَوْمَ ٱلْقِيَٰمَةِ ۙ وَمِنْ أَوْزَارِ ٱلَّذِينَ يُضِلُّونَهُم بِغَيْرِ عِلْمٍ ۗ أَلَا سَآءَ مَا يَزِرُونَ
+- 16:53 وَمَا بِكُم مِّن نِّعْمَةٍۢ فَمِنَ ٱللَّهِ ۖ ثُمَّ إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيْهِ تَجْـَٔرُونَ
+- 16:54 ثُمَّ إِذَا كَشَفَ ٱلضُّرَّ عَنكُمْ إِذَا فَرِيقٌۭ مِّنكُم بِرَبِّهِمْ يُشْرِكُونَ
+- 16:72 وَٱللَّهُ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا وَجَعَلَ لَكُم مِّنْ أَزْوَٰجِكُم بَنِينَ وَحَفَدَةًۭ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَتِ ٱللَّهِ هُمْ يَكْفُرُونَ
+- 16:76 وَضَرَبَ ٱللَّهُ مَثَلًۭا رَّجُلَيْنِ أَحَدُهُمَآ أَبْكَمُ لَا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَهُوَ كَلٌّ عَلَىٰ مَوْلَىٰهُ أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ ۖ هَلْ يَسْتَوِى هُوَ وَمَن يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 16:81 وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًۭا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًۭا وَجَعَلَ لَكُمْ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ
+- 16:106 مَن كَفَرَ بِٱللَّهِ مِنۢ بَعْدِ إِيمَٰنِهِۦٓ إِلَّا مَنْ أُكْرِهَ وَقَلْبُهُۥ مُطْمَئِنٌّۢ بِٱلْإِيمَٰنِ وَلَٰكِن مَّن شَرَحَ بِٱلْكُفْرِ صَدْرًۭا فَعَلَيْهِمْ غَضَبٌۭ مِّنَ ٱللَّهِ وَلَهُمْ عَذَابٌ عَظِيمٌۭ
+- 16:121 شَاكِرًۭا لِّأَنْعُمِهِ ۚ ٱجْتَبَىٰهُ وَهَدَىٰهُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 17:9 إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًۭا كَبِيرًۭا
+- 17:15 مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌۭ وِزْرَ أُخْرَىٰ ۗ وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًۭا
+- 17:67 وَإِذَا مَسَّكُمُ ٱلضُّرُّ فِى ٱلْبَحْرِ ضَلَّ مَن تَدْعُونَ إِلَّآ إِيَّاهُ ۖ فَلَمَّا نَجَّىٰكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ ۚ وَكَانَ ٱلْإِنسَٰنُ كَفُورًا
+- 17:73 وَإِن كَادُوا۟ لَيَفْتِنُونَكَ عَنِ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ لِتَفْتَرِىَ عَلَيْنَا غَيْرَهُۥ ۖ وَإِذًۭا لَّٱتَّخَذُوكَ خَلِيلًۭا
+- 17:83 وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًۭا
+- 17:97 وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًۭا
+- 18:16 وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا
+- 18:17 ۞ وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍۢ مِّنْهُ ۚ ذَٰلِكَ مِنْ ءَايَٰتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّۭا مُّرْشِدًۭا
+- 18:104 ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا
+- 19:36 وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 19:43 يَٰٓأَبَتِ إِنِّى قَدْ جَآءَنِى مِنَ ٱلْعِلْمِ مَا لَمْ يَأْتِكَ فَٱتَّبِعْنِىٓ أَهْدِكَ صِرَٰطًۭا سَوِيًّۭا
+- 19:58 أُو۟لَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ مِن ذُرِّيَّةِ ءَادَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍۢ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُ ٱلرَّحْمَٰنِ خَرُّوا۟ سُجَّدًۭا وَبُكِيًّۭا ۩
+- 19:59 ۞ فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا
+- 20:80 يَٰبَنِىٓ إِسْرَٰٓءِيلَ قَدْ أَنجَيْنَٰكُم مِّنْ عَدُوِّكُمْ وَوَٰعَدْنَٰكُمْ جَانِبَ ٱلطُّورِ ٱلْأَيْمَنَ وَنَزَّلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ
+- 20:81 كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ
+- 20:85 قَالَ فَإِنَّا قَدْ فَتَنَّا قَوْمَكَ مِنۢ بَعْدِكَ وَأَضَلَّهُمُ ٱلسَّامِرِىُّ
+- 20:86 فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًۭا ۚ قَالَ يَٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ أَفَطَالَ عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌۭ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى
+- 20:123 قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّۭ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ
+- 20:135 قُلْ كُلٌّۭ مُّتَرَبِّصٌۭ فَتَرَبَّصُوا۟ ۖ فَسَتَعْلَمُونَ مَنْ أَصْحَٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ
+- 21:53 قَالُوا۟ وَجَدْنَآ ءَابَآءَنَا لَهَا عَٰبِدِينَ
+- 21:54 قَالَ لَقَدْ كُنتُمْ أَنتُمْ وَءَابَآؤُكُمْ فِى ضَلَٰلٍۢ مُّبِينٍۢ
+- 21:87 وَذَا ٱلنُّونِ إِذ ذَّهَبَ مُغَٰضِبًۭا فَظَنَّ أَن لَّن نَّقْدِرَ عَلَيْهِ فَنَادَىٰ فِى ٱلظُّلُمَٰتِ أَن لَّآ إِلَٰهَ إِلَّآ أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ
+- 21:88 فَٱسْتَجَبْنَا لَهُۥ وَنَجَّيْنَٰهُ مِنَ ٱلْغَمِّ ۚ وَكَذَٰلِكَ نُۨجِى ٱلْمُؤْمِنِينَ
+- 21:112 قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 22:3 وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَيَتَّبِعُ كُلَّ شَيْطَٰنٍۢ مَّرِيدٍۢ
+- 22:4 كُتِبَ عَلَيْهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ
+- 22:9 ثَانِىَ عِطْفِهِۦ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ ۖ لَهُۥ فِى ٱلدُّنْيَا خِزْىٌۭ ۖ وَنُذِيقُهُۥ يَوْمَ ٱلْقِيَٰمَةِ عَذَابَ ٱلْحَرِيقِ
+- 22:54 وَلِيَعْلَمَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّكَ فَيُؤْمِنُوا۟ بِهِۦ فَتُخْبِتَ لَهُۥ قُلُوبُهُمْ ۗ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 23:6 إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ
+- 23:23 وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ
+- 23:32 فَأَرْسَلْنَا فِيهِمْ رَسُولًۭا مِّنْهُمْ أَنِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ
+- 23:73 وَإِنَّكَ لَتَدْعُوهُمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 23:74 وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَٰكِبُونَ
+- 23:75 ۞ وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّۢ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ
+- 24:9 وَٱلْخَٰمِسَةَ أَنَّ غَضَبَ ٱللَّهِ عَلَيْهَآ إِن كَانَ مِنَ ٱلصَّٰدِقِينَ
+- 24:21 ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًۭا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌۭ
+- 24:29 لَّيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَدْخُلُوا۟ بُيُوتًا غَيْرَ مَسْكُونَةٍۢ فِيهَا مَتَٰعٌۭ لَّكُمْ ۚ وَٱللَّهُ يَعْلَمُ مَا تُبْدُونَ وَمَا تَكْتُمُونَ
+- 24:46 لَّقَدْ أَنزَلْنَآ ءَايَٰتٍۢ مُّبَيِّنَٰتٍۢ ۚ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 24:47 وَيَقُولُونَ ءَامَنَّا بِٱللَّهِ وَبِٱلرَّسُولِ وَأَطَعْنَا ثُمَّ يَتَوَلَّىٰ فَرِيقٌۭ مِّنْهُم مِّنۢ بَعْدِ ذَٰلِكَ ۚ وَمَآ أُو۟لَٰٓئِكَ بِٱلْمُؤْمِنِينَ
+- 25:42 إِن كَادَ لَيُضِلُّنَا عَنْ ءَالِهَتِنَا لَوْلَآ أَن صَبَرْنَا عَلَيْهَا ۚ وَسَوْفَ يَعْلَمُونَ حِينَ يَرَوْنَ ٱلْعَذَابَ مَنْ أَضَلُّ سَبِيلًا
+- 25:43 أَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ أَفَأَنتَ تَكُونُ عَلَيْهِ وَكِيلًا
+- 25:44 أَمْ تَحْسَبُ أَنَّ أَكْثَرَهُمْ يَسْمَعُونَ أَوْ يَعْقِلُونَ ۚ إِنْ هُمْ إِلَّا كَٱلْأَنْعَٰمِ ۖ بَلْ هُمْ أَضَلُّ سَبِيلًا
+- 26:20 قَالَ فَعَلْتُهَآ إِذًۭا وَأَنَا۠ مِنَ ٱلضَّآلِّينَ
+- 26:21 فَفَرَرْتُ مِنكُمْ لَمَّا خِفْتُكُمْ فَوَهَبَ لِى رَبِّى حُكْمًۭا وَجَعَلَنِى مِنَ ٱلْمُرْسَلِينَ
+- 26:22 وَتِلْكَ نِعْمَةٌۭ تَمُنُّهَا عَلَىَّ أَنْ عَبَّدتَّ بَنِىٓ إِسْرَٰٓءِيلَ
+- 26:28 قَالَ رَبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُمْ تَعْقِلُونَ
+- 26:29 قَالَ لَئِنِ ٱتَّخَذْتَ إِلَٰهًا غَيْرِى لَأَجْعَلَنَّكَ مِنَ ٱلْمَسْجُونِينَ
+- 26:86 وَٱغْفِرْ لِأَبِىٓ إِنَّهُۥ كَانَ مِنَ ٱلضَّآلِّينَ
+- 26:99 وَمَآ أَضَلَّنَآ إِلَّا ٱلْمُجْرِمُونَ
+- 26:100 فَمَا لَنَا مِن شَٰفِعِينَ
+- 26:101 وَلَا صَدِيقٍ حَمِيمٍۢ
+- 26:102 فَلَوْ أَنَّ لَنَا كَرَّةًۭ فَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ
+- 26:132 وَٱتَّقُوا۟ ٱلَّذِىٓ أَمَدَّكُم بِمَا تَعْلَمُونَ
+- 26:133 أَمَدَّكُم بِأَنْعَٰمٍۢ وَبَنِينَ
+- 26:134 وَجَنَّٰتٍۢ وَعُيُونٍ
+- 27:19 فَتَبَسَّمَ ضَاحِكًۭا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ
+- 27:57 فَأَنجَيْنَٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَٰهَا مِنَ ٱلْغَٰبِرِينَ
+- 27:58 وَأَمْطَرْنَا عَلَيْهِم مَّطَرًۭا ۖ فَسَآءَ مَطَرُ ٱلْمُنذَرِينَ
+- 27:59 قُلِ ٱلْحَمْدُ لِلَّهِ وَسَلَٰمٌ عَلَىٰ عِبَادِهِ ٱلَّذِينَ ٱصْطَفَىٰٓ ۗ ءَآللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ
+- 27:92 وَأَنْ أَتْلُوَا۟ ٱلْقُرْءَانَ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَقُلْ إِنَّمَآ أَنَا۠ مِنَ ٱلْمُنذِرِينَ
+- 28:15 وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍۢ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَٰثَهُ ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّۭ مُّضِلٌّۭ مُّبِينٌۭ
+- 28:16 قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 28:17 قَالَ رَبِّ بِمَآ أَنْعَمْتَ عَلَىَّ فَلَنْ أَكُونَ ظَهِيرًۭا لِّلْمُجْرِمِينَ
+- 28:50 فَإِن لَّمْ يَسْتَجِيبُوا۟ لَكَ فَٱعْلَمْ أَنَّمَا يَتَّبِعُونَ أَهْوَآءَهُمْ ۚ وَمَنْ أَضَلُّ مِمَّنِ ٱتَّبَعَ هَوَىٰهُ بِغَيْرِ هُدًۭى مِّنَ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- 30:29 بَلِ ٱتَّبَعَ ٱلَّذِينَ ظَلَمُوٓا۟ أَهْوَآءَهُم بِغَيْرِ عِلْمٍۢ ۖ فَمَن يَهْدِى مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَا لَهُم مِّن نَّٰصِرِينَ
+- 30:30 فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًۭا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
+- 30:31 ۞ مُنِيبِينَ إِلَيْهِ وَٱتَّقُوهُ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُشْرِكِينَ
+- 31:6 وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى لَهْوَ ٱلْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌۭ مُّهِينٌۭ
+- 31:20 أَلَمْ تَرَوْا۟ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَأَسْبَغَ عَلَيْكُمْ نِعَمَهُۥ ظَٰهِرَةًۭ وَبَاطِنَةًۭ ۗ وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍۢ وَلَا هُدًۭى وَلَا كِتَٰبٍۢ مُّنِيرٍۢ
+- 31:31 أَلَمْ تَرَ أَنَّ ٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِنِعْمَتِ ٱللَّهِ لِيُرِيَكُم مِّنْ ءَايَٰتِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ
+- 31:32 وَإِذَا غَشِيَهُم مَّوْجٌۭ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌۭ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍۢ كَفُورٍۢ
+- 32:10 وَقَالُوٓا۟ أَءِذَا ضَلَلْنَا فِى ٱلْأَرْضِ أَءِنَّا لَفِى خَلْقٍۢ جَدِيدٍۭ ۚ بَلْ هُم بِلِقَآءِ رَبِّهِمْ كَٰفِرُونَ
+- 33:36 وَمَا كَانَ لِمُؤْمِنٍۢ وَلَا مُؤْمِنَةٍ إِذَا قَضَى ٱللَّهُ وَرَسُولُهُۥٓ أَمْرًا أَن يَكُونَ لَهُمُ ٱلْخِيَرَةُ مِنْ أَمْرِهِمْ ۗ وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ ضَلَّ ضَلَٰلًۭا مُّبِينًۭا
+- 33:37 وَإِذْ تَقُولُ لِلَّذِىٓ أَنْعَمَ ٱللَّهُ عَلَيْهِ وَأَنْعَمْتَ عَلَيْهِ أَمْسِكْ عَلَيْكَ زَوْجَكَ وَٱتَّقِ ٱللَّهَ وَتُخْفِى فِى نَفْسِكَ مَا ٱللَّهُ مُبْدِيهِ وَتَخْشَى ٱلنَّاسَ وَٱللَّهُ أَحَقُّ أَن تَخْشَىٰهُ ۖ فَلَمَّا قَضَىٰ زَيْدٌۭ مِّنْهَا وَطَرًۭا زَوَّجْنَٰكَهَا لِكَىْ لَا يَكُونَ عَلَى ٱلْمُؤْمِنِينَ حَرَجٌۭ فِىٓ أَزْوَٰجِ أَدْعِيَآئِهِمْ إِذَا قَضَوْا۟ مِنْهُنَّ وَطَرًۭا ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًۭا
+- 33:53 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتَ ٱلنَّبِىِّ إِلَّآ أَن يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَٰظِرِينَ إِنَىٰهُ وَلَٰكِنْ إِذَا دُعِيتُمْ فَٱدْخُلُوا۟ فَإِذَا طَعِمْتُمْ فَٱنتَشِرُوا۟ وَلَا مُسْتَـْٔنِسِينَ لِحَدِيثٍ ۚ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِى ٱلنَّبِىَّ فَيَسْتَحْىِۦ مِنكُمْ ۖ وَٱللَّهُ لَا يَسْتَحْىِۦ مِنَ ٱلْحَقِّ ۚ وَإِذَا سَأَلْتُمُوهُنَّ مَتَٰعًۭا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍۢ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ ۚ وَمَا كَانَ لَكُمْ أَن تُؤْذُوا۟ رَسُولَ ٱللَّهِ وَلَآ أَن تَنكِحُوٓا۟ أَزْوَٰجَهُۥ مِنۢ بَعْدِهِۦٓ أَبَدًا ۚ إِنَّ ذَٰلِكُمْ كَانَ عِندَ ٱللَّهِ عَظِيمًا
+- 33:56 إِنَّ ٱللَّهَ وَمَلَٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا
+- 33:57 إِنَّ ٱلَّذِينَ يُؤْذُونَ ٱللَّهَ وَرَسُولَهُۥ لَعَنَهُمُ ٱللَّهُ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ وَأَعَدَّ لَهُمْ عَذَابًۭا مُّهِينًۭا
+- 33:67 وَقَالُوا۟ رَبَّنَآ إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠
+- 34:12 وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌۭ وَرَوَاحُهَا شَهْرٌۭ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ
+- 34:13 يَعْمَلُونَ لَهُۥ مَا يَشَآءُ مِن مَّحَٰرِيبَ وَتَمَٰثِيلَ وَجِفَانٍۢ كَٱلْجَوَابِ وَقُدُورٍۢ رَّاسِيَٰتٍ ۚ ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا ۚ وَقَلِيلٌۭ مِّنْ عِبَادِىَ ٱلشَّكُورُ
+- 34:50 قُلْ إِن ضَلَلْتُ فَإِنَّمَآ أَضِلُّ عَلَىٰ نَفْسِى ۖ وَإِنِ ٱهْتَدَيْتُ فَبِمَا يُوحِىٓ إِلَىَّ رَبِّىٓ ۚ إِنَّهُۥ سَمِيعٌۭ قَرِيبٌۭ
+- 35:3 يَٰٓأَيُّهَا ٱلنَّاسُ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ خَٰلِقٍ غَيْرُ ٱللَّهِ يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ
+- 35:8 أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًۭا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۖ فَلَا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَٰتٍ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا يَصْنَعُونَ
+- 35:19 وَمَا يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ
+- 35:20 وَلَا ٱلظُّلُمَٰتُ وَلَا ٱلنُّورُ
+- 35:21 وَلَا ٱلظِّلُّ وَلَا ٱلْحَرُورُ
+- 35:37 وَهُمْ يَصْطَرِخُونَ فِيهَا رَبَّنَآ أَخْرِجْنَا نَعْمَلْ صَٰلِحًا غَيْرَ ٱلَّذِى كُنَّا نَعْمَلُ ۚ أَوَلَمْ نُعَمِّرْكُم مَّا يَتَذَكَّرُ فِيهِ مَن تَذَكَّرَ وَجَآءَكُمُ ٱلنَّذِيرُ ۖ فَذُوقُوا۟ فَمَا لِلظَّٰلِمِينَ مِن نَّصِيرٍ
+- 36:4 عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 36:26 قِيلَ ٱدْخُلِ ٱلْجَنَّةَ ۖ قَالَ يَٰلَيْتَ قَوْمِى يَعْلَمُونَ
+- 36:27 بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ ٱلْمُكْرَمِينَ
+- 36:60 ۞ أَلَمْ أَعْهَدْ إِلَيْكُمْ يَٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَٰنَ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ
+- 36:61 وَأَنِ ٱعْبُدُونِى ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 36:62 وَلَقَدْ أَضَلَّ مِنكُمْ جِبِلًّۭا كَثِيرًا ۖ أَفَلَمْ تَكُونُوا۟ تَعْقِلُونَ
+- 36:65 ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ
+- 36:66 وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ
+- 37:23 مِن دُونِ ٱللَّهِ فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ
+- 37:42 فَوَٰكِهُ ۖ وَهُم مُّكْرَمُونَ
+- 37:43 فِى جَنَّٰتِ ٱلنَّعِيمِ
+- 37:56 قَالَ تَٱللَّهِ إِن كِدتَّ لَتُرْدِينِ
+- 37:57 وَلَوْلَا نِعْمَةُ رَبِّى لَكُنتُ مِنَ ٱلْمُحْضَرِينَ
+- 37:69 إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ
+- 37:70 فَهُمْ عَلَىٰٓ ءَاثَٰرِهِمْ يُهْرَعُونَ
+- 37:117 وَءَاتَيْنَٰهُمَا ٱلْكِتَٰبَ ٱلْمُسْتَبِينَ
+- 37:118 وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 37:119 وَتَرَكْنَا عَلَيْهِمَا فِى ٱلْءَاخِرِينَ
+- 37:136 ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ
+- 37:137 وَإِنَّكُمْ لَتَمُرُّونَ عَلَيْهِم مُّصْبِحِينَ
+- 38:22 إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍۢ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ ٱلصِّرَٰطِ
+- 38:23 إِنَّ هَٰذَآ أَخِى لَهُۥ تِسْعٌۭ وَتِسْعُونَ نَعْجَةًۭ وَلِىَ نَعْجَةٌۭ وَٰحِدَةٌۭ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى ٱلْخِطَابِ
+- 38:26 يَٰدَاوُۥدُ إِنَّا جَعَلْنَٰكَ خَلِيفَةًۭ فِى ٱلْأَرْضِ فَٱحْكُم بَيْنَ ٱلنَّاسِ بِٱلْحَقِّ وَلَا تَتَّبِعِ ٱلْهَوَىٰ فَيُضِلَّكَ عَن سَبِيلِ ٱللَّهِ ۚ إِنَّ ٱلَّذِينَ يَضِلُّونَ عَن سَبِيلِ ٱللَّهِ لَهُمْ عَذَابٌۭ شَدِيدٌۢ بِمَا نَسُوا۟ يَوْمَ ٱلْحِسَابِ
+- 39:8 ۞ وَإِذَا مَسَّ ٱلْإِنسَٰنَ ضُرٌّۭ دَعَا رَبَّهُۥ مُنِيبًا إِلَيْهِ ثُمَّ إِذَا خَوَّلَهُۥ نِعْمَةًۭ مِّنْهُ نَسِىَ مَا كَانَ يَدْعُوٓا۟ إِلَيْهِ مِن قَبْلُ وَجَعَلَ لِلَّهِ أَندَادًۭا لِّيُضِلَّ عَن سَبِيلِهِۦ ۚ قُلْ تَمَتَّعْ بِكُفْرِكَ قَلِيلًا ۖ إِنَّكَ مِنْ أَصْحَٰبِ ٱلنَّارِ
+- 39:36 أَلَيْسَ ٱللَّهُ بِكَافٍ عَبْدَهُۥ ۖ وَيُخَوِّفُونَكَ بِٱلَّذِينَ مِن دُونِهِۦ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ
+- 39:37 وَمَن يَهْدِ ٱللَّهُ فَمَا لَهُۥ مِن مُّضِلٍّ ۗ أَلَيْسَ ٱللَّهُ بِعَزِيزٍۢ ذِى ٱنتِقَامٍۢ
+- 39:41 إِنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ لِلنَّاسِ بِٱلْحَقِّ ۖ فَمَنِ ٱهْتَدَىٰ فَلِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنتَ عَلَيْهِم بِوَكِيلٍ
+- 39:49 فَإِذَا مَسَّ ٱلْإِنسَٰنَ ضُرٌّۭ دَعَانَا ثُمَّ إِذَا خَوَّلْنَٰهُ نِعْمَةًۭ مِّنَّا قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍۭ ۚ بَلْ هِىَ فِتْنَةٌۭ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ
+- 39:60 وَيَوْمَ ٱلْقِيَٰمَةِ تَرَى ٱلَّذِينَ كَذَبُوا۟ عَلَى ٱللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًۭى لِّلْمُتَكَبِّرِينَ
+- 39:61 وَيُنَجِّى ٱللَّهُ ٱلَّذِينَ ٱتَّقَوْا۟ بِمَفَازَتِهِمْ لَا يَمَسُّهُمُ ٱلسُّوٓءُ وَلَا هُمْ يَحْزَنُونَ
+- 39:64 قُلْ أَفَغَيْرَ ٱللَّهِ تَأْمُرُوٓنِّىٓ أَعْبُدُ أَيُّهَا ٱلْجَٰهِلُونَ
+- 39:65 وَلَقَدْ أُوحِىَ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ
+- 40:34 وَلَقَدْ جَآءَكُمْ يُوسُفُ مِن قَبْلُ بِٱلْبَيِّنَٰتِ فَمَا زِلْتُمْ فِى شَكٍّۢ مِّمَّا جَآءَكُم بِهِۦ ۖ حَتَّىٰٓ إِذَا هَلَكَ قُلْتُمْ لَن يَبْعَثَ ٱللَّهُ مِنۢ بَعْدِهِۦ رَسُولًۭا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَنْ هُوَ مُسْرِفٌۭ مُّرْتَابٌ
+- 40:79 ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَنْعَٰمَ لِتَرْكَبُوا۟ مِنْهَا وَمِنْهَا تَأْكُلُونَ
+- 41:17 وَأَمَّا ثَمُودُ فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ فَأَخَذَتْهُمْ صَٰعِقَةُ ٱلْعَذَابِ ٱلْهُونِ بِمَا كَانُوا۟ يَكْسِبُونَ
+- 42:18 يَسْتَعْجِلُ بِهَا ٱلَّذِينَ لَا يُؤْمِنُونَ بِهَا ۖ وَٱلَّذِينَ ءَامَنُوا۟ مُشْفِقُونَ مِنْهَا وَيَعْلَمُونَ أَنَّهَا ٱلْحَقُّ ۗ أَلَآ إِنَّ ٱلَّذِينَ يُمَارُونَ فِى ٱلسَّاعَةِ لَفِى ضَلَٰلٍۭ بَعِيدٍ
+- 42:37 وَٱلَّذِينَ يَجْتَنِبُونَ كَبَٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ وَإِذَا مَا غَضِبُوا۟ هُمْ يَغْفِرُونَ
+- 42:42 إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَظْلِمُونَ ٱلنَّاسَ وَيَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌۭ
+- 42:43 وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ ٱلْأُمُورِ
+- 42:46 وَمَا كَانَ لَهُم مِّنْ أَوْلِيَآءَ يَنصُرُونَهُم مِّن دُونِ ٱللَّهِ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِن سَبِيلٍ
+- 42:52 وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ رُوحًۭا مِّنْ أَمْرِنَا ۚ مَا كُنتَ تَدْرِى مَا ٱلْكِتَٰبُ وَلَا ٱلْإِيمَٰنُ وَلَٰكِن جَعَلْنَٰهُ نُورًۭا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا ۚ وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 42:53 صِرَٰطِ ٱللَّهِ ٱلَّذِى لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ أَلَآ إِلَى ٱللَّهِ تَصِيرُ ٱلْأُمُورُ
+- 43:32 أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ ۚ نَحْنُ قَسَمْنَا بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍۢ دَرَجَٰتٍۢ لِّيَتَّخِذَ بَعْضُهُم بَعْضًۭا سُخْرِيًّۭا ۗ وَرَحْمَتُ رَبِّكَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ
+- 43:36 وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ
+- 43:37 وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ
+- 43:40 أَفَأَنتَ تُسْمِعُ ٱلصُّمَّ أَوْ تَهْدِى ٱلْعُمْىَ وَمَن كَانَ فِى ضَلَٰلٍۢ مُّبِينٍۢ
+- 43:43 فَٱسْتَمْسِكْ بِٱلَّذِىٓ أُوحِىَ إِلَيْكَ ۖ إِنَّكَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 43:59 إِنْ هُوَ إِلَّا عَبْدٌ أَنْعَمْنَا عَلَيْهِ وَجَعَلْنَٰهُ مَثَلًۭا لِّبَنِىٓ إِسْرَٰٓءِيلَ
+- 43:61 وَإِنَّهُۥ لَعِلْمٌۭ لِّلسَّاعَةِ فَلَا تَمْتَرُنَّ بِهَا وَٱتَّبِعُونِ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 43:62 وَلَا يَصُدَّنَّكُمُ ٱلشَّيْطَٰنُ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌۭ
+- 43:64 إِنَّ ٱللَّهَ هُوَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 45:23 أَفَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍۢ وَخَتَمَ عَلَىٰ سَمْعِهِۦ وَقَلْبِهِۦ وَجَعَلَ عَلَىٰ بَصَرِهِۦ غِشَٰوَةًۭ فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ ۚ أَفَلَا تَذَكَّرُونَ
+- 46:28 فَلَوْلَا نَصَرَهُمُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ قُرْبَانًا ءَالِهَةًۢ ۖ بَلْ ضَلُّوا۟ عَنْهُمْ ۚ وَذَٰلِكَ إِفْكُهُمْ وَمَا كَانُوا۟ يَفْتَرُونَ
+- 47:1 ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ أَضَلَّ أَعْمَٰلَهُمْ
+- 47:8 وَٱلَّذِينَ كَفَرُوا۟ فَتَعْسًۭا لَّهُمْ وَأَضَلَّ أَعْمَٰلَهُمْ
+- 47:9 ذَٰلِكَ بِأَنَّهُمْ كَرِهُوا۟ مَآ أَنزَلَ ٱللَّهُ فَأَحْبَطَ أَعْمَٰلَهُمْ
+- 47:12 إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ وَٱلَّذِينَ كَفَرُوا۟ يَتَمَتَّعُونَ وَيَأْكُلُونَ كَمَا تَأْكُلُ ٱلْأَنْعَٰمُ وَٱلنَّارُ مَثْوًۭى لَّهُمْ
+- 47:15 مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَٰرٌۭ مِّن مَّآءٍ غَيْرِ ءَاسِنٍۢ وَأَنْهَٰرٌۭ مِّن لَّبَنٍۢ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَٰرٌۭ مِّنْ خَمْرٍۢ لَّذَّةٍۢ لِّلشَّٰرِبِينَ وَأَنْهَٰرٌۭ مِّنْ عَسَلٍۢ مُّصَفًّۭى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌۭ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَٰلِدٌۭ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًۭا فَقَطَّعَ أَمْعَآءَهُمْ
+- 47:38 هَٰٓأَنتُمْ هَٰٓؤُلَآءِ تُدْعَوْنَ لِتُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ فَمِنكُم مَّن يَبْخَلُ ۖ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِۦ ۚ وَٱللَّهُ ٱلْغَنِىُّ وَأَنتُمُ ٱلْفُقَرَآءُ ۚ وَإِن تَتَوَلَّوْا۟ يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوٓا۟ أَمْثَٰلَكُم
+- 48:2 لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 48:6 وَيُعَذِّبَ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ ٱلظَّآنِّينَ بِٱللَّهِ ظَنَّ ٱلسَّوْءِ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۖ وَغَضِبَ ٱللَّهُ عَلَيْهِمْ وَلَعَنَهُمْ وَأَعَدَّ لَهُمْ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًۭا
+- 50:31 وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ غَيْرَ بَعِيدٍ
+- 51:36 فَمَا وَجَدْنَا فِيهَا غَيْرَ بَيْتٍۢ مِّنَ ٱلْمُسْلِمِينَ
+- 52:16 ٱصْلَوْهَا فَٱصْبِرُوٓا۟ أَوْ لَا تَصْبِرُوا۟ سَوَآءٌ عَلَيْكُمْ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ
+- 52:17 إِنَّ ٱلْمُتَّقِينَ فِى جَنَّٰتٍۢ وَنَعِيمٍۢ
+- 52:18 فَٰكِهِينَ بِمَآ ءَاتَىٰهُمْ رَبُّهُمْ وَوَقَىٰهُمْ رَبُّهُمْ عَذَابَ ٱلْجَحِيمِ
+- 53:2 مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ
+- 53:23 إِنْ هِىَ إِلَّآ أَسْمَآءٌۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ
+- 53:29 فَأَعْرِضْ عَن مَّن تَوَلَّىٰ عَن ذِكْرِنَا وَلَمْ يُرِدْ إِلَّا ٱلْحَيَوٰةَ ٱلدُّنْيَا
+- 53:30 ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ
+- 56:51 ثُمَّ إِنَّكُمْ أَيُّهَا ٱلضَّآلُّونَ ٱلْمُكَذِّبُونَ
+- 56:52 لَءَاكِلُونَ مِن شَجَرٍۢ مِّن زَقُّومٍۢ
+- 56:92 وَأَمَّآ إِن كَانَ مِنَ ٱلْمُكَذِّبِينَ ٱلضَّآلِّينَ
+- 56:93 فَنُزُلٌۭ مِّنْ حَمِيمٍۢ
+- 58:14 ۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ تَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِم مَّا هُم مِّنكُمْ وَلَا مِنْهُمْ وَيَحْلِفُونَ عَلَى ٱلْكَذِبِ وَهُمْ يَعْلَمُونَ
+- 60:13 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِمْ قَدْ يَئِسُوا۟ مِنَ ٱلْءَاخِرَةِ كَمَا يَئِسَ ٱلْكُفَّارُ مِنْ أَصْحَٰبِ ٱلْقُبُورِ
+- 61:5 وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ لِمَ تُؤْذُونَنِى وَقَد تَّعْلَمُونَ أَنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ ۖ فَلَمَّا زَاغُوٓا۟ أَزَاغَ ٱللَّهُ قُلُوبَهُمْ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَٰسِقِينَ
+- 67:9 قَالُوا۟ بَلَىٰ قَدْ جَآءَنَا نَذِيرٌۭ فَكَذَّبْنَا وَقُلْنَا مَا نَزَّلَ ٱللَّهُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا فِى ضَلَٰلٍۢ كَبِيرٍۢ
+- 67:10 وَقَالُوا۟ لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَٰبِ ٱلسَّعِيرِ
+- 68:26 فَلَمَّا رَأَوْهَا قَالُوٓا۟ إِنَّا لَضَآلُّونَ
+- 68:27 بَلْ نَحْنُ مَحْرُومُونَ
+- 68:49 لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌۭ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌۭ
+- 68:50 فَٱجْتَبَٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّٰلِحِينَ
+- 70:30 إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ
+- 71:23 وَقَالُوا۟ لَا تَذَرُنَّ ءَالِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّۭا وَلَا سُوَاعًۭا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًۭا
+- 71:24 وَقَدْ أَضَلُّوا۟ كَثِيرًۭا ۖ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا ضَلَٰلًۭا
+- 73:11 وَذَرْنِى وَٱلْمُكَذِّبِينَ أُو۟لِى ٱلنَّعْمَةِ وَمَهِّلْهُمْ قَلِيلًا
+- 73:12 إِنَّ لَدَيْنَآ أَنكَالًۭا وَجَحِيمًۭا
+- 74:10 عَلَى ٱلْكَٰفِرِينَ غَيْرُ يَسِيرٍۢ
+- 74:31 وَمَا جَعَلْنَآ أَصْحَٰبَ ٱلنَّارِ إِلَّا مَلَٰٓئِكَةًۭ ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَٰنًۭا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًۭا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ
+- 76:14 وَدَانِيَةً عَلَيْهِمْ ظِلَٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًۭا
+- 76:19 ۞ وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌۭ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًۭا مَّنثُورًۭا
+- 76:21 عَٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌۭ وَإِسْتَبْرَقٌۭ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍۢ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًۭا طَهُورًا
+- 77:23 فَقَدَرْنَا فَنِعْمَ ٱلْقَٰدِرُونَ
+- 79:33 مَتَٰعًۭا لَّكُمْ وَلِأَنْعَٰمِكُمْ
+- 81:26 فَأَيْنَ تَذْهَبُونَ
+- 81:27 إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ
+- 82:13 إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ
+- 82:14 وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ
+- 83:32 وَإِذَا رَأَوْهُمْ قَالُوٓا۟ إِنَّ هَٰٓؤُلَآءِ لَضَآلُّونَ
+- 83:33 وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ
+- 84:24 فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ
+- 84:25 إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ
+- 88:8 وُجُوهٌۭ يَوْمَئِذٍۢ نَّاعِمَةٌۭ
+- 88:9 لِّسَعْيِهَا رَاضِيَةٌۭ
+- 88:21 فَذَكِّرْ إِنَّمَآ أَنتَ مُذَكِّرٌۭ
+- 88:22 لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ
+- 88:23 إِلَّا مَن تَوَلَّىٰ وَكَفَرَ
+- 89:12 فَأَكْثَرُوا۟ فِيهَا ٱلْفَسَادَ
+- 89:13 فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ
+- 89:15 فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ
+- 89:16 وَأَمَّآ إِذَا مَا ٱبْتَلَىٰهُ فَقَدَرَ عَلَيْهِ رِزْقَهُۥ فَيَقُولُ رَبِّىٓ أَهَٰنَنِ
+- 90:19 وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ
+- 90:20 عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ
+- 92:18 ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ
+- 92:19 وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ
+- 92:20 إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ
+- 93:6 أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ
+- 93:7 وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ
+- 93:8 وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ
+- 93:11 وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ
+- 95:5 ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ
+- 95:6 إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ
+- 100:3 فَٱلْمُغِيرَٰتِ صُبْحًۭا
+- 102:8 ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ
+- 105:1 أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَٰبِ ٱلْفِيلِ
+- 105:2 أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍۢ
+- 105:3 وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ
+- 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+- 109:1 قُلْ يَٰٓأَيُّهَا ٱلْكَٰفِرُونَ
+- 109:2 لَآ أَعْبُدُ مَا تَعْبُدُونَ
+- 109:3 وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+- 109:6 لَكُمْ دِينُكُمْ وَلِىَ دِينِ

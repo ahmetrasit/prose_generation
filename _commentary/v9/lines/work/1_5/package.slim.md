@@ -1,0 +1,433 @@
+# Quranic usage and related passages for 1:5
+
+What the discovery stage found about this ayah's words and scenes elsewhere in the Quran: how each root is
+used across its occurrences (ids U-..) and passages related by shared wording, people or formula (ids R-..,
+and X records): readings, open observations (a precise link whose decisive support is missing), notes and
+misreadings. `support` says how well the sources establish a record; `relevance` how much it could change
+the reading; nothing here is filtered by them. Section 3 is the text of the cited ayat outside the surah
+and the Fatiha (both are in context.md).
+
+## 2. Discovery lines
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+6 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-عبد** [reading; support strong, relevance high] root ع ب د (focus word نَعْبُدُ: عَبَدَ V) — 269 occurrences in 251 ayat; same form 117, other forms 152
+  - finding: The Qur’anic root family frames service to Allah as being His عَبْد and pairs refusal of His عِبَادَة with arrogance (4:172). Following مَٰلِكِ يَوْمِ ٱلدِّينِ, إِيَّاكَ نَعْبُدُ can voice the community’s allegiance to the sovereign it has just named.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:5 «إِيَّاكَ نَعْبُدُ»; 4:172 «أَن يَكُونَ عَبْدًا لِّلَّهِ»; 4:172 «عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ»
+  - activation: The prior naming of Allah as مالك and the fronted إِيَّاكَ make the worshipper–sovereign relation salient.
+  - limits: The supporting forms are nouns, not the focus verb نَعْبُدُ; they establish a servitude dimension without defining all worship as political subjection.
+- **usage_1.X1** [reading; support strong, relevance high] 
+  - finding: The near-parallel phrases وَكَانُوا لَنَا عَٰبِدِينَ (21:73) and لَنَا عَٰبِدُونَ (23:47) place prophetic service to God beside Pharaoh’s claim over Moses and Aaron’s people. Against this Quranic contest over who receives service, إِيَّاكَ makes the allegiance’s recipient exclusive.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ»; 21:73 «وَكَانُوا۟ لَنَا عَٰبِدِينَ»; 23:47 «وَقَوْمُهُمَا لَنَا عَٰبِدُونَ»
+  - activation: The focus ayah’s first-person plural verb has an explicitly fronted addressee, making the direction of service central.
+  - limits: The parallels use the active participle عَابِد, and Pharaoh’s wording is his claim; these passages do not establish a deliberate allusion in 1:5.
+- **usage_1.X2** [reading; support strong, relevance high] 
+  - finding: The positive pledge إِيَّاكَ نَعْبُدُ can be heard alongside al-Kafirun’s reciprocal refusal: there, “you” and “I” are separated by the objects each worships. This makes the Fatiha’s communal commitment to one addressee a counterpart to rejecting shared worship with rival parties.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ»; 109:3 «وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ»; 109:4 «وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ»
+  - activation: The fronted object and first-person plural in 1:5 meet al-Kafirun’s explicit contrast between worshippers and their objects.
+  - limits: Al-Kafirun uses a participle as well as a verb and does not name the Fatiha; the correspondence rests on the shared root and contrasting worship relations.
+- **U-عون** [reading; support strong, relevance high] root ع و ن (focus word نَسْتَعِينُ: ٱسْتَعِينُ V form X) — 10 occurrences in 10 ayat; same form 4, other forms 6
+  - finding: Other same-form imperatives pair seeking help with بِٱلصَّبْرِ وَٱلصَّلَوٰةِ (2:45, 2:153), or with بِٱللَّهِ and patience (7:128). Here إِيَّاكَ is the direct fronted object, making Allah the one addressed for aid; the next command, ٱهْدِنَا, gives that collective request an immediate object: guidance.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 2:153 «ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ»; 7:128 «ٱسْتَعِينُوا۟ بِٱللَّهِ وَٱصْبِرُوا۟»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The shift from نَعْبُدُ to the direct-object construction نَسْتَعِينُ, followed immediately by ٱهْدِنَا, specifies the appeal’s addressee and immediate request.
+  - limits: The other same-form occurrences are imperatives, whereas نَسْتَعِينُ is a first-person plural imperfect; their بِ constructions do not establish that the Fatiha excludes means or supports.
+- **usage_1.X3** [open; support medium, relevance high] 
+  - finding: The derived noun المُسْتَعَانُ appears in the repeated formula عَلَىٰ مَا تَصِفُونَ, where help is invoked amid disputed descriptions. This could widen إِيَّاكَ نَسْتَعِينُ toward seeking support amid rival accounts, perhaps alongside the judgments named in 1:7.
+  - evidence: 1:5 «إِيَّاكَ نَسْتَعِينُ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 12:18 «وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ»; 21:112 «وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ»
+  - missing: No report, accusation, or “what you describe” frame occurs in 1:5–7, and the parallel formula uses the noun المُسْتَعَانُ rather than the verb نَسْتَعِينُ. A passage linking the Fatiha’s judgment categories to disputed descriptions, or a context placing نَسْتَعِينُ in a reported-claim scene, could establish the connection.
+- **usage_1.X4** [open; support medium, relevance high] 
+  - finding: Since the same-form commands in 2:45 and 2:153 explicitly attach patience and prayer to seeking help, the adjacency of نَعْبُدُ and نَسْتَعِينُ may invite the question whether worship is part of the devotional practice through which help is sought.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 2:45 «وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ»; 2:153 «ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ»
+  - missing: The وَ in 1:5 coordinates the clauses but does not mark worship as a means of seeking aid. A Qur’anic passage explicitly making worship a means of istiʿāna, or context that establishes this relation for 1:5, could decide the reading.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+151 readings and open observations, 28 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 15}.
+
+- **R-1:2** [reading] ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ speaks about Allah; إِيَّاكَ then turns praise into a direct collective commitment to the one praised. (1:2, 1:5)
+- **R-1:6** [reading] ٱهْدِنَا gives a concrete form to the aid sought in 1:5: the speakers ask the same addressee to guide them. (1:5, 1:6)
+- **R-1:7** [reading] Through 1:6, 1:7 specifies the route implicated in the aid sought at 1:5: the path of those favored, distinguished from the paths named at its end. (1:5, 1:6, 1:7)
+- **R-2:45** [reading] 2:45 gives patience and prayer as means by which people seek aid; 1:5 instead fronts You as the one from whom aid is sought. (1:5, 2:45)
+- **R-2:68** [reading] In 2:68 people ask Moses to call on his Lord for them; 1:5 instead places the community in direct address to You as it declares its dependence. (2:68, 1:5)
+- **R-2:83** [reading] 2:83 states exclusive worship as لَا تَعْبُدُونَ إِلَّا ٱللَّهَ and then lists duties to people; this gives a Quranic example of exclusive devotion opening into social obligations. (1:5, 2:83)
+- **R-2:133** [reading] Jacob's sons answer a question about whom they will worship with نَعْبُدُ and a declaration of one God; this parallels 1:5's collective commitment and singular addressee. (1:5, 2:133)
+- **R-2:138** [reading] وَنَحْنُ لَهُۥ عَٰبِدُونَ echoes the collective worship of 1:5 but states it as an identity toward Him, while 1:5 performs it in direct address as You. (1:5, 2:138)
+- **R-2:153** [reading] Like 1:5, 2:153 uses اِسْتَعِينُوا to call for aid-seeking; it names patience and prayer as means and promises God's company to the patient. (1:5, 2:153)
+- **R-2:172** [reading] إِيَّاهُ تَعْبُدُونَ repeats the object-before-worship order of إِيَّاكَ نَعْبُدُ; its context joins worship to gratitude for provision. (1:5, 2:172)
+- **R-2:186** [reading] 2:186 supplies a divine answer to the caller: Allah is near and responds when called. It lets the aid-seeking declaration in 1:5 be heard within a relation of answered address. (1:5, 2:186)
+- **R-2:286** [reading] The closing prayer in 2:286 spells out forms of communal dependence: asking not to be burdened, asking forgiveness and mercy, and asking for victory. It gives concrete possibilities for the open aid-seeking in 1:5. (1:5, 2:286)
+- **R-3:51** [reading] 3:51 explicitly joins shared lordship, worship, and the straight path; it illuminates 1:5 as the hinge between naming the Lord and asking for guidance in 1:6. (1:2, 1:5, 1:6, 3:51)
+- **R-3:64** [reading] 3:64 makes explicit the boundary compressed in إِيَّاكَ: worship belongs to Allah alone, with no partner and no one taken as a lord apart from Him. (1:5, 3:64)
+- **R-3:79** [reading] 3:79 rejects a messenger asking people to worship him apart from Allah; this makes the boundary of إِيَّاكَ especially audible as the identity of the one worshipped. (1:5, 3:79)
+- **R-4:36** [reading] 4:36 pairs worshipping Allah with associating nothing with Him, then lists duties toward people; it gives both an explicit negative edge and a social extension to the commitment in 1:5. (1:5, 4:36)
+- **R-4:45** [reading] 4:45 names Allah as protector and helper, affirming the source addressed by نَسْتَعِينُ in 1:5. (1:5, 4:45)
+- **R-4:75** [reading] The oppressed speakers ask their Lord for a protector and helper; this shows communal aid-seeking in a concrete plea for deliverance, a possible scope of the broad declaration in 1:5. (1:5, 4:75)
+- **R-4:118** [reading] The devil seeks a share of God's servants and the next verse warns against taking Satan as protector apart from Allah; read beside إِيَّاكَ, this is a contest over allegiance and dependence. (1:5, 4:118, 4:119)
+- **R-4:172** [reading] 4:172 presents servanthood to Allah as no disgrace even for Jesus and the angels, then 4:173 says the arrogant find no protector or helper apart from Him; this pairs humble service with dependence in 1:5. (1:5, 4:172, 4:173)
+- **R-5:23** [reading] The call to rely on Allah amid a risky entry gives نَسْتَعِينُ an active counterpart: seeking divine help can accompany taking a concrete step. (1:5, 5:23)
+- **R-5:76** [reading] The question about worshipping what cannot control harm or benefit makes the focus’s exclusive address a claim about effective agency: the one worshipped is also the one from whom aid is sought. (1:5, 5:76)
+- **R-6:17** [reading] The assertion that none but Allah removes harm, while all good is within His power, gives a direct rationale for addressing Him as the sole source of aid. (1:5, 6:17)
+- **R-6:18** [reading] The shared root ع ب د links نَعْبُدُ with ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ: worship can be heard as the service of creatures under divine dominion, which frames their seeking His aid. (1:4, 1:5, 6:18)
+- **R-6:56** [reading] The refusal to worship those invoked apart from Allah states the negative boundary implied by the focus’s repeated إِيَّاكَ: no rival object receives the worship due to the addressee. (1:5, 6:56)
+- **R-6:71** [reading] The passage rejects invoking what cannot benefit or harm, recalls guidance, and ends with being commanded to submit to the Lord of the worlds; it presents the focus’s worship and dependence as a compact form of that submission. (1:5, 6:71)
+- **R-6:102** [reading] This verse explicitly joins the declaration that there is no deity but Allah to the command فَٱعْبُدُوهُ and His being وَكِيلٌۭ over all things, closely pairing the focus’s worship and aid-seeking. (1:5, 6:102)
+- **R-6:162** [reading] Prayer, sacrifice, life, and death all being for Allah expands the scope of what the focus’s نَعْبُدُ can encompass, from an act of worship to a whole life orientation. (1:5, 6:162)
+- **R-6:163** [reading] The declaration لَا شَرِيكَ لَهُۥ immediately after the life-and-worship dedication makes non-association an explicit companion to exclusive devotion, clarifying the force of إِيَّاكَ. (1:5, 6:162, 6:163)
+- **R-7:128** [reading] The imperative ٱسْتَعِينُوا۟ is the same Form X aid-seeking verb as the focus’s نَسْتَعِينُ, now addressed to a threatened people and paired with patience and Allah’s ownership of the land. (1:5, 7:128)
+- **R-7:197** [reading] The inability of invoked rivals to help even themselves supplies the negative counterpart to نَسْتَعِينُ: the focus’s sole addressee is not one helper among several. (1:5, 7:197)
+- **R-8:40** [reading] Allah is named both مَوْلَىٰكُمْ and ٱلنَّصِيرُ, explicitly giving the community a protector and helper; this makes the focus’s request for aid a relation of protection as well as worship. (1:5, 8:40)
+- **R-9:31** [reading] The warning against taking human religious authorities and the Messiah as lords, followed by the command to worship one God, extends the force of إِيَّاكَ to rejecting rival claims to lordship. (1:5, 9:31)
+- **R-9:51** [reading] The collective confession هُوَ مَوْلَىٰنَا followed by an order to trust Allah gives a communal reliance parallel to the focus’s plural request for aid. (1:5, 9:51)
+- **R-9:129** [reading] The Prophet’s statement that Allah suffices him, that there is no deity but Him, and that he relies on Him offers a singular first-person counterpart to the focus’s plural exclusive devotion and dependence. (1:5, 9:129)
+- **R-10:18** [reading] The claim that worshipped rivals are intercessors is paired with their inability to harm or benefit; this sets the focus’s direct address to Allah against help sought through powerless objects. (1:5, 10:18)
+- **R-10:29** [reading] At the judgment scene, the alleged partners deny that their worshippers worshipped them. This reverses the focus’s assured first-person declaration into a relationship the supposed object itself disowns. (1:5, 10:28, 10:29)
+- **R-10:106** [reading] The prohibition on invoking anything apart from Allah that cannot benefit or harm states what the focus’s exclusive aid request rules out. (1:5, 10:106)
+- **R-11:62** [reading] Salih’s people defend worship inherited from their fathers, then he asks who would help him against Allah if he disobeyed. Their exchange contrasts inherited rival worship with exclusive service and dependence on Allah. (1:5, 11:62, 11:63)
+- **R-11:123** [reading] Because the unseen belongs to Allah and all affairs return to Him, the command فَٱعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ joins worship and reliance in a single response to His comprehensive authority. (1:5, 11:123)
+- **R-12:18** [reading] The noun ٱلْمُسْتَعَانُ shares the root ع و ن with نَسْتَعِينُ: Jacob names Allah as the one whose help is sought while facing a false account, alongside beautiful patience. (1:5, 12:18)
+- **R-12:40** [reading] The statement that judgment belongs to Allah leads to the command to worship none but Him; this puts the focus’s worship and aid-seeking under His exclusive authority. (1:5, 12:40)
+- **R-12:67** [reading] Jacob tells his sons to take precautions, says those precautions cannot avail them against Allah, then declares his reliance on Him. This shows dependence alongside practical action, not in place of it. (1:5, 12:67)
+- **related_2.X1** [reading] The next ayah gives an immediate instance of the aid sought: after وَإِيَّاكَ نَسْتَعِينُ, the speaker asks Allah to guide them along the straight path. (1:5, 1:6)
+- **R-13:14** [reading] The focus’s “we seek help from You” is heard against failed rival invocation: 13:14 names a true call and says those called besides God cannot answer their callers. (1:5, 13:14)
+- **R-13:16** [reading] The focus’s exclusive request for aid gains a practical boundary: supposed protectors besides God cannot secure even their own benefit or harm. (1:5, 13:16)
+- **R-14:35** [reading] Ibrahim asks his Lord to keep him and his sons from worshipping idols, making protection of worship itself a need brought to God. (1:5, 14:35, 14:36)
+- **R-16:51** [reading] The emphatic object in فَإِيَّايَ parallels the focus’s repeated إِيَّاكَ: both place the divine addressee before a verb and intensify exclusive orientation. (1:5, 16:51)
+- **R-16:53** [reading] The focus’s unqualified aid-seeking is tested by a sequence in which people cry to God in distress, then some associate partners after relief. (1:5, 16:53, 16:54)
+- **R-16:114** [reading] إِيَّاهُ تَعْبُدُونَ repeats the focus’s fronted emphatic object before the worship verb, while placing that worship in a context of provision and gratitude. (1:5, 16:114)
+- **R-17:2** [reading] The prohibition on taking a trustee besides God gives the focus’s aid-seeking a governance dimension: the ultimate one entrusted with affairs is God alone. (1:5, 17:2)
+- **R-17:56** [reading] Those invoked besides God cannot remove harm, and the next verse portrays the invoked beings themselves as seeking nearness to their Lord; they are dependents, not final sources of aid. (1:5, 17:56, 17:57)
+- **R-18:14** [reading] The youths’ first-person plural pledge not to invoke any deity besides their Lord reads like a pressured narrative counterpart to the focus’s communal declaration of worship. (1:5, 18:14)
+- **R-18:16** [reading] The youths withdraw from their people and their worship, take refuge in the cave, and are promised their Lord’s mercy; exclusive orientation appears as an enacted refuge. (1:5, 18:16)
+- **R-18:95** [reading] Dhu’l-Qarnayn says his Lord’s enabling is better, then asks people to assist with strength; the focus’s exclusive aid-address can coexist with practical human cooperation under divine enablement. (1:5, 18:95)
+- **R-18:102** [reading] The condemned arrangement is taking God’s servants as protectors besides Him, a pointed test of whether divine servants can displace the focus’s exclusive aid-source. (1:5, 18:102)
+- **R-19:2** [reading] The next verse shows Zakariyya calling privately on his Lord, giving the focus’s aid-seeking a concrete prophetic scene of personal appeal within servant status. (1:5, 19:2, 19:3)
+- **R-19:36** [reading] The statement that God is both my Lord and your Lord leads directly to worship and names this as a straight path, echoing the focus’s worship before the Fatiha asks for guidance along the straight path. (1:5, 1:6, 19:36)
+- **R-20:14** [reading] The divine self-identification and command to worship Me give a direct singular counterpart to the focus’s plural You-only worship declaration. (1:5, 20:14)
+- **R-21:25** [reading] The focus can be heard as the first-person enactment of a message attributed to every earlier messenger: no deity except God, therefore worship Him. (1:5, 21:25)
+- **R-21:112** [reading] The rare direct pairing of a plea to the Lord with الرَّحْمَٰنُ الْمُسْتَعَانُ gives an exact aid-root counterpart to نستعين and names the Merciful as the one whose aid is sought. (1:5, 21:112)
+- **R-22:10** [reading] The following verse distinguishes steady devotion from worship that lasts only while fortune is good, cautioning against hearing the focus’s joined worship and aid as a bargain for comfort. (1:5, 22:10, 22:11)
+- **R-22:77** [reading] The adjacent call to hold fast to God and its naming Him as the excellent patron and helper make worship and dependence a paired communal practice. (1:5, 22:77, 22:78)
+- **R-25:55** [reading] Worship directed elsewhere is exposed as dependence on what neither benefits nor harms, a practical counterexample to the focus’s chosen source of aid. (1:5, 25:55)
+- **R-26:22** [reading] The root of نَعْبُدُ also appears in Pharaoh’s charge عَبَّدتَّ, meaning that Moses enslaved the Israelites; its causative form brings coercive servitude into tension with the focus’s worship. (1:5, 26:22)
+- **R-26:70** [reading] Ibrahim’s question makes the object of worship the issue; the focus can be heard as answering that question in advance with You, before naming the act. (1:5, 26:70, 26:71)
+- **R-26:71** [reading] The people’s answer, “we worship idols and remain devoted to them,” is a direct rival first-person plural to the focus’s “we worship You,” and adds sustained attachment to the rival object. (1:5, 26:71)
+- **R-29:16** [reading] Ibrahim’s call to worship God and be mindful of Him is followed by a call to seek provision from God, joining devotion to dependence in the same scene. (1:5, 29:16, 29:17)
+- **R-29:17** [reading] The passage argues from rival worshippers’ inability to provide sustenance to a direct command to seek provision from God and worship Him, an explicit pairing of dependence and devotion. (1:5, 29:17)
+- **R-29:36** [reading] Shuʿayb's public command gives a prophetic form of the act that 1:5 turns into communal confession: “worship Allah” becomes “You alone we worship.” (29:36, 1:5)
+- **R-29:56** [reading] God's فَإِيَّايَ فَاعْبُدُونِ closely echoes the focus's fronted object and worship verb, recast as God's direct command to believers. (29:56, 1:5)
+- **R-33:3** [reading] The command to trust Allah, who is sufficient as trustee, presents reliance as a companion to the aid-seeking named in 1:5. (33:3, 1:5)
+- **R-34:41** [reading] The angels deny being the object of worship and identify the jinn instead, dramatizing the need to identify correctly whom worship is directed toward. (34:40, 34:41, 1:5)
+- **R-35:3** [reading] The sole creator is also named as provider, linking exclusive divine orientation with material dependence. (35:3, 1:5)
+- **R-36:22** [reading] The speaker grounds worship in God's act of creating him and the return to God, giving a reasoned personal counterpart to the focus's communal worship. (36:22, 1:5)
+- **R-36:23** [reading] The speaker asks whether rival deities could relieve harm or save him, directly setting a limit on where aid can be sought. (36:23, 1:5)
+- **R-36:61** [reading] This verse calls worship of God the straight path, giving a close link between 1:5's worship and its following request for guidance to that path. (36:61, 1:5, 1:6)
+- **R-36:74** [reading] People take other gods hoping to be helped, but the next verse says those gods cannot help them; the sequence contrasts false reliance with 1:5's appeal to God. (36:74, 36:75, 1:5)
+- **R-37:118** [reading] Moses and Aaron are said to have been guided to the straight path, a narrative instance of the guidance requested immediately after 1:5. (37:118, 1:6)
+- **R-39:2** [reading] The command to worship Allah sincerely for Him gives an explicit formulation of undivided service alongside the focus's “You alone we worship.” (39:2, 1:5)
+- **R-39:3** [reading] The passage names worship of intermediaries as a claimed means of approaching Allah; 1:5's direct “You alone” address can be heard against that rationale. (39:3, 1:5)
+- **R-39:8** [reading] The person who calls the Lord during harm later forgets that appeal and assigns partners after receiving favor, contrasting crisis-only dependence with 1:5's joined worship and aid-seeking. (39:8, 1:5)
+- **R-39:11** [reading] The Prophet is ordered to worship Allah sincerely and then to be among the first submitters, presenting the focus's confession as obedience to a divine command. (39:11, 39:12, 1:5)
+- **R-39:14** [reading] قُلِ ٱللَّهَ أَعْبُدُ fronts “Allah” before the worship verb, closely paralleling 1:5's fronted إِيَّاكَ and its exclusive focus. (39:14, 1:5)
+- **R-39:17** [reading] Those who avoid worshipping taghut and turn to Allah receive good news, pairing refusal of rival service with return to God. (39:17, 1:5)
+- **R-39:38** [reading] After acknowledging Allah as creator, the speaker asks whether rivals can remove harm or withhold mercy, then says Allah suffices and trust belongs to Him. (39:38, 1:5)
+- **R-39:64** [reading] The Prophet rejects being ordered to worship anyone other than Allah, echoing the focus's exclusive object before the worship verb. (39:64, 1:5)
+- **R-40:14** [reading] Calling on Allah with religion sincerely for Him joins invocation and undivided devotion, bringing the two clauses of 1:5 into one nearby formulation. (40:14, 1:5)
+- **R-40:60** [reading] The command “Call upon Me; I will respond” is followed by a warning about those who disdain God's worship, placing invocation beside worship in a striking sequence. (40:60, 1:5)
+- **R-41:6** [reading] The affirmation of one God is followed by a command to be upright toward Him and seek His forgiveness, showing a lived response to divine unity. (41:6, 1:5)
+- **R-42:10** [reading] After assigning judgment to Allah, the speaker says he relies on Him and turns to Him, complementing the focus's direct dependence on its addressee. (42:10, 1:5)
+- **R-43:64** [reading] Jesus says God is his Lord and yours, commands worship of Him, and identifies this as the straight path; the wording joins the themes of 1:5 and 1:6. (43:64, 1:5, 1:6)
+- **R-46:28** [reading] The verse asks why the gods taken besides Allah did not help their people, turning hoped-for aid into a failed test. (46:28, 1:5)
+- **R-51:50** [reading] The command to flee to Allah, followed by a ban on setting up another deity beside Him, presents exclusive Godward movement as refuge. (51:50, 51:51, 1:5)
+- **R-51:56** [reading] The purpose clause in 51:56 makes نَعْبُدُ in the focus sound like the human response to a stated purpose of creation, while نَسْتَعِينُ voices dependence within that purpose. (1:5, 51:56)
+- **R-53:62** [reading] The command فَٱسْجُدُوا۟ وَٱعْبُدُوا۟ gives نَعْبُدُ in the focus a bodily expression: the declaration of service can include prostration as well as worship named broadly. (1:5, 53:62)
+- **R-72:18** [reading] The prohibition فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًا makes the focus’s repeated إِيَّاكَ audible as an undivided address: worship and sought aid are both directed to one addressee. (1:5, 72:18)
+- **R-72:20** [reading] The singular declaration إِنَّمَآ أَدْعُوا۟ رَبِّى parallels the focus’s exclusive address, but places it in a prophetic proclamation: the focus’s communal إِيَّاكَ becomes a shared form of the same undivided orientation. (1:5, 72:20)
+- **R-98:5** [reading] The command to worship Allah sincerely, مُخْلِصِينَ لَهُ ٱلدِّينَ, makes explicit the undivided devotion carried by the focus’s repeated إِيَّاكَ; الصلاة and zakat then give that devotion named practices. (1:5, 98:5)
+- **R-106:3** [reading] In 106:3–4, the command to worship follows a reminder that the Lord fed and secured the people; the focus reverses the sequence, declaring worship and then asking for aid, linking service with dependence across both passages. (1:5, 106:3, 106:4)
+- **R-109:2** [reading] The refusal لَآ أَعْبُدُ مَا تَعْبُدُونَ makes the focus’s positive نَعْبُدُ hearable against rival worship: its direct “You” marks the allegiance that the other passage rejects exchanging. (1:5, 109:2)
+- **R-109:3** [reading] The plural statement وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ depicts a boundary between worshipping groups; beside the focus’s first-person plural نَعْبُدُ, it makes the “we” sound like a community united in its object of worship. (1:5, 109:3)
+- **R-109:5** [reading] The full plural refusal repeated at 109:5 after 109:3 acts as a refrain; beside the focus’s repeated إِيَّاكَ, it supports hearing the second pronoun as a deliberate renewal of exclusive address for the aid-seeking clause. (1:5, 109:3, 109:5)
+- **R-1:4** [reading] مَٰلِكِ يَوْمِ ٱلدِّينِ precedes the commitment إِيَّاكَ نَعْبُدُ, placing service just after a reference to final judgment. (1:4, 1:5)
+- **R-2:112** [reading] أَسْلَمَ وَجْهَهُۥ لِلَّهِ offers a parallel image of whole-person orientation to God alongside the service declared in 1:5. (1:5, 2:112)
+- **R-2:207** [reading] The person who يَشْرِى نَفْسَهُ seeking Allah's approval offers an action-shaped parallel to the collective commitment نَعْبُدُ. (1:5, 2:207)
+- **R-3:20** [reading] The speaker says أَسْلَمْتُ وَجْهِىَ لِلَّهِ and includes those who follow him, a public and collective submission parallel to the worship commitment in 1:5. (1:5, 3:20)
+- **R-6:88** [reading] The warning that association would void the deeds of guided people makes exclusive worship a condition governing the value of action, not just one devotional act among others. (1:5, 6:88)
+- **R-7:73** [reading] Saleh couples the command to worship Allah alone with a clear proof and His she-camel as a sign; this scene places exclusive devotion beside recognition of a divine sign. (1:5, 7:73)
+- **R-7:85** [reading] Shuayb places worship of Allah alone beside commands for honest measure and social repair, giving a concrete ethical reach to the focus’s broad verb نَعْبُدُ. (1:5, 7:85)
+- **R-11:84** [reading] Shuayb joins sole worship to fair measure and warns of an encompassing day; this scene gives worship a public economic setting and accountability beyond ritual. (1:5, 11:84)
+- **R-17:42** [reading] The hypothetical rival gods would themselves seek a way to the Lord of the Throne, casting even supposed deities as seekers beneath a higher authority. (1:5, 17:42)
+- **R-25:43** [reading] A person can make desire itself a deity; the focus’s exclusive address therefore reaches beyond named idols to an inward rival orientation. (1:5, 25:43)
+- **R-30:33** [reading] This passage depicts people calling their Lord in distress, then associating others with Him after receiving mercy; it contrasts episodic appeal with 1:5's joined worship and aid-seeking confession. (30:33, 1:5)
+- **R-32:16** [reading] Night worshippers call their Lord with fear and hope and give from what they receive, showing appeal as part of a wider devotional life. (32:16, 1:5)
+- **R-37:161** [reading] The passage separates Allah's purified servants from the addressed audience and what they worship, setting sincere service against rival worship. (37:160, 37:161, 37:162)
+- **R-44:18** [reading] Moses demands the release of “Allah's servants” from Pharaoh's control, putting divine servanthood against human domination. (44:18, 44:19, 1:5)
+- **R-72:2** [reading] The jinn’s account links guidance from the Qur’an to belief and refusal to associate anyone with their Lord; beside the focus’s request for aid and following request for guidance, it presents guidance as a route into exclusive faith. (1:5, 1:6, 72:2)
+- **R-72:21** [reading] The denial لَآ أَمْلِكُ لَكُمْ رَشَدًا places a limit on human control of right direction; beside the focus’s نَسْتَعِينُ and next verse’s ٱهْدِنَا, it sharpens the distinction between asking for guidance and possessing it for others. (1:5, 1:6, 72:21)
+- **R-73:9** [reading] After affirming لَآ إِلَٰهَ إِلَّا هُوَ, 73:9 commands فَٱتَّخِذْهُ وَكِيلًا; this gives the focus’s نَسْتَعِينُ a parallel language of entrusting oneself to the sole God. (1:5, 73:9)
+- **R-92:12** [reading] The assertion إِنَّ عَلَيْنَا لَلْهُدَىٰ places guidance with God; beside the focus’s request for aid followed by ٱهْدِنَا, it presents guidance as something the worshipper seeks from its divine source. (1:5, 1:6, 92:12)
+- **R-96:10** [reading] The scene of عَبْدًا إِذَا صَلَّىٰ under a person who forbids him makes devotion socially vulnerable: beside the focus’s collective نَعْبُدُ, it raises the possibility of worship as an allegiance maintained despite human obstruction. (1:5, 96:9, 96:10)
+- **R-109:6** [reading] The closing boundary لَكُمْ دِينُكُمْ وَلِىَ دِينِ contrasts with the focus’s shared نَعْبُدُ: the focus’s “we” voices a common devotional allegiance, while 109:6 separates the parties’ religions. (1:5, 109:6)
+- **R-15:87** [open] If the seven oft-repeated passages are the Fatiha, then this ayah frames 1:5 as part of a recitation whose repeated form is itself named. (1:5, 15:87) Missing: This text does not identify the seven as the Fatiha; an explicit identification of the seven oft-repeated passages, or other evidence linking them to this seven-ayah surah, could establish the connection.
+- **R-48:1** [open] The following verse connects this opening with guidance to a straight path, which could relate the aid-seeking in 1:5 to the Fatiha's next request. (48:1, 48:2, 1:5, 1:6) Missing: The adjacent guidance phrase is clear, but nothing here says the opening victory answers 1:5's request for help; a wider passage link or evidence tying victory to that request could establish it.
+- **R-94:8** [open] After فَٱنصَبْ, the command وَإِلَىٰ رَبِّكَ فَٱرْغَب directs exertion toward the Lord; this could make نَسْتَعِينُ sound like part of a continuing posture of God-directed effort. (1:5, 94:7, 94:8) Missing: 94:8 does not mention aid, and 1:5 does not name exertion or desire; Quranic usage connecting اِسْتَعَانَ and رَغِبَ or a shared scene of striving could show whether these form one posture.
+- **R-2:221** [open] 2:221 depicts rival calls toward the Fire and Allah's call toward the Garden; read beside 1:5–7, it may make exclusive service and aid-seeking part of choosing a path among competing calls. (1:5, 1:6, 2:221) Missing: No shared worship or aid-seeking formula links 2:221 directly to 1:5; another passage tying exclusive service to choosing among competing calls could establish whether this is a deliberate parallel.
+- **R-5:117** [reading] Jesus reports being commanded to worship Allah, his Lord and theirs; this prophetic report parallels the focus’s plural declaration of worship while locating it within shared lordship. (1:5, 5:117)
+- **R-7:59** [reading] Noah’s summons states exclusive worship as a command and grounds it in fear of a great day; the focus can be heard as a present plural response to that prophetic demand. (1:5, 7:59)
+- **R-7:65** [reading] Hud’s same exclusive-worship summons ends by asking whether his people will be mindful; the focus sounds like the affirmative commitment his call seeks, set against the rejection that follows. (1:5, 7:65, 7:66)
+- **R-11:2** [reading] The opening demand to worship none but Allah makes the focus’s confession a concise uptake of a prophetic message that begins with exclusive worship and proceeds to warning and glad tidings. (1:5, 11:2)
+- **R-11:26** [reading] Noah’s warning pairs the command to worship only Allah with fear of a painful day; it presents the focus’s exclusive confession as an answer to a summons carrying consequences. (1:5, 11:26)
+- **R-11:50** [reading] Hud’s call to worship Allah alone is followed by his charge that the people are fabricators; this places the focus’s affirmation opposite a community accused of inventing rival claims. (1:5, 11:50)
+- **R-15:49** [reading] The root shared by نَعْبُدُ and عِبَادِي places worshippers beside the identity of servants whom God tells of His forgiveness and mercy. (1:5, 15:49)
+- **R-15:98** [reading] After the Prophet’s distress, the passage turns to praise, prostration, and worship that continues until certainty; it presents worship as a response sustained through strain. (1:5, 15:97, 15:98, 15:99)
+- **R-16:36** [reading] The focus’s declaration can be heard as the communal answer to the prophetic summons to worship God and avoid false powers. (1:5, 16:36)
+- **R-16:73** [reading] The passage contrasts worship of beings unable to provide sustenance with the focus’s seeking aid from its chosen addressee. (1:5, 16:73)
+- **R-17:65** [reading] God’s servants are protected from Satan’s authority, and the Lord is named as a sufficient trustee; this joins servant identity with divine sufficiency. (1:5, 17:65)
+- **R-18:26** [reading] The cave account locates guardianship and judgment solely with God, extending the focus’s exclusive address from worship and aid to authority. (1:5, 18:26)
+- **R-19:65** [reading] Worship is paired with steadfast endurance in worship, giving the focus’s present-tense declaration a frame of sustained practice. (1:5, 19:65)
+- **R-22:62** [reading] The contrast between Allah as the Real and what is invoked besides Him as false sharpens the focus’s exclusive address as a choice of the true addressee. (1:5, 22:62)
+- **R-23:23** [reading] Noah’s public call to worship Allah because there is no other deity supplies the prophetic imperative to which the focus’s plural declaration can answer. (1:5, 23:23)
+- **R-23:32** [reading] A later messenger repeats Noah’s exclusive-worship summons for another generation, making the focus’s confession resonate with a transgenerational call. (1:5, 23:31, 23:32)
+- **R-27:91** [reading] The speaker says he is commanded only to worship the Lord of the town, whose is everything; this gives the focus’s exclusive worship a public prophetic formulation grounded in ownership. (1:5, 27:91)
+- **R-28:70** [reading] Exclusive deity, praise in both lives, and sole judgment form the authority frame within which the focus’s worship and aid-seeking are directed. (1:5, 28:70)
+- **R-46:4** [reading] The challenge asks what the invoked rivals created or whether they share in the heavens, supplying a test for the exclusive divine orientation in 1:5. (46:4, 1:5)
+- **R-71:3** [reading] Nūḥ’s summons places ٱعْبُدُوا۟ beside fearing God and obeying the messenger, then the next verse names forgiveness and respite; this lets the focus’s نَعْبُدُ evoke the opening of a larger response to divine address. (1:5, 71:3, 71:4)
+- **R-5:2** [reading] The plural نَعْبُدُ and نَسْتَعِينُ can be heard as a community’s confession: 5:2 also gives that community mutual cooperation as a practice ordered toward righteousness. (1:5, 5:2)
+- **R-109:4** [reading] The focus uses the imperfect نَعْبُدُ for its present plural declaration; 109:4 sets عَابِدٌ beside the opponents’ completed عَبَدتُّمْ, offering a contrast between ongoing devotion and a prior act of worship. (1:5, 109:4)
+- **R-76:6** [open] The phrase عِبَادُ ٱللَّهِ presents God’s servants as both receiving from a spring and making it gush; this could add a picture of dependent yet active servants alongside نَعْبُدُ وَنَسْتَعِينُ. (1:5, 76:6) Missing: The passage does not call the spring aid or connect its recipients to the focus’s first-person community; context identifying the spring as aid, or Quranic usage linking عِبَادُ ٱللَّهِ to نَسْتَعِينُ, could establish the relation.
+- **R-8:53** [open] The statement that Allah changes a favor when a people change what is within themselves could frame dependence on Him as connected to a community’s inward response. (1:5, 8:53) Missing: Neither verse explicitly connects worship or seeking aid to inward change. A nearby passage naming those practices as a people’s response to divine favor, or another ayah linking them, could establish the connection.
+
+Notes:
+- R-2:21 [support strong, relevance medium] 2:21 commands people to worship their creator; 1:5 voices worship as the community's first-person answer to its Lord.
+- R-29:62 [support strong, relevance medium] God's control over expanding and measuring provision supplies one concrete domain in which the aid sought in 1:5 is exercised.
+- R-31:13 [support strong, relevance medium] Luqman's warning names association with God as great injustice, giving a negative boundary to the focus's positive address to God alone.
+- R-34:22 [support strong, relevance medium] The passage denies invoked rivals any cosmic ownership or partnership and says they are no support for Allah; this bounds their status without directly settling whether they can aid worshippers.
+- R-38:30 [support strong, relevance medium] Solomon is commended as an excellent servant and a frequent returner to God, giving servanthood a profile of repeated turning back.
+- R-39:66 [support strong, relevance medium] The command to worship Allah is immediately joined to gratitude, suggesting thankfulness as a fitting response to exclusive devotion.
+- R-1:3 [support medium, relevance medium] The repeated mercy names immediately before 1:5 place the declaration of service and aid-seeking within a mercy frame.
+- R-2:23 [support medium, relevance medium] The designation عَبْدِنَا places the recipient of revelation on the human side of the service relation voiced by نَعْبُدُ.
+- R-3:150 [support medium, relevance medium] After warning believers about obeying disbelievers, 3:150 names Allah as their protector and best helper; this is a concrete Quranic counterpart to seeking aid from Him.
+- R-4:132 [support medium, relevance medium] 4:132 places all creation under Allah's ownership and says He suffices as wakīl, supplying a sovereignty-and-reliance frame for seeking His help.
+- R-20:33 [support medium, relevance medium] Moses and Aaron seek partnership so that they may praise God abundantly, placing collective divine-directed devotion after a request for human assistance.
+- R-29:59 [support medium, relevance medium] The people who seek aid in 1:5 have a related lived profile in those who patiently rely on their Lord; trust is sustained through hardship.
+- R-29:60 [support medium, relevance medium] The shared إِيَّا pronoun form marks different relations here: 1:5 directs worship and aid-seeking to “You,” while 29:60 makes humans recipients of God's provision.
+- R-30:30 [support medium, relevance medium] The command to direct one's face toward the upright religion adds an image of steady orientation alongside 1:5's direct address to God.
+- R-47:19 [support medium, relevance medium] The confession that there is no deity except Allah is joined to seeking forgiveness, a compact statement of exclusive orientation and petition.
+- R-106:4 [support medium, relevance medium] The Lord who fed and secured the people in 106:4 is named through acts of provision; beside the focus’s نَسْتَعِينُ, this supplies a concrete example of divine support, though no request appears there.
+- R-18:65 [support strong, relevance low] The noun عَبْدًا shares the ع ب د root with the focus’s نَعْبُدُ, but here it names a servant rather than the act of worship.
+- R-25:1 [support strong, relevance low] The focus’s worship verb and the description of the messenger as God’s servant share the ع ب د root, connecting communal worship with the messenger’s servant identity.
+- R-25:4 [support strong, relevance low] The root ع و ن also appears in a hostile allegation that other people helped the Prophet; the shared root alone does not make that alleged assistance devotional.
+- R-1:1 [support medium, relevance low] The opening names Allah before the recitation turns to addressing Him as You, giving the direct address in 1:5 an opening frame of invocation.
+- R-20:34 [support medium, relevance low] The same shared mission names abundant remembrance of God as its purpose, adding remembrance as one form of the focus’s collective devotion.
+- R-37:40 [support medium, relevance low] The exception “Allah's purified servants” gives servanthood a positive identity in a passage about judgment, a phrase later echoed in this surah.
+- R-37:81 [support medium, relevance low] The refrain calls someone one of God's believing servants; its recurrence across this surah's prophet narratives gives “servant” a faithful identity beyond the bare act of service.
+- R-37:111 [support medium, relevance low] This repeated believer-servant formula places faithful belonging after a prophetic narrative and echoes the earlier occurrence at 37:81.
+- R-37:122 [support medium, relevance low] The plural wording marks Moses and Aaron together as God's believing servants, extending the surah's repeated servant refrain to a pair.
+- R-37:132 [support medium, relevance low] The surah applies its believer-servant refrain again to a prophet, making the identity named by 1:5 recurrent across distinct prophetic accounts.
+- R-43:15 [support medium, relevance low] The verse describes people assigning Allah a portion from His servants; the shared servant root can sharpen the distinction between the worshipper and the one worshipped.
+- R-50:29 [support medium, relevance low] God's declaration that He does not wrong His servants adds a claim about how the divine-servant relation is governed.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:21 يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ
+- 2:23 وَإِن كُنتُمْ فِى رَيْبٍۢ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍۢ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ
+- 2:45 وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ
+- 2:68 قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌۭ لَّا فَارِضٌۭ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ
+- 2:83 وَإِذْ أَخَذْنَا مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًۭا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًۭا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ
+- 2:112 بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌۭ فَلَهُۥٓ أَجْرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 2:133 أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَٰهَكَ وَإِلَٰهَ ءَابَآئِكَ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ إِلَٰهًۭا وَٰحِدًۭا وَنَحْنُ لَهُۥ مُسْلِمُونَ
+- 2:138 صِبْغَةَ ٱللَّهِ ۖ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ صِبْغَةًۭ ۖ وَنَحْنُ لَهُۥ عَٰبِدُونَ
+- 2:153 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ
+- 2:172 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ
+- 2:186 وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ
+- 2:207 وَمِنَ ٱلنَّاسِ مَن يَشْرِى نَفْسَهُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ
+- 2:221 وَلَا تَنكِحُوا۟ ٱلْمُشْرِكَٰتِ حَتَّىٰ يُؤْمِنَّ ۚ وَلَأَمَةٌۭ مُّؤْمِنَةٌ خَيْرٌۭ مِّن مُّشْرِكَةٍۢ وَلَوْ أَعْجَبَتْكُمْ ۗ وَلَا تُنكِحُوا۟ ٱلْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا۟ ۚ وَلَعَبْدٌۭ مُّؤْمِنٌ خَيْرٌۭ مِّن مُّشْرِكٍۢ وَلَوْ أَعْجَبَكُمْ ۗ أُو۟لَٰٓئِكَ يَدْعُونَ إِلَى ٱلنَّارِ ۖ وَٱللَّهُ يَدْعُوٓا۟ إِلَى ٱلْجَنَّةِ وَٱلْمَغْفِرَةِ بِإِذْنِهِۦ ۖ وَيُبَيِّنُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَذَكَّرُونَ
+- 2:286 لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 3:20 فَإِنْ حَآجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِىَ لِلَّهِ وَمَنِ ٱتَّبَعَنِ ۗ وَقُل لِّلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْأُمِّيِّۦنَ ءَأَسْلَمْتُمْ ۚ فَإِنْ أَسْلَمُوا۟ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا عَلَيْكَ ٱلْبَلَٰغُ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ
+- 3:51 إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 3:64 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍۢ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًۭٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًۭا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ
+- 3:79 مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًۭا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ
+- 3:150 بَلِ ٱللَّهُ مَوْلَىٰكُمْ ۖ وَهُوَ خَيْرُ ٱلنَّٰصِرِينَ
+- 4:36 ۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا
+- 4:45 وَٱللَّهُ أَعْلَمُ بِأَعْدَآئِكُمْ ۚ وَكَفَىٰ بِٱللَّهِ وَلِيًّۭا وَكَفَىٰ بِٱللَّهِ نَصِيرًۭا
+- 4:75 وَمَا لَكُمْ لَا تُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ ٱلَّذِينَ يَقُولُونَ رَبَّنَآ أَخْرِجْنَا مِنْ هَٰذِهِ ٱلْقَرْيَةِ ٱلظَّالِمِ أَهْلُهَا وَٱجْعَل لَّنَا مِن لَّدُنكَ وَلِيًّۭا وَٱجْعَل لَّنَا مِن لَّدُنكَ نَصِيرًا
+- 4:118 لَّعَنَهُ ٱللَّهُ ۘ وَقَالَ لَأَتَّخِذَنَّ مِنْ عِبَادِكَ نَصِيبًۭا مَّفْرُوضًۭا
+- 4:119 وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّۭا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًۭا مُّبِينًۭا
+- 4:132 وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا
+- 4:172 لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًۭا لِّلَّهِ وَلَا ٱلْمَلَٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًۭا
+- 4:173 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًۭا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّۭا وَلَا نَصِيرًۭا
+- 5:2 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُحِلُّوا۟ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهْرَ ٱلْحَرَامَ وَلَا ٱلْهَدْىَ وَلَا ٱلْقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلْبَيْتَ ٱلْحَرَامَ يَبْتَغُونَ فَضْلًۭا مِّن رَّبِّهِمْ وَرِضْوَٰنًۭا ۚ وَإِذَا حَلَلْتُمْ فَٱصْطَادُوا۟ ۚ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
+- 5:23 قَالَ رَجُلَانِ مِنَ ٱلَّذِينَ يَخَافُونَ أَنْعَمَ ٱللَّهُ عَلَيْهِمَا ٱدْخُلُوا۟ عَلَيْهِمُ ٱلْبَابَ فَإِذَا دَخَلْتُمُوهُ فَإِنَّكُمْ غَٰلِبُونَ ۚ وَعَلَى ٱللَّهِ فَتَوَكَّلُوٓا۟ إِن كُنتُم مُّؤْمِنِينَ
+- 5:76 قُلْ أَتَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَمْلِكُ لَكُمْ ضَرًّۭا وَلَا نَفْعًۭا ۚ وَٱللَّهُ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 5:117 مَا قُلْتُ لَهُمْ إِلَّا مَآ أَمَرْتَنِى بِهِۦٓ أَنِ ٱعْبُدُوا۟ ٱللَّهَ رَبِّى وَرَبَّكُمْ ۚ وَكُنتُ عَلَيْهِمْ شَهِيدًۭا مَّا دُمْتُ فِيهِمْ ۖ فَلَمَّا تَوَفَّيْتَنِى كُنتَ أَنتَ ٱلرَّقِيبَ عَلَيْهِمْ ۚ وَأَنتَ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدٌ
+- 6:17 وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّۢ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يَمْسَسْكَ بِخَيْرٍۢ فَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 6:18 وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ
+- 6:56 قُلْ إِنِّى نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ ۚ قُل لَّآ أَتَّبِعُ أَهْوَآءَكُمْ ۙ قَدْ ضَلَلْتُ إِذًۭا وَمَآ أَنَا۠ مِنَ ٱلْمُهْتَدِينَ
+- 6:71 قُلْ أَنَدْعُوا۟ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُنَا وَلَا يَضُرُّنَا وَنُرَدُّ عَلَىٰٓ أَعْقَابِنَا بَعْدَ إِذْ هَدَىٰنَا ٱللَّهُ كَٱلَّذِى ٱسْتَهْوَتْهُ ٱلشَّيَٰطِينُ فِى ٱلْأَرْضِ حَيْرَانَ لَهُۥٓ أَصْحَٰبٌۭ يَدْعُونَهُۥٓ إِلَى ٱلْهُدَى ٱئْتِنَا ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۖ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ
+- 6:88 ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَلَوْ أَشْرَكُوا۟ لَحَبِطَ عَنْهُم مَّا كَانُوا۟ يَعْمَلُونَ
+- 6:102 ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ خَٰلِقُ كُلِّ شَىْءٍۢ فَٱعْبُدُوهُ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌۭ
+- 6:162 قُلْ إِنَّ صَلَاتِى وَنُسُكِى وَمَحْيَاىَ وَمَمَاتِى لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 6:163 لَا شَرِيكَ لَهُۥ ۖ وَبِذَٰلِكَ أُمِرْتُ وَأَنَا۠ أَوَّلُ ٱلْمُسْلِمِينَ
+- 7:59 لَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍۢ
+- 7:65 ۞ وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًۭا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۚ أَفَلَا تَتَّقُونَ
+- 7:66 قَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦٓ إِنَّا لَنَرَىٰكَ فِى سَفَاهَةٍۢ وَإِنَّا لَنَظُنُّكَ مِنَ ٱلْكَٰذِبِينَ
+- 7:73 وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًۭا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌۭ مِّن رَّبِّكُمْ ۖ هَٰذِهِۦ نَاقَةُ ٱللَّهِ لَكُمْ ءَايَةًۭ ۖ فَذَرُوهَا تَأْكُلْ فِىٓ أَرْضِ ٱللَّهِ ۖ وَلَا تَمَسُّوهَا بِسُوٓءٍۢ فَيَأْخُذَكُمْ عَذَابٌ أَلِيمٌۭ
+- 7:85 وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًۭا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌۭ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ
+- 7:128 قَالَ مُوسَىٰ لِقَوْمِهِ ٱسْتَعِينُوا۟ بِٱللَّهِ وَٱصْبِرُوٓا۟ ۖ إِنَّ ٱلْأَرْضَ لِلَّهِ يُورِثُهَا مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَٱلْعَٰقِبَةُ لِلْمُتَّقِينَ
+- 7:197 وَٱلَّذِينَ تَدْعُونَ مِن دُونِهِۦ لَا يَسْتَطِيعُونَ نَصْرَكُمْ وَلَآ أَنفُسَهُمْ يَنصُرُونَ
+- 8:40 وَإِن تَوَلَّوْا۟ فَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَوْلَىٰكُمْ ۚ نِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ
+- 8:53 ذَٰلِكَ بِأَنَّ ٱللَّهَ لَمْ يَكُ مُغَيِّرًۭا نِّعْمَةً أَنْعَمَهَا عَلَىٰ قَوْمٍ حَتَّىٰ يُغَيِّرُوا۟ مَا بِأَنفُسِهِمْ ۙ وَأَنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌۭ
+- 9:31 ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَٰنَهُمْ أَرْبَابًۭا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًۭا وَٰحِدًۭا ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ
+- 9:51 قُل لَّن يُصِيبَنَآ إِلَّا مَا كَتَبَ ٱللَّهُ لَنَا هُوَ مَوْلَىٰنَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ
+- 9:129 فَإِن تَوَلَّوْا۟ فَقُلْ حَسْبِىَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ ٱلْعَرْشِ ٱلْعَظِيمِ
+- 10:18 وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَيَقُولُونَ هَٰٓؤُلَآءِ شُفَعَٰٓؤُنَا عِندَ ٱللَّهِ ۚ قُلْ أَتُنَبِّـُٔونَ ٱللَّهَ بِمَا لَا يَعْلَمُ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ
+- 10:28 وَيَوْمَ نَحْشُرُهُمْ جَمِيعًۭا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا۟ مَكَانَكُمْ أَنتُمْ وَشُرَكَآؤُكُمْ ۚ فَزَيَّلْنَا بَيْنَهُمْ ۖ وَقَالَ شُرَكَآؤُهُم مَّا كُنتُمْ إِيَّانَا تَعْبُدُونَ
+- 10:29 فَكَفَىٰ بِٱللَّهِ شَهِيدًۢا بَيْنَنَا وَبَيْنَكُمْ إِن كُنَّا عَنْ عِبَادَتِكُمْ لَغَٰفِلِينَ
+- 10:106 وَلَا تَدْعُ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُكَ وَلَا يَضُرُّكَ ۖ فَإِن فَعَلْتَ فَإِنَّكَ إِذًۭا مِّنَ ٱلظَّٰلِمِينَ
+- 11:2 أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۚ إِنَّنِى لَكُم مِّنْهُ نَذِيرٌۭ وَبَشِيرٌۭ
+- 11:26 أَن لَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍۢ
+- 11:50 وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ إِنْ أَنتُمْ إِلَّا مُفْتَرُونَ
+- 11:62 قَالُوا۟ يَٰصَٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّۭا قَبْلَ هَٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّۢ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍۢ
+- 11:63 قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ رَحْمَةًۭ فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍۢ
+- 11:84 ۞ وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًۭا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍۢ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍۢ مُّحِيطٍۢ
+- 11:123 وَلِلَّهِ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَإِلَيْهِ يُرْجَعُ ٱلْأَمْرُ كُلُّهُۥ فَٱعْبُدْهُ وَتَوَكَّلْ عَلَيْهِ ۚ وَمَا رَبُّكَ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ
+- 12:18 وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 12:40 مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
+- 12:67 وَقَالَ يَٰبَنِىَّ لَا تَدْخُلُوا۟ مِنۢ بَابٍۢ وَٰحِدٍۢ وَٱدْخُلُوا۟ مِنْ أَبْوَٰبٍۢ مُّتَفَرِّقَةٍۢ ۖ وَمَآ أُغْنِى عَنكُم مِّنَ ٱللَّهِ مِن شَىْءٍ ۖ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَعَلَيْهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ
+- 13:14 لَهُۥ دَعْوَةُ ٱلْحَقِّ ۖ وَٱلَّذِينَ يَدْعُونَ مِن دُونِهِۦ لَا يَسْتَجِيبُونَ لَهُم بِشَىْءٍ إِلَّا كَبَٰسِطِ كَفَّيْهِ إِلَى ٱلْمَآءِ لِيَبْلُغَ فَاهُ وَمَا هُوَ بِبَٰلِغِهِۦ ۚ وَمَا دُعَآءُ ٱلْكَٰفِرِينَ إِلَّا فِى ضَلَٰلٍۢ
+- 13:16 قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًۭا وَلَا ضَرًّۭا ۚ قُلْ هَلْ يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍۢ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ
+- 14:35 وَإِذْ قَالَ إِبْرَٰهِيمُ رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدَ ءَامِنًۭا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ
+- 14:36 رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًۭا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌۭ رَّحِيمٌۭ
+- 15:49 ۞ نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ
+- 15:87 وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ
+- 15:97 وَلَقَدْ نَعْلَمُ أَنَّكَ يَضِيقُ صَدْرُكَ بِمَا يَقُولُونَ
+- 15:98 فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّٰجِدِينَ
+- 15:99 وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ
+- 16:36 وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍۢ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّٰغُوتَ ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ ۚ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ
+- 16:51 ۞ وَقَالَ ٱللَّهُ لَا تَتَّخِذُوٓا۟ إِلَٰهَيْنِ ٱثْنَيْنِ ۖ إِنَّمَا هُوَ إِلَٰهٌۭ وَٰحِدٌۭ ۖ فَإِيَّٰىَ فَٱرْهَبُونِ
+- 16:53 وَمَا بِكُم مِّن نِّعْمَةٍۢ فَمِنَ ٱللَّهِ ۖ ثُمَّ إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيْهِ تَجْـَٔرُونَ
+- 16:54 ثُمَّ إِذَا كَشَفَ ٱلضُّرَّ عَنكُمْ إِذَا فَرِيقٌۭ مِّنكُم بِرَبِّهِمْ يُشْرِكُونَ
+- 16:73 وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَمْلِكُ لَهُمْ رِزْقًۭا مِّنَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ شَيْـًۭٔا وَلَا يَسْتَطِيعُونَ
+- 16:114 فَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا وَٱشْكُرُوا۟ نِعْمَتَ ٱللَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ
+- 17:2 وَءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ وَجَعَلْنَٰهُ هُدًۭى لِّبَنِىٓ إِسْرَٰٓءِيلَ أَلَّا تَتَّخِذُوا۟ مِن دُونِى وَكِيلًۭا
+- 17:42 قُل لَّوْ كَانَ مَعَهُۥٓ ءَالِهَةٌۭ كَمَا يَقُولُونَ إِذًۭا لَّٱبْتَغَوْا۟ إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًۭا
+- 17:56 قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِهِۦ فَلَا يَمْلِكُونَ كَشْفَ ٱلضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا
+- 17:57 أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًۭا
+- 17:65 إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌۭ ۚ وَكَفَىٰ بِرَبِّكَ وَكِيلًۭا
+- 18:14 وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًۭا ۖ لَّقَدْ قُلْنَآ إِذًۭا شَطَطًا
+- 18:16 وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا
+- 18:26 قُلِ ٱللَّهُ أَعْلَمُ بِمَا لَبِثُوا۟ ۖ لَهُۥ غَيْبُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَبْصِرْ بِهِۦ وَأَسْمِعْ ۚ مَا لَهُم مِّن دُونِهِۦ مِن وَلِىٍّۢ وَلَا يُشْرِكُ فِى حُكْمِهِۦٓ أَحَدًۭا
+- 18:65 فَوَجَدَا عَبْدًۭا مِّنْ عِبَادِنَآ ءَاتَيْنَٰهُ رَحْمَةًۭ مِّنْ عِندِنَا وَعَلَّمْنَٰهُ مِن لَّدُنَّا عِلْمًۭا
+- 18:95 قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌۭ فَأَعِينُونِى بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا
+- 18:102 أَفَحَسِبَ ٱلَّذِينَ كَفَرُوٓا۟ أَن يَتَّخِذُوا۟ عِبَادِى مِن دُونِىٓ أَوْلِيَآءَ ۚ إِنَّآ أَعْتَدْنَا جَهَنَّمَ لِلْكَٰفِرِينَ نُزُلًۭا
+- 19:2 ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ
+- 19:3 إِذْ نَادَىٰ رَبَّهُۥ نِدَآءً خَفِيًّۭا
+- 19:36 وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 19:65 رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا فَٱعْبُدْهُ وَٱصْطَبِرْ لِعِبَٰدَتِهِۦ ۚ هَلْ تَعْلَمُ لَهُۥ سَمِيًّۭا
+- 20:14 إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ
+- 20:32 وَأَشْرِكْهُ فِىٓ أَمْرِى
+- 20:33 كَىْ نُسَبِّحَكَ كَثِيرًۭا
+- 20:34 وَنَذْكُرَكَ كَثِيرًا
+- 21:25 وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ
+- 21:73 وَجَعَلْنَٰهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةِ وَإِيتَآءَ ٱلزَّكَوٰةِ ۖ وَكَانُوا۟ لَنَا عَٰبِدِينَ
+- 21:112 قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 22:10 ذَٰلِكَ بِمَا قَدَّمَتْ يَدَاكَ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّٰمٍۢ لِّلْعَبِيدِ
+- 22:11 وَمِنَ ٱلنَّاسِ مَن يَعْبُدُ ٱللَّهَ عَلَىٰ حَرْفٍۢ ۖ فَإِنْ أَصَابَهُۥ خَيْرٌ ٱطْمَأَنَّ بِهِۦ ۖ وَإِنْ أَصَابَتْهُ فِتْنَةٌ ٱنقَلَبَ عَلَىٰ وَجْهِهِۦ خَسِرَ ٱلدُّنْيَا وَٱلْءَاخِرَةَ ۚ ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ
+- 22:62 ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِۦ هُوَ ٱلْبَٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ
+- 22:77 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩
+- 22:78 وَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ
+- 23:23 وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ
+- 23:31 ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ
+- 23:32 فَأَرْسَلْنَا فِيهِمْ رَسُولًۭا مِّنْهُمْ أَنِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥٓ ۖ أَفَلَا تَتَّقُونَ
+- 23:47 فَقَالُوٓا۟ أَنُؤْمِنُ لِبَشَرَيْنِ مِثْلِنَا وَقَوْمُهُمَا لَنَا عَٰبِدُونَ
+- 25:1 تَبَارَكَ ٱلَّذِى نَزَّلَ ٱلْفُرْقَانَ عَلَىٰ عَبْدِهِۦ لِيَكُونَ لِلْعَٰلَمِينَ نَذِيرًا
+- 25:4 وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ ءَاخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًۭا وَزُورًۭا
+- 25:43 أَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ أَفَأَنتَ تَكُونُ عَلَيْهِ وَكِيلًا
+- 25:55 وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُهُمْ وَلَا يَضُرُّهُمْ ۗ وَكَانَ ٱلْكَافِرُ عَلَىٰ رَبِّهِۦ ظَهِيرًۭا
+- 26:22 وَتِلْكَ نِعْمَةٌۭ تَمُنُّهَا عَلَىَّ أَنْ عَبَّدتَّ بَنِىٓ إِسْرَٰٓءِيلَ
+- 26:70 إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا تَعْبُدُونَ
+- 26:71 قَالُوا۟ نَعْبُدُ أَصْنَامًۭا فَنَظَلُّ لَهَا عَٰكِفِينَ
+- 27:91 إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ رَبَّ هَٰذِهِ ٱلْبَلْدَةِ ٱلَّذِى حَرَّمَهَا وَلَهُۥ كُلُّ شَىْءٍۢ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُسْلِمِينَ
+- 28:70 وَهُوَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْحَمْدُ فِى ٱلْأُولَىٰ وَٱلْءَاخِرَةِ ۖ وَلَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ
+- 29:16 وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ ۖ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ
+- 29:17 إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَٰنًۭا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًۭا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ
+- 29:36 وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًۭا فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ ٱلْءَاخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ
+- 29:56 يَٰعِبَادِىَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ أَرْضِى وَٰسِعَةٌۭ فَإِيَّٰىَ فَٱعْبُدُونِ
+- 29:59 ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ
+- 29:60 وَكَأَيِّن مِّن دَآبَّةٍۢ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 29:62 ٱللَّهُ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥٓ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 30:30 فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًۭا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
+- 30:33 وَإِذَا مَسَّ ٱلنَّاسَ ضُرٌّۭ دَعَوْا۟ رَبَّهُم مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُم مِّنْهُ رَحْمَةً إِذَا فَرِيقٌۭ مِّنْهُم بِرَبِّهِمْ يُشْرِكُونَ
+- 31:13 وَإِذْ قَالَ لُقْمَٰنُ لِٱبْنِهِۦ وَهُوَ يَعِظُهُۥ يَٰبُنَىَّ لَا تُشْرِكْ بِٱللَّهِ ۖ إِنَّ ٱلشِّرْكَ لَظُلْمٌ عَظِيمٌۭ
+- 32:16 تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًۭا وَطَمَعًۭا وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
+- 33:3 وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًۭا
+- 34:22 قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍۢ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍۢ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍۢ
+- 34:23 وَلَا تَنفَعُ ٱلشَّفَٰعَةُ عِندَهُۥٓ إِلَّا لِمَنْ أَذِنَ لَهُۥ ۚ حَتَّىٰٓ إِذَا فُزِّعَ عَن قُلُوبِهِمْ قَالُوا۟ مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا۟ ٱلْحَقَّ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ
+- 34:40 وَيَوْمَ يَحْشُرُهُمْ جَمِيعًۭا ثُمَّ يَقُولُ لِلْمَلَٰٓئِكَةِ أَهَٰٓؤُلَآءِ إِيَّاكُمْ كَانُوا۟ يَعْبُدُونَ
+- 34:41 قَالُوا۟ سُبْحَٰنَكَ أَنتَ وَلِيُّنَا مِن دُونِهِم ۖ بَلْ كَانُوا۟ يَعْبُدُونَ ٱلْجِنَّ ۖ أَكْثَرُهُم بِهِم مُّؤْمِنُونَ
+- 35:3 يَٰٓأَيُّهَا ٱلنَّاسُ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ خَٰلِقٍ غَيْرُ ٱللَّهِ يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ
+- 36:22 وَمَا لِىَ لَآ أَعْبُدُ ٱلَّذِى فَطَرَنِى وَإِلَيْهِ تُرْجَعُونَ
+- 36:23 ءَأَتَّخِذُ مِن دُونِهِۦٓ ءَالِهَةً إِن يُرِدْنِ ٱلرَّحْمَٰنُ بِضُرٍّۢ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًۭٔا وَلَا يُنقِذُونِ
+- 36:61 وَأَنِ ٱعْبُدُونِى ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 36:74 وَٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ ءَالِهَةًۭ لَّعَلَّهُمْ يُنصَرُونَ
+- 36:75 لَا يَسْتَطِيعُونَ نَصْرَهُمْ وَهُمْ لَهُمْ جُندٌۭ مُّحْضَرُونَ
+- 37:40 إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ
+- 37:81 إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ
+- 37:111 إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ
+- 37:118 وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 37:122 إِنَّهُمَا مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ
+- 37:132 إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ
+- 37:160 إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ
+- 37:161 فَإِنَّكُمْ وَمَا تَعْبُدُونَ
+- 37:162 مَآ أَنتُمْ عَلَيْهِ بِفَٰتِنِينَ
+- 38:30 وَوَهَبْنَا لِدَاوُۥدَ سُلَيْمَٰنَ ۚ نِعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌ
+- 39:2 إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ
+- 39:3 أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌۭ كَفَّارٌۭ
+- 39:8 ۞ وَإِذَا مَسَّ ٱلْإِنسَٰنَ ضُرٌّۭ دَعَا رَبَّهُۥ مُنِيبًا إِلَيْهِ ثُمَّ إِذَا خَوَّلَهُۥ نِعْمَةًۭ مِّنْهُ نَسِىَ مَا كَانَ يَدْعُوٓا۟ إِلَيْهِ مِن قَبْلُ وَجَعَلَ لِلَّهِ أَندَادًۭا لِّيُضِلَّ عَن سَبِيلِهِۦ ۚ قُلْ تَمَتَّعْ بِكُفْرِكَ قَلِيلًا ۖ إِنَّكَ مِنْ أَصْحَٰبِ ٱلنَّارِ
+- 39:11 قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ
+- 39:12 وَأُمِرْتُ لِأَنْ أَكُونَ أَوَّلَ ٱلْمُسْلِمِينَ
+- 39:14 قُلِ ٱللَّهَ أَعْبُدُ مُخْلِصًۭا لَّهُۥ دِينِى
+- 39:17 وَٱلَّذِينَ ٱجْتَنَبُوا۟ ٱلطَّٰغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوٓا۟ إِلَى ٱللَّهِ لَهُمُ ٱلْبُشْرَىٰ ۚ فَبَشِّرْ عِبَادِ
+- 39:38 وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ
+- 39:64 قُلْ أَفَغَيْرَ ٱللَّهِ تَأْمُرُوٓنِّىٓ أَعْبُدُ أَيُّهَا ٱلْجَٰهِلُونَ
+- 39:66 بَلِ ٱللَّهَ فَٱعْبُدْ وَكُن مِّنَ ٱلشَّٰكِرِينَ
+- 40:14 فَٱدْعُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ
+- 40:60 وَقَالَ رَبُّكُمُ ٱدْعُونِىٓ أَسْتَجِبْ لَكُمْ ۚ إِنَّ ٱلَّذِينَ يَسْتَكْبِرُونَ عَنْ عِبَادَتِى سَيَدْخُلُونَ جَهَنَّمَ دَاخِرِينَ
+- 41:6 قُلْ إِنَّمَآ أَنَا۠ بَشَرٌۭ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ فَٱسْتَقِيمُوٓا۟ إِلَيْهِ وَٱسْتَغْفِرُوهُ ۗ وَوَيْلٌۭ لِّلْمُشْرِكِينَ
+- 42:10 وَمَا ٱخْتَلَفْتُمْ فِيهِ مِن شَىْءٍۢ فَحُكْمُهُۥٓ إِلَى ٱللَّهِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبِّى عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ
+- 43:15 وَجَعَلُوا۟ لَهُۥ مِنْ عِبَادِهِۦ جُزْءًا ۚ إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ مُّبِينٌ
+- 43:64 إِنَّ ٱللَّهَ هُوَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 44:18 أَنْ أَدُّوٓا۟ إِلَىَّ عِبَادَ ٱللَّهِ ۖ إِنِّى لَكُمْ رَسُولٌ أَمِينٌۭ
+- 44:19 وَأَن لَّا تَعْلُوا۟ عَلَى ٱللَّهِ ۖ إِنِّىٓ ءَاتِيكُم بِسُلْطَٰنٍۢ مُّبِينٍۢ
+- 46:4 قُلْ أَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا خَلَقُوا۟ مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌۭ فِى ٱلسَّمَٰوَٰتِ ۖ ٱئْتُونِى بِكِتَٰبٍۢ مِّن قَبْلِ هَٰذَآ أَوْ أَثَٰرَةٍۢ مِّنْ عِلْمٍ إِن كُنتُمْ صَٰدِقِينَ
+- 46:28 فَلَوْلَا نَصَرَهُمُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ قُرْبَانًا ءَالِهَةًۢ ۖ بَلْ ضَلُّوا۟ عَنْهُمْ ۚ وَذَٰلِكَ إِفْكُهُمْ وَمَا كَانُوا۟ يَفْتَرُونَ
+- 47:19 فَٱعْلَمْ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱللَّهُ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ۗ وَٱللَّهُ يَعْلَمُ مُتَقَلَّبَكُمْ وَمَثْوَىٰكُمْ
+- 48:1 إِنَّا فَتَحْنَا لَكَ فَتْحًۭا مُّبِينًۭا
+- 48:2 لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 50:29 مَا يُبَدَّلُ ٱلْقَوْلُ لَدَىَّ وَمَآ أَنَا۠ بِظَلَّٰمٍۢ لِّلْعَبِيدِ
+- 51:50 فَفِرُّوٓا۟ إِلَى ٱللَّهِ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌۭ مُّبِينٌۭ
+- 51:51 وَلَا تَجْعَلُوا۟ مَعَ ٱللَّهِ إِلَٰهًا ءَاخَرَ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌۭ مُّبِينٌۭ
+- 51:56 وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ
+- 53:62 فَٱسْجُدُوا۟ لِلَّهِ وَٱعْبُدُوا۟ ۩
+- 71:3 أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ وَأَطِيعُونِ
+- 71:4 يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰٓ أَجَلٍۢ مُّسَمًّى ۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَآءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ
+- 72:2 يَهْدِىٓ إِلَى ٱلرُّشْدِ فَـَٔامَنَّا بِهِۦ ۖ وَلَن نُّشْرِكَ بِرَبِّنَآ أَحَدًۭا
+- 72:18 وَأَنَّ ٱلْمَسَٰجِدَ لِلَّهِ فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًۭا
+- 72:20 قُلْ إِنَّمَآ أَدْعُوا۟ رَبِّى وَلَآ أُشْرِكُ بِهِۦٓ أَحَدًۭا
+- 72:21 قُلْ إِنِّى لَآ أَمْلِكُ لَكُمْ ضَرًّۭا وَلَا رَشَدًۭا
+- 73:9 رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًۭا
+- 76:6 عَيْنًۭا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ يُفَجِّرُونَهَا تَفْجِيرًۭا
+- 92:12 إِنَّ عَلَيْنَا لَلْهُدَىٰ
+- 94:7 فَإِذَا فَرَغْتَ فَٱنصَبْ
+- 94:8 وَإِلَىٰ رَبِّكَ فَٱرْغَب
+- 96:9 أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ
+- 96:10 عَبْدًا إِذَا صَلَّىٰٓ
+- 98:5 وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ
+- 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+- 109:2 لَآ أَعْبُدُ مَا تَعْبُدُونَ
+- 109:3 وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+- 109:4 وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ
+- 109:5 وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+- 109:6 لَكُمْ دِينُكُمْ وَلِىَ دِينِ

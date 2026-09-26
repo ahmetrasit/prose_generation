@@ -1,0 +1,116 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 90.
+## غ ي ر (فَٱلْمُغِيرَٰتِ)
+
+- **B001** yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح
+  - same: ص ب ح B003 günün başındaki içecek ve içme / الصبوح ← 100:3 صُبْحًا
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:6 لِرَبِّهِۦ
+  - near: خ ي ر B002 iyi ve seçkin olma / فضل الصلاح والاصطفاء ← 100:8 ٱلْخَيْرِ
+  - near: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:11 رَبَّهُم
+  - far: خ ب ر B003 üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة ← 100:11 لَّخَبِيرٌۢ
+- **B002** cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية
+  - same: ص ب ح B004 günün başında baskın / يوم الصباح ← 100:3 صُبْحًا
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: ع د و B006 hastalığın bulaşması / العَدْوى في انتقال الداء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:11 رَبَّهُم
+- **B003** biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره
+  - same: ص ب ح B006 kızılımsı parlak güzellik / الصُّبْحة والصباحة ← 100:3 صُبْحًا
+  - near: ض ب ح B004 siyaha doğru kararma / تغير اللون إلى السواد ← 100:1 ضَبْحًا
+  - near: خ ي ر B001 arzulanan iyilik / الميل إلى الخير النافع ← 100:8 ٱلْخَيْرِ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+- **B004** eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل
+  - same: ص ب ح B004 günün başında baskın / يوم الصباح ← 100:3 صُبْحًا
+  - near: ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 100:6 لِرَبِّهِۦ
+  - near: ج م ع B013 bir işte başkasıyla birleşip destek olma / ممالأة واجتماع مع غيرك على أمر ← 100:5 جَمْعًا
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 100:11 رَبَّهُم
+- **B005** başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي
+  - same: ص ب ح B010 bir duruma gelmek / أصبح بمعنى صار ← 100:3 صُبْحًا
+  - near: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 100:6 لِرَبِّهِۦ
+  - far: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 100:11 رَبَّهُم
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+
+## ص ب ح (صُبْحًا)
+
+- **B001** günün ilk aydınlığı / الصبح وأول النهار
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 100:8 لَشَدِيدٌ
+  - near: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 100:10 ٱلصُّدُورِ
+  - near: ض ب ح B001 tilki sesi ve ona benzetilen sesler / صوت الضباح ← 100:1 ضَبْحًا
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+- **B002** günün başında gelmek / الإتيان صباحا
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ض ب ح B004 siyaha doğru kararma / تغير اللون إلى السواد ← 100:1 ضَبْحًا
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: ب ع ث ر B003 havuzu yıkıp altını üste çevirme / هدم الحوض وقلب أسفله أعلاه ← 100:9 بُعْثِرَ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 100:11 رَبَّهُم
+- **B003** günün başındaki içecek ve içme / الصبوح
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ق د ح B006 içecek kabı, yapımcısı ve yapım işi / قدح الشرب ← 100:2 قَدْحًا
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 100:8 لِحُبِّ
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 100:8 لَشَدِيدٌ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:11 رَبَّهُم
+- **B004** günün başında baskın / يوم الصباح
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ض ب ح B001 tilki sesi ve ona benzetilen sesler / صوت الضباح ← 100:1 ضَبْحًا
+  - near: ج م ع B004 toplanmayla belirlenen yer veya gün / موضع أو يوم أو نداء يجمع الناس ← 100:5 جَمْعًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:11 رَبَّهُم
+- **B005** ışık veren lamba / المصباح والسراج
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: ح ب ب B011 yararsız zayıf kıvılcım veya gece ışıldayan böcek / نار الحباحب شرر لا ينتفع به ← 100:8 لِحُبِّ
+  - near: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:11 رَبَّهُم
+- **B006** kızılımsı parlak güzellik / الصُّبْحة والصباحة
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ض ب ح B004 siyaha doğru kararma / تغير اللون إلى السواد ← 100:1 ضَبْحًا
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B007** günün başı uykusu / الصُّبْحة نوما
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: و ر ي B008 yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ب ع ث ر B003 havuzu yıkıp altını üste çevirme / هدم الحوض وقلب أسفله أعلاه ← 100:9 بُعْثِرَ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:11 رَبَّهُم
+- **B008** gün doğana dek çöken deve / الناقة المصباح
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 100:8 لَشَدِيدٌ
+  - near: ك ن د B003 hiçbir bitki yetiştirmeyen toprak / الأرض التي لا تنبت ← 100:6 لَكَنُودٌ
+  - near: ن ق ع B003 dönüş veya evlilik yemeği; kesilmiş deve; soğutulmuş katıksız süt / نقيعة طعام أو نحر أو لبن ← 100:4 نَقْعًا
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 100:11 رَبَّهُم
+- **B009** gün başı zaman kalıbı / ظروف الصباح
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ج م ع B004 toplanmayla belirlenen yer veya gün / موضع أو يوم أو نداء يجمع الناس ← 100:5 جَمْعًا
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+- **B010** bir duruma gelmek / أصبح بمعنى صار
+  - same: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ص د ر B004 eylem türetme temeli; çıkış yeri veya zamanı / الأصل الذي تصدر عنه الأفعال ← 100:10 ٱلصُّدُورِ
+  - near: ش ه د B005 ifade eden dil / اللسان الشاهد ← 100:7 لَشَهِيدٌ
+  - near: ض ب ح B005 kül / الرماد ← 100:1 ضَبْحًا
+  - far: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 100:11 رَبَّهُم
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+

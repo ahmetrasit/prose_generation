@@ -3,3 +3,11 @@
     N32: lines 'n-r' should be 2 codes of r/n/-
 N33: lines 'r-r' should be 2 codes of r/n/-
 N34: lines 'r-r' should be 2 codes of r/n/-
+  run.py run 1:6 --parallel 8
+    related_5.md: 9 records, 0 problem(s)
+surah_1.md: 18 records, 0 problem(s)
+usage_1.md: 6 records, 0 problem(s)
+  run.py check 1:6
+    related_5.md []
+surah_1.md []
+usage_1.md []

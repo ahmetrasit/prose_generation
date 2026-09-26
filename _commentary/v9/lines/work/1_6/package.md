@@ -1,0 +1,1173 @@
+# Package for 1:6
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 ٱلصِّرَٰطَ — 3 roots converge
+Plain sense of ٱلصِّرَٰطَ: yol, özellikle düz yol (الطريق المستقيم); geçişte gözden kaybolmak; özellikle yiyeceği yutmak (الغيبة في المرور والبلع)
+- **L1.1** [judged] ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufr…
+  - evidence: Luna (image): The path is heard as a shared route for a company or kin group. Its straightness becomes a communal way trod together rather than a solitary course.
+- **L1.2** [judged] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا…
+  - evidence: Luna (image): The route is heard as something kept and watched over. The straight path is more than a correct orientation: it is a course maintained by a guardian.
+- **L1.3** [judged] ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا…
+  - evidence: Luna (complement): The path is heard as an itinerary leading to a place of residence. Route and settled destination meet in one journey.
+- **L1.4** [judged] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب…
+  - evidence: Luna (image): The path's uprightness takes bodily form as full stature and a well-made shape. The straight route is pictured as an erect figure, not merely a line.
+- **L1.5** [judged] ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat)
+  - evidence: Luna (complement): The straight way takes on an eschatological horizon: it is the course of those who will rise for judgment. The path is heard as leading through life toward that
+- **L1.6** [judged] ق و م B015 «tam ve denk ağırlıktaki para» وزن سواء ومقدار معتدل — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)؛ دنانير قوم وقيم ودينار قائم إذا كان مثقالا سواء لا يرجح (tahdhib)
+  - evidence: Luna (same): The straight way meets the coin's exact balance: neither tipping nor deviating, the path is a norm of even measure. Rightness becomes a weighed standard, not me
+- **L1.7** [judged] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: قام الماء جمد؛ قامت الدابة وقفت (sihah)؛ قامت لفلان دابته إذا كلت أو عيت فلم تسر (tahdhib)
+  - evidence: Luna (opposite): The traversable road is set against frozen water and the exhausted mount that cannot continue. The straight way is heard as a course that remains open to travel
+- **L1.8** [judged] ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib)
+  - evidence: Luna (same): The path's rectitude resonates with the day reaching its balanced midpoint. Uprightness is heard as equilibrium, and the path names a standard of measured balan
+- **L1.9** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word ٱلْمُسْتَقِيمَ (1 dictionaries, sole attestation); source: قام بي ظهري أي أوجعني؛ قامت بي عيناي؛ كل ما أوجعك من جسدك فقد قام بك (tahdhib)
+  - evidence: Luna (image): The prayer takes on the image of a traveler who carries pain along a road. Guidance then addresses a bodily journey, not only an inward choice.
+- **L1.10** [judged] ق و م B020 «koyunun bacaklarını tutan hastalık» قوام في قوائم الشاة — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)؛ أخذها قوام وهو داء يأخذها في قوائمها تقوم منه (tahdhib)
+  - evidence: Luna (part): The straight path becomes ground that must be traversed by legs. The request carries bodily vulnerability into its image of a way forward.
+- **L1.11** [judged] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: عين قائمة ذهب بصرها والحدقة صحيحة (ayn)؛ العين القائمة أن يذهب بصرها والحدقة صحيحة (tahdhib)
+  - evidence: Luna (complement): A path may be perfectly straight and still remain unseen by an eye that has lost sight. Beside that eye, ٱلصِّرَٰطَ is a route to be reached through guidance ra
+- **L1.12** [judged] ه د د B001 «agir kirip yikma» كسر شديد وهدم — word ٱهْدِنَا (echo root, sound family only; 5 dictionaries); source: أصل صحيح يدل على كسر وهضم وهدم (maqayis)؛ الهد الهدم الشديد (ayn;tahdhib)؛ هددت الحائط إذا هدمته (jamhara)؛ هد البناء يهده هدا كسره وضعضعه (sihah;tahdhib)؛ انهد الجبل أي انكسر (sihah)؛ الهدة الخسوف والهد الهدم (tahdhib)… (also L2.3)
+  - evidence: Luna (image): The request now passes over a route imagined as shattered by a violent break. Guidance means finding a traversable line through the ruin, so the named path bear
+- **L1.13** [judged] ه د د B008 «agir basarak yurume» وطء شديد يثقل الأرض — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: فلان يهد الأرض في مشيه إذا جاء يطأ وطأ شديدا (jamhara)
+  - evidence: Luna (image): The way is no abstract line: it is ground under a crushing stride. The petition imagines a heavy foot pressing the route as it is traversed.
+- **L1.14** [judged] ه د د B009 «sarp inisli gecit» منحدر شاق — word ٱهْدِنَا (echo root, sound family only; 2 dictionaries); source: أكمة هدود صعبة المنحدر وربما تردت الإبل منها (jamhara)؛ الهدود العقبة الشاقة (tahdhib)
+  - evidence: Luna (part): The route can include a difficult, steep pass as one of its stretches. The request is for guidance along the whole way, even through its hazardous descent.
+- **L1.15** [judged] ه د د B011 «kesinlesmemis sani» تخييل الظن في النفس — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: يقال يهدهد إلي كذا إذا شبه للإنسان في نفسه بالظن ما لم يثبته ولم يعقد عليه التشبيه (tahdhib) (also L2.4, T1)
+  - evidence: Luna (opposite): The petition asks for a road to follow, not an unconfirmed picture of where the road might be. Guidance becomes a way out of conjecture and onto a traversable c
+- **L1.16** [judged] ه د ي B004 «incelik göstergesi armağan verme» بعثة لطف وهدية إلى ذي مودة — word ٱهْدِنَا (5 dictionaries); source: الهدية ما أهديت إلى ذي مودة من بر (ayn)؛ الهدية واحدة الهدايا؛ أهديت له وإليه؛ المهدى ما يهدى فيه؛ التهادي أن يهدي بعضهم إلى بعض؛ المهداء الذي من عادته أن يهدي (sihah)؛ أهديت الهدية إهداء؛ امرأة مهداء؛ المهدى الطبق الذي… (also L2.5, T3)
+  - evidence: Luna (image): The request sounds like asking for the road as a gift of affection. The route is not only indicated; it is tenderly offered to those who ask.
+- **L1.17** [judged] ه د ي B005 «kutsal yere adanan hayvan, mal veya eşya» الهدي المهدى إلى الحرم — word ٱهْدِنَا (5 dictionaries); source: الهدي والهدي ما أهديت إلى مكة؛ كل شيء تهديه من مال أو متاع فهو هدي (ayn)؛ الهدي ما يهدى إلى الحرم من النعم؛ مالى هدي؛ حتى يبلغ الهدى محله (sihah)؛ أهديت الهدي إلى بيت الله؛ الهدي خفيف وعليه هدية أي بدنة؛ ما يهدى إلى مكة…
+  - evidence: Luna (image): The route becomes a road of pilgrimage, beside an offering dedicated to the sanctuary. Guidance is imagined as carrying travelers toward the sacred destination 
+- **L1.18** [judged] ه د ي B006 «gelini eşinin yanına götürme» العروس المهدية إلى زوجها — word ٱهْدِنَا (4 dictionaries); source: الهداء مصدر قولك هديت المرأة إلى زوجها؛ وهي مهدية وهدي (sihah)؛ هديت العروس فأنا أهديها هداء؛ أهدى الرجل امرأته جمعها إليه وضمها؛ المرأة سميت هديا لأنها كالأسيرة عند زوجها أو لأنها تهدى إلى زوجها (tahdhib)؛ الهدي يقال ف…
+  - evidence: Luna (image): The route becomes a wedding road along which a bride is led to her husband. The request for guidance takes on the concrete image of an escort toward a destinati
+- **L1.19** [judged] ه د ي B007 «dokunulmaz sığınmacı; kimi açıklamalarda tutsak» هدي الحرمة والأسير — word ٱهْدِنَا (3 dictionaries); source: الرجل الذي له حرمة كحرمة هدي البيت؛ يقال للأسير أيضا هدي (sihah)؛ الهدي الرجل ذو الحرمة وهو أن يأتي القوم يستجيرهم أو يأخذ منهم عهدا؛ يقال للأسير أيضا الهدي (tahdhib)؛ وقيل الهدي الأسير (maqayis)
+  - evidence: Luna (complement): The plural petition can be heard in the voice of people under protection, or captives, who need to be led onward. The path becomes a route from vulnerability to
+- **L1.20** [judged] ه د ي B009 «bön, güçsüz ve ağır kimse» الهداء البليد الضعيف — word ٱهْدِنَا (2 dictionaries); source: الهداء الرجل البليد الضعيف (ayn)؛ رجل هداء وهدان للثقيل الوخم (tahdhib)
+  - evidence: Luna (image): We can hear the petitioners as slow, heavy people who cannot manage the way unaided. The road becomes the route along which the unwieldy traveler must be led.
+- **L1.21** [judged] ه د ي B010 «sakin, ölçülü ve düzgün ilerleyiş» هدي السكون وحسن الهيئة — word ٱهْدِنَا (2 dictionaries); source: الهدي السكون؛ ما هدى هدي مهزوم؛ لم يسرع إسراع المنهزم ولكن على سكون وهدي حسن (ayn)؛ الهدي السكون؛ لم يسرع إسراع المنهزم ولكن على سكون وحسن هدي (tahdhib) (also L2.6)
+  - evidence: Luna (image): The route is pictured under measured, unhurried travel rather than a defeated rush. The request asks for a way that can be walked in calm composure.
+- surah ayat these members touch (chain material): 1:1 (ق و م B004)
+
+### L2 ٱلْمُسْتَقِيمَ — 3 roots converge
+Plain sense of ٱلْمُسْتَقِيمَ: ayağa kalkma ve dik durma (انتصاب وقيام بالبدن); bir işe kararlılıkla girişme (عزم ونهوض إلى الأمر); düzgünlük, denge ve doğru yoldan sapmama (استقامة واعتدال واستواء); ayakta tutan dayanak ve geçim temeli (قوام وعماد ومعاش)
+- **L2.1** [dictionary] ه د د B012 «uzun boylu adam» رجل طويل — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: الهديد الرجل الطويل (tahdhib) (also T2)
+  - evidence: rel/near_synonym: ق و م B011 (uzun adam ile boy yapisi) || Luna (image): The path's uprightness takes bodily form as the stature of a tall person. The way is pictured as a standing figure, not only as an abstract direction.
+- **L2.2** [judged] ص ر ط B003 «vuruşta kesip ilerleyen kılıç» السيف القاطع الماضي في الضربة — word ٱلصِّرَٰطَ (1 dictionaries, sole attestation); source: والسراط السيف القاطع الماضي في الضريبة (maqayis 1774)
+  - evidence: Luna (image): The path's straightness takes on the blade's direct stroke: it cleaves forward without deviation. The way is heard not only as correct, but as a cut line held t
+- **L2.3** [judged] ه د د B001 «agir kirip yikma» كسر شديد وهدم — word ٱهْدِنَا (echo root, sound family only; 5 dictionaries); source: as L1.12 (also L1.12)
+  - evidence: Luna (opposite): Straightness answers the demolisher: the road is asked to stand intact where ه د د imagines a wall or mountain broken down. The petition becomes a plea for a wa
+- **L2.4** [judged] ه د د B011 «kesinlesmemis sani» تخييل الظن في النفس — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: as L1.15 (also L1.15, T1)
+  - evidence: Luna (opposite): The straight way stands fixed against a suspicion that has not been proved or settled. The request is for stable direction, beyond what the mind only supposes.
+- **L2.5** [judged] ه د ي B004 «incelik göstergesi armağan verme» بعثة لطف وهدية إلى ذي مودة — word ٱهْدِنَا (5 dictionaries); source: as L1.16 (also L1.16, T3)
+  - evidence: Luna (complement): The upright way is heard as the gift's content, so its standard arrives through generosity. The petition asks to receive what is right as something bestowed.
+- **L2.6** [judged] ه د ي B010 «sakin, ölçülü ve düzgün ilerleyiş» هدي السكون وحسن الهيئة — word ٱهْدِنَا (2 dictionaries); source: as L1.21 (also L1.21)
+  - evidence: Luna (same): The straight path is pictured as a calm, well-composed bearing rather than a hurried, wavering gait. The adjective's uprightness becomes a manner of walking.
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… (also L1.2) — lex/src-rare: اسماء → بِسْمِ
+- **F2** ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufr… (also L1.1) — img/near: near: و س م B004 موسم معلم يجتمع إليه الناس ← بِسْمِ
+- **F3** ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب… (also L1.4) — img/near: near: و س م B005 حسن عليه أثر الجمال ← بِسْمِ
+- **F4** ق و م B020 «koyunun bacaklarını tutan hastalık» قوام في قوائم الشاة — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)؛ أخذها قوام وهو داء يأخذها في قوائمها تقوم منه (tahdhib) (also L1.10) — img/near: near: ر ح م B004 وجع الرَّحِم بعد الولادة ← ٱلرَّحْمَٰنِ
+- **F5** ه د د B008 «agir basarak yurume» وطء شديد يثقل الأرض — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: فلان يهد الأرض في مشيه إذا جاء يطأ وطأ شديدا (jamhara) (also L1.13) — img/near: near: و س م B003 مطر أول يسم الأرض بالنبات ← بِسْمِ
+- **F6** ه د ي B004 «incelik göstergesi armağan verme» بعثة لطف وهدية إلى ذي مودة — word ٱهْدِنَا (5 dictionaries); source: الهدية ما أهديت إلى ذي مودة من بر (ayn)؛ الهدية واحدة الهدايا؛ أهديت له وإليه؛ المهدى ما يهدى فيه؛ التهادي أن يهدي بعضهم إلى بعض؛ المهداء الذي من عادته أن يهدي (sihah)؛ أهديت الهدية إهداء؛ امرأة مهداء؛ المهدى الطبق الذي… (also L1.16, L2.5, T3) — kw/shared: kindness (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F7** ص ر ط B003 «vuruşta kesip ilerleyen kılıç» السيف القاطع الماضي في الضربة — word ٱلصِّرَٰطَ (1 dictionaries, sole attestation); source: والسراط السيف القاطع الماضي في الضريبة (maqayis 1774) (also L2.2) — img/near: near: ع ل م B002 أثر يميز الشيء ويهدي إليه ← ٱلْعَٰلَمِينَ
+- **F8** ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufr… (also L1.1, F2) — img/near: near: ر ب ب B004 ربة وجماعات كثيرة ← رَبِّ
+- **F9** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… (also L1.2, F1) — img/near: near: ر ب ب B001 ربوبية وملك وسيادة ← رَبِّ
+- **F10** ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا… (also L1.3) — img/near: near: ر ب ب B007 لزوم وإقامة ودوام ← رَبِّ
+- **F11** ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat) (also L1.5) — lex/src: عالمين → ٱلْعَٰلَمِينَ
+- **F12** ق و م B015 «tam ve denk ağırlıktaki para» وزن سواء ومقدار معتدل — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)؛ دنانير قوم وقيم ودينار قائم إذا كان مثقالا سواء لا يرجح (tahdhib) (also L1.6) — img/near: near: ر ب ب B007 لزوم وإقامة ودوام ← رَبِّ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F13** ه د ي B004 «incelik göstergesi armağan verme» بعثة لطف وهدية إلى ذي مودة — word ٱهْدِنَا (5 dictionaries); source: الهدية ما أهديت إلى ذي مودة من بر (ayn)؛ الهدية واحدة الهدايا؛ أهديت له وإليه؛ المهدى ما يهدى فيه؛ التهادي أن يهدي بعضهم إلى بعض؛ المهداء الذي من عادته أن يهدي (sihah)؛ أهديت الهدية إهداء؛ امرأة مهداء؛ المهدى الطبق الذي… (also L1.16, L2.5, T3, F6) — kw/shared: kindness (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F14** ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقوم… — rel/near_synonym: م ل ك B005 (temel dayanak) → مَٰلِكِ
+- **F15** ص ر ط B003 «vuruşta kesip ilerleyen kılıç» السيف القاطع الماضي في الضربة — word ٱلصِّرَٰطَ (1 dictionaries, sole attestation); source: والسراط السيف القاطع الماضي في الضريبة (maqayis 1774) (also L2.2, F7) — img/near: near: د ي ن B001 الطاعة والانقياد ← ٱلدِّينِ
+- **F16** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… (also L1.2, F1, F9) — lex/src: دين → ٱلدِّينِ || img/near: near: م ل ك B007 الماء مَلَك الأمر ← مَٰلِكِ
+- **F17** ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا… (also L1.3, F10) — img/near: near: د ي ن B006 مدينة الطاعة ← ٱلدِّينِ
+- **F18** ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat) (also L1.5, F11) — img/near: near: ي و م B003 كائنة اليوم وشدته ← يَوْمِ || img/near: near: د ي ن B002 الحساب والجزاء ← ٱلدِّينِ
+- **F19** ق و م B015 «tam ve denk ağırlıktaki para» وزن سواء ومقدار معتدل — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)؛ دنانير قوم وقيم ودينار قائم إذا كان مثقالا سواء لا يرجح (tahdhib) (also L1.6, F12) — img/near: near: د ي ن B004 الإذلال والملك ← ٱلدِّينِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F20** ص ر ط B003 «vuruşta kesip ilerleyen kılıç» السيف القاطع الماضي في الضربة — word ٱلصِّرَٰطَ (1 dictionaries, sole attestation); source: والسراط السيف القاطع الماضي في الضريبة (maqayis 1774) (also L2.2, F7, F15) — img/near: near: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F21** ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب… (also L1.4, F3) — img/near: near: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F22** ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat) (also L1.5, F11, F18) — img/near: near: ع ب د B006 التكريم والتعظيم ← نَعْبُدُ
+- **F23** ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: قام الماء جمد؛ قامت الدابة وقفت (sihah)؛ قامت لفلان دابته إذا كلت أو عيت فلم تسر (tahdhib) (also L1.7) — img/near: near: ع ب د B011 العطب والانقطاع ← نَعْبُدُ
+- **F24** ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib) (also L1.8) — img/near: near: ع و ن B001 الإعانة والمظاهرة ← نَسْتَعِينُ
+- **F25** ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: عين قائمة ذهب بصرها والحدقة صحيحة (ayn)؛ العين القائمة أن يذهب بصرها والحدقة صحيحة (tahdhib) (also L1.11) — img/near: near: ع و ن B004 النخلة العَوانة القديمة ← نَسْتَعِينُ || img/near: near: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F26** ص ر ط B001 «yol, özellikle düz yol» الطريق المستقيم — word ٱلصِّرَٰطَ (3 dictionaries); source: الصراط والسراط والزراط: الطريق (sihah)؛ الصراط: الطريق المستقيم؛ ويقال له سراط (mufradat)؛ صرط من باب الإبدال وقد ذكر في السين وهو الطريق (maqayis 2074)؛ بعض أهل العلم يقول السراط مشتق من ذلك لأن الذاهب فيه يغيب (maqayi… — lex/image: مستقيم → ٱلْمُسْتَقِيمَ
+- **F27** ه د د B012 «uzun boylu adam» رجل طويل — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: الهديد الرجل الطويل (tahdhib) (also L2.1, T2) — rel/near_synonym: ق و م B011 (uzun adam ile boy yapisi) → ٱلْمُسْتَقِيمَ
+- **F28** ص ر ط B003 «vuruşta kesip ilerleyen kılıç» السيف القاطع الماضي في الضربة — word ٱلصِّرَٰطَ (1 dictionaries, sole attestation); source: والسراط السيف القاطع الماضي في الضريبة (maqayis 1774) (also L2.2, F7, F15, F20) — img/fatiha: fatiha: ق و م B012 آلة قائمة وجزء قائم ← ٱلْمُسْتَقِيمَ || img/fatiha: fatiha: ه د ي B010 هدي السكون وحسن الهيئة ← ٱهْدِنَا
+- **F29** ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufr… (also L1.1, F2, F8) — kw/shared: affiliation (shared) → ٱلْمُسْتَقِيمَ || kw/shared: faction (shared) → ٱلْمُسْتَقِيمَ || kw/shared: men (shared) → ٱلْمُسْتَقِيمَ || img/fatiha: fatiha: ه د ي B007 هدي الحرمة والأسير ← ٱهْدِنَا || img/fatiha: fatiha: ص ر ط B001 الطريق المستقيم ← ٱلصِّرَٰطَ
+- **F30** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… (also L1.2, F1, F9, F16) — img/fatiha: fatiha: ه د ي B001 دلالة بلطف إلى الطريق والحق ← ٱهْدِنَا || img/fatiha: fatiha: ص ر ط B001 الطريق المستقيم ← ٱلصِّرَٰطَ
+- **F31** ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا… (also L1.3, F10, F17) — img/fatiha: fatiha: ه د ي B001 دلالة بلطف إلى الطريق والحق ← ٱهْدِنَا || img/fatiha: fatiha: ص ر ط B001 الطريق المستقيم ← ٱلصِّرَٰطَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F32** ه د ي B001 «doğru yolu gösterme ve doğruya yönelme» دلالة بلطف إلى الطريق والحق — word ٱهْدِنَا (5 dictionaries); source: الهدى نقيض الضلالة؛ هدي فاهتدى (ayn;tahdhib)؛ الهدى الرشاد والدلالة؛ هداه الله للدين هدى؛ أولم يبين لهم؛ هديته الطريق والبيت هداية أي عرفته (sihah)؛ الهدى البيان وإخراج شيء إلى شيء والطاعة والورع؛ دله على الطريق (tahdhi… — rel/antonym: ض ل ل B001 (doğruya yönelme karşısında sapma) → ٱلضَّآلِّينَ
+- **F33** ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufr… (also L1.1, F2, F8, F29) — img/near: near: ن ع م B005 مال الأنعام والإبل ← أَنْعَمْتَ
+- **F34** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… (also L1.2, F1, F9, F16, F30) — img/near: near: غ ي ر B001 الصلاح والمنفعة بالميرة والسقي والإصلاح ← غَيْرِ
+- **F35** ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word ٱلْمُسْتَقِيمَ (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا… (also L1.3, F10, F17, F31) — img/near: near: ن ع م B011 موافقة المكان وطيب المقام ← أَنْعَمْتَ
+- **F36** ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word ٱلْمُسْتَقِيمَ (5 dictionaries); source: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب… (also L1.4, F3, F21) — img/near: near: ن ع م B011 موافقة المكان وطيب المقام ← أَنْعَمْتَ
+- **F37** ق و م B015 «tam ve denk ağırlıktaki para» وزن سواء ومقدار معتدل — word ٱلْمُسْتَقِيمَ (2 dictionaries); source: دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)؛ دنانير قوم وقيم ودينار قائم إذا كان مثقالا سواء لا يرجح (tahdhib) (also L1.6, F12, F19) — img/near: near: ض ل ل B005 الضالّة في المضيعة ← ٱلضَّآلِّينَ
+
+### 5. Triangles [T]
+
+- **T1** ه د د B011 «kesinlesmemis sani» تخييل الظن في النفس — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: يقال يهدهد إلي كذا إذا شبه للإنسان في نفسه بالظن ما لم يثبته ولم يعقد عليه التشبيه (tahdhib) (also L1.15, L2.4)
+  - → 2:213 [inter]: rel/polarity_pair: ب ي ن B004 (belirsiz sani ile acik belirme) → بَيْنَ ٱلْبَيِّنَٰتُ بَيْنَهُمْ
+  - → ٱلْمُسْتَقِيمَ: Luna (opposite): The straight way stands fixed against a suspicion that has not been proved or settled. The request is for stable direction, beyond what the mind only supposes.
+  - 2:213 [inter] ↔ ٱلْمُسْتَقِيمَ: form: form X participle: مُّسْتَقِيمٍ
+- **T2** ه د د B012 «uzun boylu adam» رجل طويل — word ٱهْدِنَا (echo root, sound family only; 1 dictionaries, sole attestation); source: الهديد الرجل الطويل (tahdhib) (also L2.1, F27)
+  - → 2:142 [inter]: rel/near_synonym: ق و م B011 (uzun adam ile boy yapisi) → مُّسْتَقِيمٍ
+  - → ٱلْمُسْتَقِيمَ: rel/near_synonym: ق و م B011 (uzun adam ile boy yapisi) || Luna (image): The path's uprightness takes bodily form as the stature of a tall person. The way is pictured as a standing figure, not only as an abstract direction.
+  - 2:142 [inter] ↔ ٱلْمُسْتَقِيمَ: form: form X participle: مُّسْتَقِيمٍ
+- **T3** ه د ي B004 «incelik göstergesi armağan verme» بعثة لطف وهدية إلى ذي مودة — word ٱهْدِنَا (5 dictionaries); source: الهدية ما أهديت إلى ذي مودة من بر (ayn)؛ الهدية واحدة الهدايا؛ أهديت له وإليه؛ المهدى ما يهدى فيه؛ التهادي أن يهدي بعضهم إلى بعض؛ المهداء الذي من عادته أن يهدي (sihah)؛ أهديت الهدية إهداء؛ امرأة مهداء؛ المهدى الطبق الذي… (also L1.16, L2.5, F6, F13)
+  - → 2:213 [inter]: lex/src-rare: واحدا → وَٰحِدَةً
+  - → ٱلْمُسْتَقِيمَ: Luna (complement): The upright way is heard as the gift's content, so its standard arrives through generosity. The petition asks to receive what is right as something bestowed.
+  - 2:213 [inter] ↔ ٱلْمُسْتَقِيمَ: form: form X participle: مُّسْتَقِيمٍ
+
+### 6. Bridges (touch two hubs) [J]
+
+- **J1** ٱهْدِنَا joins L1, L2
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** form: ٱلْمُسْتَقِيمَ ~ 2:142: form X participle: مُّسْتَقِيمٍ
+- **G2** form: ٱلْمُسْتَقِيمَ ~ 2:213: form X participle: مُّسْتَقِيمٍ
+- **G3** form: ٱلْمُسْتَقِيمَ ~ 3:51: form X participle: مُّسْتَقِيمٌ
+- **G4** word note: 1:6:1 ٱهْدِنَا: petitionary imperative for guided direction onto the named route; the local frame selects leading and showing the way while allowing bestowal pressure to color guidance as received direction — topics: silent addressee and object suffix reverse roles; recipient and route are compress…
+- **G5** word note: 1:6:2 ٱلصِّرَٰطَ: the definite route or path governed by the guidance request; locally a road-like way and normative conduit, with swallowing or engulfing pressure retained as image rather than replacement sense — topics: definiteness makes the path identifiable; path and qualifier are locked toget…
+- **G6** word note: 1:6:3 ٱلْمُسْتَقِيمَ: the definite Form X active participial qualifier: upright, straight, established, and normatively right as the path's own qualifying standard — topics: agreement locks the adjective to the path; active participle gives uprightness property-force; standing image and rectitude s…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+6 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L01** [reading; support strong, relevance high] word 1: ٱهْدِنَا — lemma هَدَى, root ه د ي, pos V;PRON
+  - finding: After 1:5 addresses إِيَّاكَ, the singular imperative ٱهْدِنَا leaves its second-person agent unspoken and makes the plural ـنَا its recipient. This turns the confession of worship and help-seeking into a collective plea for the addressee’s act of guidance.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The singular imperative and plural suffix in 1:6 follow the direct address and first-person plural verbs in 1:5.
+  - limits: The sequence supports continuity of addressee; it does not decide whether guidance here means showing, leading, or granting steadiness.
+- **L02** [reading; support strong, relevance high] word 2: ٱلصِّرَٰطَ — lemma صِرَٰط, root ص ر ط, pos DET;N
+  - finding: ٱلصِّرَٰطَ is the accusative route complement of ٱهْدِنَا. The next ayah resumes it as صِرَٰطَ ٱلَّذِينَ and specifies the route through its people and contrasts; this iḍāfa is definite as a whole, giving the request its contextual identity.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The definite noun in 1:6 is resumed by the same accusative noun at the start of 1:7, followed by ٱلَّذِينَ and the descriptions of favor, anger, and straying.
+  - limits: The continuation identifies the path by its people and contrasts; it does not enumerate every practice of walking it.
+- **local_1.X1** [open; support medium, relevance high] 
+  - finding: The petition may let ٱهْدِنَا sound as guidance granted to its plural recipients; 1:7 locates the requested route among people God favored.
+  - evidence: 1:6 «ٱهْدِنَا»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: The supplied root list attests a gift sense in h-d-y, but no same-root gift form or local transfer image shows that sense is active in ٱهْدِنَا. A Qur’anic parallel where h-d-y guidance is explicitly given as a gift, or a dictionary entry connecting this verb sense to bestowed favor, could decide it; 1:7 supplies favor language without identifying the roots.
+- **local_1.X2** [open; support medium, relevance high] 
+  - finding: The root ص ر ط has a swallowing or vanishing-in-passage branch. Since ٱهْدِنَا relates the plural recipients directly to the route, the phrase could carry an image of passage that takes the traveler in.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ»
+  - missing: The supplied root branch establishes an association at root level; a lexicon showing that صِرَٰط itself carries this sense, or a Qur’anic occurrence pairing it with eating, disappearance, or entry, could show whether the image is live here.
+- **local_1.X3** [open; support medium, relevance high] 
+  - finding: Because ٱلْمُسْتَقِيمَ derives from q-w-m, it may carry establishment alongside straightness, letting the requested route be heard as an established order as well as a direction.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»
+  - missing: No other q-w-m form in the Fatiha activates standing or establishing, and the supplied context gives no parallel joining a path with this root. A Qur’anic passage pairing a path with q-w-m language, or a dictionary entry applying “established” directly to this participle, could decide the reading.
+- **L03** [reading; support strong, relevance medium] word 3: ٱلْمُسْتَقِيمَ — lemma مُّسْتَقِيم, root ق و م, pos DET;ADJ
+  - finding: ٱلْمُسْتَقِيمَ agrees with ٱلصِّرَٰطَ in definiteness, masculine singular, and accusative case, so the path itself bears istiqāmah as its defining quality. 1:7 gives that quality an ethical and communal profile through the favored and the angered-upon or straying.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The adjective closes the route phrase, and 1:7 describes its people and contrasts.
+  - limits: The agreement ties the quality to the route; the broader q-w-m senses of value, peoplehood, and resurrection are not activated here.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+6 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-هدي** [reading; support strong, relevance high] root ه د ي (focus word ٱهْدِنَا: هَدَى V) — 308 occurrences in 268 ayat; same form 139, other forms 169
+  - finding: Quranic usage shows Allah guiding people already described as believers to a straight path; ٱهْدِنَا can therefore ask for continued direction within faith as well as direction toward a route.
+  - evidence: 22:54 «وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The worshippers’ first-person appeal for help at 1:5 and the favored people named in 1:7 make ongoing guidance pertinent.
+  - limits: The parallel establishes that believers can be guided to a straight path, but does not prove that 1:6 quotes 22:54 or that its speakers have already completed guidance.
+- **U-صرط** [reading; support strong, relevance high] root ص ر ط (focus word ٱلصِّرَٰطَ: صِرَٰط N) — 45 occurrences in 45 ayat; same form 45, other forms 0
+  - finding: The Quran presents ṣirāṭ mustaqīm as a way one walks and as a route an adversary claims to occupy; ٱهْدِنَا can thus imply guided passage along a contested route.
+  - evidence: 67:22 «أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 7:16 «لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus asks to be guided onto the definite straight path, the same path formula that Satan claims he will occupy in 7:16.
+  - limits: These scenes do not establish a direct allusion to Satan in 1:6 or make its path exclusively a physical road.
+- **U-قوم** [reading; support strong, relevance high] root ق و م (focus word ٱلْمُسْتَقِيمَ: مُّسْتَقِيم ADJ form X) — 643 occurrences in 597 ayat; same form 14, other forms 629
+  - finding: The QWM family supplies normative soundness alongside rectitude: 6:161 pairs ṣirāṭ mustaqīm with dīn qayyim, while 17:9 describes the Quran guiding to what is aqwam. In 67:22 the path is walked by someone moving uprightly, joining the norm to embodied alignment.
+  - evidence: 6:161 «إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ دِينًۭا قِيَمًۭا»; 17:9 «إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ»; 67:22 «يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus’s adjective qualifies the path, and 1:7 goes on to identify that path through its people and their outcomes.
+  - limits: مستقيم, قيّم, and أقوم are different forms; the parallels support related qualities but do not make the forms interchangeable or restrict 1:6 to Ibrahim’s religion or bodily posture.
+- **usage_1.X1** [open; support medium, relevance high] 
+  - finding: The h-d-y root family also names a material gift, هَدِيَّة. This opens a possible bestowal resonance for the request ٱهْدِنَا, addressed to the one on whom the speakers rely.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 27:35 «وَإِنِّى مُرْسِلَةٌ إِلَيْهِم بِهَدِيَّةٍۢ فَنَاظِرَةٌۢ بِمَ يَرْجِعُ ٱلْمُرْسَلُونَ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - missing: The shared root and gift scene establish an available gift sense, but not that guidance in 1:6 activates it; a lexicographic account linking the senses or a Quranic passage framing guidance as a gift could decide the connection.
+- **usage_1.X2** [open; support medium, relevance high] 
+  - finding: The root’s distinct noun هَدْي is described in Quranic usage by whether the offering reaches its destination. This may let ٱهْدِنَا carry an arrival coloring alongside guidance toward a route.
+  - evidence: 2:196 «حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ»; 48:25 «وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: These passages establish the offering’s arrival or obstruction, not a semantic link to the guidance verb; a lexicon connecting هَدْي with being led, or a parallel applying arrival language to guidance, could supply it.
+- **usage_1.X3** [open; support medium, relevance high] 
+  - finding: The comparative أَهْدَى appears in a polemical claim that another camp is more guided than believers. Beside 1:7’s distinction among path communities, this raises a possible contrast between ranking rival groups and praying to be guided.
+  - evidence: 4:51 «هَٰٓؤُلَآءِ أَهْدَىٰ مِنَ ٱلَّذِينَ ءَامَنُوا۟ سَبِيلًا»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: The shared root and concern with competing paths do not establish that 1:6 answers the claim in 4:51; a more direct verbal echo or contextual link could show whether the contrast is deliberate.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+17 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: {'plain': 1}.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The prayer moves from the community’s declared worship and dependence to a request for guidance; the next verse takes up ٱلصِّرَٰطَ again and specifies it through people marked by favor and two excluded conditions.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The first-person plural in 1:5 continues as ٱهْدِنَا, and 1:7 repeats ٱلصِّرَٰطَ before describing its people.
+  - limits: The sequence identifies a communal and ethical course; it does not describe a physical journey.
+- **S-صرط** [reading; support strong, relevance high] root ص ر ط elsewhere in the surah (1)
+  - finding: The repeated صِرَٰطَ in 1:7 identifies the requested route by its relation to people: they have received favor, unlike the two excluded groups.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The same noun recurs immediately, and the following words specify whose path it is.
+  - limits: The text gives relational and moral categories, not the historical identities of the groups or a literal road.
+- **S-hft-ctx_accountable_calibration** [reading; support strong, relevance high] (context_delta)
+  - finding: The request for a course comes after naming the Day of Recompense, placing guidance within a horizon of accountability; 1:7 then distinguishes people associated with favor from excluded groups.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The Day of Recompense precedes the petition, and the next verse names contrasting outcomes associated with paths.
+  - limits: The surah does not state that conduct is continually calibrated or that ٱلْمُسْتَقِيمَ denotes exact measurement here.
+- **S-hft-base_sustaining_course_inhabited** [reading; support strong, relevance high] (context_delta)
+  - finding: The path is specified through people and their contrasting conditions, so its uprightness can be heard as a course recognized by the kind of life and relation to favor it bears.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The following verse identifies the route through people who received favor and sets them against two excluded groups.
+  - limits: No word here denotes dwelling, softness, or material habitability.
+- **S-hft-ctx_dynamic_between_failures** [reading; support strong, relevance high] (context_delta)
+  - finding: The desired route is framed against two contrasting exclusions: people under anger and people who are astray. The path’s identity thus includes distinction from both outcomes.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The exclusion particles غَيْرِ and وَلَا attach the two groups to the description of the path.
+  - limits: This contrast does not itself establish images of rigidity, disappearance, or continued motion between them.
+- **S-hft-outlier_incisive_passage** [reading; support strong, relevance high] (surprising_valid_outlier)
+  - finding: The route functions as a discriminating criterion: 1:7 distinguishes it from two excluded groups, giving the request a boundary-setting force.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The repeated path noun is followed by explicit exclusions that delimit who is associated with it.
+  - limits: The boundary in this wording does not establish a cutting edge or physical passage through resistance.
+- **S-hft-outlier_gift_return_circuit** [reading; support medium, relevance high] (surprising_valid_outlier)
+  - finding: The sequence can be heard as relational exchange: the community declares worship and dependence, asks for guidance, and invokes people to whom God has already granted favor as a precedent for guidance received as a gift.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The sequence places human service and dependence before the request, then names divine favor as the precedent for the sought route.
+  - limits: The text does not establish that هَدَى means a returned offering here or describe a literal gift circuit.
+- **S-hft-base_embodied_supported_motion** [open; support medium, relevance high] (baseline_model)
+  - finding: The plural request for guidance follows a plural appeal for aid, so assisted movement is conceivable; unstable gait and bodily recovery are not stated in the surah.
+  - evidence: 1:5 «وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: A Quranic occurrence linking ه د ي here to leaning or accompanied walking, or ق و م to travelers regaining bodily posture, could establish the proposed locomotor sequence.
+- **S-hft-base_gentle_upright_alignment_marked** [open; support medium, relevance high] (context_delta)
+  - finding: The repeated mercy epithets before the request can frame guidance as mercifully given, but the proposed wayfinding signs and visible marks are not described here.
+  - evidence: 1:1 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: An explicit sign or marking in the surah, or a Quranic usage connecting the name formula to wayfinding marks, could support that mechanism.
+- **S-hft-base_sustaining_course_nurtured** [open; support medium, relevance high] (context_delta)
+  - finding: The Lord of the worlds is named before the request, and 1:7 describes people who received favor; this sequence allows a nurture-and-formation reading of the course.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «أَنْعَمْتَ عَلَيْهِمْ»
+  - missing: The surah does not describe gradual development, acquired capacity, or progress markers. Quranic usage tying these roots to those processes could decide whether that fuller reading is supported.
+- **S-hft-outlier_anti_scattering_collective** [open; support medium, relevance high] (surprising_valid_outlier)
+  - finding: The petition’s plural object and the people named in 1:7 make a shared course salient, but the text does not say that the group is scattering or that cohesion is at risk.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ»
+  - missing: A scattering or dispersion term in this passage, or a Quranic parallel linking guidance to preventing a group’s dispersal, could supply the proposed threat to collective unity.
+- **S-hft-base_following_into_passage** [open; support weak, relevance high] (baseline_model)
+  - finding: The route and its contrasting human categories could support a transition reading, but this surah does not describe entry, departure from a former position, or irreversible passage.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: A Quranic parallel that uses these roots for passage through or departure from a prior state, or an explicit transition verb here, could supply the missing movement and resolve.
+- **S-hft-base_embodied_guidance_coactive** [open; support weak, relevance high] (context_delta)
+  - finding: Worship and the appeal for aid precede the request, which supports human service alongside sought assistance; the claim that worship prepares or levels the road is not shown by this sequence.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: A Quranic usage showing that نَعْبُدُ here invokes the root’s road-preparation sense, or a textual statement that worshipers prepare this route, could establish the proposed coactive mechanism.
+- **S-hft-outlier_restored_sight** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The contrast between a requested way and those who are astray permits an orientation analogy, but the surah contains no eye or sight language.
+  - evidence: 1:5 «وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»
+  - missing: A Quranic occurrence connecting these roots in these senses to impaired or restored sight, or an explicit visual term in the surrounding passage, could support the ocular reading.
+- **S-hft-outlier_reconstruction_after_collapse** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The request and the exclusion of other groups allow a possible restoration reading, but the surah does not say that the petitioners themselves have suffered collapse or need structural repair.
+  - evidence: 1:2 «رَبِّ ٱلْعَٰلَمِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - missing: A Quranic parallel using ه د ي for rebuilding after collapse, or ق و م for restoring structural supports in a guidance context, could decide whether reconstruction is active in this request.
+- **S-hft-base_sustaining_course** [reading; support strong, relevance medium] (baseline_model)
+  - finding: The route can be heard as a lived course of worship: the community first declares its service and reliance, then asks to be guided, and 1:7 describes people associated with the route.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The route request is embedded between a declaration of worship and a description of people whose lives are associated with that route.
+  - limits: These verses do not explicitly say that the path is a mainstay continually holding life together.
+- **S-hft-ctx_habituated_service** [reading; support medium, relevance medium] (context_delta)
+  - finding: The guidance request extends the community’s stated worship and reliance into a desired stable manner of proceeding, rather than standing apart from its practice.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ»
+  - activation: The same plural community moves from present declarations of service and reliance to asking for a path associated with a group of people.
+  - limits: The verses do not explicitly describe repetition or say that the path is a settled habit.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+137 readings and open observations, 25 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 19}.
+
+- **R-1:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: After إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ, ٱهْدِنَا makes the sought help concrete: the speakers ask the One they worship to direct them.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The request immediately follows the declaration of exclusive worship and seeking aid.
+  - limits: This sequence connects guidance with requested aid but does not make guidance the only form of aid.
+- **R-1:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequel identifies ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ with the path of those God has favored, distinguishing it from the paths of those under wrath and those astray.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The next ayah repeats صِرَٰطَ and supplies people and outcomes that specify the requested path.
+  - limits: The passage names these groups and outcomes without listing every practice that defines the path.
+- **R-2:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: The guidance requested in ٱهْدِنَا can be heard as direction that must be followed when it comes: 2:38 pairs received هُدًۭى with following هُدَاىَ and its consequence of safety from fear and grief.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 2:38 «فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ»
+  - activation: Both passages use the ه د ي family; 2:38 makes following divine guidance the human response to its arrival.
+  - limits: 2:38 does not use the straight-path formula or identify its audience with the speakers of 1:6.
+- **R-2:120** [reading; support strong, relevance high] inter-ayah target
+  - finding: The request ٱهْدِنَا meets the claim إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَى: guidance belongs to God, while following others’ desires is set against it.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 2:120 «قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۗ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم بَعْدَ ٱلَّذِى جَآءَكَ مِنَ ٱلْعِلْمِ»
+  - activation: The shared guidance vocabulary and the opposition between divine guidance and desires give the petition an allegiance dimension.
+  - limits: 2:120 does not mention ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ or identify the petitioners with the groups addressed there.
+- **R-2:142** [reading; support strong, relevance high] inter-ayah target
+  - finding: The near-identical formula يَهْدِى ... إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ joins the petition to a qibla dispute: divine guidance is not reducible to a fixed east-west orientation, and the next ayah calls the qibla a test of following the Messenger.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 2:142 «قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 2:143 «وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ»
+  - activation: The focus has the definite straight-path formula; 2:142 uses its close counterpart during a debate about direction.
+  - limits: The verses do not say that qibla is irrelevant to the path; they distinguish divine guidance from mere ownership of a compass direction.
+- **R-2:213** [reading; support strong, relevance high] inter-ayah target
+  - finding: The request for the straight path has a historical counterpart in a passage where God guides believers through disputed truth and then says He guides whom He wills to a straight path.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 2:213 «فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ ۗ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍ»
+  - activation: The guidance and straight-path wording closely matches the focus, while 2:213 places it amid human disagreement and revealed judgment.
+  - limits: The formula does not establish that the groups in 1:7 are the same as those described in 2:213.
+- **R-3:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: The demonstrative هَٰذَا calls worship of the shared Lord a straight path; this gives ٱلصِّرَٰطَ a devotional content, not just a direction to travel.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 3:51 «إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The focus follows a declaration of worship, and 3:51 explicitly joins worship to a straight path.
+  - limits: 3:51 does not exhaust the path’s content or state that worship alone constitutes it.
+- **R-3:73** [reading; support strong, relevance high] inter-ayah target
+  - finding: The claim إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ makes the request in ٱهْدِنَا a plea for guidance whose source and distribution are God's, beyond human attempts to restrict it to one community.
+  - evidence: 1:6 «ٱهْدِنَا»; 3:73 «قُلْ إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ»
+  - activation: The shared guidance vocabulary and the verse’s dispute over who receives guidance illuminate the petition’s plural speakers.
+  - limits: 3:73 does not mention the straight path or identify the petitioners with the parties in its dispute.
+- **R-3:101** [reading; support strong, relevance high] inter-ayah target
+  - finding: 3:101 presents holding fast to God as a condition accompanying being guided to a straight path; the petition in ٱهْدِنَا thus meets a passage that names a human posture alongside divine guidance.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 3:101 «وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The shared guidance and path formula links the verses; the focus’s preceding declaration of worship and aid resonates with holding fast to God.
+  - limits: The relation does not make the petition equivalent to holding fast or specify every means of doing so.
+- **R-4:68** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:68 repeats the guidance-to-a-straight-path formula, and 4:69 connects obedience to being with those God favored, echoing 1:7’s description of the requested path.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 4:68 «وَلَهَدَيْنَٰهُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا»; 4:69 «وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ»
+  - activation: The verses share the straight-path formula and the wording of those God favored; 4:69 names obedience and their company.
+  - limits: The passages offer a close parallel, not a full enumeration of all who belong to the path in 1:7.
+- **R-4:175** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:175 says God guides people who believe and hold fast to Him إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا; the path can thus be heard as direction toward God, given with mercy and grace.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 4:175 «فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ»; 4:175 «وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا»
+  - activation: The verse shares the guidance and straight-path wording, and explicitly gives the path an endpoint: إِلَيْهِ, to Him.
+  - limits: The focus does not state an endpoint in its own words, and 4:175 does not define the path’s full content.
+- **R-5:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:16 moves from سُبُلَ ٱلسَّلَٰمِ, plural ways of peace, and emergence from darkness into light to the singular صِرَٰطٍۢ مُّسْتَقِيمٍۢ; it portrays the requested path as a unifying destination within a process of guidance.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 5:16 «يَهْدِى بِهِ ٱللَّهُ مَنِ ٱتَّبَعَ رِضْوَٰنَهُۥ سُبُلَ ٱلسَّلَٰمِ وَيُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِهِۦ وَيَهْدِيهِمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The focus’s singular definite formula closely matches the final destination in 5:16.
+  - limits: The verse presents ways of peace and the straight path in sequence but does not explain whether the plural ways merge into one route.
+- **R-5:77** [reading; support strong, relevance high] inter-ayah target
+  - finding: The closing description وَضَلُّوا۟ عَن سَوَآءِ ٱلسَّبِيلِ gives a counterpart to 1:7’s ٱلضَّآلِّينَ: straying is pictured as departure from the level or right way, with some also leading many others astray.
+  - evidence: 1:7 «وَلَا ٱلضَّآلِّينَ»; 5:77 «قَدْ ضَلُّوا۟ مِن قَبْلُ وَأَضَلُّوا۟ كَثِيرًۭا وَضَلُّوا۟ عَن سَوَآءِ ٱلسَّبِيلِ»
+  - activation: Both passages use the ض ل ل family, while 5:77 explicitly locates straying in relation to a way.
+  - limits: The verses do not identify the people in 5:77 with either group named in 1:7.
+- **R-6:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: 6:39 sets people astray in darkness against those God places on a straight path; it makes divine agency and sharply different outcomes part of the background to ٱهْدِنَا.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «وَلَا ٱلضَّآلِّينَ»; 6:39 «وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا صُمٌّۭ وَبُكْمٌۭ فِى ٱلظُّلُمَٰتِ ۗ مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The straight-path formula and the contrast with straying align with the petition and its sequel’s mention of those astray.
+  - limits: 6:39 does not identify the focus’s speakers with either group or explain how the petition relates to divine willing.
+- **R-6:71** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question أَنَدْعُوا۟ مِن دُونِ ٱللَّهِ and the warning against returning on one’s heels after being guided dramatize the danger of reversal; the focus’s ٱهْدِنَا asks for direction against such disorientation.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:71 «وَنُرَدُّ عَلَىٰٓ أَعْقَابِنَا بَعْدَ إِذْ هَدَىٰنَا ٱللَّهُ كَٱلَّذِى ٱسْتَهْوَتْهُ ٱلشَّيَٰطِينُ فِى ٱلْأَرْضِ حَيْرَانَ لَهُۥٓ أَصْحَٰبٌۭ يَدْعُونَهُۥٓ إِلَى ٱلْهُدَى ٱئْتِنَا»
+  - activation: The passage shares the guidance vocabulary and contrasts submission to God with a bewildered person being called back to guidance.
+  - limits: 6:71 describes a specific warning and does not say that the petitioners have already been guided or turned back.
+- **R-6:87** [reading; support strong, relevance high] inter-ayah target
+  - finding: 6:87 applies the straight-path formula to a chosen collective drawn from ancestors, descendants, and siblings; the path in ٱهْدِنَا can therefore be heard across generations and kin groups.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:87 «وَمِنْ ءَابَآئِهِمْ وَذُرِّيَّٰتِهِمْ وَإِخْوَٰنِهِمْ ۖ وَٱجْتَبَيْنَٰهُمْ وَهَدَيْنَٰهُمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The formula matches the focus, and the surrounding list of prophets makes the collective and generational scope visible.
+  - limits: The passage does not claim that kinship itself produces guidance; it says God chose and guided them.
+- **R-6:88** [reading; support strong, relevance high] inter-ayah target
+  - finding: The adjacent account calls the straight path Allah’s guidance and says He guides whom He wills; the petition in 1:6 therefore places the speakers’ direction in divine agency. The warning about shirk keeps this gift from implying immunity from failure.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:87 «وَٱجْتَبَيْنَٰهُمْ وَهَدَيْنَٰهُمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 6:88 «ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَلَوْ أَشْرَكُوا۟ لَحَبِطَ عَنْهُم مَّا كَانُوا۟ يَعْمَلُونَ»
+  - activation: The focus asks to be guided; the nearby verses describe people whom God selected and led to a straight path.
+  - limits: These verses do not say that receiving guidance makes later choices irrelevant; 6:88 explicitly warns of the consequence of associating partners with God.
+- **R-6:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: After naming prophets whom Allah guided, 6:90 commands the audience to follow their guidance. The requested path can thus be heard as a way made recognizable through prophetic exemplars.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:90 «أُو۟لَٰٓئِكَ ٱلَّذِينَ هَدَى ٱللَّهُ ۖ فَبِهُدَىٰهُمُ ٱقْتَدِهْ»
+  - activation: Both passages join divine guidance to a way that people can follow; 6:90 supplies named human examples for the plural request.
+  - limits: The excerpt does not identify the focus’s path exclusively with those prophets’ biographies or specify which of their acts is meant to be followed.
+- **R-6:126** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage first describes divine guidance as opening the chest to Islam, with misguidance as constriction, then names the straight path as the Lord’s. The path requested in 1:6 is therefore set beside an inward opening that makes Islam possible.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:125 «فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ ضَيِّقًا حَرَجًۭا»; 6:126 «وَهَٰذَا صِرَٰطُ رَبِّكَ مُسْتَقِيمًۭا»
+  - activation: The focus’s hidaya and صراط مستقيم appear together in the neighboring passage as guidance, inward capacity, and a path attributed to the Lord.
+  - limits: The passage does not state that chest-opening exhausts the meaning of guidance or that the path is only an inner state.
+- **R-6:127** [reading; support strong, relevance high] inter-ayah target
+  - finding: Immediately after identifying the Lord’s straight path, the passage names its beneficiaries’ abode as دار السلام and describes their Lord as their guardian. This makes the requested route audible alongside a settled destination and relation to God.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:126 «وَهَٰذَا صِرَٰطُ رَبِّكَ مُسْتَقِيمًۭا»; 6:127 «لَهُمْ دَارُ ٱلسَّلَٰمِ عِندَ رَبِّهِمْ ۖ وَهُوَ وَلِيُّهُم بِمَا كَانُوا۟ يَعْمَلُونَ»
+  - activation: The consecutive path and abode statements provide a route-and-destination sequence beside the focus’s plea for direction.
+  - limits: The wording does not explicitly say that دار السلام is the endpoint of every use of صراط مستقيم.
+- **R-6:153** [reading; support strong, relevance high] inter-ayah target
+  - finding: The path is singular and commanded to be followed, while plural paths are rejected because they divide people away from God’s way. This gives the focus’s definite straight path a contrast with fragmentation into competing routes.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:153 «وَأَنَّ هَٰذَا صِرَٰطِى مُسْتَقِيمًۭا فَٱتَّبِعُوهُ ۖ وَلَا تَتَّبِعُوا۟ ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِۦ»
+  - activation: The verse repeats the focus’s صراط and مستقيم together, then explicitly contrasts that way with the plural السبل.
+  - limits: The passage gives no count of historical communities or groups represented by the plural paths.
+- **R-6:161** [reading; support strong, relevance high] inter-ayah target
+  - finding: The straight path is specified as a sound religion, Abraham’s way, and a hanif orientation apart from shirk. The phrase therefore opens into a concrete religious identity rather than remaining an unnamed route.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:161 «هَدَىٰنِى رَبِّىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ دِينًۭا قِيَمًۭا مِّلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا ۚ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ»
+  - activation: The same صراط مستقيم formula is followed by appositional descriptions that name its religious character.
+  - limits: This statement is voiced as a particular proclamation and does not list every dimension of the focus’s path.
+- **R-7:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: Iblis vows to sit for people on God’s straight path. The requested route is thus also a contested passage where opposition seeks to intercept travelers.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 7:16 «قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ»
+  - activation: The exact phrase الصراط المستقيم recurs, now possessively attributed to God and made the location of Iblis’s threat.
+  - limits: The verse does not describe how this obstruction works in each person’s life or imply that the path itself is crooked.
+- **R-7:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the Garden, its people say they would not have been guided had Allah not guided them. Their retrospective gratitude sounds like an answer to the focus’s prospective plea.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 7:43 «وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ»
+  - activation: The shared root ه د ي connects a present plural request with a later plural acknowledgment of divine guidance.
+  - limits: The scene does not explicitly identify the Garden as the only intended result of the requested guidance.
+- **R-7:146** [reading; support strong, relevance high] inter-ayah target
+  - finding: Arrogant people see the path of right guidance but refuse to take it, while taking the path of error. The focus’s plea can consequently be heard as asking for a will that accepts guidance, not just access to information about it.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 7:146 «وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًۭا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًۭا»
+  - activation: The two paths are distinguished by the verbs of taking and refusing, and the focus requests to be guided onto its path.
+  - limits: The focus does not itself mention arrogance, nor does this verse use صراط or مستقيم.
+- **R-7:178** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse pairs Allah’s guiding with a person becoming المهتدي, then pairs misguidance with loss. It frames the focus’s request as dependence on the one who determines whether someone is rightly guided.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 7:178 «مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى ۖ وَمَن يُضْلِلْ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»
+  - activation: The focus asks for hidaya; the paired clauses make Allah the subject of both guidance and misguidance.
+  - limits: The verse does not resolve how divine guidance relates to human choice or specify the stages of being guided.
+- **R-10:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: Allah calls to دار السلام and guides whom He wills to a straight path. The focus’s plea can be heard within this double movement: an invitation toward peace and divine direction along the way.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 10:25 «وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The same guidance-to-straight-path construction appears, preceded by a call to the abode of peace.
+  - limits: The indefinite صراط in 10:25 is not grammatically identical in definiteness to the focus’s ٱلصِّرَٰطَ.
+- **R-10:35** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage asks which guide deserves to be followed and answers that Allah guides to truth. Beside the focus’s plea, guidance becomes a test of the rightful object of following; the previous Fatiha verse has already addressed God as the one worshipped and sought for help.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 10:35 «قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَهْدِىٓ إِلَى ٱلْحَقِّ ۚ قُلِ ٱللَّهُ يَهْدِى لِلْحَقِّ ۗ أَفَمَن يَهْدِىٓ إِلَى ٱلْحَقِّ أَحَقُّ أَن يُتَّبَعَ أَمَّن لَّا يَهِدِّىٓ إِلَّآ أَن يُهْدَىٰ»
+  - activation: The focus follows exclusive worship and reliance with a direct request for guidance; 10:35 makes following the one who truly guides an explicit question.
+  - limits: The verse does not use الصراط المستقيم or specify that every aspect of guidance is reducible to the stated dispute with the partners.
+- **R-11:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: These people obstruct God’s way and want it crooked; this directly opposes the focus’s request for a straight path. The passage makes deviation something actively sought and imposed on others.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 11:19 «ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًۭا»
+  - activation: The focus’s مستقيم and the target’s عوجا provide opposed descriptions of direction, while both name God’s way.
+  - limits: The target describes obstruction by a particular class of people; it does not say that every deviation has the same cause.
+- **R-11:56** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse predicates that the Lord Himself is عَلَىٰ صِرَاطٍ مُسْتَقِيمٍ. This permits hearing the requested route as aligned with the Lord’s own just order or way, rather than merely as a route external to Him.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 11:56 «إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The exact صراط مستقيم wording recurs, but 11:56 places the Lord upon it as the subject of the statement.
+  - limits: The excerpt does not settle the precise force of عَلَىٰ or establish a spatial meaning for the Lord’s relation to the path.
+- **R-11:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command فَٱسْتَقِمْ uses the same root as ٱلْمُسْتَقِيمَ. The straight path thus resonates with steadfast upright conduct under command, immediately bounded by the warning not to transgress.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 11:112 «فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟»
+  - activation: The focus names the path with an active participle from ق و م; 11:112 commands the Prophet and those with him using the related verb.
+  - limits: Shared root does not make the path noun and the command interchangeable in meaning.
+- **R-14:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: Revelation is sent to bring people from darkness to light, by their Lord’s permission, toward the path of the Mighty, the Praiseworthy. This joins the focus’s requested direction with scripture-mediated movement and a divinely characterized destination.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 14:1 «لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ»
+  - activation: Both formulations lead people toward a path; 14:1 explicitly connects that movement to a revealed Book and the Lord’s permission.
+  - limits: The path in 14:1 is qualified by different divine names and is not explicitly called مستقيم.
+- **R-14:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The messengers recall that Allah has guided them along their ways, then vow patience under harm and place their trust in Him. The focus’s petition is paired here with remembered guidance as the ground for resilience.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 14:12 «وَقَدْ هَدَىٰنَا سُبُلَنَا ۚ وَلَنَصْبِرَنَّ عَلَىٰ مَآ ءَاذَيْتُمُونَا»
+  - activation: Both passages use the guidance root; 14:12 makes guidance retrospective and joins it to plural ways, patience, and trust.
+  - limits: The messengers’ plural سُبُلَنَا does not define the focus’s singular path or imply that each way is identical.
+- **R-14:40** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ibrahim asks to be made one who establishes prayer, using a form from the root ق و م shared by ٱلْمُسْتَقِيمَ. In a Fatiha recited as prayer, this makes the requested upright way resonate with sustained worship, without equating the path with prayer itself.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 14:40 «رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى»
+  - activation: The shared root is paired with prayer in Ibrahim’s petition, while 1:5–6 moves from worship and reliance to the request for the straight path.
+  - limits: The root relation and prayer context do not establish that ٱلصِّرَٰطَ means إقامة الصلاة.
+- **R-15:41** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the exchange with Iblis, the statement ‘this is a path upon Me, straight’ can present the path as held by God’s own guarantee; the following verse denies Iblis authority over God’s servants except those who follow him among the deviators. This makes the plea resonate with divine protection along the route.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 15:40 «إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ»; 15:41 «قَالَ هَٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ»; 15:42 «إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ»
+  - activation: The exact path-and-straightness formula occurs within a scene about Iblis’s effort to mislead and the limit of his authority.
+  - limits: The unusual عَلَىَّ does not by itself settle whether the phrase states a divine guarantee or another relation; that syntax needs further support.
+- **R-16:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: Messengers call every community to worship Allah and avoid false gods; the verse then divides people into those Allah guided and those upon whom error became due. This joins the focus’s plea to a recurring communal summons and divergent responses.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 16:36 «وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍۢ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّٰغُوتَ ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ»
+  - activation: The focus moves from worshipping God to asking for guidance; 16:36 joins that same worship call to the outcomes of guidance and error across communities.
+  - limits: The verse’s historical summary does not explain how each community responds or equate all its contexts with the Fatiha’s recitation.
+- **R-16:76** [reading; support strong, relevance high] inter-ayah target
+  - finding: The parable contrasts a man who brings no good wherever he is directed with one who commands justice and is upon a straight path. It distinguishes mere direction from morally effective guidance, giving the requested path a practical mark in justice.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 16:76 «أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ»; 16:76 «وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The scene contrasts being directed with being upon the straight path and commanding justice.
+  - limits: The parable does not define every property of the focus’s path through the one quality of justice named here.
+- **R-16:121** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ibrahim is grateful, chosen by God, and guided to a straight path. This makes the focus’s requested guidance visible in an exemplary life that joins divine selection with gratitude.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 16:121 «شَاكِرًۭا لِّأَنْعُمِهِ ۚ ٱجْتَبَىٰهُ وَهَدَىٰهُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The same صراط مستقيم formula is attached to Ibrahim, whose gratitude and selection characterize the surrounding account.
+  - limits: The verse presents Ibrahim’s case and does not say that every guided person has his exact history or role.
+- **R-17:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Quran guides toward what is أقوم, an elative from the same root as ٱلْمُسْتَقِيمَ. The focus’s requested straightness can therefore resonate with the Quran’s own guidance toward what is most upright.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 17:9 «إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ»
+  - activation: The shared root ق و م joins the focus’s path qualifier to the Quran’s description of what it guides toward.
+  - limits: 17:9 does not identify the relative phrase لِلَّتِى هِىَ أَقْوَمُ with the specific noun صراط.
+- **R-17:35** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same adjective المستقيم qualifies a balance used to measure and weigh justly. This gives the straightness requested in 1:6 a concrete resonance in fair dealings, without reducing the path to a commercial rule.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 17:35 «وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ»
+  - activation: The exact adjective recurs in a command about full measure and just weighing.
+  - limits: The shared qualifier does not establish that the path itself is a measuring instrument or that this verse exhausts rectitude.
+- **R-17:97** [reading; support strong, relevance high] inter-ayah target
+  - finding: The guided person is called المهتدي, while those whom God misguides are gathered blind, mute, and deaf. This makes the opposite of the focus’s request a condition of profound disorientation and loss of access to signs.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 17:97 «وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا»
+  - activation: The paired hidaya and misguidance clauses connect directly with the focus’s request to be guided.
+  - limits: The scene describes a particular outcome and does not define every form of misguidance as sensory impairment.
+- **R-19:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse identifies worship of the one Lord as a straight path, giving a concrete Quranic account of the destination sought in ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 19:36 «فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The focus follows the Fatiha’s declaration of worship with a request for the straight path.
+  - limits: The verse defines the path through worship in its own monotheistic argument; it does not provide an exhaustive definition for every use of the phrase.
+- **R-19:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Abraham offers to guide his father to a sound path if he follows him, presenting a human guide and following as a means by which someone may be led toward the straight-path destination requested in the Fatiha.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 19:43 «فَٱتَّبِعْنِىٓ أَهْدِكَ صِرَٰطًۭا سَوِيًّۭا»
+  - activation: Both passages join guidance to a path; Abraham’s invitation also makes following a guide explicit.
+  - limits: The focus asks God for guidance, while Abraham offers guidance to his father; the latter does not establish that the Fatiha names Abraham as its mediator.
+- **R-19:76** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Quran says God increases those already guided in guidance, so the focus’s request can be heard as more than a request for first entry onto a path: guidance may continue and increase.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 19:76 «وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًۭى»
+  - activation: The imperative asks for guidance without saying that the speakers have never been guided before.
+  - limits: 19:76 does not specify whether the increase is further understanding, steadfastness, or another aspect of guidance.
+- **R-20:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequence repentance, faith, righteous action, then guidance presents guidance as something that can follow moral response rather than being exhausted by it; the petition can therefore ask for continued direction after good deeds.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 20:82 «لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا ثُمَّ ٱهْتَدَىٰ»
+  - activation: The speakers ask for guidance without listing prior deeds as a claim to it.
+  - limits: The verse does not explain the precise sense of ثم in this sequence or name the straight path.
+- **R-20:123** [reading; support strong, relevance high] inter-ayah target
+  - finding: Following the guidance God sends is linked with not straying and not suffering; this supplies outcomes for the guidance sought in 1:6.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 20:123 «فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ»
+  - activation: Both passages address divine guidance; this verse makes following the guidance the condition associated with its protection.
+  - limits: 20:123 speaks of guidance sent to Adam’s descendants and does not use the path image.
+- **R-20:135** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse distinguishes companions of the balanced path from those who are guided, raising the possibility that being on the path and being guided are related but not interchangeable descriptions.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 20:135 «مَنْ أَصْحَٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ»
+  - activation: The focus joins a path with a request for guidance; this verse places path and guidedness side by side in a question.
+  - limits: The wording does not settle whether the two descriptions designate separate groups or overlapping aspects of one group.
+- **R-22:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: The guided are led both to wholesome speech and to the path of the Praiseworthy. This expands the path request into a relation between rightly directed speech and a path belonging to God.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 22:24 «وَهُدُوٓا۟ إِلَى ٱلطَّيِّبِ مِنَ ٱلْقَوْلِ وَهُدُوٓا۟ إِلَىٰ صِرَٰطِ ٱلْحَمِيدِ»
+  - activation: The focus follows praise of God with a request for the path; this passage calls the path that of al-Ḥamīd and joins it to good speech.
+  - limits: The passage does not say that the path is constituted by speech alone.
+- **R-22:54** [reading; support strong, relevance high] inter-ayah target
+  - finding: God guides believers to a straight path after their hearts submit to the truth. This links the path request to belief and inward receptivity, while its indefinite path phrase shows the formula is not always definite.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 22:54 «فَيُؤْمِنُوا۟ بِهِۦ فَتُخْبِتَ لَهُۥ قُلُوبُهُمْ ۗ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The Fatiha’s request is communal; this passage directly names believers as those whom God guides to a straight path.
+  - limits: Its indefinite صِرَٰطٍۢ does not by itself establish whether it is identical in reference to the definite path of 1:6.
+- **R-23:73** [reading; support strong, relevance high] inter-ayah target
+  - finding: The messenger calls people to a straight path, making explicit that the path sought in the Fatiha is also a destination to which others may be invited.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 23:73 «وَإِنَّكَ لَتَدْعُوهُمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: Both passages name a straight path; the Fatiha asks for guidance to it, while the messenger calls others toward it.
+  - limits: The verse does not say that people accept the call or fully describe what the path contains.
+- **R-23:74** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who do not believe in the afterlife are described as turning aside from the path. This supplies a cause and a contrary orientation to the request for the straight path.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 23:74 «وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَٰكِبُونَ»
+  - activation: The focus names a path to be reached; the adjacent verse to 23:73 describes people bending away from a path.
+  - limits: 23:74 does not explicitly qualify its الصراط as straight or say that the Fatiha’s speakers face this same refusal.
+- **R-24:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: Clear revealed signs accompany God’s guidance to a straight path, making revelation a stated context for the destination requested in the Fatiha.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 24:46 «لَّقَدْ أَنزَلْنَآ ءَايَٰتٍۢ مُّبَيِّنَٰتٍۢ ۚ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The match in guidance and straight-path wording is explicit, and 24:46 places it after the sending down of clarifying signs.
+  - limits: Its indefinite path phrase does not establish the full content or reference of the definite path in 1:6.
+- **R-26:182** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same adjective المستقيم qualifies a measuring standard used to fulfill measure and avoid loss. This gives uprightness a practical force of evenness and fair calibration beside the straight path.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»; 26:181 «أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ»; 26:182 «وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ»
+  - activation: The focus path is qualified by the exact adjective used here for a reliable measure.
+  - limits: The commercial instruction does not establish that the Fatiha’s path specifically denotes economic fairness.
+- **R-28:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses asks his Lord to guide him to the middle of the way while heading toward Midian. The verse is a close prayer parallel, with a route that can be heard both as travel direction and as right course.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 28:22 «قَالَ عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ»
+  - activation: Both are petitions for guidance to a path, and the surrounding scene in 28:21–23 has Moses physically traveling toward a destination.
+  - limits: 28:22 is an individual prayer using السبيل, and its immediate travel setting does not settle the referent of the Fatiha’s path.
+- **R-28:56** [reading; support strong, relevance high] inter-ayah target
+  - finding: The distinction between a person’s wish to guide someone they love and God’s own guidance underscores why the Fatiha addresses God directly for this direction.
+  - evidence: 1:5 «إِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا»; 28:56 «إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ»
+  - activation: The Fatiha first declares dependence on God, then asks Him for guidance.
+  - limits: 28:56 concerns the limits of human guidance in its own context and does not specify the path’s qualities.
+- **R-29:69** [reading; support strong, relevance high] inter-ayah target
+  - finding: God guides those striving for Him to His paths in the plural. This cautions against taking the singular definite path in 1:6 as proof that Quranic guidance has only one way or expression.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 29:69 «لَنَهْدِيَنَّهُمْ سُبُلَنَا»
+  - activation: The focus names one path; this verse explicitly speaks of multiple paths belonging to God.
+  - limits: The verse does not explain whether those paths are distinct routes or several expressions contained within one straight path.
+- **R-30:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same root ق و م describes the religion as القيّم, upright or established. This places the straight path in a broader register of a normatively upright religious order.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»; 30:43 «فَأَقِمْ وَجْهَكَ لِلدِّينِ ٱلْقَيِّمِ»
+  - activation: The focus adjective and the religion’s qualifier belong to the same root family; both express a normative direction.
+  - limits: 30:43 does not call the religion a ṣirāṭ or identify the two phrases as interchangeable.
+- **R-31:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: Guidance is paired with mercy for those who do good, a combination already prepared in the Fatiha by its repeated naming of God as merciful before the petition for guidance.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:6 «ٱهْدِنَا»; 31:3 «هُدًۭى وَرَحْمَةًۭ لِّلْمُحْسِنِينَ»
+  - activation: The Fatiha places the request for guidance after naming divine mercy; 31:3 explicitly joins guidance and mercy.
+  - limits: 31:3 does not mention a path or establish that mercy is the only basis for guidance.
+- **R-34:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: Revelation is seen as truth and guides to the path of al-ʿAzīz al-Ḥamīd. Since the Fatiha has just praised God, this names a path in relation to the praised Lord and ties its guidance to revealed truth.
+  - evidence: 1:2 «ٱلْحَمْدُ لِلَّهِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 34:6 «هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ»
+  - activation: The focus follows praise of God with a path request; the parallel explicitly calls the path that of the Praiseworthy.
+  - limits: 34:6 does not use المستقيم, and the connection does not show that its path phrase exhausts the meaning of 1:6.
+- **R-35:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse places divine misguidance and guidance in contrast and denies human control over the outcome, reinforcing the Fatiha’s dependence on God for direction.
+  - evidence: 1:5 «إِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا»; 35:8 «فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ»
+  - activation: The request for guidance follows a declaration of dependence on God; 35:8 assigns both outcomes to God.
+  - limits: 35:8 does not name the straight path or explain how divine willing relates to human response.
+- **R-36:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The messenger is described as being upon a straight path, so the path requested in 1:6 is also the ground on which the messenger stands, not merely a destination to reach.
+  - evidence: 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 36:4 «عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The exact path-and-qualifier formula appears with the messenger positioned upon it.
+  - limits: The verse does not specify whether the path is the messenger’s mission, revelation, or both.
+- **R-36:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: Worship of God is explicitly called a straight path. This gives the request a direct continuation of the Fatiha’s preceding declaration that God alone is worshipped.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 36:61 «وَأَنِ ٱعْبُدُونِى ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»
+  - activation: The focus’s path petition immediately follows its statement of worship; 36:61 directly identifies worship as the path.
+  - limits: 36:61 does not claim that worship alone exhausts the path’s content.
+- **R-37:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: The condemned are directed to the path of Hell using a guidance command and the path construction. This is a forceful reversal of the requested guidance: being led on a path does not guarantee a good destination.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 37:23 «فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ»
+  - activation: Both passages join guidance with a path; this verse names a destructive destination instead of a straight one.
+  - limits: The inversion does not imply that the Fatiha’s path leads to Hell or that the same people are addressed.
+- **R-37:118** [reading; support strong, relevance high] inter-ayah target
+  - finding: God guides Moses and Aaron to the straight path using the same definite path phrase as the Fatiha. The verse offers a specific pair of people as recipients of the guidance collectively requested.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 37:118 «وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The wording and definiteness of the path phrase match directly; the grammatical shift is from a plural petition to two guided recipients.
+  - limits: The verse does not specify what features of Moses and Aaron’s path are meant to define it for all petitioners.
+- **R-38:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: Two litigants ask to be guided to the middle of the path while asking for judgment by truth and no excess. This makes fair judgment a striking setting for a prayer closely parallel to the Fatiha’s request.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 38:22 «فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ ٱلصِّرَٰطِ»
+  - activation: Both prayers use اهْدِنَا and name a path; 38:22 places the request inside a dispute over just judgment.
+  - limits: 38:22 uses إلى سواء الصراط rather than the direct accusative in 1:6, and its specific case does not define every use of the path image.
+- **R-39:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those whom God guides are described as listening to speech and following its best. This presents receptivity and discernment as a human response associated with divine guidance.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 39:18 «ٱلَّذِينَ يَسْتَمِعُونَ ٱلْقَوْلَ فَيَتَّبِعُونَ أَحْسَنَهُۥٓ ۚ أُو۟لَٰئِكَ ٱلَّذِينَ هَدَىٰهُمُ ٱللَّهُ»
+  - activation: The Fatiha’s request follows an acknowledgment of worship and reliance; this passage associates guidance with listening and following.
+  - limits: 39:18 does not mention a path or show that listening alone explains how guidance is given.
+- **R-39:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: Revealed discourse is called Allah’s guidance, by which He guides whom He wills; the next clause says the one God misguides has no guide. This frames the requested direction as bound to revelation and divine agency.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 39:23 «ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ»
+  - activation: The focus asks God for guidance; this verse calls the revealed discourse His guidance and names Him as its guide.
+  - limits: It does not identify the discourse’s guidance with the full content of the Fatiha’s definite path phrase.
+- **related_3.X1** [reading; support strong, relevance high] 
+  - finding: The next verse specifies the requested path as the path of those God has favored, then contrasts them with those under anger and those astray; the focus’s destination is therefore immediately given a communal and evaluative description.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The following verse repeats صِرَٰطَ and gives a possessive description plus contrasting groups.
+  - limits: The verse identifies the path through its people and contrasts, but does not list every act or belief that constitutes it.
+- **R-39:36** [reading; support strong, relevance high] inter-ayah target
+  - finding: The request depends on God as the source of guidance: when He lets someone stray, no other guide remains.
+  - evidence: 39:36 «وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The community asks God directly to guide it, and this verse names the consequence of His withholding guidance.
+  - limits: It states that no guide can aid one whom God leads astray; it does not say that petitioners are in that state.
+- **R-39:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: God's guidance leaves no rival able to misdirect its recipient, giving the request for the path an assurance of protection as well as direction.
+  - evidence: 39:37 «وَمَن يَهْدِ ٱللَّهُ فَمَا لَهُۥ مِن مُّضِلٍّ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus asks God to guide the praying community; the parallel conditional makes the security of that guidance explicit.
+  - limits: This verse describes God's guidance in general and does not identify its recipients with the speakers of the Fatiha.
+- **R-40:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: A human believer invites his people to follow him so he can guide them to the path of right judgment; this portrays guidance as arriving through a caller and being met by following.
+  - evidence: 40:38 «ٱتَّبِعُونِ أَهْدِكُمْ سَبِيلَ ٱلرَّشَادِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: Both verses join a form of هدى with a named way, while the surrounding Fatiha addresses God for guidance.
+  - limits: The focus does not name a human intermediary, and سبيل الرشاد is not the same wording as الصراط المستقيم.
+- **R-41:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to turn upright toward God and seek His forgiveness shares the focus's q-w-m uprightness field, making the straight path an orientation toward Him as well as a route.
+  - evidence: 41:6 «فَٱسْتَقِيمُوا۟ إِلَيْهِ وَٱسْتَغْفِرُوهُ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus names an upright path; this passage directs people to be upright toward God.
+  - limits: The passage uses an imperative verb and does not itself call that orientation a path.
+- **R-41:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Thamud are said to have preferred blindness over guidance after they were guided; this makes the requested guidance consequential because people may reject it.
+  - evidence: 41:17 «فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ»; 1:6 «ٱهْدِنَا»
+  - activation: The focus's petition for guidance is heard against a scene where guidance was given but blindness was preferred.
+  - limits: This is a particular account of Thamud and does not say that their choice is the condition of the Fatiha's speakers.
+- **R-42:52** [reading; support strong, relevance high] inter-ayah target
+  - finding: Revelation is made light by which God guides, and the Messenger guides to a straight path; the requested path is thus linked to revealed guidance conveyed through a Messenger.
+  - evidence: 42:52 «وَلَٰكِن جَعَلْنَٰهُ نُورًۭا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا»; 42:52 «وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The passage contains the same guidance and straight-path wording as the focus, while explaining that guidance comes through revealed light.
+  - limits: The focus asks God in the first-person plural; this passage distinguishes God's guiding by revelation from the Messenger's guidance to the path.
+- **R-43:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The earth is made a dwelling with plural routes so people may find guidance; this sets the focus's singular, definite path alongside a created landscape of ways.
+  - evidence: 43:10 «وَجَعَلَ لَكُمْ فِيهَا سُبُلًۭا لَّعَلَّكُمْ تَهْتَدُونَ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: Both verses join paths with guidance, but the focus asks for one specified path while 43:10 speaks of plural routes through the earth.
+  - limits: 43:10 concerns routes made in the earth and does not state that all its plural ways are morally equivalent to the straight path.
+- **R-43:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Messenger is told to hold fast to revelation because he is already on a straight path; the focus's petition can be heard as seeking the orientation that revelation establishes and sustains.
+  - evidence: 43:43 «فَٱسْتَمْسِكْ بِٱلَّذِىٓ أُوحِىَ إِلَيْكَ»; 43:43 «إِنَّكَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The exact straight-path formula appears alongside a command to cling to what was revealed.
+  - limits: The verse addresses the Messenger as already on the path; it does not say that the focus's speakers have the same status or role.
+- **R-43:64** [reading; support strong, relevance high] inter-ayah target
+  - finding: Jesus identifies worship of the shared Lord as a straight path, giving content to the focus's request immediately after its declaration of exclusive worship.
+  - evidence: 43:64 «فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The Fatiha moves from exclusive worship and seeking help to asking for the straight path.
+  - limits: The demonstrative هَٰذَا refers to the command in its own passage; the parallel does not make the two passages identical in setting.
+- **R-46:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who affirm God as Lord and then remain upright receive a promise of security; the focus's straight-path request can include sustained fidelity after initial orientation.
+  - evidence: 46:13 «إِنَّ ٱلَّذِينَ قَالُوا۟ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَٰمُوا۟»; 1:6 «ٱلْمُسْتَقِيمَ»
+  - activation: The adjective المستقيم in the focus and the verb استقاموا share the uprightness root, while both passages address orientation toward God.
+  - limits: 46:13 describes steadfast people and gives no explicit path image; it does not say that they are asking for guidance.
+- **R-46:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Qur'an is described as guiding to truth and to an upright way, a direct parallel that joins the focus's path to both revelation and truth.
+  - evidence: 46:30 «يَهْدِىٓ إِلَى ٱلْحَقِّ وَإِلَىٰ طَرِيقٍۢ مُّسْتَقِيمٍۢ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The jinn who heard the Qur'an report its guidance to a طريق مستقيم, matching the focus's request for a صراط مستقيم.
+  - limits: The wording differs between طريق and صراط, and this passage reports the listeners' account rather than a first-person prayer.
+- **R-47:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those already guided are given more guidance, so the focus's request need not be limited to people who have never received direction.
+  - evidence: 47:17 «وَٱلَّذِينَ ٱهْتَدَوْا۟ زَادَهُمْ هُدًۭى»; 1:6 «ٱهْدِنَا»
+  - activation: The focus asks for guidance in the plural; this verse explicitly says that guided people receive an increase of it.
+  - limits: The verse does not describe what additional guidance consists of or equate it with the straight path.
+- **R-47:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequence links failure to ponder the Qur'an with hearts under locks and then with turning back after guidance becomes clear; the requested path includes receptive engagement with revelation.
+  - evidence: 47:24 «أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ أَمْ عَلَىٰ قُلُوبٍ أَقْفَالُهَآ»; 47:25 «مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The adjacent verse names guidance that had become clear, while the focus asks God to guide the community.
+  - limits: The focus does not specify pondering the Qur'an as the means of guidance; the sequence describes a different audience and response.
+- **R-48:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Messenger is guided to a straight path amid forgiveness and the completion of favor; this frames guidance as a divine favor that can accompany an already unfolding mission.
+  - evidence: 48:2 «وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The path wording is an exact lexical parallel, and the focus likewise requests guidance from God.
+  - limits: 48:2 addresses the Messenger with an indefinite path noun; the focus is a communal request using the definite noun.
+- **R-48:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: Guidance to a straight path follows a protected communal victory, presenting historical events and signs as part of how a community is guided.
+  - evidence: 48:20 «وَكَفَّ أَيْدِىَ ٱلنَّاسِ عَنكُمْ وَلِتَكُونَ ءَايَةًۭ لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The verse directly repeats guidance to a straight path and places it alongside divine protection and a sign for believers.
+  - limits: The verse ties this guidance to a specific communal event; it does not define every instance of the requested path by that event.
+- **R-49:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Guidance to faith is named as God's favor, not as something recipients may claim as their own merit; the petition can therefore be heard as asking for a gift.
+  - evidence: 49:17 «بَلِ ٱللَّهُ يَمُنُّ عَلَيْكُمْ أَنْ هَدَىٰكُمْ لِلْإِيمَٰنِ»; 1:6 «ٱهْدِنَا»
+  - activation: The shared هدى root connects the focus's imperative request to this explicit account of God granting guidance.
+  - limits: The verse specifies guidance to faith and rebukes a particular claim by the addressed people; it does not describe the focus's speakers.
+- **R-53:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage contrasts conjecture and desire with guidance that came from the Lord, so the requested path stands against self-made religious claims.
+  - evidence: 53:23 «إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ»; 53:23 «وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus asks for guidance from God, while 53:23 names guidance from the Lord against conjecture and desire.
+  - limits: This passage concerns specific claims about named deities; it does not identify the focus's speakers with those claimants.
+- **R-53:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse contrasts straying from God's way with being guided, giving a direct negative and positive counterpart to the requested path.
+  - evidence: 53:30 «بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: Both passages couple guidance with a way, and the focus's plea asks to be among the guided rather than those straying from it.
+  - limits: 53:30 calls it God's سبيل and does not use الصراط المستقيم.
+- **R-62:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The parable of people who carry scripture without carrying it out ends by saying God does not guide wrongdoers; possession of revealed words alone is not the same as being guided.
+  - evidence: 62:5 «حُمِّلُوا۟ ٱلتَّوْرَىٰةَ ثُمَّ لَمْ يَحْمِلُوهَا»; 62:5 «وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ»; 1:6 «ٱهْدِنَا»
+  - activation: The focus asks God to guide, while this verse distinguishes bearing scripture from the guidance that shapes conduct.
+  - limits: The parable and its judgment concern the people addressed in 62:5; it does not assign the same failure to the Fatiha's speakers.
+- **R-64:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: Rejectors object that human beings guide them, then disbelieve and turn away; this shows that guidance may arrive through human messengers and be rejected for that reason.
+  - evidence: 64:6 «فَقَالُوا۟ أَبَشَرٌۭ يَهْدُونَنَا»; 64:6 «فَكَفَرُوا۟ وَتَوَلَّوا۟»; 1:6 «ٱهْدِنَا»
+  - activation: The focus asks God for guidance, while this passage exposes resistance to guidance mediated by messengers.
+  - limits: The focus does not name a human intermediary; the passage reports the rejectors' objection rather than endorsing it.
+- **R-67:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: One person walks face-down while another walks evenly on a straight path; this makes straightness a visible manner of movement, not just an abstract destination.
+  - evidence: 67:22 «أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The verse repeats the straight-path wording and sets it against a bodily image of disoriented movement.
+  - limits: 67:22 poses a comparison in its own argument; it does not explicitly say that the Fatiha's speakers are either walker.
+- **R-68:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: God knows those who stray from His way and those who are guided; the requested route belongs within a distinction whose full knowledge is God's.
+  - evidence: 68:7 «بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus asks God for the path; the verse places straying and guidance under God's knowledge.
+  - limits: 68:7 does not name الصراط المستقيم and makes no direct statement about the Fatiha's petitioners.
+- **R-72:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: Remaining upright on the way is presented conditionally, with abundant water following and a test in the next verse; the requested path entails continued adherence with consequences.
+  - evidence: 72:16 «وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَٰهُم مَّآءً غَدَقًۭا»; 72:17 «لِّنَفْتِنَهُمْ فِيهِ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: This passage combines the uprightness root with being on a way, directly echoing the focus's straight path.
+  - limits: Its conditional promise concerns the addressed people and is immediately qualified by the test; it does not define the focus's path as material abundance.
+- **R-81:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question where people are going is followed by the Qur'an as a reminder and by the possibility of becoming upright; the focus's path petition is one answer to that question of direction.
+  - evidence: 81:26 «فَأَيْنَ تَذْهَبُونَ»; 81:27 «إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ»; 81:28 «لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The immediate sequence moves from a question about direction to Qur'anic reminder and uprightness, closely meeting the focus's request.
+  - limits: The rhetorical question is not itself a path instruction, and verse 29 further qualifies human willing by God's will.
+- **R-81:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: The wish to become upright is bounded by God's will in the next verse; the focus's request is a human appeal for an orientation that remains dependent on God.
+  - evidence: 81:28 «لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ»; 81:29 «وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus's imperative asks for the same uprightness named by يَسْتَقِيمَ, and the adjacent verse places willing under God's will.
+  - limits: The verses distinguish human willing from God's will but do not explicitly describe the focus's speakers or their request.
+- **R-87:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: God's measured creation is followed by His guiding; this places the focus's request within a wider pattern of divine ordering and direction.
+  - evidence: 87:2 «ٱلَّذِى خَلَقَ فَسَوَّىٰ»; 87:3 «وَٱلَّذِى قَدَّرَ فَهَدَىٰ»; 1:6 «ٱهْدِنَا»
+  - activation: The shared هدى root connects the petition with God's guidance following creation, fashioning, and measure.
+  - limits: 87:3 does not specify a moral path or say that its guidance is the same kind requested in the focus.
+- **R-90:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: Humanity is shown two guided ways, and the next verse speaks of not venturing through the steep obstacle; this places the requested singular straight path amid choice and a difficult ascent.
+  - evidence: 90:10 «وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ»; 90:11 «فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The same guidance root appears with two routes, while the neighboring obstacle image gives the choice a demanding terrain.
+  - limits: 90:10 does not name the two ways as good and evil or call either one straight; the relation of the obstacle to them is suggested by sequence.
+- **R-92:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: Guidance is declared to be upon God, which grounds the petition in divine responsibility for showing the way.
+  - evidence: 92:12 «إِنَّ عَلَيْنَا لَلْهُدَىٰ»; 1:6 «ٱهْدِنَا»
+  - activation: The focus addresses God with the same guidance root that this verse places upon Him.
+  - limits: The verse's declaration does not specify the form of guidance or promise that every petitioner receives the requested path in the same way.
+- **R-93:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The addressee is described as found astray and then guided; this presents guidance as a received change of state and makes repeated asking intelligible even after prior direction.
+  - evidence: 93:7 «وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ»; 1:6 «ٱهْدِنَا»
+  - activation: The focus asks for guidance, and this verse pairs the guidance root with its opposite state, ضَالًّا.
+  - limits: The singular addressee's experience is not assigned to every reciter, and ضَالًّا here does not by itself establish moral wrongdoing.
+- **R-98:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: Sincere worship, prayer, and almsgiving are called دين القيمة; this presents upright religion as enacted practice alongside the focus's request for the upright path.
+  - evidence: 98:5 «لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ»; 98:5 «وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The Fatiha declares worship before asking for the path; this verse describes worship and established prayer as دين القيمة.
+  - limits: The verse does not explicitly identify that religion with the صراط in the focus, and القيمة has its own grammatical context here.
+- **related_4.X1** [reading; support strong, relevance high] 
+  - finding: The focus is framed by exclusive worship and seeking help before it, then by a phrase identifying the path with those who received favor and distinguishing those under anger and those astray; the request is both dependent and ethically specified.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The adjacent Fatiha verses move from worship and reliance, through a plural petition, to a specification of whose path is sought and which outcomes are excluded.
+  - limits: The sequence supplies the prayer's own framing but does not identify the named groups with particular historical communities.
+- **R-5:8** [reading; support medium, relevance high] inter-ayah target
+  - finding: The q-w-m form قَوَّٰمِينَ is applied to standing for God as witnesses to justice, even when hostility tempts people away from fairness; this gives the root-family upright path a concrete social-justice counterpart.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»; 5:8 «كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟»
+  - activation: The root-family link meets the path’s normative uprightness, while 5:8 names justice as sustained conduct.
+  - limits: 5:8 does not call justice the straight path, and قَوَّٰمِينَ is a distinct form with its own sense.
+- **R-12:108** [reading; support medium, relevance high] inter-ayah target
+  - finding: The Prophet names his way as a call to Allah made with insight, shared by those who follow him. This opens a reading of the focus’s plural request as a community asking to be guided along a publicly taught way.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 12:108 «قُلْ هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى»
+  - activation: Both verses concern a way and plural participation; 12:108 describes following the Prophet in a call to Allah.
+  - limits: سبيل in 12:108 is not the same noun as صراط in the focus, and the verse does not identify the focus’s speakers with the Prophet’s followers alone.
+- **R-16:9** [reading; support medium, relevance high] inter-ayah target
+  - finding: The verse sets قصد السبيل against a way described as جائر, then says Allah could have guided everyone. This supplies a contrast between direct and deviating direction alongside the focus’s plea for the straight route.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 16:9 «وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌۭ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ»
+  - activation: Both verses concern a path and divine guidance; the target explicitly contrasts one way with a deviating one.
+  - limits: 16:9 does not use مستقيم, so the precise relation between قصد and the focus’s description depends on the sense of قصد as directness.
+- **R-18:24** [reading; support medium, relevance high] inter-ayah target
+  - finding: The prayer for guidance can be heard as an ongoing request for closer right direction: the speaker asks his Lord to guide him to something nearer than the guidance already in view.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 18:24 «وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا رَشَدًۭا»
+  - activation: Both are direct petitions for divine guidance; the focus asks for the path, while this verse describes guidance as something that can lead nearer to right direction.
+  - limits: 18:24 does not call its destination a path or establish that the two requests have the same occasion.
+- **R-21:73** [reading; support medium, relevance high] inter-ayah target
+  - finding: God makes leaders who guide by His command and couples that role with revealed good works and worship. The straight path sought collectively can thus be associated with guidance embodied in exemplary leadership and practice.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 21:73 «وَجَعَلْنَٰهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ»
+  - activation: The plural request can be read beside a passage where divine guidance is carried by a community’s appointed leaders.
+  - limits: The verse does not call those leaders’ way the straight path or say that the Fatiha’s speakers follow them.
+- **R-25:57** [reading; support medium, relevance high] inter-ayah target
+  - finding: A way may be taken toward the Lord by whoever wills; beside the Fatiha’s request for guidance, this presents the path as a Godward route that also calls for human response.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 25:57 «إِلَّا مَن شَآءَ أَن يَتَّخِذَ إِلَىٰ رَبِّهِۦ سَبِيلًۭا»
+  - activation: The Fatiha addresses God as Lord and asks to be directed; this verse names a route taken toward one’s Lord.
+  - limits: 25:57 uses سَبِيلًا, not صِرَٰطًا, and does not identify the two expressions as the same specific route.
+- **R-27:3** [reading; support medium, relevance high] inter-ayah target
+  - finding: The following verse portrays the believers associated with guidance through prayer, almsgiving, and certainty in the afterlife, offering communal practices by which a guided life is recognizable.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 27:2 «هُدًۭى وَبُشْرَىٰ لِلْمُؤْمِنِينَ»; 27:3 «ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْءَاخِرَةِ هُمْ يُوقِنُونَ»
+  - activation: The adjacent guidance description in 27:2 is followed by traits of its believing recipients; the Fatiha’s request also uses a plural speaker.
+  - limits: These traits are not explicitly presented as a complete definition of the straight path.
+- **R-27:63** [reading; support medium, relevance high] inter-ayah target
+  - finding: God guides people through the darknesses of land and sea, giving the request a concrete wayfinding counterpart in which guidance supplies orientation where seeing the route is difficult.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 27:63 «أَمَّن يَهْدِيكُمْ فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ»
+  - activation: The focus uses the path image with the verb of guidance; this verse places guidance in dark terrestrial and maritime travel.
+  - limits: 27:63 does not name a path or state that its darkness is moral rather than physical.
+- **R-32:24** [reading; support medium, relevance high] inter-ayah target
+  - finding: The passage links patient certainty with leaders whom God makes to guide by His command, suggesting that guidance to the straight path may be transmitted through steadfast communal exemplars.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 32:24 «وَجَعَلْنَا مِنْهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟ ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا يُوقِنُونَ»
+  - activation: The communal request asks for guidance; this verse shows divinely guided leaders arising within a community after patience and certainty.
+  - limits: It does not call the leaders’ way the straight path or name them as the intended referent of the Fatiha’s request.
+- **R-36:66** [reading; support medium, relevance high] inter-ayah target
+  - finding: The scene of people racing for a path after their sight is blotted out offers a stark counter-image to the petition: movement toward a path is not enough if one cannot see it.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 36:66 «فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ»
+  - activation: The focus asks to be guided to a path; this verse separates racing toward a path from the ability to perceive it.
+  - limits: 36:66 depicts a threatened physical path in a judgment scene and does not say that it is the same path as 1:6.
+- **R-75:29** [reading; support medium, relevance high] inter-ayah target
+  - finding: As death approaches, the legs entwine and the next verse says the person's driving is to the Lord; this can contrast a life spent seeking a chosen path with an unavoidable final passage.
+  - evidence: 75:29 «وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ»; 75:30 «إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus asks for direction, while the adjacent death scene names the destination and compelled movement at life's end.
+  - limits: The death passage uses مساق rather than guidance or path language; the contrast between chosen guidance and compelled arrival is an interpretation of the sequence.
+- **R-78:39** [reading; support medium, relevance high] inter-ayah target
+  - finding: The verse says whoever wills may take a return to his Lord; the requested straight path can be heard in relation to that chosen destination.
+  - evidence: 78:39 «فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: Both passages frame orientation toward God, with one asking for the way and the other naming a chosen return.
+  - limits: 78:39 does not use guidance or path vocabulary, and it emphasizes human willing in a way the focus's petition does not specify.
+- **R-89:27** [reading; support medium, relevance high] inter-ayah target
+  - finding: The tranquil soul is told to return to its Lord satisfied and accepted; this gives the requested path an endpoint of return and acceptance.
+  - evidence: 89:27 «يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ»; 89:28 «ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The focus names a path, while this adjacent address names the return to God at its far end.
+  - limits: The passage addresses a tranquil soul at its return and does not explicitly connect that return to the focus's path.
+- **R-109:2** [reading; support medium, relevance high] inter-ayah target
+  - finding: Since 1:6 follows the pledge إِيَّاكَ نَعْبُدُ, 109:2 makes the rival object of worship explicit. The guidance request can therefore be heard as asking to continue along the exclusive worship allegiance just pledged.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 109:2 «لَآ أَعْبُدُ مَا تَعْبُدُونَ»
+  - activation: The immediate sequence is worship of God alone, then a request to be guided along the path.
+  - limits: Surah 109:2 does not name a path or equate its interlocutors with any group in 1:7.
+- **R-109:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: 109:6 closes the non-convergence in worship by assigning each side its own dīn. Read beside 1:7’s description of the people on the requested path, this suggests that al-ṣirāṭ is a lived religious allegiance whose companions matter.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 109:6 «لَكُمْ دِينُكُمْ وَلِىَ دِينِ»
+  - activation: Fatiha moves from requesting the path in 1:6 to identifying its people in 1:7.
+  - limits: 109:6 does not use path language or identify its two parties with the groups in 1:7.
+- **R-2:177** [open; support medium, relevance high] inter-ayah target
+  - finding: 2:177 could keep ٱلصِّرَٰطَ from being heard as spatial orientation alone: it contrasts turning faces toward east or west with faith and concrete duties, while 1:7 describes the path through favored people.
+  - evidence: 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»; 2:177 «لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ»
+  - missing: A Quranic passage directly identifying the straight path with al-birr or with the practices listed in 2:177 could establish this connection; these verses do not state that equation.
+- **R-3:2** [open; support medium, relevance high] inter-ayah target
+  - finding: Within this surah, God is called ٱلْقَيُّومُ in 3:2 and worship of Him is called صِرَٰطٌۭ مُّسْتَقِيمٌۭ in 3:51. Their q-w-m root-family relation could associate the upright path with the sustaining Lord.
+  - evidence: 3:2 «ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ»; 3:51 «إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: A dictionary or Quranic usage establishing a semantic bridge between al-Qayyum and al-mustaqim could show whether this root-family echo does more than connect distinct senses.
+- **R-14:5** [open; support medium, relevance high] inter-ayah target
+  - finding: Within Surah 14, Moses is commanded to bring his people from darkness to light, echoing 14:1’s account of the Book leading people toward a path. This chain may make the focus’s communal plea resonate with prophetic liberation and guidance.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 14:1 «لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ»; 14:5 «أَنْ أَخْرِجْ قَوْمَكَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ»
+  - missing: The focus mentions neither darkness nor liberation, and 14:5 does not mention a straight path. A passage explicitly joining this exodus imagery to the صراط مستقيم formula could establish the proposed chain.
+- **R-15:87** [open; support medium, relevance high] inter-ayah target
+  - finding: If the ‘seven oft-repeated’ refers to the Fatiha, the focus’s request belongs to a repeatedly recited prayer, so its imperative can be heard as renewed dependence rather than a one-time request.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 15:87 «وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ»
+  - missing: 15:87 does not name the Fatiha or identify which of its verses is meant. Establishing that the seven refer to the Fatiha would support the repetition link; a further indication that this petition is central to that repetition would sharpen it.
+- **R-106:4** [open; support medium, relevance high] inter-ayah target
+  - finding: The feeding and security in 106:4 may set bodily provision beside the guidance requested in 1:6 as distinct forms of divine care; 1:5’s appeal for aid bridges them.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 106:4 «ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ»
+  - missing: Neither passage explicitly identifies guidance as the aid meant by 1:5 or compares it with 106:4’s provisions. A Quranic passage linking hidaya with divine aid or care could establish that relation.
+- **related_5.X1** [open; support medium, relevance high] 
+  - finding: Fatiha moves from exclusive communal worship to a request for guidance, while 109:2–6 moves through refusals of shared worship to distinct dīn. Together they invite the reading of hidaya as seeking a distinct religious allegiance amid non-convergent worship.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 109:2 «لَآ أَعْبُدُ مَا تَعْبُدُونَ»; 109:6 «لَكُمْ دِينُكُمْ وَلِىَ دِينِ»
+  - missing: An ayah or Quranic usage explicitly linking al-ṣirāṭ al-mustaqīm or hidaya to dīn or worship would clarify whether this is a deliberate relation rather than a thematic alignment.
+- **R-4:34** [open; support weak, relevance high] inter-ayah target
+  - finding: The q-w-m family appears in قَوَّٰمُونَ for a household role, offering a possible test of whether uprightness can include maintaining or ordering relations. This does not establish household hierarchy as the content of ٱلصِّرَٰطَ.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - missing: Dictionary evidence tying the relevant senses of qawwam and mustaqim together, or a passage that places this household description on the straight path, could decide whether the root relation matters.
+- **R-14:28** [open; support weak, relevance high] inter-ayah target
+  - finding: The next verse describes people who exchange God’s blessing for disbelief and bring their people to the abode of ruin. In sequence after 14:27’s guidance and misguidance, this could serve as an example of a disastrous departure from the focus’s requested way.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 14:27 «وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ»; 14:28 «أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًۭا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ»
+  - missing: The passage does not explicitly identify these people with those led astray in 14:27 or describe their history as leaving a straight path. An explicit link between the groups or a path term could decide the reading.
+- **R-27:35** [open; support weak, relevance high] inter-ayah target
+  - finding: The focus verb اهْدِنَا and the gift هَدِيَّة in this passage share the written root letters ه د ي; if the gift and guidance senses are semantically connected, the request could carry a gift-like register.
+  - evidence: 1:6 «ٱهْدِنَا»; 27:35 «بِهَدِيَّةٍۢ»
+  - missing: A lexical source showing whether هدًى as guidance and هَدِيَّة as a present are semantically related rather than distinct senses is needed; the episode itself establishes only an exchanged gift.
+- **R-42:26** [open; support weak, relevance high] inter-ayah target
+  - finding: The statement that God responds to believers and increases them from His favor might place the guidance petition within divine response and added favor.
+  - evidence: 42:26 «وَيَسْتَجِيبُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَيَزِيدُهُم مِّن فَضْلِهِۦ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - missing: This passage does not identify its response as an answer to supplication or name guidance as what is increased; an ayah linking divine response to a request for guidance could establish that connection.
+- **R-20:50** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Divine guidance appears as part of the ordering of creation: God gives each thing its created form and then guides it. This places the human request for guidance within a wider account of God’s care for created beings.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 20:50 «أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ»
+  - activation: The focus asks God for guidance; the parallel makes guidance an act of the Lord who orders creation.
+  - limits: 20:50 does not identify the guidance given to each thing with the moral path named in 1:6.
+- **R-27:2** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The Quran is called guidance and glad tidings for believers, placing the requested guidance alongside revealed instruction addressed to a believing community.
+  - evidence: 1:6 «ٱهْدِنَا»; 27:1 «تِلْكَ ءَايَٰتُ ٱلْقُرْءَانِ»; 27:2 «هُدًۭى وَبُشْرَىٰ لِلْمُؤْمِنِينَ»
+  - activation: The plural petition asks for guidance; this passage names Quranic signs as guidance for believers.
+  - limits: 27:2 does not mention a path or show that the Fatiha’s speakers are its only intended recipients.
+- **R-57:10** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Spending and fighting are explicitly placed in God's way; this supplies a concrete communal practice that can belong to the broad path sought in the Fatiha.
+  - evidence: 57:9 «لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ»; 57:10 «أَلَّا تُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ»; 1:6 «ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: The nearby movement from darkness to light and the phrase سبيل الله place a path of commitment after divine illumination.
+  - limits: This passage names particular acts and does not call them the straight path or make them an exhaustive definition of it.
+- **R-10:9** [reading; support medium, relevance medium] inter-ayah target
+  - finding: Here the Lord guides believers because of their faith, and the scene moves to rivers in Gardens. This links requested guidance with faith and a realized destination, while placing the focus’s imperative beside a later divine action.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 10:9 «يَهْدِيهِمْ رَبُّهُم بِإِيمَٰنِهِمْ»; 10:9 «تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ فِى جَنَّٰتِ ٱلنَّعِيمِ»
+  - activation: Both passages use guidance language; 10:9 supplies faith and the Garden as elements of the guided believers’ scene.
+  - limits: This verse does not use الصراط المستقيم or state that faith alone exhausts the conditions of guidance.
+- **R-106:3** [reading; support medium, relevance medium] inter-ayah target
+  - finding: The plural command to Quraysh to worship the Lord of the House echoes Fatiha’s worship pledge. Since 106:4 grounds that command in provision and safety, the sequence can make 1:6’s guidance request sound like dependence continuing beyond material care.
+  - evidence: 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 106:3 «فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ»; 106:4 «ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ»
+  - activation: In Fatiha, the pledge to worship and appeal for aid in 1:5 immediately precede the request for guidance.
+  - limits: Surah 106 names food and security, not guidance or a path; the connection is a progression of dependence, not a lexical equation.
+- **R-2:255** [open; support medium, relevance medium] inter-ayah target
+  - finding: ٱلْمُسْتَقِيمَ and ٱلْقَيُّومُ share the q-w-m root family; this could place uprightness beside divine sustaining, but the verse calls God al-Qayyum rather than describing a path.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»; 2:255 «ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ»
+  - missing: Lexical evidence showing that the relevant senses of these distinct forms meet, or a Quranic passage linking al-Qayyum directly with the straight path, could support the proposed resonance.
+- **R-4:5** [open; support medium, relevance medium] inter-ayah target
+  - finding: The word قِيَٰمًۭا describes wealth as a means by which people’s affairs stand, while ٱلْمُسْتَقِيمَ belongs to the same q-w-m root family. This may test whether the path’s uprightness also carries an ordering or sustaining shade.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»; 4:5 «ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا»
+  - missing: Lexical evidence connecting the sustaining sense of qiyam with the uprightness of istiqama could establish this semantic extension; the verse itself does not mention a path.
+- **R-5:68** [open; support medium, relevance medium] inter-ayah target
+  - finding: 5:68 says the addressed people are not established on anything until they uphold their revealed scriptures; alongside 2:213’s link between revealed scripture and guidance to a straight path, this could connect ٱهْدِنَا with living revelation.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 5:68 «لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ»; 2:213 «وَأَنزَلَ مَعَهُمُ ٱلْكِتَٰبَ بِٱلْحَقِّ»
+  - missing: A passage explicitly connecting إقامة revealed scripture with the straight-path formula could establish this relation; these excerpts do not make that equation.
+- **R-6:154** [open; support medium, relevance medium] inter-ayah target
+  - finding: After 6:153 commands following the straight path, the next verse recalls Moses receiving a Book described as guidance and mercy. This sequence may present revealed scripture as a historical means of the path requested in 1:6.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 6:153 «وَأَنَّ هَٰذَا صِرَٰطِى مُسْتَقِيمًۭا فَٱتَّبِعُوهُ»; 6:154 «وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ»
+  - missing: The sequence does not explicitly identify Moses’s Book with the path of 6:153. A clearer equation between scripture and that path elsewhere in the passage or surah could establish the link.
+- **R-8:3** [open; support medium, relevance medium] inter-ayah target
+  - finding: The root of ٱلْمُسْتَقِيمَ is shared with يُقِيمُونَ in a verse naming prayer and giving as believer practices. This may connect the requested upright way with enacted worship and generosity.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 8:3 «ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ»
+  - missing: The shared root alone does not establish that this straight path means these practices. A Quranic passage that joins istiqama or the straight path directly to establishing prayer and giving could confirm the proposed enactment.
+- **R-2:196** [open; support weak, relevance medium] inter-ayah target
+  - finding: The sacrificial noun ٱلْهَدْىِ in 2:196 belongs to the same cited root family as ٱهْدِنَا, but whether the offering sense colors requested guidance as a gift cannot be inferred from the root overlap alone.
+  - evidence: 1:6 «ٱهْدِنَا»; 2:196 «فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ»
+  - missing: A dictionary account or Quranic usage showing a semantic bridge between guidance and the sacrificial offering sense could decide whether this root-family link matters here.
+- **R-14:27** [open; support weak, relevance medium] inter-ayah target
+  - finding: Allah makes believers firm by the firm word and leads wrongdoers astray. This may add endurance to the focus’s upright-path image, but the relation is conceptual rather than a shared path expression.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 14:27 «يُثَبِّتُ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ بِٱلْقَوْلِ ٱلثَّابِتِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ»
+  - missing: The verse does not mention the straight path or use the root ق و م. A passage that joins تثبيت or the firm word to guidance along the straight path could establish a stronger link.
+- **R-30:25** [open; support weak, relevance medium] inter-ayah target
+  - finding: The verb تقوم for the heavens and earth shares root letters ق و م with المستقيم; this may bring an established or standing order into the adjective’s resonance.
+  - evidence: 1:6 «ٱلْمُسْتَقِيمَ»; 30:25 «أَن تَقُومَ ٱلسَّمَآءُ وَٱلْأَرْضُ بِأَمْرِهِۦ»
+  - missing: A root-level lexical account is needed to show whether the sense of cosmic standing contributes to the normative uprightness of المستقيم; the verse itself does not connect the standing cosmos to a path.
+
+Notes:
+- R-55:9 [support medium, relevance high] The command to establish the measure in justice uses the q-w-m root family of المستقيم; this offers an association between uprightness and equitable public measure.
+- R-1:1 [support medium, relevance medium] The opening names the addressee as ٱلرَّحْمَٰنِ ٱلرَّحِيمِ before the communal plea, placing the request under a mercy frame.
+- R-1:2 [support medium, relevance medium] The earlier title رَبِّ ٱلْعَٰلَمِينَ frames the request for guidance as dependence on the Lord of all worlds.
+- R-1:3 [support medium, relevance medium] The repeated mercy names renew the opening frame just before the passage turns toward judgment and petition.
+- R-1:4 [support medium, relevance medium] Mention of the Day of Recompense gives the request a moral horizon: the speakers ask for a path in a prayer that has already named divine judgment.
+- R-2:186 [support medium, relevance medium] The communal plea ٱهْدِنَا shares a supplicatory setting with the caller whose prayer God answers; the stated aim لَعَلَّهُمْ يَرْشُدُونَ offers a related outcome of right direction.
+- R-2:286 [support medium, relevance medium] The closing communal prayer in al-Baqara asks for capacity, forgiveness, and mercy; beside ٱهْدِنَا, it presents guidance as one need within a wider appeal for divine support.
+- R-4:36 [support medium, relevance medium] This passage pairs worship of God and avoidance of association with duties toward relatives, vulnerable people, neighbors, companions, and dependents; it supplies a broad ethical scene that could give practical shape to the requested path.
+- R-13:7 [support medium, relevance medium] The focus says ‘guide us’ in the plural, while 13:7 states that every people has a guide. This places the petition naturally on a communal scale.
+- R-18:17 [support medium, relevance medium] The passage makes God the decisive source of guidance and contrasts the guided person with one left without a guiding protector; this gives the request in ٱهْدِنَا a divine-agency frame.
+- R-22:16 [support medium, relevance medium] The passage connects revealed clear signs with God’s act of guiding whom He wills, supporting a link between guidance and revelation without naming the path sought in 1:6.
+- R-24:35 [support medium, relevance medium] Guidance is pictured as leading someone to divine light, adding an illumination image that can sit beside the path image of 1:6.
+- R-31:19 [support medium, relevance medium] The instruction to walk with moderation gives ethical conduct a bodily walking image; it can complement the path image without equating balanced walking with the straight path.
+- R-62:11 [support medium, relevance medium] People disperse toward trade and leave the Prophet standing; the image of him قائم offers a q-w-m root echo, while their departure depicts a competing orientation.
+- R-65:2 [support medium, relevance medium] Just witnesses are commanded to establish testimony for God; its إقامة alongside عدل echoes the focus's uprightness as a possible public and legal quality.
+- R-70:33 [support medium, relevance medium] Believers are described as standing by their testimonies; this q-w-m root echo associates uprightness with faithful public witness.
+- R-71:5 [support medium, relevance medium] Nuh reports to his Lord that he called his people night and day, while the next verse says they fled; this contrasts a human caller's effort with the focus's appeal to God for guidance.
+- R-73:6 [support medium, relevance medium] Night rising is described as more upright or firmer in speech; the q-w-m root offers an association between the focus's straightness and disciplined recitation.
+- R-73:20 [support medium, relevance medium] The passage joins night prayer, Qur'an recitation, and the command to establish prayer; this offers a ritual setting in which the Fatiha's path petition is repeatedly voiced.
+- R-93:11 [support medium, relevance medium] The command to speak of the Lord's favor follows the account of guidance in 93:7; guidance may thus be heard as a favor to acknowledge after it is received.
+- R-98:3 [support medium, relevance medium] The writings are called qayyimah, bringing the q-w-m family of uprightness from the focus's path into the description of scripture.
+- R-109:3 [support medium, relevance medium] 109:3 reverses the grammatical side of 109:2: the addressees are declared not to worship what the speaker worships. This mutual separation makes the communal appeal in 1:6 legible against incompatible worship allegiances.
+- R-109:4 [support medium, relevance medium] 109:4 shifts from the imperfect أَعْبُدُ in 109:2 to the participle عَابِدٌ and refers to what the addressees worshipped. Beside 1:6, this allows the request to be heard as seeking steady fidelity, though the forms do not themselves establish permanence.
+- R-109:5 [support medium, relevance medium] 109:5 repeats 109:3 after 109:4 restates the speaker’s refusal, closing the sequence by returning to the addressees’ side. Beside 1:6’s definite singular path, this can sharpen the question of which allegiance is followed.
+- R-21:112 [support medium, relevance low] The passage offers a nearby devotional pattern: a prophet addresses his Lord with a plea for judgment by truth and names God as the one sought for help.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:38 قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًۭا ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 2:120 وَلَن تَرْضَىٰ عَنكَ ٱلْيَهُودُ وَلَا ٱلنَّصَٰرَىٰ حَتَّىٰ تَتَّبِعَ مِلَّتَهُمْ ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۗ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم بَعْدَ ٱلَّذِى جَآءَكَ مِنَ ٱلْعِلْمِ ۙ مَا لَكَ مِنَ ٱللَّهِ مِن وَلِىٍّۢ وَلَا نَصِيرٍ
+- 2:142 ۞ سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا ۚ قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 2:143 وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًۭا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 2:177 ۞ لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ
+- 2:186 وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ
+- 2:196 وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًۭى مِّن رَّأْسِهِۦ فَفِدْيَةٌۭ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍۢ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌۭ كَامِلَةٌۭ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
+- 2:213 كَانَ ٱلنَّاسُ أُمَّةًۭ وَٰحِدَةًۭ فَبَعَثَ ٱللَّهُ ٱلنَّبِيِّۦنَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ ٱلْكِتَٰبَ بِٱلْحَقِّ لِيَحْكُمَ بَيْنَ ٱلنَّاسِ فِيمَا ٱخْتَلَفُوا۟ فِيهِ ۚ وَمَا ٱخْتَلَفَ فِيهِ إِلَّا ٱلَّذِينَ أُوتُوهُ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ بَغْيًۢا بَيْنَهُمْ ۖ فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ ۗ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍ
+- 2:255 ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ
+- 2:286 لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 3:2 ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ
+- 3:51 إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 3:73 وَلَا تُؤْمِنُوٓا۟ إِلَّا لِمَن تَبِعَ دِينَكُمْ قُلْ إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ أَن يُؤْتَىٰٓ أَحَدٌۭ مِّثْلَ مَآ أُوتِيتُمْ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْ ۗ قُلْ إِنَّ ٱلْفَضْلَ بِيَدِ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌۭ
+- 3:101 وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 4:5 وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًۭا مَّعْرُوفًۭا
+- 4:34 ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ ۚ فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا
+- 4:36 ۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا
+- 4:51 أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًۭا مِّنَ ٱلْكِتَٰبِ يُؤْمِنُونَ بِٱلْجِبْتِ وَٱلطَّٰغُوتِ وَيَقُولُونَ لِلَّذِينَ كَفَرُوا۟ هَٰٓؤُلَآءِ أَهْدَىٰ مِنَ ٱلَّذِينَ ءَامَنُوا۟ سَبِيلًا
+- 4:68 وَلَهَدَيْنَٰهُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 4:69 وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًۭا
+- 4:175 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍۢ مِّنْهُ وَفَضْلٍۢ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 5:8 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ
+- 5:16 يَهْدِى بِهِ ٱللَّهُ مَنِ ٱتَّبَعَ رِضْوَٰنَهُۥ سُبُلَ ٱلسَّلَٰمِ وَيُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِهِۦ وَيَهْدِيهِمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 5:68 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ ۗ وَلَيَزِيدَنَّ كَثِيرًۭا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًۭا وَكُفْرًۭا ۖ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 5:77 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ غَيْرَ ٱلْحَقِّ وَلَا تَتَّبِعُوٓا۟ أَهْوَآءَ قَوْمٍۢ قَدْ ضَلُّوا۟ مِن قَبْلُ وَأَضَلُّوا۟ كَثِيرًۭا وَضَلُّوا۟ عَن سَوَآءِ ٱلسَّبِيلِ
+- 6:39 وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا صُمٌّۭ وَبُكْمٌۭ فِى ٱلظُّلُمَٰتِ ۗ مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 6:71 قُلْ أَنَدْعُوا۟ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُنَا وَلَا يَضُرُّنَا وَنُرَدُّ عَلَىٰٓ أَعْقَابِنَا بَعْدَ إِذْ هَدَىٰنَا ٱللَّهُ كَٱلَّذِى ٱسْتَهْوَتْهُ ٱلشَّيَٰطِينُ فِى ٱلْأَرْضِ حَيْرَانَ لَهُۥٓ أَصْحَٰبٌۭ يَدْعُونَهُۥٓ إِلَى ٱلْهُدَى ٱئْتِنَا ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۖ وَأُمِرْنَا لِنُسْلِمَ لِرَبِّ ٱلْعَٰلَمِينَ
+- 6:87 وَمِنْ ءَابَآئِهِمْ وَذُرِّيَّٰتِهِمْ وَإِخْوَٰنِهِمْ ۖ وَٱجْتَبَيْنَٰهُمْ وَهَدَيْنَٰهُمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 6:88 ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَلَوْ أَشْرَكُوا۟ لَحَبِطَ عَنْهُم مَّا كَانُوا۟ يَعْمَلُونَ
+- 6:90 أُو۟لَٰٓئِكَ ٱلَّذِينَ هَدَى ٱللَّهُ ۖ فَبِهُدَىٰهُمُ ٱقْتَدِهْ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ هُوَ إِلَّا ذِكْرَىٰ لِلْعَٰلَمِينَ
+- 6:125 فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ ضَيِّقًا حَرَجًۭا كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ ۚ كَذَٰلِكَ يَجْعَلُ ٱللَّهُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يُؤْمِنُونَ
+- 6:126 وَهَٰذَا صِرَٰطُ رَبِّكَ مُسْتَقِيمًۭا ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍۢ يَذَّكَّرُونَ
+- 6:127 ۞ لَهُمْ دَارُ ٱلسَّلَٰمِ عِندَ رَبِّهِمْ ۖ وَهُوَ وَلِيُّهُم بِمَا كَانُوا۟ يَعْمَلُونَ
+- 6:153 وَأَنَّ هَٰذَا صِرَٰطِى مُسْتَقِيمًۭا فَٱتَّبِعُوهُ ۖ وَلَا تَتَّبِعُوا۟ ٱلسُّبُلَ فَتَفَرَّقَ بِكُمْ عَن سَبِيلِهِۦ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَتَّقُونَ
+- 6:154 ثُمَّ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ تَمَامًا عَلَى ٱلَّذِىٓ أَحْسَنَ وَتَفْصِيلًۭا لِّكُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ
+- 6:161 قُلْ إِنَّنِى هَدَىٰنِى رَبِّىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ دِينًۭا قِيَمًۭا مِّلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا ۚ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ
+- 7:16 قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ
+- 7:43 وَنَزَعْنَا مَا فِى صُدُورِهِم مِّنْ غِلٍّۢ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ ۖ وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ
+- 7:146 سَأَصْرِفُ عَنْ ءَايَٰتِىَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ ءَايَةٍۢ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًۭا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًۭا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ
+- 7:178 مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى ۖ وَمَن يُضْلِلْ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 8:3 ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
+- 10:9 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ يَهْدِيهِمْ رَبُّهُم بِإِيمَٰنِهِمْ ۖ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ فِى جَنَّٰتِ ٱلنَّعِيمِ
+- 10:25 وَٱللَّهُ يَدْعُوٓا۟ إِلَىٰ دَارِ ٱلسَّلَٰمِ وَيَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 10:35 قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَهْدِىٓ إِلَى ٱلْحَقِّ ۚ قُلِ ٱللَّهُ يَهْدِى لِلْحَقِّ ۗ أَفَمَن يَهْدِىٓ إِلَى ٱلْحَقِّ أَحَقُّ أَن يُتَّبَعَ أَمَّن لَّا يَهِدِّىٓ إِلَّآ أَن يُهْدَىٰ ۖ فَمَا لَكُمْ كَيْفَ تَحْكُمُونَ
+- 11:19 ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًۭا وَهُم بِٱلْءَاخِرَةِ هُمْ كَٰفِرُونَ
+- 11:56 إِنِّى تَوَكَّلْتُ عَلَى ٱللَّهِ رَبِّى وَرَبِّكُم ۚ مَّا مِن دَآبَّةٍ إِلَّا هُوَ ءَاخِذٌۢ بِنَاصِيَتِهَآ ۚ إِنَّ رَبِّى عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 11:112 فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟ ۚ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 12:108 قُلْ هَٰذِهِۦ سَبِيلِىٓ أَدْعُوٓا۟ إِلَى ٱللَّهِ ۚ عَلَىٰ بَصِيرَةٍ أَنَا۠ وَمَنِ ٱتَّبَعَنِى ۖ وَسُبْحَٰنَ ٱللَّهِ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ
+- 13:7 وَيَقُولُ ٱلَّذِينَ كَفَرُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَةٌۭ مِّن رَّبِّهِۦٓ ۗ إِنَّمَآ أَنتَ مُنذِرٌۭ ۖ وَلِكُلِّ قَوْمٍ هَادٍ
+- 14:1 الٓر ۚ كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ لِتُخْرِجَ ٱلنَّاسَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ بِإِذْنِ رَبِّهِمْ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ
+- 14:5 وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَٰتِنَآ أَنْ أَخْرِجْ قَوْمَكَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ وَذَكِّرْهُم بِأَيَّىٰمِ ٱللَّهِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ
+- 14:12 وَمَا لَنَآ أَلَّا نَتَوَكَّلَ عَلَى ٱللَّهِ وَقَدْ هَدَىٰنَا سُبُلَنَا ۚ وَلَنَصْبِرَنَّ عَلَىٰ مَآ ءَاذَيْتُمُونَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ
+- 14:27 يُثَبِّتُ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ بِٱلْقَوْلِ ٱلثَّابِتِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ ۚ وَيَفْعَلُ ٱللَّهُ مَا يَشَآءُ
+- 14:28 ۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًۭا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ
+- 14:40 رَبِّ ٱجْعَلْنِى مُقِيمَ ٱلصَّلَوٰةِ وَمِن ذُرِّيَّتِى ۚ رَبَّنَا وَتَقَبَّلْ دُعَآءِ
+- 15:40 إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ
+- 15:41 قَالَ هَٰذَا صِرَٰطٌ عَلَىَّ مُسْتَقِيمٌ
+- 15:42 إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ
+- 15:87 وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ
+- 16:9 وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌۭ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ
+- 16:36 وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍۢ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّٰغُوتَ ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ ۚ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ
+- 16:76 وَضَرَبَ ٱللَّهُ مَثَلًۭا رَّجُلَيْنِ أَحَدُهُمَآ أَبْكَمُ لَا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَهُوَ كَلٌّ عَلَىٰ مَوْلَىٰهُ أَيْنَمَا يُوَجِّههُّ لَا يَأْتِ بِخَيْرٍ ۖ هَلْ يَسْتَوِى هُوَ وَمَن يَأْمُرُ بِٱلْعَدْلِ ۙ وَهُوَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 16:121 شَاكِرًۭا لِّأَنْعُمِهِ ۚ ٱجْتَبَىٰهُ وَهَدَىٰهُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 17:9 إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًۭا كَبِيرًۭا
+- 17:35 وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ ۚ ذَٰلِكَ خَيْرٌۭ وَأَحْسَنُ تَأْوِيلًۭا
+- 17:97 وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًۭا
+- 18:17 ۞ وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍۢ مِّنْهُ ۚ ذَٰلِكَ مِنْ ءَايَٰتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّۭا مُّرْشِدًۭا
+- 18:24 إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا رَشَدًۭا
+- 19:36 وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 19:43 يَٰٓأَبَتِ إِنِّى قَدْ جَآءَنِى مِنَ ٱلْعِلْمِ مَا لَمْ يَأْتِكَ فَٱتَّبِعْنِىٓ أَهْدِكَ صِرَٰطًۭا سَوِيًّۭا
+- 19:76 وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًۭى ۗ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌۭ مَّرَدًّا
+- 20:50 قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ
+- 20:82 وَإِنِّى لَغَفَّارٌۭ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا ثُمَّ ٱهْتَدَىٰ
+- 20:123 قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّۭ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًۭى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ
+- 20:135 قُلْ كُلٌّۭ مُّتَرَبِّصٌۭ فَتَرَبَّصُوا۟ ۖ فَسَتَعْلَمُونَ مَنْ أَصْحَٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ
+- 21:73 وَجَعَلْنَٰهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةِ وَإِيتَآءَ ٱلزَّكَوٰةِ ۖ وَكَانُوا۟ لَنَا عَٰبِدِينَ
+- 21:112 قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 22:16 وَكَذَٰلِكَ أَنزَلْنَٰهُ ءَايَٰتٍۭ بَيِّنَٰتٍۢ وَأَنَّ ٱللَّهَ يَهْدِى مَن يُرِيدُ
+- 22:24 وَهُدُوٓا۟ إِلَى ٱلطَّيِّبِ مِنَ ٱلْقَوْلِ وَهُدُوٓا۟ إِلَىٰ صِرَٰطِ ٱلْحَمِيدِ
+- 22:54 وَلِيَعْلَمَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّكَ فَيُؤْمِنُوا۟ بِهِۦ فَتُخْبِتَ لَهُۥ قُلُوبُهُمْ ۗ وَإِنَّ ٱللَّهَ لَهَادِ ٱلَّذِينَ ءَامَنُوٓا۟ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 23:73 وَإِنَّكَ لَتَدْعُوهُمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 23:74 وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَٰكِبُونَ
+- 24:35 ۞ ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍۢ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌۭ دُرِّىٌّۭ يُوقَدُ مِن شَجَرَةٍۢ مُّبَٰرَكَةٍۢ زَيْتُونَةٍۢ لَّا شَرْقِيَّةٍۢ وَلَا غَرْبِيَّةٍۢ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌۭ ۚ نُّورٌ عَلَىٰ نُورٍۢ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 24:46 لَّقَدْ أَنزَلْنَآ ءَايَٰتٍۢ مُّبَيِّنَٰتٍۢ ۚ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 25:57 قُلْ مَآ أَسْـَٔلُكُمْ عَلَيْهِ مِنْ أَجْرٍ إِلَّا مَن شَآءَ أَن يَتَّخِذَ إِلَىٰ رَبِّهِۦ سَبِيلًۭا
+- 26:181 ۞ أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ
+- 26:182 وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ
+- 27:1 طسٓ ۚ تِلْكَ ءَايَٰتُ ٱلْقُرْءَانِ وَكِتَابٍۢ مُّبِينٍ
+- 27:2 هُدًۭى وَبُشْرَىٰ لِلْمُؤْمِنِينَ
+- 27:3 ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْءَاخِرَةِ هُمْ يُوقِنُونَ
+- 27:35 وَإِنِّى مُرْسِلَةٌ إِلَيْهِم بِهَدِيَّةٍۢ فَنَاظِرَةٌۢ بِمَ يَرْجِعُ ٱلْمُرْسَلُونَ
+- 27:63 أَمَّن يَهْدِيكُمْ فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَٰهٌۭ مَّعَ ٱللَّهِ ۚ تَعَٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ
+- 28:22 وَلَمَّا تَوَجَّهَ تِلْقَآءَ مَدْيَنَ قَالَ عَسَىٰ رَبِّىٓ أَن يَهْدِيَنِى سَوَآءَ ٱلسَّبِيلِ
+- 28:56 إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ
+- 29:69 وَٱلَّذِينَ جَٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ
+- 30:25 وَمِنْ ءَايَٰتِهِۦٓ أَن تَقُومَ ٱلسَّمَآءُ وَٱلْأَرْضُ بِأَمْرِهِۦ ۚ ثُمَّ إِذَا دَعَاكُمْ دَعْوَةًۭ مِّنَ ٱلْأَرْضِ إِذَآ أَنتُمْ تَخْرُجُونَ
+- 30:43 فَأَقِمْ وَجْهَكَ لِلدِّينِ ٱلْقَيِّمِ مِن قَبْلِ أَن يَأْتِىَ يَوْمٌۭ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۖ يَوْمَئِذٍۢ يَصَّدَّعُونَ
+- 31:3 هُدًۭى وَرَحْمَةًۭ لِّلْمُحْسِنِينَ
+- 31:19 وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ
+- 32:24 وَجَعَلْنَا مِنْهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟ ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا يُوقِنُونَ
+- 34:6 وَيَرَى ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ٱلَّذِىٓ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ
+- 35:8 أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًۭا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۖ فَلَا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَٰتٍ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا يَصْنَعُونَ
+- 36:4 عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 36:61 وَأَنِ ٱعْبُدُونِى ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 36:66 وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ
+- 37:23 مِن دُونِ ٱللَّهِ فَٱهْدُوهُمْ إِلَىٰ صِرَٰطِ ٱلْجَحِيمِ
+- 37:118 وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 38:22 إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍۢ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ ٱلصِّرَٰطِ
+- 39:18 ٱلَّذِينَ يَسْتَمِعُونَ ٱلْقَوْلَ فَيَتَّبِعُونَ أَحْسَنَهُۥٓ ۚ أُو۟لَٰٓئِكَ ٱلَّذِينَ هَدَىٰهُمُ ٱللَّهُ ۖ وَأُو۟لَٰٓئِكَ هُمْ أُو۟لُوا۟ ٱلْأَلْبَٰبِ
+- 39:23 ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَٰبًۭا مُّتَشَٰبِهًۭا مَّثَانِىَ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ
+- 39:36 أَلَيْسَ ٱللَّهُ بِكَافٍ عَبْدَهُۥ ۖ وَيُخَوِّفُونَكَ بِٱلَّذِينَ مِن دُونِهِۦ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ
+- 39:37 وَمَن يَهْدِ ٱللَّهُ فَمَا لَهُۥ مِن مُّضِلٍّ ۗ أَلَيْسَ ٱللَّهُ بِعَزِيزٍۢ ذِى ٱنتِقَامٍۢ
+- 40:38 وَقَالَ ٱلَّذِىٓ ءَامَنَ يَٰقَوْمِ ٱتَّبِعُونِ أَهْدِكُمْ سَبِيلَ ٱلرَّشَادِ
+- 41:6 قُلْ إِنَّمَآ أَنَا۠ بَشَرٌۭ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ فَٱسْتَقِيمُوٓا۟ إِلَيْهِ وَٱسْتَغْفِرُوهُ ۗ وَوَيْلٌۭ لِّلْمُشْرِكِينَ
+- 41:17 وَأَمَّا ثَمُودُ فَهَدَيْنَٰهُمْ فَٱسْتَحَبُّوا۟ ٱلْعَمَىٰ عَلَى ٱلْهُدَىٰ فَأَخَذَتْهُمْ صَٰعِقَةُ ٱلْعَذَابِ ٱلْهُونِ بِمَا كَانُوا۟ يَكْسِبُونَ
+- 42:26 وَيَسْتَجِيبُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۚ وَٱلْكَٰفِرُونَ لَهُمْ عَذَابٌۭ شَدِيدٌۭ
+- 42:52 وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ رُوحًۭا مِّنْ أَمْرِنَا ۚ مَا كُنتَ تَدْرِى مَا ٱلْكِتَٰبُ وَلَا ٱلْإِيمَٰنُ وَلَٰكِن جَعَلْنَٰهُ نُورًۭا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا ۚ وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 43:10 ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًۭا وَجَعَلَ لَكُمْ فِيهَا سُبُلًۭا لَّعَلَّكُمْ تَهْتَدُونَ
+- 43:43 فَٱسْتَمْسِكْ بِٱلَّذِىٓ أُوحِىَ إِلَيْكَ ۖ إِنَّكَ عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 43:64 إِنَّ ٱللَّهَ هُوَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ
+- 46:13 إِنَّ ٱلَّذِينَ قَالُوا۟ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَٰمُوا۟ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 46:30 قَالُوا۟ يَٰقَوْمَنَآ إِنَّا سَمِعْنَا كِتَٰبًا أُنزِلَ مِنۢ بَعْدِ مُوسَىٰ مُصَدِّقًۭا لِّمَا بَيْنَ يَدَيْهِ يَهْدِىٓ إِلَى ٱلْحَقِّ وَإِلَىٰ طَرِيقٍۢ مُّسْتَقِيمٍۢ
+- 47:17 وَٱلَّذِينَ ٱهْتَدَوْا۟ زَادَهُمْ هُدًۭى وَءَاتَىٰهُمْ تَقْوَىٰهُمْ
+- 47:24 أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ أَمْ عَلَىٰ قُلُوبٍ أَقْفَالُهَآ
+- 47:25 إِنَّ ٱلَّذِينَ ٱرْتَدُّوا۟ عَلَىٰٓ أَدْبَٰرِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ
+- 48:2 لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 48:20 وَعَدَكُمُ ٱللَّهُ مَغَانِمَ كَثِيرَةًۭ تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَٰذِهِۦ وَكَفَّ أَيْدِىَ ٱلنَّاسِ عَنكُمْ وَلِتَكُونَ ءَايَةًۭ لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 48:25 هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍۢ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا
+- 49:17 يَمُنُّونَ عَلَيْكَ أَنْ أَسْلَمُوا۟ ۖ قُل لَّا تَمُنُّوا۟ عَلَىَّ إِسْلَٰمَكُم ۖ بَلِ ٱللَّهُ يَمُنُّ عَلَيْكُمْ أَنْ هَدَىٰكُمْ لِلْإِيمَٰنِ إِن كُنتُمْ صَٰدِقِينَ
+- 53:23 إِنْ هِىَ إِلَّآ أَسْمَآءٌۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَمَا تَهْوَى ٱلْأَنفُسُ ۖ وَلَقَدْ جَآءَهُم مِّن رَّبِّهِمُ ٱلْهُدَىٰٓ
+- 53:30 ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ
+- 55:9 وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ
+- 57:9 هُوَ ٱلَّذِى يُنَزِّلُ عَلَىٰ عَبْدِهِۦٓ ءَايَٰتٍۭ بَيِّنَٰتٍۢ لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 57:10 وَمَا لَكُمْ أَلَّا تُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا يَسْتَوِى مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ ٱلْفَتْحِ وَقَٰتَلَ ۚ أُو۟لَٰٓئِكَ أَعْظَمُ دَرَجَةًۭ مِّنَ ٱلَّذِينَ أَنفَقُوا۟ مِنۢ بَعْدُ وَقَٰتَلُوا۟ ۚ وَكُلًّۭا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ
+- 62:5 مَثَلُ ٱلَّذِينَ حُمِّلُوا۟ ٱلتَّوْرَىٰةَ ثُمَّ لَمْ يَحْمِلُوهَا كَمَثَلِ ٱلْحِمَارِ يَحْمِلُ أَسْفَارًۢا ۚ بِئْسَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِ ٱللَّهِ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- 62:11 وَإِذَا رَأَوْا۟ تِجَٰرَةً أَوْ لَهْوًا ٱنفَضُّوٓا۟ إِلَيْهَا وَتَرَكُوكَ قَآئِمًۭا ۚ قُلْ مَا عِندَ ٱللَّهِ خَيْرٌۭ مِّنَ ٱللَّهْوِ وَمِنَ ٱلتِّجَٰرَةِ ۚ وَٱللَّهُ خَيْرُ ٱلرَّٰزِقِينَ
+- 64:6 ذَٰلِكَ بِأَنَّهُۥ كَانَت تَّأْتِيهِمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ فَقَالُوٓا۟ أَبَشَرٌۭ يَهْدُونَنَا فَكَفَرُوا۟ وَتَوَلَّوا۟ ۚ وَّٱسْتَغْنَى ٱللَّهُ ۚ وَٱللَّهُ غَنِىٌّ حَمِيدٌۭ
+- 65:2 فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍۢ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍۢ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًۭا
+- 67:22 أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 68:7 إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ
+- 70:33 وَٱلَّذِينَ هُم بِشَهَٰدَٰتِهِمْ قَآئِمُونَ
+- 71:5 قَالَ رَبِّ إِنِّى دَعَوْتُ قَوْمِى لَيْلًۭا وَنَهَارًۭا
+- 71:6 فَلَمْ يَزِدْهُمْ دُعَآءِىٓ إِلَّا فِرَارًۭا
+- 72:16 وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَٰهُم مَّآءً غَدَقًۭا
+- 72:17 لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِۦ يَسْلُكْهُ عَذَابًۭا صَعَدًۭا
+- 73:6 إِنَّ نَاشِئَةَ ٱلَّيْلِ هِىَ أَشَدُّ وَطْـًۭٔا وَأَقْوَمُ قِيلًا
+- 73:20 ۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌۭ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًۭا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًۭا وَأَعْظَمَ أَجْرًۭا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۢ
+- 75:29 وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ
+- 75:30 إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ
+- 78:39 ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا
+- 81:26 فَأَيْنَ تَذْهَبُونَ
+- 81:27 إِنْ هُوَ إِلَّا ذِكْرٌۭ لِّلْعَٰلَمِينَ
+- 81:28 لِمَن شَآءَ مِنكُمْ أَن يَسْتَقِيمَ
+- 81:29 وَمَا تَشَآءُونَ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ
+- 87:2 ٱلَّذِى خَلَقَ فَسَوَّىٰ
+- 87:3 وَٱلَّذِى قَدَّرَ فَهَدَىٰ
+- 89:27 يَٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ
+- 89:28 ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةًۭ مَّرْضِيَّةًۭ
+- 90:10 وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ
+- 90:11 فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ
+- 92:12 إِنَّ عَلَيْنَا لَلْهُدَىٰ
+- 93:7 وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ
+- 93:11 وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ
+- 98:3 فِيهَا كُتُبٌۭ قَيِّمَةٌۭ
+- 98:5 وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ
+- 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+- 109:2 لَآ أَعْبُدُ مَا تَعْبُدُونَ
+- 109:3 وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+- 109:4 وَلَآ أَنَا۠ عَابِدٌۭ مَّا عَبَدتُّمْ
+- 109:5 وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+- 109:6 لَكُمْ دِينُكُمْ وَلِىَ دِينِ

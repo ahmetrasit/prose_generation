@@ -1,0 +1,146 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 110.
+## ح ب ب (لِحُبِّ)
+
+- **B001** tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:6 لِرَبِّهِۦ
+  - near: ث و ر B005 kurutulmuş çökelek parçası / ثورة الأقط: قطعة جامدة ← 100:4 فَأَثَرْنَ
+- **B002** sevgi ve yeğleme / المحبة الملازمة للقلب
+  - same: خ ي ر B001 arzulanan iyilik / الميل إلى الخير النافع ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: ب ع ث ر B001 toprağı çevirip gömülüyü çıkarma; bir şeyi çıkarıp açığa kavuşturma / قلب التراب وكشف المدفون ← 100:9 بُعْثِرَ
+  - near: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+- **B003** övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 100:8 لَشَدِيدٌ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:6 لِرَبِّهِۦ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B004** kalbin içindeki kara öz / حبة القلب سويداؤه
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - near: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+  - near: ع د و B012 eğrilik ve güçlük / العَنْدَأْوَة في الالتواء والعسر ← 100:1 وَٱلْعَٰدِيَٰتِ
+- **B005** devenin güçsüzlükten yerinden ayrılamaması / البعير يلزم مكانه من عجز
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 100:9 يَعْلَمُ
+  - near: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 100:6 لِرَبِّهِۦ
+- **B006** suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 100:8 لَشَدِيدٌ
+  - near: ص ب ح B003 günün başındaki içecek ve içme / الصبوح ← 100:3 صُبْحًا
+  - near: ن ق ع B002 susuzluğu giderme; içe sindirip rahatlama / ماء ينقع الغلة ويروي ← 100:4 نَقْعًا
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:6 لِرَبِّهِۦ
+- **B007** iri küp ve iki kulplu küpün dört parçalı desteği / الحب جرة عظيمة أو موضعها
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:6 لِرَبِّهِۦ
+  - near: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+- **B008** su kabarcıkları, su yüzeyi ve ağaç üzerindeki çiy / حباب الماء فقاقيعه وطرائقه
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: ث و ر B007 su yüzeyini kaplayan yosun / ثور الماء: طحلب يعلو السطح ← 100:4 فَأَثَرْنَ
+  - near: ن ق ع B001 suyun birikmesi ve suda bekletmeye bağlı adlandırmalar / استقرار الماء وما ينقع فيه ← 100:4 نَقْعًا
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:6 لِرَبِّهِۦ
+- **B009** düzenli diş dizisi ve beyaz tükürük parıltısı / حبب الأسنان انتظام كالدرر
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: ق د ح B004 ağaç ve dişte kemirilme ya da çürüme / أكال الشجر والسن ← 100:2 قَدْحًا
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:6 لِرَبِّهِۦ
+  - near: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+- **B010** kısa veya küçük yapılı; develerde cılız / الحبحاب الصغير القصير
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 100:6 لِرَبِّهِۦ
+  - near: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+- **B011** yararsız zayıf kıvılcım veya gece ışıldayan böcek / نار الحباحب شرر لا ينتفع به
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+
+## خ ي ر (ٱلْخَيْرِ)
+
+- **B001** arzulanan iyilik / الميل إلى الخير النافع
+  - same: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - same: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 100:8 لَشَدِيدٌ
+  - near: و س ط B004 iyi ile kötü arasında orta nitelikte / مرتبة وسطى بين الجيد والرديء ← 100:5 فَوَسَطْنَ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+- **B002** iyi ve seçkin olma / فضل الصلاح والاصطفاء
+  - same: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - same: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: و س ط B001 adil ve seçkin orta olma / العدل والخيار في موضع الوسط ← 100:5 فَوَسَطْنَ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+- **B003** daha iyi olanı seçme / طلب الخير بالاختيار والاستخارة
+  - same: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - same: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 100:8 لَشَدِيدٌ
+  - near: و س ط B001 adil ve seçkin orta olma / العدل والخيار في موضع الوسط ← 100:5 فَوَسَطْنَ
+  - near: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B005** cömertlik ve armağan verme / الكرم والهبة
+  - same: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - same: ش د د B006 eli sıkılık / شدة البخل ← 100:8 لَشَدِيدٌ
+  - near: و س ط B001 adil ve seçkin orta olma / العدل والخيار في موضع الوسط ← 100:5 فَوَسَطْنَ
+  - near: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B006** bir geçidi tıkayıp hayvanı yuvasından çıkarma / استدراج الحيوان من جحره
+  - same: ح ب ب B007 iri küp ve iki kulplu küpün dört parçalı desteği / الحب جرة عظيمة أو موضعها ← 100:8 لِحُبِّ
+  - same: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 100:8 لَشَدِيدٌ
+  - near: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ق ب ر B002 gizli, alçakta veya içe gömülü kalma / غموض الشيء وتطامنه ← 100:9 ٱلْقُبُورِ
+  - near: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 100:9 يَعْلَمُ
+
+## ش د د (لَشَدِيدٌ)
+
+- **B001** bağlayıp sağlamlaştırma / شد العقد والوثاق
+  - same: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - same: خ ي ر B001 arzulanan iyilik / الميل إلى الخير النافع ← 100:8 ٱلْخَيْرِ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:6 لِرَبِّهِۦ
+  - near: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: ش ه د B002 bilgiye dayalı tanıklık / البيان بعلم ← 100:7 لَشَهِيدٌ
+- **B002** güç, katılık ve çetinlik / شدة القوة والصلابة
+  - same: ح ب ب B004 kalbin içindeki kara öz / حبة القلب سويداؤه ← 100:8 لِحُبِّ
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ك ن د B002 gördüğü iyiliği bilmezlik / كفران النعمة والمودة ← 100:6 لَكَنُودٌ
+  - near: ص ب ح B006 kızılımsı parlak güzellik / الصُّبْحة والصباحة ← 100:3 صُبْحًا
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:6 لِرَبِّهِۦ
+- **B003** saldırıya atılma ve hızla koşma / شد الحملة والعدو
+  - same: ح ب ب B001 tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب ← 100:8 لِحُبِّ
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ش ه د B001 hazır bulunup görme / الحضور مع المشاهدة ← 100:7 لَشَهِيدٌ
+- **B004** güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد
+  - same: ح ب ب B003 övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة ← 100:8 لِحُبِّ
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ج م ع B009 eksiksiz bütünlük / اكتمال الشيء كله بلا تفرق أو نقص ← 100:5 جَمْعًا
+  - near: ش ه د B006 doğum ve erginlik belirtisi / الخارج عند الولادة والإدراك ← 100:7 لَشَهِيدٌ
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+- **B005** günün ilerleyip yükselmesi / شد النهار وارتفاعه
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - near: ص ب ح B001 günün ilk aydınlığı / الصبح وأول النهار ← 100:3 صُبْحًا
+  - near: ن ق ع B007 ince killi, verimli ve engebesiz düz arazi / نقاع الأرض القيعان السهلة ← 100:4 نَقْعًا
+  - near: ق د ح B010 bir işi düşünüp nasıl yürütüleceğini tasarlamak / اقتداح الأمر بالنظر والتدبير ← 100:2 قَدْحًا
+- **B006** eli sıkılık / شدة البخل
+  - same: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - same: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - near: ش ه د B007 petekli bal / الشَّهْد في الشمع ← 100:7 لَشَهِيدٌ
+  - near: ك ن د B002 gördüğü iyiliği bilmezlik / كفران النعمة والمودة ← 100:6 لَكَنُودٌ
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+

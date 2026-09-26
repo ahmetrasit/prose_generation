@@ -1,0 +1,22 @@
+# local_1.md — 2 items
+
+### L01 word 1: وَٱلْعَٰدِيَٰتِ — lemma عَٰدِيَٰت, root ع د و, pos P;DET;N
+- analysis: oath-opening particle, not ordinary coordination here; it governs the following genitive oath object and compresses an oath formula into one initial letter
+- analysis prose: {{ar:وَ}} ({{tr:wa}}) opens the surah as an oath particle rather than a simple connector. It makes the next word the sworn-by object, leaves the oath verb compressed, and starts a five-clause oath sequence (100:1-5) whose answer arrives later (100:6). Because the particle is joined in recitation to {{ar:ٱلْعَٰدِيَٰتِ}} ({{tr:al-'ādiyāti}}), the grammar and sound both launch the rushing image as one tight oath unit.
+  - topic [used]: oath particle governs the sworn object
+  - topic [used]: compressed oath verb and delayed answer
+  - topic [used]: particle fuses audibly with the oath image
+- root ع د و branches: B001 hakkı aşan saldırganlık / مجاوزة الحد والظلم; B002 yaya ya da atla koşma / العَدْو والحَضْر; B003 düşmanlık ve düşman / العَدُوّ والعداوة; B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف; B005 yetkiliden hakkını almasını isteme / العَدْوى في طلب الإنصاف; B006 hastalığın bulaşması / العَدْوى في انتقال الداء; B007 işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة; B008 iki avı peş peşe ele geçirme / العِداء في تعاقب الصيد; B009 boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار; B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه; B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف; B012 eğrilik ve güçlük / العَنْدَأْوَة في الالتواء والعسر
+- echo root (sound family, not identity) ع د د branches: B001 sayma, sayı ve sayıya göre bir topluluğa katma / إحصاء المعدود; B002 gelecekteki bir iş için hazırlama ve hazır bulundurma / تهيئة العدة; B003 sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi / مدة العدة المعدودة; B004 kaynağı kesilmeyen kalıcı su ve su yeri / الماء العد; B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته; B006 karşılıklı paydaşlık, pay ve denk sayılma / نظير يعد مع غيره
+- echo root (sound family, not identity) ع و د branches: B001 geri dönme ve yeniden yapma / رجوع بعد انصراف وتثنية بعد بدء; B002 dönüş yeri ve son varış / مصير ومرجع ومعاد; B003 tek söz söylememek / سكوت لا يبدئ ولا يعيد; B004 tekrarla alışkanlık ve yatkınlık kazanma / عادة ودرَبة ومواظبة; B005 hasta veya yas ziyareti / عيادة ومعادة وزيارة راجعة; B006 kişiye dönen yarar ve iyilik / عائدة ومعروف يرجع; B007 yeniden gelen özel gün veya hâl / عيد وحال يعاود; B008 gücü kalmış yaşlı deve / عود مسن فيه بقايا قوة; B009 eski yol ve köklü geçmiş / قدم وطريق عود; B010 tahta parçası, tütsülük odun veya telli çalgı / عود من خشب وطيب وآلة; B012 biçime bağlı adlandırmalar / عاد وأعلام منسوبة إليها
+
+### L02 word 2: ضَبْحًا — lemma ضَبْح, root ض ب ح, pos N
+- analysis: the definite feminine plural active participle naming the charging or running ones as an oath object; the local sense selects kinetic motion while retaining an adversarial and boundary-crossing pressure
+- analysis prose: {{ar:ٱلْعَٰدِيَٰتِ}} ({{tr:al-'ādiyāti}}) is the first content word of the oath, and it names a class by action rather than by species: the charging or running ones. Its genitive case makes that moving class the sworn-by object, while the feminine plural and definiteness make the group recognizable without forcing the reader to choose horses, camels, warriors, or another referent at this layer. The root {{ar:ع د و}} ({{tr:'-d-w}}) selects motion here, but its enemy, aggression, and exceeding-bounds field keeps the rush from sounding neutral. The variant {{ar:ٱلْغَادِيَٰتِ}} ({{tr:al-ghādiyāti}}) would move the line toward dawn-going, so the standard wording foregrounds charge before time; t…
+  - topic [used]: action-class stands as the sworn object
+  - topic [used]: definite feminine plural leaves the referent open
+  - topic [narrowed]: motion is selected with hostile edge
+  - topic [used]: variant redirects the oath toward dawn-going
+  - topic [used]: extended participle rushes into clipped breath
+  - topic [used]: first participle teaches the next oath images
+- root ض ب ح branches: B001 tilki sesi ve ona benzetilen sesler / صوت الضباح; B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين; B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود; B004 siyaha doğru kararma / تغير اللون إلى السواد; B005 kül / الرماد

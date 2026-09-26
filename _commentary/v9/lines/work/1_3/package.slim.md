@@ -1,0 +1,564 @@
+# Quranic usage and related passages for 1:3
+
+What the discovery stage found about this ayah's words and scenes elsewhere in the Quran: how each root is
+used across its occurrences (ids U-..) and passages related by shared wording, people or formula (ids R-..,
+and X records): readings, open observations (a precise link whose decisive support is missing), notes and
+misreadings. `support` says how well the sources establish a record; `relevance` how much it could change
+the reading; nothing here is filtered by them. Section 3 is the text of the cited ayat outside the surah
+and the Fatiha (both are in context.md).
+
+## 2. Discovery lines
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+2 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-رحم** [reading; support medium, relevance high] root ر ح م (focus word ٱلرَّحْمَٰنِ: رَّحْمَٰن ADJ) — 339 occurrences in 313 ayat; same form 12, other forms 327
+  - finding: In 25:63, ٱلرَّحْمَٰنِ names a community of servants who walk humbly and answer ignorance with peace; in 43:36, it is the name one may turn away from remembering. Since the paired name ٱلرَّحْمَٰنِ ٱلرَّحِيمِ in 1:3 leads into the communal declaration إِيَّاكَ نَعْبُدُ in 1:5, the title can be heard as grounding both belonging and remembrance before worship.
+  - evidence: 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 25:63 «وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًۭا»; 43:36 «وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ»; 1:5 «إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ»
+  - activation: The pair at 1:3 and the plural worship declaration at 1:5 activate these uses of the name in communal belonging and remembrance.
+  - limits: These passages do not identify al-Fatiha’s worshippers with the servants described in 25:63 or show that 1:3 prescribes their conduct.
+- **usage_1.X1** [reading; support medium, relevance high] 
+  - finding: The same basmala pair appears in Sulayman’s letter at 27:30, introduced as a message from Sulayman. Al-Fatiha repeats the pair at 1:1 and again at 1:3, immediately before 1:4 names the Malik of Judgment; this lets ٱلرَّحْمَٰنِ resonate in a register of address and sovereignty as well as praise.
+  - evidence: 1:1 «بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:3 «ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 27:30 «إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ»; 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»
+  - activation: The exact formula recurs in the royal letter, and in al-Fatiha the repeated pair directly precedes the reference to divine kingship.
+  - limits: The shared formula does not establish an allusion to Sulayman’s letter; that passage has a human royal sender, while 1:4 names divine rule.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+230 readings and open observations, 9 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 13}.
+
+- **R-1:1** [reading] The pair in 1:3 repeats the basmala verbatim, now after praise of Allah as Lord of all worlds; the names move from invocation into the praise sequence. (1:1, 1:2, 1:3)
+- **R-1:2** [reading] The genitive sequence carries praise from Allah to Rabb al-ʿālamīn, al-Rahman al-Rahim, and Malik of the Day of Recompense; the mercy names qualify the Lord before the judgment title. (1:2, 1:3, 1:4)
+- **R-1:4** [reading] The Day of Recompense follows directly after the mercy names, placing judgment within the same divine portrait as mercy. (1:3, 1:4)
+- **R-2:37** [reading] After Adam receives words and God turns to him, ٱلرَّحِيمُ closes التَّوَّابُ الرَّحِيمُ; the focus’s final name thus has a Quranic association with divine response after a fall. (1:3, 2:37)
+- **R-2:54** [reading] After the calf episode and a severe communal call to repentance, the formula ends with ٱلتَّوَّابُ ٱلرَّحِيمُ; here Rahim accompanies acceptance after collective breach and reparation. (1:3, 2:54)
+- **R-2:105** [reading] The mercy root appears in a statement that God singles out whomever He wills for His mercy, making selective bestowal one Quranic articulation of the focus’s mercy field. (1:3, 2:105)
+- **R-2:128** [reading] Abraham and Ishmael’s plea for submission, rites, and turning back ends by naming God التَّوَّابُ الرَّحِيمُ; the focus’s Rahim also appears in a prayer for communal return. (1:3, 2:128)
+- **R-2:143** [reading] In the qibla passage, Allah promises not to waste the community’s faith and is called رَءُوفٌ رَّحِيمٌ; Rahim also appears with a different companion in a setting of communal direction and trial. (1:3, 2:143)
+- **R-2:160** [reading] The exception for those who repent, reform, and clarify ends with وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ; Rahim is linked here to return joined with repair and disclosure. (1:3, 2:160)
+- **R-2:163** [reading] The exact pair follows the declaration that there is no deity but Him; in this passage, the mercy names belong to the confession of the one God. (1:3, 2:163)
+- **R-2:192** [reading] When the opposing party ceases, the verse names God غَفُورٌ رَّحِيمٌ; Rahim appears in a conditional setting of ending hostilities. (1:3, 2:192)
+- **R-2:218** [reading] Believers who believe, migrate, and strive hope for Allah’s mercy, followed by غَفُورٌ رَّحِيمٌ; mercy is sought amid costly commitment. (1:3, 2:218)
+- **R-3:8** [reading] After asking God not to let hearts deviate after guidance, the speakers ask for mercy as a gift; the mercy field is something the guided still need to receive. (1:3, 3:8)
+- **R-3:74** [reading] يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ repeats almost verbatim the formula in 2:105; selective bestowal is a recurring Quranic articulation of mercy. (1:3, 2:105, 3:74)
+- **R-3:89** [reading] After a threat of lasting punishment, the exception is those who repent and reform, followed by غَفُورٌ رَّحِيمٌ; Rahim accompanies a reopening after changed conduct. (1:3, 3:88, 3:89)
+- **R-3:107** [reading] In the contrast of the two groups on the Day of Resurrection, the saved remain forever in Allah’s mercy; mercy appears as a lasting destination. (1:3, 3:106, 3:107)
+- **R-3:132** [reading] Obedience to Allah and the Messenger is followed by the hope that the people may receive mercy; the focus’s mercy names thus have an ethical horizon in addition to praise. (1:3, 1:5, 3:132, 3:133)
+- **R-3:159** [reading] Allah’s mercy is made visible as the Prophet’s gentleness; the verse contrasts harshness, which would scatter people, with pardon, seeking forgiveness, and consultation. (1:3, 3:159)
+- **R-4:96** [reading] After distinguishing the striving believers, the passage names degrees, forgiveness, and mercy, then calls Allah غَفُورًا رَّحِيمًا; mercy is included in an account of reward and standing. (1:3, 1:4, 4:96)
+- **R-4:106** [reading] An instruction to seek Allah’s forgiveness is followed by غَفُورًا رَّحِيمًا amid correction concerning advocacy for betrayers; Rahim appears alongside admonition and a call to seek pardon. (1:3, 4:105, 4:106)
+- **R-4:113** [reading] Favor and mercy protect the Prophet from a group’s attempt to mislead him; the passage then names revelation, wisdom, and teaching as gifts. With 4:83, mercy recurs as protection from deviation and a setting for knowledge. (1:3, 4:83, 4:113)
+- **R-4:175** [reading] Those who believe and hold fast to God enter His mercy and favor and are guided to a straight path; this joins the focus’s mercy field to Fatiha’s ensuing request for guidance. (1:3, 1:6, 4:175)
+- **R-5:74** [reading] After rejecting a claim that makes God one of three, the passage asks whether its speakers will repent and seek forgiveness, then calls Allah غَفُورٌ رَّحِيمٌ; mercy remains named beside an invitation to return from grave error. (1:3, 5:73, 5:74)
+- **R-6:12** [reading] Allah has written mercy upon Himself immediately before a statement of gathering people for the Day of Resurrection; this joins self-committed mercy to the judgment horizon that follows the focus in Fatiha. (1:3, 1:4, 6:12)
+- **R-6:16** [reading] Being turned away from punishment on that Day is explicitly described as having been shown mercy; the verse gives mercy a concrete relation to judgment, which follows the focus in Fatiha. (1:3, 1:4, 6:16)
+- **related_1.X1** [reading] Across repentance scenes, ٱلرَّحِيمُ is the stable final epithet in ٱلتَّوَّابُ ٱلرَّحِيمُ; in the focus it also closes a pair, while ٱلرَّحْمَٰنُ supplies a different first name. This gives Rahim a recurring return-oriented resonance without making the focus pair a repentance formula. (1:3, 2:37, 2:54, 2:160)
+- **R-6:54** [reading] The focus names mercy; 6:54 describes it as something the Lord has bound upon Himself, then joins pardon and رحيم to repentance after wrongdoing. This gives the focus’s mercy-name a concrete form as welcome and restored relation. (6:54)
+- **R-6:133** [reading] God is called both self-sufficient and possessor of mercy, with the power to replace a people. In the Fatiha, the mercy names follow رب العالمين; this pairing lets them be heard under sovereign lordship, without implying need or inability to judge. (1:2, 6:133)
+- **R-6:147** [reading] Mercy is explicitly called vast alongside a force that cannot be turned away from wrongdoers. This keeps the Fatiha’s mercy names together with its next designation, Master of the Day of Judgment: mercy and consequence belong in the same account of God. (6:147, 1:4)
+- **R-6:154** [reading] Here mercy accompanies a book that gives guidance and detail, with belief in meeting the Lord as its aim. Since the Fatiha soon asks for guidance, its mercy names can be heard as framing guidance as one way divine mercy reaches people. (6:154, 1:6)
+- **R-7:49** [reading] The scene reverses a human verdict about who could receive mercy: those people enter Paradise despite others’ sworn claim that God would not reach them with it. The focus names mercy without naming its recipients, while this passage shows how mistaken human limits on it can be. (7:49)
+- **R-7:56** [reading] The passage describes God’s mercy as near to the doers of good, in a setting that calls for both fear and hope. The focus’s paired names can therefore be heard as an invitation to approach God with both trust and moral seriousness. (7:56)
+- **R-7:72** [reading] Mercy here rescues Noah and those with him while the deniers are cut off. Read before the Fatiha’s Master of the Day of Judgment, the focus’s mercy names can frame mercy as deliverance that also distinguishes between outcomes. (7:72)
+- **R-7:151** [reading] Moses asks to be admitted, with his brother, into God’s mercy and calls Him the most merciful of those who show mercy. This makes the focus’s paired names sound like more than descriptions: they are qualities to which a person can appeal after a fractured family encounter. (7:151)
+- **R-7:153** [reading] After wrongdoing, repentance, and belief, the Lord is called forgiving and رحيم. The shared epithet shows mercy working with forgiveness and return; it gives a possible response to the focus’s placement before the Fatiha’s Day of Judgment. (7:153)
+- **R-7:154** [reading] The tablets contain guidance and mercy for people who fear their Lord, after Moses’s anger has subsided. This joins mercy to revealed instruction and reverence, resonating with the Fatiha’s later requests for guidance and its address to the Master of Judgment. (7:154)
+- **R-7:156** [reading] The claim that mercy encompasses every thing is followed by the decision to write it for people described by their piety, almsgiving, and belief. This lets the focus’s mercy names hold broad scope together with differentiated reception, rather than implying identical outcomes for all. (7:156)
+- **R-7:180** [reading] The passage says God’s beautiful names are to be used in calling upon Him. The focus’s definite mercy names in a recited prayer can thus be heard as names that orient invocation, not just as praise spoken before prayer. (7:180)
+- **R-7:203** [reading] In response to a demand for a sign, revelation is described as insight, guidance, and mercy for believers. The focus’s mercy names can therefore frame Quranic guidance as a form of mercy received by those who believe. (7:203)
+- **R-8:75** [reading] The word ٱلْأَرْحَامِ names kinship ties and shares the focus’s root ر ح م. Its claim that relatives have priority over one another makes the root’s bodily and relational associations live beside the divine mercy names. (8:75)
+- **R-9:21** [reading] Mercy is announced as part of the promised welcome to people who believe, migrate, and strive, alongside divine approval and lasting gardens. This gives the focus’s mercy names an eschatological horizon that fits their position before the Fatiha’s Day of Judgment. (9:21)
+- **R-9:27** [reading] After tranquility for the believers and punishment for the disbelievers, God turns in mercy to whom He wills and is called forgiving, رحيم. Mercy here follows a divided outcome, keeping it in view beside the Fatiha’s coming judgment. (9:26, 9:27)
+- **R-9:99** [reading] Believing people regard their spending as nearness and the messenger’s prayers as blessing; God then admits them into His mercy and is called forgiving, رحيم. This gives the focus’s mercy names a concrete path of approach through faith and giving. (9:99)
+- **R-9:104** [reading] God’s acceptance of repentance and taking of charities are summarized by the names the Oft-Returning and رحيم. This pairs mercy with receiving people’s return and offerings, rather than leaving it as an abstract quality. (9:104)
+- **R-9:117** [reading] After a difficult campaign and hearts nearly turning away, God accepts the return of the Prophet, emigrants, and helpers, and is called compassionate and رحيم. The additional name رؤوف gives the focus’s رحيم a close companion of tenderness in a setting of strain and faltering. (9:117)
+- **R-9:118** [reading] The three left behind reach a point where the wide earth and their own selves feel constricted, with no refuge from God except in Him; then He accepts their return. The focus’s رحيم can be heard against this movement from isolation to renewed relation. (9:118)
+- **R-9:128** [reading] The messenger is described as compassionate and رحيم toward believers. The shared رحيم shows that the focus’s name also has a shareable quality expressed in human care, while remaining a divine name in the Fatiha. (9:128)
+- **R-10:21** [reading] People taste mercy after hardship, then scheme against God’s signs, whose recorders write what they do. The Fatiha’s placement of mercy just before the Day of Judgment makes this a pointed reminder that receiving mercy does not erase accountability. (10:21, 1:4)
+- **R-10:86** [reading] The Fatiha places its mercy names before “You alone we ask for help”; Moses and Aaron’s prayer gives that dependence the form of asking for rescue by God’s mercy. (1:5, 10:85, 10:86)
+- **R-10:107** [reading] God alone removes harm and no one can repel His favor; He is then called forgiving and رحيم. This places mercy beside exclusive divine agency, reinforcing the force of the focus’s address to God before the Fatiha’s worship and appeal. (10:107)
+- **R-11:90** [reading] The call to seek forgiveness and turn to God is followed by the names رحيم and ودود, joining mercy to loving regard. The focus’s رحيم can therefore be heard with a relational warmth that invites return. (11:90)
+- **R-11:119** [reading] Against the statement that people continue to differ and the following declaration about Hell, those shown mercy by the Lord are set apart. This makes the focus’s mercy names resonate with a real distinction in outcome before the Fatiha names judgment. (11:118, 11:119)
+- **R-12:18** [reading] The Fatiha’s mercy names lead into its communal plea for help; Jacob’s response to his sons’ false account supplies a scene for that dependence. He chooses beautiful patience and says God is the one from whom help is sought. (1:5, 12:18)
+- **R-12:56** [reading] After Joseph’s appointment over the land, the speaker says that divine mercy is bestowed on whom God wills and that the reward of the good is not lost. This shows mercy as active providence and reward, while leaving the focus’s broad names without a single fixed mode of action. (12:55, 12:56)
+- **R-12:64** [reading] After human guardianship failed Joseph, Jacob questions his sons’ new promise and says God is the best guardian and most merciful. The focus’s mercy names can be heard as ground for trust when family care is uncertain. (12:63, 12:64)
+- **R-12:92** [reading] Yūsuf releases his brothers and invokes God as أَرْحَمُ ٱلرَّٰحِمِينَ; this makes the focus’s mercy names audible beside a human act of forgiveness. (1:3, 12:92)
+- **R-12:98** [reading] The paired predicate ٱلْغَفُورُ ٱلرَّحِيمُ links al-Raḥīm to forgiveness deferred until a later appeal for the brothers. (1:3, 12:97, 12:98)
+- **R-13:30** [reading] The name al-Raḥmān is explicitly rejected by one audience and affirmed by the Prophet as his Lord, linking the focus’s name to contested recognition and worship. (1:3, 13:30)
+- **R-14:36** [reading] After distinguishing followers from those who disobey, Abraham addresses God as غَفُورٌ رَّحِيمٌ; al-Raḥīm is thus paired with forgiveness even in a prayer about disobedience. (1:3, 14:36)
+- **R-15:49** [reading] The same epithet al-Raḥīm closes a declaration of forgiveness, immediately before an announcement of painful punishment; mercy and warning occupy adjacent verses. (1:3, 15:49, 15:50)
+- **R-16:7** [reading] The epithet رَّحِيمٌ describes the Lord in a scene of carrying human burdens toward a destination unreachable without hardship; mercy here accompanies practical provision. (1:3, 16:7)
+- **R-16:18** [reading] The pairing ٱلْغَفُورٌ رَّحِيمٌ follows the claim that God’s blessings cannot be counted, tying al-Raḥīm to both abundant benefaction and human need for forgiveness. (1:3, 16:18)
+- **R-17:24** [reading] The root ر ح م moves from the focus’s divine name al-Raḥīm to a human posture of tenderness toward parents and a prayer that God show them mercy. (1:3, 17:24)
+- **R-17:57** [reading] Those who seek nearness to their Lord both hope for His mercy and fear His punishment; this joins mercy to accountability, as the Fātiḥa moves from its mercy names to the Day of Judgment. (1:3, 1:4, 17:57)
+- **R-17:66** [reading] The Lord is called merciful while enabling travel and the pursuit of provision; the next verse sets this favor beside human ingratitude. (17:66, 17:67)
+- **R-17:87** [reading] The preservation of what was revealed is attributed to mercy from the Lord, making continued access to revelation a particular form of favor. (1:3, 17:86, 17:87)
+- **R-17:100** [reading] The Lord’s mercy is pictured as stores humans would hoard if they controlled them; the contrast gives the focus’s expansive mercy a sharp human foil. (1:3, 17:100)
+- **R-17:110** [reading] Al-Raḥmān is named as one of the beautiful names to invoke in prayer; the verse also regulates how prayer is voiced. (1:1, 1:3, 17:110)
+- **R-18:10** [reading] The youths’ prayer asks for mercy and right guidance together, closely echoing the Fātiḥa’s mercy names before its request for the straight path. (1:3, 1:6, 18:10)
+- **R-18:16** [reading] The youths’ earlier request for mercy and right direction is followed by instruction to seek refuge, with the promise that their Lord will spread mercy and prepare ease for them. (18:10, 18:16)
+- **R-18:58** [reading] The Lord is called forgiving and possessor of mercy while judgment is delayed; mercy here coexists with a fixed appointment for punishment. (1:3, 1:4, 18:58)
+- **R-18:81** [reading] The replacement promised for the parents is described as أَقْرَبَ رُحْمًا; the following explanation names protection of the orphans’ treasure as mercy from the Lord, extending the same root across two acts of family care. (18:81, 18:82)
+- **R-18:82** [reading] Protecting the orphan boys’ treasure until they mature is explicitly called mercy from the Lord, a concrete instance of mercy involving delayed preservation. (1:3, 18:82)
+- **R-18:98** [reading] A protective barrier is called mercy from the Lord, but its protection is temporary and ends when the Lord’s promise arrives. (18:98)
+- **R-19:18** [reading] Mary invokes al-Raḥmān as refuge from a man who has appeared to her; the same name that marks mercy functions here in a plea for safety. (1:3, 19:18)
+- **R-19:44** [reading] Satan is described as disobedient to al-Raḥmān, placing the focus’s mercy-name within a relation of commanded obedience. (1:3, 19:44)
+- **R-19:45** [reading] Abraham warns of punishment coming from al-Raḥmān; the name associated with mercy in the focus is also named as the source of punishment. (1:3, 19:45)
+- **R-19:50** [reading] After Abraham withdraws from his people, God gives his family from divine mercy and grants them lasting good mention; mercy includes gifts and an enduring place in speech. (19:49, 19:50)
+- **R-19:53** [reading] Moses receives Aaron as a prophetic brother from divine mercy, presenting companionship and shared prophetic work as a bestowed favor. (19:53)
+- **R-19:69** [reading] The most defiant members of each group are singled out for punishment because of their opposition to al-Raḥmān; the name marks a line of accountability in this surah. (19:44, 19:69)
+- **R-19:78** [reading] A claimant who boasts of future wealth and children is challenged over whether he has a covenant with al-Raḥmān; later, the surah mentions a covenant with al-Raḥmān as the condition for intercession. The repeated wording contrasts presumed entitlement with a stated condition. (19:78, 19:87)
+- **R-19:85** [reading] The mindful are gathered to al-Raḥmān as an honored delegation, immediately contrasted with criminals driven to Hell; the name belongs in a scene of both welcome and separation. (19:85, 19:86)
+- **R-19:87** [reading] Intercession is unavailable as a free-standing power: the verse restricts it to one who has a covenant with al-Raḥmān. (1:3, 19:87)
+- **R-19:88** [reading] The surah reports the claim that al-Raḥmān has taken a child, then answers that all who are in the heavens and earth come to Him as servants; this frames the name against a claim of divine parenthood. (19:88, 19:92, 19:93)
+- **R-19:91** [reading] The claim of a child for al-Raḥmān is presented as the cause of cosmic distress: the heavens nearly tear, the earth splits, and the mountains fall. (19:90, 19:91)
+- **R-19:92** [reading] The surah explicitly says it is not fitting for al-Raḥmān to take a child, placing a boundary against reading the focus’s mercy-name as implying divine parenthood. (19:92, 19:93)
+- **R-19:93** [reading] Every being in heaven and earth comes to al-Raḥmān as a servant; this joins the focus’s mercy-name to universal lordship and service. (1:2, 1:3, 19:93)
+- **R-19:96** [reading] Al-Raḥmān will create affection for those who believe and do good, giving the name a communal outcome tied to faithful action. (19:96)
+- **R-20:5** [reading] The name al-Raḥmān appears in a statement about the Throne; beside the Fātiḥa’s Lord of all worlds and King of Judgment, it places the mercy-name within a sovereignty frame. (1:2, 1:3, 1:4, 20:5)
+- **R-20:90** [reading] Aaron names al-Raḥmān as the community’s Lord and immediately commands them to follow and obey him, joining the name to exclusive worship and obedience. (1:3, 1:5, 20:90)
+- **R-20:108** [reading] On the Day of Judgment, voices are humbled to al-Raḥmān and only a whisper is heard; the mercy-name appears in a scene of awe and silence. (1:3, 1:4, 20:108)
+- **R-20:109** [reading] Intercession on that day benefits only those whom al-Raḥmān permits and whose speech He approves, setting a condition on access to intercession. (1:3, 1:4, 20:109)
+- **R-21:26** [reading] A claim that al-Raḥmān has taken a child is answered with exaltation and the description of those concerned as honored servants, a direct cross-surah parallel to the correction in 19:92–93. (19:92, 19:93, 21:26)
+- **R-21:42** [reading] Al-Raḥmān is named as the one who keeps people through night and day, while they turn away from their Lord’s remembrance; protection persists alongside heedlessness. (21:42)
+- **R-21:75** [reading] Lot is said to have been brought into divine mercy after rescue from a corrupt town; mercy is pictured as an interior one may be admitted into. (21:74, 21:75)
+- **R-21:83** [reading] Job calls on his Lord as أَرْحَمُ ٱلرَّٰحِمِينَ; the next verse answers with relief and restoration, so the superlative appeal is followed by a narrated response of mercy. (21:83, 21:84)
+- **related_3.X1** [reading] The focus repeats the exact mercy pair from the opening basmala after the verse praising the Lord of all worlds, making the pair both an opening invocation and a return within the Fātiḥa. (1:1, 1:2, 1:3)
+- **R-21:84** [reading] Ayyub names God as أَرْحَمَ ٱلرَّٰحِمِينَ, and the answer is relief, restored family, and a reminder; mercy is shown as an answered appeal with concrete effects. (1:3, 21:83, 21:84)
+- **R-21:86** [reading] The righteous are brought into divine mercy as a place of admission, making the focus’s mercy names concrete in the language of welcome. (1:3, 21:86)
+- **R-21:107** [reading] The focus’s mercy names have a public counterpart here: the Prophet’s sending is itself described as mercy for all worlds. (1:3, 21:107)
+- **R-21:112** [reading] The name ٱلرَّحْمَٰنُ appears in a plea for judgment by truth, with God called the one sought for aid against others’ descriptions; mercy and adjudication occupy the same appeal. (1:3, 21:112)
+- **R-23:75** [reading] The counterfactual وَلَوْ رَحِمْنَٰهُمْ joins mercy and relief to continued transgression, complicating any expectation that receiving relief necessarily reforms its recipients. (1:3, 23:75)
+- **R-23:76** [reading] The adjacent sequence shows both hypothetical relief and actual punishment failing to produce humility in this group, setting a limit on what a reader can infer about recipients’ response from the focus’s mercy names. (1:3, 23:75, 23:76)
+- **R-23:109** [reading] The prayer separates فَٱغْفِرْ لَنَا from وَٱرْحَمْنَا, then calls God the best of the merciful; the focus’s paired mercy names meet a supplication that asks for mercy alongside forgiveness. (1:3, 23:109)
+- **R-23:118** [reading] The closing command to pray moves from calling God Lord to asking forgiveness and mercy, then names Him best of the merciful; the focus’s praise has a direct counterpart in petition. (1:3, 23:118)
+- **R-24:20** [reading] The exact phrase ٱللَّهَ رَءُوفٌۭ رَّحِيمٌۭ follows the warning about spreading scandal, placing the focus’s second name in a communal setting of restraint and mercy. (1:3, 24:19, 24:20)
+- **R-24:21** [reading] The repeated favor-and-mercy condition is followed by مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا: purification in the community is presented as dependent on divine favor and mercy. (1:3, 24:20, 24:21)
+- **R-24:22** [reading] The appeal to forgive and overlook others is grounded in the question أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ and ends with غَفُورٌۭ رَّحِيمٌ; divine mercy is set beside a human practice of pardon. (1:3, 24:22)
+- **R-25:26** [reading] The sovereignty of that day is assigned to ٱلرَّحْمَٰنِ, while the same day is described as hard for disbelievers; the focus’s first name is directly present in a judgment scene. (1:3, 25:26)
+- **R-25:48** [reading] Winds are sent as good news before divine mercy, and the next verse identifies water that revives dead land; mercy is pictured as a precursor to renewal and provision. (1:3, 25:48, 25:49)
+- **R-25:60** [reading] The hearers answer the command to prostrate to ٱلرَّحْمَٰنُ by questioning the name and refusing; this supplies a scene of resistance to the very name recited in the focus. (1:3, 25:60)
+- **R-25:63** [reading] The servants identified with ٱلرَّحْمَٰنِ are characterized by humility on earth and peaceful replies to ignorant speakers, giving the name a visible social conduct in this passage. (1:3, 25:63)
+- **R-26:5** [reading] A new reminder from ٱلرَّحْمَٰنِ is met with turning away, placing the name in a scene where mercy’s message reaches people who reject it. (1:3, 26:5)
+- **R-26:9** [reading] The surah’s repeated refrain pairs ٱلرَّحِيمُ with ٱلْعَزِيزُ after the statement that most did not believe; at the threshold of Moses’ story, mercy is voiced alongside might. (1:3, 26:8, 26:9, 26:10)
+- **R-26:68** [reading] The ٱلْعَزِيزُ ٱلرَّحِيمُ refrain returns after another sign-and-unbelief statement, closing the Moses section before Abraham’s account begins. (1:3, 26:67, 26:68, 26:69)
+- **R-26:104** [reading] The same Mighty-Merciful formula closes Abraham’s account after the sign and the note that most did not believe, making the second name part of the surah’s recurring prophetic refrain. (1:3, 26:103, 26:104, 26:105)
+- **R-26:122** [reading] After Noah’s sign and the repeated observation that most were not believers, ٱلرَّحِيمُ again closes the unit in the paired title ٱلْعَزِيزُ ٱلرَّحِيمُ. (1:3, 26:121, 26:122, 26:123)
+- **R-26:140** [reading] Here the refrain follows an explicit report that the people of ʿĀd were destroyed, then the sign-and-unbelief formula; ٱلرَّحِيمُ is voiced in the narrative sequence that includes judgment. (1:3, 26:139, 26:140, 26:141)
+- **R-26:159** [reading] After the people are overtaken by punishment, the refrain names the Lord ٱلْعَزِيزُ ٱلرَّحِيمُ; the surah places mercy beside an explicit punishment outcome. (1:3, 26:158, 26:159, 26:160)
+- **R-26:175** [reading] The refrain ٱلْعَزِيزُ ٱلرَّحِيمُ appears after the sign-and-unbelief formula for the companions of the thicket, extending the surah’s repeated pairing of might and mercy across another prophetic account. (1:3, 26:174, 26:175, 26:176)
+- **R-26:191** [reading] At the close of the prophetic sign-and-unbelief sequence, the refrain again names ٱلرَّحِيمُ; the next ayah identifies the Qur’an as a revelation from the Lord of the worlds, carrying the title into the revelation passage. (1:3, 26:190, 26:191, 26:192)
+- **R-26:217** [reading] The command to rely on ٱلْعَزِيزِ ٱلرَّحِيمِ joins the focus’s second name to reliance on God after the Prophet is told to disassociate from disobedient people. (1:3, 26:216, 26:217)
+- **R-27:19** [reading] Solomon asks to be admitted among the righteous by divine mercy after praying to give thanks and do pleasing work; mercy is sought as the means of belonging to that community. (1:3, 27:19)
+- **R-27:30** [reading] Solomon’s letter contains the focus’s exact pair in the basmala, making these names part of the written address that precedes his command to the Queen. (1:1, 1:3, 27:30)
+- **R-27:63** [reading] Guidance through land and sea darkness and the sending of winds before divine mercy are presented as signs in a repeated challenge to name any god alongside Allah; mercy is embedded in an argument for divine oneness. (1:3, 27:63)
+- **R-27:77** [reading] The Qur’an itself is called guidance and mercy for believers, giving the focus’s names a counterpart in the revealed message and its audience. (1:3, 27:76, 27:77)
+- **R-28:16** [reading] After Moses confesses wrongdoing and asks forgiveness, the verse says he was forgiven and names God غَفُورٌ ٱلرَّحِيمُ; the focus’s second name accompanies a specific act of forgiveness. (1:3, 28:16)
+- **R-28:43** [reading] The Book given to Moses is described as insight, guidance, and mercy for people, making revelation itself a means by which divine mercy reaches an audience. (1:3, 28:43)
+- **R-28:46** [reading] The Prophet’s access to the account of Moses is called mercy from his Lord and is directed toward warning people who had no prior warner, linking mercy with warning rather than silence about consequence. (1:3, 28:46)
+- **R-28:73** [reading] Night and day are gifts from divine mercy that enable rest, seeking bounty, and gratitude, grounding the mercy named in the focus in the recurring structure of human life. (1:3, 28:73)
+- **R-28:86** [reading] The Book’s arrival to the Prophet is called mercy from his Lord, immediately followed by a warning not to support disbelievers; mercy here accompanies a demanding commission. (1:3, 28:86)
+- **R-29:21** [reading] The verse places يَرْحَمُ beside يُعَذِّبُ, both governed by مَن يَشَآءُ, and ends with return to God; mercy in this passage sits within a frame of will and accountability. (1:3, 29:21)
+- **R-29:23** [reading] Those who reject God’s signs and meeting are said to despair of His mercy and face painful punishment; the focus’s mercy names have a sharp counterpart in the possibility of being cut off from hope in mercy. (1:3, 29:23)
+- **R-29:51** [reading] The revealed Book, recited to its audience, is called mercy and reminder for believers; the focus’s names thus meet a description of revelation’s effect. (1:3, 29:51)
+- **R-30:5** [reading] The victory granted by God is followed by ٱلْعَزِيزُ ٱلرَّحِيمُ; the focus’s second name appears alongside divine aid in a political conflict. (1:3, 30:5)
+- **related_4.X1** [reading] The focus repeats the exact mercy pair from the opening basmala, creating a return to the opening formula after the praise of the Lord of the worlds. (1:1, 1:2, 1:3)
+- **R-30:46** [reading] The mercy named in the focus is given a tangible scene: winds announce benefit, ships travel by God’s command, and people seek His bounty. (1:3, 30:46)
+- **R-30:50** [reading] The names of mercy can be heard beside its visible traces: rain revives dead land, which the verse then presents as a sign of God’s power to revive the dead. (1:3, 30:50)
+- **R-32:6** [reading] Al-Rahim also appears outside the focus’s al-Rahman–al-Rahim pair: here it follows the description of God as knower of the unseen and witnessed and al-Aziz. (1:3, 32:6)
+- **R-33:43** [reading] Al-Rahim is contextualized as mercy toward believers, expressed through bringing them from darkness to light. (1:3, 33:43)
+- **R-35:2** [reading] The focus’s mercy names can be read beside a sharp claim about agency: whatever mercy God opens cannot be withheld, and whatever He withholds cannot be sent by another. (1:3, 35:2)
+- **R-36:5** [reading] Al-Rahim qualifies the source of revelation’s descent, giving the focus’s mercy name a role in the arrival of scripture. (1:3, 36:5)
+- **R-36:11** [reading] Al-Rahman is named in connection with fear of God in the unseen, followed by good news of forgiveness and a generous reward. (1:3, 36:11)
+- **R-36:15** [reading] In the messengers’ town scene, opponents themselves name al-Rahman while denying that He sent anything; the mercy title appears in a contested claim about revelation. (1:3, 36:15)
+- **R-36:23** [reading] Al-Rahman is invoked as the one who may will harm, while the idols cannot avert it or rescue the speaker; the name stands beside sovereign power as well as mercy. (1:3, 36:23)
+- **R-36:44** [reading] After describing a drowning from which no one could rescue people, the text makes mercy the exception and pairs it with enjoyment limited to a term. (1:3, 36:43, 36:44)
+- **R-36:45** [reading] Mercy is a possible outcome held before those addressed as they are urged to guard against what lies ahead and behind them. (1:3, 36:45)
+- **R-36:51** [reading] The resurrection scene moves from the dead rising toward their Lord to their recognition that al-Rahman had promised this event and the messengers spoke truth. (1:3, 36:51, 36:52)
+- **R-36:52** [reading] People confronted with their awakening name al-Rahman as the promiser and affirm the messengers, placing the mercy title in a moment of eschatological recognition. (1:3, 36:52)
+- **R-36:58** [reading] Al-Rahim’s speech is itself a greeting of peace in the garden, immediately contrasted with the command that criminals separate out. (1:3, 36:58, 36:59)
+- **R-37:118** [reading] The focus’s mercy pair precedes the Fatiha’s request for guidance to “ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ”; 37:118 uses the same path phrase for God’s guidance of Moses and Aaron, placing that petition beside a prophetic precedent. (1:3, 1:6, 37:118)
+- **R-38:9** [reading] The question about who possesses the treasures of the Lord’s mercy challenges claims over its distribution; the focus’s names accompany mercy that belongs to God. (1:3, 38:9)
+- **R-38:43** [reading] Mercy becomes concrete in Job’s restoration: his family and as many again are given as mercy from God, and as a reminder for people of insight. (1:3, 38:43)
+- **R-39:38** [reading] The contrast between God willing harm or mercy and idols being unable to avert or retain either gives the focus’s names an exclusive-agency frame. (1:3, 39:38)
+- **R-39:53** [reading] The focus’s al-Rahim appears in an invitation not to despair after wrongdoing, joined to the name al-Ghafur and a declaration of forgiveness. (1:3, 39:53, 39:54)
+- **R-40:7** [reading] The focus’s mercy names meet an explicit pairing of mercy with knowledge, which the bearers of the Throne describe as encompassing all things before asking forgiveness for believers. (1:3, 40:7)
+- **R-40:9** [reading] Mercy is described as protection from evils on the Day of Judgment, and that protection is called a great triumph. (1:3, 40:9)
+- **R-41:2** [reading] The focus’s exact pair qualifies the source from whom revelation descends, linking its opening praise to the Qur’an’s descent. (1:3, 41:2)
+- **R-41:32** [reading] Al-Rahim joins al-Ghafur in describing a welcome from God, giving the mercy name a place in the reception promised to those who say their Lord is God and remain upright. (1:3, 41:31, 41:32)
+- **R-41:50** [reading] After mercy is given from God, the recipient claims “this is mine” and discounts the Hour; the passage contrasts divine bestowal with human appropriation. (1:3, 41:50)
+- **R-42:5** [reading] In a cosmic scene where angels seek forgiveness for earth’s inhabitants, God is named al-Ghafur al-Rahim; mercy is set beside intercession on behalf of people. (1:3, 42:5)
+- **R-42:8** [reading] Mercy is also a domain into which God admits whom He wills, while the preceding verse has described divided outcomes; the focus’s names do not imply identical reception for everyone. (1:3, 42:7, 42:8)
+- **R-42:28** [reading] Rain sent after despair is followed by the spreading of God’s mercy, giving the focus’s mercy names a scene of renewed hope. (1:3, 42:28)
+- **R-42:48** [reading] The human recipient rejoices when given mercy, yet the passage calls the human being ungrateful when hardship arrives; receiving mercy does not ensure gratitude. (1:3, 42:48)
+- **R-43:17** [reading] Al-Rahman is named in a polemic about what people attribute to Him, amid the surrounding argument over daughters and angels; the title appears in a Quranic rejection of such projection. (1:3, 43:16, 43:17, 43:19)
+- **R-43:20** [reading] People invoke al-Rahman’s will to excuse their worship of other beings, but the verse calls this claim unsupported conjecture; the mercy title does not function here as endorsement of their worship. (1:3, 43:20)
+- **R-43:32** [reading] The question “Do they divide your Lord’s mercy?” contests human claims to allocate it; the verse distinguishes worldly livelihood and rank from the Lord’s mercy, which is better than what people collect. (1:3, 43:32)
+- **R-43:36** [reading] Turning away from the remembrance of al-Rahman is followed by assignment of a devil as companion, who obstructs the path while the person thinks he is guided. (1:3, 43:36, 43:37)
+- **R-43:81** [reading] Al-Rahman appears in a conditional argument about a son, followed by glorification of the Lord of the heavens and earth beyond their descriptions; the name is not a license for divine kinship claims. (1:3, 43:81, 43:82)
+- **R-44:42** [reading] On a day when no ally can help another, those shown mercy by God are the exception; al-Rahim follows al-Aziz in that judgment setting. (1:3, 44:41, 44:42)
+- **R-45:20** [reading] The Qur’an is described as insight, guidance, and mercy for people of certainty, making mercy an effect of revelation received with a particular response. (1:3, 45:20)
+- **R-45:30** [reading] For believers who do good, entry into the Lord’s mercy is presented as the outcome of judgment and as clear success, contrasted in the next verse with the disbelievers. (1:3, 45:30, 45:31)
+- **R-46:8** [reading] Al-Rahim closes a response to the charge of fabrication, after God is named as knower and witness; the mercy name appears within a passage that retains accountability. (1:3, 46:8)
+- **R-46:12** [reading] Both the earlier Book of Moses and the present Arabic book are placed in a chain of guidance and mercy, linking the focus’s divine names with prophetic scripture across time. (1:3, 46:12)
+- **R-47:22** [reading] The kinship word “أَرْحَامَكُمْ” shares the root of the focus’s mercy names, creating an ethical resonance between divine mercy and the warning against severing family ties. (1:3, 47:22)
+- **R-48:25** [reading] God’s mercy constrains the outcome of the encounter: unseen believing men and women are present, so the believers are spared harming them unknowingly and causing injury. (1:3, 48:25)
+- **related_5.X1** [reading] The focus repeats the exact mercy pair from the basmala after 1:2’s praise, making the opening invocation return as an internal refrain. (1:1, 1:2, 1:3)
+- **R-49:10** [reading] The prospect of being shown mercy is attached to reconciliation: believers are called brothers, told to repair a breach, and urged to fear God so that they may receive mercy. (49:10)
+- **R-50:33** [reading] The name ٱلرَّحْمَٰنُ is invoked by someone who fears Him in the unseen; the next verse welcomes this person into Paradise in peace. The name thus stands with awe and welcome together. (50:33, 50:34)
+- **R-52:28** [reading] After being spared the scorching torment, the speakers recall that they used to call upon God and name Him ٱلْبَرُّ ٱلرَّحِيمُ. The focus’s ٱلرَّحِيمِ is associated here with beneficence and deliverance. (52:27, 52:28)
+- **R-55:1** [reading] Surah 55 opens with ٱلرَّحْمَٰنُ alone, then begins a sequence of divine acts. The focus’s first name can therefore be heard as a heading for the gifts and acts that follow in this passage. (55:1, 55:2, 55:3)
+- **R-55:2** [reading] The first deed under the opening name ٱلرَّحْمَٰنُ is teaching the Qur’an. This directly associates the focus’s first epithet with instruction and revelation. (55:1, 55:2)
+- **R-55:3** [reading] Human creation is another act in the sequence opened by ٱلرَّحْمَٰنُ, extending that name’s immediate setting from Qur’an teaching to the creation of humankind. (55:1, 55:3)
+- **R-55:4** [reading] After creating the human being, the passage names teaching البيان as a further divine gift under its opening ٱلرَّحْمَٰنُ. Mercy’s setting here includes the capacity for expression. (55:3, 55:4, 55:1)
+- **R-57:27** [reading] Here God places رأفة and رحمة in the hearts of Jesus’s followers, while the passage distinguishes those qualities from monasticism they invented and failed to observe properly. The next verse speaks of God’s own mercy and calls Him رحيم. Together the verses place human mercy and the divine name near each other while keeping them distinct. (57:27, 57:28)
+- **R-57:28** [reading] After commands to fear God and believe in His Messenger, the verse promises two shares of His mercy, light, forgiveness, and names Him غَفُورٌۭ رَّحِيمٌۭ. It places the focus’s second name in a setting of promised aid and forgiveness. (57:28)
+- **R-59:10** [reading] The prayer for forgiveness and for hearts free of rancor toward believers ends by addressing God as رَءُوفٌۭ رَّحِيمٌ. This locates the focus’s second name within an appeal for mercy across communal generations. (59:10)
+- **R-59:22** [reading] The exact pair ٱلرَّحْمَٰنُ ٱلرَّحِيمُ follows a statement that God knows the unseen and the witnessed. The pair thus appears within a portrait that joins mercy to complete knowledge. (59:22)
+- **R-60:3** [reading] The word أَرْحَامُكُمْ names kinship ties through the same ر ح م root as the focus’s two names; the verse says these ties and children will not avail at the Resurrection. With 1:4 immediately after the focus, the mercy names can be heard against the failure of family bonds to secure one at judgment. (60:3, 1:4)
+- **R-64:14** [reading] Spouses and children may be a trial or enemy, yet believers are told to pardon, overlook, and forgive; the verse closes with غَفُورٌۭ رَّحِيمٌۭ. The focus’s Rahim name is thus linked to mercy amid family conflict. (64:14)
+- **R-67:3** [reading] The phrase خَلْقِ ٱلرَّحْمَٰنِ names the created order as belonging to ٱلرَّحْمَٰنُ and challenges the listener to find any flaw in it. The focus’s first name is thus used in a scene of ordered creation. (67:3)
+- **R-67:19** [reading] The birds’ holding in flight is attributed to ٱلرَّحْمَٰنُ. The name is presented as active sustaining power in a visible, ongoing scene. (67:19)
+- **R-67:20** [reading] The verse asks who could aid people apart from ٱلرَّحْمَٰنُ. This makes the focus’s first name the explicit counterpart to the Fatiha’s later declaration, إِيَّاكَ نَسْتَعِينُ: help is sought from God alone. (67:20, 1:5)
+- **R-67:29** [reading] The speaker is instructed to say, هُوَ ٱلرَّحْمَٰنُ, then professes belief and reliance upon Him. The first name in the focus is thus used as an anchor for trust in a polemical address. (67:29)
+- **R-76:31** [reading] The verse explicitly distinguishes those God admits into His mercy from wrongdoers prepared for painful punishment. The focus’s mercy pair can therefore be read alongside both discretionary admission and judgment. (76:31, 1:4)
+- **R-78:37** [reading] The Lord of the heavens, earth, and everything between them is identified as ٱلرَّحْمَٰنُ, while no one controls speech before Him. The focus’s first name is thus joined to cosmic lordship and restricted access. (78:37)
+- **R-78:38** [reading] On the Day the Spirit and angels stand in rows, no one speaks unless ٱلرَّحْمَٰنُ permits it and the speaker says what is right. The focus’s first name is used here as the authority who governs speech at judgment. (78:38, 1:4)
+- **R-90:17** [reading] The root appears in mutual exhortation to marḥama after mention of feeding a poor person in need. The focus’s divine mercy names have a clear human counterpart here in care urged among believers. (90:16, 90:17)
+- **R-1:6** [reading] The mercy names precede a request for guidance, framing the straight path as the next divine gift sought in the prayer. (1:3, 1:5, 1:6)
+- **R-1:7** [reading] The requested path is then described as that of people God favored, in contrast with those under anger or astray; this gives the mercy names a path and favor horizon. (1:3, 1:6, 1:7)
+- **R-2:64** [reading] After the people turn away from the covenant, Allah’s favor and mercy are named as the reason they were not among the losers; mercy is shown as preserving a community after failure. (2:64)
+- **R-3:6** [reading] The mercy names share a root with ٱلْأَرْحَامِ, the wombs in which God shapes people; this lets the focus carry a bodily, life-forming resonance alongside compassion. (1:3, 3:6)
+- **R-3:101** [reading] Fatiha’s request for ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ recurs in 3:101, where holding fast to God leads to it; 3:8 joins guidance with a plea for mercy, linking the focus’s names to divinely sustained guidance. (1:3, 1:6, 3:8, 3:101)
+- **R-4:1** [reading] The mercy-name root appears as ٱلْأَرْحَامَ, kinship ties, after creation from one soul and its mate; this gives the focus a familial resonance alongside its divine sense. (1:3, 4:1)
+- **R-4:23** [reading] The list of forbidden relationships includes milk mothers and sisters, then closes with غَفُورٌ رَّحِيمٌ; alongside 4:1’s kinship term, this places the focus’s Rahim near the surah’s family-bond material. (1:3, 4:1, 4:23)
+- **R-4:83** [reading] The verse says divine favor and mercy prevent most of the community from following Satan; in Fatiha’s sequence, the mercy names precede the request for the straight path, giving mercy a protective role in guidance. (1:3, 1:6, 4:83)
+- **R-10:58** [reading] People are told to rejoice in God’s bounty and mercy rather than in what they gather. The Fatiha begins with praise before naming mercy, so this passage suggests joy as one fitting response to the focus’s praise and mercy register. (10:58, 1:2)
+- **R-12:111** [reading] The close of Yūsuf’s story calls its account guidance and mercy for believers; this gives a narrative instance of mercy conveyed through revelation. (1:3, 1:6, 12:111)
+- **R-16:64** [reading] A verse about revelation joins clarification, guidance, and mercy; beside the Fātiḥa’s mercy names and following plea for guidance, this makes revealed guidance one setting in which mercy is encountered. (1:3, 1:6, 16:64)
+- **R-17:82** [reading] The Qur’an is mercy and healing for believers, yet increases wrongdoers only in loss; mercy is presented here with contrasting reception. (1:6, 1:7, 17:82)
+- **R-19:2** [reading] A prophetic account is introduced as remembrance of the Lord’s mercy to His servant, making narrated history itself a vehicle for recalling mercy. (1:3, 19:2, 19:3)
+- **R-30:21** [reading] The focus names mercy as a divine attribute; 30:21 also places the root ر ح م in a human bond, where mercy joins affection as a sign between spouses. (1:3, 30:21)
+- **R-30:33** [reading] Here divine mercy is tasted after distress, yet some recipients then associate partners with their Lord; the focus’s mercy names do not guarantee a faithful response to mercy received. (1:3, 30:33)
+- **R-44:6** [reading] Mercy from the Lord is attached to a passage about sending messengers, and the Lord is then named All-Hearing, All-Knowing; the focus’s mercy names can be heard in a mission of revelation and attentive knowledge. (1:3, 44:5, 44:6)
+- **R-78:36** [reading] A reward and abundant gift are said to come from “your Lord”; the next verse names the Lord of the heavens and earth ٱلرَّحْمَٰنُ. This sequence places the reward in the setting of the focus’s first mercy name. (78:36, 78:37)
+- **related_6.X1** [reading] Kinship does not secure anyone at resurrection in 60:3, while 64:14 describes spouses and children as potential enemies yet commands pardon and ends with غَفُورٌۭ رَّحِيمٌۭ. With the focus’s mercy pair followed by the King of the Day of Requital, these passages distinguish bloodline protection from mercy expressed through forgiveness amid family conflict. (60:3, 64:14, 1:3, 1:4)
+- **R-7:57** [open] The passage depicts mercy through rain, fruit, and the bringing out of the dead. It raises the possibility that the focus’s mercy names include renewal and resurrection, especially before the Fatiha’s mention of the Day of Judgment. (7:57) Missing: A passage or lexical evidence linking the focus’s names specifically to rain or revival would show whether this scene clarifies them; 1:3 itself names neither.
+- **R-7:204** [open] The command to listen when the Quran is recited is followed by the hope that listeners may receive mercy. Since the focus is part of a Quranic surah recited in prayer, this may connect hearing its names with the posture of attentive reception. (7:204) Missing: The passage does not identify the Fatiha or its mercy names as the recitation in view; a direct link to this surah or its opening would decide how specifically it applies.
+- **R-9:61** [open] The messenger is called a mercy for believers, while those who harm him face painful punishment. This raises the possibility that the focus’s divine mercy can be encountered through prophetic care and mediation. (9:61) Missing: The verse calls the messenger a mercy but does not explicitly derive that role from the divine names; another passage joining prophetic mercy to God’s mercy could establish the mediation.
+- **R-11:28** [open] Noah says that a mercy from his Lord was obscured to his opponents, whom he cannot compel to accept it. This raises the possibility that divine mercy may be present in a message yet unseen by its hearers. (11:28) Missing: A passage identifying prophetic revelation or the Fatiha’s mercy names as the mercy obscured here would establish how this scene illuminates 1:3.
+- **R-15:87** [open] If the seven oft-repeated are the Fātiḥa, then the focus’s paired names form part of the seven whose recitation is highlighted here. (1:3, 15:87) Missing: The supplied passage does not identify the seven as this surah. An explicit identification in another passage, or a Quranic use of ٱلْمَثَانِى that anchors it to the Fātiḥa, could establish the link.
+- **R-26:193** [open] The trustworthy Spirit’s descent belongs to the revelation passage introduced immediately after the ٱلْعَزِيزُ ٱلرَّحِيمُ refrain, inviting a link between the focus’s mercy name and the Qur’an’s delivery as warning. (1:3, 26:191, 26:192, 26:193) Missing: The verses establish sequence but no explicit causal link from ٱلرَّحِيمُ to the descent or warning; a direct statement connecting the revelation to mercy could supply it.
+- **R-33:6** [open] The transition from “غَفُورًۭا رَّحِيمًا” to “أُو۟لُوا۟ ٱلْأَرْحَامِ” creates a close root echo between divine mercy and kinship, which could add a family resonance to the focus’s mercy names. (1:3, 33:5, 33:6) Missing: A dictionary account of the root and broader Quranic examples could establish whether this adjacency activates a womb or kinship resonance here, beyond the clear shared root.
+- **R-26:171** [open] The exception of the old woman complicates the surrounding statement that Lot and his family were saved, raising a question about how the focus’s mercy names relate to a divided household outcome. (1:3, 26:170, 26:171, 26:172) Missing: These verses give the exception and outcome but do not name mercy or explain the exception; an explicit account of the woman’s status or a mercy statement elsewhere in Lot’s story could decide whether this is a meaningful test of the focus’s names.
+- **R-22:65** [reading] ٱلرَّحِيمُ is paired with ٱلرَّءُوفُ in a statement about God sustaining the world and caring for people, extending the focus’s second name into a scene of ongoing protection. (1:3, 22:65)
+- **R-24:10** [reading] Divine favor and mercy appear as a condition in the passage’s oath procedure, followed by the names ٱلتَّوَّابُ ٱلْحَكِيمُ; the focus’s mercy names sit within a framework that also includes return and judgment. (1:3, 24:9, 24:10)
+- **R-25:59** [reading] ٱلرَّحْمَٰنُ follows a description of creating the heavens and earth and establishing the Throne, linking the focus’s first name with cosmic creation and sovereignty. (1:3, 25:59)
+- **R-60:12** [reading] The request that the Prophet seek forgiveness for women who have pledged ethical commitments closes with غَفُورٌۭ رَّحِيمٌۭ. This makes the focus’s Rahim name part of a covenant and forgiveness setting. (60:12)
+- **R-85:15** [reading] The sequence moves from ٱلْغَفُورُ ٱلْوَدُودُ to the possessor of the throne, then to the one who does whatever He wills. This resembles the Fatiha’s movement from mercy names to ملكِ يَوْمِ ٱلدِّينِ: mercy-related attributes sit beside sovereignty. (85:14, 85:15, 85:16, 1:4)
+- **R-78:39** [open] After the preceding verse restricts speech to those permitted by ٱلرَّحْمَٰنُ, this verse calls the Day true and says whoever wills may take a way of return to his Lord. The sequence could connect the Rahman scene with a chosen return. (78:38, 78:39) Missing: The text does not explicitly say that the chosen return is enabled by mercy or by the permission in 78:38; an explicit parallel elsewhere between divine mercy and return could establish that link.
+
+Notes:
+- R-24:56 [support strong, relevance medium] Prayer, almsgiving, and obedience to the Messenger precede لَعَلَّكُمْ تُرْحَمُونَ, presenting mercy as a hoped-for outcome of communal practice.
+- R-25:6 [support strong, relevance medium] The name رَّحِيمًۭا closes a reply about the Qur’an’s source, after the claim that its sender knows the unseen; mercy is placed beside knowledge of the hidden in this revelation dispute.
+- R-15:56 [support medium, relevance medium] Abraham’s question about despair makes the Lord’s mercy a ground for hope after the angels’ glad tidings.
+- R-17:28 [support medium, relevance medium] When unable to give material help, a person who hopes for mercy from the Lord is still told to answer with gentle words.
+- R-18:65 [support medium, relevance medium] A servant receives mercy from God alongside knowledge taught from Him, presenting mercy and special instruction together in one encounter.
+- R-31:3 [support medium, relevance medium] Mercy appears here as one of the effects of the book: guidance and mercy are directed to those who do good.
+- R-33:59 [support medium, relevance medium] The closing “غَفُورًۭا رَّحِيمًا” accompanies an instruction intended to help women be recognized and not harmed, placing the mercy name in a social-protection setting.
+- R-85:14 [support medium, relevance medium] The divine pair ٱلْغَفُورُ ٱلْوَدُودُ gives a comparison for the focus’s mercy names through forgiveness and love, though this verse uses different names and roots.
+- R-1:5 [support strong, relevance low] The focus ends the praise sequence just before the speaker turns to God directly with إِيَّاكَ twice.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:37 فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٍۢ فَتَابَ عَلَيْهِ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:54 وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:64 ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ
+- 2:105 مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍۢ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ
+- 2:128 رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:143 وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًۭا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 2:160 إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:163 وَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ
+- 2:192 فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 2:218 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَٰٓئِكَ يَرْجُونَ رَحْمَتَ ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 3:6 هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 3:8 رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ
+- 3:74 يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ
+- 3:88 خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ
+- 3:89 إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 3:101 وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْلَىٰ عَلَيْكُمْ ءَايَٰتُ ٱللَّهِ وَفِيكُمْ رَسُولُهُۥ ۗ وَمَن يَعْتَصِم بِٱللَّهِ فَقَدْ هُدِىَ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 3:106 يَوْمَ تَبْيَضُّ وُجُوهٌۭ وَتَسْوَدُّ وُجُوهٌۭ ۚ فَأَمَّا ٱلَّذِينَ ٱسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُم بَعْدَ إِيمَٰنِكُمْ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ
+- 3:107 وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ هُمْ فِيهَا خَٰلِدُونَ
+- 3:132 وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ
+- 3:133 ۞ وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ
+- 3:159 فَبِمَا رَحْمَةٍۢ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ
+- 4:1 يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًۭا
+- 4:23 حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا
+- 4:83 وَإِذَا جَآءَهُمْ أَمْرٌۭ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًۭا
+- 4:96 دَرَجَٰتٍۢ مِّنْهُ وَمَغْفِرَةًۭ وَرَحْمَةًۭ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا
+- 4:105 إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن لِّلْخَآئِنِينَ خَصِيمًۭا
+- 4:106 وَٱسْتَغْفِرِ ٱللَّهَ ۖ إِنَّ ٱللَّهَ كَانَ غَفُورًۭا رَّحِيمًۭا
+- 4:113 وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌۭ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍۢ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًۭا
+- 4:175 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍۢ مِّنْهُ وَفَضْلٍۢ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 5:73 لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ ثَالِثُ ثَلَٰثَةٍۢ ۘ وَمَا مِنْ إِلَٰهٍ إِلَّآ إِلَٰهٌۭ وَٰحِدٌۭ ۚ وَإِن لَّمْ يَنتَهُوا۟ عَمَّا يَقُولُونَ لَيَمَسَّنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ
+- 5:74 أَفَلَا يَتُوبُونَ إِلَى ٱللَّهِ وَيَسْتَغْفِرُونَهُۥ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 6:12 قُل لِّمَن مَّا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ
+- 6:16 مَّن يُصْرَفْ عَنْهُ يَوْمَئِذٍۢ فَقَدْ رَحِمَهُۥ ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْمُبِينُ
+- 6:54 وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤْمِنُونَ بِـَٔايَٰتِنَا فَقُلْ سَلَٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍۢ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌۭ رَّحِيمٌۭ
+- 6:133 وَرَبُّكَ ٱلْغَنِىُّ ذُو ٱلرَّحْمَةِ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ كَمَآ أَنشَأَكُم مِّن ذُرِّيَّةِ قَوْمٍ ءَاخَرِينَ
+- 6:147 فَإِن كَذَّبُوكَ فَقُل رَّبُّكُمْ ذُو رَحْمَةٍۢ وَٰسِعَةٍۢ وَلَا يُرَدُّ بَأْسُهُۥ عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ
+- 6:154 ثُمَّ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ تَمَامًا عَلَى ٱلَّذِىٓ أَحْسَنَ وَتَفْصِيلًۭا لِّكُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ
+- 7:49 أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ
+- 7:56 وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًۭا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌۭ مِّنَ ٱلْمُحْسِنِينَ
+- 7:57 وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًۭا ثِقَالًۭا سُقْنَٰهُ لِبَلَدٍۢ مَّيِّتٍۢ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ
+- 7:72 فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍۢ مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ
+- 7:151 قَالَ رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 7:153 وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ
+- 7:154 وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًۭى وَرَحْمَةٌۭ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ
+- 7:156 ۞ وَٱكْتُبْ لَنَا فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْءَاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍۢ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَٰتِنَا يُؤْمِنُونَ
+- 7:180 وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا ۖ وَذَرُوا۟ ٱلَّذِينَ يُلْحِدُونَ فِىٓ أَسْمَٰٓئِهِۦ ۚ سَيُجْزَوْنَ مَا كَانُوا۟ يَعْمَلُونَ
+- 7:203 وَإِذَا لَمْ تَأْتِهِم بِـَٔايَةٍۢ قَالُوا۟ لَوْلَا ٱجْتَبَيْتَهَا ۚ قُلْ إِنَّمَآ أَتَّبِعُ مَا يُوحَىٰٓ إِلَىَّ مِن رَّبِّى ۚ هَٰذَا بَصَآئِرُ مِن رَّبِّكُمْ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُؤْمِنُونَ
+- 7:204 وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ
+- 8:75 وَٱلَّذِينَ ءَامَنُوا۟ مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ مَعَكُمْ فَأُو۟لَٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ
+- 9:21 يُبَشِّرُهُمْ رَبُّهُم بِرَحْمَةٍۢ مِّنْهُ وَرِضْوَٰنٍۢ وَجَنَّٰتٍۢ لَّهُمْ فِيهَا نَعِيمٌۭ مُّقِيمٌ
+- 9:26 ثُمَّ أَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَنزَلَ جُنُودًۭا لَّمْ تَرَوْهَا وَعَذَّبَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَذَٰلِكَ جَزَآءُ ٱلْكَٰفِرِينَ
+- 9:27 ثُمَّ يَتُوبُ ٱللَّهُ مِنۢ بَعْدِ ذَٰلِكَ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 9:61 وَمِنْهُمُ ٱلَّذِينَ يُؤْذُونَ ٱلنَّبِىَّ وَيَقُولُونَ هُوَ أُذُنٌۭ ۚ قُلْ أُذُنُ خَيْرٍۢ لَّكُمْ يُؤْمِنُ بِٱللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ وَرَحْمَةٌۭ لِّلَّذِينَ ءَامَنُوا۟ مِنكُمْ ۚ وَٱلَّذِينَ يُؤْذُونَ رَسُولَ ٱللَّهِ لَهُمْ عَذَابٌ أَلِيمٌۭ
+- 9:99 وَمِنَ ٱلْأَعْرَابِ مَن يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَيَتَّخِذُ مَا يُنفِقُ قُرُبَٰتٍ عِندَ ٱللَّهِ وَصَلَوَٰتِ ٱلرَّسُولِ ۚ أَلَآ إِنَّهَا قُرْبَةٌۭ لَّهُمْ ۚ سَيُدْخِلُهُمُ ٱللَّهُ فِى رَحْمَتِهِۦٓ ۗ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 9:104 أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَأْخُذُ ٱلصَّدَقَٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 9:117 لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍۢ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌۭ رَّحِيمٌۭ
+- 9:118 وَعَلَى ٱلثَّلَٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 9:128 لَقَدْ جَآءَكُمْ رَسُولٌۭ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ
+- 10:21 وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةًۭ مِّنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُمْ إِذَا لَهُم مَّكْرٌۭ فِىٓ ءَايَاتِنَا ۚ قُلِ ٱللَّهُ أَسْرَعُ مَكْرًا ۚ إِنَّ رُسُلَنَا يَكْتُبُونَ مَا تَمْكُرُونَ
+- 10:58 قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ
+- 10:85 فَقَالُوا۟ عَلَى ٱللَّهِ تَوَكَّلْنَا رَبَّنَا لَا تَجْعَلْنَا فِتْنَةًۭ لِّلْقَوْمِ ٱلظَّٰلِمِينَ
+- 10:86 وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 10:107 وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّۢ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍۢ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 11:28 قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةًۭ مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ
+- 11:90 وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌۭ وَدُودٌۭ
+- 11:118 وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةًۭ وَٰحِدَةًۭ ۖ وَلَا يَزَالُونَ مُخْتَلِفِينَ
+- 11:119 إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ
+- 12:18 وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 12:55 قَالَ ٱجْعَلْنِى عَلَىٰ خَزَآئِنِ ٱلْأَرْضِ ۖ إِنِّى حَفِيظٌ عَلِيمٌۭ
+- 12:56 وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ
+- 12:63 فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ
+- 12:64 قَالَ هَلْ ءَامَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًۭا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 12:92 قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 12:97 قَالُوا۟ يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَٰطِـِٔينَ
+- 12:98 قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 12:111 لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌۭ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًۭا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍۢ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ
+- 13:30 كَذَٰلِكَ أَرْسَلْنَٰكَ فِىٓ أُمَّةٍۢ قَدْ خَلَتْ مِن قَبْلِهَآ أُمَمٌۭ لِّتَتْلُوَا۟ عَلَيْهِمُ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَهُمْ يَكْفُرُونَ بِٱلرَّحْمَٰنِ ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ
+- 14:36 رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًۭا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌۭ رَّحِيمٌۭ
+- 15:49 ۞ نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ
+- 15:50 وَأَنَّ عَذَابِى هُوَ ٱلْعَذَابُ ٱلْأَلِيمُ
+- 15:55 قَالُوا۟ بَشَّرْنَٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ ٱلْقَٰنِطِينَ
+- 15:56 قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ
+- 15:87 وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ
+- 16:7 وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍۢ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 16:18 وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌۭ رَّحِيمٌۭ
+- 16:64 وَمَآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ إِلَّا لِتُبَيِّنَ لَهُمُ ٱلَّذِى ٱخْتَلَفُوا۟ فِيهِ ۙ وَهُدًۭى وَرَحْمَةًۭ لِّقَوْمٍۢ يُؤْمِنُونَ
+- 17:24 وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًۭا
+- 17:28 وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍۢ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًۭا مَّيْسُورًۭا
+- 17:57 أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًۭا
+- 17:66 رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ رَحِيمًۭا
+- 17:67 وَإِذَا مَسَّكُمُ ٱلضُّرُّ فِى ٱلْبَحْرِ ضَلَّ مَن تَدْعُونَ إِلَّآ إِيَّاهُ ۖ فَلَمَّا نَجَّىٰكُمْ إِلَى ٱلْبَرِّ أَعْرَضْتُمْ ۚ وَكَانَ ٱلْإِنسَٰنُ كَفُورًا
+- 17:82 وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا
+- 17:86 وَلَئِن شِئْنَا لَنَذْهَبَنَّ بِٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ ثُمَّ لَا تَجِدُ لَكَ بِهِۦ عَلَيْنَا وَكِيلًا
+- 17:87 إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًۭا
+- 17:100 قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًۭا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًۭا
+- 17:110 قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّۭا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًۭا
+- 18:10 إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ ءَاتِنَا مِن لَّدُنكَ رَحْمَةًۭ وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًۭا
+- 18:16 وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا
+- 18:58 وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌۭ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًۭا
+- 18:65 فَوَجَدَا عَبْدًۭا مِّنْ عِبَادِنَآ ءَاتَيْنَٰهُ رَحْمَةًۭ مِّنْ عِندِنَا وَعَلَّمْنَٰهُ مِن لَّدُنَّا عِلْمًۭا
+- 18:81 فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًۭا مِّنْهُ زَكَوٰةًۭ وَأَقْرَبَ رُحْمًۭا
+- 18:82 وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌۭ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًۭا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا
+- 18:98 قَالَ هَٰذَا رَحْمَةٌۭ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّۭا
+- 19:2 ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ
+- 19:3 إِذْ نَادَىٰ رَبَّهُۥ نِدَآءً خَفِيًّۭا
+- 19:18 قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّۭا
+- 19:44 يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ ۖ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّۭا
+- 19:45 يَٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌۭ مِّنَ ٱلرَّحْمَٰنِ فَتَكُونَ لِلشَّيْطَٰنِ وَلِيًّۭا
+- 19:49 فَلَمَّا ٱعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ ۖ وَكُلًّۭا جَعَلْنَا نَبِيًّۭا
+- 19:50 وَوَهَبْنَا لَهُم مِّن رَّحْمَتِنَا وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّۭا
+- 19:53 وَوَهَبْنَا لَهُۥ مِن رَّحْمَتِنَآ أَخَاهُ هَٰرُونَ نَبِيًّۭا
+- 19:69 ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّۭا
+- 19:78 أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا
+- 19:85 يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًۭا
+- 19:86 وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًۭا
+- 19:87 لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًۭا
+- 19:88 وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا
+- 19:90 تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا
+- 19:91 أَن دَعَوْا۟ لِلرَّحْمَٰنِ وَلَدًۭا
+- 19:92 وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا
+- 19:93 إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ ءَاتِى ٱلرَّحْمَٰنِ عَبْدًۭا
+- 19:96 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا
+- 20:5 ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ
+- 20:90 وَلَقَدْ قَالَ لَهُمْ هَٰرُونُ مِن قَبْلُ يَٰقَوْمِ إِنَّمَا فُتِنتُم بِهِۦ ۖ وَإِنَّ رَبَّكُمُ ٱلرَّحْمَٰنُ فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى
+- 20:108 يَوْمَئِذٍۢ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ ۖ وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًۭا
+- 20:109 يَوْمَئِذٍۢ لَّا تَنفَعُ ٱلشَّفَٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَرَضِىَ لَهُۥ قَوْلًۭا
+- 21:26 وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًۭا ۗ سُبْحَٰنَهُۥ ۚ بَلْ عِبَادٌۭ مُّكْرَمُونَ
+- 21:42 قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ
+- 21:74 وَلُوطًا ءَاتَيْنَٰهُ حُكْمًۭا وَعِلْمًۭا وَنَجَّيْنَٰهُ مِنَ ٱلْقَرْيَةِ ٱلَّتِى كَانَت تَّعْمَلُ ٱلْخَبَٰٓئِثَ ۗ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍۢ فَٰسِقِينَ
+- 21:75 وَأَدْخَلْنَٰهُ فِى رَحْمَتِنَآ ۖ إِنَّهُۥ مِنَ ٱلصَّٰلِحِينَ
+- 21:83 ۞ وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 21:84 فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّۢ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ
+- 21:86 وَأَدْخَلْنَٰهُمْ فِى رَحْمَتِنَآ ۖ إِنَّهُم مِّنَ ٱلصَّٰلِحِينَ
+- 21:107 وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةًۭ لِّلْعَٰلَمِينَ
+- 21:112 قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 22:65 أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 23:75 ۞ وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّۢ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ
+- 23:76 وَلَقَدْ أَخَذْنَٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ
+- 23:109 إِنَّهُۥ كَانَ فَرِيقٌۭ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ ءَامَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ
+- 23:118 وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ
+- 24:9 وَٱلْخَٰمِسَةَ أَنَّ غَضَبَ ٱللَّهِ عَلَيْهَآ إِن كَانَ مِنَ ٱلصَّٰدِقِينَ
+- 24:10 وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ تَوَّابٌ حَكِيمٌ
+- 24:19 إِنَّ ٱلَّذِينَ يُحِبُّونَ أَن تَشِيعَ ٱلْفَٰحِشَةُ فِى ٱلَّذِينَ ءَامَنُوا۟ لَهُمْ عَذَابٌ أَلِيمٌۭ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ
+- 24:20 وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ رَءُوفٌۭ رَّحِيمٌۭ
+- 24:21 ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًۭا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌۭ
+- 24:22 وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌ
+- 24:56 وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ
+- 25:5 وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةًۭ وَأَصِيلًۭا
+- 25:6 قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ ٱلسِّرَّ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ غَفُورًۭا رَّحِيمًۭا
+- 25:26 ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ عَسِيرًۭا
+- 25:48 وَهُوَ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ طَهُورًۭا
+- 25:49 لِّنُحْۦِىَ بِهِۦ بَلْدَةًۭ مَّيْتًۭا وَنُسْقِيَهُۥ مِمَّا خَلَقْنَآ أَنْعَٰمًۭا وَأَنَاسِىَّ كَثِيرًۭا
+- 25:59 ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍۢ ثُمَّ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًۭا
+- 25:60 وَإِذَا قِيلَ لَهُمُ ٱسْجُدُوا۟ لِلرَّحْمَٰنِ قَالُوا۟ وَمَا ٱلرَّحْمَٰنُ أَنَسْجُدُ لِمَا تَأْمُرُنَا وَزَادَهُمْ نُفُورًۭا ۩
+- 25:63 وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًۭا
+- 26:5 وَمَا يَأْتِيهِم مِّن ذِكْرٍۢ مِّنَ ٱلرَّحْمَٰنِ مُحْدَثٍ إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ
+- 26:8 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:9 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:10 وَإِذْ نَادَىٰ رَبُّكَ مُوسَىٰٓ أَنِ ٱئْتِ ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- 26:67 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:68 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:69 وَٱتْلُ عَلَيْهِمْ نَبَأَ إِبْرَٰهِيمَ
+- 26:103 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:104 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:105 كَذَّبَتْ قَوْمُ نُوحٍ ٱلْمُرْسَلِينَ
+- 26:121 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:122 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:123 كَذَّبَتْ عَادٌ ٱلْمُرْسَلِينَ
+- 26:139 فَكَذَّبُوهُ فَأَهْلَكْنَٰهُمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:140 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:141 كَذَّبَتْ ثَمُودُ ٱلْمُرْسَلِينَ
+- 26:158 فَأَخَذَهُمُ ٱلْعَذَابُ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:159 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:160 كَذَّبَتْ قَوْمُ لُوطٍ ٱلْمُرْسَلِينَ
+- 26:170 فَنَجَّيْنَٰهُ وَأَهْلَهُۥٓ أَجْمَعِينَ
+- 26:171 إِلَّا عَجُوزًۭا فِى ٱلْغَٰبِرِينَ
+- 26:172 ثُمَّ دَمَّرْنَا ٱلْءَاخَرِينَ
+- 26:174 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:175 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:176 كَذَّبَ أَصْحَٰبُ لْـَٔيْكَةِ ٱلْمُرْسَلِينَ
+- 26:190 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ ۖ وَمَا كَانَ أَكْثَرُهُم مُّؤْمِنِينَ
+- 26:191 وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 26:192 وَإِنَّهُۥ لَتَنزِيلُ رَبِّ ٱلْعَٰلَمِينَ
+- 26:193 نَزَلَ بِهِ ٱلرُّوحُ ٱلْأَمِينُ
+- 26:216 فَإِنْ عَصَوْكَ فَقُلْ إِنِّى بَرِىٓءٌۭ مِّمَّا تَعْمَلُونَ
+- 26:217 وَتَوَكَّلْ عَلَى ٱلْعَزِيزِ ٱلرَّحِيمِ
+- 27:19 فَتَبَسَّمَ ضَاحِكًۭا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ
+- 27:30 إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 27:63 أَمَّن يَهْدِيكُمْ فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَٰهٌۭ مَّعَ ٱللَّهِ ۚ تَعَٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ
+- 27:76 إِنَّ هَٰذَا ٱلْقُرْءَانَ يَقُصُّ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَكْثَرَ ٱلَّذِى هُمْ فِيهِ يَخْتَلِفُونَ
+- 27:77 وَإِنَّهُۥ لَهُدًۭى وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ
+- 28:16 قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 28:43 وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًۭى وَرَحْمَةًۭ لَّعَلَّهُمْ يَتَذَكَّرُونَ
+- 28:46 وَمَا كُنتَ بِجَانِبِ ٱلطُّورِ إِذْ نَادَيْنَا وَلَٰكِن رَّحْمَةًۭ مِّن رَّبِّكَ لِتُنذِرَ قَوْمًۭا مَّآ أَتَىٰهُم مِّن نَّذِيرٍۢ مِّن قَبْلِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ
+- 28:73 وَمِن رَّحْمَتِهِۦ جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 28:86 وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَٰبُ إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًۭا لِّلْكَٰفِرِينَ
+- 29:21 يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ
+- 29:23 وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى وَأُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌۭ
+- 29:51 أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَرَحْمَةًۭ وَذِكْرَىٰ لِقَوْمٍۢ يُؤْمِنُونَ
+- 30:5 بِنَصْرِ ٱللَّهِ ۚ يَنصُرُ مَن يَشَآءُ ۖ وَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 30:21 وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَتَفَكَّرُونَ
+- 30:33 وَإِذَا مَسَّ ٱلنَّاسَ ضُرٌّۭ دَعَوْا۟ رَبَّهُم مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُم مِّنْهُ رَحْمَةً إِذَا فَرِيقٌۭ مِّنْهُم بِرَبِّهِمْ يُشْرِكُونَ
+- 30:46 وَمِنْ ءَايَٰتِهِۦٓ أَن يُرْسِلَ ٱلرِّيَاحَ مُبَشِّرَٰتٍۢ وَلِيُذِيقَكُم مِّن رَّحْمَتِهِۦ وَلِتَجْرِىَ ٱلْفُلْكُ بِأَمْرِهِۦ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 30:50 فَٱنظُرْ إِلَىٰٓ ءَاثَٰرِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ ذَٰلِكَ لَمُحْىِ ٱلْمَوْتَىٰ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 31:3 هُدًۭى وَرَحْمَةًۭ لِّلْمُحْسِنِينَ
+- 32:6 ذَٰلِكَ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 33:5 ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌۭ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًا
+- 33:6 ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًۭا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًۭا
+- 33:43 هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًۭا
+- 33:59 يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَٰبِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا
+- 35:2 مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍۢ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 36:5 تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ
+- 36:11 إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍۢ وَأَجْرٍۢ كَرِيمٍ
+- 36:15 قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌۭ مِّثْلُنَا وَمَآ أَنزَلَ ٱلرَّحْمَٰنُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ
+- 36:23 ءَأَتَّخِذُ مِن دُونِهِۦٓ ءَالِهَةً إِن يُرِدْنِ ٱلرَّحْمَٰنُ بِضُرٍّۢ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًۭٔا وَلَا يُنقِذُونِ
+- 36:43 وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ
+- 36:44 إِلَّا رَحْمَةًۭ مِّنَّا وَمَتَٰعًا إِلَىٰ حِينٍۢ
+- 36:45 وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ
+- 36:51 وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ
+- 36:52 قَالُوا۟ يَٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ
+- 36:58 سَلَٰمٌۭ قَوْلًۭا مِّن رَّبٍّۢ رَّحِيمٍۢ
+- 36:59 وَٱمْتَٰزُوا۟ ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ
+- 37:118 وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 38:9 أَمْ عِندَهُمْ خَزَآئِنُ رَحْمَةِ رَبِّكَ ٱلْعَزِيزِ ٱلْوَهَّابِ
+- 38:43 وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةًۭ مِّنَّا وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ
+- 39:38 وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ
+- 39:53 ۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 39:54 وَأَنِيبُوٓا۟ إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا۟ لَهُۥ مِن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ ثُمَّ لَا تُنصَرُونَ
+- 40:7 ٱلَّذِينَ يَحْمِلُونَ ٱلْعَرْشَ وَمَنْ حَوْلَهُۥ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيُؤْمِنُونَ بِهِۦ وَيَسْتَغْفِرُونَ لِلَّذِينَ ءَامَنُوا۟ رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍۢ رَّحْمَةًۭ وَعِلْمًۭا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ
+- 40:9 وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍۢ فَقَدْ رَحِمْتَهُۥ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ
+- 41:2 تَنزِيلٌۭ مِّنَ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 41:31 نَحْنُ أَوْلِيَآؤُكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْءَاخِرَةِ ۖ وَلَكُمْ فِيهَا مَا تَشْتَهِىٓ أَنفُسُكُمْ وَلَكُمْ فِيهَا مَا تَدَّعُونَ
+- 41:32 نُزُلًۭا مِّنْ غَفُورٍۢ رَّحِيمٍۢ
+- 41:50 وَلَئِنْ أَذَقْنَٰهُ رَحْمَةًۭ مِّنَّا مِنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ هَٰذَا لِى وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةًۭ وَلَئِن رُّجِعْتُ إِلَىٰ رَبِّىٓ إِنَّ لِى عِندَهُۥ لَلْحُسْنَىٰ ۚ فَلَنُنَبِّئَنَّ ٱلَّذِينَ كَفَرُوا۟ بِمَا عَمِلُوا۟ وَلَنُذِيقَنَّهُم مِّنْ عَذَابٍ غَلِيظٍۢ
+- 42:5 تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 42:7 وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ قُرْءَانًا عَرَبِيًّۭا لِّتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا وَتُنذِرَ يَوْمَ ٱلْجَمْعِ لَا رَيْبَ فِيهِ ۚ فَرِيقٌۭ فِى ٱلْجَنَّةِ وَفَرِيقٌۭ فِى ٱلسَّعِيرِ
+- 42:8 وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةًۭ وَٰحِدَةًۭ وَلَٰكِن يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّٰلِمُونَ مَا لَهُم مِّن وَلِىٍّۢ وَلَا نَصِيرٍ
+- 42:28 وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ
+- 42:48 فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةًۭ فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌۭ
+- 43:16 أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍۢ وَأَصْفَىٰكُم بِٱلْبَنِينَ
+- 43:17 وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًۭا ظَلَّ وَجْهُهُۥ مُسْوَدًّۭا وَهُوَ كَظِيمٌ
+- 43:19 وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ ٱلرَّحْمَٰنِ إِنَٰثًا ۚ أَشَهِدُوا۟ خَلْقَهُمْ ۚ سَتُكْتَبُ شَهَٰدَتُهُمْ وَيُسْـَٔلُونَ
+- 43:20 وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَٰنُ مَا عَبَدْنَٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَخْرُصُونَ
+- 43:32 أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ ۚ نَحْنُ قَسَمْنَا بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍۢ دَرَجَٰتٍۢ لِّيَتَّخِذَ بَعْضُهُم بَعْضًۭا سُخْرِيًّۭا ۗ وَرَحْمَتُ رَبِّكَ خَيْرٌۭ مِّمَّا يَجْمَعُونَ
+- 43:36 وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًۭا فَهُوَ لَهُۥ قَرِينٌۭ
+- 43:37 وَإِنَّهُمْ لَيَصُدُّونَهُمْ عَنِ ٱلسَّبِيلِ وَيَحْسَبُونَ أَنَّهُم مُّهْتَدُونَ
+- 43:81 قُلْ إِن كَانَ لِلرَّحْمَٰنِ وَلَدٌۭ فَأَنَا۠ أَوَّلُ ٱلْعَٰبِدِينَ
+- 43:82 سُبْحَٰنَ رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ
+- 44:5 أَمْرًۭا مِّنْ عِندِنَآ ۚ إِنَّا كُنَّا مُرْسِلِينَ
+- 44:6 رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 44:41 يَوْمَ لَا يُغْنِى مَوْلًى عَن مَّوْلًۭى شَيْـًۭٔا وَلَا هُمْ يُنصَرُونَ
+- 44:42 إِلَّا مَن رَّحِمَ ٱللَّهُ ۚ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ
+- 45:20 هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًۭى وَرَحْمَةٌۭ لِّقَوْمٍۢ يُوقِنُونَ
+- 45:30 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْمُبِينُ
+- 45:31 وَأَمَّا ٱلَّذِينَ كَفَرُوٓا۟ أَفَلَمْ تَكُنْ ءَايَٰتِى تُتْلَىٰ عَلَيْكُمْ فَٱسْتَكْبَرْتُمْ وَكُنتُمْ قَوْمًۭا مُّجْرِمِينَ
+- 46:8 أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَلَا تَمْلِكُونَ لِى مِنَ ٱللَّهِ شَيْـًٔا ۖ هُوَ أَعْلَمُ بِمَا تُفِيضُونَ فِيهِ ۖ كَفَىٰ بِهِۦ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۖ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 46:12 وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًۭا وَرَحْمَةًۭ ۚ وَهَٰذَا كِتَٰبٌۭ مُّصَدِّقٌۭ لِّسَانًا عَرَبِيًّۭا لِّيُنذِرَ ٱلَّذِينَ ظَلَمُوا۟ وَبُشْرَىٰ لِلْمُحْسِنِينَ
+- 47:22 فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ
+- 48:25 هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍۢ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا
+- 49:10 إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌۭ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ
+- 50:33 مَّنْ خَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ وَجَآءَ بِقَلْبٍۢ مُّنِيبٍ
+- 50:34 ٱدْخُلُوهَا بِسَلَٰمٍۢ ۖ ذَٰلِكَ يَوْمُ ٱلْخُلُودِ
+- 52:27 فَمَنَّ ٱللَّهُ عَلَيْنَا وَوَقَىٰنَا عَذَابَ ٱلسَّمُومِ
+- 52:28 إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ ٱلرَّحِيمُ
+- 55:1 ٱلرَّحْمَٰنُ
+- 55:2 عَلَّمَ ٱلْقُرْءَانَ
+- 55:3 خَلَقَ ٱلْإِنسَٰنَ
+- 55:4 عَلَّمَهُ ٱلْبَيَانَ
+- 57:27 ثُمَّ قَفَّيْنَا عَلَىٰٓ ءَاثَٰرِهِم بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةًۭ وَرَحْمَةًۭ وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ ءَامَنُوا۟ مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌۭ مِّنْهُمْ فَٰسِقُونَ
+- 57:28 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًۭا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 59:10 وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ
+- 59:22 هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ
+- 60:3 لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَآ أَوْلَٰدُكُمْ ۚ يَوْمَ ٱلْقِيَٰمَةِ يَفْصِلُ بَيْنَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 60:12 يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًۭٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍۢ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍۢ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 64:14 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَٰدِكُمْ عَدُوًّۭا لَّكُمْ فَٱحْذَرُوهُمْ ۚ وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 67:3 ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍۢ طِبَاقًۭا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍۢ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍۢ
+- 67:19 أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍۢ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ
+- 67:20 أَمَّنْ هَٰذَا ٱلَّذِى هُوَ جُندٌۭ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَٰنِ ۚ إِنِ ٱلْكَٰفِرُونَ إِلَّا فِى غُرُورٍ
+- 67:29 قُلْ هُوَ ٱلرَّحْمَٰنُ ءَامَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَٰلٍۢ مُّبِينٍۢ
+- 76:31 يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا
+- 78:36 جَزَآءًۭ مِّن رَّبِّكَ عَطَآءً حِسَابًۭا
+- 78:37 رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًۭا
+- 78:38 يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّۭا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًۭا
+- 78:39 ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا
+- 85:13 إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ
+- 85:14 وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ
+- 85:15 ذُو ٱلْعَرْشِ ٱلْمَجِيدُ
+- 85:16 فَعَّالٌۭ لِّمَا يُرِيدُ
+- 90:16 أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ
+- 90:17 ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ

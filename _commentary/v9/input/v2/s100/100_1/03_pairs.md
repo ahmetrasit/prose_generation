@@ -1,0 +1,323 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 272.
+## ع د و (وَٱلْعَٰدِيَٰتِ)
+
+- **B001** hakkı aşan saldırganlık / مجاوزة الحد والظلم
+  - same: ع و د B004 tekrarla alışkanlık ve yatkınlık kazanma / عادة ودرَبة ومواظبة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ص ب ح B004 günün başında baskın / يوم الصباح ← 100:3 صُبْحًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B002** yaya ya da atla koşma / العَدْو والحَضْر
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - same: ع و د B009 eski yol ve köklü geçmiş / قدم وطريق عود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: ش ه د B008 durumu gösteren belirti / العلامة الشاهدة ← 100:7 لَشَهِيدٌ
+  - near: ق د ح B006 içecek kabı, yapımcısı ve yapım işi / قدح الشرب ← 100:2 قَدْحًا
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 100:10 ٱلصُّدُورِ
+- **B003** düşmanlık ve düşman / العَدُوّ والعداوة
+  - same: ع د د B001 sayma, sayı ve sayıya göre bir topluluğa katma / إحصاء المعدود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B002 dönüş yeri ve son varış / مصير ومرجع ومعاد ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: ج م ع B004 toplanmayla belirlenen yer veya gün / موضع أو يوم أو نداء يجمع الناس ← 100:5 جَمْعًا
+  - near: ش ه د B001 hazır bulunup görme / الحضور مع المشاهدة ← 100:7 لَشَهِيدٌ
+  - far: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:11 رَبَّهُم
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B004** aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف
+  - same: ع و د B001 geri dönme ve yeniden yapma / رجوع بعد انصراف وتثنية بعد بدء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B001 sayma, sayı ve sayıya göre bir topluluğa katma / إحصاء المعدود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B004 siyaha doğru kararma / تغير اللون إلى السواد ← 100:1 ضَبْحًا
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ج م ع B013 bir işte başkasıyla birleşip destek olma / ممالأة واجتماع مع غيرك على أمر ← 100:5 جَمْعًا
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 100:11 رَبَّهُم
+- **B005** yetkiliden hakkını almasını isteme / العَدْوى في طلب الإنصاف
+  - same: ع و د B006 kişiye dönen yarar ve iyilik / عائدة ومعروف يرجع ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B006 karşılıklı paydaşlık, pay ve denk sayılma / نظير يعد مع غيره ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - far: ص د ر B005 para ödeme ve güvence yükümlülüğü koyma / المصادرة على مال ← 100:10 ٱلصُّدُورِ
+  - far: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+- **B006** hastalığın bulaşması / العَدْوى في انتقال الداء
+  - same: ع د د B006 karşılıklı paydaşlık, pay ve denk sayılma / نظير يعد مع غيره ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B005 hasta veya yas ziyareti / عيادة ومعادة وزيارة راجعة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ن ق ع B008 işlerin yollarını yordamını deneyerek öğrenmiş kişi / شراب بأنقع مجرب للموارد ← 100:4 نَقْعًا
+  - near: ح ب ب B004 kalbin içindeki kara öz / حبة القلب سويداؤه ← 100:8 لِحُبِّ
+  - far: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 100:9 يَعْلَمُ
+  - far: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 100:11 رَبَّهُم
+- **B007** işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B001 geri dönme ve yeniden yapma / رجوع بعد انصراف وتثنية بعد بدء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ك ن د B002 gördüğü iyiliği bilmezlik / كفران النعمة والمودة ← 100:6 لَكَنُودٌ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: خ ي ر B001 arzulanan iyilik / الميل إلى الخير النافع ← 100:8 ٱلْخَيْرِ
+  - far: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - far: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:11 رَبَّهُم
+- **B008** iki avı peş peşe ele geçirme / العِداء في تعاقب الصيد
+  - same: ع و د B004 tekrarla alışkanlık ve yatkınlık kazanma / عادة ودرَبة ومواظبة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B006 karşılıklı paydaşlık, pay ve denk sayılma / نظير يعد مع غيره ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:6 لِرَبِّهِۦ
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: ج م ع B008 elleri boyna bağlayan kelepçe / القيد الذي يجمع اليدين إلى العنق ← 100:5 جَمْعًا
+  - far: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:11 رَبَّهُم
+  - far: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+- **B009** boyunca uzanan yan ve kıyı / العَداء والعُدوة في الجانب والطوار
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B001 geri dönme ve yeniden yapma / رجوع بعد انصراف وتثنية بعد بدء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 100:6 ٱلْإِنسَٰنَ
+  - near: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - far: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 100:10 ٱلصُّدُورِ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B010** sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه
+  - same: ع د د B004 kaynağı kesilmeyen kalıcı su ve su yeri / الماء العد ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B009 eski yol ve köklü geçmiş / قدم وطريق عود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ن ق ع B007 ince killi, verimli ve engebesiz düz arazi / نقاع الأرض القيعان السهلة ← 100:4 نَقْعًا
+  - near: ك ن د B003 hiçbir bitki yetiştirmeyen toprak / الأرض التي لا تنبت ← 100:6 لَكَنُودٌ
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - far: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 100:11 لَّخَبِيرٌۢ
+  - far: ق ب ر B002 gizli, alçakta veya içe gömülü kalma / غموض الشيء وتطامنه ← 100:9 ٱلْقُبُورِ
+- **B011** develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف
+  - same: ع و د B008 gücü kalmış yaşlı deve / عود مسن فيه بقايا قوة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 100:6 لِرَبِّهِۦ
+  - near: ق د ح B009 bitkinin körpe uç yaprakları / رخص أطراف النبت ← 100:2 قَدْحًا
+  - near: ح ب ب B010 kısa veya küçük yapılı; develerde cılız / الحبحاب الصغير القصير ← 100:8 لِحُبِّ
+  - far: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 100:11 رَبَّهُم
+  - far: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+- **B012** eğrilik ve güçlük / العَنْدَأْوَة في الالتواء والعسر
+  - same: ع و د B001 geri dönme ve yeniden yapma / رجوع بعد انصراف وتثنية بعد بدء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: و ر ي B007 torun / ولد الولد يأتي من وراء الابن ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:6 لِرَبِّهِۦ
+  - near: ح ب ب B004 kalbin içindeki kara öz / حبة القلب سويداؤه ← 100:8 لِحُبِّ
+  - far: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:11 رَبَّهُم
+  - far: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 100:9 يَعْلَمُ
+
+## ع د د (وَٱلْعَٰدِيَٰتِ)
+
+- **B001** sayma, sayı ve sayıya göre bir topluluğa katma / إحصاء المعدود
+  - same: ع د و B003 düşmanlık ve düşman / العَدُوّ والعداوة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B007 yeniden gelen özel gün veya hâl / عيد وحال يعاود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 100:8 لَشَدِيدٌ
+  - near: ج م ع B003 düşünüp kesin bir tutuma bağlanma / عزم محكم جمع الرأي بعد تفرقه ← 100:5 جَمْعًا
+  - near: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 100:6 لِرَبِّهِۦ
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: ح ص ل B001 toplama ve elde kalanı ortaya koyma / جمع الشيء حتى يظهر حاصله ← 100:10 وَحُصِّلَ
+- **B002** gelecekteki bir iş için hazırlama ve hazır bulundurma / تهيئة العدة
+  - same: ع و د B004 tekrarla alışkanlık ve yatkınlık kazanma / عادة ودرَبة ومواظبة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B003 düşmanlık ve düşman / العَدُوّ والعداوة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 100:8 لَشَدِيدٌ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:6 لِرَبِّهِۦ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+  - far: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+- **B003** sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi / مدة العدة المعدودة
+  - same: ع و د B012 biçime bağlı adlandırmalar / عاد وأعلام منسوبة إليها ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B007 işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: ص ب ح B001 günün ilk aydınlığı / الصبح وأول النهار ← 100:3 صُبْحًا
+  - near: ج م ع B004 toplanmayla belirlenen yer veya gün / موضع أو يوم أو نداء يجمع الناس ← 100:5 جَمْعًا
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:11 رَبَّهُم
+- **B004** kaynağı kesilmeyen kalıcı su ve su yeri / الماء العد
+  - same: ع و د B009 eski yol ve köklü geçmiş / قدم وطريق عود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B003 düşmanlık ve düşman / العَدُوّ والعداوة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B005 kül / الرماد ← 100:1 ضَبْحًا
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:6 لِرَبِّهِۦ
+  - near: ن ق ع B001 suyun birikmesi ve suda bekletmeye bağlı adlandırmalar / استقرار الماء وما ينقع فيه ← 100:4 نَقْعًا
+  - near: ج م ع B009 eksiksiz bütünlük / اكتمال الشيء كله بلا تفرق أو نقص ← 100:5 جَمْعًا
+  - far: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 100:9 يَعْلَمُ
+  - far: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:11 رَبَّهُم
+- **B005** belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته
+  - same: ع و د B001 geri dönme ve yeniden yapma / رجوع بعد انصراف وتثنية بعد بدء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B007 işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B001 tilki sesi ve ona benzetilen sesler / صوت الضباح ← 100:1 ضَبْحًا
+  - near: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 100:8 لَشَدِيدٌ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:6 لِرَبِّهِۦ
+  - near: ص ب ح B004 günün başında baskın / يوم الصباح ← 100:3 صُبْحًا
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 100:10 ٱلصُّدُورِ
+- **B006** karşılıklı paydaşlık, pay ve denk sayılma / نظير يعد مع غيره
+  - same: ع د و B006 hastalığın bulaşması / العَدْوى في انتقال الداء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B006 kişiye dönen yarar ve iyilik / عائدة ومعروف يرجع ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ج م ع B013 bir işte başkasıyla birleşip destek olma / ممالأة واجتماع مع غيرك على أمر ← 100:5 جَمْعًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - far: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+
+## ع و د (وَٱلْعَٰدِيَٰتِ)
+
+- **B001** geri dönme ve yeniden yapma / رجوع بعد انصراف وتثنية بعد بدء
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B007 işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ق د ح B002 çentik açmak ve oluşan kusur / نقر الشيء وعيبه ← 100:2 قَدْحًا
+  - far: ص د ر B003 geldiği yerden ayrılıp dönme / الصُّدور عن المورد ← 100:10 ٱلصُّدُورِ
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+- **B002** dönüş yeri ve son varış / مصير ومرجع ومعاد
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B003 düşmanlık ve düşman / العَدُوّ والعداوة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ش ه د B001 hazır bulunup görme / الحضور مع المشاهدة ← 100:7 لَشَهِيدٌ
+  - near: ج م ع B004 toplanmayla belirlenen yer veya gün / موضع أو يوم أو نداء يجمع الناس ← 100:5 جَمْعًا
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 100:6 لِرَبِّهِۦ
+  - far: ص د ر B003 geldiği yerden ayrılıp dönme / الصُّدور عن المورد ← 100:10 ٱلصُّدُورِ
+  - far: ق ب ر B001 ölüyü gömme, ona gömü yeri sağlama ve gömü yeri / مواراة الميت في القبر ← 100:9 ٱلْقُبُورِ
+- **B003** tek söz söylememek / سكوت لا يبدئ ولا يعيد
+  - same: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B001 tilki sesi ve ona benzetilen sesler / صوت الضباح ← 100:1 ضَبْحًا
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ج م ع B011 adı bilinmeyen çekirdekten yetişme hurma ağacı / نخل دقل اجتمع من النوى لا يعرف اسمه ← 100:5 جَمْعًا
+  - near: ش ه د B005 ifade eden dil / اللسان الشاهد ← 100:7 لَشَهِيدٌ
+  - far: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+- **B004** tekrarla alışkanlık ve yatkınlık kazanma / عادة ودرَبة ومواظبة
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B008 iki avı peş peşe ele geçirme / العِداء في تعاقب الصيد ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B002 ön bacakları uzatarak koşma / عدو ممدود الضبعين ← 100:1 ضَبْحًا
+  - near: ن ق ع B008 işlerin yollarını yordamını deneyerek öğrenmiş kişi / شراب بأنقع مجرب للموارد ← 100:4 نَقْعًا
+  - near: ش د د B002 güç, katılık ve çetinlik / شدة القوة والصلابة ← 100:8 لَشَدِيدٌ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:6 لِرَبِّهِۦ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+- **B005** hasta veya yas ziyareti / عيادة ومعادة وزيارة راجعة
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B007 işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ش ه د B001 hazır bulunup görme / الحضور مع المشاهدة ← 100:7 لَشَهِيدٌ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ن ق ع B008 işlerin yollarını yordamını deneyerek öğrenmiş kişi / شراب بأنقع مجرب للموارد ← 100:4 نَقْعًا
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B006** kişiye dönen yarar ve iyilik / عائدة ومعروف يرجع
+  - same: ع د د B006 karşılıklı paydaşlık, pay ve denk sayılma / نظير يعد مع غيره ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B005 yetkiliden hakkını almasını isteme / العَدْوى في طلب الإنصاف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+- **B007** yeniden gelen özel gün veya hâl / عيد وحال يعاود
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B007 işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ج م ع B004 toplanmayla belirlenen yer veya gün / موضع أو يوم أو نداء يجمع الناس ← 100:5 جَمْعًا
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ش ه د B001 hazır bulunup görme / الحضور مع المشاهدة ← 100:7 لَشَهِيدٌ
+  - far: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 100:11 رَبَّهُم
+  - far: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+- **B008** gücü kalmış yaşlı deve / عود مسن فيه بقايا قوة
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - same: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 100:8 لَشَدِيدٌ
+  - near: ق د ح B004 ağaç ve dişte kemirilme ya da çürüme / أكال الشجر والسن ← 100:2 قَدْحًا
+  - near: ح ب ب B005 devenin güçsüzlükten yerinden ayrılamaması / البعير يلزم مكانه من عجز ← 100:8 لِحُبِّ
+  - far: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B009** eski yol ve köklü geçmiş / قدم وطريق عود
+  - same: ع د د B004 kaynağı kesilmeyen kalıcı su ve su yeri / الماء العد ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - same: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ق د ح B007 uçsuz ve tüysüz ok gövdesi; talih oyunu oku / عود السهم والقدح في الميسر ← 100:2 قَدْحًا
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 100:6 لِرَبِّهِۦ
+  - near: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - far: ص د ر B003 geldiği yerden ayrılıp dönme / الصُّدور عن المورد ← 100:10 ٱلصُّدُورِ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B010** tahta parçası, tütsülük odun veya telli çalgı / عود من خشب وطيب وآلة
+  - same: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - same: ع د و B007 işten alıkoyan uğraş veya engel / العَوادي والعادية الشاغلة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ق د ح B007 uçsuz ve tüysüz ok gövdesi; talih oyunu oku / عود السهم والقدح في الميسر ← 100:2 قَدْحًا
+  - near: خ ي ر B006 bir geçidi tıkayıp hayvanı yuvasından çıkarma / استدراج الحيوان من جحره ← 100:8 ٱلْخَيْرِ
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:6 لِرَبِّهِۦ
+  - far: ق ب ر B002 gizli, alçakta veya içe gömülü kalma / غموض الشيء وتطامنه ← 100:9 ٱلْقُبُورِ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+- **B012** biçime bağlı adlandırmalar / عاد وأعلام منسوبة إليها
+  - same: ع د و B012 eğrilik ve güçlük / العَنْدَأْوَة في الالتواء والعسر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B003 sayılı zaman dilimi ve bağlama bağlı bekleme ya da tamamlama süresi / مدة العدة المعدودة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ض ب ح B004 siyaha doğru kararma / تغير اللون إلى السواد ← 100:1 ضَبْحًا
+  - near: ث و ر B006 dağ, topluluk veya burç için özel ad / ثور اسما لمكان أو قوم أو برج ← 100:4 فَأَثَرْنَ
+  - near: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 100:6 لِرَبِّهِۦ
+  - near: ق د ح B003 birinin soyuna dil uzatmak / طعن في النسب ← 100:2 قَدْحًا
+  - far: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 100:11 رَبَّهُم
+  - far: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 100:9 يَعْلَمُ
+
+## ض ب ح (ضَبْحًا)
+
+- **B001** tilki sesi ve ona benzetilen sesler / صوت الضباح
+  - same: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B004 tekrarla alışkanlık ve yatkınlık kazanma / عادة ودرَبة ومواظبة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ن ق ع B005 yüksek sesle bağırma ve sesi sürdürme / نقع الصوت المرتفع ← 100:4 نَقْعًا
+  - near: ص ب ح B004 günün başında baskın / يوم الصباح ← 100:3 صُبْحًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - far: ب ع ث ر B003 havuzu yıkıp altını üste çevirme / هدم الحوض وقلب أسفله أعلاه ← 100:9 بُعْثِرَ
+  - far: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 100:9 يَعْلَمُ
+- **B002** ön bacakları uzatarak koşma / عدو ممدود الضبعين
+  - same: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع و د B008 gücü kalmış yaşlı deve / عود مسن فيه بقايا قوة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B001 sayma, sayı ve sayıya göre bir topluluğa katma / إحصاء المعدود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: خ ي ر B006 bir geçidi tıkayıp hayvanı yuvasından çıkarma / استدراج الحيوان من جحره ← 100:8 ٱلْخَيْرِ
+  - near: ق د ح B008 yalıtık adlandırmalar / ضمر الفرس وغؤور العين ← 100:2 قَدْحًا
+  - far: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 100:9 يَعْلَمُ
+  - far: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+- **B003** üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود
+  - same: ع و د B010 tahta parçası, tütsülük odun veya telli çalgı / عود من خشب وطيب وآلة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B005 belirli zaman ve bilinen aralıklarla geri gelme / عداد الوقت ومعاودته ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ح ب ب B011 yararsız zayıf kıvılcım veya gece ışıldayan böcek / نار الحباحب شرر لا ينتفع به ← 100:8 لِحُبِّ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+  - far: ب ع ث ر B003 havuzu yıkıp altını üste çevirme / هدم الحوض وقلب أسفله أعلاه ← 100:9 بُعْثِرَ
+- **B004** siyaha doğru kararma / تغير اللون إلى السواد
+  - same: ع و د B008 gücü kalmış yaşlı deve / عود مسن فيه بقايا قوة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B002 gelecekteki bir iş için hazırlama ve hazır bulundurma / تهيئة العدة ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ص ب ح B006 kızılımsı parlak güzellik / الصُّبْحة والصباحة ← 100:3 صُبْحًا
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 100:6 ٱلْإِنسَٰنَ
+  - far: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - far: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B005** kül / الرماد
+  - same: ع و د B009 eski yol ve köklü geçmiş / قدم وطريق عود ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د د B004 kaynağı kesilmeyen kalıcı su ve su yeri / الماء العد ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - same: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ق د ح B009 bitkinin körpe uç yaprakları / رخص أطراف النبت ← 100:2 قَدْحًا
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 100:8 لَشَدِيدٌ
+  - near: خ ي ر B006 bir geçidi tıkayıp hayvanı yuvasından çıkarma / استدراج الحيوان من جحره ← 100:8 ٱلْخَيْرِ
+  - far: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 100:9 يَعْلَمُ
+  - far: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:11 رَبَّهُم
+

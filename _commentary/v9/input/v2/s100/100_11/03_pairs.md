@@ -1,0 +1,246 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 203.
+## ر ب ب (رَبَّهُم)
+
+- **B001** sahip olup yönetme / ربوبية وملك وسيادة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 100:6 ٱلْإِنسَٰنَ
+  - near: و س ط B001 adil ve seçkin orta olma / العدل والخيار في موضع الوسط ← 100:5 فَوَسَطْنَ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+- **B002** adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 100:11 رَبَّهُم
+  - same: خ ب ر B003 üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة ← 100:11 لَّخَبِيرٌۢ
+  - near: ك ن د B002 gördüğü iyiliği bilmezlik / كفران النعمة والمودة ← 100:6 لَكَنُودٌ
+  - near: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+- **B003** Tanrı bilgisiyle yetiştiren bilgin / علم رباني
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: ش ه د B002 bilgiye dayalı tanıklık / البيان بعلم ← 100:7 لَشَهِيدٌ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+- **B004** büyük insan topluluğu / ربة وجماعات كثيرة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ج م ع B002 bir araya gelmiş insan topluluğu / جماعة اجتمعت أو أخلاط ضمتها الجهة ← 100:5 جَمْعًا
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 100:6 ٱلْإِنسَٰنَ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 100:9 يَعْلَمُ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: و ر ي B008 yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض ← 100:2 فَٱلْمُورِيَٰتِ
+- **B005** bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 100:11 رَبَّهُم
+  - same: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 100:6 ٱلْإِنسَٰنَ
+  - near: ج م ع B013 bir işte başkasıyla birleşip destek olma / ممالأة واجتماع مع غيرك على أمر ← 100:5 جَمْعًا
+  - near: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - far: و ر ي B007 torun / ولد الولد يأتي من وراء الابن ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B006** koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 100:8 لِحُبِّ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: ش ه د B007 petekli bal / الشَّهْد في الشمع ← 100:7 لَشَهِيدٌ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+- **B007** bir yerde kalıp sürme / لزوم وإقامة ودوام
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 100:11 رَبَّهُم
+  - same: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ح ب ب B005 devenin güçsüzlükten yerinden ayrılamaması / البعير يلزم مكانه من عجز ← 100:8 لِحُبِّ
+  - near: ث و ر B006 dağ, topluluk veya burç için özel ad / ثور اسما لمكان أو قوم أو برج ← 100:4 فَأَثَرْنَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 100:1 وَٱلْعَٰدِيَٰتِ
+- **B008** katmanlı asılı bulut kümesi / رباب السحاب
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: ح ب ب B008 su kabarcıkları, su yüzeyi ve ağaç üzerindeki çiy / حباب الماء فقاقيعه وطرائقه ← 100:8 لِحُبِّ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+- **B009** başlangıçtaki tazelik / شاة رُبّى وحداثة
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 100:11 رَبَّهُم
+  - same: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ش ه د B006 doğum ve erginlik belirtisi / الخارج عند الولادة والإدراك ← 100:7 لَشَهِيدٌ
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 100:8 لِحُبِّ
+  - near: ش د د B004 güç ve sağduyu bakımından olgunluğa erişme / بلوغ الأشد ← 100:8 لَشَدِيدٌ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B010** kura oklarını toplayan kap / ربابة تجمع القداح
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ح ب ب B007 iri küp ve iki kulplu küpün dört parçalı desteği / الحب جرة عظيمة أو موضعها ← 100:8 لِحُبِّ
+  - near: ج م ع B002 bir araya gelmiş insan topluluğu / جماعة اجتمعت أو أخلاط ضمتها الجهة ← 100:5 جَمْعًا
+  - near: ث و ر B005 kurutulmuş çökelek parçası / ثورة الأقط: قطعة جامدة ← 100:4 فَأَثَرْنَ
+  - far: ق د ح B006 içecek kabı, yapımcısı ve yapım işi / قدح الشرب ← 100:2 قَدْحًا
+  - far: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+- **B011** bağlayıcı söz ve güvence / ربابة عهد وميثاق
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - near: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 100:8 لَشَدِيدٌ
+  - near: ث و ر B006 dağ, topluluk veya burç için özel ad / ثور اسما لمكان أو قوم أو برج ← 100:4 فَأَثَرْنَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - far: ع د و B008 iki avı peş peşe ele geçirme / العِداء في تعاقب الصيد ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: غ ي ر B002 cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B012** belirli bir yeşil bitki türü / ربة نبات
+  - same: ر ب و B002 yükselmiş arazi / أرض مرتفعة ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ح ب ب B001 tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب ← 100:8 لِحُبِّ
+  - near: ق ب ر B003 belirli bir kuş türünün adı / القُبَّرة الطائر ← 100:9 ٱلْقُبُورِ
+  - near: ك ن د B003 hiçbir bitki yetiştirmeyen toprak / الأرض التي لا تنبت ← 100:6 لَكَنُودٌ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: ق د ح B009 bitkinin körpe uç yaprakları / رخص أطراف النبت ← 100:2 قَدْحًا
+- **B013** bol ve toplanmış su / ماء رَبَب كثير
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 100:11 لَّخَبِيرٌۢ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 100:9 يَعْلَمُ
+  - near: ث و ر B007 su yüzeyini kaplayan yosun / ثور الماء: طحلب يعلو السطح ← 100:4 فَأَثَرْنَ
+  - near: ن ق ع B001 suyun birikmesi ve suda bekletmeye bağlı adlandırmalar / استقرار الماء وما ينقع فيه ← 100:4 نَقْعًا
+  - far: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: ض ب ح B005 kül / الرماد ← 100:1 ضَبْحًا
+- **B014** yaban sığırı sürüsü / رَبْرَب قطيع
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ث و ر B004 erkek sığır / الثور: ذكر البقر ← 100:4 فَأَثَرْنَ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 100:6 ٱلْإِنسَٰنَ
+  - near: ج م ع B002 bir araya gelmiş insan topluluğu / جماعة اجتمعت أو أخلاط ضمتها الجهة ← 100:5 جَمْعًا
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: ص ب ح B008 gün doğana dek çöken deve / الناقة المصباح ← 100:3 صُبْحًا
+- **B015** azlık bildiren ilgeç / حرف رب وربما
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 100:11 رَبَّهُم
+  - same: خ ب ر B003 üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة ← 100:11 لَّخَبِيرٌۢ
+  - near: ح ب ب B003 övgü, güçlü istek ve kabul bildiren kalıplar / صيغة المدح وغاية الرغبة ← 100:8 لِحُبِّ
+  - near: ب ع ث ر B001 toprağı çevirip gömülüyü çıkarma; bir şeyi çıkarıp açığa kavuşturma / قلب التراب وكشف المدفون ← 100:9 بُعْثِرَ
+  - near: ج م ع B011 adı bilinmeyen çekirdekten yetişme hurma ağacı / نخل دقل اجتمع من النوى لا يعرف اسمه ← 100:5 جَمْعًا
+  - far: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+- **B016** gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ك ن د B002 gördüğü iyiliği bilmezlik / كفران النعمة والمودة ← 100:6 لَكَنُودٌ
+  - near: ح ب ب B001 tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب ← 100:8 لِحُبِّ
+  - near: ش د د B001 bağlayıp sağlamlaştırma / شد العقد والوثاق ← 100:8 لَشَدِيدٌ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+- **B017** gemicilerin başı / رباني الملاحين
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: و س ط B005 insanlar arasında aracılık etme / الوساطة بين الناس ← 100:5 فَوَسَطْنَ
+  - near: ح ب ب B001 tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب ← 100:8 لِحُبِّ
+  - near: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 100:9 يَعْلَمُ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: ق د ح B006 içecek kabı, yapımcısı ve yapım işi / قدح الشرب ← 100:2 قَدْحًا
+
+## ر ب و (رَبَّهُم)
+
+- **B001** artmak veya yükselmek / زيادة وعلو
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+  - same: خ ب ر B003 üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:6 لِرَبِّهِۦ
+  - near: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - near: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 100:10 ٱلصُّدُورِ
+  - far: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+- **B002** yükselmiş arazi / أرض مرتفعة
+  - same: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:11 رَبَّهُم
+  - same: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:6 لِرَبِّهِۦ
+  - near: ن ق ع B007 ince killi, verimli ve engebesiz düz arazi / نقاع الأرض القيعان السهلة ← 100:4 نَقْعًا
+  - near: ك ن د B003 hiçbir bitki yetiştirmeyen toprak / الأرض التي لا تنبت ← 100:6 لَكَنُودٌ
+  - far: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: و ر ي B008 yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض ← 100:2 فَٱلْمُورِيَٰتِ
+- **B003** belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة
+  - same: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:11 رَبَّهُم
+  - same: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:6 لِرَبِّهِۦ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ص د ر B004 eylem türetme temeli; çıkış yeri veya zamanı / الأصل الذي تصدر عنه الأفعال ← 100:10 ٱلصُّدُورِ
+  - far: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 100:1 وَٱلْعَٰدِيَٰتِ
+- **B004** soluğu yükselip sıkışmak / تصعد النفس وانتفاخه
+  - same: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:6 لِرَبِّهِۦ
+  - near: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 100:10 ٱلصُّدُورِ
+  - near: ق ب ر B004 burun ucu ve öfkeli gelişte burnun belirginleşmesi / طرف الأنف في الغضب ← 100:9 ٱلْقُبُورِ
+  - far: ع د و B002 yaya ya da atla koşma / العَدْو والحَضْر ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: و ر ي B001 iç organları bozan ya da akciğeri tutan hastalık / داء يأكل الجوف أو يصيب الرئة ← 100:2 فَٱلْمُورِيَٰتِ
+- **B005** besleyip büyütmek ve yetişmek / تغذية ونشوء
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:6 لِرَبِّهِۦ
+  - near: ش ه د B006 doğum ve erginlik belirtisi / الخارج عند الولادة والإدراك ← 100:7 لَشَهِيدٌ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: و ر ي B007 torun / ولد الولد يأتي من وراء الابن ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B006** uyluk kökü ve iç yanlardaki iki çıkıntılı et parçası / نتوء أصل الفخذ
+  - same: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 100:11 رَبَّهُم
+  - same: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 100:6 لِرَبِّهِۦ
+  - near: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 100:10 ٱلصُّدُورِ
+  - near: ح ب ب B007 iri küp ve iki kulplu küpün dört parçalı desteği / الحب جرة عظيمة أو موضعها ← 100:8 لِحُبِّ
+  - far: و ر ي B008 yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: ص ب ح B009 gün başı zaman kalıbı / ظروف الصباح ← 100:3 صُبْحًا
+- **B007** baba tarafından yakın hane halkının arasına gelmek / أهل البيت من بني الأعمام
+  - same: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 100:11 رَبَّهُم
+  - same: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 100:6 لِرَبِّهِۦ
+  - near: ق ب ر B004 burun ucu ve öfkeli gelişte burnun belirginleşmesi / طرف الأنف في الغضب ← 100:9 ٱلْقُبُورِ
+  - near: ج م ع B002 bir araya gelmiş insan topluluğu / جماعة اجتمعت أو أخلاط ضمتها الجهة ← 100:5 جَمْعًا
+  - far: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: ق د ح B003 birinin soyuna dil uzatmak / طعن في النسب ← 100:2 قَدْحًا
+
+## خ ب ر (لَّخَبِيرٌۢ)
+
+- **B001** bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر
+  - same: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 100:11 رَبَّهُم
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - near: ش ه د B002 bilgiye dayalı tanıklık / البيان بعلم ← 100:7 لَشَهِيدٌ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 100:6 لِرَبِّهِۦ
+  - far: و ر ي B005 gizleme, gizlenme ve başka anlam gösterme / ستر الشيء وجعله وراء الظهور ← 100:2 فَٱلْمُورِيَٰتِ
+  - far: ق د ح B010 bir işi düşünüp nasıl yürütüleceğini tasarlamak / اقتداح الأمر بالنظر والتدبير ← 100:2 قَدْحًا
+- **B002** gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها
+  - same: ر ب و B002 yükselmiş arazi / أرض مرتفعة ← 100:11 رَبَّهُم
+  - same: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:11 رَبَّهُم
+  - near: ن ق ع B007 ince killi, verimli ve engebesiz düz arazi / نقاع الأرض القيعان السهلة ← 100:4 نَقْعًا
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 100:9 يَعْلَمُ
+  - near: ق ب ر B002 gizli, alçakta veya içe gömülü kalma / غموض الشيء وتطامنه ← 100:9 ٱلْقُبُورِ
+  - far: ع د و B010 sert, kuru ve engebeli yer / العَدْواء في صلابة المكان واضطرابه ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: و ر ي B005 gizleme, gizlenme ve başka anlam gösterme / ستر الشيء وجعله وراء الظهور ← 100:2 فَٱلْمُورِيَٰتِ
+- **B003** üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة
+  - same: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:11 رَبَّهُم
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: ح ب ب B001 tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب ← 100:8 لِحُبِّ
+  - far: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - far: و ر ي B008 yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض ← 100:2 فَٱلْمُورِيَٰتِ
+- **B004** büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:11 رَبَّهُم
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 100:11 رَبَّهُم
+  - near: ج م ع B012 büyük kazan / عظم الشيء كأنه جامع ممتلئ ← 100:5 جَمْعًا
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:6 لِرَبِّهِۦ
+  - near: ح ب ب B007 iri küp ve iki kulplu küpün dört parçalı desteği / الحب جرة عظيمة أو موضعها ← 100:8 لِحُبِّ
+  - far: ص ب ح B008 gün doğana dek çöken deve / الناقة المصباح ← 100:3 صُبْحًا
+  - far: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B005** yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد
+  - same: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:11 رَبَّهُم
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 100:11 رَبَّهُم
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:6 لِرَبِّهِۦ
+  - near: ح ب ب B005 devenin güçsüzlükten yerinden ayrılamaması / البعير يلزم مكانه من عجز ← 100:8 لِحُبِّ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 100:9 يَعْلَمُ
+  - far: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: ق د ح B009 bitkinin körpe uç yaprakları / رخص أطراف النبت ← 100:2 قَدْحًا
+

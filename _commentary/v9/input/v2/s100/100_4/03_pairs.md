@@ -1,0 +1,176 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 135.
+## ث و ر (فَأَثَرْنَ)
+
+- **B001** gizlilikten çıkıp belirerek yayılma / انبعاث الشيء وانتشاره ظاهرا
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - same: ء ث ر B002 aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا ← 100:4 فَأَثَرْنَ
+  - near: ب ع ث ر B001 toprağı çevirip gömülüyü çıkarma; bir şeyi çıkarıp açığa kavuşturma / قلب التراب وكشف المدفون ← 100:9 بُعْثِرَ
+  - near: ق ب ر B002 gizli, alçakta veya içe gömülü kalma / غموض الشيء وتطامنه ← 100:9 ٱلْقُبُورِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B002** yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه
+  - same: ء ث ر B002 aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ب ع ث ر B001 toprağı çevirip gömülüyü çıkarma; bir şeyi çıkarıp açığa kavuşturma / قلب التراب وكشف المدفون ← 100:9 بُعْثِرَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: ش ه د B006 doğum ve erginlik belirtisi / الخارج عند الولادة والإدراك ← 100:7 لَشَهِيدٌ
+- **B003** saldırgan biçimde kabarıp karşı koyma / هيجان إلى مواجهة أو غضب
+  - same: ء ث ر B002 aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: و ر ي B005 gizleme, gizlenme ve başka anlam gösterme / ستر الشيء وجعله وراء الظهور ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ح ص ل B001 toplama ve elde kalanı ortaya koyma / جمع الشيء حتى يظهر حاصله ← 100:10 وَحُصِّلَ
+  - near: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B004** erkek sığır / الثور: ذكر البقر
+  - same: ء ث ر B002 aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 100:6 لِرَبِّهِۦ
+  - near: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 100:9 يَعْلَمُ
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 100:6 ٱلْإِنسَٰنَ
+- **B005** kurutulmuş çökelek parçası / ثورة الأقط: قطعة جامدة
+  - same: ء ث ر B009 eski yağ kalıntısı, yağ özü veya arınmış süt / بقية دسم قديم أو خلاصة سمن ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ج م ع B012 büyük kazan / عظم الشيء كأنه جامع ممتلئ ← 100:5 جَمْعًا
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - near: ح ب ب B001 tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب ← 100:8 لِحُبِّ
+- **B006** dağ, topluluk veya burç için özel ad / ثور اسما لمكان أو قوم أو برج
+  - same: ء ث ر B002 aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ق ب ر B003 belirli bir kuş türünün adı / القُبَّرة الطائر ← 100:9 ٱلْقُبُورِ
+  - near: ك ن د B004 Yemen'den bir topluluk ile atasının adı / اسم كندة ← 100:6 لَكَنُودٌ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 100:6 لِرَبِّهِۦ
+- **B007** su yüzeyini kaplayan yosun / ثور الماء: طحلب يعلو السطح
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - same: ء ث ر B007 kılıcın yüzey deseni, parlaklığı veya darbesi / أثر السيف في لمعانه أو ضربته ← 100:4 فَأَثَرْنَ
+  - near: ح ب ب B008 su kabarcıkları, su yüzeyi ve ağaç üzerindeki çiy / حباب الماء فقاقيعه وطرائقه ← 100:8 لِحُبِّ
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:6 لِرَبِّهِۦ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 100:9 يَعْلَمُ
+
+## ء ث ر (فَأَثَرْنَ)
+
+- **B001** en başa almak; yapmaya kesin karar vermek / تقديم الشيء في البدء أو الاختيار
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: خ ي ر B003 daha iyi olanı seçme / طلب الخير بالاختيار والاستخارة ← 100:8 ٱلْخَيْرِ
+  - near: ص د ر B004 eylem türetme temeli; çıkış yeri veya zamanı / الأصل الذي تصدر عنه الأفعال ← 100:10 ٱلصُّدُورِ
+  - near: ب ع ث ر B001 toprağı çevirip gömülüyü çıkarma; bir şeyi çıkarıp açığa kavuşturma / قلب التراب وكشف المدفون ← 100:9 بُعْثِرَ
+- **B002** aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B002 susuzluğu giderme; içe sindirip rahatlama / ماء ينقع الغلة ويروي ← 100:4 نَقْعًا
+  - near: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+- **B003** geride kalan belirti veya iz / علامة باقية تدل على ما كان
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+  - near: ش ه د B006 doğum ve erginlik belirtisi / الخارج عند الولادة والإدراك ← 100:7 لَشَهِيدٌ
+- **B004** izinden giderek takip etmek / السير على إثر سابق
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: و ر ي B006 konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+- **B005** üstün tutmak ve gözde saymak / تفضيل الغير أو الشيء بالاختيار
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: خ ي ر B003 daha iyi olanı seçme / طلب الخير بالاختيار والاستخارة ← 100:8 ٱلْخَيْرِ
+  - near: ح ب ب B002 sevgi ve yeğleme / المحبة الملازمة للقلب ← 100:8 لِحُبِّ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+- **B006** başkalarını dışlayarak kendine ayırmak / استبداد المرء بالشيء لنفسه
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B002 susuzluğu giderme; içe sindirip rahatlama / ماء ينقع الغلة ويروي ← 100:4 نَقْعًا
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: خ ي ر B003 daha iyi olanı seçme / طلب الخير بالاختيار والاستخارة ← 100:8 ٱلْخَيْرِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+- **B007** kılıcın yüzey deseni, parlaklığı veya darbesi / أثر السيف في لمعانه أو ضربته
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: ج م ع B005 sıkılmış avuç veya bir avuçluk miktar / قبضة الكف إذا ضمت الأصابع ← 100:5 جَمْعًا
+- **B008** deve ayağını iz bırakacak biçimde işaretleme ve işaretleme demiri / وسم خف البعير ليتبع أثره
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - near: ح ب ب B005 devenin güçsüzlükten yerinden ayrılamaması / البعير يلزم مكانه من عجز ← 100:8 لِحُبِّ
+  - near: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+- **B009** eski yağ kalıntısı, yağ özü veya arınmış süt / بقية دسم قديم أو خلاصة سمن
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B003 dönüş veya evlilik yemeği; kesilmiş deve; soğutulmuş katıksız süt / نقيعة طعام أو نحر أو لبن ← 100:4 نَقْعًا
+  - near: و ر ي B004 yağlı ve semiz olma; iliğin dolgunlaşması / شحم وار وسمن ظاهر ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 100:6 لِرَبِّهِۦ
+  - near: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+- **B011** alışarak kavrayıp ustalaşmak / حذق الشيء بالممارسة
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B008 işlerin yollarını yordamını deneyerek öğrenmiş kişi / شراب بأنقع مجرب للموارد ← 100:4 نَقْعًا
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 100:6 ٱلْإِنسَٰنَ
+  - near: ق د ح B010 bir işi düşünüp nasıl yürütüleceğini tasarlamak / اقتداح الأمر بالنظر والتدبير ← 100:2 قَدْحًا
+- **B012** keçi memesi koruyucu torbası / كيس يشد على ضرع العنز
+  - same: ث و ر B002 yerinden kaldırıp harekete geçirme / إثارة الشيء وتحريكه من موضعه ← 100:4 فَأَثَرْنَ
+  - same: ن ق ع B004 toz, özellikle havaya kalkmış toz / نقع الغبار المثار ← 100:4 نَقْعًا
+  - near: ش د د B003 saldırıya atılma ve hızla koşma / شد الحملة والعدو ← 100:8 لَشَدِيدٌ
+  - near: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 100:10 ٱلصُّدُورِ
+  - near: ع د و B012 eğrilik ve güçlük / العَنْدَأْوَة في الالتواء والعسر ← 100:1 وَٱلْعَٰدِيَٰتِ
+
+## ن ق ع (نَقْعًا)
+
+- **B001** suyun birikmesi ve suda bekletmeye bağlı adlandırmalar / استقرار الماء وما ينقع فيه
+  - same: ث و ر B001 gizlilikten çıkıp belirerek yayılma / انبعاث الشيء وانتشاره ظاهرا ← 100:4 فَأَثَرْنَ
+  - same: ء ث ر B006 başkalarını dışlayarak kendine ayırmak / استبداد المرء بالشيء لنفسه ← 100:4 فَأَثَرْنَ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 100:9 يَعْلَمُ
+  - near: ح ب ب B008 su kabarcıkları, su yüzeyi ve ağaç üzerindeki çiy / حباب الماء فقاقيعه وطرائقه ← 100:8 لِحُبِّ
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:6 لِرَبِّهِۦ
+- **B002** susuzluğu giderme; içe sindirip rahatlama / ماء ينقع الغلة ويروي
+  - same: ء ث ر B002 aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا ← 100:4 فَأَثَرْنَ
+  - same: ث و ر B007 su yüzeyini kaplayan yosun / ثور الماء: طحلب يعلو السطح ← 100:4 فَأَثَرْنَ
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 100:8 لِحُبِّ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 100:11 لَّخَبِيرٌۢ
+- **B003** dönüş veya evlilik yemeği; kesilmiş deve; soğutulmuş katıksız süt / نقيعة طعام أو نحر أو لبن
+  - same: ء ث ر B009 eski yağ kalıntısı, yağ özü veya arınmış süt / بقية دسم قديم أو خلاصة سمن ← 100:4 فَأَثَرْنَ
+  - same: ث و ر B005 kurutulmuş çökelek parçası / ثورة الأقط: قطعة جامدة ← 100:4 فَأَثَرْنَ
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 100:6 لِرَبِّهِۦ
+  - near: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ق د ح B005 sıvıyı elle ya da kepçeyle alma; bunun aracı, miktarı, kalıntısı ve kuyusu / غرف ما في القدر ← 100:2 قَدْحًا
+- **B004** toz, özellikle havaya kalkmış toz / نقع الغبار المثار
+  - same: ث و ر B001 gizlilikten çıkıp belirerek yayılma / انبعاث الشيء وانتشاره ظاهرا ← 100:4 فَأَثَرْنَ
+  - same: ء ث ر B002 aktarılıp kalıcılaşan anlatı veya bilgi / نقل الخبر حتى يصير مأثورا ← 100:4 فَأَثَرْنَ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+  - near: ح ب ب B008 su kabarcıkları, su yüzeyi ve ağaç üzerindeki çiy / حباب الماء فقاقيعه وطرائقه ← 100:8 لِحُبِّ
+- **B005** yüksek sesle bağırma ve sesi sürdürme / نقع الصوت المرتفع
+  - same: ث و ر B001 gizlilikten çıkıp belirerek yayılma / انبعاث الشيء وانتشاره ظاهرا ← 100:4 فَأَثَرْنَ
+  - same: ء ث ر B011 alışarak kavrayıp ustalaşmak / حذق الشيء بالممارسة ← 100:4 فَأَثَرْنَ
+  - near: ض ب ح B001 tilki sesi ve ona benzetilen sesler / صوت الضباح ← 100:1 ضَبْحًا
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 100:8 لَشَدِيدٌ
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 100:6 ٱلْإِنسَٰنَ
+- **B006** dişlerde toplanıp kalmış zehir; kalıcı ölüm ve öldürme / سم ناقع ثابت أو قاتل
+  - same: ء ث ر B009 eski yağ kalıntısı, yağ özü veya arınmış süt / بقية دسم قديم أو خلاصة سمن ← 100:4 فَأَثَرْنَ
+  - same: ث و ر B001 gizlilikten çıkıp belirerek yayılma / انبعاث الشيء وانتشاره ظاهرا ← 100:4 فَأَثَرْنَ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 100:11 لَّخَبِيرٌۢ
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - near: ق د ح B002 çentik açmak ve oluşan kusur / نقر الشيء وعيبه ← 100:2 قَدْحًا
+- **B007** ince killi, verimli ve engebesiz düz arazi / نقاع الأرض القيعان السهلة
+  - same: ث و ر B005 kurutulmuş çökelek parçası / ثورة الأقط: قطعة جامدة ← 100:4 فَأَثَرْنَ
+  - same: ء ث ر B008 deve ayağını iz bırakacak biçimde işaretleme ve işaretleme demiri / وسم خف البعير ليتبع أثره ← 100:4 فَأَثَرْنَ
+  - near: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 100:11 لَّخَبِيرٌۢ
+  - near: ك ن د B003 hiçbir bitki yetiştirmeyen toprak / الأرض التي لا تنبت ← 100:6 لَكَنُودٌ
+  - near: ش د د B005 günün ilerleyip yükselmesi / شد النهار وارتفاعه ← 100:8 لَشَدِيدٌ
+- **B008** işlerin yollarını yordamını deneyerek öğrenmiş kişi / شراب بأنقع مجرب للموارد
+  - same: ء ث ر B011 alışarak kavrayıp ustalaşmak / حذق الشيء بالممارسة ← 100:4 فَأَثَرْنَ
+  - same: ث و ر B007 su yüzeyini kaplayan yosun / ثور الماء: طحلب يعلو السطح ← 100:4 فَأَثَرْنَ
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 100:6 لِرَبِّهِۦ
+  - near: ع د و B006 hastalığın bulaşması / العَدْوى في انتقال الداء ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B009** ağır ve çirkin sözlerle sövmek / نقعه بالشتم القبيح
+  - same: ء ث ر B011 alışarak kavrayıp ustalaşmak / حذق الشيء بالممارسة ← 100:4 فَأَثَرْنَ
+  - same: ث و ر B005 kurutulmuş çökelek parçası / ثورة الأقط: قطعة جامدة ← 100:4 فَأَثَرْنَ
+  - near: ق د ح B003 birinin soyuna dil uzatmak / طعن في النسب ← 100:2 قَدْحًا
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - near: ق ب ر B004 burun ucu ve öfkeli gelişte burnun belirginleşmesi / طرف الأنف في الغضب ← 100:9 ٱلْقُبُورِ
+

@@ -1,0 +1,137 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 108.
+## و ر ي (فَٱلْمُورِيَٰتِ)
+
+- **B001** iç organları bozan ya da akciğeri tutan hastalık / داء يأكل الجوف أو يصيب الرئة
+  - same: ق د ح B004 ağaç ve dişte kemirilme ya da çürüme / أكال الشجر والسن ← 100:2 قَدْحًا
+  - near: ح ب ب B006 suyla dolmak veya doldurup dolulaştırmak / الري حتى الامتلاء ← 100:8 لِحُبِّ
+  - near: ق ب ر B002 gizli, alçakta veya içe gömülü kalma / غموض الشيء وتطامنه ← 100:9 ٱلْقُبُورِ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 100:9 يَعْلَمُ
+  - far: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 100:10 ٱلصُّدُورِ
+  - far: ح ص ل B004 kuş kursağı / موضع يجتمع فيه الطعام في جوف الطائر ← 100:10 وَحُصِّلَ
+- **B002** çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند
+  - same: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: ح ب ب B011 yararsız zayıf kıvılcım veya gece ışıldayan böcek / نار الحباحب شرر لا ينتفع به ← 100:8 لِحُبِّ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ص ب ح B005 ışık veren lamba / المصباح والسراج ← 100:3 صُبْحًا
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 100:11 رَبَّهُم
+- **B003** çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة
+  - same: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:6 لِرَبِّهِۦ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - far: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 100:11 رَبَّهُم
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B004** yağlı ve semiz olma; iliğin dolgunlaşması / شحم وار وسمن ظاهر
+  - same: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:6 لِرَبِّهِۦ
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - near: ح ب ب B001 tane, tohum ve taneye benzeyen tek parça / الحبة التي تنبت وتحمل الحب ← 100:8 لِحُبِّ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+- **B005** gizleme, gizlenme ve başka anlam gösterme / ستر الشيء وجعله وراء الظهور
+  - same: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: ث و ر B003 saldırgan biçimde kabarıp karşı koyma / هيجان إلى مواجهة أو غضب ← 100:4 فَأَثَرْنَ
+  - near: ب ع ث ر B001 toprağı çevirip gömülüyü çıkarma; bir şeyi çıkarıp açığa kavuşturma / قلب التراب وكشف المدفون ← 100:9 بُعْثِرَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 100:9 يَعْلَمُ
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - far: ح ص ل B001 toplama ve elde kalanı ortaya koyma / جمع الشيء حتى يظهر حاصله ← 100:10 وَحُصِّلَ
+- **B006** konuma göre arka, ön, öte ya da öbür yan / الجانب الوراء: خلف أو أمام أو سوى
+  - same: ق د ح B002 çentik açmak ve oluşan kusur / نقر الشيء وعيبه ← 100:2 قَدْحًا
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 100:3 فَٱلْمُغِيرَٰتِ
+  - near: ع د و B004 aşma, dışarıda bırakma ve öteye geçirme / المجاوزة والاستثناء والصرف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - near: ء ن س B004 insana dönük yan / الجانب الإنسي المقبل على الإنسان ← 100:6 ٱلْإِنسَٰنَ
+  - far: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 100:11 رَبَّهُم
+  - far: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+- **B007** torun / ولد الولد يأتي من وراء الابن
+  - same: ق د ح B009 bitkinin körpe uç yaprakları / رخص أطراف النبت ← 100:2 قَدْحًا
+  - near: ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 100:6 لِرَبِّهِۦ
+  - near: ش ه د B006 doğum ve erginlik belirtisi / الخارج عند الولادة والإدراك ← 100:7 لَشَهِيدٌ
+  - near: ء ن س B006 belirli sözlerde kişinin kendisi veya seçilmiş yakını / ابن الإنس للنفس والصفوة ← 100:6 ٱلْإِنسَٰنَ
+  - far: ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 100:11 رَبَّهُم
+  - far: ص د ر B003 geldiği yerden ayrılıp dönme / الصُّدور عن المورد ← 100:10 ٱلصُّدُورِ
+- **B008** yeryüzündeki bütün yaratılmışlar / الورى: الخلق على ظهر الأرض
+  - same: ق د ح B001 ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح ← 100:2 قَدْحًا
+  - near: ء ن س B001 insan türü ve bu türden bir kişi / ظهور الإنسان المخالف للتوحش والجن ← 100:6 ٱلْإِنسَٰنَ
+  - near: ص ب ح B007 günün başı uykusu / الصُّبْحة نوما ← 100:3 صُبْحًا
+  - near: خ ي ر B005 cömertlik ve armağan verme / الكرم والهبة ← 100:8 ٱلْخَيْرِ
+  - far: خ ب ر B003 üründen pay karşılığı ortakçılık ve bunu yapan çiftçi / إصلاح الأرض بالمخابرة ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 100:11 رَبَّهُم
+
+## ق د ح (قَدْحًا)
+
+- **B001** ateş çıkarmak ve ateş çakma araçları / إيراء النار بالقدح
+  - same: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ح ب ب B011 yararsız zayıf kıvılcım veya gece ışıldayan böcek / نار الحباحب شرر لا ينتفع به ← 100:8 لِحُبِّ
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:6 لِرَبِّهِۦ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B002** çentik açmak ve oluşan kusur / نقر الشيء وعيبه
+  - same: و ر ي B001 iç organları bozan ya da akciğeri tutan hastalık / داء يأكل الجوف أو يصيب الرئة ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ج م ع B012 büyük kazan / عظم الشيء كأنه جامع ممتلئ ← 100:5 جَمْعًا
+  - near: ق ب ر B002 gizli, alçakta veya içe gömülü kalma / غموض الشيء وتطامنه ← 100:9 ٱلْقُبُورِ
+  - far: ص د ر B001 göğüs bölgesi / الصدر الجارحة وما يتصل بها ← 100:10 ٱلصُّدُورِ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+- **B003** birinin soyuna dil uzatmak / طعن في النسب
+  - same: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ن ق ع B009 ağır ve çirkin sözlerle sövmek / نقعه بالشتم القبيح ← 100:4 نَقْعًا
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - near: ج م ع B007 çocuğu karnındayken ölen veya el değmemiş kalan kadın / حال المرأة أو الأنثى التي بقي حملها أو عذرها معها ← 100:5 جَمْعًا
+  - far: ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 100:11 رَبَّهُم
+  - far: ص د ر B005 para ödeme ve güvence yükümlülüğü koyma / المصادرة على مال ← 100:10 ٱلصُّدُورِ
+- **B004** ağaç ve dişte kemirilme ya da çürüme / أكال الشجر والسن
+  - same: و ر ي B001 iç organları bozan ya da akciğeri tutan hastalık / داء يأكل الجوف أو يصيب الرئة ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ح ب ب B009 düzenli diş dizisi ve beyaz tükürük parıltısı / حبب الأسنان انتظام كالدرر ← 100:8 لِحُبِّ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 100:6 ٱلْإِنسَٰنَ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+  - far: خ ب ر B002 gevşek, alçak ve su tutan arazi veya su birikintisi / لين الأرض ومائها ← 100:11 لَّخَبِيرٌۢ
+- **B005** sıvıyı elle ya da kepçeyle alma; bunun aracı, miktarı, kalıntısı ve kuyusu / غرف ما في القدر
+  - same: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ن ق ع B001 suyun birikmesi ve suda bekletmeye bağlı adlandırmalar / استقرار الماء وما ينقع فيه ← 100:4 نَقْعًا
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ص ب ح B003 günün başındaki içecek ve içme / الصبوح ← 100:3 صُبْحًا
+  - far: ح ص ل B003 geride kalan artık / البقية والحثالة بعد الرفع أو الفصل ← 100:10 وَحُصِّلَ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B006** içecek kabı, yapımcısı ve yapım işi / قدح الشرب
+  - same: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ص ب ح B003 günün başındaki içecek ve içme / الصبوح ← 100:3 صُبْحًا
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:6 لِرَبِّهِۦ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B007** uçsuz ve tüysüz ok gövdesi; talih oyunu oku / عود السهم والقدح في الميسر
+  - same: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:6 لِرَبِّهِۦ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 100:9 يَعْلَمُ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+  - far: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 100:10 ٱلصُّدُورِ
+- **B008** yalıtık adlandırmalar / ضمر الفرس وغؤور العين
+  - same: و ر ي B002 çakmaktan ateş çıkarma ve sönük ateşi harlama / نار كامنة تخرج من الزند ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ء ن س B005 göz bebeğinde görülen küçük yansıma / إنسان العين وصورة الإنسان في السواد ← 100:6 ٱلْإِنسَٰنَ
+  - near: ن ق ع B002 susuzluğu giderme; içe sindirip rahatlama / ماء ينقع الغلة ويروي ← 100:4 نَقْعًا
+  - far: ص د ر B002 ön, üst ya da başlangıç bölümü / المقدّم والأعلى والأول ← 100:10 ٱلصُّدُورِ
+  - far: خ ب ر B004 büyük su tulumu ve bolluğuyla ona benzetilen dişi deve / الغزر في المزادة والناقة ← 100:11 لَّخَبِيرٌۢ
+- **B009** bitkinin körpe uç yaprakları / رخص أطراف النبت
+  - same: و ر ي B007 torun / ولد الولد يأتي من وراء الابن ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 100:6 لِرَبِّهِۦ
+  - near: ض ب ح B003 üst bölümünü ateşle yakma ve ateşten etkilenme / إحراق أعالي العود ← 100:1 ضَبْحًا
+  - near: ع د و B011 develerin otladığı yaz yeşermesi / العَدَوِيّة من نبات الصيف ← 100:1 وَٱلْعَٰدِيَٰتِ
+  - far: ر ب ب B012 belirli bir yeşil bitki türü / ربة نبات ← 100:11 رَبَّهُم
+  - far: خ ب ر B005 yumuşak bitki, yün veya ince kıl ve deve ağzı köpüğü / اللِّين في النبات والوبر والزبد ← 100:11 لَّخَبِيرٌۢ
+- **B010** bir işi düşünüp nasıl yürütüleceğini tasarlamak / اقتداح الأمر بالنظر والتدبير
+  - same: و ر ي B003 çakmak benzetmesiyle başarma, yardım görme ya da savunma / زند يقدح نجاحا أو نصرة ← 100:2 فَٱلْمُورِيَٰتِ
+  - near: ب ع ث ر B002 eşyayı dağıtıp altüst etme / تبديد المتاع وقلب بعضه على بعض ← 100:9 بُعْثِرَ
+  - near: ج م ع B003 düşünüp kesin bir tutuma bağlanma / عزم محكم جمع الرأي بعد تفرقه ← 100:5 جَمْعًا
+  - near: ء ن س B002 görerek fark etme; bağlama göre işitme, sezme ve bakıp araştırma / إيناس الشيء برؤية أو إحساس أو سماع ← 100:6 ٱلْإِنسَٰنَ
+  - far: خ ب ر B001 bilgi edinme, bildirme ve deneyerek iç yüzü tanıma / العلم بالخبر وباطن الأمر ← 100:11 لَّخَبِيرٌۢ
+  - far: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 100:11 رَبَّهُم
+

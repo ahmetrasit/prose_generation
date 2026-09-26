@@ -1,0 +1,321 @@
+# Network for 1:7 (img top-3)
+
+Nodes: Counter({'A': 402, 'B': 34, 'M': 18, 'F': 5}); rare branches 19. Context zones: {'surah': 6, 'fatiha': 1, 'inter': 395}; people anchors: —.
+Edges: {'lex': 182, 'rel': 83, 'kw': 318, 'root': 236, 'img': 408, 'hft': 91, 'luna': 34}.
+
+## Hubs (rare branches of ≥3 roots point here)
+
+### أَنْعَمْتَ (w3) — luna hub, 3 roots, score 6.0
+- ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة (rare, 3 src) @ ٱلضَّآلِّينَ — img/same: same: ن ع م B005 مال الأنعام والإبل; luna/reading/image: image: The lost one becomes concrete as livestock that could itself be a form of bestowed provision.
+- غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ — img/same: same: ن ع م B011 موافقة المكان وطيب المقام; luna/reading/complement: complement: The favored may also be those for whom anger is raised in their defense.
+- غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ — kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+- غ ض ب B007 «somurtkan, huysuz; iri yılan» العبوس والضجر والعظم في وصف الحيوان أو الشخص (rare, 4 src) @ ٱلْمَغْضُوبِ — img/same: same: ن ع م B006 النعام والنعامة الطائر; luna/reading/opposite: opposite: The scowling, irritable face opposes the ease and well-being of favor.
+- غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة (rare, 2 src) @ ٱلْمَغْضُوبِ — img/same: same: ن ع م B007 ما سمي نعامة تشبيها بالهيئة; luna/reading/opposite: opposite: A hard, folded hide shield stands against the softness and comfort carried by favor.
+- غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ — kw/shared: benefit (shared) — plain sense of أَنْعَمْتَ; kw/shared: welfare (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B001 حسن الحال والنعمة; luna/reading/same: same: The favor bestowed is heard as provision, watering, and repair that improve a person’s condition.
+
+### 19:57 [inter] — backbone hub, 3 roots, score 5.5
+  وَرَفَعْنَٰهُ مَكَانًا عَلِيًّا
+- غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة (rare, 2 src) @ ٱلْمَغْضُوبِ — lex/src-rare: علي → عَلِيًّا
+- غ ي ر B004 «eşini veya ailesini kıskanarak koruma duygusu» الغَيْرة على الأهل (rare, 2 src) @ غَيْرِ — lex/image: علي → عَلِيًّا
+- ن ع م B005 «develer ve geniş anlamda otlayan evcil hayvanlar» مال الأنعام والإبل (rare, 4 src) @ أَنْعَمْتَ — lex/src-rare: علي → عَلِيًّا
+- ن ع م B007 «devekuşuna benzetilerek ad verilen şeyler» ما سمي نعامة تشبيها بالهيئة (rare, 4 src) @ أَنْعَمْتَ — lex/src-rare: علي → عَلِيًّا
+- ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ — lex/image: مكان → مَكَانًا
+- ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها (rare, 3 src) @ أَنْعَمْتَ — lex/image: علي → عَلِيًّا
+
+### 2:282 [inter] — backbone hub, 3 roots, score 5.0
+  يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍ مُّسَمًّى فَٱكْتُبُوهُ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًٔا فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةً تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ وَلَا يُضَآرَّ كَاتِبٌ وَلَا شَهِيدٌ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ وَٱتَّقُوا۟ ٱللَّهَ وَيُعَلِّمُكُمُ ٱللَّهُ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ
+- غ ض ب B007 «somurtkan, huysuz; iri yılan» العبوس والضجر والعظم في وصف الحيوان أو الشخص (rare, 4 src) @ ٱلْمَغْضُوبِ — lex/src-rare: امراا → وَٱمْرَأَتَانِ
+- غ ي ر B004 «eşini veya ailesini kıskanarak koruma duygusu» الغَيْرة على الأهل (rare, 2 src) @ غَيْرِ — lex/root: رجل → root ر ج ل: رِّجَالِكُمْ رَجُلَيْنِ فَرَجُلٌ; lex/src-rare: وامراا → وَٱمْرَأَتَانِ
+- ن ع م B004 «evet diyerek onaylamak veya söz vermek» الجواب بنعم والتصديق (rare, 4 src) @ أَنْعَمْتَ — rel/near_synonym: ء ج ل B003 (doğrulayan olumlu cevap) → أَجَلٍ أَجَلِهِۦ; kw/shared: acceptance (shared) → تَرْضَوْنَ; img/inter: inter: ء ج ل B003 جواب التصديق أجل ← أَجَلٍ
+- ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها (rare, 3 src) @ أَنْعَمْتَ — rel/near_synonym: ر ج ل B003 (bineksiz olarak yürümek) → رِّجَالِكُمْ رَجُلَيْنِ فَرَجُلٌ
+
+## Triangles (top 40)
+
+- [5 kinds] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 2:282 [inter]: lex/root: رجل → root ر ج ل: رِّجَالِكُمْ رَجُلَيْنِ فَرَجُلٌ
+  - → أَنْعَمْتَ (w3): kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+  - 2:282 [inter] ↔ أَنْعَمْتَ (w3): rel (via ن ع م B004): ء ج ل B003 (doğrulayan olumlu cevap) → أَجَلٍ أَجَلِهِۦ
+- [5 kinds] غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ
+  - → 5:6 [inter]: rel/near_neighbor: م و ه B003 (yağmurla sulama ile su ulaştırma) → مَآءً
+  - → أَنْعَمْتَ (w3): kw/shared: benefit (shared) — plain sense of أَنْعَمْتَ; kw/shared: welfare (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B001 حسن الحال والنعمة; luna/reading/same: same: The favor bestowed is heard as provision, watering, and repair that improve a person’s condition.
+  - 5:6 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B001): وطيب → طَيِّبًا
+- [5 kinds] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ
+  - → 5:6 [inter]: lex/image: وطيب → طَيِّبًا; kw/shared: pleasantness (shared) → طَيِّبًا
+  - → غَيْرِ (w5): img/same: same: غ ي ر B001 الصلاح والمنفعة بالميرة والسقي والإصلاح; luna/reading/opposite: opposite: Those who find a fitting place belong within it; the excluded are left beyond it.
+  - 5:6 [inter] ↔ غَيْرِ (w5): rel (via غ ي ر B001): م و ه B003 (yağmurla sulama ile su ulaştırma) → مَآءً
+- [5 kinds] ن ع م B004 «evet diyerek onaylamak veya söz vermek» الجواب بنعم والتصديق (rare, 4 src) @ أَنْعَمْتَ
+  - → 2:282 [inter]: rel/near_synonym: ء ج ل B003 (doğrulayan olumlu cevap) → أَجَلٍ أَجَلِهِۦ; kw/shared: acceptance (shared) → تَرْضَوْنَ; img/inter: inter: ء ج ل B003 جواب التصديق أجل ← أَجَلٍ
+  - → غَيْرِ (w5): img/same: same: غ ي ر B005 السوى والخلاف والاستثناء والنفي; luna/reading/opposite: opposite: The yes to the favored route is set against the no that excludes the other way.
+  - 2:282 [inter] ↔ غَيْرِ (w5): lex (via غ ي ر B002): رجل → root ر ج ل: رِّجَالِكُمْ رَجُلَيْنِ فَرَجُلٌ
+- [5 kinds] ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة (rare, 4 src) @ أَنْعَمْتَ
+  - → 5:6 [inter]: rel/near_synonym: ج ن ب B006 (genel güney rüzgarı) → جُنُبًا; kw/shared: gentleness (shared) → ٱلْمَرَافِقِ; kw/shared: mildness (shared) → ٱلْمَرَافِقِ
+  - → ٱلْمَغْضُوبِ (w6): img/same: same: غ ض ب B007 العبوس والضجر والعظم في وصف الحيوان أو الشخص; luna/reading/opposite: opposite: The gentle, moist wind cools the image of wrath’s rising heat.
+  - 5:6 [inter] ↔ ٱلْمَغْضُوبِ (w6): lex (via غ ض ب B001): رجل → root ر ج ل: وَأَرْجُلَكُمْ
+- [4 kinds] ض ل ل B004 «bir şeyi unutmak veya bellekte tutamamak» ضياع الحفظ (rare, 2 src) @ ٱلضَّآلِّينَ
+  - → 3:99 [inter]: kw/shared: forgetfulness (shared) → بِغَٰفِلٍ; kw/shared: lapse (shared) → بِغَٰفِلٍ
+  - → صِرَٰطَ (w1): img/same: same: ص ر ط B002 الغيبة في المرور والبلع; luna/reading/part: part: Forgetting the route is one way to become lost from it.
+  - 3:99 [inter] ↔ صِرَٰطَ (w1): lex (via ص ر ط B001): اهل → يَٰٓأَهْلَ
+- [4 kinds] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 14:7 [inter]: lex/src: شديد → لَشَدِيدٌ
+  - → أَنْعَمْتَ (w3): kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+  - 14:7 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B010): زاد → لَأَزِيدَنَّكُمْ
+- [4 kinds] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 1:1 [surah]: img/near: near: و س م B006 وسمة يخضب بورقها ← بِسْمِ
+  - → أَنْعَمْتَ (w3): kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+  - 1:1 [surah] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B009): اسماء → بِسْمِ
+- [4 kinds] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 33:53 [inter]: img/inter: inter: ء ب د B009 الغضب والغضب عليه ← أَبَدًا
+  - → أَنْعَمْتَ (w3): kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+  - 33:53 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B002): طعام → طَعَامٍ
+- [4 kinds] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 4:176 [inter]: lex/root: رجل → root ر ج ل: رِّجَالًا
+  - → أَنْعَمْتَ (w3): kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+  - 4:176 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B007): رجل → root ر ج ل: رِّجَالًا
+- [4 kinds] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 5:6 [inter]: lex/root: رجل → root ر ج ل: وَأَرْجُلَكُمْ
+  - → أَنْعَمْتَ (w3): kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+  - 5:6 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B001): وطيب → طَيِّبًا
+- [4 kinds] غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 6:152 [inter]: kw/shared: complexion (shared) → نُكَلِّفُ
+  - → أَنْعَمْتَ (w3): kw/shared: intensity (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B002 اللين والنعومة ورفاه العيش; luna/reading/opposite: opposite: The harsh, thick-skinned image presses against the softness and ease of favor.
+  - 6:152 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B005): مال → مَالَ
+- [4 kinds] غ ض ب B006 «üst göz kapağı çıkıntısı veya göz çevresi şişliği» تورم العين وما حولها (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 11:37 [inter]: lex/image: عين → بِأَعْيُنِنَا; kw/shared: eyelid (shared) → بِأَعْيُنِنَا
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B013 نعم الله بك عينا وقرة العين; luna/note/opposite: opposite: Swelling around the eye suggests bodily trouble where divine favor names well-being.
+  - 11:37 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B013): عينا → بِأَعْيُنِنَا
+- [4 kinds] غ ض ب B006 «üst göz kapağı çıkıntısı veya göz çevresi şişliği» تورم العين وما حولها (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 15:88 [inter]: lex/image: عين → عَيْنَيْكَ; kw/shared: eyelid (shared) → عَيْنَيْكَ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B013 نعم الله بك عينا وقرة العين; luna/note/opposite: opposite: Swelling around the eye suggests bodily trouble where divine favor names well-being.
+  - 15:88 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B013): عينا → عَيْنَيْكَ
+- [4 kinds] غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 2:282 [inter]: kw/shared: shield (shared) → وَلْيَتَّقِ وَٱتَّقُوا۟
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B007 ما سمي نعامة تشبيها بالهيئة; luna/reading/opposite: opposite: A hard, folded hide shield stands against the softness and comfort carried by favor.
+  - 2:282 [inter] ↔ أَنْعَمْتَ (w3): rel (via ن ع م B004): ء ج ل B003 (doğrulayan olumlu cevap) → أَجَلٍ أَجَلِهِۦ
+- [4 kinds] غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة (rare, 2 src) @ ٱلْمَغْضُوبِ
+  - → 5:5 [inter]: kw/shared: armor (shared) → وَٱلْمُحْصَنَٰتُ مُحْصِنِينَ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B007 ما سمي نعامة تشبيها بالهيئة; luna/reading/opposite: opposite: A hard, folded hide shield stands against the softness and comfort carried by favor.
+  - 5:5 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B002): طعام → وَطَعَامُ وَطَعَامُكُمْ
+- [4 kinds] غ ي ر B004 «eşini veya ailesini kıskanarak koruma duygusu» الغَيْرة على الأهل (rare, 2 src) @ غَيْرِ
+  - → 3:154 [inter]: kw/shared: concern (shared) → ٱلْأَمْرِ ٱلْأَمْرَ
+  - → ٱلْمَغْضُوبِ (w6): img/same: same: غ ض ب B001 اشتداد السخط وثورانه للانتقام; luna/reading/part: part: Protective jealousy can carry anger on behalf of the one guarded.
+  - 3:154 [inter] ↔ ٱلْمَغْضُوبِ (w6): lex (via غ ض ب B001): قلب → قُلُوبِكُمْ
+- [4 kinds] ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة (rare, 3 src) @ ٱلضَّآلِّينَ
+  - → 105:3 [inter]: rel/same_field: ء ب ل B001 (kayıp hayvan ile deve topluluğu) → أَبَابِيلَ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B005 مال الأنعام والإبل; luna/reading/image: image: The lost one becomes concrete as livestock that could itself be a form of bestowed provision.
+  - 105:3 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B006): طير → طَيْرًا
+- [4 kinds] ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة (rare, 3 src) @ ٱلضَّآلِّينَ
+  - → 2:282 [inter]: kw/shared: owner (shared) → رَبَّهُۥ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B005 مال الأنعام والإبل; luna/reading/image: image: The lost one becomes concrete as livestock that could itself be a form of bestowed provision.
+  - 2:282 [inter] ↔ أَنْعَمْتَ (w3): rel (via ن ع م B004): ء ج ل B003 (doğrulayan olumlu cevap) → أَجَلٍ أَجَلِهِۦ
+- [4 kinds] ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة (rare, 3 src) @ ٱلضَّآلِّينَ
+  - → 2:61 [inter]: kw/shared: owner (shared) → رَبَّكَ
+  - → صِرَٰطَ (w1): img/same: same: ص ر ط B002 الغيبة في المرور والبلع; luna/reading/complement: complement: The lost camel is imagined as the creature that has lost its road.
+  - 2:61 [inter] ↔ صِرَٰطَ (w1): lex (via ص ر ط B002): طعام → طَعَامٍ
+- [4 kinds] ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة (rare, 3 src) @ ٱلضَّآلِّينَ
+  - → 2:61 [inter]: kw/shared: owner (shared) → رَبَّكَ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B005 مال الأنعام والإبل; luna/reading/image: image: The lost one becomes concrete as livestock that could itself be a form of bestowed provision.
+  - 2:61 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B002): طعام → طَعَامٍ
+- [4 kinds] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ
+  - → 2:40 [inter]: kw/shared: loyalty (shared) → بِعَهْدِىٓ بِعَهْدِكُمْ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B011 موافقة المكان وطيب المقام; luna/reading/complement: complement: The favored may also be those for whom anger is raised in their defense.
+  - 2:40 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B011): بني → يَٰبَنِىٓ
+- [4 kinds] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ
+  - → 4:176 [inter]: kw/shared: solidarity (shared) → أُخْتٌ إِخْوَةً
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B011 موافقة المكان وطيب المقام; luna/reading/complement: complement: The favored may also be those for whom anger is raised in their defense.
+  - 4:176 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B007): رجل → root ر ج ل: رِّجَالًا
+- [4 kinds] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ
+  - → 4:176 [inter]: kw/shared: solidarity (shared) → أُخْتٌ إِخْوَةً
+  - → غَيْرِ (w5): img/same: same: غ ي ر B005 السوى والخلاف والاستثناء والنفي; luna/reading/image: image: Anger for one person draws a line between that person and those outside the circle of protection.
+  - 4:176 [inter] ↔ غَيْرِ (w5): lex (via غ ي ر B002): رجل → root ر ج ل: رِّجَالًا
+- [4 kinds] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ
+  - → 5:5 [inter]: kw/shared: ally (shared) → أَخْدَانٍ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B011 موافقة المكان وطيب المقام; luna/reading/complement: complement: The favored may also be those for whom anger is raised in their defense.
+  - 5:5 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B002): طعام → وَطَعَامُ وَطَعَامُكُمْ
+- [4 kinds] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ
+  - → 5:5 [inter]: kw/shared: ally (shared) → أَخْدَانٍ
+  - → غَيْرِ (w5): img/same: same: غ ي ر B005 السوى والخلاف والاستثناء والنفي; luna/reading/image: image: Anger for one person draws a line between that person and those outside the circle of protection.
+  - 5:5 [inter] ↔ غَيْرِ (w5): rel (via غ ي ر B004): ح ص ن B003 (kıskanç koruma ile evlilik dokunulmazlığı) → وَٱلْمُحْصَنَٰتُ مُحْصِنِينَ
+- [4 kinds] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ
+  - → 6:152 [inter]: kw/shared: bereavement (shared) → ٱلْيَتِيمِ; kw/shared: loyalty (shared) → وَبِعَهْدِ
+  - → أَنْعَمْتَ (w3): img/same: same: ن ع م B011 موافقة المكان وطيب المقام; luna/reading/complement: complement: The favored may also be those for whom anger is raised in their defense.
+  - 6:152 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B005): مال → مَالَ
+- [4 kinds] غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ
+  - → 6:162 [inter]: lex/root: ميتا → root م و ت: وَمَمَاتِى
+  - → غَيْرِ (w5): img/same: same: غ ي ر B005 السوى والخلاف والاستثناء والنفي; luna/reading/image: image: Anger for one person draws a line between that person and those outside the circle of protection.
+  - 6:162 [inter] ↔ غَيْرِ (w5): rel (via غ ي ر B001): ح ي ي B002 (sulama ile toprağın canlanması) → وَمَحْيَاىَ
+- [4 kinds] غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ
+  - → 2:61 [inter]: kw/shared: improvement (shared) → بِغَيْرِ; kw/shared: restoration (shared) → بِغَيْرِ
+  - → أَنْعَمْتَ (w3): kw/shared: benefit (shared) — plain sense of أَنْعَمْتَ; kw/shared: welfare (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B001 حسن الحال والنعمة; luna/reading/same: same: The favor bestowed is heard as provision, watering, and repair that improve a person’s condition.
+  - 2:61 [inter] ↔ أَنْعَمْتَ (w3): lex (via ن ع م B002): طعام → طَعَامٍ
+- [4 kinds] غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ
+  - → 3:154 [inter]: kw/shared: improvement (shared) → غَيْرَ
+  - → أَنْعَمْتَ (w3): kw/shared: benefit (shared) — plain sense of أَنْعَمْتَ; kw/shared: welfare (shared) — plain sense of أَنْعَمْتَ; img/same: same: ن ع م B001 حسن الحال والنعمة; luna/reading/same: same: The favor bestowed is heard as provision, watering, and repair that improve a person’s condition.
+  - 3:154 [inter] ↔ أَنْعَمْتَ (w3): rel (via ن ع م B004): ب ل و B006 (olumsuz sözü düzelten olumlu cevap) → وَلِيَبْتَلِىَ
+- [4 kinds] غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ
+  - → 3:154 [inter]: kw/shared: improvement (shared) → غَيْرَ
+  - → ٱلْمَغْضُوبِ (w6): img/same: same: غ ض ب B001 اشتداد السخط وثورانه للانتقام; luna/reading/opposite: opposite: The one who repairs and benefits stands against the wrathful force that harms or punishes.
+  - 3:154 [inter] ↔ ٱلْمَغْضُوبِ (w6): lex (via غ ض ب B001): قلب → قُلُوبِكُمْ
+- [4 kinds] غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ
+  - → 5:6 [inter]: rel/near_neighbor: م و ه B003 (yağmurla sulama ile su ulaştırma) → مَآءً
+  - → ٱلْمَغْضُوبِ (w6): img/same: same: غ ض ب B001 اشتداد السخط وثورانه للانتقام; luna/reading/opposite: opposite: The one who repairs and benefits stands against the wrathful force that harms or punishes.
+  - 5:6 [inter] ↔ ٱلْمَغْضُوبِ (w6): lex (via غ ض ب B001): رجل → root ر ج ل: وَأَرْجُلَكُمْ
+- [4 kinds] غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ
+  - → 6:162 [inter]: rel/same_field: ح ي ي B002 (sulama ile toprağın canlanması) → وَمَحْيَاىَ
+  - → ٱلْمَغْضُوبِ (w6): img/same: same: غ ض ب B001 اشتداد السخط وثورانه للانتقام; luna/reading/opposite: opposite: The one who repairs and benefits stands against the wrathful force that harms or punishes.
+  - 6:162 [inter] ↔ ٱلْمَغْضُوبِ (w6): lex (via غ ض ب B002): ميتا → root م و ت: وَمَمَاتِى
+- [4 kinds] ن ع م B008 «bir topluluğun dağılıp gücünü yitirmesi» طيران النعامة وتفرق القوم (rare, 3 src) @ أَنْعَمْتَ
+  - → 2:40 [inter]: kw/shared: panic (shared) → فَٱرْهَبُونِ
+  - → ٱلضَّآلِّينَ (w9): img/same: same: ض ل ل B003 فقدان الشيء; luna/reading/image: image: The astray are pictured as a people scattered until their strength and cohesion are gone.
+  - 2:40 [inter] ↔ ٱلضَّآلِّينَ (w9): rel (via ض ل ل B004): ذ ك ر B003 (unutma ile hatırlama karşıtlığı) → ٱذْكُرُوا۟
+- [4 kinds] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ
+  - → 16:72 [inter]: kw/shared: pleasantness (shared) → ٱلطَّيِّبَٰتِ
+  - → ٱلضَّآلِّينَ (w9): img/same: same: ض ل ل B003 فقدان الشيء; luna/reading/opposite: opposite: The ones settled where they belong stand opposite those lost from the way.
+  - 16:72 [inter] ↔ ٱلضَّآلِّينَ (w9): rel (via ض ل ل B003): ب ط ل B006 (öçsüz kalan kan) → أَفَبِٱلْبَٰطِلِ
+- [4 kinds] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ
+  - → 2:122 [inter]: lex/src: بني → يَٰبَنِىٓ
+  - → ٱلضَّآلِّينَ (w9): img/same: same: ض ل ل B003 فقدان الشيء; luna/reading/opposite: opposite: The ones settled where they belong stand opposite those lost from the way.
+  - 2:122 [inter] ↔ ٱلضَّآلِّينَ (w9): rel (via ض ل ل B004): ذ ك ر B003 (unutma ile hatırlama karşıtlığı) → ٱذْكُرُوا۟
+- [4 kinds] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ
+  - → 2:40 [inter]: lex/src: بني → يَٰبَنِىٓ
+  - → ٱلضَّآلِّينَ (w9): img/same: same: ض ل ل B003 فقدان الشيء; luna/reading/opposite: opposite: The ones settled where they belong stand opposite those lost from the way.
+  - 2:40 [inter] ↔ ٱلضَّآلِّينَ (w9): rel (via ض ل ل B004): ذ ك ر B003 (unutma ile hatırlama karşıtlığı) → ٱذْكُرُوا۟
+- [4 kinds] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ
+  - → 2:47 [inter]: lex/src: بني → يَٰبَنِىٓ
+  - → ٱلضَّآلِّينَ (w9): img/same: same: ض ل ل B003 فقدان الشيء; luna/reading/opposite: opposite: The ones settled where they belong stand opposite those lost from the way.
+  - 2:47 [inter] ↔ ٱلضَّآلِّينَ (w9): rel (via ض ل ل B004): ذ ك ر B003 (unutma ile hatırlama karşıtlığı) → ٱذْكُرُوا۟
+- [4 kinds] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ
+  - → 2:61 [inter]: kw/shared: lodging (shared) → وَبَآءُو; kw/shared: stay (shared) → بِـَٔايَٰتِ
+  - → غَيْرِ (w5): img/same: same: غ ي ر B001 الصلاح والمنفعة بالميرة والسقي والإصلاح; luna/reading/opposite: opposite: Those who find a fitting place belong within it; the excluded are left beyond it.
+  - 2:61 [inter] ↔ غَيْرِ (w5): rel (via غ ي ر B003): ب د ل B002 (genel değiştirme ile biçim değiştirme) → أَتَسْتَبْدِلُونَ
+- [4 kinds] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ
+  - → 3:112 [inter]: kw/shared: lodging (shared) → وَبَآءُو
+  - → غَيْرِ (w5): img/same: same: غ ي ر B001 الصلاح والمنفعة بالميرة والسقي والإصلاح; luna/reading/opposite: opposite: Those who find a fitting place belong within it; the excluded are left beyond it.
+  - 3:112 [inter] ↔ غَيْرِ (w5): rel (via غ ي ر B005): ع د و B004 (dışta bırakma ile ötesine geçme) → يَعْتَدُونَ
+
+## Convergence (rare branches by kinds of support; top 40)
+
+- 6 kinds, 24 targets: غ ي ر B001 «yarar sağlayıp durumunu iyileştirme» الصلاح والمنفعة بالميرة والسقي والإصلاح (rare, 3 src) @ غَيْرِ — hft, img, kw, lex, luna, rel
+- 6 kinds, 21 targets: ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة (rare, 4 src) @ أَنْعَمْتَ — hft, img, kw, lex, luna, rel
+- 6 kinds, 20 targets: ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها (rare, 3 src) @ أَنْعَمْتَ — hft, img, kw, lex, luna, rel
+- 6 kinds, 17 targets: ن ع م B013 «birini göz sevinci saymak veya bunun için dua etmek» نعم الله بك عينا وقرة العين (rare, 4 src) @ أَنْعَمْتَ — hft, img, kw, lex, luna, rel
+- 5 kinds, 25 targets: ن ع م B003 «övgü ve beğeni bildirmek» مدح الشيء بنعم (rare, 4 src) @ أَنْعَمْتَ — img, kw, lex, luna, rel
+- 5 kinds, 24 targets: غ ي ر B004 «eşini veya ailesini kıskanarak koruma duygusu» الغَيْرة على الأهل (rare, 2 src) @ غَيْرِ — img, kw, lex, luna, rel
+- 5 kinds, 23 targets: ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام (rare, 3 src) @ أَنْعَمْتَ — img, kw, lex, luna, rel
+- 5 kinds, 22 targets: ن ع م B004 «evet diyerek onaylamak veya söz vermek» الجواب بنعم والتصديق (rare, 4 src) @ أَنْعَمْتَ — img, kw, lex, luna, rel
+- 5 kinds, 21 targets: غ ض ب B008 «belirli hayvan derileri veya kalkan gibi katlanmış deri» جلد صلب أو مطوي كدرقة (rare, 2 src) @ ٱلْمَغْضُوبِ — img, kw, lex, luna, rel
+- 5 kinds, 21 targets: غ ض ب B006 «üst göz kapağı çıkıntısı veya göz çevresi şişliği» تورم العين وما حولها (rare, 2 src) @ ٱلْمَغْضُوبِ — hft, img, kw, lex, luna
+- 5 kinds, 21 targets: ض ل ل B005 «sahibi bilinmeyen kayıp hayvan, özellikle deve» الضالّة في المضيعة (rare, 3 src) @ ٱلضَّآلِّينَ — img, kw, lex, luna, rel
+- 5 kinds, 15 targets: ض ل ل B004 «bir şeyi unutmak veya bellekte tutamamak» ضياع الحفظ (rare, 2 src) @ ٱلضَّآلِّينَ — img, kw, lex, luna, rel
+- 4 kinds, 22 targets: غ ض ب B002 «biri için ya da uğruna öfkelenmek» الغضب لشخص حي أو به بعد موته (rare, 3 src) @ ٱلْمَغْضُوبِ — img, kw, lex, luna
+- 4 kinds, 21 targets: ن ع م B007 «devekuşuna benzetilerek ad verilen şeyler» ما سمي نعامة تشبيها بالهيئة (rare, 4 src) @ أَنْعَمْتَ — img, kw, lex, luna
+- 4 kinds, 19 targets: ن ع م B008 «bir topluluğun dağılıp gücünü yitirmesi» طيران النعامة وتفرق القوم (rare, 3 src) @ أَنْعَمْتَ — img, kw, lex, luna
+- 4 kinds, 19 targets: غ ض ب B007 «somurtkan, huysuz; iri yılan» العبوس والضجر والعظم في وصف الحيوان أو الشخص (rare, 4 src) @ ٱلْمَغْضُوبِ — img, kw, lex, luna
+- 4 kinds, 18 targets: غ ض ب B005 «kalın derili ya da çok kızıl» غلظ الجسم وشدة الحمرة (rare, 2 src) @ ٱلْمَغْضُوبِ — img, kw, lex, luna
+- 3 kinds, 16 targets: ن ع م B006 «devekuşu» النعام والنعامة الطائر (rare, 4 src) @ أَنْعَمْتَ — img, kw, lex
+- 3 kinds, 14 targets: ن ع م B005 «develer ve geniş anlamda otlayan evcil hayvanlar» مال الأنعام والإبل (rare, 4 src) @ أَنْعَمْتَ — img, lex, luna
+
+## Bridges (linked to members of two or more hubs)
+
+- صِرَٰطَ (w1) joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- أَنْعَمْتَ (w3) joins 19:57 [inter], 2:282 [inter]
+- غَيْرِ (w5) joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- ٱلْمَغْضُوبِ (w6) joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- ٱلضَّآلِّينَ (w9) joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 1:1 [surah] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 1:2 [surah] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 1:4 [surah] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 1:5 [surah] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 1:6 [surah] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 1:7 [fatiha] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 3:69 [inter] joins 19:57 [inter], 2:282 [inter]
+- 4:56 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 4:119 [inter] joins 19:57 [inter], 2:282 [inter]
+- 2:40 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 3:112 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 3:154 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 10:15 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 2:61 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 5:5 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 33:53 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 7:86 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 2:282 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 76:21 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 46:28 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 6:93 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 11:56 [inter] joins 19:57 [inter], 2:282 [inter]
+- 16:9 [inter] joins 19:57 [inter], 2:282 [inter]
+- 43:43 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 61:5 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 4:60 [inter] joins 19:57 [inter], 2:282 [inter]
+- 4:93 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 5:6 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 6:71 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 16:72 [inter] joins 19:57 [inter], 2:282 [inter]
+- 18:104 [inter] joins 19:57 [inter], 2:282 [inter]
+- 22:9 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 24:21 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 33:37 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 39:8 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 7:150 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 14:6 [inter] joins 19:57 [inter], 2:282 [inter]
+- 19:58 [inter] joins 19:57 [inter], 2:282 [inter]
+- 38:39 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 4:59 [inter] joins 19:57 [inter], 2:282 [inter]
+- 6:152 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 6:70 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 6:76 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 3:70 [inter] joins 19:57 [inter], 2:282 [inter]
+- 38:23 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 5:17 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 24:45 [inter] joins 19:57 [inter], 2:282 [inter]
+- 8:52 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 8:54 [inter] joins 19:57 [inter], 2:282 [inter]
+- 3:99 [inter] joins 19:57 [inter], 2:282 [inter]
+- 10:31 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 4:176 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter], 2:282 [inter]
+- 10:24 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 4:135 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 19:57 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+- 2:123 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 11:57 [inter] joins 19:57 [inter], 2:282 [inter]
+- 3:50 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 3:52 [inter] joins أَنْعَمْتَ (w3), 19:57 [inter]
+- 4:67 [inter] joins أَنْعَمْتَ (w3), 2:282 [inter]
+
+## Chain material (per hub: surah ayat its members touch, in surah order)
+
+- أَنْعَمْتَ (w3): 1:1 (غ ض ب B005) → 1:2 (ض ل ل B005, غ ض ب B002, غ ض ب B008, غ ي ر B001) → 1:4 (ض ل ل B005, غ ض ب B002, غ ض ب B005, غ ض ب B007, غ ي ر B001) → 1:5 (ض ل ل B005, غ ض ب B002, غ ض ب B005, غ ض ب B007, غ ض ب B008) → 1:6 (غ ي ر B001)
+- 19:57 [inter]: 1:1 (ن ع م B012) → 1:2 (غ ض ب B008, غ ي ر B004, ن ع م B005, ن ع م B007, ن ع م B011) → 1:5 (غ ض ب B008, غ ي ر B004, ن ع م B007, ن ع م B012) → 1:6 (غ ي ر B004, ن ع م B005, ن ع م B007, ن ع م B011, ن ع م B012)
+- 2:282 [inter]: 1:1 (ن ع م B012) → 1:2 (غ ي ر B004, ن ع م B004) → 1:4 (غ ض ب B007, ن ع م B004) → 1:5 (غ ض ب B007, غ ي ر B004, ن ع م B012) → 1:6 (غ ي ر B004, ن ع م B012)
+
+## Formula groups (other ayat sharing ≥2 focus roots; leaves, not members)
+
+- ض ل ل + غ ي ر + ن ع م (1): 4:119
+- ض ل ل + غ ي ر (9): 5:77, 6:119, 6:140, 6:144, 7:53, 16:25, 28:50, 30:29
+- غ ي ر + ن ع م (5): 5:1, 5:3, 8:53, 31:20, 35:3
+- ض ل ل + ن ع م (3): 7:179, 25:44, 39:8
+- ص ر ط + ن ع م (2): 16:121, 48:2
+- غ ض ب + غ ي ر (2): 2:61, 3:112
+- ص ر ط + ض ل ل (1): 6:39
+- ض ل ل + غ ض ب (1): 5:60
+
+## HFT mechanisms and the hubs they touch
+
+- base_embodied_route [baseline_models] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- base_successful_and_failed_disappearance [baseline_models] → أَنْعَمْتَ (w3); 19:57 [inter]
+- base_decisive_partition [baseline_models] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- base_agency_gradient [baseline_models] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- ctx_marked_route [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]
+- ctx_mercy_affiliation [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]
+- ctx_cultivated_completion [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]
+- ctx_mercy_bounded_wrath [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- ctx_accountable_partition [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- ctx_enacted_road [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- ctx_guided_specification [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- ctx_path_as_transmitted_gift [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]
+- ctx_communal_infrastructure [context_deltas] → أَنْعَمْتَ (w3); 19:57 [inter]
+- ctx_growth_with_measure [context_deltas] → 19:57 [inter]; 2:282 [inter]
+- out_hydrological_way [surprising_valid_outliers] → أَنْعَمْتَ (w3); 19:57 [inter]; 2:282 [inter]
+- out_gestational_passage [surprising_valid_outliers] → أَنْعَمْتَ (w3); 19:57 [inter]
+- out_watchful_eye_states [surprising_valid_outliers] → أَنْعَمْتَ (w3); 2:282 [inter]
+- out_fracture_and_standing [surprising_valid_outliers] → أَنْعَمْتَ (w3); 2:282 [inter]

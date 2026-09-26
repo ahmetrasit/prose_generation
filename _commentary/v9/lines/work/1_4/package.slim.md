@@ -1,0 +1,548 @@
+# Quranic usage and related passages for 1:4
+
+What the discovery stage found about this ayah's words and scenes elsewhere in the Quran: how each root is
+used across its occurrences (ids U-..) and passages related by shared wording, people or formula (ids R-..,
+and X records): readings, open observations (a precise link whose decisive support is missing), notes and
+misreadings. `support` says how well the sources establish a record; `relevance` how much it could change
+the reading; nothing here is filtered by them. Section 3 is the text of the cited ayat outside the surah
+and the Fatiha (both are in context.md).
+
+## 2. Discovery lines
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+4 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-ملك** [reading; support strong, relevance high] root م ل ك (focus word مَٰلِكِ: مَٰلِك N) — 203 occurrences in 191 ayat; same form 3, other forms 200
+  - finding: The active participle appears with Allah’s sovereignty over ٱلْمُلْكِ in 3:26 and with human ownership of livestock in 36:71. In 1:4, مَٰلِكِ governs يَوْمِ ٱلدِّينِ, placing the Day itself within the scope of ownership.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 3:26 «مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ»; 36:71 «أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَٰمًۭا فَهُمْ لَهَا مَٰلِكُونَ»
+  - activation: The focus’s construct chain makes the Day the object governed by مَٰلِكِ; 3:26 also pairs the participle with ٱلْمُلْكِ and acts of granting and removing it.
+  - limits: The livestock verse establishes ordinary possession, while 3:26 concerns sovereignty; neither specifies how ownership of the Day is exercised.
+- **U-دين** [reading; support strong, relevance high] root د ي ن (focus word ٱلدِّينِ: دِين N) — 98 occurrences in 87 ayat; same form 91, other forms 7
+  - finding: In 9:29, the noun دِينَ ٱلْحَقِّ is governed by يَدِينُونَ in a passage that also names belief in the Last Day. This usage lets يوم الدين bring future reckoning and lived adherence into the same interpretive frame.
+  - evidence: 1:4 «يَوْمِ ٱلدِّينِ»; 9:29 «بِٱلْيَوْمِ ٱلْءَاخِرِ»; 9:29 «وَلَا يَدِينُونَ دِينَ ٱلْحَقِّ»
+  - activation: The focus places دِينِ in a construct with يوم, while 9:29 places the same noun beside a reference to the Last Day and uses it as the object of a verb.
+  - limits: In 9:29, دِينَ ٱلْحَقِّ describes a dīn people follow; the wording does not state that this is the meaning of دِينِ in the focus.
+- **U-يوم** [reading; support medium, relevance high] root ي و م (focus word يَوْمِ: يَوْم N) — 389 occurrences in 377 ayat; same form 318, other forms 71
+  - finding: The focus names the Day through ٱلدِّينِ; 9:29 names an eschatological day as ٱلْيَوْمِ ٱلْءَاخِرِ. The parallel places the focus’s Day within Quranic last-day language while retaining its distinct emphasis on dīn.
+  - evidence: 1:4 «مَٰلِكِ يَوْمِ ٱلدِّينِ»; 9:29 «وَلَا بِٱلْيَوْمِ ٱلْءَاخِرِ»
+  - activation: Both passages pair يوم with a definite description tied to eschatological belief or reckoning.
+  - limits: The wording does not establish that يوم الدين and اليوم الآخر are interchangeable formulas; the occurrence count supplies no broader pattern by itself.
+- **usage_1.X1** [open; support medium, relevance high] 
+  - finding: The root’s debt vocabulary may sharpen ٱلدِّينِ as an account due: 2:282 describes deferred debts that are to be written down, while the focus joins دِينِ to a reckoning Day.
+  - evidence: 1:4 «يَوْمِ ٱلدِّينِ»; 2:282 «إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ»
+  - missing: A dictionary attestation or another Quranic passage linking the debt sense دَيْن to the focus’s دِين meaning of reckoning could establish whether the account-settlement association extends beyond shared root and accounting imagery.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+165 readings and open observations, 58 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 8, 'same-as': 2}.
+
+- **R-1:2** [reading] The praise moves from رَبِّ ٱلْعَٰلَمِينَ to مَٰلِكِ يَوْمِ ٱلدِّينِ, narrowing broad lordship over the worlds to authority at the decisive accounting. (1:2, 1:4)
+- **R-1:5** [reading] After مَٰلِكِ يَوْمِ ٱلدِّينِ, the speaker turns to إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ: exclusive service and dependence answer the sovereign title. (1:4, 1:5)
+- **R-2:217** [reading] The passage names ٱلدِّينِ as allegiance opponents try to make believers abandon, then links apostasy followed by death with loss of deeds in this world and the next; this ties present din to consequential accounting. (1:4, 2:217)
+- **R-2:256** [reading] The surrounding sequence moves from God's possession of all things to a choice of din and guidance, then to paths ending in fire; this makes the ownership and accountability horizon of 1:4 resonate with present religious choice. (1:4, 2:255, 2:256, 2:257)
+- **R-2:281** [reading] This verse directly unfolds the compressed phrase يَوْمِ ٱلدِّينِ: people return to God on a day when every soul receives its due for what it earned, without injustice. (1:4, 2:281)
+- **R-3:19** [reading] The passage uses ٱلدِّينَ for the order of submission to God, then says God is swift in accounting for those who reject His signs; it places present din beside the reckoning named in 1:4. (1:4, 3:19)
+- **R-3:25** [reading] The day in 3:25 is explicitly free of doubt, and every soul is recompensed for what it earned without injustice; it closely specifies the judgment horizon of يَوْمِ ٱلدِّينِ. (1:4, 3:25)
+- **R-3:26** [reading] Immediately after the day when every soul receives what it earned, God is addressed as مَٰلِكَ ٱلْمُلْكِ; the repeated owner title places final accounting within God's control over sovereignty as a whole. (1:4, 3:25, 3:26)
+- **R-3:30** [reading] The day is rendered as a personal encounter with each one's deeds: good is brought present, while the person wishes evil were far away; this gives يَوْمِ ٱلدِّينِ an experiential dimension. (1:4, 3:30)
+- **R-3:55** [reading] The passage says that after the period of Jesus's followers' worldly standing, people return to God, who will judge their disagreements; it presents the Day of Din as resolution between disputing parties. (1:4, 3:55)
+- **R-3:185** [reading] The verse says full wages are received on the resurrection day, making the focus's account-day a time of completed recompense rather than worldly reward alone. (1:4, 3:185)
+- **R-4:53** [reading] The rhetorical question about whether these people have a share in al-mulk, followed by mention of an immense mulk granted to Abraham's family, distinguishes human shares and grants from the title مَٰلِكِ يَوْمِ ٱلدِّينِ. (1:4, 4:53, 4:54)
+- **R-4:87** [reading] The verse specifies assembly as an act of God on the resurrection day, giving the Day in مَٰلِكِ يَوْمِ ٱلدِّينِ a collective gathering dimension. (1:4, 4:87)
+- **R-5:40** [reading] God's dominion over the heavens and earth is followed by His punishing whom He wills and forgiving whom He wills; this makes divine ownership concrete as authority over penalty and pardon beside the Day title. (1:4, 5:40)
+- **R-6:12** [reading] The passage answers that all in the heavens and earth belong to God, says He prescribed mercy for Himself, then promises to gather people on the resurrection day; it joins dominion, mercy, and final assembly in one sequence. (1:4, 6:12)
+- **R-6:31** [reading] The denied meeting with God ends in the sudden arrival of the Hour, regret, and burdens carried for past failures; this gives the focus's account-day a scene of personal loss and reckoning. (1:4, 6:31)
+- **R-6:50** [reading] The word مَلَكٌ in 6:50 means an angel, not the owner-title مَٰلِكِ; the following warning that people will be gathered to God with no protector or intercessor turns the passage toward the focus's final-account horizon. (1:4, 6:50, 6:51)
+- **R-6:70** [reading] Those who treat their دين as play are warned that each soul may be held for what it earned, with no protector, intercessor, or ransom; the passage joins present din to the reckoning named in 1:4. (1:4, 6:70)
+- **R-6:73** [reading] The verse explicitly says that dominion belongs to God on the day the trumpet is blown; this closely echoes مَٰلِكِ يَوْمِ ٱلدِّينِ while naming the cosmic event that marks the day. (1:4, 6:73)
+- **R-6:159** [reading] The divided دينهم is followed by the people’s affair returning to Allah and His telling them what they did; the focus can thus be heard against human division of dīn and divine final report. (6:159)
+- **R-7:8** [reading] The weighing on that day is called الحق, and heavy scales lead to success; this supplies a measure-of-deeds scene for the focus’s Day. (7:8)
+- **R-7:9** [reading] Light scales bring loss of the self, giving the weighing scene’s adverse outcome alongside the focus’s divine ownership of the Day. (7:9)
+- **R-7:29** [reading] The command to call on Allah with dīn made sincere is followed by the reminder that people return as He began them; present devotion is set beside return to Allah. (7:29)
+- **R-7:51** [reading] Those who made their dīn play are met with divine neglect on the day they forgot to meet; the passage binds present treatment of dīn to the final meeting. (7:51)
+- **R-9:29** [reading] Belief in the Last Day is set beside whether people يَدِينُونَ دِينَ الْحَقِّ; the passage places final-day belief and lived allegiance in one description. (9:29)
+- **R-10:22** [reading] People call on Allah with dīn made sincere in a storm, promise gratitude, then after rescue transgress before the return and report in 10:23; the focus’s dīn stands against this gap between crisis devotion and conduct. (10:22, 10:23)
+- **R-11:99** [reading] The people carry a curse in this life and on the Day of Resurrection, giving the focus’s day an outcome that extends a community’s consequence across both horizons. (11:99, 11:98)
+- **R-11:103** [reading] The day is described as one for which all people are gathered and which is witnessed; the focus’s Day therefore has a collective and public dimension. (11:103)
+- **R-11:105** [reading] On that day no soul speaks except by His permission, and people divide into wretched and fortunate; the scene makes sovereignty audible as control over speech and outcome. (11:105)
+- **R-12:40** [reading] The verse says judgment belongs only to Allah, commands worship of Him alone, and calls this dīn upright; it directly joins divine حكم and religious dīn beside the focus’s title and the Fatiha’s next line of exclusive worship. (12:40, 1:5)
+- **R-14:41** [reading] Abraham asks forgiveness for himself, his parents, and believers on the day حساب stands; this makes the reckoning horizon a motive for communal petition, as the Fatiha moves from praise into request. (14:41, 1:4, 1:6)
+- **R-14:48** [reading] The earth and heavens are changed and people appear before Allah, the One, the Subduer; the focus’s Day opens onto cosmic upheaval and exposure before sovereign power. (14:48, 14:49)
+- **R-15:35** [reading] Iblis’s curse lasts until يوم الدين, making that Day the fixed boundary of his allotted span and a terminus for the present cosmic conflict. (15:35)
+- **R-17:13** [reading] A person’s deed is fastened to them and a book is brought out for them on Resurrection Day; this gives the focus’s Day an individual record-bearing scene. (17:13)
+- **R-17:14** [reading] The person is told to read their book, with the self sufficient as a reckoner that day; the scene makes the account personally legible and inescapable. (17:14)
+- **R-18:47** [reading] All are gathered with no one omitted, then presented before the Lord and confronted with the record in the following verses; the focus’s Day has a universal assembly before accounting. (18:47, 18:48, 18:49)
+- **R-18:49** [reading] The book omits no small or large deed, and people find what they did present; the focus’s Day thus includes documentary accounting without omission. (18:49)
+- **R-18:105** [reading] People whose works were void receive no weight on Resurrection Day, linking the focus’s dīn horizon to the worth assigned to deeds. (18:105)
+- **R-20:111** [reading] Faces are humbled before the Living, the Self-Sustaining, and the bearer of wrongdoing fails; the scene gives the focus’s sovereignty a bodily posture and an adverse outcome. (20:111)
+- **R-20:112** [reading] The believer who does righteous deeds need not fear injustice or deprivation; this specifies the focus’s accounting horizon as fair recompense without loss. (20:112)
+- **R-21:47** [reading] Just balances are set for Resurrection Day; not even a mustard-seed’s weight is neglected, and Allah is sufficient as reckoner. This gives the focus precision, justice, and complete accounting. (21:47)
+- **R-24:25** [reading] This verse makes dīn an amount God fully renders to people on that day, giving the focus’s Yawm al-Din a direct parallel in enacted recompense. (24:25)
+- **R-25:26** [reading] The focus’s ownership of the Day is echoed as ملك on that very day, declared to belong rightfully to al-Raḥmān. (25:26)
+- **R-26:82** [reading] Abraham’s hope for forgiveness on Yawm al-Din presents that day as a horizon for appeal to mercy as well as accountability. (26:82)
+- **R-28:70** [reading] The focus’s ownership and reckoning cohere here as God’s الحكم and the return of all people to Him. (28:70)
+- **R-29:65** [reading] The shipwrecked call on God with undivided dīn, then return to shirk when rescued; alongside the claim that the Hereafter is the true life, this exposes devotion that lasts only until danger passes. (29:64, 29:65)
+- **R-30:43** [reading] Upright dīn is to be established before an irreversible day from God, when people divide; the final horizon gives present religious orientation urgency. (30:43)
+- **R-31:32** [reading] The storm forces people to call on God with sincere dīn, and the next verse warns of a day when parent and child cannot answer for one another; the sequence moves from present dependence to final accountability. (31:32, 31:33)
+- **R-36:51** [reading] The final horizon unfolds through the trumpet and emergence from graves toward the Lord, before the later declaration that deeds alone determine recompense. (36:51, 36:54)
+- **R-36:54** [reading] The day’s governing rule is that no self is wronged and each is recompensed only for what it did, specifying the justice implied by din. (36:54)
+- **R-37:20** [reading] The resurrected themselves recognize the event as Yawm al-Din, but do so in a cry of woe, making recognition part of the day’s scene. (37:20)
+- **R-37:21** [reading] The same day is named Yawm al-Faṣl, so the focus’s dīn horizon includes a decisive separation that deniers had rejected. (37:20, 37:21)
+- **R-37:24** [reading] The gathered wrongdoers are stopped because they must answer questions, presenting the day as an interrogative account, not simply a sentence pronounced. (37:24)
+- **R-37:53** [reading] The related form لَمَدِينُونَ voices the question of whether the dead will indeed be brought under requital, giving the focus’s dīn a concrete sense of due and accountability. (37:53)
+- **R-38:78** [reading] Satan’s curse extends to Yawm al-Din, while his request immediately afterward seeks delay until resurrection; evil’s time is bounded by the same final horizon. (38:78, 38:79)
+- **R-39:2** [reading] The command to worship Allah with undivided dīn forms a present response to the focus’s future horizon; the Fatiha itself moves from the Day of Din directly to إِيَّاكَ نَعْبُدُ. (1:4, 1:5, 39:2)
+- **R-39:3** [reading] The verse joins Allah’s exclusive claim to dīn with His judging between disputants, linking present religious allegiance to divine adjudication. (39:3)
+- **R-39:14** [reading] The speaker’s exclusive worship is set between fear of a great day and the warning of loss on Resurrection Day, joining present dīn to its final consequence. (39:13, 39:14, 39:15)
+- **R-39:68** [reading] The final scene begins with two trumpet blasts: the first brings death, the second makes people stand looking, before the book and judgment appear. (39:68, 39:69)
+- **R-39:69** [reading] The reckoning is staged with a book, prophets, witnesses, and judgment in truth, with an explicit assurance that no one is wronged. (39:69)
+- **R-39:70** [reading] Every self is paid in full for what it did, making the day’s din an exhaustive settlement with deeds. (39:70)
+- **R-40:14** [reading] Exclusive dīn is commanded immediately before a warning of Yawm al-Talāq, connecting present devotion to the coming encounter with God. (40:14, 40:15)
+- **R-40:16** [reading] The day’s sovereignty is publicly reclaimed through the question لِمَنِ ٱلْمُلْكُ ٱلْيَوْمَ and its answer, followed by the rule that every self is recompensed. (40:16, 40:17)
+- **R-40:17** [reading] Each self is recompensed for its earning without injustice, and God is swift in account; the verse spells out the justice and speed within the focus’s day. (40:17)
+- **R-42:45** [reading] The final scene makes loss public: wrongdoers are presented before the Fire in humiliation, while believers name the losers as those who lost themselves and their families on Resurrection Day. (42:45)
+- **R-44:40** [reading] The appointed day for all is called Yawm al-Faṣl, giving the focus’s Day of Din a universal, decisive-separation aspect. (44:40)
+- **R-45:22** [reading] Creation بِٱلْحَقِّ is linked to each self being repaid for what it earned without wrong: the Day named by ٱلدِّينِ is presented as the fitting ground for just recompense. (45:22, 1:4)
+- **R-45:27** [reading] The pairing of Allah's مُلْك over the heavens and earth with the Hour's arrival and the falsifiers' loss makes cosmic sovereignty and final consequence adjacent dimensions of authority. (45:27, 1:4)
+- **R-45:28** [reading] The named Day opens onto collective presentation: every community is summoned to its book, then addressed as repaid for its deeds. This gives ٱلدِّينِ a public and documentary scene. (45:28)
+- **R-45:29** [reading] The account behind repayment is represented as a record that speaks truth and preserves deeds, giving the Day of Dīn an evidentiary medium as well as a verdict. (45:29, 1:4)
+- **R-50:21** [reading] Each self arrives accompanied by a driver and a witness, turning the focus's owned Day into an individual presentation with testimony. (50:21)
+- **R-51:6** [reading] The separate assertion وَإِنَّ ٱلدِّينَ لَوَٰقِعٌۭ says dīn will certainly occur. It reinforces the focus's title as a real, impending reckoning, while using dīn without the noun يَوْم. (51:5, 51:6, 1:4)
+- **R-51:12** [reading] The exact phrase يَوْمُ ٱلدِّينِ appears as a question from those who ask when it will be. The next verse answers with their exposure to the Fire, placing doubt about its timing beside its punishment scene. (51:12, 51:13, 1:4)
+- **R-51:13** [reading] The Fire scene follows the question about when the Day of Dīn is and answers it with what happens to the questioners on that day, giving the focus's title an adverse outcome. (51:12, 51:13)
+- **R-53:30** [reading] God's knowledge of who strays and who is guided precedes the declaration that everything belongs to Him and He repays people for their deeds. The sequence frames the focus's ownership as informed judgment, not an unknowing distribution. (53:30, 53:31)
+- **R-53:31** [reading] Universal possession is explicitly joined to recompensing wrongdoers for what they did and the good-doers with the best. This gives the focus's مَٰلِكِ and ٱلدِّينِ a paired ownership-and-outcome frame. (53:31, 1:4)
+- **R-56:56** [reading] The exact formula يَوْمَ ٱلدِّينِ accompanies the deniers' fiery drink as their نُزُل, a grim inversion of a welcoming provision. It makes the focus's day title carry a concrete adverse allotment. (56:55, 56:56, 1:4)
+- **R-56:86** [reading] The challenge فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ asks why people cannot return the dying soul if they are not subject to dīn. The related participial form casts dīn as being answerable or under requital, though it is not the focus's noun form. (56:86, 56:87, 1:4)
+- **R-57:5** [reading] The noun مُلْكُ names Allah's possession of the heavens and earth, followed by all affairs returning to Him. This pairs comprehensive dominion with the focus's ownership of the decisive Day. (57:5, 1:4)
+- **R-57:13** [reading] The day scene divides people by a wall whose interior is mercy and exterior torment. This adds a spatially pictured separation of outcomes to the focus's day of judgment. (57:12, 57:13)
+- **R-60:3** [reading] Kinship and children cannot avail people when the Resurrection Day separates them. The focus's day of account therefore overrides ordinary family bonds as a basis for security. (60:3, 1:4)
+- **R-64:9** [reading] The gathering day is named both يَوْمِ ٱلْجَمْعِ and يَوْمُ ٱلتَّغَابُنِ; the following verse sets believing and disbelieving outcomes beside one another. This expands the focus's Day into gathering and differentiated gain or loss. (64:9, 64:10, 1:4)
+- **R-69:18** [reading] Everyone is presented, with nothing hidden from them, giving the focus's account day a scene of total disclosure. (69:18)
+- **R-69:19** [reading] The right-hand recipient invites others to read his record, making the Day of Dīn an occasion where a favorable account is openly shown. (69:19, 69:20)
+- **R-69:25** [reading] The left-hand recipient wishes he had never received his record, setting a sharply contrary outcome beside the confidence of the right-hand recipient. (69:25, 69:26)
+- **R-70:26** [reading] The righteous are described as those who affirm يَوْمِ ٱلدِّينِ, making recognition of the very day named in the focus a defining present disposition. (70:26, 1:4)
+- **R-72:21** [reading] The Prophet says he does not possess harm or guidance for his hearers, a sharp contrast with Allah as مَٰلِكِ of the Day. The related verb أَمْلِكُ distinguishes limited human agency from divine authority. (72:21, 72:22, 1:4)
+- **R-74:46** [reading] The speakers confess that they used to deny يَوْمِ ٱلدِّينِ, naming denial of the focus's exact Day as part of the path to ruin. (74:46, 74:47, 1:4)
+- **R-75:6** [reading] A question about when the Resurrection Day will be places skeptical timing beside the focus's named Day of Dīn; the following signs show the question is answered by the event's arrival. (75:6, 75:7, 1:4)
+- **R-75:10** [reading] On that day the human asks where escape is, receives the answer that there is no refuge, and is told that the destination is to the Lord. This casts the focus's ownership as inescapable jurisdiction. (75:10, 75:11, 75:12)
+- **R-75:12** [reading] The final settlement is to the Lord, giving the focus's ownership of the Day a destination: all return to the very sovereign whose day it is. (75:12, 1:4)
+- **R-75:13** [reading] Each person is told what they sent ahead and left behind, supplying an account of deeds to the focus's Day of Dīn. (75:13)
+- **R-77:12** [reading] The question asks for which day the messengers were deferred, and the next verse answers: the Day of Separation. The focus's Day of Dīn is thus placed within a pattern of delay terminating in decision. (77:12, 77:13)
+- **R-77:13** [reading] يَوْمُ ٱلْفَصْلِ names the final day as separation or decision, a close functional counterpart to ٱلدِّينِ as a day of judgment and recompense. (77:13, 1:4)
+- **R-77:35** [reading] On this day people do not speak and are not permitted to make excuses, adding the loss of defense or appeal to the authority implied by the focus's owned Day. (77:35, 77:36, 1:4)
+- **R-78:26** [reading] جَزَآءًۭ وِفَاقًا specifies recompense as corresponding to conduct, giving the focus’s ٱلدِّينِ a measure-for-measure outcome. (1:4, 78:26, 78:27)
+- **R-79:35** [reading] The Day includes the human being’s recollection of what they strove for, making the focus’s ٱلدِّينِ an encounter with one’s own deeds as well as a verdict. (1:4, 79:35)
+- **R-80:34** [reading] يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ depicts the Day through the collapse of kinship obligations under personal crisis, a human cost within the focus’s reckoning horizon. (1:4, 80:34, 80:35)
+- **R-80:37** [reading] Each person has a concern that absorbs them on that Day; the focus’s title of universal ownership is set beside an experience of radically individual preoccupation. (1:4, 80:37)
+- **R-82:5** [reading] The self knows what it sent ahead and left behind, giving the focus’s reckoning a comprehensive personal record across deeds and omissions. (1:4, 82:5)
+- **R-82:9** [reading] كَذِّبُونَ بِٱلدِّينِ identifies denial of dīn as the passage’s central moral refusal, then the surrounding verses place people under guardians and describe their final outcomes. (1:4, 82:9, 82:10)
+- **R-82:15** [reading] The exact phrase يَوْمَ ٱلدِّينِ is when the wrongdoers enter the Fire, so this passage gives the focus’s named Day a concrete adverse outcome. (1:4, 82:15, 82:16)
+- **R-82:17** [reading] The rhetorical question about what can make the hearer know يَوْمَ ٱلدِّينِ marks the Day as beyond ordinary apprehension, adding an epistemic limit to the focus’s concise title. (1:4, 82:17)
+- **R-82:18** [reading] A second question about يَوْمُ ٱلدِّينِ delays the answer until the following verse states that no soul owns anything for another and command belongs to Allah. (1:4, 82:18, 82:19)
+- **R-82:19** [reading] No soul can own anything for another on that Day, while command belongs to Allah; this directly unfolds the focus’s مَٰلِكِ as exclusive authority when human possession fails. (1:4, 82:19)
+- **R-83:6** [reading] People stand for the Lord of all worlds on that Day, bringing the focus’s ملكِ يوم الدين into a scene of universal presence before the Lord already named in the Fatiha. (1:2, 1:4, 83:6)
+- **R-83:11** [reading] The exact phrase يَوْمِ ٱلدِّينِ is the truth that the condemned group deny, giving the focus’s named Day an explicit opposition in human belief. (1:4, 83:11, 83:12)
+- **R-84:8** [reading] حِسَابًۭا يَسِيرًۭا shows that accounting has a mode and can be easy, specifying one possible character of the judgment named by ٱلدِّينِ. (1:4, 84:8)
+- **R-86:9** [reading] Secrets are tested on the Day, extending the focus’s reckoning beyond visible deeds to what a person concealed. (1:4, 86:9, 86:10)
+- **R-95:7** [reading] The challenge asks what can make a person deny بِٱلدِّينِ after describing human creation and a moral reversal, placing dīn as the truth behind accountability rather than a bare date. (1:4, 95:7, 95:8)
+- **R-95:8** [reading] Allah is named as the wisest of judges, giving the focus’s ownership of the Day a judicial quality grounded in divine judgment. (1:4, 95:8)
+- **R-99:6** [reading] People emerge in groups to be shown their deeds, making the focus’s Day one of public exposure and individualized accounting. (1:4, 99:6)
+- **R-99:7** [reading] Even the smallest good is seen, establishing fine-grained positive recompense within the focus’s Day of dīn. (1:4, 99:7, 99:8)
+- **R-99:8** [reading] The smallest evil is also seen, so the focus’s dīn horizon includes exact exposure of harmful deeds as well as good ones. (1:4, 99:8, 99:7)
+- **R-101:6** [reading] Heavy scales introduce measured outcomes, giving the focus’s dīn a weighing image for favorable judgment. (1:4, 101:6, 101:7)
+- **R-101:8** [reading] Light scales give the weighing a contrary outcome, completing the focus’s Day of dīn as a judgment with differentiated consequences. (1:4, 101:8, 101:9)
+- **R-102:8** [reading] People will be asked about نعيم, broadening the focus’s accounting horizon to include blessings received, not solely deeds performed. (1:4, 102:8)
+- **R-107:1** [reading] Denial of dīn is exposed through the next verses’ rejection of the orphan and neglect of the poor, connecting the focus’s judgment horizon with everyday social conduct. (1:4, 107:1, 107:2, 107:3)
+- **R-109:6** [reading] دِينُكُمْ and دِينِ name distinct religious allegiances, showing that dīn has a present communal sense elsewhere; the Fatiha’s following worship declaration lets allegiance stand beside its future Day of reckoning without equating the two senses. (1:4, 1:5, 109:6)
+- **R-114:2** [reading] مَلِكِ ٱلنَّاسِ directly parallels the focus’s مَٰلِكِ title and keeps kingship alongside the active-ownership reading of authority over the Day. (1:4, 114:2)
+- **R-f-دين-ملك** [reading] فِى دِينِ ٱلْمَلِكِ denotes the king’s legal order, opening a juridical shade for dīn beside the focus’s Day of judgment, where ultimate authority is attributed to the divine Malik. (1:4, 12:76)
+- **R-f-دين-يوم** [reading] In 3:24, a group’s dīn includes a claim that punishment will last only counted days; this connects religious self-understanding to expectations about judgment while keeping its sense distinct from the focus’s Day of requital. (1:4, 3:24)
+- **R-1:3** [reading] The repeated ٱلرَّحْمَٰنِ ٱلرَّحِيمِ stands immediately before the Day of Din title, holding mercy and final accountability together in the praise. (1:3, 1:4)
+- **R-1:6** [reading] The request ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ places guidance on the path after the Day of Din has supplied the prayer's accountability horizon. (1:4, 1:6)
+- **R-1:7** [reading] The contrast between those favored, those under anger, and those astray gives the requested path morally consequential categories under مَٰلِكِ يَوْمِ ٱلدِّينِ. (1:4, 1:7)
+- **R-2:107** [reading] The formula لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ broadens the authority named by مَٰلِكِ يَوْمِ ٱلدِّينِ: the Day is a focused horizon within universal dominion. (1:4, 2:107)
+- **R-2:193** [reading] Here ٱلدِّينُ لِلَّهِ names a present order for God, followed by a limit on aggression and the principle of retribution; alongside يَوْمِ ٱلدِّينِ, the passage links divine authority to both worldly order and accountability. (1:4, 2:193, 2:194)
+- **R-5:3** [reading] The phrase ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ puts “today” beside din, where din means the community's religious order; beside يَوْمِ ٱلدِّينِ, it distinguishes present religious life from final accounting while linking them by wording. (1:4, 5:3)
+- **R-6:158** [reading] The day in 6:158 is a threshold after which new faith or good earned in faith cannot benefit a soul; it gives يَوْمِ ٱلدِّينِ an irreversible moral horizon. (6:158)
+- **R-7:158** [reading] The formula gives Allah the ملك of the heavens and earth and links it to giving life and death; it broadens the focus’s ownership title to the whole life-and-death domain. (7:158)
+- **R-9:116** [reading] Allah’s ملك over heavens and earth is paired with giving life and death, extending the focus’s ownership horizon across the conditions that precede judgment. (9:116)
+- **R-23:101** [reading] The reckoning horizon also marks a rupture in ordinary kinship: after the trumpet, there are no family ties between them and no mutual questioning. (23:100, 23:101)
+- **R-23:102** [reading] The same resurrection scene pictures a favorable outcome through heavy scales: those whose scales weigh heavily are the successful. (23:102)
+- **R-23:103** [reading] The opposite scale outcome is loss of the self and lasting residence in Hell, giving the final reckoning a sharply divided result. (23:103)
+- **R-30:12** [reading] When the Hour rises, the criminals are struck dumb with despair, supplying an experiential response to the final day that the focus leaves unstated. (30:12)
+- **R-46:5** [reading] The invoked beings cannot answer those who call on them even until Resurrection, and the next verse says they become enemies to their worshippers when people are gathered. The Day of Dīn thus tests who has effective authority. (46:5, 46:6)
+- **R-50:22** [reading] The veil is removed and sight becomes sharp on that day, so the encounter associated with ٱلدِّينِ includes disclosure to the person being judged. (50:22)
+- **R-53:26** [reading] The preceding declaration assigns both afterlife and present life to Allah; here even angelic intercession benefits no one without His permission and approval. The focus's ownership can therefore be heard as control over proposed intermediaries as well as outcomes. (53:25, 53:26, 1:4)
+- **R-81:14** [reading] Each soul learns what it brought, presenting the Day’s accounting as disclosure of a person’s own contents and deeds. (1:4, 81:14)
+- **R-89:23** [reading] Hell is brought forward and the human remembers, but belatedly, what was sent ahead; the focus’s Day thus includes irreversible recognition as well as judgment. (1:4, 89:23, 89:24)
+- **R-114:3** [reading] The sequence Rabb of people, King of people, God of people can be set beside the Fatiha’s Rabb al-ʿālamīn, Malik of the Day, and direct worship; the focus’s title participates in a progression toward devotion. (1:2, 1:4, 1:5, 114:3)
+- **R-2:132** [open] In 2:132, ٱلدِّينَ is the chosen religious way that Abraham’s descendants must keep through death; beside يَوْمِ ٱلدِّينِ, this may pair present commitment with final settlement. (1:4, 2:132, 2:133) Missing: These verses connect chosen din with death but do not state its relation to final recompense; a Quranic passage explicitly joining continued religious commitment to judgment could establish that bridge.
+- **R-6:161** [open] The description دينًا قيمًا presents dīn as an upright religious way; that Quranic use could keep an order or way sense in hearing the focus’s dīn. (6:161) Missing: This verse does not pair dīn with a day or reckoning. A dictionary sense or Quranic use of يوم الدين that retains the upright-way sense could establish whether that layer belongs in the focus.
+- **R-9:36** [open] The passage calls Allah’s sacred-month order ٱلدِّينُ ٱلْقَيِّمُ and locates it in a calendar grounded at creation; it may let the focus’s day resonate with divinely set temporal order. (9:36) Missing: The verse calls a calendar rule dīn, but does not connect that rule to يوم الدين. A lexical source or another passage joining divine time-order to the day-of-dīn formula could decide whether the temporal layer carries over.
+- **R-15:38** [open] In the same exchange, the curse runs until يوم الدين, Iblis asks for respite until people are raised, and the granted respite lasts until the known time; these deadlines may identify one endpoint. (15:35, 15:36, 15:38) Missing: The exchange places the deadlines in sequence but does not explicitly equate the known time with the Day of Din or the day of resurrection. A clear cross-reference or exegetical identification could decide whether the endpoints coincide.
+- **R-15:87** [open] If the seven oft-repeated are the Fatiha, the focus is one verse within the repeatedly given unit and carries its judgment-and-guidance dimension into recitation. (15:87, 1:4) Missing: The supplied verse does not identify the seven as the Fatiha. A Quranic cross-reference or an explicit identification from another source is needed before assigning the focus’s content to this gift.
+- **R-16:52** [open] The phrase وَلَهُ ٱلدِّينُ وَاصِبًا gives Allah dīn continually, while the focus names a day of dīn under His ownership; together they may frame judgment as one horizon of a lasting divine claim. (16:52, 1:4) Missing: The shared noun and possessive relation are clear, but the two verses may use dīn with different senses. A dictionary or close Quranic parallel would be needed to establish continuity between them.
+- **R-30:30** [open] Here dīn is the upright way aligned with God’s created fitrah, raising the possibility that Yawm al-Din can evoke judgment of a lived order as well as repayment. (1:4, 30:30) Missing: A passage explicitly linking the final day to judgment of the upright dīn, or a local cue in 1:4 that selects this normative sense, would establish the proposed breadth; the focus’s construct currently favors reckoning.
+- **R-38:81** [open] The granted respite ends at Yawm al-Waqt al-Maʿlūm; the preceding request asks for delay until resurrection, leaving open whether this is the same endpoint as Yawm al-Din. (38:79, 38:81) Missing: An explicit Quranic identification of the known appointed time with the day of resurrection or Yawm al-Din would settle whether the two endpoints coincide.
+- **R-40:32** [open] The warned-of Yawm al-Tanād may add a scene of calling and abandonment to the focus’s final horizon, but its identity with Yawm al-Din is not stated here. (40:32, 40:33) Missing: An explicit cross-verse identification of Yawm al-Tanād with Yawm al-Din, or a fuller account of the calling in this scene, could establish what this name adds to the focus.
+- **R-42:13** [open] Dīn here is a shared order prescribed across prophets; the following verse says disputes over it await judgment at an appointed term, which may connect the focus’s day to the settlement of rival religious claims. (42:13, 42:14) Missing: The passage does not explicitly identify the appointed term or the judgment among factions as Yawm al-Din; that equation would turn this parallel into a defined link.
+- **R-42:21** [open] This verse questions religious laws claimed without God’s permission and says a separating word delays judgment between the disputants, suggesting that the day of dīn could answer competing claims about dīn. (42:21) Missing: An explicit identification of كَلِمَةُ ٱلْفَصْلِ or the deferred judgment with Yawm al-Din would establish the timing and settle how the legal sense of dīn relates to the focus.
+- **R-44:16** [open] The great seizure is called a day of divine vengeance, but this passage leaves open whether it is a historical punishment or the final reckoning named in the focus. (44:16, 44:17) Missing: A clearer referent for the great seizure, or a passage explicitly equating it with Yawm al-Din, is needed to determine whether it describes the same final event.
+- **R-98:5** [open] Here dīn names sincere devotion and an enacted way, followed by prayer and almsgiving; this may let the focus’s Day of dīn sound against a present horizon of allegiance and obligation. (1:4, 98:5, 98:6) Missing: This passage establishes a present-practice use of dīn and places it beside an afterlife outcome, but does not show that the focus’s conventional Day-of-requital phrase carries that sense too; evidence of deliberate semantic layering in the focus’s context could decide it.
+- **R-5:120** [reading] After the scene where truthfulness benefits people on a named day, the surah closes with God's dominion over the heavens, earth, and all within them; this frames the final outcome under universal sovereignty. (1:4, 5:119, 5:120)
+- **R-19:15** [reading] Yahya’s blessing spans birth, death, and being raised alive; the final day can be heard as a personal life-transition as well as a day of account. (19:15)
+- **R-19:33** [reading] Isa uses the same birth-death-resurrection sequence as Yahya in 19:15; its repetition makes being raised alive a prophetic life-cycle horizon, not an isolated phrase. (19:33, 19:15)
+- **R-24:42** [reading] The focus’s title over one specific day sits within a broader assertion that all heavenly and earthly dominion belongs to God, to whom all return. (24:42)
+- **R-78:17** [reading] يَوْمَ ٱلْفَصْلِ is described as a fixed appointment, making the focus’s يَوْمِ a determined encounter for separation rather than an unspecified future span. (1:4, 78:17)
+- **R-90:14** [reading] يَوْمٍۢ can also mean an ordinary day of hardship; here it is the time for feeding the hungry, while the focus’s ٱلدِّينِ is what specifies its Day as a reckoning horizon. (1:4, 90:14)
+- **R-6:8** [open] The demand for an angel is answered with the claim that, were one sent, the matter would be settled and the people given no reprieve; this may cast the Day of Din as an outcome that a demanded sign would hasten. (1:4, 6:8) Missing: The verse does not say whether settling the matter means final reckoning or an immediate worldly punishment; surrounding verses identifying the consequence of the angel's descent could decide the link.
+- **R-11:31** [open] Noah disclaims possession of Allah’s خزائن and affirms that Allah knows what lies within people; this could connect the focus’s ownership title to exclusive divine knowledge of persons. (11:31) Missing: The exchange concerns Noah’s limits as a prophet and does not name judgment. A passage connecting Allah’s knowledge of hidden selves to their later account could establish the link to the focus.
+- **R-44:9** [open] The people’s doubt and play are followed by a command to await a day of manifest smoke; the sequence may frame denial as answerable to an appointed punishment. (44:9, 44:10) Missing: The text here does not establish whether the smoke-day is a worldly punishment or the final Day of Din; a direct identification or further scene details could resolve its relevance.
+- **R-48:28** [open] دِينِ ٱلْحَقِّ and ٱلدِّينِ كُلِّهِ use dīn for a revealed way or religious order. A relation between that order and the focus's Day of Dīn could broaden the latter beyond an occasion of repayment. (48:28, 1:4) Missing: This verse has no day or repayment scene. A dictionary sense or Quranic parallel that connects dīn as an order or way to the reckoning sense in يَوْمِ ٱلدِّينِ could establish whether the wider association applies here.
+- **R-f-ملك-يوم** [open] In the supplied family, the clearest human-king and today pairing is the king’s worldly authority in 12:54; this could contrast finite royal presence with the focus’s authority over the Day of dīn. (1:4, 12:54, 21:103) Missing: The supplied examples mix a human king, angels, and wealth, and do not establish one recurring sovereignty formula linking ملك and يوم; the remaining listed family occurrences or lexical evidence for a deliberate contrast could decide whether the worldly-king scene meaningfully sharpens the focus.
+
+Notes:
+- R-3:166 [support strong, relevance medium] Here يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ is the earthly day when two armies met, showing that يوم alone does not mark the afterlife; in 1:4, ٱلدِّينِ supplies the judgment horizon.
+- R-3:189 [support strong, relevance medium] After denying that wrongdoers can escape punishment, the passage declares God's dominion over the heavens and earth; this broadens the authority behind مَٰلِكِ يَوْمِ ٱلدِّينِ.
+- R-6:137 [support strong, relevance medium] Here دين is the religious allegiance that partners distort; beside مَٰلِكِ يَوْمِ ٱلدِّينِ, it raises the question of whose authority defines the dīn people claim.
+- R-7:14 [support strong, relevance medium] Iblis asks for time until the day people are raised; the Day in the focus can also be heard as the limit of a deferred span.
+- R-10:104 [support strong, relevance medium] The speaker identifies his dīn with worship of Allah, whom the verse describes as taking the listeners in death; this joins present religious stance to mortality.
+- R-10:105 [support strong, relevance medium] The command to orient the face toward dīn as a ḥanīf defines dīn as a present direction of life, a possible counterpart to its future horizon in the focus.
+- R-12:92 [support strong, relevance medium] Here ٱلْيَوْمَ is Joseph’s immediate day of pardon; it shows that yawm alone can be ordinary and that the focus’s genitive ٱلدِّينِ supplies its eschatological specification.
+- R-24:2 [support strong, relevance medium] Here dīn names a divine religious order within which punishment is administered, and the verse explicitly couples that order to belief in the Last Day.
+- R-25:2 [support strong, relevance medium] God’s dominion is presented as exclusive and extending to all creation, which broadens the scope of the focus’s ownership title.
+- R-45:26 [support strong, relevance medium] The Day of Dīn can be heard against a concrete sequence of life, death, and gathering to the Resurrection, making its horizon an appointed event rather than an abstract title.
+- R-50:20 [support strong, relevance medium] The trumpet blast marks an arrival point called يَوْمُ ٱلْوَعِيدِ, adding the register of warning and threat to the focus's day of recompense.
+- R-50:42 [support strong, relevance medium] The cry is heard بِٱلْحَقِّ and identified as the Day of خروج, giving the focus's final day a truth-marked resurrection scene.
+- R-52:13 [support strong, relevance medium] Being driven forcefully to Hell adds a scene of compelled adverse outcome within the focus's day of recompense.
+- R-53:27 [support strong, relevance medium] The verse identifies disbelief in the afterlife as the stance of those who make claims about angels, providing a direct contrast to taking the focus's final day seriously.
+- R-56:50 [support strong, relevance medium] The first and last generations are gathered to an appointed, known day, adding a fixed collective appointment to the focus's singular day title.
+- R-57:15 [support strong, relevance medium] No ransom is accepted on that day, and the destination is Fire, adding finality to the consequences associated with the focus's Day.
+- R-60:6 [support strong, relevance medium] Hope in Allah and the Last Day is presented as the condition for taking the believers' example, showing belief in the final horizon as a present ethical orientation.
+- R-62:1 [support strong, relevance medium] The epithet ٱلْمَلِكِ names royal sovereignty over all creation, offering a close sovereignty counterpart to the focus's active possessor مَٰلِكِ.
+- R-74:9 [support strong, relevance medium] The trumpet is followed by a day called difficult, adding a measure of severity to the focus's account-day horizon.
+- R-75:30 [support strong, relevance medium] The person is driven to the Lord, a forceful counterpart to the focus's ownership title and to the earlier image of final settlement.
+- R-76:10 [support strong, relevance medium] The speakers fear a severe day, and the next verse says Allah protects them from that day's evil and grants joy, presenting the final horizon as both feared and mercifully escaped.
+- R-77:14 [support strong, relevance medium] The rhetorical question about what could make the listener know the Day of Separation intensifies the gravity of the final occasion named beside the focus's Day.
+- R-78:18 [support strong, relevance medium] The appointed Day is pictured through the trumpet and people arriving in groups, giving the focus’s named Day a gathered public scene.
+- R-83:4 [support strong, relevance medium] The reckoning horizon presupposes that the people being judged are raised; this verse supplies that entry condition.
+- R-83:5 [support strong, relevance medium] The resurrection in this passage is for a great Day, adding a measure of gravity to the focus’s otherwise compact temporal phrase.
+- R-84:7 [support strong, relevance medium] Receiving a record in the right hand makes the focus’s reckoning horizon visible through an individual’s allotted record and outcome.
+- R-84:10 [support strong, relevance medium] The contrary record is received from behind, preserving a second personal outcome within the reckoning scene.
+- R-101:4 [support strong, relevance medium] The Day’s people are scattered like moths, giving the focus’s temporal horizon an image of disorientation and upheaval.
+- R-109:2 [support strong, relevance medium] The speaker’s refusal to worship the addressees’ objects supplies a negative boundary beside the Fatiha’s positive exclusive address in إِيَّاكَ نَعْبُدُ.
+- R-1:1 [support medium, relevance medium] The opening invokes the Merciful and Compassionate before مَٰلِكِ يَوْمِ ٱلدِّينِ, placing the later judgment title inside a mercy-framed prayer.
+- R-4:136 [support medium, relevance medium] The last day appears here as an article of belief, giving a creedal frame to the Day of Din named in 1:4.
+- R-6:75 [support medium, relevance medium] The nearby passage moves from dominion on the trumpet day to إبراهيم being shown the ملكوت of the heavens and earth as a sign for certainty; this gives the sovereignty in 1:4 a cosmic register.
+- R-26:156 [support medium, relevance medium] A threatened عَذَابُ يَوْمٍ عَظِيمٍ in the she-camel episode shows that a day of punishment can refer to a community’s worldly destruction, distinct from the focus’s named Day of Din.
+- R-34:30 [support medium, relevance medium] The promised day is fixed so completely that no one can delay or advance it by an hour; the following scene places deniers before their Lord.
+- R-49:16 [support medium, relevance medium] Here بِدِينِكُمْ is a claim of religious allegiance that people cannot use to inform Allah; the focus can be heard against the contrast between claimed dīn and Allah's ultimate authority.
+- R-50:30 [support medium, relevance medium] The Day's consequence is dramatized as a dialogue with Hell, supplying a punishment scene under the focus's broader account-day title.
+- R-50:34 [support medium, relevance medium] The instruction to enter in peace is paired with calling the occasion يَوْمُ ٱلْخُلُودِ, showing an enduring positive outcome beyond the focus's day of judgment.
+- R-50:41 [support medium, relevance medium] The command to listen for a caller from nearby makes the final horizon audible and close, adding a summons to the focus's named Day.
+- R-51:60 [support medium, relevance medium] The passage calls the threatened occasion the day promised to those who disbelieve, bringing the promise-and-fulfillment register into the focus's reckoning horizon.
+- R-78:21 [support medium, relevance medium] The surrounding scene gives the Day an adverse destination: Hell is an ambush and refuge for transgressors.
+- R-79:34 [support medium, relevance medium] ٱلطَّآمَّةُ ٱلْكُبْرَىٰ presents the final scene as an arrival, lending the focus’s Day an onset and climax.
+- R-79:40 [support medium, relevance medium] Fear of standing before one’s Lord is paired with restraining desire, linking accountability to conduct before the final outcomes in the surrounding passage.
+- R-80:33 [support medium, relevance medium] The deafening cry precedes the Day of flight from kin, casting the focus’s Day as an event that breaks ordinary social bonds.
+- R-83:22 [support medium, relevance medium] The righteous are shown in bliss, adding a favorable pole to the focus’s reckoning horizon alongside passages that emphasize punishment.
+- R-106:3 [support medium, relevance medium] The command to worship the Lord of the House is grounded by the following verse in provision and security; this offers a devotional counterpart to the focus’s sovereign title before the Fatiha’s إِيَّاكَ نَعْبُدُ.
+- R-109:3 [support medium, relevance medium] The reciprocal statement distinguishes the addressees’ worship from the speaker’s, setting a boundary around the devotional allegiance that follows the Fatiha’s divine title.
+- R-8:72 [support strong, relevance low] The phrase فِى ٱلدِّينِ makes aid an obligation within shared religious allegiance, illustrating a communal use of dīn beside the focus’s day-of-reckoning use.
+- R-9:11 [support strong, relevance low] Repentance, prayer, and almsgiving mark people as brothers in dīn, giving the word a present communal and ritual register alongside its use in the focus.
+- R-39:11 [support strong, relevance low] The prophet states exclusive worship as a command laid upon him, recasting sincere dīn as an enacted obligation.
+- R-28:71 [support medium, relevance low] Yawm al-Qiyāma appears as the endpoint in a hypothetical of perpetual night, confirming a final temporal horizon without depicting judgment itself.
+- R-47:6 [support medium, relevance low] The focus's day of recompense can be set alongside a positive outcome: believers are admitted to a garden prepared and made known to them.
+- R-52:9 [support medium, relevance low] The day is pictured through the sky's violent motion, giving the final horizon a cosmic upheaval that accompanies the focus's judicial title.
+- R-69:13 [support medium, relevance low] A single trumpet blast marks the onset of the larger final scene, adding a decisive event marker to the focus's Day.
+- R-70:8 [support medium, relevance low] The sky becoming like molten metal supplies a cosmic sign for the final day, a scene-setting addition to the focus's title.
+- R-73:14 [support medium, relevance low] Earth and mountains tremble and the mountains become scattered sand, supplying a cosmic upheaval within the final horizon of the focus.
+- R-79:6 [support medium, relevance low] The Day is also presented as an upheaval, with one convulsion followed by another; this adds event and shock to the focus’s temporal horizon.
+- R-82:1 [support medium, relevance low] The surrounding sequence opens with a ruptured sky, giving the Day in the focus a cosmic transition as its setting.
+- R-106:4 [support medium, relevance low] Feeding and security are offered as reasons for worshipping the Lord of the House, suggesting gratitude as one response to divine lordship beside the Fatiha’s move from title to worship.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:107 أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّۢ وَلَا نَصِيرٍ
+- 2:132 وَوَصَّىٰ بِهَآ إِبْرَٰهِۦمُ بَنِيهِ وَيَعْقُوبُ يَٰبَنِىَّ إِنَّ ٱللَّهَ ٱصْطَفَىٰ لَكُمُ ٱلدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ
+- 2:133 أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَٰهَكَ وَإِلَٰهَ ءَابَآئِكَ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ إِلَٰهًۭا وَٰحِدًۭا وَنَحْنُ لَهُۥ مُسْلِمُونَ
+- 2:193 وَقَٰتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌۭ وَيَكُونَ ٱلدِّينُ لِلَّهِ ۖ فَإِنِ ٱنتَهَوْا۟ فَلَا عُدْوَٰنَ إِلَّا عَلَى ٱلظَّٰلِمِينَ
+- 2:194 ٱلشَّهْرُ ٱلْحَرَامُ بِٱلشَّهْرِ ٱلْحَرَامِ وَٱلْحُرُمَٰتُ قِصَاصٌۭ ۚ فَمَنِ ٱعْتَدَىٰ عَلَيْكُمْ فَٱعْتَدُوا۟ عَلَيْهِ بِمِثْلِ مَا ٱعْتَدَىٰ عَلَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ
+- 2:217 يَسْـَٔلُونَكَ عَنِ ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍۢ فِيهِ ۖ قُلْ قِتَالٌۭ فِيهِ كَبِيرٌۭ ۖ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفْرٌۢ بِهِۦ وَٱلْمَسْجِدِ ٱلْحَرَامِ وَإِخْرَاجُ أَهْلِهِۦ مِنْهُ أَكْبَرُ عِندَ ٱللَّهِ ۚ وَٱلْفِتْنَةُ أَكْبَرُ مِنَ ٱلْقَتْلِ ۗ وَلَا يَزَالُونَ يُقَٰتِلُونَكُمْ حَتَّىٰ يَرُدُّوكُمْ عَن دِينِكُمْ إِنِ ٱسْتَطَٰعُوا۟ ۚ وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِۦ فَيَمُتْ وَهُوَ كَافِرٌۭ فَأُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ وَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 2:255 ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ
+- 2:256 لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ
+- 2:257 ٱللَّهُ وَلِىُّ ٱلَّذِينَ ءَامَنُوا۟ يُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۖ وَٱلَّذِينَ كَفَرُوٓا۟ أَوْلِيَآؤُهُمُ ٱلطَّٰغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَٰتِ ۗ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 2:281 وَٱتَّقُوا۟ يَوْمًۭا تُرْجَعُونَ فِيهِ إِلَى ٱللَّهِ ۖ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍۢ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ
+- 2:282 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًۭٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 3:19 إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَٰمُ ۗ وَمَا ٱخْتَلَفَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۗ وَمَن يَكْفُرْ بِـَٔايَٰتِ ٱللَّهِ فَإِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ
+- 3:24 ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامًۭا مَّعْدُودَٰتٍۢ ۖ وَغَرَّهُمْ فِى دِينِهِم مَّا كَانُوا۟ يَفْتَرُونَ
+- 3:25 فَكَيْفَ إِذَا جَمَعْنَٰهُمْ لِيَوْمٍۢ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٍۢ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ
+- 3:26 قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 3:30 يَوْمَ تَجِدُ كُلُّ نَفْسٍۢ مَّا عَمِلَتْ مِنْ خَيْرٍۢ مُّحْضَرًۭا وَمَا عَمِلَتْ مِن سُوٓءٍۢ تَوَدُّ لَوْ أَنَّ بَيْنَهَا وَبَيْنَهُۥٓ أَمَدًۢا بَعِيدًۭا ۗ وَيُحَذِّرُكُمُ ٱللَّهُ نَفْسَهُۥ ۗ وَٱللَّهُ رَءُوفٌۢ بِٱلْعِبَادِ
+- 3:55 إِذْ قَالَ ٱللَّهُ يَٰعِيسَىٰٓ إِنِّى مُتَوَفِّيكَ وَرَافِعُكَ إِلَىَّ وَمُطَهِّرُكَ مِنَ ٱلَّذِينَ كَفَرُوا۟ وَجَاعِلُ ٱلَّذِينَ ٱتَّبَعُوكَ فَوْقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۖ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ
+- 3:166 وَمَآ أَصَٰبَكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ فَبِإِذْنِ ٱللَّهِ وَلِيَعْلَمَ ٱلْمُؤْمِنِينَ
+- 3:185 كُلُّ نَفْسٍۢ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۖ فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ
+- 3:188 لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا۟ وَّيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟ فَلَا تَحْسَبَنَّهُم بِمَفَازَةٍۢ مِّنَ ٱلْعَذَابِ ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۭ
+- 3:189 وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ
+- 4:53 أَمْ لَهُمْ نَصِيبٌۭ مِّنَ ٱلْمُلْكِ فَإِذًۭا لَّا يُؤْتُونَ ٱلنَّاسَ نَقِيرًا
+- 4:54 أَمْ يَحْسُدُونَ ٱلنَّاسَ عَلَىٰ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۖ فَقَدْ ءَاتَيْنَآ ءَالَ إِبْرَٰهِيمَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَءَاتَيْنَٰهُم مُّلْكًا عَظِيمًۭا
+- 4:87 ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۗ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ حَدِيثًۭا
+- 4:136 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ ۚ وَمَن يَكْفُرْ بِٱللَّهِ وَمَلَٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ وَٱلْيَوْمِ ٱلْءَاخِرِ فَقَدْ ضَلَّ ضَلَٰلًۢا بَعِيدًا
+- 5:3 حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًۭا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍۢ لِّإِثْمٍۢ ۙ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 5:40 أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ يُعَذِّبُ مَن يَشَآءُ وَيَغْفِرُ لِمَن يَشَآءُ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 5:119 قَالَ ٱللَّهُ هَٰذَا يَوْمُ يَنفَعُ ٱلصَّٰدِقِينَ صِدْقُهُمْ ۚ لَهُمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۚ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ
+- 5:120 لِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا فِيهِنَّ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۢ
+- 6:8 وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ مَلَكٌۭ ۖ وَلَوْ أَنزَلْنَا مَلَكًۭا لَّقُضِىَ ٱلْأَمْرُ ثُمَّ لَا يُنظَرُونَ
+- 6:12 قُل لِّمَن مَّا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ
+- 6:31 قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةًۭ قَالُوا۟ يَٰحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا وَهُمْ يَحْمِلُونَ أَوْزَارَهُمْ عَلَىٰ ظُهُورِهِمْ ۚ أَلَا سَآءَ مَا يَزِرُونَ
+- 6:50 قُل لَّآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ لَكُمْ إِنِّى مَلَكٌ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ ۚ قُلْ هَلْ يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ ۚ أَفَلَا تَتَفَكَّرُونَ
+- 6:51 وَأَنذِرْ بِهِ ٱلَّذِينَ يَخَافُونَ أَن يُحْشَرُوٓا۟ إِلَىٰ رَبِّهِمْ ۙ لَيْسَ لَهُم مِّن دُونِهِۦ وَلِىٌّۭ وَلَا شَفِيعٌۭ لَّعَلَّهُمْ يَتَّقُونَ
+- 6:70 وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَعِبًۭا وَلَهْوًۭا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن تُبْسَلَ نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّۭ وَلَا شَفِيعٌۭ وَإِن تَعْدِلْ كُلَّ عَدْلٍۢ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ أُبْسِلُوا۟ بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌۭ مِّنْ حَمِيمٍۢ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ
+- 6:73 وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ
+- 6:75 وَكَذَٰلِكَ نُرِىٓ إِبْرَٰهِيمَ مَلَكُوتَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلِيَكُونَ مِنَ ٱلْمُوقِنِينَ
+- 6:137 وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍۢ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَٰدِهِمْ شُرَكَآؤُهُمْ لِيُرْدُوهُمْ وَلِيَلْبِسُوا۟ عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ
+- 6:158 هَلْ يَنظُرُونَ إِلَّآ أَن تَأْتِيَهُمُ ٱلْمَلَٰٓئِكَةُ أَوْ يَأْتِىَ رَبُّكَ أَوْ يَأْتِىَ بَعْضُ ءَايَٰتِ رَبِّكَ ۗ يَوْمَ يَأْتِى بَعْضُ ءَايَٰتِ رَبِّكَ لَا يَنفَعُ نَفْسًا إِيمَٰنُهَا لَمْ تَكُنْ ءَامَنَتْ مِن قَبْلُ أَوْ كَسَبَتْ فِىٓ إِيمَٰنِهَا خَيْرًۭا ۗ قُلِ ٱنتَظِرُوٓا۟ إِنَّا مُنتَظِرُونَ
+- 6:159 إِنَّ ٱلَّذِينَ فَرَّقُوا۟ دِينَهُمْ وَكَانُوا۟ شِيَعًۭا لَّسْتَ مِنْهُمْ فِى شَىْءٍ ۚ إِنَّمَآ أَمْرُهُمْ إِلَى ٱللَّهِ ثُمَّ يُنَبِّئُهُم بِمَا كَانُوا۟ يَفْعَلُونَ
+- 6:161 قُلْ إِنَّنِى هَدَىٰنِى رَبِّىٓ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ دِينًۭا قِيَمًۭا مِّلَّةَ إِبْرَٰهِيمَ حَنِيفًۭا ۚ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ
+- 7:8 وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 7:9 وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ
+- 7:14 قَالَ أَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ
+- 7:29 قُلْ أَمَرَ رَبِّى بِٱلْقِسْطِ ۖ وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍۢ وَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۚ كَمَا بَدَأَكُمْ تَعُودُونَ
+- 7:51 ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَهْوًۭا وَلَعِبًۭا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ نَنسَىٰهُمْ كَمَا نَسُوا۟ لِقَآءَ يَوْمِهِمْ هَٰذَا وَمَا كَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ
+- 7:158 قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ إِنِّى رَسُولُ ٱللَّهِ إِلَيْكُمْ جَمِيعًا ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ لَآ إِلَٰهَ إِلَّا هُوَ يُحْىِۦ وَيُمِيتُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرَسُولِهِ ٱلنَّبِىِّ ٱلْأُمِّىِّ ٱلَّذِى يُؤْمِنُ بِٱللَّهِ وَكَلِمَٰتِهِۦ وَٱتَّبِعُوهُ لَعَلَّكُمْ تَهْتَدُونَ
+- 8:72 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ ۚ وَٱلَّذِينَ ءَامَنُوا۟ وَلَمْ يُهَاجِرُوا۟ مَا لَكُم مِّن وَلَٰيَتِهِم مِّن شَىْءٍ حَتَّىٰ يُهَاجِرُوا۟ ۚ وَإِنِ ٱسْتَنصَرُوكُمْ فِى ٱلدِّينِ فَعَلَيْكُمُ ٱلنَّصْرُ إِلَّا عَلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌۭ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 9:11 فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ ۗ وَنُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍۢ يَعْلَمُونَ
+- 9:29 قَٰتِلُوا۟ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْءَاخِرِ وَلَا يُحَرِّمُونَ مَا حَرَّمَ ٱللَّهُ وَرَسُولُهُۥ وَلَا يَدِينُونَ دِينَ ٱلْحَقِّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ حَتَّىٰ يُعْطُوا۟ ٱلْجِزْيَةَ عَن يَدٍۢ وَهُمْ صَٰغِرُونَ
+- 9:36 إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًۭا فِى كِتَٰبِ ٱللَّهِ يَوْمَ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ مِنْهَآ أَرْبَعَةٌ حُرُمٌۭ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ ۚ فَلَا تَظْلِمُوا۟ فِيهِنَّ أَنفُسَكُمْ ۚ وَقَٰتِلُوا۟ ٱلْمُشْرِكِينَ كَآفَّةًۭ كَمَا يُقَٰتِلُونَكُمْ كَآفَّةًۭ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ
+- 9:116 إِنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يُحْىِۦ وَيُمِيتُ ۚ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّۢ وَلَا نَصِيرٍۢ
+- 10:22 هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍۢ طَيِّبَةٍۢ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌۭ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍۢ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ
+- 10:23 فَلَمَّآ أَنجَىٰهُمْ إِذَا هُمْ يَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۗ يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّمَا بَغْيُكُمْ عَلَىٰٓ أَنفُسِكُم ۖ مَّتَٰعَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ ثُمَّ إِلَيْنَا مَرْجِعُكُمْ فَنُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 10:104 قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى شَكٍّۢ مِّن دِينِى فَلَآ أَعْبُدُ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ وَلَٰكِنْ أَعْبُدُ ٱللَّهَ ٱلَّذِى يَتَوَفَّىٰكُمْ ۖ وَأُمِرْتُ أَنْ أَكُونَ مِنَ ٱلْمُؤْمِنِينَ
+- 10:105 وَأَنْ أَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًۭا وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ
+- 11:31 وَلَآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ إِنِّى مَلَكٌۭ وَلَآ أَقُولُ لِلَّذِينَ تَزْدَرِىٓ أَعْيُنُكُمْ لَن يُؤْتِيَهُمُ ٱللَّهُ خَيْرًا ۖ ٱللَّهُ أَعْلَمُ بِمَا فِىٓ أَنفُسِهِمْ ۖ إِنِّىٓ إِذًۭا لَّمِنَ ٱلظَّٰلِمِينَ
+- 11:98 يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ
+- 11:99 وَأُتْبِعُوا۟ فِى هَٰذِهِۦ لَعْنَةًۭ وَيَوْمَ ٱلْقِيَٰمَةِ ۚ بِئْسَ ٱلرِّفْدُ ٱلْمَرْفُودُ
+- 11:103 إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّمَنْ خَافَ عَذَابَ ٱلْءَاخِرَةِ ۚ ذَٰلِكَ يَوْمٌۭ مَّجْمُوعٌۭ لَّهُ ٱلنَّاسُ وَذَٰلِكَ يَوْمٌۭ مَّشْهُودٌۭ
+- 11:105 يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ شَقِىٌّۭ وَسَعِيدٌۭ
+- 12:40 مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءًۭ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
+- 12:54 وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌۭ
+- 12:76 فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍۢ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌۭ
+- 12:92 قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ
+- 14:41 رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ
+- 14:48 يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَٰوَٰتُ ۖ وَبَرَزُوا۟ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ
+- 14:49 وَتَرَى ٱلْمُجْرِمِينَ يَوْمَئِذٍۢ مُّقَرَّنِينَ فِى ٱلْأَصْفَادِ
+- 15:35 وَإِنَّ عَلَيْكَ ٱللَّعْنَةَ إِلَىٰ يَوْمِ ٱلدِّينِ
+- 15:36 قَالَ رَبِّ فَأَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ
+- 15:38 إِلَىٰ يَوْمِ ٱلْوَقْتِ ٱلْمَعْلُومِ
+- 15:87 وَلَقَدْ ءَاتَيْنَٰكَ سَبْعًۭا مِّنَ ٱلْمَثَانِى وَٱلْقُرْءَانَ ٱلْعَظِيمَ
+- 16:52 وَلَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَهُ ٱلدِّينُ وَاصِبًا ۚ أَفَغَيْرَ ٱللَّهِ تَتَّقُونَ
+- 17:13 وَكُلَّ إِنسَٰنٍ أَلْزَمْنَٰهُ طَٰٓئِرَهُۥ فِى عُنُقِهِۦ ۖ وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَٰمَةِ كِتَٰبًۭا يَلْقَىٰهُ مَنشُورًا
+- 17:14 ٱقْرَأْ كِتَٰبَكَ كَفَىٰ بِنَفْسِكَ ٱلْيَوْمَ عَلَيْكَ حَسِيبًۭا
+- 18:47 وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ بَارِزَةًۭ وَحَشَرْنَٰهُمْ فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًۭا
+- 18:48 وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّۭا لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًۭا
+- 18:49 وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةًۭ وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًۭا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًۭا
+- 18:105 أُو۟لَٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَلِقَآئِهِۦ فَحَبِطَتْ أَعْمَٰلُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ ٱلْقِيَٰمَةِ وَزْنًۭا
+- 19:15 وَسَلَٰمٌ عَلَيْهِ يَوْمَ وُلِدَ وَيَوْمَ يَمُوتُ وَيَوْمَ يُبْعَثُ حَيًّۭا
+- 19:33 وَٱلسَّلَٰمُ عَلَىَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّۭا
+- 20:111 ۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا
+- 20:112 وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا يَخَافُ ظُلْمًۭا وَلَا هَضْمًۭا
+- 21:47 وَنَضَعُ ٱلْمَوَٰزِينَ ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَٰمَةِ فَلَا تُظْلَمُ نَفْسٌۭ شَيْـًۭٔا ۖ وَإِن كَانَ مِثْقَالَ حَبَّةٍۢ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَٰسِبِينَ
+- 21:103 لَا يَحْزُنُهُمُ ٱلْفَزَعُ ٱلْأَكْبَرُ وَتَتَلَقَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ هَٰذَا يَوْمُكُمُ ٱلَّذِى كُنتُمْ تُوعَدُونَ
+- 23:100 لَعَلِّىٓ أَعْمَلُ صَٰلِحًۭا فِيمَا تَرَكْتُ ۚ كَلَّآ ۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَا ۖ وَمِن وَرَآئِهِم بَرْزَخٌ إِلَىٰ يَوْمِ يُبْعَثُونَ
+- 23:101 فَإِذَا نُفِخَ فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍۢ وَلَا يَتَسَآءَلُونَ
+- 23:102 فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 23:103 وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ
+- 24:2 ٱلزَّانِيَةُ وَٱلزَّانِى فَٱجْلِدُوا۟ كُلَّ وَٰحِدٍۢ مِّنْهُمَا مِا۟ئَةَ جَلْدَةٍۢ ۖ وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌۭ فِى دِينِ ٱللَّهِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۖ وَلْيَشْهَدْ عَذَابَهُمَا طَآئِفَةٌۭ مِّنَ ٱلْمُؤْمِنِينَ
+- 24:25 يَوْمَئِذٍۢ يُوَفِّيهِمُ ٱللَّهُ دِينَهُمُ ٱلْحَقَّ وَيَعْلَمُونَ أَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ ٱلْمُبِينُ
+- 24:42 وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ
+- 25:2 ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَمْ يَتَّخِذْ وَلَدًۭا وَلَمْ يَكُن لَّهُۥ شَرِيكٌۭ فِى ٱلْمُلْكِ وَخَلَقَ كُلَّ شَىْءٍۢ فَقَدَّرَهُۥ تَقْدِيرًۭا
+- 25:26 ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ عَسِيرًۭا
+- 26:82 وَٱلَّذِىٓ أَطْمَعُ أَن يَغْفِرَ لِى خَطِيٓـَٔتِى يَوْمَ ٱلدِّينِ
+- 26:155 قَالَ هَٰذِهِۦ نَاقَةٌۭ لَّهَا شِرْبٌۭ وَلَكُمْ شِرْبُ يَوْمٍۢ مَّعْلُومٍۢ
+- 26:156 وَلَا تَمَسُّوهَا بِسُوٓءٍۢ فَيَأْخُذَكُمْ عَذَابُ يَوْمٍ عَظِيمٍۢ
+- 28:70 وَهُوَ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْحَمْدُ فِى ٱلْأُولَىٰ وَٱلْءَاخِرَةِ ۖ وَلَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ
+- 28:71 قُلْ أَرَءَيْتُمْ إِن جَعَلَ ٱللَّهُ عَلَيْكُمُ ٱلَّيْلَ سَرْمَدًا إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ مَنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِضِيَآءٍ ۖ أَفَلَا تَسْمَعُونَ
+- 29:64 وَمَا هَٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌۭ وَلَعِبٌۭ ۚ وَإِنَّ ٱلدَّارَ ٱلْءَاخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ
+- 29:65 فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ
+- 30:12 وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يُبْلِسُ ٱلْمُجْرِمُونَ
+- 30:30 فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًۭا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
+- 30:43 فَأَقِمْ وَجْهَكَ لِلدِّينِ ٱلْقَيِّمِ مِن قَبْلِ أَن يَأْتِىَ يَوْمٌۭ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۖ يَوْمَئِذٍۢ يَصَّدَّعُونَ
+- 31:32 وَإِذَا غَشِيَهُم مَّوْجٌۭ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌۭ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍۢ كَفُورٍۢ
+- 31:33 يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمْ وَٱخْشَوْا۟ يَوْمًۭا لَّا يَجْزِى وَالِدٌ عَن وَلَدِهِۦ وَلَا مَوْلُودٌ هُوَ جَازٍ عَن وَالِدِهِۦ شَيْـًٔا ۚ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ ۖ فَلَا تَغُرَّنَّكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَلَا يَغُرَّنَّكُم بِٱللَّهِ ٱلْغَرُورُ
+- 34:30 قُل لَّكُم مِّيعَادُ يَوْمٍۢ لَّا تَسْتَـْٔخِرُونَ عَنْهُ سَاعَةًۭ وَلَا تَسْتَقْدِمُونَ
+- 34:31 وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَن نُّؤْمِنَ بِهَٰذَا ٱلْقُرْءَانِ وَلَا بِٱلَّذِى بَيْنَ يَدَيْهِ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّٰلِمُونَ مَوْقُوفُونَ عِندَ رَبِّهِمْ يَرْجِعُ بَعْضُهُمْ إِلَىٰ بَعْضٍ ٱلْقَوْلَ يَقُولُ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ لَوْلَآ أَنتُمْ لَكُنَّا مُؤْمِنِينَ
+- 36:51 وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ
+- 36:54 فَٱلْيَوْمَ لَا تُظْلَمُ نَفْسٌۭ شَيْـًۭٔا وَلَا تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ
+- 36:71 أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَٰمًۭا فَهُمْ لَهَا مَٰلِكُونَ
+- 37:20 وَقَالُوا۟ يَٰوَيْلَنَا هَٰذَا يَوْمُ ٱلدِّينِ
+- 37:21 هَٰذَا يَوْمُ ٱلْفَصْلِ ٱلَّذِى كُنتُم بِهِۦ تُكَذِّبُونَ
+- 37:24 وَقِفُوهُمْ ۖ إِنَّهُم مَّسْـُٔولُونَ
+- 37:53 أَءِذَا مِتْنَا وَكُنَّا تُرَابًۭا وَعِظَٰمًا أَءِنَّا لَمَدِينُونَ
+- 38:78 وَإِنَّ عَلَيْكَ لَعْنَتِىٓ إِلَىٰ يَوْمِ ٱلدِّينِ
+- 38:79 قَالَ رَبِّ فَأَنظِرْنِىٓ إِلَىٰ يَوْمِ يُبْعَثُونَ
+- 38:81 إِلَىٰ يَوْمِ ٱلْوَقْتِ ٱلْمَعْلُومِ
+- 39:2 إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ
+- 39:3 أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌۭ كَفَّارٌۭ
+- 39:11 قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ مُخْلِصًۭا لَّهُ ٱلدِّينَ
+- 39:13 قُلْ إِنِّىٓ أَخَافُ إِنْ عَصَيْتُ رَبِّى عَذَابَ يَوْمٍ عَظِيمٍۢ
+- 39:14 قُلِ ٱللَّهَ أَعْبُدُ مُخْلِصًۭا لَّهُۥ دِينِى
+- 39:15 فَٱعْبُدُوا۟ مَا شِئْتُم مِّن دُونِهِۦ ۗ قُلْ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَا ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ
+- 39:68 وَنُفِخَ فِى ٱلصُّورِ فَصَعِقَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۖ ثُمَّ نُفِخَ فِيهِ أُخْرَىٰ فَإِذَا هُمْ قِيَامٌۭ يَنظُرُونَ
+- 39:69 وَأَشْرَقَتِ ٱلْأَرْضُ بِنُورِ رَبِّهَا وَوُضِعَ ٱلْكِتَٰبُ وَجِا۟ىٓءَ بِٱلنَّبِيِّۦنَ وَٱلشُّهَدَآءِ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَهُمْ لَا يُظْلَمُونَ
+- 39:70 وَوُفِّيَتْ كُلُّ نَفْسٍۢ مَّا عَمِلَتْ وَهُوَ أَعْلَمُ بِمَا يَفْعَلُونَ
+- 40:14 فَٱدْعُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ
+- 40:15 رَفِيعُ ٱلدَّرَجَٰتِ ذُو ٱلْعَرْشِ يُلْقِى ٱلرُّوحَ مِنْ أَمْرِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ لِيُنذِرَ يَوْمَ ٱلتَّلَاقِ
+- 40:16 يَوْمَ هُم بَٰرِزُونَ ۖ لَا يَخْفَىٰ عَلَى ٱللَّهِ مِنْهُمْ شَىْءٌۭ ۚ لِّمَنِ ٱلْمُلْكُ ٱلْيَوْمَ ۖ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ
+- 40:17 ٱلْيَوْمَ تُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ ۚ لَا ظُلْمَ ٱلْيَوْمَ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ
+- 40:32 وَيَٰقَوْمِ إِنِّىٓ أَخَافُ عَلَيْكُمْ يَوْمَ ٱلتَّنَادِ
+- 40:33 يَوْمَ تُوَلُّونَ مُدْبِرِينَ مَا لَكُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍۢ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ
+- 42:13 ۞ شَرَعَ لَكُم مِّنَ ٱلدِّينِ مَا وَصَّىٰ بِهِۦ نُوحًۭا وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَمَا وَصَّيْنَا بِهِۦٓ إِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓ ۖ أَنْ أَقِيمُوا۟ ٱلدِّينَ وَلَا تَتَفَرَّقُوا۟ فِيهِ ۚ كَبُرَ عَلَى ٱلْمُشْرِكِينَ مَا تَدْعُوهُمْ إِلَيْهِ ۚ ٱللَّهُ يَجْتَبِىٓ إِلَيْهِ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَن يُنِيبُ
+- 42:14 وَمَا تَفَرَّقُوٓا۟ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۚ وَلَوْلَا كَلِمَةٌۭ سَبَقَتْ مِن رَّبِّكَ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى لَّقُضِىَ بَيْنَهُمْ ۚ وَإِنَّ ٱلَّذِينَ أُورِثُوا۟ ٱلْكِتَٰبَ مِنۢ بَعْدِهِمْ لَفِى شَكٍّۢ مِّنْهُ مُرِيبٍۢ
+- 42:21 أَمْ لَهُمْ شُرَكَٰٓؤُا۟ شَرَعُوا۟ لَهُم مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَنۢ بِهِ ٱللَّهُ ۚ وَلَوْلَا كَلِمَةُ ٱلْفَصْلِ لَقُضِىَ بَيْنَهُمْ ۗ وَإِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌۭ
+- 42:45 وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَٰشِعِينَ مِنَ ٱلذُّلِّ يَنظُرُونَ مِن طَرْفٍ خَفِىٍّۢ ۗ وَقَالَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَآ إِنَّ ٱلظَّٰلِمِينَ فِى عَذَابٍۢ مُّقِيمٍۢ
+- 44:9 بَلْ هُمْ فِى شَكٍّۢ يَلْعَبُونَ
+- 44:10 فَٱرْتَقِبْ يَوْمَ تَأْتِى ٱلسَّمَآءُ بِدُخَانٍۢ مُّبِينٍۢ
+- 44:16 يَوْمَ نَبْطِشُ ٱلْبَطْشَةَ ٱلْكُبْرَىٰٓ إِنَّا مُنتَقِمُونَ
+- 44:17 ۞ وَلَقَدْ فَتَنَّا قَبْلَهُمْ قَوْمَ فِرْعَوْنَ وَجَآءَهُمْ رَسُولٌۭ كَرِيمٌ
+- 44:40 إِنَّ يَوْمَ ٱلْفَصْلِ مِيقَٰتُهُمْ أَجْمَعِينَ
+- 45:22 وَخَلَقَ ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَلِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ
+- 45:26 قُلِ ٱللَّهُ يُحْيِيكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يَجْمَعُكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ
+- 45:27 وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يَوْمَئِذٍۢ يَخْسَرُ ٱلْمُبْطِلُونَ
+- 45:28 وَتَرَىٰ كُلَّ أُمَّةٍۢ جَاثِيَةًۭ ۚ كُلُّ أُمَّةٍۢ تُدْعَىٰٓ إِلَىٰ كِتَٰبِهَا ٱلْيَوْمَ تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ
+- 45:29 هَٰذَا كِتَٰبُنَا يَنطِقُ عَلَيْكُم بِٱلْحَقِّ ۚ إِنَّا كُنَّا نَسْتَنسِخُ مَا كُنتُمْ تَعْمَلُونَ
+- 46:5 وَمَنْ أَضَلُّ مِمَّن يَدْعُوا۟ مِن دُونِ ٱللَّهِ مَن لَّا يَسْتَجِيبُ لَهُۥٓ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ وَهُمْ عَن دُعَآئِهِمْ غَٰفِلُونَ
+- 46:6 وَإِذَا حُشِرَ ٱلنَّاسُ كَانُوا۟ لَهُمْ أَعْدَآءًۭ وَكَانُوا۟ بِعِبَادَتِهِمْ كَٰفِرِينَ
+- 47:6 وَيُدْخِلُهُمُ ٱلْجَنَّةَ عَرَّفَهَا لَهُمْ
+- 48:28 هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ ۚ وَكَفَىٰ بِٱللَّهِ شَهِيدًۭا
+- 49:16 قُلْ أَتُعَلِّمُونَ ٱللَّهَ بِدِينِكُمْ وَٱللَّهُ يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 50:20 وَنُفِخَ فِى ٱلصُّورِ ۚ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ
+- 50:21 وَجَآءَتْ كُلُّ نَفْسٍۢ مَّعَهَا سَآئِقٌۭ وَشَهِيدٌۭ
+- 50:22 لَّقَدْ كُنتَ فِى غَفْلَةٍۢ مِّنْ هَٰذَا فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌۭ
+- 50:30 يَوْمَ نَقُولُ لِجَهَنَّمَ هَلِ ٱمْتَلَأْتِ وَتَقُولُ هَلْ مِن مَّزِيدٍۢ
+- 50:34 ٱدْخُلُوهَا بِسَلَٰمٍۢ ۖ ذَٰلِكَ يَوْمُ ٱلْخُلُودِ
+- 50:41 وَٱسْتَمِعْ يَوْمَ يُنَادِ ٱلْمُنَادِ مِن مَّكَانٍۢ قَرِيبٍۢ
+- 50:42 يَوْمَ يَسْمَعُونَ ٱلصَّيْحَةَ بِٱلْحَقِّ ۚ ذَٰلِكَ يَوْمُ ٱلْخُرُوجِ
+- 51:5 إِنَّمَا تُوعَدُونَ لَصَادِقٌۭ
+- 51:6 وَإِنَّ ٱلدِّينَ لَوَٰقِعٌۭ
+- 51:12 يَسْـَٔلُونَ أَيَّانَ يَوْمُ ٱلدِّينِ
+- 51:13 يَوْمَ هُمْ عَلَى ٱلنَّارِ يُفْتَنُونَ
+- 51:60 فَوَيْلٌۭ لِّلَّذِينَ كَفَرُوا۟ مِن يَوْمِهِمُ ٱلَّذِى يُوعَدُونَ
+- 52:9 يَوْمَ تَمُورُ ٱلسَّمَآءُ مَوْرًۭا
+- 52:13 يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا
+- 53:25 فَلِلَّهِ ٱلْءَاخِرَةُ وَٱلْأُولَىٰ
+- 53:26 ۞ وَكَم مِّن مَّلَكٍۢ فِى ٱلسَّمَٰوَٰتِ لَا تُغْنِى شَفَٰعَتُهُمْ شَيْـًٔا إِلَّا مِنۢ بَعْدِ أَن يَأْذَنَ ٱللَّهُ لِمَن يَشَآءُ وَيَرْضَىٰٓ
+- 53:27 إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ لَيُسَمُّونَ ٱلْمَلَٰٓئِكَةَ تَسْمِيَةَ ٱلْأُنثَىٰ
+- 53:30 ذَٰلِكَ مَبْلَغُهُم مِّنَ ٱلْعِلْمِ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ وَهُوَ أَعْلَمُ بِمَنِ ٱهْتَدَىٰ
+- 53:31 وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ لِيَجْزِىَ ٱلَّذِينَ أَسَٰٓـُٔوا۟ بِمَا عَمِلُوا۟ وَيَجْزِىَ ٱلَّذِينَ أَحْسَنُوا۟ بِٱلْحُسْنَى
+- 56:49 قُلْ إِنَّ ٱلْأَوَّلِينَ وَٱلْءَاخِرِينَ
+- 56:50 لَمَجْمُوعُونَ إِلَىٰ مِيقَٰتِ يَوْمٍۢ مَّعْلُومٍۢ
+- 56:55 فَشَٰرِبُونَ شُرْبَ ٱلْهِيمِ
+- 56:56 هَٰذَا نُزُلُهُمْ يَوْمَ ٱلدِّينِ
+- 56:86 فَلَوْلَآ إِن كُنتُمْ غَيْرَ مَدِينِينَ
+- 56:87 تَرْجِعُونَهَآ إِن كُنتُمْ صَٰدِقِينَ
+- 57:5 لَّهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ
+- 57:12 يَوْمَ تَرَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ يَسْعَىٰ نُورُهُم بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِم بُشْرَىٰكُمُ ٱلْيَوْمَ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ
+- 57:13 يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ ءَامَنُوا۟ ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًۭا فَضُرِبَ بَيْنَهُم بِسُورٍۢ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ
+- 57:15 فَٱلْيَوْمَ لَا يُؤْخَذُ مِنكُمْ فِدْيَةٌۭ وَلَا مِنَ ٱلَّذِينَ كَفَرُوا۟ ۚ مَأْوَىٰكُمُ ٱلنَّارُ ۖ هِىَ مَوْلَىٰكُمْ ۖ وَبِئْسَ ٱلْمَصِيرُ
+- 60:3 لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَآ أَوْلَٰدُكُمْ ۚ يَوْمَ ٱلْقِيَٰمَةِ يَفْصِلُ بَيْنَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 60:6 لَقَدْ كَانَ لَكُمْ فِيهِمْ أُسْوَةٌ حَسَنَةٌۭ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ ٱلْءَاخِرَ ۚ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ
+- 62:1 يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ٱلْمَلِكِ ٱلْقُدُّوسِ ٱلْعَزِيزِ ٱلْحَكِيمِ
+- 64:9 يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًۭا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ
+- 64:10 وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَٰتِنَآ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ خَٰلِدِينَ فِيهَا ۖ وَبِئْسَ ٱلْمَصِيرُ
+- 69:13 فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌۭ وَٰحِدَةٌۭ
+- 69:18 يَوْمَئِذٍۢ تُعْرَضُونَ لَا تَخْفَىٰ مِنكُمْ خَافِيَةٌۭ
+- 69:19 فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ فَيَقُولُ هَآؤُمُ ٱقْرَءُوا۟ كِتَٰبِيَهْ
+- 69:20 إِنِّى ظَنَنتُ أَنِّى مُلَٰقٍ حِسَابِيَهْ
+- 69:25 وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَٰلَيْتَنِى لَمْ أُوتَ كِتَٰبِيَهْ
+- 69:26 وَلَمْ أَدْرِ مَا حِسَابِيَهْ
+- 70:8 يَوْمَ تَكُونُ ٱلسَّمَآءُ كَٱلْمُهْلِ
+- 70:26 وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ
+- 72:21 قُلْ إِنِّى لَآ أَمْلِكُ لَكُمْ ضَرًّۭا وَلَا رَشَدًۭا
+- 72:22 قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌۭ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا
+- 73:14 يَوْمَ تَرْجُفُ ٱلْأَرْضُ وَٱلْجِبَالُ وَكَانَتِ ٱلْجِبَالُ كَثِيبًۭا مَّهِيلًا
+- 74:8 فَإِذَا نُقِرَ فِى ٱلنَّاقُورِ
+- 74:9 فَذَٰلِكَ يَوْمَئِذٍۢ يَوْمٌ عَسِيرٌ
+- 74:46 وَكُنَّا نُكَذِّبُ بِيَوْمِ ٱلدِّينِ
+- 74:47 حَتَّىٰٓ أَتَىٰنَا ٱلْيَقِينُ
+- 75:6 يَسْـَٔلُ أَيَّانَ يَوْمُ ٱلْقِيَٰمَةِ
+- 75:7 فَإِذَا بَرِقَ ٱلْبَصَرُ
+- 75:10 يَقُولُ ٱلْإِنسَٰنُ يَوْمَئِذٍ أَيْنَ ٱلْمَفَرُّ
+- 75:11 كَلَّا لَا وَزَرَ
+- 75:12 إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمُسْتَقَرُّ
+- 75:13 يُنَبَّؤُا۟ ٱلْإِنسَٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ
+- 75:30 إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ
+- 76:10 إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا عَبُوسًۭا قَمْطَرِيرًۭا
+- 76:11 فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةًۭ وَسُرُورًۭا
+- 77:12 لِأَىِّ يَوْمٍ أُجِّلَتْ
+- 77:13 لِيَوْمِ ٱلْفَصْلِ
+- 77:14 وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ
+- 77:35 هَٰذَا يَوْمُ لَا يَنطِقُونَ
+- 77:36 وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ
+- 78:17 إِنَّ يَوْمَ ٱلْفَصْلِ كَانَ مِيقَٰتًۭا
+- 78:18 يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًۭا
+- 78:21 إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًۭا
+- 78:22 لِّلطَّٰغِينَ مَـَٔابًۭا
+- 78:26 جَزَآءًۭ وِفَاقًا
+- 78:27 إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًۭا
+- 79:6 يَوْمَ تَرْجُفُ ٱلرَّاجِفَةُ
+- 79:7 تَتْبَعُهَا ٱلرَّادِفَةُ
+- 79:34 فَإِذَا جَآءَتِ ٱلطَّآمَّةُ ٱلْكُبْرَىٰ
+- 79:35 يَوْمَ يَتَذَكَّرُ ٱلْإِنسَٰنُ مَا سَعَىٰ
+- 79:40 وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ
+- 79:41 فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ
+- 80:33 فَإِذَا جَآءَتِ ٱلصَّآخَّةُ
+- 80:34 يَوْمَ يَفِرُّ ٱلْمَرْءُ مِنْ أَخِيهِ
+- 80:35 وَأُمِّهِۦ وَأَبِيهِ
+- 80:37 لِكُلِّ ٱمْرِئٍۢ مِّنْهُمْ يَوْمَئِذٍۢ شَأْنٌۭ يُغْنِيهِ
+- 81:14 عَلِمَتْ نَفْسٌۭ مَّآ أَحْضَرَتْ
+- 82:1 إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ
+- 82:2 وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ
+- 82:5 عَلِمَتْ نَفْسٌۭ مَّا قَدَّمَتْ وَأَخَّرَتْ
+- 82:9 كَلَّا بَلْ تُكَذِّبُونَ بِٱلدِّينِ
+- 82:10 وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ
+- 82:15 يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ
+- 82:16 وَمَا هُمْ عَنْهَا بِغَآئِبِينَ
+- 82:17 وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ
+- 82:18 ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ
+- 82:19 يَوْمَ لَا تَمْلِكُ نَفْسٌۭ لِّنَفْسٍۢ شَيْـًۭٔا ۖ وَٱلْأَمْرُ يَوْمَئِذٍۢ لِّلَّهِ
+- 83:4 أَلَا يَظُنُّ أُو۟لَٰٓئِكَ أَنَّهُم مَّبْعُوثُونَ
+- 83:5 لِيَوْمٍ عَظِيمٍۢ
+- 83:6 يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ
+- 83:11 ٱلَّذِينَ يُكَذِّبُونَ بِيَوْمِ ٱلدِّينِ
+- 83:12 وَمَا يُكَذِّبُ بِهِۦٓ إِلَّا كُلُّ مُعْتَدٍ أَثِيمٍ
+- 83:22 إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ
+- 83:23 عَلَى ٱلْأَرَآئِكِ يَنظُرُونَ
+- 84:7 فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ
+- 84:8 فَسَوْفَ يُحَاسَبُ حِسَابًۭا يَسِيرًۭا
+- 84:10 وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ وَرَآءَ ظَهْرِهِۦ
+- 84:11 فَسَوْفَ يَدْعُوا۟ ثُبُورًۭا
+- 86:9 يَوْمَ تُبْلَى ٱلسَّرَآئِرُ
+- 86:10 فَمَا لَهُۥ مِن قُوَّةٍۢ وَلَا نَاصِرٍۢ
+- 89:23 وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍۢ يَتَذَكَّرُ ٱلْإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ
+- 89:24 يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى
+- 90:14 أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ
+- 95:7 فَمَا يُكَذِّبُكَ بَعْدُ بِٱلدِّينِ
+- 95:8 أَلَيْسَ ٱللَّهُ بِأَحْكَمِ ٱلْحَٰكِمِينَ
+- 98:5 وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ
+- 98:6 إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ
+- 99:6 يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ
+- 99:7 فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ
+- 99:8 وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ
+- 101:4 يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ
+- 101:6 فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ
+- 101:7 فَهُوَ فِى عِيشَةٍۢ رَّاضِيَةٍۢ
+- 101:8 وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ
+- 101:9 فَأُمُّهُۥ هَاوِيَةٌۭ
+- 102:8 ثُمَّ لَتُسْـَٔلُنَّ يَوْمَئِذٍ عَنِ ٱلنَّعِيمِ
+- 106:3 فَلْيَعْبُدُوا۟ رَبَّ هَٰذَا ٱلْبَيْتِ
+- 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+- 107:1 أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ
+- 107:2 فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ
+- 107:3 وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ
+- 109:2 لَآ أَعْبُدُ مَا تَعْبُدُونَ
+- 109:3 وَلَآ أَنتُمْ عَٰبِدُونَ مَآ أَعْبُدُ
+- 109:6 لَكُمْ دِينُكُمْ وَلِىَ دِينِ
+- 114:2 مَلِكِ ٱلنَّاسِ
+- 114:3 إِلَٰهِ ٱلنَّاسِ
