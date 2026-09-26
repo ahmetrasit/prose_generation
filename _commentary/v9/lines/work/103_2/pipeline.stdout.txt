@@ -1,0 +1,19 @@
+== 103:2 all
+  luna_pass.py run 103:2
+    W_network_1.md: 9 records
+check: 0 problem(s); kept lines 4 of 5
+  run.py run 103:2 --parallel 4
+    related_3.md: 64 records, 3 problem(s) — ['R-f-ءنس-خسر: no record', 'R-75:3: excerpt not in 75:3: أَيَحْسَبُ ٱلْإِنسَٰنُ أَلَّن نَّجْمَعَ عِظَٰمَهُۥ', 'R-f-ءنس-خسر formula family: not an item of this worklist (extra findings use X1, X2 …)']
+surah_1.md: 12 records, 0 problem(s)
+usage_1.md: 2 records, 0 problem(s)
+  run.py check 103:2
+    related_3.md ['R-f-ءنس-خسر: no record', 'R-75:3: excerpt not in 75:3: أَيَحْسَبُ ٱلْإِنسَٰنُ أَلَّن نَّجْمَعَ عِظَٰمَهُۥ', 'R-f-ءنس-خسر formula family: not an item of this worklist (extra findings use X1, X2 …)']
+surah_1.md []
+usage_1.md []
+  network.py 103:2 --k 3 --inter --luna /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/network/out/103_2/luna
+    luna: 4 edges added
+103:2 k=3: 238 nodes, 377 edges, 0 hubs, 8 triangles → /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/network/out/103_2
+  backbone.py 103:2
+    backbone: 11 mechanisms, 0 focus hubs, 0 Fatiha links, 0 triangles, 0 bridges, 4 word items, 0 context hubs → /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/network/out/103_2/sol/backbone.md (9138 bytes)
+  package.py 103:2
+    package: /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/103_2/package.md (149,845 bytes); line records {'local': 4, 'related': 147, 'surah': 12, 'usage': 2}

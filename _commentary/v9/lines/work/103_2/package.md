@@ -1,0 +1,835 @@
+# Package for 103:2
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### 3. Luna hubs (second tier) [L]
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+### 5. Triangles [T]
+
+
+### 6. Bridges (touch two hubs) [J]
+
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** word note: 103:2:1 إِنَّ: emphatic particle opening the oath answer and governing the human-loss proposition — topics: emphasis governs the whole claim; the oath receives its answer; opening emphasis is corroborated; the opening sounds compressed
+- **G2** word note: 103:2:2 ٱلْإِنسَٰنَ: definite singular species noun, accusative as the ism of inna, naming humankind as the subject of the loss verdict — topics: one noun carries the species; humanity receives the predicate; sociality and forgetfulness create tension; human and loss form a marked pair; sound binds…
+- **G3** word note: 103:2:3 لَفِى: fused predicate lām plus fī, combining corroborating emphasis with containment in the khabar — topics: loss becomes predicate space; the lām lands on the predicate; two mechanisms are compressed; time pressure becomes location
+- **G4** word note: 103:2:4 خُسْرٍ: indefinite gerund of loss, deficiency, and ruin, locally serving as the genitive complement of fī in the emphatic predicate — topics: the loss remains unbounded; loss is a state, not an act; deficit and ruin load the loss; the standard form lands clipped; the human-loss pair recurs;…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+4 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L03** [reading; support strong, relevance high] word 3: لَفِى — lemma فِى, root —, pos EMPH;P
+  - finding: لَفِى خُسْرٍ casts loss as a condition that encompasses the human; إِلَّا in the next ayah marks the group excepted from that verdict.
+  - evidence: 103:2 «لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The preposition فِى locates the predicate around its subject, and the following exception draws a boundary around the verdict.
+  - limits: The containment is figurative; the wording does not describe a literal place or a transition out of one.
+- **L02** [open; support medium, relevance high] word 2: ٱلْإِنسَٰنَ — lemma إِنسَٰن, root ء ن س, pos DET;N
+  - finding: The species noun ٱلْإِنسَٰنَ is followed by an exception whose members include people who mutually exhort one another. This invites a reading that contrasts human loss with a community formed through mutual counsel.
+  - evidence: 103:2 «ٱلْإِنسَٰنَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The passage does not establish that ٱلْإِنسَٰنَ itself carries the root sense of sociability. A dictionary or Quranic usage showing that sense in this noun, or a clearer parallel between human loss and mutual counsel, could strengthen the link.
+- **L04** [open; support medium, relevance high] word 4: خُسْرٍ — lemma خُسْر, root خ س ر, pos N
+  - finding: Because خُسْر can carry a commercial sense of loss, its pairing with the oath by time permits a reading of human time as capital at risk; the exception’s actions could then be heard as preserving it.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: These ayat name no trade, capital, or investment. A Quranic parallel explicitly linking lifespan or deeds with commercial gain and loss could establish whether this economic sense is active here.
+- **L01** [reading; support strong, relevance medium] word 1: إِنَّ — lemma إِنّ, root —, pos ACC
+  - finding: إِنَّ opens the oath’s answer, and the lām in لَفِى reinforces the claim at its predicate: the verse presents human loss as a sworn verdict.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath immediately precedes the two emphatic markers, so the assertion is heard as its answer.
+  - limits: This establishes emphatic assertion, not that the verdict has no exception; 103:3 supplies one.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+2 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-ءنس** [reading; support medium, relevance high] root ء ن س (focus word ٱلْإِنسَٰنَ: إِنسَٰن N) — 94 occurrences in 93 ayat; same form 69, other forms 25
+  - finding: Form X تستأنسوا accompanies greeting at a household threshold, while form IV ءَانَسْتُم in 4:6 concerns discerning maturity; these verb uses should not be transferred directly to the noun الإنسان. Yet 103:3 makes escape from loss include reciprocal counsel, so the social use offers a relevant parallel: the human condition is answered by disciplined fellowship.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 24:27 «حَتَّىٰ تَسْتَأْنِسُوا۟ وَتُسَلِّمُوا۟ عَلَىٰٓ أَهْلِهَا»; 4:6 «فَإِنْ ءَانَسْتُم مِّنْهُمْ رُشْدًا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The exception in 103:3 turns on reciprocal acts, activating the Quranic form associated with human contact.
+  - limits: These forms do not establish that الإنسان lexically means “social being”; the exception also requires faith and good works.
+- **U-خسر** [reading; support medium, relevance high] root خ س ر (focus word خُسْرٍ: خُسْر N) — 65 occurrences in 60 ayat; same form 2, other forms 63
+  - finding: The noun خُسْرٍ also describes an affair’s outcome in 65:9, while form IV names those who cause short measure in 26:181. With the oath وَٱلْعَصْرِ before it, the focus can carry an accounting edge: human life under time is like a balance already in deficit.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 65:9 «وَكَانَ عَٰقِبَةُ أَمْرِهَا خُسْرًا»; 26:181 «أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ»
+  - activation: The oath by time frames the loss claim temporally; the measure passage supplies a Quranic use of this root for a concrete deficit.
+  - limits: The measure passage uses a different form in a literal trade setting; it makes an accounting image available but does not establish that time is a commodity or that humanity is literally short-measuring.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+11 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: {'plain': 1}.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The oath وَٱلْعَصْرِ frames the emphatic verdict on the generic singular ٱلْإِنسَٰنَ; إِلَّا then shifts to a plural group whose counterstate includes mutual counsel. Loss is the broad claim, but the surah names a collective practice that qualifies it.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The oath immediately precedes the verdict, and the next verse begins with an exception that names the group and its practices.
+  - limits: The oath frames the claim but does not say that passing time mechanically causes loss; the exception also prevents reading the verdict as exceptionless.
+- **S-hft-delta_reciprocal_network_preserves_measure** [reading; support strong, relevance high] (context_delta)
+  - finding: The surah gives the counterstate to loss a reciprocal form: the excepted group twice counsels one another, with truth and patience as its objects. This makes the answer to loss a practice carried between people; if خُسْر is heard as deficient measure, that practice can also be read as preserving a standard.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: إِلَّا connects the practices of the group to the loss verdict, and the repeated وَتَوَاصَوْا۟ explicitly makes the counsel mutual.
+  - limits: The reciprocal practice and its objects are explicit, but these verses do not name measurement or say that counsel recalibrates it.
+- **S-hft-baseline_unprofitable_human_account** [open; support medium, relevance high] (baseline_model)
+  - finding: Because خُسْر is followed by work among the practices of those excepted, the passage can be heard as a human account whose outcome depends on productive action.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: A dictionary sense or Quranic passage linking خسر here to trade, capital, or profit could establish the account mapping; these verses name loss and action but no account or return.
+- **S-hft-delta_time_compounds_human_account** [open; support medium, relevance high] (context_delta)
+  - finding: The oath by ٱلْعَصْرِ can place the loss verdict within a temporal frame, while the next verse names action; this permits a reading of loss as a balance that worsens when time passes without return.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: A temporal or commercial cue for successive debits, compounding, or return could establish that mechanism; these verses do not state that loss accumulates interval by interval.
+- **S-hft-delta_encompassing_deficit_as_unsecured_exposure** [open; support medium, relevance high] (context_delta)
+  - finding: The contrast between generic human loss and those who ءَامَنُوا۟ permits a reading of belief as secure grounding that counters exposure.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - missing: A Quranic use or lexical evidence showing that ءَامَنُوا۟ activates security or settled trust in this context could establish the nuance; these verses do not mention comfort, a heart, or safety directly.
+- **S-hft-delta_work_converts_or_wastes_capital** [open; support medium, relevance high] (context_delta)
+  - finding: The exception includes those who وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ, so action is explicitly part of the counterstate to خُسْر; this can invite a reading of human capacity converted into yield.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: A commercial sense linking خسر to invested capacity or return, or an explicit yield term in the passage, could establish the conversion metaphor; the verses state the contrast between loss and action without naming capital or wages.
+- **S-hft-baseline_short_measure_of_awareness** [open; support weak, relevance high] (baseline_model)
+  - finding: If ٱلْإِنسَٰنَ carries a perceiving sense and خُسْر a short-measure sense, the exception's appeal to ٱلْحَقِّ could make loss include deficient apprehension or valuation.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «بِٱلْحَقِّ»
+  - missing: Lexical evidence that these forms activate perception and under-measurement, plus a Quranic or local link between ٱلْحَقِّ and human valuation, could establish the reading; the passage names neither perception nor measure.
+- **S-hft-delta_pressure_exposes_latent_deficit** [open; support weak, relevance high] (context_delta)
+  - finding: If وَٱلْعَصْرِ also activates the root's pressing sense, the oath could make human loss sound like a deficiency exposed under pressure.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: A dictionary or Quranic usage establishing the pressing sense for this form, and a cue that it is active here alongside the temporal reading, could support the link; this surah has no explicit pressing or extraction scene.
+- **S-hft-delta_loss_as_misfit_and_estrangement** [open; support weak, relevance high] (context_delta)
+  - finding: The exception's repeated mutual counsel makes a relational answer to loss plausible: people act together around truth and patience, rather than escaping loss alone.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: A dictionary sense or Quranic occurrence connecting خسر to estrangement or misfit, and evidence that the relevant familiarity and repair senses are active here, could establish that specific interpretation; this passage names mutual counsel but not estrangement or reconciliation.
+- **S-hft-outlier_human_image_reduced_in_measure** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: If ٱلْإِنسَٰنَ can denote a miniature human likeness seen by an observer and خُسْر can carry under-measurement, the appeal to ٱلْحَقِّ might suggest correcting a reduced or distorted image.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «بِٱلْحَقِّ»
+  - missing: Dictionary or Quranic evidence for the miniature-image and under-measurement senses, and evidence that ٱلْحَقِّ functions here as disclosure correcting an image, could support this reading; the passage contains no eye, image, or seeing vocabulary.
+- **S-hft-outlier_bitter_yield_under_pressure** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: If وَٱلْعَصْرِ evokes pressing and ٱلصَّبْرِ carries a bitter-extract sense, the sequence could picture loss as a bitter yield disclosed under pressure and endurance as bearing it.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «بِٱلصَّبْرِ»
+  - missing: Dictionary or Quranic evidence establishing both the pressing sense of وَٱلْعَصْرِ and the bitter-extract sense of ٱلصَّبْرِ could support the link; these verses contain no explicit taste, liquid, or extraction scene.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+102 readings and open observations, 19 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 25, 'same-as': 1}.
+
+- **R-2:27** [reading; support strong, relevance high] inter-ayah target
+  - finding: The plural ٱلْخَٰسِرُون names a communal outcome after breaking covenant, severing bonds, and spreading corruption. It gives 103:2’s broad khusr a concrete social route, opposed to the truth-directed mutual counsel in 103:3.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 2:27 «يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»
+  - activation: The shared root خ س ر and the contrast between severed bonds and وَتَوَاصَوْا activate a social reading of the focus’s loss.
+  - limits: 2:27 names a particular group and pattern; it does not make these acts an exhaustive definition of khusr.
+- **R-2:64** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the people turn away, loss is stated as a counterfactual outcome that God’s فضل and رحمة avert. This makes room for the focus’s general verdict to have an escape, though 2:64 names mercy as the immediate ground.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 2:64 «ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The exact loss root appears in a conditional sentence, while 103:3 also marks an exception to the focus’s verdict.
+  - limits: 2:64 does not specify the four traits in 103:3, and 103:2 does not name divine mercy as the exception’s mechanism.
+- **R-2:121** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage ties being among ٱلْخَٰسِرُون to rejecting the Book, while those who recite it as due believe in it. It supplies a specific contrast for the focus’s broad verdict and 103:3’s exception for those who believe.
+  - evidence: 2:121 «يَتْلُونَهُۥ حَقَّ تِلَاوَتِهِۦٓ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۗ وَمَن يَكْفُرْ بِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The shared loss root and the explicit belief/unbelief contrast align with the focus’s exception for those who believe.
+  - limits: 2:121 concerns response to the Book; the focus does not restrict loss to that case.
+- **R-3:85** [reading; support strong, relevance high] inter-ayah target
+  - finding: A person seeking a religion other than Islam is said to be rejected and, in the Hereafter, among the losers. This gives the focus’s loss an explicit final horizon and sets that group against 103:3’s exception for those who believe and act righteously.
+  - evidence: 3:85 «وَمَن يَبْتَغِ غَيْرَ ٱلْإِسْلَٰمِ دِينًۭا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِى ٱلْءَاخِرَةِ مِنَ ٱلْخَٰسِرِينَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتَ»
+  - activation: The shared root and explicit contrast between rejected seeking and the exception’s belief and deeds activate the relation.
+  - limits: 3:85 specifies a particular religious choice and the Hereafter; 103:2 does not state either limitation.
+- **R-4:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same species noun, ٱلْإِنسَٰن, is described as weak in 4:28. This qualifies the focus’s species-wide verdict with another Quranic description of the human condition; the promise of divine easing places that weakness alongside mercy.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 4:28 «يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًۭا»
+  - activation: The repeated definite species noun directly joins the two descriptions of humanity.
+  - limits: 4:28 does not say weakness causes loss, and its immediate setting concerns divine easing.
+- **R-4:119** [reading; support strong, relevance high] inter-ayah target
+  - finding: Choosing Satan as a patron is followed by the doubled root خسر: خَسِرَ خُسْرَانًا مُّبِينًا. This sharpens the focus’s abstract khusr with a concrete act of allegiance and a manifest loss outcome.
+  - evidence: 103:2 «لَفِى خُسْرٍ»; 4:119 «وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّۭا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًۭا مُّبِينًۭا»
+  - activation: The shared root appears in 4:119 as both a verb and a verbal noun, with an explicit cause and intensifier.
+  - limits: 4:119 identifies one route to loss; it does not define every instance of the focus’s khusr.
+- **R-5:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: Rejecting faith is linked to annulled work and being among the losers in the Hereafter. Read beside 103:3, this gives a direct opposing case to its exception for faith and righteous deeds.
+  - evidence: 5:5 «وَمَن يَكْفُرْ بِٱلْإِيمَٰنِ فَقَدْ حَبِطَ عَمَلُهُۥ وَهُوَ فِى ٱلْءَاخِرَةِ مِنَ ٱلْخَٰسِرِينَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتَ»
+  - activation: The opposite actions—rejecting faith versus believing and doing righteous deeds—are explicitly paired with the loss root.
+  - limits: 5:5 gives a specific condition and afterlife outcome; 103:2 leaves the time and route of loss unstated.
+- **R-5:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: Moses warns his people that turning back from the commanded entry will make them losers. This presents loss as the consequence of retreat from a demanding course, which resonates with 103:3’s mutual counsel to patience.
+  - evidence: 5:21 «وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The direct warning about turning back and the focus passage’s emphasis on patience make the behavioral contrast available.
+  - limits: 5:21 concerns a particular command and people; 103:2 does not specify retreat or entry into a land.
+- **R-5:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: After killing his brother, one man becomes among the losers; the next verse records his remorse. This makes the focus’s abstract loss concrete as a destructive act within kinship, followed by recognition of its cost.
+  - evidence: 5:30 «فَطَوَّعَتْ لَهُۥ نَفْسُهُۥ قَتْلَ أَخِيهِ فَقَتَلَهُۥ فَأَصْبَحَ مِنَ ٱلْخَٰسِرِينَ»; 5:31 «قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ»
+  - activation: The shared root follows the explicit killing of a brother, while the following verse supplies the remorseful aftermath.
+  - limits: The story does not claim every form of khusr has this cause or that remorse reverses the loss.
+- **R-5:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: People swear with their strongest oaths that they are with the believers, yet their works are annulled and they become losers. Beside the focus’s oath and verdict, this warns that emphatic speech does not itself secure a sound outcome; conduct determines the result.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 5:53 «أَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ ۙ إِنَّهُمْ لَمَعَكُمْ»; 5:53 «حَبِطَتْ أَعْمَٰلُهُمْ فَأَصْبَحُوا۟ خَٰسِرِينَ»
+  - activation: Both passages pair an oath with a consequential claim; 5:53 explicitly joins sworn allegiance to annulled works and loss.
+  - limits: The focus’s oath is by time, not a human declaration of allegiance, and 5:53 does not explain the meaning of al-ʿaṣr.
+- **R-6:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase خَسِرُوا أَنفُسَهُمْ specifies the self as what is lost. It opens a reading of the focus’s unqualified khusr as more than loss of possessions: the person may be the lost stake.
+  - evidence: 103:2 «لَفِى خُسْرٍ»; 6:12 «ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ»
+  - activation: The exact root is paired with أَنفُسَهُمْ, supplying an object absent from the focus.
+  - limits: 6:12 specifies a group that does not believe; the focus does not state what is lost or identify its cause.
+- **R-6:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who know the Book-recipient as they know their own sons are followed by the description of those who lost themselves and do not believe. The passage makes recognition without belief a specific route into the focus’s broad loss condition.
+  - evidence: 6:20 «ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَعْرِفُونَهُۥ كَمَا يَعْرِفُونَ أَبْنَآءَهُمُ ۘ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The exact self-loss formula is tied here to nonbelief despite recognition, directly contrasting with the focus passage’s believing exception.
+  - limits: The referent of يَعْرِفُونَهُۥ is not specified in the excerpt, and this passage does not make recognition alone sufficient for rescue.
+- **R-6:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: The loss of those who deny meeting God is narrated through the sudden coming of the Hour and their regret over what they neglected. Beside the focus’s oath by time, this places one realization of loss at an explicit temporal threshold.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 6:31 «قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةًۭ قَالُوا۟ يَٰحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا»
+  - activation: Loss, the Hour, sudden arrival, and regret over what has passed are explicit in 6:31; the focus opens by swearing by al-ʿaṣr.
+  - limits: The text does not establish that ٱلْعَصْرِ names the Hour or restrict the focus’s loss to the Hereafter.
+- **R-6:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s escape clause calls for mutual counsel in truth and patience; 6:112 instead depicts devils among humans and jinn whispering deceptive speech to one another, followed by hearts inclining to it. The direction of social influence can distinguish a route toward loss from a route out of it.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 6:112 «شَيَٰطِينَ ٱلْإِنسِ وَٱلْجِنِّ يُوحِى بَعْضُهُمْ إِلَىٰ بَعْضٍۢ زُخْرُفَ ٱلْقَوْلِ غُرُورًۭا»; 6:113 «وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ»
+  - activation: Both passages make reciprocal speech central; one names truth and patience, the other deceptive speech and its hearers’ response.
+  - limits: 6:112 does not use the loss root or state that all social influence works this way.
+- **R-6:140** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse names child-killing and forbidding God’s provision as acts by which people have lost, then says they went astray. It gives the focus’s general verdict a concrete instance of destroying life and provision under a false religious claim.
+  - evidence: 6:140 «قَدْ خَسِرَ ٱلَّذِينَ قَتَلُوٓا۟ أَوْلَٰدَهُمْ سَفَهًۢا بِغَيْرِ عِلْمٍۢ وَحَرَّمُوا۟ مَا رَزَقَهُمُ ٱللَّهُ ٱفْتِرَآءً عَلَى ٱللَّهِ ۚ قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The root خسر is explicit, and the stated acts sharply oppose righteous action and guidance.
+  - limits: 6:140 gives a particular case and does not define all loss as material destruction or false prohibition.
+- **R-7:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the weighing scene, those with heavy scales are called successful; the paired next verse calls those with light scales losers who lost themselves. This supplies a measured contrast to the focus’s loss and clarifies how its exception for belief and righteous deeds can be heard against an outcome of weighing.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 7:8 «فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ»; 7:9 «وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم»
+  - activation: The adjacent verses explicitly oppose success and self-loss through heavy and light scales; the focus’s exception includes righteous deeds.
+  - limits: The focus does not mention scales or specify that its exception is identical to the heavy-scaled group.
+- **R-7:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: Light scales are directly identified with losing oneself because of wrongdoing against God’s signs. This supplies both an object of loss and a stated cause for one group within the focus’s general human verdict.
+  - evidence: 7:9 «وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The same root is paired with أنفسهم and a causal بِمَا clause, while the focus leaves both unspecified.
+  - limits: 7:9 describes a particular judgment group; it does not make light scales the sole meaning of khusr.
+- **R-7:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: Adam and his spouse say that without forgiveness and mercy they would surely be among the losers. Their conditional plea shows a loss status that can be escaped, adding repentance and mercy as another possible route alongside 103:3’s listed qualities.
+  - evidence: 7:23 «ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتَ»
+  - activation: The same loss root is governed by an explicit if-not condition and a plea for mercy.
+  - limits: 103:3 does not name repentance or forgiveness, and 7:23 does not identify its speakers with the focus’s exception.
+- **R-7:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the Shuʿayb episode, the leaders say that following him will make the people losers, but the next verse names those who denied him as the losers. The episode overturns a community’s claim about where loss lies.
+  - evidence: 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتَ»; 7:90 «لَئِنِ ٱتَّبَعْتُمْ شُعَيْبًا إِنَّكُمْ إِذًۭا لَّخَٰسِرُونَ»; 7:92 «ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًۭا كَانُوا۟ هُمُ ٱلْخَٰسِرِينَ»
+  - activation: The same root labels the predicted outcome of following the prophet and the actual outcome of denying him in this single episode.
+  - limits: The focus does not name Shuʿayb or provide this episode’s reversal; 7:90 is a reported accusation, not the narrator’s verdict.
+- **R-7:92** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the people are described as if they had never lived there, those who denied Shuʿayb are explicitly called losers. The verse lets the focus’s abstract verdict be heard as the end of a destroyed community; it is the same episode as the warning in 7:90, now seen after its outcome.
+  - evidence: 7:91 «فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ»; 7:92 «ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًۭا كَأَن لَّمْ يَغْنَوْا۟ فِيهَا ۚ ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًۭا كَانُوا۟ هُمُ ٱلْخَٰسِرِينَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared loss root follows the explicit image of a community wiped from its dwelling.
+  - limits: This is a particular historical judgment, not an account of every form or timing of human loss.
+- **R-7:99** [reading; support strong, relevance high] inter-ayah target
+  - finding: Only losers feel secure from God’s plan. This identifies false security, rather than only overt wrongdoing, as a condition within the focus’s broad loss verdict.
+  - evidence: 7:99 «أَفَأَمِنُوا۟ مَكْرَ ٱللَّهِ ۚ فَلَا يَأْمَنُ مَكْرَ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْخَٰسِرُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The verse directly predicates feeling safe from God’s plan of ٱلْقَوْمُ ٱلْخَٰسِرُون.
+  - limits: It does not say that every person who feels safe is lost in every sense or specify the focus’s exception.
+- **R-7:178** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse pairs divine guidance with being guided, and misguidance with being among the losers. It presents guidance as a dividing axis within the focus’s general verdict and resonates with 103:3’s believing exception.
+  - evidence: 7:178 «مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى ۖ وَمَن يُضْلِلْ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The verse directly links being led astray with the same loss root, while 103:3 distinguishes an excepted believing group.
+  - limits: 7:178 does not explain why one person is guided or misled, or explicitly equate its guided group with the focus’s exception.
+- **R-8:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: God separates the impure from the good, heaps the impure together, and places them in Hell; they are then called losers. This portrays loss as an eventual sorting and collective outcome, not just an inward state.
+  - evidence: 8:37 «لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍۢ فَيَرْكُمَهُۥ جَمِيعًۭا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 103:2 «لَفِى خُسْرٍ»
+  - activation: The shared root follows an explicit sequence of separation, aggregation, and placement in Hell.
+  - limits: 8:37 specifies the impure group and its judgment; 103:2 does not name that sorting process.
+- **R-9:69** [reading; support strong, relevance high] inter-ayah target
+  - finding: A later community repeats the enjoyment and conduct of earlier people, whose works are annulled in this life and the Hereafter and who are called losers. This makes the focus’s verdict recur across generations rather than belong to one historical moment.
+  - evidence: 9:69 «فَٱسْتَمْتَعُوا۟ بِخَلَٰقِهِمْ فَٱسْتَمْتَعْتُم بِخَلَٰقِكُمْ كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم بِخَلَٰقِهِمْ وَخُضْتُمْ كَٱلَّذِى خَاضُوٓا۟»; 9:69 «حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 103:1 «وَٱلْعَصْرِ»
+  - activation: The loss root is attached to repeated historical behavior and annulled deeds in both realms; the focus opens with an oath by time.
+  - limits: 9:69 describes a specific group and does not establish that al-ʿaṣr refers to this recurrence or that enjoyment itself is loss.
+- **R-10:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who deny meeting God are called losers when worldly residence is retrospectively reduced to an hour of the day. Alongside the focus’s oath by time, this ties loss to the later reckoning of how brief earthly life was.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 10:45 «كَأَن لَّمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةًۭ مِّنَ ٱلنَّهَارِ»; 10:45 «قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ»
+  - activation: The loss root and the explicit measure of earthly time occur together in 10:45; the focus places its verdict after an oath by al-ʿaṣr.
+  - limits: The text does not say al-ʿaṣr means the Hereafter or that the focus’s loss is limited to those who deny meeting God.
+- **R-11:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the preceding verse says they lost themselves and their fabrications left them, 11:22 calls them the greatest losers in the Hereafter. This grades and locates a final loss that the focus leaves without a time or degree.
+  - evidence: 11:21 «أُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ»; 11:22 «لَا جَرَمَ أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْأَخْسَرُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The same root is intensified to the superlative and explicitly placed in the Hereafter.
+  - limits: The superlative concerns the group described in the surrounding passage, not necessarily all humans in the focus.
+- **R-11:63** [reading; support strong, relevance high] inter-ayah target
+  - finding: The preceding speech says, إِنَّنَا لَفِى شَكٍّ, using the same emphatic containment frame as the focus’s إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ; the reply then uses the loss root in تَخْسِير. The passage brings the focus’s form and root together in a dispute over prophetic guidance.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 11:62 «وَإِنَّنَا لَفِى شَكٍّ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍۢ»; 11:63 «فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍۢ»
+  - activation: The paired verses place the same لَفِى abstract-state construction and the خسر root in one exchange.
+  - limits: Doubt is not equated with loss, and the first-person object in تَزِيدُونَنِى does not by itself state that the addressees lose themselves.
+- **R-12:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The brothers describe their father as لَفِى ضَلَٰلٍ, in the same emphatic containment frame as the focus’s لَفِى خُسْرٍ. Here that frame carries a family’s accusation, made amid jealousy and before their plot, not the focus’s general verdict.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 12:8 «إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ»
+  - activation: The shared إنّ subject لَفِى abstract-state structure makes the parallel exact at the level of construction.
+  - limits: ضَلَٰل and خُسْر are different words; this formal parallel does not make the brothers’ accusation equivalent to the focus’s verdict.
+- **R-12:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: The brothers say that if a wolf eats Yusuf they would be losers, then the next verse shows them carrying him off to the pit as part of their own plot. In this same episode as 12:8, their conditional idea of loss is set against a more serious betrayal they are choosing.
+  - evidence: 12:14 «قَالُوا۟ لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًۭا لَّخَٰسِرُونَ»; 12:15 «فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared loss root appears in the brothers’ own conditional claim, while the next verse shows their deliberate action in the same episode.
+  - limits: 12:14 states their anticipated loss if the wolf eats Yusuf; the text does not itself call their plot khusr.
+- **related_1.X1** [reading; support strong, relevance high] 
+  - finding: Across these passages, the focus’s إنّ … لَفِى abstract noun construction recurs with schism, doubt, and error. The pattern presents a state as something a subject emphatically inhabits; the nouns differ, so the parallel is grammatical and rhetorical rather than an equation of meanings.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 2:176 «وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى شِقَاقٍۭ بَعِيدٍۢ»; 11:62 «وَإِنَّنَا لَفِى شَكٍّ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍۢ»; 12:8 «إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ»
+  - activation: The exact emphatic prepositional predicate recurs with abstract conditions, making the focus’s khusr sound like an inhabited state.
+  - limits: The shared form does not show that schism, doubt, error, and loss are synonymous or belong to the same people.
+- **R-12:95** [reading; support strong, relevance high] inter-ayah target
+  - finding: The frame إنك لفي in 12:95 matches إن الإنسان لفي in 103:2. In Joseph’s story it carries the brothers’ emphatic but overturned charge against Jacob; the shared frame shows that emphasis marks force, while the surrounding story determines whether the verdict is sound.
+  - evidence: 12:95 «إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ»; 12:96 «فَٱرْتَدَّ بَصِيرًۭا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The focus uses the same emphatic inna–la-fi construction for its verdict on humanity.
+  - limits: The shared construction does not equate ضلال with خسر or make the focus’s verdict false; the story supplies the reversal specific to 12:95.
+- **R-14:34** [reading; support strong, relevance high] inter-ayah target
+  - finding: The species-level formula إِنَّ ٱلْإِنسَٰنَ لَ... recurs with ظلم and كفر after a passage about gifts too numerous to count. It supplies ingratitude despite provision as one concrete human disposition that can inhabit the focus’s broader verdict of loss.
+  - evidence: 14:34 «وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌۭ كَفَّارٌۭ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Both verses make a general, emphatic claim about ٱلْإِنسَٰنَ; 14:34 places its diagnosis after divine provision.
+  - limits: 14:34 names ظلم and كفر, not خسر, and does not say that ingratitude exhausts the focus’s meaning.
+- **R-16:102** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Qur’an is described as coming in truth to strengthen those who believe. That gives a revealed-word counterpart to 103:3: faith and righteous action appear there among those excepted from loss, while 16:102 describes revelation strengthening believers.
+  - evidence: 16:102 «نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The shared wording about believers and truth connects 16:102 to the exception immediately following the focus.
+  - limits: 16:102 does not use خسر or say that strengthening is the sole explanation for the exception in 103:3.
+- **R-16:109** [reading; support strong, relevance high] inter-ayah target
+  - finding: The plural الخاسرون are explicitly placed in the Hereafter, after a description of people marked as heedless; the next verse names migration, striving, and patience before forgiveness. This supplies an eschatological realization of the focus’s compressed loss while showing that the category has a context-specific boundary.
+  - evidence: 16:108 «وَأُو۟لَٰٓئِكَ هُمُ ٱلْغَٰفِلُونَ»; 16:109 «لَا جَرَمَ أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْخَٰسِرُونَ»; 16:110 «ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared خسر root makes the focus’s general noun audible beside a verse that names a group and locates its loss in the Hereafter.
+  - limits: 16:109 concerns a specified group; it does not place every instance of خسر exclusively in the Hereafter.
+- **R-17:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same root appears as خسارا for what the Qur’an increases in wrongdoers, while it is healing and mercy for believers. The contrast makes reception decisive: the focus’s broad loss verdict is followed by an exception for believers, and 17:82 describes revelation having divergent effects on different groups.
+  - evidence: 17:82 «شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The shared loss root and contrast between believers and wrongdoers meet the focus’s general verdict and its stated exception.
+  - limits: The forms differ: خسارا is an indefinite verbal noun, while خسر is a noun in the focus. The verses do not state that the Qur’an is the only cause of either outcome.
+- **R-18:103** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question about the greatest losers is answered by those whose worldly striving went astray while they thought they were doing well. This gives the focus’s unqualified خسر a striking dimension: a person’s own assessment of success can coexist with loss in their deeds.
+  - evidence: 18:103 «هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَٰلًا»; 18:104 «ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared root directly links the focus’s general loss to a passage specifying loss in deeds and self-misjudgment.
+  - limits: The passage speaks of a particular class and specifies deeds; it does not say every person described in 103:2 is unaware of their loss.
+- **R-20:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse gives a return route through repentance, belief, righteous action, and then guidance. The focus’s exception shares belief and righteous action but adds reciprocal counsel in truth and patience, so the verses present overlapping rather than identical descriptions of the way out of loss.
+  - evidence: 20:82 «وَإِنِّى لَغَفَّارٌۭ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا ثُمَّ ٱهْتَدَىٰ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Shared belief and righteous action connect the route in 20:82 to the exception following the focus.
+  - limits: 20:82 explicitly promises forgiveness, not success or an explicit reversal of خسر; its sequence includes repentance and guidance absent from 103:3.
+- **R-21:70** [reading; support strong, relevance high] inter-ayah target
+  - finding: The plotters who intend harm against Abraham are made الأخسرين, while the following verse says Abraham and Lot are saved. Loss here is a reversal of hostile intention: the intended victim is rescued and the plotters become the greatest losers.
+  - evidence: 21:70 «وَأَرَادُوا۟ بِهِۦ كَيْدًۭا فَجَعَلْنَٰهُمُ ٱلْأَخْسَرِينَ»; 21:71 «وَنَجَّيْنَٰهُ وَلُوطًا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared خسر root connects the focus’s condition to a narrative in which loss falls on people who try to harm another.
+  - limits: This is a particular plot and rescue, not a general definition of human loss.
+- **R-21:94** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse pairs belief with righteous action and says the striving of such a person is not denied and is recorded. Beside the focus’s exception, it sharpens what is at stake in loss: whether one’s striving is preserved or rejected.
+  - evidence: 21:94 «فَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا كُفْرَانَ لِسَعْيِهِۦ وَإِنَّا لَهُۥ كَٰتِبُونَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: Both passages connect belief and sound action; 21:94 explicitly names the preservation of striving.
+  - limits: 21:94 does not use the خسر root or say that striving is the sole measure of loss.
+- **R-22:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: The worshipper who serves Allah on an edge turns away when tested and loses both this world and the Hereafter; the verse calls that outcome manifest loss. It makes unstable commitment under trial one concrete form of the focus’s general verdict, while the focus’s following mention of patience points toward a different response.
+  - evidence: 22:11 «فَإِنْ أَصَابَهُۥ خَيْرٌ ٱطْمَأَنَّ بِهِۦ ۖ وَإِنْ أَصَابَتْهُ فِتْنَةٌ ٱنقَلَبَ عَلَىٰ وَجْهِهِۦ خَسِرَ ٱلدُّنْيَا وَٱلْءَاخِرَةَ ۚ ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The shared خسر root is explicit; the focus’s next verse includes patience, which meets the trial described in 22:11.
+  - limits: The focus does not identify this edge-worshipper as the whole of humanity or spell out the trial scenario.
+- **R-22:66** [reading; support strong, relevance high] inter-ayah target
+  - finding: The formula إِنَّ ٱلْإِنسَٰنَ لَ... recurs after the reminder that God gives life, death, and renewed life; here the human is called intensely ungrateful. It makes ingratitude despite divine gifts one concrete human condition that can be heard within the focus’s broader خسر verdict.
+  - evidence: 22:66 «وَهُوَ ٱلَّذِىٓ أَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ۗ إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Both verses use the same emphatic species-level opening, and 22:66 places its diagnosis after a life-and-death sequence.
+  - limits: كفور is not خسر; the verse supplies a parallel diagnosis, not an explicit definition or cause of the focus’s loss.
+- **R-23:34** [reading; support strong, relevance high] inter-ayah target
+  - finding: The chiefs tell their people that obeying a human messenger would make them losers, though the surrounding verse identifies them as deniers of the Hereafter. The scene makes loss a contested label: the focus declares humanity in loss, while these opponents assign the label to obedience to the messenger.
+  - evidence: 23:33 «ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ ٱلْءَاخِرَةِ»; 23:34 «وَلَئِنْ أَطَعْتُم بَشَرًۭا مِّثْلَكُمْ إِنَّكُمْ إِذًۭا لَّخَٰسِرُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The direct خسر-root predicate and the opponents’ rejection of the Hereafter make their claim a rival account of what counts as loss.
+  - limits: The narrative identifies these speakers’ stance but does not explicitly quote a correction of this sentence in 23:35.
+- **R-23:103** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people whose scales are light are described as having lost themselves and as remaining in Hell. This unfolds the focus’s bare خسر into a loss of the self with an explicit judgment scene and duration.
+  - evidence: 23:102 «فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ»; 23:103 «وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared loss root is set beside an explicit weighing scene that names what is lost and the outcome.
+  - limits: 23:103 specifies a group by the scales’ result; it does not say that this is the only sense or timing of خسر in 103:2.
+- **R-26:97** [reading; support strong, relevance high] inter-ayah target
+  - finding: People in the Fire confess that they had been in manifest error. The emphatic la-fi construction resembles the focus, but here it is a retrospective confession by people who can now see their former state; the focus states loss as a present general condition.
+  - evidence: 26:96 «قَالُوا۟ وَهُمْ فِيهَا يَخْتَصِمُونَ»; 26:97 «تَٱللَّهِ إِن كُنَّا لَفِى ضَلَٰلٍۢ مُّبِينٍ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Both use an emphatic la-fi predicate for a moral state; the surrounding scene places the confession after judgment.
+  - limits: The confession concerns ضلال, not خسر, and does not show that every human recognizes loss only after judgment.
+- **R-26:181** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command not to be among the المُخْسِرِينَ uses the same root in an active form: people can cause others to lose through dishonest measure. Beside the focus’s description of humanity as in loss, this adds human agency and harm to others to the root’s range.
+  - evidence: 26:181 «أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ»; 26:182 «وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared root is applied to people who diminish measure, and the next verse specifies straight weighing.
+  - limits: المُخْسِرِينَ is an active participle with a causative sense; it is not the same form or role as خُسْرٍ in the focus.
+- **R-27:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage places a particular group among the greatest losers in the Hereafter, after describing their rejection of it and heedlessness. It gives an eschatological class and setting for the focus’s general loss without making that class exhaustive of humanity.
+  - evidence: 27:4 «فَهُمْ يَعْمَهُونَ»; 27:5 «وَهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْأَخْسَرُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared خسر root links the focus’s general predicate to a passage specifying a group and an afterlife setting.
+  - limits: 27:5 uses the superlative and addresses those described in 27:4; it does not locate all loss in the Hereafter.
+- **R-28:67** [reading; support strong, relevance high] inter-ayah target
+  - finding: Repentance, belief, and righteous action are presented as a route toward becoming among the successful. The overlap with the focus’s exception connects loss to a contrasting outcome, while 103:3 adds mutual counsel in truth and patience to its description.
+  - evidence: 28:67 «فَأَمَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا فَعَسَىٰٓ أَن يَكُونَ مِنَ ٱلْمُفْلِحِينَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The shared belief and righteous-action pattern appears after the focus’s loss verdict as well as in this route toward success.
+  - limits: 28:67 expresses hope of success and includes repentance; it does not use خسر or reproduce the full exception in 103:3.
+- **R-29:52** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who believe in falsehood and disbelieve in God are explicitly called losers. The inverted belief language supplies a concrete counter-pattern to the focus’s exception for those who believe and act righteously.
+  - evidence: 29:52 «وَٱلَّذِينَ ءَامَنُوا۟ بِٱلْبَٰطِلِ وَكَفَرُوا۟ بِٱللَّهِ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The shared loss root and opposing descriptions of belief place the verses in direct semantic contrast.
+  - limits: 29:52 names a specific group and does not by itself explain every dimension of the focus’s exception.
+- **R-32:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage insists that believer and transgressor are not equal, then gives believers who do righteous deeds gardens as their home. Its categorical contrast parallels the movement from 103:2’s general verdict to 103:3’s exception and outcome-bearing description.
+  - evidence: 32:18 «أَفَمَن كَانَ مُؤْمِنًۭا كَمَن كَانَ فَاسِقًۭا ۚ لَّا يَسْتَوُۥنَ»; 32:19 «أَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ جَنَّٰتُ ٱلْمَأْوَىٰ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The adjacent believer/transgressor distinction and the shared faith-and-action wording make the parallel explicit.
+  - limits: 32:18–19 do not use خسر or state that all transgressors are described by 103:2.
+- **R-35:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse says disbelief increases the disbelievers only in loss, despite their being made successors in the land. Loss here can accrue through a person’s response to a granted position; the focus’s following exception presents belief and action as a contrasting pattern.
+  - evidence: 35:39 «هُوَ ٱلَّذِى جَعَلَكُمْ خَلَٰٓئِفَ فِى ٱلْأَرْضِ»; 35:39 «وَلَا يَزِيدُ ٱلْكَٰفِرِينَ كُفْرُهُمْ إِلَّا خَسَارًۭا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The same loss root is used for an increase produced by disbelief, beside the focus’s belief-and-action exception.
+  - limits: 35:39 specifies disbelievers and their disbelief; it does not say that all loss increases in this manner.
+- **R-36:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: A man in the story says that taking other gods would place him in manifest error, then declares his belief in the Lord. The emphatic la-fi state construction resembles the focus, but here it is a first-person conditional judgment followed by a turn to belief.
+  - evidence: 36:24 «إِنِّىٓ إِذًۭا لَّفِى ضَلَٰلٍۢ مُّبِينٍ»; 36:25 «إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared la-fi construction and the transition from error to belief meet the focus’s predicate and its following exception for believers.
+  - limits: The story’s ضلال is conditional and not equated with خسر; the focus speaks of humanity generally.
+- **R-39:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verse names the losers as those who lose themselves and their families on the Day of Resurrection, and calls that manifest loss. It gives the focus’s bare خسر a personal, relational, and eschatological scope.
+  - evidence: 39:15 «قُلْ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَا ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared خسر root is explicitly unpacked as loss of self and family on a named day.
+  - limits: 39:15 specifies a judgment outcome; it does not restrict the focus’s general use of خسر to that formulation alone.
+- **R-39:63** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who reject God’s signs are called losers in the context of God as creator and keeper of everything; the next verse directs worship to God. The passage supplies rejection of signs as one specified path into the broad loss named in the focus.
+  - evidence: 39:62 «ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍۢ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌۭ»; 39:63 «وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 39:64 «قُلْ أَفَغَيْرَ ٱللَّهِ تَأْمُرُوٓنِّىٓ أَعْبُدُ أَيُّهَا ٱلْجَٰهِلُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The direct خسر-root predicate and its stated subject connect the general focus to a specific response to God’s signs.
+  - limits: 39:63 names disbelievers in the signs; it does not define all human loss by that one cause.
+- **R-39:65** [reading; support strong, relevance high] inter-ayah target
+  - finding: The warning links association with God to the nullification of deeds and becoming among the losers. It gives a specific way that action can fail to yield value, sharpening the stakes of the focus’s exception for righteous deeds.
+  - evidence: 39:65 «لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ»; 39:66 «بَلِ ٱللَّهَ فَٱعْبُدْ وَكُن مِّنَ ٱلشَّٰكِرِينَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The loss root is explicitly tied to an act that invalidates work; the focus’s exception expressly mentions righteous deeds.
+  - limits: 39:65 frames a conditional warning about association; it does not state that every lost deed arises from that cause.
+- **R-40:78** [reading; support strong, relevance high] inter-ayah target
+  - finding: When God’s command comes and judgment is made in truth, the falsifiers lose there. This locates one realization of the focus’s loss at a decisive judgment and specifies its subjects as those who practice falsehood.
+  - evidence: 40:78 «فَإِذَا جَآءَ أَمْرُ ٱللَّهِ قُضِىَ بِٱلْحَقِّ وَخَسِرَ هُنَالِكَ ٱلْمُبْطِلُونَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared root connects the focus’s unqualified loss to an explicit time and group in 40:78.
+  - limits: The verse identifies the falsifiers at that judgment; it does not make their case exhaustive of the focus’s general verdict.
+- **R-41:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: The people’s assumption about their Lord brings them to ruin, and they become losers. Loss here follows a false judgment about God, adding mistaken conviction as a route into the condition named in the focus.
+  - evidence: 41:22 «وَلَٰكِن ظَنَنتُمْ أَنَّ ٱللَّهَ لَا يَعْلَمُ كَثِيرًۭا مِّمَّا تَعْمَلُونَ»; 41:23 «وَذَٰلِكُمْ ظَنُّكُمُ ٱلَّذِى ظَنَنتُم بِرَبِّكُمْ أَرْدَىٰكُمْ فَأَصْبَحْتُم مِّنَ ٱلْخَٰسِرِينَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared خسر root is attached to a stated cause: a damaging assumption about God.
+  - limits: 41:23 addresses a particular group and belief; it does not claim that this is the only cause of loss.
+- **R-42:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: As the condemned are shown in humiliation before the Fire, believers say that the losers are those who lost themselves and their families on the Day of Resurrection. The repeated formulation from 39:15 becomes testimony spoken in the judgment scene, giving the focus’s general loss a public, witnessed outcome.
+  - evidence: 42:45 «وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَٰشِعِينَ مِنَ ٱلذُّلِّ يَنظُرُونَ مِن طَرْفٍ خَفِىٍّۢ ۗ وَقَالَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ»; 39:15 «قُلْ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The shared loss root and repeated self-and-family formula connect the focus to a judgment scene in which believers voice the diagnosis.
+  - limits: The repeated wording does not establish which passage echoes the other, and the scene describes a specified group rather than every human.
+- **R-43:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: 43:15 repeats the emphatic generic subject إن الإنسان, then calls humanity كَفُورٌ after describing an attribution made to God. This gives خُسْر a possible moral profile of ingratitude.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 43:15 «وَجَعَلُوا۟ لَهُۥ مِنْ عِبَادِهِۦ جُزْءًا»; 43:15 «إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ مُّبِينٌ»
+  - activation: The same emphatic human subject appears in both claims, and 43:15 ties its predicate to a concrete act.
+  - limits: كفور and خسر are not synonyms; this parallel supplies a possible profile, not a definition of خسر.
+- **R-45:27** [reading; support strong, relevance high] inter-ayah target
+  - finding: 45:27 uses the same خ س ر root for the falsifiers' loss when the Hour rises. It lets 103:2's loss-condition be heard alongside a later, explicit judgment scene.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 45:27 «وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يَوْمَئِذٍۢ يَخْسَرُ ٱلْمُبْطِلُونَ»
+  - activation: The shared root connects the generic human verdict to a scene naming falsifiers and the Hour.
+  - limits: 45:27 does not say every human loses at the Hour; it names ٱلْمُبْطِلُونَ.
+- **R-46:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The defiant son rejects his parents' warning about being raised; the next verse calls the condemned group losers. This scene supplies rejection of resurrection as one route into loss.
+  - evidence: 46:17 «أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ»; 46:17 «إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ»; 46:18 «إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ»
+  - activation: The warning about God's promise is followed directly by the losing verdict on those to whom the decree applies.
+  - limits: The scene illustrates a route to loss; it does not make resurrection denial the sole meaning of 103:2.
+- **R-46:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: 46:18 uses the adjective خَٰسِرِينَ for condemned communities from among jinn and humans. It places 103:2's human loss within a wider, collective scope while attaching the verdict to a specified class.
+  - evidence: 103:2 «ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 46:18 «فِىٓ أُمَمٍۢ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ»; 46:18 «إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ»
+  - activation: The focus's human subject and خسر noun meet a related passage that names human and jinn communities as خاسرين.
+  - limits: خاسرين is an adjective in a specific judgment context, not the same form or scope as the focus's indefinite noun.
+- **R-51:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: 51:8 repeats the frame إنكم لفي, but places its addressees in قول مختلف. The focus's locative predicate can therefore be heard beside a description of people enclosed in discordant speech.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 51:8 «إِنَّكُمْ لَفِى قَوْلٍۢ مُّخْتَلِفٍۢ»
+  - activation: Both verses use emphatic assertion followed by لفي and an indefinite predicate; 51:9 continues with turning away from it.
+  - limits: The shared construction does not make خسر mean disagreement, and the pronouns address different scopes.
+- **R-55:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: 55:9 uses the same root in a command against making the balance fall short. It supplies a concrete Quranic use in which loss is an act that deprives others of due measure.
+  - evidence: 103:2 «خُسْرٍ»; 55:8 «أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ»; 55:9 «وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ»
+  - activation: The focus's خسر activates the root parallel; the surrounding balance and justice language specifies the shortfall in this occurrence.
+  - limits: 55:9 is a transitive verb about the balance, whereas 103:2 is a noun naming a condition.
+- **R-63:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: 63:9 names distraction by wealth and children from God's remembrance as a cause of becoming خاسرون. It gives the broad loss verdict a specific competing claim on attention.
+  - evidence: 63:9 «لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُمْ عَن ذِكْرِ ٱللَّهِ»; 63:9 «فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 63:10 «فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ»
+  - activation: The shared loss root and the following plea to give before death make this a concrete account of how a person can lose.
+  - limits: 63:9 addresses believers with a warning and names a particular danger; it does not say wealth or family are inherently loss.
+- **R-65:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: 65:9 calls a community's outcome خُسْرًا after it disobeys and tastes the consequence of its conduct. The focus's state-in-loss can thus be compared with loss as the end of a course of action.
+  - evidence: 103:2 «لَفِى خُسْرٍ»; 65:8 «عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ»; 65:9 «وَكَانَ عَٰقِبَةُ أَمْرِهَا خُسْرًا»
+  - activation: The same noun root appears with an explicit antecedent and a stated consequence in 65:8–9.
+  - limits: 65:9 describes the outcome of a particular community; it does not establish that the focus's loss is only a future consequence.
+- **R-71:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: Noah says a follower's wealth and children increased him only in خَسَارًا. The verse directly challenges the assumption that accumulation signals success.
+  - evidence: 103:2 «لَفِى خُسْرٍ»; 71:21 «وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًۭا»
+  - activation: The focus's loss root meets a scene where apparent assets are explicitly said to increase loss.
+  - limits: خَسَارًا is a distinct noun form, and Noah's accusation concerns particular followers rather than every human.
+- **R-75:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: 75:5 says the human wants to persist in fujur ahead, followed by a question about the Hour. It portrays chosen continuation as one trajectory consistent with the focus's loss verdict.
+  - evidence: 75:5 «بَلْ يُرِيدُ ٱلْإِنسَٰنُ لِيَفْجُرَ أَمَامَهُۥ»; 75:6 «يَسْـَٔلُ أَيَّانَ يَوْمُ ٱلْقِيَٰمَةِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Both verses name the human generically, while 75:5 supplies a desire and course of action rather than a bare verdict.
+  - limits: 75:5 describes a human tendency in its context; it does not say every human persists in fujur.
+- **R-79:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The deniers call resurrection a كَرَّةٌ خَاسِرَةٌ. This places the خ س ر root in their own valuation of return, beside 103:2's declaration that humanity is in loss.
+  - evidence: 79:12 «قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ»; 79:13 «فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The same root occurs in a skeptical response to resurrection, a theme also invoked by other human-loss passages in this list.
+  - limits: خَاسِرَةٌ is their description of the return; these verses do not explicitly restate that their own denial is the loss.
+- **R-82:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: 82:13 uses the same emphatic enclosure frame, إن الأبرار لفي, for the righteous in bliss. It supplies a positive counterpart to 103:2's human in loss.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 82:13 «إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ»
+  - activation: Both assertions put a named class after إن and place it لفي an indefinite state.
+  - limits: The righteous are a defined class; this parallel does not make bliss and loss exhaustive synonyms for every person's fate.
+- **R-82:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: 82:14 repeats the focus's إن ... لفي construction for the wicked in Hell. It gives the broad loss condition a nearby passage that names a class and a punitive destination.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 82:14 «وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ»; 82:15 «يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ»
+  - activation: The syntax closely matches the focus, and the next verse explicitly locates the scene on the Day of Judgment.
+  - limits: جحيم is a destination of punishment, not the lexical meaning of خسر.
+- **R-83:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: 83:3 uses the root in يُخْسِرُونَ for short measure when people weigh or measure for others. It makes loss relational: one party's shortfall is another's withheld due.
+  - evidence: 83:2 «إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ»; 83:3 «وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ»; 103:2 «لَفِى خُسْرٍ»
+  - activation: The shared root is specified by the contrast between taking full measure and giving short measure.
+  - limits: 83:3 is a verb describing a specific commercial wrong, while 103:2 declares a condition without naming its mechanism.
+- **R-90:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: 90:4 and 103:2 both put the generic human in a condition with fī: كَبَد in one, خُسْر in the other. The parallel distinguishes life's hardship from an adverse verdict on its course.
+  - evidence: 90:4 «لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The repeated human subject and fi construction make the two abstract states directly comparable.
+  - limits: كبد means hardship here; the structural parallel does not equate hardship with loss.
+- **R-90:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: 90:17 repeats faith and mutual exhortation to patience, two practices that stand in the focus passage's exception to loss. It shows a close parallel formulation, while adding mercy in place of counsel by truth.
+  - evidence: 90:17 «مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus passage's exception and 90:17 share faith and tawāṣī by patience.
+  - limits: 90:17 does not repeat the full four-part exception; it names mercy where 103:3 names righteous deeds and truth.
+- **R-95:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: 95:4–6 moves from the human made in excellent form to being brought low, then excepts believers who do righteous deeds. This is a close parallel for hearing 103:2's broad human statement with a real exception.
+  - evidence: 95:4 «لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ»; 95:5 «ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ»; 95:6 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Both passages move from a general human claim toward an exception grounded in faith and righteous action.
+  - limits: 95:4 describes initial creation, not loss; its descent and exception unfold in the following verses.
+- **R-95:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: 95:6 uses the same exceptive opening and names those who believe and do righteous deeds, closely matching the first two parts of 103:3's exception.
+  - evidence: 95:6 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus passage's immediately following illā-clause is echoed almost word for word in 95:6.
+  - limits: 95:6 adds an enduring reward and does not include mutual exhortation by truth and patience.
+- **R-96:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: 96:6–7 repeats the emphatic إن الإنسان frame and names transgression when the human sees himself as self-sufficient. It gives a specific route into the focus's human loss.
+  - evidence: 96:6 «كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ»; 96:7 «أَن رَّءَاهُ ٱسْتَغْنَىٰٓ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The matching emphatic human subject and 96:7's stated trigger make self-sufficiency a possible path into loss.
+  - limits: 96:6 identifies a tendency and cause in its context; 103:2 does not reduce loss to this one route.
+- **R-100:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: 100:6 calls the human كَنُودٌ to his Lord, then says he witnesses this and intensely loves wealth. Like 43:15, it supplies ingratitude as a moral profile for humanity's loss.
+  - evidence: 100:6 «إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ»; 100:7 «وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ»; 100:8 «وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌۭ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The same emphatic generic human claim is expanded into ingratitude, witness, and attachment to wealth.
+  - limits: كَنُودٌ is not a synonym for خسر; 100:6–8 presents a profile, not an exhaustive cause.
+- **R-102:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: 102:1–2 describes rivalry in accumulation occupying people until they visit the graves. This supplies a specific way time can be spent while remaining in loss.
+  - evidence: 102:1 «أَلْهَىٰكُمُ ٱلتَّكَاثُرُ»; 102:2 «حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The adjacent themes of time, distraction, and mortal endpoint let the focus's loss be heard as a squandered course of life.
+  - limits: 102:1 does not use خسر or specify that every form of accumulation is condemned.
+- **R-103:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The oath وَٱلْعَصْرِ directly frames the ensuing verdict that humanity is in loss. The oath makes time the witness or horizon of the claim, without specifying one sense of العصر.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The oath and its answer are adjacent in the same short surah.
+  - limits: The wording here alone does not decide whether العصر means time generally, an era, or another attested sense.
+- **R-103:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The immediate إلا-clause qualifies the generic human loss claim: faith, righteous deeds, and mutual counsel by truth and patience mark the exception. It makes the human verdict conditional rather than an unqualified fate for each person.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: إلا opens the very next verse, and its plural group answers the preceding generic singular subject.
+  - limits: The exception names four practices but does not specify how each relates causally to loss.
+- **R-104:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: 104:2 sketches a person who gathers wealth and counts it; the next verse reveals his belief that wealth makes him immortal. This is a concrete failed valuation that can exemplify the focus's loss.
+  - evidence: 104:2 «ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ»; 104:3 «يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ»; 103:2 «لَفِى خُسْرٍ»
+  - activation: The focus's broad loss claim is followed in the next surah by a portrait of misplaced confidence in accumulated wealth.
+  - limits: 104:2–3 describe a condemned type, not every person named by the focus.
+- **R-104:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: 104:3 exposes the belief that wealth has made its owner immortal. It sharpens the time dimension of loss: counting what is accumulated cannot secure life beyond its term.
+  - evidence: 104:2 «جَمَعَ مَالًۭا وَعَدَّدَهُۥ»; 104:3 «يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ»; 104:4 «لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ»
+  - activation: The surah immediately following 103 moves from its loss verdict to a portrait of imagined permanence and its end.
+  - limits: 104:3 does not use خسر; the connection is a particular illusion and outcome, not a definition.
+- **R-f-ءنس-خسر formula family** [reading; support strong, relevance high] 
+  - finding: 41:25 brings the roots ء ن س and خ س ر together: companions beautify a course of conduct for communities of jinn and humans, who are then called losers. It lets the focus's human loss be heard in a social setting, beside 103:3's mutual counsel as a counter-pattern.
+  - evidence: 41:25 «فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ»; 41:25 «مِّنَ ٱلْجِنِّ وَٱلْإِنسِ»; 41:25 «إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The two roots paired in the focus recur in one verse, whose context names companions' influence and a losing verdict.
+  - limits: 41:25 concerns particular past communities and uses الإنس and خاسرين, not the focus's singular الإنسان and noun خسر; it does not make companionship the only cause of loss.
+- **R-6:128** [reading; support medium, relevance high] inter-ayah target
+  - finding: The human and jinn allies describe mutual enjoyment that ends at their appointed term and in the Fire; the next verse describes wrongdoers being made allies of one another. This contrasts exploitative reciprocity with the focus’s mutual exhortation to truth and patience as a way out of loss.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 6:128 «رَبَّنَا ٱسْتَمْتَعَ بَعْضُنَا بِبَعْضٍۢ وَبَلَغْنَآ أَجَلَنَا ٱلَّذِىٓ أَجَّلْتَ لَنَا»; 6:128 «قَالَ ٱلنَّارُ مَثْوَىٰكُمْ خَٰلِدِينَ فِيهَآ»; 6:129 «وَكَذَٰلِكَ نُوَلِّى بَعْضَ ٱلظَّٰلِمِينَ بَعْضًۢا بِمَا كَانُوا۟ يَكْسِبُونَ»
+  - activation: The shared pattern of reciprocal relations is explicit, and 6:128 gives that relation a judgment and end point.
+  - limits: 6:128 does not use خسر, and its human-jinn alliance is not the same group as the focus’s exception.
+- **R-10:103** [reading; support medium, relevance high] inter-ayah target
+  - finding: The passage states that God saves the messengers and those who believe. It identifies believers as a group granted deliverance, resonating with the focus passage’s exception for those who believe.
+  - evidence: 10:103 «ثُمَّ نُنَجِّى رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟ ۚ كَذَٰلِكَ حَقًّا عَلَيْنَا نُنجِ ٱلْمُؤْمِنِينَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The shared designation of believers is joined in 10:103 to an explicit act of rescue.
+  - limits: 10:103 does not use the loss root or state that this rescue exhausts the meaning of the focus’s exception.
+- **R-25:29** [reading; support medium, relevance high] inter-ayah target
+  - finding: The speaker says a companion led him away from the Reminder after it came, and the Messenger next says his people abandoned the Qur’an. Against that social failure, 103:3’s mutual exhortation in truth and patience can be heard as a communal practice that counters being left alone with misguidance.
+  - evidence: 25:29 «لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى ۗ وَكَانَ ٱلشَّيْطَٰنُ لِلْإِنسَٰنِ خَذُولًۭا»; 25:30 «إِنَّ قَوْمِى ٱتَّخَذُوا۟ هَٰذَا ٱلْقُرْءَانَ مَهْجُورًۭا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus’s reciprocal verb تَوَاصَوْا supplies a communal contrast to the misguidance and abandonment in 25:29–30.
+  - limits: The passages do not explicitly equate being misled or abandoning the Qur’an with خسر; the connection is a contrast in social practice.
+- **R-33:72** [reading; support medium, relevance high] inter-ayah target
+  - finding: The human carries the trust and is described as unjust and ignorant; the surrounding verses contrast obedience that wins greatly with punishment for hypocrites and polytheists and repentance for believers. This gives the focus’s human verdict a setting of responsibility and differentiated outcomes.
+  - evidence: 33:71 «وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ فَازَ فَوْزًا عَظِيمًا»; 33:72 «وَحَمَلَهَا ٱلْإِنسَٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًۭا جَهُولًۭا»; 33:73 «لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The exact species noun and the contrast in outcomes around the trust connect this human diagnosis to the focus’s general verdict and exception.
+  - limits: 33:72 does not use خسر or state that carrying the trust alone explains the focus’s verdict.
+- **R-59:16** [reading; support medium, relevance high] inter-ayah target
+  - finding: 59:16 depicts a voice urging a human to disbelieve, then disowning him; the two end in fire. Against 103:3's mutual counsel to truth and patience, it presents a relational route toward loss through corrupt counsel.
+  - evidence: 59:16 «قَالَ لِلْإِنسَٰنِ ٱكْفُرْ»; 59:16 «فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌۭ مِّنكَ»; 59:17 «أَنَّهُمَا فِى ٱلنَّارِ خَٰلِدَيْنِ فِيهَا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The focus's exception makes counsel and shared direction salient; this scene shows exhortation moving the human in the opposite direction.
+  - limits: 59:16–17 does not use خسر, and its parable does not define the full human condition in 103:2.
+- **R-75:13** [reading; support medium, relevance high] inter-ayah target
+  - finding: 75:13 says the human will be told what he sent ahead and left behind. It makes the focus's condition answerable to a record of human deeds.
+  - evidence: 75:13 «يُنَبَّؤُا۟ ٱلْإِنسَٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The same human scope is paired with deeds in the exception and with a future report in 75:13.
+  - limits: 75:13 reports deeds but does not use loss language or identify which deeds constitute the loss.
+- **R-75:14** [reading; support medium, relevance high] inter-ayah target
+  - finding: 75:14 says the human is a witness against himself, and 75:15 adds that excuses do not remove this. The loss verdict can be heard beside an inwardly recognizable account.
+  - evidence: 75:14 «بَلِ ٱلْإِنسَٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ»; 75:15 «وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The generic human subject appears in both, and the surrounding passage sets self-knowledge against excuses.
+  - limits: 75:14 does not say that all humans recognize their loss during earthly life.
+- **R-75:36** [reading; support medium, relevance high] inter-ayah target
+  - finding: 75:36 asks whether the human thinks he will be left سُدًى, then recalls his origin. The question challenges a picture of human life without purpose or return, giving the loss verdict an accountability frame.
+  - evidence: 75:36 «أَيَحْسَبُ ٱلْإِنسَٰنُ أَن يُتْرَكَ سُدًى»; 75:37 «أَلَمْ يَكُ نُطْفَةًۭ مِّن مَّنِىٍّۢ يُمْنَىٰ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: Both verses make a general claim about the human; 75:36 explicitly rejects being left without reckoning.
+  - limits: سُدًى is not a synonym for خسر, and the focus does not itself state the argument in 75:36.
+- **R-84:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: 84:6 says every human is striving toward the Lord and will meet Him; the next verses divide outcomes by the book received. This distinguishes striving itself from the loss or success of its outcome.
+  - evidence: 84:6 «إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ»; 84:7 «فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The focus's human verdict meets an account in which human effort is universal but its reported outcome divides.
+  - limits: 84:6 itself calls no one lost, and كَدْح does not mean خسر.
+- **R-91:10** [reading; support medium, relevance high] inter-ayah target
+  - finding: 91:9–10 set success through purifying the soul against failure through suppressing it. This supplies an action-based contrast to the focus's general loss condition.
+  - evidence: 91:9 «قَدْ أَفْلَحَ مَن زَكَّىٰهَا»; 91:10 «وَقَدْ خَابَ مَن دَسَّىٰهَا»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus's exception names righteous action, while 91:9–10 links contrasting outcomes to what a person does with the soul.
+  - limits: خاب is not from the خسر root, and the two verses do not state that the outcomes are identical.
+- **R-5:36** [open; support medium, relevance high] inter-ayah target
+  - finding: The passage depicts a loss that cannot be bought back: even all the earth and its equal would not be accepted as ransom from the punishment. It could give the focus’s khusr an eschatological dimension of irrecoverability.
+  - evidence: 5:36 «لِيَفْتَدُوا۟ بِهِۦ مِنْ عَذَابِ يَوْمِ ٱلْقِيَٰمَةِ مَا تُقُبِّلَ مِنْهُمْ ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۭ»
+  - missing: This ayah does not use خسر or explicitly call the failed ransom a form of loss. An adjacent passage tying this unredeemable outcome to the loss root could establish whether it sharpens the focus or is simply a related punishment scene.
+- **related_1.X2** [open; support medium, relevance high] 
+  - finding: The Fatiha asks for the straight path and names the astray, while 7:178 explicitly joins misguidance to being among the losers. Read with 103:3’s exception, this could connect the daily prayer for guidance to a path out of the focus’s general loss.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 7:178 «وَمَن يُضْلِلْ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتَ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The verses provide a guidance/misguidance-to-loss bridge, but no explicit cross-reference equates ٱلضَّآلِّينَ with ٱلْخَٰسِرُونَ or says the Fatiha is answered specifically by 103:3. A passage making that relation explicit could settle the link.
+- **R-17:11** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus follows an oath by time with a verdict on humanity; 17:11 calls the human hasty, and 17:12 says night and day enable people to count years and reckon. Together they raise the possibility that loss is heard against human use of measured time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 17:11 «وَكَانَ ٱلْإِنسَٰنُ عَجُولًۭا»; 17:12 «وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ»
+  - missing: These excerpts do not state that haste wastes time or that خسر means wasted time. A Quranic usage linking loss to squandered lifespan, or a lexical sense connecting the words, could establish whether this time-based reading is more than a juxtaposition.
+- **R-36:77** [open; support medium, relevance high] inter-ayah target
+  - finding: The human is created from a drop, becomes a clear disputant, and then forgets his creation while disputing resurrection. This offers a possible portrait of loss as self-undermining forgetfulness, set beside the focus’s species-level verdict.
+  - evidence: 36:77 «أَوَلَمْ يَرَ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن نُّطْفَةٍۢ فَإِذَا هُوَ خَصِيمٌۭ مُّبِينٌۭ»; 36:78 «وَنَسِىَ خَلْقَهُۥ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: These verses do not use the خسر root or explicitly say that forgetfulness and disputation cause the focus’s loss. A Quranic passage linking this portrait to loss, or context showing that connection in 103, could establish it.
+- **R-53:24** [open; support medium, relevance high] inter-ayah target
+  - finding: 53:24 asks whether a human gets what they wish, then assigns both afterlife and present life to God. Read beside 103:2, this raises whether human loss includes mistaking desire for possession.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 53:24 «أَمْ لِلْإِنسَٰنِ مَا تَمَنَّىٰ»; 53:25 «فَلِلَّهِ ٱلْءَاخِرَةُ وَٱلْأُولَىٰ»
+  - missing: These verses do not connect wishing explicitly to خسر. A related passage joining frustrated desire or presumption to loss could establish that link.
+- **R-27:7** [open; support weak, relevance high] inter-ayah target
+  - finding: The supplied root alignment places ٱلْإِنسَٰنَ beside ءَانَسْتُ. In the story, Moses perceives a fire to bring news or warmth to his family. This raises a possible social reading of the human noun beside the focus and its exception through mutual counsel.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 27:7 «إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ ءَانَسْتُ نَارًۭا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ ءَاتِيكُم بِشِهَابٍۢ قَبَسٍۢ لَّعَلَّكُمْ تَصْطَلُونَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The Arabic excerpts do not establish that الإنسان derives from the verb ءَانَسْتُ or that this root’s social sense explains either loss or mutual counsel. A dictionary account of the root and corroborating Quranic usages could decide whether the connection holds.
+- **R-2:176** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The phrase لَفِى شِقَاقٍ بَعِيدٍ uses the same emphatic containment frame as لَفِى خُسْرٍ: a group is emphatically located in an abstract condition. Here the condition is schism over the Book, not loss itself.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 2:176 «وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى شِقَاقٍۭ بَعِيدٍۢ»
+  - activation: The exact sequence لَفِى followed by an indefinite abstract noun makes the structural parallel salient.
+  - limits: The shared construction does not equate schism with khusr or state that the groups are identical.
+- **R-19:96** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The combination of belief and righteous deeds recurs, but here it is followed by the Lord’s placing of love for those people. Beside the focus’s exception, it shows another outcome attached to the same faith-and-action pattern: a bond of affection.
+  - evidence: 19:96 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The wording about believing and doing righteous deeds is shared with the focus’s exception.
+  - limits: 19:96 promises love, not an explicit release from خسر; the focus adds mutual counsel in truth and patience.
+- **related_2.X1** [open; support weak, relevance medium] 
+  - finding: The Fātiḥa asks for guidance to the straight path and distinguishes its recipients from those under wrath and astray; al-ʿAṣr declares humanity in loss and then describes an exception through belief, action, truth, and patience. Together they could frame loss as a failed path and the exception as a guided way.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The supplied verses do not equate خسر with ضلال or establish a fixed recitation pairing between the Fātiḥa and al-ʿAṣr. A Quranic link between loss and straying, or evidence about their liturgical relation, could decide whether this comparison is more than a parallel framing.
+
+Notes:
+- R-15:72 [support strong, relevance medium] The story says the people are لَفِى سَكْرَتِهِمْ, using an emphatic locative frame for people absorbed in a state and wandering. It offers a way to hear لَفِى خُسْرٍ as an enclosing condition, though the two states are not equated.
+- R-22:53 [support strong, relevance medium] The emphatic construction لَفِى recurs in a diagnosis of wrongdoers as being in a distant schism. It supports hearing the focus’s فِى خُسْرٍ as a state a group inhabits, while this passage gives a different state and cause.
+- R-14:52 [support medium, relevance medium] The passage describes warning and remembrance as purposes of revelation; 103:3 names reciprocal counsel in truth and patience. Both give a communicative practice beside the focus’s loss verdict, but 14:52 does not specify loss or its remedy.
+- R-42:48 [support medium, relevance medium] The human rejoices at mercy but becomes ungrateful when adversity strikes because of what people’s hands have sent ahead. It offers a concrete disposition within the focus’s species-level diagnosis, without using the خسر root.
+- R-46:15 [support medium, relevance medium] 46:15 gives a particular human's prayer to be grateful and to do صالحًا, echoing two dimensions of the exception immediately after 103:2.
+- R-51:56 [support medium, relevance medium] 51:56 states worship as the purpose of creating jinn and humans, offering a possible measure against which human loss is legible.
+- R-70:19 [support medium, relevance medium] 70:19 calls the human created as هَلُوعًا and the next verses spell out anxious reactions to harm and good. This gives one possible disposition behind the focus's human verdict.
+- R-75:3 [support medium, relevance medium] 75:3 places the human in a challenge about whether bones will be gathered, then answers that God can restore even fingertips. It supplies an accountability horizon that 103:2 leaves unstated.
+- R-79:35 [support medium, relevance medium] 79:35 places the human remembering what he strove for on the day of the great calamity. It offers a final reckoning scene in which a life's course becomes visible.
+- R-83:7 [support medium, relevance medium] 83:7 places the record of the wicked in Sijjīn, within a passage that later distinguishes the righteous record and their reward. It offers a concrete record-based outcome beside the focus's broad loss.
+- R-83:18 [support medium, relevance medium] 83:18 assigns the righteous record to ʿIlliyyīn, the counterpart to the wicked record in 83:7. It shows differentiated outcomes in the same judgment passage as loss.
+- R-88:25 [support medium, relevance medium] 88:25–26 state that people return to God and that their account rests with Him. This supplies a broad final-account frame for the focus's loss verdict.
+- R-99:6 [support medium, relevance medium] 99:6 sends people out in separate groups to see their deeds. It provides a public accounting scene beside the focus's broad verdict on humanity.
+- R-99:7 [support medium, relevance medium] 99:7 says even a particle's weight of good will be seen. It makes deeds and their measure salient beside a loss verdict whose measure is unstated.
+- R-99:8 [support medium, relevance medium] 99:8 gives the same visibility to even a particle of evil. It makes the consequence side of human action concrete beside 103:2's abstract loss.
+- R-104:8 [support medium, relevance medium] 104:8 describes the Fire as sealed over its occupants, a terminal scene after the next surah's portrait of hoarded wealth and slander. It can place the focus's loss beside a concrete punishment enclosure.
+- R-31:14 [support medium, relevance low] The verse presents the human through maternal vulnerability, a command to give thanks, and return to God. It adds an embodied and relational portrait beside the focus’s general human verdict, without naming loss.
+- R-77:43 [support medium, relevance low] 77:43 gives the righteous food and drink as recompense for their deeds, a distant outcome contrast to the loss verdict.
+- R-80:24 [support weak, relevance low] 80:24 commands the human to consider his food; just before it, the passage says he has not fulfilled what was commanded. This offers provision and response as a possible responsibility contrast.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:27 ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 2:64 ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ
+- 2:121 ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَتْلُونَهُۥ حَقَّ تِلَاوَتِهِۦٓ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۗ وَمَن يَكْفُرْ بِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 2:176 ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلْكِتَٰبَ بِٱلْحَقِّ ۗ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى شِقَاقٍۭ بَعِيدٍۢ
+- 3:85 وَمَن يَبْتَغِ غَيْرَ ٱلْإِسْلَٰمِ دِينًۭا فَلَن يُقْبَلَ مِنْهُ وَهُوَ فِى ٱلْءَاخِرَةِ مِنَ ٱلْخَٰسِرِينَ
+- 4:6 وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ ءَانَسْتُم مِّنْهُمْ رُشْدًۭا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًۭا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّۭا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًۭا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًۭا
+- 4:28 يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًۭا
+- 4:119 وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّۭا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًۭا مُّبِينًۭا
+- 5:5 ٱلْيَوْمَ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ ۖ وَطَعَامُ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ حِلٌّۭ لَّكُمْ وَطَعَامُكُمْ حِلٌّۭ لَّهُمْ ۖ وَٱلْمُحْصَنَٰتُ مِنَ ٱلْمُؤْمِنَٰتِ وَٱلْمُحْصَنَٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخْدَانٍۢ ۗ وَمَن يَكْفُرْ بِٱلْإِيمَٰنِ فَقَدْ حَبِطَ عَمَلُهُۥ وَهُوَ فِى ٱلْءَاخِرَةِ مِنَ ٱلْخَٰسِرِينَ
+- 5:21 يَٰقَوْمِ ٱدْخُلُوا۟ ٱلْأَرْضَ ٱلْمُقَدَّسَةَ ٱلَّتِى كَتَبَ ٱللَّهُ لَكُمْ وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ
+- 5:30 فَطَوَّعَتْ لَهُۥ نَفْسُهُۥ قَتْلَ أَخِيهِ فَقَتَلَهُۥ فَأَصْبَحَ مِنَ ٱلْخَٰسِرِينَ
+- 5:31 فَبَعَثَ ٱللَّهُ غُرَابًۭا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ
+- 5:36 إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ أَنَّ لَهُم مَّا فِى ٱلْأَرْضِ جَمِيعًۭا وَمِثْلَهُۥ مَعَهُۥ لِيَفْتَدُوا۟ بِهِۦ مِنْ عَذَابِ يَوْمِ ٱلْقِيَٰمَةِ مَا تُقُبِّلَ مِنْهُمْ ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۭ
+- 5:53 وَيَقُولُ ٱلَّذِينَ ءَامَنُوٓا۟ أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ ۙ إِنَّهُمْ لَمَعَكُمْ ۚ حَبِطَتْ أَعْمَٰلُهُمْ فَأَصْبَحُوا۟ خَٰسِرِينَ
+- 6:12 قُل لِّمَن مَّا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ
+- 6:20 ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَعْرِفُونَهُۥ كَمَا يَعْرِفُونَ أَبْنَآءَهُمُ ۘ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ
+- 6:31 قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةًۭ قَالُوا۟ يَٰحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا وَهُمْ يَحْمِلُونَ أَوْزَارَهُمْ عَلَىٰ ظُهُورِهِمْ ۚ أَلَا سَآءَ مَا يَزِرُونَ
+- 6:112 وَكَذَٰلِكَ جَعَلْنَا لِكُلِّ نَبِىٍّ عَدُوًّۭا شَيَٰطِينَ ٱلْإِنسِ وَٱلْجِنِّ يُوحِى بَعْضُهُمْ إِلَىٰ بَعْضٍۢ زُخْرُفَ ٱلْقَوْلِ غُرُورًۭا ۚ وَلَوْ شَآءَ رَبُّكَ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ
+- 6:113 وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا۟ مَا هُم مُّقْتَرِفُونَ
+- 6:128 وَيَوْمَ يَحْشُرُهُمْ جَمِيعًۭا يَٰمَعْشَرَ ٱلْجِنِّ قَدِ ٱسْتَكْثَرْتُم مِّنَ ٱلْإِنسِ ۖ وَقَالَ أَوْلِيَآؤُهُم مِّنَ ٱلْإِنسِ رَبَّنَا ٱسْتَمْتَعَ بَعْضُنَا بِبَعْضٍۢ وَبَلَغْنَآ أَجَلَنَا ٱلَّذِىٓ أَجَّلْتَ لَنَا ۚ قَالَ ٱلنَّارُ مَثْوَىٰكُمْ خَٰلِدِينَ فِيهَآ إِلَّا مَا شَآءَ ٱللَّهُ ۗ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٌۭ
+- 6:129 وَكَذَٰلِكَ نُوَلِّى بَعْضَ ٱلظَّٰلِمِينَ بَعْضًۢا بِمَا كَانُوا۟ يَكْسِبُونَ
+- 6:140 قَدْ خَسِرَ ٱلَّذِينَ قَتَلُوٓا۟ أَوْلَٰدَهُمْ سَفَهًۢا بِغَيْرِ عِلْمٍۢ وَحَرَّمُوا۟ مَا رَزَقَهُمُ ٱللَّهُ ٱفْتِرَآءً عَلَى ٱللَّهِ ۚ قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ
+- 7:8 وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 7:9 وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ
+- 7:23 قَالَا رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ
+- 7:90 وَقَالَ ٱلْمَلَأُ ٱلَّذِينَ كَفَرُوا۟ مِن قَوْمِهِۦ لَئِنِ ٱتَّبَعْتُمْ شُعَيْبًا إِنَّكُمْ إِذًۭا لَّخَٰسِرُونَ
+- 7:91 فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ
+- 7:92 ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًۭا كَأَن لَّمْ يَغْنَوْا۟ فِيهَا ۚ ٱلَّذِينَ كَذَّبُوا۟ شُعَيْبًۭا كَانُوا۟ هُمُ ٱلْخَٰسِرِينَ
+- 7:99 أَفَأَمِنُوا۟ مَكْرَ ٱللَّهِ ۚ فَلَا يَأْمَنُ مَكْرَ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْخَٰسِرُونَ
+- 7:178 مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِى ۖ وَمَن يُضْلِلْ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 8:37 لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍۢ فَيَرْكُمَهُۥ جَمِيعًۭا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 9:69 كَٱلَّذِينَ مِن قَبْلِكُمْ كَانُوٓا۟ أَشَدَّ مِنكُمْ قُوَّةًۭ وَأَكْثَرَ أَمْوَٰلًۭا وَأَوْلَٰدًۭا فَٱسْتَمْتَعُوا۟ بِخَلَٰقِهِمْ فَٱسْتَمْتَعْتُم بِخَلَٰقِكُمْ كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم بِخَلَٰقِهِمْ وَخُضْتُمْ كَٱلَّذِى خَاضُوٓا۟ ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 10:45 وَيَوْمَ يَحْشُرُهُمْ كَأَن لَّمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةًۭ مِّنَ ٱلنَّهَارِ يَتَعَارَفُونَ بَيْنَهُمْ ۚ قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ وَمَا كَانُوا۟ مُهْتَدِينَ
+- 10:103 ثُمَّ نُنَجِّى رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟ ۚ كَذَٰلِكَ حَقًّا عَلَيْنَا نُنجِ ٱلْمُؤْمِنِينَ
+- 11:21 أُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ
+- 11:22 لَا جَرَمَ أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْأَخْسَرُونَ
+- 11:62 قَالُوا۟ يَٰصَٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّۭا قَبْلَ هَٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّۢ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍۢ
+- 11:63 قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ رَحْمَةًۭ فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍۢ
+- 12:8 إِذْ قَالُوا۟ لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰٓ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِى ضَلَٰلٍۢ مُّبِينٍ
+- 12:14 قَالُوا۟ لَئِنْ أَكَلَهُ ٱلذِّئْبُ وَنَحْنُ عُصْبَةٌ إِنَّآ إِذًۭا لَّخَٰسِرُونَ
+- 12:15 فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا وَهُمْ لَا يَشْعُرُونَ
+- 12:95 قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ
+- 12:96 فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ
+- 14:34 وَءَاتَىٰكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ ۚ وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌۭ كَفَّارٌۭ
+- 14:52 هَٰذَا بَلَٰغٌۭ لِّلنَّاسِ وَلِيُنذَرُوا۟ بِهِۦ وَلِيَعْلَمُوٓا۟ أَنَّمَا هُوَ إِلَٰهٌۭ وَٰحِدٌۭ وَلِيَذَّكَّرَ أُو۟لُوا۟ ٱلْأَلْبَٰبِ
+- 15:72 لَعَمْرُكَ إِنَّهُمْ لَفِى سَكْرَتِهِمْ يَعْمَهُونَ
+- 16:102 قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟ وَهُدًۭى وَبُشْرَىٰ لِلْمُسْلِمِينَ
+- 16:108 أُو۟لَٰٓئِكَ ٱلَّذِينَ طَبَعَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْغَٰفِلُونَ
+- 16:109 لَا جَرَمَ أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْخَٰسِرُونَ
+- 16:110 ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ
+- 17:11 وَيَدْعُ ٱلْإِنسَٰنُ بِٱلشَّرِّ دُعَآءَهُۥ بِٱلْخَيْرِ ۖ وَكَانَ ٱلْإِنسَٰنُ عَجُولًۭا
+- 17:12 وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ ءَايَتَيْنِ ۖ فَمَحَوْنَآ ءَايَةَ ٱلَّيْلِ وَجَعَلْنَآ ءَايَةَ ٱلنَّهَارِ مُبْصِرَةًۭ لِّتَبْتَغُوا۟ فَضْلًۭا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍۢ فَصَّلْنَٰهُ تَفْصِيلًۭا
+- 17:82 وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا
+- 18:103 قُلْ هَلْ نُنَبِّئُكُم بِٱلْأَخْسَرِينَ أَعْمَٰلًا
+- 18:104 ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا
+- 19:96 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا
+- 20:82 وَإِنِّى لَغَفَّارٌۭ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا ثُمَّ ٱهْتَدَىٰ
+- 21:70 وَأَرَادُوا۟ بِهِۦ كَيْدًۭا فَجَعَلْنَٰهُمُ ٱلْأَخْسَرِينَ
+- 21:71 وَنَجَّيْنَٰهُ وَلُوطًا إِلَى ٱلْأَرْضِ ٱلَّتِى بَٰرَكْنَا فِيهَا لِلْعَٰلَمِينَ
+- 21:94 فَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا كُفْرَانَ لِسَعْيِهِۦ وَإِنَّا لَهُۥ كَٰتِبُونَ
+- 22:11 وَمِنَ ٱلنَّاسِ مَن يَعْبُدُ ٱللَّهَ عَلَىٰ حَرْفٍۢ ۖ فَإِنْ أَصَابَهُۥ خَيْرٌ ٱطْمَأَنَّ بِهِۦ ۖ وَإِنْ أَصَابَتْهُ فِتْنَةٌ ٱنقَلَبَ عَلَىٰ وَجْهِهِۦ خَسِرَ ٱلدُّنْيَا وَٱلْءَاخِرَةَ ۚ ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ
+- 22:53 لِّيَجْعَلَ مَا يُلْقِى ٱلشَّيْطَٰنُ فِتْنَةًۭ لِّلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْقَاسِيَةِ قُلُوبُهُمْ ۗ وَإِنَّ ٱلظَّٰلِمِينَ لَفِى شِقَاقٍۭ بَعِيدٍۢ
+- 22:66 وَهُوَ ٱلَّذِىٓ أَحْيَاكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ۗ إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ
+- 23:33 وَقَالَ ٱلْمَلَأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ ٱلْءَاخِرَةِ وَأَتْرَفْنَٰهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا مَا هَٰذَآ إِلَّا بَشَرٌۭ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ
+- 23:34 وَلَئِنْ أَطَعْتُم بَشَرًۭا مِّثْلَكُمْ إِنَّكُمْ إِذًۭا لَّخَٰسِرُونَ
+- 23:102 فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 23:103 وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ
+- 24:27 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتًا غَيْرَ بُيُوتِكُمْ حَتَّىٰ تَسْتَأْنِسُوا۟ وَتُسَلِّمُوا۟ عَلَىٰٓ أَهْلِهَا ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ لَعَلَّكُمْ تَذَكَّرُونَ
+- 25:29 لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى ۗ وَكَانَ ٱلشَّيْطَٰنُ لِلْإِنسَٰنِ خَذُولًۭا
+- 25:30 وَقَالَ ٱلرَّسُولُ يَٰرَبِّ إِنَّ قَوْمِى ٱتَّخَذُوا۟ هَٰذَا ٱلْقُرْءَانَ مَهْجُورًۭا
+- 26:96 قَالُوا۟ وَهُمْ فِيهَا يَخْتَصِمُونَ
+- 26:97 تَٱللَّهِ إِن كُنَّا لَفِى ضَلَٰلٍۢ مُّبِينٍ
+- 26:181 ۞ أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ
+- 26:182 وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ
+- 27:4 إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ زَيَّنَّا لَهُمْ أَعْمَٰلَهُمْ فَهُمْ يَعْمَهُونَ
+- 27:5 أُو۟لَٰٓئِكَ ٱلَّذِينَ لَهُمْ سُوٓءُ ٱلْعَذَابِ وَهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْأَخْسَرُونَ
+- 27:7 إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ ءَانَسْتُ نَارًۭا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ ءَاتِيكُم بِشِهَابٍۢ قَبَسٍۢ لَّعَلَّكُمْ تَصْطَلُونَ
+- 28:67 فَأَمَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا فَعَسَىٰٓ أَن يَكُونَ مِنَ ٱلْمُفْلِحِينَ
+- 29:52 قُلْ كَفَىٰ بِٱللَّهِ بَيْنِى وَبَيْنَكُمْ شَهِيدًۭا ۖ يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱلَّذِينَ ءَامَنُوا۟ بِٱلْبَٰطِلِ وَكَفَرُوا۟ بِٱللَّهِ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 31:14 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ حَمَلَتْهُ أُمُّهُۥ وَهْنًا عَلَىٰ وَهْنٍۢ وَفِصَٰلُهُۥ فِى عَامَيْنِ أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ إِلَىَّ ٱلْمَصِيرُ
+- 32:18 أَفَمَن كَانَ مُؤْمِنًۭا كَمَن كَانَ فَاسِقًۭا ۚ لَّا يَسْتَوُۥنَ
+- 32:19 أَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ جَنَّٰتُ ٱلْمَأْوَىٰ نُزُلًۢا بِمَا كَانُوا۟ يَعْمَلُونَ
+- 33:71 يُصْلِحْ لَكُمْ أَعْمَٰلَكُمْ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ فَازَ فَوْزًا عَظِيمًا
+- 33:72 إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا ٱلْإِنسَٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًۭا جَهُولًۭا
+- 33:73 لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا
+- 35:39 هُوَ ٱلَّذِى جَعَلَكُمْ خَلَٰٓئِفَ فِى ٱلْأَرْضِ ۚ فَمَن كَفَرَ فَعَلَيْهِ كُفْرُهُۥ ۖ وَلَا يَزِيدُ ٱلْكَٰفِرِينَ كُفْرُهُمْ عِندَ رَبِّهِمْ إِلَّا مَقْتًۭا ۖ وَلَا يَزِيدُ ٱلْكَٰفِرِينَ كُفْرُهُمْ إِلَّا خَسَارًۭا
+- 36:24 إِنِّىٓ إِذًۭا لَّفِى ضَلَٰلٍۢ مُّبِينٍ
+- 36:25 إِنِّىٓ ءَامَنتُ بِرَبِّكُمْ فَٱسْمَعُونِ
+- 36:77 أَوَلَمْ يَرَ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن نُّطْفَةٍۢ فَإِذَا هُوَ خَصِيمٌۭ مُّبِينٌۭ
+- 36:78 وَضَرَبَ لَنَا مَثَلًۭا وَنَسِىَ خَلْقَهُۥ ۖ قَالَ مَن يُحْىِ ٱلْعِظَٰمَ وَهِىَ رَمِيمٌۭ
+- 39:15 فَٱعْبُدُوا۟ مَا شِئْتُم مِّن دُونِهِۦ ۗ قُلْ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَا ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ
+- 39:62 ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍۢ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌۭ
+- 39:63 لَّهُۥ مَقَالِيدُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 39:64 قُلْ أَفَغَيْرَ ٱللَّهِ تَأْمُرُوٓنِّىٓ أَعْبُدُ أَيُّهَا ٱلْجَٰهِلُونَ
+- 39:65 وَلَقَدْ أُوحِىَ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ
+- 39:66 بَلِ ٱللَّهَ فَٱعْبُدْ وَكُن مِّنَ ٱلشَّٰكِرِينَ
+- 40:78 وَلَقَدْ أَرْسَلْنَا رُسُلًۭا مِّن قَبْلِكَ مِنْهُم مَّن قَصَصْنَا عَلَيْكَ وَمِنْهُم مَّن لَّمْ نَقْصُصْ عَلَيْكَ ۗ وَمَا كَانَ لِرَسُولٍ أَن يَأْتِىَ بِـَٔايَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ فَإِذَا جَآءَ أَمْرُ ٱللَّهِ قُضِىَ بِٱلْحَقِّ وَخَسِرَ هُنَالِكَ ٱلْمُبْطِلُونَ
+- 41:22 وَمَا كُنتُمْ تَسْتَتِرُونَ أَن يَشْهَدَ عَلَيْكُمْ سَمْعُكُمْ وَلَآ أَبْصَٰرُكُمْ وَلَا جُلُودُكُمْ وَلَٰكِن ظَنَنتُمْ أَنَّ ٱللَّهَ لَا يَعْلَمُ كَثِيرًۭا مِّمَّا تَعْمَلُونَ
+- 41:23 وَذَٰلِكُمْ ظَنُّكُمُ ٱلَّذِى ظَنَنتُم بِرَبِّكُمْ أَرْدَىٰكُمْ فَأَصْبَحْتُم مِّنَ ٱلْخَٰسِرِينَ
+- 41:25 ۞ وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍۢ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ
+- 42:45 وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَٰشِعِينَ مِنَ ٱلذُّلِّ يَنظُرُونَ مِن طَرْفٍ خَفِىٍّۢ ۗ وَقَالَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَآ إِنَّ ٱلظَّٰلِمِينَ فِى عَذَابٍۢ مُّقِيمٍۢ
+- 42:48 فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةًۭ فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌۭ
+- 43:15 وَجَعَلُوا۟ لَهُۥ مِنْ عِبَادِهِۦ جُزْءًا ۚ إِنَّ ٱلْإِنسَٰنَ لَكَفُورٌۭ مُّبِينٌ
+- 45:27 وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يَوْمَئِذٍۢ يَخْسَرُ ٱلْمُبْطِلُونَ
+- 46:15 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًۭا وَوَضَعَتْهُ كُرْهًۭا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةًۭ قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ
+- 46:17 وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّۢ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ ءَامِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ
+- 46:18 أُو۟لَٰٓئِكَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍۢ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ
+- 51:8 إِنَّكُمْ لَفِى قَوْلٍۢ مُّخْتَلِفٍۢ
+- 51:56 وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ
+- 53:24 أَمْ لِلْإِنسَٰنِ مَا تَمَنَّىٰ
+- 53:25 فَلِلَّهِ ٱلْءَاخِرَةُ وَٱلْأُولَىٰ
+- 55:8 أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ
+- 55:9 وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ
+- 59:16 كَمَثَلِ ٱلشَّيْطَٰنِ إِذْ قَالَ لِلْإِنسَٰنِ ٱكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌۭ مِّنكَ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ
+- 59:17 فَكَانَ عَٰقِبَتَهُمَآ أَنَّهُمَا فِى ٱلنَّارِ خَٰلِدَيْنِ فِيهَا ۚ وَذَٰلِكَ جَزَٰٓؤُا۟ ٱلظَّٰلِمِينَ
+- 63:9 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ
+- 63:10 وَأَنفِقُوا۟ مِن مَّا رَزَقْنَٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ
+- 65:8 وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَٰهَا حِسَابًۭا شَدِيدًۭا وَعَذَّبْنَٰهَا عَذَابًۭا نُّكْرًۭا
+- 65:9 فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَٰقِبَةُ أَمْرِهَا خُسْرًا
+- 70:19 ۞ إِنَّ ٱلْإِنسَٰنَ خُلِقَ هَلُوعًا
+- 70:20 إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًۭا
+- 70:21 وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا
+- 71:21 قَالَ نُوحٌۭ رَّبِّ إِنَّهُمْ عَصَوْنِى وَٱتَّبَعُوا۟ مَن لَّمْ يَزِدْهُ مَالُهُۥ وَوَلَدُهُۥٓ إِلَّا خَسَارًۭا
+- 75:3 أَيَحْسَبُ ٱلْإِنسَٰنُ أَلَّن نَّجْمَعَ عِظَامَهُۥ
+- 75:4 بَلَىٰ قَٰدِرِينَ عَلَىٰٓ أَن نُّسَوِّىَ بَنَانَهُۥ
+- 75:5 بَلْ يُرِيدُ ٱلْإِنسَٰنُ لِيَفْجُرَ أَمَامَهُۥ
+- 75:6 يَسْـَٔلُ أَيَّانَ يَوْمُ ٱلْقِيَٰمَةِ
+- 75:13 يُنَبَّؤُا۟ ٱلْإِنسَٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ
+- 75:14 بَلِ ٱلْإِنسَٰنُ عَلَىٰ نَفْسِهِۦ بَصِيرَةٌۭ
+- 75:15 وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ
+- 75:36 أَيَحْسَبُ ٱلْإِنسَٰنُ أَن يُتْرَكَ سُدًى
+- 75:37 أَلَمْ يَكُ نُطْفَةًۭ مِّن مَّنِىٍّۢ يُمْنَىٰ
+- 77:43 كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ
+- 77:44 إِنَّا كَذَٰلِكَ نَجْزِى ٱلْمُحْسِنِينَ
+- 79:12 قَالُوا۟ تِلْكَ إِذًۭا كَرَّةٌ خَاسِرَةٌۭ
+- 79:13 فَإِنَّمَا هِىَ زَجْرَةٌۭ وَٰحِدَةٌۭ
+- 79:35 يَوْمَ يَتَذَكَّرُ ٱلْإِنسَٰنُ مَا سَعَىٰ
+- 80:23 كَلَّا لَمَّا يَقْضِ مَآ أَمَرَهُۥ
+- 80:24 فَلْيَنظُرِ ٱلْإِنسَٰنُ إِلَىٰ طَعَامِهِۦٓ
+- 82:13 إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍۢ
+- 82:14 وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍۢ
+- 82:15 يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ
+- 83:2 ٱلَّذِينَ إِذَا ٱكْتَالُوا۟ عَلَى ٱلنَّاسِ يَسْتَوْفُونَ
+- 83:3 وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ
+- 83:6 يَوْمَ يَقُومُ ٱلنَّاسُ لِرَبِّ ٱلْعَٰلَمِينَ
+- 83:7 كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍۢ
+- 83:18 كَلَّآ إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ
+- 84:6 يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًۭا فَمُلَٰقِيهِ
+- 84:7 فَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِيَمِينِهِۦ
+- 88:25 إِنَّ إِلَيْنَآ إِيَابَهُمْ
+- 88:26 ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُم
+- 90:4 لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ
+- 90:17 ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ
+- 91:9 قَدْ أَفْلَحَ مَن زَكَّىٰهَا
+- 91:10 وَقَدْ خَابَ مَن دَسَّىٰهَا
+- 95:4 لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ
+- 95:5 ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ
+- 95:6 إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ
+- 96:6 كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ
+- 96:7 أَن رَّءَاهُ ٱسْتَغْنَىٰٓ
+- 99:6 يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ
+- 99:7 فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ
+- 99:8 وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ
+- 100:6 إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ
+- 100:7 وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٌۭ
+- 100:8 وَإِنَّهُۥ لِحُبِّ ٱلْخَيْرِ لَشَدِيدٌ
+- 102:1 أَلْهَىٰكُمُ ٱلتَّكَاثُرُ
+- 102:2 حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ
+- 104:2 ٱلَّذِى جَمَعَ مَالًۭا وَعَدَّدَهُۥ
+- 104:3 يَحْسَبُ أَنَّ مَالَهُۥٓ أَخْلَدَهُۥ
+- 104:4 كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ
+- 104:7 ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ
+- 104:8 إِنَّهَا عَلَيْهِم مُّؤْصَدَةٌۭ
+- 104:9 فِى عَمَدٍۢ مُّمَدَّدَةٍۭ
