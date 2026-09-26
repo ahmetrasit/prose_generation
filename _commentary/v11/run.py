@@ -10,6 +10,8 @@
   render  chapters: S_A.md = reading + "Kur'an'ı Kur'an'la" (ledger Surah/Quran/Fatiha, each ref with its ayah text)
           + "Kelimeler ve okuyuşlar" (ledger Dictionary/Readings)
   all     prep → write → check → render
+  chains  whole-surah pass (after all ayat): the surah text + every ledger → chains across ayat, a reading of the
+          whole surah, one note per ayah (added to each S_A.md as "Surenin bütününde")
 
 Outputs: _commentary/v11/out/sNNN/S_A/ (S_A.reading.tr.md, S_A.ledger.md, S_A.md, run.log.jsonl, check.txt).
 Usage: python3 _commentary/v11/run.py all 100:1
@@ -71,12 +73,23 @@ def write(ref: str) -> None:
                    V11 / "prompts" / "write.md")
     prompt = (f"Focus: {ref}. The evidence comes first (context.md, 01_dictionary.md, digest.md); the brief (write.md) "
               f"is last. Follow the brief exactly and return the ledger and the reading with their marker lines.")
+    final = opus(prompt, stdin, p["out"] / "run.log.jsonl")
+    (p["out"] / "final.txt").write_text(final, encoding="utf-8")
+    ledger, _, reading = final.partition("===== READING =====")
+    ledger = ledger.split("===== LEDGER =====", 1)[-1]
+    if len(reading.split()) < 300:
+        sys.exit(f"{ref}: no reading (see {p['out'] / 'final.txt'})")
+    (p["out"] / f"{p['sa']}.ledger.md").write_text(ledger.strip() + "\n", encoding="utf-8")
+    (p["out"] / f"{p['sa']}.reading.tr.md").write_text(reading.strip() + "\n", encoding="utf-8")
+
+
+def opus(prompt: str, stdin: str, log: Path) -> str:
+    """One Opus call (effort high, no tools, no MCP); every assistant text block, in order."""
     r = subprocess.run(["claude", "-p", "--model", "opus", "--effort", "high", "--tools", "", "--strict-mcp-config",
                         "--output-format", "stream-json", "--verbose", "--no-session-persistence",
                         "--system-prompt", SYSTEM],
                        input=prompt + "\n\n" + stdin, capture_output=True, text=True, cwd=REPO)
-    (p["out"] / "run.log.jsonl").write_text(r.stdout or json.dumps({"error": r.stderr[-3000:]}), encoding="utf-8")
-    # every assistant text block, in order (a long answer can span several messages)
+    log.write_text(r.stdout or json.dumps({"error": r.stderr[-3000:]}), encoding="utf-8")
     text = []
     for line in (r.stdout or "").splitlines():
         try:
@@ -85,14 +98,49 @@ def write(ref: str) -> None:
             continue
         if d.get("type") == "assistant":
             text += [b.get("text", "") for b in d["message"].get("content", []) if b.get("type") == "text"]
-    final = "\n".join(text)
-    (p["out"] / "final.txt").write_text(final, encoding="utf-8")
-    ledger, _, reading = final.partition("===== READING =====")
-    ledger = ledger.split("===== LEDGER =====", 1)[-1]
-    if len(reading.split()) < 300:
-        sys.exit(f"{ref}: no reading (see {p['out'] / 'final.txt'})")
-    (p["out"] / f"{p['sa']}.ledger.md").write_text(ledger.strip() + "\n", encoding="utf-8")
-    (p["out"] / f"{p['sa']}.reading.tr.md").write_text(reading.strip() + "\n", encoding="utf-8")
+    return "\n".join(text)
+
+
+def cost_of(log: Path) -> str:
+    for line in log.read_text(encoding="utf-8").splitlines():
+        if '"type":"result"' in line.replace(" ", ""):
+            d = json.loads(line)
+            u = d.get("usage", {})
+            return (f"${d.get('total_cost_usd', 0):.2f} (in {u.get('input_tokens', 0) + u.get('cache_creation_input_tokens', 0) + u.get('cache_read_input_tokens', 0):,} "
+                    f"out {u.get('output_tokens', 0):,})")
+    return "?"
+
+
+def chains(surah: int) -> str:
+    """Whole-surah pass: the surah text + every ayah ledger → chains across ayat, the surah's reading, per-ayah notes."""
+    refs = [r for r in quran() if r.startswith(f"{surah}:") and not r.endswith(":0")]
+    first = paths(refs[0])
+    out = V11 / "out" / f"s{surah:03d}" / "surah"
+    out.mkdir(parents=True, exist_ok=True)
+    ledgers = [paths(r)["out"] / f"{paths(r)['sa']}.ledger.md" for r in refs]
+    missing = [str(l) for l in ledgers if not l.exists()]
+    if missing:
+        sys.exit(f"missing ledgers: {missing}")
+    stdin = inline(first["work"] / "context.md", *ledgers, V11 / "prompts" / "surah.md")
+    final = opus(f"Surah {surah}. The evidence comes first (context.md, then the ledger of each ayah); the brief "
+                 f"(surah.md) is last. Follow it exactly and return the three parts with their marker lines.",
+                 stdin, out / "run.log.jsonl")
+    (out / "final.txt").write_text(final, encoding="utf-8")
+    a, _, rest = final.partition("===== SURAH =====")
+    b, _, c = rest.partition("===== AYAT =====")
+    (out / "chains.md").write_text(a.split("===== CHAINS =====", 1)[-1].strip() + "\n", encoding="utf-8")
+    (out / f"{surah}.surah.tr.md").write_text(b.strip() + "\n", encoding="utf-8")
+    (out / "ayat.md").write_text(c.strip() + "\n", encoding="utf-8")
+    v = subprocess.run([PY, str(V9 / "verify_ar.py"), str(out / f"{surah}.surah.tr.md"), str(first["pkg"]), "--fix"],
+                       capture_output=True, text=True, cwd=REPO).stdout
+    n = sum(1 for l in (out / "chains.md").read_text(encoding="utf-8").splitlines() if l.startswith("### "))
+    msg = (f"surah {surah}: {cost_of(out / 'run.log.jsonl')}; chains {n}; surah reading "
+           f"{len((out / f'{surah}.surah.tr.md').read_text(encoding='utf-8').split())} words; verify: "
+           f"{v.strip().splitlines()[-1] if v.strip() else '?'}")
+    (out / "check.txt").write_text(msg + "\n\n" + v, encoding="utf-8")
+    for r in refs:
+        render(r)
+    return msg
 
 
 def repair_tags(path: Path) -> int:
@@ -181,6 +229,11 @@ def render(ref: str) -> None:
            "Sure içinden ve Kur'an'ın geri kalanından bu ayeti açan yerler: her biri, ne iş gördüğüyle.", ""]
     doc += entries(("surah", "quran", "fatiha"), True)
     doc += ["", "## Kelimeler ve okuyuşlar", ""] + entries(("dictionary", "readings"), False)
+    notes = V11 / "out" / f"s{int(ref.split(':')[0]):03d}" / "surah" / "ayat.md"
+    if notes.exists():
+        mine = [l for l in notes.read_text(encoding="utf-8").splitlines() if re.match(rf"-\s*\**{re.escape(ref)}\b", l)]
+        if mine:
+            doc += ["", "## Surenin bütününde", ""] + [re.sub(rf"^-\s*\**{re.escape(ref)}\**:?\s*", "", m) for m in mine]
     (p["out"] / f"{p['sa']}.md").write_text("\n".join(doc) + "\n", encoding="utf-8")
 
 
@@ -199,10 +252,13 @@ def one(ref: str, step: str) -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("step", choices=("prep", "write", "check", "render", "all", "surah"))
+    ap.add_argument("step", choices=("prep", "write", "check", "render", "all", "surah", "chains"))
     ap.add_argument("ref", help="S:A, or a surah number with the step 'surah'")
     ap.add_argument("--parallel", type=int, default=6)
     a = ap.parse_args()
+    if a.step == "chains":
+        print(chains(int(a.ref)), flush=True)
+        return
     if a.step != "surah":
         print(one(a.ref, a.step), flush=True)
         return
