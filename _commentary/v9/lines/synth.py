@@ -6,6 +6,7 @@
   opus1  Claude Opus via `claude -p`, effort max, no tools, short system prompt, one call, same brief and inputs
   sol2   baseline: sol_pass.py plan → write (Sol, max) with the package in place of the backbone
   w10-opus-cold   baseline: the same prompt with context.md only (no package)
+  w10-opus-dict   baseline: context.md + the script dictionary (input/v2/…/01_dictionary.md), no Luna
   w10-sol / w10-luna / w10-opus   the v10 writer prompt (_commentary/v10/prompts/write.md) on the same package:
          prose only, no plan; Sol and Luna at max reasoning, Opus at effort high (max spent its whole output on
          thinking on this input size)
@@ -49,10 +50,16 @@ def run_w10(ref: str, arm: str) -> None:
     w = V9 / "lines" / "work" / sa
     out = w / "synth" / arm
     out.mkdir(parents=True, exist_ok=True)
-    cold = arm.endswith("-cold")
-    stdin = R.inline(W10, w / "context.md") if cold else R.inline(W10, w / "context.md", w / "package.md")
+    cold, dic = arm.endswith("-cold"), arm.endswith("-dict")
+    dictionary = V9 / "input" / "v2" / f"s{int(s):03d}" / sa / "01_dictionary.md"
+    stdin = (R.inline(W10, w / "context.md") if cold else
+             R.inline(W10, w / "context.md", dictionary) if dic else
+             R.inline(W10, w / "context.md", w / "package.md"))
     evidence = ("context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and your own "
                 "knowledge of Arabic and the Quran" if cold else
+                "context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and "
+                "01_dictionary.md (every attested branch of every root of the ayah's words, with the classical "
+                "dictionaries' source phrases)" if dic else
                 "context.md (the ayah, its words and anchor translation, the Fatiha, the whole surah) and package.md "
                 "(discovery results with internal ids; their own header explains them)")
     prompt = (f"Focus: {ref}. Follow the brief below (write.md) exactly. The evidence is {evidence}. Return only the "
@@ -138,7 +145,7 @@ def check(ref: str, arm: str) -> None:
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("ref")
-    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold"))
+    ap.add_argument("--arm", required=True, choices=("sol1", "sol56", "opus1", "w10-sol", "w10-luna", "w10-opus", "w10-opus-cold", "w10-opus-dict"))
     ap.add_argument("--check-only", action="store_true")
     a = ap.parse_args()
     if a.check_only:
