@@ -1,0 +1,285 @@
+# Quranic reach for 1:6 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+- word 2 · السِّرَاطَ (as-sirāṭa) · ibdāl · Sīn for ṣād — canonical phonetic substitution; emphatic→non-emphatic, semantic identical
+- word 2 · الصؗرَاطَ (aṣᶻ-ṣᶻirāṭa) · ibdāl · Intermediate ṣ/z sound (ishmām) — phonetic blend between ṣād and zāy; same lexeme
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-هدي root ه د ي (focus word ٱهْدِنَا: هَدَى V) — 308 occurrences in 268 ayat; same form 139, other forms 169
+- tier 1, same form (هَدَى V): 139 — common form, not listed
+- tier 2, other forms: مُهْتَدِى N form VIII 1; هَٰدِى N 1; هَادِي N 2; هَدِيَّة N 2; مُّهْتَد N form VIII 3; هَدْي N 6; أَهْدَىٰ N 7; هَاد N 7; مُّهْتَدُون N form VIII 17; ٱهْتَدَىٰ V form VIII 40; هُدًى N 83
+- rare form مُهْتَدِى (N form VIII):
+  - 7:178 مُهْتَدِى
+- rare form هَٰدِى (N):
+  - 27:81 هَٰدِى
+- rare form هَادِي (N):
+  - 7:186 هَادِىَ
+  - 25:31 هَادِيًا
+- rare form هَدِيَّة (N):
+  - 27:35 هَدِيَّةٍ
+  - 27:36 هَدِيَّتِ
+- rare form مُّهْتَد (N form VIII):
+  - 17:97 مُهْتَدِ
+  - 18:17 مُهْتَدِ
+  - 57:26 مُّهْتَدٍ
+- rare form هَدْي (N):
+  - 2:196 هَدْىِ
+  - 2:196 هَدْىُ
+  - 5:2 هَدْىَ
+  - 5:95 هَدْيًۢا
+  - 5:97 هَدْىَ
+  - 48:25 هَدْىَ
+- rare form أَهْدَىٰ (N):
+  - 4:51 أَهْدَىٰ
+  - 6:157 أَهْدَىٰ
+  - 17:84 أَهْدَىٰ
+  - 28:49 أَهْدَىٰ
+  - 35:42 أَهْدَىٰ
+  - 43:24 أَهْدَىٰ
+  - 67:22 أَهْدَىٰٓ
+- rare form هَاد (N):
+  - 13:7 هَادٍ
+  - 13:33 هَادٍ
+  - 22:54 هَادِ
+  - 30:53 هَٰدِ
+  - 39:23 هَادٍ
+  - 39:36 هَادٍ
+  - 40:33 هَادٍ
+- roots co-occurring across the listed ayat: ء ل ه (33), ء م ن (11), ق و ل (10), ع ل م (10), ض ل ل (10), ح ر م (8), ق و م (7), ك ف ر (7), ر ب ب (7), ك ل ل (6), ء ي ي (6), ك و ن (6), ء ت ي (5), ك ت ب (5)
+
+### U-صرط root ص ر ط (focus word ٱلصِّرَٰطَ: صِرَٰط N) — 45 occurrences in 45 ayat; same form 45, other forms 0
+- tier 1, same form (صِرَٰط N): 45 — common form, not listed
+
+### U-قوم root ق و م (focus word ٱلْمُسْتَقِيمَ: مُّسْتَقِيم ADJ form X) — 643 occurrences in 597 ayat; same form 14, other forms 629
+- tier 1, same form (مُّسْتَقِيم ADJ form X): 14
+  - 1:6 ◀ focus مُسْتَقِيمَ
+  - 2:142 مُّسْتَقِيمٍ
+  - 2:213 مُّسْتَقِيمٍ
+  - 3:51 مُّسْتَقِيمٌ
+  - 3:101 مُّسْتَقِيمٍ
+  - 4:68 مُّسْتَقِيمًا
+  - 4:175 مُّسْتَقِيمًا
+  - 5:16 مُّسْتَقِيمٍ
+  - 6:39 مُّسْتَقِيمٍ
+  - 6:87 مُّسْتَقِيمٍ
+  - 6:161 مُّسْتَقِيمٍ
+  - 7:16 مُسْتَقِيمَ
+  - 37:118 مُسْتَقِيمَ
+  - 67:22 مُّسْتَقِيمٍ
+- tier 2, other forms: قَآئِمَة ADJ 1; قِيَم ADJ 1; إِقَامَت N form IV 1; قَوَام N 1; مُقَامَة N form IV 1; تَقْوِيم N form II 1; قَيِّمَة ADJ 1; قَيِّمَة N 1; مُّقِيم ADJ form IV 2; إِقَام N form IV 2; قَيُّوم ADJ 3; قَوَّٰمِين N 3; مُقَام N form IV 3; أَقْوَم N 4; قَآئِمَة N 4; قَيِّم ADJ 5; مُّقِيم N form IV 8; ٱسْتَقَٰمُ V form X 10; مَقَام N 14; قَآئِم N 17; مُّسْتَقِيم N form X 23; قَامَ V 31; أَقَامَ V form IV 53; قِيَٰمَة N 70; قَوْم N 369
+- rare form قَآئِمَة (ADJ):
+  - 3:113 قَآئِمَةٌ
+- rare form قِيَم (ADJ):
+  - 6:161 قِيَمًا
+- rare form إِقَامَت (N form IV):
+  - 16:80 إِقَامَتِ
+- rare form قَوَام (N):
+  - 25:67 قَوَامًا
+- rare form مُقَامَة (N form IV):
+  - 35:35 مُقَامَةِ
+- rare form تَقْوِيم (N form II):
+  - 95:4 تَقْوِيمٍ
+- rare form قَيِّمَة (ADJ):
+  - 98:3 قَيِّمَةٌ
+- rare form قَيِّمَة (N):
+  - 98:5 قَيِّمَةِ
+- rare form مُّقِيم (ADJ form IV):
+  - 5:37 مُّقِيمٌ
+  - 42:45 مُّقِيمٍ
+- rare form إِقَام (N form IV):
+  - 21:73 إِقَامَ
+  - 24:37 إِقَامِ
+- rare form قَيُّوم (ADJ):
+  - 2:255 قَيُّومُ
+  - 3:2 قَيُّومُ
+  - 20:111 قَيُّومِ
+- rare form قَوَّٰمِين (N):
+  - 4:34 قَوَّٰمُونَ
+  - 4:135 قَوَّٰمِينَ
+  - 5:8 قَوَّٰمِينَ
+- rare form مُقَام (N form IV):
+  - 25:66 مُقَامًا
+  - 25:76 مُقَامًا
+  - 33:13 مُقَامَ
+- rare form أَقْوَم (N):
+  - 2:282 أَقْوَمُ
+  - 4:46 أَقْوَمَ
+  - 17:9 أَقْوَمُ
+  - 73:6 أَقْوَمُ
+- rare form قَآئِمَة (N):
+  - 11:71 قَآئِمَةٌ
+  - 18:36 قَآئِمَةً
+  - 41:50 قَآئِمَةً
+  - 59:5 قَآئِمَةً
+- rare form قَيِّم (ADJ):
+  - 9:36 قَيِّمُ
+  - 12:40 قَيِّمُ
+  - 18:2 قَيِّمًا
+  - 30:30 قَيِّمُ
+  - 30:43 قَيِّمِ
+- roots co-occurring across the listed ayat: ء ل ه (43), ه د ي (14), ك و ن (14), ص ر ط (13), ك ت ب (13), ق و ل (11), د ي ن (11), ء م ن (9), ش ه د (9), ع ل م (8), ش ي ء (8), ب ي ن (7), ر ب ب (6), س م و (6)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+
+### Formula group (ص ر ط + ق و م + ه د ي): these ayat share the roots with the focus
+- 37:118 — Directly repeats guidance to the straight path and adds a guided communal instance.
+- 24:46 — Joins clarifying signs with divine guidance to a straight path.
+- 4:68 — Presents guidance to a straight path as the consequence of responsive commitment.
+- 67:22 — Embodies the contrast between disoriented movement and upright walking on a straight path.
+- 16:121 — Presents chosen, grateful devotion as joined to guidance to a straight path.
+- 10:25 — Sets the straight path within a call toward peace.
+- 6:87 — Shows guidance to a straight path spanning a varied collective.
+- 5:16 — Connects following divine good pleasure, emergence from darkness, and guidance to a straight path.
+- 6:161 — Expands the straight path into an upright religious orientation distinct from association.
+- 42:52 — Links revealed light, mediated guidance, and direct calling to a straight path.
+- 4:175 — Joins holding fast, mercy and grace with being guided on a straight path.
+- 3:101 — Links holding fast to God with having been guided to a straight path.
+- 48:2 — Places guidance to a straight path amid forgiveness and completed favor.
+- 2:213 — Shows divine guidance resolving human disagreement through revealed truth and a straight path.
+- 2:142 — Adds changed orientation and universal divine direction to the straight-path theme.
+- 22:54 — Links recognition of truth and believing hearts with divine guidance to a straight path.
+- 48:20 — Places guidance to a straight path within protected communal experience.
+- 15:41 — Restates the straight path as a fixed divine route, sharpening its protected authority.
+- 1:5 — Supplies the dependence and request-for-help posture immediately preceding the petition.
+- 34:6 — Links recognized truth with guidance toward a divinely qualified path.
+- 7:16 — Provides contrary evidence: the straight path is a site of obstructing opposition.
+- 1:7 — Immediately specifies the path through parallel and contrary communal outcomes.
+- 92:12 — Locates guidance under divine responsibility, supporting its given rather than self-made character.
+- 38:22 — Uses a plea for guidance to the middle of the path within a judgment dispute.
+- 36:66 — Provides a contrary boundary where pursuit of the path is impaired by loss of sight.
+- 1:2 — Adds the sustaining lordship invoked by the surrounding petition.
+- 36:4 — Directly reaffirms the straight path but adds little beyond earlier direct instances.
+- 1:3 — Reinforces the mercy framing already present in the opening prayer.
+- 93:7 — Pairs being astray with being guided, and preserves the gift-like guidance reading.
+- 23:74 — Provides the contrary condition of turning aside from the path.
+- 23:73 — Directly portrays the addressee as calling others to a straight path.
+- 22:24 — Pairs guidance in speech with guidance to a praised path.
+- 87:3 — Adds a general pairing of measured ordering and guidance, with auxiliary gift evidence.
+- 6:126 — Names the straight path as the Lord's and joins it to differentiated signs.
+- 6:153 — Makes the one straight path an imperative and contrasts it with dispersing paths.
+- 27:63 — Adds guidance through terrestrial and maritime darkness, with advance signs of mercy.
+- 19:43 — Frames the even path as guidance offered through following a knowledgeable guide.
+- 28:22 — Shows a direct request for guidance to the even way in concrete travel.
+- 36:61 — Explicitly identifies worship with the straight path.
+- 43:43 — Joins holding fast to revelation with being on a straight path.
+- 14:1 — Connects revealed scripture, movement from darkness to light, and a divinely qualified path.
+- 30:43 — Contributes turning toward upright religion before an irreversible division.
+- 2:38 — Directly makes following divine guidance the condition for freedom from fear and grief.
+- 10:35 — Frames guidance as leading to truth and challenges rival claims to guide.
+- 11:56 — Directly describes the Lord as upon a straight path.
+- 12:108 — Adds a public call on a defined way, grounded in clear perception.
+- 13:7 — Adds the universal claim that every people has a guide.
+- 14:5 — Parallels movement from darkness to light with entry into the divinely qualified path.
+- 14:12 — Adds gratitude for having been guided in plural ways amid reliance on God.
+- 16:9 — Directly contrasts the straight direction of the way with its deviation.
+- 17:9 — Presents the Quran as guiding toward what is most upright.
+- 18:24 — Provides a prayer for guidance toward closer rectitude.
+- 19:36 — Explicitly identifies worship of the shared Lord with the straight path.
+- 20:123 — Directly makes following divine guidance the safeguard against going astray.
+- 21:73 — Adds leaders who guide by divine command and translate guidance into enacted practice.
+- 22:16 — Directly states divine guidance to a straight path alongside clarifying signs.
+- 28:56 — Distinguishes human desire to guide from God's determining guidance.
+- 32:24 — Adds leaders who guide by divine command through patience and certainty.
+- 40:38 — Offers an explicit invitation to follow a guide toward the way of rectitude.
+- 43:64 — Explicitly identifies worship of the shared Lord with the straight path.
+- 46:30 — Directly joins guidance to truth with guidance to an upright way.
+- 6:127 — Direct straight-path petition supplies the route dimension preceding the settled endpoint.
+- 11:112 — The foundational request for the straight path directly frames steadfast orientation.
+- 14:27 — The foundational request for the straight path anchors the guidance side of 14:27.
+- 16:76 — Direct invocation of the straight path supplies the focus's positive destination.
+- 31:19 — The prayer for a straight path supplies the central directional image underlying purposeful, balanced walking.
+- 43:10 — Dosdoğru yola hidayet dileği, 43:10'un yolların hidayet için verilmesi ifadesine doğrudan karşılık verir.
+- 68:7 — The request for the straight path supplies the foundational route against which departure is named.
+- 81:26 — The straight path gives the clearest positive counterpart to the question of direction.
+- 81:28 — The foundational request for guidance to the straight path is indispensable direct-path evidence.
+- 1:4 — Adds the accountability horizon within the opening prayer that contains the petition.
+- 26:182 — Contributes the uprightness-and-measure register to the path's reliability.
+- 21:112 — Adds a parallel appeal for true judgment and merciful help.
+- 1:1 — Adds the merciful divine address that frames the request.
+- 90:10 — Sets guidance amid differentiated ways, adding an alternative-route frame.
+- 20:135 — Contrasts those associated with an even path and those who are guided.
+- 4:34 — Contributes a secondary sustaining-and-protective order relevant to uprightness.
+- 17:35 — Contributes upright measure as a secondary account of rectitude.
+- 5:8 — Contributes sustained just balance as secondary evidence for uprightness.
+- 37:23 — Provides a contrary route with a destructive destination, marking a boundary rather than support.
+- 39:36 — Adds the contrary case in which no guide remains after divine misguidance.
+- 64:6 — Adds the contested human-messenger dimension of guidance as leading.
+- 98:3 — Contributes a secondary reading of upright writings as sustaining order.
+- 6:39 — Contrasts darkness and impaired reception with being set on a straight path.
+- 27:3 — Contributes the sustained establishment of worship as secondary uprightness evidence.
+- 27:35 — Provides secondary gift evidence for the non-earned, relational side of guidance.
+- 53:30 — Contrasts straying from the divine way with being guided.
+- 3:51 — Identifies worship of the shared Lord with the straight path.
+- 93:11 — No focused guidance or path contribution is established.
+- 29:69 — Adds guidance to multiple ways alongside divine accompaniment of those doing good.
+- 78:39 — Only indirectly suggests a chosen return toward the Lord; no focused route link is established.
+- 39:37 — Adds the stability of divine guidance against any misdirecting rival.
+- 49:17 — Frames guidance to faith as divine favor rather than a claim made by recipients.
+- 8:3 — Contributes a secondary sustaining order joining established worship and giving.
+- 4:5 — Provides secondary evidence for what sustains people and keeps a shared order standing.
+- 31:3 — Adds mercy alongside guidance, reinforcing the petition's gift-like framing.
+- 3:2 — Contributes the sustaining divine attribute relevant to the path's uprightness.
+- 2:177 — Supplies a broad practice-shaped account of righteousness beyond mere orientation.
+- 14:40 — Contributes enduring establishment of worship across generations.
+- 65:2 — Contributes a secondary public order of just, maintained testimony.
+- 2:120 — States that guidance belongs to God, reinforcing the petition's dependence structure.
+- 3:73 — Reasserts that true guidance is God's, with a contrary dispute context.
+- 5:77 — Provides contrary evidence through straying from the even way.
+- 6:71 — Contrasts divine guidance with other calls and binds it to yielding to the Lord.
+- 6:88 — Presents guidance as divine selection rather than a self-generated attainment.
+- 6:90 — Makes prophetic guidance an object of following.
+- 7:146 — Contrasts refusing the way of rectitude with taking the way of error.
+- 7:178 — Contrasts divine guidance with loss, clarifying the source of being guided.
+- 10:9 — Adds guidance through faith toward a blessed destination.
+- 16:36 — Adds the divided outcomes of those divinely guided and those confirmed in error.
+- 17:97 — Restates that divine guidance cannot be overturned and contrasts those led astray.
+- 18:17 — Links divine guidance with right direction and lack of guidance with no directing protector.
+- 19:76 — Adds an increasing quality of guidance for those already guided.
+- 20:50 — Pairs bestowed formation with guidance, giving a broad ordering frame.
+- 20:82 — Places guidance after return, faith, and righteous action.
+- 24:35 — Adds guidance to divine light, a parallel illumination register.
+- 25:57 — Frames a chosen route toward the Lord as an open response to the message.
+- 35:8 — Contrasts divinely guided and misled perception, preserving both outcomes.
+- 39:18 — Adds receptive discernment as a mark of those whom God has guided.
+- 39:23 — Links revealed discourse, reverent response, and divine guidance.
+- 41:6 — Pairs turning directly toward God with an imperative to be upright.
+- 41:17 — Provides the contrary choice of blindness over guidance after guidance is offered.
+- 47:17 — Adds increased guidance and God-consciousness for those already guided.
+- 72:16 — Uses remaining upright upon the way as a conditional, sustained orientation.
+- 2:186 — A direct plea for guidance closely complements 2:186's hoped-for rashad.
+- 2:286 — The request for guidance complements the closing turn to God for support.
+- 7:43 — The request for guidance supplies the foundational orientation later acknowledged in the focus.
+- 11:19 — Direct counterpoint: asking for the straight path.
+- 15:87 — Fatiha bütünündeki bu ayet, yedili bütünün yol istemi etrafındaki bağını korur.
+- 43:57 — The prayer for the straight path gives the positive orientation opposed to the focus's turning away.
+- 73:6 — The straight-path invocation supports the sustaining-route reading, now partly redundant.
+- 73:20 — Offers a maintained, upright path as a secondary parallel to established communal practice.
+- 98:5 — Supports qayyima through the maintained and sustaining straight path.
+- 109:2 — No focused contribution beyond distant channel-level associations.
+- 109:4 — No focused contribution beyond distant channel-level associations.
+- 109:5 — No focused contribution beyond distant channel-level associations.
+- 74:5 — No focused guidance or path contribution is established.
+- 50:1 — No focused guidance or path contribution is established.
+- 53:23 — Offers only a broad contrast between conjecture and guidance.
+- 78:36 — No focused guidance or path contribution is established.
+- 2:196 — Offers only secondary evidence through the distinct sacrificial use of the same root.
+- 14:28 — Offers a contrary secondary image of a people led from divine favor into ruin.
+- 27:2 — Generic guidance adds little after the earlier direct path instances.
+- 5:68 — Offers only secondary evidence about sustaining revealed scripture.
+- 62:5 — Provides a secondary failure to carry what was entrusted, without a focused route link.
+- 86:3 — No focused guidance or path contribution is established.
+- 6:154 — Adds generic guidance and mercy but no distinct path development.
+- 57:10 — Offers only a distant secondary connection through spending in God's way.
+- 2:255 — Only broadly relates through guidance sought from the one God.
+- 4:36 — The request for the straight path gives broad devotional orientation but no focused care or anti-association detail.
+- 15:24 — Directionality is present, but it does not establish earlier/later groups or divine knowing.
+- 44:26 — The straight path offers only an abstract parallel to a sustaining order.
+- 46:13 — The request for the straight path supplies a foundational but highly general orientation.
+- 55:9 — Straightness is a broad orientation parallel without measure or allocation detail.
+- 62:11 — Only a remote parallel for a sustaining, upright direction.
+- 70:33 — The upheld straight path is a remote maintenance parallel.
+- 89:27 — General guidance petition is too broad to add much here.

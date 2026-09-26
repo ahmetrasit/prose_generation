@@ -1,0 +1,247 @@
+# Quranic reach for 1:2 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-حمد root ح م د (focus word ٱلْحَمْدُ: حَمْد N) — 62 occurrences in 61 ayat; same form 42, other forms 20
+- tier 1, same form (حَمْد N): 42 — common form, not listed
+- tier 2, other forms: يُحْمَدُ V 1; حَٰمِدُون N 1; حَمِيد N 1; مَّحْمُود N 1; حَمِيد ADJ 16
+- rare form يُحْمَدُ (V):
+  - 3:188 يُحْمَدُ
+- rare form حَٰمِدُون (N):
+  - 9:112 حَٰمِدُونَ
+- rare form حَمِيد (N):
+  - 11:73 حَمِيدٌ
+- rare form مَّحْمُود (N):
+  - 17:79 مَّحْمُودًا
+- roots co-occurring across the listed ayat: ء ل ه (3), ء م ر (2), ح س ب (2), ع ذ ب (2)
+
+### U-علم root ع ل م (focus word ٱلْعَٰلَمِينَ: عَٰلَمِين N) — 830 occurrences in 728 ayat; same form 73, other forms 757
+- tier 1, same form (عَٰلَمِين N): 73 — common form, not listed
+- tier 2, other forms: يَتَعَلَّمُ V form V 1; عَلَٰمَٰت N 1; مُعَلَّم N form II 1; مَّعْلُومَٰت ADJ 2; عَلَّٰم N 2; عَلَّٰم ADJ 2; أَعْلَٰم N 2; مَّعْلُوم ADJ 2; مَّعْلُوم N 9; أَعْلَم ADJ 16; عَٰلِم N 18; أَعْلَم N 28; عَلَّمَ V form II 40; عَلِيم N 62; عَلِيم ADJ 101; عِلْم N 103; عَلِمَ V 367
+- rare form يَتَعَلَّمُ (V form V):
+  - 2:102 يَتَعَلَّمُ
+- rare form عَلَٰمَٰت (N):
+  - 16:16 عَلَٰمَٰتٍ
+- rare form مُعَلَّم (N form II):
+  - 44:14 مُعَلَّمٌ
+- rare form مَّعْلُومَٰت (ADJ):
+  - 2:197 مَّعْلُومَٰتٌ
+  - 22:28 مَّعْلُومَٰتٍ
+- rare form عَلَّٰم (N):
+  - 5:109 عَلَّٰمُ
+  - 5:116 عَلَّٰمُ
+- rare form عَلَّٰم (ADJ):
+  - 9:78 عَلَّٰمُ
+  - 34:48 عَلَّٰمُ
+- rare form أَعْلَٰم (N):
+  - 42:32 أَعْلَٰمِ
+  - 55:24 أَعْلَٰمِ
+- rare form مَّعْلُوم (ADJ):
+  - 70:24 مَّعْلُومٌ
+  - 77:22 مَّعْلُومٍ
+- rare form مَّعْلُوم (N):
+  - 15:4 مَّعْلُومٌ
+  - 15:21 مَّعْلُومٍ
+  - 15:38 مَعْلُومِ
+  - 26:38 مَّعْلُومٍ
+  - 26:155 مَّعْلُومٍ
+  - 37:41 مَّعْلُومٌ
+  - 37:164 مَّعْلُومٌ
+  - 38:81 مَعْلُومِ
+  - 56:50 مَّعْلُومٍ
+- roots co-occurring across the listed ayat: ق و ل (11), ء ل ه (9), ي و م (7), و ق ت (4), غ ي ب (4), ح ق ق (3), ح ج ج (3), ك و ن (3), ن ف س (3), ج م ع (3), ك ف ر (3), ر ز ق (2), ن ز ل (2), ق د ر (2)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+
+### Formula group (ء ل ه + ر ب ب + ع ل م): these ayat share the roots with the focus
+- 28:30 — Provides a direct divine self-identification as the Lord of worlds.
+- 6:162 — Extends the Lord-of-worlds relation over worship, life, and death.
+- 27:44 — Places submission to the Lord of worlds after self-recognition.
+- 6:71 — Connects submission to the Lord of worlds with guidance versus reversal.
+- 5:28 — Adds fear of God within an explicit Lord-of-worlds confession.
+- 27:8 — Joins glorification of God with the Lord-of-worlds formula.
+- 81:29 — Links human willing to the will of the Lord of worlds.
+- 3:79 — Names God as Lord of all worlds, the lordship toward which the rabbaniyyun are oriented.
+- 74:31 — Names God as Lord of all worlds, supporting the scope of the Lord whose forces are beyond human knowledge.
+
+### Formula group (ء ل ه + ح م د + ر ب ب + ع ل م): these ayat share the roots with the focus
+- 37:182 — Exact wording; frames praise as the closing assessment of a completed divine sequence.
+- 6:45 — Places the exact praise after the removal of wrongdoing, giving it a consequential setting.
+- 45:36 — Expands praise and lordship across heaven, earth, and all worlds.
+- 10:10 — Reuses the exact praise as a terminal communal utterance in a secure setting.
+- 39:75 — Places the exact praise in a judgment scene with ordered praise.
+- 40:65 — Joins the exact praise to exclusive devotion and invocation.
+
+### Formula group (ء ل ه + ح م د + ر ب ب): these ayat share the roots with the focus
+- 14:39 — Shows praise as a response to a received gift and heard supplication.
+- 35:34 — Shows praise after grief is removed, with a responsive Lord relation.
+- 27:93 — Connects praise with recognition of signs and the Lord's awareness of deeds.
+- 6:1 — Links praise to creation and warns against treating the Lord as an equal.
+- 7:43 — Combines praise, guidance, prophetic truth, and a received garden outcome.
+
+### Formula group (ء ل ه + ح م د + ع ل م): these ayat share the roots with the focus
+- 31:25 — Moves from acknowledging creation to praise and consequential knowledge.
+- 27:15 — Shows received knowledge returning as praise rather than self-exaltation.
+- 39:29 — Uses competing masters to clarify why praise belongs to God alone.
+- 16:75 — Contrasts incapacity and provision before directing praise to God.
+- 19:65 — Adds worshipful endurance and incomparability to the Lord relation.
+- 1:3 — Immediately qualifies the Lord named in 1:2 through sustained mercy.
+- 1:1 — Supplies the opening divine naming and mercy frame directly before 1:2.
+- 1:4 — Directly continues the description of divine rule into final accountability.
+- 106:3 — Connects the Lord title with directed worship and a concrete communal locus.
+- 18:1 — Associates praise with the gift of a protected, unbent book.
+- 1:7 — Completes the immediate orientation and contrary-outcome context of the opening.
+- 1:5 — Directly develops the response of worship and dependence to the named Lord.
+- 1:6 — Directly continues the opening with a request for guided direction.
+- 26:77 — Contrasts hostile objects with the exclusive Lord of worlds.
+- 26:98 — Defines error through falsely leveling others with the Lord of worlds.
+- 106:4 — Supplies the provision and security context for the preceding worship command.
+- 27:59 — Sets praise beside the contrast with association of others.
+- 100:6 — Supplies a contrary reading: ingratitude breaks the relation to one's Lord.
+- 94:8 — Directs desire toward the Lord after a sequence of relief and formation.
+- 39:74 — Shows praise as the response to a fulfilled promise and inheritance.
+- 17:111 — Clarifies praise through the removal of offspring, partnership, and dependent aid.
+- 93:11 — Makes the Lord's benefaction the explicit subject of public mention.
+- 93:3 — Makes non-abandonment a concrete expression of continuing lordly care.
+- 29:63 — Links praise to acknowledged life-giving provision and incomplete reasoning.
+- 2:131 — Directly pairs submission with the Lord of worlds.
+- 32:2 — Directly connects the book's descent with the Lord of worlds.
+- 83:6 — Places all people before the Lord of worlds in final standing.
+- 28:70 — Praise belongs to God as Lord of all worlds, establishing the focus's praise in universal sovereignty.
+- 36:25 — The Lord of all worlds supplies the universal lordship invoked by the speaker's "your Lord."
+- 53:49 — Lord-of-the-worlds supplies the broadest direct frame for calling the named star a creature's Lord.
+- 79:19 — Its Lordship language supplies the broad frame of sustaining and governing authority to which 79:19 directs.
+- 87:1 — Praise to the Lord of all realms supplies a foundational reading of lordship as comprehensive care.
+- 110:3 — Supplies the foundational praise-to-God-as-Lord formulation underlying the command's praise.
+- 114:1 — Rabliği aşamalı bakım, yön buldurma, yönetim ve bağlılık ilişkisi olarak açar.
+- 7:61 — Connects Lord-of-worlds language with prophetic commission and authority.
+- 18:27 — Links the Lord relation to enduring revealed speech and reliance.
+- 20:49 — Makes lordship an explicit question of authority and identification.
+- 26:192 — Connects the Lord of worlds to the source of revelation.
+- 56:80 — Reinforces revelation as coming from the Lord of worlds.
+- 69:43 — Repeats the revelation-source relation of the Lord of worlds.
+- 92:20 — Connects seeking the highest Lord with purified action and motive.
+- 32:15 — Joins praise of the Lord with humility and embodied submission.
+- 95:8 — Suggests judgment authority but has no close focus route.
+- 30:18 — Adds a broad praise setting but little beyond earlier praise cards.
+- 44:20 — Adds a refuge dimension to the shared Lord relation.
+- 34:1 — Extends praise across heaven, earth, and the later life.
+- 26:23 — Makes the Lord-of-worlds title the subject of a defining challenge.
+- 100:11 — Adds the Lord's informed awareness of the inward response to benefaction.
+- 23:28 — Shows praise as the response to rescue from a wrongful group.
+- 109:3 — Repeats the worship boundary without adding a new focus relation.
+- 64:1 — Associates praise with exclusive dominion and universal capacity.
+- 78:36 — Presents the Lord as giver within a completed recompense setting.
+- 3:188 — Supplies a boundary case between deserved praise and false acclaim.
+- 68:2 — Presents the Lord's favor as preserving discernment against accusation.
+- 26:48 — Names a specific prophetic Lord relation already developed elsewhere.
+- 73:9 — Joins exclusive deity, cosmic lordship, and taking God as guardian.
+- 56:74 — Calls for magnifying the Lord after signs of dependent provision.
+- 93:5 — Adds a future giving phase to the continuing care relation.
+- 35:1 — Grounds praise in creation and the ordered dispatch of messengers.
+- 7:122 — Repeats the specific Moses-and-Haron Lord identification.
+- 69:52 — Calls for magnifying the great Lord after revelation and judgment.
+- 26:47 — Shows belief in the Lord of worlds as recognition after a failed rival explanation.
+- 37:5 — Expands lordship across heavens, earth, their interval, and the eastward horizons.
+- 15:98 — Joins praise of the Lord with glorification and prostration under pressure.
+- 37:4 — Supplies exclusive divine unity as a boundary for the Lord-of-worlds claim.
+- 23:117 — Rejects rival deities and places final accounting before one's Lord.
+- 79:44 — Places the final endpoint and its governance with the Lord.
+- 23:72 — Connects the Lord's provision with a message independent of human payment.
+- 7:67 — Reinforces prophetic commission from the Lord of worlds.
+- 7:104 — Adds Moses' explicit commission from the Lord of worlds.
+- 26:16 — Adds a joint prophetic mission from the Lord of worlds.
+- 41:9 — Links the Lord-of-worlds title with creation of the earth.
+- 43:46 — Reinforces Moses' mission from the Lord of worlds.
+- 2:139 — Universal Lordship supports the refusal to restrict God to one party.
+- 3:51 — Rabbin evrenselliği, 3:51'deki ortak Rablik zeminini genişletir.
+- 4:131 — Praise of Allah as Lord of all worlds supports the hamid conclusion at a broad level.
+- 7:125 — V12 grounds the universal Rabb title, but remains general compared with direct narrative evidence.
+- 9:31 — The title Rabb supplies a basic f01 frame for devotion and authority.
+- 14:8 — Universal hamd supplies the broad praise pole of hamid, without the kufr contrast.
+- 15:87 — Fatiha bütünündeki bu ayet, yedili tekrar rotasının ilk iç bağını verir; tek başına gönderimi belirlemez.
+- 23:98 — The Lord of all worlds establishes the sustaining sovereign to whom the focus directs its personal request.
+- 31:26 — Praise to the Lord of all worlds gives a concise universal frame for al-Hamid.
+- 37:87 — It supplies the core positive designation, praise of Allah as Lord of all worlds, though the formula is already well represented.
+- 38:66 — Lordship of all worlds supplies the broadest domain for the focus verse's cosmic Lordship.
+- 39:31 — Calling God Lord of all worlds establishes the comprehensive lordship before which the focus places all parties.
+- 43:14 — Lord of all worlds gives the title in the focus its universal scope.
+- 52:48 — States praise directed to the Lord of all worlds.
+- 53:42 — Supplies the broad nurturing and governing scope of Rabb, not a distinct endpoint.
+- 55:17 — Provides the broad Lord-of-worlds frame, though it is less specific than the horizon cards.
+- 55:27 — Generic رب العالمين supports the رب title but does not specify وجه or بقاء.
+- 55:32 — Universal lordship supplies a broad source-and-care frame, but not the focus's local challenge.
+- 55:34 — Exact-route reading supplies governing care and obligation as a background for the address to both groups.
+- 55:78 — Rabb and praise support care and authority, though the evidence is now redundant.
+- 74:3 — Rabb al-alamin gives the foundational, universal scope of the title in 74:3.
+- 74:7 — Broad Lordship framing supports the addressee's Lord-directed posture, indirectly.
+- 78:37 — Rabb of all worlds supports the comprehensive lordship named in 78:37.
+- 78:39 — Provides broad Lordship context for the destination named in the focus.
+- 79:24 — Names Allah Rabb al-alamin, a foundational counterpoint to Pharaoh's claimed lordship over an audience.
+- 83:15 — The title رب العالمين supplies a broad authority frame already narrowed by earlier cards.
+- 85:12 — Universal Lordship establishes authority, though it is more general than the judgment context.
+- 85:15 — Praise of the universal Lord broadly supports the attribute frame.
+- 89:22 — Supplies the broad Lordship frame behind the possessive title in 89:22.
+- 96:1 — Positive F01/F03/F04 routes give a compact Rabb frame, largely general after earlier anchors.
+- 96:3 — The Lord of all realms supplies a foundational nurture and allegiance frame.
+- 96:4 — Positive route supports lordship as preserving distinctions and enabling orientation.
+- 99:5 — يثبت ربوبية الله للعالمين على وجه عام.
+- 14:7 — Offers a conditional gratitude-and-response pattern, but only indirectly.
+- 18:50 — Adds an obedience-versus-rebellion setting without sharpening 1:2 itself.
+- 8:53 — Offers only channel-level resonance with benefaction and change.
+- 83:11 — Does not materially illuminate praise, lordship, or worlds in 1:2.
+- 68:52 — The worlds term contributes only a broad, indirect scope.
+- 109:6 — Provides a boundary of distinct worship, only indirectly related to 1:2.
+- 109:2 — Adds a worship boundary but is less specific than earlier related cards.
+- 53:5 — Offers recognition through teaching, without a close link to 1:2.
+- 109:4 — Repeats the worship boundary without adding a new focus relation.
+- 109:5 — Repeats the worship boundary without adding a new focus relation.
+- 37:41 — The allotted provision has only an indirect focus relation.
+- 78:4 — Offers future recognition but little direct connection to 1:2.
+- 92:19 — Provides a non-transactional benefaction context only indirectly.
+- 37:164 — The ordered stations add only a distant relation to the focus.
+- 27:42 — Adds cautious recognition but no close praise or lordship relation.
+- 2:5 — Links guidance from the Lord to success, but remains indirect.
+- 71:28 — Offers a prayer to the Lord without sharpening the focus formulation.
+- 26:109 — Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:127 — Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:145 — Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:164 — Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 26:180 — Adds a repeated refusal of human payment before the Lord-of-worlds relation.
+- 9:112 — Provides the praise formula but is redundant beside more developed praise evidence.
+- 17:79 — Names divine praise broadly but does not define the focus's praised station.
+- 18:38 — God's universal lordship supplies a broad theological basis for calling Him my Lord.
+- 18:40 — Rab sıfatı, 18:40'ta bahçeyi alıp daha iyisini verme yetkisinin genel kaynağını hatırlatır.
+- 18:82 — Calling God Lord broadly supports the focus's attribution of the action to the Lord's will.
+- 18:109 — Names God as Lord, the possessor of the words in the focus, without developing their boundlessness.
+- 19:36 — The title Lord of the worlds is foundational but too general after direct formula matches.
+- 21:56 — The Lord-of-the-worlds title gives broad support to the focus's use of Rabb, but adds little specificity.
+- 25:77 — The Lordship formula establishes the addressee's authority but does not develop calling or denial's consequence.
+- 26:117 — The title Lord of the worlds supplies only the general addressee of Noah's appeal.
+- 26:165 — The Lord-of-the-worlds formula gives only a generic universal frame.
+- 26:188 — The universal Lordship title supplies only the broad authority underlying the focus.
+- 27:26 — Lord of all worlds supplies the broad lordship title already made more concrete by the throne passages.
+- 37:149 — God's lordship provides only the broad theological frame for rejecting a false kinship attribution.
+- 38:79 — The title Lord of the worlds broadly names the authority Iblis addresses.
+- 39:69 — The shared designation of God as Lord is too general to clarify the final court scene.
+- 50:4 — The retained identifying-mark reading is a very broad, secondary parallel only.
+- 51:34 — Provides only the general Rabb authority frame.
+- 51:44 — Shared رب vocabulary alone does not clarify the event.
+- 52:37 — Broad Rabb framing; adds little after the direct authority parallels.
+- 55:46 — Supplies a broad Lordship relation, but adds little beyond the focus's direct wording.
+- 70:3 — General lordship supports the source frame only at a very broad level.
+- 75:30 — Provides the general Lordship frame, not a specific account of the final conveyance.
+- 85:8 — The foundational الحمد is relevant to the name but substantially redundant after the closer praise cards.
+- 88:8 — General sustaining lordship is a distant background for received favor.
+- 89:14 — States broad lordship without adding a surveillance or accounting feature.
+- 89:28 — Rabb of all worlds is foundational but adds no distinct relation after prior Rabb parallels.
+- 97:4 — رَبِّ ٱلْعَٰلَمِينَ is a broad, already-supported Rabb frame.
+- 108:2 — Hamdu li-llah, rabb al-alamin supports praise but is already broadly represented.
+- 112:2 — Lordship praise is adjacent but not specific to the focus.
+- 34:6 — Links revealed truth and guidance to a praised path, but indirectly.

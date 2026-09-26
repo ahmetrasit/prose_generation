@@ -1,0 +1,384 @@
+# Quranic reach for 1:7 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+- word 1 · سِرَاطَ (sirāṭa) · ibdāl · ṣād→sīn substitution; same surface meaning but phonetically closer to sabīl cognate
+- word 1 · صِؗرَاطَ (ṣᶻirāṭa) · ibdāl · ishmām (ṣ with z-color); transitional articulation between ṣ and s
+- word 4 · عَلَيْهِمُۥ (ʿalayhimū) · vhr|madd · lengthened pronoun vowel (silat al-mīm); phonetic variant
+- word 4 · عَلَيْهُمْ (ʿalayhum) · vhr · short ḍamma pronoun vowel instead of kasra
+- word 7 · عَلَيْهُمْ (ʿalayhum) · vhr · ḍamma pronoun-vowel variant; canonical
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-صرط root ص ر ط (focus word صِرَٰطَ: صِرَٰط N) — 45 occurrences in 45 ayat; same form 45, other forms 0
+- tier 1, same form (صِرَٰط N): 45 — common form, not listed
+
+### U-نعم root ن ع م (focus word أَنْعَمْتَ: أَنْعَمَ V form IV) — 136 occurrences in 128 ayat; same form 17, other forms 119
+- tier 1, same form (أَنْعَمَ V form IV): 17
+  - 1:7 ◀ focus أَنْعَمْ
+  - 2:40 أَنْعَمْ
+  - 2:47 أَنْعَمْ
+  - 2:122 أَنْعَمْ
+  - 4:69 أَنْعَمَ
+  - 4:72 أَنْعَمَ
+  - 5:23 أَنْعَمَ
+  - 8:53 أَنْعَمَ
+  - 17:83 أَنْعَمْ
+  - 19:58 أَنْعَمَ
+  - 27:19 أَنْعَمْ
+  - 28:17 أَنْعَمْ
+  - 33:37 أَنْعَمَ
+  - 33:37 أَنْعَمْ
+  - 41:51 أَنْعَمْ
+  - 43:59 أَنْعَمْ
+  - 46:15 أَنْعَمْ
+- tier 2, other forms: نَعْمَآء N 1; نَّاعِمَة N 1; نَعَّمَ V form II 1; نَّعْمَة N 2; نِعْمَ V 16; نَعِيم N 17; نَّعَم N 31; نِعْمَة N 50
+- rare form نَعْمَآء (N):
+  - 11:10 نَعْمَآءَ
+- rare form نَّاعِمَة (N):
+  - 88:8 نَّاعِمَةٌ
+- rare form نَعَّمَ (V form II):
+  - 89:15 نَعَّمَ
+- rare form نَّعْمَة (N):
+  - 44:27 نَعْمَةٍ
+  - 73:11 نَّعْمَةِ
+- roots co-occurring across the listed ayat: ء ل ه (13), ق و ل (9), ك و ن (8), ر ب ب (5), ص ل ح (5), ب ن ي (4), ء ن س (4), ز و ج (3), د خ ل (3), ذ ك ر (3), ع ل م (3), ذ ر ر (3), ح م ل (3), و ل د (3)
+
+### U-غير root غ ي ر (focus word غَيْرِ: غَيْر N) — 152 occurrences in 146 ayat; same form 143, other forms 9
+- tier 1, same form (غَيْر N): 143 — common form, not listed
+- tier 2, other forms: مُغَيِّر N form II 1; يَتَغَيَّرْ V form V 1; مُغِيرَٰت N form IV 1; غَيْر ADJ 3; يُغَيِّرُ V form II 3
+- rare form مُغَيِّر (N form II):
+  - 8:53 مُغَيِّرًا
+- rare form يَتَغَيَّرْ (V form V):
+  - 47:15 يَتَغَيَّرْ
+- rare form مُغِيرَٰت (N form IV):
+  - 100:3 مُغِيرَٰتِ
+- rare form غَيْر (ADJ):
+  - 4:95 غَيْرُ
+  - 14:37 غَيْرِ
+  - 84:25 غَيْرُ
+- rare form يُغَيِّرُ (V form II):
+  - 4:119 يُغَيِّرُ
+  - 8:53 يُغَيِّرُ
+  - 13:11 يُغَيِّرُ
+- roots co-occurring across the listed ayat: ء ل ه (11), ق و م (4), ن ف س (4), ن ه ر (4), ء م ر (3), ر ب ب (3), ن ع م (3), ق ع د (3), ج ه د (3), ب ي ن (2), د و ن (2), و ل ي (2), ث م ر (2), خ س ر (2)
+
+### U-غضب root غ ض ب (focus word ٱلْمَغْضُوبِ: مَغْضُوب N) — 22 occurrences in 21 ayat; same form 1, other forms 21
+- tier 1, same form (مَغْضُوب N): 1
+  - 1:7 ◀ focus مَغْضُوبِ
+- tier 2, other forms: مُغَٰضِب N form III 1; غَضْبَٰن N 2; غَضِبَ V 6; غَضَب N 12
+- rare form مُغَٰضِب (N form III):
+  - 21:87 مُغَٰضِبًا
+- rare form غَضْبَٰن (N):
+  - 7:150 غَضْبَٰنَ
+  - 20:86 غَضْبَٰنَ
+- rare form غَضِبَ (V):
+  - 4:93 غَضِبَ
+  - 5:60 غَضِبَ
+  - 42:37 غَضِبُ
+  - 48:6 غَضِبَ
+  - 58:14 غَضِبَ
+  - 60:13 غَضِبَ
+- roots co-occurring across the listed ayat: ء ل ه (8), ق و م (7), ق و ل (4), ظ ن ن (3), س و ء (3), ل ع ن (3), ظ ل م (3), و ع د (3), ر ب ب (3), ء م ن (2), و ل ي (2), ي ء س (2), ع ذ ب (2), ن ف ق (2)
+
+### U-ضلل root ض ل ل (focus word ٱلضَّآلِّينَ: ضَآلّ N) — 187 occurrences in 170 ayat; same form 11, other forms 176
+- tier 1, same form (ضَآلّ N): 11
+  - 1:7 ◀ focus ضَّآلِّينَ
+  - 2:198 ضَّآلِّينَ
+  - 3:90 ضَّآلُّونَ
+  - 15:56 ضَّآلُّونَ
+  - 26:20 ضَّآلِّينَ
+  - 26:86 ضَّآلِّينَ
+  - 37:69 ضَآلِّينَ
+  - 56:51 ضَّآلُّونَ
+  - 68:26 ضَآلُّونَ
+  - 83:32 ضَآلُّونَ
+  - 93:7 ضَآلًّا
+- tier 2, other forms: تَضْلِيل N form II 1; ضَآلّ ADJ 3; مُّضِلّ N form IV 3; ضَلَٰلَة N 9; أَضَلّ N 9; ضَلَٰل N 38; ضَلَّ V 52; أَضَلَّ V form IV 61
+- rare form تَضْلِيل (N form II):
+  - 105:2 تَضْلِيلٍ
+- rare form ضَآلّ (ADJ):
+  - 6:77 ضَّآلِّينَ
+  - 23:106 ضَآلِّينَ
+  - 56:92 ضَّآلِّينَ
+- rare form مُّضِلّ (N form IV):
+  - 18:51 مُضِلِّينَ
+  - 28:15 مُّضِلٌّ
+  - 39:37 مُّضِلٍّ
+- rare form ضَلَٰلَة (N):
+  - 2:16 ضَّلَٰلَةَ
+  - 2:175 ضَّلَٰلَةَ
+  - 4:44 ضَّلَٰلَةَ
+  - 7:30 ضَّلَٰلَةُ
+  - 7:61 ضَلَٰلَةٌ
+  - 16:36 ضَّلَٰلَةُ
+  - 19:75 ضَّلَٰلَةِ
+  - 27:81 ضَلَٰلَتِ
+  - 30:53 ضَلَٰلَتِ
+- rare form أَضَلّ (N):
+  - 5:60 أَضَلُّ
+  - 7:179 أَضَلُّ
+  - 17:72 أَضَلُّ
+  - 25:34 أَضَلُّ
+  - 25:42 أَضَلُّ
+  - 25:44 أَضَلُّ
+  - 28:50 أَضَلُّ
+  - 41:52 أَضَلُّ
+  - 46:5 أَضَلُّ
+- roots co-occurring across the listed ayat: ه د ي (14), ك و ن (14), ء ل ه (13), ق و ل (12), ر ء ي (7), س ب ل (6), ر ب ب (6), ق و م (5), ع ل م (4), ش ر ر (4), س م ع (4), ع م ي (4), ش ر ي (3), ل ي س (3)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 26:20 — Frames deviation as a past, bounded loss of direction rather than a fixed identity.
+- 37:118 — Directly presents guidance into the upright path as an enduring placement.
+- 3:69 — Adds that attempts to misdirect others can return as self-loss.
+- 28:17 — Connects received favor with refusing to support wrongdoing.
+- 1:3 — Supplies the mercy setting that precedes the requested path and its exclusions.
+- 1:5 — Places dependence and worship immediately before the request and route distinction.
+- 56:92 — Joins persistent denial and deviation while retaining distinct readings of each.
+- 2:122 — Treats favor as entrusted distinction carrying responsibility, not settled status.
+- 1:6 — States the immediate petition for the upright path completed by 1:7.
+- 1:2 — Provides the praise and sustaining authority framing the path request.
+- 58:14 — Links divine anger with knowingly resisting what is recognized as true.
+- 6:77 — Shows guidance as needed after false alternatives are tested and rejected.
+- 8:53 — Connects alteration of favor with a community's inward change of direction.
+- 93:7 — Presents being lost as remediable disorientation, with possible protective care.
+- 93:11 — Makes favor a narrated care-process of sheltering, guiding, and sufficing.
+- 3:51 — Defines the upright path through shared devotion to the one sustaining authority.
+- 5:60 — Associates anger and a worse destination with reversal of a hostile judgment.
+- 15:41 — Presents the upright path as a secured, authoritative route rather than a mere direction.
+- 102:8 — Makes benefaction accountable in use and source, not a private possession.
+- 105:2 — Shows a hostile plan rendered directionless, with loss and reversal kept distinct.
+- 7:86 — Shows paths obstructed and made crooked through exclusionary control.
+- 37:23 — Reverses guidance language into a disclosed route of ruin for false devotion.
+- 4:69 — Directly identifies those favored by God and situates them in a company shaped by obedience.
+- 56:51 — Reaffirms the paired but distinct failure of denial and loss of direction, redundantly.
+- 23:74 — Directly characterizes rejection of the final meeting as bending away from the path.
+- 4:68 — Directly joins obedience with guidance to an upright path.
+- 4:175 — Combines mercy and favor with guidance onto a direct path.
+- 5:16 — Presents divine disclosure as leading from darkness toward an upright path.
+- 6:126 — Names the sustaining authority's path as upright and made clear.
+- 6:153 — Defines the straight path against competing paths that divide its followers.
+- 6:161 — Combines being guided to a straight path with an upright, enduring commitment.
+- 7:16 — Shows hostile obstruction stationed against the upright path.
+- 10:25 — Depicts the divine call and guidance as directed toward a straight path.
+- 11:56 — Locates the sustaining authority on a straight path of governing order.
+- 14:1 — Frames movement from darkness to light through the path of the mighty, praiseworthy authority.
+- 15:42 — Marks the protected servants as beyond the adversary's effective claim.
+- 16:9 — Contrasts the intended way with ways that swerve from it.
+- 16:76 — Pairs commanding justice with being on a straight path.
+- 17:9 — Describes the Qur'an as guiding toward what is most upright.
+- 19:36 — Defines shared worship of the sustaining authority as a straight path.
+- 19:43 — Offers following a guided messenger as a route to an even path.
+- 20:81 — Links excess to the descent of anger and to ruin.
+- 20:123 — States that following divine guidance prevents going astray and misery.
+- 22:54 — Joins faith, recognition, and guidance to a straight path.
+- 23:73 — Directly characterizes the summons as calling to a straight path.
+- 24:46 — Presents clarified signs and divine leading to a straight path.
+- 36:61 — Defines worship of God as a straight path.
+- 38:26 — Explicitly warns that following desire diverts from the divine way.
+- 42:53 — Identifies the final path as God's own, completing the preceding guidance statement.
+- 43:43 — Combines holding fast to revelation with being on a straight path.
+- 43:64 — Defines worship of the one sustaining authority as a straight path.
+- 2:16 — Directly contrasts purchasing deviation with abandoning guidance.
+- 3:100 — Links holding fast to God with being guided to a straight path.
+- 4:60 — Names adversarial ambition to lead people into far-reaching deviation.
+- 4:116 — Describes associating partners as going far astray.
+- 4:136 — Pairs rejection of core divine disclosures with going far astray.
+- 4:167 — Connects rejection and obstruction of God's way with far-reaching deviation.
+- 6:71 — Portrays misguidance as being bewildered and pulled away from recalled guidance.
+- 10:32 — Poses deviation as the alternative to recognized truth.
+- 12:6 — Uses completion of favor within an inherited, divinely directed line of care.
+- 14:3 — Links obstruction and crookedening of God's way with distant deviation.
+- 14:28 — Shows God's favor being exchanged for rejection and a ruinous destination.
+- 30:29 — Connects following desire without knowledge to absence of a guide.
+- 68:7 — Affirms that the sustaining authority knows both the straying and the guided.
+- 11:112 — Supplies the contrary outcomes alongside the requested straight path.
+- 15:87 — Fatiha'nın yedi ayetlik kapanışı, "seb'an min al-mathani" için sure-bütün paralelini tamamlar; bunu tek zorunlu anlam yapmaz.
+- 19:58 — The straight path is explicitly defined as that of those God has favored.
+- 36:66 — The straight path is specified as a lived route distinct from error, directly contrasting the focus verse's inability to see the path.
+- 38:22 — It defines the straight path through contrasted outcomes, sharpening the direction requested in the focus.
+- 81:26 — Contrasts the straight path with routes marked by error or incurred wrath.
+- 26:86 — Keeps compassionate concern alongside an unsoftened diagnosis of deviation.
+- 21:54 — Portrays deviation as a collective, inherited orientation despite settled practice.
+- 37:43 — Presents favor as a sustained protective condition, though broadly.
+- 21:112 — Pairs appeal for just judgment with reliance on the Merciful for help.
+- 1:1 — Contributes the opening mercy frame but little beyond nearby focus context.
+- 83:32 — Shows rival accusations of deviation and the possibility of mislocated judgment.
+- 27:19 — Links received favor to gratitude, right action, and mercy-seeking.
+- 1:4 — Adds accountability as the setting in which the route categories matter.
+- 88:8 — Illustrates favor as a comprehensive state of ease and restored standing.
+- 7:162 — Shows a commanded alternative being substituted, with consequences for violation.
+- 83:22 — Depicts benefaction as the enduring outcome of morally upright action.
+- 36:4 — Reaffirms the upright path but adds little beyond the direct path cards.
+- 68:26 — Uses loss of a place's expected identity to illuminate being unable to locate oneself.
+- 100:3 — Provides a remote alteration parallel; its contrary links are boundary evidence only.
+- 16:121 — Joins gratitude for favors with selection and guidance to an upright path.
+- 5:20 — Treats favor as a basis for response, but is less specific than earlier favor cards.
+- 109:2 — Establishes a non-interchangeable worship boundary relevant to the exclusions.
+- 7:140 — Contrasts received favor with seeking another object of devotion.
+- 109:3 — Maintains the reciprocal non-merging of the two worship orientations.
+- 20:86 — Shows anger as grief and inquiry over a broken commitment before punishment.
+- 109:4 — Reiterates a durable worship boundary from the speaker's side.
+- 32:10 — Expands loss into disappearance and unlocatability, not merely wrong opinion.
+- 10:15 — Shows a demanded substitution resisted to preserve the source and order of guidance.
+- 109:5 — Repeats the non-interchangeable worship boundary from the audience's side.
+- 42:37 — Distinguishes recognizing anger from allowing it to become automatic retaliation.
+- 2:61 — Places anger after rejection, ingratitude, and transgression, though indirectly.
+- 109:6 — Concludes the boundary with distinct, non-combined commitments.
+- 17:73 — Shows social acceptance offered as leverage to alter an authoritative message.
+- 92:19 — Separates giving from reciprocal human indebtedness, refining one dimension of favor.
+- 24:9 — Shows anger as a differentiated outcome under distinct claims and responsibilities.
+- 109:1 — Names the opposing worship stance that the subsequent boundary addresses.
+- 14:36 — Depicts deviation as attachment redirected toward rival objects of loyalty.
+- 2:152 — Links remembrance and gratitude with refusal of denial, broadly supporting response to favor.
+- 30:55 — Shows a distorted orientation reshaping even recollection of duration.
+- 2:90 — Links anger with envious refusal of distributed favor, as a provisional parallel.
+- 35:3 — Frames favor as traceable provision and remembrance as resistance to distortion.
+- 7:202 — Adds a general picture of persistent extension in error without close linkage.
+- 46:28 — Shows false intermediaries becoming absent when their claimed nearness is tested.
+- 39:64 — Treats rival worship as misplacing authority and service despite known sovereignty.
+- 7:186 — Depicts the absence of guidance amid self-sustaining excess and bewilderment.
+- 42:46 — Portrays misguidance as leaving no effective route or rescuing alliance.
+- 5:77 — Connects inherited excess and prior deviation with misleading others from the way.
+- 7:30 — Sets guided and error-bound groups in parallel without collapsing their agency.
+- 7:152 — Links calf-making with divine anger and humiliation in worldly life.
+- 9:93 — Associates anger with false excuses and withdrawal from costly responsibility.
+- 9:115 — Treats guidance and later deviation in relation to clarified accountability.
+- 14:7 — Relates grateful reception of favor to increase and ingratitude to consequence.
+- 16:53 — Identifies every possessed favor as sourced in God before distress reveals dependence.
+- 16:106 — Places divine anger after deliberate rejection while retaining a coercion distinction.
+- 17:83 — Shows a recipient of favor turning aside, supplying a contrary response to benefaction.
+- 22:4 — Presents allegiance to the adversary as leading both to deviation and a burning outcome.
+- 28:50 — Treats following ungrounded desire as an especially deep form of misguidance.
+- 33:36 — Links disobedience to manifest deviation.
+- 36:62 — Describes a large-scale history of being led astray by the adversary.
+- 39:41 — Keeps guidance and deviation accountable to the person receiving the message.
+- 41:17 — Contrasts offered guidance with choosing blindness over it.
+- 45:23 — Shows desire elevated as authority alongside divinely permitted misguidance.
+- 47:1 — Links rejection and obstruction of the divine way with works rendered lost.
+- 47:8 — Again pairs rejection with works made lost, reinforcing the consequence pattern.
+- 48:6 — Places divine anger on those who harbor wrongful assumptions and align against guidance.
+- 60:13 — Directly names alliance with a people upon whom divine anger rests.
+- 61:5 — Depicts turning away as followed by hearts being turned, preserving a process reading.
+- 2:108 — Treats exchange of faith for rejection as losing the level path.
+- 2:213 — Shows divine guidance resolving disputed truth for those who respond in faith.
+- 4:88 — Rejects the attempt to guide whom God has left without a route.
+- 4:93 — Explicitly connects deliberate killing with divine anger and exclusion from mercy.
+- 5:6 — Frames completion of favor as a basis for gratitude and purification.
+- 5:11 — Makes remembrance of favor a protection amid threatened harm.
+- 5:105 — Distinguishes remaining guided from the fact that others may go astray.
+- 6:140 — Links destructive practice with loss, deviation, and absence of guidance.
+- 7:178 — Sets divine guidance against the self-loss of those left astray.
+- 10:108 — Keeps guidance and deviation consequential for the person who receives the message.
+- 14:4 — Keeps divine guidance and leaving astray within a wise, explanatory sending of messages.
+- 14:27 — Associates stability of the faithful with the leaving astray of wrongdoers.
+- 15:39 — Records the adversary's stated program of adornment and collective misdirection.
+- 16:18 — Establishes favors as beyond exhaustive counting and grounded in mercy.
+- 16:72 — Expands favor into household continuity, provision, and a question of grateful response.
+- 16:81 — Presents created protections as favors meant to bring willing submission.
+- 17:15 — Makes each person's guidance or deviation answerable to that person.
+- 17:67 — Shows rescue from distress followed by turning away, a contrary response to aid.
+- 17:97 — Contrasts the genuinely guided with those who have no guiding protector.
+- 18:17 — Distinguishes the guided from one for whom no directing protector is found.
+- 18:104 — Describes effort lost while its makers believe it well-directed.
+- 22:3 — Joins disputation without knowledge to following a rebellious adversary.
+- 22:9 — Links arrogant turning aside with leading others from God's way.
+- 24:21 — Portrays adversarial steps as commanding indecency and wrong.
+- 25:42 — Shows pressure to abandon true orientation for attachment to false objects.
+- 27:92 — Distinguishes guidance for oneself from deviation whose consequence remains personal.
+- 28:15 — Names adversarial action as manifestly misleading and hostile.
+- 31:6 — Shows diversion from God's way through ungrounded discourse and ridicule.
+- 31:20 — Presents outward and inward favors as a ground against unknowing dispute.
+- 33:67 — Shows followers locating their loss in obedience to leaders and great ones.
+- 34:13 — Links extraordinary provision with the demanding work of gratitude.
+- 34:50 — Separates personal error from the guidance received through revelation.
+- 35:8 — Shows evil made attractive so that it is mistaken for good, alongside divine misguidance.
+- 39:8 — Depicts a recipient of favor forgetting prior dependence and setting up rivals.
+- 39:36 — Reiterates that no guide is available where God leaves someone astray.
+- 39:49 — Shows favor being misread as self-produced knowledge rather than a test.
+- 40:34 — Links persistent doubt and excess with hearts being sealed and led astray.
+- 43:32 — Places distributed worldly provision and rank within divine determination rather than human control.
+- 43:36 — Depicts turning from the Merciful reminder as exposing one to a misleading companion.
+- 43:37 — Shows obstructers from the way being mistakenly regarded as guided.
+- 53:23 — Contrasts conjecture and desire with guidance already received from the sustaining authority.
+- 53:29 — Links turning from remembrance with an orientation confined to worldly life.
+- 53:30 — Contrasts divine knowledge of the straying and the guided without collapsing them.
+- 67:9 — Records rejection of warning as a route into acknowledged error.
+- 67:10 — Makes failure to hear or reason part of recognizing one's ruinous course.
+- 68:49 — Shows a favor from the sustaining authority averting a degrading outcome.
+- 74:31 — Keeps divine misguidance and guidance within an accountable warning context.
+- 89:15 — Tests the assumption that ease and favor necessarily signal settled honor.
+- 4:115 — Provides a compact صراط/غير polarity, but is broad and redundant.
+- 5:65 — Favor is distinguished from anger and straying, supplying a broad route-boundary parallel.
+- 11:19 — Contrasts the sought path with paths of error.
+- 14:6 — Nimet görmüş toplulukların izlenebilir tarihsel yolu, hatırlama çağrısına ikincil çerçeve sunar.
+- 14:48 — A secondary f01 lens on exclusion and an alternative, not cosmic replacement.
+- 20:135 — It differentiates the straight path from rejected and astray courses, extending the focus's question of who is rightly guided.
+- 23:23 — Defines the desired path by excluding destructive alternatives, a broad directional parallel.
+- 26:22 — God's favored recipients provide a positive account of benefaction unlike Pharaoh's oppressive claim.
+- 30:31 — The prayer for the straight path contrasts it with paths of error.
+- 35:20 — The straight path is contrasted with paths of anger and going astray, paralleling guided and lost orientation.
+- 37:57 — The favored path contrasted with the angered and astray offers a broad counterpart to being spared a condemned affiliation.
+- 43:40 — It establishes the straight path in contrast with those who go astray.
+- 43:59 — Those favored by God provide a broader model of divinely granted grace guiding a human path.
+- 43:61 — It distinguishes the straight path from routes ending in anger or error, adding its outcome contrast.
+- 48:2 — Relates the path to recipients of favor and preserves the contrast with other courses.
+- 50:31 — Its boundary structure helps preserve the distinction between desired and failed directions.
+- 53:2 — Weak f01 delineates guidance by the avoided dallin outcome; it is broad and late.
+- 77:23 — Those given blessing make the good path concrete through a received and lived outcome.
+- 82:13 — Favorable bestowal as active guidance adds a secondary dynamic aspect of naim.
+- 4:119 — Shows misdirection as enacted through inducement, command, and altered order.
+- 4:56 — Offers only a remote replacement-and-boundary parallel to the exclusions.
+- 2:47 — Repeats the responsibility reading of favor already supplied earlier.
+- 2:40 — Adds a narrower favor-and-covenant setting already covered by earlier cards.
+- 73:11 — Offers a limited warning that ease can harden resistance.
+- 2:198 — Only indirectly joins prior deviation with guidance of communal movement.
+- 83:11 — Contributes only a broad judgment-denial background.
+- 3:112 — Supplies wrath as consequence of repeated violations, without a close route link.
+- 106:3 — Adds a general worship orientation but not the focus distinctions.
+- 52:17 — Offers a broad ease-versus-affliction contrast with limited specificity.
+- 68:9 — Offers only a general pressure toward compromise at a boundary.
+- 3:154 — Provides a distant contrast between assurance and wrongful expectation.
+- 42:52 — Its sole contrast link marks a boundary, not positive support for the path reading.
+- 83:6 — Provides only a general standing-before-the-sustainer context.
+- 23:6 — Offers a limited boundary parallel without clarifying the focus categories.
+- 2:282 — Uses loss in a localized evidentiary-memory setting rather than the focus route.
+- 10:62 — Offers a broad protection-from-fear state without a close focus connection.
+- 39:61 — Supplies a broad protection contrast with limited route or category detail.
+- 12:8 — Its contrast link is only boundary evidence and adds little positive clarification.
+- 2:119 — Provides only a broad warning-and-good-news setting.
+- 16:5 — Illustrates material provision but not the focus's favored-route distinction.
+- 42:18 — Its contrast evidence marks a remote boundary rather than positive route support.
+- 47:12 — Offers a provisional consumption contrast, not a close account of favor or route.
+- 89:13 — Supplies punishment imagery without clarifying anger, deviation, or the path.
+- 36:27 — Provides only a broad honoring-after-forgiveness outcome.
+- 10:23 — Shows wrongdoing after rescue but offers only a remote alternative-to-right parallel.
+- 6:93 — Provides a broad false-claim and punishment context without a close focus link.
+- 33:37 — Contains a human-to-human favor phrase but is not a close parallel to the focus.
+- 2:142 — Provides the broad contrast of a favored path with anger and wandering.
+- 3:88 — The opposed paths provide only a broad moral contrast.
+- 7:61 — Uses الضالين as a path boundary, not the elite accusation against a messenger.
+- 7:150 — Only a highly general contrast between guided and angered paths.
+- 12:57 — Doğru yol ve sapma karşıtlığını verir; odak ayetin ödül ve sakınma bileşimine uzak kalır.
+- 12:95 — يوفر مقابلة الهداية والضلال فقط، وقد استنفدت البطاقات الأسبق هذا العموم.
+- 21:87 — The warned path of those who incur anger offers only a distant backdrop to the anger in Jonah's departure.
+- 23:32 — The exclusion of failed paths only loosely parallels the focus's exclusive direction of worship.
+- 26:99 — Doğru yolun sapmışlardan ayrılması, 26:99'a temel fakat çok genel bir karşıtlık verir.
+- 26:101 — The distinction between guided and astray gives only a broad moral frame for the focus's judgment scene.
+- 26:133 — Nimet verilenlerin yolu, rızkın doğru yönelimle ilişkisini genel olarak çerçeveler.
+- 26:173 — The contrast of favored, wrathful, and lost paths only broadly concerns outcomes.
+- 31:31 — The bestowed-favor language is too general to illuminate the voyage or its signs.
+- 35:37 — The distinction between the straight path and failed paths is a broad counterpart to the focus's moral outcome.
+- 37:69 — The prayer distinguishes the path from that of those astray, a general normative counterpart.
+- 42:42 — The path contrast is broad and does not address wrongdoing against people or wrongful pursuit in the earth.
+- 47:38 — Guidance and deviation form a broad boundary, not an explanation of the focus's replacement clause.
+- 51:36 — Contributes a boundary pattern but no specific household or Muslim evidence.
+- 70:30 — Its exclusion structure offers only a general boundary parallel.
+- 71:24 — The generic route distinction is relevant vocabulary but adds little after the direct parallels.
+- 74:10 — Its route contrast is broad and does not specifically illuminate 74:10.
+- 76:14 — The repeated over-them construction carries no shade or accessibility relation here.
+- 79:33 — Uses the blessing root in a guidance contrast but does not identify shared earthly provision.
+- 84:25 — Indirect boundary between favor and blame; no direct reward route.
+- 95:6 — غير and the retained mixed routes offer only structural and boundary resonance.

@@ -1,0 +1,245 @@
+# Quranic reach for 1:5 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-عبد root ع ب د (focus word نَعْبُدُ: عَبَدَ V) — 269 occurrences in 251 ayat; same form 117, other forms 152
+- tier 1, same form (عَبَدَ V): 117 — common form, not listed
+- tier 2, other forms: عَابِد ADJ 1; عَبَّد V form II 1; عَٰبِدَٰت ADJ 1; عِبَادَت N 9; عَابِد N 10; عَبْد N 130
+- rare form عَابِد (ADJ):
+  - 21:106 عَٰبِدِينَ
+- rare form عَبَّد (V form II):
+  - 26:22 عَبَّد
+- rare form عَٰبِدَٰت (ADJ):
+  - 66:5 عَٰبِدَٰتٍ
+- rare form عِبَادَت (N):
+  - 4:172 عِبَادَتِ
+  - 7:206 عِبَادَتِ
+  - 10:29 عِبَادَتِ
+  - 18:110 عِبَادَةِ
+  - 19:65 عِبَٰدَتِ
+  - 19:82 عِبَادَتِ
+  - 21:19 عِبَادَتِ
+  - 40:60 عِبَادَتِ
+  - 46:6 عِبَادَتِ
+- rare form عَابِد (N):
+  - 2:138 عَٰبِدُونَ
+  - 9:112 عَٰبِدُونَ
+  - 21:53 عَٰبِدِينَ
+  - 21:73 عَٰبِدِينَ
+  - 21:84 عَٰبِدِينَ
+  - 23:47 عَٰبِدُونَ
+  - 43:81 عَٰبِدِينَ
+  - 109:3 عَٰبِدُونَ
+  - 109:4 عَابِدٌ
+  - 109:5 عَٰبِدُونَ
+- roots co-occurring across the listed ayat: ك و ن (8), ء ل ه (7), ر ب ب (6), ق و ل (5), ك ب ر (4), س م و (3), ب ي ن (3), ق و م (3), ب ش ر (3), ء م ن (3), ع ن د (3), م ث ل (3), ء ر ض (2), ء م ر (2)
+
+### U-عون root ع و ن (focus word نَسْتَعِينُ: ٱسْتَعِينُ V form X) — 10 occurrences in 10 ayat; same form 4, other forms 6
+- tier 1, same form (ٱسْتَعِينُ V form X): 4
+  - 1:5 ◀ focus نَسْتَعِينُ
+  - 2:45 ٱسْتَعِينُ
+  - 2:153 ٱسْتَعِينُ
+  - 7:128 ٱسْتَعِينُ
+- tier 2, other forms: عَوَان N 1; تَعَاوَنُ V form VI 1; مُسْتَعَان N form X 2; أَعَانَ V form IV 2
+- rare form عَوَان (N):
+  - 2:68 عَوَانٌۢ
+- rare form تَعَاوَنُ (V form VI):
+  - 5:2 تَعَاوَنُ
+- rare form مُسْتَعَان (N form X):
+  - 12:18 مُسْتَعَانُ
+  - 21:112 مُسْتَعَانُ
+- rare form أَعَانَ (V form IV):
+  - 18:95 أَعِينُ
+  - 25:4 أَعَانَ
+- roots co-occurring across the listed ayat: ق و ل (8), ء ل ه (7), ص ب ر (5), ر ب ب (5), ب ي ن (4), ق و م (3), و ق ي (3), ح ر م (3), ء م ن (2), ص ل و (2), ج ي ء (2), ع ق ب (2), ء م ر (2), و ص ف (2)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 26:71 — Rival-object worship gives a direct boundary for exclusive devotion.
+- 37:118 — Directly extends the requested straight-route horizon after 1:5.
+- 7:128 — Pairs seeking aid with steadfastness under divine ownership.
+- 2:45 — Specifies practices associated with seeking aid; partly redundant.
+- 1:3 — The immediate mercy frame sharpens the addressee of dependence.
+- 14:35 — Explicitly marks idol worship as a rival-object danger.
+- 1:7 — Completes the requested route with parallel and contrary destinations.
+- 36:30 — Mockery of messengers presents rejection as a service-relation failure.
+- 109:2 — Direct refusal of rival worship, with positive exclusive-service routes.
+- 3:64 — States sole devotion and rejects partners and rival lordship.
+- 1:6 — The immediately following request makes dependence goal-directed.
+- 109:4 — Adds role-versus-prior-practice distinction; largely repeats 109:2.
+- 2:153 — Another concrete aid-seeking frame, but redundant with 2:45.
+- 1:4 — Nearby mastery and judgment frame the service relation.
+- 39:11 — Commanded, undivided devotion directly supports exclusivity.
+- 40:60 — Links invocation and response, while pride marks its contrary.
+- 21:112 — Explicit appeal for aid joins mercy and truthful judgment.
+- 1:2 — Nearby lordship identifies the relational frame, but is indirect.
+- 18:16 — Withdrawal from coercive rival worship preserves exclusive relation.
+- 96:10 — Distinguishes voluntary devotion from coercive human control.
+- 39:64 — Rejects a command to redirect worship to another object.
+- 44:18 — Contrasts divine-servant belonging with oppressive human control.
+- 36:61 — Explicitly conjoins devotion and the straight route.
+- 106:3 — Direct worship command, but its V12 route is contrast only.
+- 39:66 — Direct worship command with gratitude; reinforces exclusive devotion.
+- 109:3 — Reciprocal nonparticipation sharpens the worship boundary.
+- 53:62 — Bodily devotion and worship provide direct positive support.
+- 37:161 — Rival worship is named, supplying a boundary without further detail.
+- 6:163 — No-partner submission supports exclusivity, though indirectly.
+- 2:186 — Direct call-and-response gives a close parallel to seeking aid.
+- 2:138 — Worship identity is relevant but only a diffuse parallel.
+- 3:51 — Explicitly joins shared lordship, worship, and straight route.
+- 4:172 — Voluntary service versus pride gives a direct positive and contrary frame.
+- 2:286 — Direct appeal names the addressee as protector and asks for help.
+- 3:150 — Names God as protector and best helper in a direct aid formulation.
+- 4:36 — Explicit exclusive worship and rejection of association fill a core gap.
+- 4:45 — God as sufficient protector and helper directly frames dependence.
+- 5:23 — Trusting God amid risk supplies an active dependence case.
+- 6:102 — Explicitly joins sole deity, worship, and comprehensive guardianship.
+- 6:162 — Ritual and life are directed solely to God, extending devotion's scope.
+- 8:40 — God is directly named excellent protector and helper.
+- 9:51 — God's protective lordship gives a concise reliance formulation.
+- 10:106 — Prohibits rival invocation that cannot benefit or harm.
+- 11:123 — Explicitly conjoins worship and reliance on God.
+- 12:40 — Commands worship of God alone within an authority and judgment frame.
+- 17:2 — Forbids taking another disposer of affairs, directly supporting reliance.
+- 19:36 — Explicitly conjoins sole lordship, worship, and straight route.
+- 19:65 — Worship and steadfastness make dependence an enduring practice.
+- 20:14 — Direct divine command to worship is foundational support.
+- 21:25 — Repeated prophetic message of sole worship gives broad confirmation.
+- 22:77 — Direct command to worship the Lord gives clear positive support.
+- 29:17 — Rival worship versus seeking provision from God links devotion and dependence.
+- 33:3 — Direct command to rely on God as sufficient trustee.
+- 36:22 — Worship of the creator and return to Him gives a direct rationale.
+- 36:23 — Rival deities cannot intercede or save, sharply bounding aid-seeking.
+- 39:2 — Sincere devotion to God directly supports undivided service.
+- 40:14 — Calling on God while devoting religion to Him joins aid and exclusivity.
+- 41:6 — One deity, worship, and straightness form a close parallel.
+- 42:10 — Judgment belongs to God and reliance is explicitly stated.
+- 43:64 — Worship and straight route are explicitly conjoined.
+- 46:28 — Rival gods fail to help, a direct negative aid boundary.
+- 72:18 — Prohibits calling on anyone alongside God.
+- 72:20 — Explicitly calls upon the Lord without association.
+- 72:21 — Denies independent control of harm or right direction.
+- 73:9 — Sole lordship and taking God as trustee directly support reliance.
+- 28:70 — Exclusive worship and reliance give the practical response to the focus's sole deity.
+- 71:3 — States the exclusive worship orientation and dependence that ground the focus's first command.
+- 72:2 — Core huda-to-path formulation; foundational parallel for the focus's rushd.
+- 98:5 — Direct exclusive-address formula supplies the focus's undivided worship axis.
+- 11:62 — Inherited rival worship clarifies resistance to exclusive devotion.
+- 11:26 — Exclusive devotion is present, though already well represented.
+- 2:133 — Preserves a single-object service commitment across inheritance.
+- 1:1 — Nearby naming and mercy are contextual but add little beyond 1:3.
+- 5:2 — Cooperation and sacred practice offer a secondary communal aid frame.
+- 2:21 — Generic worship command is relevant but substantially redundant.
+- 92:12 — Divine guidance supports the ensuing route request, indirectly.
+- 109:6 — Draws a final boundary between distinct devotional allegiances.
+- 29:56 — Exclusive orientation in changed circumstances adds a boundary case.
+- 109:5 — Repetition adds little after the earlier 109 boundary cards.
+- 11:2 — Exclusive devotion is explicit but duplicates stronger formulations.
+- 51:56 — Purpose-of-creation service is a broad but direct relation.
+- 94:8 — Exclusive turning toward the Lord supports the directional relation.
+- 29:16 — Commanded devotion with protective restraint is relevant but repeated.
+- 39:17 — Turning from rival worship restores the exclusive relation.
+- 18:65 — Servant identity with given mercy and knowledge adds dependent agency.
+- 2:172 — Provision returning as gratitude enriches the service relation.
+- 10:29 — Challenges a claimed worship relation lacking reciprocal awareness.
+- 12:18 — Explicit appeal for aid under disputed speech supplies a distinct case.
+- 19:2 — Lordly mercy toward a servant supports dependent relation.
+- 26:22 — Forced enslavement contrasts with rightful divine service.
+- 2:83 — Exclusive devotion within covenant and social obligations broadens service.
+- 3:20 — Submission and guidance form a secondary orientation parallel.
+- 4:118 — False claims over servants sharpen the ownership boundary.
+- 7:65 — Generic exclusive-worship summons is relevant despite tail status.
+- 38:30 — Commended servant identity and return add a modest service profile.
+- 37:40 — Purified servants are separated from a contrary collective outcome.
+- 43:15 — Corrects a distorted ownership classification of divine servants.
+- 15:49 — Mercy and forgiveness toward servants frame the dependent addressee.
+- 76:6 — Servants retain active agency while receiving and extending provision.
+- 27:91 — Commanded worship joins local duty to universal lordship.
+- 5:117 — Shared lordship and commanded worship give direct but late support.
+- 6:88 — Guidance and the failure of association support exclusivity and route.
+- 2:112 — Whole-person submission supplies a compact parallel to exclusive orientation.
+- 3:79 — Servant-of-God language adds a teacher-mediated service frame.
+- 4:75 — Prayer for a protector and helper gives a pressured communal case.
+- 4:132 — Divine sufficiency supports reliance, but only indirectly.
+- 5:76 — Rival-object incapacity gives a boundary for aid and worship.
+- 6:17 — Exclusive power to remove harm sharpens dependence on the addressee.
+- 6:56 — Prohibition on rival worship reinforces the exclusive boundary.
+- 6:71 — Rival invocation that cannot benefit or harm provides contrary evidence.
+- 7:59 — Prophetic summons to sole worship is relevant but formulaically repeated.
+- 7:73 — Prophetic summons to sole worship is relevant but formulaically repeated.
+- 7:85 — Prophetic summons to sole worship is relevant but formulaically repeated.
+- 7:197 — Rival addressees cannot aid; a clear negative boundary for dependence.
+- 9:31 — Misplaced lordship clarifies the rival-authority boundary.
+- 9:129 — Reliance on the sole deity gives a late but direct parallel.
+- 10:18 — Rival worship without benefit or harm marks a contrary aid relation.
+- 11:50 — Exclusive-worship summons adds another prophetic formulation.
+- 11:84 — Exclusive-worship summons adds another prophetic formulation.
+- 12:67 — Sole judgment and reliance give a secondary aid relation.
+- 13:14 — Truthful calling versus ineffective response sharpens petition boundaries.
+- 13:16 — Challenges rival lordship and reinforces exclusive authority.
+- 16:36 — Worship of God and avoidance of false powers is a key boundary formula.
+- 16:51 — Rejection of multiple deities reinforces undivided orientation.
+- 16:73 — Rival providers' incapacity offers negative dependence evidence.
+- 17:56 — Rival invocation cannot remove or redirect harm.
+- 17:65 — Servant status and divine sufficiency as trustee support dependence.
+- 18:14 — Sole lordship is voiced as a boundary against rival claims.
+- 18:26 — Exclusive judgment and no partner support the authority frame.
+- 18:102 — Taking divine servants as protectors clarifies a rival-loyalty error.
+- 22:62 — Truth and false-object contrast supports exclusive orientation.
+- 23:23 — Exclusive-worship summons adds another prophetic formulation.
+- 23:32 — Exclusive-worship summons adds another prophetic formulation.
+- 25:43 — Taking desire as deity adds an internal rival-object boundary.
+- 25:55 — Rival worship paired with disbelief supplies contrary evidence.
+- 26:70 — Questioning the object of worship opens the rival-object issue.
+- 29:36 — Exclusive-worship summons adds another prophetic formulation.
+- 29:59 — Reliance amid migration adds a concrete dependence setting.
+- 30:30 — Steady orientation toward the divine order is a secondary parallel.
+- 30:33 — Distress-driven calling of the Lord supplies a petition case.
+- 31:13 — Association is named a grave wrong, strengthening the exclusivity boundary.
+- 32:16 — Calling upon the Lord in fear and hope gives a lived dependence frame.
+- 34:22 — Rival invocation is tested against inability, a negative aid boundary.
+- 34:41 — Misidentified worship relations clarify the object-of-devotion question.
+- 35:3 — Creator-provider language supplies a broad dependence frame.
+- 36:74 — Rival gods are taken for hoped-for aid, giving contrary evidence.
+- 39:3 — Purified religion reinforces exclusivity, though redundant with 39:11.
+- 39:8 — Calling upon the Lord under harm supplies a dependence case.
+- 39:14 — Sincere worship reinforces the exclusive-service relation.
+- 39:38 — Acknowledged divine creation exposes inconsistency in rival orientation.
+- 46:4 — Challenges rival claims of creative or authoritative share.
+- 51:50 — Flight toward God gives a directional dependence parallel.
+- 15:87 — Fatiha bütünündeki bu ayet, tekrarın ortak hitap ve yöneliş düzeni olarak okunabilmesini sağlar.
+- 15:98 — Ibadah and direct address to the divine establish the focus's worshipful orientation.
+- 16:53 — Establishes worship and seeking help as exclusively directed to God.
+- 17:42 — Exclusive worship and appeal establish a foundational, dependent worship relation.
+- 25:1 — Service language occurs, but the only V12 route is contrast evidence.
+- 33:56 — Only broad channel resonance; no localized link to 1:5.
+- 18:95 — Shared-strength assistance is not the dependence relation of 1:5.
+- 20:34 — Frequent remembrance is adjacent practice, without an aid link.
+- 8:53 — Inward change and benefaction are only distant parallel evidence.
+- 19:91 — A contrary attribution to the Merciful supplies only remote context.
+- 75:17 — No localized service or aid relation is established.
+- 6:18 — Dominion over servants is a secondary authority frame.
+- 17:31 — Provision suggests dependence but does not address 1:5 directly.
+- 106:4 — Provision and safety are background to devotion, not its relation.
+- 20:33 — Remembrance is adjacent practice without a specific aid relation.
+- 109:1 — The address sets a contrast scene but adds no relation itself.
+- 25:4 — Human assistance in a false accusation is not support for 1:5.
+- 29:60 — Provision offers a general dependence frame only.
+- 47:19 — Unique-deity affirmation is background rather than service or aid.
+- 29:62 — Variable provision retains dependence but adds little beyond prior cards.
+- 37:81 — Believing-servant identity is repetitive and nonspecific.
+- 22:10 — Justice toward servants is a secondary authority implication.
+- 37:111 — A repeated believing-servant formula adds little new evidence.
+- 2:23 — Servant-messenger wording does not clarify service or aid here.
+- 37:122 — Repeated believing-servant formula remains nonspecific.
+- 50:29 — Justice toward servants is indirect and already represented.
+- 2:207 — Self-offering for approval is only a broad devotion parallel.
+- 37:132 — Repeated believing-servant formula remains nonspecific.
+- 3:15 — Divine awareness and reward do not clarify 1:5 directly.
+- 3:30 — Accountability and compassion offer only remote contextual support.
+- 16:114 — Gratitude-worship provision frame is already covered by 2:172.

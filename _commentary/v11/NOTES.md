@@ -13,6 +13,23 @@
   Log: `_commentary/v11/out/s001.run.txt`; outputs `_commentary/v11/out/s001/`. Check the log; if a run failed,
   rerun only that ayah with `run.py all 1:N` (then `chains 1`).
 
+## Built 2026-09-26 (user: "build it"; user asked to wait before any model call)
+REVIEW.md plan, items 1–5 + arms. No model call made yet.
+- `seeds_input.py` (script): window evidence = branch table (every branch of every root; ~57 KB for S1), compact HFT,
+  surface staging (dictionary synonym/same-field neighbours widen each branch's image words; S1 finds 16:5–10,
+  7:50–55, 14:32–37, 30:50–55 …), definitional links; pairs off by default. Long surahs: pericopes ±7 ayat overlap
+  (so 29:39 sābiqīn ↔ 29:45 ṣalāh (ص ل و B006 "second in a race") ↔ 29:58 fall in one window).
+- `lines/digest.py --v2` → digest_v2.md (ref — review note; strong→weak; "no value" rows dropped; no openings).
+- `prompts/seeds.md`, `prompts/write_s.md` (Limits family, seeds check, loss / position / disclosure, 4-field tags
+  with `source`), `prompts/surah_s.md` (one section per core chain, explicit provenance, maqṣūd, next surah).
+- `verify_src.py`: each tag checked against its declared source (S:A or `root Bnnn`), --fix.
+- `run.py --arm B|D|S|S0|Srep`, step `seeds`; `surah` now runs chains; CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000;
+  ledger entries get paragraph pointers [¶ n] (non-B arms).
+- `eval/s001_anchors.md`: frozen anchors (G gold 26+6, V5/V11 per-ayah lists, N north-star).
+Run order (each needs the user's go-ahead): `run.py seeds 1 --arm S`, `seeds 1 --arm S0`, `seeds 1 --arm Srep`
+(≈ $1.2–1.5 each) → read sheets vs gold → `run.py all 1:3|1:4|1:7 --arm D` (≈ $5–6) → `run.py surah 1 --arm S`
+(≈ $15–18 incl. chains) → Opus judge (≈ $8–12). Pending the user's yes: seed probe on S29 window 38–63 (≈ $1.3).
+
 ## Next steps agreed
 1. Compare S1 v11 (ledgers + chains) with Astra's v5 findings indexes in quran-data:
    `quran-data/data/commentary/ayah/detailed/tr/s001/1_N.index.tr.md` (v5 prose there is byte-identical to

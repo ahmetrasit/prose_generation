@@ -10,7 +10,13 @@
      left out (they are hints at best and have suppressed good links before)
 
 This is the candidate set the Luna usage and related lines judge; the writer gets it unjudged.
-Usage: python3 _commentary/v9/lines/digest.py 4:34
+
+--v2 (V11 arms D/S) writes digest_v2.md: related passages as `S:A — why it is related` (the earlier review's
+one-line note, forward direction first), ordered strong → medium → weak → unlabelled without printing the labels,
+rows judged "no value" in every direction dropped, no Arabic openings (the writer recalls the text; quotations are
+verified). The note carries the concept link a form-only list hides (e.g. 3:159 for 1:3: mercy made visible in
+gentleness and consultation).
+Usage: python3 _commentary/v9/lines/digest.py 4:34 [--v2]
 """
 from __future__ import annotations
 
@@ -68,8 +74,54 @@ def related(pkg: Path) -> list[str]:
     return out
 
 
+RANK = {"strong": 0, "medium": 1, "weak": 2}
+
+
+def related_v2(pkg: Path) -> list[str]:
+    f = pkg / "09_inter_ayah.md"
+    if not f.exists():
+        return ["(no inter-ayah list)"]
+    groups: list[tuple[str, list[dict]]] = [("", [])]
+    rec = None
+    for line in f.read_text(encoding="utf-8").splitlines():
+        m = re.match(r"## Formula group \((.*?)\)", line)
+        if m:
+            groups.append((m.group(1), []))
+            rec = None
+            continue
+        m = re.match(r"#{2,3} \d+\. (\d{1,3}:\d{1,3})\s*$", line)
+        if m:
+            if groups[-1][0] and line.startswith("## "):
+                groups.append(("", []))
+            rec = {"ref": m.group(1), "labels": [], "fwd": "", "rev": ""}
+            groups[-1][1].append(rec)
+            continue
+        if rec is None:
+            continue
+        m = re.match(r"- review \S+: ([a-z ]+) — (.*)", line)
+        if m:
+            rec["labels"].append(m.group(1).strip())
+            rec["fwd"] = m.group(2).strip()
+            continue
+        m = re.match(r"- from \S+ \((\w+), ([a-z ]+)\): (.*)", line)
+        if m:
+            rec["labels"].append(m.group(2).strip())
+            if m.group(1) != "counterevidence" and not rec["rev"]:
+                rec["rev"] = m.group(3).strip()
+    out = []
+    for roots, recs in groups:
+        keep = [r for r in recs if any(l != "no value" for l in r["labels"]) and (r["fwd"] or r["rev"])]
+        keep.sort(key=lambda r: min((RANK.get(l, 3) for l in r["labels"] if l != "no value"), default=3))
+        if not keep:
+            continue
+        out += ["", f"### Formula group ({roots}): these ayat share the roots with the focus"] if roots else []
+        out += [f"- {r['ref']} — {r['fwd'] or r['rev']}" for r in keep]
+    return out
+
+
 def main() -> None:
-    ref = sys.argv[1]
+    v2 = "--v2" in sys.argv
+    ref = [x for x in sys.argv[1:] if not x.startswith("--")][0]
     s, a = ref.split(":")
     sa = f"{s}_{a}"
     w = V9 / "lines" / "work" / sa
@@ -78,9 +130,12 @@ def main() -> None:
          "Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.", "",
          "## 1. Variant readings (qirāʾāt)", ""] + variants(ref) + \
         ["", "## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)"] + usage(w) + \
-        ["", "## 3. Related passages (reciprocal inter-ayah candidates; opening words only)"] + related(pkg)
-    (w / "digest.md").write_text("\n".join(L) + "\n", encoding="utf-8")
-    print(f"digest: {w / 'digest.md'} ({len(chr(10).join(L).encode()):,} bytes)")
+        (["", "## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear "
+          "on the focus, as an earlier review saw it — a lead to test, not a finding)"] + related_v2(pkg) if v2 else
+         ["", "## 3. Related passages (reciprocal inter-ayah candidates; opening words only)"] + related(pkg))
+    name = "digest_v2.md" if v2 else "digest.md"
+    (w / name).write_text("\n".join(L) + "\n", encoding="utf-8")
+    print(f"digest: {w / name} ({len(chr(10).join(L).encode()):,} bytes)")
 
 
 if __name__ == "__main__":

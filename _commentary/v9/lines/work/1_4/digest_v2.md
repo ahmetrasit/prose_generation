@@ -1,0 +1,271 @@
+# Quranic reach for 1:4 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+- word 1 · مَالِكِ (māliki) · canonical · Ḥafṣ, Kisāʾī, Yaʿqūb, Khalaf — active participle "owner" with long ā; the dominant eastern reading
+- word 1 · مَلِكِ (maliki) · Lvw · Nāfiʿ, Ibn Kathīr, Abū ʿAmr, Ibn ʿĀmir, ʿĀṣim (Shuʿba), Ḥamza — "king" without long ā; Medinan and most Kūfan; shifts semantic register from ownership to sovereign office
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-ملك root م ل ك (focus word مَٰلِكِ: مَٰلِك N) — 203 occurrences in 191 ayat; same form 3, other forms 200
+- tier 1, same form (مَٰلِك N): 3
+  - 1:4 ◀ focus مَٰلِكِ
+  - 3:26 مَٰلِكَ
+  - 36:71 مَٰلِكُونَ
+- tier 2, other forms: مَّمْلُوك N 1; مَلْك N 1; مَٰلِك2 PN 1; مَلِيك N 1; مَلِك ADJ 2; مَلَكُوت N 4; مَلِك N 13; مَلَكَتْ V 42; مُلْك N 47; مَلَك N 88
+- rare form مَّمْلُوك (N):
+  - 16:75 مَّمْلُوكًا
+- rare form مَلْك (N):
+  - 20:87 مَلْكِ
+- rare form مَٰلِك2 (PN):
+  - 43:77 مَٰلِكُ
+- rare form مَلِيك (N):
+  - 54:55 مَلِيكٍ
+- rare form مَلِك (ADJ):
+  - 59:23 مَلِكُ
+  - 62:1 مَلِكِ
+- rare form مَلَكُوت (N):
+  - 6:75 مَلَكُوتَ
+  - 7:185 مَلَكُوتِ
+  - 23:88 مَلَكُوتُ
+  - 36:83 مَلَكُوتُ
+- roots co-occurring across the listed ayat: ش ي ء (9), ء ل ه (8), ي د ي (4), ق و ل (4), ع ز ز (3), ك ل ل (3), ق د ر (3), س ب ح (3), ك و ن (3), س م و (3), ء ر ض (3), ر ء ي (2), خ ل ق (2), ق د س (2)
+
+### U-يوم root ي و م (focus word يَوْمِ: يَوْم N) — 389 occurrences in 377 ayat; same form 318, other forms 71
+- tier 1, same form (يَوْم N): 318 — common form, not listed
+- tier 2, other forms: يَوْم T 71
+
+### U-دين root د ي ن (focus word ٱلدِّينِ: دِين N) — 98 occurrences in 87 ayat; same form 91, other forms 7
+- tier 1, same form (دِين N): 91 — common form, not listed
+- tier 2, other forms: تَدَايَن V form VI 1; يَدِينُ V 1; مَدِينِين N 2; دَيْن N 3
+- rare form تَدَايَن (V form VI):
+  - 2:282 تَدَايَن
+- rare form يَدِينُ (V):
+  - 9:29 يَدِينُ
+- rare form مَدِينِين (N):
+  - 37:53 مَدِينُونَ
+  - 56:86 مَدِينِينَ
+- rare form دَيْن (N):
+  - 2:282 دَيْنٍ
+  - 4:11 دَيْنٍ
+  - 4:12 دَيْنٍ
+- roots co-occurring across the listed ayat: ك و ن (17), ء ل ه (13), ك ت ب (10), و ص ي (10), ش ه د (7), و ل د (7), ت ر ك (6), ع ل م (5), ر ج ل (4), ك ل ل (4), ب ع د (4), م ل ل (3), ح ق ق (3), ث ل ث (3)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 51:12 — Directly names Yawm al-Din and treats its timing as a live question, sharpening the decisive-event horizon.
+- 82:15 — Associates Yawm al-Din with an adverse outcome, adding consequence to the account-day horizon.
+- 37:53 — The resurrection question culminates in being subject to din, adding an accountability context.
+- 114:2 — Malik over people directly parallels the ownership dimension and gives it human scope.
+- 56:56 — Names Yawm al-Din while specifying a consequential allotment, extending the recompense horizon.
+- 82:17 — The repeated question heightens the gravity and incomprehensibility of Yawm al-Din.
+- 1:3 — The repeated mercy epithet frames the preceding context but is not an account-day claim.
+- 83:11 — Denial of Yawm al-Din adds the posture of rejection toward the stated horizon.
+- 37:20 — Recognition of this as Yawm al-Din supplies a confronting response to its arrival.
+- 1:5 — The immediately following exclusive worship and appeal for help connects the day to present devotion.
+- 1:2 — Lordship over the worlds supplies broad nearby context for the owner title.
+- 82:9 — Denial of din supplies a rejection frame, without itself naming the day.
+- 74:46 — Confessing denial of Yawm al-Din adds a moral posture toward the event.
+- 75:6 — The question about the resurrection day supplies a parallel timing-and-arrival horizon.
+- 77:13 — Yawm al-Fasl directly adds the separation or decision aspect of the final day.
+- 26:82 — Seeking forgiveness on Yawm al-Din adds personal accountability and mercy to the horizon.
+- 95:7 — The challenge concerning din adds little beyond earlier denial-of-din cards.
+- 6:73 — Divine mulk on the trumpet day directly joins sovereignty with the climactic event.
+- 30:43 — Upright din before an irreversible day links present orientation with a coming event.
+- 3:26 — Malik al-mulk directly intensifies the ownership dimension of 1:4.
+- 9:29 — Din and the last day occur in a legal-conflict setting without clarifying 1:4.
+- 83:6 — People standing before the Lord on a day gives a direct account-day scene.
+- 51:6 — The assertion that din will occur directly reinforces the certainty of the event.
+- 7:51 — Treating din frivolously while forgetting the meeting day ties present conduct to that horizon.
+- 80:34 — The day of flight from kin adds an experiential separation dimension to the event.
+- 5:40 — Divine mulk together with punishment and forgiveness joins ownership to recompense.
+- 45:26 — Death, gathering, and the unquestioned resurrection day give a direct final-event scene.
+- 2:281 — Return to God and full recompense for every self give a direct account-day formulation.
+- 3:25 — An unquestioned day where each self receives its due directly specifies the reckoning horizon.
+- 14:41 — Yawm al-Hisab supplies an explicit account-day parallel.
+- 17:13 — Each person's record fastened to them supplies an individual-account basis.
+- 17:14 — The command to read one's record and self-account adds a direct reckoning procedure.
+- 18:49 — The laid-open record and exact accounting add documentary judgment without omission.
+- 21:47 — Just scales, even for the smallest deed, directly specify judgment and accounting.
+- 24:25 — God fully pays their din on that day, directly linking din with recompense.
+- 36:51 — The trumpet and emergence toward the Lord add resurrection and return.
+- 36:54 — No injustice and recompense only for deeds directly state the rule of final judgment.
+- 37:21 — Yawm al-Fasl is directly identified, supplying the separation aspect of the final day.
+- 39:68 — The trumpet, rising, and awaiting assembly add a comprehensive final-event sequence.
+- 39:69 — The book, prophets, witnesses, and judgment in truth add a formal adjudication scene.
+- 39:70 — Every self receiving its full due directly specifies exhaustive recompense.
+- 40:16 — The question of whose mulk is al-yawm directly joins the day to exclusive sovereignty.
+- 40:17 — Each self recompensed for its earning, with no injustice, directly states the judgment rule.
+- 44:40 — Yawm al-Fasl as the appointed time directly parallels the decisive-day reading.
+- 45:22 — Creation in truth so every self is repaid for its earning directly grounds just recompense.
+- 45:28 — Every community kneeling before its record adds collective documentary judgment.
+- 45:29 — The speaking record and recorded deeds add an explicit accounting medium.
+- 50:20 — The trumpet's blast identifies the promised day as an arrived event.
+- 50:21 — Each self arriving with a driver and witness adds individual presentation and testimony.
+- 82:19 — No self owning anything for another, while command belongs to God that day, directly clarifies 1:4's sovereignty.
+- 83:4 — The expectation of being raised directly frames the coming reckoning.
+- 83:5 — The great day directly adds gravity to the rising-and-account scene.
+- 99:7 — Seeing even the smallest good directly specifies exact recompense.
+- 99:8 — Seeing even the smallest evil preserves the contrary exact recompense.
+- 7:29 — Positive f03 routes add the day-of-din/account horizon to الدين.
+- 15:38 — Establishes the Day of Recompense as a divinely owned judgment horizon.
+- 25:26 — God's mastery of the Day of Judgment gives the clearest direct counterpart to the focus's rightful dominion on that Day.
+- 28:70 — God is Master of the Day of Judgment, directly specifying the judgment declared in the focus.
+- 56:86 — Its sovereign day-of-settlement formula supplies an explicit reading for مَدِينِينَ.
+- 77:12 — Names the Day of Judgment as the decisive outcome to which the deferral points.
+- 78:26 — Naming God master of the Day of Recompense gives the governing eschatological frame for 78:26.
+- 95:8 — Names God in direct relation to the day of judgment, clarifying the dīn horizon.
+- 101:4 — Divine ownership of the day of recompense gives the governing judgment frame.
+- 12:40 — Connects din with divine judgment and exclusive worship, supplying a present-obedience horizon.
+- 34:30 — Its fixed appointed day sharpens finality but does not identify din or ownership.
+- 1:1 — The opening mercy frame is nearby context but adds no day or ownership language.
+- 1:6 — The immediately following request for the straight path supplies the route horizon connected with ownership.
+- 62:1 — The divine title al-Malik reinforces sovereignty, though it supplies no day-of-account scene.
+- 72:21 — A denial of human power marks a contrast with the ownership attributed in 1:4.
+- 3:19 — Din, submission, and swift account join a present religious order to accountability.
+- 45:27 — Divine mulk together with the Hour's loss joins ownership to an eventual reckoning.
+- 83:22 — A favorable state supplies only an indirect recompense polarity.
+- 15:35 — The curse extending to Yawm al-Din adds a penal deadline to the day.
+- 24:42 — Divine mulk and return to God reinforce the ownership-and-return frame.
+- 57:5 — Mulk and the return of all matters reinforce comprehensive ownership.
+- 1:7 — The immediately following contrast of paths supplies the route-divergence horizon.
+- 109:6 — The two din relations preserve a distinct-identity reading alongside account-day senses.
+- 106:3 — Worship directed to the Lord supplies a present devotional response to lordship.
+- 38:78 — This repeats the earlier curse-until-Yawm-al-Din contribution without a material addition.
+- 82:18 — This is a near-repeat of the preceding Yawm-al-Din questions already represented.
+- 109:2 — Nonparticipation in another worship relation supports the exclusive-devotion horizon.
+- 98:5 — Exclusive devotion, din, prayer, and almsgiving develop the present-practice horizon.
+- 79:6 — The day of the great shaking supplies an arrival-event aspect of final reckoning.
+- 109:3 — The reciprocal worship boundary adds little beyond the preceding distinction.
+- 10:105 — Orientation toward upright din connects present stance with the religious-order reading.
+- 70:26 — Affirming Yawm al-Din supplies a responsive stance toward the account day.
+- 16:52 — Perpetual din adds an ongoing religious-relation reading alongside the final-day reading.
+- 114:3 — The additional divine title is redundant after the direct Malik parallel.
+- 39:2 — Exclusive devotion to God with din reinforces the present-obedience horizon.
+- 48:28 — Competing din language contributes a broad religious-order reading, not the account-day sense.
+- 53:30 — Guidance and straying are only an indirect parallel to the later path request.
+- 25:2 — Comprehensive mulk and measured creation broaden the scope of ownership.
+- 6:158 — An irreversible day for belief and earned good adds finality to accountability.
+- 39:14 — Personal exclusive worship with dini reinforces the present devotional horizon.
+- 2:132 — Chosen din and submission develop identity, not the account-day or ownership claim.
+- 10:22 — Sincere din in crisis supplies a present-dependence reading.
+- 39:11 — Commanded exclusive worship with din reinforces the present-obedience horizon.
+- 24:2 — Divine din, punishment, and the last day add a juridical accountability setting.
+- 76:10 — Fear of a severe day adds an affective severity dimension.
+- 5:3 — Completion of din supplies a present religious-order reading, not a direct account-day claim.
+- 107:1 — Denial of din is redundant with earlier denial cards and adds no day detail.
+- 4:53 — Negating a human share of mulk weakly supports exclusive ownership.
+- 7:158 — Universal mulk with life, death, faith, and guidance broadens the sovereignty horizon.
+- 51:60 — The promised day for deniers adds a threat-and-fulfillment aspect.
+- 40:14 — Sincere exclusive din reinforces the present devotional horizon.
+- 56:50 — Gathering at a known appointed day reinforces fixed collective arrival.
+- 39:3 — Pure din and divine judgment amid dispute offer a broad religious-order parallel.
+- 11:105 — Speech by permission and divergent human outcomes add a judgment-day scene.
+- 3:30 — The day exposes every deed, adding personal confrontation with what was done.
+- 3:185 — Full recompense on the resurrection day adds the completion-of-reward dimension.
+- 4:87 — Gathering on the resurrection day reinforces collective final assembly.
+- 6:12 — The pledged gathering on the resurrection day adds certainty of assembly.
+- 6:31 — Meeting God and the burden of deeds add loss and personal consequence.
+- 6:70 — What a self earned becoming its consequence supplies an accountability mechanism.
+- 7:8 — The weighing on that day adds a measure-of-deeds dimension.
+- 7:9 — Light scales and loss add the contrary outcome to the weighing horizon.
+- 11:103 — The gathered and witnessed day adds collective public finality.
+- 14:48 — The transformed earth and exposure before the One directly add sovereign final-event imagery.
+- 18:47 — The leveling and universal gathering add an exposed collective assembly scene.
+- 20:111 — Faces humbled before the Living Sustainer add the standing-before-sovereign dimension.
+- 20:112 — Faithful action without injustice or deprivation adds a just-recompense dimension.
+- 23:101 — The trumpet and severed kinship ties add final-event discontinuity.
+- 23:102 — Heavy scales and success add a measured favorable outcome.
+- 23:103 — Light scales and loss preserve the contrary outcome.
+- 30:12 — The Hour's arrival and despair add an experiential outcome of the event.
+- 37:24 — The command to halt them for questioning adds an interrogative account scene.
+- 42:45 — The assembled and humbled people, with evident loss, add public judgment imagery.
+- 50:22 — Removal of the covering adds disclosure at the final encounter.
+- 52:13 — Being driven toward the fire adds an adverse final outcome.
+- 53:31 — Recompense for evil and reward for goodness adds outcome polarity under divine possession.
+- 57:13 — The separating wall between groups adds a boundary outcome on the day.
+- 57:15 — The refusal of ransom adds the irreversibility of final consequence.
+- 64:9 — The gathering day and mutual loss-gain add an evaluative assembly horizon.
+- 69:13 — The trumpet's single blast adds a decisive event marker.
+- 69:18 — The day of presentation with no secret hidden adds total disclosure.
+- 69:19 — Receipt of the record in the right hand adds a favorable accounting outcome.
+- 69:25 — Receipt of the record in the left hand preserves the contrary accounting outcome.
+- 75:10 — The search for escape on that day adds personal confrontation with finality.
+- 75:12 — The final destination to the Lord directly adds return-to-sovereign imagery.
+- 75:13 — Disclosure of what was sent ahead and left behind adds an account of deeds.
+- 75:30 — Being driven to the Lord adds the culminating return dimension.
+- 77:14 — The question about Yawm al-Fasl reinforces its gravity beyond the earlier naming.
+- 78:17 — Yawm al-Fasl as a fixed appointment reinforces the determined-time dimension.
+- 78:21 — A place of ambush for transgressors adds an adverse outcome scene.
+- 79:34 — The overwhelming event's arrival adds a climactic-event formulation.
+- 79:35 — Remembering one's striving adds the deed-recall dimension.
+- 79:40 — Fear of standing before the Lord adds personal accountability and restraint.
+- 80:33 — The deafening cry adds an overwhelming event image.
+- 80:37 — Each person's absorbing concern adds individualized final accountability.
+- 81:14 — Every self knowing what it brought supplies a concise account-of-deeds formulation.
+- 82:1 — The ruptured sky begins the surrounding final-event sequence.
+- 82:5 — Every self knowing what it advanced and delayed adds exhaustive personal accounting.
+- 84:7 — Receiving one's record in the right hand adds a favorable accounting outcome.
+- 84:8 — An easy account explicitly supplies a mode of reckoning.
+- 84:10 — Receiving the record from behind preserves the contrary outcome.
+- 86:9 — The day when secrets are tested adds disclosure as a judgment feature.
+- 89:23 — The arrival of the final scene and remembrance add irreversible realization.
+- 99:6 — People emerging separately to be shown their deeds adds individual exposure.
+- 101:6 — Heavy scales add a measured favorable judgment outcome.
+- 101:8 — Light scales add the contrary measured outcome.
+- 102:8 — Questioning about blessings adds a further account dimension.
+- 10:104 — Adds the accounting horizon of the day of religion.
+- 15:87 — Fatiha bütünündeki bu ayet, yedili tekrar rotasının hesap ve yöneliş boyutunu taşır.
+- 18:105 — God's mastery of the Day of Recompense provides the overarching horizon for the focus's weighing.
+- 19:33 — The Master of the Day of Judgment gives a concise eschatological frame for being raised alive.
+- 38:81 — Divine sovereignty over the Day of Recompense anchors the endpoint's authority.
+- 42:21 — The Day of Religion supplies the judicial horizon for the focus's promised separation.
+- 44:9 — The Lordship of the day of judgment gives the appointed event its governing horizon.
+- 44:16 — The Master of the Day of Recompense supplies the governing accountability horizon.
+- 49:16 — The Owner of the Day of din gives a compact, foundational accountability frame.
+- 50:41 — The Day of Judgment supplies the governing day-frame for the future event.
+- 50:42 — Judgment-day designation supplies broad terminal framing.
+- 51:13 — Names the Day of judgment that frames the focus.
+- 60:3 — Supplies the governing frame of the Day of requital, without specific bonds or deeds.
+- 74:9 — Names divine mastery of the requital day, though its core role is already well covered.
+- 77:35 — The Master of the Day of Recompense establishes the governing judicial horizon in which speech and excuse are constrained.
+- 78:18 — The Day is defined as the day of recompense, providing its judicial frame.
+- 3:189 — It reiterates universal mulk without adding a new account-day relation.
+- 106:4 — Provision and security only indirectly support the mercy-and-obligation reading.
+- 6:75 — Mulk is present as a cosmic sign, but not as an account-day claim.
+- 109:4 — This repeats the worship-boundary contribution already available above.
+- 46:5 — The resurrection-day limit adds delay but not an account or ownership relation.
+- 109:5 — This repeats the prior reciprocal worship-boundary statement.
+- 2:193 — Din appears in a conflict setting without a clear account-day or ownership contribution.
+- 9:36 — Calendar measure and upright din offer only a distant temporal parallel.
+- 53:26 — The reference is to angels and permission, with no explicit 1:4 relation.
+- 6:159 — Fragmentation of din and later report adds only an indirect consequence frame.
+- 5:120 — This reiterates universal mulk without a new final-day connection.
+- 2:107 — Generic divine mulk and support add little after stronger ownership cards.
+- 9:116 — Mulk with life and death repeats a broad sovereignty claim already established.
+- 2:217 — Apostasy and afterlife consequences only indirectly relate religious adherence to reckoning.
+- 2:256 — A coercion boundary within din adds only a distant present-order reading.
+- 4:136 — The last day is an article of faith here, without an ownership or account scene.
+- 7:14 — Deferral until resurrection day supplies timing but no account or ownership relation.
+- 26:156 — A punishment day offers a general threat but no specific din or ownership link.
+- 60:6 — Hope in God and the last day supplies only a general ethical horizon.
+- 3:55 — Names the day of judgment without the focus's other elements.
+- 6:137 — The day of religion is too general to clarify the focus.
+- 6:161 — The day of dīn has only a secondary lexical relation.
+- 9:11 — Religion in an eschatological sovereignty formula adds little to the focus's communal use of religion.
+- 11:31 — Divine ownership of judgment offers only a general authority parallel.
+- 19:15 — The Day of Judgment is a broad later horizon without the focus's transitions.
+- 26:38 — Lordship over the Day of Judgment does not clarify the staged known-day assembly.
+- 29:65 — Din gününün sahibi oluşu, 29:65'te Allah'a has kılınan dinin nihai hesap yönünü dolaylı destekler.
+- 30:30 — Lordship of the Day of Religion gives limited context for the word religion but not its upright, fitrah-based sense.
+- 31:32 — The day of religion gives a broad lexical context but no direct focus sequence.
+- 40:32 — God's sovereignty over the Day of Recompense gives only a foundational, general frame.
+- 42:13 — Names the day of religion but does not develop the commissioned, unified religion of the focus.
+- 50:30 — Judgment-day designation supplies setting only.
+- 50:34 — Supplies only the broad day-of-reckoning frame.
+- 52:9 — Provides broad accountability framing already supplied by several earlier cards.
+- 70:8 — Judgment-day frame is too general after closer event cards.
+- 73:14 — Mastery of the judgment day gives only a broad frame for the focus's day.
+- 79:32 — The Day of judgment gives a broad temporal frame but no specific anchorage or mountain evidence.
+- 90:14 — Broad f02 time route is redundant and lacks scarcity.
