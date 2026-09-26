@@ -361,6 +361,22 @@ def prep_v11(ref: str) -> None:
         sys.exit(f"v11 prep failed for {ref}:\n{(r.stdout + r.stderr)[-2000:]}")
 
 
+def deliver(args: list[str], target: Path) -> bool:
+    """usage.md from the root dossiers (_projects/root-dossier/deliver.py). A failure is recorded next to the target
+    (usage.error.txt; the run records it in status.json) instead of passing silently; success clears it."""
+    err = target.with_name("usage.error.txt")
+    script = DOSSIER / "deliver.py"
+    if not script.exists():
+        return False
+    r = subprocess.run([sys.executable, str(script), *args, "--out", str(target)], capture_output=True, text=True,
+                       cwd=REPO)
+    if r.returncode:
+        err.write_text(f"deliver.py {' '.join(args)} failed (exit {r.returncode}):\n{r.stderr[-2000:]}\n", encoding="utf-8")
+        return False
+    err.unlink(missing_ok=True)
+    return True
+
+
 def build(ref: str) -> dict[str, int]:
     prep_v11(ref)
     s = int(ref.split(":")[0])
@@ -382,10 +398,7 @@ def build(ref: str) -> dict[str, int]:
             f.write_text(text, encoding="utf-8")
         elif f.exists():
             f.unlink()
-    deliver = DOSSIER / "deliver.py"
-    if deliver.exists():
-        subprocess.run([sys.executable, str(deliver), "ayah", ref, "--out", str(out / "usage.md")],
-                       capture_output=True, text=True, cwd=REPO)
+    deliver(["ayah", ref], out / "usage.md")
     v9w = V9 / "lines" / "work" / f"{s}_{ref.split(':')[1]}"
     pkg = V9 / "input" / "v2" / f"s{s:03d}" / f"{s}_{ref.split(':')[1]}"
     sizes = {}

@@ -185,15 +185,20 @@ def repair_commas(path: Path) -> int:
         n += (ar2 != ar) + (tr2 != tr)
         return f"{{ar:{ar2}, tr:{tr2}, gloss:{gloss}" + (f", source:{src}" if src is not None else "") + "}"
 
-    text = re.sub(r"\{ar:(.*?), tr:(.*?), gloss:([^{}]*?)(?:, source:([^{}]*))?\}", fix, text)
+    text = re.sub(r"\{\s*ar\s*:\s*(.*?)\s*,\s*tr\s*:\s*(.*?)\s*,\s*gloss\s*:\s*([^{}]*?)(?:\s*,\s*source\s*:\s*([^{}]*?))?\s*\}",
+                  fix, text)
     path.write_text(text, encoding="utf-8")
     return n
 
 
 def verify(path: Path) -> tuple[str, list[str]]:
-    out = subprocess.run([PY, str(V11 / "verify_src.py"), str(path), "--fix"], capture_output=True, text=True,
-                         cwd=REPO).stdout.splitlines()
-    return (out[0] if out else "?"), out[1:]
+    """verify_src exits 1 when problems remain (normal); a crash (no summary line) raises, so an unverified reading is
+    never taken for a clean one."""
+    r = subprocess.run([PY, str(V11 / "verify_src.py"), str(path), "--fix"], capture_output=True, text=True, cwd=REPO)
+    out = r.stdout.splitlines()
+    if not out or "exact=" not in out[0]:
+        raise RuntimeError(f"verify_src failed on {path.name}: {(r.stderr or r.stdout)[-600:]}")
+    return out[0], out[1:]
 
 
 _DICT = None
@@ -246,10 +251,12 @@ def validate(path: Path) -> list[str]:
     probe = path.with_name(path.stem + ".validate.tmp.md")
     probe.write_text(re.sub(r"(\{ar:[^{}]*?gloss:[^{}]*?), source:[^{}]*\}", r"\1}", path.read_text(encoding="utf-8")),
                      encoding="utf-8")
-    out = subprocess.run([PY, str(REPO / "_commentary" / "v5" / "validate_prose.py"), str(probe)],
-                         capture_output=True, text=True, cwd=REPO).stdout
+    r = subprocess.run([PY, str(REPO / "_commentary" / "v5" / "validate_prose.py"), str(probe)],
+                       capture_output=True, text=True, cwd=REPO)
     probe.unlink(missing_ok=True)
-    return [l for l in out.splitlines() if ": error:" in l]
+    if "Traceback" in r.stderr or (r.returncode not in (0, 1) and not r.stdout.strip()):
+        raise RuntimeError(f"validate_prose failed on {path.name}: {r.stderr[-600:]}")
+    return [l for l in r.stdout.splitlines() if ": error:" in l]
 
 
 BLOCKING = ("missing", "no-source", "bad-source", "fixable")
@@ -309,20 +316,28 @@ def repair_call(path: Path, problems: list[str], log: Path) -> int:
 
 
 def strip_unverified(path: Path, problems: list[str]) -> int:
-    """Last resort, still automatic: a tag whose Arabic cannot be verified becomes its gloss in plain Turkish."""
-    text = path.read_text(encoding="utf-8")
-    bad = {m.group(2).strip() for m in (re.match(r"line \d+: (missing|bad-source|no-source|fixable)  (.*?)(  |$)", p)
-                                        for p in problems) if m}
+    """Last resort, still automatic: a flagged tag whose Arabic cannot be verified becomes its gloss in plain Turkish.
+    Only the flagged occurrence (its line and Arabic) is touched, never the same Arabic verified elsewhere."""
+    lines = path.read_text(encoding="utf-8").split("\n")
+    bad: dict[int, set[str]] = {}
+    for p in problems:
+        m = re.match(r"line (\d+): (missing|bad-source|no-source|fixable)  (.*?)(  |$)", p)
+        if m:
+            bad.setdefault(int(m.group(1)), set()).add(m.group(3).strip())
     n = 0
+    for ln, ars in bad.items():
+        if not 0 < ln <= len(lines):
+            continue
 
-    def sub(m: re.Match) -> str:
-        nonlocal n
-        if m.group(1).strip() in bad:
-            n += 1
-            return m.group(3).strip()
-        return m.group(0)
+        def sub(m: re.Match) -> str:
+            nonlocal n
+            if m.group(1).strip() in ars:
+                n += 1
+                return m.group(3).strip()
+            return m.group(0)
 
-    path.write_text(TAG_RE.sub(sub, text), encoding="utf-8")
+        lines[ln - 1] = TAG_RE.sub(sub, lines[ln - 1])
+    path.write_text("\n".join(lines), encoding="utf-8")
     return n
 
 
@@ -364,7 +379,7 @@ def check(ref: str) -> dict:
     digest = (p["v9w"] / "digest_v2.md").read_text(encoding="utf-8") if (p["v9w"] / "digest_v2.md").exists() else ""
     related = re.findall(r"(?m)^\s*- (\d{1,3}:\d{1,3}) — ", digest)
     uncited = [r for r in dict.fromkeys(related) if r not in cited]
-    sizes = {l.split("\t")[0]: int(l.split("\t")[1]) for l in (p["in"] / "inputs.tsv").read_text().splitlines() if l}
+    sizes = read_sizes(ref)
     res.update({
         "ledger_findings": sum(len(v) for v in fam.values()),
         "families": {k: len(v) for k, v in fam.items()},
@@ -440,11 +455,21 @@ def render(ref: str) -> None:
     (p["out"] / f"{p['sa']}.md").write_text("\n".join(doc) + "\n", encoding="utf-8")
 
 
+def read_sizes(ref: str) -> dict[str, int]:
+    f = paths(ref)["in"] / "inputs.tsv"
+    out = {}
+    for line in f.read_text(encoding="utf-8").splitlines():
+        parts = line.split("\t")
+        if len(parts) == 2 and parts[1].isdigit():
+            out[parts[0]] = int(parts[1])
+    return out
+
+
 def done(ref: str) -> bool:
     return get_status(ref).get("state") == "done" and (paths(ref)["out"] / f"{paths(ref)['sa']}.md").exists()
 
 
-def ayah(ref: str) -> str:
+def ayah(ref: str, prepped: bool = False) -> str:
     """prep → write → check → render, with status and lock; never raises (the status says what happened)."""
     if done(ref) and not FORCE:
         return f"{ref}: done (skipped)"
@@ -455,8 +480,9 @@ def ayah(ref: str) -> str:
     (p["out"] / "lock").write_text(str(os.getpid()))
     try:
         set_status(ref, state="prep")
-        sizes = prep(ref)
-        set_status(ref, state="writing", input_bytes=sum(sizes.values()))
+        sizes = read_sizes(ref) if prepped and (p["in"] / "inputs.tsv").exists() else prep(ref)
+        usage_err = (p["in"] / "usage.error.txt").read_text(encoding="utf-8")[-300:] if (p["in"] / "usage.error.txt").exists() else ""
+        set_status(ref, state="writing", input_bytes=sum(sizes.values()), usage_error=usage_err)
         u = write(ref)
         set_status(ref, state="checking", **u)
         c = check(ref)
@@ -467,8 +493,8 @@ def ayah(ref: str) -> str:
         return (f"{ref}: done ${st.get('cost', 0):.2f} (in {st.get('in', 0):,} out {st.get('out', 0):,}); "
                 f"ledger {c['ledger_findings']} (new {st['new']}); reading {c['reading_words']} words; "
                 f"verify {c['verify']}; repairs {c['repair_calls']}, stripped {c['stripped']}")
-    except (RuntimeError, SystemExit, subprocess.SubprocessError, OSError, ValueError, KeyError) as e:
-        set_status(ref, state="failed", error=str(e)[-800:])
+    except (Exception, SystemExit) as e:  # noqa: BLE001 — the status records every failure; the run goes on
+        set_status(ref, state="failed", error=f"{type(e).__name__}: {str(e)[-800:]}")
         return f"{ref}: FAILED {str(e)[-300:]}"
     finally:
         (p["out"] / "lock").unlink(missing_ok=True)
@@ -501,10 +527,7 @@ def chains(s: int, win: tuple[int, int] | None = None) -> str:
     files = {"hft.md": I.hft_window(records), "channels.md": I.channels(s, refs=None if (lo, hi) == (1, n) else refs),
              "branch_table.md": I.branch_table(refs, title=f"# branch_table.md — every branch of every root in "
                                                            f"{s}:{lo}–{hi}")}
-    deliver = I.DOSSIER / "deliver.py"
-    if deliver.exists():
-        subprocess.run([PY, str(deliver), "window", f"{s}:{lo}-{hi}", "--out", str(out / "usage.md")],
-                       capture_output=True, text=True, cwd=REPO)
+    I.deliver(["window", f"{s}:{lo}-{hi}"], out / "usage.md")
     for name, text in files.items():
         if text.strip():
             (out / name).write_text(text, encoding="utf-8")
@@ -524,6 +547,8 @@ def chains(s: int, win: tuple[int, int] | None = None) -> str:
         if "===== CHAINS =====" in a and len(b.split()) >= 400 and c.strip():
             break
     else:
+        (out / "check.txt").write_text(json.dumps({"failed": "no usable answer after 2 attempts", "cost": round(total, 3)})
+                                       + "\n", encoding="utf-8")
         return f"surah {s} {lo}-{hi}: FAILED (no usable answer; see {out}/final.*.txt)"
     (out / "chains.md").write_text(a.split("===== CHAINS =====", 1)[-1].strip() + "\n", encoding="utf-8")
     reading = out / f"{s}.surah.tr.md"
@@ -549,7 +574,8 @@ def status(s: int) -> str:
                     f"{d.get('verify', '')}\tstripped {d.get('stripped', '')}\t{d.get('error', '')[:120]}")
     for f in sorted((V12 / "out" / f"s{s:03d}" / "surah").glob("*/check.txt")):
         d = json.loads(f.read_text(encoding="utf-8"))
-        rows.append(f"surah {f.parent.name}\tdone\t${d.get('cost', 0):.2f}\tchains {d.get('chains')}\t{d.get('verify')}")
+        rows.append(f"surah {f.parent.name}\t{'FAILED ' + d['failed'] if d.get('failed') else 'done'}\t"
+                    f"${d.get('cost', 0):.2f}\tchains {d.get('chains', '-')}\t{d.get('verify', '')}")
     return "\n".join(rows)
 
 
@@ -585,7 +611,7 @@ def main() -> None:
         if FORCE or not done(r):
             prep(r)
     with ThreadPoolExecutor(a.parallel) as pool:
-        for line in pool.map(ayah, refs):
+        for line in pool.map(lambda r: ayah(r, prepped=True), refs):
             print(line, flush=True)
     if a.step == "surah" and not a.no_chains:
         s = int(a.ref)
