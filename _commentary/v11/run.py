@@ -86,13 +86,33 @@ def seed_sheets(surah: int) -> list[Path]:
 
 def seeds_for(ref: str) -> str:
     """The seed systems with a member in this ayah, and the seed pass's note for it (from every window)."""
-    out = []
+    out, cited = [], []
     for sheet in seed_sheets(int(ref.split(":")[0])):
         blocks = re.split(r"(?m)^(?=### )", sheet.read_text(encoding="utf-8"))
-        out += [b.strip() for b in blocks if b.startswith("### ") and re.search(rf"(?m)^- members:.*\b{re.escape(ref)}\b", b)]
+        for b in blocks:
+            members = re.search(r"(?ms)^- members:(.*?)(?=^- \w+:|\Z)", b)  # wrapped member lists too
+            if b.startswith("### ") and members and re.search(rf"(?<![\d:]){re.escape(ref)}(?!\d)", members.group(1)):
+                out.append(b.strip())
+                cited += re.findall(r"([\u0621-\u064a](?: [\u0621-\u064a]){1,4}) (B\d{3})", members.group(1))
         notes = sheet.with_name("ayat.md")
         if notes.exists():
             out += [l for l in notes.read_text(encoding="utf-8").splitlines() if re.match(rf"-\s*\**{re.escape(ref)}\b", l)]
+    # the branch-table lines of every cited member (Arabic image and source phrase), so the writer can quote them
+    table = {}
+    for f in (root_out(int(ref.split(":")[0])) / "seeds").glob("*/seeds_input.md"):
+        root = None
+        for line in f.read_text(encoding="utf-8").splitlines():
+            if line.startswith("## ") and not line.startswith("## a."):
+                root = None
+            m = re.match(r"### ([\u0621-\u064a](?: [\u0621-\u064a]){1,4})(?: ~\w+)? — ", line)
+            if m:
+                root = m.group(1)
+            m = re.match(r"- (B\d{3}) ", line)
+            if root and m:
+                table.setdefault((root, m.group(1)), f"- {root} {line[2:]}")
+    lines = [table[k] for k in dict.fromkeys(cited) if k in table]
+    if lines:
+        out.append("Branch lines of the cited members (Arabic you may quote, with `source: root Bnnn`):\n" + "\n".join(lines))
     return "\n\n".join(dict.fromkeys(out))
 
 

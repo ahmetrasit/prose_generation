@@ -88,7 +88,7 @@ def main() -> int:
             problems.append(f"line {line_no}: no-source  {ar}")
             continue
         declared, roots, bad = [], [], []
-        for item in (x.strip() for x in src.split(",") if x.strip()):
+        for item in (re.sub(r"\s*~\w*\s*", " ", x).strip() for x in src.split(",") if x.strip()):
             if re.fullmatch(r"\d{1,3}:\d{1,3}", item):
                 if item in quran:
                     declared.append(quran[item])

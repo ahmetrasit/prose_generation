@@ -10,7 +10,8 @@ surah's words, with the part this ayah's words play in them. Nothing in the evid
 
 - The Quran itself, from the files and from your own knowledge of the whole Quran: any ayah, its exact wording and
   its reference. Every Quran quotation is checked against the canonical text afterwards, so quote exactly.
-- Dictionary senses only from 01_dictionary.md: any Arabic that is not Quran text must be copied from it exactly.
+- Dictionary senses only from 01_dictionary.md and the branch lines quoted in seeds.md: any Arabic that is not
+  Quran text must be copied from them exactly.
   A lexical claim you cannot anchor there may go in the ledger marked [recall], not in the reading.
 - Variant readings from the supplied list; a reading you know that is not listed goes in the ledger marked [recall].
 
@@ -141,7 +142,7 @@ that made the change possible.
 Every tag has exactly four fields in this order: `{ar:ARABIC, tr:transliteration, gloss:Türkçe karşılık, source:…}`.
 `source` says where the Arabic is from, so the reader can check it: the ayah it is quoted from (`source:29:45`), or
 the dictionary branch it is copied from, as the root in Arabic letters with spaces and the branch id
-(`source:ص ل و B006`); several items are comma-separated (`source:1:4, م ل ك B006`). The Arabic must occur in the
+(`source:ص ل و B006`); several items are comma-separated (`source:29:45, ص ل و B006`). The Arabic must occur in the
 declared source (Quran text exactly; dictionary Arabic copied from that branch's line). No comma inside `ar` or `tr`
 (drop the commas of a long transliteration), no colon inside `gloss`, no other field names, no curly braces
 anywhere else. Quote a long ayah in part rather than whole. The same Arabic always gets the same `tr`.

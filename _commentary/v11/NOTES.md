@@ -26,9 +26,14 @@ REVIEW.md plan, items 1–5 + arms. No model call made yet.
 - `run.py --arm B|D|S|S0|Srep`, step `seeds`; `surah` now runs chains; CLAUDE_CODE_MAX_OUTPUT_TOKENS=128000;
   ledger entries get paragraph pointers [¶ n] (non-B arms).
 - `eval/s001_anchors.md`: frozen anchors (G gold 26+6, V5/V11 per-ayah lists, N north-star).
-Run order (each needs the user's go-ahead): `run.py seeds 1 --arm S`, `seeds 1 --arm S0`, `seeds 1 --arm Srep`
-(≈ $1.2–1.5 each) → read sheets vs gold → `run.py all 1:3|1:4|1:7 --arm D` (≈ $5–6) → `run.py surah 1 --arm S`
-(≈ $15–18 incl. chains) → Opus judge (≈ $8–12). Pending the user's yes: seed probe on S29 window 38–63 (≈ $1.3).
+Reviewer check (same session): fixed the S1 leak (the seed prompt's Fatiha example → S103 ʿaṣr; writer source
+example → 29:45 ص ل و B006), seeds_for reads wrapped members and appends the members' branch lines (quotable),
+verify_src accepts ~ flags, staging counts own-root non-primary senses (score / roots^0.3; S1 top: 11:40–45,
+16:5–10, 20:76–81, 6:139–144 …), definitional links print the matching phrase.
+Simplified test (reviewer; D, S0, Srep dropped): 1) `run.py seeds 1 --arm S` (≈ $1.3) → read the sheet against the
+gold (gate); 2) `run.py surah 1 --arm S` (≈ $15, incl. chains); 3) Opus judge vs current v11 and v5 with
+eval/s001_anchors.md (≈ $8); 4) the user reads 1:4, 1:6, 1:7 blind. ≈ $25 total. Each step needs the user's go.
+Pending the user's yes: seed probe on S29 window 38–63 (≈ $1.3).
 
 ## Next steps agreed
 1. Compare S1 v11 (ledgers + chains) with Astra's v5 findings indexes in quran-data:

@@ -77,8 +77,11 @@ class Lex:
             for rid in row.get("rootIds", []):
                 self.rid_keys[rid].add(key)
         self.ayah_roots: dict[str, set[str]] = defaultdict(set)
-        for s, a, key in src.qac.execute("select surah, ayah, root_join_key from qac_morphemes where root_join_key!=''"):
+        self.ayah_lemmas: dict[str, set[tuple[str, str]]] = defaultdict(set)
+        for s, a, key, lemma in src.qac.execute(
+                "select surah, ayah, root_join_key, lemma_ar from qac_morphemes where root_join_key!=''"):
             self.ayah_roots[f"{s}:{a}"].add(key)
+            self.ayah_lemmas[f"{s}:{a}"].add((key, P._norm(lemma)))
 
     def roots(self, text: str) -> set[str]:
         out = set()
@@ -178,11 +181,12 @@ def definitional(src: P.Sources, lex: Lex, roots: dict, key_to_rid: dict) -> lis
         if d["kind"] == "echo":
             continue
         for bid, b in d.get("branches", []):
-            text = f"{b.get('branch_image_ar', '')} {b.get('source_phrase_ar', '')}"
-            hits = {key_to_rid[k] for k in lex.roots(text) if k in key_to_rid} - {rid}
-            if hits:
-                out.append(f"- {root_label(src, rid)} {bid} «{P.clip(first_phrase(b.get('source_phrase_ar', '')) or b.get('branch_image_ar', ''), 90)}» "
-                           f"→ {', '.join(root_label(src, h) for h in sorted(hits))}")
+            segs = [b.get("branch_image_ar", "")] + re.split(r"[؛;]", b.get("source_phrase_ar", "") or "")
+            for seg in segs:
+                hits = {key_to_rid[k] for k in lex.roots(seg) if k in key_to_rid and lex.df.get(k, 0) <= 1500} - {rid}
+                if hits:
+                    out.append(f"- {root_label(src, rid)} {bid} «{P.clip(seg.strip(), 110)}» "
+                               f"→ {', '.join(root_label(src, h) for h in sorted(hits))}")
     if not out:
         return []
     return ["## d. Definitional links: a branch whose Arabic image or source phrase uses another root of the window", ""] + out + [""]
@@ -194,6 +198,7 @@ def staging(src: P.Sources, lex: Lex, roots: dict, key_to_rid: dict, surah: int)
     for k, rid in key_to_rid.items():
         rid_keys[rid].add(k)
     fields = []  # (rid, bid, gloss, field keys)
+    own_fields = []  # (rid, bid, gloss, lemma forms): the surah's own root used on the surface in that sense
     for rid, d in roots.items():
         if d["kind"] != "identity":
             continue
@@ -211,6 +216,9 @@ def staging(src: P.Sources, lex: Lex, roots: dict, key_to_rid: dict, surah: int)
             keys = {k for k in keys if lex.df.get(k, 0) <= COMMON_DF and k not in FILLER} - rid_keys[rid]
             if keys:
                 fields.append((rid, bid, g, keys))
+            own_forms = {P._norm(t) for t in P.concept_tokens(b.get("branch_image_ar", ""))}
+            if own_forms and bid != "B001":
+                own_fields.append((rid, bid, g, own_forms))
     N = 6236
     refs = [r for r in src.quran if not r.startswith(f"{surah}:") and not r.endswith(":0")]
     by_surah = defaultdict(list)
@@ -222,17 +230,21 @@ def staging(src: P.Sources, lex: Lex, roots: dict, key_to_rid: dict, surah: int)
         for i in range(0, max(1, len(rs) - STAGE_W + 1)):
             win = rs[i:i + STAGE_W]
             present = set().union(*(lex.ayah_roots[r] for r in win))
+            lemmas = set().union(*(lex.ayah_lemmas[r] for r in win))
             hit = defaultdict(list)
             for rid, bid, g, keys in fields:
                 m = keys & present
                 if m:
                     hit[rid].append((bid, g, m))
+            for rid, bid, g, forms in own_fields:
+                m = {k for k, l in lemmas if l in forms and k in rid_keys[rid]}
+                if m:
+                    hit[rid].append((bid, g, m))
             surface = {rid for rid in roots if roots[rid]["kind"] == "identity" and rid_keys[rid] & present}
             if len(hit) < 3:
                 continue
-            own = {r for r in surface if lex.df.get(next(iter(rid_keys[r]), ""), N) <= 1500}
             score = (sum(max(max(math.log(N / lex.df[k]) for k in m) for _, _, m in v) for v in hit.values())
-                     * (1 + 0.5 * len(own)) / math.sqrt(len(present)))  # dense, not merely long; own roots on the surface
+                     / len(present) ** 0.3)  # dense, not merely long
             scored.append((score, win, hit, surface))
     scored.sort(key=lambda x: -x[0])
     out, used = [], set()

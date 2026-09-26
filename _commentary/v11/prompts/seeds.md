@@ -10,11 +10,9 @@ branches whose own dictionary phrase uses another root of the window.
 
 A reader who knows no Arabic hears only the primary sense of each word. A careful Arabic listener also hears the
 other attested senses of the same roots, and when several of them, from different words and ayat, fit together
-into one working picture, the surah says something through that picture that no single word says. Example (the
-Fatiha): the road runs under the surah — ʿālamīn has a branch "way-marks that guide", mālik "the middle of the
-road" and "the lead animal", naʿbudu "a road made smooth by treading", ṣirāṭ "the road that swallows its
-travellers", ḍāllīn "the stray animal whose owner is unknown" — and the prayer becomes a traveller's prayer to the
-rabb who leads the flock; another system runs through water (gathered water, the water-source that keeps life, rain).
+into one working picture, the surah says something through that picture that no single word says. Example (surah 103): the branches of ع ص ر — press, rain-cloud, husk, choking throat,
+withholding, refuge, yield — are one idea, retention under compression; that makes خسر audible as leakage from
+what is pressed, and the surah's close on صبر (holding fast) structurally necessary rather than a pious ending.
 Your task is to find such systems in this window: **all of them the evidence supports**, including ones nobody has
 proposed.
 
@@ -28,7 +26,7 @@ evidence, not from caution.
 1. Read the whole branch table before judging anything. Coalition before judgement: a branch that looks weak alone
    can be the missing member of a system; once a system forms, re-read the weak members against it. Do not prune
    early.
-2. A system is **complementary roles in motion** (source → conduit → guide → traveller → loss …), not a list of words
+2. A system is **complementary roles in motion** (source → carrier → gate → receiver → loss …), not a list of words
    from one field. Name its mechanism: what supplies, leads, obstructs, carries or loses what.
 3. Test each system against the Quran: where does the Quran tell this scene **openly**, in plain words (section c
    lists candidates, most of them noise; your own knowledge of the Quran is welcome — quotations are checked)? Such
