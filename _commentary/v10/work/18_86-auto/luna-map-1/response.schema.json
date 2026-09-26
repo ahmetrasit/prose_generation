@@ -1,0 +1,126 @@
+{
+  "type": "object",
+  "properties": {
+    "focus_ref": {
+      "type": "string"
+    },
+    "reading_question": {
+      "type": "string"
+    },
+    "movements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "question": {
+            "type": "string"
+          },
+          "chain_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "branch_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ayah_roles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ref": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "ref",
+                "role"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "relationship": {
+            "type": "string"
+          },
+          "focus_change": {
+            "type": "string"
+          },
+          "boundary": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "question",
+          "chain_ids",
+          "branch_refs",
+          "ayah_roles",
+          "relationship",
+          "focus_change",
+          "boundary"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "coverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "chain_id": {
+            "type": "string"
+          },
+          "disposition": {
+            "type": "string",
+            "enum": [
+              "develop",
+              "merge",
+              "defer",
+              "unsupported"
+            ]
+          },
+          "movement_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "chain_id",
+          "disposition",
+          "movement_ids",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "focus_ref",
+    "reading_question",
+    "movements",
+    "coverage",
+    "unresolved"
+  ],
+  "additionalProperties": false
+}

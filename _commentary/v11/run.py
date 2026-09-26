@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import subprocess
 import sys
@@ -88,7 +89,8 @@ def opus(prompt: str, stdin: str, log: Path) -> str:
     r = subprocess.run(["claude", "-p", "--model", "opus", "--effort", "high", "--tools", "", "--strict-mcp-config",
                         "--output-format", "stream-json", "--verbose", "--no-session-persistence",
                         "--system-prompt", SYSTEM],
-                       input=prompt + "\n\n" + stdin, capture_output=True, text=True, cwd=REPO)
+                       input=prompt + "\n\n" + stdin, capture_output=True, text=True, cwd=REPO,
+                       env={**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "128000"})  # no CLI "output limit hit" resume
     log.write_text(r.stdout or json.dumps({"error": r.stderr[-3000:]}), encoding="utf-8")
     text = []
     for line in (r.stdout or "").splitlines():
