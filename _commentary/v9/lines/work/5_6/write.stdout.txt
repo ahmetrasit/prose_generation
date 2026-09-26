@@ -1,0 +1,7 @@
+== 5:6 write
+  synth.py 5:6 --arm w10-opus
+    w10-opus: 2143 words, 28 distinct refs, 44 Arabic tags; Arabic/prose problems 2: line 39: missing لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ ... حَرَجٌ; line 41: missing إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ ... وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ
+  usage.py 5:6
+      w10-opus/run.log.json                            claude-opus  turns  1 tools   0 in         2 cached     2,694 out  18,119 reas       0 cost $3.693
+  w10-opus-cold/run.log.json                       claude-opus  turns  1 tools   0 in         2 cached     2,694 out  52,840 reas       0 cost $1.364
+== TOTAL 42 sessions: in 2,050,322 cached 587,020 out 866,703 reasoning 542,284 tool calls 0

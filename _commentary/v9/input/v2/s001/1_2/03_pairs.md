@@ -1,0 +1,279 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 222.
+## ح م د (ٱلْحَمْدُ)
+
+- **B001** yermenin karşıtı olan, iyilik için teşekkürü de kapsayan övgü / الحمد خلاف الذم
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - near: ع ب د B006 saygı gösterilip hizmet edilen kişi / التكريم والتعظيم ← 1:5 نَعْبُدُ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+- **B002** deneyip övülesi ya da uygun bulma / وجود الشيء محمودا
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 1:2 رَبِّ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - near: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 1:5 نَعْبُدُ
+- **B003** övülen veya birçok övülesi niteliği bulunan kimse / المحمود كثير الخصال
+  - same: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - near: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ن ع م B003 övgü ve beğeni bildirmek / مدح الشيء بنعم ← 1:7 أَنْعَمْتَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B004** övülesi işin varılabilecek en ileri sınırı / حماداك الغاية المحمودة
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 1:2 رَبِّ
+  - near: ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 1:7 أَنْعَمْتَ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 1:5 نَعْبُدُ
+  - near: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 1:4 مَٰلِكِ
+- **B005** iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة
+  - same: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - same: ر ب و B004 soluğu yükselip sıkışmak / تصعد النفس وانتفاخه ← 1:2 رَبِّ
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - near: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 1:4 مَٰلِكِ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 1:1 ٱلرَّحْمَٰنِ
+
+## ء ل ه (لِلَّهِ)
+
+- **B001** tapınma ve tapınılan varlık / التعبد والمعبود
+  - same: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 1:2 رَبِّ
+  - same: ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+  - near: ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 1:5 نَعْبُدُ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 1:1 بِسْمِ
+- **B002** Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء
+  - same: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+  - same: ر ب و B007 baba tarafından yakın hane halkının arasına gelmek / أهل البيت من بني الأعمام ← 1:2 رَبِّ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 1:1 بِسْمِ
+  - near: م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 1:4 مَٰلِكِ
+  - near: ه د ي B005 kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم ← 1:6 ٱهْدِنَا
+
+## ر ب ب (رَبِّ)
+
+- **B001** sahip olup yönetme / ربوبية وملك وسيادة
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - near: م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 1:4 مَٰلِكِ
+  - near: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:1 ٱللَّهِ
+  - near: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+- **B002** adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 1:2 رَبِّ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+- **B003** Tanrı bilgisiyle yetiştiren bilgin / علم رباني
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 1:4 مَٰلِكِ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 1:1 بِسْمِ
+- **B004** büyük insan topluluğu / ربة وجماعات كثيرة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ب د B010 her yana dağılmış kümeler, nesneler veya yollar / التفرق في الوجوه ← 1:5 نَعْبُدُ
+  - near: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 1:1 بِسْمِ
+- **B005** bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ر ح م B002 yakın soy bağı / الرَّحِم والقرابة ← 1:1 ٱلرَّحْمَٰنِ
+  - near: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+- **B006** koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ن ع م B002 yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش ← 1:7 أَنْعَمْتَ
+- **B007** bir yerde kalıp sürme / لزوم وإقامة ودوام
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+- **B008** katmanlı asılı bulut kümesi / رباب السحاب
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+  - near: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+- **B009** başlangıçtaki tazelik / شاة رُبّى وحداثة
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 1:2 رَبِّ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ر ح م B004 döl yatağı hastalığı ve doğum sonrası bozukluk / وجع الرَّحِم بعد الولادة ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ه د ي B003 bir şeyin ilk veya öndeki bölümü / المتقدم الهادي وأوائل الشيء ← 1:6 ٱهْدِنَا
+  - near: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 1:6 ٱلْمُسْتَقِيمَ
+- **B010** kura oklarını toplayan kap / ربابة تجمع القداح
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ر ح م B002 yakın soy bağı / الرَّحِم والقرابة ← 1:1 ٱلرَّحْمَٰنِ
+  - near: غ ض ب B008 belirli hayvan derileri veya kalkan gibi katlanmış deri / جلد صلب أو مطوي كدرقة ← 1:7 ٱلْمَغْضُوبِ
+  - near: و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 1:1 بِسْمِ
+- **B011** bağlayıcı söz ve güvence / ربابة عهد وميثاق
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - near: د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 1:4 ٱلدِّينِ
+  - near: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+- **B012** belirli bir yeşil bitki türü / ربة نبات
+  - same: ر ب و B002 yükselmiş arazi / أرض مرتفعة ← 1:2 رَبِّ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 1:1 بِسْمِ
+  - near: ن ع م B009 yumuşak esen nemli güney rüzgarı / النعامى ريح لينة ← 1:7 أَنْعَمْتَ
+  - near: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+- **B013** bol ve toplanmış su / ماء رَبَب كثير
+  - same: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - near: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B014** yaban sığırı sürüsü / رَبْرَب قطيع
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ع و ن B006 yaban eşeği sürüsü / العانة قطيع الحمر ← 1:5 نَسْتَعِينُ
+  - near: ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+  - near: س م و B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد ← 1:1 بِسْمِ
+- **B015** azlık bildiren ilgeç / حرف رب وربما
+  - same: ر ب و B001 artmak veya yükselmek / زيادة وعلو ← 1:2 رَبِّ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - near: ن ع م B003 övgü ve beğeni bildirmek / مدح الشيء بنعم ← 1:7 أَنْعَمْتَ
+  - near: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:1 ٱللَّهِ
+- **B016** gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 1:1 ٱلرَّحْمَٰنِ
+- **B017** gemicilerin başı / رباني الملاحين
+  - same: ر ب و B003 belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة ← 1:2 رَبِّ
+  - same: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ح م د B003 övülen veya birçok övülesi niteliği bulunan kimse / المحمود كثير الخصال ← 1:2 ٱلْحَمْدُ
+  - near: ع ب د B012 güzel koku maddesi ezme taşı / صَلاءة الطيب ← 1:5 نَعْبُدُ
+  - near: م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 1:4 مَٰلِكِ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+
+## ر ب و (رَبِّ)
+
+- **B001** artmak veya yükselmek / زيادة وعلو
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 1:1 بِسْمِ
+  - near: ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 1:7 أَنْعَمْتَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B002** yükselmiş arazi / أرض مرتفعة
+  - same: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 1:2 رَبِّ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - same: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - near: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 1:1 بِسْمِ
+  - near: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+  - near: غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+- **B003** belirli işlem biçimleriyle sınırlı anapara fazlalığı / زيادة الربا في المعاملة
+  - same: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 1:2 رَبِّ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - near: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 1:4 ٱلدِّينِ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+- **B004** soluğu yükselip sıkışmak / تصعد النفس وانتفاخه
+  - same: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+  - near: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - near: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 1:1 بِسْمِ
+- **B005** besleyip büyütmek ve yetişmek / تغذية ونشوء
+  - same: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - same: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ن ع م B002 yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش ← 1:7 أَنْعَمْتَ
+  - near: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 1:5 نَعْبُدُ
+  - near: ر ح م B003 döl yatağı / رَحِم الأنثى ← 1:1 ٱلرَّحْمَٰنِ
+- **B006** uyluk kökü ve iç yanlardaki iki çıkıntılı et parçası / نتوء أصل الفخذ
+  - same: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+  - same: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 1:2 ٱلْعَٰلَمِينَ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - near: ر ح م B003 döl yatağı / رَحِم الأنثى ← 1:1 ٱلرَّحْمَٰنِ
+  - near: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+- **B007** baba tarafından yakın hane halkının arasına gelmek / أهل البيت من بني الأعمام
+  - same: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 1:2 رَبِّ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - same: ع ل م B007 erkek sırtlan / ذكر الضباع يسمى العيلام ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:1 ٱللَّهِ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+
+## ع ل م (ٱلْعَٰلَمِينَ)
+
+- **B001** bilme ve gerçeğini kavrama / انكشاف الشيء للعارف
+  - same: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 1:2 رَبِّ
+  - same: ح م د B001 yermenin karşıtı olan, iyilik için teşekkürü de kapsayan övgü / الحمد خلاف الذم ← 1:2 ٱلْحَمْدُ
+  - same: ر ب و B005 besleyip büyütmek ve yetişmek / تغذية ونشوء ← 1:2 رَبِّ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - near: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - near: م ل ك B002 sahiplik ve tasarruf yetkisi / المِلْك والتصرف ← 1:4 مَٰلِكِ
+- **B002** ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه
+  - same: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 1:2 رَبِّ
+  - same: ح م د B001 yermenin karşıtı olan, iyilik için teşekkürü de kapsayan övgü / الحمد خلاف الذم ← 1:2 ٱلْحَمْدُ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: و س م B001 tanıtıcı fiziksel iz koyma, iz ve araç / أثر وسم ظاهر يجعل الشيء معروفا ← 1:1 بِسْمِ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - near: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+- **B004** üst dudak yarığı / شق ظاهر في الشفة العليا
+  - same: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 1:2 رَبِّ
+  - same: ر ب و B004 soluğu yükselip sıkışmak / تصعد النفس وانتفاخه ← 1:2 رَبِّ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+- **B005** deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم
+  - same: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+  - same: ر ب و B002 yükselmiş arazi / أرض مرتفعة ← 1:2 رَبِّ
+  - same: ح م د B003 övülen veya birçok övülesi niteliği bulunan kimse / المحمود كثير الخصال ← 1:2 ٱلْحَمْدُ
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - near: غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 1:6 ٱلْمُسْتَقِيمَ
+- **B006** doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام
+  - same: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 1:2 رَبِّ
+  - same: ر ب و B004 soluğu yükselip sıkışmak / تصعد النفس وانتفاخه ← 1:2 رَبِّ
+  - same: ء ل ه B002 Yaratıcıya özgü ad ile seslenme ve ant biçimleri / اسم الله في القسم والنداء ← 1:2 لِلَّهِ
+  - near: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 1:7 أَنْعَمْتَ
+  - near: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: س م و B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد ← 1:1 بِسْمِ
+- **B007** erkek sırtlan / ذكر الضباع يسمى العيلام
+  - same: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 1:2 رَبِّ
+  - same: ر ب و B007 baba tarafından yakın hane halkının arasına gelmek / أهل البيت من بني الأعمام ← 1:2 رَبِّ
+  - same: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: س م و B001 fiziksel ya da toplumsal yükselme / العلو والارتفاع ← 1:1 بِسْمِ
+  - near: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 1:7 أَنْعَمْتَ
+  - near: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+

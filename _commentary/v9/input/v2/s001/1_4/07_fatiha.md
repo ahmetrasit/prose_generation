@@ -1,0 +1,84 @@
+# Fatiha lens (recited in every salah; standing context)
+
+- 1:1 بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+
+## Focus branches × Fatiha branches (top 3 by distinct root)
+
+- **م ل ك B001 güçlü ve tutarlı biçimde bir arada durma / قوة الشيء وتماسكه**
+  - ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 1:6 ٱلْمُسْتَقِيمَ
+  - غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+- **م ل ك B002 sahiplik ve tasarruf yetkisi / المِلْك والتصرف**
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+  - د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+- **م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان**
+  - ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+- **م ل ك B004 evlilik akdi kurma / الإملاك والتزويج**
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - ه د ي B006 gelini eşinin yanına götürme / العروس المهدية إلى زوجها ← 1:6 ٱهْدِنَا
+  - د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+- **م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده**
+  - ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+- **م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي**
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+- **م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر**
+  - ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+- **م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان**
+  - ه د ي B003 bir şeyin ilk veya öndeki bölümü / المتقدم الهادي وأوائل الشيء ← 1:6 ٱهْدِنَا
+  - ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+- **ي و م B001 güneşin doğuşundan batışına kadarki gün / وقت النهار المحدود**
+  - ق و م B017 güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة ← 1:6 ٱلْمُسْتَقِيمَ
+  - د ي ن B002 yargılayıp hesap görerek karşılığını verme / الحساب والجزاء ← 1:4 ٱلدِّينِ
+  - ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **ي و م B002 herhangi bir zaman dilimi; bağlama göre devir / مدة من الزمان**
+  - د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 1:4 ٱلدِّينِ
+  - ع و ن B003 yinelenmiş veya öncülü olan savaş / الحرب العَوان ← 1:5 نَسْتَعِينُ
+  - غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته**
+  - ق و م B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ن ع م B003 övgü ve beğeni bildirmek / مدح الشيء بنعم ← 1:7 أَنْعَمْتَ
+  - غ ي ر B002 cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية ← 1:7 غَيْرِ
+- **د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد**
+  - ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 1:5 نَعْبُدُ
+  - ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:1 ٱللَّهِ
+  - ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+- **د ي ن B002 yargılayıp hesap görerek karşılığını verme / الحساب والجزاء**
+  - ق و م B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+- **د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي**
+  - غ ي ر B002 cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية ← 1:7 غَيْرِ
+  - ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+  - ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 1:5 نَعْبُدُ
+- **د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك**
+  - ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - م ل ك B002 sahiplik ve tasarruf yetkisi / المِلْك والتصرف ← 1:4 مَٰلِكِ
+  - ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:1 ٱللَّهِ
+- **د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن**
+  - ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 1:2 رَبِّ
+  - ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+- **د ي ن B006 kent / مدينة الطاعة**
+  - ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 1:6 ٱلْمُسْتَقِيمَ
+  - ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - ع ب د B003 boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة ← 1:5 نَعْبُدُ
+- **د ي ن B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme / التصديق والتفويض**
+  - ن ع م B004 evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق ← 1:7 أَنْعَمْتَ
+  - ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 1:6 ٱلْمُسْتَقِيمَ
+  - م ل ك B002 sahiplik ve tasarruf yetkisi / المِلْك والتصرف ← 1:4 مَٰلِكِ

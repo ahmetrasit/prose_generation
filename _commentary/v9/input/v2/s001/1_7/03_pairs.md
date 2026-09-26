@@ -1,0 +1,258 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 204.
+## ص ر ط (صِرَٰطَ)
+
+- **B001** yol, özellikle düz yol / الطريق المستقيم
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - near: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 1:4 مَٰلِكِ
+  - near: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+- **B002** geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+- **B003** vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+
+## ن ع م (أَنْعَمْتَ)
+
+- **B001** iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 1:3 ٱلرَّحْمَٰنِ
+  - near: ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+- **B002** yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - near: ق و م B009 ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 1:3 ٱلرَّحْمَٰنِ
+- **B003** övgü ve beğeni bildirmek / مدح الشيء بنعم
+  - same: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - same: ض ل ل B004 bir şeyi unutmak veya bellekte tutamamak / ضياع الحفظ ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - near: ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+- **B004** evet diyerek onaylamak veya söz vermek / الجواب بنعم والتصديق
+  - same: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - same: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:7 صِرَٰطَ
+  - near: د ي ن B007 kişiyi sözüne ve vicdani sorumluluğuna göre değerlendirme / التصديق والتفويض ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B005** develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - near: ه د ي B005 kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم ← 1:6 ٱهْدِنَا
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 1:2 رَبِّ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+- **B006** devekuşu / النعام والنعامة الطائر
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+  - same: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - near: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 1:2 ٱلْعَٰلَمِينَ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+- **B007** devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة
+  - same: غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:7 صِرَٰطَ
+  - near: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+- **B008** bir topluluğun dağılıp gücünü yitirmesi / طيران النعامة وتفرق القوم
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - same: ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ب د B010 her yana dağılmış kümeler, nesneler veya yollar / التفرق في الوجوه ← 1:5 نَعْبُدُ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B009** yumuşak esen nemli güney rüzgarı / النعامى ريح لينة
+  - same: غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ي ر B002 cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية ← 1:7 غَيْرِ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+- **B010** daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - same: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - same: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ح م د B004 övülesi işin varılabilecek en ileri sınırı / حماداك الغاية المحمودة ← 1:2 ٱلْحَمْدُ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+- **B011** bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام
+  - same: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - same: ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 1:7 ٱلضَّآلِّينَ
+  - near: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+- **B012** birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها
+  - same: ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - near: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+  - near: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 1:5 نَعْبُدُ
+  - near: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 1:1 بِسْمِ
+- **B013** birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين
+  - same: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 1:7 ٱلضَّآلِّينَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+  - near: ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+
+## غ ي ر (غَيْرِ)
+
+- **B001** yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+- **B002** cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية
+  - same: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - near: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 1:4 ٱلدِّينِ
+- **B003** biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره
+  - same: ض ل ل B004 bir şeyi unutmak veya bellekte tutamamak / ضياع الحفظ ← 1:7 ٱلضَّآلِّينَ
+  - same: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - same: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - near: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 1:4 ٱلدِّينِ
+- **B004** eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل
+  - same: غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+  - same: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - near: ر ب ب B005 bakımla kurulan üvey aile bağı / ربيب وربيبة ورابة ← 1:2 رَبِّ
+  - near: ه د ي B006 gelini eşinin yanına götürme / العروس المهدية إلى زوجها ← 1:6 ٱهْدِنَا
+- **B005** başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي
+  - same: ن ع م B003 övgü ve beğeni bildirmek / مدح الشيء بنعم ← 1:7 أَنْعَمْتَ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - same: ض ل ل B004 bir şeyi unutmak veya bellekte tutamamak / ضياع الحفظ ← 1:7 ٱلضَّآلِّينَ
+  - near: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+
+## غ ض ب (ٱلْمَغْضُوبِ)
+
+- **B001** şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - near: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+- **B002** biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - same: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+  - same: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 1:7 ٱلضَّآلِّينَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **B003** karşı koyup muhalefet etmek / المراغمة والمخالفة
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 1:1 بِسْمِ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 1:3 ٱلرَّحْمَٰنِ
+- **B004** sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - near: م ل ك B001 güçlü ve tutarlı biçimde bir arada durma / قوة الشيء وتماسكه ← 1:4 مَٰلِكِ
+- **B005** kalın derili ya da çok kızıl / غلظ الجسم وشدة الحمرة
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: ن ع م B002 yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: و س م B006 yaprakları boya olarak kullanılan bitki / وسمة يخضب بورقها ← 1:1 بِسْمِ
+- **B006** üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها
+  - same: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ب د B008 incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب ← 1:5 نَعْبُدُ
+- **B007** somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 1:7 أَنْعَمْتَ
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B008** belirli hayvan derileri veya kalkan gibi katlanmış deri / جلد صلب أو مطوي كدرقة
+  - same: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:7 صِرَٰطَ
+  - same: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - near: ر ب ب B010 kura oklarını toplayan kap / ربابة تجمع القداح ← 1:2 رَبِّ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 1:2 ٱلْعَٰلَمِينَ
+
+## ض ل ل (ٱلضَّآلِّينَ)
+
+- **B001** doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - same: غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:7 صِرَٰطَ
+  - near: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - near: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 1:4 مَٰلِكِ
+- **B002** gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - same: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - near: ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+  - near: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+- **B003** bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء
+  - same: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - same: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - same: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+  - near: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - near: ع ب د B011 bineği yüzünden yolda kalma veya güçlükle direnen deve / العطب والانقطاع ← 1:5 نَعْبُدُ
+  - near: ح م د B002 deneyip övülesi ya da uygun bulma / وجود الشيء محمودا ← 1:2 ٱلْحَمْدُ
+- **B004** bir şeyi unutmak veya bellekte tutamamak / ضياع الحفظ
+  - same: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - same: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+- **B005** sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة
+  - same: ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+  - same: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:7 صِرَٰطَ
+  - near: ر ب ب B015 azlık bildiren ilgeç / حرف رب وربما ← 1:2 رَبِّ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - near: ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+

@@ -1,0 +1,230 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 180.
+## ع ب د (نَعْبُدُ)
+
+- **B001** özgür olmayan, sahip olunan kişi / الرق والملك
+  - same: ع ي ن B012 ertelenmiş ödemeli alımla para edinme / العينة والسلف ← 1:5 نَسْتَعِينُ
+  - same: ع و ن B006 yaban eşeği sürüsü / العانة قطيع الحمر ← 1:5 نَسْتَعِينُ
+  - near: م ل ك B002 sahiplik ve tasarruf yetkisi / المِلْك والتصرف ← 1:4 مَٰلِكِ
+  - near: د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+- **B003** boyun eğerek itaat ve tapınma / العبادة والطاعة الخاضعة
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ي ن B012 ertelenmiş ödemeli alımla para edinme / العينة والسلف ← 1:5 نَسْتَعِينُ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: م ل ك B003 hükümdarlık ve kamusal egemenlik / المُلك والسلطان ← 1:4 مَٰلِكِ
+- **B004** köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد
+  - same: ع ي ن B004 kötü bakışla zarar verme / الإصابة بالعين ← 1:5 نَسْتَعِينُ
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - near: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - near: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 1:7 أَنْعَمْتَ
+- **B005** düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية
+  - same: ع ي ن B007 su sızdıran ince delik / عين الجلد والسقاء ← 1:5 نَسْتَعِينُ
+  - same: ع و ن B005 bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة ← 1:5 نَسْتَعِينُ
+  - near: د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - near: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **B006** saygı gösterilip hizmet edilen kişi / التكريم والتعظيم
+  - same: ع ي ن B003 koruyup gözetme / عين الحفظ والرعاية ← 1:5 نَسْتَعِينُ
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - near: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+- **B007** güç, sağlamlık ve dayanıklılık / القوة والصلابة
+  - same: ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - same: ع ي ن B012 ertelenmiş ödemeli alımla para edinme / العينة والسلف ← 1:5 نَسْتَعِينُ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+  - near: غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - near: م ل ك B001 güçlü ve tutarlı biçimde bir arada durma / قوة الشيء وتماسكه ← 1:4 مَٰلِكِ
+- **B008** incinmiş gurur, öfke veya kederli iç duygulanım / الأنفة والغضب
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ي ن B017 kimse veya orada bulunan insanlar / العين بمعنى الناس الحاضرون ← 1:5 نَسْتَعِينُ
+  - near: د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - near: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+- **B009** gecikmeden yapmak veya koşuda biraz hızlanmak / قلة اللبث وسرعة العدو
+  - same: ع ي ن B002 gözle görüp kesin biçimde tanıma / المشاهدة بالعين ← 1:5 نَسْتَعِينُ
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - near: ه د ي B010 sakin, ölçülü ve düzgün ilerleyiş / هدي السكون وحسن الهيئة ← 1:6 ٱهْدِنَا
+  - near: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: ن ع م B010 daha da artırmak veya ileri dereceye götürmek / زاد وأنعم في الفعل ← 1:7 أَنْعَمْتَ
+- **B010** her yana dağılmış kümeler, nesneler veya yollar / التفرق في الوجوه
+  - same: ع ي ن B017 kimse veya orada bulunan insanlar / العين بمعنى الناس الحاضرون ← 1:5 نَسْتَعِينُ
+  - same: ع و ن B005 bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة ← 1:5 نَسْتَعِينُ
+  - near: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 1:2 رَبِّ
+  - near: ن ع م B008 bir topluluğun dağılıp gücünü yitirmesi / طيران النعامة وتفرق القوم ← 1:7 أَنْعَمْتَ
+  - near: غ ي ر B005 başka olma, dışta bırakma veya olumsuzlama / السوى والخلاف والاستثناء والنفي ← 1:7 غَيْرِ
+- **B011** bineği yüzünden yolda kalma veya güçlükle direnen deve / العطب والانقطاع
+  - same: ع ي ن B004 kötü bakışla zarar verme / الإصابة بالعين ← 1:5 نَسْتَعِينُ
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - near: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ء ل ه B001 tapınma ve tapınılan varlık / التعبد والمعبود ← 1:2 لِلَّهِ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+- **B012** güzel koku maddesi ezme taşı / صَلاءة الطيب
+  - same: ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - same: ع ي ن B014 bir şeyin en iyi ve seçkin bölümü / العين خيار الشيء ← 1:5 نَسْتَعِينُ
+  - near: د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B017 gemicilerin başı / رباني الملاحين ← 1:2 رَبِّ
+  - near: س م و B008 insanlar arasında yayılan iyi ün / الصيت الحسن المنتشر ← 1:1 بِسْمِ
+
+## ع و ن (نَسْتَعِينُ)
+
+- **B001** yardım, destek ve dayanışma / الإعانة والمظاهرة
+  - same: ع ي ن B004 kötü bakışla zarar verme / الإصابة بالعين ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+- **B002** yaşça orta evrede olan / العَوان بين السنين
+  - same: ع ي ن B016 geniş ve güzel gözlü olma / سعة العين وحسنها ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - near: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+- **B003** yinelenmiş veya öncülü olan savaş / الحرب العَوان
+  - same: ع ي ن B002 gözle görüp kesin biçimde tanıma / المشاهدة بالعين ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ح م د B003 övülen veya birçok övülesi niteliği bulunan kimse / المحمود كثير الخصال ← 1:2 ٱلْحَمْدُ
+- **B004** yaşlı hurma ağacı / النخلة العَوانة القديمة
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - same: ع ي ن B015 önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة ← 1:5 نَسْتَعِينُ
+  - near: غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+- **B005** bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - same: ع ي ن B009 göze benzer çukur, yer veya eğim / النقرة أو الموضع العيني ← 1:5 نَسْتَعِينُ
+  - near: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+  - near: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+- **B006** yaban eşeği sürüsü / العانة قطيع الحمر
+  - same: ع ي ن B016 geniş ve güzel gözlü olma / سعة العين وحسنها ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 1:2 رَبِّ
+  - near: س م و B006 av için ıssız araziye çıkma ve buna bağlı avcı kullanımları / الخروج للصيد ← 1:1 بِسْمِ
+  - near: ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+- **B007** erkekte kasık kılları / عانة الرجل
+  - same: ع ي ن B004 kötü bakışla zarar verme / الإصابة بالعين ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: ه د ي B011 övgü veya yergi şiiri sunma ve şiirle yergileşme / إهداء الشعر ومهاداته ← 1:6 ٱهْدِنَا
+  - near: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+- **B008** bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة
+  - same: ع ي ن B004 kötü bakışla zarar verme / الإصابة بالعين ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: د ي ن B006 kent / مدينة الطاعة ← 1:4 ٱلدِّينِ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - near: ر ب ب B016 gereksinim, sıkı düğüm veya iyilik / رُبَى حاجة وعقدة ونعمة ← 1:2 رَبِّ
+
+## ع ي ن (نَسْتَعِينُ)
+
+- **B001** gören göz / العين الناظرة
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: و س م B002 belirtiden karakter veya durum sezme / سمة يرى بها الناظر دلالة الحال ← 1:1 بِسْمِ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+- **B002** gözle görüp kesin biçimde tanıma / المشاهدة بالعين
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **B003** koruyup gözetme / عين الحفظ والرعاية
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B006 saygı gösterilip hizmet edilen kişi / التكريم والتعظيم ← 1:5 نَعْبُدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ض ل ل B004 bir şeyi unutmak veya bellekte tutamamak / ضياع الحفظ ← 1:7 ٱلضَّآلِّينَ
+- **B004** kötü bakışla zarar verme / الإصابة بالعين
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 1:5 نَعْبُدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - near: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 1:4 ٱلدِّينِ
+- **B005** haber toplayan gizli gözcü / العين الجاسوسة
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+- **B006** akan su kaynağı / منبع الماء الجاري
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: ع ل م B005 deniz ya da suyu bol kuyu / ماء كثير مجتمع في عيلم ← 1:2 ٱلْعَٰلَمِينَ
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - near: ر ب ب B013 bol ve toplanmış su / ماء رَبَب كثير ← 1:2 رَبِّ
+- **B007** su sızdıran ince delik / عين الجلد والسقاء
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - same: ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+  - near: ر ب ب B006 koyu öz veya yağ tortusu / رُبّ خاثر وإصلاح به ← 1:2 رَبِّ
+  - near: غ ض ب B008 belirli hayvan derileri veya kalkan gibi katlanmış deri / جلد صلب أو مطوي كدرقة ← 1:7 ٱلْمَغْضُوبِ
+  - near: ع ل م B004 üst dudak yarığı / شق ظاهر في الشفة العليا ← 1:2 ٱلْعَٰلَمِينَ
+- **B008** güneş yuvarlağı / عين الشمس
+  - same: ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ي و م B001 güneşin doğuşundan batışına kadarki gün / وقت النهار المحدود ← 1:4 يَوْمِ
+- **B009** göze benzer çukur, yer veya eğim / النقرة أو الموضع العيني
+  - same: ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+- **B010** belirli yönden gelen bulut veya dinmeyen yağmur / عين السحاب والمطر
+  - same: ع و ن B008 bir yer adı ve o yere bağlanan şarap adı / النسبة إلى عانة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: ر ب ب B008 katmanlı asılı bulut kümesi / رباب السحاب ← 1:2 رَبِّ
+  - near: س م و B004 üstteki gök veya örtü ve buna bağlı üstten gelen ya da üstte bulunan şeyler / السماء وما علا فأظل ← 1:1 بِسْمِ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+- **B011** hemen elde bulunan para / النقد الحاضر
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - same: ع و ن B006 yaban eşeği sürüsü / العانة قطيع الحمر ← 1:5 نَسْتَعِينُ
+  - near: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 1:4 ٱلدِّينِ
+  - near: ق و م B015 tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+- **B012** ertelenmiş ödemeli alımla para edinme / العينة والسلف
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ق و م B010 değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: د ي ن B003 borç alıp verme ve vadeli ödeme ilişkisi / الدين المالي ← 1:4 ٱلدِّينِ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+- **B013** şeyin bizzat kendisi ve belirlenmiş olanı / عين الشيء نفسه
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **B014** bir şeyin en iyi ve seçkin bölümü / العين خيار الشيء
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+- **B015** önde gelen kişiler veya anne baba bir kardeşler / أعيان القوم والإخوة
+  - same: ع و ن B006 yaban eşeği sürüsü / العانة قطيع الحمر ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 1:2 رَبِّ
+  - near: ر ح م B002 yakın soy bağı / الرَّحِم والقرابة ← 1:3 ٱلرَّحْمَٰنِ
+- **B016** geniş ve güzel gözlü olma / سعة العين وحسنها
+  - same: ع و ن B002 yaşça orta evrede olan / العَوان بين السنين ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: ق و م B021 göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ر ب ب B014 yaban sığırı sürüsü / رَبْرَب قطيع ← 1:2 رَبِّ
+- **B017** kimse veya orada bulunan insanlar / العين بمعنى الناس الحاضرون
+  - same: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+  - same: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+

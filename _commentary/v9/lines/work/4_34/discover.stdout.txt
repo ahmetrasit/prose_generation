@@ -1,0 +1,13 @@
+== 4:34 discover
+  luna_pass.py run 4:34 --parallel 6
+    check: 2 problem(s); kept lines 370 of 701
+N70: lines 'rro-' should be 4 codes of r/n/-
+N95: lines 'n---' should be 3 codes of r/n/-
+  run.py run 4:34 --parallel 18
+    usage_2.md: 7 records, 0 problem(s)
+usage_3.md: 7 records, 0 problem(s)
+usage_4.md: 5 records, 0 problem(s)
+  run.py check 4:34
+    usage_2.md []
+usage_3.md []
+usage_4.md []

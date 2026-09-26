@@ -81,7 +81,8 @@ def run_w10(ref: str, arm: str) -> None:
     if len(text.split()) < 300:
         sys.exit(f"{arm}: no reading (see {out / 'final.txt'})")
     (out / f"{sa}.reading.tr.md").write_text(text.strip() + "\n", encoding="utf-8")
-    problems, _ = R.reading_problems(out / f"{sa}.reading.tr.md", w)
+    # quotes are checked against the evidence the writer saw (the dictionary arm: the script package with 01_dictionary)
+    problems, _ = R.reading_problems(out / f"{sa}.reading.tr.md", dictionary.parent if dic else w)
     body = (out / f"{sa}.reading.tr.md").read_text(encoding="utf-8")
     print(f"{arm}: {len(body.split())} words, {len(set(re.findall(r'(\d{1,3}:\d{1,3})', body)))} distinct refs, "
           f"{body.count('{ar:')} Arabic tags; Arabic/prose problems {len(problems)}"

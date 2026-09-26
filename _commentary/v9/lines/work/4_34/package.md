@@ -1,0 +1,2715 @@
+# Package for 4:34
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### H1 عَلِيًّا — 18 roots converge
+Plain sense of عَلِيًّا: yukarı yükselme ve yüksekte olma (السمو والارتفاع)
+- **H1.1** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأكبر هو الله، الله ما فعلت تريد والله، اللهم بمعنى يا ألله، لاه أبوك، لهنك، لهنا، يا ألله اغفر لي (tahdhib)؛ الله قيل أصله إله فحذفت همزته وأدخل عليها الألف واللام فخص بالباري تعالى (mufradat) (also H7.1, T11)
+  - evidence: lex/src: تعالي → root ع ل و || Luna (complement): The name ٱللَّهُ in vocative use meets عَلِيًّا as high or exalted. It makes the closing clause sound like an address to the High One.
+- **H1.2** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: as H1.1 (also H7.2, T9)
+  - evidence: lex/src: تعالي → root ع ل و || Luna (complement): The name used for calling upon God stands beside the predicate that declares Him high. The invocation and attribute complete one another in the verse’s divine c
+- **H1.3** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهَ (5 dictionaries); source: as H1.1 (also H7.3, T10)
+  - evidence: lex/src: تعالي → root ع ل و || Luna (complement): Allah’s name can be heard as a call, and عَلِيًّا names height. Together they make the coda sound like an address to the Most High.
+- **H1.4** [dictionary] ب غ ي B002 «uygun, mümkün veya hak edilmiş olmak» الانبغاء والمطاوعة لما يليق أو يتيسر — word تَبْغُوا۟ (4 dictionaries); source: ما ينبغي لك أن تفعل كذا؛ بغيته فانبغى (maqayis)؛ لا ينبغي لك أن تفعل كذا وما انبغى لك (ayn)؛ ينبغي لك أن تفعل كذا هو من أفعال المطاوعة (sihah)؛ ينبغي مطاوع بغى؛ لا يتسخر ولا يتسهل له؛ على معنى الاستئهال (mufradat) (also H2.1, L1.2, L5.3)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.5** [dictionary] ب غ ي B003 «haddi aşarak haksızlık etmek» تجاوز الحد بالعدوان والظلم — word تَبْغُوا۟ (4 dictionaries); source: جنس من الفساد؛ أن يبغي الإنسان على آخر؛ البغي الظلم (maqayis)؛ البغي الظلم والباغي الظالم (ayn)؛ البغي التعدي؛ بغى الرجل على الرجل استطال؛ كل مجاوزة في الحد وإفراط على المقدار فهو بغي؛ تباغوا أي بغى بعضهم على بعض (sihah)؛ البغي على ضربين؛ تجاوز الحق إلى الباطل؛ بغى تكبر (mufradat) (also H2.2, H3.1, H7.4, L5.1, T5)
+  - evidence: lex/src: علي → root ع ل و || Luna (opposite): Human overreach is set beside divine highness. The contrast makes the prohibition a check on claiming the elevation that belongs to God.
+- **H1.6** [dictionary] ب غ ي B004 «yaranın şişip bozulması veya içinde irin kalmış halde kapanması» فساد الجرح وتجاوزه — word تَبْغُوا۟ (3 dictionaries); source: بغى الجرح إذا ترامى إلى فساد (maqayis)؛ بغى الجرح ورم وترامى إلى فساد؛ برئ جرحه على بغى وفيه شيء من نغل (sihah)؛ بغى الجرح تجاوز الحد في فساده (mufradat) (also H2.3, L5.2)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.7** [dictionary] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَٰفِظَٰتٌ (3 dictionaries); source: الحفاظ المحافظة على الأمور (maqayis)؛ المحافظة المواظبة على الأمور من الصلوات والعلم ونحوه (ayn)؛ المحافظة المواظبة على الأمر (tahdhib)؛ حافظ على الأمر والعمل وثابر عليه (tahdhib) (also H2.4, L1.4, L3.1, L7.2)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.8** [dictionary] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَفِظَ (3 dictionaries); source: as H1.7 (also H2.5, L1.5, L3.2, L7.3, L10.1, L12.1)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.9** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَٰفِظَٰتٌ (5 dictionaries); source: الحفاظ المحافظة على المحارم ومنعها عند الحروب (ayn)؛ أهل الحفائظ المحامون من وراء إخوانهم مانعون لعوراتهم (ayn)؛ حافظت على الرجل محافظة وحفاظا إذا حفظته في مغيبه (jamhara)؛ إن الحفائظ تنقض الأحقاد (jamhara;sihah)؛ الحفاظ المحافظة على العهد والمحاماة على الحرم (tahdhib)؛ الوفاء بالعقد والتمسك بالود (tahdhib)؛ فروجهم حافظون كناية عن العفة (mufradat)؛ حافظات للغيب أي يحفظن عهد الأزواج (mufradat) (also H2.6, H3.4, H6.1, T12)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.10** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَفِظَ (5 dictionaries); source: as H1.9 (also H2.7, H3.5, H6.2, H10.7)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.11** [dictionary] خ و ف B002 «korku doğurma ya da korkulur kılma» إدخال الخوف في الغير — word تَخَافُونَ (3 dictionaries); source: ومنه التخويف والإخافة؛ طريق مخوف يخافه الناس ومخيف يخيف الناس؛ خوفت الرجل جعلت فيه الخوف؛ خوفت الرجل أي صيرته بحال يخافه الناس (ayn)؛ الإخافة التخويف؛ وجع مخيف أي يخيف من رآه؛ طريق مخوف لأنه لا يخيف وإنما يخيف فيه قاطع الطريق (sihah)؛ التخويف من الله تعالى هو الحث على التحرز؛ ذلك يخوف الله به عباده؛ الشيطان يخوف أولياءه (mufradat) (also H2.8, H3.6, H4.3, L1.6)
+  - evidence: lex/src: تعالي → root ع ل و
+- **H1.12** [dictionary] خ و ف B005 «korkunun kişide dışa vurması» ظهور الخوف على الإنسان — word تَخَافُونَ (1 dictionaries, sole attestation); source: والتخوف ظهور الخوف من الإنسان (mufradat) (also H2.9)
+  - evidence: lex/image: علي → root ع ل و
+- **H1.13** [dictionary] ر ج ل B003 «yaya giden kişi» المشي على الأرجل — word ٱلرِّجَالُ (5 dictionaries); source: الرجل الرجالة (maqayis)؛ هذا رجل أي راجل (ayn)؛ الرجل خلاف الفارس (sihah)؛ اشتق من الرجل رجل وراجل للماشي بالرجل (mufradat)؛ رجل رجيل أي قوي على المشى (sihah)؛ ترجل القوم نزلوا على دوابهم (ayn)؛ حرة رجلاء يصعب فيها المشي (jamhara) (also H2.10, H4.8, H10.1)
+  - evidence: lex/image: علي → root ع ل و
+- **H1.14** [dictionary] ر ج ل B004 «birinin devrinde» زمان الرجل — word ٱلرِّجَالُ (3 dictionaries); source: كان ذاك على رجل فلان أي في زمانه (maqayis)؛ كان ذلك على رجل فلان أي في عهده وزمانه (sihah)؛ استعير الرجل لزمان الإنسان (mufradat) (also H2.11)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.15** [dictionary] ر ج ل B009 «ayak benzetmeli özel adlar» رجل القوس والميسم — word ٱلرِّجَالُ (3 dictionaries); source: رجل القوس سيتها العليا (maqayis)؛ رجل القوس سيتها السفلى (ayn;sihah)؛ رجل الطائر ضرب من الميسم (maqayis)؛ رجل الطائر ميسم (sihah)؛ رجل الغراب ضرب من صر أخلاف النوق (maqayis)؛ رجل الغراب ضرب من الابل لا يقدر الفصل على أن يرضع معه (sihah) (also H2.12)
+  - evidence: lex/src: عليا → root ع ل و || Luna (same): The divine predicate sounds spatially high. Taking the attested upper-tip sense of رِجْلُ القوس, the phrase briefly pictures elevation as the raised end of a bo
+- **H1.16** [dictionary] ر ج ل B016 «dik duran pişirme kazanı» المرجل المنصوب — word ٱلرِّجَالُ (4 dictionaries); source: المرجل مشتق من هذا أيضا لأنه إذا نصب فكأنه أقيم على رجل (maqayis)؛ المرجل معروف عربي صحيح (jamhara)؛ المرجل قدر من نحاس (sihah)؛ المرجل القدر المنصوبة (mufradat) (also H2.13, T6)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.17** [dictionary] ر ج ل B018 «hayvanın biniciye ödetilmeyen vuruş zararı» الرِّجل جبار — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: الرجل جبار وهو أن تنفحه الدابة ليس على راكبها غرم وهو هدر (ayn) (also H2.14)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.18** [dictionary] ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: فلان قائم على رجل إذا جد في أمر حزبه (ayn) (also H2.15, H10.2)
+  - evidence: lex/image: علي → root ع ل و
+- **H1.19** [dictionary] س ب ل B004 «aşağı doğru salmak» إرخاء من علو إلى سفل — word سَبِيلًا (6 dictionaries); source: إرسال شيء من علو إلى سفل؛ أسبلت الستر أسبلت السحابة ماءها (maqayis)؛ الفرس أسبل ذنبه والمرأة أسبلت ذيلها؛ رجل مسبال عادته إسبال ثيابه (ayn)؛ أسبلت الستر إسبالا إذا أرخيته؛ أسبل الرجل إزاره (jamhara)؛ أسبل المطر والدمع إذا هطل؛ أسبل إزاره أي أرخاه (sihah)؛ الفرس يسبل ذنبه والمرأة تسبل ذيلها؛ أسبل فلان ثيابه إذا طولها وأرسلها إلى الأرض (tahdhib)؛ أسبل الستر والذيل وفرس مسبل الذنب (mufradat) (also H3.7, L3.5)
+  - evidence: lex/image: علو → root ع ل و || Luna (opposite): The cloth or rain descends from above while the coda names exalted height. Their opposed directions make the high-and-low axis audible across the verse.
+- **H1.20** [dictionary] س ب ل B006 «üst dudak ve sakal önündeki sarkan kıl» شعر منسدل عند الفم واللحية — word سَبِيلًا (6 dictionaries); source: سبال الإنسان من هذا لأنه شعر منسدل (maqayis)؛ السبلة ما على الشفة العليا من الشعر (ayn)؛ السبلة ما أسبل من شعر الشارب في اللحية (jamhara)؛ السبلة الشارب والجمع السبال (sihah)؛ السبلة مقدم اللحية وما أسبل منها على الصدر (tahdhib)؛ خص السبلة بشعر الشفة العليا لما فيها من التحدر (mufradat) (also H2.16)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.21** [dictionary] س ط ع B001 «havada uzama, yükselme veya yayılma» امتداد الشيء وارتفاعه في الهواء — word أَطَعْنَكُمْ (echo root, sound family only; 4 dictionaries); source: أصل يدل على طول الشيء وارتفاعه في الهواء (maqayis)؛ كل شيء ينتشر فينبسط نحو البرق والغبار والريح الطيبة (ayn)؛ سطع الغبار والرائحة والصبح إذا ارتفع (sihah)؛ سطع ضوؤه في السماء والبرق يسطع في السماء وسطع السهم فشخص في السماء وسطعت الرائحة إذا فاحت (tahdhib) (also H2.17, L2.6, T7)
+  - evidence: lex/src: علي → root ع ل و || Luna (same): The rare image of سطع rising through the air meets the highness in عَلِيًّا. Both senses make elevation explicit.
+- **H1.22** [dictionary] ض ر ب B005 «birinin giriştiği işi engellemek» الحجر على اليد — word وَٱضْرِبُوهُنَّ (4 dictionaries); source: ضرب فلان على يد فلان إذا حجر عليه (maqayis;sihah;tahdhib)؛ ضرب يده إلى كذا وضرب على يد فلان حبس عليه أمرا (ayn) (also L6.4, L11.3)
+  - evidence: lex/image: علي → root ع ل و
+- **H1.23** [dictionary] ض ر ب B010 «kişiye ya da toprağa yüklenen mali ödeme» المال المضروب على أحد — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: الضريبة ما يضرب على الإنسان من جزية وغيرها (maqayis)؛ الضريبة غلة تضرب على العبد (ayn;tahdhib)؛ وظيفة أو إتاوة يأخذها الملك (jamhara)؛ الضرائب التي تؤخذ في الأرصاد والجزية (sihah)؛ ضرائب الأرضين في وظائف الخراج (tahdhib) (also H5.8, H8.2, T14)
+  - evidence: lex/image: علي → root ع ل و
+- **H1.24** [dictionary] ض ر ب B015 «yoğun bal veya karışıp koyulaşmış süt» الغليظ المخلوط من عسل أو لبن — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: الضريب من اللبن ما خلط محضه بحقينه والضرب العسل الغليظة (maqayis)؛ الضرب العسل الخالص والضريب من اللبن والضريب الشهد (ayn)؛ الضريب اللبن الخاثر والضرب العسل الصلب (jamhara)؛ الضرب العسل الأبيض الغليظ وضريب الشول لبن يحلب بعضه على بعض (sihah)؛ الضرب العسل الأبيض الغليظ والضريب من عدة من الإبل (tahdhib) (also L2.7)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.25** [dictionary] ض ر ب B017 «çatışmaya kışkırtmak» إلهاب الناس إلى الفعل — word وَٱضْرِبُوهُنَّ (3 dictionaries); source: التضريب بين القوم الإغراء (sihah)؛ التضريب تحريض الشجاع في الحرب (tahdhib)؛ التضريب التحريض كأنه حث على الضرب (mufradat) (also L9.2)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.26** [dictionary] ط و ع B006 «iç benliğin işi kolay gösterip yöneltmesi» تسهيل النفس للأمر — word أَطَعْنَكُمْ (4 dictionaries); source: قد تطوع لك طوعا إذا انقاد (ayn); فطوعت له نفسه رخصت وسهلت (sihah); فتابعته نفسه (tahdhib); شجعته (tahdhib); أعانته على ذلك وأجابته إليه (tahdhib); سمحت وسهلت له نفسه (tahdhib); أسمحت له قرينته وانقادت له وسولت (mufradat) (also H2.19)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.27** [dictionary] غ ي ب B004 «kişiyi yokluğunda iyi ya da kötü anma» ذكر الإنسان في غيبته — word لِّلْغَيْبِ (5 dictionaries); source: الغيبة الوقيعة في الناس؛ الغيبة من الاغتياب؛ اغتابه اغتيابا إذا وقع فيه؛ يتكلم خلف إنسان مستور بما يغمه لو سمعه؛ لا يتناول رجلا بظهر الغيب بما يسوءه مما هو فيه؛ غاب إذا ذكر إنسانا بخير أو شر؛ الغيبة فعلة منه تكون حسنة وقبيحة؛ يذكر الإنسان غيره بما فيه من عيب (also H3.16, L6.5)
+  - evidence: lex/src: فعلا → root ع ل و
+- **H1.28** [dictionary] ف ض ل B002 «nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme» الدرجة والفضيلة — word فَضَّلَ (5 dictionaries); source: الفضيلة الدرجة والرفعة في الفضل (ayn); الفضيلة الدرجة الرفيعة في الفضل (tahdhib); الفضل والفضيلة خلاف النقص والنقيصة (sihah); الفضل إذا استعمل لزيادة أحد الشيئين على الآخر فعلى ثلاثة أضرب (mufradat); التفاضل بين القوم أن يكون بعضهم أفضل من بعض (tahdhib); فاضلته ففضلته إذا غلبته بالفضل (sihah) (also H2.23, L2.13, L5.5, T2)
+  - evidence: lex/src: علي → root ع ل و || Luna (same): The rare sense of فَضَّلَ is rank and elevated merit; عَلِيًّا is highness. The pair makes preference an act of raising one’s standing.
+- **H1.29** [dictionary] ف ض ل B003 «başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme» الإحسان والعطية — word فَضَّلَ (5 dictionaries); source: الإفضال الإحسان (maqayis;sihah); أفضل فلان على فلان أناله من فضله وأحسن إليه (ayn;tahdhib); التفضل التطول على غيرك (ayn;tahdhib); كل عطية لا تلزم من يعطي يقال لها فضل (mufradat); رجل مفضال كثير الخير والمعروف (tahdhib) (also H2.24, H3.17, H5.12, H8.6, L1.10)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.30** [dictionary] ف ض ل B004 «akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme» ادعاء الفضل — word فَضَّلَ (4 dictionaries); source: المتفضل فالمدعي للفضل على أضرابه وأقرانه (maqayis); المتفضل أيضا الذي يدعي الفضل على أقرانه (sihah); يريد أن يكون له الفضل عليكم في القدر والمنزلة وليس من التفضل الذي هو بمعنى الإفضال والتطول (ayn;tahdhib) (also H2.25, H7.13, L1.11, T1)
+  - evidence: lex/src: علي → root ع ل و || Luna (same): The rare sense is claiming a higher rank over peers; عَلِيًّا means elevation. The pair repeats the language of superiority as social height.
+- **H1.31** [dictionary] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قَوَّٰمُونَ (5 dictionaries); source: القومة ما بين الركعتين من القيام؛ قمت قياما؛ منها هامد ومنها قائم (ayn;tahdhib)؛ قام الرجل قياما؛ القومة المرة الواحدة؛ قامت الدابة وقفت (sihah)؛ قيام بالشخص إما بتسخير أو اختيار؛ ساجدا وقائما؛ تركتموها قائمة على أصولها (mufradat)؛ قام قياما والقومة المرة الواحدة إذا انتصب (maqayis) (also H2.26, H3.19, L2.14, L3.12, T15)
+  - evidence: lex/src: علي → root ع ل و || Luna (image): The root’s bodily standing lends a concrete vertical axis to the human role. عَلِيًّا turns that axis toward God’s exalted height, placing bodily uprightness be
+- **H1.32** [dictionary] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قَوَّٰمُونَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القائم على كل شيء (tahdhib)؛ قيام للشيء هو المراعاة للشيء والحفظ له؛ قوامين لله؛ القيوم القائم الحافظ لكل شيء (mufradat)؛ قام بهذا الأمر إذا اعتنقه؛ قوام الدين والحق أي به يقوم (maqayis) (also H2.27, L1.13, L6.6, L11.1)
+  - evidence: lex/src: علي → root ع ل و || Luna (complement): Human stewardship is placed beneath the divine predicate of exaltedness. The coda makes qiwāma sound like a limited responsibility under a higher authority.
+- **H1.33** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: رمح قويم ورجل قويم؛ القيمة الملة المستقيمة؛ إذا انقاد واستمرت طريقته فقد استقام (ayn)؛ الاستقامة الاعتدال؛ استقام له الأمر؛ قومت الشيء فهو قويم أي مستقيم؛ القوام العدل؛ دينا قيما (sihah)؛ الاستقامة على الطاعة؛ القيم هو المستقيم؛ أقوم كلاما أي أعدل كلاما (tahdhib)؛ الاستقامة في الطريق الذي يكون على خط مستو؛ استقامة الإنسان لزومه المنهج المستقيم؛ دينا قيما أي ثابتا (mufradat) (also H2.28, H3.20, H4.5, L1.1, L2.17, L4.8)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.34** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوَّٰمُونَ (4 dictionaries); source: القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر؛ قائم السيف مقبضه؛ قائمة السرير والخوان والدابة (ayn)؛ القامة البكرة بأداتها؛ قائم السيف وقائمته مقبضه؛ القائمة واحدة قوائم الدواب؛ المقوم الخشبة التي يمسكها الحراث (sihah)؛ القامة البكرة التي يستقى بها الماء؛ النعامة الخشبة المعترضة ثم تعلق القامة؛ قائم السيف مقبضه وما سوى ذلك فهو قائمة (tahdhib)؛ القامة البكرة بأداتها (maqayis) (also H2.29, H3.22, T8)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.35** [dictionary] ك ب ر B005 «saygınlık ve önderlikte yüksek konum» رفعة الشرف والرئاسة — word كَبِيرًا (6 dictionaries); source: الرفعة في الشرف (ayn)؛ ورثوا المجد كابرا عن كابر (maqayis;jamhara;sihah;tahdhib;mufradat)؛ كبيرهم أعلمهم كأنه كان رئيسهم (tahdhib)؛ إنه لكبيركم أي رئيسكم (mufradat)؛ الكابر السيد والكابر الجد الأكبر (tahdhib) (also L1.14)
+  - evidence: rel/near_synonym: ع ل و B002 (yüksek değer ve şeref) || Luna (same): The rare sense of كَبِيرًا is honor and leadership, while عَلِيًّا is elevation. Both express high standing, one by rank and the other by height.
+- **H1.36** [dictionary] ك ب ر B010 «bir işin birine ağır ve güç gelmesi» الكبر مشقة وثقل — word كَبِيرًا (4 dictionaries); source: إذا أردت الأمر العظيم قلت كبر علينا كبارة (ayn)؛ فإذا أردت الأمر العظيم قلت كبر علينا كبارة (sihah)؛ كبر الأمر يكبر كبارة (tahdhib)؛ تستعمل الكبيرة فيما يشق ويصعب (mufradat)؛ كبر على المشركين ما تدعوهم إليه (mufradat) (also H2.30, L9.4)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.37** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كَانَ (2 dictionaries); source: الكيانة الكفالة؛ كنت على فلان أكون كونا أي تكفلت به؛ اكتنت به اكتيانا مثله (sihah); كنت على فلان أكون عليه إذا كفلت به؛ اكتنت أيضا اكتيانا (maqayis) (also H2.31, L6.7, L11.2, T4)
+  - evidence: lex/image: علي → root ع ل و
+- **H1.38** [dictionary] ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة — word كَانَ (1 dictionaries, sole attestation); source: الكينة في قولهم بات فلان بكينة سوء أي بحال سوء فأصله الكون فعلة من الكون (maqayis) (also L5.7)
+  - evidence: lex/src: فعلا → root ع ل و
+- **H1.39** [dictionary] ن ش ز B004 «eşinden soğuyup evlilik ilişkisine karşı koyma» نشوز الزوجين — word نُشُوزَهُنَّ (5 dictionaries); source: نشزت المرأة استصعبت على بعلها (maqayis); نشز بعلها جفاها وضربها (maqayis;sihah); نشزت المرأة أي استعصت على زوجها (ayn;tahdhib); نشوز المرأة بغضها لزوجها ورفع نفسها عن طاعته (mufradat); النشوز يكون من الزوجين وهو كراهة كل واحد منهما صاحبه (tahdhib) (also H2.32, L7.6, L8.8)
+  - evidence: lex/src: علي → root ع ل و || Luna (image): A spouse’s relational rising is heard beneath God’s true height. The coda places household conflict under a scale of elevation that belongs ultimately to God.
+- **H1.40** [dictionary] ن ف ق B002 «bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma» خروج المال في النفقة — word أَنفَقُوا۟ (5 dictionaries); source: النَّفَقَة لأنها تمضي لوجهها (maqayis); النَّفَقَة ما أنفقت واستنفقت على العيال ونفسك (ayn;tahdhib); أنفقت الدرهم من النَّفَقَة ورجل منقاق كثير النَّفَقَة (sihah); الإنفاق قد يكون في المال وفي غيره واجبا وتطوعا (mufradat); أنفق الرجل افتقر وذهب ما عنده أو ماله (maqayis;sihah;tahdhib;mufradat) (also H2.33, H3.26, H8.4)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.41** [dictionary] ه ج ر B007 «hayvanın ayaklarını bağlayan ip» الربط بالهجار — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: أصل على شد شيء وربطه (maqayis)؛ الهجار مخالف للشكال تشد به يد الفحل إلى إحدى رجليه (ayn;tahdhib)؛ الهجار حبل يشد في حقو البعير ثم يشد في أحد رسغي يديه (jamhara)؛ الهجار حبل يشد في رسغ رجل البعير ثم يشد إلى حقوه (sihah)؛ الهجار حبل يشد به الفحل (mufradat)؛ هجار القوس وترها (sihah;tahdhib;mufradat) (also H2.34, H3.29)
+  - evidence: lex/src: علي → root ع ل و
+- **H1.42** [judged] ر ج ل B012 «günün yükselip aydınlığın yayılması» ترجل النهار — word ٱلرِّجَالُ (5 dictionaries); source: ترجل النهار إذا ارتفع (maqayis;ayn;sihah)؛ ترجلت الضحى إذا انبسطت (jamhara)؛ ترجل النهار انحطت الشمس عن الحيطان (mufradat) (also H6.8, L2.3, T13)
+  - evidence: Luna (same): The closing predicate names highness, echoing the day's ascent. The divine attribute acquires a concrete image of light rising.
+- **H1.43** [judged] ر ج ل B013 «kuyuya iple indirilmeden inmek» نزول البئر بلا تدلية — word ٱلرِّجَالُ (5 dictionaries); source: ترجلت في البئر إذا نزلت فيها من غير أن تدلى (maqayis)؛ ترجلت البئر أي نزلتها من غير تدل (ayn)؛ ترجل الرجل في البئر إذا رمى بنفسه فيها (jamhara)؛ ترجل في البئر أي نزل فيها من غير أن يدلى (sihah)؛ ترجل في البئر تشبيها بذل… (also L2.4)
+  - evidence: Luna (opposite): The descent into a well pulls against the closing image of divine height. Hearing both makes the coda span the low depth and the exalted height.
+- **H1.44** [judged] س ط ع B003 «ev direği» العمود المنصوب وما شبه به — word أَطَعْنَكُمْ (echo root, sound family only; 3 dictionaries); source: السطاع عمود من عمد البيت (maqayis)؛ السطاع عمود البيت (sihah)؛ السطاع عمود من أعمدة البيت وللبعير الطويل سطاع تشبيها بسطاع البيت (tahdhib) (also H3.33)
+  - evidence: Luna (image): The tent pillar gives physical form to the coda’s height. The image lets divine highness appear as a support rising above the household scene.
+- **H1.45** [judged] ض ج ع B008 «dolu kovanın eğilmesi veya dolu çuvalın boşaltılması» ميل الممتلئ وتفريغه — word ٱلْمَضَاجِعِ (1 dictionaries); source: دلو ضاجعة أي ممتلئة؛ دلو ضاجعة ملأى ماء تميل؛ أضجع فلان جوالقه إذا كان ممتلئا ففرغه (tahdhib) (also H4.10)
+  - evidence: Luna (opposite): The bucket tilts downward to empty, while عَلِيًّا names height and elevation. The two senses set lowering against rising.
+- **H1.46** [judged] ض ر ب B014 «vurma aracı, bölgesi, yeri veya işi» موضع الضرب وآلته وصنعته — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: مضرب السيف المكان الذي يضرب به منه (maqayis)؛ الضريبة مضرب السيف والصوف يضرب بالمطرق (ayn)؛ مضرب السيف والمضرب المكان والفسطاط (jamhara)؛ المضراب الذي يضرب به العود وضرب النجاد المضربة (sihah)؛ المضرب فسطاط الملك والضري…
+  - evidence: Luna (image): A raised part or striking tool gives physical form to height. Beside عَلِيًّا, the abstract exaltation can be heard through an elevated instrument or structure.
+- **H1.47** [judged] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قَوَّٰمُونَ (5 dictionaries); source: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب… (also H3.21, L2.18, L3.15)
+  - evidence: Luna (same): Bodily height resonates with the predicate of divine height. The shared vertical dimension moves from human stature to exaltedness.
+- **H1.48** [judged] ك ب ر B003 «gözünde büyütüp hayrete düşmek» إعظام الشيء في الصدر — word كَبِيرًا (5 dictionaries); source: أكبرت الشيء استعظمته (maqayis)؛ أكبرت الشيء أكبره إكبارا إذا عظم في صدرك وعجبت منه (jamhara)؛ أكبرت الشيء استعظمته (sihah)؛ أكبرنه أعظمنه (tahdhib)؛ أكبرت الشيء رأيته كبيرا (mufradat)
+  - evidence: Luna (image): To hold something great in the chest is to raise its value inwardly, and عَلِيًّا means highness. The pair makes divine height a matter of esteem as well as ver
+- **H1.49** [judged] ك ب ر B006 «ululuk ve kendini üstün görme» العظمة والكبرياء — word كَبِيرًا (6 dictionaries); source: الكبر العظمة وكذلك الكبرياء (maqayis)؛ الكبرياء اسم للتكبر والعظمة (ayn)؛ تكبر إذا تعظم (jamhara)؛ الكبر بالكسر العظمة وكذلك الكبرياء (sihah)؛ يتكبرون أي يرون أنهم أفضل الخلق (tahdhib)؛ الكبر الحالة التي يتخصص بها الإنس… (also H9.7, L4.10, L10.4)
+  - evidence: Luna (image): Self-exalting pride rides the same vertical axis as height. The closing pair can make a claim to greatness echo against the image of elevation.
+- **H1.50** [judged] ك ب ر B011 «üstünlük yarışına girip yenmek» المكابرة والغلبة — word كَبِيرًا (1 dictionaries, sole attestation); source: كابرني فكبرته أي غلبته (ayn) (also L9.5)
+  - evidence: Luna (image): To prevail is to get on top, and عَلِيًّا means highness. The closing pair pictures elevation as having the upper hand.
+- **H1.51** [judged] ك ب ر B013 «günün yükseldiği vakit» أكبر النهار — word كَبِيرًا (1 dictionaries, sole attestation); source: أكبر النهار وشباب النهار أي حين ارتفع النهار (tahdhib) (also L2.19, T3)
+  - evidence: Luna (image): The day at its high point meets the plain highness of عَلِيًّا. Together they form an image of height reaching its culmination.
+- **H1.52** [judged] ه ج ر B008 «benzerlerini aşan üstünlük» المجاوزة في الحسن والتمام — word وَٱهْجُرُوهُنَّ (4 dictionaries); source: هذا شيء هجر أي لا نظير له (maqayis)؛ هذا أهجر من هذا أي أكرم (maqayis;sihah)؛ أهجرت الجارية إذا شبت شبابا حسنا (jamhara)؛ ناقة مهجرة أي فائقة في الشحم والسير (sihah)؛ كل شيء جاوز حده في تمامه إنه لمهجر (tahdhib)؛ نخلة م… (also H7.15, L5.9)
+  - evidence: Luna (same): The rare sense includes a palm exceeding others in height. عَلِيًّا names highness, so the two senses meet in the image of surpassing elevation.
+- surah ayat these members touch (chain material): 4:1 (ق و م B002, ق و م B012) → 4:3 (ق و م B002, ق و م B008, ق و م B012, ك و ن B003) → 4:5 (ر ج ل B019, ك و ن B003) → 4:6 (ه ج ر B008) → 4:9 (غ ي ب B004) → 4:10 (ب غ ي B003) → 4:11 (ف ض ل B002, ق و م B002, ق و م B011, ق و م B012) → 4:12 (غ ي ب B004, ن ش ز B004) → 4:14 (ب غ ي B003) → 4:17 (ك و ن B006) → 4:18 (ض ر ب B010) → 4:20 (ض ر ب B014, ن ش ز B004, ه ج ر B007) → 4:21 (ض ر ب B015) → 4:23 (ض ر ب B015, ق و م B011) → 4:24 (ح ف ظ B006, ض ر ب B010, ن ف ق B002) → 4:25 (ح ف ظ B006, س ط ع B001, ق و م B011, ه ج ر B008) → 4:27 (ض ج ع B008, ك ب ر B003) → 4:28 (خ و ف B005, غ ي ب B004) → 4:29 (ء ل ه B002, ب غ ي B003, ض ر ب B010, ن ف ق B002) → 4:30 (ب غ ي B003) → 4:35 (ك ب ر B010) → 4:36 (ف ض ل B003) → 4:38 (ء ل ه B002, ض ر ب B010, ن ف ق B002) → 4:39 (ء ل ه B002) → 4:40 (ك ب ر B003) → 4:41 (ق و م B011) → 4:43 (ض ر ب B010) → 4:45 (ب غ ي B003) → 4:46 (ح ف ظ B006, ر ج ل B019) → 4:48 (ك ب ر B003) → 4:56 (ك ب ر B010, ك ب ر B011) → 4:57 (ن ش ز B004) → 4:58 (ر ج ل B003, ق و م B008) → 4:60 (ك ب ر B005) → 4:61 (ك ب ر B005) → 4:62 (ف ض ل B003) → 4:63 (ه ج ر B008) → 4:66 (ر ج ل B012, ض ر ب B010, ك ب ر B013) → 4:68 (ر ج ل B019) → 4:69 (ر ج ل B003, ه ج ر B007) → 4:72 (ر ج ل B003) → 4:75 (ض ر ب B010) → 4:77 (ر ج ل B012, ك ب ر B013) → 4:80 (ق و م B004) → 4:81 (ق و م B008) → 4:84 (ح ف ظ B003, ر ج ل B012, ك ب ر B013) → 4:85 (ك و ن B003) → 4:86 (س ب ل B006) → 4:90 (ك ب ر B003) → 4:93 (س ط ع B003) → 4:95 (ف ض ل B002) → 4:96 (ف ض ل B002) → 4:100 (ض ر ب B010, غ ي ب B004) → 4:102 (ح ف ظ B006, س ب ل B004, ض ج ع B008) → 4:103 (ر ج ل B019, ك و ن B003) → 4:107 (ق و م B012) → 4:110 (ك و ن B006) → 4:112 (ر ج ل B013, ك و ن B003) → 4:115 (ك ب ر B010) → 4:123 (ك و ن B006) → 4:129 (ض ج ع B008, ق و م B008) → 4:133 (ر ج ل B016) → 4:135 (س ط ع B001, ق و م B008) → 4:139 (ك ب ر B010, ك ب ر B011) → 4:149 (ر ج ل B016) → 4:152 (ض ر ب B010) → 4:153 (ء ل ه B002, ب غ ي B003) → 4:154 (ض ر ب B015, ف ض ل B002, ق و م B002, ن ش ز B004) → 4:157 (س ط ع B003) → 4:158 (ك ب ر B010, ك ب ر B011, ن ش ز B004) → 4:161 (ب غ ي B003) → 4:168 (خ و ف B002, ق و م B008) → 4:169 (خ و ف B002, ق و م B008) → 4:171 (ف ض ل B002)
+
+### H2 وَٱضْرِبُوهُنَّ — 16 roots converge
+Plain sense of وَٱضْرِبُوهُنَّ: bir şeyi başka bir şeyin üzerine vurmak (إيقاع شيء على شيء)
+- **H2.1** [dictionary] ب غ ي B002 «uygun, mümkün veya hak edilmiş olmak» الانبغاء والمطاوعة لما يليق أو يتيسر — word تَبْغُوا۟ (4 dictionaries); source: as H1.4 (also H1.4, L1.2, L5.3)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.2** [dictionary] ب غ ي B003 «haddi aşarak haksızlık etmek» تجاوز الحد بالعدوان والظلم — word تَبْغُوا۟ (4 dictionaries); source: as H1.5 (also H1.5, H3.1, H7.4, L5.1, T5)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (part): The prohibition on overstepping can be heard beside the preceding strike. It makes the blow answerable to a boundary, so it cannot become transgression.
+- **H2.3** [dictionary] ب غ ي B004 «yaranın şişip bozulması veya içinde irin kalmış halde kapanması» فساد الجرح وتجاوزه — word تَبْغُوا۟ (3 dictionaries); source: as H1.6 (also H1.6, L5.2)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (image): The strike stands beside the wound that swells and rots. Together they make a picture of injury whose harm can grow beyond the moment of impact.
+- **H2.4** [dictionary] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَٰفِظَٰتٌ (3 dictionaries); source: as H1.7 (also H1.7, L1.4, L3.1, L7.2)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.5** [dictionary] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَفِظَ (3 dictionaries); source: as H1.7 (also H1.8, L1.5, L3.2, L7.3, L10.1, L12.1)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.6** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَٰفِظَٰتٌ (5 dictionaries); source: as H1.9 (also H1.9, H3.4, H6.1, T12)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (opposite): The command to strike is heard beside a word for defending what must remain inviolable. That pairing makes the force of the blow answer to the demand for protec
+- **H2.7** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَفِظَ (5 dictionaries); source: as H1.9 (also H1.10, H3.5, H6.2, H10.7)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (opposite): Protection of sanctity and a blow pull in opposite directions. Heard together, the words make the command sequence carry a tension between guarding a person’s d
+- **H2.8** [dictionary] خ و ف B002 «korku doğurma ya da korkulur kılma» إدخال الخوف في الغير — word تَخَافُونَ (3 dictionaries); source: as H1.11 (also H1.11, H3.6, H4.3, L1.6)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (image): Fear that is made to arise in others can culminate in the image of a blow. The two senses make the threat bodily and immediate.
+- **H2.9** [dictionary] خ و ف B005 «korkunun kişide dışa vurması» ظهور الخوف على الإنسان — word تَخَافُونَ (1 dictionaries, sole attestation); source: as H1.12 (also H1.12)
+  - evidence: lex/image: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.10** [dictionary] ر ج ل B003 «yaya giden kişi» المشي على الأرجل — word ٱلرِّجَالُ (5 dictionaries); source: as H1.13 (also H1.13, H4.8, H10.1)
+  - evidence: lex/image: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.11** [dictionary] ر ج ل B004 «birinin devrinde» زمان الرجل — word ٱلرِّجَالُ (3 dictionaries); source: as H1.14 (also H1.14)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.12** [dictionary] ر ج ل B009 «ayak benzetmeli özel adlar» رجل القوس والميسم — word ٱلرِّجَالُ (3 dictionaries); source: as H1.15 (also H1.15)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (image): The command to strike can be heard beside a bird-foot brand that is itself an applied mark. The pair pictures a blow that leaves an identifying sign.
+- **H2.13** [dictionary] ر ج ل B016 «dik duran pişirme kazanı» المرجل المنصوب — word ٱلرِّجَالُ (4 dictionaries); source: as H1.16 (also H1.16, T6)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.14** [dictionary] ر ج ل B018 «hayvanın biniciye ödetilmeyen vuruş zararı» الرِّجل جبار — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: as H1.17 (also H1.17)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (same): The commanded blow is heard beside a beast's blow whose injury is treated as uncharged. That echo brings agency and liability into the shadow of the command.
+- **H2.15** [dictionary] ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: as H1.18 (also H1.18, H10.2)
+  - evidence: lex/image: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.16** [dictionary] س ب ل B006 «üst dudak ve sakal önündeki sarkan kıl» شعر منسدل عند الفم واللحية — word سَبِيلًا (6 dictionaries); source: as H1.20 (also H1.20)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.17** [dictionary] س ط ع B001 «havada uzama, yükselme veya yayılma» امتداد الشيء وارتفاعه في الهواء — word أَطَعْنَكُمْ (echo root, sound family only; 4 dictionaries); source: as H1.21 (also H1.21, L2.6, T7)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (image): A blow can send dust or other matter rising into the air. The spreading image in سطع gives the strike in وَٱضْرِبُوهُنَّ an upward consequence.
+- **H2.18** [dictionary] س ط ع B005 «avuç ya da parmak vuruşu ve sesi» ضربة وصوتها المرتفع — word أَطَعْنَكُمْ (echo root, sound family only; 2 dictionaries); source: السطع ارتفاع صوت الشيء إذا ضربت عليه شيئا يقال سطعة (maqayis)؛ السطع أن تسطع شيئا براحتك أو بإصبعك ضربا وسمعت لضربته سطعا يعني صوت الضربة (tahdhib)
+  - evidence: lex/image: ضربا → root ض ر ب || Luna (sound): The strike is heard as an event with a sharp report. Its sound makes the command audible in the very act it names.
+- **H2.19** [dictionary] ط و ع B006 «iç benliğin işi kolay gösterip yöneltmesi» تسهيل النفس للأمر — word أَطَعْنَكُمْ (4 dictionaries); source: as H1.26 (also H1.26)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (part): The command to strike meets the possibility that the self makes an act easy. The pairing puts inward encouragement beside the outward imperative, making the dee
+- **H2.20** [dictionary] ع ل و B002 «saygınlıkta yüksek mevki» الرفعة والشرف — word عَلِيًّا (4 dictionaries); source: العلاء فالرفعة (maqayis;ayn)؛ رجل عالي الكعب أي شريف (maqayis;ayn)؛ العلاء والعلاء الرفعة والشرف (sihah)؛ العلي هو الرفيع القدر (mufradat) (also H3.11, H7.5, L2.8)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.21** [dictionary] ع ل و B008 «üstüne eklenen veya üst parça» الشيء المحمول على الأعلى — word عَلِيًّا (3 dictionaries); source: العلاوة ما يحمل على البعير بعد تمام الوقر (maqayis)؛ رأس الرجل وعنقه علاوة (maqayis)؛ علوان الكتاب من العلو لأنه أول الكتاب وأعلاه (maqayis)؛ العلاوة ما عليت به على البعير بعد تمام الوقر (sihah)؛ علاوة الشيء أعلاه (mufradat) (also H3.13, L4.7)
+  - evidence: lex/image: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (image): An ʿalāwa is carried on top, and وَٱضْرِبُوهُنَّ has the plain image of placing one thing upon another. The pair makes an image of an act meeting an added upper
+- **H2.22** [dictionary] ع ل و B012 «ilgeç ve kalıplaşmış görev sözü» حرف عَلَى وما جرى مجراه — word عَلِيًّا (2 dictionaries); source: جئت من عليك أي من عندك (maqayis)؛ على لها ثلاثة مواضع (sihah)؛ لفظة مشتركة للاسم والفعل والحرف (sihah)؛ على حرف خافض وقد يكون اسما (sihah)؛ عليك زيدا أي خذه (sihah)
+  - evidence: lex/image: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (part): The rare branch treats عَلَى as a preposition and idiom; وَٱضْرِبُوهُنَّ has the image of putting one thing upon another. The preposition supplies the on-relati
+- **H2.23** [dictionary] ف ض ل B002 «nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme» الدرجة والفضيلة — word فَضَّلَ (5 dictionaries); source: as H1.28 (also H1.28, L2.13, L5.5, T2)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || lex/src: اضرب → root ض ر ب
+- **H2.24** [dictionary] ف ض ل B003 «başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme» الإحسان والعطية — word فَضَّلَ (5 dictionaries); source: as H1.29 (also H1.29, H3.17, H5.12, H8.6, L1.10)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.25** [dictionary] ف ض ل B004 «akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme» ادعاء الفضل — word فَضَّلَ (4 dictionaries); source: as H1.30 (also H1.30, H7.13, L1.11, T1)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.26** [dictionary] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قَوَّٰمُونَ (5 dictionaries); source: as H1.31 (also H1.31, H3.19, L2.14, L3.12, T15)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.27** [dictionary] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قَوَّٰمُونَ (5 dictionaries); source: as H1.32 (also H1.32, L1.13, L6.6, L11.1)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.28** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H3.20, H4.5, L1.1, L2.17, L4.8)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.29** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوَّٰمُونَ (4 dictionaries); source: as H1.34 (also H1.34, H3.22, T8)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (part): A striking action may involve a supporting tool or a held part that transmits force. That apparatus image gives the command’s physical impact a concrete mechani
+- **H2.30** [dictionary] ك ب ر B010 «bir işin birine ağır ve güç gelmesi» الكبر مشقة وثقل — word كَبِيرًا (4 dictionaries); source: as H1.36 (also H1.36, L9.4)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.31** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كَانَ (2 dictionaries); source: as H1.37 (also H1.37, L6.7, L11.2, T4)
+  - evidence: lex/image: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (opposite): The undertaking of responsibility stands beside the command to strike. Hearing both exposes a tension between taking someone into one’s care and using force aga
+- **H2.32** [dictionary] ن ش ز B004 «eşinden soğuyup evlilik ilişkisine karşı koyma» نشوز الزوجين — word نُشُوزَهُنَّ (5 dictionaries); source: as H1.39 (also H1.39, L7.6, L8.8)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (image): Spousal aversion and a blow make a picture of conflict becoming bodily. The rare sense supplies the relational rupture around which the striking command is hear
+- **H2.33** [dictionary] ن ف ق B002 «bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma» خروج المال في النفقة — word أَنفَقُوا۟ (5 dictionaries); source: as H1.40 (also H1.40, H3.26, H8.4)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ
+- **H2.34** [dictionary] ه ج ر B007 «hayvanın ayaklarını bağlayan ip» الربط بالهجار — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: as H1.41 (also H1.41, H3.29)
+  - evidence: lex/src: علي names the plain image of وَٱضْرِبُوهُنَّ || Luna (image): A tether restrains a body, and a blow lands on it. Together the rare rope sense and the striking command make a stark image of restraint followed by impact.
+- **H2.35** [judged] س ب ل B005 «yağan yağmur» مطر سابل بين السحاب والأرض — word سَبِيلًا (6 dictionaries); source: السبل المطر الجود (maqayis)؛ السبل المطر (ayn)؛ والسبل المطر (jamhara)؛ السبل بالتحريك المطر؛ المطر بين السحاب والأرض (sihah)؛ السبل المطر المسبل؛ السبلة المطرة الواسعة؛ السبل المطر بين السحاب والأرض (tahdhib)؛ سبل المط… (also L3.6)
+  - evidence: Luna (image): The rain is pictured striking the earth, while the command names a blow. This makes the force of falling water answer the force of impact in the verse.
+- **H2.36** [judged] ض ج ع B005 «yere yakın tepe, vadi ağzı veya yağış yeri» الأرض المنخفضة اللاصقة — word ٱلْمَضَاجِعِ (4 dictionaries); source: أكمة ضجوع إذا كانت لاصقة بالأرض (maqayis)؛ الضجوع أكمة معروفة (jamhara)؛ الضواجع الهضاب (sihah)؛ الضواجع مصاب الأودية (tahdhib)؛ مضاجع الغيث مساقطه (tahdhib) (also H6.10)
+  - evidence: Luna (complement): A traveler crossing the land encounters valleys and the mouths of wadis. The low places named by ضواجع give the journey implied by وَٱضْرِبُوهُنَّ a concrete te
+- **H2.37** [judged] ق و م B014 «karşılıklı direnip mücadele etme» مقاومة ومنازلة — word قَوَّٰمُونَ (3 dictionaries); source: قاومته في كذا أي نازلته (ayn)؛ قاومه في المصارعة وغيرها؛ تقاوموا في الحرب أي قام بعضهم لبعض (sihah)؛ ما زلت أقاوم فلانا في هذا الأمر أي أنازله (tahdhib)
+  - evidence: Luna (part): The rare combat sense meets the physical act of striking as one of its concrete actions. The confrontation image becomes immediate rather than abstract resistan
+- **H2.38** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قَوَّٰمُونَ (1 dictionaries, sole attestation); source: قام بي ظهري أي أوجعني؛ قامت بي عيناي؛ كل ما أوجعك من جسدك فقد قام بك (tahdhib) (also H3.34, H6.4)
+  - evidence: Luna (image): A blow can make pain arise in the body. Heard together, the command carries the bodily consequence named by the rare sense.
+- **H2.39** [judged] ك ب ر B012 «tek yüzlü davul» الكَبَر طبل — word كَبِيرًا (2 dictionaries); source: الكبر طبل له وجه (ayn)؛ الكبر الطبل الذي له وجه واحد (tahdhib)؛ الكبر الطبل وجمعه كبار (tahdhib)
+  - evidence: Luna (part): The rare كَبَر is a one-faced drum, and وَٱضْرِبُوهُنَّ has the plain sense of striking. The pair turns the action into an image of striking a drum.
+- **H2.40** [judged] ه ج ر B009 «sürekli alışkanlık ve uğraş» الدأب والديدن الملازم — word وَٱهْجُرُوهُنَّ (5 dictionaries); source: الاسم الهجيرى (ayn)؛ ما زال ذاك هجيراه وإهجيراه أي دأبه (jamhara)؛ الهجير مثال الفسيق الدأب والعادة وكذلك الهجيرى والإهجيرى (sihah)؛ هجيرى الرجل كلامه ودأبه وشأنه (tahdhib)؛ فلان هجيراه كذا إذا أولع بذكره (mufradat) (also H3.30, L7.8)
+  - evidence: Luna (image): The sense of هجيرى as a habitual way makes the striking command sound capable of becoming a repeated practice. That image adds a troubling echo to the sequence 
+- surah ayat these members touch (chain material): 4:1 (ق و م B002, ق و م B012) → 4:2 (ع ل و B002) → 4:3 (ق و م B002, ق و م B008, ق و م B012, ك و ن B003) → 4:5 (ر ج ل B019, ك و ن B003) → 4:6 (ع ل و B002) → 4:8 (ض ج ع B005) → 4:10 (ب غ ي B003) → 4:11 (ف ض ل B002, ق و م B002, ق و م B012, ه ج ر B009) → 4:12 (ن ش ز B004, ه ج ر B009) → 4:13 (ع ل و B012) → 4:14 (ب غ ي B003) → 4:19 (ض ج ع B005) → 4:20 (ن ش ز B004, ه ج ر B007) → 4:24 (ح ف ظ B006, ن ف ق B002) → 4:25 (ح ف ظ B006, س ط ع B001, ض ج ع B005) → 4:28 (خ و ف B005) → 4:29 (ب غ ي B003, ن ف ق B002) → 4:30 (ب غ ي B003) → 4:31 (ع ل و B002) → 4:35 (ك ب ر B010) → 4:36 (ف ض ل B003) → 4:38 (ن ف ق B002) → 4:43 (ض ج ع B005, ع ل و B002) → 4:45 (ب غ ي B003) → 4:46 (ح ف ظ B006, ر ج ل B019, ع ل و B012, ه ج ر B009) → 4:47 (ع ل و B002) → 4:56 (ك ب ر B010) → 4:57 (ع ل و B012, ن ش ز B004) → 4:58 (ر ج ل B003, ق و م B008) → 4:62 (ف ض ل B003) → 4:68 (ر ج ل B019) → 4:69 (ر ج ل B003, ه ج ر B007) → 4:72 (ر ج ل B003) → 4:80 (ق و م B004) → 4:81 (ق و م B008) → 4:84 (ح ف ظ B003) → 4:85 (ك و ن B003) → 4:86 (س ب ل B006) → 4:95 (ف ض ل B002) → 4:96 (ف ض ل B002) → 4:97 (س ب ل B005, ك ب ر B012) → 4:100 (س ط ع B005) → 4:102 (ح ف ظ B006, س ب ل B005) → 4:103 (ر ج ل B019, ك و ن B003) → 4:107 (ق و م B012) → 4:112 (ك و ن B003) → 4:115 (ك ب ر B010, ك ب ر B012) → 4:122 (ع ل و B012) → 4:125 (ع ل و B002) → 4:129 (ق و م B008) → 4:133 (ر ج ل B016) → 4:135 (س ط ع B001, ق و م B008) → 4:139 (ك ب ر B010) → 4:149 (ر ج ل B016) → 4:153 (ب غ ي B003) → 4:154 (ف ض ل B002, ق و م B002, ن ش ز B004) → 4:158 (ك ب ر B010, ن ش ز B004) → 4:161 (ب غ ي B003) → 4:168 (خ و ف B002, ق و م B008) → 4:169 (خ و ف B002, ق و م B008) → 4:171 (ع ل و B012, ف ض ل B002)
+
+### H3 ٱلرِّجَالُ — 17 roots converge
+Plain sense of ٱلرِّجَالُ: bacak uzvu (الرِّجل العضو)
+- **H3.1** [dictionary] ب غ ي B003 «haddi aşarak haksızlık etmek» تجاوز الحد بالعدوان والظلم — word تَبْغُوا۟ (4 dictionaries); source: as H1.5 (also H1.5, H2.2, H7.4, L5.1, T5)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.2** [dictionary] ح ف ظ B005 «koruyucu öfke ve onurlu tepki» حفيظة الغضب والحمية — word حَٰفِظَٰتٌ (5 dictionaries); source: الغضب الحفيظة (maqayis)؛ أحفظني أي أغضبني (maqayis)؛ الحفيظة الحمية (jamhara)؛ الحفيظة الغضب والحمية وكذلك الحفظة بالكسر (sihah)؛ إنه لذو حفاظ وذو محافظة إذا كانت له أنفة (sihah)؛ الحفظة اسم من الاحتفاظ عندما يرى من حفيظة الرجل (tahdhib)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.3** [dictionary] ح ف ظ B005 «koruyucu öfke ve onurlu tepki» حفيظة الغضب والحمية — word حَفِظَ (5 dictionaries); source: as H3.2 (also H10.6)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.4** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَٰفِظَٰتٌ (5 dictionaries); source: as H1.9 (also H1.9, H2.6, H6.1, T12)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.5** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَفِظَ (5 dictionaries); source: as H1.9 (also H1.10, H2.7, H6.2, H10.7)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.6** [dictionary] خ و ف B002 «korku doğurma ya da korkulur kılma» إدخال الخوف في الغير — word تَخَافُونَ (3 dictionaries); source: as H1.11 (also H1.11, H2.8, H4.3, L1.6)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.7** [dictionary] س ب ل B004 «aşağı doğru salmak» إرخاء من علو إلى سفل — word سَبِيلًا (6 dictionaries); source: as H1.19 (also H1.19, L3.5)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (image): A garment released from above falls along the leg. The men’s bodily image gives the downward drape a human line.
+- **H3.8** [dictionary] ض ج ع B002 «aynı yatakta birlikte yatma» مشاركة المضجع — word ٱلْمَضَاجِعِ (5 dictionaries); source: ضجيعك الذي يضاجعك (maqayis;sihah)؛ ضجيعك الذي يضاجعك في فراشك (ayn)؛ ضجيعك الذي يضطجع معك (jamhara)؛ ضاجع الرجل امرأته إذا نام معها في شعار واحد (tahdhib) (also H9.5)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.9** [dictionary] ض ر ب B002 «bir amaçla yeryüzünde yolculuk etmek» السعي في الأرض — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: ضرب في الأرض تجارة وغيرها من السفر (maqayis)؛ ضرب في التجارة وفي الأرض وفي سبيل الله (ayn;tahdhib)؛ خرج فيها تاجرا أو غازيا (jamhara)؛ سار في ابتغاء الرزق (sihah)؛ الضرب في الأرض الذهاب فيها وضربها بالأرجل (mufradat) (also H4.4, H5.1, H9.1, L8.3)
+  - evidence: lex/src: ارجل → root ر ج ل || Luna (part): Travel across the land can be made on foot. The leg named by الرِّجل is the bodily means of that journey.
+- **H3.10** [dictionary] ض ر ب B004 «bir işten geri durup yüz çevirmek» القبض عن الشيء والكف — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: أضرب عن الأمر إذا كف (maqayis;ayn;tahdhib)؛ أضرب عنه أي أعرض (sihah)؛ أضرب الرجل عن الأمر إضرابا (jamhara)؛ أفنضرب عنكم الذكر صفحا (mufradat)؛ أضرب فلان في بيته أي أقام (maqayis;ayn;sihah;tahdhib) (also H5.7, L3.7, L8.4)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.11** [dictionary] ع ل و B002 «saygınlıkta yüksek mevki» الرفعة والشرف — word عَلِيًّا (4 dictionaries); source: as H2.20 (also H2.20, H7.5, L2.8)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.12** [dictionary] ع ل و B004 «yapı içinde üstün gelip bastırma» الغلبة والاستيلاء — word عَلِيًّا (3 dictionaries); source: من قهر أمرا فقد اعتلاه واستعلى عليه (maqayis)؛ علوت الرجل غلبته (sihah)؛ استعلى الرجل أي علا واستعلاه أي علاه (sihah)؛ الاستعلاء قد يكون طلب العلو المذموم وقد يكون طلب العلاء (mufradat) (also H9.2, L1.9, L4.6)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.13** [dictionary] ع ل و B008 «üstüne eklenen veya üst parça» الشيء المحمول على الأعلى — word عَلِيًّا (3 dictionaries); source: as H2.21 (also H2.21, L4.7)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.14** [dictionary] ع ل و B010 «uzun ve iri yapılı» الطول والضخامة — word عَلِيًّا (3 dictionaries); source: ناقة عليان أي طويلة جسيمة ورجل عليان طويل (maqayis)؛ يقال للناقة علاة تشبه بها في صلابتها (maqayis;sihah)؛ يقال رجل عليان وكذلك المرأة (sihah)؛ العليان البعير الضخم (mufradat) (also H7.12, H10.4, L2.11)
+  - evidence: lex/src: ورجل → root ر ج ل || Luna (part): A tall, massive figure is made visible through its limbs, and the target’s plain sense is a leg. The pair gives height a bodily anchor in the legs.
+- **H3.15** [dictionary] ع ل و B011 «bedensel halden kurtulup esenleşme» السلامة من النفاس أو العلة — word عَلِيًّا (2 dictionaries); source: للمرأة إذا طهرت من نفاسها قد تعلت (maqayis)؛ لا يقال إلا للنفساء (maqayis)؛ تعلت المرأة من نفاسها أي سلمت وتعلى الرجل من علته (sihah)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.16** [dictionary] غ ي ب B004 «kişiyi yokluğunda iyi ya da kötü anma» ذكر الإنسان في غيبته — word لِّلْغَيْبِ (5 dictionaries); source: as H1.27 (also H1.27, L6.5)
+  - evidence: lex/src: رجلا → root ر ج ل
+- **H3.17** [dictionary] ف ض ل B003 «başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme» الإحسان والعطية — word فَضَّلَ (5 dictionaries); source: as H1.29 (also H1.29, H2.24, H5.12, H8.6, L1.10)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.18** [dictionary] ف ض ل B005 «giysiyi omuzlara dolayarak kuşanma veya evde tek giysiyle bulunma» التوشح بالثوب — word فَضَّلَ (4 dictionaries); source: التفضل التوشح (maqayis;ayn;tahdhib); رجل فضل ومتفضل وامرأة فضل ومتفضلة (ayn;tahdhib); الفضل الذي عليه قميص ورداء وليس عليه إزار ولا سراويل (maqayis); تفضلت المرأة في بيتها إذا كانت في ثوب واحد (sihah); الفضال الثوب الواحد يتفضل به الرجل (ayn;tahdhib) (also L3.11)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.19** [dictionary] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قَوَّٰمُونَ (5 dictionaries); source: as H1.31 (also H1.31, H2.26, L2.14, L3.12, T15)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (part): Bodily qiyām has its footing in the limb named by ٱلرِّجَالُ in the supplied sense. The role of standing over others is shaded by the literal body that stands o
+- **H3.20** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H2.28, H4.5, L1.1, L2.17, L4.8)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.21** [dictionary] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قَوَّٰمُونَ (5 dictionaries); source: as H1.47 (also H1.47, L2.18, L3.15)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (part): A person’s stature is built on the legs that bear the body. The rare bodily sense of qiwāma thus gives the limb word a supporting role.
+- **H3.22** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوَّٰمُونَ (4 dictionaries); source: as H1.34 (also H1.34, H2.29, T8)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (part): The rare branch includes a standing leg or support as part of an apparatus. The leg word thus meets qiwāma in the concrete part that bears a structure.
+- **H3.23** [dictionary] ك ب ر B004 «yaşlanma ve zamanla eskime» كبر السن والقدم — word كَبِيرًا (6 dictionaries); source: ومن الباب الكبر وهو الهرم (maqayis)؛ الكبرة السن يقال علته كبرة (ayn)؛ بلغ فلان الكبر في السن (jamhara)؛ الكبر في السن وقد كبر الرجل أي أسن (sihah)؛ الكبر مصدر الكبير في السن من الناس والدواب (tahdhib)؛ يقال فلان كبير أي مسن (mufradat)؛ السهم والنصل العتيق الذي أفسده الوسخ قد علته كبرة (ayn)؛ للسيف والنصل العتيق الذي قدم علته كبرة (tahdhib)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.24** [dictionary] ك و ن B005 «gençliğini anan yaşlı kişi» الشيخ المنسوب إلى كُنْتُ — word كَانَ (1 dictionaries, sole attestation); source: يقال للرجل إذا شاخ كُنْتِيّ؛ كأنه نسب إلى قوله كُنْتُ في شبابي كذا وكذا (sihah) (also H7.14)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.25** [dictionary] ن ش ز B007 «yaşla eksilmeyen güç ve iri sertlik» الغلظ وثبات القوة — word نُشُوزَهُنَّ (2 dictionaries); source: فلان والله نشز من الرجال (sihah); إذا أسن ولم ينقص (sihah); إنه لنشز من الرجال إذا انتهى سنه وقوته وشبابه (tahdhib); النشز والنشز الغليظ الشديد (tahdhib) (also H10.5)
+  - evidence: lex/src: رجال → root ر ج ل
+- **H3.26** [dictionary] ن ف ق B002 «bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma» خروج المال في النفقة — word أَنفَقُوا۟ (5 dictionaries); source: as H1.40 (also H1.40, H2.33, H8.4)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.27** [dictionary] ه ج ر B002 «yurdunu bırakıp başka yere göçme» الخروج من دار إلى دار — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: هاجر القوم من دار إلى دار تركوا الأولى للثانية (maqayis)؛ هجرة المهاجرين لأنهم هجروا عشائرهم (ayn)؛ هاجر الرجل أهله وقومه (jamhara)؛ المهاجرة من أرض إلى أرض ترك الأولى للثانية (sihah)؛ كل من فارق رباعه وسكن بلدا آخر فهو مهاجر (tahdhib)؛ الخروج من دار الكفر إلى دار الإيمان (mufradat)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.28** [dictionary] ه ج ر B004 «hastalık sırasında istemeden sayıklama» هذيان المريض والنائم — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: الهجر الهذيان يقال هجر الرجل (maqayis)؛ الهجر هذيان المبرسم (ayn)؛ هجر المريض إذا هذى (jamhara)؛ هجر المريض يهجر هجرا (sihah)؛ مثل كلام المبرسم والمحموم (tahdhib)؛ هجر المريض إذا أتى ذلك من غير قصد (mufradat) (also L1.16, L3.17)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.29** [dictionary] ه ج ر B007 «hayvanın ayaklarını bağlayan ip» الربط بالهجار — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: as H1.41 (also H1.41, H2.34)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (part): The tether binds an animal’s limb. Heard with ٱلرِّجَالُ as a leg, the target names the very part the rope holds.
+- **H3.30** [dictionary] ه ج ر B009 «sürekli alışkanlık ve uğraş» الدأب والديدن الملازم — word وَٱهْجُرُوهُنَّ (5 dictionaries); source: as H2.40 (also H2.40, L7.8)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.31** [judged] ب ع ض B002 «sivrisinek ve ona bağlı zarar veya bulunma kullanımları» البعوضة لصغرها وإيذائها — word بَعْضَهُمْ (5 dictionaries); source: البعوضة وهي معروفة والجمع بعوض (maqayis)؛ البعوض جمع البعوضة وهي المؤذية العاضة في الصيف (ayn)؛ البعوض البق الواحدة بعوضة (sihah)؛ قوم مبعوضون وقد بعض القوم إذا آذاهم البعوض وأبعضوا إذا كان في أرضهم بعوض (tahdhib)؛ البع… (also H7.10, L4.1, L9.1)
+  - evidence: Luna (image): The rare sense of بَعْضَهُمْ is a tiny biting mosquito, and the target’s plain sense is a leg. The two make the concrete image of a mosquito biting a leg.
+- **H3.32** [judged] ب غ ي B007 «atın koşarken çalımlı ve neşeli davranması» اختيال الفرس ومرحه في العدو — word تَبْغُوا۟ (3 dictionaries); source: اختيال الفرس ومرحه بغي؛ لا يقال فرس باغ (maqayis)؛ البغي في عدو الفرس اختيال ومرح؛ لا يقال فرس باغ (ayn)؛ البغي اختيال ومرح في الفرس؛ لا يقال فرس باغ (sihah)
+  - evidence: Luna (part): The prancing horse is carried forward by its legs. This makes the leg itself part of the lively gait named by the rare sense.
+- **H3.33** [judged] س ط ع B003 «ev direği» العمود المنصوب وما شبه به — word أَطَعْنَكُمْ (echo root, sound family only; 3 dictionaries); source: as H1.44 (also H1.44)
+  - evidence: Luna (image): The tent pillar stands beside the bodily leg. Together they make the men’s legs seem like supports holding a structure upright.
+- **H3.34** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قَوَّٰمُونَ (1 dictionaries, sole attestation); source: as H2.38 (also H2.38, H6.4)
+  - evidence: Luna (part): The bodily pain in the rare sense can settle in a limb. Heard with ٱلرِّجَالُ as a leg, the opening names the very kind of part in which pain can stand.
+- **H3.35** [judged] ق و م B020 «koyunun bacaklarını tutan hastalık» قوام في قوائم الشاة — word قَوَّٰمُونَ (2 dictionaries); source: القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)؛ أخذها قوام وهو داء يأخذها في قوائمها تقوم منه (tahdhib)
+  - evidence: Luna (same): The rare sense places a disease in the legs of sheep. With ٱلرِّجَالُ heard in its supplied limb sense, the verse echoes that same bodily site.
+- **H3.36** [judged] ن ش ز B002 «yerinden kalkma veya kaldırma» النهوض والانتقال عن المجلس — word نُشُوزَهُنَّ (4 dictionaries); source: نشز ينشز إذا زحف عن مجلسه فارتفع فويق ذلك (ayn); انشزوا فانشزوا (ayn;sihah;tahdhib;mufradat); إذا قيل انهضوا فانهضوا (tahdhib); قوموا إلى الصلاة أو قضاء حق أو شهادة (tahdhib); نشز فلان عن مقره نبا (mufradat); أنشزت الشي… (also L3.16)
+  - evidence: Luna (part): Rising from a seat takes the legs into action. Heard with ٱلرِّجَالُ as a leg, the bodily part is present in the movement the rare sense names.
+- **H3.37** [judged] ن ش ز B005 «sözüyle öfkelendirip ayağa kaldırma» الإغضاب والإقامة بالكلام — word نُشُوزَهُنَّ (1 dictionaries); source: كلمني فلان كلاما فأنشزني أي أغضبني وأقامني (ayn)
+  - evidence: Luna (part): Speech that makes someone stand brings the legs into motion. The bodily limb supplies a part of the rising named in the rare sense.
+- surah ayat these members touch (chain material): 4:1 (ب ع ض B002, ق و م B002, ق و م B012, ن ش ز B007) → 4:2 (ع ل و B002) → 4:3 (ب ع ض B002, ق و م B002, ق و م B008, ق و م B012) → 4:5 (ع ل و B010) → 4:6 (ع ل و B002, ك ب ر B004) → 4:7 (ن ش ز B007) → 4:8 (ب ع ض B002) → 4:9 (غ ي ب B004) → 4:10 (ب غ ي B003) → 4:11 (ب ع ض B002, ق و م B002, ق و م B011, ق و م B012, ه ج ر B002, ه ج ر B009) → 4:12 (غ ي ب B004, ف ض ل B005, ه ج ر B002, ه ج ر B009) → 4:14 (ب غ ي B003) → 4:16 (ض ر ب B004) → 4:19 (ب ع ض B002) → 4:20 (ه ج ر B007) → 4:21 (ن ش ز B007) → 4:23 (ق و م B011) → 4:24 (ح ف ظ B006, ن ف ق B002) → 4:25 (ب ع ض B002, ح ف ظ B006, ع ل و B010, ق و م B011) → 4:28 (غ ي ب B004) → 4:29 (ب غ ي B003, ض ر ب B002, ن ف ق B002) → 4:30 (ب غ ي B003) → 4:31 (ع ل و B002) → 4:32 (ن ش ز B007) → 4:33 (ه ج ر B002) → 4:36 (ح ف ظ B005, ف ض ل B003) → 4:38 (ن ف ق B002) → 4:41 (ق و م B011) → 4:43 (ض ر ب B002, ع ل و B002, ه ج ر B004) → 4:45 (ب غ ي B003, ب غ ي B007) → 4:46 (ح ف ظ B006, ع ل و B010, ه ج ر B002, ه ج ر B009) → 4:47 (ع ل و B002) → 4:56 (ن ش ز B007) → 4:58 (ق و م B008) → 4:59 (ض ر ب B004) → 4:62 (ف ض ل B003, ك ب ر B004) → 4:63 (ض ر ب B004) → 4:66 (ه ج ر B002) → 4:68 (ع ل و B010) → 4:69 (ه ج ر B007) → 4:71 (ن ش ز B007) → 4:77 (ع ل و B011) → 4:81 (ض ر ب B004, ق و م B008) → 4:92 (ب غ ي B007) → 4:93 (س ط ع B003) → 4:94 (ع ل و B011) → 4:100 (غ ي ب B004) → 4:101 (ب غ ي B007) → 4:102 (ح ف ظ B006, س ب ل B004, ه ج ر B004) → 4:104 (ض ر ب B002) → 4:107 (ق و م B012) → 4:112 (ع ل و B011) → 4:114 (ض ر ب B002) → 4:118 (ح ف ظ B005) → 4:125 (ع ل و B002) → 4:128 (ف ض ل B005) → 4:129 (ق و م B008) → 4:130 (ع ل و B011) → 4:135 (ق و م B008) → 4:137 (ه ج ر B002) → 4:150 (ع ل و B011) → 4:153 (ب غ ي B003, ح ف ظ B005) → 4:154 (ق و م B002, ن ش ز B007) → 4:155 (ه ج ر B002) → 4:157 (س ط ع B003) → 4:161 (ب غ ي B003) → 4:168 (خ و ف B002, ق و م B008) → 4:169 (خ و ف B002, ق و م B008) → 4:171 (ن ش ز B007) → 4:172 (ح ف ظ B005)
+
+### H4 سَبِيلًا — 9 roots converge
+Plain sense of سَبِيلًا: yol ve bir amaca ulaştıran yol (طريق ممتد يسلك)
+- **H4.1** [dictionary] ح ف ظ B007 «açık, düz ve kesintisiz yol» طريق حافظ بين مستقيم — word حَفِظَ (1 dictionaries, sole attestation); source: الطريق الحافظ هو البين المستقيم الذي لا ينقطع (tahdhib)
+  - evidence: lex/image: طريق names the plain image of سَبِيلًا || Luna (same): The rare branch gives a path that is clear, straight, and unbroken. سَبِيلًا names the way itself, so the two senses converge directly.
+- **H4.2** [dictionary] ح ف ظ B007 «açık, düz ve kesintisiz yol» طريق حافظ بين مستقيم — word حَٰفِظَٰتٌ (1 dictionaries, sole attestation); source: as H4.1
+  - evidence: lex/image: طريق names the plain image of سَبِيلًا || Luna (same): The rare path sense is directly echoed by the closing word for a way. A clear, unbroken course is heard inside the prohibition against seeking any avenue agains
+- **H4.3** [dictionary] خ و ف B002 «korku doğurma ya da korkulur kılma» إدخال الخوف في الغير — word تَخَافُونَ (3 dictionaries); source: as H1.11 (also H1.11, H2.8, H3.6, L1.6)
+  - evidence: lex/src: طريق names the plain image of سَبِيلًا || Luna (image): The feared road becomes a route that makes people afraid. The image puts danger on the way itself, so pursuing a path can feel like entering a threat.
+- **H4.4** [dictionary] ض ر ب B002 «bir amaçla yeryüzünde yolculuk etmek» السعي في الأرض — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H3.9 (also H3.9, H5.1, H9.1, L8.3)
+  - evidence: lex/src: سبيل → root س ب ل || Luna (part): A traveler moves along a path toward a destination. سَبِيلًا names the route that the journey follows.
+- **H4.5** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H2.28, H3.20, L1.1, L2.17, L4.8)
+  - evidence: lex/src: طريق names the plain image of سَبِيلًا || Luna (same): The straight and even course meets the word for a path. The closing prohibition is heard as guarding against a departure from the proper way.
+- **H4.6** [dictionary] ن ف ق B003 «başka bir yere açılan yer altı geçidi ve kemirgen yuvasındaki gizli çıkış» سرب نافذ له مخرج — word أَنفَقُوا۟ (5 dictionaries); source: النفق سرب في الأرض له مخلص إلى مكان (maqayis;ayn;sihah;tahdhib); النفق الطريق النافذ والسرب في الأرض النافذ فيه (mufradat); النافقاء موضع يرققه اليربوع فإذا أتي من قبل القاصعاء ضربها برأسه فانتفق أي خرج (maqayis;ayn;sihah;tahdhib); بعضهم يسمي النافقاء النَّفَقَة (ayn;sihah;tahdhib)
+  - evidence: lex/src: طريق names the plain image of سَبِيلًا
+- **H4.7** [judged] ب غ ي B006 «göğün şiddetli, bol ve gereğinden fazla yağdırması» شدة المطر ومعظمه — word تَبْغُوا۟ (3 dictionaries); source: بغي المطر وهو شدته ومعظمه؛ بغي السماء أي معظم مطرها (maqayis)؛ بغت السماء اشتد مطرها؛ بغي السماء أي معظم مطرها (sihah)؛ بغت السماء تجاوزت في المطر حد المحتاج إليه (mufradat) (also L4.2)
+  - evidence: Luna (image): The rain makes a descending course between cloud and earth. Alongside سَبِيلًا, the image turns a way into a path of water through the air.
+- **H4.8** [judged] ر ج ل B003 «yaya giden kişi» المشي على الأرجل — word ٱلرِّجَالُ (5 dictionaries); source: as H1.13 (also H1.13, H2.10, H10.1)
+  - evidence: Luna (complement): The men can be pictured as walkers alongside سَبِيلًا, the route they may traverse. The role then carries a path image: people moving along a way.
+- **H4.9** [judged] ر ج ل B008 «su akıntısı yatağı» رِجْلة الماء — word ٱلرِّجَالُ (3 dictionaries); source: قال قوم بل الرجل مسايل الماء واحدتها رجلة (maqayis)؛ الرجلة أيضا واحدة الرجل وهي مسايل الماء (sihah)؛ استعير الرجل لمسيل الماء الواحدة رجلة (mufradat)
+  - evidence: Luna (same): The way against them can be heard as a channel through the scene. The watercourse and the path give سَبِيلًا a flowing, physical route image.
+- **H4.10** [judged] ض ج ع B008 «dolu kovanın eğilmesi veya dolu çuvalın boşaltılması» ميل الممتلئ وتفريغه — word ٱلْمَضَاجِعِ (1 dictionaries); source: as H1.45 (also H1.45)
+  - evidence: Luna (image): A full bucket tips and pours through an opening. The path in سَبِيلًا can be heard as the course taken by what is emptied.
+- **H4.11** [judged] ض ر ب B013 «hava olayının toprağa veya bitkiye etkisi» أثر البرد والمطر في الأرض والنبات — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: الضريب الصقيع كأن السماء ضربت به الأرض (maqayis)؛ أضرب الريح والبرد النبات وأضربت السمائم الماء (ayn)؛ الضريب الجليد والضرب المطر اللين (jamhara)؛ الضريب الصقيع وضربت الأرض (sihah)؛ أضربها الضريب وأرض ضربة (tahdhib)؛ ضر… (also L3.9)
+  - evidence: Luna (image): The rain's effect on the land can trace a route across it. Beside سَبِيلًا, the weather image becomes a path marked by what falls from the sky.
+- **H4.12** [judged] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word قَوَّٰمُونَ (2 dictionaries); source: عين قائمة ذهب بصرها والحدقة صحيحة (ayn)؛ العين القائمة أن يذهب بصرها والحدقة صحيحة (tahdhib) (also H6.5)
+  - evidence: Luna (image): The eye may be intact while its sight is gone, leaving the way unseen. The pairing makes a road present to the blind eye only as something it cannot follow by s
+- **H4.13** [judged] ه ج ر B011 «su için ayrılmış büyük veya yapılı havuz» الحوض المقتطع للماء — word وَٱهْجُرُوهُنَّ (3 dictionaries); source: الهجير الحوض الكبير سمي لأنه شيء يقتطع للماء (maqayis)؛ الهجير الحوض الكبير (sihah)؛ الهجير الحوض المبني (tahdhib)؛ الهاجري البناء (tahdhib) (also H7.8, L6.8)
+  - evidence: Luna (image): A basin built for water can serve a traveler along a route. الهجير and سَبِيلًا together make a picture of a watering place beside the way.
+- surah ayat these members touch (chain material): 4:1 (ر ج ل B008) → 4:2 (ه ج ر B011) → 4:3 (ر ج ل B008, ق و م B008) → 4:11 (ر ج ل B008) → 4:19 (ن ف ق B003) → 4:20 (ن ف ق B003) → 4:25 (ن ف ق B003) → 4:27 (ض ج ع B008) → 4:29 (ض ر ب B002) → 4:43 (ر ج ل B008, ض ر ب B002, ه ج ر B011) → 4:45 (ر ج ل B008) → 4:46 (ن ف ق B003) → 4:52 (ر ج ل B008) → 4:58 (ر ج ل B003, ق و م B008) → 4:68 (ح ف ظ B007) → 4:69 (ح ف ظ B007, ر ج ل B003) → 4:72 (ر ج ل B003) → 4:75 (ر ج ل B008) → 4:81 (ق و م B008) → 4:102 (ب غ ي B006, ض ج ع B008, ض ر ب B013) → 4:104 (ض ر ب B002) → 4:114 (ض ر ب B002) → 4:129 (ض ج ع B008, ق و م B008) → 4:135 (ق و م B008) → 4:155 (ح ف ظ B007) → 4:163 (ح ف ظ B007) → 4:168 (ح ف ظ B007, خ و ف B002, ق و م B008, ن ف ق B003) → 4:169 (ح ف ظ B007, خ و ف B002, ق و م B008, ن ف ق B003) → 4:175 (ح ف ظ B007)
+
+### H5 أَنفَقُوا۟ — 8 roots converge
+Plain sense of أَنفَقُوا۟: tükenip sona erme; özel kullanımlarda alıcı bulma, çabuk kesilme veya yüzeyden ayrılma (ذهاب الشيء وانقطاعه)
+- **H5.1** [dictionary] ض ر ب B002 «bir amaçla yeryüzünde yolculuk etmek» السعي في الأرض — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H3.9 (also H3.9, H4.4, H9.1, L8.3)
+  - evidence: lex/src: ذهاب names the plain image of أَنفَقُوا۟ || Luna (complement): A journey for trade or livelihood draws on resources that go out in spending. The two senses make travel and its expenditure part of one undertaking.
+- **H5.2** [dictionary] ض ر ب B012 «düzensiz ve yinelenen hareket» الحركة المضطربة والخفق — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: الاضطراب تضرب الولد في البطن واضطرب الحبل بين القوم (ayn;tahdhib)؛ ضرب العرق ضربانا (jamhara;tahdhib)؛ ضرب الجرح ضربانا والموج يضطرب واضطرب أمره (sihah)؛ ضرب البعير في جهازه أي نفر (sihah;tahdhib)؛ الاضطراب كثرة الذهاب في الجهات (mufradat) (also L3.8, L8.7)
+  - evidence: lex/src: ذهاب names the plain image of أَنفَقُوا۟
+- **H5.3** [dictionary] ق و م B018 «pazarın canlanıp satışların artması» نفاق السوق — word قَوَّٰمُونَ (2 dictionaries); source: قامت السوق نفقت (sihah)؛ قامت السوق إذا نفقت ونامت إذا كسدت (tahdhib)
+  - evidence: lex/image: نفاق → root ن ف ق || Luna (image): The market’s brisk trade makes the spending sound like resources circulating through an active economy. The verse’s material outflow becomes part of the image o
+- **H5.4** [dictionary] ه ج ر B006 «vaktin başında erkenden gitme» التبكير والمضي أول الوقت — word وَٱهْجُرُوهُنَّ (1 dictionaries, sole attestation); source: التهجير إلى الجمعة وغيرها التبكير (tahdhib)؛ الذهاب إليها في أول أوقاتها (tahdhib)؛ بهجير الفجر أي يبكرون بوقت السحر (tahdhib)
+  - evidence: lex/src: ذهاب names the plain image of أَنفَقُوا۟ || Luna (image): The rare sense is people leaving early, while spending is wealth going out. The verse’s departure of people and outflow of resources make parallel movements awa
+- **H5.5** [judged] خ و ف B004 «bir şeyden alarak eksiltme» نقص يأخذ من الشيء — word تَخَافُونَ (4 dictionaries); source: والتخوف التنقص (ayn)؛ وتخوفه أي تنقصه (sihah)؛ تخوفناهم أي تنقصناهم تنقصا اقتضاه الخوف منه (mufradat)؛ تخوفت الشيء أي تنقصته فهو الصحيح الفصيح إلا أنه من الإبدال والأصل النون من التنقص (maqayis) (also L2.1, L4.3)
+  - evidence: Luna (same): Taking away from a thing meets the outflow of spending. The two senses make the resources named in the verse appear as something reduced by leaving their source
+- **H5.6** [judged] س ب ل B007 «kap kenarı veya hayvanın boğaz kesim yeri» حافة أو مخرج متقدم — word سَبِيلًا (4 dictionaries); source: لأعالي الدلو أسبال (maqayis)؛ لتب في سبل الناقة إذا طعن في ثغرة نحرها (jamhara)؛ أسبال الدلو شفاهها (sihah)؛ السبلة المنحر من البعير وهو التريبة؛ ملأ الإناء إلى سبلته أي إلى رأسه (tahdhib)
+  - evidence: Luna (part): The vessel’s rim is where its contents can pour out. This makes the rare edge image a point of departure for the wealth that is spent.
+- **H5.7** [judged] ض ر ب B004 «bir işten geri durup yüz çevirmek» القبض عن الشيء والكف — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H3.10 (also H3.10, L3.7, L8.4)
+  - evidence: Luna (opposite): Refraining holds something back, while spending sends resources out. Their opposition makes restraint audible beside expenditure.
+- **H5.8** [judged] ض ر ب B010 «kişiye ya da toprağa yüklenen mali ödeme» المال المضروب على أحد — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: as H1.23 (also H1.23, H8.2, T14)
+  - evidence: Luna (part): A tax or levy requires money to go out from the payer. It is one particular form of the outflow named by أَنفَقُوا۟.
+- **H5.9** [judged] ض ر ب B016 «para-emek ortaklığı» شركة التجارة بالسفر — word وَٱضْرِبُوهُنَّ (4 dictionaries); source: ضارب فلان لفلان في ماله إذا تجر فيه (jamhara)؛ ضاربه في المال من المضاربة وهي القراض (sihah)؛ المضاربة أن تعطي إنسانا من مالك ما يتجر فيه والربح بينكما (tahdhib)؛ المضاربة ضرب من الشركة (mufradat) (also H8.3, L4.4)
+  - evidence: Luna (part): In a trading partnership, money leaves its owner to be used in trade. The investment is a specific outflow, though its aim is a return.
+- **H5.10** [judged] ط و ع B005 «yükümlü olmadığı iyiliği gönüllü yapma» التطوع والتبرع — word أَطَعْنَكُمْ (5 dictionaries); source: التبرع بالشيء قد تطوع به (maqayis); لا يقال هذا إلا في باب الخير والبر (maqayis); التطوع ما تبرعت به مما لا يلزمك فريضته (ayn;sihah;tahdhib); المطوعة القوم الذين يتطوعون بالجهاد (ayn;sihah;tahdhib); التطوع في التعارف ال… (also L4.5)
+  - evidence: Luna (same): The spending can be heard as a freely offered gift. This brings the voluntary good of the rare sense into the verse’s stated expenditure.
+- **H5.11** [judged] غ ي ب B009 «ölüyü mezara gömme» تغييبه في القبر — word لِّلْغَيْبِ (1 dictionaries, sole attestation); source: غيبه غيابه أي دفن في قبره (also L2.12)
+  - evidence: Luna (image): What is spent leaves the holder’s field of possession, like something hidden away beneath the earth. The expenditure ground therefore carries a faint image of d
+- **H5.12** [judged] ف ض ل B003 «başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme» الإحسان والعطية — word فَضَّلَ (5 dictionaries); source: as H1.29 (also H1.29, H2.24, H3.17, H8.6, L1.10)
+  - evidence: Luna (same): The rare sense is benevolence or a gift beyond what is owed; أَنفَقُوا۟ names money going out in expenditure. The pair makes spending one form of giving.
+- surah ayat these members touch (chain material): 4:10 (ض ر ب B012) → 4:13 (غ ي ب B009) → 4:16 (ض ر ب B004) → 4:18 (ض ر ب B010) → 4:20 (خ و ف B004) → 4:21 (خ و ف B004) → 4:24 (ض ر ب B010) → 4:29 (ض ر ب B002, ض ر ب B010, ض ر ب B016) → 4:36 (ف ض ل B003) → 4:38 (ض ر ب B010) → 4:43 (ض ر ب B002, ض ر ب B010, ض ر ب B016) → 4:57 (غ ي ب B009) → 4:59 (ض ر ب B004) → 4:62 (ف ض ل B003) → 4:63 (ض ر ب B004) → 4:66 (ض ر ب B010) → 4:71 (خ و ف B004, ض ر ب B012) → 4:75 (ض ر ب B010) → 4:81 (ض ر ب B004) → 4:100 (ض ر ب B010) → 4:104 (ض ر ب B002) → 4:105 (خ و ف B004) → 4:107 (خ و ف B004) → 4:114 (ض ر ب B002) → 4:119 (خ و ف B004) → 4:122 (غ ي ب B009) → 4:152 (ض ر ب B010) → 4:164 (خ و ف B004)
+
+### H6 لِّلْغَيْبِ — 8 roots converge
+Plain sense of لِّلْغَيْبِ: gözden, duyudan ya da bilgiden uzak kalma (تستر الشيء عن العيون)
+- **H6.1** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَٰفِظَٰتٌ (5 dictionaries); source: as H1.9 (also H1.9, H2.6, H3.4, T12)
+  - evidence: lex/src: غيب → root غ ي ب || Luna (complement): Guardianship becomes most vivid precisely when the protected person is absent. The unseen is not an empty space but the condition in which fidelity is kept.
+- **H6.2** [dictionary] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَفِظَ (5 dictionaries); source: as H1.9 (also H1.10, H2.7, H3.5, H10.7)
+  - evidence: lex/src: غيب → root غ ي ب || Luna (image): The covenant is kept precisely when its partner is absent. The hidden domain becomes the test of fidelity, where the unseen does not cancel the bond.
+- **H6.3** [dictionary] س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word سَبِيلًا (1 dictionaries, sole attestation); source: السبل داء في العين شبه غشاوة كأنها نسج العنكبوت بعروق حمر (sihah) (also H10.3)
+  - evidence: lex/image: عين names the plain image of لِّلْغَيْبِ || Luna (image): The diseased veil in the eye clouds what can be seen. Beside the hidden domain, it makes absence feel like a screen over vision.
+- **H6.4** [dictionary] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قَوَّٰمُونَ (1 dictionaries, sole attestation); source: as H2.38 (also H2.38, H3.34)
+  - evidence: lex/src: عيناي names the plain image of لِّلْغَيْبِ || Luna (image): The aching eye becomes the threshold of what remains unseen. The hidden is not abstract here: it is what the eye that hurts cannot disclose.
+- **H6.5** [dictionary] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word قَوَّٰمُونَ (2 dictionaries); source: as H4.12 (also H4.12)
+  - evidence: lex/image: عين names the plain image of لِّلْغَيْبِ || Luna (image): The hidden becomes what a sound-looking eye cannot see. The image makes absence visible as the limit of sight, even when the pupil remains intact.
+- **H6.6** [judged] ح ف ظ B002 «bellekte tutma» ثبوت المحفوظ في النفس — word حَفِظَ (4 dictionaries); source: الحفظ نقيض النسيان (ayn;tahdhib)؛ حفظته أيضا بمعنى استظهرته (sihah)؛ تحفظت الكتاب أي استظهرته (sihah)؛ رزقوا حفظ ما سمعوا وقلما ينسون (tahdhib)؛ هيئة النفس التي بها يثبت ما يؤدي إليه الفهم وضبط الشيء في النفس (mufradat) (also L1.3)
+  - evidence: Luna (image): Memory keeps present what is otherwise absent from awareness. Heard beside the hidden domain, preservation becomes the mind holding what is out of sight.
+- **H6.7** [judged] خ و ف B006 «arıcı ya da su taşıyıcısının deri torbası veya üstlüğü» خافة العسال والسقاء — word تَخَافُونَ (2 dictionaries); source: الخافة تصغيرها خويفة واشتقاقها من الخوف وهي جبة يلبسها العسال والسقاء والخافة العيبة (ayn)؛ الخافة خريطة من أدم يشتار فيها العسل (sihah)
+  - evidence: Luna (image): A leather pouch carries something out of sight. The hidden domain becomes an object concealed inside the carrier’s bag.
+- **H6.8** [judged] ر ج ل B012 «günün yükselip aydınlığın yayılması» ترجل النهار — word ٱلرِّجَالُ (5 dictionaries); source: as H1.42 (also H1.42, L2.3, T13)
+  - evidence: Luna (opposite): Daylight exposes what the hidden keeps out of sight. The pair makes a movement from concealment toward visibility.
+- **H6.9** [judged] ض ج ع B004 «alçaltma veya bir yana eğme» خفض الشيء وإمالته — word ٱلْمَضَاجِعِ (3 dictionaries); source: كل شيء خفضته فقد أضجعته (ayn;tahdhib)؛ الإضجاع في القوافي أن تميلها (ayn)؛ ضجعت الشمس إذا دنت للمغيب (sihah)؛ ضجعت الشمس للغروب وضجع النجم إذا مال للمغيب (tahdhib)؛ ضجع فلان إلى فلان كقولك صغوه إليه (tahdhib) (also H8.1)
+  - evidence: Luna (image): The sun tilting toward its setting offers a picture of something slipping from sight. ضجعت الشمس and لِّلْغَيْبِ together make disappearance feel like a downwar
+- **H6.10** [judged] ض ج ع B005 «yere yakın tepe, vadi ağzı veya yağış yeri» الأرض المنخفضة اللاصقة — word ٱلْمَضَاجِعِ (4 dictionaries); source: as H2.36 (also H2.36)
+  - evidence: Luna (image): A low hollow can hide something from view. ضواجع and لِّلْغَيْبِ make a landscape where concealment has a physical depression.
+- **H6.11** [judged] ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word قَوَّٰمُونَ (2 dictionaries); source: قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib)
+  - evidence: Luna (opposite): The zenith is when the sun stands at the day’s center, while the unseen remains beyond sight. Their juxtaposition sets full exposure against concealment at the 
+- **H6.12** [judged] ن ف ق B004 «içindeki inanç veya tutumun tersini göstererek bağlı görünme» إظهار باب وإخفاء مخرج — word أَنفَقُوا۟ (5 dictionaries); source: النفاق لأن صاحبه يكتم خلاف ما يظهر (maqayis); النفاق الخلاف والكفر والفعل نافق نفاقا (ayn); ومنه اشتقاق المنافق في الدين (sihah); سمي المنافق منافقا للنفق وهو السرب في الأرض (tahdhib); النفاق الدخول في الشرع من باب والخ… (also H7.7, L5.8, L8.9)
+  - evidence: Luna (same): The unseen is a fitting domain for what hypocrisy conceals. The pairing lets الغَيْب carry the image of an inward truth that outward eyes cannot verify.
+- **H6.13** [judged] ه ج ر B013 «yaklaşık bir yıllık aradan sonra» البعد بعد الحول — word وَٱهْجُرُوهُنَّ (1 dictionaries, sole attestation); source: لقيت فلانا عن هجر بعد الحول ونحوه (tahdhib)؛ الهجيرة تصغير الهجرة وهي السنة التامة (tahdhib)
+  - evidence: Luna (same): The year-long distance in الهجيرة gives duration to the absence named by لِّلْغَيْبِ. The guarded hidden domain can be heard as an absence that stretches throug
+- surah ayat these members touch (chain material): 4:8 (ض ج ع B005) → 4:11 (ح ف ظ B002) → 4:19 (ض ج ع B005) → 4:24 (ح ف ظ B006) → 4:25 (ح ف ظ B006, ض ج ع B005) → 4:37 (ن ف ق B004) → 4:42 (ن ف ق B004) → 4:43 (ض ج ع B005, ن ف ق B004) → 4:44 (ح ف ظ B002) → 4:46 (ح ف ظ B006, ن ف ق B004) → 4:47 (ن ف ق B004) → 4:60 (ح ف ظ B002) → 4:66 (ر ج ل B012) → 4:77 (ر ج ل B012) → 4:78 (ق و م B017) → 4:84 (ر ج ل B012) → 4:88 (ح ف ظ B002) → 4:102 (ح ف ظ B006) → 4:103 (ح ف ظ B002) → 4:124 (ح ف ظ B002) → 4:125 (ن ف ق B004) → 4:137 (ن ف ق B004) → 4:142 (ن ف ق B004) → 4:155 (ن ف ق B004) → 4:157 (س ب ل B010)
+
+### H7 كَبِيرًا — 8 roots converge
+Plain sense of كَبِيرًا: küçüğün karşıtı olan büyüklük (العظم خلاف الصغر)
+- **H7.1** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: as H1.1 (also H1.1, T11)
+  - evidence: lex/src: اكبر → root ك ب ر || Luna (complement): A vocative or oath using Allah sits beside the plain magnitude of كَبِيرًا. Together they evoke a prayerful address to the Great One.
+- **H7.2** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: as H1.1 (also H1.2, T9)
+  - evidence: lex/src: اكبر → root ك ب ر || Luna (complement): The divine name used in oath and address meets the attribute of greatness. The close makes the invoked God both personally named and beyond human scale.
+- **H7.3** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهَ (5 dictionaries); source: as H1.1 (also H1.3, T10)
+  - evidence: lex/src: اكبر → root ك ب ر || Luna (complement): The name of Allah meets the predicate of greatness. The closing words can be heard as invoking the One who is great.
+- **H7.4** [dictionary] ب غ ي B003 «haddi aşarak haksızlık etmek» تجاوز الحد بالعدوان والظلم — word تَبْغُوا۟ (4 dictionaries); source: as H1.5 (also H1.5, H2.2, H3.1, L5.1, T5)
+  - evidence: lex/src: تكبر → root ك ب ر || Luna (opposite): The ban on arrogant excess closes with God’s greatness. Human self-aggrandizement is diminished beside the greatness named at the end.
+- **H7.5** [dictionary] ع ل و B002 «saygınlıkta yüksek mevki» الرفعة والشرف — word عَلِيًّا (4 dictionaries); source: as H2.20 (also H2.20, H3.11, L2.8)
+  - evidence: rel/near_synonym: ك ب ر B005 (yüksek saygınlık ile üstün mevki) || Luna (image): High honor meets great size in the closing pair, turning rank into stature. The image has both vertical value and magnitude.
+- **H7.6** [dictionary] ع ل و B003 «kibirli üstünlük taslama» العظمة والتجبر — word عَلِيًّا (4 dictionaries); source: العلو فالعظمة والتجبر (maqayis;ayn)؛ علا ملك في الأرض أي طغى وتعظم (ayn)؛ علا في الأرض تكبر (sihah)؛ علا يقال في المحمود والمذموم (mufradat) (also H9.6)
+  - evidence: lex/src: تكبر → root ك ب ر || Luna (image): An arrogant overclaim magnifies itself toward greatness. In the coda, the paired words place self-exaltation beside great magnitude.
+- **H7.7** [dictionary] ن ف ق B004 «içindeki inanç veya tutumun tersini göstererek bağlı görünme» إظهار باب وإخفاء مخرج — word أَنفَقُوا۟ (5 dictionaries); source: as H6.12 (also H6.12, L5.8, L8.9)
+  - evidence: sound/contrast: contrast word كفر ~ كَبِيرًا (one letter apart)
+- **H7.8** [dictionary] ه ج ر B011 «su için ayrılmış büyük veya yapılı havuz» الحوض المقتطع للماء — word وَٱهْجُرُوهُنَّ (3 dictionaries); source: as H4.13 (also H4.13, L6.8)
+  - evidence: lex/src: كبير → root ك ب ر
+- **H7.9** [judged] ب ع ض B002 «sivrisinek ve ona bağlı zarar veya bulunma kullanımları» البعوضة لصغرها وإيذائها — word بَعْضٍ (5 dictionaries); source: as H3.31
+  - evidence: Luna (opposite): The closing word names greatness, while the mosquito's defining image is its tiny body. The contrast in scale lets the verse's greatness be heard against an alm
+- **H7.10** [judged] ب ع ض B002 «sivrisinek ve ona bağlı zarar veya bulunma kullanımları» البعوضة لصغرها وإيذائها — word بَعْضَهُمْ (5 dictionaries); source: as H3.31 (also H3.31, L4.1, L9.1)
+  - evidence: Luna (opposite): The mosquito is tiny, while كَبِيرًا plainly means great rather than small. Their contrast moves from the smallest scale to greatness.
+- **H7.11** [judged] ع ل و B005 «üst yan ve yukarıdanlık» الجهة العليا ومن فوق — word عَلِيًّا (3 dictionaries); source: أسفل الشيء وأعلاه (maqayis)؛ جئتك من أعلى ومن علا ومن عال ومن عل (maqayis)؛ علو الدار نقيض سفلها (sihah)؛ علاوة الريح وسفالتها (sihah;mufradat)؛ علاوة الشيء أعلاه (mufradat) (also L2.9)
+  - evidence: Luna (image): The upper side and great size form a single image of height and magnitude. The closing pair sounds not only elevated but vast.
+- **H7.12** [judged] ع ل و B010 «uzun ve iri yapılı» الطول والضخامة — word عَلِيًّا (3 dictionaries); source: as H3.14 (also H3.14, H10.4, L2.11)
+  - evidence: Luna (same): The rare sense describes a massive, tall body, while كَبِيرًا plainly means large rather than small. The two magnitudes reinforce one another in the closing sca
+- **H7.13** [judged] ف ض ل B004 «akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme» ادعاء الفضل — word فَضَّلَ (4 dictionaries); source: as H1.30 (also H1.30, H2.25, L1.11, T1)
+  - evidence: Luna (image): A claim to be superior meets the plain sense of being greater in size. The pair pictures social rank as being larger than one’s peers.
+- **H7.14** [judged] ك و ن B005 «gençliğini anan yaşlı kişi» الشيخ المنسوب إلى كُنْتُ — word كَانَ (1 dictionaries, sole attestation); source: as H3.24 (also H3.24)
+  - evidence: Luna (same): The old person who speaks from youth meets the language of greatness. The close can make كبير carry the fullness of age as well as size.
+- **H7.15** [judged] ه ج ر B008 «benzerlerini aşan üstünlük» المجاوزة في الحسن والتمام — word وَٱهْجُرُوهُنَّ (4 dictionaries); source: as H1.52 (also H1.52, L5.9)
+  - evidence: Luna (same): Unmatched completeness carries a sense of exceeding ordinary measure. Beside كَبِيرًا, that excellence takes on the scale of greatness.
+- surah ayat these members touch (chain material): 4:1 (ب ع ض B002) → 4:2 (ع ل و B002, ه ج ر B011) → 4:3 (ب ع ض B002) → 4:5 (ع ل و B010) → 4:6 (ع ل و B002, ه ج ر B008) → 4:8 (ب ع ض B002) → 4:10 (ب غ ي B003) → 4:11 (ب ع ض B002, ع ل و B005) → 4:13 (ع ل و B005) → 4:14 (ب غ ي B003) → 4:19 (ب ع ض B002) → 4:25 (ب ع ض B002, ع ل و B003, ع ل و B010, ه ج ر B008) → 4:29 (ء ل ه B002, ب غ ي B003) → 4:30 (ب غ ي B003) → 4:31 (ع ل و B002) → 4:37 (ن ف ق B004) → 4:38 (ء ل ه B002) → 4:39 (ء ل ه B002) → 4:42 (ن ف ق B004) → 4:43 (ع ل و B002, ن ف ق B004, ه ج ر B011) → 4:45 (ب غ ي B003) → 4:46 (ع ل و B010, ن ف ق B004) → 4:47 (ع ل و B002, ن ف ق B004) → 4:57 (ع ل و B005) → 4:63 (ه ج ر B008) → 4:68 (ع ل و B010) → 4:122 (ع ل و B005) → 4:125 (ع ل و B002, ن ف ق B004) → 4:137 (ن ف ق B004) → 4:142 (ن ف ق B004) → 4:145 (ع ل و B005) → 4:153 (ء ل ه B002, ب غ ي B003) → 4:154 (ع ل و B005) → 4:155 (ن ف ق B004) → 4:161 (ب غ ي B003)
+
+### H8 أَمْوَٰلِهِمْ — 6 roots converge
+Plain sense of أَمْوَٰلِهِمْ: varlık; edinme, çoğalma ve başkasına kazandırma (اتخاذ المال وكثرته)
+- **H8.1** [dictionary] ض ج ع B004 «alçaltma veya bir yana eğme» خفض الشيء وإمالته — word ٱلْمَضَاجِعِ (3 dictionaries); source: as H6.9 (also H6.9)
+  - evidence: lex/src: مال → root م و ل || lex/src: مال names the plain image of أَمْوَٰلِهِمْ
+- **H8.2** [dictionary] ض ر ب B010 «kişiye ya da toprağa yüklenen mali ödeme» المال المضروب على أحد — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: as H1.23 (also H1.23, H5.8, T14)
+  - evidence: lex/image: مال → root م و ل || lex/image: مال names the plain image of أَمْوَٰلِهِمْ || Luna (part): The levy in الضريبة is taken from a person's assets. It makes the wealth in أَمْوَٰلِهِمْ the concrete base of the payment.
+- **H8.3** [dictionary] ض ر ب B016 «para-emek ortaklığı» شركة التجارة بالسفر — word وَٱضْرِبُوهُنَّ (4 dictionaries); source: as H5.9 (also H5.9, L4.4)
+  - evidence: lex/src: مال → root م و ل || lex/src: مال names the plain image of أَمْوَٰلِهِمْ || Luna (part): The partnership requires money or assets as its capital. أَمْوَٰلِهِمْ names the resource base from which that venture begins.
+- **H8.4** [dictionary] ن ف ق B002 «bir şeyi gider olarak elden çıkarma; özel kullanımda elindekini tüketip yoksullaşma» خروج المال في النفقة — word أَنفَقُوا۟ (5 dictionaries); source: as H1.40 (also H1.40, H2.33, H3.26)
+  - evidence: lex/image: مال → root م و ل || lex/image: مال names the plain image of أَمْوَٰلِهِمْ || Luna (part): The spending ground becomes tangible as wealth leaving its holders. Their assets are the resource from which the outlay departs.
+- **H8.5** [judged] س ب ل B008 «tahıl başağı ve başak çıkarmak» سنبلة الزرع الممتدة — word سَبِيلًا (6 dictionaries); source: سمي السنبل سنبلا لامتداده؛ أسبل الزرع إذا خرج سنبله (maqayis)؛ السبولة سنبلة الذرة والأرز وأسبل الزرع أي سنبل (ayn)؛ أسبل الزرع وسنبل إذا صار فيه السنبل (jamhara)؛ السبل أيضا السنبل؛ أسبل الزرع أي خرج سنبله (sihah)؛ الس…
+  - evidence: Luna (image): The grain head is a harvest that can become wealth. The pairing makes the assets spent in the verse carry an image of ripened fields.
+- **H8.6** [judged] ف ض ل B003 «başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme» الإحسان والعطية — word فَضَّلَ (5 dictionaries); source: as H1.29 (also H1.29, H2.24, H3.17, H5.12, L1.10)
+  - evidence: Luna (part): A gift is made from some material or asset, and أَمْوَٰلِهِمْ names their wealth. The rare giving sense turns that wealth into the substance of generosity.
+- **H8.7** [judged] ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word قَوَّٰمُونَ (5 dictionaries); source: هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقوم…
+  - evidence: Luna (part): The wealth named in the verse becomes the material basis of maintenance. The rare support sense turns the spending ground into what holds livelihood up.
+- surah ayat these members touch (chain material): 4:18 (ض ر ب B010) → 4:24 (ض ر ب B010, ق و م B009, ن ف ق B002) → 4:25 (ق و م B009) → 4:29 (ض ر ب B010, ض ر ب B016, ن ف ق B002) → 4:36 (ف ض ل B003, ق و م B009) → 4:38 (ض ر ب B010, ن ف ق B002) → 4:40 (س ب ل B008) → 4:43 (ض ر ب B010, ض ر ب B016) → 4:62 (ف ض ل B003) → 4:66 (ض ر ب B010) → 4:75 (ض ر ب B010) → 4:100 (ض ر ب B010) → 4:152 (ض ر ب B010)
+
+### H9 تَبْغُوا۟ — 6 roots converge
+Plain sense of تَبْغُوا۟: bir şeyi arayıp istemek; başkası için aramak veya arayışına yardım etmek (طلب الشيء وابتغاؤه)
+- **H9.1** [dictionary] ض ر ب B002 «bir amaçla yeryüzünde yolculuk etmek» السعي في الأرض — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H3.9 (also H3.9, H4.4, H5.1, L8.3)
+  - evidence: lex/src: ابتغاء → root ب غ ي || Luna (same): Travel for a purpose and seeking an aim describe directed pursuit. The journey in وَٱضْرِبُوهُنَّ becomes a physical form of تَبْغُوا۟.
+- **H9.2** [dictionary] ع ل و B004 «yapı içinde üstün gelip bastırma» الغلبة والاستيلاء — word عَلِيًّا (3 dictionaries); source: as H3.12 (also H3.12, L1.9, L4.6)
+  - evidence: lex/src: طلب names the plain image of تَبْغُوا۟ || Luna (image): The rare sense is gaining the upper hand, while تَبْغُوا۟ names seeking a way. The pair pictures pursuit as a route by which someone tries to prevail.
+- **H9.3** [dictionary] ه ج ر B003 «bilerek çirkin ve edepsiz söz söyleme» الكلام القبيح المهجور — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: الهجر الإفحاش في المنطق (maqayis)؛ تقولون الهجر أي قول الخنا والإفحاش في المنطق (ayn)؛ الهجر ما لا ينبغي من الكلام (jamhara)؛ الهجر بالضم الاسم من الإهجار وهو الإفحاش في المنطق والخنا (sihah)؛ الهجر الإفحاش في المنطق والخنا (tahdhib)؛ الهجر الكلام القبيح المهجور لقبحه (mufradat) (also L7.7)
+  - evidence: lex/src: ينبغي → root ب غ ي
+- **H9.4** [judged] ر ج ل B020 «bir işe atılıp ilerlemek» ركوب الأمر بالرجلين — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: ارتجل الرجل ركب رجليه في صاحبه ومضى (ayn)؛ ارتجل ما ارتجلت أي اركب ما ركبت من الأمر (ayn) (also L2.5)
+  - evidence: Luna (same): The forbidden seeking becomes a deliberate undertaking entered and pursued. The pair makes the pursuit of a way sound like setting out on foot.
+- **H9.5** [judged] ض ج ع B002 «aynı yatakta birlikte yatma» مشاركة المضجع — word ٱلْمَضَاجِعِ (5 dictionaries); source: as H3.8 (also H3.8)
+  - evidence: Luna (complement): The shared bed can be something sought by a partner. Beside تَبْغُوا۟, the bed companion becomes the object of desire or pursuit.
+- **H9.6** [judged] ع ل و B003 «kibirli üstünlük taslama» العظمة والتجبر — word عَلِيًّا (4 dictionaries); source: as H7.6 (also H7.6)
+  - evidence: Luna (image): An arrogant claim to stand above others meets the pursuit of a way against them. The pair makes pursuit the practical reach of domineering self-exaltation.
+- **H9.7** [judged] ك ب ر B006 «ululuk ve kendini üstün görme» العظمة والكبرياء — word كَبِيرًا (6 dictionaries); source: as H1.49 (also H1.49, L4.10, L10.4)
+  - evidence: Luna (image): Self-exalting pride meets the pursuit of a way against them. The pair pictures arrogance reaching outward as an attempt to impose itself.
+- surah ayat these members touch (chain material): 4:25 (ع ل و B003) → 4:29 (ض ر ب B002) → 4:43 (ض ر ب B002) → 4:104 (ض ر ب B002) → 4:114 (ض ر ب B002)
+
+### H10 قَوَّٰمُونَ — 5 roots converge
+Plain sense of قَوَّٰمُونَ: erkekler topluluğu ve yakın çevresi (جماعة الناس والرجال)
+- **H10.1** [dictionary] ر ج ل B003 «yaya giden kişi» المشي على الأرجل — word ٱلرِّجَالُ (5 dictionaries); source: as H1.13 (also H1.13, H2.10, H4.8)
+  - evidence: lex/src: رجالا names the plain image of قَوَّٰمُونَ
+- **H10.2** [dictionary] ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: as H1.18 (also H1.18, H2.15)
+  - evidence: rel/near_synonym: ق و م B003 (işe sarılmak ile işe kalkışmak)
+- **H10.3** [dictionary] س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word سَبِيلًا (1 dictionaries, sole attestation); source: as H6.3 (also H6.3)
+  - evidence: rel/same_field: ق و م B021 (göz perdesi ile kör göz)
+- **H10.4** [dictionary] ع ل و B010 «uzun ve iri yapılı» الطول والضخامة — word عَلِيًّا (3 dictionaries); source: as H3.14 (also H3.14, H7.12, L2.11)
+  - evidence: rel/near_synonym: ق و م B011 (iri uzunluk ile boy)
+- **H10.5** [dictionary] ن ش ز B007 «yaşla eksilmeyen güç ve iri sertlik» الغلظ وثبات القوة — word نُشُوزَهُنَّ (2 dictionaries); source: as H3.25 (also H3.25)
+  - evidence: lex/src: رجال names the plain image of قَوَّٰمُونَ
+- **H10.6** [judged] ح ف ظ B005 «koruyucu öfke ve onurlu tepki» حفيظة الغضب والحمية — word حَفِظَ (5 dictionaries); source: as H3.2 (also H3.3)
+  - evidence: Luna (image): The male group is pictured as standing in a protective charge. Their guardianship has the force of honor and zeal for what they defend.
+- **H10.7** [judged] ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَفِظَ (5 dictionaries); source: as H1.9 (also H1.10, H2.7, H3.5, H6.2)
+  - evidence: Luna (image): The male household group can be heard as the guardians of a covenant and its protected boundaries. The role is given the image of custodianship rather than mere
+- surah ayat these members touch (chain material): 4:1 (ن ش ز B007) → 4:5 (ر ج ل B019, ع ل و B010) → 4:7 (ن ش ز B007) → 4:21 (ن ش ز B007) → 4:24 (ح ف ظ B006) → 4:25 (ح ف ظ B006, ع ل و B010) → 4:32 (ن ش ز B007) → 4:36 (ح ف ظ B005) → 4:46 (ح ف ظ B006, ر ج ل B019, ع ل و B010) → 4:56 (ن ش ز B007) → 4:58 (ر ج ل B003) → 4:68 (ر ج ل B019, ع ل و B010) → 4:69 (ر ج ل B003) → 4:71 (ن ش ز B007) → 4:72 (ر ج ل B003) → 4:102 (ح ف ظ B006) → 4:103 (ر ج ل B019) → 4:118 (ح ف ظ B005) → 4:153 (ح ف ظ B005) → 4:154 (ن ش ز B007) → 4:157 (س ب ل B010) → 4:171 (ن ش ز B007) → 4:172 (ح ف ظ B005)
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 أَطَعْنَكُمْ — 12 roots converge
+Plain sense of أَطَعْنَكُمْ: zorlanmadan boyun eğme ve kolay yönlenme (الانقياد والطاعة)
+- **L1.1** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H2.28, H3.20, H4.5, L2.17, L4.8)
+  - evidence: lex/src: طاعا → root ط و ع || lex/src: طاعا names the plain image of أَطَعْنَكُمْ || Luna (same): Upright adherence is heard again in the act of compliance. The rare branch makes obedience sound like remaining on a straight course.
+- **L1.2** [judged] ب غ ي B002 «uygun, mümkün veya hak edilmiş olmak» الانبغاء والمطاوعة لما يليق أو يتيسر — word تَبْغُوا۟ (4 dictionaries); source: as H1.4 (also H1.4, H2.1, L5.3)
+  - evidence: Luna (complement): When they comply, no further way against them is fitting. The rare sense of what ought to be gives the halt a measure of propriety.
+- **L1.3** [judged] ح ف ظ B002 «bellekte tutma» ثبوت المحفوظ في النفس — word حَفِظَ (4 dictionaries); source: as H6.6 (also H6.6)
+  - evidence: Luna (part): Remembering an instruction can be the stage that makes compliance possible. The verse’s obedience can thus be heard as a command retained and then acted upon.
+- **L1.4** [judged] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَٰفِظَٰتٌ (3 dictionaries); source: as H1.7 (also H1.7, H2.4, L3.1, L7.2)
+  - evidence: Luna (same): The keeping sense of حَٰفِظَٰتٌ makes compliance sound like continued adherence. The women’s response is thus heard as steadfast following, not a passing conces
+- **L1.5** [judged] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَفِظَ (3 dictionaries); source: as H1.7 (also H1.8, H2.5, L3.2, L7.3, L10.1, L12.1)
+  - evidence: Luna (same): Steady observance and compliance both describe continuing to follow an obligation. Heard together, the condition asks for adherence that lasts beyond a single m
+- **L1.6** [judged] خ و ف B002 «korku doğurma ya da korkulur kılma» إدخال الخوف في الغير — word تَخَافُونَ (3 dictionaries); source: as H1.11 (also H1.11, H2.8, H3.6, H4.3)
+  - evidence: Luna (opposite): Fear imposed from outside stands against willing compliance. The rare sense makes the verse’s later obedience condition sound different from submission produced
+- **L1.7** [judged] ر ج ل B014 «yavruyu annesiyle serbest bırakmak» إرسال الفصيل مع أمه — word ٱلرِّجَالُ (4 dictionaries); source: أرجلت الفصيل تركته يمشي مع أمه يرضع متى شاء (maqayis)؛ أرجلت الفصيل مع أمه يرضع متى شاء (jamhara)؛ الرجل أن ترسل البهة مع أمها ترضعها متى شاءت (sihah)؛ أرجلت الفصيل أرسلته مع أمه (mufradat)
+  - evidence: Luna (image): The calf is left to move with its mother and nurse at will. Beside أَطَعْنَكُمْ, obedience can sound unforced, like freely following an attachment.
+- **L1.8** [judged] ص ل ح B003 «sana uygun olma» الصلاح للشيء ملاءمته — word فَٱلصَّٰلِحَٰتُ (1 dictionaries); source: وهذا الشئ يصلح لك، أي هو من بابتك (sihah)
+  - evidence: Luna (same): The word for obedience reads as willing alignment with another's direction. Together the senses make compliance a kind of fitting oneself to a relation.
+- **L1.9** [judged] ع ل و B004 «yapı içinde üstün gelip bastırma» الغلبة والاستيلاء — word عَلِيًّا (3 dictionaries); source: as H3.12 (also H3.12, H9.2, L4.6)
+  - evidence: Luna (complement): The one who prevails occupies the powerful side of a relation; compliance supplies the yielding side. In this verse, the feared imbalance is followed by the con
+- **L1.10** [judged] ف ض ل B003 «başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme» الإحسان والعطية — word فَضَّلَ (5 dictionaries); source: as H1.29 (also H1.29, H2.24, H3.17, H5.12, H8.6)
+  - evidence: Luna (image): The rare gift sense is non-obligatory, while أَطَعْنَكُمْ names compliance. Their willingness can be heard beside the notion of freely given beneficence, rather
+- **L1.11** [judged] ف ض ل B004 «akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme» ادعاء الفضل — word فَضَّلَ (4 dictionaries); source: as H1.30 (also H1.30, H2.25, H7.13, T1)
+  - evidence: Luna (complement): A claim to stand above peers meets the act of complying with someone. The pair makes claimed rank the status that obedience would serve.
+- **L1.12** [judged] ق ن ت B004 «namazda insan sözü söylemeyip namaza yönelme» إمساك مصلي عن الكلام — word قَٰنِتَٰتٌ (3 dictionaries); source: سمى السكوت في الصلاة والإقبال عليها قنوتا (maqayis)؛ فالقنوت ها هنا الإمساك عن الكلام في الصلاة (tahdhib)؛ قيل ساكتون ولم يعن به كل السكوت؛ لا يصح فيها شيء من كلام الآدميين (mufradat) (also L10.2, L12.3)
+  - evidence: Luna (part): Obedience can be heard as an act of disciplined restraint. The prayer silence makes compliance concrete as holding back one's speech.
+- **L1.13** [judged] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قَوَّٰمُونَ (5 dictionaries); source: as H1.32 (also H1.32, H2.27, L6.6, L11.1)
+  - evidence: Luna (complement): The role of governance meets its counterpart in compliance. The conditional restraint that follows then limits what that authority may pursue.
+- **L1.14** [judged] ك ب ر B005 «saygınlık ve önderlikte yüksek konum» رفعة الشرف والرئاسة — word كَبِيرًا (6 dictionaries); source: as H1.35 (also H1.35)
+  - evidence: Luna (complement): A chief or leader is the one to whom others defer; أَطَعْنَكُمْ names their compliance. The pair gives obedience its social counterpart in leadership.
+- **L1.15** [judged] ك و ن B004 «boyun eğme» الخضوع بالاستكانة — word كَانَ (1 dictionaries, sole attestation); source: الاستكانة الخضوع (sihah) (also L7.5)
+  - evidence: Luna (same): Their compliance can be heard as yielding. The two senses give the conditional halt an echo of submission.
+- **L1.16** [judged] ه ج ر B004 «hastalık sırasında istemeden sayıklama» هذيان المريض والنائم — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: as H3.28 (also H3.28, L3.17)
+  - evidence: Luna (opposite): Involuntary, disordered speech contrasts with deliberate compliance. The condition of obedience is heard as an answer to conduct that lacks conscious direction.
+- surah ayat these members touch (chain material): 4:3 (ق و م B008) → 4:11 (ح ف ظ B002) → 4:36 (ف ض ل B003) → 4:43 (ه ج ر B004) → 4:44 (ح ف ظ B002) → 4:49 (ص ل ح B003) → 4:58 (ق و م B008) → 4:60 (ح ف ظ B002, ك ب ر B005) → 4:61 (ك ب ر B005) → 4:62 (ف ض ل B003) → 4:77 (ص ل ح B003) → 4:80 (ق و م B004) → 4:81 (ق و م B008) → 4:84 (ح ف ظ B003) → 4:88 (ح ف ظ B002) → 4:102 (ه ج ر B004) → 4:103 (ح ف ظ B002) → 4:124 (ح ف ظ B002) → 4:129 (ق و م B008) → 4:135 (ق و م B008) → 4:162 (ص ل ح B003) → 4:168 (خ و ف B002, ق و م B008) → 4:169 (خ و ف B002, ق و م B008)
+
+### L2 نُشُوزَهُنَّ — 9 roots converge
+Plain sense of نُشُوزَهُنَّ: yükselti ve çıkıntı (الارتفاع والنتوء)
+- **L2.1** [judged] خ و ف B004 «bir şeyden alarak eksiltme» نقص يأخذ من الشيء — word تَخَافُونَ (4 dictionaries); source: as H5.5 (also H5.5, L4.3)
+  - evidence: Luna (opposite): Reduction is set against elevation and protrusion. The pairing makes the two senses move in opposite spatial directions.
+- **L2.2** [judged] ر ج ل B002 «erkek insan» الرجل الذكر — word ٱلرِّجَالُ (4 dictionaries); source: هذا رجل أي ليس بأنثى (ayn)؛ الرجل خلاف المرأة (sihah)؛ الرجل مختص بالذكر من الناس (mufradat)؛ الرجولية والجلادة (mufradat)؛ يقال للمرأة الرجلة (maqayis;sihah)
+  - evidence: Luna (opposite): The ayah places the male class over women, then names a feared rising by women. Hearing رِجَالٌ as males makes that rising a gendered counter-movement in the sa
+- **L2.3** [judged] ر ج ل B012 «günün yükselip aydınlığın yayılması» ترجل النهار — word ٱلرِّجَالُ (5 dictionaries); source: as H1.42 (also H1.42, H6.8, T13)
+  - evidence: Luna (same): The daylight rises, and the feared nushūz is itself a rising. The repeated upward movement gives the two images a shared motion.
+- **L2.4** [judged] ر ج ل B013 «kuyuya iple indirilmeden inmek» نزول البئر بلا تدلية — word ٱلرِّجَالُ (5 dictionaries); source: as H1.43 (also H1.43)
+  - evidence: Luna (opposite): One sense is a rise or protrusion; the other is an unlowered descent into a well. The pair sets upward emergence against downward entry.
+- **L2.5** [judged] ر ج ل B020 «bir işe atılıp ilerlemek» ركوب الأمر بالرجلين — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: as H9.4 (also H9.4)
+  - evidence: Luna (image): The feared state can be pictured as someone rising and striding into a course of action. This gives نُشُوزَهُنَّ an active, bodily image.
+- **L2.6** [judged] س ط ع B001 «havada uzama, yükselme veya yayılma» امتداد الشيء وارتفاعه في الهواء — word أَطَعْنَكُمْ (echo root, sound family only; 4 dictionaries); source: as H1.21 (also H1.21, H2.17, T7)
+  - evidence: Luna (same): The spreading or rising in سطع meets the elevation in نُشُوزَهُنَّ. The two senses echo an upward extension or protrusion.
+- **L2.7** [judged] ض ر ب B015 «yoğun bal veya karışıp koyulaşmış süt» الغليظ المخلوط من عسل أو لبن — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: as H1.24 (also H1.24)
+  - evidence: Luna (image): Thick honey or curdled milk gives protrusion a material image. نُشُوزَهُنَّ can then be heard as something swollen or raised into a mass.
+- **L2.8** [judged] ع ل و B002 «saygınlıkta yüksek mevki» الرفعة والشرف — word عَلِيًّا (4 dictionaries); source: as H2.20 (also H2.20, H3.11, H7.5)
+  - evidence: Luna (image): نُشُوزَهُنَّ is a rising protrusion; عَلِيًّا can mean honor and high station. The pair makes elevation audible both as a disruptive rise and as esteem.
+- **L2.9** [judged] ع ل و B005 «üst yan ve yukarıdanlık» الجهة العليا ومن فوق — word عَلِيًّا (3 dictionaries); source: as H7.11 (also H7.11)
+  - evidence: Luna (same): نُشُوزَهُنَّ means rising or protrusion, and the rare ʿulūw sense is the upper side. The shared vertical direction joins feared human rising with the divine hei
+- **L2.10** [judged] ع ل و B006 «gel diye çağırma» نداء التعالي — word عَلِيًّا (3 dictionaries); source: تعال فهو من العلو كأنه قال اصعد إلي (maqayis)؛ لا يستعمل هذا إلا في الأمر خاصة (maqayis)؛ التعالي الارتفاع تقول منه إذا أمرت تعال (sihah)؛ تعال أصله أن يدعى الإنسان إلى مكان مرتفع (mufradat) (also L12.2)
+  - evidence: Luna (same): The rare sense is a command to ascend; نُشُوزَهُنَّ is rising or protrusion. One calls for upward movement, while the other names it.
+- **L2.11** [judged] ع ل و B010 «uzun ve iri yapılı» الطول والضخامة — word عَلِيًّا (3 dictionaries); source: as H3.14 (also H3.14, H7.12, H10.4)
+  - evidence: Luna (image): نُشُوزَهُنَّ names rising or protrusion, while the rare عَلِيًّا sense describes tall stature. Both run along the vertical axis, one as a rise and the other as 
+- **L2.12** [judged] غ ي ب B009 «ölüyü mezara gömme» تغييبه في القبر — word لِّلْغَيْبِ (1 dictionaries, sole attestation); source: as H5.11 (also H5.11)
+  - evidence: Luna (opposite): Burial pulls downward into concealment, while nushūz rises upward into view. The opposing directions sharpen the feared state as an emergence from its proper pl
+- **L2.13** [judged] ف ض ل B002 «nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme» الدرجة والفضيلة — word فَضَّلَ (5 dictionaries); source: as H1.28 (also H1.28, H2.23, L5.5, T2)
+  - evidence: Luna (image): فَضَّلَ can name an elevated degree of merit, while نُشُوزَهُنَّ is a rise or protrusion. The shared vertical image lets the ayah distinguish bestowed merit fro
+- **L2.14** [judged] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قَوَّٰمُونَ (5 dictionaries); source: as H1.31 (also H1.31, H2.26, H3.19, L3.12, T15)
+  - evidence: Luna (same): The bodily sense of qiyām meets the rising image in nushūz. The feared relational state thus carries a literal upward movement in the same verse as the standing
+- **L2.15** [judged] ق و م B003 «bir işe kararlılıkla girişme» عزم ونهوض إلى الأمر — word قَوَّٰمُونَ (2 dictionaries); source: قام بمعنى العزيمة؛ قام بهذا الأمر إذا اعتنقه؛ قيام عزم (maqayis)؛ القيام الذي هو العزم؛ إذا قمتم إلى الصلاة (mufradat) (also L3.13)
+  - evidence: Luna (image): Resolving to undertake a task is imagined as rising to it. Beside نُشُوزَهُنَّ, the same upward motion becomes relational rather than purposeful.
+- **L2.16** [judged] ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word قَوَّٰمُونَ (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا… (also L3.14)
+  - evidence: Luna (opposite): The sense of occupying or keeping a place is set against rising out of place. The contrast turns nushūz into a movement away from settled position.
+- **L2.17** [judged] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H2.28, H3.20, H4.5, L1.1, L4.8)
+  - evidence: Luna (opposite): The level course is set against a protrusion that rises out of it. This geometric contrast gives the feared nushūz a visible deviation from evenness.
+- **L2.18** [judged] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قَوَّٰمُونَ (5 dictionaries); source: as H1.47 (also H1.47, H3.21, L3.15)
+  - evidence: Luna (same): The body’s height and the rise of nushūz share a vertical image. What is a measured stature in one word becomes a protrusion or rising in the other.
+- **L2.19** [judged] ك ب ر B013 «günün yükseldiği vakit» أكبر النهار — word كَبِيرًا (1 dictionaries, sole attestation); source: as H1.51 (also H1.51, T3)
+  - evidence: Luna (image): The rare sense is the time when the day has risen high; نُشُوزَهُنَّ names rising or protrusion. The pair gives the feared rise a setting in the day’s own ascen
+- surah ayat these members touch (chain material): 4:1 (ق و م B002) → 4:2 (ع ل و B002) → 4:3 (ق و م B002, ق و م B008) → 4:5 (ع ل و B010) → 4:6 (ع ل و B002) → 4:11 (ر ج ل B002, ع ل و B005, ف ض ل B002, ق و م B002, ق و م B011) → 4:13 (ع ل و B005, غ ي ب B009) → 4:20 (خ و ف B004, ع ل و B006, ق و م B006) → 4:21 (خ و ف B004, ض ر ب B015) → 4:23 (ض ر ب B015, ق و م B011) → 4:25 (س ط ع B001, ع ل و B010, ق و م B011) → 4:31 (ع ل و B002) → 4:41 (ق و م B011) → 4:43 (ع ل و B002) → 4:46 (ع ل و B010) → 4:47 (ع ل و B002) → 4:57 (ع ل و B005, غ ي ب B009) → 4:58 (ق و م B008) → 4:66 (ر ج ل B012, ك ب ر B013) → 4:68 (ع ل و B010) → 4:71 (خ و ف B004) → 4:74 (ع ل و B006) → 4:77 (ر ج ل B012, ك ب ر B013) → 4:81 (ق و م B008) → 4:84 (ر ج ل B012, ك ب ر B013) → 4:86 (ع ل و B006) → 4:94 (ع ل و B006) → 4:95 (ف ض ل B002) → 4:96 (ف ض ل B002) → 4:103 (ر ج ل B002) → 4:105 (خ و ف B004) → 4:107 (خ و ف B004) → 4:112 (ر ج ل B013) → 4:119 (خ و ف B004) → 4:122 (ع ل و B005, غ ي ب B009) → 4:124 (ر ج ل B002) → 4:125 (ع ل و B002) → 4:129 (ق و م B008) → 4:135 (س ط ع B001, ق و م B008) → 4:145 (ع ل و B005) → 4:154 (ض ر ب B015, ع ل و B005, ف ض ل B002, ق و م B002) → 4:164 (خ و ف B004) → 4:168 (ق و م B008) → 4:169 (ق و م B008) → 4:171 (ف ض ل B002)
+
+### L3 ٱلْمَضَاجِعِ — 8 roots converge
+Plain sense of ٱلْمَضَاجِعِ: yanı üzerine uzanma veya yatırma (لصوق الجنب بالأرض)
+- **L3.1** [dictionary] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَٰفِظَٰتٌ (3 dictionaries); source: as H1.7 (also H1.7, H2.4, L1.4, L7.2)
+  - evidence: rel/antonym: ض ج ع B003 (işi savsaklama)
+- **L3.2** [dictionary] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَفِظَ (3 dictionaries); source: as H1.7 (also H1.8, H2.5, L1.5, L7.3, L10.1, L12.1)
+  - evidence: rel/antonym: ض ج ع B003 (işi savsaklama) || Luna (opposite): The rare sense stands for keeping up an affair, while the beds evoke lying down. Their contrast makes the verse’s constancy sound like rising to one’s duty inst
+- **L3.3** [judged] ح ف ظ B004 «uyanık ve dikkatli olma» تيقظ المتحفظ وقلة غفلته — word حَفِظَ (4 dictionaries); source: التحفظ قلة الغفلة (maqayis)؛ التحفظ قلة الغفلة حذرا من السقطة في الكلام والأمور (ayn)؛ التحفظ التيقظ وقلة الغفلة (sihah)؛ التحفظ قلة الغفلة في الكلام والتيقظ من السقطة (tahdhib)
+  - evidence: Luna (opposite): Alertness is set against lying down in the beds. The contrast makes vigilance the opposite of surrendering to repose.
+- **L3.4** [judged] ح ف ظ B004 «uyanık ve dikkatli olma» تيقظ المتحفظ وقلة غفلته — word حَٰفِظَٰتٌ (4 dictionaries); source: as L3.3
+  - evidence: Luna (opposite): Vigilance stands sharply beside the beds and lying-down places. The contrast makes the bed’s restfulness more audible against the women’s watchful care.
+- **L3.5** [judged] س ب ل B004 «aşağı doğru salmak» إرخاء من علو إلى سفل — word سَبِيلًا (6 dictionaries); source: as H1.19 (also H1.19, H3.7)
+  - evidence: Luna (image): The drape falls from above onto the place where bodies lie. Together the senses make an image of a curtain lowered over a bed.
+- **L3.6** [judged] س ب ل B005 «yağan yağmur» مطر سابل بين السحاب والأرض — word سَبِيلًا (6 dictionaries); source: as H2.35 (also H2.35)
+  - evidence: Luna (image): Rain falls from cloud toward earth, where bodies lie. The two senses make the bed a receiving place beneath a descending sky.
+- **L3.7** [judged] ض ر ب B004 «bir işten geri durup yüz çevirmek» القبض عن الشيء والكف — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H3.10 (also H3.10, H5.7, L8.4)
+  - evidence: Luna (image): The sense of remaining in one's house while refraining from an affair meets the lying place named by ٱلْمَضَاجِعِ. Together they picture withdrawal as staying b
+- **L3.8** [judged] ض ر ب B012 «düzensiz ve yinelenen hareket» الحركة المضطربة والخفق — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: as H5.2 (also H5.2, L8.7)
+  - evidence: Luna (opposite): A lying place suggests stillness, while الاضطراب means repeated and irregular motion. The senses make a contrast between resting and agitation.
+- **L3.9** [judged] ض ر ب B013 «hava olayının toprağa veya bitkiye etkisi» أثر البرد والمطر في الأرض والنبات — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H4.11 (also H4.11)
+  - evidence: Luna (image): Frost or rain striking soil makes a picture of weather reaching the ground. The low lying places named by ٱلْمَضَاجِعِ give that impact a landscape.
+- **L3.10** [judged] غ ي ب B002 «içine gireni gizleyen çukur yer» منهبط يغيب فيه الشيء — word لِّلْغَيْبِ (5 dictionaries); source: وقعنا في غيبة وغيابة أي هبطة من الأرض يغاب فيها؛ الغيابة الموضع الذي يستتر فيه؛ غيابة الجب قعره؛ غيابة الوادي؛ الغيب المطمئن من الأرض؛ الغيابة منهبط من الأرض
+  - evidence: Luna (image): The beds become hollows into which bodies settle and partly disappear from view. That low, concealing image gives the lying places a hidden depth.
+- **L3.11** [judged] ف ض ل B005 «giysiyi omuzlara dolayarak kuşanma veya evde tek giysiyle bulunma» التوشح بالثوب — word فَضَّلَ (4 dictionaries); source: as H3.18 (also H3.18)
+  - evidence: Luna (image): The rare sense evokes a person at home in a single garment; ٱلْمَضَاجِعِ names beds or lying-down places. Together they make an intimate household image around 
+- **L3.12** [judged] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قَوَّٰمُونَ (5 dictionaries); source: as H1.31 (also H1.31, H2.26, H3.19, L2.14, T15)
+  - evidence: Luna (opposite): The upright body is placed against the body lying on its side. The physical contrast makes the verse’s movement between standing and bed-space vivid.
+- **L3.13** [judged] ق و م B003 «bir işe kararlılıkla girişme» عزم ونهوض إلى الأمر — word قَوَّٰمُونَ (2 dictionaries); source: as L2.15 (also L2.15)
+  - evidence: Luna (opposite): Determinedly rising to a task is set against the bed’s lying-down posture. The pair makes the shift from resolve to rest unmistakable.
+- **L3.14** [judged] ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word قَوَّٰمُونَ (4 dictionaries); source: as L2.16 (also L2.16)
+  - evidence: Luna (opposite): The standing-place or station is placed beside the beds, where bodies lie down. The verse’s space is marked by opposed postures: standing and reclining.
+- **L3.15** [judged] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قَوَّٰمُونَ (5 dictionaries); source: as H1.47 (also H1.47, H3.21, L2.18)
+  - evidence: Luna (opposite): A well-formed upright body is set against the places where bodies lie down. The bed-space makes the posture of stature more sharply felt.
+- **L3.16** [judged] ن ش ز B002 «yerinden kalkma veya kaldırma» النهوض والانتقال عن المجلس — word نُشُوزَهُنَّ (4 dictionaries); source: as H3.36 (also H3.36)
+  - evidence: Luna (opposite): Getting up from a seat stands against lying down in the beds. The two bodily postures make a direct vertical contrast in the response sequence.
+- **L3.17** [judged] ه ج ر B004 «hastalık sırasında istemeden sayıklama» هذيان المريض والنائم — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: as H3.28 (also H3.28, L1.16)
+  - evidence: Luna (image): The bed becomes the setting of a patient’s delirium or a sleeper’s rambling. The rare sense gives the lying place a disordered voice.
+- surah ayat these members touch (chain material): 4:1 (ق و م B002) → 4:3 (ق و م B002) → 4:10 (ض ر ب B012) → 4:11 (ق و م B002, ق و م B011) → 4:12 (ف ض ل B005) → 4:16 (ض ر ب B004) → 4:20 (ق و م B006) → 4:23 (ق و م B011) → 4:25 (ق و م B011) → 4:41 (ق و م B011) → 4:43 (ه ج ر B004) → 4:59 (ض ر ب B004) → 4:63 (ض ر ب B004) → 4:71 (ح ف ظ B004, ض ر ب B012) → 4:81 (ض ر ب B004) → 4:84 (ح ف ظ B003) → 4:97 (س ب ل B005) → 4:102 (ح ف ظ B004, س ب ل B004, س ب ل B005, ض ر ب B013, ه ج ر B004) → 4:128 (ف ض ل B005) → 4:154 (ق و م B002)
+
+### L4 فَضَّلَ — 8 roots converge
+Plain sense of فَضَّلَ: gereksinimi aşan veya bir işlemden sonra kalan fazlalık (الزيادة والبقية)
+- **L4.1** [judged] ب ع ض B002 «sivrisinek ve ona bağlı zarar veya bulunma kullanımları» البعوضة لصغرها وإيذائها — word بَعْضَهُمْ (5 dictionaries); source: as H3.31 (also H3.31, H7.10, L9.1)
+  - evidence: Luna (opposite): The mosquito’s defining image is its tiny size; فَضَّلَ plainly carries increase or surplus. The pair sets the minute against the added measure.
+- **L4.2** [judged] ب غ ي B006 «göğün şiddetli, bol ve gereğinden fazla yağdırması» شدة المطر ومعظمه — word تَبْغُوا۟ (3 dictionaries); source: as H4.7 (also H4.7)
+  - evidence: Luna (same): The excess of a heavy rain meets the surplus in فَضْل. The ayah’s language can make divine increase feel like a force that pours beyond need.
+- **L4.3** [judged] خ و ف B004 «bir şeyden alarak eksiltme» نقص يأخذ من الشيء — word تَخَافُونَ (4 dictionaries); source: as H5.5 (also H5.5, L2.1)
+  - evidence: Luna (opposite): The rare sense takes something away or reduces it; فَضَّلَ carries the image of excess or remainder. The pair sets diminution against surplus within the verse’s
+- **L4.4** [judged] ض ر ب B016 «para-emek ortaklığı» شركة التجارة بالسفر — word وَٱضْرِبُوهُنَّ (4 dictionaries); source: as H5.9 (also H5.9, H8.3)
+  - evidence: Luna (part): A trade partnership can produce profit beyond the original contribution. That surplus gives فَضَّلَ, with its sense of excess or remainder, a specific economic 
+- **L4.5** [judged] ط و ع B005 «yükümlü olmadığı iyiliği gönüllü yapma» التطوع والتبرع — word أَطَعْنَكُمْ (5 dictionaries); source: as H5.10 (also H5.10)
+  - evidence: Luna (same): Voluntary goodness meets the surplus or gift in فَضَّلَ. The pairing makes bounty sound like giving beyond what is owed.
+- **L4.6** [judged] ع ل و B004 «yapı içinde üstün gelip bastırma» الغلبة والاستيلاء — word عَلِيًّا (3 dictionaries); source: as H3.12 (also H3.12, H9.2, L1.9)
+  - evidence: Luna (same): To prevail is to gain advantage over a rival; فَضَّلَ carries the plain sense of increase or surplus. The pair makes preference sound like an upper hand.
+- **L4.7** [judged] ع ل و B008 «üstüne eklenen veya üst parça» الشيء المحمول على الأعلى — word عَلِيًّا (3 dictionaries); source: as H2.21 (also H2.21, H3.13)
+  - evidence: Luna (same): The rare ʿalāwa is an extra load placed on top after a camel’s load is complete; فَضَّلَ can mean surplus or remainder. Together they picture preference as an a
+- **L4.8** [judged] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H2.28, H3.20, H4.5, L1.1, L2.17)
+  - evidence: Luna (opposite): The rare sense of qiwāma is equilibrium, while فَضَّلَ carries increase and surplus. Their pairing makes the allocated excess answer to a demand for balance.
+- **L4.9** [judged] ق و م B015 «tam ve denk ağırlıktaki para» وزن سواء ومقدار معتدل — word قَوَّٰمُونَ (2 dictionaries); source: دنانير قوم وقيم ودينار قائم أي مثقال سواء لا يرجح (ayn)؛ دنانير قوم وقيم ودينار قائم إذا كان مثقالا سواء لا يرجح (tahdhib)
+  - evidence: Luna (opposite): A fixed, equal weight is set against surplus and increase. The balance image makes the allocation language sound as though measured equality is being tested by 
+- **L4.10** [judged] ك ب ر B006 «ululuk ve kendini üstün görme» العظمة والكبرياء — word كَبِيرًا (6 dictionaries); source: as H1.49 (also H1.49, H9.7, L10.4)
+  - evidence: Luna (image): The rare sense is self-admiring superiority; فَضَّلَ plainly carries increase or surplus. The pair pictures arrogance as claiming an extra measure above one’s p
+- surah ayat these members touch (chain material): 4:1 (ب ع ض B002) → 4:3 (ب ع ض B002, ق و م B008) → 4:8 (ب ع ض B002) → 4:11 (ب ع ض B002) → 4:19 (ب ع ض B002) → 4:20 (خ و ف B004) → 4:21 (خ و ف B004) → 4:25 (ب ع ض B002) → 4:29 (ض ر ب B016) → 4:40 (ق و م B015) → 4:43 (ض ر ب B016) → 4:58 (ق و م B008) → 4:71 (خ و ف B004) → 4:81 (ق و م B008) → 4:102 (ب غ ي B006) → 4:105 (خ و ف B004) → 4:107 (خ و ف B004) → 4:119 (خ و ف B004) → 4:129 (ق و م B008) → 4:135 (ق و م B008) → 4:164 (خ و ف B004) → 4:168 (ق و م B008) → 4:169 (ق و م B008)
+
+### L5 فَٱلصَّٰلِحَٰتُ — 7 roots converge
+Plain sense of فَٱلصَّٰلِحَٰتُ: iyi ve düzgün olma; düzeltme (الصلاح ضد الفساد والطلاح)
+- **L5.1** [dictionary] ب غ ي B003 «haddi aşarak haksızlık etmek» تجاوز الحد بالعدوان والظلم — word تَبْغُوا۟ (4 dictionaries); source: as H1.5 (also H1.5, H2.2, H3.1, H7.4, T5)
+  - evidence: lex/src: فساد names the plain image of فَٱلصَّٰلِحَٰتُ || Luna (opposite): The verse places soundness beside the danger of corruption and excess. That opposition makes the sound women a measure against transgression.
+- **L5.2** [dictionary] ب غ ي B004 «yaranın şişip bozulması veya içinde irin kalmış halde kapanması» فساد الجرح وتجاوزه — word تَبْغُوا۟ (3 dictionaries); source: as H1.6 (also H1.6, H2.3)
+  - evidence: lex/image: فساد names the plain image of فَٱلصَّٰلِحَٰتُ || Luna (opposite): A sound state stands opposite a wound that swells into corruption. The image sharpens the difference between what is صالح and what has begun to rot.
+- **L5.3** [judged] ب غ ي B002 «uygun, mümkün veya hak edilmiş olmak» الانبغاء والمطاوعة لما يليق أو يتيسر — word تَبْغُوا۟ (4 dictionaries); source: as H1.4 (also H1.4, H2.1, L1.2)
+  - evidence: Luna (same): Soundness and fitness meet in the صالحات. The pairing makes the good women those who are fittingly ordered toward what is right.
+- **L5.4** [judged] ض ج ع B009 «giysi yıkamada kullanılan bitki sakızı» صمغ نبات للغسل — word ٱلْمَضَاجِعِ (1 dictionaries); source: الضجع صمغ نبت تغسل به الثياب (jamhara)
+  - evidence: Luna (image): The washing gum gives goodness and soundness a concrete image of cleansing. The cloth is made fit by washing, as فَٱلصَّٰلِحَٰتُ names what is sound or right.
+- **L5.5** [judged] ف ض ل B002 «nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme» الدرجة والفضيلة — word فَضَّلَ (5 dictionaries); source: as H1.28 (also H1.28, H2.23, L2.13, T2)
+  - evidence: Luna (same): The virtue sense of فَضَّلَ meets فَٱلصَّٰلِحَٰتُ as soundness and fitness. The women’s profile can thus be heard as excellence, not merely as a label.
+- **L5.6** [judged] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H2.28, H3.20, H4.5, L1.1, L2.17)
+  - evidence: Luna (same): Rectitude in qiwāma meets soundness in the women’s profile. The first names upright measure, and the second names what is fit and free of corruption.
+- **L5.7** [judged] ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة — word كَانَ (1 dictionaries, sole attestation); source: as H1.38 (also H1.38)
+  - evidence: Luna (opposite): The sound women stand against a state of evil. The rare sense makes moral soundness a live contrast to being in a bad condition.
+- **L5.8** [judged] ن ف ق B004 «içindeki inanç veya tutumun tersini göstererek bağlı görünme» إظهار باب وإخفاء مخرج — word أَنفَقُوا۟ (5 dictionaries); source: as H6.12 (also H6.12, H7.7, L8.9)
+  - evidence: Luna (opposite): The verse names sound women, then the rare branch recalls a false outward show that conceals its opposite. Hearing both sharpens صالحات into integrity measured 
+- **L5.9** [judged] ه ج ر B008 «benzerlerini aşan üstünlük» المجاوزة في الحسن والتمام — word وَٱهْجُرُوهُنَّ (4 dictionaries); source: as H1.52 (also H1.52, H7.15)
+  - evidence: Luna (same): The rare sense describes unmatched beauty and completeness. Beside the sound or fitting women, it intensifies the verse’s language of excellence.
+- surah ayat these members touch (chain material): 4:3 (ق و م B008) → 4:6 (ه ج ر B008) → 4:10 (ب غ ي B003) → 4:11 (ف ض ل B002) → 4:14 (ب غ ي B003) → 4:17 (ك و ن B006) → 4:25 (ه ج ر B008) → 4:29 (ب غ ي B003) → 4:30 (ب غ ي B003) → 4:37 (ن ف ق B004) → 4:42 (ن ف ق B004) → 4:43 (ن ف ق B004) → 4:45 (ب غ ي B003) → 4:46 (ن ف ق B004) → 4:47 (ن ف ق B004) → 4:58 (ق و م B008) → 4:63 (ه ج ر B008) → 4:81 (ق و م B008) → 4:95 (ف ض ل B002) → 4:96 (ف ض ل B002) → 4:110 (ك و ن B006) → 4:123 (ك و ن B006) → 4:125 (ن ف ق B004) → 4:129 (ق و م B008) → 4:135 (ق و م B008) → 4:137 (ن ف ق B004) → 4:142 (ن ف ق B004) → 4:153 (ب غ ي B003) → 4:154 (ف ض ل B002) → 4:155 (ن ف ق B004) → 4:161 (ب غ ي B003) → 4:168 (ق و م B008) → 4:169 (ق و م B008) → 4:171 (ف ض ل B002)
+
+### L6 حَٰفِظَٰتٌ — 7 roots converge
+Plain sense of حَٰفِظَٰتٌ: koruyup gözetme (مراعاة الشيء وحراسته)
+- **L6.1** [judged] ب غ ي B008 «ordudan önce ilerleyen öncüler» البغايا الطلائع — word تَبْغُوا۟ (2 dictionaries); source: البغايا الطلائع الواحدة بغية أيضا (ayn)؛ البغايا أيضا الطلائع التي تكون قبل ورود الجيش (sihah)
+  - evidence: Luna (part): A vanguard can watch ahead for the people behind it. This turns the image of guarding into a small unit moving out in front.
+- **L6.2** [judged] ض ج ع B003 «işi savsaklama ve güçsüzce geri durma» الانطراح عن القيام بالأمر — word ٱلْمَضَاجِعِ (4 dictionaries); source: ضجع في الأمر إذا قصر (maqayis)؛ إذا وهن في أمره وتوانى فيه (jamhara)؛ التضجيع في الأمر التقصير فيه (sihah)؛ تضاجع فلان عن أمر إذا تغافل عنه (tahdhib)؛ ضعيف الرأي (maqayis;jamhara)
+  - evidence: Luna (opposite): To lie back from a task is the opposite of guarding it attentively. The pair sets neglect against watchful preservation.
+- **L6.3** [judged] ض ر ب B003 «örnek vererek açıklamak» تصوير المثل وإظهاره — word وَٱضْرِبُوهُنَّ (3 dictionaries); source: ضرب الله مثلا أي وصف وبين (sihah)؛ اضرب لهم مثلا أي اذكر لهم مثلا ومثل لهم مثلا (tahdhib)؛ ضرب المثل ذكر شيء أثره يظهر في غيره (mufradat)
+  - evidence: Luna (image): An example makes one thing's effect visible in another. Beside حَٰفِظَٰتٌ, the parable can picture how something unseen is kept present through its sign.
+- **L6.4** [judged] ض ر ب B005 «birinin giriştiği işi engellemek» الحجر على اليد — word وَٱضْرِبُوهُنَّ (4 dictionaries); source: as H1.22 (also H1.22, L11.3)
+  - evidence: Luna (same): Restraining a hand can protect someone from an action. That gives the guardianship in حَٰفِظَٰتٌ a concrete image of prevention.
+- **L6.5** [judged] غ ي ب B004 «kişiyi yokluğunda iyi ya da kötü anma» ذكر الإنسان في غيبته — word لِّلْغَيْبِ (5 dictionaries); source: as H1.27 (also H1.27, H3.16)
+  - evidence: Luna (opposite): The absent person’s reputation can either be guarded or exposed to harmful talk. The rare sense of backbiting makes the guarding word answer directly to speech 
+- **L6.6** [judged] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قَوَّٰمُونَ (5 dictionaries); source: as H1.32 (also H1.32, H2.27, L1.13, L11.1)
+  - evidence: Luna (same): The care named by qiwāma is repeated in the guardians’ keeping. The two words describe sustained responsibility from the governing side and the preserving side.
+- **L6.7** [judged] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كَانَ (2 dictionaries); source: as H1.37 (also H1.37, H2.31, L11.2, T4)
+  - evidence: Luna (same): The guardians preserve what they have undertaken to protect. The pairing gives their keeping the weight of an accepted responsibility.
+- **L6.8** [judged] ه ج ر B011 «su için ayrılmış büyük veya yapılı havuz» الحوض المقتطع للماء — word وَٱهْجُرُوهُنَّ (3 dictionaries); source: as H4.13 (also H4.13, H7.8)
+  - evidence: Luna (image): The built basin in الهجير holds water within a bounded place. Beside حَٰفِظَٰتٌ, the women who guard, it pictures preservation as keeping something safely conta
+- surah ayat these members touch (chain material): 4:1 (ب غ ي B008) → 4:2 (ه ج ر B011) → 4:3 (ب غ ي B008, ك و ن B003) → 4:5 (ض ج ع B003, ك و ن B003) → 4:8 (ض ج ع B003) → 4:9 (غ ي ب B004) → 4:10 (ض ج ع B003) → 4:11 (ب غ ي B008) → 4:12 (غ ي ب B004) → 4:28 (ض ج ع B003, غ ي ب B004) → 4:36 (ض ج ع B003) → 4:43 (ه ج ر B011) → 4:76 (ض ج ع B003) → 4:80 (ق و م B004) → 4:85 (ك و ن B003) → 4:100 (غ ي ب B004) → 4:103 (ض ج ع B003, ك و ن B003) → 4:104 (ض ج ع B003) → 4:112 (ك و ن B003)
+
+### L7 قَٰنِتَٰتٌ — 6 roots converge
+Plain sense of قَٰنِتَٰتٌ: inanç yolunda buyruğa boyun eğerek bağlı kalma (طاعة دينية خاضعة)
+- **L7.1** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قَوَّٰمُونَ (4 dictionaries); source: as H1.33 (also H1.33, H2.28, H3.20, H4.5, L1.1, L2.17)
+  - evidence: lex/src: طاعا names the plain image of قَٰنِتَٰتٌ || Luna (same): The steady, straight course is heard in the women’s obedience. Devotion becomes a form of remaining on the right line.
+- **L7.2** [judged] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَٰفِظَٰتٌ (3 dictionaries); source: as H1.7 (also H1.7, H2.4, L1.4, L3.1)
+  - evidence: Luna (same): Guarding is heard as a steady practice rather than a single act. قَٰنِتَٰتٌ gives that constancy its devotional form as obedient adherence.
+- **L7.3** [judged] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَفِظَ (3 dictionaries); source: as H1.7 (also H1.8, H2.5, L1.5, L3.2, L10.1, L12.1)
+  - evidence: Luna (same): Devotion and steadfast observance meet as a life of repeated religious practice. The verse’s obedient women are heard as constant in that devotion.
+- **L7.4** [judged] ط و ع B002 «taraflar arasında uyum gösterme» الموافقة والمطاوعة — word أَطَعْنَكُمْ (4 dictionaries); source: لمن وافق غيره قد طاوعه (maqayis); إذا وافقك فقد طاوعك (ayn;tahdhib); الطواعية اسم لما يكون مصدر المطاوعة (ayn;tahdhib); المطاوعة الموافقة (sihah)
+  - evidence: Luna (same): Their compliance answers the quality of devotion. The verse lets obedience appear both as a settled disposition and as an act toward the addressed group.
+- **L7.5** [judged] ك و ن B004 «boyun eğme» الخضوع بالاستكانة — word كَانَ (1 dictionaries, sole attestation); source: as L1.15 (also L1.15)
+  - evidence: Luna (same): The rare sense of submission answers the devoted obedience named in قَٰنِتَٰتٌ. The quality and the root image say one yielding act in different words.
+- **L7.6** [judged] ن ش ز B004 «eşinden soğuyup evlilik ilişkisine karşı koyma» نشوز الزوجين — word نُشُوزَهُنَّ (5 dictionaries); source: as H1.39 (also H1.39, H2.32, L8.8)
+  - evidence: Luna (opposite): Aversion to the spouse and refusal of obedience stand against devoted submission. The verse’s positive profile and feared discord become opposing relational sta
+- **L7.7** [judged] ه ج ر B003 «bilerek çirkin ve edepsiz söz söyleme» الكلام القبيح المهجور — word وَٱهْجُرُوهُنَّ (6 dictionaries); source: as H9.3 (also H9.3)
+  - evidence: Luna (opposite): The rare sense of obscene speech stands against devotional obedience. The women’s piety makes indecent language sound like the conduct to be left behind.
+- **L7.8** [judged] ه ج ر B009 «sürekli alışkanlık ve uğraş» الدأب والديدن الملازم — word وَٱهْجُرُوهُنَّ (5 dictionaries); source: as H2.40 (also H2.40, H3.30)
+  - evidence: Luna (same): The habit or constant practice in هجيرى gives قَٰنِتَٰتٌ a rhythm of steadfast devotion. Their devotion appears as a way kept up over time.
+- surah ayat these members touch (chain material): 4:3 (ق و م B008) → 4:11 (ه ج ر B009) → 4:12 (ن ش ز B004, ه ج ر B009) → 4:20 (ن ش ز B004) → 4:46 (ه ج ر B009) → 4:57 (ن ش ز B004) → 4:58 (ق و م B008) → 4:81 (ق و م B008) → 4:84 (ح ف ظ B003) → 4:129 (ق و م B008) → 4:135 (ق و م B008) → 4:154 (ن ش ز B004) → 4:158 (ن ش ز B004) → 4:168 (ق و م B008) → 4:169 (ق و م B008)
+
+### L8 وَٱهْجُرُوهُنَّ — 5 roots converge
+Plain sense of وَٱهْجُرُوهُنَّ: bağı kesip uzaklaşma (الانقطاع والمفارقة)
+- **L8.1** [judged] ر ج ل B015 «atın iki yürüyüşü karıştırması» ارتجال الفرس — word ٱلرِّجَالُ (3 dictionaries); source: ارتجل الفرس ارتجالا إذا خلط العنق بالهملجة (maqayis)؛ ارتجل الفرس إذا خلط العنق بشئ من الهملجة (sihah)؛ ارتجل الفرس في عدوه (mufradat)
+  - evidence: Luna (opposite): The horse's stride blends two gaits, while the command names separation. Their movement makes the instruction to break away sound like its opposite.
+- **L8.2** [judged] ص ل ح B002 «barışma ve uzlaşma» الصلح إزالة النفار بين الناس — word فَٱلصَّٰلِحَٰتُ (3 dictionaries); source: والصلح تصالح القوم بينهم (ayn)؛ الصلاح بكسر الصاد المصالحة والاسم الصلح وقد اصطلحا وتصالحا واصالحا (sihah)؛ الصلح يختص بإزالة النفار بين الناس، يقال اصطلحوا وتصالحوا (mufradat)
+  - evidence: Luna (opposite): The senses face in opposite directions. In the sequence, separation is set against the possibility of restored concord.
+- **L8.3** [judged] ض ر ب B002 «bir amaçla yeryüzünde yolculuk etmek» السعي في الأرض — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H3.9 (also H3.9, H4.4, H5.1, H9.1)
+  - evidence: Luna (same): Traveling away and breaking off a connection both picture departure. Heard together, the words give separation a journey's motion.
+- **L8.4** [judged] ض ر ب B004 «bir işten geri durup yüz çevirmek» القبض عن الشيء والكف — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: as H3.10 (also H3.10, H5.7, L3.7)
+  - evidence: Luna (same): Refraining from someone and breaking off from them both express withdrawal. The two roots give separation a second, more deliberate phrasing.
+- **L8.5** [judged] ض ر ب B009 «yerleşik yaradılış ve huy» السجية المضروبة — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: السجية والطبيعة الضريبة كأن الإنسان قد ضرب عليها (maqayis)؛ الضريبة الطبيعة (ayn;jamhara)؛ كريم الضريبة ولئيم الضريبة (sihah)؛ الضريبة الخليقة (tahdhib)؛ بذلك شبه السجية وقيل لها الضريبة والطبيعة (mufradat)
+  - evidence: Luna (same): The disposition named by الضريبة and the habitual way named by هجيرى both evoke a settled pattern. Heard together, the separation can sound like a course of con
+- **L8.6** [judged] ض ر ب B011 «erkek devenin dişiyle çiftleşmesi» ضرب الفحل الناقة — word وَٱضْرِبُوهُنَّ (6 dictionaries); source: ضراب الفحل الناقة وأضربت الناقة (maqayis)؛ الفحل من الإبل يضرب الشول ضرابا (ayn)؛ ضرب الفحل الناقة ضرابا وأضربته (jamhara)؛ ضرب الفحل الناقة ضرابا (sihah;tahdhib)؛ ضرب الفحل الناقة واستضراب الناقة (mufradat)
+  - evidence: Luna (opposite): Mating joins, while وَٱهْجُرُوهُنَّ commands separation. The two senses set sexual union against estrangement in the same sequence.
+- **L8.7** [judged] ض ر ب B012 «düzensiz ve yinelenen hareket» الحركة المضطربة والخفق — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: as H5.2 (also H5.2, L3.8)
+  - evidence: Luna (image): A rupture of connection can scatter people into movement in many directions. The agitated motion of اضطراب gives the separation in وَٱهْجُرُوهُنَّ a restless im
+- **L8.8** [judged] ن ش ز B004 «eşinden soğuyup evlilik ilişkisine karşı koyma» نشوز الزوجين — word نُشُوزَهُنَّ (5 dictionaries); source: as H1.39 (also H1.39, H2.32, L7.6)
+  - evidence: Luna (same): Marital estrangement meets the command to separate. The rare sense names the relational fracture, and the imperative gives that distance an action.
+- **L8.9** [judged] ن ف ق B004 «içindeki inanç veya tutumun tersini göstererek bağlı görünme» إظهار باب وإخفاء مخرج — word أَنفَقُوا۟ (5 dictionaries); source: as H6.12 (also H6.12, H7.7, L5.8)
+  - evidence: Luna (image): Hypocrisy keeps an apparent bond while concealing inward departure. Beside هَجْر, it pictures separation masked by an appearance of connection.
+- surah ayat these members touch (chain material): 4:10 (ض ر ب B012) → 4:12 (ن ش ز B004) → 4:16 (ض ر ب B004) → 4:20 (ن ش ز B004) → 4:29 (ض ر ب B002) → 4:31 (ض ر ب B009) → 4:37 (ن ف ق B004) → 4:42 (ن ف ق B004) → 4:43 (ض ر ب B002, ن ف ق B004) → 4:46 (ن ف ق B004) → 4:47 (ص ل ح B002, ن ف ق B004) → 4:57 (ن ش ز B004) → 4:59 (ض ر ب B004) → 4:63 (ض ر ب B004) → 4:65 (ص ل ح B002) → 4:71 (ض ر ب B012) → 4:81 (ض ر ب B004) → 4:82 (ص ل ح B002) → 4:90 (ص ل ح B002) → 4:91 (ص ل ح B002) → 4:104 (ض ر ب B002) → 4:114 (ض ر ب B002) → 4:125 (ن ف ق B004) → 4:137 (ن ف ق B004) → 4:142 (ن ف ق B004) → 4:154 (ن ش ز B004) → 4:155 (ن ف ق B004) → 4:157 (ض ر ب B009) → 4:158 (ن ش ز B004) → 4:168 (ض ر ب B011) → 4:169 (ض ر ب B011)
+
+### L9 تَخَافُونَ — 4 roots converge
+Plain sense of تَخَافُونَ: bir belirtiye dayanarak kötü bir şey bekleme korkusu (ذعر يتوقع المكروه)
+- **L9.1** [judged] ب ع ض B002 «sivrisinek ve ona bağlı zarar veya bulunma kullanımları» البعوضة لصغرها وإيذائها — word بَعْضَهُمْ (5 dictionaries); source: as H3.31 (also H3.31, H7.10, L4.1)
+  - evidence: Luna (complement): The rare sense is a harmful, biting insect; تَخَافُونَ names fear or anticipation of harm. The pair makes the bite a concrete image of the feared threat.
+- **L9.2** [judged] ض ر ب B017 «çatışmaya kışkırtmak» إلهاب الناس إلى الفعل — word وَٱضْرِبُوهُنَّ (3 dictionaries); source: as H1.25 (also H1.25)
+  - evidence: Luna (complement): Incitement can kindle the very danger that is feared. Beside تَخَافُونَ, the branch pictures apprehension arising from people being stirred toward conflict.
+- **L9.3** [judged] غ ي ب B003 «içine gireni örten sık koruluk» أجمة يغاب فيها — word لِّلْغَيْبِ (5 dictionaries); source: الغابة الأجمة؛ سميت لأنه يغاب فيها؛ الغاب الآجام؛ ومنه الغابة للأجمة
+  - evidence: Luna (image): Fear takes the form of a danger concealed inside a dense grove. The hidden thicket gives spatial shape to apprehension of what may be coming.
+- **L9.4** [judged] ك ب ر B010 «bir işin birine ağır ve güç gelmesi» الكبر مشقة وثقل — word كَبِيرًا (4 dictionaries); source: as H1.36 (also H1.36, H2.30)
+  - evidence: Luna (complement): Fear anticipates something harmful; the rare sense of كَبِيرًا is a matter that weighs heavily and is hard to bear. Together they make the feared case an onerou
+- **L9.5** [judged] ك ب ر B011 «üstünlük yarışına girip yenmek» المكابرة والغلبة — word كَبِيرًا (1 dictionaries, sole attestation); source: as H1.50 (also H1.50)
+  - evidence: Luna (complement): The rare sense is contesting someone and overcoming them; fear anticipates a threatened contest. The pair makes the feared rising-up a struggle over who gains t
+- surah ayat these members touch (chain material): 4:1 (ب ع ض B002) → 4:3 (ب ع ض B002) → 4:8 (ب ع ض B002) → 4:11 (ب ع ض B002) → 4:19 (ب ع ض B002) → 4:25 (ب ع ض B002) → 4:35 (ك ب ر B010) → 4:56 (ك ب ر B010, ك ب ر B011) → 4:115 (ك ب ر B010) → 4:139 (ك ب ر B010, ك ب ر B011) → 4:158 (ك ب ر B010, ك ب ر B011)
+
+### L10 ٱللَّهَ — 4 roots converge
+Plain sense of ٱللَّهَ: tapınma ve tapınılan varlık (التعبد والمعبود)
+- **L10.1** [judged] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَفِظَ (3 dictionaries); source: as H1.7 (also H1.8, H2.5, L1.5, L3.2, L7.3, L12.1)
+  - evidence: Luna (same): The repeated practice of preservation is heard as a form of devotion to God. The closing name brings that constancy back to its object.
+- **L10.2** [judged] ق ن ت B004 «namazda insan sözü söylemeyip namaza yönelme» إمساك مصلي عن الكلام — word قَٰنِتَٰتٌ (3 dictionaries); source: as L1.12 (also L1.12, L12.3)
+  - evidence: Luna (part): The prohibition on seeking a way against them is framed before God. Hearing prayerful silence beside His name casts restraint as worshipful discipline.
+- **L10.3** [judged] ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word قَوَّٰمُونَ (4 dictionaries); source: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat)
+  - evidence: Luna (complement): The final divine name gathers the verse toward the one before whom creation will stand. The resurrection sense makes the closing greatness sound like the author
+- **L10.4** [judged] ك ب ر B006 «ululuk ve kendini üstün görme» العظمة والكبرياء — word كَبِيرًا (6 dictionaries); source: as H1.49 (also H1.49, H9.7, L4.10)
+  - evidence: Luna (complement): The worshipped Allah is paired with greatness in the emphatic closing clause. The rare sense can make greatness the ground of worship rather than a human claim.
+- surah ayat these members touch (chain material): 4:35 (ق و م B013) → 4:84 (ح ف ظ B003)
+
+### L11 حَفِظَ — 3 roots converge
+Plain sense of حَفِظَ: koruyup gözetme (مراعاة الشيء وحراسته)
+- **L11.1** [dictionary] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قَوَّٰمُونَ (5 dictionaries); source: as H1.32 (also H1.32, H2.27, L1.13, L6.6)
+  - evidence: lex/image: وحفظ → root ح ف ظ || rel/near_synonym: ح ف ظ B001 (gözetim, koruma ve yönetim) || Luna (same): The governing sense of qiwāma is echoed in the direct act of divine preservation. Care is heard both as an ongoing charge and as an act of keeping safe.
+- **L11.2** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كَانَ (2 dictionaries); source: as H1.37 (also H1.37, H2.31, L6.7, T4)
+  - evidence: rel/same_field: ح ف ظ B001 (üstlenme ile koruma) || Luna (same): Divine preservation can be heard as an undertaking to care for what is guarded. This links the act of keeping with the assumption of responsibility.
+- **L11.3** [judged] ض ر ب B005 «birinin giriştiği işi engellemek» الحجر على اليد — word وَٱضْرِبُوهُنَّ (4 dictionaries); source: as H1.22 (also H1.22, L6.4)
+  - evidence: Luna (same): The image of stopping a hand before it acts meets the act of preservation in حَفِظَ. Guarding can take the form of restraining what would cause harm.
+- surah ayat these members touch (chain material): 4:3 (ك و ن B003) → 4:5 (ك و ن B003) → 4:80 (ق و م B004) → 4:85 (ك و ن B003) → 4:103 (ك و ن B003) → 4:112 (ك و ن B003)
+
+### L12 ٱللَّهُ — 3 roots converge
+Plain sense of ٱللَّهُ: tapınma ve tapınılan varlık (التعبد والمعبود)
+- **L12.1** [judged] ح ف ظ B003 «düzenli biçimde sürdürme» ملازمة الأمر والمواظبة عليه — word حَفِظَ (3 dictionaries); source: as H1.7 (also H1.8, H2.5, L1.5, L3.2, L7.3, L10.1)
+  - evidence: Luna (same): The rare sense makes preservation a repeated practice. Beside ٱللَّهُ, that practice is heard as sustained worship rather than a single act.
+- **L12.2** [judged] ع ل و B006 «gel diye çağırma» نداء التعالي — word عَلِيًّا (3 dictionaries); source: as L2.10 (also L2.10)
+  - evidence: Luna (image): The vocative use of ٱللَّهُ meets تَعَالَ, a command to come or ascend toward a high place. It evokes an upward summons addressed to God as a root-level resonan
+- **L12.3** [judged] ق ن ت B004 «namazda insan sözü söylemeyip namaza yönelme» إمساك مصلي عن الكلام — word قَٰنِتَٰتٌ (3 dictionaries); source: as L1.12 (also L1.12, L10.2)
+  - evidence: Luna (part): The divine giver is also the one toward whom prayerful silence is directed. This rare sense lets devotion shade the ayah's first mention of Allah's ordering.
+- surah ayat these members touch (chain material): 4:20 (ع ل و B006) → 4:74 (ع ل و B006) → 4:84 (ح ف ظ B003) → 4:86 (ع ل و B006) → 4:94 (ع ل و B006)
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ع ل و B009 «belirli araç ve parça adları» أسماء الأدوات والأجزاء المرتفعة — word عَلِيًّا (3 dictionaries); source: العلاة وهي السندان (maqayis)؛ العلاة حجر يجعل عليه الأقط والعلاة السندان (sihah)؛ عالية الرمح ما دخل في السنان إلى ثلثه (sihah)؛ المعلى السابع من القداح (maqayis;sihah;mufradat)؛ المعلي الذي يمد الدلو (maqayis) — lex/image: اسماء → بِسْمِ
+- **F2** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قَوَّٰمُونَ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… (also H1.32, H2.27, L1.13, L6.6, L11.1) — lex/src-rare: اسماء → بِسْمِ
+- **F3** ك ب ر B001 «küçüğün karşıtı olan büyüklük» العظم خلاف الصغر — word كَبِيرًا (6 dictionaries); source: أصل صحيح يدل على خلاف الصغر (maqayis)؛ كبر كل شيء عظمه (ayn)؛ الكبر ضد الصغر (jamhara)؛ كبر بالضم يكبر أي عظم فهو كبير وكبار (sihah)؛ الكبير والصغير من الأسماء المتضايفة (mufradat) — lex/src-rare: اسماء → بِسْمِ
+- **F4** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.2, H7.2, T9) — img/fatiha: fatiha: س م و B005 الاسم تنويه ودلالة ← بِسْمِ
+- **F5** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهَ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.3, H7.3, T10) — img/fatiha: fatiha: س م و B005 الاسم تنويه ودلالة ← بِسْمِ
+- **F6** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.1, H7.1, T11) — img/fatiha: fatiha: س م و B005 الاسم تنويه ودلالة ← بِسْمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F7** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.2, H7.2, T9, F4) — img/fatiha: fatiha: ر ب ب B001 ربوبية وملك وسيادة ← رَبِّ
+- **F8** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهَ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.3, H7.3, T10, F5) — img/fatiha: fatiha: ر ب ب B001 ربوبية وملك وسيادة ← رَبِّ
+- **F9** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.1, H7.1, T11, F6) — img/fatiha: fatiha: ر ب ب B001 ربوبية وملك وسيادة ← رَبِّ
+- **F10** ب غ ي B002 «uygun, mümkün veya hak edilmiş olmak» الانبغاء والمطاوعة لما يليق أو يتيسر — word تَبْغُوا۟ (4 dictionaries); source: ما ينبغي لك أن تفعل كذا؛ بغيته فانبغى (maqayis)؛ لا ينبغي لك أن تفعل كذا وما انبغى لك (ayn)؛ ينبغي لك أن تفعل كذا هو من أفعال المطاوعة (sihah)؛ ينبغي مطاوع بغى؛ لا يتسخر ولا يتسهل له؛ على معنى الاستئهال (mufradat) (also H1.4, H2.1, L1.2, L5.3) — img/fatiha: fatiha: ح م د B004 حماداك الغاية المحمودة ← ٱلْحَمْدُ
+- **F11** ب غ ي B008 «ordudan önce ilerleyen öncüler» البغايا الطلائع — word تَبْغُوا۟ (2 dictionaries); source: البغايا الطلائع الواحدة بغية أيضا (ayn)؛ البغايا أيضا الطلائع التي تكون قبل ورود الجيش (sihah) (also L6.1) — img/fatiha: fatiha: ر ب ب B016 رُبَى حاجة وعقدة ونعمة ← رَبِّ
+- **F12** ح ف ظ B002 «bellekte tutma» ثبوت المحفوظ في النفس — word حَفِظَ (4 dictionaries); source: الحفظ نقيض النسيان (ayn;tahdhib)؛ حفظته أيضا بمعنى استظهرته (sihah)؛ تحفظت الكتاب أي استظهرته (sihah)؛ رزقوا حفظ ما سمعوا وقلما ينسون (tahdhib)؛ هيئة النفس التي بها يثبت ما يؤدي إليه الفهم وضبط الشيء في النفس (mufradat) (also H6.6, L1.3) — kw/shared: comprehension (shared) → ٱلْعَٰلَمِينَ || kw/shared: education (shared) → ٱلْعَٰلَمِينَ || kw/shared: understanding (shared) → ٱلْعَٰلَمِينَ || img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F13** ف ض ل B003 «başkasına gönüllü iyilik etme ve yükümlülük dışı bağış verme» الإحسان والعطية — word فَضَّلَ (5 dictionaries); source: الإفضال الإحسان (maqayis;sihah); أفضل فلان على فلان أناله من فضله وأحسن إليه (ayn;tahdhib); التفضل التطول على غيرك (ayn;tahdhib); كل عطية لا تلزم من يعطي يقال لها فضل (mufradat); رجل مفضال كثير الخير والمعروف (tahdhib) (also H1.29, H2.24, H3.17, H5.12, H8.6, L1.10) — kw/shared: beneficence (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ || kw/shared: benevolence (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F14** ض ر ب B016 «para-emek ortaklığı» شركة التجارة بالسفر — word وَٱضْرِبُوهُنَّ (4 dictionaries); source: ضارب فلان لفلان في ماله إذا تجر فيه (jamhara)؛ ضاربه في المال من المضاربة وهي القراض (sihah)؛ المضاربة أن تعطي إنسانا من مالك ما يتجر فيه والربح بينكما (tahdhib)؛ المضاربة ضرب من الشركة (mufradat) (also H5.9, H8.3, L4.4) — lex/src-rare: مالك → مَٰلِكِ
+- **F15** ق ن ت B001 «inanç yolunda buyruğa boyun eğerek bağlı kalma» طاعة دينية خاضعة — word قَٰنِتَٰتٌ (6 dictionaries); source: أصل صحيح يدل على طاعة وخير في دين؛ كل استقامة في طريق الدين قنوتا (maqayis)؛ القنوت أي الطاعة وقانتون أي مطيعون؛ قنتت المرأة لزوجها أي أطاعته (ayn)؛ القنوت الطاعة (jamhara;sihah)؛ القانت المطيع؛ القانت العابد؛ حقيقة الق… — rel/near_synonym: د ي ن B001 (uyma ve inanç düzeni) → ٱلدِّينِ
+- **F16** ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word قَوَّٰمُونَ (5 dictionaries); source: هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقوم… (also H8.7) — rel/near_synonym: م ل ك B005 (temel dayanak) → مَٰلِكِ
+- **F17** ك ب ر B013 «günün yükseldiği vakit» أكبر النهار — word كَبِيرًا (1 dictionaries, sole attestation); source: أكبر النهار وشباب النهار أي حين ارتفع النهار (tahdhib) (also H1.51, L2.19, T3) — rel/same_field: ي و م B001 (gündüzün tamamı) → يَوْمِ
+- **F18** ه ج ر B009 «sürekli alışkanlık ve uğraş» الدأب والديدن الملازم — word وَٱهْجُرُوهُنَّ (5 dictionaries); source: الاسم الهجيرى (ayn)؛ ما زال ذاك هجيراه وإهجيراه أي دأبه (jamhara)؛ الهجير مثال الفسيق الدأب والعادة وكذلك الهجيرى والإهجيرى (sihah)؛ هجيرى الرجل كلامه ودأبه وشأنه (tahdhib)؛ فلان هجيراه كذا إذا أولع بذكره (mufradat) (also H2.40, H3.30, L7.8) — rel/near_synonym: د ي ن B005 (yerleşik alışkanlık) → ٱلدِّينِ
+- **F19** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.2, H7.2, T9, F4, F7) — img/fatiha: fatiha: م ل ك B003 المُلك والسلطان ← مَٰلِكِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F20** ح ف ظ B005 «koruyucu öfke ve onurlu tepki» حفيظة الغضب والحمية — word حَٰفِظَٰتٌ (5 dictionaries); source: الغضب الحفيظة (maqayis)؛ أحفظني أي أغضبني (maqayis)؛ الحفيظة الحمية (jamhara)؛ الحفيظة الغضب والحمية وكذلك الحفظة بالكسر (sihah)؛ إنه لذو حفاظ وذو محافظة إذا كانت له أنفة (sihah)؛ الحفظة اسم من الاحتفاظ عندما يرى من حفي… (also H3.2) — rel/near_synonym: ع ب د B008 (öfke ve incinme) → نَعْبُدُ
+- **F21** ح ف ظ B005 «koruyucu öfke ve onurlu tepki» حفيظة الغضب والحمية — word حَفِظَ (5 dictionaries); source: الغضب الحفيظة (maqayis)؛ أحفظني أي أغضبني (maqayis)؛ الحفيظة الحمية (jamhara)؛ الحفيظة الغضب والحمية وكذلك الحفظة بالكسر (sihah)؛ إنه لذو حفاظ وذو محافظة إذا كانت له أنفة (sihah)؛ الحفظة اسم من الاحتفاظ عندما يرى من حفي… (also H3.3, H10.6) — rel/near_synonym: ع ب د B008 (öfke ve incinme) → نَعْبُدُ
+- **F22** ب ع ض B002 «sivrisinek ve ona bağlı zarar veya bulunma kullanımları» البعوضة لصغرها وإيذائها — word بَعْضٍ (5 dictionaries); source: البعوضة وهي معروفة والجمع بعوض (maqayis)؛ البعوض جمع البعوضة وهي المؤذية العاضة في الصيف (ayn)؛ البعوض البق الواحدة بعوضة (sihah)؛ قوم مبعوضون وقد بعض القوم إذا آذاهم البعوض وأبعضوا إذا كان في أرضهم بعوض (tahdhib)؛ البع… (also H7.9) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F23** ب ع ض B002 «sivrisinek ve ona bağlı zarar veya bulunma kullanımları» البعوضة لصغرها وإيذائها — word بَعْضَهُمْ (5 dictionaries); source: البعوضة وهي معروفة والجمع بعوض (maqayis)؛ البعوض جمع البعوضة وهي المؤذية العاضة في الصيف (ayn)؛ البعوض البق الواحدة بعوضة (sihah)؛ قوم مبعوضون وقد بعض القوم إذا آذاهم البعوض وأبعضوا إذا كان في أرضهم بعوض (tahdhib)؛ البع… (also H3.31, H7.10, L4.1, L9.1) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ
+- **F24** ب غ ي B006 «göğün şiddetli, bol ve gereğinden fazla yağdırması» شدة المطر ومعظمه — word تَبْغُوا۟ (3 dictionaries); source: بغي المطر وهو شدته ومعظمه؛ بغي السماء أي معظم مطرها (maqayis)؛ بغت السماء اشتد مطرها؛ بغي السماء أي معظم مطرها (sihah)؛ بغت السماء تجاوزت في المطر حد المحتاج إليه (mufradat) (also H4.7, L4.2) — img/fatiha: fatiha: ع ب د B006 التكريم والتعظيم ← نَعْبُدُ
+- **F25** ب غ ي B007 «atın koşarken çalımlı ve neşeli davranması» اختيال الفرس ومرحه في العدو — word تَبْغُوا۟ (3 dictionaries); source: اختيال الفرس ومرحه بغي؛ لا يقال فرس باغ (maqayis)؛ البغي في عدو الفرس اختيال ومرح؛ لا يقال فرس باغ (ayn)؛ البغي اختيال ومرح في الفرس؛ لا يقال فرس باغ (sihah) (also H3.32) — img/fatiha: fatiha: ع ب د B010 التفرق في الوجوه ← نَعْبُدُ || img/fatiha: fatiha: ع و ن B002 العَوان بين السنين ← نَسْتَعِينُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F26** ح ف ظ B007 «açık, düz ve kesintisiz yol» طريق حافظ بين مستقيم — word حَٰفِظَٰتٌ (1 dictionaries, sole attestation); source: الطريق الحافظ هو البين المستقيم الذي لا ينقطع (tahdhib) (also H4.2) — lex/image: مستقيم → ٱلْمُسْتَقِيمَ || rel/near_synonym: ص ر ط B001 (düz yol) → ٱلصِّرَٰطَ
+- **F27** ح ف ظ B007 «açık, düz ve kesintisiz yol» طريق حافظ بين مستقيم — word حَفِظَ (1 dictionaries, sole attestation); source: الطريق الحافظ هو البين المستقيم الذي لا ينقطع (tahdhib) (also H4.1) — lex/image: مستقيم → ٱلْمُسْتَقِيمَ || rel/near_synonym: ص ر ط B001 (düz yol) → ٱلصِّرَٰطَ
+- **F28** ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word ٱلرِّجَالُ (1 dictionaries, sole attestation); source: فلان قائم على رجل إذا جد في أمر حزبه (ayn) (also H1.18, H2.15, H10.2) — rel/near_synonym: ق و م B003 (işe sarılmak ile işe kalkışmak) → ٱلْمُسْتَقِيمَ
+- **F29** س ب ل B001 «yol ve bir amaca ulaştıran yol» طريق ممتد يسلك — word سَبِيلًا (6 dictionaries); source: السبيل وهو الطريق سمي بذلك لامتداده (maqayis)؛ والسبيل يذكر ويؤنث وجمعه سبل (ayn)؛ السبيل معروف تذكر وتؤنث والجمع سبل وهي الطرق (jamhara)؛ السبيل الطريق؛ أي سببا ووصلة (sihah)؛ السبيل الطريق؛ لا يستطيعون في أمرك حيلة (t… — rel/near_synonym: ص ر ط B001 (düz ve doğru yol) → ٱلصِّرَٰطَ
+- **F30** س ب ل B010 «kırmızı damarlı ağsı göz perdesi» غشاوة في العين تشبه النسج — word سَبِيلًا (1 dictionaries, sole attestation); source: السبل داء في العين شبه غشاوة كأنها نسج العنكبوت بعروق حمر (sihah) (also H6.3, H10.3) — rel/same_field: ق و م B021 (göz perdesi ile kör göz) → ٱلْمُسْتَقِيمَ
+- **F31** ع ل و B010 «uzun ve iri yapılı» الطول والضخامة — word عَلِيًّا (3 dictionaries); source: ناقة عليان أي طويلة جسيمة ورجل عليان طويل (maqayis)؛ يقال للناقة علاة تشبه بها في صلابتها (maqayis;sihah)؛ يقال رجل عليان وكذلك المرأة (sihah)؛ العليان البعير الضخم (mufradat) (also H3.14, H7.12, H10.4, L2.11) — rel/near_synonym: ق و م B011 (iri uzunluk ile boy) → ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F32** ح ف ظ B002 «bellekte tutma» ثبوت المحفوظ في النفس — word حَٰفِظَٰتٌ (4 dictionaries); source: الحفظ نقيض النسيان (ayn;tahdhib)؛ حفظته أيضا بمعنى استظهرته (sihah)؛ تحفظت الكتاب أي استظهرته (sihah)؛ رزقوا حفظ ما سمعوا وقلما ينسون (tahdhib)؛ هيئة النفس التي بها يثبت ما يؤدي إليه الفهم وضبط الشيء في النفس (mufradat) — rel/antonym: ض ل ل B004 (unutma) → ٱلضَّآلِّينَ
+- **F33** ح ف ظ B002 «bellekte tutma» ثبوت المحفوظ في النفس — word حَفِظَ (4 dictionaries); source: الحفظ نقيض النسيان (ayn;tahdhib)؛ حفظته أيضا بمعنى استظهرته (sihah)؛ تحفظت الكتاب أي استظهرته (sihah)؛ رزقوا حفظ ما سمعوا وقلما ينسون (tahdhib)؛ هيئة النفس التي بها يثبت ما يؤدي إليه الفهم وضبط الشيء في النفس (mufradat) (also H6.6, L1.3, F12) — rel/antonym: ض ل ل B004 (unutma) → ٱلضَّآلِّينَ
+- **F34** ح ف ظ B007 «açık, düz ve kesintisiz yol» طريق حافظ بين مستقيم — word حَٰفِظَٰتٌ (1 dictionaries, sole attestation); source: الطريق الحافظ هو البين المستقيم الذي لا ينقطع (tahdhib) (also H4.2, F26) — rel/near_synonym: ص ر ط B001 (düz yol) → صِرَٰطَ
+- **F35** ح ف ظ B007 «açık, düz ve kesintisiz yol» طريق حافظ بين مستقيم — word حَفِظَ (1 dictionaries, sole attestation); source: الطريق الحافظ هو البين المستقيم الذي لا ينقطع (tahdhib) (also H4.1, F27) — rel/near_synonym: ص ر ط B001 (düz yol) → صِرَٰطَ
+- **F36** ر ج ل B003 «yaya giden kişi» المشي على الأرجل — word ٱلرِّجَالُ (5 dictionaries); source: الرجل الرجالة (maqayis)؛ هذا رجل أي راجل (ayn)؛ الرجل خلاف الفارس (sihah)؛ اشتق من الرجل رجل وراجل للماشي بالرجل (mufradat)؛ رجل رجيل أي قوي على المشى (sihah)؛ ترجل القوم نزلوا على دوابهم (ayn)؛ حرة رجلاء يصعب فيها المش… (also H1.13, H2.10, H4.8, H10.1) — rel/near_synonym: ن ع م B012 (yaya kişi ile ayakla gitme) → أَنْعَمْتَ
+- **F37** س ب ل B001 «yol ve bir amaca ulaştıran yol» طريق ممتد يسلك — word سَبِيلًا (6 dictionaries); source: السبيل وهو الطريق سمي بذلك لامتداده (maqayis)؛ والسبيل يذكر ويؤنث وجمعه سبل (ayn)؛ السبيل معروف تذكر وتؤنث والجمع سبل وهي الطرق (jamhara)؛ السبيل الطريق؛ أي سببا ووصلة (sihah)؛ السبيل الطريق؛ لا يستطيعون في أمرك حيلة (t… (also F29) — rel/near_synonym: ص ر ط B001 (düz ve doğru yol) → صِرَٰطَ
+
+### 5. Triangles [T]
+
+- **T1** ف ض ل B004 «akranlarına karşı üstünlük iddia etme ve daha yüksek konum isteme» ادعاء الفضل — word فَضَّلَ (4 dictionaries); source: المتفضل فالمدعي للفضل على أضرابه وأقرانه (maqayis); المتفضل أيضا الذي يدعي الفضل على أقرانه (sihah); يريد أن يكون له الفضل عليكم في القدر والمنزلة وليس من التفضل الذي هو بمعنى الإفضال والتطول (ayn;tahdhib) (also H1.30, H2.25, H7.13, L1.11)
+  - → 4:36 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: علي → root ع ل و || Luna (same): The rare sense is claiming a higher rank over peers; عَلِيًّا means elevation. The pair repeats the language of superiority as social height.
+  - 4:36 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ مُخْتَالًا
+- **T2** ف ض ل B002 «nitelikçe üstün olma, yüksek değer taşıma ve karşılaştırmada öne geçme» الدرجة والفضيلة — word فَضَّلَ (5 dictionaries); source: الفضيلة الدرجة والرفعة في الفضل (ayn); الفضيلة الدرجة الرفيعة في الفضل (tahdhib); الفضل والفضيلة خلاف النقص والنقيصة (sihah); الفضل إذا استعمل لزيادة أحد الشيئين على الآخر فعلى ثلاثة أضرب (mufradat); التفاضل بين القوم أ… (also H1.28, H2.23, L2.13, L5.5)
+  - → 4:11 [surah]: rel/near_synonym: ف و ق B002 (yüksek nitelik ve konum) → فَوْقَ
+  - → عَلِيًّا: lex/src: علي → root ع ل و || Luna (same): The rare sense of فَضَّلَ is rank and elevated merit; عَلِيًّا is highness. The pair makes preference an act of raising one’s standing.
+  - 4:11 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ عَلِيمًا
+- **T3** ك ب ر B013 «günün yükseldiği vakit» أكبر النهار — word كَبِيرًا (1 dictionaries, sole attestation); source: أكبر النهار وشباب النهار أي حين ارتفع النهار (tahdhib) (also H1.51, L2.19, F17)
+  - → 4:66 [surah]: rel/near_synonym: ش د د B005 (günün yükselmesi) → وَأَشَدَّ
+  - → عَلِيًّا: Luna (image): The day at its high point meets the plain highness of عَلِيًّا. Together they form an image of height reaching its culmination.
+  - 4:66 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **T4** ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كَانَ (2 dictionaries); source: الكيانة الكفالة؛ كنت على فلان أكون كونا أي تكفلت به؛ اكتنت به اكتيانا مثله (sihah); كنت على فلان أكون عليه إذا كفلت به؛ اكتنت أيضا اكتيانا (maqayis) (also H1.37, H2.31, L6.7, L11.2)
+  - → 4:36 [surah]: image similarity only
+  - → عَلِيًّا: lex/image: علي → root ع ل و
+  - 4:36 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ مُخْتَالًا
+- **T5** ب غ ي B003 «haddi aşarak haksızlık etmek» تجاوز الحد بالعدوان والظلم — word تَبْغُوا۟ (4 dictionaries); source: جنس من الفساد؛ أن يبغي الإنسان على آخر؛ البغي الظلم (maqayis)؛ البغي الظلم والباغي الظالم (ayn)؛ البغي التعدي؛ بغى الرجل على الرجل استطال؛ كل مجاوزة في الحد وإفراط على المقدار فهو بغي؛ تباغوا أي بغى بعضهم على بعض (sihah… (also H1.5, H2.2, H3.1, H7.4, L5.1)
+  - → 4:36 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: علي → root ع ل و || Luna (opposite): Human overreach is set beside divine highness. The contrast makes the prohibition a check on claiming the elevation that belongs to God.
+  - 4:36 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ مُخْتَالًا
+- **T6** ر ج ل B016 «dik duran pişirme kazanı» المرجل المنصوب — word ٱلرِّجَالُ (4 dictionaries); source: المرجل مشتق من هذا أيضا لأنه إذا نصب فكأنه أقيم على رجل (maqayis)؛ المرجل معروف عربي صحيح (jamhara)؛ المرجل قدر من نحاس (sihah)؛ المرجل القدر المنصوبة (mufradat) (also H1.16, H2.13)
+  - → 4:149 [surah]: rel/near_synonym: ق د ر B007 (dik kazan ile genel pişirme kabı) → قَدِيرًا
+  - → عَلِيًّا: lex/src: علي → root ع ل و
+  - 4:149 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ عَفُوًّا
+- **T7** س ط ع B001 «havada uzama, yükselme veya yayılma» امتداد الشيء وارتفاعه في الهواء — word أَطَعْنَكُمْ (echo root, sound family only; 4 dictionaries); source: أصل يدل على طول الشيء وارتفاعه في الهواء (maqayis)؛ كل شيء ينتشر فينبسط نحو البرق والغبار والريح الطيبة (ayn)؛ سطع الغبار والرائحة والصبح إذا ارتفع (sihah)؛ سطع ضوؤه في السماء والبرق يسطع في السماء وسطع السهم فشخص في ال… (also H1.21, H2.17, L2.6)
+  - → 4:24 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: علي → root ع ل و || Luna (same): The rare image of سطع rising through the air meets the highness in عَلِيًّا. Both senses make elevation explicit.
+  - 4:24 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ عَلِيمًا
+- **T8** ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قَوَّٰمُونَ (4 dictionaries); source: القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر؛ قائم السيف مقبضه؛ قائمة السرير والخوان والدابة (ayn)؛ القامة البكرة بأداتها؛ قائم السيف وقائمته مقبضه؛ القائمة واحدة قوائم الدواب؛ المقوم الخشبة التي يمسكها الحراث … (also H1.34, H2.29, H3.22)
+  - → 4:32 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: علي → root ع ل و
+  - 4:32 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ كُلِّ
+- **T9** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.2, H7.2, F4, F7, F19)
+  - → 4:46 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: تعالي → root ع ل و || Luna (complement): The name used for calling upon God stands beside the predicate that declares Him high. The invocation and attribute complete one another in the verse’s divine c
+  - 4:46 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **T10** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهَ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.3, H7.3, F5, F8)
+  - → 4:46 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: تعالي → root ع ل و || Luna (complement): Allah’s name can be heard as a call, and عَلِيًّا names height. Together they make the coda sound like an address to the Most High.
+  - 4:46 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **T11** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H1.1, H7.1, F6, F9)
+  - → 4:46 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: تعالي → root ع ل و || Luna (complement): The name ٱللَّهُ in vocative use meets عَلِيًّا as high or exalted. It makes the closing clause sound like an address to the High One.
+  - 4:46 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **T12** ح ف ظ B006 «dokunulmazlıkları, sözleri ve bağlılığı koruma» صون الحرم والعهد والعفة — word حَٰفِظَٰتٌ (5 dictionaries); source: الحفاظ المحافظة على المحارم ومنعها عند الحروب (ayn)؛ أهل الحفائظ المحامون من وراء إخوانهم مانعون لعوراتهم (ayn)؛ حافظت على الرجل محافظة وحفاظا إذا حفظته في مغيبه (jamhara)؛ إن الحفائظ تنقض الأحقاد (jamhara;sihah)؛ الحفا… (also H1.9, H2.6, H3.4, H6.1)
+  - → 4:23 [surah]: image similarity only
+  - → عَلِيًّا: lex/src: علي → root ع ل و
+  - 4:23 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ غَفُورًا
+- **T13** ر ج ل B012 «günün yükselip aydınlığın yayılması» ترجل النهار — word ٱلرِّجَالُ (5 dictionaries); source: ترجل النهار إذا ارتفع (maqayis;ayn;sihah)؛ ترجلت الضحى إذا انبسطت (jamhara)؛ ترجل النهار انحطت الشمس عن الحيطان (mufradat) (also H1.42, H6.8, L2.3)
+  - → 4:66 [surah]: rel/near_synonym: ش د د B005 (günün yükselişi ile günün yüksekliği) → وَأَشَدَّ
+  - → عَلِيًّا: Luna (same): The closing predicate names highness, echoing the day's ascent. The divine attribute acquires a concrete image of light rising.
+  - 4:66 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **T14** ض ر ب B010 «kişiye ya da toprağa yüklenen mali ödeme» المال المضروب على أحد — word وَٱضْرِبُوهُنَّ (5 dictionaries); source: الضريبة ما يضرب على الإنسان من جزية وغيرها (maqayis)؛ الضريبة غلة تضرب على العبد (ayn;tahdhib)؛ وظيفة أو إتاوة يأخذها الملك (jamhara)؛ الضرائب التي تؤخذ في الأرصاد والجزية (sihah)؛ ضرائب الأرضين في وظائف الخراج (tahdhib) (also H1.23, H5.8, H8.2)
+  - → 4:66 [surah]: rel/near_synonym: خ ر ج B003 (belirli düzende çıkarılan mali pay) → ٱخْرُجُوا۟
+  - → عَلِيًّا: lex/image: علي → root ع ل و
+  - 4:66 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **T15** ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قَوَّٰمُونَ (5 dictionaries); source: القومة ما بين الركعتين من القيام؛ قمت قياما؛ منها هامد ومنها قائم (ayn;tahdhib)؛ قام الرجل قياما؛ القومة المرة الواحدة؛ قامت الدابة وقفت (sihah)؛ قيام بالشخص إما بتسخير أو اختيار؛ ساجدا وقائما؛ تركتموها قائمة على أصولها… (also H1.31, H2.26, H3.19, L2.14, L3.12)
+  - → 4:11 [surah]: lex/src-rare: واحدا → وَٰحِدَةً
+  - → عَلِيًّا: lex/src: علي → root ع ل و || Luna (image): The root’s bodily standing lends a concrete vertical axis to the human role. عَلِيًّا turns that axis toward God’s exalted height, placing bodily uprightness be
+  - 4:11 [surah] ↔ عَلِيًّا: frame: كَانَ عَلِيًّا ~ كَانَ عَلِيمًا
+
+### 6. Bridges (touch two hubs) [J]
+
+- **J1** 4:43 [surah] joins H1, H2, H3, H4, H5, H6, H7, H8, H9, L1, L2, L3, L4, L5, L6, L8
+- **J2** 4:25 [surah] joins H1, H10, H2, H3, H4, H6, H7, H8, H9, L2, L3, L4, L5, L9
+- **J3** 4:29 [surah] joins H1, H2, H3, H4, H5, H7, H8, H9, L4, L5, L8
+- **J4** 1:7 [fatiha] joins H1, H10, H2, H3, H4, H5, H6, H8, L1, L3
+- **J5** 4:46 [surah] joins H1, H10, H2, H3, H4, H6, H7, L2, L5, L7, L8
+- **J6** 1:6 [fatiha] joins H1, H10, H2, H3, H4, H6, H7, L2
+- **J7** 4:24 [surah] joins H1, H10, H2, H3, H5, H6, H8
+- **J8** 4:11 [surah] joins H1, H2, H3, H4, H6, H7, L1, L2, L3, L4, L5, L6, L7, L9
+- **J9** 4:1 [surah] joins H1, H10, H2, H3, H4, H7, L2, L3, L4, L6, L9
+- **J10** 4:102 [surah] joins H1, H10, H2, H3, H4, H6, L1, L3, L4
+- **J11** 4:36 [surah] joins H1, H10, H2, H3, H5, H8, L1, L6
+- **J12** 4:68 [surah] joins H1, H10, H2, H3, H4, H7, L2
+- **J13** 4:38 [surah] joins H1, H2, H3, H5, H7, H8
+- **J14** 4:3 [surah] joins H1, H2, H3, H4, H7, L1, L11, L2, L3, L4, L5, L6, L7, L9
+- **J15** 4:81 [surah] joins H1, H2, H3, H4, H5, L1, L2, L3, L4, L5, L7, L8
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** frame: نُشُوزَهُنَّ ~ 4:35: تَخَافُ نُشُوزَهُنَّ ~ خِفْ شِقَاقَ
+- **G2** frame: عَلِيًّا ~ 4:2: كَانَ عَلِيًّا ~ كَانَ حُوبًا
+- **G3** frame: عَلِيًّا ~ 4:6: كَانَ عَلِيًّا ~ كَانَ غَنِيًّا
+- **G4** frame: عَلِيًّا ~ 4:6: كَانَ عَلِيًّا ~ كَانَ فَقِيرًا
+- **G5** frame: عَلِيًّا ~ 4:11: كَانَ عَلِيًّا ~ كَانَ عَلِيمًا
+- **G6** frame: عَلِيًّا ~ 4:12: كَانَ عَلِيًّا ~ كَانَ رَجُلٌ
+- **G7** frame: عَلِيًّا ~ 4:16: كَانَ عَلِيًّا ~ كَانَ تَوَّابًا
+- **G8** frame: عَلِيًّا ~ 4:22: كَانَ عَلِيًّا ~ كَانَ فَٰحِشَةً
+- **G9** frame: عَلِيًّا ~ 4:23: كَانَ عَلِيًّا ~ كَانَ غَفُورًا
+- **G10** frame: عَلِيًّا ~ 4:24: كَانَ عَلِيًّا ~ كَانَ عَلِيمًا
+- **G11** frame: عَلِيًّا ~ 4:32: كَانَ عَلِيًّا ~ كَانَ كُلِّ
+- **G12** frame: عَلِيًّا ~ 4:35: كَانَ عَلِيًّا ~ كَانَ عَلِيمًا
+- **G13** frame: عَلِيًّا ~ 4:36: كَانَ عَلِيًّا ~ كَانَ مُخْتَالًا
+- **G14** frame: عَلِيًّا ~ 4:43: كَانَ عَلِيًّا ~ كَانَ عَفُوًّا
+- **G15** frame: عَلِيًّا ~ 4:46: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **G16** frame: عَلِيًّا ~ 4:47: كَانَ عَلِيًّا ~ كَانَ أَمْرُ
+- **G17** frame: عَلِيًّا ~ 4:56: كَانَ عَلِيًّا ~ كَانَ عَزِيزًا
+- **G18** frame: عَلِيًّا ~ 4:58: كَانَ عَلِيًّا ~ كَانَ سَمِيعًۢا
+- **G19** frame: عَلِيًّا ~ 4:66: كَانَ عَلِيًّا ~ كَانَ خَيْرًا
+- **G20** frame: عَلِيًّا ~ 4:76: كَانَ عَلِيًّا ~ كَانَ ضَعِيفًا
+- **G21** frame: عَلِيًّا ~ 4:92: كَانَ عَلِيًّا ~ كَانَ مُؤْمِنٍ
+- **G22** frame: عَلِيًّا ~ 4:106: كَانَ عَلِيًّا ~ كَانَ غَفُورًا
+- **G23** frame: عَلِيًّا ~ 4:107: كَانَ عَلِيًّا ~ كَانَ خَوَّانًا
+- **G24** frame: عَلِيًّا ~ 4:113: كَانَ عَلِيًّا ~ كَانَ فَضْلُ
+- **G25** frame: عَلِيًّا ~ 4:129: كَانَ عَلِيًّا ~ كَانَ غَفُورًا
+- **G26** frame: عَلِيًّا ~ 4:134: كَانَ عَلِيًّا ~ كَانَ يُرِيدُ
+- **G27** frame: عَلِيًّا ~ 4:141: كَانَ عَلِيًّا ~ كَانَ كَٰفِرِينَ
+- **G28** frame: عَلِيًّا ~ 4:149: كَانَ عَلِيًّا ~ كَانَ عَفُوًّا
+- **G29** word note: 4:34:1 ٱلرِّجَالُ: the definite plural men-class as the nominative topic of the legal declaration — topics: men as categorical legal topic
+- **G30** word note: 4:34:2 قَوَّٰمُونَ: habitual upholders or maintainers over another party, grounded by the following causes — topics: sustained standing-over responsibility
+- **G31** word note: 4:34:3 عَلَى: over, upon, responsible for, or concerning; locally the relation governed by the maintenance predicate — topics: overness as authority and burden
+- **G32** word note: 4:34:4 ٱلنِّسَآءِ: the definite women-class governed by the opening over-relation — topics: women as paired legal class
+- **G33** word note: 4:34:5 بِ: causal or instrumental preposition opening the first ground of the role claim — topics: role claim receives a cause
+- **G34** word note: 4:34:6 مَا: relative or event-nominalizing particle within the first causal frame — topics: cause is grammatically open
+- **G35** word note: 4:34:7 فَضَّلَ: God actively and deliberately differentiated or favored some over some — topics: allocated difference, not self-claimed rank
+- **G36** word note: 4:34:8 ٱللَّهُ: God as nominative agent of the differentiating act — topics: God owns the allocation verb
+- **G37** word note: 4:34:9 بَعْضَهُمْ: some of them; a pronoun-bound subset inside an intentionally open comparison — topics: specified subset, not a total class
+- **G38** word note: 4:34:10 عَلَىٰ: comparative over-preposition marking the relation of preference — topics: preference is relational
+- **G39** word note: 4:34:11 بَعْضٍۢ: an indefinite some completing the comparison without naming the lower party — topics: unnamed comparison endpoint
+- **G40** word note: 4:34:12 وَ: coordinator between the two causal grounds — topics: two grounds stay separate
+- **G41** word note: 4:34:13 بِ: second causal preposition introducing the expenditure ground — topics: spending becomes a parallel ground
+- **G42** word note: 4:34:14 مَا: relative or event-nominalizing particle in the spending ground — topics: spent thing or spending act
+- **G43** word note: 4:34:15 أَنفَقُوا۟: they spent or caused resources to go out, with the object supplied by the following source phrase — topics: economic ground as active outflow
+- **G44** word note: 4:34:16 مِنْ: source and partitive marker for the wealth spent from — topics: from their wealth, not all wealth
+- **G45** word note: 4:34:17 أَمْوَٰلِهِمْ: their wealth or asset-field as the source of expenditure — topics: desired assets become support basis
+- **G46** word note: 4:34:18 فَ: resultive/detailing particle moving from grounds to the women’s positive profile — topics: causes branch into profile
+- **G47** word note: 4:34:19 ٱلصَّٰلِحَٰتُ: the known sound or fit women as a substantive positive class — topics: sound women as default profile
+- **G48** word note: 4:34:20 قَٰنِتَٰتٌ: steadfastly devoted or obedient as a quality of the sound women — topics: devotion as a quality, not a second class
+- **G49** word note: 4:34:21 حَٰفِظَٰتٌ: ongoing guardians or preservers within the hidden domain — topics: ongoing guarding under divine model
+- **G50** word note: 4:34:22 لِ: preposition marking the domain, time, or purpose of guarding — topics: hidden-domain relation
+- **G51** word note: 4:34:23 ٱلْغَيْبِ: the hidden, absence, or unseen as the definite guarded domain — topics: absence and unseen overlap
+- **G52** word note: 4:34:24 بِ: third causal or instrumental preposition linking human guarding to divine guarding — topics: human guarding depends on divine guarding
+- **G53** word note: 4:34:25 مَا: relative or event-nominalizing particle in the divine-guarding clause — topics: guarded object or guarding event
+- **G54** word note: 4:34:26 حَفِظَ: God guarded or preserved directly and prior to ongoing human guarding — topics: divine guarding precedes human guarding
+- **G55** word note: 4:34:27 ٱللَّهُ: God as the guarding agent in the standard reading, with variant agency pressure — topics: allocator becomes guardian
+- **G56** word note: 4:34:28 وَ: resumptive conjunction opening the feared-discord case — topics: pivot from profile to procedure
+- **G57** word note: 4:34:29 ٱلَّٰتِى: feminine relative pronoun selecting the subset whose discord is feared — topics: subset selected for the protocol
+- **G58** word note: 4:34:30 تَخَافُونَ: you fear, apprehend, or perceive signs of a possible nushūz pattern — topics: perceived risk gates the protocol
+- **G59** word note: 4:34:31 نُشُوزَهُنَّ: their rising-up, relational elevation, or disruptive defiance as a feared behavior-state — topics: rising-up, not a fixed identity
+- **G60** word note: 4:34:32 فَ: apodotic particle launching the response sequence — topics: fear clause triggers first command
+- **G61** word note: 4:34:33 عِظُوهُنَّ: admonish or counsel them directly as the first corrective step — topics: speech begins the ladder
+- **G62** word note: 4:34:34 وَ: coordinator introducing the second distinct imperative — topics: second command stays distinct
+- **G63** word note: 4:34:35 ٱهْجُرُوهُنَّ: shun or separate from them, locally restricted by the bed-space phrase — topics: separation localized to beds
+- **G64** word note: 4:34:36 فِى: locative or temporal preposition confining the separation to the bed/rest domain — topics: the remedy is located
+- **G65** word note: 4:34:37 ٱلْمَضَاجِعِ: the beds or lying-down places as the regulated setting of separation — topics: beds as marked relational site
+- **G66** word note: 4:34:38 وَ: coordinator introducing the third distinct imperative — topics: third command separated from bed phrase
+- **G67** word note: 4:34:39 ٱضْرِبُوهُنَّ: locally a contested Form I transitive imperative in the third step of the procedure; the broad root range is relevant but construction-bound branches are not all simultaneously active — topics: third command with direct object; broad root range kept locally bounded; Form I, n…
+- **G68** word note: 4:34:40 فَ: connector pivoting from the command sequence to a conditional halt — topics: off-ramp after commands
+- **G69** word note: 4:34:41 إِنْ: uncertain conditional particle for the obedience condition — topics: halt depends on possible compliance
+- **G70** word note: 4:34:42 أَطَعْنَكُمْ: they complied with or aligned themselves toward you, completing the protasis — topics: compliance triggers restraint
+- **G71** word note: 4:34:43 فَ: apodosis marker introducing the consequence of compliance — topics: condition becomes prohibition
+- **G72** word note: 4:34:44 لَا: prohibitive particle turning the next verb into a ban — topics: positive commands reverse into restraint
+- **G73** word note: 4:34:45 تَبْغُوا۟: do not seek or pursue a way against them, with transgression pressure — topics: seeking becomes overreach
+- **G74** word note: 4:34:46 عَلَيْهِنَّ: against them; adversative overness attached to the prohibited seeking — topics: overness becomes againstness
+- **G75** word note: 4:34:47 سَبِيلًا: any way, avenue, path, method, or legal ground of renewed leverage — topics: no avenue remains
+- **G76** word note: 4:34:48 إِنَّ: emphatic particle opening the theological closing frame — topics: emphatic divine coda
+- **G77** word note: 4:34:49 ٱللَّهَ: God as the accusative subject-name of the emphatic closing clause — topics: third divine name gathers the ayah
+- **G78** word note: 4:34:50 كَانَ: copular being verb asserting enduring divine attributes — topics: enduring attribute hinge
+- **G79** word note: 4:34:51 عَلِيًّا: exalted, high, or transcendent as the first divine predicate — topics: divine height checks human overness
+- **G80** word note: 4:34:52 كَبِيرًا: great, immense, and above human scale as the second divine predicate — topics: divine greatness relativizes hierarchy
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+28 readings and open observations, 16 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L01** [reading; support strong, relevance high] word 1: ٱلرِّجَالُ — lemma رِجَال, root ر ج ل, pos DET;N
+  - finding: The definite class term ٱلرِّجَالُ frames the declaration at class level, while بَعْضَهُمْ عَلَىٰ بَعْضٍۢ later prevents that framing from automatically becoming a claim about every man and every woman.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The opening definite plural is followed by a comparison among “some” and “some.”
+  - limits: The foot and walking senses of ر ج ل are not activated by this clause; the wording does not specify how the role varies among individuals.
+- **L02** [reading; support strong, relevance high] word 2: قَوَّٰمُونَ — lemma قَوَّٰمِين, root ق و م, pos N
+  - finding: قَوَّٰمُونَ presents the role as sustained upholding or maintenance; its same-root form in the call to stand for justice in 4:135 places this role within the surah’s ethical language of standing.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ»
+  - activation: The intensive participial form and the stated grounds of divine allocation and spending support an ongoing role.
+  - limits: The parallel does not make the roles identical: 4:135 explicitly names justice, while 4:34 names women and gives different grounds.
+- **L03** [reading; support strong, relevance high] word 3: عَلَى — lemma عَلَىٰ, root —, pos P
+  - finding: The repeated عَلَى links the role relation, the comparison of some with some, and the later ban on seeking a way against women; عَلِيًّا then closes the verse with divine height. This makes the verse’s vertical language answerable to its final divine predicate.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:34 «عَلِيًّا كَبِيرًا»
+  - activation: The same preposition recurs in distinct relations across the ayah, before the closing description of God as exalted and great.
+  - limits: The pattern invites a relation among these phrases but does not make their grammatical functions identical.
+- **L04** [reading; support strong, relevance high] word 4: ٱلنِّسَآءِ — lemma نِسَآء, root ن س و, pos DET;N
+  - finding: ٱلنِّسَآءِ names the paired class in a surah that began with men and women from one origin and later assigns both a نصيب in inheritance. The class pairing therefore sits within a broader account of shared origin and differentiated rights.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:1 «وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ»; 4:7 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ وَلِلنِّسَآءِ نَصِيبٌۭ»
+  - activation: The ayah’s paired class nouns echo the surah’s opening and its explicit paired inheritance language.
+  - limits: These passages do not establish equal shares or identical roles; 4:7 states that each class has a share.
+- **L07** [reading; support strong, relevance high] word 7: ٱللَّهُ — lemma ٱللَّه, root ء ل ه, pos PN
+  - finding: فَضَّلَ presents difference as an act attributed to God, and its close wording in 4:32 frames such differentiation as something not to covet. The comparison need not be heard as self-claimed rank.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The shared verb, divine agent, and “some over some” comparison make the 4:32 warning a close surah echo.
+  - limits: Neither passage specifies the particular capacities or circumstances meant in 4:34.
+- **L09** [reading; support strong, relevance high] word 9: عَلَىٰ — lemma عَلَىٰ, root —, pos P
+  - finding: بَعْضَهُمْ makes the preferred side a subset rather than naming a whole class, and the following بَعْضٍ leaves the comparison’s other side unnamed. The phrase resists a simple all-men-over-all-women formulation.
+  - evidence: 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The first “some” has a pronoun suffix; the second is indefinite and has no class label.
+  - limits: The wording alone cannot determine which people or which dimensions of difference are intended.
+- **L15** [reading; support strong, relevance high] word 15: فَٱلصَّٰلِحَٰتُ — lemma صَّٰلِحَٰت, root ص ل ح, pos REM;DET;N
+  - finding: أَنفَقُوا۟ grounds the role in an act of spending, not merely in possession of assets. The same surah presents spending from God-given provision as a practice in its own right.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:39 «وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ»
+  - activation: The completed Form IV verb names the men as agents of expenditure, and the following phrase names its source.
+  - limits: This does not establish that every man spends, that all wealth is spent, or that spending alone grounds the role.
+- **L19** [reading; support strong, relevance high] word 19: بِمَا — lemma مَا, root —, pos P;REL
+  - finding: ٱلصَّٰلِحَٰتُ names a positive class, while 4:124 elsewhere speaks of righteous action by male or female believers. Righteousness is therefore not confined by the surah to one sex.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ»; 4:124 «وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ»
+  - activation: The shared ص ل ح root connects the women’s profile with the surah’s explicit male-and-female formulation.
+  - limits: The parallel does not make the profile in 4:34 a description of every woman or erase its distinct wording.
+- **L21** [reading; support strong, relevance high] word 21: ٱللَّهُ — lemma ٱللَّه, root ء ل ه, pos PN
+  - finding: حَٰفِظَٰتٌ is an active participle describing the women’s guarding as a quality alongside قَٰنِتَٰتٌ. The phrase links that quality to the domain of الغيب and a divine act of guarding.
+  - evidence: 4:34 «قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»
+  - activation: The feminine plural participle coordinates with the preceding predicate and takes the following لِّلْغَيْبِ phrase.
+  - limits: The verse does not name the guarded object directly or establish that human guarding is authorized by a prior divine act.
+- **L28** [reading; support strong, relevance high] word 28: ٱلْمَضَاجِعِ — lemma مَضَاجِع, root ض ج ع, pos DET;N
+  - finding: وَٱلَّٰتِى shifts from the positive profile to a case selected by feared nushūz. This change of construction means the remedial commands do not define the preceding class of صالحات.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»
+  - activation: The conjunction and feminine relative pronoun begin a new clause after the description.
+  - limits: The wording does not prove that the two groups are mutually exclusive.
+- **L30** [reading; support strong, relevance high] word 30: فَإِنْ — lemma إِن, root —, pos REM;COND
+  - finding: تَخَافُونَ makes the addressees’ apprehension the stated threshold for the procedure; the wording does not say that nushūz has already been proven or adjudicated.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»
+  - activation: The imperfect verb of fearing governs the noun نُشُوزَهُنَّ in the relative clause.
+  - limits: The verse does not spell out what signs justify this fear.
+- **L31** [reading; support strong, relevance high] word 31: أَطَعْنَكُمْ — lemma أَطَاعَ, root ط و ع, pos V;PRON
+  - finding: نُشُوزَهُنَّ names a relational disturbance, not a fixed female identity; 4:128 uses the same root for a wife’s fear of nushūz from her husband.
+  - evidence: 4:34 «نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا»
+  - activation: The same noun appears in the reciprocal marital setting later in the surah.
+  - limits: The reciprocal term does not mean that the two passages prescribe the same response.
+- **L33** [reading; support strong, relevance high] word 33: تَبْغُوا۟ — lemma بَغَىٰ, root ب غ ي, pos V;PRON
+  - finding: عِظُوهُنَّ makes speech the first named response. The same verb is used when the Prophet is told to admonish people in 4:63, supporting a counsel or warning sense rather than a physical action.
+  - evidence: 4:34 «فَعِظُوهُنَّ»; 4:63 «فَأَعْرِضْ عَنْهُمْ وَعِظْهُمْ»
+  - activation: The command stands first in the listed sequence and the surah uses the same root for verbal admonition elsewhere.
+  - limits: The parallel does not establish identical audiences or outcomes, and it does not by itself define the sequence’s timing.
+- **L35** [reading; support strong, relevance high] word 35: سَبِيلًا — lemma سَبِيل, root س ب ل, pos N
+  - finding: ٱهْجُرُوهُنَّ commands separation, but its immediate bed-place complement bounds the setting. The migration and other root branches do not automatically apply to this construction.
+  - evidence: 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»
+  - activation: The direct object is followed by a locative phrase naming the beds.
+  - limits: The wording identifies the site of separation but does not give every practical detail of what it entails.
+- **L40** [reading; support strong, relevance high] word 40: كَبِيرًا — lemma كَبِير, root ك ب ر, pos ADJ
+  - finding: The فَ after the imperative sequence pivots to a condition that halts further pursuit if the women comply; the response is followed by an explicit limit.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The conditional clause follows the commands and its result clause prohibits seeking a way against them.
+  - limits: This stopping condition does not by itself resolve the meaning of each preceding imperative.
+- **local_1.X1** [reading; support strong, relevance high] 
+  - finding: The ban on seeking a way against women after compliance echoes 4:90, where God makes no way against those who withdraw from fighting and offer peace. In both scenes, changed conduct closes an avenue against the other party.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا»
+  - activation: Both clauses use عَلَى plus سَبِيلًا to deny an avenue against a party after compliance or withdrawal.
+  - limits: The domestic and armed-conflict settings differ, so the parallel does not equate their legal situations.
+- **local_1.X3** [reading; support strong, relevance high] 
+  - finding: The reciprocal nushūz passage in 4:128 gives a different response: spouses may make a settlement when a wife fears it from her husband. This contrast makes the later treatment of the same relational term part of how the surah handles marital discord.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا»
+  - activation: Both passages name feared nushūz in a marriage, while the later passage explicitly names mutual settlement.
+  - limits: Their conditions and wording differ; the contrast does not alone explain why each response is stated in its passage.
+- **L23** [reading; support medium, relevance high] word 23: تَخَافُونَ — lemma خَافَ, root خ و ف, pos V;PRON
+  - finding: ٱلْغَيْبِ can evoke what is concealed or absent; 4:108 makes hidden conduct in the absence of human observers answerable to God. This supports a divine accountability dimension in the guarding phrase.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 4:108 «يَسْتَخْفُونَ مِنَ ٱلنَّاسِ وَلَا يَسْتَخْفُونَ مِنَ ٱللَّهِ»
+  - activation: The ayah pairs the hidden domain with God’s guarding, while 4:108 contrasts concealment from people with concealment from God.
+  - limits: The 4:108 passage does not use الغيب or specify what the women in 4:34 preserve.
+- **L27** [reading; support medium, relevance high] word 27: فِى — lemma فِى, root —, pos P
+  - finding: On the standard nominative reading ٱللَّهُ is the subject of حَفِظَ; the reported accusative variant ٱللَّهَ makes God its object and shifts the implied guarding agent toward the women. The variant changes who guards what.
+  - evidence: 4:34 «بِمَا حَفِظَ ٱللَّهُ»
+  - activation: The case ending on the divine name determines its syntactic role after حَفِظَ.
+  - limits: The supplied focus text shows the nominative form; the variant’s reading apparatus and the precise implied object are not independently displayed here.
+- **L18** [open; support medium, relevance high] word 18: لِّلْغَيْبِ — lemma غَيْب, root غ ي ب, pos P;DET;N
+  - finding: The فَ in فَٱلصَّٰلِحَٰتُ moves from the stated grounds to the women’s positive profile, but whether it marks consequence or introduces an elaborating clause affects how that profile relates to the opening claim.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ ۚ فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»
+  - missing: A grammatical account of فَ in this clause, or a close Quranic parallel, could decide whether the profile is presented as a consequence of the grounds or as a new explanatory statement.
+- **L20** [open; support medium, relevance high] word 20: حَفِظَ — lemma حَفِظَ, root ح ف ظ, pos V
+  - finding: قَٰنِتَٰتٌ describes the righteous women with a quality of devotion or obedience, but this clause names no recipient of that obedience. The juxtaposition with قَوَّٰمُونَ does not alone establish that they are obedient to men.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ»
+  - missing: Quranic uses of ق ن ت with an explicit object, or a dictionary entry distinguishing devotional obedience from interpersonal obedience, could settle the intended scope.
+- **L22** [open; support medium, relevance high] word 22: وَٱلَّٰتِى — lemma ٱلَّذِى, root —, pos REM;COND
+  - finding: لِ in لِّلْغَيْبِ attaches the guarding to the hidden or absent domain, but can leave open whether that relation is domain, purpose, or time of absence.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»
+  - missing: A precise dictionary treatment of لِ here or Quranic parallels with the same construction could distinguish “during absence,” “concerning the unseen,” and “for the hidden.”
+- **L24** [open; support medium, relevance high] word 24: نُشُوزَهُنَّ — lemma نُشُوز, root ن ش ز, pos N;PRON
+  - finding: بِ in بِمَا حَفِظَ ٱللَّهُ links the women’s guarding to divine guarding, but the relation could be causal or instrumental.
+  - evidence: 4:34 «لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»
+  - missing: A close Quranic parallel or grammatical explanation of بِ in this construction could determine whether it means by God’s guarding, because of it, or in accordance with what God guarded.
+- **L25** [open; support medium, relevance high] word 25: فَعِظُوهُنَّ — lemma وَعَظْ, root و ع ظ, pos RSLT;V;PRON
+  - finding: مَا in بِمَا حَفِظَ ٱللَّهُ may point to what God preserved or to the act of preserving; the clause leaves the precise object or event unstated.
+  - evidence: 4:34 «بِمَا حَفِظَ ٱللَّهُ»
+  - missing: An explicit antecedent elsewhere in the surah or a grammatical parallel could establish whether مَا is relative or event-nominalizing here.
+- **L37** [open; support medium, relevance high] word 37: ٱللَّهَ — lemma ٱللَّه, root ء ل ه, pos PN
+  - finding: ٱلْمَضَاجِعِ is the same bed-place noun used in 32:16, where believers’ sides draw away from beds. The shared word invites a contrast between marital separation at the beds and devotional rising from them.
+  - evidence: 4:34 «فِى ٱلْمَضَاجِعِ»; 32:16 «تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ»
+  - missing: A further shared phrase or a surah-level reason to connect these scenes could establish whether the matching noun is a deliberate echo rather than a shared term for beds.
+- **L39** [open; support medium, relevance high] word 39: عَلِيًّا — lemma عَلِيّ, root ع ل و, pos N
+  - finding: ٱضْرِبُوهُنَّ is a Form I imperative with a direct feminine plural object. The travel use of ضَرَبَ in 4:101 has فِى ٱلْأَرْضِ, while the supplied root branches do not establish that a non-impact sense fits this direct-object construction.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 4:101 «إِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ»
+  - missing: A dictionary attestation or Quranic parallel for Form I ضَرَبَ with a direct human object meaning restraint, departure, or another non-impact action could decide whether such a reading is grammatically available here.
+- **local_1.X2** [open; support medium, relevance high] 
+  - finding: The surah says in 4:15 that God may make a way for women, and in 4:34 forbids seeking a way against them after they comply. The reversal between لَهُنَّ سَبِيلًا and عَلَيْهِنَّ سَبِيلًا may connect their protection and the limits on action against them.
+  - evidence: 4:15 «أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًۭا»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - missing: A clearer account of the legal and narrative relation between these separate passages could establish whether the shared سبيل wording is a deliberate link.
+- **local_1.X4** [open; support medium, relevance high] 
+  - finding: The immediately following 4:35 moves from the commands addressed to men in 4:34 to feared discord “between the two” and appoints an arbiter from each family. This may mark a move from a private response to mediation involving both spouses and their families.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَا»
+  - missing: An explicit connective or a close exegetical account could establish whether 4:35 is the next stage of the 4:34 case or a distinct case of discord between both spouses.
+
+Notes:
+- L29 [support strong, relevance high] ٱلَّٰتِى selects women whose nushūz is feared, narrowing the case addressed by the following commands instead of describing women as a whole.
+- L05 [support strong, relevance medium] The بِ in بِمَا opens a causal or instrumental ground for قَوَّٰمُونَ, tying the role to what follows rather than presenting it without a stated basis.
+- L08 [support strong, relevance medium] ٱللَّهُ is the grammatical agent of فَضَّلَ, locating the act of differentiation in God rather than in the men named at the start.
+- L10 [support strong, relevance medium] عَلَىٰ makes the favoring relational: it marks a comparison of some with others, not an unqualified predicate that one named class is superior in every respect.
+- L11 [support strong, relevance medium] The indefinite بَعْضٍ completes the comparison without naming its endpoint, preserving uncertainty about which people or qualities are compared.
+- L12 [support strong, relevance medium] وَ coordinates the two stated grounds for قَوَّٰمُونَ, keeping divine differentiation and expenditure distinct while placing both in the explanation.
+- L13 [support strong, relevance medium] The repeated بِ gives expenditure a parallel grammatical place alongside divine differentiation as a stated ground of the role.
+- L16 [support strong, relevance medium] مِنْ identifies the wealth as the source of expenditure. It does not itself quantify how much of that wealth was spent.
+- L17 [support strong, relevance medium] أَمْوَٰلِهِمْ makes material resources concrete in the role’s stated basis, with the suffix linking the wealth to the men. The local wording supports “wealth,” not an additional inclination sense.
+- L26 [support strong, relevance medium] حَفِظَ uses a perfect verb where the women are described by the participle حَٰفِظَٰتٌ. This pairs their guarding quality with a completed divine act without proving that the divine act temporally precedes it.
+- L32 [support strong, relevance medium] فَ in فَعِظُوهُنَّ links the first command to the feared-nushūz clause as its response.
+- L34 [support strong, relevance medium] وَ introduces ٱهْجُرُوهُنَّ as a second imperative, preserving it as a distinct command rather than making it a gloss on admonition.
+- L36 [support strong, relevance medium] فِى locates the separation in the bed-place domain, limiting the immediately preceding command’s stated setting.
+- L38 [support strong, relevance medium] The وَ before ٱضْرِبُوهُنَّ starts another imperative after the bed-place phrase, so the locative phrase most directly modifies ٱهْجُرُوهُنَّ.
+- L06 [support medium, relevance medium] مَا leaves the first ground open between “what God favored” and the act of favoring itself; the following clause identifies the agent and comparison but not the dimension of difference.
+- L14 [support medium, relevance medium] مَا in the second بِمَا leaves open whether the ground is the act of spending or what is spent; أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ anchors either reading in expenditure from wealth.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+27 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-رجل** [reading; support strong, relevance high] root ر ج ل (focus word ٱلرِّجَالُ: رِجَال N) — 73 occurrences in 66 ayat; same form 28, other forms 45
+  - finding: In Surah 4, ٱلرِّجَالُ is repeatedly paired with ٱلنِّسَآءِ in inheritance and earnings, while both groups can also be described as vulnerable. This makes the role stated in 4:34 a context-specific claim, not evidence that every man is always powerful.
+  - evidence: 4:32 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:75 «وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ»
+  - activation: The preceding verse pairs men and women as earners with shares, and 4:75 names vulnerable men and women together.
+  - limits: These parallels do not cancel the role asserted in 4:34 or make the two classes interchangeable.
+- **U-قوم** [reading; support strong, relevance high] root ق و م (focus word قَوَّٰمُونَ: قَوَّٰمِين N) — 643 occurrences in 597 ayat; same form 3, other forms 640
+  - finding: The قَوَّٰمُونَ form in 4:34 echoes قَوَّٰمِينَ in commands to uphold justice, including when judgment bears against oneself or one's kin. That usage brings a standard of sustained responsibility into the focus word.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»; 5:8 «كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ»
+  - activation: The focus predicates قَوَّٰمُونَ of men, then ends by forbidding them to seek a way against the women.
+  - limits: The other verses explicitly name justice, while 4:34 states different grounds; the shared form does not make those passages identical in scope.
+- **U-نسو** [reading; support strong, relevance high] root ن س و (focus word ٱلنِّسَآءِ: نِسَآء N) — 57 occurrences in 53 ayat; same form 57, other forms 0
+  - finding: Surah 4 has already named women as recipients of dowries, inheritance, and earnings before it names ٱلنِّسَآءِ in the qiwama statement. The focus therefore enters a surah where women’s material claims have already been established.
+  - evidence: 4:4 «وَءَاتُوا۟ ٱلنِّسَآءَ صَدُقَٰتِهِنَّ نِحْلَةًۭ»; 4:7 «وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ»; 4:32 «وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»
+  - activation: The focus names the same group and grounds the men’s role partly in spending from their own wealth.
+  - limits: These entitlements establish women’s claims to property but do not by themselves settle the meaning or extent of قَوَّٰمُونَ.
+- **U-فضل** [reading; support strong, relevance high] root ف ض ل (focus word فَضَّلَ: فَضَّلَ V form II) — 100 occurrences in 92 ayat; same form 16, other forms 84
+  - finding: The فضل clause in 4:34 repeats the preceding verse’s warning against coveting what God has allocated among people. Later, 4:95 names the groups and actions involved in a فضل comparison; 4:34 leaves its comparison’s particular axis unstated.
+  - evidence: 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:95 «فَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى ٱلْقَٰعِدِينَ دَرَجَةًۭ»
+  - activation: The repeated فضل and بعضهم على بعض formula follows 4:32’s warning and its paired statements about men’s and women’s earnings.
+  - limits: The parallel does not identify which particular differences ground the focus clause, nor does 4:95 supply that missing specification.
+- **U-نفق** [reading; support strong, relevance high] root ن ف ق (focus word أَنفَقُوا۟: أَنفَقَ V form IV) — 105 occurrences in 86 ayat; same form 62, other forms 43
+  - finding: Surah 4 distinguishes expenditure by its manner: spending for show is condemned, while spending from what God provides is presented positively. The focus makes expenditure a ground for قَوَّٰمُونَ, so the surrounding usage brings its moral character into view without specifying a required motive or amount.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:38 «وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ»; 4:39 «وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ»
+  - activation: These expenditure statements occur within the same surah’s nearby discussion of wealth, faith, and giving.
+  - limits: The later passages do not state that the spending in 4:34 is ostentatious or set a threshold for it.
+- **U-مول** [reading; support strong, relevance high] root م و ل (focus word أَمْوَٰلِهِمْ: مَال N) — 83 occurrences in 80 ayat; same form 83, other forms 0
+  - finding: The surah repeatedly treats أَمْوَٰل as protected property and condemns unjust transfers. In the focus, مِنْ أَمْوَٰلِهِمْ presents spending as an outflow from the men’s assets, not a claim to the women’s assets.
+  - evidence: 4:2 «وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ»; 4:29 «لَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ إِلَّآ أَن تَكُونَ تِجَٰرَةً عَن تَرَاضٍۢ مِّنكُمْ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - activation: The focus itself marks the wealth as the men’s and marks their expenditure as a ground for the stated role.
+  - limits: The wording does not specify the amount spent or define the full measure of that role.
+- **usage_1.X1** [reading; support strong, relevance high] 
+  - finding: The conditional ending in 4:34 echoes the surah’s no-way formula in 4:90: after a qualifying response, a سبيل against the other party is barred. This makes the obedience clause a clear stopping point in the sequence of commands.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا»
+  - activation: Both passages connect a condition with a prohibition or denial of any سبيل against the responding party.
+  - limits: The parallel marks a shared limit formula but does not make the domestic and armed-conflict situations legally identical.
+- **U-صلح** [reading; support strong, relevance high] root ص ل ح (focus word فَٱلصَّٰلِحَٰتُ: صَّٰلِحَٰت N) — 178 occurrences in 170 ayat; same form 61, other forms 117
+  - finding: The adjective ٱلصَّٰلِحَٰتُ sits in Sūrat al-Nisāʾ’s vocabulary of marital repair, bringing relational order alongside personal soundness.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ»; 4:35 «إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»; 4:128 «أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ»
+  - activation: The clauses following ٱلصَّٰلِحَٰتُ describe marital conduct; 4:35 and 4:128 address discord and settlement between spouses.
+  - limits: The adjective in 4:34 and the repair terms in 4:35 and 4:128 are different forms; these parallels do not define الصالحات as women who repair a marriage.
+- **U-قنت** [reading; support strong, relevance high] root ق ن ت (focus word قَٰنِتَٰتٌ: قَٰنِتَٰت N) — 13 occurrences in 12 ayat; same form 2, other forms 11
+  - finding: Elsewhere the ق ن ت family explicitly orients devotion toward God: قَٰنِتِينَ لِلَّهِ in 2:238 and يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ in 33:31 make God-directed devotion a live reading of قَٰنِتَٰتٌ here.
+  - evidence: 4:34 «قَٰنِتَٰتٌ»; 2:238 «وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ»; 33:31 «وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ»
+  - activation: قَٰنِتَٰتٌ follows the عَلَى ٱلنِّسَآءِ relation, but the clause supplies no complement for this quality.
+  - limits: The other examples use different inflected forms, and 4:34 leaves the orientation unstated; they do not make a divine object explicit in this clause.
+- **U-حفظ** [reading; support strong, relevance high] root ح ف ظ (focus word حَٰفِظَٰتٌ: حَٰفِظَٰت N) — 44 occurrences in 42 ayat; same form 2, other forms 42
+  - finding: Qur'anic commands pair men and women with guarding their furūj; this gives sexual privacy a concrete place within حَٰفِظَٰتٌ لِّلْغَيْبِ.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 24:30 «وَيَحْفَظُوا۟ فُرُوجَهُمْ»; 24:31 «وَيَحْفَظْنَ فُرُوجَهُنَّ»
+  - activation: The focus joins the feminine guarding participle حَٰفِظَٰتٌ to the hidden or absent domain; 24:30–31 give the corresponding root an explicit bodily object for men and women.
+  - limits: The focus names no direct object. The separate verb clauses in 24:30–31 do not settle whether 4:34 concerns chastity, property, fidelity, or other hidden trusts.
+- **U-خوف** [reading; support strong, relevance high] root خ و ف (focus word تَخَافُونَ: خَافَ V) — 121 occurrences in 112 ayat; same form 81, other forms 40
+  - finding: The same surah repeats خاف with نُشُوز as its object but changes who fears: in 4:34 men fear women’s nushūz, while in 4:128 a woman fears her husband’s nushūz.
+  - evidence: 4:34 «تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا»
+  - activation: The focus’s plural تَخَافُونَ نُشُوزَهُنَّ has a close same-surah counterpart with the spouses’ positions reversed.
+  - limits: The two passages set out different responses; the parallel does not equate their procedures or establish that fear alone proves nushūz.
+- **usage_2.X1** [reading; support strong, relevance high] 
+  - finding: In 33:35, قانتون/قانتات and حافظون/حافظات appear in gender-paired lists; elsewhere in Quranic usage these qualities cross gender categories, while 4:34 selects women for this household profile.
+  - evidence: 4:34 «قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ»; 33:35 «وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ»; 33:35 «وَٱلْحَٰفِظِينَ فُرُوجَهُمْ وَٱلْحَٰفِظَٰتِ»
+  - activation: The focus puts the feminine forms قَٰنِتَٰتٌ and حَٰفِظَٰتٌ together; 33:35 pairs corresponding masculine and feminine forms in its list of qualities.
+  - limits: The paired list does not explain why 4:34 applies these descriptions to women at this point in its argument.
+- **U-وعظ** [reading; support strong, relevance high] root و ع ظ (focus word فَعِظُوهُنَّ: وَعَظْ V) — 25 occurrences in 24 ayat; same form 15, other forms 10
+  - finding: The same imperative in 4:63 is followed by a command to speak eloquent words, supporting فَعِظُوهُنَّ as addressed counsel at the verbal opening of this response sequence.
+  - evidence: 4:34 «فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:63 «فَأَعْرِضْ عَنْهُمْ وَعِظْهُمْ وَقُل لَّهُمْ فِىٓ أَنفُسِهِمْ قَوْلًۢا بَلِيغًۭا»
+  - activation: Both passages use a direct command from the same root; in 4:34 admonition comes first in the ordered response.
+  - limits: The parallel specifies speech in 4:63 but does not give the words, tone, or result of the admonition in 4:34.
+- **U-هجر** [reading; support strong, relevance high] root ه ج ر (focus word وَٱهْجُرُوهُنَّ: ٱهْجُرْ V) — 30 occurrences in 27 ayat; same form 5, other forms 25
+  - finding: The same Form I imperative commands relational separation in the father’s words to Abraham and in the instruction to leave hostile speakers with جميلًا; in 4:34, فِى ٱلْمَضَاجِعِ locates the separation at the beds.
+  - evidence: 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»; 19:46 «وَٱهْجُرْنِى مَلِيًّۭا»; 73:10 «وَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱهْجُرْهُمْ هَجْرًۭا جَمِيلًۭا»
+  - activation: The focus uses the same imperative form as these relational-separation commands and adds a specific bed setting.
+  - limits: The duration in 19:46 and the adjective جَمِيلًا in 73:10 are not stated in 4:34; the Form III migration uses are a different form.
+- **U-بغي** [reading; support strong, relevance high] root ب غ ي (focus word تَبْغُوا۟: بَغَىٰ V) — 95 occurrences in 90 ayat; same form 25, other forms 70
+  - finding: With عَلَى, بَغَى names wrongful action against a party in the Qarun and factional-conflict passages; this collocation gives لَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا an anti-encroachment force.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 28:76 «فَبَغَىٰ عَلَيْهِمْ»; 49:9 «فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ»
+  - activation: The preceding obedience condition is followed by a prohibition whose بَغَى عَلَى construction recurs in accounts of wrongdoing against others.
+  - limits: The root also appears in other constructions meaning to seek; these different scenes do not define every avenue included by سَبِيلًا here.
+- **U-سبل** [reading; support strong, relevance high] root س ب ل (focus word سَبِيلًا: سَبِيل N) — 168 occurrences in 164 ayat; same form 168, other forms 0
+  - finding: Surah 4 repeats the phrase of having no سبيل against a party: 4:90 uses it after people withdraw from fighting and offer peace, while 4:141 denies such a سبيل over believers. This frames the focus prohibition as closing an avenue of action against women after they comply.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًۭا»; 4:141 «وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا»
+  - activation: The phrase عَلَى/عَلَيْهِمْ سَبِيلًا recurs in this surah; in 4:34, compliance activates the command not to pursue it.
+  - limits: The scenarios and wording differ, and the parallels do not specify every action or claim encompassed by سَبِيلًا in the marital dispute.
+- **U-علو** [reading; support strong, relevance high] root ع ل و (focus word عَلِيًّا: عَلِيّ N) — 70 occurrences in 68 ayat; same form 8, other forms 62
+  - finding: The focus closes with عَلِيًّا كَبِيرًا, echoing the divine-name pair in 22:62 and 34:23. Elsewhere, عُلُوًّا كَبِيرًا describes corrupt human elevation in 17:4, so the closing epithet can set God's highness against human overreach after this ayah's commands.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 22:62 «وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ»; 34:23 «وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ»; 17:4 «وَلَتَعْلُنَّ عُلُوًّۭا كَبِيرًۭا»
+  - activation: The coda follows a sequence about قَوَّامُونَ عَلَى ٱلنِّسَاءِ and ends after the ban on seeking عَلَيْهِنَّ سَبِيلًا, placing God's epithet beside the ayah's relations of overness.
+  - limits: The preposition عَلَى is not the root ع ل و, and عُلُوًّا in 17:4 is a different form describing Banu Israel's conduct; the parallel does not identify the men or their role in 4:34 with that offense.
+- **usage_4.X1** [reading; support strong, relevance high] 
+  - finding: The conditional restraint فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا echoes 4:90, where abstention from fighting and an offer of peace lead to فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا. Verse 4:141 repeats the formula for God's assurance against hostile dominion over believers. Together these make the focus's off-ramp part of a broader refusal of avenues of overreach.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا»; 4:141 «وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا»
+  - activation: In 4:34 the ban on seeking a way against them follows the condition إِنْ أَطَاعْنَكُمْ; the closing divine epithet follows immediately after.
+  - limits: The other passages concern people who abstain from fighting and hostile groups, not spouses; the shared formula does not make those relationships or legal situations equivalent.
+- **usage_4.X2** [reading; support strong, relevance high] 
+  - finding: The same intensive form قَوَّام appears in 4:34 for الرجال عَلَى النساء and in 4:135 as a command to believers generally: قَوَّامِينَ بِالْقِسْطِ, even when justice is against themselves or family. This gives the surah an explicit justice-centered use of the same term alongside its marital use.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The exact form recurs within the same surah, where the later command explicitly names justice and tests it against the self, parents, and kin.
+  - limits: The subjects and complements differ, and 4:135 does not itself define the legal scope of قَوَّامُونَ in 4:34.
+- **usage_4.X3** [reading; support strong, relevance high] 
+  - finding: The same root ن ش ز marks feared marital rupture in opposite directions: in 4:34 men fear نُشُوزَهُنَّ and receive a sequence of commands; in 4:128 a woman fears نُشُوزًا from her husband, and the text permits mutual settlement and says وَالصُّلْحُ خَيْرٌ. The intervening 4:35 brings in two arbiters when شِقَاقَ بَيْنِهِمَا is feared, making a gendered difference in the stated responses visible across the passage.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا وَٱلصُّلْحُ خَيْرٌ»
+  - activation: Both verses use خاف and the same root ن ش ز for a feared state in the marriage, while the intervening verse names discord between the pair.
+  - limits: The wording establishes a contrast in the stated procedures but does not explain why they differ or establish that the cases are legally identical.
+- **U-نشز** [reading; support medium, relevance high] root ن ش ز (focus word نُشُوزَهُنَّ: نُشُوز N) — 4 occurrences in 4 ayat; same form 2, other forms 2
+  - finding: The marital noun نُشُوز names a feared condition of wives in 4:34 and of a husband in 4:128; other forms of the root describe rising from seats and raising bones, leaving a physical rising image available for this relational term.
+  - evidence: 4:34 «نُشُوزَهُنَّ»; 4:128 «بَعْلِهَا نُشُوزًا»; 58:11 «وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟»; 2:259 «كَيْفَ نُنشِزُهَا»
+  - activation: قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ establishes a vertical relation immediately before the focus names their feared نُشُوزَهُنَّ.
+  - limits: The movement examples are verbs, while نُشُوز is a noun. They establish a root-level movement sense, but do not establish that literal rising is active in the marital usage.
+- **U-ضرب** [reading; support medium, relevance high] root ض ر ب (focus word وَٱضْرِبُوهُنَّ: ضَرَبَ V) — 54 occurrences in 54 ayat; same form 51, other forms 3
+  - finding: The Quran uses ضَرَبَ for going forth in the frame ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ and for bodily striking when necks are named as the target; with ٱضْرِبُوهُنَّ, a bodily-impact reading is supported by the target construction.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 4:94 «إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ»; 47:4 «فَضَرْبَ ٱلرِّقَابِ»
+  - activation: The focus has a direct object suffix, while the travel use has a prepositional phrase and the physical use names a bodily target.
+  - limits: These examples support a physical-action branch but do not determine the force, manner, or conditions of the action in 4:34.
+- **U-طوع** [reading; support medium, relevance high] root ط و ع (focus word أَطَعْنَكُمْ: أَطَاعَ V form IV) — 123 occurrences in 118 ayat; same form 66, other forms 57
+  - finding: The focus condition uses the Form IV verb أَطَعْنَكُمْ for compliance; elsewhere in the surah, people say the related noun طَاعَةٌ and then privately plan otherwise, highlighting the difference between enacted obedience and an obedience formula.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:81 «وَيَقُولُونَ طَاعَةٌۭ فَإِذَا بَرَزُوا۟ مِنْ عِندِكَ بَيَّتَ طَآئِفَةٌۭ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ»
+  - activation: The conditional verb in 4:34 makes compliance the trigger for ending the response; 4:81 contrasts a spoken obedience formula with contrary conduct.
+  - limits: The passages differ in form and scene; 4:81 does not imply that the women in 4:34 are insincere or specify how compliance is assessed.
+- **U-كبر** [reading; support medium, relevance high] root ك ب ر (focus word كَبِيرًا: كَبِير ADJ) — 160 occurrences in 153 ayat; same form 32, other forms 128
+  - finding: كَبِيرًا modifies the divine predicate in the focus, in a pair also attested as ٱلْعَلِيُّ ٱلْكَبِيرُ. Earlier in this surah, حُوبًا كَبِيرًا describes the wrong of consuming orphan property; beside 4:34's ground of spending مِنْ أَمْوَٰلِهِمْ, that shared adjective links the coda to the surah's treatment of wealth and rights.
+  - evidence: 4:2 «إِنَّهُۥ كَانَ حُوبًۭا كَبِيرًۭا»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 22:62 «ٱلْعَلِىُّ ٱلْكَبِيرُ»
+  - activation: The focus makes spending a stated ground of قَوَّامُونَ, then ends with كَبِيرًا as part of God's description; the earlier wealth warning gives that repeated adjective a legal and economic setting.
+  - limits: The echo does not call any act in 4:34 حُوبًا or equate its cases with taking orphans' wealth; here كَبِيرًا predicates God's greatness.
+- **U-بعض** [open; support medium, relevance high] root ب ع ض (focus word بَعْضَهُمْ: بَعْض N) — 153 occurrences in 87 ayat; same form 152, other forms 1
+  - finding: The parallel بَعْضَكُمْ عَلَىٰ بَعْضٍ in 4:32 and بَعْضَهُمْ عَلَىٰ بَعْضٍ in 4:34 leaves the comparison’s endpoints unnamed. It permits a reading of differentiated subsets rather than a claim that every man outranks every woman.
+  - evidence: 4:32 «بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - missing: The excerpts do not determine whether the comparison is between men and women as classes or among subsets within them; a fuller syntactic and discourse analysis of the pronoun antecedents could decide this.
+- **U-غيب** [open; support medium, relevance high] root غ ي ب (focus word لِّلْغَيْبِ: غَيْب N) — 59 occurrences in 59 ayat; same form 48, other forms 11
+  - finding: The supplied examples place the غ ي ب family across concealment, absence, and the unseen; لِّلْغَيْبِ beside حَٰفِظَٰتٌ could invoke more than one of these domains.
+  - evidence: 4:34 «لِّلْغَيْبِ»; 12:10 «فِى غَيَٰبَتِ ٱلْجُبِّ»; 7:7 «وَمَا كُنَّا غَآئِبِينَ»; 5:109 «إِنَّكَ أَنتَ عَلَّٰمُ ٱلْغُيُوبِ»
+  - missing: Same-form examples with لِلْغَيْبِ, or a dictionary and grammatical account of this construction, could decide whether the phrase points to a spouse’s absence, hidden matters, the unseen, or an overlap.
+- **U-ضجع** [open; support medium, relevance high] root ض ج ع (focus word ٱلْمَضَاجِعِ: مَضَاجِع N) — 3 occurrences in 3 ayat; same form 3, other forms 0
+  - finding: The same plural المضاجع names beds from which people withdraw for supplication in 32:16; its use as the site of marital separation in 4:34 raises a possible contrast between withdrawal from a bed and withdrawal within the bed setting.
+  - evidence: 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»; 32:16 «تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًۭا وَطَمَعًۭا»
+  - missing: 4:34 gives no night, prayer, or rising-from-bed cue; those cues, or another passage linking المضاجع with marital withdrawal, could establish whether the contrast is active.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+26 readings and open observations, 1 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The sequence frames 4:34 between a warning against coveting God’s allocations, which names earnings shares for both sexes, and 4:35’s family arbitration when marital repair is intended. The ayah thus sits within a progression from allocation to household responsibility to dispute settlement; the nearby warning against arrogance adds an ethical limit.
+  - evidence: 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ ۚ لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»; 4:36 «إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا»
+  - activation: The focus repeats 4:32’s language of divine preference and follows its paired references to men’s and women’s shares; 4:35 continues the marital dispute, and 4:36 condemns arrogance.
+  - limits: Sequence and proximity frame the ayah but do not define the full scope of qiwama; 4:35 does not explicitly make arbitration a condition of every case in 4:34, and 4:32 does not erase the difference 4:34 names.
+- **S-ءله** [reading; support strong, relevance high] root ء ل ه elsewhere in the surah (134)
+  - finding: The surah opens by tracing men and women to one human source and one pair; 4:34 then attributes a difference of role to God’s allocation. The distinction is presented within shared origin, not as separate human origins.
+  - evidence: 4:1 «مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The opening’s shared creation directly names the same men-and-women classes that 4:34 places in a differentiated relation under God’s agency.
+  - limits: Shared origin does not establish identical capacities or rights, and this pairing does not specify what the divine preference comprises.
+- **S-بعض** [reading; support strong, relevance high] root ب ع ض elsewhere in the surah (5)
+  - finding: The phrase بعض على بعض in 4:34 closely echoes 4:32, where the same comparison appears in a warning against coveting what God allocates, followed by shares for both men and women. The focus’s wording leaves the relevant dimension of preference unstated; it does not say that every man exceeds every woman in every respect.
+  - evidence: 4:32 «مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The repeated comparison occurs just two verses before the focus, alongside an explicit counsel about gendered shares.
+  - limits: The echo does not prove that 4:32 and 4:34 refer to precisely the same allocation or explain its dimensions.
+- **S-خوف** [reading; support strong, relevance high] root خ و ف elsewhere in the surah (6)
+  - finding: The surah makes feared nushuz reciprocal: 4:34 names men fearing their wives’ nushuz, while 4:128 names a woman fearing her husband’s nushuz or aversion and says reconciliation is better. Nushuz is therefore not presented only as a women’s condition, and the later passage gives the marital problem a negotiated repair path.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ»
+  - activation: Both passages combine fear with the same nushuz term in a marital setting, while assigning fear to opposite spouses.
+  - limits: The conditions differ; 4:128 does not explicitly apply 4:34’s sequence of commands symmetrically.
+- **S-رجل** [reading; support strong, relevance high] root ر ج ل elsewhere in the surah (7)
+  - finding: Before 4:34 casts men as the role-bearing subject over women, the surah names both as recipients of inheritance shares and shares from their earnings. The class term الرجال thus appears within a legal argument that also treats women as rights-bearing persons.
+  - evidence: 4:7 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ»; 4:32 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»
+  - activation: The surah repeatedly pairs الرجال and النساء in provisions on inheritance and earnings immediately before the focus’s role statement.
+  - limits: These shares do not establish identical amounts or rights, and they do not by themselves define the scope of قَوَّٰمُونَ.
+- **S-سبل** [reading; support strong, relevance high] root س ب ل elsewhere in the surah (24)
+  - finding: The focus’s ban on seeking a way against compliant women echoes 4:90, where no way is made against those who withdraw, refrain from fighting, and offer peace. In both passages the formula marks restraint after the other party meets a stated condition.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوُا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا»
+  - activation: Both clauses pair a condition with the phrase عليهِن/عليهم سبيلًا and prohibit an avenue of action against the party meeting it.
+  - limits: The marital and armed-conflict situations are not equivalent, and their conditions differ.
+- **surah_1.X1** [reading; support strong, relevance high] 
+  - finding: The surah later commands believers to be قَوَّامِينَ بِالْقِسْطِ, using the same intensive form as قَوَّامُونَ in 4:34. That usage brings upholding justice into the semantic frame of qiwama, so the household role can be heard as a charge of responsible maintenance under a justice norm.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The same intensive plural form recurs in a command to uphold justice even against oneself, parents, or relatives.
+  - limits: The constructions and subjects differ; 4:135 does not explicitly define the marital role in 4:34 or settle its scope.
+- **S-طوع** [reading; support strong, relevance high] root ط و ع elsewhere in the surah (10)
+  - finding: أَطَعْنَكُمْ makes compliance directed to “you” the condition for stopping further action against the women. Elsewhere in the surah, a group says طَاعَةٌ but then privately departs from the Prophet’s instruction, distinguishing conduct from a spoken claim of obedience.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:81 «وَيَقُولُونَ طَاعَةٌۭ فَإِذَا بَرَزُوا۟ مِنْ عِندِكَ بَيَّتَ طَآئِفَةٌۭ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ»; 4:59 «أَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ وَأُو۟لِى ٱلْأَمْرِ مِنكُمْ»
+  - activation: The focus makes أطعنكم a condition and immediately prohibits seeking a way against them if it is met.
+  - limits: The other passages concern different people and settings; they do not equate marital compliance with obedience to God or specify its full scope.
+- **S-فضل** [reading; support strong, relevance high] root ف ض ل elsewhere in the surah (10)
+  - finding: The near-identical فَضَّلَ…بَعْض…عَلَىٰ بَعْض wording in 4:32 occurs with a warning against coveting and statements that both men and women have shares from their earnings. At 4:95, فضل is specified by people’s wealth, selves and deeds. These uses leave the focus phrase’s “some over some” open to differentiated grounds rather than making it, by itself, a complete statement of gender rank.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ ۚ لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:95 «فَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى ٱلْقَٰعِدِينَ دَرَجَةًۭ»
+  - activation: The wording of 4:32 closely echoes the focus clause, while the focus itself adds spending as a second ground.
+  - limits: The echo does not settle whom بَعْضَهُمْ denotes in 4:34 or rule out a gender distinction; 4:95 concerns a different group and setting.
+- **S-قوم** [reading; support strong, relevance high] root ق و م elsewhere in the surah (20)
+  - finding: The same intensive plural form appears in 4:135, where believers are commanded to be قَوَّامِينَ in justice, even when testimony is against themselves or their kin. This supplies an intra-surah ethical measure for hearing men’s قَوَّامُونَ as a role accountable to justice, not a self-validating rank.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The repeated قَوَّام form links the focus’s household role to the surah’s explicit command to stand for justice.
+  - limits: Verse 4:135 addresses believers’ testimony and does not explicitly restate or define the household relation in 4:34.
+- **S-مول** [reading; support strong, relevance high] root م و ل elsewhere in the surah (9)
+  - finding: The surah names women’s dowries and the shares of both men and women before 4:34 grounds qiwāma partly in men spending from their own wealth. The phrase thus places material outlay alongside women’s recognized property entitlements.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:4 «وَءَاتُوا۟ ٱلنِّسَآءَ صَدُقَٰتِهِنَّ نِحْلَةًۭ»; 4:7 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ»
+  - activation: The focus explicitly makes spending from men’s wealth one ground of their role, within a surah that assigns women financial rights.
+  - limits: These passages establish expenditure and women’s entitlements but do not specify the amount, recipients or full scope of the spending in 4:34.
+- **surah_2.X1** [reading; support strong, relevance high] 
+  - finding: The surah uses نُشُوز for both a wife’s feared conduct in 4:34 and a husband’s feared conduct in 4:128, but describes different responses: commands directed at the women in 4:34, and a settlement between the spouses in 4:128, where it says reconciliation is better. The shared term makes the difference in procedure visible.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ»
+  - activation: The same noun appears in opposite gender configurations within the surah’s marital discussion.
+  - limits: The two passages describe different cases; the shared term shows differing procedures but does not explain their rationale or define every form of marital discord.
+- **surah_2.X2** [reading; support strong, relevance high] 
+  - finding: The next verse moves from the feared nushuz case and commands of 4:34 to feared discord between both spouses, appointing an arbiter from each family and naming reconciliation as the aim. This broadens the passage’s conflict arc to include two-sided mediation.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The verses are adjacent, and the subject shifts from the women whose nushuz is feared to discord between both spouses.
+  - limits: The text does not state that arbitration follows the commands in 4:34 or that the two verses describe the same case.
+- **S-نسو** [reading; support strong, relevance high] root ن س و elsewhere in the surah (17)
+  - finding: Surah 4 places the focus’s ٱلنِّسَآءِ within a reciprocal field of legal claims: 4:32 echoes its فضل ... بعض ... على بعض formula while assigning men and women their own shares from what they earn; 4:128–129 also address discord from either spouse and constrain unequal treatment. The focus’s women-class is thus read within a surah-wide frame of claims and accountability.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ ۚ لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا»; 4:129 «وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ»
+  - activation: The focus names men and women in an opening relation and uses the same فضل ... بعض ... على بعض pattern that 4:32 places alongside each sex’s earnings.
+  - limits: These passages establish reciprocal claims and accountability; they do not settle the exact scope of قَوَّٰمُونَ or the procedures in 4:34.
+- **S-نشز** [reading; support strong, relevance high] root ن ش ز elsewhere in the surah (1)
+  - finding: نُشُوز is attributed to wives in 4:34 and to a husband in 4:128, where a wife fears it from her بَعْل and the two may seek settlement. The shared noun presents nushuz as relational conduct rather than a sex-specific trait.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا»
+  - activation: Both passages use the same noun for feared conduct within a marriage, with the spouse who fears it and the spouse whose conduct is feared reversing between them.
+  - limits: The shared term does not make the remedies in the two passages identical or specify the practical scope of either response.
+- **S-نفق** [reading; support strong, relevance high] root ن ف ق elsewhere in the surah (8)
+  - finding: The focus’s وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ sits in a surah that distinguishes spending to show off from spending out of what God provides alongside belief. This makes expenditure a materially operative ground while keeping it morally accountable.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:38 «وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْءَاخِرِ»; 4:39 «وَمَاذَا عَلَيْهِمْ لَوْ ءَامَنُوا۟ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ»
+  - activation: The focus explicitly grounds the role claim in spending from men’s wealth; 4:38–39 evaluate spending through its relation to faith and its motive.
+  - limits: These verses do not identify the focus’s spending as ostentatious or specify its amount, recipient, or contractual terms.
+- **surah_3.X1** [reading; support strong, relevance high] 
+  - finding: The next verse extends the feared nushuz case to شِقَاق between two spouses: after 4:34’s commands to the male addressees, 4:35 calls for one arbiter from each family and connects their intent for reform with God’s reconciliation. This places the focus’s sequence within a wider movement toward bilateral mediation.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The immediate transition repeats the fear condition and moves from the wives’ feared nushuz to division between both spouses.
+  - limits: The adjacency does not specify that arbitration occurs only after the preceding commands or resolve how the two passages’ procedures relate.
+- **S-بغي** [reading; support medium, relevance high] root ب غ ي elsewhere in the surah (5)
+  - finding: Within the surah’s marriage passages, the بغي root marks a boundary between seeking a spouse with wealth in chastity and seeking a way against women after they comply. This places the expenditure ground in 4:34 beside a limit on treating resources as warrant for continued pressure.
+  - evidence: 4:24 «أَن تَبْتَغُوا۟ بِأَمْوَٰلِكُم مُّحْصِنِينَ غَيْرَ مُسَٰفِحِينَ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages concern marital relations; 4:24 names wealth in the pursuit of marriage, while 4:34 names spending as a ground and prohibits pursuit against compliant women.
+  - limits: The forms and objects differ, and the text does not explicitly link the two rulings or specify a motive for the prohibited pursuit.
+- **S-صلح** [reading; support medium, relevance high] root ص ل ح elsewhere in the surah (11)
+  - finding: The root ص ل ح links the focus’s positive class الصالحات with the immediate call to إصلاح in 4:35 and the later declaration that الصلح is better in 4:128. In the surah’s marital arc, soundness is heard alongside the work of repairing discord.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ»; 4:35 «إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»; 4:128 «أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ»
+  - activation: The profile of the صالحات is followed by a dispute procedure aimed at repair, and the surah later names reconciliation in another nushuz passage.
+  - limits: The adjective and the repair forms are distinct; the root does not define صالحات as women responsible for reconciliation.
+- **surah_1.X2** [reading; support medium, relevance high] 
+  - finding: After 4:34 closes by naming God as high and great, the next verse’s social instruction condemns the self-exalting boaster. This adjacency can check a reading of qiwama as personal glorification: the human role remains under divine greatness and a prohibition on arrogance.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًا»; 4:36 «إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا»
+  - activation: The coda’s divine elevation is followed almost immediately by a condemnation of human self-exaltation in the surrounding social duties.
+  - limits: The prohibition in 4:36 is general and does not explicitly single out men in the role of 4:34.
+- **S-كبر** [reading; support medium, relevance high] root ك ب ر elsewhere in the surah (6)
+  - finding: The coda calls God كَبِيرًا, sharing the k-b-r root with the surah’s descriptions of wrongful taking as حُوبًا كَبِيرًا and of humans who يَسْتَكْبِرُونَ. After the household role and its wealth ground, the echo places human authority under divine greatness and raises self-exaltation as a possible danger.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًۭا»; 4:2 «إِنَّهُۥ كَانَ حُوبًۭا كَبِيرًۭا»; 4:172 «وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًۭا»; 4:173 «وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟»
+  - activation: The divine epithet closes a verse that has just described men’s qiwāma and expenditure.
+  - limits: The forms have distinct meanings and the other passages concern different acts; the surah does not identify the men addressed in 4:34 with those condemned for arrogance.
+- **S-حفظ** [open; support medium, relevance high] root ح ف ظ elsewhere in the surah (1)
+  - finding: The shared ح ف ظ root could place women’s guarding للغيب beside the statement that the Messenger was not sent as حفيظ over those who turn away. This raises whether 4:34 describes stewardship of an unseen trust rather than enforcement over people.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 4:80 «وَمَن تَوَلَّىٰ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًۭا»
+  - missing: A same-sense Quranic use or lexical account connecting حَافِظَاتٌ لِّلْغَيْبِ and حَفِيظًا عَلَيْهِمْ could support the contrast; the shared root alone does not establish that it is intended or that the subjects overlap.
+- **S-ضرب** [open; support medium, relevance high] root ض ر ب elsewhere in the surah (2)
+  - finding: Elsewhere in the surah, ض ر ب occurs in clauses about setting out in God’s path or across the land. Those uses show a broader root field, but they have explicit في phrases, unlike the focus’s transitive imperative with a feminine object.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 4:94 «إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ»; 4:101 «وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ»
+  - missing: A lexicon sense or Quranic occurrence of Form I ضَرَبَ with a comparable direct-object construction could bear on an alternative reading; the travel constructions here do not settle the focus’s meaning.
+- **S-علو** [open; support medium, relevance high] root ع ل و elsewhere in the surah (1)
+  - finding: The closing عَلِيًّا predicates height of God after the verse describes men as قَوَّامُونَ عَلَى ٱلنِّسَاءِ. The surah’s only other علو form summons listeners to what God revealed, which could place household standing under divine authority.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًۭا»; 4:61 «تَعَالَوْا۟ إِلَىٰ مَآ أَنزَلَ ٱللَّهُ وَإِلَى ٱلرَّسُولِ»
+  - missing: The shared root is clear, but the verses do not explicitly connect household qiwāma to the summons in 4:61. Lexical evidence about whether تَعَالَوْا here retains an elevation sense, or another Quranic passage linking these settings, could clarify the proposed vertical frame. The preposition عَلَى in عَلَى ٱلنِّسَاءِ is not itself an علو form.
+- **S-هجر** [open; support medium, relevance high] root ه ج ر elsewhere in the surah (3)
+  - finding: The focus uses اهجروهن and confines the act with فِى ٱلْمَضَاجِعِ, while elsewhere the surah uses forms of هاجر for leaving one’s land or migrating in God’s path. This raises a possible contrast between localized separation in the bed and the surah’s broader departure motif.
+  - evidence: 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»; 4:97 «أَلَمْ تَكُنْ أَرْضُ ٱللَّهِ وَٰسِعَةًۭ فَتُهَاجِرُوا۟ فِيهَا»; 4:100 «وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ»
+  - missing: These passages establish shared root letters but use different forms and settings. A dictionary attesting how Form I هجر relates to leaving or separation, or an analogous Quranic use of that form, could establish whether the contrast carries a lexical echo beyond root identity.
+- **S-كون** [reading; support strong, relevance medium] root ك و ن elsewhere in the surah (76)
+  - finding: The focus coda repeats the surah’s opening divine frame إِنَّ ٱللَّهَ كَانَ: the opening ends with God as رَقِيبًا over the people, while this household regulation ends with Him as عَلِيًّا كَبِيرًا. That echo frames the social rule under divine oversight and authority.
+  - evidence: 4:1 «إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًۭا»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًۭا»
+  - activation: Both clauses use إِنَّ ٱللَّهَ كَانَ at the ends of the opening verse and the focus verse.
+  - limits: The surah uses كان frequently, so the shared frame supports an opening-to-focus echo but does not prove a unique structural pairing.
+
+Notes:
+- S-وعظ [support medium, relevance medium] Elsewhere in the surah, وعظ is paired with direct speech: the Prophet is told وَعِظْهُمْ and then to address them with an inward, eloquent word; 4:66 describes acting on admonition as better and firmer. These uses support hearing فَعِظُوهُنَّ as a corrective opening in the focus’s ordered response.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+214 readings and open observations, 76 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 84, 'same-as': 3}.
+
+- **R-2:73** [reading; support strong, relevance high] inter-ayah target
+  - finding: The direct-object imperative ٱضْرِبُوهُنَّ has a Quranic parallel in 2:73, where the same Form I imperative orders striking a corpse with part of the cow. This supports a physical-impact sense for the focus verb.
+  - evidence: 2:73 «فَقُلْنَا ٱضْرِبُوهُ بِبَعْضِهَا»; 4:34 «وَٱضْرِبُوهُنَّ»
+  - activation: Both passages use a second-person plural Form I imperative with a direct-object suffix.
+  - limits: The parallel does not establish the manner, degree, or intended effect of the command in 4:34.
+- **R-2:187** [reading; support strong, relevance high] inter-ayah target
+  - finding: The reciprocal image “they are clothing for you, and you are clothing for them” gives marriage a mutual model of covering and intimacy. It places 4:34’s gendered roles and guarding language within a Quranic account that also describes spousal relation as reciprocal.
+  - evidence: 2:187 «هُنَّ لِبَاسٌۭ لَّكُمْ وَأَنتُمْ لِبَاسٌۭ لَّهُنَّ»; 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»
+  - activation: Both passages address spouses; the focus describes women as guardians, while 2:187 makes covering mutual.
+  - limits: The garment image does not cancel the focus’s differentiated responsibilities or specify the meaning of its commands.
+- **R-2:228** [reading; support strong, relevance high] inter-ayah target
+  - finding: The reciprocal rights formula in 2:228 places the focus’s differentiated roles beside an explicit statement that women have claims corresponding to what is due from them, in a recognized manner. The verse also names a degree for men, so reciprocity and differentiation appear together.
+  - evidence: 2:228 «وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌۭ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»
+  - activation: Both passages explicitly set men and women within marital obligations or relations.
+  - limits: The degree in 2:228 is not defined as identical to qiwama, and neither verse says the respective rules are interchangeable.
+- **R-2:229** [reading; support strong, relevance high] inter-ayah target
+  - finding: The divorce passage bounds marital power through retention with recognized conduct or release with good treatment, and bars reclaiming what was given except through the stated ransom condition. This places the focus’s household procedure within a wider set of limits on leverage over a spouse.
+  - evidence: 2:229 «فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَٰنٍۢ»; 2:229 «وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages address what men may do within a marital relationship and place limits on adverse action.
+  - limits: The divorce rules do not define the steps or trigger of the focus’s nushuz procedure.
+- **R-2:231** [reading; support strong, relevance high] inter-ayah target
+  - finding: The explicit ban on holding women in order to harm them and overstep gives a close Quranic limit on using marital power to injure. It sharpens the focus’s closing prohibition against seeking a way against women after compliance.
+  - evidence: 2:231 «وَلَا تُمْسِكُوهُنَّ ضِرَارًۭا لِّتَعْتَدُوا۟»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages warn men against adversarial or harmful conduct toward women.
+  - limits: The holding in 2:231 concerns divorce and does not specify how the focus’s commands are to be carried out.
+- **R-2:232** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command not to obstruct women from marrying when they and their prospective spouses agree restricts male gatekeeping over women’s choices. It gives the focus’s prohibition on pursuing a way against them a concrete parallel in another marital setting.
+  - evidence: 2:232 «فَلَا تَعْضُلُوهُنَّ أَن يَنكِحْنَ أَزْوَٰجَهُنَّ إِذَا تَرَٰضَوْا۟ بَيْنَهُم بِٱلْمَعْرُوفِ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages address limits on men’s actions toward women, and 2:232 explicitly conditions the rule on mutual consent.
+  - limits: The remarriage rule is a distinct legal case and does not itself determine the focus’s protocol.
+- **R-2:233** [reading; support strong, relevance high] inter-ayah target
+  - finding: The nursing passage names the child’s father as responsible for the mothers’ provision and clothing according to recognized practice, within limits of capacity and non-harm. This gives the focus’s spending ground a concrete Quranic household parallel.
+  - evidence: 2:233 «وَعَلَى ٱلْمَوْلُودِ لَهُۥ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِٱلْمَعْرُوفِ»; 2:233 «لَا تُضَآرَّ وَٰلِدَةٌۢ بِوَلَدِهَا وَلَا مَوْلُودٌۭ لَّهُۥ بِوَلَدِهِۦ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - activation: Both passages connect male household responsibility with material spending; 2:233 also states a non-harm limit.
+  - limits: The provision in 2:233 is specified for breastfeeding and does not define every obligation in 4:34.
+- **R-2:238** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to stand before God as قَٰنِتِينَ ties the root ق ن ت to worship. It supports hearing قَٰنِتَٰتٌ in 4:34 as a devotional quality of righteous women, rather than defining the word solely as obedience to husbands.
+  - evidence: 2:238 «وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ»; 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»
+  - activation: The focus uses the feminine plural participle of the same root whose masculine plural appears in a direct instruction to stand for God.
+  - limits: The masculine form in 2:238 is not grammatically identical to the feminine form in 4:34, and this parallel does not settle every shade of قنوت.
+- **R-2:255** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ayat al-Kursi gathers the root of قَوَّٰمُونَ in God’s name ٱلْقَيُّومُ, divine guarding in حِفْظُهُمَا, and the epithet ٱلْعَلِىُّ. This places human maintenance and guarding in 4:34 beneath God’s sustaining and preserving power, with the focus’s close coda عَلِيًّا كَبِيرًا.
+  - evidence: 2:255 «ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ»; 2:255 «وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۖ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:34 «لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»
+  - activation: The focus combines qiwama, guarding, and divine height and greatness; 2:255 brings corresponding divine predicates together.
+  - limits: The shared roots and epithets do not state that human qiwama is delegated divine authority or specify its legal scope.
+- **R-2:282** [reading; support strong, relevance high] inter-ayah target
+  - finding: The debt rule assigns a specific witness arrangement to a specific financial setting and states its reminder rationale. Beside 4:34’s differentiated household roles, it supports reading Quranic gendered responsibilities as domain-specific allocations rather than a single rule for every domain.
+  - evidence: 2:282 «وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»
+  - activation: Both passages state gendered allocations in a defined social or legal relation.
+  - limits: The witness arrangement does not define the household rule or establish that the two allocations share one rationale.
+- **R-3:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The list of those who are patient, truthful, qanitin, and spenders places قَٰنِتِينَ beside ٱلْمُنفِقِينَ as God-oriented virtues. In 4:34, that pairing helps resist reducing women’s قَٰنِتَٰتٌ quality to obedience toward men.
+  - evidence: 3:17 «ٱلصَّٰبِرِينَ وَٱلصَّٰدِقِينَ وَٱلْقَٰنِتِينَ وَٱلْمُنفِقِينَ»; 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»
+  - activation: The focus places qanitāt after the expenditure grounds; 3:17 groups qanitin and spenders in one list of devout people.
+  - limits: The list does not specify the meaning of qanitāt in a marital setting or make the forms grammatically identical.
+- **R-3:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared obedience verb makes its object visible: 3:32 commands obedience to God and the Messenger, while 4:34 conditions the instruction on women obeying “you” and then forbids seeking a way against them. This highlights the focus’s human addressee and its restraint clause.
+  - evidence: 3:32 «قُلْ أَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages use the root ط و ع in Form IV, but name different parties as the object of obedience.
+  - limits: The comparison does not state that the two commands have the same authority or scope.
+- **R-3:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: Maryam receives the feminine imperative ٱقْنُتِى directed explicitly to her Lord, followed by prostration and bowing. This supplies a feminine Quranic use of the same root as the focus’s قَٰنِتَٰتٌ with an explicitly God-directed devotional setting.
+  - evidence: 3:43 «يَٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ»; 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»
+  - activation: Both passages apply the root ق ن ت to women, and 3:43 directly addresses a woman with its feminine form.
+  - limits: Maryam’s individual devotional command does not by itself define all the qualities named in 4:34.
+- **related_1.X1** [reading; support strong, relevance high] 
+  - finding: The next ayah moves from the focus’s procedure to feared discord and appoints one arbiter from each family; if they seek repair, God brings accord. This places the husband-addressed steps within a wider process that brings both sides’ families into reconciliation.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:35 «فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The following verse continues the marital-conflict topic and shifts to arbiters from both families.
+  - limits: The passage does not specify when the parties move from the commands in 4:34 to arbitration in 4:35.
+- **related_1.X2** [reading; support strong, relevance high] 
+  - finding: The surah’s earlier instruction to live with women in a recognized good manner, alongside its ban on constraining them to reclaim gifts, makes treatment and material leverage explicit concerns before 4:34. This sharpens the focus’s closing limit on pursuing a way against them.
+  - evidence: 4:19 «وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ»; 4:19 «وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages directly regulate men’s conduct toward women and address material or interpersonal leverage.
+  - limits: The earlier verse addresses inheritance and marital treatment in its own case; it does not define the focus’s response sequence.
+- **related_1.X3** [reading; support strong, relevance high] 
+  - finding: The surah later uses the same feared nushuz construction for a woman who fears it from her husband, then calls for settlement between them and says reconciliation is good. This shows nushuz as a relational state that can be attributed to either spouse, while the prescribed responses differ.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا»; 4:128 «وَٱلصُّلْحُ خَيْرٌۭ»
+  - activation: Both verses pair fear with the noun نُشُوز in a marital relation, but reverse which spouse fears it.
+  - limits: The reciprocal use establishes neither identical procedures nor identical remedies for the two cases.
+- **related_1.X4** [reading; support strong, relevance high] 
+  - finding: Later in the surah believers are commanded to be قَوَّٰمِينَ بِٱلْقِسْطِ and bear witness for God even against themselves and their kin. The shared intensive participle gives qiwama an intra-surah association with sustained justice, which can frame the focus’s household role as accountable responsibility.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The same derived form from ق و م appears in both commands, with the later verse explicitly binding it to justice and testimony.
+  - limits: The command in 4:135 does not expressly define qiwama over women or settle the household rule’s scope.
+- **R-f-غيب-كبر** [reading; support strong, relevance high] formula family (غ ي ب + ك ب ر; 2 ayat: 34:3, 67:12)
+  - finding: The pairing of ٱلْغَيْبِ and كَبِيرًۭا can make guarding “for the unseen” sound like conduct under unseen divine accountability: another ayah joins fearing the Lord in the unseen to a great reward.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 67:12 «إِنَّ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌۭ»
+  - activation: The same ayah in 4:34 joins hidden-domain guarding with a divine closing, and 67:12 explicitly links the unseen with fear of God and great reward.
+  - limits: The parallel does not settle whether ٱلْغَيْبِ in 4:34 means absence, the unseen, or both, nor does it specify what is guarded.
+- **R-f-مول-نفق** [reading; support strong, relevance high] formula family (م و ل + ن ف ق; 2 ayat: 2:264, 4:38)
+  - finding: The expenditure ground in 4:34 sits beside a warning in the same surah about spending wealth for display; expenditure is not presented everywhere as virtuous simply because wealth goes out.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:38 «وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ»
+  - activation: Both passages name spending and wealth; 4:38 supplies a motive that complicates any reading of expenditure as an automatically praiseworthy ground.
+  - limits: 4:38 does not say the spending in 4:34 is for show or cancel the role assigned there.
+- **R-f-بعض-علو** [reading; support strong, relevance high] formula family (ب ع ض + ع ل و; 1 ayat: 3:64)
+  - finding: The phrase بَعْضَهُمْ عَلَىٰ بَعْضٍۢ can be heard beside the warning not to take one another as lords: 4:34 frames its asymmetry through divine favor and spending, while 3:64 rejects human lordship claimed apart from God.
+  - evidence: 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 3:64 «وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًۭا مِّن دُونِ ٱللَّهِ»
+  - activation: The shared بعض construction and the opening عَلَى relation in 4:34 bring the question of human standing into view.
+  - limits: 3:64 does not identify the role in 4:34 as lordship; it supplies a boundary against making any human relation independent of God.
+- **R-f-بغي-خوف** [reading; support strong, relevance high] formula family (ب غ ي + خ و ف; 1 ayat: 17:57)
+  - finding: 17:57 gives seeking and fear a God-directed orientation: they seek nearness to their Lord and fear His punishment. Beside 4:34’s feared discord and ban on seeking a way against women, it contrasts the object of a pursuit.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 17:57 «يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ»
+  - activation: The focus places fear before a prohibition using the root ب غ ي; 17:57 uses the same root for seeking God while fearing His punishment.
+  - limits: The passages do not say all seeking is good or bad; their objects and circumstances differ.
+- **R-f-بغي-علو** [reading; support strong, relevance high] formula family (ب غ ي + ع ل و; 1 ayat: 92:20)
+  - finding: The close of 4:34 can redirect the prohibited pursuit: 92:20 praises seeking the face of the Most High Lord, while 4:34 forbids seeking a way against women and names God as High and Great.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 92:20 «إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ»
+  - activation: The passages share the root ب غ ي and connect its pursuit with divine highness.
+  - limits: The parallel does not identify the focus’s prohibited pursuit with the pursuit in 92:20 or establish an explicit allusion.
+- **R-f-حفظ-قنت** [reading; support strong, relevance high] formula family (ح ف ظ + ق ن ت; 1 ayat: 33:35)
+  - finding: The same pair of feminine qualities appears in a broader catalogue of virtues for believing men and women; the focus’s قَٰنِتَٰتٌ and حَٰفِظَٰتٌ can therefore be heard as shared moral qualities, not exclusively female virtues.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ»; 33:35 «وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ»; 33:35 «وَٱلْحَٰفِظِينَ فُرُوجَهُمْ وَٱلْحَٰفِظَٰتِ»
+  - activation: 33:35 lists both feminine forms alongside corresponding masculine forms, and applies the guarding language to chastity in the masculine phrase.
+  - limits: The focus’s definite domain لِّلْغَيْبِ is not identical to the chastity wording in 33:35.
+- **R-f-سبل-وعظ** [reading; support strong, relevance high] formula family (س ب ل + و ع ظ; 1 ayat: 16:125)
+  - finding: 16:125 joins calling to the Lord’s path with wisdom and good admonition; 4:34 first commands admonition, then prohibits seeking a way against women, setting counsel beside a forbidden avenue.
+  - evidence: 4:34 «فَعِظُوهُنَّ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 16:125 «ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ»
+  - activation: The same verse contains admonition and سَبِيل, and 16:125 places admonition within the Lord’s path.
+  - limits: 16:125 addresses public invitation; it does not set out the marital procedure or specify every manner of admonition in 4:34.
+- **R-f-صلح-قنت** [reading; support strong, relevance high] formula family (ص ل ح + ق ن ت; 1 ayat: 33:31)
+  - finding: 33:31 makes قنوت explicitly for God and His Messenger and pairs it with righteous action; this leaves room to hear قَٰنِتَٰتٌ in 4:34 as devotion whose object is not stated there, rather than assuming the verse names only obedience to husbands.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»; 33:31 «وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ وَتَعْمَلْ صَٰلِحًۭا»
+  - activation: The surah 33 passage uses the same root with a stated divine object and joins it to righteous work.
+  - limits: 33:31 addresses the Prophet’s wives and does not grammatically supply the omitted object in 4:34.
+- **R-f-غيب-نفق** [reading; support strong, relevance high] formula family (غ ي ب + ن ف ق; 1 ayat: 2:3)
+  - finding: 2:3 joins belief in the unseen with spending from God’s provision; this can make the focus’s hidden-domain guarding and expenditure grounds resonate as conduct under faith in the unseen.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 2:3 «ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ»
+  - activation: Both verses contain the root of ٱلْغَيْبِ and expenditure; 2:3 explicitly places them within a profile of faith.
+  - limits: 2:3 describes believers spending from provision, whereas 4:34 names spending as a ground for قَوَّٰمُونَ and does not equate that role with belief.
+- **R-f-فضل-كبر** [reading; support strong, relevance high] formula family (ف ض ل + ك ب ر; 1 ayat: 35:32)
+  - finding: 35:32 uses ٱلْفَضْلُ ٱلْكَبِيرُ; this lets 4:34’s opening فَضَّلَ and closing كَبِيرًا resonate as divine favor under divine greatness, without equating the two clauses.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 35:32 «ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ»
+  - activation: The focus places the root of favor near its divine closing, and 35:32 directly joins favor and greatness.
+  - limits: 35:32 speaks of inheriting the Book; it does not say the differentiated relation in 4:34 is itself the great favor.
+- **related_10.X1** [reading; support strong, relevance high] 
+  - finding: The next verse expands the household discord case into a joint arbitration process: after 4:34’s protocol and halt condition, 4:35 appoints one arbiter from each family and makes reconciliation the condition for God’s bringing them together.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The immediately following ayah moves from a feared nushuz case to feared discord between both spouses and names arbiters from both families.
+  - limits: 4:35 does not state that arbitration is a step in the exact conditional sequence of 4:34; it shows the larger surah treatment of marital conflict.
+- **related_10.X2** [reading; support strong, relevance high] 
+  - finding: The surah uses the same نُشُوز root for a wife fearing her husband’s nushuz, then speaks of mutual reconciliation, limits on unequal treatment, and possible separation. This prevents treating nushuz as a fixed female identity or a one-directional problem.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا»; 4:129 «فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ»; 4:130 «وَإِن يَتَفَرَّقَا يُغْنِ ٱللَّهُ كُلًّۭا مِّن سَعَتِهِۦ»
+  - activation: 4:128 repeats the root with the husband as the feared source, and 4:128–130 supplies outcomes beyond the earlier case.
+  - limits: The procedures are phrased differently across the two cases; the reciprocal use of نُشُوز does not make their instructions identical.
+- **related_10.X3** [reading; support strong, relevance high] 
+  - finding: 4:32 immediately precedes the focus and repeats the formulation that God favored some over others, while warning against coveting it and affirming men’s and women’s respective shares from what they earn. This frames 4:34’s repeated wording alongside individual earnings and divine provision.
+  - evidence: 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»; 4:32 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The repeated فضل and بعض formulation is followed in 4:32 by separate shares from earnings, then in 4:34 by expenditure as another ground.
+  - limits: 4:32 does not specify which differences 4:34 refers to or explain the relation between earnings and the later expenditure clause.
+- **related_10.X4** [reading; support strong, relevance high] 
+  - finding: Earlier in the surah, men are told not to constrain women to recover what was given to them and to live with them in recognized good; this places a prior limit on the authority and economic relations surrounding 4:34.
+  - evidence: 4:19 «وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ»; 4:19 «وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages address men’s conduct toward women and explicitly regulate coercion, property, and the pursuit of a way against them.
+  - limits: 4:19 addresses a distinct situation involving inheritance and property; it does not define every permissible action under 4:34.
+- **related_10.X5** [reading; support strong, relevance high] 
+  - finding: 4:15 says God may make a way for the women; 4:34 tells men not to seek a way against them. The shared سَبِيلًا is directionally reversed, distinguishing a path granted to women from one pursued against them.
+  - evidence: 4:15 «أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًۭا»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The exact noun سَبِيلًا occurs in both legal passages, with لَهُنَّ in one and عَلَيْهِنَّ in the other.
+  - limits: The passages concern different cases and do not specify that the way in 4:15 is the same kind of avenue as the one prohibited in 4:34.
+- **R-3:44** [reading; support strong, relevance high] inter-ayah target
+  - finding: Maryam is told to be devoted in 3:43 immediately before her account is named among the unseen reports in 3:44. The pairing of قَٰنِتَٰتٌ and لِّلْغَيْبِ in 4:34 can be heard alongside that Quranic scene.
+  - evidence: 3:43 «يَٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ»; 3:44 «مِنْ أَنۢبَآءِ ٱلْغَيْبِ»; 4:34 «قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ لِّلْغَيْبِ»
+  - activation: The focus places قَٰنِتَٰتٌ and لِّلْغَيْبِ together, matching the nearby wording around Maryam across 3:43–44.
+  - limits: The parallel does not identify righteous wives with Maryam or establish that the two occurrences of الغيب have the same syntactic role.
+- **R-3:132** [reading; support strong, relevance high] inter-ayah target
+  - finding: 3:132 explicitly commands obedience to Allah and the Messenger; 4:34 uses the same obedience root for compliance with the addressees and then prohibits pursuing a way against the women. The passages distinguish these targets and outcomes.
+  - evidence: 3:132 «وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The shared root ط-و-ع and the focus’s prohibitive consequence after compliance activate the comparison.
+  - limits: The verses do not directly cross-reference one another or state a general theory of household obedience.
+- **R-3:149** [reading; support strong, relevance high] inter-ayah target
+  - finding: 3:149 warns that obeying those who disbelieve can turn the believers back on their heels and leave them losers. Beside 4:34, where compliance is followed by a ban on pursuing a way against the women, it makes the object and consequence of obedience decisive.
+  - evidence: 3:149 «إِن تُطِيعُوا۟ ٱلَّذِينَ كَفَرُوا۟ يَرُدُّوكُمْ عَلَىٰٓ أَعْقَٰبِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both use conditional forms of ط-و-ع and make the result of compliance explicit.
+  - limits: 3:149 warns a community about disbelieving opponents; it does not specify the marital conditions of 4:34.
+- **R-4:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah opens by deriving men and women from one origin, then 4:34 states a differentiated relation between those classes. This places the role claim inside a shared created lineage rather than presenting the classes as separate origins.
+  - evidence: 4:1 «خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»
+  - activation: The opening’s shared-origin statement names the same men and women classes later placed in relation.
+  - limits: Shared origin does not by itself determine the meaning or scope of قَوَّٰمُونَ.
+- **R-4:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages make fear a trigger in household law, but direct it toward different constraints: fear of injustice in 4:3 limits the marriage choice, while fear of wives’ nushuz in 4:34 initiates a response that must stop after compliance. The repeated conditional framing makes fear a legally consequential apprehension, not a free-standing license.
+  - evidence: 4:3 «فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا۟ فَوَٰحِدَةً»; 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The same surah uses conditional fear clauses in adjacent household-law contexts and specifies consequences in both.
+  - limits: The feared wrongs and prescribed consequences differ; 4:3 does not explain the procedure in 4:34.
+- **R-4:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: Before 4:34 names male expenditure as a ground for qiwama, 4:4 commands men to give women their marital gifts and allows taking back part only when the women freely consent. The financial basis in 4:34 therefore sits within a nearby account of women’s own financial claims and choice.
+  - evidence: 4:4 «وَءَاتُوا۟ ٱلنِّسَآءَ صَدُقَٰتِهِنَّ نِحْلَةًۭ»; 4:4 «فَإِن طِبْنَ لَكُمْ عَن شَىْءٍۢ مِّنْهُ نَفْسًۭا»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - activation: Both verses address women and marital wealth, and 4:4 makes consent explicit around a transfer to men.
+  - limits: The marital gift in 4:4 and expenditure in 4:34 are distinct financial matters; the verses do not equate them.
+- **R-4:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:5 says God made wealth قِيَامًا and couples its management with provision, clothing, and recognized speech; 4:34 calls men قَوَّامُونَ and names spending. The shared ق-و-م form and care vocabulary allow qiwama to be heard as sustained support or stewardship as well as a relation expressed by عَلَى.
+  - evidence: 4:5 «جَعَلَ ٱللَّهُ لَكُمْ قِيَٰمًۭا وَٱرْزُقُوهُمْ فِيهَا وَٱكْسُوهُمْ وَقُولُوا۟ لَهُمْ قَوْلًۭا مَّعْرُوفًۭا»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - activation: The same surah’s wealth-and-care instruction uses the same root as قَوَّٰمُونَ, while 4:34 explicitly names expenditure.
+  - limits: 4:5 concerns the management of wealth for vulnerable dependents; it does not define a husband-wife relation or erase the focus’s عَلَى.
+- **R-4:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The surah states separately that men have a share and women have a share, calling the inheritance a prescribed allotment. That distribution context makes 4:34’s role claim specific to its stated relation and grounds, not a general statement that one class has no property claim.
+  - evidence: 4:7 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا تَرَكَ ٱلْوَٰلِدَانِ وَٱلْأَقْرَبُونَ وَلِلنِّسَآءِ نَصِيبٌۭ»; 4:7 «نَصِيبًۭا مَّفْرُوضًۭا»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The repeated men/women pairing in the same surah places role and inheritance claims in related but distinct legal domains.
+  - limits: 4:7 does not establish equal shares or settle what فضل means in 4:34.
+- **R-4:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:11 sets a differentiated inheritance share by gender and calls the allotment a prescription from God; 4:34 also attributes a difference to God but adds expenditure as a ground for qiwama. The sequence makes the focus’s فضل claim part of a set of specified legal allocations, rather than an open measure of total human worth.
+  - evidence: 4:11 «لِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ»; 4:11 «فَرِيضَةًۭ مِّنَ ٱللَّهِ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - activation: The explicit gender-differentiated allocation and divine attribution in 4:11 echo the focus’s divine attribution of difference.
+  - limits: 4:11 does not say that its inheritance ratio causes or explains the role in 4:34.
+- **R-4:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:15 leaves open a way for women that God may make for them; 4:34 forbids pursuing any way against women after their compliance. The shared سَبِيلًا wording gives the focus’s prohibition a same-surah procedural contrast: an avenue may be opened for them, while an avenue against them is barred under its stated condition.
+  - evidence: 4:15 «أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًۭا»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The same noun سَبِيلًا occurs in conditional procedures concerning women in the same surah.
+  - limits: The conduct and conditions differ, and the shared noun does not establish that the procedures are equivalent.
+- **R-4:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: Before 4:34’s household procedure, 4:19 forbids coercively inheriting women, constraining them to recover part of what was given, and commands recognized good treatment. These nearby limits frame the role and response in 4:34 within a broader prohibition on coercion and financial extraction.
+  - evidence: 4:19 «لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًۭا»; 4:19 «وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ»; 4:19 «وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The verses occur in the same marriage-law passage and both regulate conduct toward women in the household.
+  - limits: The prohibitions in 4:19 address coercive inheritance and financial extraction; they do not specify how to interpret each command in 4:34.
+- **R-4:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:20 forbids taking back anything given to a wife, even when a replacement marriage is sought. Beside 4:34’s explicit mention of men’s expenditure, it blocks treating expenditure as an unrestricted claim to recover wealth from women.
+  - evidence: 4:20 «وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًۭا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - activation: The focus names men’s expenditure, and the nearby verse expressly limits taking wealth from a wife.
+  - limits: 4:20 concerns a marital gift during replacement of a spouse; it does not define the full financial duty in 4:34.
+- **related_2.X1** [reading; support strong, relevance high] 
+  - finding: 4:128 uses the same noun نُشُوزًا for a wife’s fear of her husband’s conduct, then permits the two spouses to seek reconciliation, calling reconciliation better. The reversed subject and response form a striking same-surah counterpart to the focus’s fear of wives’ nushuz and its commands.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا»; 4:128 «فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا وَٱلصُّلْحُ خَيْرٌۭ»
+  - activation: The identical nushuz noun appears with the feared party reversed in the same surah’s marriage discussion.
+  - limits: The verses do not prescribe identical remedies or declare the two situations legally interchangeable.
+- **related_2.X2** [reading; support strong, relevance high] 
+  - finding: Immediately after 4:34’s fear of wives’ nushuz, 4:35 names fear of mutual discord and calls for an arbiter from each family; it adds that God brings the pair together if they seek repair. The sequence shifts from a one-sided apprehension to a mutual frame with outside mediation.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ»; 4:35 «إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The immediate succession, shared fear language, and change from her nushuz to discord between the pair support a progression reading.
+  - limits: 4:35 does not explicitly say that arbitration follows only after the measures in 4:34 fail.
+- **related_2.X3** [reading; support strong, relevance high] 
+  - finding: Surah 4 uses the same intensive q-w-m form in its command to believers to stand by justice, even against themselves, parents, or relatives. This in-surah usage supports hearing قَوَّٰمُونَ as sustained upholding or responsibility; the focus’s عَلَى still marks a distinct relation.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The same root and intensive form recur in the same surah, with justice and accountability specified at 4:135.
+  - limits: The command in 4:135 concerns witness and justice, not the household relation named in 4:34; it does not settle the sense of عَلَى.
+- **related_2.X4** [reading; support strong, relevance high] 
+  - finding: 4:90 says that when a group refrains from fighting and offers peace, God has given the believers no way over them. The conditional restraint parallels 4:34’s ban on seeking a way against women after compliance, making denied leverage a phrase-level pattern across distinct settings in the surah.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًۭا»
+  - activation: Both verses condition restraint on the other party’s compliance or peaceful withdrawal and use سَبِيلًا with عَلَى.
+  - limits: One concerns household conduct and the other armed conflict; the shared phrase does not establish identical legal grounds.
+- **related_2.X5** [reading; support strong, relevance high] 
+  - finding: After the reconciliation passage in 4:128, 4:129 says men cannot fully maintain justice between women but forbids complete inclination that leaves one suspended. This gives an explicit same-surah limit on marital conduct alongside 4:34’s role and response language.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:129 «وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ»; 4:129 «فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ»
+  - activation: Both concern men’s conduct toward women in the same surah’s marriage passage, and 4:129 explicitly couples a limit in justice with a prohibition on total inclination.
+  - limits: 4:129 addresses justice among wives and does not specify the particular nushuz case in 4:34.
+- **R-4:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:32 repeats the focus’s formula of God favoring some over others, but first warns against coveting that favor and gives both men and women a share of what they earn. Its placement makes 4:34’s repeated formula part of a discussion that distinguishes allocated roles from entitlement to envy or rivalry.
+  - evidence: 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»; 4:32 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The repeated favor/some-over-some wording occurs in the immediately preceding verse, where both sexes’ earnings are also named.
+  - limits: 4:32 does not specify which differences 4:34 refers to or equate earnings with the grounds for qiwāma.
+- **R-4:35** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequel moves from feared نُشُوز and a sequence of commands to feared شِقَاق addressed through one arbiter from each family and an explicit aim of reconciliation. It presents family mediation as a further response when the conflict is framed as between the two spouses.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ»; 4:35 «إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The verses are consecutive, repeat the fear condition, and move from one spouse’s feared conduct to discord between both.
+  - limits: 4:35 does not state exactly when its mediation begins relative to the commands of 4:34 or explain their different procedures.
+- **R-4:95** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:95 uses the same favoring verb and comparative structure as 4:34, and grounds the difference in effort with wealth and persons; it then says both groups were promised the good. This supplies a Qur’anic example in which divine preference marks a degree tied to action without erasing the standing of the other group.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:95 «فَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى ٱلْقَٰعِدِينَ دَرَجَةًۭ»; 4:95 «وَكُلًّۭا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ»
+  - activation: Both verses use فضل الله and على, and pair the preference with spending wealth.
+  - limits: 4:95 is about striving in battle, so it does not identify the comparison or the kind of expenditure in 4:34.
+- **R-4:128** [reading; support strong, relevance high] inter-ayah target
+  - finding: The later marital scene uses the same نُشُوز root with the feared conduct attributed to a husband: a woman fears نُشُوزًا from him. Its response is mutual settlement, called better, showing that nushuz is not lexically confined to wives even though the two passages give different procedures.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا»; 4:128 «أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ»
+  - activation: The same root occurs in two marital fear conditions, once with each spouse as the feared source.
+  - limits: The verses do not explain why their responses differ or establish that their situations are legally identical.
+- **R-4:135** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same intensive participle قَوَّٰمِينَ is commanded of believers who stand for justice, even against themselves, parents, and relatives. This supplies a Qur’anic use in which qiwām is sustained responsibility measured by justice, a relevant constraint on hearing the same form in 4:34.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ»; 4:135 «وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The identical form recurs in the same surah in an explicit command to stand for justice.
+  - limits: 4:135 does not mention marriage or say that 4:34’s particular role has the same object or scope.
+- **R-5:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same form قَوَّٰمِينَ appears in a command to stand for God as witnesses in equity, followed by a warning not to let hostility prevent justice. This gives the focus’s role-language a cross-surah justice constraint even where relations are tense.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 5:8 «كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ»; 5:8 «وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟»
+  - activation: The repeated intensive form is directly paired with equity and a prohibition on partiality.
+  - limits: 5:8 concerns testimony and hostility between groups; it does not explicitly state how its justice command governs the household rule.
+- **related_3.X1** [reading; support strong, relevance high] 
+  - finding: The surah opens by tracing the human family to one soul and its mate, from whom many men and women spread. That shared origin makes 4:34’s differentiated household roles part of a relationship the surah has already framed through common descent.
+  - evidence: 4:1 «مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»
+  - activation: The surah’s opening creation account names the paired origin of the same male and female categories used in 4:34.
+  - limits: Common origin does not cancel the role distinction in 4:34 or specify how it should operate.
+- **related_3.X2** [reading; support strong, relevance high] 
+  - finding: Earlier in the surah, men are told not to constrain women to recover part of what they gave them and to live with them in معروف. Alongside 4:34’s spending rationale and prohibition on pursuing a way against compliant women, this supplies a direct economic and conduct limit within the marital frame.
+  - evidence: 4:19 «وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ»; 4:19 «وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages concern husbands’ conduct toward women and connect it with money, while 4:19 expressly bars a form of pressure for financial recovery.
+  - limits: 4:19 does not identify its restriction as the procedure in 4:34 or define when the exception it names applies to that procedure.
+- **related_3.X3** [reading; support strong, relevance high] 
+  - finding: 4:90 uses a closely matching prohibition after a group withdraws, refrains from fighting, and offers peace: God has made no سبيل for the believers against them. The repeated conditional close in 4:34 similarly bars pursuing a سبيل after the women obey, giving the focus’s final clause a protective force after the named condition is met.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا»
+  - activation: Both clauses follow a stated condition and close with denying a سبيل against the people who have met it.
+  - limits: Marital obedience and political withdrawal with an offer of peace are different conditions; the parallel does not equate their situations or remedies.
+- **R-5:94** [reading; support strong, relevance high] inter-ayah target
+  - finding: ٱلْغَيْبِ is a shared moral domain: 5:94 names people who fear God in the unseen, while 4:34 calls the righteous women حَٰفِظَٰتٌ لِّلْغَيْبِ. The hidden setting can therefore carry accountability and fidelity, not just absence.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 5:94 «لِيَعْلَمَ ٱللَّهُ مَن يَخَافُهُۥ بِٱلْغَيْبِ»
+  - activation: The focus pairs guarding with the definite الغيب; 5:94 pairs fear of God with the same noun.
+  - limits: The prepositions and actions differ: 5:94 describes fearing God in the unseen, not marital trust or guarding a spouse’s rights.
+- **R-6:104** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus describes women as حَٰفِظَٰتٌ and grounds their guarding in what God preserves; 6:104 says the speaker is not بِحَفِيظٍ عَلَيْكُمْ. This contrast makes guarding compatible with entrusted care while marking a limit against total control over another person.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 6:104 «وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍۢ»
+  - activation: Both use the ح ف ظ root for a person’s relation to others, and the focus explicitly places divine preservation alongside human guarding.
+  - limits: The speaker and situation differ; 6:104 does not directly define marital responsibility or cancel the focus’s specific instructions.
+- **R-6:116** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared ط و ع root complicates any blanket approval of obedience: 6:116 warns that obeying most people can lead away from God’s path, while 4:34 makes a woman’s compliance the condition for forbidding further action against her.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 6:116 «وَإِن تُطِعْ أَكْثَرَ مَن فِى ٱلْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ ٱللَّهِ»
+  - activation: Both passages make obedience consequential and connect it to a path; the focus specifically makes compliance a stopping condition.
+  - limits: The audiences and objects of obedience differ. 6:116 does not identify the compliance in 4:34 as misguided or equate the two situations.
+- **R-7:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: The pairing فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا and يَبْغُونَهَا عِوَجًا links the focus’s ban on seeking a way against women with a verse condemning those who seek to distort God’s way. It makes the possibility of turning a “way” against them sound morally charged.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 7:45 «ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًۭا»
+  - activation: Both passages use ب غ ي with سبيل, and 4:34 expressly prohibits seeking a way against the women after they comply.
+  - limits: The way in 7:45 is explicitly God’s path; 4:34 does not identify its indefinite سبيل with that path or say that every act against women is distortion of religion.
+- **R-7:160** [reading; support strong, relevance high] inter-ayah target
+  - finding: 7:160 uses the same Form I imperative root in an explicit strike-with-a-staff scene. It confirms that a physical striking sense belongs to the Quranic use of ض ر ب, while the focus’s direct object leaves its particular manner and purpose to its own context.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 7:160 «أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ»
+  - activation: Both verses use the Form I imperative ضَرَبَ; 7:160 explicitly names the staff and stone as instrument and object.
+  - limits: Moses strikes a stone to produce water; the scene does not determine the intended action or limits in 4:34.
+- **R-8:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: 8:3 joins establishing prayer to spending from God’s provision, while 4:34 joins قَوَّٰمُونَ to spending from men’s wealth. This pairing makes qiwama alongside material outlay legible as a responsibility grounded partly in resources, a combination also present in believer conduct.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 8:3 «ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ»
+  - activation: Both texts put a q-w-m form and spending in the same description; the focus explicitly makes expenditure one ground of qiwama.
+  - limits: 8:3 presents traits of believers, not household roles, and its prayer and spending are coordinated rather than stated as causes of authority.
+- **R-8:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: 8:12 gives an unambiguous physical-striking use of the same imperative root, with human body parts as targets. This keeps a bodily action available for وَٱضْرِبُوهُنَّ, though the target and context do not settle the focus’s manner or force.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 8:12 «فَٱضْرِبُوا۟ فَوْقَ ٱلْأَعْنَاقِ وَٱضْرِبُوا۟ مِنْهُمْ كُلَّ بَنَانٍۢ»
+  - activation: The verb is the same Form I imperative, and 8:12 explicitly names parts of the human body as targets.
+  - limits: 8:12 is a battle command addressed to angels and specifies body parts; it does not establish the intended severity, conditions, or result in 4:34.
+- **R-8:58** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages turn feared breach into a prescribed procedure: 8:58 says that when treachery is feared, the other party must be notified on equal terms; 4:34 gives steps for feared nushuz and forbids a further way against women if they comply. The comparison foregrounds that suspicion does not erase procedural limits.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَاعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 8:58 «وَإِمَّا تَخَافَنَّ مِن قَوْمٍ خِيَانَةًۭ فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ»
+  - activation: Both use خ و ف for anticipated misconduct and follow it with instructions; the focus also sets a compliance condition that halts further action.
+  - limits: The treaty procedure is public and reciprocal, whereas 4:34 addresses a household relationship and prescribes a different sequence; the verses do not equate nushuz with treaty treachery.
+- **R-9:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The two passages connect compliance to an end of action against the other party: 4:34 prohibits seeking a way against women if they obey, while 9:5 commands releasing the way of those who repent, pray, and give zakah. The repeated سبيل language makes each condition an off-ramp from coercion.
+  - evidence: 4:34 «سَبِيلًا»; 9:5 «فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ»
+  - activation: Both have a conditional response followed by a restriction on continuing against the other party, and both name سبيل.
+  - limits: The surrounding circumstances and prescribed actions differ sharply; the parallel does not make the household and public conflict rules equivalent.
+- **R-9:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: 9:53–54 distinguish the act of spending from its acceptance, describing outlay that is unwilling and not accepted. This qualifies what spending establishes in 4:34: the verse names material expenditure as a ground of qiwama, but this parallel does not make every expenditure a moral merit.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 9:53 «قُلْ أَنفِقُوا۟ طَوْعًا أَوْ كَرْهًۭا لَّن يُتَقَبَّلَ مِنكُمْ»; 9:54 «وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَٰرِهُونَ»
+  - activation: The shared ن ف ق root is explicit in both; 9:53–54 specifically separates spending from acceptance.
+  - limits: 9:53–54 concerns hypocrites’ rejected expenditure, not household provision; it does not remove expenditure as a stated ground in 4:34.
+- **R-12:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus makes guarding the ghayb a quality of the righteous, while Joseph’s brothers plot to put him in the ghiyābat of the pit, a concealed place. The shared gh-y-b field makes hiddenness ethically charged: what is out of sight can be exposed to betrayal.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 12:10 «وَأَلْقُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ»
+  - activation: The focus explicitly joins guarding to al-ghayb, and 12:10 places the same root in a family scheme conducted around Joseph’s concealment.
+  - limits: The pit’s hidden recess and the focus’s guarded domain are not identical referents; the lexical echo does not establish that 4:34 refers specifically to concealment from a spouse.
+- **R-12:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The brothers promise, “we are surely guardians for him,” before Joseph is lost to them and his father fears he will be left unattended. Their failed promise gives the focus’s praise of guardianship in the unseen a sharp household counterpart: a claim of custody can conceal its breach.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 12:12 «وَإِنَّا لَهُۥ لَحَٰفِظُونَ»; 12:13 «وَأَخَافُ أَن يَأْكُلَهُ ٱلذِّئْبُ وَأَنتُمْ عَنْهُ غَٰفِلُونَ»
+  - activation: The focus and the brothers’ promise share the h-f-z root in a family setting; the father’s reply supplies the narrative failure of their assurance.
+  - limits: The story does not equate brothers’ custody of Joseph with the focus’s marital duty or settle the scope of al-ghayb.
+- **R-13:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: 13:9 pairs God’s knowledge of the unseen and the manifest with al-Kabīr and al-Mutaʿāl; 13:10 then illustrates the contrast between concealed and public speech. This closely joins the focus’s guarded ghayb and its closing ʿAliyyan Kabīran to divine knowledge and height.
+  - evidence: 4:34 «لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 13:9 «عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْكَبِيرُ ٱلْمُتَعَالِ»; 13:10 «مَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ»
+  - activation: Both passages place ghayb beside divine attributes of greatness and height; 13:10 makes hiddenness a domain of divine knowledge.
+  - limits: 13:9 describes God’s knowledge, not the human duty named in 4:34; the shared attributes do not make the two passages’ subjects identical.
+- **R-13:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: Immediately after the account of God taking earlier deniers, 13:33 calls God qāʾim ʿalā kulli nafs for what it has earned. This same root and ʿalā construction place the focus’s qawwām ʿalā relationship under a Quranic image of standing over every soul with accountability.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 13:32 «فَأَمْلَيْتُ لِلَّذِينَ كَفَرُوا۟ ثُمَّ أَخَذْتُهُمْ»; 13:33 «قَآئِمٌ عَلَىٰ كُلِّ نَفْسٍۭ بِمَا كَسَبَتْ»
+  - activation: The adjacent 13:33 continues the passage’s account of divine judgment, while repeating the q-w-m root and ʿalā relation found in the focus.
+  - limits: Qāʾim and qawwām are different forms, and divine oversight of every soul does not itself define the limits of the human role in 4:34.
+- **R-16:72** [reading; support strong, relevance high] inter-ayah target
+  - finding: 16:71 uses nearly the exact phrase “Allah favored some of you over others” and specifies provision as its domain; 16:72 immediately names spouses and family as divine gifts. This passage makes a material-provision reading of the focus’s otherwise open فضل clause especially available.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 16:71 «وَٱللَّهُ فَضَّلَ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ فِى ٱلرِّزْقِ»; 16:72 «وَٱللَّهُ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا وَجَعَلَ لَكُم مِّنْ أَزْوَٰجِكُم بَنِينَ وَحَفَدَةًۭ»
+  - activation: The exact preference formula is followed by spouses and family in the same passage, activating both grounds named in the focus: differentiation and expenditure.
+  - limits: The focus does not specify rizq as the domain of فضل or identify the compared subsets; 16:72 does not explicitly connect spouses to that allocation.
+- **R-16:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: 16:90 commands justice, prohibits al-baghy, and concludes with yaʿiẓukum; 4:34 uses the same baghy root and waʿẓ root when it commands admonition and forbids pursuing a way against the women. The broad ethical pairing frames that domestic limit as restraint from aggression, not just a procedural stop after compliance.
+  - evidence: 4:34 «فَعِظُوهُنَّ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 16:90 «وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ»; 16:90 «يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ»
+  - activation: Both passages pair admonitory language with a prohibition involving the b-gh-y root; 16:90 states the wider rule as divine command.
+  - limits: 16:90 does not spell out the domestic procedure or specify how its broad ban applies at each step in 4:34.
+- **R-16:120** [reading; support strong, relevance high] inter-ayah target
+  - finding: Ibrahim is called qānitan lillāh, devoted to God; the focus calls righteous women qānitāt. This Quranic use makes devotion to God an explicit parallel sense for the women’s quality, without requiring the focus’s qānitat to mean obedience to husbands.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»; 16:120 «إِنَّ إِبْرَٰهِيمَ كَانَ أُمَّةًۭ قَانِتًۭا لِّلَّهِ حَنِيفًۭا»
+  - activation: The same q-n-t form is applied to a male prophet with an explicit li-llāh complement.
+  - limits: The focus supplies no explicit complement after qānitāt, so Ibrahim’s wording cannot by itself exclude other contextual nuances.
+- **R-17:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: 17:4 condemns a people’s ʿuluwwan kabīran, while 4:34 closes by calling God ʿAliyyan Kabīran. The shared height and greatness vocabulary sharply contrasts human self-exaltation with divine highness, placing human authority under a warning against overreach.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 17:4 «وَلَتَعْلُنَّ عُلُوًّۭا كَبِيرًۭا»
+  - activation: Both passages join the ʿ-l-w and k-b-r roots; 17:4 applies them to condemned human elevation, while the focus predicates them of God.
+  - limits: 17:4 concerns the Children of Israel’s corruption, not marital authority, and does not explicitly interpret the focus’s coda.
+- **R-17:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: 17:9 says the Quran guides to what is aqwam; 4:135 commands believers to be qawwāmīn bil-qist. Alongside the focus’s qawwāmūn, these q-w-m forms make uprightness and justice an internal Quranic measure for hearing the household role.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 17:9 «إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ»
+  - activation: The focus passage’s q-w-m predicate is echoed by a Quran-guidance form and by the explicit command to uphold justice in the same surah.
+  - limits: Aqwam, qawwāmīn, and qawwāmūn are different forms; the root relation does not by itself define the focus’s legal scope.
+- **R-17:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: 17:21 repeats the focus’s exact comparison, “We favored some of them over others,” then says the afterlife is greater in degrees and preference. The passage places worldly differentiation on a smaller scale and keeps the focus’s unspecified comparison from becoming a total ranking of human worth.
+  - evidence: 4:34 «فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 17:20 «كُلًّۭا نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ»; 17:21 «ٱنظُرْ كَيْفَ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍۢ ۚ وَلَلْءَاخِرَةُ أَكْبَرُ دَرَجَٰتٍۢ وَأَكْبَرُ تَفْضِيلًۭا»
+  - activation: The exact comparative wording and the surrounding movement from provision for all to greater afterlife degrees activate a scale comparison.
+  - limits: 17:21 does not identify gender or connect its comparison to marital roles; it leaves the focus’s compared subsets unspecified too.
+- **R-17:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: 17:42 pairs the b-gh-y root with sabīlan, but seeks a route ilā the Lord of the Throne; 4:34 uses the same root and noun to prohibit a route ʿalayhinna. The prepositions reverse the direction: a way toward God is imagined, while a way against the women is forbidden.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 17:42 «لَّٱبْتَغَوْا۟ إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًۭا»
+  - activation: Both clauses join a form of b-gh-y to sabīl; the contrasting prepositions distinguish seeking toward from seeking against.
+  - limits: The verb forms differ and 17:42 is a theological hypothetical, so it cannot establish the focus’s legal sense on its own.
+- **R-21:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: 21:82 says God was ḥāfiẓīn over the jinn serving Solomon; 4:34 describes women as ḥāfiẓāt and grounds their guarding in what God preserved. The parallel places human guardianship beside a Quranic image of divine guardianship over powerful agents at work.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 21:81 «وَكُنَّا بِكُلِّ شَىْءٍ عَٰلِمِينَ»; 21:82 «وَكُنَّا لَهُمْ حَٰفِظِينَ»
+  - activation: Both passages use the same h-f-z root, explicitly associate preservation with God, and place it in a relationship involving human or created responsibility.
+  - limits: Solomon’s jinn and the focus’s women occupy different situations; the parallel does not specify the content of the focus’s guarded domain.
+- **R-23:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared ḥ-f-ẓ predicate makes sexual fidelity a plausible part of what the righteous women preserve: 23:5 names guarding the private parts, while al-ghayb in 4:34 remains broader.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 23:5 «وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ»
+  - activation: The focus places ḥāfiẓāt within a marital profile, and 23:5 uses the same guarding root for sexual boundaries.
+  - limits: 23:5 identifies private parts as its object; it does not define al-ghayb in 4:34 as sexual fidelity.
+- **R-23:91** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact phrase بَعْضَهُمْ عَلَىٰ بَعْضٍ links God's differentiating some over others in 4:34 with the imagined rivalry in which each deity would rise over another in 23:91. This lets the focus's granted distinction be heard against self-asserted, competing elevation.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 23:91 «وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The focus grounds a relational distinction in God's act; 23:91 imagines the same some-over-some relation as rivalry among supposed gods.
+  - limits: 23:91 is a counterfactual argument against multiple gods, not an explicit commentary on gender or household authority.
+- **R-23:92** [reading; support strong, relevance high] inter-ayah target
+  - finding: God is named knower of the unseen and the manifest in 23:92, directly echoing al-ghayb in the focus's description of what the righteous women guard. The pairing can place private conduct under God's knowledge.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 23:92 «عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ»
+  - activation: The focus couples al-ghayb with God's preserving, while 23:92 couples the same noun with God's knowledge.
+  - limits: 23:92 does not say that divine knowledge is the reason for the women's guarding or define its particular domain.
+- **R-24:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's حَٰفِظَٰتٌۭ لِّلْغَيْبِ has a concrete Quranic parallel in women told to guard their private parts, cover their chests, and not reveal hidden adornment. The same verse also uses the ḍ-r-b root for drawing a covering and striking the feet, with constructions distinct from the focus's command وَٱضْرِبُوهُنَّ.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 24:31 «وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ»; 24:31 «وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ»; 24:31 «وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ»
+  - activation: Both passages address women's conduct, guarding, and bodily or private boundaries; 24:31 also supplies distinct ḍ-r-b constructions relevant to the focus's disputed imperative.
+  - limits: The 24:31 forms and objects do not establish the sense of وَٱضْرِبُوهُنَّ, and its rules do not define al-ghayb in 4:34.
+- **R-25:67** [reading; support strong, relevance high] inter-ayah target
+  - finding: The expenditure setting is paired with a q-w-m form in both verses: 4:34 calls men قَوَّٰمُونَ and grounds this partly in spending, while 25:67 praises spending that is قَوَامًا, balanced between excess and stinginess. This raises balance as a possible dimension of financial maintenance.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 25:67 «وَٱلَّذِينَ إِذَآ أَنفَقُوا۟ لَمْ يُسْرِفُوا۟ وَلَمْ يَقْتُرُوا۟ وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًۭا»
+  - activation: The focus itself links qiwāma with expenditure; 25:67 links a different q-w-m form with measured expenditure.
+  - limits: قَوَامًا and قَوَّٰمُونَ are distinct forms; 25:67 does not define the focus's role as financial moderation.
+- **R-30:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: 30:21 names tranquility, affection, and mercy as the purpose and texture of spouses' relation. This gives the focus's dispute procedure a positive marital horizon against which rupture and repair can be heard.
+  - evidence: 30:21 «أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً»; 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»
+  - activation: The focus moves from a general marital profile to feared discord and a sequence of responses.
+  - limits: 30:21 states a broad divine sign; it does not prescribe or interpret the focus's particular procedure.
+- **R-31:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same ordered divine epithets recur: al-ʿAliyy al-Kabīr in 31:30 and ʿAliyyan Kabīran in 4:34. This anchors the household coda in a Quranic formula that declares God's unique truth and highness.
+  - evidence: 31:30 «وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًا»
+  - activation: The focus ends its account of human relations with the same two divine predicates.
+  - limits: 31:30 is a statement about God's truth and the falsehood of what is invoked besides Him; it does not directly gloss the marital commands.
+- **R-32:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared bed noun sits in a strikingly different cluster: believers leave their beds to call on God in fear and spend what they have received, while 4:34 mentions fear, spending, and separation within beds. The parallel makes bed-separation's moral meaning depend on its purpose and setting.
+  - evidence: 32:16 «تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًۭا وَطَمَعًۭا وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»
+  - activation: The focus brings together the same bed noun, fear, and spending, though with different agents and relations.
+  - limits: 32:16 praises night worship and charity; it neither endorses nor explains the marital response in 4:34.
+- **R-33:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: Just before 33:32, the Prophet's wives are described with the verb يَقْنُتْ لِلَّهِ وَرَسُولِهِۦ. This female devotional use of the same q-n-t root supports hearing قَٰنِتَٰتٌ in 4:34 as devotion oriented to God and His messenger, without supplying an unstated object there.
+  - evidence: 33:31 «وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ»; 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»
+  - activation: Both passages describe women's qualities in marital contexts, and 33:31 explicitly gives the devotional verb's object.
+  - limits: 33:31 addresses the Prophet's wives and uses a verb; its stated object cannot simply be inserted into the focus's participle.
+- **R-33:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: 33:53 makes household privacy concrete through a screened request and calls that boundary purer for hearts; 33:54 immediately adds that God knows what people reveal or hide. This resonates with the focus's guarding for al-ghayb under God's preservation.
+  - evidence: 33:53 «وَإِذَا سَأَلْتُمُوهُنَّ مَتَٰعًۭا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍۢ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ»; 33:54 «إِن تُبْدُوا۟ شَيْـًٔا أَوْ تُخْفُوهُ فَإِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًۭا»; 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»
+  - activation: The focus joins women's guarding of the unseen with God's guarding; the nearby passage joins household privacy with God's knowledge of hidden and manifest acts.
+  - limits: 33:53 gives a specific rule for the Prophet's household; the parallel does not make that rule the definition of 4:34.
+- **related_6.X1** [reading; support strong, relevance high] 
+  - finding: The focus repeats almost verbatim 4:32's formula that God favored some over others; that earlier verse immediately says men and women each have a share from what they earn. This places the role claim beside a warning against coveting differences and an explicit recognition of both sexes' earnings.
+  - evidence: 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»; 4:32 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The two verses share the distinctive some-over-some wording, and the earlier verse explicitly distinguishes men's and women's earnings.
+  - limits: 4:32 does not identify which differences underlie qiwāma in 4:34 or say the two passages refer to the same advantage.
+- **related_6.X2** [reading; support strong, relevance high] 
+  - finding: The next verse moves from the focus's response to feared marital discord to appointing an arbiter from each spouse's family, with reconciliation as the aim. It presents a wider, bilateral repair frame around the preceding commands.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ»; 4:35 «إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The immediate sequel repeats fear as the trigger but widens the participants to both families and names repair.
+  - limits: 4:35 addresses a breach between spouses and does not explicitly state when its arbitration stage follows the commands in 4:34.
+- **related_6.X3** [reading; support strong, relevance high] 
+  - finding: The focus's ban on seeking a way against women echoes the surah's formula for people who withdraw from fighting and offer peace: God has made no way for the believers against them. 4:141 likewise denies disbelievers a way over believers. These uses make the focus's final clause sound like a boundary on adversarial leverage.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:90 «فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًۭا»; 4:141 «وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا»
+  - activation: The focus and 4:90 share the construction of no way against a group; 4:141 uses the same noun to deny hostile dominion.
+  - limits: The other passages concern peace and the relation between disbelievers and believers; they do not equate those groups with women in the focus.
+- **related_6.X4** [reading; support strong, relevance high] 
+  - finding: 4:128 uses the same nushūz noun when a wife fears it from her husband, then names settlement between the spouses as an available response. Nushūz is therefore not a fixed female identity in this surah.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا»; 4:128 «فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا»
+  - activation: The same surah reuses nushūz with reversed spouses and a repair response.
+  - limits: 4:128 has its own circumstances and settlement procedure; it does not replace the particular directions in 4:34.
+- **related_6.X5** [reading; support strong, relevance high] 
+  - finding: The surah uses q-w-m language for obligations tied to justice: it tells believers to be قَوَّٰمِينَ بِٱلْقِسْطِ, and elsewhere speaks of standing for orphans with justice. This supplies an ethical measure for hearing the focus's قَوَّٰمُونَ عَلَى ٱلنِّسَاءِ.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:127 «وَأَن تَقُومُوا۟ لِلْيَتَٰمَىٰ بِٱلْقِسْطِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ»
+  - activation: The focus uses the same q-w-m root for a relational role; nearby surah passages explicitly attach standing language to justice, even against oneself and close relatives.
+  - limits: 4:127 and 4:135 address justice toward orphans and truthful testimony, not marital authority directly.
+- **related_6.X6** [reading; support strong, relevance high] 
+  - finding: 4:19 places the focus's household procedure within a wider command to treat women with kindness and a ban on constraining them to recover what was given. That context limits using household leverage for financial gain or mistreatment.
+  - evidence: 4:19 «وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ»; 4:19 «وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both passages regulate treatment of women in marriage; the focus itself joins men's expenditure to a later prohibition on pursuing a way against them.
+  - limits: 4:19 addresses inheritance-like constraint and marital kindness; it does not define the specific responses listed in 4:34.
+- **related_6.X8** [reading; support strong, relevance high] 
+  - finding: 30:26 says all in the heavens and earth are قَٰنِتُونَ to God. This parallel supports reading the focus's قَٰنِتَٰتٌ as a devotional quality whose ultimate orientation is divine, without making its unstated object explicit.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»; 30:26 «وَلَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ كُلٌّۭ لَّهُۥ قَٰنِتُونَ»
+  - activation: The focus uses the q-n-t root in its profile of righteous women; 30:26 applies the root to all creation in relation to God.
+  - limits: 30:26 uses a masculine plural participle for creation and does not specify the focus's intended human object or social application.
+- **R-33:67** [reading; support strong, relevance high] inter-ayah target
+  - finding: The obedience condition in 4:34 sits beside a Quranic warning that obedience to social superiors can lead people astray; rank alone does not make authority self-validating.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 33:67 «إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠»
+  - activation: Both passages use forms of طوع, and 4:34 expressly bars pursuing a way against women once they obey.
+  - limits: 33:67 is a confession about leaders who misled their followers, not a gloss on marital obedience or the commands in 4:34.
+- **R-42:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The closing عَلِيًّا كَبِيرًا echoes the paired divine description ٱلْعَلِىُّ ٱلْعَظِيمُ, where God’s possession of the heavens and earth precedes His exaltedness; the household relation is thus closed under divine, not human, supremacy.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 42:4 «لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ»
+  - activation: The shared exaltedness and greatness close both passages; 4:34 also has عَلَى in its relation between men and women.
+  - limits: 42:4 does not explain the legal scope of qiwama or say that the human relation is itself divine supremacy.
+- **R-44:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: The coda’s عَلِيًّا contrasts with Pharaoh, who كَانَ عَالِيًا مِنَ ٱلْمُسْرِفِينَ; the close parallel in كان and the highness adjective sets divine exaltedness against human overreaching.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 44:31 «إِنَّهُۥ كَانَ عَالِيًۭا مِّنَ ٱلْمُسْرِفِينَ»
+  - activation: The focus’s final divine predicate and Pharaoh’s description share the root ع ل و and the frame كَانَ.
+  - limits: The passage does not equate household qiwama with Pharaoh’s rule; the echo warns against self-exalting conduct without identifying the two cases.
+- **R-47:27** [reading; support strong, relevance high] inter-ayah target
+  - finding: The verb يَضْرِبُونَ with human objects and named body parts directly attests bodily striking in the same root and verbal form as 4:34’s imperative.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 47:27 «يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ»
+  - activation: Both passages use Form I ض ر ب with a human object; 47:27 makes the bodily targets explicit.
+  - limits: The agents and setting in 47:27 are the angels at death, and its named body parts do not establish the manner or degree intended in 4:34.
+- **R-52:41** [reading; support strong, relevance high] inter-ayah target
+  - finding: حَافِظَاتٌ لِلْغَيْبِ need not imply knowledge or control of the unseen: 52:41 challenges the claim that people possess ٱلْغَيْبُ and can write it.
+  - evidence: 4:34 «لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 52:41 «أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ»
+  - activation: The shared definite term الغيب brings the focus’s guarding language beside a question about access to the unseen.
+  - limits: 52:41 concerns claims to unseen knowledge, while 4:34 speaks of guarding in the unseen or absence; it does not define the latter phrase.
+- **R-58:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The wife’s complaint about her husband is heard by God, so the household dispute in 4:34 is not presented elsewhere in the Quran as beyond a wife’s voice or divine hearing.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 58:1 «قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَٰدِلُكَ فِى زَوْجِهَا وَتَشْتَكِىٓ إِلَى ٱللَّهِ»
+  - activation: Both passages concern a marital dispute, while 58:1 explicitly places the wife’s speech before the Prophet and God.
+  - limits: 58:1 does not set out an appeal procedure for the case in 4:34 or say that the cases involve the same conduct.
+- **R-58:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The marital remedy passage also condemns husbands’ words as munkar and false; 4:34’s focus on feared nushuz by women does not exhaust Quranic correction of conduct within marriage.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 58:2 «وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًۭا مِّنَ ٱلْقَوْلِ وَزُورًۭا»
+  - activation: The following verses in the same marital episode identify men as the speakers of the condemned formula.
+  - limits: The condemned zihar declaration is a specific offense and does not establish a symmetrical procedure for the two passages.
+- **R-58:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: The root ن ش ز also appears as a positive command to rise in a gathering, followed by God raising believers in degrees; the root itself does not make 4:34’s nushuz an evil identity.
+  - evidence: 4:34 «نُشُوزَهُنَّ»; 58:11 «وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟ يَرْفَعِ ٱللَّهُ»
+  - activation: The shared root connects the feared state in 4:34 to a different, responsive rising in 58:11.
+  - limits: 58:11 uses a different form and a gathering context; it does not settle the marital sense of نُشُوز or the procedure that follows it.
+- **R-60:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ can be heard within a marital economy of reciprocal, enforceable transfers: 60:10 orders reimbursement of prior expenditure and conditions a new marriage on giving the women their due.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 60:10 «وَءَاتُوهُم مَّآ أَنفَقُوا۟»; 60:10 «وَلَا جُنَاحَ عَلَيْكُمْ أَن تَنكِحُوهُنَّ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ»
+  - activation: Both passages name spouses and expenditure; 60:10 makes the outflow accountable within a change of marital status.
+  - limits: The migration and intercommunal setting of 60:10 does not define the maintenance relation in 4:34.
+- **R-60:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 60:11 the prior husband's spending becomes a measured amount, مِثْلَ مَآ أَنفَقُوا۟, to be transferred to men whose wives have gone; this gives the focus's spending clause an accounting dimension.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 60:11 «فَـَٔاتُوا۟ ٱلَّذِينَ ذَهَبَتْ أَزْوَٰجُهُم مِّثْلَ مَآ أَنفَقُوا۟»
+  - activation: The shared expenditure language occurs in two rules about marital separation or transfer.
+  - limits: In 60:11 the community transfers compensation after wives depart; it does not prescribe support between spouses in an intact marriage.
+- **R-65:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's هَجْر in the beds can be heard as a spatially confined separation alongside 65:1's ban on expelling wives from their houses during divorce.
+  - evidence: 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»; 65:1 «لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ»
+  - activation: Both passages regulate separation between spouses through an explicitly named place.
+  - limits: The housing rule in 65:1 governs divorce; it does not directly prescribe the nushuz procedure in 4:34.
+- **R-65:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's وَبِمَآ أَنفَقُوا۟ can be read as responsibility within a wider marital duty of support and nonharm: 65:6 orders housing, forbids constricting women, and requires spending during pregnancy.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 65:6 «وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ»; 65:6 «فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ»
+  - activation: Both passages address men's financial actions toward wives, and 65:6 explicitly joins expenditure to a nonharm boundary.
+  - limits: The spending rule in 65:6 concerns pregnancy after divorce; it does not specify every obligation in 4:34.
+- **R-65:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The spending ground وَبِمَآ أَنفَقُوا۟ is illuminated by 65:7, which measures required outlay by the spender's means and what God has given him.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 65:7 «لِيُنفِقْ ذُو سَعَةٍۢ مِّن سَعَتِهِۦ»; 65:7 «فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ»
+  - activation: Both make expenditure part of a marital rule; 65:7 gives a direct measure tied to means.
+  - limits: The focus does not state the same measure or explicitly apply 65:7's post-divorce context.
+- **R-66:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exact feminine plural قَٰنِتَٰتٌ appears in 66:5 within a cluster of faith, repentance, worship and devotion, giving the focus's قَٰنِتَٰتٌ a God-directed devotional range alongside its household setting.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»; 66:5 «مُسْلِمَٰتٍۢ مُؤْمِنَٰتٍۢ قَٰنِتَٰتٍۢ تَٰٓئِبَٰتٍ عَٰبِدَٰتٍۢ»
+  - activation: The same feminine plural quality describes women in both a household rule and a marital list of religious qualities.
+  - limits: The list in 66:5 concerns possible replacement wives of the Prophet and does not settle the local sense of qanitāt in 4:34.
+- **R-66:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The wives who were تَحْتَ عَبْدَيْنِ صَٰلِحَيْنِ nevertheless فَخَانَتَاهُمَا; the example makes the women's own standing salient, so 4:34's الصَّٰلِحَٰتُ names their quality rather than a status derived from their husbands.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»; 66:10 «كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَٰلِحَيْنِ فَخَانَتَاهُمَا»
+  - activation: Both passages place women's conduct beside a description of their husbands, and both use the ṣ-l-ḥ root.
+  - limits: The parable concerns faithfulness to God, not the household procedure or the meaning of nushuz in 4:34.
+- **R-f-بعض-بغي-خوف** [reading; support strong, relevance high] formula family (ب ع ض + ب غ ي + خ و ف; 1 ayat: 38:22)
+  - finding: The dispute formula بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍۢ in 38:22 is brought before a judge with a demand for truth and a warning not to overreach; it lets 4:34's fear and prohibition of a path against women sound within an anti-transgression frame.
+  - evidence: 4:34 «تَخَافُونَ نُشُوزَهُنَّ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 38:22 «خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍۢ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ»
+  - activation: The verses share fear, b-gh-y and baʿḍ language around a threatened wrong and a warning against excess.
+  - limits: The litigants in 38:22 are not identified as spouses, and David's judgment is not the same procedure as the commands in 4:34.
+- **R-f-بعض-بغي-صلح** [reading; support strong, relevance high] formula family (ب ع ض + ب غ ي + ص ل ح; 1 ayat: 38:24)
+  - finding: The partners in 38:24 often يَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ, with the exception of those who believe and do صالحات; this joins the focus's no-path warning to a Quranic contrast between mutual transgression and righteous conduct.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:34 «فَٱلصَّٰلِحَٰتُ»; 38:24 «وَإِنَّ كَثِيرًۭا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus prohibits seeking a path against women and separately names righteous women; 38:24 joins transgression among partners to صالحات.
+  - limits: The partners in 38:24 are not specified as spouses, so the verse does not prescribe the focus's remedy.
+- **R-f-بعض-سبل-هجر** [reading; support strong, relevance high] formula family (ب ع ض + س ب ل + ه ج ر; 1 ayat: 3:195)
+  - finding: The phrase بَعْضُكُم مِّنۢ بَعْضٍۢ in 3:195 follows equal acceptance of work by male or female; beside 4:34's بَعْضَهُمْ عَلَىٰ بَعْضٍۢ, it places differentiated allotment within shared human belonging and accountability.
+  - evidence: 3:195 «مِّن ذَكَرٍ أَوْ أُنثَىٰ»; 3:195 «بَعْضُكُم مِّنۢ بَعْضٍۢ»; 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: Both passages place baʿḍ language beside male and female categories.
+  - limits: The migration verb هَاجَرُوا۟ in 3:195 is a different form and scene from bed separation in 4:34; it does not explain that command.
+- **R-f-بغي-سبل-ضرب** [reading; support strong, relevance high] formula family (ب غ ي + س ب ل + ض ر ب; 1 ayat: 4:94)
+  - finding: In the same surah, 4:94 pairs ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ with تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا and orders verification before acting against someone who offers peace. Beside 4:34's ضَرِبَ imperative and ban on seeking a path against wives, it raises a warning against turning power into self-serving pursuit.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:94 «إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟»; 4:94 «تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا»
+  - activation: The same surah pairs the d-r-b and b-gh-y roots in two different scenes, and in 4:94 explicitly warns against worldly motive during a coercive encounter.
+  - limits: Ḍaraba in 4:94 means setting out, not the focus's transitive command; 4:94 does not state the motive or meaning of 4:34.
+- **R-f-بغي-فضل-مول** [reading; support strong, relevance high] formula family (ب غ ي + ف ض ل + م و ل; 1 ayat: 24:33)
+  - finding: In 24:33 the command to give from God's wealth is paired with a ban on coercing young women into prostitution for worldly gain; this gives 4:34's spending ground and no-path prohibition a wider boundary against using economic power to exploit women.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 24:33 «وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ ءَاتَىٰكُمْ»; 24:33 «وَلَا تُكْرِهُوا۟ فَتَيَٰتِكُمْ عَلَى ٱلْبِغَآءِ»
+  - activation: The passages share wealth, b-gh-y and a concern with men's conduct toward women in unequal household settings.
+  - limits: 24:33 concerns enslaved young women and a specific form of coercion; it does not define the focus's commands to husbands and wives.
+- **related_8.X1** [reading; support strong, relevance high] 
+  - finding: The exact فضل some-over-some formula appears in 4:32 immediately before 4:34; there it is surrounded by a ban on coveting others' allotments, distinct shares for men and women from their earnings, and a request for God's فضل. This constrains the focus's فضل as allocated difference within a broader frame of separate shares, not a total claim over a class.
+  - evidence: 4:32 «وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ»; 4:32 «لِّلرِّجَالِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌۭ مِّمَّا ٱكْتَسَبْنَ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - activation: The focus repeats 4:32's rare, near-identical comparison formula as it gives grounds for qawwamun.
+  - limits: The neighboring verse does not specify how its separate shares map onto the marital role in 4:34.
+- **related_8.X2** [reading; support strong, relevance high] 
+  - finding: The next verse moves from the focus's commands to appointing an arbitrator from each family when the couple's discord is feared; it places the household procedure within a progression toward bilateral mediation and possible reconciliation.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ»; 4:35 «إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»
+  - activation: The verses are consecutive and both begin their response with fear of marital discord.
+  - limits: Verse 4:35 does not explicitly state that arbitration must follow every case or step in 4:34.
+- **related_8.X3** [reading; support strong, relevance high] 
+  - finding: The same n-sh-z root is used when a wife fears her husband's nushuz in 4:128; that verse offers joint reconciliation and says reconciliation is better. The term therefore names a marital condition that can arise from either spouse, although the remedies differ by passage.
+  - evidence: 4:34 «تَخَافُونَ نُشُوزَهُنَّ»; 4:128 «وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا»; 4:128 «أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌ»
+  - activation: The surah uses nushuz once for a husband's conduct feared by a wife and once for wives' conduct feared by husbands.
+  - limits: The distinct procedures do not establish that the commands in 4:34 are reciprocal or interchangeable with the settlement in 4:128.
+- **related_8.X4** [reading; support strong, relevance high] 
+  - finding: The same form قَوَّٰمِينَ is commanded in 4:135 with justice and testimony, even when testimony is against oneself or kin. This supplies an ethical measure for the focus's قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ without equating the two constructions.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ»; 4:135 «وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»
+  - activation: The surah reuses the intensive plural noun in an imperative that explicitly couples standing with justice and accountability.
+  - limits: The prepositions and complements differ; 4:135 does not define the exact legal content of qawwamun in 4:34.
+- **related_8.X6** [reading; support strong, relevance high] 
+  - finding: Earlier in the surah, a husband may not take back anything given to a wife, even a great amount, because the spouses have joined and she has taken a weighty covenant. This balances the focus's expenditure ground with protected financial claims belonging to women.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:20 «وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًۭا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا»; 4:21 «وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍۢ وَأَخَذْنَ مِنكُم مِّيثَٰقًا غَلِيظًۭا»
+  - activation: The same surah treats spending and women's financial claims within marriage, then names the marital covenant as a reason against taking money back.
+  - limits: These verses address replacement and separation; they do not specify the full financial arrangement underlying qawwamun in 4:34.
+- **related_8.X7** [reading; support strong, relevance high] 
+  - finding: The focus's no-path boundary sits within 4:19's prohibition on coercively inheriting women or obstructing them to recover what was given, followed by the command to live with them بِٱلْمَعْرُوفِ. This gives the procedure a surrounding limit against coercive and extractive conduct.
+  - evidence: 4:19 «لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًۭا»; 4:19 «وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ»; 4:19 «وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The earlier marital rule shares the surah's concern with men's conduct toward women and what they have given them.
+  - limits: The exception and circumstances in 4:19 are specific to its rule and do not settle the exact scope of 4:34's procedure.
+- **R-f-بغي-فضل** [reading; support strong, relevance high] formula family (ب غ ي + ف ض ل; 12 ayat: 2:90, 2:198, 5:2, 7:140, 16:14, 17:12, 17:66, 28:73, 30:23, 30:46)
+  - finding: The pairing of divine faḍl and the ban on tabghū can be heard beside 2:90, where baghy is tied to resentment that God sends His favor to whom He wills. The focus thus places a limit on turning divine differentiation into a claim to pursue women.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 2:90 «بَغْيًا أَن يُنَزِّلَ ٱللَّهُ مِن فَضْلِهِۦ عَلَىٰ مَن يَشَآءُ»
+  - activation: The focus places faddala near its later prohibition of tabghū; 2:90 explicitly links the b-gh-y root to God's faḍl.
+  - limits: 2:90 describes resentment toward God's revelation, not a marital dispute, so it supplies an ethical parallel rather than a direct gloss.
+- **R-f-بغي-سبل** [reading; support strong, relevance high] formula family (ب غ ي + س ب ل; 8 ayat: 3:99, 5:35, 7:86, 11:19, 14:3, 17:110, 42:42, 60:1)
+  - finding: The focus forbids pursuing any sabīl against women; 3:99 and 7:86 use the same b-gh-y and s-b-l pairing for seeking crookedness in God's path. This makes the prohibition sound like a warning against turning a path into an instrument of wrong.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 3:99 «عَن سَبِيلِ ٱللَّهِ مَن ءَامَنَ تَبْغُونَهَا عِوَجًۭا»; 7:86 «وَتَبْغُونَهَا عِوَجًۭا»
+  - activation: The focus has tabghū followed by sabīlan; the other passages combine the same root with a path and crookedness.
+  - limits: The other passages concern obstruction of God's path, not household procedure, and do not define which ways are forbidden in 4:34.
+- **R-f-خوف-صلح** [reading; support strong, relevance high] formula family (خ و ف + ص ل ح; 8 ayat: 2:62, 2:182, 2:277, 5:69, 6:48, 7:56, 20:112, 24:55)
+  - finding: Fear in 4:34 begins a response sequence, and the next ayah extends the marital scene to arbiters and iṣlāḥ. The parallel in 2:182 also makes fear of wrong a trigger for repair, not simply a verdict about the feared person.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًۭا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ»; 2:182 «فَمَنْ خَافَ مِن مُّوصٍۢ جَنَفًا أَوْ إِثْمًۭا فَأَصْلَحَ بَيْنَهُمْ»
+  - activation: The focus uses takhāfūna to open its protocol; 4:35 repeats fear language and names reconciliation immediately afterward.
+  - limits: 4:35 addresses discord between spouses and does not say the commands in 4:34 are themselves reconciliation.
+- **R-f-بعض-فضل** [reading; support strong, relevance high] formula family (ب ع ض + ف ض ل; 4 ayat: 2:253, 13:4, 16:71, 17:55)
+  - finding: 16:71 repeats nearly the focus's formula of God preferring some over others, specifying provision as the domain. This supports hearing the focus's open comparison as a differentiated allocation, not by itself a statement of total worth.
+  - evidence: 4:34 «فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 16:71 «وَٱللَّهُ فَضَّلَ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ فِى ٱلرِّزْقِ»
+  - activation: The wording is close, and 16:71 supplies an explicit domain for a comparable preference formula.
+  - limits: 16:71 specifies provision, whereas 4:34 leaves the comparison's domain unstated.
+- **R-f-علو-كبر** [reading; support strong, relevance high] formula family (ع ل و + ك ب ر; 4 ayat: 34:23, 38:75, 40:12, 63:5)
+  - finding: The closing Allah is ʿAliyyan kabīran echoes the divine epithet al-ʿAliyy al-kabīr in 34:23. After human relations marked by ʿalā and a warning against seeking a way against women, the coda places height and greatness with God.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:34 «عَلِيًّۭا كَبِيرًۭا»; 34:23 «وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ»
+  - activation: The focus repeats ʿalā in its human relations and closes with the same paired divine attributes found in 34:23.
+  - limits: 34:23 concerns divine sovereignty and intercession, not marriage; it supplies a formulaic echo rather than a direct explanation.
+- **R-f-رجل-نسو** [reading; support strong, relevance high] formula family (ر ج ل + ن س و; 3 ayat: 4:176, 5:6, 48:25)
+  - finding: The pair rijāl/nasāʾ recurs in 4:176, where male and female siblings are named within an inheritance rule, and in 48:25 for believing men and women whose lives are protected. These uses make the pair's legal force depend on each passage's predicate rather than fixing one universal relation.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:176 «وَإِن كَانُوٓا۟ إِخْوَةًۭ رِّجَالًۭا وَنِسَآءًۭ»; 48:25 «رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ»
+  - activation: The same gender terms appear in another legal passage of this surah and in a scene protecting believers of both sexes.
+  - limits: These passages establish distinct contexts, not a direct gloss on the marital rule or its grounds.
+- **R-f-بغي-صلح** [reading; support strong, relevance high] formula family (ب غ ي + ص ل ح; 2 ayat: 4:114, 49:9)
+  - finding: 49:9 names one party's transgression against another and answers it with reconciliation and justice. Together with 4:35's arbiters, it makes the focus's ban on seeking a way against women legible as a restraint within a conflict procedure.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:35 «وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًۭا مِّنْ أَهْلِهِۦ وَحَكَمًۭا مِّنْ أَهْلِهَآ»; 49:9 «فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ»
+  - activation: The focus has a prohibition with tabghū ʿalayhinna; 49:9 uses baghat ʿalā for transgression between parties and follows it with repair.
+  - limits: 49:9 treats armed conflict between believing groups, so its specific measures do not transfer to marriage.
+- **R-f-صلح-مول** [reading; support strong, relevance high] formula family (ص ل ح + م و ل; 2 ayat: 18:46, 34:37)
+  - finding: 34:37 says wealth and children do not bring nearness to God apart from faith and righteous action; 18:46 calls wealth a worldly adornment and enduring righteous deeds better. Beside 4:34, these passages distinguish expenditure as a ground of household responsibility from wealth as spiritual merit.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «فَٱلصَّٰلِحَٰتُ»; 34:37 «وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰٓ إِلَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا»; 18:46 «وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ»
+  - activation: The focus mentions both men's wealth and righteous women; the other passages put wealth and righteous action in explicit relation.
+  - limits: Those passages do not deny the practical role of spending stated in 4:34; they limit what wealth establishes about nearness to God.
+- **R-37:27** [open; support strong, relevance high] inter-ayah target
+  - finding: The sequence بَعْضَهُمْ عَلَىٰ بَعْضٍۢ recurs in scenes of people turning toward one another to question each other; this invites testing whether 4:34’s comparison can be heard as a relation among subsets rather than a fixed ranking of whole classes.
+  - evidence: 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 37:27 «بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ»; 37:50 «بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ»; 52:25 «بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ»
+  - missing: The focus uses the phrase under فَضَّلَ as a comparative construction, while these passages use it with أَقْبَلَ in reciprocal scenes; a syntactic or Quranic parallel showing reciprocity in the comparison could decide whether the scenes illuminate its force.
+- **R-43:5** [open; support strong, relevance high] inter-ayah target
+  - finding: The same Form I root occurs in 43:5 with the Reminder as object and عَنكُم plus صَفْحًا marking its withdrawal; this raises a possible non-striking branch for 4:34’s اضْرِبُوهُنَّ.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 43:5 «أَفَنَضْرِبُ عَنكُمُ ٱلذِّكْرَ صَفْحًا»
+  - missing: 43:5 has a distinct construction with عَن and صَفْحًا, not a woman as direct object; a dictionary sense or Quranic parallel using a person as the direct object with a departure or separation meaning could establish the proposed branch.
+- **R-1:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: The ban on seeking a سبيل عَلَيْهِنَّ can be heard beside the prayer for ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ: the worshipper seeks a God-directed path, while the household instruction bars seeking a path against women after compliance.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The focus ends its compliance condition with a prohibition framed as seeking a way against them; Fatiha asks for guidance to the straight path.
+  - limits: The verses use different words for path and do not explicitly link the prayer to this marital ruling.
+- **R-2:223** [reading; support medium, relevance high] inter-ayah target
+  - finding: The bed-local separation in 4:34 sits alongside rules for sexual approach in 2:222–223: withdrawal during menstruation, approach after purification as directed, and the image of wives as tilth. Together they present access and withdrawal as condition-governed aspects of marriage.
+  - evidence: 2:222 «فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ»; 2:222 «فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ»; 2:223 «نِسَآؤُكُمْ حَرْثٌۭ لَّكُمْ فَأْتُوا۟ حَرْثَكُمْ أَنَّىٰ شِئْتُمْ»; 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»
+  - activation: Both passages regulate conduct toward wives in relation to sexual access and separation.
+  - limits: The menstrual rules do not specify the meaning or limits of bed separation in 4:34, whose stated trigger is feared nushuz.
+- **R-f-علو-نسو** [reading; support medium, relevance high] formula family (ع ل و + ن س و; 2 ayat: 3:61, 28:4)
+  - finding: Pharaoh’s “rising high” is paired with weakening a group and harming its women; beside قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ, this makes the surah’s image of standing over women answerable to the difference between support and domination.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 28:4 «إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًۭا يَسْتَضْعِفُ طَآئِفَةًۭ مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ»
+  - activation: Both passages join a form of elevation to women and their treatment, while 4:34 grounds its role claim in God’s allocation and expenditure.
+  - limits: قَوَّٰمُونَ and عَلَا are different roots, and Pharaoh’s tyranny does not define the household relation in 4:34.
+- **R-f-خوف-علو** [reading; support medium, relevance high] formula family (خ و ف + ع ل و; 1 ayat: 10:83)
+  - finding: 10:83 binds fear of Pharaoh to his being high in the land; 4:34’s closing description of God as عَلِيًّا can distinguish divine highness from the frightening elevation of a worldly ruler.
+  - evidence: 10:83 «عَلَىٰ خَوْفٍۢ مِّن فِرْعَوْنَ وَمَلَإِي۟هِمْ»; 10:83 «وَإِنَّ فِرْعَوْنَ لَعَالٍۢ فِى ٱلْأَرْضِ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»
+  - activation: Fear and elevation are explicitly joined in 10:83, and the focus closes with a divine highness after its household commands.
+  - limits: The passages do not equate fear of nushuz with fear of Pharaoh or label the human relation in 4:34 tyrannical.
+- **R-f-ضرب-نفق** [reading; support medium, relevance high] formula family (ض ر ب + ن ف ق; 1 ayat: 16:75)
+  - finding: 16:75 depicts a person unable to act and another who spends from provision; this makes spending in 4:34 legible as material capacity linked to agency, while its parable does not specify marital authority.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 16:75 «ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًۭا مَّمْلُوكًۭا لَّا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًۭا فَهُوَ يُنفِقُ مِنْهُ سِرًّۭا وَجَهْرًا»
+  - activation: The two passages explicitly connect expenditure with capacity or assigned responsibility; the parable contrasts someone powerless with someone able to spend.
+  - limits: ضَرَبَ مَثَلًا means setting forth a parable here and does not establish the sense of 4:34’s imperative وَٱضْرِبُوهُنَّ.
+- **R-3:175** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:34 makes fear of nushuz a trigger for a response, whereas 3:175 redirects fear away from human allies and toward God. Read beside the focus’s divine coda, this creates a tension between acting on feared human conduct and directing ultimate fear to God.
+  - evidence: 3:175 «فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ»; 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»
+  - activation: The shared fear root and the focus’s closing reference to God invite the comparison.
+  - limits: 3:175 does not say that apprehension of marital discord is illegitimate or change the focus’s stated condition.
+- **R-4:16** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:16 ends a conditional response by ordering the addressed parties to turn away if the two people repent and reform; 4:34 likewise makes compliance a stop condition, forbidding any further way against the women. The shared conditional structure places a halt to intervention after a changed state.
+  - evidence: 4:16 «فَإِن تَابَا وَأَصْلَحَا فَأَعْرِضُوا۟ عَنْهُمَآ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: Both instructions use an if-clause followed by a response that stops further action after compliance or reform.
+  - limits: The offenses and responses differ; 4:16 does not set out the staged procedure of 4:34.
+- **R-4:21** [reading; support medium, relevance high] inter-ayah target
+  - finding: The surrounding marriage-law passage describes mutual intimacy and says the women took a solemn covenant from the men. This covenant language places the later relation in 4:34 within a binding marital bond, not a relation of unqualified possession.
+  - evidence: 4:21 «وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍۢ وَأَخَذْنَ مِنكُم مِّيثَٰقًا غَلِيظًۭا»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»
+  - activation: The covenant and intimacy are described in the same surah’s marital sequence before the focus’s role claim.
+  - limits: 4:21 does not define the terms of the covenant or state how it governs the specific commands in 4:34.
+- **R-4:24** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus grounds qiwāma partly in spending, while 4:24 frames marriage-seeking through wealth, a required payment to women, and what the couple mutually agrees afterward. The economic relation therefore sits within a wider framework of women’s claims and agreement.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:24 «أَن تَبْتَغُوا۟ بِأَمْوَٰلِكُم»; 4:24 «فَـَٔاتُوهُنَّ أُجُورَهُنَّ فَرِيضَةًۭ»; 4:24 «فِيمَا تَرَٰضَيْتُم بِهِۦ مِنۢ بَعْدِ ٱلْفَرِيضَةِ»
+  - activation: Both passages address marriage in the same surah and explicitly connect it with wealth.
+  - limits: The verses do not equate the marriage payment with ongoing maintenance or state that mutual agreement governs every matter in 4:34.
+- **R-4:25** [reading; support medium, relevance high] inter-ayah target
+  - finding: The phrase بَعْضُكُم مِّن بَعْضٍۢ sets reciprocal belonging beside 4:34’s بَعْضَهُمْ عَلَىٰ بَعْضٍۢ. In this marriage passage, that belonging is expressed alongside payment to women and a commendation of patience.
+  - evidence: 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:25 «بَعْضُكُم مِّنۢ بَعْضٍۢ»; 4:25 «وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ»; 4:25 «وَأَن تَصْبِرُوا۟ خَيْرٌۭ لَّكُمْ»
+  - activation: The repeated بعض wording appears within nearby marriage regulations, while 4:34 also names expenditure as a ground of household responsibility.
+  - limits: The two بعض phrases have different constructions, and 4:25 addresses a particular marriage setting rather than explaining qiwāma.
+- **R-4:27** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:27’s مَيْلًا عَظِيمًا has a later marital counterpart in 4:129, which forbids كُلَّ ٱلْمَيْلِ toward wives and warns against leaving one suspended. The repeated root places 4:34’s household procedure within a surah-wide concern about severe relational deviation.
+  - evidence: 4:27 «أَن تَمِيلُوا۟ مَيْلًا عَظِيمًۭا»; 4:129 «فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The shared root ميل connects a broad warning near the marriage laws to a later explicit rule about conduct toward wives.
+  - limits: 4:27 concerns desire-followers seeking believers’ deviation, while 4:129 addresses fairness among wives; neither identifies 4:34’s نُشُوز as ميل.
+- **R-4:75** [reading; support medium, relevance high] inter-ayah target
+  - finding: The same categories of men and women whom 4:34 pairs in a household role appear in 4:75 together among the oppressed who call for a protector. This makes vulnerability in the surah situational rather than a quality assigned to women alone or power assigned uniformly to every man.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:75 «وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ»; 4:75 «وَٱجْعَل لَّنَا مِن لَّدُنكَ وَلِيًّۭا وَٱجْعَل لَّنَا مِن لَّدُنكَ نَصِيرًا»
+  - activation: The explicit male/female pair recurs in a scene where both are described as needing protection.
+  - limits: 4:75 concerns oppressed people in a town, not spouses, and does not specify how that scene qualifies 4:34’s role.
+- **R-4:127** [reading; support medium, relevance high] inter-ayah target
+  - finding: The surah later describes the duty to stand for orphans with justice, amid its renewed discussion of women’s rights. This q-w-m wording gives a justice-oriented parallel for hearing 4:34’s قَوَّٰمُونَ as responsibility, while leaving the two duties distinct.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:127 «وَأَن تَقُومُوا۟ لِلْيَتَٰمَىٰ بِٱلْقِسْطِ»
+  - activation: The shared q-w-m root appears in a surah passage about women, vulnerable children, and justice.
+  - limits: 4:127 uses a different form and addresses justice for orphans; it does not define a husband’s role in 4:34.
+- **R-4:129** [reading; support medium, relevance high] inter-ayah target
+  - finding: After the woman-fears-husband case, the surah acknowledges that men cannot achieve complete fairness among wives and forbids total inclination that leaves one suspended. This supplies a further limit on male conduct in the same marital sequence as 4:34’s ban on seeking a way against compliant women.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:129 «وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ»; 4:129 «فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ»
+  - activation: Both are instructions about men’s conduct toward women in the surah’s marital material, and both place a limit after naming a condition or difficulty.
+  - limits: 4:129 addresses fairness among multiple wives, not the single-spouse conflict procedure in 4:34.
+- **R-4:130** [reading; support medium, relevance high] inter-ayah target
+  - finding: The next verse allows for separation and says God will provide for each party from His abundance. That prospect places a limit on reading the spending basis in 4:34 as making continued dependence or retention the only possible outcome.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:130 «وَإِن يَتَفَرَّقَا يُغْنِ ٱللَّهُ كُلًّۭا مِّن سَعَتِهِۦ»
+  - activation: The separation statement immediately follows the marital limits in 4:128–129 and speaks of provision for each.
+  - limits: 4:130 does not say that provision is equal or explain how the earlier expenditure ground applies during marriage.
+- **R-5:28** [reading; support medium, relevance high] inter-ayah target
+  - finding: At 5:28, the speaker refuses to extend his hand to kill and says he fears God. Beside تَخَافُونَ نُشُوزَهُنَّ followed by وَٱضْرِبُوهُنَّ, this makes fear audible as a possible restraint on violence as well as a trigger for action.
+  - evidence: 4:34 «تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ»; 5:28 «لَئِنۢ بَسَطتَ إِلَىَّ يَدَكَ لِتَقْتُلَنِى مَآ أَنَا۠ بِبَاسِطٍۢ يَدِىَ إِلَيْكَ لِأَقْتُلَكَ ۖ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ»
+  - activation: Both passages connect fear with a threatened or prescribed use of force.
+  - limits: The Cain narrative concerns threatened homicide and fear of God; it does not state a rule for the household procedure in 4:34.
+- **R-8:26** [reading; support medium, relevance high] inter-ayah target
+  - finding: In 8:26, fear of being seized is answered with shelter, support, and provision. Beside قَوَّٰمُونَ grounded partly in spending, this gives material support a protective shape rather than leaving it as a bare basis for rank.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 8:26 «تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمْ وَأَيَّدَكُم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ»
+  - activation: The focus names expenditure as a ground of qiwama; 8:26 places fear immediately before shelter, aid, and provision.
+  - limits: 8:26 describes God’s past aid to a vulnerable community, not a husband’s response to marital discord.
+- **R-8:72** [reading; support medium, relevance high] inter-ayah target
+  - finding: 8:72 describes believers who support one another as mutual allies. That collective model lets the focus’s qiwama be read as a specific household relation rather than a statement that all social responsibility runs in one gendered direction.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 8:72 «وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ»
+  - activation: The passages describe relational responsibility in contrasting forms: qiwama by men over women in one, mutual alliance among believers in the other.
+  - limits: 8:72 concerns a believing community and uses أَوْلِيَاءُ, not قَوَّٰمُونَ; it does not specify marital duties or overturn the household relation.
+- **R-9:71** [reading; support medium, relevance high] inter-ayah target
+  - finding: 9:71 explicitly makes believing men and women mutual allies who both command right and forbid wrong. Against 4:34’s household-specific men-over-women formulation, this supports a reading in which communal moral agency is reciprocal rather than globally one-directional.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 9:71 «وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ»
+  - activation: Both name men and women and describe their relations; 9:71 explicitly assigns shared ethical action to both.
+  - limits: 9:71 describes believing men and women collectively and uses أَوْلِيَاءُ rather than قَوَّامُونَ; it does not cancel the focus’s household-specific statement.
+- **related_6.X7** [reading; support medium, relevance high] 
+  - finding: The earlier legal sequence in 4:15–16 also joins restriction to an exit: women are held in houses until death or God makes a way, and the people addressed must turn aside if the pair repent and reform. This links the focus's conditional stop to a broader limit on continuing corrective action.
+  - evidence: 4:15 «فَأَمْسِكُوهُنَّ فِى ٱلْبُيُوتِ حَتَّىٰ يَتَوَفَّىٰهُنَّ ٱلْمَوْتُ أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًۭا»; 4:16 «فَإِن تَابَا وَأَصْلَحَا فَأَعْرِضُوا۟ عَنْهُمَا»; 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - activation: The passages share women's legal treatment, a conditional response, and the s-b-l vocabulary of a way or avenue.
+  - limits: The earlier verses concern a different offense and response; they establish a broader pattern, not equivalence between the rulings.
+- **R-37:118** [reading; support medium, relevance high] inter-ayah target
+  - finding: The shared root ق و م places قَوَّامُونَ beside ٱلصِّرَاطَ ٱلْمُسْتَقِيمَ: the focus’s language of standing or maintaining can be heard alongside the straight path to which God guides Moses and Aaron. This opens a reading of qiwama as responsibility oriented toward right guidance.
+  - evidence: 4:34 «قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 37:118 «وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»
+  - activation: Both قَوَّامُونَ and ٱلْمُسْتَقِيمَ derive from ق و م, and 37:118 explicitly joins the latter to divine guidance.
+  - limits: The shared root does not make the forms or their senses identical; 37:118 does not define household qiwama or equate its subjects with Moses and Aaron.
+- **R-66:1** [reading; support medium, relevance high] inter-ayah target
+  - finding: The root b-gh-y points in opposite directions: 66:1 describes the Prophet seeking his wives' pleasure, while 4:34 forbids seeking a path against them. The contrast makes the object and direction of marital pursuit consequential.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 66:1 «تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ»
+  - activation: Both phrases use the b-gh-y root in a marital setting and direct attention to what is sought in relation to wives.
+  - limits: The Prophet's act of forbidding what God made lawful is a distinct case; the shared root does not make the two actions equivalent.
+- **R-74:3** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus's closing كَبِيرًا can be heard beside the command وَرَبَّكَ فَكَبِّرْ: divine greatness is something the servant is commanded to magnify, giving the coda a scale that relativizes human standing.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًا»; 74:3 «وَرَبَّكَ فَكَبِّرْ»
+  - activation: Both verses apply the k-b-r root to God; the focus invokes God's greatness immediately after forbidding a course against women.
+  - limits: The shared root does not establish a direct allusion from 4:34 to 74:3.
+- **R-f-بغي-صلح-فضل** [reading; support medium, relevance high] formula family (ب غ ي + ص ل ح + ف ض ل; 1 ayat: 48:29)
+  - finding: The believers in 48:29 يَبْتَغُونَ فَضْلًا مِنَ ٱللَّهِ and are رُحَمَآءُ بَيْنَهُمْ; this contrasts with 4:34's ban on بَغْي against women and makes God's favor a possible redirection of pursuit within a relationship.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 48:29 «رُحَمَآءُ بَيْنَهُمْ»; 48:29 «يَبْتَغُونَ فَضْلًۭا مِّنَ ٱللَّهِ وَرِضْوَٰنًۭا»
+  - activation: The b-gh-y and f-ḍ-l roots occur in both verses, while 48:29 explicitly couples the seeking with mercy among companions.
+  - limits: The believers' description in 48:29 does not directly address marriage or establish an allusion to 4:34.
+- **related_8.X5** [reading; support medium, relevance high] 
+  - finding: After the household procedure, 4:36 commands good treatment across a wide circle of relations and closes by condemning the arrogant and boastful; this puts the focus's divine coda and marital authority inside a broader ethic of care and humility.
+  - evidence: 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًا»; 4:36 «وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ»; 4:36 «إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا»
+  - activation: The social-relations command and arrogance warning follow shortly after the focus's elevated divine predicates.
+  - limits: Verse 4:36 does not state that its categories or conduct rules directly govern each command in 4:34.
+- **R-2:251** [open; support medium, relevance high] inter-ayah target
+  - finding: The phrase that God repels people by means of one another may offer a model of relational differentiation that prevents corruption. Its “some by some” wording stands beside the focus’s comparison of some with some, but the scenes and prepositions differ.
+  - evidence: 2:251 «وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍۢ لَّفَسَدَتِ ٱلْأَرْضُ»; 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»
+  - missing: An ayah or clear Quranic pattern linking the general repelling of people in 2:251 to the particular household roles in 4:34 would decide whether this is more than a structural comparison.
+- **R-2:259** [open; support medium, relevance high] inter-ayah target
+  - finding: The root ن ش ز also occurs in 2:259 for the raising or reassembly of bones. This makes a literal rising or elevation image available alongside the focus’s relational nushuz.
+  - evidence: 2:259 «وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًۭا»; 4:34 «نُشُوزَهُنَّ»
+  - missing: A dictionary treatment of the noun نُشُوز and the other Quranic uses of this root could establish whether the focus preserves the bodily rising sense or uses it only for relational discord.
+- **R-2:262** [open; support medium, relevance high] inter-ayah target
+  - finding: The spending passage says that giving should not be followed by reproach or harm. Alongside 4:34’s expenditure ground and its final prohibition on pursuing a way against women, it raises a reading in which material support cannot become a vehicle for injury.
+  - evidence: 2:262 «ثُمَّ لَا يُتْبِعُونَ مَآ أَنفَقُوا۟ مَنًّۭا وَلَآ أَذًۭى»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - missing: An explicit Quranic statement applying the no-reproach and no-harm rule to spousal maintenance would establish how directly 2:262 governs the expenditure in 4:34.
+- **R-2:265** [open; support medium, relevance high] inter-ayah target
+  - finding: In 2:265 spending wealth is linked to seeking God’s approval and strengthening the self. This offers a possible ethical frame for the focus’s expenditure clause: giving may be understood as God-directed action rather than a claim to status.
+  - evidence: 2:265 «وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ وَتَثْبِيتًۭا مِّنْ أَنفُسِهِمْ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - missing: A passage connecting the stated charitable motive in 2:265 to household spending would decide whether this frame applies specifically to the focus’s qiwama ground.
+- **R-f-بعض-غيب** [open; support medium, relevance high] formula family (ب ع ض + غ ي ب; 1 ayat: 49:12)
+  - finding: The root of ٱلْغَيْبِ in 4:34 also appears in the warning against spying and backbiting one another, which could extend “guarding for the unseen” to privacy or reputation in someone’s absence.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 49:12 «وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا»
+  - missing: The guarded object is unstated in 4:34, and the provided wording does not explicitly connect its ٱلْغَيْبِ with the prohibition on backbiting; a surrounding passage or lexical evidence specifying what is guarded could decide the extension.
+- **R-f-بغي-حفظ** [open; support medium, relevance high] formula family (ب غ ي + ح ف ظ; 1 ayat: 12:65)
+  - finding: 12:65 places “what do we seek?” beside a promise to guard a brother; together with 4:34’s prohibited seeking against women and its language of guarding, it raises a possible Quranic pairing of seeking with entrusted protection.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 12:65 «قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا»
+  - missing: The excerpt does not establish whether seeking and guarding form a deliberate relation in 12:65 or what ٱلْغَيْبِ specifically denotes in 4:34; the surrounding Yusuf episode or a stated object of guarding could clarify the connection.
+- **R-f-خوف-فضل** [open; support medium, relevance high] formula family (خ و ف + ف ض ل; 1 ayat: 4:83)
+  - finding: 4:83 warns that people broadcast reports of security or fear and says they should refer them to the Messenger and those able to investigate; this may illuminate how the fear that triggers 4:34’s procedure should be assessed.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ»; 4:83 «وَإِذَا جَآءَهُمْ أَمْرٌۭ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ»
+  - missing: 4:83 concerns communal reports, not marital discord; an explicit indication that its discipline of fear-based judgment applies to the nushuz case would supply the bridge.
+- **R-f-سبل-كبر** [open; support medium, relevance high] formula family (س ب ل + ك ب ر; 1 ayat: 7:146)
+  - finding: 7:146 contrasts the path of right guidance with the path of error among people who act arrogantly; this could qualify the focus’s prohibition on seeking a way against women as a warning about the kind of path one pursues.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 7:146 «وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًۭا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًۭا»
+  - missing: The focus does not call the prohibited pursuit arrogant or identify its way with error; a direct wording or contextual link could establish that application.
+- **R-f-كبر-هجر** [open; support medium, relevance high] formula family (ك ب ر + ه ج ر; 1 ayat: 16:41)
+  - finding: 16:41 describes believers migrating after being wronged and says the afterlife reward is greater; its هَاجَرُوا۟ may stand in contrast with the focus’s bed-specific وَٱهْجُرُوهُنَّ.
+  - evidence: 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»; 16:41 «وَٱلَّذِينَ هَاجَرُوا۟ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ظُلِمُوا۟»; 16:41 «وَلَأَجْرُ ٱلْءَاخِرَةِ أَكْبَرُ»
+  - missing: The verses do not connect the focus’s bed separation with leaving an oppressive situation; another passage or lexical evidence linking these different forms of ه ج ر in a comparable relationship could establish the contrast.
+- **R-4:59** [open; support medium, relevance high] inter-ayah target
+  - finding: The general dispute rule says that when believers contest anything, they are to return it to God and the Messenger. This could place 4:34’s household authority within a wider limit of reference beyond the parties themselves.
+  - evidence: 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 4:59 «فَإِن تَنَٰزَعْتُمْ فِى شَىْءٍۢ فَرُدُّوهُ إِلَى ٱللَّهِ وَٱلرَّسُولِ»
+  - missing: The text does not identify marital disagreement as the dispute meant in 4:59 or name husbands as an authority subject to this referral; an explicit household example or a direct link through 4:35 could establish that scope.
+- **R-4:98** [open; support medium, relevance high] inter-ayah target
+  - finding: 4:98 describes men and women among the helpless who cannot find a سَبِيلًا, while 4:34 forbids seeking a سبيل against women after their compliance. The shared word could connect pathlessness with protection from others’ leverage.
+  - evidence: 4:98 «إِلَّا ٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ لَا يَسْتَطِيعُونَ حِيلَةًۭ وَلَا يَهْتَدُونَ سَبِيلًۭا»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»
+  - missing: In 4:98, سبيل is a route the helpless cannot find; in 4:34, it is a way pursued against women. A passage connecting these different constructions or explicitly linking incapacity to the ban on pursuing a way could decide whether this is more than a shared word.
+- **R-5:68** [open; support medium, relevance high] inter-ayah target
+  - finding: The shared ق و م root raises the possibility of hearing قَوَّٰمُونَ beside تُقِيمُوا۟: household qiwama might involve making obligations stand, as scripture must be established for its people to be on something.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 5:68 «لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ»
+  - missing: The forms and objects differ, and these verses do not connect household qiwama to establishing scripture. Another Quranic use linking قَوَّامُونَ to establishing a duty or right could decide whether this is more than a root-family echo.
+- **R-10:99** [open; support medium, relevance high] inter-ayah target
+  - finding: 10:99 rejects compelling people to believe, while 4:34 makes the halt in its response sequence conditional on the women’s compliance. This raises a question about the boundary between compliance and coercion across distinct domains.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 10:99 «أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ»
+  - missing: 10:99 addresses belief, not marital procedure; a Quranic passage explicitly relating marital compliance to consent or coercion could decide whether the parallel bears on 4:34.
+- **R-12:81** [open; support medium, relevance high] inter-ayah target
+  - finding: Joseph’s brothers first claim “we are guardians for him” and later say they were not “guardians of the ghayb.” The latter collocation closely echoes the focus’s hāfizāt lil-ghayb, but in the story it may shift from guarding the absent to not knowing the unseen.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 12:12 «وَإِنَّا لَهُۥ لَحَٰفِظُونَ»; 12:81 «وَمَا كُنَّا لِلْغَيْبِ حَٰفِظِينَ»
+  - missing: A dictionary sense or another Quranic use of the same collocation could decide whether 12:81 means inability to guard absent persons, lack of knowledge of the unseen, or both; that distinction determines how pointed the echo is.
+- **R-18:11** [open; support medium, relevance high] inter-ayah target
+  - finding: 18:11 uses the same Form I root in “ḍarabnā ʿalā ādhānihim” as the youths enter prolonged sleep in the cave, while 4:34 attaches the women as the direct object of “wa-ḍribūhunna.” This shows a Quranic operation of the root unlike a bare blow, but the constructions differ.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 18:11 «فَضَرَبْنَا عَلَىٰٓ ءَاذَانِهِمْ فِى ٱلْكَهْفِ سِنِينَ عَدَدًۭا»
+  - missing: A dictionary sense or a Quranic parallel with the same direct-object construction as 4:34 could decide whether this protective cave usage bears on the focus’s imperative; the prepositional phrase in 18:11 does not settle it.
+- **R-20:77** [open; support medium, relevance high] inter-ayah target
+  - finding: 20:77 commands Moses, “fa-ḍrib lahum ṭarīqan,” in the scene of escape through the sea; 4:34 instead makes the women the attached direct object of “wa-ḍribūhunna.” The route-making construction proves the root can describe a different operation, but does not decide the focus’s direct-object use.
+  - evidence: 4:34 «وَٱضْرِبُوهُنَّ»; 20:77 «فَٱضْرِبْ لَهُمْ طَرِيقًۭا فِى ٱلْبَحْرِ يَبَسًۭا»; 20:77 «لَّا تَخَٰفُ دَرَكًۭا وَلَا تَخْشَىٰ»
+  - missing: A dictionary sense or parallel with the focus’s same direct-object construction could determine whether the route-making sense is relevant to 4:34; 20:77 uses a path as its object and lahum as an indirect relation.
+- **R-21:91** [open; support medium, relevance high] inter-ayah target
+  - finding: Mary is described as one who guarded her chastity, whereas the focus praises women who guard the ghayb. This offers a possible Quranic example of female integrity in a private bodily domain, but uses a different root and does not identify al-ghayb with chastity.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 21:91 «وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا»
+  - missing: A dictionary sense or another Quranic use linking ghayb and h-f-z to sexual fidelity could establish whether Mary’s example clarifies the focus’s guarded domain.
+- **R-27:20** [open; support medium, relevance high] inter-ayah target
+  - finding: The root غ-ي-ب can denote actual absence: 27:20 asks whether the hoopoe is among the absent. That supports hearing al-ghayb in 4:34 with an absence sense, possibly the spouse's absence.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 27:20 «أَمْ كَانَ مِنَ ٱلْغَآئِبِينَ»
+  - missing: 27:20 uses an adjective about an absent bird, not the noun al-ghayb in a marital setting. A Quranic use of that noun for a spouse's absence, or a dictionary account linking the senses, could decide whether this is the focus's intended domain.
+- **R-53:21** [open; support medium, relevance high] inter-ayah target
+  - finding: The next verse calls the gendered allotment in 53:21 an unjust division; beside 4:34’s God-attributed differentiation, this raises how divine allocation differs from a self-serving human apportionment.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 53:21 «أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ»; 53:22 «تِلْكَ إِذًۭا قِسْمَةٌۭ ضِيزَىٰٓ»
+  - missing: The passages concern different distributions and do not explicitly link them; a Quranic passage or structural cue distinguishing legitimate divine differentiation from unjust human allocation could decide how far the contrast bears on 4:34.
+- **R-58:3** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus locates separation at the beds, while the zihar remedy bars marital contact until expiation; together they raise whether the bed phrase regulates intimacy as well as physical separation.
+  - evidence: 4:34 «وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ»; 58:3 «فَتَحْرِيرُ رَقَبَةٍۢ مِّن قَبْلِ أَن يَتَمَآسَّا»
+  - missing: The verses address different cases, and 4:34 does not use a contact verb; lexical or contextual evidence showing what هجر in the beds entails could decide the connection.
+- **R-59:8** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus names expenditure from wealth as a ground of qiwama, while 59:8 depicts migrants expelled from homes and assets who still seek God’s favor and aid; this raises how contingent material capacity is to the focus’s role claim.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 59:8 «أُخْرِجُوا۟ مِن دِيَٰرِهِمْ وَأَمْوَٰلِهِمْ يَبْتَغُونَ فَضْلًۭا مِّنَ ٱللَّهِ»
+  - missing: 59:8 concerns displaced migrants, not spouses or household support; a household passage involving inability to spend could show whether the focus’s spending ground is conditional on continuing capacity.
+- **R-59:16** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus makes fear of nushuz a trigger for action, while 59:16 puts a profession of fear by the tempter after his harmful call; this invites scrutiny of whether fear by itself validates the actor’s response.
+  - evidence: 4:34 «تَخَافُونَ نُشُوزَهُنَّ»; 59:16 «إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ»
+  - missing: The speakers and objects of fear differ; another passage defining what counts as evidence of nushuz or limiting action based on fear could establish whether the comparison applies.
+- **R-70:29** [open; support medium, relevance high] inter-ayah target
+  - finding: Because 70:29–30 connects حَٰفِظُونَ with guarding private parts and explicitly names spouses, it raises whether 4:34's حَٰفِظَٰتٌ لِّلْغَيْبِ includes sexual fidelity during a spouse's absence.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 70:29 «وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ»; 70:30 «إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ»
+  - missing: The shared root and marital context do not identify the object of guarding in 4:34. A direct Quranic parallel joining al-ghayb with marital chastity, or a lexical account of the phrase, could decide this reading.
+- **R-70:32** [open; support medium, relevance high] inter-ayah target
+  - finding: The pairing of trusts and covenants in 70:32, beside marriage's مِّيثَٰقًا غَلِيظًۭا in 4:21, offers a candidate for what حَٰفِظَٰتٌ لِّلْغَيْبِ protects: marital trust when the spouse is absent.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 70:32 «لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ»; 4:21 «وَأَخَذْنَ مِنكُم مِّيثَٰقًا غَلِيظًۭا»
+  - missing: These passages connect marriage to covenant-keeping but do not equate al-ghayb with the marital covenant. A use of lil-ghayb explicitly tied to spouse or covenant could establish that referent.
+- **R-72:26** [open; support medium, relevance high] inter-ayah target
+  - finding: The definite غَيْب in 72:26 is God's unseen knowledge; alongside 4:34's لِّلْغَيْبِ, it raises whether the focus names a domain of divine unseen as well as a spouse's absence.
+  - evidence: 4:34 «لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 72:26 «عَٰلِمُ ٱلْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِۦٓ أَحَدًا»
+  - missing: The divine knowledge sense in 72:26 does not establish the referent of al-ghayb in a marital phrase. A Quranic use joining this term to household absence, or a lexical analysis of the construction, could decide whether both senses are active.
+- **R-85:22** [open; support medium, relevance high] inter-ayah target
+  - finding: The passive مَّحْفُوظٍۭ in 85:22 describes a tablet as guarded; beside بِمَا حَفِظَ ٱللَّهُ, it raises a divine-custody sense for the focus's preservation clause.
+  - evidence: 4:34 «بِمَا حَفِظَ ٱللَّهُ»; 85:22 «فِى لَوْحٍۢ مَّحْفُوظٍۭ»
+  - missing: The forms share h-f-ẓ but the protected objects differ. A grammatical or lexical account of what مَا refers to in 4:34 could show whether the clause names divine custody of an object or divine preservation as its model.
+- **R-f-سبل-ضرب-طوع-نفق** [open; support medium, relevance high] formula family (س ب ل + ض ر ب + ط و ع + ن ف ق; 1 ayat: 2:273)
+  - finding: The root bundle in 2:273 places ضَرْبًا فِى ٱلْأَرْضِ beside سَبِيلِ ٱللَّهِ and spending for the poor; in 4:34 the same ḍ-r-b root takes women as direct object after an expenditure ground. The contrast raises how the focus's imperative should be heard against another Quranic ḍ-r-b construction.
+  - evidence: 2:273 «لَا يَسْتَطِيعُونَ ضَرْبًۭا فِى ٱلْأَرْضِ»; 2:273 «فِى سَبِيلِ ٱللَّهِ»; 2:273 «وَمَا تُنفِقُوا۟ مِنْ خَيْرٍۢ»; 4:34 «وَٱضْرِبُوهُنَّ»
+  - missing: The 2:273 form means travel in its setting, while 4:34 has a direct human object. A lexicon or another transitive Quranic construction could show whether the shared root contributes beyond a contrast of forms and scenes.
+- **R-f-صلح-فضل-كبر** [open; support medium, relevance high] formula family (ص ل ح + ف ض ل + ك ب ر; 2 ayat: 4:173, 42:22)
+  - finding: The root cluster links focus الصَّٰلِحَٰتُ, فَضَّلَ and كَبِيرًا with 4:173's righteous deeds and increase from فضل, and 42:22's الفضل الكبير. It raises whether the focus's divine differentiation and coda belong to a frame of righteousness and divine reward.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ»; 4:34 «بِمَا فَضَّلَ ٱللَّهُ»; 4:34 «عَلِيًّا كَبِيرًا»; 4:173 «وَيَزِيدُهُم مِّن فَضْلِهِۦ»
+  - missing: The focus uses a verb of differentiation, while the parallels use nouns for bounty and reward in distinct scenes. A direct textual cue joining these clauses or a lexical account of the forms could establish the proposed frame.
+- **R-f-سبل-مول** [open; support medium, relevance high] formula family (س ب ل + م و ل; 7 ayat: 2:177, 9:24, 9:41, 9:81, 9:111, 49:15, 61:11)
+  - finding: The focus names men's spending from their wealth as a ground of qawwāmūn; elsewhere wealth spent in God's path appears as a measure of striving. The later sabīlan in 4:34 could invite that association across the ayah.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 9:41 «وَجَٰهِدُوا۟ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ»
+  - missing: The focus does not attach its final sabīlan grammatically to the expenditure clause; a passage explicitly naming household support as spending in God's path could establish that link.
+- **R-f-سبل-نفق** [open; support medium, relevance high] formula family (س ب ل + ن ف ق; 4 ayat: 2:195, 9:91, 47:38, 57:10)
+  - finding: The focus contains both spending (anfaqū) and sabīlan, though in separate clauses; 2:195 joins spending directly to God's path. That idiom may sound behind the focus's movement from expenditure to the ban on pursuing a way against women.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 2:195 «وَأَنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ»
+  - missing: The focus does not use the phrase anfiqū fī sabīl or directly connect its two clauses; a closer construction elsewhere could show whether the separated wording deliberately recalls that idiom.
+- **R-f-بعض-طوع** [open; support medium, relevance high] formula family (ب ع ض + ط و ع; 3 ayat: 3:50, 43:63, 47:26)
+  - finding: 47:26 pairs a promise of obedience with the qualification “in some of the affair”; 4:34 places baʿḍ in its preference clause before making women's obedience a condition. The parallel raises whether the focus's obedience is heard as situational or bounded.
+  - evidence: 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «فَإِنْ أَطَعْنَكُمْ»; 47:26 «سَنُطِيعُكُمْ فِى بَعْضِ ٱلْأَمْرِ»
+  - missing: In 4:34 baʿḍ qualifies the preference comparison, not obedience; another passage linking partial preference to partial compliance could decide whether the parallel matters.
+- **R-f-خوف-رجل** [open; support medium, relevance high] formula family (خ و ف + ر ج ل; 3 ayat: 2:239, 5:23, 24:37)
+  - finding: 24:37 depicts men (rijāl) who fear a coming day; beside 4:34's male class and fear of women's nushūz, it offers a possible counter-frame of men under divine accountability.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»; 4:34 «تَخَافُونَ نُشُوزَهُنَّ»; 24:37 «رِجَالٌۭ لَّا تُلْهِيهِمْ تِجَٰرَةٌۭ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ»; 24:37 «يَخَافُونَ يَوْمًۭا»
+  - missing: The shared words identify different subjects and objects of fear; evidence that 4:34 invokes the pious men of 24:37 would be needed to make accountability more than a parallel frame.
+- **R-f-خوف-ضرب** [open; support medium, relevance high] formula family (خ و ف + ض ر ب; 3 ayat: 4:101, 16:112, 30:28)
+  - finding: 4:101 couples fear with ḍaraba in the sense of travel, while 4:34 couples fear of nushūz with the object-bearing imperative wa-ḍribūhunna. The same-surah pairing makes the root's range relevant to the disputed command.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 4:34 «وَٱضْرِبُوهُنَّ»; 4:101 «وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ»
+  - missing: The complements differ: 4:101 has ḍaraba with fī al-arḍ, while 4:34 has a direct object. A dictionary sense and evidence matching the focus's construction are needed before transferring the travel sense.
+- **R-f-رجل-ضرب** [open; support medium, relevance high] formula family (ر ج ل + ض ر ب; 3 ayat: 16:76, 18:32, 39:29)
+  - finding: The focus has rijāl near the beginning and wa-ḍribūhunna later; 18:32 uses the same verb root to introduce a parable about two men. This invites a check of whether a broader daraba sense is active in the focus command.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ»; 4:34 «وَٱضْرِبُوهُنَّ»; 18:32 «وَٱضْرِبْ لَهُم مَّثَلًۭا رَّجُلَيْنِ»
+  - missing: The parable passage explicitly has mathalan and a different object construction; lexical evidence and a matching construction are needed to support a non-striking reading of wa-ḍribūhunna.
+- **R-f-رجل-كبر** [open; support medium, relevance high] formula family (ر ج ل + ك ب ر; 3 ayat: 7:48, 20:71, 26:49)
+  - finding: 7:48 addresses men (rijālan) who had been arrogant, while 4:34 names men and closes by calling God kabīran. The contrast could place human male standing under a divine greatness that limits self-exaltation.
+  - evidence: 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ»; 4:34 «إِنَّ ٱللَّهَ كَانَ عَلِيًّۭا كَبِيرًۭا»; 7:48 «رِجَالًۭا يَعْرِفُونَهُم بِسِيمَىٰهُمْ»; 7:48 «وَمَا كُنتُمْ تَسْتَكْبِرُونَ»
+  - missing: 7:48's men are condemned in a judgment scene, and the focus does not call its men arrogant; a closer link between qiwāma and human self-exaltation is missing.
+- **R-f-بعض-رجل** [open; support medium, relevance high] formula family (ب ع ض + ر ج ل; 2 ayat: 6:65, 40:28)
+  - finding: 4:34's baʿḍahum ʿalā baʿḍ compares some with others; 6:65 uses a related reciprocal pattern for people tasting one another's violence. The pair could put divine differentiation and mutual harm in tension.
+  - evidence: 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 6:65 «وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ»
+  - missing: The focus does not connect its preference formula to violence; evidence linking the allocation to reciprocal harm would be needed. The r-j-l form in 6:65 is أَرْجُلِكُمْ, meaning feet, not men.
+- **R-f-بعض-كبر** [open; support medium, relevance high] formula family (ب ع ض + ك ب ر; 2 ayat: 8:73, 34:31)
+  - finding: 34:31 depicts the weakened and the arrogant returning speech to one another, while 8:73 warns of great corruption when disbelievers are allies to one another. Beside the focus's some-over-some wording and divine kabīran, these scenes raise the possibility that relations among groups can turn into blame or disorder.
+  - evidence: 4:34 «بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 4:34 «عَلِيًّۭا كَبِيرًۭا»; 34:31 «يَرْجِعُ بَعْضُهُمْ إِلَىٰ بَعْضٍ ٱلْقَوْلَ»; 8:73 «فِى ٱلْأَرْضِ وَفَسَادٌۭ كَبِيرٌۭ»
+  - missing: The other passages concern disbelief, alliance, and judgment; evidence that they deliberately frame the focus's marital comparison is absent.
+- **R-f-بغي-طوع** [open; support medium, relevance high] formula family (ب غ ي + ط و ع; 2 ayat: 3:83, 26:211)
+  - finding: 3:83 puts seeking another religion beside submission to God willingly or unwillingly; 4:34 puts women's compliance beside a prohibition on seeking a way against them. This contrast may sharpen whether obedience in the focus is voluntary, commanded, or simply a condition in the procedure.
+  - evidence: 4:34 «فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 3:83 «أَفَغَيْرَ دِينِ ٱللَّهِ يَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًۭا وَكَرْهًۭا»
+  - missing: 3:83 speaks of submission to God and uses ṭawʿan for willingness; a direct link to the interpersonal obedience in 4:34 is not stated.
+- **R-f-بغي-نفق** [open; support medium, relevance high] formula family (ب غ ي + ن ف ق; 2 ayat: 2:272, 13:22)
+  - finding: 2:272 describes spending as ibtighāʾ of God's face; 4:34 names spending and later prohibits tabghū a way against women. The shared b-gh-y root could contrast seeking God's approval with seeking leverage in a relationship.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 2:272 «وَمَا تُنفِقُونَ إِلَّا ٱبْتِغَآءَ وَجْهِ ٱللَّهِ»
+  - missing: The focus does not grammatically connect its spending clause to its later ban, nor say expenditure seeks leverage; a closer passage joining household spending with the object of pursuit could decide the contrast.
+- **R-9:28** [open; support weak, relevance high] inter-ayah target
+  - finding: 9:28 places fear of poverty beside God’s promise to enrich from His bounty. Beside the focus’s claim that expenditure grounds qiwama, it raises whether material dependence is ultimately framed as human provision under divine guarantee.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 9:28 «وَإِنْ خِفْتُمْ عَيْلَةًۭ فَسَوْفَ يُغْنِيكُمُ ٱللَّهُ مِن فَضْلِهِۦٓ»
+  - missing: 9:28 concerns fear of poverty after excluding polytheists from the sacred mosque, not household support. A passage linking men’s spending in 4:34 to reliance on God or to the limits of financial dependence could decide the connection.
+- **R-2:215** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The expenditure clause in 4:34 fits a Quranic pattern of asking where spending should go: 2:215 names parents, relatives, orphans, the needy, and travelers as recipients. This presents spending as directed support within relationships.
+  - evidence: 2:215 «قُلْ مَآ أَنفَقْتُم مِّنْ خَيْرٍۢ فَلِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ»; 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»
+  - activation: Both passages use the root ن ف ق for spending and connect it to a material source or recipients.
+  - limits: The listed recipients in 2:215 do not explicitly include wives or explain the household role in 4:34.
+- **related_1.X5** [reading; support strong, relevance medium] 
+  - finding: The surah opens by describing humanity as created from one self and its mate before turning to the men-and-women relation in 4:34. That opening places the later differentiated household role within a shared human origin.
+  - evidence: 4:1 «خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَخَلَقَ مِنْهَا زَوْجَهَا»; 4:1 «وَبَثَّ مِنْهُمَا رِجَالًۭا كَثِيرًۭا وَنِسَآءًۭ»; 4:34 «ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ»
+  - activation: The surah’s opening genealogy names one self, its mate, and the ensuing spread of men and women before its household rulings.
+  - limits: Shared origin does not itself establish equal roles or determine the scope of qiwama.
+- **R-6:92** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The shared ح ف ظ family connects women guarding الغيب with believers who يُحَافِظُونَ على الصلاة. The focus’s حَٰفِظَٰتٌ can be heard as active fidelity across a hidden household domain, alongside the distinct work of preserving prayer.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 6:92 «وَهُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ»
+  - activation: Both passages describe ongoing preservation, though one uses an active participle and the other a Form III verb.
+  - limits: The guarded objects and grammatical forms differ; 6:92 does not identify prayer with the household trust in 4:34.
+- **R-24:32** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 24:32 pairs marriage-making with provision for poverty and names صالحين, while 4:34 names الصالحات and grounds qiwāma partly in spending. Together they place marital roles alongside marriage access and material need.
+  - evidence: 4:34 «بِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ ۚ فَٱلصَّٰلِحَٰتُ»; 24:32 «وَأَنكِحُوا۟ ٱلْأَيَٰمَىٰ مِنكُمْ وَٱلصَّٰلِحِينَ مِنْ عِبَادِكُمْ وَإِمَآئِكُمْ»; 24:32 «إِن يَكُونُوا۟ فُقَرَآءَ يُغْنِهِمُ ٱللَّهُ مِن فَضْلِهِۦ»
+  - activation: The focus joins a righteous-women profile to men's expenditure; 24:32 joins marriage to poverty and divine provision.
+  - limits: The forms صالحات and صالحين differ, and 24:32 does not define the role or rank described in 4:34.
+- **R-59:22** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus’s guarded الغيب belongs to a domain God knows together with what is witnessed; the hidden sphere is not outside divine knowledge or oversight.
+  - evidence: 4:34 «لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ»; 59:22 «عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ»
+  - activation: The same term الغيب is paired with its opposite الشهادة in 59:22, under a divine name.
+  - limits: 59:22 states God’s knowledge, not the specific meaning or human scope of guarding الغيب in 4:34.
+- **R-f-صلح-وعظ** [reading; support medium, relevance medium] formula family (ص ل ح + و ع ظ; 1 ayat: 11:46)
+  - finding: Noah calls his son back from ignorance after naming his deed unsound; this gives وَعَظَ a corrective, redirecting use that can illuminate why admonition is the first response to feared nushuz.
+  - evidence: 4:34 «فَعِظُوهُنَّ»; 11:46 «إِنَّهُۥ عَمَلٌ غَيْرُ صَٰلِحٍۢ»; 11:46 «إِنِّىٓ أَعِظُكَ أَن تَكُونَ مِنَ ٱلْجَٰهِلِينَ»
+  - activation: Both passages place admonition beside an unsound or feared state and present it as a verbal response.
+  - limits: The Noah passage does not establish the full sequence or the intended manner of the marital admonition.
+- **R-10:88** [open; support medium, relevance medium] inter-ayah target
+  - finding: 10:88 places wealth given to Pharaoh and his council beside adornment, then links it to leading people astray. Alongside the focus’s mention of spending from wealth, this raises whether resources carry an ethical responsibility rather than validating status.
+  - evidence: 4:34 «وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ»; 10:88 «ءَاتَيْتَ فِرْعَوْنَ وَمَلَأَهُۥ زِينَةًۭ وَأَمْوَٰلًۭا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا رَبَّنَا لِيُضِلُّوا۟ عَن سَبِيلِكَ»
+  - missing: 10:88 does not describe household provision or say who spends this wealth; a passage directly linking a spouse’s expenditure with marital responsibility could establish the connection.
+- **R-16:47** [open; support medium, relevance medium] inter-ayah target
+  - finding: The focus has takhāfūna, while 16:47 describes God taking people ʿalā takhawwuf. Their shared kh-w-f root raises whether fear in the focus is apprehension of a developing risk, as distinct from fear as a state or a manner of divine seizure.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ»; 16:47 «أَوْ يَأْخُذَهُمْ عَلَىٰ تَخَوُّفٍۢ»
+  - missing: A dictionary sense or parallel use could establish the precise force of takhawwuf in 16:47 and whether it illuminates the focus’s fear of possible nushūz.
+- **R-19:45** [open; support medium, relevance medium] inter-ayah target
+  - finding: Abraham addresses his father about worship and says he fears punishment for him; the focus has men fear a wife’s nushūz before admonishing her. Both place apprehension within family relations, but the object and direction of concern differ.
+  - evidence: 4:34 «وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ»; 19:44 «يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ»; 19:45 «إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌۭ مِّنَ ٱلرَّحْمَٰنِ»
+  - missing: A Quranic family warning that explicitly links khawf with waʿẓ, or a direct parallel between the two counsel sequences, could establish whether this is more than a shared family-fear pattern.
+- **R-62:10** [open; support medium, relevance medium] inter-ayah target
+  - finding: The root f-ḍ-l links focus فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ with the instruction to seek مِن فَضْلِ ٱللَّهِ after prayer. This raises whether the focus's differentiation belongs to a wider frame of divine bounty that people may also seek.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍۢ»; 62:10 «وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ»
+  - missing: The forms and settings differ: a verb of differentiating in 4:34 and a noun for bounty in 62:10. A lexical account or closer Quranic parallel could establish whether their senses overlap here.
+- **R-81:24** [open; support medium, relevance medium] inter-ayah target
+  - finding: In 81:24 the Prophet is described as not withholding from al-ghayb; this transmission sense contrasts with 4:34's guarded domain and cautions against taking the shared noun as a settled reference to spousal absence.
+  - evidence: 4:34 «حَٰفِظَٰتٌۭ لِّلْغَيْبِ»; 81:24 «وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍۢ»
+  - missing: The grammatical roles differ: al-ghayb is what is not withheld in 81:24 and the domain of guarding in 4:34. A Quranic parallel with the same construction and a household referent could determine how far the meanings connect.
+- **R-83:19** [open; support medium, relevance medium] inter-ayah target
+  - finding: The root ʿ-l-w links the focus's عَلِيًّا to عِلِّيِّينَ, which 83:18–20 associates with the record of the righteous; this raises an eschatological scale for the focus's divine height.
+  - evidence: 4:34 «عَلِيًّا كَبِيرًا»; 83:18 «إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ»; 83:19 «وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ»
+  - missing: The shared root marks elevation, but 83:18–20 concerns a written record, not God's attribute or household relations. A closer Quranic pairing or lexical account could establish whether the vertical imagery bears on the focus's coda.
+- **R-f-خوف-فضل-كبر** [open; support medium, relevance medium] formula family (خ و ف + ف ض ل + ك ب ر; 1 ayat: 11:3)
+  - finding: In 11:3, God grants each possessor of فضل his فضل and the speaker warns of a great day; this raises a possible allocation-and-accountability frame beside the focus's فَضَّلَ and كَبِيرًا.
+  - evidence: 4:34 «بِمَا فَضَّلَ ٱللَّهُ»; 4:34 «عَلِيًّا كَبِيرًا»; 11:3 «وَيُؤْتِ كُلَّ ذِى فَضْلٍۢ فَضْلَهُۥ»; 11:3 «أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍۢ كَبِيرٍ»
+  - missing: The focus's fear concerns nushuz, whereas 11:3 warns of divine punishment; its forms of فضل also differ. A direct Quranic link between the focus's allocated فضل and accountability would be needed to establish this frame.
+- **R-6:81** [open; support weak, relevance medium] inter-ayah target
+  - finding: Abraham challenges the object of fear: he rejects fear of what his people associate and asks why they do not fear associating without warrant. Alongside تَخَافُونَ نُشُوزَهُنَّ, this raises whether fear itself is enough to validate the response it prompts.
+  - evidence: 4:34 «تَخَافُونَ نُشُوزَهُنَّ»; 6:81 «وَكَيْفَ أَخَافُ مَآ أَشْرَكْتُمْ وَلَا تَخَافُونَ أَنَّكُمْ أَشْرَكْتُم بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ عَلَيْكُمْ سُلْطَٰنًۭا»
+  - missing: The shared root خ و ف is clear, but the passage does not connect fear of nushuz to warranted or unwarranted fear. A Quranic statement specifying what grounds the fear in 4:34 could supply that link.
+- **R-7:35** [open; support weak, relevance medium] inter-ayah target
+  - finding: The shared خ و ف root sets domestic apprehension beside a promise of no fear for those who are mindful and reform. This could place the focus’s feared nushuz procedure against a Quranic route from fear to reform and security.
+  - evidence: 4:34 «تَخَافُونَ نُشُوزَهُنَّ»; 7:35 «فَمَنِ ٱتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ»
+  - missing: The verses do not connect marital nushuz to the taqwa and reform in 7:35. A passage linking household conflict to الإصلاح or to the removal of fear could establish the proposed relation.
+- **R-f-سبل-صلح** [open; support weak, relevance medium] formula family (س ب ل + ص ل ح; 2 ayat: 7:142, 9:120)
+  - finding: 7:142 couples a command to reform with a warning not to follow the path of corrupters. Alongside the focus's al-ṣāliḥāt and its ban on pursuing a path against women, it offers a possible contrast between soundness and a corrupting course.
+  - evidence: 4:34 «فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ»; 4:34 «فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا»; 7:142 «وَأَصْلِحْ وَلَا تَتَّبِعْ سَبِيلَ ٱلْمُفْسِدِينَ»
+  - missing: The focus names neither iṣlāḥ nor corrupters; a passage applying that reform-versus-corruption contrast to marital conduct would supply the decisive link.
+
+Notes:
+- R-37:93 [support strong, relevance high] Abraham’s ضربًا بِٱلْيَمِينِ is a Quranic scene of forceful physical blows, keeping that bodily branch of ض ر ب available for the focus verb.
+- R-f-طوع-نفق [support strong, relevance high] 64:16 addresses believers collectively to obey and spend, then warns against avarice. Beside 4:34, its pairing sets communal obedience and expenditure next to a household passage that assigns them different roles.
+- R-2:61 [support strong, relevance medium] The root ض ر ب can describe disgrace being imposed on a people in 2:61, while 4:34 uses an active imperative with women as its direct object. The root has a broader range, but this parallel does not decide which sense the imperative carries.
+- R-3:100 [support strong, relevance medium] Both passages make obedience conditional in its consequences: 3:100 warns that obeying a faction among the recipients of scripture can undo faith, while 4:34 follows compliance by forbidding a further avenue against the women.
+- R-4:22 [support strong, relevance medium] 4:22 calls a prohibited marital course سَبِيلًا, while 4:34 forbids seeking سَبِيلًا against women after compliance. The shared word places the focus’s phrase in a surah that uses path language for regulated marital conduct.
+- R-4:124 [support strong, relevance medium] 4:124 explicitly gives the same reward to righteous believing men and women and says they will not be wronged. This limits any expansion of 4:34’s household distinction into a claim about unequal access to spiritual reward.
+- R-8:50 [support strong, relevance medium] 8:50 depicts angels physically striking faces and backs, adding another bodily-strike use of ض ر ب beside وَٱضْرِبُوهُنَّ.
+- R-14:24 [support strong, relevance medium] 14:24 uses the same ḍ-r-b root in “ḍaraba Allah mathalan,” setting forth the parable of a good word as a firmly rooted tree. The distinct object and construction show why the root alone cannot settle the focus’s contested imperative.
+- R-16:74 [support strong, relevance medium] 16:74 uses the second-person plural imperative of the same ḍ-r-b root with al-amthāl as its object, in a ban on making likenesses for God. The different object warns against assigning the focus’s imperative a sense from the root alone.
+- R-17:43 [support strong, relevance medium] 17:43 describes God as transcending what they say with ʿuluwwan kabīran, echoing the focus’s ʿAliyyan Kabīran in different grammatical forms. It reinforces the divine-height register of the coda.
+- R-21:32 [support strong, relevance medium] 21:32 calls the sky a protected roof using the h-f-z root, the same root as the focus’s hāfizāt and “what God preserved.” It offers a cosmic instance of preservation, while leaving the focus’s guarded domain human and relational.
+- R-22:53 [support strong, relevance medium] 22:53 calls the wrongdoers’ condition shiqāq baʿīd, a distant rupture; 4:35 uses shiqāq for feared discord between spouses immediately after the focus. The shared term places marital discord within a wider Quranic vocabulary of division, while its severity and setting vary.
+- R-22:62 [support strong, relevance medium] 22:62 names God al-ʿAliyy al-Kabīr, closely matching the focus’s ʿAliyyan Kabīran; it also calls God al-ḥaqq in contrast with what others invoke. This gives the focus’s closing attributes a neighboring Quranic association with divine truth and supremacy.
+- R-23:46 [support strong, relevance medium] The same ʿ-l-w root describes Pharaoh's people as عَالِينَ and God as عَلِيًّا; this permits a contrast between divine highness and worldly elites' elevation.
+- R-23:67 [support strong, relevance medium] The h-j-r root also appears in 23:67 as تَهْجُرُونَ during an accusation about nighttime talk; this shows that the root alone does not settle the sense of the focus's bed-related command.
+- R-29:29 [support strong, relevance medium] 29:29 uses ٱلسَّبِيلَ for a path that Lot's people cut, while 4:34 prohibits seeking a سَبِيلًا against women; the shared noun carries a physical or social route alongside a hostile course of action.
+- R-29:43 [support strong, relevance medium] The same Form I root ḍ-r-b appears in نَضْرِبُهَا for setting forth examples, confirming that the root has Quranic uses beyond striking; its object and construction differ from the focus's imperative.
+- R-30:25 [support strong, relevance medium] A q-w-m form also describes heaven and earth standing by God's command, broadening the root's Quranic range around stability and sustaining order.
+- R-33:47 [support strong, relevance medium] 33:47 calls God's gift of فضل to believers كبيرًا, bringing together the focus's f-ḍ-l verb and its closing adjective كبيرًا in a divine-giving frame.
+- R-38:44 [support strong, relevance medium] Job’s command specifies a bundle as the means of striking; this shows a Quranic case where the instrument makes a strike measured, while 4:34 gives no such instrument.
+- R-47:4 [support strong, relevance medium] The expression فَضَرْبَ ٱلرِّقَابِ uses the root for lethal battlefield violence, another explicit physical branch of ض ر ب relevant to the focus imperative.
+- R-f-سبل-مول-نفق [support strong, relevance medium] The linked verses show that spending wealth in a sabil can be praised or condemned depending on its destination: 2:261 praises it, while 8:36 describes spending to obstruct God's way. That pattern keeps 4:34's expenditure from proving moral authority by amount alone.
+- R-f-سبل-مول-هجر [support strong, relevance medium] The h-j-r root spans migration with striving and wealth in 9:20, but in 4:34 the command is expressly located in the beds; the wider usage makes that local boundary salient.
+- R-f-صلح-طوع [support strong, relevance medium] The focus calls women al-ṣāliḥāt and makes their obedience to the male addressee a condition in the procedure; 4:69 connects obedience to God and the Messenger with the company of the righteous. The shared words place these forms of obedience beside different authorities.
+- R-f-سبل-هجر [support strong, relevance medium] The migration passages pair h-j-r with God's path, whereas 4:34 pairs the command with beds. The contrast shows that the focus localizes separation to a private setting rather than naming a departure along a public path.
+- R-f-سبل-طوع [support strong, relevance medium] 31:15 forbids obeying parents in a matter of shirk but still commands kind companionship and following the path of those who turn to God. This gives a nearby Quranic pattern in which relational obedience has limits and right conduct continues across disagreement.
+- R-2:83 [support medium, relevance medium] The covenant’s instruction to speak good words to people offers a broad speech ethic alongside the focus’s first response, admonition. It may support hearing that step as constructive counsel.
+- R-f-بعض-هجر [support medium, relevance medium] 8:75 joins migration with kin being more entitled to one another; its هَاجَرُوا۟ and relational بَعْض construction echo 4:34, but the forms and settings differ from bed-specific وَٱهْجُرُوهُنَّ.
+- R-f-حفظ-طوع [support medium, relevance medium] In the same surah, the Messenger is explicitly not sent as حَفِيظًا over those who turn away; this gives a boundary around reading the focus’s حَٰفِظَٰتٌ as a duty to control people.
+- R-3:139 [support medium, relevance medium] The focus closes by calling God عَلِيًّا, while 3:139 calls believers ٱلْأَعْلَوْنَ under a condition of faith. The shared height language allows a contrast between a divine attribute and a conditional human standing.
+- R-4:2 [support medium, relevance medium] The early commands forbid absorbing or consuming orphans’ assets; 4:34 names spending from men’s wealth as a ground for their role. Together they place household resources in a field of duties and restrictions, not unrestricted possession.
+- R-4:6 [support medium, relevance medium] The orphan-property instructions make guardianship accountable to demonstrated maturity and then require returning the assets. This offers a nearby stewardship pattern for hearing a responsibility tied to resources, while keeping the focus’s marital relation distinct.
+- R-4:9 [support medium, relevance medium] The surah asks people to imagine fearing for weak descendants left behind and connects that concern to taqwa and just speech. This supplies a nearby ethic of protective foresight that can accompany 4:34’s provision language.
+- R-5:5 [support medium, relevance medium] This later marriage rule extends the pattern of payment to women while pairing it with chastity and rejecting fornication and secret lovers. It is a cross-surah parallel for hearing material provision within a bounded marital relation.
+- R-9:44 [support medium, relevance medium] 9:44 presents believers’ wealth as something they actively commit alongside their persons; beside أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ, it places material outlay in a wider field of responsibility and commitment.
+- R-16:60 [support medium, relevance medium] 16:60 names God al-mathal al-aʿlā and al-ʿAzīz al-Ḥakīm, giving another divine frame of supremacy near the focus’s ʿAliyyan Kabīran. It supports hearing the coda as placing the preceding human relations under divine transcendence.
+- R-17:27 [support medium, relevance medium] 17:26 assigns a due to close kin and forbids waste; 17:27 calls spendthrifts brothers of devils. Beside the focus’s expenditure from wealth, the sequence distinguishes provision that fulfills a right from wealth squandered.
+- R-17:87 [support medium, relevance medium] 17:87 calls God’s faḍl toward the Prophet great; the focus uses the related verb faḍḍala for God’s differentiation among people. This gives the root a clear Quranic use as divinely granted favor.
+- R-20:111 [support medium, relevance medium] 20:111 names God al-Ḥayy al-Qayyūm, before whom all faces bow; the focus calls men qawwāmūn over women. The shared q-w-m root makes the human role sound finite under the divine Sustainer.
+- R-21:79 [support medium, relevance medium] The focus passage moves from marital discord in 4:34 to appointing two arbiters in 4:35; 21:78–79 offers another dispute scene, with David and Solomon judging a damaged field and God witnessing their judgment. This wider Quranic setting makes adjudication and understanding a relevant companion to the focus’s response sequence.
+- R-23:6 [support medium, relevance medium] The spouses exception in 23:6 specifies the sexual boundary surrounding the guarding in 23:5, making marital fidelity one possible dimension of 4:34's guarding.
+- R-28:18 [support medium, relevance medium] Both verses use the kh-w-f root for apprehension: Moses is خَائِفًا while anticipating danger, and the focus addresses men who fear nushuz. The parallel keeps the fear located in the perceiver's outlook.
+- R-33:59 [support medium, relevance medium] The focus names women within a household rule, while 33:59 also directs protection of the Prophet’s wives, daughters, and believing women from harm in public.
+- R-60:8 [support medium, relevance medium] Both passages make restraint turn on the other party’s conduct: after women obey, 4:34 forbids pursuing a way against them; toward those who do not fight or expel, 60:8 permits kindness and equity.
+- R-70:24 [support medium, relevance medium] The known right in their wealth, حَقٌّۭ مَّعْلُومٌۭ, offers a Quranic parallel for treating wealth as carrying obligations; it does not identify the focus's spending as a right owed to wives.
+- R-f-سبل-فضل-هجر [support medium, relevance medium] 24:22 joins abundance with giving and pardon; beside 4:34, it offers a scene where faḍl leads to generosity and restraint rather than a stated household role.
+- R-f-صلح-فضل [support medium, relevance medium] 30:45 and 42:26 describe reward or increase for righteous deeds as coming from God's faḍl. Beside 4:34, that usage keeps divine favor as God's gift, without making qiwāma itself a measure of spiritual merit.
+- R-f-كبر-نفق [support medium, relevance medium] 57:7 frames spending as use of what God made people successors over and promises an ajr kabīr. The focus instead makes spending a ground of qiwāma and predicates kabīran of God, keeping material support distinct from an explicit reward claim.
+- R-4:26 [support strong, relevance low] The nearby marriage rules are followed by a stated divine purpose of clarification, guidance, and turning toward people in repentance.
+- R-4:28 [support strong, relevance low] The surah states that God intends to lighten the burden on people and describes humans as weak shortly before its later household rules.
+- R-25:9 [support strong, relevance low] Both verses use سَبِيلًا for a way: 25:9 says the people cannot find one, while 4:34 forbids pursuing one against the women. The contrast displays the noun's range without equating the cases.
+- R-27:55 [support strong, relevance low] 27:55 explicitly contrasts men and women in a statement about sexual desire, showing the pair used in a distinct Quranic discussion of sexual conduct.
+- R-30:15 [support strong, relevance low] The same ṣ-l-ḥ root appears in the focus's الصالحات and in 30:15's righteous deeds; the latter places that quality in a faith-and-reward profile.
+- R-70:34 [support strong, relevance low] The verb يُحَافِظُونَ applies the h-f-ẓ root to sustained observance of prayer; it supports an ongoing-practice sense for حَٰفِظَٰتٌ in the focus, without naming what they guard.
+- R-73:20 [support strong, relevance low] The roots of تَقُومُ and أَقِيمُوا۟ describe standing and establishing prayer in 73:20; they show another active use of the root behind قَوَّٰمُونَ, though the form and relation differ.
+- R-74:5 [support strong, relevance low] The imperative فَٱهْجُرْ takes الرُّجْزَ as its object in 74:5, showing that the h-j-r root can denote abandoning a thing; in 4:34 the object is women and the phrase confines the action to beds.
+- R-82:10 [support strong, relevance low] The h-f-ẓ root also names guardians عَلَيْكُمْ in 82:10, then identifies them as recorders in 82:11; this supplies an oversight use of the root beside the focus's human حَٰفِظَٰتٌ.
+- R-83:33 [support strong, relevance low] The statement that believers were not sent as حَٰفِظِينَ عَلَيْهِمْ gives the h-f-ẓ root a bounded role of guardianship over other people, distinct from the focus's women guarding لِّلْغَيْبِ.
+- R-88:10 [support strong, relevance low] The adjective عَالِيَةٍۢ describes a garden in 88:10, offering a Quranic image of elevated reward beside God's عَلِيًّا in the focus.
+- R-f-سبل-علو-نفق [support strong, relevance low] The family's n-f-q item is نَافَقُوا۟ in 3:167, meaning acted hypocritically in that scene; it is a different form and sense from أَنفَقُوا۟, spent, in 4:34.
+- R-f-بعض-سبل [support medium, relevance low] The same surah later pairs بَعْضٍ with سَبِيلًا in a condemnation of dividing belief selectively; this echoes the separated “some over some” and “way against them” in 4:34 without establishing a shared argument.
+- R-f-خوف-مول [support medium, relevance low] 4:34 places wealth spent before the fear-triggered procedure, while 2:155 groups fear and loss of wealth among trials; the pairing offers a vulnerability context but no direct household link.
+- R-f-سبل-نسو [support medium, relevance low] 4:43 uses سَبِيل in a restriction with an exception for passing through and later mentions contact with women; this faintly echoes the focus’s regulation of a way in a passage about women, but their legal settings differ.
+- R-f-صلح-نفق [support medium, relevance low] 63:10 joins spending from God’s provision with the wish to be among the righteous; this echoes 4:34’s proximity of expenditure and ٱلصَّٰلِحَٰتُ without explaining their marital relation.
+- R-4:29 [support medium, relevance low] The surah’s general rule for dealings among people bars wrongful taking and names mutual consent as the basis of trade; this places 4:34’s spending rationale within a wider concern with legitimate economic relations.
+- R-4:33 [support medium, relevance low] The verse immediately before 4:34 tells people to give others their allotted share; the focus then names expenditure from men’s wealth as a ground of household responsibility. This keeps the role claim in a sequence concerned with who receives what is due.
+- R-9:72 [support medium, relevance low] The focus closes with كَبِيرًا for God; 9:72 uses the same ك ب ر root to say that God’s good pleasure is greater than the promised dwellings. This can place divine evaluation above human measures of rank.
+- R-23:9 [support medium, relevance low] Preserving prayer in 23:9 sits within a believer profile that also names care for trusts and covenants; this modestly parallels the focus's devotional and guarding qualities.
+- R-24:60 [support medium, relevance low] 24:60 gives older women a qualified clothing allowance while restricting display; it is another rule for women's visible conduct, with an age-specific condition absent from the focus.
+- R-33:55 [support medium, relevance low] 33:55 lists family members before whom the Prophet's wives have no offense, showing that Quranic household privacy can be calibrated by relationship.
+- R-78:8 [support medium, relevance low] The broad creation statement خَلَقْنَٰكُمْ أَزْوَٰجًا places the focus's men-and-women relation within Quranic pair language, but it gives no household duties.
+- R-98:3 [support medium, relevance low] The root q-w-m describes كُتُبٌۭ قَيِّمَةٌۭ in 98:3, an upright or established quality of books; this is a distinct Quranic form beside the focus's قَوَّٰمُونَ.
+- R-f-خوف-مول-نفق [support medium, relevance low] The spenders of 2:274 are promised no fear, pairing wealth outflow with security; 4:34 also places spending beside a fear clause, though its fear concerns nushuz.
+- R-f-سبل-طوع-نفق [support medium, relevance low] The spending command in 8:60 is framed by مَا ٱسْتَطَعْتُم, giving a capacity measure for expenditure in a military setting beside 4:34's reference to what men spent from their wealth.
+- R-f-صلح-كبر [support medium, relevance low] The focus places al-ṣāliḥāt and the divine predicate kabīran in one ayah; elsewhere righteous deeds are paired with an ajr kabīr. That reward vocabulary may accompany the positive profile, though the focus predicates greatness of God.
+- R-f-صلح-علو [support medium, relevance low] 20:75 pairs righteous works with the highest ranks; 4:34 places al-ṣāliḥāt near the divine predicate ʿAliyyan. The shared moral and height vocabulary could let the profile sound against a horizon of elevation.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:3 ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
+- 2:61 وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍۢ وَٰحِدٍۢ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًۭا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ
+- 2:73 فَقُلْنَا ٱضْرِبُوهُ بِبَعْضِهَا ۚ كَذَٰلِكَ يُحْىِ ٱللَّهُ ٱلْمَوْتَىٰ وَيُرِيكُمْ ءَايَٰتِهِۦ لَعَلَّكُمْ تَعْقِلُونَ
+- 2:83 وَإِذْ أَخَذْنَا مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًۭا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًۭا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ
+- 2:90 بِئْسَمَا ٱشْتَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ أَن يَكْفُرُوا۟ بِمَآ أَنزَلَ ٱللَّهُ بَغْيًا أَن يُنَزِّلَ ٱللَّهُ مِن فَضْلِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ فَبَآءُو بِغَضَبٍ عَلَىٰ غَضَبٍۢ ۚ وَلِلْكَٰفِرِينَ عَذَابٌۭ مُّهِينٌۭ
+- 2:155 وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ
+- 2:182 فَمَنْ خَافَ مِن مُّوصٍۢ جَنَفًا أَوْ إِثْمًۭا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 2:187 أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌۭ لَّكُمْ وَأَنتُمْ لِبَاسٌۭ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ
+- 2:195 وَأَنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلَا تُلْقُوا۟ بِأَيْدِيكُمْ إِلَى ٱلتَّهْلُكَةِ ۛ وَأَحْسِنُوٓا۟ ۛ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ
+- 2:215 يَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ ۖ قُلْ مَآ أَنفَقْتُم مِّنْ خَيْرٍۢ فَلِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍۢ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌۭ
+- 2:222 وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًۭى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ
+- 2:223 نِسَآؤُكُمْ حَرْثٌۭ لَّكُمْ فَأْتُوا۟ حَرْثَكُمْ أَنَّىٰ شِئْتُمْ ۖ وَقَدِّمُوا۟ لِأَنفُسِكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُم مُّلَٰقُوهُ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ
+- 2:228 وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍۢ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًۭا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌۭ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ
+- 2:229 ٱلطَّلَٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَٰنٍۢ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ
+- 2:231 وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍۢ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًۭا لِّتَعْتَدُوا۟ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ وَلَا تَتَّخِذُوٓا۟ ءَايَٰتِ ٱللَّهِ هُزُوًۭا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَٰبِ وَٱلْحِكْمَةِ يَعِظُكُم بِهِۦ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 2:232 وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَلَا تَعْضُلُوهُنَّ أَن يَنكِحْنَ أَزْوَٰجَهُنَّ إِذَا تَرَٰضَوْا۟ بَيْنَهُم بِٱلْمَعْرُوفِ ۗ ذَٰلِكَ يُوعَظُ بِهِۦ مَن كَانَ مِنكُمْ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۗ ذَٰلِكُمْ أَزْكَىٰ لَكُمْ وَأَطْهَرُ ۗ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ
+- 2:233 ۞ وَٱلْوَٰلِدَٰتُ يُرْضِعْنَ أَوْلَٰدَهُنَّ حَوْلَيْنِ كَامِلَيْنِ ۖ لِمَنْ أَرَادَ أَن يُتِمَّ ٱلرَّضَاعَةَ ۚ وَعَلَى ٱلْمَوْلُودِ لَهُۥ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِٱلْمَعْرُوفِ ۚ لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا ۚ لَا تُضَآرَّ وَٰلِدَةٌۢ بِوَلَدِهَا وَلَا مَوْلُودٌۭ لَّهُۥ بِوَلَدِهِۦ ۚ وَعَلَى ٱلْوَارِثِ مِثْلُ ذَٰلِكَ ۗ فَإِنْ أَرَادَا فِصَالًا عَن تَرَاضٍۢ مِّنْهُمَا وَتَشَاوُرٍۢ فَلَا جُنَاحَ عَلَيْهِمَا ۗ وَإِنْ أَرَدتُّمْ أَن تَسْتَرْضِعُوٓا۟ أَوْلَٰدَكُمْ فَلَا جُنَاحَ عَلَيْكُمْ إِذَا سَلَّمْتُم مَّآ ءَاتَيْتُم بِٱلْمَعْرُوفِ ۗ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 2:238 حَٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ
+- 2:251 فَهَزَمُوهُم بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍۢ لَّفَسَدَتِ ٱلْأَرْضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَٰلَمِينَ
+- 2:255 ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌۭ وَلَا نَوْمٌۭ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍۢ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ
+- 2:259 أَوْ كَٱلَّذِى مَرَّ عَلَىٰ قَرْيَةٍۢ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحْىِۦ هَٰذِهِ ٱللَّهُ بَعْدَ مَوْتِهَا ۖ فَأَمَاتَهُ ٱللَّهُ مِا۟ئَةَ عَامٍۢ ثُمَّ بَعَثَهُۥ ۖ قَالَ كَمْ لَبِثْتَ ۖ قَالَ لَبِثْتُ يَوْمًا أَوْ بَعْضَ يَوْمٍۢ ۖ قَالَ بَل لَّبِثْتَ مِا۟ئَةَ عَامٍۢ فَٱنظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ ۖ وَٱنظُرْ إِلَىٰ حِمَارِكَ وَلِنَجْعَلَكَ ءَايَةًۭ لِّلنَّاسِ ۖ وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًۭا ۚ فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعْلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 2:261 مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍۢ مِّا۟ئَةُ حَبَّةٍۢ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ
+- 2:262 ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتْبِعُونَ مَآ أَنفَقُوا۟ مَنًّۭا وَلَآ أَذًۭى ۙ لَّهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 2:265 وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ وَتَثْبِيتًۭا مِّنْ أَنفُسِهِمْ كَمَثَلِ جَنَّةٍۭ بِرَبْوَةٍ أَصَابَهَا وَابِلٌۭ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِن لَّمْ يُصِبْهَا وَابِلٌۭ فَطَلٌّۭ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ
+- 2:272 ۞ لَّيْسَ عَلَيْكَ هُدَىٰهُمْ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍۢ فَلِأَنفُسِكُمْ ۚ وَمَا تُنفِقُونَ إِلَّا ٱبْتِغَآءَ وَجْهِ ٱللَّهِ ۚ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍۢ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ
+- 2:273 لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًۭا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًۭا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍۢ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ
+- 2:274 ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُم بِٱلَّيْلِ وَٱلنَّهَارِ سِرًّۭا وَعَلَانِيَةًۭ فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 2:282 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى فَٱكْتُبُوهُ ۚ وَلْيَكْتُب بَّيْنَكُمْ كَاتِبٌۢ بِٱلْعَدْلِ ۚ وَلَا يَأْبَ كَاتِبٌ أَن يَكْتُبَ كَمَا عَلَّمَهُ ٱللَّهُ ۚ فَلْيَكْتُبْ وَلْيُمْلِلِ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ وَلَا يَبْخَسْ مِنْهُ شَيْـًۭٔا ۚ فَإِن كَانَ ٱلَّذِى عَلَيْهِ ٱلْحَقُّ سَفِيهًا أَوْ ضَعِيفًا أَوْ لَا يَسْتَطِيعُ أَن يُمِلَّ هُوَ فَلْيُمْلِلْ وَلِيُّهُۥ بِٱلْعَدْلِ ۚ وَٱسْتَشْهِدُوا۟ شَهِيدَيْنِ مِن رِّجَالِكُمْ ۖ فَإِن لَّمْ يَكُونَا رَجُلَيْنِ فَرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ ۚ وَلَا يَأْبَ ٱلشُّهَدَآءُ إِذَا مَا دُعُوا۟ ۚ وَلَا تَسْـَٔمُوٓا۟ أَن تَكْتُبُوهُ صَغِيرًا أَوْ كَبِيرًا إِلَىٰٓ أَجَلِهِۦ ۚ ذَٰلِكُمْ أَقْسَطُ عِندَ ٱللَّهِ وَأَقْوَمُ لِلشَّهَٰدَةِ وَأَدْنَىٰٓ أَلَّا تَرْتَابُوٓا۟ ۖ إِلَّآ أَن تَكُونَ تِجَٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَلَّا تَكْتُبُوهَا ۗ وَأَشْهِدُوٓا۟ إِذَا تَبَايَعْتُمْ ۚ وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ ۚ وَإِن تَفْعَلُوا۟ فَإِنَّهُۥ فُسُوقٌۢ بِكُمْ ۗ وَٱتَّقُوا۟ ٱللَّهَ ۖ وَيُعَلِّمُكُمُ ٱللَّهُ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 3:17 ٱلصَّٰبِرِينَ وَٱلصَّٰدِقِينَ وَٱلْقَٰنِتِينَ وَٱلْمُنفِقِينَ وَٱلْمُسْتَغْفِرِينَ بِٱلْأَسْحَارِ
+- 3:32 قُلْ أَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ ۖ فَإِن تَوَلَّوْا۟ فَإِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْكَٰفِرِينَ
+- 3:43 يَٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ
+- 3:44 ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ
+- 3:64 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍۢ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًۭٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًۭا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ
+- 3:83 أَفَغَيْرَ دِينِ ٱللَّهِ يَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًۭا وَكَرْهًۭا وَإِلَيْهِ يُرْجَعُونَ
+- 3:99 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ تَبْغُونَهَا عِوَجًۭا وَأَنتُمْ شُهَدَآءُ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ
+- 3:100 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ فَرِيقًۭا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ يَرُدُّوكُم بَعْدَ إِيمَٰنِكُمْ كَٰفِرِينَ
+- 3:132 وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ
+- 3:139 وَلَا تَهِنُوا۟ وَلَا تَحْزَنُوا۟ وَأَنتُمُ ٱلْأَعْلَوْنَ إِن كُنتُم مُّؤْمِنِينَ
+- 3:149 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تُطِيعُوا۟ ٱلَّذِينَ كَفَرُوا۟ يَرُدُّوكُمْ عَلَىٰٓ أَعْقَٰبِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ
+- 3:167 وَلِيَعْلَمَ ٱلَّذِينَ نَافَقُوا۟ ۚ وَقِيلَ لَهُمْ تَعَالَوْا۟ قَٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَوِ ٱدْفَعُوا۟ ۖ قَالُوا۟ لَوْ نَعْلَمُ قِتَالًۭا لَّٱتَّبَعْنَٰكُمْ ۗ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَٰنِ ۚ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ
+- 3:175 إِنَّمَا ذَٰلِكُمُ ٱلشَّيْطَٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ
+- 3:195 فَٱسْتَجَابَ لَهُمْ رَبُّهُمْ أَنِّى لَآ أُضِيعُ عَمَلَ عَٰمِلٍۢ مِّنكُم مِّن ذَكَرٍ أَوْ أُنثَىٰ ۖ بَعْضُكُم مِّنۢ بَعْضٍۢ ۖ فَٱلَّذِينَ هَاجَرُوا۟ وَأُخْرِجُوا۟ مِن دِيَٰرِهِمْ وَأُوذُوا۟ فِى سَبِيلِى وَقَٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ثَوَابًۭا مِّنْ عِندِ ٱللَّهِ ۗ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلثَّوَابِ
+- 5:5 ٱلْيَوْمَ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ ۖ وَطَعَامُ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ حِلٌّۭ لَّكُمْ وَطَعَامُكُمْ حِلٌّۭ لَّهُمْ ۖ وَٱلْمُحْصَنَٰتُ مِنَ ٱلْمُؤْمِنَٰتِ وَٱلْمُحْصَنَٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخْدَانٍۢ ۗ وَمَن يَكْفُرْ بِٱلْإِيمَٰنِ فَقَدْ حَبِطَ عَمَلُهُۥ وَهُوَ فِى ٱلْءَاخِرَةِ مِنَ ٱلْخَٰسِرِينَ
+- 5:8 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ
+- 5:28 لَئِنۢ بَسَطتَ إِلَىَّ يَدَكَ لِتَقْتُلَنِى مَآ أَنَا۠ بِبَاسِطٍۢ يَدِىَ إِلَيْكَ لِأَقْتُلَكَ ۖ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ
+- 5:68 قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ ۗ وَلَيَزِيدَنَّ كَثِيرًۭا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًۭا وَكُفْرًۭا ۖ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 5:94 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَيَبْلُوَنَّكُمُ ٱللَّهُ بِشَىْءٍۢ مِّنَ ٱلصَّيْدِ تَنَالُهُۥٓ أَيْدِيكُمْ وَرِمَاحُكُمْ لِيَعْلَمَ ٱللَّهُ مَن يَخَافُهُۥ بِٱلْغَيْبِ ۚ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌۭ
+- 5:109 ۞ يَوْمَ يَجْمَعُ ٱللَّهُ ٱلرُّسُلَ فَيَقُولُ مَاذَآ أُجِبْتُمْ ۖ قَالُوا۟ لَا عِلْمَ لَنَآ ۖ إِنَّكَ أَنتَ عَلَّٰمُ ٱلْغُيُوبِ
+- 6:65 قُلْ هُوَ ٱلْقَادِرُ عَلَىٰٓ أَن يَبْعَثَ عَلَيْكُمْ عَذَابًۭا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ شِيَعًۭا وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ ٱلْءَايَٰتِ لَعَلَّهُمْ يَفْقَهُونَ
+- 6:81 وَكَيْفَ أَخَافُ مَآ أَشْرَكْتُمْ وَلَا تَخَافُونَ أَنَّكُمْ أَشْرَكْتُم بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ عَلَيْكُمْ سُلْطَٰنًۭا ۚ فَأَىُّ ٱلْفَرِيقَيْنِ أَحَقُّ بِٱلْأَمْنِ ۖ إِن كُنتُمْ تَعْلَمُونَ
+- 6:92 وَهَٰذَا كِتَٰبٌ أَنزَلْنَٰهُ مُبَارَكٌۭ مُّصَدِّقُ ٱلَّذِى بَيْنَ يَدَيْهِ وَلِتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا ۚ وَٱلَّذِينَ يُؤْمِنُونَ بِٱلْءَاخِرَةِ يُؤْمِنُونَ بِهِۦ ۖ وَهُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ
+- 6:104 قَدْ جَآءَكُم بَصَآئِرُ مِن رَّبِّكُمْ ۖ فَمَنْ أَبْصَرَ فَلِنَفْسِهِۦ ۖ وَمَنْ عَمِىَ فَعَلَيْهَا ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍۢ
+- 6:116 وَإِن تُطِعْ أَكْثَرَ مَن فِى ٱلْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ ٱللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ
+- 7:7 فَلَنَقُصَّنَّ عَلَيْهِم بِعِلْمٍۢ ۖ وَمَا كُنَّا غَآئِبِينَ
+- 7:35 يَٰبَنِىٓ ءَادَمَ إِمَّا يَأْتِيَنَّكُمْ رُسُلٌۭ مِّنكُمْ يَقُصُّونَ عَلَيْكُمْ ءَايَٰتِى ۙ فَمَنِ ٱتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 7:45 ٱلَّذِينَ يَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَيَبْغُونَهَا عِوَجًۭا وَهُم بِٱلْءَاخِرَةِ كَٰفِرُونَ
+- 7:48 وَنَادَىٰٓ أَصْحَٰبُ ٱلْأَعْرَافِ رِجَالًۭا يَعْرِفُونَهُم بِسِيمَىٰهُمْ قَالُوا۟ مَآ أَغْنَىٰ عَنكُمْ جَمْعُكُمْ وَمَا كُنتُمْ تَسْتَكْبِرُونَ
+- 7:86 وَلَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍۢ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ ءَامَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًۭا ۚ وَٱذْكُرُوٓا۟ إِذْ كُنتُمْ قَلِيلًۭا فَكَثَّرَكُمْ ۖ وَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُفْسِدِينَ
+- 7:142 ۞ وَوَٰعَدْنَا مُوسَىٰ ثَلَٰثِينَ لَيْلَةًۭ وَأَتْمَمْنَٰهَا بِعَشْرٍۢ فَتَمَّ مِيقَٰتُ رَبِّهِۦٓ أَرْبَعِينَ لَيْلَةًۭ ۚ وَقَالَ مُوسَىٰ لِأَخِيهِ هَٰرُونَ ٱخْلُفْنِى فِى قَوْمِى وَأَصْلِحْ وَلَا تَتَّبِعْ سَبِيلَ ٱلْمُفْسِدِينَ
+- 7:146 سَأَصْرِفُ عَنْ ءَايَٰتِىَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ ءَايَةٍۢ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًۭا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًۭا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ
+- 7:160 وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًۭا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًۭا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍۢ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ
+- 8:3 ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
+- 8:12 إِذْ يُوحِى رَبُّكَ إِلَى ٱلْمَلَٰٓئِكَةِ أَنِّى مَعَكُمْ فَثَبِّتُوا۟ ٱلَّذِينَ ءَامَنُوا۟ ۚ سَأُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ فَٱضْرِبُوا۟ فَوْقَ ٱلْأَعْنَاقِ وَٱضْرِبُوا۟ مِنْهُمْ كُلَّ بَنَانٍۢ
+- 8:26 وَٱذْكُرُوٓا۟ إِذْ أَنتُمْ قَلِيلٌۭ مُّسْتَضْعَفُونَ فِى ٱلْأَرْضِ تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمْ وَأَيَّدَكُم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمْ تَشْكُرُونَ
+- 8:36 إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ فَسَيُنفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةًۭ ثُمَّ يُغْلَبُونَ ۗ وَٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ يُحْشَرُونَ
+- 8:50 وَلَوْ تَرَىٰٓ إِذْ يَتَوَفَّى ٱلَّذِينَ كَفَرُوا۟ ۙ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ
+- 8:58 وَإِمَّا تَخَافَنَّ مِن قَوْمٍ خِيَانَةًۭ فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْخَآئِنِينَ
+- 8:60 وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍۢ وَمِن رِّبَاطِ ٱلْخَيْلِ تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَءَاخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍۢ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ
+- 8:72 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ ۚ وَٱلَّذِينَ ءَامَنُوا۟ وَلَمْ يُهَاجِرُوا۟ مَا لَكُم مِّن وَلَٰيَتِهِم مِّن شَىْءٍ حَتَّىٰ يُهَاجِرُوا۟ ۚ وَإِنِ ٱسْتَنصَرُوكُمْ فِى ٱلدِّينِ فَعَلَيْكُمُ ٱلنَّصْرُ إِلَّا عَلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌۭ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 8:73 وَٱلَّذِينَ كَفَرُوا۟ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ إِلَّا تَفْعَلُوهُ تَكُن فِتْنَةٌۭ فِى ٱلْأَرْضِ وَفَسَادٌۭ كَبِيرٌۭ
+- 8:74 وَٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا ۚ لَّهُم مَّغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ
+- 8:75 وَٱلَّذِينَ ءَامَنُوا۟ مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ مَعَكُمْ فَأُو۟لَٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍۢ فِى كِتَٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ
+- 9:5 فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍۢ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 9:20 ٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ أَعْظَمُ دَرَجَةً عِندَ ٱللَّهِ ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْفَآئِزُونَ
+- 9:28 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْمُشْرِكُونَ نَجَسٌۭ فَلَا يَقْرَبُوا۟ ٱلْمَسْجِدَ ٱلْحَرَامَ بَعْدَ عَامِهِمْ هَٰذَا ۚ وَإِنْ خِفْتُمْ عَيْلَةًۭ فَسَوْفَ يُغْنِيكُمُ ٱللَّهُ مِن فَضْلِهِۦٓ إِن شَآءَ ۚ إِنَّ ٱللَّهَ عَلِيمٌ حَكِيمٌۭ
+- 9:41 ٱنفِرُوا۟ خِفَافًۭا وَثِقَالًۭا وَجَٰهِدُوا۟ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ
+- 9:44 لَا يَسْتَـْٔذِنُكَ ٱلَّذِينَ يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ أَن يُجَٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلْمُتَّقِينَ
+- 9:53 قُلْ أَنفِقُوا۟ طَوْعًا أَوْ كَرْهًۭا لَّن يُتَقَبَّلَ مِنكُمْ ۖ إِنَّكُمْ كُنتُمْ قَوْمًۭا فَٰسِقِينَ
+- 9:54 وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَٰرِهُونَ
+- 9:71 وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌۭ
+- 9:72 وَعَدَ ٱللَّهُ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا وَمَسَٰكِنَ طَيِّبَةًۭ فِى جَنَّٰتِ عَدْنٍۢ ۚ وَرِضْوَٰنٌۭ مِّنَ ٱللَّهِ أَكْبَرُ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ
+- 10:83 فَمَآ ءَامَنَ لِمُوسَىٰٓ إِلَّا ذُرِّيَّةٌۭ مِّن قَوْمِهِۦ عَلَىٰ خَوْفٍۢ مِّن فِرْعَوْنَ وَمَلَإِي۟هِمْ أَن يَفْتِنَهُمْ ۚ وَإِنَّ فِرْعَوْنَ لَعَالٍۢ فِى ٱلْأَرْضِ وَإِنَّهُۥ لَمِنَ ٱلْمُسْرِفِينَ
+- 10:88 وَقَالَ مُوسَىٰ رَبَّنَآ إِنَّكَ ءَاتَيْتَ فِرْعَوْنَ وَمَلَأَهُۥ زِينَةًۭ وَأَمْوَٰلًۭا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا رَبَّنَا لِيُضِلُّوا۟ عَن سَبِيلِكَ ۖ رَبَّنَا ٱطْمِسْ عَلَىٰٓ أَمْوَٰلِهِمْ وَٱشْدُدْ عَلَىٰ قُلُوبِهِمْ فَلَا يُؤْمِنُوا۟ حَتَّىٰ يَرَوُا۟ ٱلْعَذَابَ ٱلْأَلِيمَ
+- 10:99 وَلَوْ شَآءَ رَبُّكَ لَءَامَنَ مَن فِى ٱلْأَرْضِ كُلُّهُمْ جَمِيعًا ۚ أَفَأَنتَ تُكْرِهُ ٱلنَّاسَ حَتَّىٰ يَكُونُوا۟ مُؤْمِنِينَ
+- 11:3 وَأَنِ ٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ يُمَتِّعْكُم مَّتَٰعًا حَسَنًا إِلَىٰٓ أَجَلٍۢ مُّسَمًّۭى وَيُؤْتِ كُلَّ ذِى فَضْلٍۢ فَضْلَهُۥ ۖ وَإِن تَوَلَّوْا۟ فَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍۢ كَبِيرٍ
+- 11:11 إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌۭ
+- 11:46 قَالَ يَٰنُوحُ إِنَّهُۥ لَيْسَ مِنْ أَهْلِكَ ۖ إِنَّهُۥ عَمَلٌ غَيْرُ صَٰلِحٍۢ ۖ فَلَا تَسْـَٔلْنِ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۖ إِنِّىٓ أَعِظُكَ أَن تَكُونَ مِنَ ٱلْجَٰهِلِينَ
+- 12:10 قَالَ قَآئِلٌۭ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ يَلْتَقِطْهُ بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَٰعِلِينَ
+- 12:12 أَرْسِلْهُ مَعَنَا غَدًۭا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ
+- 12:13 قَالَ إِنِّى لَيَحْزُنُنِىٓ أَن تَذْهَبُوا۟ بِهِۦ وَأَخَافُ أَن يَأْكُلَهُ ٱلذِّئْبُ وَأَنتُمْ عَنْهُ غَٰفِلُونَ
+- 12:65 وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍۢ ۖ ذَٰلِكَ كَيْلٌۭ يَسِيرٌۭ
+- 12:81 ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَٰٓأَبَانَآ إِنَّ ٱبْنَكَ سَرَقَ وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَٰفِظِينَ
+- 13:9 عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْكَبِيرُ ٱلْمُتَعَالِ
+- 13:10 سَوَآءٌۭ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ وَمَن جَهَرَ بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ
+- 13:32 وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍۢ مِّن قَبْلِكَ فَأَمْلَيْتُ لِلَّذِينَ كَفَرُوا۟ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ
+- 13:33 أَفَمَنْ هُوَ قَآئِمٌ عَلَىٰ كُلِّ نَفْسٍۭ بِمَا كَسَبَتْ ۗ وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ قُلْ سَمُّوهُمْ ۚ أَمْ تُنَبِّـُٔونَهُۥ بِمَا لَا يَعْلَمُ فِى ٱلْأَرْضِ أَم بِظَٰهِرٍۢ مِّنَ ٱلْقَوْلِ ۗ بَلْ زُيِّنَ لِلَّذِينَ كَفَرُوا۟ مَكْرُهُمْ وَصُدُّوا۟ عَنِ ٱلسَّبِيلِ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍۢ
+- 14:24 أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًۭا كَلِمَةًۭ طَيِّبَةًۭ كَشَجَرَةٍۢ طَيِّبَةٍ أَصْلُهَا ثَابِتٌۭ وَفَرْعُهَا فِى ٱلسَّمَآءِ
+- 16:41 وَٱلَّذِينَ هَاجَرُوا۟ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ظُلِمُوا۟ لَنُبَوِّئَنَّهُمْ فِى ٱلدُّنْيَا حَسَنَةًۭ ۖ وَلَأَجْرُ ٱلْءَاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ
+- 16:47 أَوْ يَأْخُذَهُمْ عَلَىٰ تَخَوُّفٍۢ فَإِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌ
+- 16:60 لِلَّذِينَ لَا يُؤْمِنُونَ بِٱلْءَاخِرَةِ مَثَلُ ٱلسَّوْءِ ۖ وَلِلَّهِ ٱلْمَثَلُ ٱلْأَعْلَىٰ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 16:71 وَٱللَّهُ فَضَّلَ بَعْضَكُمْ عَلَىٰ بَعْضٍۢ فِى ٱلرِّزْقِ ۚ فَمَا ٱلَّذِينَ فُضِّلُوا۟ بِرَآدِّى رِزْقِهِمْ عَلَىٰ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَهُمْ فِيهِ سَوَآءٌ ۚ أَفَبِنِعْمَةِ ٱللَّهِ يَجْحَدُونَ
+- 16:72 وَٱللَّهُ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا وَجَعَلَ لَكُم مِّنْ أَزْوَٰجِكُم بَنِينَ وَحَفَدَةًۭ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَتِ ٱللَّهِ هُمْ يَكْفُرُونَ
+- 16:74 فَلَا تَضْرِبُوا۟ لِلَّهِ ٱلْأَمْثَالَ ۚ إِنَّ ٱللَّهَ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ
+- 16:75 ۞ ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًۭا مَّمْلُوكًۭا لَّا يَقْدِرُ عَلَىٰ شَىْءٍۢ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًۭا فَهُوَ يُنفِقُ مِنْهُ سِرًّۭا وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
+- 16:90 ۞ إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ
+- 16:120 إِنَّ إِبْرَٰهِيمَ كَانَ أُمَّةًۭ قَانِتًۭا لِّلَّهِ حَنِيفًۭا وَلَمْ يَكُ مِنَ ٱلْمُشْرِكِينَ
+- 16:125 ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ ۖ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ
+- 17:4 وَقَضَيْنَآ إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ فِى ٱلْكِتَٰبِ لَتُفْسِدُنَّ فِى ٱلْأَرْضِ مَرَّتَيْنِ وَلَتَعْلُنَّ عُلُوًّۭا كَبِيرًۭا
+- 17:9 إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًۭا كَبِيرًۭا
+- 17:20 كُلًّۭا نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ۚ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُورًا
+- 17:21 ٱنظُرْ كَيْفَ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍۢ ۚ وَلَلْءَاخِرَةُ أَكْبَرُ دَرَجَٰتٍۢ وَأَكْبَرُ تَفْضِيلًۭا
+- 17:26 وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ وَلَا تُبَذِّرْ تَبْذِيرًا
+- 17:27 إِنَّ ٱلْمُبَذِّرِينَ كَانُوٓا۟ إِخْوَٰنَ ٱلشَّيَٰطِينِ ۖ وَكَانَ ٱلشَّيْطَٰنُ لِرَبِّهِۦ كَفُورًۭا
+- 17:42 قُل لَّوْ كَانَ مَعَهُۥٓ ءَالِهَةٌۭ كَمَا يَقُولُونَ إِذًۭا لَّٱبْتَغَوْا۟ إِلَىٰ ذِى ٱلْعَرْشِ سَبِيلًۭا
+- 17:43 سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَقُولُونَ عُلُوًّۭا كَبِيرًۭا
+- 17:57 أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًۭا
+- 17:87 إِلَّا رَحْمَةًۭ مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًۭا
+- 18:11 فَضَرَبْنَا عَلَىٰٓ ءَاذَانِهِمْ فِى ٱلْكَهْفِ سِنِينَ عَدَدًۭا
+- 18:32 ۞ وَٱضْرِبْ لَهُم مَّثَلًۭا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَٰبٍۢ وَحَفَفْنَٰهُمَا بِنَخْلٍۢ وَجَعَلْنَا بَيْنَهُمَا زَرْعًۭا
+- 18:46 ٱلْمَالُ وَٱلْبَنُونَ زِينَةُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌ أَمَلًۭا
+- 19:44 يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ ۖ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّۭا
+- 19:45 يَٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌۭ مِّنَ ٱلرَّحْمَٰنِ فَتَكُونَ لِلشَّيْطَٰنِ وَلِيًّۭا
+- 19:46 قَالَ أَرَاغِبٌ أَنتَ عَنْ ءَالِهَتِى يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّۭا
+- 20:75 وَمَن يَأْتِهِۦ مُؤْمِنًۭا قَدْ عَمِلَ ٱلصَّٰلِحَٰتِ فَأُو۟لَٰٓئِكَ لَهُمُ ٱلدَّرَجَٰتُ ٱلْعُلَىٰ
+- 20:77 وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًۭا فِى ٱلْبَحْرِ يَبَسًۭا لَّا تَخَٰفُ دَرَكًۭا وَلَا تَخْشَىٰ
+- 20:111 ۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا
+- 21:32 وَجَعَلْنَا ٱلسَّمَآءَ سَقْفًۭا مَّحْفُوظًۭا ۖ وَهُمْ عَنْ ءَايَٰتِهَا مُعْرِضُونَ
+- 21:78 وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ
+- 21:79 فَفَهَّمْنَٰهَا سُلَيْمَٰنَ ۚ وَكُلًّا ءَاتَيْنَا حُكْمًۭا وَعِلْمًۭا ۚ وَسَخَّرْنَا مَعَ دَاوُۥدَ ٱلْجِبَالَ يُسَبِّحْنَ وَٱلطَّيْرَ ۚ وَكُنَّا فَٰعِلِينَ
+- 21:81 وَلِسُلَيْمَٰنَ ٱلرِّيحَ عَاصِفَةًۭ تَجْرِى بِأَمْرِهِۦٓ إِلَى ٱلْأَرْضِ ٱلَّتِى بَٰرَكْنَا فِيهَا ۚ وَكُنَّا بِكُلِّ شَىْءٍ عَٰلِمِينَ
+- 21:82 وَمِنَ ٱلشَّيَٰطِينِ مَن يَغُوصُونَ لَهُۥ وَيَعْمَلُونَ عَمَلًۭا دُونَ ذَٰلِكَ ۖ وَكُنَّا لَهُمْ حَٰفِظِينَ
+- 21:91 وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَٰهَا وَٱبْنَهَآ ءَايَةًۭ لِّلْعَٰلَمِينَ
+- 22:53 لِّيَجْعَلَ مَا يُلْقِى ٱلشَّيْطَٰنُ فِتْنَةًۭ لِّلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْقَاسِيَةِ قُلُوبُهُمْ ۗ وَإِنَّ ٱلظَّٰلِمِينَ لَفِى شِقَاقٍۭ بَعِيدٍۢ
+- 22:62 ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِۦ هُوَ ٱلْبَٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ
+- 23:5 وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ
+- 23:6 إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ
+- 23:8 وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ
+- 23:9 وَٱلَّذِينَ هُمْ عَلَىٰ صَلَوَٰتِهِمْ يُحَافِظُونَ
+- 23:46 إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱسْتَكْبَرُوا۟ وَكَانُوا۟ قَوْمًا عَالِينَ
+- 23:67 مُسْتَكْبِرِينَ بِهِۦ سَٰمِرًۭا تَهْجُرُونَ
+- 23:91 مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍۢ وَمَا كَانَ مَعَهُۥ مِنْ إِلَٰهٍ ۚ إِذًۭا لَّذَهَبَ كُلُّ إِلَٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍۢ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ
+- 23:92 عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ
+- 24:22 وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌ
+- 24:30 قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ
+- 24:31 وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ
+- 24:32 وَأَنكِحُوا۟ ٱلْأَيَٰمَىٰ مِنكُمْ وَٱلصَّٰلِحِينَ مِنْ عِبَادِكُمْ وَإِمَآئِكُمْ ۚ إِن يَكُونُوا۟ فُقَرَآءَ يُغْنِهِمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌۭ
+- 24:33 وَلْيَسْتَعْفِفِ ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَٰبَ مِمَّا مَلَكَتْ أَيْمَٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًۭا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ ءَاتَىٰكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًۭا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌۭ رَّحِيمٌۭ
+- 24:37 رِجَالٌۭ لَّا تُلْهِيهِمْ تِجَٰرَةٌۭ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًۭا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَٰرُ
+- 24:60 وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًۭا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍۢ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌۭ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌۭ
+- 25:9 ٱنظُرْ كَيْفَ ضَرَبُوا۟ لَكَ ٱلْأَمْثَٰلَ فَضَلُّوا۟ فَلَا يَسْتَطِيعُونَ سَبِيلًۭا
+- 25:67 وَٱلَّذِينَ إِذَآ أَنفَقُوا۟ لَمْ يُسْرِفُوا۟ وَلَمْ يَقْتُرُوا۟ وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًۭا
+- 27:20 وَتَفَقَّدَ ٱلطَّيْرَ فَقَالَ مَا لِىَ لَآ أَرَى ٱلْهُدْهُدَ أَمْ كَانَ مِنَ ٱلْغَآئِبِينَ
+- 27:55 أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةًۭ مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌۭ تَجْهَلُونَ
+- 28:4 إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًۭا يَسْتَضْعِفُ طَآئِفَةًۭ مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ
+- 28:18 فَأَصْبَحَ فِى ٱلْمَدِينَةِ خَآئِفًۭا يَتَرَقَّبُ فَإِذَا ٱلَّذِى ٱسْتَنصَرَهُۥ بِٱلْأَمْسِ يَسْتَصْرِخُهُۥ ۚ قَالَ لَهُۥ مُوسَىٰٓ إِنَّكَ لَغَوِىٌّۭ مُّبِينٌۭ
+- 28:76 ۞ إِنَّ قَٰرُونَ كَانَ مِن قَوْمِ مُوسَىٰ فَبَغَىٰ عَلَيْهِمْ ۖ وَءَاتَيْنَٰهُ مِنَ ٱلْكُنُوزِ مَآ إِنَّ مَفَاتِحَهُۥ لَتَنُوٓأُ بِٱلْعُصْبَةِ أُو۟لِى ٱلْقُوَّةِ إِذْ قَالَ لَهُۥ قَوْمُهُۥ لَا تَفْرَحْ ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْفَرِحِينَ
+- 29:29 أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ ۖ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ
+- 29:43 وَتِلْكَ ٱلْأَمْثَٰلُ نَضْرِبُهَا لِلنَّاسِ ۖ وَمَا يَعْقِلُهَآ إِلَّا ٱلْعَٰلِمُونَ
+- 30:15 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَهُمْ فِى رَوْضَةٍۢ يُحْبَرُونَ
+- 30:21 وَمِنْ ءَايَٰتِهِۦٓ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةًۭ وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَتَفَكَّرُونَ
+- 30:25 وَمِنْ ءَايَٰتِهِۦٓ أَن تَقُومَ ٱلسَّمَآءُ وَٱلْأَرْضُ بِأَمْرِهِۦ ۚ ثُمَّ إِذَا دَعَاكُمْ دَعْوَةًۭ مِّنَ ٱلْأَرْضِ إِذَآ أَنتُمْ تَخْرُجُونَ
+- 30:26 وَلَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ كُلٌّۭ لَّهُۥ قَٰنِتُونَ
+- 30:45 لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْكَٰفِرِينَ
+- 31:15 وَإِن جَٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 31:30 ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ ٱلْبَٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ
+- 32:16 تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًۭا وَطَمَعًۭا وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
+- 33:31 ۞ وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ وَتَعْمَلْ صَٰلِحًۭا نُّؤْتِهَآ أَجْرَهَا مَرَّتَيْنِ وَأَعْتَدْنَا لَهَا رِزْقًۭا كَرِيمًۭا
+- 33:35 إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ وَٱلصَّٰدِقِينَ وَٱلصَّٰدِقَٰتِ وَٱلصَّٰبِرِينَ وَٱلصَّٰبِرَٰتِ وَٱلْخَٰشِعِينَ وَٱلْخَٰشِعَٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَٰتِ وَٱلصَّٰٓئِمِينَ وَٱلصَّٰٓئِمَٰتِ وَٱلْحَٰفِظِينَ فُرُوجَهُمْ وَٱلْحَٰفِظَٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًۭا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةًۭ وَأَجْرًا عَظِيمًۭا
+- 33:47 وَبَشِّرِ ٱلْمُؤْمِنِينَ بِأَنَّ لَهُم مِّنَ ٱللَّهِ فَضْلًۭا كَبِيرًۭا
+- 33:53 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتَ ٱلنَّبِىِّ إِلَّآ أَن يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَٰظِرِينَ إِنَىٰهُ وَلَٰكِنْ إِذَا دُعِيتُمْ فَٱدْخُلُوا۟ فَإِذَا طَعِمْتُمْ فَٱنتَشِرُوا۟ وَلَا مُسْتَـْٔنِسِينَ لِحَدِيثٍ ۚ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِى ٱلنَّبِىَّ فَيَسْتَحْىِۦ مِنكُمْ ۖ وَٱللَّهُ لَا يَسْتَحْىِۦ مِنَ ٱلْحَقِّ ۚ وَإِذَا سَأَلْتُمُوهُنَّ مَتَٰعًۭا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍۢ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ ۚ وَمَا كَانَ لَكُمْ أَن تُؤْذُوا۟ رَسُولَ ٱللَّهِ وَلَآ أَن تَنكِحُوٓا۟ أَزْوَٰجَهُۥ مِنۢ بَعْدِهِۦٓ أَبَدًا ۚ إِنَّ ذَٰلِكُمْ كَانَ عِندَ ٱللَّهِ عَظِيمًا
+- 33:54 إِن تُبْدُوا۟ شَيْـًٔا أَوْ تُخْفُوهُ فَإِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًۭا
+- 33:55 لَّا جُنَاحَ عَلَيْهِنَّ فِىٓ ءَابَآئِهِنَّ وَلَآ أَبْنَآئِهِنَّ وَلَآ إِخْوَٰنِهِنَّ وَلَآ أَبْنَآءِ إِخْوَٰنِهِنَّ وَلَآ أَبْنَآءِ أَخَوَٰتِهِنَّ وَلَا نِسَآئِهِنَّ وَلَا مَا مَلَكَتْ أَيْمَٰنُهُنَّ ۗ وَٱتَّقِينَ ٱللَّهَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَىٰ كُلِّ شَىْءٍۢ شَهِيدًا
+- 33:59 يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَٰبِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا
+- 33:67 وَقَالُوا۟ رَبَّنَآ إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠
+- 34:23 وَلَا تَنفَعُ ٱلشَّفَٰعَةُ عِندَهُۥٓ إِلَّا لِمَنْ أَذِنَ لَهُۥ ۚ حَتَّىٰٓ إِذَا فُزِّعَ عَن قُلُوبِهِمْ قَالُوا۟ مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا۟ ٱلْحَقَّ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ
+- 34:31 وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَن نُّؤْمِنَ بِهَٰذَا ٱلْقُرْءَانِ وَلَا بِٱلَّذِى بَيْنَ يَدَيْهِ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّٰلِمُونَ مَوْقُوفُونَ عِندَ رَبِّهِمْ يَرْجِعُ بَعْضُهُمْ إِلَىٰ بَعْضٍ ٱلْقَوْلَ يَقُولُ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ لَوْلَآ أَنتُمْ لَكُنَّا مُؤْمِنِينَ
+- 34:37 وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰٓ إِلَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَأُو۟لَٰٓئِكَ لَهُمْ جَزَآءُ ٱلضِّعْفِ بِمَا عَمِلُوا۟ وَهُمْ فِى ٱلْغُرُفَٰتِ ءَامِنُونَ
+- 35:32 ثُمَّ أَوْرَثْنَا ٱلْكِتَٰبَ ٱلَّذِينَ ٱصْطَفَيْنَا مِنْ عِبَادِنَا ۖ فَمِنْهُمْ ظَالِمٌۭ لِّنَفْسِهِۦ وَمِنْهُم مُّقْتَصِدٌۭ وَمِنْهُمْ سَابِقٌۢ بِٱلْخَيْرَٰتِ بِإِذْنِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ
+- 37:27 وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ
+- 37:50 فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ
+- 37:93 فَرَاغَ عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ
+- 37:118 وَهَدَيْنَٰهُمَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- 38:22 إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍۢ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ ٱلصِّرَٰطِ
+- 38:24 قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًۭا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَقَلِيلٌۭ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًۭا وَأَنَابَ ۩
+- 38:44 وَخُذْ بِيَدِكَ ضِغْثًۭا فَٱضْرِب بِّهِۦ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَٰهُ صَابِرًۭا ۚ نِّعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌۭ
+- 42:4 لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ
+- 42:26 وَيَسْتَجِيبُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۚ وَٱلْكَٰفِرُونَ لَهُمْ عَذَابٌۭ شَدِيدٌۭ
+- 43:5 أَفَنَضْرِبُ عَنكُمُ ٱلذِّكْرَ صَفْحًا أَن كُنتُمْ قَوْمًۭا مُّسْرِفِينَ
+- 44:31 مِن فِرْعَوْنَ ۚ إِنَّهُۥ كَانَ عَالِيًۭا مِّنَ ٱلْمُسْرِفِينَ
+- 47:4 فَإِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ فَضَرْبَ ٱلرِّقَابِ حَتَّىٰٓ إِذَآ أَثْخَنتُمُوهُمْ فَشُدُّوا۟ ٱلْوَثَاقَ فَإِمَّا مَنًّۢا بَعْدُ وَإِمَّا فِدَآءً حَتَّىٰ تَضَعَ ٱلْحَرْبُ أَوْزَارَهَا ۚ ذَٰلِكَ وَلَوْ يَشَآءُ ٱللَّهُ لَٱنتَصَرَ مِنْهُمْ وَلَٰكِن لِّيَبْلُوَا۟ بَعْضَكُم بِبَعْضٍۢ ۗ وَٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ فَلَن يُضِلَّ أَعْمَٰلَهُمْ
+- 47:26 ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لِلَّذِينَ كَرِهُوا۟ مَا نَزَّلَ ٱللَّهُ سَنُطِيعُكُمْ فِى بَعْضِ ٱلْأَمْرِ ۖ وَٱللَّهُ يَعْلَمُ إِسْرَارَهُمْ
+- 47:27 فَكَيْفَ إِذَا تَوَفَّتْهُمُ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ
+- 48:25 هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌۭ مُّؤْمِنُونَ وَنِسَآءٌۭ مُّؤْمِنَٰتٌۭ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍۢ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا
+- 48:29 مُّحَمَّدٌۭ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًۭا سُجَّدًۭا يَبْتَغُونَ فَضْلًۭا مِّنَ ٱللَّهِ وَرِضْوَٰنًۭا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةًۭ وَأَجْرًا عَظِيمًۢا
+- 49:9 وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ
+- 49:12 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱجْتَنِبُوا۟ كَثِيرًۭا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌۭ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًۭا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌۭ رَّحِيمٌۭ
+- 52:25 وَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍۢ يَتَسَآءَلُونَ
+- 52:41 أَمْ عِندَهُمُ ٱلْغَيْبُ فَهُمْ يَكْتُبُونَ
+- 53:21 أَلَكُمُ ٱلذَّكَرُ وَلَهُ ٱلْأُنثَىٰ
+- 53:22 تِلْكَ إِذًۭا قِسْمَةٌۭ ضِيزَىٰٓ
+- 57:7 ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌۭ كَبِيرٌۭ
+- 58:1 قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَٰدِلُكَ فِى زَوْجِهَا وَتَشْتَكِىٓ إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ تَحَاوُرَكُمَآ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ
+- 58:2 ٱلَّذِينَ يُظَٰهِرُونَ مِنكُم مِّن نِّسَآئِهِم مَّا هُنَّ أُمَّهَٰتِهِمْ ۖ إِنْ أُمَّهَٰتُهُمْ إِلَّا ٱلَّٰٓـِٔى وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًۭا مِّنَ ٱلْقَوْلِ وَزُورًۭا ۚ وَإِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌۭ
+- 58:3 وَٱلَّذِينَ يُظَٰهِرُونَ مِن نِّسَآئِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُوا۟ فَتَحْرِيرُ رَقَبَةٍۢ مِّن قَبْلِ أَن يَتَمَآسَّا ۚ ذَٰلِكُمْ تُوعَظُونَ بِهِۦ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ
+- 58:11 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قِيلَ لَكُمْ تَفَسَّحُوا۟ فِى ٱلْمَجَٰلِسِ فَٱفْسَحُوا۟ يَفْسَحِ ٱللَّهُ لَكُمْ ۖ وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟ يَرْفَعِ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَٰتٍۢ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ
+- 59:8 لِلْفُقَرَآءِ ٱلْمُهَٰجِرِينَ ٱلَّذِينَ أُخْرِجُوا۟ مِن دِيَٰرِهِمْ وَأَمْوَٰلِهِمْ يَبْتَغُونَ فَضْلًۭا مِّنَ ٱللَّهِ وَرِضْوَٰنًۭا وَيَنصُرُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلصَّٰدِقُونَ
+- 59:16 كَمَثَلِ ٱلشَّيْطَٰنِ إِذْ قَالَ لِلْإِنسَٰنِ ٱكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّى بَرِىٓءٌۭ مِّنكَ إِنِّىٓ أَخَافُ ٱللَّهَ رَبَّ ٱلْعَٰلَمِينَ
+- 59:22 هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ
+- 60:8 لَّا يَنْهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمْ يُقَٰتِلُوكُمْ فِى ٱلدِّينِ وَلَمْ يُخْرِجُوكُم مِّن دِيَٰرِكُمْ أَن تَبَرُّوهُمْ وَتُقْسِطُوٓا۟ إِلَيْهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ
+- 60:10 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا جَآءَكُمُ ٱلْمُؤْمِنَٰتُ مُهَٰجِرَٰتٍۢ فَٱمْتَحِنُوهُنَّ ۖ ٱللَّهُ أَعْلَمُ بِإِيمَٰنِهِنَّ ۖ فَإِنْ عَلِمْتُمُوهُنَّ مُؤْمِنَٰتٍۢ فَلَا تَرْجِعُوهُنَّ إِلَى ٱلْكُفَّارِ ۖ لَا هُنَّ حِلٌّۭ لَّهُمْ وَلَا هُمْ يَحِلُّونَ لَهُنَّ ۖ وَءَاتُوهُم مَّآ أَنفَقُوا۟ ۚ وَلَا جُنَاحَ عَلَيْكُمْ أَن تَنكِحُوهُنَّ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ ۚ وَلَا تُمْسِكُوا۟ بِعِصَمِ ٱلْكَوَافِرِ وَسْـَٔلُوا۟ مَآ أَنفَقْتُمْ وَلْيَسْـَٔلُوا۟ مَآ أَنفَقُوا۟ ۚ ذَٰلِكُمْ حُكْمُ ٱللَّهِ ۖ يَحْكُمُ بَيْنَكُمْ ۚ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ
+- 60:11 وَإِن فَاتَكُمْ شَىْءٌۭ مِّنْ أَزْوَٰجِكُمْ إِلَى ٱلْكُفَّارِ فَعَاقَبْتُمْ فَـَٔاتُوا۟ ٱلَّذِينَ ذَهَبَتْ أَزْوَٰجُهُم مِّثْلَ مَآ أَنفَقُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ أَنتُم بِهِۦ مُؤْمِنُونَ
+- 62:10 فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًۭا لَّعَلَّكُمْ تُفْلِحُونَ
+- 63:10 وَأَنفِقُوا۟ مِن مَّا رَزَقْنَٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّٰلِحِينَ
+- 64:16 فَٱتَّقُوا۟ ٱللَّهَ مَا ٱسْتَطَعْتُمْ وَٱسْمَعُوا۟ وَأَطِيعُوا۟ وَأَنفِقُوا۟ خَيْرًۭا لِّأَنفُسِكُمْ ۗ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 65:1 يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍۢ مُّبَيِّنَةٍۢ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًۭا
+- 65:6 أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَٰتِ حَمْلٍۢ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍۢ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ
+- 65:7 لِيُنفِقْ ذُو سَعَةٍۢ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍۢ يُسْرًۭا
+- 66:1 يَٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 66:5 عَسَىٰ رَبُّهُۥٓ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُۥٓ أَزْوَٰجًا خَيْرًۭا مِّنكُنَّ مُسْلِمَٰتٍۢ مُّؤْمِنَٰتٍۢ قَٰنِتَٰتٍۢ تَٰٓئِبَٰتٍ عَٰبِدَٰتٍۢ سَٰٓئِحَٰتٍۢ ثَيِّبَٰتٍۢ وَأَبْكَارًۭا
+- 66:10 ضَرَبَ ٱللَّهُ مَثَلًۭا لِّلَّذِينَ كَفَرُوا۟ ٱمْرَأَتَ نُوحٍۢ وَٱمْرَأَتَ لُوطٍۢ ۖ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَٰلِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْـًۭٔا وَقِيلَ ٱدْخُلَا ٱلنَّارَ مَعَ ٱلدَّٰخِلِينَ
+- 67:12 إِنَّ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌۭ
+- 70:24 وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ
+- 70:29 وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ
+- 70:30 إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ
+- 70:32 وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ
+- 70:34 وَٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ
+- 72:26 عَٰلِمُ ٱلْغَيْبِ فَلَا يُظْهِرُ عَلَىٰ غَيْبِهِۦٓ أَحَدًا
+- 73:10 وَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱهْجُرْهُمْ هَجْرًۭا جَمِيلًۭا
+- 73:20 ۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌۭ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًۭا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًۭا وَأَعْظَمَ أَجْرًۭا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۢ
+- 74:3 وَرَبَّكَ فَكَبِّرْ
+- 74:5 وَٱلرُّجْزَ فَٱهْجُرْ
+- 78:8 وَخَلَقْنَٰكُمْ أَزْوَٰجًۭا
+- 81:24 وَمَا هُوَ عَلَى ٱلْغَيْبِ بِضَنِينٍۢ
+- 82:10 وَإِنَّ عَلَيْكُمْ لَحَٰفِظِينَ
+- 82:11 كِرَامًۭا كَٰتِبِينَ
+- 83:18 كَلَّآ إِنَّ كِتَٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ
+- 83:19 وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ
+- 83:33 وَمَآ أُرْسِلُوا۟ عَلَيْهِمْ حَٰفِظِينَ
+- 85:22 فِى لَوْحٍۢ مَّحْفُوظٍۭ
+- 88:10 فِى جَنَّةٍ عَالِيَةٍۢ
+- 92:20 إِلَّا ٱبْتِغَآءَ وَجْهِ رَبِّهِ ٱلْأَعْلَىٰ
+- 98:3 فِيهَا كُتُبٌۭ قَيِّمَةٌۭ

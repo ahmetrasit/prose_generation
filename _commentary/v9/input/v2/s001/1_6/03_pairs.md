@@ -1,0 +1,325 @@
+# Branch-image pairs (global network, gateway roots; top by distinct partner root)
+
+For every branch of every focus root: partners in the same ayah (top 3), within ±7 ayat (top 3), and elsewhere in the surah (top 2). A pair is a candidate only; judge whether it opens a reading.
+
+Pairs listed: 264.
+## ه د ي (ٱهْدِنَا)
+
+- **B001** doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق
+  - same: ه د د B005 ibibik kusu / طائر الهدهد ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **B002** yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده
+  - same: ه د د B007 ovgu yeterlik kalibi / هدك من رجل في المدح ← 1:6 ٱهْدِنَا
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 1:4 مَٰلِكِ
+  - near: ض ل ل B003 bir şeyi yitirme veya yerini bulamama; özel olarak kanın karşılıksız kalması / فقدان الشيء ← 1:7 ٱلضَّآلِّينَ
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+- **B003** bir şeyin ilk veya öndeki bölümü / المتقدم الهادي وأوائل الشيء
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ه د د B004 siddetli ugultu / صوت شديد ودوي ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - near: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 1:2 رَبِّ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+- **B004** incelik göstergesi armağan verme / بعثة لطف وهدية إلى ذي مودة
+  - same: ه د د B005 ibibik kusu / طائر الهدهد ← 1:6 ٱهْدِنَا
+  - same: ق و م B013 ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 1:4 ٱلدِّينِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **B005** kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ب د B006 saygı gösterilip hizmet edilen kişi / التكريم والتعظيم ← 1:5 نَعْبُدُ
+- **B006** gelini eşinin yanına götürme / العروس المهدية إلى زوجها
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: م ل ك B004 evlilik akdi kurma / الإملاك والتزويج ← 1:4 مَٰلِكِ
+  - near: غ ي ر B004 eşini veya ailesini kıskanarak koruma duygusu / الغَيْرة على الأهل ← 1:7 غَيْرِ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+- **B007** dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - same: ق و م B001 erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ر ب ب B011 bağlayıcı söz ve güvence / ربابة عهد وميثاق ← 1:2 رَبِّ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: غ ي ر B002 cana karşılık ceza yerine kabul edilen kan bedeli / الغَيْر في الدية ← 1:7 غَيْرِ
+- **B008** sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل
+  - same: ه د د B008 agir basarak yurume / وطء شديد يثقل الأرض ← 1:6 ٱهْدِنَا
+  - same: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 1:7 أَنْعَمْتَ
+  - near: ع و ن B005 bedensel denge ve güç olgunluğu / استواء الخلقة وتلاحق القوة ← 1:5 نَسْتَعِينُ
+  - near: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 1:4 مَٰلِكِ
+- **B009** bön, güçsüz ve ağır kimse / الهداء البليد الضعيف
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - same: ق و م B020 koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ر ح م B001 acıma duygusuyla esirgeyip iyilik etme / الرَّحْمَة والرقة ← 1:3 ٱلرَّحْمَٰنِ
+  - near: غ ض ب B007 somurtkan, huysuz; iri yılan / العبوس والضجر والعظم في وصف الحيوان أو الشخص ← 1:7 ٱلْمَغْضُوبِ
+- **B010** sakin, ölçülü ve düzgün ilerleyiş / هدي السكون وحسن الهيئة
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ب د B009 gecikmeden yapmak veya koşuda biraz hızlanmak / قلة اللبث وسرعة العدو ← 1:5 نَعْبُدُ
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+- **B011** övgü veya yergi şiiri sunma ve şiirle yergileşme / إهداء الشعر ومهاداته
+  - same: ه د د B007 ovgu yeterlik kalibi / هدك من رجل في المدح ← 1:6 ٱهْدِنَا
+  - same: ق و م B014 karşılıklı direnip mücadele etme / مقاومة ومنازلة ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ع و ن B007 erkekte kasık kılları / عانة الرجل ← 1:5 نَسْتَعِينُ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - near: ع ب د B004 köleleştirmek veya köle gibi boyunduruk altına almak / التعبيد والاستعباد ← 1:5 نَعْبُدُ
+
+## ه د د (ٱهْدِنَا)
+
+- **B001** agir kirip yikma / كسر شديد وهدم
+  - same: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - same: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: م ل ك B001 güçlü ve tutarlı biçimde bir arada durma / قوة الشيء وتماسكه ← 1:4 مَٰلِكِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - near: غ ض ب B001 şiddetli öfke ve öç alma yönelimi / اشتداد السخط وثورانه للانتقام ← 1:7 ٱلْمَغْضُوبِ
+- **B004** siddetli ugultu / صوت شديد ودوي
+  - same: ه د ي B005 kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم ← 1:6 ٱهْدِنَا
+  - same: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: س م و B003 erkek devenin dişi deve sürüsüne atılıp aralarına girmesi / تطاول الفحل على الشول ← 1:1 بِسْمِ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B005** ibibik kusu / طائر الهدهد
+  - same: ه د ي B009 bön, güçsüz ve ağır kimse / الهداء البليد الضعيف ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ق و م B004 sürekli gözetip yönetme / رعاية وحفظ وولاية ← 1:6 ٱلْمُسْتَقِيمَ
+  - near: ن ع م B006 devekuşu / النعام والنعامة الطائر ← 1:7 أَنْعَمْتَ
+  - near: ع ل م B006 doğan veya atmaca türü yırtıcı kuş / طائر جارح يسمى العلام ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+- **B006** uyutmak icin sallama / هدهدة الصبي لينام
+  - same: ه د ي B006 gelini eşinin yanına götürme / العروس المهدية إلى زوجها ← 1:6 ٱهْدِنَا
+  - same: ق و م B002 ayağa kalkma ve dik durma / انتصاب وقيام بالبدن ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: ر ب ب B002 adım adım yetiştirip tamamlama / إصلاح وتربية وإتمام ← 1:2 رَبِّ
+  - near: ن ع م B002 yumuşamak, rahat yaşamak veya rahat yaşatmak / اللين والنعومة ورفاه العيش ← 1:7 أَنْعَمْتَ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **B007** ovgu yeterlik kalibi / هدك من رجل في المدح
+  - same: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - same: ق و م B019 bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ح م د B003 övülen veya birçok övülesi niteliği bulunan kimse / المحمود كثير الخصال ← 1:2 ٱلْحَمْدُ
+  - near: ن ع م B003 övgü ve beğeni bildirmek / مدح الشيء بنعم ← 1:7 أَنْعَمْتَ
+  - near: غ ض ب B002 biri için ya da uğruna öfkelenmek / الغضب لشخص حي أو به بعد موته ← 1:7 ٱلْمَغْضُوبِ
+- **B008** agir basarak yurume / وطء شديد يثقل الأرض
+  - same: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: ن ع م B012 birine yaya gitmek ve ayakları yürüyerek kullanmak / المشي على القدم وابتذالها ← 1:7 أَنْعَمْتَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: و س م B003 toprağı bitkilendiren yılın ilk yağmuru / مطر أول يسم الأرض بالنبات ← 1:1 بِسْمِ
+- **B009** sarp inisli gecit / منحدر شاق
+  - same: ه د ي B005 kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم ← 1:6 ٱهْدِنَا
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+- **B010** gozdagi vererek korkutma / وعيد وتخويف
+  - same: ه د ي B009 bön, güçsüz ve ağır kimse / الهداء البليد الضعيف ← 1:6 ٱهْدِنَا
+  - same: ق و م B006 bir yerde kalma ve kalınan yer / مقام وإقامة في موضع ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ع ب د B010 her yana dağılmış kümeler, nesneler veya yollar / التفرق في الوجوه ← 1:5 نَعْبُدُ
+  - near: د ي ن B005 alışılmış davranış ve öteden beri bilinen hal / العادة والشأن ← 1:4 ٱلدِّينِ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B011** kesinlesmemis sani / تخييل الظن في النفس
+  - same: ه د ي B010 sakin, ölçülü ve düzgün ilerleyiş / هدي السكون وحسن الهيئة ← 1:6 ٱهْدِنَا
+  - same: ق و م B003 bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: ح م د B005 iyiliğini başa kakıp kendine pay çıkarma / يتحمد بالمنة ← 1:2 ٱلْحَمْدُ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ر ب ب B003 Tanrı bilgisiyle yetiştiren bilgin / علم رباني ← 1:2 رَبِّ
+- **B012** uzun boylu adam / رجل طويل
+  - same: ه د ي B009 bön, güçsüz ve ağır kimse / الهداء البليد الضعيف ← 1:6 ٱهْدِنَا
+  - same: ق و م B011 insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ح م د B003 övülen veya birçok övülesi niteliği bulunan kimse / المحمود كثير الخصال ← 1:2 ٱلْحَمْدُ
+  - near: ض ل ل B001 doğru yoldan ve amaçtan sapma ya da başkasını saptırma / الضلال عن الهدى والقصد ← 1:7 ٱلضَّآلِّينَ
+  - near: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:7 صِرَٰطَ
+
+## ص ر ط (ٱلصِّرَٰطَ)
+
+- **B001** yol, özellikle düz yol / الطريق المستقيم
+  - same: ق و م B008 düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - near: م ل ك B006 yolun veya yerin orta ya da ana kesimi / مَلَك الطريق والوادي ← 1:4 مَٰلِكِ
+  - near: ع ب د B005 düzleşmiş yol, katranlanmış deve veya kaplanmış gemi / التذليل والتسوية ← 1:5 نَعْبُدُ
+  - near: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 1:1 بِسْمِ
+- **B002** geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع
+  - same: ه د د B001 agir kirip yikma / كسر شديد وهدم ← 1:6 ٱهْدِنَا
+  - same: ق و م B016 donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - near: ن ع م B001 iyi yaşam durumu ve başkasına ulaştırılan iyilik / حسن الحال والنعمة ← 1:7 أَنْعَمْتَ
+  - near: ض ل ل B002 gizlenerek, karışıp eriyerek veya gömülerek gözden yitme / الغيبوبة والخفاء ← 1:7 ٱلضَّآلِّينَ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+- **B003** vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة
+  - same: ق و م B012 düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم ← 1:6 ٱلْمُسْتَقِيمَ
+  - same: ه د ي B010 sakin, ölçülü ve düzgün ilerleyiş / هدي السكون وحسن الهيئة ← 1:6 ٱهْدِنَا
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: ع ل م B002 ayırt edici ve yol gösterici işaret / أثر يميز الشيء ويهدي إليه ← 1:2 ٱلْعَٰلَمِينَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+
+## ق و م (ٱلْمُسْتَقِيمَ)
+
+- **B001** erkekler topluluğu ve yakın çevresi / جماعة الناس والرجال
+  - same: ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B011 kesinlesmemis sani / تخييل الظن في النفس ← 1:6 ٱهْدِنَا
+  - near: ر ب ب B004 büyük insan topluluğu / ربة وجماعات كثيرة ← 1:2 رَبِّ
+  - near: و س م B004 belirlenmiş toplu buluşma zamanı ve yeri / موسم معلم يجتمع إليه الناس ← 1:1 بِسْمِ
+  - near: ن ع م B005 develer ve geniş anlamda otlayan evcil hayvanlar / مال الأنعام والإبل ← 1:7 أَنْعَمْتَ
+- **B002** ayağa kalkma ve dik durma / انتصاب وقيام بالبدن
+  - same: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+  - same: ه د د B006 uyutmak icin sallama / هدهدة الصبي لينام ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: غ ض ب B003 karşı koyup muhalefet etmek / المراغمة والمخالفة ← 1:7 ٱلْمَغْضُوبِ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+- **B003** bir işe kararlılıkla girişme / عزم ونهوض إلى الأمر
+  - same: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - same: ه د د B011 kesinlesmemis sani / تخييل الظن في النفس ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 1:4 مَٰلِكِ
+  - near: س م و B005 ad, adlandırma ve ad ya da nitelik bakımından denklik / الاسم تنويه ودلالة ← 1:1 بِسْمِ
+- **B004** sürekli gözetip yönetme / رعاية وحفظ وولاية
+  - same: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B007 ovgu yeterlik kalibi / هدك من رجل في المدح ← 1:6 ٱهْدِنَا
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+  - near: م ل ك B007 işleri ve yaşamı sürdüren su kaynağı / الماء مَلَك الأمر ← 1:4 مَٰلِكِ
+  - near: ر ب ب B001 sahip olup yönetme / ربوبية وملك وسيادة ← 1:2 رَبِّ
+- **B006** bir yerde kalma ve kalınan yer / مقام وإقامة في موضع
+  - same: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B010 gozdagi vererek korkutma / وعيد وتخويف ← 1:6 ٱهْدِنَا
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: د ي ن B006 kent / مدينة الطاعة ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+- **B007** başkasının yerini ve işlevini alma / نيابة وقيام مقام غيره
+  - same: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B007 ovgu yeterlik kalibi / هدك من رجل في المدح ← 1:6 ٱهْدِنَا
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+- **B008** düzgünlük, denge ve doğru yoldan sapmama / استقامة واعتدال واستواء
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د ي B001 doğru yolu gösterme ve doğruya yönelme / دلالة بلطف إلى الطريق والحق ← 1:6 ٱهْدِنَا
+  - same: ه د د B008 agir basarak yurume / وطء شديد يثقل الأرض ← 1:6 ٱهْدِنَا
+  - near: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:7 صِرَٰطَ
+  - near: د ي ن B001 boyun eğerek uyma ve buna dayalı inanç düzeni / الطاعة والانقياد ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+- **B009** ayakta tutan dayanak ve geçim temeli / قوام وعماد ومعاش
+  - same: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B006 uyutmak icin sallama / هدهدة الصبي لينام ← 1:6 ٱهْدِنَا
+  - near: م ل ك B005 işi ayakta tutan temel dayanak / مِلاك الأمر وعِماده ← 1:4 مَٰلِكِ
+  - near: ع ب د B001 özgür olmayan, sahip olunan kişi / الرق والملك ← 1:5 نَعْبُدُ
+  - near: غ ي ر B001 yarar sağlayıp durumunu iyileştirme / الصلاح والمنفعة بالميرة والسقي والإصلاح ← 1:7 غَيْرِ
+- **B010** değer biçme ve belirlenen bedel / قيمة وتقويم وتسعير
+  - same: ه د ي B005 kutsal yere adanan hayvan, mal veya eşya / الهدي المهدى إلى الحرم ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B001 agir kirip yikma / كسر شديد وهدم ← 1:6 ٱهْدِنَا
+  - near: غ ي ر B003 biçimini değiştirme veya yerine başkasını koyma / تغيير الصورة أو إبدال الشيء بغيره ← 1:7 غَيْرِ
+  - near: د ي ن B006 kent / مدينة الطاعة ← 1:4 ٱلدِّينِ
+  - near: ع ل م B001 bilme ve gerçeğini kavrama / انكشاف الشيء للعارف ← 1:2 ٱلْعَٰلَمِينَ
+- **B011** insanın boyu ve düzgün beden yapısı / قامة وقوام الجسم والطول
+  - same: ه د د B012 uzun boylu adam / رجل طويل ← 1:6 ٱهْدِنَا
+  - same: ه د ي B010 sakin, ölçülü ve düzgün ilerleyiş / هدي السكون وحسن الهيئة ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: و س م B005 kişide görünen yerleşik güzellik ve zarafet / حسن عليه أثر الجمال ← 1:1 بِسْمِ
+- **B012** düzeneğin dik, taşıyıcı veya tutulan parçası / آلة قائمة وجزء قائم
+  - same: ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د ي B003 bir şeyin ilk veya öndeki bölümü / المتقدم الهادي وأوائل الشيء ← 1:6 ٱهْدِنَا
+  - same: ه د د B009 sarp inisli gecit / منحدر شاق ← 1:6 ٱهْدِنَا
+  - near: ن ع م B007 devekuşuna benzetilerek ad verilen şeyler / ما سمي نعامة تشبيها بالهيئة ← 1:7 أَنْعَمْتَ
+  - near: غ ض ب B004 sert, yığılmış veya yuvarlak kaya / صلابة الصخرة وتماسكها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+- **B013** ölülerin diriltildiği ve insanların yargı için kalktığı gün / قيامة وبعث وقيام الساعة
+  - same: ه د ي B004 incelik göstergesi armağan verme / بعثة لطف وهدية إلى ذي مودة ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B010 gozdagi vererek korkutma / وعيد وتخويف ← 1:6 ٱهْدِنَا
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+  - near: د ي ن B002 yargılayıp hesap görerek karşılığını verme / الحساب والجزاء ← 1:4 ٱلدِّينِ
+  - near: ع ب د B006 saygı gösterilip hizmet edilen kişi / التكريم والتعظيم ← 1:5 نَعْبُدُ
+- **B014** karşılıklı direnip mücadele etme / مقاومة ومنازلة
+  - same: ه د ي B011 övgü veya yergi şiiri sunma ve şiirle yergileşme / إهداء الشعر ومهاداته ← 1:6 ٱهْدِنَا
+  - same: ه د د B007 ovgu yeterlik kalibi / هدك من رجل في المدح ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: س م و B007 yarışma, övünerek boy ölçüşme ve karşı koyma / المساماة والمباراة ← 1:1 بِسْمِ
+  - near: د ي ن B006 kent / مدينة الطاعة ← 1:4 ٱلدِّينِ
+  - near: ع و ن B003 yinelenmiş veya öncülü olan savaş / الحرب العَوان ← 1:5 نَسْتَعِينُ
+- **B015** tam ve denk ağırlıktaki para / وزن سواء ومقدار معتدل
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+  - same: ه د د B008 agir basarak yurume / وطء شديد يثقل الأرض ← 1:6 ٱهْدِنَا
+  - near: ض ل ل B005 sahibi bilinmeyen kayıp hayvan, özellikle deve / الضالّة في المضيعة ← 1:7 ٱلضَّآلِّينَ
+  - near: د ي ن B004 zorla alçaltıp egemenliği altına alma / الإذلال والملك ← 1:4 ٱلدِّينِ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+- **B016** donup akmama veya yorulup ilerleyememe / جمود ووقوف وكلال
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B001 agir kirip yikma / كسر شديد وهدم ← 1:6 ٱهْدِنَا
+  - same: ه د ي B004 incelik göstergesi armağan verme / بعثة لطف وهدية إلى ذي مودة ← 1:6 ٱهْدِنَا
+  - near: ع ب د B011 bineği yüzünden yolda kalma veya güçlükle direnen deve / العطب والانقطاع ← 1:5 نَعْبُدُ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+- **B017** güneşin tam tepede olduğu öğle ortası / انتصاف النهار وقائم الظهيرة
+  - same: ه د د B011 kesinlesmemis sani / تخييل الظن في النفس ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د ي B007 dokunulmaz sığınmacı; kimi açıklamalarda tutsak / هدي الحرمة والأسير ← 1:6 ٱهْدِنَا
+  - near: ي و م B001 güneşin doğuşundan batışına kadarki gün / وقت النهار المحدود ← 1:4 يَوْمِ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: ع و ن B001 yardım, destek ve dayanışma / الإعانة والمظاهرة ← 1:5 نَسْتَعِينُ
+- **B018** pazarın canlanıp satışların artması / نفاق السوق
+  - same: ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د د B006 uyutmak icin sallama / هدهدة الصبي لينام ← 1:6 ٱهْدِنَا
+  - same: ه د ي B008 sallanarak, gerektiğinde başkalarına dayanarak yürüme / مشي التهادي مع الاعتماد والتمايل ← 1:6 ٱهْدِنَا
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: ر ب ب B007 bir yerde kalıp sürme / لزوم وإقامة ودوام ← 1:2 رَبِّ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B019** bir beden bölümünün kişiye ağrı vermesi / وجع قائم بالعضو
+  - same: ه د د B007 ovgu yeterlik kalibi / هدك من رجل في المدح ← 1:6 ٱهْدِنَا
+  - same: ه د ي B002 yön, izlenen yol ve tutum / جهة الأمر وسيرته وقصده ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B002 geçişte gözden kaybolmak; özellikle yiyeceği yutmak / الغيبة في المرور والبلع ← 1:6 ٱلصِّرَٰطَ
+  - near: ن ع م B011 bir yeri kendine uygun bulup orada kalmak / موافقة المكان وطيب المقام ← 1:7 أَنْعَمْتَ
+  - near: غ ض ب B006 üst göz kapağı çıkıntısı veya göz çevresi şişliği / تورم العين وما حولها ← 1:7 ٱلْمَغْضُوبِ
+  - near: ي و م B003 büyük olayın yaşandığı çetin gün veya olay / كائنة اليوم وشدته ← 1:4 يَوْمِ
+- **B020** koyunun bacaklarını tutan hastalık / قوام في قوائم الشاة
+  - same: ه د ي B003 bir şeyin ilk veya öndeki bölümü / المتقدم الهادي وأوائل الشيء ← 1:6 ٱهْدِنَا
+  - same: ه د د B009 sarp inisli gecit / منحدر شاق ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B001 yol, özellikle düz yol / الطريق المستقيم ← 1:6 ٱلصِّرَٰطَ
+  - near: م ل ك B008 hayvanlarda önden gidip yön veren unsur / المتقدم القائد في الحيوان ← 1:4 مَٰلِكِ
+  - near: ر ح م B004 döl yatağı hastalığı ve doğum sonrası bozukluk / وجع الرَّحِم بعد الولادة ← 1:3 ٱلرَّحْمَٰنِ
+  - near: ر ب ب B009 başlangıçtaki tazelik / شاة رُبّى وحداثة ← 1:2 رَبِّ
+- **B021** göz bebeği sağlamken görme yetisinin kaybolması / عين قائمة ذاهبة البصر
+  - same: ه د د B001 agir kirip yikma / كسر شديد وهدم ← 1:6 ٱهْدِنَا
+  - same: ص ر ط B003 vuruşta kesip ilerleyen kılıç / السيف القاطع الماضي في الضربة ← 1:6 ٱلصِّرَٰطَ
+  - same: ه د ي B006 gelini eşinin yanına götürme / العروس المهدية إلى زوجها ← 1:6 ٱهْدِنَا
+  - near: ن ع م B013 birini göz sevinci saymak veya bunun için dua etmek / نعم الله بك عينا وقرة العين ← 1:7 أَنْعَمْتَ
+  - near: ع و ن B004 yaşlı hurma ağacı / النخلة العَوانة القديمة ← 1:5 نَسْتَعِينُ
+  - near: ع ب د B007 güç, sağlamlık ve dayanıklılık / القوة والصلابة ← 1:5 نَعْبُدُ
+

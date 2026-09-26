@@ -1,0 +1,7 @@
+== 103:3 write
+  synth.py 103:3 --arm w10-opus
+    w10-opus: 2003 words, 32 distinct refs, 38 Arabic tags; Arabic/prose problems 23: line 11: arabic_outside_tag: Arabic outside tag: الأمن; line 11: arabic_outside_tag: Arabic outside tag: ضد; line 11: arabic_outside_tag: Arabic outside tag: الخوف; line 17: arabic_outside_tag: Arabic outside tag: الصلاح; line 17: arabic_outside_tag: Arabic outside tag: ضد; line 17: arabic_outside_tag: Arabic outside tag: الفساد
+  usage.py 103:3
+      w10-opus/run.log.json                            claude-opus  turns  1 tools   0 in         2 cached     2,694 out  20,052 reas       0 cost $1.961
+  w10-opus-cold/run.log.json                       claude-opus  turns  1 tools   0 in         2 cached     2,694 out  17,586 reas       0 cost $0.400
+== TOTAL 22 sessions: in 608,478 cached 275,724 out 371,599 reasoning 194,942 tool calls 0

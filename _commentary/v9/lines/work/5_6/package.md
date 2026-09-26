@@ -1,0 +1,3966 @@
+# Package for 5:6
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### H1 وَٱمْسَحُوا۟ — 31 roots converge
+Plain sense of وَٱمْسَحُوا۟: üzerinden geçirip silme (إمرار اليد على الشيء وإزالة أثره)
+- **H1.1** [dictionary] ء ح د B004 «iki kişiden biri, ilk olan ve haftanın ilk günü» الأول والإضافة — word أَحَدٌ (2 dictionaries); source: أن يستعمل مضافا أو مضافا إليه بمعنى الأول (mufradat); أما أحدكما (mufradat); يوم الأحد أي يوم الأول (mufradat); يوم الأحد يجمع على آحاد (sihah) (also H2.1, H3.1)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.2** [dictionary] ء م ن B002 «dogru sayip kabul etme» تصديق يطمئن إليه القلب — word ءَامَنُوٓا۟ (4 dictionaries); source: الإيمان التصديق (ayn;sihah)؛ وما أنت بمؤمن لنا أي مصدق لنا (maqayis;ayn;mufradat)؛ إذعان النفس للحق على سبيل التصديق (mufradat)؛ المؤمن في صفات الله يصدق ما وعد عبده (maqayis) (also H2.2, H3.3, H15.11, L14.1)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.3** [dictionary] ت م م B002 «korunma boncugu» التميمة المعلقة — word وَلِيُتِمَّ (3 dictionaries); source: التميمة كأنهم يريدون أنها تمام الدواء والشفاء المطلوب (maqayis)؛ التميمة عوذة تعلق على الانسان ويقال هي خرزة (sihah)؛ التمائم واحدتها تميمة وهي خرزات كانت الأعراب يعلقونها على أولادهم (tahdhib) (also H2.3, H3.4, L2.3)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.4** [dictionary] ج د د B003 «kesme ve ayırma» قطع وصرم — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: جددت الشيء جدا وهو مجدود وجديد أي مقطوع؛ الجداد صرام النخل (maqayis)؛ جداد النخل صرامه؛ جد ثدي أمك اذدعي عليه بالقطيعة (ayn)؛ جددت الشيء أجده جدا قطعته؛ جد النخل أي صرمه؛ جدت أخلاف الناقة (sihah)؛ جد التمرة؛ الجداد الصرام؛ أصل الجد القطع؛ جد ثدي أمه (tahdhib)؛ جددت الثوب إذا قطعته؛ جد ثدي أمه على طريق الشتم (mufradat) (also H2.4, H3.9)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.5** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word تَجِدُوا۟ (echo root, sound family only; 4 dictionaries); source: جدة النهر أي ما قرب من الأرض؛ الجدة ساحل البحر بمكة (ayn)؛ جدة النهر حافته وكذلك الوادي (jamhara)؛ جدة بلد على الساحل (sihah)؛ الجدة شاطىء النهر؛ الجدة ساحل البحر بحذاء مكة (tahdhib) (also H2.5, H3.10, H4.1, H5.1, H11.7)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.6** [dictionary] ج د د B013 «cırcır böceği» دويبة الجُدجُد — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: الجدجد دويبة على خلقة الجندب (ayn)؛ الجدجد صرار الليل وفيه شبه من الجراد (sihah) (also H2.6, H3.12)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.7** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: جدة موضع؛ جدود موضع بالبادية (ayn)؛ جدة بلد على الساحل؛ جدود موضع فيه ماء (sihah) (also H2.7, H3.13, H4.3, H5.3)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.8** [dictionary] ج ع ل B002 «birini veya şeyi belirli bir duruma getirme» تصيير الشيء على حال — word لِيَجْعَلَ (2 dictionaries); source: جعله الله نبيا أي صيره (sihah)؛ جعل صير؛ جعلته أحذق الناس؛ صيرهم؛ صيرته (tahdhib) (also H2.8, H3.14)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.9** [dictionary] ج ع ل B005 «iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme» أجر مجعول على عمل — word لِيَجْعَلَ (4 dictionaries); source: الجعل والجعالة والجعلية ما يجعل للإنسان على الأمر يفعله (maqayis)؛ الجعل ما جعلت لإنسان أجرا له على عمل يعمله؛ الجعالات ما يتجاعل الناس بينهم (ayn)؛ الجعل ما جعل للانسان من شئ على الشئ يفعله؛ الجعالة؛ الجعيلة مثله (sihah)؛ الجعل في العطية؛ الجعالة بالفتح من الشيء تجعله للإنسان؛ ما جعلته للإنسان أجرا على عمله (tahdhib) (also H2.9, H3.15)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.10** [dictionary] ج ن ب B002 «yanında yakın bulunma ve eşlik etme» الجنب قرب ومجاورة على الجانب — word جُنُبًا (4 dictionaries); source: رجل لين الجانب والجنب أي سهل القرب (ayn;tahdhib)؛ الصاحب بالجنب صاحبك في السفر (sihah)؛ الجنب القرب وفي قرب الله وجواره (tahdhib)؛ في أمره وحده الذي حده لنا (mufradat) (also H2.10, H3.16, H14.1, H16.1)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.11** [dictionary] ج ن ب B010 «yazın kalan köklü küçük bitkiler» الجنبة نبت متوسط مستقل — word جُنُبًا (4 dictionaries); source: الجنبة اسم يقع على عامة الشجر يترك في الصيف (ayn)؛ الجنبة ضرب من النبت (jamhara)؛ الجنبة اسم لكل نبت يتربل في الصيف (sihah)؛ الجنبة اسم واحد لنبوت كثيرة هي كلها عروة (tahdhib) (also H2.11, H3.19, H6.27)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.12** [dictionary] ح ر ج B004 «yasak kılma» التحريم والحظر — word حَرَجٍ (3 dictionaries); source: حرج علي ظلمك أي حرم (maqayis;sihah;tahdhib)؛ أحرجها بتطليقة أي حرمها (maqayis)؛ أحرج امرأته بطلقة أي حرمها (tahdhib)؛ حرث حرج أي حرام (tahdhib)؛ الحرج بمعنى الحجر الحرام (tahdhib) (also H2.12, H3.22, L5.5)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.13** [dictionary] ح ر ج B007 «zayıf ya da uzun gövdeli dişi deve» الناقة الضامرة والطويلة — word حَرَجٍ (3 dictionaries); source: ناقة حرج وحرجوج ضامرة (maqayis;tahdhib)؛ الحرج الناقة الضامرة ويقال الطويلة على وجه الأرض (sihah)؛ الحرجوج الضامر من الإبل (sihah;tahdhib)؛ الحرجج والحرجوج الناقة الطويلة على وجه الأرض (sihah)؛ الحرجج بمعنى الحرجوج (tahdhib) (also H2.13, H3.23, H6.3, H9.3)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.14** [dictionary] ر ء س B002 «yalıtık adlandırmalar» الرئاسة والصدارة — word بِرُءُوسِكُمْ (4 dictionaries); source: الرئيس الذي قد ضرب رأسه (maqayis)؛ أنا رأسهم ورئيسهم وترأست عليهم ورأسوني على أنفسهم (ayn)؛ رأس فلان القوم رياسة وهو رئيسهم (sihah)؛ يعبر بالرأس عن الرئيس (mufradat)؛ سحابة رائسة التي تتقدم السحاب (maqayis;ayn)؛ إذا كثروا وعزوا هم رأس (ayn;sihah) (also H2.14, H3.25, L4.5)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.15** [dictionary] ر ء س B003 «selin çerçöpü toplayıp sürüklemesi» جمع السيل وحمله — word بِرُءُوسِكُمْ (2 dictionaries); source: أصل يدل على تجمع وارتفاع (maqayis)؛ السيل يرأس الغثاء والقمام رأسا وهو جمعه إياه ثم يحتمله (ayn) (also H2.15, H3.26, L6.4, L12.6)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (image): The wiping hand can be pictured like a flood sweeping up debris from a surface. The rare head-root image makes removal feel larger and more forceful than the ri
+- **H1.16** [dictionary] ر ء س B004 «işin veya sözün başlangıcı» رِئاس الأمر ومن رأسه — word بِرُءُوسِكُمْ (2 dictionaries); source: أنت على رئاس أمرك (maqayis)؛ أنت على رياس أمرك أي أوله (sihah)؛ أعد علي كلامك من رأس (sihah) (also H2.16, H3.27, L4.6)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.17** [dictionary] ر ج ل B004 «birinin devrinde» زمان الرجل — word وَأَرْجُلَكُمْ (3 dictionaries); source: كان ذاك على رجل فلان أي في زمانه (maqayis)؛ كان ذلك على رجل فلان أي في عهده وزمانه (sihah)؛ استعير الرجل لزمان الإنسان (mufradat) (also H2.17, L19.3)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.18** [dictionary] ر ج ل B009 «ayak benzetmeli özel adlar» رجل القوس والميسم — word وَأَرْجُلَكُمْ (3 dictionaries); source: رجل القوس سيتها العليا (maqayis)؛ رجل القوس سيتها السفلى (ayn;sihah)؛ رجل الطائر ضرب من الميسم (maqayis)؛ رجل الطائر ميسم (sihah)؛ رجل الغراب ضرب من صر أخلاف النوق (maqayis)؛ رجل الغراب ضرب من الابل لا يقدر الفصل على أن يرضع معه (sihah) (also H2.18)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.19** [dictionary] ر ج ل B016 «dik duran pişirme kazanı» المرجل المنصوب — word وَأَرْجُلَكُمْ (4 dictionaries); source: المرجل مشتق من هذا أيضا لأنه إذا نصب فكأنه أقيم على رجل (maqayis)؛ المرجل معروف عربي صحيح (jamhara)؛ المرجل قدر من نحاس (sihah)؛ المرجل القدر المنصوبة (mufradat) (also H2.19)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.20** [dictionary] ر ج ل B018 «hayvanın biniciye ödetilmeyen vuruş zararı» الرِّجل جبار — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: الرجل جبار وهو أن تنفحه الدابة ليس على راكبها غرم وهو هدر (ayn) (also H2.20)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.21** [dictionary] ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: فلان قائم على رجل إذا جد في أمر حزبه (ayn) (also H2.21, L1.1, L5.7, T4)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.22** [dictionary] ر د د B003 «kabul etmeyip geçersiz sayarak geri çevirme» عدم القبول ورد الزائف أو الخطأ — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: رد عليه الشيء إذا لم يقبله وكذلك إذا خطأه (sihah)؛ ردود الدراهم واحدها رد وهو ما زيف فرد على ناقده بعد ما أخذ منه (tahdhib) (also H2.22, H3.28)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.23** [dictionary] ر د د B003 «kabul etmeyip geçersiz sayarak geri çevirme» عدم القبول ورد الزائف أو الخطأ — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as H1.22 (also H2.23, H3.29)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.24** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: المتردد الإنسان المجتمع الخلق كأن بعضه رد على بعض (maqayis)؛ ردده ترديدا وتردادا فتردد ورجل مردد حائر بائر (sihah)؛ فعلوا ذلك مرة بعد أخرى وردة الإبل أن تتردد إلى الماء (mufradat) (also H2.26, H3.34, H4.10, H5.10, L11.5)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.25** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H2.27, H3.35, H4.11, H5.11, H18.5)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.26** [dictionary] ر ف ق B004 «dirsek, dirseğe dayanma ve dayanak» المرفق والاتكاء — word ٱلْمَرَافِقِ (4 dictionaries); source: المرفق مرفق الإنسان لأنه يستريح في الاتكاء عليه (maqayis)؛ الارتفاق التوكؤ على مرفقه (ayn)؛ المرفق موصل الذراع في العضد والمرفقة المخدة وباب فلان مرتفقا أي متكئا على مرفق يده (sihah)؛ مرتفقا أي متكئا وقد ارتفق إذا اتكأ على مرفقه (tahdhib)؛ شاة مرفقة يداها بيضاوان إلى المرفقين (maqayis) (also H2.28, H3.36, L3.7, L15.4)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (part): The elbow can support the arm whose hand performs the wipe. The pair links a resting joint to the movement of wiping.
+- **H1.27** [dictionary] ر و د B002 «birini istegine karsi razi etmeye calisma» المراودة على الفعل — word يُرِيدُ (3 dictionaries); source: راودته على كذا مراودة وروادا، أي أردته (sihah)؛ المراودة أن تنازع غيرك في الإرادة (mufradat)؛ تصرفه عن رأيه (mufradat)؛ راودته على أن يفعل كذا إذا أردته على فعله (maqayis)؛ يرادى مقلوب ومعناه يراود (maqayis-crossref) (also H2.29, H3.37)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.28** [dictionary] ر و د B002 «birini istegine karsi razi etmeye calisma» المراودة على الفعل — word يُرِيدُ (3 dictionaries); source: as H1.27 (also H2.30, H3.38, L13.6)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.29** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: يدل على مجيء وذهاب من انطلاق في جهة واحدة (maqayis)؛ راد الشئ يرود أي جاء وذهب (sihah)؛ رياد الإبل اختلافها في المرعى مقبلة ومدبرة (sihah)؛ المراد الموضع الذي ترود فيه الراعية (maqayis)؛ رادت المرأة ترود إذا اختلفت إلى بيوت جاراتها (maqayis)؛ راد وساده إذا لم يستقر (maqayis) (also H2.31, H3.41, H13.1)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.30** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: as H1.29 (also H2.32, H3.42, H13.2)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.31** [dictionary] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: يمشي على رود أي على مهل (sihah)؛ أرود في السير إروادا ومرودا أي رفق (sihah)؛ رويد: مهلا ورويدك: أمهل (sihah)؛ أرود يرود إذا رفق ومنه بني رويد (mufradat)؛ الإرواد في الفعل أن يكون رويدا (maqayis)؛ الرادة السهلة من الرياح لأنها ترود لا تهب بشدة (maqayis) (also H2.33, H3.43, H14.5)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (part): The gentle pace supplies a manner for the wiping command. The hand's passage is heard as measured rather than hurried.
+- **H1.32** [dictionary] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: as H1.31 (also H2.34, H3.44, H14.6)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.33** [dictionary] س ف ر B003 «yolculuğa çıkıp mesafe katetme» الخروج في السفر والمسافرون — word سَفَرٍ (5 dictionaries); source: السفر سمي بذلك لأن الناس ينكشفون عن أماكنهم (maqayis)؛ السفر قوم مسافرون (maqayis;ayn)؛ السفر قطع المسافة (sihah)؛ سفرت خرجت إلى السفر (sihah)؛ كثرت السافرة يعني المسافرين (sihah;tahdhib)؛ سفرة طعام يتخذ للمسافر (maqayis;ayn;sihah;mufradat)؛ بعير مسفر قوي على السفر (maqayis;sihah;tahdhib) (also H2.35, H3.45, L4.19, L5.1)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.34** [dictionary] ص ع د B003 «çetin yokuş ve ağır güçlük» عقبة كؤود ومشقة — word صَعِيدًا (5 dictionaries); source: الصعود بمنزلة الكؤود من عقبة وارتكاب مشقة في أمر (ayn)؛ تصعدني الشيء أي شق علي وعذاب صعد أي شديد (sihah)؛ الصعود العقبة الكئود ويقال لأرهقنك صعودا أي لأجشمنك مشقة (tahdhib)؛ الصعود والصعد يقال للعقبة ويستعار لكل شاق (mufradat)؛ الصعود العقبة الكوود والمشقة من الأمر (maqayis) (also H2.36, H3.47, L2.12, L15.7, L18.3)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.35** [dictionary] ص ع د B005 «yavrusunu yitirip önceki yavrusunu emziren dişi deve» ناقة صعود تعطف على ولد — word صَعِيدًا (4 dictionaries); source: الصعود الناقة يموت ولدها فترجع إلى فصيلها الأول فتدر عليه (ayn)؛ الصعود من النوق التي تخدج فتعطف على ولد عام أول (sihah)؛ إذا ولدت الناقة لغير تمام فعطفت على ولد عام أول فهي صعود (tahdhib)؛ الصعود من النوق التي يموت حوارها فترفع إلى ولدها الأول (maqayis) (also H2.37, H3.48, L6.7, L17.1)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.36** [dictionary] ص ل ي B004 «ateş yakıtı; ateşte pişirme veya ısıyla düzeltme» إيقاد الصلاء وتسوية الشيء بالنار — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: الصلاء ما يصطلى به وما يذكى به النار ويوقد (maqayis)؛ صليت اللحم صليا شويته (ayn;sihah;tahdhib)؛ صلى عصاه إذا أدارها على النار يثقفها (ayn;tahdhib)؛ الصلاء يقال للوقود وللشواء (mufradat) (also H2.38, H3.50)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.37** [dictionary] ص ل ي B007 «yarışta önderin hemen ardındaki ikinci at» المصلي يتلو السابق — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: أتى الفرس على أثر الفرس السابق قيل قد صلى وجاء مصليا (ayn)؛ المصلى تالي السابق (sihah)؛ السابق الأول والمصلي الثاني (tahdhib) (also H2.39, H3.51, H13.6)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.38** [dictionary] ص ل ي B010 «iri başaklı deve yemi bitkisi» الصِّليان نبت ترعاه الإبل — word ٱلصَّلَوٰةِ (echo root, sound family only; 2 dictionaries); source: الصليان نبت على فعلان ويقال فعليان له سنمة عظيمة (ayn)؛ الصليان نبت له سبطة عظيمة (tahdhib)؛ تسميها العرب خبزة الإبل (ayn;tahdhib) (also H2.40, H3.52)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.39** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word لِيُطَهِّرَكُمْ (5 dictionaries); source: والطهور الماء (maqayis)؛ الطهور الطاهر في نفسه المطهر لغيره (maqayis)؛ الطهور اسم للماء الذي يتطهر به (ayn)؛ والطهور ما يتطهر به (sihah)؛ كل طهور طاهر وليس كل طاهر طهورا (tahdhib)؛ الماء بأنه طهور تنبيها على هذا المعنى (mufradat) (also H2.41, H3.53, H4.15, H5.15, L7.9, L10.8)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (part): The wiping command is heard as an action carried out by a purifying medium. The medium and the gesture meet within the rite.
+- **H1.40** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H2.42, H3.54, H4.16, H5.16, H10.7, L3.8)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (part): The purifying agent’s work is carried out through contact. Wiping supplies a particular action by which the cleansing reaches the body.
+- **H1.41** [dictionary] ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word قُمْتُمْ (5 dictionaries); source: القوم الرجال دون النساء؛ قوم كل رجل شيعته وعشيرته (ayn;tahdhib)؛ القوم الرجال دون النساء؛ ربما دخل النساء فيه على سبيل التبع (sihah)؛ القوم جماعة الرجال في الأصل دون النساء؛ وفي عامة القرآن أريدوا به والنساء جميعا (mufradat)؛ القوم جمع امرئ ولا يكون ذلك إلا للرجال؛ وربما استعير في غيرهم (maqayis) (also H2.43, H3.60, H8.8)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.42** [dictionary] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قُمْتُمْ (5 dictionaries); source: القومة ما بين الركعتين من القيام؛ قمت قياما؛ منها هامد ومنها قائم (ayn;tahdhib)؛ قام الرجل قياما؛ القومة المرة الواحدة؛ قامت الدابة وقفت (sihah)؛ قيام بالشخص إما بتسخير أو اختيار؛ ساجدا وقائما؛ تركتموها قائمة على أصولها (mufradat)؛ قام قياما والقومة المرة الواحدة إذا انتصب (maqayis) (also H2.44, H3.61)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.43** [dictionary] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قُمْتُمْ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القائم على كل شيء (tahdhib)؛ قيام للشيء هو المراعاة للشيء والحفظ له؛ قوامين لله؛ القيوم القائم الحافظ لكل شيء (mufradat)؛ قام بهذا الأمر إذا اعتنقه؛ قوام الدين والحق أي به يقوم (maqayis) (also H2.45, H3.62, L5.12)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.44** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قُمْتُمْ (4 dictionaries); source: رمح قويم ورجل قويم؛ القيمة الملة المستقيمة؛ إذا انقاد واستمرت طريقته فقد استقام (ayn)؛ الاستقامة الاعتدال؛ استقام له الأمر؛ قومت الشيء فهو قويم أي مستقيم؛ القوام العدل؛ دينا قيما (sihah)؛ الاستقامة على الطاعة؛ القيم هو المستقيم؛ أقوم كلاما أي أعدل كلاما (tahdhib)؛ الاستقامة في الطريق الذي يكون على خط مستو؛ استقامة الإنسان لزومه المنهج المستقيم؛ دينا قيما أي ثابتا (mufradat) (also H2.46, H3.63, L4.21, L5.13, T3)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.45** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قُمْتُمْ (4 dictionaries); source: القامة مقدار قيام الرجل كهيئة الرجل يبنى على شفير بئر؛ قائم السيف مقبضه؛ قائمة السرير والخوان والدابة (ayn)؛ القامة البكرة بأداتها؛ قائم السيف وقائمته مقبضه؛ القائمة واحدة قوائم الدواب؛ المقوم الخشبة التي يمسكها الحراث (sihah)؛ القامة البكرة التي يستقى بها الماء؛ النعامة الخشبة المعترضة ثم تعلق القامة؛ قائم السيف مقبضه وما سوى ذلك فهو قائمة (tahdhib)؛ القامة البكرة بأداتها (maqayis) (also H2.47, H3.65, H4.19, H5.19, H6.31, H7.10)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.46** [dictionary] ك ع ب B002 «dörtgen ve yüksek yapı» البيت المربع المرتفع — word ٱلْكَعْبَيْنِ (6 dictionaries); source: الكعبة بيت الله تعالى يقال سمى لنتوه وتربيعه (maqayis)؛ الكعبة البيت الحرام وكعبته تربيع أعلاه والبيت المربع كعبة وذو الكعبات (ayn)؛ الكعبة معروفة سميت بذلك لتكعيبها أي لتربيعها وذو الكعبات (jamhara)؛ الكعبة البيت الحرام سمى بذلك لتربعه وذو الكعبات (sihah)؛ البيت الحرام هو الكعبة سمي كعبة لارتفاعه وتربعه وكل بيت مربع عند العرب فهو كعبة وذو الكعبات (tahdhib)؛ الكعبة كل بيت على هيئته في التربيع وفلان جالس في كعبته أي غرفته وبيته على تلك الهيئة (mu… (also H2.48, H3.66, H6.32, L14.10)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.47** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُم (2 dictionaries); source: الكيانة الكفالة؛ كنت على فلان أكون كونا أي تكفلت به؛ اكتنت به اكتيانا مثله (sihah); كنت على فلان أكون عليه إذا كفلت به؛ اكتنت أيضا اكتيانا (maqayis) (also H2.49, H3.68, L1.21, L5.18, T14)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.48** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُمْ (2 dictionaries); source: as H1.47 (also H2.50, H3.69, L1.22)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.49** [dictionary] ل م س B003 «dokunma sözüyle cinsel birleşmeyi örtülü anlatma» كناية الجماع — word لَٰمَسْتُمُ (3 dictionaries); source: لامستم النساء؛ أريد به الجماع؛ يكون بغير جماع (maqayis)؛ يكنى به عن الجماع؛ وكذلك الملامسة (sihah)؛ يكنى به وبالملامسة عن الجماع؛ حملا على المس وعلى الجماع (mufradat) (also H2.51, H3.72, H8.9, H18.3)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.50** [dictionary] م ر ض B003 «hastaya özenle bakma» القيام على المريض — word مَّرْضَىٰٓ (5 dictionaries); source: مرّضه أحسن القيام عليه في مرضه (maqayis)؛ التمريض حسن القيام على المريض (ayn;tahdhib)؛ مرضته تمريضا إذا قمت عليه في مرضه (sihah)؛ التمريض القيام على المريض وتحقيقه إزالة المرض عن المريض (mufradat) (also H2.52, H3.73, H14.10, L1.23, L14.12)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟ || Luna (part): Wiping can appear as one concrete act of attending to a patient. The touch-based command briefly takes on the intimacy of nursing.
+- **H1.51** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word فَٱمْسَحُوا۟ (5 dictionaries); source: على فلان مسحة من جمال (maqayis)؛ على وجه مي مسحة من ملاحة (ayn)؛ رجل به مسحة من جمال (jamhara)؛ وعلى فلان مسحة من جمال (sihah)؛ مسحة جمال ومسحة عتق وكرم لا يقال إلا في المدح (tahdhib) (also H3.78, H6.10, H9.11)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (image): Wiping becomes a beautifying touch, not only a removal of trace. The rite leaves the worshipper with a sign of beauty.
+- **H1.52** [dictionary] م و ه B005 «başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme» كسوة المعدن بماء الذهب أو الفضة — word مَآءً (3 dictionaries); source: موهت الشيء طليته بفضة أو ذهب (maqayis)؛ موهت الشيء طليته بفضة أو ذهب وتحت ذلك نحاس أو حديد ومنه التمويه وهو التلبيس (sihah)؛ الميه طلاء السيف وغيره بماء الذهب ومنه قيل للمخادع مموه وقد موه علي الباطل إذا لبسه (tahdhib) (also H2.54, H3.84, H5.24, H9.17, L4.26)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (opposite): The wiping action runs against the coating that hides a surface.
+- **H1.53** [dictionary] م و ه B008 «gönlünde suyu çok denilen, bazı aktarımlarda anlayışı kıt adam» كثرة ماء القلب على جهة البلادة — word مَآءً (3 dictionaries); source: رجل ماه القلب أي كثير ماء القلب ويكون صاحب ذلك بليدا (maqayis)؛ رجل ماه أي كثير ماء القلب أي بليد (sihah)؛ رجل ماهي القلب كثر ماء قلبه (mufradat) (also H2.55, H3.85, H5.27)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.54** [dictionary] ن ع م B005 «develer ve geniş anlamda otlayan evcil hayvanlar» مال الأنعام والإبل — word نِعْمَتَهُۥ (4 dictionaries); source: النعم الإبل لما فيه من الخير والنعمة والأنعام البهائم (maqayis)؛ النعم واحد الأنعام وهي المال الراعية وأكثر ما يقع هذا الاسم على الإبل (sihah)؛ النعم لم يريدوا بها إلا الإبل فإذا قالوا الأنعام أرادوا بها الإبل والبقر والغنم (tahdhib)؛ النعم مختص بالإبل وجمعه أنعام (mufradat) (also H2.56, H3.86, H15.5)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.55** [dictionary] ن ع م B007 «devekuşuna benzetilerek ad verilen şeyler» ما سمي نعامة تشبيها بالهيئة — word نِعْمَتَهُۥ (4 dictionaries); source: على معنى التشبيه النعامة وهي كالظلة تجعل على رءوس الجبل (maqayis)؛ النعامة الخشبة المعترضة على الزرنوقين والنعائم منزل من منازل القمر (sihah)؛ النعامة الخشبة المعترضة على الزرنوقين وابن النعامة عرق الرجل ومحجة الطريق (tahdhib)؛ النعامة المظلة في الجبل وعلى رأس البئر تشبيها بالنعامة في الهيئة والنعائم من منازل القمر (mufradat) (also H2.57, H3.87, H7.6, H12.4)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.56** [dictionary] ن ع م B010 «daha da artırmak veya ileri dereceye götürmek» زاد وأنعم في الفعل — word نِعْمَتَهُۥ (3 dictionaries); source: فعل كذا وأنعم أي زاد (sihah;mufradat)؛ أنعم أفضل وزاد وأنعما أي زادا على ذلك ودققت دواء فأنعمت دقه أي بالغت وزدت (tahdhib) (also H2.58, H3.88)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.57** [dictionary] ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها — word نِعْمَتَهُۥ (3 dictionaries); source: تنعمت زيدا طلبته كأنه أراد أعمل إليه نعامته وهي باطن قدمه (maqayis)؛ تنعمت فلانا أتيته على غير دابة وتنعم فلان قدميه أي ابتذلهما (tahdhib)؛ تنعم فلان إذا مشى مشيا خفيفا فمن النعمة (mufradat) (also H2.59, H3.89, H13.10, H15.7, L15.14)
+  - evidence: lex/image: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.58** [dictionary] و ج د B005 «öfke duymak ve birine kızmak» الموجدة والغضب — word تَجِدُوا۟ (5 dictionaries); source: وجدت في الغضب وجدانا (maqayis)؛ الموجدة من الغضب (ayn)؛ وجدت على الرجل موجدة (jamhara)؛ وجد عليه في الغضب موجدة ووجدانا (sihah)؛ يعبر عن الغضب بالموجدة (mufradat) (also H2.60, H3.90)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.59** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word بِوُجُوهِكُمْ (4 dictionaries); source: وجه الكلام السبيل التي تقصدها به وصرفت الشيء عن وجهه أي عن سننه (jamhara); هذا وجه الرأي أي هو الرأي نفسه وأحمق ما يتوجه (sihah); دبر الأمر على وجهه الذي ينبغي وأحمق ما يتوجه أي ما يحسن أن يأتي الغائط (tahdhib); أحمق ما يتوجه أي لا يستقيم في أمر من الأمور (mufradat) (also H2.61, H3.95, H6.18, H7.17, L5.20, L12.1)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.60** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word وُجُوهَكُمْ (4 dictionaries); source: as H1.59 (also H2.62, H3.96, H6.19, L5.21, L12.2)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.61** [dictionary] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيكُم (3 dictionaries); source: هذا ما قدمت يداك أي جنيته أنت (sihah)؛ ذلك بما كسبت يداك (tahdhib)؛ مما كتبت أيديهم فنسبته إلى أيديهم تنبيه على أنهم اختلقوه (mufradat) (also H2.63, H3.101, L3.26, L13.19)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.62** [dictionary] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.61 (also H2.64, H3.102, H10.22, H12.14, L13.20)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟ || Luna (part): Wiping is one of the acts a hand can perform. The pair makes the ritual act concrete as something done by the person’s hand.
+- **H1.63** [dictionary] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيكُم (2 dictionaries); source: المسلمون يد على من سواهم أي كلمتهم ونصرتهم واحدة (tahdhib)؛ اليد الغياث واليد منع الظلم (tahdhib)؛ فلان يد فلان أي وليه وناصره (mufradat)؛ أنا يدك (mufradat) (also H2.65, H3.105, L1.30, L2.29, L3.27)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.64** [dictionary] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H1.63 (also H2.66, H3.106, H10.24, L1.31, L2.30)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.65** [dictionary] ي م م B003 «deniz veya engin su» اليم ماء عظيم — word فَتَيَمَّمُوا۟ (5 dictionaries); source: فأما البحر فليس من هذا القياس؛ يم الرجل فهو ميموم إذا وقع في اليم فغرق (maqayis)؛ اليم البحر الذي لا يدرك قعره ولا شطاه؛ اليم لجته؛ يم الساحل إذا طما عليه اليم (ayn)؛ اليم فسروه في التنزيل البحر (jamhara)؛ اليم البحر؛ يم الرجل فهو ميموم إذا طرح في البحر (sihah)؛ يقع اسم اليم على ما كان ماؤه ملحا زعافا وعلى النهر الكبير العذب الماء (tahdhib) (also H2.68, H3.107, H4.21, H5.28, L7.15, L12.10)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.66** [dictionary] ي م م B004 «güvercin türü kuş» اليمام طير — word فَتَيَمَّمُوا۟ (5 dictionaries); source: اليمام طائر؛ الطير الذي يستفرخ في البيوت (maqayis)؛ اليمامة الحمامة واليمام طير على ألوان شتى (ayn)؛ اليمام ضرب من الطير الواحدة يمامة (jamhara)؛ اليمام الحمام الوحشي؛ هي التي تألف البيوت (sihah)؛ اليمام من الحمام التي تكون في البيوت؛ ضرب من الحمام بري (tahdhib) (also H2.69, H3.108)
+  - evidence: lex/src: علي names the plain image of وَٱمْسَحُوا۟
+- **H1.67** [judged] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: الجدجد الأرض المستوية؛ الجدد مثل الجدجد؛ الجديد وجه الأرض (maqayis)؛ الجدد والجديد وجه الأرض؛ الجدجد الفيف الأملس (ayn)؛ الجدد الأرض الصلبة؛ الجدجد الأرض الصلبة المستوية (sihah)؛ الأرض المستوية التي ليس فيها رمل ولا اخت… (also H2.70, H6.2, H9.2, L4.2, L6.1, L12.3)
+  - evidence: Luna (image): The wiping action runs across a level, smooth surface.
+- **H1.68** [judged] ر ج ل B008 «su akıntısı yatağı» رِجْلة الماء — word وَأَرْجُلَكُمْ (3 dictionaries); source: قال قوم بل الرجل مسايل الماء واحدتها رجلة (maqayis)؛ الرجلة أيضا واحدة الرجل وهي مسايل الماء (sihah)؛ استعير الرجل لمسيل الماء الواحدة رجلة (mufradat) (also H4.7, H5.7, H13.9)
+  - evidence: Luna (image): Wiping becomes like a current passing over a surface.
+- **H1.69** [judged] ر ج ل B010 «orta kıvırcıklıkta saç» الشعر الرَّجِل — word وَأَرْجُلَكُمْ (5 dictionaries); source: رجلت الشعر (maqayis)؛ رجل رجل بين الرجل أي شعره رجل (ayn)؛ رجل الرجل شعره إذا سرحه (jamhara)؛ شعر رجل إذا لم يكن شديد الجعودة ولا سبطا (sihah)؛ رجل شعره (mufradat) (also H7.8)
+  - evidence: Luna (image): The wiping action suggests grooming hair smooth.
+- **H1.70** [judged] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: الردة تقاعس في الذقن وقبح في الوجه مع شيء من جمال يرد الطرف (maqayis)؛ شيء رد أي رديء وفي لسانه رد أي حبسة وفي وجهه ردة أي قبح مع شيء من الجمال (sihah)؛ الردة تقاعس في الذقن وفي فلان ردة أي يرتد البصر عنه من قبحه (tahdh… (also H2.24, H6.4, H9.4, L4.14, L7.5, L16.5)
+  - evidence: Luna (part): Wiping becomes the motion that passes over a visible flaw.
+- **H1.71** [judged] ص ل و B002 «başkası için iyilik dileme; esirgeme, övme ve değer verme» الدعاء والثناء والرحمة — word ٱلصَّلَوٰةِ (5 dictionaries); source: الصلاة وهي الدعاء (maqayis;sihah); صلوات الرسول للمسلمين دعاؤه لهم (ayn); الصلاة من الله تعالى الرحمة (maqayis;sihah;tahdhib); صلوات الله حسن ثنائه عليهم وقيل مغفرته لهم (ayn); صلاة الملائكة الاستغفار (ayn;tahdhib;mufra… (also H2.71, H5.29, H14.7, H15.15, L2.14)
+  - evidence: Luna (complement): Wiping the head becomes an outward act of purification before prayer. The rare sense of prayer as divine cleansing gives that contact a matching inward purpose.
+- **H1.72** [judged] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: تطهرت أي اغتسلت وأطهرت والاطهار الاغتسال (ayn)؛ وتطهرت بالماء وهم قوم يتطهرون (sihah)؛ فإن معناه الاستنجاء بالماء (tahdhib)؛ فاطهروا أي استعملوا الماء أو ما يقوم مقامه (mufradat) (also H2.72, H4.13, H5.13, L9.9, L10.7)
+  - evidence: Luna (complement): Washing and wiping appear as two scales of purification. The verse lets full cleansing stand beside lighter contact as distinct procedures.
+- **H1.73** [judged] ط ي ب B003 «tuvalet sonrası pisliği gidererek temizlenme» الاستطابة تطهير من الخبث — word طَيِّبًا (3 dictionaries); source: الاستطابة الاستنجاء لأن الرجل يطيب نفسه مما عليه من الخبث بالاستنجاء (maqayis)؛ الاستطابة أيضا الاستنجاء (sihah)؛ سمي الاستنجاء استطابة لما فيه من التطيب والتطهر (mufradat) (also H2.73, H3.57, H5.17, L7.10, L16.1)
+  - evidence: Luna (part): Post-toilet cleaning can include wiping, the very action named by the verb. The two senses meet in a particular act of hygiene.
+- **H1.74** [judged] غ س ل B002 «yıkamada kullanılan su veya madde ile yıkanma yeri» ماء الغسل وما يغسل به أو فيه — word فَٱغْسِلُوا۟ (4 dictionaries); source: والغسول ما يغسل به الرأس من خطمي أو غيره (maqayis)؛ الغسل الماء والغسل الخطمي والغسول من الحمض نحو الرمث (ayn)؛ الغسل بالكسر ما يغسل به الرأس من خطمي وغيره والغسول الماء الذي يغتسل به وكذلك المغتسل والمغتسل أيضا الذي يغ… (also H2.74, H4.17, H7.4, L7.12)
+  - evidence: Luna (complement): Washing and wiping are paired modes of purification. The verse moves from one contact with water to a lighter pass over the head.
+- **H1.75** [judged] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قُمْتُمْ (2 dictionaries); source: قام الماء جمد؛ قامت الدابة وقفت (sihah)؛ قامت لفلان دابته إذا كلت أو عيت فلم تسر (tahdhib) (also H4.20, H5.20, L5.14, L6.9, T7)
+  - evidence: Luna (opposite): The stopped motion of the rare sense is the foil to a hand passing across the body. Wiping appears as movement where the focus branch suggests arrested movement
+- **H1.76** [judged] م س ح B007 «ter; bir kaynakta kol» المسيح عرق ظاهر — word فَٱمْسَحُوا۟ (5 dictionaries); source: المسيح العرق (maqayis)؛ المسيح العرق (jamhara)؛ المسيح العرق (sihah)؛ المسيح الذراع والعرق (tahdhib)؛ سمي العرق القليل مسيحا (mufradat) (also L18.7)
+  - evidence: Luna (part): The command to wipe can be heard removing sweat from the skin. A purification gesture answers the moisture that this root can name.
+- **H1.77** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word فَٱمْسَحُوا۟ (6 dictionaries); source: الأمسح المكان المستوي كأنه قد مسح (maqayis)؛ الأمسح من المفاوز كالأملس (ayn)؛ أرض مسحاء واسعة (jamhara)؛ المسحاء الأرض المستوية ذات حصى صغار لا نبات فيها (sihah)؛ المسحاء قطعة من الأرض مستوية جرداء كثيرة الحصى (tahdhib)… (also H6.35, H9.16, L4.25, L12.9)
+  - evidence: Luna (image): Wiping evokes a surface made level and smooth. The repeated command can be heard as passing over a plane as bare as the المسحاء.
+- **H1.78** [judged] م س ح B012 «saç lülesi ve saç tarayan kadın» ذوائب الشعر والماشطة — word فَٱمْسَحُوا۟ (4 dictionaries); source: المسائح الذوائب واحدتها مسيحة (maqayis)؛ الماسحة الماشطة والمسيحة والمسايح ما ترك من الشعر (ayn)؛ المسيحة من الشعر واحدة المسائح وهي الذوائب والماسحة الماشطة (sihah)؛ المسائح الشعر وهي ما مسحت من شعرك في خدك ورأسك (tahd… (also H5.36, H7.14)
+  - evidence: Luna (image): Wiping the head evokes a hand arranging its locks. The ritual gesture takes on the image of a hairdresser smoothing the hair.
+- **H1.79** [judged] م س ح B014 «kaba dokuma örtü veya sert havlu» البلاس والمسح الخشن — word فَٱمْسَحُوا۟ (4 dictionaries); source: المسح معروف عربي صحيح والجمع مسوح وأمساح (jamhara)؛ المسح البلاس والجمع أمساح ومسوح (sihah)؛ المسيح المنديل الأخشن (tahdhib)؛ المسح البلاس جمعه مسوح وأمساح (mufradat) (also L13.13)
+  - evidence: Luna (part): The command to wipe evokes the rough towel used to wipe a surface. The cloth becomes the instrument of the act.
+- **H1.80** [judged] م و ه B007 «kaya kristali veya ayna» صفاء الماوية كالبلور والمرآة — word مَآءً (2 dictionaries); source: الماوية حجر البلور وكذلك الماوية المرآة (maqayis)؛ الماوية المرآة كأنها منسوبة إلى الماء (sihah) (also H5.26, L9.13, L10.17, L16.10)
+  - evidence: Luna (image): The water that is called a mirror meets the hand passing over a surface. The pair pictures a wipe across a reflective sheet of water.
+- **H1.81** [judged] و ج ه B013 «yüzüne vurma ve yüzüne vurulmuş olma» ضرب الوجه — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: وجهت فلانا ضربت وجهه فهو موجوه (tahdhib) (also H6.21)
+  - evidence: Luna (opposite): A blow to the face is set against the light passage of wiping. The rite turns forceful impact into gentle contact with the same surface.
+- **H1.82** [judged] و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: كساء موجه له وجهان؛ رجل ذو وجهين إذا لقي بخلاف ما في قلبه (jamhara) (also H3.97, H9.20, H11.14, T12)
+  - evidence: Luna (part): A wipe passes over one surface of a two-sided object. The rare sense supplies the two faces, and the verb supplies the contact with one of them.
+- **H1.83** [judged] و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: as H1.82 (also H3.98, L4.29)
+  - evidence: Luna (image): Wiping attends to the outward face, while the two-faced image keeps a hidden side in view. The act can prompt a reading of purification that reaches beyond appe
+- **H1.84** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيَكُمْ (3 dictionaries); source: يد الثوب ما فضل منه إذا تعطفت به والتحفت (sihah)؛ يد الفأس مقبضها ويد القوس سيتها (tahdhib)؛ قميص قصير اليدين أي قصير الكمين (tahdhib)؛ يد المسند (mufradat) (also H2.79, H7.19, H10.23, L13.21)
+  - evidence: Luna (part): A hand is the implement that passes over the surface. The image of a handle or extension meets the hand’s work in wiping.
+- **H1.85** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيكُم (3 dictionaries); source: as H1.84 (also H2.80, H7.20, L13.22)
+  - evidence: Luna (part): The hand’s reach becomes the instrument that carries out the wipe.
+- **H1.86** [judged] ي م م B002 «toprakla namaz temizliği» التيمم للصلاة بمسح الوجه واليدين بالتراب — word فَتَيَمَّمُوا۟ (1 dictionaries); source: تيممت الصعيد للصلاة وأصله التعمد والتوخي؛ أي اقصدوا لصعيد طيب؛ صار التيمم مسح الوجه واليدين بالتراب (sihah) (also H2.67, H6.26, H9.13, L7.14, L10.2)
+  - evidence: Luna (same): Tayammum is itself carried out by wiping with earth. The general wiping command names the act contained in the rare ritual sense.
+- surah ayat these members touch (chain material): 5:1 (ح ر ج B004, ص ل ي B007, ك ع ب B002) → 5:2 (ج ن ب B010, ح ر ج B004, ر ج ل B019, ك ع ب B002, ي د ي B016) → 5:3 (ء م ن B002, ح ر ج B004, ص ل ي B004, م و ه B008, ن ع م B010) → 5:4 (ح ر ج B004, ر و د B005, ق و م B004, ي د ي B009) → 5:5 (ء م ن B002, ج ع ل B005, ح ر ج B004, س ف ر B003, ي د ي B013) → 5:8 (ج ع ل B005, ر ج ل B019, ق و م B008) → 5:9 (ج ع ل B005, ي م م B003) → 5:10 (ء م ن B002) → 5:11 (ر ج ل B019) → 5:12 (ر د د B010, ص ل ي B007, ص ل ي B010, ق و م B001, ك ع ب B002, ي د ي B013) → 5:13 (ء م ن B002, ج د د B014, م و ه B008) → 5:14 (ج ن ب B010, ر ج ل B008, ي د ي B013) → 5:17 (ر ج ل B016, ك ع ب B002) → 5:18 (ر ج ل B008, ك ع ب B002) → 5:19 (ر ج ل B016) → 5:21 (ر د د B008, و ج ه B008, ي د ي B009) → 5:22 (ر ج ل B018) → 5:23 (ن ع م B012) → 5:24 (م و ه B005, و ج د B005) → 5:27 (ج د د B006, ج ن ب B002, ص ل ي B007) → 5:29 (ص ل ي B004) → 5:31 (ر ج ل B009, م و ه B007) → 5:32 (ي د ي B009) → 5:33 (ن ع م B012, و ج ه B015, ي م م B003) → 5:34 (ر ج ل B009, ر ج ل B016) → 5:36 (ي م م B003) → 5:37 (ص ل ي B004) → 5:38 (ي د ي B009) → 5:39 (ي د ي B016) → 5:41 (ء م ن B002, ج د د B014, ر و د B005, م و ه B008, ي م م B003) → 5:44 (ق و م B004) → 5:45 (ر ء س B004, ي د ي B009) → 5:46 (ء م ن B002, ص ل ي B007) → 5:48 (ء م ن B002, ر ج ل B008, ر و د B004, ق و م B002, ق و م B012, م س ح B012, ي د ي B016, ي م م B004) → 5:51 (ر ج ل B008) → 5:52 (ء م ن B002, ج ع ل B005, ر و د B005, ق و م B016, م و ه B007, م و ه B008) → 5:54 (ر د د B008) → 5:55 (ص ل ي B007, ص ل ي B010) → 5:58 (ص ل ي B007, ص ل ي B010) → 5:60 (م س ح B009) → 5:62 (ج ن ب B010, م و ه B007) → 5:64 (ص ل ي B004, ن ع م B010) → 5:66 (ن ع م B012, و ج ه B015) → 5:68 (ن ع م B010) → 5:72 (ح ر ج B004, م و ه B007) → 5:73 (ي م م B003) → 5:75 (ر و د B005, س ف ر B003) → 5:78 (ر د د B008) → 5:80 (ي د ي B009) → 5:87 (ح ر ج B004) → 5:88 (ي م م B002) → 5:89 (ق و م B001, ق و م B004, ق و م B016) → 5:94 (ي م م B003) → 5:95 (ح ر ج B004, س ف ر B003, ق و م B008, ق و م B016, ك ع ب B002, م ر ض B003) → 5:96 (ج د د B006, ي م م B003) → 5:97 (ر ج ل B019, ك ع ب B002, ك و ن B003, م ر ض B003) → 5:100 (م و ه B008, ي م م B002) → 5:101 (و ج ه B015) → 5:103 (ي م م B003) → 5:106 (ر د د B008, ر د د B010, ق و م B008, م و ه B008) → 5:107 (ط ه ر B003) → 5:108 (ج د د B007, ي م م B002) → 5:109 (ء ح د B004, ر ء س B003) → 5:110 (م و ه B008, ي م م B004) → 5:111 (ص ل و B002, ي د ي B016) → 5:113 (ء م ن B002) → 5:114 (ء ح د B004, م ر ض B003) → 5:119 (و ج د B005)
+
+### H2 فَٱمْسَحُوا۟ — 31 roots converge
+Plain sense of فَٱمْسَحُوا۟: üzerinden geçirip silme (إمرار اليد على الشيء وإزالة أثره)
+- **H2.1** [dictionary] ء ح د B004 «iki kişiden biri, ilk olan ve haftanın ilk günü» الأول والإضافة — word أَحَدٌ (2 dictionaries); source: as H1.1 (also H1.1, H3.1)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.2** [dictionary] ء م ن B002 «dogru sayip kabul etme» تصديق يطمئن إليه القلب — word ءَامَنُوٓا۟ (4 dictionaries); source: as H1.2 (also H1.2, H3.3, H15.11, L14.1)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.3** [dictionary] ت م م B002 «korunma boncugu» التميمة المعلقة — word وَلِيُتِمَّ (3 dictionaries); source: as H1.3 (also H1.3, H3.4, L2.3)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.4** [dictionary] ج د د B003 «kesme ve ayırma» قطع وصرم — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.4 (also H1.4, H3.9)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.5** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word تَجِدُوا۟ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H3.10, H4.1, H5.1, H11.7)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.6** [dictionary] ج د د B013 «cırcır böceği» دويبة الجُدجُد — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: as H1.6 (also H1.6, H3.12)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.7** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: as H1.7 (also H1.7, H3.13, H4.3, H5.3)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.8** [dictionary] ج ع ل B002 «birini veya şeyi belirli bir duruma getirme» تصيير الشيء على حال — word لِيَجْعَلَ (2 dictionaries); source: as H1.8 (also H1.8, H3.14)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.9** [dictionary] ج ع ل B005 «iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme» أجر مجعول على عمل — word لِيَجْعَلَ (4 dictionaries); source: as H1.9 (also H1.9, H3.15)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.10** [dictionary] ج ن ب B002 «yanında yakın bulunma ve eşlik etme» الجنب قرب ومجاورة على الجانب — word جُنُبًا (4 dictionaries); source: as H1.10 (also H1.10, H3.16, H14.1, H16.1)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.11** [dictionary] ج ن ب B010 «yazın kalan köklü küçük bitkiler» الجنبة نبت متوسط مستقل — word جُنُبًا (4 dictionaries); source: as H1.11 (also H1.11, H3.19, H6.27)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.12** [dictionary] ح ر ج B004 «yasak kılma» التحريم والحظر — word حَرَجٍ (3 dictionaries); source: as H1.12 (also H1.12, H3.22, L5.5)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.13** [dictionary] ح ر ج B007 «zayıf ya da uzun gövdeli dişi deve» الناقة الضامرة والطويلة — word حَرَجٍ (3 dictionaries); source: as H1.13 (also H1.13, H3.23, H6.3, H9.3)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.14** [dictionary] ر ء س B002 «yalıtık adlandırmalar» الرئاسة والصدارة — word بِرُءُوسِكُمْ (4 dictionaries); source: as H1.14 (also H1.14, H3.25, L4.5)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.15** [dictionary] ر ء س B003 «selin çerçöpü toplayıp sürüklemesi» جمع السيل وحمله — word بِرُءُوسِكُمْ (2 dictionaries); source: as H1.15 (also H1.15, H3.26, L6.4, L12.6)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (image): The earth-wiping command can be heard as a small-scale echo of a flood sweeping debris away. The verse’s hand motion takes on the picture of gathered matter bei
+- **H2.16** [dictionary] ر ء س B004 «işin veya sözün başlangıcı» رِئاس الأمر ومن رأسه — word بِرُءُوسِكُمْ (2 dictionaries); source: as H1.16 (also H1.16, H3.27, L4.6)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.17** [dictionary] ر ج ل B004 «birinin devrinde» زمان الرجل — word وَأَرْجُلَكُمْ (3 dictionaries); source: as H1.17 (also H1.17, L19.3)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.18** [dictionary] ر ج ل B009 «ayak benzetmeli özel adlar» رجل القوس والميسم — word وَأَرْجُلَكُمْ (3 dictionaries); source: as H1.18 (also H1.18)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.19** [dictionary] ر ج ل B016 «dik duran pişirme kazanı» المرجل المنصوب — word وَأَرْجُلَكُمْ (4 dictionaries); source: as H1.19 (also H1.19)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.20** [dictionary] ر ج ل B018 «hayvanın biniciye ödetilmeyen vuruş zararı» الرِّجل جبار — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: as H1.20 (also H1.20)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.21** [dictionary] ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: as H1.21 (also H1.21, L1.1, L5.7, T4)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.22** [dictionary] ر د د B003 «kabul etmeyip geçersiz sayarak geri çevirme» عدم القبول ورد الزائف أو الخطأ — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as H1.22 (also H1.22, H3.28)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.23** [dictionary] ر د د B003 «kabul etmeyip geçersiz sayarak geri çevirme» عدم القبول ورد الزائف أو الخطأ — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as H1.22 (also H1.23, H3.29)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.24** [dictionary] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H1.70, H6.4, H9.4, L4.14, L7.5, L16.5)
+  - evidence: rel/same_field: م س ح B004 (yüz kusurunun farklı türleri) || Luna (part): The substitute wipe can be heard as passing over the surface flaw.
+- **H2.25** [dictionary] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H6.5, H9.5, L4.15, L7.6, L16.6)
+  - evidence: rel/same_field: م س ح B004 (yüz kusurunun farklı türleri)
+- **H2.26** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.24, H3.34, H4.10, H5.10, L11.5)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.27** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.25, H3.35, H4.11, H5.11, H18.5)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.28** [dictionary] ر ف ق B004 «dirsek, dirseğe dayanma ve dayanak» المرفق والاتكاء — word ٱلْمَرَافِقِ (4 dictionaries); source: as H1.26 (also H1.26, H3.36, L3.7, L15.4)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (part): The elbow belongs to the arm whose hand wipes. The pair links the joint that can rest to the hand’s commanded motion.
+- **H2.29** [dictionary] ر و د B002 «birini istegine karsi razi etmeye calisma» المراودة على الفعل — word يُرِيدُ (3 dictionaries); source: as H1.27 (also H1.27, H3.37)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.30** [dictionary] ر و د B002 «birini istegine karsi razi etmeye calisma» المراودة على الفعل — word يُرِيدُ (3 dictionaries); source: as H1.27 (also H1.28, H3.38, L13.6)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.31** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: as H1.29 (also H1.29, H3.41, H13.1)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.32** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: as H1.29 (also H1.30, H3.42, H13.2)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.33** [dictionary] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: as H1.31 (also H1.31, H3.43, H14.5)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (part): The gentle pace sets the manner of this second wiping command too. The contact becomes a measured stroke.
+- **H2.34** [dictionary] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: as H1.31 (also H1.32, H3.44, H14.6)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (image): The command can be heard as a gentle pass of the hand. Its lightness fits the reduced contact of wiping.
+- **H2.35** [dictionary] س ف ر B003 «yolculuğa çıkıp mesafe katetme» الخروج في السفر والمسافرون — word سَفَرٍ (5 dictionaries); source: as H1.33 (also H1.33, H3.45, L4.19, L5.1)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.36** [dictionary] ص ع د B003 «çetin yokuş ve ağır güçlük» عقبة كؤود ومشقة — word صَعِيدًا (5 dictionaries); source: as H1.34 (also H1.34, H3.47, L2.12, L15.7, L18.3)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.37** [dictionary] ص ع د B005 «yavrusunu yitirip önceki yavrusunu emziren dişi deve» ناقة صعود تعطف على ولد — word صَعِيدًا (4 dictionaries); source: as H1.35 (also H1.35, H3.48, L6.7, L17.1)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.38** [dictionary] ص ل ي B004 «ateş yakıtı; ateşte pişirme veya ısıyla düzeltme» إيقاد الصلاء وتسوية الشيء بالنار — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: as H1.36 (also H1.36, H3.50)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.39** [dictionary] ص ل ي B007 «yarışta önderin hemen ardındaki ikinci at» المصلي يتلو السابق — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: as H1.37 (also H1.37, H3.51, H13.6)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.40** [dictionary] ص ل ي B010 «iri başaklı deve yemi bitkisi» الصِّليان نبت ترعاه الإبل — word ٱلصَّلَوٰةِ (echo root, sound family only; 2 dictionaries); source: as H1.38 (also H1.38, H3.52)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.41** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H1.39 (also H1.39, H3.53, H4.15, H5.15, L7.9, L10.8)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (part): The purifying medium and the wiping action meet in the substitute rite. The gesture is one way the medium's work is applied.
+- **H2.42** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H3.54, H4.16, H5.16, H10.7, L3.8)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (part): The purifying quality is put to work through wiping. The gesture is the contact that lets the cleanser act on the body.
+- **H2.43** [dictionary] ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word قُمْتُمْ (5 dictionaries); source: as H1.41 (also H1.41, H3.60, H8.8)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.44** [dictionary] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قُمْتُمْ (5 dictionaries); source: as H1.42 (also H1.42, H3.61)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.45** [dictionary] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قُمْتُمْ (5 dictionaries); source: as H1.43 (also H1.43, H3.62, L5.12)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.46** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قُمْتُمْ (4 dictionaries); source: as H1.44 (also H1.44, H3.63, L4.21, L5.13, T3)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.47** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قُمْتُمْ (4 dictionaries); source: as H1.45 (also H1.45, H3.65, H4.19, H5.19, H6.31, H7.10)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.48** [dictionary] ك ع ب B002 «dörtgen ve yüksek yapı» البيت المربع المرتفع — word ٱلْكَعْبَيْنِ (6 dictionaries); source: as H1.46 (also H1.46, H3.66, H6.32, L14.10)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.49** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُم (2 dictionaries); source: as H1.47 (also H1.47, H3.68, L1.21, L5.18, T14)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.50** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُمْ (2 dictionaries); source: as H1.47 (also H1.48, H3.69, L1.22)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.51** [dictionary] ل م س B003 «dokunma sözüyle cinsel birleşmeyi örtülü anlatma» كناية الجماع — word لَٰمَسْتُمُ (3 dictionaries); source: as H1.49 (also H1.49, H3.72, H8.9, H18.3)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || rel/near_synonym: م س ح B002 (dokunma görüntülü cinsel örtmece) || Luna (complement): The intimate act becomes a condition followed by the wiping rite when water is unavailable. The verse links bodily contact to a reduced purification action.
+- **H2.52** [dictionary] م ر ض B003 «hastaya özenle bakma» القيام على المريض — word مَّرْضَىٰٓ (5 dictionaries); source: as H1.50 (also H1.50, H3.73, H14.10, L1.23, L14.12)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟ || Luna (part): The second wiping command can also be pictured as a caregiver’s act. It gives the rare nursing sense a specific bodily gesture.
+- **H2.53** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H3.77, H4.24, H6.9, H9.10)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (opposite): A touch of beauty is a visible mark, while the command is to pass the hand over a surface and remove its trace. The repeated root lets the verse set adornment b
+- **H2.54** [dictionary] م و ه B005 «başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme» كسوة المعدن بماء الذهب أو الفضة — word مَآءً (3 dictionaries); source: as H1.52 (also H1.52, H3.84, H5.24, H9.17, L4.26)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (opposite): The tayammum wipe stands against a layer that conceals the truth of a surface.
+- **H2.55** [dictionary] م و ه B008 «gönlünde suyu çok denilen, bazı aktarımlarda anlayışı kıt adam» كثرة ماء القلب على جهة البلادة — word مَآءً (3 dictionaries); source: as H1.53 (also H1.53, H3.85, H5.27)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.56** [dictionary] ن ع م B005 «develer ve geniş anlamda otlayan evcil hayvanlar» مال الأنعام والإبل — word نِعْمَتَهُۥ (4 dictionaries); source: as H1.54 (also H1.54, H3.86, H15.5)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.57** [dictionary] ن ع م B007 «devekuşuna benzetilerek ad verilen şeyler» ما سمي نعامة تشبيها بالهيئة — word نِعْمَتَهُۥ (4 dictionaries); source: as H1.55 (also H1.55, H3.87, H7.6, H12.4)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.58** [dictionary] ن ع م B010 «daha da artırmak veya ileri dereceye götürmek» زاد وأنعم في الفعل — word نِعْمَتَهُۥ (3 dictionaries); source: as H1.56 (also H1.56, H3.88)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.59** [dictionary] ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها — word نِعْمَتَهُۥ (3 dictionaries); source: as H1.57 (also H1.57, H3.89, H13.10, H15.7, L15.14)
+  - evidence: lex/image: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.60** [dictionary] و ج د B005 «öfke duymak ve birine kızmak» الموجدة والغضب — word تَجِدُوا۟ (5 dictionaries); source: as H1.58 (also H1.58, H3.90)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.61** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word بِوُجُوهِكُمْ (4 dictionaries); source: as H1.59 (also H1.59, H3.95, H6.18, H7.17, L5.20, L12.1)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.62** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word وُجُوهَكُمْ (4 dictionaries); source: as H1.59 (also H1.60, H3.96, H6.19, L5.21, L12.2)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.63** [dictionary] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيكُم (3 dictionaries); source: as H1.61 (also H1.61, H3.101, L3.26, L13.19)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.64** [dictionary] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.61 (also H1.62, H3.102, H10.22, H12.14, L13.20)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (part): The tayammum wipe is another act performed by hand. The rare branch lets the command sound as a deed for which the person is responsible.
+- **H2.65** [dictionary] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيكُم (2 dictionaries); source: as H1.63 (also H1.63, H3.105, L1.30, L2.29, L3.27)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.66** [dictionary] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H1.63 (also H1.64, H3.106, H10.24, L1.31, L2.30)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.67** [dictionary] ي م م B002 «toprakla namaz temizliği» التيمم للصلاة بمسح الوجه واليدين بالتراب — word فَتَيَمَّمُوا۟ (1 dictionaries); source: as H1.86 (also H1.86, H6.26, H9.13, L7.14, L10.2)
+  - evidence: lex/image: بمسح → root م س ح || Luna (same): The dry rite is named first, then its wiping action is commanded. The second word makes the means of tayammum explicit.
+- **H2.68** [dictionary] ي م م B003 «deniz veya engin su» اليم ماء عظيم — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.65 (also H1.65, H3.107, H4.21, H5.28, L7.15, L12.10)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟ || Luna (complement): The sea-sized water sense is followed by wiping with earth when no water is available. The two acts mark the familiar medium and its dry substitute.
+- **H2.69** [dictionary] ي م م B004 «güvercin türü kuş» اليمام طير — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.66 (also H1.66, H3.108)
+  - evidence: lex/src: علي names the plain image of فَٱمْسَحُوا۟
+- **H2.70** [judged] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.67 (also H1.67, H6.2, H9.2, L4.2, L6.1, L12.3)
+  - evidence: Luna (image): The hand passes over the level ground in the substitute rite.
+- **H2.71** [judged] ص ل و B002 «başkası için iyilik dileme; esirgeme, övme ve değer verme» الدعاء والثناء والرحمة — word ٱلصَّلَوٰةِ (5 dictionaries); source: as H1.71 (also H1.71, H5.29, H14.7, H15.15, L2.14)
+  - evidence: Luna (complement): When water is absent, wiping with earth still enacts purification. Prayer’s rare sense as mercy makes the concession feel like care carried through a reduced me
+- **H2.72** [judged] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H1.72 (also H1.72, H4.13, H5.13, L9.9, L10.7)
+  - evidence: Luna (complement): Self-cleansing by water or its substitute meets the hand’s wiping action. The broad purification command is realized through this particular contact.
+- **H2.73** [judged] ط ي ب B003 «tuvalet sonrası pisliği gidererek temizlenme» الاستطابة تطهير من الخبث — word طَيِّبًا (3 dictionaries); source: as H1.73 (also H1.73, H3.57, H5.17, L7.10, L16.1)
+  - evidence: Luna (part): The wiping command can be heard as one concrete way of removing bodily filth. The rare sense supplies a specific hygiene setting for the general action.
+- **H2.74** [judged] غ س ل B002 «yıkamada kullanılan su veya madde ile yıkanma yeri» ماء الغسل وما يغسل به أو فيه — word فَٱغْسِلُوا۟ (4 dictionaries); source: as H1.74 (also H1.74, H4.17, H7.4, L7.12)
+  - evidence: Luna (complement): Washing and wiping are two ways to cleanse. The verse places the lighter wiping action beside the wash-medium's broader cleansing sense.
+- **H2.75** [judged] م س ح B007 «ter; bir kaynakta kol» المسيح عرق ظاهر — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.76 (also H4.25, L3.16, L18.8)
+  - evidence: Luna (part): The wiping command can be heard as an action that removes sweat from the body. The rare noun supplies one possible trace for the hand to wipe away.
+- **H2.76** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H6.34, H9.15, L12.8)
+  - evidence: Luna (image): The chosen land itself seems as though it has been wiped smooth, and then the believers are commanded to wipe. The surface description and the ritual action for
+- **H2.77** [judged] م س ح B012 «saç lülesi ve saç tarayan kadın» ذوائب الشعر والماشطة — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H1.78 (also H5.35, H7.13)
+  - evidence: Luna (part): The wipe command falls on the locks of hair named by the rare sense. The repeated root makes the grooming image immediate within the ritual gesture.
+- **H2.78** [judged] م س ح B014 «kaba dokuma örtü veya sert havlu» البلاس والمسح الخشن — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H1.79 (also L13.14)
+  - evidence: Luna (part): The command to wipe can call up the rough towel used to do the wiping. The rare noun supplies the implement for the plain action.
+- **H2.79** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.84 (also H1.84, H7.19, H10.23, L13.21)
+  - evidence: Luna (part): The object’s extension serves as an implement in the wiping act. The hand’s shape and the hand’s movement meet in one image.
+- **H2.80** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيكُم (3 dictionaries); source: as H1.84 (also H1.85, H7.20, L13.22)
+  - evidence: Luna (part): The hand’s reach carries the earth-wipe to the face.
+- surah ayat these members touch (chain material): 5:1 (ح ر ج B004, ص ل ي B007, ك ع ب B002) → 5:2 (ج ن ب B010, ح ر ج B004, ر ج ل B019, ك ع ب B002, ي د ي B016) → 5:3 (ء م ن B002, ح ر ج B004, ص ل ي B004, م و ه B008, ن ع م B010) → 5:4 (ح ر ج B004, ر و د B005, ق و م B004, ي د ي B009) → 5:5 (ء م ن B002, ج ع ل B005, ح ر ج B004, س ف ر B003, ي د ي B013) → 5:8 (ج ع ل B005, ر ج ل B019, ق و م B008) → 5:9 (ج ع ل B005, ي م م B003) → 5:10 (ء م ن B002) → 5:11 (ر ج ل B019) → 5:12 (ر د د B010, ص ل ي B007, ص ل ي B010, ق و م B001, ك ع ب B002, ي د ي B013) → 5:13 (ء م ن B002, ج د د B014, م و ه B008) → 5:14 (ج ن ب B010, ي د ي B013) → 5:17 (ر ج ل B016, ك ع ب B002) → 5:18 (ك ع ب B002) → 5:19 (ر ج ل B016) → 5:21 (ر د د B008, و ج ه B008, ي د ي B009) → 5:22 (ر ج ل B018) → 5:23 (ن ع م B012) → 5:24 (م و ه B005, و ج د B005) → 5:27 (ج د د B006, ج ن ب B002, ص ل ي B007) → 5:29 (ص ل ي B004) → 5:31 (ر ج ل B009) → 5:32 (ي د ي B009) → 5:33 (ن ع م B012, ي م م B003) → 5:34 (ر ج ل B009, ر ج ل B016) → 5:36 (ي م م B003) → 5:37 (ص ل ي B004) → 5:38 (ي د ي B009) → 5:39 (ي د ي B016) → 5:41 (ء م ن B002, ج د د B014, ر و د B005, م و ه B008, ي م م B003) → 5:44 (ق و م B004) → 5:45 (ر ء س B004, ي د ي B009) → 5:46 (ء م ن B002, ص ل ي B007) → 5:48 (ء م ن B002, ر و د B004, ق و م B002, ق و م B012, م س ح B012, ي د ي B016, ي م م B004) → 5:52 (ء م ن B002, ج ع ل B005, ر و د B005, م و ه B008) → 5:54 (ر د د B008) → 5:55 (ص ل ي B007, ص ل ي B010) → 5:58 (ص ل ي B007, ص ل ي B010) → 5:60 (م س ح B009) → 5:62 (ج ن ب B010) → 5:64 (ص ل ي B004, ن ع م B010) → 5:66 (ن ع م B012) → 5:68 (ن ع م B010) → 5:72 (ح ر ج B004) → 5:73 (ي م م B003) → 5:75 (ر و د B005, س ف ر B003) → 5:78 (ر د د B008) → 5:80 (ي د ي B009) → 5:87 (ح ر ج B004) → 5:88 (ي م م B002) → 5:89 (ق و م B001, ق و م B004) → 5:94 (ي م م B003) → 5:95 (ح ر ج B004, س ف ر B003, ق و م B008, ك ع ب B002, م ر ض B003) → 5:96 (ج د د B006, ي م م B003) → 5:97 (ر ج ل B019, ك ع ب B002, ك و ن B003, م ر ض B003) → 5:100 (م و ه B008, ي م م B002) → 5:103 (ي م م B003) → 5:106 (ر د د B008, ر د د B010, ق و م B008, م و ه B008) → 5:107 (ط ه ر B003) → 5:108 (ج د د B007, ي م م B002) → 5:109 (ء ح د B004, ر ء س B003) → 5:110 (م و ه B008, ي م م B004) → 5:111 (ص ل و B002, ي د ي B016) → 5:113 (ء م ن B002) → 5:114 (ء ح د B004, م ر ض B003) → 5:119 (و ج د B005)
+
+### H3 وَأَرْجُلَكُمْ — 29 roots converge
+Plain sense of وَأَرْجُلَكُمْ: yaya giden kişi (المشي على الأرجل)
+- **H3.1** [dictionary] ء ح د B004 «iki kişiden biri, ilk olan ve haftanın ilk günü» الأول والإضافة — word أَحَدٌ (2 dictionaries); source: as H1.1 (also H1.1, H2.1)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.2** [dictionary] ء ح د B005 «tek başına kalma ve birer birer gelme» الانفراد والتفرق آحادا — word أَحَدٌ (2 dictionaries); source: ما استأحدت بهذا الأمر أي ما انفردت به (maqayis); استأحد الرجل انفرد (sihah); جاءوا آحاد أحاد (sihah)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.3** [dictionary] ء م ن B002 «dogru sayip kabul etme» تصديق يطمئن إليه القلب — word ءَامَنُوٓا۟ (4 dictionaries); source: as H1.2 (also H1.2, H2.2, H15.11, L14.1)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.4** [dictionary] ت م م B002 «korunma boncugu» التميمة المعلقة — word وَلِيُتِمَّ (3 dictionaries); source: as H1.3 (also H1.3, H2.3, L2.3)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.5** [dictionary] ت م م B005 «konusmada takilma» ترديد التاء في الكلام — word وَلِيُتِمَّ (2 dictionaries); source: التمتام الذي في تمتمة وهو الذي يتردد في التاء (sihah)؛ التمتمة من الكلام ألا يبين اللسان فيرجع إلى لفظ كأنه التاء أو الميم ورجل تمتام (tahdhib)؛ التمتمة الترديد في التاء (tahdhib) (also L5.3, T13)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.6** [dictionary] ت م م B006 «paylari tamamlayip yedirme» تتميم الأيسار — word وَلِيُتِمَّ (2 dictionaries); source: تتميم الأيسار أن تطعمهم فوز قدحك فلا تنتقص منه شيئا (maqayis)؛ إذا فاز قدح الرجل مرة بعد مرة فأطعم لحمه المساكين سمي متمما (tahdhib)؛ التميم في الأيسار أن ينقص الأيسار في الجزور فيأخذ رجل ما بقي حتى يتمم الأنصباء (tahdhib)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.7** [dictionary] ت م م B009 «kabile adi ve nispeti» النسبة إلى تميم — word وَلِيُتِمَّ (2 dictionaries); source: تميم قبيلة (sihah)؛ تميم بن مر بن أد ابن طابخة بن إياس بن مضر (sihah)؛ تمم الرجل إذا صار تميمي الرأي والهوى والمحلة (tahdhib)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.8** [dictionary] ج د د B002 «iyi yazgı ve varlık payı» حظ وغنى يناله الإنسان — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: الغني والحظ؛ لا ينفع ذا الجد منك الجد (maqayis)؛ جد الرجل بخته (ayn)؛ الجد الحظ والبخت؛ لا ينفع ذا الجد منك الجد أي لا ينفع ذا الغنى (sihah)؛ الجد الغنى والحظ في الرزق؛ صاعد الجد؛ رجل جديد إذا كان ذا حظ (tahdhib)؛ الحظوظ الدنيوية جدا وهو البخت (mufradat) (also L2.5)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.9** [dictionary] ج د د B003 «kesme ve ayırma» قطع وصرم — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.4 (also H1.4, H2.4)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.10** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word تَجِدُوا۟ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H2.5, H4.1, H5.1, H11.7)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.11** [dictionary] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: الجد في الأمر والمبالغة فيه؛ أجدك تفعل كذا أي أجدا منك أصريمة منك أعزيمة منك (maqayis)؛ الجد نقيض الهزل؛ جد فلان في أمره وسيره (ayn)؛ الجد نقيض الهزل؛ الجد الاجتهاد في الأمور؛ جاد مجد (sihah)؛ الجد إنما هو الاجتهاد في العمل؛ أجد الرجل في أمره؛ جاد مجد؛ جد فلان في أمره إذا كان ذا حقيقة ومضاء (tahdhib)؛ جد في سيره؛ جد في أمره (mufradat) (also H18.4, L1.6, L9.1, L11.1)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.12** [dictionary] ج د د B013 «cırcır böceği» دويبة الجُدجُد — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: as H1.6 (also H1.6, H2.6)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.13** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: as H1.7 (also H1.7, H2.7, H4.3, H5.3)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.14** [dictionary] ج ع ل B002 «birini veya şeyi belirli bir duruma getirme» تصيير الشيء على حال — word لِيَجْعَلَ (2 dictionaries); source: as H1.8 (also H1.8, H2.8)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.15** [dictionary] ج ع ل B005 «iş karşılığı belirlenen ücret veya ortaklaşa kararlaştırılan ödeme» أجر مجعول على عمل — word لِيَجْعَلَ (4 dictionaries); source: as H1.9 (also H1.9, H2.9)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.16** [dictionary] ج ن ب B002 «yanında yakın bulunma ve eşlik etme» الجنب قرب ومجاورة على الجانب — word جُنُبًا (4 dictionaries); source: as H1.10 (also H1.10, H2.10, H14.1, H16.1)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: رجل → root ر ج ل || Luna (image): The companion-at-the-side sense makes the washed feet belong to someone walking beside another. The command evokes a shared journey, with one person keeping pac
+- **H3.17** [dictionary] ج ن ب B007 «böğür bölgesini tutan ağrı veya hastalık» داء الجنب وأثره في البدن — word جُنُبًا (6 dictionaries); source: الجنب أن يشتد عطش البعير حتى تلتصق رئته بجنبه (maqayis)؛ أجنب فلان إذا أخذته ذات الجنب والجنيب الذي يشتكي جنبه (ayn)؛ جنب الرجل إذا اشتكى جنبه (jamhara)؛ المجنوب الذي به ذات الجنب وجنب البعير من شدة العطش (sihah)؛ ذات الجنب علة صعبة وجنب جنبا إذا اشتكى جنبه (tahdhib)؛ جنب شكا جنبه (mufradat) (also L5.4)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.18** [dictionary] ج ن ب B008 «develerde sütün azalması veya tükenmesi» التجنيب قلة لبن الإبل — word جُنُبًا (6 dictionaries); source: جنب القوم إذا قلت ألبانهم (maqayis;sihah)؛ جنب بنو فلان إذا لم يكن في إبلهم لبن (ayn;tahdhib)؛ جنب الرجل إذا قلت ألبان إبله (jamhara)؛ جنب بنو فلان إذا لم يكن في إبلهم اللبن (mufradat) (also L2.7)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.19** [dictionary] ج ن ب B010 «yazın kalan köklü küçük bitkiler» الجنبة نبت متوسط مستقل — word جُنُبًا (4 dictionaries); source: as H1.11 (also H1.11, H2.11, H6.27)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.20** [dictionary] ج ن ب B012 «atın bacaklarında doğuştan ölçülü açıklık» التجنيب تباعد في هيئة القوائم — word جُنُبًا (3 dictionaries); source: التجنيب انحناء وتوتير في رجل الفرس (sihah)؛ المجنب من الخيل البعيد ما بين الرجلين من غير فجج والتجنيب بالجيم في الرجلين (tahdhib)؛ التجنيب الروح في الرجلين وذلك إبعاد إحدى الرجلين عن الأخرى خلقة (mufradat) (also H17.1, L1.9)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.21** [dictionary] ح ر ج B003 «günah ve manevi suç» الإثم والتحرج — word حَرَجٍ (5 dictionaries); source: الحرج الإثم (maqayis;sihah;tahdhib;mufradat)؛ الحرج المأثم والحارج الآثم (ayn)؛ أحرجه أي آثمه (sihah)؛ تحرج أي تأثم (sihah)؛ رجل متحرج كاف عن الإثم (tahdhib)؛ المتحرج والمتحوب المتجنب من الحرج والحوب (mufradat) (also L7.2)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.22** [dictionary] ح ر ج B004 «yasak kılma» التحريم والحظر — word حَرَجٍ (3 dictionaries); source: as H1.12 (also H1.12, H2.12, L5.5)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.23** [dictionary] ح ر ج B007 «zayıf ya da uzun gövdeli dişi deve» الناقة الضامرة والطويلة — word حَرَجٍ (3 dictionaries); source: as H1.13 (also H1.13, H2.13, H6.3, H9.3)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.24** [dictionary] ح ر ج B012 «savaştan ayrılmayan adam» لزوم القتال — word حَرَجٍ (1 dictionaries, sole attestation); source: الحرج الرجل الذي لا يكاد يبرح القتال (maqayis) (also L5.6, T10)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (image): The feet evoke a fighter who stays in battle on foot.
+- **H3.25** [dictionary] ر ء س B002 «yalıtık adlandırmalar» الرئاسة والصدارة — word بِرُءُوسِكُمْ (4 dictionaries); source: as H1.14 (also H1.14, H2.14, L4.5)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (image): The head as leader is heard beside the feet that carry a person forward. The body becomes an image of guidance at the top and movement below.
+- **H3.26** [dictionary] ر ء س B003 «selin çerçöpü toplayıp sürüklemesi» جمع السيل وحمله — word بِرُءُوسِكُمْ (2 dictionaries); source: as H1.15 (also H1.15, H2.15, L6.4, L12.6)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.27** [dictionary] ر ء س B004 «işin veya sözün başlangıcı» رِئاس الأمر ومن رأسه — word بِرُءُوسِكُمْ (2 dictionaries); source: as H1.16 (also H1.16, H2.16, L4.6)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.28** [dictionary] ر د د B003 «kabul etmeyip geçersiz sayarak geri çevirme» عدم القبول ورد الزائف أو الخطأ — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as H1.22 (also H1.22, H2.22)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.29** [dictionary] ر د د B003 «kabul etmeyip geçersiz sayarak geri çevirme» عدم القبول ورد الزائف أو الخطأ — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as H1.22 (also H1.23, H2.23)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.30** [dictionary] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: سمي المرتد لأنه رد نفسه إلى كفره (maqayis)؛ الارتداد الرجوع ومنه المرتد والردة الاسم من الارتداد (sihah)؛ ارتد الرجل عن دينه ردة إذا كفر بعد إسلامه (tahdhib)؛ الردة تختص بالكفر والارتداد يستعمل فيه وفي غيره (mufradat) (also H15.12, L4.12, L5.8, L14.3)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.31** [dictionary] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H15.13, L4.13, L5.9, L14.4)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.32** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: شاة مرد وناقة مردة إذا أضرعت ونهر مرد كثير الماء ورجل مرد إذا طالت عزبته (maqayis)؛ الردة امتلاء الضرع من اللبن قبل النتاج وبحر مرد كثير الموج (sihah)؛ ناقة مرد إذا أشرق ضرعها ووقع فيه اللبن ورجل مرد إذا طالت عزبته وبحر مرد أي كثير الماء (tahdhib) (also H4.8, H5.8, H15.1, T2)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.33** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H3.32 (also H4.9, H5.9, H15.2, T1)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.34** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.24, H2.26, H4.10, H5.10, L11.5)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: ورجل → root ر ج ل
+- **H3.35** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.25, H2.27, H4.11, H5.11, H18.5)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: ورجل → root ر ج ل || Luna (same): The feet carry a repeated coming and going. The cleansing command now sits beside the movement of the body that walks.
+- **H3.36** [dictionary] ر ف ق B004 «dirsek, dirseğe dayanma ve dayanak» المرفق والاتكاء — word ٱلْمَرَافِقِ (4 dictionaries); source: as H1.26 (also H1.26, H2.28, L3.7, L15.4)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.37** [dictionary] ر و د B002 «birini istegine karsi razi etmeye calisma» المراودة على الفعل — word يُرِيدُ (3 dictionaries); source: as H1.27 (also H1.27, H2.29)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.38** [dictionary] ر و د B002 «birini istegine karsi razi etmeye calisma» المراودة على الفعل — word يُرِيدُ (3 dictionaries); source: as H1.27 (also H1.28, H2.30, L13.6)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.39** [dictionary] ر و د B003 «dolasarak arama» طلب الشيء وارتياده — word يُرِيدُ (3 dictionaries); source: راد الكلأ يروده رودا وريادا وارتاده ارتيادا أي طلبه (sihah)؛ الرائد الذي يرسل في طلب الكلإ (sihah)؛ رجل رأد بمعنى رائد (sihah)؛ الرود التردد في طلب الشيء برفق (mufradat)؛ الرائد لطالب الكلإ (mufradat)؛ بعثنا رائدا يرود الكلأ أي ينظر ويطلب (maqayis) (also L9.2, L20.2)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (part): Seeking across a landscape brings feet into the image as the means of travel. The verse's feet can thus carry the searcher's movement.
+- **H3.40** [dictionary] ر و د B003 «dolasarak arama» طلب الشيء وارتياده — word يُرِيدُ (3 dictionaries); source: as H3.39 (also L9.3, L20.3)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (part): The feet become the means of the seeker's roaming. A command to cleanse them also evokes the journey made by walking feet.
+- **H3.41** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: as H1.29 (also H1.29, H2.31, H13.1)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (same): Walking feet carry the body in a coming and going. The verse's feet can thus be heard as the means of that motion.
+- **H3.42** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: as H1.29 (also H1.30, H2.32, H13.2)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (part): Feet supply the means for coming and going. The travel image meets the verse's mention of walking feet.
+- **H3.43** [dictionary] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: as H1.31 (also H1.31, H2.33, H14.5)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (same): Walking on the feet can be heard as walking slowly and gently. This makes the bodily movement measured.
+- **H3.44** [dictionary] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: as H1.31 (also H1.32, H2.34, H14.6)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (image): The walking feet can be pictured moving at an unhurried pace. The journey in the verse's concession now has a gentler rhythm.
+- **H3.45** [dictionary] س ف ر B003 «yolculuğa çıkıp mesafe katetme» الخروج في السفر والمسافرون — word سَفَرٍ (5 dictionaries); source: as H1.33 (also H1.33, H2.35, L4.19, L5.1)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (part): The journey condition is heard through the feet that carry a traveler. Walking is one bodily means of covering the distance named by travel.
+- **H3.46** [dictionary] ص ع د B002 «yola çıkıp arazide ilerleme» إصعاد في البلاد والوجوه — word صَعِيدًا (5 dictionaries); source: الإصعاد في ابتداء الأسفار والمخارج (tahdhib)؛ أصعد في البلاد سار ومضى (sihah)؛ أصعد إصعادا أي صار مستقبل حدور نهر أو واد أو أرض أرفع من الأخرى (ayn)؛ الإصعاد الإبعاد في الأرض سواء كان ذلك في صعود أو حدور (mufradat)؛ أصعد في البلاد ذهب أينما توجه (maqayis)؛ اصمعد الرجل ذهب في الأرض وهذا مما زيدت فيه الميم (maqayis_variant) (also H9.7, H16.3, L4.1, L9.4)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (image): The journey across the land is pictured as movement on foot. The feet make the traveler’s passage concrete.
+- **H3.47** [dictionary] ص ع د B003 «çetin yokuş ve ağır güçlük» عقبة كؤود ومشقة — word صَعِيدًا (5 dictionaries); source: as H1.34 (also H1.34, H2.36, L2.12, L15.7, L18.3)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (image): The steep ascent is traversed by walking feet. The verse’s feet give the difficult climb a bodily image.
+- **H3.48** [dictionary] ص ع د B005 «yavrusunu yitirip önceki yavrusunu emziren dişi deve» ناقة صعود تعطف على ولد — word صَعِيدًا (4 dictionaries); source: as H1.35 (also H1.35, H2.37, L6.7, L17.1)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ || Luna (complement): The camel returns to its earlier calf, a movement carried out on its legs. The feet give that act of turning back a concrete form.
+- **H3.49** [dictionary] ص ل ي B003 «ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak» ملاقاة النار وحرها — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: أحدهما النار وما أشبهها من الحمى (maqayis)؛ صلى الكافر نارا فهو يصلاها أي قاسى حرها وشدتها (ayn)؛ صلي الرجل نارا إذا أدخلته النار (sihah)؛ من يصلى في النار أي يلزم النار (tahdhib)؛ صلي بالنار وبكذا أي بلي بها واصطلى بها (mufradat) (also L20.4)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.50** [dictionary] ص ل ي B004 «ateş yakıtı; ateşte pişirme veya ısıyla düzeltme» إيقاد الصلاء وتسوية الشيء بالنار — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: as H1.36 (also H1.36, H2.38)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.51** [dictionary] ص ل ي B007 «yarışta önderin hemen ardındaki ikinci at» المصلي يتلو السابق — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: as H1.37 (also H1.37, H2.39, H13.6)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.52** [dictionary] ص ل ي B010 «iri başaklı deve yemi bitkisi» الصِّليان نبت ترعاه الإبل — word ٱلصَّلَوٰةِ (echo root, sound family only; 2 dictionaries); source: as H1.38 (also H1.38, H2.40)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.53** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H1.39 (also H1.39, H2.41, H4.15, H5.15, L7.9, L10.8)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.54** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H2.42, H4.16, H5.16, H10.7, L3.8)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (part): The cleanser’s work reaches the feet as one bodily part of the rite. The mention of the walking limb gives the purifying medium a concrete object.
+- **H3.55** [dictionary] ط ه ر B005 «kötüden uzaklaşıp davranışını arındırma» تنزيه النفس والعمل عن القبيح — word لِيُطَهِّرَكُمْ (5 dictionaries); source: والتطهر التنزه عن الذم وكل قبيح (maqayis)؛ التطهر أيضا التنزه والكف عن الإثم (ayn)؛ يتطهرون أي يتنزهون من الادناس ورجل طاهر الثياب أي متنزه (sihah)؛ التطهر التنزه عن الإثم وما لا يحمد (tahdhib)؛ التاركين للذنب والعاملين للصلاح (mufradat) (also H5.32, L10.10)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.56** [dictionary] ط ه ر B005 «kötüden uzaklaşıp davranışını arındırma» تنزيه النفس والعمل عن القبيح — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H3.55 (also H5.33, L10.11)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.57** [dictionary] ط ي ب B003 «tuvalet sonrası pisliği gidererek temizlenme» الاستطابة تطهير من الخبث — word طَيِّبًا (3 dictionaries); source: as H1.73 (also H1.73, H2.73, H5.17, L7.10, L16.1)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.58** [dictionary] غ و ط B002 «içine girip gömülmek» دخول وغيبوبة في الشيء — word ٱلْغَآئِطِ (2 dictionaries); source: غاط في الشئ يغوط ويغيط دخل فيه (sihah)؛ هذا رمل تغوط فيه الأقدام (sihah)؛ غاط الرجل في الوادي يغوط إذا غاب فيه (tahdhib)؛ غاط فلان في الماء يغوط إذا انغمس فيه (tahdhib)؛ يتغاوطان في الماء أي يتغامسان (tahdhib)؛ غاط أي حفر ودخل وغاط الرجل في الطين (tahdhib)؛ غاطت الأنساع في دف الناقة إذا تبين آثارها فيه (tahdhib)؛ غاط في الأرض يغيط ويغوط إذا غاب (tahdhib) (also H4.18, H5.18)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (image): The feet that walk can be pictured sinking into the ground beneath them. The rare sense turns the walking feet into an image of penetration into earth.
+- **H3.59** [dictionary] غ و ط B003 «dışkılama için örtmece» كناية الحدث والتبرز — word ٱلْغَآئِطِ (3 dictionaries); source: التغوط كلمة كناية لفعله (ayn)؛ أتى فلان الغائط ثم قيل لكل من قضى حاجته قد أتى الغائط فكني به عن العذرة (sihah)؛ وقد تغوط وبال (sihah)؛ التغويط كناية عن الحدث (tahdhib)؛ ثم قيل للبراز نفسه وهو الحدث غائط كناية عن النجو (tahdhib)؛ تغوط الرجل إذا أحدث (tahdhib)؛ ضرب فلان الغائط إذا تبرز (tahdhib)؛ يضرب الخلاء (tahdhib) (also H5.34, L10.12)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.60** [dictionary] ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word قُمْتُمْ (5 dictionaries); source: as H1.41 (also H1.41, H2.43, H8.8)
+  - evidence: lex/image: رجال → root ر ج ل || lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.61** [dictionary] ق و م B002 «ayağa kalkma ve dik durma» انتصاب وقيام بالبدن — word قُمْتُمْ (5 dictionaries); source: as H1.42 (also H1.42, H2.44)
+  - evidence: lex/src: رجل → root ر ج ل || lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (part): The feet become the body's support for standing. The verse's later washing of them brings that support into the ritual frame.
+- **H3.62** [dictionary] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قُمْتُمْ (5 dictionaries); source: as H1.43 (also H1.43, H2.45, L5.12)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.63** [dictionary] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قُمْتُمْ (4 dictionaries); source: as H1.44 (also H1.44, H2.46, L4.21, L5.13, T3)
+  - evidence: lex/src: ورجل → root ر ج ل || lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.64** [dictionary] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قُمْتُمْ (5 dictionaries); source: القامة مقدار قيام الرجل؛ قوام الجسم تمامه وطوله (ayn)؛ قوام الرجل قامته وحسن طوله؛ قامة الإنسان قده (sihah)؛ القامة قامة الرجل؛ حسن القامة والقمة والقومية؛ قوام الجسم تمامه (tahdhib)؛ تقويم الإنسان في أحسن تقويم؛ انتصاب القامة (mufradat)؛ القوام الطول الحسن؛ القومية القوام والقامة (maqayis) (also H6.30, L17.4)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.65** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قُمْتُمْ (4 dictionaries); source: as H1.45 (also H1.45, H2.47, H4.19, H5.19, H6.31, H7.10)
+  - evidence: lex/src: رجل → root ر ج ل || lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (part): The upright supports of a creature meet the human feet used for walking. The command gathers the body's supporting limbs into the cleansing sequence.
+- **H3.66** [dictionary] ك ع ب B002 «dörtgen ve yüksek yapı» البيت المربع المرتفع — word ٱلْكَعْبَيْنِ (6 dictionaries); source: as H1.46 (also H1.46, H2.48, H6.32, L14.10)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (complement): The walking feet meet the raised square house as a destination.
+- **H3.67** [dictionary] ك ع ب B010 «zarar vermek üzere umursamadan atılmak» انطلاق المضار غير المبالِي — word ٱلْكَعْبَيْنِ (1 dictionaries, sole attestation); source: أكعب الرجل إكعابا وهو الذي ينطلق مضارا لا يبالي ما وراءه (tahdhib) (also L6.10, L11.7)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.68** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُم (2 dictionaries); source: as H1.47 (also H1.47, H2.49, L1.21, L5.18, T14)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.69** [dictionary] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُمْ (2 dictionaries); source: as H1.47 (also H1.48, H2.50, L1.22)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.70** [dictionary] ك و ن B005 «gençliğini anan yaşlı kişi» الشيخ المنسوب إلى كُنْتُ — word كُنتُمْ (1 dictionaries, sole attestation); source: يقال للرجل إذا شاخ كُنْتِيّ؛ كأنه نسب إلى قوله كُنْتُ في شبابي كذا وكذا (sihah)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.71** [dictionary] ك و ن B005 «gençliğini anan yaşlı kişi» الشيخ المنسوب إلى كُنْتُ — word كُنتُم (1 dictionaries, sole attestation); source: as H3.70
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.72** [dictionary] ل م س B003 «dokunma sözüyle cinsel birleşmeyi örtülü anlatma» كناية الجماع — word لَٰمَسْتُمُ (3 dictionaries); source: as H1.49 (also H1.49, H2.51, H8.9, H18.3)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.73** [dictionary] م ر ض B003 «hastaya özenle bakma» القيام على المريض — word مَّرْضَىٰٓ (5 dictionaries); source: as H1.50 (also H1.50, H2.52, H14.10, L1.23, L14.12)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.74** [dictionary] م ر ض B006 «doğruya yaklaşmak ama ulaşamamak» مقاربة الإصابة دون بلوغها — word مَّرْضَىٰٓ (4 dictionaries); source: أمرض إذا قارب إصابة حاجته (maqayis)؛ قال قولا فأمرض أي قارب الصواب ولم يبلغه (ayn)؛ أمرض الرجل أي قارب الإصابة في الرأي (sihah)؛ رأي مريض فيه انحراف عن الصواب وإذا ما ظن أمرض أو أصابا (tahdhib) (also L9.12)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.75** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word وَٱمْسَحُوا۟ (6 dictionaries); source: المسيح الذي أحد شقي وجهه ممسوح لا عين له ولا حاجب (maqayis)؛ رجل ممسوح الوجه ومسيح (ayn)؛ الدجال مسيحا لأنه ممسوح إحدى العينين (jamhara)؛ المسيح الكذاب الدجال (sihah)؛ الدجال لأنه ممسوح العين (tahdhib)؛ الدجال ممسوح أحد شقي وجهه (mufradat) (also H6.7, H9.8, H17.4, L4.23)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.76** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H6.8, H9.9, H17.5, L4.24, L13.11)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.77** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H2.53, H4.24, H6.9, H9.10)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: رجل → root ر ج ل
+- **H3.78** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word فَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H1.51, H6.10, H9.11)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: رجل → root ر ج ل
+- **H3.79** [dictionary] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word فَٱمْسَحُوا۟ (3 dictionaries); source: المسحاء المرأة الرسحاء كأنها مسح اللحم عنها (maqayis)؛ الأمسح الذي تصيب إحدى ربلتيه الأخرى (sihah)؛ مسيح القدمين أراد أنهما ملساوان (tahdhib)؛ رجل أمسح القدم والمرأة مسحاء إذا كانت قدمه مستوية لا أخمص لها (tahdhib)؛ ممسوح الأليتين (tahdhib) (also H11.3, H17.6, L2.22, L15.12)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (part): The rare smooth or flattened foot belongs to the body that walks on وَأَرْجُلَكُمْ. The root's bodily image makes the walking foot itself visible.
+- **H3.80** [dictionary] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word وَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H11.4, H17.7, L15.13)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (image): The feet in the rite can be seen as flat and smooth, without an arch. The rare bodily image gives physical shape to the feet named in the verse.
+- **H3.81** [dictionary] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word فَٱمْسَحُوا۟ (2 dictionaries); source: المماسحة الملاينة في المعاشرة من غير صفاء القلب (ayn)؛ المسح القول الحسن من الرجل وهو في ذلك يخدعك (tahdhib)؛ مسحته بالمعروف من القول وليس معه إعطاء (tahdhib)؛ المسح الكذب مسح مسحا (tahdhib) (also H14.11, L8.8, L10.15)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.82** [dictionary] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H3.81 (also H14.12, L8.9, L10.16)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.83** [dictionary] م و ه B003 «su verme, içine su koyma ve sulanmış hale getirme» إيصال الماء بالسقي والصب — word مَآءً (3 dictionaries); source: موهت الشيء كأنك سقيته الماء وأمهت السكين وأمهيته سقيته (maqayis)؛ مهت الرجل ومهته إذا سقيته الماء وأمهت الرجل والسكين وأمهت الدواة صببت فيها الماء (sihah)؛ موه فلان حوضه إذا جعل فيه الماء وأمهني أي اسقني وشجر موهي إذا كان مسقويا (tahdhib) (also H5.22, H12.3)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.84** [dictionary] م و ه B005 «başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme» كسوة المعدن بماء الذهب أو الفضة — word مَآءً (3 dictionaries); source: as H1.52 (also H1.52, H2.54, H5.24, H9.17, L4.26)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.85** [dictionary] م و ه B008 «gönlünde suyu çok denilen, bazı aktarımlarda anlayışı kıt adam» كثرة ماء القلب على جهة البلادة — word مَآءً (3 dictionaries); source: as H1.53 (also H1.53, H2.55, H5.27)
+  - evidence: lex/image: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: رجل → root ر ج ل
+- **H3.86** [dictionary] ن ع م B005 «develer ve geniş anlamda otlayan evcil hayvanlar» مال الأنعام والإبل — word نِعْمَتَهُۥ (4 dictionaries); source: as H1.54 (also H1.54, H2.56, H15.5)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.87** [dictionary] ن ع م B007 «devekuşuna benzetilerek ad verilen şeyler» ما سمي نعامة تشبيها بالهيئة — word نِعْمَتَهُۥ (4 dictionaries); source: as H1.55 (also H1.55, H2.57, H7.6, H12.4)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: رجل → root ر ج ل || Luna (complement): The feet become the traveler’s point of contact with the road. The rare sense joins a bodily route to the path walked beneath it.
+- **H3.88** [dictionary] ن ع م B010 «daha da artırmak veya ileri dereceye götürmek» زاد وأنعم في الفعل — word نِعْمَتَهُۥ (3 dictionaries); source: as H1.56 (also H1.56, H2.58)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.89** [dictionary] ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها — word نِعْمَتَهُۥ (3 dictionaries); source: as H1.57 (also H1.57, H2.59, H13.10, H15.7, L15.14)
+  - evidence: lex/image: مشي names the plain image of وَأَرْجُلَكُمْ || lex/image: علي names the plain image of وَأَرْجُلَكُمْ || rel/near_synonym: ر ج ل B003 (bineksiz olarak yürümek) || Luna (same): The rare branch says directly that one goes on foot, and the verse names feet in the walking sense. The two expressions say the same movement in a rare and a pl
+- **H3.90** [dictionary] و ج د B005 «öfke duymak ve birine kızmak» الموجدة والغضب — word تَجِدُوا۟ (5 dictionaries); source: as H1.58 (also H1.58, H2.60)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || lex/src: رجل → root ر ج ل
+- **H3.91** [dictionary] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word وُجُوهَكُمْ (6 dictionaries); source: واجهت فلانا جعلت وجهي تلقاء وجهه (maqayis;mufradat); الوجاه والتجاه ما استقبل شيء شيئا (ayn;tahdhib); المواجهة استقبالك الرجل بكلام (ayn;tahdhib); واجهت الرجل بكلام حسن أو قبيح (jamhara); المواجهة المقابلة وقعدت وجاهك أي قبالتك (sihah) (also H6.12, H11.12, H12.5, L9.14, L20.6)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.92** [dictionary] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word بِوُجُوهِكُمْ (6 dictionaries); source: as H3.91 (also H4.27, H6.13, H11.13, H12.6, L9.15, L20.7)
+  - evidence: lex/src: رجل → root ر ج ل || Luna (image): Walking on the feet can lead into a face-to-face encounter. The rare sense turns the body's movement through space toward the meeting of faces.
+- **H3.93** [dictionary] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word وُجُوهَكُمْ (5 dictionaries); source: وجيه بين الجاه والجاه مقلوب (maqayis); وجوه القوم سادتهم ورجل وجيه عند السلطان (jamhara); صار وجيها أي ذا جاه وقدر ووجوه البلد أشرافه (sihah); جاه فيهم أي منزلة وقدر (tahdhib); فلان وجه القوم وفلان وجيه ذو جاه (mufradat) (also H6.14, H7.15, L3.20)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.94** [dictionary] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word بِوُجُوهِكُمْ (5 dictionaries); source: as H3.93 (also H6.15, H7.16, L3.21)
+  - evidence: lex/src: ورجل → root ر ج ل
+- **H3.95** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word بِوُجُوهِكُمْ (4 dictionaries); source: as H1.59 (also H1.59, H2.61, H6.18, H7.17, L5.20, L12.1)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (complement): The feet carry a person along a course. The rare sense of the proper way of an affair makes the walking in وَأَرْجُلَكُمْ evoke movement along a fitting path.
+- **H3.96** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word وُجُوهَكُمْ (4 dictionaries); source: as H1.59 (also H1.60, H2.62, H6.19, L5.21, L12.2)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (image): The feet carry a person along a course. The phrase can picture the proper way made bodily through walking.
+- **H3.97** [dictionary] و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H1.82 (also H1.82, H9.20, H11.14, T12)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.98** [dictionary] و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: as H1.82 (also H1.83, L4.29)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.99** [dictionary] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيَكُمْ (4 dictionaries); source: أيديت إلى الرجل يدا إذا أسديتها إليه (jamhara)؛ اليد النعمة والإحسان (sihah;tahdhib;mufradat)؛ أعطاه مالا عن ظهر يد تفضلا ليس من قرض ولا مكافأة (sihah;tahdhib)؛ يده مطلقة عبارة عن إيتاء النعيم (mufradat) (also H10.18, H15.9, L2.1)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.100** [dictionary] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيكُم (4 dictionaries); source: as H3.99 (also H15.10, L2.2, L3.24)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.101** [dictionary] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيكُم (3 dictionaries); source: as H1.61 (also H1.61, H2.63, L3.26, L13.19)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.102** [dictionary] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.61 (also H1.62, H2.64, H10.22, H12.14, L13.20)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.103** [dictionary] ي د ي B015 «eli işe yatkın ve becerikli» اليَدِي الصنّاع — word وَأَيْدِيَكُمْ (3 dictionaries); source: امرأة يدية أي صناع (sihah;mufradat)؛ رجل يدي (sihah;mufradat)؛ النسبة إلى يد يدي (tahdhib) (also H12.15)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.104** [dictionary] ي د ي B015 «eli işe yatkın ve becerikli» اليَدِي الصنّاع — word وَأَيْدِيكُم (3 dictionaries); source: as H3.103 (also H12.16)
+  - evidence: lex/src: رجل → root ر ج ل
+- **H3.105** [dictionary] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيكُم (2 dictionaries); source: as H1.63 (also H1.63, H2.65, L1.30, L2.29, L3.27)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (complement): The walking feet are heard beside the hand that supports their bearer.
+- **H3.106** [dictionary] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H1.63 (also H1.64, H2.66, H10.24, L1.31, L2.30)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ || Luna (complement): The assisting hand meets the feet that carry a person in walking. The pair pictures bodily support alongside movement.
+- **H3.107** [dictionary] ي م م B003 «deniz veya engin su» اليم ماء عظيم — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.65 (also H1.65, H2.68, H4.21, H5.28, L7.15, L12.10)
+  - evidence: lex/src: رجل → root ر ج ل || lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.108** [dictionary] ي م م B004 «güvercin türü kuş» اليمام طير — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.66 (also H1.66, H2.69)
+  - evidence: lex/src: علي names the plain image of وَأَرْجُلَكُمْ
+- **H3.109** [judged] ج ع ل B010 «deve kuşu yavrusu» فرخ النعام — word لِيَجْعَلَ (2 dictionaries); source: الجعول ولد النعام (maqayis)؛ الجعول الرأل ولد النعام (tahdhib)
+  - evidence: Luna (image): The feet evoke a young ostrich moving on its legs.
+- **H3.110** [judged] ج ن ب B005 «yanında yönlendirerek götürme» التجنيب قيادة شيء إلى الجنب — word جُنُبًا (6 dictionaries); source: جنبت الدابة إذا قدتها إلى جنبك وكذلك جنبت الأسير (maqayis;jamhara)؛ الجنيبة كل دابة تقاد والجنيب الأسير مشدود إلى جنب الدابة (ayn)؛ جنبت الدابة إذا قدتها إلى جنبك ومنه خيل مجنبة (sihah)؛ جنبت الفرس أجنبه جنبا إذا قدته و… (also H9.14, L4.3)
+  - evidence: Luna (image): The sense of leading a creature at one’s side meets the image of walking on feet. The verse can briefly evoke a guide keeping pace with a traveler.
+- **H3.111** [judged] ح ر ج B006 «ahşap taşıma sedyesi veya kafesi» السرير والمحفة — word حَرَجٍ (3 dictionaries); source: الحرج السرير الذي تحمل عليه الموتى (maqayis;tahdhib)؛ خشب يشد بعضه إلى بعض يحمل فيه الموتى (sihah;tahdhib)؛ المحفة حرج (maqayis)؛ حرج النعش شجار من خشب (tahdhib)؛ الحرج مركب من مراكب النساء كالهودج (tahdhib) (also H8.1, L1.10, L2.8)
+  - evidence: Luna (opposite): Walking feet stand against the dead being carried.
+- **H3.112** [judged] ر ف ق B002 «yolculukta birlikte giden kişi ya da topluluk» الصحبة والمرافقة — word ٱلْمَرَافِقِ (4 dictionaries); source: الرفقة الجماعة ترافقهم في سفرك (maqayis;sihah)؛ رفيقك الذي يرافقك في السفر يجمعك وإياه رفقة واحدة (ayn;tahdhib)؛ رفيقا ينوب عن رفقاء والرفيق الأعلى جمع النبيين (tahdhib) (also H7.2, H11.10, H16.2)
+  - evidence: Luna (complement): Travel companions accompany the person whose feet carry them on the way. The pair puts company beside movement.
+- **H3.113** [judged] ر ف ق B005 «deveyi yavaşlatan özel bağlama» الرفاق وشد البعير — word ٱلْمَرَافِقِ (3 dictionaries); source: الرفاق حبل يشد به مرفق البعير إلى وظيفه (maqayis)؛ رفقت الناقة وهو أن تشد عضدها لتخبل عن أن تسرع وذلك الحبل هو الرفاق (sihah)؛ الرفاق أن يشد حبل من عنق البعير إلى رسغه أو أن يشد عضدها شدا شديدا (tahdhib) (also L6.5)
+  - evidence: Luna (opposite): The tether slows a camel’s limb, while the feet evoke walking. The pair sets restrained movement against movement on foot.
+- **H3.114** [judged] س ف ر B002 «aydınlanıp belirginleşme» إسفار الضوء والوجه — word سَفَرٍ (5 dictionaries); source: أسفر الصبح انكشاف الظلام (maqayis)؛ السفر بياض النهار (ayn;sihah)؛ وجه مسفر منير مشرق (maqayis;ayn;sihah;tahdhib)؛ الإسفار يختص باللون (mufradat)؛ سفر الصبح وسفر المساء (tahdhib) (also H6.6, H9.6, L1.14, L4.18)
+  - evidence: Luna (complement): The brightening of day accompanies the feet that walk. The verse’s journey condition and its walking feet meet in daylight travel.
+- **H3.115** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قُمْتُمْ (1 dictionaries, sole attestation); source: قام بي ظهري أي أوجعني؛ قامت بي عيناي؛ كل ما أوجعك من جسدك فقد قام بك (tahdhib) (also H10.8, L2.20, L3.10)
+  - evidence: Luna (image): The feet being washed are imagined as sore from carrying a walker.
+- **H3.116** [judged] ق و م B020 «koyunun bacaklarını tutan hastalık» قوام في قوائم الشاة — word قُمْتُمْ (2 dictionaries); source: القوام داء يأخذ الشاة في قوائمها تقوم منه (sihah)؛ أخذها قوام وهو داء يأخذها في قوائمها تقوم منه (tahdhib) (also L5.16)
+  - evidence: Luna (image): The feet being washed recall the limbs whose disease impairs their movement.
+- **H3.117** [judged] م س ح B011 «yol alıp araziyi aşma» قطع الأرض سيرا — word وَٱمْسَحُوا۟ (5 dictionaries); source: مسحت الإبل يومها سارت (maqayis)؛ مسحت الإبل الأرض يومها دأبا أي سارت سيرا شديدا (jamhara)؛ مسحت الإبل يومها أي سارت (sihah)؛ غارة مسحاء من مسحهم إذا مر بهم مرا خفيفا (tahdhib)؛ عُبر عن السير بالمسح (mufradat) (also H6.38, H16.6)
+  - evidence: Luna (same): The feet in the purification command can be heard as the means of walking across the land. The rare verb names vigorous travel, and the verse’s foot imagery sup
+- **H3.118** [judged] م س ح B011 «yol alıp araziyi aşma» قطع الأرض سيرا — word فَٱمْسَحُوا۟ (5 dictionaries); source: as H3.117 (also H6.39)
+  - evidence: Luna (same): The rare sense of مسحت الإبل is to travel steadily across the land. It answers the walking carried by وَأَرْجُلَكُمْ, so the verse's feet evoke movement over a 
+- **H3.119** [judged] و ج ه B010 «doğumda ellerin veya ön ayakların önce çıkması» الولادة باليدين أولا — word بِوُجُوهِكُمْ (3 dictionaries); source: للمهر إذا خرجت يداه من الرحم وجيه (maqayis); للولد إذا خرجت يداه من الرحم أولا وجيه (sihah); أوجهت به أمه حين ولدته إذا خرج يداه أولا (tahdhib) (also H10.16, L3.22)
+  - evidence: Luna (complement): The rare birth image begins with hands emerging first; the feet later carry the person through life. Birth and walking become two stages in one bodily story.
+- **H3.120** [judged] و ج ه B010 «doğumda ellerin veya ön ayakların önce çıkması» الولادة باليدين أولا — word وُجُوهَكُمْ (3 dictionaries); source: as H3.119 (also H10.17, L3.23)
+  - evidence: Luna (complement): Hands emerge first in the birth image; legs later carry the growing child. The two senses make a sequence from first arrival to walking.
+- **H3.121** [judged] و ج ه B014 «yanına gelen kişiyi geri çevirmek» الرد عن الوجه — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: أتى فلان فلانا فأوجهه وأوجأه إذا رده (tahdhib) (also H6.22, H13.12)
+  - evidence: Luna (complement): The person turned away from an arrival departs on foot. The rare rejection sense and وَأَرْجُلَكُمْ make a compact scene of arrival followed by walking away.
+- surah ayat these members touch (chain material): 5:1 (ح ر ج B004, ص ل ي B007, ك ع ب B002, ي د ي B003) → 5:2 (ج ن ب B010, ح ر ج B003, ح ر ج B004, ط ه ر B005, ق و م B011, ك ع ب B002, ي د ي B016) → 5:3 (ء م ن B002, ح ر ج B003, ح ر ج B004, ر د د B005, ص ل ي B004, ط ه ر B005, ك ع ب B010, م س ح B015, م و ه B008, ن ع م B010, ي د ي B003) → 5:4 (ح ر ج B004, ر و د B005, ق و م B004, ي د ي B009) → 5:5 (ء م ن B002, ج ع ل B005, ح ر ج B004, س ف ر B003, ط ه ر B005, و ج ه B010) → 5:7 (ي د ي B003) → 5:8 (ج ع ل B005, ح ر ج B003, ق و م B008) → 5:9 (ج ع ل B005, ي م م B003) → 5:10 (ء م ن B002) → 5:11 (ي د ي B003) → 5:12 (ر د د B010, ص ل ي B003, ص ل ي B007, ص ل ي B010, ق و م B001, ك ع ب B002, ي د ي B003) → 5:13 (ء م ن B002, ج د د B014, م و ه B008, و ج ه B014) → 5:14 (ج ن ب B010) → 5:15 (ت م م B005) → 5:17 (ق و م B011, ك ع ب B002) → 5:18 (ط ه ر B005, ك ع ب B002) → 5:19 (ت م م B005) → 5:21 (ر د د B005, و ج ه B008, ي د ي B009) → 5:23 (ج ن ب B012, ن ع م B012) → 5:24 (ح ر ج B012, م و ه B005, و ج د B005) → 5:27 (ج د د B006, ج ن ب B002, ح ر ج B012, ص ل ي B007, و ج ه B010) → 5:28 (ح ر ج B012) → 5:29 (ح ر ج B003, ص ل ي B003, ص ل ي B004, ط ه ر B005) → 5:31 (و ج ه B003) → 5:32 (ي د ي B009) → 5:33 (ن ع م B012, و ج ه B015, ي م م B003) → 5:34 (و ج ه B010) → 5:36 (ي م م B003) → 5:37 (ص ل ي B003, ص ل ي B004) → 5:38 (ي د ي B009) → 5:39 (ي د ي B016) → 5:41 (ء م ن B002, ج د د B014, ر د د B005, ر و د B005, م س ح B016, م و ه B008, ي م م B003) → 5:42 (ك ع ب B010, م س ح B016) → 5:44 (ق و م B004) → 5:45 (ر ء س B004, م س ح B004, ي د ي B009) → 5:46 (ء م ن B002, ص ل ي B007) → 5:48 (ء م ن B002, ر ف ق B002, ر و د B004, ق و م B002, ق و م B011, ق و م B012, ي د ي B016, ي م م B004) → 5:49 (ط ه ر B005) → 5:52 (ء م ن B002, ج ع ل B005, ر و د B005, م و ه B008, و ج ه B003) → 5:53 (ط ه ر B005) → 5:54 (ر د د B005) → 5:55 (ص ل ي B003, ص ل ي B007, ص ل ي B010) → 5:57 (ر د د B005, ص ل ي B003) → 5:58 (ر ف ق B005, ص ل ي B003, ص ل ي B007, ص ل ي B010) → 5:61 (ر د د B005) → 5:62 (ج ن ب B010, و ج ه B003) → 5:64 (ر د د B005, ص ل ي B003, ص ل ي B004, ن ع م B010) → 5:65 (ي د ي B003) → 5:66 (ن ع م B012, و ج ه B015) → 5:68 (ح ر ج B012, ن ع م B010) → 5:69 (ر د د B005) → 5:72 (ح ر ج B004) → 5:73 (ي م م B003) → 5:75 (ت م م B005, ر و د B005, س ف ر B003) → 5:76 (ك ع ب B010, م ر ض B006) → 5:78 (ت م م B005) → 5:80 (ي د ي B009) → 5:83 (م س ح B004) → 5:87 (ح ر ج B004) → 5:88 (ج د د B002) → 5:89 (ت م م B006, ر د د B007, ق و م B001, ق و م B004) → 5:90 (ط ه ر B005) → 5:93 (ح ر ج B012) → 5:94 (ي م م B003) → 5:95 (ت م م B006, ح ر ج B004, س ف ر B003, غ و ط B003, ق و م B008, ك ع ب B002, م ر ض B003) → 5:96 (ج د د B006, ر د د B007, ي م م B003) → 5:97 (ك ع ب B002, ك و ن B003, م ر ض B003) → 5:100 (م و ه B008) → 5:101 (و ج ه B015) → 5:103 (ر ف ق B005, م س ح B016, ي م م B003) → 5:104 (و ج ه B006) → 5:106 (ر د د B010, ق و م B008, م و ه B008) → 5:108 (س ف ر B002, ص ع د B002, م س ح B004) → 5:109 (ء ح د B004, ر ء س B003, ر د د B007, م س ح B011) → 5:110 (ج ن ب B012, غ و ط B002, م و ه B008, ي م م B004) → 5:111 (ي د ي B016) → 5:113 (ء م ن B002) → 5:114 (ء ح د B004, ج د د B002, م ر ض B003) → 5:116 (ح ر ج B012, م ر ض B006) → 5:119 (ت م م B006, ج د د B002, و ج د B005)
+
+### H4 مَآءً — 15 roots converge
+Plain sense of مَآءً: su ve su adının biçim ailesi (الماء المعروف وأصل اسمه)
+- **H4.1** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word تَجِدُوا۟ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H2.5, H3.10, H5.1, H11.7)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (part): The water is heard together with the shore that belongs to it.
+- **H4.2** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: الجداء الأرض التي لا ماء بها؛ الجدود والجداء من الضان التي جف لبنها ويبس ضرعها (maqayis)؛ الجدود كل أنثى يبس لبنها؛ الجداء مفازة يابسة؛ شاة جداء يابسة اللبن (ayn)؛ فلاة جداء لا ماء بها؛ الجدود النعجة التي قل لبنها؛ الجداء التي ذهب لبنها (sihah)؛ ناقة جدود؛ نعجة جدود؛ الجداء الناقة التي قد انقطع لبنها (tahdhib)؛ الجدود والجداء من الضأن التي انقطع لبنها (mufradat) (also H5.2)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (opposite): The mention of water stands against the dry place that has none.
+- **H4.3** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: as H1.7 (also H1.7, H2.7, H3.13, H5.3)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً
+- **H4.4** [dictionary] ج ع ل B008 «kara küçük yer hayvanı ve bunlarla dolu su» دويبة الجعلان — word لِيَجْعَلَ (3 dictionaries); source: الجعل دابة من هوام الأرض (ayn)؛ الجعل دويبة؛ جعل الماء بالكسر أي كثر فيه الجعلان (sihah)؛ الجعل دابة سوداء من دواب الأرض تجمع جعلانا؛ ماء مجعل وجعل إذا تهافتت فيه الجعلان (tahdhib) (also H5.4)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (same): The beetle-filled water is still water, now heard in a strikingly particular form.
+- **H4.5** [dictionary] ج ي ء B002 «» الجِيأة مجتمع الماء — word جَآءَ (0 dictionaries); source:  (also H5.5, L12.4)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً
+- **H4.6** [dictionary] ج ي ء B003 «» مجتمع الماء في هبطة أو حول حصن — word جَآءَ (0 dictionaries); source:  (also H5.6, L12.5)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً
+- **H4.7** [dictionary] ر ج ل B008 «su akıntısı yatağı» رِجْلة الماء — word وَأَرْجُلَكُمْ (3 dictionaries); source: as H1.68 (also H1.68, H5.7, H13.9)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (complement): Water is heard together with the course that carries it.
+- **H4.8** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H3.32 (also H3.32, H5.8, H15.1, T2)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً
+- **H4.9** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H3.32 (also H3.33, H5.9, H15.2, T1)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (same): Water is heard not only as a medium but as gathered abundance.
+- **H4.10** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.24, H2.26, H3.34, H5.10, L11.5)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (complement): The water is heard as a destination repeatedly sought and revisited. Its absence then interrupts that movement and leads to the substitute.
+- **H4.11** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.25, H2.27, H3.35, H5.11, H18.5)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً
+- **H4.12** [dictionary] ر ف ق B003 «yarar ve rahatlık sağlayan, kolay erişilen olanak» المرفق والمنفعة — word ٱلْمَرَافِقِ (4 dictionaries); source: كل شيء يدعو إلى راحة وموافقة (maqayis)؛ المرفق الأمر الرافق بك (maqayis)؛ المرفق من كل شيء من الأمر ومرفق الدار من المغتسل والكنيف (ayn)؛ أرفقته أي نفعته والمرفق ما ارتفقت به وانتفعت به ومرافق الدار مصاب الماء (sihah)؛ مرفقا ما ارتفقت به والمرفق من مرافق الدار (tahdhib)؛ ماء رفق ومرتع رفق أي سهل المطلب (maqayis;sihah)؛ الرفق الماء القصير الرشاء ورفق البغية سهلة (tahdhib) (also H5.12, L2.9)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (image): Water is itself a useful resource for washing. The rare sense makes the medium sound like a practical provision.
+- **H4.13** [dictionary] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H1.72 (also H1.72, H2.72, H5.13, L9.9, L10.7)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (part): Water is the medium within the self-cleansing sense. Its absence later makes the verse’s substitute procedure intelligible.
+- **H4.14** [dictionary] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word لِيُطَهِّرَكُمْ (4 dictionaries); source: as H1.72 (also H5.14, L9.10)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (part): Water is the medium named by the rare purification sense. Its absence explains why the verse turns to another means.
+- **H4.15** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H1.39 (also H1.39, H2.41, H3.53, H5.15, L7.9, L10.8)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (part): Water is the familiar purifier that the verse says is unavailable. The rare branch names it by what it does.
+- **H4.16** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H2.42, H3.54, H5.16, H10.7, L3.8)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (same): The rare sense points directly to water as the purifier. The verse then names the medium whose absence triggers the substitute.
+- **H4.17** [dictionary] غ س ل B002 «yıkamada kullanılan su veya madde ile yıkanma yeri» ماء الغسل وما يغسل به أو فيه — word فَٱغْسِلُوا۟ (4 dictionaries); source: as H1.74 (also H1.74, H2.74, H7.4, L7.12)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (same): The wash-medium is water itself. The missing water is the very substance carried by the rare sense of washing.
+- **H4.18** [dictionary] غ و ط B002 «içine girip gömülmek» دخول وغيبوبة في الشيء — word ٱلْغَآئِطِ (2 dictionaries); source: as H3.58 (also H3.58, H5.18)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً
+- **H4.19** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قُمْتُمْ (4 dictionaries); source: as H1.45 (also H1.45, H2.47, H3.65, H5.19, H6.31, H7.10)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (tool): The water is the very substance raised by the rare pulley image. Its absence triggers the turn to earth.
+- **H4.20** [dictionary] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قُمْتُمْ (2 dictionaries); source: as H1.75 (also H1.75, H5.20, L5.14, L6.9, T7)
+  - evidence: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (same): The rare branch pictures water in its frozen, unmoving state. The verse's missing water can thus be heard as a medium that is present in name but unable to flow
+- **H4.21** [dictionary] ي م م B003 «deniz veya engin su» اليم ماء عظيم — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.65 (also H1.65, H2.68, H3.107, H5.28, L7.15, L12.10)
+  - evidence: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (same): The rare sense calls up an immense body of water just before the verse says no water was found. That makes the absence especially stark.
+- **H4.22** [judged] ر ج ل B013 «kuyuya iple indirilmeden inmek» نزول البئر بلا تدلية — word وَأَرْجُلَكُمْ (5 dictionaries); source: ترجلت في البئر إذا نزلت فيها من غير أن تدلى (maqayis)؛ ترجلت البئر أي نزلتها من غير تدل (ayn)؛ ترجل الرجل في البئر إذا رمى بنفسه فيها (jamhara)؛ ترجل في البئر أي نزل فيها من غير أن يدلى (sihah)؛ ترجل في البئر تشبيها بذل…
+  - evidence: Luna (image): The missing water is pictured at the bottom of a well reached by descending into it.
+- **H4.23** [judged] ر ف ق B009 «suyun dolu, yerinde duran ve kalıcı olması» الامتلاء والثبات — word ٱلْمَرَافِقِ (1 dictionaries, sole attestation); source: المرتفق الممتلىء الواقف الثابت الدائم كرب أن يمتلىء أو امتلأ (also H15.14)
+  - evidence: Luna (same): The rare branch describes water as full, settled, and enduring. Beside the ordinary word for water, it makes the medium sound stable and present.
+- **H4.24** [judged] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H2.53, H3.77, H6.9, H9.10)
+  - evidence: Luna (image): The missing water is heard beside a rare sense of a lovely sheen like water on the face. The verse’s substitute rite thus carries a faint image of beauty that w
+- **H4.25** [judged] م س ح B007 «ter; bir kaynakta kol» المسيح عرق ظاهر — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.76 (also H2.75, L3.16, L18.8)
+  - evidence: Luna (image): The failure to find water is shadowed by the body’s own visible moisture. Sweat is only a small bodily fluid, but its presence sharpens the absence of water for
+- **H4.26** [judged] ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة — word نِعْمَتَهُۥ (4 dictionaries); source: النعامي الريح اللينة (maqayis)؛ النعامى ريح الجنوب لأنها أبل الرياح وأرطبها (sihah)؛ من أسماء الجنوب النعامى (tahdhib)؛ النعامى الريح الجنوب الناعمة الهبوب (mufradat) (also H11.5, H14.13)
+  - evidence: Luna (image): The moist southern wind sharpens the image of water that cannot be found. The verse’s turn to earth then feels like a response to water’s absence, even in an ai
+- **H4.27** [judged] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word بِوُجُوهِكُمْ (6 dictionaries); source: as H3.91 (also H3.92, H6.13, H11.13, H12.6, L9.15, L20.7)
+  - evidence: Luna (image): Water can return a face as a reflection. When مَآءً is absent, the face turns instead toward the earth in the substitute rite.
+- surah ayat these members touch (chain material): 5:4 (ن ع م B009) → 5:9 (ي م م B003) → 5:12 (ر د د B010) → 5:13 (ج د د B014) → 5:14 (ر ج ل B008) → 5:18 (ر ج ل B008) → 5:27 (ج د د B006) → 5:31 (و ج ه B003) → 5:33 (ي م م B003) → 5:36 (ي م م B003) → 5:41 (ج د د B014, ي م م B003) → 5:48 (ر ج ل B008, ق و م B012) → 5:51 (ر ج ل B008) → 5:52 (ق و م B016, و ج ه B003) → 5:62 (و ج ه B003) → 5:73 (ي م م B003) → 5:89 (ر د د B007, ق و م B016) → 5:90 (ن ع م B009) → 5:94 (ي م م B003) → 5:95 (ق و م B016) → 5:96 (ج د د B006, ر د د B007, ي م م B003) → 5:103 (ي م م B003) → 5:106 (ر د د B010) → 5:107 (ط ه ر B003) → 5:109 (ج ع ل B008, ر د د B007) → 5:110 (غ و ط B002)
+
+### H5 فَٱغْسِلُوا۟ — 15 roots converge
+Plain sense of فَٱغْسِلُوا۟: suyla yıkayıp kirden arındırma (تطهير الشيء بإسالة الماء وإزالة الدرن)
+- **H5.1** [dictionary] ج د د B006 «su kıyısı» حافة الماء وساحله — word تَجِدُوا۟ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H2.5, H3.10, H4.1, H11.7)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (image): The washing command evokes water at its edge, as at a riverbank.
+- **H5.2** [dictionary] ج د د B011 «susuz yer veya sütü kesilmiş dişi hayvan» انقطاع ماء أو لبن — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H4.2 (also H4.2)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (opposite): The verse begins with washing by water, then gives a substitute for the case where water is not found.
+- **H5.3** [dictionary] ج د د B014 «kıyı ve kır yer adları» مواضع مسماة — word تَجِدُوا۟ (echo root, sound family only; 2 dictionaries); source: as H1.7 (also H1.7, H2.7, H3.13, H4.3)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.4** [dictionary] ج ع ل B008 «kara küçük yer hayvanı ve bunlarla dolu su» دويبة الجعلان — word لِيَجْعَلَ (3 dictionaries); source: as H4.4 (also H4.4)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (opposite): Water crowded with beetles contrasts with water used to cleanse.
+- **H5.5** [dictionary] ج ي ء B002 «» الجِيأة مجتمع الماء — word جَآءَ (0 dictionaries); source: as H4.5 (also H4.5, L12.4)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (complement): Water gathered in a pool can serve the washing that the verse commands. The rare image makes the cleansing medium visible as collected water.
+- **H5.6** [dictionary] ج ي ء B003 «» مجتمع الماء في هبطة أو حول حصن — word جَآءَ (0 dictionaries); source: as H4.6 (also H4.6, L12.5)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (complement): The water gathered in a hollow becomes an available cleansing medium. The image joins collected water to the washing commanded in the verse.
+- **H5.7** [dictionary] ر ج ل B008 «su akıntısı yatağı» رِجْلة الماء — word وَأَرْجُلَكُمْ (3 dictionaries); source: as H1.68 (also H1.68, H4.7, H13.9)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (image): Washing the feet is pictured as water running along its channel.
+- **H5.8** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H3.32 (also H3.32, H4.8, H15.1, T2)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.9** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H3.32 (also H3.33, H4.9, H15.2, T1)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (opposite): The flowing wash is set against fluid gathered in fullness.
+- **H5.10** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.24, H2.26, H3.34, H4.10, L11.5)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.11** [dictionary] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.25, H2.27, H3.35, H4.11, H18.5)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.12** [dictionary] ر ف ق B003 «yarar ve rahatlık sağlayan, kolay erişilen olanak» المرفق والمنفعة — word ٱلْمَرَافِقِ (4 dictionaries); source: as H4.12 (also H4.12, L2.9)
+  - evidence: lex/src: مغتسل → root غ س ل || lex/src: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.13** [dictionary] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H1.72 (also H1.72, H2.72, H4.13, L9.9, L10.7)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (same): Self-purification by water or its equivalent echoes the command to wash with water. The second command gives a concrete form to the first.
+- **H5.14** [dictionary] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word لِيُطَهِّرَكُمْ (4 dictionaries); source: as H1.72 (also H4.14, L9.10)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (same): The divine purpose of purification is enacted in the water wash. The rare branch names the same cleansing act from the side of its result.
+- **H5.15** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H1.39 (also H1.39, H2.41, H3.53, H4.15, L7.9, L10.8)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (part): The purifying medium and the act it makes possible are joined. The wash is the work of a substance that cleanses.
+- **H5.16** [dictionary] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H2.42, H3.54, H4.16, H10.7, L3.8)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (part): A pure agent that cleans others is made visible in the washing command. The water’s cleansing work becomes the means by which self-purification happens.
+- **H5.17** [dictionary] ط ي ب B003 «tuvalet sonrası pisliği gidererek temizlenme» الاستطابة تطهير من الخبث — word طَيِّبًا (3 dictionaries); source: as H1.73 (also H1.73, H2.73, H3.57, L7.10, L16.1)
+  - evidence: lex/image: تطهير names the plain image of فَٱغْسِلُوا۟ || rel/near_neighbor: غ س ل B001 (suyla yıkayıp temizleme) || Luna (same): The rare cleaning sense of طَيِّبًا names removal of filth after using the toilet. Washing is another direct way the verse names bodily cleansing.
+- **H5.18** [dictionary] غ و ط B002 «içine girip gömülmek» دخول وغيبوبة في الشيء — word ٱلْغَآئِطِ (2 dictionaries); source: as H3.58 (also H3.58, H4.18)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.19** [dictionary] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قُمْتُمْ (4 dictionaries); source: as H1.45 (also H1.45, H2.47, H3.65, H4.19, H6.31, H7.10)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (tool): The upright apparatus used to draw water meets the command to wash with water. The rare tool sense makes the washing medium feel lifted and brought to the body.
+- **H5.20** [dictionary] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قُمْتُمْ (2 dictionaries); source: as H1.75 (also H1.75, H4.20, L5.14, L6.9, T7)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (opposite): Still, frozen water stands against the flowing water of washing. The verse's cleansing action gains an image of movement overcoming stagnation.
+- **H5.21** [dictionary] م و ه B002 «suyun belirmesi, çoğalması, içeri girmesi veya bir şeyi doldurması» ظهور الماء ودخوله وكثرته — word مَآءً (6 dictionaries); source: ماهت السفينة تموه وتماه دخل فيها الماء وأماهت الأرض ظهر فيها نز (maqayis;ayn)؛ ماهت الركي إذا كثر ماؤها (jamhara)؛ ماهت الركية إذا ظهر ماؤها وكثر وكذلك السفينة إذا دخل فيها الماء وأماهت الأرض ظهر فيها النز (sihah)؛ موهت السماء أسالت ماء كثيرا وماهت البئر وأماهت في كثرة مائها وتموه ثمر النخل والعنب إذا امتلأ ماء (tahdhib)؛ ماهت الركية تميه وتماه وبئر ميهة وماهة (mufradat)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (image): The washing water is heard as appearing and flowing in abundance.
+- **H5.22** [dictionary] م و ه B003 «su verme, içine su koyma ve sulanmış hale getirme» إيصال الماء بالسقي والصب — word مَآءً (3 dictionaries); source: as H3.83 (also H3.83, H12.3)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (part): Water poured for washing is heard as a direct act of watering or wetting.
+- **H5.23** [dictionary] م و ه B004 «üreme sıvısını dişinin döl yatağına bırakma» ماء الفحل في الرحم — word مَآءً (2 dictionaries); source: أماه الفحل ألقى ماءه في رحم الأنثى (maqayis;sihah) (also H8.15, L7.13)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (complement): The bodily fluid and the cleansing command meet in the verse’s purification sequence.
+- **H5.24** [dictionary] م و ه B005 «başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme» كسوة المعدن بماء الذهب أو الفضة — word مَآءً (3 dictionaries); source: as H1.52 (also H1.52, H2.54, H3.84, H9.17, L4.26)
+  - evidence: lex/image: بماء names the plain image of فَٱغْسِلُوا۟ || Luna (opposite): Washing removes what dirt or false appearance puts on the surface.
+- **H5.25** [dictionary] م و ه B006 «belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi» رونق كالماء في الوجه والكلام والثمر — word مَآءً (3 dictionaries); source: ما أحسن موهة وجهه أي ترقرق ماء الشباب فيه (maqayis)؛ الموهة لون الماء يقال ما أحسن موهة وجهه (ayn)؛ عليه موهة من حسن وتموه المال للسمن وتموه العنب إذا جرى فيه الينع وحسن لونه وكلام عليه موهة أي حسن وحلاوة (tahdhib) (also H6.11, H9.12, L2.23, L4.27, L5.19)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.26** [dictionary] م و ه B007 «kaya kristali veya ayna» صفاء الماوية كالبلور والمرآة — word مَآءً (2 dictionaries); source: as H1.80 (also H1.80, L9.13, L10.17, L16.10)
+  - evidence: lex/src: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.27** [dictionary] م و ه B008 «gönlünde suyu çok denilen, bazı aktarımlarda anlayışı kıt adam» كثرة ماء القلب على جهة البلادة — word مَآءً (3 dictionaries); source: as H1.53 (also H1.53, H2.55, H3.85)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟
+- **H5.28** [dictionary] ي م م B003 «deniz veya engin su» اليم ماء عظيم — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.65 (also H1.65, H2.68, H3.107, H4.21, L7.15, L12.10)
+  - evidence: lex/image: ماء names the plain image of فَٱغْسِلُوا۟ || Luna (image): The sea-sized water sense stands behind ordinary washing as its abundant medium. The verse then turns from that water-based act to earth purification when water
+- **H5.29** [judged] ص ل و B002 «başkası için iyilik dileme; esirgeme, övme ve değer verme» الدعاء والثناء والرحمة — word ٱلصَّلَوٰةِ (5 dictionaries); source: as H1.71 (also H1.71, H2.71, H14.7, H15.15, L2.14)
+  - evidence: Luna (complement): The washing becomes a bodily form of cleansing under mercy. Prayer’s rare sense lets the purification of the body and the divine care behind it answer one anoth
+- **H5.30** [judged] ط ه ر B002 «adet kanamasının kesilmesi ve kanamasız dönem» طهر النساء من الحيض — word لِيُطَهِّرَكُمْ (4 dictionaries); source: الطهر نقيض الحيض يقال طهرت المرأة (ayn;tahdhib)؛ والمرأة طاهر من الحيض (sihah)؛ طهرت المرأة طهرا وطهارة خلاف طمثت (mufradat)؛ فإذا اغتسلت قيل تطهرت واطهرت (tahdhib) (also H8.6, L7.8)
+  - evidence: Luna (complement): The blood-free state and washing belong to successive moments of a ritual reset. Washing follows the end of menstruation.
+- **H5.31** [judged] ط ه ر B002 «adet kanamasının kesilmesi ve kanamasız dönem» طهر النساء من الحيض — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H5.30 (also H8.7, L10.6, L16.8)
+  - evidence: Luna (complement): The cessation of menstrual bleeding can be heard as the bodily stage that precedes washing. Full cleansing then follows the end of the flow.
+- **H5.32** [judged] ط ه ر B005 «kötüden uzaklaşıp davranışını arındırma» تنزيه النفس والعمل عن القبيح — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H3.55 (also H3.55, L10.10)
+  - evidence: Luna (image): Bodily washing can carry an image of moral cleansing. The physical rite and ethical purity become two layers of purification.
+- **H5.33** [judged] ط ه ر B005 «kötüden uzaklaşıp davranışını arındırma» تنزيه النفس والعمل عن القبيح — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H3.55 (also H3.56, L10.11)
+  - evidence: Luna (same): The moral cleansing sense and the physical washing command speak through the same image of removing what is unclean. The bodily rite can carry an echo of keepin
+- **H5.34** [judged] غ و ط B003 «dışkılama için örtmece» كناية الحدث والتبرز — word ٱلْغَآئِطِ (3 dictionaries); source: as H3.59 (also H3.59, L10.12)
+  - evidence: Luna (complement): The bodily event and the washing command meet as impurity and its cleansing response. The later concession preserves that response when water is absent.
+- **H5.35** [judged] م س ح B012 «saç lülesi ve saç tarayan kadın» ذوائب الشعر والماشطة — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H1.78 (also H2.77, H7.13)
+  - evidence: Luna (part): The washing command can include the hair that a hairdresser tends. The rare sense supplies a specific part of the body’s grooming that washing naturally reaches
+- **H5.36** [judged] م س ح B012 «saç lülesi ve saç tarayan kadın» ذوائب الشعر والماشطة — word فَٱمْسَحُوا۟ (4 dictionaries); source: as H1.78 (also H1.78, H7.14)
+  - evidence: Luna (part): The locks named by المسائح belong to the hair that washing cleans. The sequence evokes ordinary grooming as well as ritual preparation.
+- surah ayat these members touch (chain material): 5:2 (ط ه ر B005) → 5:3 (ط ه ر B005, م و ه B008) → 5:5 (ط ه ر B005) → 5:9 (ي م م B003) → 5:12 (ر د د B010) → 5:13 (ج د د B014, م و ه B008) → 5:14 (ر ج ل B008) → 5:18 (ر ج ل B008, ط ه ر B005) → 5:24 (م و ه B005) → 5:27 (ج د د B006) → 5:29 (ط ه ر B005) → 5:31 (م و ه B007) → 5:33 (ي م م B003) → 5:36 (ي م م B003) → 5:41 (ج د د B014, م و ه B008, ي م م B003) → 5:48 (ر ج ل B008, ق و م B012, م س ح B012) → 5:49 (ط ه ر B005) → 5:51 (ر ج ل B008) → 5:52 (ق و م B016, م و ه B007, م و ه B008) → 5:53 (ط ه ر B005) → 5:62 (م و ه B007) → 5:72 (م و ه B007) → 5:73 (ي م م B003) → 5:89 (ر د د B007, ق و م B016) → 5:90 (ط ه ر B005) → 5:94 (ي م م B003) → 5:95 (غ و ط B003, ق و م B016) → 5:96 (ج د د B006, ر د د B007, ي م م B003) → 5:100 (م و ه B002, م و ه B008) → 5:103 (ي م م B003) → 5:106 (ر د د B010, م و ه B008) → 5:107 (ط ه ر B003) → 5:108 (م و ه B006) → 5:109 (ج ع ل B008, ر د د B007) → 5:110 (غ و ط B002, م و ه B008) → 5:111 (ص ل و B002)
+
+### H6 صَعِيدًا — 14 roots converge
+Plain sense of صَعِيدًا: yeryüzü veya toprak yüzeyi (صعيد وجه الأرض)
+- **H6.1** [dictionary] ج د د B005 «belirgin şerit veya ana yol» طرائق وخطط ظاهرة — word تَجِدُوا۟ (echo root, sound family only; 6 dictionaries); source: كل جدة طريقة؛ جادة الطريق سواؤه (maqayis)؛ الجدد والجديد وجه الأرض؛ الزم الطريق الجدد؛ الجادة الطريق (ayn)؛ الجدة الخطة؛ كل خط جدة؛ جدد بيض أي طرائق تخالف لون الجبل (jamhara)؛ الجدة الطريقة؛ جادة الطريق؛ كساء مجدد فيه خطوط مختلفة (sihah)؛ الجدد الخطط والطرق تكون في الجبال؛ كل طريقة جدة وجادة؛ كساء مجدد فيه خيوط مختلفة (tahdhib)؛ جدد بيض جمع جدة أي طريقة ظاهرة؛ جادة الطريق (mufradat) (also H9.1)
+  - evidence: lex/src: وجه names the plain image of صَعِيدًا || Luna (part): When water is absent, the clean earth becomes a clear route for the substitute rite.
+- **H6.2** [dictionary] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.67 (also H1.67, H2.70, H9.2, L4.2, L6.1, L12.3)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا || Luna (same): The selected ṣaʿīd is heard as hard, level earth.
+- **H6.3** [dictionary] ح ر ج B007 «zayıf ya da uzun gövdeli dişi deve» الناقة الضامرة والطويلة — word حَرَجٍ (3 dictionaries); source: as H1.13 (also H1.13, H2.13, H3.23, H9.3)
+  - evidence: lex/src: وجه names the plain image of صَعِيدًا || Luna (image): The camel stretches across the earth’s surface.
+- **H6.4** [dictionary] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H1.70, H2.24, H9.4, L4.14, L7.5, L16.5)
+  - evidence: lex/src: وجه names the plain image of صَعِيدًا
+- **H6.5** [dictionary] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H2.25, H9.5, L4.15, L7.6, L16.6)
+  - evidence: lex/src: وجه names the plain image of صَعِيدًا
+- **H6.6** [dictionary] س ف ر B002 «aydınlanıp belirginleşme» إسفار الضوء والوجه — word سَفَرٍ (5 dictionaries); source: as H3.114 (also H3.114, H9.6, L1.14, L4.18)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا || Luna (image): The selected earth is pictured as a surface brought into the light. The rare sense makes the clean ground visible as dawn uncovers it.
+- **H6.7** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.75, H9.8, H17.4, L4.23)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا
+- **H6.8** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.76, H9.9, H17.5, L4.24, L13.11)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا || Luna (image): The rare sense is an erased human face, while صَعِيدًا is the face or surface of the earth. Together they make an image of two surfaces, one bodily and one terr
+- **H6.9** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H2.53, H3.77, H4.24, H9.10)
+  - evidence: lex/src: وجه names the plain image of صَعِيدًا
+- **H6.10** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word فَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H1.51, H3.78, H9.11)
+  - evidence: lex/src: وجه names the plain image of صَعِيدًا
+- **H6.11** [dictionary] م و ه B006 «belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi» رونق كالماء في الوجه والكلام والثمر — word مَآءً (3 dictionaries); source: as H5.25 (also H5.25, H9.12, L2.23, L4.27, L5.19)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا
+- **H6.12** [dictionary] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word وُجُوهَكُمْ (6 dictionaries); source: as H3.91 (also H3.91, H11.12, H12.5, L9.14, L20.6)
+  - evidence: lex/src: وجهي names the plain image of صَعِيدًا || Luna (image): The face meets the face of the earth. The pairing evokes the worshipper's bodily orientation toward the ground used in the substitute rite.
+- **H6.13** [dictionary] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word بِوُجُوهِكُمْ (6 dictionaries); source: as H3.91 (also H3.92, H4.27, H11.13, H12.6, L9.15, L20.7)
+  - evidence: lex/src: وجهي names the plain image of صَعِيدًا || Luna (image): The human face meets the face of the earth. Tayammum becomes an image of two surfaces brought directly together.
+- **H6.14** [dictionary] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word وُجُوهَكُمْ (5 dictionaries); source: as H3.93 (also H3.93, H7.15, L3.20)
+  - evidence: lex/src: وجوه names the plain image of صَعِيدًا
+- **H6.15** [dictionary] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word بِوُجُوهِكُمْ (5 dictionaries); source: as H3.93 (also H3.94, H7.16, L3.21)
+  - evidence: lex/src: وجوه names the plain image of صَعِيدًا
+- **H6.16** [dictionary] و ج ه B007 «günün başı, ilk saatleri» وجه النهار وصدره — word بِوُجُوهِكُمْ (3 dictionaries); source: وجه النهار أوله (jamhara); أتيته بوجه نهار وشباب نهار وصدر نهار أي في أوله (tahdhib); وجه النهار أي صدر النهار (mufradat) (also H16.7, L1.27, L4.28)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا || Luna (image): The face of day and the face of earth become two openings in one scene. Dawn spreads across the surface named by صَعِيدًا.
+- **H6.17** [dictionary] و ج ه B007 «günün başı, ilk saatleri» وجه النهار وصدره — word وُجُوهَكُمْ (3 dictionaries); source: as H6.16 (also H9.18, L1.28)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا
+- **H6.18** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word بِوُجُوهِكُمْ (4 dictionaries); source: as H1.59 (also H1.59, H2.61, H3.95, H7.17, L5.20, L12.1)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا
+- **H6.19** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word وُجُوهَكُمْ (4 dictionaries); source: as H1.59 (also H1.60, H2.62, H3.96, L5.21, L12.2)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا
+- **H6.20** [dictionary] و ج ه B013 «yüzüne vurma ve yüzüne vurulmuş olma» ضرب الوجه — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H1.81 (also H9.19, T11)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا || Luna (image): The struck face meets the face of the earth. The image turns the rite's contact with the earth into a forceful echo of prostration.
+- **H6.21** [dictionary] و ج ه B013 «yüzüne vurma ve yüzüne vurulmuş olma» ضرب الوجه — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: as H1.81 (also H1.81)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا || Luna (image): The human face and the earth's face meet in one physical image. The rare striking sense adds the forceful possibility of contact to the ritual's touch upon the 
+- **H6.22** [dictionary] و ج ه B014 «yanına gelen kişiyi geri çevirmek» الرد عن الوجه — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: as H3.121 (also H3.121, H13.12)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا
+- **H6.23** [dictionary] و ج ه B014 «yanına gelen kişiyi geri çevirmek» الرد عن الوجه — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H3.121 (also H13.13)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا
+- **H6.24** [dictionary] ي د ي B005 «egemenlik ve buyurma gücü» اليَد السلطان — word وَأَيْدِيكُم (3 dictionaries); source: اليد السلطان (tahdhib)؛ اليد في هذا لفلان أي الأمر النافذ لفلان (tahdhib)؛ أيديكم فوق أيديهم (mufradat)؛ عن قهر وذل (tahdhib)
+  - evidence: lex/src: فوق names the plain image of صَعِيدًا
+- **H6.25** [dictionary] ي د ي B005 «egemenlik ve buyurma gücü» اليَد السلطان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H6.24 (also H7.18, H10.19, L6.14)
+  - evidence: lex/src: فوق names the plain image of صَعِيدًا
+- **H6.26** [dictionary] ي م م B002 «toprakla namaz temizliği» التيمم للصلاة بمسح الوجه واليدين بالتراب — word فَتَيَمَّمُوا۟ (1 dictionaries); source: as H1.86 (also H1.86, H2.67, H9.13, L7.14, L10.2)
+  - evidence: lex/image: وجه names the plain image of صَعِيدًا || lex/src: صعيد → root ص ع د || lex/src: صعيد names the plain image of صَعِيدًا || Luna (part): The selected earth is the material through which tayammum is done. The ritual and its medium are joined in the same instruction.
+- **H6.27** [judged] ج ن ب B010 «yazın kalan köklü küçük bitkiler» الجنبة نبت متوسط مستقل — word جُنُبًا (4 dictionaries); source: as H1.11 (also H1.11, H2.11, H3.19)
+  - evidence: Luna (image): The summer plant makes صَعِيدًا feel like more than bare ground: it is a surface that can sustain rooted growth. The selected earth thus carries both ritual con
+- **H6.28** [judged] ص ل و B008 «üzerinde dövme yapılan geniş taş» الصَّلاية حجر الدق — word ٱلصَّلَوٰةِ (2 dictionaries); source: الصلاية الفهر (sihah); الصلاءة بالهمز مثله (sihah); الصلاية كل حجر عريض يدق عليه عطر أو هبيد (tahdhib); الصلاية سريحة خشنة غليظة من القف (tahdhib)
+  - evidence: Luna (image): The selected earth can be pictured as a broad, flat stone. It becomes a working surface touched in the substitute rite.
+- **H6.29** [judged] غ و ط B004 «bükülerek alçalmak» انخفاض بانثناء — word ٱلْغَآئِطِ (1 dictionaries, sole attestation); source: انغاط العود إذا تثنى وإذا تثنى فقد انخفض
+  - evidence: Luna (image): The body bends down toward the earth’s surface for tayammum. The rare downward motion and the selected ground make a single physical image.
+- **H6.30** [judged] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قُمْتُمْ (5 dictionaries); source: as H3.64 (also H3.64, L17.4)
+  - evidence: Luna (complement): A body of good height rises from the earth's surface. The substitute earth becomes the ground beneath the upright form.
+- **H6.31** [judged] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قُمْتُمْ (4 dictionaries); source: as H1.45 (also H1.45, H2.47, H3.65, H4.19, H5.19, H7.10)
+  - evidence: Luna (complement): An upright beam or support stands upon a ground surface. The earth selected for tayammum becomes the plane beneath the rare implement.
+- **H6.32** [judged] ك ع ب B002 «dörtgen ve yüksek yapı» البيت المربع المرتفع — word ٱلْكَعْبَيْنِ (6 dictionaries); source: as H1.46 (also H1.46, H2.48, H3.66, L14.10)
+  - evidence: Luna (image): The earth surface carries the image of a raised square house standing upon it.
+- **H6.33** [judged] ك ع ب B009 «talihin veya saygınlığın yükselmesi için dua» ارتفاع الجد والشرف — word ٱلْكَعْبَيْنِ (1 dictionaries); source: أعلى الله كعبه أي أعلى جده وقال غيره معناه أعلى الله شرفه (tahdhib) (also H7.5, L14.11)
+  - evidence: Luna (image): The earth's surface gives a ground level from which honor can rise.
+- **H6.34** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H2.76, H9.15, L12.8)
+  - evidence: Luna (same): The selected earth surface can be heard as the rare level, smooth, stony plain. The substitute medium is thus pictured as a broad bare surface.
+- **H6.35** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H1.77, H9.16, L4.25, L12.9)
+  - evidence: Luna (part): The selected صَعِيدًا can be heard as a particular stretch of level, bare land. Its surface is the very kind of terrain named by المسحاء.
+- **H6.36** [judged] م س ح B010 «arazi ölçümü» مساحة الأرض وذرعها — word فَٱمْسَحُوا۟ (4 dictionaries); source: المساحة ذرع الأرض (ayn)؛ مسح الأرض مساحة أي ذرعها (sihah)؛ المساحة ذرع الأرض تقول مسح يمسح مسحا (tahdhib)؛ مسح الأرض ذرعها (mufradat)
+  - evidence: Luna (image): The earth is pictured as a surface whose extent can be surveyed. Selecting صَعِيدًا becomes an act that both touches and measures the land.
+- **H6.37** [judged] م س ح B010 «arazi ölçümü» مساحة الأرض وذرعها — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H6.36
+  - evidence: Luna (part): The selected earth surface becomes the ground whose extent could be measured. The rare surveying sense turns the ritual medium into mapped terrain.
+- **H6.38** [judged] م س ح B011 «yol alıp araziyi aşma» قطع الأرض سيرا — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H3.117 (also H3.117, H16.6)
+  - evidence: Luna (complement): The rare sense pictures a journey made across the selected earth. The surface is not only the substitute medium but also the ground over which travel proceeds.
+- **H6.39** [judged] م س ح B011 «yol alıp araziyi aşma» قطع الأرض سيرا — word فَٱمْسَحُوا۟ (5 dictionaries); source: as H3.117 (also H3.118)
+  - evidence: Luna (complement): Travel across land needs a surface on which to proceed. The rare journey sense turns صَعِيدًا into the ground traversed by the feet.
+- **H6.40** [judged] و ج ه B012 «hıyar veya kavunun altını kazıp yana yatırma» توجيه النبات — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: التوجيه أن تحفر تحت القثاءة أو البطيخة ثم تضجعها (maqayis) (also L9.16)
+  - evidence: Luna (image): The image of digging beneath a plant and laying it over belongs to work on the earth. Beside صَعِيدًا, the selected surface becomes ground that can be shaped an
+- **H6.41** [judged] و ج ه B012 «hıyar veya kavunun altını kazıp yana yatırma» توجيه النبات — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H6.40 (also L9.17)
+  - evidence: Luna (image): The plant is tilted by digging beneath the ground surface. The verse's selected earth can be pictured as the surface around which that positioning happens.
+- surah ayat these members touch (chain material): 5:1 (ك ع ب B002) → 5:2 (ج ن ب B010, ق و م B011, ك ع ب B002) → 5:12 (ك ع ب B002) → 5:13 (و ج ه B014) → 5:14 (ج ن ب B010) → 5:17 (ق و م B011, ك ع ب B002, م س ح B010) → 5:18 (ك ع ب B002, م س ح B010) → 5:21 (ر د د B008, و ج ه B008) → 5:31 (و ج ه B003) → 5:45 (م س ح B004) → 5:48 (ق و م B011, ق و م B012) → 5:52 (و ج ه B003) → 5:54 (ر د د B008) → 5:60 (م س ح B009) → 5:62 (ج ن ب B010, و ج ه B003) → 5:66 (ج د د B005, ي د ي B005) → 5:78 (ر د د B008) → 5:83 (م س ح B004) → 5:88 (ي م م B002) → 5:95 (ك ع ب B002) → 5:97 (ك ع ب B002) → 5:100 (ي م م B002) → 5:101 (ج د د B005) → 5:104 (ك ع ب B009, و ج ه B006) → 5:106 (ر د د B008) → 5:108 (ج د د B007, س ف ر B002, م س ح B004, م و ه B006, ي م م B002) → 5:109 (م س ح B011) → 5:110 (م س ح B010)
+
+### H7 بِرُءُوسِكُمْ — 12 roots converge
+Plain sense of بِرُءُوسِكُمْ: baş ve en üst bölüm (الرأس والأعلى)
+- **H7.1** [dictionary] ج ع ل B007 «sıcak tencereyi indirme bezi ve onunla indirme» خرقة إنزال القدر — word لِيَجْعَلَ (4 dictionaries); source: الجعال الخرقة التي تنزل بها القدر عن الأثافي (maqayis)؛ الجعال والجعالة خرقة تنزل بها القدر عن رأس النار يتقى بها من الحر (ayn)؛ الجعال الخرقة التي تنزل بها القدر عن النار؛ أجعلت القدر (sihah)؛ الجعال الخرقة التي تنزل بها القدور؛ أجعلت القدر إجعالا إذا أنزلتها بالجعال (tahdhib) (also L1.8, L18.1)
+  - evidence: lex/src: راس → root ر ء س || lex/src: راس names the plain image of بِرُءُوسِكُمْ || Luna (image): The head or top of the fire is answered by the head touched in the rite.
+- **H7.2** [dictionary] ر ف ق B002 «yolculukta birlikte giden kişi ya da topluluk» الصحبة والمرافقة — word ٱلْمَرَافِقِ (4 dictionaries); source: as H3.112 (also H3.112, H11.10, H16.2)
+  - evidence: lex/src: اعلي names the plain image of بِرُءُوسِكُمْ
+- **H7.3** [dictionary] ص ل و B009 «iri başaklı, develerin otladığı bir bitki» الصِّليان نبت ترعاه الإبل — word ٱلصَّلَوٰةِ (2 dictionaries); source: الصليان نبت (ayn;tahdhib); له سنمة عظيمة كأنها رأس القصبة (ayn); له سبطة عظيمة كأنها رأس القصبة (tahdhib); تسميها العرب خبزة الإبل (ayn;tahdhib)
+  - evidence: lex/src: راس → root ر ء س || lex/src: راس names the plain image of بِرُءُوسِكُمْ || Luna (image): The plant's large, head-like spike rises into view. Its shape gives the head a vegetal echo.
+- **H7.4** [dictionary] غ س ل B002 «yıkamada kullanılan su veya madde ile yıkanma yeri» ماء الغسل وما يغسل به أو فيه — word فَٱغْسِلُوا۟ (4 dictionaries); source: as H1.74 (also H1.74, H2.74, H4.17, L7.12)
+  - evidence: lex/src: راس → root ر ء س || lex/src: راس names the plain image of بِرُءُوسِكُمْ || Luna (part): The washing place or washing medium is linked to the head it serves. The head becomes a concrete bodily object of cleansing.
+- **H7.5** [dictionary] ك ع ب B009 «talihin veya saygınlığın yükselmesi için dua» ارتفاع الجد والشرف — word ٱلْكَعْبَيْنِ (1 dictionaries); source: as H6.33 (also H6.33, L14.11)
+  - evidence: lex/src: اعلي names the plain image of بِرُءُوسِكُمْ || Luna (image): The head's summit echoes honor being raised.
+- **H7.6** [dictionary] ن ع م B007 «devekuşuna benzetilerek ad verilen şeyler» ما سمي نعامة تشبيها بالهيئة — word نِعْمَتَهُۥ (4 dictionaries); source: as H1.55 (also H1.55, H2.57, H3.87, H12.4)
+  - evidence: lex/src: رءوس → root ر ء س || lex/src: رءوس names the plain image of بِرُءُوسِكُمْ || Luna (image): The head becomes a summit with a canopy above it. Wiping the head can be pictured as touching that sheltering top.
+- **H7.7** [judged] ر ج ل B001 «bacak uzvu» الرِّجل العضو — word وَأَرْجُلَكُمْ (5 dictionaries); source: الرجل رجل الإنسان وغيره (maqayis)؛ الرجل واحدة الأرجل (sihah)؛ الرجل العضو المخصوص بأكثر الحيوان (mufradat)؛ رجلت الشاة علقتها برجلها (maqayis;sihah)؛ ارتجلت الرجل أخذت برجله (maqayis;sihah)؛ الأرجل العظيم الرجل (maqayi… (also H10.6, L3.6, L15.3)
+  - evidence: Luna (complement): The head and the feet mark the body’s upper and lower reaches. Their different purification actions frame the whole person from summit to ground.
+- **H7.8** [judged] ر ج ل B010 «orta kıvırcıklıkta saç» الشعر الرَّجِل — word وَأَرْجُلَكُمْ (5 dictionaries); source: as H1.69 (also H1.69)
+  - evidence: Luna (part): The head carries the hair that the rare sense names.
+- **H7.9** [judged] ص ع د B001 «yukarı çıkma ve yükselme» ارتفاع وصعود إلى فوق — word صَعِيدًا (5 dictionaries); source: صعد صعودا أي ارتقى مكانا مشرفا (ayn)؛ صعد في السلم صعودا وصعد في الجبل (sihah)؛ صعد إذا ارتقى (tahdhib)؛ الصعود الذهاب في المكان العالي (mufradat)؛ الصعود خلاف الحدور (maqayis) (also L12.7, L15.6)
+  - evidence: Luna (image): The rise toward a summit meets the head as the body’s highest point. The pair makes the selected earth part of an upward landscape that reaches the head.
+- **H7.10** [judged] ق و م B012 «düzeneğin dik, taşıyıcı veya tutulan parçası» آلة قائمة وجزء قائم — word قُمْتُمْ (4 dictionaries); source: as H1.45 (also H1.45, H2.47, H3.65, H4.19, H5.19, H6.31)
+  - evidence: Luna (image): The head of an implement meets the human head or top. The shared upper-end image turns the body into a structure with a guiding summit.
+- **H7.11** [judged] م س ح B003 «kılıçla vurup kesme» القطع والضرب بالسيف — word وَٱمْسَحُوا۟ (6 dictionaries); source: المسح يكون بالسيف أيضا (maqayis)؛ المسح ضرب العنق تمسحه بالسيف (ayn)؛ مسحت العضو بالسيف إذا قطعته (jamhara)؛ مسحه بالسيف قطعه (sihah)؛ المسح هاهنا القطع (tahdhib)؛ مسحته بالسيف كناية عن الضرب (mufradat) (also H10.11, L3.14)
+  - evidence: Luna (image): The head-wiping command can momentarily show a sword cutting at the head. The ritual gesture carries the opposite image of a forceful stroke across its object.
+- **H7.12** [judged] م س ح B003 «kılıçla vurup kesme» القطع والضرب بالسيف — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H7.11 (also H10.12, L3.15, L13.10)
+  - evidence: Luna (part): The sword’s cutting action meets the head as a possible target of a blow. The paired senses form an image of a strike aimed at the body’s highest part.
+- **H7.13** [judged] م س ح B012 «saç lülesi ve saç tarayan kadın» ذوائب الشعر والماشطة — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H1.78 (also H2.77, H5.35)
+  - evidence: Luna (part): The head-wiping instruction touches the very locks named by the rare branch. The ritual contact can be heard as passing over the hair itself.
+- **H7.14** [judged] م س ح B012 «saç lülesi ve saç tarayan kadın» ذوائب الشعر والماشطة — word فَٱمْسَحُوا۟ (4 dictionaries); source: as H1.78 (also H1.78, H5.36)
+  - evidence: Luna (part): The locks named by المسائح are part of the head. The rare branch makes the wiping target more specifically the hair at the رأس.
+- **H7.15** [judged] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word وُجُوهَكُمْ (5 dictionaries); source: as H3.93 (also H3.93, H6.14, L3.20)
+  - evidence: Luna (same): The prominent person is the head of a group. Social precedence and the head as the top or leader converge in one image.
+- **H7.16** [judged] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word بِوُجُوهِكُمْ (5 dictionaries); source: as H3.93 (also H3.94, H6.15, L3.21)
+  - evidence: Luna (same): Prestige and the head both suggest a place at the top. The rare sense makes the head of the body echo the head of a community.
+- **H7.17** [judged] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word بِوُجُوهِكُمْ (4 dictionaries); source: as H1.59 (also H1.59, H2.61, H3.95, H6.18, L5.20, L12.1)
+  - evidence: Luna (part): The head can be heard as the leading part of an affair, while the rare sense names its proper course. The rite's ordered way and its head meet in a picture of s
+- **H7.18** [judged] ي د ي B005 «egemenlik ve buyurma gücü» اليَد السلطان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H6.24 (also H6.25, H10.19, L6.14)
+  - evidence: Luna (image): Sovereign hands stand over heads. The pair pictures authority reaching even the highest or leading part.
+- **H7.19** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.84 (also H1.84, H2.79, H10.23, L13.21)
+  - evidence: Luna (image): The head is the uppermost part, and the hand of an object is one of its ends. The pair gathers the image of bodily and object parts that occupy a leading or ter
+- **H7.20** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيكُم (3 dictionaries); source: as H1.84 (also H1.85, H2.80, L13.22)
+  - evidence: Luna (image): The projecting hand reaches the body’s summit.
+- surah ayat these members touch (chain material): 5:5 (ي د ي B013) → 5:12 (ي د ي B013) → 5:14 (ي د ي B013) → 5:21 (و ج ه B008) → 5:48 (ر ج ل B001, ر ف ق B002, ق و م B012, م س ح B012) → 5:60 (ص ع د B001) → 5:66 (ص ع د B001, ي د ي B005) → 5:73 (ج ع ل B007) → 5:89 (ج ع ل B007) → 5:104 (ك ع ب B009, و ج ه B006)
+
+### H8 ٱلنِّسَآءَ — 11 roots converge
+Plain sense of ٱلنِّسَآءَ: kadın topluluğunu bildiren ayrı biçimli çoğullar (جماعة النساء)
+- **H8.1** [dictionary] ح ر ج B006 «ahşap taşıma sedyesi veya kafesi» السرير والمحفة — word حَرَجٍ (3 dictionaries); source: as H3.111 (also H3.111, L1.10, L2.8)
+  - evidence: lex/src: نساء → root ن س و || lex/src: نساء names the plain image of ٱلنِّسَآءَ || Luna (complement): The word for women can evoke the carriage made for women.
+- **H8.2** [dictionary] ر د د B006 «boşanıp ailesine dönen kadın» المرأة المردودة إلى أهلها — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: المردودة المرأة المطلقة وابنتك مردودة عليك ليس لها كاسب غيرك (maqayis)؛ المردودة المطلقة (sihah)؛ المردودة من النساء المطلقة وابنتك مردودة عليك لا كاسب لها غيرك (tahdhib)
+  - evidence: lex/src: نساء → root ن س و || lex/src: نساء names the plain image of ٱلنِّسَآءَ
+- **H8.3** [dictionary] ر د د B006 «boşanıp ailesine dönen kadın» المرأة المردودة إلى أهلها — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H8.2
+  - evidence: lex/src: نساء → root ن س و || lex/src: نساء names the plain image of ٱلنِّسَآءَ || Luna (part): The general category of women opens onto the specific returned woman.
+- **H8.4** [dictionary] ش ك ر B006 «kadın cinsel organı veya birleşme için örtmece» كناية الفرج والنكاح — word تَشْكُرُونَ (5 dictionaries); source: الأصل الرابع الشكر وهو النكاح (maqayis)؛ شكر المرأة فرجها (maqayis;sihah;tahdhib)؛ الشكر الفرج (ayn)؛ الشكر يكنى به عن فرج المرأة وعن النكاح (mufradat)؛ الشكار فروج النساء واحدها شكر (tahdhib) (also L10.3, L13.1)
+  - evidence: lex/src: نساء → root ن س و || lex/src: نساء names the plain image of ٱلنِّسَآءَ || Luna (part): The rare sense names intercourse and the female sexual organ, while the verse names women as a categorical object of contact. The body and its human partner mee
+- **H8.5** [dictionary] ص ع د B006 «kendiliğinden düz mızraklık sırık» صعدة قناة مستقيمة — word صَعِيدًا (4 dictionaries); source: الصعدة القناة المستوية تنبت كذلك ومن القصب أيضا (ayn)؛ الصعدة القناة المستوية لا تحتاج إلى تثقيف (sihah)؛ الصعدة الألة وهي نحو من الحربة أو أصغر منها (tahdhib)؛ الصعدة من النساء المستقيمة كأنها صعدة قناة (tahdhib)؛ الصعدة من النساء المستقيمة القامة فكأنها صعدة وهي القناة المستوية (maqayis) (also L1.15, L15.8)
+  - evidence: lex/src: نساء → root ن س و || lex/src: نساء names the plain image of ٱلنِّسَآءَ || Luna (image): The straight shaft is also a comparison for a woman of upright stature. The word for women therefore meets an image already carried by this rare sense.
+- **H8.6** [dictionary] ط ه ر B002 «adet kanamasının kesilmesi ve kanamasız dönem» طهر النساء من الحيض — word لِيُطَهِّرَكُمْ (4 dictionaries); source: as H5.30 (also H5.30, L7.8)
+  - evidence: lex/image: نساء → root ن س و || lex/image: نساء names the plain image of ٱلنِّسَآءَ || Luna (part): The women's group includes those for whom menstrual purity is a relevant bodily state. The branch makes that dimension of the broad address audible.
+- **H8.7** [dictionary] ط ه ر B002 «adet kanamasının kesilmesi ve kanamasız dönem» طهر النساء من الحيض — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H5.30 (also H5.31, L10.6, L16.8)
+  - evidence: lex/image: نساء → root ن س و || lex/image: نساء names the plain image of ٱلنِّسَآءَ || Luna (part): The rare sense gives the mention of women an embodied dimension. It names a particular bodily condition associated with women without making that condition the 
+- **H8.8** [dictionary] ق و م B001 «erkekler topluluğu ve yakın çevresi» جماعة الناس والرجال — word قُمْتُمْ (5 dictionaries); source: as H1.41 (also H1.41, H2.43, H3.60)
+  - evidence: lex/src: نساء → root ن س و || lex/src: نساء names the plain image of ٱلنِّسَآءَ || Luna (opposite): The old male-only sense of قَوْم meets the explicitly female collective. The verse's touch clause then places the two sexes in direct contrast.
+- **H8.9** [dictionary] ل م س B003 «dokunma sözüyle cinsel birleşmeyi örtülü anlatma» كناية الجماع — word لَٰمَسْتُمُ (3 dictionaries); source: as H1.49 (also H1.49, H2.51, H3.72, H18.3)
+  - evidence: lex/src: نساء → root ن س و || lex/src: نساء names the plain image of ٱلنِّسَآءَ || Luna (complement): The rare euphemism makes the women named in the clause participants in an intimate act. This sharpens the contact condition before the verse gives its purificat
+- **H8.10** [judged] ج ع ل B009 «dişinin çiftleşmek için erkeği istemesi» اشتهاء الأنثى للفحل — word لِيَجْعَلَ (3 dictionaries); source: كلبة مجعل إذا أرادت السفاد (maqayis)؛ أجعلت الكبة واستجعلت فهي مجعل إذا أرادت السفاد وكذلك سائر السباع (sihah)؛ أجعلت الكلبة والسباع كلها إذا اشتهت الفحل؛ استجعلت أيضا بمعناه (tahdhib)
+  - evidence: Luna (complement): The mention of women can carry an image of sexual pairing.
+- **H8.11** [judged] ح ر ج B001 «sıkıca toplanma ve iç içe geçme» التجمع والالتفاف — word حَرَجٍ (4 dictionaries); source: تجمع الشيء وضيقه (maqayis)؛ الحرج جمع حرجة وهي مجتمع شجر (maqayis)؛ الحراجة مجتمع شجر (sihah)؛ الحراج غياض من شجر السلم ملتفة (tahdhib)؛ أصل الحرج والحراج مجتمع الشيئين (mufradat)؛ احرنجم القوم إذا اجتمعوا (maqayis) (also H13.8)
+  - evidence: Luna (same): The women are heard as a gathered collective.
+- **H8.12** [judged] ر و د B008 «genc kiz veya genc ve guzel kadin» الجارية الرود الشابة — word يُرِيدُ (2 dictionaries); source: جارية رود شابة (maqayis)؛ الرؤدة والرأدة بالهمز: الشابة الحسنة (sihah)؛ وتكبير رويد رود (maqayis) (also L13.7)
+  - evidence: Luna (part): The broad group of women can be heard with a particular young woman in view. The rare sense gives the collective noun one concrete member.
+- **H8.13** [judged] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word فَٱمْسَحُوا۟ (4 dictionaries); source: مسحها جامعها (maqayis)؛ مسح المرأة جامعها (sihah)؛ المسيح الكثير الجماع وكذلك الماسح يقال مسحها أي جامعها (tahdhib)؛ كني عن الجماع بالمسح (mufradat) (also L10.13, L13.2, L17.6)
+  - evidence: Luna (complement): The rare sexual sense of wiping takes women as the intimate counterpart. The unusual sense is heard directly against the verse’s categorical object.
+- **H8.14** [judged] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H8.13 (also L10.14, L13.3, L17.7)
+  - evidence: Luna (complement): The rare intercourse sense meets the word for women as its human counterpart. The pair makes the otherwise ritual verb carry an intimate image.
+- **H8.15** [judged] م و ه B004 «üreme sıvısını dişinin döl yatağına bırakma» ماء الفحل في الرحم — word مَآءً (2 dictionaries); source: as H5.23 (also H5.23, L7.13)
+  - evidence: Luna (complement): The contact clause can carry a reproductive echo without narrowing its broader wording.
+- surah ayat these members touch (chain material): 5:5 (ج ع ل B009) → 5:12 (ج ع ل B009, ر و د B008, ق و م B001) → 5:16 (ص ع د B006) → 5:20 (ج ع ل B009) → 5:85 (ر و د B008) → 5:89 (ق و م B001) → 5:109 (ح ر ج B001) → 5:119 (ر و د B008)
+
+### H9 بِوُجُوهِكُمْ — 11 roots converge
+Plain sense of بِوُجُوهِكُمْ: yüz ve bir şeyin öne bakan yanı (الوجه والمستقبل); yön ve hedef; o yöne sevk etme veya yolu belli etme (الجهة والوجهة)
+- **H9.1** [dictionary] ج د د B005 «belirgin şerit veya ana yol» طرائق وخطط ظاهرة — word تَجِدُوا۟ (echo root, sound family only; 6 dictionaries); source: as H6.1 (also H6.1)
+  - evidence: lex/src: وجه → root و ج ه
+- **H9.2** [dictionary] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.67 (also H1.67, H2.70, H6.2, L4.2, L6.1, L12.3)
+  - evidence: lex/image: وجه → root و ج ه || Luna (image): The face touched in tayammum meets the image of the earth’s face.
+- **H9.3** [dictionary] ح ر ج B007 «zayıf ya da uzun gövdeli dişi deve» الناقة الضامرة والطويلة — word حَرَجٍ (3 dictionaries); source: as H1.13 (also H1.13, H2.13, H3.23, H6.3)
+  - evidence: lex/src: وجه → root و ج ه || Luna (image): The camel stretched along the earth’s face echoes the faces wiped with earth.
+- **H9.4** [dictionary] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H1.70, H2.24, H6.4, L4.14, L7.5, L16.5)
+  - evidence: lex/src: وجه → root و ج ه || Luna (image): The face touched by earth is heard against the defect that turns the gaze away.
+- **H9.5** [dictionary] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H2.25, H6.5, L4.15, L7.6, L16.6)
+  - evidence: lex/src: وجه → root و ج ه || Luna (image): The face remains the place where the defect image is staged. In tayammum, contact with the clean surface still turns attention to the face.
+- **H9.6** [dictionary] س ف ر B002 «aydınlanıp belirginleşme» إسفار الضوء والوجه — word سَفَرٍ (5 dictionaries); source: as H3.114 (also H3.114, H6.6, L1.14, L4.18)
+  - evidence: lex/image: وجه → root و ج ه || Luna (image): The face retained in tayammum is heard in the light of the brightening sense. Even the reduced rite presents the face as a surface made clear.
+- **H9.7** [dictionary] ص ع د B002 «yola çıkıp arazide ilerleme» إصعاد في البلاد والوجوه — word صَعِيدًا (5 dictionaries); source: as H3.46 (also H3.46, H16.3, L4.1, L9.4)
+  - evidence: lex/image: وجوه → root و ج ه || lex/src: مستقبل names the plain image of بِوُجُوهِكُمْ || Luna (complement): The journey through open land meets the face turned toward a direction. The face gives the movement a visible forward bearing.
+- **H9.8** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.75, H6.7, H17.4, L4.23)
+  - evidence: lex/image: وجه → root و ج ه || Luna (opposite): The face retained in the earth-wiping rite is heard against an image of a face erased on one side. The act of wiping here serves a rite of purification rather t
+- **H9.9** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.76, H6.8, H17.5, L4.24, L13.11)
+  - evidence: lex/image: وجه → root و ج ه || Luna (part): The rare sense concerns a face partly erased, and the tayammum command touches the face directly. The body part in the command is the site named by the rare ima
+- **H9.10** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H2.53, H3.77, H4.24, H6.9)
+  - evidence: lex/src: وجه → root و ج ه || Luna (image): The faces touched with clean earth can be pictured as bearing a trace of beauty. The rite’s contact becomes more than removal: it leaves the face as the place w
+- **H9.11** [dictionary] م س ح B006 «güzellik ve soyluluk belirtisi» مسحة الحسن والملك والكرم — word فَٱمْسَحُوا۟ (5 dictionaries); source: as H1.51 (also H1.51, H3.78, H6.10)
+  - evidence: lex/src: وجه → root و ج ه || Luna (image): The face becomes the place where the rite leaves its mark of beauty. Wiping it can be heard as a touch that adorns the worshipper.
+- **H9.12** [dictionary] م و ه B006 «belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi» رونق كالماء في الوجه والكلام والثمر — word مَآءً (3 dictionaries); source: as H5.25 (also H5.25, H6.11, L2.23, L4.27, L5.19)
+  - evidence: lex/image: وجه → root و ج ه || Luna (image): The face touched in tayammum is imagined with a water-like brightness.
+- **H9.13** [dictionary] ي م م B002 «toprakla namaz temizliği» التيمم للصلاة بمسح الوجه واليدين بالتراب — word فَتَيَمَّمُوا۟ (1 dictionaries); source: as H1.86 (also H1.86, H2.67, H6.26, L7.14, L10.2)
+  - evidence: lex/image: وجه → root و ج ه || Luna (part): The face is one of the body parts included in tayammum. The command preserves this focal surface when water is unavailable.
+- **H9.14** [judged] ج ن ب B005 «yanında yönlendirerek götürme» التجنيب قيادة شيء إلى الجنب — word جُنُبًا (6 dictionaries); source: as H3.110 (also H3.110, L4.3)
+  - evidence: Luna (image): The forward-facing person can be pictured with a guide beside them. Direction and side-guidance combine in a small image of being led toward a goal.
+- **H9.15** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H2.76, H6.34, L12.8)
+  - evidence: Luna (image): A smooth, bare plain is brought into contact with the face in the substitute rite. The face and the earth surface meet as two exposed planes in a single wiping 
+- **H9.16** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H1.77, H6.35, L4.25, L12.9)
+  - evidence: Luna (image): The face meets an image of bare, even ground. The wiping rite brings two smooth surfaces together in one picture.
+- **H9.17** [judged] م و ه B005 «başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme» كسوة المعدن بماء الذهب أو الفضة — word مَآءً (3 dictionaries); source: as H1.52 (also H1.52, H2.54, H3.84, H5.24, L4.26)
+  - evidence: Luna (image): The face touched in tayammum is heard as an outward surface that can display or hide what is beneath.
+- **H9.18** [judged] و ج ه B007 «günün başı, ilk saatleri» وجه النهار وصدره — word وُجُوهَكُمْ (3 dictionaries); source: as H6.16 (also H6.17, L1.28)
+  - evidence: Luna (same): Both uses of face can name what is foremost or facing outward. The first hours of the day and the fronts of the body share that image of a face.
+- **H9.19** [judged] و ج ه B013 «yüzüne vurma ve yüzüne vurulmuş olma» ضرب الوجه — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H1.81 (also H6.20, T11)
+  - evidence: Luna (part): The face is the part that receives the blow. The second face-word names the very surface implicated in the rare sense.
+- **H9.20** [judged] و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H1.82 (also H1.82, H3.97, H11.14, T12)
+  - evidence: Luna (image): The washed face is the public, outward surface. Beside the rare two-faced person whose outside conflicts with the heart, it invites an image of outward cleansin
+- **H9.21** [judged] ي د ي B008 «önünde ya da hemen öncesinde» بين اليَدين — word وَأَيْدِيكُم (2 dictionaries); source: بين يدي الساعة أهوال أي قدامها (sihah)؛ بين يديك كذا لكل شيء أمامك (tahdhib)؛ يثور الرهج بين يدي المطر ويهيج السباب بين يدي القتال (tahdhib) (also L1.29, L4.30)
+  - evidence: Luna (image): In the earth rite, the hands and face occupy one forward-facing plane.
+- **H9.22** [judged] ي د ي B008 «önünde ya da hemen öncesinde» بين اليَدين — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H9.21 (also L4.31)
+  - evidence: Luna (same): The hand’s “before” and the face’s forward-facing position echo each other. The pair gives the wiping action a front-facing image.
+- surah ayat these members touch (chain material): 5:2 (ي د ي B008) → 5:17 (ي د ي B008) → 5:21 (ر د د B008) → 5:24 (م و ه B005) → 5:33 (و ج ه B015, ي د ي B008) → 5:45 (م س ح B004) → 5:48 (ي د ي B008) → 5:54 (ر د د B008) → 5:60 (م س ح B009) → 5:66 (ج د د B005, و ج ه B015) → 5:78 (ر د د B008) → 5:83 (م س ح B004) → 5:88 (ي م م B002) → 5:100 (ي م م B002) → 5:101 (ج د د B005, و ج ه B015) → 5:106 (ر د د B008) → 5:108 (ج د د B007, س ف ر B002, ص ع د B002, م س ح B004, م و ه B006, ي م م B002)
+
+### H10 وَأَيْدِيكُم — 11 roots converge
+Plain sense of وَأَيْدِيكُم: el ve elin uğradığı bedensel durumlar (اليَد الجارحة); güç, yeterlik ve güçlendirme (اليَد القوّة)
+- **H10.1** [dictionary] ء ي د B001 «güç ve güçlendirme» قوة مؤيدة — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: أيده الله أي قواه الله (maqayis)؛ والسماء بنيناها بأيد فهذا معنى القوة (maqayis)؛ الأيد أي القوة الشديدة (mufradat)؛ يؤيد بنصره أي يكثر تأييده (mufradat)؛ له أيد ومنه قيل للأمر العظيم مؤيد (mufradat) (also L1.4)
+  - evidence: lex/image: قوا names the plain image of وَأَيْدِيكُم || Luna (same): The repeated hands can be heard as bodily limbs and as strength. The second mention echoes the first while making their force audible.
+- **H10.2** [dictionary] ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word قُمْتُمْ (4 dictionaries); source: القيامة يوم البعث يقوم الخلق بين يدي القيوم (ayn)؛ يوم القيامة معروف (sihah)؛ القيامة يوم البعث يوم يقوم فيه الخلق بين يدي الحي القيوم (tahdhib)؛ القيامة عبارة عن قيام الساعة؛ يوم يقوم الناس لرب العالمين (mufradat) (also L14.9, L18.5)
+  - evidence: lex/src: يدي → root ي د ي
+- **H10.3** [dictionary] و ج د B004 «üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak» وجدان الحزن والمحبة — word تَجِدُوا۟ (4 dictionaries); source: الوجد من الخزن (ayn)؛ الوجد: الحب؛ وجدت به أجد وجدا (jamhara)؛ وجد في الحزن وجدا؛ توجدت لفلان أي حزنت له (sihah)؛ وجود بقوة الشهوة؛ يعبر عن الحزن والحب بالوجد (mufradat) (also H18.6, L3.2, L11.10)
+  - evidence: lex/src: بقوا names the plain image of وَأَيْدِيكُم
+- **H10.4** [judged] ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: الإياد كل حاجز الشيء يحفظه (maqayis)؛ إياد الشيء ما يقيه (mufradat) (also H11.6, L8.2, T5)
+  - evidence: Luna (image): The bodily hands can also be heard as guarding hands. Their repeated mention turns the limb into an image of protection.
+- **H10.5** [judged] ت م م B003 «sert ve saglam» الشيء الصلب الشديد — word وَلِيُتِمَّ (3 dictionaries); source: التميم أيضا الشيء الصلب (maqayis)؛ التميم الشديد (sihah)؛ التميم الصلب (tahdhib)؛ التميم الطويل (tahdhib) (also L3.4)
+  - evidence: Luna (same): Hands as bodily power echo the rare branch's strength. The substitute rite still centers the agency of the hands.
+- **H10.6** [judged] ر ج ل B001 «bacak uzvu» الرِّجل العضو — word وَأَرْجُلَكُمْ (5 dictionaries); source: as H7.7 (also H7.7, L3.6, L15.3)
+  - evidence: Luna (same): The substitute rite again names hands beside the rare sense of feet as bodily limbs. Both belong to the body whose contact is reduced in tayammum.
+- **H10.7** [judged] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H2.42, H3.54, H4.16, H5.16, L3.8)
+  - evidence: Luna (part): The hands become the instruments through which the selected medium is applied. Purifying agency and bodily agency meet in the same act.
+- **H10.8** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قُمْتُمْ (1 dictionaries, sole attestation); source: as H3.115 (also H3.115, L2.20, L3.10)
+  - evidence: Luna (part): The hands wiped in tayammum are possible places of bodily pain.
+- **H10.9** [judged] ك ع ب B007 «bir şeyi doldurmak» ملء الشيء حتى يتمتلئ — word ٱلْكَعْبَيْنِ (2 dictionaries); source: يقال كعبت الشيء إذا ملأته تكعيبا (ayn)؛ كعبت الشيء تكعيبا إذا ملأته (tahdhib) (also H12.12, L3.12, L17.5)
+  - evidence: Luna (image): The tayammum hand is pictured as filled to its measure.
+- **H10.10** [judged] ك و ن B004 «boyun eğme» الخضوع بالاستكانة — word كُنتُم (1 dictionaries, sole attestation); source: الاستكانة الخضوع (sihah) (also L3.13, L11.9)
+  - evidence: Luna (opposite): The hands’ capacity is set against the state of surrender. The two meanings place human agency beside its yielding.
+- **H10.11** [judged] م س ح B003 «kılıçla vurup kesme» القطع والضرب بالسيف — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H7.11 (also H7.11, L3.14)
+  - evidence: Luna (image): The hand used in the substitute rite is shadowed by the rare image of a sword-cut hand. Even the reduced wiping procedure retains an unsettling bodily vulnerabi
+- **H10.12** [judged] م س ح B003 «kılıçla vurup kesme» القطع والضرب بالسيف — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H7.11 (also H7.12, L3.15, L13.10)
+  - evidence: Luna (opposite): The same hands that are wiped with earth can be imagined as cut by a sword. The violent rare sense stands against the gentle act of tayammum.
+- **H10.13** [judged] م س ح B017 «satışta el sıkışma» المصافحة في البيع — word وَٱمْسَحُوا۟ (2 dictionaries); source: تماسح القوم إذا تبايعوا فتصافحوا وتصافقوا (jamhara)؛ تماسح القوم إذا تبايعوا فتصافقوا (tahdhib) (also L3.17, L13.15)
+  - evidence: Luna (part): The hands touched by earth in the substitute rite are also the hands that could clasp in a sale. A simple limb carries both ritual and social contact.
+- **H10.14** [judged] م س ح B017 «satışta el sıkışma» المصافحة في البيع — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H10.13 (also L3.18, L8.10, L13.16)
+  - evidence: Luna (part): The hands in tayammum can also evoke hands joined to seal a bargain. A bodily act of purification briefly carries the image of a binding agreement.
+- **H10.15** [judged] و ج د B003 «varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak» السعة والجدة والغنى — word تَجِدُوا۟ (4 dictionaries); source: الوجدان والجدة من قولك وجدت الشيء أي أصبته (ayn)؛ وجدت في المال جدة ووجدا ووجدا؛ الواجد الغني (jamhara)؛ وجد في المال وجدا ووجدا وجدة أي استغنى؛ أوجده أي أغناه؛ آجدني بعد ضعف أي قواني (sihah)؛ يعبر عن التمكن من الشيء با… (also L2.24, L3.19, L17.8)
+  - evidence: Luna (same): The hands in tayammum retain an echo of capacity and power.
+- **H10.16** [judged] و ج ه B010 «doğumda ellerin veya ön ayakların önce çıkması» الولادة باليدين أولا — word بِوُجُوهِكُمْ (3 dictionaries); source: as H3.119 (also H3.119, L3.22)
+  - evidence: Luna (part): The hands in the substitute rite can carry the image of hands that lead at birth. The rare sense adds an image of emergence to the act of purification.
+- **H10.17** [judged] و ج ه B010 «doğumda ellerin veya ön ayakların önce çıkması» الولادة باليدين أولا — word وُجُوهَكُمْ (3 dictionaries); source: as H3.119 (also H3.120, L3.23)
+  - evidence: Luna (image): The hands that lead the birth image reappear as hands used in the substitute rite. Their first emergence is echoed in their later ritual use.
+- **H10.18** [judged] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيَكُمْ (4 dictionaries); source: as H3.99 (also H3.99, H15.9, L2.1)
+  - evidence: Luna (part): The bodily hand becomes the means through which a gift reaches someone. The repeated hand word joins the limb to the favor it can deliver.
+- **H10.19** [judged] ي د ي B005 «egemenlik ve buyurma gücü» اليَد السلطان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H6.24 (also H6.25, H7.18, L6.14)
+  - evidence: Luna (same): The hand is heard both as a limb and as the power that commands. The repeated word lets bodily agency carry the sense of authority.
+- **H10.20** [judged] ي د ي B006 «boyun eğme, bağlılık ve güvence üstlenme» اليَد المستسلمة — word وَأَيْدِيَكُمْ (3 dictionaries); source: عن يد أي عن ذلة واستسلام (sihah)؛ اليد الطاعة واليد الاستسلام (tahdhib)؛ هذه يدي لك (tahdhib)؛ يدي لك رهن بكذا أي ضمنت وكفلت (tahdhib)؛ خلع فلان يده عن الطاعة (tahdhib) (also L8.13)
+  - evidence: Luna (image): The bodily hand becomes the very limb that can be pledged or surrendered. The repeated word makes allegiance tangible.
+- **H10.21** [judged] ي د ي B007 «elden ele verme, peşin ödeme ve iki fiyatlı satış» اليَد المناولة — word وَأَيْدِيَكُمْ (2 dictionaries); source: ياديت فلانا جازيته يدا بيد (sihah)؛ أعطيته مياداة أي من يدي إلى يده (sihah)؛ عن يد نقدا عن ظهر يد ليس بنسيئة (sihah;tahdhib)؛ ابتعت الغنم باليدين أي بثمنين مختلفين (sihah;tahdhib)؛ باع غنمه اليدين أن يسلمها بيد ويأخذ ثم… (also H15.19, L2.26)
+  - evidence: Luna (part): The body’s hands are the means for a hand-to-hand transfer. The repeated word joins the limb to its role in exchange.
+- **H10.22** [judged] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.61 (also H1.62, H2.64, H3.102, H12.14, L13.20)
+  - evidence: Luna (image): The hand appears both as a bodily limb and as the agent to whom deeds are attributed. The repeated word brings personal responsibility into the ritual body.
+- **H10.23** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.84 (also H1.84, H2.79, H7.19, L13.21)
+  - evidence: Luna (same): The body’s hand and an object’s “hand” share the image of an end or extension. The repeated word lets the literal limb illuminate the extended part.
+- **H10.24** [judged] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H1.63 (also H1.64, H2.66, H3.106, L1.31, L2.30)
+  - evidence: Luna (image): The bodily hand becomes an image of help and protection. The repeated mention makes the hand both the limb and the source of support.
+- surah ayat these members touch (chain material): 5:1 (ي د ي B003) → 5:2 (ت م م B003, ي د ي B016) → 5:3 (ي د ي B003) → 5:4 (ء ي د B002, ي د ي B009) → 5:5 (و ج ه B010, ي د ي B013) → 5:7 (ء ي د B002, ي د ي B003) → 5:8 (ء ي د B002) → 5:11 (ي د ي B003) → 5:12 (ء ي د B002, ق و م B013, ي د ي B003, ي د ي B013) → 5:14 (ي د ي B013) → 5:21 (ي د ي B009) → 5:27 (و ج ه B010) → 5:31 (ق و م B013) → 5:32 (ي د ي B009) → 5:33 (ت م م B003) → 5:34 (و ج ه B010) → 5:38 (ي د ي B009) → 5:39 (ي د ي B016) → 5:45 (ي د ي B009) → 5:48 (ر ج ل B001, ي د ي B016) → 5:54 (و ج د B003) → 5:65 (ء ي د B002, ي د ي B003) → 5:66 (ي د ي B005) → 5:72 (ء ي د B002) → 5:80 (ي د ي B009) → 5:82 (ت م م B003) → 5:98 (ت م م B003) → 5:110 (ء ي د B001) → 5:111 (ي د ي B016)
+
+### H11 جُنُبًا — 10 roots converge
+Plain sense of جُنُبًا: bedenin veya şeyin yanı ve bitişik çevresi (الجنب جانب الجسد وناحية الشيء)
+- **H11.1** [dictionary] ر ف ق B006 «hayvanda dirseğin gövdeye göre sapmış duruşu» انفتال المرفق عن الجنب — word ٱلْمَرَافِقِ (4 dictionaries); source: الرفق انفتال عن الجنب ناقة رفقاء وجمل أرفق (maqayis)؛ الرفق انفتال المرفق عن الجنب وناقة رفقاء وجمل أرفق (ayn;sihah;tahdhib)؛ جمل مرفاق إذا كان مرفقه يصيب جنبه (tahdhib) (also L13.5, L15.5, T8)
+  - evidence: lex/image: جنب → root ج ن ب || Luna (opposite): The elbow turns away from the flank, while junub names the side itself. The pair sets departure from the side against the side’s presence.
+- **H11.2** [dictionary] ص ل و B005 «sırtın ortası ve kuyruk kökünün iki yanı» الصَّلا من الظهر والجنب — word ٱلصَّلَوٰةِ (2 dictionaries); source: الصلا وسط الظهر لكل ذي أربع وللناس (ayn); كل أنثى إذا ولدت انفرج صلاها (ayn); الصلوين وهما مكتنفا الذنب من الناقة وغيرها (tahdhib); أصلت الناقة فهي مصلية إذا وقع ولدها في صلاها وقرب نتاجها (tahdhib) (also L4.20)
+  - evidence: lex/image: جنب → root ج ن ب || Luna (same): The rare body sense of صَلا lies across the back and its sides. جُنُبًا as the body’s side meets that anatomical region in a shared flank image.
+- **H11.3** [dictionary] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word فَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H3.79, H17.6, L2.22, L15.12)
+  - evidence: lex/image: جسد names the plain image of جُنُبًا
+- **H11.4** [dictionary] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word وَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H3.80, H17.7, L15.13)
+  - evidence: lex/image: جسد names the plain image of جُنُبًا
+- **H11.5** [dictionary] ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة — word نِعْمَتَهُۥ (4 dictionaries); source: as H4.26 (also H4.26, H14.13)
+  - evidence: lex/src: جنوب → root ج ن ب || rel/near_synonym: ج ن ب B006 (genel güney rüzgarı)
+- **H11.6** [judged] ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: as H10.4 (also H10.4, L8.2, T5)
+  - evidence: Luna (image): The body’s side appears beside a protecting barrier. The pair gives ritual distance the image of a flank that needs guarding.
+- **H11.7** [judged] ج د د B006 «su kıyısı» حافة الماء وساحله — word تَجِدُوا۟ (echo root, sound family only; 4 dictionaries); source: as H1.5 (also H1.5, H2.5, H3.10, H4.1, H5.1)
+  - evidence: Luna (same): The bodily state of junub meets the image of being beside or at the edge.
+- **H11.8** [judged] ر ج ل B005 «bir bacağı beyaz hayvan» بياض رجل الدابة — word وَأَرْجُلَكُمْ (5 dictionaries); source: الأرجل من الدواب الذي ابيض أحد رجليه (maqayis)؛ الرجلة أيضا مصدر الأرجل من الدواب بإحدى رجليه بياض (ayn)؛ فرس أرجل والأنثى رجلاء إذا كان في إحدى رجليه بياض (jamhara)؛ الأرجل من الخيل الذي في إحدى رجليه بياض (sihah)؛ الأ… (also H17.2)
+  - evidence: Luna (image): The rare white-legged animal gives a visible mark on one side, beside جنب’s sense of the body’s side. The two together make a picture of a bodily flank distingu
+- **H11.9** [judged] ر د د B002 «yönünden çevirip engelleme» صرف الشيء ودفعه ومنعه — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: رده عن وجهه يرده ردا ومردا صرفه (sihah)؛ رده عن الأمر ولده أي صرفه عنه برفق (tahdhib)؛ لا راد لفضله أي لا دافع ولا مانع له وعذاب غير مردود (mufradat) (also H12.9, L4.11, L11.4)
+  - evidence: Luna (same): The sense of turning something away echoes the state of being apart.
+- **H11.10** [judged] ر ف ق B002 «yolculukta birlikte giden kişi ya da topluluk» الصحبة والمرافقة — word ٱلْمَرَافِقِ (4 dictionaries); source: as H3.112 (also H3.112, H7.2, H16.2)
+  - evidence: Luna (same): A companion is one who stays beside another, and junub names a side. The pair meets in the image of being alongside.
+- **H11.11** [judged] ص ل ي B006 «sırtın ortası ve kuyruk dibinin iki yanı» الصَّلا موضع الظهر والذنب — word ٱلصَّلَوٰةِ (echo root, sound family only; 2 dictionaries); source: الصلا وسط الظهر لكل ذي أربع وللناس (ayn)؛ انفرج صلاها (ayn)؛ الصلوين مكتنفا الذنب (tahdhib)؛ أصلت الناقة فهي مصلية إذا وقع ولدها في صلاها (tahdhib)
+  - evidence: Luna (same): The rare word names the body's flank, and junub names a state associated with being at the side or apart. The bodily-side image is repeated within the verse's i
+- **H11.12** [judged] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word وُجُوهَكُمْ (6 dictionaries); source: as H3.91 (also H3.91, H6.12, H12.5, L9.14, L20.6)
+  - evidence: Luna (opposite): Face-to-face confrontation turns the front toward another, while the flank is the side. The verse's face and junub can be heard as opposed bodily orientations.
+- **H11.13** [judged] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word بِوُجُوهِكُمْ (6 dictionaries); source: as H3.91 (also H3.92, H4.27, H6.13, H12.6, L9.15, L20.7)
+  - evidence: Luna (opposite): Directly facing something is set against being at its side. The pair gives the verse a clear spatial turn from flank to front.
+- **H11.14** [judged] و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H1.82 (also H1.82, H3.97, H9.20, T12)
+  - evidence: Luna (part): A side is one face of a two-sided object. The verse's bodily side can be heard beside the object's paired faces.
+- surah ayat these members touch (chain material): 5:3 (م س ح B015) → 5:4 (ء ي د B002, ن ع م B009) → 5:7 (ء ي د B002) → 5:8 (ء ي د B002) → 5:12 (ء ي د B002, ص ل ي B006) → 5:18 (ص ل و B005, ص ل ي B006) → 5:26 (ص ل و B005, ص ل ي B006) → 5:27 (ج د د B006, ص ل و B005) → 5:31 (و ج ه B003) → 5:33 (و ج ه B015) → 5:48 (ر ف ق B002) → 5:49 (ص ل و B005, ص ل ي B006) → 5:52 (و ج ه B003) → 5:55 (ص ل ي B006) → 5:58 (ص ل ي B006) → 5:62 (و ج ه B003) → 5:65 (ء ي د B002) → 5:66 (و ج ه B015) → 5:72 (ء ي د B002) → 5:90 (ن ع م B009) → 5:96 (ج د د B006) → 5:101 (و ج ه B015)
+
+### H12 لِيَجْعَلَ — 12 roots converge
+Plain sense of لِيَجْعَلَ: bir şeyi yapıp var etme (إحداث الشيء وصنعه)
+- **H12.1** [dictionary] ج د د B004 «yeni olma ve yenilenme» جِدّة وحدوث بعد قطع — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: ثوب جديد؛ سمي كل شيء لم تأت عليه الأيام جديدا؛ الليل والنهار الجديدين والأجدين (maqayis)؛ الجدة مصدر الجديد؛ الجديدان الليل والنهار (ayn)؛ صار جديدا؛ تجدد الشيء صار جديدا؛ الجديدان والأجدان الليل والنهار (sihah)؛ ثوب جديد جد حديثا أي قطع؛ الجدة مصدر الجديد؛ الجديدان والأجدان الليل والنهار (tahdhib)؛ ثوب جديد أصله المقطوع؛ جعل لكل ما أحدث إنشاؤه؛ الجديدان والأجدان (mufradat)
+  - evidence: lex/src: جعل → root ج ع ل || Luna (same): The verse says God does not make hardship, but intends purification and the completion of favor. Heard together, making is a bringing of something new into bein
+- **H12.2** [dictionary] ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word قُمْتُمْ (5 dictionaries); source: هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقومون بها؛ قوام الجسم تمامه؛ قوام كل شيء ما استقام به (tahdhib)؛ القيام والقوام اسم لما يقوم به الشيء؛ جعلها مما يمسككم؛ قياما للناس أي قواما لهم يقوم به معاشهم ومعادهم (mufradat)؛ قوام الدين والحق أي به يقوم (maqayis) (also L3.9, L17.3)
+  - evidence: lex/src: جعل → root ج ع ل
+- **H12.3** [dictionary] م و ه B003 «su verme, içine su koyma ve sulanmış hale getirme» إيصال الماء بالسقي والصب — word مَآءً (3 dictionaries); source: as H3.83 (also H3.83, H5.22)
+  - evidence: lex/src: جعل → root ج ع ل
+- **H12.4** [dictionary] ن ع م B007 «devekuşuna benzetilerek ad verilen şeyler» ما سمي نعامة تشبيها بالهيئة — word نِعْمَتَهُۥ (4 dictionaries); source: as H1.55 (also H1.55, H2.57, H3.87, H7.6)
+  - evidence: lex/src: تجعل → root ج ع ل
+- **H12.5** [dictionary] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word وُجُوهَكُمْ (6 dictionaries); source: as H3.91 (also H3.91, H6.12, H11.12, L9.14, L20.6)
+  - evidence: lex/src: جعلت → root ج ع ل
+- **H12.6** [dictionary] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word بِوُجُوهِكُمْ (6 dictionaries); source: as H3.91 (also H3.92, H4.27, H6.13, H11.13, L9.15, L20.7)
+  - evidence: lex/src: جعلت → root ج ع ل
+- **H12.7** [judged] ج ي ء B005 «» الإلجاء والاضطرار — word جَآءَ (0 dictionaries); source:  (also L6.3, L11.3)
+  - evidence: Luna (part): The denied making of hardship is heard as the imposition of a necessity. The verse says that burden is not something God wills to force upon the believers.
+- **H12.8** [judged] ر د د B002 «yönünden çevirip engelleme» صرف الشيء ودفعه ومنعه — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H11.9 (also L4.10)
+  - evidence: Luna (opposite): The denied making of hardship sounds like an intention to repel it.
+- **H12.9** [judged] ر د د B002 «yönünden çevirip engelleme» صرف الشيء ودفعه ومنعه — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H11.9 (also H11.9, L4.11, L11.4)
+  - evidence: Luna (opposite): Preventing hardship is set against bringing it into being.
+- **H12.10** [judged] ش ك ر B004 «körpe sürgün ve ona benzetilen yeni oluşum» خروج الشكير والنبات الغض — word تَشْكُرُونَ (5 dictionaries); source: الأصل الثالث الشكير من النبات (maqayis)؛ الشكير من النبات ما ينبت من ساق الشجر قضبان غضة (ayn)؛ شكرت الشجرة خرج منها الشكير (sihah)؛ الشكير من الشعر والنبات ما ينبت (tahdhib)؛ الشكير من الفرخ الزغب (tahdhib)؛ وشكير كثير… (also L5.2)
+  - evidence: Luna (part): Making something can be pictured as bringing forth a tender shoot. The small fresh growth becomes one visible result of creation.
+- **H12.11** [judged] ص ل و B004 «yakalamak için kurulan tuzak» الشرك المنصوبة — word ٱلصَّلَوٰةِ (3 dictionaries); source: مصالي هي الأشراك واحدتها مصلاة (maqayis); المصلاة أن تنصب شركا ونحوه ليقع فيه شيء فيصطاد (ayn); المصالي شبيهة بالشرك تنصب للطير وغيرها (tahdhib); صليت لفلان إذا عملت له في أمر تريد أن توقعه في هلكة (tahdhib) (also H18.2, L2.15)
+  - evidence: Luna (image): The rare sense of prayer as a snare laid to catch meets the verb for making hardship. Together they let the no-hardship clause reject the image of worship as a 
+- **H12.12** [judged] ك ع ب B007 «bir şeyi doldurmak» ملء الشيء حتى يتمتلئ — word ٱلْكَعْبَيْنِ (2 dictionaries); source: as H10.9 (also H10.9, L3.12, L17.5)
+  - evidence: Luna (part): Filling is one way of making something complete.
+- **H12.13** [judged] و ج د B002 «varlığa gelme, var olma ve var etme» ثبوت الشيء في الوجود — word تَجِدُوا۟ (2 dictionaries); source: وجد الشيء عن عدم فهو موجود (sihah)؛ أوجده الله (sihah)؛ الموجودات ثلاثة أضرب (mufradat) (also H13.11, L19.5, L21.3)
+  - evidence: Luna (same): The verse speaks of what God does not bring about and what He intends to bring about.
+- **H12.14** [judged] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.61 (also H1.62, H2.64, H3.102, H10.22, L13.20)
+  - evidence: Luna (same): What the hands do meets the act of making. The pair lets the denied making of hardship echo the deeds attributed to human hands.
+- **H12.15** [judged] ي د ي B015 «eli işe yatkın ve becerikli» اليَدِي الصنّاع — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H3.103 (also H3.103)
+  - evidence: Luna (part): A skilled hand makes or shapes something. The pair puts craft alongside the act of making.
+- **H12.16** [judged] ي د ي B015 «eli işe yatkın ve becerikli» اليَدِي الصنّاع — word وَأَيْدِيكُم (3 dictionaries); source: as H3.103 (also H3.104)
+  - evidence: Luna (part): The making of hardship is heard against the work of a skillful hand.
+- surah ayat these members touch (chain material): 5:4 (ي د ي B009) → 5:17 (ق و م B009) → 5:18 (ق و م B009) → 5:20 (ق و م B009) → 5:21 (ي د ي B009) → 5:31 (و ج ه B003) → 5:32 (ي د ي B009) → 5:38 (ي د ي B009) → 5:45 (ي د ي B009) → 5:52 (و ج ه B003) → 5:62 (و ج ه B003) → 5:73 (ش ك ر B004, و ج د B002) → 5:80 (ي د ي B009) → 5:89 (و ج د B002) → 5:110 (ص ل و B004)
+
+### H13 جَآءَ — 9 roots converge
+Plain sense of جَآءَ:  (المجيء والحصول)
+- **H13.1** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: as H1.29 (also H1.29, H2.31, H3.41)
+  - evidence: lex/src: جاء → root ج ي ء || Luna (part): A single arrival is one movement within a larger coming and going. The rare sense expands the moment of coming into a cycle of departure and return.
+- **H13.2** [dictionary] ر و د B004 «gidip gelme» التردد والاختلاف جيئة وذهابا — word يُرِيدُ (2 dictionaries); source: as H1.29 (also H1.30, H2.32, H3.42)
+  - evidence: lex/src: جاء → root ج ي ء || Luna (part): The arrival named here is one half of a coming-and-going motion. Its single arrival makes the broader movement concrete.
+- **H13.3** [dictionary] ص ل و B003 «ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma» العبادة المخصوصة — word ٱلصَّلَوٰةِ (4 dictionaries); source: الصلاة التي جاء بها الشرع من الركوع والسجود وسائر حدود الصلاة (maqayis); الصلاة واحدة الصلوات المفروضة (sihah); الصلاة من المخلوقين القيام والركوع والسجود والدعاء والتسبيح (tahdhib); الصلاة التي هي العبادة المخصوصة أصلها الدعاء (mufradat); إقامة الصلاة (mufradat) (also H15.16, L1.16, L9.5, L14.5)
+  - evidence: lex/src: جاء → root ج ي ء
+- **H13.4** [dictionary] ص ل و B006 «yarışta birincinin hemen ardındaki ikinci» تلو السابق في السباق — word ٱلصَّلَوٰةِ (3 dictionaries); source: قد صلى وجاء مصليا لأن رأسه يتلو الصلا الذي بين يديه (ayn); المصلى تالي السابق (sihah); السابق الأول والمصلي الثاني (tahdhib); يكون عند صلا الأول (tahdhib)
+  - evidence: lex/src: وجاء → root ج ي ء || Luna (same): The rare sense names the runner who comes in just behind the leader. جَآءَ names coming or arriving, and the rare sense gives that arrival a rank in the sequen
+- **H13.5** [dictionary] ص ل ي B001 «ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma» الصلاة عبادة لازمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 4 dictionaries); source: الصلاة التي جاء بها الشرع من الركوع والسجود (maqayis)؛ الصلاة واحدة الصلوات المفروضة (sihah)؛ الصلاة من المخلوقين القيام والركوع والسجود والدعاء والتسبيح (tahdhib)؛ الصلاة التي هي العبادة المخصوصة (mufradat) (also L1.18, L9.6, L14.7)
+  - evidence: lex/src: جاء → root ج ي ء
+- **H13.6** [dictionary] ص ل ي B007 «yarışta önderin hemen ardındaki ikinci at» المصلي يتلو السابق — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: as H1.37 (also H1.37, H2.39, H3.51)
+  - evidence: lex/src: وجاء → root ج ي ء || Luna (same): The second horse is the one that arrives after the leader. جَآءَ can therefore sound as an arrival within a sequence.
+- **H13.7** [judged] ج ن ب B003 «uzak durma veya uzaklaştırma» المجانبة إبعاد واعتزال وغربة — word جُنُبًا (6 dictionaries); source: الأصل الآخر البعد والجنابة (maqayis)؛ جنبته عن كذا فاجتنب أي تجنبه وجنبته أي دفعت عنه مكروها (ayn)؛ الجناب مصدر جانبته مجانبة وهو من المباعدة (jamhara)؛ جانبه وتجانبه وتجنبه واجتنبه كله بمعنى وجنبته الشيء أي نحيته عنه (… (also L7.1, L16.2, L18.2)
+  - evidence: Luna (opposite): Distance from a place or person is set against arrival. The clause can be heard as placing departure and coming into view together.
+- **H13.8** [judged] ح ر ج B001 «sıkıca toplanma ve iç içe geçme» التجمع والالتفاف — word حَرَجٍ (4 dictionaries); source: as H8.11 (also H8.11)
+  - evidence: Luna (image): The arrival can be heard as emerging from a tight, gathered place.
+- **H13.9** [judged] ر ج ل B008 «su akıntısı yatağı» رِجْلة الماء — word وَأَرْجُلَكُمْ (3 dictionaries); source: as H1.68 (also H1.68, H4.7, H5.7)
+  - evidence: Luna (image): The coming from low ground echoes water arriving in a hollow.
+- **H13.10** [judged] ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها — word نِعْمَتَهُۥ (3 dictionaries); source: as H1.57 (also H1.57, H2.59, H3.89, H15.7, L15.14)
+  - evidence: Luna (same): The rare sense describes coming to someone without a mount. جَآءَ says coming too, while leaving the mode of travel unstated.
+- **H13.11** [judged] و ج د B002 «varlığa gelme, var olma ve var etme» ثبوت الشيء في الوجود — word تَجِدُوا۟ (2 dictionaries); source: as H12.13 (also H12.13, L19.5, L21.3)
+  - evidence: Luna (same): The coming of one of you is heard as coming into presence.
+- **H13.12** [judged] و ج ه B014 «yanına gelen kişiyi geri çevirmek» الرد عن الوجه — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: as H3.121 (also H3.121, H6.22)
+  - evidence: Luna (opposite): The arrival of جَآءَ meets its reversal in the rare sense of turning a visitor back. The verse's coming and redirection form a sharp approach-and-refusal image
+- **H13.13** [judged] و ج ه B014 «yanına gelen kişiyi geri çevirmek» الرد عن الوجه — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H3.121 (also H6.23)
+  - evidence: Luna (opposite): جَآءَ names coming into presence; the rare sense sends the one who came back away. Arrival meets refusal at the threshold.
+- surah ayat these members touch (chain material): 5:1 (ص ل ي B007) → 5:12 (ص ل ي B001, ص ل ي B007) → 5:13 (و ج ه B014) → 5:14 (ر ج ل B008) → 5:18 (ر ج ل B008) → 5:23 (ن ع م B012) → 5:27 (ص ل ي B007) → 5:31 (ج ن ب B003) → 5:33 (ن ع م B012) → 5:46 (ص ل ي B007) → 5:48 (ر ج ل B008, ر و د B004, ص ل و B003, ص ل ي B001) → 5:51 (ر ج ل B008) → 5:55 (ص ل ي B001, ص ل ي B007) → 5:58 (ص ل ي B001, ص ل ي B007) → 5:66 (ن ع م B012) → 5:73 (و ج د B002) → 5:89 (و ج د B002) → 5:97 (ص ل و B003, ص ل ي B001) → 5:109 (ح ر ج B001)
+
+### H14 ٱلْمَرَافِقِ — 8 roots converge
+Plain sense of ٱلْمَرَافِقِ: yumuşak, incelikli ve becerikli davranış (اللين ولطافة الفعل)
+- **H14.1** [dictionary] ج ن ب B002 «yanında yakın bulunma ve eşlik etme» الجنب قرب ومجاورة على الجانب — word جُنُبًا (4 dictionaries); source: as H1.10 (also H1.10, H2.10, H3.16, H16.1)
+  - evidence: lex/src: لين names the plain image of ٱلْمَرَافِقِ
+- **H14.2** [dictionary] م س ح B019 «deve dirseğinin hafifçe sürtmesi» المس الخفيف بلا إدماء أو عرك — word وَٱمْسَحُوا۟ (2 dictionaries); source: إن لم يدمه قيل به ماسح (sihah)؛ الماسح من الضاغط إذا مسح المرفق الإبط من غير أن يعركه عركا شديدا (tahdhib) (also L6.12, L13.17)
+  - evidence: lex/src: مرفق → root ر ف ق || Luna (same): The elbow’s resonance with gentleness meets a rare description of pressure so light that it does not chafe. Both senses name restraint in bodily contact.
+- **H14.3** [dictionary] م س ح B019 «deve dirseğinin hafifçe sürtmesi» المس الخفيف بلا إدماء أو عرك — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H14.2 (also L6.13, L13.18)
+  - evidence: lex/src: مرفق → root ر ف ق || Luna (same): The rare sense makes gentleness a light rub that does not abrade. The named مَرَافِقِ thus carries both an elbow and a manner of gentle contact.
+- **H14.4** [dictionary] ن ع م B002 «yumuşamak, rahat yaşamak veya rahat yaşatmak» اللين والنعومة ورفاه العيش — word نِعْمَتَهُۥ (5 dictionaries); source: نعم الشيء صار ناعما لينا (sihah)؛ نعمة العيش حسنه وغضارته (tahdhib)؛ نعم فلان أولاده ترفهم (maqayis)؛ طعام ناعم وجارية ناعمة (mufradat)؛ فهو نعم ناعم بين المنعم (ayn) (also H15.3)
+  - evidence: lex/image: لين names the plain image of ٱلْمَرَافِقِ || Luna (same): Ritual care is voiced as gentleness as well as command. The elbow boundary lets the blessing’s softness appear in the handling of the body.
+- **H14.5** [judged] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: as H1.31 (also H1.31, H2.33, H3.43)
+  - evidence: Luna (same): Ease at the elbows is joined by a soft, unhurried pace. The boundary word gains a gentle manner resonance.
+- **H14.6** [judged] ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: as H1.31 (also H1.32, H2.34, H3.44)
+  - evidence: Luna (same): The gentleness of ٱلْمَرَافِقِ meets a slow, unhurried manner. The body is treated with care at the very boundary named by the word.
+- **H14.7** [judged] ص ل و B002 «başkası için iyilik dileme; esirgeme, övme ve değer verme» الدعاء والثناء والرحمة — word ٱلصَّلَوٰةِ (5 dictionaries); source: as H1.71 (also H1.71, H2.71, H5.29, H15.15, L2.14)
+  - evidence: Luna (same): The elbow boundary brings gentleness into the body’s preparation for prayer. The rare sense of prayer as mercy lets that careful handling feel like mercy in act
+- **H14.8** [judged] ص ل ي B002 «iyilik dileme; özneye göre esirgeme, övme veya aklama» الدعاء والبركة والرحمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: الصلاة وهي الدعاء (maqayis)؛ صلوات الرسول للمسلمين دعاؤه لهم وذكرهم (ayn)؛ الصلاة من الله تعالى الرحمة (sihah)؛ الصلاة من الملائكة دعاء واستغفار ومن الله سبحانه رحمة (tahdhib)؛ الصلاة الدعاء والتبريك والتمجيد (mufradat) (also H15.17, L2.16, L8.4)
+  - evidence: Luna (same): Prayer as divine mercy sounds beside gentle, easing conduct. Both make kindness the quality heard in the rite.
+- **H14.9** [judged] ط ي ب B008 «biriyle şakalaşıp hoşça takılmak» المطايبة مزاح — word طَيِّبًا (1 dictionaries, sole attestation); source: طايبه أي مازحه (sihah)
+  - evidence: Luna (same): Pleasant joking meets the sense of gentleness and skillful conduct. Both can describe a soft, agreeable way of dealing with others.
+- **H14.10** [judged] م ر ض B003 «hastaya özenle bakma» القيام على المريض — word مَّرْضَىٰٓ (5 dictionaries); source: as H1.50 (also H1.50, H2.52, H3.73, L1.23, L14.12)
+  - evidence: Luna (complement): Nursing the sick meets the gentle, skillful manner named by ٱلْمَرَافِقِ. The pair makes care feel attentive rather than merely procedural.
+- **H14.11** [judged] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H3.81 (also H3.81, L8.8, L10.15)
+  - evidence: Luna (opposite): False gentleness is set beside real gentleness. The verse's ease resonates with kindness that has no deception behind it.
+- **H14.12** [judged] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H3.81 (also H3.82, L8.9, L10.16)
+  - evidence: Luna (opposite): The elbow’s resonance with gentle, skillful conduct is set against a rare sense of counterfeit gentleness. The verse can distinguish real ease from a soft manne
+- **H14.13** [judged] ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة — word نِعْمَتَهُۥ (4 dictionaries); source: as H4.26 (also H4.26, H11.5)
+  - evidence: Luna (same): The elbow’s gentleness meets the soft breath of a mild, moist wind. The ritual’s bodily care acquires the feel of a breeze rather than a harsh demand.
+- surah ayat these members touch (chain material): 5:4 (ر و د B005, ن ع م B009) → 5:5 (ن ع م B002) → 5:12 (ص ل ي B002) → 5:27 (ج ن ب B002) → 5:41 (ر و د B005, م س ح B016) → 5:42 (م س ح B016) → 5:52 (ر و د B005) → 5:55 (ص ل ي B002) → 5:58 (ص ل ي B002) → 5:75 (ر و د B005, ن ع م B002) → 5:90 (ن ع م B009) → 5:95 (م ر ض B003, ن ع م B002) → 5:97 (م ر ض B003) → 5:103 (م س ح B016) → 5:111 (ص ل و B002, ص ل ي B002) → 5:114 (م ر ض B003)
+
+### H15 تَشْكُرُونَ — 7 roots converge
+Plain sense of تَشْكُرُونَ: İyiliği tanıyıp söz ve davranışla karşılık verme (عرفان النعمة وحمد المنعم)
+- **H15.1** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H3.32 (also H3.32, H4.8, H5.8, T2)
+  - evidence: rel/near_synonym: ش ك ر B003 (doluluk ve süt bolluğu) || Luna (complement): The abundance of provision makes gratitude a fitting response. The verse's closing thanks can be heard as answering a full measure of blessing.
+- **H15.2** [dictionary] ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H3.32 (also H3.33, H4.9, H5.9, T1)
+  - evidence: rel/near_synonym: ش ك ر B003 (doluluk ve süt bolluğu)
+- **H15.3** [dictionary] ن ع م B002 «yumuşamak, rahat yaşamak veya rahat yaşatmak» اللين والنعومة ورفاه العيش — word نِعْمَتَهُۥ (5 dictionaries); source: as H14.4 (also H14.4)
+  - evidence: lex/src: نعما names the plain image of تَشْكُرُونَ || Luna (complement): The favor becomes tangible as a life of ease and softness. Gratitude answers that received comfort by recognizing it as a gift.
+- **H15.4** [dictionary] ن ع م B003 «övgü ve beğeni bildirmek» مدح الشيء بنعم — word نِعْمَتَهُۥ (4 dictionaries); source: نعم ضد بئس (maqayis)؛ نعم وبئس فعلان ماضيان ... فنعم مدح وبئس ذم (sihah)؛ نعما ... المعنى نعم الشيء هي (tahdhib)؛ نعم كلمة تستعمل في المدح بإزاء بئس (mufradat)
+  - evidence: lex/src: نعما names the plain image of تَشْكُرُونَ || Luna (same): The ending sounds like praise answered by praise. Gratitude is not only recognition of a favor but a way of voicing approval and commendation.
+- **H15.5** [dictionary] ن ع م B005 «develer ve geniş anlamda otlayan evcil hayvanlar» مال الأنعام والإبل — word نِعْمَتَهُۥ (4 dictionaries); source: as H1.54 (also H1.54, H2.56, H3.86)
+  - evidence: lex/src: نعما names the plain image of تَشْكُرُونَ || Luna (complement): Livestock and camels become a concrete form of provision to recognize. The closing gratitude can thus answer the material wealth carried by the flock.
+- **H15.6** [dictionary] ن ع م B006 «devekuşu» النعام والنعامة الطائر — word نِعْمَتَهُۥ (4 dictionaries); source: النعامة معروفة لنعمة ريشها (maqayis)؛ النعامة من الطير يذكر ويؤنث والنعام اسم جنس (sihah)؛ النعام الظليم والنعامة الأنثى (tahdhib)؛ النعامة سميت تشبيها بالنعم في الخلقة (mufradat)
+  - evidence: lex/src: لنعما names the plain image of تَشْكُرُونَ
+- **H15.7** [dictionary] ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها — word نِعْمَتَهُۥ (3 dictionaries); source: as H1.57 (also H1.57, H2.59, H3.89, H13.10, L15.14)
+  - evidence: lex/src: نعما names the plain image of تَشْكُرُونَ
+- **H15.8** [dictionary] ن ع م B013 «birini göz sevinci saymak veya bunun için dua etmek» نعم الله بك عينا وقرة العين — word نِعْمَتَهُۥ (4 dictionaries); source: نعم ونعمى عين ونعمة عين أي قرة عين (maqayis)؛ نعمة العين قرتها ونعم عين ونعام عين ونعامة عين ونعمة عين ونعمى عين كله بمعنى (sihah)؛ نعمك الله عينا ونعم الله بك عينا ونعمى عين ونعام عين (tahdhib)؛ نعم الله بك عينا ونعم ونعمة عين ونعمى عين ونَعام عين (mufradat)
+  - evidence: lex/src: ونعما names the plain image of تَشْكُرُونَ || Luna (complement): The favor becomes something that gladdens the eye. Gratitude is the fitting response to that joy and its source.
+- **H15.9** [dictionary] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيَكُمْ (4 dictionaries); source: as H3.99 (also H3.99, H10.18, L2.1)
+  - evidence: lex/image: نعما names the plain image of تَشْكُرُونَ || Luna (complement): A freely given hand calls forth gratitude. The pair makes thanks the human answer to a gift.
+- **H15.10** [dictionary] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيكُم (4 dictionaries); source: as H3.99 (also H3.100, L2.2, L3.24)
+  - evidence: lex/image: نعما names the plain image of تَشْكُرُونَ || Luna (complement): A gift from the hand calls forth the community’s gratitude.
+- **H15.11** [judged] ء م ن B002 «dogru sayip kabul etme» تصديق يطمئن إليه القلب — word ءَامَنُوٓا۟ (4 dictionaries); source: as H1.2 (also H1.2, H2.2, H3.3, L14.1)
+  - evidence: Luna (same): Faith and gratitude are heard as two forms of acknowledgment. The close of the verse links trusting the divine promise with recognizing favor and responding to 
+- **H15.12** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.30, L4.12, L5.8, L14.3)
+  - evidence: Luna (opposite): Turning away from faith is set against grateful recognition of favor.
+- **H15.13** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.31, L4.13, L5.9, L14.4)
+  - evidence: Luna (opposite): The closing gratitude stands against a turning away from faith.
+- **H15.14** [judged] ر ف ق B009 «suyun dolu, yerinde duran ve kalıcı olması» الامتلاء والثبات — word ٱلْمَرَافِقِ (1 dictionaries, sole attestation); source: as H4.23 (also H4.23)
+  - evidence: Luna (complement): Abundance gives gratitude something to recognize. The pair makes thanks answer the image of fullness.
+- **H15.15** [judged] ص ل و B002 «başkası için iyilik dileme; esirgeme, övme ve değer verme» الدعاء والثناء والرحمة — word ٱلصَّلَوٰةِ (5 dictionaries); source: as H1.71 (also H1.71, H2.71, H5.29, H14.7, L2.14)
+  - evidence: Luna (same): Prayer as praise meets gratitude as praise and recognition. The verse’s ending can be heard as the response of thanks already contained in worship.
+- **H15.16** [judged] ص ل و B003 «ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma» العبادة المخصوصة — word ٱلصَّلَوٰةِ (4 dictionaries); source: as H13.3 (also H13.3, L1.16, L9.5, L14.5)
+  - evidence: Luna (part): Prayer gives gratitude a ritual form, while gratitude names the response to favor that follows. The verse’s final purpose lets worship and thanks complete one a
+- **H15.17** [judged] ص ل ي B002 «iyilik dileme; özneye göre esirgeme, övme veya aklama» الدعاء والبركة والرحمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: as H14.8 (also H14.8, L2.16, L8.4)
+  - evidence: Luna (same): Prayer as praise and gratitude meet in recognizing the giver. The final thanks can sound like the answer to blessing.
+- **H15.18** [judged] ي د ي B007 «elden ele verme, peşin ödeme ve iki fiyatlı satış» اليَد المناولة — word وَأَيْدِيكُم (2 dictionaries); source: as H10.21 (also L2.25)
+  - evidence: Luna (complement): Gratitude becomes the fitting return for a gift received.
+- **H15.19** [judged] ي د ي B007 «elden ele verme, peşin ödeme ve iki fiyatlı satış» اليَد المناولة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H10.21 (also H10.21, L2.26)
+  - evidence: Luna (complement): Direct exchange is answered by a return, and gratitude is the answer to favor. The pair makes thanks sound like a human return for what has been received.
+- surah ayat these members touch (chain material): 5:1 (ي د ي B003) → 5:3 (ء م ن B002, ر د د B005, ي د ي B003) → 5:5 (ء م ن B002, ن ع م B002) → 5:7 (ي د ي B003) → 5:10 (ء م ن B002) → 5:11 (ي د ي B003) → 5:12 (ص ل ي B002, ي د ي B003) → 5:13 (ء م ن B002, ن ع م B003) → 5:18 (ن ع م B003) → 5:21 (ر د د B005) → 5:23 (ن ع م B012) → 5:33 (ن ع م B012) → 5:41 (ء م ن B002, ر د د B005) → 5:42 (ن ع م B003) → 5:45 (ن ع م B013) → 5:46 (ء م ن B002) → 5:48 (ء م ن B002, ص ل و B003) → 5:52 (ء م ن B002) → 5:54 (ر د د B005) → 5:55 (ص ل ي B002) → 5:57 (ر د د B005) → 5:58 (ص ل ي B002) → 5:61 (ر د د B005) → 5:62 (ن ع م B003) → 5:63 (ن ع م B003) → 5:64 (ر د د B005) → 5:65 (ي د ي B003) → 5:66 (ن ع م B012) → 5:69 (ر د د B005) → 5:75 (ن ع م B002) → 5:79 (ن ع م B003) → 5:83 (ن ع م B013) → 5:89 (ر د د B007) → 5:95 (ن ع م B002) → 5:96 (ر د د B007) → 5:97 (ص ل و B003) → 5:109 (ر د د B007) → 5:110 (ن ع م B006) → 5:111 (ص ل و B002, ص ل ي B002) → 5:113 (ء م ن B002)
+
+### H16 سَفَرٍ — 6 roots converge
+Plain sense of سَفَرٍ: örtüyü kaldırıp açığa çıkarma (كشف الغطاء وإزالة الساتر)
+- **H16.1** [dictionary] ج ن ب B002 «yanında yakın bulunma ve eşlik etme» الجنب قرب ومجاورة على الجانب — word جُنُبًا (4 dictionaries); source: as H1.10 (also H1.10, H2.10, H3.16, H14.1)
+  - evidence: lex/src: سفر → root س ف ر
+- **H16.2** [dictionary] ر ف ق B002 «yolculukta birlikte giden kişi ya da topluluk» الصحبة والمرافقة — word ٱلْمَرَافِقِ (4 dictionaries); source: as H3.112 (also H3.112, H7.2, H11.10)
+  - evidence: lex/src: سفر → root س ف ر
+- **H16.3** [dictionary] ص ع د B002 «yola çıkıp arazide ilerleme» إصعاد في البلاد والوجوه — word صَعِيدًا (5 dictionaries); source: as H3.46 (also H3.46, H9.7, L4.1, L9.4)
+  - evidence: lex/src: اسفار → root س ف ر || Luna (image): A journey through the land opens what was covered from view. The pairing makes travel an uncovering of the country along the way.
+- **H16.4** [judged] ج ن ب B011 «yanı koruyan kalkan veya örtü» المجنب وقاء إلى الجنب — word جُنُبًا (5 dictionaries); source: سمي الترس مجنبا لأنه إلى جنب الإنسان (maqayis)؛ المجنب الترس (ayn;sihah;tahdhib)؛ المجنب الترس ويقال المجنب والمجنب الستر أيضا (jamhara) (also L4.4, L8.3)
+  - evidence: Luna (opposite): A protective cover stands against the lifting of a cover. The travel condition can thus evoke exposure once the traveler’s shield is removed.
+- **H16.5** [judged] م ر ض B005 «ışık ve berraklığın azalması» إظلام الشيء ونقص صفائه — word مَّرْضَىٰٓ (4 dictionaries); source: شمس مريضة إذا لم تكن مشرقة (maqayis)؛ شمس مريضة إذا لم تكن صافية وعين مريضة فيها فتور (sihah)؛ المرض إظلام الطبيعة واضطرابها والمرض الظلمة وليلة مريضة مظلمة لا ترى فيها كواكبها (tahdhib)؛ شمس مريضة إذا لم تكن مضيئة لعار…
+  - evidence: Luna (opposite): The journey condition can be heard as daylight clearing a veil beside illness as light going dim. The alternatives place exposure and obscurity in one field.
+- **H16.6** [judged] م س ح B011 «yol alıp araziyi aşma» قطع الأرض سيرا — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H3.117 (also H3.117, H6.38)
+  - evidence: Luna (same): The travel condition is paired with a root sense that itself names hard, sustained movement across terrain. The journey becomes motion rather than merely a stat
+- **H16.7** [judged] و ج ه B007 «günün başı, ilk saatleri» وجه النهار وصدره — word بِوُجُوهِكُمْ (3 dictionaries); source: as H6.16 (also H6.16, L1.27, L4.28)
+  - evidence: Luna (complement): The day's opening brings light into view. The sense of uncovering in سَفَرٍ completes that image of brightness emerging.
+- surah ayat these members touch (chain material): 5:12 (ج ن ب B011) → 5:27 (ج ن ب B002) → 5:39 (م ر ض B005) → 5:48 (ر ف ق B002) → 5:65 (ج ن ب B011) → 5:72 (ج ن ب B011) → 5:108 (ص ع د B002) → 5:109 (م س ح B011)
+
+### H17 أَحَدٌ — 6 roots converge
+Plain sense of أَحَدٌ: tek ve eşi olmayan olma (الأَحَدِيَّة والوَحْدَة)
+- **H17.1** [dictionary] ج ن ب B012 «atın bacaklarında doğuştan ölçülü açıklık» التجنيب تباعد في هيئة القوائم — word جُنُبًا (3 dictionaries); source: as H3.20 (also H3.20, L1.9)
+  - evidence: lex/src: احدي → root ء ح د || lex/src: احدي names the plain image of أَحَدٌ
+- **H17.2** [dictionary] ر ج ل B005 «bir bacağı beyaz hayvan» بياض رجل الدابة — word وَأَرْجُلَكُمْ (5 dictionaries); source: as H11.8 (also H11.8)
+  - evidence: lex/src: احد → root ء ح د || lex/src: باحدي names the plain image of أَحَدٌ || Luna (same): The rare image singles out one white leg, and أحد singles out one person. The verse’s individual trigger resonates with the animal’s one distinctive limb.
+- **H17.3** [dictionary] ط ي ب B006 «içten razı olma ve iç rahatlığı bulma» النفس تطيب بالشيء — word طَيِّبًا (3 dictionaries); source: هذا طعام مطيبة للنفس (maqayis)؛ فعلت ذاك بطيبة نفسي إذا لم يكرهك عليه أحد (sihah)؛ طبت به نفسا أي طابت نفسي به (sihah)؛ طعام مطيبة للنفس إذا طابت به النفس (mufradat) (also L2.17, L7.11)
+  - evidence: lex/src: احد → root ء ح د
+- **H17.4** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.75, H6.7, H9.8, L4.23)
+  - evidence: lex/src: احد → root ء ح د || lex/src: احدي names the plain image of أَحَدٌ
+- **H17.5** [dictionary] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.76, H6.8, H9.9, L4.24, L13.11)
+  - evidence: lex/src: احد → root ء ح د || lex/src: احدي names the plain image of أَحَدٌ || Luna (part): The rare sense emphasizes that one side of the face or one eye is missing. The word أَحَدٌ makes that single-sided loss audible.
+- **H17.6** [dictionary] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word فَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H3.79, H11.3, L2.22, L15.12)
+  - evidence: lex/src: احدي → root ء ح د || lex/src: احدي names the plain image of أَحَدٌ
+- **H17.7** [dictionary] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word وَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H3.80, H11.4, L15.13)
+  - evidence: lex/src: احدي → root ء ح د || lex/src: احدي names the plain image of أَحَدٌ
+- **H17.8** [judged] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H18.1, L8.1)
+  - evidence: Luna (same): The name of God meets the word for absolute oneness. The pair makes divine uniqueness audible within the verse's bodily instructions.
+- **H17.9** [judged] ج ي ء B002 «» المغالبة بكثرة المجيء — word جَآءَ (0 dictionaries); source: as H4.5 (also T9)
+  - evidence: Luna (opposite): The clause singles out one person who comes, while the rare sense evokes prevailing through repeated arrivals. The isolated arrival stands out against a crowdin
+- surah ayat these members touch (chain material): 5:2 (ط ي ب B006) → 5:3 (ط ي ب B006, م س ح B015) → 5:5 (ء ل ه B002, ط ي ب B006) → 5:8 (ء ل ه B002) → 5:9 (ء ل ه B002) → 5:16 (ط ي ب B006) → 5:23 (ج ن ب B012) → 5:45 (م س ح B004) → 5:75 (ط ي ب B006) → 5:83 (م س ح B004) → 5:95 (ط ي ب B006) → 5:100 (ج ي ء B002) → 5:108 (م س ح B004) → 5:110 (ج ن ب B012)
+
+### H18 يُرِيدُ — 6 roots converge
+Plain sense of يُرِيدُ: dileyip yonelme (الإرادة والمشيئة)
+- **H18.1** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: as H17.8 (also H17.8, L8.1)
+  - evidence: lex/src: تريد → root ر و د
+- **H18.2** [dictionary] ص ل و B004 «yakalamak için kurulan tuzak» الشرك المنصوبة — word ٱلصَّلَوٰةِ (3 dictionaries); source: as H12.11 (also H12.11, L2.15)
+  - evidence: lex/src: تريد → root ر و د
+- **H18.3** [dictionary] ل م س B003 «dokunma sözüyle cinsel birleşmeyi örtülü anlatma» كناية الجماع — word لَٰمَسْتُمُ (3 dictionaries); source: as H1.49 (also H1.49, H2.51, H3.72, H8.9)
+  - evidence: lex/src: اريد → root ر و د
+- **H18.4** [judged] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H3.11 (also H3.11, L1.6, L9.1, L11.1)
+  - evidence: Luna (same): The stated intention to purify and complete favor is heard as serious resolve.
+- **H18.5** [judged] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.25, H2.27, H3.35, H4.11, H5.11)
+  - evidence: Luna (opposite): The wavering of تردد is heard against divine intent. Repeatedly stated, the purpose sounds settled rather than hesitant.
+- **H18.6** [judged] و ج د B004 «üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak» وجدان الحزن والمحبة — word تَجِدُوا۟ (4 dictionaries); source: as H10.3 (also H10.3, L3.2, L11.10)
+  - evidence: Luna (same): The repeated intention is heard as a strong desire for purification and completed favor.
+- surah ayat these members touch (chain material): 5:5 (ء ل ه B002) → 5:8 (ء ل ه B002) → 5:9 (ء ل ه B002) → 5:12 (ر د د B010) → 5:106 (ر د د B010) → 5:110 (ص ل و B004)
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 قُمْتُمْ — 16 roots converge
+Plain sense of قُمْتُمْ: bir işe kararlılıkla girişme (عزم ونهوض إلى الأمر)
+- **L1.1** [dictionary] ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: as H1.21 (also H1.21, H2.21, L5.7, T4)
+  - evidence: rel/near_synonym: ق و م B003 (işe sarılmak ile işe kalkışmak) || Luna (same): Both senses picture rising into a matter with resolve.
+- **L1.2** [dictionary] ر د د B009 «düşmeyi önleyen dayanak, sırt veya yük devesi» العماد وما يحمل ويرد عن السقوط — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: الرد عماد الشيء الذي يرده أي يرجعه عن السقوط والضعف (maqayis)؛ الرد ما صار عمادا للشيء يدفعه ويرده والرد الظهر والحمولة من الإبل (tahdhib) (also L4.16)
+  - evidence: rel/near_synonym: ق و م B009 (dayanak ve ayakta tutan temel) || Luna (part): Rising toward prayer is heard as supported rather than left to fall. The image lends steadiness to the transition into prayer.
+- **L1.3** [dictionary] ر د د B009 «düşmeyi önleyen dayanak, sırt veya yük devesi» العماد وما يحمل ويرد عن السقوط — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as L1.2 (also L4.17)
+  - evidence: rel/near_synonym: ق و م B009 (dayanak ve ayakta tutan temel) || Luna (same): The act of rising echoes the support that keeps something upright.
+- **L1.4** [judged] ء ي د B001 «güç ve güçlendirme» قوة مؤيدة — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: as H10.1 (also H10.1)
+  - evidence: Luna (image): The hands carry the strength to rise toward prayer. The pair makes that approach feel embodied, as resolve takes bodily force.
+- **L1.5** [judged] ء ي د B001 «güç ve güçlendirme» قوة مؤيدة — word وَأَيْدِيكُم (echo root, sound family only; 2 dictionaries); source: as H10.1 (also L3.1)
+  - evidence: Luna (complement): Strength supports the act of rising and undertaking. The rare force in أَيْد makes the worshipper's movement toward prayer feel empowered.
+- **L1.6** [judged] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H3.11 (also H3.11, H18.4, L9.1, L11.1)
+  - evidence: Luna (same): Rising toward prayer is heard as serious, resolved effort.
+- **L1.7** [judged] ج ع ل B004 «bir eylemi yapmaya başlama» الشروع في الفعل أو ملازمته — word لِيَجْعَلَ (4 dictionaries); source: تقول جعل يقول ولا تقول صنع يقول (maqayis)؛ جعل يأكل وجعل يصنع كذا (ayn)؛ جعل فلان يصنع كذا كقولك طفق وعلق يفعل (tahdhib)؛ يجري مجرى صار وطفق فلا يتعدى نحو جعل زيد يقول (mufradat) (also L11.2)
+  - evidence: Luna (same): Rising toward prayer is the beginning of an action.
+- **L1.8** [judged] ج ع ل B007 «sıcak tencereyi indirme bezi ve onunla indirme» خرقة إنزال القدر — word لِيَجْعَلَ (4 dictionaries); source: as H7.1 (also H7.1, L18.1)
+  - evidence: Luna (opposite): The pot is brought down as the worshippers rise toward prayer.
+- **L1.9** [judged] ج ن ب B012 «atın bacaklarında doğuştan ölçülü açıklık» التجنيب تباعد في هيئة القوائم — word جُنُبًا (3 dictionaries); source: as H3.20 (also H3.20, H17.1)
+  - evidence: Luna (image): The horse’s naturally spaced legs make a picture of a firm stance. That bodily spread meets the rising and resolve in قُمْتُمْ as the worshippers stand to appro
+- **L1.10** [judged] ح ر ج B006 «ahşap taşıma sedyesi veya kafesi» السرير والمحفة — word حَرَجٍ (3 dictionaries); source: as H3.111 (also H3.111, H8.1, L2.8)
+  - evidence: Luna (opposite): The living worshippers rise while the dead are carried on a bier.
+- **L1.11** [judged] ر ج ل B006 «büyük çekirge sürüsü» الرَّجْل من الجراد — word وَأَرْجُلَكُمْ (4 dictionaries); source: الرجل القطيع من الجراد ونحوه من الخلق (ayn)؛ رأيت رجلا من جراد أي قطعة عظيمة (jamhara)؛ الرجل أيضا الجماعة الكثيرة من الجراد خاصة (sihah)؛ استعير الرجل للقطعة من الجراد (mufradat)
+  - evidence: Luna (image): The people rising toward prayer take on the image of a swarm rising together.
+- **L1.12** [judged] ر ج ل B012 «günün yükselip aydınlığın yayılması» ترجل النهار — word وَأَرْجُلَكُمْ (5 dictionaries); source: ترجل النهار إذا ارتفع (maqayis;ayn;sihah)؛ ترجلت الضحى إذا انبسطت (jamhara)؛ ترجل النهار انحطت الشمس عن الحيطان (mufradat) (also L4.8)
+  - evidence: Luna (same): The rising toward prayer echoes the rising of daylight.
+- **L1.13** [judged] ر ج ل B020 «bir işe atılıp ilerlemek» ركوب الأمر بالرجلين — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: ارتجل الرجل ركب رجليه في صاحبه ومضى (ayn)؛ ارتجل ما ارتجلت أي اركب ما ركبت من الأمر (ayn) (also L4.9)
+  - evidence: Luna (same): The feet's advance and the rising toward prayer both launch an undertaking.
+- **L1.14** [judged] س ف ر B002 «aydınlanıp belirginleşme» إسفار الضوء والوجه — word سَفَرٍ (5 dictionaries); source: as H3.114 (also H3.114, H6.6, H9.6, L4.18)
+  - evidence: Luna (image): The rising toward prayer can carry the image of daybreak brightening. The believers rise as the light opens the day.
+- **L1.15** [judged] ص ع د B006 «kendiliğinden düz mızraklık sırık» صعدة قناة مستقيمة — word صَعِيدًا (4 dictionaries); source: as H8.5 (also H8.5, L15.8)
+  - evidence: Luna (image): The upright spear shaft meets the act of rising to undertake prayer. Together they picture a person standing firm and straight.
+- **L1.16** [judged] ص ل و B003 «ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma» العبادة المخصوصة — word ٱلصَّلَوٰةِ (4 dictionaries); source: as H13.3 (also H13.3, H15.16, L9.5, L14.5)
+  - evidence: Luna (part): Standing is one of the bodily parts of formal prayer. The believer’s rising toward prayer becomes its first posture as well as the transition into it.
+- **L1.17** [judged] ص ل و B007 «tapınma yeri; kilise» مواضع الصلاة ودور العبادة — word ٱلصَّلَوٰةِ (3 dictionaries); source: صلوات اليهود كنائسهم واحدها صلاة (ayn); الصلوات كنائس اليهود (tahdhib); قيل إنها مواضع صلوات الصابئين (tahdhib); يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات (mufradat) (also L14.6)
+  - evidence: Luna (complement): Prayer becomes a place toward which one rises. The wording pictures the worshipper moving toward the worship-place.
+- **L1.18** [judged] ص ل ي B001 «ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma» الصلاة عبادة لازمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 4 dictionaries); source: as H13.5 (also H13.5, L9.6, L14.7)
+  - evidence: Luna (same): The rising becomes the opening posture of worship. The body's movement toward prayer already begins the act of prayer.
+- **L1.19** [judged] ك و ن B002 «bulunma yeri ve konum değeri» المكان والمكانة من الكون — word كُنتُم (3 dictionaries); source: المكان اشتقاقه من كان يكون؛ تمكن (ayn;maqayis); فلان مني مكان هذا؛ موضع العمامة (ayn); المكانة المنزلة؛ مكين عند فلان بين المكانة؛ المكان والمكانة الموضع؛ تمكن (sihah)
+  - evidence: Luna (image): The sense of being in a place meets the movement of rising into a task. Together the words stage a transition from one’s station into the stance of prayer.
+- **L1.20** [judged] ك و ن B002 «bulunma yeri ve konum değeri» المكان والمكانة من الكون — word كُنتُمْ (3 dictionaries); source: as L1.19
+  - evidence: Luna (complement): Rising toward prayer can place the worshippers in a new standing.
+- **L1.21** [judged] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُم (2 dictionaries); source: as H1.47 (also H1.47, H2.49, H3.68, L5.18, T14)
+  - evidence: Luna (same): The sense of taking someone into one’s care echoes rising to undertake a task. The two verbs let the prayer instruction carry a faint image of responsibility as
+- **L1.22** [judged] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُمْ (2 dictionaries); source: as H1.47 (also H1.48, H2.50, H3.69)
+  - evidence: Luna (same): Both senses describe taking responsibility and carrying an undertaking.
+- **L1.23** [judged] م ر ض B003 «hastaya özenle bakma» القيام على المريض — word مَّرْضَىٰٓ (5 dictionaries); source: as H1.50 (also H1.50, H2.52, H3.73, H14.10, L14.12)
+  - evidence: Luna (same): Care for the sick echoes rising to take responsibility for a task. The prayer instruction can be heard alongside an image of someone standing up to attend to an
+- **L1.24** [judged] م ر ض B004 «işi gevşek bırakma ve çabada yetersiz kalma» إضعاف الأمر وقصور الحركة — word مَّرْضَىٰٓ (4 dictionaries); source: مرض في الحاجة قصر ولم يصح عزمه فيها (maqayis)؛ تمريض الأمر أن توهنه ولا تنضجه (ayn)؛ التمريض في الأمر التضجيع فيه (sihah)؛ تمريض الأمر أن توهنه ولا تحكمه ومرض فلان في حاجتي إذا نقصت حركته فيها (tahdhib) (also L9.11)
+  - evidence: Luna (opposite): The rise toward prayer is heard against effort that slackens and falls short. The command gathers the ill into renewed movement rather than treating weakness as
+- **L1.25** [judged] ن ع م B008 «bir topluluğun dağılıp gücünü yitirmesi» طيران النعامة وتفرق القوم — word نِعْمَتَهُۥ (3 dictionaries); source: شالت نعامتهم إذا تفرقوا (maqayis)؛ للقوم إذا ارتحلوا أو تفرقوا قد شالت نعامتهم (sihah)؛ خفت نعامتهم أي استمر بهم السير وشالت نعامتهم إذا تفرقت كلمتهم أو ذهب عزهم (tahdhib)
+  - evidence: Luna (opposite): A community rising together toward prayer answers the image of a group scattered and weakened. The ritual gathers the people where the rare sense has them dispe
+- **L1.26** [judged] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام — word نِعْمَتَهُۥ (3 dictionaries); source: أتيت أرض بني فلان فتنعمتني إذا وافقته (maqayis)؛ أتيت أرض فلان فتنعمتني إذا وافقته (sihah)؛ أتيت أرضا فنعمتني أي وافقتني وأقمت بها (tahdhib) (also L10.1)
+  - evidence: Luna (image): A place that suits its resident becomes a fitting place to stand toward prayer. The rising body is held by a location where it can remain well.
+- **L1.27** [judged] و ج ه B007 «günün başı, ilk saatleri» وجه النهار وصدره — word بِوُجُوهِكُمْ (3 dictionaries); source: as H6.16 (also H6.16, H16.7, L4.28)
+  - evidence: Luna (complement): The face of the day evokes its first hours, when people rise to begin their tasks. The verse's rising toward prayer can be heard at that opening of the day.
+- **L1.28** [judged] و ج ه B007 «günün başı, ilk saatleri» وجه النهار وصدره — word وُجُوهَكُمْ (3 dictionaries); source: as H6.16 (also H6.17, H9.18)
+  - evidence: Luna (complement): The face of the day is its first stretch, when people rise into their tasks. The morning's opening and the body's rising meet in an image of beginnings.
+- **L1.29** [judged] ي د ي B008 «önünde ya da hemen öncesinde» بين اليَدين — word وَأَيْدِيكُم (2 dictionaries); source: as H9.21 (also H9.21, L4.30)
+  - evidence: Luna (complement): The rise toward prayer becomes the threshold immediately ahead of it.
+- **L1.30** [judged] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيكُم (2 dictionaries); source: as H1.63 (also H1.63, H2.65, H3.105, L2.29, L3.27)
+  - evidence: Luna (complement): A supporting hand steadies the believer’s rise toward prayer.
+- **L1.31** [judged] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H1.63 (also H1.64, H2.66, H3.106, H10.24, L2.30)
+  - evidence: Luna (complement): A supporting hand helps a person rise and undertake a task. The pair joins assistance to standing firm.
+- surah ayat these members touch (chain material): 5:2 (ر ج ل B012, ر ج ل B019, ر د د B009, ي د ي B008, ي د ي B016) → 5:8 (ر ج ل B019, ر د د B009) → 5:11 (ر ج ل B019, ر د د B009) → 5:12 (ص ل ي B001) → 5:13 (ص ل و B007) → 5:14 (ج ع ل B004) → 5:16 (ص ع د B006) → 5:17 (ي د ي B008) → 5:23 (ج ن ب B012) → 5:33 (ي د ي B008) → 5:39 (ي د ي B016) → 5:41 (ص ل و B007) → 5:48 (ر ج ل B020, ص ل و B003, ص ل ي B001, ي د ي B008, ي د ي B016) → 5:55 (ص ل ي B001) → 5:58 (ص ل ي B001) → 5:60 (ن ع م B011) → 5:63 (ج ع ل B004) → 5:73 (ج ع ل B007) → 5:82 (ر ج ل B012) → 5:88 (ن ع م B011) → 5:89 (ج ع ل B007) → 5:95 (م ر ض B003) → 5:97 (ر ج ل B019, ص ل و B003, ص ل ي B001, ك و ن B003, م ر ض B003) → 5:98 (ر ج ل B012) → 5:100 (ن ع م B011) → 5:107 (ن ع م B011) → 5:108 (س ف ر B002) → 5:110 (ء ي د B001, ج ن ب B012) → 5:111 (ي د ي B016) → 5:114 (م ر ض B003)
+
+### L2 نِعْمَتَهُۥ — 16 roots converge
+Plain sense of نِعْمَتَهُۥ: iyi yaşam durumu ve başkasına ulaştırılan iyilik (حسن الحال والنعمة)
+- **L2.1** [dictionary] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيَكُمْ (4 dictionaries); source: as H3.99 (also H3.99, H10.18, H15.9)
+  - evidence: lex/image: نعما → root ن ع م || lex/image: نعما names the plain image of نِعْمَتَهُۥ || rel/near_synonym: ن ع م B001 (iyilik ve esenlik) || Luna (same): The hand’s gift and the favor named as نعمة become two images of benefaction. Their pairing makes the blessing sound like something actively given.
+- **L2.2** [dictionary] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيكُم (4 dictionaries); source: as H3.99 (also H3.100, H15.10, L3.24)
+  - evidence: lex/image: نعما → root ن ع م || lex/image: نعما names the plain image of نِعْمَتَهُۥ || rel/near_synonym: ن ع م B001 (iyilik ve esenlik) || Luna (same): The hand’s gift is named again as favor completed upon the believers.
+- **L2.3** [judged] ت م م B002 «korunma boncugu» التميمة المعلقة — word وَلِيُتِمَّ (3 dictionaries); source: as H1.3 (also H1.3, H2.3, H3.4)
+  - evidence: Luna (image): A charm attached to a person as a hoped-for completion of healing makes an image of favor placed upon its recipients. The verse's completion of favor can thus b
+- **L2.4** [judged] ت م م B007 «dokumayi tamamlayan parca» قطعة تتم النسج — word وَلِيُتِمَّ (2 dictionaries); source: المستتم الذي يطلب شيئا من صوف أو وبر يتم به نسج كسائه والموهوب تمة (maqayis)؛ المستتم هو الذي يطلب الصوف والوبر ليتم به نسج كسائه والموهوب تمة (sihah)
+  - evidence: Luna (image): A piece completing a garment's weave makes an image of favor brought to fullness. The blessing is heard as a whole whose last needed strand has been supplied.
+- **L2.5** [judged] ج د د B002 «iyi yazgı ve varlık payı» حظ وغنى يناله الإنسان — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H3.8 (also H3.8)
+  - evidence: Luna (same): The rare sense of worldly fortune meets the favor God completes for the believers. The verse’s favor is heard as well-being and a good portion received.
+- **L2.6** [judged] ج ن ب B006 «güneyden esen yel» الجنوب ريح من جهة مخصوصة — word جُنُبًا (6 dictionaries); source: مما شذ عن الباب ريح الجنوب (maqayis)؛ الجنوب ريح تجيء عن يمين القبلة وقد جنبت الريح (ayn)؛ الجنوب ريح معروفة (jamhara)؛ الجنوب الريح التي تقابل الشمال (sihah)؛ الجنوب من الرياح حارة ومهبها ما بين مهبي الصبا والدبور (tah… (also L15.2)
+  - evidence: Luna (image): The warm south wind can be heard as an image of favor reaching the worshippers. The completed blessing feels like a life-giving breath moving across them.
+- **L2.7** [judged] ج ن ب B008 «develerde sütün azalması veya tükenmesi» التجنيب قلة لبن الإبل — word جُنُبًا (6 dictionaries); source: as H3.18 (also H3.18)
+  - evidence: Luna (opposite): The image of livestock with little or no milk stands against the completion of favor. The verse’s blessing can be heard as abundance where the rare sense gives 
+- **L2.8** [judged] ح ر ج B006 «ahşap taşıma sedyesi veya kafesi» السرير والمحفة — word حَرَجٍ (3 dictionaries); source: as H3.111 (also H3.111, H8.1, L1.10)
+  - evidence: Luna (opposite): The bier of the dead stands against the blessing of good life.
+- **L2.9** [judged] ر ف ق B003 «yarar ve rahatlık sağlayan, kolay erişilen olanak» المرفق والمنفعة — word ٱلْمَرَافِقِ (4 dictionaries); source: as H4.12 (also H4.12, H5.12)
+  - evidence: Luna (same): A useful provision and a blessing meet in the idea of benefit received. The pair frames favor as something that eases life.
+- **L2.10** [judged] ر و د B007 «gozde dolasan bozukluk» عوار العين الرائد — word يُرِيدُ (2 dictionaries); source: رائد العين عوارها الذي يرود فيها (sihah)؛ رائد العين عوارها الذي يرود فيها (maqayis) (also L5.11)
+  - evidence: Luna (opposite): The eye's impairment stands against the well-being named as a divine favor. The closing image can be heard as favor restoring what the defect diminishes.
+- **L2.11** [judged] ش ك ر B002 «azla yetinip belirgin biçimde gelişme» الكفاية باليسير وظهور أثره — word تَشْكُرُونَ (5 dictionaries); source: حقيقة الشكر الرضا باليسير (maqayis)؛ فرس شكور إذا كفاه لسمنه العلف القليل (maqayis)؛ الشكور من الدواب ما يسمن بالعلف اليسير ويكفيه (ayn)؛ الشكور من الدواب ما يكفيه العلف القليل (sihah;tahdhib)؛ دابة شكور مظهرة بسمنها إس… (also L17.2)
+  - evidence: Luna (image): A creature shows the effect of the little it has received. Gratitude likewise makes a favor visible through the recipient’s response.
+- **L2.12** [judged] ص ع د B003 «çetin yokuş ve ağır güçlük» عقبة كؤود ومشقة — word صَعِيدًا (5 dictionaries); source: as H1.34 (also H1.34, H2.36, H3.47, L15.7, L18.3)
+  - evidence: Luna (opposite): The ascent names the hardship the verse refuses to impose. The completed favor then answers that hardship with a different purpose for the rite.
+- **L2.13** [judged] ص ع د B008 «uzunlukça veya derecede yukarı artış» زيادة وعلو إلى فوق — word صَعِيدًا (2 dictionaries); source: النبات ينمي صعدا أي يزداد طولا (sihah)؛ فصاعدا أي فما فوق ذلك (tahdhib)؛ عنق صاعد أي طويل (tahdhib)؛ الصعد الجبل الطويل (tahdhib)؛ المصعد الحر المرتفع (tahdhib) (also L15.9)
+  - evidence: Luna (same): The increase upward resonates with the completion and extension of favor. The verse’s favor can be heard as something raised and enlarged.
+- **L2.14** [judged] ص ل و B002 «başkası için iyilik dileme; esirgeme, övme ve değer verme» الدعاء والثناء والرحمة — word ٱلصَّلَوٰةِ (5 dictionaries); source: as H1.71 (also H1.71, H2.71, H5.29, H14.7, H15.15)
+  - evidence: Luna (same): Prayer as mercy meets the favor that God completes for the believers. The closing purpose gathers worship and blessing into one field of beneficence.
+- **L2.15** [judged] ص ل و B004 «yakalamak için kurulan tuzak» الشرك المنصوبة — word ٱلصَّلَوٰةِ (3 dictionaries); source: as H12.11 (also H12.11, H18.2)
+  - evidence: Luna (opposite): The rare trap image clashes with the favor that God completes for the believers. The verse’s positive purpose turns the ritual away from capture and toward bene
+- **L2.16** [judged] ص ل ي B002 «iyilik dileme; özneye göre esirgeme, övme veya aklama» الدعاء والبركة والرحمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: as H14.8 (also H14.8, H15.17, L8.4)
+  - evidence: Luna (same): The prayer or mercy is itself a favor. The verse's gift is heard as mercy reaching the believers.
+- **L2.17** [judged] ط ي ب B006 «içten razı olma ve iç rahatlığı bulma» النفس تطيب بالشيء — word طَيِّبًا (3 dictionaries); source: as H17.3 (also H17.3, L7.11)
+  - evidence: Luna (same): A favor received with willing contentment joins the inner ease of the rare sense to the verse’s gift. The two words describe goodness experienced and bestowed.
+- **L2.18** [judged] ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word قُمْتُمْ (4 dictionaries); source: أقمت بالمكان إقامة ومقاما؛ المقام موضع القدمين؛ المقام والمقامة الموضع الذي تقيم فيه (ayn;tahdhib)؛ المقامة الإقامة؛ المقامة المجلس والجماعة من الناس؛ المقام موضع القيام أو الإقامة (sihah)؛ المقام يكون مصدرا واسم مكان ا… (also L19.4, L21.2)
+  - evidence: Luna (image): A good state can be pictured as a place where one is at ease. Completing the favor then sounds like establishing a settled place of well-being.
+- **L2.19** [judged] ق و م B018 «pazarın canlanıp satışların artması» نفاق السوق — word قُمْتُمْ (2 dictionaries); source: قامت السوق نفقت (sihah)؛ قامت السوق إذا نفقت ونامت إذا كسدت (tahdhib)
+  - evidence: Luna (same): The blessing sounds like a flourishing life.
+- **L2.20** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قُمْتُمْ (1 dictionaries, sole attestation); source: as H3.115 (also H3.115, H10.8, L3.10)
+  - evidence: Luna (opposite): Bodily pain stands against the well-being of divine favor.
+- **L2.21** [judged] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word قُمْتُمْ (2 dictionaries); source: عين قائمة ذهب بصرها والحدقة صحيحة (ayn)؛ العين القائمة أن يذهب بصرها والحدقة صحيحة (tahdhib) (also L5.17)
+  - evidence: Luna (opposite): Lost sight is set against good condition and bestowed benefit.
+- **L2.22** [judged] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word فَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H3.79, H11.3, H17.6, L15.12)
+  - evidence: Luna (opposite): A foot worn down by walking is set against the good condition named by نِعْمَتَهُۥ. The verse's favor can be heard as relief for a body that bears the road.
+- **L2.23** [judged] م و ه B006 «belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi» رونق كالماء في الوجه والكلام والثمر — word مَآءً (3 dictionaries); source: as H5.25 (also H5.25, H6.11, H9.12, L4.27, L5.19)
+  - evidence: Luna (same): The completed favor is heard as thriving, ripening, and well-being.
+- **L2.24** [judged] و ج د B003 «varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak» السعة والجدة والغنى — word تَجِدُوا۟ (4 dictionaries); source: as H10.15 (also H10.15, L3.19, L17.8)
+  - evidence: Luna (same): The favor completed for the believers is heard as prosperity and well-being.
+- **L2.25** [judged] ي د ي B007 «elden ele verme, peşin ödeme ve iki fiyatlı satış» اليَد المناولة — word وَأَيْدِيكُم (2 dictionaries); source: as H10.21 (also H15.18)
+  - evidence: Luna (opposite): God’s favor sounds like a gift beyond any cash exchange.
+- **L2.26** [judged] ي د ي B007 «elden ele verme, peşin ödeme ve iki fiyatlı satış» اليَد المناولة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H10.21 (also H10.21, H15.19)
+  - evidence: Luna (opposite): A hand-to-hand payment belongs to exchange; a blessing is bestowed as favor. The contrast makes the divine gift sound freely given, with gratitude as its fittin
+- **L2.27** [judged] ي د ي B014 «geniş, bol ve rahat» اليَدِي الواسع — word وَأَيْدِيَكُمْ (3 dictionaries); source: عيش يدي واسع (jamhara)؛ ثوب يدي وأدي أي واسع (sihah)؛ ثوب يدي واسع (tahdhib)
+  - evidence: Luna (same): A spacious life and a blessing of well-being meet in an image of abundance. The hand’s roomy ease resonates with favor received.
+- **L2.28** [judged] ي د ي B014 «geniş, bol ve rahat» اليَدِي الواسع — word وَأَيْدِيكُم (3 dictionaries); source: as L2.27
+  - evidence: Luna (same): The favor is heard as roomy, comfortable abundance.
+- **L2.29** [judged] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيكُم (2 dictionaries); source: as H1.63 (also H1.63, H2.65, H3.105, L1.30, L3.27)
+  - evidence: Luna (same): The favor appears as aid and protection given to the believers.
+- **L2.30** [judged] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H1.63 (also H1.64, H2.66, H3.106, H10.24, L1.31)
+  - evidence: Luna (same): Protection and favor meet as forms of beneficence. The hand’s aid sounds like a blessing received.
+- surah ayat these members touch (chain material): 5:1 (ي د ي B003) → 5:2 (ط ي ب B006, ي د ي B016) → 5:3 (ط ي ب B006, م س ح B015, ي د ي B003) → 5:5 (ط ي ب B006) → 5:7 (ي د ي B003) → 5:11 (ي د ي B003) → 5:12 (ص ل ي B002, ي د ي B003) → 5:16 (ط ي ب B006) → 5:39 (ي د ي B016) → 5:45 (ر و د B007, ق و م B021) → 5:48 (ي د ي B016) → 5:54 (و ج د B003, ي د ي B014) → 5:55 (ص ل ي B002) → 5:58 (ص ل ي B002) → 5:60 (ق و م B006) → 5:65 (ي د ي B003) → 5:66 (ص ع د B008) → 5:71 (ق و م B021) → 5:75 (ط ي ب B006) → 5:83 (ر و د B007, ق و م B021) → 5:88 (ج د د B002) → 5:95 (ج ن ب B006, ط ي ب B006) → 5:97 (ج ن ب B006) → 5:108 (م و ه B006) → 5:110 (ج ن ب B006, ص ل و B004) → 5:111 (ص ل و B002, ص ل ي B002, ي د ي B016) → 5:114 (ج د د B002) → 5:119 (ج د د B002)
+
+### L3 وَأَيْدِيَكُمْ — 13 roots converge
+Plain sense of وَأَيْدِيَكُمْ: el ve elin uğradığı bedensel durumlar (اليَد الجارحة); güç, yeterlik ve güçlendirme (اليَد القوّة)
+- **L3.1** [dictionary] ء ي د B001 «güç ve güçlendirme» قوة مؤيدة — word وَأَيْدِيكُم (echo root, sound family only; 2 dictionaries); source: as H10.1 (also L1.5)
+  - evidence: lex/image: قوا names the plain image of وَأَيْدِيَكُمْ || Luna (sound): أَيْدِيكُم echoes أَيْدِيَكُمْ in sound while opening the sense of strength. The hands of the rite can thus carry an audible reminder of power and support.
+- **L3.2** [dictionary] و ج د B004 «üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak» وجدان الحزن والمحبة — word تَجِدُوا۟ (4 dictionaries); source: as H10.3 (also H10.3, H18.6, L11.10)
+  - evidence: lex/src: بقوا names the plain image of وَأَيْدِيَكُمْ
+- **L3.3** [judged] ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيكُم (echo root, sound family only; 2 dictionaries); source: as H10.4 (also T6)
+  - evidence: Luna (image): The washed hands also appear as the body’s guarding limbs.
+- **L3.4** [judged] ت م م B003 «sert ve saglam» الشيء الصلب الشديد — word وَلِيُتِمَّ (3 dictionaries); source: as H10.5 (also H10.5)
+  - evidence: Luna (same): The hard, strong quality of the rare branch echoes the power and capacity carried by hands. The body's agency is heard as strength.
+- **L3.5** [judged] ر ء س B005 «kılıcın kabzası» رِئاس السيف — word بِرُءُوسِكُمْ (2 dictionaries); source: رئاس السيف مقبضه (sihah)؛ رياس السيف مقبضه (mufradat)
+  - evidence: Luna (part): The washed hand can be pictured gripping the hilt before the head is wiped. The body part and the sword fitting meet through the act of grasping.
+- **L3.6** [judged] ر ج ل B001 «bacak uzvu» الرِّجل العضو — word وَأَرْجُلَكُمْ (5 dictionaries); source: as H7.7 (also H7.7, H10.6, L15.3)
+  - evidence: Luna (same): The hands and feet appear together as bodily limbs in the purification command. The rare leg sense makes their shared anatomy explicit.
+- **L3.7** [judged] ر ف ق B004 «dirsek, dirseğe dayanma ve dayanak» المرفق والاتكاء — word ٱلْمَرَافِقِ (4 dictionaries); source: as H1.26 (also H1.26, H2.28, H3.36, L15.4)
+  - evidence: Luna (part): The elbow joins and supports the arm and hand. The pair names neighboring parts of one limb.
+- **L3.8** [judged] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H2.42, H3.54, H4.16, H5.16, H10.7)
+  - evidence: Luna (part): The hand can serve as the bodily tool through which a pure medium cleans. The command therefore joins purifying capacity to the limb that applies it.
+- **L3.9** [judged] ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word قُمْتُمْ (5 dictionaries); source: as H12.2 (also H12.2, L17.3)
+  - evidence: Luna (part): The hands are the body's working power and one of its supports for livelihood. Washing them places that sustaining agency inside the purification rite.
+- **L3.10** [judged] ق و م B019 «bir beden bölümünün kişiye ağrı vermesi» وجع قائم بالعضو — word قُمْتُمْ (1 dictionaries, sole attestation); source: as H3.115 (also H3.115, H10.8, L2.20)
+  - evidence: Luna (part): The hands being washed are concrete sites where pain can settle.
+- **L3.11** [judged] ك ع ب B004 «kumaşı sıkıca dörtgen katlama» التربيع والطي الشديد — word ٱلْكَعْبَيْنِ (6 dictionaries); source: ثوب مكعب مطوى شديد الإدراج وبرد مكعب فيه وشى مربع (maqayis)؛ الثوب المكعب المطوي الشديد الإدراج كعبته تكعيبا (ayn)؛ كعبت الثوب إذا طويته مربعا (jamhara)؛ برد مكعب فيه وشي مربع وثوب مكعب مطوي شديد الإدراج (sihah)؛ الثوب …
+  - evidence: Luna (part): The hands become the tool for folding the cloth into a tight square.
+- **L3.12** [judged] ك ع ب B007 «bir şeyi doldurmak» ملء الشيء حتى يتمتلئ — word ٱلْكَعْبَيْنِ (2 dictionaries); source: as H10.9 (also H10.9, H12.12, L17.5)
+  - evidence: Luna (image): The hand is pictured as filled to its capacity.
+- **L3.13** [judged] ك و ن B004 «boyun eğme» الخضوع بالاستكانة — word كُنتُم (1 dictionaries, sole attestation); source: as H10.10 (also H10.10, L11.9)
+  - evidence: Luna (opposite): Submission stands against the power carried by the hands. The ablution scene can therefore hold bodily strength beside the act of yielding.
+- **L3.14** [judged] م س ح B003 «kılıçla vurup kesme» القطع والضرب بالسيف — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H7.11 (also H7.11, H10.11)
+  - evidence: Luna (image): The hand-washing command acquires the shadow of a hand struck and cut by a sword. Purification is heard beside the violent removal of the very limb being washed
+- **L3.15** [judged] م س ح B003 «kılıçla vurup kesme» القطع والضرب بالسيف — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H7.11 (also H7.12, H10.12, L13.10)
+  - evidence: Luna (image): The sword-cut sense makes the hands into the vulnerable target of a violent stroke. That image sharply changes the feel of the washing command.
+- **L3.16** [judged] م س ح B007 «ter; bir kaynakta kol» المسيح عرق ظاهر — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.76 (also H2.75, H4.25, L18.8)
+  - evidence: Luna (part): The hand-washing command meets the rare sense of a visible vein, sometimes specifically an arm. The arm’s bodily interior is placed beside the hand’s purificati
+- **L3.17** [judged] م س ح B017 «satışta el sıkışma» المصافحة في البيع — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H10.13 (also H10.13, L13.15)
+  - evidence: Luna (part): The hand-washing command now carries the image of hands clasping to seal a sale. The same limb is both purified and used to make an agreement.
+- **L3.18** [judged] م س ح B017 «satışta el sıkışma» المصافحة في البيع — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H10.13 (also H10.14, L8.10, L13.16)
+  - evidence: Luna (part): The rare transaction sense puts the hands at the center of the act. The verse's وَأَيْدِيَكُمْ names the very bodily instrument of that handshake.
+- **L3.19** [judged] و ج د B003 «varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak» السعة والجدة والغنى — word تَجِدُوا۟ (4 dictionaries); source: as H10.15 (also H10.15, L2.24, L17.8)
+  - evidence: Luna (same): The hands commanded in the rite evoke capacity and power.
+- **L3.20** [judged] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word وُجُوهَكُمْ (5 dictionaries); source: as H3.93 (also H3.93, H6.14, H7.15)
+  - evidence: Luna (part): Standing among the foremost involves authority and agency. The hand's power is one means by which a leader exercises that standing.
+- **L3.21** [judged] و ج ه B006 «toplumsal itibar, yüksek mevki ve önde gelen kişi» الوجاهة والجاه — word بِوُجُوهِكُمْ (5 dictionaries); source: as H3.93 (also H3.94, H6.15, H7.16)
+  - evidence: Luna (same): Social standing and power meet as two ways of naming authority. The verse's body words can be heard as status and capacity held together.
+- **L3.22** [judged] و ج ه B010 «doğumda ellerin veya ön ayakların önce çıkması» الولادة باليدين أولا — word بِوُجُوهِكُمْ (3 dictionaries); source: as H3.119 (also H3.119, H10.16)
+  - evidence: Luna (image): The hands named by وَأَيْدِيَكُمْ evoke the birth image of a child whose hands emerge first. The rare sense makes the hand the leading part in an entrance into 
+- **L3.23** [judged] و ج ه B010 «doğumda ellerin veya ön ayakların önce çıkması» الولادة باليدين أولا — word وُجُوهَكُمْ (3 dictionaries); source: as H3.119 (also H3.120, H10.17)
+  - evidence: Luna (part): Hands lead the birth in the rare image, and hands are later named as the body's working parts. The rite recalls the same limbs that first emerged.
+- **L3.24** [judged] ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيكُم (4 dictionaries); source: as H3.99 (also H3.100, H15.10, L2.2)
+  - evidence: Luna (image): The hands washed for prayer are also heard as hands that give.
+- **L3.25** [judged] ي د ي B006 «boyun eğme, bağlılık ve güvence üstlenme» اليَد المستسلمة — word وَأَيْدِيكُم (3 dictionaries); source: as H10.20 (also L8.12)
+  - evidence: Luna (image): The hands themselves become an image of obedience.
+- **L3.26** [judged] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيكُم (3 dictionaries); source: as H1.61 (also H1.61, H2.63, H3.101, L13.19)
+  - evidence: Luna (image): The hands being cleansed are also the hands that act and earn.
+- **L3.27** [judged] ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيكُم (2 dictionaries); source: as H1.63 (also H1.63, H2.65, H3.105, L1.30, L2.29)
+  - evidence: Luna (image): Separate hands being cleansed can be heard as one hand of support.
+- surah ayat these members touch (chain material): 5:1 (ي د ي B003) → 5:2 (ت م م B003, ك ع ب B004, ي د ي B016) → 5:3 (ك ع ب B004, ي د ي B003) → 5:4 (ء ي د B002, ي د ي B009) → 5:5 (و ج ه B010) → 5:7 (ء ي د B002, ي د ي B003) → 5:8 (ء ي د B002) → 5:11 (ي د ي B003) → 5:12 (ء ي د B002, ي د ي B003) → 5:17 (ق و م B009) → 5:18 (ق و م B009) → 5:20 (ق و م B009) → 5:21 (ي د ي B009) → 5:27 (و ج ه B010) → 5:32 (ي د ي B009) → 5:33 (ت م م B003) → 5:34 (و ج ه B010) → 5:38 (ي د ي B009) → 5:39 (ي د ي B016) → 5:45 (ي د ي B009) → 5:48 (ر ج ل B001, ي د ي B016) → 5:53 (ك ع ب B004) → 5:54 (و ج د B003) → 5:65 (ء ي د B002, ي د ي B003) → 5:72 (ء ي د B002) → 5:80 (ي د ي B009) → 5:82 (ت م م B003) → 5:98 (ت م م B003, ك ع ب B004) → 5:104 (و ج ه B006) → 5:106 (ك ع ب B004) → 5:110 (ء ي د B001) → 5:111 (ي د ي B016)
+
+### L4 وُجُوهَكُمْ — 13 roots converge
+Plain sense of وُجُوهَكُمْ: yüz ve bir şeyin öne bakan yanı (الوجه والمستقبل); yön ve hedef; o yöne sevk etme veya yolu belli etme (الجهة والوجهة)
+- **L4.1** [dictionary] ص ع د B002 «yola çıkıp arazide ilerleme» إصعاد في البلاد والوجوه — word صَعِيدًا (5 dictionaries); source: as H3.46 (also H3.46, H9.7, H16.3, L9.4)
+  - evidence: lex/src: مستقبل names the plain image of وُجُوهَكُمْ || Luna (complement): Setting out through the land requires a direction to face. The face as forward side gives the journey its orientation.
+- **L4.2** [judged] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.67 (also H1.67, H2.70, H6.2, H9.2, L6.1, L12.3)
+  - evidence: Luna (image): The face to be washed meets the image of the earth’s smooth face.
+- **L4.3** [judged] ج ن ب B005 «yanında yönlendirerek götürme» التجنيب قيادة شيء إلى الجنب — word جُنُبًا (6 dictionaries); source: as H3.110 (also H3.110, H9.14)
+  - evidence: Luna (image): The side-led companion and the forward-facing direction make a guide-and-traveler image. The face is set toward the way while someone leads alongside.
+- **L4.4** [judged] ج ن ب B011 «yanı koruyan kalkan veya örtü» المجنب وقاء إلى الجنب — word جُنُبًا (5 dictionaries); source: as H16.4 (also H16.4, L8.3)
+  - evidence: Luna (complement): The face faces forward while the shield guards the flank. Together they give the person turning toward prayer an image of protection on both front and side.
+- **L4.5** [judged] ر ء س B002 «yalıtık adlandırmalar» الرئاسة والصدارة — word بِرُءُوسِكُمْ (4 dictionaries); source: as H1.14 (also H1.14, H2.14, H3.25)
+  - evidence: Luna (same): The face’s forward prominence is joined to the head’s social prominence. The body parts that meet in the ablution sequence also share a sense of standing at the
+- **L4.6** [judged] ر ء س B004 «işin veya sözün başlangıcı» رِئاس الأمر ومن رأسه — word بِرُءُوسِكُمْ (2 dictionaries); source: as H1.16 (also H1.16, H2.16, H3.27)
+  - evidence: Luna (same): The face’s forward side meets the rare sense of the head as the first or front part of a matter. Both point toward what comes first or faces outward.
+- **L4.7** [judged] ر ء س B006 «yük sayıp yüz çevirerek değer vermemek» الرمي في الرأس — word بِرُءُوسِكُمْ (1 dictionaries, sole attestation); source: رمي فلان منه في الرأس أي أعرض عنه ولم يرفع به رأسا واستثقله (sihah)
+  - evidence: Luna (opposite): The rare sense turns the head away and refuses to regard something, while the face is the body’s forward-facing side. The verse’s faces and head are placed agai
+- **L4.8** [judged] ر ج ل B012 «günün yükselip aydınlığın yayılması» ترجل النهار — word وَأَرْجُلَكُمْ (5 dictionaries); source: as L1.12 (also L1.12)
+  - evidence: Luna (image): The face's forward side meets the daylight spreading across the scene.
+- **L4.9** [judged] ر ج ل B020 «bir işe atılıp ilerlemek» ركوب الأمر بالرجلين — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: as L1.13 (also L1.13)
+  - evidence: Luna (complement): The forward-moving feet meet the face that gives direction.
+- **L4.10** [judged] ر د د B002 «yönünden çevirip engelleme» صرف الشيء ودفعه ومنعه — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H11.9 (also H12.8)
+  - evidence: Luna (opposite): The prayer-facing face is heard against a turning away from the face or course.
+- **L4.11** [judged] ر د د B002 «yönünden çevirip engelleme» صرف الشيء ودفعه ومنعه — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H11.9 (also H11.9, H12.9, L11.4)
+  - evidence: Luna (opposite): The faces being washed stand beside the force that turns something away from a face.
+- **L4.12** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.30, H15.12, L5.8, L14.3)
+  - evidence: Luna (image): The faces suggest a direction from which one might turn away.
+- **L4.13** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.31, H15.13, L5.9, L14.4)
+  - evidence: Luna (image): A face turned toward prayer is heard against turning back from faith.
+- **L4.14** [judged] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H1.70, H2.24, H6.4, H9.4, L7.5, L16.5)
+  - evidence: Luna (image): The face to be washed is heard against a flaw that repels the eye.
+- **L4.15** [judged] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H2.25, H6.5, H9.5, L7.6, L16.6)
+  - evidence: Luna (image): The face becomes the surface where a blemish can turn the gaze away. Washing it makes the rite attend to what is presented to others.
+- **L4.16** [judged] ر د د B009 «düşmeyi önleyen dayanak, sırt veya yük devesi» العماد وما يحمل ويرد عن السقوط — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as L1.2 (also L1.2)
+  - evidence: Luna (opposite): The back stands behind what faces forward. The washing of the face makes the body's opposing sides meet in the verse's bodily sequence.
+- **L4.17** [judged] ر د د B009 «düşmeyi önleyen dayanak, sırt veya yük devesi» العماد وما يحمل ويرد عن السقوط — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: as L1.2 (also L1.3)
+  - evidence: Luna (opposite): The face’s front is set against the supporting back.
+- **L4.18** [judged] س ف ر B002 «aydınlanıp belirginleşme» إسفار الضوء والوجه — word سَفَرٍ (5 dictionaries); source: as H3.114 (also H3.114, H6.6, H9.6, L1.14)
+  - evidence: Luna (image): The face washed for prayer is heard as a face made bright. The washing scene gains an image of light appearing on its surface.
+- **L4.19** [judged] س ف ر B003 «yolculuğa çıkıp mesafe katetme» الخروج في السفر والمسافرون — word سَفَرٍ (5 dictionaries); source: as H1.33 (also H1.33, H2.35, H3.45, L5.1)
+  - evidence: Luna (complement): The traveler leaves a place and takes a direction. The face as a way or destination complements the journey’s movement away from home.
+- **L4.20** [judged] ص ل و B005 «sırtın ortası ve kuyruk kökünün iki yanı» الصَّلا من الظهر والجنب — word ٱلصَّلَوٰةِ (2 dictionaries); source: as H11.2 (also H11.2)
+  - evidence: Luna (opposite): The rare body sense places صَلا at the middle of the back and beside the tail, while the face is the front. The washing instruction spans opposite ends of the b
+- **L4.21** [judged] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قُمْتُمْ (4 dictionaries); source: as H1.44 (also H1.44, H2.46, H3.63, L5.13, T3)
+  - evidence: Luna (image): A straight posture meets a forward-facing direction. The pairing can picture a body oriented directly toward its goal.
+- **L4.22** [judged] ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word قُمْتُمْ (2 dictionaries); source: قام قائم الظهيرة إذا قامت الشمس وكاد الظل يعقل (ayn;tahdhib)؛ قام ميزان النهار إذا انتصف؛ قام ميزان النهار فاعتدل (tahdhib) (also L5.15)
+  - evidence: Luna (image): The faces being washed mirror the face of the day at noon.
+- **L4.23** [judged] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.75, H6.7, H9.8, H17.4)
+  - evidence: Luna (opposite): The command to wash faces can be heard against a face partly erased of its features. Purification calls the face back into view where the rare image makes it de
+- **L4.24** [judged] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.76, H6.8, H9.9, H17.5, L13.11)
+  - evidence: Luna (part): The rare branch describes a face partly erased or missing an eye. The face named in the command is the very surface touched by wiping.
+- **L4.25** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H1.77, H6.35, H9.16, L12.9)
+  - evidence: Luna (image): The face and the bare, level land become two surfaces in one picture. Wiping brings the body's front into contact with a smooth, open plane.
+- **L4.26** [judged] م و ه B005 «başka metali altın veya gümüşle kaplama ve gerçeği görünüşle gizleme» كسوة المعدن بماء الذهب أو الفضة — word مَآءً (3 dictionaries); source: as H1.52 (also H1.52, H2.54, H3.84, H5.24, H9.17)
+  - evidence: Luna (image): The face is heard as the visible front that can carry or reveal an appearance.
+- **L4.27** [judged] م و ه B006 «belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi» رونق كالماء في الوجه والكلام والثمر — word مَآءً (3 dictionaries); source: as H5.25 (also H5.25, H6.11, H9.12, L2.23, L5.19)
+  - evidence: Luna (image): The face to be washed is heard as bearing the luster of youth.
+- **L4.28** [judged] و ج ه B007 «günün başı, ilk saatleri» وجه النهار وصدره — word بِوُجُوهِكُمْ (3 dictionaries); source: as H6.16 (also H6.16, H16.7, L1.27)
+  - evidence: Luna (same): A literal face meets the metaphorical face of the day. Both words point to the front or opening of something.
+- **L4.29** [judged] و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: as H1.82 (also H1.83, H3.98)
+  - evidence: Luna (image): The literal face becomes the visible outer side of a person. The rare two-faced image invites the question whether an outward rite reflects an inward state.
+- **L4.30** [judged] ي د ي B008 «önünde ya da hemen öncesinde» بين اليَدين — word وَأَيْدِيكُم (2 dictionaries); source: as H9.21 (also H9.21, L1.29)
+  - evidence: Luna (same): Hands and faces share a frontward axis in the rite.
+- **L4.31** [judged] ي د ي B008 «önünde ya da hemen öncesinde» بين اليَدين — word وَأَيْدِيَكُمْ (2 dictionaries); source: as H9.21 (also H9.22)
+  - evidence: Luna (same): The hand’s position in front meets the face as the front of the body. Their pairing repeats the image of what lies at the front.
+- surah ayat these members touch (chain material): 5:2 (ر ج ل B012, ر د د B009, ي د ي B008) → 5:3 (ر د د B005) → 5:5 (س ف ر B003) → 5:8 (ر د د B009, ق و م B008) → 5:11 (ر د د B009) → 5:12 (ج ن ب B011) → 5:17 (ي د ي B008) → 5:18 (ص ل و B005) → 5:21 (ر د د B005, ر د د B008) → 5:24 (م و ه B005) → 5:26 (ص ل و B005) → 5:27 (ص ل و B005) → 5:33 (و ج ه B015, ي د ي B008) → 5:41 (ر د د B005) → 5:42 (ر ء س B006) → 5:45 (ر ء س B004, م س ح B004) → 5:48 (ر ج ل B020, ي د ي B008) → 5:49 (ص ل و B005) → 5:54 (ر د د B005, ر د د B008) → 5:57 (ر د د B005) → 5:60 (م س ح B009) → 5:61 (ر د د B005) → 5:64 (ر د د B005) → 5:65 (ج ن ب B011) → 5:66 (و ج ه B015) → 5:69 (ر د د B005) → 5:72 (ج ن ب B011) → 5:75 (س ف ر B003) → 5:78 (ر د د B008) → 5:82 (ر ج ل B012) → 5:83 (م س ح B004) → 5:95 (س ف ر B003, ق و م B008) → 5:98 (ر ج ل B012) → 5:101 (و ج ه B015) → 5:106 (ر د د B008, ق و م B008) → 5:108 (ج د د B007, س ف ر B002, ص ع د B002, م س ح B004, م و ه B006)
+
+### L5 مَّرْضَىٰٓ — 12 roots converge
+Plain sense of مَّرْضَىٰٓ: sağlıktan sapma ve güç kaybı (الخروج عن الصحة والاعتدال)
+- **L5.1** [dictionary] س ف ر B003 «yolculuğa çıkıp mesafe katetme» الخروج في السفر والمسافرون — word سَفَرٍ (5 dictionaries); source: as H1.33 (also H1.33, H2.35, H3.45, L4.19)
+  - evidence: lex/image: خروج names the plain image of مَّرْضَىٰٓ || Luna (image): The verse names illness and travel as conditions that call for accommodation. The rare travel sense and the illness sense both picture departure from a usual pl
+- **L5.2** [dictionary] ش ك ر B004 «körpe sürgün ve ona benzetilen yeni oluşum» خروج الشكير والنبات الغض — word تَشْكُرُونَ (5 dictionaries); source: as H12.10 (also H12.10)
+  - evidence: lex/image: خروج names the plain image of مَّرْضَىٰٓ
+- **L5.3** [judged] ت م م B005 «konusmada takilma» ترديد التاء في الكلام — word وَلِيُتِمَّ (2 dictionaries); source: as H3.5 (also H3.5, T13)
+  - evidence: Luna (part): Stuttering is one specific impairment within the broader field of illness and diminished capacity. The rare branch narrows the illness image to speech.
+- **L5.4** [judged] ج ن ب B007 «böğür bölgesini tutan ağrı veya hastalık» داء الجنب وأثره في البدن — word جُنُبًا (6 dictionaries); source: as H3.17 (also H3.17)
+  - evidence: Luna (part): The general concession for the sick can include someone suffering from this particular flank disease. It gives the illness named in the verse a concrete bodily 
+- **L5.5** [judged] ح ر ج B004 «yasak kılma» التحريم والحظر — word حَرَجٍ (3 dictionaries); source: as H1.12 (also H1.12, H2.12, H3.22)
+  - evidence: Luna (complement): The restriction is heard as something eased for the sick.
+- **L5.6** [judged] ح ر ج B012 «savaştan ayrılmayan adam» لزوم القتال — word حَرَجٍ (1 dictionaries, sole attestation); source: as H3.24 (also H3.24, T10)
+  - evidence: Luna (opposite): The fighter’s persistence is set against illness and lost strength.
+- **L5.7** [judged] ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: as H1.21 (also H1.21, H2.21, L1.1, T4)
+  - evidence: Luna (opposite): The illness setting is set against standing with full resolve.
+- **L5.8** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.30, H15.12, L4.12, L14.3)
+  - evidence: Luna (same): Illness and apostasy become parallel departures from a sound state.
+- **L5.9** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.31, H15.13, L4.13, L14.4)
+  - evidence: Luna (same): Bodily illness and religious apostasy both mark a departure from soundness.
+- **L5.10** [judged] ر و د B007 «gozde dolasan bozukluk» عوار العين الرائد — word يُرِيدُ (2 dictionaries); source: as L2.10 (also L7.7, L16.7)
+  - evidence: Luna (part): The eye's defect becomes one particular form of illness. The concession for the sick can then include an impaired organ within the broader bodily state.
+- **L5.11** [judged] ر و د B007 «gozde dolasan bozukluk» عوار العين الرائد — word يُرِيدُ (2 dictionaries); source: as L2.10 (also L2.10)
+  - evidence: Luna (part): An eye defect is a particular bodily impairment within the broader category of illness. The rare branch narrows the illness image to sight.
+- **L5.12** [judged] ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قُمْتُمْ (5 dictionaries); source: as H1.43 (also H1.43, H2.45, H3.62)
+  - evidence: Luna (complement): The ill are the ones who may need someone to attend to them. The rare care sense gives the illness concession a human response alongside the ritual rules.
+- **L5.13** [judged] ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قُمْتُمْ (4 dictionaries); source: as H1.44 (also H1.44, H2.46, H3.63, L4.21, T3)
+  - evidence: Luna (opposite): The straight, balanced body is set beside illness as a departure from health. The concession acknowledges bodies that cannot meet the ordinary upright ideal.
+- **L5.14** [judged] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قُمْتُمْ (2 dictionaries); source: as H1.75 (also H1.75, H4.20, H5.20, L6.9, T7)
+  - evidence: Luna (part): The fatigue that halts an animal's progress is one concrete form of bodily weakness. The illness concession can include a body unable to keep moving.
+- **L5.15** [judged] ق و م B017 «güneşin tam tepede olduğu öğle ortası» انتصاف النهار وقائم الظهيرة — word قُمْتُمْ (2 dictionaries); source: as L4.22 (also L4.22)
+  - evidence: Luna (opposite): The balanced midpoint of the day is set against bodily imbalance.
+- **L5.16** [judged] ق و م B020 «koyunun bacaklarını tutan hastalık» قوام في قوائم الشاة — word قُمْتُمْ (2 dictionaries); source: as H3.116 (also H3.116)
+  - evidence: Luna (same): The animal ailment echoes the bodily illness that triggers a concession.
+- **L5.17** [judged] ق و م B021 «göz bebeği sağlamken görme yetisinin kaybolması» عين قائمة ذاهبة البصر — word قُمْتُمْ (2 dictionaries); source: as L2.21 (also L2.21)
+  - evidence: Luna (same): A sightless but intact eye becomes a concrete form of illness.
+- **L5.18** [judged] ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُم (2 dictionaries); source: as H1.47 (also H1.47, H2.49, H3.68, L1.21, T14)
+  - evidence: Luna (complement): The care-taking sense belongs naturally beside the mention of illness. The verse’s concession can be heard as attending to the sick person, not merely naming a 
+- **L5.19** [judged] م و ه B006 «belirli kalıplarda yüz güzelliği, söz tatlılığı, üzüm olgunluğu veya hayvan varlığının semirmesi» رونق كالماء في الوجه والكلام والثمر — word مَآءً (3 dictionaries); source: as H5.25 (also H5.25, H6.11, H9.12, L2.23, L4.27)
+  - evidence: Luna (opposite): The image of radiance stands against the illness named among the concessions.
+- **L5.20** [judged] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word بِوُجُوهِكُمْ (4 dictionaries); source: as H1.59 (also H1.59, H2.61, H3.95, H6.18, H7.17, L12.1)
+  - evidence: Luna (opposite): A sound and balanced course stands against illness as deviation from health and balance. The concession for the sick is heard beside the very order their condit
+- **L5.21** [judged] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word وُجُوهَكُمْ (4 dictionaries); source: as H1.59 (also H1.60, H2.62, H3.96, H6.19, L12.2)
+  - evidence: Luna (opposite): The right order of an affair stands against a departure from health and balance. The verse's proper way and illness pull toward soundness and away from it.
+- surah ayat these members touch (chain material): 5:1 (ح ر ج B004) → 5:2 (ح ر ج B004, ر ج ل B019) → 5:3 (ح ر ج B004, ر د د B005) → 5:4 (ح ر ج B004, ق و م B004) → 5:5 (ح ر ج B004, س ف ر B003) → 5:8 (ر ج ل B019, ق و م B008) → 5:11 (ر ج ل B019) → 5:15 (ت م م B005) → 5:19 (ت م م B005) → 5:21 (ر د د B005, و ج ه B008) → 5:24 (ح ر ج B012) → 5:27 (ح ر ج B012) → 5:28 (ح ر ج B012) → 5:41 (ر د د B005) → 5:44 (ق و م B004) → 5:45 (ر و د B007, ق و م B021) → 5:52 (ق و م B016) → 5:54 (ر د د B005) → 5:57 (ر د د B005) → 5:61 (ر د د B005) → 5:64 (ر د د B005) → 5:68 (ح ر ج B012) → 5:69 (ر د د B005) → 5:71 (ق و م B021) → 5:72 (ح ر ج B004) → 5:73 (ش ك ر B004) → 5:75 (ت م م B005, س ف ر B003) → 5:78 (ت م م B005) → 5:83 (ر و د B007, ق و م B021) → 5:87 (ح ر ج B004) → 5:89 (ق و م B004, ق و م B016) → 5:93 (ح ر ج B012) → 5:95 (ح ر ج B004, س ف ر B003, ق و م B008, ق و م B016) → 5:97 (ر ج ل B019, ك و ن B003) → 5:106 (ق و م B008) → 5:108 (م و ه B006) → 5:116 (ح ر ج B012)
+
+### L6 حَرَجٍ — 10 roots converge
+Plain sense of حَرَجٍ: şiddetli darlık ve sıkışmışlık (الضيق والحرج)
+- **L6.1** [judged] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.67 (also H1.67, H2.70, H6.2, H9.2, L4.2, L12.3)
+  - evidence: Luna (opposite): The verse denies constriction and points instead to a firm, level surface for purification.
+- **L6.2** [judged] ج د د B012 «düğümlü ipler ve dolaşık kalıntılar» خيوط معقودة وبقايا متشابكة — word تَجِدُوا۟ (echo root, sound family only; 3 dictionaries); source: جدادها الخيوط التي تعقد بالخيمة؛ جداد الخيمة الخيوط؛ الجداد صغار الشجر (maqayis)؛ الجداد الخلقان من الثياب؛ كل شيء تعقد بعضه في بعض من الخيوط وأغصان الشجر فهو جداد (sihah)؛ الجداد خيوط المظلة؛ الجداد بالنبطية الخيوط الم…
+  - evidence: Luna (image): The tangled remains give a physical image of constriction.
+- **L6.3** [judged] ج ي ء B005 «» الإلجاء والاضطرار — word جَآءَ (0 dictionaries); source: as H12.7 (also H12.7, L11.3)
+  - evidence: Luna (same): The verse’s denied hardship takes on the force of a denied compulsion. Constraint and distress name the same pressure from two angles.
+- **L6.4** [judged] ر ء س B003 «selin çerçöpü toplayıp sürüklemesi» جمع السيل وحمله — word بِرُءُوسِكُمْ (2 dictionaries); source: as H1.15 (also H1.15, H2.15, H3.26, L12.6)
+  - evidence: Luna (image): The flood gathers debris into a constricted place, making hardship feel like a channel choked by what has collected there. The verse then denies that God intend
+- **L6.5** [judged] ر ف ق B005 «deveyi yavaşlatan özel bağlama» الرفاق وشد البعير — word ٱلْمَرَافِقِ (3 dictionaries); source: as H3.113 (also H3.113)
+  - evidence: Luna (image): A tether tightens around a limb and constricts its movement. Beside حَرَجٍ, hardship takes the image of something bound and narrowed.
+- **L6.6** [judged] ر ف ق B007 «dişi devenin meme kanalı ve sağım rahatsızlığı» انسداد أحاليل الناقة — word ٱلْمَرَافِقِ (1 dictionaries, sole attestation); source: ناقة رفقاء وهو أن ينسد إحليل خلفها؛ إذا انسد أحاليل الناقة قيل بها رفق وناقة رفيقة؛ المرفاق من الإبل التي إذا صرت أوجعها الصرار فإذا حلبت خرج منها دم وهي الرفقة
+  - evidence: Luna (same): An obstructed udder duct is a literal constriction. The pair gives hardship the image of a blocked passage.
+- **L6.7** [judged] ص ع د B005 «yavrusunu yitirip önceki yavrusunu emziren dişi deve» ناقة صعود تعطف على ولد — word صَعِيدًا (4 dictionaries); source: as H1.35 (also H1.35, H2.37, H3.48, L17.1)
+  - evidence: Luna (image): The camel’s lost young and the resulting turn to an earlier calf form an image of hardship and recovery. The verse’s word for constriction gives that loss an em
+- **L6.8** [judged] ص ع د B007 «acıyla yükselen uzun soluk» صعداء نفس يرتفع — word صَعِيدًا (3 dictionaries); source: الصعداء بالضم والمد تنفس ممدود (sihah)؛ الصعداء هو التنفس إلى فوق (tahdhib)؛ في نفسه وصدره صعداء أي ما يتصاعده ويتكاءده (tahdhib)؛ الصعداء وهو تنفس بتوجع فهو نفس يعلو (maqayis) (also L10.4)
+  - evidence: Luna (same): The painful breath gives bodily form to constriction. The two senses meet in distress that is felt as well as named.
+- **L6.9** [judged] ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قُمْتُمْ (2 dictionaries); source: as H1.75 (also H1.75, H4.20, H5.20, L5.14, T7)
+  - evidence: Luna (image): A frozen flow becomes an image of a path that can no longer open. The word for hardship then feels like movement jammed into a narrow space.
+- **L6.10** [judged] ك ع ب B010 «zarar vermek üzere umursamadan atılmak» انطلاق المضار غير المبالِي — word ٱلْكَعْبَيْنِ (1 dictionaries, sole attestation); source: as H3.67 (also H3.67, L11.7)
+  - evidence: Luna (complement): Heedless harmful action can create the constriction the verse denies as God's aim.
+- **L6.11** [judged] ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة — word كُنتُم (1 dictionaries, sole attestation); source: الكينة في قولهم بات فلان بكينة سوء أي بحال سوء فأصله الكون فعلة من الكون (maqayis) (also L8.6)
+  - evidence: Luna (same): The bad condition carried by the rare branch meets the constriction named as hardship. The verse’s denial of burden answers precisely such a state of distress.
+- **L6.12** [judged] م س ح B019 «deve dirseğinin hafifçe sürtmesi» المس الخفيف بلا إدماء أو عرك — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H14.2 (also H14.2, L13.17)
+  - evidence: Luna (opposite): The rare sense gives a touch so light it neither bruises nor chafes, set against the constriction God says He does not intend. The rite’s gentleness answers the
+- **L6.13** [judged] م س ح B019 «deve dirseğinin hafifçe sürtmesi» المس الخفيف بلا إدماء أو عرك — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H14.2 (also H14.3, L13.18)
+  - evidence: Luna (opposite): A touch without abrasion stands against constriction and hardship. The rare image gives bodily form to the verse's refusal to impose harsh pressure.
+- **L6.14** [judged] ي د ي B005 «egemenlik ve buyurma gücü» اليَد السلطان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H6.24 (also H6.25, H7.18, H10.19)
+  - evidence: Luna (image): Authority could press people into constriction, yet the verse denies that this is the divine purpose. The pair makes the rejected hardship feel like a heavy han
+- surah ayat these members touch (chain material): 5:3 (ك ع ب B010) → 5:42 (ك ع ب B010) → 5:52 (ق و م B016) → 5:58 (ر ف ق B005) → 5:66 (ص ع د B007, ي د ي B005) → 5:76 (ك ع ب B010) → 5:89 (ق و م B016) → 5:95 (ق و م B016) → 5:103 (ر ف ق B005) → 5:108 (ج د د B007) → 5:109 (ر ء س B003)
+
+### L7 فَٱطَّهَّرُوا۟ — 9 roots converge
+Plain sense of فَٱطَّهَّرُوا۟: kir ve kusurdan arınmışlık (النقاء وزوال الدنس)
+- **L7.1** [judged] ج ن ب B003 «uzak durma veya uzaklaştırma» المجانبة إبعاد واعتزال وغربة — word جُنُبًا (6 dictionaries); source: as H13.7 (also H13.7, L16.2, L18.2)
+  - evidence: Luna (same): Purification can be heard as putting distance between oneself and what soils. The response to the junub state thus makes separation itself part of cleansing.
+- **L7.2** [judged] ح ر ج B003 «günah ve manevi suç» الإثم والتحرج — word حَرَجٍ (5 dictionaries); source: as H3.21 (also H3.21)
+  - evidence: Luna (opposite): Sin is set against purification from stain.
+- **L7.3** [judged] ر د د B001 «geri dönme veya geri döndürme» الرجوع إلى الشيء أو رده إلى موضعه — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: أصل واحد مطرد منقاس وهو رجع الشيء (maqayis)؛ رده إلى منزله ورد إليه جوابا أي رجع (sihah)؛ الرد مصدر رددت الشيء (tahdhib)؛ الرد صرف الشيء بذاته أو بحالة من أحواله وفارتد بصيرا أي عاد إليه البصر (mufradat) (also L16.3)
+  - evidence: Luna (same): Purification sounds like a return to a clean state.
+- **L7.4** [judged] ر د د B001 «geri dönme veya geri döndürme» الرجوع إلى الشيء أو رده إلى موضعه — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as L7.3 (also L16.4)
+  - evidence: Luna (same): Purification can be heard as a return to a clean state.
+- **L7.5** [judged] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H1.70, H2.24, H6.4, H9.4, L4.14, L16.5)
+  - evidence: Luna (opposite): Full purification stands against the flaw that mars appearance.
+- **L7.6** [judged] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H2.25, H6.5, H9.5, L4.15, L16.6)
+  - evidence: Luna (opposite): Purification answers the image of a blemish. The command can be heard as moving from what repels the gaze toward what is clean.
+- **L7.7** [judged] ر و د B007 «gozde dolasan bozukluk» عوار العين الرائد — word يُرِيدُ (2 dictionaries); source: as L2.10 (also L5.10, L16.7)
+  - evidence: Luna (opposite): The blemished eye stands against the call to purification. The contrast lets cleansing sound like the removal of a specific defect.
+- **L7.8** [judged] ط ه ر B002 «adet kanamasının kesilmesi ve kanamasız dönem» طهر النساء من الحيض — word لِيُطَهِّرَكُمْ (4 dictionaries); source: as H5.30 (also H5.30, H8.6)
+  - evidence: Luna (same): The full purification command can carry a specific echo of the blood-free state. The rare branch makes one bodily form of purity audible within the broader word
+- **L7.9** [judged] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H1.39 (also H1.39, H2.41, H3.53, H4.15, H5.15, L10.8)
+  - evidence: Luna (same): The purifier and the command to become pure name two sides of one process. The branch makes the means behind the purification audible.
+- **L7.10** [judged] ط ي ب B003 «tuvalet sonrası pisliği gidererek temizlenme» الاستطابة تطهير من الخبث — word طَيِّبًا (3 dictionaries); source: as H1.73 (also H1.73, H2.73, H3.57, H5.17, L16.1)
+  - evidence: Luna (same): The cleaning after toilet use and the command to purify both name removal of impurity. The rare sense makes one ordinary bodily instance of the broader command.
+- **L7.11** [judged] ط ي ب B006 «içten razı olma ve iç rahatlığı bulma» النفس تطيب بالشيء — word طَيِّبًا (3 dictionaries); source: as H17.3 (also H17.3, L2.17)
+  - evidence: Luna (complement): A clean, wholesome medium meets the act of purification. The verse’s earth-based rite can be performed with something that leaves the person inwardly at ease.
+- **L7.12** [judged] غ س ل B002 «yıkamada kullanılan su veya madde ile yıkanma yeri» ماء الغسل وما يغسل به أو فيه — word فَٱغْسِلُوا۟ (4 dictionaries); source: as H1.74 (also H1.74, H2.74, H4.17, H7.4)
+  - evidence: Luna (part): Washing is one stage by which a person becomes purified. The later command gathers the bodily cleansing into a fuller reset.
+- **L7.13** [judged] م و ه B004 «üreme sıvısını dişinin döl yatağına bırakma» ماء الفحل في الرحم — word مَآءً (2 dictionaries); source: as H5.23 (also H5.23, H8.15)
+  - evidence: Luna (complement): The reproductive fluid is heard beside the full purification required in the state of junub.
+- **L7.14** [judged] ي م م B002 «toprakla namaz temizliği» التيمم للصلاة بمسح الوجه واليدين بالتراب — word فَتَيَمَّمُوا۟ (1 dictionaries); source: as H1.86 (also H1.86, H2.67, H6.26, H9.13, L10.2)
+  - evidence: Luna (same): The verse sets full purification beside its earth-based form. Tayammum remains a deliberate route to ritual purity when water is absent.
+- **L7.15** [judged] ي م م B003 «deniz veya engin su» اليم ماء عظيم — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.65 (also H1.65, H2.68, H3.107, H4.21, H5.28, L12.10)
+  - evidence: Luna (image): The vast water sense makes purification feel like a complete cleansing. The verse’s later dry rite answers the same need on a smaller, earth-based scale.
+- surah ayat these members touch (chain material): 5:2 (ح ر ج B003, ط ي ب B006) → 5:3 (ح ر ج B003, ط ي ب B006) → 5:5 (ط ي ب B006) → 5:8 (ح ر ج B003) → 5:9 (ي م م B003) → 5:16 (ط ي ب B006) → 5:21 (ر د د B008) → 5:29 (ح ر ج B003) → 5:31 (ج ن ب B003) → 5:33 (ي م م B003) → 5:36 (ي م م B003) → 5:41 (ي م م B003) → 5:45 (ر و د B007) → 5:48 (ر د د B001) → 5:54 (ر د د B008) → 5:60 (ر د د B001) → 5:73 (ي م م B003) → 5:75 (ط ي ب B006) → 5:78 (ر د د B008) → 5:83 (ر و د B007) → 5:85 (ر د د B001) → 5:88 (ي م م B002) → 5:94 (ي م م B003) → 5:95 (ط ي ب B006) → 5:96 (ي م م B003) → 5:100 (ي م م B002) → 5:103 (ي م م B003) → 5:105 (ر د د B001) → 5:106 (ر د د B008) → 5:108 (ي م م B002)
+
+### L8 ءَامَنُوٓا۟ — 9 roots converge
+Plain sense of ءَامَنُوٓا۟: guven ve guvenilirlik (سكون القلب في أمن وثقة)
+- **L8.1** [dictionary] ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: as H17.8 (also H17.8, H18.1)
+  - evidence: rel/thematic: ء م ن B003 (yakarışın kabulünü isteyen karşılık) || Luna (complement): The trusted God is also the one invoked and sworn by. Faith becomes trust placed in the name called upon.
+- **L8.2** [judged] ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: as H10.4 (also H10.4, H11.6, T5)
+  - evidence: Luna (image): Faith becomes like a guarded trust. The image joins security of heart to a hand that shields what is entrusted.
+- **L8.3** [judged] ج ن ب B011 «yanı koruyan kalkan veya örtü» المجنب وقاء إلى الجنب — word جُنُبًا (5 dictionaries); source: as H16.4 (also H16.4, L4.4)
+  - evidence: Luna (same): The believers’ settled trust can be heard as protection held close to the body. The shield image makes faith feel like a guard at one’s side.
+- **L8.4** [judged] ص ل ي B002 «iyilik dileme; özneye göre esirgeme, övme veya aklama» الدعاء والبركة والرحمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: as H14.8 (also H14.8, H15.17, L2.16)
+  - evidence: Luna (complement): The blessing or supplication is directed toward those who trust. Faith names its recipients, and prayer names what is asked or bestowed for them.
+- **L8.5** [judged] ط ي ب B002 «aldatmasız ve antlaşmayı bozmadan tutsak alma» سبي طيبة لا غدر فيه — word طَيِّبًا (2 dictionaries); source: سبي طيبة أي طيب (maqayis)؛ سبي طيبة صحيح السباء لم يكن عن غدر ولا نقض عهد (sihah)
+  - evidence: Luna (same): The faithful, trustworthy believers meet the sense of a capture free of treachery or broken treaty. The pairing brings ethical trust into the word for what is g
+- **L8.6** [judged] ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة — word كُنتُم (1 dictionaries, sole attestation); source: as L6.11 (also L6.11)
+  - evidence: Luna (opposite): A bad state stands against the security carried by faith. The exception begins with vulnerability, while the address still names people held in trust.
+- **L8.7** [judged] ك و ن B006 «kötü durumda gece geçirme» حالة السوء بكينة — word كُنتُمْ (1 dictionaries, sole attestation); source: as L6.11
+  - evidence: Luna (opposite): The bad night state stands against the security of faith.
+- **L8.8** [judged] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H3.81 (also H3.81, H14.11, L10.15)
+  - evidence: Luna (opposite): The root's feigned smoothness stands against the security of faith. The address to believers thus carries an image of sincerity set against deceptive conduct.
+- **L8.9** [judged] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H3.81 (also H3.82, H14.12, L10.16)
+  - evidence: Luna (opposite): The address to those who trust God is heard against a rare sense of false, soothing speech. The ritual command is framed for people whose trust is set against i
+- **L8.10** [judged] م س ح B017 «satışta el sıkışma» المصافحة في البيع — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H10.13 (also H10.14, L3.18, L13.16)
+  - evidence: Luna (image): A handshake in a sale becomes an image of trust made visible between people. Beside ءَامَنُوا۟, the rare sense suggests faith as a bond confirmed by joined hand
+- **L8.11** [judged] ن ع م B004 «evet diyerek onaylamak veya söz vermek» الجواب بنعم والتصديق — word نِعْمَتَهُۥ (4 dictionaries); source: نعم جواب الواجب ضد لا (maqayis)؛ نعم عدة وتصديق وجواب الاستفهام (sihah)؛ نعم يكون تصديقا ويكون عدة (tahdhib)؛ نعم كلمة للإيجاب (mufradat)
+  - evidence: Luna (same): Faith can be heard as the heart’s yes: trust that affirms and settles within it. The blessing’s rare sense of assent gives that trust the shape of a pledged ans
+- **L8.12** [judged] ي د ي B006 «boyun eğme, bağlılık ve güvence üstlenme» اليَد المستسلمة — word وَأَيْدِيكُم (3 dictionaries); source: as H10.20 (also L3.25)
+  - evidence: Luna (complement): Faith appears as trust enacted through obedience.
+- **L8.13** [judged] ي د ي B006 «boyun eğme, bağlılık ve güvence üstlenme» اليَد المستسلمة — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H10.20 (also H10.20)
+  - evidence: Luna (image): The heart’s trust meets the hand’s pledge of allegiance. Faith appears as an inward security that can be embodied in surrender and commitment.
+- surah ayat these members touch (chain material): 5:4 (ء ي د B002) → 5:5 (ء ل ه B002, ط ي ب B002) → 5:7 (ء ي د B002) → 5:8 (ء ل ه B002, ء ي د B002) → 5:9 (ء ل ه B002) → 5:12 (ء ي د B002, ج ن ب B011, ص ل ي B002, ط ي ب B002) → 5:13 (ط ي ب B002) → 5:14 (ط ي ب B002) → 5:32 (ن ع م B004) → 5:41 (م س ح B016) → 5:42 (م س ح B016) → 5:55 (ص ل ي B002) → 5:58 (ص ل ي B002) → 5:65 (ء ي د B002, ج ن ب B011) → 5:72 (ء ي د B002, ج ن ب B011) → 5:103 (م س ح B016) → 5:111 (ص ل ي B002)
+
+### L9 فَتَيَمَّمُوا۟ — 9 roots converge
+Plain sense of فَتَيَمَّمُوا۟: bilerek hedefe yönelme (قصد الشيء وتعمده)
+- **L9.1** [judged] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H3.11 (also H3.11, H18.4, L1.6, L11.1)
+  - evidence: Luna (same): When water is absent, the verse directs a deliberate, earnest turn to clean earth.
+- **L9.2** [judged] ر و د B003 «dolasarak arama» طلب الشيء وارتياده — word يُرِيدُ (3 dictionaries); source: as H3.39 (also H3.39, L20.2)
+  - evidence: Luna (same): A search for what is needed and a deliberate aim toward it meet in the choice of a substitute surface. The movement has a destination, not merely wandering.
+- **L9.3** [judged] ر و د B003 «dolasarak arama» طلب الشيء وارتياده — word يُرِيدُ (3 dictionaries); source: as H3.39 (also H3.40, L20.3)
+  - evidence: Luna (same): The intentional turn toward clean earth echoes the older image of seeking by ranging. Tayammum becomes a directed search for the available medium.
+- **L9.4** [judged] ص ع د B002 «yola çıkıp arazide ilerleme» إصعاد في البلاد والوجوه — word صَعِيدًا (5 dictionaries); source: as H3.46 (also H3.46, H9.7, H16.3, L4.1)
+  - evidence: Luna (same): Setting out across land meets the deliberate act of aiming toward a destination. The clean surface becomes the intended endpoint of that directed movement.
+- **L9.5** [judged] ص ل و B003 «ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma» العبادة المخصوصة — word ٱلصَّلَوٰةِ (4 dictionaries); source: as H13.3 (also H13.3, H15.16, L1.16, L14.5)
+  - evidence: Luna (complement): Tayammum is the deliberately chosen means that keeps prayer in view when water is unavailable. The substitute act is directed toward the formal worship it prepa
+- **L9.6** [judged] ص ل ي B001 «ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma» الصلاة عبادة لازمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 4 dictionaries); source: as H13.5 (also H13.5, L1.18, L14.7)
+  - evidence: Luna (complement): Tayammum is directed toward the prayer for which purification prepares. The substitute rite and the worship it serves form one sequence.
+- **L9.7** [judged] ص ل ي B005 «av yakalamak için kurulan kapan» المَصالي أشراك وفخوخ — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: مصالي هي الأشراك واحدتها مصلاة (maqayis)؛ المصلاة أن تنصب شركا ونحوه (ayn)؛ المصالي شبيهة بالشرك تنصب للطير وغيرها (tahdhib)
+  - evidence: Luna (same): Both senses involve setting an aim. The trap is laid toward its quarry, just as tayammum is intentionally directed toward its medium.
+- **L9.8** [judged] ص ل ي B008 «tapınma yeri, özellikle Yahudi tapınağı» الصلوات مواضع عبادة — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: صلوات اليهود كنائسهم واحدها صلاة (ayn)؛ الصلوات كنائس اليهود (tahdhib)؛ يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات (mufradat) (also L14.8, T15)
+  - evidence: Luna (complement): The worship-place is a destination toward which the worshipper aims. The substitute purification turns the body toward the worship it prepares for.
+- **L9.9** [judged] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H1.72 (also H1.72, H2.72, H4.13, H5.13, L10.7)
+  - evidence: Luna (complement): The cleansing sense that allows an equivalent medium meets the instruction to aim for a substitute. The verse’s dry procedure becomes the alternative form of pu
+- **L9.10** [judged] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word لِيُطَهِّرَكُمْ (4 dictionaries); source: as H1.72 (also H4.14, H5.14)
+  - evidence: Luna (complement): The branch allows water or an equivalent means, and tayammum supplies that alternative when water is missing. The two senses meet at substitution.
+- **L9.11** [judged] م ر ض B004 «işi gevşek bırakma ve çabada yetersiz kalma» إضعاف الأمر وقصور الحركة — word مَّرْضَىٰٓ (4 dictionaries); source: as L1.24 (also L1.24)
+  - evidence: Luna (opposite): The illness clause names diminished effort, yet the substitute begins with deliberate aim. Purposeful direction answers an incapacity to carry on the ordinary c
+- **L9.12** [judged] م ر ض B006 «doğruya yaklaşmak ama ulaşamamak» مقاربة الإصابة دون بلوغها — word مَّرْضَىٰٓ (4 dictionaries); source: as H3.74 (also H3.74)
+  - evidence: Luna (opposite): The sick condition is imagined as effort approaching its aim but stopping short. Tayammum directs the person toward a chosen clean surface, giving the concessio
+- **L9.13** [judged] م و ه B007 «kaya kristali veya ayna» صفاء الماوية كالبلور والمرآة — word مَآءً (2 dictionaries); source: as H1.80 (also H1.80, H5.26, L10.17, L16.10)
+  - evidence: Luna (complement): The mirror-like water is precisely what is missing when the believers turn toward earth. Its absence gives the deliberate turn of تَيَمَّمُوا۟ its force as a ch
+- **L9.14** [judged] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word وُجُوهَكُمْ (6 dictionaries); source: as H3.91 (also H3.91, H6.12, H11.12, H12.5, L20.6)
+  - evidence: Luna (same): The face turns toward what it confronts. Tayammum also names a directed aim, so both senses draw the body toward a target.
+- **L9.15** [judged] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word بِوُجُوهِكُمْ (6 dictionaries); source: as H3.91 (also H3.92, H4.27, H6.13, H11.13, H12.6, L20.7)
+  - evidence: Luna (complement): The intentional aim of tayammum directs the worshipper toward its chosen surface. The face is the part that meets that target in the following act.
+- **L9.16** [judged] و ج ه B012 «hıyar veya kavunun altını kazıp yana yatırma» توجيه النبات — word بِوُجُوهِكُمْ (1 dictionaries, sole attestation); source: as H6.40 (also H6.40)
+  - evidence: Luna (image): The rare agricultural action deliberately turns a plant toward a chosen position. It echoes the intentional direction of فَتَيَمَّمُوا۟, making tayammum feel li
+- **L9.17** [judged] و ج ه B012 «hıyar veya kavunun altını kazıp yana yatırma» توجيه النبات — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: as H6.40 (also H6.41)
+  - evidence: Luna (image): The fruit is deliberately inclined into a chosen position. That physical turning gives an image to the intentional aiming named by tayammum.
+- surah ayat these members touch (chain material): 5:12 (ص ل ي B001, ص ل ي B005, ص ل ي B008) → 5:13 (ص ل ي B008) → 5:31 (م و ه B007, و ج ه B003) → 5:41 (ص ل ي B008) → 5:48 (ص ل و B003, ص ل ي B001) → 5:52 (م و ه B007, و ج ه B003) → 5:55 (ص ل ي B001, ص ل ي B005, ص ل ي B008) → 5:58 (ص ل ي B001, ص ل ي B005, ص ل ي B008) → 5:62 (م و ه B007, و ج ه B003) → 5:72 (م و ه B007) → 5:76 (م ر ض B006) → 5:97 (ص ل و B003, ص ل ي B001) → 5:107 (ط ه ر B003) → 5:108 (ص ع د B002) → 5:110 (ص ل ي B005) → 5:116 (م ر ض B006)
+
+### L10 طَيِّبًا — 9 roots converge
+Plain sense of طَيِّبًا: bağlama göre hoş, temiz, iyi veya dinen izinli olan (الطَّيِّب خلاف الخبيث)
+- **L10.1** [dictionary] ن ع م B011 «bir yeri kendine uygun bulup orada kalmak» موافقة المكان وطيب المقام — word نِعْمَتَهُۥ (3 dictionaries); source: as L1.26 (also L1.26)
+  - evidence: lex/image: وطيب → root ط ي ب || Luna (same): A place that suits a person is one where the stay feels good. The selected earth is likewise described as wholesome and good.
+- **L10.2** [dictionary] ي م م B002 «toprakla namaz temizliği» التيمم للصلاة بمسح الوجه واليدين بالتراب — word فَتَيَمَّمُوا۟ (1 dictionaries); source: as H1.86 (also H1.86, H2.67, H6.26, H9.13, L7.14)
+  - evidence: lex/src: طيب → root ط ي ب || Luna (part): The rite calls for a wholesome, clean surface. Its required quality narrows what may serve as the medium.
+- **L10.3** [judged] ش ك ر B006 «kadın cinsel organı veya birleşme için örtmece» كناية الفرج والنكاح — word تَشْكُرُونَ (5 dictionaries); source: as H8.4 (also H8.4, L13.1)
+  - evidence: Luna (complement): The rare sexual sense meets the adjective of goodness and purity. Together they allow intimacy to be heard as belonging to what is wholesome or permitted, befor
+- **L10.4** [judged] ص ع د B007 «acıyla yükselen uzun soluk» صعداء نفس يرتفع — word صَعِيدًا (3 dictionaries); source: as L6.8 (also L6.8)
+  - evidence: Luna (opposite): The painful rising breath meets the quality of what is good and wholesome. The clean earth can be heard as a welcome relief from distress.
+- **L10.5** [judged] ص ل ي B009 «üzerinde madde dövülen geniş taş» الصلاية حجر يدق عليه — word ٱلصَّلَوٰةِ (echo root, sound family only; 2 dictionaries); source: الصلاية الفهر (sihah)؛ الصلاية كل حجر عريض يدق عليه عطر أو هبيد (tahdhib)؛ الصلاية سريحة خشنة غليظة من القف (tahdhib)
+  - evidence: Luna (part): The broad stone is a tool for pounding what is fragrant or pleasant. The clean, wholesome surface is heard beside the pleasant substance made on such a stone.
+- **L10.6** [judged] ط ه ر B002 «adet kanamasının kesilmesi ve kanamasız dönem» طهر النساء من الحيض — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H5.30 (also H5.31, H8.7, L16.8)
+  - evidence: Luna (same): The blood-free state and the wholesome quality of the earth meet in an image of what is clean. The verse’s alternative medium thus carries the same purity idea 
+- **L10.7** [judged] ط ه ر B003 «suyla veya eşdeğer bir araçla yıkanıp temizlenme» التطهر بالماء والغسل — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H1.72 (also H1.72, H2.72, H4.13, H5.13, L9.9)
+  - evidence: Luna (same): The act of cleansing meets the quality of a clean and wholesome surface. The substitute medium is presented as suitable to the purification it serves.
+- **L10.8** [judged] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H1.39 (also H1.39, H2.41, H3.53, H4.15, H5.15, L7.9)
+  - evidence: Luna (same): The clean surface matches the branch's sense of a pure medium. Its quality is part of why it can serve as a substitute.
+- **L10.9** [judged] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H2.42, H3.54, H4.16, H5.16, H10.7)
+  - evidence: Luna (same): The pure, purifying medium meets the wholesome quality required of the selected earth. The substitute must itself be suitable as it acts to cleanse.
+- **L10.10** [judged] ط ه ر B005 «kötüden uzaklaşıp davranışını arındırma» تنزيه النفس والعمل عن القبيح — word لِيُطَهِّرَكُمْ (5 dictionaries); source: as H3.55 (also H3.55, H5.32)
+  - evidence: Luna (opposite): Avoiding blameworthy conduct meets the clean and wholesome quality of the chosen surface. The pair sets what is good against what is rejected as foul.
+- **L10.11** [judged] ط ه ر B005 «kötüden uzaklaşıp davranışını arındırma» تنزيه النفس والعمل عن القبيح — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H3.55 (also H3.56, H5.33)
+  - evidence: Luna (same): Avoiding what is blameworthy meets the clean and wholesome quality of the earth. The selected medium thus echoes moral as well as bodily goodness.
+- **L10.12** [judged] غ و ط B003 «dışkılama için örtmece» كناية الحدث والتبرز — word ٱلْغَآئِطِ (3 dictionaries); source: as H3.59 (also H3.59, H5.34)
+  - evidence: Luna (opposite): The bodily waste is set against the wholesome, clean earth selected for the substitute rite. The verse moves from impurity toward a clean medium.
+- **L10.13** [judged] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word فَٱمْسَحُوا۟ (4 dictionaries); source: as H8.13 (also H8.13, L13.2, L17.6)
+  - evidence: Luna (complement): The intimate act can occasion the need for purification, and the verse names clean earth as the substitute medium. The rare sense therefore meets the quality of
+- **L10.14** [judged] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H8.13 (also H8.14, L13.3, L17.7)
+  - evidence: Luna (complement): The intercourse sense sits beside the wholesome, clean surface chosen for purification. The pair links bodily contact to the clean substitute rite that follows 
+- **L10.15** [judged] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H3.81 (also H3.81, H14.11, L8.8)
+  - evidence: Luna (opposite): The wholesome medium is heard against pleasant speech that conceals deceit. The contrast asks the reader to distinguish what is truly good from what only feels 
+- **L10.16** [judged] م س ح B016 «aldatıcı yumuşak söz ve içtensiz geçinme» الملاينة المخادعة في القول والمعاشرة — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H3.81 (also H3.82, H14.12, L8.9)
+  - evidence: Luna (opposite): The wholesome, clean surface selected for the rite stands against falsehood dressed in pleasing words. The rare sense makes purity a contrast to deceptive sweet
+- **L10.17** [judged] م و ه B007 «kaya kristali veya ayna» صفاء الماوية كالبلور والمرآة — word مَآءً (2 dictionaries); source: as H1.80 (also H1.80, H5.26, L9.13, L16.10)
+  - evidence: Luna (complement): The selected earth is described as good and clean where water is unavailable. The clarity of water becomes an image of the quality the substitute medium must ha
+- surah ayat these members touch (chain material): 5:2 (ط ه ر B005) → 5:3 (ط ه ر B005) → 5:5 (ط ه ر B005) → 5:12 (ص ل ي B009) → 5:18 (ط ه ر B005) → 5:29 (ط ه ر B005) → 5:31 (م و ه B007) → 5:41 (م س ح B016) → 5:42 (م س ح B016) → 5:49 (ط ه ر B005) → 5:52 (م و ه B007) → 5:53 (ط ه ر B005) → 5:55 (ص ل ي B009) → 5:58 (ص ل ي B009) → 5:60 (ن ع م B011) → 5:62 (م و ه B007) → 5:66 (ص ع د B007) → 5:72 (م و ه B007) → 5:88 (ن ع م B011, ي م م B002) → 5:90 (ط ه ر B005) → 5:95 (غ و ط B003) → 5:100 (ن ع م B011, ي م م B002) → 5:103 (م س ح B016) → 5:107 (ط ه ر B003, ن ع م B011) → 5:108 (ي م م B002)
+
+### L11 يُرِيدُ — 8 roots converge
+Plain sense of يُرِيدُ: dileyip yonelme (الإرادة والمشيئة)
+- **L11.1** [judged] ج د د B008 «şakadan uzak kararlı çaba» عزم واجتهاد — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H3.11 (also H3.11, H18.4, L1.6, L9.1)
+  - evidence: Luna (same): The denied purpose and the affirmed purpose are both heard as resolute intent.
+- **L11.2** [judged] ج ع ل B004 «bir eylemi yapmaya başlama» الشروع في الفعل أو ملازمته — word لِيَجْعَلَ (4 dictionaries); source: as L1.7 (also L1.7)
+  - evidence: Luna (same): The denied intention is heard as a refusal to begin imposing hardship.
+- **L11.3** [judged] ج ي ء B005 «» الإلجاء والاضطرار — word جَآءَ (0 dictionaries); source: as H12.7 (also H12.7, L6.3)
+  - evidence: Luna (opposite): The verse denies a coercive purpose and then states what God does will: purification and completion of favor. The contrast makes divine will sound purposeful wi
+- **L11.4** [judged] ر د د B002 «yönünden çevirip engelleme» صرف الشيء ودفعه ومنعه — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H11.9 (also H11.9, H12.9, L4.11)
+  - evidence: Luna (complement): God’s will can be heard as a will to deflect hardship.
+- **L11.5** [judged] ر د د B010 «yineleme, gidip gelme, kararsızlık veya sıkı yapılı olma» التكرار والتردد والحيرة — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.24 (also H1.24, H2.26, H3.34, H4.10, H5.10)
+  - evidence: Luna (opposite): The sound echo sets wavering against purposeful will. The repeated divine intent is heard as steady rather than hesitant.
+- **L11.6** [judged] ق و م B014 «karşılıklı direnip mücadele etme» مقاومة ومنازلة — word قُمْتُمْ (3 dictionaries); source: قاومته في كذا أي نازلته (ayn)؛ قاومه في المصارعة وغيرها؛ تقاوموا في الحرب أي قام بعضهم لبعض (sihah)؛ ما زلت أقاوم فلانا في هذا الأمر أي أنازله (tahdhib)
+  - evidence: Luna (complement): The rare struggle sense places a stance of resistance beside God's will. Since the verse names purification and completed favor as that will, the bodily stance 
+- **L11.7** [judged] ك ع ب B010 «zarar vermek üzere umursamadan atılmak» انطلاق المضار غير المبالِي — word ٱلْكَعْبَيْنِ (1 dictionaries, sole attestation); source: as H3.67 (also H3.67, L6.10)
+  - evidence: Luna (opposite): Divine intention stands against heedless action that disregards its effects.
+- **L11.8** [judged] ك و ن B004 «boyun eğme» الخضوع بالاستكانة — word كُنتُمْ (1 dictionaries, sole attestation); source: as H10.10 (also L18.6)
+  - evidence: Luna (complement): Submission is the fitting response to the divine will to purify.
+- **L11.9** [judged] ك و ن B004 «boyun eğme» الخضوع بالاستكانة — word كُنتُم (1 dictionaries, sole attestation); source: as H10.10 (also H10.10, L3.13)
+  - evidence: Luna (complement): Submission can be heard as the response to a will. The repeated statement of divine purpose then meets the worshippers’ yielding to it.
+- **L11.10** [judged] و ج د B004 «üzüntü veya sevgi duymak; güçlü isteğin doyumunu yaşamak» وجدان الحزن والمحبة — word تَجِدُوا۟ (4 dictionaries); source: as H10.3 (also H10.3, H18.6, L3.2)
+  - evidence: Luna (same): The divine will is heard as desire with force behind it.
+- surah ayat these members touch (chain material): 5:3 (ك ع ب B010) → 5:12 (ر د د B010) → 5:14 (ج ع ل B004) → 5:42 (ك ع ب B010) → 5:63 (ج ع ل B004) → 5:64 (ق و م B014) → 5:76 (ك ع ب B010) → 5:106 (ر د د B010)
+
+### L12 ٱلْغَآئِطِ — 8 roots converge
+Plain sense of ٱلْغَآئِطِ: alçak ve çukur yer (اطمئنان وغور في الأرض)
+- **L12.1** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word بِوُجُوهِكُمْ (4 dictionaries); source: as H1.59 (also H1.59, H2.61, H3.95, H6.18, H7.17, L5.20)
+  - evidence: lex/src: غايط → root غ و ط
+- **L12.2** [dictionary] و ج ه B008 «sözün veya işin doğru yönü ve ona uygun düzenleme» وجه الأمر وصوابه — word وُجُوهَكُمْ (4 dictionaries); source: as H1.59 (also H1.60, H2.62, H3.96, H6.19, L5.21)
+  - evidence: lex/src: غايط → root غ و ط
+- **L12.3** [judged] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.67 (also H1.67, H2.70, H6.2, H9.2, L4.2, L6.1)
+  - evidence: Luna (opposite): The verse moves from the low hollow of al-ghāʾiṭ to clean, level earth for tayammum.
+- **L12.4** [judged] ج ي ء B002 «» الجِيأة مجتمع الماء — word جَآءَ (0 dictionaries); source: as H4.5 (also H4.5, H5.5)
+  - evidence: Luna (image): The rare water-pool image settles into the low hollow named by ٱلْغَآئِطِ. Together they picture water collected in a depression.
+- **L12.5** [judged] ج ي ء B003 «» مجتمع الماء في هبطة أو حول حصن — word جَآءَ (0 dictionaries); source: as H4.6 (also H4.6, H5.6)
+  - evidence: Luna (image): The hollow is pictured as a place where water gathers. The word for the low place and the rare water-pool image form one scene.
+- **L12.6** [judged] ر ء س B003 «selin çerçöpü toplayıp sürüklemesi» جمع السيل وحمله — word بِرُءُوسِكُمْ (2 dictionaries); source: as H1.15 (also H1.15, H2.15, H3.26, L6.4)
+  - evidence: Luna (image): The flood’s gathering of debris meets the low hollow named by الغائط. A low place becomes the channel where gathered matter collects and is carried onward.
+- **L12.7** [judged] ص ع د B001 «yukarı çıkma ve yükselme» ارتفاع وصعود إلى فوق — word صَعِيدًا (5 dictionaries); source: as H7.9 (also H7.9, L15.6)
+  - evidence: Luna (opposite): The climb rises while the hollow ground sinks. Their opposite directions frame the verse’s movement between high and low terrain.
+- **L12.8** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word وَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H2.76, H6.34, H9.15)
+  - evidence: Luna (opposite): The low hollow from which someone comes is heard against the rare image of broad, level, barren ground. The verse’s movement from low terrain to a selected surf
+- **L12.9** [judged] م س ح B009 «düz ve çıplak arazi» الأرض المستوية الملساء — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H1.77 (also H1.77, H6.35, H9.16, L4.25)
+  - evidence: Luna (opposite): The sunken hollow of ٱلْغَآئِطِ is set against broad, level land. The verse's landscape shifts from depression to an even surface.
+- **L12.10** [judged] ي م م B003 «deniz veya engin su» اليم ماء عظيم — word فَتَيَمَّمُوا۟ (5 dictionaries); source: as H1.65 (also H1.65, H2.68, H3.107, H4.21, H5.28, L7.15)
+  - evidence: Luna (image): The deep sea and the low hollow ground meet in an image of downward depth. The verse places those two landscapes among the circumstances that lead to purificati
+- surah ayat these members touch (chain material): 5:9 (ي م م B003) → 5:21 (و ج ه B008) → 5:33 (ي م م B003) → 5:36 (ي م م B003) → 5:41 (ي م م B003) → 5:60 (ص ع د B001, م س ح B009) → 5:66 (ص ع د B001) → 5:73 (ي م م B003) → 5:94 (ي م م B003) → 5:96 (ي م م B003) → 5:103 (ي م م B003) → 5:108 (ج د د B007) → 5:109 (ر ء س B003)
+
+### L13 لَٰمَسْتُمُ — 7 roots converge
+Plain sense of لَٰمَسْتُمُ: elle ya da tenle dokunarak algılama (المس باليد والبشرة)
+- **L13.1** [dictionary] ش ك ر B006 «kadın cinsel organı veya birleşme için örtmece» كناية الفرج والنكاح — word تَشْكُرُونَ (5 dictionaries); source: as H8.4 (also H8.4, L10.3)
+  - evidence: rel/near_synonym: ل م س B003 (dokunma yoluyla birleşme örtmecesi) || Luna (same): The rare sense of intercourse meets the verse’s language of touch. The contact can be heard with its intimate scope as well as its bodily surface meaning.
+- **L13.2** [dictionary] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word فَٱمْسَحُوا۟ (4 dictionaries); source: as H8.13 (also H8.13, L10.13, L17.6)
+  - evidence: rel/near_synonym: ل م س B003 (örtmeceli cinsel birleşme) || Luna (image): The rare euphemism turns wiping into a kind of intimate contact. Beside لَامَسْتُمُ, the two words make a picture of bodily touch in different degrees of explic
+- **L13.3** [dictionary] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H8.13 (also H8.14, L10.14, L17.7)
+  - evidence: rel/near_synonym: ل م س B003 (örtmeceli cinsel birleşme) || Luna (part): Intercourse includes bodily touch, and the verse’s touch word stands beside the wiping word. The rare branch lets the ritual contact language carry a second bod
+- **L13.4** [judged] ج د د B007 «düz ve sert yer yüzeyi» وجه الأرض المستوي — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: as H1.67 (also H1.67, H2.70, H6.2, H9.2, L4.2, L6.1)
+  - evidence: Luna (image): Touch brings the hand into contact with the hard, smooth plane.
+- **L13.5** [judged] ر ف ق B006 «hayvanda dirseğin gövdeye göre sapmış duruşu» انفتال المرفق عن الجنب — word ٱلْمَرَافِقِ (4 dictionaries); source: as H11.1 (also H11.1, L15.5, T8)
+  - evidence: Luna (image): The camel’s elbow can strike its flank, making contact with the body. The pair turns touching into a concrete image of a joint meeting a side.
+- **L13.6** [judged] ر و د B002 «birini istegine karsi razi etmeye calisma» المراودة على الفعل — word يُرِيدُ (3 dictionaries); source: as H1.27 (also H1.28, H2.30, H3.38)
+  - evidence: Luna (image): The contact clause acquires a courtship shadow: physical touch follows an attempt to win someone toward an act. This offers an intimate scene without making it 
+- **L13.7** [judged] ر و د B008 «genc kiz veya genc ve guzel kadin» الجارية الرود الشابة — word يُرِيدُ (2 dictionaries); source: as H8.12 (also H8.12)
+  - evidence: Luna (image): The touch takes on a concrete image of contact with a young woman. That makes the verse's bodily language more particular and intimate.
+- **L13.8** [judged] ر و د B008 «genc kiz veya genc ve guzel kadin» الجارية الرود الشابة — word يُرِيدُ (2 dictionaries); source: as H8.12
+  - evidence: Luna (image): The contact clause can be pictured as touch involving a young woman. This gives the legal phrase a concrete bodily scene without settling its full scope.
+- **L13.9** [judged] ط ي ب B004 «yeme ile cinsel birlikteliği birlikte adlandıran ikili» الأطيبان الأكل والنكاح — word طَيِّبًا (3 dictionaries); source: الأطيبان الأكل والنكاح (maqayis)؛ الأطيبان الأكل والجماع (sihah)؛ قيل الأطيبان الأكل والنكاح (mufradat)
+  - evidence: Luna (part): Touch is a bodily contact that can lead into one of the two pleasures named by الأطيبان. The verse’s contact word thus carries a possible intimate edge beside t
+- **L13.10** [judged] م س ح B003 «kılıçla vurup kesme» القطع والضرب بالسيف — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H7.11 (also H7.12, H10.12, L3.15)
+  - evidence: Luna (image): A sword stroke is forceful contact, while the plain touch word names contact by hand or skin. Together they picture touch sharpened into violence.
+- **L13.11** [judged] م س ح B004 «yüzü ya da gözü silinmişçesine eksik» محو الخلقة في العين والوجه — word فَٱمْسَحُوا۟ (6 dictionaries); source: as H3.75 (also H3.76, H6.8, H9.9, H17.5, L4.24)
+  - evidence: Luna (complement): The rare sense names a loss of sight through a missing eye. Touch then stands beside sight as another bodily mode of perception.
+- **L13.12** [judged] م س ح B013 «yumuşatılırken yüzeyi işlenen yay» القوس الممسوحة عند التليين — word فَٱمْسَحُوا۟ (2 dictionaries); source: القسي فهي المسائح واحدتها مسيحة لأنها تمسح عند التليين (maqayis)؛ المسيحة القوس (sihah)
+  - evidence: Luna (part): Softening the bow involves rubbing it by contact. The rare bow-making sense makes the touch of لَٰمَسْتُمُ a stage in shaping an object.
+- **L13.13** [judged] م س ح B014 «kaba dokuma örtü veya sert havlu» البلاس والمسح الخشن — word فَٱمْسَحُوا۟ (4 dictionaries); source: as H1.79 (also H1.79)
+  - evidence: Luna (image): Touch becomes a meeting with the coarse texture of the المسح. The skin-contact in لَٰمَسْتُمُ brings that rough cloth image to life.
+- **L13.14** [judged] م س ح B014 «kaba dokuma örtü veya sert havlu» البلاس والمسح الخشن — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H1.79 (also H2.78)
+  - evidence: Luna (part): The touch condition can be pictured through the rough towel’s feel against skin. Contact becomes tactile and textured in this rare image.
+- **L13.15** [judged] م س ح B017 «satışta el sıkışma» المصافحة في البيع — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H10.13 (also H10.13, L3.17)
+  - evidence: Luna (same): The touch condition is echoed by the handshake hidden in the rare branch. Both senses describe bodies meeting through the hands.
+- **L13.16** [judged] م س ح B017 «satışta el sıkışma» المصافحة في البيع — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H10.13 (also H10.14, L3.18, L8.10)
+  - evidence: Luna (same): The handshake makes the touch in لَٰمَسْتُمُ a mutual meeting of hands. The rare sense turns touch into an agreement gesture.
+- **L13.17** [judged] م س ح B019 «deve dirseğinin hafifçe sürtmesi» المس الخفيف بلا إدماء أو عرك — word وَٱمْسَحُوا۟ (2 dictionaries); source: as H14.2 (also H14.2, L6.12)
+  - evidence: Luna (same): The contact condition is set beside a rare touch that is deliberately light and nonabrasive. The verse’s bodily contact gains a register of pressure without har
+- **L13.18** [judged] م س ح B019 «deve dirseğinin hafifçe sürtmesi» المس الخفيف بلا إدماء أو عرك — word فَٱمْسَحُوا۟ (2 dictionaries); source: as H14.2 (also H14.3, L6.13)
+  - evidence: Luna (same): A light rub without injury is one delicate form of touch. The rare image gives لَٰمَسْتُمُ a gentler physical register than forceful pressure.
+- **L13.19** [judged] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيكُم (3 dictionaries); source: as H1.61 (also H1.61, H2.63, H3.101, L3.26)
+  - evidence: Luna (part): The touch that triggers the concession is one of the body’s acts.
+- **L13.20** [judged] ي د ي B009 «kişinin kendi yaptığı iş ve doğurduğu sorumluluk» ما كسبت اليَدان — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.61 (also H1.62, H2.64, H3.102, H10.22, H12.14)
+  - evidence: Luna (part): Touching is a specific act a hand can perform. The pair brings personal responsibility close to bodily contact.
+- **L13.21** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيَكُمْ (3 dictionaries); source: as H1.84 (also H1.84, H2.79, H7.19, H10.23)
+  - evidence: Luna (part): The end or handle of an object is the point that can meet another surface. The pair turns touching into contact at an extremity.
+- **L13.22** [judged] ي د ي B013 «bir nesnenin tutacağı, ucu ya da uzantısı» يَد الشيء — word وَأَيْدِيكُم (3 dictionaries); source: as H1.84 (also H1.85, H2.80, H7.20)
+  - evidence: Luna (part): The hand’s extension is the means by which touch reaches its object.
+- surah ayat these members touch (chain material): 5:4 (ي د ي B009) → 5:5 (ي د ي B013) → 5:12 (ر و د B008, ي د ي B013) → 5:14 (ي د ي B013) → 5:21 (ي د ي B009) → 5:32 (ي د ي B009) → 5:38 (ي د ي B009) → 5:45 (م س ح B004, ي د ي B009) → 5:80 (ي د ي B009) → 5:83 (م س ح B004) → 5:85 (ر و د B008) → 5:108 (ج د د B007, م س ح B004) → 5:119 (ر و د B008)
+
+### L14 ٱللَّهُ — 7 roots converge
+Plain sense of ٱللَّهُ: tapınma ve tapınılan varlık (التعبد والمعبود)
+- **L14.1** [judged] ء م ن B002 «dogru sayip kabul etme» تصديق يطمئن إليه القلب — word ءَامَنُوٓا۟ (4 dictionaries); source: as H1.2 (also H1.2, H2.2, H3.3, H15.11)
+  - evidence: Luna (complement): The believers’ affirmation is directed toward the One they worship. Faith and its divine object complete one another in the address.
+- **L14.2** [judged] ء م ن B003 «duada kabul istegi sozu» قول آمين طلبا للاستجابة — word ءَامَنُوٓا۟ (4 dictionaries); source: قولنا في الدعاء آمين وتفسيره اللهم افعل (maqayis)؛ التأمين من قولك آمين (ayn)؛ آمين في الدعاء يمد ويقصر ومعناه كذلك فليكن (sihah)؛ آمين يقال بالمد والقصر وهو اسم للفعل ومعناه استجب وأمن فلان إذا قال آمين (mufradat)
+  - evidence: Luna (complement): The rare supplicatory sense is heard as an address directed to God. The prayer phrase and its divine addressee belong together.
+- **L14.3** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.30, H15.12, L4.12, L5.8)
+  - evidence: Luna (opposite): Turning away from Islam stands against Allah as the object of worship.
+- **L14.4** [judged] ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as H3.30 (also H3.31, H15.13, L4.13, L5.9)
+  - evidence: Luna (opposite): The God who is worshipped is the one from whom apostasy turns away.
+- **L14.5** [judged] ص ل و B003 «ayakta durma, eğilme ve yere kapanma bölümleri olan kurallı tapınma» العبادة المخصوصة — word ٱلصَّلَوٰةِ (4 dictionaries); source: as H13.3 (also H13.3, H15.16, L1.16, L9.5)
+  - evidence: Luna (same): Formal prayer is worship, and Allah is the one worshiped. The verse’s prayer-facing direction thus finds its object in God.
+- **L14.6** [judged] ص ل و B007 «tapınma yeri; kilise» مواضع الصلاة ودور العبادة — word ٱلصَّلَوٰةِ (3 dictionaries); source: as L1.17 (also L1.17)
+  - evidence: Luna (complement): The place of worship points beyond itself to the one worshipped. The verse's prayer-place can be heard as oriented toward Allah.
+- **L14.7** [judged] ص ل ي B001 «ayakta durma, eğilme ve yere kapanmalı yükümlü tapınma» الصلاة عبادة لازمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 4 dictionaries); source: as H13.5 (also H13.5, L1.18, L9.6)
+  - evidence: Luna (complement): The bodily rite is worship offered to Allah. Its standing, bowing, and prostration find their addressee in the divine.
+- **L14.8** [judged] ص ل ي B008 «tapınma yeri, özellikle Yahudi tapınağı» الصلوات مواضع عبادة — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: as L9.8 (also L9.8, T15)
+  - evidence: Luna (complement): A temple points to the one worshipped there. The place and Allah form the setting and object of devotion.
+- **L14.9** [judged] ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word قُمْتُمْ (4 dictionaries); source: as H10.2 (also H10.2, L18.5)
+  - evidence: Luna (complement): The creatures rise before the one they worship. The name of God gives the resurrection image its judge and destination.
+- **L14.10** [judged] ك ع ب B002 «dörtgen ve yüksek yapı» البيت المربع المرتفع — word ٱلْكَعْبَيْنِ (6 dictionaries); source: as H1.46 (also H1.46, H2.48, H3.66, H6.32)
+  - evidence: Luna (complement): The sacred house is heard beside the One worshipped there.
+- **L14.11** [judged] ك ع ب B009 «talihin veya saygınlığın yükselmesi için dua» ارتفاع الجد والشرف — word ٱلْكَعْبَيْنِ (1 dictionaries); source: as H6.33 (also H6.33, H7.5)
+  - evidence: Luna (complement): The prayer for raised standing meets the One invoked to raise it.
+- **L14.12** [judged] م ر ض B003 «hastaya özenle bakma» القيام على المريض — word مَّرْضَىٰٓ (5 dictionaries); source: as H1.50 (also H1.50, H2.52, H3.73, H14.10, L1.23)
+  - evidence: Luna (image): The mention of illness can make God’s purpose sound like the attention of a caregiver. The rare nursing sense gives divine purification the image of tending to 
+- surah ayat these members touch (chain material): 5:1 (ك ع ب B002) → 5:2 (ك ع ب B002) → 5:3 (ء م ن B002, ر د د B005) → 5:5 (ء م ن B002) → 5:10 (ء م ن B002) → 5:12 (ص ل ي B001, ص ل ي B008, ق و م B013, ك ع ب B002) → 5:13 (ء م ن B002, ص ل و B007, ص ل ي B008) → 5:17 (ك ع ب B002) → 5:18 (ك ع ب B002) → 5:21 (ر د د B005) → 5:31 (ق و م B013) → 5:41 (ء م ن B002, ر د د B005, ص ل و B007, ص ل ي B008) → 5:46 (ء م ن B002) → 5:48 (ء م ن B002, ص ل و B003, ص ل ي B001) → 5:52 (ء م ن B002) → 5:54 (ر د د B005) → 5:55 (ص ل ي B001, ص ل ي B008) → 5:57 (ر د د B005) → 5:58 (ص ل ي B001, ص ل ي B008) → 5:61 (ر د د B005) → 5:64 (ر د د B005) → 5:69 (ر د د B005) → 5:95 (ك ع ب B002, م ر ض B003) → 5:97 (ص ل و B003, ص ل ي B001, ك ع ب B002, م ر ض B003) → 5:104 (ك ع ب B009) → 5:113 (ء م ن B002) → 5:114 (م ر ض B003)
+
+### L15 ٱلْكَعْبَيْنِ — 7 roots converge
+Plain sense of ٱلْكَعْبَيْنِ: eklemdeki çıkıntılı kemik (نتو العظم وارتفاعه)
+- **L15.1** [dictionary] ج د د B001 «değer ve konum yüceliği» عظمة القدر وعلوه — word تَجِدُوا۟ (echo root, sound family only; 5 dictionaries); source: العظمة (maqayis)؛ جد ربنا عظمته (ayn)؛ تعالى جد ربنا أي عظمة ربنا؛ جد في عيني أي عظم (sihah)؛ جد ربنا جلال ربنا؛ جل قدره وعظم (tahdhib)؛ جد ربنا أي فيضه وقيل عظمته (mufradat)
+  - evidence: lex/src: عظم names the plain image of ٱلْكَعْبَيْنِ || Luna (same): The ankle boundary is marked by a raised bone, and the rare sense of greatness carries elevation. The body’s protruding landmark gives a concrete image to the e
+- **L15.2** [dictionary] ج ن ب B006 «güneyden esen yel» الجنوب ريح من جهة مخصوصة — word جُنُبًا (6 dictionaries); source: as L2.6 (also L2.6)
+  - evidence: lex/src: كعبا → root ك ع ب
+- **L15.3** [judged] ر ج ل B001 «bacak uzvu» الرِّجل العضو — word وَأَرْجُلَكُمْ (5 dictionaries); source: as H7.7 (also H7.7, H10.6, L3.6)
+  - evidence: Luna (part): The feet named in the command meet the ankle bones that mark their boundary. The verse draws the limb and its prominent joint together.
+- **L15.4** [judged] ر ف ق B004 «dirsek, dirseğe dayanma ve dayanak» المرفق والاتكاء — word ٱلْمَرَافِقِ (4 dictionaries); source: as H1.26 (also H1.26, H2.28, H3.36, L3.7)
+  - evidence: Luna (same): The elbows and ankles are joint landmarks in the limbs. The pair echoes one protruding joint boundary with another.
+- **L15.5** [judged] ر ف ق B006 «hayvanda dirseğin gövdeye göre sapmış duruşu» انفتال المرفق عن الجنب — word ٱلْمَرَافِقِ (4 dictionaries); source: as H11.1 (also H11.1, L13.5, T8)
+  - evidence: Luna (image): The camel’s elbow turns away from its flank, while the ankles are protruding bones. The pair images angled, prominent joints on different limbs.
+- **L15.6** [judged] ص ع د B001 «yukarı çıkma ve yükselme» ارتفاع وصعود إلى فوق — word صَعِيدًا (5 dictionaries); source: as H7.9 (also H7.9, L12.7)
+  - evidence: Luna (same): The ascent and the ankle bones both carry a sense of rising prominence. The boundary at the ankles can be heard as another raised point in the body’s landscape.
+- **L15.7** [judged] ص ع د B003 «çetin yokuş ve ağır güçlük» عقبة كؤود ومشقة — word صَعِيدًا (5 dictionaries); source: as H1.34 (also H1.34, H2.36, H3.47, L2.12, L18.3)
+  - evidence: Luna (image): The arduous ascent and the ankle’s raised bone meet in a bodily landscape of slopes and prominences. The ankle boundary makes the upward strain tangible.
+- **L15.8** [judged] ص ع د B006 «kendiliğinden düz mızraklık sırık» صعدة قناة مستقيمة — word صَعِيدًا (4 dictionaries); source: as H8.5 (also H8.5, L1.15)
+  - evidence: Luna (image): The straight shaft and the raised ankle joints both have prominent structural points. Their shapes meet in a compact image of upright form and joint.
+- **L15.9** [judged] ص ع د B008 «uzunlukça veya derecede yukarı artış» زيادة وعلو إلى فوق — word صَعِيدًا (2 dictionaries); source: as L2.13 (also L2.13)
+  - evidence: Luna (same): The upward increase meets the ankle bones as raised points. Both senses emphasize elevation in the body’s landscape.
+- **L15.10** [judged] م س ح B008 «düz para veya gümüş parça» فضة ملساء ونقش ممحو — word فَٱمْسَحُوا۟ (5 dictionaries); source: المسيح الدرهم الأطلس كأن نقشه قد مسح (maqayis)؛ المسيحة قطعة من الفضة (ayn)؛ المسيح القطعة من الفضة والدرهم الأطلس مسيح (sihah)؛ المسيح سبائك الفضة (tahdhib)؛ قيل للدرهم الأطلس مسيح (mufradat)
+  - evidence: Luna (opposite): The raised ankle bones stand out against the rare image of a smooth, flat piece of silver. The boundary is heard as a contour where a protrusion interrupts a pl
+- **L15.11** [judged] م س ح B008 «düz para veya gümüş parça» فضة ملساء ونقش ممحو — word وَٱمْسَحُوا۟ (5 dictionaries); source: as L15.10
+  - evidence: Luna (opposite): The ankle boundary is a raised bone, while the rare sense pictures a smooth, flat silver piece. The measured endpoint meets an image of flatness by contrast wit
+- **L15.12** [judged] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word فَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H3.79, H11.3, H17.6, L2.22)
+  - evidence: Luna (opposite): A flattened foot is heard against the projecting ankle bones. The lower limb holds both the smooth plane and its raised boundary.
+- **L15.13** [judged] م س ح B015 «bedenin düzleşmiş veya etten eksilmiş bölümü» تسوية الجسد أو نقص لحمه — word وَٱمْسَحُوا۟ (3 dictionaries); source: as H3.79 (also H3.80, H11.4, H17.7)
+  - evidence: Luna (opposite): The rare smooth, level foot contrasts with the ankle bones’ raised prominence. The verse names both a flattened bodily surface and the boundary marked by protru
+- **L15.14** [judged] ن ع م B012 «birine yaya gitmek ve ayakları yürüyerek kullanmak» المشي على القدم وابتذالها — word نِعْمَتَهُۥ (3 dictionaries); source: as H1.57 (also H1.57, H2.59, H3.89, H13.10, H15.7)
+  - evidence: Luna (part): Walking on the feet draws in the ankle bones that bound their movement. The verse’s bodily boundary gives the rare walking image a specific joint.
+- surah ayat these members touch (chain material): 5:3 (م س ح B015) → 5:16 (ص ع د B006) → 5:23 (ن ع م B012) → 5:33 (ن ع م B012) → 5:48 (ر ج ل B001) → 5:60 (ص ع د B001) → 5:66 (ص ع د B001, ص ع د B008, ن ع م B012) → 5:95 (ج ن ب B006) → 5:97 (ج ن ب B006) → 5:110 (ج ن ب B006)
+
+### L16 لِيُطَهِّرَكُمْ — 6 roots converge
+Plain sense of لِيُطَهِّرَكُمْ: kir ve kusurdan arınmışlık (النقاء وزوال الدنس)
+- **L16.1** [dictionary] ط ي ب B003 «tuvalet sonrası pisliği gidererek temizlenme» الاستطابة تطهير من الخبث — word طَيِّبًا (3 dictionaries); source: as H1.73 (also H1.73, H2.73, H3.57, H5.17, L7.10)
+  - evidence: lex/image: تطهير → root ط ه ر || Luna (part): The ordinary cleansing after relieving oneself becomes one part of the verse’s wider purifying aim. The bodily detail sits within the stated purpose.
+- **L16.2** [judged] ج ن ب B003 «uzak durma veya uzaklaştırma» المجانبة إبعاد واعتزال وغربة — word جُنُبًا (6 dictionaries); source: as H13.7 (also H13.7, L7.1, L18.2)
+  - evidence: Luna (same): Purifying the believers can be heard as moving them away from defilement. The verse’s stated aim therefore answers the distance carried by the junub root.
+- **L16.3** [judged] ر د د B001 «geri dönme veya geri döndürme» الرجوع إلى الشيء أو رده إلى موضعه — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as L7.3 (also L7.3)
+  - evidence: Luna (same): The intended purification appears as a restoration to a clean condition.
+- **L16.4** [judged] ر د د B001 «geri dönme veya geri döndürme» الرجوع إلى الشيء أو رده إلى موضعه — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: as L7.3 (also L7.4)
+  - evidence: Luna (same): God’s purification is heard as restoring the believers to cleanliness.
+- **L16.5** [judged] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H1.70, H2.24, H6.4, H9.4, L4.14, L7.5)
+  - evidence: Luna (opposite): Purification is heard as the answer to blemish and defect.
+- **L16.6** [judged] ر د د B008 «görünüş, nitelik veya konuşmadaki kusur» عيب يرد البصر أو اللسان — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: as H1.70 (also H2.25, H6.5, H9.5, L4.15, L7.6)
+  - evidence: Luna (opposite): The divine aim of purification counters the branch's language of defect. The contrast makes the rite sound like a movement from flaw toward cleanness.
+- **L16.7** [judged] ر و د B007 «gozde dolasan bozukluk» عوار العين الرائد — word يُرِيدُ (2 dictionaries); source: as L2.10 (also L5.10, L7.7)
+  - evidence: Luna (opposite): The ocular blemish is set against God's act of purification. The cleansing aim can be heard as removing what clouds or mars the body.
+- **L16.8** [judged] ط ه ر B002 «adet kanamasının kesilmesi ve kanamasız dönem» طهر النساء من الحيض — word فَٱطَّهَّرُوا۟ (4 dictionaries); source: as H5.30 (also H5.31, H8.7, L10.6)
+  - evidence: Luna (same): The particular blood-free state echoes the broader act of purification. The verse’s purpose can be heard as extending bodily cleanliness into a general purifyin
+- **L16.9** [judged] ط ه ر B004 «kendisi temiz, başkasını temizleyen su veya araç» الطهور الذي يطهر غيره — word فَٱطَّهَّرُوا۟ (5 dictionaries); source: as H1.39 (also H1.40, H2.42, H3.54, H4.16, H5.16, H10.7)
+  - evidence: Luna (same): The one who is pure and purifies meets the stated purpose of making the believers clean. The rare branch turns the purpose clause into the effect of the purifyi
+- **L16.10** [judged] م و ه B007 «kaya kristali veya ayna» صفاء الماوية كالبلور والمرآة — word مَآءً (2 dictionaries); source: as H1.80 (also H1.80, H5.26, L9.13, L10.17)
+  - evidence: Luna (image): The mirror-clear water gives purification a visible image. The verse names divine purification after describing a rite whose ordinary medium is water.
+- surah ayat these members touch (chain material): 5:21 (ر د د B008) → 5:31 (ج ن ب B003, م و ه B007) → 5:45 (ر و د B007) → 5:48 (ر د د B001) → 5:52 (م و ه B007) → 5:54 (ر د د B008) → 5:60 (ر د د B001) → 5:62 (م و ه B007) → 5:72 (م و ه B007) → 5:78 (ر د د B008) → 5:83 (ر و د B007) → 5:85 (ر د د B001) → 5:105 (ر د د B001) → 5:106 (ر د د B008)
+
+### L17 وَلِيُتِمَّ — 6 roots converge
+Plain sense of وَلِيُتِمَّ: tamamlanma ve tamamlama (بلوغ الشيء تمامه)
+- **L17.1** [dictionary] ص ع د B005 «yavrusunu yitirip önceki yavrusunu emziren dişi deve» ناقة صعود تعطف على ولد — word صَعِيدًا (4 dictionaries); source: as H1.35 (also H1.35, H2.37, H3.48, L6.7)
+  - evidence: lex/src: تمام → root ت م م || Luna (image): The camel turns to an earlier calf after losing its young, preserving the act of feeding. The image of making up for loss resonates with the verse’s completion 
+- **L17.2** [judged] ش ك ر B002 «azla yetinip belirgin biçimde gelişme» الكفاية باليسير وظهور أثره — word تَشْكُرُونَ (5 dictionaries); source: as L2.11 (also L2.11)
+  - evidence: Luna (complement): Gratitude can be pictured as making a little provision show its full effect. What is sufficient in small measure reaches a kind of completion.
+- **L17.3** [judged] ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word قُمْتُمْ (5 dictionaries); source: as H12.2 (also H12.2, L3.9)
+  - evidence: Luna (complement): A sustaining basis can carry a favor toward its fullness. The verse's completion of favor then sounds supported rather than imposed.
+- **L17.4** [judged] ق و م B011 «insanın boyu ve düzgün beden yapısı» قامة وقوام الجسم والطول — word قُمْتُمْ (5 dictionaries); source: as H3.64 (also H3.64, H6.30)
+  - evidence: Luna (same): Bodily completeness meets the act of bringing something to completion. The favor completed in the verse can be heard as a full, whole state.
+- **L17.5** [judged] ك ع ب B007 «bir şeyi doldurmak» ملء الشيء حتى يتمتلئ — word ٱلْكَعْبَيْنِ (2 dictionaries); source: as H10.9 (also H10.9, H12.12, L3.12)
+  - evidence: Luna (same): The filled thing reaches the fullness named by completion.
+- **L17.6** [judged] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word فَٱمْسَحُوا۟ (4 dictionaries); source: as H8.13 (also H8.13, L10.13, L13.2)
+  - evidence: Luna (part): The sexual sense of مَسْح meets the idea of completion as a consummating act. The pair gives bodily intimacy an image of reaching its end.
+- **L17.7** [judged] م س ح B002 «cinsel birleşme için örtmece» المسح كناية عن الجماع — word وَٱمْسَحُوا۟ (4 dictionaries); source: as H8.13 (also H8.14, L10.14, L13.3)
+  - evidence: Luna (same): Intercourse can be heard as consummation, while the later verb names bringing something to completion. The pairing lets bodily consummation echo the completion 
+- **L17.8** [judged] و ج د B003 «varlıklı veya yeterli olmak; varlıklı ya da güçlü kılmak» السعة والجدة والغنى — word تَجِدُوا۟ (4 dictionaries); source: as H10.15 (also H10.15, L2.24, L3.19)
+  - evidence: Luna (same): The favor is completed until it is sufficient and whole.
+- surah ayat these members touch (chain material): 5:2 (ق و م B011) → 5:17 (ق و م B009, ق و م B011) → 5:18 (ق و م B009) → 5:20 (ق و م B009) → 5:48 (ق و م B011) → 5:54 (و ج د B003)
+
+### L18 ٱلصَّلَوٰةِ — 6 roots converge
+Plain sense of ٱلصَّلَوٰةِ: ateşin yakıcı sıcaklığına maruz kalma ve ateşle işleme (ملاقاة النار وحرها)
+- **L18.1** [judged] ج ع ل B007 «sıcak tencereyi indirme bezi ve onunla indirme» خرقة إنزال القدر — word لِيَجْعَلَ (4 dictionaries); source: as H7.1 (also H7.1, L1.8)
+  - evidence: Luna (image): The pot cloth and the heat of fire form one concrete scene.
+- **L18.2** [judged] ج ن ب B003 «uzak durma veya uzaklaştırma» المجانبة إبعاد واعتزال وغربة — word جُنُبًا (6 dictionaries); source: as H13.7 (also H13.7, L7.1, L16.2)
+  - evidence: Luna (opposite): A state of distance stands against prayer as an encounter with fire and its heat. The pair makes the prayer-facing turn feel like leaving danger at a distance.
+- **L18.3** [judged] ص ع د B003 «çetin yokuş ve ağır güçlük» عقبة كؤود ومشقة — word صَعِيدًا (5 dictionaries); source: as H1.34 (also H1.34, H2.36, H3.47, L2.12, L15.7)
+  - evidence: Luna (image): The steep climb becomes an ordeal met with heat. The pair gives the ascent a searing, difficult atmosphere.
+- **L18.4** [judged] ص ع د B009 «ateşle eritip dönüştürme; katranlık ağaç» تصعيد بالنار وتغيير — word صَعِيدًا (1 dictionaries, sole attestation); source: الصعد شجر يذاب منه القار (tahdhib)؛ التصعيد الإذابة (tahdhib)؛ خل مصعد وشراب مصعد إذا عولج بالنار حتى يحول عما هو عليه لونا وطعما (tahdhib)
+  - evidence: Luna (same): The fire that melts and transforms meets the word supplied with the sense of fire and its heat. Together they make an image of heat changing what it touches.
+- **L18.5** [judged] ق و م B013 «ölülerin diriltildiği ve insanların yargı için kalktığı gün» قيامة وبعث وقيام الساعة — word قُمْتُمْ (4 dictionaries); source: as H10.2 (also H10.2, L14.9)
+  - evidence: Luna (complement): The bodily rite can be heard against the day when people rise before God and face the fire. Purification now carries a distant echo of preparation for that fina
+- **L18.6** [judged] ك و ن B004 «boyun eğme» الخضوع بالاستكانة — word كُنتُمْ (1 dictionaries, sole attestation); source: as H10.10 (also L11.8)
+  - evidence: Luna (part): Submissiveness is one disposition within prayer.
+- **L18.7** [judged] م س ح B007 «ter; bir kaynakta kol» المسيح عرق ظاهر — word فَٱمْسَحُوا۟ (5 dictionaries); source: as H1.76 (also H1.76)
+  - evidence: Luna (image): The heat associated with prayer meets the body's visible sweat. The rite's preparation can be heard against the warmth of the prayer it approaches.
+- **L18.8** [judged] م س ح B007 «ter; bir kaynakta kol» المسيح عرق ظاهر — word وَٱمْسَحُوا۟ (5 dictionaries); source: as H1.76 (also H2.75, H4.25, L3.16)
+  - evidence: Luna (image): Prayer, heard through the rare root image of encountering fire’s heat, meets the visible sweat of the body. The ritual scene briefly becomes one of heat, exerti
+- **L18.9** [judged] م س ح B013 «yumuşatılırken yüzeyi işlenen yay» القوس الممسوحة عند التليين — word وَٱمْسَحُوا۟ (2 dictionaries); source: as L13.12
+  - evidence: Luna (image): Prayer’s root image of heat meets a bow shaped by heating and softening. The ritual setting briefly carries the craft image of material formed through warmth.
+- surah ayat these members touch (chain material): 5:12 (ق و م B013) → 5:29 (ص ع د B009) → 5:31 (ج ن ب B003, ق و م B013) → 5:37 (ص ع د B009) → 5:64 (ص ع د B009) → 5:73 (ج ع ل B007) → 5:89 (ج ع ل B007)
+
+### L19 كُنتُمْ — 5 roots converge
+Plain sense of كُنتُمْ: gerçekleşme, bulunma ve olma bildirimi (وقوع الشيء وحضوره في زمان)
+- **L19.1** [judged] ج ي ء B001 «» المجيء والغلبة بالمجيء — word جَآءَ (0 dictionaries); source:  (also L21.1)
+  - evidence: Luna (same): The arrival sense and the condition of being present reinforce one another. The verse’s state condition sounds like an event that has come to be.
+- **L19.2** [judged] ج ي ء B004 «» الإتيان بالشيء واستحضاره — word جَآءَ (0 dictionaries); source: 
+  - evidence: Luna (same): The conditional state is heard as a condition that has come into presence. The concession applies to an actually present circumstance, not an abstraction.
+- **L19.3** [judged] ر ج ل B004 «birinin devrinde» زمان الرجل — word وَأَرْجُلَكُمْ (3 dictionaries); source: as H1.17 (also H1.17, H2.17)
+  - evidence: Luna (same): The rare sense of a person’s era meets the verse’s frame of being in a state. The condition is heard as belonging to a particular time in the addressees’ lives.
+- **L19.4** [judged] ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word قُمْتُمْ (4 dictionaries); source: as L2.18 (also L2.18, L21.2)
+  - evidence: Luna (same): The idea of remaining in a place meets the state of being there. The verse's conditional frames can be heard as locating people in a condition.
+- **L19.5** [judged] و ج د B002 «varlığa gelme, var olma ve var etme» ثبوت الشيء في الوجود — word تَجِدُوا۟ (2 dictionaries); source: as H12.13 (also H12.13, H13.11, L21.3)
+  - evidence: Luna (same): The condition of being is heard alongside the fact of existence.
+- surah ayat these members touch (chain material): 5:60 (ق و م B006) → 5:73 (و ج د B002) → 5:89 (و ج د B002)
+
+### L20 تَجِدُوا۟ — 5 roots converge
+Plain sense of تَجِدُوا۟: bulma ve duyusal ya da zihinsel olarak algılama (إلفاء الشيء وإصابته)
+- **L20.1** [dictionary] ش ك ر B005 «şiddetlenip etkisini artırma» اشتداد الوقوع والهيجان — word تَشْكُرُونَ (2 dictionaries); source: اشتكرت السماء اشتد وقعها (sihah)؛ اشتكرت السماء وحفلت واغبرت كل ذلك من حين يجد وقع مطرها ويشتد (tahdhib)؛ اشتكرت الريح إذا اشتد هبوبها (tahdhib)؛ اشتكر الحر والبرد كذلك (tahdhib)
+  - evidence: lex/src: يجد → root و ج د || Luna (image): The failed search for water sharpens into an image of water in forceful rain yet unavailable for the rite. The verse’s concession turns on access to water, not 
+- **L20.2** [judged] ر و د B003 «dolasarak arama» طلب الشيء وارتياده — word يُرِيدُ (3 dictionaries); source: as H3.39 (also H3.39, L9.2)
+  - evidence: Luna (complement): The search and the finding form successive stages. Here the search ends in failure to find water.
+- **L20.3** [judged] ر و د B003 «dolasarak arama» طلب الشيء وارتياده — word يُرِيدُ (3 dictionaries); source: as H3.39 (also H3.40, L9.3)
+  - evidence: Luna (complement): The search may end in finding, or in the failure named here. The transition makes the missing water feel like the outcome of a search.
+- **L20.4** [judged] ص ل ي B003 «ateşin veya benzer bir sıkıntının şiddetine uğramak; birini ateşe sokmak» ملاقاة النار وحرها — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: as H3.49 (also H3.49)
+  - evidence: Luna (same): Finding is an encounter with what is sensed. The rare sense makes that encounter bodily and painful, though the verse negates finding water.
+- **L20.5** [judged] ل م س B002 «bir şeyi arama veya elde etmeyi isteme» طلب الشيء والتماسه — word لَٰمَسْتُمُ (4 dictionaries); source: تلمست الشيء إذا تطلبته بيدك؛ كل طالب ملتمس (maqayis)؛ الالتماس الطلب؛ التلمس التطلب مرة بعد أخرى (sihah)؛ تطلب الشيء هاهنا وهاهنا (tahdhib)؛ يعبر به عن الطلب (mufradat)
+  - evidence: Luna (complement): Seeking and finding form an effort and its result, here explicitly denied. The verse’s failure to find water follows the search-like sense carried by touch.
+- **L20.6** [judged] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word وُجُوهَكُمْ (6 dictionaries); source: as H3.91 (also H3.91, H6.12, H11.12, H12.5, L9.14)
+  - evidence: Luna (same): The face-to-face meeting is an encounter. The verb for finding makes the direct meeting sound as something actually met or perceived.
+- **L20.7** [judged] و ج ه B003 «karşı karşıya gelme ve doğrudan yüzüne söyleme» المواجهة والتقابل — word بِوُجُوهِكُمْ (6 dictionaries); source: as H3.91 (also H3.92, H4.27, H6.13, H11.13, H12.6, L9.15)
+  - evidence: Luna (same): To find something can be to encounter it directly. The rare sense of مواجهة makes the act of finding feel like a face-to-face meeting.
+- surah ayat these members touch (chain material): 5:2 (ل م س B002) → 5:12 (ص ل ي B003) → 5:29 (ص ل ي B003) → 5:31 (و ج ه B003) → 5:35 (ل م س B002) → 5:37 (ص ل ي B003) → 5:50 (ل م س B002) → 5:52 (و ج ه B003) → 5:55 (ص ل ي B003) → 5:57 (ص ل ي B003) → 5:58 (ص ل ي B003) → 5:62 (و ج ه B003) → 5:64 (ص ل ي B003)
+
+### L21 كُنتُم — 3 roots converge
+Plain sense of كُنتُم: gerçekleşme, bulunma ve olma bildirimi (وقوع الشيء وحضوره في زمان)
+- **L21.1** [judged] ج ي ء B001 «» المجيء والغلبة بالمجيء — word جَآءَ (0 dictionaries); source: as L19.1 (also L19.1)
+  - evidence: Luna (same): The new concession begins from a condition that has come about. Arrival and being present give the condition a concrete sense.
+- **L21.2** [judged] ق و م B006 «bir yerde kalma ve kalınan yer» مقام وإقامة في موضع — word قُمْتُمْ (4 dictionaries); source: as L2.18 (also L2.18, L19.4)
+  - evidence: Luna (same): The illness and journey conditions become states in which people find themselves. The dwelling sense of قُمْتُمْ gives the repeated condition a spatial feel.
+- **L21.3** [judged] و ج د B002 «varlığa gelme, var olma ve var etme» ثبوت الشيء في الوجود — word تَجِدُوا۟ (2 dictionaries); source: as H12.13 (also H12.13, H13.11, L19.5)
+  - evidence: Luna (same): The verse’s stated condition is an actual state of being.
+- surah ayat these members touch (chain material): 5:60 (ق و م B006) → 5:73 (و ج د B002) → 5:89 (و ج د B002)
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ش ك ر B007 «iki ayrı boy adı kullanımı» أسماء قبائل — word تَشْكُرُونَ (2 dictionaries); source: يشكر قبيلة من ربيعة (ayn;tahdhib)؛ شاكر قبيلة من اليمن من همدان (ayn;tahdhib) — lex/image: اسماء → بِسْمِ
+- **F2** ق و م B004 «sürekli gözetip yönetme» رعاية وحفظ وولاية — word قُمْتُمْ (5 dictionaries); source: قيم القوم من يسوس أمرهم ويقومهم؛ القائم في الملك ونحوه الحافظ؛ القيوم (ayn)؛ قوام أهل بيته وقيام أهل بيته؛ الذي يقيم شأنهم؛ القيوم اسم من أسماء الله (sihah)؛ قيم القوم الذي يقومهم ويسوس أمرهم؛ القائم بالأمر؛ القيوم القا… (also H1.43, H2.45, H3.62, L5.12) — lex/src-rare: اسماء → بِسْمِ
+- **F3** ن ع م B009 «yumuşak esen nemli güney rüzgarı» النعامى ريح لينة — word نِعْمَتَهُۥ (4 dictionaries); source: النعامي الريح اللينة (maqayis)؛ النعامى ريح الجنوب لأنها أبل الرياح وأرطبها (sihah)؛ من أسماء الجنوب النعامى (tahdhib)؛ النعامى الريح الجنوب الناعمة الهبوب (mufradat) (also H4.26, H11.5, H14.13) — lex/src-rare: اسماء → بِسْمِ
+- **F4** ي م م B005 «kişi ve yer adı alanı» اليمامة واليمة أسماء مواضع وأعلام — word فَتَيَمَّمُوا۟ (4 dictionaries); source: اليمامة موضع من محلة العرب؛ سميت بامرأة اسمها يمامة (ayn)؛ اليمة موضع معروف (jamhara)؛ سميت اليمامة بامرأة كان لها حديث (jamhara)؛ اليمامة اسم جارية زرقاء؛ اليمامة بلاد؛ النسبة إلى اليمامة يمامي (sihah)؛ اليمامة القرية … — lex/image: اسماء → بِسْمِ
+- **F5** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H17.8, H18.1, L8.1) — img/fatiha: fatiha: س م و B005 الاسم تنويه ودلالة ← بِسْمِ
+- **F6** ء م ن B003 «duada kabul istegi sozu» قول آمين طلبا للاستجابة — word ءَامَنُوٓا۟ (4 dictionaries); source: قولنا في الدعاء آمين وتفسيره اللهم افعل (maqayis)؛ التأمين من قولك آمين (ayn)؛ آمين في الدعاء يمد ويقصر ومعناه كذلك فليكن (sihah)؛ آمين يقال بالمد والقصر وهو اسم للفعل ومعناه استجب وأمن فلان إذا قال آمين (mufradat) (also L14.2) — img/fatiha: fatiha: ء ل ه B002 اسم الله في القسم والنداء ← ٱللَّهِ || img/fatiha: fatiha: س م و B005 الاسم تنويه ودلالة ← بِسْمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F7** ش ك ر B001 «İyiliği tanıyıp söz ve davranışla karşılık verme» عرفان النعمة وحمد المنعم — word تَشْكُرُونَ (5 dictionaries); source: الشكر الثناء على الإنسان بمعروف يوليكه (maqayis)؛ الشكر عرفان الإحسان ونشره وحمد موليه (ayn;tahdhib)؛ الشكر الثناء على المحسن بما أولاك من المعروف (sihah)؛ الشكر تصور النعمة وإظهارها (mufradat)؛ شكر القلب وشكر اللسان وش… — lex/image: وحمد → ٱلْحَمْدُ || rel/near_synonym: ح م د B001 (övgü) → ٱلْحَمْدُ
+- **F8** ء ح د B005 «tek başına kalma ve birer birer gelme» الانفراد والتفرق آحادا — word أَحَدٌ (2 dictionaries); source: ما استأحدت بهذا الأمر أي ما انفردت به (maqayis); استأحد الرجل انفرد (sihah); جاءوا آحاد أحاد (sihah) (also H3.2) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ || img/fatiha: fatiha: ح م د B002 وجود الشيء محمودا ← ٱلْحَمْدُ
+- **F9** ء ل ه B002 «Yaratıcıya özgü ad ile seslenme ve ant biçimleri» اسم الله في القسم والنداء — word ٱللَّهُ (5 dictionaries); source: فالإله الله تعالى وسمي بذلك لأنه معبود (maqayis)؛ اسم الله الأكبر هو الله، الله ما فعلت ذاك تريد والله ما فعلته، لاه أنت أي لله أنت، لا هم اغفر لنا (ayn)؛ منه قولنا الله وأصله إلاه، يا ألله اغفر لي (sihah)؛ اسم الله الأ… (also H17.8, H18.1, L8.1, F5) — img/fatiha: fatiha: ر ب ب B001 ربوبية وملك وسيادة ← رَبِّ
+- **F10** ء م ن B002 «dogru sayip kabul etme» تصديق يطمئن إليه القلب — word ءَامَنُوٓا۟ (4 dictionaries); source: الإيمان التصديق (ayn;sihah)؛ وما أنت بمؤمن لنا أي مصدق لنا (maqayis;ayn;mufradat)؛ إذعان النفس للحق على سبيل التصديق (mufradat)؛ المؤمن في صفات الله يصدق ما وعد عبده (maqayis) (also H1.2, H2.2, H3.3, H15.11, L14.1) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F11** ت م م B002 «korunma boncugu» التميمة المعلقة — word وَلِيُتِمَّ (3 dictionaries); source: التميمة كأنهم يريدون أنها تمام الدواء والشفاء المطلوب (maqayis)؛ التميمة عوذة تعلق على الانسان ويقال هي خرزة (sihah)؛ التمائم واحدتها تميمة وهي خرزات كانت الأعراب يعلقونها على أولادهم (tahdhib) (also H1.3, H2.3, H3.4, L2.3) — img/fatiha: fatiha: ع ل م B002 أثر يميز الشيء ويهدي إليه ← ٱلْعَٰلَمِينَ
+- **F12** ت م م B005 «konusmada takilma» ترديد التاء في الكلام — word وَلِيُتِمَّ (2 dictionaries); source: التمتام الذي في تمتمة وهو الذي يتردد في التاء (sihah)؛ التمتمة من الكلام ألا يبين اللسان فيرجع إلى لفظ كأنه التاء أو الميم ورجل تمتام (tahdhib)؛ التمتمة الترديد في التاء (tahdhib) (also H3.5, L5.3, T13) — img/fatiha: fatiha: ر ب ب B015 حرف رب وربما ← رَبِّ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F13** ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: يمشي على رود أي على مهل (sihah)؛ أرود في السير إروادا ومرودا أي رفق (sihah)؛ رويد: مهلا ورويدك: أمهل (sihah)؛ أرود يرود إذا رفق ومنه بني رويد (mufradat)؛ الإرواد في الفعل أن يكون رويدا (maqayis)؛ الرادة السهلة من الرياح… (also H1.32, H2.34, H3.44, H14.6) — kw/shared: mercy (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F14** ر و د B005 «yumusak ve yavas ilerleme» الرفق والمهل — word يُرِيدُ (3 dictionaries); source: يمشي على رود أي على مهل (sihah)؛ أرود في السير إروادا ومرودا أي رفق (sihah)؛ رويد: مهلا ورويدك: أمهل (sihah)؛ أرود يرود إذا رفق ومنه بني رويد (mufradat)؛ الإرواد في الفعل أن يكون رويدا (maqayis)؛ الرادة السهلة من الرياح… (also H1.31, H2.33, H3.43, H14.5) — kw/shared: mercy (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F15** ش ك ر B004 «körpe sürgün ve ona benzetilen yeni oluşum» خروج الشكير والنبات الغض — word تَشْكُرُونَ (5 dictionaries); source: الأصل الثالث الشكير من النبات (maqayis)؛ الشكير من النبات ما ينبت من ساق الشجر قضبان غضة (ayn)؛ شكرت الشجرة خرج منها الشكير (sihah)؛ الشكير من الشعر والنبات ما ينبت (tahdhib)؛ الشكير من الفرخ الزغب (tahdhib)؛ وشكير كثير… (also H12.10, L5.2) — kw/shared: tenderness (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F16** ص ل و B002 «başkası için iyilik dileme; esirgeme, övme ve değer verme» الدعاء والثناء والرحمة — word ٱلصَّلَوٰةِ (5 dictionaries); source: الصلاة وهي الدعاء (maqayis;sihah); صلوات الرسول للمسلمين دعاؤه لهم (ayn); الصلاة من الله تعالى الرحمة (maqayis;sihah;tahdhib); صلوات الله حسن ثنائه عليهم وقيل مغفرته لهم (ayn); صلاة الملائكة الاستغفار (ayn;tahdhib;mufra… (also H1.71, H2.71, H5.29, H14.7, H15.15, L2.14) — kw/shared: mercy (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F17** ص ل ي B002 «iyilik dileme; özneye göre esirgeme, övme veya aklama» الدعاء والبركة والرحمة — word ٱلصَّلَوٰةِ (echo root, sound family only; 5 dictionaries); source: الصلاة وهي الدعاء (maqayis)؛ صلوات الرسول للمسلمين دعاؤه لهم وذكرهم (ayn)؛ الصلاة من الله تعالى الرحمة (sihah)؛ الصلاة من الملائكة دعاء واستغفار ومن الله سبحانه رحمة (tahdhib)؛ الصلاة الدعاء والتبريك والتمجيد (mufradat) (also H14.8, H15.17, L2.16, L8.4) — kw/shared: compassion (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ || kw/shared: mercy (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F18** م ر ض B003 «hastaya özenle bakma» القيام على المريض — word مَّرْضَىٰٓ (5 dictionaries); source: مرّضه أحسن القيام عليه في مرضه (maqayis)؛ التمريض حسن القيام على المريض (ayn;tahdhib)؛ مرضته تمريضا إذا قمت عليه في مرضه (sihah)؛ التمريض القيام على المريض وتحقيقه إزالة المرض عن المريض (mufradat) (also H1.50, H2.52, H3.73, H14.10, L1.23, L14.12) — kw/shared: compassion (shared) → ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F19** ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: سمي المرتد لأنه رد نفسه إلى كفره (maqayis)؛ الارتداد الرجوع ومنه المرتد والردة الاسم من الارتداد (sihah)؛ ارتد الرجل عن دينه ردة إذا كفر بعد إسلامه (tahdhib)؛ الردة تختص بالكفر والارتداد يستعمل فيه وفي غيره (mufradat) (also H3.31, H15.13, L4.13, L5.9, L14.4) — lex/image: دين → ٱلدِّينِ
+- **F20** ر د د B005 «İslam'dan inkâra dönme» الردة والارتداد عن الدين — word يُرِيدُ (echo root, sound family only; 4 dictionaries); source: سمي المرتد لأنه رد نفسه إلى كفره (maqayis)؛ الارتداد الرجوع ومنه المرتد والردة الاسم من الارتداد (sihah)؛ ارتد الرجل عن دينه ردة إذا كفر بعد إسلامه (tahdhib)؛ الردة تختص بالكفر والارتداد يستعمل فيه وفي غيره (mufradat) (also H3.30, H15.12, L4.12, L5.8, L14.3) — lex/image: دين → ٱلدِّينِ
+- **F21** ق و م B009 «ayakta tutan dayanak ve geçim temeli» قوام وعماد ومعاش — word قُمْتُمْ (5 dictionaries); source: هذا الأمر لا قومية له أي لا قوام له؛ القوام من العيش ما يقيمك ويغنيك؛ القيام العماد؛ قوام كل شيء ما استقام به (ayn)؛ قوام الأمر نظامه وعماده؛ قوام الأمر ملاكه؛ جعل الله لكم قياما (sihah)؛ قوام الأمر وملاكه؛ تقيمكم فتقوم… (also H12.2, L3.9, L17.3) — rel/near_synonym: م ل ك B005 (temel dayanak) → مَٰلِكِ
+- **F22** ي د ي B004 «elinde bulunma, sahiplik ve denetim» اليَد المالكة — word وَأَيْدِيَكُمْ (3 dictionaries); source: هذا الشيء في يدي أي في ملكي (sihah)؛ هذه الضيعة في يد فلان أي ملكه (tahdhib)؛ للحوز والملك يقال هذا في يد فلان (mufradat) — rel/near_synonym: م ل ك B002 (sahiplik ve denetim) → مَٰلِكِ
+- **F23** ي د ي B004 «elinde bulunma, sahiplik ve denetim» اليَد المالكة — word وَأَيْدِيكُم (3 dictionaries); source: هذا الشيء في يدي أي في ملكي (sihah)؛ هذه الضيعة في يد فلان أي ملكه (tahdhib)؛ للحوز والملك يقال هذا في يد فلان (mufradat) — rel/near_synonym: م ل ك B002 (sahiplik ve denetim) → مَٰلِكِ
+- **F24** ء ح د B004 «iki kişiden biri, ilk olan ve haftanın ilk günü» الأول والإضافة — word أَحَدٌ (2 dictionaries); source: أن يستعمل مضافا أو مضافا إليه بمعنى الأول (mufradat); أما أحدكما (mufradat); يوم الأحد أي يوم الأول (mufradat); يوم الأحد يجمع على آحاد (sihah) (also H1.1, H2.1, H3.1) — img/fatiha: fatiha: د ي ن B002 الحساب والجزاء ← ٱلدِّينِ || img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F25** ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيَكُمْ (2 dictionaries); source: المسلمون يد على من سواهم أي كلمتهم ونصرتهم واحدة (tahdhib)؛ اليد الغياث واليد منع الظلم (tahdhib)؛ فلان يد فلان أي وليه وناصره (mufradat)؛ أنا يدك (mufradat) (also H1.64, H2.66, H3.106, H10.24, L1.31, L2.30) — rel/near_synonym: ع و ن B001 (yardım ve dayanışma) → نَسْتَعِينُ
+- **F26** ي د ي B016 «birlik içinde destek ve koruma» اليَد الناصرة — word وَأَيْدِيكُم (2 dictionaries); source: المسلمون يد على من سواهم أي كلمتهم ونصرتهم واحدة (tahdhib)؛ اليد الغياث واليد منع الظلم (tahdhib)؛ فلان يد فلان أي وليه وناصره (mufradat)؛ أنا يدك (mufradat) (also H1.63, H2.65, H3.105, L1.30, L2.29, L3.27) — rel/near_synonym: ع و ن B001 (yardım ve dayanışma) → نَسْتَعِينُ
+- **F27** ء ح د B005 «tek başına kalma ve birer birer gelme» الانفراد والتفرق آحادا — word أَحَدٌ (2 dictionaries); source: ما استأحدت بهذا الأمر أي ما انفردت به (maqayis); استأحد الرجل انفرد (sihah); جاءوا آحاد أحاد (sihah) (also H3.2, F8) — img/fatiha: fatiha: ع ب د B010 التفرق في الوجوه ← نَعْبُدُ
+- **F28** ء ي د B001 «güç ve güçlendirme» قوة مؤيدة — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: أيده الله أي قواه الله (maqayis)؛ والسماء بنيناها بأيد فهذا معنى القوة (maqayis)؛ الأيد أي القوة الشديدة (mufradat)؛ يؤيد بنصره أي يكثر تأييده (mufradat)؛ له أيد ومنه قيل للأمر العظيم مؤيد (mufradat) (also H10.1, L1.4) — kw/shared: aid (shared) → نَسْتَعِينُ || kw/shared: alliance (shared) → نَسْتَعِينُ || img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ || img/fatiha: fatiha: ع و ن B001 الإعانة والمظاهرة ← نَسْتَعِينُ
+- **F29** ء ي د B001 «güç ve güçlendirme» قوة مؤيدة — word وَأَيْدِيكُم (echo root, sound family only; 2 dictionaries); source: أيده الله أي قواه الله (maqayis)؛ والسماء بنيناها بأيد فهذا معنى القوة (maqayis)؛ الأيد أي القوة الشديدة (mufradat)؛ يؤيد بنصره أي يكثر تأييده (mufradat)؛ له أيد ومنه قيل للأمر العظيم مؤيد (mufradat) (also L1.5, L3.1) — kw/shared: aid (shared) → نَسْتَعِينُ || kw/shared: alliance (shared) → نَسْتَعِينُ || img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ || img/fatiha: fatiha: ع و ن B001 الإعانة والمظاهرة ← نَسْتَعِينُ
+- **F30** ت م م B006 «paylari tamamlayip yedirme» تتميم الأيسار — word وَلِيُتِمَّ (2 dictionaries); source: تتميم الأيسار أن تطعمهم فوز قدحك فلا تنتقص منه شيئا (maqayis)؛ إذا فاز قدح الرجل مرة بعد مرة فأطعم لحمه المساكين سمي متمما (tahdhib)؛ التميم في الأيسار أن ينقص الأيسار في الجزور فيأخذ رجل ما بقي حتى يتمم الأنصباء (tahdh… (also H3.6) — img/fatiha: fatiha: ع و ن B003 الحرب العَوان ← نَسْتَعِينُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F31** ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: فلان قائم على رجل إذا جد في أمر حزبه (ayn) (also H1.21, H2.21, L1.1, L5.7, T4) — rel/near_synonym: ق و م B003 (işe sarılmak ile işe kalkışmak) → ٱلْمُسْتَقِيمَ
+- **F32** ر د د B009 «düşmeyi önleyen dayanak, sırt veya yük devesi» العماد وما يحمل ويرد عن السقوط — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: الرد عماد الشيء الذي يرده أي يرجعه عن السقوط والضعف (maqayis)؛ الرد ما صار عمادا للشيء يدفعه ويرده والرد الظهر والحمولة من الإبل (tahdhib) (also L1.3, L4.17) — rel/near_synonym: ق و م B009 (dayanak ve ayakta tutan temel) → ٱلْمُسْتَقِيمَ
+- **F33** ر د د B009 «düşmeyi önleyen dayanak, sırt veya yük devesi» العماد وما يحمل ويرد عن السقوط — word يُرِيدُ (echo root, sound family only; 2 dictionaries); source: الرد عماد الشيء الذي يرده أي يرجعه عن السقوط والضعف (maqayis)؛ الرد ما صار عمادا للشيء يدفعه ويرده والرد الظهر والحمولة من الإبل (tahdhib) (also L1.2, L4.16) — rel/near_synonym: ق و م B009 (dayanak ve ayakta tutan temel) → ٱلْمُسْتَقِيمَ
+- **F34** ص ع د B006 «kendiliğinden düz mızraklık sırık» صعدة قناة مستقيمة — word صَعِيدًا (4 dictionaries); source: الصعدة القناة المستوية تنبت كذلك ومن القصب أيضا (ayn)؛ الصعدة القناة المستوية لا تحتاج إلى تثقيف (sihah)؛ الصعدة الألة وهي نحو من الحربة أو أصغر منها (tahdhib)؛ الصعدة من النساء المستقيمة كأنها صعدة قناة (tahdhib)؛ الصع… (also H8.5, L1.15, L15.8) — lex/image: مستقيما → ٱلْمُسْتَقِيمَ
+- **F35** ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: الإياد كل حاجز الشيء يحفظه (maqayis)؛ إياد الشيء ما يقيه (mufradat) (also H10.4, H11.6, L8.2, T5) — img/fatiha: fatiha: ق و م B004 رعاية وحفظ وولاية ← ٱلْمُسْتَقِيمَ
+- **F36** ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيكُم (echo root, sound family only; 2 dictionaries); source: الإياد كل حاجز الشيء يحفظه (maqayis)؛ إياد الشيء ما يقيه (mufradat) (also L3.3, T6) — img/fatiha: fatiha: ق و م B004 رعاية وحفظ وولاية ← ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F37** ر ج ل B003 «yaya giden kişi» المشي على الأرجل — word وَأَرْجُلَكُمْ (5 dictionaries); source: الرجل الرجالة (maqayis)؛ هذا رجل أي راجل (ayn)؛ الرجل خلاف الفارس (sihah)؛ اشتق من الرجل رجل وراجل للماشي بالرجل (mufradat)؛ رجل رجيل أي قوي على المشى (sihah)؛ ترجل القوم نزلوا على دوابهم (ayn)؛ حرة رجلاء يصعب فيها المش… — rel/near_synonym: ن ع م B012 (yaya kişi ile ayakla gitme) → أَنْعَمْتَ
+- **F38** و ج د B001 «bulma ve duyusal ya da zihinsel olarak algılama» إلفاء الشيء وإصابته — word تَجِدُوا۟ (5 dictionaries); source: الشيء يلفيه (maqayis)؛ وجدت الضالة وجدانا (maqayis;sihah)؛ الوجدان والجدة من قولك وجدت الشيء أي أصبته (ayn)؛ وجدت الشيء أجده وجدانا (jamhara)؛ وجد مطلوبه يجده وجودا (sihah)؛ الوجود أضرب: وجود بإحدى الحواس الخمس ... ووجو… — lex/src-rare: ضالا → ٱلضَّآلِّينَ
+- **F39** ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيَكُمْ (4 dictionaries); source: أيديت إلى الرجل يدا إذا أسديتها إليه (jamhara)؛ اليد النعمة والإحسان (sihah;tahdhib;mufradat)؛ أعطاه مالا عن ظهر يد تفضلا ليس من قرض ولا مكافأة (sihah;tahdhib)؛ يده مطلقة عبارة عن إيتاء النعيم (mufradat) (also H3.99, H10.18, H15.9, L2.1) — rel/near_synonym: ن ع م B001 (iyilik ve esenlik) → أَنْعَمْتَ
+- **F40** ي د ي B003 «karşılıksız iyilik ve bağış» اليَد النعمة — word وَأَيْدِيكُم (4 dictionaries); source: أيديت إلى الرجل يدا إذا أسديتها إليه (jamhara)؛ اليد النعمة والإحسان (sihah;tahdhib;mufradat)؛ أعطاه مالا عن ظهر يد تفضلا ليس من قرض ولا مكافأة (sihah;tahdhib)؛ يده مطلقة عبارة عن إيتاء النعيم (mufradat) (also H3.100, H15.10, L2.2, L3.24) — rel/near_synonym: ن ع م B001 (iyilik ve esenlik) → أَنْعَمْتَ
+- **F41** ء ح د B004 «iki kişiden biri, ilk olan ve haftanın ilk günü» الأول والإضافة — word أَحَدٌ (2 dictionaries); source: أن يستعمل مضافا أو مضافا إليه بمعنى الأول (mufradat); أما أحدكما (mufradat); يوم الأحد أي يوم الأول (mufradat); يوم الأحد يجمع على آحاد (sihah) (also H1.1, H2.1, H3.1, F24) — img/fatiha: fatiha: غ ي ر B005 السوى والخلاف والاستثناء والنفي ← غَيْرِ
+- **F42** ء م ن B002 «dogru sayip kabul etme» تصديق يطمئن إليه القلب — word ءَامَنُوٓا۟ (4 dictionaries); source: الإيمان التصديق (ayn;sihah)؛ وما أنت بمؤمن لنا أي مصدق لنا (maqayis;ayn;mufradat)؛ إذعان النفس للحق على سبيل التصديق (mufradat)؛ المؤمن في صفات الله يصدق ما وعد عبده (maqayis) (also H1.2, H2.2, H3.3, H15.11, L14.1, F10) — img/fatiha: fatiha: ن ع م B004 الجواب بنعم والتصديق ← أَنْعَمْتَ
+
+### 5. Triangles [T]
+
+- **T1** ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: شاة مرد وناقة مردة إذا أضرعت ونهر مرد كثير الماء ورجل مرد إذا طالت عزبته (maqayis)؛ الردة امتلاء الضرع من اللبن قبل النتاج وبحر مرد كثير الموج (sihah)؛ ناقة مرد إذا أشرق ضرعها ووقع فيه اللبن ورجل مرد إذا طالت عزبته وبحر… (also H3.33, H4.9, H5.9, H15.2)
+  - → 5:89 [surah]: rel/near_synonym: ش ك ر B003 (doluluk ve süt bolluğu) → تَشْكُرُونَ
+  - → مَآءً: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً || Luna (same): Water is heard not only as a medium but as gathered abundance.
+  - 5:89 [surah] ↔ مَآءً: frame: تَجِدُ مَآءً ~ يَجِدْ صِيَامُ
+- **T2** ر د د B007 «sütün, suyun veya bedensel sıvının birikip çoğalması» امتلاء الضرع وتجمع الماء — word يُرِيدُ (echo root, sound family only; 3 dictionaries); source: شاة مرد وناقة مردة إذا أضرعت ونهر مرد كثير الماء ورجل مرد إذا طالت عزبته (maqayis)؛ الردة امتلاء الضرع من اللبن قبل النتاج وبحر مرد كثير الموج (sihah)؛ ناقة مرد إذا أشرق ضرعها ووقع فيه اللبن ورجل مرد إذا طالت عزبته وبحر… (also H3.32, H4.8, H5.8, H15.1)
+  - → 5:89 [surah]: rel/near_synonym: ش ك ر B003 (doluluk ve süt bolluğu) → تَشْكُرُونَ
+  - → مَآءً: lex/image: ماء → root م و ه || lex/image: ماء names the plain image of مَآءً
+  - 5:89 [surah] ↔ مَآءً: frame: تَجِدُ مَآءً ~ يَجِدْ صِيَامُ
+- **T3** ق و م B008 «düzgünlük, denge ve doğru yoldan sapmama» استقامة واعتدال واستواء — word قُمْتُمْ (4 dictionaries); source: رمح قويم ورجل قويم؛ القيمة الملة المستقيمة؛ إذا انقاد واستمرت طريقته فقد استقام (ayn)؛ الاستقامة الاعتدال؛ استقام له الأمر؛ قومت الشيء فهو قويم أي مستقيم؛ القوام العدل؛ دينا قيما (sihah)؛ الاستقامة على الطاعة؛ القيم هو … (also H1.44, H2.46, H3.63, L4.21, L5.13)
+  - → 5:8 [surah]: lex/src-rare: اعدل → تَعْدِلُوا۟ ٱعْدِلُوا۟ || rel/near_synonym: ع د ل B005 (düzgün ve dengeli olma) → تَعْدِلُوا۟ ٱعْدِلُوا۟
+  - → مَّرْضَىٰٓ: Luna (opposite): The straight, balanced body is set beside illness as a departure from health. The concession acknowledges bodies that cannot meet the ordinary upright ideal.
+  - 5:8 [surah] ↔ مَّرْضَىٰٓ: frame: كُن مَّرْضَىٰٓ ~ كُونُ قَوَّٰمِينَ
+- **T4** ر ج ل B019 «işine bütün gücüyle sarılmak» القيام على رجل — word وَأَرْجُلَكُمْ (1 dictionaries, sole attestation); source: فلان قائم على رجل إذا جد في أمر حزبه (ayn) (also H1.21, H2.21, L1.1, L5.7, F31)
+  - → 5:8 [surah]: rel/near_synonym: ق و م B003 (işe sarılmak ile işe kalkışmak) → قَوَّٰمِينَ قَوْمٍ
+  - → مَّرْضَىٰٓ: Luna (opposite): The illness setting is set against standing with full resolve.
+  - 5:8 [surah] ↔ مَّرْضَىٰٓ: frame: كُن مَّرْضَىٰٓ ~ كُونُ قَوَّٰمِينَ
+- **T5** ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيَكُمْ (echo root, sound family only; 2 dictionaries); source: الإياد كل حاجز الشيء يحفظه (maqayis)؛ إياد الشيء ما يقيه (mufradat) (also H10.4, H11.6, L8.2, F35)
+  - → 5:8 [surah]: rel/near_synonym: و ق ي B001 (koruma engeli) → لِلتَّقْوَىٰ وَٱتَّقُوا۟
+  - → جُنُبًا: Luna (image): The body’s side appears beside a protecting barrier. The pair gives ritual distance the image of a flank that needs guarding.
+  - 5:8 [surah] ↔ جُنُبًا: frame: كُن جُنُبًا ~ كُونُ قَوَّٰمِينَ
+- **T6** ء ي د B002 «koruyucu engel» إياد واق — word وَأَيْدِيكُم (echo root, sound family only; 2 dictionaries); source: الإياد كل حاجز الشيء يحفظه (maqayis)؛ إياد الشيء ما يقيه (mufradat) (also L3.3, F36)
+  - → 5:8 [surah]: rel/near_synonym: و ق ي B001 (koruma engeli) → لِلتَّقْوَىٰ وَٱتَّقُوا۟
+  - → جُنُبًا: image similarity only
+  - 5:8 [surah] ↔ جُنُبًا: frame: كُن جُنُبًا ~ كُونُ قَوَّٰمِينَ
+- **T7** ق و م B016 «donup akmama veya yorulup ilerleyememe» جمود ووقوف وكلال — word قُمْتُمْ (2 dictionaries); source: قام الماء جمد؛ قامت الدابة وقفت (sihah)؛ قامت لفلان دابته إذا كلت أو عيت فلم تسر (tahdhib) (also H1.75, H4.20, H5.20, L5.14, L6.9)
+  - → 5:89 [surah]: rel/near_synonym: ص و م B003 (hareketsiz kalma) → فَصِيَامُ
+  - → مَآءً: lex/src: ماء → root م و ه || lex/src: ماء names the plain image of مَآءً || Luna (same): The rare branch pictures water in its frozen, unmoving state. The verse's missing water can thus be heard as a medium that is present in name but unable to flow
+  - 5:89 [surah] ↔ مَآءً: frame: تَجِدُ مَآءً ~ يَجِدْ صِيَامُ
+- **T8** ر ف ق B006 «hayvanda dirseğin gövdeye göre sapmış duruşu» انفتال المرفق عن الجنب — word ٱلْمَرَافِقِ (4 dictionaries); source: الرفق انفتال عن الجنب ناقة رفقاء وجمل أرفق (maqayis)؛ الرفق انفتال المرفق عن الجنب وناقة رفقاء وجمل أرفق (ayn;sihah;tahdhib)؛ جمل مرفاق إذا كان مرفقه يصيب جنبه (tahdhib) (also H11.1, L13.5, L15.5)
+  - → 5:8 [surah]: image similarity only
+  - → جُنُبًا: lex/image: جنب → root ج ن ب || Luna (opposite): The elbow turns away from the flank, while junub names the side itself. The pair sets departure from the side against the side’s presence.
+  - 5:8 [surah] ↔ جُنُبًا: frame: كُن جُنُبًا ~ كُونُ قَوَّٰمِينَ
+- **T9** ج ي ء B002 «» المغالبة بكثرة المجيء — word جَآءَ (0 dictionaries); source:  (also H17.9)
+  - → 5:15 [surah]: image similarity only
+  - → أَحَدٌ: Luna (opposite): The clause singles out one person who comes, while the rare sense evokes prevailing through repeated arrivals. The isolated arrival stands out against a crowdin
+  - 5:15 [surah] ↔ أَحَدٌ: frame: جَآءَ أَحَدٌ ~ جَآءَ رَسُولُ
+- **T10** ح ر ج B012 «savaştan ayrılmayan adam» لزوم القتال — word حَرَجٍ (1 dictionaries, sole attestation); source: الحرج الرجل الذي لا يكاد يبرح القتال (maqayis) (also H3.24, L5.6)
+  - → 5:23 [surah]: image similarity only
+  - → مَّرْضَىٰٓ: Luna (opposite): The fighter’s persistence is set against illness and lost strength.
+  - 5:23 [surah] ↔ مَّرْضَىٰٓ: frame: كُن مَّرْضَىٰٓ ~ كُن مُّؤْمِنِينَ
+- **T11** و ج ه B013 «yüzüne vurma ve yüzüne vurulmuş olma» ضرب الوجه — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: وجهت فلانا ضربت وجهه فهو موجوه (tahdhib) (also H6.20, H9.19)
+  - → تَجِدُوا۟: image similarity only
+  - → بِوُجُوهِكُمْ: Luna (part): The face is the part that receives the blow. The second face-word names the very surface implicated in the rare sense.
+  - تَجِدُوا۟ ↔ بِوُجُوهِكُمْ: sound: و ج د ~ و ج ه
+- **T12** و ج ه B015 «iki yüzlü nesne; içiyle dışı uyuşmayan kişi» ذو وجهين — word وُجُوهَكُمْ (1 dictionaries, sole attestation); source: كساء موجه له وجهان؛ رجل ذو وجهين إذا لقي بخلاف ما في قلبه (jamhara) (also H1.82, H3.97, H9.20, H11.14)
+  - → 5:23 [surah]: image similarity only
+  - → جُنُبًا: Luna (part): A side is one face of a two-sided object. The verse's bodily side can be heard beside the object's paired faces.
+  - 5:23 [surah] ↔ جُنُبًا: frame: كُن جُنُبًا ~ كُن مُّؤْمِنِينَ
+- **T13** ت م م B005 «konusmada takilma» ترديد التاء في الكلام — word وَلِيُتِمَّ (2 dictionaries); source: التمتام الذي في تمتمة وهو الذي يتردد في التاء (sihah)؛ التمتمة من الكلام ألا يبين اللسان فيرجع إلى لفظ كأنه التاء أو الميم ورجل تمتام (tahdhib)؛ التمتمة الترديد في التاء (tahdhib) (also H3.5, L5.3, F12)
+  - → 5:15 [surah]: lex/src-rare: يبين → يُبَيِّنُ
+  - → مَّرْضَىٰٓ: Luna (part): Stuttering is one specific impairment within the broader field of illness and diminished capacity. The rare branch narrows the illness image to speech.
+  - 5:15 [surah] ↔ مَّرْضَىٰٓ: frame: كُن مَّرْضَىٰٓ ~ كُن تُخْفُ
+- **T14** ك و ن B003 «birini güvenceyle üstlenme» الكفالة والقيام على فلان — word كُنتُم (2 dictionaries); source: الكيانة الكفالة؛ كنت على فلان أكون كونا أي تكفلت به؛ اكتنت به اكتيانا مثله (sihah); كنت على فلان أكون عليه إذا كفلت به؛ اكتنت أيضا اكتيانا (maqayis) (also H1.47, H2.49, H3.68, L1.21, L5.18)
+  - → 5:8 [surah]: image similarity only
+  - → مَّرْضَىٰٓ: Luna (complement): The care-taking sense belongs naturally beside the mention of illness. The verse’s concession can be heard as attending to the sick person, not merely naming a 
+  - 5:8 [surah] ↔ مَّرْضَىٰٓ: frame: كُن مَّرْضَىٰٓ ~ كُونُ قَوَّٰمِينَ
+- **T15** ص ل ي B008 «tapınma yeri, özellikle Yahudi tapınağı» الصلوات مواضع عبادة — word ٱلصَّلَوٰةِ (echo root, sound family only; 3 dictionaries); source: صلوات اليهود كنائسهم واحدها صلاة (ayn)؛ الصلوات كنائس اليهود (tahdhib)؛ يسمى موضع العبادة الصلاة ولذلك سميت الكنائس صلوات (mufradat) (also L9.8, L14.8)
+  - → 5:41 [surah]: lex/image: مواضع → مَوَاضِعِهِۦ
+  - → وَلِيُتِمَّ: image similarity only
+  - 5:41 [surah] ↔ وَلِيُتِمَّ: frame: يُطَهِّرَ وَلِيُتِمَّ ~ يُطَهِّرَ قُلُوبَ
+
+### 6. Bridges (touch two hubs) [J]
+
+- **J1** 5:12 [surah] joins H1, H10, H11, H13, H14, H15, H16, H18, H2, H3, H4, H5, H6, H7, H8, L1, L10, L11, L13, L14, L18, L2, L20, L3, L4, L8, L9
+- **J2** 5:48 [surah] joins H1, H10, H11, H13, H15, H16, H2, H3, H4, H5, H6, H7, H9, L1, L14, L15, L16, L17, L2, L3, L4, L7, L9
+- **J3** 5:5 [surah] joins H1, H10, H14, H15, H17, H18, H2, H3, H5, H7, H8, L10, L13, L14, L2, L3, L4, L5, L7, L8
+- **J4** 5:110 [surah] joins H1, H10, H12, H15, H17, H18, H2, H3, H4, H5, H6, L1, L15, L2, L3, L9
+- **J5** 5:31 [surah] joins H1, H10, H11, H12, H13, H2, H3, H4, H5, H6, L10, L14, L16, L18, L20, L7, L9
+- **J6** 5:52 [surah] joins H1, H11, H12, H14, H15, H2, H3, H4, H5, H6, L10, L14, L16, L20, L5, L6, L9
+- **J7** 5:33 [surah] joins H1, H10, H11, H13, H15, H2, H3, H4, H5, H9, L1, L12, L15, L3, L4, L7
+- **J8** 5:66 [surah] joins H1, H10, H11, H13, H15, H2, H3, H6, H7, H9, L10, L12, L15, L2, L4, L6
+- **J9** 5:89 [surah] joins H1, H12, H13, H15, H2, H3, H4, H5, H7, H8, L1, L18, L19, L21, L5, L6
+- **J10** 5:18 [surah] joins H1, H11, H12, H13, H15, H2, H3, H4, H5, H6, L10, L14, L17, L3, L4
+- **J11** 5:27 [surah] joins H1, H10, H11, H13, H14, H16, H2, H3, H4, H5, L3, L4, L5
+- **J12** 5:109 [surah] joins H1, H13, H15, H16, H2, H3, H4, H5, H6, H8, L12, L6
+- **J13** 5:95 [surah] joins H1, H14, H15, H17, H2, H3, H4, H5, H6, L1, L10, L14, L15, L2, L4, L5, L6, L7
+- **J14** 5:21 [surah] joins H1, H10, H12, H15, H2, H3, H6, H7, H9, L12, L13, L14, L16, L3, L4, L5, L7
+- **J15** 5:45 [surah] joins H1, H10, H12, H15, H17, H2, H3, H6, H9, L13, L16, L2, L3, L4, L5, L7
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** sound: وُجُوهَكُمْ ~ تَجِدُوا۟: و ج ه ~ و ج د
+- **G2** sound: تَجِدُوا۟ ~ بِوُجُوهِكُمْ: و ج د ~ و ج ه
+- **G3** sound: فَتَيَمَّمُوا۟ ~ وَلِيُتِمَّ: ي م م ~ ت م م
+- **G4** frame: جُنُبًا ~ 5:8: كُن جُنُبًا ~ كُونُ قَوَّٰمِينَ
+- **G5** frame: جُنُبًا ~ 5:15: كُن جُنُبًا ~ كُن تُخْفُ
+- **G6** frame: جُنُبًا ~ 5:23: كُن جُنُبًا ~ كُن مُّؤْمِنِينَ
+- **G7** frame: جُنُبًا ~ 5:57: كُن جُنُبًا ~ كُن مُّؤْمِنِينَ
+- **G8** frame: جُنُبًا ~ 5:105: كُن جُنُبًا ~ كُن تَعْمَلُ
+- **G9** frame: جُنُبًا ~ 5:112: كُن جُنُبًا ~ كُن مُّؤْمِنِينَ
+- **G10** frame: مَّرْضَىٰٓ ~ 5:8: كُن مَّرْضَىٰٓ ~ كُونُ قَوَّٰمِينَ
+- **G11** frame: مَّرْضَىٰٓ ~ 5:15: كُن مَّرْضَىٰٓ ~ كُن تُخْفُ
+- **G12** frame: مَّرْضَىٰٓ ~ 5:23: كُن مَّرْضَىٰٓ ~ كُن مُّؤْمِنِينَ
+- **G13** frame: مَّرْضَىٰٓ ~ 5:57: كُن مَّرْضَىٰٓ ~ كُن مُّؤْمِنِينَ
+- **G14** frame: مَّرْضَىٰٓ ~ 5:105: كُن مَّرْضَىٰٓ ~ كُن تَعْمَلُ
+- **G15** frame: مَّرْضَىٰٓ ~ 5:112: كُن مَّرْضَىٰٓ ~ كُن مُّؤْمِنِينَ
+- **G16** frame: أَحَدٌ ~ 5:15: جَآءَ أَحَدٌ ~ جَآءَ رَسُولُ
+- **G17** frame: أَحَدٌ ~ 5:19: جَآءَ أَحَدٌ ~ جَآءَ رَسُولُ
+- **G18** frame: أَحَدٌ ~ 5:19: جَآءَ أَحَدٌ ~ جَآءَ بَشِيرٌ
+- **G19** frame: أَحَدٌ ~ 5:70: جَآءَ أَحَدٌ ~ جَآءَ رَسُولٌۢ
+- **G20** frame: مَآءً ~ 5:89: تَجِدُ مَآءً ~ يَجِدْ صِيَامُ
+- **G21** frame: وَلِيُتِمَّ ~ 5:41: يُطَهِّرَ وَلِيُتِمَّ ~ يُطَهِّرَ قُلُوبَ
+- **G22** word note: 5:6:1 يَا: vocative summons — topics: direct covenantal address
+- **G23** word note: 5:6:2 أَيُّهَا: alerted covenant audience — topics: vocative alert block
+- **G24** word note: 5:6:3 الَّذِينَ: qualified addressee — topics: believers specified
+- **G25** word note: 5:6:4 آمَنُوا: entered faith-trust identity — topics: faith as entrusted identity
+- **G26** word note: 5:6:5 إِذَا: recurrent prayer condition — topics: expected recurrence
+- **G27** word note: 5:6:6 قُمْتُمْ: rising toward prayer — topics: directed prayer transition
+- **G28** word note: 5:6:7 إِلَى: prayer as endpoint — topics: directional prayer goal
+- **G29** word note: 5:6:8 الصَّلَاةِ: definite prayer goal — topics: prayer-facing connection
+- **G30** word note: 5:6:9 فَ: conditional consequence marker — topics: apodosis marker
+- **G31** word note: 5:6:10 اغْسِلُوا: water washing command — topics: water-wash phase
+- **G32** word note: 5:6:11 وُجُوهَكُمْ: face as interface — topics: prayer-facing interface
+- **G33** word note: 5:6:12 وَ: hands joined to faces — topics: same wash phase
+- **G34** word note: 5:6:13 أَيْدِيَكُمْ: hands as bounded agency — topics: purified agency
+- **G35** word note: 5:6:14 إِلَى: elbow endpoint marker — topics: hand-wash boundary
+- **G36** word note: 5:6:15 الْمَرَافِقِ: elbow boundary with ease resonance — topics: joint of facility
+- **G37** word note: 5:6:16 وَ: mode-shift coordinator — topics: shift to wiping
+- **G38** word note: 5:6:17 امْسَحُوا: wiping contact mode — topics: lighter contact command
+- **G39** word note: 5:6:18 بِ: contact or partitive preposition — topics: head-wiping legal hinge
+- **G40** word note: 5:6:19 رُءُوسِكُمْ: heads as mediated object — topics: summit touched by wiping
+- **G41** word note: 5:6:20 وَ: feet coordination pressure — topics: feet attachment ambiguity
+- **G42** word note: 5:6:21 أَرْجُلَكُمْ: feet case crux — topics: wash-or-wipe feet crux
+- **G43** word note: 5:6:22 إِلَى: ankle endpoint marker — topics: feet boundary
+- **G44** word note: 5:6:23 الْكَعْبَيْنِ: dual ankle boundary — topics: bilateral ankle limit
+- **G45** word note: 5:6:24 وَ: resumptive exception turn — topics: exception handling begins
+- **G46** word note: 5:6:25 إِنْ: contingent impurity condition — topics: conditional exception marker
+- **G47** word note: 5:6:26 كُنْتُمْ: being-state frame — topics: conditional state frame
+- **G48** word note: 5:6:27 جُنُبَاً: major displacement state — topics: state of ritual distance
+- **G49** word note: 5:6:28 فَ: junub consequence marker — topics: required response
+- **G50** word note: 5:6:29 اطَّهَّرُوا: full self-purification — topics: comprehensive purity reset
+- **G51** word note: 5:6:30 وَ: second block resumption — topics: new concession block
+- **G52** word note: 5:6:31 إِنْ: long alternatives condition — topics: shared concession logic
+- **G53** word note: 5:6:32 كُنْتُمْ: illness state frame — topics: illness predicate frame
+- **G54** word note: 5:6:33 مَرْضَى: embodied illness concession — topics: incapacity before events
+- **G55** word note: 5:6:34 أَوْ: alternative trigger marker — topics: independent alternatives
+- **G56** word note: 5:6:35 عَلَى: upon a journey-state — topics: travel as state
+- **G57** word note: 5:6:36 سَفَرٍ: travel exposure concession — topics: exposed journey state
+- **G58** word note: 5:6:37 أَوْ: third alternative marker — topics: event triggers begin
+- **G59** word note: 5:6:38 جَاءَ: euphemistic coming — topics: return-from-place euphemism
+- **G60** word note: 5:6:39 أَحَدٌ: one-of-you individualization — topics: individual trigger within group
+- **G61** word note: 5:6:40 مِنْكُمْ: partitive community marker — topics: one from among you
+- **G62** word note: 5:6:41 مِنَ: source preposition — topics: source of euphemism
+- **G63** word note: 5:6:42 الْغَائِطِ: privy terrain euphemism — topics: low-place euphemism
+- **G64** word note: 5:6:43 أَوْ: final alternative marker — topics: contact trigger introduced
+- **G65** word note: 5:6:44 لَامَسْتُمُ: touch-contact legal range — topics: contact scope crux
+- **G66** word note: 5:6:45 النِّسَاءَ: women as categorical object — topics: categorical contact object
+- **G67** word note: 5:6:46 فَ: water-absence transition — topics: pivot to non-finding
+- **G68** word note: 5:6:47 لَمْ: negated finding condition — topics: actual non-finding required
+- **G69** word note: 5:6:48 تَجِدُوا: failure to find water — topics: finding-root correction
+- **G70** word note: 5:6:49 مَاءً: water as default medium — topics: missing purifying water
+- **G71** word note: 5:6:50 فَ: substitute consequence marker — topics: tayammum consequence
+- **G72** word note: 5:6:51 تَيَمَّمُوا: intentional tayammum aiming — topics: directed selection
+- **G73** word note: 5:6:52 صَعِيدَاً: earth surface selected — topics: raised clean surface
+- **G74** word note: 5:6:53 طَيِّبَاً: wholesome clean surface — topics: quality-filtered medium
+- **G75** word note: 5:6:54 فَ: tayammum action marker — topics: procedure after medium
+- **G76** word note: 5:6:55 امْسَحُوا: earth wiping command — topics: reduced-scope wiping
+- **G77** word note: 5:6:56 بِ: tayammum contact preposition — topics: mediated earth contact
+- **G78** word note: 5:6:57 وُجُوهِكُمْ: faces retained in tayammum — topics: face remains central
+- **G79** word note: 5:6:58 وَ: hands joined in tayammum — topics: agency retained
+- **G80** word note: 5:6:59 أَيْدِيكُمْ: tayammum hands without elbow limit — topics: unbounded hand scope
+- **G81** word note: 5:6:60 مِنْهُ: from the selected surface — topics: earth as source medium
+- **G82** word note: 5:6:61 مَا: negative divine-intent opening — topics: rationale begins by denial
+- **G83** word note: 5:6:62 يُرِيدُ: divine purposive will — topics: will as designed intent
+- **G84** word note: 5:6:63 اللَّهُ: explicit divine subject — topics: one agency behind mercy and obligation
+- **G85** word note: 5:6:64 لِ: denial-purpose lām — topics: emphatic denied purpose
+- **G86** word note: 5:6:65 يَجْعَلَ: denied making of burden — topics: not constructed as load
+- **G87** word note: 5:6:66 عَلَيْكُمْ: would-be burden target — topics: upon-you pressure denied
+- **G88** word note: 5:6:67 مِنْ: any-trace negation — topics: no trace of constriction
+- **G89** word note: 5:6:68 حَرَجٍ: constriction denied — topics: blocked-path hardship denied
+- **G90** word note: 5:6:69 وَ: adversative turn marker — topics: turn to positive purpose
+- **G91** word note: 5:6:70 لَكِنْ: not hardship but purpose — topics: adversative correction
+- **G92** word note: 5:6:71 يُرِيدُ: affirmed divine intent — topics: positive will repeated
+- **G93** word note: 5:6:72 لِ: first positive purpose lām — topics: purification as aim
+- **G94** word note: 5:6:73 يُطَهِّرَكُمْ: God purifies through the rite — topics: divine purifier, believers object
+- **G95** word note: 5:6:74 وَ: paired purpose coordinator — topics: favor paired with purification
+- **G96** word note: 5:6:75 لِ: second purpose lām — topics: completion as aim
+- **G97** word note: 5:6:76 يُتِمَّ: favor brought to fullness — topics: ongoing completion of favor
+- **G98** word note: 5:6:77 نِعْمَتَهُ: favor as gracious softness — topics: obligation as beneficence
+- **G99** word note: 5:6:78 عَلَيْكُمْ: favor upon the same addressees — topics: burden replaced by favor
+- **G100** word note: 5:6:79 لَعَلَّكُمْ: hoped-for gratitude outcome — topics: gratitude invited, not coerced
+- **G101** word note: 5:6:80 تَشْكُرُونَ: continuing communal gratitude — topics: gratitude as recognized benefit
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+17 readings and open observations, 7 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 35, 'plain': 6, 'same-as': 1}.
+
+- **L10** [reading; support strong, relevance high] word 10: وَأَيْدِيَكُمْ — lemma يَد, root ي د ي, pos CONJ;N;PRON
+  - finding: وَأَيْدِيَكُمْ joins the hands to the face under one washing command; the verse later retains the hands in tayammum but gives them no matching elbow endpoint there.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»
+  - activation: The same body part occurs in both the water procedure and its earth-based substitute, with an explicit limit only in the first.
+  - limits: This contrast does not by itself decide the precise extent of the hand in either procedure.
+- **L13** [reading; support strong, relevance high] word 13: وَٱمْسَحُوا۟ — lemma ٱمْسَحُ, root م س ح, pos CONJ;V;PRON
+  - finding: ٱمْسَحُوا۟ supplies a wiping action for the head and the same verb returns for tayammum, where the named medium is earth; the repeated verb carries one contact mode across two media.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»
+  - activation: The second command follows the instruction to aim for clean earth when water is not found.
+  - limits: The repeated verb establishes a shared action, but does not make the objects or scope of the two wipe commands identical.
+- **L15** [reading; support strong, relevance high] word 15: وَأَرْجُلَكُمْ — lemma رِجْل, root ر ج ل, pos CONJ;N;PRON
+  - finding: The written accusative وَأَرْجُلَكُمْ lies at a real attachment crux after the head-wiping phrase; the listed mutawātir genitive reading وَأَرْجُلِكُمْ makes attachment to wiping more direct, while the accusative permits a route back to the earlier washing objects.
+  - evidence: 5:6 «وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»
+  - activation: Feet follow بِرُءُوسِكُمْ in the sequence, while the verse has already introduced both washing and wiping commands.
+  - limits: Case and order expose competing syntactic paths; they do not alone settle how the accusative is to be parsed or determine a complete ritual practice.
+- **L33** [reading; support strong, relevance high] word 33: ٱلْغَآئِطِ — lemma غَآئِط, root غ و ط, pos DET;N
+  - finding: ٱلْغَآئِطِ retains the image of a low or concave place in a conventional euphemism for relieving oneself, so the bodily trigger is expressed through landscape and departure from it.
+  - evidence: 5:6 «جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ»
+  - activation: The verb جَاءَ and the source preposition مِنَ make the phrase read as coming from a place, while the purification sequence identifies its procedural role.
+  - limits: The wording does not describe the act itself or identify a particular location.
+- **L37** [reading; support strong, relevance high] word 37: فَلَمْ — lemma لَم, root —, pos CONJ;NEG
+  - finding: فَلَمْ تَجِدُوا۟ makes failure to find water an added condition after the listed states and events; those conditions alone do not lead to the tayammum command in this sentence.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟»
+  - activation: The final fa makes tayammum the response after both the alternatives and the negated finding clause.
+  - limits: The syntax sets the condition in this passage; it does not by itself define every circumstance in which water counts as unavailable.
+- **L39** [reading; support strong, relevance high] word 39: مَآءً — lemma مَآء, root م و ه, pos N
+  - finding: مَآءًۭ names the usual medium whose absence triggers a turn to صَعِيدًا طَيِّبًا; the verse makes purification adaptable to a different material when water is not found.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - activation: The negated finding of water is followed directly by the command to aim for clean earth.
+  - limits: This establishes the substitution in the stated condition but does not make water and earth equivalent in every respect.
+- **L43** [reading; support strong, relevance high] word 43: فَٱمْسَحُوا۟ — lemma ٱمْسَحُ, root م س ح, pos CONJ;V;PRON
+  - finding: فَٱمْسَحُوا۟ repeats the wiping verb after the earth-selection command and applies it to faces and hands; wiping thus links the head procedure to the water-substitute procedure.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»
+  - activation: The second occurrence follows the selection of a clean earth surface and takes a different pair of body parts.
+  - limits: The repeated verb does not imply identical objects, scope, or medium in both procedures.
+- **L44** [reading; support strong, relevance high] word 44: بِوُجُوهِكُمْ — lemma وَجْه, root و ج ه, pos P;N;PRON
+  - finding: بِوُجُوهِكُمْ repeats the face named earlier as a washing object, but now places it under wiping with the selected earth; the face remains common across the two procedures as their media and actions change.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»
+  - activation: The face occurs in both the opening water-wash sequence and the later tayammum sequence.
+  - limits: The recurrence establishes a shared bodily object, not a symbolic meaning for the face.
+- **local_1.X1** [reading; support strong, relevance high] 
+  - finding: فَٱطَّهَّرُوا۟ commands the addressees to purify themselves, while لِيُطَهِّرَكُمْ later names purification as God's purpose; the shift from a plural imperative to a divine causative subject places human ritual action inside a stated divine aim.
+  - evidence: 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»
+  - activation: The purification command is followed by the verse's explanation of what God intends through the procedures and concessions.
+  - limits: The grammatical pairing does not specify a metaphysical account of how the rite purifies.
+- **local_2.X1** [reading; support strong, relevance high] 
+  - finding: The tayammum clause includes أَيْدِيكُم as it includes أَيْدِيَكُمْ in the water-wash clause, but gives an endpoint only for the washing. This marks hand involvement in both rites while leaving the dry wipe's textual boundary unspecified.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «وَأَيْدِيكُم مِّنْهُ»
+  - activation: The two hand phrases occur within the ayah's water and water-substitute procedures.
+  - limits: The differing boundary phrases do not by themselves establish how far the tayammum wipe extends.
+- **local_2.X2** [reading; support strong, relevance high] 
+  - finding: The second فَٱمْسَحُوا۟ reuses the wiping verb and بِ construction first applied to the head, now naming the face and hands in the substitute rite. The wording carries the wiping mode into tayammum while changing its named objects.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»
+  - activation: The repeated imperative follows the switch from the ordinary water procedure to the condition in which water is not found.
+  - limits: The repeated construction establishes a verbal and procedural correspondence, but does not specify identical scope or manner.
+- **local_2.X4** [reading; support strong, relevance high] 
+  - finding: The phrase وَلِيُتِمَّ نِعْمَتَهُ عَلَيْكُمْ echoes 5:3's وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي. This reprise places the purification rules within the surah's account of God's completion of favor.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The near-identical completion-and-favor wording links this ayah's stated purpose to an earlier declaration in the surah.
+  - limits: The repeated phrase does not specify that the favor in both verses refers to precisely the same set of provisions or events.
+- **L12** [open; support medium, relevance high] word 12: ٱلْمَرَافِقِ — lemma مَرَافِق, root ر ف ق, pos DET;N
+  - finding: ٱلْمَرَافِقِ names the elbows, while the ر ف ق root also carries senses of ease and benefit; the closing denial of حَرَجٍ could activate an ease association around this bodily boundary.
+  - evidence: 5:6 «إِلَى ٱلْمَرَافِقِ»; 5:6 «مِّنْ حَرَجٍۢ»
+  - missing: The root data gives both senses, but this verse does not establish that the elbow term evokes facility here. A dictionary account connecting the elbow sense to ease, or a Quranic parallel joining the same word family to relief, could decide whether that association is active.
+- **L14** [open; support medium, relevance high] word 14: بِرُءُوسِكُمْ — lemma رَأْس, root ر ء س, pos P;N;PRON
+  - finding: بِرُءُوسِكُمْ places the head phrase under the wiping verb through بِ, whose contact and partitive possibilities leave the extent of head contact unresolved.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»
+  - missing: This phrase alone does not settle whether بِ marks contact with the head or a partitive relation. A decisive account of the construction in Arabic usage or a parallel Quranic phrase could supply that support.
+- **L20** [open; support medium, relevance high] word 20: جُنُبًا — lemma جُنُب, root ج ن ب, pos N
+  - finding: جُنُبًا names the state that triggers فَٱطَّهَّرُوا۟; its root field includes being at the side or distant, which could make ritual impurity sound like a state of separation from readiness for prayer.
+  - evidence: 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»
+  - missing: The verse establishes the ritual state and its required response, but not whether the root’s spatial sense remains audible in the technical term. A dictionary account of this ritual use or a Quranic parallel that activates the distance sense could decide it.
+- **L35** [open; support medium, relevance high] word 35: لَٰمَسْتُمُ — lemma لَمَسُ, root ل م س, pos V;PRON
+  - finding: لَٰمَسْتُمُ is Form III, while the listed mutawātir reading لَمَسْتُمُ is Form I; the root includes tactile contact and a euphemism for intercourse, so the phrase permits a consequential range of readings.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»
+  - missing: The displayed verse gives Form III only and does not decide whether this context means bodily touch or the euphemistic act, nor how much reciprocity Form III contributes. A Quranic parallel with an unambiguous use or decisive Arabic usage evidence for this construction could resolve the range.
+- **local_2.X3** [reading; support strong, relevance medium] 
+  - finding: صَعِيدًا طَيِّبًا repeats the طَيِّب word family used for the permitted good things in the immediately preceding verse, giving the substitute surface a positive quality alongside its role as earth.
+  - evidence: 5:5 «أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ»; 5:6 «صَعِيدًۭا طَيِّبًۭا»
+  - activation: The shared wording appears in adjacent verses, with the earlier verse discussing permitted provisions and this one specifying a substitute purification medium.
+  - limits: The lexical echo does not establish that the ground belongs to the same legal category as the permitted provisions.
+
+Notes:
+- L29 [support strong, relevance medium] جَاءَ frames the event as someone coming from a place; the euphemistic force belongs chiefly to ٱلْغَائِطِ, the low place named as the source.
+- L34 [support strong, relevance medium] أَوْ adds the contact condition to the alternatives already named, keeping it in the same chain that leads to the water-finding clause.
+- L41 [support strong, relevance medium] صَعِيدًا presents earth or its surface as the selected medium, and طَيِّبًا qualifies its suitability.
+- L42 [support strong, relevance medium] طَيِّبًا makes the substitute surface positively qualified as good or pure, rather than naming earth without a quality condition.
+- L40 [support medium, relevance medium] تَيَمَّمُوا۟ can carry the sense of deliberately aiming toward a target as well as its established ritual sense; صَعِيدًا طَيِّبًا immediately supplies that target.
+- L01 [support strong, relevance low] يَٰٓأَيُّهَا opens the instruction as a direct summons to the believing community before its bodily procedures begin.
+- L30 [support strong, relevance low] أَحَدٌ shifts from the plural addressees to an individual member as the subject of the coming-from-the-place condition.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+27 readings and open observations, 3 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-قوم** [reading; support strong, relevance high] root ق و م (focus word قُمْتُمْ: قَامَ V) — 643 occurrences in 597 ayat; same form 31, other forms 612
+  - finding: The same threshold phrase, قُمْتُمْ إِلَى الصَّلَوٰةِ, appears in 4:142, where hypocrites rise lazily and for show. Here that rising triggers washing, so the familiar movement toward prayer is heard through a different enacted posture: preparation rather than display.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 4:142 «وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ»
+  - activation: The exact shared phrase links the focus ayah’s rising to the contrasting prayer approach described in 4:142.
+  - limits: The parallel does not accuse the focus audience of hypocrisy; it shows that the same outward transition can carry different dispositions.
+- **U-غسل** [reading; support strong, relevance high] root غ س ل (focus word فَٱغْسِلُوا۟: ٱغْسِلُ V) — 4 occurrences in 4 ayat; same form 1, other forms 3
+  - finding: The verse distinguishes washing named limbs, فَٱغْسِلُوا۟, from the broader purification required in the junub condition, فَٱطَّهَّرُوا۟. In 4:43, the corresponding junub condition ends عند حَتَّىٰ تَغْتَسِلُوا۟; the different forms and commands mark a shift in scope from specific members to a whole-state reset.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 4:43 «حَتَّىٰ تَغْتَسِلُوا۟»
+  - activation: The focus ayah moves from washing a list of body parts to a separate conditional command for junub; 4:43 supplies the bathing verb for that condition.
+  - limits: The wording establishes a difference in scope and form but does not by itself specify every ritual detail of either procedure.
+- **U-جنب** [reading; support strong, relevance high] root ج ن ب (focus word جُنُبًا: جُنُب N) — 32 occurrences in 31 ayat; same form 3, other forms 29
+  - finding: The exact noun جُنُب appears in 4:43 as a state barring approach to prayer until bathing, and here as the state followed by the command فَٱطَّهَّرُوا۟. The earlier restriction makes this command read as its operative remedy.
+  - evidence: 4:43 «وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟»; 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»
+  - activation: The focus ayah opens with preparation for الصلاة before naming the junub state and its response.
+  - limits: The shared purity setting does not make the exceptions and conditions in 4:43 identical to those in 5:6.
+- **U-طهر** [reading; support strong, relevance high] root ط ه ر (focus word فَٱطَّهَّرُوا۟: تَطَهَّرْ V form V) — 31 occurrences in 26 ayat; same form 5, other forms 26
+  - finding: The focus shifts from the believers’ Form V command فَٱطَّهَّرُوا۟ to the Form II purpose لِيُطَهِّرَكُمْ, naming both their enacted purification and God’s purifying intent. In 5:41 the same Form II verb has hearts as its object, and God’s will not to purify them is stated. The shared root links bodily and inward purification while keeping their agents and objects distinct.
+  - evidence: 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 5:41 «أُو۟لَٰٓئِكَ ٱلَّذِينَ لَمْ يُرِدِ ٱللَّهُ أَن يُطَهِّرَ قُلُوبَهُمْ»
+  - activation: The focus ayah uses the root first in a command to the believers, then in a purpose clause naming God as agent; the same surah applies the latter form to hearts.
+  - limits: The shared root does not say that the bodily rite itself purifies hearts or equate the groups in 5:6 and 5:41.
+- **U-مرض** [reading; support strong, relevance high] root م ر ض (focus word مَّرْضَىٰٓ: مَّرِيض N) — 24 occurrences in 23 ayat; same form 10, other forms 14
+  - finding: مرضى recurs alongside travel in Quranic adjustments to ritual demands: 2:184 gives a later-day alternative for fasting, while 4:43 and 5:6 place the pair in purification instructions. Here the focus makes lack of water the condition for tayammum. The repeated pairing gives the illness clause a cross-ritual accommodation setting.
+  - evidence: 2:184 «فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍۢ فَعِدَّةٌۭ مِّنْ أَيَّامٍ أُخَرَ»; 4:43 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ»; 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ»
+  - activation: The focus places illness beside travel, then conditions its alternative procedure on not finding water.
+  - limits: The repeated pairing does not make illness and travel the same cause or give them identical alternatives in every rite.
+- **U-سفر** [reading; support strong, relevance high] root س ف ر (focus word سَفَرٍ: سَفَر N) — 12 occurrences in 12 ayat; same form 7, other forms 5
+  - finding: The travel condition in 5:6 resembles 2:283: both say that when people are on a journey and do not find a needed resource, another means is provided. Here tayammum answers the absence of water; there a pledge answers the absence of a scribe. This makes the focus’s travel clause part of a Quranic pattern of practical substitution under travel constraints.
+  - evidence: 5:6 «أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟»; 2:283 «وَإِن كُنتُمْ عَلَىٰ سَفَرٍۢ وَلَمْ تَجِدُوا۟ كَاتِبًۭا فَرِهَٰنٌۭ مَّقْبُوضَةٌۭ»
+  - activation: The focus combines عَلَىٰ سَفَرٍ with not finding water and a substitute purification procedure.
+  - limits: This parallel does not establish a universal travel exemption; each passage specifies its own missing resource and remedy.
+- **U-يمم** [reading; support strong, relevance high] root ي م م (focus word فَتَيَمَّمُوا۟: تَيَمَّمُ V form V) — 11 occurrences in 10 ayat; same form 3, other forms 8
+  - finding: The same Form V verb directs an act toward a chosen object in 2:267, where believers are told not to direct their spending toward ٱلْخَبِيثَ. In 5:6, تَيَمَّمُوا۟ takes صَعِيدًا طَيِّبًا as its object, presenting the substitute medium as a deliberate selection whose quality matters.
+  - evidence: 2:267 «وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - activation: The focus pairs the imperative with a specified, qualified object after water is not found.
+  - limits: The 2:267 example concerns spending, so it supports directed selection but does not define the technical sense of the purification rite.
+- **U-صعد** [reading; support strong, relevance high] root ص ع د (focus word صَعِيدًا: صَعِيد N) — 9 occurrences in 9 ayat; same form 4, other forms 5
+  - finding: In 18:8 and 18:40, the noun صَعِيد describes ground left barren or made slippery. These uses support hearing the focus’s صَعِيدًا as a ground surface selected as the medium, with مِنْهُ linking the wiping to that medium.
+  - evidence: 18:8 «وَإِنَّا لَجَٰعِلُونَ مَا عَلَيْهَا صَعِيدًۭا جُرُزًا»; 18:40 «فَتُصْبِحَ صَعِيدًۭا زَلَقًا»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»
+  - activation: The focus names صَعِيدًا as the object chosen for tayammum and then refers back to it as the source of the wiping.
+  - limits: These examples support a ground or surface sense but do not specify dust, soil, sand, or how the medium is obtained.
+- **U-طيب** [reading; support strong, relevance high] root ط ي ب (focus word طَيِّبًا: طَيِّب ADJ) — 50 occurrences in 46 ayat; same form 8, other forms 42
+  - finding: Within Surah 5, طَيِّبًا qualifies both food in 5:88 and the earth selected for tayammum, while 5:100 sets ٱلطَّيِّبُ against ٱلْخَبِيثُ. The adjective therefore acts as a quality filter on the substitute medium within the surah’s vocabulary of good and wholesome things.
+  - evidence: 5:6 «صَعِيدًۭا طَيِّبًۭا»; 5:88 «وَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا»; 5:100 «قُل لَّا يَسْتَوِى ٱلْخَبِيثُ وَٱلطَّيِّبُ»
+  - activation: The adjective qualifies the medium used when water is unavailable, and its food and contrastive uses elsewhere in the surah give that qualification a wider evaluative range.
+  - limits: The shared adjective does not establish that earth carries the same legal or moral status as food.
+- **U-حرج** [reading; support strong, relevance high] root ح ر ج (focus word حَرَجٍ: حَرَج N) — 11 occurrences in 11 ayat; same form 10, other forms 1
+  - finding: The focus’s wording closely matches 22:78, which says God has placed no حَرَج upon people in religion. In 9:91, the term also frames concessions for the weak, the sick, and those unable to provide. This usage makes the tayammum provision a concrete instance of the Quran’s wider no-constriction principle for religious obligations.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 22:78 «وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ»; 9:91 «لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ»
+  - activation: The focus itself names illness and travel among conditions for an alternative rite, echoing the disability-related concessions in 9:91.
+  - limits: The parallel establishes a broad principle, not the exact procedural boundaries of tayammum or the equivalence of these separate cases.
+- **U-تمم** [reading; support strong, relevance high] root ت م م (focus word وَلِيُتِمَّ: أَتَمَّ V form IV) — 22 occurrences in 20 ayat; same form 16, other forms 6
+  - finding: The imperfect subjunctive وَلِيُتِمَّ presents completion of favor as a divine purpose of this rite. Its wording echoes 5:3, where completion of the favor accompanies the declaration that the religion has been perfected; 16:81 and 12:6 use the same verb with favor for communities and an individual.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 5:3 «ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 16:81 «كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ»; 12:6 «وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ»
+  - activation: In 5:6 the purpose follows the washing, purification, and waterless substitute; 5:3 supplies a same-surah echo of favor brought to completion.
+  - limits: The echo does not establish that the favor in 5:6 is identical to the favor in 5:3 or that the rite marks a final completion.
+- **U-نعم** [reading; support strong, relevance high] root ن ع م (focus word نِعْمَتَهُۥ: نِعْمَة N) — 136 occurrences in 128 ayat; same form 50, other forms 86
+  - finding: In this surah, divine favor is something the community is told to remember alongside its covenant, and it is illustrated by protection from harm. That pattern lets نِعْمَتَهُۥ in 5:6 sound as covenantal favor, with purification and gratitude named as its aims.
+  - evidence: 5:6 «نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ»; 5:11 «ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ»
+  - activation: The focus ayah couples completing favor with purification and the invitation to give thanks; 5:7 and 5:11 return to remembering favor in covenant and protection contexts.
+  - limits: The passage does not specify that 5:6's favor is the same particular protection described in 5:11, or exhaustively define what the favor includes.
+- **U-صلو** [reading; support medium, relevance high] root ص ل و (focus word ٱلصَّلَوٰةِ: صَلَوٰة N) — 94 occurrences in 90 ayat; same form 79, other forms 15
+  - finding: Prayer in this surah is both a marker of believers’ allegiance and a contested public practice: believers establish it in 5:55, while its call is mocked in 5:58. The washing instruction can therefore be heard as embodied preparation for a communal act that the surah also places in a social field of allegiance and contest.
+  - evidence: 5:6 «إِلَى ٱلصَّلَوٰةِ»; 5:55 «يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ»; 5:58 «وَإِذَا نَادَيْتُمْ إِلَى ٱلصَّلَوٰةِ ٱتَّخَذُوهَا هُزُوًۭا وَلَعِبًۭا»
+  - activation: The same prayer noun recurs in nearby surah passages about believers’ practice and the public call to prayer.
+  - limits: The surah does not say that washing itself is a public identity test or directly discuss the mockery in 5:58 here.
+- **U-وجه** [reading; support medium, relevance high] root و ج ه (focus word وُجُوهَكُمْ: وَجْه N) — 77 occurrences in 71 ayat; same form 70, other forms 7
+  - finding: The face is retained in both ordinary washing and the waterless substitute. Elsewhere, the Quran uses the same word-family for devotional direction in وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ. In a prayer threshold, that usage lets the washed or wiped face carry both a bodily and an orienting association.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 6:79 «إِنِّى وَجَّهتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ حَنِيفًۭا»
+  - activation: The prayer setting and the face’s repetition across both water and earth procedures activate the Quranic association between face and orientation.
+  - limits: The focus ayah does not name a direction, and the parallel does not establish deliberate wordplay or make the body-part noun identical in meaning to the derived verb.
+- **U-يدي** [reading; support medium, relevance high] root ي د ي (focus word وَأَيْدِيَكُمْ: يَد N) — 116 occurrences in 110 ayat; same form 116, other forms 0
+  - finding: In the surah’s own hand motif, hands are the threatened instrument of assault in 5:11, then are restrained by God; here they are washed before prayer. This invites hearing bodily purification alongside the surah’s concern with what human hands do.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:11 «أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ»
+  - activation: The same surah repeats the hand noun in a nearby scene of threatened violence and restraint.
+  - limits: The text does not say ablution prevents violence or explicitly symbolize moral agency through the hands.
+- **U-مسح** [reading; support medium, relevance high] root م س ح (focus word وَٱمْسَحُوا۟: ٱمْسَحُ V) — 3 occurrences in 3 ayat; same form 2, other forms 1
+  - finding: The Quranic range gives مسح a bodily, contact-based use: 38:33 applies the noun to the سوق and أعناق of horses. In 5:6 the verb is used for the head and again for the face and hands with the clean earth as its source, while غسل names another operation. The usage supports hearing wiping as a distinct physical mode across different media.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 38:33 «مَسْحًۢا بِٱلسُّوقِ وَٱلْأَعْنَاقِ»
+  - activation: The focus ayah repeats the same verb across the head and the earth-based substitute, against its separate washing command.
+  - limits: The other occurrence does not settle the force or extent of wiping here, nor does it resolve the grammatical attachment of the feet to the commands.
+- **U-رود** [reading; support medium, relevance high] root ر و د (focus word يُرِيدُ: أَرَادَ V form IV) — 128 occurrences in 120 ayat; same form 120, other forms 8
+  - finding: Surah 5 sets God’s will to purify and complete favor in 5:6 alongside Satan’s stated aim in 5:91 to create enmity and divert people from prayer. This frames the purification rule, including its waterless alternative, within a contrast between divine purpose and an obstructive rival purpose.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 5:91 «إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ»
+  - activation: Both passages explicitly name an agent’s purpose, and prayer appears in both: as the focus’s goal and as something Satan seeks to obstruct.
+  - limits: The shared root and prayer reference support a surah-level contrast, but 5:91 does not explicitly refer back to the purification rule.
+- **U-جعل** [reading; support medium, relevance high] root ج ع ل (focus word لِيَجْعَلَ: جَعَلَ V) — 319 occurrences in 311 ayat; same form 313, other forms 6
+  - finding: In 5:48, God assigns a شرعة and منهاج and frames the arrangement as a test; in 5:103, the surah denies that God instituted named taboo categories. Together with 5:6’s denial that God intends to make حَرَج, these uses frame the purification commands as purposeful divine ordering while marking a boundary around attributed constriction and taboo.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 5:48 «لِكُلٍّۢ جَعَلْنَا مِنكُمْ شِرْعَةًۭ وَمِنْهَاجًۭا»; 5:103 «مَا جَعَلَ ٱللَّهُ مِنۢ بَحِيرَةٍۢ وَلَا سَآئِبَةٍۢ وَلَا وَصِيلَةٍۢ وَلَا حَامٍۢ»
+  - activation: The focus explicitly negates divine making of constriction; the surah uses the same verb both for giving a path and denying institution of taboo practices.
+  - limits: The shared root supports a surah-level frame but does not make these distinct rulings identical or prove a direct allusion.
+- **U-شكر** [reading; support medium, relevance high] root ش ك ر (focus word تَشْكُرُونَ: شَكَرَ V) — 75 occurrences in 69 ayat; same form 46, other forms 29
+  - finding: The exact closing formula لَعَلَّكُمْ تَشْكُرُونَ recurs after the oath provisions in 5:89, making gratitude a shared stated aim of two legal passages. Elsewhere, 34:13 calls work itself شُكْرًا, allowing the focus ayah's commanded rites to be heard as a possible enacted response to favor.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 5:89 «كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَٰتِهِۦ لَعَلَّكُمْ تَشْكُرُونَ»; 34:13 «ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا»
+  - activation: In 5:6 the gratitude invitation follows the purification commands and the stated purposes of cleansing and completing favor; 5:89 repeats the formula after another set of legal provisions.
+  - limits: The repeated formula states an intended outcome, not guaranteed gratitude; 34:13 concerns David's household and does not define the exact response expected in 5:6.
+- **U-رجل** [open; support medium, relevance high] root ر ج ل (focus word وَأَرْجُلَكُمْ: رِجْل N) — 73 occurrences in 66 ayat; same form 15, other forms 58
+  - finding: The feet named in 5:6 may resonate with Quranic scenes where feet testify to deeds: 24:24 lists hands and feet among the witnesses, and 36:65 has feet testify after mouths are sealed. This could place ritual attention to the feet alongside bodily accountability.
+  - evidence: 5:6 «وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»; 24:24 «يَوْمَ تَشْهَدُ عَلَيْهِمْ أَلْسِنَتُهُمْ وَأَيْدِيهِمْ وَأَرْجُلُهُم بِمَا كَانُوا۟ يَعْمَلُونَ»; 36:65 «ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ»
+  - missing: Neither 5:6 nor its context mentions testimony or judgment. A passage or formula linking purification of limbs to their testimony could establish whether this is an intended connection.
+- **U-لمس** [open; support medium, relevance high] root ل م س (focus word لَٰمَسْتُمُ: لَمَسُ V) — 5 occurrences in 5 ayat; same form 4, other forms 1
+  - finding: The root appears with hands-on contact with a tangible text in 6:7 and with contact with the sky in 72:8; the focus uses لَٰمَسْتُمُ with ٱلنِّسَآءَ in a purity condition. This range makes bodily contact salient but leaves the focus’s precise scope unresolved.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 6:7 «فَلَمَسُوهُ بِأَيْدِيهِمْ»; 72:8 «وَأَنَّا لَمَسْنَا ٱلسَّمَآءَ»
+  - missing: The other examples use Form I, while the focus uses Form III. A dictionary account of Form III and the full same-form context of the listed 4:43 parallel could help decide whether this denotes ordinary touch, intimate contact, or another scope.
+- **U-رفق** [open; support weak, relevance high] root ر ف ق (focus word ٱلْمَرَافِقِ: مَرَافِق N) — 5 occurrences in 5 ayat; same form 1, other forms 4
+  - finding: A possible root echo links ٱلْمَرَافِقِ, the bodily boundary named in the washing instruction, with مِّرْفَقًا in 18:16, where the word appears in a context of provision or facility. If the senses are connected, the body boundary would sit beside the verse’s denial of hardship in a striking way.
+  - evidence: 5:6 «إِلَى ٱلْمَرَافِقِ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 18:16 «وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا»
+  - missing: A dictionary entry establishing whether the elbow term مرافق and the facility term مرفق share a relevant sense, or another clear Quranic parallel tying the senses together, could decide whether this is more than a same-root juxtaposition.
+- **U-رءس** [reading; support strong, relevance medium] root ر ء س (focus word بِرُءُوسِكُمْ: رَأْس N) — 18 occurrences in 17 ayat; same form 18, other forms 0
+  - finding: The head is a site of distinct ritual actions across Quranic usage: 5:6 commands wiping it, while pilgrimage passages speak of shaving or shortening it. This places the focus instruction within a broader ritual vocabulary for the head while preserving wiping as its specific mode here.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»; 2:196 «وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ»; 48:27 «مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ»
+  - activation: The prayer-purification setting activates comparison with Quranic references to the same body site in pilgrimage rites.
+  - limits: These passages do not state a direct allusion or establish a shared procedure between prayer preparation and pilgrimage.
+- **U-غوط** [reading; support strong, relevance medium] root غ و ط (focus word ٱلْغَآئِطِ: غَآئِط N) — 2 occurrences in 2 ayat; same form 2, other forms 0
+  - finding: In both prayer-purity contexts, coming from ٱلْغَآئِطِ is named as an event relevant to purification. The wording identifies a place of departure as the trigger, keeping the bodily event indirect.
+  - evidence: 5:6 «جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ»; 4:43 «لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ»; 4:43 «غَآئِطِ»
+  - activation: The focus places this phrase among conditions leading to ablution or tayammum; the listed 4:43 occurrence is in a passage about approaching prayer and purification.
+  - limits: The recurrence establishes the phrase’s ritual function, but its terrain sense or euphemistic history would require lexical evidence.
+- **U-وجد** [open; support medium, relevance medium] root و ج د (focus word تَجِدُوا۟: وَجَدَ V) — 102 occurrences in 99 ayat; same form 101, other forms 1
+  - finding: The focus uses the verb تَجِدُوا۟ for the absence of water. The listed other-form noun وُجْدِكُمْ occurs in a passage about a person’s means, which raises the question whether the focus emphasizes failing to locate water or lacking access to it.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ»; 65:6 «مِن وُجْدِكُمْ»
+  - missing: وُجْدِكُمْ is a noun, distinct from the focus verb. A same-form concordance and lexical evidence about تَجِدُوا۟ in availability contexts could clarify whether this is more than a question about locating water.
+- **U-كعب** [open; support weak, relevance medium] root ك ع ب (focus word ٱلْكَعْبَيْنِ: كَعْبَيْن N) — 4 occurrences in 4 ayat; same form 1, other forms 3
+  - finding: The same-surah recurrence of the ك ع ب root places the bodily limit ٱلْكَعْبَيْنِ alongside ٱلْكَعْبَةَ, which 5:97 calls a qiyām for people. This may invite an echo between the bodily boundary and the sanctuary, but the clauses themselves do not connect them.
+  - evidence: 5:6 «إِلَى ٱلْكَعْبَيْنِ»; 5:97 «جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ قِيَٰمًۭا لِّلنَّاسِ»
+  - missing: A dictionary sense connecting the ankle and sanctuary name, together with a contextual cue linking the two in the surah, could establish intentional rootplay; the evidence here shows only the shared root.
+- **U-موه** [open; support weak, relevance medium] root م و ه (focus word مَآءً: مَآء N) — 63 occurrences in 60 ayat; same form 63, other forms 0
+  - finding: The worklist gives a high count for مَآءً but suppresses the common-form examples, so it supplies no wider water collocations to compare with the focus’s move from water to earth.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - missing: A same-form concordance, especially examples linking water with purification or its absence, could establish whether this substitution echoes a wider Quranic usage pattern.
+
+Notes:
+- U-نسو [support strong, relevance medium] In the preceding verse, ٱلنِّسَآءَ occur in a marriage frame; immediately afterward, they are the object of لَٰمَسْتُمُ in a purity condition. This sequence makes a marital or intimate domain available to the phrase without settling its meaning.
+- U-جيء [support strong, relevance low] Within al-Māʾidah, the same verb introduces a messenger’s arrival in 5:15 and a herald’s arrival in 5:19, while here جَاءَ takes أَحَدٌ مِّنكُم as its subject and ٱلْغَائِطِ as the point of departure. The verb ranges from public arrival to an ordinary bodily contingency.
+- U-ءحد [support medium, relevance low] The feminine form إِحْدَى selects one member from an explicit pair in the listed examples; focus أَحَدٌ مِّنكُم instead singles out one person from the addressed community as a possible trigger.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+32 readings and open observations, 5 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near** [reading; support strong, relevance high] the surrounding passage (±7)
+  - finding: The surrounding passage frames purification as covenantal favor: 5:3 announces completion of favor, 5:6 places the purification instruction within that completion, and 5:7 immediately commands remembrance of favor and covenant.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ»
+  - activation: The repeated completion and favor language brackets the purification instruction between the announcement in 5:3 and the remembrance command in 5:7.
+  - limits: The sequence links purification with divine favor but does not specify which aspect of the favor is completed here.
+- **S-ءله** [reading; support strong, relevance high] root ء ل ه elsewhere in the surah (88)
+  - finding: The opening says Allah judges as He wills; 5:6 specifies that the will behind this purification rule is not to impose hardship but to purify and complete favor. Elsewhere, the same will-formula names a punitive outcome, so this verse gives divine will a restorative expression.
+  - evidence: 5:1 «إِنَّ ٱللَّهَ يَحْكُمُ مَا يُرِيدُ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ»; 5:49 «فَٱعْلَمْ أَنَّمَا يُرِيدُ ٱللَّهُ أَن يُصِيبَهُم بِبَعْضِ ذُنُوبِهِمْ»
+  - activation: The repeated يُرِيدُ ٱللَّهُ construction connects the opening legal declaration to the purpose clause in 5:6 and to a contrasting outcome later in the surah.
+  - limits: The punitive statement in 5:49 concerns people turning away from judgment; it does not describe the addressees of 5:6.
+- **S-ءمن** [reading; support strong, relevance high] root ء م ن elsewhere in the surah (36)
+  - finding: The address to ٱلَّذِينَ ءَامَنُوا۟ is followed by a reminder that the community said سَمِعْنَا وَأَطَعْنَا; later, the surah contrasts professed faith with hearts that did not believe. This lets the purification command sound as enacted covenant obedience, not just an identity label.
+  - evidence: 5:6 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟»; 5:7 «إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»; 5:41 «قَالُوا۟ ءَامَنَّا بِأَفْوَٰهِهِمْ وَلَمْ تُؤْمِن قُلُوبُهُمْ»
+  - activation: The immediate covenant reminder and later contrast between spoken and inward faith give the opening summons a surah-wide obedience frame.
+  - limits: The later accusation does not imply that the addressees of 5:6 are insincere, or state that this rite alone proves faith.
+- **S-تمم** [reading; support strong, relevance high] root ت م م elsewhere in the surah (1)
+  - finding: The shared completion verb and favor phrase link the purification instruction to the earlier declaration that God completed His favor upon the community; the rite can be heard as participating in that favor rather than as an isolated burden.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: Both clauses join a form of أتمّ with نعمته/نعمتي عليكم.
+  - limits: The echo does not determine whether the completion in 5:6 names a local benefit or the same completion announced in 5:3.
+- **S-جعل** [reading; support strong, relevance high] root ج ع ل elsewhere in the surah (6)
+  - finding: The denial that God makes hardship does not remove the passage from divine lawmaking: elsewhere the surah says God set a law and a path for each community. The concession in 5:6 can therefore be heard as a feature of how divine legislation is ordered.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ»; 5:48 «لِكُلٍّۢ جَعَلْنَا مِنكُمْ شِرْعَةًۭ وَمِنْهَاجًۭا»
+  - activation: The same root makes the hardship-negation in the ritual ruling legible beside the surah’s account of God appointing legal paths.
+  - limits: The other verse does not explain the particular ritual concessions here or equate distinct legal paths with hardship.
+- **S-رجل** [reading; support strong, relevance high] root ر ج ل elsewhere in the surah (3)
+  - finding: The pairing of أَيْدِيَكُمْ and أَرْجُلَكُمْ in the purification sequence echoes 5:33’s pairing of hands and feet in a penalty of amputation. The surah places limbs prepared for prayer beside limbs subject to sanction for violent corruption.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»; 5:33 «أَوْ تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُم مِّنْ خِلَٰفٍ»
+  - activation: Both verses coordinate the same two body-part terms, though one concerns purification and the other a legal penalty.
+  - limits: The echo does not establish a direct legal link or settle the washing-or-wiping question; the occurrence رَجُلَانِ in 5:23 means two men and should not be merged with the limb usage.
+- **surah_1.X1** [reading; support strong, relevance high] 
+  - finding: The purification instruction before الصلاة shares favor-language with the Fatiha’s description of those God has favored, recited in every salah. Preparation for prayer thus meets a recurring prayer-text that asks for the path of the favored.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The focus explicitly prepares the addressees for prayer, and the context identifies the Fatiha as recited in every salah; both passages use the language of divine favor.
+  - limits: The shared favor-language does not specify that both verses refer to the same favor or establish an explicit allusion.
+- **S-رود** [reading; support strong, relevance high] root ر و د elsewhere in the surah (8)
+  - finding: The repeated verb يُرِيدُ sets Allah’s stated purpose in 5:6 against Satan’s purpose in 5:91: Allah wills purification and denies hardship, while Satan seeks division and to turn people from الصلاة. The cleansing before prayer is heard within that contest over prayer.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 5:91 «إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ»
+  - activation: The focus begins with preparation for ٱلصَّلَوٰةِ and names Allah’s intent through يُرِيدُ.
+  - limits: The surah does not explicitly say that ablution is a response to Satan’s scheme or identify purification as its direct foil.
+- **S-شكر** [reading; support strong, relevance high] root ش ك ر elsewhere in the surah (1)
+  - finding: The closing لَعَلَّكُمْ تَشْكُرُونَ recurs after the oath-expiration provisions in 5:89. The surah thus places both ablution concessions and expiation options among rulings presented as grounds for gratitude.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 5:89 «ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَٰتِهِۦ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: Both passages end their practical rulings with the same gratitude formula.
+  - limits: The parallel does not show that the two rulings have the same occasion or legal function.
+- **S-طهر** [reading; support strong, relevance high] root ط ه ر elsewhere in the surah (1)
+  - finding: The same form of طَهَّرَ appears with opposite framing: Allah wills لِيُطَهِّرَكُمْ here, while in 5:41 the surah says He did not will أَن يُطَهِّرَ قُلُوبَهُمْ. Bodily purification for the addressed community stands beside denied purification of the other group’s hearts.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 5:41 «أُو۟لَٰٓئِكَ ٱلَّذِينَ لَمْ يُرِدِ ٱللَّهُ أَن يُطَهِّرَ قُلُوبَهُمْ»
+  - activation: The focus names Allah as willing purification after instructions for washing and wiping; 5:41 uses the same root and divine-will construction for hearts.
+  - limits: The parallel does not make the bodily rite identical to purification of the heart, or establish the same audience in both verses.
+- **S-مرض** [reading; support strong, relevance high] root م ر ض elsewhere in the surah (1)
+  - finding: The focus’s مَّرْضَىٰ names bodily illness as a condition for the concession, while 5:52 describes people with مَرَضٌ in their hearts who hasten toward alliances. The surah distinguishes physical vulnerability that changes ritual procedure from a heart-condition associated with blameworthy conduct.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ»; 5:52 «فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ يُسَٰرِعُونَ فِيهِمْ»
+  - activation: In 5:6 illness is grouped with travel and followed by a purification concession; in 5:52 heart-disease is tied to the described haste.
+  - limits: The shared root does not imply that the two conditions have the same cause or moral status.
+- **S-نعم** [reading; support strong, relevance high] root ن ع م elsewhere in the surah (9)
+  - finding: The promise to complete His favor in وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ echoes 5:3’s declaration وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى. The surah places the ablution ruling and its concessions within its larger language of completed divine favor.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The same completion verb and favor noun occur with the same عَلَيْكُمْ phrase in both passages.
+  - limits: The echo does not identify the favor in 5:6 with the specific favor declared in 5:3.
+- **S-وجد** [reading; support strong, relevance high] root و ج د elsewhere in the surah (3)
+  - finding: Non-finding opens a fallback in both passages: failing to find water leads to tayammum in 5:6, while failing to find the means for oath expiation leads to fasting in 5:89. The surah repeatedly makes lack of the usual means a branch point for an alternate prescribed act.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:89 «فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ»
+  - activation: Both clauses pair a form of وَجَدَ negated with a consequent alternative.
+  - limits: The alternatives serve different rulings; this parallel does not make tayammum and fasting equivalent rites.
+- **S-hft-baseline_materially_flexible_invariant** [reading; support strong, relevance high] (baseline_model)
+  - finding: The focus switches from water to good earth when water is unavailable; 5:89 repeats the surah’s structure of an alternate prescribed act when the usual means cannot be found, there fasting. In the focus, face and hands persist across the two media, while the tayammum sequence omits the head and feet steps.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 5:89 «فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ»
+  - activation: The focus marks water’s absence as the trigger for a change of medium; 5:89 uses non-finding to trigger another form of expiation.
+  - limits: The shared fallback structure does not prove that every step or body-part of the water sequence is preserved in tayammum.
+- **surah_2.X1** [reading; support strong, relevance high] 
+  - finding: The closing invitation to gratitude in 5:6 is followed immediately by وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ in 5:7. The next verse turns the focus’s hoped-for response into a direct command to remember favor and covenant.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ»
+  - activation: The gratitude invitation and favor-remembrance command occur at the boundary of adjacent verses.
+  - limits: The sequence makes a response link plausible but does not state that the favor in 5:7 is specifically the purification ruling.
+- **S-hft-baseline_completion_without_constriction** [reading; support strong, relevance high] (baseline_model)
+  - finding: The closing rationale makes ease part of the rite’s design: after bounded washing and the waterless earth route, the text opposes intended حَرَج to purification and completed favor.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The conditional alternatives and substitute medium lead directly into the stated aims, so the ease clause governs both routes.
+  - limits: The verse states these aims but does not formalize hardship avoidance as a separate legal criterion for every ritual detail.
+- **S-hft-delta_covenant_embodied** [reading; support strong, relevance high] (context_delta)
+  - finding: The placement lets recurring bodily preparation for prayer be heard within covenant fidelity: أَوْفُوا۟ بِٱلْعُقُودِ opens the surah’s address, the focus prepares worshippers for prayer, and the next verse recalls a pledged سَمِعْنَا وَأَطَعْنَا.
+  - evidence: 5:1 «أَوْفُوا۟ بِٱلْعُقُودِ»; 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»; 5:12 «لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ وَءَاتَيْتُمُ ٱلزَّكَوٰةَ»
+  - activation: The contract command precedes the focus, the remembered covenant follows it, and prayer recurs as a covenant condition later in the surah.
+  - limits: The sequence supports hearing the rite within covenantal fidelity; it does not explicitly call ablution a covenant act.
+- **S-hft-delta_concession_constitutes_completion** [reading; support strong, relevance high] (context_delta)
+  - finding: The earlier declaration of completed favor already includes an emergency allowance; 5:6 likewise gives a route through illness, travel, or absent water before repeating the language of completion. Concession can therefore belong to the surah’s account of fullness.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:3 «فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍۢ لِّإِثْمٍۢ ۙ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ»; 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: Both passages pair necessity with a viable alternative and place that accommodation beside completion or mercy.
+  - limits: The food emergency and ritual alternatives differ in circumstance; the passage does not state that they operate under an identical legal rule.
+- **S-قوم** [reading; support medium, relevance high] root ق و م elsewhere in the surah (29)
+  - finding: The root ق و م links physical rising toward prayer in قُمْتُمْ with being قَوَّامِينَ for God and establishing prayer in 5:8 and 5:12. The focus’s bodily movement can be heard alongside the surah’s language of sustained ethical and covenantal standing.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 5:8 «كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ»; 5:12 «لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ»
+  - activation: The focus uses قُمْتُمْ for the approach to prayer, and the surah reuses the root for prayer and upright witness.
+  - limits: The forms have distinct senses; their shared root suggests an association but does not prove deliberate wordplay.
+- **S-يدي** [reading; support medium, relevance high] root ي د ي elsewhere in the surah (8)
+  - finding: The washed and wiped أَيْدِيَكُمْ can be heard beside the surah’s recurring hands extended toward violence and then restrained or refused. This gives the focus’s hand-care a possible resonance of agency brought under ordered worship.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ»; 5:11 «أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ»; 5:28 «لَئِنۢ بَسَطتَ إِلَىَّ يَدَكَ لِتَقْتُلَنِى مَآ أَنَا۠ بِبَاسِطٍۢ يَدِىَ إِلَيْكَ لِأَقْتُلَكَ»
+  - activation: The focus repeatedly makes hands part of the prescribed purification, while 5:11 and 5:28 use the same body-word in scenes of threatened or refused violence.
+  - limits: The text does not explicitly allegorize ablution as restraint from violence.
+- **S-hft-baseline_bounded_transition** [reading; support medium, relevance high] (baseline_model)
+  - finding: The transition from rising toward prayer through washing and wiping sits immediately before the command to remember Allah’s favor and covenant, recalling the community’s words سَمِعْنَا وَأَطَعْنَا. This lets bodily prayer-readiness be heard as part of covenantal obedience.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»
+  - activation: The focus describes a measured bodily sequence directed toward prayer, and the next verse places remembrance of favor and covenant directly after it.
+  - limits: The adjacency does not prove that 5:7 refers specifically to ablution or that the sequence itself signifies removal of a particular trace.
+- **S-hft-delta_hands_as_power_under_restraint** [reading; support medium, relevance high] (context_delta)
+  - finding: A hand motif carries the focus into the surah’s public ethics: hands are washed or touched with earth here, while 5:8 demands justice under hatred and 5:11 depicts hostile hands being restrained.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 5:8 «وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟»; 5:11 «أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ»
+  - activation: The focus names hands in both purification routes; the nearby justice command and later hand-restraint scene extend that bodily term into measured action.
+  - limits: No wording states that washing trains the worshipper for adjudication or public conduct; this is a surah-level hand motif.
+- **S-hft-delta_reset_against_displacement** [reading; support medium, relevance high] (context_delta)
+  - finding: The surah says words were moved from their places, later speaks of testimony arriving على وجهها, and guides toward a straight path. The focus’s وُجُوهَكُمْ and feet can form a bodily image of restored proper orientation within that sequence.
+  - evidence: 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ»; 5:13 «يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ»; 5:108 «أَن يَأْتُوا۟ بِٱلشَّهَٰدَةِ عَلَىٰ وَجْهِهَآ»; 5:16 «وَيَهْدِيهِمْ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ»
+  - activation: The surah’s movement from displaced words to testimony in its proper form and a straight path gives the face and movement imagery a contextual orientation.
+  - limits: The text does not explicitly present ablution as a remedy for distortion; the connection works as a bodily counter-image.
+- **S-جنب** [open; support medium, relevance high] root ج ن ب elsewhere in the surah (1)
+  - finding: The state جُنُبًا may carry a separation resonance beside the surah’s command فَٱجْتَنِبُوهُ: in 5:6 a person in that state is told to purify, while in 5:90 believers are told to avoid the prohibited practices.
+  - evidence: 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 5:90 «فَٱجْتَنِبُوهُ»
+  - missing: A dictionary sense or further Qur'anic usage is needed to establish that the separation sense of the root applies to جُنُبًا here; the shared root alone does not establish the proposed contrast.
+- **S-hft-delta_will_specified_as_repair** [open; support medium, relevance high] (context_delta)
+  - finding: The focus repeats يُرِيدُ to reject حَرَج and select purification; later the surah places divine willing beside creation, destruction, forgiveness, and punishment. This may let the rite’s accommodation be heard as a sovereignly chosen form of mercy.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 5:17 «إِنْ أَرَادَ أَن يُهْلِكَ ٱلْمَسِيحَ»; 5:17 «يَخْلُقُ مَا يَشَآءُ»; 5:18 «يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ»
+  - missing: The surah supplies examples of divine agency, but no explicit link joins those passages to the ritual rationale. A repeated formulation or nearby passage connecting this rite with sovereign mercy could establish the proposed comparison.
+- **S-hft-delta_directed_entry_not_retreat** [open; support medium, relevance high] (context_delta)
+  - finding: The opening rise toward prayer may echo the later demand to enter the sacred land rather than turn back; refusal ends in sitting and wandering. The focus could thus serve as a recurring rehearsal of directed response.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 5:21 «ٱدْخُلُوا۟ ٱلْأَرْضَ ٱلْمُقَدَّسَةَ ٱلَّتِى كَتَبَ ٱللَّهُ لَكُمْ وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ»; 5:24 «إِنَّا هَٰهُنَا قَٰعِدُونَ»; 5:26 «يَتِيهُونَ فِى ٱلْأَرْضِ»
+  - missing: The two sequences share movement and refusal imagery, but no expression connects prayer preparation or tayammum to the land-entry episode. A repeated path, entry, or rising motif could strengthen the rehearsal reading.
+- **S-hft-outlier_gratitude_as_minimal_yield** [open; support medium, relevance high] (surprising_valid_outlier)
+  - finding: The verse preserves an act when water is absent by directing the worshipper to good earth, then places purification and completed favor before gratitude. The proposed minimal-input, visible-yield grammar is not settled by this sequence alone.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»
+  - missing: The text links the fallback route to purification, favor, and gratitude, but does not call the earth scant or describe gratitude as visible yield. A dictionary sense or Quranic usage linking شكر to responsive yield from little could decide that added association.
+- **S-hft-outlier_portable_purified_threshold** [open; support medium, relevance high] (surprising_valid_outlier)
+  - finding: Good earth is immediately available for ritual contact, while the later narrative commands entry into a specifically sacred land. This permits a provisional, portable-threshold reading of the tayammum surface.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 5:21 «ٱدْخُلُوا۟ ٱلْأَرْضَ ٱلْمُقَدَّسَةَ»
+  - missing: The passages share earth and qualified purity language, but no wording equates ritual contact with crossing a threshold. A Quranic use of صَعِيد as an entry-place or an explicit ritual-entry parallel could supply that link.
+- **S-كعب** [open; support weak, relevance high] root ك ع ب elsewhere in the surah (2)
+  - finding: The focus’s ٱلْكَعْبَيْنِ shares its root with ٱلْكَعْبَةَ, the sacred House named elsewhere in the surah. This could make the bodily endpoint of the washing sequence resonate with the surah’s sacred center.
+  - evidence: 5:6 «إِلَى ٱلْكَعْبَيْنِ»; 5:95 «هَدْيًۢا بَٰلِغَ ٱلْكَعْبَةِ»; 5:97 «جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ»
+  - missing: The shared consonants alone do not establish a semantic or thematic link between ankles and the Kaaba. A dictionary account connecting the senses, or another passage that links bodily washing to the sacred House, could decide whether this association matters.
+- **S-طيب** [reading; support strong, relevance medium] root ط ي ب elsewhere in the surah (5)
+  - finding: The earth in صَعِيدًا طَيِّبًا receives the surah’s recurring positive quality-word for lawful provision: 5:87–88 speak of طَيِّبَات and حَلَالًا طَيِّبًا. The fallback medium is qualified as good, not treated as arbitrary ground.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:87 «لَا تُحَرِّمُوا۟ طَيِّبَٰتِ مَآ أَحَلَّ ٱللَّهُ لَكُمْ»; 5:88 «وَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا»
+  - activation: The adjective طَيِّبًا qualifies the substitute surface just as the surah qualifies permitted provisions.
+  - limits: The shared root does not establish that ritual suitability and dietary goodness have identical criteria.
+- **surah_3.X1** [reading; support strong, relevance medium] 
+  - finding: The quality word طَيِّب links the fallback medium to the preceding permissions: 5:4–5 name ٱلطَّيِّبَٰتُ, then 5:6 requires صَعِيدًا طَيِّبًا. The sequence extends the surah’s vocabulary of good provision into ritual access.
+  - evidence: 5:4 «أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ»; 5:5 «أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ»; 5:6 «صَعِيدًۭا طَيِّبًۭا»
+  - activation: The repeated root occurs across adjacent rules for lawful food and purification, where earth is the alternate medium when water is unavailable.
+  - limits: The shared word establishes a lexical echo, not an equivalence between dietary law and the legal status of the earth surface.
+- **S-hft-baseline_faculties_map** [open; support medium, relevance medium] (baseline_model)
+  - finding: A body map is possible: وُجُوه, أَيْدِي, رُءُوس, and أَرْجُل could suggest orientation, agency, governing top, and locomotion brought under purification.
+  - evidence: 5:6 «وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ»
+  - missing: The verse names bodily parts but supplies no cue assigning them these faculty meanings together; a Quranic parallel or surah passage activating that map could decide the link. The case attachment of أَرْجُلَكُمْ also leaves its relation to the wiping command unresolved here.
+
+Notes:
+- S-ءحد [support strong, relevance medium] The plural address narrows to أَحَدٌۭ مِّنكُم for a bodily contingency; 5:106 uses the same individual-within-community phrasing for a death that triggers a legal procedure.
+- S-كون [support strong, relevance medium] The conditional إِن كُنتُمْ frames bodily states as triggers for different procedures in 5:6; the surah also uses إِن كُنتُم مُّؤْمِنِينَ as a challenge to trust in 5:23. The same conditional frame can govern ritual circumstance or moral exhortation.
+- S-صلو [support medium, relevance medium] The washing and wiping prepare for a prayer that the surah places among covenant duties and later shows being mocked at its call. This sets the bodily practice in 5:6 within the surah’s contrast between honoring and rejecting prayer.
+- S-جيء [support strong, relevance low] The verb جَاءَ marks a believer’s coming from ٱلْغَائِطِ as a bodily trigger, while elsewhere it marks light and a clear book coming from God; the root spans private bodily circumstance and public revelation in this surah.
+- S-وجه [support medium, relevance low] The bodily وُجُوهِكُمْ wiped in 5:6 shares the noun وَجْه with the instruction that testimony be brought عَلَىٰ وَجْهِهَا in 5:108, where it refers to its proper form or manner. The surah uses the word for both a bodily surface and a manner of presentation.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+220 readings and open observations, 63 notes, 0 misreadings rejected; other items with nothing to add: {'no-link': 126, 'same-as': 1}.
+
+- **R-1:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: Since the context says the Fatiha is recited in every salah, 5:6’s ending about completing favor and giving thanks meets the prayer’s request for the path of those God favored.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The preparation is explicitly for prayer, and the two passages share the root ن ع م.
+  - limits: This liturgical and lexical link does not say that ablution earns favor or guarantees guidance.
+- **R-2:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:45 calls prayer weighty except for the humble; 5:6 addresses the bodily side of that weight by denying hardship and providing an alternative when water is unavailable.
+  - evidence: 2:45 «وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»
+  - activation: The first passage names prayer; the second links prayer preparation to the denial of hardship.
+  - limits: 2:45 does not identify purification as the burden it calls weighty.
+- **R-2:125** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passages reverse the purification object: Abraham and Ishmael are told to purify the House for worshippers, while 5:6 directs worshippers to purify themselves for prayer.
+  - evidence: 2:125 «أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»
+  - activation: The passages share the root ط ه ر and explicitly name worship in the House and prayer preparation.
+  - limits: The verbal and ritual parallel does not state that the personal rite in 5:6 extends the House command in 2:125.
+- **R-2:144** [reading; support strong, relevance high] inter-ayah target
+  - finding: The face in 5:6 is washed for prayer, while 2:144 directs the face toward the Sacred Mosque; together they give the prayer-facing body both a purified surface and an orientation.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 2:144 «فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ»
+  - activation: Both passages associate faces with the movement toward prayer.
+  - limits: Neither verse explicitly sequences washing and turning as one procedure.
+- **R-2:150** [reading; support strong, relevance high] inter-ayah target
+  - finding: The qibla instruction joins turning faces to the completion of God’s favor, closely echoing 5:6’s face preparation and its purpose clause about completing favor upon the community.
+  - evidence: 2:150 «وَلِأُتِمَّ نِعْمَتِى عَلَيْكُمْ وَلَعَلَّكُمْ تَهْتَدُونَ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: Both connect a bodily act in worship with completion of favor upon the addressees.
+  - limits: The passages treat different ritual acts, and the parallel does not make purification the cause of the qibla command.
+- **R-2:152** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 2:150–152 the completion of favor is followed by purification through the messenger and then a command to give thanks; 5:6 gathers completion, purification, and hoped-for gratitude into one prayer instruction.
+  - evidence: 2:150 «وَلِأُتِمَّ نِعْمَتِى عَلَيْكُمْ»; 2:151 «وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ»; 2:152 «وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ»; 5:6 «لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The sequence in 2:150–152 contains close counterparts to all three purposes named at the end of 5:6.
+  - limits: The sequence does not identify the ritual in 5:6 as the purification or teaching in 2:151.
+- **R-2:172** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:172 joins طَيِّبَٰت provision to a command to thank God; 5:6 describes the alternate purification surface as طَيِّبًا and ends with the same hoped-for gratitude, associating a ritual medium with divine provision.
+  - evidence: 2:172 «كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: Both address believers, share the ط ي ب root, and connect a benefit with gratitude.
+  - limits: 2:172 speaks of food; it does not declare every earth surface suitable for tayammum.
+- **R-2:177** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:177 refuses to make turning faces toward a direction the whole of birr, then includes prayer among a wider set of commitments; beside it, 5:6’s face-washing rite reads as an embodied part of a larger ethical and devotional life.
+  - evidence: 2:177 «لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ»; 2:177 «وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ»; 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»
+  - activation: The shared face and prayer language places bodily preparation beside a passage that explicitly widens the frame of righteousness.
+  - limits: 2:177 discusses prayer direction rather than ablution and does not diminish the rite in 5:6.
+- **R-2:184** [reading; support strong, relevance high] inter-ayah target
+  - finding: The fasting rule repeats the focus’s illness-or-travel condition, showing another worship obligation adjusted when the worshipper is ill or away from home.
+  - evidence: 2:184 «فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍۢ فَعِدَّةٌۭ مِّنْ أَيَّامٍ أُخَرَ»; 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ»
+  - activation: The paired conditions مريض and على سفر appear in the same order in both passages.
+  - limits: The replacement procedure differs: fasting is made up later, while purification changes medium when water is unavailable.
+- **R-2:185** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:185 states the ease, completion, and gratitude pattern that 5:6 compresses into its prayer-purification ruling: both adapt worship for illness and travel and end with a purpose of gratitude.
+  - evidence: 2:185 «يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The focus shares the illness and travel conditions and the sequence of denied hardship, completion, and gratitude.
+  - limits: The two passages adapt different acts of worship; the shared pattern does not merge their legal procedures.
+- **R-2:222** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Form V purification command in 5:6 has a close counterpart in 2:222’s sequence of women becoming pure and then purifying themselves before intimacy, placing the focus’s junub rule beside another bodily condition governed through purification.
+  - evidence: 2:222 «وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ»; 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»
+  - activation: Both passages use ط ه ر, including the form تَطَهَّر, in rules that connect bodily states with sexual relations.
+  - limits: The passages address distinct states and procedures; the menstrual ruling does not specify details for janabah.
+- **R-2:239** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:239 adapts prayer’s performance under fear, while 5:6 adapts its preparation under illness, travel, and lack of water; the paired rulings preserve worship across different constraints.
+  - evidence: 2:239 «فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًۭا ۖ فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ»; 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟»
+  - activation: Both are conditional prayer-related rules with an adjusted way to proceed under changed circumstances.
+  - limits: One changes prayer’s manner under fear; the other changes the purification medium when water is unavailable.
+- **R-2:243** [reading; support strong, relevance high] inter-ayah target
+  - finding: 2:243 calls Israel’s survival from death a divine favor yet says most people do not give thanks; 5:6 presents favor through a recurring worship provision and ends by hoping the community will be grateful.
+  - evidence: 2:243 «إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The passages place divine favor beside the root ش ك ر, with contrasting expectations about human response.
+  - limits: The focus does not predict universal gratitude, and the favors are of different kinds.
+- **R-2:282** [reading; support strong, relevance high] inter-ayah target
+  - finding: The travel clause in 2:283 offers a pledge when no scribe is available; 5:6 offers tayammum when water is unavailable. Both adapt a practical procedure under travel and a missing usual means.
+  - evidence: 2:283 «وَإِن كُنتُمْ عَلَىٰ سَفَرٍۢ وَلَمْ تَجِدُوا۟ كَاتِبًۭا فَرِهَٰنٌۭ مَّقْبُوضَةٌۭ»; 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟»
+  - activation: Both procedures use the travel condition and a failure to find the usual means before giving an alternative.
+  - limits: The substitute procedures serve different purposes; the shared structure does not itself state their rationale.
+- **related_1.X1** [reading; support strong, relevance high] 
+  - finding: The next verse turns 5:6’s hoped-for thanks into a call to remember God’s favor and covenant, followed by the community’s words “we hear and obey”; this makes the purification instruction part of a local favor-and-response sequence.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»
+  - activation: The next verse repeats the focus’s favor language and immediately names covenant and obedience.
+  - limits: 5:7 does not identify purification as the covenant itself; the link comes from adjacency and the shared favor language.
+- **related_1.X2** [reading; support strong, relevance high] 
+  - finding: The focus echoes 5:3’s declaration that God completed His favor upon the community, placing prayer purification within the surah’s language of completed divine favor.
+  - evidence: 5:3 «ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: Both passages join the root ت م م to نعمة عَلَيْكُمْ.
+  - limits: The echo does not say that purification by itself completes the religion or all of God’s favor.
+- **R-f-رجل-يدي** [reading; support strong, relevance high] formula family (ر ج ل + ي د ي; 4 ayat: 5:33, 7:195, 24:24, 36:65)
+  - finding: In the same surah, أَيْدِيهِمْ وَأَرْجُلُهُم are both limbs prepared for prayer in 5:6 and limbs cut in punishment in 5:33. The shared body pair places bodily agency under sharply different commands.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ»; 5:33 «أَوْ تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُم مِّنْ خِلَٰفٍ»
+  - activation: The focus names hands and feet in its prayer preparation, and 5:33 later names the same pair in a penalty.
+  - limits: The shared limbs do not make purification a counterpart to punishment or explain the legal relation between the passages.
+- **R-f-جيء-وجد** [reading; support strong, relevance high] formula family (ج ي ء + و ج د; 3 ayat: 4:64, 10:78, 43:24)
+  - finding: Both passages make a coming event a threshold for what can be found: people who come seeking forgiveness find God receptive in 4:64, while one who comes from الغائط may find no water in 5:6 and is redirected to tayammum.
+  - evidence: 4:64 «جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًۭا رَّحِيمًۭا»; 5:6 «أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ»
+  - activation: The sequence جاء followed by وجد and an ensuing response occurs in both passages.
+  - limits: The focus does not call the bodily event a sin or equate tayammum with seeking forgiveness; the parallel is in the sequence, not the cause.
+- **R-f-رود-وجد** [reading; support strong, relevance high] formula family (ر و د + و ج د; 3 ayat: 4:88, 24:33, 33:17)
+  - finding: In some passages, failing to find a way follows God's misguidance; in 5:6, not finding water instead triggers a permitted substitute, and the verse explains that God does not intend constriction.
+  - evidence: 4:88 «وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًۭا»; 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»
+  - activation: The focus moves directly from not finding water to an alternative, then states God's intent regarding hardship.
+  - limits: The passages concern different objects and circumstances; 5:6 does not make a general promise that every unmet need will have a substitute.
+- **R-f-ءحد-نعم** [reading; support strong, relevance high] formula family (ء ح د + ن ع م; 1 ayat: 92:19)
+  - finding: The focus presents purification and completed favor as grounds for gratitude; 92:19 denies that anyone holds a favor owed as repayment. This frames gratitude as recognition of divine favor rather than settling an exchange debt.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 92:19 «وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ»
+  - activation: The focus explicitly names نعمة and شكر, and 92:19 places أَحَدٍ beside a favor that is not repaid.
+  - limits: 92:19 does not specify the favor of ritual purification, and the focus does not discuss repayment directly.
+- **R-f-تمم-رود** [reading; support strong, relevance high] formula family (ت م م + ر و د; 1 ayat: 2:233)
+  - finding: 2:233 gives a legal parallel for completion governed by capacity: a caregiver may intend to complete nursing, while no soul is burdened beyond its capacity. This illuminates 5:6's pairing of completed favor with denial of hardship.
+  - evidence: 2:233 «لِمَنْ أَرَادَ أَن يُتِمَّ ٱلرَّضَاعَةَ»; 2:233 «لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: Both legal passages join intent and completion to an explicit limit against burdening people beyond capacity.
+  - limits: Nursing and purification are different rulings; the parallel shows a legal pattern, not a shared subject.
+- **R-f-حرج-وجد** [reading; support strong, relevance high] formula family (ح ر ج + و ج د; 1 ayat: 4:65)
+  - finding: 4:65 places حَرَج inside the believer's response to a ruling: they find no constriction in themselves about the Prophet's judgment. 5:6 shifts the same legal concern to God's intent, denying that He makes constriction and offering an alternative rite.
+  - evidence: 4:65 «ثُمَّ لَا يَجِدُوا۟ فِىٓ أَنفُسِهِمْ حَرَجًۭا مِّمَّا قَضَيْتَ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»
+  - activation: Both legal statements join the root of finding to the same word حرج, once as inward reception and once as divine legislative purpose.
+  - limits: 4:65 concerns accepting a judgment, while 5:6 concerns purification; neither passage explains the other’s specific ruling.
+- **R-f-رود-طهر** [reading; support strong, relevance high] formula family (ر و د + ط ه ر; 1 ayat: 5:41)
+  - finding: The same surah contrasts God's intent to purify the believers in 5:6 with the statement that He did not will to purify certain hearts in 5:41. This places ritual purification within a wider distinction between bodily cleansing and the state of hearts.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 5:41 «أُو۟لَٰٓئِكَ ٱلَّذِينَ لَمْ يُرِدِ ٱللَّهُ أَن يُطَهِّرَ قُلُوبَهُمْ»
+  - activation: The focus has the positive يريد ليطهركم; 5:41 uses the same will and purification roots in a negative statement about hearts.
+  - limits: The passage does not equate ritual purification with purification of the heart or identify the two audiences as the same group.
+- **R-f-شكر-طيب** [reading; support strong, relevance high] formula family (ش ك ر + ط ي ب; 1 ayat: 7:58)
+  - finding: 7:58 couples a good land whose growth comes by its Lord's leave with the gratitude of its hearers. 5:6's clean earth surface and closing call to gratitude can be heard as another pairing of wholesome earth and divine provision.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 7:58 «وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ نَبَاتُهُۥ بِإِذْنِ رَبِّهِۦ ۖ وَٱلَّذِى خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًۭا ۚ كَذَٰلِكَ نُصَرِّفُ ٱلْءَايَٰتِ لِقَوْمٍۢ يَشْكُرُونَ»
+  - activation: The focus selects a ṭayyib earth medium and ends with shukr; 7:58 joins ṭayyib land, growth by God's permission, and grateful people.
+  - limits: The fertile land of 7:58 is not the same referent as the tayammum surface, and the verses do not identify their kinds of benefit.
+- **R-f-صلو-طهر** [reading; support strong, relevance high] formula family (ص ل و + ط ه ر; 1 ayat: 9:103)
+  - finding: 9:103 pairs purification with prayer, but purification there comes through charity and the Prophet's prayer gives reassurance. This shows that 5:6's bodily purification before salah belongs to a Quranic vocabulary that also applies purification to social giving.
+  - evidence: 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 9:103 «خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةًۭ تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ»
+  - activation: Both passages join a purification root with prayer, while 9:103 specifies charity as its means.
+  - limits: The focus prescribes bodily rites and 9:103 social giving; the shared vocabulary does not collapse these kinds of purification.
+- **R-f-صلو-وجه** [reading; support strong, relevance high] formula family (ص ل و + و ج ه; 1 ayat: 13:22)
+  - finding: 13:22 joins prayer to seeking the Lord's face; 5:6 washes the worshipper's own face before prayer. The bodily face prepared in the focus stands beside the devotional aim named in the other verse.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 13:22 «وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ»
+  - activation: The face and prayer co-occur in both passages, with 13:22 making the sought face the purpose alongside establishing prayer.
+  - limits: The focus's وجوهكم is the human face, while وجه ربهم is an expression for the divine aim; the verses do not equate them or say washing guarantees that aim.
+- **related_10.X1** [reading; support strong, relevance high] 
+  - finding: The next verse takes 5:6's hoped-for gratitude and specifies remembrance of God's favor and covenant, ending with the community's words سَمِعْنَا وَأَطَعْنَا. The purification ruling thus opens directly onto covenantal memory and obedience.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»
+  - activation: The verses are consecutive and repeat favor upon the community, with gratitude followed by remembrance and covenant.
+  - limits: The text does not say that gratitude for purification is identical to the covenant response; the adjacency supplies the progression.
+- **related_10.X2** [reading; support strong, relevance high] 
+  - finding: 5:3 says God completed His favor upon the believers; 5:6 says purification is among what He wills in order to complete that favor. The later rite is therefore articulated within the surah's earlier completion formula.
+  - evidence: 5:3 «ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The same completion root, favor noun, and addressee recur within the surah's legal opening.
+  - limits: The repetition does not prove that both verses refer to one discrete favor or settle the historical timing of either statement.
+- **related_10.X3** [reading; support strong, relevance high] 
+  - finding: The focus says إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ; two verses later the same root appears as كُونُوا۟ قَوَّٰمِينَ لِلَّهِ in a command to witness justly. The sequence lets bodily rising for prayer echo as an ethical standing for justice.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 5:8 «كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ»
+  - activation: The root ق و م recurs in the same legal passage as the subject turns from purification to testimony and justice.
+  - limits: The forms differ: 5:6 describes a situational rising, while 5:8 commands sustained ethical commitment; the text does not state that the first causes the second.
+- **R-f-طيب-يمم** [reading; support strong, relevance high] formula family (ط ي ب + ي م م; 1 ayat: 2:267)
+  - finding: The shared تَيَمَّمُوا and ṭ-y-b roots connect choosing صَعِيدًا طَيِّبًا in 5:6 with the prohibition in 2:267 against deliberately selecting الخبيث to give away. Together they make the act sound like a discriminating choice of a suitable medium, not just a fallback action.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 2:267 «أَنفِقُوا۟ مِن طَيِّبَٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ»
+  - activation: The focus directs believers to تَيَمَّمُوا a surface qualified as طَيِّبًا; 2:267 uses the same verb while contrasting good things with the khabīth.
+  - limits: The other passage concerns what is given in charity, not ritual purity. It does not establish the legal meaning of a clean surface in 5:6.
+- **R-3:103** [reading; support strong, relevance high] inter-ayah target
+  - finding: The completion of نعمة in 5:6 can be heard alongside 3:103’s concrete account of divine favor: God turns enemies into brothers by reconciling their hearts. The shared نعمة الله عليكم wording gives the focus’s ritual provision a place in a wider account of communal benefit.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 3:103 «وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءًۭ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ»
+  - activation: Both verses pair نعمة with عَلَيْكُمْ; 5:6 also makes gratitude the hoped-for response.
+  - limits: The focus does not specify social reconciliation as the content of this favor; 3:103 names that verse’s particular favor.
+- **R-4:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:26 states that God’s will is to clarify, guide, and turn toward the addressees; 5:6 likewise repeats يُرِيدُ اللَّهُ with purpose lām clauses. This places the purification rule within a broader presentation of divine guidance through legal instruction.
+  - evidence: 4:26 «يُرِيدُ ٱللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ سُنَنَ ٱلَّذِينَ مِن قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: Both passages make divine will explicit and state purposes through lām clauses in the context of legal rulings.
+  - limits: The shared construction does not show that the specific rulings have the same purpose; 4:26 names guidance and repentance, while 5:6 names purification, favor, and gratitude.
+- **R-4:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:28 explicitly says God wills to lighten the burden on the addressees; 5:6 denies that He intends ḥaraj and supplies tayammum when water is unavailable. Together they make relief an expressed principle of the focus’s ritual ruling.
+  - evidence: 4:28 «يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًۭا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»
+  - activation: The verses share God as subject, the verb يُرِيدُ, and direct reference to burden or lightening for the addressees.
+  - limits: 4:28 does not name purification or identify its subject with tayammum; the connection rests on the shared stated concern for easing.
+- **R-4:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:43 repeats the focus’s illness, travel, event, water-absence, and tayammum sequence almost word for word, and explicitly places it after a warning about approaching prayer in certain states. It supplies a direct parallel that situates the focus’s procedure within prayer access.
+  - evidence: 4:43 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ»; 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم»
+  - activation: The repeated conditional sequence and the preceding الصلاة clause in 4:43 connect the alternative purification directly to prayer.
+  - limits: 4:43 does not provide the focus’s initial washing and wiping instructions and does not include its مِنْهُ phrase or its stated purpose of completing favor.
+- **R-4:103** [reading; support strong, relevance high] inter-ayah target
+  - finding: The prayer sequence frames 5:6 as preparation for an obligation that continues through changing bodily circumstances: 4:103 permits remembrance in several postures and commands prayer to be established once people are secure. The focus's rising toward prayer is one entry point in that larger sequence.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 4:103 «فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَٰمًۭا وَقُعُودًۭا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًۭا مَّوْقُوتًۭا»
+  - activation: The focus begins with rising toward prayer; 4:103 follows the danger-prayer instructions with postures for remembrance and prayer at its appointed times.
+  - limits: 4:103 does not mention purification and addresses prayer after danger, not the same preparation rule.
+- **R-5:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus repeats 5:3's language of completing divine favor, while both passages place that language beside accommodation for necessity: a food concession in 5:3 and substitute purification in 5:6. This presents relief as part of the surah's account of complete law.
+  - evidence: 5:3 «ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:3 «فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍۢ لِّإِثْمٍۢ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The shared completion-of-favor wording and the adjacent necessity provisions link the legal passages.
+  - limits: The concessions concern different domains; the wording does not say that tayammum is the specific referent of 5:3's declaration.
+- **R-5:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's completion of God's favor leads directly into a command to remember that favor and the covenant, followed by the believers' pledge that they heard and obeyed. This frames purification as part of a remembered covenantal response, not an isolated procedure.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»
+  - activation: The next verse repeats favor upon the community and turns the focus's invited gratitude toward remembrance and covenant.
+  - limits: The link does not specify that the purification rule alone constitutes the covenant mentioned in 5:7.
+- **R-5:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The root q-w-m shifts from the focus's bodily rising toward prayer, قُمْتُمْ, to the next verse's being قَوَّٰمِينَ for God as witnesses in justice. The sequence invites a hearing of ritual posture alongside ethical steadfastness.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 5:8 «كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ»
+  - activation: The same root appears in adjacent instructions to believers, moving from prayer to just witness.
+  - limits: The root echo does not equate prayer with justice or show that 5:8 refers to the prayer posture.
+- **R-5:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus gives the bodily preparation for prayer; 5:12 later lists establishing prayer among the terms of a covenant and pairs it with a promise of forgiveness and gardens. This places the focus's ritual instruction within the surah's account of prayer as covenantal practice.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 5:12 «لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ وَءَاتَيْتُمُ ٱلزَّكَوٰةَ وَءَامَنتُم بِرُسُلِى»; 5:12 «لَّأُكَفِّرَنَّ عَنكُمْ سَيِّـَٔاتِكُمْ وَلَأُدْخِلَنَّكُمْ جَنَّٰتٍۢ»
+  - activation: Both passages explicitly name prayer; 5:12 places its establishment inside a covenant promise.
+  - limits: 5:12 addresses the covenant with the Children of Israel and does not mention ablution.
+- **R-5:89** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages give a substitute when a required means is unavailable: absent water leads to tayammum, while inability to find means fasting for expiation. They also close with the same hope that the community will give thanks.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 5:89 «فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ»; 5:89 «لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The focus links inability to find water directly to an alternative rite and frames the provision as completing divine favor.
+  - limits: These are different legal domains; the parallel does not make their triggers or substitutes interchangeable.
+- **R-5:91** [reading; support strong, relevance high] inter-ayah target
+  - finding: An inverse purpose links the passages: Allah intends purification and makes prayer accessible, while Satan intends enmity and diversion from prayer. The shared يُرِيدُ and الصلاة make the focus’s preparation part of a wider contest over worship.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 5:91 «إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ»
+  - activation: The focus names prayer as the destination of preparation and explicitly states Allah’s purpose; 5:91 names prayer as something Satan seeks to obstruct.
+  - limits: The passages do not say that this purification rule specifically counters wine, gambling, or Satan’s plan.
+- **R-6:125** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus says Allah does not intend to place حَرَجًا upon the believers; 6:125 uses the same word for a constricted chest, opposed to a chest opened to Islam. The juxtaposition lets the focus’s refusal of hardship resonate with openness to religious practice, while retaining its legal sense.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 6:125 «يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ»; 6:125 «يَجْعَلْ صَدْرَهُۥ ضَيِّقًا حَرَجًۭا»
+  - activation: The same word حَرَج appears in a contrast between ease and constraint in the focus and between an opened and constricted chest in 6:125.
+  - limits: The focus does not state that ritual hardship is psychological constriction or identify purification with opening the chest.
+- **R-7:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s denial of حَرَجٍ عَلَيْكُمْ echoes 7:2’s instruction that the revealed Book bring no حَرَجٌ in the Prophet’s chest. Together they frame revealed guidance as delivered without constriction, in communal ritual practice and in the messenger’s reception of the Book.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 7:2 «كِتَٰبٌ أُنزِلَ إِلَيْكَ فَلَا يَكُن فِى صَدْرِكَ حَرَجٌۭ مِّنْهُ»
+  - activation: The rare, explicit term حَرَجٌ is negated in both passages, with revealed guidance at issue in each.
+  - limits: The addressees and contexts differ; 7:2 does not prescribe the focus’s ritual accommodation.
+- **R-7:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus presents purification and eased practice as favor that should elicit gratitude; 7:10 pairs land, livelihood, and provision with the observation that people give little thanks. This places ritual accommodation alongside material sustenance as a form of divine care that calls for gratitude.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 7:10 «وَلَقَدْ مَكَّنَّٰكُمْ فِى ٱلْأَرْضِ وَجَعَلْنَا لَكُمْ فِيهَا مَعَٰيِشَ ۗ قَلِيلًۭا مَّا تَشْكُرُونَ»
+  - activation: Both passages connect divine provision to gratitude, while 7:10 makes the response’s failure explicit.
+  - limits: The livelihood of 7:10 and the rite of 5:6 are distinct provisions; the passages do not equate them.
+- **R-7:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the focus, the face is a surface washed before prayer; 7:29 commands believers to direct their faces at every mosque and worship sincerely. The face thus appears as both prepared for prayer and oriented toward worship.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 7:29 «وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍۢ وَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ»
+  - activation: Both passages place وجوهكم in a prayer or mosque setting.
+  - limits: The command to direct the face does not explain the washing procedure or make the two actions identical.
+- **R-8:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages describe Allah’s provision of water as purifying the believers: the focus commands washing and states that Allah intends to purify them, while 8:11 says He sent water to purify them and remove Satan’s pollution. The shared purification language presents the focus’s washing as part of divine care for embodied believers.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 8:11 «وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءًۭ لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ»
+  - activation: Water and the verb طهّر appear in both accounts of divine provision for believers.
+  - limits: 8:11 describes a battlefield event and does not legislate wudu or tayammum.
+- **R-8:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus says Allah completes His favor upon the believers so that they may give thanks; 8:26 recalls protection and provision of good things with the same لَعَلَّكُمْ تَشْكُرُونَ ending. Both frame divine care as a reason for gratitude, including the focus’s ritual accommodation.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 8:26 «فَـَٔاوَىٰكُمْ وَأَيَّدَكُم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The same gratitude clause follows divine provision in each passage; 8:26 also pairs gratitude with طَيِّبَات, recalling the focus’s طَيِّبًا medium.
+  - limits: The battlefield protection and material sustenance in 8:26 do not define the rite or its legal conditions.
+- **R-8:66** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus denies that Allah intends hardship in purification; 8:66 explicitly says He lightened the burden after recognizing weakness. Together they make legal adjustment to human capacity a stated feature of divine instruction.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 8:66 «ٱلْـَٰٔنَ خَفَّفَ ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًۭا»
+  - activation: Both passages explicitly connect divine rule-making with the believers’ capacity and the removal or lightening of hardship.
+  - limits: The lightening in 8:66 concerns battle strength and does not specify the conditions for tayammum.
+- **related_4.X1** [reading; support strong, relevance high] 
+  - finding: The purification instruction sits between two statements about covenantal favor: 5:3 declares Allah completed His favor, 5:6 makes completion of favor a purpose of the rite, and 5:7 immediately commands believers to remember that favor and covenant, recalling their pledge to hear and obey. The sequence frames purification as one enactment within the surah’s account of favor and covenantal response.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»
+  - activation: The same favor-completion language links 5:3 and 5:6; 5:7 follows immediately and repeats the call to remember Allah’s favor and covenant.
+  - limits: The sequence does not establish that the purification rule alone completes the favor or that 5:7 refers only to 5:6.
+- **R-9:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same verb تَمَّ frames two divine acts: God completes His favor upon the believers in 5:6 and completes His light in 9:32 despite opposition.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 9:32 «وَيَأْبَى ٱللَّهُ إِلَّآ أَن يُتِمَّ نُورَهُۥ»
+  - activation: Both passages explicitly attribute completion to God; 9:32 supplies a second object for the focus’s completion verb.
+  - limits: Light and favor are distinct objects, and 9:32’s opposition is not tied to the purification rules.
+- **R-9:84** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus has believers rise toward prayer, then wash; 9:84 uses the same standing and prayer vocabulary to forbid prayer for a dead hypocrite and standing at his grave.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 9:84 «وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍۢ مِّنْهُم مَّاتَ أَبَدًۭا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ»
+  - activation: قُمْتُمْ and تَقُمْ share the standing root, and both verses name ṣalāh.
+  - limits: The focus’s expression can mean setting out to pray; 9:84’s standing is at a grave, and its prohibition concerns a particular person.
+- **R-9:91** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages use illness and ḥaraj to mark accommodation: 5:6 gives an alternative purification route when water is unavailable, while 9:91 removes hardship from the weak and ill in another duty.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 9:91 «لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ»
+  - activation: The shared terms المرضى and حرج put the focus’s purification concession within a broader pattern of duties adjusted for incapacity.
+  - limits: 9:91 concerns participation in fighting and does not specify ritual purity or water.
+- **R-9:108** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus presents purification as God’s purpose for believers; 9:108 describes men who love to purify themselves and whom God loves. The related root makes the rite resonate with a desired practice and valued disposition.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 9:108 «فِيهِ رِجَالٌۭ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ ۚ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ»
+  - activation: The repeated ط هـ ر root and the focus’s prayer setting meet 9:108’s mosque and purification language.
+  - limits: 9:108 does not identify its purification with the washing or tayammum procedure in 5:6.
+- **R-10:60** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus links completion of God’s favor to gratitude; 10:60 sets God’s favor against people who fail to give thanks, making ingratitude a counter-response to the outcome the focus invites.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 10:60 «إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ»
+  - activation: Both passages connect divine beneficence with the ش ك ر root, though one invites thanks and the other names its absence.
+  - limits: 10:60 speaks of God’s فضل generally, not specifically the purification rite or its completion.
+- **R-12:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The formula يُتِمُّ نِعْمَتَهُ recurs in 12:6: God completes His favor upon Joseph and Jacob’s family through selection and teaching. This lets the focus’s favor be heard as something unfolding through guidance, not just a single benefit.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 12:6 «وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ»
+  - activation: The same completion verb, favor noun, and divine subject appear in both passages.
+  - limits: 12:6 addresses Joseph and his family in a narrative of selection and teaching, not the community’s purification practice.
+- **R-12:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: Joseph calls his faith and knowledge God’s فضل and says most people do not give thanks; 5:6 similarly presents purification as completion of divine favor with gratitude as its hoped-for response.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 12:38 «ذَٰلِكَ مِن فَضْلِ ٱللَّهِ عَلَيْنَا وَعَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ»
+  - activation: Both passages join divine favor to the ش ك ر root, with Joseph’s account locating favor in guidance and knowledge.
+  - limits: 12:38 does not mention purification, and its فضل is not explicitly named نعمة.
+- **R-14:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: 14:6–7 moves from remembering a concrete saving favor to the promise of increase for gratitude. Beside 5:6, this frames gratitude as a response to favor that may itself open into further increase.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 14:6 «ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ ءَالِ فِرْعَوْنَ»; 14:7 «لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ»
+  - activation: The focus names completion of favor and gratitude; the adjacent 14:6–7 verses explicitly sequence favor, rescue, gratitude, and increase.
+  - limits: 14:6–7 addresses Moses’s people and does not identify purification as the favor or specify the focus’s promised outcome.
+- **R-14:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: 14:28 supplies the opposite response to the focus’s hoped-for gratitude: people replace God’s favor with disbelief. The contrast makes recognition and preservation of favor part of what gratitude entails.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 14:28 «بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًۭا»
+  - activation: Both passages name divine niʿma; one points toward thanks, the other toward its reversal.
+  - limits: 14:28 does not identify its favor with the purification instruction in 5:6.
+- **R-14:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus has faces washed before prayer; 14:50 has fire engulfing faces in the scene of judgment. This stark bodily contrast makes the face a site where a person’s condition is made visible.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 14:50 «وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ»
+  - activation: Both passages name faces as the direct site of a bodily action, one washing and the other engulfment by fire.
+  - limits: 14:50 does not mention prayer or purification, so the contrast is a reading prompted by the shared word and bodily scene.
+- **R-16:81** [reading; support strong, relevance high] inter-ayah target
+  - finding: 16:81 repeats the focus’s formula that God completes His favor upon the community, after listing shelter and clothing that protect them. Its different ending, “so that you may submit,” shows that the formula can gather practical provision and religious guidance toward distinct responses.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 16:81 «كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ»
+  - activation: The phrase يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ recurs almost exactly, while both passages follow it with a لَعَلَّكُمْ purpose clause.
+  - limits: 16:81’s examples are shelter and protection, not purification; submission and gratitude should not be treated as identical outcomes.
+- **R-16:83** [reading; support strong, relevance high] inter-ayah target
+  - finding: 16:83 describes people who recognize God’s favor and then deny it, a counterexample to the gratitude that 5:6 hopes will follow completion of favor.
+  - evidence: 5:6 «لِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 16:83 «يَعْرِفُونَ نِعْمَتَ ٱللَّهِ ثُمَّ يُنكِرُونَهَا»
+  - activation: Both passages name God’s favor, while the focus’s gratitude outcome meets 16:83’s movement from recognition to denial.
+  - limits: 16:83 does not specify the favor as purification or identify its deniers with the focus’s addressees.
+- **R-16:114** [reading; support strong, relevance high] inter-ayah target
+  - finding: 16:114 pairs طَيِّبًا provision with a command to thank God for His favor; 5:6 describes clean earth as طَيِّبًا and ends by hoping for thanks. This places tayammum’s medium within a broader language of good provision and gratitude.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 16:114 «فَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا وَٱشْكُرُوا۟ نِعْمَتَ ٱللَّهِ»
+  - activation: The shared ṭayyib wording and gratitude language occur together in both passages, with 16:114 explicitly naming God’s favor.
+  - limits: 16:114 describes food; it does not establish that ṭayyib has precisely the same legal or material sense for earth in 5:6.
+- **R-18:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared word صَعِيدًا names ground whose condition is specified by its adjective: 5:6 selects طَيِّبًا for purification, while 18:8 describes جُرُزًا ground after what is on it is made bare.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 18:8 «وَإِنَّا لَجَٰعِلُونَ مَا عَلَيْهَا صَعِيدًۭا جُرُزًا»
+  - activation: The focus turns to صَعِيدًا طَيِّبًا when water is not found, making the chosen ground’s quality consequential.
+  - limits: The ruined-ground scene does not define ritual طَيِّبًا or establish a ritual use for the ground in 18:8.
+- **R-18:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus pairs faces with purification and makes absent water a condition for a merciful substitute; 18:29 pairs water with faces in the opposite outcome, as the thirsty are given a drink that scorches faces. The contrast makes the focus’s water and face instructions sound sharply life-preserving.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ»; 18:29 «وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍۢ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ»
+  - activation: The focus’s لم تجدوا ماءً and its command concerning وجوهكم activate both shared terms.
+  - limits: The punishment scene does not identify its water with ablution water or say that the ritual protects from this outcome.
+- **R-20:71** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus names hands and feet as limbs cared for in preparation for prayer; Pharaoh threatens the same pair with amputation. The repeated pairing places bodily service under ritual care beside bodily violence under coercive rule.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»; 20:71 «فَلَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍ»
+  - activation: The exact limb pair أيديكم وأرجلكم occurs in both passages, with sharply different actions directed toward it.
+  - limits: Neither passage signals an explicit allusion to the other, and the focus’s ritual boundaries do not themselves state a contrast with punishment.
+- **R-22:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus says God intends to purify the believers; 22:26 commands Abraham to purify the House for people who perform devotional acts. Together they present purification of the worshipper and purification of the worship space as paired preparations for worship.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 22:26 «وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ وَٱلْقَآئِمِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ»
+  - activation: Both passages use the ط ه ر root in a worship setting, and 22:26 names standing, bowing, and prostrating.
+  - limits: The House’s purification and the believers’ bodily purification remain distinct acts; neither passage equates their procedures.
+- **R-22:78** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus says God does not intend to place حَرَج on the believers in a passage regulating purification for prayer; 22:78 says He has placed no حَرَج on them in religion and then commands prayer. The broader formulation casts the focus’s concessions as one instance of ease within religious practice.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 22:78 «وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ»; 22:78 «فَأَقِيمُوا۟ ٱلصَّلَوٰةَ»
+  - activation: The repeated phrase عَلَيْكُمْ مِنْ حَرَجٍۢ and the nearby prayer command directly activate the comparison.
+  - limits: 22:78 states a general principle and does not spell out the particular conditions or procedures in 5:6.
+- **R-24:39** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus says believers may fail to find ماءً and then gives them a substitute; 24:39 depicts a thirsty person who takes a mirage for ماءً but finds nothing. The paired language makes water’s practical availability in the focus especially concrete against a scene of deceptive expectation.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ»; 24:39 «يَحْسَبُهُ ٱلظَّمْـَٔانُ مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًۭٔا»
+  - activation: Both passages place water and failure to find it in the same clause sequence, while giving that failure very different consequences.
+  - limits: The mirage is a simile about deeds and judgment, not a statement about ritual water or tayammum.
+- **R-24:61** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus names illness among the conditions for purification accommodation and denies that God intends حَرَج; 24:61 explicitly says there is no حَرَج upon the sick. This pairs the focus’s illness case with a broader Quranic removal of hardship from people with bodily limitations.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 24:61 «وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌۭ»
+  - activation: Both verses pair illness with the exact word حَرَج, though they address different actions.
+  - limits: 24:61 concerns eating in homes and does not specify purification or prayer.
+- **R-25:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus states that God intends to purify the believers, and 25:48 calls water sent from heaven مَاءً طَهُورًا. This gives explicit Quranic wording for water’s purifying quality alongside the focus’s water-dependent cleansing and dry substitute.
+  - evidence: 5:6 «لِيُطَهِّرَكُمْ»; 25:48 «وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ طَهُورًۭا»
+  - activation: The focus names water as the ordinary medium before shifting to tayammum when it is unavailable; 25:48 directly qualifies water as طَهُورًا.
+  - limits: 25:48 does not state the specific washing and wiping procedures or the conditions for tayammum.
+- **R-26:49** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same paired limbs appear in opposite bodily actions: 5:6 directs washing and wiping hands and feet, while Pharaoh threatens to cut them crosswise. This contrast can make the focus’s treatment of the limbs audible as care rather than coercion.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»; 26:49 «لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍۢ»
+  - activation: The exact pairing أيديكم وأرجلكم occurs in both passages, with cleansing in one and threatened severing in the other.
+  - limits: The wording establishes a bodily contrast, not a deliberate allusion between the passages.
+- **R-27:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages connect divine favor with gratitude. Solomon asks for help to thank God for a named favor and to do righteous work; 5:6 presents purification and completed favor as aims leading to communal gratitude.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 27:19 «رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ»
+  - activation: The focus pairs نعمة and تشكرون; Solomon’s prayer pairs نعمتك and أشكر with righteous action.
+  - limits: Solomon asks for capacity to respond, whereas 5:6 states a hoped-for outcome for its addressees; the verses do not equate the rite itself with gratitude.
+- **R-27:73** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus hopes that its addressees will give thanks for divine favor; 27:73 states that most people do not give thanks despite their Lord’s favor. The parallel makes the focus’s لَعَلَّكُمْ تشكرون an invited response, not a guaranteed one.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 27:73 «وَإِنَّ رَبَّكَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ»
+  - activation: Both verses pair divine favor with the response of thanks, but 27:73 supplies the contrary outcome.
+  - limits: 27:73 speaks broadly of people and favor; it does not refer specifically to ritual purification.
+- **R-33:33** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both verses state divine purification as a purpose with the same verb and object pronoun: يُطَهِّرَكُمْ. This makes the focus’s ritual instructions part of a wider Quranic language for divine purifying action.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 33:33 «إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًۭا»
+  - activation: The exact verb يُطَهِّرَكُمْ appears in both, and 33:33 places it alongside removal of الرجس.
+  - limits: The addressees and settings differ; 33:33 does not equate its purification with the focus’s ritual procedure.
+- **R-33:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages frame a divine ruling through the word حَرَج. In 33:37, a rule about marriage removes constriction from believers; in 5:6, ritual rules and an alternative are explained by the denial of intended constriction.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 33:37 «لِكَىْ لَا يَكُونَ عَلَى ٱلْمُؤْمِنِينَ حَرَجٌۭ فِىٓ أَزْوَٰجِ أَدْعِيَآئِهِمْ»
+  - activation: The shared term حرج occurs in legal contexts, with a rule and its scope stated in each passage.
+  - limits: The subject of the rule differs: marriage in 33:37, ritual purification in 5:6.
+- **R-33:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s denial of intended hardship has a close legal parallel in 33:50, where a marriage provision is given so that there be no constriction upon the Prophet.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 33:50 «لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌۭ»
+  - activation: Both passages use a purpose construction with حرج to explain a divine ruling.
+  - limits: The focus addresses believers’ purification; 33:50 concerns a provision specific to the Prophet.
+- **R-33:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus links contact with women to purification, while 33:53 calls a boundary around interaction with the Prophet’s wives أَطْهَرُ لِقُلُوبِكُمْ. Together they show bodily purification and relational or inward purity using the same root.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 33:53 «ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ»
+  - activation: The focus names women and the root طهر; 33:53 names women’s interaction and uses the same root for hearts.
+  - limits: The verses describe different kinds of purity, and this parallel does not settle whether لامستم means ordinary touch or intercourse.
+- **R-34:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to David’s family, اعْمَلُوا شُكْرًا, casts gratitude as something enacted. After a sequence of bodily commands, 5:6 likewise presents gratitude as the intended response to divine favor.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 34:13 «ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا»
+  - activation: The focus places gratitude after embodied practice; 34:13 directly joins action and gratitude.
+  - limits: 34:13 does not identify any particular act of worship as gratitude, so it does not label the purification rite itself as shukr.
+- **R-38:33** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Quran also uses مَسْحًا for an action directed at shins and necks in a narrative outside ritual law. This keeps the focus’s امسحوا open as a bodily contact verb whose exact effect and scope must come from its construction and context.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ»; 38:33 «فَطَفِقَ مَسْحًۢا بِٱلسُّوقِ وَٱلْأَعْنَاقِ»
+  - activation: Both passages use the root م س ح with body parts as the object or target of the action.
+  - limits: The passage does not settle whether the action in 38:33 is wiping, stroking, or something else, and it does not decide the focus’s foot construction.
+- **related_7.X1** [reading; support strong, relevance high] 
+  - finding: The focus echoes 5:3’s completion-of-favor formula: أَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى is followed here by وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ. This places ritual purification within the surah’s language of divine favor and its completion.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The verses share the root ت م م, نعمتي/نعمته, and the phrase عَلَيْكُمْ.
+  - limits: The verbal forms differ, and the echo does not by itself establish a chronology or that each verse names the same specific favor.
+- **related_7.X2** [reading; support strong, relevance high] 
+  - finding: The next verse tells the same believers to remember God’s favor and covenant, recalling their words سَمِعْنَا وَأَطَعْنَا. Following 5:6’s purification rule and hoped-for gratitude, this places the rite inside a movement from favor to grateful, obedient remembrance.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»
+  - activation: The immediately following verse repeats the favor upon you formula and supplies a remembered response of obedience.
+  - limits: 5:7 does not name purification as the covenant’s content or state that this particular rite fulfills it.
+- **related_7.X3** [reading; support strong, relevance high] 
+  - finding: Later in the same surah, hands and feet appear again in a legal ruling, this time as body parts threatened with crosswise cutting. Against that passage, 5:6’s detailed washing and wiping can be heard as another legal treatment of the same limbs, directed toward worship rather than punishment.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»; 5:33 «أَوْ تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُم مِّنْ خِلَٰفٍ»
+  - activation: The same surah names أيديكم وأرجلكم in both passages, first in a purification procedure and later in a punishment.
+  - limits: The contrast is grounded in shared wording and legal context; the text does not state that the two rulings are directly paired.
+- **R-48:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus says God wills to complete His favor upon the believers; 48:2 uses the same completion-and-favor formula for the Prophet alongside forgiveness and guidance. This casts purification as part of divine favor's completion.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 48:2 «وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا»
+  - activation: The wording وَيُتِمَّ نِعْمَتَهُۥ is repeated, while 5:6 names purification and tayammum before it.
+  - limits: The persons and settings differ; 48:2 does not identify the rite in 5:6 as the favor it describes.
+- **R-48:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: 48:17 explicitly removes ḥaraj from the blind, lame, and sick in another obligation. Beside 5:6, this makes the focus's no-ḥaraj clause part of a Quranic pattern of accommodating bodily incapacity.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 48:17 «لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌۭ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌۭ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌۭ»
+  - activation: Both passages use ḥaraj, and the focus itself names illness among the conditions for an alternative purification practice.
+  - limits: 48:17 addresses participation in a different duty; it does not specify ablution or tayammum.
+- **R-55:55** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus names purification and completion of favor as reasons for gratitude; 55:55 repeatedly asks whether the recipients will deny their Lord's favors. The refrain supplies a wider Quranic setting for the focus's expected thankful response.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 55:55 «فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ»
+  - activation: Both passages connect divine favor with a human response: gratitude in 5:6, and refusal or acknowledgment in the refrain of 55.
+  - limits: 55:55 addresses two recipients amid a catalogue of favors; it does not single out ritual purification.
+- **R-58:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both passages respond to inability or failure to find a required means with an alternative practice. This places tayammum within a broader Quranic pattern of preserving an obligation through a practicable substitute.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 58:4 «فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ»
+  - activation: The focus moves from not finding water to tayammum; 58:4 moves from not finding a required means to fasting, with a further alternative if the person cannot.
+  - limits: The obligations and substitute practices differ; 58:4 does not concern purification.
+- **R-58:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: 58:12 calls a charitable act before private counsel “more purifying,” then addresses what to do if one cannot find the means; 5:6 likewise joins purification with a not-finding condition and an alternative. The shared structure links ritual and ethical purification while keeping their practices distinct.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 58:12 «ذَٰلِكَ خَيْرٌۭ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ»
+  - activation: Both passages pair the ط-ه-ر root with لَمْ تَجِدُوا; the focus also names divine purification as its purpose.
+  - limits: The purification in 58:12 concerns charity before counsel, not bodily washing, and its concession differs from tayammum.
+- **R-62:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus gives bodily preparation for prayer; 62:9 describes the public call and directs believers to hasten to God's remembrance. The two passages supply successive sides of approaching ṣalāt: purification and response to its call.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟»; 62:9 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ»
+  - activation: Both address believers with an إذا clause and name ṣalāt; one specifies preparation, the other the public summons and response.
+  - limits: 62:9 is specific to Friday and does not mention purification.
+- **R-72:19** [reading; support strong, relevance high] inter-ayah target
+  - finding: 72:19 uses qāma for the servant of God standing to call upon Him; 5:6 uses the same verb for believers rising toward prayer. This supports hearing the focus's qiyām as a devotional transition rather than an unrelated rise.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 72:19 «لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ»
+  - activation: Both clauses connect the q-w-m root with turning toward an act of worship.
+  - limits: 72:19 does not name ṣalāt or prescribe purification.
+- **R-73:20** [reading; support strong, relevance high] inter-ayah target
+  - finding: 73:20 names illness and travel among conditions affecting worship, then directs believers to do what is practicable and maintain prayer. It parallels the focus's illness and travel concessions and makes its purification accommodation part of a wider practicability pattern.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ»; 73:20 «عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ»
+  - activation: Both passages name the sick and people on a journey; both retain prayer within the accommodated practice.
+  - limits: 73:20 adjusts night recitation and does not specify the purification rules of 5:6.
+- **R-74:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: 74:4 commands purification of garments, while 5:6 describes washing and wiping the body and names purification as God's purpose. Together they place garment and bodily purification within a broader Quranic practice of preparing the worshipper.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 74:4 «وَثِيَابَكَ فَطَهِّرْ»
+  - activation: The shared ط-ه-ر root is explicit, and both passages command or purpose a form of purification.
+  - limits: The objects and settings differ; 74:4 does not say that garment purification is part of the rite in 5:6.
+- **R-76:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:6 says God wills to purify the believers; 76:21 describes a drink given by their Lord as ṭahūr. The shared root presents purity both as a rite in this life and as divine provision in the reward scene.
+  - evidence: 5:6 «لِيُطَهِّرَكُمْ»; 76:21 «وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًۭا طَهُورًا»
+  - activation: Both passages use the ط-ه-ر root and place purification or purity under divine agency.
+  - limits: 76:21 does not identify the drink as ritual water or as the result of ablution.
+- **related_8.X1** [reading; support strong, relevance high] 
+  - finding: The focus's aim that God complete His favor echoes 5:3's declaration that He completed His favor upon the believers. This places the purification and its accommodation within the surah's larger language of completed favor.
+  - evidence: 5:3 «وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The focus repeats the completion-and-favor wording from the earlier verse in the same surah.
+  - limits: 5:6 does not explicitly identify its purification rules as the fulfillment of the declaration in 5:3.
+- **related_8.X2** [reading; support strong, relevance high] 
+  - finding: The focus ends by inviting gratitude; the next verse commands remembrance of God's favor and recalls the covenant response, “we hear and obey.” This sequence turns the rite's stated outcome into a communal posture of thankful obedience.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»
+  - activation: The call to be grateful at the end of 5:6 is followed immediately by remembrance of favor and the covenant in 5:7.
+  - limits: 5:7 recalls the covenant broadly and does not single out purification as the favor being remembered.
+- **R-92:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared j-n-b root sets the junub condition beside the God-conscious person being kept away from the Fire; 92:18 then turns to giving wealth in order to purify oneself.
+  - evidence: 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 92:17 «وَسَيُجَنَّبُهَا ٱلْأَتْقَى»; 92:18 «ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ»
+  - activation: The focus joins junub status to purification; 92:17–18 join being kept away from the Fire to ethical purification.
+  - limits: The root relation does not make ritual junub a moral state or equate ablution with charitable giving.
+- **R-100:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus ends by inviting gratitude for purification and completed favor, against 100:6’s description of the human as ungrateful to the Lord.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 100:6 «إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ»
+  - activation: The focus explicitly frames the rite as favor and names gratitude as its hoped-for response.
+  - limits: 100:6 does not refer to this rite or claim every person responds to it with ingratitude.
+- **R-f-ءحد-تمم-رود-وجد** [reading; support strong, relevance high] formula family (ء ح د + ت م م + ر و د + و ج د; 1 ayat: 28:27)
+  - finding: The contract in 28:27 gathers several focus roots around completion and burden: one may complete the term by choice, the speaker does not intend hardship, and the other will find him righteous.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 28:27 «فَإِنْ أَتْمَمْتَ عَشْرًۭا فَمِنْ عِندِكَ ۖ وَمَآ أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ ۚ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰلِحِينَ»
+  - activation: The focus combines a personal trigger, finding water, divine intent, and completion of favor; 28:27 combines the same root family with an explicit no-hardship clause.
+  - limits: The employment and marriage agreement is not a ritual ruling, and the shared wording does not make its terms a gloss on 5:6.
+- **R-f-تمم-رءس-مرض-وجد** [reading; support strong, relevance high] formula family (ت م م + ر ء س + م ر ض + و ج د; 1 ayat: 2:196)
+  - finding: The Hajj rules in 2:196 closely parallel the focus’s ritual accommodations: both name illness, bodily parts, and failure to find the normal offering or medium before specifying an alternative.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ»; 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 2:196 «فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًۭى مِّن رَّأْسِهِۦ فَفِدْيَةٌۭ مِن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍۢ»; 2:196 «فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ فِى ٱلْحَجِّ»
+  - activation: Both verses address ritual performance under illness or material unavailability and prescribe an alternate course.
+  - limits: The Hajj rules concern a different rite and do not determine the scope of washing, wiping, or tayammum in 5:6.
+- **R-f-ءحد-مرض-نسو** [reading; support strong, relevance high] formula family (ء ح د + م ر ض + ن س و; 1 ayat: 33:32)
+  - finding: The illness-and-women wording in 5:6 can be contrasted with the heart disease and women’s speech setting of 33:32: the same illness root spans bodily incapacity and an inward condition.
+  - evidence: 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 33:32 «فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌۭ»
+  - activation: The focus places illness among conditions for a purification alternative; 33:32 explicitly locates مرض in the heart within instructions to the Prophet’s wives.
+  - limits: The comparison does not establish that the focus’s illness is metaphorical or settle the meaning of touching women.
+- **R-f-جعل-رود-مرض** [reading; support strong, relevance high] formula family (ج ع ل + ر و د + م ر ض; 1 ayat: 74:31)
+  - finding: The question in 74:31 about what God intended by making a sign stands beside 5:6’s own answer about divine intent: not constriction, but purification and completed favor.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 74:31 «وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًۭا»
+  - activation: The focus repeats يريد around a making verb and declares its purpose; 74:31 depicts people questioning God’s purpose in what He made.
+  - limits: 74:31 concerns the number of the Fire’s guardians and does not identify its scene with the purification rule.
+- **R-f-جعل-سفر-شكر** [reading; support strong, relevance high] formula family (ج ع ل + س ف ر + ش ك ر; 1 ayat: 34:19)
+  - finding: The people in 34:19 ask for longer journeys and are described as wronging themselves, while 5:6 treats travel as a condition for ritual ease and ends in gratitude; the pairing makes response to travel’s burdens a point of contrast.
+  - evidence: 5:6 «أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 34:19 «فَقَالُوا۟ رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ»; 34:19 «إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ»
+  - activation: The focus names travel and concludes with gratitude; 34:19 joins journeys with a community’s response to its provision.
+  - limits: 34:19 does not discuss prayer or ritual concessions, and its root overlap does not prove that the passages refer to the same travelers.
+- **R-f-جعل-طيب-نعم** [reading; support strong, relevance high] formula family (ج ع ل + ط ي ب + ن ع م; 1 ayat: 16:72)
+  - finding: The good earth selected for tayammum in 5:6 stands beside the good provisions called divine gifts in 16:72, where people are then challenged over denial of those gifts.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 16:72 «وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَتِ ٱللَّهِ هُمْ يَكْفُرُونَ»
+  - activation: The focus qualifies its earth as طيب and names the rite as favor; 16:72 links الطيبات to God’s favor.
+  - limits: 16:72 speaks of provision and denial, not the ritual status of earth or purification.
+- **R-f-جيء-رجل-طهر** [reading; support strong, relevance high] formula family (ج ي ء + ر ج ل + ط ه ر; 1 ayat: 11:78)
+  - finding: The shared purification root appears in 5:6’s divine purification and Lot’s description of a sexual alternative as purer in 11:78, beside 5:6’s own mention of contact with women.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 11:78 «هَٰٓؤُلَاءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ»
+  - activation: The focus joins women’s contact to purification, and 11:78 uses the same طهر root in a sexual scene.
+  - limits: The parallel does not make 5:6 a moral judgment on contact with women or settle the scope of لَٰمَسْتُمُ.
+- **R-f-جيء-رجل-يدي** [reading; support strong, relevance high] formula family (ج ي ء + ر ج ل + ي د ي; 1 ayat: 60:12)
+  - finding: In 60:12, women’s hands and feet occur in a pledge that includes sexual and social prohibitions; beside 5:6’s washing of hands, wiping of feet, and mention of women, this shows the same bodily vocabulary in ritual and ethical settings.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ»; 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 60:12 «وَلَا يَأْتِينَ بِبُهْتَٰنٍۢ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍۢ»
+  - activation: Both passages pair women with the vocabulary of hands and feet, though they place it in different acts.
+  - limits: The idiom in 60:12 does not define the limbs washed in 5:6 or resolve what contact with women means there.
+- **R-f-جيء-رود-يدي** [reading; support strong, relevance high] formula family (ج ي ء + ر و د + ي د ي; 1 ayat: 4:62)
+  - finding: The speakers in 4:62 claim, after their hands’ deeds have brought trouble, that they intended only good; 5:6 instead states God’s intent and specifies its good purpose.
+  - evidence: 4:62 «فَكَيْفَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ ثُمَّ جَآءُوكَ يَحْلِفُونَ بِٱللَّهِ إِنْ أَرَدْنَآ إِلَّآ إِحْسَٰنًۭا وَتَوْفِيقًا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»
+  - activation: Both passages explicitly state intended purpose; the focus contrasts God’s stated aim with human claims about their own.
+  - limits: The scenes differ, and the hands in 4:62 refer to deeds rather than ritual washing.
+- **R-f-جيء-شكر-طيب** [reading; support strong, relevance high] formula family (ج ي ء + ش ك ر + ط ي ب; 1 ayat: 10:22)
+  - finding: The travelers in 10:22 experience a طيبة wind before danger and promise gratitude if rescued; 5:6 names travel as a setting for an earth-based purification concession and ends by inviting gratitude.
+  - evidence: 5:6 «أَوْ عَلَىٰ سَفَرٍ»; 5:6 «صَعِيدًۭا طَيِّبًۭا»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 10:22 «وَجَرَيْنَ بِهِم بِرِيحٍۢ طَيِّبَةٍۢ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌۭ»
+  - activation: Travel, طيب, and gratitude converge in the focus and in the shipboard scene.
+  - limits: 10:22 concerns rescue from danger, not a normal ritual concession, and its طيبة describes wind rather than earth.
+- **R-f-شكر-وجد-يدي** [reading; support strong, relevance high] formula family (ش ك ر + و ج د + ي د ي; 1 ayat: 7:17)
+  - finding: The focus hopes that its addressees will give thanks after the purification provisions; 7:17 predicts that most people will not be found grateful, sharpening gratitude as a response that can fail.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 7:17 «وَلَا تَجِدُ أَكْثَرَهُمْ شَٰكِرِينَ»
+  - activation: The focus itself combines failure to find water with an invitation to gratitude, while 7:17 combines finding with lack of gratitude.
+  - limits: The hands in 7:17 are part of directional imagery and do not refer to the washing or wiping in 5:6.
+- **R-f-جعل-رود** [reading; support strong, relevance high] formula family (ج ع ل + ر و د; 7 ayat: 3:176, 4:144, 17:18, 21:70, 22:25, 28:5, 28:83)
+  - finding: The syntax of 3:176 closely echoes the focus’s yurid plus yajʿal construction, but reverses its outcome: there God wills not to grant a share in the Hereafter, whereas 5:6 denies intending hardship for the addressees.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 3:176 «يُرِيدُ ٱللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّۭا فِى ٱلْءَاخِرَةِ»
+  - activation: Both passages place divine intent beside a negative making clause.
+  - limits: The contrast does not imply that 5:6’s recipients face the same judgment as those in 3:176.
+- **R-f-جعل-شكر** [reading; support strong, relevance high] formula family (ج ع ل + ش ك ر; 6 ayat: 7:189, 28:73, 32:9, 40:61, 56:70, 67:23)
+  - finding: The creation of night and day from divine mercy in 28:73 ends with a call to gratitude, paralleling 5:6’s description of purification and completed favor as reasons to give thanks.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 28:73 «وَمِن رَّحْمَتِهِۦ جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: Both passages describe divine provision and close with gratitude as its intended response.
+  - limits: 28:73 concerns the cycles of night and day, not ritual purity.
+- **related_9.X1** [reading; support strong, relevance high] 
+  - finding: The immediate move from 5:6 to 5:7 turns the focus’s completed favor and hoped-for gratitude into a command to remember God’s favor and covenant, followed by the pledge, “we heard and obeyed.”
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 5:7 «وَٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»; 5:12 «لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ وَءَاتَيْتُمُ ٱلزَّكَوٰةَ»
+  - activation: The repeated favor-upon-you wording and the adjacent covenant turn the purification rule into part of a sequence about gratitude and obedient practice.
+  - limits: The verses do not explicitly identify ablution as the specific covenant act recalled in 5:7 or 5:12.
+- **related_9.X2** [reading; support strong, relevance high] 
+  - finding: 5:6 echoes the earlier declaration in 5:3 that God completed His favor upon the addressees; the ablution and tayammum provisions can therefore be heard within the surah’s language of completed favor and perfected religion.
+  - evidence: 5:3 «ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: The same tamam root and favor language recur within a sequence of dietary and ritual laws in Surah 5.
+  - limits: The echo does not date the verses relative to one another or prove that 5:6 was intended as a direct commentary on 5:3.
+- **R-2:40** [reading; support medium, relevance high] inter-ayah target
+  - finding: God’s favor and covenant are joined in 2:40; alongside 5:1’s call to fulfill commitments, 5:6’s ritual command can be heard as a grateful response within a covenantal address to believers.
+  - evidence: 2:40 «ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ»; 5:1 «أَوْفُوا۟ بِٱلْعُقُودِ»; 5:6 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟»
+  - activation: Both passages connect divine favor with a response, and 5:1 places the focus passage in a surah that opens with a commitment command.
+  - limits: The focus does not name a covenant; the connection is an echo across separate addresses and communities.
+- **R-f-جعل-طيب** [reading; support medium, relevance high] formula family (ج ع ل + ط ي ب; 2 ayat: 8:37, 40:64)
+  - finding: 40:64 pairs God making the earth a settled place with providing good things. The clean earth surface in 5:6 can therefore be heard as a created good available for purification when water is absent.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 40:64 «جَعَلَ لَكُمُ ٱلْأَرْضَ قَرَارًۭا وَٱلسَّمَآءَ بِنَآءًۭ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ»
+  - activation: Tayammum selects a ṭayyib earth surface, and the other verse joins the earth's created role to God's provision of ṭayyibāt.
+  - limits: The plural ṭayyibāt in 40:64 does not define the legal meaning of صَعِيدًا طَيِّبًا or identify it with food.
+- **R-f-طهر-نسو** [reading; support medium, relevance high] formula family (ط ه ر + ن س و; 1 ayat: 2:232)
+  - finding: 2:232 describes women's remarriage within family law and calls the permitted course أَزْكَىٰ لَكُمْ وَأَطْهَرُ. Alongside 5:6's لَامَسْتُمُ ٱلنِّسَاءَ and purification, this allows a relational or sexual register for purity to remain audible without deciding the meaning of لمس.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 2:232 «ذَٰلِكُمْ أَزْكَىٰ لَكُمْ وَأَطْهَرُ»
+  - activation: Both verses place women within legal relations and use purity language, though the specific rulings differ.
+  - limits: In 2:232, the purity judgment concerns not preventing remarriage; it does not settle whether لَامَسْتُمُ ٱلنِّسَاءَ in 5:6 means sexual contact or touch.
+- **related_10.X4** [reading; support medium, relevance high] 
+  - finding: The supplied context says the Fatiha is recited in every salah. Thus the washing that prepares the worshipper for prayer leads into praise of God and the Fatiha's remembrance of those He has favored, resonating with 5:6's favor and hoped-for gratitude.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 1:2 «ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ»
+  - activation: The context places the Fatiha inside each prayer, which 5:6 prepares for, and both texts recall divine favor.
+  - limits: The Fatiha does not mention ablution, and praise (حمد) and gratitude (شكر) remain distinct terms.
+- **R-f-طيب-نسو** [reading; support medium, relevance high] formula family (ط ي ب + ن س و; 1 ayat: 4:3)
+  - finding: The sequence echoes 4:3: there, طَابَ qualifies women chosen for marriage; here, طَيِّبًا qualifies the earth chosen after contact with women. The ṭ-y-b root shifts from relational desirability to the suitability of a purification medium.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 4:3 «فَٱنكِحُوا۟ مَا طَابَ لَكُم مِّنَ ٱلنِّسَآءِ»
+  - activation: In 5:6, the women-contact condition comes before the direction to aim for clean earth; 4:3 puts the same roots together in a marriage context.
+  - limits: The forms and relations differ: 4:3 describes what is pleasing among women, while 5:6 describes the earth. This does not imply that women are impure.
+- **R-f-طيب-وجد** [reading; support medium, relevance high] formula family (ط ي ب + و ج د; 1 ayat: 7:157)
+  - finding: The shared roots ط ي ب and و ج د place the substitute earth alongside a Quranic portrayal of guided relief: 5:6 moves from not finding water to صَعِيدًا طَيِّبًا and denies hardship; 7:157 speaks of finding the messenger written and of his removing burdens while making الطيبات lawful.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 7:157 «يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ»; 7:157 «وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ»
+  - activation: The focus ayah pairs تَجِدُوا with طَيِّبًا and explicitly says the rite is intended to purify without hardship.
+  - limits: In 7:157, the object found is the messenger, and الطيبات are things made lawful, not earth. The parallel does not classify the tayammum surface among those things.
+- **R-f-موه-وجد** [reading; support medium, relevance high] formula family (م و ه + و ج د; 1 ayat: 28:23)
+  - finding: The Midian scene makes practical access a live dimension of لَمْ تَجِدُوا مَاءً: water is present, but two women wait to water until the shepherds leave. The parallel ماء/وجد wording allows the focus condition to be heard against water that exists at a place but is not immediately available to everyone.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 28:23 «وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةًۭ مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ»; 28:23 «قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ ٱلرِّعَآءُ»
+  - activation: Both passages join finding and water; the focus also names women, while the Midian scene centers women waiting at a watering place.
+  - limits: The women and situations differ, and 5:6 does not specify crowding or define what counts as unavailable water for the rite.
+- **R-f-وجد-وجه** [reading; support medium, relevance high] formula family (و ج د + و ج ه; 1 ayat: 17:97)
+  - finding: The focus couples not finding water with wiping faces; 17:97 couples not finding protectors with being gathered on faces. This is a contrasting find/face sequence: absence of a means in 5:6 leads to ritual care, while absence of allies in 17:97 precedes face-led judgment.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ»; 17:97 «فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا»
+  - activation: Both passages place a negated form of وَجَدَ before a face expression; 5:6 uses the face as part of the remedy for absent water.
+  - limits: 17:97 concerns absent allies and the manner of resurrection, not purification. The parallel does not establish an explicit link between the two scenes.
+- **R-2:283** [reading; support medium, relevance high] inter-ayah target
+  - finding: Both passages condition an alternative on travel and failure to find an ordinary resource: 2:283 names a pledge when no scribe is found, while 5:6 directs tayammum when water is not found. This places the purification concession within a wider pattern of adapting a rule to constrained circumstances.
+  - evidence: 2:283 «وَإِن كُنتُمْ عَلَىٰ سَفَرٍۢ وَلَمْ تَجِدُوا۟ كَاتِبًۭا فَرِهَٰنٌۭ مَّقْبُوضَةٌۭ»; 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - activation: The shared sequence عَلَىٰ سَفَرٍۢ وَلَمْ تَجِدُوا۟ leads in both verses to an alternative arrangement.
+  - limits: The pledge is not a substitute for purification, and 2:283 does not state that its arrangement is meant to relieve hardship.
+- **R-2:286** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus’s denial of intended ḥaraj parallels 2:286’s limit of responsibility to capacity and plea against an unbearable load; 5:6 applies that concern to a concrete ritual concession.
+  - evidence: 2:286 «لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا»; 2:286 «رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»
+  - activation: The focus names hardship directly and follows its denial with an alternative procedure when water is unavailable.
+  - limits: The passages use different terms and settings; 2:286 does not specify ritual purification.
+- **R-4:27** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:27 sets God’s will that believers turn back to Him against the will of desire-followers that they swerve greatly. The focus’s stated will to purify and complete favor can be heard as one expression of the divine aim opposed to that swerve.
+  - evidence: 4:27 «وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ ٱلشَّهَوَٰتِ أَن تَمِيلُوا۟ مَيْلًا عَظِيمًۭا»; 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - activation: Both verses repeat يُرِيدُ and address the same plural community; 4:27 explicitly opposes divine purpose to an alternative human aim.
+  - limits: 4:27 does not identify the ritual in 5:6 as a response to desire-followers or define purification as repentance.
+- **R-4:99** [reading; support medium, relevance high] inter-ayah target
+  - finding: The sequence around 4:99 describes people unable to find a way and says God may pardon them; 5:6 accommodates illness, travel, or lack of water and denies intended hardship. Together they present divine allowance as responsive to human constraint across different settings.
+  - evidence: 4:98 «لَا يَسْتَطِيعُونَ حِيلَةًۭ وَلَا يَهْتَدُونَ سَبِيلًۭا»; 4:99 «فَأُو۟لَٰٓئِكَ عَسَى ٱللَّهُ أَن يَعْفُوَ عَنْهُمْ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»
+  - activation: The surrounding incapacity and pardon in 4:98–99 resonate with the focus’s conditional concessions and denial of hardship.
+  - limits: 4:99 is not a ritual rule, and pardon there is not explicitly identified with the focus’s idea of ḥaraj.
+- **R-4:101** [reading; support medium, relevance high] inter-ayah target
+  - finding: Travel triggers a mode of accommodation in both passages: 4:101 permits shortening prayer under fear, while 5:6 provides substitute purification when water is unavailable. Together they show worship continuing under travel constraints through an adjusted practice.
+  - evidence: 4:101 «وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ»; 5:6 «أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟»
+  - activation: The focus explicitly includes travel and makes lack of water the condition for tayammum.
+  - limits: The shortening in 4:101 is tied to fear; 5:6 ties tayammum to water being unavailable among several conditions. The passages do not state that these are one rule.
+- **R-5:11** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus commands believers to wash their hands; 5:11 recalls hostile hands that God restrained and names that protection a favor. The nearby hand and favor language places ritual agency and protection from harm under divine care.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 5:11 «ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ»
+  - activation: The same hand noun and favor language recur within the opening legal section of the surah.
+  - limits: The hands in 5:11 belong to attackers, and the text does not explicitly connect their restraint with ritual washing.
+- **R-5:87** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus names a ṭayyib earth surface as a purification medium and denies that God intends hardship; later, the surah forbids believers to prohibit the ṭayyibāt God made lawful or to overstep. The shared term and limit-setting make the substitute medium part of a broader legal ethic of accessible, authorized practice.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 5:87 «لَا تُحَرِّمُوا۟ طَيِّبَٰتِ مَآ أَحَلَّ ٱللَّهُ لَكُمْ وَلَا تَعْتَدُوٓا۟»
+  - activation: The later legal warning repeats the ṭ-y-b root and pairs it with a prohibition against excess.
+  - limits: 5:87 concerns lawful provisions, while 5:6 describes a purification medium; the shared root does not make their legal categories identical.
+- **R-9:28** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus describes God purifying believers and enabling prayer through alternatives; 9:28 bars the mushrikūn from the Sacred Mosque by calling them najas. Together they contrast enacted access to worship with categorical exclusion from a sanctuary.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 9:28 «إِنَّمَا ٱلْمُشْرِكُونَ نَجَسٌۭ فَلَا يَقْرَبُوا۟ ٱلْمَسْجِدَ ٱلْحَرَامَ»
+  - activation: The focus connects purification to approaching prayer, while 9:28 connects impurity language to approaching the Sacred Mosque.
+  - limits: The focus does not call the mushrikūn impure, and 9:28 does not describe the focus’s ablution or tayammum.
+- **R-9:128** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus denies that God intends ḥaraj; 9:128 describes the Messenger as deeply affected by what burdens the people and compassionate toward believers. The two passages align divine accommodation with prophetic concern for hardship.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 9:128 «عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: The focus’s no-ḥaraj rationale is paired with 9:128’s explicit concern over what burdens the community.
+  - limits: The verses use different words for hardship, and 9:128 does not mention ritual law.
+- **R-14:37** [reading; support medium, relevance high] inter-ayah target
+  - finding: 14:37 places prayer in a valley without cultivation and asks for provision so its people may give thanks. Beside 5:6, this makes prayer under material constraint a setting in which divine provision and the gratitude it enables matter.
+  - evidence: 5:6 «أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 14:37 «بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ»; 14:37 «وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ»
+  - activation: Both passages join prayer with conditions affecting provision and end in gratitude.
+  - limits: 14:37 says the valley lacks cultivation, not that water is absent; it does not mention tayammum or purification.
+- **R-16:7** [reading; support medium, relevance high] inter-ayah target
+  - finding: 16:7 depicts a journey that would be reached only with great strain, then names God as compassionate; 5:6 denies intent to impose ḥaraj and adjusts purification when travel or water scarcity intervenes. Both portray divine provision answering human difficulty.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 5:6 «أَوْ عَلَىٰ سَفَرٍ»; 16:7 «لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ»
+  - activation: Travel and hardship are explicit in both passages, and each associates relief with divine compassion.
+  - limits: 16:7 concerns transport by livestock, not ritual law or the focus’s specific no-water condition.
+- **R-17:7** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus has faces washed in preparation for prayer; 17:7 says faces will be made wretched in a scene that also names entry into the mosque. Their juxtaposition makes the face a visible register of a person’s relation to worship and consequence.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 17:7 «لِيَسُۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ»
+  - activation: Both passages name faces, and 17:7 places its face language alongside entry into a mosque, while the focus prepares people for prayer.
+  - limits: 17:7 does not mention ablution or prayer; the contrast rests on shared bodily and worship-space imagery.
+- **R-24:21** [reading; support medium, relevance high] inter-ayah target
+  - finding: In 5:6 God is the agent who intends to purify the believers; in 24:21 God likewise purifies whom He wills, in a passage about resisting Satan’s steps. This places the focus’s bodily rite beside a moral account in which purity also depends on divine favor.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 24:21 «وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًۭا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ»
+  - activation: Both passages assign purification to God and connect it with divine favor, though they use different roots and address different conduct.
+  - limits: 24:21 does not identify moral purification with ablution, and its root ز ك و is distinct from ط ه ر in the focus.
+- **R-24:30** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus’s purpose clause says God intends to purify the believers; 24:30 calls lowering the gaze and guarding private parts أَزْكَىٰ for them. The pairing places ritual purification beside ethical restraint concerning the body and sexual boundaries.
+  - evidence: 5:6 «لِيُطَهِّرَكُمْ»; 24:30 «يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ»
+  - activation: Both verses address believers and connect bodily conduct with purification language; the focus also names contact with women.
+  - limits: The roots differ, and 24:30 does not describe ablution or define the scope of لَامَسْتُمُ ٱلنِّسَاءَ.
+- **R-38:42** [reading; support medium, relevance high] inter-ayah target
+  - finding: Job’s recovery scene brings illness, a foot, and a cool bathing place together. Alongside 5:6’s illness provision, foot reference, and purification media, it allows the focus’s procedure to be heard within a Quranic scene of bodily restoration.
+  - evidence: 5:6 «وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»; 5:6 «وَإِن كُنتُم مَّرْضَىٰٓ»; 38:42 «ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ بَارِدٌۭ وَشَرَابٌۭ»
+  - activation: The focus names illness and feet in a purification instruction; Job’s verse joins a foot to washing and drinking after illness.
+  - limits: Job’s bathing place is not a ritual purification rule, and the connection does not make the focus a cure for illness.
+- **R-48:29** [reading; support medium, relevance high] inter-ayah target
+  - finding: The focus makes the face a surface prepared for prayer; 48:29 depicts faces bearing a visible sign from prostration. Together they give the face a devotional arc, from preparation to the mark of worship.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 48:29 «تَرَىٰهُمْ رُكَّعًۭا سُجَّدًۭا يَبْتَغُونَ فَضْلًۭا مِنَ ٱللَّهِ وَرِضْوَٰنًۭا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ»
+  - activation: The focus names washing faces on rising for prayer; 48:29 pairs prayer postures with a sign on the face from prostration.
+  - limits: 48:29 does not attribute that sign to washing or say it is the same individuals addressed in 5:6.
+- **R-67:30** [reading; support medium, relevance high] inter-ayah target
+  - finding: 67:30 turns water's absence into a question of dependence: if it sinks away, who can bring accessible water? Beside it, the focus's fallback for not finding water makes tayammum a response to reliance on a resource humans do not control.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 67:30 «إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًۭا فَمَن يَأْتِيكُم بِمَآءٍۢ مَّعِينٍۭ»
+  - activation: Both passages make water's availability decisive; the focus directly specifies what believers do when it is not found.
+  - limits: 67:30 asks who can restore water, but does not mention ritual or the earth substitute.
+- **R-87:8** [reading; support medium, relevance high] inter-ayah target
+  - finding: The accessibility frame in 5:6 can be heard alongside 87:8: the purification rule names concessions as a concrete form of making the way easy.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 87:8 «وَنُيَسِّرُكَ لِلْيُسْرَىٰ»
+  - activation: The focus explicitly denies hardship while allowing tayammum when water is unavailable.
+  - limits: 87:8 addresses the Prophet’s path and does not specify legal accommodation or ritual purity.
+- **R-91:9** [reading; support medium, relevance high] inter-ayah target
+  - finding: 91:9 makes purification an ethical inward achievement, while 5:6 assigns purification to a bodily rite; together they prevent either register from exhausting the Quranic purification theme.
+  - evidence: 5:6 «لِيُطَهِّرَكُمْ»; 91:9 «قَدْ أَفْلَحَ مَن زَكَّىٰهَا»
+  - activation: The focus uses a purification verb for a rite and ends by inviting gratitude; 91:9 speaks of purifying the soul.
+  - limits: The different roots and settings do not establish that the rite purifies the soul in the sense of 91:9.
+- **R-92:10** [reading; support medium, relevance high] inter-ayah target
+  - finding: The ease promised in 92:10 gives a Quranic counterpart to 5:6’s denial of constriction: the permitted alternative is an instance of a way made workable under difficulty.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 92:10 «فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ»
+  - activation: 5:6 names illness, travel, and absent water before setting out an alternative means of purification.
+  - limits: 92:10 concerns the path toward hardship in its own passage and does not state a legal rule for ritual practice.
+- **R-94:5** [reading; support medium, relevance high] inter-ayah target
+  - finding: The affirmation that ease accompanies hardship in 94:5 complements 5:6’s account of an obligation whose permitted forms avoid constriction.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 94:5 «فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا»
+  - activation: The focus names circumstances that obstruct ordinary water purification and gives an alternative rather than abandoning purification.
+  - limits: 94:5 does not name ritual law, and its ease is not explicitly identified with tayammum.
+- **R-94:6** [reading; support medium, relevance high] inter-ayah target
+  - finding: The repeated ease statement in 94:6 strengthens the comparison with 5:6: the focus also repeats divine intent, moving from negated hardship to a positive purpose.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 94:5 «فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا»; 94:6 «إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا»
+  - activation: Each passage reinforces its point through paired or repeated phrasing about ease and divine intent.
+  - limits: The repeated formula in 94:5–6 is not a direct exegesis of the ritual concessions in 5:6.
+- **R-f-جعل-جيء-يدي** [reading; support medium, relevance high] formula family (ج ع ل + ج ي ء + ي د ي; 1 ayat: 5:48)
+  - finding: 5:48 places the focus’s ritual rule within a Quranic account of differentiated divine law: each community has a law and a path, while shared divine provision remains a test.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:48 «لِكُلٍّۢ جَعَلْنَا مِنكُمْ شِرْعَةًۭ وَمِنْهَاجًۭا ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةًۭ وَٰحِدَةًۭ وَلَٰكِن لِّيَبْلُوَكُمْ فِى مَآ ءَاتَىٰكُمْ»
+  - activation: The focus gives a concrete prescription to believers, and 5:48 explicitly names community-specific law and path.
+  - limits: 5:48 does not name purification or classify the focus’s rules as different from those of another community.
+- **R-2:124** [open; support medium, relevance high] inter-ayah target
+  - finding: The root ت م م links Abraham’s completing the trials to 5:6’s purpose that God complete favor; the intervening 2:125 then turns the sequence toward prayer and purification.
+  - evidence: 2:124 «فَأَتَمَّهُنَّ ۖ قَالَ إِنِّى جَاعِلُكَ لِلنَّاسِ إِمَامًۭا»; 2:125 «وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِۦمَ مُصَلًّۭى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»
+  - missing: The shared completion root and the prayer-and-purification scene in 2:125 do not establish that the passages form one argument; an explicit Quranic cue joining Abraham’s completed trials to the completion-of-favor formula could decide that link.
+- **R-2:187** [open; support medium, relevance high] inter-ayah target
+  - finding: 2:187 permits intimacy with wives at night during fasting and restricts it during mosque retreat; 5:6 places junub and contact with women among the conditions that lead to purification. Together they may frame intimacy within worship’s permitted acts and bodily conditions.
+  - evidence: 2:187 «أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ»; 2:187 «وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ»; 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»
+  - missing: The link depends on whether لَٰمَسْتُمُ ٱلنِّسَآءَ in 5:6 denotes intercourse; a decisive dictionary sense or Quranic usage establishing that sense, and an explicit post-intimacy link to junub, could settle it.
+- **R-2:275** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus uses قام for approaching prayer; 2:275 repeats the root for the disordered rising of those who consume usury, offering a possible contrast between ordered devotional standing and a distorted bodily rise.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 2:275 «لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَٰنُ مِنَ ٱلْمَسِّ»
+  - missing: The shared verb and bodily image alone do not establish a designed contrast; a Quranic passage explicitly pairing prayer-standing with this disordered rising could decide whether the scenes illuminate each other.
+- **R-f-رود-وجه** [open; support medium, relevance high] formula family (ر و د + و ج ه; 4 ayat: 6:52, 18:28, 30:38, 30:39)
+  - finding: The verses where worshippers يُرِيدُونَ وَجْهَهُۥ may place 5:6's washed faces beside the aim of worship, especially since the focus prepares people for الصلاة.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 6:52 «يُرِيدُونَ وَجْهَهُۥ»; 18:28 «يُرِيدُونَ وَجْهَهُۥ»
+  - missing: The face in 5:6 is bodily, while وجهه in these passages denotes the sought divine aim; an explicit Quranic link between washing the face for prayer and seeking God's face could establish whether the shift is active.
+- **R-3:153** [open; support medium, relevance high] inter-ayah target
+  - finding: After battle grief, 3:154 describes God’s purposes as testing and يَمَحِّصَ what is in hearts; 5:6 pairs the denial of ḥaraj with God’s purpose to يُطَهِّرَكُمْ. The passages may contrast inward refinement through ordeal with purification through an accommodated rite.
+  - evidence: 3:154 «وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»
+  - missing: Lexical evidence establishing how يَمَحِّصَ relates to يُطَهِّرَكُمْ, and further context linking the battle ordeal with ritual practice, could decide whether this is a meaningful contrast in modes of purification.
+- **R-5:5** [open; support medium, relevance high] inter-ayah target
+  - finding: The marriage permission in 5:5 immediately precedes 5:6's “you have touched the women,” making conjugal contact a live reading of the focus phrase and linking marriage law to purification.
+  - evidence: 5:5 «وَٱلْمُحْصَنَٰتُ مِنَ ٱلْمُؤْمِنَٰتِ وَٱلْمُحْصَنَٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ»; 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»
+  - missing: The adjacent wording does not settle whether لَٰمَسْتُمُ means sexual contact or touch more generally; broader Quranic usage and dictionary evidence for this form could decide the reading.
+- **R-5:64** [open; support medium, relevance high] inter-ayah target
+  - finding: 5:64's image of God's two hands spread in giving may echo the focus's hands and its promise that God completes favor. The juxtaposition could let the purification rule be heard as a gift from a generous giver.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 5:64 «بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ»
+  - missing: The text does not explicitly connect the worshippers' hands in 5:6 to God's giving hands in 5:64. A further surah-level echo linking hand imagery with purification or favor could establish whether this is purposeful.
+- **R-6:7** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus uses form III لَٰمَسْتُمُ for contact with women; 6:7 uses form I لَمَسُوهُ for touching a written book that still fails to persuade its rejecters. Their shared root raises a contrast between contact that triggers ritual response and contact that does not settle belief.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 6:7 «فَلَمَسُوهُ بِأَيْدِيهِمْ»
+  - missing: Broader Quranic usage or dictionary evidence is needed to determine whether these distinct forms share a relevant sense here, and whether the contrast bears on the scope of لَٰمَسْتُمُ.
+- **related_4.X2** [open; support medium, relevance high] 
+  - finding: The immediately preceding passage discusses marriage to women and sexual conduct; this context may activate an intimate sense of أَوْ لَٰمَسْتُمُ ٱلنِّسَاءَ as a purification trigger.
+  - evidence: 5:5 «إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخْدَانٍۢ»; 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ»
+  - missing: A broader lexical account of لَٰمَسْتُمُ and its Quranic uses is needed to decide whether the preceding marital context establishes intimate contact or leaves ordinary touching available.
+- **R-9:25** [open; support medium, relevance high] inter-ayah target
+  - finding: 9:25 says the broad earth itself became constricted, while 5:6 denies divine intent to impose ḥaraj and gives a route to prayer when travel and absent water constrain ordinary washing.
+  - evidence: 9:25 «وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ»; 5:6 «أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»
+  - missing: The scenes do not explicitly link Hunayn’s spatial contraction to ritual hardship. A dictionary sense for ḥaraj as constriction, or another passage joining spatial narrowness to relief, could establish whether this is more than a semantic comparison.
+- **R-18:16** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus’s الْمَرَافِقِ (elbows) shares the root ر ف ق with مِرْفَقًا in the cave youths’ request for a merciful facility. This could let the bodily boundary resonate with facility in a passage that later denies حَرَج.
+  - evidence: 5:6 «إِلَى ٱلْمَرَافِقِ»; 18:16 «وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا»
+  - missing: A dictionary account showing whether the anatomical name الْمَرَافِقِ carries the root’s sense of facility, and evidence that this root echo matters in context, would decide the proposed association.
+- **R-22:20** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus wipes heads as part of prayer preparation; in the adjacent punishment scene, boiling water is poured above heads. This offers a possible contrast between gentle ritual contact and punitive liquid contact.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»; 22:19 «يُصَبُّ مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ»
+  - missing: The focus does not say water is used on the head, and the punishment passage does not refer to prayer; a further textual signal linking these different head scenes would establish the contrast as a deliberate relation.
+- **R-23:104** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus commands washing faces before prayer, whereas 23:104 depicts faces scorched by fire. Their opposed treatment of the same bodily surface may frame ritual preparation against final ruin.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 23:104 «تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَٰلِحُونَ»
+  - missing: The shared face term establishes the bodily contrast, but a Quranic cue linking ablution or prayer to this judgment scene would be needed to show that the contrast is intended.
+- **R-25:34** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus commands washing faces before prayer; 25:34 depicts people gathered upon their faces toward Hell. This gives a possible bodily-orientation contrast between a face prepared for worship and one carried toward punishment.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 25:34 «ٱلَّذِينَ يُحْشَرُونَ عَلَىٰ وُجُوهِهِمْ إِلَىٰ جَهَنَّمَ»
+  - missing: The face wording supports the contrast, but a text connecting washing for prayer with the manner of resurrection would be needed to establish that the passages intentionally answer one another.
+- **related_6.X1** [open; support medium, relevance high] 
+  - finding: Across the focus and three judgment scenes, the face appears in distinct conditions: washed for prayer, submitted before God, scorched by fire, and carried toward Hell. This recurring bodily surface could make the focus’s face-washing command resonate with the face’s later posture and fate.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 20:111 «وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ»; 23:104 «تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ»; 25:34 «يُحْشَرُونَ عَلَىٰ وُجُوهِهِمْ إِلَىٰ جَهَنَّمَ»
+  - missing: These are separate scenes, and the repeated face term does not itself connect ritual washing to an eschatological outcome; a direct Quranic cue linking prayer preparation with these final states would decide the proposed chain.
+- **R-27:55** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus’s لَٰمَسْتُمُ ٱلنِّسَآءَ may be heard beside a passage that explicitly frames men’s approach to women in terms of sexual desire and then describes Lot’s household as people who purify themselves. This scene may bear on the range of contact and purification in 5:6.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ»; 27:55 «أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةًۭ مِّن دُونِ ٱلنِّسَآءِ»; 27:56 «إِنَّهُمْ أُنَاسٌۭ يَتَطَهَّرُونَ»
+  - missing: This scene supplies a sexual setting and a purity term, but not a direct parallel for لامستم. Quranic usage or a dictionary sense showing whether لمس النساء can denote intercourse rather than ordinary contact could decide how much it bears on the focus.
+- **related_7.X4** [open; support medium, relevance high] 
+  - finding: The verse immediately before the focus discusses lawful marriage and women, then 5:6 names لَٰمَسْتُمُ ٱلنِّسَآءَ as a condition in a purification rule. Their proximity could activate a sexual sense of لمس in the focus.
+  - evidence: 5:5 «وَٱلْمُحْصَنَٰتُ مِنَ ٱلْمُؤْمِنَٰتِ وَٱلْمُحْصَنَٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخْدَانٍۢ»; 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ»
+  - missing: The adjacency supplies a marriage and sexual-morality setting but does not decide the lexical sense of لامستم. A dictionary sense or Quranic usage parallel connecting this form to intercourse rather than ordinary contact could resolve the reading.
+- **R-56:79** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus says God wills to purify the believers; 56:79 says only the purified touch the protected scripture. Their shared purity language and contact setting invite asking whether ritual purification bears on touching scripture.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 56:79 «لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ»
+  - missing: 56:79 does not identify who the purified are or specify the ritual state required for contact. A passage or lexical and interpretive evidence identifying its agents and the relevant purification could establish the link.
+- **R-74:5** [open; support medium, relevance high] inter-ayah target
+  - finding: In 74:4-5, garment purification is followed by abandoning al-rujz; beside 5:6, this may pair bodily or external purification with a wider purity boundary.
+  - evidence: 5:6 «لِيُطَهِّرَكُمْ»; 74:4 «وَثِيَابَكَ فَطَهِّرْ»; 74:5 «وَٱلرُّجْزَ فَٱهْجُرْ»
+  - missing: 74:5 does not define al-rujz or connect it to ritual impurity. A dictionary sense or another Quranic use that clarifies its referent could establish whether the sequence develops a purity contrast.
+- **R-74:17** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus selects ṣaʿīdan for tayammum, while 74:17 threatens a person with ṣaʿūdan. Their shared ص-ع-د root may set an accessible earth surface against a burdensome ascent.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 74:17 «سَأُرْهِقُهُۥ صَعُودًا»
+  - missing: The forms occur in different scenes, and the verses alone do not establish a shared image. A dictionary account of both forms and their relation could decide whether this contrast is more than a root echo.
+- **R-80:14** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus says God wills to purify the believers; 80:14 calls the exalted pages muṭahhara. This may connect the worshipper's ritual purity with a Quranic purity boundary around revelation.
+  - evidence: 5:6 «لِيُطَهِّرَكُمْ»; 80:14 «مَّرْفُوعَةٍۢ مُّطَهَّرَةٍۭ»
+  - missing: 80:14 describes the pages, not a person's ritual state, and gives no handling rule. A passage explicitly linking ritual purification to contact with scripture could establish the proposed boundary.
+- **related_8.X3** [open; support medium, relevance high] 
+  - finding: The marriage permissions in 5:5 immediately precede the focus's mention of lāmastum al-nisāʾ as a purification trigger. This sequence may favor an intimate or sexual sense of the contact expression.
+  - evidence: 5:5 «إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَٰفِحِينَ»; 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ»
+  - missing: The adjacency and mention of women do not decide the sense of lāmastum. A dictionary entry or Quranic parallel using the same construction with women could establish whether it denotes touch generally or intimate contact here.
+- **R-87:11** [open; support medium, relevance high] inter-ayah target
+  - finding: The root j-n-b links the junub state in 5:6 with the avoidance verb in 87:11, potentially placing ritual distance beside eschatological avoidance.
+  - evidence: 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 87:11 «وَيَتَجَنَّبُهَا ٱلْأَشْقَى»
+  - missing: A dictionary account of junub as distance or being aside, plus further Quranic uses that connect this state with avoidance, could establish whether the shared root shapes the comparison; these excerpts alone do not equate ritual impurity with moral avoidance.
+- **R-f-جيء-رجل-رود** [open; support medium, relevance high] formula family (ج ي ء + ر ج ل + ر و د; 1 ayat: 34:43)
+  - finding: 34:43 attributes to a man the intention of diverting people from their inherited worship, while 5:6 states God’s intent in giving a ritual rule; the pairing could contrast alleged and declared religious purpose.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 34:43 «قَالُوا۟ مَا هَٰذَآ إِلَّا رَجُلٌۭ يُرِيدُ أَن يَصُدَّكُمْ عَمَّا كَانَ يَعْبُدُ ءَابَاؤُكُمْ»
+  - missing: A passage tying an accusation of diversion to this or another ritual law could establish the comparison as a purposeful Quranic contrast; these verses alone do not connect the accusers or scenes.
+- **R-f-رود-صعد-طيب** [open; support medium, relevance high] formula family (ر و د + ص ع د + ط ي ب; 1 ayat: 35:10)
+  - finding: The focus’s صَعِيدًا طَيِّبًا and 35:10’s الكلم الطيب that يصعد share the ṣ-ʿ-d and ṭ-y-b roots, inviting a possible association between the earth medium and what rises to God.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 35:10 «إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ»
+  - missing: A dictionary account of صعيد’s relation to the root meaning ascent, or another Quranic use that places earth and ascent together, could establish whether this is a meaningful wordplay rather than shared root pattern alone.
+- **R-f-ءحد-جيء** [open; support medium, relevance high] formula family (ء ح د + ج ي ء; 4 ayat: 6:61, 23:99, 28:25, 35:42)
+  - finding: The formula of one person to whom an event comes recurs with death in 6:61, beside 5:6’s one of you coming from the privy; the contrast could place ordinary bodily maintenance beside mortality.
+  - evidence: 5:6 «أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ»; 6:61 «حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ»
+  - missing: A passage linking purification, prayer, and death or resurrection could establish whether the parallel is more than a shared arrival formula; these excerpts do not mark a mortality theme in the focus.
+- **R-f-جنب-نعم** [open; support weak, relevance high] formula family (ج ن ب + ن ع م; 2 ayat: 17:83, 22:30)
+  - finding: The root appears in the focus as جُنُبًا, in 17:83 as a person's جانب, and in 22:30 as an instruction to avoid idols. These uses may connect ritual distance with turning aside or avoidance.
+  - evidence: 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»; 17:83 «وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ»; 22:30 «فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَٰنِ»
+  - missing: These are distinct forms and contexts; dictionary evidence connecting the ritual state جُنُب to side, distance, or avoidance is needed before reading that semantic field into 5:6.
+- **R-f-ءحد-جنب** [open; support weak, relevance high] formula family (ء ح د + ج ن ب; 1 ayat: 49:12)
+  - finding: 49:12 uses اجْتَنِبُوا۟ for avoiding suspicion and asks أَحَدُكُمْ about the repellent act of backbiting; 5:6 uses جُنُبًا for a state requiring purification. The shared root may bring social avoidance and ritual impurity into view together.
+  - evidence: 49:12 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱجْتَنِبُوا۟ كَثِيرًۭا مِّنَ ٱلظَّنِّ»; 49:12 «أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًۭا»; 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»
+  - missing: اجتنبوا and جُنُبًا are distinct forms and may not carry the same sense; lexical evidence for their semantic relation and a Quranic link between social and ritual purity are needed.
+- **R-f-جعل-جنب** [open; support weak, relevance high] formula family (ج ع ل + ج ن ب; 1 ayat: 14:35)
+  - finding: Ibrahim asks God to keep him and his sons away from idol worship; 5:6 commands purification from the state جُنُب. The common root may connect bodily separation to avoidance of forbidden worship.
+  - evidence: 14:35 «وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ»; 5:6 «وَإِن كُنتُمْ جُنُبًۭا فَٱطَّهَّرُوا۟»
+  - missing: The forms and contexts differ; a dictionary sense linking جُنُبًا to separation or avoidance, or an ayah joining ritual purification with avoiding idolatry, could support the proposed echo.
+- **R-f-جعل-يمم** [open; support weak, relevance high] formula family (ج ع ل + ي م م; 1 ayat: 28:7)
+  - finding: The root pairing brings al-yamm, into which Moses is cast, beside tayammum, the directed turn to clean earth when water is unavailable. These distinct words may set water and earth within scenes of vulnerable people entrusted to divine care.
+  - evidence: 28:7 «فَأَلْقِيهِ فِى ٱلْيَمِّ»; 28:7 «إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - missing: The shared root does not establish a shared meaning between al-yamm and tayammum; a dictionary account of the root and a textual link between the two scenes could decide whether this is more than a formal echo.
+- **R-5:13** [open; support weak, relevance high] inter-ayah target
+  - finding: A chain across 5:6–13 could place the purification instruction and its promise of favor beside the believers' covenant in 5:7, the earlier covenant's prayer duty in 5:12, and the account of covenant breach in 5:13. That sequence could give ritual observance historical covenant stakes.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 5:7 «وَمِيثَٰقَهُ ٱلَّذِى وَاثَقَكُم بِهِۦٓ إِذْ قُلْتُمْ سَمِعْنَا وَأَطَعْنَا»; 5:12 «لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ وَءَاتَيْتُمُ ٱلزَّكَوٰةَ»; 5:13 «فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةًۭ»
+  - missing: 5:13 does not say that prayer or purification was among the obligations forgotten or breached. A passage explicitly connecting purification to covenant fulfillment would decide whether this chain bears on 5:6.
+- **R-12:30** [open; support weak, relevance high] inter-ayah target
+  - finding: 12:30 depicts a woman’s erotic pursuit, while 5:6 uses لَامَسْتُمُ ٱلنِّسَاءَ as a condition in the purification passage. The scene may be relevant to the sexual range of that expression, but it describes desire rather than actual touch.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 12:30 «ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ»
+  - missing: 12:30 has no لمس wording or completed contact. A Qur’anic occurrence of لامس in an explicitly sexual scene, or a dictionary sense that clarifies the verb’s range, could decide whether this parallel informs the focus’s expression.
+- **R-16:65** [open; support weak, relevance high] inter-ayah target
+  - finding: 16:65 pairs water from the sky with the earth’s revival; 5:6 uses clean earth for purification when water cannot be found. This could make the earth substitute resonate with renewal rather than mere lack.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»; 16:65 «أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ»
+  - missing: 16:65 does not mention purification or tayammum, and 5:6 does not describe earth as reviving. Another passage linking ritual earth with life or renewal, or a lexical sense that connects ṣaʿīd ṭayyib to this scene, could establish the proposed resonance.
+- **R-20:111** [open; support weak, relevance high] inter-ayah target
+  - finding: The focus commands washing وجوهكم before prayer; 20:111 says وجوه submit before the Ever-Living. The shared face and orientation toward God invite a possible link between ritual preparation and final submission.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 20:111 «وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ»
+  - missing: A textual cue connecting washing the face for prayer with its final submission, or another passage that supplies that bridge, is needed to establish more than the shared body part and divine setting.
+- **R-24:31** [open; support weak, relevance high] inter-ayah target
+  - finding: The focus names أَرْجُلَكُمْ in purification and النساء as a contact trigger; 24:31 names women’s feet in a rule against stamping them to reveal adornment. The repeated feet and women terms raise a possible link between ritual bodily boundaries and gendered visibility.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 5:6 «وَأَرْجُلَكُمْ»; 24:31 «وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ»
+  - missing: A passage or lexical cue connecting the focus’s feet and contact condition to the women’s display rule could establish a deliberate relation; the shared body terms alone do not do so.
+- **R-76:9** [open; support weak, relevance high] inter-ayah target
+  - finding: The focus names faces as surfaces to wash or wipe; 76:9 uses wajh in the devotional expression “for God's face.” The shared word may connect bodily orientation in prayer with action directed toward God.
+  - evidence: 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ»; 76:9 «لِوَجْهِ ٱللَّهِ»
+  - missing: The verses do not themselves link face washing with the idiom li-wajh Allah. A Quranic passage joining the bodily face to this devotional expression, or lexical evidence for a shared conceptual use, could establish the connection.
+- **R-80:15** [open; support weak, relevance high] inter-ayah target
+  - finding: 80:14 calls the pages purified and 80:15 places them in the hands of scribes; the focus purifies believers and names their hands. These details may form a chain between bodily preparation and handling revelation.
+  - evidence: 5:6 «وَأَيْدِيكُمْ»; 80:14 «مَّرْفُوعَةٍۢ مُّطَهَّرَةٍۭ»; 80:15 «بِأَيْدِى سَفَرَةٍۢ»
+  - missing: The passage does not explicitly state that these hands touch the pages or require the purification in 5:6. An explicit contact statement or a related verse specifying such a rule could decide the link.
+- **R-2:52** [reading; support strong, relevance medium] inter-ayah target
+  - finding: After pardon for a grave breach, 2:52 repeats the focus’s hope for gratitude; both make gratitude a response to divine mercy, here pardon in one passage and ritual accommodation in the other.
+  - evidence: 2:52 «ثُمَّ عَفَوْنَا عَنكُم مِّنۢ بَعْدِ ذَٰلِكَ لَعَلَّكُمْ تَشْكُرُونَ»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The closing formula لَعَلَّكُمْ تَشْكُرُونَ is identical.
+  - limits: The benefit and its historical setting differ; the shared formula does not equate pardon with purification.
+- **R-3:123** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus and 3:123 both end a statement of divine benefit with لَعَلَّكُمْ تَشْكُرُونَ. In 3:123 the occasion is victory at Badr; the repeated ending frames gratitude as a response to divine provision across distinct circumstances.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 3:123 «وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍۢ وَأَنتُمْ أَذِلَّةٌۭ ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The focus names completion of favor immediately before the same gratitude formula that follows aid at Badr.
+  - limits: The shared ending does not make ritual purity and military aid equivalent benefits.
+- **R-5:4** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus calls the selected earth surface ṭayyib, while 5:4 calls permitted provisions al-ṭayyibāt. Across this legal sequence, the same root marks fitness for embodied use in both consumption and purification.
+  - evidence: 5:4 «قُلْ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - activation: The shared ṭ-y-b wording occurs in adjacent legal material, and 5:6 applies it to the substitute purification medium.
+  - limits: The shared root does not establish that the permitted provisions in 5:4 include earth or that both passages use the adjective in precisely the same sense.
+- **R-5:88** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The same adjective, طَيِّبًا, qualifies both the earth chosen for tayammum and lawful provision. This places the ritual medium within the Quran’s broader vocabulary of beneficial, acceptable provision.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:88 «وَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا»
+  - activation: The focus specifies a quality for the substitute medium, then describes purification and completion of favor as divine intent.
+  - limits: The shared adjective does not establish that طَيِّبًا has precisely the same sense for earth and food.
+- **R-5:100** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus requires طَيِّبًا for the earth used in purification; 5:100 places الطَّيِّبُ on an axis explicitly opposed to الخَبِيثُ. This lets the selected medium sound like a quality-bearing choice, not simply any available ground.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:100 «قُل لَّا يَسْتَوِى ٱلْخَبِيثُ وَٱلطَّيِّبُ»
+  - activation: The focus itself qualifies the substitute earth with طَيِّبًا, the same term used in the contrast.
+  - limits: 5:100 does not define what makes earth suitable for tayammum or identify a khabīth counterpart in this rite.
+- **R-7:124** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus names hands and feet as limbs to be washed or wiped; 7:124 threatens those same paired limbs with cutting. In this surah’s legal language, 5:33 also prescribes cutting hands and feet for a different offense. The repeated body-part pairing sets ritual care alongside punitive force.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ»; 7:124 «لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍۢ»; 5:33 «أَوْ تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُم مِّنْ خِلَٰفٍ»
+  - activation: The exact hands-and-feet pairing recurs in a threat and a legal penalty, but the focus applies it to purification.
+  - limits: The passages do not explicitly cross-reference one another; their commands arise from different circumstances and have different outcomes.
+- **R-7:137** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus describes Allah’s purpose as completing His favor upon the community; 7:137 says the Lord’s good word was completed upon the Israelites because they endured. This echoes a Quranic pattern in which divine completion marks favor fulfilled for a community.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 7:137 «وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟»
+  - activation: Both passages use the root ت م م for divine completion upon a community; 7:137 explicitly qualifies what is completed as good.
+  - limits: The completed good word and the favor connected with purification are not identified as the same event or promise.
+- **R-11:119** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The root ت م م does not itself signal a favorable outcome: in 11:119 it describes completion of a decree to fill Hell, while 5:6 specifies that what God completes is His favor.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 11:119 «وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ»
+  - activation: The shared completion root invites a contrast, while the focus’s object نعمتَه supplies its positive direction.
+  - limits: The verses concern different outcomes and do not imply that the completion in 5:6 has the same setting or referent as the decree in 11:119.
+- **R-18:40** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The same noun صَعِيدًا appears with opposing descriptions: طَيِّبًا is the selected medium in 5:6, whereas زَلَقًا describes a garden reduced to ground in 18:40. The contrast makes the adjective central to whether ground is a usable ritual medium or a sign of loss.
+  - evidence: 5:6 «صَعِيدًۭا طَيِّبًۭا»; 18:40 «فَتُصْبِحَ صَعِيدًۭا زَلَقًا»
+  - activation: The focus names the substitute material and qualifies it as طَيِّبًا.
+  - limits: The garden’s destruction does not define the legal conditions for selecting صَعِيدًا in 5:6.
+- **R-22:36** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus ends by linking completion of divine favor to hoped-for gratitude; 22:36 uses the same closing formula after describing sacrificial provision. The formula places ritual accommodation alongside another regulated gift as a ground for thanks.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 22:36 «كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ»
+  - activation: The identical لَعَلَّكُمْ تَشْكُرُونَ ending joins the focus’s purification benefit to the sacrifice passage’s provision.
+  - limits: The shared formula does not make the rites or their benefits identical.
+- **R-23:78** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus closes with the hope that believers will give thanks for divine favor; 23:78 rebukes people for giving little thanks for hearing, sight, and hearts. Their opposing formulations make the focus’s purification and completed favor another occasion for gratitude among God’s gifts.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 23:78 «وَهُوَ ٱلَّذِىٓ أَنشَأَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًۭا مَّا تَشْكُرُونَ»
+  - activation: Both passages use the root ش ك ر, with the focus inviting thanks and 23:78 lamenting its scarcity.
+  - limits: 23:78 lists created faculties and does not mention ritual purification.
+- **R-33:38** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The phrase حَرَجٍۢ is used again for what God has prescribed, here for the Prophet. This gives the focus’s no-constriction statement a nearby Quranic legal usage while showing that its scope must be read with each ruling.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 33:38 «مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍۢ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ»
+  - activation: The same hardship term appears in a statement about divinely prescribed matters.
+  - limits: 33:38 concerns the Prophet and a distinct ruling; it does not describe a general alternative for believers.
+- **R-34:15** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus calls the selected earth طَيِّبًا; 34:15 describes a fertile land as طَيِّبَةٌ and places it beside provision and a command to give thanks. The shared adjective links the rite’s medium with Quranic language for a good and sustaining place.
+  - evidence: 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 34:15 «كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌۭ طَيِّبَةٌۭ»
+  - activation: The exact adjective طيب describes both the selected surface and the land associated with provision and gratitude.
+  - limits: The shared adjective does not make the two substances identical or say that the soil itself performs purification.
+- **R-39:73** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus calls the chosen surface طَيِّبًا; at the garden’s entrance, its keepers say طِبْتُمْ. This shared root lets the material quality named for the purification medium sit alongside Quranic language of goodness or purity associated with the saved.
+  - evidence: 5:6 «صَعِيدًۭا طَيِّبًۭا»; 39:73 «سَلَٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَٰلِدِينَ»
+  - activation: The rare root ط ي ب links the medium in the focus to the welcome at the garden’s gate.
+  - limits: The greeting does not say that the rite confers entry or that طيب has an identical sense in both verses.
+- **R-42:23** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The focus asks people to give thanks; 42:23 calls God شَكُور after describing an increase in the good earned by a person. The shared root sets human gratitude alongside God’s responsive rewarding.
+  - evidence: 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 42:23 «وَمَن يَقْتَرِفْ حَسَنَةًۭ نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌۭ شَكُورٌ»
+  - activation: The same root ش ك ر describes the human response in 5:6 and a divine attribute in 42:23.
+  - limits: 42:23 does not mention purification or say that gratitude is a payment for the rite.
+- **R-18:73** [reading; support medium, relevance medium] inter-ayah target
+  - finding: Musa asks not to be burdened with عُسْرًا in his affair; 5:6 says God does not intend to place حَرَج on the believers while giving purification rules and concessions. Together they place a personal plea for manageable demands beside a divine statement about religious accommodation.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 18:73 «لَا تُؤَاخِذْنِى بِمَا نَسِيتُ وَلَا تُرْهِقْنِى مِنْ أَمْرِى عُسْرًۭا»
+  - activation: Both verses explicitly address the imposition of difficulty, though with different words and speakers.
+  - limits: 18:73 is a request between companions, not a legal ruling, and does not establish that the two passages refer to the same hardship.
+- **R-20:26** [reading; support medium, relevance medium] inter-ayah target
+  - finding: Musa asks God to make his task easy, while 5:6 frames ritual requirements with God’s denial of hardship and provides an alternate purification when water is unavailable. The request for ease offers a personal counterpart to that accommodation.
+  - evidence: 5:6 «مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍۢ»; 20:26 «وَيَسِّرْ لِىٓ أَمْرِى»
+  - activation: The focus’s explicit no-hardship rationale activates Musa’s prayer for ease.
+  - limits: Musa’s request concerns his mission and uses a different expression; it does not identify the purification rules as its subject.
+- **R-70:23** [reading; support medium, relevance medium] inter-ayah target
+  - finding: 70:23 describes believers as constant in prayer; the focus supplies an embodied threshold for approaching that recurring devotion. Its conditional phrasing places purification within the practice of prayer rather than apart from it.
+  - evidence: 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ»; 70:23 «ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ»
+  - activation: The focus attaches purification to rising for prayer, while 70:23 emphasizes constancy in prayer.
+  - limits: 70:23 does not say how often purification is required or name ablution.
+- **R-2:168** [open; support medium, relevance medium] inter-ayah target
+  - finding: 2:168 describes things from the earth as طَيِّبًا, while 5:6 calls the selected earth surface صَعِيدًا طَيِّبًا; the shared adjective may place tayammum’s medium within a broader Quranic field of good things from earth.
+  - evidence: 2:168 «كُلُوا۟ مِمَّا فِى ٱلْأَرْضِ حَلَٰلًۭا طَيِّبًۭا»; 5:6 «فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - missing: A dictionary sense or another Quranic use connecting طَيِّبًا for edible provision with a clean ritual surface could clarify whether the shared goodness term carries more than a common quality word here.
+- **R-f-جيء-نعم** [open; support medium, relevance medium] formula family (ج ي ء + ن ع م; 3 ayat: 2:211, 5:110, 33:9)
+  - finding: The address to believers and the phrase نعمة الله عليكم in 33:9 resemble 5:6's promise to complete His favor upon the community; this could frame purification as a communal favor amid vulnerability.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ»; 33:9 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَآءَتْكُمْ جُنُودٌۭ»
+  - missing: The armies and deliverance in 33:9 do not explain the ritual concession in 5:6; a passage connecting purification with protection or communal rescue could establish the proposed favor pattern.
+- **R-f-صلو-يدي** [open; support medium, relevance medium] formula family (ص ل و + ي د ي; 3 ayat: 4:77, 6:92, 58:13)
+  - finding: 4:77 commands people to hold back their hands and establish prayer; 5:6 has hands washed as one rises to prayer. Together they may present the hands as agency disciplined around worship.
+  - evidence: 4:77 «كُفُّوٓا۟ أَيْدِيَكُمْ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ»; 5:6 «إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ»
+  - missing: The two commands occur in different circumstances; a passage linking restraint from violence with ablution or prayer preparation could establish a shared account of disciplined hands.
+- **R-f-نسو-نعم** [open; support medium, relevance medium] formula family (ن س و + ن ع م; 3 ayat: 2:231, 3:14, 14:6)
+  - finding: 2:231 places women’s divorce regulation beside a command to remember God's favor, while 5:6 names contact with women among the conditions for purification. This may connect bodily and family law with divine beneficence.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ»; 2:231 «وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَٰبِ وَٱلْحِكْمَةِ»
+  - missing: The favor reminder in 2:231 concerns divorce law and revelation, not ritual purification; a passage explicitly joining marital relations, purity, and favor could show whether the link is more than a recurring legal frame.
+- **R-f-جعل-رءس** [open; support medium, relevance medium] formula family (ج ع ل + ر ء س; 2 ayat: 7:150, 48:27)
+  - finding: 5:6 wipes the head before prayer, while 48:27 describes heads being shaved or shortened in the promised entry to the Sacred Mosque. The shared head-related ritual may place prayer preparation beside pilgrimage practice.
+  - evidence: 5:6 «وَٱمْسَحُوا۟ بِرُءُوسِكُمْ»; 48:27 «مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ»
+  - missing: The rites and actions differ; another passage connecting head wiping in prayer with pilgrimage grooming could establish a broader ritual sequence.
+- **R-f-جيء-وجه** [open; support medium, relevance medium] formula family (ج ي ء + و ج ه; 2 ayat: 12:96, 27:90)
+  - finding: 12:96 links someone's arrival to a face being touched and sight returning; 5:6 links bodily conditions and arrival language to washing the face. This may make the face a site where an event is answered physically.
+  - evidence: 12:96 «فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا»; 5:6 «أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ»; 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»
+  - missing: The face's restoration in 12:96 is not a purification rite; a passage linking bodily arrival, face washing, and recovery could establish the proposed relation.
+- **R-f-صلو-وجد** [open; support medium, relevance medium] formula family (ص ل و + و ج د; 2 ayat: 2:110, 9:5)
+  - finding: 2:110 joins establishing prayer with the assurance that good sent ahead will be found with God. Against the focus's failure to find water before prayer, this may contrast a missing ritual medium with a lasting moral return.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 2:110 «وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ»
+  - missing: 2:110 does not mention water or tayammum; an ayah explicitly identifying the substitute rite as good sent ahead could establish this contrast.
+- **R-f-تمم-يدي** [open; support medium, relevance medium] formula family (ت م م + ي د ي; 1 ayat: 66:8)
+  - finding: In 66:8 believers ask God to complete their light, whereas 5:6 says He completes His favor. The completion language may connect present ritual favor with an eschatological hope; بَيْنَ أَيْدِيهِمْ there is an idiom for what lies ahead, not a clear reference to washed hands.
+  - evidence: 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 66:8 «يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا»
+  - missing: A Quranic passage linking the purification rite or its favor to the believers' eschatological light could establish this trajectory; the hands in 66:8 do not supply that link by themselves.
+- **R-f-جعل-وجد** [open; support medium, relevance medium] formula family (ج ع ل + و ج د; 1 ayat: 18:90)
+  - finding: 18:90 describes people found without a covering from the sun; 5:6 describes believers who cannot find water and are given an alternative medium. Both put human exposure beside what God has made available.
+  - evidence: 18:90 «وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا»; 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»
+  - missing: 18:90 gives no substitute for the absent shelter, while 5:6 does give a substitute for water; a passage connecting environmental exposure with ritual concessions could establish a deliberate contrast.
+- **R-f-شكر-يدي** [open; support medium, relevance medium] formula family (ش ك ر + ي د ي; 1 ayat: 36:35)
+  - finding: 36:35 names what human hands have made and asks whether people will be grateful; 5:6 names hands as objects of washing before ending with gratitude. This may connect cleansed hands with the agency through which people receive or produce benefits.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «لَعَلَّكُمْ تَشْكُرُونَ»; 36:35 «وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ»
+  - missing: 5:6 does not mention what the hands do, and 36:35 does not mention purification; a passage connecting ritual washing to grateful action could establish this relation.
+- **R-5:97** [open; support medium, relevance medium] inter-ayah target
+  - finding: The focus ends the foot-washing boundary at ٱلْكَعْبَيْنِ; this passage names ٱلْكَعْبَةَ as a sanctuary made a support for people. Their shared ك ع ب consonants may connect bodily boundary and sacred center within the surah’s ritual law.
+  - evidence: 5:6 «إِلَى ٱلْكَعْبَيْنِ»; 5:97 «جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ قِيَٰمًۭا لِّلنَّاسِ»
+  - missing: A lexical account of the relation between the two ك ع ب forms, or a clearer structural link between the washing rule and the sanctuary passage, would establish whether this is more than a shared root.
+- **R-33:66** [open; support medium, relevance medium] inter-ayah target
+  - finding: The focus repeatedly names faces as surfaces to wash or wipe; 33:66 presents faces as a visible sign in the afterlife. The shared body-part vocabulary may connect ritual preparation with later bodily outcome.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ»; 33:66 «يَوْمَ تُقَلَّبُ وُجُوهُهُمْ فِى ٱلنَّارِ»
+  - missing: The verses share the face as a bodily site but do not link washing to judgment. Another Quranic passage explicitly connecting ritual purification with eschatological faces could establish the relationship.
+- **R-39:60** [open; support medium, relevance medium] inter-ayah target
+  - finding: The focus makes the face a repeated surface of ritual washing or wiping; 39:60 makes faces a visible sign at judgment. The shared image could add an eschatological dimension to bodily preparation.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ»; 39:60 «تَرَى ٱلَّذِينَ كَذَبُوا۟ عَلَى ٱللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ»
+  - missing: The verses share face imagery but do not connect washing with the judgment sign. A Quranic passage that explicitly links ritual face-purification to the fate or appearance of faces at judgment could supply that bridge.
+- **R-f-رفق-نعم** [open; support weak, relevance medium] formula family (ر ف ق + ن ع م; 1 ayat: 4:69)
+  - finding: 5:6 names the elbows as مَرَافِق and frames its ruling with ease and favor; 4:69 calls the companions of the favored رَفِيقًا. A root-level sense of support or aid might connect bodily joints with facilitation.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «مِّنْ حَرَجٍۢ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ»; 4:69 «وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًۭا»
+  - missing: The shared root alone does not show that مَرَافِق evokes support or ease here; an attested dictionary sense connecting the elbow term to aid, and evidence that this sense is active in 5:6, are needed.
+- **R-f-موه-نعم** [open; support weak, relevance medium] formula family (م و ه + ن ع م; 1 ayat: 32:27)
+  - finding: The water in 32:27 reaches dead land and produces food for livestock and people; in 5:6, missing water leads to earth-based purification, which the ayah calls a completion of divine favor. The shared root ن ع م appears as أَنْعَام in one scene and نِعْمَة in the other, suggesting a possible relation between material sustenance and ritual provision.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 32:27 «نَسُوقُ ٱلْمَآءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِۦ زَرْعًۭا تَأْكُلُ مِنْهُ أَنْعَٰمُهُمْ وَأَنفُسُهُمْ»
+  - missing: The shared root does not make أَنْعَام (livestock) the same word or sense as نِعْمَة (favor). A clearer Quranic passage linking ritual purification to the life-giving water and provision shown in 32:27 could establish the proposed connection.
+- **R-f-موه-يدي** [open; support weak, relevance medium] formula family (م و ه + ي د ي; 1 ayat: 7:57)
+  - finding: In 7:57, rain is sent before divine mercy and water revives dead land. In 5:6, when water is unavailable, worshippers wipe their faces and hands with earth before the ayah names purification and favor. This suggests a possible scale shift from rain that revives land to earth that sustains ritual practice.
+  - evidence: 7:57 «بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًۭا ثِقَالًۭا سُقْنَٰهُ لِبَلَدٍۢ مَّيِّتٍۢ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ»; 5:6 «فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ»
+  - missing: بَيْنَ يَدَىْ in 7:57 is an idiom meaning before, not a reference to worshippers' hands. A passage explicitly joining tayammum or hands to rainfall or its provision, or a clearer verbal echo, could establish whether these scenes are connected.
+- **R-f-نعم-يدي** [open; support weak, relevance medium] formula family (ن ع م + ي د ي; 1 ayat: 36:71)
+  - finding: The focus pairs human أَيْدِيكُمْ with the completion of divine نِعْمَة; 36:71 pairs أَيْدِينَا with the creation of أَنْعَام. This may place human bodily service beside divine provision, with hands marking different sides of that relation.
+  - evidence: 5:6 «وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ»; 5:6 «وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ»; 36:71 «مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَٰمًۭا»
+  - missing: أَنْعَام refers to livestock, not favor as in نِعْمَة, and the hand expressions have different roles. A passage explicitly linking bodily purification with divine provision, or a shared scene using these lexemes together, could supply the bridge.
+- **R-3:72** [open; support weak, relevance medium] inter-ayah target
+  - finding: The focus names bodily faces with وُجُوهَكُمْ, while 3:72 uses وَجْهَ ٱلنَّهَارِ. A possible link through “face” as a front or outward aspect could put facial washing beside a public display of belief, but that link is not established by these verses alone.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 3:72 «وَجْهَ ٱلنَّهَارِ»
+  - missing: Lexical evidence for the sense of وَجْهَ ٱلنَّهَارِ and a contextual reason to connect that public strategy with the focus’s ritual washing could establish whether the shared word adds anything beyond root resemblance.
+- **R-5:73** [open; support weak, relevance medium] inter-ayah target
+  - finding: 5:73 describes punishment as reaching the disbelievers with لَيَمَسَّنَّ, a touch verb from the root م س س; 5:6 uses لَٰمَسْتُمُ from the distinct root ل م س. The similar contact language could offer a comparison for how bodily contact becomes an image of consequence, but its bearing on the focus phrase is unclear.
+  - evidence: 5:6 «أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ»; 5:73 «لَيَمَسَّنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ»
+  - missing: The verses use different roots and forms. Broader Quranic usage and dictionary evidence distinguishing ل م س from م س س could show whether the semantic comparison helps interpret the focus's contact phrase.
+- **R-19:13** [open; support weak, relevance medium] inter-ayah target
+  - finding: Yahya is described with زَكَوٰةًۭ, while 5:6 says God intends لِيُطَهِّرَكُمْ. The two passages may place ritual purification within a wider Quranic vocabulary of purity, but the different roots and contexts leave the relation uncertain.
+  - evidence: 5:6 «وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ»; 19:13 «وَحَنَانًۭا مِّن لَّدُنَّا وَزَكَوٰةًۭ»
+  - missing: A lexical account of زَكَوٰةًۭ here and a Quranic bridge between this sense and طَهَّرَكُمْ could show whether the pairing is more than a shared purity theme.
+- **R-54:28** [open; support weak, relevance medium] inter-ayah target
+  - finding: The divided water supply in 54:28 may make the focus's inability to find water resonate with water access as a shared constraint.
+  - evidence: 5:6 «فَلَمْ تَجِدُوا۟ مَآءًۭ»; 54:28 «أَنَّ ٱلْمَآءَ قِسْمَةٌۢ بَيْنَهُمْ ۖ كُلُّ شِرْبٍۢ مُّحْتَضَرٌۭ»
+  - missing: 54:28 does not say water is scarce or hard to find. A passage linking divided or inaccessible water to tayammum would establish whether the focus's condition includes this kind of access problem.
+- **R-69:36** [open; support weak, relevance medium] inter-ayah target
+  - finding: The washing command in the focus and the noun ghislin in 69:36 share the غ-س-ل root; the latter appears as the only food of a punished person. The root may set cleansing beside a grim substance associated with washing.
+  - evidence: 5:6 «فَٱغْسِلُوا۟ وُجُوهَكُمْ»; 69:36 «وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ»
+  - missing: The passage calls ghislin food but does not define its relation to washing. A dictionary entry establishing the noun's derivation and sense would decide whether the shared root carries a meaningful contrast.
+- **R-78:33** [open; support weak, relevance medium] inter-ayah target
+  - finding: The focus names the ankle limit as al-kaʿbayn; 78:33 describes women as kawāʿib. Both forms share the ك-ع-ب root, possibly linking bodily prominence across the verses.
+  - evidence: 5:6 «إِلَى ٱلْكَعْبَيْنِ»; 78:33 «وَكَوَاعِبَ أَتْرَابًۭا»
+  - missing: The scenes give different body references and do not state a shared image. A dictionary account of the root's senses could establish whether the ankle and kawāʿib share a meaningful notion of prominence or projection.
+
+Notes:
+- R-2:56 [support strong, relevance medium] At 2:56, the same gratitude refrain follows Israel’s being raised after death, extending the focus’s formula from deliverance to the care that sustains worship.
+- R-3:15 [support strong, relevance medium] The focus’s يُطَهِّرَكُمْ and 3:15’s مُطَهَّرَةٌ share the ط-ه-ر root in distinct forms: one names a divine aim in a ritual directive, the other a promised state of spouses in the Garden.
+- R-3:42 [support strong, relevance medium] Both verses make God the agent of purification: 3:42 places طَهَّرَكِ between two statements of God choosing Mary, while 5:6 names purification as God’s aim for the addressed community.
+- R-3:55 [support strong, relevance medium] The focus’s ليطهركم and 3:55’s ومطهرك من الذين كفروا share the purification root but apply it to different settings: ritual practice here and Jesus’s separation from disbelievers there.
+- R-4:57 [support strong, relevance medium] 4:57’s أَزْوَاجٌ مُّطَهَّرَةٌ shares its purification root with the focus’s ليطهركم, but describes a promised state in the Garden. In 4:57 this promise follows the contrast between punishment and the believers’ lasting shade.
+- R-4:90 [support strong, relevance medium] Both verses use a negated جعل construction to mark a limit on what may be imposed: 5:6 denies hardship upon the addressees, while 4:90 denies a way against those who withdraw and offer peace.
+- R-6:115 [support strong, relevance medium] The focus uses يُتِمَّ for completing divine favor; 6:115 uses تَمَّتْ for the completion of the Lord’s word, characterized as truth and justice. The root links completion in ritual law to divine completion in revelation, while the objects differ.
+- R-12:9 [support strong, relevance medium] The focus uses وُجُوهَكُمْ for bodily faces to be washed; 12:9 uses the same word in an idiom about securing the father’s regard. The Qur’anic usage allows a relational sense of wajh alongside the focus’s bodily one.
+- R-16:18 [support strong, relevance medium] 16:18 says God’s favor cannot be counted, while 5:6 speaks of completing His favor. The contrast allows this particular favor to sit within a blessing too vast to enumerate.
+- R-30:46 [support strong, relevance medium] Both verses end a sequence of divine provisions or purposes with لَعَلَّكُمْ تَشْكُرُونَ. In 30:46 the sequence includes winds, mercy, ships, and seeking favor; in 5:6 it follows purification and completed favor.
+- R-f-ءحد-جعل-نعم [support strong, relevance medium] Moses’s reminder of God’s favor in 5:20 extends the favor-and-response motif around 5:6 into the surah’s account of Israel’s history.
+- R-f-رود-شكر [support medium, relevance medium] 17:19 describes a believer who wills the afterlife and whose effort is made appreciated; 5:6 instead names God's will and makes gratitude the hoped-for human response. The paired passages give will and gratitude reciprocal directions.
+- R-4:49 [support medium, relevance medium] 4:49 rejects people who يزكون أنفسهم and assigns purification to God; 5:6 likewise makes God the subject of the will to يُطَهِّرَكُمْ. The parallel emphasizes divine agency, though the verbs and concerns differ.
+- R-4:102 [support medium, relevance medium] 4:102 places prayer in a danger scene and allows weapons to be laid down for illness or rain; 5:6 names illness among the conditions for substitute purification. The two passages show practical burdens being accommodated around prayer, though in different ways.
+- R-5:55 [support medium, relevance medium] Later in the surah, establishing prayer and giving zakah characterize the believers named as God's, the Messenger's, and the believers' allies. This supplies a community-identity frame for the focus's practical instruction about prayer.
+- R-5:95 [support medium, relevance medium] Both passages condition a legal response on a circumstance: lack of water leads to tayammum, while deliberate hunting during consecration leads to compensation, including a fasting option. The first is an accommodation; the second answers a violation.
+- R-7:31 [support medium, relevance medium] The focus describes cleansing the body before prayer; 7:31 adds taking one’s adornment at every mosque. Together they present bodily readiness for worship through distinct practices.
+- R-22:77 [support medium, relevance medium] The focus begins from rising to prayer, and 22:77 commands bowing and prostration. The bodily acts in 22:77 give a worship context for the preparation prescribed in 5:6.
+- R-26:80 [support medium, relevance medium] The focus includes illness among the conditions for an adjusted purification practice; Abraham’s words link illness with God’s healing.
+- R-41:51 [support medium, relevance medium] The focus presents gratitude as a hoped-for response to favor; 41:51 describes a contrary human response, turning away when favor is granted.
+- R-46:20 [support medium, relevance medium] 5:6 calls the selected earth ṣaʿīdan ṭayyiban, while 46:20 uses ṭayyibāt for good things enjoyed in worldly life. The shared value-word presents the fallback medium as wholesome, though the two passages use it for different things.
+- R-54:12 [support medium, relevance medium] The focus selects clean earth when water is unavailable; 54:12 depicts water and earth meeting in a flood scene. The material pair echoes across the passages, but serves different purposes.
+- R-61:8 [support medium, relevance medium] 5:6 says God will complete His favor; 61:8 says God is completing His light. The shared completion root presents divine completion as an active process in both passages.
+- R-70:34 [support medium, relevance medium] The focus details bodily preparation before ṣalāt; 70:34 calls believers to preserve ṣalāt. Read together, preparation is one concrete practice within guarding the prayer.
+- R-76:22 [support medium, relevance medium] The focus calls for human gratitude in response to favor; 76:22 says the believers' effort is mashkūr, acknowledged or rewarded. The shared ش-ك-ر root allows a reciprocal pattern of gratitude and recognized effort.
+- R-85:16 [support medium, relevance medium] The focus twice uses yurīdu for God's intent, specifying the purposes of purification and completing favor; 85:16 describes God as active in whatever He wills. The latter places the focus's stated purpose within a wider affirmation of divine agency.
+- R-87:14 [support medium, relevance medium] The bodily purification commanded by 5:6 stands beside the successful self-purification of 87:14, suggesting distinct ritual and ethical registers of purification.
+- R-87:15 [support medium, relevance medium] The sequence of self-purification, remembrance, and prayer in 87:14–15 gives a broader devotional frame to 5:6’s purification before prayer.
+- R-92:18 [support medium, relevance medium] The self-purifying gift in 92:18 offers an ethical counterpart to the focus’s bodily purification and its concluding appeal to gratitude.
+- R-94:2 [support medium, relevance medium] The removal of a burden in 94:2 parallels 5:6’s explicit refusal to place constriction on the addressees.
+- R-94:3 [support medium, relevance medium] The burden removed in 94:2 is described as weight on the back in 94:3; this makes a bodily image of relief available beside the focus’s bodily rules and no-haraj rationale.
+- R-96:10 [support medium, relevance medium] 96:10 places a servant at prayer, while 5:6 describes bodily preparation for approaching prayer; the two verses supply practice and setting rather than the same instruction.
+- R-107:4 [support medium, relevance medium] The warning to people who pray in 107:4–5 puts a limit on reading 5:6 as though bodily preparation alone completes prayerful devotion.
+- R-f-جعل-جيء-رجل [support medium, relevance medium] The blessing-and-remembrance ending of 7:69 parallels the focus’s gratitude ending, though 7:69 names success rather than thanks as the hoped-for response.
+- R-f-جعل-موه-نعم [support medium, relevance medium] The water-and-earth pairing in 10:24 gives the focus’s water-or-earth choice a wider created-world setting: water brings forth vegetation from the earth, while 5:6 selects earth when water cannot be found.
+- R-f-جعل-نعم [support medium, relevance medium] The ritual in 22:34 is assigned to every community so that God’s name is remembered over provision; it places 5:6’s ritual and gratitude ending within a wider Quranic pattern of bodily rites and remembrance.
+- R-f-جعل-موه [support medium, relevance medium] The creation of earth and water as provisions in 2:22 gives a broad created-world backdrop to 5:6’s choice of water when available and clean earth when it is not.
+- R-f-جعل-صلو [support medium, relevance medium] The passages about establishing prayer in 10:87 and elsewhere give a broader devotional setting to the focus’s bodily preparation before prayer.
+- R-2:43 [support strong, relevance low] 2:43 names establishing prayer and bowing; 5:6 supplies bodily preparation for the prayer it names.
+- R-2:238 [support strong, relevance low] 2:238 commands preserving the prayers and standing devoutly, while 5:6 details what to do when approaching prayer.
+- R-f-شكر-نعم [support strong, relevance low] The closing gratitude for completed favor follows a Quranic pattern in which a person asks to be enabled to thank God for blessings upon self and parents.
+- R-4:4 [support strong, relevance low] The earth for tayammum is صَعِيدًا طَيِّبًا, while 4:4 uses the related طِبْنَ for women’s willing consent. The shared ط-ي-ب root touches on suitability in two different legal settings.
+- R-5:1 [support strong, relevance low] The opening legal sequence and the purification instruction share the vocative “O you who believe,” placing 5:6 among commands addressed to the same believing community.
+- R-6:72 [support strong, relevance low] Where 6:72 commands believers to establish prayer, the focus gives bodily preparation for approaching it. The two passages pair the general command with a concrete preparatory practice.
+- R-7:142 [support strong, relevance low] The focus uses the completion root for divine favor; 7:142 uses it for completing a promised period by adding ten nights. This supplies a concrete sense of bringing something appointed to its full measure.
+- R-14:5 [support strong, relevance low] 14:5 names the صَبَّار شَكُور as a recipient of signs, placing gratitude among responses to divine guidance. Its link to the focus is the gratitude outcome, not the rite itself.
+- R-16:10 [support strong, relevance low] 16:10 presents rainwater as drink and as support for grazing; 5:6 gives water a distinct ritual use in washing and provides earth when that medium is unavailable.
+- R-16:14 [support strong, relevance low] 16:14 ends the account of sea benefits with لَعَلَّكُمْ تَشْكُرُونَ, the same closing formula as the focus; gratitude follows both natural provision and the purification rule.
+- R-16:121 [support strong, relevance low] 16:121 characterizes Abraham as grateful for God’s blessings; the focus’s لَعَلَّكُمْ تَشْكُرُونَ frames gratitude as the hoped-for response of the addressed community.
+- R-17:3 [support strong, relevance low] 17:3 calls Noah a grateful servant, offering an individual model beside the focus’s hope that the community will be grateful.
+- R-24:28 [support strong, relevance low] Both verses use a failure-to-find condition to regulate what follows: lacking water in 5:6 permits a substitute rite, while finding no one at a house in 24:28 prohibits entry without permission. The repeated conditional structure shows practical limits shaping conduct.
+- R-70:22 [support strong, relevance low] 70:22 names the praying ones as an exception to the grasping disposition described before it; 5:6 gives one bodily practice on the way to prayer. The passages align prayer with concrete conduct without identifying purification as the reason for the exception.
+- R-74:43 [support strong, relevance low] 74:43 gives a confession of not being among those who pray; 5:6 describes a bodily preparation undertaken when approaching prayer. The latter adds a concrete practice to the prayer category, but no causal link is stated.
+- R-75:31 [support strong, relevance low] 75:31 pairs denial with failure to pray; 5:6 supplies a bodily practice tied to approaching prayer. This makes preparation one concrete dimension of ṣalāt, without explaining the condemned person's omission.
+- R-5:106 [support medium, relevance low] The focus makes travel a condition affecting purification; 5:106 treats travel across the land as a condition in a rule about witnesses and death. Both place practical obligations within travel circumstances, though the procedures differ.
+- R-6:99 [support medium, relevance low] Water in the focus is a cleansing medium, while 6:99 presents rainwater as a means by which plant life is brought forth. The passages place water among divine provisions with bodily and life-sustaining uses.
+- R-7:63 [support medium, relevance low] Both passages describe a divine purpose for a community and end with لَعَلَّكُمْ plus a hoped-for response: gratitude in the focus, mercy after warning in 7:63. This places purification within the wider pattern of guidance meant to shape communal response.
+- R-9:18 [support medium, relevance low] The focus gives preparation for prayer; 9:18 identifies prayer, alongside faith, zakat, and fear of Allah, among the marks of those who maintain Allah’s mosques. This places the rite near a broader account of mosque life.
+- R-16:78 [support medium, relevance low] 16:78 calls hearing, sight, and hearts gifts that invite gratitude; 5:6 likewise ends in gratitude while directing attention to the face and hands as bodily sites of purification.
+- R-25:62 [support medium, relevance low] Both verses join repeated practice with remembrance or gratitude: 25:62 names alternating night and day as an occasion for remembrance or thanks, while 5:6 ends with hoped-for thanks.
+- R-37:98 [support medium, relevance low] Both passages pair intention and making: Abraham’s opponents intend a plot and God makes them lowest, while 5:6 contrasts what God does not intend to make with what He does intend. The pairing makes agency and outcome explicit, though their aims differ sharply.
+- R-39:66 [support medium, relevance low] 39:66 commands the addressee to worship God and be among the grateful; 5:6 ends with gratitude as the hoped-for response to purification and favor.
+- R-42:33 [support medium, relevance low] 42:33 names patience and gratitude as responses to changing conditions at sea. The focus likewise closes with gratitude after provision for differing conditions, including illness, travel, and absence of water.
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:22 ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًۭا وَٱلسَّمَآءَ بِنَآءًۭ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًۭا لَّكُمْ ۖ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًۭا وَأَنتُمْ تَعْلَمُونَ
+- 2:40 يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ وَإِيَّٰىَ فَٱرْهَبُونِ
+- 2:43 وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ
+- 2:45 وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ
+- 2:52 ثُمَّ عَفَوْنَا عَنكُم مِّنۢ بَعْدِ ذَٰلِكَ لَعَلَّكُمْ تَشْكُرُونَ
+- 2:56 ثُمَّ بَعَثْنَٰكُم مِّنۢ بَعْدِ مَوْتِكُمْ لَعَلَّكُمْ تَشْكُرُونَ
+- 2:110 وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 2:124 ۞ وَإِذِ ٱبْتَلَىٰٓ إِبْرَٰهِۦمَ رَبُّهُۥ بِكَلِمَٰتٍۢ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّى جَاعِلُكَ لِلنَّاسِ إِمَامًۭا ۖ قَالَ وَمِن ذُرِّيَّتِى ۖ قَالَ لَا يَنَالُ عَهْدِى ٱلظَّٰلِمِينَ
+- 2:125 وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةًۭ لِّلنَّاسِ وَأَمْنًۭا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِۦمَ مُصَلًّۭى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ
+- 2:144 قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةًۭ تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ ۗ وَإِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ لَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا يَعْمَلُونَ
+- 2:150 وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِى وَلِأُتِمَّ نِعْمَتِى عَلَيْكُمْ وَلَعَلَّكُمْ تَهْتَدُونَ
+- 2:151 كَمَآ أَرْسَلْنَا فِيكُمْ رَسُولًۭا مِّنكُمْ يَتْلُوا۟ عَلَيْكُمْ ءَايَٰتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَيُعَلِّمُكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ
+- 2:152 فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ
+- 2:168 يَٰٓأَيُّهَا ٱلنَّاسُ كُلُوا۟ مِمَّا فِى ٱلْأَرْضِ حَلَٰلًۭا طَيِّبًۭا وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌ
+- 2:172 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ
+- 2:177 ۞ لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ
+- 2:184 أَيَّامًۭا مَّعْدُودَٰتٍۢ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍۢ فَعِدَّةٌۭ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌۭ طَعَامُ مِسْكِينٍۢ ۖ فَمَن تَطَوَّعَ خَيْرًۭا فَهُوَ خَيْرٌۭ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌۭ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ
+- 2:185 شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًۭى لِّلنَّاسِ وَبَيِّنَٰتٍۢ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍۢ فَعِدَّةٌۭ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 2:187 أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌۭ لَّكُمْ وَأَنتُمْ لِبَاسٌۭ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ
+- 2:196 وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًۭى مِّن رَّأْسِهِۦ فَفِدْيَةٌۭ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍۢ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌۭ كَامِلَةٌۭ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
+- 2:222 وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًۭى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ
+- 2:231 وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍۢ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًۭا لِّتَعْتَدُوا۟ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ وَلَا تَتَّخِذُوٓا۟ ءَايَٰتِ ٱللَّهِ هُزُوًۭا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَٰبِ وَٱلْحِكْمَةِ يَعِظُكُم بِهِۦ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۭ
+- 2:232 وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَلَا تَعْضُلُوهُنَّ أَن يَنكِحْنَ أَزْوَٰجَهُنَّ إِذَا تَرَٰضَوْا۟ بَيْنَهُم بِٱلْمَعْرُوفِ ۗ ذَٰلِكَ يُوعَظُ بِهِۦ مَن كَانَ مِنكُمْ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۗ ذَٰلِكُمْ أَزْكَىٰ لَكُمْ وَأَطْهَرُ ۗ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ
+- 2:233 ۞ وَٱلْوَٰلِدَٰتُ يُرْضِعْنَ أَوْلَٰدَهُنَّ حَوْلَيْنِ كَامِلَيْنِ ۖ لِمَنْ أَرَادَ أَن يُتِمَّ ٱلرَّضَاعَةَ ۚ وَعَلَى ٱلْمَوْلُودِ لَهُۥ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِٱلْمَعْرُوفِ ۚ لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا ۚ لَا تُضَآرَّ وَٰلِدَةٌۢ بِوَلَدِهَا وَلَا مَوْلُودٌۭ لَّهُۥ بِوَلَدِهِۦ ۚ وَعَلَى ٱلْوَارِثِ مِثْلُ ذَٰلِكَ ۗ فَإِنْ أَرَادَا فِصَالًا عَن تَرَاضٍۢ مِّنْهُمَا وَتَشَاوُرٍۢ فَلَا جُنَاحَ عَلَيْهِمَا ۗ وَإِنْ أَرَدتُّمْ أَن تَسْتَرْضِعُوٓا۟ أَوْلَٰدَكُمْ فَلَا جُنَاحَ عَلَيْكُمْ إِذَا سَلَّمْتُم مَّآ ءَاتَيْتُم بِٱلْمَعْرُوفِ ۗ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌۭ
+- 2:238 حَٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ
+- 2:239 فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًۭا ۖ فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ
+- 2:243 ۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ خَرَجُوا۟ مِن دِيَٰرِهِمْ وَهُمْ أُلُوفٌ حَذَرَ ٱلْمَوْتِ فَقَالَ لَهُمُ ٱللَّهُ مُوتُوا۟ ثُمَّ أَحْيَٰهُمْ ۚ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ
+- 2:267 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِن طَيِّبَٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغْمِضُوا۟ فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ
+- 2:275 ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌۭ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 2:283 ۞ وَإِن كُنتُمْ عَلَىٰ سَفَرٍۢ وَلَمْ تَجِدُوا۟ كَاتِبًۭا فَرِهَٰنٌۭ مَّقْبُوضَةٌۭ ۖ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًۭا فَلْيُؤَدِّ ٱلَّذِى ٱؤْتُمِنَ أَمَٰنَتَهُۥ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ ۗ وَلَا تَكْتُمُوا۟ ٱلشَّهَٰدَةَ ۚ وَمَن يَكْتُمْهَا فَإِنَّهُۥٓ ءَاثِمٌۭ قَلْبُهُۥ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌۭ
+- 2:286 لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًۭا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 3:15 ۞ قُلْ أَؤُنَبِّئُكُم بِخَيْرٍۢ مِّن ذَٰلِكُمْ ۚ لِلَّذِينَ ٱتَّقَوْا۟ عِندَ رَبِّهِمْ جَنَّٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا وَأَزْوَٰجٌۭ مُّطَهَّرَةٌۭ وَرِضْوَٰنٌۭ مِّنَ ٱللَّهِ ۗ وَٱللَّهُ بَصِيرٌۢ بِٱلْعِبَادِ
+- 3:42 وَإِذْ قَالَتِ ٱلْمَلَٰٓئِكَةُ يَٰمَرْيَمُ إِنَّ ٱللَّهَ ٱصْطَفَىٰكِ وَطَهَّرَكِ وَٱصْطَفَىٰكِ عَلَىٰ نِسَآءِ ٱلْعَٰلَمِينَ
+- 3:55 إِذْ قَالَ ٱللَّهُ يَٰعِيسَىٰٓ إِنِّى مُتَوَفِّيكَ وَرَافِعُكَ إِلَىَّ وَمُطَهِّرُكَ مِنَ ٱلَّذِينَ كَفَرُوا۟ وَجَاعِلُ ٱلَّذِينَ ٱتَّبَعُوكَ فَوْقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۖ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ
+- 3:72 وَقَالَت طَّآئِفَةٌۭ مِّنْ أَهْلِ ٱلْكِتَٰبِ ءَامِنُوا۟ بِٱلَّذِىٓ أُنزِلَ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَجْهَ ٱلنَّهَارِ وَٱكْفُرُوٓا۟ ءَاخِرَهُۥ لَعَلَّهُمْ يَرْجِعُونَ
+- 3:103 وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًۭا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءًۭ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًۭا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍۢ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَ
+- 3:123 وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍۢ وَأَنتُمْ أَذِلَّةٌۭ ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ
+- 3:154 ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةًۭ نُّعَاسًۭا يَغْشَىٰ طَآئِفَةًۭ مِّنكُمْ ۖ وَطَآئِفَةٌۭ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍۢ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌۭ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ
+- 3:176 وَلَا يَحْزُنكَ ٱلَّذِينَ يُسَٰرِعُونَ فِى ٱلْكُفْرِ ۚ إِنَّهُمْ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًۭٔا ۗ يُرِيدُ ٱللَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظًّۭا فِى ٱلْءَاخِرَةِ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ
+- 4:3 وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا۟ فِى ٱلْيَتَٰمَىٰ فَٱنكِحُوا۟ مَا طَابَ لَكُم مِّنَ ٱلنِّسَآءِ مَثْنَىٰ وَثُلَٰثَ وَرُبَٰعَ ۖ فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا۟ فَوَٰحِدَةً أَوْ مَا مَلَكَتْ أَيْمَٰنُكُمْ ۚ ذَٰلِكَ أَدْنَىٰٓ أَلَّا تَعُولُوا۟
+- 4:4 وَءَاتُوا۟ ٱلنِّسَآءَ صَدُقَٰتِهِنَّ نِحْلَةًۭ ۚ فَإِن طِبْنَ لَكُمْ عَن شَىْءٍۢ مِّنْهُ نَفْسًۭا فَكُلُوهُ هَنِيٓـًۭٔا مَّرِيٓـًۭٔا
+- 4:26 يُرِيدُ ٱللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ سُنَنَ ٱلَّذِينَ مِن قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ
+- 4:27 وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ ٱلشَّهَوَٰتِ أَن تَمِيلُوا۟ مَيْلًا عَظِيمًۭا
+- 4:28 يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًۭا
+- 4:43 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌۭ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟ صَعِيدًۭا طَيِّبًۭا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا
+- 4:49 أَلَمْ تَرَ إِلَى ٱلَّذِينَ يُزَكُّونَ أَنفُسَهُم ۚ بَلِ ٱللَّهُ يُزَكِّى مَن يَشَآءُ وَلَا يُظْلَمُونَ فَتِيلًا
+- 4:57 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَنُدْخِلُهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۖ لَّهُمْ فِيهَآ أَزْوَٰجٌۭ مُّطَهَّرَةٌۭ ۖ وَنُدْخِلُهُمْ ظِلًّۭا ظَلِيلًا
+- 4:62 فَكَيْفَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ ثُمَّ جَآءُوكَ يَحْلِفُونَ بِٱللَّهِ إِنْ أَرَدْنَآ إِلَّآ إِحْسَٰنًۭا وَتَوْفِيقًا
+- 4:64 وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ ٱللَّهِ ۚ وَلَوْ أَنَّهُمْ إِذ ظَّلَمُوٓا۟ أَنفُسَهُمْ جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًۭا رَّحِيمًۭا
+- 4:65 فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا۟ فِىٓ أَنفُسِهِمْ حَرَجًۭا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا۟ تَسْلِيمًۭا
+- 4:69 وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًۭا
+- 4:77 أَلَمْ تَرَ إِلَى ٱلَّذِينَ قِيلَ لَهُمْ كُفُّوٓا۟ أَيْدِيَكُمْ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ إِذَا فَرِيقٌۭ مِّنْهُمْ يَخْشَوْنَ ٱلنَّاسَ كَخَشْيَةِ ٱللَّهِ أَوْ أَشَدَّ خَشْيَةًۭ ۚ وَقَالُوا۟ رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا ٱلْقِتَالَ لَوْلَآ أَخَّرْتَنَآ إِلَىٰٓ أَجَلٍۢ قَرِيبٍۢ ۗ قُلْ مَتَٰعُ ٱلدُّنْيَا قَلِيلٌۭ وَٱلْءَاخِرَةُ خَيْرٌۭ لِّمَنِ ٱتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا
+- 4:88 ۞ فَمَا لَكُمْ فِى ٱلْمُنَٰفِقِينَ فِئَتَيْنِ وَٱللَّهُ أَرْكَسَهُم بِمَا كَسَبُوٓا۟ ۚ أَتُرِيدُونَ أَن تَهْدُوا۟ مَنْ أَضَلَّ ٱللَّهُ ۖ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًۭا
+- 4:90 إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًۭا
+- 4:98 إِلَّا ٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ لَا يَسْتَطِيعُونَ حِيلَةًۭ وَلَا يَهْتَدُونَ سَبِيلًۭا
+- 4:99 فَأُو۟لَٰٓئِكَ عَسَى ٱللَّهُ أَن يَعْفُوَ عَنْهُمْ ۚ وَكَانَ ٱللَّهُ عَفُوًّا غَفُورًۭا
+- 4:101 وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ ۚ إِنَّ ٱلْكَٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّۭا مُّبِينًۭا
+- 4:102 وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌۭ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةًۭ وَٰحِدَةًۭ ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًۭى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ ۖ وَخُذُوا۟ حِذْرَكُمْ ۗ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَٰفِرِينَ عَذَابًۭا مُّهِينًۭا
+- 4:103 فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَٰمًۭا وَقُعُودًۭا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًۭا مَّوْقُوتًۭا
+- 4:142 إِنَّ ٱلْمُنَٰفِقِينَ يُخَٰدِعُونَ ٱللَّهَ وَهُوَ خَٰدِعُهُمْ وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ وَلَا يَذْكُرُونَ ٱللَّهَ إِلَّا قَلِيلًۭا
+- 6:7 وَلَوْ نَزَّلْنَا عَلَيْكَ كِتَٰبًۭا فِى قِرْطَاسٍۢ فَلَمَسُوهُ بِأَيْدِيهِمْ لَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌۭ
+- 6:52 وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍۢ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍۢ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ ٱلظَّٰلِمِينَ
+- 6:61 وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۖ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ
+- 6:72 وَأَنْ أَقِيمُوا۟ ٱلصَّلَوٰةَ وَٱتَّقُوهُ ۚ وَهُوَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ
+- 6:79 إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ حَنِيفًۭا ۖ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ
+- 6:99 وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍۢ فَأَخْرَجْنَا مِنْهُ خَضِرًۭا نُّخْرِجُ مِنْهُ حَبًّۭا مُّتَرَاكِبًۭا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌۭ دَانِيَةٌۭ وَجَنَّٰتٍۢ مِّنْ أَعْنَابٍۢ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًۭا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍۢ لِّقَوْمٍۢ يُؤْمِنُونَ
+- 6:115 وَتَمَّتْ كَلِمَتُ رَبِّكَ صِدْقًۭا وَعَدْلًۭا ۚ لَّا مُبَدِّلَ لِكَلِمَٰتِهِۦ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- 6:125 فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ لِلْإِسْلَٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ ضَيِّقًا حَرَجًۭا كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ ۚ كَذَٰلِكَ يَجْعَلُ ٱللَّهُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يُؤْمِنُونَ
+- 7:2 كِتَٰبٌ أُنزِلَ إِلَيْكَ فَلَا يَكُن فِى صَدْرِكَ حَرَجٌۭ مِّنْهُ لِتُنذِرَ بِهِۦ وَذِكْرَىٰ لِلْمُؤْمِنِينَ
+- 7:10 وَلَقَدْ مَكَّنَّٰكُمْ فِى ٱلْأَرْضِ وَجَعَلْنَا لَكُمْ فِيهَا مَعَٰيِشَ ۗ قَلِيلًۭا مَّا تَشْكُرُونَ
+- 7:17 ثُمَّ لَءَاتِيَنَّهُم مِّنۢ بَيْنِ أَيْدِيهِمْ وَمِنْ خَلْفِهِمْ وَعَنْ أَيْمَٰنِهِمْ وَعَن شَمَآئِلِهِمْ ۖ وَلَا تَجِدُ أَكْثَرَهُمْ شَٰكِرِينَ
+- 7:29 قُلْ أَمَرَ رَبِّى بِٱلْقِسْطِ ۖ وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍۢ وَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۚ كَمَا بَدَأَكُمْ تَعُودُونَ
+- 7:31 ۞ يَٰبَنِىٓ ءَادَمَ خُذُوا۟ زِينَتَكُمْ عِندَ كُلِّ مَسْجِدٍۢ وَكُلُوا۟ وَٱشْرَبُوا۟ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ
+- 7:57 وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًۭا ثِقَالًۭا سُقْنَٰهُ لِبَلَدٍۢ مَّيِّتٍۢ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ
+- 7:58 وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ نَبَاتُهُۥ بِإِذْنِ رَبِّهِۦ ۖ وَٱلَّذِى خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًۭا ۚ كَذَٰلِكَ نُصَرِّفُ ٱلْءَايَٰتِ لِقَوْمٍۢ يَشْكُرُونَ
+- 7:63 أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌۭ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍۢ مِّنكُمْ لِيُنذِرَكُمْ وَلِتَتَّقُوا۟ وَلَعَلَّكُمْ تُرْحَمُونَ
+- 7:69 أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌۭ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍۢ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍۢ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةًۭ ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ
+- 7:124 لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍۢ ثُمَّ لَأُصَلِّبَنَّكُمْ أَجْمَعِينَ
+- 7:137 وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ
+- 7:142 ۞ وَوَٰعَدْنَا مُوسَىٰ ثَلَٰثِينَ لَيْلَةًۭ وَأَتْمَمْنَٰهَا بِعَشْرٍۢ فَتَمَّ مِيقَٰتُ رَبِّهِۦٓ أَرْبَعِينَ لَيْلَةًۭ ۚ وَقَالَ مُوسَىٰ لِأَخِيهِ هَٰرُونَ ٱخْلُفْنِى فِى قَوْمِى وَأَصْلِحْ وَلَا تَتَّبِعْ سَبِيلَ ٱلْمُفْسِدِينَ
+- 7:157 ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ ءَامَنُوا۟ بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 8:11 إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةًۭ مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءًۭ لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ
+- 8:26 وَٱذْكُرُوٓا۟ إِذْ أَنتُمْ قَلِيلٌۭ مُّسْتَضْعَفُونَ فِى ٱلْأَرْضِ تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمْ وَأَيَّدَكُم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمْ تَشْكُرُونَ
+- 8:66 ٱلْـَٰٔنَ خَفَّفَ ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًۭا ۚ فَإِن يَكُن مِّنكُم مِّا۟ئَةٌۭ صَابِرَةٌۭ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُمْ أَلْفٌۭ يَغْلِبُوٓا۟ أَلْفَيْنِ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ
+- 9:18 إِنَّمَا يَعْمُرُ مَسَٰجِدَ ٱللَّهِ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَلَمْ يَخْشَ إِلَّا ٱللَّهَ ۖ فَعَسَىٰٓ أُو۟لَٰٓئِكَ أَن يَكُونُوا۟ مِنَ ٱلْمُهْتَدِينَ
+- 9:25 لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍۢ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًۭٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ
+- 9:28 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْمُشْرِكُونَ نَجَسٌۭ فَلَا يَقْرَبُوا۟ ٱلْمَسْجِدَ ٱلْحَرَامَ بَعْدَ عَامِهِمْ هَٰذَا ۚ وَإِنْ خِفْتُمْ عَيْلَةًۭ فَسَوْفَ يُغْنِيكُمُ ٱللَّهُ مِن فَضْلِهِۦٓ إِن شَآءَ ۚ إِنَّ ٱللَّهَ عَلِيمٌ حَكِيمٌۭ
+- 9:32 يُرِيدُونَ أَن يُطْفِـُٔوا۟ نُورَ ٱللَّهِ بِأَفْوَٰهِهِمْ وَيَأْبَى ٱللَّهُ إِلَّآ أَن يُتِمَّ نُورَهُۥ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ
+- 9:84 وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍۢ مِّنْهُم مَّاتَ أَبَدًۭا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ ۖ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَٰسِقُونَ
+- 9:91 لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُوا۟ لِلَّهِ وَرَسُولِهِۦ ۚ مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍۢ ۚ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌۭ
+- 9:103 خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةًۭ تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌۭ لَّهُمْ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ
+- 9:108 لَا تَقُمْ فِيهِ أَبَدًۭا ۚ لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ ۚ فِيهِ رِجَالٌۭ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ ۚ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ
+- 9:128 لَقَدْ جَآءَكُمْ رَسُولٌۭ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌۭ رَّحِيمٌۭ
+- 10:22 هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍۢ طَيِّبَةٍۢ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌۭ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍۢ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ
+- 10:24 إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًۭا فَجَعَلْنَٰهَا حَصِيدًۭا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍۢ يَتَفَكَّرُونَ
+- 10:60 وَمَا ظَنُّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ يَوْمَ ٱلْقِيَٰمَةِ ۗ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ
+- 10:87 وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰ وَأَخِيهِ أَن تَبَوَّءَا لِقَوْمِكُمَا بِمِصْرَ بُيُوتًۭا وَٱجْعَلُوا۟ بُيُوتَكُمْ قِبْلَةًۭ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ
+- 11:78 وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌۭ رَّشِيدٌۭ
+- 11:119 إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ
+- 12:6 وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ ءَالِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌۭ
+- 12:9 ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَٰلِحِينَ
+- 12:30 ۞ وَقَالَ نِسْوَةٌۭ فِى ٱلْمَدِينَةِ ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ ۖ قَدْ شَغَفَهَا حُبًّا ۖ إِنَّا لَنَرَىٰهَا فِى ضَلَٰلٍۢ مُّبِينٍۢ
+- 12:38 وَٱتَّبَعْتُ مِلَّةَ ءَابَآءِىٓ إِبْرَٰهِيمَ وَإِسْحَٰقَ وَيَعْقُوبَ ۚ مَا كَانَ لَنَآ أَن نُّشْرِكَ بِٱللَّهِ مِن شَىْءٍۢ ۚ ذَٰلِكَ مِن فَضْلِ ٱللَّهِ عَلَيْنَا وَعَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ
+- 12:96 فَلَمَّآ أَن جَآءَ ٱلْبَشِيرُ أَلْقَىٰهُ عَلَىٰ وَجْهِهِۦ فَٱرْتَدَّ بَصِيرًۭا ۖ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ
+- 13:22 وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّۭا وَعَلَانِيَةًۭ وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ
+- 14:5 وَلَقَدْ أَرْسَلْنَا مُوسَىٰ بِـَٔايَٰتِنَآ أَنْ أَخْرِجْ قَوْمَكَ مِنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ وَذَكِّرْهُم بِأَيَّىٰمِ ٱللَّهِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ
+- 14:6 وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌۭ مِّن رَّبِّكُمْ عَظِيمٌۭ
+- 14:7 وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌۭ
+- 14:28 ۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًۭا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ
+- 14:35 وَإِذْ قَالَ إِبْرَٰهِيمُ رَبِّ ٱجْعَلْ هَٰذَا ٱلْبَلَدَ ءَامِنًۭا وَٱجْنُبْنِى وَبَنِىَّ أَن نَّعْبُدَ ٱلْأَصْنَامَ
+- 14:37 رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ
+- 14:50 سَرَابِيلُهُم مِّن قَطِرَانٍۢ وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ
+- 16:7 وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍۢ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌۭ رَّحِيمٌۭ
+- 16:10 هُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ ۖ لَّكُم مِّنْهُ شَرَابٌۭ وَمِنْهُ شَجَرٌۭ فِيهِ تُسِيمُونَ
+- 16:14 وَهُوَ ٱلَّذِى سَخَّرَ ٱلْبَحْرَ لِتَأْكُلُوا۟ مِنْهُ لَحْمًۭا طَرِيًّۭا وَتَسْتَخْرِجُوا۟ مِنْهُ حِلْيَةًۭ تَلْبَسُونَهَا وَتَرَى ٱلْفُلْكَ مَوَاخِرَ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 16:18 وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌۭ رَّحِيمٌۭ
+- 16:65 وَٱللَّهُ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءًۭ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّقَوْمٍۢ يَسْمَعُونَ
+- 16:72 وَٱللَّهُ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًۭا وَجَعَلَ لَكُم مِّنْ أَزْوَٰجِكُم بَنِينَ وَحَفَدَةًۭ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَتِ ٱللَّهِ هُمْ يَكْفُرُونَ
+- 16:78 وَٱللَّهُ أَخْرَجَكُم مِّنۢ بُطُونِ أُمَّهَٰتِكُمْ لَا تَعْلَمُونَ شَيْـًۭٔا وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۙ لَعَلَّكُمْ تَشْكُرُونَ
+- 16:81 وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًۭا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًۭا وَجَعَلَ لَكُمْ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ
+- 16:83 يَعْرِفُونَ نِعْمَتَ ٱللَّهِ ثُمَّ يُنكِرُونَهَا وَأَكْثَرُهُمُ ٱلْكَٰفِرُونَ
+- 16:114 فَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَٰلًۭا طَيِّبًۭا وَٱشْكُرُوا۟ نِعْمَتَ ٱللَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ
+- 16:121 شَاكِرًۭا لِّأَنْعُمِهِ ۚ ٱجْتَبَىٰهُ وَهَدَىٰهُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 17:3 ذُرِّيَّةَ مَنْ حَمَلْنَا مَعَ نُوحٍ ۚ إِنَّهُۥ كَانَ عَبْدًۭا شَكُورًۭا
+- 17:7 إِنْ أَحْسَنتُمْ أَحْسَنتُمْ لِأَنفُسِكُمْ ۖ وَإِنْ أَسَأْتُمْ فَلَهَا ۚ فَإِذَا جَآءَ وَعْدُ ٱلْءَاخِرَةِ لِيَسُۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍۢ وَلِيُتَبِّرُوا۟ مَا عَلَوْا۟ تَتْبِيرًا
+- 17:19 وَمَنْ أَرَادَ ٱلْءَاخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِنٌۭ فَأُو۟لَٰٓئِكَ كَانَ سَعْيُهُم مَّشْكُورًۭا
+- 17:83 وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًۭا
+- 17:97 وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًۭا وَبُكْمًۭا وَصُمًّۭا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًۭا
+- 18:8 وَإِنَّا لَجَٰعِلُونَ مَا عَلَيْهَا صَعِيدًۭا جُرُزًا
+- 18:16 وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًۭا
+- 18:28 وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًۭا
+- 18:29 وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍۢ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا
+- 18:40 فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًۭا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًۭا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًۭا زَلَقًا
+- 18:73 قَالَ لَا تُؤَاخِذْنِى بِمَا نَسِيتُ وَلَا تُرْهِقْنِى مِنْ أَمْرِى عُسْرًۭا
+- 18:90 حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍۢ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًۭا
+- 19:13 وَحَنَانًۭا مِّن لَّدُنَّا وَزَكَوٰةًۭ ۖ وَكَانَ تَقِيًّۭا
+- 20:26 وَيَسِّرْ لِىٓ أَمْرِى
+- 20:71 قَالَ ءَامَنتُمْ لَهُۥ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ ۖ فَلَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍۢ وَلَأُصَلِّبَنَّكُمْ فِى جُذُوعِ ٱلنَّخْلِ وَلَتَعْلَمُنَّ أَيُّنَآ أَشَدُّ عَذَابًۭا وَأَبْقَىٰ
+- 20:111 ۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا
+- 22:19 ۞ هَٰذَانِ خَصْمَانِ ٱخْتَصَمُوا۟ فِى رَبِّهِمْ ۖ فَٱلَّذِينَ كَفَرُوا۟ قُطِّعَتْ لَهُمْ ثِيَابٌۭ مِّن نَّارٍۢ يُصَبُّ مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ
+- 22:26 وَإِذْ بَوَّأْنَا لِإِبْرَٰهِيمَ مَكَانَ ٱلْبَيْتِ أَن لَّا تُشْرِكْ بِى شَيْـًۭٔا وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ وَٱلْقَآئِمِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ
+- 22:30 ذَٰلِكَ وَمَن يُعَظِّمْ حُرُمَٰتِ ٱللَّهِ فَهُوَ خَيْرٌۭ لَّهُۥ عِندَ رَبِّهِۦ ۗ وَأُحِلَّتْ لَكُمُ ٱلْأَنْعَٰمُ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ ۖ فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَٰنِ وَٱجْتَنِبُوا۟ قَوْلَ ٱلزُّورِ
+- 22:34 وَلِكُلِّ أُمَّةٍۢ جَعَلْنَا مَنسَكًۭا لِّيَذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلْأَنْعَٰمِ ۗ فَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ فَلَهُۥٓ أَسْلِمُوا۟ ۗ وَبَشِّرِ ٱلْمُخْبِتِينَ
+- 22:36 وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌۭ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ
+- 22:77 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩
+- 22:78 وَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ
+- 23:78 وَهُوَ ٱلَّذِىٓ أَنشَأَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًۭا مَّا تَشْكُرُونَ
+- 23:104 تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَٰلِحُونَ
+- 24:21 ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًۭا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌۭ
+- 24:24 يَوْمَ تَشْهَدُ عَلَيْهِمْ أَلْسِنَتُهُمْ وَأَيْدِيهِمْ وَأَرْجُلُهُم بِمَا كَانُوا۟ يَعْمَلُونَ
+- 24:28 فَإِن لَّمْ تَجِدُوا۟ فِيهَآ أَحَدًۭا فَلَا تَدْخُلُوهَا حَتَّىٰ يُؤْذَنَ لَكُمْ ۖ وَإِن قِيلَ لَكُمُ ٱرْجِعُوا۟ فَٱرْجِعُوا۟ ۖ هُوَ أَزْكَىٰ لَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌۭ
+- 24:30 قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ
+- 24:31 وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ
+- 24:39 وَٱلَّذِينَ كَفَرُوٓا۟ أَعْمَٰلُهُمْ كَسَرَابٍۭ بِقِيعَةٍۢ يَحْسَبُهُ ٱلظَّمْـَٔانُ مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًۭٔا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥ ۗ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ
+- 24:61 لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌۭ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌۭ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌۭ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَٰمِكُمْ أَوْ بُيُوتِ عَمَّٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَٰلَٰتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُۥٓ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًۭا ۚ فَإِذَا دَخَلْتُم بُيُوتًۭا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةًۭ مِّنْ عِندِ ٱللَّهِ مُبَٰرَكَةًۭ طَيِّبَةًۭ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَعْقِلُونَ
+- 25:34 ٱلَّذِينَ يُحْشَرُونَ عَلَىٰ وُجُوهِهِمْ إِلَىٰ جَهَنَّمَ أُو۟لَٰٓئِكَ شَرٌّۭ مَّكَانًۭا وَأَضَلُّ سَبِيلًۭا
+- 25:48 وَهُوَ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءًۭ طَهُورًۭا
+- 25:62 وَهُوَ ٱلَّذِى جَعَلَ ٱلَّيْلَ وَٱلنَّهَارَ خِلْفَةًۭ لِّمَنْ أَرَادَ أَن يَذَّكَّرَ أَوْ أَرَادَ شُكُورًۭا
+- 26:49 قَالَ ءَامَنتُمْ لَهُۥ قَبْلَ أَنْ ءَاذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ فَلَسَوْفَ تَعْلَمُونَ ۚ لَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍۢ وَلَأُصَلِّبَنَّكُمْ أَجْمَعِينَ
+- 26:80 وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ
+- 27:19 فَتَبَسَّمَ ضَاحِكًۭا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ
+- 27:55 أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةًۭ مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌۭ تَجْهَلُونَ
+- 27:56 ۞ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوٓا۟ أَخْرِجُوٓا۟ ءَالَ لُوطٍۢ مِّن قَرْيَتِكُمْ ۖ إِنَّهُمْ أُنَاسٌۭ يَتَطَهَّرُونَ
+- 27:73 وَإِنَّ رَبَّكَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ
+- 28:7 وَأَوْحَيْنَآ إِلَىٰٓ أُمِّ مُوسَىٰٓ أَنْ أَرْضِعِيهِ ۖ فَإِذَا خِفْتِ عَلَيْهِ فَأَلْقِيهِ فِى ٱلْيَمِّ وَلَا تَخَافِى وَلَا تَحْزَنِىٓ ۖ إِنَّا رَآدُّوهُ إِلَيْكِ وَجَاعِلُوهُ مِنَ ٱلْمُرْسَلِينَ
+- 28:23 وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةًۭ مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌۭ كَبِيرٌۭ
+- 28:25 فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍۢ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ
+- 28:27 قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَٰتَيْنِ عَلَىٰٓ أَن تَأْجُرَنِى ثَمَٰنِىَ حِجَجٍۢ ۖ فَإِنْ أَتْمَمْتَ عَشْرًۭا فَمِنْ عِندِكَ ۖ وَمَآ أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ ۚ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰلِحِينَ
+- 28:73 وَمِن رَّحْمَتِهِۦ جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 30:46 وَمِنْ ءَايَٰتِهِۦٓ أَن يُرْسِلَ ٱلرِّيَاحَ مُبَشِّرَٰتٍۢ وَلِيُذِيقَكُم مِّن رَّحْمَتِهِۦ وَلِتَجْرِىَ ٱلْفُلْكُ بِأَمْرِهِۦ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ
+- 32:27 أَوَلَمْ يَرَوْا۟ أَنَّا نَسُوقُ ٱلْمَآءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِۦ زَرْعًۭا تَأْكُلُ مِنْهُ أَنْعَٰمُهُمْ وَأَنفُسُهُمْ ۖ أَفَلَا يُبْصِرُونَ
+- 33:9 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَآءَتْكُمْ جُنُودٌۭ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا ۚ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا
+- 33:32 يَٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍۢ مِّنَ ٱلنِّسَآءِ ۚ إِنِ ٱتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِٱلْقَوْلِ فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌۭ وَقُلْنَ قَوْلًۭا مَّعْرُوفًۭا
+- 33:33 وَقَرْنَ فِى بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ ٱلْجَٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًۭا
+- 33:37 وَإِذْ تَقُولُ لِلَّذِىٓ أَنْعَمَ ٱللَّهُ عَلَيْهِ وَأَنْعَمْتَ عَلَيْهِ أَمْسِكْ عَلَيْكَ زَوْجَكَ وَٱتَّقِ ٱللَّهَ وَتُخْفِى فِى نَفْسِكَ مَا ٱللَّهُ مُبْدِيهِ وَتَخْشَى ٱلنَّاسَ وَٱللَّهُ أَحَقُّ أَن تَخْشَىٰهُ ۖ فَلَمَّا قَضَىٰ زَيْدٌۭ مِّنْهَا وَطَرًۭا زَوَّجْنَٰكَهَا لِكَىْ لَا يَكُونَ عَلَى ٱلْمُؤْمِنِينَ حَرَجٌۭ فِىٓ أَزْوَٰجِ أَدْعِيَآئِهِمْ إِذَا قَضَوْا۟ مِنْهُنَّ وَطَرًۭا ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًۭا
+- 33:38 مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍۢ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ ۖ سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۚ وَكَانَ أَمْرُ ٱللَّهِ قَدَرًۭا مَّقْدُورًا
+- 33:50 يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّٰتِىٓ ءَاتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَٰلَٰتِكَ ٱلَّٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةًۭ مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةًۭ لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌۭ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا
+- 33:53 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَدْخُلُوا۟ بُيُوتَ ٱلنَّبِىِّ إِلَّآ أَن يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَٰظِرِينَ إِنَىٰهُ وَلَٰكِنْ إِذَا دُعِيتُمْ فَٱدْخُلُوا۟ فَإِذَا طَعِمْتُمْ فَٱنتَشِرُوا۟ وَلَا مُسْتَـْٔنِسِينَ لِحَدِيثٍ ۚ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِى ٱلنَّبِىَّ فَيَسْتَحْىِۦ مِنكُمْ ۖ وَٱللَّهُ لَا يَسْتَحْىِۦ مِنَ ٱلْحَقِّ ۚ وَإِذَا سَأَلْتُمُوهُنَّ مَتَٰعًۭا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍۢ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ ۚ وَمَا كَانَ لَكُمْ أَن تُؤْذُوا۟ رَسُولَ ٱللَّهِ وَلَآ أَن تَنكِحُوٓا۟ أَزْوَٰجَهُۥ مِنۢ بَعْدِهِۦٓ أَبَدًا ۚ إِنَّ ذَٰلِكُمْ كَانَ عِندَ ٱللَّهِ عَظِيمًا
+- 33:66 يَوْمَ تُقَلَّبُ وُجُوهُهُمْ فِى ٱلنَّارِ يَقُولُونَ يَٰلَيْتَنَآ أَطَعْنَا ٱللَّهَ وَأَطَعْنَا ٱلرَّسُولَا۠
+- 34:13 يَعْمَلُونَ لَهُۥ مَا يَشَآءُ مِن مَّحَٰرِيبَ وَتَمَٰثِيلَ وَجِفَانٍۢ كَٱلْجَوَابِ وَقُدُورٍۢ رَّاسِيَٰتٍ ۚ ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا ۚ وَقَلِيلٌۭ مِّنْ عِبَادِىَ ٱلشَّكُورُ
+- 34:15 لَقَدْ كَانَ لِسَبَإٍۢ فِى مَسْكَنِهِمْ ءَايَةٌۭ ۖ جَنَّتَانِ عَن يَمِينٍۢ وَشِمَالٍۢ ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌۭ طَيِّبَةٌۭ وَرَبٌّ غَفُورٌۭ
+- 34:19 فَقَالُوا۟ رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَٰهُمْ أَحَادِيثَ وَمَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ
+- 34:43 وَإِذَا تُتْلَىٰ عَلَيْهِمْ ءَايَٰتُنَا بَيِّنَٰتٍۢ قَالُوا۟ مَا هَٰذَآ إِلَّا رَجُلٌۭ يُرِيدُ أَن يَصُدَّكُمْ عَمَّا كَانَ يَعْبُدُ ءَابَآؤُكُمْ وَقَالُوا۟ مَا هَٰذَآ إِلَّآ إِفْكٌۭ مُّفْتَرًۭى ۚ وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلْحَقِّ لَمَّا جَآءَهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌۭ مُّبِينٌۭ
+- 35:10 مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌۭ شَدِيدٌۭ ۖ وَمَكْرُ أُو۟لَٰٓئِكَ هُوَ يَبُورُ
+- 36:35 لِيَأْكُلُوا۟ مِن ثَمَرِهِۦ وَمَا عَمِلَتْهُ أَيْدِيهِمْ ۖ أَفَلَا يَشْكُرُونَ
+- 36:65 ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ
+- 36:71 أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَٰمًۭا فَهُمْ لَهَا مَٰلِكُونَ
+- 37:98 فَأَرَادُوا۟ بِهِۦ كَيْدًۭا فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ
+- 38:33 رُدُّوهَا عَلَىَّ ۖ فَطَفِقَ مَسْحًۢا بِٱلسُّوقِ وَٱلْأَعْنَاقِ
+- 38:42 ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ بَارِدٌۭ وَشَرَابٌۭ
+- 39:60 وَيَوْمَ ٱلْقِيَٰمَةِ تَرَى ٱلَّذِينَ كَذَبُوا۟ عَلَى ٱللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًۭى لِّلْمُتَكَبِّرِينَ
+- 39:66 بَلِ ٱللَّهَ فَٱعْبُدْ وَكُن مِّنَ ٱلشَّٰكِرِينَ
+- 39:73 وَسِيقَ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَٰلِدِينَ
+- 40:64 ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ قَرَارًۭا وَٱلسَّمَآءَ بِنَآءًۭ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ فَتَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ
+- 41:51 وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ وَإِذَا مَسَّهُ ٱلشَّرُّ فَذُو دُعَآءٍ عَرِيضٍۢ
+- 42:23 ذَٰلِكَ ٱلَّذِى يُبَشِّرُ ٱللَّهُ عِبَادَهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ ۗ وَمَن يَقْتَرِفْ حَسَنَةًۭ نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌۭ شَكُورٌ
+- 42:33 إِن يَشَأْ يُسْكِنِ ٱلرِّيحَ فَيَظْلَلْنَ رَوَاكِدَ عَلَىٰ ظَهْرِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍ
+- 46:15 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًۭا وَوَضَعَتْهُ كُرْهًۭا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةًۭ قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ
+- 46:20 وَيَوْمَ يُعْرَضُ ٱلَّذِينَ كَفَرُوا۟ عَلَى ٱلنَّارِ أَذْهَبْتُمْ طَيِّبَٰتِكُمْ فِى حَيَاتِكُمُ ٱلدُّنْيَا وَٱسْتَمْتَعْتُم بِهَا فَٱلْيَوْمَ تُجْزَوْنَ عَذَابَ ٱلْهُونِ بِمَا كُنتُمْ تَسْتَكْبِرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَبِمَا كُنتُمْ تَفْسُقُونَ
+- 48:2 لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا
+- 48:17 لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌۭ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌۭ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌۭ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ وَمَن يَتَوَلَّ يُعَذِّبْهُ عَذَابًا أَلِيمًۭا
+- 48:27 لَّقَدْ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءْيَا بِٱلْحَقِّ ۖ لَتَدْخُلُنَّ ٱلْمَسْجِدَ ٱلْحَرَامَ إِن شَآءَ ٱللَّهُ ءَامِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لَا تَخَافُونَ ۖ فَعَلِمَ مَا لَمْ تَعْلَمُوا۟ فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتْحًۭا قَرِيبًا
+- 48:29 مُّحَمَّدٌۭ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًۭا سُجَّدًۭا يَبْتَغُونَ فَضْلًۭا مِّنَ ٱللَّهِ وَرِضْوَٰنًۭا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةًۭ وَأَجْرًا عَظِيمًۢا
+- 49:9 وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ
+- 49:12 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱجْتَنِبُوا۟ كَثِيرًۭا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌۭ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًۭا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌۭ رَّحِيمٌۭ
+- 54:12 وَفَجَّرْنَا ٱلْأَرْضَ عُيُونًۭا فَٱلْتَقَى ٱلْمَآءُ عَلَىٰٓ أَمْرٍۢ قَدْ قُدِرَ
+- 54:28 وَنَبِّئْهُمْ أَنَّ ٱلْمَآءَ قِسْمَةٌۢ بَيْنَهُمْ ۖ كُلُّ شِرْبٍۢ مُّحْتَضَرٌۭ
+- 55:55 فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ
+- 56:79 لَّا يَمَسُّهُۥٓ إِلَّا ٱلْمُطَهَّرُونَ
+- 58:4 فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ مِن قَبْلِ أَن يَتَمَآسَّا ۖ فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًۭا ۚ ذَٰلِكَ لِتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۗ وَلِلْكَٰفِرِينَ عَذَابٌ أَلِيمٌ
+- 58:12 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نَٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةًۭ ۚ ذَٰلِكَ خَيْرٌۭ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 60:12 يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًۭٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍۢ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍۢ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 61:8 يُرِيدُونَ لِيُطْفِـُٔوا۟ نُورَ ٱللَّهِ بِأَفْوَٰهِهِمْ وَٱللَّهُ مُتِمُّ نُورِهِۦ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ
+- 62:9 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ
+- 65:6 أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَٰتِ حَمْلٍۢ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍۢ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ
+- 66:8 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ تُوبُوٓا۟ إِلَى ٱللَّهِ تَوْبَةًۭ نَّصُوحًا عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّـَٔاتِكُمْ وَيُدْخِلَكُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يَوْمَ لَا يُخْزِى ٱللَّهُ ٱلنَّبِىَّ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ ۖ نُورُهُمْ يَسْعَىٰ بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ
+- 67:30 قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًۭا فَمَن يَأْتِيكُم بِمَآءٍۢ مَّعِينٍۭ
+- 69:36 وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍۢ
+- 70:22 إِلَّا ٱلْمُصَلِّينَ
+- 70:23 ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ
+- 70:34 وَٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ
+- 72:8 وَأَنَّا لَمَسْنَا ٱلسَّمَآءَ فَوَجَدْنَٰهَا مُلِئَتْ حَرَسًۭا شَدِيدًۭا وَشُهُبًۭا
+- 72:19 وَأَنَّهُۥ لَمَّا قَامَ عَبْدُ ٱللَّهِ يَدْعُوهُ كَادُوا۟ يَكُونُونَ عَلَيْهِ لِبَدًۭا
+- 73:20 ۞ إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌۭ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًۭا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًۭا وَأَعْظَمَ أَجْرًۭا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۢ
+- 74:4 وَثِيَابَكَ فَطَهِّرْ
+- 74:5 وَٱلرُّجْزَ فَٱهْجُرْ
+- 74:17 سَأُرْهِقُهُۥ صَعُودًا
+- 74:31 وَمَا جَعَلْنَآ أَصْحَٰبَ ٱلنَّارِ إِلَّا مَلَٰٓئِكَةًۭ ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةًۭ لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَيَزْدَادَ ٱلَّذِينَ ءَامَنُوٓا۟ إِيمَٰنًۭا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌۭ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًۭا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ
+- 74:43 قَالُوا۟ لَمْ نَكُ مِنَ ٱلْمُصَلِّينَ
+- 75:31 فَلَا صَدَّقَ وَلَا صَلَّىٰ
+- 76:9 إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءًۭ وَلَا شُكُورًا
+- 76:21 عَٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌۭ وَإِسْتَبْرَقٌۭ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍۢ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًۭا طَهُورًا
+- 76:22 إِنَّ هَٰذَا كَانَ لَكُمْ جَزَآءًۭ وَكَانَ سَعْيُكُم مَّشْكُورًا
+- 78:33 وَكَوَاعِبَ أَتْرَابًۭا
+- 80:14 مَّرْفُوعَةٍۢ مُّطَهَّرَةٍۭ
+- 80:15 بِأَيْدِى سَفَرَةٍۢ
+- 85:16 فَعَّالٌۭ لِّمَا يُرِيدُ
+- 87:8 وَنُيَسِّرُكَ لِلْيُسْرَىٰ
+- 87:11 وَيَتَجَنَّبُهَا ٱلْأَشْقَى
+- 87:14 قَدْ أَفْلَحَ مَن تَزَكَّىٰ
+- 87:15 وَذَكَرَ ٱسْمَ رَبِّهِۦ فَصَلَّىٰ
+- 91:9 قَدْ أَفْلَحَ مَن زَكَّىٰهَا
+- 92:10 فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ
+- 92:17 وَسَيُجَنَّبُهَا ٱلْأَتْقَى
+- 92:18 ٱلَّذِى يُؤْتِى مَالَهُۥ يَتَزَكَّىٰ
+- 92:19 وَمَا لِأَحَدٍ عِندَهُۥ مِن نِّعْمَةٍۢ تُجْزَىٰٓ
+- 94:2 وَوَضَعْنَا عَنكَ وِزْرَكَ
+- 94:3 ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ
+- 94:5 فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا
+- 94:6 إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا
+- 96:10 عَبْدًا إِذَا صَلَّىٰٓ
+- 100:6 إِنَّ ٱلْإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٌۭ
+- 107:4 فَوَيْلٌۭ لِّلْمُصَلِّينَ
+- 107:5 ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ
