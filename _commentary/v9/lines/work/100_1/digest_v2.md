@@ -1,0 +1,193 @@
+# Quranic reach for 100:1 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+(none recorded)
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-عدو root ع د و (focus word وَٱلْعَٰدِيَٰتِ: عَٰدِيَٰت N) — 101 occurrences in 92 ayat; same form 1, other forms 100
+- tier 1, same form (عَٰدِيَٰت N): 1
+  - 100:1 ◀ focus عَٰدِيَٰتِ
+- tier 2, other forms: عَدُوّ ADJ 1; عُدْوَة N 1; عَادَيْ V form III 1; مُعْتَد ADJ form VIII 1; عَدْو N 2; مُعْتَد N form VIII 2; يَتَعَدَّ V form V 3; يَعْدُ V 3; عَاد N 6; مُعْتَدِين N 6; عَدَٰوَة N 6; عُدْوَٰن N 8; ٱعْتَدَىٰ V form VIII 14; عَدُوّ N 46
+- rare form عَدُوّ (ADJ):
+  - 4:92 عَدُوٍّ
+- rare form عُدْوَة (N):
+  - 8:42 عُدْوَةِ
+- rare form عَادَيْ (V form III):
+  - 60:7 عَادَيْ
+- rare form مُعْتَد (ADJ form VIII):
+  - 68:12 مُعْتَدٍ
+- rare form عَدْو (N):
+  - 6:108 عَدْوًۢا
+  - 10:90 عَدْوًا
+- rare form مُعْتَد (N form VIII):
+  - 50:25 مُعْتَدٍ
+  - 83:12 مُعْتَدٍ
+- rare form يَتَعَدَّ (V form V):
+  - 2:229 يَتَعَدَّ
+  - 4:14 يَتَعَدَّ
+  - 65:1 يَتَعَدَّ
+- rare form يَعْدُ (V):
+  - 4:154 تَعْدُ
+  - 7:163 يَعْدُ
+  - 18:28 تَعْدُ
+- rare form عَاد (N):
+  - 2:173 عَادٍ
+  - 6:145 عَادٍ
+  - 16:115 عَادٍ
+  - 23:7 عَادُونَ
+  - 26:166 عَادُونَ
+  - 70:31 عَادُونَ
+- rare form مُعْتَدِين (N):
+  - 2:190 مُعْتَدِينَ
+  - 5:87 مُعْتَدِينَ
+  - 6:119 مُعْتَدِينَ
+  - 7:55 مُعْتَدِينَ
+  - 9:10 مُعْتَدُونَ
+  - 10:74 مُعْتَدِينَ
+- rare form عَدَٰوَة (N):
+  - 5:14 عَدَاوَةَ
+  - 5:64 عَدَٰوَةَ
+  - 5:82 عَدَٰوَةً
+  - 5:91 عَدَٰوَةَ
+  - 41:34 عَدَٰوَةٌ
+  - 60:4 عَدَٰوَةُ
+- rare form عُدْوَٰن (N):
+  - 2:85 عُدْوَٰنِ
+  - 2:193 عُدْوَٰنَ
+  - 4:30 عُدْوَٰنًا
+  - 5:2 عُدْوَٰنِ
+  - 5:62 عُدْوَٰنِ
+  - 28:28 عُدْوَٰنَ
+  - 58:8 عُدْوَٰنِ
+  - 58:9 عُدْوَٰنِ
+- roots co-occurring across the listed ayat: ء ل ه (47), ء م ن (18), ك و ن (17), ب ي ن (17), ق و ل (14), ق و م (11), ر ب ب (10), ح ر م (9), ء ث م (8), غ ي ر (8), ب غ ي (7), ح د د (7), ق ت ل (6), ح ي ي (6)
+
+### U-ضبح root ض ب ح (focus word ضَبْحًا: ضَبْح N) — 1 occurrences in 1 ayat; same form 1, other forms 0
+- tier 1, same form (ضَبْح N): 1
+  - 100:1 ◀ focus ضَبْحًا
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+- 26:77 — Exact V12 bridge for the f02 adversarial reading; establishes a distinct root sense.
+- 6:108 — Direct V12 support for f02 and f04: transgression can propagate through reciprocal action.
+- 100:4 — Immediate f01 sequel: supplies the dust stage of the local movement chain.
+- 100:2 — Immediate f01 sequel: supplies the ignition stage following the opening force.
+- 100:3 — Immediate f01 sequel: fixes dawn incursion as the next stage of the chain.
+- 79:3 — Oath-like motion offers a distant formal parallel only.
+- 100:5 — Immediate f01 sequel: completes the movement chain with entry into a group center.
+- 77:2 — Oath-like driving force gives a secondary f01 formal-motion parallel.
+- 38:31 — Direct equine parallel: swift coursers make the physical-mount reading of f01 materially testable.
+- 59:6 — Direct martial-horse movement context; supplies a close Qur'anic frame for f01 and f02 together.
+- 8:60 — Prepared tethered horses connect force, hostile opposition, and the martial setting of f01/f02.
+- 9:120 — Physical strain and ground-crossing in a hostile expedition closely extend f01's bodily-cost aspect.
+- 3:121 — Early departure to arrange a battle line supplies a close dawn-and-martial frame for f01.
+- 51:4 — Begins the oath sequence of active feminine-plural agents represented later in the list.
+- 79:2 — The active oath series supplies a close formal parallel for an energized moving collective.
+- 43:67 — Extends f02 through a relation that turns into hostility; secondary after 26:77.
+- 23:7 — Supports f02 as boundary-crossing, while its speed link remains secondary.
+- 8:42 — Exact f05 bridge: unequal near, far, and lower positions frame a spatial maneuver.
+- 83:12 — Supports f02 by presenting transgression as a bounded moral trajectory.
+- 35:6 — Supports f04 by showing adversarial invitation and group formation.
+- 43:62 — Supports f02 through diversion from a route, not through the opening action itself.
+- 17:53 — Adds a verbal route by which f02 hostility can arise between persons.
+- 36:60 — Preserves f02 as an adversarial pull across a protected boundary.
+- 51:1 — Parallel opening movement image; useful for f01 without an exact route.
+- 46:6 — Supports f02 by exposing apparent affiliation as enmity; distinct relational angle.
+- 79:1 — Oath-like force supplies a limited parallel for the opening participial construction.
+- 20:123 — Strong Arabic enmity context preserves f02, but does not establish the movement sense.
+- 37:1 — Parallel oath formation gives a secondary structural comparison.
+- 100:8 — Later wealth theme may touch f04, but does not clarify 100:1 directly.
+- 28:15 — Shows factional urgency turning into bodily conflict, relevant to f02.
+- 2:190 — Clarifies f02 by marking a limit between combat and transgression.
+- 5:62 — Joins haste with transgression, giving limited support to f02's accelerated boundary crossing.
+- 41:19 — A controlled hostile gathering contrasts with the opening's self-propelled movement.
+- 58:9 — Shows speech functioning as an instrument of transgression, extending f02.
+- 5:2 — Connects aggression, hunting, and restraint; a secondary boundary context for f02.
+- 20:117 — Enemy-driven expulsion supplies a concrete f02 adverse trajectory.
+- 2:85 — Collective aggression gives a distinct social setting for f02.
+- 2:193 — Clarifies that force has a stopping boundary, supporting f02.
+- 5:14 — Exact V12 route: covenant rupture develops into enduring hostility for f02.
+- 68:12 — Exact V12 routes connect withholding and transgression to f02's hostile aspect.
+- 9:10 — Covenant and kinship protections define a distinct boundary for f02.
+- 72:8 — Bright projectiles provide a secondary ignition parallel for f03.
+- 104:2 — Adds the gathered-wealth side of f04, though the route is indirect.
+- 5:82 — Contrasts hostile distance and social closeness, extending f02 relationally.
+- 26:166 — Exact V12 support for f02 as departure from a defined relation.
+- 2:194 — Proportional response supplies a concrete limit on f02-type transgression.
+- 4:14 — Exact V12 route: chosen boundary crossing becomes constrained placement, sharpening f02.
+- 2:36 — Preserves the enmity reading in a descent setting; parallel to 20:123.
+- 7:55 — Exact V12 route frames approach as bounded rather than transgressive, a useful f02 limit.
+- 3:103 — Hostility-to-solidarity reversal gives a distinct relational counterpart to f02.
+- 25:31 — Prophetic opposition supplies a distinct adversarial context for f02.
+- 4:154 — Exact V12 route makes covenant boundaries spatially enacted, supporting f02.
+- 4:101 — Travel under an explicit enemy threat gives a secondary physical setting for f02.
+- 60:1 — Exact V12 route distinguishes hostile allegiance from ordinary relation, extending f02.
+- 5:91 — Exact V12 route shows practices installing enmity among people, extending f02.
+- 41:34 — Exact V12 route supplies reversal of enmity, a meaningful f02 counterpart.
+- 6:112 — Exact V12 route presents distributed adversarial communication, extending f02.
+- 51:2 — Parallel oath participle and carrying motion give a secondary f01 comparison.
+- 63:4 — Exact V12 route treats enmity as an active obstructive function, extending f02.
+- 37:2 — Parallel oath of forceful driving gives a secondary f01 comparison.
+- 37:10 — Pursuit by a piercing flame is a secondary f03 ignition-and-pursuit parallel.
+- 16:9 — Route deviation supplies a distinct f02 boundary-direction counterpart.
+- 10:22 — Forceful wind-driven travel provides a secondary physical-motion parallel for f01.
+- 10:90 — Aggressive pursuit directly preserves the f02 alternative, though late and non-exclusive.
+- 17:64 — Cavalry and foot-force imagery supplies a secondary incursion frame for f02.
+- 16:8 — Names horses as mounts, giving a basic physical referent for the f01 reading.
+- 7:176 — Persistent panting is a close bodily-breathing parallel, though its animal and scene differ.
+- 27:17 — A mustered, ordered force provides a secondary collective-motion frame for f01 and f05.
+- 27:18 — Anticipated trampling by an approaching force sharpens the incursion side of f01/f05.
+- 3:200 — Readiness at a station supplies a secondary martial preparation context for f01/f02.
+- 79:4 — The oath-sequence's racing action is a close formal-motion parallel for f01.
+- 51:3 — Another oath sequence of fluent movement gives a secondary formal parallel for f01.
+- 81:16 — Running and withdrawing motion provides a controlled celestial parallel, not an exact route.
+- 22:27 — Long-distance arrival on worn mounts adds an animal-travel and exertion counterpart to f01.
+- 36:20 — Running from a city's far side gives a distinct f05 route-from-edge-to-center parallel.
+- 28:20 — A runner arriving from the city's far side corroborates the f05 spatial-maneuver parallel.
+- 3:156 — The raid/expedition setting gives a direct martial counterpart to the f01-f02 chain.
+- 8:15 — An advancing hostile encounter and the prohibition on turning away sharpen f01's charge context.
+- 8:45 — Meeting an opposing force supplies a concise collective-engagement setting for f01/f02.
+- 9:41 — Commanded departure under varying burdens gives a secondary exertion-and-expedition parallel.
+- 56:75 — Begins another formal oath sequence with directional motion.
+- 56:76 — The opening oath begins a tightly ordered multi-witness sequence.
+- 74:51 — Charging, snorting steeds support the secondary reading of qaswarah as an advancing force.
+- 77:1 — Its plural participial oath offers a formal parallel, though its referents are more concrete.
+- 70:31 — Duplicates 23:7 and offers only a weak speed-boundary association.
+- 61:14 — Generic adversarial setting; adds little beyond the earlier f02 evidence.
+- 100:10 — Later disclosure theme does not clarify the opening action.
+- 103:1 — Generic oath form, already represented by closer oath parallels.
+- 4:30 — General transgression consequence; weaker than the prior f02 boundary cards.
+- 4:45 — Generic adversary identification; little added mechanism for 100:1.
+- 100:9 — Later accountability theme does not explain the opening image.
+- 2:98 — Generic hostile alignment; no added account of the focus action.
+- 2:97 — Generic adversarial alignment; only a remote f02 parallel.
+- 100:7 — Later witness theme does not clarify the opening image.
+- 100:11 — Later divine knowledge theme does not explain the opening action.
+- 2:208 — Enemy-following route is a remote, already-covered f02 parallel.
+- 54:45 — Retreating a defeated group is only a loose movement contrast.
+- 2:178 — Legal excess is a broad boundary example, weaker than prior f02 cards.
+- 5:78 — General persistent transgression; little new after earlier boundary evidence.
+- 2:231 — A domestic legal misuse gives only a distant f02 boundary parallel.
+- 3:112 — General transgression consequence; redundant boundary evidence.
+- 2:65 — A specific legal-boundary case, weaker than broader f02 evidence.
+- 2:61 — General transgression context; no opening-action contribution.
+- 2:173 — Necessity exception offers a broad, redundant boundary analogy.
+- 4:92 — Enemy-group classification adds no account of the opening movement.
+- 2:168 — Enemy-following through steps is a remote f02 analogy.
+- 2:229 — Detailed legal limits repeat the boundary theme without clarifying 100:1.
+- 7:24 — Repeats the descent-and-enmity evidence already supplied by 2:36 and 20:123.
+- 52:6 — Oath syntax alone is too general after closer formal parallels.
+- 93:1 — Generic oath form, redundant with earlier oath cards.
+- 16:115 — Duplicates the necessity-boundary point of 2:173.
+- 16:12 — Celestial subjection is too remote from the focus action.
+- 18:95 — A barrier-between relation is only a loose f05 spatial analogy.
+- 3:14 — Horses as valued possessions give only an indirect physical-horse backdrop.
+- 16:5 — Horses in motion provide a secondary transport parallel, without the provision frame.
+- 38:33 — The charging horses furnish a distinct horse-motion image, but not the recall or disputed action in the focus.
+- 40:79 — The charging steeds evoke ridden animals, but in a martial rather than provisioning setting.
+- 50:25 — Hostile rushing offers only a loose transgression parallel.
+- 69:38 — A formal oath member is redundant after closer oath parallels.
+- 89:1 — Rushing movement supplies no focused dawn route.

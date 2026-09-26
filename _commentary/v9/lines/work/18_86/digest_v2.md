@@ -1,0 +1,560 @@
+# Quranic reach for 18:86 (script digest, unjudged)
+
+Candidates for reading the ayah through the Quran itself. Nothing here is a finding yet: judge each one.
+
+## 1. Variant readings (qirāʾāt)
+
+- word 10 · حَامِيَةٍ (ḥāmiyatin) · Lvw · Canonical variant: active participle from ḥ-m-y "to be hot, to protect" — shifts description from dark-muddy to hot/heated spring
+
+## 2. Usage: each root of the ayah across the Quran (ref and the word as it occurs)
+
+### U-بلغ root ب ل غ (focus word بَلَغَ: بَلَغَ V) — 75 occurrences in 73 ayat; same form 38, other forms 37
+- tier 1, same form (بَلَغَ V): 38
+  - 2:196 يَبْلُغَ
+  - 2:231 بَلَغْ
+  - 2:232 بَلَغْ
+  - 2:234 بَلَغْ
+  - 2:235 يَبْلُغَ
+  - 3:40 بَلَغَ
+  - 4:6 بَلَغُ
+  - 6:19 بَلَغَ
+  - 6:128 بَلَغْ
+  - 6:152 يَبْلُغَ
+  - 12:22 بَلَغَ
+  - 13:14 يَبْلُغَ
+  - 17:23 يَبْلُغَ
+  - 17:34 يَبْلُغَ
+  - 17:37 تَبْلُغَ
+  - 18:60 [same surah] أَبْلُغَ
+  - 18:61 [same surah] بَلَغَ
+  - 18:76 [same surah] بَلَغْ
+  - 18:82 [same surah] يَبْلُغَ
+  - 18:86 ◀ focus بَلَغَ
+  - 18:90 [same surah] بَلَغَ
+  - 18:93 [same surah] بَلَغَ
+  - 19:8 بَلَغْ
+  - 22:5 تَبْلُغُ
+  - 24:58 يَبْلُغُ
+  - 24:59 بَلَغَ
+  - 28:14 بَلَغَ
+  - 33:10 بَلَغَتِ
+  - 34:45 بَلَغُ
+  - 37:102 بَلَغَ
+  - 40:36 أَبْلُغُ
+  - 40:67 تَبْلُغُ
+  - 40:80 تَبْلُغُ
+  - 46:15 بَلَغَ
+  - 48:25 يَبْلُغَ
+  - 56:83 بَلَغَتِ
+  - 65:2 بَلَغْ
+  - 75:26 بَلَغَتِ
+- tier 2, other forms: بَلِيغ ADJ 1; مَبْلَغ N 1; بَٰلِغَة N 1; بَٰلِغَة ADJ 2; أَبْلَغُ V form IV 5; بَلَّغْ V form II 6; بَٰلِغ N 6; بَلَٰغ N 15
+- rare form بَلِيغ (ADJ):
+  - 4:63 بَلِيغًا
+- rare form مَبْلَغ (N):
+  - 53:30 مَبْلَغُ
+- rare form بَٰلِغَة (N):
+  - 54:5 بَٰلِغَةٌ
+- rare form بَٰلِغَة (ADJ):
+  - 6:149 بَٰلِغَةُ
+  - 68:39 بَٰلِغَةٌ
+- rare form أَبْلَغُ (V form IV):
+  - 7:79 أَبْلَغْ
+  - 7:93 أَبْلَغْ
+  - 9:6 أَبْلِغْ
+  - 11:57 أَبْلَغْ
+  - 72:28 أَبْلَغُ
+- rare form بَلَّغْ (V form II):
+  - 5:67 بَلِّغْ
+  - 5:67 بَلَّغْ
+  - 7:62 أُبَلِّغُ
+  - 7:68 أُبَلِّغُ
+  - 33:39 يُبَلِّغُ
+  - 46:23 أُبَلِّغُ
+- rare form بَٰلِغ (N):
+  - 5:95 بَٰلِغَ
+  - 7:135 بَٰلِغُو
+  - 13:14 بَٰلِغِ
+  - 16:7 بَٰلِغِي
+  - 40:56 بَٰلِغِي
+  - 65:3 بَٰلِغُ
+- roots co-occurring across the listed ayat: ء ل ه (49), ق و ل (28), ع ل م (27), ر ب ب (18), ك و ن (18), ش ي ء (15), ر س ل (11), ق و م (11), ء ج ل (10), ء م ن (9), ش د د (9), ح ك م (9), ن ف س (8), ع ر ف (8)
+
+### U-غرب root غ ر ب (focus word مَغْرِبَ: مَغْرِب N) — 19 occurrences in 17 ayat; same form 10, other forms 9
+- tier 1, same form (مَغْرِب N): 10
+  - 2:115 مَغْرِبُ
+  - 2:142 مَغْرِبُ
+  - 2:177 مَغْرِبِ
+  - 2:258 مَغْرِبِ
+  - 7:137 مَغَٰرِبَ
+  - 18:86 ◀ focus مَغْرِبَ
+  - 26:28 مَغْرِبِ
+  - 55:17 مَغْرِبَيْنِ
+  - 70:40 مَغَٰرِبِ
+  - 73:9 مَغْرِبِ
+- tier 2, other forms: غَرْبِيَّة N 1; غَرْبِىّ ADJ 1; غَرَابِيب N 1; غُرَاب N 2; غَرَبَت V 2; غُرُوب N 2
+- rare form غَرْبِيَّة (N):
+  - 24:35 غَرْبِيَّةٍ
+- rare form غَرْبِىّ (ADJ):
+  - 28:44 غَرْبِىِّ
+- rare form غَرَابِيب (N):
+  - 35:27 غَرَابِيبُ
+- rare form غُرَاب (N):
+  - 5:31 غُرَابًا
+  - 5:31 غُرَابِ
+- rare form غَرَبَت (V):
+  - 18:17 [same surah] غَرَبَت
+  - 18:86 ◀ focus تَغْرُبُ
+- rare form غُرُوب (N):
+  - 20:130 غُرُوبِ
+  - 50:39 غُرُوبِ
+- roots co-occurring across the listed ayat: ء ل ه (17), ش ر ق (10), ر ب ب (10), ق و ل (9), ك و ن (8), ق ب ل (6), ن و ر (6), ه د ي (5), ق و م (5), ء ت ي (5), ر ء ي (4), و ل ي (4), ص ب ر (4), ش م س (4)
+
+### U-شمس root ش م س (focus word ٱلشَّمْسِ: شَمْس N) — 33 occurrences in 32 ayat; same form 33, other forms 0
+- tier 1, same form (شَمْس N): 33
+  - 2:258 شَّمْسِ
+  - 6:78 شَّمْسَ
+  - 6:96 شَّمْسَ
+  - 7:54 شَّمْسَ
+  - 10:5 شَّمْسَ
+  - 12:4 شَّمْسَ
+  - 13:2 شَّمْسَ
+  - 14:33 شَّمْسَ
+  - 16:12 شَّمْسَ
+  - 17:78 شَّمْسِ
+  - 18:17 [same surah] شَّمْسَ
+  - 18:86 ◀ focus شَّمْسِ
+  - 18:90 [same surah] شَّمْسِ
+  - 20:130 شَّمْسِ
+  - 21:33 شَّمْسَ
+  - 22:18 شَّمْسُ
+  - 25:45 شَّمْسَ
+  - 27:24 شَّمْسِ
+  - 29:61 شَّمْسَ
+  - 31:29 شَّمْسَ
+  - 35:13 شَّمْسَ
+  - 36:38 شَّمْسُ
+  - 36:40 شَّمْسُ
+  - 39:5 شَّمْسَ
+  - 41:37 شَّمْسُ
+  - 41:37 شَّمْسِ
+  - 50:39 شَّمْسِ
+  - 55:5 شَّمْسُ
+  - 71:16 شَّمْسَ
+  - 75:9 شَّمْسُ
+  - 76:13 شَمْسًا
+  - 81:1 شَّمْسُ
+  - 91:1 شَّمْسِ
+- roots co-occurring across the listed ayat: ق م ر (19), ء ل ه (18), ل ي ل (15), ن ه ر (13), س خ ر (10), ر ء ي (10), ر ب ب (10), س م و (9), ق و ل (9), خ ل ق (7), ق و م (7), ج ع ل (7), ك ل ل (6), ج ر ي (5)
+
+### U-وجد root و ج د (focus word وَجَدَهَا: وَجَدَ V) — 102 occurrences in 99 ayat; same form 101, other forms 1
+- tier 1, same form (وَجَدَ V): 101 — common form, not listed
+- tier 2, other forms: وُجْد N 1
+- rare form وُجْد (N):
+  - 65:6 وُجْدِ
+- roots co-occurring across the listed ayat: س ك ن (2), ح م ل (2), ر ض ع (2)
+
+### U-عين root ع ي ن (focus word عَيْنٍ: عَيْن N) — 64 occurrences in 63 ayat; same form 56, other forms 8
+- tier 1, same form (عَيْن N): 56 — common form, not listed
+- tier 2, other forms: عِين ADJ 1; مَّعِين ADJ 1; مَّعِين N 3; عِين N 3
+- rare form عِين (ADJ):
+  - 56:22 عِينٌ
+- rare form مَّعِين (ADJ):
+  - 67:30 مَّعِينٍۭ
+- rare form مَّعِين (N):
+  - 23:50 مَعِينٍ
+  - 37:45 مَّعِينٍۭ
+  - 56:18 مَّعِينٍ
+- rare form عِين (N):
+  - 37:48 عِينٌ
+  - 44:54 عِينٍ
+  - 52:20 عِينٍ
+- roots co-occurring across the listed ayat: ح و ر (3), ز و ج (2), م و ه (2), ك ء س (2)
+
+### U-حمء root ح م ء (focus word حَمِئَةٍ: حَمِئَة ADJ) — 4 occurrences in 4 ayat; same form 1, other forms 3
+- tier 1, same form (حَمِئَة ADJ): 1
+  - 18:86 ◀ focus حَمِئَةٍ
+- tier 2, other forms: حَمَإ N 3
+- rare form حَمَإ (N):
+  - 15:26 حَمَإٍ
+  - 15:28 حَمَإٍ
+  - 15:33 حَمَإٍ
+- roots co-occurring across the listed ayat: خ ل ق (3), ص ل ص ل (3), س ن ن (3), ق و ل (2), ب ش ر (2)
+
+### U-عند root ع ن د (focus word عِندَهَا: عِند LOC) — 192 occurrences in 189 ayat; same form 154, other forms 38
+- tier 1, same form (عِند LOC): 154 — common form, not listed
+- tier 2, other forms: عَنِيد N 1; عَنِيد ADJ 3; عِند N 34
+- rare form عَنِيد (N):
+  - 74:16 عَنِيدًا
+- rare form عَنِيد (ADJ):
+  - 11:59 عَنِيدٍ
+  - 14:15 عَنِيدٍ
+  - 50:24 عَنِيدٍ
+- roots co-occurring across the listed ayat: ك ل ل (3), ء ي ي (2), ج ب ر (2)
+
+### U-قوم root ق و م (focus word قَوْمًا: قَوْم N) — 643 occurrences in 597 ayat; same form 369, other forms 274
+- tier 1, same form (قَوْم N): 369 — common form, not listed
+- tier 2, other forms: قَآئِمَة ADJ 1; قِيَم ADJ 1; إِقَامَت N form IV 1; قَوَام N 1; مُقَامَة N form IV 1; تَقْوِيم N form II 1; قَيِّمَة ADJ 1; قَيِّمَة N 1; مُّقِيم ADJ form IV 2; إِقَام N form IV 2; قَيُّوم ADJ 3; قَوَّٰمِين N 3; مُقَام N form IV 3; أَقْوَم N 4; قَآئِمَة N 4; قَيِّم ADJ 5; مُّقِيم N form IV 8; ٱسْتَقَٰمُ V form X 10; مُّسْتَقِيم ADJ form X 14; مَقَام N 14; قَآئِم N 17; مُّسْتَقِيم N form X 23; قَامَ V 31; أَقَامَ V form IV 53; قِيَٰمَة N 70
+- rare form قَآئِمَة (ADJ):
+  - 3:113 قَآئِمَةٌ
+- rare form قِيَم (ADJ):
+  - 6:161 قِيَمًا
+- rare form إِقَامَت (N form IV):
+  - 16:80 إِقَامَتِ
+- rare form قَوَام (N):
+  - 25:67 قَوَامًا
+- rare form مُقَامَة (N form IV):
+  - 35:35 مُقَامَةِ
+- rare form تَقْوِيم (N form II):
+  - 95:4 تَقْوِيمٍ
+- rare form قَيِّمَة (ADJ):
+  - 98:3 قَيِّمَةٌ
+- rare form قَيِّمَة (N):
+  - 98:5 قَيِّمَةِ
+- rare form مُّقِيم (ADJ form IV):
+  - 5:37 مُّقِيمٌ
+  - 42:45 مُّقِيمٍ
+- rare form إِقَام (N form IV):
+  - 21:73 إِقَامَ
+  - 24:37 إِقَامِ
+- rare form قَيُّوم (ADJ):
+  - 2:255 قَيُّومُ
+  - 3:2 قَيُّومُ
+  - 20:111 قَيُّومِ
+- rare form قَوَّٰمِين (N):
+  - 4:34 قَوَّٰمُونَ
+  - 4:135 قَوَّٰمِينَ
+  - 5:8 قَوَّٰمِينَ
+- rare form مُقَام (N form IV):
+  - 25:66 مُقَامًا
+  - 25:76 مُقَامًا
+  - 33:13 مُقَامَ
+- rare form أَقْوَم (N):
+  - 2:282 أَقْوَمُ
+  - 4:46 أَقْوَمَ
+  - 17:9 أَقْوَمُ
+  - 73:6 أَقْوَمُ
+- rare form قَآئِمَة (N):
+  - 11:71 قَآئِمَةٌ
+  - 18:36 [same surah] قَآئِمَةً
+  - 41:50 قَآئِمَةً
+  - 59:5 قَآئِمَةً
+- rare form قَيِّم (ADJ):
+  - 9:36 قَيِّمُ
+  - 12:40 قَيِّمُ
+  - 18:2 [same surah] قَيِّمًا
+  - 30:30 قَيِّمُ
+  - 30:43 قَيِّمِ
+- roots co-occurring across the listed ayat: ء ل ه (33), ك و ن (12), ك ت ب (12), د ي ن (11), ش ه د (9), ع ل م (8), ق و ل (8), ء م ن (7), ي و م (6), س م و (6), ر ج ل (5), س م ع (5), ع م ل (5), ع د ل (5)
+
+### U-قرن root ق ر ن (focus word ٱلْقَرْنَيْنِ: قَرْن N) — 35 occurrences in 34 ayat; same form 23, other forms 12
+- tier 1, same form (قَرْن N): 23
+  - 6:6 قَرْنٍ
+  - 6:6 قَرْنًا
+  - 10:13 قُرُونَ
+  - 11:116 قُرُونِ
+  - 17:17 قُرُونِ
+  - 18:83 [same surah] قَرْنَيْنِ
+  - 18:86 ◀ focus قَرْنَيْنِ
+  - 18:94 [same surah] قَرْنَيْنِ
+  - 19:74 قَرْنٍ
+  - 19:98 قَرْنٍ
+  - 20:51 قُرُونِ
+  - 20:128 قُرُونِ
+  - 23:31 قَرْنًا
+  - 23:42 قُرُونًا
+  - 25:38 قُرُونًۢا
+  - 28:43 قُرُونَ
+  - 28:45 قُرُونًا
+  - 28:78 قُرُونِ
+  - 32:26 قُرُونِ
+  - 36:31 قُرُونِ
+  - 38:3 قَرْنٍ
+  - 46:17 قُرُونُ
+  - 50:36 قَرْنٍ
+- tier 2, other forms: مُّقَرَّنِين ADJ form II 1; مُقْرِنِين N form IV 1; مُقْتَرِنِين N form VIII 1; مُّقَرَّنِين N form II 2; قَرِين N 7
+- rare form مُّقَرَّنِين (ADJ form II):
+  - 38:38 مُقَرَّنِينَ
+- rare form مُقْرِنِين (N form IV):
+  - 43:13 مُقْرِنِينَ
+- rare form مُقْتَرِنِين (N form VIII):
+  - 43:53 مُقْتَرِنِينَ
+- rare form مُّقَرَّنِين (N form II):
+  - 14:49 مُّقَرَّنِينَ
+  - 25:13 مُّقَرَّنِينَ
+- rare form قَرِين (N):
+  - 4:38 قَرِينًا
+  - 37:51 قَرِينٌ
+  - 41:25 قُرَنَآءَ
+  - 43:36 قَرِينٌ
+  - 43:38 قَرِينُ
+  - 50:23 قَرِينُ
+  - 50:27 قَرِينُ
+- roots co-occurring across the listed ayat: ق و ل (13), ق ب ل (13), ه ل ك (13), ك و ن (11), ب ي ن (7), ب ع د (7), ء و ل (5), ر ء ي (5), ء خ ر (5), ء ل ه (4), ج ر م (4), ذ ك ر (4), ن ش ء (4), ء م ن (3)
+
+### U-عذب root ع ذ ب (focus word تُعَذِّبَ: عَذَّبَ V form II) — 364 occurrences in 336 ayat; same form 39, other forms 325
+- tier 1, same form (عَذَّبَ V form II): 39
+  - 2:284 يُعَذِّبُ
+  - 3:56 أُعَذِّبُ
+  - 3:128 يُعَذِّبَ
+  - 3:129 يُعَذِّبُ
+  - 4:173 يُعَذِّبُ
+  - 5:18 يُعَذِّبُ
+  - 5:40 يُعَذِّبُ
+  - 5:115 أُعَذِّبُ
+  - 5:118 تُعَذِّبْ
+  - 8:33 يُعَذِّبَ
+  - 8:34 يُعَذِّبَ
+  - 9:14 يُعَذِّبْ
+  - 9:26 عَذَّبَ
+  - 9:39 يُعَذِّبْ
+  - 9:55 يُعَذِّبَ
+  - 9:66 نُعَذِّبْ
+  - 9:74 يُعَذِّبْ
+  - 9:85 يُعَذِّبَ
+  - 9:101 نُعَذِّبُ
+  - 9:106 يُعَذِّبُ
+  - 17:54 يُعَذِّبْ
+  - 18:86 ◀ focus تُعَذِّبَ
+  - 18:87 [same surah] نُعَذِّبُ
+  - 18:87 [same surah] يُعَذِّبُ
+  - 20:47 تُعَذِّبْ
+  - 27:21 أُعَذِّبَ
+  - 29:21 يُعَذِّبُ
+  - 33:24 يُعَذِّبَ
+  - 33:73 يُعَذِّبَ
+  - 48:6 يُعَذِّبَ
+  - 48:14 يُعَذِّبُ
+  - 48:16 يُعَذِّبْ
+  - 48:17 يُعَذِّبْ
+  - 48:25 عَذَّبْ
+  - 58:8 يُعَذِّبُ
+  - 59:3 عَذَّبَ
+  - 65:8 عَذَّبْ
+  - 88:24 يُعَذِّبُ
+  - 89:25 يُعَذِّبُ
+- tier 2, other forms: عَذْب N 2; مُعَذِّب N form II 4; مُعَذَّبِين N form II 4; عَذَاب N 315
+- rare form عَذْب (N):
+  - 25:53 عَذْبٌ
+  - 35:12 عَذْبٌ
+- rare form مُعَذِّب (N form II):
+  - 7:164 مُعَذِّبُ
+  - 8:33 مُعَذِّبَ
+  - 17:15 مُعَذِّبِينَ
+  - 17:58 مُعَذِّبُو
+- rare form مُعَذَّبِين (N form II):
+  - 26:138 مُعَذَّبِينَ
+  - 26:213 مُعَذَّبِينَ
+  - 34:35 مُعَذَّبِينَ
+  - 37:59 مُعَذَّبِينَ
+- roots co-occurring across the listed ayat: ء ل ه (43), ش ي ء (21), ق و ل (13), غ ف ر (11), ك و ن (11), ك ف ر (11), ع ل م (9), ر س ل (9), و ل ي (8), ء م ن (8), ر ح م (7), ن ف ق (7), ء ر ض (6), ش د د (6)
+
+### U-ءخذ root ء خ ذ (focus word تَتَّخِذَ: ٱتَّخَذَ V form VIII) — 265 occurrences in 244 ayat; same form 122, other forms 143
+- tier 1, same form (ٱتَّخَذَ V form VIII): 122 — common form, not listed
+- tier 2, other forms: ٱتِّخَاذ N form VIII 1; آخِذ N 3; مُتَّخِذ N form VIII 3; أَخْذ N 6; يُؤَاخِذُ V form III 7; أَخَذَ V 123
+- rare form ٱتِّخَاذ (N form VIII):
+  - 2:54 ٱتِّخَاذِ
+- rare form آخِذ (N):
+  - 2:267 ـَٔاخِذِي
+  - 11:56 ءَاخِذٌۢ
+  - 51:16 ءَاخِذِينَ
+- rare form مُتَّخِذ (N form VIII):
+  - 4:25 مُتَّخِذَٰتِ
+  - 5:5 مُتَّخِذِىٓ
+  - 18:51 [same surah] مُتَّخِذَ
+- rare form أَخْذ (N):
+  - 4:161 أَخْذِ
+  - 11:102 أَخْذُ
+  - 11:102 أَخْذَ
+  - 54:42 أَخْذَ
+  - 69:10 أَخْذَةً
+  - 73:16 أَخْذًا
+- rare form يُؤَاخِذُ (V form III):
+  - 2:225 يُؤَاخِذُ
+  - 2:286 تُؤَاخِذْ
+  - 5:89 يُؤَاخِذُ
+  - 16:61 يُؤَاخِذُ
+  - 18:58 [same surah] يُؤَاخِذُ
+  - 18:73 [same surah] تُؤَاخِذْ
+  - 35:45 يُؤَاخِذُ
+- roots co-occurring across the listed ayat: ء ل ه (12), ر ب ب (10), ح ص ن (7), ك س ب (6), ء ت ي (6), ء م ن (6), ي م ن (6), ك ف ر (5), ق و م (4), ء خ ر (4), ء ج ل (4), ط ع م (4), غ ف ر (4), ر ح م (4)
+
+### U-حسن root ح س ن (focus word حُسْنًا: حُسْن N) — 192 occurrences in 177 ayat; same form 13, other forms 179
+- tier 1, same form (حُسْن N): 13
+  - 2:83 حُسْنًا
+  - 3:14 حُسْنُ
+  - 3:148 حُسْنَ
+  - 3:195 حُسْنُ
+  - 13:29 حُسْنُ
+  - 18:86 ◀ focus حُسْنًا
+  - 27:11 حُسْنًۢا
+  - 29:8 حُسْنًا
+  - 33:52 حُسْنُ
+  - 38:25 حُسْنَ
+  - 38:40 حُسْنَ
+  - 38:49 حُسْنَ
+  - 42:23 حُسْنًا
+- tier 2, other forms: حُسْنَيَيْن ADJ 1; أَحْسَن ADJ 1; مُحْسِنَٰت N form IV 1; حَسَن N 1; حَسُنَ V 3; حَسَنَة ADJ 3; حَسَنَٰت N 3; حُسْنَىٰ ADJ 7; حُسْنَىٰ N 10; إِحْسَٰن N form IV 12; أَحْسَنَ V form IV 20; حَسَن ADJ 20; حَسَنَة N 24; أَحْسَن N 35; مُحْسِن N form IV 38
+- rare form حُسْنَيَيْن (ADJ):
+  - 9:52 حُسْنَيَيْنِ
+- rare form أَحْسَن (ADJ):
+  - 23:14 أَحْسَنُ
+- rare form مُحْسِنَٰت (N form IV):
+  - 33:29 مُحْسِنَٰتِ
+- rare form حَسَن (N):
+  - 35:8 حَسَنًا
+- rare form حَسُنَ (V):
+  - 4:69 حَسُنَ
+  - 18:31 [same surah] حَسُنَتْ
+  - 25:76 حَسُنَتْ
+- rare form حَسَنَة (ADJ):
+  - 4:85 حَسَنَةً
+  - 60:4 حَسَنَةٌ
+  - 60:6 حَسَنَةٌ
+- rare form حَسَنَٰت (N):
+  - 7:168 حَسَنَٰتِ
+  - 11:114 حَسَنَٰتِ
+  - 25:70 حَسَنَٰتٍ
+- rare form حُسْنَىٰ (ADJ):
+  - 7:137 حُسْنَىٰ
+  - 7:180 حُسْنَىٰ
+  - 13:18 حُسْنَىٰ
+  - 17:110 حُسْنَىٰ
+  - 18:88 [same surah] حُسْنَىٰ
+  - 20:8 حُسْنَىٰ
+  - 59:24 حُسْنَىٰ
+- rare form حُسْنَىٰ (N):
+  - 4:95 حُسْنَىٰ
+  - 9:107 حُسْنَىٰ
+  - 10:26 حُسْنَىٰ
+  - 16:62 حُسْنَىٰ
+  - 21:101 حُسْنَىٰٓ
+  - 41:50 حُسْنَىٰ
+  - 53:31 حُسْنَى
+  - 57:10 حُسْنَىٰ
+  - 92:6 حُسْنَىٰ
+  - 92:9 حُسْنَىٰ
+- roots co-occurring across the listed ayat: ء ل ه (42), ك و ن (14), ع م ل (13), س و ء (9), ق و ل (8), س م و (8), ع ن د (7), ء م ن (7), ق و م (7), ص ل ح (6), خ ل ق (6), ء ر ض (6), ث و ب (6), ء و ب (5)
+
+## 3. Related passages (reciprocal inter-ayah candidates, strongest first: the ayah and why it may bear on the focus, as an earlier review saw it — a lead to test, not a finding)
+
+### Formula group (ش م س + غ ر ب + ق و ل): these ayat share the roots with the focus
+- 50:39 — It joins patience and praise around sunrise and sunset, but lacks the focus's journey and governance.
+- 20:130 — Sunrise and sunset frame patient praise, providing a devotional counterpart to the focus's solar scene.
+
+### Formula group (ب ل غ + ح س ن + ق و ل): these ayat share the roots with the focus
+- 6:152 — Only loosely joins reaching an endpoint with choosing a better course.
+- 18:84 — God-given establishment and means explain the authority and mobility behind the focus's encounter and choice.
+- 18:94 — A later community's appeal to Dhu al-Qarnayn shows the continuing public and protective use of his entrusted authority.
+- 18:85 — The immediately preceding following of a means leads directly to the focus's western arrival.
+- 18:87 — The immediate continuation specifies the punishment branch of the choice given in the focus.
+- 18:88 — The immediate continuation specifies the good treatment and reward branch of the choice given in the focus.
+- 18:89 — The next act of following a means continues the itinerary begun before the focus.
+- 18:92 — Following a means again marks the continuing movement from one public encounter to another.
+- 18:83 — It introduces the account of Dhu al-Qarnayn of which the focus is a central scene.
+- 18:95 — Dhu al-Qarnayn attributes his capacity to his Lord and uses communal help for protection, developing responsible rule after the focus.
+- 4:52 — Divine curse and lack of support do not clarify the focus's particular alternatives.
+- 18:96 — The barrier construction concretely shows Dhu al-Qarnayn exercising the practical authority introduced in the focus.
+- 4:58 — Commands those entrusted with authority to return trusts and judge people with justice, directly framing responsible power.
+- 5:8 — Commands justice even amid hostility, a close criterion for the focus's choice of how to treat an encountered people.
+- 4:135 — Requires steadfast justice despite personal or social interest, supplying a governing norm for the focus's authority.
+- 16:90 — Joins justice with excellent treatment, closely mirroring the focus's alternatives of punishment and goodness.
+- 38:26 — David is made a successor and commanded to judge people by truth rather than desire, an especially close authority parallel.
+- 42:40 — Allows proportionate response to harm but commends pardon and reconciliation, directly balancing punishment with goodness.
+- 18:90 — The paired eastern arrival repeats the journey-to-a-people structure and frames the western encounter within the same itinerary.
+- 18:93 — A later arrival at a people repeats the focus's travel-and-encounter pattern in the same account.
+- 18:17 — Its sun setting imagery in the same surah forms a natural parallel, though its cave setting has no governing choice.
+- 18:60 — Moses's resolve to reach a distant meeting point supplies a limited parallel of purposeful travel to a boundary.
+- 20:65 — The alternative formulation resembles the focus's choice form, but the magicians' contest is otherwise unrelated.
+- 18:91 — God's encompassing knowledge follows the eastern encounter and supports the wider narrative frame of the journeys.
+- 18:61 — A journey reaches a water-boundary and reveals an unexpected passage, a limited narrative parallel to the focus's arrival.
+- 18:97 — The barrier's effectiveness continues the later account of protective action by the figure in the focus.
+- 18:98 — Dhu al-Qarnayn's attribution of the barrier to divine mercy qualifies the power exercised across this narrative.
+- 12:22 — Reaching maturity and receiving judgment and knowledge do not clarify the focus's encounter.
+- 34:12 — Sulayman's God-given command of resources and punishment for defection parallels entrusted power, though in a different account.
+- 12:75 — The proposed recompense for a wrongdoer offers a concrete, though different, model of assigning consequence.
+- 4:110 — Wrongdoing followed by seeking forgiveness supplies a merciful alternative to punishment, though outside the focus's narrative setting.
+- 8:33 — The withholding of punishment amid repentance provides a meaningful contrast to immediate punitive authority.
+- 18:82 — The preceding Moses narrative reveals hidden divine wisdom behind apparently harsh acts, a contextual contrast for interpreting judgment in the focus.
+- 11:3 — Repentance is joined to warning of a great punishment, giving a broad moral frame for the focus's punitive branch.
+- 4:64 — Wrongdoing, repentance, and mercy offer a secondary counterweight to the focus's option of punishment.
+- 18:99 — The narrative continuation moves from Dhu al-Qarnayn's completed work to the final divine promise, placing his action within its limit.
+- 38:20 — God strengthens David's dominion and gives wisdom and decisive judgment, paralleling divinely enabled rule.
+- 21:78 — David and Solomon judge a public dispute, offering a concrete prophetic model of adjudication.
+- 21:79 — God grants Solomon understanding in judgment while affirming power and wisdom for both rulers.
+- 2:251 — David receives kingship and wisdom from God, supporting the theme that political capacity is divinely bestowed.
+- 2:247 — Talut's divinely chosen kingship links authority with knowledge and bodily capacity rather than private preference.
+- 4:54 — God grants Abraham's family scripture, wisdom, and a great kingdom, a broad parallel to endowed governance.
+- 27:15 — David and Solomon receive knowledge and respond with gratitude, qualifying the use of bestowed capability.
+- 27:16 — Solomon inherits David and speaks of gifts of rule, a secondary parallel to gifted political capacity.
+- 34:10 — David's granted bounty and command to act righteously pair power with accountable action.
+- 12:54 — Joseph is placed in a secure, trusted position, offering a narrative parallel of delegated authority.
+- 12:55 — Joseph requests custodianship on the basis of knowledge and trustworthiness, a criterion for handling public resources.
+- 17:15 — States that punishment follows the delivery of a messenger, marking a divine limit relevant to punitive judgment.
+- 17:33 — Forbids excess in retaliation, constraining the punitive side of the focus's stated choice.
+- 2:190 — Commands fighting without transgression, a legal boundary for using force against others.
+- 5:45 — Sets proportionate retribution while presenting forgiveness as an expiation, preserving both justice and mercy.
+- 49:9 — Commands intervention against aggression and then reconciliation with justice, a communal model of measured authority.
+- 8:61 — Commands acceptance of peace when the other side inclines to it, qualifying the use of coercive power.
+- 20:44 — Even when confronting Pharaoh, Moses and Aaron are told to speak gently, a clear mercy-side counterpart.
+- 4:94 — Requires verification before taking a life and prohibits treating a greeting person as an enemy, restraining hasty punishment.
+- 28:4 — Pharaoh's oppressive division and killing of a people provide a contrary model of abusive rule.
+- 57:25 — Links revelation, balance, justice, and iron's strength, relating moral judgment to the means of public power.
+- 42:15 — Commands the Messenger to stand firm and be just among people, a direct general norm for adjudication.
+- 24:55 — Promises establishment and succession to believers, placing worldly authority under worship and security rather than self-rule.
+- 75:26 — Geographical arrival that opens an ethical decision gives a secondary endpoint-and-aftermath pattern.
+- 6:78 — The appearance of the sun's rising and setting offers a perceptual counterpart, while its argument against idolatry remains distinct.
+- 48:16 — Obedience or turning away is paired with reward or painful punishment, a secondary parallel to the focus's consequential choice.
+- 12:79 — Joseph rejects collective punishment and limits seizure to the identified wrongdoer, closely relevant to just response.
+- 15:26 — The shared muddy-material wording belongs to the creation account and does not clarify the observed western setting or its ethical decision.
+- 18:53 — Its punishment of criminals is a broad consequence parallel, without the focus's discretionary encounter with a people.
+- 15:33 — The repeated muddy-material phrase occurs in Iblis's refusal and adds nothing to the focus's perception or governance.
+- 15:28 — Its muddy-material creation statement does not clarify the focus's observed landscape or response to the people.
+- 7:115 — The contest's alternative wording is only a formal parallel to the ethical alternatives in the focus.
+- 28:23 — Moses reaches water and encounters people, but the domestic situation does not illuminate Dhu al-Qarnayn's entrusted judgment.
+- 11:40 — Its arrival formula and divine command are narrative parallels, but the flood episode does not explain the focus's authority.
+- 9:123 — Its command for armed severity offers a limited contrast to the focus's open choice between punishment and good treatment.
+- 24:39 — The mirage image uses water and finding language, but its reckoning theme is not a close neighbour.
+- 88:12 — The mention of a flowing spring is only a lexical parallel to the focus's spring.
+- 18:50 — The warning against taking Iblis as a protector gives only a distant contrast in choosing whom to take or follow.
+- 18:76 — Reaching an excuse within Moses's instruction story is unrelated to the focus's geographic and governing scene.
+- 48:26 — Divine tranquility and piety amid hostile zeal provide only a general contrast to punitive authority.
+- 18:49 — The complete record of deeds supports ultimate accountability, but it does not clarify the focus's immediate choice.
+- 45:31 — The rebuke of arrogant wrongdoers gives a broad basis for punishment but no close narrative guidance.
+- 5:67 — The Messenger's duty to convey rather than govern a specific people gives only a distant authority parallel.
+- 29:14 — The destruction of a wrongdoing people is a broad consequence parallel without the focus's stated alternatives.
+- 4:121 — The inescapability of hell is a general punishment consequence, not a guide to the focus's choice.
+- 23:32 — A messenger's call to a people establishes a broad people-and-guidance setting but not the focus's discretionary rule.
+- 51:36 — The finding of one Muslim household does not clarify the focus's people or ethical choice.
+- 43:38 — Its east-west distance image is lexical and its companion theme is unrelated to the focus's journey.
+- 19:75 — It pairs punishment and the Hour as threatened outcomes, but lacks the focus's governing decision.
+- 5:99 — Restricting the Messenger to delivery supplies only a distant contrast about responsibility toward people.
+- 25:45 — The sun as an indicator in a divine sign is a limited natural parallel to the focus's solar observation.
+- 42:48 — The Messenger is not a keeper over those who turn away, a distant boundary parallel for authority over a people.
+- 27:92 — Guidance benefiting oneself and warning the astray broadly relates to addressing people, without the focus's decision.
+- 5:84 — Hope to join the righteous offers only a broad positive communal theme.
+- 7:135 — Spatial arrival and ensuing choice are remote.
+- 12:94 — Its V12 arrival-and-choice pattern preserves a distant movement parallel without clarifying 12:94.
+- 17:34 — Arrival at a limit opens moral choice, a remote maturity parallel.
+- 26:147 — The spring is part of a visual horizon and a judgment encounter, not a cultivated support system.
+- 37:5 — Reaching the setting place of the sun is a narrative use of the western horizon, not a claim about divine Lordship.
+- 40:36 — Reaching the sunset provides only a broad example of travel ending at a boundary, unlike Pharaoh's proposed ascent.
+- 44:22 — The authority to punish or treat a people well only broadly resembles judgment on a collective.
+- 50:23 — A ruler's choice of punishment or kindness at a location does not clarify the focus.
+- 55:5 — A narrative sunset scene does not establish the focus's ordered relation.
+- 55:17 — A westward travel scene is localized and does not establish paired governance.
+- 55:66 — Ambiguous source imagery has no localized or direct focus route.
+- 56:18 — A contrary spring description gives only a remote boundary case.
+- 56:83 — A geographic endpoint is only a remote boundary analogy.
+- 68:39 — Arrival at a limit and a decision only distantly echo the focus construction.
+- 70:1 — Offers punishment as one alternative in a narrative judgment, only distantly related.
+- 75:9 — The setting-sun scene supplies only an isolated solar image.
+- 81:1 — Solar setting scene lacks a route or transformation parallel.
+- 91:1 — Sunset scene offers a narrative spatial contrast, not the focus's forenoon light.
+- 102:7 — Uses a spring in a visual travel scene without clarifying certainty in 102:7.
+- 3:37 — Finding provision with Maryam does not clarify the focus's people, landscape, or judgment.
+- 37:102 — Reaching an age and accepting a command are distant narrative parallels without the focus's public judgment.
+- 2:110 — Its promise that good is found with God offers a broad positive ethical backdrop but no close narrative link.
+- 4:102 — Its warning against neglect during prayer has a limited connection to vigilance, not the focus's judgment.
+- 73:20 — Its group worship and travel mention form only a broad communal counterpart to the focus.
+- 27:24 — Its observation of the sun at sunset is narrative scenery rather than a statement about its worship or guidance.

@@ -1,5 +1,8 @@
 # V11 working notes (handoff, 2026-09-26)
 
+**Superseded by `_commentary/v12/` (2026-09-26): read v12/NOTES.md and v12/README.md first. V11 stays as the
+baseline (its outputs are arm B of the v12 comparisons).**
+
 ## Standing instructions from the user
 - Do not change the v11 workflow until the user agrees (proposals only).
 - Tell the user and get confirmation before any new Opus run the user has not asked for.
