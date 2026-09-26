@@ -18,11 +18,14 @@ import json
 import subprocess
 import sys
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 V9 = Path(__file__).resolve().parents[1]
 REPO = V9.parents[1]
 LUNA = "gpt-6-luna"
+PARALLEL = 1
+ONLY: set[str] = set()
 GPT_OPTS = ["-c", 'model_reasoning_effort="max"', "-c", "tool_output_token_limit=20000", "--json"]
 BUNDLE_BYTES = 40_000
 
@@ -111,10 +114,22 @@ def run(ref: str, net_name: str) -> None:
     p = paths(ref, net_name)
     brief = (V9 / "prompts" / "luna_network.md").read_text(encoding="utf-8")
     context = p["context"].read_text(encoding="utf-8")
+    todo = []
     for wl in sorted(p["dir"].glob("W_network_*.md")):
         out = p["dir"] / f"records_{wl.stem.split('_')[-1]}.jsonl"
-        if out.exists():
+        if out.exists() or (ONLY and wl.stem.split("_")[-1] not in ONLY):
             continue
+        todo.append(wl)
+    with ThreadPoolExecutor(max(1, PARALLEL)) as pool:
+        list(pool.map(lambda wl: one(p, brief, context, wl), todo))
+    problems = check(ref, net_name)
+    if problems:
+        print("\n".join(problems[:30]))
+
+
+def one(p: dict, brief: str, context: str, wl: Path) -> None:
+    out = p["dir"] / f"records_{wl.stem.split('_')[-1]}.jsonl"
+    if True:
         last = p["dir"] / f"{wl.stem}.last.txt"
         stdin = f"===== luna_network.md =====\n{brief}\n\n===== context.md =====\n{context}\n\n===== {wl.name} =====\n" \
                 + wl.read_text(encoding="utf-8")
@@ -126,10 +141,7 @@ def run(ref: str, net_name: str) -> None:
         text = last.read_text(encoding="utf-8") if last.exists() else ""
         rows = [ln for ln in text.splitlines() if ln.strip().startswith("{")]
         out.write_text("\n".join(rows) + "\n", encoding="utf-8")
-        print(f"{wl.name}: {len(rows)} records")
-    problems = check(ref, net_name)
-    if problems:
-        print("\n".join(problems[:30]))
+        print(f"{wl.name}: {len(rows)} records", flush=True)
 
 
 def main() -> None:
@@ -137,7 +149,11 @@ def main() -> None:
     ap.add_argument("step", choices=("build", "run", "check"))
     ap.add_argument("ref")
     ap.add_argument("--net", default="network.k3-inter.json")
+    ap.add_argument("--parallel", type=int, default=1, help="bundles at once (run)")
+    ap.add_argument("--only", default="", help="bundle numbers, comma-separated (run)")
     a = ap.parse_args()
+    global PARALLEL, ONLY
+    PARALLEL, ONLY = a.parallel, {x for x in a.only.split(",") if x}
     {"build": build, "run": run, "check": check}[a.step](a.ref, a.net)
 
 
