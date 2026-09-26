@@ -3,3 +3,18 @@
     W_network_2.md: 31 records
 check: 1 problem(s); kept lines 59 of 112
 N01.1: code n needs a record with a specific reason
+  run.py run 103:3 --parallel 4
+    related_9.md: 33 records, 15 problem(s) — ['R-f-حقق-صلح-عمل: no record', 'R-f-صلح-عمل: no record', 'R-f-حقق-عمل: no record']
+surah_1.md: 17 records, 2 problem(s) — ['S-near: no record', 'S-near the surrounding passage (±7): not an item of this worklist (extra findings use X1, X2 …)']
+usage_1.md: 5 records, 0 problem(s)
+  run.py check 103:3
+    related_9.md ['R-f-حقق-صلح-عمل: no record', 'R-f-صلح-عمل: no record', 'R-f-حقق-عمل: no record', 'R-f-حقق-صبر: no record', 'R-f-صبر-عمل: no record']
+surah_1.md ['S-near: no record', 'S-near the surrounding passage (±7): not an item of this worklist (extra findings use X1, X2 …)']
+usage_1.md []
+  network.py 103:3 --k 3 --inter --luna /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/network/out/103_3/luna
+    luna: 59 edges added
+103:3 k=3: 586 nodes, 2133 edges, 6 hubs, 213 triangles → /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/network/out/103_3
+  backbone.py 103:3
+    backbone: 15 mechanisms, 3 focus hubs, 31 Fatiha links, 2 triangles, 1 bridges, 18 word items, 3 context hubs → /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/network/out/103_3/sol/backbone.md (62053 bytes)
+  package.py 103:3
+    package: /Volumes/OZTURK/_projects/prose_generation/_commentary/v9/lines/work/103_3/package.md (410,276 bytes); line records {'local': 9, 'related': 355, 'surah': 17, 'usage': 5}

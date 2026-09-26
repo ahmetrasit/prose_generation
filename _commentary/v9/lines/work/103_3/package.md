@@ -1,0 +1,2042 @@
+# Package for 103:3
+
+Everything the discovery stage found, for one reader who connects it. Section 1 is the lexical network
+(ids H, L, F, T, J, G): rare dictionary senses of the ayah's words converging on other words, checked by
+the dictionaries' own relations and a judge. Section 2 holds the four discovery lines (ids L.., U-, S-, R-,
+and X records): readings, open observations (a precise link whose decisive support is missing; another line
+may supply it), notes, and misreadings. `support` says how well the sources establish a record; `relevance`
+how much it could change the reading — they are separate judgments, and nothing here is filtered by them.
+Section 3 is the text of cited ayat outside the surah and the Fatiha (both are in context.md).
+
+## 1. Lexical network
+
+### 2. Backbone hubs [H]
+
+### 3. Luna hubs (second tier) [L]
+
+### L1 وَعَمِلُوا۟ — 4 roots converge
+Plain sense of وَعَمِلُوا۟: bilerek yapılan iş veya eylem (الفعل المقصود والعمل); işe koşmak veya kullanmak (إعمال الشيء واستعماله)
+- **L1.1** [judged] ء م ن B003 «duada kabul istegi sozu» قول آمين طلبا للاستجابة — word ءَامَنُوا۟ (4 dictionaries); source: قولنا في الدعاء آمين وتفسيره اللهم افعل (maqayis)؛ التأمين من قولك آمين (ayn)؛ آمين في الدعاء يمد ويقصر ومعناه كذلك فليكن (sihah)؛ آمين يقال بالمد والقصر وهو اسم للفعل ومعناه استجب وأمن فلان إذا قال آمين (mufradat)
+  - evidence: Luna (complement): The rare duʿāʾ sense of آمين asks that something be done; the next predicate says they do good. The petition is heard turning into action.
+- **L1.2** [judged] ح ق ق B002 «bağlayıcı gereklilik ve hak ediş» لزوم واجب واستحقاق ثابت — word بِٱلْحَقِّ (4 dictionaries); source: حق الشيء وجب (maqayis;sihah;tahdhib)؛ حقيق بكذا ومحقوق به (maqayis;sihah;tahdhib)؛ أحققت الشيء أي أوجبته واستحققته أي استوجبته (sihah)؛ يستعمل استعمال الواجب واللازم والجائز (mufradat)
+  - evidence: Luna (complement): The work is heard as action that answers what is required. The binding right gives deliberate deeds their obligation.
+- **L1.3** [judged] ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع — word بِٱلْحَقِّ (4 dictionaries); source: الحقة من أولاد الإبل ما استحق أن يحمل عليه (maqayis)؛ الحق من الإبل ابن ثلاث سنين وقد دخل في الرابعة والأنثى حقة (sihah;tahdhib)؛ الحق من الإبل ما استحق أن يحمل عليه والأنثى حقة (mufradat)؛ أتت الناقة على حقها أي الوقت …
+  - evidence: Luna (part): The mature camel is ready to bear a load and be put to use. The deeds can be heard as a load the worker is equipped to carry.
+- **L1.4** [judged] ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين — word بِٱلصَّبْرِ (4 dictionaries); source: المصبورة المحبوسة على الموت (maqayis;sihah)؛ الصبر نصب الإنسان للقتل (ayn;tahdhib)؛ صبرت يمينه أي حلفته (ayn;maqayis;tahdhib)؛ قتل صبر ويمين صبر (sihah;tahdhib)؛ الصبر الإكراه (tahdhib) (also T2)
+  - evidence: Luna (opposite): The group is described through deliberate deeds, while the rare صبر image pins someone in place under compulsion. The pairing makes righteous action an exercise
+- **L1.5** [judged] و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة — word وَتَوَاصَوْا۟ (2 dictionaries); source: إذا أطاع المرعى للسائمة فأصابته رغدا قيل وصى لها المرتع يصي وصيا (ayn;tahdhib) (also L2.7)
+  - evidence: Luna (complement): The pasture that abundantly fits the herd is provision put to use. Heard beside عَمِلُوا as purposeful use, the verse pictures action drawing on a sustaining gr
+
+### L2 ٱلصَّٰلِحَٰتِ — 4 roots converge
+Plain sense of ٱلصَّٰلِحَٰتِ: iyi ve düzgün olma; düzeltme (الصلاح ضد الفساد والطلاح); barışma ve uzlaşma (الصلح إزالة النفار بين الناس); sana uygun olma (الصلاح للشيء ملاءمته)
+- **L2.1** [judged] ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير — word بِٱلْحَقِّ (3 dictionaries); source: الحقحقة أرفع السير وأتعبه للظهر (maqayis;sihah)؛ الحقحقة عند العرب أن يسار البعير ويحمل على ما يتعبه ولا يطيقه (tahdhib)؛ الحقحقة السير الشديد (tahdhib)
+  - evidence: Luna (opposite): The comparison contrasts fitting good action with a pace forced beyond what can be borne. Righteous work is heard as properly measured, not brute overstraining.
+- **L2.2** [judged] ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته — word بِٱلصَّبْرِ (3 dictionaries); source: الصبر بكسر الباء عصارة شجرة (ayn;tahdhib)؛ الصبر هذا الدواء المر (sihah) (also L3.3)
+  - evidence: Luna (image): The rare ṣibr sense is a bitter remedy; الصَّالِحَات are acts of repair and good order. Together they cast righteous deeds as medicine whose taste may be harsh 
+- **L2.3** [judged] ص ب ر B011 «sofra yaygısı ya da yiyecek yığını» رقاقة الخوان وكومة الطعام — word بِٱلصَّبْرِ (3 dictionaries); source: صبير الخوان رقاقته العريضة تبسط تحت ما يؤكل من الطعام (ayn;tahdhib)؛ الصبرة من الطعام بعضه فوق بعض (ayn;tahdhib)؛ اشتريت الشيء صبرة أي بلا وزن ولا كيل (sihah) (also L3.4)
+  - evidence: Luna (image): A pile of food offers an image of provision gathered together; الصَّالِحَات names good deeds that repair and benefit. The pair lets the community’s righteous de
+- **L2.4** [judged] ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه — word وَعَمِلُوا۟ (3 dictionaries); source: العاملين عليها هم السعاة الذين يأخذون الصدقات (tahdhib); استعمل فلان إذا ولي عملا من أعمال السلطان (tahdhib); التعميل تولية العمل (sihah); العاملين عليها هم المتولون على الصدقة (mufradat)
+  - evidence: Luna (part): The administrator's assigned service can be heard as one member of the class of righteous deeds. The exception includes purposeful service as well as virtue.
+- **L2.5** [judged] ع م ل B010 «iş gören beden parçası» الجارحة العاملة — word وَعَمِلُوا۟ (1 dictionaries, sole attestation); source: عوامل الدابة قوائمه واحدها عاملة (tahdhib); وترقبه بعاملة قذوف أي ترقبه بعين بعيدة النظر (tahdhib)
+  - evidence: Luna (part): Working limbs are the means by which deliberate good deeds are carried out. The bodily image makes the work concrete.
+- **L2.6** [judged] و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة — word وَتَوَاصَوْا۟ (2 dictionaries); source: as L1.5
+  - evidence: Luna (same): The rare pasture sense meets الصالحات as suitability: counsel is heard as abundant provision fitted to the community. The pastoral image makes good action nouri
+- **L2.7** [judged] و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة — word وَتَوَاصَوْا۟ (2 dictionaries); source: as L1.5 (also L1.5)
+  - evidence: Luna (same): The pasture sense is abundance of what suits the herd, and الصَّالِحَات can carry suitability as well as goodness. Heard together, righteous deeds look like act
+
+### L3 بِٱلْحَقِّ — 3 roots converge
+Plain sense of بِٱلْحَقِّ: gerçekliğe uygun, kesin doğruluk (ثبات مطابق للواقع ضد الباطل); sahibine bağlı pay ve istem yetkisi (حق مخصوص يملكه صاحبه); doğruluğunu belirleme ve gösterme (إثبات الحق وإظهاره); korunması ve savunulması gereken şey (حقيقة يلزم حفظها); sıkı dokunmuş veya sağlam kurulmuş (إحكام رصين في نسج أو كلام); özel adlandırma kümesi (حق يطابق موضعه كالمفصل والوعاء)
+- **L3.1** [judged] ء م ن B001 «guven ve guvenilirlik» سكون القلب في أمن وثقة — word ءَامَنُوا۟ (5 dictionaries); source: الأمن ضد الخوف (ayn;sihah)؛ أصل الأمن طمأنينة النفس وزوال الخوف (mufradat)؛ الأمانة ضد الخيانة ومعناها سكون القلب (maqayis)؛ الأمان إعطاء الأمنة (maqayis;ayn)؛ أمن فلان يأمن أمنا وأمانا وأمنة فهو آمن (tahdhib)؛ استأمن إ…
+  - evidence: Luna (complement): The truth is heard as what settles the heart in security. Faith and الحق meet as inward assurance grounded in what is real.
+- **L3.2** [judged] ص ب ر B005 «sert taş ve taşlı arazi» حجر غليظ وأرض حصباء — word بِٱلصَّبْرِ (4 dictionaries); source: الصبرة من الحجارة ما اشتد وغلظ (maqayis;ayn;tahdhib)؛ الصبارة الحجارة (sihah;tahdhib)؛ الصبر الأرض التي فيها حصباء (maqayis;sihah;tahdhib)؛ أم صبار الحرة أو الصفاة (maqayis;sihah;tahdhib)
+  - evidence: Luna (same): The hard stone gives truth a tangible image of firmness. The pair makes the counsel of al-ḥaqq sound like a claim that can bear weight and hold its ground.
+- **L3.3** [judged] ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته — word بِٱلصَّبْرِ (3 dictionaries); source: as L2.2 (also L2.2)
+  - evidence: Luna (image): The rare ṣibr is a bitter medicine, and al-ḥaqq is truth to which the group gives counsel. Heard together, truth becomes a bitter but healing remedy that the co
+- **L3.4** [judged] ص ب ر B011 «sofra yaygısı ya da yiyecek yığını» رقاقة الخوان وكومة الطعام — word بِٱلصَّبْرِ (3 dictionaries); source: as L2.3 (also L2.3)
+  - evidence: Luna (opposite): A purchase as صبرة leaves a food heap unweighed and unmeasured, while al-ḥaqq can name the due that belongs to its owner. Heard together, counsel of right gives
+- **L3.5** [judged] ص ب ر B012 «öldürmeye karşılık ölüm cezası» الإقصاص والقود — word بِٱلصَّبْرِ (1 dictionaries); source: فليصطبر معناه فليقتص (tahdhib)؛ أقاد السلطان فلانا وأقصه وأصبره بمعنى واحد إذا قتله بقود (tahdhib)
+  - evidence: Luna (same): The rare صبر sense denotes legal retaliation for homicide, while al-ḥaqq can name what is due to its owner. The pair makes al-ḥaqq a claim administered in propo
+- **L3.6** [judged] ع م ل B004 «iş ücreti» أجر العمل ورزق العامل — word وَعَمِلُوا۟ (4 dictionaries); source: العمالة أجر ما عمل (maqayis); العمالة بالضم رزق العامل (sihah); العمالة رزق العامل (tahdhib); العملة والعمالة أجر العمل (tahdhib); العمالة أجرته (mufradat)
+  - evidence: Luna (same): The deed is heard together with the worker's due. Al-ḥaqq names what is owed, and work earns its wage.
+- **L3.7** [judged] ع م ل B011 «işlek yol» الطريق المعمل — word وَعَمِلُوا۟ (1 dictionaries, sole attestation); source: طريق معمل أي لحب مسلوك (sihah)
+  - evidence: Luna (image): A well-trodden road meets al-ḥaqq as truth and right. The deeds become a traveled way oriented by what is true.
+
+### 4. The Fatiha [F] (standing lens: recited in every prayer)
+
+### 1:1 ﻿بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+- **F1** ء م ن B003 «duada kabul istegi sozu» قول آمين طلبا للاستجابة — word ءَامَنُوا۟ (4 dictionaries); source: قولنا في الدعاء آمين وتفسيره اللهم افعل (maqayis)؛ التأمين من قولك آمين (ayn)؛ آمين في الدعاء يمد ويقصر ومعناه كذلك فليكن (sihah)؛ آمين يقال بالمد والقصر وهو اسم للفعل ومعناه استجب وأمن فلان إذا قال آمين (mufradat) (also L1.1) — img/fatiha: fatiha: ء ل ه B002 اسم الله في القسم والنداء ← ٱللَّهِ || img/fatiha: fatiha: س م و B005 الاسم تنويه ودلالة ← بِسْمِ
+- **F2** ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته — word بِٱلصَّبْرِ (3 dictionaries); source: الصبر بكسر الباء عصارة شجرة (ayn;tahdhib)؛ الصبر هذا الدواء المر (sihah) (also L2.2, L3.3) — img/fatiha: fatiha: و س م B006 وسمة يخضب بورقها ← بِسْمِ
+### 1:2 ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ
+- **F3** ء م ن B001 «guven ve guvenilirlik» سكون القلب في أمن وثقة — word ءَامَنُوا۟ (5 dictionaries); source: الأمن ضد الخوف (ayn;sihah)؛ أصل الأمن طمأنينة النفس وزوال الخوف (mufradat)؛ الأمانة ضد الخيانة ومعناها سكون القلب (maqayis)؛ الأمان إعطاء الأمنة (maqayis;ayn)؛ أمن فلان يأمن أمنا وأمانا وأمنة فهو آمن (tahdhib)؛ استأمن إ… (also L3.1) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F4** ح ق ق B002 «bağlayıcı gereklilik ve hak ediş» لزوم واجب واستحقاق ثابت — word بِٱلْحَقِّ (4 dictionaries); source: حق الشيء وجب (maqayis;sihah;tahdhib)؛ حقيق بكذا ومحقوق به (maqayis;sihah;tahdhib)؛ أحققت الشيء أي أوجبته واستحققته أي استوجبته (sihah)؛ يستعمل استعمال الواجب واللازم والجائز (mufradat) (also L1.2) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F5** ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين — word بِٱلصَّبْرِ (4 dictionaries); source: المصبورة المحبوسة على الموت (maqayis;sihah)؛ الصبر نصب الإنسان للقتل (ayn;tahdhib)؛ صبرت يمينه أي حلفته (ayn;maqayis;tahdhib)؛ قتل صبر ويمين صبر (sihah;tahdhib)؛ الصبر الإكراه (tahdhib) (also L1.4, T2) — img/fatiha: fatiha: ع ل م B001 انكشاف الشيء للعارف ← ٱلْعَٰلَمِينَ
+- **F6** ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته — word بِٱلصَّبْرِ (3 dictionaries); source: الصبر بكسر الباء عصارة شجرة (ayn;tahdhib)؛ الصبر هذا الدواء المر (sihah) (also L2.2, L3.3, F2) — img/fatiha: fatiha: ر ب ب B012 ربة نبات ← رَبِّ
+- **F7** ع م ل B004 «iş ücreti» أجر العمل ورزق العامل — word وَعَمِلُوا۟ (4 dictionaries); source: العمالة أجر ما عمل (maqayis); العمالة بالضم رزق العامل (sihah); العمالة رزق العامل (tahdhib); العملة والعمالة أجر العمل (tahdhib); العمالة أجرته (mufradat) (also L3.6) — img/fatiha: fatiha: ر ب ب B016 رُبَى حاجة وعقدة ونعمة ← رَبِّ
+### 1:3 ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
+### 1:4 مَٰلِكِ يَوْمِ ٱلدِّينِ
+- **F8** ء م ن B001 «guven ve guvenilirlik» سكون القلب في أمن وثقة — word ءَامَنُوا۟ (5 dictionaries); source: الأمن ضد الخوف (ayn;sihah)؛ أصل الأمن طمأنينة النفس وزوال الخوف (mufradat)؛ الأمانة ضد الخيانة ومعناها سكون القلب (maqayis)؛ الأمان إعطاء الأمنة (maqayis;ayn)؛ أمن فلان يأمن أمنا وأمانا وأمنة فهو آمن (tahdhib)؛ استأمن إ… (also L3.1, F3) — img/fatiha: fatiha: م ل ك B005 مِلاك الأمر وعِماده ← مَٰلِكِ || img/fatiha: fatiha: د ي ن B003 الدين المالي ← ٱلدِّينِ
+- **F9** ح ق ق B002 «bağlayıcı gereklilik ve hak ediş» لزوم واجب واستحقاق ثابت — word بِٱلْحَقِّ (4 dictionaries); source: حق الشيء وجب (maqayis;sihah;tahdhib)؛ حقيق بكذا ومحقوق به (maqayis;sihah;tahdhib)؛ أحققت الشيء أي أوجبته واستحققته أي استوجبته (sihah)؛ يستعمل استعمال الواجب واللازم والجائز (mufradat) (also L1.2, F4) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F10** ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير — word بِٱلْحَقِّ (3 dictionaries); source: الحقحقة أرفع السير وأتعبه للظهر (maqayis;sihah)؛ الحقحقة عند العرب أن يسار البعير ويحمل على ما يتعبه ولا يطيقه (tahdhib)؛ الحقحقة السير الشديد (tahdhib) (also L2.1) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F11** ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين — word بِٱلصَّبْرِ (4 dictionaries); source: المصبورة المحبوسة على الموت (maqayis;sihah)؛ الصبر نصب الإنسان للقتل (ayn;tahdhib)؛ صبرت يمينه أي حلفته (ayn;maqayis;tahdhib)؛ قتل صبر ويمين صبر (sihah;tahdhib)؛ الصبر الإكراه (tahdhib) (also L1.4, T2, F5) — img/fatiha: fatiha: د ي ن B007 التصديق والتفويض ← ٱلدِّينِ || img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F12** ص ب ر B006 «çıkışsız ağır durum» الوقوع في شدة لا منفذ منها — word بِٱلصَّبْرِ (4 dictionaries); source: وقع القوم في أم صبور إذا وقعوا في أمر عظيم (maqayis)؛ أم صبار الحرب والداهية الشديدة (ayn)؛ وقع القوم في أم صبور أي في أمر شديد (sihah)؛ أم صبور أمر لا منفذ له عنه (tahdhib) (also T1) — img/fatiha: fatiha: ي و م B003 كائنة اليوم وشدته ← يَوْمِ
+- **F13** ص ب ر B012 «öldürmeye karşılık ölüm cezası» الإقصاص والقود — word بِٱلصَّبْرِ (1 dictionaries); source: فليصطبر معناه فليقتص (tahdhib)؛ أقاد السلطان فلانا وأقصه وأصبره بمعنى واحد إذا قتله بقود (tahdhib) (also L3.5) — img/fatiha: fatiha: م ل ك B003 المُلك والسلطان ← مَٰلِكِ || img/fatiha: fatiha: د ي ن B006 مدينة الطاعة ← ٱلدِّينِ
+### 1:5 إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
+- **F14** ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع — word بِٱلْحَقِّ (4 dictionaries); source: الحقة من أولاد الإبل ما استحق أن يحمل عليه (maqayis)؛ الحق من الإبل ابن ثلاث سنين وقد دخل في الرابعة والأنثى حقة (sihah;tahdhib)؛ الحق من الإبل ما استحق أن يحمل عليه والأنثى حقة (mufradat)؛ أتت الناقة على حقها أي الوقت … (also L1.3) — img/fatiha: fatiha: ع و ن B005 استواء الخلقة وتلاحق القوة ← نَسْتَعِينُ
+- **F15** ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير — word بِٱلْحَقِّ (3 dictionaries); source: الحقحقة أرفع السير وأتعبه للظهر (maqayis;sihah)؛ الحقحقة عند العرب أن يسار البعير ويحمل على ما يتعبه ولا يطيقه (tahdhib)؛ الحقحقة السير الشديد (tahdhib) (also L2.1, F10) — img/fatiha: fatiha: ع ب د B011 العطب والانقطاع ← نَعْبُدُ
+- **F16** ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين — word بِٱلصَّبْرِ (4 dictionaries); source: المصبورة المحبوسة على الموت (maqayis;sihah)؛ الصبر نصب الإنسان للقتل (ayn;tahdhib)؛ صبرت يمينه أي حلفته (ayn;maqayis;tahdhib)؛ قتل صبر ويمين صبر (sihah;tahdhib)؛ الصبر الإكراه (tahdhib) (also L1.4, T2, F5, F11) — kw/shared: captivity (shared) → نَعْبُدُ
+- **F17** ص ب ر B005 «sert taş ve taşlı arazi» حجر غليظ وأرض حصباء — word بِٱلصَّبْرِ (4 dictionaries); source: الصبرة من الحجارة ما اشتد وغلظ (maqayis;ayn;tahdhib)؛ الصبارة الحجارة (sihah;tahdhib)؛ الصبر الأرض التي فيها حصباء (maqayis;sihah;tahdhib)؛ أم صبار الحرة أو الصفاة (maqayis;sihah;tahdhib) (also L3.2) — img/fatiha: fatiha: ع ب د B007 القوة والصلابة ← نَعْبُدُ || img/fatiha: fatiha: ع و ن B003 الحرب العَوان ← نَسْتَعِينُ
+- **F18** ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته — word بِٱلصَّبْرِ (3 dictionaries); source: الصبر بكسر الباء عصارة شجرة (ayn;tahdhib)؛ الصبر هذا الدواء المر (sihah) (also L2.2, L3.3, F2, F6) — img/fatiha: fatiha: ع ب د B012 صَلاءة الطيب ← نَعْبُدُ
+- **F19** ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه — word وَعَمِلُوا۟ (3 dictionaries); source: العاملين عليها هم السعاة الذين يأخذون الصدقات (tahdhib); استعمل فلان إذا ولي عملا من أعمال السلطان (tahdhib); التعميل تولية العمل (sihah); العاملين عليها هم المتولون على الصدقة (mufradat) (also L2.4) — img/fatiha: fatiha: ع ب د B004 التعبيد والاستعباد ← نَعْبُدُ
+### 1:6 ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ
+- **F20** ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير — word بِٱلْحَقِّ (3 dictionaries); source: الحقحقة أرفع السير وأتعبه للظهر (maqayis;sihah)؛ الحقحقة عند العرب أن يسار البعير ويحمل على ما يتعبه ولا يطيقه (tahdhib)؛ الحقحقة السير الشديد (tahdhib) (also L2.1, F10, F15) — img/fatiha: fatiha: ه د ي B009 الهداء البليد الضعيف ← ٱهْدِنَا
+- **F21** ص ب ر B006 «çıkışsız ağır durum» الوقوع في شدة لا منفذ منها — word بِٱلصَّبْرِ (4 dictionaries); source: وقع القوم في أم صبور إذا وقعوا في أمر عظيم (maqayis)؛ أم صبار الحرب والداهية الشديدة (ayn)؛ وقع القوم في أم صبور أي في أمر شديد (sihah)؛ أم صبور أمر لا منفذ له عنه (tahdhib) (also T1, F12) — img/fatiha: fatiha: ق و م B014 مقاومة ومنازلة ← ٱلْمُسْتَقِيمَ
+- **F22** ص ب ر B011 «sofra yaygısı ya da yiyecek yığını» رقاقة الخوان وكومة الطعام — word بِٱلصَّبْرِ (3 dictionaries); source: صبير الخوان رقاقته العريضة تبسط تحت ما يؤكل من الطعام (ayn;tahdhib)؛ الصبرة من الطعام بعضه فوق بعض (ayn;tahdhib)؛ اشتريت الشيء صبرة أي بلا وزن ولا كيل (sihah) (also L2.3, L3.4) — img/fatiha: fatiha: ق و م B012 آلة قائمة وجزء قائم ← ٱلْمُسْتَقِيمَ || img/fatiha: fatiha: ص ر ط B002 الغيبة في المرور والبلع ← ٱلصِّرَٰطَ
+- **F23** ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه — word وَعَمِلُوا۟ (3 dictionaries); source: العاملين عليها هم السعاة الذين يأخذون الصدقات (tahdhib); استعمل فلان إذا ولي عملا من أعمال السلطان (tahdhib); التعميل تولية العمل (sihah); العاملين عليها هم المتولون على الصدقة (mufradat) (also L2.4, F19) — img/fatiha: fatiha: ق و م B004 رعاية وحفظ وولاية ← ٱلْمُسْتَقِيمَ
+- **F24** ع م ل B004 «iş ücreti» أجر العمل ورزق العامل — word وَعَمِلُوا۟ (4 dictionaries); source: العمالة أجر ما عمل (maqayis); العمالة بالضم رزق العامل (sihah); العمالة رزق العامل (tahdhib); العملة والعمالة أجر العمل (tahdhib); العمالة أجرته (mufradat) (also L3.6, F7) — img/fatiha: fatiha: ق و م B009 قوام وعماد ومعاش ← ٱلْمُسْتَقِيمَ
+- **F25** ع م ل B010 «iş gören beden parçası» الجارحة العاملة — word وَعَمِلُوا۟ (1 dictionaries, sole attestation); source: عوامل الدابة قوائمه واحدها عاملة (tahdhib); وترقبه بعاملة قذوف أي ترقبه بعين بعيدة النظر (tahdhib) (also L2.5) — img/fatiha: fatiha: ق و م B012 آلة قائمة وجزء قائم ← ٱلْمُسْتَقِيمَ
+### 1:7 صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ
+- **F26** ء م ن B003 «duada kabul istegi sozu» قول آمين طلبا للاستجابة — word ءَامَنُوا۟ (4 dictionaries); source: قولنا في الدعاء آمين وتفسيره اللهم افعل (maqayis)؛ التأمين من قولك آمين (ayn)؛ آمين في الدعاء يمد ويقصر ومعناه كذلك فليكن (sihah)؛ آمين يقال بالمد والقصر وهو اسم للفعل ومعناه استجب وأمن فلان إذا قال آمين (mufradat) (also L1.1, F1) — img/fatiha: fatiha: ن ع م B004 الجواب بنعم والتصديق ← أَنْعَمْتَ
+- **F27** ح ق ق B002 «bağlayıcı gereklilik ve hak ediş» لزوم واجب واستحقاق ثابت — word بِٱلْحَقِّ (4 dictionaries); source: حق الشيء وجب (maqayis;sihah;tahdhib)؛ حقيق بكذا ومحقوق به (maqayis;sihah;tahdhib)؛ أحققت الشيء أي أوجبته واستحققته أي استوجبته (sihah)؛ يستعمل استعمال الواجب واللازم والجائز (mufradat) (also L1.2, F4, F9) — img/fatiha: fatiha: ن ع م B004 الجواب بنعم والتصديق ← أَنْعَمْتَ
+- **F28** ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع — word بِٱلْحَقِّ (4 dictionaries); source: الحقة من أولاد الإبل ما استحق أن يحمل عليه (maqayis)؛ الحق من الإبل ابن ثلاث سنين وقد دخل في الرابعة والأنثى حقة (sihah;tahdhib)؛ الحق من الإبل ما استحق أن يحمل عليه والأنثى حقة (mufradat)؛ أتت الناقة على حقها أي الوقت … (also L1.3, F14) — img/fatiha: fatiha: ن ع م B005 مال الأنعام والإبل ← أَنْعَمْتَ || img/fatiha: fatiha: ض ل ل B005 الضالّة في المضيعة ← ٱلضَّآلِّينَ
+- **F29** ص ب ر B005 «sert taş ve taşlı arazi» حجر غليظ وأرض حصباء — word بِٱلصَّبْرِ (4 dictionaries); source: الصبرة من الحجارة ما اشتد وغلظ (maqayis;ayn;tahdhib)؛ الصبارة الحجارة (sihah;tahdhib)؛ الصبر الأرض التي فيها حصباء (maqayis;sihah;tahdhib)؛ أم صبار الحرة أو الصفاة (maqayis;sihah;tahdhib) (also L3.2, F17) — img/fatiha: fatiha: غ ض ب B004 صلابة الصخرة وتماسكها ← ٱلْمَغْضُوبِ
+- **F30** ص ب ر B006 «çıkışsız ağır durum» الوقوع في شدة لا منفذ منها — word بِٱلصَّبْرِ (4 dictionaries); source: وقع القوم في أم صبور إذا وقعوا في أمر عظيم (maqayis)؛ أم صبار الحرب والداهية الشديدة (ayn)؛ وقع القوم في أم صبور أي في أمر شديد (sihah)؛ أم صبور أمر لا منفذ له عنه (tahdhib) (also T1, F12, F21) — img/fatiha: fatiha: غ ض ب B007 العبوس والضجر والعظم في وصف الحيوان أو الشخص ← ٱلْمَغْضُوبِ
+- **F31** ص ب ر B011 «sofra yaygısı ya da yiyecek yığını» رقاقة الخوان وكومة الطعام — word بِٱلصَّبْرِ (3 dictionaries); source: صبير الخوان رقاقته العريضة تبسط تحت ما يؤكل من الطعام (ayn;tahdhib)؛ الصبرة من الطعام بعضه فوق بعض (ayn;tahdhib)؛ اشتريت الشيء صبرة أي بلا وزن ولا كيل (sihah) (also L2.3, L3.4, F22) — img/fatiha: fatiha: ن ع م B002 اللين والنعومة ورفاه العيش ← أَنْعَمْتَ
+
+### 5. Triangles [T]
+
+- **T1** ص ب ر B006 «çıkışsız ağır durum» الوقوع في شدة لا منفذ منها — word بِٱلصَّبْرِ (4 dictionaries); source: وقع القوم في أم صبور إذا وقعوا في أمر عظيم (maqayis)؛ أم صبار الحرب والداهية الشديدة (ayn)؛ وقع القوم في أم صبور أي في أمر شديد (sihah)؛ أم صبور أمر لا منفذ له عنه (tahdhib) (also F12, F21, F30)
+  - → 5:2 [inter]: image similarity only
+  - → وَتَوَاصَوْا۟: Luna (image): The rare صبور crisis gives the mutual counsel a scene: a community in a great affair with no escape addresses one another from within it. Counsel and patience t
+  - 5:2 [inter] ↔ وَتَوَاصَوْا۟: form: form VI: تَعَاوَنُ تَعَاوَنُ
+- **T2** ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين — word بِٱلصَّبْرِ (4 dictionaries); source: المصبورة المحبوسة على الموت (maqayis;sihah)؛ الصبر نصب الإنسان للقتل (ayn;tahdhib)؛ صبرت يمينه أي حلفته (ayn;maqayis;tahdhib)؛ قتل صبر ويمين صبر (sihah;tahdhib)؛ الصبر الإكراه (tahdhib) (also L1.4, F5, F11, F16)
+  - → 5:2 [inter]: image similarity only
+  - → وَتَوَاصَوْا۟: Luna (opposite): The rare sense binds someone through a forced oath, while تَوَاصَوْا describes people mutually passing counsel and charge. The verse’s shared counsel can be hea
+  - 5:2 [inter] ↔ وَتَوَاصَوْا۟: form: form VI: تَعَاوَنُ تَعَاوَنُ
+
+### 6. Bridges (touch two hubs) [J]
+
+- **J1** بِٱلصَّبْرِ joins L1, L2
+
+### 7. Word level: sound, form, frame, grammar [G]
+
+- **G1** form: وَتَوَاصَوْا۟ ~ 5:2: form VI: تَعَاوَنُ تَعَاوَنُ
+- **G2** form: وَتَوَاصَوْا۟ ~ 5:79: form VI: يَتَنَاهَ
+- **G3** form: وَتَوَاصَوْا۟ ~ 8:46: form VI: تَنَٰزَعُ
+- **G4** form: وَتَوَاصَوْا۟ ~ 5:2: form VI: تَعَاوَنُ تَعَاوَنُ
+- **G5** form: وَتَوَاصَوْا۟ ~ 5:79: form VI: يَتَنَاهَ
+- **G6** form: وَتَوَاصَوْا۟ ~ 8:46: form VI: تَنَٰزَعُ
+- **G7** word note: 103:3:1 إِلَّا: exception particle restricting the prior human-loss verdict to those outside the following relative-clause conditions — topics: exception scopes the whole relative clause; exception creates the named exit; the ayah begins by reversing the verdict; the hamza restarts the sentence
+- **G8** word note: 103:3:2 ٱلَّذِينَ: masculine plural relative pronoun heading the excepted group and defining it by the following predicates — topics: membership is defined by predicates; generic humanity becomes a plural class; the verbs do not float free; the answer becomes communal
+- **G9** word note: 103:3:3 ءَامَنُوا۟: Form IV perfect plural trust/security verb used without an explicit object as the first predicate of the exception class — topics: trust is stated without an object; perfect plural binds the predicate to the group; security becomes committed trust; trust opens a wider formula; t…
+- **G10** word note: 103:3:4 وَ: coordinating conjunction linking the trust predicate to the work predicate — topics: trust and work are coordinated; coordination also supports ordered movement; the connector makes the formula audible
+- **G11** word note: 103:3:5 عَمِلُوا۟: Form I perfect plural verb of deliberate doing, transitive here with the restorative deeds as its direct object — topics: work is established and object-directed; the same group performs the work; doing carries purposeful agency; work belongs to the trust-repair formula; the seco…
+- **G12** word note: 103:3:6 ٱلصَّٰلِحَٰتِ: definite feminine plural active participle used substantively as the direct object of doing — topics: a quality becomes the object of work; the form names a known deed class; restoration answers loss; repair is a stabilized partner of work and trust; the first payload anticip…
+- **G13** word note: 103:3:7 وَ: coordinating conjunction introducing the first reciprocal communal predicate — topics: the third condition is added; the connector pivots into the communal half; the middle connector is an audible beat
+- **G14** word note: 103:3:8 تَوَاصَوْا۟: Form VI perfect plural reciprocal verb of mutual charging, counsel, and connective entrusting, completed by a bāʾ payload — topics: every member gives and receives; participants and content are separated; counsel carries a connective charge; standard wording is counsel, not com…
+- **G15** word note: 103:3:9 بِٱلْحَقِّ: bāʾ-governed definite verbal noun serving as the content and possible means of the first mutual charge — topics: bāʾ makes truth the charge payload; the payload is definite and bounded; truth also carries right and due; truth is matched with endurance; the payload links back and…
+- **G16** word note: 103:3:10 وَ: coordinating conjunction linking the second reciprocal clause to the first — topics: the endurance clause is added; addition and tight pairing both survive; the last connector completes the rhythm
+- **G17** word note: 103:3:11 تَوَاصَوْا۟: repeated Form VI perfect plural reciprocal verb, now completed by the endurance payload — topics: reciprocity is renewed for endurance; endurance is the transmitted content; the connective charge answers isolation; endurance receives its own verb; rare formula and variant cont…
+- **G18** word note: 103:3:12 بِٱلصَّبْرِ: bāʾ-governed definite verbal noun naming endurance, restraint, and steadfastness as the final mutual-charge payload — topics: endurance is the final charge content; the noun forms a known carried quality; endurance is active restraint; variant vowels add testing pressure; trut…
+
+## 2. Discovery lines
+
+### 2.1 Local language (the ayah's own words, grammar, variant readings)
+
+6 readings and open observations, 3 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **L02** [reading; support strong, relevance high] word 2: ٱلَّذِينَ — lemma ٱلَّذِى, root —, pos REL
+  - finding: The generic singular ٱلْإِنسَٰنَ is answered by a plural class, ٱلَّذِينَ, whose identity is defined through shared predicates, including reciprocal counsel. The answer to human loss is thus heard communally, not as a named lineage.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The shift from singular ٱلْإِنسَٰنَ to plural ٱلَّذِينَ is reinforced by the reciprocal verbs تَوَاصَوْا.
+  - limits: Plural grammar and reciprocity establish a collective qualification, not that the group is a formal institution or that every member acts simultaneously.
+- **L07** [reading; support strong, relevance high] word 7: بِٱلْحَقِّ — lemma حَقّ, root ح ق ق, pos P;DET;N
+  - finding: The و introducing تَوَاصَوْا marks a turn from faith and deeds to a shared relation among the group; بِٱلْحَقِّ then supplies the charge’s content. The exception therefore includes communal practice alongside personal predicates.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The connector follows the work predicate and introduces the first reciprocal verb with its bā-governed payload.
+  - limits: The connector adds a predicate but does not itself mark a strict chronological progression.
+- **L08** [reading; support strong, relevance high] word 8: وَتَوَاصَوْا۟ — lemma تَوَاصَ, root و ص ي, pos CONJ;V;PRON
+  - finding: تَوَاصَوْا۟ makes mutual charging part of the group’s qualification: its plural reciprocal form places members in both giving and receiving roles, rather than depicting one person’s one-way instruction.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The verb is plural and reciprocal, and it governs two shared charges in parallel clauses.
+  - limits: The form does not prove that every member counsels every other member, or specify the group’s social roles.
+- **L09** [reading; support strong, relevance high] word 9: بِٱلصَّبْرِ — lemma صَبْر, root ص ب ر, pos P;DET;N
+  - finding: The repeated تَوَاصَوْا۟ gives ٱلصَّبْرِ its own charge alongside ٱلْحَقِّ; endurance is separately transmitted, not left as an unstated implication of truth.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The second clause repeats the reciprocal verb and places بِٱلصَّبْرِ in the same complement position as بِٱلْحَقِّ.
+  - limits: Parallel syntax gives the two charges equal grammatical standing but does not rank them or prove that they exhaust every possible charge.
+- **L06** [reading; support medium, relevance high] word 6: وَتَوَاصَوْا۟ — lemma تَوَاصَ, root و ص ي, pos CONJ;V;PRON
+  - finding: ٱلصَّٰلِحَٰتِ names the deeds toward which عَمِلُوا۟ is directed. Its root’s soundness and repair field lets these deeds answer خُسْر as restorative action, not just unspecified goodness.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The noun is the object of work in the exception to the loss verdict, bringing the root’s soundness field into that contrast.
+  - limits: The word does not explicitly say that these deeds reverse or repair a prior loss; that relation is a reading of the root and surrounding contrast.
+- **L03** [open; support medium, relevance high] word 3: ءَامَنُوا۟ — lemma ءَامَنَ, root ء م ن, pos V;PRON
+  - finding: ءَامَنُوا۟ defines the excepted group without naming an object. The clause locally presents trust or faith as a defining commitment but leaves its precise object unstated.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟»
+  - missing: A Quranic usage comparison of objectless ءَامَنُوا۟, alongside cases with an explicit object, or lexical evidence distinguishing its security and assent senses could show whether the omitted object is contextually supplied or intentionally broad here.
+
+Notes:
+- L01 [support strong, relevance low] إِلَّا links the excepted group back to the loss verdict in 103:2; its scope reaches the coordinated predicates through بِٱلصَّبْرِ.
+- L04 [support strong, relevance low] The و in وَعَمِلُوا۟ coordinates work with ءَامَنُوا۟ as a distinct predicate under the same relative subject; it does not make the two conditions synonymous.
+- L05 [support strong, relevance low] عَمِلُوا۟ is directed by its object ٱلصَّٰلِحَٰتِ toward a particular class of deeds, rather than naming activity without qualification.
+
+### 2.2 Quranic usage (each root's occurrences: same form, other forms)
+
+5 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **U-عمل** [reading; support strong, relevance high] root ع م ل (focus word وَعَمِلُوا۟: عَمِلَ V) — 354 occurrences in 313 ayat; same form 273, other forms 81
+  - finding: The Form I verb عَمِلُوا۟ takes الصَّٰلِحَٰتِ as its object, while the same root's active participle عَامِلَةٌ in 88:3 is paired with نَّاصِبَةٌۭ. This contrast separates effort accompanied by strain from doing qualified by its goodness.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 88:3 «عَامِلَةٌۭ نَّاصِبَةٌۭ»
+  - activation: The focus specifies what the group does through the direct object الصَّٰلِحَٰتِ.
+  - limits: These are different forms of the root; 88:3 does not establish that every tiring act is blameworthy or describe the focus group's deeds.
+- **U-وصي** [reading; support strong, relevance high] root و ص ي (focus word وَتَوَاصَوْا۟: تَوَاصَ V form VI) — 28 occurrences in 21 ayat; same form 3, other forms 25
+  - finding: In both 90:17 and 103:3, the plural reciprocal verb تَوَاصَوْا is paired with patience; its other payload is mercy in 90:17 and truth in 103:3. This frames the focus's conditions as commitments carried among people.
+  - evidence: 90:17 «ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus repeats تَوَاصَوْا with two payloads, and 90:17 offers the same reciprocal form with patience and mercy.
+  - limits: The parallel does not equate truth with mercy or establish that one passage derives from the other.
+- **U-حقق** [reading; support strong, relevance high] root ح ق ق (focus word بِٱلْحَقِّ: حَقّ N) — 274 occurrences in 263 ayat; same form 230, other forms 44
+  - finding: Elsewhere, ٱلْحَقَّ is what Moses says he will speak about God (7:105) and is set against ٱلْبَٰطِلَ (8:8). By making it the payload of mutual counsel, 103:3 presents truth as a jointly transmitted norm.
+  - evidence: 7:105 «أَن لَّآ أَقُولَ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ»; 8:8 «لِيُحِقَّ ٱلْحَقَّ وَيُبْطِلَ ٱلْبَٰطِلَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The bāʾ phrase وَتَوَاصَوْا۟ بِٱلْحَقِّ makes al-haqq the shared content of the group's reciprocal act.
+  - limits: These parallels do not specify which truth-claims the focus has in view or reduce ٱلْحَقّ to speech alone.
+- **U-صبر** [reading; support strong, relevance high] root ص ب ر (focus word بِٱلصَّبْرِ: صَبْر N) — 103 occurrences in 93 ayat; same form 15, other forms 88
+  - finding: In 2:153, patience is a means believers are told to seek help through; in 2:250, they ask for it alongside firmness of foot. The focus makes this sustaining capacity something people transmit to one another through تَوَاصَوْا بِٱلصَّبْرِ.
+  - evidence: 2:153 «ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ»; 2:250 «رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The plural reciprocal verb تَوَاصَوْا turns the focus's patience from a sought quality into a shared charge.
+  - limits: The other passages do not identify the particular hardship or circumstance addressed by patience in this surah.
+- **U-صلح** [reading; support medium, relevance high] root ص ل ح (focus word ٱلصَّٰلِحَٰتِ: صَّٰلِحَٰت N) — 178 occurrences in 170 ayat; same form 61, other forms 117
+  - finding: The root ص ل ح includes the distinct noun إِصْلَٰحٍ for setting things right between people; beside mutual counsel, الصَّٰلِحَٰتِ can carry a communal-repair dimension, not just individual virtue.
+  - evidence: 4:114 «أَوْ إِصْلَٰحٍۭ بَيْنَ ٱلنَّاسِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The plural group moves from doing الصَّٰلِحَٰتِ directly into reciprocal counsel.
+  - limits: إِصْلَٰحٍ and الصَّٰلِحَٰتِ are distinct forms; this root-family link does not mean every good deed is social repair.
+
+### 2.3 Surah context (the passage, the roots elsewhere in the surah, surah-level arguments)
+
+17 readings and open observations, 0 notes, 0 misreadings rejected; other items with nothing to add: 0.
+
+- **S-near the surrounding passage (±7)** [reading; support strong, relevance high] 
+  - finding: The move from generic singular ٱلْإِنسَٰنَ under خُسْرٍ to the plural ٱلَّذِينَ defines the exception through deeds and mutual charges; the rescue is communal in structure.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: إِلَّا follows the loss verdict directly, and the excepted class is defined in plural terms that culminate in two reciprocal acts.
+  - limits: The sequence establishes a contrast and a group form, but it does not say that isolation causes loss or explain each person's standing.
+- **S-hft-delta_humanization_by_mutual_presence** [reading; support strong, relevance high] (context_delta)
+  - finding: The generic singular ٱلْإِنسَٰنَ under loss gives way to a plural who trust, act, and address one another; reciprocal presence is part of how the exception is formed.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The shift in number and the two explicitly reciprocal predicates move the passage from a general human condition into shared practice.
+  - limits: This supports social reconstitution, but does not establish that ٱلْإِنسَٰنَ denotes a feral or estranged condition.
+- **S-hft-baseline_reciprocal_maintenance_circuit** [reading; support medium, relevance high] (baseline_model)
+  - finding: The coordinated sequence ءَامَنُوا۟, عَمِلُوا۟ ٱلصَّٰلِحَٰتِ, and the repeated تَوَاصَوْا۟ presents commitment enacted as work and sustained through two mutual charges.
+  - evidence: 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The same plural class performs every predicate, and the reciprocal verb is repeated with distinct payloads.
+  - limits: The sequence supports a shared sustaining process, but it does not explicitly describe feedback or renewal over time.
+- **S-hft-baseline_repair_and_verification_workshop** [reading; support medium, relevance high] (baseline_model)
+  - finding: A reparative reading makes عَمِلُوا۟ ٱلصَّٰلِحَٰتِ work directed toward sound conditions, while mutual urging بِٱلْحَقِّ holds correction to what is true and بِٱلصَّبْرِ regulates its force.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus pairs sound action with truth and endurance, and makes the latter two reciprocal practices.
+  - limits: No literal workshop, test, or instrument appears; that image joins the soundness, truth, and restraint carried by the words.
+- **S-hft-delta_pressure_extracts_proof** [reading; support medium, relevance high] (context_delta)
+  - finding: If ٱلْعَصْرِ carries its pressing sense alongside its temporal sense, the focus can read as work yielded under pressure: عَمِلُوا۟ supplies effort, ٱلْحَقِّ its disclosed standard, and ٱلصَّبْرِ restraint that keeps pressure productive.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The oath term's pressing sense meets the focus's work, truth, and endurance, while the preceding verdict supplies the loss under pressure.
+  - limits: The surah names no liquid, extraction, or press; the stress-test reading depends on the lexical sense of ٱلْعَصْرِ and the metaphorical joining of the predicates.
+- **S-hft-baseline_custody_of_due_claims** [open; support medium, relevance high] (baseline_model)
+  - finding: Since تَوَاصَوْا۟ conveys mutual charging and ٱلْحَقِّ can name an owed right, the pair may describe peers keeping one another answerable for concrete claims, with الصبر marking continued bearing of the obligation.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: A dictionary entry or another ayah would need to establish الصبر as bearing another person's liability; this surah names no claimant, dispute, or protected due.
+- **S-hft-delta_time_relay** [open; support medium, relevance high] (context_delta)
+  - finding: The oath word ٱلْعَصْرِ can supply a temporal span across which the two reciprocal charges and the steadiness of ٱلصَّبْرِ are carried as a shared relay.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: No phrase explicitly renews these practices from interval to interval; repeated temporal language or another passage describing their continuation could establish that relay.
+- **S-hft-delta_loss_ledger** [open; support medium, relevance high] (context_delta)
+  - finding: The loss verdict, trust, purposeful action, and ٱلْحَقِّ as an owned claim could frame the exception as an ethical counter-economy in which peers prevent one another's deficit from becoming another's gain.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: No trade, exchange, price, or account appears here; an explicit commercial use of these roots in another ayah or a dictionary context could decide whether the ledger frame is active.
+- **S-hft-delta_anti_diminution_container** [open; support medium, relevance high] (context_delta)
+  - finding: With ٱلْعَصْرِ and خُسْرٍ framing time and diminution, the focus can be read as preserving value through sound action, reciprocal joining, firm truth, and patient containment.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The anti-loss structure is clear from the sequence, but the container image needs lexical support for tight construction in الحق and a stopper sense in الصبر; no leakage or vessel is named.
+- **S-hft-baseline_fit_join_and_contain** [open; support weak, relevance high] (baseline_model)
+  - finding: The coordinated predicates and repeated reciprocal form can suggest a fitting structure: sound acts and paired charges hold a group together, with ٱلْحَقِّ as a point of alignment and ٱلصَّبْرِ as a boundary.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The material image depends on dictionary evidence for fit in الصالحات, joining in تواصى, and a socket, edge, or stopper sense in الحق or الصبر; none is explicit in this passage.
+- **S-hft-delta_refuge_network** [open; support weak, relevance high] (context_delta)
+  - finding: If ٱلْعَصْرِ has the proposed refuge sense, ءَامَنُوا۟, mutual charging, ٱلْحَقِّ as a guarded due, and ٱلصَّبْرِ as standing with another can form a safe-conduct network.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: Lexical evidence is needed for the refuge sense of ٱلْعَصْرِ and the surety sense assigned to الصبر; the passage itself gives no shelter, danger, or safe-conduct scene.
+- **S-hft-delta_collective_perception_of_truth** [open; support weak, relevance high] (context_delta)
+  - finding: If perception or recognition senses associated with the root of ٱلْإِنسَٰنَ are active, mutual exhortation بِٱلْحَقِّ could be heard as group witnessing that keeps reality mutually visible.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: The surah contains no seeing, hearing, or observing term and does not connect ٱلْإِنسَٰنَ to those root senses; a relevant Quranic usage or explicit witnessing scene could supply that link.
+- **S-hft-delta_measure_calibration** [open; support weak, relevance high] (context_delta)
+  - finding: A short-measure sense of خُسْرٍ could make mutual counsel بِٱلْحَقِّ peer recalibration of actions and entitlements, while بِٱلصَّبْرِ restrains correction from becoming a new distortion.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: This passage names no measuring, weighing, or transaction; another Quranic passage joining loss to short measure, or a dictionary usage that activates that sense here, could supply the link.
+- **S-hft-outlier_traveling_cohort** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: The proposed road, hoofstep, and resistant-ground senses yield an exploratory traveling-cohort reading: reciprocal connection coordinates the group's acts along a path through time.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: Dictionary attestations are needed for the travel sense of عمل, hoofstep sense of الحق, and ground sense of الصبر; these verses have no path, hoof, terrain, or destination cue.
+- **S-hft-outlier_cultivated_pasture** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: If ٱلْعَصْرِ evokes a rain-bearing cloud and the proposed وصى and صبر senses are ecological, the group could be pictured as tending shared conditions where lives flourish.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: Lexical evidence is needed for the cloud, pasture, and layered-cloud senses; the passage names no rain, field, grazing, or growth to activate them.
+- **S-hft-outlier_bitter_dose_through_constriction** [open; support weak, relevance high] (surprising_valid_outlier)
+  - finding: A squeeze-as-drink sense for ٱلْعَصْرِ and an aloe sense for ٱلصَّبْرِ could make the reciprocal pair a difficult remedy of truth and endurance passed person to person for repair.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: Lexical evidence is needed for the measured drink, bitter aloe, and penetrating-thrust senses; no choking, swallowing, medicine, or wound appears in the surah.
+- **surah_1.X1** [open; support medium, relevance medium] 
+  - finding: The Fatiha's plural request ٱهْدِنَا may pair with the plural group in 103:3 that mutually urges one another toward ٱلْحَقِّ: communal petition for guidance meets communal practice that orients the group.
+  - evidence: 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: There is no shared guidance verb or explicit cross-reference identifying the groups; a distinctive lexical echo or wider Quranic linkage could establish more than a thematic pairing.
+
+### 2.4 Related passages (inter-ayah targets, the same people, formula families)
+
+254 readings and open observations, 81 notes, 1 misreadings rejected; other items with nothing to add: {'no-link': 14, 'same-as': 3, 'plain': 2}.
+
+- **R-2:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: Where 2:42 forbids mixing and concealing al-ḥaqq, 103:3 makes al-ḥaqq something the group actively transmits to one another; mutual counsel stands against knowing concealment.
+  - evidence: 2:42 «وَلَا تَلْبِسُوا۟ ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُوا۟ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ»
+  - activation: The focus pairs the definite payload بِٱلْحَقِّ with the reciprocal verb تَوَاصَوْا۟.
+  - limits: The verses do not identify the same people or specify that the focus addresses this particular act of concealment.
+- **R-2:45** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara uses the same definite noun الصبر as a means of seeking help alongside prayer; 103:3 presents endurance as a charge people pass among themselves.
+  - evidence: 2:45 «وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ»
+  - activation: The focus ends with بِٱلصَّبْرِ after repeating the reciprocal verb used for al-ḥaqq.
+  - limits: 2:45 does not use reciprocal counsel, and the focus does not mention prayer or seeking help.
+- **R-2:62** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara applies the faith-and-righteous-action promise across several named religious communities; 103:3 gives that shared profile an additional communal shape through mutual counsel in truth and patience.
+  - evidence: 2:62 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلنَّصَٰرَىٰ وَٱلصَّٰبِـِٔينَ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَعَمِلَ صَٰلِحًۭا فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ»
+  - activation: Both passages join belief to righteous action, while 2:62 explicitly names diverse groups before stating the qualifying predicates.
+  - limits: 2:62 does not mention reciprocal counsel or identify its named groups with the focus ayah’s referent.
+- **R-2:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: Following the warning about sin in 2:81, the faith-and-righteous-deeds formula marks the contrasting group for lasting reward; 103:3 repeats that core and extends its description with two reciprocal duties.
+  - evidence: 2:81 «بَلَىٰ مَن كَسَبَ سَيِّئَةًۭ وَأَحَٰطَتْ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ»; 2:82 «وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ»
+  - activation: The focus begins its exception with the same belief-and-deeds sequence found in 2:82.
+  - limits: 2:82 does not say the focus’s reciprocal predicates are implied by its shorter formula.
+- **R-2:132** [reading; support strong, relevance high] inter-ayah target
+  - finding: The shared root و ص ي links peer-to-peer mutual counsel in 103:3 with Abraham’s and Jacob’s transmission of religious instruction to their children; the forms mark reciprocal and generational modes of passing on a charge.
+  - evidence: 2:132 «وَوَصَّىٰ بِهَآ إِبْرَٰهِۦمُ بَنِيهِ وَيَعْقُوبُ يَٰبَنِىَّ إِنَّ ٱللَّهَ ٱصْطَفَىٰ لَكُمُ ٱلدِّينَ»
+  - activation: The focus uses تَوَاصَوْا۟, while 2:132 uses وَصَّىٰ and explicitly names the children who receive the charge.
+  - limits: The forms and participants differ; 2:132 does not establish that the focus concerns an intergenerational transmission.
+- **R-2:153** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara joins patience with prayer and says God is with those who endure; beside it, 103:3 makes patience a shared communal charge, giving that endurance a mutual dimension.
+  - evidence: 2:153 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ»
+  - activation: Both passages address believers through the word patience, but the focus adds تَوَاصَوْا۟ as the group’s action.
+  - limits: 2:153 does not describe peer counsel, and 103:3 does not mention prayer or divine accompaniment.
+- **R-2:156** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara moves from announcing glad tidings for the patient to showing their words when calamity strikes; this gives a concrete spoken practice that mutual counsel in patience could transmit.
+  - evidence: 2:155 «وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ»; 2:156 «ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ»
+  - activation: The focus names patience as the final content of mutual counsel; these adjacent verses connect the patient to a spoken response under trial.
+  - limits: The response is tied to calamity in this passage, while 103:3 gives no such limit or formula.
+- **R-2:160** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara’s exception follows condemnation of concealing revelation and names repentance, reform, and clarification as the way out; that pattern sets mutual counsel in truth against hiding what should be made clear.
+  - evidence: 2:159 «إِنَّ ٱلَّذِينَ يَكْتُمُونَ مَآ أَنزَلْنَا مِنَ ٱلْبَيِّنَٰتِ وَٱلْهُدَىٰ مِنۢ بَعْدِ مَا بَيَّنَّٰهُ لِلنَّاسِ فِى ٱلْكِتَٰبِ»; 2:160 «إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ»
+  - activation: Both passages use an exception structure, and the focus makes al-ḥaqq the content of an action shared among people.
+  - limits: 2:160 specifies repentance and clarification but does not use the reciprocal verb or mention patience.
+- **R-2:176** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara says the Book is sent down in truth yet describes disagreement over it as a deep breach; this keeps the focus’s mutual charge in truth from implying that communities never dispute what truth requires.
+  - evidence: 2:176 «ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلْكِتَٰبَ بِٱلْحَقِّ ۗ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى شِقَاقٍۭ بَعِيدٍۢ»
+  - activation: Both passages name al-ḥaqq, while 2:176 places it in a scene of disagreement over scripture.
+  - limits: 2:176 does not describe reciprocal counsel or identify the disputed Book with the focus’s immediate subject.
+- **R-2:177** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara locates patience in hardship, distress, and battle within a broad account of birr; the focus makes that tested quality something people mutually urge one another to sustain.
+  - evidence: 2:177 «وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ»
+  - activation: The focus’s closing بِٱلصَّبْرِ matches the quality named here among the traits of birr.
+  - limits: 2:177 describes the patient but does not say they counsel one another or pair patience with al-ḥaqq.
+- **R-2:182** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara permits someone to repair relations between parties when a bequest involves wrong or sin; this supplies a concrete social instance of ṣāliḥ action around disputed rights.
+  - evidence: 2:182 «فَمَنْ خَافَ مِن مُّوصٍۢ جَنَفًا أَوْ إِثْمًۭا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ»
+  - activation: The focus names righteous deeds and mutual counsel in truth; this verse shows intervention that repairs relations when a charge is unjust.
+  - limits: The example concerns a specific bequest dispute and does not define all righteous deeds or the full scope of mutual counsel.
+- **R-2:213** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here truth is the basis for judgment between people over their disagreements, while believers are guided toward it; this places mutual counsel in truth within a communal world of real disputes.
+  - evidence: 2:213 «وَأَنزَلَ مَعَهُمُ ٱلْكِتَٰبَ بِٱلْحَقِّ لِيَحْكُمَ بَيْنَ ٱلنَّاسِ فِيمَا ٱخْتَلَفُوا۟ فِيهِ»; 2:213 «فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ»
+  - activation: The focus makes al-ḥaqq a shared charge among a plural group; 2:213 explicitly gives truth a role between people who differ.
+  - limits: 2:213 attributes judgment and guidance to the Book and God, not explicitly to reciprocal peer counsel.
+- **R-2:250** [reading; support strong, relevance high] inter-ayah target
+  - finding: A group facing battle asks for patience and firm footing together; beside the focus, this shows mutual counsel in patience as a communal resource for steadfast action under threat.
+  - evidence: 2:250 «وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا»
+  - activation: The same patience noun appears in a plural group’s appeal, making endurance collective in a concrete crisis.
+  - limits: The group asks God for patience rather than counseling one another, and the focus does not restrict patience to battle.
+- **R-2:277** [reading; support strong, relevance high] inter-ayah target
+  - finding: Baqara repeats the faith-and-righteous-deeds opening, then names prayer and almsgiving; the focus adds reciprocal truth and patience to that recurring profile of the rewarded group.
+  - evidence: 2:277 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ»
+  - activation: The first two predicates match the focus’s opening conditions, and the added practices make the parallel’s list explicit.
+  - limits: 2:277 does not claim to give an exhaustive list of righteous practice or mention reciprocal counsel.
+- **R-3:89** [reading; support strong, relevance high] inter-ayah target
+  - finding: After an unrelieved punishment statement, 3:89 reopens the verdict with إِلَّا for those who repent and reform; this parallels the focus’s exception structure while making repair the path back in this case.
+  - evidence: 3:88 «خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ»; 3:89 «إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ»
+  - activation: Both verses begin their qualifying group with إِلَّا ٱلَّذِينَ after a negative judgment.
+  - limits: The conditions differ: 3:89 names repentance and reform, while 103:3 names faith, deeds, and mutual counsel.
+- **R-3:104** [reading; support strong, relevance high] inter-ayah target
+  - finding: This verse gives a close communal parallel: a group from among the believers calls to good, commands what is recognized as right, and restrains wrong. Its defined community resembles the focus’s reciprocal ethical charge, though the assigned roles differ.
+  - evidence: 3:104 «وَلْتَكُن مِّنكُمْ أُمَّةٌۭ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ»
+  - activation: Both passages place interpersonal ethical direction among the defining practices of a community.
+  - limits: 3:104 appoints a community from among the people and uses command and restraint, not the focus’s reciprocal verb or explicit patience.
+- **R-3:110** [reading; support strong, relevance high] inter-ayah target
+  - finding: The community is described as brought out for humanity and characterized by ethical direction alongside belief; this makes public responsibility part of communal identity, not just private virtue.
+  - evidence: 3:110 «كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَتُؤْمِنُونَ بِٱللَّهِ»
+  - activation: Like the focus, the verse joins belief to a plural group’s conduct toward others.
+  - limits: The passage speaks of commanding right and restraining wrong, without the focus’s reciprocal form, al-ḥaqq, or patience.
+- **R-3:114** [reading; support strong, relevance high] inter-ayah target
+  - finding: Within the People of the Book, this passage identifies a group through belief, ethical direction, and hastening to good, then calls them among the righteous; it shows a similar active profile within a specifically named community.
+  - evidence: 3:114 «يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَأُو۟لَٰٓئِكَ مِنَ ٱلصَّٰلِحِينَ»
+  - activation: The focus also combines belief, righteous action, and communal ethical exhortation in defining a successful group.
+  - limits: 3:114 does not mention patience or use the focus’s reciprocal verb, and it does not identify this group with the focus’s referent.
+- **R-3:120** [reading; support strong, relevance high] inter-ayah target
+  - finding: The hostility described immediately before this verse makes patience a response to others’ malice: “وَتَوَاصَوْا۟ بِٱلصَّبْرِ” can be heard against a concrete setting of harm and provocation.
+  - evidence: 3:119 «وَإِذَا خَلَوْا۟ عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ»; 3:120 «وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The 3:119–120 sequence names hostility, scheming, patience, and taqwa; 103:3 makes patience something the group urges on one another.
+  - limits: 3:120 addresses the group but does not say that its members counsel one another; it also pairs patience with taqwa, which 103:3 does not name.
+- **R-3:125** [reading; support strong, relevance high] inter-ayah target
+  - finding: The patience in 103:3 has a battle-context parallel: 3:125 makes patience and taqwa conditions in a promise of aid against an advancing force.
+  - evidence: 3:124 «أَن يُمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ ءَالَٰفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُنزَلِينَ»; 3:125 «إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَٰفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus names patience as a shared practice, and 3:124–125 supplies one high-pressure setting in which patience matters.
+  - limits: The promise in 3:125 is conditional and battle-specific; it does not identify mutual exhortation as the means of patience.
+- **R-3:146** [reading; support strong, relevance high] inter-ayah target
+  - finding: The ṣabr of 103:3 can be heard as steadfastness that prevents collapse under injury: the prophet’s companions neither lose heart, weaken, nor submit after affliction.
+  - evidence: 3:146 «فَمَا وَهَنُوا۟ لِمَآ أَصَابَهُمْ فِى سَبِيلِ ٱللَّهِ وَمَا ضَعُفُوا۟ وَمَا ٱسْتَكَانُوا۟»; 3:146 «وَٱللَّهُ يُحِبُّ ٱلصَّٰبِرِينَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages place patience within a plural community, while 3:146 supplies the pressure and the forms of failure that steadfastness resists.
+  - limits: 3:146 praises patient people but does not say they counsel one another; the focus does not specify battle or injury.
+- **R-3:186** [reading; support strong, relevance high] inter-ayah target
+  - finding: The patient exhortation in 103:3 has a pointed adversity parallel in 3:186: believers face trials and hurtful speech, and patience with taqwa is called firm resolve.
+  - evidence: 3:186 «لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًۭى كَثِيرًۭا»; 3:186 «وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus names mutual urging toward patience; 3:186 identifies financial, bodily, and verbal trials that make such endurance consequential.
+  - limits: 3:186 is addressed to believers collectively but does not describe reciprocal counsel; its pairing of patience with taqwa remains distinct.
+- **R-3:200** [reading; support strong, relevance high] inter-ayah target
+  - finding: The closing command of Āl ʿImrān pairs “اصبروا” with “صابروا” and “رابطوا,” giving patience an explicitly collective, sustained form alongside the focus’s mutual exhortation.
+  - evidence: 3:200 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both verses address a plural believing group and make patience a communal practice rather than a private disposition.
+  - limits: “صابروا” is not the same verb as “تواصوا”; the parallel supports collective steadfastness, not an exact equation with mutual advice.
+- **R-4:98** [reading; support strong, relevance high] inter-ayah target
+  - finding: The exception frame in 4:98 shows that exemption after a severe judgment can rest on inability: its excluded group cannot find a way out, unlike the active qualifications in 103:3.
+  - evidence: 4:97 «فَأُو۟لَٰٓئِكَ مَأْوَىٰهُمْ جَهَنَّمُ»; 4:98 «إِلَّا ٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ لَا يَسْتَطِيعُونَ حِيلَةًۭ وَلَا يَهْتَدُونَ سَبِيلًۭا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: Both sequences place an “إِلَّا” exception after a broad negative judgment; their different qualifying conditions bring the range of exception into view.
+  - limits: The two passages concern different judgments and groups; 4:98 does not imply helplessness is a condition in 103:3.
+- **R-4:123** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequence from 4:123 to 4:124 frames the focus’s exception as a practice-based distinction against reliance on wishes: wrongdoing is answered, then faith and righteous action are named with the positive outcome.
+  - evidence: 4:123 «لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَٰبِ»; 4:123 «مَن يَعْمَلْ سُوٓءًۭا يُجْزَ بِهِۦ»; 4:124 «وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus also moves from a universal judgment to an excepted group defined by faith and deeds.
+  - limits: 4:123–124 does not include the focus’s reciprocal counsel, truth, or patience, and its immediate concern is accountability rather than mutual practice.
+- **R-4:124** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:124 directly parallels the focus’s first two qualifications: faith and righteous deeds precede deliverance, though 4:124 states them for any woman or man and promises entry into the Garden.
+  - evidence: 4:124 «وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus’s “آمنوا” and “عملوا الصالحات” recur together here as criteria linked to an outcome.
+  - limits: 4:124 does not add truth, patience, or reciprocal exhortation; its singular generic construction is distinct from the focus’s plural group.
+- **R-4:131** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus’s reciprocal “تَوَاصَوْا” shares the وصي root with “وَصَّيْنَا”; 4:131 presents a divine charge to earlier scripture communities and the current audience to practice taqwa.
+  - evidence: 4:131 «وَلَقَدْ وَصَّيْنَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَإِيَّاكُمْ أَنِ ٱتَّقُوا۟ ٱللَّهَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The shared root and the focus’s plural reciprocal form meet a verse that extends an injunction across earlier and present communities.
+  - limits: 4:131 is a divine injunction, not people exhorting one another; the link does not establish that the focus’s group spans generations.
+- **R-4:146** [reading; support strong, relevance high] inter-ayah target
+  - finding: 4:146 forms a close exception parallel to 103:3: after a threat, an excluded group is defined by repentance, reform, holding fast to God, and sincerity, then joined with the believers.
+  - evidence: 4:145 «إِنَّ ٱلْمُنَٰفِقِينَ فِى ٱلدَّرْكِ ٱلْأَسْفَلِ مِنَ ٱلنَّارِ»; 4:146 «إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَٱعْتَصَمُوا۟ بِٱللَّهِ وَأَخْلَصُوا۟ دِينَهُمْ لِلَّهِ فَأُو۟لَٰٓئِكَ مَعَ ٱلْمُؤْمِنِينَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: Both passages use “إِلَّا” to distinguish a group by multiple practices after a general loss or threat.
+  - limits: The conditions differ: 4:146 addresses repentance from hypocrisy and does not include mutual counsel in truth or patience.
+- **R-5:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:2 parallels the focus’s communal ethic through cooperation in righteousness and taqwa, explicitly forbidding cooperation in sin and aggression.
+  - evidence: 5:2 «وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: Both passages make good practice communal, and 5:2 places that cooperation under pressure from hostility and the temptation to transgress.
+  - limits: 5:2 uses “تعاونوا,” not “تواصوا”; cooperation in good is not identical to mutual counsel in truth and patience.
+- **R-5:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:48 places “الحق” in a revealed and judicial frame, then joins judgment by revelation to a command to race toward good works.
+  - evidence: 5:48 «وَأَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ»; 5:48 «فَٱحْكُم بَيْنَهُم بِمَآ أَنزَلَ ٱللَّهُ»; 5:48 «وَلَا تَتَّبِعْ أَهْوَآءَهُمْ عَمَّا جَآءَكَ مِنَ ٱلْحَقِّ»; 5:48 «فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ»
+  - activation: The focus pairs truth with righteous action; this passage connects revealed truth, resisting desire, judgment, and competing in good.
+  - limits: 5:48 does not mention patience or reciprocal counsel, and its instructions address the Prophet’s judgment among communities.
+- **R-5:79** [reading; support strong, relevance high] inter-ayah target
+  - finding: 5:79 presents a negative counterpart to the focus’s mutual exhortation: people failed to restrain one another from wrongdoing they themselves committed.
+  - evidence: 5:79 «كَانُوا۟ لَا يَتَنَاهَوْنَ عَن مُّنكَرٍۢ فَعَلُوهُ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages center reciprocal conduct among a group; one describes mutual urging toward good, the other a failure of mutual restraint from evil.
+  - limits: The verbs and directions differ: 5:79 uses mutual forbidding, not the focus’s mutual charging, and names wrongdoing rather than truth or patience.
+- **R-6:73** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated definite al-ḥaqq lets the mutual counsel of 103:3 resonate with 6:73, where creation is by truth and God's own saying is truth; the ethical charge sits within a divinely true order.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 6:73 «خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ»; 6:73 «قَوْلُهُ ٱلْحَقُّ»
+  - activation: The focus makes al-ḥaqq the first payload of the community's mutual charge.
+  - limits: 6:73 does not depict mutual counsel or specify the social content of al-ḥaqq.
+- **R-6:114** [reading; support strong, relevance high] inter-ayah target
+  - finding: The community's al-ḥaqq can include recognizing revelation as true: 6:114 says the Book is sent from the Lord in truth and warns against doubt.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 6:114 «أَنَّهُۥ مُنَزَّلٌۭ مِّن رَّبِّكَ بِٱلْحَقِّ»; 6:114 «فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ»
+  - activation: The focus leaves al-ḥaqq without an explicit object, allowing revelation to be one possible content of the counsel.
+  - limits: 6:114 addresses the Messenger and Book recipients; it does not say that they are carrying out mutual counsel.
+- **R-6:144** [reading; support strong, relevance high] inter-ayah target
+  - finding: A different form of the same w-ṣ-y root appears in the challenge over whether God prescribed the claimed dietary rule. Beside that charge of fabrication, the focus's reciprocal tawāṣī bi-l-ḥaqq can sound like counsel answerable to truth rather than false attribution.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 6:144 «أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا»; 6:144 «فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًۭا»
+  - activation: The focus repeats tawāṣaw for truth and patience; 6:144 puts a divine prescription claim under scrutiny.
+  - limits: The focus uses reciprocal Form VI counsel, while 6:144 uses a divine prescription form; the verses do not refer to the same ruling.
+- **R-6:151** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's al-ḥaqq gains a concrete ethical register in 6:151: God's charge includes a limit on taking life, which is permitted only bi-l-ḥaqq. The shared w-ṣ-y root also places mutual counsel beside divine prescription.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 6:151 «وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ»; 6:151 «ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ»
+  - activation: The focus combines tawāṣaw with al-ḥaqq, and 6:151 combines a life-protecting rule with God's wasiyya.
+  - limits: Divine prescription in 6:151 is not itself reciprocal counsel, and the passage does not identify its addressees with the focus group.
+- **R-6:152** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's al-ḥaqq can be heard as fair dealings and just speech: 6:152 commands equitable measure and justice when speaking, then calls these rules God's charge.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 6:152 «وَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ بِٱلْقِسْطِ»; 6:152 «وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟»; 6:152 «ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ»
+  - activation: Both the focus's truth charge and 6:152's divine charge concern what a community transmits and practices.
+  - limits: 6:152 does not use al-ḥaqq for these particular rules or describe mutual exhortation.
+- **R-7:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: Al-ḥaqq is the weighing on Judgment Day, and the heavy scales mark success while the next verse names the light-scaled as losers. Beside 103:2–3, the truth-and-patience group can be heard against a final measure that resolves the surah's loss verdict.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 7:8 «وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ»; 7:9 «وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم»
+  - activation: The focus opens its exception from a verdict of loss and includes al-ḥaqq among the group's defining practices.
+  - limits: 7:8–9 does not say which specific deeds are weighed or identify the weighed group with those of 103:3.
+- **R-7:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: 7:42 repeats the focus's exact faith-and-righteous-deeds formula, promises Paradise, and adds that no soul is burdened beyond its capacity. The focus extends this shared profile with mutual truth and patience.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 7:42 «وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 7:42 «لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَآ»
+  - activation: The identical opening predicates make this a direct parallel to the first half of the focus's exception.
+  - limits: 7:42 does not mention reciprocal exhortation or say that its group has the focus's full set of traits.
+- **R-7:56** [reading; support strong, relevance high] inter-ayah target
+  - finding: The focus's al-ṣāliḥāt can take on a restorative, public sense beside 7:56, which forbids corruption after the earth has been set right and associates mercy with the muḥsinūn.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 7:56 «وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا»; 7:56 «إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌۭ مِّنَ ٱلْمُحْسِنِينَ»
+  - activation: The shared ṣ-l-ḥ root and explicit contrast with corruption make social repair a possible register for righteous deeds.
+  - limits: 7:56 does not define al-ṣāliḥāt or say that the focus group performs this particular command.
+- **R-7:126** [reading; support strong, relevance high] inter-ayah target
+  - finding: The magicians publicly affirm faith in God's signs and ask God to pour patience upon them before their deaths. Their scene presents patience as a needed resource under coercion, while the focus makes it a mutual communal charge.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 7:126 «ءَامَنَّا بِـَٔايَٰتِ رَبِّنَا»; 7:126 «رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ»
+  - activation: The focus pairs faith with patience; 7:126 joins faith and ṣabr in a collective confession under threat.
+  - limits: The magicians ask God for patience rather than exhorting one another, and the scenes are not identified as the same event.
+- **R-7:170** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 7:169–170, a generation is condemned for taking worldly gain and violating its covenant about speaking truth of God; the following group holds fast to the Book and is rewarded as reformers. This connects the focus's al-ḥaqq with sustained righteous practice rather than claims alone.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 7:169 «أَن لَّا يَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ»; 7:170 «وَٱلَّذِينَ يُمَسِّكُونَ بِٱلْكِتَٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ إِنَّا لَا نُضِيعُ أَجْرَ ٱلْمُصْلِحِينَ»
+  - activation: The focus joins truth to deeds; this passage sets truthful speech, scriptural fidelity, prayer, and reform in sequence.
+  - limits: 7:170 does not name mutual exhortation or patience, and its immediate actors are a specific scriptural community.
+- **R-8:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The believers in 8:1 are told to repair what lies between them; its iṣlāḥ shares the ṣ-l-ḥ root with the focus's al-ṣāliḥāt and gives righteous action a specifically relational form.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 8:1 «فَٱتَّقُوا۟ ٱللَّهَ وَأَصْلِحُوا۟ ذَاتَ بَيْنِكُمْ»; 8:1 «إِن كُنتُم مُّؤْمِنِينَ»
+  - activation: The focus defines an excepted group by faith and righteous deeds; 8:1 addresses believers and commands repair between them.
+  - limits: 8:1 does not mention mutual exhortation to truth or patience.
+- **R-8:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: In the battle setting, God's purpose is to establish al-ḥaqq and invalidate falsehood. This gives the focus's mutual counsel toward al-ḥaqq a public, contested dimension: truth is established against what opposes it.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 8:7 «وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلْحَقَّ بِكَلِمَٰتِهِۦ»; 8:8 «لِيُحِقَّ ٱلْحَقَّ وَيُبْطِلَ ٱلْبَٰطِلَ»
+  - activation: The exact al-ḥaqq of the focus recurs in a scene where truth's establishment is God's stated purpose.
+  - limits: 8:7–8 does not describe reciprocal advice, and the battle outcome is not identified with the focus group's practice.
+- **R-8:46** [reading; support strong, relevance high] inter-ayah target
+  - finding: In a battle setting, believers are told not to dispute, to stand firm, and to be patient; this gives the focus's mutual counsel in patience a concrete role in preserving communal strength under pressure.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 8:45 «إِذَا لَقِيتُمْ فِئَةًۭ فَٱثْبُتُوا۟ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًۭا لَّعَلَّكُمْ تُفْلِحُونَ»; 8:46 «وَلَا تَنَٰزَعُوا۟ فَتَفْشَلُوا۟ وَتَذْهَبَ رِيحُكُمْ»; 8:46 «وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ»
+  - activation: The focus makes patience reciprocal; 8:46 directly connects patience with avoiding conflict among believers.
+  - limits: 8:46 commands the group rather than describing members counseling one another, and its immediate setting is combat.
+- **R-9:71** [reading; support strong, relevance high] inter-ayah target
+  - finding: The believing women and men are allies to one another and command right while forbidding wrong; this gives a close communal example of the focus's reciprocal charge, with an explicitly mixed-gender community.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 9:71 «وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ»; 9:71 «يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ»
+  - activation: The focus's reciprocal tawāṣī is closely paralleled by mutual alliance and plural commanding and forbidding.
+  - limits: 9:71 names al-maʿrūf and al-munkar rather than al-ḥaqq and al-ṣabr.
+- **R-10:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: 10:4 repeats the focus's faith-and-righteous-deeds formula and places its reward under al-qisṭ at the return to God. The focus supplies a communal practice profile within this just final accounting.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 10:4 «لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ بِٱلْقِسْطِ»
+  - activation: The exact shared formula links the focus's qualified people to a passage about return and recompense.
+  - limits: 10:4 does not list the focus's mutual practices or equate al-qisṭ with al-ḥaqq.
+- **R-10:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: After repeating the focus's exact faith-and-righteous-deeds formula, 10:9 says their Lord guides them by their faith. The focus adds mutual truth and patience as communal practices alongside that guiding faith.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 10:9 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ يَهْدِيهِمْ رَبُّهُم بِإِيمَٰنِهِم»
+  - activation: The repeated predicate pair makes 10:9 a direct comparison for the focus's opening conditions.
+  - limits: 10:9 does not state that mutual exhortation is a condition of guidance or name the focus's additional practices.
+- **R-10:32** [reading; support strong, relevance high] inter-ayah target
+  - finding: 10:32 names Allah as al-ḥaqq and says that what lies beyond truth is error. This anchors the focus's definite al-ḥaqq in a divine and sharp truth–error boundary, not merely in agreeable advice.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 10:32 «فَذَٰلِكُمُ ٱللَّهُ رَبُّكُمُ ٱلْحَقُّ»; 10:32 «فَمَاذَا بَعْدَ ٱلْحَقِّ إِلَّا ٱلضَّلَٰلُ»
+  - activation: The focus leaves al-ḥaqq definite and does not specify its referent.
+  - limits: 10:32 does not define the particular subjects believers should counsel one another about.
+- **R-10:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 10:53 al-ḥaqq is the affirmed reality of the threatened judgment, and 10:54 says judgment between wrongdoers is by al-qisṭ. This gives the focus's counsel toward truth an eschatological dimension with consequences that cannot be evaded.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 10:53 «قُلْ إِى وَرَبِّىٓ إِنَّهُۥ لَحَقٌّۭ ۖ وَمَآ أَنتُم بِمُعْجِزِينَ»; 10:54 «وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ ۚ وَهُمْ لَا يُظْلَمُونَ»
+  - activation: The focus's definite al-ḥaqq is paired here with an oath affirming a judgment and with fair adjudication.
+  - limits: 10:53–54 do not directly identify mutual counsel as a response to this warning.
+- **R-10:81** [reading; support strong, relevance high] inter-ayah target
+  - finding: In Moses's contest, God invalidates the magicians' work and does not set right the work of corrupters; the next verse says God establishes al-ḥaqq. This brings the focus's righteous deeds and truth into a scene where false display is exposed.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 10:81 «إِنَّ ٱللَّهَ لَا يُصْلِحُ عَمَلَ ٱلْمُفْسِدِينَ»; 10:82 «وَيُحِقُّ ٱللَّهُ ٱلْحَقَّ بِكَلِمَٰتِهِۦ»
+  - activation: The focus joins ṣāliḥ deeds with al-ḥaqq; this passage sets reform, corrupters, and truth in contrast.
+  - limits: The focus does not mention magic or claim that every act of counsel occurs in a public contest.
+- **R-10:109** [reading; support strong, relevance high] inter-ayah target
+  - finding: After announcing the truth from God to all people, 10:109 tells the Messenger alone to follow revelation and be patient until God judges. The focus turns this prophetic endurance into mutual counsel among the believing community.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 10:108 «قَدْ جَآءَكُمُ ٱلْحَقُّ مِن رَّبِّكُمْ»; 10:109 «وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ وَٱصْبِرْ حَتَّىٰ يَحْكُمَ ٱللَّهُ»
+  - activation: The adjacent verses join al-ḥaqq with patience and waiting for God's judgment, as the focus joins truth with patience.
+  - limits: 10:109 addresses the Messenger in the singular; it does not itself command a community to counsel one another.
+- **R-11:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: 11:11 closely echoes the focus ayah’s exception and deed formula: إِلَّا ٱلَّذِينَ is followed by patience and righteous action. It presents patience with good deeds as an exit from the preceding human reaction; 103:3 adds faith and mutual counsel.
+  - evidence: 11:10 «إِنَّهُۥ لَفَرِحٌۭ فَخُورٌ»; 11:11 «إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: 103:3 also begins with إِلَّا ٱلَّذِينَ and names عَمِلُوا۟ ٱلصَّٰلِحَٰتِ before adding mutual counsel in truth and patience.
+  - limits: 11:11 does not name faith or mutual advice, and its sequence puts patience before righteous action.
+- **R-11:23** [reading; support strong, relevance high] inter-ayah target
+  - finding: The clause ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ nearly matches the focus ayah’s first two predicates. In 11:23, humility before their Lord joins those predicates as the answer to the preceding description of the losers.
+  - evidence: 11:22 «أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْأَخْسَرُونَ»; 11:23 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَخْبَتُوٓا۟ إِلَىٰ رَبِّهِمْ»
+  - activation: The focus ayah also sets faith and righteous works against loss, then extends the profile through تَوَاصَوْا۟.
+  - limits: 11:23 names humility toward God, not mutual counsel; the shared predicates do not establish that humility means the same thing as either counsel.
+- **R-12:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The brothers plan to kill or cast Yusuf away, then say they will become قَوْمًۭا صَٰلِحِينَ afterward. Their promised label is set against the deed they are planning, making the focus ayah’s عَمِلُوا۟ ٱلصَّٰلِحَٰتِ a concrete test of claimed righteousness.
+  - evidence: 12:9 «ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا»; 12:9 «وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَٰلِحِينَ»
+  - activation: The focus ayah defines the excepted group through deeds already done, not a future claim to be righteous.
+  - limits: The narrator does not explicitly call the brothers’ claim ironic; that reading follows from the immediate juxtaposition of their plan and their stated future identity.
+- **R-12:90** [reading; support strong, relevance high] inter-ayah target
+  - finding: At the recognition scene, Joseph states that whoever practices taqwa and patience will find that God does not waste the reward of the good-doers. It links endurance under wrongdoing to a non-wasted outcome, alongside the focus ayah’s patient practice.
+  - evidence: 12:90 «إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ»; 12:91 «وَإِن كُنَّا لَخَٰطِـِٔينَ»
+  - activation: The focus ayah pairs righteous action with mutual patience; Joseph’s statement follows the brothers’ recognition and precedes their explicit admission of fault.
+  - limits: The verse names taqwa and patience, not faith, righteous works, or mutual counsel; it does not say that patience alone constitutes the focus ayah’s full exception.
+- **R-13:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: The patient group seeks God’s face, establishes prayer, spends, and repels evil with good. This presents صَبَرُوا۟ alongside restorative deeds and a good outcome, making patience part of an enacted ethical profile like the focus ayah’s.
+  - evidence: 13:22 «وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ»; 13:22 «وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ»
+  - activation: The focus ayah joins righteous works to mutual counsel in patience; this passage shows patience and good action operating together.
+  - limits: The verse does not say the group counsels one another or use ٱلْحَقِّ; its acts and motivation are specified differently.
+- **R-13:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: The greeting سَلَٰمٌ عَلَيْكُم is explicitly grounded in بِمَا صَبَرْتُمْ and followed by praise of the final abode. It presents patience as a path recognized at the promised end, sharpening the outcome of the focus ayah’s final condition.
+  - evidence: 13:24 «سَلَٰمٌ عَلَيْكُم بِمَا صَبَرْتُمْ ۚ فَنِعْمَ عُقْبَى ٱلدَّارِ»
+  - activation: The focus ayah closes its exception with وَتَوَاصَوْا۟ بِٱلصَّبْرِ; this verse supplies a scene in which patience is named as the cause of a good end.
+  - limits: It does not describe mutual counsel or specify that the patience here is the same practice as in 103:3.
+- **R-13:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: The clause ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ closely matches the focus ayah’s first two conditions and is followed by a good return. The comparison makes the focus ayah’s addition of reciprocal truth and patience especially prominent.
+  - evidence: 13:29 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ طُوبَىٰ لَهُمْ وَحُسْنُ مَـَٔابٍۢ»
+  - activation: 103:3 shares the faith-and-deeds pair but continues with two repeated mutual-counsel clauses.
+  - limits: 13:29 does not itself mention truth, patience, or how its believers relate to one another.
+- **R-14:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The messengers vow to endure the harm inflicted on them and frame this resolve with reliance on God. Their plural response gives the focus ayah’s patience a setting of public opposition and collective steadfastness.
+  - evidence: 14:11 «وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ»; 14:12 «وَلَنَصْبِرَنَّ عَلَىٰ مَآ ءَاذَيْتُمُونَا»
+  - activation: The focus ayah makes mutual patience a condition for escaping loss; here a group of messengers commits to patience under harm.
+  - limits: The messengers speak collectively but do not explicitly advise one another; the passage does not pair their patience with بِٱلْحَقِّ.
+- **R-16:42** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who migrated for God after being wronged are identified as patient and reliant on their Lord. This places صَبَرُوا۟ within a community’s response to oppression and displacement, giving the focus ayah’s patience a lived setting.
+  - evidence: 16:41 «وَٱلَّذِينَ هَاجَرُوا۟ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ظُلِمُوا۟»; 16:42 «ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ»
+  - activation: The focus ayah makes patience a communal condition; these verses attach it to a plural group’s response after being wronged.
+  - limits: The verses do not say the group mutually counsels patience or mention the focus ayah’s other conditions.
+- **R-16:97** [reading; support strong, relevance high] inter-ayah target
+  - finding: Whoever does a righteous deed while believing is promised a good life and reward. This closely links the focus ayah’s faith and صالحات conditions, while the preceding verse also connects patience with reward for deeds.
+  - evidence: 16:96 «وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ»; 16:97 «مَنْ عَمِلَ صَٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَلَنُحْيِيَنَّهُۥ حَيَوٰةًۭ طَيِّبَةًۭ»
+  - activation: The focus ayah pairs faith, righteous deeds, and patience in its exception; 16:96–97 place patience and the faith-plus-deed condition together in sequence.
+  - limits: 16:97 uses a generic singular and does not mention reciprocal truth or patience within its own condition.
+- **R-16:102** [reading; support strong, relevance high] inter-ayah target
+  - finding: The revelation comes بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟: truth-bearing revelation makes believers firm. This links haqq and faith through a stabilizing function, close to how mutual truth and patience in the focus ayah can sustain people against loss.
+  - evidence: 16:101 «قَالُوٓا۟ إِنَّمَآ أَنتَ مُفْتَرٍۭ»; 16:102 «نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The focus ayah joins بِٱلْحَقِّ to a group of believers and pairs it with patience; this passage joins haqq to believers’ firmness amid an accusation about revelation.
+  - limits: The verse describes divine revelation, not reciprocal human advice, and does not use صَبْر.
+- **R-16:110** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage names migration after persecution, striving, and patience before forgiveness and mercy. It gives the focus ayah’s faith-and-action profile a setting of tested persistence, although the patience is not described as mutual counsel.
+  - evidence: 16:110 «لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟»; 16:110 «إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ»
+  - activation: The focus ayah names belief, righteous action, and patience as conditions for leaving loss; this passage sequences action and patience after a trial.
+  - limits: It does not mention tawāṣī or truth, and its setting is a specific persecuted group rather than an explicitly universal class.
+- **R-16:119** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those who did wrong in ignorance, then repented and أَصْلَحُوا۟, receive forgiveness. The same ṣ-l-ḥ root as ٱلصَّٰلِحَٰتِ appears here as repair after wrongdoing, showing that righteous action can be read alongside a path of correction.
+  - evidence: 16:119 «لِلَّذِينَ عَمِلُوا۟ ٱلسُّوٓءَ بِجَهَٰلَةٍۢ ثُمَّ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوٓا»
+  - activation: The focus ayah names righteous deeds as part of the exception to loss; 16:119 uses the related root for reform following bad deeds.
+  - limits: The verse does not equate أَصْلَحُوا۟ with the focus ayah’s deeds or include mutual counsel in truth and patience.
+- **R-16:126** [reading; support strong, relevance high] inter-ayah target
+  - finding: After allowing proportionate retaliation, the verse says patience is better for those who are patient. This gives صَبْر a specific ethical boundary and value under injury, clarifying the focus ayah’s call to counsel patience.
+  - evidence: 16:126 «وَإِنْ عَاقَبْتُمْ فَعَاقِبُوا۟ بِمِثْلِ مَا عُوقِبْتُم بِهِۦ»; 16:126 «وَلَئِن صَبَرْتُمْ لَهُوَ خَيْرٌۭ لِّلصَّٰبِرِينَ»
+  - activation: The focus ayah makes patience a shared charge; here patience is chosen in a situation where retaliation is possible but bounded.
+  - limits: The verse addresses a group’s response to injury but does not say they advise one another or mention بِٱلْحَقِّ.
+- **R-17:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Quran guides to what is most upright and brings good news to believers who do righteous works. This is a close faith-and-deeds parallel to the focus ayah, whose further conditions make communal truth and patience part of the profile.
+  - evidence: 17:9 «إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ»; 17:9 «وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus ayah places iman and righteous action before its two reciprocal clauses; 17:9 names the first pair and promises reward.
+  - limits: 17:9 does not mention mutual counsel or patience, and its upright guidance is not explicitly equated with al-haqq in 103:3.
+- **R-17:26** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command to give kin, the poor, and the traveler حَقَّهُۥ treats haqq as an owed due fulfilled through action. This offers a concrete relational possibility for بِٱلْحَقِّ in the focus ayah: counsel toward what is right may concern others’ claims.
+  - evidence: 17:26 «وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ»
+  - activation: The focus ayah makes al-haqq the content of mutual counsel; 17:26 links the same noun to a claim that must be honored in practice.
+  - limits: 17:26 uses the possessive حَقَّهُۥ, not the definite noun بِٱلْحَقِّ, and does not establish that this is the sole meaning intended in 103:3.
+- **R-17:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command that servants speak what is best is paired with the warning that Satan stirs discord between them. This gives a direct social scene for counsel that preserves relations; the focus ayah names such mutual counsel in truth and patience.
+  - evidence: 17:53 «وَقُل لِّعِبَادِى يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ»; 17:53 «إِنَّ ٱلشَّيْطَٰنَ يَنزَغُ بَيْنَهُمْ»
+  - activation: تَوَاصَوْا۟ makes the focus ayah’s counsel reciprocal, and this passage explicitly concerns speech among people and discord between them.
+  - limits: 17:53 does not use بِٱلْحَقِّ or بِٱلصَّبْرِ, and its instruction concerns the best speech rather than an explicitly stated mutual charge.
+- **R-17:81** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here al-haqq arrives and al-batil vanishes; the next verse says the Quran is healing and mercy for believers but increases the wrongdoers in loss. This casts counsel بِٱلْحَقِّ in the focus ayah as aligned with a truth that opposes falsehood and can answer loss.
+  - evidence: 17:81 «جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ»; 17:82 «شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا»
+  - activation: The focus ayah moves from human loss to a group that counsels one another in al-haqq; 17:81–82 places truth against falsehood and distinguishes its outcome for people.
+  - limits: The passage does not describe reciprocal advice or identify the loss of 103:2 with the increase in loss in 17:82.
+- **R-18:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The upright Book warns and gives good news to believers who do righteous works. The close faith-and-deeds formula parallels the focus ayah’s first predicates, while its mutual truth and patience clauses extend the profile.
+  - evidence: 18:2 «قَيِّمًۭا لِّيُنذِرَ بَأْسًۭا شَدِيدًۭا مِّن لَّدُنْهُ»; 18:2 «وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ»
+  - activation: 103:3 likewise joins faith to righteous action before describing reciprocal truth and patience.
+  - limits: 18:2 does not name mutual counsel or patience, and it describes the Book’s warning and promise rather than a full community practice.
+- **R-18:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: The account is told بِٱلْحَقِّ about young men who believed, received increased guidance, and then stood to declare their Lord. Their faith becomes a public stance under pressure, a communal parallel to the focus ayah’s movement from belief toward shared practice.
+  - evidence: 18:13 «نَّحْنُ نَقُصُّ عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ»; 18:13 «إِنَّهُمْ فِتْيَةٌ ءَامَنُوا۟ بِرَبِّهِمْ وَزِدْنَٰهُمْ هُدًۭى»; 18:14 «إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ»
+  - activation: The focus ayah’s excepted group begins with faith and continues with shared declarations and actions; the youths believe and publicly speak under pressure.
+  - limits: The youths do not explicitly advise one another, and the narrative’s بِٱلْحَقِّ qualifies the account rather than their speech.
+- **R-18:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: The Prophet is told to keep himself patiently with those who call on their Lord; the next verse commands him to declare ٱلْحَقُّ. The neighboring sequence brings communal patience and truth together, echoing the focus ayah’s pair while placing the Prophet among devoted companions.
+  - evidence: 18:28 «وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ»; 18:29 «وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ»
+  - activation: The focus ayah pairs وَتَوَاصَوْا۟ بِٱلْحَقِّ with وَتَوَاصَوْا۟ بِٱلصَّبْرِ; 18:28–29 places patience with a group beside a command to proclaim truth.
+  - limits: The sequence reverses the focus ayah’s order and does not describe the companions mutually advising one another.
+- **R-18:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The faith-and-deeds pair is explicitly joined to a promise that no good worker’s reward is wasted, giving the focus’s escape from loss a concrete counterpart.
+  - evidence: 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 18:30 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ إِنَّا لَا نُضِيعُ أَجْرَ مَنْ أَحْسَنَ عَمَلًا»
+  - activation: The shared opening predicates meet the focus’s verdict of human loss; 18:30 answers with non-wasted reward.
+  - limits: 18:30 does not include mutual counsel to truth or patience, and its promise concerns reward.
+- **R-18:67** [reading; support strong, relevance high] inter-ayah target
+  - finding: The warning that Musa cannot be patient “with me” places ṣabr in a teacher–student relation: endurance is tested while staying with someone through instruction.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 18:67 «إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًۭا»
+  - activation: The focus’s final charge names ṣabr; this episode makes endurance relational by specifying “with me.”
+  - limits: The relation here is between one teacher and one learner, not mutual counsel among a group; the verse does not mention truth.
+- **R-18:68** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here patience is tested against what Musa has not yet comprehended, so endurance accompanies a gap in knowledge before events can be understood.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 18:68 «وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًۭا»
+  - activation: The focus pairs truth with patience; the question links patience to an account not yet grasped.
+  - limits: This does not make patience passive acceptance or say that the focus’s truth is hidden knowledge.
+- **R-18:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: The episode closes by naming Musa’s inability to be patient as the matter now given its explanation; the narrative makes patience a demand during the interval before interpretation arrives.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 18:82 «ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا»
+  - activation: The paired charge to truth and patience can be heard beside a story where explanation comes after patience has been strained.
+  - limits: This episode’s hidden actions and eventual explanation do not define the focus’s truth or identify its community with Musa and his guide.
+- **R-19:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: أَوْصَانِي shares the وصي root with تَوَاصَوْا but uses a different form: Isa receives a charge concerning prayer and zakat for as long as he lives, while the focus makes charging one another reciprocal.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 19:31 «وَأَوْصَٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّۭا»
+  - activation: The repeated tawaṣaw clauses invite comparison with this explicit divine charge and its bāʾ-governed content.
+  - limits: The focus describes mutual human charging; 19:31 describes a charge received by Isa and names different content.
+- **R-19:60** [reading; support strong, relevance high] inter-ayah target
+  - finding: After a generation is described as neglecting prayer and following desires, an exception is made for those who repent, believe, and do right; this is a repair path out of a preceding communal failure.
+  - evidence: 19:59 «فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 19:60 «إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا»
+  - activation: Both passages use an exception followed by belief and righteous action; the surrounding verses in Maryam supply a specific prior failure and repair.
+  - limits: Maryam adds repentance and a promise of entry to the Garden, but not mutual exhortation to truth and patience.
+- **R-19:76** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase الباقيات الصالحات describes righteous deeds as abiding; beside the focus’s oath by time and verdict of loss, it gives the deeds a contrasting horizon of endurance.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 19:76 «وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌۭ مَّرَدًّا»
+  - activation: The shared الصالحات wording meets the focus’s time-and-loss frame, while Maryam explicitly calls these deeds abiding.
+  - limits: Maryam does not say that the focus’s deeds are everlasting or identify which deeds it means.
+- **R-19:96** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same faith-and-righteous-deeds formula is followed here by God-given affection, a social outcome that complements the focus’s move from individual predicates to reciprocal communal practice.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 19:96 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا»
+  - activation: The focus defines a group through shared belief, action, and mutual exhortation; Maryam attaches affection to its first two predicates.
+  - limits: 19:96 attributes affection to God’s making and does not say it results from mutual exhortation.
+- **R-20:82** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the warning that whoever is overtaken by wrath has fallen, God names repentance, belief, righteous action, and then guidance as a path to forgiveness; the sequence answers a fall with return and direction.
+  - evidence: 20:81 «وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ»; 20:82 «وَإِنِّى لَغَفَّارٌۭ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا ثُمَّ ٱهْتَدَىٰ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - activation: The fall and forgiveness sequence resonates with the focus’s loss verdict and its exception through faith and action.
+  - limits: This verse adds repentance and subsequent guidance; it does not mention the focus’s two mutual charges.
+- **R-20:112** [reading; support strong, relevance high] inter-ayah target
+  - finding: A believer who does righteous deeds is promised neither fear of injustice nor loss of due. The pairing directly counters the failure and wrong named in the preceding verse.
+  - evidence: 20:111 «وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 20:112 «وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا يَخَافُ ظُلْمًۭا وَلَا هَضْمًۭا»
+  - activation: The focus names the same two qualifications; Ṭā Hā places them against failure and guarantees freedom from wrong or deprivation.
+  - limits: The order is reversed, and these verses do not include reciprocal counsel to truth or patience.
+- **R-20:132** [reading; support strong, relevance high] inter-ayah target
+  - finding: One person is told to command his household to pray and to persevere in prayer, a directed household practice that can be compared with the focus’s reciprocal charging to patience.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 20:132 «وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا»
+  - activation: Both passages join communal or household religious practice with ṣabr; the imperative here specifies the household and prayer.
+  - limits: Ṭā Hā gives a one-way command and personal perseverance, not mutual exhortation; its object is prayer, not patience itself.
+- **R-21:85** [reading; support strong, relevance high] inter-ayah target
+  - finding: The named prophets are called patient, then immediately described as among the righteous; patience and righteous standing thus converge in the same people.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 21:85 «كُلٌّۭ مِّنَ ٱلصَّٰبِرِينَ»; 21:86 «إِنَّهُم مِّنَ ٱلصَّٰلِحِينَ»
+  - activation: The focus places righteous deeds and patience together; these adjacent verses apply the corresponding qualities to one prophetic group.
+  - limits: The verses classify these people but do not say their patience was mutually advised or specify their deeds.
+- **R-21:94** [reading; support strong, relevance high] inter-ayah target
+  - finding: A believer’s righteous effort is neither denied nor lost: it is recorded. This gives a direct assurance against the focus’s loss verdict.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 21:94 «فَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا كُفْرَانَ لِسَعْيِهِۦ وَإِنَّا لَهُۥ كَٰتِبُونَ»
+  - activation: The shared believer-and-deeds condition is followed here by assurance that the effort will be recognized and recorded.
+  - limits: The verse focuses on an individual’s effort and does not include the focus’s mutual counsel predicates.
+- **R-23:100** [reading; support strong, relevance high] inter-ayah target
+  - finding: At death, a person asks to return so he can do righteous work, but is refused and faces a barrier until resurrection; it dramatizes the time-bound urgency behind the focus’s active deeds.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 23:99 «قَالَ رَبِّ ٱرْجِعُونِ»; 23:100 «لَعَلِّىٓ أَعْمَلُ صَٰلِحًۭا فِيمَا تَرَكْتُ ۚ كَلَّآ ۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَا ۖ وَمِن وَرَآئِهِم بَرْزَخٌ إِلَىٰ يَوْمِ يُبْعَثُونَ»
+  - activation: The focus opens with an oath by time and requires deeds; this scene shows a request for those deeds after life has ended.
+  - limits: The passage does not specify the focus’s other three conditions or say what deeds the speaker intended.
+- **R-23:111** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those mocked by their opponents are rewarded for their patience and declared the ones who succeed; this casts ṣabr as endurance under social ridicule with a victorious outcome.
+  - evidence: 23:110 «فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ تَضْحَكُونَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 23:111 «إِنِّى جَزَيْتُهُمُ ٱلْيَوْمَ بِمَا صَبَرُوٓا۟ أَنَّهُمْ هُمُ ٱلْفَآئِزُونَ»
+  - activation: The focus’s patience clause meets an account of mockery answered by patient endurance and success.
+  - limits: The verse says they were patient but does not depict them advising one another to be so.
+- **R-24:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the rule against false accusers, an exception for those who repent and reform restores their standing; exception and repair answer condemnation in a way comparable to the focus’s exception from loss.
+  - evidence: 24:4 «وَأُو۟لَٰٓئِكَ هُمُ ٱلْفَٰسِقُونَ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 24:5 «إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟»
+  - activation: Both verses use إِلَّا to mark an exit from a preceding judgment; the shared صلح root links reform here to the focus’s righteous deeds.
+  - limits: Here the form is a verb of reform after a particular offense, not the focus’s noun for righteous deeds; it says nothing about mutual counsel.
+- **R-25:33** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase بِٱلْحَقِّ also describes God’s answer to opponents’ examples, followed by the best explanation; in al-Furqan, truth is the revealed reply to polemic.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 25:33 «وَلَا يَأْتُونَكَ بِمَثَلٍ إِلَّا جِئْنَٰكَ بِٱلْحَقِّ وَأَحْسَنَ تَفْسِيرًا»
+  - activation: The exact bāʾ-governed phrase recurs, while the surrounding words specify an argumentative setting for haqq.
+  - limits: In 25:33 God brings the answer to the Prophet; it is not mutual human exhortation as in the focus.
+- **R-25:70** [reading; support strong, relevance high] inter-ayah target
+  - finding: After grave wrongdoing, an exception joins repentance, belief, and righteous action to God’s transformation of bad deeds into good ones; the exit from ruin can involve reversal, not simply avoidance of punishment.
+  - evidence: 25:69 «يُضَٰعَفْ لَهُ ٱلْعَذَابُ يَوْمَ ٱلْقِيَٰمَةِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 25:70 «إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ عَمَلًۭا صَٰلِحًۭا فَأُو۟لَٰٓئِكَ يُبَدِّلُ ٱللَّهُ سَيِّـَٔاتِهِمْ حَسَنَٰتٍۢ»
+  - activation: The shared exception and belief/action pair are placed here after specified serious wrongs, with an outcome of transformation.
+  - limits: The focus does not specify repentance, prior crimes, or transformation of bad deeds into good.
+- **R-26:152** [reading; support strong, relevance high] inter-ayah target
+  - finding: A group is defined by corruption in the land and failure to reform, a direct social antithesis to righteous deeds; the surrounding command not to obey them sharpens the contrast.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 26:151 «وَلَا تُطِيعُوٓا۟ أَمْرَ ٱلْمُسْرِفِينَ»; 26:152 «ٱلَّذِينَ يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ»
+  - activation: The focus’s ṣāliḥāt and the paired negative description share the صلح root while assigning opposing social roles.
+  - limits: The description concerns a specific group in the Thamud narrative and does not spell out the focus’s positive practices.
+- **R-26:227** [reading; support strong, relevance high] inter-ayah target
+  - finding: This is a close exception parallel: after poets are faulted for saying what they do not do, the exception names believers who act righteously, remember God, and answer after being wronged. Deeds, truthful integrity, and response to injustice converge here.
+  - evidence: 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 26:226 «وَأَنَّهُمْ يَقُولُونَ مَا لَا يَفْعَلُونَ»; 26:227 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَذَكَرُوا۟ ٱللَّهَ كَثِيرًۭا وَٱنتَصَرُوا۟ مِنۢ بَعْدِ مَا ظُلِمُوا۟»
+  - activation: The exception and its first two predicates match the focus closely; the preceding charge about speech without action brings truthfulness into view, and the final clause follows wrong suffered.
+  - limits: This passage specifies remembrance and answering after oppression, not the focus’s exact reciprocal practices of truth and patience.
+- **R-27:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: The nine men are labeled corruptors who do not reform, then immediately plot murder and plan a false oath. Their coordinated deception is a sharp counter-image to a community defined by righteous work and mutual truth.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 27:48 «وَكَانَ فِى ٱلْمَدِينَةِ تِسْعَةُ رَهْطٍۢ يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ»; 27:49 «تَقَاسَمُوا۟ بِٱللَّهِ لَنُبَيِّتَنَّهُۥ وَأَهْلَهُۥ ثُمَّ لَنَقُولَنَّ لِوَلِيِّهِۦ مَا شَهِدْنَا مَهْلِكَ أَهْلِهِۦ وَإِنَّا لَصَٰدِقُونَ»
+  - activation: The focus’s truth-bearing mutual practice contrasts with a group whose corruption leads into conspiracy and a planned falsehood.
+  - limits: The verses narrate one faction’s scheme; they do not directly define the focus’s communal group or prescribe its response.
+- **R-28:80** [reading; support strong, relevance high] inter-ayah target
+  - finding: Those given knowledge urge people dazzled by Qarun’s display to value God’s reward for believers who act righteously, then associate that reward with patience. The passage shows patience resisting the pull of worldly display.
+  - evidence: 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 28:79 «قَالَ ٱلَّذِينَ يُرِيدُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا يَٰلَيْتَ لَنَا مِثْلَ مَآ أُوتِىَ قَٰرُونُ»; 28:80 «ثَوَابُ ٱللَّهِ خَيْرٌۭ لِّمَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا وَلَا يُلَقَّىٰهَآ إِلَّا ٱلصَّٰبِرُونَ»
+  - activation: The passage brings belief, righteous action, and patience into one scene where people are being counseled away from worldly envy.
+  - limits: It does not name haqq or state that ṣabr is mutually advised; the referent of ـهَا in يُلَقَّىٰهَا is not explicit in the excerpt.
+- **R-29:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: 29:2–3 treat “we believe” as a claim tested by affliction, then distinguish those who spoke truth; this makes the focus’s faith and mutual patience audible under pressure.
+  - evidence: 29:2 «ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ»; 29:3 «فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟»
+  - activation: The focus names belief and closes with reciprocal counsel in patience.
+  - limits: These verses describe testing and truthful belief, but do not mention mutual counsel.
+- **R-29:59** [reading; support strong, relevance high] inter-ayah target
+  - finding: After the matching faith-and-deeds formula, 29:59 names patient people who rely on their Lord; patience is thus a defining practice of the rewarded group, not just a quality mentioned in passing.
+  - evidence: 29:58 «وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 29:59 «ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ»
+  - activation: The focus adds reciprocal patience to the same faith-and-deeds profile.
+  - limits: This passage names patience and reliance, but does not say that believers counsel one another.
+- **R-30:60** [reading; support strong, relevance high] inter-ayah target
+  - finding: Here patience is commanded directly beside the assertion that God’s promise is true; the focus brings the same two themes together as what believers mutually counsel.
+  - evidence: 30:60 «فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ»
+  - activation: The focus closes with بِٱلْحَقِّ and بِٱلصَّبْرِ, in the reverse order.
+  - limits: 30:60 addresses one person with an imperative and does not use the reciprocal verb تَوَاصَوْا۟.
+- **R-31:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same وصي root appears in God’s charge to humanity concerning parents, while the focus uses the reciprocal form تَوَاصَوْا۟ for believers’ charge to one another; the family passage adds gratitude and care as another field of transmitted duty.
+  - evidence: 31:14 «وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ»; 31:15 «وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا»
+  - activation: The focus’s repeated mutual verb invites comparison with this distinct form of charging and its following instruction about companionship.
+  - limits: The forms and relations differ: 31:14 is God’s charge to a person, not reciprocal counsel among peers.
+- **R-31:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: Luqman tells his son to command what is recognized as right, forbid wrong, and be patient through affliction; this is a close practical counterpart to truth and patience, recast in the focus as mutual practice.
+  - evidence: 31:17 «وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ»
+  - activation: The focus pairs counsel in الحق with counsel in الصبر.
+  - limits: Luqman addresses his son with individual imperatives; the verse does not use the focus’s reciprocal form or the word الحق.
+- **R-31:30** [reading; support strong, relevance high] inter-ayah target
+  - finding: The next verse names signs for every ṣabbār and grateful person; across this short sequence, divine truth and steadfast reception of signs meet, echoing the focus’s pairing of حق and صبر.
+  - evidence: 31:30 «أَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ»; 31:31 «لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ»
+  - activation: The focus places الحق and الصبر together in its closing counsel pair.
+  - limits: The passage does not make patience the content of counsel or explicitly link its two verses as a reciprocal practice.
+- **R-32:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: Patience is linked here with being made leaders who guide by God’s command, giving endurance a communal guiding consequence alongside the focus’s mutual exhortation to patience.
+  - evidence: 32:24 «وَجَعَلْنَا مِنْهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟»
+  - activation: The focus makes patience a practice transmitted between members of a group.
+  - limits: The verse attributes leadership to God’s making and does not say those leaders mutually counsel one another.
+- **R-33:35** [reading; support strong, relevance high] inter-ayah target
+  - finding: This catalogue explicitly names truthful men and women and patient men and women among the rewarded; it expands the focus’s compact communal profile while making women visible in each paired category.
+  - evidence: 33:35 «وَٱلصَّٰدِقِينَ وَٱلصَّٰدِقَٰتِ وَٱلصَّٰبِرِينَ وَٱلصَّٰبِرَٰتِ»
+  - activation: The focus places truth and patience at the close of its group description.
+  - limits: The catalogue names truthful and patient people, not the focus’s exact words الحق or mutual verb تَوَاصَوْا۟.
+- **R-33:71** [reading; support strong, relevance high] inter-ayah target
+  - finding: The sequence puts a command to speak a sound word immediately before God’s promise to set deeds right; it gives the focus’s coupling of truthful counsel and righteous action a concrete speech-and-work counterpart.
+  - evidence: 33:70 «وَقُولُوا۟ قَوْلًۭا سَدِيدًۭا»; 33:71 «يُصْلِحْ لَكُمْ أَعْمَٰلَكُمْ»
+  - activation: The focus joins righteous deeds with counsel in truth.
+  - limits: The passage does not use reciprocal counsel or mention patience.
+- **R-34:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: Wealth and children are denied as routes to nearness; the exception is instead belief and righteous action, whose people are secure in the chambers. The verse strips status and lineage from the focus’s profile.
+  - evidence: 34:37 «وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰٓ»; 34:37 «إِلَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا»; 34:37 «وَهُمْ فِى ٱلْغُرُفَٰتِ ءَامِنُونَ»
+  - activation: The verse repeats the focus’s opening profile and places it against presumed routes to closeness.
+  - limits: Its exception names belief and action but not mutual truth or patience.
+- **R-35:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: A good word rises to God and righteous action raises it; this tightly joins word and deed, offering a counterpart to the focus’s move from righteous action to mutual truth-speaking.
+  - evidence: 35:10 «إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ»
+  - activation: The focus combines deeds with truthful speech shared among believers.
+  - limits: The verse says الكلم الطيب, not الحق or تواصوا, and contains no patience clause.
+- **R-36:50** [reading; support strong, relevance high] inter-ayah target
+  - finding: At the sudden end, people cannot make a tawṣiya; the focus’s reciprocal تَوَاصَوْا۟ can be heard as counsel exchanged while people still have time to act on it.
+  - evidence: 36:50 «فَلَا يَسْتَطِيعُونَ تَوْصِيَةًۭ»
+  - activation: The focus uses a reciprocal form from the same وصي root for an ongoing shared practice.
+  - limits: The forms and settings differ: this is a final bequest prevented by death, not necessarily the same kind of counsel as in 103:3.
+- **R-37:37** [reading; support strong, relevance high] inter-ayah target
+  - finding: After opponents call the messenger a mad poet, the answer is that he brought الحق and affirmed the messengers; this sets truthful speech against public ridicule and denial.
+  - evidence: 37:36 «لِشَاعِرٍۢ مَّجْنُونٍۭ»; 37:37 «بَلْ جَآءَ بِٱلْحَقِّ وَصَدَّقَ ٱلْمُرْسَلِينَ»
+  - activation: The focus makes truth the message believers are to share with one another.
+  - limits: This is a messenger’s proclamation and its rejection, not a depiction of believers exhorting one another.
+- **R-38:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: In a dispute among associates, many wrong one another except those who believe and do righteous deeds—and those are few. The exact exception formula is placed directly against social injustice, while the focus adds truth and patience as communal safeguards.
+  - evidence: 38:23 «فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى ٱلْخِطَابِ»; 38:24 «وَإِنَّ كَثِيرًۭا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus repeats the exception phrase and immediately extends it with two practices governing relations among people.
+  - limits: 38:24 says this group is few; that qualification is not stated in the focus.
+- **R-38:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question refuses to equate believers who do righteous deeds with corrupters on earth; this makes the focus’s moral exception a sharp social distinction rather than a neutral list of traits.
+  - evidence: 38:28 «أَمْ نَجْعَلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ كَٱلْمُفْسِدِينَ فِى ٱلْأَرْضِ»
+  - activation: The focus defines its exception through the same belief-and-deeds predicates.
+  - limits: This verse does not state the focus’s truth and patience clauses.
+- **R-39:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The call to believers places patience after worldly goodness and the breadth of God’s earth, then promises the patient an unmeasured reward; patience is presented as sustained faithfulness with a promised horizon.
+  - evidence: 39:10 «لِلَّذِينَ أَحْسَنُوا۟ فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةٌۭ ۗ وَأَرْضُ ٱللَّهِ وَٰسِعَةٌ»; 39:10 «إِنَّمَا يُوَفَّى ٱلصَّٰبِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍۢ»
+  - activation: The focus ends its profile with patience as something believers mutually counsel.
+  - limits: 39:10 promises reward to the patient but does not describe mutual counsel or name the same exception formula.
+- **R-40:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: When Moses brings truth, Pharaoh's side responds by ordering the killing of those who believed with him. This gives the focus's truth and faith conditions a setting where their public practice meets violent opposition.
+  - evidence: 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 40:25 «فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ»
+  - activation: The focus joins faith with mutual counsel in truth; 40:25 places believers beside a truth-bearing messenger under threat.
+  - limits: The verse does not say those believers counsel one another or describe their patience.
+- **R-40:40** [reading; support strong, relevance high] inter-ayah target
+  - finding: 40:40 repeats the focus's pairing of faith with righteous action and explicitly includes both men and women in that criterion. It confirms the deeds-and-faith profile while making the gender scope explicit.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 40:40 «وَمَنْ عَمِلَ صَٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ»
+  - activation: The focus begins its excepted class with faith and righteous deeds; 40:40 names the same two criteria and states male or female.
+  - limits: 40:40 does not include the focus's mutual truth and patience conditions.
+- **R-40:55** [reading; support strong, relevance high] inter-ayah target
+  - finding: 40:55 joins patience to God's true promise, while 103:3 makes patience a charge believers give one another. The focus can thus be heard as making communal what 40:55 commands of the individual addressed.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 40:55 «فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ»
+  - activation: Both passages name patience and connect it with truth; the focus's reciprocal verb changes the participant structure.
+  - limits: 40:55 addresses one person and does not describe mutual counsel.
+- **R-41:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: 41:24 says that even if the condemned endure, the Fire remains their abode. Against this, 103:3 presents mutual exhortation to patience as part of the condition that escapes loss; patience after the outcome is fixed does not reverse it.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 41:24 «فَإِن يَصْبِرُوا۟ فَٱلنَّارُ مَثْوًۭى لَّهُمْ»
+  - activation: Both use the patience root, but 41:24 sets it after judgment while the focus lists it among saving practices.
+  - limits: 41:24 does not explain why the condemned are there or directly discuss the focus's community.
+- **R-41:33** [reading; support strong, relevance high] inter-ayah target
+  - finding: 41:33 calls inviting to God, doing righteous work, and declaring oneself Muslim the best speech. It aligns speech with deed and identity, giving the focus's mutual truth-counsel a nearby model of speech embodied in action.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 41:33 «وَمَنْ أَحْسَنُ قَوْلًۭا مِّمَّن دَعَآ إِلَى ٱللَّهِ وَعَمِلَ صَٰلِحًۭا وَقَالَ إِنَّنِى مِنَ ٱلْمُسْلِمِينَ»
+  - activation: The focus coordinates righteous deeds with truth-directed speech; 41:33 explicitly joins good speech, action, and Muslim identity.
+  - limits: 41:33 describes calling to God, not mutual counsel, and does not mention patience.
+- **R-41:34** [reading; support strong, relevance high] inter-ayah target
+  - finding: 41:34 gives a concrete response to hostility: repel with what is better, so enmity may become intimate friendship. The next verse says this response is given to those who are patient, making patience an enacted social repair that can inform the focus's charge.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 41:34 «ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ فَإِذَا ٱلَّذِى بَيْنَكَ وَبَيْنَهُۥ عَدَٰوَةٌۭ كَأَنَّهُۥ وَلِىٌّ حَمِيمٌۭ»; 41:35 «وَمَا يُلَقَّىٰهَآ إِلَّا ٱلَّذِينَ صَبَرُوا۟»
+  - activation: The focus makes patience a shared counsel; 41:34–35 connect patient restraint with a specific transformation in relations.
+  - limits: The passage does not call this response mutual exhortation or say that every case of patience produces reconciliation.
+- **R-42:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: 42:13 uses the same وصي root family as تَوَاصَوْا: God charged earlier prophets and the Prophet with establishing religion and not dividing over it. This places the focus's mutual charging within a wider legacy of transmitted religious obligation, while the forms differ.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 42:13 «مَا وَصَّىٰ بِهِۦ نُوحًۭا وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَمَا وَصَّيْنَا بِهِۦٓ إِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓ ۖ أَنْ أَقِيمُوا۟ ٱلدِّينَ وَلَا تَتَفَرَّقُوا۟ فِيهِ»
+  - activation: The rare mutual verb in the focus shares its root with the prophetic charge; both concern preserving religious commitment across a community or succession.
+  - limits: 42:13 describes God charging prophets and gives a command against division; it does not use the focus's reciprocal form or name patience.
+- **R-42:38** [reading; support strong, relevance high] inter-ayah target
+  - finding: 42:38 portrays the community's affairs as consultation among themselves, alongside prayer and spending. This supplies a distinct communal practice adjacent to the focus's reciprocal counsel: collective deliberation is part of the believers' profile.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 42:38 «وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ»
+  - activation: The focus uses a reciprocal plural verb; 42:38 explicitly locates shared deliberation between community members.
+  - limits: Shūrā is consultation, not necessarily advice about truth or patience.
+- **R-42:40** [reading; support strong, relevance high] inter-ayah target
+  - finding: 42:40 pairs pardon with iṣlāḥ after a wrong and promises the reward to God. It makes repair of a damaged relation a concrete deed that can belong to a community formed by patience and mutual counsel.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 42:40 «فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُۥ عَلَى ٱللَّهِ»
+  - activation: The focus joins righteous deeds to patience; 42:40 names forgiving and repairing after a wrong.
+  - limits: 42:40 does not specify reciprocal counsel or call pardon ṣabr.
+- **R-42:43** [reading; support strong, relevance high] inter-ayah target
+  - finding: 42:43 joins patience with forgiveness and calls this among matters of resolve. The nearby setting of injustice makes patience an active restraint that can include forgiving, rather than passive endurance alone.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 42:42 «ٱلَّذِينَ يَظْلِمُونَ ٱلنَّاسَ وَيَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ»; 42:43 «وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ ٱلْأُمُورِ»
+  - activation: The focus names patience as a mutual charge; 42:43 pairs the same root with forgiveness in response to wrongdoing.
+  - limits: 42:43 does not state that patience must always take the form of forgiveness or that it is mutually counseled.
+- **R-43:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: In 43:29–30 truth arrives with a clear messenger, but its audience calls it magic and disbelieves. This is a direct counter-scene to the focus's community that mutually charges itself with truth: arrival of truth does not ensure its acceptance.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 43:29 «حَتَّىٰ جَآءَهُمُ ٱلْحَقُّ وَرَسُولٌۭ مُّبِينٌۭ»; 43:30 «وَلَمَّا جَآءَهُمُ ٱلْحَقُّ قَالُوا۟ هَٰذَا سِحْرٌۭ وَإِنَّا بِهِۦ كَٰفِرُونَ»
+  - activation: Both scenes foreground al-ḥaqq; the focus adds the reciprocal practice absent from the rejecting audience.
+  - limits: 43:29–30 does not specify whether any group counseled them or why they rejected the message.
+- **R-43:78** [reading; support strong, relevance high] inter-ayah target
+  - finding: 43:78 returns to the pattern of truth brought to an audience that rejects it, now saying most of them dislike al-ḥaqq. Together with 43:29–30, this makes rejection of truth a repeated pattern in the surah against which the focus's mutual truth-counsel stands out.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 43:29 «حَتَّىٰ جَآءَهُمُ ٱلْحَقُّ وَرَسُولٌۭ مُّبِينٌۭ»; 43:30 «وَلَمَّا جَآءَهُمُ ٱلْحَقُّ قَالُوا۟ هَٰذَا سِحْرٌۭ وَإِنَّا بِهِۦ كَٰفِرُونَ»; 43:78 «لَقَدْ جِئْنَٰكُم بِٱلْحَقِّ وَلَٰكِنَّ أَكْثَرَكُمْ لِلْحَقِّ كَٰرِهُونَ»
+  - activation: The focus's al-ḥaqq is a communal charge; 43:29–30 and 43:78 repeat the arrival of truth and its refusal.
+  - limits: These passages show rejection, not the opposite community's actual practice of mutual counsel.
+- **R-46:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: 46:15 uses the وصي root to frame care for parents, then asks for righteous action and the repair of one's descendants. Beside the focus's reciprocal tawāṣaw, it opens a vertical, intergenerational dimension of charged responsibility and communal repair.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 46:15 «وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا»; 46:15 «وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ»
+  - activation: The focus's tawāṣaw shares its root with 46:15's waṣṣaynā; the latter joins family obligation, righteous work, and descendants' repair.
+  - limits: 46:15 uses a different form and direction of obligation; it describes divine charge to an individual, not reciprocal counsel among believers.
+- **R-46:18** [reading; support strong, relevance high] inter-ayah target
+  - finding: 46:17–18 stages a parent urging a child to believe that God's promise is true; the child rejects the warning, and the account names the group losers. This is a failed, one-way instance of truth-bearing exhortation beside the focus's reciprocal truth and patience conditions.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 46:17 «وَيْلَكَ ءَامِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ»; 46:18 «إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ»
+  - activation: The family warning says believe and names God's promise as ḥaqq; rejection is followed by loss, echoing the focus's contrast between khusr and its exception.
+  - limits: The passage shows a parent-child warning, not mutual exhortation, and it does not mention patience.
+- **R-46:35** [reading; support strong, relevance high] inter-ayah target
+  - finding: 46:35 commands the Prophet to be patient like resolute messengers and not to hurry the outcome. The focus can be heard as making this prophetic endurance transmissible among believers through mutual counsel.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 46:35 «فَٱصْبِرْ كَمَا صَبَرَ أُو۟لُوا۟ ٱلْعَزْمِ مِنَ ٱلرُّسُلِ وَلَا تَسْتَعْجِل لَّهُمْ»
+  - activation: The focus's final charge and 46:35 share the patience root; the latter supplies prophetic endurance under delayed judgment.
+  - limits: 46:35 addresses one messenger and does not instruct believers to counsel one another.
+- **R-47:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: 47:2 repeats the focus's faith-and-righteous-deeds formula, identifies what was sent to Muhammad as al-ḥaqq from their Lord, and says God removes their sins and repairs their condition. It joins the focus's first conditions to revelation and restoration.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 47:2 «وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَءَامَنُوا۟ بِمَا نُزِّلَ عَلَىٰ مُحَمَّدٍۢ وَهُوَ ٱلْحَقُّ مِن رَّبِّهِمْ»; 47:2 «كَفَّرَ عَنْهُمْ سَيِّـَٔاتِهِمْ وَأَصْلَحَ بَالَهُمْ»
+  - activation: The first two predicates recur verbatim, while al-ḥaqq is specified as revelation and followed by iṣlāḥ.
+  - limits: 47:2 does not include reciprocal counsel or patience.
+- **R-47:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: 47:3 casts believers as followers of al-ḥaqq from their Lord, in contrast to disbelievers following al-bāṭil. This makes the focus's truth-counsel part of an orientation or path, not just a topic of speech.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 47:3 «ذَٰلِكَ بِأَنَّ ٱلَّذِينَ كَفَرُوا۟ ٱتَّبَعُوا۟ ٱلْبَٰطِلَ وَأَنَّ ٱلَّذِينَ ءَامَنُوا۟ ٱتَّبَعُوا۟ ٱلْحَقَّ مِن رَّبِّهِمْ»
+  - activation: Both connect believers with al-ḥaqq; 47:3 describes following it and contrasts following falsehood.
+  - limits: Following truth is not the same construction as mutually exhorting one another with truth.
+- **R-47:21** [reading; support strong, relevance high] inter-ayah target
+  - finding: 47:21 places obedience and recognized speech beside a test of whether people will be truthful to God once the matter is decided. It gives the focus's pairing of deeds and truth-counsel a pressure point: speech and commitment must hold when action becomes costly.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 47:21 «طَاعَةٌۭ وَقَوْلٌۭ مَّعْرُوفٌۭ ۚ فَإِذَا عَزَمَ ٱلْأَمْرُ فَلَوْ صَدَقُوا۟ ٱللَّهَ لَكَانَ خَيْرًۭا لَّهُمْ»
+  - activation: The focus puts deed and mutual truth-advice together; 47:21 tests whether good speech is matched by truthful action.
+  - limits: 47:21 concerns obedience in its own setting and does not describe reciprocal counsel or patience.
+- **R-47:31** [reading; support strong, relevance high] inter-ayah target
+  - finding: 47:31 says believers will be tested so that the strivers and the steadfast become known. It frames patience as endurance disclosed through trial, giving the focus's shared counsel to patience a concrete testing context.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 47:31 «وَلَنَبْلُوَنَّكُمْ حَتَّىٰ نَعْلَمَ ٱلْمُجَٰهِدِينَ مِنكُمْ وَٱلصَّٰبِرِينَ وَنَبْلُوَا۟ أَخْبَارَكُمْ»
+  - activation: Both name patience, and 47:31 explicitly places the steadfast among those distinguished by testing.
+  - limits: 47:31 does not say that the community exhorts one another or that patience is sufficient without the other focus conditions.
+- **R-48:29** [reading; support strong, relevance high] inter-ayah target
+  - finding: 48:29 describes believers with the Prophet as merciful among themselves and growing together like a plant whose shoots strengthen it; it also repeats faith and righteous deeds. This gives the focus's reciprocal practices a picture of communal care and collective growth.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟»; 48:29 «وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ»; 48:29 «كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ»; 48:29 «وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةًۭ وَأَجْرًا عَظِيمًۢ»
+  - activation: The focus's reciprocal predicates are communal; 48:29 explicitly names mercy between believers and depicts mutual strengthening.
+  - limits: Mercy and growth are not identical to mutual counsel in truth and patience, and 48:29 also describes firmness toward disbelievers.
+- **R-49:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: 49:6 makes truth-directed care concrete: verify a report before acting, lest ignorance cause harm to a people and leave the believers regretful. This is a practical discipline that can be carried through the focus's mutual counsel in truth.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 49:6 «إِن جَآءَكُمْ فَاسِقٌۢ بِنَبَإٍۢ فَتَبَيَّنُوٓا۟ أَن تُصِيبُوا۟ قَوْمًۢا بِجَهَٰلَةٍۢ فَتُصْبِحُوا۟ عَلَىٰ مَا فَعَلْتُمْ نَٰدِمِينَ»
+  - activation: Both address believers' conduct around truth; 49:6 specifies checking a report before consequential action.
+  - limits: 49:6 does not use al-ḥaqq or tawāṣaw, and it gives a particular procedure rather than a full definition of the focus's truth.
+- **R-49:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: When believers fight, the passage requires reconciliation and justice; this gives communal force to mutual counsel in truth, while showing that counsel is not the only means of repair.
+  - evidence: 49:9 «وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا»; 49:9 «فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: Both passages address believers as a plural community; 49:9 makes justice the standard for restoring a broken relation.
+  - limits: The focus names reciprocal exhortation, while 49:9 commands others to mediate and, if needed, restrain a transgressing party.
+- **R-49:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: Believers are called brothers and ordered to reconcile one another, placing the focus's mutual exhortation within active care for communal bonds.
+  - evidence: 49:10 «إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌۭ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The plural believers in both passages are joined by practices directed toward one another.
+  - limits: Brotherhood and reconciliation do not define the precise content of truth or patience in 103:3.
+- **R-49:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: The reciprocal Form VI verbs لِتَعَارَفُوا and تَوَاصَوْا picture social life through mutual acts: recognition across peoples and tribes, and the exchange of truth and patience.
+  - evidence: 49:13 «وَجَعَلْنَٰكُمْ شُعُوبًۭا وَقَبَآئِلَ لِتَعَارَفُوٓا۟»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both verbs address plural people and describe reciprocal relations.
+  - limits: The verses do not say that recognition and exhortation are the same practice or explicitly connect the two purposes.
+- **R-49:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: This passage defines believers through faith in God and the Messenger, freedom from doubt, and costly striving; it parallels 103:3's faith-plus-action profile while giving it a distinct expansion.
+  - evidence: 49:15 «إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ثُمَّ لَمْ يَرْتَابُوا۟ وَجَٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: Both passages use faith to identify a group, then specify what marks that group in practice.
+  - limits: Jihad and freedom from doubt are not stated as the same conditions as righteous deeds or mutual counsel.
+- **R-50:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage describes people rejecting al-ḥaqq when it comes; this gives a sharp counter-posture to making al-ḥaqq the content of mutual exhortation.
+  - evidence: 50:5 «بَلْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ»; 103:3 «بِٱلْحَقِّ»
+  - activation: The exact noun al-ḥaqq appears in both, once as what is mutually transmitted and once as what is rejected.
+  - limits: The shared wording does not establish that the two passages refer to an identical claim or occasion.
+- **R-51:53** [reading; support strong, relevance high] inter-ayah target
+  - finding: The rhetorical question أَتَوَاصَوْا بِهِۦ portrays people as having passed on a shared rejection of messengers; the focus supplies a contrary object for mutual charge: truth and patience.
+  - evidence: 51:52 «إِلَّا قَالُوا۟ سَاحِرٌ أَوْ مَجْنُونٌ»; 51:53 «أَتَوَاصَوْا۟ بِهِۦ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The rare reciprocal verb تَوَاصَوْا recurs, but the surrounding scene gives it a different payload.
+  - limits: The question presents a recurring pattern of shared accusation; it does not describe the mechanics of the believers' mutual counsel.
+- **R-53:28** [reading; support strong, relevance high] inter-ayah target
+  - finding: The claim that conjecture cannot avail against al-ḥaqq places an epistemic boundary around mutual exhortation: shared counsel is not made true merely by being shared.
+  - evidence: 53:28 «وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًۭٔا»; 103:3 «بِٱلْحَقِّ»
+  - activation: Both passages name al-ḥaqq, and 53:28 contrasts it directly with conjecture.
+  - limits: The passage does not specify how the people in 103:3 identify or communicate al-ḥaqq.
+- **R-58:9** [reading; support strong, relevance high] inter-ayah target
+  - finding: The passage contrasts secret consultation in sin with consultation in righteousness and God-consciousness; it shows that collective exchange takes its moral character from what it carries.
+  - evidence: 58:8 «وَيَتَنَٰجَوْنَ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ»; 58:9 «وَتَنَٰجَوْا۟ بِٱلْبِرِّ وَٱلتَّقْوَىٰ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both scenes make the content of a reciprocal group practice decisive.
+  - limits: The consultation in 58:9 is private whispering, expressed by a different verb, not the same act as تَوَاصَوْا.
+- **R-61:2** [reading; support strong, relevance high] inter-ayah target
+  - finding: The warning against saying what one does not do tests communal exhortation against empty speech: counsel is set beside action in the focus, and this passage makes the gap between speech and practice morally charged.
+  - evidence: 61:2 «لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: Both verses put speech and doing in proximity, while 103:3 joins work with mutual counsel.
+  - limits: 61:2 does not explicitly mention counsel, truth, or patience.
+- **R-66:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: The wives of righteous messengers do not benefit from their proximity to them; alongside Pharaoh's believing wife in 66:11, the passage underscores that the focus's group is defined by its own faith and deeds, not association alone.
+  - evidence: 66:10 «كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَٰلِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْـًۭٔا»; 66:11 «وَضَرَبَ ٱللَّهُ مَثَلًۭا لِّلَّذِينَ ءَامَنُوا۟ ٱمْرَأَتَ فِرْعَوْنَ»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The passage contrasts individual standing in two households; the focus likewise specifies predicates belonging to the excepted people themselves.
+  - limits: The examples address faith and household association, not the particular practice of mutual counsel.
+- **R-68:48** [reading; support strong, relevance high] inter-ayah target
+  - finding: Jonah is a cautionary case for patience under the Lord's judgment, giving the focus's shared exhortation to endurance a prophetic setting marked by distress.
+  - evidence: 68:48 «فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ»; 68:48 «إِذْ نَادَىٰ وَهُوَ مَكْظُومٌۭ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages explicitly use patience, but 68:48 places it amid a personal prophetic trial.
+  - limits: The warning is directed to the Prophet and does not state that Jonah's case defines all patient endurance.
+- **R-69:51** [reading; support strong, relevance high] inter-ayah target
+  - finding: The phrase حَقُّ ٱلْيَقِينِ presents haqq in a certainty-frame, giving the focus's al-ḥaqq an objective epistemic horizon beyond interpersonal exchange.
+  - evidence: 69:51 «وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ»; 103:3 «بِٱلْحَقِّ»
+  - activation: The same noun recurs in a genitive phrase that explicitly invokes certainty.
+  - limits: The construction in 69:51 does not identify the exact content of the focus's mutual counsel.
+- **R-70:5** [reading; support strong, relevance high] inter-ayah target
+  - finding: The command فَٱصْبِرْ صَبْرًا جَمِيلًا marks patience as beautiful endurance; 103:3 turns this personal virtue into something believers transmit to one another.
+  - evidence: 70:5 «فَٱصْبِرْ صَبْرًۭا جَمِيلًا»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages explicitly name ṣabr, though one intensifies it with an adjective and the other makes it reciprocal.
+  - limits: The command is singular and does not specify the community's mutual practice.
+- **R-70:22** [reading; support strong, relevance high] inter-ayah target
+  - finding: Both surahs move from a human predicament to an excepted group: 70:22 names the worshippers, while 103:3 defines its exception through faith, deeds, and mutual exhortation.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 70:22 «إِلَّا ٱلْمُصَلِّينَ»; 70:23 «ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ»
+  - activation: The repeated exception particle opens a named class after a negative account of humanity.
+  - limits: The two excepted groups are not presented as identical; the following descriptions differ.
+- **R-70:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: The known haqq in people's wealth gives al-ḥaqq a concrete sense of an owed right, potentially making the focus's counsel about rights as well as true claims.
+  - evidence: 70:24 «وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ»; 70:25 «لِّلسَّآئِلِ وَٱلْمَحْرُومِ»; 103:3 «بِٱلْحَقِّ»
+  - activation: The exact noun haqq is specified as a known due to people in need.
+  - limits: The focus does not specify wealth or recipients, so this passage offers a possible sense rather than an identical referent.
+- **R-73:10** [reading; support strong, relevance high] inter-ayah target
+  - finding: Patience is shown under harmful speech, paired with graceful withdrawal; this gives the focus's shared endurance a verbal-conflict setting.
+  - evidence: 73:10 «وَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱهْجُرْهُمْ هَجْرًۭا جَمِيلًۭا»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages explicitly invoke ṣabr, and 73:10 specifies what may test it: what opponents say.
+  - limits: The command is addressed to the Prophet and advises withdrawal, not reciprocal counsel among believers.
+- **R-76:8** [reading; support strong, relevance high] inter-ayah target
+  - finding: Feeding a needy person, orphan, and captive gives a concrete, outward-facing instance of the righteous deeds named in the focus.
+  - evidence: 76:8 «وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًۭا وَيَتِيمًۭا وَأَسِيرًا»; 76:9 «لَا نُرِيدُ مِنكُمْ جَزَآءًۭ وَلَا شُكُورًا»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus names deeds broadly; this passage supplies specific beneficiaries and an account of intention.
+  - limits: It illustrates righteous action but does not define all that الصالحات includes or discuss mutual counsel.
+- **R-76:24** [reading; support strong, relevance high] inter-ayah target
+  - finding: Patience under the Lord's judgment is paired with refusing obedience to a sinner or ingrate, so endurance includes holding a moral boundary.
+  - evidence: 76:24 «فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًۭا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus pairs truth and patience; 76:24 joins patience with a refusal to follow wrongdoing.
+  - limits: This is a prophetic command, not a description of a group's reciprocal counsel.
+- **R-78:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same exception particle that exempts people from loss in 103:3 here names only torment as the exception to what the condemned taste; the parallel makes exception itself carry opposite outcomes.
+  - evidence: 78:24 «لَّا يَذُوقُونَ فِيهَا بَرْدًۭا وَلَا شَرَابًا»; 78:25 «إِلَّا حَمِيمًۭا وَغَسَّاقًۭا»; 78:26 «جَزَآءًۭ وِفَاقًا»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages use إِلَّا to mark what is excepted, while the objects and moral outcomes sharply differ.
+  - limits: The verses do not establish a direct cross-reference; the contrast rests on shared exception wording and opposite contexts.
+- **R-84:25** [reading; support strong, relevance high] inter-ayah target
+  - finding: This exception formula shares the focus's faith and righteous-deeds predicates, then promises an enduring reward; comparison makes mutual truth and patience distinctive additions in 103:3.
+  - evidence: 84:25 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The same exception begins with the same faith and righteous-deeds wording before the descriptions diverge.
+  - limits: Neither passage says its listed predicates exhaust every condition or gives an explicit cross-reference to the other.
+- **R-88:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: Faces in the Fire are described as working and exhausted; this warns that exertion by itself is not the focus's righteous action, which is qualified as الصالحات.
+  - evidence: 88:2 «وُجُوهٌۭ يَوْمَئِذٍ خَٰشِعَةٌ»; 88:3 «عَامِلَةٌۭ نَّاصِبَةٌۭ»; 88:4 «تَصْلَىٰ نَارًا حَامِيَةًۭ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The root ع م ل appears in both, but 88:3 attaches toil to people facing punishment while 103:3 qualifies the deeds as righteous.
+  - limits: 88:3 does not explain why their labor is condemned or identify a specific deed that contrasts with الصالحات.
+- **R-90:11** [reading; support strong, relevance high] inter-ayah target
+  - finding: The difficult ascent opens a sequence of demanding social deeds, giving the focus's righteous-action clause a costly, practical contour.
+  - evidence: 90:11 «فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ»; 90:13 «فَكُّ رَقَبَةٍ»; 90:14 «أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ»; 90:16 «أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ»
+  - activation: The following sequence supplies concrete acts behind the image of a difficult ascent, alongside the focus's broad name for righteous deeds.
+  - limits: The sequence does not include the focus's predicates of faith or mutual counsel in the quoted verses.
+- **R-90:12** [reading; support strong, relevance high] inter-ayah target
+  - finding: The question وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ delays the naming of the ascent, then the following verses answer with liberation and care for the hungry and vulnerable; righteous action is presented as a demanding path.
+  - evidence: 90:12 «وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ»; 90:13 «فَكُّ رَقَبَةٍ»; 90:14 «أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ»; 90:15 «يَتِيمًۭا ذَا مَقْرَبَةٍ»
+  - activation: The rhetorical question makes the costly social content that follows carry emphasis.
+  - limits: This passage details deeds but does not name the reciprocal truth-and-patience practice in 103:3.
+- **R-90:13** [reading; support strong, relevance high] inter-ayah target
+  - finding: Liberating a person is a concrete repair deed that can exemplify the focus's broad category of righteous works.
+  - evidence: 90:13 «فَكُّ رَقَبَةٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus names deeds without listing them; this passage supplies one costly act that frees another.
+  - limits: 90:13 does not itself mention faith, counsel, or patience.
+- **R-90:14** [reading; support strong, relevance high] inter-ayah target
+  - finding: Feeding during a day of famine makes righteous action responsive to acute shared need, rather than an abstract good.
+  - evidence: 90:14 «أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The concrete feeding act gives one setting and recipient-side urgency to the focus's general deed category.
+  - limits: The verse gives no explicit connection between feeding and mutual exhortation.
+- **R-90:15** [reading; support strong, relevance high] inter-ayah target
+  - finding: The orphan is specified as a near relation, narrowing care to a vulnerable person within one's social ties and giving righteous action a local, relational form.
+  - evidence: 90:15 «يَتِيمًۭا ذَا مَقْرَبَةٍ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus's broad category of deeds is paired here with a named vulnerable recipient and proximity.
+  - limits: This verse does not say that care for a near orphan exhausts righteous action or directly involve counsel.
+- **related_8.X1** [reading; support strong, relevance high] 
+  - finding: The ban on mockery, fault-finding, and insulting labels sets a boundary for mutual counsel: truth and patience must not become humiliation of fellow believers.
+  - evidence: 49:11 «وَلَا تَلْمِزُوٓا۟ أَنفُسَكُمْ وَلَا تَنَابَزُوا۟ بِٱلْأَلْقَٰبِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The surrounding passage addresses believers' relations and the manner of their speech to one another.
+  - limits: 49:11 does not explicitly define how to give counsel; it prohibits specific speech harms.
+- **related_8.X2** [reading; support strong, relevance high] 
+  - finding: Hypocrites make mutual promises of aid to disbelieving allies, but God calls them liars; this contrasts false solidarity with the focus's mutual charge in truth.
+  - evidence: 59:11 «لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًۭا وَإِن قُوتِلْتُمْ لَنَنصُرَنَّكُمْ»; 59:11 «وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَٰذِبُونَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: Both scenes concern what people communicate to one another; 59:11 explicitly discredits the promise, whereas 103:3 specifies truth as the shared charge.
+  - limits: The promise is not expressed with تَوَاصَوْا and concerns political alliance rather than counsel about patience.
+- **R-90:16** [reading; support strong, relevance high] inter-ayah target
+  - finding: The poor person “with dust” in 90:16 makes the steep path materially social; the next verse places mutual patience and mercy within that same path, alongside the focus ayah’s deeds and patience.
+  - evidence: 90:16 «أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ»; 90:17 «ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus ayah joins righteous deeds to mutual counsel in patience; 90:16–17 puts care for the poor immediately before a community marked by mutual patience and mercy.
+  - limits: The passage does not identify this particular act of care as the full meaning of ٱلصَّٰلِحَٰتِ, and its second counsel is mercy rather than truth.
+- **R-90:17** [reading; support strong, relevance high] inter-ayah target
+  - finding: The close parallel in faith and mutual counsel of patience shows the focus ayah’s final clauses as communal practices; 90:17 pairs patience with mercy, while 103:3 pairs it with truth.
+  - evidence: 90:17 «ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages name believers and repeat تَوَاصَوْا۟ بِٱلصَّبْرِ; the focus ayah adds righteous deeds and mutual counsel in truth.
+  - limits: The parallel does not make ٱلْمَرْحَمَةِ and ٱلْحَقِّ interchangeable, and 90:17’s ثُمَّ gives its clauses a sequence absent from the focus.
+- **R-95:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: Surah 95 moves from humanity’s creation in best form to a downward return, then excepts believers who act righteously; this supplies a human-condition-and-exception parallel to the focus ayah’s universal loss and named exit.
+  - evidence: 95:4 «لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ»; 95:5 «ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ»; 95:6 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus’s exception follows the verdict that humanity is in loss, while Surah 95’s exception follows its account of humanity’s descent.
+  - limits: The surahs use different descriptions of the human condition and different consequences; this parallel does not define loss as a descent to the lowest state.
+- **R-95:6** [reading; support strong, relevance high] inter-ayah target
+  - finding: The repeated exception formula for faith and righteous deeds makes the focus ayah’s addition stand out: it attaches reciprocal counsel of truth and patience to a familiar membership description.
+  - evidence: 95:6 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The wording through ٱلصَّٰلِحَٰتِ is shared, and the focus continues with two coordinated mutual-charge clauses.
+  - limits: Surah 95 names an unending reward, whereas the focus ayah does not state that consequence.
+- **R-98:7** [reading; support strong, relevance high] inter-ayah target
+  - finding: Surah 98 places the same faith-and-righteous-deeds group opposite its deniers and calls that group the best of creation; this frames the focus’s exception as a communal identity, while the focus adds reciprocal obligations.
+  - evidence: 98:6 «إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ»; 98:7 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The matching faith-and-deeds formula appears in both verses, and Surah 98 explicitly sets its group against deniers.
+  - limits: The focus does not use خَيْرُ ٱلْبَرِيَّةِ or name the contrasting group in the way 98:6–7 does.
+- **R-103:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: The oath by ٱلْعَصْرِ frames the short surah’s claim of universal loss and its exception under a time-word, so the four practices are presented as the route through that frame.
+  - evidence: 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The oath opens the surah, and the focus completes its compact sequence as the stated exception to loss.
+  - limits: The arrangement does not establish that ٱلْعَصْرِ specifically means time’s depletion or specify the duration of the practices.
+- **R-106:4** [reading; support strong, relevance high] inter-ayah target
+  - finding: The same Form IV أمن verb appears with opposite directions: God secures the Quraysh from fear in 106:4, while the focus names people who believe. This opens a possible resonance between received security and faith.
+  - evidence: 106:4 «وَءَامَنَهُم مِّنْ خَوْفٍۭ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The exact verb form and shared root connect communal security from fear with the focus’s description of believers.
+  - limits: The verses do not say that the focus’s believers are responding to Quraysh’s protection or that their faith is specifically security from fear.
+- **R-107:1** [reading; support strong, relevance high] inter-ayah target
+  - finding: Surah 107 tests denial of الدين through the treatment of an orphan and the failure to urge feeding a poor person; this contrasts with the focus’s believing group and its counsel of truth and patience.
+  - evidence: 107:1 «أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ»; 107:2 «فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ»; 107:3 «وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - activation: The focus makes faith part of an exception group; Surah 107 links denial to concrete conduct toward vulnerable people.
+  - limits: The focus does not name orphans, the poor, or الدين, and the passages do not explicitly equate denial with being outside the exception.
+- **R-107:3** [reading; support strong, relevance high] inter-ayah target
+  - finding: The failure to urge feeding the poor is a pointed negative counterpart to mutual counsel: 107:3 describes no urging, while 103:3 repeats تَوَاصَوْا۟ for truth and patience.
+  - evidence: 107:3 «وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus repeats a reciprocal exhortation verb; 107:3 describes a person who does not urge a social good.
+  - limits: The verses use different verbs and the focus does not specify feeding the poor as the content of its counsel.
+- **R-f-حقق-صلح-عمل formula family** [reading; support strong, relevance high] 
+  - finding: In 4:122, the same faith-and-righteous-deeds formula is followed by God’s promise described as ḥaqq; the focus instead places al-ḥaqq among the obligations believers counsel one another to uphold.
+  - evidence: 4:122 «وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 4:122 «وَعْدَ ٱللَّهِ حَقًّۭا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The shared deeds formula and the root ح ق ق occur in both passages, but in distinct grammatical roles.
+  - limits: The promise called ḥaqq in 4:122 is not the same construction as truth serving as the focus’s counsel payload.
+- **R-f-صلح-عمل formula family** [reading; support strong, relevance high] 
+  - finding: The recurring formula in 2:25 and 4:173 identifies believers through righteous deeds, often alongside reward; the focus retains that formula and expands it with two reciprocal duties.
+  - evidence: 2:25 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 4:173 «فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The faith-and-deeds wording recurs exactly, and the focus continues past it with reciprocal counsel.
+  - limits: These examples do not establish that every occurrence of the formula has a reward setting or enumerate all deeds meant by ٱلصَّٰلِحَٰتِ.
+- **R-f-حقق-صبر formula family** [reading; support strong, relevance high] 
+  - finding: 40:77 directly grounds an imperative to be patient in God’s true promise, offering a truth-to-patience relation beside the focus’s ordered counsel of truth and patience; 2:61 supplies a contrasting refusal to endure.
+  - evidence: 40:77 «فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ»; 2:61 «لَن نَّصْبِرَ عَلَىٰ طَعَامٍۢ وَٰحِدٍۢ»; 2:61 «وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The two focus payloads occur together in this family, and 40:77 explicitly places patience beside ḥaqq.
+  - limits: 40:77 is a singular command grounded in a divine promise, not mutual human counsel; 2:61 uses a verb of refusing patience in a separate episode.
+- **R-f-صبر-عمل formula family** [reading; support strong, relevance high] 
+  - finding: 16:96 connects those who endured with reward measured by their deeds, while 52:16 says patience does not alter the punishment there; this makes the focus’s patience one condition alongside faith and action, not a substitute for them.
+  - evidence: 16:96 «وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ»; 52:16 «فَٱصْبِرُوٓا۟ أَوْ لَا تَصْبِرُوا۟ سَوَآءٌ عَلَيْكُمْ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus coordinates belief and deeds before counsel of patience; the other passages distinguish patience’s relation to recompense across different settings.
+  - limits: The forms differ: 16:96 has صَبَرُوا۟, 52:16 an imperative verb, and the focus’s بِٱلصَّبْرِ is the content of reciprocal counsel.
+- **R-f-عمل-وصي formula family** [reading; support strong, relevance high] 
+  - finding: The root و ص ي appears in 29:8 as God’s charge to a person concerning parents, while the focus uses the reciprocal form تَوَاصَوْا۟ for believers charging one another with truth and patience; the root’s direction shifts from divine instruction to mutual practice.
+  - evidence: 29:8 «وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ حُسْنًۭا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages use forms of و ص ي for an ethical charge, but 29:8 has God as the giver and the focus has a plural reciprocal verb.
+  - limits: The focus does not name parents or specify that its counsel concerns family obligations.
+- **R-3:103** [reading; support medium, relevance high] inter-ayah target
+  - finding: The command to hold together and not divide recalls a community rescued from enmity and the edge of a fire; mutual counsel in truth and patience can be heard as part of the shared life that preserves such a community.
+  - evidence: 3:103 «وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًۭا وَلَا تَفَرَّقُوا۟»; 3:103 «فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًۭا»
+  - activation: The focus assigns its defining predicates to a plural group and makes its last two actions reciprocal.
+  - limits: 3:103 attributes the transformation to God’s grace and does not name the focus’s particular counsel clauses.
+- **R-4:114** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:114 gives a concrete social counterpart to the focus’s mutual counsel: among much private talk, good is associated with urging charity, recognized good, or reconciliation between people.
+  - evidence: 4:114 «لَّا خَيْرَ فِى كَثِيرٍۢ مِّن نَّجْوَىٰهُمْ إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَٰحٍۭ بَيْنَ ٱلنَّاسِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: Both passages connect speech among people with beneficial action and moral direction.
+  - limits: 4:114 speaks of one person enjoining others, not reciprocal counsel, and it does not name patience or truth with the focus’s wording.
+- **R-4:128** [reading; support medium, relevance high] inter-ayah target
+  - finding: The root shared by “الصالحات” and “يُصْلِحَا” opens a concrete relational possibility for righteous action: spouses can seek repair, and the passage calls reconciliation good.
+  - evidence: 4:128 «أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus leaves righteous deeds broad, while this passage places repair within a strained relationship and calls the settlement good.
+  - limits: The shared root does not make “الصالحات” mean marital reconciliation specifically; 4:128 does not mention the focus’s truth-and-patience counsel.
+- **R-4:135** [reading; support medium, relevance high] inter-ayah target
+  - finding: 4:135 gives an exacting practical test for counsel toward truth: believers must uphold justice as witnesses even when the testimony goes against themselves or close kin.
+  - evidence: 4:135 «كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ»; 4:135 «فَلَا تَتَّبِعُوا۟ ٱلْهَوَىٰٓ أَن تَعْدِلُوا۟»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The focus names truth as the content of mutual counsel; 4:135 shows justice maintained when personal loyalties and desire could distort it.
+  - limits: 4:135 uses “القسط” and “تعدلوا,” not “الحق”; it supports a practical parallel without proving the terms interchangeable.
+- **R-5:8** [reading; support medium, relevance high] inter-ayah target
+  - finding: 5:8 makes justice a demanding form of fidelity to truth: hostility toward a people must not lead believers to abandon fairness.
+  - evidence: 5:8 «كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ»; 5:8 «وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The focus names truth as a shared charge; 5:8 specifies fairness even when enmity would incline the group to injustice.
+  - limits: 5:8 states “القسط” and “تعدلوا,” not “الحق,” and does not describe reciprocal exhortation.
+- **R-7:85** [reading; support medium, relevance high] inter-ayah target
+  - finding: Shuʿayb's call gives public justice a concrete form: fulfill measures, do not diminish people's due, and do not corrupt the land after its repair. This makes economic rights one possible field of the focus's al-ḥaqq and al-ṣāliḥāt.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 7:85 «فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ»; 7:85 «وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا»
+  - activation: The focus names righteous deeds and truth; Shuʿayb's passage supplies examples of just communal conduct and repair.
+  - limits: 7:85 does not use al-ḥaqq or tawāṣaw, and this is one prophetic community's application rather than a definition of the focus.
+- **R-8:74** [reading; support medium, relevance high] inter-ayah target
+  - finding: The believers of 8:74 enact communal support by giving refuge and aid, and are called true believers. This offers a practical parallel to the focus's mutual sustaining through truth and patience, without reducing counsel to material aid.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 8:74 «وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا»
+  - activation: Both passages make believers a plural group whose defining life includes action toward one another.
+  - limits: 8:74 describes refuge and aid, not mutual verbal counsel, and its context is migration and struggle.
+- **R-9:112** [reading; support medium, relevance high] inter-ayah target
+  - finding: 9:112 portrays a community through active practices, including enjoining what is recognized as right, forbidding wrong, and keeping God's limits. This is a fuller social profile parallel to the focus's compressed mutual charge.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 9:112 «ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ»
+  - activation: Both describe a plural moral community through what its members practice and transmit.
+  - limits: 9:112 does not include patience or use the focus's reciprocal verb.
+- **related_3.X1** [reading; support medium, relevance high] 
+  - finding: The Fatiha's daily plural plea to be guided along the straight path, followed by its distinction between those favored and those who stray, makes the focus's exception legible as a shared path with recognizable companions and boundaries.
+  - evidence: 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 1:6 «ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ»; 1:7 «صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ»
+  - activation: The supplied context notes that the Fatiha is recited in every salah, and both passages distinguish a guided group from contrary paths.
+  - limits: The Fatiha does not name al-ḥaqq or al-ṣabr, and the favored group is not explicitly equated with the focus's exception.
+- **R-11:88** [reading; support medium, relevance high] inter-ayah target
+  - finding: Shuʿayb describes his aim as إِلَّا ٱلْإِصْلَٰحَ and denies acting against what he forbids. This gives a prophetic scene of reform joined to public moral correction, a possible concrete setting for the focus ayah’s righteous action and mutual counsel.
+  - evidence: 11:88 «وَمَآ أُرِيدُ أَنْ أُخَالِفَكُمْ إِلَىٰ مَآ أَنْهَىٰكُمْ عَنْهُ»; 11:88 «إِنْ أُرِيدُ إِلَّا ٱلْإِصْلَٰحَ مَا ٱسْتَطَعْتُ»
+  - activation: The focus ayah joins righteous action to reciprocal counsel, while Shuʿayb’s reply links his own conduct to reform among his people.
+  - limits: The passage does not call Shuʿayb’s reform بِٱلْحَقِّ or describe reciprocal advice; الإصلاح is related by root to صَالِحَٰت, not the same form.
+- **R-14:19** [reading; support medium, relevance high] inter-ayah target
+  - finding: The verse follows the image of disbelievers’ deeds as wind-scattered ash with creation بِٱلْحَقِّ. That juxtaposition contrasts futile works with a true grounding for existence, a useful counterpoint to the focus ayah’s human loss and its call to meaningful deeds.
+  - evidence: 14:18 «أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ»; 14:19 «أَنَّ ٱللَّهَ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ»
+  - activation: The focus ayah places people in loss and names faith and righteous action as part of the exception; 14:18–19 sets worthless deeds beside creation by truth.
+  - limits: The passage does not define the focus ayah’s al-haqq or state that human righteous deeds reproduce the order of creation.
+- **R-15:55** [reading; support medium, relevance high] inter-ayah target
+  - finding: The visitors say they have brought glad tidings بِٱلْحَقِّ and immediately tell Abraham not to despair; his reply rejects despair of his Lord’s mercy. This scene joins truth-bearing speech to resistance against despair, echoing the focus ayah’s pairing of truth and patience.
+  - evidence: 15:55 «بَشَّرْنَٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ ٱلْقَٰنِطِينَ»; 15:56 «وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ»
+  - activation: The focus ayah puts mutual advice in truth before mutual advice in patience; here truthful reassurance answers despair in a scene of speech.
+  - limits: The exchange does not use صَبْر or describe reciprocal counsel; the parallel is in the scene’s function, not an identical formula.
+- **R-16:3** [reading; support medium, relevance high] inter-ayah target
+  - finding: Creation بِٱلْحَقِّ is followed by the description of the human as خَصِيمٌۭ مُّبِينٌۭ. This juxtaposes a truthful created order with human disputation; beside the focus ayah’s lost humanity and those who counsel one another بِٱلْحَقِّ, true counsel can be heard as an answer to contentious speech.
+  - evidence: 16:3 «خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ»; 16:4 «فَإِذَا هُوَ خَصِيمٌۭ مُّبِينٌۭ»
+  - activation: The focus ayah moves from إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ to a group defined partly by mutual counsel in truth.
+  - limits: 16:3–4 does not explicitly identify disputation as the loss in 103 or define بِٱلْحَقِّ as mutual moral advice.
+- **R-16:90** [reading; support medium, relevance high] inter-ayah target
+  - finding: The commands to justice, beneficence, and giving to kin are followed by يَعِظُكُمْ. This is a concrete ethical exhortation that can illuminate what mutual counsel بِٱلْحَقِّ may carry: right conduct in relations, not an abstract statement alone.
+  - evidence: 16:90 «إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ»; 16:90 «يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ»
+  - activation: The focus ayah describes reciprocal counsel in truth; 16:90 combines ethical commands with admonition to a community.
+  - limits: The verse does not use ٱلْحَقِّ or say that justice, beneficence, and giving exhaust its meaning in 103:3; its speaker is God, not members advising one another.
+- **R-16:125** [reading; support medium, relevance high] inter-ayah target
+  - finding: The command to invite people with wisdom and good admonition, and to argue in the best manner, supplies a prophetic model of communication relevant to تَوَاصَوْا بِٱلْحَقِّ. Truthful counsel can involve invitation, warning, and disputation shaped by good conduct.
+  - evidence: 16:125 «ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ»; 16:125 «وَجَٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ»
+  - activation: The focus ayah names mutual counsel as a condition for escaping loss; 16:125 describes ways to call and address others.
+  - limits: The command addresses the Prophet singularly and does not state that this communication is reciprocal or include patience as its paired content.
+- **R-22:77** [reading; support medium, relevance high] inter-ayah target
+  - finding: Believers are commanded to worship and do good so that they may prosper; the following address expands this into striving, witness, prayer, and zakat. Prosperity supplies a positive outcome against the focus’s loss verdict.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 22:77 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ»; 22:78 «لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ»
+  - activation: The addressed believers and imperative good works resonate with the focus’s exception; تُفْلِحُونَ names the contrasting outcome.
+  - limits: The passage does not say that prosperity comes through mutual counsel to truth and patience, and its listed practices are not exhaustive.
+- **R-25:63** [reading; support medium, relevance high] inter-ayah target
+  - finding: When ignorant people address them, the servants of the Merciful answer with peace; this is a concrete social response compatible with patient restraint under provocation.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 25:63 «وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًۭا»
+  - activation: The focus makes patience a shared charge; this plural portrait shows how its addressees respond when confronted by ignorant speech.
+  - limits: The verse does not use صبر or say that silence and peaceful speech exhaust its meaning.
+- **R-25:72** [reading; support medium, relevance high] inter-ayah target
+  - finding: The servants refuse false witness and pass vain speech with dignity, joining truthfulness in public speech to restrained conduct around empty talk.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 25:72 «وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ كِرَامًۭا»
+  - activation: The focus pairs haqq with ṣabr; this portrait gives distinct social behaviors that bear on truth and restraint.
+  - limits: 25:72 does not use either focus noun or say that these behaviors are the precise meaning of its two charges.
+- **R-29:9** [reading; support medium, relevance high] inter-ayah target
+  - finding: The faith-and-deeds profile in 29:9 is followed by a scene where some people’s claim to faith buckles when they are harmed; the nearby contrast makes endurance a test of the profile.
+  - evidence: 29:9 «وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 29:10 «فَإِذَآ أُوذِىَ فِى ٱللَّهِ جَعَلَ فِتْنَةَ ٱلنَّاسِ كَعَذَابِ ٱللَّهِ»
+  - activation: The focus places mutual patience after faith and righteous deeds.
+  - limits: The passage does not identify the people in 29:10 with those in 29:9, or mention reciprocal counsel.
+- **R-39:33** [reading; support medium, relevance high] inter-ayah target
+  - finding: 39:33 distinguishes bringing al-ṣidq from confirming it: the truth-bearing person and the confirmer together form the group called muttaqūn. This gives al-ḥaqq in 103:3 a reception as well as a transmission side.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 39:33 «وَٱلَّذِى جَآءَ بِٱلصِّدْقِ وَصَدَّقَ بِهِۦٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ»
+  - activation: The focus makes truth a shared charge; 39:33 separates bringing truth from affirming it.
+  - limits: 39:33 uses al-ṣidq rather than al-ḥaqq and does not describe reciprocal counsel.
+- **R-49:7** [reading; support medium, relevance high] inter-ayah target
+  - finding: 49:7 warns the believers that following their own wishes in many matters would bring hardship, while God has made faith beloved to them. Beside the focus's mutual counsel, it marks a limit: shared advice must answer to truth and guidance, not simply group preference.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 49:7 «لَوْ يُطِيعُكُمْ فِى كَثِيرٍۢ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ»
+  - activation: The focus qualifies mutual counsel by its content, al-ḥaqq; 49:7 cautions a believing community against treating its own preference as guidance.
+  - limits: 49:7 does not directly discuss tawāṣaw or define how to distinguish truthful counsel from group preference.
+- **R-70:33** [reading; support medium, relevance high] inter-ayah target
+  - finding: Upright testimony makes public truth a practice people stand by; it offers a concrete counterpart to mutual exhortation in al-ḥaqq.
+  - evidence: 70:33 «وَٱلَّذِينَ هُم بِشَهَٰدَٰتِهِمْ قَآئِمُونَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: The focus names truth as communal counsel, and this passage gives testimony as another communal truth-practice.
+  - limits: Testimony and mutual exhortation are distinct acts; the verses do not explicitly connect them.
+- **R-90:19** [reading; support medium, relevance high] inter-ayah target
+  - finding: Surah 90 sets the believers who counsel patience and mercy among the people of the right against deniers identified as the people of the left; this gives the focus ayah’s excepted group a counterpart defined by denial.
+  - evidence: 90:18 «أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْمَيْمَنَةِ»; 90:19 «وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus ayah defines its exception by faith and reciprocal practices, while 90:19 defines the opposing group by rejecting signs.
+  - limits: The two surahs do not state that their group labels or outcomes are identical.
+- **R-91:10** [reading; support medium, relevance high] inter-ayah target
+  - finding: The paired claim that the soul’s purifier succeeds and its corrupter fails offers a distinct success-and-failure frame for the focus ayah’s exception to human loss.
+  - evidence: 91:9 «قَدْ أَفْلَحَ مَن زَكَّىٰهَا»; 91:10 «وَقَدْ خَابَ مَن دَسَّىٰهَا»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus moves from a general human loss to an excepted group; 91:9–10 likewise contrasts success with failure through opposed human acts.
+  - limits: The passages use different terms and do not equate تزكية with the focus ayah’s four conditions.
+- **R-92:5** [reading; support medium, relevance high] inter-ayah target
+  - finding: Surah 92 presents giving and taqwa followed by affirming al-ḥusnā as a route parallel in shape to the focus ayah’s faith, deeds, and truth; the focus uniquely makes its counsel reciprocal.
+  - evidence: 92:5 «فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ»; 92:6 «وَصَدَّقَ بِٱلْحُسْنَىٰ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - activation: Both sequences coordinate concrete action with an affirmation, though 92:5–6 describes one person and the focus ayah a plural group.
+  - limits: The excerpt does not establish that ٱلْحُسْنَىٰ means ٱلْحَقِّ or that giving is the whole sense of ٱلصَّٰلِحَٰتِ.
+- **R-2:214** [open; support medium, relevance high] inter-ayah target
+  - finding: These scenes could give the focus’s patience a setting of collective pressure: earlier believers are shaken by hardship, and another group asks God for patience and firm footing before battle.
+  - evidence: 2:214 «مَسَّتْهُمُ ٱلْبَأْسَآءُ وَٱلضَّرَّآءُ وَزُلْزِلُوا۟ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ ۗ أَلَآ إِنَّ نَصْرَ ٱللَّهِ قَرِيبٌۭ»; 2:250 «وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا»
+  - missing: 2:214 does not call its tested group patient, and these passages do not identify either group with those who counsel one another in 103:3; an explicit link between trial, patience, and the focus’s community could supply that support.
+- **R-4:11** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus’s “تَوَاصَوْا” and 4:11’s “وَصِيَّة” and “يُوصِي” share the وصي root, raising the possibility that mutual exhortation carries a sense of entrusted charge or legacy.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 4:11 «مِنۢ بَعْدِ وَصِيَّةٍۢ يُوصِى بِهَآ أَوْ دَيْنٍ»
+  - missing: A dictionary account or other Qur’anic uses must establish how the reciprocal verb’s sense of counsel relates to the testamentary noun and verb here; 4:11 concerns inheritance and does not itself make that link.
+- **R-4:157** [open; support medium, relevance high] inter-ayah target
+  - finding: 4:157 draws a sharp epistemic boundary between knowledge and certainty on one side and conjecture on the other, which could clarify how the focus’s “الحق” relates to knowing what is true.
+  - evidence: 4:157 «وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّۢ مِّنْهُ»; 4:157 «مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ»; 4:157 «وَمَا قَتَلُوهُ يَقِينًۢا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: This passage never uses “الحق”; another Qur’anic use that explicitly joins haqq with knowledge or certainty, or a dictionary sense connecting them, would establish whether this epistemic contrast illuminates the focus’s word.
+- **R-5:106** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus’s “تَوَاصَوْا” shares the وصي root with “ٱلْوَصِيَّةِ” in 5:106, where a will is bound up with testimony and an oath not to conceal God’s testimony.
+  - evidence: 5:106 «شَهَٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ»; 5:106 «وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: A dictionary or further Qur’anic usage must establish whether the focus’s reciprocal verb carries a sense of entrusted charge related to the testamentary noun; 5:106 itself concerns a will and witness procedure.
+- **R-8:63** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus's reciprocal practice could be heard within a community whose hearts are joined by God, not by human expenditure; this would make mutual counsel a practice inside divinely given solidarity.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 8:63 «وَلَٰكِنَّ ٱللَّهَ أَلَّفَ بَيْنَهُمْ»
+  - missing: The verses do not identify their communities or explicitly connect mutual exhortation with the joining of hearts; another passage linking counsel to God-given unity could establish that relation.
+- **R-24:22** [open; support medium, relevance high] inter-ayah target
+  - finding: In response to a wrong, believers are told to keep aiding vulnerable people, forgive, and pardon; this could specify how patience and truthful communal repair operate after injury.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 24:22 «وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟»
+  - missing: These verses do not explicitly connect forgiveness or continued aid to the focus’s sabr or haqq; another ayah linking ṣabr to pardon after harm, or a lexical account of ṣabr’s scope, could establish the connection.
+- **R-28:19** [open; support medium, relevance high] inter-ayah target
+  - finding: Musa’s opponent calls his action tyranny and asks whether he intends to be among the reformers; the next verse gives Musa a warning from a well-wisher. This raises whether righteous action is tested by restraint and truthful counsel when intervention risks force.
+  - evidence: 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 28:19 «إِن تُرِيدُ إِلَّآ أَن تَكُونَ جَبَّارًۭا فِى ٱلْأَرْضِ وَمَا تُرِيدُ أَن تَكُونَ مِنَ ٱلْمُصْلِحِينَ»; 28:20 «إِنِّى لَكَ مِنَ ٱلنَّٰصِحِينَ»
+  - missing: The accusation is spoken by an involved person, and these verses do not establish whether it accurately judges Musa’s act. The following narrative outcome or an explicit divine assessment could decide whether this is a test of reforming action and truthful advice.
+- **R-29:36** [open; support medium, relevance high] inter-ayah target
+  - finding: Shuʿayb’s public appeal to worship, hope in the Last Day, and avoid corruption is rejected; it may sharpen the contrast between a refused prophetic address and the focus’s reciprocal truth-bearing community.
+  - evidence: 29:36 «ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ ٱلْءَاخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ»; 29:37 «فَكَذَّبُوهُ»
+  - missing: The passage does not connect this rejected address to reciprocal counsel; another passage linking the prophetic call against فساد to a community’s mutual guidance could establish the comparison.
+- **R-29:44** [open; support medium, relevance high] inter-ayah target
+  - finding: Creation “in truth” for believers is followed by recitation and prayer that restrains indecency; this sequence could place mutual counsel in truth within a wider movement from truth to ethical practice.
+  - evidence: 29:44 «خَلَقَ ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ»; 29:45 «إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ»
+  - missing: Here بِٱلْحَقِّ describes creation, while the focus makes الحق the content of mutual counsel. A Quranic passage joining these senses directly could decide whether the sequence gives the focus’s counsel a cosmic grounding.
+- **R-31:9** [open; support medium, relevance high] inter-ayah target
+  - finding: After the faith-and-deeds promise, the reward is called God’s true promise; this may let the focus’s mutual counsel in الحق resonate with trust in a promise that is حقًّا.
+  - evidence: 31:8 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 31:9 «وَعْدَ ٱللَّهِ حَقًّۭا»
+  - missing: In 31:9 حق describes the truth of God’s promise, not the content of counsel. A Quranic passage explicitly joining that promise with mutual exhortation could establish the proposed relation.
+- **R-31:33** [open; support medium, relevance high] inter-ayah target
+  - finding: The family charge in 31:14 is followed later by a warning that no parent can answer for a child on the Day of Judgment; against that limit, the focus’s mutual counsel may describe guidance people can give one another in life, not substitution at judgment.
+  - evidence: 31:14 «وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ»; 31:33 «لَّا يَجْزِى وَالِدٌ عَن وَلَدِهِۦ وَلَا مَوْلُودٌ هُوَ جَازٍ عَن وَالِدِهِۦ شَيْـًٔا»
+  - missing: Neither passage explicitly contrasts counsel with intercession. A passage connecting mutual guidance to each person’s final accountability could decide whether this chain illuminates the focus.
+- **R-33:72** [open; support medium, relevance high] inter-ayah target
+  - finding: The surrounding passage moves from sound speech and corrected deeds to humanity carrying the trust, then distinguishes believers in the outcome; the focus could be heard as a concise profile of responsible human response.
+  - evidence: 33:71 «يُصْلِحْ لَكُمْ أَعْمَٰلَكُمْ»; 33:72 «وَحَمَلَهَا ٱلْإِنسَٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًۭا جَهُولًۭا»; 33:73 «وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ»
+  - missing: The passage does not identify the focus’s loss with the burden of the trust. Another passage connecting accountable trust-bearing to faith, deeds, truth, and patience could secure this reading.
+- **R-34:6** [open; support medium, relevance high] inter-ayah target
+  - finding: Those given knowledge recognize the revelation as الحق and as guidance; this could inform what believers pass among themselves as truth, while the verse locates that truth first in revealed guidance.
+  - evidence: 34:6 «هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ»
+  - missing: The wording does not say that the focus’s counsel in الحق is specifically recitation of revelation. A passage joining reciprocal counsel to revealed guidance would decide that identification.
+- **R-34:26** [open; support medium, relevance high] inter-ayah target
+  - finding: The parties are to be gathered and judged بِٱلْحَقِّ; this may let mutual counsel in truth resonate with truth as the standard by which disputes are finally decided.
+  - evidence: 34:26 «يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِٱلْحَقِّ»
+  - missing: The verse speaks of divine adjudication, not counsel among believers. Another passage connecting truth-bearing counsel with judgment between disputing parties could establish the relation.
+- **R-37:31** [open; support medium, relevance high] inter-ayah target
+  - finding: The surrounding exchange gives a failed social relation: one side says it had no authority over the other, and another admits misleading and being misguided. This could serve as a negative counterpart to mutual counsel in truth.
+  - evidence: 37:30 «وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًۭا طَٰغِينَ»; 37:31 «فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَآ»; 37:32 «فَأَغْوَيْنَٰكُمْ إِنَّا كُنَّا غَٰوِينَ»
+  - missing: The scene never names truthful mutual counsel as the alternative to mutual misguidance. A passage explicitly contrasting the two social practices could make the link decisive.
+- **R-42:17** [open; support medium, relevance high] inter-ayah target
+  - finding: 42:17 presents the Book as sent down bi-l-ḥaqq alongside the Balance. This may give the focus's al-ḥaqq a normative or just-measure register, beyond truth as a claim passed between believers.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 42:17 «ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَٰبَ بِٱلْحَقِّ وَٱلْمِيزَانَ»
+  - missing: The conjunction does not establish that al-ḥaqq means justice or measure here, nor that this is what believers advise one another about. A dictionary sense or another passage linking ḥaqq, mīzān, and communal counsel could decide the extension.
+- **R-44:39** [open; support medium, relevance high] inter-ayah target
+  - finding: 44:39 describes creation itself as occurring bi-l-ḥaqq. This raises the possibility that the focus's al-ḥaqq in mutual counsel belongs to a wider order of purposeful truth, not just the content of advice.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 44:39 «مَا خَلَقْنَٰهُمَآ إِلَّا بِٱلْحَقِّ»
+  - missing: The shared phrase establishes a lexical parallel but not the bridge between cosmic purpose and interpersonal counsel. A dictionary distinction or another ayah connecting creation's purpose to believers' ethical practice could support that reading.
+- **R-46:3** [open; support medium, relevance high] inter-ayah target
+  - finding: 46:3 repeats the cosmic creation formula seen in 44:39, saying creation is bi-l-ḥaqq and for an appointed term, then describes disbelievers as turning away from warning. This could place the focus's moral charge in a wider frame of created purpose and response to warning.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 44:39 «مَا خَلَقْنَٰهُمَآ إِلَّا بِٱلْحَقِّ»; 46:3 «مَا خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ وَأَجَلٍۢ مُّسَمًّۭى»; 46:3 «وَٱلَّذِينَ كَفَرُوا۟ عَمَّآ أُنذِرُوا۟ مُعْرِضُونَ»
+  - missing: 46:3 does not say the disbelievers turn away specifically from al-ḥaqq, and neither cosmic passage directly links creation's purpose to mutual counsel. A passage connecting the warning, creation's purpose, and communal ethical practice could establish the bridge.
+- **R-57:25** [open; support medium, relevance high] inter-ayah target
+  - finding: Revelation, the Book, and the balance are linked to people establishing justice; this could give al-ḥaqq in 103:3 a public, norm-setting dimension.
+  - evidence: 57:25 «وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَٰبَ وَٱلْمِيزَانَ لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ»; 103:3 «بِٱلْحَقِّ»
+  - missing: The passage does not use ح ق ق or identify justice as the specific content of al-ḥaqq here; a direct Quranic pairing of haqq with qist could establish the link.
+- **R-61:9** [open; support medium, relevance high] inter-ayah target
+  - finding: The phrase دِينِ ٱلْحَقِّ gives al-ḥaqq a public religious frame; it may broaden the focus's mutual counsel from interpersonal truth toward a shared order.
+  - evidence: 61:9 «بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ»; 103:3 «بِٱلْحَقِّ»
+  - missing: The same noun appears in different constructions and contexts; evidence connecting the focus's counsel-payload specifically to the public دين الحق sense would decide the scope.
+- **R-63:11** [open; support medium, relevance high] inter-ayah target
+  - finding: The warning that no soul's term will be delayed can make the oath by time and the human loss verdict feel urgent: the focus's practices belong within a finite lifetime.
+  - evidence: 63:11 «وَلَن يُؤَخِّرَ ٱللَّهُ نَفْسًا إِذَا جَآءَ أَجَلُهَا»; 103:1 «وَٱلْعَصْرِ»; 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»
+  - missing: 63:11 does not connect the appointed term to the focus's exception or define al-ʿaṣr as a deadline; another passage pairing time, deeds, and the exception's conditions could establish that link.
+- **R-66:6** [open; support medium, relevance high] inter-ayah target
+  - finding: Believers are charged with guarding both themselves and their families, suggesting that responsibility may extend beyond the immediate self to those one can guide.
+  - evidence: 66:6 «يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًۭا»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: 66:6 does not name teaching, counsel, or reciprocity; a passage that explicitly connects guarding one's family with mutual exhortation could establish the relation.
+- **R-68:50** [open; support medium, relevance high] inter-ayah target
+  - finding: Jonah is made one of the righteous after his trial; this root-family echo may relate a person's righteous standing to the focus's deeds called الصالحات.
+  - evidence: 68:50 «فَٱجْتَبَٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّٰلِحِينَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: 68:50 uses an adjective for righteous people, while 103:3 has a substantive plural for deeds; lexical evidence or further Quranic examples could show whether the two forms share a useful semantic relation here.
+- **R-69:1** [open; support medium, relevance high] inter-ayah target
+  - finding: The event called ٱلْحَآقَّةُ shares the root ح ق ق with al-ḥaqq, potentially placing the focus's truth beside an event named for its realization or certainty.
+  - evidence: 69:1 «ٱلْحَآقَّةُ»; 103:3 «بِٱلْحَقِّ»
+  - missing: The forms and referents differ; a dictionary account of الحاقة and evidence connecting it to the focus's sense of haqq could decide whether this is more than a root echo.
+- **R-84:2** [open; support medium, relevance high] inter-ayah target
+  - finding: The sky is said to have obeyed its Lord and to be due its state; حُقَّت shares the root ح ق ق with the focus's al-ḥaqq and may echo the sense of rightness or what is due.
+  - evidence: 84:2 «وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ»; 103:3 «بِٱلْحَقِّ»
+  - missing: The grammatical form and subject differ; a dictionary sense for حُقَّت and a textual link to al-ḥaqq as mutual counsel could establish whether this root echo matters.
+- **R-90:8** [open; support medium, relevance high] inter-ayah target
+  - finding: The eyes, followed by tongue and lips in 90:9 and guidance to two paths in 90:10, may frame the faculties that make truth-directed counsel possible.
+  - evidence: 90:8 «أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ»; 90:9 «وَلِسَانًۭا وَشَفَتَيْنِ»; 90:10 «وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: 90:8-10 names faculties and guidance but does not connect them to mutual counsel; a passage pairing these faculties with truth-speaking could establish the link.
+- **R-90:9** [open; support medium, relevance high] inter-ayah target
+  - finding: The tongue and lips could make the focus's repeated mutual exhortation a use of human speech in choosing between the two paths named next.
+  - evidence: 90:9 «وَلِسَانًۭا وَشَفَتَيْنِ»; 90:10 «وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ»; 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: The passage does not say that these faculties are given for mutual exhortation; another explicit link between speech and guiding one another could decide this reading.
+- **R-94:5** [open; support medium, relevance high] inter-ayah target
+  - finding: The repeated pairing of hardship with ease could supply a pressure setting for the focus ayah’s counsel of patience.
+  - evidence: 94:5 «فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا»; 94:6 «إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - missing: The focus names patience but no hardship; another explicit Qur’anic link between ṣabr and ʿusr could establish whether this pairing specifies the pressure under which its counsel operates.
+- **R-95:3** [open; support medium, relevance high] inter-ayah target
+  - finding: The focus verb ءَامَنُوا۟ and the secure-city description ٱلْبَلَدِ ٱلْأَمِينِ share the أمن root, raising a possible security resonance for faith.
+  - evidence: 95:3 «وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟»
+  - missing: The shared root alone does not establish that the city’s safety sense colors ءَامَنُوا۟ here; dictionary evidence or another Qur’anic usage that bridges security and belief could decide whether this changes the focus reading.
+- **R-f-حقق-عمل formula family** [open; support medium, relevance high] 
+  - finding: In 7:43, messengers’ truth and deeds tied to inheriting the Garden appear in one scene; the focus places right/truth and righteous work among a group’s practices, but with different roles.
+  - evidence: 7:43 «لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ»; 7:43 «ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: The shared roots do not establish that truth as the focus’s counsel content has the same function as messengers bringing truth; another parallel that joins truth-counsel to deeds could clarify the connection.
+- **R-90:6** [open; support weak, relevance high] inter-ayah target
+  - finding: The speaker boasts of having spent abundant wealth; this could contrast expenditure as self-display with deeds counted as righteous, but the nearby wording leaves the spending's moral character unstated.
+  - evidence: 90:6 «يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: The passage does not say who benefited or whether the spending was good or corrupt; an explicit evaluation or contrast with the later ascent deeds could decide how it bears on الصالحات.
+- **R-3:142** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The Qur’an also presents patience as a quality made visible under striving and testing: 3:142 names “the patient” alongside those who strive.
+  - evidence: 3:141 «وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَمْحَقَ ٱلْكَٰفِرِينَ»; 3:142 «وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَٰهَدُوا۟ مِنكُمْ وَيَعْلَمَ ٱلصَّٰبِرِينَ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: The focus makes patience one of the group’s defining practices; 3:141–142 places the patient within a test of believers and striving.
+  - limits: 3:142 identifies patient people but does not describe how they sustain one another or specify that its scene exhausts the meaning of patience.
+- **R-5:9** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 5:9 repeats the focus’s faith-and-deeds wording nearly verbatim, then attaches forgiveness and great reward to that group.
+  - evidence: 5:9 «وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ۙ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌ عَظِيمٌۭ»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The identical paired predicates anchor the focus’s first two qualifications in a recurring Qur’anic group description.
+  - limits: 5:9 gives no truth, patience, or mutual-counsel condition, and the repetition alone does not explain those added clauses in 103:3.
+- **R-5:69** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 5:69 makes belief and good action a criterion across several named religious communities, with safety from fear and grief as the outcome.
+  - evidence: 5:69 «إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلصَّٰبِـُٔونَ وَٱلنَّصَٰرَىٰ»; 5:69 «مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَعَمِلَ صَٰلِحًۭا فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ»; 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus’s belief-and-deeds pairing appears within a wider address to communities, though 5:69 restates the criterion with a singular generic clause.
+  - limits: 5:69 does not mention truth, patience, or mutual exhortation, and its wording does not define the complete group in 103:3.
+- **R-6:48** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 6:48 links belief with reform and safety from fear and grief, providing a compact parallel to the focus’s faith and righteous-deed qualifications.
+  - evidence: 6:48 «فَمَنْ ءَامَنَ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ»; 103:3 «ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The shared faith predicate is joined to an action of repair and a favorable outcome, as in the focus’s first pair of conditions.
+  - limits: 6:48 says “أصلح” rather than “عمل الصالحات” and does not include mutual counsel in truth or patience.
+- **R-30:44** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 30:44 says the one who does good prepares for their own selves, while the focus’s final predicates make the saved profile explicitly reciprocal as well as action-based.
+  - evidence: 30:44 «وَمَنْ عَمِلَ صَٰلِحًۭا فَلِأَنفُسِهِمْ يَمْهَدُونَ»; 30:45 «لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: Both passages foreground righteous action, but the focus adds mutual counsel to its profile.
+  - limits: The verses do not oppose personal benefit to communal practice; the difference is one of emphasis.
+- **R-42:26** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 42:26 repeats faith and righteous deeds, then says God responds to their call and increases them from His favor. This places the focus's first two conditions within a relation of divine response and increase, before its additional communal practices.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 42:26 «وَيَسْتَجِيبُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَيَزِيدُهُم مِّن فَضْلِهِۦ»
+  - activation: The focus's opening pair is repeated verbatim before 42:26 adds response and increase.
+  - limits: 42:26 does not mention mutual truth-counsel or patience.
+- **R-43:86** [reading; support strong, relevance medium] inter-ayah target
+  - finding: 43:86 depicts truthful testimony as something given with knowledge. This adds a witness-and-knowledge mode to al-ḥaqq, which in the focus is something believers charge one another with.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلْحَقِّ»; 43:86 «إِلَّا مَن شَهِدَ بِٱلْحَقِّ وَهُمْ يَعْلَمُونَ»
+  - activation: The same phrase bi-l-ḥaqq occurs in both; 43:86 specifies testimony and knowledge.
+  - limits: 43:86 concerns testimony and intercession, not mutual counsel, and does not establish that the focus's truth payload is testimony.
+- **R-52:48** [reading; support strong, relevance medium] inter-ayah target
+  - finding: Patience is framed as staying with the Lord's judgment under divine care, a personal prophetic form of the endurance that 103:3 makes people urge upon one another.
+  - evidence: 52:48 «وَٱصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages explicitly name patience, but one uses a command to the Prophet and the other a reciprocal group predicate.
+  - limits: The command to the Prophet does not itself establish mutual counsel among believers.
+- **R-74:7** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The phrase وَلِرَبِّكَ فَٱصْبِرْ directs patience toward the Lord, giving endurance a devotional orientation within the focus's broader mutual practice.
+  - evidence: 74:7 «وَلِرَبِّكَ فَٱصْبِرْ»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»
+  - activation: Both passages name patience; 74:7 adds the relation لِرَبِّكَ.
+  - limits: The focus does not state the same grammatical relation or address one prophetic addressee.
+- **R-99:7** [reading; support strong, relevance medium] inter-ayah target
+  - finding: The atom-weight example makes good action count even at the smallest scale, giving ٱلصَّٰلِحَٰتِ in the focus a concrete measure of deed-by-deed accountability.
+  - evidence: 99:7 «فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: Both verses foreground work, and 99:7 specifies an extremely small amount of good action.
+  - limits: The focus does not define ٱلصَّٰلِحَٰتِ by weight or explicitly state that each deed will be seen.
+- **R-3:134** [reading; support medium, relevance medium] inter-ayah target
+  - finding: The deeds named in 3:134 give social texture to righteous action: generosity across ease and hardship, restraint of anger, and forgiveness of people.
+  - evidence: 3:134 «ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus leaves “righteous deeds” unspecified; these acts show how doing good can repair relations under both prosperity and strain.
+  - limits: 3:134 does not call these acts “الصالحات” or connect them to mutual counsel about truth and patience.
+- **R-4:36** [reading; support medium, relevance medium] inter-ayah target
+  - finding: The broad phrase “وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ” can include beneficence across a wide social circle, from parents and kin to neighbors and travelers.
+  - evidence: 4:36 «وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ»; 4:36 «وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus names good deeds without listing them; 4:36 gives concrete acts of care and the people who receive them.
+  - limits: The passage does not use the focus’s term “الصالحات” or connect these acts to reciprocal exhortation.
+- **R-6:54** [reading; support medium, relevance medium] inter-ayah target
+  - finding: 6:54 shows reform as part of recovery after wrongdoing: repentance and repair are met with divine forgiveness and mercy, giving a dynamic path into the focus’s broad good-deed category.
+  - evidence: 6:54 «سَلَٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ»; 6:54 «مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍۢ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌۭ رَّحِيمٌۭ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - activation: The focus identifies a group by faith and righteous action; 6:54 describes repentance and reform following an actual wrong.
+  - limits: 6:54 does not mention mutual exhortation, and “أصلح” here cannot by itself define all the deeds covered by “الصالحات.”
+- **R-46:13** [reading; support medium, relevance medium] inter-ayah target
+  - finding: 46:13 joins saying that God is Lord to becoming upright, a concise pattern of confession followed by sustained conduct. It parallels faith followed by endurance in the focus, though istiqāma is not the same word as patience.
+  - evidence: 103:3 «ٱلَّذِينَ ءَامَنُوا۟»; 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 46:13 «إِنَّ ٱلَّذِينَ قَالُوا۟ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَٰمُوا۟ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ»
+  - activation: Both portray belief as requiring a continuing practice; the focus specifies reciprocal patience while 46:13 says istiqāma.
+  - limits: 46:13 does not name righteous deeds or mutual counsel, and istiqāma should not be collapsed into ṣabr.
+- **R-47:7** [reading; support medium, relevance medium] inter-ayah target
+  - finding: 47:7 links the community's support of God to God's support and firming of their feet. This makes commitment reciprocal between God and believers and suggests steadiness under struggle alongside the focus's shared charge to patience.
+  - evidence: 103:3 «وَتَوَاصَوْا۟ بِٱلصَّبْرِ»; 47:7 «إِن تَنصُرُوا۟ ٱللَّهَ يَنصُرْكُمْ وَيُثَبِّتْ أَقْدَامَكُمْ»
+  - activation: The focus emphasizes reciprocal support among believers; 47:7 promises divine support and firmness in response to theirs.
+  - limits: 47:7 does not explicitly name patience or mutual counsel, and divine-human reciprocity differs from the focus's believer-to-believer relation.
+- **R-15:93** [open; support medium, relevance medium] inter-ayah target
+  - finding: The verse announces questioning about what people used to do, sharing the عمل root with عَمِلُوا۟ in the focus ayah while leaving the deeds unspecified.
+  - evidence: 15:93 «عَمَّا كَانُوا۟ يَعْمَلُونَ»
+  - missing: The excerpt does not identify these deeds as righteous or connect them to truth or patience. A description of the deeds or an outcome tied to them could establish a more specific relation to عَمِلُوا۟ ٱلصَّٰلِحَٰتِ.
+- **R-17:106** [open; support medium, relevance medium] inter-ayah target
+  - finding: The Quran is portioned so the Prophet can recite it to people at a measured pace, and the following verse depicts learned hearers responding when it is recited. This may parallel the focus ayah’s repeated mutual charge as sustained transmission to a community.
+  - evidence: 17:106 «لِتَقْرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍۢ»; 17:107 «إِذَا يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًۭا»
+  - missing: These verses describe prophetic recitation and hearers’ response, not mutual advice. An explicit link between staged recitation and reciprocal transmission, or a scene where hearers pass on the counsel, could establish the connection.
+- **R-18:6** [open; support medium, relevance medium] inter-ayah target
+  - finding: The Prophet is distressed if people do not believe in the message; the next verse says the earth’s adornment tests which of them is best in deed. The sequence links belief and action under testing, but the target verse itself centers the Prophet’s grief.
+  - evidence: 18:6 «إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا»; 18:7 «لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًۭا»
+  - missing: The passage does not connect this test to mutual counsel in truth or patience. A further link between the test’s best deeds and communal steadfastness could establish a closer relation to 103:3.
+- **R-37:100** [open; support medium, relevance medium] inter-ayah target
+  - finding: Abraham asks to be granted one “among the righteous”; the shared صالح root may connect the focus’s righteous deeds with membership in a righteous human company, though the forms differ.
+  - evidence: 37:100 «رَبِّ هَبْ لِى مِنَ ٱلصَّٰلِحِينَ»
+  - missing: Here الصالحين names persons, while the focus’s الصالحات names deeds. A passage that explicitly relates righteous persons to righteous deeds could establish the proposed class relation.
+- **R-39:53** [open; support medium, relevance medium] inter-ayah target
+  - finding: The exception from human loss may be heard against a restorative address to people who have wronged themselves: they are told not to despair, then to turn back before punishment arrives.
+  - evidence: 103:2 «إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ»; 103:3 «إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»; 39:53 «قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا»; 39:54 «وَأَنِيبُوٓا۟ إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا۟ لَهُۥ مِن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ»
+  - missing: These verses do not identify the addressed wrongdoers with the excepted group in 103:3. A shared passage or explicit link between repentance and the exception could establish that relation.
+- **R-72:11** [open; support medium, relevance medium] inter-ayah target
+  - finding: The speakers distinguish righteous among themselves from others and describe their ways as divergent; this may show that righteousness marks members within a varied community.
+  - evidence: 72:11 «وَأَنَّا مِنَّا ٱلصَّٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ قِدَدًۭا»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ»
+  - missing: 72:11 uses الصالحون for people, whereas 103:3 uses الصالحات for deeds; evidence linking righteous persons to this deed-category would clarify the parallel.
+- **R-99:5** [open; support medium, relevance medium] inter-ayah target
+  - finding: The sequence from earth recounting its news to people being shown their deeds could form a witness-and-accountability backdrop for the focus’s good deeds and truth, but the focus names human mutual counsel instead.
+  - evidence: 99:4 «يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا»; 99:5 «بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا»; 99:6 «يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: The passage does not identify earth’s news with righteous deeds or with the focus’s counsel of truth; an explicit link between earthly witness and the moral content of those deeds could establish the connection.
+- **R-f-حقق-صلح formula family** [open; support medium, relevance medium] 
+  - finding: In 5:84, receiving truth and believing precedes the hope of being with the righteous; this may link the focus’s truth-counsel with its righteous-deed class.
+  - evidence: 5:84 «وَمَا جَآءَنَا مِنَ ٱلْحَقِّ»; 5:84 «مَعَ ٱلْقَوْمِ ٱلصَّٰلِحِينَ»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: The focus uses ٱلصَّٰلِحَٰتِ as deeds, while 5:84 describes a righteous people; a parallel showing how receiving or sharing truth leads to righteous action could establish the link between these forms.
+- **R-37:96** [open; support weak, relevance medium] inter-ayah target
+  - finding: In the idol-making scene, the assertion that God created people and what they make complicates how human work is described; it could frame the focus’s righteous action within divine creation and human accountability.
+  - evidence: 37:95 «أَتَعْبُدُونَ مَا تَنْحِتُونَ»; 37:96 «وَٱللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ»
+  - missing: The focus says people do righteous deeds but does not raise the question of who creates their acts. Another passage directly relating righteous action to divine creation or human responsibility would be needed.
+- **R-94:7** [open; support weak, relevance medium] inter-ayah target
+  - finding: The command to strive after becoming free could suggest that the focus ayah’s practices continue across changing tasks rather than ending with a completed effort.
+  - evidence: 94:7 «فَإِذَا فَرَغْتَ فَٱنصَبْ»; 94:8 «وَإِلَىٰ رَبِّكَ فَٱرْغَب»; 103:3 «وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ»
+  - missing: The focus contains no marker of completion or renewed striving, and 94:7 addresses one person rather than mutual counsel; a further passage connecting striving after completion to communal exhortation could establish the link.
+
+Notes:
+- R-9:102 [support strong, relevance high] 9:102 describes people who mix a righteous deed with another bad one and remain subject to hoped-for repentance. It cautions against reading al-ṣāliḥāt as a claim that the group's record is flawless.
+- R-26:83 [support medium, relevance high] Abraham asks to be joined to the righteous and for a truthful remembrance among later generations; the passage gives righteous standing an intergenerational horizon.
+- R-2:195 [support strong, relevance medium] Spending in God’s way and practicing iḥsān are concrete examples of good action, giving some material content to the focus’s broad ٱلصَّٰلِحَٰتِ.
+- R-3:57 [support strong, relevance medium] Against the preceding punishment of those who disbelieve, this verse promises full reward to those who believe and do righteous deeds; the focus gives this compact contrast a further communal specification.
+- R-3:92 [support strong, relevance medium] The verse makes birr costly and material by connecting it to spending what one loves, giving a specific example of the righteous deeds left broad in the focus.
+- R-4:55 [support strong, relevance medium] 4:55 supplies an explicit object for the faith verb—“ءَامَنَ بِهِ”—whereas the focus says “ءَامَنُوا۟” without naming an object.
+- R-4:69 [support strong, relevance medium] 4:69 places “الصَّٰلِحِينَ” among the people accompanying those whom God has favored, while 103:3 names “الصَّٰلِحَٰتِ” as deeds the excepted group performs.
+- R-5:93 [support strong, relevance medium] 5:93 repeats faith, righteous action, and taqwa in stages, showing those terms in a sequence of renewed commitment rather than a single isolated label.
+- R-6:85 [support strong, relevance medium] The focus names al-ṣāliḥāt as deeds, while 6:85 places prophets among al-ṣāliḥīn; the shared root links the deed class with a prophetic category without making the forms equivalent.
+- R-7:196 [support strong, relevance medium] At the surah's close, Allah is said to take charge of the righteous. This adds divine protection as a possible outcome for the righteous class named in the focus.
+- R-11:115 [support strong, relevance medium] The command وَٱصْبِرْ addresses the Prophet, and its reason is that God does not waste the reward of the good-doers. It gives patience a prophetic and rewarded setting beside the focus ayah’s communal practice.
+- R-12:18 [support strong, relevance medium] After the brothers bring false blood, Jacob answers فَصَبْرٌۭ جَمِيلٌۭ and turns to God for help. This is a narrative instance of patience in the face of deception and loss alongside the focus ayah’s call to advise one another toward patience.
+- R-12:101 [support strong, relevance medium] After Yusuf recounts God’s gifts, he asks to die as a Muslim and be joined with the righteous. ٱلصَّٰلِحِينَ here names a desired company or standing, complementing the focus ayah’s definition of a group through righteous deeds.
+- R-13:1 [support strong, relevance medium] Here ٱلْحَقُّ describes what was revealed to the Prophet from his Lord. The exact noun matches بِٱلْحَقِّ in the focus ayah, but this verse locates truth in revelation rather than naming the content of mutual counsel.
+- R-13:23 [support strong, relevance medium] After describing those who enter the gardens, the verse includes وَمَن صَلَحَ among their parents, spouses, and descendants. The صَلَحَ form extends the righteous root into family belonging, but is distinct from the focus ayah’s deed noun ٱلصَّٰلِحَٰتِ.
+- R-16:122 [support strong, relevance medium] After Abraham is described as grateful and guided, he is named among the righteous in the Hereafter. ٱلصَّٰلِحِينَ shares the righteous root with the focus ayah but describes a person’s standing rather than deeds.
+- R-16:127 [support strong, relevance medium] The Prophet is told to be patient, with his patience grounded in God, and not to grieve or feel constricted over others’ plotting. It adds divine dependence to the patience named in the focus ayah.
+- R-17:105 [support strong, relevance medium] The Quran is described as sent down بِٱلْحَقِّ and as having descended بِٱلْحَقِّ. This double qualification links the focus ayah’s haqq to the Quran’s descent, while leaving the human practice of mutual counsel distinct.
+- R-18:69 [support strong, relevance medium] Musa promises to be patient if God wills and couples that promise with not disobeying the guide, depicting ṣabr as disciplined following.
+- R-18:88 [support strong, relevance medium] Another conditional joins belief with righteous action and promises the good reward, reinforcing that this pair can mark a rewarded group while leaving the focus’s communal predicates unspoken.
+- R-18:107 [support strong, relevance medium] After a warning about those who disbelieved and mocked the signs, believers who do righteous deeds are promised Firdaws; the paired predicates stand opposite mockery in this scene.
+- R-18:110 [support strong, relevance medium] The surah ends by directing one who hopes to meet the Lord to do “a righteous deed” and avoid associating anyone in worship; the singular indefinite deed differs in form from the focus’s definite plural class of deeds.
+- R-22:35 [support strong, relevance medium] The worshippers are described as patient under affliction, establishing prayer, and spending from their provision; this offers examples of steadfastness alongside enacted good.
+- R-22:50 [support strong, relevance medium] Faith and righteous deeds again appear together with forgiveness and generous provision; the verse confirms the pairing while offering no counterpart to the focus’s reciprocal clauses.
+- R-25:71 [support strong, relevance medium] The next verse restates repentance and righteous action as a return to God, making return itself the continuing movement after the exception in 25:70.
+- R-28:67 [support strong, relevance medium] After people cannot answer questions about their former associations, another path is stated: whoever repents, believes, and acts righteously may be among those who prosper.
+- R-29:7 [support strong, relevance medium] The matching faith-and-righteous-deeds formula is followed by forgiveness and reward, giving the focus’s excepted group an explicit outcome parallel.
+- R-29:58 [support strong, relevance medium] The same faith-and-deeds formula leads here to lasting rooms in Paradise, an outcome parallel to the focus’s exception from loss.
+- R-30:45 [support strong, relevance medium] Believers and doers of righteous deeds are named as recipients of reward from God’s grace, a direct first-half profile parallel.
+- R-32:18 [support strong, relevance medium] The rhetorical question refuses to equate a believer with a transgressor, a compact contrast that reinforces the focus’s distinction between those in loss and its excepted group.
+- R-32:19 [support strong, relevance medium] Faith and righteous deeds receive the abode gardens as a reward, followed by a contrasting fate for those who transgress.
+- R-35:7 [support strong, relevance medium] The matching faith-and-deeds formula is set against disbelief and paired with forgiveness and a great reward.
+- R-64:2 [support strong, relevance medium] The passage distinguishes disbeliever and believer while placing both under divine sight of their deeds, echoing the focus's pairing of belief with action.
+- R-76:12 [support strong, relevance medium] The people are rewarded for what they endured, connecting the focus's mutual charge to patience with an outcome for lived endurance.
+- R-90:20 [support strong, relevance medium] The fire closing Surah 90 gives a severe outcome to its deniers, sharpening the stakes of the group contrast around 90:17 and the focus ayah’s escape from loss.
+- R-99:6 [support strong, relevance medium] The scene of people dispersed to be shown their deeds supplies an accountability horizon for the focus’s named righteous work.
+- R-99:8 [support strong, relevance medium] The matching atom-weight statement for evil deeds keeps the focus’s positive exception within a broader reckoning that also exposes harmful action.
+- R-2:83 [support medium, relevance medium] The covenant’s required speech to all people gives social conduct a place alongside worship and giving; the verse then records that most of the group turned away.
+- R-2:147 [support medium, relevance medium] Baqara identifies al-ḥaqq as coming from the Lord and pairs that claim with a warning against doubt; this may give the focus’s mutual counsel in al-ḥaqq a revealed source.
+- R-2:180 [support medium, relevance medium] The bequest to parents and near kin is called a charge according to recognized good and a right upon the God-fearing; this offers a legal-duty echo of the focus’s mutual charging.
+- R-2:220 [support medium, relevance medium] The orphan passage distinguishes reform from corruption while describing the orphans as brothers; it makes social care and repair one concrete field for righteous action.
+- R-2:228 [support medium, relevance medium] In a family-law setting, the ban on concealment and the statement of reciprocal rights in recognized good offer a specific social context for truthfulness and reciprocity.
+- R-3:17 [support medium, relevance medium] The paired traits الصابرين and الصادقين place endurance and truthfulness beside one another in a profile of devotion, spending, and seeking forgiveness; the focus turns related values into mutual counsel.
+- R-7:35 [support medium, relevance medium] The conditional group who guards against wrong and sets things right is promised freedom from fear and grief, a related escape pattern to the focus's exception from loss.
+- R-7:142 [support medium, relevance medium] Moses's handoff to Aaron makes reform among the people a charge for the period of the leader's absence, countered by the path of corrupters; it is a leadership-shaped parallel to the focus's communal practice.
+- R-7:168 [support medium, relevance medium] Within the dispersed communities of 7:168, some are righteous and some are not; this echoes the focus's boundary-making exception, where a moral class is distinguished from humanity at large.
+- R-7:190 [support medium, relevance medium] The same ṣ-l-ḥ root appears in 7:189–190 as the indefinite ṣāliḥan hoped for and then received, followed by the partners they associate. This is a root echo, but it is not the focus's plural label for righteous deeds.
+- R-7:199 [support medium, relevance medium] The command to enjoin al-maʿrūf gives recognized good a public voice, a nearby ethical function for the focus's al-ḥaqq; here it is a Messenger's directive rather than mutual counsel.
+- R-8:24 [support medium, relevance medium] The plural address to believers makes response to God's life-giving call a collective duty; beside the focus, it frames faith as an active response that can be sustained through communal truth and patience.
+- R-17:23 [support medium, relevance medium] The command to honor parents is made concrete through respectful speech and conduct. It can exemplify the focus ayah’s righteous action as relational practice, though the verse uses إِحْسَٰنًا rather than the ṣ-l-ḥ root.
+- R-17:25 [support medium, relevance medium] In the passage about parents, God knows what is within people’s selves and forgives those who are صالحين and often return to Him. This places the related righteousness root beside inward motive, complementing the focus ayah’s outward wording about deeds.
+- R-21:73 [support medium, relevance medium] Prophetic leaders are described as guided by God’s command and devoted to good works, prayer, and zakat, giving some concrete practices that may fall under the focus’s righteous deeds.
+- R-21:90 [support medium, relevance medium] The response to Zakariyya’s prayer is followed by a description of the family hastening to good works and calling on God in hope and fear, adding urgency and supplication to the action profile.
+- R-23:8 [support medium, relevance medium] Guarding trusts and covenants gives the faithful profile a relational accountability dimension that can sit beside the focus’s shared charge to uphold truth.
+- R-23:51 [support medium, relevance medium] The messengers are told to consume what is good and act righteously, then reminded that God knows their deeds; the next verse calls their community one.
+- R-25:67 [support medium, relevance medium] Measured spending, avoiding both extravagance and stinginess, gives a concrete example of balanced conduct in the portrait of the servants of the Merciful.
+- R-26:142 [support medium, relevance medium] Ṣāliḥ here is the prophet’s proper name, not evidence by itself about the focus’s الصالحات; the relevant scene is his one-way admonition, “ألا تتقون,” compared with the focus’s mutual exhortation.
+- R-27:19 [support medium, relevance medium] After the ant warns its people, Solomon asks God to enable gratitude and a pleasing righteous deed, then asks to be admitted among righteous servants; good action is framed as a response to received favor.
+- R-28:27 [support medium, relevance medium] The proposed employer describes the strong, trustworthy hire, offers a measured term, and expects to be among the righteous; the scene gives righteous identity a setting of work and fair dealing.
+- R-48:26 [support medium, relevance medium] 48:26 contrasts the disbelievers' heated zeal with the tranquility given to the Prophet and believers and the word of piety made binding on them. This offers a communal image of restraint that can sit beside the focus's patience.
+- R-59:9 [support medium, relevance medium] Preferring migrants over oneself despite need gives one concrete, other-directed instance that may fall within righteous deeds.
+- R-59:10 [support medium, relevance medium] Later believers pray for earlier believers and for hearts free of rancor, showing one way a community can preserve ties across generations.
+- R-60:10 [support medium, relevance medium] The passage distinguishes a claim of faith from knowledge of women's faith in a concrete social decision, adding a testable dimension to the focus's faith predicate.
+- R-64:16 [support medium, relevance medium] Listening, obeying, and giving are named as practical responses to God-consciousness; listening could supply the receiving side implicit in reciprocal exhortation.
+- R-69:2 [support medium, relevance medium] The question مَا ٱلْحَآقَّةُ makes the shared root's eschatological referent an object of inquiry, distinct from al-ḥaqq as a charge people exchange.
+- R-69:3 [support medium, relevance medium] The added question وَمَآ أَدْرَىٰكَ stresses the event's gravity and human uncertainty, while the focus presents al-ḥaqq as something believers can urge one another toward.
+- R-70:32 [support medium, relevance medium] Keeping trusts and covenants appears in the same successful profile as the known right in wealth and upright testimony, adding reliability to its picture of communal conduct.
+- R-90:4 [support weak, relevance medium] Human life is described as hardship, which can make shared patience a response to a common condition.
+- R-30:15 [support strong, relevance low] The formula of belief and righteous deeds recurs as one side of the division on the Day the Hour rises, with delight as its outcome.
+- R-31:8 [support strong, relevance low] The familiar faith-and-deeds pair appears as the condition for gardens of bliss, another explicit outcome parallel to the exception.
+- R-33:31 [support strong, relevance low] Within instructions to the Prophet’s wives, a woman’s righteous deed is followed by a promised doubled reward, giving an individually scoped instance of عمل صالح.
+- R-34:13 [support strong, relevance low] David’s household is told to make work an act of gratitude, one concrete framing of good action beyond the focus’s otherwise general category.
+- R-37:112 [support strong, relevance low] Isaac is called a prophet among the righteous, but the shared صالح root names people here and deeds in the focus, so the wording does not specify the focus’s category.
+- R-40:58 [support strong, relevance low] 40:58 places believers who do righteous deeds beside the contrast between the blind and the seeing, and the wrongdoer. It supplies a moral and perceptual contrast for the focus's first two conditions.
+- R-41:46 [support strong, relevance low] 41:46 frames righteous action and wrongdoing as having consequences for the agent. It gives the focus's deeds a personal accountability dimension, though it does not develop the communal conditions.
+- R-43:72 [support strong, relevance low] 43:72 says the Garden is inherited because of what its recipients used to do. It is a brief deeds-to-outcome parallel to the focus's righteous actions.
+- R-2:240 [support medium, relevance low] The widow’s provision and the permission to act in recognized good give a narrow example of care for others as a deed within the focus’s broad righteous-action category.
+- R-29:30 [support medium, relevance low] The plea for help against a people characterized as corrupters gives a collective social counterpoint to the focus’s righteous deeds and shared moral practice.
+- R-45:14 [support medium, relevance low] 45:14 commands believers to forgive people who do not expect God's days, while leaving their recompense to God. It offers a restrained response toward outsiders that can sit beside the focus's shared commitment to truth and patience.
+- R-47:5 [support medium, relevance low] After describing people killed in God's path, 47:5 says God will guide them and repair their condition. This gives a restorative consequence alongside the focus's righteous deeds.
+- R-56:24 [support medium, relevance low] The recompense passage links deeds to outcome, a broad consequence-frame for the focus's work clause.
+
+Rejected as misreadings:
+- R-99:3: wrong 
+
+## 3. Text of cited ayat outside the surah and the Fatiha
+
+- 2:25 وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍۢ رِّزْقًۭا ۙ قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا۟ بِهِۦ مُتَشَٰبِهًۭا ۖ وَلَهُمْ فِيهَآ أَزْوَٰجٌۭ مُّطَهَّرَةٌۭ ۖ وَهُمْ فِيهَا خَٰلِدُونَ
+- 2:42 وَلَا تَلْبِسُوا۟ ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُوا۟ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ
+- 2:45 وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ
+- 2:61 وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍۢ وَٰحِدٍۢ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًۭا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍۢ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ
+- 2:62 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلنَّصَٰرَىٰ وَٱلصَّٰبِـِٔينَ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَعَمِلَ صَٰلِحًۭا فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 2:81 بَلَىٰ مَن كَسَبَ سَيِّئَةًۭ وَأَحَٰطَتْ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 2:82 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 2:83 وَإِذْ أَخَذْنَا مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًۭا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًۭا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ
+- 2:132 وَوَصَّىٰ بِهَآ إِبْرَٰهِۦمُ بَنِيهِ وَيَعْقُوبُ يَٰبَنِىَّ إِنَّ ٱللَّهَ ٱصْطَفَىٰ لَكُمُ ٱلدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ
+- 2:147 ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ
+- 2:153 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ
+- 2:155 وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ
+- 2:156 ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ
+- 2:159 إِنَّ ٱلَّذِينَ يَكْتُمُونَ مَآ أَنزَلْنَا مِنَ ٱلْبَيِّنَٰتِ وَٱلْهُدَىٰ مِنۢ بَعْدِ مَا بَيَّنَّٰهُ لِلنَّاسِ فِى ٱلْكِتَٰبِ ۙ أُو۟لَٰٓئِكَ يَلْعَنُهُمُ ٱللَّهُ وَيَلْعَنُهُمُ ٱللَّٰعِنُونَ
+- 2:160 إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ
+- 2:176 ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلْكِتَٰبَ بِٱلْحَقِّ ۗ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى شِقَاقٍۭ بَعِيدٍۢ
+- 2:177 ۞ لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ
+- 2:180 كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ إِن تَرَكَ خَيْرًا ٱلْوَصِيَّةُ لِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُتَّقِينَ
+- 2:182 فَمَنْ خَافَ مِن مُّوصٍۢ جَنَفًا أَوْ إِثْمًۭا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 2:195 وَأَنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلَا تُلْقُوا۟ بِأَيْدِيكُمْ إِلَى ٱلتَّهْلُكَةِ ۛ وَأَحْسِنُوٓا۟ ۛ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ
+- 2:213 كَانَ ٱلنَّاسُ أُمَّةًۭ وَٰحِدَةًۭ فَبَعَثَ ٱللَّهُ ٱلنَّبِيِّۦنَ مُبَشِّرِينَ وَمُنذِرِينَ وَأَنزَلَ مَعَهُمُ ٱلْكِتَٰبَ بِٱلْحَقِّ لِيَحْكُمَ بَيْنَ ٱلنَّاسِ فِيمَا ٱخْتَلَفُوا۟ فِيهِ ۚ وَمَا ٱخْتَلَفَ فِيهِ إِلَّا ٱلَّذِينَ أُوتُوهُ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ بَغْيًۢا بَيْنَهُمْ ۖ فَهَدَى ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ لِمَا ٱخْتَلَفُوا۟ فِيهِ مِنَ ٱلْحَقِّ بِإِذْنِهِۦ ۗ وَٱللَّهُ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍ
+- 2:214 أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَّثَلُ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُم ۖ مَّسَّتْهُمُ ٱلْبَأْسَآءُ وَٱلضَّرَّآءُ وَزُلْزِلُوا۟ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ ۗ أَلَآ إِنَّ نَصْرَ ٱللَّهِ قَرِيبٌۭ
+- 2:220 فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۗ وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَٰمَىٰ ۖ قُلْ إِصْلَاحٌۭ لَّهُمْ خَيْرٌۭ ۖ وَإِن تُخَالِطُوهُمْ فَإِخْوَٰنُكُمْ ۚ وَٱللَّهُ يَعْلَمُ ٱلْمُفْسِدَ مِنَ ٱلْمُصْلِحِ ۚ وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌۭ
+- 2:228 وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍۢ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًۭا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌۭ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ
+- 2:240 وَٱلَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَٰجًۭا وَصِيَّةًۭ لِّأَزْوَٰجِهِم مَّتَٰعًا إِلَى ٱلْحَوْلِ غَيْرَ إِخْرَاجٍۢ ۚ فَإِنْ خَرَجْنَ فَلَا جُنَاحَ عَلَيْكُمْ فِى مَا فَعَلْنَ فِىٓ أَنفُسِهِنَّ مِن مَّعْرُوفٍۢ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌۭ
+- 2:250 وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ
+- 2:277 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 3:17 ٱلصَّٰبِرِينَ وَٱلصَّٰدِقِينَ وَٱلْقَٰنِتِينَ وَٱلْمُنفِقِينَ وَٱلْمُسْتَغْفِرِينَ بِٱلْأَسْحَارِ
+- 3:56 فَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَأُعَذِّبُهُمْ عَذَابًۭا شَدِيدًۭا فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ وَمَا لَهُم مِّن نَّٰصِرِينَ
+- 3:57 وَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّٰلِمِينَ
+- 3:88 خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ
+- 3:89 إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 3:92 لَن تَنَالُوا۟ ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍۢ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌۭ
+- 3:103 وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًۭا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءًۭ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًۭا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍۢ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَ
+- 3:104 وَلْتَكُن مِّنكُمْ أُمَّةٌۭ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 3:110 كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَتُؤْمِنُونَ بِٱللَّهِ ۗ وَلَوْ ءَامَنَ أَهْلُ ٱلْكِتَٰبِ لَكَانَ خَيْرًۭا لَّهُم ۚ مِّنْهُمُ ٱلْمُؤْمِنُونَ وَأَكْثَرُهُمُ ٱلْفَٰسِقُونَ
+- 3:114 يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَأُو۟لَٰٓئِكَ مِنَ ٱلصَّٰلِحِينَ
+- 3:119 هَٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ
+- 3:120 إِن تَمْسَسْكُمْ حَسَنَةٌۭ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌۭ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌۭ
+- 3:124 إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ ءَالَٰفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُنزَلِينَ
+- 3:125 بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَٰفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ
+- 3:134 ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ
+- 3:141 وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَمْحَقَ ٱلْكَٰفِرِينَ
+- 3:142 أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَٰهَدُوا۟ مِنكُمْ وَيَعْلَمَ ٱلصَّٰبِرِينَ
+- 3:146 وَكَأَيِّن مِّن نَّبِىٍّۢ قَٰتَلَ مَعَهُۥ رِبِّيُّونَ كَثِيرٌۭ فَمَا وَهَنُوا۟ لِمَآ أَصَابَهُمْ فِى سَبِيلِ ٱللَّهِ وَمَا ضَعُفُوا۟ وَمَا ٱسْتَكَانُوا۟ ۗ وَٱللَّهُ يُحِبُّ ٱلصَّٰبِرِينَ
+- 3:186 ۞ لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًۭى كَثِيرًۭا ۚ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ
+- 3:200 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ
+- 4:11 يُوصِيكُمُ ٱللَّهُ فِىٓ أَوْلَٰدِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ ۚ فَإِن كُنَّ نِسَآءًۭ فَوْقَ ٱثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۖ وَإِن كَانَتْ وَٰحِدَةًۭ فَلَهَا ٱلنِّصْفُ ۚ وَلِأَبَوَيْهِ لِكُلِّ وَٰحِدٍۢ مِّنْهُمَا ٱلسُّدُسُ مِمَّا تَرَكَ إِن كَانَ لَهُۥ وَلَدٌۭ ۚ فَإِن لَّمْ يَكُن لَّهُۥ وَلَدٌۭ وَوَرِثَهُۥٓ أَبَوَاهُ فَلِأُمِّهِ ٱلثُّلُثُ ۚ فَإِن كَانَ لَهُۥٓ إِخْوَةٌۭ فَلِأُمِّهِ ٱلسُّدُسُ ۚ مِنۢ بَعْدِ وَصِيَّةٍۢ يُوصِى بِهَآ أَوْ دَيْنٍ ۗ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ لَا تَدْرُونَ أَيُّهُمْ أَقْرَبُ لَكُمْ نَفْعًۭا ۚ فَرِيضَةًۭ مِّنَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًۭا
+- 4:36 ۞ وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًۭا فَخُورًا
+- 4:55 فَمِنْهُم مَّنْ ءَامَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا
+- 4:69 وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًۭا
+- 4:97 إِنَّ ٱلَّذِينَ تَوَفَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ ظَالِمِىٓ أَنفُسِهِمْ قَالُوا۟ فِيمَ كُنتُمْ ۖ قَالُوا۟ كُنَّا مُسْتَضْعَفِينَ فِى ٱلْأَرْضِ ۚ قَالُوٓا۟ أَلَمْ تَكُنْ أَرْضُ ٱللَّهِ وَٰسِعَةًۭ فَتُهَاجِرُوا۟ فِيهَا ۚ فَأُو۟لَٰٓئِكَ مَأْوَىٰهُمْ جَهَنَّمُ ۖ وَسَآءَتْ مَصِيرًا
+- 4:98 إِلَّا ٱلْمُسْتَضْعَفِينَ مِنَ ٱلرِّجَالِ وَٱلنِّسَآءِ وَٱلْوِلْدَٰنِ لَا يَسْتَطِيعُونَ حِيلَةًۭ وَلَا يَهْتَدُونَ سَبِيلًۭا
+- 4:114 ۞ لَّا خَيْرَ فِى كَثِيرٍۢ مِّن نَّجْوَىٰهُمْ إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَٰحٍۭ بَيْنَ ٱلنَّاسِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًۭا
+- 4:122 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَنُدْخِلُهُمْ جَنَّٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًۭا ۖ وَعْدَ ٱللَّهِ حَقًّۭا ۚ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ قِيلًۭا
+- 4:123 لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَٰبِ ۗ مَن يَعْمَلْ سُوٓءًۭا يُجْزَ بِهِۦ وَلَا يَجِدْ لَهُۥ مِن دُونِ ٱللَّهِ وَلِيًّۭا وَلَا نَصِيرًۭا
+- 4:124 وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ نَقِيرًۭا
+- 4:128 وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ وَٱلصُّلْحُ خَيْرٌۭ ۗ وَأُحْضِرَتِ ٱلْأَنفُسُ ٱلشُّحَّ ۚ وَإِن تُحْسِنُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا
+- 4:131 وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَلَقَدْ وَصَّيْنَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَإِيَّاكُمْ أَنِ ٱتَّقُوا۟ ٱللَّهَ ۚ وَإِن تَكْفُرُوا۟ فَإِنَّ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ غَنِيًّا حَمِيدًۭا
+- 4:135 ۞ يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ ۚ إِن يَكُنْ غَنِيًّا أَوْ فَقِيرًۭا فَٱللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا۟ ٱلْهَوَىٰٓ أَن تَعْدِلُوا۟ ۚ وَإِن تَلْوُۥٓا۟ أَوْ تُعْرِضُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا
+- 4:145 إِنَّ ٱلْمُنَٰفِقِينَ فِى ٱلدَّرْكِ ٱلْأَسْفَلِ مِنَ ٱلنَّارِ وَلَن تَجِدَ لَهُمْ نَصِيرًا
+- 4:146 إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَٱعْتَصَمُوا۟ بِٱللَّهِ وَأَخْلَصُوا۟ دِينَهُمْ لِلَّهِ فَأُو۟لَٰٓئِكَ مَعَ ٱلْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ ٱللَّهُ ٱلْمُؤْمِنِينَ أَجْرًا عَظِيمًۭا
+- 4:157 وَقَوْلِهِمْ إِنَّا قَتَلْنَا ٱلْمَسِيحَ عِيسَى ٱبْنَ مَرْيَمَ رَسُولَ ٱللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ ۚ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّۢ مِّنْهُ ۚ مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًۢا
+- 4:173 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًۭا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّۭا وَلَا نَصِيرًۭا
+- 5:2 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُحِلُّوا۟ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهْرَ ٱلْحَرَامَ وَلَا ٱلْهَدْىَ وَلَا ٱلْقَلَٰٓئِدَ وَلَآ ءَآمِّينَ ٱلْبَيْتَ ٱلْحَرَامَ يَبْتَغُونَ فَضْلًۭا مِّن رَّبِّهِمْ وَرِضْوَٰنًۭا ۚ وَإِذَا حَلَلْتُمْ فَٱصْطَادُوا۟ ۚ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ
+- 5:8 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُونُوا۟ قَوَّٰمِينَ لِلَّهِ شُهَدَآءَ بِٱلْقِسْطِ ۖ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ ٱعْدِلُوا۟ هُوَ أَقْرَبُ لِلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ
+- 5:9 وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ۙ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌ عَظِيمٌۭ
+- 5:48 وَأَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًۭا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلْكِتَٰبِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَٱحْكُم بَيْنَهُم بِمَآ أَنزَلَ ٱللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ عَمَّا جَآءَكَ مِنَ ٱلْحَقِّ ۚ لِكُلٍّۢ جَعَلْنَا مِنكُمْ شِرْعَةًۭ وَمِنْهَاجًۭا ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةًۭ وَٰحِدَةًۭ وَلَٰكِن لِّيَبْلُوَكُمْ فِى مَآ ءَاتَىٰكُمْ ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ إِلَى ٱللَّهِ مَرْجِعُكُمْ جَمِيعًۭا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ
+- 5:69 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلصَّٰبِـُٔونَ وَٱلنَّصَٰرَىٰ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَعَمِلَ صَٰلِحًۭا فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 5:79 كَانُوا۟ لَا يَتَنَاهَوْنَ عَن مُّنكَرٍۢ فَعَلُوهُ ۚ لَبِئْسَ مَا كَانُوا۟ يَفْعَلُونَ
+- 5:84 وَمَا لَنَا لَا نُؤْمِنُ بِٱللَّهِ وَمَا جَآءَنَا مِنَ ٱلْحَقِّ وَنَطْمَعُ أَن يُدْخِلَنَا رَبُّنَا مَعَ ٱلْقَوْمِ ٱلصَّٰلِحِينَ
+- 5:93 لَيْسَ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جُنَاحٌۭ فِيمَا طَعِمُوٓا۟ إِذَا مَا ٱتَّقَوا۟ وَّءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ثُمَّ ٱتَّقَوا۟ وَّءَامَنُوا۟ ثُمَّ ٱتَّقَوا۟ وَّأَحْسَنُوا۟ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ
+- 5:106 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ شَهَٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ ٱثْنَانِ ذَوَا عَدْلٍۢ مِّنكُمْ أَوْ ءَاخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنتُمْ ضَرَبْتُمْ فِى ٱلْأَرْضِ فَأَصَٰبَتْكُم مُّصِيبَةُ ٱلْمَوْتِ ۚ تَحْبِسُونَهُمَا مِنۢ بَعْدِ ٱلصَّلَوٰةِ فَيُقْسِمَانِ بِٱللَّهِ إِنِ ٱرْتَبْتُمْ لَا نَشْتَرِى بِهِۦ ثَمَنًۭا وَلَوْ كَانَ ذَا قُرْبَىٰ ۙ وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ إِنَّآ إِذًۭا لَّمِنَ ٱلْءَاثِمِينَ
+- 6:48 وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۖ فَمَنْ ءَامَنَ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 6:54 وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤْمِنُونَ بِـَٔايَٰتِنَا فَقُلْ سَلَٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍۢ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌۭ رَّحِيمٌۭ
+- 6:73 وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ
+- 6:85 وَزَكَرِيَّا وَيَحْيَىٰ وَعِيسَىٰ وَإِلْيَاسَ ۖ كُلٌّۭ مِّنَ ٱلصَّٰلِحِينَ
+- 6:114 أَفَغَيْرَ ٱللَّهِ أَبْتَغِى حَكَمًۭا وَهُوَ ٱلَّذِىٓ أَنزَلَ إِلَيْكُمُ ٱلْكِتَٰبَ مُفَصَّلًۭا ۚ وَٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَعْلَمُونَ أَنَّهُۥ مُنَزَّلٌۭ مِّن رَّبِّكَ بِٱلْحَقِّ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ
+- 6:144 وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ ۗ قُلْ ءَآلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا ۚ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًۭا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- 6:151 ۞ قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًۭٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًۭا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُم مِّنْ إِمْلَٰقٍۢ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ
+- 6:152 وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۖ وَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟ وَلَوْ كَانَ ذَا قُرْبَىٰ ۖ وَبِعَهْدِ ٱللَّهِ أَوْفُوا۟ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَذَكَّرُونَ
+- 7:8 وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 7:9 وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ
+- 7:35 يَٰبَنِىٓ ءَادَمَ إِمَّا يَأْتِيَنَّكُمْ رُسُلٌۭ مِّنكُمْ يَقُصُّونَ عَلَيْكُمْ ءَايَٰتِى ۙ فَمَنِ ٱتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 7:42 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَآ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 7:43 وَنَزَعْنَا مَا فِى صُدُورِهِم مِّنْ غِلٍّۢ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ ۖ وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ
+- 7:56 وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًۭا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌۭ مِّنَ ٱلْمُحْسِنِينَ
+- 7:85 وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًۭا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌۭ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌۭ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ
+- 7:105 حَقِيقٌ عَلَىٰٓ أَن لَّآ أَقُولَ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ قَدْ جِئْتُكُم بِبَيِّنَةٍۢ مِّن رَّبِّكُمْ فَأَرْسِلْ مَعِىَ بَنِىٓ إِسْرَٰٓءِيلَ
+- 7:126 وَمَا تَنقِمُ مِنَّآ إِلَّآ أَنْ ءَامَنَّا بِـَٔايَٰتِ رَبِّنَا لَمَّا جَآءَتْنَا ۚ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًۭا وَتَوَفَّنَا مُسْلِمِينَ
+- 7:142 ۞ وَوَٰعَدْنَا مُوسَىٰ ثَلَٰثِينَ لَيْلَةًۭ وَأَتْمَمْنَٰهَا بِعَشْرٍۢ فَتَمَّ مِيقَٰتُ رَبِّهِۦٓ أَرْبَعِينَ لَيْلَةًۭ ۚ وَقَالَ مُوسَىٰ لِأَخِيهِ هَٰرُونَ ٱخْلُفْنِى فِى قَوْمِى وَأَصْلِحْ وَلَا تَتَّبِعْ سَبِيلَ ٱلْمُفْسِدِينَ
+- 7:168 وَقَطَّعْنَٰهُمْ فِى ٱلْأَرْضِ أُمَمًۭا ۖ مِّنْهُمُ ٱلصَّٰلِحُونَ وَمِنْهُمْ دُونَ ذَٰلِكَ ۖ وَبَلَوْنَٰهُم بِٱلْحَسَنَٰتِ وَٱلسَّيِّـَٔاتِ لَعَلَّهُمْ يَرْجِعُونَ
+- 7:169 فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌۭ وَرِثُوا۟ ٱلْكِتَٰبَ يَأْخُذُونَ عَرَضَ هَٰذَا ٱلْأَدْنَىٰ وَيَقُولُونَ سَيُغْفَرُ لَنَا وَإِن يَأْتِهِمْ عَرَضٌۭ مِّثْلُهُۥ يَأْخُذُوهُ ۚ أَلَمْ يُؤْخَذْ عَلَيْهِم مِّيثَٰقُ ٱلْكِتَٰبِ أَن لَّا يَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ وَدَرَسُوا۟ مَا فِيهِ ۗ وَٱلدَّارُ ٱلْءَاخِرَةُ خَيْرٌۭ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ
+- 7:170 وَٱلَّذِينَ يُمَسِّكُونَ بِٱلْكِتَٰبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ إِنَّا لَا نُضِيعُ أَجْرَ ٱلْمُصْلِحِينَ
+- 7:189 ۞ هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍۢ وَٰحِدَةٍۢ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًۭا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ ءَاتَيْتَنَا صَٰلِحًۭا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ
+- 7:190 فَلَمَّآ ءَاتَىٰهُمَا صَٰلِحًۭا جَعَلَا لَهُۥ شُرَكَآءَ فِيمَآ ءَاتَىٰهُمَا ۚ فَتَعَٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ
+- 7:196 إِنَّ وَلِۦِّىَ ٱللَّهُ ٱلَّذِى نَزَّلَ ٱلْكِتَٰبَ ۖ وَهُوَ يَتَوَلَّى ٱلصَّٰلِحِينَ
+- 7:199 خُذِ ٱلْعَفْوَ وَأْمُرْ بِٱلْعُرْفِ وَأَعْرِضْ عَنِ ٱلْجَٰهِلِينَ
+- 8:1 يَسْـَٔلُونَكَ عَنِ ٱلْأَنفَالِ ۖ قُلِ ٱلْأَنفَالُ لِلَّهِ وَٱلرَّسُولِ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَأَصْلِحُوا۟ ذَاتَ بَيْنِكُمْ ۖ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥٓ إِن كُنتُم مُّؤْمِنِينَ
+- 8:7 وَإِذْ يَعِدُكُمُ ٱللَّهُ إِحْدَى ٱلطَّآئِفَتَيْنِ أَنَّهَا لَكُمْ وَتَوَدُّونَ أَنَّ غَيْرَ ذَاتِ ٱلشَّوْكَةِ تَكُونُ لَكُمْ وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلْحَقَّ بِكَلِمَٰتِهِۦ وَيَقْطَعَ دَابِرَ ٱلْكَٰفِرِينَ
+- 8:8 لِيُحِقَّ ٱلْحَقَّ وَيُبْطِلَ ٱلْبَٰطِلَ وَلَوْ كَرِهَ ٱلْمُجْرِمُونَ
+- 8:24 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَجِيبُوا۟ لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِمَا يُحْيِيكُمْ ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَحُولُ بَيْنَ ٱلْمَرْءِ وَقَلْبِهِۦ وَأَنَّهُۥٓ إِلَيْهِ تُحْشَرُونَ
+- 8:45 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا لَقِيتُمْ فِئَةًۭ فَٱثْبُتُوا۟ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًۭا لَّعَلَّكُمْ تُفْلِحُونَ
+- 8:46 وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا تَنَٰزَعُوا۟ فَتَفْشَلُوا۟ وَتَذْهَبَ رِيحُكُمْ ۖ وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ
+- 8:63 وَأَلَّفَ بَيْنَ قُلُوبِهِمْ ۚ لَوْ أَنفَقْتَ مَا فِى ٱلْأَرْضِ جَمِيعًۭا مَّآ أَلَّفْتَ بَيْنَ قُلُوبِهِمْ وَلَٰكِنَّ ٱللَّهَ أَلَّفَ بَيْنَهُمْ ۚ إِنَّهُۥ عَزِيزٌ حَكِيمٌۭ
+- 8:74 وَٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّۭا ۚ لَّهُم مَّغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ
+- 9:71 وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍۢ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌۭ
+- 9:102 وَءَاخَرُونَ ٱعْتَرَفُوا۟ بِذُنُوبِهِمْ خَلَطُوا۟ عَمَلًۭا صَٰلِحًۭا وَءَاخَرَ سَيِّئًا عَسَى ٱللَّهُ أَن يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ
+- 9:112 ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ ٱلسَّٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ
+- 10:4 إِلَيْهِ مَرْجِعُكُمْ جَمِيعًۭا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ إِنَّهُۥ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ بِٱلْقِسْطِ ۚ وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ شَرَابٌۭ مِّنْ حَمِيمٍۢ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ
+- 10:9 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ يَهْدِيهِمْ رَبُّهُم بِإِيمَٰنِهِمْ ۖ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ فِى جَنَّٰتِ ٱلنَّعِيمِ
+- 10:32 فَذَٰلِكُمُ ٱللَّهُ رَبُّكُمُ ٱلْحَقُّ ۖ فَمَاذَا بَعْدَ ٱلْحَقِّ إِلَّا ٱلضَّلَٰلُ ۖ فَأَنَّىٰ تُصْرَفُونَ
+- 10:53 ۞ وَيَسْتَنۢبِـُٔونَكَ أَحَقٌّ هُوَ ۖ قُلْ إِى وَرَبِّىٓ إِنَّهُۥ لَحَقٌّۭ ۖ وَمَآ أَنتُم بِمُعْجِزِينَ
+- 10:54 وَلَوْ أَنَّ لِكُلِّ نَفْسٍۢ ظَلَمَتْ مَا فِى ٱلْأَرْضِ لَٱفْتَدَتْ بِهِۦ ۗ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ ۖ وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ ۚ وَهُمْ لَا يُظْلَمُونَ
+- 10:81 فَلَمَّآ أَلْقَوْا۟ قَالَ مُوسَىٰ مَا جِئْتُم بِهِ ٱلسِّحْرُ ۖ إِنَّ ٱللَّهَ سَيُبْطِلُهُۥٓ ۖ إِنَّ ٱللَّهَ لَا يُصْلِحُ عَمَلَ ٱلْمُفْسِدِينَ
+- 10:82 وَيُحِقُّ ٱللَّهُ ٱلْحَقَّ بِكَلِمَٰتِهِۦ وَلَوْ كَرِهَ ٱلْمُجْرِمُونَ
+- 10:108 قُلْ يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَكُمُ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۖ وَمَآ أَنَا۠ عَلَيْكُم بِوَكِيلٍۢ
+- 10:109 وَٱتَّبِعْ مَا يُوحَىٰٓ إِلَيْكَ وَٱصْبِرْ حَتَّىٰ يَحْكُمَ ٱللَّهُ ۚ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ
+- 11:10 وَلَئِنْ أَذَقْنَٰهُ نَعْمَآءَ بَعْدَ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ ذَهَبَ ٱلسَّيِّـَٔاتُ عَنِّىٓ ۚ إِنَّهُۥ لَفَرِحٌۭ فَخُورٌ
+- 11:11 إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌۭ
+- 11:22 لَا جَرَمَ أَنَّهُمْ فِى ٱلْءَاخِرَةِ هُمُ ٱلْأَخْسَرُونَ
+- 11:23 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَأَخْبَتُوٓا۟ إِلَىٰ رَبِّهِمْ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ
+- 11:88 قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍۢ مِّن رَّبِّى وَرَزَقَنِى مِنْهُ رِزْقًا حَسَنًۭا ۚ وَمَآ أُرِيدُ أَنْ أُخَالِفَكُمْ إِلَىٰ مَآ أَنْهَىٰكُمْ عَنْهُ ۚ إِنْ أُرِيدُ إِلَّا ٱلْإِصْلَٰحَ مَا ٱسْتَطَعْتُ ۚ وَمَا تَوْفِيقِىٓ إِلَّا بِٱللَّهِ ۚ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ أُنِيبُ
+- 11:115 وَٱصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ
+- 12:9 ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًۭا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًۭا صَٰلِحِينَ
+- 12:18 وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍۢ كَذِبٍۢ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًۭا ۖ فَصَبْرٌۭ جَمِيلٌۭ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ
+- 12:90 قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ
+- 12:91 قَالُوا۟ تَٱللَّهِ لَقَدْ ءَاثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَٰطِـِٔينَ
+- 12:101 ۞ رَبِّ قَدْ ءَاتَيْتَنِى مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَٱلْءَاخِرَةِ ۖ تَوَفَّنِى مُسْلِمًۭا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ
+- 13:1 الٓمٓر ۚ تِلْكَ ءَايَٰتُ ٱلْكِتَٰبِ ۗ وَٱلَّذِىٓ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ ٱلْحَقُّ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ
+- 13:22 وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّۭا وَعَلَانِيَةًۭ وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ
+- 13:23 جَنَّٰتُ عَدْنٍۢ يَدْخُلُونَهَا وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّٰتِهِمْ ۖ وَٱلْمَلَٰٓئِكَةُ يَدْخُلُونَ عَلَيْهِم مِّن كُلِّ بَابٍۢ
+- 13:24 سَلَٰمٌ عَلَيْكُم بِمَا صَبَرْتُمْ ۚ فَنِعْمَ عُقْبَى ٱلدَّارِ
+- 13:29 ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ طُوبَىٰ لَهُمْ وَحُسْنُ مَـَٔابٍۢ
+- 14:11 قَالَتْ لَهُمْ رُسُلُهُمْ إِن نَّحْنُ إِلَّا بَشَرٌۭ مِّثْلُكُمْ وَلَٰكِنَّ ٱللَّهَ يَمُنُّ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَمَا كَانَ لَنَآ أَن نَّأْتِيَكُم بِسُلْطَٰنٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ
+- 14:12 وَمَا لَنَآ أَلَّا نَتَوَكَّلَ عَلَى ٱللَّهِ وَقَدْ هَدَىٰنَا سُبُلَنَا ۚ وَلَنَصْبِرَنَّ عَلَىٰ مَآ ءَاذَيْتُمُونَا ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُتَوَكِّلُونَ
+- 14:18 مَّثَلُ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍۢ ۖ لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍۢ ۚ ذَٰلِكَ هُوَ ٱلضَّلَٰلُ ٱلْبَعِيدُ
+- 14:19 أَلَمْ تَرَ أَنَّ ٱللَّهَ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ بِخَلْقٍۢ جَدِيدٍۢ
+- 15:55 قَالُوا۟ بَشَّرْنَٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ ٱلْقَٰنِطِينَ
+- 15:56 قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ
+- 15:93 عَمَّا كَانُوا۟ يَعْمَلُونَ
+- 16:3 خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ تَعَٰلَىٰ عَمَّا يُشْرِكُونَ
+- 16:4 خَلَقَ ٱلْإِنسَٰنَ مِن نُّطْفَةٍۢ فَإِذَا هُوَ خَصِيمٌۭ مُّبِينٌۭ
+- 16:41 وَٱلَّذِينَ هَاجَرُوا۟ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ظُلِمُوا۟ لَنُبَوِّئَنَّهُمْ فِى ٱلدُّنْيَا حَسَنَةًۭ ۖ وَلَأَجْرُ ٱلْءَاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ
+- 16:42 ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ
+- 16:90 ۞ إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ
+- 16:96 مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ ٱللَّهِ بَاقٍۢ ۗ وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ
+- 16:97 مَنْ عَمِلَ صَٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَلَنُحْيِيَنَّهُۥ حَيَوٰةًۭ طَيِّبَةًۭ ۖ وَلَنَجْزِيَنَّهُمْ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ
+- 16:101 وَإِذَا بَدَّلْنَآ ءَايَةًۭ مَّكَانَ ءَايَةٍۢ ۙ وَٱللَّهُ أَعْلَمُ بِمَا يُنَزِّلُ قَالُوٓا۟ إِنَّمَآ أَنتَ مُفْتَرٍۭ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ
+- 16:102 قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟ وَهُدًۭى وَبُشْرَىٰ لِلْمُسْلِمِينَ
+- 16:110 ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ
+- 16:119 ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ عَمِلُوا۟ ٱلسُّوٓءَ بِجَهَٰلَةٍۢ ثُمَّ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌ
+- 16:121 شَاكِرًۭا لِّأَنْعُمِهِ ۚ ٱجْتَبَىٰهُ وَهَدَىٰهُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ
+- 16:122 وَءَاتَيْنَٰهُ فِى ٱلدُّنْيَا حَسَنَةًۭ ۖ وَإِنَّهُۥ فِى ٱلْءَاخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ
+- 16:125 ٱدْعُ إِلَىٰ سَبِيلِ رَبِّكَ بِٱلْحِكْمَةِ وَٱلْمَوْعِظَةِ ٱلْحَسَنَةِ ۖ وَجَٰدِلْهُم بِٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِمَن ضَلَّ عَن سَبِيلِهِۦ ۖ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ
+- 16:126 وَإِنْ عَاقَبْتُمْ فَعَاقِبُوا۟ بِمِثْلِ مَا عُوقِبْتُم بِهِۦ ۖ وَلَئِن صَبَرْتُمْ لَهُوَ خَيْرٌۭ لِّلصَّٰبِرِينَ
+- 16:127 وَٱصْبِرْ وَمَا صَبْرُكَ إِلَّا بِٱللَّهِ ۚ وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِى ضَيْقٍۢ مِّمَّا يَمْكُرُونَ
+- 17:9 إِنَّ هَٰذَا ٱلْقُرْءَانَ يَهْدِى لِلَّتِى هِىَ أَقْوَمُ وَيُبَشِّرُ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًۭا كَبِيرًۭا
+- 17:23 ۞ وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّۢ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًۭا كَرِيمًۭا
+- 17:25 رَّبُّكُمْ أَعْلَمُ بِمَا فِى نُفُوسِكُمْ ۚ إِن تَكُونُوا۟ صَٰلِحِينَ فَإِنَّهُۥ كَانَ لِلْأَوَّٰبِينَ غَفُورًۭا
+- 17:26 وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ وَلَا تُبَذِّرْ تَبْذِيرًا
+- 17:53 وَقُل لِّعِبَادِى يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ ٱلشَّيْطَٰنَ يَنزَغُ بَيْنَهُمْ ۚ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلْإِنسَٰنِ عَدُوًّۭا مُّبِينًۭا
+- 17:81 وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًۭا
+- 17:82 وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌۭ وَرَحْمَةٌۭ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًۭا
+- 17:105 وَبِٱلْحَقِّ أَنزَلْنَٰهُ وَبِٱلْحَقِّ نَزَلَ ۗ وَمَآ أَرْسَلْنَٰكَ إِلَّا مُبَشِّرًۭا وَنَذِيرًۭا
+- 17:106 وَقُرْءَانًۭا فَرَقْنَٰهُ لِتَقْرَأَهُۥ عَلَى ٱلنَّاسِ عَلَىٰ مُكْثٍۢ وَنَزَّلْنَٰهُ تَنزِيلًۭا
+- 17:107 قُلْ ءَامِنُوا۟ بِهِۦٓ أَوْ لَا تُؤْمِنُوٓا۟ ۚ إِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ مِن قَبْلِهِۦٓ إِذَا يُتْلَىٰ عَلَيْهِمْ يَخِرُّونَ لِلْأَذْقَانِ سُجَّدًۭا
+- 18:2 قَيِّمًۭا لِّيُنذِرَ بَأْسًۭا شَدِيدًۭا مِّن لَّدُنْهُ وَيُبَشِّرَ ٱلْمُؤْمِنِينَ ٱلَّذِينَ يَعْمَلُونَ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ أَجْرًا حَسَنًۭا
+- 18:6 فَلَعَلَّكَ بَٰخِعٌۭ نَّفْسَكَ عَلَىٰٓ ءَاثَٰرِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا
+- 18:7 إِنَّا جَعَلْنَا مَا عَلَى ٱلْأَرْضِ زِينَةًۭ لَّهَا لِنَبْلُوَهُمْ أَيُّهُمْ أَحْسَنُ عَمَلًۭا
+- 18:13 نَّحْنُ نَقُصُّ عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ ۚ إِنَّهُمْ فِتْيَةٌ ءَامَنُوا۟ بِرَبِّهِمْ وَزِدْنَٰهُمْ هُدًۭى
+- 18:14 وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًۭا ۖ لَّقَدْ قُلْنَآ إِذًۭا شَطَطًا
+- 18:28 وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًۭا
+- 18:29 وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍۢ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا
+- 18:30 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ إِنَّا لَا نُضِيعُ أَجْرَ مَنْ أَحْسَنَ عَمَلًا
+- 18:67 قَالَ إِنَّكَ لَن تَسْتَطِيعَ مَعِىَ صَبْرًۭا
+- 18:68 وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًۭا
+- 18:69 قَالَ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ صَابِرًۭا وَلَآ أَعْصِى لَكَ أَمْرًۭا
+- 18:82 وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌۭ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًۭا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةًۭ مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًۭا
+- 18:88 وَأَمَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَلَهُۥ جَزَآءً ٱلْحُسْنَىٰ ۖ وَسَنَقُولُ لَهُۥ مِنْ أَمْرِنَا يُسْرًۭا
+- 18:106 ذَٰلِكَ جَزَآؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا۟ وَٱتَّخَذُوٓا۟ ءَايَٰتِى وَرُسُلِى هُزُوًا
+- 18:107 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ كَانَتْ لَهُمْ جَنَّٰتُ ٱلْفِرْدَوْسِ نُزُلًا
+- 18:110 قُلْ إِنَّمَآ أَنَا۠ بَشَرٌۭ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًۭا صَٰلِحًۭا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا
+- 19:31 وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّۭا
+- 19:59 ۞ فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا
+- 19:60 إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ شَيْـًۭٔا
+- 19:76 وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًۭى ۗ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًۭا وَخَيْرٌۭ مَّرَدًّا
+- 19:96 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّۭا
+- 20:81 كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ
+- 20:82 وَإِنِّى لَغَفَّارٌۭ لِّمَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا ثُمَّ ٱهْتَدَىٰ
+- 20:111 ۞ وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًۭا
+- 20:112 وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا يَخَافُ ظُلْمًۭا وَلَا هَضْمًۭا
+- 20:132 وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًۭا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَٰقِبَةُ لِلتَّقْوَىٰ
+- 21:72 وَوَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ نَافِلَةًۭ ۖ وَكُلًّۭا جَعَلْنَا صَٰلِحِينَ
+- 21:73 وَجَعَلْنَٰهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةِ وَإِيتَآءَ ٱلزَّكَوٰةِ ۖ وَكَانُوا۟ لَنَا عَٰبِدِينَ
+- 21:85 وَإِسْمَٰعِيلَ وَإِدْرِيسَ وَذَا ٱلْكِفْلِ ۖ كُلٌّۭ مِّنَ ٱلصَّٰبِرِينَ
+- 21:86 وَأَدْخَلْنَٰهُمْ فِى رَحْمَتِنَآ ۖ إِنَّهُم مِّنَ ٱلصَّٰلِحِينَ
+- 21:89 وَزَكَرِيَّآ إِذْ نَادَىٰ رَبَّهُۥ رَبِّ لَا تَذَرْنِى فَرْدًۭا وَأَنتَ خَيْرُ ٱلْوَٰرِثِينَ
+- 21:90 فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًۭا وَرَهَبًۭا ۖ وَكَانُوا۟ لَنَا خَٰشِعِينَ
+- 21:94 فَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌۭ فَلَا كُفْرَانَ لِسَعْيِهِۦ وَإِنَّا لَهُۥ كَٰتِبُونَ
+- 22:35 ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَٱلصَّٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمْ وَٱلْمُقِيمِى ٱلصَّلَوٰةِ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
+- 22:50 فَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُم مَّغْفِرَةٌۭ وَرِزْقٌۭ كَرِيمٌۭ
+- 22:77 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩
+- 22:78 وَجَٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍۢ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ
+- 23:8 وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ
+- 23:51 يَٰٓأَيُّهَا ٱلرُّسُلُ كُلُوا۟ مِنَ ٱلطَّيِّبَٰتِ وَٱعْمَلُوا۟ صَٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ عَلِيمٌۭ
+- 23:52 وَإِنَّ هَٰذِهِۦٓ أُمَّتُكُمْ أُمَّةًۭ وَٰحِدَةًۭ وَأَنَا۠ رَبُّكُمْ فَٱتَّقُونِ
+- 23:99 حَتَّىٰٓ إِذَا جَآءَ أَحَدَهُمُ ٱلْمَوْتُ قَالَ رَبِّ ٱرْجِعُونِ
+- 23:100 لَعَلِّىٓ أَعْمَلُ صَٰلِحًۭا فِيمَا تَرَكْتُ ۚ كَلَّآ ۚ إِنَّهَا كَلِمَةٌ هُوَ قَآئِلُهَا ۖ وَمِن وَرَآئِهِم بَرْزَخٌ إِلَىٰ يَوْمِ يُبْعَثُونَ
+- 23:110 فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ تَضْحَكُونَ
+- 23:111 إِنِّى جَزَيْتُهُمُ ٱلْيَوْمَ بِمَا صَبَرُوٓا۟ أَنَّهُمْ هُمُ ٱلْفَآئِزُونَ
+- 24:4 وَٱلَّذِينَ يَرْمُونَ ٱلْمُحْصَنَٰتِ ثُمَّ لَمْ يَأْتُوا۟ بِأَرْبَعَةِ شُهَدَآءَ فَٱجْلِدُوهُمْ ثَمَٰنِينَ جَلْدَةًۭ وَلَا تَقْبَلُوا۟ لَهُمْ شَهَٰدَةً أَبَدًۭا ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْفَٰسِقُونَ
+- 24:5 إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ
+- 24:22 وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌۭ رَّحِيمٌ
+- 25:33 وَلَا يَأْتُونَكَ بِمَثَلٍ إِلَّا جِئْنَٰكَ بِٱلْحَقِّ وَأَحْسَنَ تَفْسِيرًا
+- 25:63 وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًۭا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًۭا
+- 25:67 وَٱلَّذِينَ إِذَآ أَنفَقُوا۟ لَمْ يُسْرِفُوا۟ وَلَمْ يَقْتُرُوا۟ وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًۭا
+- 25:69 يُضَٰعَفْ لَهُ ٱلْعَذَابُ يَوْمَ ٱلْقِيَٰمَةِ وَيَخْلُدْ فِيهِۦ مُهَانًا
+- 25:70 إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ عَمَلًۭا صَٰلِحًۭا فَأُو۟لَٰٓئِكَ يُبَدِّلُ ٱللَّهُ سَيِّـَٔاتِهِمْ حَسَنَٰتٍۢ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۭا
+- 25:71 وَمَن تَابَ وَعَمِلَ صَٰلِحًۭا فَإِنَّهُۥ يَتُوبُ إِلَى ٱللَّهِ مَتَابًۭا
+- 25:72 وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ كِرَامًۭا
+- 26:83 رَبِّ هَبْ لِى حُكْمًۭا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ
+- 26:84 وَٱجْعَل لِّى لِسَانَ صِدْقٍۢ فِى ٱلْءَاخِرِينَ
+- 26:142 إِذْ قَالَ لَهُمْ أَخُوهُمْ صَٰلِحٌ أَلَا تَتَّقُونَ
+- 26:151 وَلَا تُطِيعُوٓا۟ أَمْرَ ٱلْمُسْرِفِينَ
+- 26:152 ٱلَّذِينَ يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ
+- 26:226 وَأَنَّهُمْ يَقُولُونَ مَا لَا يَفْعَلُونَ
+- 26:227 إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَذَكَرُوا۟ ٱللَّهَ كَثِيرًۭا وَٱنتَصَرُوا۟ مِنۢ بَعْدِ مَا ظُلِمُوا۟ ۗ وَسَيَعْلَمُ ٱلَّذِينَ ظَلَمُوٓا۟ أَىَّ مُنقَلَبٍۢ يَنقَلِبُونَ
+- 27:18 حَتَّىٰٓ إِذَآ أَتَوْا۟ عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌۭ يَٰٓأَيُّهَا ٱلنَّمْلُ ٱدْخُلُوا۟ مَسَٰكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَٰنُ وَجُنُودُهُۥ وَهُمْ لَا يَشْعُرُونَ
+- 27:19 فَتَبَسَّمَ ضَاحِكًۭا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ
+- 27:48 وَكَانَ فِى ٱلْمَدِينَةِ تِسْعَةُ رَهْطٍۢ يُفْسِدُونَ فِى ٱلْأَرْضِ وَلَا يُصْلِحُونَ
+- 27:49 قَالُوا۟ تَقَاسَمُوا۟ بِٱللَّهِ لَنُبَيِّتَنَّهُۥ وَأَهْلَهُۥ ثُمَّ لَنَقُولَنَّ لِوَلِيِّهِۦ مَا شَهِدْنَا مَهْلِكَ أَهْلِهِۦ وَإِنَّا لَصَٰدِقُونَ
+- 28:19 فَلَمَّآ أَنْ أَرَادَ أَن يَبْطِشَ بِٱلَّذِى هُوَ عَدُوٌّۭ لَّهُمَا قَالَ يَٰمُوسَىٰٓ أَتُرِيدُ أَن تَقْتُلَنِى كَمَا قَتَلْتَ نَفْسًۢا بِٱلْأَمْسِ ۖ إِن تُرِيدُ إِلَّآ أَن تَكُونَ جَبَّارًۭا فِى ٱلْأَرْضِ وَمَا تُرِيدُ أَن تَكُونَ مِنَ ٱلْمُصْلِحِينَ
+- 28:20 وَجَآءَ رَجُلٌۭ مِّنْ أَقْصَا ٱلْمَدِينَةِ يَسْعَىٰ قَالَ يَٰمُوسَىٰٓ إِنَّ ٱلْمَلَأَ يَأْتَمِرُونَ بِكَ لِيَقْتُلُوكَ فَٱخْرُجْ إِنِّى لَكَ مِنَ ٱلنَّٰصِحِينَ
+- 28:26 قَالَتْ إِحْدَىٰهُمَا يَٰٓأَبَتِ ٱسْتَـْٔجِرْهُ ۖ إِنَّ خَيْرَ مَنِ ٱسْتَـْٔجَرْتَ ٱلْقَوِىُّ ٱلْأَمِينُ
+- 28:27 قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَٰتَيْنِ عَلَىٰٓ أَن تَأْجُرَنِى ثَمَٰنِىَ حِجَجٍۢ ۖ فَإِنْ أَتْمَمْتَ عَشْرًۭا فَمِنْ عِندِكَ ۖ وَمَآ أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ ۚ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰلِحِينَ
+- 28:66 فَعَمِيَتْ عَلَيْهِمُ ٱلْأَنۢبَآءُ يَوْمَئِذٍۢ فَهُمْ لَا يَتَسَآءَلُونَ
+- 28:67 فَأَمَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَٰلِحًۭا فَعَسَىٰٓ أَن يَكُونَ مِنَ ٱلْمُفْلِحِينَ
+- 28:79 فَخَرَجَ عَلَىٰ قَوْمِهِۦ فِى زِينَتِهِۦ ۖ قَالَ ٱلَّذِينَ يُرِيدُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا يَٰلَيْتَ لَنَا مِثْلَ مَآ أُوتِىَ قَٰرُونُ إِنَّهُۥ لَذُو حَظٍّ عَظِيمٍۢ
+- 28:80 وَقَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ وَيْلَكُمْ ثَوَابُ ٱللَّهِ خَيْرٌۭ لِّمَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا وَلَا يُلَقَّىٰهَآ إِلَّا ٱلصَّٰبِرُونَ
+- 29:2 أَحَسِبَ ٱلنَّاسُ أَن يُتْرَكُوٓا۟ أَن يَقُولُوٓا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ
+- 29:3 وَلَقَدْ فَتَنَّا ٱلَّذِينَ مِن قَبْلِهِمْ ۖ فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟ وَلَيَعْلَمَنَّ ٱلْكَٰذِبِينَ
+- 29:7 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ
+- 29:8 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ حُسْنًۭا ۖ وَإِن جَٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ فَلَا تُطِعْهُمَآ ۚ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 29:9 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَنُدْخِلَنَّهُمْ فِى ٱلصَّٰلِحِينَ
+- 29:10 وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ فَإِذَآ أُوذِىَ فِى ٱللَّهِ جَعَلَ فِتْنَةَ ٱلنَّاسِ كَعَذَابِ ٱللَّهِ وَلَئِن جَآءَ نَصْرٌۭ مِّن رَّبِّكَ لَيَقُولُنَّ إِنَّا كُنَّا مَعَكُمْ ۚ أَوَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِمَا فِى صُدُورِ ٱلْعَٰلَمِينَ
+- 29:30 قَالَ رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ
+- 29:36 وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًۭا فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ ٱلْءَاخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ
+- 29:37 فَكَذَّبُوهُ فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَٰثِمِينَ
+- 29:44 خَلَقَ ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةًۭ لِّلْمُؤْمِنِينَ
+- 29:45 ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ
+- 29:58 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَنُبَوِّئَنَّهُم مِّنَ ٱلْجَنَّةِ غُرَفًۭا تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا ۚ نِعْمَ أَجْرُ ٱلْعَٰمِلِينَ
+- 29:59 ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ
+- 30:15 فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَهُمْ فِى رَوْضَةٍۢ يُحْبَرُونَ
+- 30:44 مَن كَفَرَ فَعَلَيْهِ كُفْرُهُۥ ۖ وَمَنْ عَمِلَ صَٰلِحًۭا فَلِأَنفُسِهِمْ يَمْهَدُونَ
+- 30:45 لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْكَٰفِرِينَ
+- 30:60 فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ ۖ وَلَا يَسْتَخِفَّنَّكَ ٱلَّذِينَ لَا يُوقِنُونَ
+- 31:8 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ جَنَّٰتُ ٱلنَّعِيمِ
+- 31:9 خَٰلِدِينَ فِيهَا ۖ وَعْدَ ٱللَّهِ حَقًّۭا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ
+- 31:14 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ حَمَلَتْهُ أُمُّهُۥ وَهْنًا عَلَىٰ وَهْنٍۢ وَفِصَٰلُهُۥ فِى عَامَيْنِ أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ إِلَىَّ ٱلْمَصِيرُ
+- 31:15 وَإِن جَٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌۭ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًۭا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ
+- 31:17 يَٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ
+- 31:30 ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ ٱلْبَٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ
+- 31:31 أَلَمْ تَرَ أَنَّ ٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِنِعْمَتِ ٱللَّهِ لِيُرِيَكُم مِّنْ ءَايَٰتِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍۢ لِّكُلِّ صَبَّارٍۢ شَكُورٍۢ
+- 31:33 يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمْ وَٱخْشَوْا۟ يَوْمًۭا لَّا يَجْزِى وَالِدٌ عَن وَلَدِهِۦ وَلَا مَوْلُودٌ هُوَ جَازٍ عَن وَالِدِهِۦ شَيْـًٔا ۚ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ ۖ فَلَا تَغُرَّنَّكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَلَا يَغُرَّنَّكُم بِٱللَّهِ ٱلْغَرُورُ
+- 32:18 أَفَمَن كَانَ مُؤْمِنًۭا كَمَن كَانَ فَاسِقًۭا ۚ لَّا يَسْتَوُۥنَ
+- 32:19 أَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ جَنَّٰتُ ٱلْمَأْوَىٰ نُزُلًۢا بِمَا كَانُوا۟ يَعْمَلُونَ
+- 32:24 وَجَعَلْنَا مِنْهُمْ أَئِمَّةًۭ يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟ ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا يُوقِنُونَ
+- 33:31 ۞ وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ وَتَعْمَلْ صَٰلِحًۭا نُّؤْتِهَآ أَجْرَهَا مَرَّتَيْنِ وَأَعْتَدْنَا لَهَا رِزْقًۭا كَرِيمًۭا
+- 33:35 إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ وَٱلصَّٰدِقِينَ وَٱلصَّٰدِقَٰتِ وَٱلصَّٰبِرِينَ وَٱلصَّٰبِرَٰتِ وَٱلْخَٰشِعِينَ وَٱلْخَٰشِعَٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَٰتِ وَٱلصَّٰٓئِمِينَ وَٱلصَّٰٓئِمَٰتِ وَٱلْحَٰفِظِينَ فُرُوجَهُمْ وَٱلْحَٰفِظَٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًۭا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةًۭ وَأَجْرًا عَظِيمًۭا
+- 33:70 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَقُولُوا۟ قَوْلًۭا سَدِيدًۭا
+- 33:71 يُصْلِحْ لَكُمْ أَعْمَٰلَكُمْ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ فَقَدْ فَازَ فَوْزًا عَظِيمًا
+- 33:72 إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا ٱلْإِنسَٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًۭا جَهُولًۭا
+- 33:73 لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًۭا رَّحِيمًۢا
+- 34:6 وَيَرَى ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ٱلَّذِىٓ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ هُوَ ٱلْحَقَّ وَيَهْدِىٓ إِلَىٰ صِرَٰطِ ٱلْعَزِيزِ ٱلْحَمِيدِ
+- 34:13 يَعْمَلُونَ لَهُۥ مَا يَشَآءُ مِن مَّحَٰرِيبَ وَتَمَٰثِيلَ وَجِفَانٍۢ كَٱلْجَوَابِ وَقُدُورٍۢ رَّاسِيَٰتٍ ۚ ٱعْمَلُوٓا۟ ءَالَ دَاوُۥدَ شُكْرًۭا ۚ وَقَلِيلٌۭ مِّنْ عِبَادِىَ ٱلشَّكُورُ
+- 34:26 قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِٱلْحَقِّ وَهُوَ ٱلْفَتَّاحُ ٱلْعَلِيمُ
+- 34:37 وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰٓ إِلَّا مَنْ ءَامَنَ وَعَمِلَ صَٰلِحًۭا فَأُو۟لَٰٓئِكَ لَهُمْ جَزَآءُ ٱلضِّعْفِ بِمَا عَمِلُوا۟ وَهُمْ فِى ٱلْغُرُفَٰتِ ءَامِنُونَ
+- 35:7 ٱلَّذِينَ كَفَرُوا۟ لَهُمْ عَذَابٌۭ شَدِيدٌۭ ۖ وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُم مَّغْفِرَةٌۭ وَأَجْرٌۭ كَبِيرٌ
+- 35:10 مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌۭ شَدِيدٌۭ ۖ وَمَكْرُ أُو۟لَٰٓئِكَ هُوَ يَبُورُ
+- 36:50 فَلَا يَسْتَطِيعُونَ تَوْصِيَةًۭ وَلَآ إِلَىٰٓ أَهْلِهِمْ يَرْجِعُونَ
+- 37:30 وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًۭا طَٰغِينَ
+- 37:31 فَحَقَّ عَلَيْنَا قَوْلُ رَبِّنَآ ۖ إِنَّا لَذَآئِقُونَ
+- 37:32 فَأَغْوَيْنَٰكُمْ إِنَّا كُنَّا غَٰوِينَ
+- 37:36 وَيَقُولُونَ أَئِنَّا لَتَارِكُوٓا۟ ءَالِهَتِنَا لِشَاعِرٍۢ مَّجْنُونٍۭ
+- 37:37 بَلْ جَآءَ بِٱلْحَقِّ وَصَدَّقَ ٱلْمُرْسَلِينَ
+- 37:95 قَالَ أَتَعْبُدُونَ مَا تَنْحِتُونَ
+- 37:96 وَٱللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ
+- 37:100 رَبِّ هَبْ لِى مِنَ ٱلصَّٰلِحِينَ
+- 37:111 إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُؤْمِنِينَ
+- 37:112 وَبَشَّرْنَٰهُ بِإِسْحَٰقَ نَبِيًّۭا مِّنَ ٱلصَّٰلِحِينَ
+- 38:23 إِنَّ هَٰذَآ أَخِى لَهُۥ تِسْعٌۭ وَتِسْعُونَ نَعْجَةًۭ وَلِىَ نَعْجَةٌۭ وَٰحِدَةٌۭ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى ٱلْخِطَابِ
+- 38:24 قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًۭا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَقَلِيلٌۭ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًۭا وَأَنَابَ ۩
+- 38:28 أَمْ نَجْعَلُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ كَٱلْمُفْسِدِينَ فِى ٱلْأَرْضِ أَمْ نَجْعَلُ ٱلْمُتَّقِينَ كَٱلْفُجَّارِ
+- 39:10 قُلْ يَٰعِبَادِ ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ رَبَّكُمْ ۚ لِلَّذِينَ أَحْسَنُوا۟ فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةٌۭ ۗ وَأَرْضُ ٱللَّهِ وَٰسِعَةٌ ۗ إِنَّمَا يُوَفَّى ٱلصَّٰبِرُونَ أَجْرَهُم بِغَيْرِ حِسَابٍۢ
+- 39:33 وَٱلَّذِى جَآءَ بِٱلصِّدْقِ وَصَدَّقَ بِهِۦٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ
+- 39:53 ۞ قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ
+- 39:54 وَأَنِيبُوٓا۟ إِلَىٰ رَبِّكُمْ وَأَسْلِمُوا۟ لَهُۥ مِن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ ثُمَّ لَا تُنصَرُونَ
+- 40:25 فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ وَٱسْتَحْيُوا۟ نِسَآءَهُمْ ۚ وَمَا كَيْدُ ٱلْكَٰفِرِينَ إِلَّا فِى ضَلَٰلٍۢ
+- 40:40 مَنْ عَمِلَ سَيِّئَةًۭ فَلَا يُجْزَىٰٓ إِلَّا مِثْلَهَا ۖ وَمَنْ عَمِلَ صَٰلِحًۭا مِّن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ يُرْزَقُونَ فِيهَا بِغَيْرِ حِسَابٍۢ
+- 40:55 فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ بِٱلْعَشِىِّ وَٱلْإِبْكَٰرِ
+- 40:58 وَمَا يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَلَا ٱلْمُسِىٓءُ ۚ قَلِيلًۭا مَّا تَتَذَكَّرُونَ
+- 40:77 فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ ۚ فَإِمَّا نُرِيَنَّكَ بَعْضَ ٱلَّذِى نَعِدُهُمْ أَوْ نَتَوَفَّيَنَّكَ فَإِلَيْنَا يُرْجَعُونَ
+- 41:24 فَإِن يَصْبِرُوا۟ فَٱلنَّارُ مَثْوًۭى لَّهُمْ ۖ وَإِن يَسْتَعْتِبُوا۟ فَمَا هُم مِّنَ ٱلْمُعْتَبِينَ
+- 41:33 وَمَنْ أَحْسَنُ قَوْلًۭا مِّمَّن دَعَآ إِلَى ٱللَّهِ وَعَمِلَ صَٰلِحًۭا وَقَالَ إِنَّنِى مِنَ ٱلْمُسْلِمِينَ
+- 41:34 وَلَا تَسْتَوِى ٱلْحَسَنَةُ وَلَا ٱلسَّيِّئَةُ ۚ ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ فَإِذَا ٱلَّذِى بَيْنَكَ وَبَيْنَهُۥ عَدَٰوَةٌۭ كَأَنَّهُۥ وَلِىٌّ حَمِيمٌۭ
+- 41:35 وَمَا يُلَقَّىٰهَآ إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَمَا يُلَقَّىٰهَآ إِلَّا ذُو حَظٍّ عَظِيمٍۢ
+- 41:46 مَّنْ عَمِلَ صَٰلِحًۭا فَلِنَفْسِهِۦ ۖ وَمَنْ أَسَآءَ فَعَلَيْهَا ۗ وَمَا رَبُّكَ بِظَلَّٰمٍۢ لِّلْعَبِيدِ
+- 42:13 ۞ شَرَعَ لَكُم مِّنَ ٱلدِّينِ مَا وَصَّىٰ بِهِۦ نُوحًۭا وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَمَا وَصَّيْنَا بِهِۦٓ إِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓ ۖ أَنْ أَقِيمُوا۟ ٱلدِّينَ وَلَا تَتَفَرَّقُوا۟ فِيهِ ۚ كَبُرَ عَلَى ٱلْمُشْرِكِينَ مَا تَدْعُوهُمْ إِلَيْهِ ۚ ٱللَّهُ يَجْتَبِىٓ إِلَيْهِ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَن يُنِيبُ
+- 42:17 ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَٰبَ بِٱلْحَقِّ وَٱلْمِيزَانَ ۗ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ قَرِيبٌۭ
+- 42:26 وَيَسْتَجِيبُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۚ وَٱلْكَٰفِرُونَ لَهُمْ عَذَابٌۭ شَدِيدٌۭ
+- 42:38 وَٱلَّذِينَ ٱسْتَجَابُوا۟ لِرَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ
+- 42:40 وَجَزَٰٓؤُا۟ سَيِّئَةٍۢ سَيِّئَةٌۭ مِّثْلُهَا ۖ فَمَنْ عَفَا وَأَصْلَحَ فَأَجْرُهُۥ عَلَى ٱللَّهِ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلظَّٰلِمِينَ
+- 42:42 إِنَّمَا ٱلسَّبِيلُ عَلَى ٱلَّذِينَ يَظْلِمُونَ ٱلنَّاسَ وَيَبْغُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌۭ
+- 42:43 وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ ٱلْأُمُورِ
+- 43:29 بَلْ مَتَّعْتُ هَٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ جَآءَهُمُ ٱلْحَقُّ وَرَسُولٌۭ مُّبِينٌۭ
+- 43:30 وَلَمَّا جَآءَهُمُ ٱلْحَقُّ قَالُوا۟ هَٰذَا سِحْرٌۭ وَإِنَّا بِهِۦ كَٰفِرُونَ
+- 43:72 وَتِلْكَ ٱلْجَنَّةُ ٱلَّتِىٓ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ
+- 43:78 لَقَدْ جِئْنَٰكُم بِٱلْحَقِّ وَلَٰكِنَّ أَكْثَرَكُمْ لِلْحَقِّ كَٰرِهُونَ
+- 43:86 وَلَا يَمْلِكُ ٱلَّذِينَ يَدْعُونَ مِن دُونِهِ ٱلشَّفَٰعَةَ إِلَّا مَن شَهِدَ بِٱلْحَقِّ وَهُمْ يَعْلَمُونَ
+- 44:39 مَا خَلَقْنَٰهُمَآ إِلَّا بِٱلْحَقِّ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ
+- 45:14 قُل لِّلَّذِينَ ءَامَنُوا۟ يَغْفِرُوا۟ لِلَّذِينَ لَا يَرْجُونَ أَيَّامَ ٱللَّهِ لِيَجْزِىَ قَوْمًۢا بِمَا كَانُوا۟ يَكْسِبُونَ
+- 46:3 مَا خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ وَأَجَلٍۢ مُّسَمًّۭى ۚ وَٱلَّذِينَ كَفَرُوا۟ عَمَّآ أُنذِرُوا۟ مُعْرِضُونَ
+- 46:13 إِنَّ ٱلَّذِينَ قَالُوا۟ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَٰمُوا۟ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ
+- 46:15 وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًۭا وَوَضَعَتْهُ كُرْهًۭا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةًۭ قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًۭا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ
+- 46:17 وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّۢ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ ءَامِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّۭ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ
+- 46:18 أُو۟لَٰٓئِكَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍۢ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ
+- 46:35 فَٱصْبِرْ كَمَا صَبَرَ أُو۟لُوا۟ ٱلْعَزْمِ مِنَ ٱلرُّسُلِ وَلَا تَسْتَعْجِل لَّهُمْ ۚ كَأَنَّهُمْ يَوْمَ يَرَوْنَ مَا يُوعَدُونَ لَمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةًۭ مِّن نَّهَارٍۭ ۚ بَلَٰغٌۭ ۚ فَهَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلْفَٰسِقُونَ
+- 47:2 وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَءَامَنُوا۟ بِمَا نُزِّلَ عَلَىٰ مُحَمَّدٍۢ وَهُوَ ٱلْحَقُّ مِن رَّبِّهِمْ ۙ كَفَّرَ عَنْهُمْ سَيِّـَٔاتِهِمْ وَأَصْلَحَ بَالَهُمْ
+- 47:3 ذَٰلِكَ بِأَنَّ ٱلَّذِينَ كَفَرُوا۟ ٱتَّبَعُوا۟ ٱلْبَٰطِلَ وَأَنَّ ٱلَّذِينَ ءَامَنُوا۟ ٱتَّبَعُوا۟ ٱلْحَقَّ مِن رَّبِّهِمْ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ لِلنَّاسِ أَمْثَٰلَهُمْ
+- 47:5 سَيَهْدِيهِمْ وَيُصْلِحُ بَالَهُمْ
+- 47:7 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تَنصُرُوا۟ ٱللَّهَ يَنصُرْكُمْ وَيُثَبِّتْ أَقْدَامَكُمْ
+- 47:21 طَاعَةٌۭ وَقَوْلٌۭ مَّعْرُوفٌۭ ۚ فَإِذَا عَزَمَ ٱلْأَمْرُ فَلَوْ صَدَقُوا۟ ٱللَّهَ لَكَانَ خَيْرًۭا لَّهُمْ
+- 47:31 وَلَنَبْلُوَنَّكُمْ حَتَّىٰ نَعْلَمَ ٱلْمُجَٰهِدِينَ مِنكُمْ وَٱلصَّٰبِرِينَ وَنَبْلُوَا۟ أَخْبَارَكُمْ
+- 48:26 إِذْ جَعَلَ ٱلَّذِينَ كَفَرُوا۟ فِى قُلُوبِهِمُ ٱلْحَمِيَّةَ حَمِيَّةَ ٱلْجَٰهِلِيَّةِ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَلْزَمَهُمْ كَلِمَةَ ٱلتَّقْوَىٰ وَكَانُوٓا۟ أَحَقَّ بِهَا وَأَهْلَهَا ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًۭا
+- 48:29 مُّحَمَّدٌۭ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًۭا سُجَّدًۭا يَبْتَغُونَ فَضْلًۭا مِّنَ ٱللَّهِ وَرِضْوَٰنًۭا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةًۭ وَأَجْرًا عَظِيمًۢا
+- 49:6 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن جَآءَكُمْ فَاسِقٌۢ بِنَبَإٍۢ فَتَبَيَّنُوٓا۟ أَن تُصِيبُوا۟ قَوْمًۢا بِجَهَٰلَةٍۢ فَتُصْبِحُوا۟ عَلَىٰ مَا فَعَلْتُمْ نَٰدِمِينَ
+- 49:7 وَٱعْلَمُوٓا۟ أَنَّ فِيكُمْ رَسُولَ ٱللَّهِ ۚ لَوْ يُطِيعُكُمْ فِى كَثِيرٍۢ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ ٱلْكُفْرَ وَٱلْفُسُوقَ وَٱلْعِصْيَانَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلرَّٰشِدُونَ
+- 49:9 وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى ٱلْأُخْرَىٰ فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ
+- 49:10 إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌۭ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ
+- 49:11 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَسْخَرْ قَوْمٌۭ مِّن قَوْمٍ عَسَىٰٓ أَن يَكُونُوا۟ خَيْرًۭا مِّنْهُمْ وَلَا نِسَآءٌۭ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيْرًۭا مِّنْهُنَّ ۖ وَلَا تَلْمِزُوٓا۟ أَنفُسَكُمْ وَلَا تَنَابَزُوا۟ بِٱلْأَلْقَٰبِ ۖ بِئْسَ ٱلِٱسْمُ ٱلْفُسُوقُ بَعْدَ ٱلْإِيمَٰنِ ۚ وَمَن لَّمْ يَتُبْ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ
+- 49:13 يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَٰكُم مِّن ذَكَرٍۢ وَأُنثَىٰ وَجَعَلْنَٰكُمْ شُعُوبًۭا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۭ
+- 49:15 إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ثُمَّ لَمْ يَرْتَابُوا۟ وَجَٰهَدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلصَّٰدِقُونَ
+- 50:5 بَلْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ فَهُمْ فِىٓ أَمْرٍۢ مَّرِيجٍ
+- 51:52 كَذَٰلِكَ مَآ أَتَى ٱلَّذِينَ مِن قَبْلِهِم مِّن رَّسُولٍ إِلَّا قَالُوا۟ سَاحِرٌ أَوْ مَجْنُونٌ
+- 51:53 أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌۭ طَاغُونَ
+- 52:16 ٱصْلَوْهَا فَٱصْبِرُوٓا۟ أَوْ لَا تَصْبِرُوا۟ سَوَآءٌ عَلَيْكُمْ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ
+- 52:48 وَٱصْبِرْ لِحُكْمِ رَبِّكَ فَإِنَّكَ بِأَعْيُنِنَا ۖ وَسَبِّحْ بِحَمْدِ رَبِّكَ حِينَ تَقُومُ
+- 53:28 وَمَا لَهُم بِهِۦ مِنْ عِلْمٍ ۖ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ ۖ وَإِنَّ ٱلظَّنَّ لَا يُغْنِى مِنَ ٱلْحَقِّ شَيْـًۭٔا
+- 56:24 جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ
+- 57:25 لَقَدْ أَرْسَلْنَا رُسُلَنَا بِٱلْبَيِّنَٰتِ وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَٰبَ وَٱلْمِيزَانَ لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌۭ شَدِيدٌۭ وَمَنَٰفِعُ لِلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ مَن يَنصُرُهُۥ وَرُسُلَهُۥ بِٱلْغَيْبِ ۚ إِنَّ ٱللَّهَ قَوِىٌّ عَزِيزٌۭ
+- 58:8 أَلَمْ تَرَ إِلَى ٱلَّذِينَ نُهُوا۟ عَنِ ٱلنَّجْوَىٰ ثُمَّ يَعُودُونَ لِمَا نُهُوا۟ عَنْهُ وَيَتَنَٰجَوْنَ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَإِذَا جَآءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ ٱللَّهُ وَيَقُولُونَ فِىٓ أَنفُسِهِمْ لَوْلَا يُعَذِّبُنَا ٱللَّهُ بِمَا نَقُولُ ۚ حَسْبُهُمْ جَهَنَّمُ يَصْلَوْنَهَا ۖ فَبِئْسَ ٱلْمَصِيرُ
+- 58:9 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا تَنَٰجَيْتُمْ فَلَا تَتَنَٰجَوْا۟ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَتَنَٰجَوْا۟ بِٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ
+- 59:9 وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ حَاجَةًۭ مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 59:10 وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّۭا لِّلَّذِينَ ءَامَنُوا۟ رَبَّنَآ إِنَّكَ رَءُوفٌۭ رَّحِيمٌ
+- 59:11 ۞ أَلَمْ تَرَ إِلَى ٱلَّذِينَ نَافَقُوا۟ يَقُولُونَ لِإِخْوَٰنِهِمُ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًۭا وَإِن قُوتِلْتُمْ لَنَنصُرَنَّكُمْ وَٱللَّهُ يَشْهَدُ إِنَّهُمْ لَكَٰذِبُونَ
+- 60:10 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا جَآءَكُمُ ٱلْمُؤْمِنَٰتُ مُهَٰجِرَٰتٍۢ فَٱمْتَحِنُوهُنَّ ۖ ٱللَّهُ أَعْلَمُ بِإِيمَٰنِهِنَّ ۖ فَإِنْ عَلِمْتُمُوهُنَّ مُؤْمِنَٰتٍۢ فَلَا تَرْجِعُوهُنَّ إِلَى ٱلْكُفَّارِ ۖ لَا هُنَّ حِلٌّۭ لَّهُمْ وَلَا هُمْ يَحِلُّونَ لَهُنَّ ۖ وَءَاتُوهُم مَّآ أَنفَقُوا۟ ۚ وَلَا جُنَاحَ عَلَيْكُمْ أَن تَنكِحُوهُنَّ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ ۚ وَلَا تُمْسِكُوا۟ بِعِصَمِ ٱلْكَوَافِرِ وَسْـَٔلُوا۟ مَآ أَنفَقْتُمْ وَلْيَسْـَٔلُوا۟ مَآ أَنفَقُوا۟ ۚ ذَٰلِكُمْ حُكْمُ ٱللَّهِ ۖ يَحْكُمُ بَيْنَكُمْ ۚ وَٱللَّهُ عَلِيمٌ حَكِيمٌۭ
+- 61:2 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ
+- 61:9 هُوَ ٱلَّذِىٓ أَرْسَلَ رَسُولَهُۥ بِٱلْهُدَىٰ وَدِينِ ٱلْحَقِّ لِيُظْهِرَهُۥ عَلَى ٱلدِّينِ كُلِّهِۦ وَلَوْ كَرِهَ ٱلْمُشْرِكُونَ
+- 63:11 وَلَن يُؤَخِّرَ ٱللَّهُ نَفْسًا إِذَا جَآءَ أَجَلُهَا ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ
+- 64:2 هُوَ ٱلَّذِى خَلَقَكُمْ فَمِنكُمْ كَافِرٌۭ وَمِنكُم مُّؤْمِنٌۭ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ
+- 64:16 فَٱتَّقُوا۟ ٱللَّهَ مَا ٱسْتَطَعْتُمْ وَٱسْمَعُوا۟ وَأَطِيعُوا۟ وَأَنفِقُوا۟ خَيْرًۭا لِّأَنفُسِكُمْ ۗ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ
+- 66:6 يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًۭا وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ عَلَيْهَا مَلَٰٓئِكَةٌ غِلَاظٌۭ شِدَادٌۭ لَّا يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ
+- 66:10 ضَرَبَ ٱللَّهُ مَثَلًۭا لِّلَّذِينَ كَفَرُوا۟ ٱمْرَأَتَ نُوحٍۢ وَٱمْرَأَتَ لُوطٍۢ ۖ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَٰلِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْـًۭٔا وَقِيلَ ٱدْخُلَا ٱلنَّارَ مَعَ ٱلدَّٰخِلِينَ
+- 66:11 وَضَرَبَ ٱللَّهُ مَثَلًۭا لِّلَّذِينَ ءَامَنُوا۟ ٱمْرَأَتَ فِرْعَوْنَ إِذْ قَالَتْ رَبِّ ٱبْنِ لِى عِندَكَ بَيْتًۭا فِى ٱلْجَنَّةِ وَنَجِّنِى مِن فِرْعَوْنَ وَعَمَلِهِۦ وَنَجِّنِى مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ
+- 68:48 فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌۭ
+- 68:50 فَٱجْتَبَٰهُ رَبُّهُۥ فَجَعَلَهُۥ مِنَ ٱلصَّٰلِحِينَ
+- 69:1 ٱلْحَآقَّةُ
+- 69:2 مَا ٱلْحَآقَّةُ
+- 69:3 وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ
+- 69:51 وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ
+- 70:5 فَٱصْبِرْ صَبْرًۭا جَمِيلًا
+- 70:22 إِلَّا ٱلْمُصَلِّينَ
+- 70:23 ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ
+- 70:24 وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّۭ مَّعْلُومٌۭ
+- 70:25 لِّلسَّآئِلِ وَٱلْمَحْرُومِ
+- 70:32 وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ
+- 70:33 وَٱلَّذِينَ هُم بِشَهَٰدَٰتِهِمْ قَآئِمُونَ
+- 72:11 وَأَنَّا مِنَّا ٱلصَّٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ قِدَدًۭا
+- 73:10 وَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱهْجُرْهُمْ هَجْرًۭا جَمِيلًۭا
+- 74:7 وَلِرَبِّكَ فَٱصْبِرْ
+- 76:8 وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًۭا وَيَتِيمًۭا وَأَسِيرًا
+- 76:9 إِنَّمَا نُطْعِمُكُمْ لِوَجْهِ ٱللَّهِ لَا نُرِيدُ مِنكُمْ جَزَآءًۭ وَلَا شُكُورًا
+- 76:12 وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةًۭ وَحَرِيرًۭا
+- 76:24 فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تُطِعْ مِنْهُمْ ءَاثِمًا أَوْ كَفُورًۭا
+- 78:24 لَّا يَذُوقُونَ فِيهَا بَرْدًۭا وَلَا شَرَابًا
+- 78:25 إِلَّا حَمِيمًۭا وَغَسَّاقًۭا
+- 78:26 جَزَآءًۭ وِفَاقًا
+- 84:2 وَأَذِنَتْ لِرَبِّهَا وَحُقَّتْ
+- 84:25 إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ
+- 88:2 وُجُوهٌۭ يَوْمَئِذٍ خَٰشِعَةٌ
+- 88:3 عَامِلَةٌۭ نَّاصِبَةٌۭ
+- 88:4 تَصْلَىٰ نَارًا حَامِيَةًۭ
+- 90:4 لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ
+- 90:6 يَقُولُ أَهْلَكْتُ مَالًۭا لُّبَدًا
+- 90:8 أَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ
+- 90:9 وَلِسَانًۭا وَشَفَتَيْنِ
+- 90:10 وَهَدَيْنَٰهُ ٱلنَّجْدَيْنِ
+- 90:11 فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ
+- 90:12 وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ
+- 90:13 فَكُّ رَقَبَةٍ
+- 90:14 أَوْ إِطْعَٰمٌۭ فِى يَوْمٍۢ ذِى مَسْغَبَةٍۢ
+- 90:15 يَتِيمًۭا ذَا مَقْرَبَةٍ
+- 90:16 أَوْ مِسْكِينًۭا ذَا مَتْرَبَةٍۢ
+- 90:17 ثُمَّ كَانَ مِنَ ٱلَّذِينَ ءَامَنُوا۟ وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ
+- 90:18 أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْمَيْمَنَةِ
+- 90:19 وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا هُمْ أَصْحَٰبُ ٱلْمَشْـَٔمَةِ
+- 90:20 عَلَيْهِمْ نَارٌۭ مُّؤْصَدَةٌۢ
+- 91:9 قَدْ أَفْلَحَ مَن زَكَّىٰهَا
+- 91:10 وَقَدْ خَابَ مَن دَسَّىٰهَا
+- 92:5 فَأَمَّا مَنْ أَعْطَىٰ وَٱتَّقَىٰ
+- 92:6 وَصَدَّقَ بِٱلْحُسْنَىٰ
+- 94:5 فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا
+- 94:6 إِنَّ مَعَ ٱلْعُسْرِ يُسْرًۭا
+- 94:7 فَإِذَا فَرَغْتَ فَٱنصَبْ
+- 94:8 وَإِلَىٰ رَبِّكَ فَٱرْغَب
+- 95:3 وَهَٰذَا ٱلْبَلَدِ ٱلْأَمِينِ
+- 95:4 لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍۢ
+- 95:5 ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ
+- 95:6 إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۢ
+- 98:6 إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَٰلِدِينَ فِيهَآ ۚ أُو۟لَٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ
+- 98:7 إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ هُمْ خَيْرُ ٱلْبَرِيَّةِ
+- 99:4 يَوْمَئِذٍۢ تُحَدِّثُ أَخْبَارَهَا
+- 99:5 بِأَنَّ رَبَّكَ أَوْحَىٰ لَهَا
+- 99:6 يَوْمَئِذٍۢ يَصْدُرُ ٱلنَّاسُ أَشْتَاتًۭا لِّيُرَوْا۟ أَعْمَٰلَهُمْ
+- 99:7 فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًۭا يَرَهُۥ
+- 99:8 وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍۢ شَرًّۭا يَرَهُۥ
+- 106:4 ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ
+- 107:1 أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ
+- 107:2 فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ
+- 107:3 وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ

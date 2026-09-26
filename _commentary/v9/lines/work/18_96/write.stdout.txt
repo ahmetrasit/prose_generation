@@ -1,0 +1,7 @@
+== 18:96 write
+  synth.py 18:96 --arm w10-opus
+    w10-opus: 2592 words, 35 distinct refs, 71 Arabic tags; Arabic/prose problems 56: line 9: missing_tag_field: Missing field(s): gloss; line 9: malformed_tag: Malformed annotation; line 15: missing_tag_field: Missing field(s): gloss; line 15: malformed_tag: Malformed annotation; line 19: missing_tag_field: Missing field(s): gloss; line 19: malformed_tag: Malformed annotation
+  usage.py 18:96
+      w10-opus/run.log.json                            claude-opus  turns  1 tools   0 in         2 cached     2,694 out  22,771 reas       0 cost $1.555
+  w10-opus-cold/run.log.json                       claude-opus  turns  1 tools   0 in         2 cached     2,694 out  39,152 reas       0 cost $0.954
+== TOTAL 16 sessions: in 559,633 cached 177,932 out 337,184 reasoning 196,498 tool calls 0

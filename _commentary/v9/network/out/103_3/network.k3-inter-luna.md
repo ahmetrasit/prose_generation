@@ -1,0 +1,436 @@
+# Network for 103:3 (img top-3)
+
+Nodes: Counter({'A': 508, 'B': 56, 'M': 15, 'F': 7}); rare branches 34. Context zones: {'surah': 2, 'fatiha': 7, 'inter': 499}; people anchors: —.
+Edges: {'lex': 312, 'rel': 115, 'kw': 501, 'root': 373, 'img': 672, 'form': 6, 'hft': 95, 'luna': 59}.
+
+## Hubs (rare branches of ≥3 roots point here)
+
+### وَعَمِلُوا۟ (w4) — luna hub, 4 roots, score 8.0
+- ء م ن B003 «duada kabul istegi sozu» قول آمين طلبا للاستجابة (rare, 4 src) @ ءَامَنُوا۟ — img/same: same: ع م ل B001 الفعل المقصود والعمل; luna/reading/complement: complement: The rare duʿāʾ sense of آمين asks that something be done; the next predicate says they do good. The petition is heard turning into action.
+- ح ق ق B002 «bağlayıcı gereklilik ve hak ediş» لزوم واجب واستحقاق ثابت (rare, 4 src) @ بِٱلْحَقِّ — img/same: same: ع م ل B002 إعمال الشيء واستعماله; luna/reading/complement: complement: The work is heard as action that answers what is required. The binding right gives deliberate deeds their obligation.
+- ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ — kw/shared: use (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B008 المطبوع على العمل; luna/reading/part: part: The mature camel is ready to bear a load and be put to use. The deeds can be heard as a load the worker is equipped to carry.
+- ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين (rare, 4 src) @ بِٱلصَّبْرِ — img/same: same: ع م ل B001 الفعل المقصود والعمل; luna/reading/opposite: opposite: The group is described through deliberate deeds, while the rare صبر image pins someone in place under compulsion. The pairing makes righteous action an exercise
+- و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟ — img/same: same: ع م ل B010 الجارحة العاملة; luna/reading/complement: complement: The pasture that abundantly fits the herd is provision put to use. Heard beside عَمِلُوا as purposeful use, the verse pictures action drawing on a sustaining gr
+
+### ٱلصَّٰلِحَٰتِ (w5) — luna hub, 4 roots, score 8.0
+- ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير (rare, 3 src) @ بِٱلْحَقِّ — img/same: same: ص ل ح B004 صالح وما قاربه علما لشخص; luna/reading/opposite: opposite: The comparison contrasts fitting good action with a pace forced beyond what can be borne. Righteous work is heard as properly measured, not brute overstraining.
+- ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته (rare, 3 src) @ بِٱلصَّبْرِ — img/same: same: ص ل ح B002 الصلح إزالة النفار بين الناس; luna/reading/image: image: The rare ṣibr sense is a bitter remedy; الصَّالِحَات are acts of repair and good order. Together they cast righteous deeds as medicine whose taste may be harsh 
+- ص ب ر B011 «sofra yaygısı ya da yiyecek yığını» رقاقة الخوان وكومة الطعام (rare, 3 src) @ بِٱلصَّبْرِ — img/same: same: ص ل ح B005 صلاح والصلح علمان لمواضع; luna/reading/image: image: A pile of food offers an image of provision gathered together; الصَّالِحَات names good deeds that repair and benefit. The pair lets the community’s righteous de
+- ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ وَعَمِلُوا۟ — img/same: same: ص ل ح B001 الصلاح ضد الفساد والطلاح; luna/reading/part: part: The administrator's assigned service can be heard as one member of the class of righteous deeds. The exception includes purposeful service as well as virtue.
+- ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ وَعَمِلُوا۟ — img/same: same: ص ل ح B001 الصلاح ضد الفساد والطلاح; luna/reading/part: part: Working limbs are the means by which deliberate good deeds are carried out. The bodily image makes the work concrete.
+- و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟ — kw/shared: suitability (shared) — plain sense of ٱلصَّٰلِحَٰتِ; img/same: same: ص ل ح B003 الصلاح للشيء ملاءمته; luna/reading/same: same: The rare pasture sense meets الصالحات as suitability: counsel is heard as abundant provision fitted to the community. The pastoral image makes good action nouri
+- و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟ — kw/shared: suitability (shared) — plain sense of ٱلصَّٰلِحَٰتِ; img/same: same: ص ل ح B003 الصلاح للشيء ملاءمته; luna/reading/same: same: The pasture sense is abundance of what suits the herd, and الصَّالِحَات can carry suitability as well as goodness. Heard together, righteous deeds look like act
+
+### بِٱلْحَقِّ (w7) — luna hub, 3 roots, score 6.0
+- ء م ن B001 «guven ve guvenilirlik» سكون القلب في أمن وثقة (rare, 5 src) @ ءَامَنُوا۟ — kw/shared: trust (shared) — plain sense of بِٱلْحَقِّ; img/same: same: ح ق ق B001 ثبات مطابق للواقع ضد الباطل; luna/reading/complement: complement: The truth is heard as what settles the heart in security. Faith and الحق meet as inward assurance grounded in what is real.
+- ص ب ر B005 «sert taş ve taşlı arazi» حجر غليظ وأرض حصباء (rare, 4 src) @ بِٱلصَّبْرِ — img/same: same: ح ق ق B001 ثبات مطابق للواقع ضد الباطل; luna/reading/same: same: The hard stone gives truth a tangible image of firmness. The pair makes the counsel of al-ḥaqq sound like a claim that can bear weight and hold its ground.
+- ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته (rare, 3 src) @ بِٱلصَّبْرِ — img/same: same: ح ق ق B001 ثبات مطابق للواقع ضد الباطل; luna/reading/image: image: The rare ṣibr is a bitter medicine, and al-ḥaqq is truth to which the group gives counsel. Heard together, truth becomes a bitter but healing remedy that the co
+- ص ب ر B011 «sofra yaygısı ya da yiyecek yığını» رقاقة الخوان وكومة الطعام (rare, 3 src) @ بِٱلصَّبْرِ — img/same: same: ح ق ق B013 تمام حال الحيوان وقوته; luna/reading/opposite: opposite: A purchase as صبرة leaves a food heap unweighed and unmeasured, while al-ḥaqq can name the due that belongs to its owner. Heard together, counsel of right gives
+- ص ب ر B012 «öldürmeye karşılık ölüm cezası» الإقصاص والقود (rare, 1 src) @ بِٱلصَّبْرِ — kw/shared: justice (shared) — plain sense of بِٱلْحَقِّ; luna/reading/same: same: The rare صبر sense denotes legal retaliation for homicide, while al-ḥaqq can name what is due to its owner. The pair makes al-ḥaqq a claim administered in propo
+- ع م ل B004 «iş ücreti» أجر العمل ورزق العامل (rare, 4 src) @ وَعَمِلُوا۟ — img/same: same: ح ق ق B003 حق مخصوص يملكه صاحبه; luna/reading/same: same: The deed is heard together with the worker's due. Al-ḥaqq names what is owed, and work earns its wage.
+- ع م ل B011 «işlek yol» الطريق المعمل (rare, 1 src, sole) @ وَعَمِلُوا۟ — img/same: same: ح ق ق B003 حق مخصوص يملكه صاحبه; luna/reading/image: image: A well-trodden road meets al-ḥaqq as truth and right. The deeds become a traveled way oriented by what is true.
+
+### 29:60 [inter] — backbone hub, 3 roots, score 5.0
+  وَكَأَيِّن مِّن دَآبَّةٍ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ
+- ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ — lex/src-rare: يحمل → تَحْمِلُ
+- ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير (rare, 3 src) @ بِٱلْحَقِّ — lex/src-rare: ويحمل → تَحْمِلُ
+- ص ب ر B009 «demirhindi meyvesi» الصبار حمل الشجرة الحامض (rare, 2 src) @ بِٱلصَّبْرِ — lex/image: حمل → تَحْمِلُ
+- ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ وَعَمِلُوا۟ — lex/src-rare: دابا → دَآبَّةٍ
+
+### 31:30 [inter] — backbone hub, 3 roots, score 5.0
+  ذَٰلِكَ بِأَنَّ ٱللَّهَ هُوَ ٱلْحَقُّ وَأَنَّ مَا يَدْعُونَ مِن دُونِهِ ٱلْبَٰطِلُ وَأَنَّ ٱللَّهَ هُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ
+- ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ — lex/src-rare: علي → ٱلْعَلِىُّ
+- ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير (rare, 3 src) @ بِٱلْحَقِّ — lex/src-rare: علي → ٱلْعَلِىُّ
+- ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين (rare, 4 src) @ بِٱلصَّبْرِ — lex/src-rare: علي → ٱلْعَلِىُّ
+- ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ وَعَمِلُوا۟ — lex/src-rare: علي → ٱلْعَلِىُّ
+- ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ وَعَمِلُوا۟ — lex/image: علي → ٱلْعَلِىُّ
+- ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ وَعَمِلُوا۟ — lex/src-rare: علي → ٱلْعَلِىُّ
+
+### 6:144 [inter] — backbone hub, 3 roots, score 5.0
+  وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ قُلْ ءَآلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ
+- ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ — lex/src-rare: ابل → ٱلْإِبِلِ
+- ص ل ح B004 «kişi adı olan kök türevleri» صالح وما قاربه علما لشخص (rare, 2 src) @ ٱلصَّٰلِحَٰتِ — lex/image: علما → عِلْمٍ
+- ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ وَعَمِلُوا۟ — lex/src-rare: ابل → ٱلْإِبِلِ
+
+## Triangles (top 40)
+
+- [5 kinds] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟
+  - → 5:106 [inter]: rel/near_synonym: ش ر ي B001 (karşılıklı işlem ile alışveriş) → نَشْتَرِى; kw/shared: bargain (shared) → نَشْتَرِى; kw/shared: transaction (shared) → نَشْتَرِى
+  - → وَتَوَاصَوْا۟ (w6): kw/shared: exchange (shared) — plain sense of وَتَوَاصَوْا۟; kw/shared: relation (shared) — plain sense of وَتَوَاصَوْا۟; img/same: same: و ص ي B003 تبادل الوصية بين القوم; luna/note/same: same: Mutual counsel is one kind of dealing among people, though the transaction sense is broader.
+  - 5:106 [inter] ↔ وَتَوَاصَوْا۟ (w6): lex (via و ص ي B002): موت → ٱلْمَوْتُ ٱلْمَوْتِ
+- [5 kinds] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟
+  - → 5:106 [inter]: rel/near_synonym: ش ر ي B001 (karşılıklı işlem ile alışveriş) → نَشْتَرِى; kw/shared: bargain (shared) → نَشْتَرِى; kw/shared: transaction (shared) → نَشْتَرِى
+  - → بِٱلْحَقِّ (w7): img/same: same: ح ق ق B003 حق مخصوص يملكه صاحبه; luna/note/complement: complement: A transaction can involve what each person is owed, but that connection is general here.
+  - 5:106 [inter] ↔ بِٱلْحَقِّ (w7): lex (via ح ق ق B008): ضربت → ضَرَبْتُمْ
+- [5 kinds] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟
+  - → 9:111 [inter]: rel/near_synonym: ب ي ع B001 (işlem ile alım satım) → بِبَيْعِكُمُ بَايَعْتُم; rel/near_synonym: ش ر ي B001 (karşılıklı işlem ile alışveriş) → ٱشْتَرَىٰ; kw/shared: transaction (shared) → ٱشْتَرَىٰ بِبَيْعِكُمُ بَايَعْتُم; img/inter: inter: ب ي ع B003 بيعة الطاعة والمبايعة ← بِبَيْعِكُمُ
+  - → وَتَوَاصَوْا۟ (w6): kw/shared: exchange (shared) — plain sense of وَتَوَاصَوْا۟; kw/shared: relation (shared) — plain sense of وَتَوَاصَوْا۟; img/same: same: و ص ي B003 تبادل الوصية بين القوم; luna/note/same: same: Mutual counsel is one kind of dealing among people, though the transaction sense is broader.
+  - 9:111 [inter] ↔ وَتَوَاصَوْا۟ (w6): lex (via و ص ي B002): عهد → بِعَهْدِهِۦ
+- [5 kinds] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟
+  - → 9:111 [inter]: rel/near_synonym: ب ي ع B001 (işlem ile alım satım) → بِبَيْعِكُمُ بَايَعْتُم; rel/near_synonym: ش ر ي B001 (karşılıklı işlem ile alışveriş) → ٱشْتَرَىٰ; kw/shared: transaction (shared) → ٱشْتَرَىٰ بِبَيْعِكُمُ بَايَعْتُم; img/inter: inter: ب ي ع B003 بيعة الطاعة والمبايعة ← بِبَيْعِكُمُ
+  - → وَتَوَاصَوْا۟ (w8): kw/shared: exchange (shared) — plain sense of وَتَوَاصَوْا۟; kw/shared: relation (shared) — plain sense of وَتَوَاصَوْا۟; luna/note/same: same: The repeated counsel is another reciprocal dealing among people, though not necessarily a transaction.
+  - 9:111 [inter] ↔ وَتَوَاصَوْا۟ (w8): lex (via و ص ي B002): عهد → بِعَهْدِهِۦ
+- [5 kinds] ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ وَعَمِلُوا۟
+  - → 2:177 [inter]: rel/near_synonym: و ل ي B003 (iş görevi ile yönetim) → تُوَلُّوا۟; kw/shared: stewardship (shared) → بِعَهْدِهِمْ عَٰهَدُوا۟
+  - → وَتَوَاصَوْا۟ (w6): img/same: same: و ص ي B002 عهد موصول إلى غيره; luna/note/same: same: The appointed task and reciprocal counsel both sound like a charge passed among people, though the link is broad.
+  - 2:177 [inter] ↔ وَتَوَاصَوْا۟ (w6): lex (via و ص ي B002): عهد → بِعَهْدِهِمْ
+- [5 kinds] ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ
+  - → 10:5 [inter]: lex/src-rare: سنين → ٱلسِّنِينَ
+  - → وَعَمِلُوا۟ (w4): kw/shared: use (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B008 المطبوع على العمل; luna/reading/part: part: The mature camel is ready to bear a load and be put to use. The deeds can be heard as a load the worker is equipped to carry.
+  - 10:5 [inter] ↔ وَعَمِلُوا۟ (w4): rel (via ع م ل B004): ج ع ل B005 (iş ücreti ile vaatli ödül) → جَعَلَ
+- [5 kinds] ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ
+  - → 3:142 [inter]: lex/src: دخل → تَدْخُلُوا۟
+  - → وَعَمِلُوا۟ (w4): kw/shared: use (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B008 المطبوع على العمل; luna/reading/part: part: The mature camel is ready to bear a load and be put to use. The deeds can be heard as a load the worker is equipped to carry.
+  - 3:142 [inter] ↔ وَعَمِلُوا۟ (w4): rel (via ع م ل B007): ج ه د B001 (zahmet etmek ile güç harcamak) → جَٰهَدُوا۟
+- [5 kinds] ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ
+  - → 4:11 [inter]: lex/src: اولاد → أَوْلَٰدِكُمْ وَلَدٌ; lex/src: ابن → وَأَبْنَآؤُكُمْ; rel/same_field: س د س B003 (ayrı hayvan yaş evreleri) → ٱلسُّدُسُ
+  - → وَعَمِلُوا۟ (w4): kw/shared: use (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B008 المطبوع على العمل; luna/reading/part: part: The mature camel is ready to bear a load and be put to use. The deeds can be heard as a load the worker is equipped to carry.
+  - 4:11 [inter] ↔ وَعَمِلُوا۟ (w4): rel (via ع م ل B002): ن ص ف B004 (kullanmak ile hizmet etmek) → ٱلنِّصْفُ
+- [5 kinds] ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ
+  - → 5:106 [inter]: lex/src: ضربت → ضَرَبْتُمْ
+  - → وَعَمِلُوا۟ (w4): kw/shared: use (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B008 المطبوع على العمل; luna/reading/part: part: The mature camel is ready to bear a load and be put to use. The deeds can be heard as a load the worker is equipped to carry.
+  - 5:106 [inter] ↔ وَعَمِلُوا۟ (w4): rel (via ع م ل B005): ش ر ي B001 (karşılıklı işlem ile alışveriş) → نَشْتَرِى
+- [5 kinds] ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين (rare, 4 src) @ بِٱلصَّبْرِ
+  - → 4:157 [inter]: lex/src: قتل → قَتَلْنَا قَتَلُوهُ; img/inter: inter: ص ل ب B005 الصلب للقتل ← صَلَبُوهُ
+  - → ءَامَنُوا۟ (w3): kw/shared: testimony (shared) — plain sense of ءَامَنُوا۟; img/same: same: ء م ن B002 تصديق يطمئن إليه القلب; luna/reading/opposite: opposite: The rare صبر sense evokes an oath imposed by force or a person held for death, while ءَامَنُوا۟ names assent that settles in the heart. Faith sounds as inward t
+  - 4:157 [inter] ↔ ءَامَنُوا۟ (w3): rel (via ء م ن B002): ظ ن ن B001 (tasdik ile kesin kanaat) → ٱلظَّنِّ
+- [5 kinds] ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين (rare, 4 src) @ بِٱلصَّبْرِ
+  - → 5:106 [inter]: lex/src: موت → ٱلْمَوْتُ ٱلْمَوْتِ; kw/shared: custody (shared) → تَحْبِسُونَهُمَا; kw/shared: detention (shared) → تَحْبِسُونَهُمَا
+  - → وَعَمِلُوا۟ (w4): img/same: same: ع م ل B001 الفعل المقصود والعمل; luna/reading/opposite: opposite: The group is described through deliberate deeds, while the rare صبر image pins someone in place under compulsion. The pairing makes righteous action an exercise
+  - 5:106 [inter] ↔ وَعَمِلُوا۟ (w4): rel (via ع م ل B005): ش ر ي B001 (karşılıklı işlem ile alışveriş) → نَشْتَرِى
+- [5 kinds] ص ب ر B006 «çıkışsız ağır durum» الوقوع في شدة لا منفذ منها (rare, 4 src) @ بِٱلصَّبْرِ
+  - → 5:2 [inter]: lex/src: شديدا → شَدِيدُ; kw/shared: trap (shared) → فَٱصْطَادُوا۟
+  - → وَتَوَاصَوْا۟ (w6): img/same: same: و ص ي B003 تبادل الوصية بين القوم; luna/reading/image: image: The rare صبور crisis gives the mutual counsel a scene: a community in a great affair with no escape addresses one another from within it. Counsel and patience t
+  - 5:2 [inter] ↔ وَتَوَاصَوْا۟ (w6): form: form VI: تَعَاوَنُ تَعَاوَنُ
+- [5 kinds] ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ وَعَمِلُوا۟
+  - → 2:228 [inter]: lex/root: رجل → root ر ج ل: وَلِلرِّجَالِ; rel/near_synonym: خ ل ق B005 (işe yatkın ile elverişli) → خَلَقَ
+  - → ٱلصَّٰلِحَٰتِ (w5): kw/shared: fitness (shared) — plain sense of ٱلصَّٰلِحَٰتِ; img/same: same: ص ل ح B001 الصلاح ضد الفساد والطلاح; luna/note/same: same: A work-ready camel and الصالحات as suitability meet in the idea of fitness, though the verse names good deeds.
+  - 2:228 [inter] ↔ ٱلصَّٰلِحَٰتِ (w5): lex (via ص ل ح B001): ورجل → root ر ج ل: وَلِلرِّجَالِ
+- [5 kinds] ء م ن B001 «guven ve guvenilirlik» سكون القلب في أمن وثقة (rare, 5 src) @ ءَامَنُوا۟
+  - → 3:103 [inter]: lex/image: قلب → قُلُوبِكُمْ
+  - → وَتَوَاصَوْا۟ (w6): kw/shared: trust (shared) — plain sense of وَتَوَاصَوْا۟; img/same: same: و ص ي B002 عهد موصول إلى غيره; luna/note/complement: complement: The trust sense of أمن gives mutual counsel a basis of confidence. The link is real but broad.
+  - 3:103 [inter] ↔ وَتَوَاصَوْا۟ (w6): rel (via و ص ي B001): ء ل ف B002 (toplayıp birleştirme) → فَأَلَّفَ
+- [5 kinds] ء م ن B001 «guven ve guvenilirlik» سكون القلب في أمن وثقة (rare, 5 src) @ ءَامَنُوا۟
+  - → 8:2 [inter]: lex/image: قلب → قُلُوبُهُمْ
+  - → وَتَوَاصَوْا۟ (w6): kw/shared: trust (shared) — plain sense of وَتَوَاصَوْا۟; img/same: same: و ص ي B002 عهد موصول إلى غيره; luna/note/complement: complement: The trust sense of أمن gives mutual counsel a basis of confidence. The link is real but broad.
+  - 8:2 [inter] ↔ وَتَوَاصَوْا۟ (w6): rel (via و ص ي B002): و ك ل B001 (işi başkasına havale etme) → يَتَوَكَّلُونَ
+- [4 kinds] ص ب ر B012 «öldürmeye karşılık ölüm cezası» الإقصاص والقود (rare, 1 src) @ بِٱلصَّبْرِ
+  - → 7:35 [inter]: rel/near_synonym: ق ص ص B003 (ölüm cezasında denk karşılık) → يَقُصُّونَ
+  - → وَعَمِلُوا۟ (w4): img/same: same: ع م ل B003 ولاية العمل والقيام عليه; luna/note/same: same: A reprisal under قصاص is a concrete deliberate act, so it touches the broad doing named by عَمِلُوا. The overlap stays at the level of action; the verse’s objec
+  - 7:35 [inter] ↔ وَعَمِلُوا۟ (w4): lex (via ع م ل B012): بني → يَٰبَنِىٓ
+- [4 kinds] ص ب ر B017 «dağ ya da dağların orta kesimi» الجبل ووسطه (rare, 1 src) @ بِٱلصَّبْرِ
+  - → 33:72 [inter]: lex/image: جبل → وَٱلْجِبَالِ; img/inter: inter: ج ب ل B001 تجمع مرتفع صلب ← وَٱلْجِبَالِ
+  - → بِٱلْحَقِّ (w7): kw/shared: center (shared) — plain sense of بِٱلْحَقِّ; img/same: same: ح ق ق B011 حق يطابق موضعه كالمفصل والوعاء; luna/note/image: image: A mountain’s central mass gives an image of what is firmly established; al-ḥaqq likewise names settled reality. The comparison is broad because the target does 
+  - 33:72 [inter] ↔ بِٱلْحَقِّ (w7): lex (via ح ق ق B008): يحمل → يَحْمِلْنَهَا وَحَمَلَهَا
+- [4 kinds] ع م ل B007 «zahmete girmek» التعمل بمعنى التعني (rare, 1 src, sole) @ وَعَمِلُوا۟
+  - → 103:2 [surah]: img/near: near: خ س ر B003 إخسار الكيل والميزان ← خُسْرٍ; img/near: near: ء ن س B006 ابن الإنس للنفس والصفوة ← ٱلْإِنسَٰنَ
+  - → بِٱلصَّبْرِ (w9): kw/shared: endurance (shared) — plain sense of بِٱلصَّبْرِ; img/same: same: ص ب ر B003 تحمل الكفالة والملازمة; luna/reading/complement: complement: The rare عمل sense makes the doing costly effort. The verse pairs that effort with the restraint and endurance of patience.
+  - 103:2 [surah] ↔ بِٱلصَّبْرِ (w9): lex (via ص ب ر B002): انسان → ٱلْإِنسَٰنَ
+- [4 kinds] ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ وَعَمِلُوا۟
+  - → 2:213 [inter]: kw/shared: appendage (shared) → بِإِذْنِهِۦ
+  - → ٱلصَّٰلِحَٰتِ (w5): img/same: same: ص ل ح B001 الصلاح ضد الفساد والطلاح; luna/reading/part: part: Working limbs are the means by which deliberate good deeds are carried out. The bodily image makes the work concrete.
+  - 2:213 [inter] ↔ ٱلصَّٰلِحَٰتِ (w5): lex (via ص ل ح B004): نبي → ٱلنَّبِيِّۦنَ
+- [4 kinds] ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ وَعَمِلُوا۟
+  - → 2:228 [inter]: kw/shared: appendage (shared) → وَلِلرِّجَالِ
+  - → ٱلصَّٰلِحَٰتِ (w5): img/same: same: ص ل ح B001 الصلاح ضد الفساد والطلاح; luna/reading/part: part: Working limbs are the means by which deliberate good deeds are carried out. The bodily image makes the work concrete.
+  - 2:228 [inter] ↔ ٱلصَّٰلِحَٰتِ (w5): lex (via ص ل ح B001): ورجل → root ر ج ل: وَلِلرِّجَالِ
+- [4 kinds] ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ وَعَمِلُوا۟
+  - → 4:98 [inter]: kw/shared: appendage (shared) → ٱلرِّجَالِ
+  - → ٱلصَّٰلِحَٰتِ (w5): img/same: same: ص ل ح B001 الصلاح ضد الفساد والطلاح; luna/reading/part: part: Working limbs are the means by which deliberate good deeds are carried out. The bodily image makes the work concrete.
+  - 4:98 [inter] ↔ ٱلصَّٰلِحَٰتِ (w5): lex (via ص ل ح B001): ورجل → root ر ج ل: ٱلرِّجَالِ
+- [4 kinds] ع م ل B011 «işlek yol» الطريق المعمل (rare, 1 src, sole) @ وَعَمِلُوا۟
+  - → 2:177 [inter]: kw/shared: track (shared) → ٱلسَّبِيلِ; kw/shared: way (shared) → ٱلسَّبِيلِ
+  - → بِٱلْحَقِّ (w7): img/same: same: ح ق ق B003 حق مخصوص يملكه صاحبه; luna/reading/image: image: A well-trodden road meets al-ḥaqq as truth and right. The deeds become a traveled way oriented by what is true.
+  - 2:177 [inter] ↔ بِٱلْحَقِّ (w7): rel (via ح ق ق B001): ص د ق B001 (doğruluk ile doğru sözlülük) → صَدَقُوا۟
+- [4 kinds] ع م ل B011 «işlek yol» الطريق المعمل (rare, 1 src, sole) @ وَعَمِلُوا۟
+  - → 2:213 [inter]: kw/shared: way (shared) → صِرَٰطٍ
+  - → بِٱلْحَقِّ (w7): img/same: same: ح ق ق B003 حق مخصوص يملكه صاحبه; luna/reading/image: image: A well-trodden road meets al-ḥaqq as truth and right. The deeds become a traveled way oriented by what is true.
+  - 2:213 [inter] ↔ بِٱلْحَقِّ (w7): rel (via ح ق ق B010): ح ك م B004 (kalıba bağlı sağlamlık ile genel sağlamlaştırma) → لِيَحْكُمَ
+- [4 kinds] ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ وَعَمِلُوا۟
+  - → 2:228 [inter]: rel/near_synonym: ر ج ل B003 (yaya yolcular ile yayalar) → وَلِلرِّجَالِ
+  - → بِٱلصَّبْرِ (w9): img/same: same: ص ب ر B016 بطن من غسان; luna/note/complement: complement: Traveling on foot and patience both suggest sustained effort, though the link is broad.
+  - 2:228 [inter] ↔ بِٱلصَّبْرِ (w9): lex (via ص ب ر B010): درجا → دَرَجَةٌ
+- [4 kinds] ص ل ح B004 «kişi adı olan kök türevleri» صالح وما قاربه علما لشخص (rare, 2 src) @ ٱلصَّٰلِحَٰتِ
+  - → 4:157 [inter]: lex/image: علما → عِلْمٍ
+  - → ءَامَنُوا۟ (w3): kw/shared: religion (shared) — plain sense of ءَامَنُوا۟; img/same: same: ء م ن B003 قول آمين طلبا للاستجابة
+  - 4:157 [inter] ↔ ءَامَنُوا۟ (w3): rel (via ء م ن B002): ظ ن ن B001 (tasdik ile kesin kanaat) → ٱلظَّنِّ
+- [4 kinds] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟
+  - → 5:106 [inter]: rel/near_synonym: ش ر ي B001 (karşılıklı işlem ile alışveriş) → نَشْتَرِى; kw/shared: bargain (shared) → نَشْتَرِى; kw/shared: transaction (shared) → نَشْتَرِى
+  - → وَتَوَاصَوْا۟ (w8): kw/shared: exchange (shared) — plain sense of وَتَوَاصَوْا۟; kw/shared: relation (shared) — plain sense of وَتَوَاصَوْا۟; luna/note/same: same: The repeated counsel is another reciprocal dealing among people, though not necessarily a transaction.
+  - 5:106 [inter] ↔ وَتَوَاصَوْا۟ (w8): lex (via و ص ي B002): موت → ٱلْمَوْتُ ٱلْمَوْتِ
+- [4 kinds] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟
+  - → 5:106 [inter]: rel/near_synonym: ش ر ي B001 (karşılıklı işlem ile alışveriş) → نَشْتَرِى; kw/shared: bargain (shared) → نَشْتَرِى; kw/shared: transaction (shared) → نَشْتَرِى
+  - → بِٱلصَّبْرِ (w9): kw/shared: contract (shared) — plain sense of بِٱلصَّبْرِ; img/same: same: ص ب ر B003 تحمل الكفالة والملازمة
+  - 5:106 [inter] ↔ بِٱلصَّبْرِ (w9): lex (via ص ب ر B002): موت → ٱلْمَوْتُ ٱلْمَوْتِ
+- [4 kinds] ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟
+  - → 9:111 [inter]: rel/near_synonym: ب ي ع B001 (işlem ile alım satım) → بِبَيْعِكُمُ بَايَعْتُم; rel/near_synonym: ش ر ي B001 (karşılıklı işlem ile alışveriş) → ٱشْتَرَىٰ; kw/shared: transaction (shared) → ٱشْتَرَىٰ بِبَيْعِكُمُ بَايَعْتُم; img/inter: inter: ب ي ع B003 بيعة الطاعة والمبايعة ← بِبَيْعِكُمُ
+  - → بِٱلصَّبْرِ (w9): kw/shared: contract (shared) — plain sense of بِٱلصَّبْرِ; img/same: same: ص ب ر B003 تحمل الكفالة والملازمة
+  - 9:111 [inter] ↔ بِٱلصَّبْرِ (w9): lex (via ص ب ر B002): قتل → فَيَقْتُلُونَ وَيُقْتَلُونَ
+- [4 kinds] ع م ل B006 «el işçileri» العملة العاملون بالأيدي (rare, 2 src) @ وَعَمِلُوا۟
+  - → 4:114 [inter]: rel/near_synonym: ف ع ل B003 (el işçileri) → يَفْعَلْ; img/inter: inter: ف ع ل B003 فَعلة العمل ← يَفْعَلْ
+  - → بِٱلصَّبْرِ (w9): img/same: same: ص ب ر B003 تحمل الكفالة والملازمة; luna/note/complement: complement: Manual work and patience both evoke bodily toil, but their link is general.
+  - 4:114 [inter] ↔ بِٱلصَّبْرِ (w9): lex (via ص ب ر B006): عظيم → عَظِيمًا
+- [4 kinds] و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟
+  - → 103:2 [surah]: img/near: near: ء ن س B002 إيناس الشيء برؤية أو إحساس أو سماع ← ٱلْإِنسَٰنَ; img/near: near: خ س ر B003 إخسار الكيل والميزان ← خُسْرٍ
+  - → ٱلصَّٰلِحَٰتِ (w5): kw/shared: suitability (shared) — plain sense of ٱلصَّٰلِحَٰتِ; img/same: same: ص ل ح B003 الصلاح للشيء ملاءمته; luna/reading/same: same: The rare pasture sense meets الصالحات as suitability: counsel is heard as abundant provision fitted to the community. The pastoral image makes good action nouri
+  - 103:2 [surah] ↔ ٱلصَّٰلِحَٰتِ (w5): lex (via ص ل ح B001): انسان → ٱلْإِنسَٰنَ
+- [4 kinds] و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟
+  - → 11:88 [inter]: kw/shared: suitability (shared) → تَوْفِيقِىٓ
+  - → ٱلصَّٰلِحَٰتِ (w5): kw/shared: suitability (shared) — plain sense of ٱلصَّٰلِحَٰتِ; img/same: same: ص ل ح B003 الصلاح للشيء ملاءمته; luna/reading/same: same: The rare pasture sense meets الصالحات as suitability: counsel is heard as abundant provision fitted to the community. The pastoral image makes good action nouri
+  - 11:88 [inter] ↔ ٱلصَّٰلِحَٰتِ (w5): rel (via ص ل ح B003): و ف ق B001 (kişiye uygunluk ve karşılıklı uyum) → تَوْفِيقِىٓ
+- [4 kinds] و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟
+  - → 103:2 [surah]: img/near: near: ء ن س B002 إيناس الشيء برؤية أو إحساس أو سماع ← ٱلْإِنسَٰنَ; img/near: near: خ س ر B003 إخسار الكيل والميزان ← خُسْرٍ
+  - → ٱلصَّٰلِحَٰتِ (w5): kw/shared: suitability (shared) — plain sense of ٱلصَّٰلِحَٰتِ; img/same: same: ص ل ح B003 الصلاح للشيء ملاءمته; luna/reading/same: same: The pasture sense is abundance of what suits the herd, and الصَّالِحَات can carry suitability as well as goodness. Heard together, righteous deeds look like act
+  - 103:2 [surah] ↔ ٱلصَّٰلِحَٰتِ (w5): lex (via ص ل ح B001): انسان → ٱلْإِنسَٰنَ
+- [4 kinds] و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟
+  - → 11:88 [inter]: kw/shared: suitability (shared) → تَوْفِيقِىٓ
+  - → ٱلصَّٰلِحَٰتِ (w5): kw/shared: suitability (shared) — plain sense of ٱلصَّٰلِحَٰتِ; img/same: same: ص ل ح B003 الصلاح للشيء ملاءمته; luna/reading/same: same: The pasture sense is abundance of what suits the herd, and الصَّالِحَات can carry suitability as well as goodness. Heard together, righteous deeds look like act
+  - 11:88 [inter] ↔ ٱلصَّٰلِحَٰتِ (w5): rel (via ص ل ح B003): و ف ق B001 (kişiye uygunluk ve karşılıklı uyum) → تَوْفِيقِىٓ
+- [4 kinds] ح ق ق B009 «iç boşluğa ulaşan düz saplanış» طعنة استقامت حتى نفذت (rare, 3 src) @ بِٱلْحَقِّ
+  - → 3:103 [inter]: kw/shared: depth (shared) → حُفْرَةٍ
+  - → وَتَوَاصَوْا۟ (w6): img/same: same: و ص ي B001 وصل الشيء بالشيء; luna/reading/image: image: A straight thrust reaching the body's interior meets counsel transmitted between people. The image is advice traveling directly to the hearer's core.
+  - 3:103 [inter] ↔ وَتَوَاصَوْا۟ (w6): rel (via و ص ي B001): ء ل ف B002 (toplayıp birleştirme) → فَأَلَّفَ
+- [4 kinds] ح ق ق B009 «iç boşluğa ulaşan düz saplanış» طعنة استقامت حتى نفذت (rare, 3 src) @ بِٱلْحَقِّ
+  - → 7:142 [inter]: kw/shared: depth (shared) → لَيْلَةً
+  - → وَتَوَاصَوْا۟ (w6): img/same: same: و ص ي B001 وصل الشيء بالشيء; luna/reading/image: image: A straight thrust reaching the body's interior meets counsel transmitted between people. The image is advice traveling directly to the hearer's core.
+  - 7:142 [inter] ↔ وَتَوَاصَوْا۟ (w6): lex (via و ص ي B001): ليلا → لَيْلَةً
+- [4 kinds] ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير (rare, 3 src) @ بِٱلْحَقِّ
+  - → 29:60 [inter]: lex/src-rare: ويحمل → تَحْمِلُ
+  - → وَعَمِلُوا۟ (w4): kw/shared: exertion (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B007 التعمل بمعنى التعني; luna/note/part: part: The punishing ride is one kind of strenuous action, so it touches the broad sense of work.
+  - 29:60 [inter] ↔ وَعَمِلُوا۟ (w4): lex (via ع م ل B010): دابا → دَآبَّةٍ
+- [4 kinds] ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير (rare, 3 src) @ بِٱلْحَقِّ
+  - → 31:14 [inter]: lex/src-rare: ويحمل → حَمَلَتْهُ
+  - → وَعَمِلُوا۟ (w4): kw/shared: exertion (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B007 التعمل بمعنى التعني; luna/note/part: part: The punishing ride is one kind of strenuous action, so it touches the broad sense of work.
+  - 31:14 [inter] ↔ وَعَمِلُوا۟ (w4): lex (via ع م ل B001): عام → عَامَيْنِ
+- [4 kinds] ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير (rare, 3 src) @ بِٱلْحَقِّ
+  - → 31:30 [inter]: lex/src-rare: علي → ٱلْعَلِىُّ
+  - → وَعَمِلُوا۟ (w4): kw/shared: exertion (shared) — plain sense of وَعَمِلُوا۟; img/same: same: ع م ل B007 التعمل بمعنى التعني; luna/note/part: part: The punishing ride is one kind of strenuous action, so it touches the broad sense of work.
+  - 31:30 [inter] ↔ وَعَمِلُوا۟ (w4): lex (via ع م ل B003): علي → ٱلْعَلِىُّ
+- [4 kinds] ح ق ق B014 «terlemeyen veya art ayağını ön ayak izine basan at» أحق من الخيل يطابق خطوه أو يشتد بدنه (rare, 3 src) @ بِٱلْحَقِّ
+  - → 12:10 [inter]: rel/same_field: ل ق ط B011 (ayak izini çakıştırma ile özel koşu) → يَلْتَقِطْهُ
+  - → وَتَوَاصَوْا۟ (w6): img/same: same: و ص ي B004 موافقة المرعى للسائمة; luna/reading/image: image: The horse places its hind foot in the track of its forefoot, linking one step to another. Mutual counsel is pictured as people following and matching one anothe
+  - 12:10 [inter] ↔ وَتَوَاصَوْا۟ (w6): lex (via و ص ي B003): بعضا → بَعْضُ
+- [4 kinds] ح ق ق B014 «terlemeyen veya art ayağını ön ayak izine basan at» أحق من الخيل يطابق خطوه أو يشتد بدنه (rare, 3 src) @ بِٱلْحَقِّ
+  - → 2:250 [inter]: kw/shared: step (shared) → أَقْدَامَنَا
+  - → وَتَوَاصَوْا۟ (w6): img/same: same: و ص ي B004 موافقة المرعى للسائمة; luna/reading/image: image: The horse places its hind foot in the track of its forefoot, linking one step to another. Mutual counsel is pictured as people following and matching one anothe
+  - 2:250 [inter] ↔ وَتَوَاصَوْا۟ (w6): lex (via و ص ي B002): تقدم → root ق د م: أَقْدَامَنَا
+
+## Convergence (rare branches by kinds of support; top 40)
+
+- 6 kinds, 17 targets: ع م ل B005 «karşılıklı işlem» المعاملة بين الناس (rare, 2 src) @ وَعَمِلُوا۟ — hft, img, kw, lex, luna, rel
+- 6 kinds, 16 targets: ح ق ق B014 «terlemeyen veya art ayağını ön ayak izine basan at» أحق من الخيل يطابق خطوه أو يشتد بدنه (rare, 3 src) @ بِٱلْحَقِّ — hft, img, kw, lex, luna, rel
+- 6 kinds, 15 targets: و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟ — hft, img, kw, lex, luna, rel
+- 6 kinds, 15 targets: و ص ي B004 «otlağın sürüye bolca elverişli olması» موافقة المرعى للسائمة (rare, 2 src) @ وَتَوَاصَوْا۟ — hft, img, kw, lex, luna, rel
+- 5 kinds, 37 targets: ح ق ق B008 «dördüncü yaşındaki yük taşımaya elverişli deve» ناقة بلغت حق الحمل والانتفاع (rare, 4 src) @ بِٱلْحَقِّ — img, kw, lex, luna, rel
+- 5 kinds, 34 targets: ع م ل B003 «işe görevli kılma veya görev üstlenme» ولاية العمل والقيام عليه (rare, 3 src) @ وَعَمِلُوا۟ — img, kw, lex, luna, rel
+- 5 kinds, 26 targets: ع م ل B004 «iş ücreti» أجر العمل ورزق العامل (rare, 4 src) @ وَعَمِلُوا۟ — img, kw, lex, luna, rel
+- 5 kinds, 24 targets: ء م ن B001 «guven ve guvenilirlik» سكون القلب في أمن وثقة (rare, 5 src) @ ءَامَنُوا۟ — hft, img, kw, lex, luna
+- 5 kinds, 22 targets: ع م ل B011 «işlek yol» الطريق المعمل (rare, 1 src, sole) @ وَعَمِلُوا۟ — hft, img, kw, luna, rel
+- 5 kinds, 21 targets: ع م ل B012 «yaya yolcular» بنو العمل من المشاة (rare, 1 src, sole) @ وَعَمِلُوا۟ — img, kw, lex, luna, rel
+- 5 kinds, 21 targets: ع م ل B008 «işe yatkın ve dayanıklı» المطبوع على العمل (rare, 4 src) @ وَعَمِلُوا۟ — img, kw, lex, luna, rel
+- 5 kinds, 20 targets: ص ب ر B012 «öldürmeye karşılık ölüm cezası» الإقصاص والقود (rare, 1 src) @ بِٱلصَّبْرِ — img, kw, lex, luna, rel
+- 5 kinds, 17 targets: ع م ل B006 «el işçileri» العملة العاملون بالأيدي (rare, 2 src) @ وَعَمِلُوا۟ — img, kw, lex, luna, rel
+- 5 kinds, 17 targets: ص ب ر B010 «katmanlı beyaz bulut» سحاب أبيض متراكم (rare, 3 src) @ بِٱلصَّبْرِ — hft, img, kw, lex, luna
+- 5 kinds, 14 targets: ص ب ر B008 «acı ağaç özü» الصبر المر وعصارته (rare, 3 src) @ بِٱلصَّبْرِ — hft, img, kw, lex, luna
+- 5 kinds, 14 targets: ص ب ر B005 «sert taş ve taşlı arazi» حجر غليظ وأرض حصباء (rare, 4 src) @ بِٱلصَّبْرِ — hft, img, kw, lex, luna
+- 4 kinds, 36 targets: ص ب ر B002 «zorla alıkoyma» حبس القهر للقتل أو اليمين (rare, 4 src) @ بِٱلصَّبْرِ — img, kw, lex, luna
+- 4 kinds, 26 targets: ح ق ق B002 «bağlayıcı gereklilik ve hak ediş» لزوم واجب واستحقاق ثابت (rare, 4 src) @ بِٱلْحَقِّ — img, kw, lex, luna
+- 4 kinds, 22 targets: ع م ل B010 «iş gören beden parçası» الجارحة العاملة (rare, 1 src, sole) @ وَعَمِلُوا۟ — img, kw, lex, luna
+- 4 kinds, 22 targets: ص ب ر B011 «sofra yaygısı ya da yiyecek yığını» رقاقة الخوان وكومة الطعام (rare, 3 src) @ بِٱلصَّبْرِ — img, kw, lex, luna
+- 4 kinds, 22 targets: ء م ن B003 «duada kabul istegi sozu» قول آمين طلبا للاستجابة (rare, 4 src) @ ءَامَنُوا۟ — img, kw, lex, luna
+- 4 kinds, 21 targets: ح ق ق B009 «iç boşluğa ulaşan düz saplanış» طعنة استقامت حتى نفذت (rare, 3 src) @ بِٱلْحَقِّ — hft, img, kw, luna
+- 4 kinds, 21 targets: ح ق ق B012 «bineği gücünü aşacak biçimde sert sürme» حقحقة تجهد الظهر في السير (rare, 3 src) @ بِٱلْحَقِّ — img, kw, lex, luna
+- 4 kinds, 19 targets: ص ب ر B006 «çıkışsız ağır durum» الوقوع في شدة لا منفذ منها (rare, 4 src) @ بِٱلصَّبْرِ — img, kw, lex, luna
+- 4 kinds, 15 targets: ع م ل B007 «zahmete girmek» التعمل بمعنى التعني (rare, 1 src, sole) @ وَعَمِلُوا۟ — img, kw, luna, rel
+- 4 kinds, 14 targets: ع م ل B009 «mızrak ucunun alt bölümü» عامل الرمح (rare, 4 src) @ وَعَمِلُوا۟ — img, kw, lex, rel
+- 4 kinds, 13 targets: ح ق ق B004 «doğru taraf olma savıyla çekişme» محاقة يدعي كل طرف فيها الحق (rare, 4 src) @ بِٱلْحَقِّ — img, kw, lex, luna
+- 4 kinds, 12 targets: ص ب ر B017 «dağ ya da dağların orta kesimi» الجبل ووسطه (rare, 1 src) @ بِٱلصَّبْرِ — img, kw, lex, luna
+- 3 kinds, 24 targets: ص ل ح B004 «kişi adı olan kök türevleri» صالح وما قاربه علما لشخص (rare, 2 src) @ ٱلصَّٰلِحَٰتِ — img, kw, lex
+- 3 kinds, 20 targets: ص ل ح B005 «bir kent ve bir nehir için özel adlar» صلاح والصلح علمان لمواضع (rare, 4 src) @ ٱلصَّٰلِحَٰتِ — img, kw, lex
+- 3 kinds, 16 targets: ص ب ر B009 «demirhindi meyvesi» الصبار حمل الشجرة الحامض (rare, 2 src) @ بِٱلصَّبْرِ — img, kw, lex
+- 3 kinds, 14 targets: ح ق ق B013 «devenin veya sürünün iyice semirmesi» تمام حال الحيوان وقوته (rare, 2 src) @ بِٱلْحَقِّ — img, lex, luna
+- 2 kinds, 14 targets: ص ب ر B016 «bir Arap boyunun adı» بطن من غسان (rare, 1 src) @ بِٱلصَّبْرِ — img, kw
+- 2 kinds, 13 targets: ص ب ر B007 «kışın ayazı» شدة برد الشتاء (rare, 2 src) @ بِٱلصَّبْرِ — img, kw
+
+## Bridges (linked to members of two or more hubs)
+
+- ءَامَنُوا۟ (w3) joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- وَعَمِلُوا۟ (w4) joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- ٱلصَّٰلِحَٰتِ (w5) joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- وَتَوَاصَوْا۟ (w6) joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter]
+- بِٱلْحَقِّ (w7) joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- وَتَوَاصَوْا۟ (w8) joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7)
+- بِٱلصَّبْرِ (w9) joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 103:1 [surah] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 103:2 [surah] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 1:1 [fatiha] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 1:2 [fatiha] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 1:4 [fatiha] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter]
+- 1:5 [fatiha] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 1:6 [fatiha] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 1:7 [fatiha] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 36:50 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5)
+- 19:96 [inter] joins بِٱلْحَقِّ (w7), 6:144 [inter]
+- 51:53 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 16:102 [inter] joins 31:30 [inter], 6:144 [inter]
+- 6:144 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter]
+- 40:25 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 43:86 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 7:8 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 2:213 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 6:151 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 33:72 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 46:15 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 29:41 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter], 6:144 [inter]
+- 22:50 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 88:3 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 95:1 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter]
+- 77:43 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5)
+- 2:180 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 3:120 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter]
+- 8:1 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5)
+- 4:157 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter], 6:144 [inter]
+- 31:14 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 2:177 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 2:83 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter], 6:144 [inter]
+- 2:195 [inter] joins بِٱلْحَقِّ (w7), 31:30 [inter]
+- 2:214 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 3:92 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 3:103 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 3:104 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 3:146 [inter] joins بِٱلْحَقِّ (w7), 31:30 [inter], 6:144 [inter]
+- 4:36 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 4:114 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter], 6:144 [inter]
+- 5:2 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter]
+- 5:48 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 6:152 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 8:24 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 9:71 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 9:112 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 10:9 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 11:88 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 17:23 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 17:53 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 18:28 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 23:8 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5)
+- 24:22 [inter] joins 31:30 [inter], 6:144 [inter]
+- 25:72 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter]
+- 29:58 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 33:35 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 35:10 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter]
+- 41:34 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 48:29 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5)
+- 59:9 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 70:33 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 76:8 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 94:7 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 107:3 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 2:132 [inter] joins بِٱلْحَقِّ (w7), 31:30 [inter]
+- 2:176 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter]
+- 2:228 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 2:240 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 3:142 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 4:11 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 4:69 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5)
+- 4:98 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 4:123 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 4:124 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 5:106 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 6:73 [inter] joins 31:30 [inter], 6:144 [inter]
+- 7:35 [inter] joins بِٱلْحَقِّ (w7), 31:30 [inter]
+- 7:85 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 7:142 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 7:170 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 7:196 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 8:74 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter]
+- 12:101 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 16:110 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter]
+- 18:2 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter]
+- 18:82 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 21:94 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 26:83 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 27:19 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 28:19 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 31:30 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 6:144 [inter]
+- 31:33 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 35:7 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter], 31:30 [inter]
+- 43:29 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 47:3 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 52:48 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 66:10 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 90:6 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 18:31 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 34:36 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 34:38 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 95:5 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 2:181 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7)
+- 8:2 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 29:8 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 9:72 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 25:64 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 31:18 [inter] joins بِٱلْحَقِّ (w7), 29:60 [inter]
+- 3:115 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 32:17 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 9:111 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 4:115 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 5:3 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 11:89 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 16:91 [inter] joins وَعَمِلُوا۟ (w4), 31:30 [inter]
+- 2:212 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 10:3 [inter] joins 31:30 [inter], 6:144 [inter]
+- 10:5 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 2:159 [inter] joins 31:30 [inter], 6:144 [inter]
+- 14:11 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 3:111 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 40:56 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 3:105 [inter] joins 31:30 [inter], 6:144 [inter]
+- 42:12 [inter] joins ٱلصَّٰلِحَٰتِ (w5), بِٱلْحَقِّ (w7)
+- 4:136 [inter] joins ٱلصَّٰلِحَٰتِ (w5), 29:60 [inter]
+- 5:7 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5)
+- 11:12 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter]
+- 2:178 [inter] joins وَعَمِلُوا۟ (w4), بِٱلْحَقِّ (w7), 31:30 [inter]
+- 4:129 [inter] joins وَعَمِلُوا۟ (w4), 29:60 [inter], 31:30 [inter], 6:144 [inter]
+- 29:60 [inter] joins وَعَمِلُوا۟ (w4), ٱلصَّٰلِحَٰتِ (w5), 31:30 [inter], 6:144 [inter]
+
+## Chain material (per hub: surah ayat its members touch, in surah order)
+
+- وَعَمِلُوا۟ (w4): 103:1 (ء م ن B003, ح ق ق B002, ح ق ق B008, ص ب ر B002, و ص ي B004) → 103:2 (ء م ن B003, ح ق ق B002, ح ق ق B008, ص ب ر B002, و ص ي B004)
+- ٱلصَّٰلِحَٰتِ (w5): 103:1 (ح ق ق B012, ص ب ر B008, ص ب ر B011, ع م ل B003, ع م ل B010, و ص ي B004) → 103:2 (ح ق ق B012, ص ب ر B008, ص ب ر B011, ع م ل B003, ع م ل B010, و ص ي B004)
+- بِٱلْحَقِّ (w7): 103:1 (ء م ن B001, ص ب ر B005, ص ب ر B008, ص ب ر B011, ص ب ر B012, ع م ل B004, ع م ل B011) → 103:2 (ء م ن B001, ص ب ر B005, ص ب ر B008, ص ب ر B011, ص ب ر B012, ع م ل B004, ع م ل B011)
+- 29:60 [inter]: 103:1 (ح ق ق B008, ح ق ق B012, ص ب ر B009, ع م ل B010) → 103:2 (ح ق ق B008, ح ق ق B012, ص ب ر B009, ع م ل B010)
+- 31:30 [inter]: 103:1 (ح ق ق B008, ح ق ق B012, ص ب ر B002, ع م ل B003, ع م ل B008, ع م ل B012) → 103:2 (ح ق ق B008, ح ق ق B012, ص ب ر B002, ع م ل B003, ع م ل B008, ع م ل B012)
+- 6:144 [inter]: 103:1 (ح ق ق B008, ص ل ح B004, ع م ل B008) → 103:2 (ح ق ق B008, ص ل ح B004, ع م ل B008)
+
+## Formula groups (other ayat sharing ≥2 focus roots; leaves, not members)
+
+- ح ق ق + ص ل ح + ع م ل (3): 4:122, 10:4, 47:2
+- ص ب ر + ص ل ح + ع م ل (2): 11:11, 28:80
+- ص ل ح + ع م ل + و ص ي (1): 46:15
+- ص ل ح + ع م ل (86): 2:25, 2:62, 2:82, 2:277, 3:57, 4:57, 4:124, 4:128
+- ح ق ق + ع م ل (7): 2:144, 2:149, 7:43, 7:53, 7:118, 10:23, 45:29
+- ح ق ق + ص ب ر (4): 2:61, 30:60, 40:55, 40:77
+- ص ب ر + ع م ل (3): 3:120, 16:96, 52:16
+- ح ق ق + و ص ي (2): 2:180, 6:151
+- ح ق ق + ص ل ح (2): 2:228, 5:84
+- ص ب ر + و ص ي (1): 90:17
+- ص ب ر + ص ل ح (1): 18:82
+- ع م ل + و ص ي (1): 29:8
+- ص ل ح + و ص ي (1): 2:182
+
+## HFT mechanisms and the hubs they touch
+
+- baseline_reciprocal_maintenance_circuit [baseline_models] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
+- baseline_custody_of_due_claims [baseline_models] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
+- baseline_repair_and_verification_workshop [baseline_models] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
+- baseline_fit_join_and_contain [baseline_models] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 31:30 [inter]
+- delta_time_relay [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 31:30 [inter]
+- delta_pressure_extracts_proof [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 31:30 [inter]
+- delta_refuge_network [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
+- delta_humanization_by_mutual_presence [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7)
+- delta_collective_perception_of_truth [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); 31:30 [inter]
+- delta_loss_ledger [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
+- delta_measure_calibration [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
+- delta_anti_diminution_container [context_deltas] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 31:30 [inter]
+- outlier_traveling_cohort [surprising_valid_outliers] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
+- outlier_cultivated_pasture [surprising_valid_outliers] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7)
+- outlier_bitter_dose_through_constriction [surprising_valid_outliers] → وَعَمِلُوا۟ (w4); ٱلصَّٰلِحَٰتِ (w5); بِٱلْحَقِّ (w7); 29:60 [inter]
